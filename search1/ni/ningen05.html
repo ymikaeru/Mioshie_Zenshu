@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ningen05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間の賢愚 『信仰雑話』P.104、昭和23(1948)年9月5日発行 人間生まれながらにして賢愚があるのは、いかなる訳であろうか。<br><br>これについて解説してみよう。<br><br>それについて前もって知らなければならない事は、人間は一度は必ず死ぬが、死とは何ぞやという事である。<br><br>死とは実は老廃したり、大負傷したり、病気の為衰弱したりして、その肉体が使用に堪えなくなったために、霊魂がその肉体を捨てて霊界へ往き、数年、数十年、数百年にわたって浄化作用が行なわれる。<br><br>それは現界における生存中に、いかなる者といえども相当の罪穢を犯し、それが溜まっているので、ちょうど長く清掃をしない家や衣服と同様であって、浄化された霊から再生する訳は前項（霊線について）に述べた通りであり、もちろん人間の霊には再生が多いが、新生の霊もある。<br><br>この新生の霊は霊界における生殖作用によるのであって、これは現界の生殖作用と異なり神秘極まるようである。<br><br>かくのごとく再生の霊と新生の霊とがあり、新生の霊は人間としての経験が乏しいため、どうしても幼稚であるに対し、再生霊に至っては、人間としての経験を積んでいるため賢い訳であるから、再生の度数の多い程賢く、偉大なる人物は最も古い霊魂という訳である。<br><br> 次に転生というのがある。<br><br>仏教に輪廻転生という言葉があるが、この事である。<br><br>これは人間が生存中に犯した罪が重い場合、畜生に生まれる。<br><br>すなわち狐、狸、猫、犬、蛇、蛙、鳥等が主なるもので、多くの種類がある。<br><br>なぜ畜生道へ堕ちるかというと、生前の想念と行ないが人間以下に堕落し、畜生同様になったからである。<br><br>こういう事をいうと、現代人はとかく信じ難いであろうが、私は二十数年にわたり、無数の経験によって動かすべからざる断定を得たのである。<br><br> その中で二、三の実例を書いてみよう。<br><br> （一）某家に長年飼われているかなり大きな犬があった。<br><br>家人いわく「この犬は不思議な犬で、座敷にいて決して地面へ降りようとしない。<br><br>使用人が呼んでも行かない。<br><br>すべて家族の者でなくては言う事を聞かないばかりか、絹布の座布団でなくては座らないし、座敷も一番良いのを好み、食事も贅沢好みで、人間と同じでなくては気に入らないのです。<br><br>これはどういう訳でしょう」ときくので、私は――「この犬はあなたの家の祖先が畜生道へ堕ち、犬に生まれたのです。<br><br>従ってあなた方を自分より下に見ており、自分は家長の気持でいるのです」と答えたので納得がいった。<br><br> （二）六十歳くらいの老婆、狐霊が二、三十匹憑依し、それが豆粒大の大きさで身体中におり、特に腋下に多くいた。<br><br>私がその豆粒へ指の先から霊射をすると非常に苦しむ。<br><br>その際老婆の口から「痛い、いたい苦しい、助けてくれ。<br><br>今出る、出るから勘忍してくれ」というような事をわめくと共に、豆粒は順々に消え去るが、数時間経つとまた集まってくる。<br><br>これはいかなる訳かというと、その老婆は前生において女郎屋の主人であって、その時傭った多くの女郎が畜生道に落ち、狐霊となって、復讐せんと、老婆を苦しめているのである。<br><br>ある時は「老婆の生命を奪る」と狐霊が囁（ささや）き、心臓部の下を非常に痛めたり、ある時は食事半ばにして食道を締めつけ、飯を通らなくしたり、ある時は一日くらい尿を止める等、種々のいたずらをするが、その都度私は霊射し治癒させたのである。<br><br> （三）以前私は、宗教が当局から圧迫された時代、やむを得ず民間治療を行なった事があった。<br><br>その際衣服を脱がせて患部を治療したのである。<br><br>その頃腰部から腹へかけて、蛇の鱗のごとき斑点があり、赤色あるいは薄黒色の人をたびたび見た事がある。<br><br>これは蛇が人間に転生したもので、その鱗の形が残存している訳である。<br><br> また色盲という病気は動物霊の転生であって、その動物の特異質が残存しているためである。<br><br>すべて動物の眼は物体が単色に見えるもので、ちょうど動物の音声が一種または二種ぐらいの単音である事と同一である。<br><br> その他多数の実例があるけれど略すが、すべて転生の場合、残存せる動物霊の性能が多分にあるものである。<br><br>そうして動物に人語を解するのと解せないのとがあるが、人語を解せないのは純粋の動物である。<br><br>猫や蛇を殺したりすると祟るというが、これは人間が転落し再生した動物であるからで、そうでないのは祟るような事はない。<br><br>よく田舎など青大将がふるくからいるが、これは祖先が蛇となってその家を守護しているので、こういう蛇を殺すと必ず祟って、次々に死人が出来たり、甚だしきは家が断絶する事さえある。<br><br>それは折角守護していた祖霊を殺したため、非常に立腹するからである。<br><br>そうして、人間性のうち執着が蛇霊となり、偽りを好み人を騙したりする結果は狐霊となるのである。<br><br>一旦畜生道へ落ちて転生しても、その一代はあまり幸福ではない。<br><br>特に女性の独身者の多くはそれである。<br><br> 今一つおもしろい事がある。<br><br>旅行の時など特に親しみのある場所があるが、それは前生においてその付近に居住または滞在した事のあるためである。<br><br>また他人であって親子兄弟よりも親しめる人がある。<br><br>それらも前世において親子、兄弟、主従、親友等であったからで、因縁とはこの事を指して言ったものである。<br><br>それと反対にどうしても親しめなかったり、不快を感ずる人は、前世において仲が悪かったり苦しめられたりしたためである。<br><br>また古（いにしえ）の偉人英雄や武将等で、特に崇拝する人物があるが、これらも前世において自分が臣下や部下であったためである。<br><br>また熱烈な恋愛に陥る男女の場合、これは前世において、相愛しながら恋愛が成立しなかった男女が、たまたま今生において相知り、その時の執着が強く霊魂に沁み付いているため、目的を達して喜びのあまり夢中となるのであるが、これらは当人自身でも不可解と思う程情熱が燃え上がるものである。<br><br>また男女共独身を通す者があるが、これは前生において男女関係が原因で、刑罰や災害等により生命を奪われる際、悔恨の情にたえず、男女関係に恐怖を抱いたためにほかならないのである。<br><br> その他水を恐れたり、高所を恐れたり、人混みを恐れたり、またはある種の獣類、虫類等を恐れたりする人は、右の原因による死のためである。<br><br>以前こういう例があった。<br><br>その人は人のいない場所をおそれ、一人もいなくなると恐怖に我慢が出来ず往来へ飛び出し、家人の帰宅するまで家に入らないのである。<br><br>これは前生において急病等のため、人を呼びたくも誰もおらず、そのまま死んでしまったためで、その霊が再生したからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Origens da Sabedoria e da Insensatez Humana</h2>
 <p>Por qual razão existem, desde o nascimento, diferenças de sabedoria e insensatez entre os seres humanos? Permitam-me dissertar sobre o tema. Para compreendê-lo, é imprescindível, antes de tudo, entender o que é a morte, um evento pelo qual todo homem inevitavelmente passará.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>De modo semelhante, quando nutrimos uma admiração particular por grandes heróis ou generais da antiguidade, é provável que, em outra era, tenhamos sido seus subordinados ou vassalos. No que tange ao amor arrebatador entre um homem e uma mulher, geralmente se trata de um casal que, em uma vida anterior, se amou profundamente, mas não pôde concretizar sua união. O forte apego que ficou impregnado em suas almas faz com que, ao se reencontrarem nesta vida, uma paixão tão avassaladora que se torna incompreensível para os próprios envolvidos venha à tona, culminando em um êxtase de felicidade ao finalmente atingirem seu objetivo.</p>
 <p>Por outro lado, existem homens e mulheres que optam por uma vida de celibato. Isso se deve ao fato de, em uma encarnação anterior, terem perdido a vida em decorrência de um problema afetivo, seja por punição ou por uma tragédia. O profundo arrependimento gerou neles um pavor das relações humanas, que persiste até hoje.</p>
 <p>Outros medos, como a fobia de água, de altura, de multidões ou de certos animais e insetos, têm sua raiz na forma como a pessoa morreu em uma vida pregressa. Lembro-me do caso de um indivíduo que temia lugares desertos. Quando se via completamente só, era tomado por um pavor tão insuportável que corria para a rua e só retornava ao lar com a chegada de um familiar. A causa residia em sua vida anterior: acometido por uma doença súbita, quis chamar por socorro, mas não havia ninguém por perto, e ele acabou por falecer em solidão. O espírito que renasceu trazia consigo o trauma daquele desamparo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間の賢愚 『信仰雑話』P.104、昭和23(1948)年9月5日発行 人間生まれながらにして賢愚があるのは、いかなる訳であろうか。<br/><br/>これについて解説してみよう。<br/><br/>それについて前もって知らなければならない事は、人間は一度は必ず死ぬが、死とは何ぞやという事である。<br/><br/>死とは実は老廃したり、大負傷したり、病気の為衰弱したりして、その肉体が使用に堪えなくなったために、霊魂がその肉体を捨てて霊界へ往き、数年、数十年、数百年にわたって浄化作用が行なわれる。<br/><br/>それは現界における生存中に、いかなる者といえども相当の罪穢を犯し、それが溜まっているので、ちょうど長く清掃をしない家や衣服と同様であって、浄化された霊から再生する訳は前項（霊線について）に述べた通りであり、もちろん人間の霊には再生が多いが、新生の霊もある。<br/><br/>この新生の霊は霊界における生殖作用によるのであって、これは現界の生殖作用と異なり神秘極まるようである。<br/><br/>かくのごとく再生の霊と新生の霊とがあり、新生の霊は人間としての経験が乏しいため、どうしても幼稚であるに対し、再生霊に至っては、人間としての経験を積んでいるため賢い訳であるから、再生の度数の多い程賢く、偉大なる人物は最も古い霊魂という訳である。<br/><br/> 次に転生というのがある。<br/><br/>仏教に輪廻転生という言葉があるが、この事である。<br/><br/>これは人間が生存中に犯した罪が重い場合、畜生に生まれる。<br/><br/>すなわち狐、狸、猫、犬、蛇、蛙、鳥等が主なるもので、多くの種類がある。<br/><br/>なぜ畜生道へ堕ちるかというと、生前の想念と行ないが人間以下に堕落し、畜生同様になったからである。<br/><br/>こういう事をいうと、現代人はとかく信じ難いであろうが、私は二十数年にわたり、無数の経験によって動かすべからざる断定を得たのである。<br/><br/> その中で二、三の実例を書いてみよう。<br/><br/> （一）某家に長年飼われているかなり大きな犬があった。<br/><br/>家人いわく「この犬は不思議な犬で、座敷にいて決して地面へ降りようとしない。<br/><br/>使用人が呼んでも行かない。<br/><br/>すべて家族の者でなくては言う事を聞かないばかりか、絹布の座布団でなくては座らないし、座敷も一番良いのを好み、食事も贅沢好みで、人間と同じでなくては気に入らないのです。<br/><br/>これはどういう訳でしょう」ときくので、私は――「この犬はあなたの家の祖先が畜生道へ堕ち、犬に生まれたのです。<br/><br/>従ってあなた方を自分より下に見ており、自分は家長の気持でいるのです」と答えたので納得がいった。<br/><br/> （二）六十歳くらいの老婆、狐霊が二、三十匹憑依し、それが豆粒大の大きさで身体中におり、特に腋下に多くいた。<br/><br/>私がその豆粒へ指の先から霊射をすると非常に苦しむ。<br/><br/>その際老婆の口から「痛い、いたい苦しい、助けてくれ。<br/><br/>今出る、出るから勘忍してくれ」というような事をわめくと共に、豆粒は順々に消え去るが、数時間経つとまた集まってくる。<br/><br/>これはいかなる訳かというと、その老婆は前生において女郎屋の主人であって、その時傭った多くの女郎が畜生道に落ち、狐霊となって、復讐せんと、老婆を苦しめているのである。<br/><br/>ある時は「老婆の生命を奪る」と狐霊が囁（ささや）き、心臓部の下を非常に痛めたり、ある時は食事半ばにして食道を締めつけ、飯を通らなくしたり、ある時は一日くらい尿を止める等、種々のいたずらをするが、その都度私は霊射し治癒させたのである。<br/><br/> （三）以前私は、宗教が当局から圧迫された時代、やむを得ず民間治療を行なった事があった。<br/><br/>その際衣服を脱がせて患部を治療したのである。<br/><br/>その頃腰部から腹へかけて、蛇の鱗のごとき斑点があり、赤色あるいは薄黒色の人をたびたび見た事がある。<br/><br/>これは蛇が人間に転生したもので、その鱗の形が残存している訳である。<br/><br/> また色盲という病気は動物霊の転生であって、その動物の特異質が残存しているためである。<br/><br/>すべて動物の眼は物体が単色に見えるもので、ちょうど動物の音声が一種または二種ぐらいの単音である事と同一である。<br/><br/> その他多数の実例があるけれど略すが、すべて転生の場合、残存せる動物霊の性能が多分にあるものである。<br/><br/>そうして動物に人語を解するのと解せないのとがあるが、人語を解せないのは純粋の動物である。<br/><br/>猫や蛇を殺したりすると祟るというが、これは人間が転落し再生した動物であるからで、そうでないのは祟るような事はない。<br/><br/>よく田舎など青大将がふるくからいるが、これは祖先が蛇となってその家を守護しているので、こういう蛇を殺すと必ず祟って、次々に死人が出来たり、甚だしきは家が断絶する事さえある。<br/><br/>それは折角守護していた祖霊を殺したため、非常に立腹するからである。<br/><br/>そうして、人間性のうち執着が蛇霊となり、偽りを好み人を騙したりする結果は狐霊となるのである。<br/><br/>一旦畜生道へ落ちて転生しても、その一代はあまり幸福ではない。<br/><br/>特に女性の独身者の多くはそれである。<br/><br/> 今一つおもしろい事がある。<br/><br/>旅行の時など特に親しみのある場所があるが、それは前生においてその付近に居住または滞在した事のあるためである。<br/><br/>また他人であって親子兄弟よりも親しめる人がある。<br/><br/>それらも前世において親子、兄弟、主従、親友等であったからで、因縁とはこの事を指して言ったものである。<br/><br/>それと反対にどうしても親しめなかったり、不快を感ずる人は、前世において仲が悪かったり苦しめられたりしたためである。<br/><br/>また古（いにしえ）の偉人英雄や武将等で、特に崇拝する人物があるが、これらも前世において自分が臣下や部下であったためである。<br/><br/>また熱烈な恋愛に陥る男女の場合、これは前世において、相愛しながら恋愛が成立しなかった男女が、たまたま今生において相知り、その時の執着が強く霊魂に沁み付いているため、目的を達して喜びのあまり夢中となるのであるが、これらは当人自身でも不可解と思う程情熱が燃え上がるものである。<br/><br/>また男女共独身を通す者があるが、これは前生において男女関係が原因で、刑罰や災害等により生命を奪われる際、悔恨の情にたえず、男女関係に恐怖を抱いたためにほかならないのである。<br/><br/> その他水を恐れたり、高所を恐れたり、人混みを恐れたり、またはある種の獣類、虫類等を恐れたりする人は、右の原因による死のためである。<br/><br/>以前こういう例があった。<br/><br/>その人は人のいない場所をおそれ、一人もいなくなると恐怖に我慢が出来ず往来へ飛び出し、家人の帰宅するまで家に入らないのである。<br/><br/>これは前生において急病等のため、人を呼びたくも誰もおらず、そのまま死んでしまったためで、その霊が再生したからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

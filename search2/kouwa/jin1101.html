@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin1101</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ８ 101-116 結婚の良否 101 非信者との結婚 御道の資格者が結婚したいと思い、また周囲の人も良縁と思っても、その相手やその家族が御道を理解しない場合には、結婚しても御道の御奉仕に障害になると存じますが、この点どうでございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> その当座だけで、気にする要もない。<br><br>（S24.11.13） 102 大浄化と結婚 大浄化のすむ迄、結婚適齢者が結婚を控えておりますが、最近この事について、無理して待つのは我執のように言う人もありますがどうでしょうか。<br><br>御尋ね申し上げます。<br><br> 構わぬからドシドシ結婚せよ。<br><br>決して差支えない。<br><br> rattail（注） 〔 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行〕掲載 103 嫁入して守護神が変るか（霊界の関係） 女が嫁に行きますと姓が変りますが、御先祖の守護神は婚家先の守護神に変って戴くのでしょうか。<br><br> 守護神は変らぬが、霊界は封建でもなく、民主主義でもない。<br><br>無理のない理屈に合っている。<br><br>その家の先祖が、いろんな事を言いつけたり相談したりする。<br><br> 104 縁談について 長男（三十才）、次男（二十六才）縁談について御伺い致します。<br><br> （イ）長男は本年四月十四日に妻を結核でなくしましたので、後妻をすすめる人があります。<br><br>現在は二十二才の婦人と縁談進行中でありますが、本年中に式を挙げたらよいか、来年にした方がよいでしょうか。<br><br> （ロ）次男は二十三才の婦人と縁談が纒まっております。<br><br>兄より先に本年中に結婚式を挙げても差支えありませんか。<br><br> （ハ）世間にはよく年廻りや方角等を云々する人がありますが、長男の亡妻は鬼門の方角から来たからよくなかったと申します。<br><br>私は再び息子達を不幸な目に遭わせたくありませんので、謹みて御伺い申し上ぐる次第であります。<br><br> 差支えない。<br><br>祖先がやっている。<br><br>霊的向上すればよい。<br><br>これが根本である。<br><br>（S24.10. 5） 105 婚姻と血統家柄（霊統の判別） 婚姻の際、血統とか家柄とかを重視する傾向がありますが、双方が御光を戴き、また光明如来様をお祭りしている家では、因襲的なこの見方に捉われる事は不必要と思いますがいかがでありましょうか。<br><br>もし世間的に悪い血統と見られる家でも、光明如来様をお祭りすれば浄化されるのではないでしょうか。<br><br>御教示下さい。<br><br> これでいい。<br><br>血統の良い悪いはない。<br><br>血統の良し悪しは人間で分るもんでない。<br><br> 霊統は、霊的系統である。<br><br>日本の大和民族の系統は一割位は難しい。<br><br>後多いのは支那人である。<br><br>これは見分けはつかぬ。<br><br>霊統は見分ける事は出来る（が今言えぬ）。<br><br>血統は混血する程よい。<br><br>すべて産土神が結合するから安心して結婚すべきだ。<br><br>（S24. 6.25） 106 血族結婚と浄化多き家庭（湯西川温泉白河村） 従兄弟同志の結婚が二代続きまして、二代目に子供が十人生まれましたが、三名が死亡、三名が唖と聾、四名は満足で現在四名中の長男が家長となり、三男三女があり、家には光明如来様、幽世大神様をお祀りさせて頂いております。<br><br>教修は家長夫妻と次男と三女が頂いております。<br><br>次女は子供の時から顔に赤痕がありましたので、数回手術を受けて現在は醜い顔になっております。<br><br>また教修を頂いている次男は、常に右半身の御浄化を頂き、常に外傷等も右にのみ受けております。<br><br>今後いかに致しますれば家族の安泰が願われ、先代からの因縁が許されるのでありましょうか。<br><br>右お尋ねさせていただきます。<br><br> 従兄弟同志の結婚は差支えない故、その原因によるのではない。<br><br>これは他の罪によるのである。<br><br>血族結婚は決してわるくない。<br><br> 五、六年前湯西川へ行った。<br><br>当時その村は人口九百人位あった。<br><br>元平家残党が源氏に追われて逃げて、人の来られぬところ、来られぬところへ逃げたものである。<br><br> 私が行った時も、四里を牛車で行って六時間もかかった。<br><br>最初逃げた時は三十人位だったのが今では九百人位に増えた。<br><br>その間従兄弟同志結婚したに違いない。<br><br>現在中風の人が一人だけで病人がない。<br><br>これによっても血族結婚であって病人がない事が証さるる。<br><br> 宿の娘と話したが、実に利巧で返事など実に適切で出しゃばらず、態度や言葉など実に立派で感心した。<br><br>これによっても血族結婚で馬鹿が出来るという事はない訳だ。<br><br>この宿屋は部落の裁判などあらゆる事をやっている。<br><br> 先祖代々絶対菜食で鶏一羽もいない。<br><br>一行が持って来た最中の箱をあけてみると卵が入っていた。<br><br>それと隣村から鶏をもらって来てくれて夕食したのである。<br><br>この部落では、たまには日光のものとは結婚することはあるが、東京の者とは結婚しない、病気になるからと言う。<br><br>これをもってみても菜食がいい事が分る。<br><br>魚など食った事がないし、食おうとも思わぬという。<br><br> 最初逃げた時は葛の根をくって生きていたという。<br><br>故に人間はどこへいっても生きて行けると思った。<br><br> 飛騨の白河も平家村で、学者調査した事あり、そこもやはり血族結婚であった。<br><br>西洋医学者も血族結婚は差支えないという説を唱えている。<br><br> 質問の場合は諸々罪穢が多いので、これを除くのは、人を多く助け、その徳により、自家が助かる以外にない。<br><br>この人は今罪穢をとられてる最中である。<br><br>人間の幸不幸は人間が作る。<br><br>人を苦しめれば自分が苦しむ。<br><br>ただこれだけの事でこれを信ずるか否かで、信ずれば幸いになる。<br><br>教修をうけて人を幸せにする方法を知る。<br><br>それによって早く罪穢がとれる。<br><br> また、観音様を拝む事によって早くきれいになると共に、早く幸福になる。<br><br> 今迄の神は力がうすい。<br><br>逆に罪をつくる宗教もある。<br><br>観音教団はこの点からいっても素晴しい。<br><br> rattail（注） 〔 湯西川温泉 、自観叢書第5編『自観隨談』P.50、昭和24(1949)年8月30日発行〕 107 近親結婚白痴生むか、吾妹の語原（湯西川） 近親結婚が白痴を生むと言う霊的関係を御教示願います。<br><br> こんな事はない。<br><br>これは間違いである。<br><br>近来外国の統計学者など差支えないと言い出した。<br><br>平家村など、最初十人か二十人立籠り、追っかけられて逃げた。<br><br>その中殖えたので、血族結婚よりやりようがない。<br><br>血族結婚は寧ろ世間の人より利巧で健康である。<br><br>湯西川でも最初三十人だったのが、戸籍人口約六百人になった。<br><br>最初は葛の根を食っていた。<br><br>それから畠など作るようになって何百年間菜食した。<br><br>谷川が流れ、鮎などがいても食わぬ。<br><br>食った事がないから食いたくないという。<br><br>また病人がないという。<br><br>ただ酒を飲み過ぎて中気になったのがあり肺病は一人もない。<br><br>日光の人とは結婚するがそれ以外は結婚しない。<br><br>病気を背負うからだという。<br><br>宿屋の娘は実に頭がいい。<br><br>都会でもみないほどである。<br><br>恰度程よいのである。<br><br>質問に対する答は要領を得ている。<br><br>であるから血族結婚はよくないない （ﾏﾏ） かと思う。<br><br>この結果をみても悪くない。<br><br>伊邪諾、伊邪冊の時代でも、最初は兄弟で結婚した。<br><br>子を生むには兄妹で結婚する外はない。<br><br>妹を娶ったに違いない。<br><br>だから妻の事を吾妹という。<br><br>吾妹子とか、妹背などという。<br><br>近親結婚は法律で許される範囲で差支えない。<br><br> 108 血族結婚（系統遠いほど可） 血族結婚の可否――。<br><br> 差支えない。<br><br>人類は血族結婚で繁殖した。<br><br>最初は兄弟で婚した。<br><br>それで妻の事を吾妹子という。<br><br> 系統の近寄っているものは、性質が似通っているから、あまり利巧な子は出来ない。<br><br>遠い系統の方が、異った性質が混るか利巧になる。<br><br>故に混血する程いい。<br><br>血族結婚はその点単調になり易い。<br><br> （奥日光に平家村があるが、現在六百人位。<br><br>最初は三十人位であった。<br><br>病人は殆んどなく、絶対菜食主義である。<br><br>宿の娘と話したが、実に頭が良くはっきりしていた。<br><br>近来西洋で可と唱える学者がいる）（S21.11.21） 109 叔父姪の結婚 叔父と姪の結婚はどうで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 叔父と姪なら構わぬ。<br><br>親子はいけない。<br><br>（S24. 2. 9） rattail（注） 〔 御垂示（S26年11月8日） 『御垂示録』4号、昭和26(1951)年12月10日発行〕 「血族結婚はどの程度まででございましょうか」 『親と兄妹は許されなくて、あとは許されます。<br><br>従兄でもハトコでもかまわない。<br><br>』 〔 御光話（S24年 2月18日） 『御光話録』4号、昭和24(1949)年<b>月</b>日発行〕 ――（九）血族結婚はいかがでしょうか。<br><br> 『これは差し支えありませんよ。<br><br>しかし、まあ親子や兄弟の間ではよしたほうがいいでしょうね。<br><br>（笑声）……西洋でも血族結婚は差し支えないと言ってますね。<br><br>』 〔 妙智の鍵（光明分会３月号） 、昭和24(1949)年3月23日発行〕 ――血族結婚は霊的にいかなる意味がございましょうか。<br><br> 『人類の最初は血族結婚で繁殖しました。<br><br>太古は兄弟姉妹の夫婦もあり、血族結婚は別に差し支えありません。<br><br>ただ血族は性質が似ているためあまり悧巧（りこう）な人間は生まれません。<br><br>』 110 血族結婚と眼 血族結婚は関係ない。<br><br>目は必ず治る。<br><br>ただ薬だけである。<br><br>（S23.11.16） 111 実子と養子の結婚 幼少の時から育てた養子と、以後に生れた実子との結婚は差支えないでしょうか。<br><br> 実際は差支えないが、法律上はいけない。<br><br>（S24. 5.13） 112 外人との結婚、御用意のごとくならず（五六七世の国際結婚） 私の知人で外国人と結婚している人がおりますが、その霊的関係はいかなる結果になるので御座いましょうか。<br><br>現在大光明如来様を奉斎しておりますが、御用も思うようにもならず、いかに致し御用の途に励む事が出来ましょうか。<br><br>御伺い申し上げます。<br><br> 差支えない。<br><br>五六七世になるとこういう事は反って余計になる。<br><br>世界は一列になる。<br><br>気にするのは世界的になっていない。<br><br> 日本人の場合でも御用の出来ぬ事がある。<br><br>未だ時が来てない。<br><br>気をもまず時を待つ。<br><br>（S24. 1.26） 113 国際結婚の霊の帰属 外人と結婚した霊の帰属――。<br><br> 外国人と結婚した場合は、その霊の帰属は男の国に属する。<br><br>（S23） rattail（注） 〔 御光話（S23年 6月18日） 『御光話録（補）』発行年月日不明、推定昭和26年頃〕 114 結婚前後の男女関係 結婚した相手の婦人に、結婚前既に他に関係した男性があった場合、御道の信者としていかに考えるべきでしょうか。<br><br>また結婚後、三角関係に陥った場合、信者としてどのように致すべきでしょうか。<br><br> 結婚前に関係のあったものなら構わない。<br><br>相愛関係にあっても、事情により結婚出来なかった場合もあろう。<br><br>結婚後に他に関係のあるのは無論わるい。<br><br>罪になる。<br><br> 115 無理な結婚 昭和二十二年の年末に、私は石橋和子（現在二十才、当時十八才）と婚約致しました。<br><br>その時、一年後の二十四年春に挙式するように決っておりましたので、今年一月中旬結婚日を決めるため、先方と相談致しましたところ、今年の春はどうしてもいけないと言うのです。<br><br>二回とも行ってお話したのですが、今年の秋でなくてはいけないと言いますが、今春中に結婚しなければならない私の家の事情もあり、妻のある方が一途に御神業に精進出来るので御座います。<br><br>石橋和子とこの際無理にでも結婚すべきか、あるいは他に適当な縁談を見付けるべきか、いかにすべきか迷っております。<br><br>御指示を御願い致します。<br><br> 何もあまり心配せず、観音様にお任せすればうまくゆく。<br><br>皆賛成するようになってするのがよい。<br><br>あまりに強い反対がある場合は止めた方がよい。<br><br>無理に押し切ってやるのはいけない。<br><br>霊が邪魔する。<br><br>観音様にお任せしておけば、無理なく、案外賛成して喜ぶようになる。<br><br>時を待つ事だ。<br><br>（S24. 2.10） 116 姑ある家に嫁せしむるが可か 娘を嫁がせます場合、姑のある所へやって姑に孝養を尽す方がその子の将来のためによいという人も御座いますがどうでしょうか。<br><br>よく姑のある人の所へ嫁ぐ事を嫌う人がありますので御伺い申し上げます。<br><br> どっちともいえぬ。<br><br>両方ある。<br><br>嫁の性格にもよる。<br><br>割合素直で、人と和合する性格ならいい。<br><br>霊界で救われるのは大きいから、死んでからほんとの親孝行が出来る。<br><br>（S24.12.23）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Mestre Okada Jikan – A Conveniência do Matrimônio</h2>
 <p><strong>101. O Casamento com um Não Crente</strong></p>
@@ -155,5 +307,48 @@ Mesmo entre japoneses, há casos em que a dedicação não avança. É porque o 
 <p><strong>116. É Preferível que a Filha se Case em um Lar com Sogra?</strong></p>
 <p><strong>Pergunta:</strong> Ao casar uma filha, algumas pessoas dizem que é melhor para o futuro dela que vá para um lar onde haja uma sogra, para que possa devotar-lhe cuidados filiais. Qual a sua opinião? Pergunto porque é comum que as jovens evitem se casar com homens que têm mãe.</p>
 <p><strong>Meishu-Sama:</strong> Não se pode afirmar uma coisa nem outra; ambas as situações são possíveis. Depende muito da personalidade da noiva. Se ela for uma pessoa dócil e que se harmoniza bem com os outros, pode ser positivo. A salvação obtida no Mundo Espiritual é imensa, de modo que, após a morte, ela poderá prestar uma verdadeira devoção filial. (23 de dezembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 ８ 101-116 結婚の良否 101 非信者との結婚 御道の資格者が結婚したいと思い、また周囲の人も良縁と思っても、その相手やその家族が御道を理解しない場合には、結婚しても御道の御奉仕に障害になると存じますが、この点どうでございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> その当座だけで、気にする要もない。<br/><br/>（S24.11.13） 102 大浄化と結婚 大浄化のすむ迄、結婚適齢者が結婚を控えておりますが、最近この事について、無理して待つのは我執のように言う人もありますがどうでしょうか。<br/><br/>御尋ね申し上げます。<br/><br/> 構わぬからドシドシ結婚せよ。<br/><br/>決して差支えない。<br/><br/> rattail（注） 〔 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行〕掲載 103 嫁入して守護神が変るか（霊界の関係） 女が嫁に行きますと姓が変りますが、御先祖の守護神は婚家先の守護神に変って戴くのでしょうか。<br/><br/> 守護神は変らぬが、霊界は封建でもなく、民主主義でもない。<br/><br/>無理のない理屈に合っている。<br/><br/>その家の先祖が、いろんな事を言いつけたり相談したりする。<br/><br/> 104 縁談について 長男（三十才）、次男（二十六才）縁談について御伺い致します。<br/><br/> （イ）長男は本年四月十四日に妻を結核でなくしましたので、後妻をすすめる人があります。<br/><br/>現在は二十二才の婦人と縁談進行中でありますが、本年中に式を挙げたらよいか、来年にした方がよいでしょうか。<br/><br/> （ロ）次男は二十三才の婦人と縁談が纒まっております。<br/><br/>兄より先に本年中に結婚式を挙げても差支えありませんか。<br/><br/> （ハ）世間にはよく年廻りや方角等を云々する人がありますが、長男の亡妻は鬼門の方角から来たからよくなかったと申します。<br/><br/>私は再び息子達を不幸な目に遭わせたくありませんので、謹みて御伺い申し上ぐる次第であります。<br/><br/> 差支えない。<br/><br/>祖先がやっている。<br/><br/>霊的向上すればよい。<br/><br/>これが根本である。<br/><br/>（S24.10. 5） 105 婚姻と血統家柄（霊統の判別） 婚姻の際、血統とか家柄とかを重視する傾向がありますが、双方が御光を戴き、また光明如来様をお祭りしている家では、因襲的なこの見方に捉われる事は不必要と思いますがいかがでありましょうか。<br/><br/>もし世間的に悪い血統と見られる家でも、光明如来様をお祭りすれば浄化されるのではないでしょうか。<br/><br/>御教示下さい。<br/><br/> これでいい。<br/><br/>血統の良い悪いはない。<br/><br/>血統の良し悪しは人間で分るもんでない。<br/><br/> 霊統は、霊的系統である。<br/><br/>日本の大和民族の系統は一割位は難しい。<br/><br/>後多いのは支那人である。<br/><br/>これは見分けはつかぬ。<br/><br/>霊統は見分ける事は出来る（が今言えぬ）。<br/><br/>血統は混血する程よい。<br/><br/>すべて産土神が結合するから安心して結婚すべきだ。<br/><br/>（S24. 6.25） 106 血族結婚と浄化多き家庭（湯西川温泉白河村） 従兄弟同志の結婚が二代続きまして、二代目に子供が十人生まれましたが、三名が死亡、三名が唖と聾、四名は満足で現在四名中の長男が家長となり、三男三女があり、家には光明如来様、幽世大神様をお祀りさせて頂いております。<br/><br/>教修は家長夫妻と次男と三女が頂いております。<br/><br/>次女は子供の時から顔に赤痕がありましたので、数回手術を受けて現在は醜い顔になっております。<br/><br/>また教修を頂いている次男は、常に右半身の御浄化を頂き、常に外傷等も右にのみ受けております。<br/><br/>今後いかに致しますれば家族の安泰が願われ、先代からの因縁が許されるのでありましょうか。<br/><br/>右お尋ねさせていただきます。<br/><br/> 従兄弟同志の結婚は差支えない故、その原因によるのではない。<br/><br/>これは他の罪によるのである。<br/><br/>血族結婚は決してわるくない。<br/><br/> 五、六年前湯西川へ行った。<br/><br/>当時その村は人口九百人位あった。<br/><br/>元平家残党が源氏に追われて逃げて、人の来られぬところ、来られぬところへ逃げたものである。<br/><br/> 私が行った時も、四里を牛車で行って六時間もかかった。<br/><br/>最初逃げた時は三十人位だったのが今では九百人位に増えた。<br/><br/>その間従兄弟同志結婚したに違いない。<br/><br/>現在中風の人が一人だけで病人がない。<br/><br/>これによっても血族結婚であって病人がない事が証さるる。<br/><br/> 宿の娘と話したが、実に利巧で返事など実に適切で出しゃばらず、態度や言葉など実に立派で感心した。<br/><br/>これによっても血族結婚で馬鹿が出来るという事はない訳だ。<br/><br/>この宿屋は部落の裁判などあらゆる事をやっている。<br/><br/> 先祖代々絶対菜食で鶏一羽もいない。<br/><br/>一行が持って来た最中の箱をあけてみると卵が入っていた。<br/><br/>それと隣村から鶏をもらって来てくれて夕食したのである。<br/><br/>この部落では、たまには日光のものとは結婚することはあるが、東京の者とは結婚しない、病気になるからと言う。<br/><br/>これをもってみても菜食がいい事が分る。<br/><br/>魚など食った事がないし、食おうとも思わぬという。<br/><br/> 最初逃げた時は葛の根をくって生きていたという。<br/><br/>故に人間はどこへいっても生きて行けると思った。<br/><br/> 飛騨の白河も平家村で、学者調査した事あり、そこもやはり血族結婚であった。<br/><br/>西洋医学者も血族結婚は差支えないという説を唱えている。<br/><br/> 質問の場合は諸々罪穢が多いので、これを除くのは、人を多く助け、その徳により、自家が助かる以外にない。<br/><br/>この人は今罪穢をとられてる最中である。<br/><br/>人間の幸不幸は人間が作る。<br/><br/>人を苦しめれば自分が苦しむ。<br/><br/>ただこれだけの事でこれを信ずるか否かで、信ずれば幸いになる。<br/><br/>教修をうけて人を幸せにする方法を知る。<br/><br/>それによって早く罪穢がとれる。<br/><br/> また、観音様を拝む事によって早くきれいになると共に、早く幸福になる。<br/><br/> 今迄の神は力がうすい。<br/><br/>逆に罪をつくる宗教もある。<br/><br/>観音教団はこの点からいっても素晴しい。<br/><br/> rattail（注） 〔 湯西川温泉 、自観叢書第5編『自観隨談』P.50、昭和24(1949)年8月30日発行〕 107 近親結婚白痴生むか、吾妹の語原（湯西川） 近親結婚が白痴を生むと言う霊的関係を御教示願います。<br/><br/> こんな事はない。<br/><br/>これは間違いである。<br/><br/>近来外国の統計学者など差支えないと言い出した。<br/><br/>平家村など、最初十人か二十人立籠り、追っかけられて逃げた。<br/><br/>その中殖えたので、血族結婚よりやりようがない。<br/><br/>血族結婚は寧ろ世間の人より利巧で健康である。<br/><br/>湯西川でも最初三十人だったのが、戸籍人口約六百人になった。<br/><br/>最初は葛の根を食っていた。<br/><br/>それから畠など作るようになって何百年間菜食した。<br/><br/>谷川が流れ、鮎などがいても食わぬ。<br/><br/>食った事がないから食いたくないという。<br/><br/>また病人がないという。<br/><br/>ただ酒を飲み過ぎて中気になったのがあり肺病は一人もない。<br/><br/>日光の人とは結婚するがそれ以外は結婚しない。<br/><br/>病気を背負うからだという。<br/><br/>宿屋の娘は実に頭がいい。<br/><br/>都会でもみないほどである。<br/><br/>恰度程よいのである。<br/><br/>質問に対する答は要領を得ている。<br/><br/>であるから血族結婚はよくないない （ﾏﾏ） かと思う。<br/><br/>この結果をみても悪くない。<br/><br/>伊邪諾、伊邪冊の時代でも、最初は兄弟で結婚した。<br/><br/>子を生むには兄妹で結婚する外はない。<br/><br/>妹を娶ったに違いない。<br/><br/>だから妻の事を吾妹という。<br/><br/>吾妹子とか、妹背などという。<br/><br/>近親結婚は法律で許される範囲で差支えない。<br/><br/> 108 血族結婚（系統遠いほど可） 血族結婚の可否――。<br/><br/> 差支えない。<br/><br/>人類は血族結婚で繁殖した。<br/><br/>最初は兄弟で婚した。<br/><br/>それで妻の事を吾妹子という。<br/><br/> 系統の近寄っているものは、性質が似通っているから、あまり利巧な子は出来ない。<br/><br/>遠い系統の方が、異った性質が混るか利巧になる。<br/><br/>故に混血する程いい。<br/><br/>血族結婚はその点単調になり易い。<br/><br/> （奥日光に平家村があるが、現在六百人位。<br/><br/>最初は三十人位であった。<br/><br/>病人は殆んどなく、絶対菜食主義である。<br/><br/>宿の娘と話したが、実に頭が良くはっきりしていた。<br/><br/>近来西洋で可と唱える学者がいる）（S21.11.21） 109 叔父姪の結婚 叔父と姪の結婚はどうで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 叔父と姪なら構わぬ。<br/><br/>親子はいけない。<br/><br/>（S24. 2. 9） rattail（注） 〔 御垂示（S26年11月8日） 『御垂示録』4号、昭和26(1951)年12月10日発行〕 「血族結婚はどの程度まででございましょうか」 『親と兄妹は許されなくて、あとは許されます。<br/><br/>従兄でもハトコでもかまわない。<br/><br/>』 〔 御光話（S24年 2月18日） 『御光話録』4号、昭和24(1949)年**月**日発行〕 ――（九）血族結婚はいかがでしょうか。<br/><br/> 『これは差し支えありませんよ。<br/><br/>しかし、まあ親子や兄弟の間ではよしたほうがいいでしょうね。<br/><br/>（笑声）……西洋でも血族結婚は差し支えないと言ってますね。<br/><br/>』 〔 妙智の鍵（光明分会３月号） 、昭和24(1949)年3月23日発行〕 ――血族結婚は霊的にいかなる意味がございましょうか。<br/><br/> 『人類の最初は血族結婚で繁殖しました。<br/><br/>太古は兄弟姉妹の夫婦もあり、血族結婚は別に差し支えありません。<br/><br/>ただ血族は性質が似ているためあまり悧巧（りこう）な人間は生まれません。<br/><br/>』 110 血族結婚と眼 血族結婚は関係ない。<br/><br/>目は必ず治る。<br/><br/>ただ薬だけである。<br/><br/>（S23.11.16） 111 実子と養子の結婚 幼少の時から育てた養子と、以後に生れた実子との結婚は差支えないでしょうか。<br/><br/> 実際は差支えないが、法律上はいけない。<br/><br/>（S24. 5.13） 112 外人との結婚、御用意のごとくならず（五六七世の国際結婚） 私の知人で外国人と結婚している人がおりますが、その霊的関係はいかなる結果になるので御座いましょうか。<br/><br/>現在大光明如来様を奉斎しておりますが、御用も思うようにもならず、いかに致し御用の途に励む事が出来ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 差支えない。<br/><br/>五六七世になるとこういう事は反って余計になる。<br/><br/>世界は一列になる。<br/><br/>気にするのは世界的になっていない。<br/><br/> 日本人の場合でも御用の出来ぬ事がある。<br/><br/>未だ時が来てない。<br/><br/>気をもまず時を待つ。<br/><br/>（S24. 1.26） 113 国際結婚の霊の帰属 外人と結婚した霊の帰属――。<br/><br/> 外国人と結婚した場合は、その霊の帰属は男の国に属する。<br/><br/>（S23） rattail（注） 〔 御光話（S23年 6月18日） 『御光話録（補）』発行年月日不明、推定昭和26年頃〕 114 結婚前後の男女関係 結婚した相手の婦人に、結婚前既に他に関係した男性があった場合、御道の信者としていかに考えるべきでしょうか。<br/><br/>また結婚後、三角関係に陥った場合、信者としてどのように致すべきでしょうか。<br/><br/> 結婚前に関係のあったものなら構わない。<br/><br/>相愛関係にあっても、事情により結婚出来なかった場合もあろう。<br/><br/>結婚後に他に関係のあるのは無論わるい。<br/><br/>罪になる。<br/><br/> 115 無理な結婚 昭和二十二年の年末に、私は石橋和子（現在二十才、当時十八才）と婚約致しました。<br/><br/>その時、一年後の二十四年春に挙式するように決っておりましたので、今年一月中旬結婚日を決めるため、先方と相談致しましたところ、今年の春はどうしてもいけないと言うのです。<br/><br/>二回とも行ってお話したのですが、今年の秋でなくてはいけないと言いますが、今春中に結婚しなければならない私の家の事情もあり、妻のある方が一途に御神業に精進出来るので御座います。<br/><br/>石橋和子とこの際無理にでも結婚すべきか、あるいは他に適当な縁談を見付けるべきか、いかにすべきか迷っております。<br/><br/>御指示を御願い致します。<br/><br/> 何もあまり心配せず、観音様にお任せすればうまくゆく。<br/><br/>皆賛成するようになってするのがよい。<br/><br/>あまりに強い反対がある場合は止めた方がよい。<br/><br/>無理に押し切ってやるのはいけない。<br/><br/>霊が邪魔する。<br/><br/>観音様にお任せしておけば、無理なく、案外賛成して喜ぶようになる。<br/><br/>時を待つ事だ。<br/><br/>（S24. 2.10） 116 姑ある家に嫁せしむるが可か 娘を嫁がせます場合、姑のある所へやって姑に孝養を尽す方がその子の将来のためによいという人も御座いますがどうでしょうか。<br/><br/>よく姑のある人の所へ嫁ぐ事を嫌う人がありますので御伺い申し上げます。<br/><br/> どっちともいえぬ。<br/><br/>両方ある。<br/><br/>嫁の性格にもよる。<br/><br/>割合素直で、人と和合する性格ならいい。<br/><br/>霊界で救われるのは大きいから、死んでからほんとの親孝行が出来る。<br/><br/>（S24.12.23）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

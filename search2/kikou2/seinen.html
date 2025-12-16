@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seinen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 青年宗教 百地超生 『栄光』125号、昭和26(1951)年10月10日発行 かつて本教が観音教団であった頃、初めて本部を探訪する記者等が、信徒参集の模様を一見して、よく「貴教の信徒は若い人やインテリ的な人が多く老人は殆んどいないですね」と意外な腑に落ちぬ面持で漏らしたものだが、これは正に卒直な実感であろう。<br><br> 大方は唯物主義者である探訪者は、新興宗教といえば、直に迷信邪教的なものと独断する浅薄極まる宗教観から一歩も出ぬし、特に当時悪意的デマに粉飾された観音の名と共に、御利益の顕著を遍く宣伝されていた事により、本教を目して箪なる現常利益専門の宗教と軽視して、当然教育ある若人とは縁遠い愚夫愚婦的老人が多集せるものとのみ余談して来たものに違いない、そうでなくとも大抵の宗教の殿堂では、いわゆる後生善所を願う老人が多くを占め、老人でなくとも老人の如き青年が見受けられる、そうしてそこにはジメジメした陰気、落莫たる静寂、睡気を催す説教、奇橋な言動と行事、奇異な服装等が醸し出す宗教特有の臭いがある。<br><br> そのような先入観の度肝を抜く程、極めて中和を得たる常識的な様式、若々しい活気に満ちた老人なきかにみゆる本教の雰囲気に接する時、よほど意外の感に打たれるのであろう。<br><br> まず第一に明主様は、御肉体のみに申し上ぐるも、病気絶滅の御宣言の象徴とも申し上ぐべき、信徒中の最健康の青壮年にも勝る理想的御健康を具備せられ、力に満ちた御声、鮮紅に輝やかしき御顔、艶やなる御皮膚、敏活な御身さばきの何所にも老の色を拝する事の出来ぬ御元気さである、特に昨夏御法難の余りに苛酷な御衝戟に、一時御安泰を危ぷむ程全信徒は心痛にくれたが、当時受難の御伴して出所した青年被疑者が未だ気息奄々たる裡に、はや全く元気御快復、以来今日では、御受難前普通人の十人分の活動遊ばされた一日の何倍もの御仕事を日々成されつつある程の超人的御体力で、少くとも吾等の知る十年前の御姿より若々しく拝される、かくの如く明主様は常に若返り若返らせつつ新たなる神業に進まるるのである、特に最近においては御銀鬢（びん）も黒光の若色しるく変らせられつつあるは驚異の奇蹟であり、あるいは、御腹中に御降誕遊ばされた御神霊の御若々しさの御表われかとも拝察し奉る次第である。<br><br> そうして御教は無碍普遍的ではあるが、最も斬新合理の御言説は、学理に錬成された新時代の青年の耳に最もよく適合する魅力でもある。<br><br> なお本教は地上天国建設てう空前の大目標に生き、最も心身旺盛なる青壮年の意気を似てしても及ばぬ程の夢想の実現の神業であるから、少く共老人的退嬰もて参加は出来難い、たとえ老境に入った人とて、明主様に神習って、自から青年の意気をもたずにおれぬ訳である、勿論本教信徒とて、小老の坂を出した人々も稀ではないが、その何れもは救命の大恩と共に更生的健康を恵まれ、光栄この上もなきメシヤの使徒としての希望と喜びに燃え、若人に後れじとする旺んなる意気の躍動を抱いている。<br><br> 老を深く刻む最大のものは病貧争の苦悩である、本教は驚くべき偉力を以て、その根因たる暗雲を徐々に去らしめ、輝やかしき生命を延長する、即ち信徒は、短命の根源たる薬毒の恐害を知り、神示の健康法によりて長命の要諦を体得し、浄霊の大偉力は早老の青年には若人らしき生命を与え、老体は溌剌たる青年の心身を蘇らせ二十年は若返らす事が可能であって、一見その高齢を確推出来ぬまでにする、即ち探訪者が本教に老人なしとみるゆえんである。<br><br> 神示によれば、天国は不老長寿の常春の世界で、幾千万年経るとも三十歳以上は老いぬと承わるが、吾等は明主様こそ最も古くして最も新しき偉大なる若人であらせらるる尊貴の御神霊の御顕現と信ずるものである。<br><br>そして本教における信徒の若々しさは又、その霊身の天国に救われあるを証するものであり、老人は何れも永遠の若人となれるものである。<br><br> 天国はかかる若人の和合体であり、永遠に老なき溌剌たる健全世界である、文明を前進せしむるものは常に青年なりと謂われる、世界救世教こそ、今正に二十世紀文化を是正し二十一世紀文明を創造しつつある真に若々しい青年宗教である。<br><br> 老衰今や死に瀕せんとする人類社会の内核に、魂を入れ、生々漠々たる生命を与うるもの、永遠の青年宗教を措いて何があろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião da Eterna Juventude</h2>
 <p>Outrora, quando nossa Igreja era conhecida como Kannon Kyodan (観音教団), era comum que os jornalistas que visitavam a Sede pela primeira vez manifestassem, com indisfarçável perplexidade, uma observação ao contemplar a assembleia de fiéis: “É surpreendente como há tantos jovens e intelectuais entre seus seguidores, e quase nenhum idoso”. Tal comentário era, de fato, a mais sincera das impressões.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Segundo nos foi revelado, o Paraíso é um mundo de eterna primavera, de longevidade e juventude perenes, onde, mesmo após milhões de anos, ninguém envelhece além dos trinta. Cremos que Meishu-Sama é a manifestação de um nobre Espírito Divino, o mais antigo e, ao mesmo tempo, o mais novo e grandioso dos jovens.</p>
 <p>A jovialidade dos fiéis, por sua vez, é a prova de que seus espíritos estão sendo salvos no Mundo Espiritual, e de que todos os idosos se tornarão jovens para sempre. O Paraíso é a união harmoniosa desses jovens, um mundo de saúde e vigor que jamais envelhece. Costuma-se dizer que são sempre os jovens os que impulsionam o avanço da civilização. A Sekai Kyusei Kyo, ao corrigir a cultura do século XX e criar a civilização do século XXI, afirma-se como uma religião autenticamente jovem.</p>
 <p>O que mais poderia insuflar alma e infundir uma vida vibrante no âmago de uma sociedade humana senil e à beira da morte, senão uma religião de eterna juventude?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 青年宗教 百地超生 『栄光』125号、昭和26(1951)年10月10日発行 かつて本教が観音教団であった頃、初めて本部を探訪する記者等が、信徒参集の模様を一見して、よく「貴教の信徒は若い人やインテリ的な人が多く老人は殆んどいないですね」と意外な腑に落ちぬ面持で漏らしたものだが、これは正に卒直な実感であろう。<br/><br/> 大方は唯物主義者である探訪者は、新興宗教といえば、直に迷信邪教的なものと独断する浅薄極まる宗教観から一歩も出ぬし、特に当時悪意的デマに粉飾された観音の名と共に、御利益の顕著を遍く宣伝されていた事により、本教を目して箪なる現常利益専門の宗教と軽視して、当然教育ある若人とは縁遠い愚夫愚婦的老人が多集せるものとのみ余談して来たものに違いない、そうでなくとも大抵の宗教の殿堂では、いわゆる後生善所を願う老人が多くを占め、老人でなくとも老人の如き青年が見受けられる、そうしてそこにはジメジメした陰気、落莫たる静寂、睡気を催す説教、奇橋な言動と行事、奇異な服装等が醸し出す宗教特有の臭いがある。<br/><br/> そのような先入観の度肝を抜く程、極めて中和を得たる常識的な様式、若々しい活気に満ちた老人なきかにみゆる本教の雰囲気に接する時、よほど意外の感に打たれるのであろう。<br/><br/> まず第一に明主様は、御肉体のみに申し上ぐるも、病気絶滅の御宣言の象徴とも申し上ぐべき、信徒中の最健康の青壮年にも勝る理想的御健康を具備せられ、力に満ちた御声、鮮紅に輝やかしき御顔、艶やなる御皮膚、敏活な御身さばきの何所にも老の色を拝する事の出来ぬ御元気さである、特に昨夏御法難の余りに苛酷な御衝戟に、一時御安泰を危ぷむ程全信徒は心痛にくれたが、当時受難の御伴して出所した青年被疑者が未だ気息奄々たる裡に、はや全く元気御快復、以来今日では、御受難前普通人の十人分の活動遊ばされた一日の何倍もの御仕事を日々成されつつある程の超人的御体力で、少くとも吾等の知る十年前の御姿より若々しく拝される、かくの如く明主様は常に若返り若返らせつつ新たなる神業に進まるるのである、特に最近においては御銀鬢（びん）も黒光の若色しるく変らせられつつあるは驚異の奇蹟であり、あるいは、御腹中に御降誕遊ばされた御神霊の御若々しさの御表われかとも拝察し奉る次第である。<br/><br/> そうして御教は無碍普遍的ではあるが、最も斬新合理の御言説は、学理に錬成された新時代の青年の耳に最もよく適合する魅力でもある。<br/><br/> なお本教は地上天国建設てう空前の大目標に生き、最も心身旺盛なる青壮年の意気を似てしても及ばぬ程の夢想の実現の神業であるから、少く共老人的退嬰もて参加は出来難い、たとえ老境に入った人とて、明主様に神習って、自から青年の意気をもたずにおれぬ訳である、勿論本教信徒とて、小老の坂を出した人々も稀ではないが、その何れもは救命の大恩と共に更生的健康を恵まれ、光栄この上もなきメシヤの使徒としての希望と喜びに燃え、若人に後れじとする旺んなる意気の躍動を抱いている。<br/><br/> 老を深く刻む最大のものは病貧争の苦悩である、本教は驚くべき偉力を以て、その根因たる暗雲を徐々に去らしめ、輝やかしき生命を延長する、即ち信徒は、短命の根源たる薬毒の恐害を知り、神示の健康法によりて長命の要諦を体得し、浄霊の大偉力は早老の青年には若人らしき生命を与え、老体は溌剌たる青年の心身を蘇らせ二十年は若返らす事が可能であって、一見その高齢を確推出来ぬまでにする、即ち探訪者が本教に老人なしとみるゆえんである。<br/><br/> 神示によれば、天国は不老長寿の常春の世界で、幾千万年経るとも三十歳以上は老いぬと承わるが、吾等は明主様こそ最も古くして最も新しき偉大なる若人であらせらるる尊貴の御神霊の御顕現と信ずるものである。<br/><br/>そして本教における信徒の若々しさは又、その霊身の天国に救われあるを証するものであり、老人は何れも永遠の若人となれるものである。<br/><br/> 天国はかかる若人の和合体であり、永遠に老なき溌剌たる健全世界である、文明を前進せしむるものは常に青年なりと謂われる、世界救世教こそ、今正に二十世紀文化を是正し二十一世紀文明を創造しつつある真に若々しい青年宗教である。<br/><br/> 老衰今や死に瀕せんとする人類社会の内核に、魂を入れ、生々漠々たる生命を与うるもの、永遠の青年宗教を措いて何があろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

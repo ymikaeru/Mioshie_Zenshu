@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iryo5</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療とは 『栄光』185号、昭和27(1952)年12月3日発行 これについて私は、筆に口に常に知らしているので、一応は言い尽したように思われるが、実はまだまだ足りない気もするのでここにかくのである。<br><br>何しろ一般の人は医学迷信に陥っている結果、病に苦しんでいる人が余りに多く、到底見ておれないからである。<br><br>といっても長い年月のコチコチに固まった迷信であるから、これを溶かすとしても容易ではない。<br><br>そこで私はこれでもかこれでもかというように、あらゆる面から説いて来たがこれなら分らない訳はないと思う程に、本文は徹底したつもりであるから、その気持で読んで貰いたいのである。<br><br>信者の中には標題だけでも直ぐ判る人もあろうが、しかし一般の人に分らせようとする場合、説き方の参考ともなるから、充分玩味（がんみ）されたいのである。<br><br> まず人間何かの病気に罹るや、早速御医者さんに診て貰う。<br><br>すると御医者さんは二、三の服み薬を呉れると共に、近頃は大抵注射をするからそれでちょっとよくなるので、これで治るものと思って毎日通うか、御医者さんの方から来て貰うかするが、実際は十人中八、九人は思うように治らないもので運よく一時治っても暫くすると必ず再発するのは誰も知る通りである。<br><br>もちろん薬という毒で一時抑えをするだけで、本当に治ったのではない事はいつもいう通りである。<br><br> 右のように一時的で完全に治らないのは、御医者さんも充分知り抜いているはずであるが、しかし分っても現代医学ではどうにもならないから、こういうものだと諦めているだけであろう。<br><br>そこでまずお医者さんの肚の中を想像してみるとこんなところであろう。<br><br>病気というものは実に分らないものだ。<br><br>だが今日までの学者、先輩が解剖や分析、機械などで、研究に研究を尽して作り上げた医学であるから、これを信ずるより外はもちろんない。<br><br>これ程進歩した医学でも治らないのだから、まず気長に世界の学者達が協力して、たとえ僅かずつでも進歩するとすれば、いつかは完璧な医学が出来るに違いあるまいと、ただ漫然と時を待っているにすぎないのが実状であろうから、まことに心細い話である。<br><br>だがそれだけなら我慢出来るとしても、それまでの間いかに多くの病人が出来、その苦しみは固より、生命の犠牲までを考えれば考える程恐ろしい気がするのである。<br><br> ところで現在の病理であるが、病原は最初黴菌が口からか、鼻からか、皮膚等から侵入し、繁殖するためとされているが、これはまことに単純な考え方である。<br><br>では御質ねしたいが黴菌が侵入しても病が発生する人と、しない人とが出来るのはどういう訳であろうかである。<br><br>するとお医者さんは言うであろう。<br><br>黴菌に負ける弱い身体だから発病するのだとの定り文句であろうが、事実はその反対である事が近来分って来た。<br><br>それは結核は腺病質の子供は余り罹らないで、健康な子供の方が罹るという事実である。<br><br>これだけでも医学は丸っきり判っていないのである。<br><br>右は小さい例だが、大きい例といえば医学が益々進歩する程、病気の種類も増えどこもかしこも病人だらけである。<br><br>何よりも薬の新聞広告をみても分る通り、デカデカな広告を出しても、割に合う程病人が多い訳である。<br><br>従って真に薬が効くものなら段々病人が減ってゆき、ついには薬の広告主もなくなり、お医者さんは飯が食えず、病院は閉鎖する事にならなければならない。<br><br> ところが事実はその反対ではないか、としたら大いに考えざるを得ないであろう。<br><br>それについて私は長い間随分医学の盲点や、薬害の恐ろしさをかいて来たが、もしこれが間違っているとしたら、その道の人は大いに憤慨し凹（へこ）ませに来なければならないはずだが、今日まで一向そんな人はないのをみると、御説御もっともとしているのであろう。<br><br>私といえども宗教家であり、人類愛をモットーとしている以上、悪口や失業者を作るような説は言いたくないが、何としても記かざるを得ない程悲惨な現状と、神から命ぜられた私の役目を思うからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Prática Médica</h2>
 <p>Ainda que eu já tenha abordado este assunto exaustivamente, tanto por escrito quanto em palestras, a ponto de parecer que nada mais haveria a ser dito, sinto que a explanação ainda é insuficiente e, por isso, volto a ele. A razão é simples: um número excessivo de pessoas sofre com as doenças por estarem imersas na superstição da medicina, uma situação à qual não posso permanecer indiferente. Trata-se, contudo, de uma crença arraigada ao longo de muitos anos, solidificada a ponto de ser extremamente difícil dissipá-la.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>No que tange à patologia atual, a causa das doenças é atribuída à invasão e proliferação de germes que penetram no corpo pela boca, nariz ou pele. Tal concepção é deveras simplista. Permitam-me, então, questionar: por que, diante da mesma exposição a germes, algumas pessoas adoecem e outras não? A resposta clichê de um médico seria que a doença se manifesta em organismos debilitados, incapazes de resistir aos germes. Recentemente, porém, ficou claro que a verdade é justamente o oposto. Um exemplo disso é o fato de que crianças saudáveis são mais suscetíveis à tuberculose do que as de constituição escrofulosa. Este fato, por si só, demonstra a completa ignorância da medicina sobre o assunto.</p>
 <p>Este é um exemplo pontual, mas podemos observar em uma escala mais ampla que, à medida que a medicina supostamente avança, aumentam as variedades de doenças e o número de enfermos por toda parte. Basta observar os anúncios de medicamentos nos jornais. O fato de se publicarem anúncios tão ostensivos prova que o número de doentes é suficientemente grande para tornar o negócio rentável. Consequentemente, se os remédios fossem verdadeiramente eficazes, o número de doentes diminuiria progressivamente, levando ao desaparecimento dos anunciantes, à impossibilidade de os médicos se sustentarem e, por fim, ao fechamento dos hospitais.</p>
 <p>Ora, a realidade não nos mostra exatamente o contrário? Tal constatação nos obriga a uma profunda reflexão. Há muito tempo venho expondo os pontos cegos da medicina e os horrores dos danos causados pelos remédios. Se minhas afirmações estivessem equivocadas, seria natural que os especialistas da área se indignassem e viessem me desmentir publicamente. O silêncio deles até hoje, porém, sugere que reconhecem a veracidade de minhas palavras. Ainda que eu seja um religioso cujo lema é o amor pela humanidade, não é de meu agrado proferir críticas ou difundir teorias que possam levar outros ao desemprego. Contudo, sinto-me compelido a escrever, impulsionado tanto pela trágica situação que testemunho quanto pela consciência da missão que me foi confiada por Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療とは 『栄光』185号、昭和27(1952)年12月3日発行 これについて私は、筆に口に常に知らしているので、一応は言い尽したように思われるが、実はまだまだ足りない気もするのでここにかくのである。<br/><br/>何しろ一般の人は医学迷信に陥っている結果、病に苦しんでいる人が余りに多く、到底見ておれないからである。<br/><br/>といっても長い年月のコチコチに固まった迷信であるから、これを溶かすとしても容易ではない。<br/><br/>そこで私はこれでもかこれでもかというように、あらゆる面から説いて来たがこれなら分らない訳はないと思う程に、本文は徹底したつもりであるから、その気持で読んで貰いたいのである。<br/><br/>信者の中には標題だけでも直ぐ判る人もあろうが、しかし一般の人に分らせようとする場合、説き方の参考ともなるから、充分玩味（がんみ）されたいのである。<br/><br/> まず人間何かの病気に罹るや、早速御医者さんに診て貰う。<br/><br/>すると御医者さんは二、三の服み薬を呉れると共に、近頃は大抵注射をするからそれでちょっとよくなるので、これで治るものと思って毎日通うか、御医者さんの方から来て貰うかするが、実際は十人中八、九人は思うように治らないもので運よく一時治っても暫くすると必ず再発するのは誰も知る通りである。<br/><br/>もちろん薬という毒で一時抑えをするだけで、本当に治ったのではない事はいつもいう通りである。<br/><br/> 右のように一時的で完全に治らないのは、御医者さんも充分知り抜いているはずであるが、しかし分っても現代医学ではどうにもならないから、こういうものだと諦めているだけであろう。<br/><br/>そこでまずお医者さんの肚の中を想像してみるとこんなところであろう。<br/><br/>病気というものは実に分らないものだ。<br/><br/>だが今日までの学者、先輩が解剖や分析、機械などで、研究に研究を尽して作り上げた医学であるから、これを信ずるより外はもちろんない。<br/><br/>これ程進歩した医学でも治らないのだから、まず気長に世界の学者達が協力して、たとえ僅かずつでも進歩するとすれば、いつかは完璧な医学が出来るに違いあるまいと、ただ漫然と時を待っているにすぎないのが実状であろうから、まことに心細い話である。<br/><br/>だがそれだけなら我慢出来るとしても、それまでの間いかに多くの病人が出来、その苦しみは固より、生命の犠牲までを考えれば考える程恐ろしい気がするのである。<br/><br/> ところで現在の病理であるが、病原は最初黴菌が口からか、鼻からか、皮膚等から侵入し、繁殖するためとされているが、これはまことに単純な考え方である。<br/><br/>では御質ねしたいが黴菌が侵入しても病が発生する人と、しない人とが出来るのはどういう訳であろうかである。<br/><br/>するとお医者さんは言うであろう。<br/><br/>黴菌に負ける弱い身体だから発病するのだとの定り文句であろうが、事実はその反対である事が近来分って来た。<br/><br/>それは結核は腺病質の子供は余り罹らないで、健康な子供の方が罹るという事実である。<br/><br/>これだけでも医学は丸っきり判っていないのである。<br/><br/>右は小さい例だが、大きい例といえば医学が益々進歩する程、病気の種類も増えどこもかしこも病人だらけである。<br/><br/>何よりも薬の新聞広告をみても分る通り、デカデカな広告を出しても、割に合う程病人が多い訳である。<br/><br/>従って真に薬が効くものなら段々病人が減ってゆき、ついには薬の広告主もなくなり、お医者さんは飯が食えず、病院は閉鎖する事にならなければならない。<br/><br/> ところが事実はその反対ではないか、としたら大いに考えざるを得ないであろう。<br/><br/>それについて私は長い間随分医学の盲点や、薬害の恐ろしさをかいて来たが、もしこれが間違っているとしたら、その道の人は大いに憤慨し凹（へこ）ませに来なければならないはずだが、今日まで一向そんな人はないのをみると、御説御もっともとしているのであろう。<br/><br/>私といえども宗教家であり、人類愛をモットーとしている以上、悪口や失業者を作るような説は言いたくないが、何としても記かざるを得ない程悲惨な現状と、神から命ぜられた私の役目を思うからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

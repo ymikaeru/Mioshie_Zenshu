@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s100411</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年4月11日 私は日本医学というものをこしらえることと、それから、宗教の本当のやり方、本当の考え方そういうものをだんだんと発表してゆくつもりなんであります。<br><br> で、なにが人間は結構であるかというと、まずなによりかより第一番に健康であることは、いつもお話することであります。<br><br>たとえ、いかなる結構な宗教や救いが出ようとも、人間を健康にする力がなかったら、決して結構な宗教でも救いでもない。<br><br> どんな偉い方でも、どんなにいい身分であっても、病気で苦しんでいてなにが結構と言えましょう。<br><br>どうしても健康を解決し得るものでなくしては、本当の宗教ではない。<br><br>何年何十年と信仰していても病気で早死にするものがありますが、それは決して本当のものではない。<br><br> だんだん観音会が進展して行くと、観音会には病気がない。<br><br>もしあれば、観音会を止めた人か、お邪魔する人かで、病人はないと私は断言するんであります。<br><br>これがだんだん拡がって行くと、病人のない団体ができるんで、おそらく世界始まって以来病人のない団体というものは、まだ聞いたことがない。<br><br>それで病人のない世となれば、貧乏の半分は解消するんであります。<br><br> いま貧乏の原因はほとんど病気で、病気のために稼げぬとか、病院は高くてなかなか治らぬ。<br><br>金持ちならいいが中流以下ではとてもかかれぬ。<br><br>重病などになると、まず長い間稼いだものさえも潰れてしまう。<br><br>少し重い大病などがあればたいていの身上だったらふっ飛んでしまう。<br><br>これは多くの人々のふつうの道程であります。<br><br> 今日みなさんが稼いで貯金するのはなんのためかと申しますと、いつ病気になるか判らぬ。<br><br>病気になったそのとき病院へ入れぬようなことがあったらという心配からであります。<br><br> それで病気は金で治ると思うよりしかたがない。<br><br>一家に四、五人の家族があるとすると、たいていは何年目かに病人がある。<br><br>するといくら稼いで貯金をしててもすぐになくなる。<br><br> そこで、病気がなくなり健康であれば、貧乏になる大半は救われるわけであります。<br><br>で、貧乏が救われれば争いがなくなる。<br><br>たいていの争いは経済上の問題の場合が多いのであります。<br><br>ですから、まず病貧争の大部分は健康から解決できると言っても過言でないと思います。<br><br> それでいっぽう、精神方面のことをお話すれば、本当は他宗の攻撃するなどよくないのですが、よくないけれども黙っておってもしかたない。<br><br>黙っておって解決すればいいのですが、黙ってばかりいても解決がつかぬ。<br><br>やはりいいことはいいとし、悪いことは悪いとせねばならぬ。<br><br> それは、たしかに既成宗教によって救われてる点はたくさんにあります。<br><br>もし釈迦、キリストが現われなかったならば、もっともっと人類は悲惨な状態になっていたかしれない。<br><br>いかに今日まで人類を救ったことか、その点は大いに感謝しなければならぬ。<br><br> で、それでも今日のこういう社会を結構と思う人はない。<br><br>それはどこまでもよくしなければならない。<br><br>進展やむなきは神の御心であります。<br><br>でなくば、宇宙意志とも言えます。<br><br> 人類はこれまで進化したけれど、もっともっと、よりいっそう高等の文化をつくり、高等の人類にしなければならないことは当然のことであります。<br><br>でいままでの宗教の力ではそれ以上高等にはならない。<br><br> それには、それ以上に人類を進化せしむべき力がいる。<br><br>それが観音力であります。<br><br> たとえてみれば、今日人間はたいへんな進化をした。<br><br>なるほど、野蛮未開の時代からみれば、たいへんな進歩をしたんであります。<br><br>なるほど、徳川時代には試し斬りとか、切取り強盗などというものがあって、人心は安心して暮らせなかった。<br><br>今日は電気などできて明るくなり、なんらそういう心配はなくなった。<br><br>それは大いに感謝しなければならぬが、それでも、今日の世から警察とか、法律をとればはたして安全かと言えば、これはだれしもうなずけぬことであります。<br><br>各地に厳めしい警察があり、裁判所あり、コンクリートの牢獄あり、各町には交番がいくつもあって、巡査が始終見まわっている。<br><br>それでもなお足らず、刑事や特高、探偵などが扮装して隈なく排徊して、種々の取締り機関があって初めて安全を得ております。<br><br> それでもまだ本当じゃなくて、刑事民事にも種々の設備があり、あるいは人事相談所があり、不幸せな者に対しては、養老院だとか孤児院だとかがあり、あるいは救世軍だの本願寺だなどというものがあって社会事業に尽くし、法律はますます微に入り細に渉りできてゆく。<br><br>それで初めて人類は安心しているようだが、それでもまだ安心ができない。<br><br> 昨日の新聞で見ると、少年神兵隊というものが出て、偉い人達、西園寺など国家の元老、ああいう人達の身辺を狙っているゆえ、この間の満州国の皇帝がみえたときでも、お側でお顔が見えぬくらいに警戒が厳重であります。<br><br> そういうように種々と人間を取り締まる道具は実に完備したと言えるくらいにある。<br><br>このために使う費用はたいへんなものであります。<br><br>それほどまでにしても、まだまだ人間は悪いことをするんであります。<br><br>まだまだ法律の網をくぐる悪い人間がたくさんにいるのであります。<br><br> 金を借り倒したり、家賃をふみ潰すとか、詐欺、万引き、強盗、殺人など、それをくぐって悪いことするものがまだまだたくさんいて、子供でも感化院などあり、あるいは宗教的感化をする設備などたくさんにある。<br><br> それで人間は文明になってありがたいと言っているが、まだまだ神の御目からご覧になれば人間というものはしようがないのであります。<br><br> 種々とおっかない道具立てをして、わずかに悪いことをしないようにしてるだけのもので、ちょうど、虎狼を檻に入れて監禁しておくに等しいと思うのであります。<br><br>これで万物の霊長だなどといばっているのは恥ずかしくないかと思うのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Saúde como Alicerce da Verdadeira Salvação</h2>
 <p>Meu propósito é instituir a Medicina Japonesa e, concomitantemente, apresentar de forma paulatina os verdadeiros preceitos e a genuína prática da fé.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Pode-se dizer que os mecanismos para controlar o ser humano atingiram um estado de notável aperfeiçoamento. Os custos para manter toda essa estrutura são astronômicos. E, apesar de tudo, as pessoas continuam a praticar o mal. Ainda existem muitos indivíduos perversos que encontram brechas na malha da lei.</p>
 <p>Calotes em empréstimos, inadimplência de aluguéis, estelionato, furtos, roubos, assassinatos... a lista de crimes cometidos por aqueles que burlam as leis é infindável. Até mesmo para as crianças existem reformatórios e inúmeras instituições de reabilitação moral e religiosa.</p>
 <p>Apesar de tudo, o homem se gaba de sua civilização e se sente grato por ela. Visto, porém, da perspectiva de Deus, a condição humana é lastimável. A sociedade nada mais é do que um elaborado conjunto de ferramentas intimidadoras, criadas com o único propósito de conter a prática do mal. É uma situação análoga a manter tigres e lobos enjaulados. E, diante desse quadro, não é vergonhoso que o ser humano ainda se vanglorie de ser o soberano da criação?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年4月11日 私は日本医学というものをこしらえることと、それから、宗教の本当のやり方、本当の考え方そういうものをだんだんと発表してゆくつもりなんであります。<br/><br/> で、なにが人間は結構であるかというと、まずなによりかより第一番に健康であることは、いつもお話することであります。<br/><br/>たとえ、いかなる結構な宗教や救いが出ようとも、人間を健康にする力がなかったら、決して結構な宗教でも救いでもない。<br/><br/> どんな偉い方でも、どんなにいい身分であっても、病気で苦しんでいてなにが結構と言えましょう。<br/><br/>どうしても健康を解決し得るものでなくしては、本当の宗教ではない。<br/><br/>何年何十年と信仰していても病気で早死にするものがありますが、それは決して本当のものではない。<br/><br/> だんだん観音会が進展して行くと、観音会には病気がない。<br/><br/>もしあれば、観音会を止めた人か、お邪魔する人かで、病人はないと私は断言するんであります。<br/><br/>これがだんだん拡がって行くと、病人のない団体ができるんで、おそらく世界始まって以来病人のない団体というものは、まだ聞いたことがない。<br/><br/>それで病人のない世となれば、貧乏の半分は解消するんであります。<br/><br/> いま貧乏の原因はほとんど病気で、病気のために稼げぬとか、病院は高くてなかなか治らぬ。<br/><br/>金持ちならいいが中流以下ではとてもかかれぬ。<br/><br/>重病などになると、まず長い間稼いだものさえも潰れてしまう。<br/><br/>少し重い大病などがあればたいていの身上だったらふっ飛んでしまう。<br/><br/>これは多くの人々のふつうの道程であります。<br/><br/> 今日みなさんが稼いで貯金するのはなんのためかと申しますと、いつ病気になるか判らぬ。<br/><br/>病気になったそのとき病院へ入れぬようなことがあったらという心配からであります。<br/><br/> それで病気は金で治ると思うよりしかたがない。<br/><br/>一家に四、五人の家族があるとすると、たいていは何年目かに病人がある。<br/><br/>するといくら稼いで貯金をしててもすぐになくなる。<br/><br/> そこで、病気がなくなり健康であれば、貧乏になる大半は救われるわけであります。<br/><br/>で、貧乏が救われれば争いがなくなる。<br/><br/>たいていの争いは経済上の問題の場合が多いのであります。<br/><br/>ですから、まず病貧争の大部分は健康から解決できると言っても過言でないと思います。<br/><br/> それでいっぽう、精神方面のことをお話すれば、本当は他宗の攻撃するなどよくないのですが、よくないけれども黙っておってもしかたない。<br/><br/>黙っておって解決すればいいのですが、黙ってばかりいても解決がつかぬ。<br/><br/>やはりいいことはいいとし、悪いことは悪いとせねばならぬ。<br/><br/> それは、たしかに既成宗教によって救われてる点はたくさんにあります。<br/><br/>もし釈迦、キリストが現われなかったならば、もっともっと人類は悲惨な状態になっていたかしれない。<br/><br/>いかに今日まで人類を救ったことか、その点は大いに感謝しなければならぬ。<br/><br/> で、それでも今日のこういう社会を結構と思う人はない。<br/><br/>それはどこまでもよくしなければならない。<br/><br/>進展やむなきは神の御心であります。<br/><br/>でなくば、宇宙意志とも言えます。<br/><br/> 人類はこれまで進化したけれど、もっともっと、よりいっそう高等の文化をつくり、高等の人類にしなければならないことは当然のことであります。<br/><br/>でいままでの宗教の力ではそれ以上高等にはならない。<br/><br/> それには、それ以上に人類を進化せしむべき力がいる。<br/><br/>それが観音力であります。<br/><br/> たとえてみれば、今日人間はたいへんな進化をした。<br/><br/>なるほど、野蛮未開の時代からみれば、たいへんな進歩をしたんであります。<br/><br/>なるほど、徳川時代には試し斬りとか、切取り強盗などというものがあって、人心は安心して暮らせなかった。<br/><br/>今日は電気などできて明るくなり、なんらそういう心配はなくなった。<br/><br/>それは大いに感謝しなければならぬが、それでも、今日の世から警察とか、法律をとればはたして安全かと言えば、これはだれしもうなずけぬことであります。<br/><br/>各地に厳めしい警察があり、裁判所あり、コンクリートの牢獄あり、各町には交番がいくつもあって、巡査が始終見まわっている。<br/><br/>それでもなお足らず、刑事や特高、探偵などが扮装して隈なく排徊して、種々の取締り機関があって初めて安全を得ております。<br/><br/> それでもまだ本当じゃなくて、刑事民事にも種々の設備があり、あるいは人事相談所があり、不幸せな者に対しては、養老院だとか孤児院だとかがあり、あるいは救世軍だの本願寺だなどというものがあって社会事業に尽くし、法律はますます微に入り細に渉りできてゆく。<br/><br/>それで初めて人類は安心しているようだが、それでもまだ安心ができない。<br/><br/> 昨日の新聞で見ると、少年神兵隊というものが出て、偉い人達、西園寺など国家の元老、ああいう人達の身辺を狙っているゆえ、この間の満州国の皇帝がみえたときでも、お側でお顔が見えぬくらいに警戒が厳重であります。<br/><br/> そういうように種々と人間を取り締まる道具は実に完備したと言えるくらいにある。<br/><br/>このために使う費用はたいへんなものであります。<br/><br/>それほどまでにしても、まだまだ人間は悪いことをするんであります。<br/><br/>まだまだ法律の網をくぐる悪い人間がたくさんにいるのであります。<br/><br/> 金を借り倒したり、家賃をふみ潰すとか、詐欺、万引き、強盗、殺人など、それをくぐって悪いことするものがまだまだたくさんいて、子供でも感化院などあり、あるいは宗教的感化をする設備などたくさんにある。<br/><br/> それで人間は文明になってありがたいと言っているが、まだまだ神の御目からご覧になれば人間というものはしようがないのであります。<br/><br/> 種々とおっかない道具立てをして、わずかに悪いことをしないようにしてるだけのもので、ちょうど、虎狼を檻に入れて監禁しておくに等しいと思うのであります。<br/><br/>これで万物の霊長だなどといばっているのは恥ずかしくないかと思うのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

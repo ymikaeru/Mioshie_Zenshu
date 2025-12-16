@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qooinaru</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大いなる光明 ――悩みなき日々を迎う―― 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 日本観音教天国会 加古加六郎（52） 私が入信させて頂きお観音様にお縋りするようになりました動機を謹みて申上げます。<br><br>過去を想い現在を思う時余りにも幸福にならせて頂いた喜びを拙ない一文をもって御報告させて頂きます。<br><br> 私は四年程前から肋膜を病み咳が出る熱が出る陰うつな日を送っておりました。<br><br>その間医者を転々遍歴しよいと言われるあらゆる医療を加えながら病気は反対に悪化してゆくばかりでございました。<br><br>昨年五月の最後の診断では肺を侵されたと断定せられ悲観その極に達し、どん底につき落されたような思いが致しました。<br><br> 医療に頼ってみた四年間がこんな状態でありました。<br><br>一家の生計を背負う私はその責任の重大であるにも拘らず医療費にほとんど財産はなくなりました。<br><br>もう「どうにもならないもの」と悲しく諦めて医療を廃し、毎日芝生の上に腰を下ろして、お日様を体一杯に受けて遊んでおりましたところ、段々気持が良くなり、体も少し元気が出て参りました。<br><br> その時「お日様のように有難い神様か、仏様はないものか」と思い出しました。<br><br>この上は神仏にお縋りするのが一番よい。<br><br>それ以外助かる方法はないと思いながらも九月頃迄は日増しに衰弱してくる許りで、救いの神様のお道はなく死が間近に迫っているような気が致しました。<br><br>妻子の行末を案じ何か知ら心が暗くなり、イライラした気持で明け暮れ致しておりました。<br><br> その時、愛知町の弟（加古正勝）が来て、お観音様の御守護により夫婦が悩み続けた病気が治り感激の日を送らせて頂いているという話を聞き、是非お観音様にお縋りしたらどうかと奨められました。<br><br>早速弟に御浄霊していただきましたところ夜とても楽に眠れ咳も幾分軽くなり、大変気持が良くなりました。<br><br>今迄願っていた神様のお救いはこれだ！ と「渡りに舟」といったような嬉しさで御座いました。<br><br> 右のような次第で入信させていただき前途に明るい光明をいただきました。<br><br>更に十二月八日光明如来様の御神体まで受けさせていただき感激致しております。<br><br>今日までに不思議な程御利益をいただき休も段々元気になって参りました。<br><br>最近は何の悩みもなく心も晴々と一家中明るく楽しく生活させていただいております。<br><br> 身に余る幸福に感激の日を送らせて戴いておりますのもこれみな大慈大悲のお観音様の御守護の賜で御座います。<br><br>何という有難い事で御座いましょう。<br><br>この上は有難いお観音様の御恩の万分の一もお酬いする事が出来ませんが、一人でも多くお救いさせていただき度く念願致しております。<br><br>本当に有難うございました。<br><br> 悩み多き人の一日も早くお道に救われ私のような幸福な生活に入られる事をお祈り致します。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Luz — O Advento de Dias Livres de Sofrimento</h2>
 <p><strong>(Coletânea Jikan, Volume 1: “Tuberculose e a Terapia Divina”, publicado em 25 de junho de 1949)</strong></p>
@@ -100,5 +255,48 @@ function toggleLang(lang) {
 <p>Foram essas as circunstâncias que me levaram à conversão e me permitiram vislumbrar uma luz radiante em meu futuro. Ademais, no dia 8 de dezembro, tive a imensa graça de receber a Imagem da Luz Divina, o que encheu meu coração de gratidão. Desde então, tenho sido agraciado com inúmeras e maravilhosas graças, e meu corpo recupera progressivamente seu vigor. Atualmente, vivo sem nenhuma aflição, com o coração sereno, e toda a minha família desfruta de uma vida repleta de alegria e luz.</p>
 <p>Todos estes dias de júbilo e de uma felicidade que julgo imerecida são, na verdade, dádivas da proteção da imensamente misericordiosa Kannon-Sama (観音様). Que graça sublime! Embora eu saiba que jamais poderei retribuir nem mesmo uma ínfima parcela de Sua benevolência, almejo ardentemente poder levar esta salvação ao maior número de pessoas possível. Minha mais profunda gratidão.</p>
 <p>Oro para que todas as pessoas que carregam grandes sofrimentos possam ser salvas por este Caminho o mais brevemente possível, e que também elas possam adentrar uma vida de felicidade como a que hoje desfruto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大いなる光明 ――悩みなき日々を迎う―― 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 日本観音教天国会 加古加六郎（52） 私が入信させて頂きお観音様にお縋りするようになりました動機を謹みて申上げます。<br/><br/>過去を想い現在を思う時余りにも幸福にならせて頂いた喜びを拙ない一文をもって御報告させて頂きます。<br/><br/> 私は四年程前から肋膜を病み咳が出る熱が出る陰うつな日を送っておりました。<br/><br/>その間医者を転々遍歴しよいと言われるあらゆる医療を加えながら病気は反対に悪化してゆくばかりでございました。<br/><br/>昨年五月の最後の診断では肺を侵されたと断定せられ悲観その極に達し、どん底につき落されたような思いが致しました。<br/><br/> 医療に頼ってみた四年間がこんな状態でありました。<br/><br/>一家の生計を背負う私はその責任の重大であるにも拘らず医療費にほとんど財産はなくなりました。<br/><br/>もう「どうにもならないもの」と悲しく諦めて医療を廃し、毎日芝生の上に腰を下ろして、お日様を体一杯に受けて遊んでおりましたところ、段々気持が良くなり、体も少し元気が出て参りました。<br/><br/> その時「お日様のように有難い神様か、仏様はないものか」と思い出しました。<br/><br/>この上は神仏にお縋りするのが一番よい。<br/><br/>それ以外助かる方法はないと思いながらも九月頃迄は日増しに衰弱してくる許りで、救いの神様のお道はなく死が間近に迫っているような気が致しました。<br/><br/>妻子の行末を案じ何か知ら心が暗くなり、イライラした気持で明け暮れ致しておりました。<br/><br/> その時、愛知町の弟（加古正勝）が来て、お観音様の御守護により夫婦が悩み続けた病気が治り感激の日を送らせて頂いているという話を聞き、是非お観音様にお縋りしたらどうかと奨められました。<br/><br/>早速弟に御浄霊していただきましたところ夜とても楽に眠れ咳も幾分軽くなり、大変気持が良くなりました。<br/><br/>今迄願っていた神様のお救いはこれだ！ と「渡りに舟」といったような嬉しさで御座いました。<br/><br/> 右のような次第で入信させていただき前途に明るい光明をいただきました。<br/><br/>更に十二月八日光明如来様の御神体まで受けさせていただき感激致しております。<br/><br/>今日までに不思議な程御利益をいただき休も段々元気になって参りました。<br/><br/>最近は何の悩みもなく心も晴々と一家中明るく楽しく生活させていただいております。<br/><br/> 身に余る幸福に感激の日を送らせて戴いておりますのもこれみな大慈大悲のお観音様の御守護の賜で御座います。<br/><br/>何という有難い事で御座いましょう。<br/><br/>この上は有難いお観音様の御恩の万分の一もお酬いする事が出来ませんが、一人でも多くお救いさせていただき度く念願致しております。<br/><br/>本当に有難うございました。<br/><br/> 悩み多き人の一日も早くお道に救われ私のような幸福な生活に入られる事をお祈り致します。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

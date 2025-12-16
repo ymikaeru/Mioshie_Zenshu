@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>pikaso</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ピカソ展を観て 『栄光』135号、昭和26(1951)年12月19日発行 私はこの間東京へ行ったところ、ちょうど高島屋でピカソ展開催中との事を聞き、ちょうど幸いと行ってみたので、今その感想を書いてみるが、まず一通り回って観て唖然とした事は、私としても現在世界的大きな存在としてのピカソともいうべき巨匠である以上、素晴らしいものであるに違いないだろうし、しかも評判も大したもので、新聞などに出ている日本の批評家の誰もが、こぞって賞めているくらいだからと、少なからぬ期待を持っていたので、その気になって丹念に観たつもりであるが、観れば観る程まず分らないと言った方がいい。<br><br>そこでありのままをかいてみれば、まず第一、これが絵画というものであろうかという疑問である。<br><br>一体どこに美しさがあり、どこに良さがあるのであろうか、これを室内に飾って、果して楽しめる人が一人でもあるであろうか、というように、考えれば考える程分らなくなってしまう。<br><br> 率直に言って私は、アノ幾何学的毒々しい色彩で、児童のかいたような絵のどこに、絵画的生命があるのであろうかとは思ってみたが、ピカソ程の大家の描いたものである以上、どこかに何かがあるに違いない。<br><br>何を狙ったものであろうかと、作者の心理探究のような意図でジッと見つめてみても、イコール零（ゼロ）でしかない。<br><br>また人物にしろアノ怪奇な眼、鼻、口、胴体、四肢等が歪んだり、バラバラになったりしていて、酷な言い方かも知れないが、跳ね飛ばされた轢死者か、原子爆弾で殺（や）られた死人としか思えないのは、私ばかりではあるまい。<br><br>実にこれを見せられる大衆こそ、可哀想なものと思う、おそらくこの絵に対する誰もはこれこそ有名なピカソの絵だ、これこそ世界的名画に違いなかろうと思って見ても、サッパリ解らない。<br><br>しかし素晴らしい物には違いなかろうと思うだけで、その絵の良さ悪さも分るはずがない。<br><br>いわゆる大部分は「豚に真珠」でしかあるまい。<br><br>というとおそらくこのようにズバリ直言する者は、今の日本には一人もあるまい。<br><br>私だけと思っている。<br><br>まず絵画はこのくらいにしておいて、次の陶器であるが、これは少し奇抜すぎるが、しかし何かしら鋭い動的な時代感覚がよく出ていて、捨て難い点もある。<br><br>といって現在日本の新しい陶芸家の作品の方が上とさえ、私には思われたのである。<br><br> ではこのようなピカソの作品に対して、何が故に今日のごとく世界的賞讃の的になったかというと、それには立派な理由がある。<br><br>その事を説明するについては、まず現代教育からかかねばならないが、今日どの国もそうであるように、美術に関しての教育は、余りに等閑視されている事である。<br><br>誰も知る通りまず小学校においては、簡単な図画、粘土細工、木工の玩具くらいを生徒に作らせ、中学以上になるとスケッチ風の洋画的のものを教えるくらいで、見るものとしては、決まりきった御手本か先生の絵ぐらいであろう。<br><br>そうして学校を出てからも、よほどの美術趣味のある人でない限り、一般は新聞雑誌の挿絵か、知人の家庭における応接室か床の間に掛けてある絵画くらいで、その他としては一年に一度か二度くらい新聞の評判や、友人に誘われ、展覧会に行って観るくらいのものであるから、真の意味における美術智識などはほとんどないと言ってもよかろう。<br><br>しかも専門家も好事家（こうずか）も、およそ美術に携る人で、その意欲を充たそうと思っても、満足な機関は今の日本にはないのであるから、今仮に新古の優秀な絵画をぜひ観たいとしても不可能で、かえって日本人でありながら、西洋の名画なら、外国へ行けば完備した美術館があって、遺憾なく観られるのである。<br><br>という訳で、東洋美術、すなわち支那、日本の名画などホンの一部しか見られないのが現状である。<br><br>なるほど博物館や私設美術館もあるにはあるが、ほとんど論ずるには足りない程であって、何しろ博物館は歴史的、考古学的の物が主となっており美術そのものからいえば、まことに貧弱である。<br><br>外客などが日本の古美術を見たいと思って、博物館に行ってみる場合、これが東洋の美術かと思うと、大抵の人は失望するであろうと私は思わざるを得ないので、その上年中同じものを陳列しているのであるから、日本人であっても余程の人でない限り、観に行く人は極めて少ない実状である。<br><br>なるほど博物館は仏教美術だけは充実しており、立派な物も数多く備えてはいるが、肝腎な一般人に理解が出来、趣味が湧くような絵画や、その他の美術品にしてもまことに物足りないのである。<br><br>これでは大衆の美術思想をよび醒ますなどの力は到底あり得まい。<br><br>このような訳でいたずらに額に八の字を寄せ、教科書を読むような古美術では、いくら由緒ある物であっても、楽しんで観る気にはなれないので、いつまで経っても美術に親しむ人は増えないであろう。<br><br>としたらこの点大いに考えなければなるまいが、しかし古美術は国家の誇りでもある以上、大いに尊重するのはもちろん、充分保存の方法も講ずべきは、今更言うまでもない。<br><br> その他としては私設美術館であるが、これは美術紹介のための、春秋二季上野に開催する幾つもの展覧会であるが、その中の絵画だけにみても、日本の洋画は数は非常に多いが、まだ西洋模倣の域を脱していないようで、注目を払うに足る程のものは至って少なく、そうかといって日本画にしても行詰り状態で大部分の傾向は、日本絵具で描いた油絵に過ぎないと言っていいくらいで、しかも大家は大家なりに、今更流行を追う訳にもゆかず、旧来のままでは人が認めてくれず、というジレンマに陥っている。<br><br>その気持が画面によく表われている。<br><br>私は昨年までは秋の展覧会は欠かした事はなかったが、今年はどうしても、行く気になれないので、とうとう行かなかったが、それ程見る気になれないからである。<br><br>以上現在の美術に関しての色々を思ったままかいたのであるが、これをもってみても、今日の日本人は美術に関する本当の教育を受けていない以上、鑑識眼などはほとんど零に近いと言ってよかろう。<br><br>そのような訳で人がいいというからいいんだろう、新聞などがジャンジャン賞めているから、素晴らしいものに違いあるまい、これを見ないと流行遅れになるから、行かずんばあるべからずといったように押掛けるのであろうから、ちょうど映画のベストテンのようなもので一種の人気作用でしかあるまい。<br><br>この意殊においてマチスもピカソも、現代における大いに恵まれた存在といってよかろう。<br><br> 以上のごとく現代教育上の、最も欠陥とされている美術教育こそ、今後は大いに奨励しなければならないが、しかもこの事は平和思想涵養（かんよう）にも役立つものであろうし、美術思想こそ世界共通の理念であり、将来は国際的に美術品の交流等も旺（さか）んに行われるであろう。<br><br>またこの事が共産思想を防止する上にも相当効果があるであろうから、この意味において、私は社会的にも大いに美術教育を旺んにし、大衆の美術趣味を昂（たか）めなければならないと思うのである。<br><br>その上、今日まで特権者の専有物のようになっていた美術趣味を、民衆にも普（あまね）く均霑（きんてん）させられるとしたら、この事も結構な社会事業であろう。<br><br>しかもそれが製作者の刺戟ともなり、作品に対する正しい批判力をもつ社会ともなるので、美術界も健全なる発達を遂げるのは当然である。<br><br>そうなってこそ、日本においても世界的大傑作品が生まれるのは必定であろう。<br><br>それについても、今私は残念に思う事は、マチス、ピカソのごとき現在生きている画家の作品が、日本にまで来てヤンヤと言われる事で、これを考えれば、いつかは日本人の画家の作品が、アメリカやヨーロッパへ展覧会を開き、大騒ぎされる時期の早く来（きた）れかしと念願してやまないものである。<br><br> 最後に私の事を少し書いてみるが、今造っている箱根熱海の美術館である。<br><br>箱根の方は来年の夏までに出来る予定だが、言うまでもなく前述のごとく美術教育の欠陥を補い、日本人全体に大いに美術思想を涵養させたい趣旨であるから、陳列の品も一般人にも理解出来うると共に、専門家としても、最も欲求している優秀品を網羅しようと計画しているのである。<br><br>もちろん東洋美術を基本とし、新古を問わず、各時代における名人の傑作品を選び、大いに内容の充実を図るのである。<br><br>そうして差当っては日本人を目標としているが、将来は世界各国の専門家、好事家、一般大衆の憧れのシンボルとしての、世界に誇り得る大美術館としたい考えである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Exposição de Picasso</h2>
 <p>Recentemente, durante uma viagem a Tóquio, soube que estava em cartaz uma exposição de Picasso na loja de departamentos Takashimaya. Vendo nisso uma feliz oportunidade, decidi visitá-la. Descrevo agora as impressões que me ocorreram.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Conforme apontei, a educação artística, a mais grave lacuna do ensino contemporâneo, deve ser fortemente incentivada daqui para a frente. Tal medida não apenas contribui para a formação do pensamento pacifista, como também se alinha a um ideal universal, pois a arte transcende fronteiras. No futuro, o intercâmbio de obras de arte entre as nações se intensificará. Creio, ainda, que essa iniciativa exercerá um efeito considerável na prevenção da ideologia comunista. Por essa razão, entendo ser meu dever promover ativamente a educação artística na sociedade, elevando o gosto do nosso povo. Se conseguirmos tornar o apreço pela arte, até então um privilégio de poucos, acessível a toda a população, estaremos realizando uma notável obra de bem-estar social. Isso servirá de estímulo aos artistas e fomentará uma sociedade com capacidade de crítica abalizada, o que, por sua vez, promoverá o desenvolvimento saudável do mundo da arte. Quando isso acontecer, será inevitável o surgimento, no Japão, de obras-primas de magnitude mundial.</p>
 <p>A esse respeito, lamento que as obras de pintores vivos como Matisse e Picasso venham ao Japão e sejam recebidas com tanto alarde. Anseio ardentemente pelo dia em que as obras de artistas japoneses sejam expostas nos Estados Unidos e na Europa, causando o mesmo furor.</p>
 <p>Para concluir, gostaria de dizer algumas palavras sobre meus próprios projetos: os museus de arte que estou construindo em Hakone e Atami. O de Hakone tem previsão de conclusão para o próximo verão. Como é evidente pelo que foi dito, meu objetivo é suprir as lacunas da educação artística e cultivar amplamente o senso estético em todo o povo japonês. Para tanto, planejo reunir um acervo de obras-primas que seja compreensível para o público em geral e, ao mesmo tempo, satisfaça as mais altas exigências dos especialistas. Tendo como alicerce a arte oriental, selecionaremos as obras mais extraordinárias de mestres de todas as épocas, antigos e modernos, a fim de criar um acervo de conteúdo riquíssimo. Inicialmente, nosso foco é o público japonês, mas, no futuro, minha aspiração é que se tornem grandes museus de renome mundial, um símbolo de admiração para especialistas, apreciadores e o público de todas as nações.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ピカソ展を観て 『栄光』135号、昭和26(1951)年12月19日発行 私はこの間東京へ行ったところ、ちょうど高島屋でピカソ展開催中との事を聞き、ちょうど幸いと行ってみたので、今その感想を書いてみるが、まず一通り回って観て唖然とした事は、私としても現在世界的大きな存在としてのピカソともいうべき巨匠である以上、素晴らしいものであるに違いないだろうし、しかも評判も大したもので、新聞などに出ている日本の批評家の誰もが、こぞって賞めているくらいだからと、少なからぬ期待を持っていたので、その気になって丹念に観たつもりであるが、観れば観る程まず分らないと言った方がいい。<br/><br/>そこでありのままをかいてみれば、まず第一、これが絵画というものであろうかという疑問である。<br/><br/>一体どこに美しさがあり、どこに良さがあるのであろうか、これを室内に飾って、果して楽しめる人が一人でもあるであろうか、というように、考えれば考える程分らなくなってしまう。<br/><br/> 率直に言って私は、アノ幾何学的毒々しい色彩で、児童のかいたような絵のどこに、絵画的生命があるのであろうかとは思ってみたが、ピカソ程の大家の描いたものである以上、どこかに何かがあるに違いない。<br/><br/>何を狙ったものであろうかと、作者の心理探究のような意図でジッと見つめてみても、イコール零（ゼロ）でしかない。<br/><br/>また人物にしろアノ怪奇な眼、鼻、口、胴体、四肢等が歪んだり、バラバラになったりしていて、酷な言い方かも知れないが、跳ね飛ばされた轢死者か、原子爆弾で殺（や）られた死人としか思えないのは、私ばかりではあるまい。<br/><br/>実にこれを見せられる大衆こそ、可哀想なものと思う、おそらくこの絵に対する誰もはこれこそ有名なピカソの絵だ、これこそ世界的名画に違いなかろうと思って見ても、サッパリ解らない。<br/><br/>しかし素晴らしい物には違いなかろうと思うだけで、その絵の良さ悪さも分るはずがない。<br/><br/>いわゆる大部分は「豚に真珠」でしかあるまい。<br/><br/>というとおそらくこのようにズバリ直言する者は、今の日本には一人もあるまい。<br/><br/>私だけと思っている。<br/><br/>まず絵画はこのくらいにしておいて、次の陶器であるが、これは少し奇抜すぎるが、しかし何かしら鋭い動的な時代感覚がよく出ていて、捨て難い点もある。<br/><br/>といって現在日本の新しい陶芸家の作品の方が上とさえ、私には思われたのである。<br/><br/> ではこのようなピカソの作品に対して、何が故に今日のごとく世界的賞讃の的になったかというと、それには立派な理由がある。<br/><br/>その事を説明するについては、まず現代教育からかかねばならないが、今日どの国もそうであるように、美術に関しての教育は、余りに等閑視されている事である。<br/><br/>誰も知る通りまず小学校においては、簡単な図画、粘土細工、木工の玩具くらいを生徒に作らせ、中学以上になるとスケッチ風の洋画的のものを教えるくらいで、見るものとしては、決まりきった御手本か先生の絵ぐらいであろう。<br/><br/>そうして学校を出てからも、よほどの美術趣味のある人でない限り、一般は新聞雑誌の挿絵か、知人の家庭における応接室か床の間に掛けてある絵画くらいで、その他としては一年に一度か二度くらい新聞の評判や、友人に誘われ、展覧会に行って観るくらいのものであるから、真の意味における美術智識などはほとんどないと言ってもよかろう。<br/><br/>しかも専門家も好事家（こうずか）も、およそ美術に携る人で、その意欲を充たそうと思っても、満足な機関は今の日本にはないのであるから、今仮に新古の優秀な絵画をぜひ観たいとしても不可能で、かえって日本人でありながら、西洋の名画なら、外国へ行けば完備した美術館があって、遺憾なく観られるのである。<br/><br/>という訳で、東洋美術、すなわち支那、日本の名画などホンの一部しか見られないのが現状である。<br/><br/>なるほど博物館や私設美術館もあるにはあるが、ほとんど論ずるには足りない程であって、何しろ博物館は歴史的、考古学的の物が主となっており美術そのものからいえば、まことに貧弱である。<br/><br/>外客などが日本の古美術を見たいと思って、博物館に行ってみる場合、これが東洋の美術かと思うと、大抵の人は失望するであろうと私は思わざるを得ないので、その上年中同じものを陳列しているのであるから、日本人であっても余程の人でない限り、観に行く人は極めて少ない実状である。<br/><br/>なるほど博物館は仏教美術だけは充実しており、立派な物も数多く備えてはいるが、肝腎な一般人に理解が出来、趣味が湧くような絵画や、その他の美術品にしてもまことに物足りないのである。<br/><br/>これでは大衆の美術思想をよび醒ますなどの力は到底あり得まい。<br/><br/>このような訳でいたずらに額に八の字を寄せ、教科書を読むような古美術では、いくら由緒ある物であっても、楽しんで観る気にはなれないので、いつまで経っても美術に親しむ人は増えないであろう。<br/><br/>としたらこの点大いに考えなければなるまいが、しかし古美術は国家の誇りでもある以上、大いに尊重するのはもちろん、充分保存の方法も講ずべきは、今更言うまでもない。<br/><br/> その他としては私設美術館であるが、これは美術紹介のための、春秋二季上野に開催する幾つもの展覧会であるが、その中の絵画だけにみても、日本の洋画は数は非常に多いが、まだ西洋模倣の域を脱していないようで、注目を払うに足る程のものは至って少なく、そうかといって日本画にしても行詰り状態で大部分の傾向は、日本絵具で描いた油絵に過ぎないと言っていいくらいで、しかも大家は大家なりに、今更流行を追う訳にもゆかず、旧来のままでは人が認めてくれず、というジレンマに陥っている。<br/><br/>その気持が画面によく表われている。<br/><br/>私は昨年までは秋の展覧会は欠かした事はなかったが、今年はどうしても、行く気になれないので、とうとう行かなかったが、それ程見る気になれないからである。<br/><br/>以上現在の美術に関しての色々を思ったままかいたのであるが、これをもってみても、今日の日本人は美術に関する本当の教育を受けていない以上、鑑識眼などはほとんど零に近いと言ってよかろう。<br/><br/>そのような訳で人がいいというからいいんだろう、新聞などがジャンジャン賞めているから、素晴らしいものに違いあるまい、これを見ないと流行遅れになるから、行かずんばあるべからずといったように押掛けるのであろうから、ちょうど映画のベストテンのようなもので一種の人気作用でしかあるまい。<br/><br/>この意殊においてマチスもピカソも、現代における大いに恵まれた存在といってよかろう。<br/><br/> 以上のごとく現代教育上の、最も欠陥とされている美術教育こそ、今後は大いに奨励しなければならないが、しかもこの事は平和思想涵養（かんよう）にも役立つものであろうし、美術思想こそ世界共通の理念であり、将来は国際的に美術品の交流等も旺（さか）んに行われるであろう。<br/><br/>またこの事が共産思想を防止する上にも相当効果があるであろうから、この意味において、私は社会的にも大いに美術教育を旺んにし、大衆の美術趣味を昂（たか）めなければならないと思うのである。<br/><br/>その上、今日まで特権者の専有物のようになっていた美術趣味を、民衆にも普（あまね）く均霑（きんてん）させられるとしたら、この事も結構な社会事業であろう。<br/><br/>しかもそれが製作者の刺戟ともなり、作品に対する正しい批判力をもつ社会ともなるので、美術界も健全なる発達を遂げるのは当然である。<br/><br/>そうなってこそ、日本においても世界的大傑作品が生まれるのは必定であろう。<br/><br/>それについても、今私は残念に思う事は、マチス、ピカソのごとき現在生きている画家の作品が、日本にまで来てヤンヤと言われる事で、これを考えれば、いつかは日本人の画家の作品が、アメリカやヨーロッパへ展覧会を開き、大騒ぎされる時期の早く来（きた）れかしと念願してやまないものである。<br/><br/> 最後に私の事を少し書いてみるが、今造っている箱根熱海の美術館である。<br/><br/>箱根の方は来年の夏までに出来る予定だが、言うまでもなく前述のごとく美術教育の欠陥を補い、日本人全体に大いに美術思想を涵養させたい趣旨であるから、陳列の品も一般人にも理解出来うると共に、専門家としても、最も欲求している優秀品を網羅しようと計画しているのである。<br/><br/>もちろん東洋美術を基本とし、新古を問わず、各時代における名人の傑作品を選び、大いに内容の充実を図るのである。<br/><br/>そうして差当っては日本人を目標としているが、将来は世界各国の専門家、好事家、一般大衆の憧れのシンボルとしての、世界に誇り得る大美術館としたい考えである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

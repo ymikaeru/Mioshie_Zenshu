@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qbinbo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 貧乏より御救い戴いて 『栄光』200号、昭和28(1953)年3月18日発行 神奈川県 日本中教会 大沼留吉（45） 明主様貧乏のどん底より現在へお救い戴きました御礼御報告申し上げさせて戴きます。<br><br> 私は昭和二十四年九月、妻と前後して入信させて戴きました者でございます。<br><br>顧みれば二十四年八月、最愛の長男（当時三歳）の病死、続いて長女（生後八カ月）の発病（当時の事は『栄光』紙五十号に御報告させて戴きました）、重なる不幸に加えて失業に妻も子供も普段着の果まで売尽くし、裸一貫になりました。<br><br> 瀕死の長女の姿を前にして死ぬまでに（医者にも見放され到底助らぬと思いました）一度でもよい自分の手で御浄霊をさせて戴きたいと思いつつも、その日暮しにも事欠く私達には御礼のお金など夢想だに出来ませんでした。<br><br>しかし亡くなった長男の霊をお救いさせて戴くためにも一日も早く入信させて戴きたいと妻と語り暮しておりました。<br><br>ある日（長男の三十七日）思いがけなく石田先生より御礼を御立替して戴き妻が入信、間もなく（長男の最初の命日）私もある方より借用致しまして、入信させて戴きました時の嬉しかった事、天にも昇る心地とはこの事でしょうか。<br><br>さしも大病の長女も、明主様の御力にお救い戴き、重なる御守護に感泣の外ありません。<br><br> 入信当日に石田先生からしみじみと「もう今までのような悪い事ばかりは続きません。<br><br>なぜってもうお光が二体あなたの家庭に入ったのですもの必ずお救い戴けますよ。<br><br>しっかり明主様にお縋りさせて戴きなさい」とあの力強い一言、未だに身についております。<br><br>私には一生忘れる事の出来ない一言でした。<br><br> 二十五年五月八日、漸くの事にて就職致しました時はもう貧乏のどん底にて着る物どころか食べる物もなく、お金は無く、最早一家心中の一歩手前の状態でした（当時の事は『栄光』紙一四七号に御報告させて戴きました）。<br><br>明主様の御守護によりまして八月には御立替戴きました二人分の御教修御礼も全部お返し出来、御屏風観音様をお祀りさせて戴く程の御意を戴きました。<br><br>その秋には又会社が京浜自動車工業より日本運送へと変る時にも一日も休まず就職致し、その上京浜より退職金として一万三千円戴き、それこそ神様の御恵と思い、早速光明如来様をお受けさせて戴きました（二階に人が住んでおりますのでお祀り出来ず教会にお預りして戴きました）。<br><br> 日通より又駐留軍直用と職場の名が変り、変る度毎に、給料も上り、又数回にわたる大量人員整理にも御守護戴き、二十七年二月には日浅い私に責任あるホーマン（班長）を任命され、感泣致しました。<br><br>仕事上の段取りにも「明主様」と御念じさせて戴く事により忽ちスムースに解決致します。<br><br> 又二十七年十一月二十日には三百名の中百二十名というこれまでにもない大量人員整理に、それも日浅い人からという条件の下にたとえ班長であろうと整理され、そればかりでなく、古い方々でさえ格下げとなりました中に日浅い私は依然としてホーマンとして務めさせて戴いております。<br><br>これが御守護でなくて何でございましょう。<br><br> ただただ「明主様有難うございます」と申し上げるより外言葉もございません。<br><br>無信仰のある方は「矢張り御守護だなあ」といい、又ある方は「やはり信仰している者の強みはここにあったのか」とも言われ、こういう言葉を聞きます度毎に妻と共々嬉し泣き致すのみでございます。<br><br>そればかりでなく、間違った時はいつでも私の所へ来なさい、引受けますと力強く言って下さる方さえありますので本当に安心立命と申しましょうか、何の心配もなく勤めさせて戴いております。<br><br>重なる御守護ただただ有難く厚く御礼申し上げます。<br><br> 十二月には二階も借る事が出来三十日に二年越しで待望の光明如来様を御奉斎させて戴きました。<br><br>その時の感激は筆や言葉では表わす事は出来ません。<br><br>手の舞い足の踏む所を知らずとは、こんな時の言葉でしよう。<br><br>ただ嬉しいやらで何回御神前に立ったり坐ったり致しました事か、夜もろくろく寝つかれぬ有様でした。<br><br>今年のお正月程のどかな気持で迎えました事はここ数年来初めてでした。<br><br> これからもしっかり明主様の御教えを歩ませて戴き、御神徳を戴きたく、一生懸命御神業に御手伝いさせて戴きたいと存じます。<br><br> 明主様有難うございました。<br><br> （昭和二十八年二月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo da Extrema Pobreza (Jornal Glory, edição nº 200, 18 de março de 1953)</h2>
 <p><strong>Tomekichi Onuma (45 anos)</strong>
@@ -104,5 +259,48 @@ function toggleLang(lang) {
 <p>O Ano-Novo que se seguiu foi o mais tranquilo que tivemos em muitos anos. De agora em diante, desejo trilhar com firmeza os Ensinamentos de Meishu-Sama, ser merecedor de Suas virtudes e dedicar-me de corpo e alma a servir na Obra Divina.</p>
 <p>Meishu-Sama, muito obrigado.</p>
 <p>(1 de fevereiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 貧乏より御救い戴いて 『栄光』200号、昭和28(1953)年3月18日発行 神奈川県 日本中教会 大沼留吉（45） 明主様貧乏のどん底より現在へお救い戴きました御礼御報告申し上げさせて戴きます。<br/><br/> 私は昭和二十四年九月、妻と前後して入信させて戴きました者でございます。<br/><br/>顧みれば二十四年八月、最愛の長男（当時三歳）の病死、続いて長女（生後八カ月）の発病（当時の事は『栄光』紙五十号に御報告させて戴きました）、重なる不幸に加えて失業に妻も子供も普段着の果まで売尽くし、裸一貫になりました。<br/><br/> 瀕死の長女の姿を前にして死ぬまでに（医者にも見放され到底助らぬと思いました）一度でもよい自分の手で御浄霊をさせて戴きたいと思いつつも、その日暮しにも事欠く私達には御礼のお金など夢想だに出来ませんでした。<br/><br/>しかし亡くなった長男の霊をお救いさせて戴くためにも一日も早く入信させて戴きたいと妻と語り暮しておりました。<br/><br/>ある日（長男の三十七日）思いがけなく石田先生より御礼を御立替して戴き妻が入信、間もなく（長男の最初の命日）私もある方より借用致しまして、入信させて戴きました時の嬉しかった事、天にも昇る心地とはこの事でしょうか。<br/><br/>さしも大病の長女も、明主様の御力にお救い戴き、重なる御守護に感泣の外ありません。<br/><br/> 入信当日に石田先生からしみじみと「もう今までのような悪い事ばかりは続きません。<br/><br/>なぜってもうお光が二体あなたの家庭に入ったのですもの必ずお救い戴けますよ。<br/><br/>しっかり明主様にお縋りさせて戴きなさい」とあの力強い一言、未だに身についております。<br/><br/>私には一生忘れる事の出来ない一言でした。<br/><br/> 二十五年五月八日、漸くの事にて就職致しました時はもう貧乏のどん底にて着る物どころか食べる物もなく、お金は無く、最早一家心中の一歩手前の状態でした（当時の事は『栄光』紙一四七号に御報告させて戴きました）。<br/><br/>明主様の御守護によりまして八月には御立替戴きました二人分の御教修御礼も全部お返し出来、御屏風観音様をお祀りさせて戴く程の御意を戴きました。<br/><br/>その秋には又会社が京浜自動車工業より日本運送へと変る時にも一日も休まず就職致し、その上京浜より退職金として一万三千円戴き、それこそ神様の御恵と思い、早速光明如来様をお受けさせて戴きました（二階に人が住んでおりますのでお祀り出来ず教会にお預りして戴きました）。<br/><br/> 日通より又駐留軍直用と職場の名が変り、変る度毎に、給料も上り、又数回にわたる大量人員整理にも御守護戴き、二十七年二月には日浅い私に責任あるホーマン（班長）を任命され、感泣致しました。<br/><br/>仕事上の段取りにも「明主様」と御念じさせて戴く事により忽ちスムースに解決致します。<br/><br/> 又二十七年十一月二十日には三百名の中百二十名というこれまでにもない大量人員整理に、それも日浅い人からという条件の下にたとえ班長であろうと整理され、そればかりでなく、古い方々でさえ格下げとなりました中に日浅い私は依然としてホーマンとして務めさせて戴いております。<br/><br/>これが御守護でなくて何でございましょう。<br/><br/> ただただ「明主様有難うございます」と申し上げるより外言葉もございません。<br/><br/>無信仰のある方は「矢張り御守護だなあ」といい、又ある方は「やはり信仰している者の強みはここにあったのか」とも言われ、こういう言葉を聞きます度毎に妻と共々嬉し泣き致すのみでございます。<br/><br/>そればかりでなく、間違った時はいつでも私の所へ来なさい、引受けますと力強く言って下さる方さえありますので本当に安心立命と申しましょうか、何の心配もなく勤めさせて戴いております。<br/><br/>重なる御守護ただただ有難く厚く御礼申し上げます。<br/><br/> 十二月には二階も借る事が出来三十日に二年越しで待望の光明如来様を御奉斎させて戴きました。<br/><br/>その時の感激は筆や言葉では表わす事は出来ません。<br/><br/>手の舞い足の踏む所を知らずとは、こんな時の言葉でしよう。<br/><br/>ただ嬉しいやらで何回御神前に立ったり坐ったり致しました事か、夜もろくろく寝つかれぬ有様でした。<br/><br/>今年のお正月程のどかな気持で迎えました事はここ数年来初めてでした。<br/><br/> これからもしっかり明主様の御教えを歩ませて戴き、御神徳を戴きたく、一生懸命御神業に御手伝いさせて戴きたいと存じます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十八年二月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

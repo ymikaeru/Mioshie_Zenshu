@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qankok04</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 暗黒より光明を得て 『栄光』199号、昭和28(1953)年3月11日発行 兵庫県 五三中教会 小林加代子（29） 明主様、謹んでお救いいただきました御礼と御報告を申し上げます。<br><br>私が今日現世に在ります事は、不思議というより外無く有難くただ戻するのみでございます。<br><br>ただただ感謝に胸が一杯でございます。<br><br>三年前の私はまさに暗黒の道を灯も杖も持たず、どこへ行くとも知れず、不安な心で泣きながらさまよいつづけていました。<br><br>この私を大光明如来様の尊き御光をお与え下さいまして、手を取って光明の道へ連れ出していただきました。<br><br>今日大光明如来様を一心に信仰させていただき、数々の御利益を頂きながらまだ一度も明主様に御礼も申し上げず、失礼を深く深くお詫び申し上げます。<br><br> ただ今拙文をもかえりみず、筆をとらせていただきました。<br><br>御恵みに対する万分の一も書き現わせないのが残念でございますが、当時から今日に至るまでを御報告させていただきます。<br><br> 私の病気は本当に不思議で、他人の目には、どこが悪いかわからず、ただ憂鬱な顔をして寝ている位のものだったのです。<br><br>医者にみせても「どこも悪くない、神経だ」との事で、私もとりつく島なく、気安めにくれる薬を、そして注射と日々を送っていました。<br><br>発病しましたのが昭和二十四年の夏のある夜腹痛と嘔吐から始まり、その後約二カ月にわたり動悸に悩まされ絶対安静を命ぜられ、身動きも出来ない情ない身体を、来る日も来る日も床の上で過し「どこも悪くない、神経だ」と言う医者に、苦痛があるのに悪くないとはおかしい、その神経を治せぬものかと心はあせりました。<br><br>とはいうものの医者が唯一のたのみでした。<br><br>二カ月経つと動悸は治まり絶対安静から解放された私でしたが、それも束の間、その頃から急に後頭部が重く、頭の中に何かつめ込んだような感じになり、来る夜も来る夜も不眠に悩まされ気はあせり、いらいらし、すぐ腹立たしくなり笑を忘れた状態で、したがって家庭は暗く争も多くなり、その頃の苦しさは筆舌には到底及ばないものがありました。<br><br>主人も心配し、大学病院に行って博士に診察してもらいましたが要を得ず、その後医者を転々とし、結局病名もはっきりいたしませず、神経衰弱だろう位に落着きました。<br><br>その後転地入院といろいろとし、その間、効きもしない薬をどんどんと注ぎ込んでいました。<br><br>知らぬこととはいえおろかな私でした。<br><br>この苦痛からのがれたいという私のあせりの気持に反比例し、病気の方は段々と悪くなる一方でした。<br><br>頼りにしていた医療もなす術なく最後の医者も見放したのでした。<br><br>私はふところに多量の薬（以前医者に一粒ずつのめという劇薬らしい物を、服用がいやで持っていたもの十粒程）をしのばせ、もはやこの様な苦しい事はたまらない、いつでもこれを一度にのんで死のうと思い又幾度か実行しようと思いましたがやはりいろいろの事を考えるとそれも出来ずに過しました。<br><br>今考えますと、ああよかったと思います。<br><br>不眠はだんだんとひどくなり睡眠薬も効かなくなり、悶々として廃人同様の生活でした。<br><br>勿論仕事は何も出来ず家族の者にはめったに口もきかずにおりました。<br><br>主人も心配したり気をくさらせたりしてよく辛抱してくれたものと当時の事を思い主人や家族に頭を下げたくなります。<br><br>その頃からいかなる無神論者の私も何か神様にお縋りしたいという心になっておりました。<br><br>その時です、神様のお導きと言いましようか、当地でこのお道を一生懸命信仰なさっている今蔵先生が来て下さって勧めていただき、飛びつく思いで御浄霊というものを受けたいとお願いいたしました。<br><br>当時の私の気持は神様の有無は問題ではありませんでした。<br><br>有神無神を論ずるような余裕はありませんでした。<br><br>その晩御浄霊をしていただきましたら、不思議！ 眠られました。<br><br>朝までぐっすり眠らせていただきました。<br><br>心のどこかに灯を得て、ますますお縋りする気になりました。<br><br>それからというもの毎日毎日雨の日雪の日風の日も私の家まで来て下さり、御浄霊を一時間から長い時は二時間もして下さいました。<br><br>眠れる日もあり眠れない日もありましたが、あれ程の不眠がここまで救われたという喜びで一杯でした。<br><br>しかし頭の工合は依然として悪く、眠れる様にしていただいた御利益も忘れ勝になり、頭の苦しい事のみ思っていろいろと心に曇りを生じておりました。<br><br>勿体ないことでした。<br><br>今蔵先生の誠に対しても一生懸命にならなければと思いはげまして光明如来様を念じておりました。<br><br>この様な私を中教会長の多賀先生、本郷支部長の高辻先生はやさしい気持でいろいろお導き下さいました。<br><br>医学では治されぬこの病気、どうしてもこのお道で救っていただきたいものと、日夜借していただいた当時『光』新聞、『地上天国』を床の中で、大切なところは赤線を引いてわからないところがあれば先生に質問し御説明を願ったのでした。<br><br>その折には解り易く親切にお教え下さったのでした。<br><br>当時の私、分る事やら分らない事やら、分ったと思えば時を過ぎては又分らなくなり、又教えられして、それはそれは私をお導き下さった先生方の血のにじむ様な苦労を今日思う時、よくもここまでして下さったと涙ぐむのも再三です。<br><br>二十五年の二月六日、私は入信させていただき、一週間の後には主人も入信し、ひたすら御守護をお願い致しておりました。<br><br>三月の春季大祭に主人が明主様の御面会を許されました。<br><br>そして三月十一日に光明如来様をお祀りさせていただきました。<br><br>四月の御面会日には私が許していただき、フラフラする頭も、不思議に支え易く、初めての御面会をさせていただきました。<br><br>以後今日まで度々の御面会を許していただき、身に余る光栄と、勿体良く存じております。<br><br>この年の十月頃までは頭の苦痛は変りなかったように思いましたが、夜眠れなかったのが眠れるようにしていただいたというのは偽らざる事実でした。<br><br>秋もたけなわの頃より家事がほんの少し出来ました。<br><br>この時から私もいよいよ救われる段階に入れていただいたなあとうれしくて仕方がありませんでした。<br><br>二十六年のお正月も前年と反対に笑いのうちに迎えたのでした。<br><br>そして三月の春季大祭には熱海におまいりさせていただき、毎月の各所の月並祭にも殆んど欠席した事なく、重い頭をかかえての修業をさせていただきました。<br><br>幾人かの人も御浄霊させていただきとにかく一生懸命でした。<br><br> 五月に大光明如来様をお迎えさせていただきましてからは家庭の方も段々と明るくなりました。<br><br>かくして一昨年の夏も無事に過ぎた頃より頭一面吹出物の御浄化をいただき、三カ月にわたって膿を出していただいたのでした。<br><br>それからは又いっそう楽になり、今まで少しも手を出さなかった家事も、事を欠かさずにさせていただいております。<br><br>今でも後頭部の御浄化はつづいておりますが、私の罪けがれと、生まれてから入信するまでに浴びた薬毒というものは大したもので、これも致し方なく御浄霊によって時期を待つのみでございます。<br><br> きっと晴々とした軽い頭にしていただける日も近いと本当にたのしみでございます。<br><br> かくて罪多い私もこのお道によって救われました。<br><br>明主様の御写真にむかっておさえ切れぬ涙にひたるこの気持も救われた者の知る心境でございましょう。<br><br>私は毎月の 『地上天国』、新聞によりまして、どれだけ力づけられ、そして信念を強められた事でございましょう。<br><br>信仰は辛抱ということが大切であり、大光明如来様の絶対の御力を信じ幾歳月かかろうとも時を待つという大切さを身をもって教えていただきました。<br><br> ありがとうございました。<br><br>神様に与えられたこの身この魂を、御神業に世の為に人の為に御役にたてさせていただきたく謹んでお願い申し上げます。<br><br> この拙文では思いの万分の一も書き現わせなかったと存じますがこれをもちまして御利益いただきました御礼と御報告の筆をおかせていただきます。<br><br> 明主様有難うございました。<br><br>今後共変らぬ御導きと御守護をお願い申し上げます。<br><br> （昭和二十七年九月十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Como obtive a Luz em meio às trevas</h2>
 <p>Eu, Kobayashi Kayoko (29), da Igreja Itami-Naka, província de Hyogo, com a mais profunda reverência, venho expressar minha gratidão e relatar a salvação que me foi concedida por Meishu-Sama. O fato de eu ainda pertencer a este mundo é algo que transcende o inexplicável, e por isso, sou tomada por um sentimento de gratidão que me compele a apenas curvar-me. Meu coração transborda de agradecimento.</p>
@@ -111,5 +266,48 @@ function toggleLang(lang) {
 <p>Sei que este texto inábil não expressa nem uma ínfima parte do que sinto, mas encerro com ele meu relato e meu agradecimento pela graça recebida.</p>
 <p>Meishu-Sama, muito obrigada. Rogo para que Vossa orientação e proteção imutáveis continuem a me amparar.</p>
 <p>(17 de setembro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 暗黒より光明を得て 『栄光』199号、昭和28(1953)年3月11日発行 兵庫県 五三中教会 小林加代子（29） 明主様、謹んでお救いいただきました御礼と御報告を申し上げます。<br/><br/>私が今日現世に在ります事は、不思議というより外無く有難くただ戻するのみでございます。<br/><br/>ただただ感謝に胸が一杯でございます。<br/><br/>三年前の私はまさに暗黒の道を灯も杖も持たず、どこへ行くとも知れず、不安な心で泣きながらさまよいつづけていました。<br/><br/>この私を大光明如来様の尊き御光をお与え下さいまして、手を取って光明の道へ連れ出していただきました。<br/><br/>今日大光明如来様を一心に信仰させていただき、数々の御利益を頂きながらまだ一度も明主様に御礼も申し上げず、失礼を深く深くお詫び申し上げます。<br/><br/> ただ今拙文をもかえりみず、筆をとらせていただきました。<br/><br/>御恵みに対する万分の一も書き現わせないのが残念でございますが、当時から今日に至るまでを御報告させていただきます。<br/><br/> 私の病気は本当に不思議で、他人の目には、どこが悪いかわからず、ただ憂鬱な顔をして寝ている位のものだったのです。<br/><br/>医者にみせても「どこも悪くない、神経だ」との事で、私もとりつく島なく、気安めにくれる薬を、そして注射と日々を送っていました。<br/><br/>発病しましたのが昭和二十四年の夏のある夜腹痛と嘔吐から始まり、その後約二カ月にわたり動悸に悩まされ絶対安静を命ぜられ、身動きも出来ない情ない身体を、来る日も来る日も床の上で過し「どこも悪くない、神経だ」と言う医者に、苦痛があるのに悪くないとはおかしい、その神経を治せぬものかと心はあせりました。<br/><br/>とはいうものの医者が唯一のたのみでした。<br/><br/>二カ月経つと動悸は治まり絶対安静から解放された私でしたが、それも束の間、その頃から急に後頭部が重く、頭の中に何かつめ込んだような感じになり、来る夜も来る夜も不眠に悩まされ気はあせり、いらいらし、すぐ腹立たしくなり笑を忘れた状態で、したがって家庭は暗く争も多くなり、その頃の苦しさは筆舌には到底及ばないものがありました。<br/><br/>主人も心配し、大学病院に行って博士に診察してもらいましたが要を得ず、その後医者を転々とし、結局病名もはっきりいたしませず、神経衰弱だろう位に落着きました。<br/><br/>その後転地入院といろいろとし、その間、効きもしない薬をどんどんと注ぎ込んでいました。<br/><br/>知らぬこととはいえおろかな私でした。<br/><br/>この苦痛からのがれたいという私のあせりの気持に反比例し、病気の方は段々と悪くなる一方でした。<br/><br/>頼りにしていた医療もなす術なく最後の医者も見放したのでした。<br/><br/>私はふところに多量の薬（以前医者に一粒ずつのめという劇薬らしい物を、服用がいやで持っていたもの十粒程）をしのばせ、もはやこの様な苦しい事はたまらない、いつでもこれを一度にのんで死のうと思い又幾度か実行しようと思いましたがやはりいろいろの事を考えるとそれも出来ずに過しました。<br/><br/>今考えますと、ああよかったと思います。<br/><br/>不眠はだんだんとひどくなり睡眠薬も効かなくなり、悶々として廃人同様の生活でした。<br/><br/>勿論仕事は何も出来ず家族の者にはめったに口もきかずにおりました。<br/><br/>主人も心配したり気をくさらせたりしてよく辛抱してくれたものと当時の事を思い主人や家族に頭を下げたくなります。<br/><br/>その頃からいかなる無神論者の私も何か神様にお縋りしたいという心になっておりました。<br/><br/>その時です、神様のお導きと言いましようか、当地でこのお道を一生懸命信仰なさっている今蔵先生が来て下さって勧めていただき、飛びつく思いで御浄霊というものを受けたいとお願いいたしました。<br/><br/>当時の私の気持は神様の有無は問題ではありませんでした。<br/><br/>有神無神を論ずるような余裕はありませんでした。<br/><br/>その晩御浄霊をしていただきましたら、不思議！ 眠られました。<br/><br/>朝までぐっすり眠らせていただきました。<br/><br/>心のどこかに灯を得て、ますますお縋りする気になりました。<br/><br/>それからというもの毎日毎日雨の日雪の日風の日も私の家まで来て下さり、御浄霊を一時間から長い時は二時間もして下さいました。<br/><br/>眠れる日もあり眠れない日もありましたが、あれ程の不眠がここまで救われたという喜びで一杯でした。<br/><br/>しかし頭の工合は依然として悪く、眠れる様にしていただいた御利益も忘れ勝になり、頭の苦しい事のみ思っていろいろと心に曇りを生じておりました。<br/><br/>勿体ないことでした。<br/><br/>今蔵先生の誠に対しても一生懸命にならなければと思いはげまして光明如来様を念じておりました。<br/><br/>この様な私を中教会長の多賀先生、本郷支部長の高辻先生はやさしい気持でいろいろお導き下さいました。<br/><br/>医学では治されぬこの病気、どうしてもこのお道で救っていただきたいものと、日夜借していただいた当時『光』新聞、『地上天国』を床の中で、大切なところは赤線を引いてわからないところがあれば先生に質問し御説明を願ったのでした。<br/><br/>その折には解り易く親切にお教え下さったのでした。<br/><br/>当時の私、分る事やら分らない事やら、分ったと思えば時を過ぎては又分らなくなり、又教えられして、それはそれは私をお導き下さった先生方の血のにじむ様な苦労を今日思う時、よくもここまでして下さったと涙ぐむのも再三です。<br/><br/>二十五年の二月六日、私は入信させていただき、一週間の後には主人も入信し、ひたすら御守護をお願い致しておりました。<br/><br/>三月の春季大祭に主人が明主様の御面会を許されました。<br/><br/>そして三月十一日に光明如来様をお祀りさせていただきました。<br/><br/>四月の御面会日には私が許していただき、フラフラする頭も、不思議に支え易く、初めての御面会をさせていただきました。<br/><br/>以後今日まで度々の御面会を許していただき、身に余る光栄と、勿体良く存じております。<br/><br/>この年の十月頃までは頭の苦痛は変りなかったように思いましたが、夜眠れなかったのが眠れるようにしていただいたというのは偽らざる事実でした。<br/><br/>秋もたけなわの頃より家事がほんの少し出来ました。<br/><br/>この時から私もいよいよ救われる段階に入れていただいたなあとうれしくて仕方がありませんでした。<br/><br/>二十六年のお正月も前年と反対に笑いのうちに迎えたのでした。<br/><br/>そして三月の春季大祭には熱海におまいりさせていただき、毎月の各所の月並祭にも殆んど欠席した事なく、重い頭をかかえての修業をさせていただきました。<br/><br/>幾人かの人も御浄霊させていただきとにかく一生懸命でした。<br/><br/> 五月に大光明如来様をお迎えさせていただきましてからは家庭の方も段々と明るくなりました。<br/><br/>かくして一昨年の夏も無事に過ぎた頃より頭一面吹出物の御浄化をいただき、三カ月にわたって膿を出していただいたのでした。<br/><br/>それからは又いっそう楽になり、今まで少しも手を出さなかった家事も、事を欠かさずにさせていただいております。<br/><br/>今でも後頭部の御浄化はつづいておりますが、私の罪けがれと、生まれてから入信するまでに浴びた薬毒というものは大したもので、これも致し方なく御浄霊によって時期を待つのみでございます。<br/><br/> きっと晴々とした軽い頭にしていただける日も近いと本当にたのしみでございます。<br/><br/> かくて罪多い私もこのお道によって救われました。<br/><br/>明主様の御写真にむかっておさえ切れぬ涙にひたるこの気持も救われた者の知る心境でございましょう。<br/><br/>私は毎月の 『地上天国』、新聞によりまして、どれだけ力づけられ、そして信念を強められた事でございましょう。<br/><br/>信仰は辛抱ということが大切であり、大光明如来様の絶対の御力を信じ幾歳月かかろうとも時を待つという大切さを身をもって教えていただきました。<br/><br/> ありがとうございました。<br/><br/>神様に与えられたこの身この魂を、御神業に世の為に人の為に御役にたてさせていただきたく謹んでお願い申し上げます。<br/><br/> この拙文では思いの万分の一も書き現わせなかったと存じますがこれをもちまして御利益いただきました御礼と御報告の筆をおかせていただきます。<br/><br/> 明主様有難うございました。<br/><br/>今後共変らぬ御導きと御守護をお願い申し上げます。<br/><br/> （昭和二十七年九月十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

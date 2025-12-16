@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi19</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の抱負 『栄光』94号、昭和26(1951)年3月7日発行 去る二月十日、神田共立講堂において、本教講演会の際、私は出席出来なかったのでその趣旨を代読させたのが、左の通りのもので、聴きに行けなかった人のために、ここに載せるのである。<br><br> × × 私は、今日ぜひ皆様に、御目に掛かるはずでありましたが、よんどころ無い事情が出来たので、喋舌（しゃべ）る代りとして、これを読ませますから、そのつもりで聴いて貰いたいのであります。<br><br>しかしこれは信者諸君よりも、まだ信仰に入っていない方々を目標としてかいたのであります。<br><br> 御承知の通り、我世界救世教は、昨年の本日から新しく発足したものでありまして、その前は日本観音教団と言っていたのでこれも既に御承知の事と思います。<br><br>ところでこの二、三年来、急に新聞雑誌やラジオ等で、何や彼や騒がれた事も、大抵の方は御存知でありましょう。<br><br>しかし誠に遺憾な事には、パッと拡がったのはいいとしても、それが飛んでもない拡がり方なので、実は驚いているのであります。<br><br>というのは白を黒と見られ金を鉛とせられ、プラスをマイナスと言われたのでありますから、本当の事はいずれは判る時が来るとしても、それまでの間世の中を救うという立派な仕事が遅れるとしたら、神様に申訳がないので、従来刊行されている出版物宣伝以外、これからは直接耳からの宣伝も必要と思いますので、それで始めたのが、第一回の今日のこの会であります。<br><br> 前置きはこのくらいにしておいて、さて今日世界を観る時どうでありましょう。<br><br>病気、貧乏、争いの三つの大きな災いによって、人類はいかに苦しみ悩みつつあるでありましょう。<br><br>日本だけに見ても、ヤレ結核、ソレ伝染病、イヤ何々というように、病院は満員ベッドは足りないというように、恐らく現代人で表面は健康そうに見えても、一つも病気のないという人は、恐らく一人もありますまい。<br><br>そうかと思や税金苦、金詰り、物価高等で、いくら稼いでも稼いでも追付かず人間は何のために生まれて来たのか、これでは苦しみが人生そのものであると言えましょう。<br><br>また次の争いであるが、これは国内問題は別としても、今や世界を挙げて、空前な大戦争が始まろうとして、人類悉（ことごと）く戦々兢々（せんせんきょうきょう）たる有様であります。<br><br>この惨状をもし神様が御覧になるとしたら、余りの悲惨事に御助けになられなければならないはずであります。<br><br>そうでなければ、神様などはないと言われても、返す言葉はありますまい。<br><br>ところが神様はあります。<br><br>大いにあります。<br><br>というのは世界人類を普（あまね）く救わんがために、我メシヤ教が出現した事であります。<br><br> この意味において、神が有るか無いかは問題ではありません。<br><br>我救世教の信者となれば手にとるごとくハッキリ判るのであります。<br><br>もし本教信者となって、その通りでないとしたら、社会を欺瞞する大罪人となるでありましょう。<br><br>そんな山師的の事は私は真ッ平御免です。<br><br>自分の首を自分で締めるような、愚かな人間にはなりたくありません。<br><br>何よりももし本当でないものとしたら、僅か数年の短期間にこれほど発展するはずはないでありましょう。<br><br>ここで一言申したい事は、いかなる宗教でも、その初めは必ず世の中から誤解を受け、迷信邪教とされ、迫害や法難に苦しむものであります。<br><br>そうして今日世界で一番大きい宗教は、キリスト教でありましょう。<br><br>そのキリストは生前迷信邪教の本尊とされ、ついに十字架の刑までも負わされたのでありますから、この一事だけでも多くを言う必要はありますまい。<br><br>しかも昇天後僅か十一人の弟子が残って、ついに今日のごとき大を成したのであるから、キリスト教も決して迷信邪教ではなかったのであります。<br><br> それはとにかく、簡単に私の抱負を申し述べますが、私は神から与えられた大きな力をもって、何らの物質を使わず、見えざる霊をもって、しかも弟子を通じて、あらゆる病気を治しているのであります。<br><br>もちろんそれによって貧乏も解決されます。<br><br>それは貧乏の原因は、病気が主であるからであります。<br><br>また世界から戦争を無くす事も出来るのであります、と言ったら皆さんは、余りの大言壮語に唖然（あぜん）とするでありましょう。<br><br>しかしこれも本教に入って、実態が判れば、信じない訳にはゆかなくなります。<br><br>何よりも本教信者全部は、それを確信しているのであります。<br><br>と言っても入信当時は、例外なく疑っていた人達なのであります。<br><br>従って、実を言えば本教は宗教ではないのであります。<br><br>というのは宗教とはその名のごとく、宗祖の教えであり、教えによって人々を済度するのでありますが、本教はそうではなく、現実に救の業を行うのであります。<br><br>この事も昔からの各宗の開祖や、諸々の聖者が立派に予言してあります。<br><br>例えば、キリストのいわれた「天国は近づけり」、釈尊の弥勒（みろく）の世、日蓮上人の義農（ぎのう）の世、天理教教祖の甘露台（かんろだい）の世等も、この事でなくて何でありましょう。<br><br>余り長くなるから、今日はこれで御挨拶に代える事に致します。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minhas Aspirações</h2>
 <p>O texto que se segue corresponde à mensagem que eu deveria ter proferido pessoalmente no evento de nossa Igreja, realizado no dia 10 de fevereiro último, no Auditório Kyoritsu, em Kanda. Devido a circunstâncias inadiáveis que me impediram de comparecer, solicitei que fizessem a sua leitura em meu nome. Publico-a agora, para o conhecimento daqueles que tampouco puderam estar presentes.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Seja como for, permitam-me expor brevemente minhas aspirações. Com o grandioso poder que me foi outorgado por Deus, e sem utilizar qualquer substância material, mas sim o espírito invisível, eu curo, por intermédio de meus discípulos, toda sorte de doenças. Naturalmente, por meio disso, a pobreza também é solucionada, pois sua causa principal reside na doença. Afirmo ainda que é possível eliminar a guerra do mundo. Sei que, ao ouvir tais palavras, os senhores talvez fiquem atônitos diante de tamanha envergadura. Contudo, ao ingressar em nossa Igreja e compreender sua realidade, torna-se impossível não crer. Sobretudo, todos os nossos membros partilham dessa convicção, embora, na época de seu ingresso, fossem, sem exceção, pessoas que duvidavam.</p>
 <p>A rigor, nossa Igreja não é uma religião no sentido convencional. O termo "religião", como o nome sugere, refere-se aos ensinamentos de um fundador, por meio dos quais se busca conduzir as pessoas à salvação. Nossa Igreja, porém, difere disso: nós realizamos a obra de salvação na prática, no mundo real. Este fato, aliás, foi claramente profetizado pelos fundadores das diversas religiões e por inúmeros santos do passado. O “Reino dos Céus está próximo” de Cristo; o mundo de Miroku, de Shakyamuni; o mundo de Gihnou, do mestre Nitiren; o mundo do Kanrodai (甘露台), da fundadora da Tenrikyo... o que poderiam ser senão prenúncios desta era?</p>
 <p>Para não me alongar demasiado, encerro por aqui minhas palavras, que servem como saudação a todos os presentes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の抱負 『栄光』94号、昭和26(1951)年3月7日発行 去る二月十日、神田共立講堂において、本教講演会の際、私は出席出来なかったのでその趣旨を代読させたのが、左の通りのもので、聴きに行けなかった人のために、ここに載せるのである。<br/><br/> × × 私は、今日ぜひ皆様に、御目に掛かるはずでありましたが、よんどころ無い事情が出来たので、喋舌（しゃべ）る代りとして、これを読ませますから、そのつもりで聴いて貰いたいのであります。<br/><br/>しかしこれは信者諸君よりも、まだ信仰に入っていない方々を目標としてかいたのであります。<br/><br/> 御承知の通り、我世界救世教は、昨年の本日から新しく発足したものでありまして、その前は日本観音教団と言っていたのでこれも既に御承知の事と思います。<br/><br/>ところでこの二、三年来、急に新聞雑誌やラジオ等で、何や彼や騒がれた事も、大抵の方は御存知でありましょう。<br/><br/>しかし誠に遺憾な事には、パッと拡がったのはいいとしても、それが飛んでもない拡がり方なので、実は驚いているのであります。<br/><br/>というのは白を黒と見られ金を鉛とせられ、プラスをマイナスと言われたのでありますから、本当の事はいずれは判る時が来るとしても、それまでの間世の中を救うという立派な仕事が遅れるとしたら、神様に申訳がないので、従来刊行されている出版物宣伝以外、これからは直接耳からの宣伝も必要と思いますので、それで始めたのが、第一回の今日のこの会であります。<br/><br/> 前置きはこのくらいにしておいて、さて今日世界を観る時どうでありましょう。<br/><br/>病気、貧乏、争いの三つの大きな災いによって、人類はいかに苦しみ悩みつつあるでありましょう。<br/><br/>日本だけに見ても、ヤレ結核、ソレ伝染病、イヤ何々というように、病院は満員ベッドは足りないというように、恐らく現代人で表面は健康そうに見えても、一つも病気のないという人は、恐らく一人もありますまい。<br/><br/>そうかと思や税金苦、金詰り、物価高等で、いくら稼いでも稼いでも追付かず人間は何のために生まれて来たのか、これでは苦しみが人生そのものであると言えましょう。<br/><br/>また次の争いであるが、これは国内問題は別としても、今や世界を挙げて、空前な大戦争が始まろうとして、人類悉（ことごと）く戦々兢々（せんせんきょうきょう）たる有様であります。<br/><br/>この惨状をもし神様が御覧になるとしたら、余りの悲惨事に御助けになられなければならないはずであります。<br/><br/>そうでなければ、神様などはないと言われても、返す言葉はありますまい。<br/><br/>ところが神様はあります。<br/><br/>大いにあります。<br/><br/>というのは世界人類を普（あまね）く救わんがために、我メシヤ教が出現した事であります。<br/><br/> この意味において、神が有るか無いかは問題ではありません。<br/><br/>我救世教の信者となれば手にとるごとくハッキリ判るのであります。<br/><br/>もし本教信者となって、その通りでないとしたら、社会を欺瞞する大罪人となるでありましょう。<br/><br/>そんな山師的の事は私は真ッ平御免です。<br/><br/>自分の首を自分で締めるような、愚かな人間にはなりたくありません。<br/><br/>何よりももし本当でないものとしたら、僅か数年の短期間にこれほど発展するはずはないでありましょう。<br/><br/>ここで一言申したい事は、いかなる宗教でも、その初めは必ず世の中から誤解を受け、迷信邪教とされ、迫害や法難に苦しむものであります。<br/><br/>そうして今日世界で一番大きい宗教は、キリスト教でありましょう。<br/><br/>そのキリストは生前迷信邪教の本尊とされ、ついに十字架の刑までも負わされたのでありますから、この一事だけでも多くを言う必要はありますまい。<br/><br/>しかも昇天後僅か十一人の弟子が残って、ついに今日のごとき大を成したのであるから、キリスト教も決して迷信邪教ではなかったのであります。<br/><br/> それはとにかく、簡単に私の抱負を申し述べますが、私は神から与えられた大きな力をもって、何らの物質を使わず、見えざる霊をもって、しかも弟子を通じて、あらゆる病気を治しているのであります。<br/><br/>もちろんそれによって貧乏も解決されます。<br/><br/>それは貧乏の原因は、病気が主であるからであります。<br/><br/>また世界から戦争を無くす事も出来るのであります、と言ったら皆さんは、余りの大言壮語に唖然（あぜん）とするでありましょう。<br/><br/>しかしこれも本教に入って、実態が判れば、信じない訳にはゆかなくなります。<br/><br/>何よりも本教信者全部は、それを確信しているのであります。<br/><br/>と言っても入信当時は、例外なく疑っていた人達なのであります。<br/><br/>従って、実を言えば本教は宗教ではないのであります。<br/><br/>というのは宗教とはその名のごとく、宗祖の教えであり、教えによって人々を済度するのでありますが、本教はそうではなく、現実に救の業を行うのであります。<br/><br/>この事も昔からの各宗の開祖や、諸々の聖者が立派に予言してあります。<br/><br/>例えば、キリストのいわれた「天国は近づけり」、釈尊の弥勒（みろく）の世、日蓮上人の義農（ぎのう）の世、天理教教祖の甘露台（かんろだい）の世等も、この事でなくて何でありましょう。<br/><br/>余り長くなるから、今日はこれで御挨拶に代える事に致します。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

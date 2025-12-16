@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo49</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』54号、昭和28(1953)年11月25日発行 （お伺） 私の家は孫ミキ子（一歳）のほか全員七名入信さしていただき、特別大光明如来様、千手観音様を御奉斎さしていただき、現在支部として御用さしていただいております。<br><br>長男和成（旧名範夫）は昭和二十二年五月入信いたし、中教師の御資格をいただき鹿児島県鹿屋市鹿屋出張所にて御用をさしていただいておりましたが、昭和二十七年春季大祭の御参拝より帰りまして、四月十五日より胃潰瘍の御浄化をいただき八月十一日に帰幽いたしております。<br><br> 今度四男英夫（九歳）が三月二十日ごろより風邪の御浄化をいただき、咳がひどく、四月の初め中教会長先生より御浄霊をいただき咳も止まりましたが、食欲があまりなく呼吸が苦しくなってまいりましたので、四月二十日より休学いたしました。<br><br>五月五日御面会に参拝さしていただき御守護いただきまして、だいぶ楽になりましたので、十一日、十二日と通学いたしましたが、また苦しくなりましたので休学いたしました。<br><br>六月二日より浄化が強く寝込むようになりました。<br><br>咳がひどく熱も三十八、九度くらいで全身に汗が出ておりましたが、七月七日、会長先生の御浄霊にて咳と熱は同じでしたが、汗が首から上だけ出るようになりました。<br><br>呼吸の苦しみは続きました。<br><br>現在食欲が少なく、一食茶碗で軽く一杯三食食べておりますが、たいへん衰弱いたしておりますが、気分のよいときは床を離れて家の中で坐って遊んでおります。<br><br>御浄霊は一日三回（一回三、四十分くらい）、主に肩、延髄、頭、耳下腺付近を入念に腰部も御浄霊いたしますが、時折（一日三回くらい）下腹部の痛みも浄霊いたします。<br><br>腎臓部には親指の先くらいの固結があります。<br><br>肩が固く耳下腺付近にも固結があり、御浄霊いたしますと咳が酷くなり、唾液の中に寒天のような痰をそうとう出します。<br><br>この子供はちょっと他の子供と違っておりまして、六月の浄化のひどいときに曾祖父（養子）の実家と祖父（養子）の実家、私（養子）の実家に御屏風観音様の御奉斎をさしていただきました。<br><br>また二十七年三月の御浄化をいただきましたときは、特別大光明如来様の御奉斎をすすめて、私が承知いたしますと治まりました。<br><br>また私に使う言葉も「お前がああしようこうしよう」と御用のことは子供と思えぬ徹底したことを言います。<br><br>家内一同お任せし、ひたすらおすがりしております。<br><br>子供の浄化は霊的関係がございましょうか、また御浄霊の箇所はいまの所でよろしゅうございましょうか、御垂示賜りたく右謹んでお伺い申し上げます。<br><br> （御垂示） あなたは間違っていることをしていた。<br><br>それは支部に特別大光明如来様をお祀りするのは間違っている。<br><br>特別大光明如来様は中教会以上でなければ理屈に合わないからである。<br><br>従ってさっそくお詫びをして、大光明如来様と替えればいい。<br><br>そうして特別大光明如来様のお軸は、時期の来るまでお粗末のないよう大事にしまっておけばいいのである。<br><br> 今一つは浄霊にできるだけ力の入らないようにすることと、急所をはずれないようにすることである。<br><br> （お伺） 私は沖縄の片田舎に生まれ大正一四年に神戸にまいりました。<br><br> 昭和二十四年二月、一家入信させていただき、光明如来様を御奉斎させていただいております。<br><br> （一）沖縄の本籍は戦争のため役場もなく、無戸籍状態になりましたので、そのときに改姓いたしております。<br><br>理由と申しますのは、歴代を調べてみますと旧姓の知念の姓は女のほうの姓でございますので、一門会議の結果、戸籍面から根本的に男のほうの真謝姓に改姓いたしております。<br><br>仏壇には現在真謝家先祖代々の位牌を真ん中に、同じ段のその前に知念家先祖代々の位牌をお祀りさせていただいておりますが、それでよろしゅうございましょうか。<br><br> （二）沖縄の私の故郷の風習といたしまして、死後俗名（沖縄の宗旨はございません）にてお祀りいたしておりますが、現在私のほうでは、神戸の浄土宗のお寺さんに戒名をつけていただいておりますが、それでよろしゅうございましょうか。<br><br>なお現在お仏壇には父母と長兄、姉三名、私の水子二名、甥、妻の母をお祀りさせていただいております。<br><br>右御教示のほどお願い申し上げます。<br><br> （御垂示） 別段なにごともなければそれでよろしい。<br><br> （お伺） 謹みてお伺い申し上げます。<br><br> 長女エミ子（四歳）本年四月十日朝より突然激痛とともに首が左に曲がり、左肩につくほどになり一カ月半ほど支部に御浄霊いただきに通いました。<br><br>御守護によりまして、曲がった首も半分ほどのびてまいりましたが、それ以後は昼は遊んでおりますが、夜寝るときと朝起きるときに激痛があり、最近は曲がった首も寝ている間にすっかりのびまして、起きると激痛がまいり四十分から一時間ばかりで痛みとともに首が曲がり、曲がり終わると痛みもなくなり遊んでおります。<br><br> この子は生後六カ月ばかりのころ、全身に吹き出物を出し約一週間ばかり通院、ペニシリン一本、薬名不明の注射数本うってもらいました。<br><br>生来太り過ぎで心臓もあまりよくないようでした。<br><br>妻が入信をお許しいただきましてより漸次丈夫にならしていただき、その後私も入信のお許しをいただきました。<br><br> 御神体様の御奉斎は、家があまり小さいのでまだお許しいただけないでおりますが、御屏風観音様の御奉斎はお許しいただいております。<br><br> 私は先妻と離婚、今の妻と一緒になりましたが妻の先夫は戦死いたし、妻との間に女の子が一人あり、先夫の実家にて養育いたしております。<br><br>妻の先夫の遺骨は、最初先夫の本家の墓地に埋骨さしていただいておったそうですが、後に分家である先夫の正統の墓地に移さしていただいた由です。<br><br>妻は先夫出征中、ふとしたことから過ちを犯し妊娠いたし、産めない子であるからとて三カ月で人工流産したことがあるそうです。<br><br>入信のお許しをいただきまして、その間違いと罪を御教えいただき、性別が不明ですので工藤初美として私の家の仏壇にお祀りさしていただいております。<br><br>妻の先夫のお位牌は私の仏壇にもお祀りさしていただいております。<br><br> 長女エミ子のお浄霊は脳天、後頭部、頸のまわり、延髄、肩および腎臓部をさせていただいております。<br><br>エミ子のお浄化はいかなる原因によるものでしょうか。<br><br>御浄霊はどこに重点をおいてやらしていただいたらよいでしょうか。<br><br>右御垂示賜りたく謹んでお伺い申し上げます。<br><br> （御垂示） 原因は薬毒である。<br><br>重点は首の曲がる箇所。<br><br> （お伺） 大光明如来様、御屏風観音様を御奉斎させていただいております信者、沢口要次郎の次女節子（二十三歳）でございますが、去る七月二十三日支部に御浄霊にまいりましての帰途、御守り様（光明）をお落としいたしましたのを気づかずに帰宅いたし、帰宅後すぐそれに気がつき申し訳なさに心からお詫び申し上げつつ、帰ってきた道をお探しさせていただいたのでございますが、ついに見当たりませんでございました。<br><br>その足ですぐ支部に参り御神前にて深くお詫び申し上げまして、私にそのことを御報告くださいました。<br><br>支部責任者の私としまして、このような事故を起こさせましたことは、まことに申し訳ないしだいでございます。<br><br>ここに謹んで深く深くお詫び申し上げます。<br><br> 本人といたしましては、お許しいただけるようでございましたら再度光明の御守り様を拝受させていただきとうございます、とお願いいたしておられるのでございますが、再度のお取り次ぎがお許しいただけるのでございましょうか、ここに謹んでお伺い申し上げます。<br><br> （御垂示） 節子さんの入信の年月日知らせなさい。<br><br> （お伺） 私事、昨年十月十四日、突然脳溢血の御浄化をいただきまして左半身不随にて、大小便の機能がまったくございませんでした。<br><br> 御浄霊をいただいておりますうちに、感覚がつくようにならせていただきまして、まことにありがとうございました。<br><br>小便のほうは一カ月ほど前までは一時間くらい持つ程度でございましたが、ただいまでは多量で無感覚に出て、とても薬くさくなりました。<br><br>それから左の手足がつり、腹部が痛むことがたびたびでございます。<br><br> 御浄霊の箇所御教示賜りたく謹んでお伺い申し上げます。<br><br> （御垂示） 中風についての説明は御神書にあるからそれを見れば分かる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><p><em>Do Ensinamento de Luz, 『Paraíso Terrestre』, nº 54, publicado em 25 de novembro de 1953</em></p>
 <h2>Consultas e Orientações Divinas</h2>
@@ -140,5 +292,48 @@ function toggleLang(lang) {
 <p>Rogo que me sejam indicados os pontos para a ministração de Johrei.</p>
 <p><strong>Orientação</strong></p>
 <p>A explicação referente à paralisia encontra-se nos Escritos Divinos. Ao consultá-los, o senhor obterá a compreensão necessária.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』54号、昭和28(1953)年11月25日発行 （お伺） 私の家は孫ミキ子（一歳）のほか全員七名入信さしていただき、特別大光明如来様、千手観音様を御奉斎さしていただき、現在支部として御用さしていただいております。<br/><br/>長男和成（旧名範夫）は昭和二十二年五月入信いたし、中教師の御資格をいただき鹿児島県鹿屋市鹿屋出張所にて御用をさしていただいておりましたが、昭和二十七年春季大祭の御参拝より帰りまして、四月十五日より胃潰瘍の御浄化をいただき八月十一日に帰幽いたしております。<br/><br/> 今度四男英夫（九歳）が三月二十日ごろより風邪の御浄化をいただき、咳がひどく、四月の初め中教会長先生より御浄霊をいただき咳も止まりましたが、食欲があまりなく呼吸が苦しくなってまいりましたので、四月二十日より休学いたしました。<br/><br/>五月五日御面会に参拝さしていただき御守護いただきまして、だいぶ楽になりましたので、十一日、十二日と通学いたしましたが、また苦しくなりましたので休学いたしました。<br/><br/>六月二日より浄化が強く寝込むようになりました。<br/><br/>咳がひどく熱も三十八、九度くらいで全身に汗が出ておりましたが、七月七日、会長先生の御浄霊にて咳と熱は同じでしたが、汗が首から上だけ出るようになりました。<br/><br/>呼吸の苦しみは続きました。<br/><br/>現在食欲が少なく、一食茶碗で軽く一杯三食食べておりますが、たいへん衰弱いたしておりますが、気分のよいときは床を離れて家の中で坐って遊んでおります。<br/><br/>御浄霊は一日三回（一回三、四十分くらい）、主に肩、延髄、頭、耳下腺付近を入念に腰部も御浄霊いたしますが、時折（一日三回くらい）下腹部の痛みも浄霊いたします。<br/><br/>腎臓部には親指の先くらいの固結があります。<br/><br/>肩が固く耳下腺付近にも固結があり、御浄霊いたしますと咳が酷くなり、唾液の中に寒天のような痰をそうとう出します。<br/><br/>この子供はちょっと他の子供と違っておりまして、六月の浄化のひどいときに曾祖父（養子）の実家と祖父（養子）の実家、私（養子）の実家に御屏風観音様の御奉斎をさしていただきました。<br/><br/>また二十七年三月の御浄化をいただきましたときは、特別大光明如来様の御奉斎をすすめて、私が承知いたしますと治まりました。<br/><br/>また私に使う言葉も「お前がああしようこうしよう」と御用のことは子供と思えぬ徹底したことを言います。<br/><br/>家内一同お任せし、ひたすらおすがりしております。<br/><br/>子供の浄化は霊的関係がございましょうか、また御浄霊の箇所はいまの所でよろしゅうございましょうか、御垂示賜りたく右謹んでお伺い申し上げます。<br/><br/> （御垂示） あなたは間違っていることをしていた。<br/><br/>それは支部に特別大光明如来様をお祀りするのは間違っている。<br/><br/>特別大光明如来様は中教会以上でなければ理屈に合わないからである。<br/><br/>従ってさっそくお詫びをして、大光明如来様と替えればいい。<br/><br/>そうして特別大光明如来様のお軸は、時期の来るまでお粗末のないよう大事にしまっておけばいいのである。<br/><br/> 今一つは浄霊にできるだけ力の入らないようにすることと、急所をはずれないようにすることである。<br/><br/> （お伺） 私は沖縄の片田舎に生まれ大正一四年に神戸にまいりました。<br/><br/> 昭和二十四年二月、一家入信させていただき、光明如来様を御奉斎させていただいております。<br/><br/> （一）沖縄の本籍は戦争のため役場もなく、無戸籍状態になりましたので、そのときに改姓いたしております。<br/><br/>理由と申しますのは、歴代を調べてみますと旧姓の知念の姓は女のほうの姓でございますので、一門会議の結果、戸籍面から根本的に男のほうの真謝姓に改姓いたしております。<br/><br/>仏壇には現在真謝家先祖代々の位牌を真ん中に、同じ段のその前に知念家先祖代々の位牌をお祀りさせていただいておりますが、それでよろしゅうございましょうか。<br/><br/> （二）沖縄の私の故郷の風習といたしまして、死後俗名（沖縄の宗旨はございません）にてお祀りいたしておりますが、現在私のほうでは、神戸の浄土宗のお寺さんに戒名をつけていただいておりますが、それでよろしゅうございましょうか。<br/><br/>なお現在お仏壇には父母と長兄、姉三名、私の水子二名、甥、妻の母をお祀りさせていただいております。<br/><br/>右御教示のほどお願い申し上げます。<br/><br/> （御垂示） 別段なにごともなければそれでよろしい。<br/><br/> （お伺） 謹みてお伺い申し上げます。<br/><br/> 長女エミ子（四歳）本年四月十日朝より突然激痛とともに首が左に曲がり、左肩につくほどになり一カ月半ほど支部に御浄霊いただきに通いました。<br/><br/>御守護によりまして、曲がった首も半分ほどのびてまいりましたが、それ以後は昼は遊んでおりますが、夜寝るときと朝起きるときに激痛があり、最近は曲がった首も寝ている間にすっかりのびまして、起きると激痛がまいり四十分から一時間ばかりで痛みとともに首が曲がり、曲がり終わると痛みもなくなり遊んでおります。<br/><br/> この子は生後六カ月ばかりのころ、全身に吹き出物を出し約一週間ばかり通院、ペニシリン一本、薬名不明の注射数本うってもらいました。<br/><br/>生来太り過ぎで心臓もあまりよくないようでした。<br/><br/>妻が入信をお許しいただきましてより漸次丈夫にならしていただき、その後私も入信のお許しをいただきました。<br/><br/> 御神体様の御奉斎は、家があまり小さいのでまだお許しいただけないでおりますが、御屏風観音様の御奉斎はお許しいただいております。<br/><br/> 私は先妻と離婚、今の妻と一緒になりましたが妻の先夫は戦死いたし、妻との間に女の子が一人あり、先夫の実家にて養育いたしております。<br/><br/>妻の先夫の遺骨は、最初先夫の本家の墓地に埋骨さしていただいておったそうですが、後に分家である先夫の正統の墓地に移さしていただいた由です。<br/><br/>妻は先夫出征中、ふとしたことから過ちを犯し妊娠いたし、産めない子であるからとて三カ月で人工流産したことがあるそうです。<br/><br/>入信のお許しをいただきまして、その間違いと罪を御教えいただき、性別が不明ですので工藤初美として私の家の仏壇にお祀りさしていただいております。<br/><br/>妻の先夫のお位牌は私の仏壇にもお祀りさしていただいております。<br/><br/> 長女エミ子のお浄霊は脳天、後頭部、頸のまわり、延髄、肩および腎臓部をさせていただいております。<br/><br/>エミ子のお浄化はいかなる原因によるものでしょうか。<br/><br/>御浄霊はどこに重点をおいてやらしていただいたらよいでしょうか。<br/><br/>右御垂示賜りたく謹んでお伺い申し上げます。<br/><br/> （御垂示） 原因は薬毒である。<br/><br/>重点は首の曲がる箇所。<br/><br/> （お伺） 大光明如来様、御屏風観音様を御奉斎させていただいております信者、沢口要次郎の次女節子（二十三歳）でございますが、去る七月二十三日支部に御浄霊にまいりましての帰途、御守り様（光明）をお落としいたしましたのを気づかずに帰宅いたし、帰宅後すぐそれに気がつき申し訳なさに心からお詫び申し上げつつ、帰ってきた道をお探しさせていただいたのでございますが、ついに見当たりませんでございました。<br/><br/>その足ですぐ支部に参り御神前にて深くお詫び申し上げまして、私にそのことを御報告くださいました。<br/><br/>支部責任者の私としまして、このような事故を起こさせましたことは、まことに申し訳ないしだいでございます。<br/><br/>ここに謹んで深く深くお詫び申し上げます。<br/><br/> 本人といたしましては、お許しいただけるようでございましたら再度光明の御守り様を拝受させていただきとうございます、とお願いいたしておられるのでございますが、再度のお取り次ぎがお許しいただけるのでございましょうか、ここに謹んでお伺い申し上げます。<br/><br/> （御垂示） 節子さんの入信の年月日知らせなさい。<br/><br/> （お伺） 私事、昨年十月十四日、突然脳溢血の御浄化をいただきまして左半身不随にて、大小便の機能がまったくございませんでした。<br/><br/> 御浄霊をいただいておりますうちに、感覚がつくようにならせていただきまして、まことにありがとうございました。<br/><br/>小便のほうは一カ月ほど前までは一時間くらい持つ程度でございましたが、ただいまでは多量で無感覚に出て、とても薬くさくなりました。<br/><br/>それから左の手足がつり、腹部が痛むことがたびたびでございます。<br/><br/> 御浄霊の箇所御教示賜りたく謹んでお伺い申し上げます。<br/><br/> （御垂示） 中風についての説明は御神書にあるからそれを見れば分かる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

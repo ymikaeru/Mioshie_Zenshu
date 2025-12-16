@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自観大先生との対談 『光』号外、昭和24(1949)年5月30日発行 現当利益の宗教 理想は世界の永久平和 すがすがしい初夏の微風が庭園を洗う最近のある一日、岡田自観大先生は「光」第十号成長記念特集号紙上に錦上花を添える思し召しから特に記者のインタビューに応えられて、こんにちまであまり世間に具体的説明を試みられなかった諸問題についてはじめて偉大かつ明快なる御意見を公にされた、以下大先生との御会見記である（文責在記者）。<br><br> 記者 信仰心は人間の苦悩を本当に救い得ることができるや。<br><br> 大先生 救われないと思えば救われないし、救われると思えば救われる。<br><br>要はその人の信仰に対する意欲の問題である。<br><br>信仰心をもとうと思う人はまず触れてみることである。<br><br>触れてみてこれで救われると思えばその人は信仰の世界に入ったことと言える。<br><br>しかしいままで本当に人間苦を救った宗教はほとんどなかったと言える。<br><br>それはたいがいの宗教は理屈だけで実際の力がないためである。<br><br> 記者 力をもった宗教とはどんなものか。<br><br> 大先生 それは現当利益のあるということである。<br><br>いままでの宗教には多少の現当利益があったが、それほど顕（あきら）かなものはなかった。<br><br>それは現当利益が少ない結果、逆に現当利益を低級宗教と言われてしまった。<br><br>従来の宗教学者のほとんど全部が宗教を理屈のワクに閉じこめて現当利益の実存を無視していたと言える。<br><br>すなわち現当利益をたんなる奇蹟だと断定していることである。<br><br>奇蹟を信じないということは宗教そのものを信じないということにも通ずる。<br><br> 記者 奇蹟というものを信じてよいか。<br><br> 大先生 奇蹟は信じてよい。<br><br>信仰心がなくとも必ず奇蹟を信ずるようになる。<br><br>われわれの言う奇蹟とは、すなわち現当利益である。<br><br>現当利益の多いものは、また奇蹟が多いと言える。<br><br>これを邪教と言い、迷信宗教と言って、ただ理屈一点張りで押し通してきた既成宗教学者の考え方を根本的に打破せぬ限り、信仰心によって人間苦を、社会悪を済度することは絶対不可能である。<br><br>うまいものを食べたいと思っている口に、そのうまいものをあてがってやることができれば、それほど幸福なことはない。<br><br>人間にはみんな欲望があるのだ。<br><br>その欲望を満たすことができればよいのである。<br><br>だれだって欲望を満たしたいために金を持って行って物を買おうと思うのである。<br><br>もし金を持って行っても、物をくれなかったらたいへんなことである。<br><br>現当利益というのはこのことにも当てはまる。<br><br>信仰しても御利益のない宗教なら無意味に等しい。<br><br>そんな宗教なら信仰しないほうがよい。<br><br> 記者 観音様のお蔭はどんな具合に現われるか。<br><br> 大先生 奇蹟が真実となって現われ、現当利益が実際にあるということが偉大なる観音力のお蔭である。<br><br>これまでこの観音力というものを発現することができなかったのである。<br><br> 記者 では観音力の実存は信じられるわけか。<br><br> 大先生 実存している。<br><br>私はこれをもっと科学的に説明することはできるが、まだその時機に達していない。<br><br>いわば私の発揮する観音力は、いまの宗教的水準よりずうっと上にあるから、まだ一般〔が〕充分に理解することができないのである。<br><br>だから私の言うことをびっくりして迷信だと否定する人々ができるのである。<br><br>宗教の揺藍（ようらん）時代は勿論いばらの道である。<br><br>キリスト教をバテレンとして迫害したということもそのことである。<br><br>やがて解ってくればおのずからその価値を信ずることになる。<br><br> 記者 宗教の社会的な行動は是か非か。<br><br> 大先生 宗教は大いに社会的行動をとらねばならない。<br><br>哲学者や、宗教学者はおのずから学んでいて、あるいは自分のみ救われているかもしれないが、それでは世の中を救い、衆生を救済することにはならない。<br><br>一部知識のあるものや、特定の階級のもののみが喜んでいるような宗教こそ邪道である。<br><br>万民が喜び、万民が救われねば本当の神の恵みとは言えない。<br><br>観音力のお蔭はこれら人間社会ばかりではなく、鳥類や獣類の社会にまで及んでおる。<br><br> 記者 大先生の御理想とする地上天国とはどんな御構想か。<br><br> 大先生 病貪争絶無の世界をつくろうという理念にほかならない。<br><br>花園をつくり、結核を癒そうという仕事も、地上天国化運動の一つである。<br><br>しかしこれのみを目的とするものではなく、これは現世に地上天国を築こうとする一つのサンプルにしか過ぎない。<br><br>霊体一致、仏心一如というがごとき、すなわちこれである。<br><br> 記者 光明如来様と観音様とのおつながりについて。<br><br> 大先生 一緒であるがお働きになる時期が違うからである。<br><br>しかし光明如来様のほうが上位のお働きである。<br><br> 記者 観音様の御訓（みおし）えは科学を否定しているや。<br><br> 大先生 決して科学を否定するものにあらず、むしろ科学に先行するものであると言ったほうがわかりやすいかもしれない。<br><br>科学の進歩したもの、すなわち科学が二十世紀の科学なら、観音様の御訓えは二十一世紀の科学とも言える。<br><br>だからいまの文化や、医学が一世紀遅れているとも言えるのである。<br><br> 記者 御浄霊は医学を否定するものか否や。<br><br> 大先生 否定はしていない。<br><br>ただ、いまの医学的水準では治らないものが、治るという御利益があるから自然に医薬を必要としなくなるのである。<br><br> 記者 大先生は社会主義についてどういうお考えか。<br><br> 大先生 社会主義はいまは時勢に遅れている。<br><br>一部特権階級と庶民階級の間隔がひどかった封建時代は勿論必要であったが、あらゆる階級が全部一列にならねばならないという思想は悪平等だと思う。<br><br>働くものも、のらくら者も一緒の境遇におかれるということは、かえって不公平なことだ。<br><br>まあ資本主義も必要であり社会主義も必要であり共産主義も必要であるが、それらをうまくあんばいしてゆく、それが民主主義だと思う。<br><br>同じ絵を書くにしても、赤ばかりでは絵にはならない、いろんな色の配合があってこそ美しい絵が完成するのである。<br><br>食べるものでもそうである。<br><br>あまいもののあとには辛いものもときには必要である。<br><br>なんでも一列にしたり、一色にしたりしては妙味というものがなくなる。<br><br> 記者 大先生の御霊感は日本の将来をどう観られるや。<br><br> 大先生 日本は必ずよくなるとかたく信じている。<br><br>その兆しはいま現われている。<br><br>長期間の戦禍はいま日本の体をめちゃめちゃにしてしまった。<br><br>まさに日本は重症患者である、うんうん唸っている重病人である。<br><br>金づまりはフンづまりである、悪い思想は結核菌である。<br><br>これを治す医者はいま日本には出てない。<br><br>殊に唯物思想は日本の再建にどんなに障害になっているかわからない。<br><br>唯物思想を根本的に排除して、そこへ唯心思想をとり入れねば絶対日本は健康になれず救われない。<br><br>唯物思想は目に見えない神を否定し、その存在を無視している。<br><br>宗教を否定してはうまくゆかない。<br><br> 記者 宗教による平和運動について御所見いかん。<br><br> 大先生 日本だけよくなってもしようがない。<br><br>世界全体がよくならなければならない。<br><br>そのためには宗教的に、霊的に、世界の人々の心がつながれねばならない。<br><br>私の念願しているのはこの世界平和の大理想にほかならない。<br><br>観音教の宗教活動も、いわば世界平和運動の一環とも言えるのである。<br><br>その行動の第一歩はまず日本の大浄霊である。<br><br>悪霊を除いて清新溌剌たる誠心を喚起せねばならない。<br><br>そのために私は日夜救世に身を砕いているのである。<br><br> 記者 御多忙のところ御有益なお話をいただいて信者も、またこれからの入信者も、どんなにか大きい光明を見出したかわかりません、ありがとうございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião dos Benefícios Imediatos e o Ideal da Paz Mundial</h2>
 <p>Em um dia recente, sob a brisa amena que purificava os jardins no início do verão, o Grande Mestre Okada Jikan teve a benevolência de conceder uma entrevista a este repórter. Com o nobre propósito de abrilhantar a edição especial comemorativa do décimo número da revista <em>Hikari</em>, ele tornou públicas, pela primeira vez, suas grandiosas e lúcidas opiniões sobre diversas questões que, até então, não haviam sido explicadas de forma concreta ao mundo. Segue o registro deste encontro com o Grande Mestre.</p>
@@ -123,5 +275,48 @@ function toggleLang(lang) {
 <p><strong>Repórter:</strong> Qual a sua perspectiva sobre um movimento pela paz fundamentado na religião?</p>
 <p><strong>Grande Mestre:</strong> A salvação apenas do Japão seria insuficiente. O mundo inteiro precisa ser salvo. Para tanto, os corações de todos os povos devem se conectar espiritual e religiosamente. Minha mais profunda aspiração não é outra senão este grande ideal da paz mundial. A atividade religiosa da nossa Igreja pode ser vista como parte desse movimento. O primeiro passo dessa jornada é a Grande Purificação do Japão. É preciso expurgar os espíritos malignos e despertar um coração puro, vibrante e sincero. É por essa razão que, dia e noite, dedico-me inteiramente à salvação do mundo.</p>
 <p><strong>Repórter:</strong> Agradecemos imensamente por suas palavras tão valiosas em meio a sua agenda tão preenchida. Tanto os membros atuais quanto os futuros certamente encontraram nelas uma imensa luz. Muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自観大先生との対談 『光』号外、昭和24(1949)年5月30日発行 現当利益の宗教 理想は世界の永久平和 すがすがしい初夏の微風が庭園を洗う最近のある一日、岡田自観大先生は「光」第十号成長記念特集号紙上に錦上花を添える思し召しから特に記者のインタビューに応えられて、こんにちまであまり世間に具体的説明を試みられなかった諸問題についてはじめて偉大かつ明快なる御意見を公にされた、以下大先生との御会見記である（文責在記者）。<br/><br/> 記者 信仰心は人間の苦悩を本当に救い得ることができるや。<br/><br/> 大先生 救われないと思えば救われないし、救われると思えば救われる。<br/><br/>要はその人の信仰に対する意欲の問題である。<br/><br/>信仰心をもとうと思う人はまず触れてみることである。<br/><br/>触れてみてこれで救われると思えばその人は信仰の世界に入ったことと言える。<br/><br/>しかしいままで本当に人間苦を救った宗教はほとんどなかったと言える。<br/><br/>それはたいがいの宗教は理屈だけで実際の力がないためである。<br/><br/> 記者 力をもった宗教とはどんなものか。<br/><br/> 大先生 それは現当利益のあるということである。<br/><br/>いままでの宗教には多少の現当利益があったが、それほど顕（あきら）かなものはなかった。<br/><br/>それは現当利益が少ない結果、逆に現当利益を低級宗教と言われてしまった。<br/><br/>従来の宗教学者のほとんど全部が宗教を理屈のワクに閉じこめて現当利益の実存を無視していたと言える。<br/><br/>すなわち現当利益をたんなる奇蹟だと断定していることである。<br/><br/>奇蹟を信じないということは宗教そのものを信じないということにも通ずる。<br/><br/> 記者 奇蹟というものを信じてよいか。<br/><br/> 大先生 奇蹟は信じてよい。<br/><br/>信仰心がなくとも必ず奇蹟を信ずるようになる。<br/><br/>われわれの言う奇蹟とは、すなわち現当利益である。<br/><br/>現当利益の多いものは、また奇蹟が多いと言える。<br/><br/>これを邪教と言い、迷信宗教と言って、ただ理屈一点張りで押し通してきた既成宗教学者の考え方を根本的に打破せぬ限り、信仰心によって人間苦を、社会悪を済度することは絶対不可能である。<br/><br/>うまいものを食べたいと思っている口に、そのうまいものをあてがってやることができれば、それほど幸福なことはない。<br/><br/>人間にはみんな欲望があるのだ。<br/><br/>その欲望を満たすことができればよいのである。<br/><br/>だれだって欲望を満たしたいために金を持って行って物を買おうと思うのである。<br/><br/>もし金を持って行っても、物をくれなかったらたいへんなことである。<br/><br/>現当利益というのはこのことにも当てはまる。<br/><br/>信仰しても御利益のない宗教なら無意味に等しい。<br/><br/>そんな宗教なら信仰しないほうがよい。<br/><br/> 記者 観音様のお蔭はどんな具合に現われるか。<br/><br/> 大先生 奇蹟が真実となって現われ、現当利益が実際にあるということが偉大なる観音力のお蔭である。<br/><br/>これまでこの観音力というものを発現することができなかったのである。<br/><br/> 記者 では観音力の実存は信じられるわけか。<br/><br/> 大先生 実存している。<br/><br/>私はこれをもっと科学的に説明することはできるが、まだその時機に達していない。<br/><br/>いわば私の発揮する観音力は、いまの宗教的水準よりずうっと上にあるから、まだ一般〔が〕充分に理解することができないのである。<br/><br/>だから私の言うことをびっくりして迷信だと否定する人々ができるのである。<br/><br/>宗教の揺藍（ようらん）時代は勿論いばらの道である。<br/><br/>キリスト教をバテレンとして迫害したということもそのことである。<br/><br/>やがて解ってくればおのずからその価値を信ずることになる。<br/><br/> 記者 宗教の社会的な行動は是か非か。<br/><br/> 大先生 宗教は大いに社会的行動をとらねばならない。<br/><br/>哲学者や、宗教学者はおのずから学んでいて、あるいは自分のみ救われているかもしれないが、それでは世の中を救い、衆生を救済することにはならない。<br/><br/>一部知識のあるものや、特定の階級のもののみが喜んでいるような宗教こそ邪道である。<br/><br/>万民が喜び、万民が救われねば本当の神の恵みとは言えない。<br/><br/>観音力のお蔭はこれら人間社会ばかりではなく、鳥類や獣類の社会にまで及んでおる。<br/><br/> 記者 大先生の御理想とする地上天国とはどんな御構想か。<br/><br/> 大先生 病貪争絶無の世界をつくろうという理念にほかならない。<br/><br/>花園をつくり、結核を癒そうという仕事も、地上天国化運動の一つである。<br/><br/>しかしこれのみを目的とするものではなく、これは現世に地上天国を築こうとする一つのサンプルにしか過ぎない。<br/><br/>霊体一致、仏心一如というがごとき、すなわちこれである。<br/><br/> 記者 光明如来様と観音様とのおつながりについて。<br/><br/> 大先生 一緒であるがお働きになる時期が違うからである。<br/><br/>しかし光明如来様のほうが上位のお働きである。<br/><br/> 記者 観音様の御訓（みおし）えは科学を否定しているや。<br/><br/> 大先生 決して科学を否定するものにあらず、むしろ科学に先行するものであると言ったほうがわかりやすいかもしれない。<br/><br/>科学の進歩したもの、すなわち科学が二十世紀の科学なら、観音様の御訓えは二十一世紀の科学とも言える。<br/><br/>だからいまの文化や、医学が一世紀遅れているとも言えるのである。<br/><br/> 記者 御浄霊は医学を否定するものか否や。<br/><br/> 大先生 否定はしていない。<br/><br/>ただ、いまの医学的水準では治らないものが、治るという御利益があるから自然に医薬を必要としなくなるのである。<br/><br/> 記者 大先生は社会主義についてどういうお考えか。<br/><br/> 大先生 社会主義はいまは時勢に遅れている。<br/><br/>一部特権階級と庶民階級の間隔がひどかった封建時代は勿論必要であったが、あらゆる階級が全部一列にならねばならないという思想は悪平等だと思う。<br/><br/>働くものも、のらくら者も一緒の境遇におかれるということは、かえって不公平なことだ。<br/><br/>まあ資本主義も必要であり社会主義も必要であり共産主義も必要であるが、それらをうまくあんばいしてゆく、それが民主主義だと思う。<br/><br/>同じ絵を書くにしても、赤ばかりでは絵にはならない、いろんな色の配合があってこそ美しい絵が完成するのである。<br/><br/>食べるものでもそうである。<br/><br/>あまいもののあとには辛いものもときには必要である。<br/><br/>なんでも一列にしたり、一色にしたりしては妙味というものがなくなる。<br/><br/> 記者 大先生の御霊感は日本の将来をどう観られるや。<br/><br/> 大先生 日本は必ずよくなるとかたく信じている。<br/><br/>その兆しはいま現われている。<br/><br/>長期間の戦禍はいま日本の体をめちゃめちゃにしてしまった。<br/><br/>まさに日本は重症患者である、うんうん唸っている重病人である。<br/><br/>金づまりはフンづまりである、悪い思想は結核菌である。<br/><br/>これを治す医者はいま日本には出てない。<br/><br/>殊に唯物思想は日本の再建にどんなに障害になっているかわからない。<br/><br/>唯物思想を根本的に排除して、そこへ唯心思想をとり入れねば絶対日本は健康になれず救われない。<br/><br/>唯物思想は目に見えない神を否定し、その存在を無視している。<br/><br/>宗教を否定してはうまくゆかない。<br/><br/> 記者 宗教による平和運動について御所見いかん。<br/><br/> 大先生 日本だけよくなってもしようがない。<br/><br/>世界全体がよくならなければならない。<br/><br/>そのためには宗教的に、霊的に、世界の人々の心がつながれねばならない。<br/><br/>私の念願しているのはこの世界平和の大理想にほかならない。<br/><br/>観音教の宗教活動も、いわば世界平和運動の一環とも言えるのである。<br/><br/>その行動の第一歩はまず日本の大浄霊である。<br/><br/>悪霊を除いて清新溌剌たる誠心を喚起せねばならない。<br/><br/>そのために私は日夜救世に身を砕いているのである。<br/><br/> 記者 御多忙のところ御有益なお話をいただいて信者も、またこれからの入信者も、どんなにか大きい光明を見出したかわかりません、ありがとうございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

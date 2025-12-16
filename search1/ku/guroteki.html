@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>guroteki</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： グロ的憑依霊 自観叢書第3編『霊界叢談』P.43、昭和24(1949)年8月25日発行 これはすこぶるグロで興味のある憑霊現象であった。<br><br>確か昭和八年頃だったと思う。<br><br>当時四十二歳の男、仙台の脳病院へ入院加療したが、更に効果がないので東京の慶応病院に診療に来たのであった。<br><br>ところがこの男の症状というのはすこぶる多種多様でグロ極まるものである。<br><br>特に最も著るしいのは普通人には見られない高熱で、体温計を挟むやたちまち体温計の最高である四十三度に昇るのである。<br><br>それだけならいいが、体温計の破裂する事が、しばしばあるので、脳病院でも実に困ったという事である。<br><br>もちろん四十三度以上の超高熱であったからで、最初慶応病院では解熱剤の注射を三回行ったが少しも効果がない。<br><br>これ以上は危険だからと注射をやめたという位で、そこで医療を諦め他の療法を求めていたところ、個々私の事を聞き訪ねて来たのである。<br><br> 私の前へ座るや五尺七、八寸位の大男で、物凄い悪寒が起った。<br><br>ガタガタと慄（ふる）え出す状（さま）は嘗て見た事もない猛烈さである。<br><br>私は体温計破裂の熱はこれだなと思った。<br><br>早速彼の背後に廻り、抱えるようにして全身の霊を彼に向かって放射するや、たちまち効果が現われ、身慄いは五分位で全く治まり、軽熱位になったので、彼は暗夜に光明を認めたごとく欣喜雀躍し、是非とも私の家へ置いてくれというのである。<br><br>彼の語る種々の話を聞くと霊的研究にはもってこいの相手なので私は快諾し、彼の言う通りにしてやった。<br><br>これから起る霊的現象こそグロ的興味の深いものであった。<br><br> 時々彼は無我に陥り、頭が痛い痛いと叫ぶのである。<br><br>私が霊射をすると、十分位で常態に復すので聞いてみると、彼は以前狩猟が好きで、ある日一匹の狐を射った。<br><br>傍へ近寄ってみると未だ生きていて、イキナリ起上って彼に向かって来たので、彼は銃を逆に持ち、台尻を振上げ、狐の眉間目がけて一撃を加えたので狐はそのまま死んでしまった。<br><br>その狐霊が憑依するので、憑依中頭痛の外に精神病的症状もあった。<br><br> また彼は無我に陥ると共に、「木を除（の）けてくれ、木をのけてくれ」と連呼するのである。<br><br>これはどういう訳かと聞くと、彼が北海道にいて樵（きこり）をした事があった。<br><br>ある時大木を伐り倒した時にその倒れた木の下の凹所に人間が一人寝ていて気絶したのである。<br><br>それを彼は知ってか知らずにかそのまま山を下った。<br><br>後で気絶者は息を吹きかえしたところ、負傷の身体で木を押除ける事が出来ずそのまま死んだ。<br><br>その霊の憑依である。<br><br> また彼が殺した熊の霊も時々憑いた。<br><br>その霊が憑ると非常に物を喰いたがる、ある時のごときは一度に鰊（にしん）十一本喰った事がある。<br><br> また彼には蛇の霊が二匹憑っていた。<br><br>これも彼が殺したその霊で、一匹は腹にいて時々蛟〔咬〕まれるごとき痛みで苦しみ、一匹は首に巻き着いて喉を諦め、呼吸を絶やそうとする。<br><br>その都度私は霊の放射をしてやるとジキに治ったのである。<br><br> 次にこれは霊的ではないが、彼は最後に全身的浮腫を生じ、時々廊下で倒れる事があった。<br><br>何しろ大男が浮腫と来ているので特に大きくなり、男子三人掛りでやっと部屋へ引ずって運んだ事も度々あった。<br><br>その際睾丸が小提灯大に腫れ、浴衣からハミ出て隠す事が出来ず随分人からわらわれたものである。<br><br>これを最後として全快し、健康者となったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato de Possessões Espirituais Grotescas</h2>
 <p>Relato, a seguir, um caso de possessão espiritual deveras grotesco e de profundo interesse. Creio que o fato ocorreu por volta do oitavo ano da era Showa, em 1933. Um homem de quarenta e dois anos, após ser internado e submetido a tratamento em um hospital psiquiátrico de Sendai sem obter qualquer melhora, veio a Tóquio em busca de uma consulta no Hospital Keio. O quadro clínico desse indivíduo era notavelmente multifacetado e de uma natureza grotesca. O sintoma mais proeminente consistia em uma febre altíssima, jamais vista em uma pessoa comum: ao se lhe colocar o termômetro, a temperatura atingia instantaneamente a marca máxima de quarenta e três graus. Frequentemente, o instrumento chegava a se romper, o que, segundo relatos, representava um sério transtorno para o hospital em Sendai. Naturalmente, isso se devia a uma febre que excedia os quarenta e três graus. No Hospital Keio, aplicaram-lhe três injeções de antitérmicos, mas sem o menor efeito. Por considerarem arriscado prosseguir, suspenderam as injeções. Foi então que, já sem esperanças na medicina, ele passou a buscar outras formas de terapia e, ao ouvir falar de minha pessoa, veio procurar-me.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O espírito de um urso que ele também havia matado manifestava-se com alguma frequência. Quando isso ocorria, o homem era tomado por um apetite voraz; certa vez, chegou a devorar onze arenques de uma só vez.</p>
 <p>Além desses, dois espíritos de serpentes, igualmente mortas por ele, o atormentavam. Um deles alojava-se em seu abdômen, provocando dores agudas, como se o estivesse mordendo. O outro se enrolava em seu pescoço, apertando-lhe a garganta na tentativa de sufocá-lo. Em todas essas manifestações, eu lhe aplicava a irradiação espiritual, e o alívio era imediato.</p>
 <p>Por fim, manifestou-se um último quadro, este de natureza não espiritual: um edema generalizado. O corpo daquele homem, já de grande porte, inchou de tal maneira que ele por vezes desabava nos corredores. Em diversas ocasiões, foram necessários três homens para conseguir arrastá-lo de volta ao seu quarto. Durante esse período, seus testículos incharam até atingir o tamanho de uma pequena lanterna de papel, projetando-se para fora de seu roupão, de modo que não conseguia escondê-los, o que lhe rendeu muitas zombarias. Contudo, superada essa última etapa, ele se recuperou por completo, tornando-se um homem saudável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： グロ的憑依霊 自観叢書第3編『霊界叢談』P.43、昭和24(1949)年8月25日発行 これはすこぶるグロで興味のある憑霊現象であった。<br/><br/>確か昭和八年頃だったと思う。<br/><br/>当時四十二歳の男、仙台の脳病院へ入院加療したが、更に効果がないので東京の慶応病院に診療に来たのであった。<br/><br/>ところがこの男の症状というのはすこぶる多種多様でグロ極まるものである。<br/><br/>特に最も著るしいのは普通人には見られない高熱で、体温計を挟むやたちまち体温計の最高である四十三度に昇るのである。<br/><br/>それだけならいいが、体温計の破裂する事が、しばしばあるので、脳病院でも実に困ったという事である。<br/><br/>もちろん四十三度以上の超高熱であったからで、最初慶応病院では解熱剤の注射を三回行ったが少しも効果がない。<br/><br/>これ以上は危険だからと注射をやめたという位で、そこで医療を諦め他の療法を求めていたところ、個々私の事を聞き訪ねて来たのである。<br/><br/> 私の前へ座るや五尺七、八寸位の大男で、物凄い悪寒が起った。<br/><br/>ガタガタと慄（ふる）え出す状（さま）は嘗て見た事もない猛烈さである。<br/><br/>私は体温計破裂の熱はこれだなと思った。<br/><br/>早速彼の背後に廻り、抱えるようにして全身の霊を彼に向かって放射するや、たちまち効果が現われ、身慄いは五分位で全く治まり、軽熱位になったので、彼は暗夜に光明を認めたごとく欣喜雀躍し、是非とも私の家へ置いてくれというのである。<br/><br/>彼の語る種々の話を聞くと霊的研究にはもってこいの相手なので私は快諾し、彼の言う通りにしてやった。<br/><br/>これから起る霊的現象こそグロ的興味の深いものであった。<br/><br/> 時々彼は無我に陥り、頭が痛い痛いと叫ぶのである。<br/><br/>私が霊射をすると、十分位で常態に復すので聞いてみると、彼は以前狩猟が好きで、ある日一匹の狐を射った。<br/><br/>傍へ近寄ってみると未だ生きていて、イキナリ起上って彼に向かって来たので、彼は銃を逆に持ち、台尻を振上げ、狐の眉間目がけて一撃を加えたので狐はそのまま死んでしまった。<br/><br/>その狐霊が憑依するので、憑依中頭痛の外に精神病的症状もあった。<br/><br/> また彼は無我に陥ると共に、「木を除（の）けてくれ、木をのけてくれ」と連呼するのである。<br/><br/>これはどういう訳かと聞くと、彼が北海道にいて樵（きこり）をした事があった。<br/><br/>ある時大木を伐り倒した時にその倒れた木の下の凹所に人間が一人寝ていて気絶したのである。<br/><br/>それを彼は知ってか知らずにかそのまま山を下った。<br/><br/>後で気絶者は息を吹きかえしたところ、負傷の身体で木を押除ける事が出来ずそのまま死んだ。<br/><br/>その霊の憑依である。<br/><br/> また彼が殺した熊の霊も時々憑いた。<br/><br/>その霊が憑ると非常に物を喰いたがる、ある時のごときは一度に鰊（にしん）十一本喰った事がある。<br/><br/> また彼には蛇の霊が二匹憑っていた。<br/><br/>これも彼が殺したその霊で、一匹は腹にいて時々蛟〔咬〕まれるごとき痛みで苦しみ、一匹は首に巻き着いて喉を諦め、呼吸を絶やそうとする。<br/><br/>その都度私は霊の放射をしてやるとジキに治ったのである。<br/><br/> 次にこれは霊的ではないが、彼は最後に全身的浮腫を生じ、時々廊下で倒れる事があった。<br/><br/>何しろ大男が浮腫と来ているので特に大きくなり、男子三人掛りでやっと部屋へ引ずって運んだ事も度々あった。<br/><br/>その際睾丸が小提灯大に腫れ、浴衣からハミ出て隠す事が出来ず随分人からわらわれたものである。<br/><br/>これを最後として全快し、健康者となったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

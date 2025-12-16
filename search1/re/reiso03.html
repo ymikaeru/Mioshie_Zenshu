@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reiso03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊層界と人間 『明日の医術 第三編』昭和18(1943)年10月23日発行 霊界は、天国八衢（やちまた）地獄の三段階になっている事は、既に詳説した通りであるが、これが人間の運命と密接な関係が有る事を、ここに説こうとするのである。<br><br> 霊界における三段階は大別しての事であって、細別すれば一段は六十に別れているので合計百八十段になっている。<br><br>勿論、層になっているので、私は、霊層と名付けるのである。<br><br>そうしてこの霊層に対し、人間はいかなる関係があるかを順次説いてみよう。<br><br> 私はさきに、人間は肉体と霊体と密着している事を説いたのであるが、その霊体なるものは、実は個体ではなく、今一つのある物との繋がりがあるので、そのある物を名付けて幽体という。<br><br>幽体とは、霊の霊であるともいえるので、霊体が肉体を支配するごとく、幽体は霊体を支配しているのである。<br><br>この意味において、人間の生命の真の根源は、幽体そのものであるといってもいいのである。<br><br> そうして幽体とは、霊界の生活者であるから、人間死するや、霊体は直ちに幽体に引かれて幽体と密着する事になる。<br><br>それは生前、霊体と肉体と密着していたのと同様の意味である。<br><br>又幽体は、霊界における百八十段層のいずれかの層に属している事は勿論である。<br><br>しかしながら、幽体の居点は常に一定する事なく、その層の段階を常に上下しているが、普通時はある範囲内に限られているのである。<br><br>稀には、その範囲外へ出ずる事がある。<br><br>それが肉体的に表われる場合、運命の急転となるのである。<br><br> 人間の運命即ち幸不幸は、幽体の居点である霊層の階級によるので、それは実に決定的である。<br><br> そうして霊界においても主宰神があり、八百万の神が分担管掌している事は、さきに述べた通りであるが、幽体に対し、断えずそれぞれの命令が下るのである。<br><br>従って、その受命者の任務遂行が霊体に反映し、肉体に反映し、肉体がそのごとく動くのである。<br><br> いかなる人間といえども、自己が計画し企図する事が、常に実際において意のごとくならない事の多いのは誰もが経験する所であろう。<br><br>従って予想外な運命や、意外な結果に逢着（ほうちゃく）するという事は、実は現世の人間の予想や思念は、幽体の運命に左右されなければならない法則であるからである。<br><br>又自分自身に対し、眼に見えないある大きな力が常に支配しつつあるような感想が大抵の人はあるものである。<br><br>この支配者とは即ち幽界における支配者即ち神であって、健康、富裕、平和の世界であり、これに反し、下方にゆく程、病気、貧困、争闘等の絶間ない醜悪世界である。<br><br>その中間帯である八衢（やちまた）がちょうど現界に相応しているから、現世は健富和の幸福、病貧争の不幸と入り混っている事は、誰もが知る所である。<br><br> 右の理によって、現世における幸不幸は、幽体の住する界層の階級によって定まるものである。<br><br>従って、人間が人為的にいかに幸福を求め、実現しようと努力しても意のごとくならないのは、右の理によるからである。<br><br>しかし、現世においてこういう例もある。<br><br>それは富裕者でありながら足るを知らず、吝嗇（けち）なる事貧困者と異ならない人があるが、これらは人為的に苦心努力の結果、一時的富裕者となったまでで実は幽体は下層にあるから、かような人が死後霊界に往くや、幽体相応の貧困者となるので大いに後悔するものである。<br><br> 故に、幸福者たらんとするには、幽体を上層に住する事より外に道はないのである。<br><br>しからば、それはいかなる方法によるかというにこれは何人といえども知らねばならない事であろう。<br><br> ここで、幽体が何故上中下に分離するかという事であるが、それは左のごとき理由によるのである。<br><br> 即ち、幽体の重量によるのである。<br><br>軽い程上層に、重い程下層に往くのである。<br><br>そうして軽いとは幽体が清浄であるからであり、重いとは溷濁（こんだく）しているからである。<br><br>溷濁とは勿論罪穢に因るのであるから、清浄な幽体たらんとするには、その罪穢を滅消しなければならない。<br><br>しからば罪穢とは何ぞや、言うまでもなく自己愛による不正、虚偽の手段を以て人を苦しめ世を毒するという悪の行為によって発生し堆積するのである以上、それを滅消するには、その反対である利他愛による正義真実等の善的手段によって人に幸福を与え、国家社会の為になる行為を多くすることより外にないのである。<br><br>勿論それは厳然たる天則で、人力のいかん共為（な）しがたいものである。<br><br> 右の意味によって、私の説く現幽相互の関係を知ると共に、衷心から信じ得らるる人こそ幸福の門に一歩入ったというべきである。<br><br> 右の霊層界について、今少し言う事がある。<br><br>天国に相応する所の上層界は、健富和の活力が生々として流通しつつ、上層程それが高度である事は勿論である。<br><br>かかる説は、私の観念による仮説と思われ易いのであるが、決してそうではなく、事実である事を立証してみよう。<br><br> 私が永い間、本医術によって患者が治癒した場合、健康恢復のみではなく、性格も一変する事である。<br><br>それは争を厭（いと）い、親和的となり、楽天的となるのである。<br><br>特に講習を受け病気とそれに関する霊的事象を知るに及んで人生観が一変すると共に、不思議な現象が起り初めるのである。<br><br>それは健康のみではなく必要な物資も恵まれ豊かになる事であって、しかも、人為的では更になく、惟神（いしん）的に思わざる所から、奇蹟的に人手するのである。<br><br>この事は受講後の誰もがいうのであるから、誤りはないのである。<br><br>又、今まで不和であった人と親和し、今までよりも人から尊敬を受け引立てられたり、希望が実現したり、仕事の能率が上り、試験にパスする等幸福的の事象が非常に多くなるという話をよく聞くのである。<br><br> 右は、いかなる訳かというと、病患の治癒者、特に受講せし者は、人間の健康や生命の真実を知るに及んで、盲目であった霊魂が、飜然（ほんぜん）と覚醒するのである。<br><br>彼の釈尊がいった等覚を得て仏となり、正覚を得て菩薩となり大覚を得て如来となるという意味と同一であろう。<br><br>従って、受講者は等覚を得るのであるから即身即仏となり、霊的地位が向上する訳で一躍霊層界の上級に転位する事になるので、右のごとき事象に恵まるる事となるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Planos Espirituais e o Destino Humano</h2>
 <p>Conforme já explanei detalhadamente, o Mundo Espiritual se estrutura em três grandes planos: o Céu, a Zona Intermediária e o Inferno. O que pretendo elucidar agora é a íntima relação que essa estrutura possui com o destino humano.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Ainda sobre os planos espirituais, há mais alguns pontos a serem abordados. Os níveis superiores, que correspondem ao Céu, são permeados por uma energia vital vibrante de saúde, prosperidade e harmonia, a qual se intensifica à medida que se ascende. Talvez essa descrição soe como uma hipótese concebida por minha imaginação, mas de modo algum o é. Provarei que se trata de um fato.</p>
 <p>Ao longo de minha vasta experiência com esta arte de cura, observei que, quando os doentes são curados, não apenas recuperam a saúde, mas também passam por uma notável transformação de caráter. Eles começam a sentir aversão a conflitos, tornando-se mais cordiais e otimistas. Essa mudança se acentua, sobretudo, após participarem do curso de formação, pois, ao compreenderem a doença e os fenômenos espirituais a ela relacionados, sua visão de mundo se altera por completo, e fenômenos extraordinários começam a ocorrer. Além da saúde, eles passam a ser abençoados com os bens materiais de que necessitam, alcançando a prosperidade. E o mais notável é que isso não acontece por esforço humano, mas de forma providencial e milagrosa, vindo de fontes inesperadas. Trata-se de um relato unânime entre todos os que concluem o curso, o que atesta sua veracidade. Ademais, ouço com frequência inúmeras histórias de pessoas que se reconciliaram com antigos desafetos, passaram a ser mais respeitadas e a receber apoio, realizaram seus desejos, aumentaram a eficiência no trabalho ou foram aprovadas em exames – uma sucessão de acontecimentos felizes.</p>
 <p>Qual a explicação para tais ocorrências? Quando uma pessoa é curada de sua doença, especialmente aquela que participou do curso, sua alma, antes cega, desperta subitamente ao compreender a verdade sobre a saúde e a vida. Esse despertar é análogo ao que o Buda Shakyamuni descreveu como os estágios da iluminação, nos quais se atinge a condição de Buda, Bodhisattva ou Tathagata. Sendo assim, os formados no curso alcançam um primeiro grau de iluminação, tornando-se Budas ainda neste corpo. Sua posição espiritual se eleva, e eles são transferidos para um nível superior no Mundo Espiritual. É por essa razão que passam a ser agraciados com tantas bênçãos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊層界と人間 『明日の医術 第三編』昭和18(1943)年10月23日発行 霊界は、天国八衢（やちまた）地獄の三段階になっている事は、既に詳説した通りであるが、これが人間の運命と密接な関係が有る事を、ここに説こうとするのである。<br/><br/> 霊界における三段階は大別しての事であって、細別すれば一段は六十に別れているので合計百八十段になっている。<br/><br/>勿論、層になっているので、私は、霊層と名付けるのである。<br/><br/>そうしてこの霊層に対し、人間はいかなる関係があるかを順次説いてみよう。<br/><br/> 私はさきに、人間は肉体と霊体と密着している事を説いたのであるが、その霊体なるものは、実は個体ではなく、今一つのある物との繋がりがあるので、そのある物を名付けて幽体という。<br/><br/>幽体とは、霊の霊であるともいえるので、霊体が肉体を支配するごとく、幽体は霊体を支配しているのである。<br/><br/>この意味において、人間の生命の真の根源は、幽体そのものであるといってもいいのである。<br/><br/> そうして幽体とは、霊界の生活者であるから、人間死するや、霊体は直ちに幽体に引かれて幽体と密着する事になる。<br/><br/>それは生前、霊体と肉体と密着していたのと同様の意味である。<br/><br/>又幽体は、霊界における百八十段層のいずれかの層に属している事は勿論である。<br/><br/>しかしながら、幽体の居点は常に一定する事なく、その層の段階を常に上下しているが、普通時はある範囲内に限られているのである。<br/><br/>稀には、その範囲外へ出ずる事がある。<br/><br/>それが肉体的に表われる場合、運命の急転となるのである。<br/><br/> 人間の運命即ち幸不幸は、幽体の居点である霊層の階級によるので、それは実に決定的である。<br/><br/> そうして霊界においても主宰神があり、八百万の神が分担管掌している事は、さきに述べた通りであるが、幽体に対し、断えずそれぞれの命令が下るのである。<br/><br/>従って、その受命者の任務遂行が霊体に反映し、肉体に反映し、肉体がそのごとく動くのである。<br/><br/> いかなる人間といえども、自己が計画し企図する事が、常に実際において意のごとくならない事の多いのは誰もが経験する所であろう。<br/><br/>従って予想外な運命や、意外な結果に逢着（ほうちゃく）するという事は、実は現世の人間の予想や思念は、幽体の運命に左右されなければならない法則であるからである。<br/><br/>又自分自身に対し、眼に見えないある大きな力が常に支配しつつあるような感想が大抵の人はあるものである。<br/><br/>この支配者とは即ち幽界における支配者即ち神であって、健康、富裕、平和の世界であり、これに反し、下方にゆく程、病気、貧困、争闘等の絶間ない醜悪世界である。<br/><br/>その中間帯である八衢（やちまた）がちょうど現界に相応しているから、現世は健富和の幸福、病貧争の不幸と入り混っている事は、誰もが知る所である。<br/><br/> 右の理によって、現世における幸不幸は、幽体の住する界層の階級によって定まるものである。<br/><br/>従って、人間が人為的にいかに幸福を求め、実現しようと努力しても意のごとくならないのは、右の理によるからである。<br/><br/>しかし、現世においてこういう例もある。<br/><br/>それは富裕者でありながら足るを知らず、吝嗇（けち）なる事貧困者と異ならない人があるが、これらは人為的に苦心努力の結果、一時的富裕者となったまでで実は幽体は下層にあるから、かような人が死後霊界に往くや、幽体相応の貧困者となるので大いに後悔するものである。<br/><br/> 故に、幸福者たらんとするには、幽体を上層に住する事より外に道はないのである。<br/><br/>しからば、それはいかなる方法によるかというにこれは何人といえども知らねばならない事であろう。<br/><br/> ここで、幽体が何故上中下に分離するかという事であるが、それは左のごとき理由によるのである。<br/><br/> 即ち、幽体の重量によるのである。<br/><br/>軽い程上層に、重い程下層に往くのである。<br/><br/>そうして軽いとは幽体が清浄であるからであり、重いとは溷濁（こんだく）しているからである。<br/><br/>溷濁とは勿論罪穢に因るのであるから、清浄な幽体たらんとするには、その罪穢を滅消しなければならない。<br/><br/>しからば罪穢とは何ぞや、言うまでもなく自己愛による不正、虚偽の手段を以て人を苦しめ世を毒するという悪の行為によって発生し堆積するのである以上、それを滅消するには、その反対である利他愛による正義真実等の善的手段によって人に幸福を与え、国家社会の為になる行為を多くすることより外にないのである。<br/><br/>勿論それは厳然たる天則で、人力のいかん共為（な）しがたいものである。<br/><br/> 右の意味によって、私の説く現幽相互の関係を知ると共に、衷心から信じ得らるる人こそ幸福の門に一歩入ったというべきである。<br/><br/> 右の霊層界について、今少し言う事がある。<br/><br/>天国に相応する所の上層界は、健富和の活力が生々として流通しつつ、上層程それが高度である事は勿論である。<br/><br/>かかる説は、私の観念による仮説と思われ易いのであるが、決してそうではなく、事実である事を立証してみよう。<br/><br/> 私が永い間、本医術によって患者が治癒した場合、健康恢復のみではなく、性格も一変する事である。<br/><br/>それは争を厭（いと）い、親和的となり、楽天的となるのである。<br/><br/>特に講習を受け病気とそれに関する霊的事象を知るに及んで人生観が一変すると共に、不思議な現象が起り初めるのである。<br/><br/>それは健康のみではなく必要な物資も恵まれ豊かになる事であって、しかも、人為的では更になく、惟神（いしん）的に思わざる所から、奇蹟的に人手するのである。<br/><br/>この事は受講後の誰もがいうのであるから、誤りはないのである。<br/><br/>又、今まで不和であった人と親和し、今までよりも人から尊敬を受け引立てられたり、希望が実現したり、仕事の能率が上り、試験にパスする等幸福的の事象が非常に多くなるという話をよく聞くのである。<br/><br/> 右は、いかなる訳かというと、病患の治癒者、特に受講せし者は、人間の健康や生命の真実を知るに及んで、盲目であった霊魂が、飜然（ほんぜん）と覚醒するのである。<br/><br/>彼の釈尊がいった等覚を得て仏となり、正覚を得て菩薩となり大覚を得て如来となるという意味と同一であろう。<br/><br/>従って、受講者は等覚を得るのであるから即身即仏となり、霊的地位が向上する訳で一躍霊層界の上級に転位する事になるので、右のごとき事象に恵まるる事となるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

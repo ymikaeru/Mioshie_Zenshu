@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bakabuto</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 馬鹿肥りは病的だ 自観叢書第5編『自観隨談』P.52、昭和24(1949)年8月30日発行 肥った人間をみるといかにも健康そうに見えるが、実は逆の場合がすこぶる多いのは事実である。<br><br>その訳をかいてみよう。<br><br> 程のよい肥り方なら健康に違いないが、そういうのは滅多にない。<br><br>大抵は病的である。<br><br>よく固肥りというが実はこれが怪しいので、これを私は小便肥りといっている。<br><br>なぜなれば、腎臓の悪いのが原因であるからで、今それをくわしく説明してみるが、原因はこうである。<br><br>一例を挙げれば女学生には肥ったものが非常に多い事は誰も知っている通りで、これは何がためかというと、学校で授業中尿意を催す場合、勉強の時間が借しいのと若い女性の常としてつい我慢する。<br><br>それがため、尿は腎臓外部に滲出し、固結する。<br><br>その固結が腎臓を圧迫するから腎臓はいよいよ萎縮し、尿量は極滅される。<br><br>それがため外部への滲出量を増す事になるから、余剰尿は漸次身体全部に氾濫し固結する。<br><br>それが真の原因である。<br><br> 従って、尿の滞溜固結であるからいつかは浄化が起こる。<br><br>もちろん発熱、咳嗽、喀痰は付物で、肋膜炎、腹膜炎等が病発すると共に、浮腫、盗汗も著しいのである。<br><br>世間よくアンな丈夫そうなお嬢さんが大病になったり、時によると不幸になったりするのは不思議だとよくいわれるが、右の原因が判ればなる程と思うであろう。<br><br>これについて一例をかいてみよう。<br><br> 以前、神奈川県下全部の女学生の健康診断を行った際、模範健康者といわれた者が三人あった。<br><br>その中の一人を私が診た事がある。<br><br>固肥りの実に健康そうなお嬢さんであったが、その後暫くして発病するや急速に悪化し、結局死亡したのであったが、私はその時招聘（しょうへい）されたが、何しろ遠方なので行く訳にゆかなかったので断ったが、遂に右のような運命になったので、実に気の毒と思った。<br><br>これについておもしろい話がある。<br><br>本人が死亡するや二、三ケ月経った頃私にその霊が憑依して来た。<br><br>それは起きている時は何ともないが、横に寝ると動悸が高まり、呼吸が切迫し、ちょうど死の直前のような苦痛である。<br><br>私はこれは憑霊だなと思ったから質（き）いたところ、右の女学生の霊であった事が分ると共になる程と思った。<br><br>彼女は生前私に治して貰いたく思いつめていたからである。<br><br>彼女が言うには、「私は意地悪い死んだお祖母さんの霊に追かけられるので逃げて来た。<br><br>どうかお助け下さい、また病気も是非治して下さい。<br><br>」というので、「それでは治るまで私の体に憑いていなさい」と言ったので、彼女は非常に喜んだ。<br><br>約一ケ月半くらい経って治った礼をのべ立去った、のではない離れ去ったのである。<br><br> 以前私は力士の身体を診た事があった。<br><br>名のある力士としては太刀山、大錦、年寄立浪等であったが、いずれも真の健康体ではない。<br><br>前記のごとき余剰尿による固肥りであった。<br><br>それは何よりも力士は早死である事が証拠立てている。<br><br>力士で六十歳を越す者は滅多にないといわれているにみて明らかである。<br><br>また肥満している人は肉体を動かすと苦しがるのは無論心臓が圧迫されるためでもあるが、健康者の肉は軟かいから心臓圧迫はないが、余剰尿の固結は硬いので、それで心臓を強圧するのである。<br><br>しかし息切れは肺臓が圧迫されるためもある。<br><br> 右のごとくである以上、尿意を催した時、我慢する事を止めるべきで、尿意を我慢するなどという些細の原因から生命を失う結果となる事を考えたら、実に恐ろしい話で大いに注意すべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Obesidade Patológica</h2>
 <p>À primeira vista, uma pessoa corpulenta pode transmitir a impressão de saúde vigorosa; todavia, a realidade é que, em inúmeros casos, ocorre justamente o oposto. Explicarei a razão.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Em outra oportunidade, examinei o físico de lutadores de sumô. Entre eles, havia nomes famosos como Tachiyama, Onishiki e o ancião Tatenami. Nenhum possuía um corpo verdadeiramente saudável. Todos apresentavam a mesma obesidade sólida decorrente do excesso de urina que descrevi anteriormente. A prova irrefutável disso é a baixa longevidade dos lutadores de sumô. É notório que raramente um deles ultrapassa os sessenta anos de idade, o que torna essa realidade evidente.</p>
 <p>Ademais, pessoas obesas sentem dificuldade ao se movimentar, não apenas porque o coração é comprimido, mas por uma razão específica. A carne de uma pessoa saudável é macia e não exerce pressão sobre o coração. Já a massa endurecida formada pela urina solidificada é rígida e, por conseguinte, comprime o coração com força. A falta de ar, por sua vez, também se deve à compressão dos pulmões.</p>
 <p>Diante do exposto, é imperativo que se abandone o hábito de reprimir a vontade de urinar. Se considerarmos que uma causa aparentemente tão trivial pode levar à perda da própria vida, percebemos quão temível é essa questão, que exige, portanto, a máxima atenção.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 馬鹿肥りは病的だ 自観叢書第5編『自観隨談』P.52、昭和24(1949)年8月30日発行 肥った人間をみるといかにも健康そうに見えるが、実は逆の場合がすこぶる多いのは事実である。<br/><br/>その訳をかいてみよう。<br/><br/> 程のよい肥り方なら健康に違いないが、そういうのは滅多にない。<br/><br/>大抵は病的である。<br/><br/>よく固肥りというが実はこれが怪しいので、これを私は小便肥りといっている。<br/><br/>なぜなれば、腎臓の悪いのが原因であるからで、今それをくわしく説明してみるが、原因はこうである。<br/><br/>一例を挙げれば女学生には肥ったものが非常に多い事は誰も知っている通りで、これは何がためかというと、学校で授業中尿意を催す場合、勉強の時間が借しいのと若い女性の常としてつい我慢する。<br/><br/>それがため、尿は腎臓外部に滲出し、固結する。<br/><br/>その固結が腎臓を圧迫するから腎臓はいよいよ萎縮し、尿量は極滅される。<br/><br/>それがため外部への滲出量を増す事になるから、余剰尿は漸次身体全部に氾濫し固結する。<br/><br/>それが真の原因である。<br/><br/> 従って、尿の滞溜固結であるからいつかは浄化が起こる。<br/><br/>もちろん発熱、咳嗽、喀痰は付物で、肋膜炎、腹膜炎等が病発すると共に、浮腫、盗汗も著しいのである。<br/><br/>世間よくアンな丈夫そうなお嬢さんが大病になったり、時によると不幸になったりするのは不思議だとよくいわれるが、右の原因が判ればなる程と思うであろう。<br/><br/>これについて一例をかいてみよう。<br/><br/> 以前、神奈川県下全部の女学生の健康診断を行った際、模範健康者といわれた者が三人あった。<br/><br/>その中の一人を私が診た事がある。<br/><br/>固肥りの実に健康そうなお嬢さんであったが、その後暫くして発病するや急速に悪化し、結局死亡したのであったが、私はその時招聘（しょうへい）されたが、何しろ遠方なので行く訳にゆかなかったので断ったが、遂に右のような運命になったので、実に気の毒と思った。<br/><br/>これについておもしろい話がある。<br/><br/>本人が死亡するや二、三ケ月経った頃私にその霊が憑依して来た。<br/><br/>それは起きている時は何ともないが、横に寝ると動悸が高まり、呼吸が切迫し、ちょうど死の直前のような苦痛である。<br/><br/>私はこれは憑霊だなと思ったから質（き）いたところ、右の女学生の霊であった事が分ると共になる程と思った。<br/><br/>彼女は生前私に治して貰いたく思いつめていたからである。<br/><br/>彼女が言うには、「私は意地悪い死んだお祖母さんの霊に追かけられるので逃げて来た。<br/><br/>どうかお助け下さい、また病気も是非治して下さい。<br/><br/>」というので、「それでは治るまで私の体に憑いていなさい」と言ったので、彼女は非常に喜んだ。<br/><br/>約一ケ月半くらい経って治った礼をのべ立去った、のではない離れ去ったのである。<br/><br/> 以前私は力士の身体を診た事があった。<br/><br/>名のある力士としては太刀山、大錦、年寄立浪等であったが、いずれも真の健康体ではない。<br/><br/>前記のごとき余剰尿による固肥りであった。<br/><br/>それは何よりも力士は早死である事が証拠立てている。<br/><br/>力士で六十歳を越す者は滅多にないといわれているにみて明らかである。<br/><br/>また肥満している人は肉体を動かすと苦しがるのは無論心臓が圧迫されるためでもあるが、健康者の肉は軟かいから心臓圧迫はないが、余剰尿の固結は硬いので、それで心臓を強圧するのである。<br/><br/>しかし息切れは肺臓が圧迫されるためもある。<br/><br/> 右のごとくである以上、尿意を催した時、我慢する事を止めるべきで、尿意を我慢するなどという些細の原因から生命を失う結果となる事を考えたら、実に恐ろしい話で大いに注意すべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M260401</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年4月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行 昭和二十六年［四月一日］ 「最近の御論文の中にでてまいります新しい薬は、みんな「ン」で終っておりますが――」 「ン」というのは、消えると言うことでしょう。<br><br>「ン」と言うのはイロハの最後にある。<br><br>「ン」で消えるんですね。<br><br>「ポン」とか「カン」とかみな消える言霊です。<br><br>だから運のつきと言って永久性がないです――だから薬のことになる。<br><br> 「大黒様の台につきましてお願い申し上げます」 台があったほうが良い。<br><br>床の間にじかではいけない。<br><br>人間なら座蒲団です。<br><br>だから――あのお厨子の台は先に坂井さんからもらった。<br><br>私が見つけたがなかなかなかったのですがね。<br><br>実に調和が良い。<br><br>なんでも調和しなければいけない。<br><br>大黒様の台でも、調和しなければならない。<br><br>木に竹をついだようではおもしろくない。<br><br>新しい大黒様には新しいもの。<br><br>古い大黒様には古いもの。<br><br>古いのがなければ黒い色に塗ればいい。<br><br>神様は調和の良いものを探しておいてくれますよ。<br><br>あれだって実に調和の良いものが見つかった。<br><br> 「ウルシ負けのことでございますが、ウルシをやることは、薬毒――とは違うのでございましょうか」 違うんです。<br><br> 「蜂に刺されたとき、蜂の白い血を塗ったら腫れあがりませんが、それに似たようなものでございましょうか」 しかし、浄霊さえ知っていたら、浄霊のほうが良いですよ。<br><br>蜂に刺されても五分くらいですね。<br><br> 「ウルシを飲むということは浄化停止にはなりませんのでございましょうか」 つまり同化するんですね。<br><br>だから、本当じゃないが、一時的というような意味ですが、それは別に、薬毒のような――そういう意味はない。<br><br>木の汁ですからね。<br><br> 「お道に資格をいただいてやりたいと思っております、ある婦人でございますが、主人に十年前から女があり、子供もあるのですが、いつも別れたいと言っているそうです。<br><br>本人もそう言っておりますが、別れたほうがよろしいでしょうか」 別れたほうが良いですね。<br><br>両方で希望するならそのほうがいい。<br><br> 「信者でない場合に、どちらも別れたがっている場合には――」 別れて結構です。<br><br>そういうことが、家のなにかとか、世間の信用に関わることはないですよ。<br><br>一方的じゃいけないが、両方が一致すれば結構です。<br><br>そこが難しいんです。<br><br>先に――両方が希望するから、してやったんですが、しばらくたつと、また一緒にしてくれと言うのがありました。<br><br>馬鹿にされたような気持ちになったんですが――先方は騙すつもりじゃなかったのですがね。<br><br>自然でしょうがね。<br><br>二号なんかあったときは大丈夫ですよ。<br><br> 「御神体とお屏風の観音様のお取り扱いにつきましてお伺い申し上げます。<br><br>主人が亡くなり、家族が解らなくなって教会にお返しに来たのでございます」 取扱いと言って――先方が返そうと言うんでしょう。<br><br>だからそれを、うまくやればいいでしょう。<br><br> 「処置につきまして――」 しまっておけば良い。<br><br> 「永久にでございましょうか」 いやそれは解らない。<br><br>それはいただいたほうが良い。<br><br>それであなたの所にしまっておき、そのうちに急いでお祀りしたいというときに貸してやる。<br><br>ただしそれはお浄めしなければ。<br><br>お浄めする場合には資格者なら良いです。<br><br>自分の所にお祀りしてある光明如来様にお願いして、お浄めの資格をいただき「今お浄めをさせていただくから力をお与え下さい」とお願いしておけば良い。<br><br>胸から霊を入れる。<br><br>それで良いです。<br><br>つまり台の上において、祝詞を奏げたほうがいいですね――天津祝詞を。<br><br>拍手して二、三分で良いですね。<br><br>そして拍手をして、お辞儀をして、そのとき「しまわせていただきますから」と言って、しまう。<br><br>上に物をのせないようにね。<br><br>その家で一番清い所に置いて、箱があったら箱に入れて、そうすると中にはお祀りしたいがお金が足りないというときは出してやる。<br><br>あるいは貸さなければならない場合にね。<br><br>未信者に病人があって、将来入信する――入信すると言うのでなければならない――そういうとき、使っても良い。<br><br>返ったら戸棚にしまって、光明如来様にお礼をして――それで良い。<br><br>お屏風はそれ程大げさにしなくても、もっと簡単で良い。<br><br>御神前にお上げして「どうかお浄めをお願いします」と、それだけで良い。<br><br> 「たいへん穢れていたり、お汚しした場合は――」 それはいけません――取り換えなければね。<br><br>ただ古いのは良いが、破損しているのはいけないですね。<br><br> 「その処置はいかにいたしましたらよろしゅうございましょうか」 お断りして焼いても良いでしょう。<br><br> 「御額の場合には――」 額は御神体と違うから、ただ清い所に良いでしょう。<br><br>さもなければ、掛けても良いですよ。<br><br>光明如来様に「今度御額をお預りしたから、それを掛けさせていただきます」と言って。<br><br> 「明主様の御写真の場合は――」 写真は、やっぱり光明如来様の台の上にのせて、「今度自分がお預りすることになったから、よろしくお願いします」と言って、きれいな紙に包んで置いておくんですね。<br><br> 「光明如来様、大光明如来様をいただいておりますが、部屋が一つしかないのでお掛けすることができませんのでございますが――」 御神体は一軒の中に二ヵ所はいけない。<br><br>一ヵ所でなければならない。<br><br> 「先ほど胸からとおっしゃられましたが、御守り様が胸に近いからでございましょうか」 それもありますが、そうお願いしてすれば霊をいただくから、そこを通って行く。<br><br>それはそうとうの――中教会長以上の人ですが、それ以下の人なら、ただ御神前にお上げして、お願いすると良い。<br><br>「どうかお浄めをお願いします」と、そうして暫く――二、三分で良いです。<br><br> 「信者が死んだ場合、そのとき御守り様は、亡骸と一緒につけて良いというお言葉でございましたが――」 それは死ぬ人の希望です。<br><br>それでなければ執着があるからね。<br><br> 「残った御守り様はいかがいたしたらよろしゅうございましょうか」 希望がない場合は、とっといたほうが良いですね――記念という意味でね。<br><br>きれいな箱に入れて――桐の箱かなにか作って、そこに書いて――何の何某（なにがし）と書いて――そうしてしまっておく。<br><br> 「主人が解らなくなり、御写真を放り投げ――お祀りしてございますが、穢してあるかと思われますが」 いずれは後悔して、お詫びにくるかも知れませんから――また欲しいと言うかも知れないから、あなたのほうにしまって、とっておくと良い。<br><br> 「投げたりして、明主様の御写真が穢されると言うことがありますのでございましょうか」 それはありますよ。<br><br>邪神ですからね。<br><br>邪神が人間の手を使うんですからね。<br><br> 「御神体は二ヵ所はいけないということでございましたが、信者さんが来てお詣りする所と、私がおります奥のほうとございますが――」 ああ、そういう場合には二つで良いのです。<br><br>片方は教会で公ですから、良いんです。<br><br> 「炭坑の工夫で、御守り様をはずして入り、坑木が当たり死んだ者がございます」 はずすと言うのが間違いだな。<br><br>そのままで良いですよ。<br><br>それが希望なんだから―― 「中二階ですが、上が低いので、お軸の下をまくのと、ひきずるのとは、どちらにいたしましたらよろしいでしょうか」 絶対にいけない。<br><br>どっちもいけない。<br><br>長ければ軸を切れば良い。<br><br>人間でも、足からひきずっていたらおかしい。<br><br> 「先頃、私のほうの信者で、ホワイト（鉛の合金）の熱熔（ねつよう）した物を鋳型に流し込もうとしていた際、器のほうに水気がありましたため、突如爆発し、眼に飛込み、まぶたの裏のほうに眼球の形に半円形に固まってしまいましたのでございますが、ちょうどそのとき信者がおりまして、ただちに御浄霊をいただき、それより十八日目に取れましたが、その跡はちょうど、牛肉のように焼けただれております」 それは治りますよ――すっかり。<br><br>医者に行ったらぜんぜん駄目ですね。<br><br>そういうのは祖霊が、一生懸命徳をつんでもらわないと上がれないから、子孫に――こいつを、ウンと目を覚まさせなければ、と言うので、そうなるのです。<br><br> 「お道に熱心なために気が狂ったので、親父が御守り様を焼いたのですが、また欲しがるのでございますが」 結構です。<br><br>やったら良いです。<br><br> 「娘は知らないのでございますが、娘には隠したほうが良いでしょうか」 明さないほうがいいです。<br><br>親父こそお詫びするのが本当です。<br><br>熱心のあまり脱線するのがたまにあり、困りますね。<br><br>つまり狐ですね――狐が、メシヤ教に入られると自分のことができなくなるから狐の強い奴がなんとか邪魔しようとする。<br><br>親父に焼かせたり、本人を気違いにする。<br><br>やっぱり時期ですね。<br><br>ある時期に行くと狐が弱るから、そうするとおとなしくなる。<br><br> 「最近大本の亀岡が燃えましたが、木造の尉（じょう）と姥（うば）が焼けずに出て来たそうですが、皆奇跡だと言っているそうですが、そのようなことがありますのでございましょうか」 それは当たり前です。<br><br>尉と姥は、私の親みたいなものです。<br><br>尉と姥が観音さんを生むんです。<br><br>尉と姥は伊弉那岐（いざなぎ）、伊弉那美（いざなみ）の神様です。<br><br>大本教の教祖様は尉で、聖師様が姥です。<br><br> 「入信後間もなく、お巡りの妻君と密通して、現場を見つかり、ピストルで射たれ、弾が当たったのですが、免れて腕にうけ、生命は取り止めたそうです」 そういうのは功罪両方がある。<br><br>つまり良いことと悪いことと両方ある。<br><br>良いことがいくらか多かったため助かった。<br><br>罪のほうよりも良いほうが多かったから――姦通したことは罪だが、それを補ってあまりあるものがあるから助かった。<br><br>いかなる場合でも、御守りというものは、そういった――弾が当たっても通らないものだから――昔の本に書いてありますが――弾の霊が先に行って、霊が免（そ）れるから弾は当たらない。<br><br> 「昔反対していたような人が来て、「もうすこし判るように話してくれていたら」ということを言っておりますが――」 そういうこともあるにはあるが、先がもっと判ろうとするほど来ないからね。<br><br>指導者の熱意とか頭の働きとか言う点もある。<br><br>それから本人の生ぬるい点もあるし、時節の来ない点もある。<br><br>例えば罪があるため、最高の神様にお会いできない場合は、延びますから――一概に良い悪いは定（き）められない。<br><br>時期は恐ろしいもので、私が大本教に入ったとき、甥が中学生で、綾部に行って、川があるのですが、そこに落ちて溺死した。<br><br>それは私の兄の跡取りになるので「お前が大本教に入ったから、あそこに行って死んだのだ。<br><br>大本教は敵だ」と言うのです。<br><br>私も、現実にあったものだから大本をよした。<br><br>それから五年目に綾部に行った。<br><br>それから熱心になった。<br><br>ああいうことも私の時期だね。<br><br>最初のときは時期が早かった。<br><br>五年延ばしてちょうど良かった。<br><br>ただ早く行くばかりが良いわけじゃない。<br><br>その点はいろんな霊的な意味がある。<br><br>断定をしないで、おもむろに見て、時を待つということが一番良いですね。<br><br> 「乳癌の場合、静脈が切れるということがございますでしょうか」 それはあります。<br><br> 「動脈の場合はございましょうか」 そんなことはない。<br><br>医者にかかって、いろんなことが病気の原因になる。<br><br>しかし医者のほうで治ればこっちのほうが仕事がなくなるからね。<br><br>ちょうど――オワイ屋みたいで、人間が糞をするから必要なんです。<br><br> 「無肥料栽培で、野菜の栽培が割方困難ですが、それは人糞をかけているほど困難なようでございます」 そうです。<br><br>稲は水田ですから肥毒が早く減りやすい。<br><br>片方は土に食い込んでいるから、そういうのは掘り返して、人糞のほうを下にやって、下のを上にやると良い。<br><br> 「買って来た種を、浄霊してていねいにいたしますと芽を出さずに消えてしまいますが、その代り浄霊をウンとして生えたものはすばらしくできがよろしゅうございます」 そんなことはないですよ。<br><br> 「浄霊不足ではございませんでしょうか」 そうなんですよ。<br><br>浄霊のしっぱなしということがある。<br><br>熱があるのに、浄霊してよけい高くなる。<br><br>山を上るが、それを越す力がないのです。<br><br>それと同じ理屈ですね。<br><br>浄霊する人の力にもあるわけですね。<br><br>こういうことがある。<br><br>肺病とかの病気は浄霊が効き過ぎてかえって具合が悪いから、もっと間をおいたほうが良いでしょうかと言う人がある。<br><br>効き過ぎるくらいの力があればたいへんなものです。<br><br>実際はそういう人は、効かな過ぎることを間違えてるのです。<br><br>熱が出たり、咳が出ると効き過ぎると思うのですね。<br><br> 藁を入れますね。<br><br>藁を入れると――藁に肥料があると思うが、ぜんぜん関係がない。<br><br>土というものの認識が本当にできていない。<br><br>しかたがないから、今度「 土は肥料の塊り 」というのを出します。<br><br> 「だいぶ無肥料でやっているんですが、虫がつくのでございます」 肥毒があるんでしょう。<br><br> 「しかし飛んでくるんです」 いや、それでもね――こっちに肥毒があるからです。<br><br>少しくらいはあるのです。<br><br>薬毒のない身体というのはないからね――同じですよ。<br><br> 「日の暮れ方に種を播いたほうが良いと言いますが」 水分があるから種の発育が良い。<br><br>昼間は種の伸びが――発育が悪い。<br><br>最初発育が悪いと、押して行くからね。<br><br> 「二毛作で、米が良く穫れると麦が悪く、麦が良いと米が悪いのでございますが――」 そういった、交代の二毛作は真理にはずれている。<br><br>米の土に向いてきたのに、麦を植えると、土も常に変わるから、成分が違ってくるのです。<br><br>米を作る成分になっているのに、麦を植えるから、穫れない。<br><br>だから連作が良い。<br><br>そういうことなんです。<br><br> 「米だけの連作が不可能な場合は」 そういう所は一毛作にすれば良い。<br><br> 「もったいないと言うので――」 いや、かえって一毛作のほうがたくさん採れる。<br><br>種類までも一つでなければならない。<br><br>種類を変えると、その種に肥毒を持っているのと、いないのとありますからね。<br><br> 「大慈大悲ということが前にありましたが、それを受けとるのは救われますが、大悲の場合に悩み苦しみのために曇りを増やすというのも多いわけですが。<br><br>それはどういうふうに解釈したらよろしいのでしょうか」 そうすると、殺人強盗をやって懲役に行くとか、死刑になるが、それで裁判官を怨むということになる。<br><br>苦しみ悩むのは、罪は自分が作ったものだからね。<br><br>解らないから怨むので、人間のわがまま感情です。<br><br>一応話をして解ればそれで良いし。<br><br>解らなければしょうがないですね。<br><br>自分が作らなくても、前の世で作ったのもあるし、祖先が作ったのもあるし――多くの場合には、何代前かの自分であったんです。<br><br>祖先といっても、自分がいくども祖先になっているから、そのとき罪を作っている。<br><br> 「開墾地の成績が悪いということはいかがなものでございましょうか」 どういう土に限らず開墾地は悪いですか。<br><br> 「さようでございます、一、二年は――」 土の中で、非常に固まる土ですね。<br><br>赤土ですね。<br><br>赤土系統は固まりますから、藁を混ぜると良い。<br><br>粘土もいけない。<br><br>固まるんじゃなくて、密度が細かい。<br><br>だいたい、昔は肥料をやったというのは、そのためなんです。<br><br>肥料は固まらないと言うのでね。<br><br>ところが成分を殺すから、本当の物ができない。<br><br>だから成分を殺さず、固まらせないようにするのが一番良い。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Prática da Fé</h2>
 <p><strong>P: Nos seus artigos recentes, os novos medicamentos mencionados terminam, invariavelmente, com o som “n”. Qual seria a razão?</strong></p>
@@ -179,5 +331,48 @@ function toggleLang(lang) {
 <p>R: Isso acontece em qualquer tipo de solo recém-cultivado?</p>
 <p><strong>P: Sim, durante o primeiro ou segundo ano.</strong></p>
 <p>R: Isso ocorre em solos que se compactam com facilidade, como a argila vermelha. Solos com predominância dessa argila tendem a endurecer, e misturar palha pode ajudar. Solos muito argilosos também são problemáticos, não porque endurecem, mas por sua densidade excessiva. Antigamente, os fertilizantes eram utilizados justamente para evitar essa compactação, mas, ao mesmo tempo, eles destroem os nutrientes essenciais do solo, impedindo o crescimento de alimentos verdadeiros. Portanto, o ideal é encontrar uma forma de manter o solo solto sem anular seus componentes vitais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御垂示 （S26年4月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行 昭和二十六年［四月一日］ 「最近の御論文の中にでてまいります新しい薬は、みんな「ン」で終っておりますが――」 「ン」というのは、消えると言うことでしょう。<br/><br/>「ン」と言うのはイロハの最後にある。<br/><br/>「ン」で消えるんですね。<br/><br/>「ポン」とか「カン」とかみな消える言霊です。<br/><br/>だから運のつきと言って永久性がないです――だから薬のことになる。<br/><br/> 「大黒様の台につきましてお願い申し上げます」 台があったほうが良い。<br/><br/>床の間にじかではいけない。<br/><br/>人間なら座蒲団です。<br/><br/>だから――あのお厨子の台は先に坂井さんからもらった。<br/><br/>私が見つけたがなかなかなかったのですがね。<br/><br/>実に調和が良い。<br/><br/>なんでも調和しなければいけない。<br/><br/>大黒様の台でも、調和しなければならない。<br/><br/>木に竹をついだようではおもしろくない。<br/><br/>新しい大黒様には新しいもの。<br/><br/>古い大黒様には古いもの。<br/><br/>古いのがなければ黒い色に塗ればいい。<br/><br/>神様は調和の良いものを探しておいてくれますよ。<br/><br/>あれだって実に調和の良いものが見つかった。<br/><br/> 「ウルシ負けのことでございますが、ウルシをやることは、薬毒――とは違うのでございましょうか」 違うんです。<br/><br/> 「蜂に刺されたとき、蜂の白い血を塗ったら腫れあがりませんが、それに似たようなものでございましょうか」 しかし、浄霊さえ知っていたら、浄霊のほうが良いですよ。<br/><br/>蜂に刺されても五分くらいですね。<br/><br/> 「ウルシを飲むということは浄化停止にはなりませんのでございましょうか」 つまり同化するんですね。<br/><br/>だから、本当じゃないが、一時的というような意味ですが、それは別に、薬毒のような――そういう意味はない。<br/><br/>木の汁ですからね。<br/><br/> 「お道に資格をいただいてやりたいと思っております、ある婦人でございますが、主人に十年前から女があり、子供もあるのですが、いつも別れたいと言っているそうです。<br/><br/>本人もそう言っておりますが、別れたほうがよろしいでしょうか」 別れたほうが良いですね。<br/><br/>両方で希望するならそのほうがいい。<br/><br/> 「信者でない場合に、どちらも別れたがっている場合には――」 別れて結構です。<br/><br/>そういうことが、家のなにかとか、世間の信用に関わることはないですよ。<br/><br/>一方的じゃいけないが、両方が一致すれば結構です。<br/><br/>そこが難しいんです。<br/><br/>先に――両方が希望するから、してやったんですが、しばらくたつと、また一緒にしてくれと言うのがありました。<br/><br/>馬鹿にされたような気持ちになったんですが――先方は騙すつもりじゃなかったのですがね。<br/><br/>自然でしょうがね。<br/><br/>二号なんかあったときは大丈夫ですよ。<br/><br/> 「御神体とお屏風の観音様のお取り扱いにつきましてお伺い申し上げます。<br/><br/>主人が亡くなり、家族が解らなくなって教会にお返しに来たのでございます」 取扱いと言って――先方が返そうと言うんでしょう。<br/><br/>だからそれを、うまくやればいいでしょう。<br/><br/> 「処置につきまして――」 しまっておけば良い。<br/><br/> 「永久にでございましょうか」 いやそれは解らない。<br/><br/>それはいただいたほうが良い。<br/><br/>それであなたの所にしまっておき、そのうちに急いでお祀りしたいというときに貸してやる。<br/><br/>ただしそれはお浄めしなければ。<br/><br/>お浄めする場合には資格者なら良いです。<br/><br/>自分の所にお祀りしてある光明如来様にお願いして、お浄めの資格をいただき「今お浄めをさせていただくから力をお与え下さい」とお願いしておけば良い。<br/><br/>胸から霊を入れる。<br/><br/>それで良いです。<br/><br/>つまり台の上において、祝詞を奏げたほうがいいですね――天津祝詞を。<br/><br/>拍手して二、三分で良いですね。<br/><br/>そして拍手をして、お辞儀をして、そのとき「しまわせていただきますから」と言って、しまう。<br/><br/>上に物をのせないようにね。<br/><br/>その家で一番清い所に置いて、箱があったら箱に入れて、そうすると中にはお祀りしたいがお金が足りないというときは出してやる。<br/><br/>あるいは貸さなければならない場合にね。<br/><br/>未信者に病人があって、将来入信する――入信すると言うのでなければならない――そういうとき、使っても良い。<br/><br/>返ったら戸棚にしまって、光明如来様にお礼をして――それで良い。<br/><br/>お屏風はそれ程大げさにしなくても、もっと簡単で良い。<br/><br/>御神前にお上げして「どうかお浄めをお願いします」と、それだけで良い。<br/><br/> 「たいへん穢れていたり、お汚しした場合は――」 それはいけません――取り換えなければね。<br/><br/>ただ古いのは良いが、破損しているのはいけないですね。<br/><br/> 「その処置はいかにいたしましたらよろしゅうございましょうか」 お断りして焼いても良いでしょう。<br/><br/> 「御額の場合には――」 額は御神体と違うから、ただ清い所に良いでしょう。<br/><br/>さもなければ、掛けても良いですよ。<br/><br/>光明如来様に「今度御額をお預りしたから、それを掛けさせていただきます」と言って。<br/><br/> 「明主様の御写真の場合は――」 写真は、やっぱり光明如来様の台の上にのせて、「今度自分がお預りすることになったから、よろしくお願いします」と言って、きれいな紙に包んで置いておくんですね。<br/><br/> 「光明如来様、大光明如来様をいただいておりますが、部屋が一つしかないのでお掛けすることができませんのでございますが――」 御神体は一軒の中に二ヵ所はいけない。<br/><br/>一ヵ所でなければならない。<br/><br/> 「先ほど胸からとおっしゃられましたが、御守り様が胸に近いからでございましょうか」 それもありますが、そうお願いしてすれば霊をいただくから、そこを通って行く。<br/><br/>それはそうとうの――中教会長以上の人ですが、それ以下の人なら、ただ御神前にお上げして、お願いすると良い。<br/><br/>「どうかお浄めをお願いします」と、そうして暫く――二、三分で良いです。<br/><br/> 「信者が死んだ場合、そのとき御守り様は、亡骸と一緒につけて良いというお言葉でございましたが――」 それは死ぬ人の希望です。<br/><br/>それでなければ執着があるからね。<br/><br/> 「残った御守り様はいかがいたしたらよろしゅうございましょうか」 希望がない場合は、とっといたほうが良いですね――記念という意味でね。<br/><br/>きれいな箱に入れて――桐の箱かなにか作って、そこに書いて――何の何某（なにがし）と書いて――そうしてしまっておく。<br/><br/> 「主人が解らなくなり、御写真を放り投げ――お祀りしてございますが、穢してあるかと思われますが」 いずれは後悔して、お詫びにくるかも知れませんから――また欲しいと言うかも知れないから、あなたのほうにしまって、とっておくと良い。<br/><br/> 「投げたりして、明主様の御写真が穢されると言うことがありますのでございましょうか」 それはありますよ。<br/><br/>邪神ですからね。<br/><br/>邪神が人間の手を使うんですからね。<br/><br/> 「御神体は二ヵ所はいけないということでございましたが、信者さんが来てお詣りする所と、私がおります奥のほうとございますが――」 ああ、そういう場合には二つで良いのです。<br/><br/>片方は教会で公ですから、良いんです。<br/><br/> 「炭坑の工夫で、御守り様をはずして入り、坑木が当たり死んだ者がございます」 はずすと言うのが間違いだな。<br/><br/>そのままで良いですよ。<br/><br/>それが希望なんだから―― 「中二階ですが、上が低いので、お軸の下をまくのと、ひきずるのとは、どちらにいたしましたらよろしいでしょうか」 絶対にいけない。<br/><br/>どっちもいけない。<br/><br/>長ければ軸を切れば良い。<br/><br/>人間でも、足からひきずっていたらおかしい。<br/><br/> 「先頃、私のほうの信者で、ホワイト（鉛の合金）の熱熔（ねつよう）した物を鋳型に流し込もうとしていた際、器のほうに水気がありましたため、突如爆発し、眼に飛込み、まぶたの裏のほうに眼球の形に半円形に固まってしまいましたのでございますが、ちょうどそのとき信者がおりまして、ただちに御浄霊をいただき、それより十八日目に取れましたが、その跡はちょうど、牛肉のように焼けただれております」 それは治りますよ――すっかり。<br/><br/>医者に行ったらぜんぜん駄目ですね。<br/><br/>そういうのは祖霊が、一生懸命徳をつんでもらわないと上がれないから、子孫に――こいつを、ウンと目を覚まさせなければ、と言うので、そうなるのです。<br/><br/> 「お道に熱心なために気が狂ったので、親父が御守り様を焼いたのですが、また欲しがるのでございますが」 結構です。<br/><br/>やったら良いです。<br/><br/> 「娘は知らないのでございますが、娘には隠したほうが良いでしょうか」 明さないほうがいいです。<br/><br/>親父こそお詫びするのが本当です。<br/><br/>熱心のあまり脱線するのがたまにあり、困りますね。<br/><br/>つまり狐ですね――狐が、メシヤ教に入られると自分のことができなくなるから狐の強い奴がなんとか邪魔しようとする。<br/><br/>親父に焼かせたり、本人を気違いにする。<br/><br/>やっぱり時期ですね。<br/><br/>ある時期に行くと狐が弱るから、そうするとおとなしくなる。<br/><br/> 「最近大本の亀岡が燃えましたが、木造の尉（じょう）と姥（うば）が焼けずに出て来たそうですが、皆奇跡だと言っているそうですが、そのようなことがありますのでございましょうか」 それは当たり前です。<br/><br/>尉と姥は、私の親みたいなものです。<br/><br/>尉と姥が観音さんを生むんです。<br/><br/>尉と姥は伊弉那岐（いざなぎ）、伊弉那美（いざなみ）の神様です。<br/><br/>大本教の教祖様は尉で、聖師様が姥です。<br/><br/> 「入信後間もなく、お巡りの妻君と密通して、現場を見つかり、ピストルで射たれ、弾が当たったのですが、免れて腕にうけ、生命は取り止めたそうです」 そういうのは功罪両方がある。<br/><br/>つまり良いことと悪いことと両方ある。<br/><br/>良いことがいくらか多かったため助かった。<br/><br/>罪のほうよりも良いほうが多かったから――姦通したことは罪だが、それを補ってあまりあるものがあるから助かった。<br/><br/>いかなる場合でも、御守りというものは、そういった――弾が当たっても通らないものだから――昔の本に書いてありますが――弾の霊が先に行って、霊が免（そ）れるから弾は当たらない。<br/><br/> 「昔反対していたような人が来て、「もうすこし判るように話してくれていたら」ということを言っておりますが――」 そういうこともあるにはあるが、先がもっと判ろうとするほど来ないからね。<br/><br/>指導者の熱意とか頭の働きとか言う点もある。<br/><br/>それから本人の生ぬるい点もあるし、時節の来ない点もある。<br/><br/>例えば罪があるため、最高の神様にお会いできない場合は、延びますから――一概に良い悪いは定（き）められない。<br/><br/>時期は恐ろしいもので、私が大本教に入ったとき、甥が中学生で、綾部に行って、川があるのですが、そこに落ちて溺死した。<br/><br/>それは私の兄の跡取りになるので「お前が大本教に入ったから、あそこに行って死んだのだ。<br/><br/>大本教は敵だ」と言うのです。<br/><br/>私も、現実にあったものだから大本をよした。<br/><br/>それから五年目に綾部に行った。<br/><br/>それから熱心になった。<br/><br/>ああいうことも私の時期だね。<br/><br/>最初のときは時期が早かった。<br/><br/>五年延ばしてちょうど良かった。<br/><br/>ただ早く行くばかりが良いわけじゃない。<br/><br/>その点はいろんな霊的な意味がある。<br/><br/>断定をしないで、おもむろに見て、時を待つということが一番良いですね。<br/><br/> 「乳癌の場合、静脈が切れるということがございますでしょうか」 それはあります。<br/><br/> 「動脈の場合はございましょうか」 そんなことはない。<br/><br/>医者にかかって、いろんなことが病気の原因になる。<br/><br/>しかし医者のほうで治ればこっちのほうが仕事がなくなるからね。<br/><br/>ちょうど――オワイ屋みたいで、人間が糞をするから必要なんです。<br/><br/> 「無肥料栽培で、野菜の栽培が割方困難ですが、それは人糞をかけているほど困難なようでございます」 そうです。<br/><br/>稲は水田ですから肥毒が早く減りやすい。<br/><br/>片方は土に食い込んでいるから、そういうのは掘り返して、人糞のほうを下にやって、下のを上にやると良い。<br/><br/> 「買って来た種を、浄霊してていねいにいたしますと芽を出さずに消えてしまいますが、その代り浄霊をウンとして生えたものはすばらしくできがよろしゅうございます」 そんなことはないですよ。<br/><br/> 「浄霊不足ではございませんでしょうか」 そうなんですよ。<br/><br/>浄霊のしっぱなしということがある。<br/><br/>熱があるのに、浄霊してよけい高くなる。<br/><br/>山を上るが、それを越す力がないのです。<br/><br/>それと同じ理屈ですね。<br/><br/>浄霊する人の力にもあるわけですね。<br/><br/>こういうことがある。<br/><br/>肺病とかの病気は浄霊が効き過ぎてかえって具合が悪いから、もっと間をおいたほうが良いでしょうかと言う人がある。<br/><br/>効き過ぎるくらいの力があればたいへんなものです。<br/><br/>実際はそういう人は、効かな過ぎることを間違えてるのです。<br/><br/>熱が出たり、咳が出ると効き過ぎると思うのですね。<br/><br/> 藁を入れますね。<br/><br/>藁を入れると――藁に肥料があると思うが、ぜんぜん関係がない。<br/><br/>土というものの認識が本当にできていない。<br/><br/>しかたがないから、今度「 土は肥料の塊り 」というのを出します。<br/><br/> 「だいぶ無肥料でやっているんですが、虫がつくのでございます」 肥毒があるんでしょう。<br/><br/> 「しかし飛んでくるんです」 いや、それでもね――こっちに肥毒があるからです。<br/><br/>少しくらいはあるのです。<br/><br/>薬毒のない身体というのはないからね――同じですよ。<br/><br/> 「日の暮れ方に種を播いたほうが良いと言いますが」 水分があるから種の発育が良い。<br/><br/>昼間は種の伸びが――発育が悪い。<br/><br/>最初発育が悪いと、押して行くからね。<br/><br/> 「二毛作で、米が良く穫れると麦が悪く、麦が良いと米が悪いのでございますが――」 そういった、交代の二毛作は真理にはずれている。<br/><br/>米の土に向いてきたのに、麦を植えると、土も常に変わるから、成分が違ってくるのです。<br/><br/>米を作る成分になっているのに、麦を植えるから、穫れない。<br/><br/>だから連作が良い。<br/><br/>そういうことなんです。<br/><br/> 「米だけの連作が不可能な場合は」 そういう所は一毛作にすれば良い。<br/><br/> 「もったいないと言うので――」 いや、かえって一毛作のほうがたくさん採れる。<br/><br/>種類までも一つでなければならない。<br/><br/>種類を変えると、その種に肥毒を持っているのと、いないのとありますからね。<br/><br/> 「大慈大悲ということが前にありましたが、それを受けとるのは救われますが、大悲の場合に悩み苦しみのために曇りを増やすというのも多いわけですが。<br/><br/>それはどういうふうに解釈したらよろしいのでしょうか」 そうすると、殺人強盗をやって懲役に行くとか、死刑になるが、それで裁判官を怨むということになる。<br/><br/>苦しみ悩むのは、罪は自分が作ったものだからね。<br/><br/>解らないから怨むので、人間のわがまま感情です。<br/><br/>一応話をして解ればそれで良いし。<br/><br/>解らなければしょうがないですね。<br/><br/>自分が作らなくても、前の世で作ったのもあるし、祖先が作ったのもあるし――多くの場合には、何代前かの自分であったんです。<br/><br/>祖先といっても、自分がいくども祖先になっているから、そのとき罪を作っている。<br/><br/> 「開墾地の成績が悪いということはいかがなものでございましょうか」 どういう土に限らず開墾地は悪いですか。<br/><br/> 「さようでございます、一、二年は――」 土の中で、非常に固まる土ですね。<br/><br/>赤土ですね。<br/><br/>赤土系統は固まりますから、藁を混ぜると良い。<br/><br/>粘土もいけない。<br/><br/>固まるんじゃなくて、密度が細かい。<br/><br/>だいたい、昔は肥料をやったというのは、そのためなんです。<br/><br/>肥料は固まらないと言うのでね。<br/><br/>ところが成分を殺すから、本当の物ができない。<br/><br/>だから成分を殺さず、固まらせないようにするのが一番良い。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

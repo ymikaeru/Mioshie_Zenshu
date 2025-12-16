@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsaisei</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 再生の喜び 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 新潟県 光陽中教会 小川栄太郎（38） 私が肺結核の宣告を受けたのは昭和十一年の秋、新潟逓信診療所でした。<br><br>当時新潟郵便局に勤めていましたが、それがため退職を余儀なくされ、それより約十年間療養のための生活を送って来たところ、幸いにして御浄霊によって救われ、永年の病弱体を一掃し、現在は人も羨む健康体となり、全快後五年間は東奔西走席暖まる暇なく、月の半分は旅で暮し、一般人からみたら無理のし通しであるが、益々身体頑健であり、御浄霊の効果を疑う人は私を見て下さいと生証人になっています。<br><br>この歓喜この感激、永年病床にあった者ならでは味わう事の出来ない喜びを味わいつつ暮しています。<br><br>私は以前新潟市に旭桜学舎という珠算塾を開いて多くの人に珠算を教えていましたので、知人も沢山いますが、皆よくもあのように健康になったものだと驚歎しています。<br><br>過去を振返ってみる時、もしもお道に救われなかったならばこの身はどうなっていたであろうと思うと慄然とする次第であります。<br><br> 肺結核のために退職してより、一人ボッチの私は、僅かばかりの退職金と特症金をもらって亡母の生家へ療養の身を寄せましたが、色々の事情もあったのですが、家族に伝染するのを恐れて今度は父の生家に移りました。<br><br>しかしやはり同じ事で、いろいろ考えた揚句、一里位離れた鎧潟の一隅にある水門小屋を、療養所というよりは死場所位に考えて移ったのであります。<br><br>貧血のために顔色は青白く、骨と皮ばかりに痩せた体を番人の住んでいた部屋に横たえ、俺もついにここまで生きて来たが、この先発年生きられるか、この身体がどこまで蝕ばまれてどうなってゆくか運を天に委せるよりは外はない。<br><br>僅かの所持金は医療費を入れて一カ年位でなくなる。<br><br>それから後はどうなるか、親戚もあるが、不幸にして人の嫌う肺結核では御迷惑をかけるばかりだ。<br><br>それからそれと考えてゆくうちに眠りに入ったと思うと、恐ろしい大蛇に追いかけられて、いくら逃げようとしても足が動かず、思わず大きな声を揚げたら眼がさめる。<br><br>ベットリと全身に気持の悪い盗汗をかいていた等々。<br><br>病苦と悪夢の療養生活を水門小屋で一カ年位送りましたが、そのうちに○○健康法を知り、又入院の世話をしてくれる人も出て、その後少々かたまりかけて来たものか、病状も治り少し太って参りました。<br><br>いつまでも人の世話にばかりなっていられないので、軽い仕事を求めて村の役場の書記に就職しましたが、少し仕事らしい事をすればすぐに疲労し、盗汗血痰微熱等々の病状が起り毎日戦々兢々としている有様で、いろいろ考えた末、療養しながら生活の糧を得る道を求めて、新潟医大の研究室に就職し働いているうちに医学に興味をもち、医師になりたい希望を持ち、知人の医師を頼って上京し、麻布の林病院に就職、助手を勤める傍ら医学を学んだり研究したりし、その間現代医学の療法は勿論、鍼灸民間療法、漢方療法、物理療法等々ほとんど身をもって学理と実験に没入し自己の健康の恢復に努めました。<br><br>しかし外形はある程度健康らしくなりましたが、頑固なる頭痛、便秘、消化不良、不眠、微熱、血痰に悩まされ、丁度ヒビの入った茶碗を扱うようにしていなければならず、病院にいたため、その都度対症療法を施しつつ、どこへ行くにも鞄の中は薬ビンを入れておかなければなりませんでした。<br><br>当時は大東亜戦争の最中であり、昭和十四年十月には若松歩兵二十七連隊に召集になりましたが、肺結核の故をもって即日帰郷、十八年五月徴用令の際も同じく解除、十九年八月仙台東部二十一部隊に召集を受けましたが、同病に即日帰郷になりましたにみても、どんな状態であったかが察せられると思います。<br><br>身体がそんな状態ですから精神状態はいつも憂鬱であり、悲観的消極的で怒り易く、実に心身共に吾と吾身に愛想をつかしていたのでしたが、昭和十九年五月以前に林病院に入院していられた一患者（皆見健吉氏）より御著書「結核の正体」を贈られ一読しその瞬間今迄求めに求めていた真の治療法はこれだと小躍りし早速上京、私をこの道の弟子にしてくれるように皆見氏に頼んだのであります。<br><br>皆見氏は君は医学徒だから、ちょっと諒解出来ないかもしれないが、白紙になり、第一歩よりやり直すつもりならば紹介してやると、蒲田区の坂井先生のところへ連れて行って頂いたのであります。<br><br>一週間の講習を終え、胸にお守様をかけて頂いた時の喜びは、何とも言われない感激でした。<br><br>ああ俺もこのお光のおかげで、永年の病弱体を解決出来るし、又真の治病を安心して人に接す事が出来ると喜び勇んで帰宅、それから御道のお手伝をさして頂いている中に然毒の御浄化を頂き、漸く少康を得た頃、今度は本格的に結核病状が出て参りました。<br><br>あの時の苦しさを今想い出してもゾッとする位であります。<br><br>病状も少々おさまったので、箱根の明主様のお邸にお伺いさして頂き、一夜宿屋に泊ってその晩より大浄化で四十度近い熱に加うるに頻繁なる咳、それにつれて頭も割れんばかりの頭痛、胸痛、呼吸困難、特に尿閉のため浮腫物凄く、顔は自分の顔と思われない位に腫れ、そのために横臥すれば胸内苦悶激しく、詮方なく周囲に布とんを積み重ね寄りかかりになったまま、一刻も横臥する事は出来ませんでした。<br><br>勿論食欲は皆無であり、衰弱、疲労困悠、苦悶のための唸り声は、夜間のごときは隣家にまで聞え、隣人は今日か明日かと私の死を想像していたそうであります。<br><br>勿論医師が見たら絶望状態であったでしょう。<br><br>その時何という有難い事でしょう。<br><br>明主様より直接御浄霊を戴く光栄に浴したのであります。<br><br>一番ひどい時は一日四回御浄霊をいただきました。<br><br>御多忙の事は一般人は想像も出来ない程の御身にも拘わらず、わざわざ私ごとき者に御親切にお手をかけ下されたのであります。<br><br>その時明主様はお傍のお方に、「小川はあぶない」と仰せになられた由、後日お聞きしたにみていかに重態であったかが想像されると思います。<br><br>御浄霊を戴きましてより一日一日軽快にして戴き、さしもの重い肺結核末期のごとき病状も、明主様の三週間の御浄霊により、跡方もなく全快させて頂きました。<br><br>（今であれば到底望めませんが、当時御治療時代だった事もありますが、破格の光栄に浴した次第であります） 真に危機一髪というところをお救い戴いたのであります。<br><br>その間御浄霊中排出された喀痰の量は、少な目にみて一日五合は確かに出ました。<br><br>三週間としてその量一斗余、いかに人間の体内には痰が多くあるものかと、ただ驚くほどで、特に睾丸が脹れて、御勿体ない話ですが、明主様が睾丸を御浄霊下さると呼吸が出来ない位痰が排出されるのであります。<br><br>手をお引きになればピタリと咳は止み、お手をおかざしになれば物凄い咳と共に、黄色い薬臭い痰がドンドン出るのであります。<br><br> 明主様はお笑いになられ「あんたの肺は睾丸の中にあったんで、それで医者が判らなかったのだね」とのお言葉でありました。<br><br>その当時お道に入れて頂いていたとは言いながら、過去の医学的知識が邪魔して真から理解する事の出来なかった。<br><br>いわゆる病原は体内にある毒素であり、病気とは浄化作用である事を、現在自分が苦しんでいる病状は、すべて自分が飲んだり射したりした薬毒が体内に膿に変化しているため、それが排出されんとしての病状だという事をハッキリ身をもって悟らせて頂きました。<br><br>今静かに往時を追想する時、ただただ明主様の御高恩に感謝感激の涙の、滂沱（ぼうだ）と頬に伝うを禁じ得ないのであります、ああこの感激こそ、未来永劫到底忘れる事の出来ないものでございます。<br><br> 罪深き身をも今は許されて 御恵み豊かに生くる嬉しさ 身も魂も捧げまつりて御教への 道ひとすじに吾は行かなむ あな楽し心は澄みて身は軽し ただひたむきにつとめはげまむ これはその時の感激を拙い歌に綴ったものであります。<br><br>古い小川という男は死んでしまったのだ。<br><br>そして新しく神様より御使命を戴いた新しい小川が生れたのだ。<br><br>これからの一日一日は神様の御用をするために命があるのだ。<br><br>この感激と覚悟をシッカと胸に抱きしめつつ、御使命に進まして頂いています。<br><br>私はかくして心身共にお救い頂きました。<br><br>従来の悲観主義は楽天的に変り、御守護豊かに健富和の光明世界を礼讃しつつ暮させて頂いています。<br><br>実に有難い……明主様の大愛のふところに抱かれて……こんなに幸福で、これでよいのか、奇異の感にうたれる事があります。<br><br>それはあまりにも私の過去が悲惨であり、現在がそれに逆比例して、幸福だからであります。<br><br>どんなに学理がどうだ、理屈がどうだと言ったって、人間にとって健康に勝る幸福はないと思います。<br><br>御浄霊を戴けば私のような使い物にならないような体の人間でも、このように治して頂けるのであります。<br><br>世人は知らないで迷信だ邪教だと言っていますが、私はそんな人にいつも言います。<br><br>「私のように治った者はメシヤ教にウヨウヨしています。<br><br>お望みならば、何人でも目の前につれて来て生証人になりますよ、理屈を言わないで一日でも早く、一人でも多くお守を頂き、魂と身体の毒素を出して、キレイな人間にして頂いて、明主様のお造り下さる輝かしい地上天国に住ませて頂くべく各々の御使命に進もうではありませんか」と。<br><br>終りに当り、世の結核に悩む人に私は声を大にして告げたいのです。<br><br>結核は決して不治ではない、治らないのは療病法を間違っているからですよ、メシヤ教へ来なさい。<br><br>結核なんてドンドン解決つきますよ、もしお疑いになるなら、栄光新聞や地上天国誌のおかげ話を読んで、最寄りの住所の人を訪問して下さい。<br><br>その日より悲観と絶望は、歓喜と希望に転換することでしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Revolucionária da Tuberculose e A Terapia da Tuberculose pela Fé</h2>
 <p><strong>Relato de Graça publicado em 15 de agosto de 1951 e 1º de dezembro de 1952</strong>
@@ -114,5 +269,48 @@ Com fervor e devoção, hei de me empenhar.</p>
 <p>Dessa forma, fui salvo de corpo e alma. Meu pessimismo de outrora transformou-se em otimismo e, recebendo abundantes proteções, vivo a enaltecer o Mundo de Luz, de saúde, prosperidade e paz. Sinto-me imensamente grato... acolhido pelo grande amor de Meishu-Sama... Chego a me questionar, com certa estranheza, se mereço ser tão feliz. Esse sentimento surge porque meu passado foi sobremaneira trágico, e meu presente é, em proporção inversa, repleto de felicidade. Não importa o que digam as teorias e a lógica; para o ser humano, não há felicidade maior do que a saúde. Ao receber Johrei, até mesmo uma pessoa com um corpo imprestável como o meu pôde ser curada desta maneira.</p>
 <p>As pessoas, por desconhecimento, dizem que nossa fé é superstição ou uma religião maligna. A elas, sempre digo: “Na Igreja Messiânica, há inúmeras pessoas que foram curadas como eu. Se desejar, posso trazer quantas quiser à sua frente como testemunhas vivas. Em vez de discutir, por que não recebem o Ohikari o mais rápido possível? Por que não permitem que o maior número de pessoas elimine as toxinas da alma e do corpo, se tornem seres humanos purificados e avancem em suas respectivas missões para que possam viver no radiante Paraíso Terrestre que Meishu-Sama está a construir?”</p>
 <p>Para concluir, desejo bradar aos que no mundo sofrem de tuberculose: a tuberculose não é, de modo algum, incurável! A razão pela qual não se curam é porque o método de tratamento está equivocado. Venham para a Igreja Messiânica! A tuberculose é resolvida com grande facilidade. Se duvidam, leiam os relatos de graça publicados no jornal Eiko ou na revista Chijo Tengoku e visitem as pessoas cujos endereços se encontram mais próximos. A partir desse dia, seu pessimismo e desespero se converterão em alegria e esperança.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 再生の喜び 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 新潟県 光陽中教会 小川栄太郎（38） 私が肺結核の宣告を受けたのは昭和十一年の秋、新潟逓信診療所でした。<br/><br/>当時新潟郵便局に勤めていましたが、それがため退職を余儀なくされ、それより約十年間療養のための生活を送って来たところ、幸いにして御浄霊によって救われ、永年の病弱体を一掃し、現在は人も羨む健康体となり、全快後五年間は東奔西走席暖まる暇なく、月の半分は旅で暮し、一般人からみたら無理のし通しであるが、益々身体頑健であり、御浄霊の効果を疑う人は私を見て下さいと生証人になっています。<br/><br/>この歓喜この感激、永年病床にあった者ならでは味わう事の出来ない喜びを味わいつつ暮しています。<br/><br/>私は以前新潟市に旭桜学舎という珠算塾を開いて多くの人に珠算を教えていましたので、知人も沢山いますが、皆よくもあのように健康になったものだと驚歎しています。<br/><br/>過去を振返ってみる時、もしもお道に救われなかったならばこの身はどうなっていたであろうと思うと慄然とする次第であります。<br/><br/> 肺結核のために退職してより、一人ボッチの私は、僅かばかりの退職金と特症金をもらって亡母の生家へ療養の身を寄せましたが、色々の事情もあったのですが、家族に伝染するのを恐れて今度は父の生家に移りました。<br/><br/>しかしやはり同じ事で、いろいろ考えた揚句、一里位離れた鎧潟の一隅にある水門小屋を、療養所というよりは死場所位に考えて移ったのであります。<br/><br/>貧血のために顔色は青白く、骨と皮ばかりに痩せた体を番人の住んでいた部屋に横たえ、俺もついにここまで生きて来たが、この先発年生きられるか、この身体がどこまで蝕ばまれてどうなってゆくか運を天に委せるよりは外はない。<br/><br/>僅かの所持金は医療費を入れて一カ年位でなくなる。<br/><br/>それから後はどうなるか、親戚もあるが、不幸にして人の嫌う肺結核では御迷惑をかけるばかりだ。<br/><br/>それからそれと考えてゆくうちに眠りに入ったと思うと、恐ろしい大蛇に追いかけられて、いくら逃げようとしても足が動かず、思わず大きな声を揚げたら眼がさめる。<br/><br/>ベットリと全身に気持の悪い盗汗をかいていた等々。<br/><br/>病苦と悪夢の療養生活を水門小屋で一カ年位送りましたが、そのうちに○○健康法を知り、又入院の世話をしてくれる人も出て、その後少々かたまりかけて来たものか、病状も治り少し太って参りました。<br/><br/>いつまでも人の世話にばかりなっていられないので、軽い仕事を求めて村の役場の書記に就職しましたが、少し仕事らしい事をすればすぐに疲労し、盗汗血痰微熱等々の病状が起り毎日戦々兢々としている有様で、いろいろ考えた末、療養しながら生活の糧を得る道を求めて、新潟医大の研究室に就職し働いているうちに医学に興味をもち、医師になりたい希望を持ち、知人の医師を頼って上京し、麻布の林病院に就職、助手を勤める傍ら医学を学んだり研究したりし、その間現代医学の療法は勿論、鍼灸民間療法、漢方療法、物理療法等々ほとんど身をもって学理と実験に没入し自己の健康の恢復に努めました。<br/><br/>しかし外形はある程度健康らしくなりましたが、頑固なる頭痛、便秘、消化不良、不眠、微熱、血痰に悩まされ、丁度ヒビの入った茶碗を扱うようにしていなければならず、病院にいたため、その都度対症療法を施しつつ、どこへ行くにも鞄の中は薬ビンを入れておかなければなりませんでした。<br/><br/>当時は大東亜戦争の最中であり、昭和十四年十月には若松歩兵二十七連隊に召集になりましたが、肺結核の故をもって即日帰郷、十八年五月徴用令の際も同じく解除、十九年八月仙台東部二十一部隊に召集を受けましたが、同病に即日帰郷になりましたにみても、どんな状態であったかが察せられると思います。<br/><br/>身体がそんな状態ですから精神状態はいつも憂鬱であり、悲観的消極的で怒り易く、実に心身共に吾と吾身に愛想をつかしていたのでしたが、昭和十九年五月以前に林病院に入院していられた一患者（皆見健吉氏）より御著書「結核の正体」を贈られ一読しその瞬間今迄求めに求めていた真の治療法はこれだと小躍りし早速上京、私をこの道の弟子にしてくれるように皆見氏に頼んだのであります。<br/><br/>皆見氏は君は医学徒だから、ちょっと諒解出来ないかもしれないが、白紙になり、第一歩よりやり直すつもりならば紹介してやると、蒲田区の坂井先生のところへ連れて行って頂いたのであります。<br/><br/>一週間の講習を終え、胸にお守様をかけて頂いた時の喜びは、何とも言われない感激でした。<br/><br/>ああ俺もこのお光のおかげで、永年の病弱体を解決出来るし、又真の治病を安心して人に接す事が出来ると喜び勇んで帰宅、それから御道のお手伝をさして頂いている中に然毒の御浄化を頂き、漸く少康を得た頃、今度は本格的に結核病状が出て参りました。<br/><br/>あの時の苦しさを今想い出してもゾッとする位であります。<br/><br/>病状も少々おさまったので、箱根の明主様のお邸にお伺いさして頂き、一夜宿屋に泊ってその晩より大浄化で四十度近い熱に加うるに頻繁なる咳、それにつれて頭も割れんばかりの頭痛、胸痛、呼吸困難、特に尿閉のため浮腫物凄く、顔は自分の顔と思われない位に腫れ、そのために横臥すれば胸内苦悶激しく、詮方なく周囲に布とんを積み重ね寄りかかりになったまま、一刻も横臥する事は出来ませんでした。<br/><br/>勿論食欲は皆無であり、衰弱、疲労困悠、苦悶のための唸り声は、夜間のごときは隣家にまで聞え、隣人は今日か明日かと私の死を想像していたそうであります。<br/><br/>勿論医師が見たら絶望状態であったでしょう。<br/><br/>その時何という有難い事でしょう。<br/><br/>明主様より直接御浄霊を戴く光栄に浴したのであります。<br/><br/>一番ひどい時は一日四回御浄霊をいただきました。<br/><br/>御多忙の事は一般人は想像も出来ない程の御身にも拘わらず、わざわざ私ごとき者に御親切にお手をかけ下されたのであります。<br/><br/>その時明主様はお傍のお方に、「小川はあぶない」と仰せになられた由、後日お聞きしたにみていかに重態であったかが想像されると思います。<br/><br/>御浄霊を戴きましてより一日一日軽快にして戴き、さしもの重い肺結核末期のごとき病状も、明主様の三週間の御浄霊により、跡方もなく全快させて頂きました。<br/><br/>（今であれば到底望めませんが、当時御治療時代だった事もありますが、破格の光栄に浴した次第であります） 真に危機一髪というところをお救い戴いたのであります。<br/><br/>その間御浄霊中排出された喀痰の量は、少な目にみて一日五合は確かに出ました。<br/><br/>三週間としてその量一斗余、いかに人間の体内には痰が多くあるものかと、ただ驚くほどで、特に睾丸が脹れて、御勿体ない話ですが、明主様が睾丸を御浄霊下さると呼吸が出来ない位痰が排出されるのであります。<br/><br/>手をお引きになればピタリと咳は止み、お手をおかざしになれば物凄い咳と共に、黄色い薬臭い痰がドンドン出るのであります。<br/><br/> 明主様はお笑いになられ「あんたの肺は睾丸の中にあったんで、それで医者が判らなかったのだね」とのお言葉でありました。<br/><br/>その当時お道に入れて頂いていたとは言いながら、過去の医学的知識が邪魔して真から理解する事の出来なかった。<br/><br/>いわゆる病原は体内にある毒素であり、病気とは浄化作用である事を、現在自分が苦しんでいる病状は、すべて自分が飲んだり射したりした薬毒が体内に膿に変化しているため、それが排出されんとしての病状だという事をハッキリ身をもって悟らせて頂きました。<br/><br/>今静かに往時を追想する時、ただただ明主様の御高恩に感謝感激の涙の、滂沱（ぼうだ）と頬に伝うを禁じ得ないのであります、ああこの感激こそ、未来永劫到底忘れる事の出来ないものでございます。<br/><br/> 罪深き身をも今は許されて 御恵み豊かに生くる嬉しさ 身も魂も捧げまつりて御教への 道ひとすじに吾は行かなむ あな楽し心は澄みて身は軽し ただひたむきにつとめはげまむ これはその時の感激を拙い歌に綴ったものであります。<br/><br/>古い小川という男は死んでしまったのだ。<br/><br/>そして新しく神様より御使命を戴いた新しい小川が生れたのだ。<br/><br/>これからの一日一日は神様の御用をするために命があるのだ。<br/><br/>この感激と覚悟をシッカと胸に抱きしめつつ、御使命に進まして頂いています。<br/><br/>私はかくして心身共にお救い頂きました。<br/><br/>従来の悲観主義は楽天的に変り、御守護豊かに健富和の光明世界を礼讃しつつ暮させて頂いています。<br/><br/>実に有難い……明主様の大愛のふところに抱かれて……こんなに幸福で、これでよいのか、奇異の感にうたれる事があります。<br/><br/>それはあまりにも私の過去が悲惨であり、現在がそれに逆比例して、幸福だからであります。<br/><br/>どんなに学理がどうだ、理屈がどうだと言ったって、人間にとって健康に勝る幸福はないと思います。<br/><br/>御浄霊を戴けば私のような使い物にならないような体の人間でも、このように治して頂けるのであります。<br/><br/>世人は知らないで迷信だ邪教だと言っていますが、私はそんな人にいつも言います。<br/><br/>「私のように治った者はメシヤ教にウヨウヨしています。<br/><br/>お望みならば、何人でも目の前につれて来て生証人になりますよ、理屈を言わないで一日でも早く、一人でも多くお守を頂き、魂と身体の毒素を出して、キレイな人間にして頂いて、明主様のお造り下さる輝かしい地上天国に住ませて頂くべく各々の御使命に進もうではありませんか」と。<br/><br/>終りに当り、世の結核に悩む人に私は声を大にして告げたいのです。<br/><br/>結核は決して不治ではない、治らないのは療病法を間違っているからですよ、メシヤ教へ来なさい。<br/><br/>結核なんてドンドン解決つきますよ、もしお疑いになるなら、栄光新聞や地上天国誌のおかげ話を読んで、最寄りの住所の人を訪問して下さい。<br/><br/>その日より悲観と絶望は、歓喜と希望に転換することでしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

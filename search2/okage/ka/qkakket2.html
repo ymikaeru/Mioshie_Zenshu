@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkakket2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 喀血に喘いだ私の厚〔更〕生記 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 富山県 大光中教会 広瀬瀧雄（37） 私は終戦迄三カ年北支に応召、防空壕掘りに忠節の誠を捧げていたある日、スコップ作業が馬鹿に胸にこたえるので、軍医の診断の結果、肺患になってしまいました。<br><br>間もなく入院加療の生活が始まった訳ですが、割合動ける私は戦友の枕元をいろいろと世話もしていましたが、ブラブラ病は追々と悪化し、その内終戦ともなり、一等傷復員として、昭和二十二年八月二十日に帰宅しました。<br><br>本当は富山で途中下車、そのまま国立富山病院に入院の命令だったので、帰宅九日目に仕方なく同病院に出頭してみたところ「敗戦国とはいえ、命令を馬鹿にするな」という受付係のお叱りを受け「城端療養所へでも行け」と言われたが入院生活に懲りているので、とにかく断って又帰宅してしまいました。<br><br>丁度妻の妹に戦地仕込みの看護婦がいて、幸い近くの農協病院からカルシウム、葡萄糖、ビタミン何とかを注射に来てくれるので、半年余りもそんなことをやったある時、二、三日続いて酷い悪寒があったので、それを機会に慌てて止めました。<br><br>暫くしてやむなく村の民生委員の方の御世話になり、健康保険医の出張を受けて、療養を続けました。<br><br>何しろ起きていると背中が痛いので、床に寝たきりの生ける屍、天井の節穴を数える気力もなくなってしまいました。<br><br>毎日午後になると三時頃から約二時間微熱が出て、翌朝になると三時頃から三十分程血痰を出しました。<br><br>年よりの保険医は日に二度は欠かさず来てくれますし、大変苦しい時には夜中でも厭わず来てくれるので、それだけが心丈夫でありましたが、自分としては薬石更に効無しで、来る日も来る日も悲歎の明け暮れ、望みとてもはやうち枯れてしまい、死ぬに死なれぬ悩みのようは「地獄」という言葉では言い足りないのでありました。<br><br>二十三年十月のこの時、当地を御布教の藤倉善逸先生がヒョッコリ御訪れ下さいました。<br><br>そして救いの御話も頂きましたが、どうもまだ気が進まなかったので御願いも致さず、その時は、とうとう御断りしてしまいました。<br><br>何しろ大黒柱が不治の病と来ては、妻もジッとしている訳にはゆかず、鮮魚を提げては日に二回でも三回でも富山へ通うのでありました。<br><br>ある日血痰の出る時刻に、何となく咽喉が熱くなって来たかと思うと、もう真赤な血を吐きました。<br><br>何度も何度もあぴせかけて出るものは、膿やら腐肉やら鮮血やらで、たちまち洗面器に一杯となって溢れます。<br><br>翌日も、その又翌日も時刻になると、咽喉もとが燃えて来て洗面器にこぼれる程喀血するのです。<br><br>四日目もその時刻に今や遅しと待っていたのでしたが、この日はありませんでした。<br><br>都合洗面器に三杯の喀血で終ったのですが、吃驚りしたためかなおさら体は弱り、力はゲッソリ落ちました。<br><br>しかし次の瞬間気持が何となく楽で、少しばかりやれやれと息をつくことが出来ました。<br><br>けれども、やっぱり背が痛いことおびただしいのです。<br><br>ここで医者はこう申しました。<br><br>最初洗面器に一杯喀血した時、保険医には内々で内科医にも診断してもらったのです。<br><br>するとその内科医は「これは性質の良い結核で、出るだけ出してしまえば、後は早く楽になるから、出易いようにして出しなさい」というのです。<br><br>そして胸にあててある砂袋を見て「何を当てみたって変らないから、取っときなさい」といって帰りました。<br><br>保険医は丁度反対で、喀血すると体が弱るから出すなと言って、胸に水枕や砂袋を当てさせました。<br><br>そして喀血が無くなった四日目から塩水をうんと塩辛くして煮たのを、絶えず薬飲みで飲ませるのでありました。<br><br>少々楽な時は上体を起しているのですが、直ぐ背が痛くなって来るので寝てしまいます。<br><br>そんなことを繰り返している内に二十四年六月十七日の春祭になりました。<br><br>その日藤倉善逸先生が再び御訪ね下されまして「少しでも楽になることですから」と申されるので、空っぽな気持で御浄霊を受けました。<br><br>たちまち何となく快いし、翌日から薬も飲まぬことにし、三日目になると背の痛みがとれてなくなりましたので「御浄霊にかかって行けば間違いない」ということに心がきまり、それから欠さず御浄霊を受けておりますと、次第に身動きが軽くなり、翌月の二十三日には床を離れて六里も隔る四方町へ御守様を拝受に出かけ得たことは、本当に夢知らぬ変り方であります。<br><br>当日は西村正行様宅で大光明如来様御奉斎のため、会長先生が御霊祭に御臨席になりました。<br><br>いろいろと救いの御道のことを拝聴致しまして、入信させていただきましたことの嬉しさは、どうしても包み隠すことは出来ませんでした。<br><br>本当に前の年の秋祭の際、藤倉先生の御言葉に従わせていただかなかったことが、悔まれてなりません。<br><br>申訳のないことでありました。<br><br>入信一カ月の八月二十日、私の家の屋根を葺きかえました。<br><br>三日間で葺き終りましたが、最初縄をなう藁を槌で打っても背は痛くないし、縄をなっても痛くなし、今度は屋根へ上って屋根葺しても痛みはない。<br><br>近所の手伝人は「そんな無理して、後で又寝るなよ」と笑いました。<br><br>藤倉先生は雨の日も風の日も御浄霊においでになりました。<br><br>二日目の屋根葺の休憩の時、近所の人達が西瓜を食べているところへ先生がおいでになって、早速と御浄霊をいただきました。<br><br>見ている人達は浄霊を笑うのです。<br><br>その人達は未だに御浄霊の何たるかを知ろうとしてくれません。<br><br>とにかく三日間の屋根葺は終りましたが、寝ることもなく別状無いので、その時から床を上げてしまいました。<br><br>それからは真夏の昼寝もせず、先生のおっしゃる通り薪を切ってみたり、割っても見たり、妻が内職に出かけて昼ともなれば「おつゆ」のこしらえもやっている内に、知らず識らずに順調に力がついて、毎日毎日が若芽のように伸びゆく歓喜で一杯でありました。<br><br>その間に城川原教会の清水先生と岐阜の後藤銀一先生にもおいで願いまして、懇ろに御浄霊と御導を頂きました。<br><br> この年の十二月妻も入信致しました。<br><br>会長先生からも「暫く教会へ御浄霊を頂きに通う様に」との御言葉をいただき、早速と二十五年の春から三カ月間城川原教会へ通いました。<br><br>この間に何回となく喀血も致しましたが、清水先生から御浄霊を頂くと直ぐ楽になりますので、別段何ともなく布教をしながら全部をおまかせしてのんびりした気持でその日を送るのでありました。<br><br>教会で御浄霊を受けての帰り、見渡す限りの銀世界をまぶしい反射光を浴びながら、額に汗して病める友に浄霊をしに行く私の幸福を何にたとえ得ましょうか。<br><br>二十五年の四月十二日には御屏風観音様を御奉斎し、翌五月十七日には光明如来様を御奉斎させて頂きました。<br><br>命も放げたどん底に、望も絶えて苦悩する屍の身に、この日の訪れることを誰か想像し得たでしょうか。<br><br>思えば諸先生方は大いなる神の使徒であられる事であります。<br><br>自からに体験してこの身この魂の救われたるを想うに付け、何とも申し上げられない不思議であります。<br><br>讃えても讃え尽せぬ御恵みに、今又その御神体を御迎え申すにあたり、身に余る光栄を先走るは感泣ばかりで御座います。<br><br> 御守護によりまして、この私にも輝く再起の日を抱き、二十五年九月十八日から元の製材所へ復帰し、休みなく元気で働いております。<br><br>世の浄化も強くなったのか、二十六年の春に入り、私も時々突然喀血することがありますが、その都度教会でも御浄霊を頂くので、何事もなくまた平常通り作業に精を出しております。<br><br>浄化を頂く毎に益々体もシッカリするので、自然浄化のいかに真理であるかは、地上天国建設の礎石として御手伝いさせていただいて初めて知りました。<br><br>実に比ぶるものなき尊い教であります。<br><br>同病に悩む多くの人達の一日も早く醍められんことを希わずにはいられません。<br><br> 大いなる時もいよいよ迫り、謹しみて御神業の御手伝いを誓い、御恵の万分の一にも御報い奉りたいのであります。<br><br> 絶大な御守護を頂きまして有難うございました。<br><br>厚く厚く御礼申上げ奉ります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato de Minha Regeneração do Suplício da Hemoptise</h2>
 <p><strong>Publicado nas edições de "O Tratamento Revolucionário da Tuberculose" (15 de agosto de 1951) e "A Terapia da Fé para a Tuberculose" (1º de dezembro de 1952)</strong></p>
@@ -111,5 +266,48 @@ function toggleLang(lang) {
 <p>Rogo para que as muitas pessoas que sofrem da mesma enfermidade possam despertar para esta verdade o quanto antes.</p>
 <p>O Grande Momento se aproxima, e eu renovo meu juramento de servir humildemente à Obra Divina, na esperança de retribuir, ainda que minimamente, uma ínfima parte de todas as graças recebidas.</p>
 <p>Muito obrigado pela imensa proteção com que fui abençoado. Manifesto minha mais profunda e sincera gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 喀血に喘いだ私の厚〔更〕生記 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 富山県 大光中教会 広瀬瀧雄（37） 私は終戦迄三カ年北支に応召、防空壕掘りに忠節の誠を捧げていたある日、スコップ作業が馬鹿に胸にこたえるので、軍医の診断の結果、肺患になってしまいました。<br/><br/>間もなく入院加療の生活が始まった訳ですが、割合動ける私は戦友の枕元をいろいろと世話もしていましたが、ブラブラ病は追々と悪化し、その内終戦ともなり、一等傷復員として、昭和二十二年八月二十日に帰宅しました。<br/><br/>本当は富山で途中下車、そのまま国立富山病院に入院の命令だったので、帰宅九日目に仕方なく同病院に出頭してみたところ「敗戦国とはいえ、命令を馬鹿にするな」という受付係のお叱りを受け「城端療養所へでも行け」と言われたが入院生活に懲りているので、とにかく断って又帰宅してしまいました。<br/><br/>丁度妻の妹に戦地仕込みの看護婦がいて、幸い近くの農協病院からカルシウム、葡萄糖、ビタミン何とかを注射に来てくれるので、半年余りもそんなことをやったある時、二、三日続いて酷い悪寒があったので、それを機会に慌てて止めました。<br/><br/>暫くしてやむなく村の民生委員の方の御世話になり、健康保険医の出張を受けて、療養を続けました。<br/><br/>何しろ起きていると背中が痛いので、床に寝たきりの生ける屍、天井の節穴を数える気力もなくなってしまいました。<br/><br/>毎日午後になると三時頃から約二時間微熱が出て、翌朝になると三時頃から三十分程血痰を出しました。<br/><br/>年よりの保険医は日に二度は欠かさず来てくれますし、大変苦しい時には夜中でも厭わず来てくれるので、それだけが心丈夫でありましたが、自分としては薬石更に効無しで、来る日も来る日も悲歎の明け暮れ、望みとてもはやうち枯れてしまい、死ぬに死なれぬ悩みのようは「地獄」という言葉では言い足りないのでありました。<br/><br/>二十三年十月のこの時、当地を御布教の藤倉善逸先生がヒョッコリ御訪れ下さいました。<br/><br/>そして救いの御話も頂きましたが、どうもまだ気が進まなかったので御願いも致さず、その時は、とうとう御断りしてしまいました。<br/><br/>何しろ大黒柱が不治の病と来ては、妻もジッとしている訳にはゆかず、鮮魚を提げては日に二回でも三回でも富山へ通うのでありました。<br/><br/>ある日血痰の出る時刻に、何となく咽喉が熱くなって来たかと思うと、もう真赤な血を吐きました。<br/><br/>何度も何度もあぴせかけて出るものは、膿やら腐肉やら鮮血やらで、たちまち洗面器に一杯となって溢れます。<br/><br/>翌日も、その又翌日も時刻になると、咽喉もとが燃えて来て洗面器にこぼれる程喀血するのです。<br/><br/>四日目もその時刻に今や遅しと待っていたのでしたが、この日はありませんでした。<br/><br/>都合洗面器に三杯の喀血で終ったのですが、吃驚りしたためかなおさら体は弱り、力はゲッソリ落ちました。<br/><br/>しかし次の瞬間気持が何となく楽で、少しばかりやれやれと息をつくことが出来ました。<br/><br/>けれども、やっぱり背が痛いことおびただしいのです。<br/><br/>ここで医者はこう申しました。<br/><br/>最初洗面器に一杯喀血した時、保険医には内々で内科医にも診断してもらったのです。<br/><br/>するとその内科医は「これは性質の良い結核で、出るだけ出してしまえば、後は早く楽になるから、出易いようにして出しなさい」というのです。<br/><br/>そして胸にあててある砂袋を見て「何を当てみたって変らないから、取っときなさい」といって帰りました。<br/><br/>保険医は丁度反対で、喀血すると体が弱るから出すなと言って、胸に水枕や砂袋を当てさせました。<br/><br/>そして喀血が無くなった四日目から塩水をうんと塩辛くして煮たのを、絶えず薬飲みで飲ませるのでありました。<br/><br/>少々楽な時は上体を起しているのですが、直ぐ背が痛くなって来るので寝てしまいます。<br/><br/>そんなことを繰り返している内に二十四年六月十七日の春祭になりました。<br/><br/>その日藤倉善逸先生が再び御訪ね下されまして「少しでも楽になることですから」と申されるので、空っぽな気持で御浄霊を受けました。<br/><br/>たちまち何となく快いし、翌日から薬も飲まぬことにし、三日目になると背の痛みがとれてなくなりましたので「御浄霊にかかって行けば間違いない」ということに心がきまり、それから欠さず御浄霊を受けておりますと、次第に身動きが軽くなり、翌月の二十三日には床を離れて六里も隔る四方町へ御守様を拝受に出かけ得たことは、本当に夢知らぬ変り方であります。<br/><br/>当日は西村正行様宅で大光明如来様御奉斎のため、会長先生が御霊祭に御臨席になりました。<br/><br/>いろいろと救いの御道のことを拝聴致しまして、入信させていただきましたことの嬉しさは、どうしても包み隠すことは出来ませんでした。<br/><br/>本当に前の年の秋祭の際、藤倉先生の御言葉に従わせていただかなかったことが、悔まれてなりません。<br/><br/>申訳のないことでありました。<br/><br/>入信一カ月の八月二十日、私の家の屋根を葺きかえました。<br/><br/>三日間で葺き終りましたが、最初縄をなう藁を槌で打っても背は痛くないし、縄をなっても痛くなし、今度は屋根へ上って屋根葺しても痛みはない。<br/><br/>近所の手伝人は「そんな無理して、後で又寝るなよ」と笑いました。<br/><br/>藤倉先生は雨の日も風の日も御浄霊においでになりました。<br/><br/>二日目の屋根葺の休憩の時、近所の人達が西瓜を食べているところへ先生がおいでになって、早速と御浄霊をいただきました。<br/><br/>見ている人達は浄霊を笑うのです。<br/><br/>その人達は未だに御浄霊の何たるかを知ろうとしてくれません。<br/><br/>とにかく三日間の屋根葺は終りましたが、寝ることもなく別状無いので、その時から床を上げてしまいました。<br/><br/>それからは真夏の昼寝もせず、先生のおっしゃる通り薪を切ってみたり、割っても見たり、妻が内職に出かけて昼ともなれば「おつゆ」のこしらえもやっている内に、知らず識らずに順調に力がついて、毎日毎日が若芽のように伸びゆく歓喜で一杯でありました。<br/><br/>その間に城川原教会の清水先生と岐阜の後藤銀一先生にもおいで願いまして、懇ろに御浄霊と御導を頂きました。<br/><br/> この年の十二月妻も入信致しました。<br/><br/>会長先生からも「暫く教会へ御浄霊を頂きに通う様に」との御言葉をいただき、早速と二十五年の春から三カ月間城川原教会へ通いました。<br/><br/>この間に何回となく喀血も致しましたが、清水先生から御浄霊を頂くと直ぐ楽になりますので、別段何ともなく布教をしながら全部をおまかせしてのんびりした気持でその日を送るのでありました。<br/><br/>教会で御浄霊を受けての帰り、見渡す限りの銀世界をまぶしい反射光を浴びながら、額に汗して病める友に浄霊をしに行く私の幸福を何にたとえ得ましょうか。<br/><br/>二十五年の四月十二日には御屏風観音様を御奉斎し、翌五月十七日には光明如来様を御奉斎させて頂きました。<br/><br/>命も放げたどん底に、望も絶えて苦悩する屍の身に、この日の訪れることを誰か想像し得たでしょうか。<br/><br/>思えば諸先生方は大いなる神の使徒であられる事であります。<br/><br/>自からに体験してこの身この魂の救われたるを想うに付け、何とも申し上げられない不思議であります。<br/><br/>讃えても讃え尽せぬ御恵みに、今又その御神体を御迎え申すにあたり、身に余る光栄を先走るは感泣ばかりで御座います。<br/><br/> 御守護によりまして、この私にも輝く再起の日を抱き、二十五年九月十八日から元の製材所へ復帰し、休みなく元気で働いております。<br/><br/>世の浄化も強くなったのか、二十六年の春に入り、私も時々突然喀血することがありますが、その都度教会でも御浄霊を頂くので、何事もなくまた平常通り作業に精を出しております。<br/><br/>浄化を頂く毎に益々体もシッカリするので、自然浄化のいかに真理であるかは、地上天国建設の礎石として御手伝いさせていただいて初めて知りました。<br/><br/>実に比ぶるものなき尊い教であります。<br/><br/>同病に悩む多くの人達の一日も早く醍められんことを希わずにはいられません。<br/><br/> 大いなる時もいよいよ迫り、謹しみて御神業の御手伝いを誓い、御恵の万分の一にも御報い奉りたいのであります。<br/><br/> 絶大な御守護を頂きまして有難うございました。<br/><br/>厚く厚く御礼申上げ奉ります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

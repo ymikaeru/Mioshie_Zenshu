@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei092</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： お浄め日記抄 槐安生 『栄光』92号、昭和26(1951)年2月21日発行 其月某日 人間の運命の不思議さ、無神論者の私がメシヤ教の信者となり、反共政党の首領が神を説く身になろう、とは。<br><br> 戦争終結と共に、追放者に指定された紅林氏が、その消息を絶ってから久しい。<br><br> その紅林氏が宗教団体を作って、毎日説教をしている、と聞いたので、ある日訪れてみた。<br><br> 玄関に続く十畳ほどの座敷が説教所、神殿も仏壇もなく、粗末な床の間に孔子の像が置かれている、来会者は二十名程、服装から察しても、社会の最低の線にようやく生きている気の毒な人々らしく想像される。<br><br> 主宰者紅林氏の顔を見るのは数年ぶりであるが、年相応の落着きがみえ、往昔の激しい反共戦線の闘士らしい面影は、熱を帯びたその説教にやや片鱗がうかがえるだけである。<br><br> 追放の憂目をみ、得意の政治活動が封じられてからは、その憂愁を郷里の畑を耕し、聖賢の思想を練る事によって、まぎらわしていた貴重な月日が、彼に内面的な深さを加えさせたのであろう。<br><br> 彼の宗教は、説教から想像して、孔子の道を現代に生かさん、とする事が、主旨のようである、論旨は、彼の経歴、思想を反映して宗教といわんよりは、反共理論の展開である。<br><br> 説き来り、論じ去る名調子には、弁論で過去の地位を築いた、彼の全貌が浮彫りされていて、私には感慨深いものがあった。<br><br> 後に続く説教者には、一日、一善を説く居士あり、バイブルを講義する人もあった、いずれも専門の教職者ではないが、己れの信ずる道を弘めんとする熱意に燃えての説教には、聴く者の心をうつ力が籠っていた、説教が終ると、座談会のような形式で、質疑がかわされる、その日は、宗教的な質問はなく、主宰者のカラーに染った特定の論議であった、その内、ここでも問題となったのは、「お光様」だ、聴衆の一人が、「お光様」を攻撃したが、その内容は、無智な信者から、金を取り、幹部が豪奢な生活をしている、と云うのである、この男の発言が他の者の共感を呼び、自分達も、その被害者の一人のような感じ方をして、その男の言葉に共鳴している。<br><br> 群衆心理の作用するところ、正義も正論も泥土に委だねられる許りである、私は心からの憤激を、その男に叩きつけたが、これは誰にも静められる事ではないであろう。<br><br> その悪口の根拠を追及したが、結局、新聞記事の鵜呑みでしかない、私が、その「お光様」の信者であると名乗り、世上に、色色と噂さされている「お光様」の実体は、その反対であり宗教に関心を寄せる程の者なら、救世主の出現を、歓呼の声を挙げて迎えるべきだ、と机を叩いて極論した。<br><br> もう誰も反駁を試みる者もなく、座は白けて仕舞い一人、二人と退席しはじめた、紅林氏に久闊を舒したが、私のことは全然、記憶していない、今の私には、かえって、その方が都合が良く、忘れられていた方が有難く思えた。<br><br> 話をしながら、彼は肩を叩き、首筋が張って痛い、と云う、早速、十五分ほど浄霊してやり、どうだ、楽になったろう、と訊くと、有難う、大変、楽になったと、礼を云った、それが、お浄め、という神霊療法だと説明すると、不思議そうな顔をしていた、（翌日礼状を寄込した） どうだ、これから一緒に宗教宣伝をやらんか、と云ってくれたが、水と油のように、どうしても一緒になれないものが感じられ、好意を謝して別れた。<br><br> 帰宅してみると、胸に懸げた筈のお守りが、柱にかかっている、胸に手をやってみると、それがない、お守りを懸け忘れてお浄めをしたのだった、それでも彼は楽になった、と礼を述べた、光明如来様の有難さが身に沁み徹るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Defesa Inabalável da Fé</h2>
 <p>Os desígnios do destino humano são, de fato, insondáveis. Quem poderia imaginar que eu, um antigo ateu, me tornaria um fiel da Igreja Messiânica, ou que o líder de um partido anticomunista se converteria em um pregador da Palavra Divina?</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Durante nossa conversa, ele massageava o ombro, queixando-se de uma forte dor e rigidez no pescoço. Prontamente, ministrei-lhe Johrei por cerca de quinze minutos. Ao perguntar-lhe se sentia algum alívio, ele agradeceu, dizendo: "Muito obrigado, sinto-me consideravelmente melhor". Expliquei-lhe que se tratava do Johrei, uma Terapia Divina, ao que ele reagiu com uma expressão de grande espanto. (No dia seguinte, recebi dele uma carta de agradecimento).</p>
 <p>Ele então me convidou: "Que tal unirmos forças e propagarmos a religião juntos?". Todavia, senti que havia entre nós uma incompatibilidade fundamental, como a água e o azeite, que jamais poderiam se misturar. Agradeci-lhe a gentileza e me despedi.</p>
 <p>Ao chegar em casa, deparei-me com uma cena surpreendente: o Omamori, que eu deveria estar usando no peito, estava pendurado em um pilar. Levei a mão ao peito e confirmei que ele não estava ali. Eu havia ministrado Johrei sem portar o Omamori. E, mesmo assim, o senhor Kurebayashi sentiu alívio e expressou sua gratidão. Naquele instante, a grandiosidade e a benevolência de Deus me tocaram a alma de forma avassaladora.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： お浄め日記抄 槐安生 『栄光』92号、昭和26(1951)年2月21日発行 其月某日 人間の運命の不思議さ、無神論者の私がメシヤ教の信者となり、反共政党の首領が神を説く身になろう、とは。<br/><br/> 戦争終結と共に、追放者に指定された紅林氏が、その消息を絶ってから久しい。<br/><br/> その紅林氏が宗教団体を作って、毎日説教をしている、と聞いたので、ある日訪れてみた。<br/><br/> 玄関に続く十畳ほどの座敷が説教所、神殿も仏壇もなく、粗末な床の間に孔子の像が置かれている、来会者は二十名程、服装から察しても、社会の最低の線にようやく生きている気の毒な人々らしく想像される。<br/><br/> 主宰者紅林氏の顔を見るのは数年ぶりであるが、年相応の落着きがみえ、往昔の激しい反共戦線の闘士らしい面影は、熱を帯びたその説教にやや片鱗がうかがえるだけである。<br/><br/> 追放の憂目をみ、得意の政治活動が封じられてからは、その憂愁を郷里の畑を耕し、聖賢の思想を練る事によって、まぎらわしていた貴重な月日が、彼に内面的な深さを加えさせたのであろう。<br/><br/> 彼の宗教は、説教から想像して、孔子の道を現代に生かさん、とする事が、主旨のようである、論旨は、彼の経歴、思想を反映して宗教といわんよりは、反共理論の展開である。<br/><br/> 説き来り、論じ去る名調子には、弁論で過去の地位を築いた、彼の全貌が浮彫りされていて、私には感慨深いものがあった。<br/><br/> 後に続く説教者には、一日、一善を説く居士あり、バイブルを講義する人もあった、いずれも専門の教職者ではないが、己れの信ずる道を弘めんとする熱意に燃えての説教には、聴く者の心をうつ力が籠っていた、説教が終ると、座談会のような形式で、質疑がかわされる、その日は、宗教的な質問はなく、主宰者のカラーに染った特定の論議であった、その内、ここでも問題となったのは、「お光様」だ、聴衆の一人が、「お光様」を攻撃したが、その内容は、無智な信者から、金を取り、幹部が豪奢な生活をしている、と云うのである、この男の発言が他の者の共感を呼び、自分達も、その被害者の一人のような感じ方をして、その男の言葉に共鳴している。<br/><br/> 群衆心理の作用するところ、正義も正論も泥土に委だねられる許りである、私は心からの憤激を、その男に叩きつけたが、これは誰にも静められる事ではないであろう。<br/><br/> その悪口の根拠を追及したが、結局、新聞記事の鵜呑みでしかない、私が、その「お光様」の信者であると名乗り、世上に、色色と噂さされている「お光様」の実体は、その反対であり宗教に関心を寄せる程の者なら、救世主の出現を、歓呼の声を挙げて迎えるべきだ、と机を叩いて極論した。<br/><br/> もう誰も反駁を試みる者もなく、座は白けて仕舞い一人、二人と退席しはじめた、紅林氏に久闊を舒したが、私のことは全然、記憶していない、今の私には、かえって、その方が都合が良く、忘れられていた方が有難く思えた。<br/><br/> 話をしながら、彼は肩を叩き、首筋が張って痛い、と云う、早速、十五分ほど浄霊してやり、どうだ、楽になったろう、と訊くと、有難う、大変、楽になったと、礼を云った、それが、お浄め、という神霊療法だと説明すると、不思議そうな顔をしていた、（翌日礼状を寄込した） どうだ、これから一緒に宗教宣伝をやらんか、と云ってくれたが、水と油のように、どうしても一緒になれないものが感じられ、好意を謝して別れた。<br/><br/> 帰宅してみると、胸に懸げた筈のお守りが、柱にかかっている、胸に手をやってみると、それがない、お守りを懸け忘れてお浄めをしたのだった、それでも彼は楽になった、と礼を述べた、光明如来様の有難さが身に沁み徹るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

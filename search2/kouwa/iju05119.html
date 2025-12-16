@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju05119</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（五） 四肢、皮膚 疾患、毛髪 ７ 119-128 皮膚疾患３ 119 頸腺の腫物浄霊で膨る 私の妹（十八歳）、二十一年八月頃より左耳後 (ﾏﾏ) 腺の所に瘤が出来始め、浄霊を続けておりますが漸次大きくなり、現在凸凹の鶏卵大の固い瘤となり、触ると痛い程度です。<br><br>いかに変化しますでしょうか。<br><br>また、霊的でしょうか。<br><br> 霊的ではない。<br><br>腫れるだけ腫れ、極点に達すれば破れて排膿して治る。<br><br>相当日数がかかるが後は非常にいい。<br><br>紅くなると治るのが近づいたのである。<br><br>浄霊で早く大きくなる。<br><br>医者はこんな場合切る。<br><br>ちょっとでも切るとそこへ毒が集中しなくなる。<br><br>そして隣へ腫れてくる。<br><br>些（いささ）かも触れてはいけない。<br><br>お灸は害はないが、神様の最高美、玉の膚に傷をつける。<br><br>（S23.12.14） 120 胃病と口端の腫出物 胃の浄化の時、口の端に腫出物などの出来ますのはいかなるわけで御座居ますか。<br><br>御伺い申し上げます。<br><br> 胃とは関係ない。<br><br>口辺の腫物は大抵口中の粘膜より薬が滲み込むので、胃が悪いからでない。<br><br>（S23.10.19） 121 腫物と位牌の点 一月中旬御先祖の位牌をお祭り致しましたところ、最近六歳の子供のお尻に直径五寸位の腫物が出来ましたので、御浄霊致しましたが痛みは取れず、化膿する様子も御座いません。<br><br>全身に発疹が出来、熱も相当御座います。<br><br>どうすれば宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br>なお、先日新しい金箔の位牌（中村家先祖代々之霊位）の中央に親指状の墨をつけたような真黒な点が出来ました。<br><br>拭いても拭いても取れません。<br><br>同家は母親が一昨年自動車にはねられて死亡致しておりますし、先夫は同じく尻に梅毒性の腫物が出来て死亡致しましたが、離縁致していましたのでお祀り致しておりません。<br><br>このままで宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 腫物の出来る頃にそういう事が起ったので、偶然そういう風に思えたのである。<br><br>治り難いのは、霊が通らぬか霊力が足りぬかである。<br><br>点は金がハゲたのではないか。<br><br>（S25. 2.11） 122 腎臓部排膿・腰椎カリエスか 大先生、御守護御願い申し上げます。<br><br>夫小磯正司（五十四歳、未入信）は昭和二十三年四月腰椎カリエスとなりまして、同年五月腎臓部に自然排膿し始め、右下腹部は注射器にて膿を取っておりましたが、結果は一進一退にて色々と手当致しましたが捗々しくなく、昨年春より自宅療養致しておりましたが、昨年十二月十二日初めて御浄霊を頂き、同月十六日私が御守様を頂き、以来一日三回ずつ御浄霊させて頂いております。<br><br>御守護によりまして大変快方に向って参り、食事も普通食が戴けるようになりました。<br><br>なお、祖父（既に死亡）の弟が水死致しております。<br><br>何卒宜敷く、御守護御願い申し上げます。<br><br> 霊と関係ない。<br><br>カリエスでない。<br><br>内部のおデキで、病気保存法によってなったものである。<br><br>（S24. 1.28） 123 皮膚病の一種（魚鱗膚） 私は生れつき荒れ性で、医師は遺伝性の皮膚病と申します。<br><br>夏はさほどでもありませんが寒くなりますと全身がガサガサになり、丁度魚の鱗のように表膚が荒れ、皮がむけます。<br><br>自分の母もこの病気に罹っております。<br><br>この皮膚病は霊的でしょうか。<br><br>子供に伝染するでしょうか。<br><br>御伺い申します。<br><br> 伝染はしない。<br><br>内部の毒が皮膚へ出るので、そういう毒をもっているのである。<br><br> 祖先の中、特殊の毒を服んだものがあるので、母からの遺伝である。<br><br> 長くかかるが、浄霊しているうち段々治る。<br><br>（S24.11. 7） 124 荒れ性 昭和十九年に御光を戴きましたが、観音様の御力を知らされて本年七月から信仰に入り、御浄霊をしております。<br><br>私は生れつき荒れ性で、冬になりますと皮膚が非常に乾いて脂気がなくなります。<br><br>従って身体が軽く動かず、作業の能率は上らず、朝早く外出すると手足が冷えますので、暖めますと、手足の関節が切り取られる程の痛みがしばらく続きます。<br><br>兄も同じような状態ですが、どのように致したら治るでしょうか。<br><br> 信仰していれば段々治る。<br><br>（S24.11. 5） 125 鮫膚 サメハダ（皮膚が蛇皮の網目状に乾燥してカサカサになるもの）について―― 大抵生理的である。<br><br>蛇の網の目のようなのは滑っこい筈である。<br><br>毒素によるのである。<br><br>浄霊で治る。<br><br> 126 種痘後斑点生ず 種痘後直ちにその部分を水で洗って御浄霊頂いた人がありましたが、一時的に黒い小さな斑点が全身に出来たそうで御座います。<br><br>これは何で御座いましょうか。<br><br>御伺いさせて頂きます。<br><br> 小黒斑点（毒素）が出来るべき事が、種痘により刺戟されて出たものであろう。<br><br> 127 うるしかぶれ うるしの木を見ただけでかぶれるという人や、うるしの木の話をしただけでかぶれるという方もあるようでございますが、何か意味がございましょうか。<br><br>また、触ってかぶれるのは誘発のように思われますが、この事につき御教えを御願い申し上げます。<br><br> 特殊の毒があるからである。<br><br>（S24.10. 2） 128 赤面癖の原因 ひどい赤面癖の原因―― 濁血が顔へ始終来ているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte da Cura (V): Doenças dos Membros, da Pele e dos Cabelos – Doenças de Pele (3)</h2>
 <p><strong>119. Inchaço de um tumor na glândula do pescoço através do Johrei</strong></p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p><strong>128. A causa do rubor facial crônico</strong></p>
 <p><strong>Pergunta:</strong> Qual a causa do rubor facial crônico e intenso?</p>
 <p><strong>Resposta:</strong> É o fluxo constante de sangue impuro que se dirige à face.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（五） 四肢、皮膚 疾患、毛髪 ７ 119-128 皮膚疾患３ 119 頸腺の腫物浄霊で膨る 私の妹（十八歳）、二十一年八月頃より左耳後 (ﾏﾏ) 腺の所に瘤が出来始め、浄霊を続けておりますが漸次大きくなり、現在凸凹の鶏卵大の固い瘤となり、触ると痛い程度です。<br/><br/>いかに変化しますでしょうか。<br/><br/>また、霊的でしょうか。<br/><br/> 霊的ではない。<br/><br/>腫れるだけ腫れ、極点に達すれば破れて排膿して治る。<br/><br/>相当日数がかかるが後は非常にいい。<br/><br/>紅くなると治るのが近づいたのである。<br/><br/>浄霊で早く大きくなる。<br/><br/>医者はこんな場合切る。<br/><br/>ちょっとでも切るとそこへ毒が集中しなくなる。<br/><br/>そして隣へ腫れてくる。<br/><br/>些（いささ）かも触れてはいけない。<br/><br/>お灸は害はないが、神様の最高美、玉の膚に傷をつける。<br/><br/>（S23.12.14） 120 胃病と口端の腫出物 胃の浄化の時、口の端に腫出物などの出来ますのはいかなるわけで御座居ますか。<br/><br/>御伺い申し上げます。<br/><br/> 胃とは関係ない。<br/><br/>口辺の腫物は大抵口中の粘膜より薬が滲み込むので、胃が悪いからでない。<br/><br/>（S23.10.19） 121 腫物と位牌の点 一月中旬御先祖の位牌をお祭り致しましたところ、最近六歳の子供のお尻に直径五寸位の腫物が出来ましたので、御浄霊致しましたが痛みは取れず、化膿する様子も御座いません。<br/><br/>全身に発疹が出来、熱も相当御座います。<br/><br/>どうすれば宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/>なお、先日新しい金箔の位牌（中村家先祖代々之霊位）の中央に親指状の墨をつけたような真黒な点が出来ました。<br/><br/>拭いても拭いても取れません。<br/><br/>同家は母親が一昨年自動車にはねられて死亡致しておりますし、先夫は同じく尻に梅毒性の腫物が出来て死亡致しましたが、離縁致していましたのでお祀り致しておりません。<br/><br/>このままで宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 腫物の出来る頃にそういう事が起ったので、偶然そういう風に思えたのである。<br/><br/>治り難いのは、霊が通らぬか霊力が足りぬかである。<br/><br/>点は金がハゲたのではないか。<br/><br/>（S25. 2.11） 122 腎臓部排膿・腰椎カリエスか 大先生、御守護御願い申し上げます。<br/><br/>夫小磯正司（五十四歳、未入信）は昭和二十三年四月腰椎カリエスとなりまして、同年五月腎臓部に自然排膿し始め、右下腹部は注射器にて膿を取っておりましたが、結果は一進一退にて色々と手当致しましたが捗々しくなく、昨年春より自宅療養致しておりましたが、昨年十二月十二日初めて御浄霊を頂き、同月十六日私が御守様を頂き、以来一日三回ずつ御浄霊させて頂いております。<br/><br/>御守護によりまして大変快方に向って参り、食事も普通食が戴けるようになりました。<br/><br/>なお、祖父（既に死亡）の弟が水死致しております。<br/><br/>何卒宜敷く、御守護御願い申し上げます。<br/><br/> 霊と関係ない。<br/><br/>カリエスでない。<br/><br/>内部のおデキで、病気保存法によってなったものである。<br/><br/>（S24. 1.28） 123 皮膚病の一種（魚鱗膚） 私は生れつき荒れ性で、医師は遺伝性の皮膚病と申します。<br/><br/>夏はさほどでもありませんが寒くなりますと全身がガサガサになり、丁度魚の鱗のように表膚が荒れ、皮がむけます。<br/><br/>自分の母もこの病気に罹っております。<br/><br/>この皮膚病は霊的でしょうか。<br/><br/>子供に伝染するでしょうか。<br/><br/>御伺い申します。<br/><br/> 伝染はしない。<br/><br/>内部の毒が皮膚へ出るので、そういう毒をもっているのである。<br/><br/> 祖先の中、特殊の毒を服んだものがあるので、母からの遺伝である。<br/><br/> 長くかかるが、浄霊しているうち段々治る。<br/><br/>（S24.11. 7） 124 荒れ性 昭和十九年に御光を戴きましたが、観音様の御力を知らされて本年七月から信仰に入り、御浄霊をしております。<br/><br/>私は生れつき荒れ性で、冬になりますと皮膚が非常に乾いて脂気がなくなります。<br/><br/>従って身体が軽く動かず、作業の能率は上らず、朝早く外出すると手足が冷えますので、暖めますと、手足の関節が切り取られる程の痛みがしばらく続きます。<br/><br/>兄も同じような状態ですが、どのように致したら治るでしょうか。<br/><br/> 信仰していれば段々治る。<br/><br/>（S24.11. 5） 125 鮫膚 サメハダ（皮膚が蛇皮の網目状に乾燥してカサカサになるもの）について―― 大抵生理的である。<br/><br/>蛇の網の目のようなのは滑っこい筈である。<br/><br/>毒素によるのである。<br/><br/>浄霊で治る。<br/><br/> 126 種痘後斑点生ず 種痘後直ちにその部分を水で洗って御浄霊頂いた人がありましたが、一時的に黒い小さな斑点が全身に出来たそうで御座います。<br/><br/>これは何で御座いましょうか。<br/><br/>御伺いさせて頂きます。<br/><br/> 小黒斑点（毒素）が出来るべき事が、種痘により刺戟されて出たものであろう。<br/><br/> 127 うるしかぶれ うるしの木を見ただけでかぶれるという人や、うるしの木の話をしただけでかぶれるという方もあるようでございますが、何か意味がございましょうか。<br/><br/>また、触ってかぶれるのは誘発のように思われますが、この事につき御教えを御願い申し上げます。<br/><br/> 特殊の毒があるからである。<br/><br/>（S24.10. 2） 128 赤面癖の原因 ひどい赤面癖の原因―― 濁血が顔へ始終来ているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

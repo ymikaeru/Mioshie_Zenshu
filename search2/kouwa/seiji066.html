@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seiji066</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 政治、経済、社会篇 ４ 066-087 土地 066 大和と富山 大和（ヤマト）と富山（トヤマ）、いずれも売薬の産地です。<br><br>何か関係があるように考えられます。<br><br>右に付御教示願います。<br><br> ない事もない。<br><br>薬は先に観音様が奨められた。<br><br>薬師如来として元は奨められた。<br><br>夜の世界は溶かすより固める方が早かった。<br><br>それでそのようなものを作られ奨められた。<br><br>暗い時はローソクや電気をつけたりするが、昼間は不要である。<br><br>反って邪魔という事になる。<br><br>故にその理由があれば、大和、富山は関係があるかもしれぬ。<br><br> ヤマガトマル。<br><br>日本は山国で殆ど山ばかりとまる。<br><br> 067 丹後と端午 五月五日の端午の節句と申しますが、地上天国出現の折は、丹後に一大殿堂が建立されると承っておりますが、丹後地方は節句のお祝の非常に盛んな土地でございますが、文字は違いますが、言霊にて端午と丹後と同じなのは、霊的にいかなるわけがございましょうか。<br><br> いくらかはあるが大した事はない。<br><br>丹後に地上天国が出来るなど私は初耳である。<br><br> 丹波、丹後、但馬は一番平である。<br><br>そして交通も至便であるから開けるであろう。<br><br> しかし殿堂は出来ない。<br><br>（S25. 5. 8） 068 熱海地名の謂れ 熱海は体に属すると常々御伺い致しておりますが、いかなる意味によって熱海の地名が生れたのでしょうか。<br><br>くわしく御垂示御願い申し上げます。<br><br> 海に温泉があった。<br><br>昔から海からも沸いた。<br><br>今、陸の方へ上げてしまう。<br><br> 水は体である。<br><br> 日本は山の国故、ヤマトという。<br><br>（S24.12.28） 地名、大なる地は、地名と関係あり、小さい所の地名にはあまり関係ない。<br><br>（S23） 069 小田原付近の地名について (一) 県名に神の付く県が一つあります。<br><br>（神奈川県）これについて何等深い意義のあるものでしょうか。<br><br> (二) 左記略図の部落名に何等かの意義がありましょうか。<br><br> 記 一、尊仏山と言う山あり。<br><br> 一、玄倉、中川、世附の三部落の落合ったところに神縄村という村あり。<br><br> 一、この三部落より流れる川の下流が酒匂川となり、小田原に流れ出ております。<br><br> 一、また、右三部落の右手に彌勒寺と言う部落あり、この彌勒寺部落より流れ出る川も松田において酒匂川に合流しております。<br><br> 一、また、富士山の裾より流れ出る川も途中において右酒匂川に合流しております。<br><br> 神奈川―種々の原因がある。<br><br>そういう川があって付けたのか、宛字でつけたのかである。<br><br> 神社などで、神奈備宮などがある。<br><br>大して神秘はないと思うが、全然出鱈目でもない。<br><br>因縁とか意味がある。<br><br> 箱根の神山は、東と西の間にある。<br><br>それで神山荘と名づけた。<br><br>カ―は東、ミ―は西である。<br><br> 富士山は元、フヒであった。<br><br> 尊仏は、仏に因縁がある。<br><br>玄倉は、元の倉―豪族の倉があったのであろう。<br><br>世付は宛字、中川は、真中の川で、上下流の中間も中川である。<br><br>神縄は、シメでも作った村なのであろう。<br><br>酒匂は宛字で、酒造家でもあったのであろう。<br><br>彌勒寺は方々にある。<br><br>神社もある。<br><br>これは偉い僧が開いたんであろう。<br><br> 役の行者の、彌勒岩というのがある。<br><br>役の行者は、行者の第一人者で、今でも霊界で働いている。<br><br> 何かよほど因縁がある。<br><br>もっと時が経ってくると分る。<br><br> 不二山には、神秘がある。<br><br> 箱根、熱海、小田原。<br><br> 070 茨城県悪因縁ありや 茨城県は悪因縁の地と、よく承わります。<br><br>具体的御開示下さるよう御願い申し上げます。<br><br>また、日光、水戸、土浦はみろくに関係あるのでしょうか。<br><br> 悪因縁はない。<br><br>字で解釈したものと思う。<br><br>キリストが刑場へ曵かれた時、茨の冠をかぶったという事からであろう。<br><br> 日光は関係がある。<br><br> 071 彌勒という土地 群馬県に彌勒と言う土地と彌勒城跡と言うのがあります。<br><br>五六七大神様との御関係に付て御伺い致します。<br><br> 関係がある。<br><br>（群馬県多賀郡） 将来別院か何か出来る所で、よほど重大な所と思う。<br><br>坊さんか行者がその土地につけたものと思う。<br><br> 大峯山に彌勒という土地があり、役の行者がつけたらしい。<br><br>彼は従来の宗教家で一番偉いと思う。<br><br>（S23） 072 宝珠の地名 私の住所は岐阜県本巣郡文殊村にて、文殊菩薩の御本尊を祀った大亀寺と言う曹洞宗の寺があります。<br><br>近くに宝殊と言う部落がありますが、何か大きな宝物でも将来出そうな有意味な地名と思われます。<br><br>また文殊菩薩とも何か因縁でもありましょうか。<br><br>右お伺い致します。<br><br> 文殊菩薩との関係はない。<br><br>宝珠といっても宝の出るような事はない。<br><br>そういう形の石とか山があったのに、つけたものであろう。<br><br>（S24.12.25） 073 福井の土地柄 福井と言う土地柄について、あるいは「福」と言う字が地獄だと言う意味について御説明下さい。<br><br> 福徳というと縁起がいい。<br><br>地獄という事はない。<br><br>大本ではよく言っていたが、福は番頭という事で、鬼は国常立尊様だという。<br><br>（S24. 2.27） 074 動物名のつく土地 土地の名称で、頭文字に動物の名前のついている所は、霊的に何か意味がありますか。<br><br>私の村は熊切村と言うのであります。<br><br> 熊切とは、熊を切った事。<br><br>土地の名称はいろんな事でつく。<br><br> 075 浮島 私の隣村に昔から名勝大沼浮島稲荷神社があります。<br><br>その側に大きな沼があって、その小島が幾つにも切離れて水の上を自由自在に動き出します。<br><br>また不思議な事に白蛇が泳いでいるのを見る事も稀にあります。<br><br>島の動くのはどんな原因でしょうか。<br><br> 浮島はある。<br><br>木など生えている。<br><br>大した神秘などの意はない。<br><br>昔大木が倒れたりなどして浮いている。<br><br>そして苔が出来たり、草が生えたり、また流れたものが溜り、段々出来たものである。<br><br> 日光の奥には、湯の島の浮島がある。<br><br> 海の珊瑚礁などは、珊瑚にいろいろのものがクッ着いて、大きな島になるのである。<br><br> 076 城跡に絡わる諸疑問への御開示 私宅は栃木県城山村字田下という地で、金綱公の城跡があり、数年前宅地内に杉苗を植えた際、二鍬程掘ると八尺四方高さ一丈二尺の空洞があり、県考古学者にも判らず、また山林開墾の時、高さ一尺五寸、周り一尺の大谷石で作った瓢箪形の石、二、三十個掘り出しました。<br><br>近所では、私の宅地内より火の玉が出ると言っております。<br><br>先祖よりの伝えで私宅は金鋼公の二号妻が住んでいたそうです。<br><br>なおまた宅地内を掘れば金の茶釜が出ると、二、三の行者が言います。<br><br>私の宅は相当ないわれのある家と称せられますが、いかなるもので御座居ましょうか、御伺い申し上げます。<br><br> 空洞は古い時代、家具を入れたものであろう。<br><br>途中からそれを出したか。<br><br>戦争か何かで沢山の人の死んだ家来などの石碑のようなもの。<br><br>火の玉とは、どれか竜で―火の系統の竜神が土から上った。<br><br>よほど古い古墳のあった所で、四角い洞穴に棺があり、その中に貴重品があったかもしれない。<br><br>外へ出し、いいものは出したのであろう。<br><br>（S25. 1.16） 077 天狗の詫證文 （伊豆国伊東町、仏現寺の宝物、天狗の詫證文） これは私の父が噂をきき、現地にて種々調べてその実物も見、写真に撮して参りました。<br><br>伊東市仏現寺の宝物と称せられている天狗の詫証文で、この文字はこれ迄幾多の人々によって研究されたそうですが、どうしても解けない由、実在するものでしょうか。<br><br> 天狗はサシスセソの音故、明主様が御読みになれば、お判りと思う。<br><br>天狗が憑ると、百姓爺でもとても立派な字をかく。<br><br>やはり憑って、かいたんだと思う。<br><br>物質化する事もない事はない。<br><br> 078 伊吹山、雲仙山 伊吹山は大百足がいて、七巻き巻いたという。<br><br>薬草が大変ある。<br><br>昔は草根木皮を採りに行った。<br><br> 伊吹戸主様のお住居かもしれない。<br><br> 三重の雲仙山は、偉い仙人でもいたのであろう。<br><br>仙人のいた所に違いない。<br><br> 霊仙、神仙、人仙などある。<br><br> 079 奈良の水取の寒気 三月一日より二週間、奈良の水取りといわれて東大寺二月堂にて祭典があり、その間非常に寒くなり、祭典が終りますと暖くなるそうで御座いますが、何か意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 極古くは、龍神が働いたから、こういう事もあったろうが、季節的にこういう事があろう。<br><br>（S24. 3.11） 080 出雲社の紋入蛇 出雲大社の末社に龍神を祀った祠が御座いまして、秋に御祭りが御座いますが、その時に海から二、三匹の蛇が陸に上って参るそうで、その蛇の背中には金色で の出雲大社の紋が顕示されておりまして、蛇を捕えて大社へ持参すると神社からは褒賞があり、もしその蛇を殺した人は必ず生命が無いそうで御座います。<br><br>また同じ出雲の佐太神社でも同様の事があり、蛇の紋は黒色で、その神社の紋が見られる由で御座います。<br><br>これはどう解釈致しましたら宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> 素盞嗚尊が祀ってあるが、妻神の龍宮の乙姫は海の支配者であるが、今はそうでない。<br><br>乙姫は龍であるから蛇はその眷族で、乙姫の使である。<br><br>黒龍であるから黒紋が着いている。<br><br>金色の は他の蛇ではないという知らせである。<br><br>不思議に思うがあり得べき事である。<br><br>段々世の中が違ってくるからなくなってくる。<br><br>故に今はないであろう。<br><br>神様から止められる。<br><br>永く続くと。<br><br>（S24. 5.21） 081 出雲の龍蛇 毎年神無月、出雲の海岸に龍蛇と呼ばれる神社の紋章を有する長さ一尺ばかりの海蛇が上陸します。<br><br>これを捕えて、その紋章通りの神社へ納める風習が御座います。<br><br> この龍蛇は必ず一匹で、地方民からは龍宮からの神使と尊崇され、これを見つけて神社に届けた部落は例外なく大漁に恵まれる由です。<br><br>これは霊的にいかなる意味をもつので御座いましょうか。<br><br> 神無月は、素盞嗚尊が郷里へ帰る。<br><br>海蛇は毎年捕えると、三宝に載せ――。<br><br> 龍宮の乙姫、龍宮の眷族がお留守は危険があるから警戒する意味で行く。<br><br>（S25. 2. 3） 082 篠竹の枯れ（篠の意義） 栃木県河内郡絹島村下小倉部落全体の篠竹が全部、昨年の十二月頃よりかれて終いました。<br><br>他の竹はかれません。<br><br>なぜでしょうか。<br><br> 羽黒山（羽黒神社あり）の近くの篠竹の枯れるのは何か訳がある。<br><br> 皇室に関係がある。<br><br>その土地の霊界で何かある。<br><br>清和天皇時代あたりに、天皇に関係のある人で、地方に散った事がある。<br><br>そしてそこで死んでその土地の霊界にゐる。<br><br>その人達が霊界で堕ちる―という、篠竹はそんな意味のものである。<br><br> 篠は系統であるから、竹の系統という事になり、皇室の事になる。<br><br> 草木と人間とは、非常に関係のあるものである。<br><br>近江の唐崎の松の枯れたのも訳がある。<br><br>（S24.12.15） 083 七夜祝と災難 お産後お七夜の時、宇都宮地方の山の仕事をする男子が、この祝の品を飲食し仕事に登りますと、必ず災難があるそうで御座います。<br><br>何か訳が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 天狗の霊が子の生れた事に対し、面白くないという意味がある。<br><br> 子のない人が、天狗界へ入ったものだと思う。<br><br> 入信したものなら大丈夫で、長く続く訳はない。<br><br>（S24. 5.21） 084 他地よりの移住者に災あり 広島県深安郡御幸村、千田村の両村に限り、土地の名前で「片山病」と称する病気が流行しております。<br><br>この病気は他の土地から縁づいて来ると罹り、若人でも老人のように衰弱し死んでしまいます。<br><br>他の土地の人はこの村に入れないといって恐れられています。<br><br>医学では「日本住血吸虫病」とか申していますが、未だ不明で、村では土地や水中に石灰を撒いています。<br><br>最近は伝染病だと言って付近の村人が恐れています。<br><br>何かの因縁でしょうか。<br><br>御教示下さい。<br><br> 他の土地の人がそこへ入るのを嫌がる、頑固な博愛精神のない霊である。<br><br>こういう事は龍神が多い。<br><br>これも永く続くものではなく、許されぬ。<br><br>一時的である。<br><br> 根本的には、間違った事は永く続かぬものである。<br><br>（S24. 5.15） 085 阿闍梨の不思議（桜ケ池） 遠州の七不思議の一つで、桜ケ池（静岡県小笠郡佐倉村）阿闍梨上人入水の池に釣針を入れると、直ちに水が上ってきたり、またお池の鯉を食べた者は癩病になったり、種々の変死等をしておりますがいかなる理由で御座居ましょうか。<br><br>また池の深さを測ろうとした所、綱に石を付けて水中に垂れても切りがなく気味悪く測る事が出来得ず「底無し池」と言われております。<br><br>また春秋の二季の彼岸の御中日に「おひつ」を収める行事を行っておりますが、その空き「おひつ」が信州の諏訪湖及び伊豆の天城の池に浮いたと言われておりますが、いかなる理由で御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 阿闍梨は神通力があったという。<br><br>池へ潜んで龍神になっている。<br><br>池を汚されるのを非常に嫌がる。<br><br>鯉を食うと身体が汚くなって死んだり、池を計ろうとすると綱を引張って計らせぬ。<br><br>お櫃の事は疑問である。<br><br>要するに阿闍梨が龍神になって時を待ち、ミロク世になると人間に生れるのである。<br><br>（S24. 5.22） 086 遠州七不思議御座松信仰の老母 遠州七不思議の一つの御座松は、昔鹿に乗った別当がその松のところでたおれたとの伝説で御座いますが、一昨年入信致しました大石あいさん（四十歳）の祖母が熱心に御座松の信仰を続けておりますが、あいさんが入信と同時に離れに別居するようになり、あいさんには非常にやさしいそうで御座いますが、家族特に母に対しては、狂人的な扱いをするようになったそうで御座います。<br><br>先年あいさんの義妹が亡くなります時、霊がうき「われは御座松の霊である」と申したそうで御座いますが、その後、亡くなった義妹の着物の袖裏に、生前なかった鹿の模様が金箔でおしたように出ているそうで御座います。<br><br>御座松をお祀り致しますには別に家へお祀り致した方が宜しゅう御座いましょうか。<br><br>数町離れた御座松へ何か供養致した方が宜しゅう御座いましょうか。<br><br>お伺い申し上げます。<br><br> その霊の希望があるから、それを知る事である。<br><br> 光明如来様にお願いして知らして戴くとよい。<br><br>（S25. 3. 2） 087 御座松の怪 静岡県榛原郡川崎町細江に御座います遠州七不思議の一つの御座松付近の最近入信した大石あいさん（四十才）のお宅で、あいさんが入信した時から八十七才になる祖母が離れ座敷へ別居するようになりました。<br><br>と同時に今迄非常に健康な祖母が急に床につくようになり、御浄霊をして頂くと大変気分がいいと申しますが、日に増し衰弱致しております。<br><br>その祖母の娘が早死致しまして、その節「御座松のところへ行く」と遺言したそうで御座います。<br><br>祖母は娘のために観音像をつくり墓地におまつりしておりましたが、今年の四月僧侶に頼んで御座松の根元へ観音像をおまつり致しました。<br><br> 御座松は昔鹿に乗った別当が旅の途中その根元でたおれたとの伝説が御座います。<br><br>入信と共に同居しなくなり、病弱になりましたのは何か御座松や観音像と関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 霊的に複雑している。<br><br> 御座松の霊―その他全部関連がある。<br><br>今少しく経過をみよ。<br><br>はっきり判る。<br><br>解くのは時間がかかる。<br><br>（S24. 8.22）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Política, Economia e Sociedade, vol. 4: Territórios (066-087)</h2>
 <h3>066. Yamato e Toyama</h3>
@@ -395,5 +547,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 政治、経済、社会篇 ４ 066-087 土地 066 大和と富山 大和（ヤマト）と富山（トヤマ）、いずれも売薬の産地です。<br/><br/>何か関係があるように考えられます。<br/><br/>右に付御教示願います。<br/><br/> ない事もない。<br/><br/>薬は先に観音様が奨められた。<br/><br/>薬師如来として元は奨められた。<br/><br/>夜の世界は溶かすより固める方が早かった。<br/><br/>それでそのようなものを作られ奨められた。<br/><br/>暗い時はローソクや電気をつけたりするが、昼間は不要である。<br/><br/>反って邪魔という事になる。<br/><br/>故にその理由があれば、大和、富山は関係があるかもしれぬ。<br/><br/> ヤマガトマル。<br/><br/>日本は山国で殆ど山ばかりとまる。<br/><br/> 067 丹後と端午 五月五日の端午の節句と申しますが、地上天国出現の折は、丹後に一大殿堂が建立されると承っておりますが、丹後地方は節句のお祝の非常に盛んな土地でございますが、文字は違いますが、言霊にて端午と丹後と同じなのは、霊的にいかなるわけがございましょうか。<br/><br/> いくらかはあるが大した事はない。<br/><br/>丹後に地上天国が出来るなど私は初耳である。<br/><br/> 丹波、丹後、但馬は一番平である。<br/><br/>そして交通も至便であるから開けるであろう。<br/><br/> しかし殿堂は出来ない。<br/><br/>（S25. 5. 8） 068 熱海地名の謂れ 熱海は体に属すると常々御伺い致しておりますが、いかなる意味によって熱海の地名が生れたのでしょうか。<br/><br/>くわしく御垂示御願い申し上げます。<br/><br/> 海に温泉があった。<br/><br/>昔から海からも沸いた。<br/><br/>今、陸の方へ上げてしまう。<br/><br/> 水は体である。<br/><br/> 日本は山の国故、ヤマトという。<br/><br/>（S24.12.28） 地名、大なる地は、地名と関係あり、小さい所の地名にはあまり関係ない。<br/><br/>（S23） 069 小田原付近の地名について (一) 県名に神の付く県が一つあります。<br/><br/>（神奈川県）これについて何等深い意義のあるものでしょうか。<br/><br/> (二) 左記略図の部落名に何等かの意義がありましょうか。<br/><br/> 記 一、尊仏山と言う山あり。<br/><br/> 一、玄倉、中川、世附の三部落の落合ったところに神縄村という村あり。<br/><br/> 一、この三部落より流れる川の下流が酒匂川となり、小田原に流れ出ております。<br/><br/> 一、また、右三部落の右手に彌勒寺と言う部落あり、この彌勒寺部落より流れ出る川も松田において酒匂川に合流しております。<br/><br/> 一、また、富士山の裾より流れ出る川も途中において右酒匂川に合流しております。<br/><br/> 神奈川―種々の原因がある。<br/><br/>そういう川があって付けたのか、宛字でつけたのかである。<br/><br/> 神社などで、神奈備宮などがある。<br/><br/>大して神秘はないと思うが、全然出鱈目でもない。<br/><br/>因縁とか意味がある。<br/><br/> 箱根の神山は、東と西の間にある。<br/><br/>それで神山荘と名づけた。<br/><br/>カ―は東、ミ―は西である。<br/><br/> 富士山は元、フヒであった。<br/><br/> 尊仏は、仏に因縁がある。<br/><br/>玄倉は、元の倉―豪族の倉があったのであろう。<br/><br/>世付は宛字、中川は、真中の川で、上下流の中間も中川である。<br/><br/>神縄は、シメでも作った村なのであろう。<br/><br/>酒匂は宛字で、酒造家でもあったのであろう。<br/><br/>彌勒寺は方々にある。<br/><br/>神社もある。<br/><br/>これは偉い僧が開いたんであろう。<br/><br/> 役の行者の、彌勒岩というのがある。<br/><br/>役の行者は、行者の第一人者で、今でも霊界で働いている。<br/><br/> 何かよほど因縁がある。<br/><br/>もっと時が経ってくると分る。<br/><br/> 不二山には、神秘がある。<br/><br/> 箱根、熱海、小田原。<br/><br/> 070 茨城県悪因縁ありや 茨城県は悪因縁の地と、よく承わります。<br/><br/>具体的御開示下さるよう御願い申し上げます。<br/><br/>また、日光、水戸、土浦はみろくに関係あるのでしょうか。<br/><br/> 悪因縁はない。<br/><br/>字で解釈したものと思う。<br/><br/>キリストが刑場へ曵かれた時、茨の冠をかぶったという事からであろう。<br/><br/> 日光は関係がある。<br/><br/> 071 彌勒という土地 群馬県に彌勒と言う土地と彌勒城跡と言うのがあります。<br/><br/>五六七大神様との御関係に付て御伺い致します。<br/><br/> 関係がある。<br/><br/>（群馬県多賀郡） 将来別院か何か出来る所で、よほど重大な所と思う。<br/><br/>坊さんか行者がその土地につけたものと思う。<br/><br/> 大峯山に彌勒という土地があり、役の行者がつけたらしい。<br/><br/>彼は従来の宗教家で一番偉いと思う。<br/><br/>（S23） 072 宝珠の地名 私の住所は岐阜県本巣郡文殊村にて、文殊菩薩の御本尊を祀った大亀寺と言う曹洞宗の寺があります。<br/><br/>近くに宝殊と言う部落がありますが、何か大きな宝物でも将来出そうな有意味な地名と思われます。<br/><br/>また文殊菩薩とも何か因縁でもありましょうか。<br/><br/>右お伺い致します。<br/><br/> 文殊菩薩との関係はない。<br/><br/>宝珠といっても宝の出るような事はない。<br/><br/>そういう形の石とか山があったのに、つけたものであろう。<br/><br/>（S24.12.25） 073 福井の土地柄 福井と言う土地柄について、あるいは「福」と言う字が地獄だと言う意味について御説明下さい。<br/><br/> 福徳というと縁起がいい。<br/><br/>地獄という事はない。<br/><br/>大本ではよく言っていたが、福は番頭という事で、鬼は国常立尊様だという。<br/><br/>（S24. 2.27） 074 動物名のつく土地 土地の名称で、頭文字に動物の名前のついている所は、霊的に何か意味がありますか。<br/><br/>私の村は熊切村と言うのであります。<br/><br/> 熊切とは、熊を切った事。<br/><br/>土地の名称はいろんな事でつく。<br/><br/> 075 浮島 私の隣村に昔から名勝大沼浮島稲荷神社があります。<br/><br/>その側に大きな沼があって、その小島が幾つにも切離れて水の上を自由自在に動き出します。<br/><br/>また不思議な事に白蛇が泳いでいるのを見る事も稀にあります。<br/><br/>島の動くのはどんな原因でしょうか。<br/><br/> 浮島はある。<br/><br/>木など生えている。<br/><br/>大した神秘などの意はない。<br/><br/>昔大木が倒れたりなどして浮いている。<br/><br/>そして苔が出来たり、草が生えたり、また流れたものが溜り、段々出来たものである。<br/><br/> 日光の奥には、湯の島の浮島がある。<br/><br/> 海の珊瑚礁などは、珊瑚にいろいろのものがクッ着いて、大きな島になるのである。<br/><br/> 076 城跡に絡わる諸疑問への御開示 私宅は栃木県城山村字田下という地で、金綱公の城跡があり、数年前宅地内に杉苗を植えた際、二鍬程掘ると八尺四方高さ一丈二尺の空洞があり、県考古学者にも判らず、また山林開墾の時、高さ一尺五寸、周り一尺の大谷石で作った瓢箪形の石、二、三十個掘り出しました。<br/><br/>近所では、私の宅地内より火の玉が出ると言っております。<br/><br/>先祖よりの伝えで私宅は金鋼公の二号妻が住んでいたそうです。<br/><br/>なおまた宅地内を掘れば金の茶釜が出ると、二、三の行者が言います。<br/><br/>私の宅は相当ないわれのある家と称せられますが、いかなるもので御座居ましょうか、御伺い申し上げます。<br/><br/> 空洞は古い時代、家具を入れたものであろう。<br/><br/>途中からそれを出したか。<br/><br/>戦争か何かで沢山の人の死んだ家来などの石碑のようなもの。<br/><br/>火の玉とは、どれか竜で―火の系統の竜神が土から上った。<br/><br/>よほど古い古墳のあった所で、四角い洞穴に棺があり、その中に貴重品があったかもしれない。<br/><br/>外へ出し、いいものは出したのであろう。<br/><br/>（S25. 1.16） 077 天狗の詫證文 （伊豆国伊東町、仏現寺の宝物、天狗の詫證文） これは私の父が噂をきき、現地にて種々調べてその実物も見、写真に撮して参りました。<br/><br/>伊東市仏現寺の宝物と称せられている天狗の詫証文で、この文字はこれ迄幾多の人々によって研究されたそうですが、どうしても解けない由、実在するものでしょうか。<br/><br/> 天狗はサシスセソの音故、明主様が御読みになれば、お判りと思う。<br/><br/>天狗が憑ると、百姓爺でもとても立派な字をかく。<br/><br/>やはり憑って、かいたんだと思う。<br/><br/>物質化する事もない事はない。<br/><br/> 078 伊吹山、雲仙山 伊吹山は大百足がいて、七巻き巻いたという。<br/><br/>薬草が大変ある。<br/><br/>昔は草根木皮を採りに行った。<br/><br/> 伊吹戸主様のお住居かもしれない。<br/><br/> 三重の雲仙山は、偉い仙人でもいたのであろう。<br/><br/>仙人のいた所に違いない。<br/><br/> 霊仙、神仙、人仙などある。<br/><br/> 079 奈良の水取の寒気 三月一日より二週間、奈良の水取りといわれて東大寺二月堂にて祭典があり、その間非常に寒くなり、祭典が終りますと暖くなるそうで御座いますが、何か意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 極古くは、龍神が働いたから、こういう事もあったろうが、季節的にこういう事があろう。<br/><br/>（S24. 3.11） 080 出雲社の紋入蛇 出雲大社の末社に龍神を祀った祠が御座いまして、秋に御祭りが御座いますが、その時に海から二、三匹の蛇が陸に上って参るそうで、その蛇の背中には金色で の出雲大社の紋が顕示されておりまして、蛇を捕えて大社へ持参すると神社からは褒賞があり、もしその蛇を殺した人は必ず生命が無いそうで御座います。<br/><br/>また同じ出雲の佐太神社でも同様の事があり、蛇の紋は黒色で、その神社の紋が見られる由で御座います。<br/><br/>これはどう解釈致しましたら宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 素盞嗚尊が祀ってあるが、妻神の龍宮の乙姫は海の支配者であるが、今はそうでない。<br/><br/>乙姫は龍であるから蛇はその眷族で、乙姫の使である。<br/><br/>黒龍であるから黒紋が着いている。<br/><br/>金色の は他の蛇ではないという知らせである。<br/><br/>不思議に思うがあり得べき事である。<br/><br/>段々世の中が違ってくるからなくなってくる。<br/><br/>故に今はないであろう。<br/><br/>神様から止められる。<br/><br/>永く続くと。<br/><br/>（S24. 5.21） 081 出雲の龍蛇 毎年神無月、出雲の海岸に龍蛇と呼ばれる神社の紋章を有する長さ一尺ばかりの海蛇が上陸します。<br/><br/>これを捕えて、その紋章通りの神社へ納める風習が御座います。<br/><br/> この龍蛇は必ず一匹で、地方民からは龍宮からの神使と尊崇され、これを見つけて神社に届けた部落は例外なく大漁に恵まれる由です。<br/><br/>これは霊的にいかなる意味をもつので御座いましょうか。<br/><br/> 神無月は、素盞嗚尊が郷里へ帰る。<br/><br/>海蛇は毎年捕えると、三宝に載せ――。<br/><br/> 龍宮の乙姫、龍宮の眷族がお留守は危険があるから警戒する意味で行く。<br/><br/>（S25. 2. 3） 082 篠竹の枯れ（篠の意義） 栃木県河内郡絹島村下小倉部落全体の篠竹が全部、昨年の十二月頃よりかれて終いました。<br/><br/>他の竹はかれません。<br/><br/>なぜでしょうか。<br/><br/> 羽黒山（羽黒神社あり）の近くの篠竹の枯れるのは何か訳がある。<br/><br/> 皇室に関係がある。<br/><br/>その土地の霊界で何かある。<br/><br/>清和天皇時代あたりに、天皇に関係のある人で、地方に散った事がある。<br/><br/>そしてそこで死んでその土地の霊界にゐる。<br/><br/>その人達が霊界で堕ちる―という、篠竹はそんな意味のものである。<br/><br/> 篠は系統であるから、竹の系統という事になり、皇室の事になる。<br/><br/> 草木と人間とは、非常に関係のあるものである。<br/><br/>近江の唐崎の松の枯れたのも訳がある。<br/><br/>（S24.12.15） 083 七夜祝と災難 お産後お七夜の時、宇都宮地方の山の仕事をする男子が、この祝の品を飲食し仕事に登りますと、必ず災難があるそうで御座います。<br/><br/>何か訳が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 天狗の霊が子の生れた事に対し、面白くないという意味がある。<br/><br/> 子のない人が、天狗界へ入ったものだと思う。<br/><br/> 入信したものなら大丈夫で、長く続く訳はない。<br/><br/>（S24. 5.21） 084 他地よりの移住者に災あり 広島県深安郡御幸村、千田村の両村に限り、土地の名前で「片山病」と称する病気が流行しております。<br/><br/>この病気は他の土地から縁づいて来ると罹り、若人でも老人のように衰弱し死んでしまいます。<br/><br/>他の土地の人はこの村に入れないといって恐れられています。<br/><br/>医学では「日本住血吸虫病」とか申していますが、未だ不明で、村では土地や水中に石灰を撒いています。<br/><br/>最近は伝染病だと言って付近の村人が恐れています。<br/><br/>何かの因縁でしょうか。<br/><br/>御教示下さい。<br/><br/> 他の土地の人がそこへ入るのを嫌がる、頑固な博愛精神のない霊である。<br/><br/>こういう事は龍神が多い。<br/><br/>これも永く続くものではなく、許されぬ。<br/><br/>一時的である。<br/><br/> 根本的には、間違った事は永く続かぬものである。<br/><br/>（S24. 5.15） 085 阿闍梨の不思議（桜ケ池） 遠州の七不思議の一つで、桜ケ池（静岡県小笠郡佐倉村）阿闍梨上人入水の池に釣針を入れると、直ちに水が上ってきたり、またお池の鯉を食べた者は癩病になったり、種々の変死等をしておりますがいかなる理由で御座居ましょうか。<br/><br/>また池の深さを測ろうとした所、綱に石を付けて水中に垂れても切りがなく気味悪く測る事が出来得ず「底無し池」と言われております。<br/><br/>また春秋の二季の彼岸の御中日に「おひつ」を収める行事を行っておりますが、その空き「おひつ」が信州の諏訪湖及び伊豆の天城の池に浮いたと言われておりますが、いかなる理由で御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 阿闍梨は神通力があったという。<br/><br/>池へ潜んで龍神になっている。<br/><br/>池を汚されるのを非常に嫌がる。<br/><br/>鯉を食うと身体が汚くなって死んだり、池を計ろうとすると綱を引張って計らせぬ。<br/><br/>お櫃の事は疑問である。<br/><br/>要するに阿闍梨が龍神になって時を待ち、ミロク世になると人間に生れるのである。<br/><br/>（S24. 5.22） 086 遠州七不思議御座松信仰の老母 遠州七不思議の一つの御座松は、昔鹿に乗った別当がその松のところでたおれたとの伝説で御座いますが、一昨年入信致しました大石あいさん（四十歳）の祖母が熱心に御座松の信仰を続けておりますが、あいさんが入信と同時に離れに別居するようになり、あいさんには非常にやさしいそうで御座いますが、家族特に母に対しては、狂人的な扱いをするようになったそうで御座います。<br/><br/>先年あいさんの義妹が亡くなります時、霊がうき「われは御座松の霊である」と申したそうで御座いますが、その後、亡くなった義妹の着物の袖裏に、生前なかった鹿の模様が金箔でおしたように出ているそうで御座います。<br/><br/>御座松をお祀り致しますには別に家へお祀り致した方が宜しゅう御座いましょうか。<br/><br/>数町離れた御座松へ何か供養致した方が宜しゅう御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> その霊の希望があるから、それを知る事である。<br/><br/> 光明如来様にお願いして知らして戴くとよい。<br/><br/>（S25. 3. 2） 087 御座松の怪 静岡県榛原郡川崎町細江に御座います遠州七不思議の一つの御座松付近の最近入信した大石あいさん（四十才）のお宅で、あいさんが入信した時から八十七才になる祖母が離れ座敷へ別居するようになりました。<br/><br/>と同時に今迄非常に健康な祖母が急に床につくようになり、御浄霊をして頂くと大変気分がいいと申しますが、日に増し衰弱致しております。<br/><br/>その祖母の娘が早死致しまして、その節「御座松のところへ行く」と遺言したそうで御座います。<br/><br/>祖母は娘のために観音像をつくり墓地におまつりしておりましたが、今年の四月僧侶に頼んで御座松の根元へ観音像をおまつり致しました。<br/><br/> 御座松は昔鹿に乗った別当が旅の途中その根元でたおれたとの伝説が御座います。<br/><br/>入信と共に同居しなくなり、病弱になりましたのは何か御座松や観音像と関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊的に複雑している。<br/><br/> 御座松の霊―その他全部関連がある。<br/><br/>今少しく経過をみよ。<br/><br/>はっきり判る。<br/><br/>解くのは時間がかかる。<br/><br/>（S24. 8.22）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

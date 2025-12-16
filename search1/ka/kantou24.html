@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kantou24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国24号) 『地上天国』24号、昭和26(1951)年5月25日発行 この欄は、いつも時局の事ばかりかいているから、本号は別の事をかいてみよう。<br><br>昨年アノ事件後、私は散花結実であるといったが、その後月日が経つにつれて、その形が如実に顕われて来た。<br><br>すなわち近頃本教を理解する人々が増えると共に、新しい信者も月々に殖えるようになって来た。<br><br>特に智識階級方面の人が大分従来の誤った認識を、改めて来たように見えるのは最近の週刊朝日から頼まれた、私と夢声氏との対談を載せた事によってみても判るが、その他の言論機関にも、ボツボツ見かけるこの頃である。<br><br> しかし、右は別に取立てていう程の事もないが、本当から言えば、本教程画期的偉大な宗教は、いまだかつてないのだから、内容が少しでも分るにつれて発展するのは当然である。<br><br>こういう事を第三者からみると、恐ろしく自惚（うぬぼ）れているように思うであろうが、私としてはありのまま正直にかいたまでである。<br><br>これにつけても考える事は、本教に実地に触れないで、ただ世間の噂話や新聞雑誌のデマなどを信じて、何だメシヤ教の奴、大きな事をぬかすが、ヤッパリ当世流行のアプレゲール的、○○○や○○信仰と同列なものであろうと、決めてしまうその諦めのいい事である。<br><br>こういう人達を解らせるには、随分骨が折れると思うかも知れないが、そう思うのは実は神様抜きに判断するからである。<br><br> 世界人類を救い、病貧争絶無の地上天国を御造りになると宣言なさる、ドエライ神様の事だから、その通り実現するのは絶対間違いないのである。<br><br>しかし物には順序がある。<br><br>順序は神也（かみなり）であるから、例えば果物が生（な）っても、急には大きくならない、月日を経、雨風に当って、段々大きく美味（うま）いものになる。<br><br>また寒さに慄（ふる）え、雪霜を凌（しの）いでこそ、春が来れば四方に匂う梅花が開くのである。<br><br>これが天地自然の理法であるとしたら、いくら立派な本教でも、時を待たなければ、花は咲かないのである。<br><br> その代り、時来れば、全人類ことごとくが歓喜の声を放って、地上天国建設に協力するであろう事も、一点の疑ないところである。<br><br>従ってこの夢を楽しみつつ、今は黙々として、救いの業に精進していればいいのである。<br><br> (注) アプレゲール 戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Flor que Desabrocha a Seu Tempo</h2>
 <p>Tenho por hábito discorrer nesta coluna sobre os acontecimentos do nosso tempo; todavia, nesta edição, permitam-me tratar de um tema distinto. No ano passado, após aquele conhecido incidente, afirmei que estávamos no processo de dispersão das flores que precede a frutificação. Com o passar dos meses, essa realidade manifestou-se de forma cada vez mais nítida. Com efeito, tem aumentado o número de pessoas que compreendem nossos ensinamentos, ao mesmo tempo que o de novos fiéis cresce a cada mês.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Isso me leva a refletir sobre a resignação apressada com que muitos julgam nossa Obra. Sem qualquer contato real com nossos ensinamentos, eles se fiam em boatos e calúnias da imprensa, concluindo de antemão que a Igreja Messiânica, apesar de suas grandes declarações, não passa de mais um modismo do pós-guerra, equiparável a outras crenças superficiais. Poder-se-ia supor que é uma tarefa árdua fazer com que essas pessoas compreendam a verdade; contudo, tal pensamento decorre de um julgamento que desconsidera a presença de Deus.</p>
 <p>Trata-se de um Deus magnânimo, que declarou Sua Vontade de salvar toda a humanidade e edificar um Paraíso Terrestre isento de doença, pobreza e conflito. Não há, portanto, a menor dúvida de que Seu desígnio se concretizará fielmente. Contudo, todas as coisas seguem uma ordem, e a ordem é divina. Um fruto, por exemplo, não amadurece de súbito; ele necessita da passagem do tempo, da exposição à chuva e ao vento para, gradualmente, tornar-se grande e saboroso. Da mesma forma, é somente após tremer ao frio e suportar a neve e a geada que as flores da ameixeira desabrocham na primavera, espalhando seu perfume por toda parte. Se essa é a Lei que rege o Céu, a Terra e a Natureza, por mais sublimes que sejam nossos ensinamentos, suas flores não desabrocharão antes que o tempo determinado chegue.</p>
 <p>Em contrapartida, quando esse tempo chegar, toda a humanidade, sem exceção, erguerá vozes de júbilo e colaborará na construção do Paraíso Terrestre. Disso, tampouco resta qualquer dúvida. Sendo assim, enquanto aguardamos com alegria a realização desse sonho, basta que, por ora, nos dediquemos silenciosa e diligentemente à Obra da Salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国24号) 『地上天国』24号、昭和26(1951)年5月25日発行 この欄は、いつも時局の事ばかりかいているから、本号は別の事をかいてみよう。<br/><br/>昨年アノ事件後、私は散花結実であるといったが、その後月日が経つにつれて、その形が如実に顕われて来た。<br/><br/>すなわち近頃本教を理解する人々が増えると共に、新しい信者も月々に殖えるようになって来た。<br/><br/>特に智識階級方面の人が大分従来の誤った認識を、改めて来たように見えるのは最近の週刊朝日から頼まれた、私と夢声氏との対談を載せた事によってみても判るが、その他の言論機関にも、ボツボツ見かけるこの頃である。<br/><br/> しかし、右は別に取立てていう程の事もないが、本当から言えば、本教程画期的偉大な宗教は、いまだかつてないのだから、内容が少しでも分るにつれて発展するのは当然である。<br/><br/>こういう事を第三者からみると、恐ろしく自惚（うぬぼ）れているように思うであろうが、私としてはありのまま正直にかいたまでである。<br/><br/>これにつけても考える事は、本教に実地に触れないで、ただ世間の噂話や新聞雑誌のデマなどを信じて、何だメシヤ教の奴、大きな事をぬかすが、ヤッパリ当世流行のアプレゲール的、○○○や○○信仰と同列なものであろうと、決めてしまうその諦めのいい事である。<br/><br/>こういう人達を解らせるには、随分骨が折れると思うかも知れないが、そう思うのは実は神様抜きに判断するからである。<br/><br/> 世界人類を救い、病貧争絶無の地上天国を御造りになると宣言なさる、ドエライ神様の事だから、その通り実現するのは絶対間違いないのである。<br/><br/>しかし物には順序がある。<br/><br/>順序は神也（かみなり）であるから、例えば果物が生（な）っても、急には大きくならない、月日を経、雨風に当って、段々大きく美味（うま）いものになる。<br/><br/>また寒さに慄（ふる）え、雪霜を凌（しの）いでこそ、春が来れば四方に匂う梅花が開くのである。<br/><br/>これが天地自然の理法であるとしたら、いくら立派な本教でも、時を待たなければ、花は咲かないのである。<br/><br/> その代り、時来れば、全人類ことごとくが歓喜の声を放って、地上天国建設に協力するであろう事も、一点の疑ないところである。<br/><br/>従ってこの夢を楽しみつつ、今は黙々として、救いの業に精進していればいいのである。<br/><br/> (注) アプレゲール 戦後派。<br/><br/>第一次大戦後、フランスなどに興った芸術上の新傾向。<br/><br/>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280607</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月7日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月七日 今日はおもしろい奇蹟がありました。<br><br>さっきこの人が、今日の参拝の人数を報告に来たのですが、その時に五六七名というのです。<br><br>私はいつもそういう数字が出るとよいと思ったが、今までそういうことは一度もないのです。<br><br>それが今日に限って五六七名というのです。<br><br>その数字が言葉に出た以上は、その後は増えてもかまわないので、五六八でもよいのです。<br><br>ところが今日その数字が出るところに意味があるのです。<br><br>というのは、今度の六月十五日は箱根地上天国の完成記念祭です。<br><br>ですからここは、つまり地上天国の模型ができたわけです。<br><br>それで地上天国というのはミロクの世ですから、今日、ミロクの数字が出るということは、それに関連した、たいへんな意味になるわけです。<br><br>それで十五日の意味の原稿を昨夜書いたのですが、それは十五日に読ませますけれども、大体の意味は、まず地上天国の模型がここにできたとすれば、これからそれが左進右退によって、だんだん拡がって行くのです。<br><br>これはいつも言うとおり、「ゴーラ」の「ゴ」というのは「火」です。<br><br>「ラ」というのは「螺旋（らせん）」といって「まわること」です。<br><br>それで左進右退にまわっているのです。<br><br>それで左進右退にまわるのは拡がることです。<br><br>右進左退はすぼまることです。<br><br>だから「ゴ」「霊」で、霊的に拡がって行くというわけです。<br><br>霊主体従ですから、霊が先です。<br><br>ここが先に拡がり出して、体的には熱海ですが、熱海はもう少しですが、とにかくこの十五日からミロクの世になるわけです。<br><br>もっともこれは小さい型ですが、やがてだんだん拡がって行くわけです。<br><br>ですからそうなると、今度は浄化作用がまた本格的になりますから、凄いことになります。<br><br>だから間違ったことは全部訂正されてゆくわけです。<br><br>その代わり人間でも、善は残り悪は滅びるということになります。<br><br>これが本当の立て替え立て直しというわけです。<br><br>今日はこの話はしないわけだったので、十五日にするつもりだったのですが、今日の人数の数字が出たので、もう話をしてもよいわけなので簡単にお話ししたのです。<br><br>ですから十五日というのは非常にめでたい日なのです。<br><br>これは世界の紀元節というわけです。<br><br>それで、それについてというか、関連して、一昨日からこの原稿を読んでいるのですが、もうその時期になったわけです。<br><br>そのためにこういう原稿ができたのですが、よほど重要な意味があります。<br><br> （御論文「最後の審判とは何か」）【栄光 二一三号】 つまり神様の方が激しくなるわけです。<br><br>大本教のお筆先に「神激しくなれば、人民穏やかになるぞよ」というのがありますが、なかなかうまく言ってあります。<br><br>そういうようなわけで、曖昧であったのがはっきりしてくるというわけです。<br><br>だから分かる人は救われる人で、分からない人は滅びる人と、こういう具合にだんだん決まってくるのです。<br><br>ところが分からない人の、滅びる方がずっと多いのです。<br><br>ですからどんな人でも救われると思う人が、今までは大部分でしたが、そうではないので、救われる人の方が少ないのです。<br><br>ですから救ってやりたい救ってやりたいと、こっちで思っていても駄目な人は駄目なので、諦めるということが肝腎です。<br><br>それでミロクの世というすばらしい世の中ですから、あんまり汚い、わけの分からない人間は、かえって邪魔になるわけです。<br><br>神様の方では人口を増やすのは、なんでもないのです。<br><br>今でも増え過ぎて困るのです。<br><br>ですから倍くらいにするのは、なんでもないのです。<br><br>また、将来その方が有利です。<br><br>捨てられて滅びる人は実にかわいそうなものですが、これはどうもしかたがありません。<br><br>ですから、その点をよく心得ておくべきです。<br><br>これはいつも言うとおり、今度の御神業は、人がやるのでなくて、神様がやるのですから、骨を折らなくてできる御神業です。<br><br>ですから骨の折れるような難しいことは避けた方がよいです。<br><br>楽にスラスラと行くことだけをやればよいのです。<br><br>だからかえって楽で非常によいです。<br><br>そこが天国を造る宗教としての、かなったやり方になるわけです。<br><br>今までは地獄の中で天国を造ろうとするのですからして、まだまだ天国を造る時が来てないのです。<br><br>地獄の中で天国を造るのだから、苦心惨憺して非常に骨が折れるのです。<br><br>人間はそういうのを長い間見てきましたから、どうしても苦しむことがよいように、つい思うのです。<br><br>だから今言ったようなことを本当に意識するには、なかなか骨が折れますが、その点はよく気がつくように心掛けていなくてはいけません。<br><br> だから美術館や庭やなにかが早くできたので、信者でない人などが、これほどにするには随分苦心しただろうと言いますが、実は少しも苦心もなにもしないのです。<br><br>楽過ぎるくらいなにも考えないで、その都度、気の向いた時にちょっと指図するくらいで、それでチャンとできてしまうのです。<br><br>やはり苦心して造ったものは、それを見た感じは、やはりその苦心が移りますから、あんまり楽しい良い気持ちはしないものなのです。<br><br>こういうことも今まではみんな知らなかったのです。<br><br>私は展覧会などに行って、いろんな絵を見ますが、非常に嫌な感じがします。<br><br>というのは、どうかパスされようとして苦心惨憺するのですが、その苦心がチャンと絵に現われているのです。<br><br>ですからそれから受ける感じは、作者の苦心がこっちに来ますから、少しも良い気持ちはしません。<br><br>楽しみ楽しみやった良い作品は、それがやはり移りますから、見ていて楽しい良い気持ちがします。<br><br>そういうことも世間にある美術館の人などは知らないのです。<br><br>要するに霊的智識がないので、形だけに囚われているからです。<br><br>根気良く苦心惨憺して作った物が良いというように思うのです。<br><br>そこに今までの考え方とよほど違う点があります。<br><br> ですからミロクの世というものは、地獄の世界を天国にするのですから、まあ人類肇（はじま）まって以来の大革命です。<br><br>これほど大きな革命はないとともに、これほど楽にできる革命はありません。<br><br>無血革命ということを言うが、無血革命というのは争闘をしない意味ですが、そんなものではないのです。<br><br>無血革命でなくて、もっとも楽にできる革命だからして天国的革命とでも言いますか、そういうようなわけです。<br><br>それが十五日を契機として、だんだんそうなってくるのです。<br><br>それが霊主体従の法則によって霊界の方がそういうようになってきます。<br><br>ですから物質界、現界の方にそのとおりに映って行くというわけです。<br><br>だからその点においては、傍観していてもよいくらいです。<br><br>ただ神様から与えられた仕事をすればよいわけです。<br><br>ぶっつけられた仕事をすればよいわけです。<br><br>だからその点において、あんまり人間の智慧や考えは出さない方がよいです。<br><br>たとえば病人が来ますが、この病人を救えばこういうふうになるだろうとか、そういうことは考えない方がよいです。<br><br>ぶつかってきた人は救えということなんだから、それはやればよいです。<br><br>それから嫌ったりする人は、これは神様はお助けにならない人だと考えて、追いかけたりしない方がよいです。<br><br>その方が楽に行きます。<br><br>それを人間的考え方で、「この人を救えばたいへん発展する、信者がたくさんできる」ということをよく考えますが、それがいけないのです。<br><br>人間には分かるわけがないのです。<br><br>ですから「こんなつまらない人が」というのがあんがい役に立ったり、「この人は」と思う人が駄目だったりします。<br><br>それは人間と神様の考えの違うところです。<br><br> それから四日にラジオの「社会の窓」でだいぶでたらめを言いましたが、だんだん救世教が発展するに従って邪神界の方はたいへんなのです。<br><br>大恐慌を来しているのです。<br><br>どうせ邪神の方では、自分の方は駄目ということは分かっているのですが、一日でも寿命を延ばしたいというので足掻（あが）いているのです。<br><br>最後の足掻きです。<br><br>それで以前は大新聞などを大いに動かしてさんざん悪口言ったり、いろいろしましたが、これでも駄目なのです。<br><br>それから役人を動かして、救世教をやっつけてやろうという裁判の事件ですが、これでもやっつけられないので、今度はラジオを使ったわけです。<br><br>これでもう他には使う道具がないから、おしまいでしょう。<br><br>それで今度の問題は九州の鹿児島県ですが、九州は西ですからもうおしまいなのです。<br><br>「西の海へ捨ててしまう」というようなことをよく言います。<br><br>それで西の方は、月も太陽も引っ込む方で、出る方ではないのです。<br><br>しかも鹿児島はごく西の果てです。<br><br>また鹿児島という所は、日本ではたいへんな意味があるのです。<br><br>日本の国で一番先に開けたのは鹿児島です。<br><br>それは日本の紀元以前の一番最初です。<br><br>それから明治維新も、とにかく薩摩が元だったのです。<br><br>それから日の丸の国旗を作ったのは鹿児島の島津藩です。<br><br>それから日本で金を取り始めたのもやはり薩摩なのです。<br><br>ですから薩摩というものが日本の入口であり出口であるわけです。<br><br>そういうようで西の果てですから、あれでおしまいなわけです。<br><br>それでいよいよミロクの世が始まるのです。<br><br>ですから私は今度のＮＨＫの放送について、やっつけてやろうと思って原稿を書いたのですが、神様の方から止められたのです。<br><br>その書いた原稿をちょっと読ませてみます。<br><br> （御論文「ジャーナリストに愬う」）【栄光 二一五号】 それからこのことに限りませんが、今のジャーナリストという人たちが、感情的に新宗教というものに反感を持っているのです。<br><br>だからこれらもその組です。<br><br>とにかく「救世教なんかは非科学的のことを唱えて、そうして人心を惑わし、半文化的のことをやっている、実にけしからん。<br><br>こんなものはやっつけてやった方が国家社会のためだ」という考え方になっているのでしょう。<br><br>だから自分では非常に良いことと思っているのです。<br><br>こんな新宗教に惑わされていてはいけないから大いに警告するというので、良いつもりでやっているのです。<br><br>これも無理がない点もあります。<br><br>というのは新宗教が随分でき、今もできつつありますが、それは遠慮なく言えば実に低級なものが多いです。<br><br>だから仮に私がジャーナリストとして、救世教というものを知らないとしたら、新宗教で信者になろうと思うのは一つもありません。<br><br>ですから、自分でやっていておかしな話ですが、もし救世教なるものがないとしたら、私は無信仰者であったに違いないです。<br><br>それで大いに新宗教を非難攻撃したに違いありません。<br><br>だから救世教も世間一般の新宗教と同じようなものだと決めてしまうのは、これも無理はありません。<br><br>ただ救世教というものは、ぜんぜん違っているということの認識がまだできないのです。<br><br>認識ができないということは、研究しようとしないのです。<br><br>研究しようとしないのは、やはり他の新宗教の有様を見て決めてしまうのです。<br><br> だから自分を離れて公平に見れば、このラジオの放送もさほど咎める気にはなりません。<br><br>ならないから気張るわけにもゆかないのです。<br><br>ただ今後こういうことがあると、やはり影響しますから、そういうことのないようにと思って、名誉毀損で告訴までしてやろうと思ったのです。<br><br>ところが神様の方から、「そんなことをやってもぜんぜんなんにもならない、それどころではない、これから十五日を契機としてミロクの世の建設が始まるのだから、どんな邪魔者でも取り払われるから、そんな問題にする必要はない」というわけだったのです。<br><br>それでまた一方人間的に考えてみると、やっぱりＮＨＫの感情を害すると、お祭りの時の余興にもやっぱり影響します。<br><br>「二十の扉」をという場合に、いやそんなもの止した方がよいというようになりますから、ここで泣き寝入りした方がよいですから、そうするつもりです。<br><br> それから今社会では、事故だとかいろんなことがありますが、信者の人はたいてい知っているでしょうが、新しい信者の人に対しても知っておかなければいけないから、ちょっと書いてみました。<br><br> （御論文「近頃の世相」）【栄光 二一四号】 今の人は頭の働きが悪いのです。<br><br>敏感でありません。<br><br>だからどうしても事故などが起るわけです。<br><br>この間の北海道の山火事で約二万町歩と焼けたのですからたいへんな損害ですが、この一番の原因は煙草の吸殻ということになってますが、山で煙草を吸っていて、吸殻を捨てても、気がつくならば、そこが枯れ草の上かどうかということにヒョッと気がつきますが、それが頭の働きが鈍いから気がつかないで、捨ててボーッとして行ってしまうのです。<br><br>ですから自動車を運転していても、向こうからなにか来ると、それをヒョッと避ける敏感さがあればよいですが、避けようとしてやるのに時間がかかるから衝突してしまうのです。<br><br>なにごとにもノロイのです。<br><br>それは昔のように自動車もなにもない駕籠（かご）などの時代ならよいですが、今日のような非常なスピード時代になっているのに、頭の方が追いつかないのです。<br><br>追いつかないどころではないので、追いつけないようにしているのです。<br><br>だからどうしても後頭部に毒がないようにしなければならないのです。<br><br>ところが薬毒をつぎ込んで薬毒を溜め込んでいるのですから、今の人間は骨が折れます。<br><br>体の方がノロイのに歩く方を早くしなければならないのですが、実に悲惨です。<br><br>信者の人はよほど薬毒が減っているから、よほどよいわけですが、ふつうの人ときたら実にノロイです。<br><br>ノロイからして頭の働きが悪いのです。<br><br>だからなにごとを見ても聞いても、頭の悪さがよく出てます。<br><br>ちょっとしたことに気がつかないのです。<br><br>その辺を歩いてみても、町でも田舎でもそうですが、細い道や、おかしな道がありますが、木を切るとか草を取るとか、石が転がっているのをちょっと取ると、歩きよい道になるのに、それをしないのです。<br><br>なんでも気がつかないのです。<br><br>ですからちょっとした所に気をつければ、非常に便利になったり、良くなったりするのに、それすら気がつかないのと、億劫なのです。<br><br>厄介だという、不精という点が非常にあります。<br><br>周囲のことでもそういうことがよくあります。<br><br>ちょっとしたことで、ちょっとそこに棒をつけるとか、ちょっと取り除くとか、上げるとかすると非常に便利になるのに、そういうことに気もつかないし、つい億劫でそうしているが、これは薬毒のためにすべてが働かないのです。<br><br> ですから今の人の歩くのでも、ノロイです。<br><br>その点において私はいつでも困るのです。<br><br>私が早過ぎるのかもしれませんが、だからすべて先にやっておくべきものをやっておかないうちに、私の方が先に行ってしまうので、それでいつでも叱ることがあるのです。<br><br>そういうようなことで、いろんな事故が起るということはあたりまえなのです。<br><br>そのためにその損というものは非常に多いです。<br><br>それからまたその他にもまだあります。<br><br>それは邪念が多過ぎるのです。<br><br>なにかごまかそうとか、おかしな考えをしているために、よい方の頭が働かないのです。<br><br>つまり邪の方の頭が働くためにそこで物事がうまく行かなかったり、故障が起ったりするわけです。<br><br>その根本としてはやはり薬毒ですから、その薬毒を除ることです。<br><br>私も昔は薬毒がたくさんあったが、自分で浄霊してだんだんとっていくために、だんだん体も軽くなるし、頭の働きもよくなりつつあるわけです。<br><br>だからこの間も小言を言ったことがありますが、それは男の連中に言ったのですが、お前たちは巾着切のようにならなければいけないと言ったのです。<br><br>鋭く素早くというわけです。<br><br>しかし巾着切をしろというのではないので、巾着切のように敏捷にならなければいけないというのです。<br><br>よく私はそう思うのですが、オレは巾着切になったらずいぷん成功するなと思います。<br><br>逃げる時の速さは目にも止まらないくらいです。<br><br>そんなような具合で、それによって非常な利益を得ます。<br><br>それで巾着切などは、これはいくらくらい金があるということが分かるそうです。<br><br>紙入れを持っただけで、どのくらいはいっているということが分かるそうですから、そのくらいにならなければいけないのです。<br><br>信仰していても、話をしていても、これは神様の話が分かる人間か、どうしても分からない人間かということが分かるのが早いです。<br><br>そうするとさっき読んだとおり、これは救われる側になっている、あるいは救われない側になっている、ということが分かります。<br><br>病気でも、頭が痛いとかケツが痛いという時に、原因はどこにあるかという時に、この人の性質はどうだ、また苦しみ方はどうだということで見当つきます。<br><br>それから顔色で分かります。<br><br>顔色の非常に悪いのは漢方薬の中毒です。<br><br>西洋の方は顔色にはあんまり来ません。<br><br>害が酷いのはどっちかというと漢方薬です。<br><br>近来寿命が延びたということは、漢方薬をのまないからです。<br><br>現在の人は漢方薬をのまないで西洋の薬をのみますが、それは顔色が悪くならないということと、病気が早くなおるのです。<br><br>しつこくならないのです。<br><br>ですから寿命が延びたということを言いますが、それは漢方薬をのまないで西洋の薬をのむからというので、これはちょっと気がつかないことです。<br><br>そういうようで、顔色が悪くなるのは漢方薬のためです。<br><br>ですからアメリカ人などは割合に顔色がよいですが、それは西洋の薬のためです。<br><br>非常にしつこい病気は漢方薬の中毒が多いのですが、しかし西洋の薬もこのごろは負けずに注射などをやっています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Advento da Era de Miroku e a Purificação do Mundo</h2>
 <p>Ocorreu hoje um milagre deveras interessante. Há pouco, a pessoa responsável veio me reportar o número de fiéis presentes, e o total era de quinhentos e sessenta e sete. Eu sempre almejei que tal número se manifestasse, mas até hoje isso jamais havia acontecido. O fato de ter ocorrido precisamente neste dia é de suma importância. Como sabem, o próximo dia quinze de junho marcará o Festival de Comemoração da Conclusão do Protótipo do Paraíso Terrestre de Hakone. Portanto, o que foi aqui edificado é, em essência, um modelo do Paraíso Terrestre. E sendo o Paraíso Terrestre o Mundo de Miroku, a manifestação do número quinhentos e sessenta e sete neste dia assume um significado profundo e diretamente relacionado a esse advento.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Há ainda outro fator: o excesso de pensamentos impuros. A mente está tão ocupada em ludibriar e maquinar que a parte nobre do cérebro não funciona. A predominância do pensamento maligno impede que as coisas fluam bem e gera problemas. A causa fundamental de tudo isso são as toxinas medicamentosas, e a solução é eliminá-las. Eu mesmo já tive muitas, mas, ao purificá-las gradualmente através do Johrei, meu corpo se tornou mais leve e meu raciocínio, mais aguçado.</p>
 <p>Recentemente, repreendi os homens do meu convívio, dizendo-lhes que precisavam se tornar como batedores de carteira. Ou seja, afiados e rápidos. Não estou dizendo para se tornarem ladrões, mas para adquirirem a mesma agilidade. Muitas vezes penso que, se eu fosse um batedor de carteiras, teria um sucesso extraordinário. Minha velocidade na fuga seria tamanha que os olhos mal conseguiriam me acompanhar. Essa agilidade traz enormes benefícios. Dizem que esses criminosos conseguem saber quanto dinheiro uma pessoa carrega apenas pelo toque na carteira. É a esse nível de percepção que devemos aspirar. Na Fé, ao conversar com alguém, é preciso discernir rapidamente se aquela pessoa é capaz de compreender os Ensinamentos de Deus ou não. Com isso, como foi lido anteriormente, é possível saber se ela está do lado dos que serão salvos ou dos que não serão. No caso de uma doença, quando alguém se queixa de dor de cabeça ou no quadril, podemos estimar a causa analisando sua personalidade e a natureza do seu sofrimento.</p>
 <p>A compleição também revela muito. Uma pele de aparência muito ruim indica intoxicação por fitoterapia chinesa. A medicina ocidental não afeta tanto a cor do rosto. Das duas, a mais danosa é a medicina chinesa tradicional. O recente aumento da expectativa de vida se deve ao fato de as pessoas não a utilizarem mais. Hoje em dia, em vez de fitoterapia chinesa, as pessoas usam medicamentos ocidentais, que não alteram tanto a compleição e curam as doenças mais rapidamente, sem que se tornem crônicas. É por isso que se diz que a longevidade aumentou, um fato pouco percebido. Portanto, a má aparência da pele é causada pela fitoterapia chinesa. Os americanos, por exemplo, costumam ter uma boa compleição, e isso se deve aos medicamentos ocidentais. Doenças muito persistentes são frequentemente causadas por intoxicação por fitoterapia chinesa, embora, ultimamente, os medicamentos ocidentais, com suas injeções, não fiquem muito atrás.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月7日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月七日 今日はおもしろい奇蹟がありました。<br/><br/>さっきこの人が、今日の参拝の人数を報告に来たのですが、その時に五六七名というのです。<br/><br/>私はいつもそういう数字が出るとよいと思ったが、今までそういうことは一度もないのです。<br/><br/>それが今日に限って五六七名というのです。<br/><br/>その数字が言葉に出た以上は、その後は増えてもかまわないので、五六八でもよいのです。<br/><br/>ところが今日その数字が出るところに意味があるのです。<br/><br/>というのは、今度の六月十五日は箱根地上天国の完成記念祭です。<br/><br/>ですからここは、つまり地上天国の模型ができたわけです。<br/><br/>それで地上天国というのはミロクの世ですから、今日、ミロクの数字が出るということは、それに関連した、たいへんな意味になるわけです。<br/><br/>それで十五日の意味の原稿を昨夜書いたのですが、それは十五日に読ませますけれども、大体の意味は、まず地上天国の模型がここにできたとすれば、これからそれが左進右退によって、だんだん拡がって行くのです。<br/><br/>これはいつも言うとおり、「ゴーラ」の「ゴ」というのは「火」です。<br/><br/>「ラ」というのは「螺旋（らせん）」といって「まわること」です。<br/><br/>それで左進右退にまわっているのです。<br/><br/>それで左進右退にまわるのは拡がることです。<br/><br/>右進左退はすぼまることです。<br/><br/>だから「ゴ」「霊」で、霊的に拡がって行くというわけです。<br/><br/>霊主体従ですから、霊が先です。<br/><br/>ここが先に拡がり出して、体的には熱海ですが、熱海はもう少しですが、とにかくこの十五日からミロクの世になるわけです。<br/><br/>もっともこれは小さい型ですが、やがてだんだん拡がって行くわけです。<br/><br/>ですからそうなると、今度は浄化作用がまた本格的になりますから、凄いことになります。<br/><br/>だから間違ったことは全部訂正されてゆくわけです。<br/><br/>その代わり人間でも、善は残り悪は滅びるということになります。<br/><br/>これが本当の立て替え立て直しというわけです。<br/><br/>今日はこの話はしないわけだったので、十五日にするつもりだったのですが、今日の人数の数字が出たので、もう話をしてもよいわけなので簡単にお話ししたのです。<br/><br/>ですから十五日というのは非常にめでたい日なのです。<br/><br/>これは世界の紀元節というわけです。<br/><br/>それで、それについてというか、関連して、一昨日からこの原稿を読んでいるのですが、もうその時期になったわけです。<br/><br/>そのためにこういう原稿ができたのですが、よほど重要な意味があります。<br/><br/> （御論文「最後の審判とは何か」）【栄光 二一三号】 つまり神様の方が激しくなるわけです。<br/><br/>大本教のお筆先に「神激しくなれば、人民穏やかになるぞよ」というのがありますが、なかなかうまく言ってあります。<br/><br/>そういうようなわけで、曖昧であったのがはっきりしてくるというわけです。<br/><br/>だから分かる人は救われる人で、分からない人は滅びる人と、こういう具合にだんだん決まってくるのです。<br/><br/>ところが分からない人の、滅びる方がずっと多いのです。<br/><br/>ですからどんな人でも救われると思う人が、今までは大部分でしたが、そうではないので、救われる人の方が少ないのです。<br/><br/>ですから救ってやりたい救ってやりたいと、こっちで思っていても駄目な人は駄目なので、諦めるということが肝腎です。<br/><br/>それでミロクの世というすばらしい世の中ですから、あんまり汚い、わけの分からない人間は、かえって邪魔になるわけです。<br/><br/>神様の方では人口を増やすのは、なんでもないのです。<br/><br/>今でも増え過ぎて困るのです。<br/><br/>ですから倍くらいにするのは、なんでもないのです。<br/><br/>また、将来その方が有利です。<br/><br/>捨てられて滅びる人は実にかわいそうなものですが、これはどうもしかたがありません。<br/><br/>ですから、その点をよく心得ておくべきです。<br/><br/>これはいつも言うとおり、今度の御神業は、人がやるのでなくて、神様がやるのですから、骨を折らなくてできる御神業です。<br/><br/>ですから骨の折れるような難しいことは避けた方がよいです。<br/><br/>楽にスラスラと行くことだけをやればよいのです。<br/><br/>だからかえって楽で非常によいです。<br/><br/>そこが天国を造る宗教としての、かなったやり方になるわけです。<br/><br/>今までは地獄の中で天国を造ろうとするのですからして、まだまだ天国を造る時が来てないのです。<br/><br/>地獄の中で天国を造るのだから、苦心惨憺して非常に骨が折れるのです。<br/><br/>人間はそういうのを長い間見てきましたから、どうしても苦しむことがよいように、つい思うのです。<br/><br/>だから今言ったようなことを本当に意識するには、なかなか骨が折れますが、その点はよく気がつくように心掛けていなくてはいけません。<br/><br/> だから美術館や庭やなにかが早くできたので、信者でない人などが、これほどにするには随分苦心しただろうと言いますが、実は少しも苦心もなにもしないのです。<br/><br/>楽過ぎるくらいなにも考えないで、その都度、気の向いた時にちょっと指図するくらいで、それでチャンとできてしまうのです。<br/><br/>やはり苦心して造ったものは、それを見た感じは、やはりその苦心が移りますから、あんまり楽しい良い気持ちはしないものなのです。<br/><br/>こういうことも今まではみんな知らなかったのです。<br/><br/>私は展覧会などに行って、いろんな絵を見ますが、非常に嫌な感じがします。<br/><br/>というのは、どうかパスされようとして苦心惨憺するのですが、その苦心がチャンと絵に現われているのです。<br/><br/>ですからそれから受ける感じは、作者の苦心がこっちに来ますから、少しも良い気持ちはしません。<br/><br/>楽しみ楽しみやった良い作品は、それがやはり移りますから、見ていて楽しい良い気持ちがします。<br/><br/>そういうことも世間にある美術館の人などは知らないのです。<br/><br/>要するに霊的智識がないので、形だけに囚われているからです。<br/><br/>根気良く苦心惨憺して作った物が良いというように思うのです。<br/><br/>そこに今までの考え方とよほど違う点があります。<br/><br/> ですからミロクの世というものは、地獄の世界を天国にするのですから、まあ人類肇（はじま）まって以来の大革命です。<br/><br/>これほど大きな革命はないとともに、これほど楽にできる革命はありません。<br/><br/>無血革命ということを言うが、無血革命というのは争闘をしない意味ですが、そんなものではないのです。<br/><br/>無血革命でなくて、もっとも楽にできる革命だからして天国的革命とでも言いますか、そういうようなわけです。<br/><br/>それが十五日を契機として、だんだんそうなってくるのです。<br/><br/>それが霊主体従の法則によって霊界の方がそういうようになってきます。<br/><br/>ですから物質界、現界の方にそのとおりに映って行くというわけです。<br/><br/>だからその点においては、傍観していてもよいくらいです。<br/><br/>ただ神様から与えられた仕事をすればよいわけです。<br/><br/>ぶっつけられた仕事をすればよいわけです。<br/><br/>だからその点において、あんまり人間の智慧や考えは出さない方がよいです。<br/><br/>たとえば病人が来ますが、この病人を救えばこういうふうになるだろうとか、そういうことは考えない方がよいです。<br/><br/>ぶつかってきた人は救えということなんだから、それはやればよいです。<br/><br/>それから嫌ったりする人は、これは神様はお助けにならない人だと考えて、追いかけたりしない方がよいです。<br/><br/>その方が楽に行きます。<br/><br/>それを人間的考え方で、「この人を救えばたいへん発展する、信者がたくさんできる」ということをよく考えますが、それがいけないのです。<br/><br/>人間には分かるわけがないのです。<br/><br/>ですから「こんなつまらない人が」というのがあんがい役に立ったり、「この人は」と思う人が駄目だったりします。<br/><br/>それは人間と神様の考えの違うところです。<br/><br/> それから四日にラジオの「社会の窓」でだいぶでたらめを言いましたが、だんだん救世教が発展するに従って邪神界の方はたいへんなのです。<br/><br/>大恐慌を来しているのです。<br/><br/>どうせ邪神の方では、自分の方は駄目ということは分かっているのですが、一日でも寿命を延ばしたいというので足掻（あが）いているのです。<br/><br/>最後の足掻きです。<br/><br/>それで以前は大新聞などを大いに動かしてさんざん悪口言ったり、いろいろしましたが、これでも駄目なのです。<br/><br/>それから役人を動かして、救世教をやっつけてやろうという裁判の事件ですが、これでもやっつけられないので、今度はラジオを使ったわけです。<br/><br/>これでもう他には使う道具がないから、おしまいでしょう。<br/><br/>それで今度の問題は九州の鹿児島県ですが、九州は西ですからもうおしまいなのです。<br/><br/>「西の海へ捨ててしまう」というようなことをよく言います。<br/><br/>それで西の方は、月も太陽も引っ込む方で、出る方ではないのです。<br/><br/>しかも鹿児島はごく西の果てです。<br/><br/>また鹿児島という所は、日本ではたいへんな意味があるのです。<br/><br/>日本の国で一番先に開けたのは鹿児島です。<br/><br/>それは日本の紀元以前の一番最初です。<br/><br/>それから明治維新も、とにかく薩摩が元だったのです。<br/><br/>それから日の丸の国旗を作ったのは鹿児島の島津藩です。<br/><br/>それから日本で金を取り始めたのもやはり薩摩なのです。<br/><br/>ですから薩摩というものが日本の入口であり出口であるわけです。<br/><br/>そういうようで西の果てですから、あれでおしまいなわけです。<br/><br/>それでいよいよミロクの世が始まるのです。<br/><br/>ですから私は今度のＮＨＫの放送について、やっつけてやろうと思って原稿を書いたのですが、神様の方から止められたのです。<br/><br/>その書いた原稿をちょっと読ませてみます。<br/><br/> （御論文「ジャーナリストに愬う」）【栄光 二一五号】 それからこのことに限りませんが、今のジャーナリストという人たちが、感情的に新宗教というものに反感を持っているのです。<br/><br/>だからこれらもその組です。<br/><br/>とにかく「救世教なんかは非科学的のことを唱えて、そうして人心を惑わし、半文化的のことをやっている、実にけしからん。<br/><br/>こんなものはやっつけてやった方が国家社会のためだ」という考え方になっているのでしょう。<br/><br/>だから自分では非常に良いことと思っているのです。<br/><br/>こんな新宗教に惑わされていてはいけないから大いに警告するというので、良いつもりでやっているのです。<br/><br/>これも無理がない点もあります。<br/><br/>というのは新宗教が随分でき、今もできつつありますが、それは遠慮なく言えば実に低級なものが多いです。<br/><br/>だから仮に私がジャーナリストとして、救世教というものを知らないとしたら、新宗教で信者になろうと思うのは一つもありません。<br/><br/>ですから、自分でやっていておかしな話ですが、もし救世教なるものがないとしたら、私は無信仰者であったに違いないです。<br/><br/>それで大いに新宗教を非難攻撃したに違いありません。<br/><br/>だから救世教も世間一般の新宗教と同じようなものだと決めてしまうのは、これも無理はありません。<br/><br/>ただ救世教というものは、ぜんぜん違っているということの認識がまだできないのです。<br/><br/>認識ができないということは、研究しようとしないのです。<br/><br/>研究しようとしないのは、やはり他の新宗教の有様を見て決めてしまうのです。<br/><br/> だから自分を離れて公平に見れば、このラジオの放送もさほど咎める気にはなりません。<br/><br/>ならないから気張るわけにもゆかないのです。<br/><br/>ただ今後こういうことがあると、やはり影響しますから、そういうことのないようにと思って、名誉毀損で告訴までしてやろうと思ったのです。<br/><br/>ところが神様の方から、「そんなことをやってもぜんぜんなんにもならない、それどころではない、これから十五日を契機としてミロクの世の建設が始まるのだから、どんな邪魔者でも取り払われるから、そんな問題にする必要はない」というわけだったのです。<br/><br/>それでまた一方人間的に考えてみると、やっぱりＮＨＫの感情を害すると、お祭りの時の余興にもやっぱり影響します。<br/><br/>「二十の扉」をという場合に、いやそんなもの止した方がよいというようになりますから、ここで泣き寝入りした方がよいですから、そうするつもりです。<br/><br/> それから今社会では、事故だとかいろんなことがありますが、信者の人はたいてい知っているでしょうが、新しい信者の人に対しても知っておかなければいけないから、ちょっと書いてみました。<br/><br/> （御論文「近頃の世相」）【栄光 二一四号】 今の人は頭の働きが悪いのです。<br/><br/>敏感でありません。<br/><br/>だからどうしても事故などが起るわけです。<br/><br/>この間の北海道の山火事で約二万町歩と焼けたのですからたいへんな損害ですが、この一番の原因は煙草の吸殻ということになってますが、山で煙草を吸っていて、吸殻を捨てても、気がつくならば、そこが枯れ草の上かどうかということにヒョッと気がつきますが、それが頭の働きが鈍いから気がつかないで、捨ててボーッとして行ってしまうのです。<br/><br/>ですから自動車を運転していても、向こうからなにか来ると、それをヒョッと避ける敏感さがあればよいですが、避けようとしてやるのに時間がかかるから衝突してしまうのです。<br/><br/>なにごとにもノロイのです。<br/><br/>それは昔のように自動車もなにもない駕籠（かご）などの時代ならよいですが、今日のような非常なスピード時代になっているのに、頭の方が追いつかないのです。<br/><br/>追いつかないどころではないので、追いつけないようにしているのです。<br/><br/>だからどうしても後頭部に毒がないようにしなければならないのです。<br/><br/>ところが薬毒をつぎ込んで薬毒を溜め込んでいるのですから、今の人間は骨が折れます。<br/><br/>体の方がノロイのに歩く方を早くしなければならないのですが、実に悲惨です。<br/><br/>信者の人はよほど薬毒が減っているから、よほどよいわけですが、ふつうの人ときたら実にノロイです。<br/><br/>ノロイからして頭の働きが悪いのです。<br/><br/>だからなにごとを見ても聞いても、頭の悪さがよく出てます。<br/><br/>ちょっとしたことに気がつかないのです。<br/><br/>その辺を歩いてみても、町でも田舎でもそうですが、細い道や、おかしな道がありますが、木を切るとか草を取るとか、石が転がっているのをちょっと取ると、歩きよい道になるのに、それをしないのです。<br/><br/>なんでも気がつかないのです。<br/><br/>ですからちょっとした所に気をつければ、非常に便利になったり、良くなったりするのに、それすら気がつかないのと、億劫なのです。<br/><br/>厄介だという、不精という点が非常にあります。<br/><br/>周囲のことでもそういうことがよくあります。<br/><br/>ちょっとしたことで、ちょっとそこに棒をつけるとか、ちょっと取り除くとか、上げるとかすると非常に便利になるのに、そういうことに気もつかないし、つい億劫でそうしているが、これは薬毒のためにすべてが働かないのです。<br/><br/> ですから今の人の歩くのでも、ノロイです。<br/><br/>その点において私はいつでも困るのです。<br/><br/>私が早過ぎるのかもしれませんが、だからすべて先にやっておくべきものをやっておかないうちに、私の方が先に行ってしまうので、それでいつでも叱ることがあるのです。<br/><br/>そういうようなことで、いろんな事故が起るということはあたりまえなのです。<br/><br/>そのためにその損というものは非常に多いです。<br/><br/>それからまたその他にもまだあります。<br/><br/>それは邪念が多過ぎるのです。<br/><br/>なにかごまかそうとか、おかしな考えをしているために、よい方の頭が働かないのです。<br/><br/>つまり邪の方の頭が働くためにそこで物事がうまく行かなかったり、故障が起ったりするわけです。<br/><br/>その根本としてはやはり薬毒ですから、その薬毒を除ることです。<br/><br/>私も昔は薬毒がたくさんあったが、自分で浄霊してだんだんとっていくために、だんだん体も軽くなるし、頭の働きもよくなりつつあるわけです。<br/><br/>だからこの間も小言を言ったことがありますが、それは男の連中に言ったのですが、お前たちは巾着切のようにならなければいけないと言ったのです。<br/><br/>鋭く素早くというわけです。<br/><br/>しかし巾着切をしろというのではないので、巾着切のように敏捷にならなければいけないというのです。<br/><br/>よく私はそう思うのですが、オレは巾着切になったらずいぷん成功するなと思います。<br/><br/>逃げる時の速さは目にも止まらないくらいです。<br/><br/>そんなような具合で、それによって非常な利益を得ます。<br/><br/>それで巾着切などは、これはいくらくらい金があるということが分かるそうです。<br/><br/>紙入れを持っただけで、どのくらいはいっているということが分かるそうですから、そのくらいにならなければいけないのです。<br/><br/>信仰していても、話をしていても、これは神様の話が分かる人間か、どうしても分からない人間かということが分かるのが早いです。<br/><br/>そうするとさっき読んだとおり、これは救われる側になっている、あるいは救われない側になっている、ということが分かります。<br/><br/>病気でも、頭が痛いとかケツが痛いという時に、原因はどこにあるかという時に、この人の性質はどうだ、また苦しみ方はどうだということで見当つきます。<br/><br/>それから顔色で分かります。<br/><br/>顔色の非常に悪いのは漢方薬の中毒です。<br/><br/>西洋の方は顔色にはあんまり来ません。<br/><br/>害が酷いのはどっちかというと漢方薬です。<br/><br/>近来寿命が延びたということは、漢方薬をのまないからです。<br/><br/>現在の人は漢方薬をのまないで西洋の薬をのみますが、それは顔色が悪くならないということと、病気が早くなおるのです。<br/><br/>しつこくならないのです。<br/><br/>ですから寿命が延びたということを言いますが、それは漢方薬をのまないで西洋の薬をのむからというので、これはちょっと気がつかないことです。<br/><br/>そういうようで、顔色が悪くなるのは漢方薬のためです。<br/><br/>ですからアメリカ人などは割合に顔色がよいですが、それは西洋の薬のためです。<br/><br/>非常にしつこい病気は漢方薬の中毒が多いのですが、しかし西洋の薬もこのごろは負けずに注射などをやっています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

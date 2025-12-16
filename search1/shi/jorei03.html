@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊医術の実験 『栄光』239号、昭和28(1953)年12月16日発行 信者は誰も知る通り、私は先頃アメリカを救うと結核信仰療法との二著書を発行したと共に、数年前から栄光新聞や地上天国の雑誌をもって現代医学の欠陥を指摘し、医学が病気を作るという真相を随分思い切ってかき、信者は固（もと）より当局やその他の方面の人にも出来るだけ読ませるべく配布しているので、医学関係者の人々の目にも相当触れているに違いないと思うが、今もって何らの反響もないのはどうしたものか。<br><br>そうして私の予想では当局も医師会も、これは捨ておけずとして必ずや詰問や弁明を求めて来るだろうと期待していたが、そのような事は一向にないので、負け惜しみかも知れないが、いささか張合抜けがした形である。<br><br>というのはむしろそれを要望していたからであって、そうなれば天下に早く知れると思ったからでもある。<br><br> 言うまでもなくこれ程大きな問題は人類史上未（いま）だ嘗（かつ）てなかった事はもちろんである。<br><br>何しろ人類から病を無くし、天寿を全うし得るという人間最大の悩みの解決法が生まれたのであるからこれ程偉大な福音はあるまい。<br><br>全く夢の現実化である。<br><br>従ってこれ程の大問題を分らせるとしたら、その方法においても尋常一様の手段では難しい。<br><br>どうしても事実によって納得させるより外はないので、考えたのが次のごとき方法である。<br><br>それはまず第一着手として私を招聘（しょうへい）して実験を行う事である。<br><br>その場合帝大のごとき権威ある大病院を選んで、そこで医師の指定のまま一人一人の患者について徹底的に質問する。<br><br>それに対して私は理論からも実際からも、微に入り細に渉（わた）っても充分納得のゆくよう解説する。<br><br>それと共に医師の面前で病人の苦痛を手を翳（かざ）すだけで片っ端から治してゆき、浄霊医術の卓効（たっこう）を示すのである。<br><br>以上は実に大胆極まる提言であるが、もちろん絶対確信があるからである。<br><br> そこで右のごとき手段方法によって充分認識されたとしたら、第二段の方法に移るのであるが、右の実験の場合もしいささかでも私の言と事実との食違いがありとすれば、それこそ私はいかなる責任でも負うのはもちろん、断乎（だんこ）たる制裁をも甘受する。<br><br>たとえ再び起（た）つ能（あた）わざるまでに葬られても止むを得ないとして諦めるであろう。<br><br>だが私としてそんな分りきった自殺的行為などするはずがないのは考えるまでもあるまい。<br><br>従ってこの文を見、今までに発行した私の多くの出版物を見たら、当事者たる者直に調査研究に取掛らない訳にはゆくまい。<br><br>それと共に前述のごとき手段方法に出て、その結果果して私の言うがごとしとすれば、ここに大問題として国家は取上げるべきであろう。<br><br>そうなったらまず法規上の改正であるから当然議会の問題となるであろうし、今一つの重要問題としては医学関係者に対しての善後策であるが、これがまた厄介な問題であって、出来るだけ犠牲者を出さないよう徐々として切替える方法がいいであろうから、結末までには相当の期間を要するとみねばなるまい。<br><br> 以上気のついたままをかいてみたが、何しろ文明史上類例のない重大問題であるから、当局者といえどもこの決意は容易にはつくまい。<br><br>そうかといってこの問題は遅かれ早かれそこまで到達するのはもちろんであるから、早いに越した事はないと思う。<br><br>なぜなればこれを実行の暁、国民の生命は救われ、延（ひ）いては国運に及ぼす影響も甚大である以上、慎重の上にも慎重を期し、一日も早く採用すべきである。<br><br>ところがこれを知っても躊躇逡巡（ちゅうちょしゅんじゅん）するとしても時は許さないであろう。<br><br>というのは本療法の支持者は日に月に激増しつつある現状であるから、前途を考えたら猶予（ゆうよ）は出来ないはずである。<br><br>要は個人的利害を犠牲にしても国家人民の幸福を図るべきで、もしこの目的が故障なく運ぶとしたら、ここに病なき日本となり、国家の隆昌はもちろん、世界もこれに見習うのは必然であるから、日本は世界の救世主として仰がれ、日本民族の汚点は払拭（ふっしょく）され、輝かしい日本として平和のシンボルとなるであろう。<br><br>敢（あ）えて世の有識者諸君に愬（うった）えるゆえんである。<br><br> (注) 卓効（たっこう）、優れたききめ。<br><br>著効。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Proposta para a Experimentação da Terapêutica do Johrei</h2>
 <p>Como todos os fiéis sabem, publiquei recentemente duas obras, “A Salvação da América” e “A Terapêutica da Fé para a Tuberculose”. Ademais, há vários anos, venho utilizando o jornal Eikou e a revista Chijo Tengoku para apontar as falhas da medicina moderna, escrevendo de forma bastante incisiva sobre a verdade de que a medicina gera doenças. Tenho me empenhado em distribuir amplamente esses escritos, não apenas aos nossos membros, mas também às autoridades e a pessoas de diversas outras áreas. Por essa razão, não tenho dúvidas de que meu trabalho já chegou ao conhecimento de um número considerável de profissionais da área médica. O que me causa certa estranheza, contudo, é o fato de não haver, até o momento, qualquer reação.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Se, através do método que propus, o resultado comprovar a veracidade de minhas afirmações, o Estado deverá tratar o assunto como uma questão de alta relevância. Isso ensejaria reformas no ordenamento jurídico, tornando-se, naturalmente, pauta para o Parlamento. Outro ponto fundamental seriam as medidas a serem tomadas em relação à comunidade médica. Este, por sua vez, é um problema delicado, sendo preferível uma transição gradual a fim de minimizar o número de prejudicados. Por conseguinte, é de se esperar que a conclusão desse processo demande um tempo considerável.</p>
 <p>Exponho aqui as ideias conforme me ocorreram. Por se tratar de uma questão de gravidade sem precedentes na história da civilização, compreendo que, mesmo para as autoridades, tomar uma decisão a esse respeito não será fácil. Todavia, como o tema, cedo ou tarde, será inevitável, quanto antes for enfrentado, melhor. A razão é simples: ao ser posta em prática, esta terapêutica salvará as vidas dos cidadãos, e sua influência sobre o destino da nação será imensa. É imperativo, portanto, que se proceda com a máxima cautela, mas que sua adoção ocorra o mais brevemente possível.</p>
 <p>Ademais, o tempo não permitirá hesitações ou delongas. O número de adeptos desta terapêutica cresce de forma exponencial, dia após dia. Considerando o futuro, não há margem para adiamentos. O essencial é que os interesses pessoais sejam sacrificados em prol da felicidade da nação e de seu povo. Se este objetivo for alcançado sem percalços, teremos um Japão livre de doenças. A prosperidade nacional será uma consequência natural, e o mundo inevitavelmente seguirá seu exemplo. Assim, o Japão será reverenciado como o salvador do mundo, as máculas do povo japonês serão dissipadas, e a nação se tornará um símbolo resplandecente de paz. É por essa razão que me dirijo, com veemência, aos homens de visão e saber de nossa sociedade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊医術の実験 『栄光』239号、昭和28(1953)年12月16日発行 信者は誰も知る通り、私は先頃アメリカを救うと結核信仰療法との二著書を発行したと共に、数年前から栄光新聞や地上天国の雑誌をもって現代医学の欠陥を指摘し、医学が病気を作るという真相を随分思い切ってかき、信者は固（もと）より当局やその他の方面の人にも出来るだけ読ませるべく配布しているので、医学関係者の人々の目にも相当触れているに違いないと思うが、今もって何らの反響もないのはどうしたものか。<br/><br/>そうして私の予想では当局も医師会も、これは捨ておけずとして必ずや詰問や弁明を求めて来るだろうと期待していたが、そのような事は一向にないので、負け惜しみかも知れないが、いささか張合抜けがした形である。<br/><br/>というのはむしろそれを要望していたからであって、そうなれば天下に早く知れると思ったからでもある。<br/><br/> 言うまでもなくこれ程大きな問題は人類史上未（いま）だ嘗（かつ）てなかった事はもちろんである。<br/><br/>何しろ人類から病を無くし、天寿を全うし得るという人間最大の悩みの解決法が生まれたのであるからこれ程偉大な福音はあるまい。<br/><br/>全く夢の現実化である。<br/><br/>従ってこれ程の大問題を分らせるとしたら、その方法においても尋常一様の手段では難しい。<br/><br/>どうしても事実によって納得させるより外はないので、考えたのが次のごとき方法である。<br/><br/>それはまず第一着手として私を招聘（しょうへい）して実験を行う事である。<br/><br/>その場合帝大のごとき権威ある大病院を選んで、そこで医師の指定のまま一人一人の患者について徹底的に質問する。<br/><br/>それに対して私は理論からも実際からも、微に入り細に渉（わた）っても充分納得のゆくよう解説する。<br/><br/>それと共に医師の面前で病人の苦痛を手を翳（かざ）すだけで片っ端から治してゆき、浄霊医術の卓効（たっこう）を示すのである。<br/><br/>以上は実に大胆極まる提言であるが、もちろん絶対確信があるからである。<br/><br/> そこで右のごとき手段方法によって充分認識されたとしたら、第二段の方法に移るのであるが、右の実験の場合もしいささかでも私の言と事実との食違いがありとすれば、それこそ私はいかなる責任でも負うのはもちろん、断乎（だんこ）たる制裁をも甘受する。<br/><br/>たとえ再び起（た）つ能（あた）わざるまでに葬られても止むを得ないとして諦めるであろう。<br/><br/>だが私としてそんな分りきった自殺的行為などするはずがないのは考えるまでもあるまい。<br/><br/>従ってこの文を見、今までに発行した私の多くの出版物を見たら、当事者たる者直に調査研究に取掛らない訳にはゆくまい。<br/><br/>それと共に前述のごとき手段方法に出て、その結果果して私の言うがごとしとすれば、ここに大問題として国家は取上げるべきであろう。<br/><br/>そうなったらまず法規上の改正であるから当然議会の問題となるであろうし、今一つの重要問題としては医学関係者に対しての善後策であるが、これがまた厄介な問題であって、出来るだけ犠牲者を出さないよう徐々として切替える方法がいいであろうから、結末までには相当の期間を要するとみねばなるまい。<br/><br/> 以上気のついたままをかいてみたが、何しろ文明史上類例のない重大問題であるから、当局者といえどもこの決意は容易にはつくまい。<br/><br/>そうかといってこの問題は遅かれ早かれそこまで到達するのはもちろんであるから、早いに越した事はないと思う。<br/><br/>なぜなればこれを実行の暁、国民の生命は救われ、延（ひ）いては国運に及ぼす影響も甚大である以上、慎重の上にも慎重を期し、一日も早く採用すべきである。<br/><br/>ところがこれを知っても躊躇逡巡（ちゅうちょしゅんじゅん）するとしても時は許さないであろう。<br/><br/>というのは本療法の支持者は日に月に激増しつつある現状であるから、前途を考えたら猶予（ゆうよ）は出来ないはずである。<br/><br/>要は個人的利害を犠牲にしても国家人民の幸福を図るべきで、もしこの目的が故障なく運ぶとしたら、ここに病なき日本となり、国家の隆昌はもちろん、世界もこれに見習うのは必然であるから、日本は世界の救世主として仰がれ、日本民族の汚点は払拭（ふっしょく）され、輝かしい日本として平和のシンボルとなるであろう。<br/><br/>敢（あ）えて世の有識者諸君に愬（うった）えるゆえんである。<br/><br/> (注) 卓効（たっこう）、優れたききめ。<br/><br/>著効。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

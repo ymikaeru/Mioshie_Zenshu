@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ogata</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 尾形光琳 自観叢書第5編『自観隨談』P.55、昭和24(1949)年8月30日発行 私は苦い頃から絵が非常に好きであった。<br><br>そうして古今を通じて私の一番好きな画家は何といっても彼の光琳である。<br><br>光琳派の中では光悦も宗達も光甫（こうほ）も乾山（けんざん）も、それぞれ良いところはあるが、何といっても光琳は断然傑出している。<br><br>彼の絵ほど簡略にしてしかもその物の実態を把握し得ているものは類がない。<br><br>彼は全然物体の形を無視していて、しかも物体の形を忠実に表現している。<br><br>ちょうど千万言を費すとも人を動かし難い所を三十一文字の和歌の力が動かし得るのと同様である。<br><br>そうして私の最も驚異とする所は、それまでの日本画が支那伝来の型に捉われていたのを、彼は思いきって破ったのである。<br><br>それは有線描法を無線にしてしまった事と図案風に脱皮した点である。<br><br>一言にして言えば、それまで一種の法則に捉われていた画風に対し、革命的描法に出でたその大胆さである。<br><br> 光琳逝（ゆ）いて二百数十年になる今日、彼の偉業は明治画壇に革命を起こした。<br><br>それについてこういう事があった。<br><br>私は三十余年前岡倉天心先生が大観、春草（しゅんそう）、観山（かんざん）、武山（ぶざん）の四画伯を従え、常陸（ひたち）の国五浦に隠棲した時であった。<br><br>その頃私はある事情があって天心先生に面接する事を得た。<br><br>先生は将来の日本画に対する抱負などを語られ、私も非常に得るところあり、先生の凡ならざる事もその時知ったのである。<br><br>その日下村観山、木村武山の二画伯と一夜語り明かした事があった。<br><br>その際観山先生の語るところによれば、「美術院を作った天心先生の意図は、光琳を現代に生かすにある。<br><br>従って、吾々は線を使わないのが本意である。<br><br>今日吾々の画を朦朧（もうろう）派などといって軽蔑するが、いずれは必ず認められる時が来るに違いない」というのである。<br><br>全く先生の言のごとく院派の画は間もなく日本画壇を風靡し、日本画の革命となった事は周知の通りである。<br><br>また観山先生はこういう事も語られた。<br><br>泰西においての絵画が写実主義が極度に達した結果、微に入り細にわたり写真と優劣を争うようになり、どうにもならないまでに行詰り、なんらか一大転換の途を発見しなければならないという時に、フランスの画壇で光琳を発見した者があった。<br><br>巧緻なる写実主義とは全然反対である光琳の行き方に驚異し、讃歎した事は察するに余りある。<br><br>果然アール・ヌーボー式なる図案が生まれ、前期印象派の運動が起こり、遂に後期印象派の巨匠としてのゴッホ、ゴーガン、セザンヌ等の鬼才を生むに至ったのである。<br><br>そればかりではない、あらゆる美術工芸にまで革命を起こし、遂に建築の様式にまで及ぼす事となった。<br><br>建築界においても、それまでのギリシヤ、ローマ式セセッションによって大いなる変化を来しルネッサンス式は影を潜め、近代的建築の様式を生むに到った事は衆知の通りである。<br><br>今日世界を風靡している仏のコルビュジエ氏創成の極度に簡素化された建築様式も、その原（もと）の元は光琳の影響である事は否め得ないところである。<br><br> 私は死後数百年を経過して俄然全世界を動かした、否人類文化の一分野に革命を起こさしめた日本人光琳こそは、日本が誇る最大なる存在であるといっても過言ではあるまい。<br><br> 今日までの日本人にして、その業績が世界のある分野を動かし得たという例は一人もあるまい。<br><br>ひとり光琳あるのみと言わざるを得ないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Genialidade de Ogata Korin e sua Influência Mundial</h2>
 <p>Desde a tenra idade, nutro um profundo apreço pela pintura. E, dentre todos os artistas, antigos e modernos, meu predileto é, sem qualquer hesitação, Ogata Korin. No seio da Escola Korin, artistas como Koetsu (光悦), Sotatsu (宗達), Koho (光甫) e Kenzan (乾山) possuem, cada qual, seus méritos; todavia, Korin se destaca de maneira absolutamente singular. Não há paralelo para sua capacidade de, com extrema simplicidade, apreender a verdadeira essência de seus temas. Ele ignora por completo a forma literal dos objetos e, paradoxalmente, consegue expressá-la com a mais absoluta fidelidade. É um fenômeno análogo ao poder de um poema <em>waka</em> de 31 sílabas, capaz de comover onde um discurso de dez mil palavras falharia. O que mais me causa espanto, contudo, é a forma audaciosa como ele rompeu com os cânones da pintura japonesa de sua época, até então aprisionados aos modelos de inspiração chinesa. Tal ruptura se manifesta em dois pontos cruciais: a abolição do contorno linear e a transição para um estilo que se aproxima do design. Em suma, sua ousadia residiu em instituir uma técnica revolucionária que desafiava o academismo vigente.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O mestre Kanzan compartilhou ainda outro relato fascinante. No Ocidente, a pintura havia levado o realismo a um extremo tal que passara a competir em minúcia com a própria fotografia. Atingido esse impasse, do qual parecia não haver saída, tornou-se imperativa a busca por uma nova direção. Foi nesse exato momento que, nos círculos artísticos da França, alguém descobriu a obra de Korin. É fácil imaginar o assombro e a admiração que seu estilo provocou, sendo ele a antítese absoluta do realismo meticuloso. Desse impacto, floresceu o movimento <em>Art Nouveau</em> e, subsequentemente, a corrente pré-impressionista, que por fim culminou no surgimento de gênios da estatura de Van Gogh, Gauguin e Cézanne, os grandes mestres do pós-impressionismo. A influência, contudo, não se deteve na pintura. Ela desencadeou uma revolução em todas as artes e ofícios, estendendo-se até mesmo à arquitetura. Nesse campo, os estilos clássicos greco-romanos e secessionistas cederam lugar a uma profunda transformação, que ofuscou a estética renascentista e deu origem à arquitetura moderna, como é de conhecimento geral. Pode-se afirmar, sem margem para erro, que até mesmo o estilo arquitetônico de extrema simplificação concebido pelo francês Le Corbusier, que hoje domina o cenário mundial, tem em Korin sua fonte primordial.</p>
 <p>Por tudo isso, não seria exagero afirmar que Korin, um japonês cuja obra foi capaz de mover o mundo inteiro séculos após sua morte — ou melhor, de revolucionar um dos pilares da cultura humana —, representa o maior motivo de orgulho para o Japão.</p>
 <p>Até hoje, não há registro de outro japonês cujas realizações tenham impactado de forma tão profunda um campo do saber em escala global. Devemos reconhecer que, nesse sentido, há somente Korin.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 尾形光琳 自観叢書第5編『自観隨談』P.55、昭和24(1949)年8月30日発行 私は苦い頃から絵が非常に好きであった。<br/><br/>そうして古今を通じて私の一番好きな画家は何といっても彼の光琳である。<br/><br/>光琳派の中では光悦も宗達も光甫（こうほ）も乾山（けんざん）も、それぞれ良いところはあるが、何といっても光琳は断然傑出している。<br/><br/>彼の絵ほど簡略にしてしかもその物の実態を把握し得ているものは類がない。<br/><br/>彼は全然物体の形を無視していて、しかも物体の形を忠実に表現している。<br/><br/>ちょうど千万言を費すとも人を動かし難い所を三十一文字の和歌の力が動かし得るのと同様である。<br/><br/>そうして私の最も驚異とする所は、それまでの日本画が支那伝来の型に捉われていたのを、彼は思いきって破ったのである。<br/><br/>それは有線描法を無線にしてしまった事と図案風に脱皮した点である。<br/><br/>一言にして言えば、それまで一種の法則に捉われていた画風に対し、革命的描法に出でたその大胆さである。<br/><br/> 光琳逝（ゆ）いて二百数十年になる今日、彼の偉業は明治画壇に革命を起こした。<br/><br/>それについてこういう事があった。<br/><br/>私は三十余年前岡倉天心先生が大観、春草（しゅんそう）、観山（かんざん）、武山（ぶざん）の四画伯を従え、常陸（ひたち）の国五浦に隠棲した時であった。<br/><br/>その頃私はある事情があって天心先生に面接する事を得た。<br/><br/>先生は将来の日本画に対する抱負などを語られ、私も非常に得るところあり、先生の凡ならざる事もその時知ったのである。<br/><br/>その日下村観山、木村武山の二画伯と一夜語り明かした事があった。<br/><br/>その際観山先生の語るところによれば、「美術院を作った天心先生の意図は、光琳を現代に生かすにある。<br/><br/>従って、吾々は線を使わないのが本意である。<br/><br/>今日吾々の画を朦朧（もうろう）派などといって軽蔑するが、いずれは必ず認められる時が来るに違いない」というのである。<br/><br/>全く先生の言のごとく院派の画は間もなく日本画壇を風靡し、日本画の革命となった事は周知の通りである。<br/><br/>また観山先生はこういう事も語られた。<br/><br/>泰西においての絵画が写実主義が極度に達した結果、微に入り細にわたり写真と優劣を争うようになり、どうにもならないまでに行詰り、なんらか一大転換の途を発見しなければならないという時に、フランスの画壇で光琳を発見した者があった。<br/><br/>巧緻なる写実主義とは全然反対である光琳の行き方に驚異し、讃歎した事は察するに余りある。<br/><br/>果然アール・ヌーボー式なる図案が生まれ、前期印象派の運動が起こり、遂に後期印象派の巨匠としてのゴッホ、ゴーガン、セザンヌ等の鬼才を生むに至ったのである。<br/><br/>そればかりではない、あらゆる美術工芸にまで革命を起こし、遂に建築の様式にまで及ぼす事となった。<br/><br/>建築界においても、それまでのギリシヤ、ローマ式セセッションによって大いなる変化を来しルネッサンス式は影を潜め、近代的建築の様式を生むに到った事は衆知の通りである。<br/><br/>今日世界を風靡している仏のコルビュジエ氏創成の極度に簡素化された建築様式も、その原（もと）の元は光琳の影響である事は否め得ないところである。<br/><br/> 私は死後数百年を経過して俄然全世界を動かした、否人類文化の一分野に革命を起こさしめた日本人光琳こそは、日本が誇る最大なる存在であるといっても過言ではあるまい。<br/><br/> 今日までの日本人にして、その業績が世界のある分野を動かし得たという例は一人もあるまい。<br/><br/>ひとり光琳あるのみと言わざるを得ないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hutata03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再びジャーナリストの考慮を望む 『栄光』249号、昭和29(1954)年2月24日発行 これは一般宗教には当てはまらないかも知れないが、少くとも本教としては言わざるを得ないのである。<br><br>それは何かというと、学者やジャーナリストの宗教に対する見方であって、必ずといいたい程科学の目をもって批判する事である。<br><br>ところがよく考えてみると、これ程不合理な話はあるまい。<br><br>何となれば科学は唯物観念をもって物を見るに反し、宗教は唯心観念をもって見なければならないからである。<br><br>つまり科学は形而下（けいじか）的分野に属し、宗教は形而上（けいじじょう）的分野に属しているからである。<br><br>すなわち前者は地面に立って屋根瓦の表面を見るに対し、宗教は屋根の上から地面を見下すようなもので、この主客転倒に今日まで気付かなかったのである。<br><br> この意味において滑稽（こっけい）なのは、宗教学者達が学問上から宗教を論ずる事である。<br><br>考えてもみるがいい、仮にもしそれが妥当としたら、その宗教の開祖よりも学者の方が上になることになるから、そういう学者こそ一派を立てて生神様になれば、成功疑いなしであろう。<br><br>また新興宗教にしてもそのほとんどは既成宗教を基本としている以上、同様の事が言えると思う。<br><br>しかしそれはそれとして今日学者やジャーナリストが新宗教を批判する場合、まことに皮相浅薄（ひそうせんぱく）な観方である。<br><br>たとえば現当利益、特に病気治しなどは低級だとか、金儲けが目的だとか言って、肝腎な宗教理論には一指（いっし）も触れないことであるのはおかしな話ではあるまいか。<br><br>これについて私の言い分をかいてみるが、他の宗教は知らないが、少くとも我救世教に至っては、現代の学問で分るようなそんな低い程度のものではない。<br><br>全く想像もつかない高度の文化的超宗教であって、偉大なる救いの業である事は、声を大にして言いたいのである。<br><br>言うまでもなく既成宗教的にいかに巧妙な理論や説教をもってしても、それだけで人間を救う事のできないのは事実が示している。<br><br>一例を挙げてみれば今仮に目の前に苦しんでいる病人にむかって枕元で百万陀羅（ひゃくまんだら）有難い御説教や教典を聞かせたとて、なるほど心の慰めにはなるが、病気そのものを治すことはできないのは分りきった話である。<br><br>故に確実に病気を治し健康を快復させ、貧乏も救われ、一家幸福になるとすれば、恒産あれば恒心ありで、自然不正や不道徳も減るに違いないから、よりよき社会となるのは当然である。<br><br>私はこれが宗教としての真のあり方であって、これ以外に何があるかである。<br><br>故にこの意味からいうも彼（か）の釈迦、キリストが、遺憾ながら万人の病気を救い得なかったため、二千有余年を経た今日といえども、相変らず人類は病貧争に苦しみつつあるのであるとしたら人間はいつになったらこの桎梏（しっこく）から免れる事ができるであろうか、恐らく見当はつくまい。<br><br>としたら実に情ない話である。<br><br>これによってみても今日まで世に現われた幾多聖者や賢哲にして、真に救う力をもった者は一人もなかったのである。<br><br>それがため止むなくその諦めを説くのが宗教の建前となってしまったのも宣（むべ）なるかなである。<br><br>ところが喜ぶべし、私はこの夢のごとき真の平和幸福世界を実現する力を神から与えられたのである。<br><br>これは自惚（うぬぼ）れでも何でもない。<br><br>現に不幸に悩める人々を救いつつあり、これが本教の救世事業である。<br><br> 以上によって私という人間がいかなる存在であるかが分ったであろう。<br><br>そうして今日の世の中を大局から眺めてみると、現代文明は実に大いなる誤謬に陥っている。<br><br>今その二、三の例を挙げてみるが、現在日本における最大脳みである食糧問題にしても、また世界的悩みである病気の問題にしてもそれを現わしている。<br><br>しかもそのどちらも進歩は行詰り状態にあって、解決どころか益々溝は深くなるばかりである。<br><br>これらに対し私は根本的解決の方法を神示によって知り得た以上、今や日本は固（もと）より、世界全体に渉って知らしめつつあるので、もちろん主眼とするところは全世界指導者階級の眼を醒まし、新文明の何たるかを知らしめることである。<br><br>つまり小学生の学力をして大学程度にまで引上げる事である。<br><br> 以上の意味において私の説くところ余りに超越しており、学者もジャーナリストも容易に理解できないので、反って一種の恐れさえ抱くらしいのである。<br><br>それというのも本来ならば大いに謳歌（おうか）礼讃（らいさん）すべきが本当であるのに、反って無批判的に非難する人や、触れるのを避ける人などある事実である。<br><br>その現われとして私が最近発行した結核信仰療法及び救世教奇蹟集の両著にしても、日本の三大新聞は一致してその広告を引受けない事である。<br><br>その理由を質（ただ）せば言を左右に託して、真相を言い得ない苦しさであって、これは本教係りの者から聞いた話である。<br><br> これでは現在の日本は言論の自由がない訳で、しかもこの自由の抑圧者が大新聞としたらほとんど信じられない程で、恐らく世界の文明国中例がないであろう。<br><br>しかしそれも無理はないかも知れない。<br><br>何しろ私の説たるや、余りに現代科学を超越しており、ちょうど人力車時代に飛行機を見せるようなものであるからである。<br><br>また昔からいつの時代でも既成学問を覆えす程の画期的発明、発見、新説等を発表するや、例外なくその時代の識者から誤解と迫害を受けるのは歴史が示している。<br><br>ここに先駆者の悩みがあるのである。<br><br>特に日本の知識人程それがはなはだしいのは、例えば今日世界的偉人として万人から仰がれているキリストや釈迦のごとき大聖者より以上の人間は、永久に現われないと決めている事である。<br><br>今一つは日本には外国人より優れた人物は出ないとしている迷蒙である。<br><br>これが国民感情に沁み込んでいる以上、私とそうして私の仕事が認められないのも当然であろう。<br><br> それがため私の言説も事業も、頭から否定してしまい、調査検討など思いもよらないらしいのである。<br><br>特にこの傾向はジャーナリストに多い事は、本来なれば外国にも例を見ない程の画期的偉大なる私の聖業であるから、直に正邪善悪を検討しそうなものだが、そういう事は全然ない。<br><br>私は思う。<br><br>もし研究の結果いささかでも疑問の点があり、社会上マイナスと認めたら、断固排撃し葬り去ると共に、反対に正しい説で、社会人類にプラスであるとしたら、大いに援助すべきではなかろうか。<br><br>それをいつまでもうやむやにしている態度は前記のごとき恐怖感のためか、触らぬ神に祟りなし的事なかれ主義のためか解し難いのである。<br><br>以上私の思うままを記いたのであるが、要するに私はジャーナリストとしての当然な責務を希望するに止まり、それ以上他意はないのである。<br><br>ここに再度の考慮を求むるゆえんである。<br><br> (注) 形而下（けいじか）、形をそなえるもの。<br><br>自然一般の現象。<br><br> 形而上（けいじじょう） 形をもっていないもの。<br><br>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br><br>超自然的、理念的なもの。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um apelo, mais uma vez, à consideração dos jornalistas</h2>
 <p>Embora o que exponho a seguir possa não se aplicar a todas as religiões, sinto-me no dever de fazê-lo em nome de nossa Igreja. Refiro-me à perspectiva com que eruditos e jornalistas analisam a religião, criticando-a, quase invariavelmente, sob a ótica da ciência. Contudo, ao refletirmos com mais profundidade, percebemos que não poderia haver maior disparate. A ciência observa o mundo a partir de uma concepção materialista, ao passo que a religião exige uma abordagem espiritualista. Em outras palavras, a ciência pertence ao domínio do físico (keijika), enquanto a religião se insere no campo do metafísico (keijijou). É como se a primeira, postada no solo, se limitasse a observar a superfície de uma telha, enquanto a segunda, do alto do telhado, contemplasse o solo em sua totalidade. É surpreendente que, até hoje, ninguém tenha se dado conta dessa inversão fundamental de perspectivas.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Em decorrência dessa mentalidade, minhas palavras e minha Obra são rechaçadas de antemão, sem que se cogite sequer investigá-las ou analisá-las. Essa inclinação é notória especialmente entre os jornalistas. Ora, diante de uma Obra Sagrada tão grandiosa e sem precedentes no mundo, o esperado seria que eles se apressassem em averiguar sua veracidade, sua retidão e seus propósitos. No entanto, nada fazem.</p>
 <p>Eu os instigo: se, após uma investigação aprofundada, encontrarem o menor ponto questionável ou considerarem que minha Obra é prejudicial à sociedade, que a ataquem com veemência e a sepultem de uma vez por todas. Por outro lado, se constatarem que meus ensinamentos são justos e benéficos para a humanidade, não seria seu dever apoiá-los com fervor? Essa postura ambígua e omissa, que persiste indefinidamente, é de difícil compreensão. Seria fruto daquele temor que mencionei, ou de uma atitude de omissão, baseada no princípio de não se envolver para não se comprometer?</p>
 <p>Expus aqui os meus pensamentos de forma franca. Em suma, tudo o que anseio é que os jornalistas cumpram com a responsabilidade inerente à sua profissão. Nada mais. É por essa razão que, mais uma vez, solicito a sua devida consideração.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再びジャーナリストの考慮を望む 『栄光』249号、昭和29(1954)年2月24日発行 これは一般宗教には当てはまらないかも知れないが、少くとも本教としては言わざるを得ないのである。<br/><br/>それは何かというと、学者やジャーナリストの宗教に対する見方であって、必ずといいたい程科学の目をもって批判する事である。<br/><br/>ところがよく考えてみると、これ程不合理な話はあるまい。<br/><br/>何となれば科学は唯物観念をもって物を見るに反し、宗教は唯心観念をもって見なければならないからである。<br/><br/>つまり科学は形而下（けいじか）的分野に属し、宗教は形而上（けいじじょう）的分野に属しているからである。<br/><br/>すなわち前者は地面に立って屋根瓦の表面を見るに対し、宗教は屋根の上から地面を見下すようなもので、この主客転倒に今日まで気付かなかったのである。<br/><br/> この意味において滑稽（こっけい）なのは、宗教学者達が学問上から宗教を論ずる事である。<br/><br/>考えてもみるがいい、仮にもしそれが妥当としたら、その宗教の開祖よりも学者の方が上になることになるから、そういう学者こそ一派を立てて生神様になれば、成功疑いなしであろう。<br/><br/>また新興宗教にしてもそのほとんどは既成宗教を基本としている以上、同様の事が言えると思う。<br/><br/>しかしそれはそれとして今日学者やジャーナリストが新宗教を批判する場合、まことに皮相浅薄（ひそうせんぱく）な観方である。<br/><br/>たとえば現当利益、特に病気治しなどは低級だとか、金儲けが目的だとか言って、肝腎な宗教理論には一指（いっし）も触れないことであるのはおかしな話ではあるまいか。<br/><br/>これについて私の言い分をかいてみるが、他の宗教は知らないが、少くとも我救世教に至っては、現代の学問で分るようなそんな低い程度のものではない。<br/><br/>全く想像もつかない高度の文化的超宗教であって、偉大なる救いの業である事は、声を大にして言いたいのである。<br/><br/>言うまでもなく既成宗教的にいかに巧妙な理論や説教をもってしても、それだけで人間を救う事のできないのは事実が示している。<br/><br/>一例を挙げてみれば今仮に目の前に苦しんでいる病人にむかって枕元で百万陀羅（ひゃくまんだら）有難い御説教や教典を聞かせたとて、なるほど心の慰めにはなるが、病気そのものを治すことはできないのは分りきった話である。<br/><br/>故に確実に病気を治し健康を快復させ、貧乏も救われ、一家幸福になるとすれば、恒産あれば恒心ありで、自然不正や不道徳も減るに違いないから、よりよき社会となるのは当然である。<br/><br/>私はこれが宗教としての真のあり方であって、これ以外に何があるかである。<br/><br/>故にこの意味からいうも彼（か）の釈迦、キリストが、遺憾ながら万人の病気を救い得なかったため、二千有余年を経た今日といえども、相変らず人類は病貧争に苦しみつつあるのであるとしたら人間はいつになったらこの桎梏（しっこく）から免れる事ができるであろうか、恐らく見当はつくまい。<br/><br/>としたら実に情ない話である。<br/><br/>これによってみても今日まで世に現われた幾多聖者や賢哲にして、真に救う力をもった者は一人もなかったのである。<br/><br/>それがため止むなくその諦めを説くのが宗教の建前となってしまったのも宣（むべ）なるかなである。<br/><br/>ところが喜ぶべし、私はこの夢のごとき真の平和幸福世界を実現する力を神から与えられたのである。<br/><br/>これは自惚（うぬぼ）れでも何でもない。<br/><br/>現に不幸に悩める人々を救いつつあり、これが本教の救世事業である。<br/><br/> 以上によって私という人間がいかなる存在であるかが分ったであろう。<br/><br/>そうして今日の世の中を大局から眺めてみると、現代文明は実に大いなる誤謬に陥っている。<br/><br/>今その二、三の例を挙げてみるが、現在日本における最大脳みである食糧問題にしても、また世界的悩みである病気の問題にしてもそれを現わしている。<br/><br/>しかもそのどちらも進歩は行詰り状態にあって、解決どころか益々溝は深くなるばかりである。<br/><br/>これらに対し私は根本的解決の方法を神示によって知り得た以上、今や日本は固（もと）より、世界全体に渉って知らしめつつあるので、もちろん主眼とするところは全世界指導者階級の眼を醒まし、新文明の何たるかを知らしめることである。<br/><br/>つまり小学生の学力をして大学程度にまで引上げる事である。<br/><br/> 以上の意味において私の説くところ余りに超越しており、学者もジャーナリストも容易に理解できないので、反って一種の恐れさえ抱くらしいのである。<br/><br/>それというのも本来ならば大いに謳歌（おうか）礼讃（らいさん）すべきが本当であるのに、反って無批判的に非難する人や、触れるのを避ける人などある事実である。<br/><br/>その現われとして私が最近発行した結核信仰療法及び救世教奇蹟集の両著にしても、日本の三大新聞は一致してその広告を引受けない事である。<br/><br/>その理由を質（ただ）せば言を左右に託して、真相を言い得ない苦しさであって、これは本教係りの者から聞いた話である。<br/><br/> これでは現在の日本は言論の自由がない訳で、しかもこの自由の抑圧者が大新聞としたらほとんど信じられない程で、恐らく世界の文明国中例がないであろう。<br/><br/>しかしそれも無理はないかも知れない。<br/><br/>何しろ私の説たるや、余りに現代科学を超越しており、ちょうど人力車時代に飛行機を見せるようなものであるからである。<br/><br/>また昔からいつの時代でも既成学問を覆えす程の画期的発明、発見、新説等を発表するや、例外なくその時代の識者から誤解と迫害を受けるのは歴史が示している。<br/><br/>ここに先駆者の悩みがあるのである。<br/><br/>特に日本の知識人程それがはなはだしいのは、例えば今日世界的偉人として万人から仰がれているキリストや釈迦のごとき大聖者より以上の人間は、永久に現われないと決めている事である。<br/><br/>今一つは日本には外国人より優れた人物は出ないとしている迷蒙である。<br/><br/>これが国民感情に沁み込んでいる以上、私とそうして私の仕事が認められないのも当然であろう。<br/><br/> それがため私の言説も事業も、頭から否定してしまい、調査検討など思いもよらないらしいのである。<br/><br/>特にこの傾向はジャーナリストに多い事は、本来なれば外国にも例を見ない程の画期的偉大なる私の聖業であるから、直に正邪善悪を検討しそうなものだが、そういう事は全然ない。<br/><br/>私は思う。<br/><br/>もし研究の結果いささかでも疑問の点があり、社会上マイナスと認めたら、断固排撃し葬り去ると共に、反対に正しい説で、社会人類にプラスであるとしたら、大いに援助すべきではなかろうか。<br/><br/>それをいつまでもうやむやにしている態度は前記のごとき恐怖感のためか、触らぬ神に祟りなし的事なかれ主義のためか解し難いのである。<br/><br/>以上私の思うままを記いたのであるが、要するに私はジャーナリストとしての当然な責務を希望するに止まり、それ以上他意はないのである。<br/><br/>ここに再度の考慮を求むるゆえんである。<br/><br/> (注) 形而下（けいじか）、形をそなえるもの。<br/><br/>自然一般の現象。<br/><br/> 形而上（けいじじょう） 形をもっていないもの。<br/><br/>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br/><br/>超自然的、理念的なもの。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

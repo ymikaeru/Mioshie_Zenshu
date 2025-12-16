@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkamado</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 瓦カマドに浄霊 ――等外品なしの上成績得る―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 岐阜県 日本五六七教清霊会 細野弘子（23） 顧みますれば昭和二十一年八月母が胃痙攣を起し苦しんでいるところ目前で救われ、その偉大なる力に驚き、そして一人でも多く苦悶の底にある方々をお救いしたいと思う一念で九月教修を受け入信させて頂きました。<br><br> 家業は土瓦製造業で二十余年営んでおります。<br><br>ところが気に入った瓦は一年を通じて二、三回しか出来ません。<br><br>先生より浄霊についてお話を承り本年一月に初めて瓦窯に浄霊をしました。<br><br>まず観音様にお参りして全く無我の境地で窯に浄霊をしました。<br><br>丁度その日は窯炊きで四日目に窯の口をあけ、瓦を出すのですからその日より四日間いつもより早く起床し浄霊をしました。<br><br>四日目にはもうじっとしていることが出来ず早速窯へ急ぐ、父母は一心に窯あけをしている。<br><br>まあどうでしょう。<br><br>一窯千枚入りの窯で今迄の成績は平均上等六百枚、二等三百枚、等外百枚でしたが、驚いた事には上等瓦が七百枚、二等は二百九十枚、等外は四枚と言う素晴しい御利益を頂きました。<br><br>そして二回目は等外は一枚もなしです。<br><br> ただ余りの不思議さ有難さに驚き感謝に堪えず、今では家内全部信者となり喜びの生活を送っております。<br><br>このような大きな御利益を頂き皆様にも安く販売して共に喜んでいる次第でございます。<br><br>この嬉しさを同村の業者にも話し観音様の御霊徳を讃え感謝と歓喜の日々を送っております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Johrei no Forno de Telhas — Obtendo Resultados Superiores sem Peças Defeituosas</h2>
 <p><strong>Coletânea de Artigos do Mestre Jikan Okada</strong>
@@ -99,5 +254,48 @@ function toggleLang(lang) {
 <p>No quarto dia, incapaz de conter a ansiedade, corri até o local. Encontrei meus pais absortos na tarefa de abrir o forno. E qual não foi minha surpresa! Em um forno com capacidade para mil telhas, nosso rendimento médio até então era de seiscentas peças de primeira qualidade, trezentas de segunda e cem peças defeituosas. Para nosso assombro, desta vez recebemos a maravilhosa graça de setecentas telhas de primeira qualidade, duzentas e noventa de segunda e apenas quatro defeituosas. Na segunda vez que realizamos o mesmo procedimento, não houve uma única peça defeituosa.</p>
 <p>Tomados de assombro e de uma gratidão imensurável por tão extraordinário milagre, hoje, toda a minha família se tornou membro da Fé, e vivemos dias plenos de alegria. Por termos sido agraciados com uma bênção tão grandiosa, podemos agora comercializar as telhas por um valor mais acessível, compartilhando a alegria com todos.</p>
 <p>Relatei esta felicidade aos demais fabricantes de nossa aldeia, e agora passamos nossos dias louvando a virtude espiritual de Kannon (観音), em um estado de constante gratidão e júbilo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 瓦カマドに浄霊 ――等外品なしの上成績得る―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 岐阜県 日本五六七教清霊会 細野弘子（23） 顧みますれば昭和二十一年八月母が胃痙攣を起し苦しんでいるところ目前で救われ、その偉大なる力に驚き、そして一人でも多く苦悶の底にある方々をお救いしたいと思う一念で九月教修を受け入信させて頂きました。<br/><br/> 家業は土瓦製造業で二十余年営んでおります。<br/><br/>ところが気に入った瓦は一年を通じて二、三回しか出来ません。<br/><br/>先生より浄霊についてお話を承り本年一月に初めて瓦窯に浄霊をしました。<br/><br/>まず観音様にお参りして全く無我の境地で窯に浄霊をしました。<br/><br/>丁度その日は窯炊きで四日目に窯の口をあけ、瓦を出すのですからその日より四日間いつもより早く起床し浄霊をしました。<br/><br/>四日目にはもうじっとしていることが出来ず早速窯へ急ぐ、父母は一心に窯あけをしている。<br/><br/>まあどうでしょう。<br/><br/>一窯千枚入りの窯で今迄の成績は平均上等六百枚、二等三百枚、等外百枚でしたが、驚いた事には上等瓦が七百枚、二等は二百九十枚、等外は四枚と言う素晴しい御利益を頂きました。<br/><br/>そして二回目は等外は一枚もなしです。<br/><br/> ただ余りの不思議さ有難さに驚き感謝に堪えず、今では家内全部信者となり喜びの生活を送っております。<br/><br/>このような大きな御利益を頂き皆様にも安く販売して共に喜んでいる次第でございます。<br/><br/>この嬉しさを同村の業者にも話し観音様の御霊徳を讃え感謝と歓喜の日々を送っております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gorei</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御霊光 『光明世界』2号、昭和10(1935)年3月4日発行 これからいよいよこの観音会を機関とされて、観音様が観音力を揮われるという事は、実に開闢（かいびゃく）以来無い事であって、人間では想像もつかぬ事で、これをなる程と思う所まで話すのは、実に難しい事なんで初めて聞く人は不思議過ぎてとても本当に出来ぬ事が多いのであります。<br><br>それ故私は加減して話しているんであって、実地有りのまんまを話すと、反って誇大妄想的に思われやしないかと思うんであります。<br><br>ですから何よりもまず一度御神体をお祭りして、拝んで下されば直ぐに判るのであります。<br><br>必ず不思議な御霊徳を受けるのであって、お祭りをしてから時日が経つに随って一家にある事すべてが良い方へ善い方へと向って行くのは実に不思議なのであります。<br><br>つまり病気が無くなり、金銭に困らなくなり、心配する様な問題等、すらすらと片付いて行くのであります。<br><br>これはどういう訳かと申しますと、大きな光に照らされるからであります。<br><br>それについて最近こういう話があります。<br><br>ある方が文字の観音様の御神体をお祭りされたんでありますが――私の所へ来て、聞かれますには、先生のお書きになった「文字の墨」には何かお入れになるんですか、と云うのです。<br><br> 私は、イヤとんでもない墨だけで書くんです、と答えますとどうも奇体だ、お軸の大聖観世音と書いてある字が真白に光るんで、私は燐（リン）でもお入れになったのかと思ったんです。<br><br>そしてジーッと拝んでおりますと、字がそのまま白い光になって、その光った文字が脇の壁に有々（ありあり）映って、大聖観世音とそのまま出るのでこれは暗い為であろうと、日の当る頃太陽の光を射す様にして見ても、矢張り同じように見える。<br><br>するとこちらの壁へ写ったかと思うと又消えて、あちらの壁へ写る。<br><br>そして大きくなったり小さくなったりする。<br><br>そうかと思うとお掛軸の上の方から紫のような、雲のような、光が出て来て種々の変化をする。<br><br>つまりそれは瑞雲でありまして、その瑞雲が下の方からも湧き、あちらからもこちらからも出て来るかと思うと、あちらへ行ったりこちらへ行ったりして、ちょうどネオンサインのようで、とても綺麗でいつまで見ていても飽きないと言うのです。<br><br> それについて私も詳しく説明して上げたので、やっと判られた様な訳であります。<br><br>そのお宅に一寸面白い話がありますから、お話します。<br><br>その御婦人はどうして観音様をお祭りしたかと思うと、その家に十位の男の子があるんであります。<br><br>しかし生れ付に言葉がはっきりしない。<br><br>全然口が利けないのじゃなくて、ただはっきりしないのであります。<br><br>アイウエオだけがハッキリ言えぬだけで、後ははっきり言えるのであります。<br><br>チョイチョイお出でになる裡（うち）に、ちょうど半分位良くなった時に、観音様をお祭りしたんであります。<br><br>その子供は、最初頭に瘤（こぶ）があるから、それを熔（とか）しました。<br><br>それが荒方（あらかた）解けると最初来られた時には、ボーッとしていたんでありますが、非常にはっきりして来て瘤が除れる頃は眼付も大変よくなり頭もとても良くなって従って、学校の成績も驚く程良くなって来たんであります。<br><br>段々査べてみると犬の霊が祟（たた）っている事が判ったんであります。<br><br>それはその子のお父さんが犬を殺した事があるのです。<br><br>アイウエオの音だけはっきり言えないと言う事は犬である事を証拠立てているのであります。<br><br>大抵の動物は七十五音の内どれか一種を発する事が出来るのです。<br><br> 犬は、ワヰウヱヲの音で、ワンワンと鳴き、ウーウーと唸り、足等踏まれたり、轢（ひ）かれたりした時はヰーヰーと呻（うめ）き遠吠えする時は、ヲーヲーと鳴くのは、皆さんも御存じの通りであります。<br><br>その他猿はカキクケコ、鼠はタチツテト、牛はマミムメモ、馬はハヒフヘホと言う様に各動物は一種の音声を特徴として神から与えられているのであります。<br><br>犬が祟って、憑っている為に人間の舌や発声機関を使うのは適しないから、その声だけがはっきりしないんで、又その頭の瘤は犬が殴られた所なのでそれが致命傷になったのであります。<br><br>それが判ったから早速その犬を私は祀ってやった所、病気もどんどん良くなって昨今はほとんど快くなったんであります。<br><br>そのお母さんが光を拝まれたのであります。<br><br>こういうお光は、大抵な方は拝まれます。<br><br>その光が種々あって色は金色紫色紅色等が多く、その中でも白金色が一番多いのであります。<br><br> その訳は「神体」を書く場合、「観音光」が私の手と筆を通して文字の中へ入って行くんであります。<br><br>それが為に文字やお像から絶えず光を放射するんであります。<br><br>その光に依って一家の罪障が除れるんであります。<br><br>罪障とは、罪の障（さわ）りと書くんで、この障りが解消して行くんであります。<br><br>一軒の家に不倖せがあるのは、罪が障っているからなんで、罪障の多い家程、それが一つの層になっていていつもお話をする、霊界、その家の霊界を暗くしているんで、罪の多い程、その家の霊界は暗いんであって、暗黒の濃い程悪魔が災害を与えようとして、跳躍し易いのであります。<br><br>悪魔は人間に隙さえあれば、災害を与え苦しませようと、絶えず、狙っているもので、人間に病貧争の悩み苦しみを与えるのは彼らの天賦的本能とも言うべきなんであります。<br><br>故に暗い家程悪魔の力が強いという事は当然な事であります。<br><br> 暗黒の度の強い家と言う事は、一家に罪障が多いと言う事であって、罪障はすべて曇りになり、その曇りが暗黒を造るんでありますからそれと反対に正しい信仰をし、善を施し、徳を積めば、それが光となって曇りを減らして行くのであります。<br><br>こういう説明は信仰的でなくむしろ科学的であると思います。<br><br>それで観音様のお光は何んであるかと言うと、太陽と月の両方の光を一つにした光なのでありまして、強さは太陽の光と同一でありますが、太陽のごとく、眩（まぶ）しくなくギラギラ光らないのであります。<br><br>又観音様のお光は金色と紫の光をよく拝む事がありますが、金色は表の光で紫は裏の光であります。<br><br>詰り金色は日の光で紫は月の光であります。<br><br>千手観音様の霊写真に私の腹の横から出ている光がその光であって、写真を御覧になった方は非常に強い光であるという事は想像が出来る事と思います。<br><br> （仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Manifestação da Luz de Kannon</h2>
 <p>A partir de agora, Kannon (観音) utilizará esta associação como Seu instrumento para manifestar plenamente o Seu poder. Trata-se de um acontecimento sem precedentes desde o alvorecer da criação, algo que a mente humana sequer consegue conceber. Explicar tal grandiosidade até o ponto em que se torne compreensível é uma tarefa deveras complexa; de fato, para aqueles que ouvem sobre isso pela primeira vez, o relato soa tão extraordinário que muitos relutam em aceitá-lo como verdade.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Um lar com um alto grau de escuridão é, portanto, um lar com muitas máculas espirituais. Essas máculas se convertem em nuvens que geram a penumbra. Em contrapartida, a fé verdadeira, a prática do bem e o acúmulo de virtudes geram Luz, que, por sua vez, dissipa essas nuvens. Creio que esta explicação seja mais científica do que meramente religiosa.</p>
 <p>E o que é, afinal, a Luz de Kannon (観音)? É a Luz que unifica a do Sol e a da Lua. Sua intensidade é a mesma da luz solar, porém, não ofusca nem possui um brilho agressivo. É comum também que as pessoas visualizem a Luz de Kannon (観音) nas cores dourada e púrpura. A dourada é a luz da frente, e a púrpura, a luz de trás. Em outras palavras, a dourada é a luz do Sol, e a púrpura, a da Lua. Na fotografia espiritual da estátua de Senju Kannon, a luz que emana da lateral de meu ventre é precisamente essa Luz. Aqueles que já viram a fotografia podem imaginar a sua extraordinária intensidade.</p>
 <p>(Jinsai - 仁斎)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御霊光 『光明世界』2号、昭和10(1935)年3月4日発行 これからいよいよこの観音会を機関とされて、観音様が観音力を揮われるという事は、実に開闢（かいびゃく）以来無い事であって、人間では想像もつかぬ事で、これをなる程と思う所まで話すのは、実に難しい事なんで初めて聞く人は不思議過ぎてとても本当に出来ぬ事が多いのであります。<br/><br/>それ故私は加減して話しているんであって、実地有りのまんまを話すと、反って誇大妄想的に思われやしないかと思うんであります。<br/><br/>ですから何よりもまず一度御神体をお祭りして、拝んで下されば直ぐに判るのであります。<br/><br/>必ず不思議な御霊徳を受けるのであって、お祭りをしてから時日が経つに随って一家にある事すべてが良い方へ善い方へと向って行くのは実に不思議なのであります。<br/><br/>つまり病気が無くなり、金銭に困らなくなり、心配する様な問題等、すらすらと片付いて行くのであります。<br/><br/>これはどういう訳かと申しますと、大きな光に照らされるからであります。<br/><br/>それについて最近こういう話があります。<br/><br/>ある方が文字の観音様の御神体をお祭りされたんでありますが――私の所へ来て、聞かれますには、先生のお書きになった「文字の墨」には何かお入れになるんですか、と云うのです。<br/><br/> 私は、イヤとんでもない墨だけで書くんです、と答えますとどうも奇体だ、お軸の大聖観世音と書いてある字が真白に光るんで、私は燐（リン）でもお入れになったのかと思ったんです。<br/><br/>そしてジーッと拝んでおりますと、字がそのまま白い光になって、その光った文字が脇の壁に有々（ありあり）映って、大聖観世音とそのまま出るのでこれは暗い為であろうと、日の当る頃太陽の光を射す様にして見ても、矢張り同じように見える。<br/><br/>するとこちらの壁へ写ったかと思うと又消えて、あちらの壁へ写る。<br/><br/>そして大きくなったり小さくなったりする。<br/><br/>そうかと思うとお掛軸の上の方から紫のような、雲のような、光が出て来て種々の変化をする。<br/><br/>つまりそれは瑞雲でありまして、その瑞雲が下の方からも湧き、あちらからもこちらからも出て来るかと思うと、あちらへ行ったりこちらへ行ったりして、ちょうどネオンサインのようで、とても綺麗でいつまで見ていても飽きないと言うのです。<br/><br/> それについて私も詳しく説明して上げたので、やっと判られた様な訳であります。<br/><br/>そのお宅に一寸面白い話がありますから、お話します。<br/><br/>その御婦人はどうして観音様をお祭りしたかと思うと、その家に十位の男の子があるんであります。<br/><br/>しかし生れ付に言葉がはっきりしない。<br/><br/>全然口が利けないのじゃなくて、ただはっきりしないのであります。<br/><br/>アイウエオだけがハッキリ言えぬだけで、後ははっきり言えるのであります。<br/><br/>チョイチョイお出でになる裡（うち）に、ちょうど半分位良くなった時に、観音様をお祭りしたんであります。<br/><br/>その子供は、最初頭に瘤（こぶ）があるから、それを熔（とか）しました。<br/><br/>それが荒方（あらかた）解けると最初来られた時には、ボーッとしていたんでありますが、非常にはっきりして来て瘤が除れる頃は眼付も大変よくなり頭もとても良くなって従って、学校の成績も驚く程良くなって来たんであります。<br/><br/>段々査べてみると犬の霊が祟（たた）っている事が判ったんであります。<br/><br/>それはその子のお父さんが犬を殺した事があるのです。<br/><br/>アイウエオの音だけはっきり言えないと言う事は犬である事を証拠立てているのであります。<br/><br/>大抵の動物は七十五音の内どれか一種を発する事が出来るのです。<br/><br/> 犬は、ワヰウヱヲの音で、ワンワンと鳴き、ウーウーと唸り、足等踏まれたり、轢（ひ）かれたりした時はヰーヰーと呻（うめ）き遠吠えする時は、ヲーヲーと鳴くのは、皆さんも御存じの通りであります。<br/><br/>その他猿はカキクケコ、鼠はタチツテト、牛はマミムメモ、馬はハヒフヘホと言う様に各動物は一種の音声を特徴として神から与えられているのであります。<br/><br/>犬が祟って、憑っている為に人間の舌や発声機関を使うのは適しないから、その声だけがはっきりしないんで、又その頭の瘤は犬が殴られた所なのでそれが致命傷になったのであります。<br/><br/>それが判ったから早速その犬を私は祀ってやった所、病気もどんどん良くなって昨今はほとんど快くなったんであります。<br/><br/>そのお母さんが光を拝まれたのであります。<br/><br/>こういうお光は、大抵な方は拝まれます。<br/><br/>その光が種々あって色は金色紫色紅色等が多く、その中でも白金色が一番多いのであります。<br/><br/> その訳は「神体」を書く場合、「観音光」が私の手と筆を通して文字の中へ入って行くんであります。<br/><br/>それが為に文字やお像から絶えず光を放射するんであります。<br/><br/>その光に依って一家の罪障が除れるんであります。<br/><br/>罪障とは、罪の障（さわ）りと書くんで、この障りが解消して行くんであります。<br/><br/>一軒の家に不倖せがあるのは、罪が障っているからなんで、罪障の多い家程、それが一つの層になっていていつもお話をする、霊界、その家の霊界を暗くしているんで、罪の多い程、その家の霊界は暗いんであって、暗黒の濃い程悪魔が災害を与えようとして、跳躍し易いのであります。<br/><br/>悪魔は人間に隙さえあれば、災害を与え苦しませようと、絶えず、狙っているもので、人間に病貧争の悩み苦しみを与えるのは彼らの天賦的本能とも言うべきなんであります。<br/><br/>故に暗い家程悪魔の力が強いという事は当然な事であります。<br/><br/> 暗黒の度の強い家と言う事は、一家に罪障が多いと言う事であって、罪障はすべて曇りになり、その曇りが暗黒を造るんでありますからそれと反対に正しい信仰をし、善を施し、徳を積めば、それが光となって曇りを減らして行くのであります。<br/><br/>こういう説明は信仰的でなくむしろ科学的であると思います。<br/><br/>それで観音様のお光は何んであるかと言うと、太陽と月の両方の光を一つにした光なのでありまして、強さは太陽の光と同一でありますが、太陽のごとく、眩（まぶ）しくなくギラギラ光らないのであります。<br/><br/>又観音様のお光は金色と紫の光をよく拝む事がありますが、金色は表の光で紫は裏の光であります。<br/><br/>詰り金色は日の光で紫は月の光であります。<br/><br/>千手観音様の霊写真に私の腹の横から出ている光がその光であって、写真を御覧になった方は非常に強い光であるという事は想像が出来る事と思います。<br/><br/> （仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

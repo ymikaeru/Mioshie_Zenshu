@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkyoui2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 驚異的大豆、里芋の自然栽培 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 静岡県 愛進中教会 山田久一（45） 大豆は普通田の畦や土手等に播いておりますが、私は昨年より定植法に切替え、四月中旬田圃へ播種（発芽四月二十三日頃）いたしまして、前作の麦の刈入れ前の五月十五日、麦の間へ定植いたしました。<br><br>（畝巾四尺、株間二尺、一本植） 手入れといたしましては七月初旬と中旬の二回土寄せをいたしましたのみで、浄霊はいたしませんでした。<br><br>発育状況は概して順調で開花は七月下旬頃より始まりました。<br><br>土地は普通地で二年前より自然栽培に切替えております。<br><br>（前作甘藷麦） 左に掲げました有肥との対照表は、有肥の播種六月中旬に対し、自然栽培は五十日早く、有肥は直播三本立に比し、自然栽培は定植一本植であります点が相違致しますことと、（土地は何れも畑普通地）枝豆として完熟前早期にとりました為に、収穫期十月下旬（枝豆としては十月上旬とり入れ）までには相当収穫量も変っております。<br><br> 気付きました点は、株間二尺としました為空莢が多く、来年は三尺の株間にいたし、試験的に定植時に摘芯をいたしたいとも考えております。<br><br> 大豆自然、有肥対照表 自然栽培 有肥栽培 耕 作 者 山田久一（45） 池野英二（60） 自然年次 種四年目、畑二年 全 重 量 約三八六匁 約一一〇匁 丈 二尺六寸 約二尺 莢数 三粒 七三箇 一箇 二粒 三二七箇 一〇三箇 一粒 一五四箇 五一箇 空莢 四五箇 一〇箇 莢数 合計 五九九箇 一六五箇 総粒数 一〇二七粒 二六〇粒 幹 八分 二分 周 囲 五尺八寸 二尺六寸 播 種 四月十五日 六月中旬 耕 作 五月十五日定植 三粒位直播、耕 一本植土寄せ 作せず、施肥灰 七月上旬中旬 とヌカ、過燐酸 土 地 普通、畑 普通、畑 開 花 七月下旬 不明 刈 入 十月下旬 十月下旬 次に里芋の自然栽培に好成績を頂きましたので御報告申し上げます。<br><br> 里芋（赤目芋）の自然、有肥対照表 栽培者氏名 山田久一 杉村豊比虎 施 肥 堆肥 元肥、追肥 厩肥、加性肥 品 種 赤目 赤目 種 子 自然二年 有肥 草 丈 五尺八寸 五尺一寸 全 重 量 二貫八三〇匁 九四〇匁 箇 数 七九箇 四三箇 親五、子七 親二、子四一 作付面積 二〇坪 三〇坪 株間・畝巾 二尺五寸×四尺 一尺五寸×二尺 土寄回数 三回 二回 前 作 麦 栽培法 自然 四月中旬種下し、麦の間へ一寸三寸平方に足で踏みつけ、種子芋を芽の出る方を上にして周囲へ堆肥約一貫目施し、二寸厚みに土をかぶせ軽く押さえる。<br><br>本葉五寸－七寸位の時第一回土寄せ、木葉が一尺以上になって第二回の土寄せ、三回目の土寄せは土用前に終る。<br><br>その際植付時と同量の堆肥を施し土寄は最大限にする。<br><br>土地は砂質土 有肥 四月上旬種下し土寄せ二回、元肥－厩肥、追肥－加性肥料、土地は保水力ある砂質土。<br><br> ◎自然、有肥共に収穫期は十一月中旬、対照表数字は収穫期前の十月下旬早掘の成績。<br><br> ◎赤目芋の茎は太干（ふとぼし）として副食となります。<br><br> ◎写真の資料〔略〕は有肥は畑中で最も成績のよいものを選びました。<br><br>自然は中位のものです。<br><br> 明主様誠に有難うございました。<br><br>謹みて御礼申し上げます。<br><br> （昭和二十八年二月二十六日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Surpreendente Cultivo Natural da Soja e do Inhame-Taro</h2>
 <p>Revista Eikou, nº 198, 4 de março de 1953
@@ -143,5 +298,48 @@ Igreja Aishin-Chuu, Província de Shizuoka</p>
 </ul>
 <p>A Meishu-Sama, minha mais profunda e sincera gratidão.</p>
 <p>(Relato de 26 de fevereiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 驚異的大豆、里芋の自然栽培 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 静岡県 愛進中教会 山田久一（45） 大豆は普通田の畦や土手等に播いておりますが、私は昨年より定植法に切替え、四月中旬田圃へ播種（発芽四月二十三日頃）いたしまして、前作の麦の刈入れ前の五月十五日、麦の間へ定植いたしました。<br/><br/>（畝巾四尺、株間二尺、一本植） 手入れといたしましては七月初旬と中旬の二回土寄せをいたしましたのみで、浄霊はいたしませんでした。<br/><br/>発育状況は概して順調で開花は七月下旬頃より始まりました。<br/><br/>土地は普通地で二年前より自然栽培に切替えております。<br/><br/>（前作甘藷麦） 左に掲げました有肥との対照表は、有肥の播種六月中旬に対し、自然栽培は五十日早く、有肥は直播三本立に比し、自然栽培は定植一本植であります点が相違致しますことと、（土地は何れも畑普通地）枝豆として完熟前早期にとりました為に、収穫期十月下旬（枝豆としては十月上旬とり入れ）までには相当収穫量も変っております。<br/><br/> 気付きました点は、株間二尺としました為空莢が多く、来年は三尺の株間にいたし、試験的に定植時に摘芯をいたしたいとも考えております。<br/><br/> 大豆自然、有肥対照表 自然栽培 有肥栽培 耕 作 者 山田久一（45） 池野英二（60） 自然年次 種四年目、畑二年 全 重 量 約三八六匁 約一一〇匁 丈 二尺六寸 約二尺 莢数 三粒 七三箇 一箇 二粒 三二七箇 一〇三箇 一粒 一五四箇 五一箇 空莢 四五箇 一〇箇 莢数 合計 五九九箇 一六五箇 総粒数 一〇二七粒 二六〇粒 幹 八分 二分 周 囲 五尺八寸 二尺六寸 播 種 四月十五日 六月中旬 耕 作 五月十五日定植 三粒位直播、耕 一本植土寄せ 作せず、施肥灰 七月上旬中旬 とヌカ、過燐酸 土 地 普通、畑 普通、畑 開 花 七月下旬 不明 刈 入 十月下旬 十月下旬 次に里芋の自然栽培に好成績を頂きましたので御報告申し上げます。<br/><br/> 里芋（赤目芋）の自然、有肥対照表 栽培者氏名 山田久一 杉村豊比虎 施 肥 堆肥 元肥、追肥 厩肥、加性肥 品 種 赤目 赤目 種 子 自然二年 有肥 草 丈 五尺八寸 五尺一寸 全 重 量 二貫八三〇匁 九四〇匁 箇 数 七九箇 四三箇 親五、子七 親二、子四一 作付面積 二〇坪 三〇坪 株間・畝巾 二尺五寸×四尺 一尺五寸×二尺 土寄回数 三回 二回 前 作 麦 栽培法 自然 四月中旬種下し、麦の間へ一寸三寸平方に足で踏みつけ、種子芋を芽の出る方を上にして周囲へ堆肥約一貫目施し、二寸厚みに土をかぶせ軽く押さえる。<br/><br/>本葉五寸－七寸位の時第一回土寄せ、木葉が一尺以上になって第二回の土寄せ、三回目の土寄せは土用前に終る。<br/><br/>その際植付時と同量の堆肥を施し土寄は最大限にする。<br/><br/>土地は砂質土 有肥 四月上旬種下し土寄せ二回、元肥－厩肥、追肥－加性肥料、土地は保水力ある砂質土。<br/><br/> ◎自然、有肥共に収穫期は十一月中旬、対照表数字は収穫期前の十月下旬早掘の成績。<br/><br/> ◎赤目芋の茎は太干（ふとぼし）として副食となります。<br/><br/> ◎写真の資料〔略〕は有肥は畑中で最も成績のよいものを選びました。<br/><br/>自然は中位のものです。<br/><br/> 明主様誠に有難うございました。<br/><br/>謹みて御礼申し上げます。<br/><br/> （昭和二十八年二月二十六日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsinon</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 神恩の泉の奇蹟 （稲荷退散――水気のない所に泉湧く） 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 長崎県 光宝大教会 細井エミ（52） 明主様日々御守護戴きまして有難うございます。<br><br>私は栄光第一一八号に「稲荷信仰十五年の泥沼から救われて」とのおかげ話を御発表戴きました者でございます。<br><br> 以前家の中に祀っておりました稲荷を一時裏の空地の端の方に祀っておりましたが、いろいろとお話を伺っております間に、次第に稲荷に対する執着がとれて参りましたので御処分いただき、その空地に花を植えましたが、裏に出ます度に何か変に物淋しい気持になって参りますので、教会の先生にお尋ね申しましたところ「それではよく御浄霊を戴き、又空地も御浄霊さして戴いたらよいでしょう」と申されました。<br><br>その日から早速空地を御浄霊さして戴いておりました。<br><br>その内に何だかそこいらが湿っぽくなって参りました。<br><br>しかし今までそのような気配もありませんでしたので別に気にもとめていませんでしたが、次第にその湿りが強くなり、水が出始めたのではないかと思われる程になりました。<br><br>何だか不思議な気持で少し掘ってみますと、何と驚くではございませんか。<br><br>この家に住みましてから十六年間、少しの水気すら無かった所から、こんこんと澄みきった美しい水が湧き出て参ったのでございます。<br><br> 私の村は炭坑地帯で、地下を坑道が通っております。<br><br>そのために水気が減じ、炭坑開発以来井戸水はほとんどなくなり、水田は水が涸れて耕作が困難になりましたために、畠に切替えているのでございます。<br><br>その上又今年は大旱魃で、今まで出ていた井戸水さえ干上るというその折も折、今まで全然水気の無かった所から、冷たい泉が湧出るとは、何という大きな奇蹟を戴いた事でございましょう。<br><br>全く夢にも思わぬ有難いお蔭を戴きました。<br><br>本当に有難うございました。<br><br> 近所の方もいろいろと話合っておられましたが、「結局どんなに考えても理屈が分らぬ。<br><br>全く信仰のお蔭だ、不思議な事だ」と申しておられます。<br><br>その後もずっと毎朝五時半頃から九時、十時頃まで、桶で五、六荷程、ちょうど時間給水のように出して戴きますので、近所の人々とも分け合って、皆さん方に非常に喜んで戴いておりましたが、二日間雨が降り、雨が降れば家の中も一ぱいになる程水が出て困りはしないか、と思っておりましたら、ピタリと止ってしまって一滴も出ません。<br><br>「これは益々おかしい、どうしてだろう」と主人と話合ってみました。<br><br>そうして、これはお蔭の戴きっ放しで何ら御恵みにお報い奉ることがなかったからであろうと、気付かせていただきましたので、ちょうどその時山内さん方に出張教修においで下さった先生に、御守護御礼をお願いに参りました。<br><br>そこで先生に書いて戴いて御神前にお供えし、明主様に御詫びと御礼と御願をさしていただき帰宅致しました。<br><br> 帰ってみまして再び吃驚致しました。<br><br>出掛けてから帰るまで十分、長くとも二十分は経っておりません。<br><br>それに時刻は午後四時なのでございますが、井戸に満水してこぼれているではございませんか。<br><br>今までに午前と時刻のきまっていた事を思い、有難いとお礼申し上げるの外、何とも形容の言葉もなく、早速飛ぶようにして御報告に行かせていただき、今までの不心得を深くお詫びさしていただきました。<br><br>全く申訳ない次第でございます。<br><br> それから調子よく出して戴きますので、少し欲を出しまして水の出る間井戸の側につきっきりにいるのも大変だ、と思い、少し大きく穴を拡げました。<br><br>水の出口には全然関係ないようにして掘り、セメントで縁を塗ったのでございますが、いよいよ仕上ってみますと再び水の出が悪くなりました。<br><br>何という不可思議な事でございましよう。<br><br>これが想念の狂いと申すものでございましょうか、ここでも又一つ教えていただきました。<br><br> お蔭様で今日では又毎日勢よく給麗な水をいただいております。<br><br> 明主様まことに有難うございました。<br><br> これより少し前の事でございました。<br><br>家の上手の畠に草をとりに上りました。<br><br>そのとき足をちょっとすべらせ、ハッと思った途端に手をつきましたが、その時全身にこたえるような痛みを感じ、見ますと手頸の骨が「く」の字に曲っており、見る見る内に大きく腫れ上って参ります。<br><br>その痛い事は言語に絶する程で、冷汗が流れ、気が遠くなり、吐気さえ催します。<br><br>心の中でお詫び申し上げながら、大急ぎで家に帰り、主人に御浄霊をお願いしました。<br><br>痛みは次第にうすれて参りましたが、手頸は曲ったまま丸腫れしておりました。<br><br>自分で引張って伸す勇気はなく、以前「折れた骨は整骨して御浄霊いただいてもよい」という事をお伺いしたように思いましたので、接ぐだけならよかろうと骨つぎに行きました。<br><br>「どうぞただ骨を接ぐだけにして薬を塗らないでくれますように」とお念じしつつ接骨医の所に参りました。<br><br>接骨医は手頸を直して「細井さんは手をこうすれば（浄霊の事）よいというから薬は塗らなくとも良いだろう」といかにもひやかしたように言いました。<br><br>私は内心ホッと致し「はい結構です」と言って帰り、早速御礼申し上げて御浄霊をいただきました。<br><br>翌日はまだ幾分腫れてはおりましたが痛みはございませんでしたので、洗濯を致しました。<br><br>絞ります時ちょっと痛みを感じる位で別に何ともなくさせていただくことが出来ました。<br><br>一週間せぬうちに仕事には全然差支えなくなしていただき、二週間目には全く腫れもひき、元のようにしていただきました。<br><br>本当に有難いことでございます。<br><br>若い者であれば骨も早く接がるけれども、年を取ると中々一月もそれ以上もかかると申しますのに、嘘みたいに早く治して戴き、近所の方々も驚いておられます。<br><br>まことに有難うございます。<br><br> ひどい骨折も僅かの日数で完全に治していただき、十六年も水気のない所からは素晴しいつめたい清水まで御恵み賜わり、数々の御守護に何と御礼の申し上げようもございません。<br><br> 明主様真に有難うございました。<br><br>数ならぬ身ながら、この有難い御教えを一人でも多く、早くお取次さして頂きたいと思いまして、つとめさしていただいております。<br><br>何卒御用の一端にでも御使い賜わりますようよろしく御願い申し上げます。<br><br> （昭和二十六年十一月十一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre da Fonte da Graça Divina (O Afastamento de Inari — Uma Fonte Brota em Terra Seca)</h2>
 <p>Publicado na Coletânea de Milagres da Sekai Kyuseikyo em 10 de setembro de 1953.
@@ -106,5 +261,48 @@ Himeji Emi (52 anos), Igreja Koho, Nagasaki</p>
 <p>Uma fratura grave foi completamente curada em poucos dias; de um lugar seco por dezesseis anos, recebi a dádiva de uma maravilhosa fonte de água fresca. Diante de tantas graças, não encontro palavras para expressar minha gratidão.</p>
 <p>Meishu-Sama, agradeço-Lhe do fundo do meu coração. Embora eu seja uma pessoa insignificante, desejo me empenhar para transmitir estes sagrados Ensinamentos ao maior número de pessoas, o mais rápido possível. Rogo-Lhe que me permita ser útil, ainda que em uma ínfima parcela de Sua Obra.</p>
 <p>(11 de novembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 神恩の泉の奇蹟 （稲荷退散――水気のない所に泉湧く） 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 長崎県 光宝大教会 細井エミ（52） 明主様日々御守護戴きまして有難うございます。<br/><br/>私は栄光第一一八号に「稲荷信仰十五年の泥沼から救われて」とのおかげ話を御発表戴きました者でございます。<br/><br/> 以前家の中に祀っておりました稲荷を一時裏の空地の端の方に祀っておりましたが、いろいろとお話を伺っております間に、次第に稲荷に対する執着がとれて参りましたので御処分いただき、その空地に花を植えましたが、裏に出ます度に何か変に物淋しい気持になって参りますので、教会の先生にお尋ね申しましたところ「それではよく御浄霊を戴き、又空地も御浄霊さして戴いたらよいでしょう」と申されました。<br/><br/>その日から早速空地を御浄霊さして戴いておりました。<br/><br/>その内に何だかそこいらが湿っぽくなって参りました。<br/><br/>しかし今までそのような気配もありませんでしたので別に気にもとめていませんでしたが、次第にその湿りが強くなり、水が出始めたのではないかと思われる程になりました。<br/><br/>何だか不思議な気持で少し掘ってみますと、何と驚くではございませんか。<br/><br/>この家に住みましてから十六年間、少しの水気すら無かった所から、こんこんと澄みきった美しい水が湧き出て参ったのでございます。<br/><br/> 私の村は炭坑地帯で、地下を坑道が通っております。<br/><br/>そのために水気が減じ、炭坑開発以来井戸水はほとんどなくなり、水田は水が涸れて耕作が困難になりましたために、畠に切替えているのでございます。<br/><br/>その上又今年は大旱魃で、今まで出ていた井戸水さえ干上るというその折も折、今まで全然水気の無かった所から、冷たい泉が湧出るとは、何という大きな奇蹟を戴いた事でございましょう。<br/><br/>全く夢にも思わぬ有難いお蔭を戴きました。<br/><br/>本当に有難うございました。<br/><br/> 近所の方もいろいろと話合っておられましたが、「結局どんなに考えても理屈が分らぬ。<br/><br/>全く信仰のお蔭だ、不思議な事だ」と申しておられます。<br/><br/>その後もずっと毎朝五時半頃から九時、十時頃まで、桶で五、六荷程、ちょうど時間給水のように出して戴きますので、近所の人々とも分け合って、皆さん方に非常に喜んで戴いておりましたが、二日間雨が降り、雨が降れば家の中も一ぱいになる程水が出て困りはしないか、と思っておりましたら、ピタリと止ってしまって一滴も出ません。<br/><br/>「これは益々おかしい、どうしてだろう」と主人と話合ってみました。<br/><br/>そうして、これはお蔭の戴きっ放しで何ら御恵みにお報い奉ることがなかったからであろうと、気付かせていただきましたので、ちょうどその時山内さん方に出張教修においで下さった先生に、御守護御礼をお願いに参りました。<br/><br/>そこで先生に書いて戴いて御神前にお供えし、明主様に御詫びと御礼と御願をさしていただき帰宅致しました。<br/><br/> 帰ってみまして再び吃驚致しました。<br/><br/>出掛けてから帰るまで十分、長くとも二十分は経っておりません。<br/><br/>それに時刻は午後四時なのでございますが、井戸に満水してこぼれているではございませんか。<br/><br/>今までに午前と時刻のきまっていた事を思い、有難いとお礼申し上げるの外、何とも形容の言葉もなく、早速飛ぶようにして御報告に行かせていただき、今までの不心得を深くお詫びさしていただきました。<br/><br/>全く申訳ない次第でございます。<br/><br/> それから調子よく出して戴きますので、少し欲を出しまして水の出る間井戸の側につきっきりにいるのも大変だ、と思い、少し大きく穴を拡げました。<br/><br/>水の出口には全然関係ないようにして掘り、セメントで縁を塗ったのでございますが、いよいよ仕上ってみますと再び水の出が悪くなりました。<br/><br/>何という不可思議な事でございましよう。<br/><br/>これが想念の狂いと申すものでございましょうか、ここでも又一つ教えていただきました。<br/><br/> お蔭様で今日では又毎日勢よく給麗な水をいただいております。<br/><br/> 明主様まことに有難うございました。<br/><br/> これより少し前の事でございました。<br/><br/>家の上手の畠に草をとりに上りました。<br/><br/>そのとき足をちょっとすべらせ、ハッと思った途端に手をつきましたが、その時全身にこたえるような痛みを感じ、見ますと手頸の骨が「く」の字に曲っており、見る見る内に大きく腫れ上って参ります。<br/><br/>その痛い事は言語に絶する程で、冷汗が流れ、気が遠くなり、吐気さえ催します。<br/><br/>心の中でお詫び申し上げながら、大急ぎで家に帰り、主人に御浄霊をお願いしました。<br/><br/>痛みは次第にうすれて参りましたが、手頸は曲ったまま丸腫れしておりました。<br/><br/>自分で引張って伸す勇気はなく、以前「折れた骨は整骨して御浄霊いただいてもよい」という事をお伺いしたように思いましたので、接ぐだけならよかろうと骨つぎに行きました。<br/><br/>「どうぞただ骨を接ぐだけにして薬を塗らないでくれますように」とお念じしつつ接骨医の所に参りました。<br/><br/>接骨医は手頸を直して「細井さんは手をこうすれば（浄霊の事）よいというから薬は塗らなくとも良いだろう」といかにもひやかしたように言いました。<br/><br/>私は内心ホッと致し「はい結構です」と言って帰り、早速御礼申し上げて御浄霊をいただきました。<br/><br/>翌日はまだ幾分腫れてはおりましたが痛みはございませんでしたので、洗濯を致しました。<br/><br/>絞ります時ちょっと痛みを感じる位で別に何ともなくさせていただくことが出来ました。<br/><br/>一週間せぬうちに仕事には全然差支えなくなしていただき、二週間目には全く腫れもひき、元のようにしていただきました。<br/><br/>本当に有難いことでございます。<br/><br/>若い者であれば骨も早く接がるけれども、年を取ると中々一月もそれ以上もかかると申しますのに、嘘みたいに早く治して戴き、近所の方々も驚いておられます。<br/><br/>まことに有難うございます。<br/><br/> ひどい骨折も僅かの日数で完全に治していただき、十六年も水気のない所からは素晴しいつめたい清水まで御恵み賜わり、数々の御守護に何と御礼の申し上げようもございません。<br/><br/> 明主様真に有難うございました。<br/><br/>数ならぬ身ながら、この有難い御教えを一人でも多く、早くお取次さして頂きたいと思いまして、つとめさしていただいております。<br/><br/>何卒御用の一端にでも御使い賜わりますようよろしく御願い申し上げます。<br/><br/> （昭和二十六年十一月十一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

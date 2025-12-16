@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sandoku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三毒 『天国の福音』昭和22(1947)年2月5日発行 あらゆる病原は然毒、尿毒、薬毒の三毒によるという事は既に説いた通りであるが、これらを一層詳しく述べてみよう。<br><br>まず然毒とは何ぞや、これは薬毒の遺伝ともいうべきものであって、薬毒が何代かの人体を経てついに変化し一種の毒素となったものである。<br><br>従って日本においても歴史はそれを物語っている。<br><br> すなわち天然痘は千三百年以前欽明天皇時代以後から発生したという事になっている。<br><br>それは欽明天皇十三年に仏教が渡来し、間もなく初めて各地に疫病が発生したので、時の執権者は、仏教渡来によって日本の神々の御怒りになったためであるとなし、仏教を禁じたが、疫病は更に減退しないので、仏教に関係はないとして再び許されたという事である。<br><br>私の考察によれば、仏教渡来より余程以前に漢薬が渡来したためであろう。<br><br>もちろん疫病とは天然痘である。<br><br> 医学においては種々の病原として遺伝黴毒を挙げている。<br><br>ドイツにおいても万病黴毒説をとなえる一派があるとの事である。<br><br>しかし私はこの遺伝黴毒こそは然毒の誤りであると想像するのである。<br><br>何となれば遺伝黴毒保有者といわれる患者が、その父母もその祖父母も、黴毒罹患の実証がない者がすくなからずある事である。<br><br> 次に尿毒とは、腎臓の機能的活動の鈍化による余剰尿を言うのである。<br><br>それはいかなる訳かというと、元来医学においてもとなえるごとく腎臓機能は尿の処置とホルモンの生産である。<br><br>すなわち飲食物中の不必要分が糞尿となって排泄せられる場合、さきに述べたごとく異物は全部が排泄不能であるから、それが腎臓内部より外部へ滲透し、その付近に累積固結する。<br><br>その固結が腎臓を圧迫する結果萎縮腎となり余剰尿を生じ漸次脊柱の両側より肩部へかけて溜積固結する。<br><br>それが背や肩の凝りである。<br><br>次いで延髄部、淋巴腺、耳下腺、扁桃腺部等に移行する。<br><br>故に歯槽膿漏は、これら尿毒が歯齦（しぎん）より排泄せられんとするための病気であるから、この病気は尿が腐敗して口中から排泄さるる訳である。<br><br>この原因を知るにおいて、その不潔なるに顰蹙（ひんしゅく）するであろう。<br><br>かくのごとく尿毒は万病の原因になるといってもよいのである。<br><br> 次に薬毒はさきに説いたから略すが、ただ薬毒の表われ方について述べる必要があろう。<br><br>それは薬毒による苦痛は発熱、痛苦、掻痒苦、下痢、嘔吐、麻痺、不快感等が重なるものである。<br><br>発熱は実験上薬毒多量者程はなはだしいのであるから、生来無薬用者はほとんど発熱は無いといっても差支えない位である。<br><br>また薬毒痛は洋楽は鋭痛が多く、針刺型、錐揉型、稲妻型等で、漢薬は殆んど鈍痛である。<br><br>掻痒苦は洋楽に多く特にカルシウム注射は必ず蕁麻疹の原因となるから注意すべきである。<br><br> 以上説いたごとき三毒の区別を知る方法がある。<br><br>それは固結部を指頭で圧診する場合、然毒は無痛、尿毒は軽痛、薬毒は強痛であるから、熟練によって見分ける事はさまで困難ではないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem das Enfermidades: As Três Toxinas</h2>
 <p>Conforme já elucidei, a causa primordial de todas as enfermidades reside na ação de três toxinas: a congênita, a urinária e a medicamentosa. Aprofundemos, pois, a análise de cada uma delas.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Passemos à toxina urinária. Ela consiste no excesso de urina decorrente da debilitação funcional dos rins. Vejamos como isso ocorre. Conforme a própria medicina preconiza, as funções renais são o processamento da urina e a produção de hormônios. Quando as substâncias desnecessárias dos alimentos e bebidas são expelidas como fezes e urina, nem todos os corpos estranhos conseguem ser eliminados, como já expliquei. Esses resíduos infiltram-se do interior para o exterior dos rins, acumulando-se e solidificando-se ao seu redor. Essa solidificação comprime os órgãos, resultando em atrofia renal e, consequentemente, na produção de um excedente de urina. Gradualmente, esse excedente se acumula e se solidifica em ambos os lados da coluna vertebral, ascendendo até a região dos ombros, o que conhecemos como enrijecimento das costas e dos ombros. Em seguida, o processo avança para o bulbo raquidiano, os gânglios linfáticos, as glândulas parótidas e as amígdalas. A piorreia, por exemplo, é uma enfermidade que surge da tentativa do organismo de expelir essas toxinas urinárias através das gengivas. Trata-se, portanto, da eliminação de urina putrefata pela boca. Ao compreender essa causa, certamente se experimentará uma profunda repulsa por sua natureza impura. Assim, não é exagero afirmar que a toxina urinária se torna a causa de todas as doenças.</p>
 <p>Quanto à toxina medicamentosa, já discorri a seu respeito e serei breve, mas julgo necessário acrescentar alguns detalhes sobre suas manifestações. O sofrimento causado por ela se apresenta principalmente como febre, dor, coceira intensa, diarreia, vômito, paralisia e mal-estar. A experiência demonstra que, quanto maior a quantidade de toxinas medicamentosas, mais intensa é a febre; por isso, pessoas que jamais utilizaram medicamentos ao longo da vida praticamente não apresentam quadros febris. A dor também varia: os medicamentos ocidentais tendem a causar dores agudas, como pontadas, perfurações ou choques, enquanto os da medicina chinesa geralmente provocam dores surdas. A coceira é mais frequente com o uso de medicamentos ocidentais; em particular, as injeções de cálcio invariavelmente causam urticária, o que exige cautela.</p>
 <p>Para concluir, existe um método para distinguir as três toxinas por meio da palpação. Ao pressionar as áreas de solidificação com a ponta dos dedos, a toxina congênita revela-se indolor, a urinária provoca uma dor leve e a medicamentosa, uma dor intensa. Com a prática, a capacidade de discerni-las não representa grande dificuldade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三毒 『天国の福音』昭和22(1947)年2月5日発行 あらゆる病原は然毒、尿毒、薬毒の三毒によるという事は既に説いた通りであるが、これらを一層詳しく述べてみよう。<br/><br/>まず然毒とは何ぞや、これは薬毒の遺伝ともいうべきものであって、薬毒が何代かの人体を経てついに変化し一種の毒素となったものである。<br/><br/>従って日本においても歴史はそれを物語っている。<br/><br/> すなわち天然痘は千三百年以前欽明天皇時代以後から発生したという事になっている。<br/><br/>それは欽明天皇十三年に仏教が渡来し、間もなく初めて各地に疫病が発生したので、時の執権者は、仏教渡来によって日本の神々の御怒りになったためであるとなし、仏教を禁じたが、疫病は更に減退しないので、仏教に関係はないとして再び許されたという事である。<br/><br/>私の考察によれば、仏教渡来より余程以前に漢薬が渡来したためであろう。<br/><br/>もちろん疫病とは天然痘である。<br/><br/> 医学においては種々の病原として遺伝黴毒を挙げている。<br/><br/>ドイツにおいても万病黴毒説をとなえる一派があるとの事である。<br/><br/>しかし私はこの遺伝黴毒こそは然毒の誤りであると想像するのである。<br/><br/>何となれば遺伝黴毒保有者といわれる患者が、その父母もその祖父母も、黴毒罹患の実証がない者がすくなからずある事である。<br/><br/> 次に尿毒とは、腎臓の機能的活動の鈍化による余剰尿を言うのである。<br/><br/>それはいかなる訳かというと、元来医学においてもとなえるごとく腎臓機能は尿の処置とホルモンの生産である。<br/><br/>すなわち飲食物中の不必要分が糞尿となって排泄せられる場合、さきに述べたごとく異物は全部が排泄不能であるから、それが腎臓内部より外部へ滲透し、その付近に累積固結する。<br/><br/>その固結が腎臓を圧迫する結果萎縮腎となり余剰尿を生じ漸次脊柱の両側より肩部へかけて溜積固結する。<br/><br/>それが背や肩の凝りである。<br/><br/>次いで延髄部、淋巴腺、耳下腺、扁桃腺部等に移行する。<br/><br/>故に歯槽膿漏は、これら尿毒が歯齦（しぎん）より排泄せられんとするための病気であるから、この病気は尿が腐敗して口中から排泄さるる訳である。<br/><br/>この原因を知るにおいて、その不潔なるに顰蹙（ひんしゅく）するであろう。<br/><br/>かくのごとく尿毒は万病の原因になるといってもよいのである。<br/><br/> 次に薬毒はさきに説いたから略すが、ただ薬毒の表われ方について述べる必要があろう。<br/><br/>それは薬毒による苦痛は発熱、痛苦、掻痒苦、下痢、嘔吐、麻痺、不快感等が重なるものである。<br/><br/>発熱は実験上薬毒多量者程はなはだしいのであるから、生来無薬用者はほとんど発熱は無いといっても差支えない位である。<br/><br/>また薬毒痛は洋楽は鋭痛が多く、針刺型、錐揉型、稲妻型等で、漢薬は殆んど鈍痛である。<br/><br/>掻痒苦は洋楽に多く特にカルシウム注射は必ず蕁麻疹の原因となるから注意すべきである。<br/><br/> 以上説いたごとき三毒の区別を知る方法がある。<br/><br/>それは固結部を指頭で圧診する場合、然毒は無痛、尿毒は軽痛、薬毒は強痛であるから、熟練によって見分ける事はさまで困難ではないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

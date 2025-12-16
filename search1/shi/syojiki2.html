@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syojiki2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正直は辛い 未発表、年代不詳 よく吾々が医学に対し非難し過ぎると言って注意をする人があるが、恐らくこれくらいおかしな話はあるまい。<br><br>吾らは医学を非難する意図はいささかもない。<br><br>唯事実ありのままを書くだけである故に、反って嘘をかいた方が前述のような御注意を受けることはあるまいが、神様を信仰している以上、たとえ自己に不利益であっても一点の嘘をかく事は出来ないのである。<br><br> 良いものは良い、悪いものは悪い、間違っているものは間違っていると言うだけである。<br><br> しかしながらただドグマならはなはだ怪しからん話だが、吾らは立派な証拠をみせているのである。<br><br>その証拠とは毎号満載しているおかげばなしである。<br><br>これは毎度言う通り本人自筆のもののみであるから一点の疑いを挟む余地はないが、これについて先頃三大新聞の一たる某新聞社が一々本人を訪問して詳細質（たず）ねたところ、そのことごとくは事実で疑惑の余地はいささかもないとして諦めたと言う事を某社の記者が述懐（じゅつかい）したのである。<br><br> 故にもし一つでも虚偽や作り話があるとしたら本教の信用は一遍にゼロとなるばかりか世を欺瞞（ぎまん）する罪を構成し、法規に触れる以上そんな間違った事は自分の首を締めるようなものでそんな愚かな事は出来ようはずがない。<br><br> 右の意味において、医療に関係のある人士はなぜこの空前の大医学を研究しようとしないのか、実に不可解であると吾らは常に思っている。<br><br> もちろんこの原因は唯物科学に捉（とら）われてしまって、それ以上のものは頭から無価値と断定してしまっている態度こそ、吾々を迷信と断ずる以上の迷信でしかあるまい。<br><br>すなわち、科学迷信である。<br><br>全世界の医学者が幾世紀に渉（わた）って苦心努力の結晶とも言うべき現代医学である以上、これ以上のものは世界にないと思い、生れるはずがないと決めるのは無理はないが、その観念こそ文化の進歩を阻（はば）む旧思想でなくて何であろう。<br><br>誰が今日一発で百哩（マイル）の地域の生物を死滅せしめる原爆発見を予想し得たであろう。<br><br> 以上によって考える時、薬剤も機械も唯物的なものは何一つ用いずして医学の何十倍の治病力を奏し得る医学が生れたとしてもあえて不思議はないであろう。<br><br> かくのごとき画期的大医学の既に現われた事を知らず専門家は徒労的研究に耽（ふけ）り、患者は貴重なる生命を犠牲にしつつある現状を観ては吾らは忸怩（じくじ）たる能（あた）わざるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Honestidade e a Superstição Científica</h2>
 <p>Algumas pessoas nos advertem, dizendo que nossas críticas à medicina são excessivas. Talvez não haja afirmação mais descabida. Não temos a mínima intenção de depreciar a medicina; apenas expomos os fatos como eles se apresentam. Se, ao contrário, recorrêssemos à mentira, por certo não receberíamos tais advertências. Todavia, por professarmos nossa fé em Deus, é-nos impossível forjar a mais ínfima inverdade, ainda que isso nos seja desfavorável.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>A causa, evidentemente, reside no fato de estarem aprisionados pela ciência materialista, uma mentalidade que os leva a rechaçar de antemão, como destituído de valor, tudo o que a transcende. Tal atitude, que nos acusa de supersticiosos, constitui, em si, uma superstição ainda maior: a superstição científica. Compreende-se que, por ser a medicina moderna o resultado de séculos de árduos esforços de pesquisadores do mundo inteiro, muitos acreditem que nada superior a ela exista ou possa vir a existir. Contudo, é precisamente essa mentalidade que se configura como um pensamento retrógrado, a obstruir o avanço da cultura. Afinal, quem poderia ter previsto a descoberta da bomba atômica, capaz de aniquilar, com uma única explosão, a vida em uma área de cem milhas?</p>
 <p>Com base no que foi exposto, não deveria ser surpresa o surgimento de uma medicina que, sem utilizar nenhum recurso materialista, como medicamentos ou aparelhos, demonstra um poder de cura dezenas de vezes superior ao da medicina convencional.</p>
 <p>Diante da realidade atual, em que os especialistas, alheios ao advento desta medicina revolucionária, entregam-se a pesquisas infrutíferas enquanto os doentes sacrificam suas preciosas vidas, não podemos deixar de sentir profunda consternação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正直は辛い 未発表、年代不詳 よく吾々が医学に対し非難し過ぎると言って注意をする人があるが、恐らくこれくらいおかしな話はあるまい。<br/><br/>吾らは医学を非難する意図はいささかもない。<br/><br/>唯事実ありのままを書くだけである故に、反って嘘をかいた方が前述のような御注意を受けることはあるまいが、神様を信仰している以上、たとえ自己に不利益であっても一点の嘘をかく事は出来ないのである。<br/><br/> 良いものは良い、悪いものは悪い、間違っているものは間違っていると言うだけである。<br/><br/> しかしながらただドグマならはなはだ怪しからん話だが、吾らは立派な証拠をみせているのである。<br/><br/>その証拠とは毎号満載しているおかげばなしである。<br/><br/>これは毎度言う通り本人自筆のもののみであるから一点の疑いを挟む余地はないが、これについて先頃三大新聞の一たる某新聞社が一々本人を訪問して詳細質（たず）ねたところ、そのことごとくは事実で疑惑の余地はいささかもないとして諦めたと言う事を某社の記者が述懐（じゅつかい）したのである。<br/><br/> 故にもし一つでも虚偽や作り話があるとしたら本教の信用は一遍にゼロとなるばかりか世を欺瞞（ぎまん）する罪を構成し、法規に触れる以上そんな間違った事は自分の首を締めるようなものでそんな愚かな事は出来ようはずがない。<br/><br/> 右の意味において、医療に関係のある人士はなぜこの空前の大医学を研究しようとしないのか、実に不可解であると吾らは常に思っている。<br/><br/> もちろんこの原因は唯物科学に捉（とら）われてしまって、それ以上のものは頭から無価値と断定してしまっている態度こそ、吾々を迷信と断ずる以上の迷信でしかあるまい。<br/><br/>すなわち、科学迷信である。<br/><br/>全世界の医学者が幾世紀に渉（わた）って苦心努力の結晶とも言うべき現代医学である以上、これ以上のものは世界にないと思い、生れるはずがないと決めるのは無理はないが、その観念こそ文化の進歩を阻（はば）む旧思想でなくて何であろう。<br/><br/>誰が今日一発で百哩（マイル）の地域の生物を死滅せしめる原爆発見を予想し得たであろう。<br/><br/> 以上によって考える時、薬剤も機械も唯物的なものは何一つ用いずして医学の何十倍の治病力を奏し得る医学が生れたとしてもあえて不思議はないであろう。<br/><br/> かくのごとき画期的大医学の既に現われた事を知らず専門家は徒労的研究に耽（ふけ）り、患者は貴重なる生命を犠牲にしつつある現状を観ては吾らは忸怩（じくじ）たる能（あた）わざるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nonsense</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ナンセンス 『法難手記』昭和25(1950)年10月30日発行 長々と固苦しい事ばかりかいたから、ここで一つ二つ新聞記者諸君や、その他に関するナンセンスをかいてみよう。<br><br>私が最初連行された時の事である。<br><br>庵原警察署へ着く少し手前へ来ると、同乗のＫ部長は「表門は新聞屋が、待っているといけないから、裏門から入ろう」と言って裏門へ車をつけた。<br><br>ところがそれを知った記者諸君は、私が車から降りようとするやバラバラと集って来た。<br><br>門から十数間くらい歩く道の両側から、パチリバチリフラッシュの光は十以上あったと思われた。<br><br>署内に入るや直ちに二階調室に入った。<br><br>一応簡単な取調べを受ける間にも、調室のドアーを開けて撮ろうとするのを警官は撮らせまいとする、という訳で一しきりゴテついた。<br><br>驚いた事には二階の窓の外にある電柱に梯子を掛けて、上の方に登って窓の外からレンズを向けている者がある。<br><br>これを見つけた係官は慌てて幕を引いたが暫くして「もうよかろう」と幕を開け油断をしていると、今度は街路樹へ梯子（はしご）を掛けレンズを向けているのをまた見つけ、幕を締めて一同大笑いした事があった。<br><br>彼らがいかに職務に懸命であるかはスポーツマンが、最高点を得ようとする競争意識に似ていると思った。<br><br>私は便所へ行こうと階段を半ば下りかけると、どこからともなく、ワァーッと多勢集って来て撮ろうとする。<br><br>警官は慌てて私の手を引いて引っ返すというような訳で、その後は警察官専用の便所へ行く事にした。<br><br>この便所へ行くにも裏手の階段から、音を立てないようにソッと下りて行くのである。<br><br>それから三日目の三十一日、私は静岡市の裁判所へ連れられ、今は忘れたが、何でも判事から犯罪事項を認めるかどうかというような事を訊かれたような気がする。<br><br>三十分くらいで済み警察へ戻ったが、この時は大変であった。<br><br>最初警察署を出る時係官がいうには「今日は新聞屋を初め見物人が多勢待ち構えているからそのつもりで、出来るだけ素早く乗った方がよい」と注意され、警察の方でも数人の警官が整理に大童（おおわらわ）であった。<br><br>署の裏口から裏門までの十間くらいの道にもカメラと映画班の砲列が隙間もない程だ。<br><br>裏門を出てからもカメラの砲列は続いている。<br><br>待ち構えていたので、パチリパチリと目紛しい程だ。<br><br>私は心中やましいところはないから、平然として車へ乗ったが、この時の私は二、三のニュース映画に出ているから、見た人はよく判ったであろう。<br><br>警察の前の通りは八間巾くらいだが、見物人や信者でギッシリだ。<br><br>数百人くらいか否千人くらいいたかも知れない。<br><br>信者も相当いたようだが、信者は合掌しているからすぐ判る。<br><br>驚いたのは私の車が警察署から数丁離れた時、後からスピードで追抜こうとする車がある。<br><br>フト見るとカメラを車の中からこちらへ向けて、車の速度を合せながら撮しているので実に驚いた。<br><br>一時間余で車は静岡裁判所の表門に着いたが、ここでもカメラの砲列だ。<br><br>映画班など多勢待機していて、往きも復りも同じように撮っていた。<br><br>またここでも面白い事があったのは、車が走り始めて数丁くらい行った時、走る車のボディの上に乗って運転台の窓が開いていたので、その窓からレンズを向けて映画を撮ろうとしている。<br><br>これに気付いた同乗の警官は車を停め、仲々強硬な彼を説得してやっと降してまた走り始めたという訳である。<br><br>警察にいる間土地の記者が時々来ては、質問やら撮影やらをやった。<br><br> ここで、出所の際のナンセンスを一つかいてみよう。<br><br>六月十九日午後十一時頃釈放となった時の事である。<br><br>係官は表門は記者が多勢待っているから、裏門からの方がよかろうという事になり、滅多に使わない非常口らしい門を開けてくれたのでソッと出たのである。<br><br>表門に待っていた記者達は出し抜かれた訳で、判ってから非常に憤慨したそうである。<br><br>五十分くらい経ってから気が付いたという事で、追いかけても駄目なので、地団駄踏んだという事であった。<br><br>しかし毎日の記者だけは熱海支局へ電話で知らせたと見え、十国峠で私の車と出遭い、イキナリフラッシュが光ったのにはちょっと驚いた。<br><br>私は部下の苦心で作戦上熱海の水口町の自宅へ帰ったように見せかけて、急に車を転回し、箱根に向い、仙石原の知人の家に着いたが、この時は夜中の三時半頃であった。<br><br>このような記者諸君との智慧比べも時にとっての一種の興味でもあった。<br><br> またこういう事もあった。<br><br>私が勾留中の留守のある日、数人の警官が私の住宅の方へ家宅捜索に来て縁の下へまで這入り、入念に調べたり、屋根へ上って調べたりした、との事を帰宅してから聞いたので、どうも不思議な捜索の仕方だと思って訊ねたが、よく判らないと言う。<br><br>その時、思い出したのは、以前私が大本教の信者であった頃、大本教が飛んでもない疑いを受けた事があった。<br><br>それは地下室に、秘密室があって、男女の密会所になっており、また竹槍数百本隠匿してあるとかで、大仕掛な家宅捜索が行われ、同教も随分迷惑したというので、私はそれに似たような投書によったのではないかと想像もしてみたが、そうだとすると世の中には随分御念の入った悪戯をする奴もあるものかと呆れざるを得なかったのである。<br><br> 今一つ面白い事があった。<br><br>私は数年前疥癬病を患ったので、それが宣伝されていたからでもあろう、刑務所にいた時、所属医から健康診断を受けた。<br><br>丁寧に診断の結果、芥癬は全快していると保証された。<br><br>ところがそのお医者さんは仲々洒脱な面白い人で、そのお医者さんが私に話をしかけたが、イキナリ「お光さんが女を知ったのはいくつの年でしたか」と訊くので、私は面喰った。<br><br>「左様十八、九くらいだと思った」と言ってやった。<br><br>それから男女関係などの、興味ある話になり、大分佳境に入った頃、お医者さんに用事が出来たので失敬したが、地獄の中で仏に遭ったようで、ちょっとの間明るい気持になった。<br><br> 最後にナンセンスの傑作をかいてみよう。<br><br> 七月二十四日夜九時のニュース放送の時である。<br><br>熱海市長宗秋月氏が、静岡検察庁へ召喚された。<br><br>それは「救世教のお光様から十万円を収賄したという嫌疑である」という声が聞えた。<br><br>私は呆れ返ってものが言えない。<br><br>一体全体誰がこんな作り事をして放送局へ通信したのが判らないが、放送局も放送局で碌々調べもせずに採り上げたとすれば、放送局の失態である、とすればその責任はどうしてくれるかと言いたくなるが、これなども人気者の一種の悲哀とでも言っておこう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatos Anedóticos</h2>
 <p>Após discorrer longamente sobre temas tão austeros, permito-me agora relatar uma ou duas anedotas, situações verdadeiramente insólitas, envolvendo os senhores jornalistas e outras pessoas.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Houve ainda outro incidente. Certo dia, durante minha detenção, vários policiais foram à minha residência para uma busca. Ao retornar, soube que eles haviam revistado a casa minuciosamente, chegando a rastejar sob o assoalho e a subir no telhado. Achei aquele método de busca muito estranho e, ao questionar, ninguém soube me dar uma explicação clara. Foi então que me recordei de um episódio ocorrido anos antes, quando eu ainda era seguidor da Oomoto. Naquela época, a organização foi alvo de suspeitas absurdas, como a de que mantinha salas secretas para encontros íntimos e escondia centenas de lanças de bambu. Isso resultou em uma busca de grandes proporções que causou enormes transtornos à instituição. Imaginei que a investigação em minha casa pudesse ter sido motivada por uma denúncia anônima de teor semelhante. Se assim for, não posso deixar de ficar perplexo com a existência de pessoas que se dedicam a criar boatos tão maliciosos e elaborados.</p>
 <p>Ocorreu também um fato curioso. Como havia se espalhado a notícia de que eu sofrera de sarna anos atrás, fui submetido a um exame médico na prisão. O doutor, após uma avaliação cuidadosa, atestou que eu estava completamente curado. Tratava-se de um homem espirituoso e de conversa agradável, que iniciou o diálogo de forma inesperada. “Com que idade o senhor conheceu uma mulher pela primeira vez?”, perguntou-me ele, à queima-roupa. Fui pego de surpresa. “Creio que por volta dos dezoito ou dezenove anos”, respondi. A conversa enveredou então por temas de relacionamento humano e, quando o diálogo se tornava mais interessante, o médico foi chamado para um compromisso e se despediu. Por um instante, senti como se tivesse encontrado um oásis em meio ao deserto, e meu espírito se iluminou.</p>
 <p>Para concluir, gostaria de relatar a obra-prima do disparate. Certa noite, no noticiário das nove horas do dia 24 de julho, ouvi a seguinte notícia: “O prefeito de Atami, senhor Muneaki Tsukushi, foi intimado a comparecer à promotoria de Shizuoka sob suspeita de ter recebido um suborno de cem mil ienes de Okossama, da Sekai Kyusei Kyo”. Fiquei tão estupefato que me faltaram as palavras. Não consigo imaginar quem poderia ter inventado tal mentira e a comunicado à emissora. E a própria emissora, por sua vez, agiu de forma leviana ao divulgar a informação sem a devida apuração. Isso me leva a questionar onde fica sua responsabilidade. Contudo, prefiro encarar tais episódios como parte da triste sina que acompanha as figuras públicas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ナンセンス 『法難手記』昭和25(1950)年10月30日発行 長々と固苦しい事ばかりかいたから、ここで一つ二つ新聞記者諸君や、その他に関するナンセンスをかいてみよう。<br/><br/>私が最初連行された時の事である。<br/><br/>庵原警察署へ着く少し手前へ来ると、同乗のＫ部長は「表門は新聞屋が、待っているといけないから、裏門から入ろう」と言って裏門へ車をつけた。<br/><br/>ところがそれを知った記者諸君は、私が車から降りようとするやバラバラと集って来た。<br/><br/>門から十数間くらい歩く道の両側から、パチリバチリフラッシュの光は十以上あったと思われた。<br/><br/>署内に入るや直ちに二階調室に入った。<br/><br/>一応簡単な取調べを受ける間にも、調室のドアーを開けて撮ろうとするのを警官は撮らせまいとする、という訳で一しきりゴテついた。<br/><br/>驚いた事には二階の窓の外にある電柱に梯子を掛けて、上の方に登って窓の外からレンズを向けている者がある。<br/><br/>これを見つけた係官は慌てて幕を引いたが暫くして「もうよかろう」と幕を開け油断をしていると、今度は街路樹へ梯子（はしご）を掛けレンズを向けているのをまた見つけ、幕を締めて一同大笑いした事があった。<br/><br/>彼らがいかに職務に懸命であるかはスポーツマンが、最高点を得ようとする競争意識に似ていると思った。<br/><br/>私は便所へ行こうと階段を半ば下りかけると、どこからともなく、ワァーッと多勢集って来て撮ろうとする。<br/><br/>警官は慌てて私の手を引いて引っ返すというような訳で、その後は警察官専用の便所へ行く事にした。<br/><br/>この便所へ行くにも裏手の階段から、音を立てないようにソッと下りて行くのである。<br/><br/>それから三日目の三十一日、私は静岡市の裁判所へ連れられ、今は忘れたが、何でも判事から犯罪事項を認めるかどうかというような事を訊かれたような気がする。<br/><br/>三十分くらいで済み警察へ戻ったが、この時は大変であった。<br/><br/>最初警察署を出る時係官がいうには「今日は新聞屋を初め見物人が多勢待ち構えているからそのつもりで、出来るだけ素早く乗った方がよい」と注意され、警察の方でも数人の警官が整理に大童（おおわらわ）であった。<br/><br/>署の裏口から裏門までの十間くらいの道にもカメラと映画班の砲列が隙間もない程だ。<br/><br/>裏門を出てからもカメラの砲列は続いている。<br/><br/>待ち構えていたので、パチリパチリと目紛しい程だ。<br/><br/>私は心中やましいところはないから、平然として車へ乗ったが、この時の私は二、三のニュース映画に出ているから、見た人はよく判ったであろう。<br/><br/>警察の前の通りは八間巾くらいだが、見物人や信者でギッシリだ。<br/><br/>数百人くらいか否千人くらいいたかも知れない。<br/><br/>信者も相当いたようだが、信者は合掌しているからすぐ判る。<br/><br/>驚いたのは私の車が警察署から数丁離れた時、後からスピードで追抜こうとする車がある。<br/><br/>フト見るとカメラを車の中からこちらへ向けて、車の速度を合せながら撮しているので実に驚いた。<br/><br/>一時間余で車は静岡裁判所の表門に着いたが、ここでもカメラの砲列だ。<br/><br/>映画班など多勢待機していて、往きも復りも同じように撮っていた。<br/><br/>またここでも面白い事があったのは、車が走り始めて数丁くらい行った時、走る車のボディの上に乗って運転台の窓が開いていたので、その窓からレンズを向けて映画を撮ろうとしている。<br/><br/>これに気付いた同乗の警官は車を停め、仲々強硬な彼を説得してやっと降してまた走り始めたという訳である。<br/><br/>警察にいる間土地の記者が時々来ては、質問やら撮影やらをやった。<br/><br/> ここで、出所の際のナンセンスを一つかいてみよう。<br/><br/>六月十九日午後十一時頃釈放となった時の事である。<br/><br/>係官は表門は記者が多勢待っているから、裏門からの方がよかろうという事になり、滅多に使わない非常口らしい門を開けてくれたのでソッと出たのである。<br/><br/>表門に待っていた記者達は出し抜かれた訳で、判ってから非常に憤慨したそうである。<br/><br/>五十分くらい経ってから気が付いたという事で、追いかけても駄目なので、地団駄踏んだという事であった。<br/><br/>しかし毎日の記者だけは熱海支局へ電話で知らせたと見え、十国峠で私の車と出遭い、イキナリフラッシュが光ったのにはちょっと驚いた。<br/><br/>私は部下の苦心で作戦上熱海の水口町の自宅へ帰ったように見せかけて、急に車を転回し、箱根に向い、仙石原の知人の家に着いたが、この時は夜中の三時半頃であった。<br/><br/>このような記者諸君との智慧比べも時にとっての一種の興味でもあった。<br/><br/> またこういう事もあった。<br/><br/>私が勾留中の留守のある日、数人の警官が私の住宅の方へ家宅捜索に来て縁の下へまで這入り、入念に調べたり、屋根へ上って調べたりした、との事を帰宅してから聞いたので、どうも不思議な捜索の仕方だと思って訊ねたが、よく判らないと言う。<br/><br/>その時、思い出したのは、以前私が大本教の信者であった頃、大本教が飛んでもない疑いを受けた事があった。<br/><br/>それは地下室に、秘密室があって、男女の密会所になっており、また竹槍数百本隠匿してあるとかで、大仕掛な家宅捜索が行われ、同教も随分迷惑したというので、私はそれに似たような投書によったのではないかと想像もしてみたが、そうだとすると世の中には随分御念の入った悪戯をする奴もあるものかと呆れざるを得なかったのである。<br/><br/> 今一つ面白い事があった。<br/><br/>私は数年前疥癬病を患ったので、それが宣伝されていたからでもあろう、刑務所にいた時、所属医から健康診断を受けた。<br/><br/>丁寧に診断の結果、芥癬は全快していると保証された。<br/><br/>ところがそのお医者さんは仲々洒脱な面白い人で、そのお医者さんが私に話をしかけたが、イキナリ「お光さんが女を知ったのはいくつの年でしたか」と訊くので、私は面喰った。<br/><br/>「左様十八、九くらいだと思った」と言ってやった。<br/><br/>それから男女関係などの、興味ある話になり、大分佳境に入った頃、お医者さんに用事が出来たので失敬したが、地獄の中で仏に遭ったようで、ちょっとの間明るい気持になった。<br/><br/> 最後にナンセンスの傑作をかいてみよう。<br/><br/> 七月二十四日夜九時のニュース放送の時である。<br/><br/>熱海市長宗秋月氏が、静岡検察庁へ召喚された。<br/><br/>それは「救世教のお光様から十万円を収賄したという嫌疑である」という声が聞えた。<br/><br/>私は呆れ返ってものが言えない。<br/><br/>一体全体誰がこんな作り事をして放送局へ通信したのが判らないが、放送局も放送局で碌々調べもせずに採り上げたとすれば、放送局の失態である、とすればその責任はどうしてくれるかと言いたくなるが、これなども人気者の一種の悲哀とでも言っておこう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

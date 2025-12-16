@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sihai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 支配階級の改心 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 社会悪や不幸は、すべて結果であるという事は、膏薬張の救いで述べた通りである。<br><br>ちょうど、河川の濁るのは、上流の源が濁るからであるのと同一の理である。<br><br>故に社会の溷濁（こんだく）は、社会全般の指導者たるべき上層階級が浄まらなくては、百年河清を待つとても、駄目である。<br><br> 大臣級が、市ヶ谷へ収容されたり、市会や府会の絶えざる疑獄、教育者の涜職、宗教家の堕落等々、数え上げたら、限りがない、これでは、いくら教化団体が骨を折っても、既成宗教が活動しようと、効果の挙がらないのは当然である。<br><br> 社会悪の発生する原因を、自分達が造っておいて、その社会悪の根絶に腐心するというのは、ちょうど親爺が、妾や女狂いをしながら、伜（せがれ）に、倫理道徳を説くようなものである。<br><br> もっと真剣で、真面目でなくては駄目だ。<br><br>政府が、非常時財政を救おうと思うなら、まず第一番に、御自分達の俸給、何割かを割（さ）いて、国家に献上して、模範を示すべきだ。<br><br>又富豪は利益を公開して、その半分位は、国防資金として出してもいい、各会社は、五朱以上利益配当があったら、その幾分かを、赤字補填として、国家に差出したらどうだ。<br><br> 又選挙粛正も結構だが、今更慌（あわ）てて、神官に頼んだりして、その運動を援助させようなどとは余りに泥縄式である。<br><br> それにはまず、常から内閣には、天照皇大御神の御神霊を奉斎し、閣議の前後に礼拝し謹んで祝詞を奏上すべきだ。<br><br>なお進んで各官庁、学校、会社、工場に到るまで、同じく天祖の御神霊を祭って、仕事の前後に祝詞を奏上させるのだ、そうしたら社会はいかに浄化さるるであろう、特に、選挙粛正などをやらなくとも、選挙などは公正に行われる事は、断じて疑いないのである。<br><br> 故に社会から、不幸と罪悪を無くする根本的条件は、支配階級の改心である。<br><br>改心を舎（お）いて、他に方法はない事を、断言しておくのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Reforma da Classe Dominante</h2>
 <p>As mazelas sociais e a infelicidade são, na sua totalidade, meras consequências, conforme explanei no ensinamento sobre o socorro meramente paliativo. O princípio é idêntico ao de um rio cujas águas se tornam turvas porque sua nascente está poluída. Portanto, para que a corrupção da sociedade seja sanada, é imprescindível que a classe alta, a quem cabe a liderança do povo, se purifique. Do contrário, seria o mesmo que esperar em vão por um milênio que as águas de um rio se limpem por si sós.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>A busca por uma reforma eleitoral é louvável, todavia, recorrer apressadamente aos sacerdotes xintoístas para apoiar tal movimento constitui um remédio tardio e improvisado.</p>
 <p>A verdadeira solução reside, antes de tudo, em entronizar permanentemente no Gabinete o Espírito Divino de Amaterasu Omikami, prestando-Lhe reverência antes e depois das reuniões ministeriais e entoando-Lhe súplicas com o devido respeito. Indo além, o mesmo deveria ser feito em cada repartição pública, escola, empresa e fábrica, consagrando o Espírito da Divina Antepassada e realizando orações antes e depois do trabalho. Quão purificada a sociedade se tornaria com tais práticas! Assim, sem a necessidade de medidas como a reforma eleitoral, as eleições transcorreriam com absoluta lisura, disso não tenho a menor dúvida.</p>
 <p>Por conseguinte, a condição fundamental para eliminar a infelicidade e o crime da sociedade é a reforma do coração da classe dominante. Declaro categoricamente que, à parte dessa reforma, não existe outro caminho.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 支配階級の改心 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 社会悪や不幸は、すべて結果であるという事は、膏薬張の救いで述べた通りである。<br/><br/>ちょうど、河川の濁るのは、上流の源が濁るからであるのと同一の理である。<br/><br/>故に社会の溷濁（こんだく）は、社会全般の指導者たるべき上層階級が浄まらなくては、百年河清を待つとても、駄目である。<br/><br/> 大臣級が、市ヶ谷へ収容されたり、市会や府会の絶えざる疑獄、教育者の涜職、宗教家の堕落等々、数え上げたら、限りがない、これでは、いくら教化団体が骨を折っても、既成宗教が活動しようと、効果の挙がらないのは当然である。<br/><br/> 社会悪の発生する原因を、自分達が造っておいて、その社会悪の根絶に腐心するというのは、ちょうど親爺が、妾や女狂いをしながら、伜（せがれ）に、倫理道徳を説くようなものである。<br/><br/> もっと真剣で、真面目でなくては駄目だ。<br/><br/>政府が、非常時財政を救おうと思うなら、まず第一番に、御自分達の俸給、何割かを割（さ）いて、国家に献上して、模範を示すべきだ。<br/><br/>又富豪は利益を公開して、その半分位は、国防資金として出してもいい、各会社は、五朱以上利益配当があったら、その幾分かを、赤字補填として、国家に差出したらどうだ。<br/><br/> 又選挙粛正も結構だが、今更慌（あわ）てて、神官に頼んだりして、その運動を援助させようなどとは余りに泥縄式である。<br/><br/> それにはまず、常から内閣には、天照皇大御神の御神霊を奉斎し、閣議の前後に礼拝し謹んで祝詞を奏上すべきだ。<br/><br/>なお進んで各官庁、学校、会社、工場に到るまで、同じく天祖の御神霊を祭って、仕事の前後に祝詞を奏上させるのだ、そうしたら社会はいかに浄化さるるであろう、特に、選挙粛正などをやらなくとも、選挙などは公正に行われる事は、断じて疑いないのである。<br/><br/> 故に社会から、不幸と罪悪を無くする根本的条件は、支配階級の改心である。<br/><br/>改心を舎（お）いて、他に方法はない事を、断言しておくのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nangyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 難行苦行 『信仰雑話』P.27、昭和23(1948)年9月5日発行 信仰と難行苦行とは密接な関係があるように、昔から一般人に思われているが、元来難行苦行は古代インドのバラモン教が起源で、釈尊出現以前の印度は、ほとんどバラモン信仰が印度人の大半を占めていたという事である。<br><br>彼の達磨の面壁九年の苦行もそれであるし、また羅漢（らかん）とは苦行の修行をした時の行者の姿であって、その苦行たるや、羅漢の絵や彫刻にあるごとく片手に物を捧げたり、木の股に座したり、甚だしきは板の裏から何本もの釘を打込み裏返してその上に座禅を組むので、骨部はその何本もの釘に刺され、非常な痛苦の下に一年二年または数年に及ぶ者さえあるそうで、それ等の痛苦を我慢する事によって悟りを得る、すなわち覚者たり得るというのである。<br><br>彼の達磨が苦行のある夜満月を仰ぎみている際、月光が胸中を明々白々照らすと思う瞬間、豁然（かつぜん）として真理を悟り得たという事は有名な話である。<br><br>何しろ九年も座禅をしていたので足は萎え起つ能わざるに至ったのが達磨に足がないという伝説となったものであろう。<br><br>今日も印度においてはバラモン行者が相当いるそうで、なかなかの奇蹟を表わすとの話である。<br><br>故タゴール翁が常に行ったという森林の冥想や、ガンジー翁が再々行った断食等もバラモン行の一種であろう。<br><br> 彼の釈尊出現の当時盛んに行われていたバラモン式苦行の、余りに悲惨なるに憐愍（れんびん）の情禁じ兼ねた釈尊は、苦行をせずとも、経文を読む事によって覚者たり得るという事を教えたので、当時の印度民衆はその功徳に感激し、釈尊を讃仰（さんぎょう）のまととするようになったという事である。<br><br>この意味において仏者が難行苦行をするという事、それは釈尊の恩恵に叛くという訳になろう。<br><br>日本においても未だ相当バラモン式苦行を行う行者や宗教家もあるようであるが、私はあまり賛成出来ないのである。<br><br>というのはわが観音教の信徒が別段難行をせずとも覚者となり、正しき道を履（ふ）み、天職使命を実践するようになり得るからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Senda da Fé</h2>
 <p>Embora prevaleça no imaginário popular a ideia de que a fé e as práticas de austeridade possuam uma íntima relação, cumpre esclarecer que a origem de tais mortificações remonta ao bramanismo da Índia antiga. Com efeito, antes do advento de Shassoku (釈尊), a fé bramânica era professada pela vasta maioria do povo indiano.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Contudo, Shassoku (釈尊), incapaz de conter sua profunda compaixão pela natureza sobremaneira lastimável das austeridades bramânicas, tão difundidas em sua época, ensinou que era possível atingir a iluminação por meio da leitura das escrituras sagradas, sem a necessidade de tais suplícios. O povo indiano de então, profundamente comovido por essa graça, passou a devotar-lhe a mais alta veneração.</p>
 <p>Nesse sentido, a prática de mortificações e austeridades por parte de um budista equivaleria, em essência, a uma traição à magnanimidade de Shassoku (釈尊).</p>
 <p>Constata-se que, mesmo no Japão, ainda existem ascetas e religiosos que se dedicam a práticas de austeridade de estilo bramânico; todavia, não posso manifestar minha aprovação a tais métodos. A razão para tal reside no fato de que os fiéis de nosso ensinamento de Kannon (観音) podem se tornar seres iluminados, trilhar o caminho da retidão e cumprir sua missão celestial sem que para isso necessitem se submeter a quaisquer mortificações.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 難行苦行 『信仰雑話』P.27、昭和23(1948)年9月5日発行 信仰と難行苦行とは密接な関係があるように、昔から一般人に思われているが、元来難行苦行は古代インドのバラモン教が起源で、釈尊出現以前の印度は、ほとんどバラモン信仰が印度人の大半を占めていたという事である。<br/><br/>彼の達磨の面壁九年の苦行もそれであるし、また羅漢（らかん）とは苦行の修行をした時の行者の姿であって、その苦行たるや、羅漢の絵や彫刻にあるごとく片手に物を捧げたり、木の股に座したり、甚だしきは板の裏から何本もの釘を打込み裏返してその上に座禅を組むので、骨部はその何本もの釘に刺され、非常な痛苦の下に一年二年または数年に及ぶ者さえあるそうで、それ等の痛苦を我慢する事によって悟りを得る、すなわち覚者たり得るというのである。<br/><br/>彼の達磨が苦行のある夜満月を仰ぎみている際、月光が胸中を明々白々照らすと思う瞬間、豁然（かつぜん）として真理を悟り得たという事は有名な話である。<br/><br/>何しろ九年も座禅をしていたので足は萎え起つ能わざるに至ったのが達磨に足がないという伝説となったものであろう。<br/><br/>今日も印度においてはバラモン行者が相当いるそうで、なかなかの奇蹟を表わすとの話である。<br/><br/>故タゴール翁が常に行ったという森林の冥想や、ガンジー翁が再々行った断食等もバラモン行の一種であろう。<br/><br/> 彼の釈尊出現の当時盛んに行われていたバラモン式苦行の、余りに悲惨なるに憐愍（れんびん）の情禁じ兼ねた釈尊は、苦行をせずとも、経文を読む事によって覚者たり得るという事を教えたので、当時の印度民衆はその功徳に感激し、釈尊を讃仰（さんぎょう）のまととするようになったという事である。<br/><br/>この意味において仏者が難行苦行をするという事、それは釈尊の恩恵に叛くという訳になろう。<br/><br/>日本においても未だ相当バラモン式苦行を行う行者や宗教家もあるようであるが、私はあまり賛成出来ないのである。<br/><br/>というのはわが観音教の信徒が別段難行をせずとも覚者となり、正しき道を履（ふ）み、天職使命を実践するようになり得るからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271016</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月16日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月十六日 『アメリカを救う』という本がやっとできて、これから印刷にかかるのですが、翻訳の方の都合で非常に急いで半月ばかりでこしらえなければならないので、随分馬力をかけてやったのです。<br><br>これができたら日本や米国の各方面に配ろうと思ってます。<br><br>なにしろ、米国の方で日本を救うという本が出たのなら、これはありそうなことですが、敗戦でやっと講和になってまだヒョロヒョロしている日本が、米国を救うというのはとんでもない話ですが、これを見て驚くだろうと思ってます。<br><br>それでかえって興味を引くのではないかと思ってます。<br><br>薬毒についても、なにしろ米国では薬に一番大騒ぎをしてますから、薬毒について徹底的に書いたつもりです。<br><br>いつか「序論」を読ませましたが、今度はよほど完備したので、もう一遍読ませます。<br><br> （御論文『アメリカを救う』「序論」「病気とは何ぞや」「種痘と薬毒」） これを読んだらアメリカの人は驚くだろうと思います。<br><br>薬を一番大騒ぎをやっているのですから、目が眩んだかと思うでしょう。<br><br>それからまた、今アメリカで特に自慢しているのは手術ですが、手術もそうとうやっつけてます。<br><br> （御論文「手術について」） これに一つ一つの病気についての説明と、それに対するお蔭話を多いのは六例、少ないので三例くらい出したのです。<br><br>これを良く読んだら、たいてい往生すると思います。<br><br>おまけに米国の人は日本人よりか伝統に捉われません。<br><br>白紙になって読むから非常に効果があると思います。<br><br>その話はこのくらいにしておきます。<br><br> ついこの間信者の人で小川菊蔵というバスの販売を非常に大きくやっていて有名な人が、今度世界中をまわって歩いたその時のいろんな見聞記を聞いたのですが、なかなか参考になりました。<br><br>いろんな細かい話を聞きましたが、結局引っ括るめて言うと、今一番すばらしい勢いは西ドイツだそうです。<br><br>西ドイツはとても国民に元気があるのです。<br><br>非常にドイツ復興に熱心で、日本なんか較べものにならないそうです。<br><br>もっとも私は去年新聞で西ドイツの出超に驚いたのですが、去年は三億ドルプラスになったのですが、それでびっくりしたのです。<br><br>今度小川さんから聞いてみてなるほどと思ったのです。<br><br>というのは、ドイツ人は一番優秀だぞという一つの自信が強いのです。<br><br>それが動機です。<br><br>それから美術はフランスが一番良いと思っていたそうですが、イタリアに行って驚いたそうです。<br><br>フランスよりイタリアの方がずっと上だそうです。<br><br>これはそのはずです。<br><br>フランスの美術は新しいですが、イタリアはもっと古さがあるのです。<br><br>それはエジプトやギリシアが一番古いですが、発展していません。<br><br>日本でいうと埴輪でも見るようなもので未開発時代の美術ですが、ローマ時代に至って絢爛たる美術が生まれたのです。<br><br>それが残っているために、日本でいうと、ちょうど奈良朝時代の美術のようなものです。<br><br>それからフランスは京都風です。<br><br>そういうようで古さがあるから良いのです。<br><br>特に驚いたのはイタリアも非常に国民的誇りをもっているのです。<br><br>つまり自分の国はローマ華やかだった昔のころは、やはり欧州では一番文化が発達した国であるというその誇りが今もってあるのです。<br><br>で、現在ファッショがだいぶ興ってきたそうです。<br><br>それについてムッソリーニはイタリアでは非常に崇拝されているそうです。<br><br>ムッソリーニの家族がローマにいるそうですが、それは国民から優遇されて良い生活をしているそうです。<br><br>それからドイツでも、ナチスは今地下運動的にそうとう勢力をもっているそうです。<br><br>で、ヒトラーもムッソリーニも国民の心の中ではなかなか非常に崇拝されているそうです。<br><br>ただヒトラーもムッソリーニも非常に偉いので、ドイツ、イタリアの誇るべき人であるが、ただ戦争をしたからいけないので、その失敗だけで他のことは非常に良いということを考えているのです。<br><br> 特にドイツで驚いたのは道路が良いということだそうです。<br><br>自動車屋さんだからよけいそういうことに気がつくのでしょうが、ドイツのヒトラー道路は一時間百五十キロのスピードが出せるそうで、そういうのはアメリカにもないそうです。<br><br>あれは私も驚いたのですが、ドイツが第一次欧州大戦後失業者が多く、その時ヒトラー道路といってドイツを縦貫するものを作ったのですが、いつかの映画を見ても分かります。<br><br>それからみると、日本の道路を見ては呆れてしまいます。<br><br>だから私が総理大臣になれば官吏を半分にします。<br><br>官吏が多過ぎるから能率が上がらないのです。<br><br>今官吏の費用が五百億くらいあるでしょうから、半分にすれば二百五十億ですみます。<br><br>そうして日本に縦に道路を作って、あとは枝をつければ良いのです。<br><br>そうすれば日本の道路問題は解決します。<br><br>どうも、チビチビとしたり、曲がり角を削るくらいのしみったれなことをやっている。<br><br>日本は思いきったことをやらないということは、一番は国民的誇りがないのです。<br><br>小川さんも言ってましたが、日本人はそういったように国民的誇りがないためにフワフワして、外国的のことが良いと思っているのです。<br><br>私はこれをぶち壊さなければならないと思う。<br><br>日本の国民的誇りを自覚させなければならない。<br><br>それを知らなければならない。<br><br>ところが今までは、それを知る人も知らせる人もなかったのです。<br><br>これは私は、講和にならないうちは言えないから言わなかったが、もうソロソロ言っても良いでしょう。<br><br>とにかく世界中で一番優秀な国民は日本人です。<br><br>金に例えれば、白人は銀に相当するが、日本人は金なのです。<br><br>それだけの違いさです。<br><br>それだから今度『アメリカを救う』という本を出したのですが、アメリカ人というのは、われわれからみればずっと下なのです。<br><br>そういう自覚がないから、アメリカのまねばかりし、あるいはヨーロッパのまねをしているが、それは国民の自覚がないからです。<br><br>自覚といっても、取ってつけたようなものではしようがないのです。<br><br>このことは本当なのです。<br><br>それを今まで日本人は知らなかったから、英、米のまねばかりしていた。<br><br>だからまねは一番上手くなった。<br><br>まねは鋭いものです。<br><br>まねと贋物作りは世界一です。<br><br>それから巾着切の上手いのは日本が一番です。<br><br>それは外人に対する日本の国民的誇りでは……。<br><br>ですから私はそれをだんだん直し、説いていきます。<br><br> この間文士でそうとうに名のある人ですが、その人との話で日本の小説について私はこう言ったのです。<br><br>日本人の小説は上手いがスケールが小さい。<br><br>ただおもしろいのを作って有名になって、金を大いに儲けて大いに贅沢をするという考えで、社会のため、あるいは人類のためにどうするかという主張というものがない。<br><br>だから日本の小説はそこに目醒めなければならない。<br><br>そこにいくと西洋の小説は実にスケールが大きいことと、人類愛的にすばらしく知性が高い点があるのです。<br><br>そういう話をしたのですが、どうも日本人はそういったようなお座なり的で、その日暮らし的の状態です。<br><br>その代わりいろいろな種類は多いです。<br><br>しかしそれをまとめた力強さがないということは、今言った国民的誇りの自信がないということです。<br><br>これも私はだんだん時節に応じて発表するつもりですが、日本人のなかにまたすばらしいものがあるのです。<br><br>この一番すばらしいのは大和民族です。<br><br>この大和民族の文化的知性というものは実にすばらしいものです。<br><br>それが今まで隠れていた。<br><br>というのは、神武天皇以来いろんな戦争で、平和より戦争の方が多かったのです。<br><br>それから権力争いです。<br><br>そういうことのために下積みになっていた。<br><br>私は大和民族の頭領なのです。<br><br>ですからこれからいよいよ大和民族が出てくるのですが、大和民族というのは日の系統です。<br><br>今までの世界というのは月の世界、夜の世界だったからして、月が出ている間は太陽は地球の裏側になって暗闇になっていたというのが、今度いよいよ太陽が出て、月の夜が隠れてしまう。<br><br>そこで昼の民族というのが大和民族です。<br><br>大和民族の中心というのが私です。<br><br>それで日の神様が守護しているのです。<br><br>それで火素が出て病気が治るということになるのです。<br><br>今までは、こう（御浄霊）して病気を治すことはできなかったというのは、月の光だからです。<br><br>月の光というのは太陽の六十分の一ですから、今までの宗教では治っても六十分の一です。<br><br>闇の夜であったのが、いよいよ太陽の光が出たら月の光は消えてしまうのです。<br><br>太陽の光ですから六十倍病気が治るというわけです。<br><br>それですから馬鹿に良く治るということはあたりまえで不思議はないのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Orgulho Nacional e a Transição para a Era do Dia</h2>
 <p>O livro “Salvando a América” está finalmente concluído e prestes a entrar em impressão. Devido a compromissos do tradutor, o trabalho precisou ser realizado em regime de urgência, exigindo um esforço hercúleo para finalizá-lo em apenas meio mês. Pretendemos distribuí-lo amplamente, tanto no Japão quanto nos Estados Unidos. Que o Japão, uma nação recém-saída da derrota e ainda cambaleante após a assinatura do tratado de paz, se proponha a salvar os Estados Unidos, pode parecer um disparate. Se fosse o contrário, seria perfeitamente compreensível. Todavia, acredito que justamente essa audácia despertará grande surpresa e, por consequência, um profundo interesse. No livro, abordei de maneira exaustiva a questão do yakudoku, pois sei que nos Estados Unidos o fanatismo pelos medicamentos é um problema de enormes proporções. Em outra ocasião, já lhes apresentei a introdução; contudo, como a versão atual está muito mais completa, farei a leitura novamente.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Outro dia, em uma conversa com um escritor de renome, expus minha opinião sobre a literatura japonesa. Eu lhe disse: “Os romances japoneses são tecnicamente bem-elaborados, mas carecem de envergadura. Seus autores parecem buscar apenas a fama e o enriquecimento para desfrutar de uma vida de luxo, sem um propósito maior voltado para o bem da sociedade ou da humanidade. Falta-lhes uma tese. A literatura japonesa precisa despertar para essa dimensão”. Em contrapartida, os romances ocidentais frequentemente exibem uma escala grandiosa e um intelecto elevado, movidos por um profundo amor pela humanidade. Essa tendência japonesa à superficialidade, a viver apenas o momento presente, manifesta-se em muitas áreas. Há grande variedade, mas falta uma força unificadora, o que, reitero, provém da ausência de autoconfiança fundamentada no orgulho nacional.</p>
 <p>Com o tempo, e conforme a ocasião permitir, revelarei mais sobre este assunto, pois existe algo de verdadeiramente sublime no povo japonês: a estirpe de Yamato. A inteligência cultural da estirpe de Yamato é simplesmente extraordinária, mas permaneceu oculta até agora. Desde a era do Imperador Jinmu, as inúmeras guerras e as constantes disputas pelo poder a mantiveram subjugada. Eu sou o líder da estirpe de Yamato. E, a partir de agora, ela finalmente emergirá.</p>
 <p>A estirpe de Yamato pertence à linhagem do Sol. O mundo, até o presente momento, viveu na Era da Lua, a Era da Noite. Durante o reinado da Lua, o Sol se encontrava do lado oposto da Terra, imerso em escuridão. Agora, porém, o Sol finalmente se ergue, e a noite regida pela Lua desaparecerá. O povo destinado a viver na Era do Dia é a estirpe de Yamato, e eu sou o seu centro. O Deus do Sol é o meu guardião. Eis a razão pela qual o elemento fogo se manifesta e as doenças são curadas. Até agora, não era possível curar desta maneira, pois a luz disponível era a da Lua. A luz da Lua equivale a um sexagésimo da luz do Sol. Por conseguinte, as religiões do passado só podiam curar na proporção de um para sessenta. Agora que a noite escura findou e a luz solar irrompe, a luz lunar se dissipa. Por ser a luz do Sol, o poder de cura é sessenta vezes maior. Portanto, não há mistério algum no fato de as curas ocorrerem de forma tão extraordinária. É o curso natural das coisas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月16日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月十六日 『アメリカを救う』という本がやっとできて、これから印刷にかかるのですが、翻訳の方の都合で非常に急いで半月ばかりでこしらえなければならないので、随分馬力をかけてやったのです。<br/><br/>これができたら日本や米国の各方面に配ろうと思ってます。<br/><br/>なにしろ、米国の方で日本を救うという本が出たのなら、これはありそうなことですが、敗戦でやっと講和になってまだヒョロヒョロしている日本が、米国を救うというのはとんでもない話ですが、これを見て驚くだろうと思ってます。<br/><br/>それでかえって興味を引くのではないかと思ってます。<br/><br/>薬毒についても、なにしろ米国では薬に一番大騒ぎをしてますから、薬毒について徹底的に書いたつもりです。<br/><br/>いつか「序論」を読ませましたが、今度はよほど完備したので、もう一遍読ませます。<br/><br/> （御論文『アメリカを救う』「序論」「病気とは何ぞや」「種痘と薬毒」） これを読んだらアメリカの人は驚くだろうと思います。<br/><br/>薬を一番大騒ぎをやっているのですから、目が眩んだかと思うでしょう。<br/><br/>それからまた、今アメリカで特に自慢しているのは手術ですが、手術もそうとうやっつけてます。<br/><br/> （御論文「手術について」） これに一つ一つの病気についての説明と、それに対するお蔭話を多いのは六例、少ないので三例くらい出したのです。<br/><br/>これを良く読んだら、たいてい往生すると思います。<br/><br/>おまけに米国の人は日本人よりか伝統に捉われません。<br/><br/>白紙になって読むから非常に効果があると思います。<br/><br/>その話はこのくらいにしておきます。<br/><br/> ついこの間信者の人で小川菊蔵というバスの販売を非常に大きくやっていて有名な人が、今度世界中をまわって歩いたその時のいろんな見聞記を聞いたのですが、なかなか参考になりました。<br/><br/>いろんな細かい話を聞きましたが、結局引っ括るめて言うと、今一番すばらしい勢いは西ドイツだそうです。<br/><br/>西ドイツはとても国民に元気があるのです。<br/><br/>非常にドイツ復興に熱心で、日本なんか較べものにならないそうです。<br/><br/>もっとも私は去年新聞で西ドイツの出超に驚いたのですが、去年は三億ドルプラスになったのですが、それでびっくりしたのです。<br/><br/>今度小川さんから聞いてみてなるほどと思ったのです。<br/><br/>というのは、ドイツ人は一番優秀だぞという一つの自信が強いのです。<br/><br/>それが動機です。<br/><br/>それから美術はフランスが一番良いと思っていたそうですが、イタリアに行って驚いたそうです。<br/><br/>フランスよりイタリアの方がずっと上だそうです。<br/><br/>これはそのはずです。<br/><br/>フランスの美術は新しいですが、イタリアはもっと古さがあるのです。<br/><br/>それはエジプトやギリシアが一番古いですが、発展していません。<br/><br/>日本でいうと埴輪でも見るようなもので未開発時代の美術ですが、ローマ時代に至って絢爛たる美術が生まれたのです。<br/><br/>それが残っているために、日本でいうと、ちょうど奈良朝時代の美術のようなものです。<br/><br/>それからフランスは京都風です。<br/><br/>そういうようで古さがあるから良いのです。<br/><br/>特に驚いたのはイタリアも非常に国民的誇りをもっているのです。<br/><br/>つまり自分の国はローマ華やかだった昔のころは、やはり欧州では一番文化が発達した国であるというその誇りが今もってあるのです。<br/><br/>で、現在ファッショがだいぶ興ってきたそうです。<br/><br/>それについてムッソリーニはイタリアでは非常に崇拝されているそうです。<br/><br/>ムッソリーニの家族がローマにいるそうですが、それは国民から優遇されて良い生活をしているそうです。<br/><br/>それからドイツでも、ナチスは今地下運動的にそうとう勢力をもっているそうです。<br/><br/>で、ヒトラーもムッソリーニも国民の心の中ではなかなか非常に崇拝されているそうです。<br/><br/>ただヒトラーもムッソリーニも非常に偉いので、ドイツ、イタリアの誇るべき人であるが、ただ戦争をしたからいけないので、その失敗だけで他のことは非常に良いということを考えているのです。<br/><br/> 特にドイツで驚いたのは道路が良いということだそうです。<br/><br/>自動車屋さんだからよけいそういうことに気がつくのでしょうが、ドイツのヒトラー道路は一時間百五十キロのスピードが出せるそうで、そういうのはアメリカにもないそうです。<br/><br/>あれは私も驚いたのですが、ドイツが第一次欧州大戦後失業者が多く、その時ヒトラー道路といってドイツを縦貫するものを作ったのですが、いつかの映画を見ても分かります。<br/><br/>それからみると、日本の道路を見ては呆れてしまいます。<br/><br/>だから私が総理大臣になれば官吏を半分にします。<br/><br/>官吏が多過ぎるから能率が上がらないのです。<br/><br/>今官吏の費用が五百億くらいあるでしょうから、半分にすれば二百五十億ですみます。<br/><br/>そうして日本に縦に道路を作って、あとは枝をつければ良いのです。<br/><br/>そうすれば日本の道路問題は解決します。<br/><br/>どうも、チビチビとしたり、曲がり角を削るくらいのしみったれなことをやっている。<br/><br/>日本は思いきったことをやらないということは、一番は国民的誇りがないのです。<br/><br/>小川さんも言ってましたが、日本人はそういったように国民的誇りがないためにフワフワして、外国的のことが良いと思っているのです。<br/><br/>私はこれをぶち壊さなければならないと思う。<br/><br/>日本の国民的誇りを自覚させなければならない。<br/><br/>それを知らなければならない。<br/><br/>ところが今までは、それを知る人も知らせる人もなかったのです。<br/><br/>これは私は、講和にならないうちは言えないから言わなかったが、もうソロソロ言っても良いでしょう。<br/><br/>とにかく世界中で一番優秀な国民は日本人です。<br/><br/>金に例えれば、白人は銀に相当するが、日本人は金なのです。<br/><br/>それだけの違いさです。<br/><br/>それだから今度『アメリカを救う』という本を出したのですが、アメリカ人というのは、われわれからみればずっと下なのです。<br/><br/>そういう自覚がないから、アメリカのまねばかりし、あるいはヨーロッパのまねをしているが、それは国民の自覚がないからです。<br/><br/>自覚といっても、取ってつけたようなものではしようがないのです。<br/><br/>このことは本当なのです。<br/><br/>それを今まで日本人は知らなかったから、英、米のまねばかりしていた。<br/><br/>だからまねは一番上手くなった。<br/><br/>まねは鋭いものです。<br/><br/>まねと贋物作りは世界一です。<br/><br/>それから巾着切の上手いのは日本が一番です。<br/><br/>それは外人に対する日本の国民的誇りでは……。<br/><br/>ですから私はそれをだんだん直し、説いていきます。<br/><br/> この間文士でそうとうに名のある人ですが、その人との話で日本の小説について私はこう言ったのです。<br/><br/>日本人の小説は上手いがスケールが小さい。<br/><br/>ただおもしろいのを作って有名になって、金を大いに儲けて大いに贅沢をするという考えで、社会のため、あるいは人類のためにどうするかという主張というものがない。<br/><br/>だから日本の小説はそこに目醒めなければならない。<br/><br/>そこにいくと西洋の小説は実にスケールが大きいことと、人類愛的にすばらしく知性が高い点があるのです。<br/><br/>そういう話をしたのですが、どうも日本人はそういったようなお座なり的で、その日暮らし的の状態です。<br/><br/>その代わりいろいろな種類は多いです。<br/><br/>しかしそれをまとめた力強さがないということは、今言った国民的誇りの自信がないということです。<br/><br/>これも私はだんだん時節に応じて発表するつもりですが、日本人のなかにまたすばらしいものがあるのです。<br/><br/>この一番すばらしいのは大和民族です。<br/><br/>この大和民族の文化的知性というものは実にすばらしいものです。<br/><br/>それが今まで隠れていた。<br/><br/>というのは、神武天皇以来いろんな戦争で、平和より戦争の方が多かったのです。<br/><br/>それから権力争いです。<br/><br/>そういうことのために下積みになっていた。<br/><br/>私は大和民族の頭領なのです。<br/><br/>ですからこれからいよいよ大和民族が出てくるのですが、大和民族というのは日の系統です。<br/><br/>今までの世界というのは月の世界、夜の世界だったからして、月が出ている間は太陽は地球の裏側になって暗闇になっていたというのが、今度いよいよ太陽が出て、月の夜が隠れてしまう。<br/><br/>そこで昼の民族というのが大和民族です。<br/><br/>大和民族の中心というのが私です。<br/><br/>それで日の神様が守護しているのです。<br/><br/>それで火素が出て病気が治るということになるのです。<br/><br/>今までは、こう（御浄霊）して病気を治すことはできなかったというのは、月の光だからです。<br/><br/>月の光というのは太陽の六十分の一ですから、今までの宗教では治っても六十分の一です。<br/><br/>闇の夜であったのが、いよいよ太陽の光が出たら月の光は消えてしまうのです。<br/><br/>太陽の光ですから六十倍病気が治るというわけです。<br/><br/>それですから馬鹿に良く治るということはあたりまえで不思議はないのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

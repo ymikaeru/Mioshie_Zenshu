@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku49</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の無力 『栄光』201号、昭和28(1953)年3月25日発行 この御蔭話の患者について言いたいことは、医学の余りに無力なことである。<br><br>日本製の注射では効かない、アメリカの注射薬より外にないというので、それで治るかと訊（き）くと、請合われないという。<br><br>ただそれだけの話でどうしようもないのである。<br><br>としたら医学の余りの心細さに驚かざるを得ないのである。<br><br>この事実によっても医学進歩の程度は分るであろう。<br><br>としたら実に問題である。<br><br>とはいうものの、それは医師にも分っているに違いないが、ウッカリ言うとたちまち顎（あご）が干上るから、要領よくお茶を濁しているのだろうが、この精神的苦しみはお察しするのである。<br><br> 大石に押しつけられた様な強度の頭重短期間に癒さる 兵庫県 神光中教会 浜根タツ（50） 明主様謹みて御守護の数々御礼申し上げます。<br><br> 過去を振り返って見まするに私は幼少の頃より病弱で、特に脳が悪く床についている時が多く、気分の良い時でも部屋の片隅で小さくなっていたり、又冬になれば湯タンポの上に坐ったままという状態で生活して参りました。<br><br>無論血色とて無く魂の抜けた人形のようで、食事の仕度することがあってもトンチンカンなこと許りして、近所の人達は気違だ！ 馬鹿だ！ と蔭口どころか私の目の前でハッキリ言う人さえありました。<br><br>病院で診察して頂きますと「あなたは幾ら日本の注射をしても駄目だから、アメリカの注射をする外に術は無い」と申され、主人が「米国の注射をしたら全快するでしょうか」と尋ねたところ「アメリカの注射を少し打った位では効果は無いが、長く続ければ効果があるかも知れない。<br><br>又費用も日数も大分掛かるが、それで宜しければ取寄せて上げるが気安め位だ。<br><br>それより放って置いた方が宜しかろう」と医者よりも見放され、親類の者達は気違病院へでも入れた方が、ずっとよかろうとまであざけり笑い、いっそのこと死んだ方がましだと幾度か思い、毎日毎日枕の乾く間の無い位幾夜となく泣き明したこともございました。<br><br>その上息子（輝雄）は年中胃が悪く、嫁は結核で入院して困っておりますし、本当に私達は地獄の底にうごめいておりました。<br><br> その時、昨年の七月頃より尾道から来ておられた山田先生に尊い御道の話を聞かされ、御浄霊をして頂く内に段々と気分も落着いて物の判別もつくようにまで御蔭を頂きました。<br><br>息子は元来疑い深い方でしたが、御蔭を見て半信半疑のまま昨年八月、名古屋の神光中教会の会長先生より入信さして頂き、その後私に御浄霊に来てくれ、又病院へ行って嫁にも御浄霊している内に体の工合が非常に良いので、早速退院させ、九月に入信させて頂きました。<br><br>二人より交る交る御浄霊をして頂く内に、何回とも無く御浄化頂くその度に楽になり、十月教会へ御参りさせて頂けるようになりました。<br><br>その時ある信者が来ておりました（以前腸結核の方）が再度の浄化とのことで、とても苦しみ始め、傍で見ておれない位でしたが、口から何か変なものを出され、その臭いたるや消毒薬の臭いでした。<br><br> ちょうど先生の御留守で奥様が御浄霊しておられましたが、間もなく患者はいびきをかいて寝て仕舞いました。<br><br>本当に御浄霊の尊さ、それに引替え薬毒の恐しさに今更ながら驚きました。<br><br> 十一月二日に姫路の長尾先生が輝雄の宅へ来られ、私も飛んで行きたく思えども体がはっきりせず困っておりましたが、山田先生に御願いして頂くとずっと楽になり、早速バスで後ればせながら御参りさせて頂きました。<br><br>沢山の御参りの方がありましたが、私程重い病人はございませんでした。<br><br>私は最後に御浄霊がお願いできました。<br><br>御浄霊して頂く内にウトウトと良い気分になり、ふと気が付くと今まで三十年間重かった脳がハッキリとして、目が覚めたように軽くなりました。<br><br>その時の嬉しさと言ったら筆舌には言い表わせません。<br><br>我知らず涙が流れ、思わず大声で「明主様有難うございます。<br><br>三十年間の脳中の重い石を取って頂きまして有難うございます」思わず知らず何回も何回も……私はこの時の嬉しさを一生忘れる事はできません。<br><br>傍にいた人々も水を打ったようにしーんと静まり返り、私の過去を知っていた人々はもらい泣きした人すらあったと後で聞きました。<br><br> 十一月十五日主人始め私、兄、妹と会長先生より入信さして頂きました。<br><br>先生より御浄霊もして頂き、この時も少し眠くなったかと思うと、今まで腰が冷えて困っていたのが一辺に治して戴きました。<br><br> 今日では私も輝雄も近所の人達に御道の話をしたり新聞を間配りに歩いたり、御浄霊もさして頂きすっかり元気にしていただき、神様の御用がさせて頂ける身体にさして頂きました。<br><br>これひとえに明主様の御守護の賜物と、偉大なる御神力にはただただ感謝感激の外なく、御蔭様で嫁の肺病も父（八十三歳）の永年の神経痛も治して頂き、今では野良仕事はおろか御正月の餅もつかして頂けるようになり、一家揃っての病人の家が今年の御正月は本当に嬉しく楽しく過させて頂きました。<br><br>今年は自然農法に切換えて作るのを楽しみながら、仕事の寸暇を利用して藁を切っております。<br><br> この上は御教えに従い、輝雄も私も御神業に励まして頂く覚悟です。<br><br> 明主様、誠に有難うございました。<br><br>拙文にて御守護の一端を御報告さして頂きました。<br><br> 今後共罪多き吾々に御守護下さいますよう、伏して御願い申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Impotência da Medicina</h2>
 <p>O que desejo ressaltar a respeito do testemunho de fé desta paciente é a manifesta impotência da medicina. Dizem que as injeções de fabricação japonesa não surtem efeito e que a única alternativa são os medicamentos injetáveis americanos. Contudo, ao se questionar se estes trariam a cura, a resposta é que não há garantias. A conversa termina aí, sem apresentar qualquer solução. Diante disso, não há como não se espantar com a desalentadora precariedade da medicina. Tal fato, por si só, revela o verdadeiro grau de avanço da ciência médica. Trata-se, portanto, de uma questão deveras preocupante.</p>
@@ -106,5 +258,48 @@ Igreja Shinko, Província de Hyogo</p>
 <p>De agora em diante, seguindo os Ensinamentos, tanto meu filho quanto eu estamos determinados a nos empenhar ainda mais na Obra Divina.</p>
 <p>Meishu-Sama, muito, muito obrigada. Com este relato, apresento apenas uma fração das inúmeras graças que me foram concedidas.</p>
 <p>Rogo humildemente que continue a nos proteger, a nós, que ainda carregamos tantos pecados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の無力 『栄光』201号、昭和28(1953)年3月25日発行 この御蔭話の患者について言いたいことは、医学の余りに無力なことである。<br/><br/>日本製の注射では効かない、アメリカの注射薬より外にないというので、それで治るかと訊（き）くと、請合われないという。<br/><br/>ただそれだけの話でどうしようもないのである。<br/><br/>としたら医学の余りの心細さに驚かざるを得ないのである。<br/><br/>この事実によっても医学進歩の程度は分るであろう。<br/><br/>としたら実に問題である。<br/><br/>とはいうものの、それは医師にも分っているに違いないが、ウッカリ言うとたちまち顎（あご）が干上るから、要領よくお茶を濁しているのだろうが、この精神的苦しみはお察しするのである。<br/><br/> 大石に押しつけられた様な強度の頭重短期間に癒さる 兵庫県 神光中教会 浜根タツ（50） 明主様謹みて御守護の数々御礼申し上げます。<br/><br/> 過去を振り返って見まするに私は幼少の頃より病弱で、特に脳が悪く床についている時が多く、気分の良い時でも部屋の片隅で小さくなっていたり、又冬になれば湯タンポの上に坐ったままという状態で生活して参りました。<br/><br/>無論血色とて無く魂の抜けた人形のようで、食事の仕度することがあってもトンチンカンなこと許りして、近所の人達は気違だ！ 馬鹿だ！ と蔭口どころか私の目の前でハッキリ言う人さえありました。<br/><br/>病院で診察して頂きますと「あなたは幾ら日本の注射をしても駄目だから、アメリカの注射をする外に術は無い」と申され、主人が「米国の注射をしたら全快するでしょうか」と尋ねたところ「アメリカの注射を少し打った位では効果は無いが、長く続ければ効果があるかも知れない。<br/><br/>又費用も日数も大分掛かるが、それで宜しければ取寄せて上げるが気安め位だ。<br/><br/>それより放って置いた方が宜しかろう」と医者よりも見放され、親類の者達は気違病院へでも入れた方が、ずっとよかろうとまであざけり笑い、いっそのこと死んだ方がましだと幾度か思い、毎日毎日枕の乾く間の無い位幾夜となく泣き明したこともございました。<br/><br/>その上息子（輝雄）は年中胃が悪く、嫁は結核で入院して困っておりますし、本当に私達は地獄の底にうごめいておりました。<br/><br/> その時、昨年の七月頃より尾道から来ておられた山田先生に尊い御道の話を聞かされ、御浄霊をして頂く内に段々と気分も落着いて物の判別もつくようにまで御蔭を頂きました。<br/><br/>息子は元来疑い深い方でしたが、御蔭を見て半信半疑のまま昨年八月、名古屋の神光中教会の会長先生より入信さして頂き、その後私に御浄霊に来てくれ、又病院へ行って嫁にも御浄霊している内に体の工合が非常に良いので、早速退院させ、九月に入信させて頂きました。<br/><br/>二人より交る交る御浄霊をして頂く内に、何回とも無く御浄化頂くその度に楽になり、十月教会へ御参りさせて頂けるようになりました。<br/><br/>その時ある信者が来ておりました（以前腸結核の方）が再度の浄化とのことで、とても苦しみ始め、傍で見ておれない位でしたが、口から何か変なものを出され、その臭いたるや消毒薬の臭いでした。<br/><br/> ちょうど先生の御留守で奥様が御浄霊しておられましたが、間もなく患者はいびきをかいて寝て仕舞いました。<br/><br/>本当に御浄霊の尊さ、それに引替え薬毒の恐しさに今更ながら驚きました。<br/><br/> 十一月二日に姫路の長尾先生が輝雄の宅へ来られ、私も飛んで行きたく思えども体がはっきりせず困っておりましたが、山田先生に御願いして頂くとずっと楽になり、早速バスで後ればせながら御参りさせて頂きました。<br/><br/>沢山の御参りの方がありましたが、私程重い病人はございませんでした。<br/><br/>私は最後に御浄霊がお願いできました。<br/><br/>御浄霊して頂く内にウトウトと良い気分になり、ふと気が付くと今まで三十年間重かった脳がハッキリとして、目が覚めたように軽くなりました。<br/><br/>その時の嬉しさと言ったら筆舌には言い表わせません。<br/><br/>我知らず涙が流れ、思わず大声で「明主様有難うございます。<br/><br/>三十年間の脳中の重い石を取って頂きまして有難うございます」思わず知らず何回も何回も……私はこの時の嬉しさを一生忘れる事はできません。<br/><br/>傍にいた人々も水を打ったようにしーんと静まり返り、私の過去を知っていた人々はもらい泣きした人すらあったと後で聞きました。<br/><br/> 十一月十五日主人始め私、兄、妹と会長先生より入信さして頂きました。<br/><br/>先生より御浄霊もして頂き、この時も少し眠くなったかと思うと、今まで腰が冷えて困っていたのが一辺に治して戴きました。<br/><br/> 今日では私も輝雄も近所の人達に御道の話をしたり新聞を間配りに歩いたり、御浄霊もさして頂きすっかり元気にしていただき、神様の御用がさせて頂ける身体にさして頂きました。<br/><br/>これひとえに明主様の御守護の賜物と、偉大なる御神力にはただただ感謝感激の外なく、御蔭様で嫁の肺病も父（八十三歳）の永年の神経痛も治して頂き、今では野良仕事はおろか御正月の餅もつかして頂けるようになり、一家揃っての病人の家が今年の御正月は本当に嬉しく楽しく過させて頂きました。<br/><br/>今年は自然農法に切換えて作るのを楽しみながら、仕事の寸暇を利用して藁を切っております。<br/><br/> この上は御教えに従い、輝雄も私も御神業に励まして頂く覚悟です。<br/><br/> 明主様、誠に有難うございました。<br/><br/>拙文にて御守護の一端を御報告さして頂きました。<br/><br/> 今後共罪多き吾々に御守護下さいますよう、伏して御願い申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

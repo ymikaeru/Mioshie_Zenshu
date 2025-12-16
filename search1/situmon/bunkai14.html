@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 実生分会『実生分会ニュース』４月号、昭和24(1949)年4月20日発行 ――子癇（しかん）は霊的原因でしょうか。<br><br> 霊的である。<br><br>恨みの霊が出産の妨害をするときに起ることがある。<br><br>例えば子なくして死んだ先妻の霊が後妻の出産を恨み、ねたむときなどに起ることがある。<br><br> なお、お産で血が減少したとき、霊が憑りやすいから注意すべきである。<br><br> ――生死不明の人はいかがお祀りしたらよろしいものでございましょうか。<br><br> 菩提寺で戒名をつけてもらい、ふつうの仏様のようにお祀りすればよい。<br><br>もしその人が生きていて音信不通であったとしても、善い功徳である。<br><br> ――遊廓、料理店その他で営業用に階上を使い、家族が階下に居住する場合、階下で御神体をお祭り申し上ぐることにお許しいただけることでございましょうか。<br><br> お祭りしないほうがよい。<br><br>かえって御無礼になる。<br><br>最上のお部屋にお祭りすべきで、平家でもお祭りしてある床の間の天井裏などを物置などに使用することはいけぬ。<br><br>そんな構造の家では、上を取り片付けて、人の踏み入らぬようにし清浄に保たなければならぬ。<br><br> ――霊界においては現界の知恵、学は役に立つが、地位名誉などは役に立たぬとある霊が申しますが、真実でございましょうか。<br><br> その通りである。<br><br>霊界で地位が上になるのは、罪穢の少ない人である。<br><br>だから現界で地位、名誉、財産のあった人などは、霊界では地獄で苦しむ者も多い。<br><br>たとえ地位、名誉、財産などはなくても、足るを知って満足し、正しい人間としての行動および篤き信仰心を持ち、収入の一部を世のため、神様のために、正しく費した人は、霊界で幸福な生活を営むことができる。<br><br>それほど霊界は公平であり、情実がない。<br><br> そこに人間のこの世の不合理に対する救いもあるわけである。<br><br>従って、位牌、墓碑などに、生前の位階、勲等などを記入することも霊的には無意味なわけである。<br><br> ――以前「安保」と名乗っていた家が三代前から「豊田」と改姓し、それ以後の仏は各位牌を作りお祭りしてありますが、このたび先祖代々の位牌を作りますについて、御先祖の名前はいかがいたすべきものでございましょうか。<br><br> 一枚の位碑へ「安保家豊田家先祖代々之霊位」とすればよいであろう。<br><br> ――七五三のお宮詣りの意味を御教えくださいませ。<br><br> 本当の意味から言えば間違いで「シメ」と読むわけで、本当の神を締め出して、次の神を迎え祝う意味が伏在している。<br><br>七＝土、五＝火、三＝水となり、いままでは夜の世界だから順序を間違っていたとも言えるが、習慣上行なわれていることで、あまりとやかく言うべきことではない。<br><br> ――ある鰻屋の妻女が腹部の病気で二回も開腹手術をいたし、その後も健康勝れず、このたび御浄霊を受けましたところ、身体をクネラセて霊の憑依状態を現わし、また、その間その妻女の目に鰻の首が無数に見えたようですが、鰻の霊を祀るにはいかがいたしたらよろしゅうございましょうか。<br><br>また鳥屋スッポン屋などの家庭にも不具者が出ますが、これらの霊の供養の方法を御教えをお願い申し上げます。<br><br> 鰻も龍神の一種で、一年に一回供養をする必要がある。<br><br>それは新しい盥（たらい）に水を入れ、御供物を供え祝詞を上げ幽世の大神にお願いをし、霊界で救われるように、また因縁の魂は人間に生まれ代わるよう念じてやればよい。<br><br> なお耳のある鰻は絶対に食べてはならぬ。<br><br> 鳥、スッポンも怨みの霊である。<br><br>鰻同様しかるべく供養してやれ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos Divinos</h2>
 <p><strong>A eclampsia possui causa espiritual?</strong></p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p><strong>A esposa do proprietário de um restaurante especializado em enguias submeteu-se a duas cirurgias abdominais e, ainda assim, sua saúde permanece debilitada. Recentemente, ao receber Johrei, seu corpo começou a se contorcer, manifestando um estado de possessão, e ela relatou ter visões de inúmeras cabeças de enguia. Como proceder para assentar os espíritos desses animais? Gostaríamos também de solicitar orientação sobre como realizar a cerimônia fúnebre para os espíritos de aves e tartarugas, cujas famílias de criadores ou comerciantes também costumam ter pessoas com deficiências.</strong></p>
 <p>A enguia é uma manifestação do Deus-Dragão e, por isso, necessita de uma cerimônia de sufrágio uma vez ao ano. Para realizá-la, deve-se encher uma tina nova com água, dispor oferendas, entoar a Oração Amatsu-Norito e rogar ao Grande Deus do Mundo Espiritual que essas almas sejam salvas e que os espíritos ligados por laços cármicos possam renascer como seres humanos. Adicionalmente, enguias que possuem orelhas jamais devem ser consumidas.</p>
 <p>As aves e as tartarugas também se manifestam como espíritos de ressentimento. Procedam, pois, com uma cerimônia de sufrágio adequada, da mesma forma que se faz para as enguias.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 実生分会『実生分会ニュース』４月号、昭和24(1949)年4月20日発行 ――子癇（しかん）は霊的原因でしょうか。<br/><br/> 霊的である。<br/><br/>恨みの霊が出産の妨害をするときに起ることがある。<br/><br/>例えば子なくして死んだ先妻の霊が後妻の出産を恨み、ねたむときなどに起ることがある。<br/><br/> なお、お産で血が減少したとき、霊が憑りやすいから注意すべきである。<br/><br/> ――生死不明の人はいかがお祀りしたらよろしいものでございましょうか。<br/><br/> 菩提寺で戒名をつけてもらい、ふつうの仏様のようにお祀りすればよい。<br/><br/>もしその人が生きていて音信不通であったとしても、善い功徳である。<br/><br/> ――遊廓、料理店その他で営業用に階上を使い、家族が階下に居住する場合、階下で御神体をお祭り申し上ぐることにお許しいただけることでございましょうか。<br/><br/> お祭りしないほうがよい。<br/><br/>かえって御無礼になる。<br/><br/>最上のお部屋にお祭りすべきで、平家でもお祭りしてある床の間の天井裏などを物置などに使用することはいけぬ。<br/><br/>そんな構造の家では、上を取り片付けて、人の踏み入らぬようにし清浄に保たなければならぬ。<br/><br/> ――霊界においては現界の知恵、学は役に立つが、地位名誉などは役に立たぬとある霊が申しますが、真実でございましょうか。<br/><br/> その通りである。<br/><br/>霊界で地位が上になるのは、罪穢の少ない人である。<br/><br/>だから現界で地位、名誉、財産のあった人などは、霊界では地獄で苦しむ者も多い。<br/><br/>たとえ地位、名誉、財産などはなくても、足るを知って満足し、正しい人間としての行動および篤き信仰心を持ち、収入の一部を世のため、神様のために、正しく費した人は、霊界で幸福な生活を営むことができる。<br/><br/>それほど霊界は公平であり、情実がない。<br/><br/> そこに人間のこの世の不合理に対する救いもあるわけである。<br/><br/>従って、位牌、墓碑などに、生前の位階、勲等などを記入することも霊的には無意味なわけである。<br/><br/> ――以前「安保」と名乗っていた家が三代前から「豊田」と改姓し、それ以後の仏は各位牌を作りお祭りしてありますが、このたび先祖代々の位牌を作りますについて、御先祖の名前はいかがいたすべきものでございましょうか。<br/><br/> 一枚の位碑へ「安保家豊田家先祖代々之霊位」とすればよいであろう。<br/><br/> ――七五三のお宮詣りの意味を御教えくださいませ。<br/><br/> 本当の意味から言えば間違いで「シメ」と読むわけで、本当の神を締め出して、次の神を迎え祝う意味が伏在している。<br/><br/>七＝土、五＝火、三＝水となり、いままでは夜の世界だから順序を間違っていたとも言えるが、習慣上行なわれていることで、あまりとやかく言うべきことではない。<br/><br/> ――ある鰻屋の妻女が腹部の病気で二回も開腹手術をいたし、その後も健康勝れず、このたび御浄霊を受けましたところ、身体をクネラセて霊の憑依状態を現わし、また、その間その妻女の目に鰻の首が無数に見えたようですが、鰻の霊を祀るにはいかがいたしたらよろしゅうございましょうか。<br/><br/>また鳥屋スッポン屋などの家庭にも不具者が出ますが、これらの霊の供養の方法を御教えをお願い申し上げます。<br/><br/> 鰻も龍神の一種で、一年に一回供養をする必要がある。<br/><br/>それは新しい盥（たらい）に水を入れ、御供物を供え祝詞を上げ幽世の大神にお願いをし、霊界で救われるように、また因縁の魂は人間に生まれ代わるよう念じてやればよい。<br/><br/> なお耳のある鰻は絶対に食べてはならぬ。<br/><br/> 鳥、スッポンも怨みの霊である。<br/><br/>鰻同様しかるべく供養してやれ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

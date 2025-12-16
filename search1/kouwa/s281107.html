@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281107</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月7日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月七日 この前農業特集号を出すという話をしましたが、肝腎な中京方面の報告に推定が多いので、それでは正確を欠きますから、やはり何俵何斗何升という数字が正確でないと具合が悪いのです。<br><br>それには来月にならなければ正確に分からないそうですから、特集号は延ばして、春早々にするつもりです。<br><br>そのつもりでいてもらいたいと思います。<br><br>それで今までの報告の推定なども、気候のために予定よりか多くなる人もあるし、少なくなる人もあるようです。<br><br>なかなか目を見張っているらしいですから、そういうのは推定よりも違ったら突っ込んでやろうというような空気もいくらかあるようです。<br><br>なにしろ世間の目は救世教を非常に注目してますから、どこからも指一本さされないように、いささかの隙もないようにやってゆかなければならないと思います。<br><br> それから四、五日前にアメリカの『シカゴ・トリビューン』というあっちの大新聞の東洋総支配人の奥さんで、女の新聞記者ですが、来ていろいろ質問して、新聞に載せるのだそうです。<br><br>それで箱根美術館も見たし、熱海の地上天国も見せたので、非常に感心して、なにを見ても聞いても心が打たれ通しで、なんと言ってよいか言葉で表わせないというようなことを言ってました。<br><br>ところが昨日聞いたところによりますと、教主様に会ったけれども、自分には荷が勝ち過ぎて、どうもたちうちができない、まあ負けた形だというのです。<br><br>しかし随分いろいろな質問をして、自分ではそうとう自信があるらしかったです。<br><br>私も思いきって話しました。<br><br>その人の主人は今朝鮮にいるらしいですが、いずれ東京に来た時に、ぜひ主人と十分談話を交してもらいたい。<br><br>それでぜひ『トリビューン』にそうとう大きく扱って出すという希望だそうです。<br><br>「世界平和の建設者」という標題で書くつもりだと言ってますが、非常におもしろいと思います。<br><br>これで一躍米国に救世教というものが知れるわけです。<br><br>将来あっちに宣伝するうえにおいて、とにかく第一印象を与えておくということは非常によいと思います。<br><br>先方で感に打たれたといいますか、印象づけられたのは、とにかくアメリカは白人文明、西洋文明の代表者だ、日本は東洋文明の代表者だ。<br><br>つまりアメリカは緯の文明だ、日本は経の文明だ。<br><br>だからこれを結ぶということが世界としては一番重要なことで、これによって本当の文化が生まれるのだ。<br><br>だからあなたの方で私の方を新聞に載せるということはその第一歩だ、つまり結ぶ第一歩です。<br><br>だから非常な結構なことだ、というようなことを話したので、そういうようなことは向こうでも非常に印象づけられたように思われます。<br><br>ただ向こうで言うことでおもしろいのは、私が宗教を始めたのは約五十ぐらいの時からだといったところが、これは珍しいというのです。<br><br>釈迦やキリストでもずっと若い時からだったけれども、あなたは五十からというと、そういう年輩になってから大きな宗教的存在になった人はないと言うのです。<br><br>この点は非常に珍しいことを言ってました。<br><br>これは私もウッカリしていたことで、おもしろいと思います。<br><br>それから共産主義はどう思うと言うから、あれは私は問題にしてない、あんなものは決して成功するものではないからと言ったら、どういうわけだと質問するから、人間で言えばアメリカや日本は上半身だ、それで下半身が共産主義国＝ソ連＝だ。<br><br>つまり足にあたるのだ。<br><br>だからもしソ連が支配権を握ったとしたら、人間は逆様になって歩くようなことになってしまう。<br><br>そういうことはあり得ることはないと言ったところが、非常に笑ってましたが、あっちの新聞に出すでしょう。<br><br>ちょうど二時間ばかり話をしました。<br><br>それからもう一つ私が言ったことは、箱根、熱海、京都の順に地上天国を造るつもりだが、いずれハワイにも造り、アメリカにも造る。<br><br>そうしてだんだん世界的に増やしてゆくつもりだ。<br><br>というのは、今までは公園は方々にできている。<br><br>しかし公園というのはごく一般的で大衆の憩いの場所というようなもので、私の計画しているものはもっとレベルの高いものです。<br><br>つまり天然の美と人工の美を取り入れた、上等なものを造る。<br><br>なにしろ人間が見るものとしては、現在のごとくみんなあまりに俗悪のものが多過ぎるので、見て品性が向上するようなものはほとんどない。<br><br>見て堕落に導くようなものの方が多いのだから、少しはそういった高級な、品性を高めるようなものも大いに必要だと思う。<br><br>そういう意味でこの地上天国を造るのだと言ったが、非常に共鳴していました。<br><br>まだいろいろありますが、気のついたことはそういう点です。<br><br> いつも言うとおりメシヤ会館がだんだんできるに従って外国に拡がってゆくのです。<br><br>そういう意味になります。<br><br>できあがってからはアメリカなどには大いに発展するわけです。<br><br> それから昨日ハワイの弁護士の三保という人で、これは今度ハワイの法人を骨折ってくれた人ですが、法人は許可になったのです。<br><br>その報告とかいろいろな話ですが、日本の弁護士と違って宗教的に、なかなか理解があるのです。<br><br>そう言っては悪いが、日本の弁護士はおよそ宗教とは反対です。<br><br>もっとも解釈のしかたですが、昨日の弁護士の話によると、アメリカはすべて裁判官とか弁護士とか法律のことをやっている人は、宗教が非常に肝腎だと言うのです。<br><br>つまり人を裁くのですから、その場合に公平に裁くとすれば、正義を土台とするのだから、神様を拝むという宗教的信念があれば非常によいというのです。<br><br>ところがいつかの裁判などでも、私の経験によると、日本の弁護士というのはそういう解釈とは違うようです。<br><br>つまり法律家というものは……裁判官もそうですが……法によって裁くのだ、宗教とはぜんぜん関係ない。<br><br>宗教はまずだいたい迷信が多いのだから、そういったことで裁判官や弁護士が頭を使うとかえって良くない。<br><br>だからあくまで法の理屈で裁き、理屈によって善い悪いを決めるということが本当だというように思っているらしいのです。<br><br>だからたいへん違うのです。<br><br>だからそれがどういうふうに裁判上に現われるかと言いますと、日本の裁判官は、この人は良い仕事をしているとか、国家社会に良い仕事をしているということは、ぜんぜん眼中にないのです。<br><br>この人間は法律第何十何条に抵触するということで、他のことの良い悪いはどうでもよいのです。<br><br>それ一方で罪を決めてしまうのです。<br><br>ところがアメリカはそうではないのです。<br><br>アメリカでは、どうせ大きな仕事をする人や役に立つことをする人間はウッカリして法に触れることがありがちのものだ、だからただ罰しないで、この人は社会のために大きな仕事、良い仕事をするかということを基本にして罰するのだそうです。<br><br>それで私の裁判でも最後に出た某弁護士が、岡田という人はこういう社会のために良いことをしていると力説したが、テンデそういうことは裁判官は耳に入れないのです。<br><br>鵜沢総明さんなどもそういった考えでした。<br><br>だからむしろああいう弁論は、実際の罪と的外れになっているような気持ちです。<br><br>ところがぜんぜん裁判官の方では馬耳東風なのです。<br><br>ただコイツを罪にしてやろうとか、ごく細かい徴〔懲〕罰的にそれに引っ掛けて、罪人にすれば手柄になるというような具合です。<br><br>ですからアメリカがああして進歩発展するのはそういう点にも大いにあると思います。<br><br> 一週間ばかり前に文部省の宗務課長補佐と、朝日、毎日と、他の新聞の記者が六、七人来ていろいろな質問をしましたが、その時に私が医学の進歩といっても駄目だと言ったところが、“では近ごろ日本では寿命が延びたと言うが、これは医学の進歩ではないか”と言うのです。<br><br>それだけでみるとそう思うのも無理はないのです。<br><br>それでそれをよく言おうと思ったが、先方は予備知識がないからなかなか分からないのです。<br><br>それで簡単には言ってやりました。<br><br>信者の人もそういう質問はよく受けるだろうと思いますから、それについて書いてみました。<br><br> （御論文「寿命が延びた理由」） 【栄光 二三四号】） つまり浄化停止がうまくなったわけです。<br><br>進歩というと変ですが、浄化停止の方法が上手になったわけです。<br><br>ですからたしかに寿命は一時延びますが、これもある時期というよりか、もう二、三年もたつと霊界の浄化が非常に強くなりますから、今度は逆に恐ろしく短命になる時代が来るのです。<br><br>それは恐怖時代になるわけです。<br><br>それがもうだいぶ近寄っています。<br><br>これが一番よく分かるのは、あなた方が浄霊して、以前よりか治りよくなったでしょう。<br><br>早く治るでしょう。<br><br>これはそれだけ浄化力が強くなったわけです。<br><br>それから作物に虫害などが非常に多くなったということも、霊界が変わってきたわけです。<br><br>つまり浄化力が強くなるということは、今に薬をだんだん強めて、そうして浄化を止めて、近ごろのように寿命が延びるということは、逆療法が極端に進歩したわけです。<br><br>それでこの辺で逆療法の方は頭がつかえるわけです。<br><br>そうして今度は浄化力の方の、逆療法を打ち消す霊界の方の強い力が増してきますから、ちょうど今年の不作のようで、もう少したつと今度は馬鹿に浄化停止の力が弱ってくるのです。<br><br>反動的に弱ってくるのです。<br><br>そうすると薬をのむとすぐに悪くなり、注射をするとすぐにまいってしまうようになり、いつかも言ったとおりお医者自身が怖くなって、“これはたいへんだ、ちょっと手を出すとみんな悪くなってしまったり、まいってしまう”ということになり、つまり恐怖時代です。<br><br>それからが初めて“救世教の唱えた説が本当だ、これはどうも救世教にすがるよりほかに安心ができない”ということになるのです。<br><br>そういう時がきっと来るのです。<br><br>そうなるとあなた方は非常に忙しくなり、体がいくつあっても足りないというようになります。<br><br>まあ助けてやりますが、これは大本教のお筆先に“今に艮の金神返報返しを致すぞよ”“喜ばして返報返しを致すぞよ”ということがあります。<br><br>これがちょうどそれになるわけです。<br><br>ナグリつけての返報返しではないのです。<br><br>それは人間の方のやり方です。<br><br>神様の方のは助けてやるのです。<br><br>今までさんざん悪口を言った連中を助けて喜ばしてやるのですから、今のことが合っているわけです。<br><br>それから日本のインテリなどは、いくら分からせるようにしてもなかなか分からないが、これはアメリカで救世教が評判になればすぐに分かります。<br><br>これもやはり“喜ばして返報返しを致すぞよ”という意味になります。<br><br> それから「生きてる宗教」ということを書いてみましたが、他の宗教は死んでるようなもので、救世教だけが生きているというわけですが、それをなるほどと思うように書いたつもりです。<br><br> （御論文「生きてる宗教」） 【栄光 二三三号】） それから医学の間違っているということを見方を変えて書いてみました。<br><br> （御論文「医学は迷信か」） 【栄光 二三五号】） 今書いたとおり医者の方で病気を治せばそれでよいのです。<br><br>そうすれば人々は民間療法とか新宗教とか、そういう所に行きやしません。<br><br>治らないから、しかたなしに行くのです。<br><br>ですから新宗教がいけないとか、他の療法がいけないということはおかしい話です。<br><br>ご自分が治せばよいのです。<br><br>つまり自分が使っている人間に給料をやらないから、ずるいことをするとか、ほかから金を借りるとか、不正なことをして金を得るということになるので、それと同じです。<br><br>必要だけの月給をやればよいのです。<br><br>そうすればだれが悪いことをするものですか。<br><br>ですから医者の方で病気を治せばよいのです。<br><br>そうすれば問題はすっかり解決します。<br><br>治らないのに治るように見せかけているのです。<br><br>そうして金をウンと取って、結局今度は命までとるのですから、信じろ信じろと言っても信じるわけがないので、しかたがないです。<br><br>ですから医者が手を握って、他に行くな、お前はかわいがってやると言って、横面を張るようなものですから、それでは誰でも逃げてしまいます。<br><br>本当に撫でてくれる方に行きます。<br><br>これは簡単な分かりきった理屈ですが、そこが間違っているのです。<br><br>さんざん横面を叩いて、お前を良くしてやる、かわいがってやると言っているようなものです。<br><br>そうして本当にかわいがって良くしている人間をケシカランと言うのです。<br><br>オレの方で手を握ってかわいがっている人間を……と言うのです。<br><br>実際世の中は間違いきっているのです。<br><br>結局、一昨日のラジオのニュース解説で、“でたらめな世の中”という題で言ってましたが、その人はほかの意味から言ったのですが、やっぱりこっちでも“でたらめな世の中”と言いたいくらいです。<br><br>それでこんな簡単な理屈を分からせるのに、なかなか骨が折れるのです。<br><br>そこでいろんな例をあげてやらなければならないのです。<br><br>要するに人間は教育のある馬鹿、文化的野蛮人、野蛮未開人になっているというわけです。<br><br>病気が治らないとやたらに手術して臓器を取ってしまって、それが進歩したのだと言ってます。<br><br>アメリカの新聞記者も言ってましたが、アメリカは非常に手術が進歩してなんでもやたらに取ってしまうのです。<br><br>それで進歩した進歩したと言っているのですから、アメリカ人も“超愚”の点では日本に負けてないです。<br><br>ですから“超愚”では足りないくらいで、もう一つ超をつけて“超々愚”でしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Discernimentos sobre a Missão Mundial e a Falácia da Medicina Moderna</h2>
 <p>Anunciei anteriormente a publicação de uma edição especial sobre agricultura; todavia, os relatórios provenientes da região de Chūkyō baseiam-se excessivamente em estimativas, o que compromete a precisão. Um trabalho dessa natureza seria inadequado se não apresentasse números exatos, como tantas sacas, tantos alqueires, tantas medidas de grãos. Fui informado de que tais dados precisos só estarão disponíveis no próximo mês e, por essa razão, decidi adiar a edição especial para o início da primavera. Peço que tenham essa nova data em mente. Além disso, mesmo as estimativas recebidas até agora variam consideravelmente; alguns relatam colheitas superiores ao previsto, enquanto outros, inferiores, devido às condições climáticas. Aparentemente, observam-nos com muita atenção, e percebo no ar uma certa expectativa, como se aguardassem uma falha para nos apontar o dedo. O mundo, afinal, dedica uma atenção extraordinária à Sekaikyuseikyou, e por isso devemos agir de maneira irrepreensível, sem deixar a menor brecha para críticas.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Como afirmei nesse artigo, se os médicos fossem capazes de curar as doenças, não haveria problema algum. As pessoas não buscariam terapias populares ou novas religiões. Elas o fazem por não encontrarem a cura, como último recurso. Portanto, é um disparate criticar as novas religiões ou outras terapias. Bastaria que os próprios médicos curassem. A situação é análoga à de um patrão que não paga o salário a seu empregado, levando-o a cometer atos desonestos ou a contrair dívidas para sobreviver. Se o salário justo fosse pago, quem agiria de má fé? Assim, basta que os médicos curem as doenças, e a questão estará inteiramente resolvida.</p>
 <p>O problema é que eles fingem curar quando não podem. Cobram fortunas e, no final, acabam por tirar a própria vida do paciente. Por mais que insistam "confie em mim, confie em mim", como é possível acreditar? É como se um médico segurasse a mão de uma pessoa, dizendo "eu cuidarei de você, não vá a outro lugar", enquanto a esbofeteia com a outra mão. Qualquer um fugiria para buscar quem verdadeiramente o afaga. É uma lógica simples e evidente, mas é aí que reside o erro deles. Passam o tempo todo esbofeteando o doente, enquanto dizem: "Vou curá-lo, vou cuidar de você". E ainda consideram inadmissível a conduta daquele que realmente cuida e cura. O mundo está completamente equivocado.</p>
 <p>Há dois dias, um comentarista de notícias no rádio apresentou um segmento intitulado "Um Mundo de Disparates". Embora ele se referisse a outro contexto, sinto o mesmo desejo de exclamar: "Que mundo de disparates!". É preciso um esforço tremendo para fazer as pessoas compreenderem uma lógica tão simples, e por isso sou obrigado a apresentar os mais variados exemplos. Em suma, o ser humano tornou-se um tolo instruído, um bárbaro cultural, um selvagem incivilizado. Quando não conseguem curar uma doença, apressam-se em realizar cirurgias e remover órgãos, e a isso chamam de progresso. A própria jornalista americana me disse que as cirurgias nos Estados Unidos são extremamente avançadas e que os órgãos são removidos de forma indiscriminada, o que celebram como um grande avanço. Nesse quesito, os americanos não ficam atrás dos japoneses no que se refere à "suprema estupidez". Aliás, o termo "suprema estupidez" (超愚) parece insuficiente; talvez fosse preciso acrescentar outro "suprema", resultando em "supremamente suprema estupidez" (超々愚).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月7日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月七日 この前農業特集号を出すという話をしましたが、肝腎な中京方面の報告に推定が多いので、それでは正確を欠きますから、やはり何俵何斗何升という数字が正確でないと具合が悪いのです。<br/><br/>それには来月にならなければ正確に分からないそうですから、特集号は延ばして、春早々にするつもりです。<br/><br/>そのつもりでいてもらいたいと思います。<br/><br/>それで今までの報告の推定なども、気候のために予定よりか多くなる人もあるし、少なくなる人もあるようです。<br/><br/>なかなか目を見張っているらしいですから、そういうのは推定よりも違ったら突っ込んでやろうというような空気もいくらかあるようです。<br/><br/>なにしろ世間の目は救世教を非常に注目してますから、どこからも指一本さされないように、いささかの隙もないようにやってゆかなければならないと思います。<br/><br/> それから四、五日前にアメリカの『シカゴ・トリビューン』というあっちの大新聞の東洋総支配人の奥さんで、女の新聞記者ですが、来ていろいろ質問して、新聞に載せるのだそうです。<br/><br/>それで箱根美術館も見たし、熱海の地上天国も見せたので、非常に感心して、なにを見ても聞いても心が打たれ通しで、なんと言ってよいか言葉で表わせないというようなことを言ってました。<br/><br/>ところが昨日聞いたところによりますと、教主様に会ったけれども、自分には荷が勝ち過ぎて、どうもたちうちができない、まあ負けた形だというのです。<br/><br/>しかし随分いろいろな質問をして、自分ではそうとう自信があるらしかったです。<br/><br/>私も思いきって話しました。<br/><br/>その人の主人は今朝鮮にいるらしいですが、いずれ東京に来た時に、ぜひ主人と十分談話を交してもらいたい。<br/><br/>それでぜひ『トリビューン』にそうとう大きく扱って出すという希望だそうです。<br/><br/>「世界平和の建設者」という標題で書くつもりだと言ってますが、非常におもしろいと思います。<br/><br/>これで一躍米国に救世教というものが知れるわけです。<br/><br/>将来あっちに宣伝するうえにおいて、とにかく第一印象を与えておくということは非常によいと思います。<br/><br/>先方で感に打たれたといいますか、印象づけられたのは、とにかくアメリカは白人文明、西洋文明の代表者だ、日本は東洋文明の代表者だ。<br/><br/>つまりアメリカは緯の文明だ、日本は経の文明だ。<br/><br/>だからこれを結ぶということが世界としては一番重要なことで、これによって本当の文化が生まれるのだ。<br/><br/>だからあなたの方で私の方を新聞に載せるということはその第一歩だ、つまり結ぶ第一歩です。<br/><br/>だから非常な結構なことだ、というようなことを話したので、そういうようなことは向こうでも非常に印象づけられたように思われます。<br/><br/>ただ向こうで言うことでおもしろいのは、私が宗教を始めたのは約五十ぐらいの時からだといったところが、これは珍しいというのです。<br/><br/>釈迦やキリストでもずっと若い時からだったけれども、あなたは五十からというと、そういう年輩になってから大きな宗教的存在になった人はないと言うのです。<br/><br/>この点は非常に珍しいことを言ってました。<br/><br/>これは私もウッカリしていたことで、おもしろいと思います。<br/><br/>それから共産主義はどう思うと言うから、あれは私は問題にしてない、あんなものは決して成功するものではないからと言ったら、どういうわけだと質問するから、人間で言えばアメリカや日本は上半身だ、それで下半身が共産主義国＝ソ連＝だ。<br/><br/>つまり足にあたるのだ。<br/><br/>だからもしソ連が支配権を握ったとしたら、人間は逆様になって歩くようなことになってしまう。<br/><br/>そういうことはあり得ることはないと言ったところが、非常に笑ってましたが、あっちの新聞に出すでしょう。<br/><br/>ちょうど二時間ばかり話をしました。<br/><br/>それからもう一つ私が言ったことは、箱根、熱海、京都の順に地上天国を造るつもりだが、いずれハワイにも造り、アメリカにも造る。<br/><br/>そうしてだんだん世界的に増やしてゆくつもりだ。<br/><br/>というのは、今までは公園は方々にできている。<br/><br/>しかし公園というのはごく一般的で大衆の憩いの場所というようなもので、私の計画しているものはもっとレベルの高いものです。<br/><br/>つまり天然の美と人工の美を取り入れた、上等なものを造る。<br/><br/>なにしろ人間が見るものとしては、現在のごとくみんなあまりに俗悪のものが多過ぎるので、見て品性が向上するようなものはほとんどない。<br/><br/>見て堕落に導くようなものの方が多いのだから、少しはそういった高級な、品性を高めるようなものも大いに必要だと思う。<br/><br/>そういう意味でこの地上天国を造るのだと言ったが、非常に共鳴していました。<br/><br/>まだいろいろありますが、気のついたことはそういう点です。<br/><br/> いつも言うとおりメシヤ会館がだんだんできるに従って外国に拡がってゆくのです。<br/><br/>そういう意味になります。<br/><br/>できあがってからはアメリカなどには大いに発展するわけです。<br/><br/> それから昨日ハワイの弁護士の三保という人で、これは今度ハワイの法人を骨折ってくれた人ですが、法人は許可になったのです。<br/><br/>その報告とかいろいろな話ですが、日本の弁護士と違って宗教的に、なかなか理解があるのです。<br/><br/>そう言っては悪いが、日本の弁護士はおよそ宗教とは反対です。<br/><br/>もっとも解釈のしかたですが、昨日の弁護士の話によると、アメリカはすべて裁判官とか弁護士とか法律のことをやっている人は、宗教が非常に肝腎だと言うのです。<br/><br/>つまり人を裁くのですから、その場合に公平に裁くとすれば、正義を土台とするのだから、神様を拝むという宗教的信念があれば非常によいというのです。<br/><br/>ところがいつかの裁判などでも、私の経験によると、日本の弁護士というのはそういう解釈とは違うようです。<br/><br/>つまり法律家というものは……裁判官もそうですが……法によって裁くのだ、宗教とはぜんぜん関係ない。<br/><br/>宗教はまずだいたい迷信が多いのだから、そういったことで裁判官や弁護士が頭を使うとかえって良くない。<br/><br/>だからあくまで法の理屈で裁き、理屈によって善い悪いを決めるということが本当だというように思っているらしいのです。<br/><br/>だからたいへん違うのです。<br/><br/>だからそれがどういうふうに裁判上に現われるかと言いますと、日本の裁判官は、この人は良い仕事をしているとか、国家社会に良い仕事をしているということは、ぜんぜん眼中にないのです。<br/><br/>この人間は法律第何十何条に抵触するということで、他のことの良い悪いはどうでもよいのです。<br/><br/>それ一方で罪を決めてしまうのです。<br/><br/>ところがアメリカはそうではないのです。<br/><br/>アメリカでは、どうせ大きな仕事をする人や役に立つことをする人間はウッカリして法に触れることがありがちのものだ、だからただ罰しないで、この人は社会のために大きな仕事、良い仕事をするかということを基本にして罰するのだそうです。<br/><br/>それで私の裁判でも最後に出た某弁護士が、岡田という人はこういう社会のために良いことをしていると力説したが、テンデそういうことは裁判官は耳に入れないのです。<br/><br/>鵜沢総明さんなどもそういった考えでした。<br/><br/>だからむしろああいう弁論は、実際の罪と的外れになっているような気持ちです。<br/><br/>ところがぜんぜん裁判官の方では馬耳東風なのです。<br/><br/>ただコイツを罪にしてやろうとか、ごく細かい徴〔懲〕罰的にそれに引っ掛けて、罪人にすれば手柄になるというような具合です。<br/><br/>ですからアメリカがああして進歩発展するのはそういう点にも大いにあると思います。<br/><br/> 一週間ばかり前に文部省の宗務課長補佐と、朝日、毎日と、他の新聞の記者が六、七人来ていろいろな質問をしましたが、その時に私が医学の進歩といっても駄目だと言ったところが、“では近ごろ日本では寿命が延びたと言うが、これは医学の進歩ではないか”と言うのです。<br/><br/>それだけでみるとそう思うのも無理はないのです。<br/><br/>それでそれをよく言おうと思ったが、先方は予備知識がないからなかなか分からないのです。<br/><br/>それで簡単には言ってやりました。<br/><br/>信者の人もそういう質問はよく受けるだろうと思いますから、それについて書いてみました。<br/><br/> （御論文「寿命が延びた理由」） 【栄光 二三四号】） つまり浄化停止がうまくなったわけです。<br/><br/>進歩というと変ですが、浄化停止の方法が上手になったわけです。<br/><br/>ですからたしかに寿命は一時延びますが、これもある時期というよりか、もう二、三年もたつと霊界の浄化が非常に強くなりますから、今度は逆に恐ろしく短命になる時代が来るのです。<br/><br/>それは恐怖時代になるわけです。<br/><br/>それがもうだいぶ近寄っています。<br/><br/>これが一番よく分かるのは、あなた方が浄霊して、以前よりか治りよくなったでしょう。<br/><br/>早く治るでしょう。<br/><br/>これはそれだけ浄化力が強くなったわけです。<br/><br/>それから作物に虫害などが非常に多くなったということも、霊界が変わってきたわけです。<br/><br/>つまり浄化力が強くなるということは、今に薬をだんだん強めて、そうして浄化を止めて、近ごろのように寿命が延びるということは、逆療法が極端に進歩したわけです。<br/><br/>それでこの辺で逆療法の方は頭がつかえるわけです。<br/><br/>そうして今度は浄化力の方の、逆療法を打ち消す霊界の方の強い力が増してきますから、ちょうど今年の不作のようで、もう少したつと今度は馬鹿に浄化停止の力が弱ってくるのです。<br/><br/>反動的に弱ってくるのです。<br/><br/>そうすると薬をのむとすぐに悪くなり、注射をするとすぐにまいってしまうようになり、いつかも言ったとおりお医者自身が怖くなって、“これはたいへんだ、ちょっと手を出すとみんな悪くなってしまったり、まいってしまう”ということになり、つまり恐怖時代です。<br/><br/>それからが初めて“救世教の唱えた説が本当だ、これはどうも救世教にすがるよりほかに安心ができない”ということになるのです。<br/><br/>そういう時がきっと来るのです。<br/><br/>そうなるとあなた方は非常に忙しくなり、体がいくつあっても足りないというようになります。<br/><br/>まあ助けてやりますが、これは大本教のお筆先に“今に艮の金神返報返しを致すぞよ”“喜ばして返報返しを致すぞよ”ということがあります。<br/><br/>これがちょうどそれになるわけです。<br/><br/>ナグリつけての返報返しではないのです。<br/><br/>それは人間の方のやり方です。<br/><br/>神様の方のは助けてやるのです。<br/><br/>今までさんざん悪口を言った連中を助けて喜ばしてやるのですから、今のことが合っているわけです。<br/><br/>それから日本のインテリなどは、いくら分からせるようにしてもなかなか分からないが、これはアメリカで救世教が評判になればすぐに分かります。<br/><br/>これもやはり“喜ばして返報返しを致すぞよ”という意味になります。<br/><br/> それから「生きてる宗教」ということを書いてみましたが、他の宗教は死んでるようなもので、救世教だけが生きているというわけですが、それをなるほどと思うように書いたつもりです。<br/><br/> （御論文「生きてる宗教」） 【栄光 二三三号】） それから医学の間違っているということを見方を変えて書いてみました。<br/><br/> （御論文「医学は迷信か」） 【栄光 二三五号】） 今書いたとおり医者の方で病気を治せばそれでよいのです。<br/><br/>そうすれば人々は民間療法とか新宗教とか、そういう所に行きやしません。<br/><br/>治らないから、しかたなしに行くのです。<br/><br/>ですから新宗教がいけないとか、他の療法がいけないということはおかしい話です。<br/><br/>ご自分が治せばよいのです。<br/><br/>つまり自分が使っている人間に給料をやらないから、ずるいことをするとか、ほかから金を借りるとか、不正なことをして金を得るということになるので、それと同じです。<br/><br/>必要だけの月給をやればよいのです。<br/><br/>そうすればだれが悪いことをするものですか。<br/><br/>ですから医者の方で病気を治せばよいのです。<br/><br/>そうすれば問題はすっかり解決します。<br/><br/>治らないのに治るように見せかけているのです。<br/><br/>そうして金をウンと取って、結局今度は命までとるのですから、信じろ信じろと言っても信じるわけがないので、しかたがないです。<br/><br/>ですから医者が手を握って、他に行くな、お前はかわいがってやると言って、横面を張るようなものですから、それでは誰でも逃げてしまいます。<br/><br/>本当に撫でてくれる方に行きます。<br/><br/>これは簡単な分かりきった理屈ですが、そこが間違っているのです。<br/><br/>さんざん横面を叩いて、お前を良くしてやる、かわいがってやると言っているようなものです。<br/><br/>そうして本当にかわいがって良くしている人間をケシカランと言うのです。<br/><br/>オレの方で手を握ってかわいがっている人間を……と言うのです。<br/><br/>実際世の中は間違いきっているのです。<br/><br/>結局、一昨日のラジオのニュース解説で、“でたらめな世の中”という題で言ってましたが、その人はほかの意味から言ったのですが、やっぱりこっちでも“でたらめな世の中”と言いたいくらいです。<br/><br/>それでこんな簡単な理屈を分からせるのに、なかなか骨が折れるのです。<br/><br/>そこでいろんな例をあげてやらなければならないのです。<br/><br/>要するに人間は教育のある馬鹿、文化的野蛮人、野蛮未開人になっているというわけです。<br/><br/>病気が治らないとやたらに手術して臓器を取ってしまって、それが進歩したのだと言ってます。<br/><br/>アメリカの新聞記者も言ってましたが、アメリカは非常に手術が進歩してなんでもやたらに取ってしまうのです。<br/><br/>それで進歩した進歩したと言っているのですから、アメリカ人も“超愚”の点では日本に負けてないです。<br/><br/>ですから“超愚”では足りないくらいで、もう一つ超をつけて“超々愚”でしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

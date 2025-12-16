@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>susin123</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 ９ 123-140 応身と三身 123 応身の意義 応身弥勒さまの応身とはいかなる意味で御座いましょうか。<br><br> 応身とは応ずる事、即ち寒ければ綿入れを着るし、暑ければ浴衣にするというような事。<br><br>先方の気に入る事をいう。<br><br>このために三十三相に化身さるる。<br><br>先方の好む話をする。<br><br>時代放れしてはいけない。<br><br>（S24. 2.12） 124 「転法輪と観音行」の真解、（突進と失敗） 『天理王の尊は転輪菩薩にて聖観音の化身とぞ思ふ』 右の御歌の意味―― 天理教は昔は転輪教といい、奉斎神を転輪王尊といった。<br><br>それを暫く経ってから天理王尊と称えるようになったのである。<br><br> 転輪王尊は三千年程前印度に出生、表われられたという。<br><br>汚れた世を浄化して、良い世を造るという仏であるとの伝説がある。<br><br>これを転輪菩薩という。<br><br> 仏語で転法輪という事をいうが、法の輪とは玉の事、霊の玉という事。<br><br> 法輪を転ずるとは、自由無碍、応身の働きをいうので、つまり一つ事に固着せず、その相手により、相手に合うようにする。<br><br> 丸いうちにも角がちょっとでもあるとうまく行かぬ、転がらぬ。<br><br>これが観音行である。<br><br> また水の働きであり、水の流れは岩にでも当ると決してそれを押返して流れぬ。<br><br>岩を廻って流れる。<br><br>今迄の世間の人は岩を貫いて進もうというやり方をした。<br><br>それでうまく行かぬ。<br><br>水のように素直にゆく。<br><br>意地を、我を張らずに行く。<br><br>これが観音のやり方である。<br><br> 今の内閣はゴテゴテしているが、これらも皆そうで、片山氏の後、内閣は自由党が出るのが当然で、それを押切って民主党が出た。<br><br>これらもつまりは我を通したのである。<br><br>ゴタゴタする原因も、実はその時に種を蒔いたのである。<br><br>無理なく素直にしなくてはいけない。<br><br> 自由党はおとなしくした。<br><br>その態度は大変いい。<br><br> 人間はある一つの計画を立て、その計画に突進せんとする所に失敗の因がある。<br><br>計画を立ててやっているうち、故障が起ったら時期を待つのがよい。<br><br>または他の良い方法を考えてやるといい。<br><br>そうすれば楽にゆく、結果がよい。<br><br>よくゆく。<br><br>これが観音のやり方である。<br><br> 観音様も何千年、時を待っていた。<br><br>観音様の御働きを円満具足という。<br><br>つまり、角が除れなければいけない。<br><br>金平糖のように角があるのはいけない。<br><br>共産党などはそうで、これは鬼だから角がある。<br><br>だから何でもブッつかる。<br><br> 125 対社会への正直と応身 私は物品販売業を営んでおりますが、毎年営業所得税を正直に申告せず、嘘の申告を致しております。<br><br>同業者一般が嘘の申告を致しますので、自分だけ正直に申告しても、税務署はこれを認めてくれませんので、正直に申告すれば、なおさら決定に増額せられると思いますが、どう致したら宜しいでしょうか。<br><br> 全くその通りで、（正直者が馬鹿をみるのは）外の事にも沢山ある。<br><br>みんな不正直の中に、自分だけ正直にしても不正直にみられる。<br><br>世の中の人と同じやり方をしないと自分の生存が出来ない。<br><br>これが応身、臨機応変で、世間並にやってよい。<br><br>仮に本教にしても、宗教法人から税をとるのも先方は違反である。<br><br>世の中がそうなっているから、世の中に応じたやり方をせねば生存出来ぬ。<br><br>応身の働きであるから、世間並にやればよい。<br><br>決して罪にならぬ。<br><br>その利益金で社会に益する事をしたらよい。<br><br>（S24. 6.26） 126 嘘の限界 私は本年八月十一日入信し、現在衣料品販売業を営んでおりますが、商売道徳地におちた今日、商業と信仰生活を両立せしむるにはどうしたらよろしいでしょうか。<br><br> 臨機応変である。<br><br>信仰上からいえば正直でなくてはいけないが、今迄の世の中がそうなっているのであるから、相手が迷惑を蒙らない嘘はある程度致し方ない。<br><br>贋物を真物にみせるような事は無論いけない。<br><br>（S24. 8.16） 127 三十三相は観音様のみ、禽獣虫魚に化さるる事、金比羅権現とは 観音様の三十三相と言いますが、従来の日本の神仏、例えば八幡菩薩も金比羅権現もその他いわゆる八百万神や諸善、諸仏も、三十三相に化されるんでしょうか。<br><br>また、禽獣虫魚にも化さるる場合もあるでしょうか。<br><br> そんな事はない。<br><br>三十三相に化するのは観音様だけのものである。<br><br>それは救いのために相手によって千変万化する。<br><br>これが観音様のやり方で、私がいつもやっている。<br><br>（信者のものもそのように心掛けなくてはいけない）それには自分の個性を発揮しては出来ない。<br><br>個性を滅却した、先方が気持よくするよう心掛けるべきである。<br><br>そのお働きをお姿で表わしたのが三十三相である。<br><br>観音様は三十三相というが、御本体は聖観音で、蓮華を持っておられるお姿が聖観音である。<br><br>蓮の花は仏教を表象し、仏教を握って救われるという意を表わしている。<br><br> 金比羅権現は仏語で、海の神で、神道でいう琴平別命である。<br><br>神様の霊は禽獣虫魚に化すというが、これは全然ない事はない。<br><br>虫などに憑依する事がある。<br><br>虻や蝶、蜻蛉などに憑依したり、また蛇に憑依する事もある。<br><br>そして蜻蛉等大抵飛ぶ虫で、それは神様はよくやるんで、大抵は産土の神か祖先の中で神格化したもの――大抵は第三天国の神となったものが、いろんな事を知らしたり助けたりするために飛ぶ虫に憑依する場合である。<br><br>（S23.12.14） 128 三十三相化現は観音のみ、虫に化する事、（神の使う虫） 観音様の三十三相と言いますが、従来の日本の神仏、例えば八幡菩薩も金比羅権現も、その他いわゆる八百万神や諸善、諸仏も三十三相に化現されるんでしょうか。<br><br> そんな事はない。<br><br>三十三相に化するのは観音様だけで、救いのために相手によって応身される。<br><br>これが観音様のおはたらきで、私がいつも行っている事で、信者の人もそういうようにしなければいけない。<br><br>それには自分の個性を発揮しては出来ない。<br><br>個性を滅却して先方を主にするよう心掛くべきである。<br><br> これが応身の働きでそのため化現され、それが三十三相である。<br><br> 観音様は三十三相というが、御本体は聖観音で、蓮華を持っておられる御姿である。<br><br>蓮の華は仏法を表象し、仏教を握って救われるという意を表わしている。<br><br> 禽獣虫魚に化するというが、これは全然ない事はない。<br><br>神様の霊は虫などに憑依する事もある。<br><br> 129 応身・法身・報身の真義、三十二相と六十四角、（極楽と浄土の違い） 法身弥勒、報身弥勒、応身弥勒と御座いますが、法身、報身、応身の御働きの区別を御教え戴きたく御願い申し上げます。<br><br> 法身は法、法とは神仏の法律といっては合わぬ、天地の律法ともいう。<br><br>法律に触れなくて天地の律法に触れる事は沢山ある。<br><br>反って天地の律法にふれる事が沢山ある。<br><br>（極楽は日、浄土は月になる。<br><br>故に南無阿弥陀仏は浄土へ、日蓮宗は極楽へ行く訳である） 報身は地の弥勒で、一番下で、あらゆるものに対して報身する。<br><br>上にいて引上げるのと両方の救いがあるが、報身というと、自分が最低の位置になって、下にいて押上げる救いになる。<br><br> 応身はあらゆるものに同化する。<br><br>一番重要な働きである。<br><br>教団も応身で行かなくてはならぬ。<br><br>また、固着してはいけない。<br><br>故に融通無碍という。<br><br>観音様は丸くして理想世界を造られる。<br><br>その人によって違う。<br><br>三十三相よりもっと沢山に変化される。<br><br>であるから、百観音がある。<br><br> 化身は三十二相に応身せられ、御本体が聖観音であり、三十二相は霊体で、八八、六十四になる。<br><br>八角をまた、八角に切り、ダイヤモンドの角を取るようにすると、角がとれてまた丸くなる。<br><br> 130 三尊の弥陀 三尊の弥陀及び法身、報身、応身の意義について御教示御願い申し上げます。<br><br> 三つの弥勒をいう。<br><br>法身は阿弥陀で、法を説く、法を明かにする。<br><br> 釈迦は位を下にして衆生を助くる地の弥勒で、報身である。<br><br> 応身はすべてに応ずる事、本当の救いは応身でなくては出来ぬ。<br><br> 阿弥陀や釈迦は一定の性格が変らぬ。<br><br>（S24. 1.18） 131 転法輪と天地人、弥勒と経緯の順序、（大宮における御法難の経緯） 転法輪は仏教にある。<br><br>これは観音のみが出来る。<br><br>阿弥陀や釈迦は一定の限られたる力しか出来ない。<br><br> 法身も報身も力が全部的でなく、局部的である。<br><br>阿弥陀と釈迦は月と土である。<br><br> 信州では法蔵菩薩を一番崇めている。<br><br>法蔵菩薩は阿弥陀の前身である。<br><br> 釈迦は土であるから一番下にある。<br><br>報身は観音に仕えるという意味である。<br><br> 左右は緯、五六七は経の順序の意味である。<br><br>天―阿弥陀（右）、地―釈迦（左）、人―観音という事も間違ってはいないが、これを説くと間違えられ易い。<br><br>これは当局がやかましいから人の弥勒というと危い。<br><br>そのために隠したのである。<br><br> 釈迦、阿弥陀は父と母になる。<br><br>そしてそれから観音が生れる。<br><br>それで人の弥勒といっていい。<br><br> かつて当局で、人間の偉い人が出る事を恐れた。<br><br>天皇陛下以上の人が現われたという事を恐れた。<br><br>死んだ者ならいい。<br><br>実在でない者はいい。<br><br> 霊写真の事で、田舎の警察は警視庁に反感を持っている。<br><br>霊写真などに騙されぬという。<br><br>家にいる時、簾の中へ蔵って皆に拝ましていたろうという。<br><br>自分で生神様になろうと言うんだろうと言う。<br><br>そして頭の毛を引張り、竹刀を持って腰をブッタ折〔斬〕るぞという。<br><br>神なら罰を当ててみよという。<br><br>それで何も言えず、黙ってしまった。<br><br>そのうち一人の奴が頭が痛いと言い出し、も一人の奴もコソコソ下へ降り、主任一人が残った。<br><br> 霊写真は私が作った美術品と聴取書にかいてある。<br><br>それを警視庁へ廻した。<br><br>そのためにインチキ野郎という事になり、ブラックリストにのった。<br><br>それが熱海へ来てまでつきまとった。<br><br>（S23. 6.23） 132 阿弥陀と釈迦の救いの本質 阿弥陀と釈迦は仏滅後はいかなる働きをなされるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 釈迦は現世で沢山の弟子へ弘めた。<br><br>阿弥陀は霊界に寂光浄土を開いた。<br><br>浄土宗というのは合っている訳である。<br><br> 釈迦の時、法蔵菩薩という仏者があり、釈迦の側で修行して悟り仏となったものを寄越されたいと、西方へ浄土を作るといった。<br><br>極楽と浄土は違うが、普通一緒にしている。<br><br>極楽は日の力が多い。<br><br>浄土は水の力が多い。<br><br>極楽、浄土は火水になる。<br><br>南無――浄土、日蓮――極楽へ行く訳である。<br><br>夜の世界のもので、昼と違う。<br><br>阿弥陀は霊を救う。<br><br>釈迦は生きてる人間を救う。<br><br>苦の娑婆を、苦しみを少なくする。<br><br>現界と霊界の救いの違いさと思えばよい。<br><br>（S24. 5. 1） 133 法身の働き 報身―地―釈迦、法身―月―阿弥陀、応身―日―観音となり、観音が一番上である。<br><br> 法身は水の働きのみで、あの世の事が主である。<br><br>この世の救いよりは霊界即ち浄土へ救うのが眼目である。<br><br> 阿弥陀は浄土を作って、ある程度浄化されたもの、または善事をなした者を住まわす事を釈迦に誓った。<br><br> 寂光とは月の光、月の活動である。<br><br>（S23. 7.29） 134 三日月真赤になる 四月三十日夜九時頃、三日月が真赤になり、図のごとく全体の四分の一位の大きさに枝のごとく出て、その先が箒のごとき光を放っておりました。<br><br>ちょうど熔接の火花のようで、目撃者が二名御座います。<br><br>いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 月は三日月が本当の形である。<br><br>三という数は月になる。<br><br>水である。<br><br> 三日月の形が月の一番勢力の強い時である。<br><br>満月は瑞月ともいう。<br><br>この時は水気が一番多い。<br><br> 火素が多く強いためと、三日月の強いのとでこういう形になったものである。<br><br>やはり火素が殖えたためである。<br><br>（S24. 6. 2） 135 神器中の剣 日本は絶対平和の国とうけたまわっておりますが、三種の神器の中に剣がございますのは、いかなる訳で御座居ましょうか。<br><br> 剣は二種ある。<br><br>劔（つるぎ）と弥陀の剣など――。<br><br>剣は言霊で、よく剣もホロロとか、鋭いとかいう。<br><br> 劔は悪、剣は――。<br><br>三種の神器は剣の方で――、鏡は大地である。<br><br>（S23.12. 9） 136 八角――（大地） 九星の八角は何を形取られたものでしょうか。<br><br> これは方角で、東西南北とこの間艮、坤、乾等四つの間と、それで八角となる。<br><br> 大地を形どるのは八角で、八咫の鏡もそれである。<br><br>三種の神器の場合、鏡は地になる。<br><br>大地は天地の合せ鏡といい、鏡になっている。<br><br>八角は大地という意味で、方角になる。<br><br>玉、日。<br><br>剣、月。<br><br> 137 弥勒の意味 応身弥勒とか法身弥勒、報身弥勒の場合の弥勒の意味を御教えを御願い申し上げます。<br><br> この場合、弥勒は如来で、仏様で特別に尊い御方という意味である。<br><br>三尊の弥陀はこれで、要するに、敬語と思えばいい。<br><br>（S23.11.21） 138 天地人のミロク 天の ミロク 、地の ミロク 、人の ミロク と御座いますが、この場合の ミロク の意味を御教えを御願い申し上げます。<br><br>また、この場合 ミロク はいかなる文字を用いられるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 阿弥陀は天、釈迦は地、観音は人のミロクである。<br><br>（いろいろ訳があるが）今言えない。<br><br>強いて言えば、天と地はそれはミロクでよいが、人の弥勒は五六七とかく。<br><br>（S23.11.21） 139 西方浄土、無尽意菩薩 阿弥陀が西方浄土を作るというのは、インドの西の方へ極楽の模型のようなものを作るという事を言ったもので、霊界の浄土を主宰するというのが本当である。<br><br> 真宗では、死んだら阿弥陀の側へ行くという。<br><br>西方の浄土とは印度である。<br><br> 観音様の事を無尽意菩薩ともいうが、無尽意とは自由無碍と同じ事である。<br><br> 観音様は日本人であるから、黒髪を垂れておられる。<br><br>（S23） 140 三尊の位置 過日ラジオの「話の泉」に、ある川柳の意味を説明して、善光寺の本尊を遷し参らす時、阿弥陀如来を背負い観音、勢至両菩薩は御徒歩にて随行せられたと言いました。<br><br>また、門徒宗でも、阿弥陀様を真中に観音、勢至菩薩は左右に在しますと申しております。<br><br> 右は三尊の弥陀における観音様の御地位と大分差異があるように思われますが、いかなる意味で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 真宗は阿弥陀を主にしている。<br><br> 仏教は月の教で、阿弥陀は月光菩薩で月の本尊である。<br><br>夜の世界の王者である。<br><br>また阿弥陀は法身である。<br><br> 本当言えば、昼の世界では観音様が真中である。<br><br> 勢至は阿弥陀の働きである。<br><br>そして、観音と勢至は夫婦になる。<br><br> 観 音 阿 釈 弥 陀 迦 が本当で、 この三つの働きを一人でやられるのが弥勒である。<br><br> だから、右は大間違いである。<br><br>（S24.12. 5）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Okada Jikanshi — Pesquisa de Ensinamentos: help; Pesquisa de Materiais: O Deus Supremo, parte 9, 123-140</h2>
 <h2>O Corpo da Manifestação e os Três Corpos</h2>
@@ -212,5 +364,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 ９ 123-140 応身と三身 123 応身の意義 応身弥勒さまの応身とはいかなる意味で御座いましょうか。<br/><br/> 応身とは応ずる事、即ち寒ければ綿入れを着るし、暑ければ浴衣にするというような事。<br/><br/>先方の気に入る事をいう。<br/><br/>このために三十三相に化身さるる。<br/><br/>先方の好む話をする。<br/><br/>時代放れしてはいけない。<br/><br/>（S24. 2.12） 124 「転法輪と観音行」の真解、（突進と失敗） 『天理王の尊は転輪菩薩にて聖観音の化身とぞ思ふ』 右の御歌の意味―― 天理教は昔は転輪教といい、奉斎神を転輪王尊といった。<br/><br/>それを暫く経ってから天理王尊と称えるようになったのである。<br/><br/> 転輪王尊は三千年程前印度に出生、表われられたという。<br/><br/>汚れた世を浄化して、良い世を造るという仏であるとの伝説がある。<br/><br/>これを転輪菩薩という。<br/><br/> 仏語で転法輪という事をいうが、法の輪とは玉の事、霊の玉という事。<br/><br/> 法輪を転ずるとは、自由無碍、応身の働きをいうので、つまり一つ事に固着せず、その相手により、相手に合うようにする。<br/><br/> 丸いうちにも角がちょっとでもあるとうまく行かぬ、転がらぬ。<br/><br/>これが観音行である。<br/><br/> また水の働きであり、水の流れは岩にでも当ると決してそれを押返して流れぬ。<br/><br/>岩を廻って流れる。<br/><br/>今迄の世間の人は岩を貫いて進もうというやり方をした。<br/><br/>それでうまく行かぬ。<br/><br/>水のように素直にゆく。<br/><br/>意地を、我を張らずに行く。<br/><br/>これが観音のやり方である。<br/><br/> 今の内閣はゴテゴテしているが、これらも皆そうで、片山氏の後、内閣は自由党が出るのが当然で、それを押切って民主党が出た。<br/><br/>これらもつまりは我を通したのである。<br/><br/>ゴタゴタする原因も、実はその時に種を蒔いたのである。<br/><br/>無理なく素直にしなくてはいけない。<br/><br/> 自由党はおとなしくした。<br/><br/>その態度は大変いい。<br/><br/> 人間はある一つの計画を立て、その計画に突進せんとする所に失敗の因がある。<br/><br/>計画を立ててやっているうち、故障が起ったら時期を待つのがよい。<br/><br/>または他の良い方法を考えてやるといい。<br/><br/>そうすれば楽にゆく、結果がよい。<br/><br/>よくゆく。<br/><br/>これが観音のやり方である。<br/><br/> 観音様も何千年、時を待っていた。<br/><br/>観音様の御働きを円満具足という。<br/><br/>つまり、角が除れなければいけない。<br/><br/>金平糖のように角があるのはいけない。<br/><br/>共産党などはそうで、これは鬼だから角がある。<br/><br/>だから何でもブッつかる。<br/><br/> 125 対社会への正直と応身 私は物品販売業を営んでおりますが、毎年営業所得税を正直に申告せず、嘘の申告を致しております。<br/><br/>同業者一般が嘘の申告を致しますので、自分だけ正直に申告しても、税務署はこれを認めてくれませんので、正直に申告すれば、なおさら決定に増額せられると思いますが、どう致したら宜しいでしょうか。<br/><br/> 全くその通りで、（正直者が馬鹿をみるのは）外の事にも沢山ある。<br/><br/>みんな不正直の中に、自分だけ正直にしても不正直にみられる。<br/><br/>世の中の人と同じやり方をしないと自分の生存が出来ない。<br/><br/>これが応身、臨機応変で、世間並にやってよい。<br/><br/>仮に本教にしても、宗教法人から税をとるのも先方は違反である。<br/><br/>世の中がそうなっているから、世の中に応じたやり方をせねば生存出来ぬ。<br/><br/>応身の働きであるから、世間並にやればよい。<br/><br/>決して罪にならぬ。<br/><br/>その利益金で社会に益する事をしたらよい。<br/><br/>（S24. 6.26） 126 嘘の限界 私は本年八月十一日入信し、現在衣料品販売業を営んでおりますが、商売道徳地におちた今日、商業と信仰生活を両立せしむるにはどうしたらよろしいでしょうか。<br/><br/> 臨機応変である。<br/><br/>信仰上からいえば正直でなくてはいけないが、今迄の世の中がそうなっているのであるから、相手が迷惑を蒙らない嘘はある程度致し方ない。<br/><br/>贋物を真物にみせるような事は無論いけない。<br/><br/>（S24. 8.16） 127 三十三相は観音様のみ、禽獣虫魚に化さるる事、金比羅権現とは 観音様の三十三相と言いますが、従来の日本の神仏、例えば八幡菩薩も金比羅権現もその他いわゆる八百万神や諸善、諸仏も、三十三相に化されるんでしょうか。<br/><br/>また、禽獣虫魚にも化さるる場合もあるでしょうか。<br/><br/> そんな事はない。<br/><br/>三十三相に化するのは観音様だけのものである。<br/><br/>それは救いのために相手によって千変万化する。<br/><br/>これが観音様のやり方で、私がいつもやっている。<br/><br/>（信者のものもそのように心掛けなくてはいけない）それには自分の個性を発揮しては出来ない。<br/><br/>個性を滅却した、先方が気持よくするよう心掛けるべきである。<br/><br/>そのお働きをお姿で表わしたのが三十三相である。<br/><br/>観音様は三十三相というが、御本体は聖観音で、蓮華を持っておられるお姿が聖観音である。<br/><br/>蓮の花は仏教を表象し、仏教を握って救われるという意を表わしている。<br/><br/> 金比羅権現は仏語で、海の神で、神道でいう琴平別命である。<br/><br/>神様の霊は禽獣虫魚に化すというが、これは全然ない事はない。<br/><br/>虫などに憑依する事がある。<br/><br/>虻や蝶、蜻蛉などに憑依したり、また蛇に憑依する事もある。<br/><br/>そして蜻蛉等大抵飛ぶ虫で、それは神様はよくやるんで、大抵は産土の神か祖先の中で神格化したもの――大抵は第三天国の神となったものが、いろんな事を知らしたり助けたりするために飛ぶ虫に憑依する場合である。<br/><br/>（S23.12.14） 128 三十三相化現は観音のみ、虫に化する事、（神の使う虫） 観音様の三十三相と言いますが、従来の日本の神仏、例えば八幡菩薩も金比羅権現も、その他いわゆる八百万神や諸善、諸仏も三十三相に化現されるんでしょうか。<br/><br/> そんな事はない。<br/><br/>三十三相に化するのは観音様だけで、救いのために相手によって応身される。<br/><br/>これが観音様のおはたらきで、私がいつも行っている事で、信者の人もそういうようにしなければいけない。<br/><br/>それには自分の個性を発揮しては出来ない。<br/><br/>個性を滅却して先方を主にするよう心掛くべきである。<br/><br/> これが応身の働きでそのため化現され、それが三十三相である。<br/><br/> 観音様は三十三相というが、御本体は聖観音で、蓮華を持っておられる御姿である。<br/><br/>蓮の華は仏法を表象し、仏教を握って救われるという意を表わしている。<br/><br/> 禽獣虫魚に化するというが、これは全然ない事はない。<br/><br/>神様の霊は虫などに憑依する事もある。<br/><br/> 129 応身・法身・報身の真義、三十二相と六十四角、（極楽と浄土の違い） 法身弥勒、報身弥勒、応身弥勒と御座いますが、法身、報身、応身の御働きの区別を御教え戴きたく御願い申し上げます。<br/><br/> 法身は法、法とは神仏の法律といっては合わぬ、天地の律法ともいう。<br/><br/>法律に触れなくて天地の律法に触れる事は沢山ある。<br/><br/>反って天地の律法にふれる事が沢山ある。<br/><br/>（極楽は日、浄土は月になる。<br/><br/>故に南無阿弥陀仏は浄土へ、日蓮宗は極楽へ行く訳である） 報身は地の弥勒で、一番下で、あらゆるものに対して報身する。<br/><br/>上にいて引上げるのと両方の救いがあるが、報身というと、自分が最低の位置になって、下にいて押上げる救いになる。<br/><br/> 応身はあらゆるものに同化する。<br/><br/>一番重要な働きである。<br/><br/>教団も応身で行かなくてはならぬ。<br/><br/>また、固着してはいけない。<br/><br/>故に融通無碍という。<br/><br/>観音様は丸くして理想世界を造られる。<br/><br/>その人によって違う。<br/><br/>三十三相よりもっと沢山に変化される。<br/><br/>であるから、百観音がある。<br/><br/> 化身は三十二相に応身せられ、御本体が聖観音であり、三十二相は霊体で、八八、六十四になる。<br/><br/>八角をまた、八角に切り、ダイヤモンドの角を取るようにすると、角がとれてまた丸くなる。<br/><br/> 130 三尊の弥陀 三尊の弥陀及び法身、報身、応身の意義について御教示御願い申し上げます。<br/><br/> 三つの弥勒をいう。<br/><br/>法身は阿弥陀で、法を説く、法を明かにする。<br/><br/> 釈迦は位を下にして衆生を助くる地の弥勒で、報身である。<br/><br/> 応身はすべてに応ずる事、本当の救いは応身でなくては出来ぬ。<br/><br/> 阿弥陀や釈迦は一定の性格が変らぬ。<br/><br/>（S24. 1.18） 131 転法輪と天地人、弥勒と経緯の順序、（大宮における御法難の経緯） 転法輪は仏教にある。<br/><br/>これは観音のみが出来る。<br/><br/>阿弥陀や釈迦は一定の限られたる力しか出来ない。<br/><br/> 法身も報身も力が全部的でなく、局部的である。<br/><br/>阿弥陀と釈迦は月と土である。<br/><br/> 信州では法蔵菩薩を一番崇めている。<br/><br/>法蔵菩薩は阿弥陀の前身である。<br/><br/> 釈迦は土であるから一番下にある。<br/><br/>報身は観音に仕えるという意味である。<br/><br/> 左右は緯、五六七は経の順序の意味である。<br/><br/>天―阿弥陀（右）、地―釈迦（左）、人―観音という事も間違ってはいないが、これを説くと間違えられ易い。<br/><br/>これは当局がやかましいから人の弥勒というと危い。<br/><br/>そのために隠したのである。<br/><br/> 釈迦、阿弥陀は父と母になる。<br/><br/>そしてそれから観音が生れる。<br/><br/>それで人の弥勒といっていい。<br/><br/> かつて当局で、人間の偉い人が出る事を恐れた。<br/><br/>天皇陛下以上の人が現われたという事を恐れた。<br/><br/>死んだ者ならいい。<br/><br/>実在でない者はいい。<br/><br/> 霊写真の事で、田舎の警察は警視庁に反感を持っている。<br/><br/>霊写真などに騙されぬという。<br/><br/>家にいる時、簾の中へ蔵って皆に拝ましていたろうという。<br/><br/>自分で生神様になろうと言うんだろうと言う。<br/><br/>そして頭の毛を引張り、竹刀を持って腰をブッタ折〔斬〕るぞという。<br/><br/>神なら罰を当ててみよという。<br/><br/>それで何も言えず、黙ってしまった。<br/><br/>そのうち一人の奴が頭が痛いと言い出し、も一人の奴もコソコソ下へ降り、主任一人が残った。<br/><br/> 霊写真は私が作った美術品と聴取書にかいてある。<br/><br/>それを警視庁へ廻した。<br/><br/>そのためにインチキ野郎という事になり、ブラックリストにのった。<br/><br/>それが熱海へ来てまでつきまとった。<br/><br/>（S23. 6.23） 132 阿弥陀と釈迦の救いの本質 阿弥陀と釈迦は仏滅後はいかなる働きをなされるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 釈迦は現世で沢山の弟子へ弘めた。<br/><br/>阿弥陀は霊界に寂光浄土を開いた。<br/><br/>浄土宗というのは合っている訳である。<br/><br/> 釈迦の時、法蔵菩薩という仏者があり、釈迦の側で修行して悟り仏となったものを寄越されたいと、西方へ浄土を作るといった。<br/><br/>極楽と浄土は違うが、普通一緒にしている。<br/><br/>極楽は日の力が多い。<br/><br/>浄土は水の力が多い。<br/><br/>極楽、浄土は火水になる。<br/><br/>南無――浄土、日蓮――極楽へ行く訳である。<br/><br/>夜の世界のもので、昼と違う。<br/><br/>阿弥陀は霊を救う。<br/><br/>釈迦は生きてる人間を救う。<br/><br/>苦の娑婆を、苦しみを少なくする。<br/><br/>現界と霊界の救いの違いさと思えばよい。<br/><br/>（S24. 5. 1） 133 法身の働き 報身―地―釈迦、法身―月―阿弥陀、応身―日―観音となり、観音が一番上である。<br/><br/> 法身は水の働きのみで、あの世の事が主である。<br/><br/>この世の救いよりは霊界即ち浄土へ救うのが眼目である。<br/><br/> 阿弥陀は浄土を作って、ある程度浄化されたもの、または善事をなした者を住まわす事を釈迦に誓った。<br/><br/> 寂光とは月の光、月の活動である。<br/><br/>（S23. 7.29） 134 三日月真赤になる 四月三十日夜九時頃、三日月が真赤になり、図のごとく全体の四分の一位の大きさに枝のごとく出て、その先が箒のごとき光を放っておりました。<br/><br/>ちょうど熔接の火花のようで、目撃者が二名御座います。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 月は三日月が本当の形である。<br/><br/>三という数は月になる。<br/><br/>水である。<br/><br/> 三日月の形が月の一番勢力の強い時である。<br/><br/>満月は瑞月ともいう。<br/><br/>この時は水気が一番多い。<br/><br/> 火素が多く強いためと、三日月の強いのとでこういう形になったものである。<br/><br/>やはり火素が殖えたためである。<br/><br/>（S24. 6. 2） 135 神器中の剣 日本は絶対平和の国とうけたまわっておりますが、三種の神器の中に剣がございますのは、いかなる訳で御座居ましょうか。<br/><br/> 剣は二種ある。<br/><br/>劔（つるぎ）と弥陀の剣など――。<br/><br/>剣は言霊で、よく剣もホロロとか、鋭いとかいう。<br/><br/> 劔は悪、剣は――。<br/><br/>三種の神器は剣の方で――、鏡は大地である。<br/><br/>（S23.12. 9） 136 八角――（大地） 九星の八角は何を形取られたものでしょうか。<br/><br/> これは方角で、東西南北とこの間艮、坤、乾等四つの間と、それで八角となる。<br/><br/> 大地を形どるのは八角で、八咫の鏡もそれである。<br/><br/>三種の神器の場合、鏡は地になる。<br/><br/>大地は天地の合せ鏡といい、鏡になっている。<br/><br/>八角は大地という意味で、方角になる。<br/><br/>玉、日。<br/><br/>剣、月。<br/><br/> 137 弥勒の意味 応身弥勒とか法身弥勒、報身弥勒の場合の弥勒の意味を御教えを御願い申し上げます。<br/><br/> この場合、弥勒は如来で、仏様で特別に尊い御方という意味である。<br/><br/>三尊の弥陀はこれで、要するに、敬語と思えばいい。<br/><br/>（S23.11.21） 138 天地人のミロク 天の ミロク 、地の ミロク 、人の ミロク と御座いますが、この場合の ミロク の意味を御教えを御願い申し上げます。<br/><br/>また、この場合 ミロク はいかなる文字を用いられるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 阿弥陀は天、釈迦は地、観音は人のミロクである。<br/><br/>（いろいろ訳があるが）今言えない。<br/><br/>強いて言えば、天と地はそれはミロクでよいが、人の弥勒は五六七とかく。<br/><br/>（S23.11.21） 139 西方浄土、無尽意菩薩 阿弥陀が西方浄土を作るというのは、インドの西の方へ極楽の模型のようなものを作るという事を言ったもので、霊界の浄土を主宰するというのが本当である。<br/><br/> 真宗では、死んだら阿弥陀の側へ行くという。<br/><br/>西方の浄土とは印度である。<br/><br/> 観音様の事を無尽意菩薩ともいうが、無尽意とは自由無碍と同じ事である。<br/><br/> 観音様は日本人であるから、黒髪を垂れておられる。<br/><br/>（S23） 140 三尊の位置 過日ラジオの「話の泉」に、ある川柳の意味を説明して、善光寺の本尊を遷し参らす時、阿弥陀如来を背負い観音、勢至両菩薩は御徒歩にて随行せられたと言いました。<br/><br/>また、門徒宗でも、阿弥陀様を真中に観音、勢至菩薩は左右に在しますと申しております。<br/><br/> 右は三尊の弥陀における観音様の御地位と大分差異があるように思われますが、いかなる意味で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 真宗は阿弥陀を主にしている。<br/><br/> 仏教は月の教で、阿弥陀は月光菩薩で月の本尊である。<br/><br/>夜の世界の王者である。<br/><br/>また阿弥陀は法身である。<br/><br/> 本当言えば、昼の世界では観音様が真中である。<br/><br/> 勢至は阿弥陀の働きである。<br/><br/>そして、観音と勢至は夫婦になる。<br/><br/> 観 音 阿 釈 弥 陀 迦 が本当で、 この三つの働きを一人でやられるのが弥勒である。<br/><br/> だから、右は大間違いである。<br/><br/>（S24.12. 5）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

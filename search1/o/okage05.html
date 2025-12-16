@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 事実が示す浄霊の優越性 『救世』51号、昭和25(1950)年2月25日発行 肺門淋巴腺十日で全快 正反対な養生法で 岡山県 百ノ実中教会 松枝江子（22） ちょっとの風邪が仲々治らず、体がだるく胸の痛みがとれませんのでお医者様に診て頂きましたら、肺門淋巴腺と聞かされ驚きました。<br><br>その後半年お医者の言葉を守り、食養生も充分にグラブラ致しておりましてもよくなる見込もなく困っておりますと救世教の熱心な信者の方にすすめられ、百ノ実中教会へお参りさせて頂きましたが、何の事かわかりませんが、人様が段々よくなっていられる事を聞いておりますので、先生の言われる事は食物並に養生法もお医者様とは正反対で、少々不安ながらその通り実行し浄霊を受けております内に、体は軽く、青黒かった血色もよくなり、食物は美味しく、三日目には自転車に乗る事をゆるされ一日一日とよくなりますに一同驚き、十日目にはすっかりよく、早速に入信させて頂き、今では人様をお助けさせて頂いております。<br><br> 私の患部は左肺門だったのでございます。<br><br>病気中の自分を思いますと恐ろしくなって参ります。<br><br>その私が僅か十日で麦刈も出来る体にして頂き何とも申上げる言葉もありません。<br><br>教導所へお参りさせて頂きます都度光明如来様にお礼を申上げております。<br><br>世の人が一日も早く薬と絶対安静と栄養が揃わねば肺病は治らぬと思い込まされている悪夢に目ざめ、神霊医術でなければ完全に解決つかぬ事を知って頂きたいと思います。<br><br>迷信とは薬を頭からよしと思い込む事こそ迷信ではないかと思います。<br><br>どんな薬でも服めば好いと思った私の失敗をどうぞ皆様の資料として頂きたく存じます。<br><br> 右の実例によって明らかなごとく、肺門淋巴腺に対する食物並びに養生法がお医者様の言と正反対であるにかかわらず短期間で治癒した実際からみて、いかに医学の養生法が誤っているかが判るのである、また絶対安静も栄養も何ら意味ない事である、面白い事にはこの患者は自己の経験から服薬を迷信と悟った事である。<br><br> ＊ ＊ ＊ 固め療法の無力さ 三十分の旅行で肺浸潤再発 兵庫県 萬年中教会 島村健一（20） 二年来の肺浸潤が二週間で治り、一カ月で飛んでも跳ねても疲れを知らぬ体になったこうした奇蹟を如実に体験させて頂き私はいま感謝の筆をとっています。<br><br> 思い起せば昭和二十二年十月中旬肺門淋巴腺炎を宣告され以来絶対安静、医師の毎日の診察は勿論カルシウム、ビタミンＢ１等の注射服薬等々近代医学で出来るだけの最善をつくしました。<br><br>半年後その効みえてか三十九度五分にも上った熱は追々平熱になり、病院の外への散歩が出来るようになりホッとしたのも束の間、医薬で固めに固めた体の哀れさ、三十分の汽車旅行が崇り再発、今度は肺浸潤を宣告され私は再び絶望の床へ臥し注射と服薬で固める作用を飽きもせず繰返すの止むなき又一年を、この病を味わった人のみが知る精神的な焦躁と苦悩裏に過したのです。<br><br>こうした時、フトした事から浄霊のことを知り誰れもが体験するように疑い疑い姫路の教導所に通い中尾先生に御浄霊を頂きました。<br><br>ところが初めの一週間は発熱、緑便、下痢、盗汗等々驚く程の浄化で不思議にその度毎に体の方は良くなり、二週間目の痔の出血を最後に浄化はおわり、一カ月目には全く健康な人と変らぬ程の顔色と体になることが出来たのです。<br><br>私はこの御利益に感謝感涙に咽ぶとともにこうした有難いお力を知らぬが故に無為にすごした一カ年半を思い、今後は微力ながら中尾先生に御指導頂いて不幸な人々に是非一時も早くこんな尊い力が我日本に既に現われている事をお知らせし、万分の一でもの御恩報じをさして頂きたいと思うとともに未だに頭にこびりついている結核患者特有の虚無、厭世思想をも解消して希望ある明るい生活を送りたいと思います。<br><br>以上謹んで御報告さして頂きます。<br><br> 二年間の肺浸潤が二週間で治り、一カ月後はいかに運動しても疲れを知らない程の健康になったよい例である、この患者は発病するや入院半カ年ようやく外出が出来る程になったところ三十分の汽車旅行で再発、肺浸潤と宣告されたという事は医療が固め療法である事を如実に物語っている、それから一年医療を続けたが治らず神療法によって一ケ月で全治したのである。<br><br> ＊ ＊ ＊ 医診で不明の苦痛 神療法で簡単に治る 東京都 五六七大教会 中田やす（55） 外面的には大した苦労もないようにみえておりました私も、体が弱かったため長い間人知れず悩み続けて来ました。<br><br>俗にいう冷え性で、夜寝みましても氷のように冷めたい足は朝まで温まらず、夏でも真綿の腰ぶとんを離すことが出来ぬような体でございました。<br><br>加うるに神経痛で腕や脚が痛み、また出産後には女の命取りとまで申されます乳腺炎に一再ならず悩まされ、病の重かった時は一日に四、五貫目の氷を使い果した日の幾日か打続き、飲み薬につけ薬などは三種類も用い、時間的に薬をとりかえる手数だけにでもどんなに煩雑な思いを致した事かわかりませんでした。<br><br>それにも拘らず化膿する時の猛烈なる痛みは実に言語に絶するもので、当時を考えますとまったく身の毛もよだつ思いが致します。<br><br>回復後も何となく健康すぐれず一時は人並に立働くことの出来ぬような体になってしまいました。<br><br> 何とか丈夫になりたいものと名医の診察に時を惜まず歩きまわりました。<br><br>しかし診断の結果「あなたはどこも悪いところはない」とのみ申され誠に腑に落ちない気持にて空しく家路につくので御座いました。<br><br>実際にどこも悪くないのなら、溌剌として立働く事が出来るはずなのに事実はまるで反対です。<br><br>その後有名な注射も幾年となく続け、それにもあきたらず今度は灸療法にも専念致しましたが、大した効果もなく、大層困っておりました時、計らずも浄霊の事を親戚より話され、早速教修を受けさせていただきました。<br><br> 始めのうちはただ夢みる心地にて過しておりましたが次々と浄化をいただき、そのたび毎に一歩一歩健康への前進にてただ今では幾十年来味った事のない真のよろこびに毎日を過させて頂いております。<br><br>それのみならず長女の脚気も治して頂き、又腺病質にてちょっとした事にも発熱し、まことに心配の種でございました次女などは、女学校時代に笑顔をみた事がないと学校の先生より問題にされた程の不健康な子供でしたが、今は明朗そのもののように明るくなり、また末子がやけどの時医師よりヒキツレは免れぬと宣告を受けましたのが跡かたもなく治して頂き、家族中数え切れぬ程御利益を頂いております。<br><br>もしこの偉大なる御力にお縋りする事が出来なかったと致しましたら、今頃は次々と病の床に呻吟する悲惨なる状態で、家中の者がまったく暗黒の中にさまよいおる事と存じます。<br><br> その事を思います時、余りの有難さに何ともお礼の言葉もなくただ感涙に咽びいる次第でございます。<br><br>この感謝感激の気持を一人でも多くの方々に味わって頂きたく専心布教におつとめ致し、御鴻恩の万分の一なりとお報い申上げたく存じております。<br><br>拙き筆にてお礼の一端を述べさせて頂きました。<br><br> 右の患者は痛苦が治ってからも健康すぐれず、医診を受けるとどこも悪い所はないと言われたが、患者自身は苦痛で働く事も出来ない、これはよくある話で苦痛があるのに悪い所がないというのは理屈に合わない話であるが、正直にいえば医学では悪い個所が判らないというべきが本当である、そのように医診で不明のままの幾十年来の難病が簡単に全治した神療法の効果たるや驚くべきであろう。<br><br> 次に長女の脚気も次女の腺病質も医者からヒキツレは免れないと宣告された末子の火傷も全部治癒したというのである。<br><br> ＊ ＊ ＊ 安静半年の病人 神療法で立ちあがる 秋田県 愛和中教会 今野シン（37） 私の夫は十三年前から薬、注射を離したことのない病弱者でした。<br><br>これ以上重くなってはと思い大事をとって来たのです。<br><br>それなのに昭和二十三年十一月突然意識を失い、床につく身となりました。<br><br>それに喘息がともない、その苦しみをどうすることも出来ませんでした。<br><br>勿論医者にお頼みして苦しみをとるべく治療をしましたが、効果もなく五カ月間その苦しみを続けて参りました。<br><br>その間好きな煙草もやめさせ、三度の食事すらそれは毒だ、やれ栄養だと、好きな物も差上げられず嫌な看護をして参りました。<br><br>安静と地獄的生活を続けて来たのです。<br><br>私の家の商売は麹屋（こうじや）で今夫に死なれては商売もやめなければなりません。<br><br> この有様のところへ又も長女が梯子から落ちて足を挫き、次男は四十度の熱に苦しめられ床につく羽目になりました。<br><br>いつかある人から不幸は総て浄化だと聞かされた事を思出し、今野家何軒かが没落致したのを見た私は、今度自分の家の番かとさえ一時は思った事もありました。<br><br>ある日、知人が訪れ医者で治らぬ病人も光明如来様におすがりして治った人が随分多い事を聞かされ、早速横手町愛和会より光明如来様の御守りを夫と一緒に戴きましたところ、日々有難い御守護に飛上る思いでした。<br><br>もちろん長女も次男も浄霊によって二、三日で治ってしまいました。<br><br>この嬉しさに早速光明如来様をお迎え御祭りして戴きました。<br><br>その時柴田先生より夫の体をよく浄霊して戴きました。<br><br> 先生のお帰りになった後、床から起き上り面白そうに家中を往ったり来たり二階に昇ったり降りたりここはどこだと私に尋ねるので、ここはあなたの家であなたが半年の長い病に困って光明如来様におすがりしたのです。<br><br>その御守護によって半年ぶりで今日始めて起きて来られたのですと申したら、やっと我に帰り喜ぶのでした。<br><br>今考えて見ますと健忘性と思われます。<br><br>それから今日まで帳場に坐ってお手伝して下さいます。<br><br> 光明如来様有難とう御座いました。<br><br>広大なるこの御力を、ややもすれば、インチキだ、邪教だと世間では言い、秋田県だけでも何千人も助けられた中で、一人や二人死んだのを新聞に、デッチ上げ、逆宣伝をして騒ぎ立てるのは勿体ない次第です。<br><br> 皆様私は病気は治ればそれで良いと思います。<br><br>それ以外に病人は何を望むのでしようか。<br><br>幾多の御利益を戴きましたこの喜びを尊い光明如来様にただただ感謝の御報告のみ申しあげさせて戴きます。<br><br> この患者は十数年間病弱のため服薬注射から離れなかった結果、突然意識を失い喘息も併発、医療五カ月間能う限りの医療を施したが治らず神療法によって漸次軽快家業に従事するようになった。<br><br> 右は全く長い間の薬毒の結果重病を惹起した事は疑う余地はない ＊ ＊ ＊ 世人の気のつかぬ薬毒 病気治り、美容にも効果 埼玉県 啓光中教会 看護婦 原久子（28） 私は戦争の最中に東京の某私立病院で看護婦として働いておりました者です。<br><br>昭和十八年の十二月まで何ともなかった手足に激痛を覚え、目が覚めたら手足の関節が丸々と盛上り痛みが猛烈に激しくなるために動かすことが出来ません。<br><br>やっとの思いで立上り診察室まで行き早速注射をして貰いましたが、何本しても効果はなく、痛みは少しもさりませんので、薬が身体に合わないためではないかとかわったのをしますと、最初の一本は少々痛みが楽になるように思われるので、これなら良いかと二本目をしますと何等変化はなく、しない時と同じ状態です。<br><br>四年間医師と薬の中で生活をして来た私は、それでも薬でなければ病気は治らないと信じでいました、ために郷里へ帰るよりも病院で手当をしていた方が安心と思い、注射に明け注射に暮れておりました。<br><br>のに拘わらず痛む患部が次第に殖えてとうとう全身に痛みがまわり動くのに不自由を感ずるようになってしまいました。<br><br>その頃から先生にはかくれて友達に痛み止めをして貰っていましたが全身の痛みは耐えきれず、発病して満一年を経た二十年一月健康になるべき病院から病を得て郷里に帰って参りました。<br><br>医師の診断は多発性関節リウマチスでした。<br><br>絶対安静と刺戟物を食べないことの注意を受け床につく身になりこれで一生動けなくなり、死ぬのかと思ったらただ悲しく涙涙涙で幾日を経たのかさえ判らない位絶望のどん底にもがき苦しんでおりました。<br><br>その日もいつものように注射をしますと急に悪寒がし、熱が三十九度か四十度位出て全身に「はしか」のような発疹が出て非常に苦しいのです。<br><br>それでも未だ諦めず何本も注射をしましたが、とうとう苦しみに耐えられずやむなく注射一切をやめました。<br><br> すると家人や近所の人が鍼や灸をすすめてくれますのでそれを念のためにしてみましたが、灸もあつくて生々しい跡を残すだけで何等効果は御座いませんでした。<br><br>これ以上何もする事はなくただ寝ていると体が動かなくなるという事でした。<br><br>そして皮膚はたるみおばあさんのように黒く、つやを失って骨や体つきが変ってしまい人目にふれるのがいやで家の中に閉じこもっていました。<br><br> ところへ知人から大変に良い療法で医師が見離した病人も救われるからお願いしてみてはどうかとすすめられ、癒りたい一心で行く気になり案内して頂きました。<br><br>こうして参りましたのは長澤先生の許でございました。<br><br>御浄霊を頂きましたのは発病以来実に五年目の九月でございます。<br><br>先生のお優しいお導きによって心身ともにいびつになってしまった私も、日増に元気を取戻してまいりました。<br><br>なまじ医学に携っていた者だけに扱いづらい事が多々あったにも拘わらず先生にはいつも変りなき御指導を頂きました。<br><br>先生が手を振るだけで私の体が動くようになる。<br><br>不思議だ、ただ不思議だというより外に言葉が御座いません。<br><br>これで癒るのだ！ 健康になれるのだ！ と感じた時の喜びは何と言ったらお判りになって頂けましょう。<br><br>浄霊をして頂きましてより四カ月目に何か胸にはりつめてしまって苦しく高熱が出て（しかし呼吸をするには別に何とも御座いませんでした）先生のお宅へ通う事が出来ず、妹が御都合を伺いに参りましたら早速おいでを頂き浄霊を続けて頂きましたら、三日目から真白な痰が少し動いてもころころ出ました。<br><br>すると熱も次第に下り痛い程にはりつめた胸もさっぱりとして体の目方が減ったかと思う程軽くなり全身の痛みは一層楽になりました。<br><br>その後は床につく事もなく家事の合間には縫物さえ出来るようになりました。<br><br> 光明如来様の御守護の偉大さに日々新たな感謝を捧げますとともに手を振る位でと笑った事を心からお詫びを述べさせて頂くもので御座います。<br><br>昨年十月御守を授けて頂きましてから、田圃道を自転車で御用をさせて頂いておりますが、これが五年間リウマチスで苦しんだ人間かと思う程、世にも不思議な御守護を頂いたので御座います。<br><br>私は二度と病院へは戻りません。<br><br>患者さんに御注射する時の事等思い出しただけでも寒々と致します。<br><br>今後一人でも多くお導き致しまして御恩の万分の一にも報いたいと存じます。<br><br> 右の多発性関節リウマチスというのはもちろん原因は、病院勤務中注射の薬毒の浄化作用である、それを知らない医学は注射で治そうとするのだから治るどころか益々悪化するのは当然である、かような逆療法の結果苦しみに堪えず、やむなく注射をやめたというのであるから驚くの外はない。<br><br> 右のごとき病苦五年が数ケ月で全治した神療法の効果もすばらしいと言えるが、ここで特に言いたいのは、皮膚はたるみ老婆のごとく黒く、光沢を失い、骨や身体が変ってしまい、人に見られるのも恥しく家に閉籠っていたというのであるから、気の毒なものである、もちろん原因は薬毒であるが、世人はこれに気がつかない、吾々の経験上薬毒多有者は若くして老人のごとくである事実で浄霊により薬毒が減少するに従い、若さを取戻すのであるゆえに、神療法はひとり病気ばかりではない美容の効果も著るしく、一石二鳥療法である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superioridade do Johrei Evidenciada pelos Fatos</h2>
 <h3>Cura Completa de Linfadenopatia Hilar em Dez Dias com um Método de Saúde Diametralmente Oposto</h3>
@@ -140,5 +292,48 @@ function toggleLang(lang) {
 <hr/>
 <p>A causa da poliartrite reumatoide, neste caso, foi, sem dúvida, a purificação das toxinas medicamentosas acumuladas durante o período em que a paciente trabalhou no hospital. A medicina, ignorando este fato, tenta curar com mais injeções, o que, naturalmente, agrava o quadro. É assombroso que o sofrimento tenha chegado a tal ponto que ela foi forçada a abandonar as injeções.</p>
 <p>A eficácia da Terapia Divina, que curou em poucos meses um sofrimento de cinco anos, é notável. Contudo, o que desejo ressaltar aqui é o estado deplorável em que se encontrava: "a pele tornou-se flácida e escura como a de uma idosa, perdeu o brilho, e os ossos e a compleição se alteraram", a ponto de ela se isolar em casa por vergonha. A causa, evidentemente, são as toxinas dos medicamentos, algo que a maioria das pessoas não percebe. Nossa experiência demonstra que indivíduos com grande acúmulo de toxinas medicamentosas aparentam ser mais velhos do que são. À medida que o Johrei elimina essas toxinas, a juventude é restaurada. Portanto, a Terapia Divina não apenas cura doenças, mas também promove um notável efeito estético, sendo uma terapia de duplo benefício.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 事実が示す浄霊の優越性 『救世』51号、昭和25(1950)年2月25日発行 肺門淋巴腺十日で全快 正反対な養生法で 岡山県 百ノ実中教会 松枝江子（22） ちょっとの風邪が仲々治らず、体がだるく胸の痛みがとれませんのでお医者様に診て頂きましたら、肺門淋巴腺と聞かされ驚きました。<br/><br/>その後半年お医者の言葉を守り、食養生も充分にグラブラ致しておりましてもよくなる見込もなく困っておりますと救世教の熱心な信者の方にすすめられ、百ノ実中教会へお参りさせて頂きましたが、何の事かわかりませんが、人様が段々よくなっていられる事を聞いておりますので、先生の言われる事は食物並に養生法もお医者様とは正反対で、少々不安ながらその通り実行し浄霊を受けております内に、体は軽く、青黒かった血色もよくなり、食物は美味しく、三日目には自転車に乗る事をゆるされ一日一日とよくなりますに一同驚き、十日目にはすっかりよく、早速に入信させて頂き、今では人様をお助けさせて頂いております。<br/><br/> 私の患部は左肺門だったのでございます。<br/><br/>病気中の自分を思いますと恐ろしくなって参ります。<br/><br/>その私が僅か十日で麦刈も出来る体にして頂き何とも申上げる言葉もありません。<br/><br/>教導所へお参りさせて頂きます都度光明如来様にお礼を申上げております。<br/><br/>世の人が一日も早く薬と絶対安静と栄養が揃わねば肺病は治らぬと思い込まされている悪夢に目ざめ、神霊医術でなければ完全に解決つかぬ事を知って頂きたいと思います。<br/><br/>迷信とは薬を頭からよしと思い込む事こそ迷信ではないかと思います。<br/><br/>どんな薬でも服めば好いと思った私の失敗をどうぞ皆様の資料として頂きたく存じます。<br/><br/> 右の実例によって明らかなごとく、肺門淋巴腺に対する食物並びに養生法がお医者様の言と正反対であるにかかわらず短期間で治癒した実際からみて、いかに医学の養生法が誤っているかが判るのである、また絶対安静も栄養も何ら意味ない事である、面白い事にはこの患者は自己の経験から服薬を迷信と悟った事である。<br/><br/> ＊ ＊ ＊ 固め療法の無力さ 三十分の旅行で肺浸潤再発 兵庫県 萬年中教会 島村健一（20） 二年来の肺浸潤が二週間で治り、一カ月で飛んでも跳ねても疲れを知らぬ体になったこうした奇蹟を如実に体験させて頂き私はいま感謝の筆をとっています。<br/><br/> 思い起せば昭和二十二年十月中旬肺門淋巴腺炎を宣告され以来絶対安静、医師の毎日の診察は勿論カルシウム、ビタミンＢ１等の注射服薬等々近代医学で出来るだけの最善をつくしました。<br/><br/>半年後その効みえてか三十九度五分にも上った熱は追々平熱になり、病院の外への散歩が出来るようになりホッとしたのも束の間、医薬で固めに固めた体の哀れさ、三十分の汽車旅行が崇り再発、今度は肺浸潤を宣告され私は再び絶望の床へ臥し注射と服薬で固める作用を飽きもせず繰返すの止むなき又一年を、この病を味わった人のみが知る精神的な焦躁と苦悩裏に過したのです。<br/><br/>こうした時、フトした事から浄霊のことを知り誰れもが体験するように疑い疑い姫路の教導所に通い中尾先生に御浄霊を頂きました。<br/><br/>ところが初めの一週間は発熱、緑便、下痢、盗汗等々驚く程の浄化で不思議にその度毎に体の方は良くなり、二週間目の痔の出血を最後に浄化はおわり、一カ月目には全く健康な人と変らぬ程の顔色と体になることが出来たのです。<br/><br/>私はこの御利益に感謝感涙に咽ぶとともにこうした有難いお力を知らぬが故に無為にすごした一カ年半を思い、今後は微力ながら中尾先生に御指導頂いて不幸な人々に是非一時も早くこんな尊い力が我日本に既に現われている事をお知らせし、万分の一でもの御恩報じをさして頂きたいと思うとともに未だに頭にこびりついている結核患者特有の虚無、厭世思想をも解消して希望ある明るい生活を送りたいと思います。<br/><br/>以上謹んで御報告さして頂きます。<br/><br/> 二年間の肺浸潤が二週間で治り、一カ月後はいかに運動しても疲れを知らない程の健康になったよい例である、この患者は発病するや入院半カ年ようやく外出が出来る程になったところ三十分の汽車旅行で再発、肺浸潤と宣告されたという事は医療が固め療法である事を如実に物語っている、それから一年医療を続けたが治らず神療法によって一ケ月で全治したのである。<br/><br/> ＊ ＊ ＊ 医診で不明の苦痛 神療法で簡単に治る 東京都 五六七大教会 中田やす（55） 外面的には大した苦労もないようにみえておりました私も、体が弱かったため長い間人知れず悩み続けて来ました。<br/><br/>俗にいう冷え性で、夜寝みましても氷のように冷めたい足は朝まで温まらず、夏でも真綿の腰ぶとんを離すことが出来ぬような体でございました。<br/><br/>加うるに神経痛で腕や脚が痛み、また出産後には女の命取りとまで申されます乳腺炎に一再ならず悩まされ、病の重かった時は一日に四、五貫目の氷を使い果した日の幾日か打続き、飲み薬につけ薬などは三種類も用い、時間的に薬をとりかえる手数だけにでもどんなに煩雑な思いを致した事かわかりませんでした。<br/><br/>それにも拘らず化膿する時の猛烈なる痛みは実に言語に絶するもので、当時を考えますとまったく身の毛もよだつ思いが致します。<br/><br/>回復後も何となく健康すぐれず一時は人並に立働くことの出来ぬような体になってしまいました。<br/><br/> 何とか丈夫になりたいものと名医の診察に時を惜まず歩きまわりました。<br/><br/>しかし診断の結果「あなたはどこも悪いところはない」とのみ申され誠に腑に落ちない気持にて空しく家路につくので御座いました。<br/><br/>実際にどこも悪くないのなら、溌剌として立働く事が出来るはずなのに事実はまるで反対です。<br/><br/>その後有名な注射も幾年となく続け、それにもあきたらず今度は灸療法にも専念致しましたが、大した効果もなく、大層困っておりました時、計らずも浄霊の事を親戚より話され、早速教修を受けさせていただきました。<br/><br/> 始めのうちはただ夢みる心地にて過しておりましたが次々と浄化をいただき、そのたび毎に一歩一歩健康への前進にてただ今では幾十年来味った事のない真のよろこびに毎日を過させて頂いております。<br/><br/>それのみならず長女の脚気も治して頂き、又腺病質にてちょっとした事にも発熱し、まことに心配の種でございました次女などは、女学校時代に笑顔をみた事がないと学校の先生より問題にされた程の不健康な子供でしたが、今は明朗そのもののように明るくなり、また末子がやけどの時医師よりヒキツレは免れぬと宣告を受けましたのが跡かたもなく治して頂き、家族中数え切れぬ程御利益を頂いております。<br/><br/>もしこの偉大なる御力にお縋りする事が出来なかったと致しましたら、今頃は次々と病の床に呻吟する悲惨なる状態で、家中の者がまったく暗黒の中にさまよいおる事と存じます。<br/><br/> その事を思います時、余りの有難さに何ともお礼の言葉もなくただ感涙に咽びいる次第でございます。<br/><br/>この感謝感激の気持を一人でも多くの方々に味わって頂きたく専心布教におつとめ致し、御鴻恩の万分の一なりとお報い申上げたく存じております。<br/><br/>拙き筆にてお礼の一端を述べさせて頂きました。<br/><br/> 右の患者は痛苦が治ってからも健康すぐれず、医診を受けるとどこも悪い所はないと言われたが、患者自身は苦痛で働く事も出来ない、これはよくある話で苦痛があるのに悪い所がないというのは理屈に合わない話であるが、正直にいえば医学では悪い個所が判らないというべきが本当である、そのように医診で不明のままの幾十年来の難病が簡単に全治した神療法の効果たるや驚くべきであろう。<br/><br/> 次に長女の脚気も次女の腺病質も医者からヒキツレは免れないと宣告された末子の火傷も全部治癒したというのである。<br/><br/> ＊ ＊ ＊ 安静半年の病人 神療法で立ちあがる 秋田県 愛和中教会 今野シン（37） 私の夫は十三年前から薬、注射を離したことのない病弱者でした。<br/><br/>これ以上重くなってはと思い大事をとって来たのです。<br/><br/>それなのに昭和二十三年十一月突然意識を失い、床につく身となりました。<br/><br/>それに喘息がともない、その苦しみをどうすることも出来ませんでした。<br/><br/>勿論医者にお頼みして苦しみをとるべく治療をしましたが、効果もなく五カ月間その苦しみを続けて参りました。<br/><br/>その間好きな煙草もやめさせ、三度の食事すらそれは毒だ、やれ栄養だと、好きな物も差上げられず嫌な看護をして参りました。<br/><br/>安静と地獄的生活を続けて来たのです。<br/><br/>私の家の商売は麹屋（こうじや）で今夫に死なれては商売もやめなければなりません。<br/><br/> この有様のところへ又も長女が梯子から落ちて足を挫き、次男は四十度の熱に苦しめられ床につく羽目になりました。<br/><br/>いつかある人から不幸は総て浄化だと聞かされた事を思出し、今野家何軒かが没落致したのを見た私は、今度自分の家の番かとさえ一時は思った事もありました。<br/><br/>ある日、知人が訪れ医者で治らぬ病人も光明如来様におすがりして治った人が随分多い事を聞かされ、早速横手町愛和会より光明如来様の御守りを夫と一緒に戴きましたところ、日々有難い御守護に飛上る思いでした。<br/><br/>もちろん長女も次男も浄霊によって二、三日で治ってしまいました。<br/><br/>この嬉しさに早速光明如来様をお迎え御祭りして戴きました。<br/><br/>その時柴田先生より夫の体をよく浄霊して戴きました。<br/><br/> 先生のお帰りになった後、床から起き上り面白そうに家中を往ったり来たり二階に昇ったり降りたりここはどこだと私に尋ねるので、ここはあなたの家であなたが半年の長い病に困って光明如来様におすがりしたのです。<br/><br/>その御守護によって半年ぶりで今日始めて起きて来られたのですと申したら、やっと我に帰り喜ぶのでした。<br/><br/>今考えて見ますと健忘性と思われます。<br/><br/>それから今日まで帳場に坐ってお手伝して下さいます。<br/><br/> 光明如来様有難とう御座いました。<br/><br/>広大なるこの御力を、ややもすれば、インチキだ、邪教だと世間では言い、秋田県だけでも何千人も助けられた中で、一人や二人死んだのを新聞に、デッチ上げ、逆宣伝をして騒ぎ立てるのは勿体ない次第です。<br/><br/> 皆様私は病気は治ればそれで良いと思います。<br/><br/>それ以外に病人は何を望むのでしようか。<br/><br/>幾多の御利益を戴きましたこの喜びを尊い光明如来様にただただ感謝の御報告のみ申しあげさせて戴きます。<br/><br/> この患者は十数年間病弱のため服薬注射から離れなかった結果、突然意識を失い喘息も併発、医療五カ月間能う限りの医療を施したが治らず神療法によって漸次軽快家業に従事するようになった。<br/><br/> 右は全く長い間の薬毒の結果重病を惹起した事は疑う余地はない ＊ ＊ ＊ 世人の気のつかぬ薬毒 病気治り、美容にも効果 埼玉県 啓光中教会 看護婦 原久子（28） 私は戦争の最中に東京の某私立病院で看護婦として働いておりました者です。<br/><br/>昭和十八年の十二月まで何ともなかった手足に激痛を覚え、目が覚めたら手足の関節が丸々と盛上り痛みが猛烈に激しくなるために動かすことが出来ません。<br/><br/>やっとの思いで立上り診察室まで行き早速注射をして貰いましたが、何本しても効果はなく、痛みは少しもさりませんので、薬が身体に合わないためではないかとかわったのをしますと、最初の一本は少々痛みが楽になるように思われるので、これなら良いかと二本目をしますと何等変化はなく、しない時と同じ状態です。<br/><br/>四年間医師と薬の中で生活をして来た私は、それでも薬でなければ病気は治らないと信じでいました、ために郷里へ帰るよりも病院で手当をしていた方が安心と思い、注射に明け注射に暮れておりました。<br/><br/>のに拘わらず痛む患部が次第に殖えてとうとう全身に痛みがまわり動くのに不自由を感ずるようになってしまいました。<br/><br/>その頃から先生にはかくれて友達に痛み止めをして貰っていましたが全身の痛みは耐えきれず、発病して満一年を経た二十年一月健康になるべき病院から病を得て郷里に帰って参りました。<br/><br/>医師の診断は多発性関節リウマチスでした。<br/><br/>絶対安静と刺戟物を食べないことの注意を受け床につく身になりこれで一生動けなくなり、死ぬのかと思ったらただ悲しく涙涙涙で幾日を経たのかさえ判らない位絶望のどん底にもがき苦しんでおりました。<br/><br/>その日もいつものように注射をしますと急に悪寒がし、熱が三十九度か四十度位出て全身に「はしか」のような発疹が出て非常に苦しいのです。<br/><br/>それでも未だ諦めず何本も注射をしましたが、とうとう苦しみに耐えられずやむなく注射一切をやめました。<br/><br/> すると家人や近所の人が鍼や灸をすすめてくれますのでそれを念のためにしてみましたが、灸もあつくて生々しい跡を残すだけで何等効果は御座いませんでした。<br/><br/>これ以上何もする事はなくただ寝ていると体が動かなくなるという事でした。<br/><br/>そして皮膚はたるみおばあさんのように黒く、つやを失って骨や体つきが変ってしまい人目にふれるのがいやで家の中に閉じこもっていました。<br/><br/> ところへ知人から大変に良い療法で医師が見離した病人も救われるからお願いしてみてはどうかとすすめられ、癒りたい一心で行く気になり案内して頂きました。<br/><br/>こうして参りましたのは長澤先生の許でございました。<br/><br/>御浄霊を頂きましたのは発病以来実に五年目の九月でございます。<br/><br/>先生のお優しいお導きによって心身ともにいびつになってしまった私も、日増に元気を取戻してまいりました。<br/><br/>なまじ医学に携っていた者だけに扱いづらい事が多々あったにも拘わらず先生にはいつも変りなき御指導を頂きました。<br/><br/>先生が手を振るだけで私の体が動くようになる。<br/><br/>不思議だ、ただ不思議だというより外に言葉が御座いません。<br/><br/>これで癒るのだ！ 健康になれるのだ！ と感じた時の喜びは何と言ったらお判りになって頂けましょう。<br/><br/>浄霊をして頂きましてより四カ月目に何か胸にはりつめてしまって苦しく高熱が出て（しかし呼吸をするには別に何とも御座いませんでした）先生のお宅へ通う事が出来ず、妹が御都合を伺いに参りましたら早速おいでを頂き浄霊を続けて頂きましたら、三日目から真白な痰が少し動いてもころころ出ました。<br/><br/>すると熱も次第に下り痛い程にはりつめた胸もさっぱりとして体の目方が減ったかと思う程軽くなり全身の痛みは一層楽になりました。<br/><br/>その後は床につく事もなく家事の合間には縫物さえ出来るようになりました。<br/><br/> 光明如来様の御守護の偉大さに日々新たな感謝を捧げますとともに手を振る位でと笑った事を心からお詫びを述べさせて頂くもので御座います。<br/><br/>昨年十月御守を授けて頂きましてから、田圃道を自転車で御用をさせて頂いておりますが、これが五年間リウマチスで苦しんだ人間かと思う程、世にも不思議な御守護を頂いたので御座います。<br/><br/>私は二度と病院へは戻りません。<br/><br/>患者さんに御注射する時の事等思い出しただけでも寒々と致します。<br/><br/>今後一人でも多くお導き致しまして御恩の万分の一にも報いたいと存じます。<br/><br/> 右の多発性関節リウマチスというのはもちろん原因は、病院勤務中注射の薬毒の浄化作用である、それを知らない医学は注射で治そうとするのだから治るどころか益々悪化するのは当然である、かような逆療法の結果苦しみに堪えず、やむなく注射をやめたというのであるから驚くの外はない。<br/><br/> 右のごとき病苦五年が数ケ月で全治した神療法の効果もすばらしいと言えるが、ここで特に言いたいのは、皮膚はたるみ老婆のごとく黒く、光沢を失い、骨や身体が変ってしまい、人に見られるのも恥しく家に閉籠っていたというのであるから、気の毒なものである、もちろん原因は薬毒であるが、世人はこれに気がつかない、吾々の経験上薬毒多有者は若くして老人のごとくである事実で浄霊により薬毒が減少するに従い、若さを取戻すのであるゆえに、神療法はひとり病気ばかりではない美容の効果も著るしく、一石二鳥療法である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

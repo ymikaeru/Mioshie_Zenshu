@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hitoha02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人は健康の器 『世界救世教早わかり』昭和25(1950)年11月20日発行 昔から、よく人は病の器というが、これほど間違った話はない。<br><br>人は健康の器というのが本当である。<br><br>それならばなぜそういう事を言われたかというと、これにはもちろん訳がある、と言うのは、人間は実に病気に罹りやすい。<br><br>ヤレ風邪を引いたとか、頭痛がする。<br><br>腹が痛い。<br><br>咳が出る。<br><br>腹が下る。<br><br>なぜかしら痛い。<br><br>寒気がする。<br><br>胸が悪いとか、その他種々な苦痛が発（おこ）る。<br><br>すると驚いて、ヤレ医者だ、ソレ薬だと言って大騒ぎをする。<br><br>しかし簡単に治る場合もあるが、ちょっとした風邪くらいに思っていると、仲々治らない。<br><br>その内脳炎とか、チフスとか肺炎などという重い病気になったりする。<br><br>それもうまく治ればいいが、下手をすると命に関わるような事になる、というのは、最初からお医者様には見当がつかない。<br><br>だろう的である。<br><br>それは確実な診断を下す程に、医学はまだ進歩していないからである。<br><br>しかしこれらは急性の病気だが、慢性病や特に結核などになるとグズグズしていて仲々治らない。<br><br>治るかと思うとまた悪くなるというように繰返すので、どうしても長くかかる。<br><br>それでも治ればいいが、大抵は散々金を使って、苦しんだ揚句あの世行きというのだからやり切れない。<br><br>それまでにお医者さんと薬と親類のようになってしまって、縁を切る事など仲々出来なくなる。<br><br>ところが病気の苦しみばかりではない、仕事を休むから経済的打撃も大きい。<br><br>サラリーマンなどは長年月休むので馘（くび）になり、収入も途絶えるという訳で、二重三重の苦しみとなる。<br><br>何しろ近来医者や薬の治療代も高価で、仲々馬鹿にはならない。<br><br>長引いたり、入院でもするようになると一財産くらい飛んでしまうし、また運が悪いと命まで、フイになるのだから大変である。<br><br> このような訳であるから、現代人の病気を恐れる事は実にはなはだしい。<br><br>そこで官民共に病気解決に関する予防や施設などに巨額の金を使う事は大変なもので、今次政府が計画している結核対策の費用でさえ、最近決った額は八十七億円というのだから、何と驚くではないか、しかもそれ程、巨額の費用を使い、官民共に大童（おおわらわ）になっているがサッパリ結核は減りそうもない。<br><br>理屈から言えば減らなければならないはずだが、事実はそういかないと共に、全般的病気もそうである。<br><br>ヤレ、チフス、赤痢、日本脳炎等々、近頃の世の中を見るがいい。<br><br>どこもかしこも病人の氾濫はもとより、病院は満員で、収容しきれないそうである。<br><br>薬も足りないので如何様（イカサマ）薬や、贋物が横行し、当局も弱っている事など新聞によく出ている。<br><br>こんなにまでしても病気は一向に減らないので、誰も彼も今日の人間は、病気恐怖症に罹っている。<br><br>従って人は病の器などというのももっとも千万である。<br><br> ところが、一度本教の信者となるや、病気は簡単に治り健康は益々よくなるから病気の心配がなくなるどころか、伝染病など問題にならない。<br><br>なぜなれば、伝染病程雑作なく治るものはないからである。<br><br>だから黴菌なども恐ろしいとも何共思わないという事だけでも、実に現代の奇蹟であり、その幸福たるや世界中恐らく類があるまい、しかもそればかりではない、人の病気まで治せる術を授かる事である。<br><br>実によく治る。<br><br>信じられない程である。<br><br>ところがこれを聞いた第三者はいうのである。<br><br>何十年も掛って学校を出たり、色々の実験を重ねたりして、一生懸命修業して来た専門家に治らないものが、素人の癖に三月や半歳修業したくらいで、お医者の見離した病気が治るなんて、そんな馬鹿な事があるものか、そんな理屈に合わない話をするなんて、頭がどうかしている。<br><br>全くインチキ宗教に騙されているんだから可哀想なものだ。<br><br>迷信邪教程恐ろしいものはない。<br><br>もし本当にそうだとすれば、医者も薬も要らなくなるじゃないかという。<br><br>この言葉は紋切型となっていて吾々の耳にはタコが出来る程聞かされている。<br><br>なるほどそれももっとも千万で、決して間違っているとは思わない。<br><br>そこでちょっと考えてみて貰いたい事はお説の通りだとすれば、年々病気が減って、ヤレ伝染病の予防だ、注射をしろ一々消毒もしろ、黴菌に注意せよ、外から帰ったら手を洗え、含嗽（うがい）をしろなどと面倒臭い事は、段々言う必要がなくならなくてはならない。<br><br>また医学衛生が本当に立派なものとすれば、国民の健康は年々良くなり、病院に蜘蛛の巣が張るようにならなければならないはずである。<br><br>ところが事実はその逆であるのは一体どうした事か、また真の健康体となれば、大抵の黴菌は身体へ侵入しても発病しないはずである。<br><br>なぜなれば黴菌が侵入しても、発病する人としない人があるに見ても明らかである。<br><br>すなわち発病しないのは真の健康体で、抵抗力が強いからである。<br><br>だからそういう抵抗力の強い人が段々殖え、消毒の手数も年々減るようになるのが、真の医学衛生の進歩でなくて何であろう。<br><br>ところが不思議な事にはこんな判り切った理屈に、誰も気が付かない事である。<br><br>実に割り切れない話ではないか。<br><br>しかしその原因は吾々にはよく判っているが、それを詳しく話す事が出来ないのはまことに遺憾である。<br><br>何よりも吾らの説通り実行すれば、誰でも健康者となり、病人は段々減る事は太鼓判をおしても間違いない。<br><br>そんな立派なものならなぜ早く世の中へ知らせないかという疑問が起るであろうから、それを左にかいてみよう。<br><br> 今日の社会制度は近代文化が基本となって形成されたものであって、さきに説いたごとく、近代文化は根本が唯物主義の建前である以上偏重的で、唯心文化に対する反動的とも言えよう。<br><br>この文化を無上のものと心得、あらゆる機構を作ったのであるから、それに欠陥のあるのは当然で、吾々のいう中正文化との喰違いもある訳である。<br><br>そうして何より間違っている事は、この唯物文化は結果というものを余り見ないで、方法のみを重くみる。<br><br>これが最も不可解な点である。<br><br>この事を知って近代文化を検討すると実によく判る。<br><br> その点、一時的結果で物を決めようとする短見的考え方である。<br><br>先を見ずしてホンの目先だけで決める。<br><br>例えば熱が出ると氷で冷す、ところが熱が出るという事はどこかに出るべき原因があるからで、それに気が付かない。<br><br>気が付いてもどうしようもないのかも知れないが、ほとんど末端のみを対象とする。<br><br>よく医学を対症療法というが、全くその通りである。<br><br>また不幸な人を救うため、社会事業に一生懸命になっており、鳥の羽根募金や何やかやで金を集めているが、これも結構には違いないが、実はその方法たるや根本を逸している。<br><br>不幸な人が出るという事は、出るべくどこかに社会的欠陥があるからである。<br><br>従って、その欠陥を無くしさえすればいいのである。<br><br>それより以外根本的解決の方法はないが、現代人はそれにも気が付かない、これも対症療法と同様末梢的方法でしかない。<br><br> 右は、ただ一つだけの例であるが、今の文化はあらゆる点がそのようになっている。<br><br>何よりも文化が進歩したと言いながら、到るところ不幸が充ち満ちている。<br><br>それらの原因である内面的欠陥、それを吾々は神様から、徹底的に知らされたのである。<br><br>神様は一日も早く、一人でも多くの人に知らせ、目を醒まさせ、本当に幸福になる社会を作れという御思召である。<br><br>そうして病人のない貧乏人もない、戦争などもない理想の世界を目的として進めと言われるのである。<br><br>何と有難いではあるまいが。<br><br>それでは今までなぜもっと早く、神様ともあろうものが、それを知らせなかったかと言うだろうが、それには色々の深い訳がある。<br><br>それは本教の信者になれば、段々判ってくるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Ser Humano, um Receptáculo de Saúde</h2>
 <p>Desde a antiguidade, popularizou-se o dito de que o ser humano é um receptáculo de doenças. Poucas afirmações, contudo, são tão equivocadas. A verdade é que o ser humano é um receptáculo de saúde. Se assim é, por que tal adágio se consolidou? A razão, evidentemente, reside na notória suscetibilidade humana às enfermidades. Ora é um resfriado, ora uma dor de cabeça; manifestam-se dores abdominais, tosse, desarranjo intestinal e mal-estares de origem incerta, como calafrios ou desconforto no peito. Diante dessas inúmeras aflições, a reação é de alarme, gerando um grande alvoroço em busca de médicos e medicamentos. Embora em alguns casos a recuperação seja rápida, um mal que se supunha ser um simples resfriado pode persistir obstinadamente. Com o tempo, evolui para quadros graves como encefalite, febre tifoide ou pneumonia. Se o tratamento for bem-sucedido, tudo se resolve; todavia, um prognóstico desfavorável pode implicar risco de vida. Isso ocorre porque, desde o início, os médicos frequentemente não conseguem determinar a causa com exatidão; seu trabalho baseia-se em suposições, pois a medicina ainda não progrediu a ponto de permitir diagnósticos conclusivos.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A organização social de hoje foi moldada sobre os alicerces da cultura moderna. Como essa cultura se fundamenta em uma premissa materialista, ela é, por natureza, parcial, constituindo quase uma reação contrária à cultura espiritual. As instituições que dela derivam foram criadas sob a crença de que tal visão de mundo era insuperável. É natural, portanto, que apresentem falhas e divirjam da cultura do justo-meio que preconizamos. O erro mais grave dessa cultura materialista, e o ponto mais incompreensível, é sua tendência a supervalorizar os métodos em detrimento dos resultados. Ao analisarmos a cultura moderna sob essa ótica, tudo se torna claro.</p>
 <p>Trata-se de uma mentalidade imediatista, que julga as coisas com base em efeitos temporários e decide com base apenas no que está diante dos olhos, sem uma visão de futuro. Por exemplo, quando surge a febre, recorre-se ao gelo para resfriar o corpo. Ignora-se, porém, que a febre é um efeito, e que deve haver uma causa para sua manifestação. Mesmo que a causa seja percebida, talvez não se saiba como agir sobre ela. Quase sempre, o foco se restringe às consequências. A medicina, aliás, é frequentemente chamada de terapia sintomática, e com toda a razão. Outro exemplo é o assistencialismo. Com o intuito de socorrer os desafortunados, promovem-se campanhas de arrecadação e diversas outras iniciativas. Embora louváveis, tais métodos não tocam na raiz do problema. A existência de pessoas em situação de infortúnio indica que há falhas estruturais na sociedade. Consequentemente, a única solução definitiva seria corrigir essas falhas. No entanto, o homem moderno não percebe isso, limitando-se, mais uma vez, a uma abordagem paliativa, análoga à terapia sintomática.</p>
 <p>Os casos citados são apenas exemplos, mas todos os aspectos da cultura atual seguem o mesmo padrão. Apesar de se proclamar o progresso cultural, a infelicidade transborda por toda parte. Foi Deus quem nos revelou, de forma cabal, as deficiências internas que são a causa de todo esse sofrimento. Seu Desejo é que, o mais rápido possível, o maior número de pessoas seja informado e desperte para essa realidade, a fim de que se construa uma sociedade verdadeiramente feliz. Ele nos ordena que avancemos rumo à concretização de um Mundo Ideal, livre de doenças, de pobreza e de guerras. Que imensa graça nos foi concedida! Diante disso, é natural que questionem: "Por que, então, Deus, em Sua onipotência, não revelou isso antes?". Existem para isso diversas e profundas razões, as quais se tornam gradualmente compreensíveis à medida que a pessoa se aprofunda na fé de nossa Igreja.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人は健康の器 『世界救世教早わかり』昭和25(1950)年11月20日発行 昔から、よく人は病の器というが、これほど間違った話はない。<br/><br/>人は健康の器というのが本当である。<br/><br/>それならばなぜそういう事を言われたかというと、これにはもちろん訳がある、と言うのは、人間は実に病気に罹りやすい。<br/><br/>ヤレ風邪を引いたとか、頭痛がする。<br/><br/>腹が痛い。<br/><br/>咳が出る。<br/><br/>腹が下る。<br/><br/>なぜかしら痛い。<br/><br/>寒気がする。<br/><br/>胸が悪いとか、その他種々な苦痛が発（おこ）る。<br/><br/>すると驚いて、ヤレ医者だ、ソレ薬だと言って大騒ぎをする。<br/><br/>しかし簡単に治る場合もあるが、ちょっとした風邪くらいに思っていると、仲々治らない。<br/><br/>その内脳炎とか、チフスとか肺炎などという重い病気になったりする。<br/><br/>それもうまく治ればいいが、下手をすると命に関わるような事になる、というのは、最初からお医者様には見当がつかない。<br/><br/>だろう的である。<br/><br/>それは確実な診断を下す程に、医学はまだ進歩していないからである。<br/><br/>しかしこれらは急性の病気だが、慢性病や特に結核などになるとグズグズしていて仲々治らない。<br/><br/>治るかと思うとまた悪くなるというように繰返すので、どうしても長くかかる。<br/><br/>それでも治ればいいが、大抵は散々金を使って、苦しんだ揚句あの世行きというのだからやり切れない。<br/><br/>それまでにお医者さんと薬と親類のようになってしまって、縁を切る事など仲々出来なくなる。<br/><br/>ところが病気の苦しみばかりではない、仕事を休むから経済的打撃も大きい。<br/><br/>サラリーマンなどは長年月休むので馘（くび）になり、収入も途絶えるという訳で、二重三重の苦しみとなる。<br/><br/>何しろ近来医者や薬の治療代も高価で、仲々馬鹿にはならない。<br/><br/>長引いたり、入院でもするようになると一財産くらい飛んでしまうし、また運が悪いと命まで、フイになるのだから大変である。<br/><br/> このような訳であるから、現代人の病気を恐れる事は実にはなはだしい。<br/><br/>そこで官民共に病気解決に関する予防や施設などに巨額の金を使う事は大変なもので、今次政府が計画している結核対策の費用でさえ、最近決った額は八十七億円というのだから、何と驚くではないか、しかもそれ程、巨額の費用を使い、官民共に大童（おおわらわ）になっているがサッパリ結核は減りそうもない。<br/><br/>理屈から言えば減らなければならないはずだが、事実はそういかないと共に、全般的病気もそうである。<br/><br/>ヤレ、チフス、赤痢、日本脳炎等々、近頃の世の中を見るがいい。<br/><br/>どこもかしこも病人の氾濫はもとより、病院は満員で、収容しきれないそうである。<br/><br/>薬も足りないので如何様（イカサマ）薬や、贋物が横行し、当局も弱っている事など新聞によく出ている。<br/><br/>こんなにまでしても病気は一向に減らないので、誰も彼も今日の人間は、病気恐怖症に罹っている。<br/><br/>従って人は病の器などというのももっとも千万である。<br/><br/> ところが、一度本教の信者となるや、病気は簡単に治り健康は益々よくなるから病気の心配がなくなるどころか、伝染病など問題にならない。<br/><br/>なぜなれば、伝染病程雑作なく治るものはないからである。<br/><br/>だから黴菌なども恐ろしいとも何共思わないという事だけでも、実に現代の奇蹟であり、その幸福たるや世界中恐らく類があるまい、しかもそればかりではない、人の病気まで治せる術を授かる事である。<br/><br/>実によく治る。<br/><br/>信じられない程である。<br/><br/>ところがこれを聞いた第三者はいうのである。<br/><br/>何十年も掛って学校を出たり、色々の実験を重ねたりして、一生懸命修業して来た専門家に治らないものが、素人の癖に三月や半歳修業したくらいで、お医者の見離した病気が治るなんて、そんな馬鹿な事があるものか、そんな理屈に合わない話をするなんて、頭がどうかしている。<br/><br/>全くインチキ宗教に騙されているんだから可哀想なものだ。<br/><br/>迷信邪教程恐ろしいものはない。<br/><br/>もし本当にそうだとすれば、医者も薬も要らなくなるじゃないかという。<br/><br/>この言葉は紋切型となっていて吾々の耳にはタコが出来る程聞かされている。<br/><br/>なるほどそれももっとも千万で、決して間違っているとは思わない。<br/><br/>そこでちょっと考えてみて貰いたい事はお説の通りだとすれば、年々病気が減って、ヤレ伝染病の予防だ、注射をしろ一々消毒もしろ、黴菌に注意せよ、外から帰ったら手を洗え、含嗽（うがい）をしろなどと面倒臭い事は、段々言う必要がなくならなくてはならない。<br/><br/>また医学衛生が本当に立派なものとすれば、国民の健康は年々良くなり、病院に蜘蛛の巣が張るようにならなければならないはずである。<br/><br/>ところが事実はその逆であるのは一体どうした事か、また真の健康体となれば、大抵の黴菌は身体へ侵入しても発病しないはずである。<br/><br/>なぜなれば黴菌が侵入しても、発病する人としない人があるに見ても明らかである。<br/><br/>すなわち発病しないのは真の健康体で、抵抗力が強いからである。<br/><br/>だからそういう抵抗力の強い人が段々殖え、消毒の手数も年々減るようになるのが、真の医学衛生の進歩でなくて何であろう。<br/><br/>ところが不思議な事にはこんな判り切った理屈に、誰も気が付かない事である。<br/><br/>実に割り切れない話ではないか。<br/><br/>しかしその原因は吾々にはよく判っているが、それを詳しく話す事が出来ないのはまことに遺憾である。<br/><br/>何よりも吾らの説通り実行すれば、誰でも健康者となり、病人は段々減る事は太鼓判をおしても間違いない。<br/><br/>そんな立派なものならなぜ早く世の中へ知らせないかという疑問が起るであろうから、それを左にかいてみよう。<br/><br/> 今日の社会制度は近代文化が基本となって形成されたものであって、さきに説いたごとく、近代文化は根本が唯物主義の建前である以上偏重的で、唯心文化に対する反動的とも言えよう。<br/><br/>この文化を無上のものと心得、あらゆる機構を作ったのであるから、それに欠陥のあるのは当然で、吾々のいう中正文化との喰違いもある訳である。<br/><br/>そうして何より間違っている事は、この唯物文化は結果というものを余り見ないで、方法のみを重くみる。<br/><br/>これが最も不可解な点である。<br/><br/>この事を知って近代文化を検討すると実によく判る。<br/><br/> その点、一時的結果で物を決めようとする短見的考え方である。<br/><br/>先を見ずしてホンの目先だけで決める。<br/><br/>例えば熱が出ると氷で冷す、ところが熱が出るという事はどこかに出るべき原因があるからで、それに気が付かない。<br/><br/>気が付いてもどうしようもないのかも知れないが、ほとんど末端のみを対象とする。<br/><br/>よく医学を対症療法というが、全くその通りである。<br/><br/>また不幸な人を救うため、社会事業に一生懸命になっており、鳥の羽根募金や何やかやで金を集めているが、これも結構には違いないが、実はその方法たるや根本を逸している。<br/><br/>不幸な人が出るという事は、出るべくどこかに社会的欠陥があるからである。<br/><br/>従って、その欠陥を無くしさえすればいいのである。<br/><br/>それより以外根本的解決の方法はないが、現代人はそれにも気が付かない、これも対症療法と同様末梢的方法でしかない。<br/><br/> 右は、ただ一つだけの例であるが、今の文化はあらゆる点がそのようになっている。<br/><br/>何よりも文化が進歩したと言いながら、到るところ不幸が充ち満ちている。<br/><br/>それらの原因である内面的欠陥、それを吾々は神様から、徹底的に知らされたのである。<br/><br/>神様は一日も早く、一人でも多くの人に知らせ、目を醒まさせ、本当に幸福になる社会を作れという御思召である。<br/><br/>そうして病人のない貧乏人もない、戦争などもない理想の世界を目的として進めと言われるのである。<br/><br/>何と有難いではあるまいが。<br/><br/>それでは今までなぜもっと早く、神様ともあろうものが、それを知らせなかったかと言うだろうが、それには色々の深い訳がある。<br/><br/>それは本教の信者になれば、段々判ってくるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

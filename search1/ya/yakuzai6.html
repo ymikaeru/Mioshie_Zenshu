@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakuzai6</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬剤は科学？ 『栄光』254号、昭和29(1954)年3月31日発行 世間よくこの薬は効（き）くとか、アノ薬は効かないなどと言われるが、これを吾々からみるとまことに滑稽（こっけい）である。<br><br>それはどういう訳かというと、驚いてはいけない、薬が効くのと病気の治るのとは似て否なるもので、根本的に異（ちが）っている事である。<br><br>という訳は薬が効くというのは苦痛が一時治まるだけの事であって、病気そのものが治るのではない。<br><br>この点最も肝腎であるから心得て貰いたいのである。<br><br>というのはそもそも医学の考え方は病気と苦痛とは離るべからざる一体のものと解しているからで、苦痛が治れば共に病気も治ると思っており、病気と苦痛との判別がつかなかったのである。<br><br>従って医学がいかに進歩したとて、病気の治らないのは当然である。<br><br>ところが私はこの理を発見したのであるから、忌憚（きたん）なく言って世界史上空前の大発見といっても過言ではあるまい。<br><br> ここで病理についてザットかいてみるが、病気とは薬毒の固りに対し、自然浄化作用が起って排除される苦痛であるから、言わば発病が主でそれに苦痛が伴なうのである。<br><br>それを医学は間違えて、苦痛が主で病気が伴なうように思ったので言わば主客転倒である。<br><br>この逆理によって薬を以って苦痛を抑える。<br><br>この考え方で生まれたのが医療である。<br><br>しかも一層厄介（やっかい）な事は、薬が毒化し病原となる事も知らなかったので、二重のマイナスである。<br><br>これが医学の進歩と思っているのであるから、その愚、度（ど）すべからずである。<br><br>それを知らないがため臨床家などが、学理通りに治らないので、常に疑問を抱いている話もよく聞くが、さこそと思われる。<br><br>その証拠として新聞広告などに出ている売薬の広告を見ても分る通り、決して治るとはかいてない。<br><br>何々病には効く、苦痛が減る、好転する、元気になる、強力な効果がある、血や肉を増す、予防にいい等々、それをよく物語っている。<br><br> しかも薬で苦痛が緩和する理も科学的説明は出来ないのは、何々の薬を服（の）めば効くとするだけの事である。<br><br>ちょうど未開人が禁厭（まじない）等で治すのと同様でしかない。<br><br>何よりも新薬を作ろうとする場合、本来なら最初理論科学が生まれ、次いで実験科学に移るべきだが、そんな事はないらしい。<br><br>というのはそのほとんどが偶然の発見か、推理による実験であって、それ以外は聞いた事がない。<br><br>その例として前者は英国のある学者が、医学に関係のない実験の際、偶然発見された青苔の一種が彼（か）のペニシリンであったり、後者である独逸（ドイツ）のエールリッヒ、日本の秦（はた）両博士の合同発見による彼のサルバルサンにしても、六百六回の実験の結果、ようやく完成したのであるから、これは根気戦術によるマグレ当りでしかない事が分る。<br><br>というように両方共科学とは何ら繋がりがない事である。<br><br> またあらゆる病菌にしても、何十年前から研究を続けて来たにかかわらず、今以って決定的殺菌剤は生まれない事実である。<br><br>また近来発見の御自慢の抗生物質にしても、最初は素晴しい評判だったが、近頃になって逆効果を認め再研究に取掛ったという話も最近聞いたのである。<br><br>これらにみても何病に限らず、決定的効果ある薬はまだ一つもないのであって、それだからこそ次から次へと新薬が生まれる訳である。<br><br>故にそのような不確実な薬剤を以って病を治そうとするなどは寧（むし）ろ冒険というべきであろう。<br><br>また医学では動物実験を唯一の方法としているが、これなども科学的根拠は全然なく、単なる推理臆測によって、多分この薬なら効くだろうというマグレ当りを狙ったものであるのは、効かない場合次から次へと何回でも試してみるによっても分る。<br><br>それがため一種類の動物を数千匹殺してもなお成功しないという話もよく聞くのである。<br><br> 私は科学者ではないが、真の科学とはそんなアヤフヤなものではなく、確実な合理的根拠によって研究し、真理を把握したものであって、効果も決定的で永久性であるべきはずである。<br><br>それがどうだ、ある期間がすぎると無効果となり、次から次へと新薬が生まれるとしたら、どこに科学的理論があるであろうか。<br><br>ちょうど流行品と同様薬にも流行（はや）り頽（すた）りがある訳で、一種の商品である。<br><br>いやしくも人間生命に関する重要なるものとしたら許さるべきではあるまい。<br><br>しかも多くは短期間の実験によって売出すのであるから、もし効果のない場合、詐欺行為ともなるであろう。<br><br>よく新薬発表当時救世主のごとく仰がれたものが、いつの間にか消えてしまうのも、軽率の譏（そし）りは免（まぬが）れまい。<br><br>そのため犠牲になる大衆こそ一種の被害者であり、売薬業者の米びつにされる訳である。<br><br>あえて当事者に警告を与えるゆえんである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ilusão da Ciência Farmacêutica</h2>
 <p>É comum ouvir as pessoas dizerem que este ou aquele remédio funciona, ou que determinado medicamento não surte efeito. Sob nossa perspectiva, contudo, tais afirmações beiram o cômico. E por qual motivo? Porque, e que isso não cause espanto, a eficácia de um remédio e a cura de uma doença são fenômenos que, embora pareçam similares, são fundamentalmente distintos. A ação de um medicamento consiste meramente em suprimir a dor de forma temporária; a doença em si não é eliminada. Este é um ponto de suma importância e que desejo seja bem compreendido.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>A medicina adota a experimentação em animais como seu método primordial, mas tal prática carece de qualquer fundamento científico. Ela se baseia em mera inferência e conjectura, na esperança de um acerto casual com a suposição de que “talvez este remédio funcione”. A prova disso é a insistência em testar um fármaco após o outro quando os anteriores falham. Não são raros os relatos de milhares de animais de uma mesma espécie sacrificados em vão, sem que se alcance o sucesso almejado.</p>
 <p>Não sou um cientista, mas sei que a verdadeira ciência não se sustenta em bases tão frágeis. Ela deve fundamentar-se em princípios racionais e seguros para apreender a verdade, e seus resultados devem ser definitivos e permanentes. O que vemos, no entanto? Um medicamento, passado certo tempo, torna-se ineficaz, e novos fármacos surgem sucessivamente. Onde está a lógica científica nisso? Assim como os produtos de moda, os remédios têm seus períodos de popularidade e obsolescência, não passando de uma mercadoria.</p>
 <p>Tratando-se de algo que concerne à vida humana, de importância capital, tal situação é inaceitável. Ademais, muitos desses produtos são lançados no mercado após um período de testes muito curto. Caso se mostrem ineficazes, sua comercialização pode ser configurada como um ato de estelionato. Quantos medicamentos, anunciados na época de seu lançamento como verdadeiros salvadores, desaparecem sem deixar vestígios? Seus criadores não podem se eximir da acusação de leviandade. Nesse cenário, as massas que se tornam vítimas são, na realidade, reféns que sustentam a prosperidade da indústria farmacêutica. É por essa razão que me atrevo a dirigir esta advertência aos responsáveis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬剤は科学？ 『栄光』254号、昭和29(1954)年3月31日発行 世間よくこの薬は効（き）くとか、アノ薬は効かないなどと言われるが、これを吾々からみるとまことに滑稽（こっけい）である。<br/><br/>それはどういう訳かというと、驚いてはいけない、薬が効くのと病気の治るのとは似て否なるもので、根本的に異（ちが）っている事である。<br/><br/>という訳は薬が効くというのは苦痛が一時治まるだけの事であって、病気そのものが治るのではない。<br/><br/>この点最も肝腎であるから心得て貰いたいのである。<br/><br/>というのはそもそも医学の考え方は病気と苦痛とは離るべからざる一体のものと解しているからで、苦痛が治れば共に病気も治ると思っており、病気と苦痛との判別がつかなかったのである。<br/><br/>従って医学がいかに進歩したとて、病気の治らないのは当然である。<br/><br/>ところが私はこの理を発見したのであるから、忌憚（きたん）なく言って世界史上空前の大発見といっても過言ではあるまい。<br/><br/> ここで病理についてザットかいてみるが、病気とは薬毒の固りに対し、自然浄化作用が起って排除される苦痛であるから、言わば発病が主でそれに苦痛が伴なうのである。<br/><br/>それを医学は間違えて、苦痛が主で病気が伴なうように思ったので言わば主客転倒である。<br/><br/>この逆理によって薬を以って苦痛を抑える。<br/><br/>この考え方で生まれたのが医療である。<br/><br/>しかも一層厄介（やっかい）な事は、薬が毒化し病原となる事も知らなかったので、二重のマイナスである。<br/><br/>これが医学の進歩と思っているのであるから、その愚、度（ど）すべからずである。<br/><br/>それを知らないがため臨床家などが、学理通りに治らないので、常に疑問を抱いている話もよく聞くが、さこそと思われる。<br/><br/>その証拠として新聞広告などに出ている売薬の広告を見ても分る通り、決して治るとはかいてない。<br/><br/>何々病には効く、苦痛が減る、好転する、元気になる、強力な効果がある、血や肉を増す、予防にいい等々、それをよく物語っている。<br/><br/> しかも薬で苦痛が緩和する理も科学的説明は出来ないのは、何々の薬を服（の）めば効くとするだけの事である。<br/><br/>ちょうど未開人が禁厭（まじない）等で治すのと同様でしかない。<br/><br/>何よりも新薬を作ろうとする場合、本来なら最初理論科学が生まれ、次いで実験科学に移るべきだが、そんな事はないらしい。<br/><br/>というのはそのほとんどが偶然の発見か、推理による実験であって、それ以外は聞いた事がない。<br/><br/>その例として前者は英国のある学者が、医学に関係のない実験の際、偶然発見された青苔の一種が彼（か）のペニシリンであったり、後者である独逸（ドイツ）のエールリッヒ、日本の秦（はた）両博士の合同発見による彼のサルバルサンにしても、六百六回の実験の結果、ようやく完成したのであるから、これは根気戦術によるマグレ当りでしかない事が分る。<br/><br/>というように両方共科学とは何ら繋がりがない事である。<br/><br/> またあらゆる病菌にしても、何十年前から研究を続けて来たにかかわらず、今以って決定的殺菌剤は生まれない事実である。<br/><br/>また近来発見の御自慢の抗生物質にしても、最初は素晴しい評判だったが、近頃になって逆効果を認め再研究に取掛ったという話も最近聞いたのである。<br/><br/>これらにみても何病に限らず、決定的効果ある薬はまだ一つもないのであって、それだからこそ次から次へと新薬が生まれる訳である。<br/><br/>故にそのような不確実な薬剤を以って病を治そうとするなどは寧（むし）ろ冒険というべきであろう。<br/><br/>また医学では動物実験を唯一の方法としているが、これなども科学的根拠は全然なく、単なる推理臆測によって、多分この薬なら効くだろうというマグレ当りを狙ったものであるのは、効かない場合次から次へと何回でも試してみるによっても分る。<br/><br/>それがため一種類の動物を数千匹殺してもなお成功しないという話もよく聞くのである。<br/><br/> 私は科学者ではないが、真の科学とはそんなアヤフヤなものではなく、確実な合理的根拠によって研究し、真理を把握したものであって、効果も決定的で永久性であるべきはずである。<br/><br/>それがどうだ、ある期間がすぎると無効果となり、次から次へと新薬が生まれるとしたら、どこに科学的理論があるであろうか。<br/><br/>ちょうど流行品と同様薬にも流行（はや）り頽（すた）りがある訳で、一種の商品である。<br/><br/>いやしくも人間生命に関する重要なるものとしたら許さるべきではあるまい。<br/><br/>しかも多くは短期間の実験によって売出すのであるから、もし効果のない場合、詐欺行為ともなるであろう。<br/><br/>よく新薬発表当時救世主のごとく仰がれたものが、いつの間にか消えてしまうのも、軽率の譏（そし）りは免（まぬが）れまい。<br/><br/>そのため犠牲になる大衆こそ一種の被害者であり、売薬業者の米びつにされる訳である。<br/><br/>あえて当事者に警告を与えるゆえんである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

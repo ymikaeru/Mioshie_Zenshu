@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>isiha</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師は本教の協力者 『栄光』126号、昭和26(1951)年10月17日発行 この題を見たらちょっと吃驚（びっくり）するだろう、しかし読むに従って、これは本当の理屈であるから、なるほどと思うであろうし、この事も知っておく必要があるから、思い切ってかいたのである。<br><br> これは世の中の人は、誰でも知らない人はないくらいに、医学では仲々病気は治らない、なるほど一時はちょっと治ったようにみえても、時が経つと必ず再発したり、悪化したりする、この点医学ではその根本が分らないから致し方ないが、そんな訳で少し名のつくような病気になると根治はまず出来ない、大抵は散々長引いた揚句、命にまで関わるような事になる、こんな訳で何程信用し切っている医学でも、実際に治らないとしたら、考え直すべきだが、そうかといって外に方法も見当らないので、仕方なくなくこれに噛（かじ）りついているに過ぎないのが実状であろう、そのため病人は民間療法やその他色々なものに迷ってみるが、どれもこれも真に治るものはまずないので、最後は既成宗教という事になるが、これも同様仲々治らないので、トドの詰り本教へ来る事になり、ここで初めて本当に救われ、元通りの健康者になって仕事も出来るようになるのであるから、この事実によってよく考えてみて貰いたい事は、本教に救われるその元はといえば、何よりも医学では治らないからであって、もし医学によってドシドシ治るものなら、それで済んでしまうから、吾々の方にまで来る病人は一人もないという事になる、ところがここにちょっと気の付かない大問題がある、というのはもし医療だけで健康になってしまったとしたら、悪人は善人になる機会がないから、社会悪はいつになっても無くならない、相変らず悪人は横行して善人を苦しめる、というのは誰も気がつかないが実は大問題である、しかしながら宗教で救われれば、肉体も健康になると共に、心の底まで浄められて、悪人も善人に変ってしまうから、これで霊肉共に救われ、結構な世の中になるのである。<br><br> 右のような訳としたら、つまり医学が病気を治す事が拙（まず）ければ拙い程、宗教で救われる人が多くなるという訳だから、現在の結果から言えば、医学が宗教を旺（さか）んにしてくれるという訳で、これは決して皮肉でも何でもない、事実であるから何とも仕方がないであろう、しかし誰もそこまで気の付く人はほとんどないであろうから、私はかいたのである、またこういう事にもなろう、罪人が出来るから法律が必要となり、病人が出来るから医師が必要となるのであるが、現在の法律でも医師でも駄目だとしたら、ここに宗教に注目せざるを得ない事になろう、その表われこそ何よりも本教の発展がよく物語っているではないか、標題の意味はこれで分ったであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Médicos como Colaboradores de Nossa Fé</h2>
 <p>Este título poderá, à primeira vista, causar certa surpresa. Contudo, à medida que a leitura avançar, a lógica aqui apresentada se revelará tão verdadeira que o leitor certamente a compreenderá. Foi por julgar indispensável o conhecimento deste princípio que decidi discorrer abertamente sobre o tema.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Todavia, existe aqui uma questão de magna importância que passa despercebida à maioria. Se a saúde pudesse ser restaurada unicamente pelos tratamentos médicos, os indivíduos de má índole jamais teriam a oportunidade de se converter em pessoas de bem. Consequentemente, o mal social jamais seria extinto; os homens maus continuariam a agir livremente, infligindo sofrimento aos justos. Embora quase ninguém se dê conta disso, trata-se de um problema de enorme profundidade. Entretanto, quando a salvação ocorre por meio da fé, o ser humano não apenas recupera a saúde física, mas também tem o espírito purificado em sua essência mais profunda. Dessa forma, mesmo os maus se transformam em bons. Alcança-se, assim, a salvação do espírito e da matéria, o que permitirá a construção de um mundo verdadeiramente bom.</p>
 <p>Diante do exposto, a conclusão é lógica: quanto menos eficaz for a medicina em curar as doenças, maior será o número de pessoas salvas pela religião. Observando os resultados atuais, pode-se afirmar que a medicina, na verdade, contribui para o florescimento da fé. E isto não é, de modo algum, uma ironia; é um fato incontestável. Escrevi sobre este assunto porque são raras as pessoas que chegam a essa percepção por si mesmas.</p>
 <p>Podemos traçar um paralelo: a lei se faz necessária pela existência dos criminosos, e os médicos, pela existência dos doentes. Se tanto as leis quanto os médicos atuais se mostram insuficientes, torna-se imperativo voltar a atenção para a fé. A maior prova disso é, sem dúvida, o próprio desenvolvimento de nossa Igreja, que o demonstra de forma eloquente. Creio que, com esta explanação, o significado do título tornou-se claro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師は本教の協力者 『栄光』126号、昭和26(1951)年10月17日発行 この題を見たらちょっと吃驚（びっくり）するだろう、しかし読むに従って、これは本当の理屈であるから、なるほどと思うであろうし、この事も知っておく必要があるから、思い切ってかいたのである。<br/><br/> これは世の中の人は、誰でも知らない人はないくらいに、医学では仲々病気は治らない、なるほど一時はちょっと治ったようにみえても、時が経つと必ず再発したり、悪化したりする、この点医学ではその根本が分らないから致し方ないが、そんな訳で少し名のつくような病気になると根治はまず出来ない、大抵は散々長引いた揚句、命にまで関わるような事になる、こんな訳で何程信用し切っている医学でも、実際に治らないとしたら、考え直すべきだが、そうかといって外に方法も見当らないので、仕方なくなくこれに噛（かじ）りついているに過ぎないのが実状であろう、そのため病人は民間療法やその他色々なものに迷ってみるが、どれもこれも真に治るものはまずないので、最後は既成宗教という事になるが、これも同様仲々治らないので、トドの詰り本教へ来る事になり、ここで初めて本当に救われ、元通りの健康者になって仕事も出来るようになるのであるから、この事実によってよく考えてみて貰いたい事は、本教に救われるその元はといえば、何よりも医学では治らないからであって、もし医学によってドシドシ治るものなら、それで済んでしまうから、吾々の方にまで来る病人は一人もないという事になる、ところがここにちょっと気の付かない大問題がある、というのはもし医療だけで健康になってしまったとしたら、悪人は善人になる機会がないから、社会悪はいつになっても無くならない、相変らず悪人は横行して善人を苦しめる、というのは誰も気がつかないが実は大問題である、しかしながら宗教で救われれば、肉体も健康になると共に、心の底まで浄められて、悪人も善人に変ってしまうから、これで霊肉共に救われ、結構な世の中になるのである。<br/><br/> 右のような訳としたら、つまり医学が病気を治す事が拙（まず）ければ拙い程、宗教で救われる人が多くなるという訳だから、現在の結果から言えば、医学が宗教を旺（さか）んにしてくれるという訳で、これは決して皮肉でも何でもない、事実であるから何とも仕方がないであろう、しかし誰もそこまで気の付く人はほとんどないであろうから、私はかいたのである、またこういう事にもなろう、罪人が出来るから法律が必要となり、病人が出来るから医師が必要となるのであるが、現在の法律でも医師でも駄目だとしたら、ここに宗教に注目せざるを得ない事になろう、その表われこそ何よりも本教の発展がよく物語っているではないか、標題の意味はこれで分ったであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

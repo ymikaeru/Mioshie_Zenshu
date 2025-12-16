@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmuhi18</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無肥料麦の強靭 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教三光会 教導師補 北村四郎（30） 無肥料耕作一年生を御報告させて頂きます。<br><br> 当三重県は教団の布教が隣りの愛知、岐阜よりは大変遅れていたため、私も会に入らして頂いてからは、未だ一年半（昭和二十二年三月二十二日、三重県河芸郡大里村字山室、草深弥一郎さん方にて教修を受く）しか経ておりません。<br><br>初めから無肥料で三割の増収は可能だとか聞いていましたが、七十の坂を越した父にはそれが納得させにくくて困惑しておりました。<br><br>浄霊により多くの人の病気が癒って行くのを見、又自らも何人もの人の病気を楽にした後でした故、先生方の言われる無肥料耕作がしてみたくて、毎日ウズウズして、観音様に御願い致しておりました。<br><br> 僅か半年そこそこで幸い願い叶って、二十二年度麦作より農業の方は父が引退して私が全部責任を持つ事になりました。<br><br>ここぞとばかり小屋に積んであった化学肥料を全部売って終いました。<br><br>と言うのは夏頃迄は家の中に、やはり観音様の御利益が絶対的であり、農作物迄にも御恵みが得られるという事が解り、私の家も教導所にして頂き日々お参り、あるいは浄霊にお出でになる方々を見ていて、家中の者が観音様の御利益の絶対にして想像することも出来ない偉大なるものである事が判ったので、誰一人反対する者もなくなっていたので、そうする事も非常に簡単に出来ました。<br><br> 二十二年の秋、麦の蒔付は近所の人々と同じように致しました。<br><br>今度は大先生の無肥料耕作の論文が出るそうですが、当時はただ「一回でも多く耕作せよ」と先生から御聞きしていただけでしたので、何も判らないままに人が中耕（作物の根を耕す事）土入れ（麦のまだ二、三寸の頃麦の頭から細い土を振り掛ける事）を三回程する所を私は四回致しました。<br><br>しかし光明如来様の御恵みを信じている私ではありますが、やはり生まれて初めての試みの事とて、心配で心配でなりませんでした。<br><br>朝に晩に光明如来様の前に座れば「麦を穫らせて下さい。<br><br>いい麦を稔らせて下さい」とお願いするばかりでした。<br><br>それが三、四月頃になって来た時、いよいよ隣の麦と自分の田畑麦の相違がはっきりして参りました。<br><br>普通の麦は青々として濃緑そのものであるに反し、家の麦は色が淡く株も薄くなんとなく貧弱で、丈も他家のは一尺七、八寸程もある頃に、家のは一尺前後で中々延びないのです。<br><br> 「麦稈（ばっかん）はいくら大きくても収穫が少なければ何にもならない、観音様は小さい麦得で大きな取り入れを教えて下さるのだ」といつも先生方からお聞きしていました。<br><br>又光明如来様の御光を信じている私ではありますが、時々襲って来るように脳裏にひらめく心配は、打消しても打消してもやって来ました。<br><br>その上「なんや、あそこ今年はおかしな麦を作ったぞ」とか、農業組合長が「あそこあんな麦で今年供出が出来るやろか」など陰口を耳にした時は「今に見ておれ、いい麦を沢山取ってびっくりさせてやるぞ」とそしり笑う人々にも相手にならぬようにしておりましたが、やっぱり陰口を言われると余計に心配でした。<br><br>しかし穂が出揃う頃より、その心配も忽ち喜びと変りました。<br><br>穂が大きくなると同時に当地方においては今年は大変な黒穂と雨が多かったため、一雨毎に穂及麦稈が腐り、茎の中程よりほとんど折れ、充分結実せず、ひどい所では三割の減収、又は茎が中途で折れたため刈取りに農家は非常に苦しみました。<br><br>しかし飜って家の麦は黒穂は一反に一本ないし二本でほとんど皆無に等しく、茎が中途で折れる等は全然目に当りませんでした。<br><br>雨が降って他家は被害を受けたにも拘わらず、私の家では雨が降ったことによっては何の障りも受けず充分に結実し、初めは減収を覚悟しておりましたが、観音様は私等にひもじい思いをさせない為か平年作はゆっくりありました。<br><br> 又一粒一粒の実ははちきれるように大きく生長する頃の状態を知っているものでは、実にその変化の大きく無肥料耕作と観音様の恵みの大きいかに驚いておりました。<br><br>「あんたとこ今年はええ麦だすなあ、私等とこ今年は種になるのがない程だすわ」とか「へえー、これが肥料なしで取った麦ですか、えらいもんですなあ」とかつての悪口もどこへやら「肥料をおかなかったからこれだけの麦が取れたのだ」と家中の者の顔もほころびて、私も途中の心配したのが何か罪悪のような気がして、今更に観音様に御礼と御詫を申し上げました。<br><br> 麦摺りの結果、粒は円々と大きく俵にするさいにも、いつもは十六貫の一俵を作るのは四斗四升程必要であったものが、今年は目方がよく利いて、四斗二升たらず位で十六貫になり、供出には一目見ただけで検査員が「この麦はええ麦やなあ、今年はこんな麦はめずらしい。<br><br>飛切の一等やなあ」と大鼓判をおしてくれました。<br><br>これに自信を得まして、すべて無肥料で致しておりますが、こんどの米作には何だか引続き増収するような予感があります。<br><br> 事実稲の発育状況を見ておりますと、病毒なき溌らつたる生長を続けているように見えます。<br><br>家の事情で毎日浄霊に従事する事も出来ない私は、せめて無肥料耕作によって増産方法の型を示して、これに劣っても優る耕作法はないことの事実を一般に知らしめ、そしてそして日本農法改革に先鞭をつけたいと念願しております。<br><br>かくすることによって大きなみ恵を戴いている御礼の万分の一を観音様に御返し出来るものと確信して、日々農耕に一心不乱努力を続けております。<br><br> 昭和二十三年九月一日
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Força do Trigo Cultivado sem Adubo</h2>
 <p><strong>Extraído de:</strong> <em>Paraíso Terrestre</em>, nº 2, 1º de março de 1949
@@ -104,5 +259,48 @@ Nihon Goroku-shichi Kyo</p>
 <p>Ao final da debulha, os resultados confirmaram nossas impressões. Os grãos eram cheios e arredondados, de uma densidade notável. Para compor uma saca de 16 <em>kan</em> (aproximadamente 60 kg), que normalmente exigiria 4 <em>to</em> e 4 <em>shou</em> de grãos, este ano bastaram menos de 4 <em>to</em> e 2 <em>shou</em>. No posto de coleta, o inspetor, ao primeiro olhar, não hesitou em nos conceder a mais alta classificação, exclamando: "Que trigo magnífico! Um espécime como este é uma raridade este ano. Qualidade excepcional, sem dúvida!".</p>
 <p>Essa experiência fortaleceu imensamente minha convicção, e agora pratico o cultivo sem adubo em toda a propriedade. Tenho um forte pressentimento de que o cultivo de arroz, que se seguirá, também nos trará um aumento na produção. De fato, ao observar o desenvolvimento das mudas de arroz, vejo que crescem com um vigor sadio, livres de qualquer enfermidade. Embora minhas circunstâncias familiares não me permitam dedicar-me diariamente à ministração de Johrei, desejo ardentemente, por meio do cultivo sem adubo, apresentar um modelo de aumento de produtividade, demonstrar a todos que não existe método agrícola que se lhe compare em superioridade e, assim, ser um pioneiro na reforma da agricultura japonesa. Estou convicto de que, ao agir dessa forma, poderei retribuir a Kannon (観音) uma ínfima parcela da imensa graça que recebo. É com essa certeza que prossigo, dia após dia, dedicando-me de corpo e alma ao trabalho na lavoura.</p>
 <p>1º de setembro de 1948</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無肥料麦の強靭 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教三光会 教導師補 北村四郎（30） 無肥料耕作一年生を御報告させて頂きます。<br/><br/> 当三重県は教団の布教が隣りの愛知、岐阜よりは大変遅れていたため、私も会に入らして頂いてからは、未だ一年半（昭和二十二年三月二十二日、三重県河芸郡大里村字山室、草深弥一郎さん方にて教修を受く）しか経ておりません。<br/><br/>初めから無肥料で三割の増収は可能だとか聞いていましたが、七十の坂を越した父にはそれが納得させにくくて困惑しておりました。<br/><br/>浄霊により多くの人の病気が癒って行くのを見、又自らも何人もの人の病気を楽にした後でした故、先生方の言われる無肥料耕作がしてみたくて、毎日ウズウズして、観音様に御願い致しておりました。<br/><br/> 僅か半年そこそこで幸い願い叶って、二十二年度麦作より農業の方は父が引退して私が全部責任を持つ事になりました。<br/><br/>ここぞとばかり小屋に積んであった化学肥料を全部売って終いました。<br/><br/>と言うのは夏頃迄は家の中に、やはり観音様の御利益が絶対的であり、農作物迄にも御恵みが得られるという事が解り、私の家も教導所にして頂き日々お参り、あるいは浄霊にお出でになる方々を見ていて、家中の者が観音様の御利益の絶対にして想像することも出来ない偉大なるものである事が判ったので、誰一人反対する者もなくなっていたので、そうする事も非常に簡単に出来ました。<br/><br/> 二十二年の秋、麦の蒔付は近所の人々と同じように致しました。<br/><br/>今度は大先生の無肥料耕作の論文が出るそうですが、当時はただ「一回でも多く耕作せよ」と先生から御聞きしていただけでしたので、何も判らないままに人が中耕（作物の根を耕す事）土入れ（麦のまだ二、三寸の頃麦の頭から細い土を振り掛ける事）を三回程する所を私は四回致しました。<br/><br/>しかし光明如来様の御恵みを信じている私ではありますが、やはり生まれて初めての試みの事とて、心配で心配でなりませんでした。<br/><br/>朝に晩に光明如来様の前に座れば「麦を穫らせて下さい。<br/><br/>いい麦を稔らせて下さい」とお願いするばかりでした。<br/><br/>それが三、四月頃になって来た時、いよいよ隣の麦と自分の田畑麦の相違がはっきりして参りました。<br/><br/>普通の麦は青々として濃緑そのものであるに反し、家の麦は色が淡く株も薄くなんとなく貧弱で、丈も他家のは一尺七、八寸程もある頃に、家のは一尺前後で中々延びないのです。<br/><br/> 「麦稈（ばっかん）はいくら大きくても収穫が少なければ何にもならない、観音様は小さい麦得で大きな取り入れを教えて下さるのだ」といつも先生方からお聞きしていました。<br/><br/>又光明如来様の御光を信じている私ではありますが、時々襲って来るように脳裏にひらめく心配は、打消しても打消してもやって来ました。<br/><br/>その上「なんや、あそこ今年はおかしな麦を作ったぞ」とか、農業組合長が「あそこあんな麦で今年供出が出来るやろか」など陰口を耳にした時は「今に見ておれ、いい麦を沢山取ってびっくりさせてやるぞ」とそしり笑う人々にも相手にならぬようにしておりましたが、やっぱり陰口を言われると余計に心配でした。<br/><br/>しかし穂が出揃う頃より、その心配も忽ち喜びと変りました。<br/><br/>穂が大きくなると同時に当地方においては今年は大変な黒穂と雨が多かったため、一雨毎に穂及麦稈が腐り、茎の中程よりほとんど折れ、充分結実せず、ひどい所では三割の減収、又は茎が中途で折れたため刈取りに農家は非常に苦しみました。<br/><br/>しかし飜って家の麦は黒穂は一反に一本ないし二本でほとんど皆無に等しく、茎が中途で折れる等は全然目に当りませんでした。<br/><br/>雨が降って他家は被害を受けたにも拘わらず、私の家では雨が降ったことによっては何の障りも受けず充分に結実し、初めは減収を覚悟しておりましたが、観音様は私等にひもじい思いをさせない為か平年作はゆっくりありました。<br/><br/> 又一粒一粒の実ははちきれるように大きく生長する頃の状態を知っているものでは、実にその変化の大きく無肥料耕作と観音様の恵みの大きいかに驚いておりました。<br/><br/>「あんたとこ今年はええ麦だすなあ、私等とこ今年は種になるのがない程だすわ」とか「へえー、これが肥料なしで取った麦ですか、えらいもんですなあ」とかつての悪口もどこへやら「肥料をおかなかったからこれだけの麦が取れたのだ」と家中の者の顔もほころびて、私も途中の心配したのが何か罪悪のような気がして、今更に観音様に御礼と御詫を申し上げました。<br/><br/> 麦摺りの結果、粒は円々と大きく俵にするさいにも、いつもは十六貫の一俵を作るのは四斗四升程必要であったものが、今年は目方がよく利いて、四斗二升たらず位で十六貫になり、供出には一目見ただけで検査員が「この麦はええ麦やなあ、今年はこんな麦はめずらしい。<br/><br/>飛切の一等やなあ」と大鼓判をおしてくれました。<br/><br/>これに自信を得まして、すべて無肥料で致しておりますが、こんどの米作には何だか引続き増収するような予感があります。<br/><br/> 事実稲の発育状況を見ておりますと、病毒なき溌らつたる生長を続けているように見えます。<br/><br/>家の事情で毎日浄霊に従事する事も出来ない私は、せめて無肥料耕作によって増産方法の型を示して、これに劣っても優る耕作法はないことの事実を一般に知らしめ、そしてそして日本農法改革に先鞭をつけたいと念願しております。<br/><br/>かくすることによって大きなみ恵を戴いている御礼の万分の一を観音様に御返し出来るものと確信して、日々農耕に一心不乱努力を続けております。<br/><br/> 昭和二十三年九月一日</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnosaku</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 農作物に関する御利益 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 五六七教三光会教導師補 北村四郎（30） 無肥料耕作の御利益を御報告させて戴きます。<br><br> 私は麦によって自信を得たので総ての農作物を無肥料耕作致しております。<br><br> 現在蒔付けてある総ての耕作物が御利益を戴き他家を凌いでおりますので、何れから御報告させて戴くかに迷う程です。<br><br> 夏小豆、夏豆等円々した粒で虫の付いたものはほとんど無く、美しい実が得られました。<br><br>無肥料耕作が心配で迷っている会員には、豆類からやって見るのが一番はっきり良く解るのではないかと思う程空豆でも大豆でも小豆でも御利益を見せて戴いております。<br><br>収量も多く粒も大にして美しく、虫害少く病害は皆無です。<br><br> それにも増して食べて美味しい事は従来のものを遥かに凌いでおります。<br><br> ここに胡麻の御利益に就きまして御報告させて頂きます。<br><br> 六月の下旬、種を御浄霊して十坪程のところに蒔付けました所が、発芽したばかりの弱々しい時に「もぐら」が下をもぐり、拓かれているのを少し家から離れた畠の事とて二、三日知らずにおりました。<br><br> 今年は胡麻はとれないのかと心配しましたが、残ったものを気をつけ穫入れまでに二回根元を打返して耕作してやりました。<br><br>幸にも心配する事も無く後はすくすく延びて良くなって参りました。<br><br>花の散る頃から「もぐら」から受けた被害の心配も消飛んで付近の胡麻を尻目に私の畠の胡麻はぐんぐん「さや」が大きくなり、しかも一本の木に多いものは六十以上普通五十前後もなり見事な出来でした。<br><br> 八月末、花がほとんど散った後、先端の方に二、三残っている花を全部洗滌してやりました。<br><br> 世間より一週間位遅らして九月五日刈入れました。<br><br>上から下迄むらの無い全部揃った円々した「さや」が木に付いているのを見て近所の人も吃驚致しております。<br><br>同じようにどこでも八月の末に洗滌を致しますが、従来のものは他家でも私の家でもどうしても先の方はほとんど実にならないのですが、今年の私の家の胡麻の見事な事に今更ながら観音力の偉大さに感謝致しております。<br><br>今未だ乾燥しておりますので実の数量は未知数ですが作付面積、木の数の割合に比して多量は疑う余地はありません。<br><br> 農業は二、三年しか手伝わずしかも自分が総ての責任を持ってやるのは今年初めてで農業の一年生の私が他の家に勝ってしかも一握の肥料も施さず、里芋でも牛蒡でも人参でも立派なものを収穫させて戴けるこの喜びこそ信ずる人、行う人のみにあたえられた幸福だと深く感じております。<br><br>同じ畠の中に人参と牛蒡を作り、牛蒡に六月の末、人糞尿をやりましたところ、虫が付いて成績が悪くなったのに反して、何も施さない人参は目醒める許りの鮮やかな緑色の葉をして順調な成長をしております。<br><br> 人糞尿も二カ月程腐らせれば良いそうですが、私の家ではそのような設備もなく施肥しない方が成績が良いので、今では何の作物でも人糞尿も施しておりません。<br><br>先生からも人糞尿よりも堆肥類の方が良いとお聞き致しましてから、草を刈って堆肥にし家の毎日の塵も腐らして使うようにいたしております。<br><br> 大先生様の御面会は未だ数回させて戴いただけの者ですが、御面会させて戴く度にいかに自分が浄めて戴くかは自分の蒔付けるもの、耕作するものが不思議に良く出来るのが自分にははっきり解ります。<br><br> 蒔いたものの発芽が良くなり、植替えたものに枯死するものが無くなって行く事、病虫害が少なくなって行く事等有難い御利益を戴いております。<br><br>今後も出来得る限り大先生様に御面会させて頂きその御身体を通じて受け得る神の霊線を充分頂き非凡なる御高示を拝聴してすぐ実行に移して行き度いと念じております。<br><br>次に又有難い御利益として一宮例祭、当地の例祭、臨時祭にお参りをさせて頂く毎にも大きな御利益を頂いております。<br><br> 月の中に二日三日お参りさせて頂く時間を平常心掛けてこの時間を余計に稼ぎ出して勉めてお詣り出来るようにいたしております。<br><br> 今年度の甘藷供出も（早期）他家の二、三倍の七俵余りを皆一等で供出しました。<br><br>良い芋だと見る人は皆んな褒めておりました。<br><br>味も良く大きなものでした。<br><br>今後一層努力いたし会員あるいは世の一般の人々に無肥料耕作の絶対的効果のある事、従ってこれに依らなければ他に優る耕作法の無い事を事実をもって示しこの神から新らしく教示された方法を理解採用させて神の御恵みに浴し得る者の多からん事を願って励んでおります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Graça Divina nas Lavouras</h2>
 <p>Publicado em "Paraíso Terrestre", volume 1, de 1º de dezembro de 1948
@@ -103,5 +258,48 @@ Kyodoshi-ho da Igreja Sankokai, província de Mie</p>
 <p>Embora eu seja uma pessoa que teve a graça de ser recebida por Meishu-Sama apenas algumas vezes, a cada encontro, compreendo claramente o quanto sou purificado, pois, misteriosamente, tudo o que semeio e cultivo prospera. Recebo graças admiráveis, como a melhora na germinação das sementes, a ausência de perdas no transplante das mudas e a diminuição de doenças e pragas. De agora em diante, desejo ardentemente ser recebido por Meishu-Sama sempre que possível, a fim de receber plenamente a Linha Espiritual Divina que emana de seu ser, ouvir suas extraordinárias orientações e colocá-las em prática imediatamente.</p>
 <p>Ademais, outra graça notável que tenho recebido se manifesta a cada vez que participo do Culto Mensal de Ichinomiya, do culto mensal de nossa região e dos cultos especiais. Procuro sempre reservar dois ou três dias no mês para me dedicar a essas cerimônias, organizando meu tempo para garantir que possa participar.</p>
 <p>Neste ano, minha cota de fornecimento de batata-doce (colheita antecipada) foi de mais de sete fardos, todos de primeira qualidade, o que representa duas ou três vezes a produção dos outros agricultores. Todos que viam as batatas elogiavam sua aparência. Eram grandes e muito saborosas. Doravante, esforçar-me-ei ainda mais para demonstrar, por meio dos fatos, tanto aos membros quanto ao público em geral, a eficácia absoluta da agricultura sem fertilizantes. Desejo ardentemente provar que não há método de cultivo superior a este e, assim, inspirar o maior número possível de pessoas a compreender e adotar esta prática revelada por Deus, para que também possam ser banhadas por Sua Divina Graça.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 農作物に関する御利益 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 五六七教三光会教導師補 北村四郎（30） 無肥料耕作の御利益を御報告させて戴きます。<br/><br/> 私は麦によって自信を得たので総ての農作物を無肥料耕作致しております。<br/><br/> 現在蒔付けてある総ての耕作物が御利益を戴き他家を凌いでおりますので、何れから御報告させて戴くかに迷う程です。<br/><br/> 夏小豆、夏豆等円々した粒で虫の付いたものはほとんど無く、美しい実が得られました。<br/><br/>無肥料耕作が心配で迷っている会員には、豆類からやって見るのが一番はっきり良く解るのではないかと思う程空豆でも大豆でも小豆でも御利益を見せて戴いております。<br/><br/>収量も多く粒も大にして美しく、虫害少く病害は皆無です。<br/><br/> それにも増して食べて美味しい事は従来のものを遥かに凌いでおります。<br/><br/> ここに胡麻の御利益に就きまして御報告させて頂きます。<br/><br/> 六月の下旬、種を御浄霊して十坪程のところに蒔付けました所が、発芽したばかりの弱々しい時に「もぐら」が下をもぐり、拓かれているのを少し家から離れた畠の事とて二、三日知らずにおりました。<br/><br/> 今年は胡麻はとれないのかと心配しましたが、残ったものを気をつけ穫入れまでに二回根元を打返して耕作してやりました。<br/><br/>幸にも心配する事も無く後はすくすく延びて良くなって参りました。<br/><br/>花の散る頃から「もぐら」から受けた被害の心配も消飛んで付近の胡麻を尻目に私の畠の胡麻はぐんぐん「さや」が大きくなり、しかも一本の木に多いものは六十以上普通五十前後もなり見事な出来でした。<br/><br/> 八月末、花がほとんど散った後、先端の方に二、三残っている花を全部洗滌してやりました。<br/><br/> 世間より一週間位遅らして九月五日刈入れました。<br/><br/>上から下迄むらの無い全部揃った円々した「さや」が木に付いているのを見て近所の人も吃驚致しております。<br/><br/>同じようにどこでも八月の末に洗滌を致しますが、従来のものは他家でも私の家でもどうしても先の方はほとんど実にならないのですが、今年の私の家の胡麻の見事な事に今更ながら観音力の偉大さに感謝致しております。<br/><br/>今未だ乾燥しておりますので実の数量は未知数ですが作付面積、木の数の割合に比して多量は疑う余地はありません。<br/><br/> 農業は二、三年しか手伝わずしかも自分が総ての責任を持ってやるのは今年初めてで農業の一年生の私が他の家に勝ってしかも一握の肥料も施さず、里芋でも牛蒡でも人参でも立派なものを収穫させて戴けるこの喜びこそ信ずる人、行う人のみにあたえられた幸福だと深く感じております。<br/><br/>同じ畠の中に人参と牛蒡を作り、牛蒡に六月の末、人糞尿をやりましたところ、虫が付いて成績が悪くなったのに反して、何も施さない人参は目醒める許りの鮮やかな緑色の葉をして順調な成長をしております。<br/><br/> 人糞尿も二カ月程腐らせれば良いそうですが、私の家ではそのような設備もなく施肥しない方が成績が良いので、今では何の作物でも人糞尿も施しておりません。<br/><br/>先生からも人糞尿よりも堆肥類の方が良いとお聞き致しましてから、草を刈って堆肥にし家の毎日の塵も腐らして使うようにいたしております。<br/><br/> 大先生様の御面会は未だ数回させて戴いただけの者ですが、御面会させて戴く度にいかに自分が浄めて戴くかは自分の蒔付けるもの、耕作するものが不思議に良く出来るのが自分にははっきり解ります。<br/><br/> 蒔いたものの発芽が良くなり、植替えたものに枯死するものが無くなって行く事、病虫害が少なくなって行く事等有難い御利益を戴いております。<br/><br/>今後も出来得る限り大先生様に御面会させて頂きその御身体を通じて受け得る神の霊線を充分頂き非凡なる御高示を拝聴してすぐ実行に移して行き度いと念じております。<br/><br/>次に又有難い御利益として一宮例祭、当地の例祭、臨時祭にお参りをさせて頂く毎にも大きな御利益を頂いております。<br/><br/> 月の中に二日三日お参りさせて頂く時間を平常心掛けてこの時間を余計に稼ぎ出して勉めてお詣り出来るようにいたしております。<br/><br/> 今年度の甘藷供出も（早期）他家の二、三倍の七俵余りを皆一等で供出しました。<br/><br/>良い芋だと見る人は皆んな褒めておりました。<br/><br/>味も良く大きなものでした。<br/><br/>今後一層努力いたし会員あるいは世の一般の人々に無肥料耕作の絶対的効果のある事、従ってこれに依らなければ他に優る耕作法の無い事を事実をもって示しこの神から新らしく教示された方法を理解採用させて神の御恵みに浴し得る者の多からん事を願って励んでおります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

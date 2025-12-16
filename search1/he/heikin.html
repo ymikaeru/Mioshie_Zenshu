@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>heikin</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,61 +239,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 平均浄化に就て 『救世』59号、昭和25(1950)年4月22日発行 浄霊施術者に対し大いに注意すべき事がある、それは施術の場合平均浄化が起るという事である、例えば右の腕が痛いとする、それが良くなると今度は左の腕が痛くなる、ちょうど痛みが移行したように思えるが、実はこれが平均浄化である、つまり右の腕の毒素が除れ浄（きよ）まると、左の腕に毒素がある場合、右腕の状態と平均すべく自然浄化が発生するという訳である、もちろん腕には限らない、腹でも背中でも痛みが移動などは決してあるものではない、前記のごとく平均浄化のためである。<br><br> またこういう事もある、例えば咳の患者を浄霊すればする程余計出る事があるが、これは見当違いのためである、その訳は数ケ所に毒結がある場合、一ケ所を浄霊すればする程他の個所にある毒結の平均浄化が起る、大いに咳が出るのである、従ってこういう時は見当違いを早く覚り他の患部を探すべきである、それによって急所が見つかり、そこを浄霊すれば咳はたちまち減るのである。<br><br> ただ一つ注意すべきは例外のある事で、これは腹部の痛みに限るのである、原因は蛇霊であるが、これは腹部の一個所に激痛があり、それを浄霊すると逃げ廻るから根気よく追かけては浄霊する、すると漸次的に痛みは軽減しついに無痛となる、ところがこのようなのは一、二日経つとまた痛む、また右のごとく浄霊すると、その度に痛みは軽減し、ついに全治するのである。<br><br> この平均浄化という事は治る医術であるからで、本教浄霊の特殊性で、他には決してない、何となれば他のあらゆる療法は治病の力がないから、平均浄化などあり得ないからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Purificação Equilibradora</h2>
 <p>Há um ponto de suma importância ao qual os ministrantes de Johrei devem atentar: a ocorrência do fenômeno da purificação equilibradora durante a ministração. Suponhamos, por exemplo, que um indivíduo sinta dor no braço direito. Após o Johrei, a dor cessa, mas, em seguida, o braço esquerdo passa a doer. Embora pareça que a dor simplesmente se transferiu, o que ocorre, na verdade, é a purificação equilibradora. Em outras palavras, quando as toxinas do braço direito são eliminadas e ele se purifica, caso existam toxinas no braço esquerdo, um processo de purificação natural é deflagrado neste último, buscando um equilíbrio com o estado do primeiro. Naturalmente, tal princípio não se limita aos braços; pode ocorrer no abdômen, nas costas ou em qualquer outra parte do corpo. A dor jamais se desloca; o fenômeno observado é, como mencionado, um reflexo da purificação equilibradora.</p>
 <p>Existe, ainda, outra situação análoga. Ao ministrar Johrei em um paciente com tosse, pode-se observar que, quanto mais se ministra, mais intensa a tosse se torna. Isso ocorre por um equívoco na identificação do foco principal. Quando existem nódulos de toxinas em diversos locais, ao purificarmos apenas um deles, estimulamos a purificação equilibradora dos demais, o que intensifica a tosse. Portanto, em tais casos, o ministrante deve prontamente reconhecer seu engano e investigar a existência de outras áreas afetadas. Ao encontrar o ponto crucial e nele concentrar o Johrei, a tosse cederá de imediato.</p>
 <p>Cabe ressaltar, contudo, a existência de uma exceção, a qual se restringe a dores abdominais cuja causa é um espírito de serpente. Nesses casos, manifesta-se uma dor lancinante em um ponto específico do abdômen. Ao receber Johrei, o espírito se desloca, e o ministrante deve, com perseverança, “persegui-lo”, continuando a ministrar. Com isso, a dor diminui paulatinamente até desaparecer. Todavia, é comum que a dor retorne após um ou dois dias. Repetindo-se o mesmo procedimento, a dor se tornará cada vez mais branda a cada sessão, culminando na cura completa.</p>
 <p>O princípio da purificação equilibradora é uma particularidade intrínseca ao Johrei de nossa Igreja, uma vez que se trata de uma arte que promove a cura genuína. Nenhuma outra terapia pode manifestar tal fenômeno, pois, em verdade, as demais carecem do poder de erradicar a raiz da doença e, consequentemente, não têm como gerar um processo de equilíbrio como o que descrevemos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 平均浄化に就て 『救世』59号、昭和25(1950)年4月22日発行 浄霊施術者に対し大いに注意すべき事がある、それは施術の場合平均浄化が起るという事である、例えば右の腕が痛いとする、それが良くなると今度は左の腕が痛くなる、ちょうど痛みが移行したように思えるが、実はこれが平均浄化である、つまり右の腕の毒素が除れ浄（きよ）まると、左の腕に毒素がある場合、右腕の状態と平均すべく自然浄化が発生するという訳である、もちろん腕には限らない、腹でも背中でも痛みが移動などは決してあるものではない、前記のごとく平均浄化のためである。<br/><br/> またこういう事もある、例えば咳の患者を浄霊すればする程余計出る事があるが、これは見当違いのためである、その訳は数ケ所に毒結がある場合、一ケ所を浄霊すればする程他の個所にある毒結の平均浄化が起る、大いに咳が出るのである、従ってこういう時は見当違いを早く覚り他の患部を探すべきである、それによって急所が見つかり、そこを浄霊すれば咳はたちまち減るのである。<br/><br/> ただ一つ注意すべきは例外のある事で、これは腹部の痛みに限るのである、原因は蛇霊であるが、これは腹部の一個所に激痛があり、それを浄霊すると逃げ廻るから根気よく追かけては浄霊する、すると漸次的に痛みは軽減しついに無痛となる、ところがこのようなのは一、二日経つとまた痛む、また右のごとく浄霊すると、その度に痛みは軽減し、ついに全治するのである。<br/><br/> この平均浄化という事は治る医術であるからで、本教浄霊の特殊性で、他には決してない、何となれば他のあらゆる療法は治病の力がないから、平均浄化などあり得ないからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

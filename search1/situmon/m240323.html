@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M240323</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年3月23日） 『御光話録』5号、昭和24(1949)年<b>月</b>日発行 昭和二十四年三月二十三日（水） ――「五六七の御代」には易学はどのようになりましょうか。<br><br> 易学なんてものはねほとんどなくなりますよ。<br><br>易というのは吉凶禍福を占うものですからね、易学も従っていらなくなるわけです。<br><br>いままでは人間の霊が曇ってるから弱かったので、弱いから邪神や邪霊に負けたんですからね。<br><br>これからは邪神、邪霊は力がなくなりますし、いっぽう人間の霊も浄くなって犯すことができないようになりますから、この両方のため禍いなんかはなくなってしまうのです。<br><br>だからね、「五六七の御代」には迷信なんかはなくなるんです。<br><br>迷信というものは人間の恐怖感から生まれるんですからね。<br><br>で、この恐怖感というのは物事が思うようにゆかないから出てくるんですが、世間には理屈で判らないことがたくさんあるんです。<br><br>現代最高とされている「科学」の言う通りやったって思うように行かぬことばかりですからね。<br><br>中でも一番こわいのは病気でしょう。<br><br>それから火事、地震等々、こんなことから恐怖感が出てきて、これに対する気休めのために迷信が生まれるんです。<br><br>ところが「五六七の御代」になると病気、災難がなくなるから恐怖感もなくなり、従って迷信も生まれなくなりますよ。<br><br>迷信なんて忘れてしまうでしょう。<br><br>方位方角なんかもいらなくなりますね。<br><br>……いまは科学の力で迷信をなくそうとしてますが、科学で片付けようとするからかえってなくならないんです。<br><br>迷信の種類はずいぶんあるもんですが、調べてみるとドイツに一番多いんですからね。<br><br>科学の一番発達している国が一番迷信が多いということになります。<br><br>これでみても迷信をなくすのに科学がどんなに役立たないかが判りますよ。<br><br>だいたい科学そのものにも迷信の分子が多分にありますからね。<br><br>われわれが浄霊によって病気を治すのも一つの迷信打破ですよ。<br><br>これを見せれば文句ないでしょうが、科学はこれを迷信というんです。<br><br>だから「迷信と見なす迷信」もあるんです。<br><br>一番きまりをつけるのにいいのは、治れば迷信でなく治らなければ迷信なんですよ。<br><br>そしてこっちは治るんだから迷信ではないわけです。<br><br>これは事実なんだからどうすることもできない。<br><br>そうでしょう。<br><br>……昨日だか『毎日新聞』の記者が来ましたがその人は運命論者でね、……あの『青い鳥』のメーテルリンクなんて運命論者の錚々たるもんですが……運命論というのは一種の諦めの方法で仏教の諦観と結局同じものですよ。<br><br>私のほうには運命観なんてない、運命なんてどうにでもできるんだから。<br><br>そこでその記者にいろいろ言ってやったら、あとで井上さんに「大先生にあっては歯が立たない」と言って帰ったそうですよ。<br><br> ――現代の女性は上級学校への進学や社会進出などのため婚期が遅れがちですが、この点いかがなものでございましょうか。<br><br> この根本はね、学校の年限が長すぎるためなんですよ。<br><br>私がいまに大いに書きますがね。<br><br>また、小学教育はちょっと早すぎます。<br><br>あまり頭が発達しないうちに詰め込みますから労働過重じゃなくて学問過重になるんです。<br><br>ちょうど子供に成人の労働をさせるようなものですよ。<br><br>こんなにすると発育が止まってしまうんです。<br><br>つまり、子供に大人と同じようなものを詰め込むから、年齢よりそのほうが勝ってしまって、その結果体のほうがそれに合わせるように早く大人になってしまうんです。<br><br>そして発育が止まると頭の活動力が悪くなるんです。<br><br>だから例えば幼稚園にやるなんてことをやめてしまって十二歳くらいまでなにもやらせないんですよ、すると頭がそうとう発育しますからね、記憶力などすべてにおいていいんです。<br><br>将来は男なら十二歳から始めて小学三年、中学三年、大学三年でたくさんです。<br><br>二十一歳で大学を卒業することになりますね。<br><br>女のほうは男ほど学問の必要がありませんからね、十八歳くらいで卒業して充分です。<br><br>そうすれば婚期が遅れることもなくなるわけです。<br><br>女は実際は月経があれば結婚していいんだから、もう子供を産めるんだから、まあ十六、七から二十歳くらいまでに結婚するのが本当ですね。<br><br>男も二十から二十五の間に結婚するのがいいんですよ。<br><br> ――晩婚は妊孕（にんよう）率が低下すると言われますが、これは神様に罪でしょうか。<br><br> しかしね、罪になるからって言って、強制的に結婚させるのは少し動物的ですよ。<br><br>（笑声）それから第二は生活問題で、なかなか女房をもらっても食わせてゆくことは難しいですからね。<br><br>まあそのほかいろんな欠陥があって結局すべてが間違っていて、これがじゅんぐりに働いてみんな悪い結果になって行くんですからね。<br><br>……そしてこの根本は個人個人の思想なんですよ。<br><br>個人個人が本当の人間になれば世の中も本当によくなって行くんです。<br><br>どんなに機構がよくってもね、一人一人の人間が悪ければ結局駄目です。<br><br>いまは自分の罪は棚へ上げてなんでも機構が悪いと言ってるんですがとんでもない間違いですよ。<br><br>共産党なんかも腹の中では判ってるんだけれども、すぐに機構が悪いと言うのは一つの政略ですよ。<br><br>法律なんかでもいまはどんどん増えてますが、減るようにならなければ嘘ですよ。<br><br>法律が網の目のように細かく増えて行くのは文化が減退している証拠です。<br><br>だから議会は立法府だなんて言うのは嘘で、廃法府が本当ですよ。<br><br>文化の進歩なんて言いますがね、いまの進歩は変な進歩なんですよ。<br><br>まあこれからよくなってゆきますがね。<br><br> ――大人の睡眠時間はだいたいどれくらいが適当でしょうか。<br><br> これは医学の言う通りですよ、ちょっとは違いがありますが。<br><br>赤ん坊なんかは充分睡眠をとるのがいいんで十時間から十二時間、青年から中年にかけては八時間くらい、五十歳を過ぎれば七時間、六時聞から五時間でいいんです。<br><br>私はいま五時間がちょうどいいですね。<br><br>それからさらに高齢になるとともに四時間、三時間と縮めていいわけです。<br><br>医学では睡眠不足はいけないと言いますがね、あれは嘘で、むしろ睡眠不足のほうがいいですよ。<br><br>私は努めて不足するようにしてますがね。<br><br>睡眠時間が足りないとね、それだけ活動する時間が多いですからそれだけ健康になるんです。<br><br>睡眠不足はとても悪くて肺結核の主要原因だなんて言いますがね、あれは間違いですよ。<br><br>肺結核の一番少ないのは花柳界です。<br><br>ところが花柳界ってのは一番睡眠不足でしかも一番不規則な生活をやってるんですからね。<br><br>睡眠時間を少なくすることが結核をなくする実際の結果になってるんです。<br><br> エジソンなんかもね、研究室に入ると一週間くらいはほとんど不眠不休でね、食事も日本で言えばおむすび……まあサンドイッチなんかを入れてもらって、それを食べながら研究したそうですが、所員が「エジソンは特別な人だからできるんだ」と言ったところがエジソンは「いやお前たちだって馴れればできるんだ」って言うもんだからやってみたところ、最初は辛かったけれどもだれもできるようになったって言われますが、これは有名な話ですね。<br><br>だから睡眠不足が悪いってことは迷信ですよ。<br><br>睡眠不足だと翌日だるいのは昨夜は睡眠が不足だった、という暗示を与えられているからそうなるんですよ。<br><br> ――でも、大先生様は特別でしょうが、私どもは…… いや、大先生は特別だって言うのがそもそもいけない。<br><br>私の霊は特別ですよ、霊は特別だが、体はみんなと同じですよ。<br><br>その代わり私はこうしてても三分か五分くらい居眠りしますがね。<br><br>そうするとはっきりしますよ。<br><br>字なんか書いていてもこうやって居眠りしてしまうんです。<br><br>ときどき筆に墨を含めたまま眠ったりしますが、そういうときは井上さんなんか困ってしまうんです。<br><br>（笑声）電車に乗って腰かけたままでもよく眠りましたし、それよりか吊革にぶら下がったままでも眠ったもんです。<br><br>以前、イギリスのグラッドストーンが、椅子に腰かけたまま五分くらいずつちょいちょい眠るという逸話を聞きましたが、あれなんかも特別なんじゃなくてあたりまえなんですよ。<br><br> ――甘味剤、あるいはパン料理に、ズルチン、サッカリン、重曹などを使うことは差し支えありませんでしょうか。<br><br> 少しは差し支えありませんよ。<br><br>サッカリンなんてたんと飲むと命にかかわりますが、まあ家庭では甘味にちょっと使うくらいだからいいですよ。<br><br>重曹もふくらし粉の代用くらいならかまいません。<br><br> ――三十歳の復員軍人、三年前肋膜になり一時治りましたが再発、第二肋骨のカリエスだと医師は申します。<br><br>御浄霊を続けましたところ、咽喉部が腫れて白い小骨らしきものが膿に混って出てきました。<br><br>このまま御浄霊を続けてよろしいでしょうか。<br><br>また膿は小量でしたが、骨が腐って出ることはございましょうか。<br><br> 医学では骨が腐ると言いますがね、骨ってものは決して腐るもんじゃないんです。<br><br>あれはね、骨の内側に膿があるとそれが外へ出るときに骨に添ってまわって出ればいいんですが……ちょっとここは神様気がきかなかったんですが……骨に細い針のような孔をたくさんあけて、その孔を通って膿が出るんです。<br><br>歯の痛いのもね、孔があくときのその痛みなんです。<br><br>だから骨の外へ出て、腫れ上がってしまうと痛みがずっと楽になるでしょう。<br><br>で、この骨の孔は膿が外へ出てしまえばすぐに元通りくっつきますから、心配しないでいいんです。<br><br>もし骨が腐るもんなら骸骨なんてありゃしないですよ。<br><br>（笑声）骸骨なんか何百年、何千年と経ってるんですからね。<br><br>……この骨みたいなものはね、膿の塊りですよ。<br><br>しかし骨が出ないとは限りません。<br><br>肋骨カリエスなんかになると手術して金属を補助に入れますが、骨ってものはほおっておくとすぐにくっつくものらしいです。<br><br>非常に早くつくようですね。<br><br> ――白血球と赤血球との関係について御教示をお願い申し上げます。<br><br> この白血球、赤血球ということは医学で言うことですがね、これはでたらめです。<br><br>白血球は膿で赤血球は毒血であり、毒血は浄化によって粕として白いものを分離します。<br><br>これが白い膿なんです。<br><br>どうかすると赤い膿が出ることがあるでしょ、あれは毒血と膿と両方が混って出る場合です。<br><br>こういうわけで白血球は毒血から出た膿なんですが、これはいいんですよ、毒血のほうの浄化は非常に苦しくて、白い膿の浄化は楽ですからね。<br><br>しかしこの白い膿が固まったやつはまた苦痛がひどいですがね。<br><br> ――気候と植物の関係について…… 全体的に言うとね、気候なんてものにもいろいろあって、一年の半分は雨ばかり降り、半分は照ってばかりいる所もあれば、三寒四温の所もある。<br><br>いろいろ神様がおやりになってらっしゃるんで、なんにでも変化を作られたんです。<br><br>人種も同様にいろいろありますしね。<br><br>また天体でも、太陽、月、星とか地球とかを造られ、それが調和して発達して行くんです。<br><br>気候でもそれが違うとそこへできる植物もみんな違ってきますからね、まったく種々さまざまになるわけなんです。<br><br>そしてそういうことが神様の御経綸なんですね。<br><br>植物なんかも日本は一番種類が多いんですが、これは日本では四季が正確だからです。<br><br>あの俳句というのは春夏秋冬によってできるものですが、先に外国旅行から帰った高浜虚子が、外国では俳句はできない、なぜかというと春夏秋冬がないからだ、と言ったそうですが、ヨーロッパなんか割合に気候の変化が少ないそうですね。<br><br>なんでもドイツ人は二着くらいの服で一年中間に合うって言いますからね。<br><br>だから日本人はいろんな着物をいくつも持っていて贅沢だって言われるんですよ。<br><br>すべてにおいて日本には種類が多いんですね。<br><br>草木、魚介などあらゆる物に亙ってね。<br><br>だからいまによくなれば日本くらいいい所はないようになると思っているんですよ。<br><br>……このごろ私は花を研究してますがね、その種類の多いのには驚きました。<br><br>椿でも百四十種もあります。<br><br>今度それをみんな買いましたがね。<br><br>山茶花でも百種からありますしね。<br><br>梅なんかどれを見ても同じようで四、五種くらいかと思ったら、二百種もありますからね。<br><br>しかもそんな研究を徳川時代の人がやってるんです。<br><br>えらいものですね、ちゃんとその種類を一々書いてあるんです。<br><br>今度は花卉（かき）の栽培をしようと計画しているんです、そしてことごとくの花を網羅するつもりです。<br><br>日本の花をアメリカでも欲しがってますからね、これはたいへんな輸出になりますよ。<br><br>アメリカ人の好きなのに「八重のくちなし」ってのがありますが、この花の香りは非常にいいですね。<br><br>これは少ないんですが、私のほうでは殖やすことができますからね、大いにやるつもりなんです。<br><br>それから百合なんかも独特のものだし、「チューリップ」でもオランダに負けないくらいできるでしょう。<br><br>なんにでもたいへんな種類がありますからね、その中のいいものだけ栽培して、未だかつてない大花壇を計画中ですがね。<br><br>ですから野菜の栽培だけじゃなくていろんな方面でやってみようと思ってるんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Nova Era</h2>
 <p><strong>Pergunta: Como se tornará a arte da adivinhação na Era de Miroku?</strong></p>
@@ -128,5 +280,48 @@ function toggleLang(lang) {
 <p>O Japão é rico em variedade em todos os aspectos, desde plantas e árvores até peixes e frutos do mar. Por isso, acredito que, no futuro, quando o mundo se tornar um lugar melhor, não haverá lugar tão esplêndido quanto o Japão.</p>
 <p>Recentemente, tenho me dedicado ao estudo das flores e fiquei maravilhado com a profusão de espécies. Existem, por exemplo, cento e quarenta variedades de camélias. Adquiri todas elas. As camélias-sasanqua somam mais de cem tipos. E as flores de ameixeira, que eu julgava serem apenas quatro ou cinco variedades, na verdade ultrapassam duzentas. O mais impressionante é que essa pesquisa foi realizada por estudiosos da era Tokugawa. É um trabalho notável, com cada espécie devidamente catalogada.</p>
 <p>Estou planejando iniciar o cultivo de flores ornamentais, com o objetivo de reunir todas as espécies existentes. Os americanos demonstram grande interesse pelas flores japonesas, o que representa um enorme potencial de exportação. Uma das flores que mais apreciam é a gardênia de pétalas dobradas, cujo perfume é verdadeiramente sublime. Embora seja rara, tenho a capacidade de propagá-la e pretendo fazê-lo em grande escala. Além disso, os lírios japoneses são únicos, e acredito que poderemos cultivar tulipas com a mesma qualidade das holandesas. Diante de tamanha diversidade, meu plano é cultivar apenas as melhores variedades para criar um grande jardim floral, algo nunca antes visto. Portanto, meu trabalho não se limitará ao cultivo de hortaliças; pretendo expandir minhas atividades para diversas outras áreas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年3月23日） 『御光話録』5号、昭和24(1949)年**月**日発行 昭和二十四年三月二十三日（水） ――「五六七の御代」には易学はどのようになりましょうか。<br/><br/> 易学なんてものはねほとんどなくなりますよ。<br/><br/>易というのは吉凶禍福を占うものですからね、易学も従っていらなくなるわけです。<br/><br/>いままでは人間の霊が曇ってるから弱かったので、弱いから邪神や邪霊に負けたんですからね。<br/><br/>これからは邪神、邪霊は力がなくなりますし、いっぽう人間の霊も浄くなって犯すことができないようになりますから、この両方のため禍いなんかはなくなってしまうのです。<br/><br/>だからね、「五六七の御代」には迷信なんかはなくなるんです。<br/><br/>迷信というものは人間の恐怖感から生まれるんですからね。<br/><br/>で、この恐怖感というのは物事が思うようにゆかないから出てくるんですが、世間には理屈で判らないことがたくさんあるんです。<br/><br/>現代最高とされている「科学」の言う通りやったって思うように行かぬことばかりですからね。<br/><br/>中でも一番こわいのは病気でしょう。<br/><br/>それから火事、地震等々、こんなことから恐怖感が出てきて、これに対する気休めのために迷信が生まれるんです。<br/><br/>ところが「五六七の御代」になると病気、災難がなくなるから恐怖感もなくなり、従って迷信も生まれなくなりますよ。<br/><br/>迷信なんて忘れてしまうでしょう。<br/><br/>方位方角なんかもいらなくなりますね。<br/><br/>……いまは科学の力で迷信をなくそうとしてますが、科学で片付けようとするからかえってなくならないんです。<br/><br/>迷信の種類はずいぶんあるもんですが、調べてみるとドイツに一番多いんですからね。<br/><br/>科学の一番発達している国が一番迷信が多いということになります。<br/><br/>これでみても迷信をなくすのに科学がどんなに役立たないかが判りますよ。<br/><br/>だいたい科学そのものにも迷信の分子が多分にありますからね。<br/><br/>われわれが浄霊によって病気を治すのも一つの迷信打破ですよ。<br/><br/>これを見せれば文句ないでしょうが、科学はこれを迷信というんです。<br/><br/>だから「迷信と見なす迷信」もあるんです。<br/><br/>一番きまりをつけるのにいいのは、治れば迷信でなく治らなければ迷信なんですよ。<br/><br/>そしてこっちは治るんだから迷信ではないわけです。<br/><br/>これは事実なんだからどうすることもできない。<br/><br/>そうでしょう。<br/><br/>……昨日だか『毎日新聞』の記者が来ましたがその人は運命論者でね、……あの『青い鳥』のメーテルリンクなんて運命論者の錚々たるもんですが……運命論というのは一種の諦めの方法で仏教の諦観と結局同じものですよ。<br/><br/>私のほうには運命観なんてない、運命なんてどうにでもできるんだから。<br/><br/>そこでその記者にいろいろ言ってやったら、あとで井上さんに「大先生にあっては歯が立たない」と言って帰ったそうですよ。<br/><br/> ――現代の女性は上級学校への進学や社会進出などのため婚期が遅れがちですが、この点いかがなものでございましょうか。<br/><br/> この根本はね、学校の年限が長すぎるためなんですよ。<br/><br/>私がいまに大いに書きますがね。<br/><br/>また、小学教育はちょっと早すぎます。<br/><br/>あまり頭が発達しないうちに詰め込みますから労働過重じゃなくて学問過重になるんです。<br/><br/>ちょうど子供に成人の労働をさせるようなものですよ。<br/><br/>こんなにすると発育が止まってしまうんです。<br/><br/>つまり、子供に大人と同じようなものを詰め込むから、年齢よりそのほうが勝ってしまって、その結果体のほうがそれに合わせるように早く大人になってしまうんです。<br/><br/>そして発育が止まると頭の活動力が悪くなるんです。<br/><br/>だから例えば幼稚園にやるなんてことをやめてしまって十二歳くらいまでなにもやらせないんですよ、すると頭がそうとう発育しますからね、記憶力などすべてにおいていいんです。<br/><br/>将来は男なら十二歳から始めて小学三年、中学三年、大学三年でたくさんです。<br/><br/>二十一歳で大学を卒業することになりますね。<br/><br/>女のほうは男ほど学問の必要がありませんからね、十八歳くらいで卒業して充分です。<br/><br/>そうすれば婚期が遅れることもなくなるわけです。<br/><br/>女は実際は月経があれば結婚していいんだから、もう子供を産めるんだから、まあ十六、七から二十歳くらいまでに結婚するのが本当ですね。<br/><br/>男も二十から二十五の間に結婚するのがいいんですよ。<br/><br/> ――晩婚は妊孕（にんよう）率が低下すると言われますが、これは神様に罪でしょうか。<br/><br/> しかしね、罪になるからって言って、強制的に結婚させるのは少し動物的ですよ。<br/><br/>（笑声）それから第二は生活問題で、なかなか女房をもらっても食わせてゆくことは難しいですからね。<br/><br/>まあそのほかいろんな欠陥があって結局すべてが間違っていて、これがじゅんぐりに働いてみんな悪い結果になって行くんですからね。<br/><br/>……そしてこの根本は個人個人の思想なんですよ。<br/><br/>個人個人が本当の人間になれば世の中も本当によくなって行くんです。<br/><br/>どんなに機構がよくってもね、一人一人の人間が悪ければ結局駄目です。<br/><br/>いまは自分の罪は棚へ上げてなんでも機構が悪いと言ってるんですがとんでもない間違いですよ。<br/><br/>共産党なんかも腹の中では判ってるんだけれども、すぐに機構が悪いと言うのは一つの政略ですよ。<br/><br/>法律なんかでもいまはどんどん増えてますが、減るようにならなければ嘘ですよ。<br/><br/>法律が網の目のように細かく増えて行くのは文化が減退している証拠です。<br/><br/>だから議会は立法府だなんて言うのは嘘で、廃法府が本当ですよ。<br/><br/>文化の進歩なんて言いますがね、いまの進歩は変な進歩なんですよ。<br/><br/>まあこれからよくなってゆきますがね。<br/><br/> ――大人の睡眠時間はだいたいどれくらいが適当でしょうか。<br/><br/> これは医学の言う通りですよ、ちょっとは違いがありますが。<br/><br/>赤ん坊なんかは充分睡眠をとるのがいいんで十時間から十二時間、青年から中年にかけては八時間くらい、五十歳を過ぎれば七時間、六時聞から五時間でいいんです。<br/><br/>私はいま五時間がちょうどいいですね。<br/><br/>それからさらに高齢になるとともに四時間、三時間と縮めていいわけです。<br/><br/>医学では睡眠不足はいけないと言いますがね、あれは嘘で、むしろ睡眠不足のほうがいいですよ。<br/><br/>私は努めて不足するようにしてますがね。<br/><br/>睡眠時間が足りないとね、それだけ活動する時間が多いですからそれだけ健康になるんです。<br/><br/>睡眠不足はとても悪くて肺結核の主要原因だなんて言いますがね、あれは間違いですよ。<br/><br/>肺結核の一番少ないのは花柳界です。<br/><br/>ところが花柳界ってのは一番睡眠不足でしかも一番不規則な生活をやってるんですからね。<br/><br/>睡眠時間を少なくすることが結核をなくする実際の結果になってるんです。<br/><br/> エジソンなんかもね、研究室に入ると一週間くらいはほとんど不眠不休でね、食事も日本で言えばおむすび……まあサンドイッチなんかを入れてもらって、それを食べながら研究したそうですが、所員が「エジソンは特別な人だからできるんだ」と言ったところがエジソンは「いやお前たちだって馴れればできるんだ」って言うもんだからやってみたところ、最初は辛かったけれどもだれもできるようになったって言われますが、これは有名な話ですね。<br/><br/>だから睡眠不足が悪いってことは迷信ですよ。<br/><br/>睡眠不足だと翌日だるいのは昨夜は睡眠が不足だった、という暗示を与えられているからそうなるんですよ。<br/><br/> ――でも、大先生様は特別でしょうが、私どもは…… いや、大先生は特別だって言うのがそもそもいけない。<br/><br/>私の霊は特別ですよ、霊は特別だが、体はみんなと同じですよ。<br/><br/>その代わり私はこうしてても三分か五分くらい居眠りしますがね。<br/><br/>そうするとはっきりしますよ。<br/><br/>字なんか書いていてもこうやって居眠りしてしまうんです。<br/><br/>ときどき筆に墨を含めたまま眠ったりしますが、そういうときは井上さんなんか困ってしまうんです。<br/><br/>（笑声）電車に乗って腰かけたままでもよく眠りましたし、それよりか吊革にぶら下がったままでも眠ったもんです。<br/><br/>以前、イギリスのグラッドストーンが、椅子に腰かけたまま五分くらいずつちょいちょい眠るという逸話を聞きましたが、あれなんかも特別なんじゃなくてあたりまえなんですよ。<br/><br/> ――甘味剤、あるいはパン料理に、ズルチン、サッカリン、重曹などを使うことは差し支えありませんでしょうか。<br/><br/> 少しは差し支えありませんよ。<br/><br/>サッカリンなんてたんと飲むと命にかかわりますが、まあ家庭では甘味にちょっと使うくらいだからいいですよ。<br/><br/>重曹もふくらし粉の代用くらいならかまいません。<br/><br/> ――三十歳の復員軍人、三年前肋膜になり一時治りましたが再発、第二肋骨のカリエスだと医師は申します。<br/><br/>御浄霊を続けましたところ、咽喉部が腫れて白い小骨らしきものが膿に混って出てきました。<br/><br/>このまま御浄霊を続けてよろしいでしょうか。<br/><br/>また膿は小量でしたが、骨が腐って出ることはございましょうか。<br/><br/> 医学では骨が腐ると言いますがね、骨ってものは決して腐るもんじゃないんです。<br/><br/>あれはね、骨の内側に膿があるとそれが外へ出るときに骨に添ってまわって出ればいいんですが……ちょっとここは神様気がきかなかったんですが……骨に細い針のような孔をたくさんあけて、その孔を通って膿が出るんです。<br/><br/>歯の痛いのもね、孔があくときのその痛みなんです。<br/><br/>だから骨の外へ出て、腫れ上がってしまうと痛みがずっと楽になるでしょう。<br/><br/>で、この骨の孔は膿が外へ出てしまえばすぐに元通りくっつきますから、心配しないでいいんです。<br/><br/>もし骨が腐るもんなら骸骨なんてありゃしないですよ。<br/><br/>（笑声）骸骨なんか何百年、何千年と経ってるんですからね。<br/><br/>……この骨みたいなものはね、膿の塊りですよ。<br/><br/>しかし骨が出ないとは限りません。<br/><br/>肋骨カリエスなんかになると手術して金属を補助に入れますが、骨ってものはほおっておくとすぐにくっつくものらしいです。<br/><br/>非常に早くつくようですね。<br/><br/> ――白血球と赤血球との関係について御教示をお願い申し上げます。<br/><br/> この白血球、赤血球ということは医学で言うことですがね、これはでたらめです。<br/><br/>白血球は膿で赤血球は毒血であり、毒血は浄化によって粕として白いものを分離します。<br/><br/>これが白い膿なんです。<br/><br/>どうかすると赤い膿が出ることがあるでしょ、あれは毒血と膿と両方が混って出る場合です。<br/><br/>こういうわけで白血球は毒血から出た膿なんですが、これはいいんですよ、毒血のほうの浄化は非常に苦しくて、白い膿の浄化は楽ですからね。<br/><br/>しかしこの白い膿が固まったやつはまた苦痛がひどいですがね。<br/><br/> ――気候と植物の関係について…… 全体的に言うとね、気候なんてものにもいろいろあって、一年の半分は雨ばかり降り、半分は照ってばかりいる所もあれば、三寒四温の所もある。<br/><br/>いろいろ神様がおやりになってらっしゃるんで、なんにでも変化を作られたんです。<br/><br/>人種も同様にいろいろありますしね。<br/><br/>また天体でも、太陽、月、星とか地球とかを造られ、それが調和して発達して行くんです。<br/><br/>気候でもそれが違うとそこへできる植物もみんな違ってきますからね、まったく種々さまざまになるわけなんです。<br/><br/>そしてそういうことが神様の御経綸なんですね。<br/><br/>植物なんかも日本は一番種類が多いんですが、これは日本では四季が正確だからです。<br/><br/>あの俳句というのは春夏秋冬によってできるものですが、先に外国旅行から帰った高浜虚子が、外国では俳句はできない、なぜかというと春夏秋冬がないからだ、と言ったそうですが、ヨーロッパなんか割合に気候の変化が少ないそうですね。<br/><br/>なんでもドイツ人は二着くらいの服で一年中間に合うって言いますからね。<br/><br/>だから日本人はいろんな着物をいくつも持っていて贅沢だって言われるんですよ。<br/><br/>すべてにおいて日本には種類が多いんですね。<br/><br/>草木、魚介などあらゆる物に亙ってね。<br/><br/>だからいまによくなれば日本くらいいい所はないようになると思っているんですよ。<br/><br/>……このごろ私は花を研究してますがね、その種類の多いのには驚きました。<br/><br/>椿でも百四十種もあります。<br/><br/>今度それをみんな買いましたがね。<br/><br/>山茶花でも百種からありますしね。<br/><br/>梅なんかどれを見ても同じようで四、五種くらいかと思ったら、二百種もありますからね。<br/><br/>しかもそんな研究を徳川時代の人がやってるんです。<br/><br/>えらいものですね、ちゃんとその種類を一々書いてあるんです。<br/><br/>今度は花卉（かき）の栽培をしようと計画しているんです、そしてことごとくの花を網羅するつもりです。<br/><br/>日本の花をアメリカでも欲しがってますからね、これはたいへんな輸出になりますよ。<br/><br/>アメリカ人の好きなのに「八重のくちなし」ってのがありますが、この花の香りは非常にいいですね。<br/><br/>これは少ないんですが、私のほうでは殖やすことができますからね、大いにやるつもりなんです。<br/><br/>それから百合なんかも独特のものだし、「チューリップ」でもオランダに負けないくらいできるでしょう。<br/><br/>なんにでもたいへんな種類がありますからね、その中のいいものだけ栽培して、未だかつてない大花壇を計画中ですがね。<br/><br/>ですから野菜の栽培だけじゃなくていろんな方面でやってみようと思ってるんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

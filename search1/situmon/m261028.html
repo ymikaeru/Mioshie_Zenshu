@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M261028</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年10月28日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月二十八日 （お伺）私の子供（五歳）発育が悪く、三歳くらいの体格で歩行できず、周囲の事情により、医師のレントゲン診断の結果、左足脱臼とのことでギブスをはめれば治ると申しますが、本年八月より御浄霊をいただいております。<br><br>現在は腹が膨って、体を左右にゆりながら歩行いたしますが、左膝関節より下の方が曲がって、右足膝関節よりわずか上の方が、少し右に彎曲しております。<br><br>左記謹んでお伺い申し上げます。<br><br> （一）脱臼の場合に歩かせてよろしいでしょうか。<br><br> （二）足の彎曲が治りましょうか。<br><br> （三）御浄霊箇所。<br><br> なにとぞ御教えのほどお願い申し上げます。<br><br> 〔御垂示〕 ギブスをはめても治りはしませんよ。<br><br>骨のこういう所がはずれるのが脱臼ですからね。<br><br>しかしよく脱臼脱臼と言うが、間違えることがありますね。<br><br>腹が膨ってと言うが、赤ん坊は腹が膨っているものだからね。<br><br>たいしたものではない。<br><br>これは生まれ変わった霊ですね。<br><br>高い所から落ちたとか、擲（なぐ）られたとかして、足をやられて、治りきらないうちに生まれ変わった霊ですね。<br><br>これは治りますよ。<br><br>長くかかりますがね。<br><br>脱臼でも、浄霊で治りますからね。<br><br>はずれたのが、だんだん元に戻るんです。<br><br>たいしたものです。<br><br>つまり霊ですからね。<br><br>霊の方が治ると、体の方がそれに倣ってきますからね。<br><br>だから、これも浄霊していると、霊の方が治ってくるから、体の方がそれに倣ってくる。<br><br>赤ん坊だから治り良いわけですね。<br><br>心配ありません。<br><br>ギブスをやったらなお治りません。<br><br>なお固まりますからね。<br><br>それから、歩いてかまいません。<br><br>それがために治りが悪いということはない。<br><br> 「骨接ぎの方では、脱臼したのを、入れるということを言いますが、入れないでも御浄霊いたして治るものでございましょうか。<br><br>」 そうです。<br><br>入れる人は骨接ぎでもめったにないですよ。<br><br>難しいもので、一つの骨があるんです――入れるのにね。<br><br>先に青山に医学博士で、国分という人があった。<br><br>これは名人で他の人で入らないのがこの人なら入るのです。<br><br>よほど違うんですね。<br><br> 「はずれているということは、気にしなくてもよろしいでしょうか。<br><br>」 そうです。<br><br>治るから気にしないでも良い。<br><br> 「今の赤ん坊も御浄霊で。<br><br>」 霊がこう（曲がって）なっているので、霊が治るんだから治ります。<br><br>それに赤ん坊だからね。<br><br> （お伺）当年四七歳の婦人（未入信）昭和五年次女が急性胃腸カタルおよび脳膜炎を併発し、その日に死亡いたしました。<br><br>そのころより、人と対談中突然、少しの間、口がきけなくなることがたびたび起ります。<br><br>同七年長男出生、このころより人と対談中軽い発作が起り、前に伏し、いかにもおかしくてたまらぬような状態になります。<br><br>同九年妊娠いたし発作が強くなり、子供を背負っていて突然倒れるようになり、医診の結果、後天性癲癇とのことに五カ月の胎児の中絶を行ないました。<br><br>同十四年突然出血、輸卵管結紮（けっさつ）手術を行ない、その後何度となく発作を起し、はなはだしい時は顛倒して人事不省に陥り、尿を多く洩らすようになり、朝より午後の方が多く、就寝中の発作は特にひどく、時には室内を彷徨（ほうこう）することもあり、発作時間は二、三分で、月経前一週間くらいになると乳房が痛み（乳腺炎の手術をいたしております）発作もはなはだしくなります。<br><br>なお幼少のころ三叉（さんさ）神経を病みしことありし由で、今まであらゆる療法をいたしましたが、効果ありませんでした。<br><br>右の状態にて現在に至り、一週間くらいの御浄霊にて、前額部および延髄部の苦痛は取れ、夜および昼の発作は、今のところなくなり、御浄霊を始めますと発作が起り、状態は笑い顔にて、手および体全体を引き締め、脱衣状態をしながら横になり尿を洩らします。<br><br>右はいかなる原因でございましょうか。<br><br> なお御守護いただきますには、いかがいたしましたらよろしいでしょうか。<br><br> 〔御垂示〕 赤ん坊の霊ですよ。<br><br>一人、二人――その霊ですね。<br><br>無論祀ってあるでしょうね。<br><br>つまり、浮かばれてないわけです。<br><br>それからこういう時に、祀り方が――なんというか――お粗末だったり、それから惜しいとか、おっ母さんが思う執着で、霊界に安住ができなくて、おっ母さんの霊が呼ぶわけです。<br><br>それから子供が親を慕う場合に、そういうのが憑ると、癲癇が起るんですね。<br><br>これは癲癇ですね。<br><br>それから、いろんな医療をやって霊が曇りますから、そうすると癲癇がよけい起りやすくなる。<br><br>尿を洩らすというのは、つまり赤ん坊の霊が憑ると、やっぱり赤ん坊のように、尿を洩らすんですね。<br><br>それから三叉神経を病むというのは、関係ありませんよ。<br><br>手術してすぐに起るなら関係ありますが、この赤ん坊が死んでからですからね。<br><br>これは治るのは治りますよ。<br><br>けれども、そうとう長くかかります。<br><br>赤ん坊の霊を救ってやるようにするんですね。<br><br>だから仏様に屏風観音様を祀って、まだ信仰に入らないようだけれども、早く信仰に入って光明如来様をお祀りして、その部屋に寝るようにして、時々浄霊するようにしただけでも、結構治ります。<br><br> （お伺）当年三十一歳の女、今より五年前より右手より順次に動きが悪くなり、医診（東大にて）の結果は脳の神経が引き締まってしまう病気とのことにて、原因不明であり、五年くらいにて死亡すると言い渡され、今までなにかと治療いたしましたが効果なく、順次悪化してまいりました。<br><br>御浄霊一カ月にてたいへん気持ちが良く、動きが良くなってまいりましたが、まだ延髄および肩が非常に固いためか、あまりはっきりいたしません。<br><br>右原因および御浄霊の箇所を御教示お願い申し上げます。<br><br> 〔御垂示〕 脳の神経が引き締まる病気――変な病気だな。<br><br>引き締まる病気という、その引き締まるのが病気なんです。<br><br>これは結果を言っている。<br><br>そうでなくなぜ引き締まるかというので、それを言わなければならない。<br><br>これはなんでもないです。<br><br>このくらいで、死亡するなんていうのは悪いですね。<br><br>こういうことがあったなんて、めったにないですよ。<br><br>脳の神経というが、頭が凝るんですよ、私なんか始終、引き締まっている。<br><br>特に原稿書くと、頭が凝ってくるんですね。<br><br>だから順次動きが良くないのは、ここ（頸部淋巴腺）に固まりがあります。<br><br>ですから、ここを浄霊すると動きます。<br><br>右の方の頭が凝っているんです。<br><br>ここからここ（淋巴腺）を浄霊すれば良い。<br><br>それから、ここ（肩）をやれば良い。<br><br>これはなんでもないですよ。<br><br> （お伺）私は本年十月、妻は七月に入信させていただきました。<br><br>昭和二十三年十月七日、長女芳子出生後間もなく母親は乳脚気との診断を受け、母子ともに約一カ月くらいビタミン注射をやり、その時芳子は音声の出ぬほどの重態になりましたが、注射後十日くらいで平常の状態になりました。<br><br>その後中耳炎などを患いました。<br><br>本年三月ごろ、芳子の両耳が聞こえないことを知りましたので、医診を受けましたところ、親族結婚だからということで、聾唖学校へ行きなさいと言われましたが、その後も近所の医者に行き、五日くらいビタミン注射を打ちましたが、なんの変化もなく現在に至っておりましたところ、七月よりお道へ入らせていただき、会長先生、山下先生より御浄霊をいただき、現在は私と妻とで御浄霊をいたし、時々先生よりもいただいております。<br><br>ただいまも「ウマウマ」とだけはハッキリ申せますが、他のことは言いたそうにいたしますが、じれてしまいます。<br><br>常に風邪気味にて発熱、喀痰があり、耳下腺顎下に固結があります。<br><br>右は先天的な症状でございましょうか。<br><br>後天的なものでございましょうか。<br><br>なお、祖父は中風で、私の父は胃癌で死亡、現在母は中風で毎日御浄霊をいただいております。<br><br>また本年七月、御屏風観音様を御奉斎させていただきました。<br><br> 〔御垂示〕 固まりがあるんですね。<br><br>それから、耳の病気は延髄が多いですよ。<br><br>耳だから、ここ（耳脇）が原因だろうと思うが、そうでなく延髄です。<br><br>延髄をやると、良く治りますよ。<br><br>親の薬毒がここに固まっている。<br><br>ビタミンもいくらか扶助している。<br><br>ここ（咽喉）に毒が来た。<br><br>たいしたことはないですね。<br><br>これは治りますよ。<br><br>三つだから、三つで「ウマウマ」言えば大丈夫です。<br><br>ですから、今言う延髄と、ここ（淋巴腺）の所に固まりがある。<br><br>それですね。<br><br>こういう時に少しも力を入れてはいけませんよ。<br><br>ぜんぜん力を抜くと、こういう所は良く治ります。<br><br> （お伺）本年七月入信。<br><br>妊娠四カ月の信者（三十三歳）でございます。<br><br>妊娠のため医診を受けましたところ、子宮脱出と言われましたが、本人は下腹部が少し張って気持ちが悪い程度の自覚症状でございます。<br><br>医師は手術を奨めたそうですが、本人は一心にお道におすがりいたしております。<br><br>本人は本年二月ごろより軽い腹膜の浄化のため御浄霊をいただき、全身的の凝りも取れ、元気になりましてより妊娠いたしました。<br><br>最近主人に二号のあることが判り、二号が本妻を非常に憎んでいるとのことでございますが、原因は霊的なものでございましょうか、体的なものでございましょうか。<br><br>また妊娠中に子宮脱出するというようなことがございますでしょうか。<br><br> 〔御垂示〕 子宮脱出というのは、下の膣の方に下りてくるんですが、これはそうではないですね。<br><br>二号が本妻を憎むというのは、あべこべだね。<br><br>妊娠したら子宮脱出はしませんよ。<br><br>だって、穴の方は同じ大きさで、子宮の方が大きくなるのだから、よけい脱出しないですね。<br><br>理屈に合わない話ですね。<br><br>これは入信してからだが、たいへん良くなったじゃないですか、良くなって、そうして医者に行ったのは――ああそうか、出産をみてもらうために行ったのか――お医者がどうかしている。<br><br>子宮脱出というのは、膣に子宮が出るんですから、そういうことはないんです。<br><br>これは、絶対そういうことはないから、そのままで結構です。<br><br>どうも困るね。<br><br>そういう変なことを言うので、よけいな心配をさせる。<br><br>つまり、私などは昔お医者さんのことを信用してますが、このことが判ってからは、お医者さんの言うことと反対に考える。<br><br>それが一番確かです。<br><br>私が健康になったのは、医学衛生の反対反対にやったので、健康になったのです。<br><br>こういうのは、反対に解釈したら間違いない。<br><br> （お伺）私（藤原アヤ子四十四才）は十四歳の時に、襟に針を刺していて、なにかの機勢（はずみ）に左の乳を突き、その明くる日より非常に痛み、医者に行きましたところ、黴菌が入って化膿したのだと言われ、すぐに手術をし四十日あまりで治り、そのためか左の乳はほとんど出ません。<br><br>その後なにごともなく、四十二歳の夏ごろより左の乳が一日二、三回くらい針で刺すように痛み、心（シン）に固まりができ、しだいに太くなりチクチク痛む回数も多くなり、四十三歳の春ごろ乳首を押すと、赤黒い血が少量出始め、家族の者より医診を受けるよう再三奨められましたが、手術の恐ろしさと、痛みが連続的でないのでそのままにしておりました。<br><br>四十三歳の暮れごろには、大きさと固さがちょうど子供の茶碗を伏せたくらいの固まりができておりました。<br><br>本年二月二十八日、近所の信者様より、このお道のありがたいお話をお聞きし、さっそくその日より御浄霊をいただき、一週間後に下の方に傷口ができ、日増しに大きくなり、膿もどんどん出てまいりました。<br><br>三月二十三日より二日ほど、四十度くらいの熱の御浄化をいただき、左脇下および左乳横に梅干し大の固まりができて日増しに大きくなってまいりました。<br><br>その後毎日御浄霊をいただいております。<br><br>私は四月十日入信させていただき、一生懸命おすがりいたしております。<br><br>四月の末ごろ、第二回目の熱の御浄霊をいただき、右脇下にまた梅干し大の固まりができ、今なおそのままでございますが、左の固まりはしだいに大きくなり、傷口になって膿がどんどん出て、乳の下部七分くらいは傷口になっております。<br><br>傷口には一番下に御霊紙をいただき、その上に脱脂綿を当て、一番上に二メートルくらいのガーゼを八つ折にし、一日四回くらい取り替えておりますが、持つ所がないくらい膿が出ます。<br><br>六月の末ごろから、傷口が非常に痛みました。<br><br>御屏風観音様は七月十五日にお迎えさせていただきました。<br><br>その晩乳首が非常に痛み、御霊紙を取り替えましたところ、親指大くらいの毒血の塊りが取れ、十六日の朝、前夜の半分くらいの毒血の塊りが取れました。<br><br>昼ごろに御霊紙を替えさせていただきましたところ、二寸五分くらいの長さに乳首が取れました。<br><br>その後たいした痛みもなく傷口は、乳の中心を深くえぐり取ったようになっております。<br><br>その後左の脇下には七、八つ指先で押したくらいの塊りができ、それがしだいに口があき、一魂りになって、今では縦が二寸五分、横一寸五分くらいの盛り上がった傷口になっております。<br><br>全体の膿の出る量は、五月ごろに較べますと、半分くらいになったのではないかと思います。<br><br>八月ごろより腕の付け根の下側が痺れて、筋が吊るような痛みを感じておりましたが、九月十日ごろより毎日教会へお参りして御浄霊をいただいておりますうちに、末ごろより御守護をいただき、今のところは痛みもたいへん楽にさせていただきました。<br><br>二回目の御浄化をいただきました時に、右脇下にできた固まりは、今もそのままでございますが、その固まりが繋がったように、右の乳の上側に、無数に、指で押したくらいの固まりができております。<br><br>今のところ右側にも口があき、傷口ができるように感じられます。<br><br>九月二十五日には伜（せがれ）の嫁も入信させていただき、大光明如来様を御奉斎させていただきたく思っておりますが、二階の屋根が低くてお祀りできずにおります。<br><br>年が変われば家を建てますので、その時にいただきたいと思っております。<br><br>一時はだいぶ衰弱いたしましたが、御守護により、また教会の先生や近所の信者さんに励まされて、おすがりしながら、一生懸命ごはんをいただいてまいり、少しずつ力づいてまいりました。<br><br> この御浄化は今後どのように変化してまいるものでございましょうか。<br><br>またこの膿が多量に出ます原因はなんでございましょうか。<br><br>なおこの御浄化を早くすまさせていただきますには、今後どのようにいたしましたらよろしいでしょうか。<br><br> 〔御垂示〕 これは結構ですよ、たいしたものだ。<br><br>だから、入信しなかったら、この人は命がなかったですね。<br><br>最初からのことを言うと、最初針を刺した時に、うっちゃらかしておくとなんでもなかった。<br><br>黴菌が入った――これが間違っているんですよ。<br><br>針で刺しますね。<br><br>そうして、疵（きず）ができると――いつも言う通り、火傷とか疵で刺激を与えると、黴菌が寄ってくる。<br><br>ちょうど黴菌が入ったように見えるんです。<br><br>黴菌があるのはあるんです。<br><br>入ると言うが、少ないのです。<br><br>大体は寄ってくるんです。<br><br>試してご覧なさい。<br><br>火傷すれば黴菌が入るまでに、たいていは油をつけます。<br><br>それでも腫れてきますからね。<br><br>火傷するような熱で、油をつければ、黴菌が入るような理由がないんです。<br><br>しかし、そこに寄ってくるんですからね。<br><br>お灸をすえるのと同じですね。<br><br>ほったらかしておけば良かった。<br><br>黴菌が寄るだけ寄って、それで治ってしまう。<br><br>それから、消毒薬ですね。<br><br>消毒薬が、いつも言う通り恐ろしいんです。<br><br>大体、この人は毒の多い人です。<br><br>そこにもっていって、ガーゼを取り替えるたびに消毒薬をやって、それがだんだん浸透して、その付近にすっかり――血液ですね――それを濁しちゃった。<br><br>それが出るんです。<br><br>それが血膿なんだからね。<br><br>それがまた、たいへんなものなんです。<br><br>それがいろんな形で、大きく腫れたり小さく腫れたりしているんです。<br><br>それを知らないと、医者に行って切りますね。<br><br>その時また、消毒薬の影響を受けるから、だんだん衰弱して行って死ぬという人がたくさんあります。<br><br>だから命拾いした。<br><br>これは浄霊しているうちに、だんだん毒が少なくなり、腫れ方も少なくなります。<br><br>ですからもう一息ですよ。<br><br>それですっかり治りますよ。<br><br>それから、浄霊で治すのは、穴があいたり、いろいろしたのも、跡形なく、ちゃんと元通りになりますから少しも心配いりません。<br><br>それから、腕の付け根――というのは、その固まりのためですからね。<br><br>たいへん熱心だから結構ですね。<br><br>今年いっぱいくらいで、大体良くなるでしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Elucidações sobre a Causa das Doenças e a Ação do Johrei</h2>
 <p><strong>Pergunta:</strong> Meu filho de cinco anos apresenta um desenvolvimento deficiente, com a compleição física de uma criança de três anos e sendo incapaz de caminhar. Em virtude de circunstâncias diversas, submetemo-lo a um diagnóstico médico por radiografia, que apontou uma luxação na perna esquerda, e fomos informados de que o uso de gesso promoveria a cura. Ele vem recebendo Johrei desde agosto deste ano. Atualmente, seu abdômen está protuberante e ele caminha balançando o corpo para os lados. A perna esquerda, do joelho para baixo, é curvada, e a perna direita apresenta uma ligeira curvatura para o lado, um pouco acima do joelho. Respeitosamente, gostaria de fazer as seguintes indagações:</p>
@@ -129,5 +281,48 @@ function toggleLang(lang) {
 <p>Analisando desde o início, se, na ocasião em que perfurou o seio com o alfinete, ela simplesmente não tivesse feito nada, o problema teria se resolvido por si só. O diagnóstico de que "bactérias entraram" está equivocado. Quando se faz um ferimento com um alfinete, como sempre ensino, o estímulo da lesão – seja por corte ou queimadura – atrai as bactérias. Isso dá a impressão de que elas entraram. Embora algumas possam, de fato, entrar, a grande maioria é simplesmente atraída para o local. Façam um teste: se queimarem a pele, geralmente aplicarão algum unguento antes que qualquer bactéria possa entrar. Mesmo assim, o local incha. Com o calor de uma queimadura e a aplicação de óleo, não há lógica em as bactérias entrarem. Contudo, elas são atraídas. É o mesmo princípio da moxabustão. Teria sido melhor não ter feito nada. As bactérias teriam se acumulado e, depois, o corpo se curaria.</p>
 <p>O verdadeiro vilão foi o antisséptico. Como sempre digo, os medicamentos antissépticos são terrivelmente perigosos. Esta senhora, em particular, possui muitas toxinas acumuladas. A cada troca de gaze, o antisséptico era aplicado, penetrando gradualmente na região e contaminando por completo o sangue local. É isso que está sendo expelido agora em forma de pus sanguinolento. É uma quantidade imensa. Essa toxina se manifesta de várias formas, como inchaços grandes e pequenos. Uma pessoa que desconhece esta verdade procuraria um médico, que operaria o local. Durante a cirurgia, ela seria novamente exposta à influência do antisséptico, enfraqueceria progressivamente e, por fim, faleceria. Muitas pessoas têm esse destino. Portanto, ela teve a vida salva.</p>
 <p>Com a ministração do Johrei, a quantidade de toxinas diminuirá gradualmente, e os inchaços também reduzirão. Falta apenas mais um esforço, e a cura será completa. A cura pelo Johrei tem a virtude de restaurar o corpo à sua condição original, sem deixar vestígios, mesmo em casos de feridas e cavidades. Portanto, não há motivo para preocupação. A dormência na junção do braço é causada por esses nódulos. Sua fé é notável, e isso é maravilhoso. Até o final deste ano, o quadro geral deverá apresentar uma melhora substancial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年10月28日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月二十八日 （お伺）私の子供（五歳）発育が悪く、三歳くらいの体格で歩行できず、周囲の事情により、医師のレントゲン診断の結果、左足脱臼とのことでギブスをはめれば治ると申しますが、本年八月より御浄霊をいただいております。<br/><br/>現在は腹が膨って、体を左右にゆりながら歩行いたしますが、左膝関節より下の方が曲がって、右足膝関節よりわずか上の方が、少し右に彎曲しております。<br/><br/>左記謹んでお伺い申し上げます。<br/><br/> （一）脱臼の場合に歩かせてよろしいでしょうか。<br/><br/> （二）足の彎曲が治りましょうか。<br/><br/> （三）御浄霊箇所。<br/><br/> なにとぞ御教えのほどお願い申し上げます。<br/><br/> 〔御垂示〕 ギブスをはめても治りはしませんよ。<br/><br/>骨のこういう所がはずれるのが脱臼ですからね。<br/><br/>しかしよく脱臼脱臼と言うが、間違えることがありますね。<br/><br/>腹が膨ってと言うが、赤ん坊は腹が膨っているものだからね。<br/><br/>たいしたものではない。<br/><br/>これは生まれ変わった霊ですね。<br/><br/>高い所から落ちたとか、擲（なぐ）られたとかして、足をやられて、治りきらないうちに生まれ変わった霊ですね。<br/><br/>これは治りますよ。<br/><br/>長くかかりますがね。<br/><br/>脱臼でも、浄霊で治りますからね。<br/><br/>はずれたのが、だんだん元に戻るんです。<br/><br/>たいしたものです。<br/><br/>つまり霊ですからね。<br/><br/>霊の方が治ると、体の方がそれに倣ってきますからね。<br/><br/>だから、これも浄霊していると、霊の方が治ってくるから、体の方がそれに倣ってくる。<br/><br/>赤ん坊だから治り良いわけですね。<br/><br/>心配ありません。<br/><br/>ギブスをやったらなお治りません。<br/><br/>なお固まりますからね。<br/><br/>それから、歩いてかまいません。<br/><br/>それがために治りが悪いということはない。<br/><br/> 「骨接ぎの方では、脱臼したのを、入れるということを言いますが、入れないでも御浄霊いたして治るものでございましょうか。<br/><br/>」 そうです。<br/><br/>入れる人は骨接ぎでもめったにないですよ。<br/><br/>難しいもので、一つの骨があるんです――入れるのにね。<br/><br/>先に青山に医学博士で、国分という人があった。<br/><br/>これは名人で他の人で入らないのがこの人なら入るのです。<br/><br/>よほど違うんですね。<br/><br/> 「はずれているということは、気にしなくてもよろしいでしょうか。<br/><br/>」 そうです。<br/><br/>治るから気にしないでも良い。<br/><br/> 「今の赤ん坊も御浄霊で。<br/><br/>」 霊がこう（曲がって）なっているので、霊が治るんだから治ります。<br/><br/>それに赤ん坊だからね。<br/><br/> （お伺）当年四七歳の婦人（未入信）昭和五年次女が急性胃腸カタルおよび脳膜炎を併発し、その日に死亡いたしました。<br/><br/>そのころより、人と対談中突然、少しの間、口がきけなくなることがたびたび起ります。<br/><br/>同七年長男出生、このころより人と対談中軽い発作が起り、前に伏し、いかにもおかしくてたまらぬような状態になります。<br/><br/>同九年妊娠いたし発作が強くなり、子供を背負っていて突然倒れるようになり、医診の結果、後天性癲癇とのことに五カ月の胎児の中絶を行ないました。<br/><br/>同十四年突然出血、輸卵管結紮（けっさつ）手術を行ない、その後何度となく発作を起し、はなはだしい時は顛倒して人事不省に陥り、尿を多く洩らすようになり、朝より午後の方が多く、就寝中の発作は特にひどく、時には室内を彷徨（ほうこう）することもあり、発作時間は二、三分で、月経前一週間くらいになると乳房が痛み（乳腺炎の手術をいたしております）発作もはなはだしくなります。<br/><br/>なお幼少のころ三叉（さんさ）神経を病みしことありし由で、今まであらゆる療法をいたしましたが、効果ありませんでした。<br/><br/>右の状態にて現在に至り、一週間くらいの御浄霊にて、前額部および延髄部の苦痛は取れ、夜および昼の発作は、今のところなくなり、御浄霊を始めますと発作が起り、状態は笑い顔にて、手および体全体を引き締め、脱衣状態をしながら横になり尿を洩らします。<br/><br/>右はいかなる原因でございましょうか。<br/><br/> なお御守護いただきますには、いかがいたしましたらよろしいでしょうか。<br/><br/> 〔御垂示〕 赤ん坊の霊ですよ。<br/><br/>一人、二人――その霊ですね。<br/><br/>無論祀ってあるでしょうね。<br/><br/>つまり、浮かばれてないわけです。<br/><br/>それからこういう時に、祀り方が――なんというか――お粗末だったり、それから惜しいとか、おっ母さんが思う執着で、霊界に安住ができなくて、おっ母さんの霊が呼ぶわけです。<br/><br/>それから子供が親を慕う場合に、そういうのが憑ると、癲癇が起るんですね。<br/><br/>これは癲癇ですね。<br/><br/>それから、いろんな医療をやって霊が曇りますから、そうすると癲癇がよけい起りやすくなる。<br/><br/>尿を洩らすというのは、つまり赤ん坊の霊が憑ると、やっぱり赤ん坊のように、尿を洩らすんですね。<br/><br/>それから三叉神経を病むというのは、関係ありませんよ。<br/><br/>手術してすぐに起るなら関係ありますが、この赤ん坊が死んでからですからね。<br/><br/>これは治るのは治りますよ。<br/><br/>けれども、そうとう長くかかります。<br/><br/>赤ん坊の霊を救ってやるようにするんですね。<br/><br/>だから仏様に屏風観音様を祀って、まだ信仰に入らないようだけれども、早く信仰に入って光明如来様をお祀りして、その部屋に寝るようにして、時々浄霊するようにしただけでも、結構治ります。<br/><br/> （お伺）当年三十一歳の女、今より五年前より右手より順次に動きが悪くなり、医診（東大にて）の結果は脳の神経が引き締まってしまう病気とのことにて、原因不明であり、五年くらいにて死亡すると言い渡され、今までなにかと治療いたしましたが効果なく、順次悪化してまいりました。<br/><br/>御浄霊一カ月にてたいへん気持ちが良く、動きが良くなってまいりましたが、まだ延髄および肩が非常に固いためか、あまりはっきりいたしません。<br/><br/>右原因および御浄霊の箇所を御教示お願い申し上げます。<br/><br/> 〔御垂示〕 脳の神経が引き締まる病気――変な病気だな。<br/><br/>引き締まる病気という、その引き締まるのが病気なんです。<br/><br/>これは結果を言っている。<br/><br/>そうでなくなぜ引き締まるかというので、それを言わなければならない。<br/><br/>これはなんでもないです。<br/><br/>このくらいで、死亡するなんていうのは悪いですね。<br/><br/>こういうことがあったなんて、めったにないですよ。<br/><br/>脳の神経というが、頭が凝るんですよ、私なんか始終、引き締まっている。<br/><br/>特に原稿書くと、頭が凝ってくるんですね。<br/><br/>だから順次動きが良くないのは、ここ（頸部淋巴腺）に固まりがあります。<br/><br/>ですから、ここを浄霊すると動きます。<br/><br/>右の方の頭が凝っているんです。<br/><br/>ここからここ（淋巴腺）を浄霊すれば良い。<br/><br/>それから、ここ（肩）をやれば良い。<br/><br/>これはなんでもないですよ。<br/><br/> （お伺）私は本年十月、妻は七月に入信させていただきました。<br/><br/>昭和二十三年十月七日、長女芳子出生後間もなく母親は乳脚気との診断を受け、母子ともに約一カ月くらいビタミン注射をやり、その時芳子は音声の出ぬほどの重態になりましたが、注射後十日くらいで平常の状態になりました。<br/><br/>その後中耳炎などを患いました。<br/><br/>本年三月ごろ、芳子の両耳が聞こえないことを知りましたので、医診を受けましたところ、親族結婚だからということで、聾唖学校へ行きなさいと言われましたが、その後も近所の医者に行き、五日くらいビタミン注射を打ちましたが、なんの変化もなく現在に至っておりましたところ、七月よりお道へ入らせていただき、会長先生、山下先生より御浄霊をいただき、現在は私と妻とで御浄霊をいたし、時々先生よりもいただいております。<br/><br/>ただいまも「ウマウマ」とだけはハッキリ申せますが、他のことは言いたそうにいたしますが、じれてしまいます。<br/><br/>常に風邪気味にて発熱、喀痰があり、耳下腺顎下に固結があります。<br/><br/>右は先天的な症状でございましょうか。<br/><br/>後天的なものでございましょうか。<br/><br/>なお、祖父は中風で、私の父は胃癌で死亡、現在母は中風で毎日御浄霊をいただいております。<br/><br/>また本年七月、御屏風観音様を御奉斎させていただきました。<br/><br/> 〔御垂示〕 固まりがあるんですね。<br/><br/>それから、耳の病気は延髄が多いですよ。<br/><br/>耳だから、ここ（耳脇）が原因だろうと思うが、そうでなく延髄です。<br/><br/>延髄をやると、良く治りますよ。<br/><br/>親の薬毒がここに固まっている。<br/><br/>ビタミンもいくらか扶助している。<br/><br/>ここ（咽喉）に毒が来た。<br/><br/>たいしたことはないですね。<br/><br/>これは治りますよ。<br/><br/>三つだから、三つで「ウマウマ」言えば大丈夫です。<br/><br/>ですから、今言う延髄と、ここ（淋巴腺）の所に固まりがある。<br/><br/>それですね。<br/><br/>こういう時に少しも力を入れてはいけませんよ。<br/><br/>ぜんぜん力を抜くと、こういう所は良く治ります。<br/><br/> （お伺）本年七月入信。<br/><br/>妊娠四カ月の信者（三十三歳）でございます。<br/><br/>妊娠のため医診を受けましたところ、子宮脱出と言われましたが、本人は下腹部が少し張って気持ちが悪い程度の自覚症状でございます。<br/><br/>医師は手術を奨めたそうですが、本人は一心にお道におすがりいたしております。<br/><br/>本人は本年二月ごろより軽い腹膜の浄化のため御浄霊をいただき、全身的の凝りも取れ、元気になりましてより妊娠いたしました。<br/><br/>最近主人に二号のあることが判り、二号が本妻を非常に憎んでいるとのことでございますが、原因は霊的なものでございましょうか、体的なものでございましょうか。<br/><br/>また妊娠中に子宮脱出するというようなことがございますでしょうか。<br/><br/> 〔御垂示〕 子宮脱出というのは、下の膣の方に下りてくるんですが、これはそうではないですね。<br/><br/>二号が本妻を憎むというのは、あべこべだね。<br/><br/>妊娠したら子宮脱出はしませんよ。<br/><br/>だって、穴の方は同じ大きさで、子宮の方が大きくなるのだから、よけい脱出しないですね。<br/><br/>理屈に合わない話ですね。<br/><br/>これは入信してからだが、たいへん良くなったじゃないですか、良くなって、そうして医者に行ったのは――ああそうか、出産をみてもらうために行ったのか――お医者がどうかしている。<br/><br/>子宮脱出というのは、膣に子宮が出るんですから、そういうことはないんです。<br/><br/>これは、絶対そういうことはないから、そのままで結構です。<br/><br/>どうも困るね。<br/><br/>そういう変なことを言うので、よけいな心配をさせる。<br/><br/>つまり、私などは昔お医者さんのことを信用してますが、このことが判ってからは、お医者さんの言うことと反対に考える。<br/><br/>それが一番確かです。<br/><br/>私が健康になったのは、医学衛生の反対反対にやったので、健康になったのです。<br/><br/>こういうのは、反対に解釈したら間違いない。<br/><br/> （お伺）私（藤原アヤ子四十四才）は十四歳の時に、襟に針を刺していて、なにかの機勢（はずみ）に左の乳を突き、その明くる日より非常に痛み、医者に行きましたところ、黴菌が入って化膿したのだと言われ、すぐに手術をし四十日あまりで治り、そのためか左の乳はほとんど出ません。<br/><br/>その後なにごともなく、四十二歳の夏ごろより左の乳が一日二、三回くらい針で刺すように痛み、心（シン）に固まりができ、しだいに太くなりチクチク痛む回数も多くなり、四十三歳の春ごろ乳首を押すと、赤黒い血が少量出始め、家族の者より医診を受けるよう再三奨められましたが、手術の恐ろしさと、痛みが連続的でないのでそのままにしておりました。<br/><br/>四十三歳の暮れごろには、大きさと固さがちょうど子供の茶碗を伏せたくらいの固まりができておりました。<br/><br/>本年二月二十八日、近所の信者様より、このお道のありがたいお話をお聞きし、さっそくその日より御浄霊をいただき、一週間後に下の方に傷口ができ、日増しに大きくなり、膿もどんどん出てまいりました。<br/><br/>三月二十三日より二日ほど、四十度くらいの熱の御浄化をいただき、左脇下および左乳横に梅干し大の固まりができて日増しに大きくなってまいりました。<br/><br/>その後毎日御浄霊をいただいております。<br/><br/>私は四月十日入信させていただき、一生懸命おすがりいたしております。<br/><br/>四月の末ごろ、第二回目の熱の御浄霊をいただき、右脇下にまた梅干し大の固まりができ、今なおそのままでございますが、左の固まりはしだいに大きくなり、傷口になって膿がどんどん出て、乳の下部七分くらいは傷口になっております。<br/><br/>傷口には一番下に御霊紙をいただき、その上に脱脂綿を当て、一番上に二メートルくらいのガーゼを八つ折にし、一日四回くらい取り替えておりますが、持つ所がないくらい膿が出ます。<br/><br/>六月の末ごろから、傷口が非常に痛みました。<br/><br/>御屏風観音様は七月十五日にお迎えさせていただきました。<br/><br/>その晩乳首が非常に痛み、御霊紙を取り替えましたところ、親指大くらいの毒血の塊りが取れ、十六日の朝、前夜の半分くらいの毒血の塊りが取れました。<br/><br/>昼ごろに御霊紙を替えさせていただきましたところ、二寸五分くらいの長さに乳首が取れました。<br/><br/>その後たいした痛みもなく傷口は、乳の中心を深くえぐり取ったようになっております。<br/><br/>その後左の脇下には七、八つ指先で押したくらいの塊りができ、それがしだいに口があき、一魂りになって、今では縦が二寸五分、横一寸五分くらいの盛り上がった傷口になっております。<br/><br/>全体の膿の出る量は、五月ごろに較べますと、半分くらいになったのではないかと思います。<br/><br/>八月ごろより腕の付け根の下側が痺れて、筋が吊るような痛みを感じておりましたが、九月十日ごろより毎日教会へお参りして御浄霊をいただいておりますうちに、末ごろより御守護をいただき、今のところは痛みもたいへん楽にさせていただきました。<br/><br/>二回目の御浄化をいただきました時に、右脇下にできた固まりは、今もそのままでございますが、その固まりが繋がったように、右の乳の上側に、無数に、指で押したくらいの固まりができております。<br/><br/>今のところ右側にも口があき、傷口ができるように感じられます。<br/><br/>九月二十五日には伜（せがれ）の嫁も入信させていただき、大光明如来様を御奉斎させていただきたく思っておりますが、二階の屋根が低くてお祀りできずにおります。<br/><br/>年が変われば家を建てますので、その時にいただきたいと思っております。<br/><br/>一時はだいぶ衰弱いたしましたが、御守護により、また教会の先生や近所の信者さんに励まされて、おすがりしながら、一生懸命ごはんをいただいてまいり、少しずつ力づいてまいりました。<br/><br/> この御浄化は今後どのように変化してまいるものでございましょうか。<br/><br/>またこの膿が多量に出ます原因はなんでございましょうか。<br/><br/>なおこの御浄化を早くすまさせていただきますには、今後どのようにいたしましたらよろしいでしょうか。<br/><br/> 〔御垂示〕 これは結構ですよ、たいしたものだ。<br/><br/>だから、入信しなかったら、この人は命がなかったですね。<br/><br/>最初からのことを言うと、最初針を刺した時に、うっちゃらかしておくとなんでもなかった。<br/><br/>黴菌が入った――これが間違っているんですよ。<br/><br/>針で刺しますね。<br/><br/>そうして、疵（きず）ができると――いつも言う通り、火傷とか疵で刺激を与えると、黴菌が寄ってくる。<br/><br/>ちょうど黴菌が入ったように見えるんです。<br/><br/>黴菌があるのはあるんです。<br/><br/>入ると言うが、少ないのです。<br/><br/>大体は寄ってくるんです。<br/><br/>試してご覧なさい。<br/><br/>火傷すれば黴菌が入るまでに、たいていは油をつけます。<br/><br/>それでも腫れてきますからね。<br/><br/>火傷するような熱で、油をつければ、黴菌が入るような理由がないんです。<br/><br/>しかし、そこに寄ってくるんですからね。<br/><br/>お灸をすえるのと同じですね。<br/><br/>ほったらかしておけば良かった。<br/><br/>黴菌が寄るだけ寄って、それで治ってしまう。<br/><br/>それから、消毒薬ですね。<br/><br/>消毒薬が、いつも言う通り恐ろしいんです。<br/><br/>大体、この人は毒の多い人です。<br/><br/>そこにもっていって、ガーゼを取り替えるたびに消毒薬をやって、それがだんだん浸透して、その付近にすっかり――血液ですね――それを濁しちゃった。<br/><br/>それが出るんです。<br/><br/>それが血膿なんだからね。<br/><br/>それがまた、たいへんなものなんです。<br/><br/>それがいろんな形で、大きく腫れたり小さく腫れたりしているんです。<br/><br/>それを知らないと、医者に行って切りますね。<br/><br/>その時また、消毒薬の影響を受けるから、だんだん衰弱して行って死ぬという人がたくさんあります。<br/><br/>だから命拾いした。<br/><br/>これは浄霊しているうちに、だんだん毒が少なくなり、腫れ方も少なくなります。<br/><br/>ですからもう一息ですよ。<br/><br/>それですっかり治りますよ。<br/><br/>それから、浄霊で治すのは、穴があいたり、いろいろしたのも、跡形なく、ちゃんと元通りになりますから少しも心配いりません。<br/><br/>それから、腕の付け根――というのは、その固まりのためですからね。<br/><br/>たいへん熱心だから結構ですね。<br/><br/>今年いっぱいくらいで、大体良くなるでしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280606</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月6日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月六日 四日の晩のラジオは聞いたでしょうが、なにしろ邪神の方も苦しまぎれにいろんなことをやります。<br><br>四、五年前は新聞で随分挑戦してきましたが、とうとうこっちが勝ってしまったのです。<br><br>その次は官憲を利用して、ちょうど三年前にああいった裁判をやりまして、それでも結局先方は負けてしまったのです。<br><br>とにかく救世教をつぶしてしまおうというのです。<br><br>そうしなかったら邪神の方が滅びることになりますから、霊界では死に物狂いになってやっているのです。<br><br>それで新聞では駄目、役人を使っても駄目なので、今度はラジオを使ったわけです。<br><br>そういうような具合で、だんだん霊界が明るくなりますから、邪神の方はだんだん手も足も出なくなってくるのです。<br><br>そこでだんだん死に物狂いになってきます。<br><br>しかしそうなればなるほど、神様の方の力が強くなってくるのです。<br><br>それでドンドン進んで行きますからよいのですが、先方の一番致命的なことは、医学を暴露されて、やられることが一番つらいのです。<br><br>医学というものは、邪神が人類を弱らせてヒョロヒョロにしてしまおうという計画なのです。<br><br>そうして最後にある強い民族が、弱っているのをやっつけてしまって、そうして世界の覇を握る、というのがその計画です。<br><br>ですからそこで医学を暴露されることによって、先方の目的が駄目になりますから、そこで先方にとってはたいへんなのです。<br><br>なにしろ明日から「薬の週間」ということでやってますが、これは救世教に対抗する目的なのです。<br><br>今まではそんなことはしたことはないのです。<br><br>ですから先方はあの手この手で、どこまでもやろうというので、これまでに弱らしたのにピンピンにされたらたいへんだというわけです。<br><br>しかしヨーロッパ方面はほとんど半分以上は目的を達したのです。<br><br>だからいつも言うとおり、イギリス、フランスあたりの、あの弱りさ加減はないです。<br><br>まるで、どんなことをされても戦争がない方がよいというので、諦めるあの形は、イギリスのチャーチルなどが始終しゃべったり、やっていることを見るとかわいそうになります。<br><br>ただどうやらしっかりしているのはアメリカだけですから、そこで邪神の方でもアメリカの国民を弱らせようとして大車輪をかけているのです。<br><br>今アメリカでは薬が進歩して、新しい薬をドンドンこしらえているのは、みんな邪神がやっているのです。<br><br>そこで私は、まず第一歩として『アメリカを救う』という本を出したのです。<br><br> なにしろ中共が北朝鮮を侵略して、ほとんど自分の植民地のようにしてしまったのです。<br><br>ですからこれは国際正義の上から言っても、やっつけなければならないのです。<br><br>ところがイギリスは逸（いち）早く承認してしまったのです。<br><br>なんでもよい、平和にさえなれば戦争なんかオレは大嫌いだ、ということになったのです。<br><br>ところがアメリカはそれを許したら、世界に侵略は公認されることになるから、承認することはできないと頑張っているのですが、そこがアメリカの値打ちのあるところです。<br><br>今休戦会談ができそうになりつつありますが、これは一時的なのです。<br><br>今アメリカはアイゼンハウアーになってから、大々的に中共征伐をやり始める準備をしているので、今アメリカに攻められたら息の根が絶えますから、これはたいへんだと、そこでなんとかして一時でもこれを引き延ばす政策をやったのです。<br><br>アイゼンハウアーはなかなかそんなことにごまかされないで、ともすればやっつけるぞという気勢を見せる。<br><br>これは今までのトルーマン大統領のような、時を稼ぐなまぬるいやり方では追いつかない、また先方は一時でもよいから休戦の条件に判を捺しておいて、もっと気長に準備をしなければならないというのが、今休戦会談がまとまろうという状勢になっているのです。<br><br>本当に平和にしようというのでもなんでもないので、危ないから一時窮境を逃れ、それと三年の間、朝鮮や連合軍と戦って、瘡痍（そうい）もそうとう深いから、それもなおさなければならない。<br><br>そうして国家をもっと充実した状態にして、それからアメリカと戦おうというわけなのです。<br><br>だからこの休戦会談というものは一時的のものです。<br><br>そこにもっていって、今言うようにイギリス、フランス辺りが弱りきってます。<br><br>しかしフランスはインドシナ辺りが大問題で、あそこに全力を尽くすよりしようがないのです。<br><br> だから朝鮮問題の方はまずイギリスより他にないが、そのイギリスがグニャグニャなのだから、そこで米国も、ここは世論の国ですから、連合国の他の国がみんなグニャグニャしているのでは、米国だけがやるというのはおもしろくないというので、では一時お前たちの言うことを聞いておこうというわけです。<br><br>だからアメリカの方でも、マッカーシーなどは強硬で、連合国を脱退してアメリカ独自でやろうということを言ってますが、アメリカとしてもただアメリカだけが立つのでは万事都合が悪いので、やっぱりいろいろな関係で、戦争で戦うばかりでは駄目ですから、世界的世論を大いに尊重して、まず戦争をやるにはできるだけ一致をしなければならないから、アメリカは心ならずして一時休戦に応ずるというのが、今の態勢です。<br><br>おまけにソ連の方はスターリンが生きていればもっと腰が強いが、スターリンの歿後はずっと腰が折れてますから、とにかく一時収めた方がよいというように、蔭から中共を牽制しているに違いないです。<br><br>それでまず米国とソ連が戦争をしたら、ソ連に勝ち目はありませんから、もっと充実しなければ駄目なのです。<br><br>そんなようで一時休戦によって小康を得るでしょう。<br><br>そうしておいて今度はソ連がどういう手を打つかですが、あるいはインドシナからタイの方に侵略を始めるか、それは分かりませんが、とにかくこれから大いに複雑な、結局アメリカを消耗させるという戦術を続けるに違いないです。<br><br>その手腕たるや、なかなか予想外の手を使うかも分かりません。<br><br>けれどもどっちにしろ、いつかも言ったとおり、スターリンが死んだ後は骨抜きみたいになりますから、結局なんだかんだと言いながら、ソ連滅亡の時期が来るのです。<br><br>それはまだそうとう先のことで、そう急なわけに行きませんが、共産主義がなくなるということは、神様の方ではチャンと決まっているのです。<br><br>それでこれから一番面倒な問題は、たとえ休戦になったとしても、朝鮮が南北に分かれていては、これはアメリカとしてはどうしても黙ってはいられないので、どうしても合併しなければならない。<br><br>合併するとすれば中共の勢力を北鮮から抜かなければならない。<br><br>要するに中共を中国に引っ込ませるということになるが、この問題がたいへんです。<br><br>アメリカはよほど強行にやるでしょうが、そうかといって中共の方では易々〔唯々〕諾々と引っ込むわけはないから、ここでまた非常に面倒な問題が起るに違いありません。<br><br>そういうようでまたややこしくなってきます。<br><br>あるいはアメリカが武力をもって解決しようという態度に出るとすると、また戦争が始まるかも分からないが、どうしてもそういう動き方になるわけです。<br><br>それで中共が引っ込んで南北朝鮮が合併するということになれば問題は解決しますが、中共もせっかく朝鮮に半分勢力を入れた以上、そうやすやすとは引かないで頑張るでしょうから、そう簡単には解決しないので、朝鮮というものがガンになります。<br><br>どうしても解決しないということになると、戦争よりほかにないことになります。<br><br>無論アメリカもその準備をしているから、あんがい急速な場面が出るかも分かりません。<br><br>だから傍観者としてはなかなか興味津々たるものがあります。<br><br>話はラジオ解説のようなことになりました。<br><br> 「社会の窓」のＮＨＫのやり方に対しても、これは許すべからざることですから、無論名誉毀損の告訴をします。<br><br>それを読ませます。<br><br> （御論文「ジャーナリストに愬う」）【栄光 二一五号】 とにかく現在のジャーナリストというものは、新宗教を非常に軽蔑しているのです。<br><br>それで他のことなら、こんなことは決して出るものではないのです。<br><br>とにかく新宗教というと非常な軽蔑をするのですが、軽蔑という意味は、彼らは新宗教なんてものは、この科学の時代に非常に間違っている、こういう非科学的のものは、ぶっつぶしてしまった方がよいと、それを良いと信じているのです。<br><br>しかしそれも無理はないのです。<br><br>世間の新宗教で、これはというものはないです。<br><br>ですから私は、もし救世教というものがなかったら、私もやっぱりそれと同じように、新宗教をつぶした方がよいと思います。<br><br>実際ロクなものはありません。<br><br>そうかといって旧宗教は眠っているようなもので問題にはなりません。<br><br>ですから私などでも無論無信仰者になります。<br><br>そう考えてくると、彼らの考え方も決して咎めることもできないが、ただ救世教というものは他の宗教とは違うという認識がないのです。<br><br>認識がないということはロクロク調べないからです。<br><br>この放送もロクロク調べないから、すべて悪意にとって、こんなものに迷わせられてはいけないという、一つの警告を与えるつもりですが、ではなぜ認識しないかというと、他のものがつまらないもので、価値がないというので、救世教もやっぱりそれだということに、頭から決めてしまっているのです。<br><br>そこにわれわれにも非常に損な点があるのです。<br><br>しかしそれも長い間、こういうような宗教が出なかったのだから、これはやむを得ないでしょう。<br><br>ですからある時期までは、こっちが苦しんだり、誤解されたりしますから、分からせるまでは非常に骨が折れることはしかたがないと思います。<br><br>そうかといって、こっちは金であるのに、金をメッキと思われるのですから、それはどうしても黙ってはいられないのです。<br><br>金は金として大いにそれを言わなければならないのです。<br><br>そこで骨の折れる点もあるのです。<br><br>そうかといって、事実は病気の解決はできるのです。<br><br>病気の本体が分かり、病気の心配がなくなるという、こんなすばらしいことというのは、今までにはないのですから、結局はみんな頭を下げるに決まってます。<br><br>それまでの間は、アブやハチがブンブン飛んできて、刺したりいろんなことで、こっちに痛みを与えますが、これはやむを得ないわけです。<br><br>それで、できるだけそういったハチに刺されないように、追って行くというより、しようがありません。<br><br>そうしてだんだん時がたつに従って、分かってくるというわけなのです。<br><br>このことも、ハチに刺されたので、ふたたびハチが来て刺さないように、ハチのやつを一発叩いてやるというわけです。<br><br>まあ蝿叩きのようなものです。<br><br> それから、今までもそうでしたが、これからは信仰の話をしても分からない人は、あんまり追いかけない方がよいです。<br><br>追い放した方がよいです。<br><br>というのは救世教はすばらしいものだ、神様はたいしたものだと言うが、それには違いないが、今度の最後の審判というものは、審判は善悪の裁きだが、ふつうは一人でも多く、ほとんど世界人類が救われるように思いがちですが、救われる人はごく少ないので、あとはみんな駄目になる、滅びるのです。<br><br>それをよく分かっていなければならない。<br><br>だから少し話して分からない人は放してしまった方がよいです。<br><br>それは閻魔の帳の方ではチャンと消してあるのです。<br><br>かえってその方が楽で、そのために救われるべき方の人が遅れたりするからいけないのです。<br><br>ですからそうした方が非常に楽で、救われるべき人が早く救われます。<br><br>そのことを書きました。<br><br> （御論文「最後の審判とは何か」）【栄光 二一三号】 それから、今の人は非常に頭が鈍感になっているので、そのために火災だとかいろんな事故が起るのです。<br><br>信者は知ってますが、その原因を書いてみました。<br><br> （御論文「近頃の世相」）【栄光 二一四号】 この薬毒が減ると体が非常に軽快になります。<br><br>ですから挙動が敏捷になるし、頭も同じように敏感になります。<br><br>ところが今の人は薬がいっぱいありますから頭が鈍感で挙動が鈍重なのです。<br><br>ですからいろんな事故が起るのはあたりまえです。<br><br>自動車や汽車を運転しても、挙動が敏感だと、見た瞬間にヒョッと避けてしまいます。<br><br>それが挙動が鈍重だから、見た瞬間に避けられないのです。<br><br>それから火事でも、この間の北海道の山火事など、約二万町歩も焼けたのですからたいへんなものです。<br><br>この原因の大半は煙草の火ということになってますが、吸殻を捨てますが、注意力があれば、これは危ないと思ったらちょっと消しますが、その注意力がないわけです。<br><br>アメリカなども非常に事故が多く、自動車事故も非常に多いようですが、これもアメリカ人の鈍感なためなのです。<br><br>そういった頭の悪さが社会のいろんな損害や不安の原因なのですから、その点からいっても、薬というものは恐ろしいものです。<br><br>それなのに明日からまた薬を大いにやるというのですから、馬鹿と言ってよいか、なんと言うか、言いようがありません。<br><br>私も昔は随分薬をのんだが、私は鈍感というよりか、すべてが不精になりました。<br><br>だからやっぱり結果においては鈍感と同じようなものです。<br><br>ところが始終自分でも浄霊してますから、だんだん薬が減るに従って、敏感になるのがよく分かります。<br><br>だから今の若い人に比べても非常に違います。<br><br>若い人はノロイのです。<br><br>歩いても若い人がついていると私は加減するのです。<br><br>「明主様はお速いですね、とても自分たちはついて行けない」と言うから、「それは年のせいだ」と言うのです。<br><br>だから毎日のようですが、もう来て用意をしていると思って行ってみても、来ていないということがよくあり、私の方が早いのです。<br><br>ですから調子が合わないで困ることがあります。<br><br>この間も若い者に言ったのですが、お前たちは巾着切のようにならなければいけないと言ったのです。<br><br>私などは巾着切になったら随分成功する、それは逃げるのも早いです。<br><br>だから巾着切のような了簡でなければ駄目だと言ったのです。<br><br>ただ人の物を取らなければよいのです。<br><br>他のことは巾着切と同じでよいのです。<br><br>つまり敏捷になることです。<br><br>そういうようになると、物事の急所などが早く見つかりますから、無駄がなく能率が上がります。<br><br>身魂が磨けるということはそういうことなのです。<br><br>なんにでも気がつくことです。<br><br>大本教のお筆先に「何事も気配り心配りをして下されよ」というのがあります。<br><br>ですから気のつくことです。<br><br>ところが気のつかない人が非常に多いのです。<br><br>ちょっとしたことに気がつかないのです。<br><br>それは頭の働きが鈍いからです。<br><br>そういうことを心掛けて練習してもよほど違います。<br><br>つまり人がなにか言いますが、一言ですぐに見当がつくことです。<br><br>こういうことを言うから、ああいう性質を持っている。<br><br>また来た人の話をちょっと聞いても「ははあ、これはこういう目的で来たな」ということを早く覚るということは、非常に役に立ちます。<br><br>また他の家に行っても、はいっていきなり下駄を見ると、腐ったような体裁の悪いのがあったら、これは懐が楽ではないなと思う。<br><br>子供が食っている菓子でも、つまらない安い菓子を食っているのを見ても、ははあと分かるのです。<br><br>私はよくネクタイの柄を見ます。<br><br>これは趣味の高い奴だ、低い奴だと分かります。<br><br>それからキチンと締めていると、これは几帳面な者だ、あるいはだらしがない者だということが分かります。<br><br>そういうことを見ると、すべてにおいて便利で得です。<br><br>それで先方の心が変わったりいろいろしたり、想念が変わり、信仰なら信仰が進んだり鈍るが、そのことで見当がつくのです。<br><br>それでおかしなことで、霊的にいろいろなことを見るということは止めた方がよいです。<br><br>それは特別な能力を持っていなければならないから駄目です。<br><br>私は分かりますから、よくやりますが、物質的に見ることも大いにやらなければならないのです。<br><br>これは科学的の方です。<br><br>ですから霊的と科学的と両方なければならないが、まず科学的にやることです。<br><br>またこれは誰にでもできることであり、非常に肝腎なことです。<br><br>ですから私が美術館を造るにも、なにを造るにも非常に早くて手っ取り早いのです。<br><br>それは物事の急所を見てしまうのです。<br><br>別館を造るにも、最初大体二十分ばかり見当をつけて指図して、その後、二度来て、二、三十分指図しただけで思ったとおりにできたのですが、それは急所を見て、急所を指図するから能率が上がるのです。<br><br> だから病気を治す場合にも、私はいつも額を触りますが、額の熱で大体分かります。<br><br>また熱にもいろいろあって、深い所の熱、浅い所の熱があります。<br><br>浅い所の熱は、芯の方の深い所は熱くないのです。<br><br>それから深い場合は芯の方から熱くて、浅い所はたいしてないのです。<br><br>これは質（たち）が悪いのです。<br><br>こういうのは浄化が重いのです。<br><br>そういうように重さ軽さが分かります。<br><br>また咳が出る痰が出るということもすぐ分かります。<br><br>ここだと思う時は必ず咳が出、痰が出ます。<br><br>そうするとそこに毒素があるのです。<br><br>そういうようにやると、浄霊の場合も早く効果が上がります。<br><br>それも神経の敏感さです。<br><br>ですからなにごとにも、そういうように心掛けるとよほど違います。<br><br>それは初めからそうはゆきませんが、そのつもりで心掛けると、それに慣れるに従って無駄がなくなります。<br><br>それから行ってみて神様の話をしても、先方が興味を持ってくるか、お座なり的で、いやいややっているかを見通さなければならない。<br><br>それでお座なり的だったら止して、そうでなかったら熱心にやってやるというようにするのです。<br><br>それで急所がありますから、その急所をやると先方はハッと分かって、信仰にはいろうということになります。<br><br>そういうことを心掛けることです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luta Espiritual e a Discernição</h2>
 <p>Imagino que tenham ouvido a transmissão de rádio da noite do dia quatro. Com efeito, os espíritos malignos, em seu desespero, recorrem a toda sorte de artifícios. Há quatro ou cinco anos, eles nos desafiaram intensamente por meio dos jornais, mas, ao final, saímos vitoriosos. Em seguida, utilizaram-se das autoridades e, há exatos três anos, instigaram aquele processo judicial, do qual também saíram derrotados. O objetivo deles é, de qualquer forma, aniquilar a Sekaikyuseikyou. Caso não o consigam, serão eles a perecer; por essa razão, no Mundo Espiritual, travam uma batalha desesperada. Assim, tendo fracassado com os jornais e com as autoridades, desta vez, recorreram ao rádio.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Uma ressalva importante: é melhor abster-se de tentar enxergar as coisas espiritualmente. Isso exige uma capacidade especial que a maioria não possui. Eu o faço com frequência, pois tenho essa faculdade. Mas é fundamental que todos desenvolvam a observação material, que é o lado científico da questão. É preciso ter ambos, o espiritual e o científico, mas deve-se começar pelo científico. Além de ser algo que todos podem fazer, é de extrema importância. É por isso que sou tão rápido e eficiente para construir um museu ou qualquer outra coisa. Eu identifico imediatamente os pontos vitais de cada projeto. Na construção do anexo, por exemplo, bastaram vinte minutos de orientação inicial e mais duas visitas de vinte ou trinta minutos para que tudo saísse como eu havia imaginado. Isso porque identifico e dou instruções sobre os pontos essenciais, o que eleva a eficiência.</p>
 <p>O mesmo se aplica ao tratamento das doenças. Eu sempre toco a testa do doente, e pelo calor que sinto, já tenho uma ideia geral do quadro. Há vários tipos de calor: um calor profundo e um superficial. No calor superficial, o núcleo não está quente. Já nos casos mais graves, o calor emana do núcleo, e a superfície não está tão quente. Isso indica uma purificação mais severa. Assim, consigo discernir a gravidade do caso. Também sei quando a pessoa irá tossir ou expectorar. Quando ministro Johrei no ponto que intuo ser o foco, a tosse ou o catarro surgem invariavelmente, sinalizando a presença de toxinas ali. Procedendo dessa maneira, os resultados do Johrei são mais rápidos. Isso também é fruto da sensibilidade dos nervos.</p>
 <p>Portanto, se se esforçarem para agir assim em todas as situações, a diferença será notável. No início não será fácil, mas, com a prática e a intenção, o desperdício diminuirá. Ao falar sobre Deus com alguém, é preciso discernir se a pessoa está genuinamente interessada ou se está apenas sendo polida e ouvindo por obrigação. Se for o segundo caso, é melhor parar; se não, pode-se prosseguir com entusiasmo. Há sempre um ponto vital na conversa. Ao tocá-lo, a pessoa tem uma súbita compreensão e decide ingressar na fé. É a isso que devem se dedicar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月6日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月六日 四日の晩のラジオは聞いたでしょうが、なにしろ邪神の方も苦しまぎれにいろんなことをやります。<br/><br/>四、五年前は新聞で随分挑戦してきましたが、とうとうこっちが勝ってしまったのです。<br/><br/>その次は官憲を利用して、ちょうど三年前にああいった裁判をやりまして、それでも結局先方は負けてしまったのです。<br/><br/>とにかく救世教をつぶしてしまおうというのです。<br/><br/>そうしなかったら邪神の方が滅びることになりますから、霊界では死に物狂いになってやっているのです。<br/><br/>それで新聞では駄目、役人を使っても駄目なので、今度はラジオを使ったわけです。<br/><br/>そういうような具合で、だんだん霊界が明るくなりますから、邪神の方はだんだん手も足も出なくなってくるのです。<br/><br/>そこでだんだん死に物狂いになってきます。<br/><br/>しかしそうなればなるほど、神様の方の力が強くなってくるのです。<br/><br/>それでドンドン進んで行きますからよいのですが、先方の一番致命的なことは、医学を暴露されて、やられることが一番つらいのです。<br/><br/>医学というものは、邪神が人類を弱らせてヒョロヒョロにしてしまおうという計画なのです。<br/><br/>そうして最後にある強い民族が、弱っているのをやっつけてしまって、そうして世界の覇を握る、というのがその計画です。<br/><br/>ですからそこで医学を暴露されることによって、先方の目的が駄目になりますから、そこで先方にとってはたいへんなのです。<br/><br/>なにしろ明日から「薬の週間」ということでやってますが、これは救世教に対抗する目的なのです。<br/><br/>今まではそんなことはしたことはないのです。<br/><br/>ですから先方はあの手この手で、どこまでもやろうというので、これまでに弱らしたのにピンピンにされたらたいへんだというわけです。<br/><br/>しかしヨーロッパ方面はほとんど半分以上は目的を達したのです。<br/><br/>だからいつも言うとおり、イギリス、フランスあたりの、あの弱りさ加減はないです。<br/><br/>まるで、どんなことをされても戦争がない方がよいというので、諦めるあの形は、イギリスのチャーチルなどが始終しゃべったり、やっていることを見るとかわいそうになります。<br/><br/>ただどうやらしっかりしているのはアメリカだけですから、そこで邪神の方でもアメリカの国民を弱らせようとして大車輪をかけているのです。<br/><br/>今アメリカでは薬が進歩して、新しい薬をドンドンこしらえているのは、みんな邪神がやっているのです。<br/><br/>そこで私は、まず第一歩として『アメリカを救う』という本を出したのです。<br/><br/> なにしろ中共が北朝鮮を侵略して、ほとんど自分の植民地のようにしてしまったのです。<br/><br/>ですからこれは国際正義の上から言っても、やっつけなければならないのです。<br/><br/>ところがイギリスは逸（いち）早く承認してしまったのです。<br/><br/>なんでもよい、平和にさえなれば戦争なんかオレは大嫌いだ、ということになったのです。<br/><br/>ところがアメリカはそれを許したら、世界に侵略は公認されることになるから、承認することはできないと頑張っているのですが、そこがアメリカの値打ちのあるところです。<br/><br/>今休戦会談ができそうになりつつありますが、これは一時的なのです。<br/><br/>今アメリカはアイゼンハウアーになってから、大々的に中共征伐をやり始める準備をしているので、今アメリカに攻められたら息の根が絶えますから、これはたいへんだと、そこでなんとかして一時でもこれを引き延ばす政策をやったのです。<br/><br/>アイゼンハウアーはなかなかそんなことにごまかされないで、ともすればやっつけるぞという気勢を見せる。<br/><br/>これは今までのトルーマン大統領のような、時を稼ぐなまぬるいやり方では追いつかない、また先方は一時でもよいから休戦の条件に判を捺しておいて、もっと気長に準備をしなければならないというのが、今休戦会談がまとまろうという状勢になっているのです。<br/><br/>本当に平和にしようというのでもなんでもないので、危ないから一時窮境を逃れ、それと三年の間、朝鮮や連合軍と戦って、瘡痍（そうい）もそうとう深いから、それもなおさなければならない。<br/><br/>そうして国家をもっと充実した状態にして、それからアメリカと戦おうというわけなのです。<br/><br/>だからこの休戦会談というものは一時的のものです。<br/><br/>そこにもっていって、今言うようにイギリス、フランス辺りが弱りきってます。<br/><br/>しかしフランスはインドシナ辺りが大問題で、あそこに全力を尽くすよりしようがないのです。<br/><br/> だから朝鮮問題の方はまずイギリスより他にないが、そのイギリスがグニャグニャなのだから、そこで米国も、ここは世論の国ですから、連合国の他の国がみんなグニャグニャしているのでは、米国だけがやるというのはおもしろくないというので、では一時お前たちの言うことを聞いておこうというわけです。<br/><br/>だからアメリカの方でも、マッカーシーなどは強硬で、連合国を脱退してアメリカ独自でやろうということを言ってますが、アメリカとしてもただアメリカだけが立つのでは万事都合が悪いので、やっぱりいろいろな関係で、戦争で戦うばかりでは駄目ですから、世界的世論を大いに尊重して、まず戦争をやるにはできるだけ一致をしなければならないから、アメリカは心ならずして一時休戦に応ずるというのが、今の態勢です。<br/><br/>おまけにソ連の方はスターリンが生きていればもっと腰が強いが、スターリンの歿後はずっと腰が折れてますから、とにかく一時収めた方がよいというように、蔭から中共を牽制しているに違いないです。<br/><br/>それでまず米国とソ連が戦争をしたら、ソ連に勝ち目はありませんから、もっと充実しなければ駄目なのです。<br/><br/>そんなようで一時休戦によって小康を得るでしょう。<br/><br/>そうしておいて今度はソ連がどういう手を打つかですが、あるいはインドシナからタイの方に侵略を始めるか、それは分かりませんが、とにかくこれから大いに複雑な、結局アメリカを消耗させるという戦術を続けるに違いないです。<br/><br/>その手腕たるや、なかなか予想外の手を使うかも分かりません。<br/><br/>けれどもどっちにしろ、いつかも言ったとおり、スターリンが死んだ後は骨抜きみたいになりますから、結局なんだかんだと言いながら、ソ連滅亡の時期が来るのです。<br/><br/>それはまだそうとう先のことで、そう急なわけに行きませんが、共産主義がなくなるということは、神様の方ではチャンと決まっているのです。<br/><br/>それでこれから一番面倒な問題は、たとえ休戦になったとしても、朝鮮が南北に分かれていては、これはアメリカとしてはどうしても黙ってはいられないので、どうしても合併しなければならない。<br/><br/>合併するとすれば中共の勢力を北鮮から抜かなければならない。<br/><br/>要するに中共を中国に引っ込ませるということになるが、この問題がたいへんです。<br/><br/>アメリカはよほど強行にやるでしょうが、そうかといって中共の方では易々〔唯々〕諾々と引っ込むわけはないから、ここでまた非常に面倒な問題が起るに違いありません。<br/><br/>そういうようでまたややこしくなってきます。<br/><br/>あるいはアメリカが武力をもって解決しようという態度に出るとすると、また戦争が始まるかも分からないが、どうしてもそういう動き方になるわけです。<br/><br/>それで中共が引っ込んで南北朝鮮が合併するということになれば問題は解決しますが、中共もせっかく朝鮮に半分勢力を入れた以上、そうやすやすとは引かないで頑張るでしょうから、そう簡単には解決しないので、朝鮮というものがガンになります。<br/><br/>どうしても解決しないということになると、戦争よりほかにないことになります。<br/><br/>無論アメリカもその準備をしているから、あんがい急速な場面が出るかも分かりません。<br/><br/>だから傍観者としてはなかなか興味津々たるものがあります。<br/><br/>話はラジオ解説のようなことになりました。<br/><br/> 「社会の窓」のＮＨＫのやり方に対しても、これは許すべからざることですから、無論名誉毀損の告訴をします。<br/><br/>それを読ませます。<br/><br/> （御論文「ジャーナリストに愬う」）【栄光 二一五号】 とにかく現在のジャーナリストというものは、新宗教を非常に軽蔑しているのです。<br/><br/>それで他のことなら、こんなことは決して出るものではないのです。<br/><br/>とにかく新宗教というと非常な軽蔑をするのですが、軽蔑という意味は、彼らは新宗教なんてものは、この科学の時代に非常に間違っている、こういう非科学的のものは、ぶっつぶしてしまった方がよいと、それを良いと信じているのです。<br/><br/>しかしそれも無理はないのです。<br/><br/>世間の新宗教で、これはというものはないです。<br/><br/>ですから私は、もし救世教というものがなかったら、私もやっぱりそれと同じように、新宗教をつぶした方がよいと思います。<br/><br/>実際ロクなものはありません。<br/><br/>そうかといって旧宗教は眠っているようなもので問題にはなりません。<br/><br/>ですから私などでも無論無信仰者になります。<br/><br/>そう考えてくると、彼らの考え方も決して咎めることもできないが、ただ救世教というものは他の宗教とは違うという認識がないのです。<br/><br/>認識がないということはロクロク調べないからです。<br/><br/>この放送もロクロク調べないから、すべて悪意にとって、こんなものに迷わせられてはいけないという、一つの警告を与えるつもりですが、ではなぜ認識しないかというと、他のものがつまらないもので、価値がないというので、救世教もやっぱりそれだということに、頭から決めてしまっているのです。<br/><br/>そこにわれわれにも非常に損な点があるのです。<br/><br/>しかしそれも長い間、こういうような宗教が出なかったのだから、これはやむを得ないでしょう。<br/><br/>ですからある時期までは、こっちが苦しんだり、誤解されたりしますから、分からせるまでは非常に骨が折れることはしかたがないと思います。<br/><br/>そうかといって、こっちは金であるのに、金をメッキと思われるのですから、それはどうしても黙ってはいられないのです。<br/><br/>金は金として大いにそれを言わなければならないのです。<br/><br/>そこで骨の折れる点もあるのです。<br/><br/>そうかといって、事実は病気の解決はできるのです。<br/><br/>病気の本体が分かり、病気の心配がなくなるという、こんなすばらしいことというのは、今までにはないのですから、結局はみんな頭を下げるに決まってます。<br/><br/>それまでの間は、アブやハチがブンブン飛んできて、刺したりいろんなことで、こっちに痛みを与えますが、これはやむを得ないわけです。<br/><br/>それで、できるだけそういったハチに刺されないように、追って行くというより、しようがありません。<br/><br/>そうしてだんだん時がたつに従って、分かってくるというわけなのです。<br/><br/>このことも、ハチに刺されたので、ふたたびハチが来て刺さないように、ハチのやつを一発叩いてやるというわけです。<br/><br/>まあ蝿叩きのようなものです。<br/><br/> それから、今までもそうでしたが、これからは信仰の話をしても分からない人は、あんまり追いかけない方がよいです。<br/><br/>追い放した方がよいです。<br/><br/>というのは救世教はすばらしいものだ、神様はたいしたものだと言うが、それには違いないが、今度の最後の審判というものは、審判は善悪の裁きだが、ふつうは一人でも多く、ほとんど世界人類が救われるように思いがちですが、救われる人はごく少ないので、あとはみんな駄目になる、滅びるのです。<br/><br/>それをよく分かっていなければならない。<br/><br/>だから少し話して分からない人は放してしまった方がよいです。<br/><br/>それは閻魔の帳の方ではチャンと消してあるのです。<br/><br/>かえってその方が楽で、そのために救われるべき方の人が遅れたりするからいけないのです。<br/><br/>ですからそうした方が非常に楽で、救われるべき人が早く救われます。<br/><br/>そのことを書きました。<br/><br/> （御論文「最後の審判とは何か」）【栄光 二一三号】 それから、今の人は非常に頭が鈍感になっているので、そのために火災だとかいろんな事故が起るのです。<br/><br/>信者は知ってますが、その原因を書いてみました。<br/><br/> （御論文「近頃の世相」）【栄光 二一四号】 この薬毒が減ると体が非常に軽快になります。<br/><br/>ですから挙動が敏捷になるし、頭も同じように敏感になります。<br/><br/>ところが今の人は薬がいっぱいありますから頭が鈍感で挙動が鈍重なのです。<br/><br/>ですからいろんな事故が起るのはあたりまえです。<br/><br/>自動車や汽車を運転しても、挙動が敏感だと、見た瞬間にヒョッと避けてしまいます。<br/><br/>それが挙動が鈍重だから、見た瞬間に避けられないのです。<br/><br/>それから火事でも、この間の北海道の山火事など、約二万町歩も焼けたのですからたいへんなものです。<br/><br/>この原因の大半は煙草の火ということになってますが、吸殻を捨てますが、注意力があれば、これは危ないと思ったらちょっと消しますが、その注意力がないわけです。<br/><br/>アメリカなども非常に事故が多く、自動車事故も非常に多いようですが、これもアメリカ人の鈍感なためなのです。<br/><br/>そういった頭の悪さが社会のいろんな損害や不安の原因なのですから、その点からいっても、薬というものは恐ろしいものです。<br/><br/>それなのに明日からまた薬を大いにやるというのですから、馬鹿と言ってよいか、なんと言うか、言いようがありません。<br/><br/>私も昔は随分薬をのんだが、私は鈍感というよりか、すべてが不精になりました。<br/><br/>だからやっぱり結果においては鈍感と同じようなものです。<br/><br/>ところが始終自分でも浄霊してますから、だんだん薬が減るに従って、敏感になるのがよく分かります。<br/><br/>だから今の若い人に比べても非常に違います。<br/><br/>若い人はノロイのです。<br/><br/>歩いても若い人がついていると私は加減するのです。<br/><br/>「明主様はお速いですね、とても自分たちはついて行けない」と言うから、「それは年のせいだ」と言うのです。<br/><br/>だから毎日のようですが、もう来て用意をしていると思って行ってみても、来ていないということがよくあり、私の方が早いのです。<br/><br/>ですから調子が合わないで困ることがあります。<br/><br/>この間も若い者に言ったのですが、お前たちは巾着切のようにならなければいけないと言ったのです。<br/><br/>私などは巾着切になったら随分成功する、それは逃げるのも早いです。<br/><br/>だから巾着切のような了簡でなければ駄目だと言ったのです。<br/><br/>ただ人の物を取らなければよいのです。<br/><br/>他のことは巾着切と同じでよいのです。<br/><br/>つまり敏捷になることです。<br/><br/>そういうようになると、物事の急所などが早く見つかりますから、無駄がなく能率が上がります。<br/><br/>身魂が磨けるということはそういうことなのです。<br/><br/>なんにでも気がつくことです。<br/><br/>大本教のお筆先に「何事も気配り心配りをして下されよ」というのがあります。<br/><br/>ですから気のつくことです。<br/><br/>ところが気のつかない人が非常に多いのです。<br/><br/>ちょっとしたことに気がつかないのです。<br/><br/>それは頭の働きが鈍いからです。<br/><br/>そういうことを心掛けて練習してもよほど違います。<br/><br/>つまり人がなにか言いますが、一言ですぐに見当がつくことです。<br/><br/>こういうことを言うから、ああいう性質を持っている。<br/><br/>また来た人の話をちょっと聞いても「ははあ、これはこういう目的で来たな」ということを早く覚るということは、非常に役に立ちます。<br/><br/>また他の家に行っても、はいっていきなり下駄を見ると、腐ったような体裁の悪いのがあったら、これは懐が楽ではないなと思う。<br/><br/>子供が食っている菓子でも、つまらない安い菓子を食っているのを見ても、ははあと分かるのです。<br/><br/>私はよくネクタイの柄を見ます。<br/><br/>これは趣味の高い奴だ、低い奴だと分かります。<br/><br/>それからキチンと締めていると、これは几帳面な者だ、あるいはだらしがない者だということが分かります。<br/><br/>そういうことを見ると、すべてにおいて便利で得です。<br/><br/>それで先方の心が変わったりいろいろしたり、想念が変わり、信仰なら信仰が進んだり鈍るが、そのことで見当がつくのです。<br/><br/>それでおかしなことで、霊的にいろいろなことを見るということは止めた方がよいです。<br/><br/>それは特別な能力を持っていなければならないから駄目です。<br/><br/>私は分かりますから、よくやりますが、物質的に見ることも大いにやらなければならないのです。<br/><br/>これは科学的の方です。<br/><br/>ですから霊的と科学的と両方なければならないが、まず科学的にやることです。<br/><br/>またこれは誰にでもできることであり、非常に肝腎なことです。<br/><br/>ですから私が美術館を造るにも、なにを造るにも非常に早くて手っ取り早いのです。<br/><br/>それは物事の急所を見てしまうのです。<br/><br/>別館を造るにも、最初大体二十分ばかり見当をつけて指図して、その後、二度来て、二、三十分指図しただけで思ったとおりにできたのですが、それは急所を見て、急所を指図するから能率が上がるのです。<br/><br/> だから病気を治す場合にも、私はいつも額を触りますが、額の熱で大体分かります。<br/><br/>また熱にもいろいろあって、深い所の熱、浅い所の熱があります。<br/><br/>浅い所の熱は、芯の方の深い所は熱くないのです。<br/><br/>それから深い場合は芯の方から熱くて、浅い所はたいしてないのです。<br/><br/>これは質（たち）が悪いのです。<br/><br/>こういうのは浄化が重いのです。<br/><br/>そういうように重さ軽さが分かります。<br/><br/>また咳が出る痰が出るということもすぐ分かります。<br/><br/>ここだと思う時は必ず咳が出、痰が出ます。<br/><br/>そうするとそこに毒素があるのです。<br/><br/>そういうようにやると、浄霊の場合も早く効果が上がります。<br/><br/>それも神経の敏感さです。<br/><br/>ですからなにごとにも、そういうように心掛けるとよほど違います。<br/><br/>それは初めからそうはゆきませんが、そのつもりで心掛けると、それに慣れるに従って無駄がなくなります。<br/><br/>それから行ってみて神様の話をしても、先方が興味を持ってくるか、お座なり的で、いやいややっているかを見通さなければならない。<br/><br/>それでお座なり的だったら止して、そうでなかったら熱心にやってやるというようにするのです。<br/><br/>それで急所がありますから、その急所をやると先方はハッと分かって、信仰にはいろうということになります。<br/><br/>そういうことを心掛けることです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

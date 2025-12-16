@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgojor03</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御浄霊によって瀕死の原爆症全快す 『栄光』154号、昭和27(1952)年4月30日発行 福岡県 光宝大教会 江頭達夫（29） 私は昭和二十年八月六日午前八時過ぎのあの広島に炸裂せる原子爆弾により、中心地より五百米位離れた練兵場の真只中で爆風にうちのめされ、同時に被服に発火し、夢中で転げ廻り消火せるも、露出部に火傷を負いました。<br><br>当時は見習士官で原隊は島根県浜田にありましたので、部隊前の浜田陸軍病院に入院を命ぜられたのであります（入院八月十二日）。<br><br> 以下は父の手記、当時の電報、親戚の言葉、自分の朧気ながらの記憶等を辿り御報告申し上げます。<br><br>病院内では私が一番重体だったそうで、一人一室の部屋をあたえられ入口には赤い玉（重病人の標）がつけられ、従って家からの付添も許されました。<br><br>数日してから火傷より破傷風を起し体は硬直状態となり、軍医から絶対安静を命ぜられました。<br><br>無論当時最高の権威を誇った日本軍医術の最善は尽くされたものと思います。<br><br>その後三回にわたり、病院より至急官報による危篤電報が打電されておったのでした。<br><br> 父の手記 「二十九日午後主任軍医に御礼を述べ、経過と将来の見込を聞く。<br><br>主任軍医いわく「現在の国内にては、手当の方法もなく、十人が十人、百人が百人死去せるをもって、その覚悟ありたし。<br><br>なおＥ少尉は破傷風の恢復に重点をおき、高価な又民間では殆んど求められぬ血清薬を多量に注射すると共に、その硬直治まらざるため、モルヒネをこれ又多量に注射せる故、破傷風は今少し残っているのみなれど、ウラニウム原子浸透に対しては何とも致し方なし、又仮に全快したとしても多量のモルヒネのためモヒ中毒患者となるは必然なれば数年は父母の足手纏いとなるを覚悟せられたし」 Ｅ「それではこちらの考える方法にて看護して宜しや」と問えば、主任軍医「宜しい。<br><br>出来るだけ充分看護してやってくれ」との言に、いよいよ御浄霊のみに御縋りする外なしと妻とも意見一致、当時福岡県大川教導所の木原先生に御願いのため、三十日午前七時十三分浜田を出発す」 忘れも致しません九月二日、この日は自分でも難かしいと思われる位でした。<br><br>後で聞きますと、呼吸困難で酸素吸入をし、顔も手も紫色になり、病院長始め、看護婦長、外科医官十数名が来ておりました。<br><br>病院でもいよいよ駄目だと思ったのでしょう。<br><br>それからどの位の時間が経ったでしょうか。<br><br>折も折、遠路九州大川町より、木原先生の御指示により出張下された江頭美恵子先生が到着され、早速御浄霊を戴きこれを起点にお蔭で俄然病態は好転していったのです。<br><br>嗚呼私は当然亡き命を新しく生まれさして戴いたのであります。<br><br> 明主様真に有難うございました。<br><br>こうして過ぎし日の御報告をさして戴く内にお恥ずかしい次第ですが、今更乍ら崇高なる御恵みを賜わり、私事のみに過して参りました事を心から御詫び申し上げます。<br><br> それまで日に数十回の硬直も御浄霊の度毎に日増に柔らぎ、退院帰省後三日目より御教修を戴き、はや六年半一回の寝つく事もなく妻も迎え元気で仕事をさして頂いております。<br><br> なお私のノートにより、病院で大変重要視しておったように思われました白血球の状態等を左記へ御報告申し上げます。<br><br> 八月 五日 体重五一、三〇〇也 八月 六日 広島幼年学校運動場引率中原子爆弾で負傷 八月 八日 トラックにて宇品に到着収容さる。<br><br> 八月十二日 浜田陸軍病院に入院す。<br><br> 八月十三日 白血球一六〇〇 九月 二日 本日より御浄霊を戴く。<br><br> 九月 四日 白血球六〇〇〇 九月 五日 白血球八〇〇〇 九月十三日 本日より歩いて便所に行く。<br><br> 九月十五日 体重四〇ｋｇ 九月十九日 本日より普通食となる。<br><br>但しこれは公式の許しであって、御浄霊を戴く事になってより普通食とす。<br><br> 十月 五日 体重四一・二也 十月十三日 白血球八六〇〇、本日入浴許可あり。<br><br> 十月二十日 体重四四ｋｇ 十月二十三日 退院 十一月 八日 白血球七二〇〇、佐賀県立病院にて計る。<br><br> 十一月 九日 体重五〇ｋｇ 普通白血球は六〇〇〇……七〇〇〇だそうで、広島から来た者でこのようにぐんぐん増えて行った者は珍しいとの事。<br><br>途中八〇〇〇を超えた時など病院では驚いて、手を出そうとしたのを江頭美恵子先生は断乎とはねつけられ、御浄霊でおしとおさして戴きました。<br><br>病院内で歩行出来た者でせいぜい三〇〇〇位だとの事でありました。<br><br>現在は体重五十八ｋｇであります。<br><br> 以上極めて簡略ではありますが、大要御報告さして戴きます。<br><br>有難うございました。<br><br> （昭和二十七年四月三十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura Completa, por meio do Johrei, de uma Doença Terminal Causada pela Bomba Atômica</h2>
 <p><strong>Revista Eikou, n.º 154, 30 de abril de 1952</strong></p>
@@ -122,5 +277,48 @@ function toggleLang(lang) {
 <p>A contagem normal de glóbulos brancos, segundo me informaram, situa-se entre 6.000 e 7.000. Era considerado um fenômeno raro que um sobrevivente de Hiroshima apresentasse um aumento tão rápido e constante. Quando a contagem ultrapassou 8.000, os médicos do hospital ficaram alarmados e quiseram intervir, mas a ministra Mieko Egashira opôs-se firmemente, insistindo para que continuássemos apenas com o Johrei. Diziam que, entre os pacientes que conseguiam caminhar, a contagem mal chegava a 3.000. Atualmente, meu peso é de 58 quilos.</p>
 <p>Este foi um relato extremamente resumido, mas que abrange os pontos essenciais da graça que recebi. Muito obrigado.</p>
 <p>(30 de abril de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御浄霊によって瀕死の原爆症全快す 『栄光』154号、昭和27(1952)年4月30日発行 福岡県 光宝大教会 江頭達夫（29） 私は昭和二十年八月六日午前八時過ぎのあの広島に炸裂せる原子爆弾により、中心地より五百米位離れた練兵場の真只中で爆風にうちのめされ、同時に被服に発火し、夢中で転げ廻り消火せるも、露出部に火傷を負いました。<br/><br/>当時は見習士官で原隊は島根県浜田にありましたので、部隊前の浜田陸軍病院に入院を命ぜられたのであります（入院八月十二日）。<br/><br/> 以下は父の手記、当時の電報、親戚の言葉、自分の朧気ながらの記憶等を辿り御報告申し上げます。<br/><br/>病院内では私が一番重体だったそうで、一人一室の部屋をあたえられ入口には赤い玉（重病人の標）がつけられ、従って家からの付添も許されました。<br/><br/>数日してから火傷より破傷風を起し体は硬直状態となり、軍医から絶対安静を命ぜられました。<br/><br/>無論当時最高の権威を誇った日本軍医術の最善は尽くされたものと思います。<br/><br/>その後三回にわたり、病院より至急官報による危篤電報が打電されておったのでした。<br/><br/> 父の手記 「二十九日午後主任軍医に御礼を述べ、経過と将来の見込を聞く。<br/><br/>主任軍医いわく「現在の国内にては、手当の方法もなく、十人が十人、百人が百人死去せるをもって、その覚悟ありたし。<br/><br/>なおＥ少尉は破傷風の恢復に重点をおき、高価な又民間では殆んど求められぬ血清薬を多量に注射すると共に、その硬直治まらざるため、モルヒネをこれ又多量に注射せる故、破傷風は今少し残っているのみなれど、ウラニウム原子浸透に対しては何とも致し方なし、又仮に全快したとしても多量のモルヒネのためモヒ中毒患者となるは必然なれば数年は父母の足手纏いとなるを覚悟せられたし」 Ｅ「それではこちらの考える方法にて看護して宜しや」と問えば、主任軍医「宜しい。<br/><br/>出来るだけ充分看護してやってくれ」との言に、いよいよ御浄霊のみに御縋りする外なしと妻とも意見一致、当時福岡県大川教導所の木原先生に御願いのため、三十日午前七時十三分浜田を出発す」 忘れも致しません九月二日、この日は自分でも難かしいと思われる位でした。<br/><br/>後で聞きますと、呼吸困難で酸素吸入をし、顔も手も紫色になり、病院長始め、看護婦長、外科医官十数名が来ておりました。<br/><br/>病院でもいよいよ駄目だと思ったのでしょう。<br/><br/>それからどの位の時間が経ったでしょうか。<br/><br/>折も折、遠路九州大川町より、木原先生の御指示により出張下された江頭美恵子先生が到着され、早速御浄霊を戴きこれを起点にお蔭で俄然病態は好転していったのです。<br/><br/>嗚呼私は当然亡き命を新しく生まれさして戴いたのであります。<br/><br/> 明主様真に有難うございました。<br/><br/>こうして過ぎし日の御報告をさして戴く内にお恥ずかしい次第ですが、今更乍ら崇高なる御恵みを賜わり、私事のみに過して参りました事を心から御詫び申し上げます。<br/><br/> それまで日に数十回の硬直も御浄霊の度毎に日増に柔らぎ、退院帰省後三日目より御教修を戴き、はや六年半一回の寝つく事もなく妻も迎え元気で仕事をさして頂いております。<br/><br/> なお私のノートにより、病院で大変重要視しておったように思われました白血球の状態等を左記へ御報告申し上げます。<br/><br/> 八月 五日 体重五一、三〇〇也 八月 六日 広島幼年学校運動場引率中原子爆弾で負傷 八月 八日 トラックにて宇品に到着収容さる。<br/><br/> 八月十二日 浜田陸軍病院に入院す。<br/><br/> 八月十三日 白血球一六〇〇 九月 二日 本日より御浄霊を戴く。<br/><br/> 九月 四日 白血球六〇〇〇 九月 五日 白血球八〇〇〇 九月十三日 本日より歩いて便所に行く。<br/><br/> 九月十五日 体重四〇ｋｇ 九月十九日 本日より普通食となる。<br/><br/>但しこれは公式の許しであって、御浄霊を戴く事になってより普通食とす。<br/><br/> 十月 五日 体重四一・二也 十月十三日 白血球八六〇〇、本日入浴許可あり。<br/><br/> 十月二十日 体重四四ｋｇ 十月二十三日 退院 十一月 八日 白血球七二〇〇、佐賀県立病院にて計る。<br/><br/> 十一月 九日 体重五〇ｋｇ 普通白血球は六〇〇〇……七〇〇〇だそうで、広島から来た者でこのようにぐんぐん増えて行った者は珍しいとの事。<br/><br/>途中八〇〇〇を超えた時など病院では驚いて、手を出そうとしたのを江頭美恵子先生は断乎とはねつけられ、御浄霊でおしとおさして戴きました。<br/><br/>病院内で歩行出来た者でせいぜい三〇〇〇位だとの事でありました。<br/><br/>現在は体重五十八ｋｇであります。<br/><br/> 以上極めて簡略ではありますが、大要御報告さして戴きます。<br/><br/>有難うございました。<br/><br/> （昭和二十七年四月三十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sagijida</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 詐欺時代 『栄光』231号、昭和28(1953)年10月21日発行 これも可笑（おか）しな題だが、実は本当の事であって、ただ一般が気が付かないだけの話である。<br><br>それは何かというと今日の社会は真実そのものは至って少く、大部分といっていい程大なり小なり詐欺（さぎ）的手段が公然と行われている。<br><br>それを今かいてみるが、例により医薬の面でまず薬である。<br><br>毎日の新聞の広告欄を見ても分る通り、薬の広告が大半を占めている。<br><br>このような莫大な広告料を払ってまで割に合うのだから、いかに売れるかが分る。<br><br>これでみても今の人間が服（の）む薬の量は大変なもので少し有名な売薬は、五段抜き二つ割大の広告を毎日のように出しているが、この広告を吾々の見地から検討してみると、ほとんど詐欺ならざるはないと言っていいくらいである。<br><br> 例えばこの薬をのんだら何病に効くとか、何病の発病が予防出来るとか、血が増え肉が増えるとかサモ素晴しい効果がありそうに思われるが、ことごとくは売らんがための欺瞞（ぎまん）手段である。<br><br>というのは第一当局にしても薬の効く効かないは問題ではない。<br><br>ただ害にさえならなければ許可する方針だというのであるから、売薬業者もその点充分承知しているはずであるから怪（け）しからん話だ。<br><br>もっとも昔から売薬の効能といって誇大が当り前のようになっているのは誰も知っているであろう。<br><br>これらも公平に見て一種の詐欺的行為といえよう。<br><br>しかも人の弱身につけ込んで金儲けに利用するのだから、その罪赦（ゆる）し難しであろう。<br><br>次は医学であるがこれも大同小異で、ただ世人が気がつかないだけの事である。<br><br>例えば貴方（あなた）の病気は一週間通えば治るとか、この注射を何本射てば快くなるとか、この手術なら、この薬を続ければなどといって患者に安心させるが、恐らく言葉通りに治った例（ため）しは極く稀（まれ）であって、大部分は見込違いであるのは医師もよく知っているはずで、これをパーセンテージで表わしたら、意外な結果であろう。<br><br>してみればこれらも善意の詐欺といえない事はあるまい。<br><br> ゆえに“貴方の病気は私には分らないから確かな事は言えない、服み薬でも注射でも何々療法でも、治るとは断言出来ない、入院しても確かに治るとは請合えない”と言うのが本当であろうが、それでは患者は来なくなり、たちまち飯の食い上げとなるから止むを得ないとは思うが、患者こそいい面の皮であり、医師の立場もサゾ辛いだろうと御察しする。<br><br>また手術にしても一回で治らず、二回、三回というように回を重ねても治らず、酷（ひど）いのになると一週間の入院で治ると請合っても治らず、二週間、三週間、ついには半年、一年となっても治らない例もよく聞くのである。<br><br>これらに至っては多額の入院料を払いつつ、長い間散々苦しんだ揚句（あげく）、病気の方は入院当時よりも悪化し、結局退院か死かのどちらかというような人も随分多いようで、結果からいってヤハリ詐欺になり患者は被害者になる訳である。<br><br>そのような事が何ら怪しまれず公々然と行われている今日であるから、実に恐ろしい世の中と言わざるを得ない。<br><br>ところがこういう場合医師は巧く逃げる。<br><br>いわく貴方は異常体質だ、手後れだったのだ、非常な悪質な病気だ、万人に一人しかない病だなどといって済んでしまう。<br><br>中には良心的な医師もあって、自分の見込違いだったという事もないではないが、これらは極く稀である。<br><br> 次は政治面であるが、政府の公約も、議員候補者の選挙演説なども、国民や選挙民に誓約した言葉などその場限りで忘れてしまい、何ら責任を負わないのが通例となっている。<br><br>また政党なども口では国家本位などというが、実は我党本位であって、是々非々（ぜぜひひ）も御都合次第で、いつかは煙になる事が多い。<br><br>また商工業者の見本と現品の違う事など当然のようになっており、手形の不渡（ふわたり）の多い事などかけば限りがない程で、ただ法に触れるか触れないかの際（きわ）どい詐欺は当然のように社会一般に行われている。<br><br>というように今日の世の中で正直明朗はほとんど見られない。<br><br>今一つの驚くべき事は宗教にも詐術があると聞いたら誰しも意外に思うであろう。<br><br>それは何かというと、例えば貴方の病気を治すには、幾ら幾ら金を献（ささ）げなさいという宗教がある。<br><br>しかしその通りに上げても治らず、死ぬ事もあるから、これらは神の名を利用した立派な詐欺であろう。<br><br>そうかと思うと御利益のない内から信じなくては治らないというかと思えば、御利益のないのは信仰が足りないからなどと逃げるのも、厳密にいえば詐欺でないと誰か言い得よう。<br><br> こうみてくると今日の世の中は、真実は絶無とは言えないまでも、まことに寥々（りょうりょう）たる有様でほとんど嘘つき瞞（だま）し合いが普通の事のようになっている。<br><br>全く闇の世の中である。<br><br>この闇の世の中を明るい世の中に切替えるのが我救世教の使命であるから、世間でもお光様というのであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Era da Fraude</h2>
 <p>Este pode parecer um título peculiar, contudo, ele descreve uma realidade inegável da qual a maioria das pessoas simplesmente não se dá conta. Refiro-me ao fato de que, na sociedade contemporânea, a verdade é um bem escasso. Em sua maior parte, o que vemos são estratagemas fraudulentos, de pequena ou grande monta, sendo praticados abertamente em quase todos os setores.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>A análise se estende à esfera política. As promessas do governo e os discursos de candidatos durante as eleições são, em geral, esquecidos logo após o pleito, e os juramentos feitos à nação e aos eleitores não acarretam qualquer responsabilidade. Os partidos políticos, embora bradem em seus discursos o nacionalismo, na prática, seus interesses são invariavelmente partidários, e o discernimento imparcial entre o certo e o errado é moldado pela conveniência do momento, desfazendo-se no ar. No comércio e na indústria, a disparidade entre as amostras e os produtos finais tornou-se corriqueira, e a quantidade de cheques sem fundo é tão vasta que seria impossível enumerar. Assim, fraudes que tangenciam os limites da lei são praticadas como algo natural na sociedade. Em suma, a honestidade e a clareza são artigos raros no mundo de hoje.</p>
 <p>O que talvez cause maior espanto, no entanto, é constatar que a fraude se manifesta até mesmo no campo religioso. Existem religiões que exigem vultosas doações em troca da promessa de cura. Quando o fiel contribui conforme o solicitado, mas não melhora e acaba por falecer, estamos diante de um autêntico estelionato que se utiliza do nome de Deus. Outras, para se eximirem da responsabilidade pela ausência de graças, chegam a dizer que é preciso crer antes mesmo de receber o benefício ou, quando este não se manifesta, atribuem o fracasso à falta de fé do seguidor. A rigor, quem poderia negar que isso também constitui uma forma de fraude?</p>
 <p>Observando este panorama, conclui-se que no mundo atual, embora não se possa dizer que a verdade seja inexistente, sua presença é rara e fugaz. A mentira e o engano mútuo se tornaram a norma. Vivemos, de fato, em um mundo de trevas. E é precisamente este mundo de trevas que nossa Igreja tem por missão transformar em um mundo de luz. Eis, porventura, a razão pela qual o mundo se refere à nossa Obra como a Luz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 詐欺時代 『栄光』231号、昭和28(1953)年10月21日発行 これも可笑（おか）しな題だが、実は本当の事であって、ただ一般が気が付かないだけの話である。<br/><br/>それは何かというと今日の社会は真実そのものは至って少く、大部分といっていい程大なり小なり詐欺（さぎ）的手段が公然と行われている。<br/><br/>それを今かいてみるが、例により医薬の面でまず薬である。<br/><br/>毎日の新聞の広告欄を見ても分る通り、薬の広告が大半を占めている。<br/><br/>このような莫大な広告料を払ってまで割に合うのだから、いかに売れるかが分る。<br/><br/>これでみても今の人間が服（の）む薬の量は大変なもので少し有名な売薬は、五段抜き二つ割大の広告を毎日のように出しているが、この広告を吾々の見地から検討してみると、ほとんど詐欺ならざるはないと言っていいくらいである。<br/><br/> 例えばこの薬をのんだら何病に効くとか、何病の発病が予防出来るとか、血が増え肉が増えるとかサモ素晴しい効果がありそうに思われるが、ことごとくは売らんがための欺瞞（ぎまん）手段である。<br/><br/>というのは第一当局にしても薬の効く効かないは問題ではない。<br/><br/>ただ害にさえならなければ許可する方針だというのであるから、売薬業者もその点充分承知しているはずであるから怪（け）しからん話だ。<br/><br/>もっとも昔から売薬の効能といって誇大が当り前のようになっているのは誰も知っているであろう。<br/><br/>これらも公平に見て一種の詐欺的行為といえよう。<br/><br/>しかも人の弱身につけ込んで金儲けに利用するのだから、その罪赦（ゆる）し難しであろう。<br/><br/>次は医学であるがこれも大同小異で、ただ世人が気がつかないだけの事である。<br/><br/>例えば貴方（あなた）の病気は一週間通えば治るとか、この注射を何本射てば快くなるとか、この手術なら、この薬を続ければなどといって患者に安心させるが、恐らく言葉通りに治った例（ため）しは極く稀（まれ）であって、大部分は見込違いであるのは医師もよく知っているはずで、これをパーセンテージで表わしたら、意外な結果であろう。<br/><br/>してみればこれらも善意の詐欺といえない事はあるまい。<br/><br/> ゆえに“貴方の病気は私には分らないから確かな事は言えない、服み薬でも注射でも何々療法でも、治るとは断言出来ない、入院しても確かに治るとは請合えない”と言うのが本当であろうが、それでは患者は来なくなり、たちまち飯の食い上げとなるから止むを得ないとは思うが、患者こそいい面の皮であり、医師の立場もサゾ辛いだろうと御察しする。<br/><br/>また手術にしても一回で治らず、二回、三回というように回を重ねても治らず、酷（ひど）いのになると一週間の入院で治ると請合っても治らず、二週間、三週間、ついには半年、一年となっても治らない例もよく聞くのである。<br/><br/>これらに至っては多額の入院料を払いつつ、長い間散々苦しんだ揚句（あげく）、病気の方は入院当時よりも悪化し、結局退院か死かのどちらかというような人も随分多いようで、結果からいってヤハリ詐欺になり患者は被害者になる訳である。<br/><br/>そのような事が何ら怪しまれず公々然と行われている今日であるから、実に恐ろしい世の中と言わざるを得ない。<br/><br/>ところがこういう場合医師は巧く逃げる。<br/><br/>いわく貴方は異常体質だ、手後れだったのだ、非常な悪質な病気だ、万人に一人しかない病だなどといって済んでしまう。<br/><br/>中には良心的な医師もあって、自分の見込違いだったという事もないではないが、これらは極く稀である。<br/><br/> 次は政治面であるが、政府の公約も、議員候補者の選挙演説なども、国民や選挙民に誓約した言葉などその場限りで忘れてしまい、何ら責任を負わないのが通例となっている。<br/><br/>また政党なども口では国家本位などというが、実は我党本位であって、是々非々（ぜぜひひ）も御都合次第で、いつかは煙になる事が多い。<br/><br/>また商工業者の見本と現品の違う事など当然のようになっており、手形の不渡（ふわたり）の多い事などかけば限りがない程で、ただ法に触れるか触れないかの際（きわ）どい詐欺は当然のように社会一般に行われている。<br/><br/>というように今日の世の中で正直明朗はほとんど見られない。<br/><br/>今一つの驚くべき事は宗教にも詐術があると聞いたら誰しも意外に思うであろう。<br/><br/>それは何かというと、例えば貴方の病気を治すには、幾ら幾ら金を献（ささ）げなさいという宗教がある。<br/><br/>しかしその通りに上げても治らず、死ぬ事もあるから、これらは神の名を利用した立派な詐欺であろう。<br/><br/>そうかと思うと御利益のない内から信じなくては治らないというかと思えば、御利益のないのは信仰が足りないからなどと逃げるのも、厳密にいえば詐欺でないと誰か言い得よう。<br/><br/> こうみてくると今日の世の中は、真実は絶無とは言えないまでも、まことに寥々（りょうりょう）たる有様でほとんど嘘つき瞞（だま）し合いが普通の事のようになっている。<br/><br/>全く闇の世の中である。<br/><br/>この闇の世の中を明るい世の中に切替えるのが我救世教の使命であるから、世間でもお光様というのであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>omukae</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様をお迎えした美術館工事場にて 百地超生 『栄光』146号、昭和27(1952)年3月5日発行 強羅でも近年に珍らしい大雪に見舞われ、この数日間の積雪は二尺に垂（なんな）んとした。<br><br>丁度雪も降り止んだ今日、突然美術館工事の御指図の為、明主様が御出でになるとの報である。<br><br>奇しくも灰色の空はカラリと霽れ極まり、白雪をちりばめた美しい山屏風の線が、鮮やかに強羅の空を区切っており、春光燦々として雪の面に眩しく、流泉は雪解の水音をたて鳴らし梢の滴りが、宝石のように五色に光り、お迎えするにこよなく相応わしい全山の粧いとなった。<br><br>この積雪に故障でもあってはと杞憂する程なく御車の姿が見え、奉仕隊員等堵列の中を御下車、アッと思う間に、最短距離なる神山荘裏小路から、美術館信徒入口へお入りになる。<br><br>吾等も周章（あわ）ててお後へ駈け続く、階下から階上を一巡せられ三階御居間を御覧になる。<br><br> 奉仕隊が火鉢を抱えてお伴しているが御手をお延べになろうともせぬ御元気さ、ひたすら一室々々に御構図を廻らされつつお楽しみ深くお巡りになっているかに拝される。<br><br>主任に御尋ねになったり御指示を与えられたり、時々佇まれては御考えになっている。<br><br>その全体的御構想の中には、色感形状展示のもの等々、あらゆる美的要素が一瞬に働いて、想像もつかぬ速度と御卓見を以て調和統合され、室内の霊界に、馥郁として芸術の花咲き匂う様相が出現さるるのであろう。<br><br>お側にある吾等の想念にもいつしかほのかにその光景が描かれ未だ見ぬ限りない美の中に浸る心地がする。<br><br> 御視察約四十分、一般参観口から、竹林をくねる石段をお降りになり、館の外観を一顧せられたと思うと新設の瀟洒な橋をお渡りになられ、茶室裏のなだりを横切って観山亭へお入りになり、御少憩の後工事中の日光殿を御一見の上お帰りになった。<br><br>実にお速い。<br><br>今月に入って二度目の御視察なので、極めて大雑把に御覧になったように拝されたが、勿論急所の御差図だけで何だか非常に進捗せられたような感じであった。<br><br> 私はこの建物の全体から、時に内部に入ってみて、いつも云いしれぬ快感と喜びを覚えるが、今日御伴して感じたそれは全く別の感じである。<br><br>それは何ともいえぬ、一種の美的陶酔であった。<br><br>それでいて未だ塗りも出来ぬホンの骨組だけのガランとした建物なのである実に不思議といえば不思議であるが、これが素晴らしい神の芸術の御力なのであって明主様の真善美の御心そのまま像づくられたこの建物には、神霊の御光が満ち満ちているのであろう。<br><br> つい昨年の秋九月熱海へ御移りになる頃は、敷地に柱穴が掘られ、石塊が散乱しているのみだった。<br><br>以来の進捗ぷりを知らぬ信徒が今日来てみるとすれば、誰しもまず、堂々たる偉容の出現に驚きの声を放つであろう。<br><br>そしてその内部に入るや、その広々としているのに意外の感に打たれるであろうし、一巡して天国的よろこぴと快感に打たれるであろう。<br><br>この快感こそ無信仰者にも無為にして神の御心を教ゆる神の芸術の力である。<br><br> 信徒入口のある第一室、ここは五十坪に近い広さで美術品の飾られる床と、神苑に面した窓とは鍵形に相対しており、太い円柱二本あって室内に変化を与えている。<br><br>観覧者はまずここで呆然として美の光に包まれてしまうであろう。<br><br> 次がホールで一般入口があり、絵のような竹林の道を抜けてここへ入るのである。<br><br>そして受付と事務所があり二階への階段がある。<br><br>次が十五坪位と十坪位の第二室第三室に区切られている。<br><br>二階はほぼ相似形の室数になっているが、その間に応接室、休憩室のホールもあるが、それらは何ともいえぬ好位置に設けられ、憩いと談合の気分に実によく合致している。<br><br>大中小の各室は皆それぞれ特色ある趣きがあり、吾を忘れるような落着と、快感が想われる。<br><br>勿論室々に最も適合する美術品の種類が展示され、その部門々々の味わいを最大効果をもて鑑賞させられる事であちうが、如何なる神品が飾られる事かを思うて、娯しみ尽きぬものがある。<br><br> どの室にも窓は思い切り大きく広くとられ、採光は豊かで明るく外観もまた良い、天井の高さも一般美術館の如く高すぎず、実に程よく大きい窓とも展示の場所ともよくマッチし、室全体にゆったりとした歎美的雰囲気を作っている。<br><br>この大胆単純な手法の効果も優れた新規軸の行り方であろう。<br><br>又大部分の窓は神苑側に広くとられているので、あの森厳な神仙郷と美しい箱根の山景の、階上階下の高低二段の角度から眺望を存分に楽しめるようになっている。<br><br>それは宛ら、窓枠を額縁とした大幅の生ける名画の展示ともみられ、しかもそれは悉く美術品の列と相対しているのであるから、丁度人工美の気品と造化美の神秘とが、その芸術を競うかの如くなっており、観者は正に陶然たらざるを得ぬであろう。<br><br>特に二階のホールと、これに続く第一室の広い展望室の窓から俯瞰する景観は正に圧巻で、ここでは誰人も歎賞時の経るを忘れる事であろうと今から想像出来る。<br><br>全く世界の公園強羅最上の勝景を様々の額にして眺めらるるだけでも他に比肩を許さぬ所である。<br><br> 言うまでもなくこの美術館は、一面高度の新しい建築の様式と美を創造さるるのであって、誰人の意見も交えず、全く明主様御自らの御設計によって成るのである。<br><br>従ってその建築手法も従来の型を破ったものが多い為、棟梁も御指図が呑み込めず屡々（しばしば）頭を捻っており、部分々々の図面の如きも最初の御指示通りになるまでに何遍も書き直すそうである。<br><br>特に三階日本間に至っては奇想天外、建築術の極致であって、これが完成の頃は、斯界の権威者も讃歎の声を放ち、建築術に革命的問題を提供するに違いない。<br><br> 三階は未だ御部屋らしい工作は殆んど施されていないが、ここへ歩を入れてまず凝然と目を瞠るのは、前面と側面の壁が殆んど一杯に開けられて、美しい箱根連山の山容が大きく眼に映る事である。<br><br>その大観が丁度この御部屋の庭園になっている感じであるし、朝夕晴曇、刻々変化する雄大壮麓な山々の壁画を、ここでは居ながらにして観賞出来る訳であって、最高天国の光の家もかくやと思われる。<br><br>その他大小の窓は程よくとられて実に明るく、涼風も自在である。<br><br>そしてテラスへ出れば樹海に彩られた神仙郷の全貌も、遥かに金時、乙女峠、明星へ連る山並、明神、浅間のなだらかな曲線と、その両袖の間に展ける小田原の海等々、何の妨げもなく一瞬の視野に入って恣ままにその眺めを楽しむ事が出来る。<br><br> 又御部屋の左右は広いバルコニーになっていて、強羅を囲む天然の山屏風の広大な壮観の回覧は壮快極りなく、ここへ出ると身は雲上を歩む心地がし、現世にあるを忘れしめる。<br><br>全くこの景観こそ、神がこの美術館の為に創造されたものと思うほど、理想の展望点である。<br><br>未だ概形しか判らぬが私が特に意表であり素晴しいと思うのは三階の屋根の姿である。<br><br>これは又コルヴェジュエ式風の単純な直線で構成された洋館の上に、純東洋風の粋を凝らした造形が聳り立って調和の妙をなし、この全建築の趣きを一変せしめており、またこの美術館の意義を表示してもいる。<br><br>そして一般参観道からこの高雅優美、荘厳、豪壮のこの屋根を仰ぎ見つつ、竹林の道へ登り入る趣きは実に何ともいえぬ、それは最高天国の真善美そのままを象徴し、天空高く掲げているようでもあり、諸々の美の神々の上に座します神の宮居とも思える。<br><br> この美術館の建築こそ、東洋美と西洋美を総合調和して新しく創造された天国美の真随を具現せるものであり天下稀覯（きこう）の日本美術の神品はここに蒐ってこそ初めてその真価を生かされ、陸離として四海に光芒を放つであろう。<br><br> 未だ工事半ばながら、天国そのままの環境と、これにマッチする建築美、これだけでも天下第一である事を断言出来るのに、なお美術品の展示等によって、如何に素晴しく美化され完成されるかは吾等が夢にも描けぬ所であって、何れは世界的に驚倒の渦を巻き起さずにおかぬ事は一点の疑う余地はない。<br><br> なお又、萩の家に沿う渓流には雅趣豊かな橋が架けられたが、ここから茶室の裏一帯に渉る庭園工事も今着々進捗している。<br><br>ここにもどんな美の夢が出現する事かと思うと堪らない気がする。<br><br>そしてこの空前の世紀に生を亨け信者として救われた吾等の幸福をしみじみ思った。<br><br> 日光殿もマンホールが出来、その上から、龍頭の滝辺にかけて一棟が増築され面目一新しつつあり、今夏完工の上は恐らく今まで倍以上の参拝者は収容されるという事である。<br><br> 信徒諸士、否、光を求むる世の人々よ、刮目して期待あれ、今夏出現の大美化を！
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Presença de Meishu-Sama no Canteiro de Obras do Museu de Arte</h2>
 <p>Gora fora agraciada por uma nevasca de rara intensidade nos últimos anos; o acúmulo de neve, ao longo de vários dias, aproximava-se dos sessenta centímetros. E hoje, precisamente no dia em que a neve cessou, fomos surpreendidos pela notícia de que Meishu-Sama viria inspecionar as obras do Museu de Arte. O céu cinzento, como por um milagre, abriu-se em um azul límpido e profundo. As belas montanhas, salpicadas de neve, desenhavam uma moldura nítida e majestosa no horizonte de Gora. A luz da primavera resplandecia, ofuscando a brancura da paisagem, enquanto o som do degelo nos riachos e o gotejar dos galhos, cintilando como joias multicoloridas, compunham o cenário. Toda a montanha se vestira com seus mais belos trajes, em uma acolhida digna de Sua presença.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Adicionalmente, uma ponte de grande encanto foi construída sobre o riacho próximo à Casa Hagi, e o trabalho de jardinagem, que se estenderá por toda a área atrás da casa de chá, avança a passos largos. A expectativa do sonho de beleza que ali se manifestará é imensa e nos enche de emoção. E, com isso, refleti profundamente sobre a felicidade que temos, nós que nascemos neste século sem precedentes e fomos salvos como fiéis.</p>
 <p>O Templo Nikko-den, com a construção de uma passagem subterrânea, e o acréscimo de uma nova ala que se estende até a região da Cachoeira Ryuto, está sendo completamente renovado. Com sua conclusão prevista para este verão, estima-se que sua capacidade de acomodação será mais que duplicada.</p>
 <p>Membros e fiéis! E vós, ó gentes do mundo que buscais a Luz! Aguardai com os olhos atentos! Contemplai a grande beleza que se manifestará neste verão</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様をお迎えした美術館工事場にて 百地超生 『栄光』146号、昭和27(1952)年3月5日発行 強羅でも近年に珍らしい大雪に見舞われ、この数日間の積雪は二尺に垂（なんな）んとした。<br/><br/>丁度雪も降り止んだ今日、突然美術館工事の御指図の為、明主様が御出でになるとの報である。<br/><br/>奇しくも灰色の空はカラリと霽れ極まり、白雪をちりばめた美しい山屏風の線が、鮮やかに強羅の空を区切っており、春光燦々として雪の面に眩しく、流泉は雪解の水音をたて鳴らし梢の滴りが、宝石のように五色に光り、お迎えするにこよなく相応わしい全山の粧いとなった。<br/><br/>この積雪に故障でもあってはと杞憂する程なく御車の姿が見え、奉仕隊員等堵列の中を御下車、アッと思う間に、最短距離なる神山荘裏小路から、美術館信徒入口へお入りになる。<br/><br/>吾等も周章（あわ）ててお後へ駈け続く、階下から階上を一巡せられ三階御居間を御覧になる。<br/><br/> 奉仕隊が火鉢を抱えてお伴しているが御手をお延べになろうともせぬ御元気さ、ひたすら一室々々に御構図を廻らされつつお楽しみ深くお巡りになっているかに拝される。<br/><br/>主任に御尋ねになったり御指示を与えられたり、時々佇まれては御考えになっている。<br/><br/>その全体的御構想の中には、色感形状展示のもの等々、あらゆる美的要素が一瞬に働いて、想像もつかぬ速度と御卓見を以て調和統合され、室内の霊界に、馥郁として芸術の花咲き匂う様相が出現さるるのであろう。<br/><br/>お側にある吾等の想念にもいつしかほのかにその光景が描かれ未だ見ぬ限りない美の中に浸る心地がする。<br/><br/> 御視察約四十分、一般参観口から、竹林をくねる石段をお降りになり、館の外観を一顧せられたと思うと新設の瀟洒な橋をお渡りになられ、茶室裏のなだりを横切って観山亭へお入りになり、御少憩の後工事中の日光殿を御一見の上お帰りになった。<br/><br/>実にお速い。<br/><br/>今月に入って二度目の御視察なので、極めて大雑把に御覧になったように拝されたが、勿論急所の御差図だけで何だか非常に進捗せられたような感じであった。<br/><br/> 私はこの建物の全体から、時に内部に入ってみて、いつも云いしれぬ快感と喜びを覚えるが、今日御伴して感じたそれは全く別の感じである。<br/><br/>それは何ともいえぬ、一種の美的陶酔であった。<br/><br/>それでいて未だ塗りも出来ぬホンの骨組だけのガランとした建物なのである実に不思議といえば不思議であるが、これが素晴らしい神の芸術の御力なのであって明主様の真善美の御心そのまま像づくられたこの建物には、神霊の御光が満ち満ちているのであろう。<br/><br/> つい昨年の秋九月熱海へ御移りになる頃は、敷地に柱穴が掘られ、石塊が散乱しているのみだった。<br/><br/>以来の進捗ぷりを知らぬ信徒が今日来てみるとすれば、誰しもまず、堂々たる偉容の出現に驚きの声を放つであろう。<br/><br/>そしてその内部に入るや、その広々としているのに意外の感に打たれるであろうし、一巡して天国的よろこぴと快感に打たれるであろう。<br/><br/>この快感こそ無信仰者にも無為にして神の御心を教ゆる神の芸術の力である。<br/><br/> 信徒入口のある第一室、ここは五十坪に近い広さで美術品の飾られる床と、神苑に面した窓とは鍵形に相対しており、太い円柱二本あって室内に変化を与えている。<br/><br/>観覧者はまずここで呆然として美の光に包まれてしまうであろう。<br/><br/> 次がホールで一般入口があり、絵のような竹林の道を抜けてここへ入るのである。<br/><br/>そして受付と事務所があり二階への階段がある。<br/><br/>次が十五坪位と十坪位の第二室第三室に区切られている。<br/><br/>二階はほぼ相似形の室数になっているが、その間に応接室、休憩室のホールもあるが、それらは何ともいえぬ好位置に設けられ、憩いと談合の気分に実によく合致している。<br/><br/>大中小の各室は皆それぞれ特色ある趣きがあり、吾を忘れるような落着と、快感が想われる。<br/><br/>勿論室々に最も適合する美術品の種類が展示され、その部門々々の味わいを最大効果をもて鑑賞させられる事であちうが、如何なる神品が飾られる事かを思うて、娯しみ尽きぬものがある。<br/><br/> どの室にも窓は思い切り大きく広くとられ、採光は豊かで明るく外観もまた良い、天井の高さも一般美術館の如く高すぎず、実に程よく大きい窓とも展示の場所ともよくマッチし、室全体にゆったりとした歎美的雰囲気を作っている。<br/><br/>この大胆単純な手法の効果も優れた新規軸の行り方であろう。<br/><br/>又大部分の窓は神苑側に広くとられているので、あの森厳な神仙郷と美しい箱根の山景の、階上階下の高低二段の角度から眺望を存分に楽しめるようになっている。<br/><br/>それは宛ら、窓枠を額縁とした大幅の生ける名画の展示ともみられ、しかもそれは悉く美術品の列と相対しているのであるから、丁度人工美の気品と造化美の神秘とが、その芸術を競うかの如くなっており、観者は正に陶然たらざるを得ぬであろう。<br/><br/>特に二階のホールと、これに続く第一室の広い展望室の窓から俯瞰する景観は正に圧巻で、ここでは誰人も歎賞時の経るを忘れる事であろうと今から想像出来る。<br/><br/>全く世界の公園強羅最上の勝景を様々の額にして眺めらるるだけでも他に比肩を許さぬ所である。<br/><br/> 言うまでもなくこの美術館は、一面高度の新しい建築の様式と美を創造さるるのであって、誰人の意見も交えず、全く明主様御自らの御設計によって成るのである。<br/><br/>従ってその建築手法も従来の型を破ったものが多い為、棟梁も御指図が呑み込めず屡々（しばしば）頭を捻っており、部分々々の図面の如きも最初の御指示通りになるまでに何遍も書き直すそうである。<br/><br/>特に三階日本間に至っては奇想天外、建築術の極致であって、これが完成の頃は、斯界の権威者も讃歎の声を放ち、建築術に革命的問題を提供するに違いない。<br/><br/> 三階は未だ御部屋らしい工作は殆んど施されていないが、ここへ歩を入れてまず凝然と目を瞠るのは、前面と側面の壁が殆んど一杯に開けられて、美しい箱根連山の山容が大きく眼に映る事である。<br/><br/>その大観が丁度この御部屋の庭園になっている感じであるし、朝夕晴曇、刻々変化する雄大壮麓な山々の壁画を、ここでは居ながらにして観賞出来る訳であって、最高天国の光の家もかくやと思われる。<br/><br/>その他大小の窓は程よくとられて実に明るく、涼風も自在である。<br/><br/>そしてテラスへ出れば樹海に彩られた神仙郷の全貌も、遥かに金時、乙女峠、明星へ連る山並、明神、浅間のなだらかな曲線と、その両袖の間に展ける小田原の海等々、何の妨げもなく一瞬の視野に入って恣ままにその眺めを楽しむ事が出来る。<br/><br/> 又御部屋の左右は広いバルコニーになっていて、強羅を囲む天然の山屏風の広大な壮観の回覧は壮快極りなく、ここへ出ると身は雲上を歩む心地がし、現世にあるを忘れしめる。<br/><br/>全くこの景観こそ、神がこの美術館の為に創造されたものと思うほど、理想の展望点である。<br/><br/>未だ概形しか判らぬが私が特に意表であり素晴しいと思うのは三階の屋根の姿である。<br/><br/>これは又コルヴェジュエ式風の単純な直線で構成された洋館の上に、純東洋風の粋を凝らした造形が聳り立って調和の妙をなし、この全建築の趣きを一変せしめており、またこの美術館の意義を表示してもいる。<br/><br/>そして一般参観道からこの高雅優美、荘厳、豪壮のこの屋根を仰ぎ見つつ、竹林の道へ登り入る趣きは実に何ともいえぬ、それは最高天国の真善美そのままを象徴し、天空高く掲げているようでもあり、諸々の美の神々の上に座します神の宮居とも思える。<br/><br/> この美術館の建築こそ、東洋美と西洋美を総合調和して新しく創造された天国美の真随を具現せるものであり天下稀覯（きこう）の日本美術の神品はここに蒐ってこそ初めてその真価を生かされ、陸離として四海に光芒を放つであろう。<br/><br/> 未だ工事半ばながら、天国そのままの環境と、これにマッチする建築美、これだけでも天下第一である事を断言出来るのに、なお美術品の展示等によって、如何に素晴しく美化され完成されるかは吾等が夢にも描けぬ所であって、何れは世界的に驚倒の渦を巻き起さずにおかぬ事は一点の疑う余地はない。<br/><br/> なお又、萩の家に沿う渓流には雅趣豊かな橋が架けられたが、ここから茶室の裏一帯に渉る庭園工事も今着々進捗している。<br/><br/>ここにもどんな美の夢が出現する事かと思うと堪らない気がする。<br/><br/>そしてこの空前の世紀に生を亨け信者として救われた吾等の幸福をしみじみ思った。<br/><br/> 日光殿もマンホールが出来、その上から、龍頭の滝辺にかけて一棟が増築され面目一新しつつあり、今夏完工の上は恐らく今まで倍以上の参拝者は収容されるという事である。<br/><br/> 信徒諸士、否、光を求むる世の人々よ、刮目して期待あれ、今夏出現の大美化を！</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

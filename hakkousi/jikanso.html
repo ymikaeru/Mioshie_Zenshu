@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jikanso</title>
 <link href="../style1.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <p align="center">
 <font face="HG正楷書体-PRO" size="3">―――　岡
                         田 自 観 師 の 論 文 集　――</font>
@@ -14,52 +215,6 @@
 </p>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 自観叢書 第１篇～第15篇 案内文 信徒各諸氏の待望久しかりし自観大先生御執筆の自観叢書はいよいよ大一篇より刊行開始致しました。<br><br>一読光明の世界へ誘致する筆力の偉大さに御期待下さい。<br><br> 第１篇 結核と神霊療法 昭和24年 6月25日発行 Ｂ６版 80P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教会 第２篇 無肥料栽培法 昭和24年 7月1日発行 Ｂ６版 91P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教会 案内文 結核は治るといわれながら、現実はなかなか治らないのはどういうわけか、これについてわが神霊療法からみてその原因と必治法を解説して余蘊なし 案内文 本著が説く無肥料栽培によれば三割ないし五割の増収は確実である、その原理と方法、実験報告は遺憾なく本著に示されてある。<br><br> 第３篇 霊界叢談 昭和24年 10月5日発行 Ｂ６版 77P 著者 岡田 自観 発行人 西山舜之助 発行所 二十世紀出版印刷合資会社 第４篇 奇蹟物語 昭和24年 10月5日発行 Ｂ６版 78P 著者 岡田 自観 発行人 西山舜之助 発行所 二十世紀出版印刷合資会社 案内文 人間の死とは一切の終りとされているが実は死後霊界に往き、霊界生活が始まるのである。<br><br>生き更り死に代り盡（つ）くるところを知らないのが人間生命である。<br><br> 案内文 この書は明主様御霊験の奇蹟の記録で、信仰を向上さす上の絶好の読物である 第５篇 自観隨談 昭和24年 8月30日発行 Ｂ６版 78P 著者 岡田 自観 発行人 西山舜之助 発行所 二十世紀出版印刷合資会社 第６篇 岡田自観氏の横顔 昭和24年 7月15日発行 Ｂ６版 80P 著者 須江 孝雄 発行者 小泉守之助 発行所 日本五六七教会 案内文 案内文 第７篇 基佛と観音教 昭和24年 10月25日発行 Ｂ６版 69P 日本観音教団編纂部編 発行人 西山舜之助 編集人 五十嵐一雄 発行所 二十世紀出版印刷合資会社 第８篇 明麿近詠集 昭和24年 11月30日発行 Ｂ６版 86P 著者 東山明麿 発行者 小泉守之助 発行所 日本五六七教 案内文 本恭賀地上天国といふ大建設を建つるに当って、その基礎工事ともいうべきものとしての 基佛 の二大宗教を一応点検する必要があらう。<br><br>と共に本教が何故現世に生誕されたかを知る必要もあらう。<br><br>この意味に於て信者未信者を問はず、一読の義務があらう。<br><br> 案内文 之は自観師が明麿の雅号をもって詠まれた歌集で、比較的最近のものである。<br><br>自観師が宗教家であり乍ら、文藝の方面にも希世の天才である事は、漸く知られて来た。<br><br>その大自然は元より、人事百般師の芸術眼を通して成った短歌は一躍琴線に触るるものがあろう。<br><br> 第９篇 光への道 昭和24年 12月30日発行 Ｂ６版 69P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教 第10篇 神示の健康法 昭和25年 4月20日発行 Ｂ６版 72P 著者 岡田 自観 発行者 三尋木光治郎 発行所 救世新聞社出版部 案内文 之は自観大先生が、信仰の妙諦を覚り得るまでの修行記録である。<br><br>往昔の開祖聖者と凡そ異色ある経路で、興味津々たる中にと何ものか尊いものを体得さるであろう。<br><br> 案内文 現代人の健康状態が危機に瀕している事は凡ゆる点に表はれている。<br><br>寄生虫、神経衰弱、結核、腺病質、伝染病等々、凡そ医学の進歩に逆行してる事実で、勿論、此原因は健康法の一大誤謬からである。<br><br>自観師が発表する神事の健康法こそ此重大問題解決の絶対法である。<br><br>之を実行するに於て何人と雖も溌剌たる健康者たり得る事は確信する處である。<br><br> 第１1・１４篇は 予告はあったが 刊行されなかった。<br><br> 第11篇 神示の病理 未刊行 後に「救世教奇蹟集」となったと思われる 第12篇 自観説話集 旧題「自観論文集」 昭和25年 1月30日発行 Ｂ６版 77P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教 案内文 之は、おかげばなし中の数百に上る、病者の病原経過不治の原因を掌を指すが如く、明確に指摘したもので、如何に事実に即するかを知ると共に、凡ゆる病患の正体を突きとめ得て余蘊なし。<br><br>病者も病療者も、此書によって開発さるる事蓋し甚大なものがあらう。<br><br> 案内文 之は、信仰雑話の追加篇ともいふべきもので、今日迄、光紙及地上天国に掲載のものより特選し、それに新しいものを加え、全篇、珠玉の文字ならざるはなし。<br><br>これを読む程に益々信仰の深むを覚える事は言ふまでもない。<br><br> 第13篇 世界の六大神秘家 昭和24年 12月 5日発行 Ｂ６版 79P 著者 須江 孝雄 発行者 小泉守之助 発行所 日本五六七教 第１1・１４篇は 予告はあったが 刊行されなかった。<br><br> 第14篇 天国の花 未刊行 後に「笑の泉」となったと思われる 案内文 此著は、形のみ未信者で心の信者である 須江孝雄氏が、自観師と世界の五大聖者との客観的な比較論である。<br><br>その鋭い筆は自観師の神秘を浮び上がらせると共に、よく肯綮に当ってをり、興味津々たる中に、如何なる聖者も企及し得なかった自観師の救世的一大抱負を語って遺憾なし。<br><br> 案内文 現代世相は誰が見ても、余りにも苦悩に満ちている。<br><br>之に対し何よりも必要な事は笑いである。<br><br>大いに笑う事である。<br><br>笑いによって苦悩を忘れ、活発なる生活力を充実すべきである。<br><br>此著の如何なる所を読んでも笑いの発しない者はないであらう。<br><br> 第15篇 基督と自観師 昭和25年 1月25日発行 Ｂ６版 77P 著者 松井 誠勲 発行者 小泉守之助 発行所 日本五六七教 案内文 宗教批判家として独自の見解を有する 松井誠勲氏は今回基佛と自観師 を比較検討し世に問はんとしてなったのが此著である。<br><br>云うまでもなくキリストは天国は近づけりと云い、自観師は天国を樹立すると云ふ。<br><br>二千年を隔てて両聖者の言の一致している事に注目すべきであって、実に二十世紀の謎といってもいい。<br><br>右は偶然か必然か、そこに神霊の連繋を認めない訳にはゆかないであらう。<br><br>以上の点に鑑み、信仰に関心を持つ限りの者は、一読の義務があらう。<br><br> ん？一冊足りないような・・・撮影時のミスです。<br><br>自観説話集が抜けてました
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Tratados do Mestre Okada Jikan</h2>
 <p><strong>Apresentação da Coleção Jikan, Volumes 1 a 15, por Editora</strong></p>
@@ -641,5 +796,48 @@ Posteriormente, o conteúdo parece ter sido incorporado à obra "Fonte de Riso".
 <p>　</p>
 <p>　</p>
 <p align="left">　</p>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 自観叢書 第１篇～第15篇 案内文 信徒各諸氏の待望久しかりし自観大先生御執筆の自観叢書はいよいよ大一篇より刊行開始致しました。<br/><br/>一読光明の世界へ誘致する筆力の偉大さに御期待下さい。<br/><br/> 第１篇 結核と神霊療法 昭和24年 6月25日発行 Ｂ６版 80P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教会 第２篇 無肥料栽培法 昭和24年 7月1日発行 Ｂ６版 91P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教会 案内文 結核は治るといわれながら、現実はなかなか治らないのはどういうわけか、これについてわが神霊療法からみてその原因と必治法を解説して余蘊なし 案内文 本著が説く無肥料栽培によれば三割ないし五割の増収は確実である、その原理と方法、実験報告は遺憾なく本著に示されてある。<br/><br/> 第３篇 霊界叢談 昭和24年 10月5日発行 Ｂ６版 77P 著者 岡田 自観 発行人 西山舜之助 発行所 二十世紀出版印刷合資会社 第４篇 奇蹟物語 昭和24年 10月5日発行 Ｂ６版 78P 著者 岡田 自観 発行人 西山舜之助 発行所 二十世紀出版印刷合資会社 案内文 人間の死とは一切の終りとされているが実は死後霊界に往き、霊界生活が始まるのである。<br/><br/>生き更り死に代り盡（つ）くるところを知らないのが人間生命である。<br/><br/> 案内文 この書は明主様御霊験の奇蹟の記録で、信仰を向上さす上の絶好の読物である 第５篇 自観隨談 昭和24年 8月30日発行 Ｂ６版 78P 著者 岡田 自観 発行人 西山舜之助 発行所 二十世紀出版印刷合資会社 第６篇 岡田自観氏の横顔 昭和24年 7月15日発行 Ｂ６版 80P 著者 須江 孝雄 発行者 小泉守之助 発行所 日本五六七教会 案内文 案内文 第７篇 基佛と観音教 昭和24年 10月25日発行 Ｂ６版 69P 日本観音教団編纂部編 発行人 西山舜之助 編集人 五十嵐一雄 発行所 二十世紀出版印刷合資会社 第８篇 明麿近詠集 昭和24年 11月30日発行 Ｂ６版 86P 著者 東山明麿 発行者 小泉守之助 発行所 日本五六七教 案内文 本恭賀地上天国といふ大建設を建つるに当って、その基礎工事ともいうべきものとしての 基佛 の二大宗教を一応点検する必要があらう。<br/><br/>と共に本教が何故現世に生誕されたかを知る必要もあらう。<br/><br/>この意味に於て信者未信者を問はず、一読の義務があらう。<br/><br/> 案内文 之は自観師が明麿の雅号をもって詠まれた歌集で、比較的最近のものである。<br/><br/>自観師が宗教家であり乍ら、文藝の方面にも希世の天才である事は、漸く知られて来た。<br/><br/>その大自然は元より、人事百般師の芸術眼を通して成った短歌は一躍琴線に触るるものがあろう。<br/><br/> 第９篇 光への道 昭和24年 12月30日発行 Ｂ６版 69P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教 第10篇 神示の健康法 昭和25年 4月20日発行 Ｂ６版 72P 著者 岡田 自観 発行者 三尋木光治郎 発行所 救世新聞社出版部 案内文 之は自観大先生が、信仰の妙諦を覚り得るまでの修行記録である。<br/><br/>往昔の開祖聖者と凡そ異色ある経路で、興味津々たる中にと何ものか尊いものを体得さるであろう。<br/><br/> 案内文 現代人の健康状態が危機に瀕している事は凡ゆる点に表はれている。<br/><br/>寄生虫、神経衰弱、結核、腺病質、伝染病等々、凡そ医学の進歩に逆行してる事実で、勿論、此原因は健康法の一大誤謬からである。<br/><br/>自観師が発表する神事の健康法こそ此重大問題解決の絶対法である。<br/><br/>之を実行するに於て何人と雖も溌剌たる健康者たり得る事は確信する處である。<br/><br/> 第１1・１４篇は 予告はあったが 刊行されなかった。<br/><br/> 第11篇 神示の病理 未刊行 後に「救世教奇蹟集」となったと思われる 第12篇 自観説話集 旧題「自観論文集」 昭和25年 1月30日発行 Ｂ６版 77P 著者 岡田 自観 発行者 小泉守之助 発行所 日本五六七教 案内文 之は、おかげばなし中の数百に上る、病者の病原経過不治の原因を掌を指すが如く、明確に指摘したもので、如何に事実に即するかを知ると共に、凡ゆる病患の正体を突きとめ得て余蘊なし。<br/><br/>病者も病療者も、此書によって開発さるる事蓋し甚大なものがあらう。<br/><br/> 案内文 之は、信仰雑話の追加篇ともいふべきもので、今日迄、光紙及地上天国に掲載のものより特選し、それに新しいものを加え、全篇、珠玉の文字ならざるはなし。<br/><br/>これを読む程に益々信仰の深むを覚える事は言ふまでもない。<br/><br/> 第13篇 世界の六大神秘家 昭和24年 12月 5日発行 Ｂ６版 79P 著者 須江 孝雄 発行者 小泉守之助 発行所 日本五六七教 第１1・１４篇は 予告はあったが 刊行されなかった。<br/><br/> 第14篇 天国の花 未刊行 後に「笑の泉」となったと思われる 案内文 此著は、形のみ未信者で心の信者である 須江孝雄氏が、自観師と世界の五大聖者との客観的な比較論である。<br/><br/>その鋭い筆は自観師の神秘を浮び上がらせると共に、よく肯綮に当ってをり、興味津々たる中に、如何なる聖者も企及し得なかった自観師の救世的一大抱負を語って遺憾なし。<br/><br/> 案内文 現代世相は誰が見ても、余りにも苦悩に満ちている。<br/><br/>之に対し何よりも必要な事は笑いである。<br/><br/>大いに笑う事である。<br/><br/>笑いによって苦悩を忘れ、活発なる生活力を充実すべきである。<br/><br/>此著の如何なる所を読んでも笑いの発しない者はないであらう。<br/><br/> 第15篇 基督と自観師 昭和25年 1月25日発行 Ｂ６版 77P 著者 松井 誠勲 発行者 小泉守之助 発行所 日本五六七教 案内文 宗教批判家として独自の見解を有する 松井誠勲氏は今回基佛と自観師 を比較検討し世に問はんとしてなったのが此著である。<br/><br/>云うまでもなくキリストは天国は近づけりと云い、自観師は天国を樹立すると云ふ。<br/><br/>二千年を隔てて両聖者の言の一致している事に注目すべきであって、実に二十世紀の謎といってもいい。<br/><br/>右は偶然か必然か、そこに神霊の連繋を認めない訳にはゆかないであらう。<br/><br/>以上の点に鑑み、信仰に関心を持つ限りの者は、一読の義務があらう。<br/><br/> ん？一冊足りないような・・・撮影時のミスです。<br/><br/>自観説話集が抜けてました</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

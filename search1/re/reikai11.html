@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reikai11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界の不思議 『地上天国』9号、昭和24(1949)年10月25日発行 霊界なるものは、実に霊妙不思議な存在であって、現世人の常識判断では到底理解し難いものである。<br><br>それについて人間の想念が霊界にいかに反映するかをかいてみよう。<br><br> 霊界は全く想念の世界である以上、無から有を生じ、有が無になり変異極まりないものである。<br><br>その例としてここに絵画彫刻等によって神仏の本尊が作られるとする。<br><br>ところがその作者の人格によって、懸り給う神霊仏霊に自ら高下を生ずる。<br><br>すなわち作者の人格がしからしめるので、最も高い場合はそれに相応する高級神霊が降臨される。<br><br>ゆえに形は同一であっても、作者の人格が低い場合はそれに相応した代理神霊、または分神霊が懸られるのである。<br><br> 今一つは、すべて礼拝の的である御神体に対し、礼拝者が誠をもって心から念願する場合、その神霊の威力、すなわち光明は偉力を発揮するに反し、礼拝者の想念が形式だけで、心からの尊信の念がない場合、神霊の偉力はそれだけ減殺されるのである。<br><br>また礼拝者が多数あればある程、神威弥々（いよいよ）赫々（かくかく）たる光明を増すのである。<br><br> よく昔から、「鰯の頭も信心から」というが、これはどういう訳かというと、何ら資格もない下根の者が御神体を作り、巧妙なる手段をもって宣伝をすると、一時は相当多数の参拝者が礼拝するとすれば、参拝者の想念によって、霊界に神仏の形が造られるのである。<br><br>従って、相当の偉力を発揮し、利益も与えらるるので、これは全く人間の想念の作為で、実に不思議というより外はない。<br><br>しかしこれらはある期間は繁昌するが、それは本物ではない。<br><br>一時的架空のものであるから、いつかは消滅するのである。<br><br>こういう例も少なからずある事は誰もが知る通りである。<br><br>いわゆる、流行神というのはこの種のものである。<br><br> 以上は、神霊についてであるが、その反対である悪魔についても解説してみよう。<br><br> 世の中に最も多い事、自己欲望のため、人に迷惑を掛け、人を苦しめ、不幸に陥れる悪徳者の余りに多い事である。<br><br>無論これらは、吾々が常にいうところの見えざるものを信じないという、唯物思想の産物ではあるが、これを霊的にみれば奇々怪々実に恐ろしいのである。<br><br> 人を苦しめる以上、その被害者は必ず怨んだり憎んだり、仇を打とうとする、その想念は、霊線を通じて相手にブツかってくる。<br><br>それを霊的にみると、忿怒（ふんぬ）や怨みの形相物凄く、仮に眼に見えるとしたら、いかなる悪人といえども一たまりもなく往生するのである。<br><br>ところが被害者が一人や二人どころではなく、何千何万の人数となると、多数の想念が集合し、いよいよ恐ろしい怪奇極まる妖怪が出来、種々の形となってその悪人を取巻き、滅ぼそうとするから堪らない。<br><br>いかに英雄豪傑といえども、ついには悲惨なる運命の下に滅亡するより外ないのである。<br><br>これは古今を通じて、歴史上の大人物をみれば例外なく右のごとき運命を辿（たど）っている。<br><br> その他悪徳政治家の悲劇、成金の没落はもちろん、多数の婦女を迷わせ飜弄（ほんろう）した輩や、悪質の高利貸等の末路をみればよく判るのである。<br><br> 右に引換え多くの善根を施し、多数者から感謝感激の想念を受くるとすれば、その想念は光となって、その人を囲繞（いじょう）するから、いよいよ有徳者となり、悪霊邪神もその光に恐れて近づき得ない以上、大いなる幸福者となるのである。<br><br>よく神仏の像などにある円光なども、それを表徴したものである。<br><br> 以上によってみても人間の想念は、いかに重要視すべきものであるかが知らるるのである。<br><br> (注)囲繞（いじょう）、囲いめぐらすこと。<br><br> MYSTERY OF THE SPIRITUAL WORLD The spiritual world has very mysterious, subtle and wondrous existence, so the people in this world could never understand it with their common knowledge. Now, as to this, I will write about how the thoughts and intentions of humans reflect themselves in the spiritual world. Since the spiritual world is a world exclusively of thoughts and intentions, from nothing appears something and something disappears into nothing, so it is a world of infinite metamorphoses. By way of example, suppose that a figure or a symbol of a god or a Buddha, as the main object of worship, is created in the form of picture, sculpture or something. And yet, the divinity of the god's or Buddha's spirit that settles down at this worship object will level up or level down in accordance with the quality of the creator's personality. If the creator's personality is in the highest rank, a divine spirit of high rank, corresponding to the rank of personality, descends on the object. Therefore, even if the visible configuration is the same, when the creator's personality is in a low rank, corresponding to this rank, an agent or a derivative of divine spirit comes down to that object. One more thing: when a Goshintai (an object of worship as a divine body) is prayed from the heart with makoto (sincerity and truth) by worshippers, its power of the divine spirit, that is, the divine light will exhibit its great power; on the contrary, if the prayers' thoughts and intentions have nothing but formality and no cordial respect, its power of the divine spirit will be lessened accordingly. And further, the more people worship the Goshintai, the more brilliantly the divine power will radiate its divine light. From old times, it has been commonly said that "Anything can be deified." What this really means is: if a person of no qualification and of inferior nature makes a Goshintai and carries out propaganda in a clever way, so, for the time being, a good many people come to worship it, and their thoughts and intentions form a figure of god or Buddha in the spiritual world. As a result, it exhibits some great power and benefits the worshippers, which is totally caused by the human thoughts and intentions; I cannot but say that it's a real mystery. However, these religion-like things prosper for some time, yet they are not real. As they are temporary and illusory, they will eventually lapse away. Everyone knows there are not a few examples of such things. What is called a trendy god implies this kind of thing. The above mentioned is about divine spirits, and next I will also comment on evil spirits. One of the most common affairs in the world is that there are too many immoral people who make trouble to other people, afflict, and put others into miserable situations only because they want to satisfy their own desires. Of course, these are the consequences of materialism that does not believe in what is invisible, which we have always pointed out, but if we look at this in terms of a spiritual dimension, it turns out to be very strange and horrible enough. Since these people give others sufferings, the sufferers hold a grudge and hatred against them, and intend to be revenged on them. Their thoughts and intentions run through the spiritual cords and hit against the others. Seen from a spiritual aspect, their looks of anger and hatred are very awful, and if they were visible to the naked eyes, even an utter villain would die at once having a look at them. Besides, when the number of sufferers is not so small as one or two but amounts to the thousands or the ten thousands, a multitude of thoughts and intentions would congregate and make even more dreadful, extremely grotesque monsters, and they would form various shapes, surrounding the villain to be terminated, which is unbearable to anyone whomever. Thus, no matter how heroic and daring a man may be, he has no choice but to end up in his own destruction under the miserable fate. This will be evident if you look through all ages on the so-called great figures in history; with no exception they met the same fate as I have just described. You can understand well from other cases too: not to mention tragedies of the crooked politicians and bankruptcies of the emergent newly rich, the end of such fellows who deluded and made a plaything of many women, vicious money-lenders, etc. By contrast, if a person does good a lot and receive thoughts of gratitude and intentions with deep emotion from many thankful people, their thoughts and intentions will be brilliant to become light which surrounds the good doer, so that his virtue grows greater and greater. Thus, evil spirits and devils are afraid of the light and unable to come near him, who becomes a man of great happiness. The halos which the images of gods or Buddhas often have at the back around the head symbolize the very light. From the above written too, it can be understood how much importance we must attach to human thoughts and intentions.
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Mistérios do Mundo Espiritual</h2>
 <p>O Mundo Espiritual é, em verdade, uma dimensão de existência sutil e misteriosa, cuja natureza é sobremaneira difícil de ser compreendida pelo juízo e pelo bom-senso dos homens. Nesse sentido, buscarei elucidar de que maneira os pensamentos humanos reverberam nessa esfera.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Isso se torna ainda mais claro quando analisamos as tragédias de políticos corruptos, a ruína de novos-ricos, o fim daqueles que iludiram e fizeram de inúmeras mulheres um joguete, ou o destino de agiotas de índole perversa.</p>
 <p>Em contrapartida, aquele que pratica o bem e recebe os pensamentos de gratidão e o profundo apreço de muitas pessoas, verá esses pensamentos se converterem em Luz. Essa Luz o envolve, tornando-o cada vez mais virtuoso. Assim, os Espíritos Malignos e as forças do mal, temendo essa Luz, não conseguem se aproximar, e ele se torna uma pessoa de imensa felicidade. O halo de luz que frequentemente se vê nas representações de Deus e dos budas é justamente um símbolo desse fenômeno.</p>
 <p>Pelo que foi exposto, pode-se compreender a imensa importância que devemos atribuir aos pensamentos humanos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界の不思議 『地上天国』9号、昭和24(1949)年10月25日発行 霊界なるものは、実に霊妙不思議な存在であって、現世人の常識判断では到底理解し難いものである。<br/><br/>それについて人間の想念が霊界にいかに反映するかをかいてみよう。<br/><br/> 霊界は全く想念の世界である以上、無から有を生じ、有が無になり変異極まりないものである。<br/><br/>その例としてここに絵画彫刻等によって神仏の本尊が作られるとする。<br/><br/>ところがその作者の人格によって、懸り給う神霊仏霊に自ら高下を生ずる。<br/><br/>すなわち作者の人格がしからしめるので、最も高い場合はそれに相応する高級神霊が降臨される。<br/><br/>ゆえに形は同一であっても、作者の人格が低い場合はそれに相応した代理神霊、または分神霊が懸られるのである。<br/><br/> 今一つは、すべて礼拝の的である御神体に対し、礼拝者が誠をもって心から念願する場合、その神霊の威力、すなわち光明は偉力を発揮するに反し、礼拝者の想念が形式だけで、心からの尊信の念がない場合、神霊の偉力はそれだけ減殺されるのである。<br/><br/>また礼拝者が多数あればある程、神威弥々（いよいよ）赫々（かくかく）たる光明を増すのである。<br/><br/> よく昔から、「鰯の頭も信心から」というが、これはどういう訳かというと、何ら資格もない下根の者が御神体を作り、巧妙なる手段をもって宣伝をすると、一時は相当多数の参拝者が礼拝するとすれば、参拝者の想念によって、霊界に神仏の形が造られるのである。<br/><br/>従って、相当の偉力を発揮し、利益も与えらるるので、これは全く人間の想念の作為で、実に不思議というより外はない。<br/><br/>しかしこれらはある期間は繁昌するが、それは本物ではない。<br/><br/>一時的架空のものであるから、いつかは消滅するのである。<br/><br/>こういう例も少なからずある事は誰もが知る通りである。<br/><br/>いわゆる、流行神というのはこの種のものである。<br/><br/> 以上は、神霊についてであるが、その反対である悪魔についても解説してみよう。<br/><br/> 世の中に最も多い事、自己欲望のため、人に迷惑を掛け、人を苦しめ、不幸に陥れる悪徳者の余りに多い事である。<br/><br/>無論これらは、吾々が常にいうところの見えざるものを信じないという、唯物思想の産物ではあるが、これを霊的にみれば奇々怪々実に恐ろしいのである。<br/><br/> 人を苦しめる以上、その被害者は必ず怨んだり憎んだり、仇を打とうとする、その想念は、霊線を通じて相手にブツかってくる。<br/><br/>それを霊的にみると、忿怒（ふんぬ）や怨みの形相物凄く、仮に眼に見えるとしたら、いかなる悪人といえども一たまりもなく往生するのである。<br/><br/>ところが被害者が一人や二人どころではなく、何千何万の人数となると、多数の想念が集合し、いよいよ恐ろしい怪奇極まる妖怪が出来、種々の形となってその悪人を取巻き、滅ぼそうとするから堪らない。<br/><br/>いかに英雄豪傑といえども、ついには悲惨なる運命の下に滅亡するより外ないのである。<br/><br/>これは古今を通じて、歴史上の大人物をみれば例外なく右のごとき運命を辿（たど）っている。<br/><br/> その他悪徳政治家の悲劇、成金の没落はもちろん、多数の婦女を迷わせ飜弄（ほんろう）した輩や、悪質の高利貸等の末路をみればよく判るのである。<br/><br/> 右に引換え多くの善根を施し、多数者から感謝感激の想念を受くるとすれば、その想念は光となって、その人を囲繞（いじょう）するから、いよいよ有徳者となり、悪霊邪神もその光に恐れて近づき得ない以上、大いなる幸福者となるのである。<br/><br/>よく神仏の像などにある円光なども、それを表徴したものである。<br/><br/> 以上によってみても人間の想念は、いかに重要視すべきものであるかが知らるるのである。<br/><br/> (注)囲繞（いじょう）、囲いめぐらすこと。<br/><br/> MYSTERY OF THE SPIRITUAL WORLD The spiritual world has very mysterious, subtle and wondrous existence, so the people in this world could never understand it with their common knowledge. Now, as to this, I will write about how the thoughts and intentions of humans reflect themselves in the spiritual world. Since the spiritual world is a world exclusively of thoughts and intentions, from nothing appears something and something disappears into nothing, so it is a world of infinite metamorphoses. By way of example, suppose that a figure or a symbol of a god or a Buddha, as the main object of worship, is created in the form of picture, sculpture or something. And yet, the divinity of the god's or Buddha's spirit that settles down at this worship object will level up or level down in accordance with the quality of the creator's personality. If the creator's personality is in the highest rank, a divine spirit of high rank, corresponding to the rank of personality, descends on the object. Therefore, even if the visible configuration is the same, when the creator's personality is in a low rank, corresponding to this rank, an agent or a derivative of divine spirit comes down to that object. One more thing: when a Goshintai (an object of worship as a divine body) is prayed from the heart with makoto (sincerity and truth) by worshippers, its power of the divine spirit, that is, the divine light will exhibit its great power; on the contrary, if the prayers' thoughts and intentions have nothing but formality and no cordial respect, its power of the divine spirit will be lessened accordingly. And further, the more people worship the Goshintai, the more brilliantly the divine power will radiate its divine light. From old times, it has been commonly said that "Anything can be deified." What this really means is: if a person of no qualification and of inferior nature makes a Goshintai and carries out propaganda in a clever way, so, for the time being, a good many people come to worship it, and their thoughts and intentions form a figure of god or Buddha in the spiritual world. As a result, it exhibits some great power and benefits the worshippers, which is totally caused by the human thoughts and intentions; I cannot but say that it's a real mystery. However, these religion-like things prosper for some time, yet they are not real. As they are temporary and illusory, they will eventually lapse away. Everyone knows there are not a few examples of such things. What is called a trendy god implies this kind of thing. The above mentioned is about divine spirits, and next I will also comment on evil spirits. One of the most common affairs in the world is that there are too many immoral people who make trouble to other people, afflict, and put others into miserable situations only because they want to satisfy their own desires. Of course, these are the consequences of materialism that does not believe in what is invisible, which we have always pointed out, but if we look at this in terms of a spiritual dimension, it turns out to be very strange and horrible enough. Since these people give others sufferings, the sufferers hold a grudge and hatred against them, and intend to be revenged on them. Their thoughts and intentions run through the spiritual cords and hit against the others. Seen from a spiritual aspect, their looks of anger and hatred are very awful, and if they were visible to the naked eyes, even an utter villain would die at once having a look at them. Besides, when the number of sufferers is not so small as one or two but amounts to the thousands or the ten thousands, a multitude of thoughts and intentions would congregate and make even more dreadful, extremely grotesque monsters, and they would form various shapes, surrounding the villain to be terminated, which is unbearable to anyone whomever. Thus, no matter how heroic and daring a man may be, he has no choice but to end up in his own destruction under the miserable fate. This will be evident if you look through all ages on the so-called great figures in history; with no exception they met the same fate as I have just described. You can understand well from other cases too: not to mention tragedies of the crooked politicians and bankruptcies of the emergent newly rich, the end of such fellows who deluded and made a plaything of many women, vicious money-lenders, etc. By contrast, if a person does good a lot and receive thoughts of gratitude and intentions with deep emotion from many thankful people, their thoughts and intentions will be brilliant to become light which surrounds the good doer, so that his virtue grows greater and greater. Thus, evil spirits and devils are afraid of the light and unable to come near him, who becomes a man of great happiness. The halos which the images of gods or Buddhas often have at the back around the head symbolize the very light. From the above written too, it can be understood how much importance we must attach to human thoughts and intentions.</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

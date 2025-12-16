@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mitukosi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三越の春日興福寺宝物展を観て 『栄光』150号、昭和27(1952)年4月2日発行 この間評判になった三越における標題のごとき展覧会を観たので、ここに感じたままをかいてみるが、何しろ今から千二、三百年も前の飛鳥、白鳳、天平時代の物ばかりなので、その時代によくもこんな立派な物が出来たものと、実に驚嘆に価いするのみである。<br><br>こういう時いつも不思議に思う事は、美術だけは進歩の埒外（らちがい）にあるとしか思えない。<br><br>なるほど他の色々なものは文化の進歩につれて、随分目覚しい変り方をしているが、美術に限っては逆であって、ほとんど進歩がないといっていい。<br><br>なるほど今日の物でも少しの新しさはあるにはあるが、正直にいってどうも古い物には、断然及ばないのが世の定評である。<br><br> 元来日本美術は、仏教美術が始まりで、その一番先に出来たのが、今から千三百年以前の推古時代頃からで、最初は支那の仏像を模して作ったものとしているが、支那の方の仏教美術は、今から約千五百年以前北魏（ほくぎ）時代が最も隆盛を極めたと共に優秀品も大いに出来たもので、今日六朝仏（りくちょうぶつ）というのがそれである。<br><br>その後唐代に到って、ようやく我国へも他の文化と共に輸入されたが、ちょうどその頃は仏教興隆時代とて、ここに日本独特の仏教美術が生まれたのである。<br><br>しかも彼の不世出の偉人聖徳太子の御偉徳と、美に対する天稟（てんびん）の才能と相まって、絢爛（けんらん）たる仏教文化の華を咲かしたのである。<br><br>彼の法隆寺の建築や、それに付随する美術品はもとより、その後に到って東大寺及び彼の大仏の建立等もあり、今も我国古代文化史上、燦として輝いているのである。<br><br>それから飛鳥、白鳳、天平、弘仁、藤原、鎌倉という順序で、漸次発達して来たが、いずれの作品を見ても、本家の支那より優れていると思う。<br><br> そうして最初支那に学んで出来たものが、彼の推古の金銅仏であるが、これらも六朝仏よりも好くそれから乾漆（かんしつ）、木彫の順に進んで来たので、今度の三越の展覧会は、その頃の乾漆ものが最も多かった。<br><br>私は今度の展覧会を観ない内は、お寺の宝物だから観音、阿弥陀、釈迦、薬師、弥勒等の仏像が主なるものと思っていたところ、驚いた事にはそれらの仏像はほとんどなかった。<br><br>しかし何といっても評判の阿修羅（あしゅら）は大したもので、これも阿修羅という名前からして、物凄い鬼面人に迫るように思っていたところ、意外にも十七、八の乙女の姿であったのには二度吃驚（びっくり）した。<br><br>しかし考えてみると阿修羅が改心して、仏になったのを表徴したものであろう。<br><br>その他八大仏特に烏天狗や数体の童子は、乾漆作りで相当の名作であった。<br><br>以上が主なもので、他に見るべき程の物は余りなかったようである。<br><br> この寺も藤原氏と縁の深いためでもあろうが、鎧、兜、刀剣類の多かったのもお寺らしくないと思ったが、見逃し得ないのは一個の蒔絵の手筥で、梨子地（なしじ）草花模様で、作行（さくゆき）といい、時代色といい実に好いと思った。<br><br>まず展覧会の事はこのくらいにしておいてここで我国の仏教彫刻について少し書いてみるが、彼の金銅仏としては、最初の推古、白鳳時代に出来た物が最優秀であって世に推古仏といって珍重されるのはもっともだと思う。<br><br>これらの作は支那とは異（ちが）った味があり、気品の高いことも日本独特であろう。<br><br>これらによってみても、日本人の実の感覚は、確かに世界一といっても過言ではあるまい。<br><br>近頃外国においてもそれが判って来たのは、先日洋行帰りの某美術関係者の人から聞いた話で心強い気がした。<br><br>次に木彫であるが、これも天平前後の作品には素晴しい物があり、彼の有名な法隆寺の百済（くだら）観音なども当時の作品で、これは定評があるから今更言う必要はないが、それから弘仁、藤原時代も相当好い物が出来たが、何といっても鎌倉時代であろう。<br><br>この時代に入るや、木彫仏は飛躍的に隆盛を極め、彼の運慶はじめ名人、巨匠続出し、作品も多量に出来、今なお到るところに見受けるのである。<br><br> その後足利期以後は、ほとんど見るべきものが出来なくなってしまった。<br><br>僅かに徳川期に至って、鎌倉彫刻の模倣が相当出来たくらいである。<br><br>そうして明治以後も名人とされる程の人は出ないようだが、ただ一人今なお健在である佐藤玄々（旧名朝山及び清蔵）は、古来稀に見る名人として、私は彼の作品を愛好している。<br><br>今度の箱根美術館にも数点出品するから観れば分かるであろう。<br><br>そうして私がいつも思う事は他のものは別として、木彫においては日本は世界一と云ってよかろう。<br><br>特に仏像の彫刻は不思議と思うくらい古い時代に立派な物が出来ている。<br><br>この事を思うにつけても、私は一度優秀作品のみを選んで一堂に網羅し、世界中の人に見せたいと思っている。<br><br>そうしたらどんなに日本文化が古くから卓越せるかが世界的に知れ渡るであろう。<br><br>そのような訳でいずれの日かは、私の手によって仏教美術の大展覧会を開催したいと思っている。<br><br>それを観たなら日本には、昔から幾人ものロダンがいた事を発見するであろう。<br><br> (注) 乾漆（かんしつ） 奈良時代に盛行した漆工芸の技法。<br><br>脱活乾漆（脱乾漆）と木心乾漆の二種があり、前者は粘土の原型の上に麻布をいく重にも漆で覆い固めて成形し、乾燥後、中の原型を取り去るもの。<br><br>後者は心木に布を漆ではり重ねて成形する。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sublimidade da Escultura Budista Japonesa</h2>
 <p>Recentemente, visitei a aclamada exposição de tesouros do Templo Kasuga-Kofukuji, realizada na loja de departamentos Mitsukoshi, e gostaria de registrar aqui minhas impressões. As obras, datadas dos períodos Asuka, Hakuho e Tenpyo – de mil e duzentos a mil e trezentos anos atrás –, são de uma magnificência que nos leva a um profundo assombro. É verdadeiramente digno de admiração que artefatos de tal excelência pudessem ser criados em tempos tão remotos.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Após a era Ashikaga, a produção de obras dignas de nota praticamente cessou. Apenas no período Tokugawa surgiram algumas imitações de qualidade razoável da escultura Kamakura. Desde a era Meiji, parece não ter havido artistas que pudessem ser chamados de mestres. A única exceção é Sato Gengen (cujos nomes anteriores foram Chozan e Seizo), que ainda vive e a quem considero um gênio de rara magnitude. Sou um grande apreciador de seu trabalho, e algumas de suas peças estarão em exposição no Museu de Arte de Hakone, onde sua maestria poderá ser constatada por todos.</p>
 <p>Sempre afirmo que, embora outros gêneros artísticos tenham seu valor, a escultura em madeira do Japão é a melhor do mundo. É particularmente impressionante que obras tão magníficas, sobretudo as estátuas budistas, tenham sido criadas em épocas tão antigas. Ao pensar nisso, nutro o grande desejo de, um dia, reunir uma seleção das obras mais extraordinárias em um único salão para apresentá-las ao mundo. Tal iniciativa revelaria a todos os povos a sublime excelência que a cultura japonesa alcançou desde os primórdios. Por essa razão, almejo realizar, por minhas próprias mãos, uma grande exposição de arte budista. Aqueles que a visitarem descobrirão que o Japão teve inúmeros "Rodins" em tempos remotos.</p>
 <p>(Nota) Laca seca (<em>kanshitsuzō</em>): Técnica de artesanato em laca que floresceu no período Nara. Existem dois tipos: <em>dakkatsu kanshitsuzō</em> (laca oca) e <em>mokushin kanshitsuzō</em> (laca sobre núcleo de madeira). No primeiro, um molde de argila é coberto com múltiplas camadas de tecido de cânhamo embebido em laca. Após a secagem, o molde de argila é removido do interior. No segundo, um núcleo de madeira é coberto com camadas de tecido e laca para formar a escultura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三越の春日興福寺宝物展を観て 『栄光』150号、昭和27(1952)年4月2日発行 この間評判になった三越における標題のごとき展覧会を観たので、ここに感じたままをかいてみるが、何しろ今から千二、三百年も前の飛鳥、白鳳、天平時代の物ばかりなので、その時代によくもこんな立派な物が出来たものと、実に驚嘆に価いするのみである。<br/><br/>こういう時いつも不思議に思う事は、美術だけは進歩の埒外（らちがい）にあるとしか思えない。<br/><br/>なるほど他の色々なものは文化の進歩につれて、随分目覚しい変り方をしているが、美術に限っては逆であって、ほとんど進歩がないといっていい。<br/><br/>なるほど今日の物でも少しの新しさはあるにはあるが、正直にいってどうも古い物には、断然及ばないのが世の定評である。<br/><br/> 元来日本美術は、仏教美術が始まりで、その一番先に出来たのが、今から千三百年以前の推古時代頃からで、最初は支那の仏像を模して作ったものとしているが、支那の方の仏教美術は、今から約千五百年以前北魏（ほくぎ）時代が最も隆盛を極めたと共に優秀品も大いに出来たもので、今日六朝仏（りくちょうぶつ）というのがそれである。<br/><br/>その後唐代に到って、ようやく我国へも他の文化と共に輸入されたが、ちょうどその頃は仏教興隆時代とて、ここに日本独特の仏教美術が生まれたのである。<br/><br/>しかも彼の不世出の偉人聖徳太子の御偉徳と、美に対する天稟（てんびん）の才能と相まって、絢爛（けんらん）たる仏教文化の華を咲かしたのである。<br/><br/>彼の法隆寺の建築や、それに付随する美術品はもとより、その後に到って東大寺及び彼の大仏の建立等もあり、今も我国古代文化史上、燦として輝いているのである。<br/><br/>それから飛鳥、白鳳、天平、弘仁、藤原、鎌倉という順序で、漸次発達して来たが、いずれの作品を見ても、本家の支那より優れていると思う。<br/><br/> そうして最初支那に学んで出来たものが、彼の推古の金銅仏であるが、これらも六朝仏よりも好くそれから乾漆（かんしつ）、木彫の順に進んで来たので、今度の三越の展覧会は、その頃の乾漆ものが最も多かった。<br/><br/>私は今度の展覧会を観ない内は、お寺の宝物だから観音、阿弥陀、釈迦、薬師、弥勒等の仏像が主なるものと思っていたところ、驚いた事にはそれらの仏像はほとんどなかった。<br/><br/>しかし何といっても評判の阿修羅（あしゅら）は大したもので、これも阿修羅という名前からして、物凄い鬼面人に迫るように思っていたところ、意外にも十七、八の乙女の姿であったのには二度吃驚（びっくり）した。<br/><br/>しかし考えてみると阿修羅が改心して、仏になったのを表徴したものであろう。<br/><br/>その他八大仏特に烏天狗や数体の童子は、乾漆作りで相当の名作であった。<br/><br/>以上が主なもので、他に見るべき程の物は余りなかったようである。<br/><br/> この寺も藤原氏と縁の深いためでもあろうが、鎧、兜、刀剣類の多かったのもお寺らしくないと思ったが、見逃し得ないのは一個の蒔絵の手筥で、梨子地（なしじ）草花模様で、作行（さくゆき）といい、時代色といい実に好いと思った。<br/><br/>まず展覧会の事はこのくらいにしておいてここで我国の仏教彫刻について少し書いてみるが、彼の金銅仏としては、最初の推古、白鳳時代に出来た物が最優秀であって世に推古仏といって珍重されるのはもっともだと思う。<br/><br/>これらの作は支那とは異（ちが）った味があり、気品の高いことも日本独特であろう。<br/><br/>これらによってみても、日本人の実の感覚は、確かに世界一といっても過言ではあるまい。<br/><br/>近頃外国においてもそれが判って来たのは、先日洋行帰りの某美術関係者の人から聞いた話で心強い気がした。<br/><br/>次に木彫であるが、これも天平前後の作品には素晴しい物があり、彼の有名な法隆寺の百済（くだら）観音なども当時の作品で、これは定評があるから今更言う必要はないが、それから弘仁、藤原時代も相当好い物が出来たが、何といっても鎌倉時代であろう。<br/><br/>この時代に入るや、木彫仏は飛躍的に隆盛を極め、彼の運慶はじめ名人、巨匠続出し、作品も多量に出来、今なお到るところに見受けるのである。<br/><br/> その後足利期以後は、ほとんど見るべきものが出来なくなってしまった。<br/><br/>僅かに徳川期に至って、鎌倉彫刻の模倣が相当出来たくらいである。<br/><br/>そうして明治以後も名人とされる程の人は出ないようだが、ただ一人今なお健在である佐藤玄々（旧名朝山及び清蔵）は、古来稀に見る名人として、私は彼の作品を愛好している。<br/><br/>今度の箱根美術館にも数点出品するから観れば分かるであろう。<br/><br/>そうして私がいつも思う事は他のものは別として、木彫においては日本は世界一と云ってよかろう。<br/><br/>特に仏像の彫刻は不思議と思うくらい古い時代に立派な物が出来ている。<br/><br/>この事を思うにつけても、私は一度優秀作品のみを選んで一堂に網羅し、世界中の人に見せたいと思っている。<br/><br/>そうしたらどんなに日本文化が古くから卓越せるかが世界的に知れ渡るであろう。<br/><br/>そのような訳でいずれの日かは、私の手によって仏教美術の大展覧会を開催したいと思っている。<br/><br/>それを観たなら日本には、昔から幾人ものロダンがいた事を発見するであろう。<br/><br/> (注) 乾漆（かんしつ） 奈良時代に盛行した漆工芸の技法。<br/><br/>脱活乾漆（脱乾漆）と木心乾漆の二種があり、前者は粘土の原型の上に麻布をいく重にも漆で覆い固めて成形し、乾燥後、中の原型を取り去るもの。<br/><br/>後者は心木に布を漆ではり重ねて成形する。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

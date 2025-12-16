@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taihuka</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 台風禍 『栄光』230号、昭和28(1953)年10月14日発行 知らるるごとく今年程、後から後からと物凄い台風が現われた年は、今までに覚えがないであろう。<br><br>そうしてこの災害たるや人畜をはじめ、田畑、道路、堤防、橋梁、船舶等々全部の被害を換算したら、どのくらいの額に上るか見当もつかない程である。<br><br>ところが情ない事にはこの台風に対しての対策は、政府始め地方当局においても、余程以前から年中行事のように、鋭意あらん限りの方策を講じてはいるが、いずこも同じ秋の夕暮で財政逼迫（ひっぱく）、計画通りの実行はとても困難で、手も足も出ない有様である。<br><br>としたら今後当然来るであろう数知れない台風に対しての、その不安たるや考えるだけでも慄然（りつぜん）とするのである。<br><br>それもこれも台風なるものの本体が全然不明であるからで、私はその根本を知らしたいためここにかくのである。<br><br>言うまでもなくその原因は科学迷信の結果、何事も唯物的方法をもって解決しようとする、その考え方が根本を外れている以上、一時的膏薬（こうやく）張でしかないのである。<br><br> という訳で、どうしても真の原因である唯心方法によらなければ永久的解決は不可能である。<br><br>では唯心的方法とは何かというと、つまり台風なるものの真の発生原因を知って、それに合う対策を立てる事である。<br><br>それは度々言うごとく台風は天災ではなく人災であって、人間が作って人間が苦しむという呆（あき）れる程の無智なためである。<br><br>といったら現代人は驚くであろうから、これを詳しくかいて一般の眼を覚そうと思うのである。<br><br>そもそもこの世界とは見ゆる物質と見えぬ霊との二つから成立っており、ちょうど掌のようなもので、表（手の平）は体で裏が霊と思えばいい。<br><br>つまり表裏結合一体となっている。<br><br>そうして一切は霊が主で、体が従であるのが万有の法則である以上、現界に発生するすべては最初霊界に発生し、それが現界に移写するのである。<br><br>ゆえに台風も最初霊界に発生するのはもちろんであるから、この発生原因を作らないようにすればいいので、それ以外の方法は決してないのである。<br><br>ところがこの理を知らない人間は、結果である物質面のみを対象とする。<br><br>ちょうど医学の対症療法と等しい訳で、一時的効果でしかない訳である。<br><br>では霊的原因とは何かというと、すなわち霊界を曇らす事である。<br><br>その曇りがある程度を越えるや、ここに自然浄化作用が発生する。<br><br>これが台風であるから、この曇りを作らなければいいので、それには人間の想念と言葉に注意する。<br><br>というのは想念が悪に属するもの、すなわち憎（にくし）み、妬（ねた）み、そねみ、怨み、嫉妬（しっと）、不平等が霊界に反映し、気候不順の原因となると共に、今度は悪に属する言葉、行為すなわち讒侮〔誣〕（ざんぶ）、中傷、欺瞞（ぎまん）、愚痴、卑劣、あらゆる罪悪等で、前者は一次元、後者は二次元の霊界を曇らす事になる。<br><br>これを台風という自然浄化作用発生によって払拭（ふっしょく）するのである。<br><br> 今一つは全然物質的原因である人肥金肥等の肥料、病虫害防止の薬剤等によって土を汚すため、自然はこの浄化のため大雨によって水で洗い流すのである。<br><br>といったようにすべては人間の無智が作るのであるから、この事を知って原因を作らないようにすれば解決するのは当然で、大災も小災となり、小災も無災となる。<br><br>これが宇宙の真理であるから、これを守る以外根本的効果のない事は断言するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem Espiritual das Calamidades</h2>
 <p>Jamais se viu, em tempos recentes, um ano com uma sucessão tão implacável de tufões devastadores como o atual. O rastro de destruição deixado por tais calamidades é de uma magnitude incalculável, afetando vidas humanas, rebanhos, lavouras, estradas, diques, pontes, embarcações e toda a infraestrutura.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Pensamentos de natureza maligna – como o ódio, a inveja, o despeito, o rancor e a noção de desigualdade – refletem-se no Mundo Espiritual e geram desequilíbrios climáticos, constituindo o primeiro nível de impurezas. Em seguida, temos as palavras e ações malignas, como a calúnia, a difamação, o estelionato, a lamentação, a baixeza e toda sorte de atos pecaminosos. Estas, por sua vez, obscurecem um segundo nível do Mundo Espiritual. É para eliminar essas máculas que se manifesta o fenômeno purificador do tufão.</p>
 <p>Existe, ainda, uma causa de ordem puramente material: a poluição do solo pelo uso de fertilizantes químicos, dejetos humanos e agrotóxicos para o controle de pragas. A natureza, para se purificar, utiliza chuvas torrenciais para lavar e remover essas impurezas da terra.</p>
 <p>Como se pode ver, tudo é fruto da ignorância humana. Ao tomar consciência dessa realidade e cessar a criação de tais causas, a solução surge como consequência natural. Assim, as grandes calamidades se tornam pequenas, e as pequenas se extinguem por completo. Esta é a Verdade do Universo. Posso, pois, afirmar categoricamente que não haverá solução efetiva e definitiva enquanto o homem não se alinhar a ela.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 台風禍 『栄光』230号、昭和28(1953)年10月14日発行 知らるるごとく今年程、後から後からと物凄い台風が現われた年は、今までに覚えがないであろう。<br/><br/>そうしてこの災害たるや人畜をはじめ、田畑、道路、堤防、橋梁、船舶等々全部の被害を換算したら、どのくらいの額に上るか見当もつかない程である。<br/><br/>ところが情ない事にはこの台風に対しての対策は、政府始め地方当局においても、余程以前から年中行事のように、鋭意あらん限りの方策を講じてはいるが、いずこも同じ秋の夕暮で財政逼迫（ひっぱく）、計画通りの実行はとても困難で、手も足も出ない有様である。<br/><br/>としたら今後当然来るであろう数知れない台風に対しての、その不安たるや考えるだけでも慄然（りつぜん）とするのである。<br/><br/>それもこれも台風なるものの本体が全然不明であるからで、私はその根本を知らしたいためここにかくのである。<br/><br/>言うまでもなくその原因は科学迷信の結果、何事も唯物的方法をもって解決しようとする、その考え方が根本を外れている以上、一時的膏薬（こうやく）張でしかないのである。<br/><br/> という訳で、どうしても真の原因である唯心方法によらなければ永久的解決は不可能である。<br/><br/>では唯心的方法とは何かというと、つまり台風なるものの真の発生原因を知って、それに合う対策を立てる事である。<br/><br/>それは度々言うごとく台風は天災ではなく人災であって、人間が作って人間が苦しむという呆（あき）れる程の無智なためである。<br/><br/>といったら現代人は驚くであろうから、これを詳しくかいて一般の眼を覚そうと思うのである。<br/><br/>そもそもこの世界とは見ゆる物質と見えぬ霊との二つから成立っており、ちょうど掌のようなもので、表（手の平）は体で裏が霊と思えばいい。<br/><br/>つまり表裏結合一体となっている。<br/><br/>そうして一切は霊が主で、体が従であるのが万有の法則である以上、現界に発生するすべては最初霊界に発生し、それが現界に移写するのである。<br/><br/>ゆえに台風も最初霊界に発生するのはもちろんであるから、この発生原因を作らないようにすればいいので、それ以外の方法は決してないのである。<br/><br/>ところがこの理を知らない人間は、結果である物質面のみを対象とする。<br/><br/>ちょうど医学の対症療法と等しい訳で、一時的効果でしかない訳である。<br/><br/>では霊的原因とは何かというと、すなわち霊界を曇らす事である。<br/><br/>その曇りがある程度を越えるや、ここに自然浄化作用が発生する。<br/><br/>これが台風であるから、この曇りを作らなければいいので、それには人間の想念と言葉に注意する。<br/><br/>というのは想念が悪に属するもの、すなわち憎（にくし）み、妬（ねた）み、そねみ、怨み、嫉妬（しっと）、不平等が霊界に反映し、気候不順の原因となると共に、今度は悪に属する言葉、行為すなわち讒侮〔誣〕（ざんぶ）、中傷、欺瞞（ぎまん）、愚痴、卑劣、あらゆる罪悪等で、前者は一次元、後者は二次元の霊界を曇らす事になる。<br/><br/>これを台風という自然浄化作用発生によって払拭（ふっしょく）するのである。<br/><br/> 今一つは全然物質的原因である人肥金肥等の肥料、病虫害防止の薬剤等によって土を汚すため、自然はこの浄化のため大雨によって水で洗い流すのである。<br/><br/>といったようにすべては人間の無智が作るのであるから、この事を知って原因を作らないようにすれば解決するのは当然で、大災も小災となり、小災も無災となる。<br/><br/>これが宇宙の真理であるから、これを守る以外根本的効果のない事は断言するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

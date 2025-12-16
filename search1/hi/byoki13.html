@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気を治す薬は一つも無い 『新日本医術書』昭和11(1936)年4月21日執筆 薬では、病気が治らないという事は、医家自身も常に痛感している事であろう。<br><br>しかし、ただ、苦痛を緩和する効果はある。<br><br>要するに、病気を弾圧するか、又は、麻痺に寄〔依〕って一時苦痛の感受を軽減し得るだけの事である。<br><br>薬剤とは、それ以外の何物でもないのである。<br><br>しかしながら、常に私も言うごとく、苦痛とは病気治癒工作の過程であるから、苦痛緩和はそれだけ、病気治癒を遅らす道理である。<br><br>のみならず、それに、薬剤の余毒が伴うのであるから、二重の不利を受ける訳である。<br><br>実に薬剤による血液の汚濁は恐るべきものであって、それは、いかなる薬剤といえども、多少の血液汚濁は免かれないのである。<br><br> 血液汚濁の害としては、浄化力を衰耗させる結果、著しく活力を減退さす事である。<br><br>故に、その結果として、病気に罹り易くなり、病気治癒の力が弱まるのである。<br><br>それは、濁血程殺菌力が無いからである。<br><br> かくのごとく、薬剤なるものは病気治癒を遅らせる事と、血液を汚濁させる害がある以上、他面、苦痛を緩和させるという益と比較してみる時、それは、害の方がはるかに優っている事を知らねばならないのである。<br><br> しかるにも不拘（かかわらず）、近代人は無暗に薬剤を用いたがる。<br><br>それは全く薬剤の害を知らないからであるから、一日も早くこの理を知悉（ちしつ）させなければならないのである。<br><br>近代人の罹病率や短命の多きと病気治癒の遅々たる事実は、少くともこれが原因である事は、争う余地が無いのである。<br><br> 二六時中、薬餌に親しみながら、これという病気もなく、といって健康にもならないという人は、大抵皆、薬剤中毒患者と言ってもよいので、そういう人は薬剤使用を廃止すれば、漸（ぜん）を逐（お）うて健康は恢復するのである。<br><br> 私は大いに叫びたい。<br><br>国民保健は、薬剤廃止からである……と。<br><br> （昭和十一年四月二十一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Não Existe um Único Remédio que Cure Doenças</h2>
 <p>A própria classe médica certamente tem a aguda percepção de que os medicamentos não curam as doenças. Possuem, contudo, o efeito de atenuar o sofrimento. Em suma, sua ação se restringe a coibir a enfermidade ou, por meio do entorpecimento, a mitigar temporariamente a sensibilidade à dor. Os remédios, em sua essência, não são mais do que isso.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Aqueles que vivem em constante contato com fármacos e, embora não apresentem nenhuma enfermidade específica, tampouco desfrutam de plena saúde, podem, em sua maioria, ser considerados pacientes intoxicados por medicamentos. Se tais pessoas abolirem o uso de remédios, sua saúde será gradualmente restaurada.</p>
 <p>Gostaria de bradar em alto e bom som: a saúde da nação começa com a abolição dos medicamentos!</p>
 <p>21 de abril de 1936</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気を治す薬は一つも無い 『新日本医術書』昭和11(1936)年4月21日執筆 薬では、病気が治らないという事は、医家自身も常に痛感している事であろう。<br/><br/>しかし、ただ、苦痛を緩和する効果はある。<br/><br/>要するに、病気を弾圧するか、又は、麻痺に寄〔依〕って一時苦痛の感受を軽減し得るだけの事である。<br/><br/>薬剤とは、それ以外の何物でもないのである。<br/><br/>しかしながら、常に私も言うごとく、苦痛とは病気治癒工作の過程であるから、苦痛緩和はそれだけ、病気治癒を遅らす道理である。<br/><br/>のみならず、それに、薬剤の余毒が伴うのであるから、二重の不利を受ける訳である。<br/><br/>実に薬剤による血液の汚濁は恐るべきものであって、それは、いかなる薬剤といえども、多少の血液汚濁は免かれないのである。<br/><br/> 血液汚濁の害としては、浄化力を衰耗させる結果、著しく活力を減退さす事である。<br/><br/>故に、その結果として、病気に罹り易くなり、病気治癒の力が弱まるのである。<br/><br/>それは、濁血程殺菌力が無いからである。<br/><br/> かくのごとく、薬剤なるものは病気治癒を遅らせる事と、血液を汚濁させる害がある以上、他面、苦痛を緩和させるという益と比較してみる時、それは、害の方がはるかに優っている事を知らねばならないのである。<br/><br/> しかるにも不拘（かかわらず）、近代人は無暗に薬剤を用いたがる。<br/><br/>それは全く薬剤の害を知らないからであるから、一日も早くこの理を知悉（ちしつ）させなければならないのである。<br/><br/>近代人の罹病率や短命の多きと病気治癒の遅々たる事実は、少くともこれが原因である事は、争う余地が無いのである。<br/><br/> 二六時中、薬餌に親しみながら、これという病気もなく、といって健康にもならないという人は、大抵皆、薬剤中毒患者と言ってもよいので、そういう人は薬剤使用を廃止すれば、漸（ぜん）を逐（お）うて健康は恢復するのである。<br/><br/> 私は大いに叫びたい。<br/><br/>国民保健は、薬剤廃止からである……と。<br/><br/> （昭和十一年四月二十一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

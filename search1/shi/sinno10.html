@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinno10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,60 +241,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の救い 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 真の救いとは、永遠に、魂を救う事である。<br><br>又、一生を通じての抜苦与楽（ばっくよらく）である。<br><br>それが出来なければ、宗教としての価値はないのである。<br><br>病気を治さないで、慰安をして与（や）る事よりも、病気を治して、健康体にしてやるのが、真の救いである。<br><br>貧乏を我慢しつつ、安心立命せよと言うよりも、金に困らないようにしてやるのが、真の救いである。<br><br>この世は厭離穢土（えんりえど）であり、火宅（かたく）であり苦の娑婆であるから諦めよ、我慢せよ、悟れよ、と言うよりも、こういう苦悩の娑婆をして、天国楽土たらしむべく、積極的に活動するのが、真の救である。<br><br>その救いの効果的現われによってその宗教の価値が定まるのである。<br><br> しかし、それらの事は、私が言うまでもなく世の宗教家達は、みんな、知り抜いているはずである。<br><br>しかし、いくら知りぬいて、努力はしてもどうにもならないから、是非なく、苦のまま諦めろと言い苦のまま安心立命せよと説くのは、余儀ない事である、一種の遁道（にげみち）である。<br><br>そんな諦めの鼓吹ではいくら笛を吹いても、大衆は躍らない、イクラ太鼓を叩いても集まらない、ここにおいて、社会から、宗教は、無用の存在として非難を享（う）ける、それが苦しいのだ、苦しいから何かを行らなければならない。<br><br>その防弾チョッキとしての、宗団の社会事業経営なのである。<br><br>むしろ同情すべきではあるが、どうか一日も早く、宗教本来の使命に覚醒して、真の救いに精進して貰いたいのである。<br><br> 最後に言う、人間の智慧でやる宗教の最後は、社会事業となってしまう。<br><br>神の力と、神の智慧で行く宗教は、奇蹟から奇蹟で、本当に世を救ってゆく。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Verdadeira Salvação</h2>
 <p>A verdadeira salvação consiste em salvar a alma para toda a eternidade. Consiste, igualmente, em extirpar o sofrimento e conceder a alegria ao longo de toda a vida. Uma religião que não é capaz de realizar tal feito carece de qualquer valor. Mais do que simplesmente oferecer consolo aos enfermos, a salvação genuína reside em curar-lhes as enfermidades e restituir-lhes a plenitude da saúde. Em vez de exortar à resignação diante da pobreza e à busca por uma paz de espírito em meio a ela, a verdadeira salvação consiste em criar condições para que as pessoas não sejam afligidas por dificuldades financeiras. Em lugar de pregar a renúncia, a resignação e a busca pela iluminação com o argumento de que este mundo é um lugar impuro e detestável, uma morada em chamas, um plano de dor e agonia, a autêntica salvação manifesta-se no trabalho ativo e determinado para transformar esta dimensão de sofrimento em um Paraíso Terrestre. O valor de uma religião é, portanto, determinado pela manifestação efetiva dessa salvação.</p>
 <p>Contudo, não é preciso que eu o diga, pois os líderes religiosos deste mundo certamente já têm plena consciência de tudo isso. Todavia, por mais que saibam e se esforcem, sentem-se impotentes. Não lhes resta, assim, outra alternativa senão pregar a resignação em meio ao sofrimento e a busca por serenidade na adversidade. Trata-se de uma estratégia de fuga, um subterfúgio inevitável. Com tal apologia à resignação, por mais que se toque a flauta, as massas não dançarão; por mais que se rufem os tambores, não se reunirão. É nesse ponto que a sociedade passa a condenar a religião, rotulando-a como uma instituição inútil. Essa crítica é dolorosa e, por sê-lo, sentem a necessidade de tomar alguma atitude. A gestão de obras sociais por parte das organizações religiosas surge, então, como um colete à prova de balas para se defenderem de tais acusações. Embora tal postura mereça certa compaixão, almejo que despertem o quanto antes para a missão primordial da religião e se devotem com afinco à verdadeira salvação.</p>
 <p>Para concluir, afirmo: o destino final de uma religião conduzida pela sabedoria humana é degenerar em mera filantropia. Já a religião que avança alicerçada no poder e na sabedoria de Deus salva o mundo de fato, operando milagre após milagre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の救い 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 真の救いとは、永遠に、魂を救う事である。<br/><br/>又、一生を通じての抜苦与楽（ばっくよらく）である。<br/><br/>それが出来なければ、宗教としての価値はないのである。<br/><br/>病気を治さないで、慰安をして与（や）る事よりも、病気を治して、健康体にしてやるのが、真の救いである。<br/><br/>貧乏を我慢しつつ、安心立命せよと言うよりも、金に困らないようにしてやるのが、真の救いである。<br/><br/>この世は厭離穢土（えんりえど）であり、火宅（かたく）であり苦の娑婆であるから諦めよ、我慢せよ、悟れよ、と言うよりも、こういう苦悩の娑婆をして、天国楽土たらしむべく、積極的に活動するのが、真の救である。<br/><br/>その救いの効果的現われによってその宗教の価値が定まるのである。<br/><br/> しかし、それらの事は、私が言うまでもなく世の宗教家達は、みんな、知り抜いているはずである。<br/><br/>しかし、いくら知りぬいて、努力はしてもどうにもならないから、是非なく、苦のまま諦めろと言い苦のまま安心立命せよと説くのは、余儀ない事である、一種の遁道（にげみち）である。<br/><br/>そんな諦めの鼓吹ではいくら笛を吹いても、大衆は躍らない、イクラ太鼓を叩いても集まらない、ここにおいて、社会から、宗教は、無用の存在として非難を享（う）ける、それが苦しいのだ、苦しいから何かを行らなければならない。<br/><br/>その防弾チョッキとしての、宗団の社会事業経営なのである。<br/><br/>むしろ同情すべきではあるが、どうか一日も早く、宗教本来の使命に覚醒して、真の救いに精進して貰いたいのである。<br/><br/> 最後に言う、人間の智慧でやる宗教の最後は、社会事業となってしまう。<br/><br/>神の力と、神の智慧で行く宗教は、奇蹟から奇蹟で、本当に世を救ってゆく。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

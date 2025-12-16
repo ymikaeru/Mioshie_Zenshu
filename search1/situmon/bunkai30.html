@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai30</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話要旨 神和会『御光話要旨』昭和26(1951)年9月12日 九月八日一〇時半 於日光殿 ――昭和二三年七月入信、現在教師第二位の資格をいただいておるものですが、二〇年前流産手術をしてから腹部にカタマリを生じ、最近は足が腫れてまいりました。<br><br>この原因と、いかがいたせばよいのでしょうか。<br><br>御垂示をお願い申し上げます。<br><br> 原因は流産手術である。<br><br>消毒薬のカタマリと内出血との両方で、なにか、肝腎のものを切ってるので、排泄機能が鈍って溶けにくくなっておるのです。<br><br>これがカタマリの現状です。<br><br>背後から、特に尾てい骨辺りを浄霊すると、だんだん溶けてきますよ。<br><br> ――眼病で悩んでる方で、最近発熱がいたしますが。<br><br> 舞台でなく楽屋をやることが大切で、前頭部（眼の上）と後頭部（延髄）をやることです。<br><br>病気はあらわれた所よりも、うしろが大切です。<br><br>発熱は結構です。<br><br>これは治る作用で、会社は休まず働きながら、発熱があったら喜んでおりなさい。<br><br>薬毒を溶かすために神は熱をお与えくださったので、急所はある。<br><br>急所を見つけることです。<br><br>この方の急所は、淋巴腺、延髄です。<br><br>医者でなんかとても治せませんよ。<br><br> ――全身しびれで、医者では「心臓神経衰弱」と称するものだそうで。<br><br> 時間がきまって全身しびれるのは、たしか死霊にちがいありませんね。<br><br>霊が救われてないとき、行方不明で死亡したりして無縁になっており、ちがった祀り方をしておると、日時をきめてやってくる。<br><br>考えてみるとわかるから、きちんとしてやる。<br><br>浄霊をして浄めてやることですね。<br><br> ――物がすべてユガんで見えるのは、いかなる理由でしょうか。<br><br> これは少し長くかかる。<br><br>薬毒病で、視神経を圧迫するから、物がユガんで見えるのです。<br><br>気長にやって、絶対薬を入れるな。<br><br> ――昭和二〇年一〇月入信せし者です。<br><br>元来胃が悪く、八年前子宮も悪くし、痔の出血一年間つづきました。<br><br>「ロート目薬」を一〇〇本も使い、目にブツブツができて激痛がします。<br><br> 胃病は背中にかたまりがあるから、そこを浄霊すること。<br><br>目薬を点じて仰向けに寝るので、薬毒は眼球のうしろを流れ、後頭部に固まるのである。<br><br> ――最近、子供が四〇度前後の熱がつづき、ヒキツケを起こします。<br><br>回虫が一匹出ましたが、ゴロゴロ苦しみます。<br><br>三年前、主人の妹二四歳が、急性肋膜腸結核で急死いたしました。<br><br>そのとき、目がつり上がり、苦悶の状はとても見てられない様子でしたが、これと霊的に関係ありましょうか。<br><br> 妹の霊が祀ってもらいたいから、あなたの子供にかかるのです。<br><br>御浄霊をよくしてあげなさい。<br><br>顔をかきむしるのはそのせいですよ。<br><br> ――本年三二歳女、二〇歳のとき盲腸を手術、その後肋膜を患いました。<br><br>夫は戦死しました。<br><br>最近体の具合悪く足がむくみ、なき夫の霊を出してみますと、浄霊をやめてはしいと申します。<br><br>無論夫は信仰はもってませんでした。<br><br> この方の信仰がぐらぐらしてるから、迎えに来られるのですよ。<br><br>妻が信仰を徹底するとあきらめて、来ても駄目と思いかえってゆく。<br><br>邪神からスキをねらわれるということは、信仰が絶対でないからである。<br><br>できるだけ御神書を読むようにすることです。<br><br>肋膜の急所は背中で、押してみて痛い所、胸の横側も大切です。<br><br>盲腸炎の急所は、お腹から右股の所、さわると熱く、必ず痛む所がある。<br><br>そこをよくやることですね。<br><br> ――首筋の所に浄化をいただいておる者ですが、最近あまり御浄霊をうけても治りがおそいと言って気をもみ、信仰をしようといたしませ〔ん〕が、いかがいたしたらよろしいでしょうか。<br><br> この方は先日みえた方ですね。<br><br> ――ハイ、さようであります。<br><br> この方はいつ入信いたしましたか。<br><br> ――ハイ、三年前であります。<br><br> 三年くらいで、あの薬毒がすっかりとれるものじゃないですよ。<br><br>わたしなんか、三六年も自己浄霊を歯にやってますがね。<br><br>昭和三年に薬を入れてますので、薬毒は一〇年、一五年は、すっかりとりきるにかかりますね。<br><br>あの方は、肩の毒が御浄霊によって治っておるのでしょ。<br><br>この道から離れると御守護がなくなりますよ。<br><br>命が危い体が救われたのですから、霊線が切れるとたいへんなことになりますよ。<br><br> ――主人がこの道がわからず、おまけに梅毒にかかって六百六号の注射もやっております。<br><br>手術もいたしましたが、その後しびれがきておりますが、お救いいただけましょうか。<br><br> 六百六号をやると必ず頭が悪くなる。<br><br>入信させて、熱心にやることですね。<br><br>祖先が霊界で苦しんでおる。<br><br>手術をやるとしびれがくる。<br><br>例えば、乳癌を手術すると、きまって片腕がしびれる。<br><br>この方は消毒薬の中毒になってますね。<br><br>便秘はうっちゃらかしておくと出るものです。<br><br> 出ることになっておるのですから、薬の量によって、何日で治るかわからないものである。<br><br>無理でなく、早く御神体をお祀りしてあげ、御神書を読んで聞かせるうちに救われるでしょう。<br><br> おしらせ 御神書『山と水』お歌 礼金 一六〇〇円 この御神書は、家宝として末長く家に蔵してよいもので、子孫へのおみやげです。<br><br> 明主様の御直筆あり、装帳も立派で、どこに出してもはずかしくない逸品です。<br><br> この歌を常にあげてますと、邪神はつかぬのです。<br><br>朗詠によし、ユーモアの内容もあり、明主様の歴史を知るうえにも、ぜひ、おすすめいたしたいものです。<br><br>この礼金は、建設資金（箱根強羅）美術館建設に役だたせていただくものだそうです。<br><br> 御希望の方は、部数に制限ありますことゆえ、申し込みは少々早めに、当会本部に願います。<br><br> 特別御面会 午後一時三〇分より三時二〇分まで （於）強羅 神山荘 上の間 米は田、麦と野菜は畑で、神様がちゃんとおきめになっておられるのです。<br><br>陸稲とか、米と麦の連作は、あまり良質は出ません。<br><br> 本教は真善美をよく説いており、実行しております。<br><br>先日大本教のうめのさんが来ましたがね。<br><br>足袋もはいてない。<br><br>固い信仰を、固く信仰してることを相手におもわせ。<br><br>たしかに真善ではあるが、ちっとも美がない。<br><br> 人間にも、ダイヤモンドもおれば、金とか鉄ごとき者もあって、ダイヤモンドごとき人間は、世界に幾人もおらず、金は装飾だから、また鉄は多くあって、たいてい鉄が多い。<br><br> 平等とは、差別で公平でないことだ。<br><br>神は差別をおつけになった。<br><br> 職業によって服装の調わないのがありますが、これはいっこう差し支えない。<br><br>百姓の娘と銀座の娘と比較した場合、前者は霊主体従、後者は体主霊従ということになる。<br><br> 爪を真っ赤にそめ、姿形のみにとらわれてる者より、むしろまめまめしく働いてる百姓の娘に愛したい気持ちになることさえある。<br><br> 画において、真の芸術は、簡略に書いて画面いっぱいに書いたもののように見え、かつ自然よりよく見えるのが本当である。<br><br> 結婚について、家のためとかをのみ考えて結婚をおくらせるのは本当でない。<br><br>自分の好きなことをやる。<br><br>好きな相手と結婚するのがよい。<br><br>しかし、一応の常識はあるが、よく世の親などが、うちの娘は年ごろだから、早く片づけねばならないと、むやみにすすめるのはよくない。<br><br>まるで、犬か猫の交尾のごとく考えてる者がいる。<br><br>遊女ならともかく、あのここで注意しなければならないことは、結婚できないのと、してならないのとある。<br><br>これを無理にやると、かえって不幸をまねく場合が多いのである。<br><br> 信者がこの道を知らぬ方に説明する場合、やはり明主様と言ってよい。<br><br>岡田先生じゃおかしいし、岡田先生はざらにありますからね。<br><br> 正守護神の中でも神格を得てる者は、なにかと神の知らせをしてくださるものである。<br><br> 生米を食べる家族……これはヘビの霊で、しかも蛇が餓鬼道に堕ちて食物の執着が強く、前世においてこの蛇はたぶんこの家の主に飼われておった。<br><br>そのとき食べさせる物も食べさせず、オリの中で死んでしまったので、蛇はおこり、うらんでるのですね。<br><br>正守護神がさせるので、食うだけ食えば治る。<br><br> 先妻と後妻の位牌の順位は、先妻が先である。<br><br> 然毒は、種痘が発見実施されるようになってからで、その以前にはない。<br><br> 霊憑りになると、それを信じたがるが、だんだん聴いてると、ずいぶん非常識を言う場合がある。<br><br>そのときは注意してやる。<br><br> 鳥取県に賀露（かろ）神社という金毛九尾（きんもうきゅうび）の狐霊を祀ってる神社がある。<br><br>これは邪神のほうで、人間を堕落させると喜ぶ。<br><br>日本にこの眷族（けんぞく）が何万じゃない、何億といる。<br><br>これが信者の奥さんに憑ったのですか。<br><br>まあまあパンパンのちょっとよいようなものですよ。<br><br>淫蕩的ですばらしい色眼をつかったりする。<br><br>八面六臂（はちめんろっぴ）の狐は白いが、赤、黒には金毛九尾に多い。<br><br>邪神は活躍してる。<br><br>これに完全にかてるのは私だけさ。<br><br> 邪神に感謝というとおかしいが、決しておかしくないのである。<br><br>神は日本を救うために、ソ連（赤龍）を使わした。<br><br>すなわち、大邪神サタンである。<br><br>日本が豊かになると共産主義は拡がらない。<br><br>米は戦争中、日本の敵であるが、米はいま、日本を豊かにせねばならぬといろいろ援助してくださる。<br><br>善悪はあざなえる縄のごとしということがある。<br><br> 三守護神について（これは午前中の一般御面会において、御論文中に守護神のことがあったので、再度疑問の点をお伺い申し上げたので、詳細御説明くだされたものと拝察申し上げるしだい）。<br><br> どんな人間にも三守護神なるものが体内外に存し、常に御守護くださってるものである。<br><br>左に三守護神を解説してみよう。<br><br> 本守護神（木霊）……神の分霊。<br><br>神から命令を受けて人間に懸ってる神。<br><br> 肚の真ん中（中腑）と頭脳の真ん中に位置す（天と地）。<br><br> 神と人間との取り次ぎをなさる役目である（善性）。<br><br>良心。<br><br> 仏教でいう菩提心、または、仏心のこと。<br><br> 正守護神（正霊）……これは祖先の霊であって、人が生まれるや、それを守護すべく祖霊中のだれかが選抜される。<br><br>この場合、神格化した祖霊が憑る場合もある。<br><br>すなわち、同化霊である。<br><br>龍神、狐、天狗などもある。<br><br> 定位とてなく、体の中にあり、必要のときはいつにても、ひょいと外にあって守護くださる。<br><br> 人間が危険に遭遇したとき、奇蹟的に助かったり、また、暗示を与えられたり、夢しらせ、虫しらせなどは、この正守護神の活動によるもので、信仰が深くなると正守護神の力が出てくる。<br><br> 光明如来様の御利益は、みな正守護神を通して行なわれる。<br><br> 副守護神（副霊）……後天的に憑依せる動物霊で、狐、狸、犬、猫、馬、牛、猿、いたち、または龍神、天狗、あらゆる鳥などで、たいてい一人一種、まれには二種以上。<br><br> （悪性）邪念……仏教でいう煩悩、または、般若のことである。<br><br> いったいこのお客様はどこに住むかと申すと、たいてい、臍の下（下腹）。<br><br>また、いたずらですから、上がったり下がったり、ほうぼうまわり、体の外に出たり、入ったりする。<br><br>この副霊が頭の前にゆき、木霊を邪魔して占領すると、いわゆる精神病となる。<br><br> 参考事項 御浄霊の際、よく額をやるのは、本守護神をいっそう浄めるのでなく、魂をつつんでるくもりをとり除くためである。<br><br> あたかも魂である太陽の光を雲がさえぎってるようなもので、これをとり除くのが浄霊であると解せばよい。<br><br> 浄霊をすると外から浄まり、御神書を拝読いたすと中から浄まる。<br><br> 人の性は善なり、というわけで性善説ができたが、これと反対に、人間の性は悪であると言って、性悪説をとなえた学者もいるが、性善説が本当である。<br><br> ごく中心たる魂は動かず、動くのは心である。<br><br>魂は善であるが、あまりくもりが多量であると魂がくもって見え、悪に見え、性悪説をとなえることになる。<br><br>性善説が真実である。<br><br>人助けをすると、周囲より感謝されるから魂が強く働くことになる。<br><br>月並祭に多勢の方がお詰りをするとなると、神は強く働き、御利益をたくさんくださるのである。<br><br> このたび、七月二五日より御守りが変わったが、これは神様が必要があるから御守り様を変させたのである。<br><br>従来の御守り様は御額にして霊界を浄めるのである。<br><br> 入信して御浄化をいただけない方は、服んだ薬があまり強く固結してるからである（体的）。<br><br> 信者を多くつくり、支部まで築きあげることは、線に沿うことであり、一生懸命やって結果があらわれるから、御利益をいただき、浄化もいただくわけである（霊的）。<br><br> 事情があって、教会を幾日も留守にせねばならぬときは、よくお詫を申し上げて留守にせば差し支えなし。<br><br>御神体をしまうようなことはせぬでよい。<br><br> 下痢状態のとき、水菓子を食すると回数が多くなりたいへんであるから、楽に下痢するには、果物は食べぬほうがよいことになる。<br><br>果物は健康時、食べるものである。<br><br> 果物の話が出たから説明すると、チフスのときは、絶対果物は悪い。<br><br>熟を高めることになるから。<br><br>便秘の場合よし。<br><br>林檎はすって食べるものでない。<br><br> 夢は正守護神と副守護神が見せるのである。<br><br>頭の中で夢を見るのではない。<br><br> 御守りは白の絹袋、紐はやはり絹が本当である。<br><br>しかし、それがない事情ならば、ナイロンでもクサリでもよい。<br><br> 歯ぎしりは動物霊の仕業で、よく大きな口を開いて寝てるのも、そうである。<br><br> 親鸞上人は、しばらく地獄におった。<br><br>長霊抄善光寺の御本尊はインドに帰りましたよ。<br><br> 肥るのも体質にもよるが、毒肥りとでないのとあるが、前者は重い。<br><br>後者は肥るたちで、毒少ないときは軽く動作する。<br><br> 小児麻痺……原因は霊的で、先祖に脳溢血で急死した霊があって、その霊の憑依である。<br><br>従って、その症状は脳溢血と同様で、言語不能、半身不随がある。<br><br> 霊界では他人に憑依できない規則になっておるので、やむなくその霊線を辿って憑依するのである。<br><br> 死霊憑依の場合、成人より小児のほうが憑りやすいのは、たまたま感冒などによって、高熱、食欲不振など衰弱時を好機とするのである。<br><br>その場合、祖父母の霊は孫にかかることが多く、かえって親の霊が子にかかるのは少ないのである（医学上の遺伝性疾患は一代おき）。<br><br> 変死のごとき突然死の霊も、憑依して小児麻痺となることがある。<br><br>この場合も死の覚悟がないため、脳溢血と同様、人間を求め、霊線を通じて憑依するのである。<br><br> 勿論死の状態を表わすのである。<br><br> 屏風観音様は先祖を浄めるのであるから、結構なことで、入信する前に未入信者の仏壇に奉斎してよい。<br><br> 大光明如来、光明如来様は、入信後お祀りいたすのが本則で、そうしなければいけない。<br><br> 仏像に善言讃詞をあげる場合は、どういうわけかと申すと左の場合。<br><br> 一、近く御神体を奉斎いたすことになっておる。<br><br> 二、それまでなにか拝みたい気持ちになる。<br><br> 階下に仏壇がある場合、御軸の観音（千手）様がありますから、それをお祈りしなさい。<br><br> 午前中、日光殿において、一般参詣者に、係の先生が一体おともして一同にお見せくださいましたが、実にすばらしいものです。<br><br>礼金も、屏風観音様と同じです。<br><br>まちがったお祀りなさってるときは、ぜひ他人様にお知らせのうえ、速やかに御奉斎くださいますよう願います。<br><br> 赤痢……頭が痛まない。<br><br>御浄霊の急所は頭である。<br><br> チフス……頭が痛み、熱の割合に脈がひくい。<br><br>午後四時になると熱発する。<br><br>主としてお腹に出る。<br><br>食物は流動物（おもゆ、牛乳）を執るべきで、解熱せば、順次おかゆにすること。<br><br>だいたいチフスは小腸に小さな穴があくので毒血が集溜し、浄化が起こるのである。<br><br>従って、食物も固いのはよくないわけである。<br><br> 山形の一信者宅は寺で、その土蔵が、最近白蟻でもって柱が食いあらされておるとのことであるが、これは以前に不浄な金でつくった土蔵であるから、その浄化作用が起きたのである。<br><br>仏滅も多少は関係があるが、たいしたことはない。<br><br> 物に恵まれてない信者が、より上の位の御神体を奉斎いたす場合に、いままで床の間にかけてあった御神体を、先生（資格者）の手を通して正式に祀りして、他にお取り次ぎしても差し支えない。<br><br>順序をあやまらないことが大切である。<br><br> 信者が死亡した場合の御守りの取り扱いは、本人の希望（意志）を尊重する。<br><br>もし、本人より意志表示なき場合は、故人の御守りを一年間仏壇に供えておき、のち御額にしておくこと。<br><br> 恩義を忘れた罪……命を神よりお救いいただき、よろこんでおるのも束の間、なんら神様に報恩の行為をせぬときは、再浄化をいただき、死に至らしめる場合がある。<br><br>よくよく注意しなくてはならない。<br><br> （文責記者） （昭和二六年九月一二日 謹書）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Purificação e o Mundo Espiritual</h2>
 <p><strong>P: Sou membro desde julho de 1948 e atualmente possuo a qualificação de Assistente de Ministro. Há vinte anos, após passar por uma cirurgia de aborto, desenvolveu-se um nódulo em meu abdômen, e recentemente minhas pernas começaram a inchar. Gostaria de receber um Ensinamento sobre a causa desse problema e como devo proceder.</strong></p>
@@ -236,5 +388,48 @@ function toggleLang(lang) {
 <p>O pecado de esquecer a gratidão: Há casos em que, após ter a vida salva por Deus e alegrar-se por um breve período, a pessoa não pratica nenhum ato de gratidão e, como consequência, recebe uma nova purificação que a leva à morte. É preciso ter muito cuidado com isso.</p>
 </li>
 </ul></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話要旨 神和会『御光話要旨』昭和26(1951)年9月12日 九月八日一〇時半 於日光殿 ――昭和二三年七月入信、現在教師第二位の資格をいただいておるものですが、二〇年前流産手術をしてから腹部にカタマリを生じ、最近は足が腫れてまいりました。<br/><br/>この原因と、いかがいたせばよいのでしょうか。<br/><br/>御垂示をお願い申し上げます。<br/><br/> 原因は流産手術である。<br/><br/>消毒薬のカタマリと内出血との両方で、なにか、肝腎のものを切ってるので、排泄機能が鈍って溶けにくくなっておるのです。<br/><br/>これがカタマリの現状です。<br/><br/>背後から、特に尾てい骨辺りを浄霊すると、だんだん溶けてきますよ。<br/><br/> ――眼病で悩んでる方で、最近発熱がいたしますが。<br/><br/> 舞台でなく楽屋をやることが大切で、前頭部（眼の上）と後頭部（延髄）をやることです。<br/><br/>病気はあらわれた所よりも、うしろが大切です。<br/><br/>発熱は結構です。<br/><br/>これは治る作用で、会社は休まず働きながら、発熱があったら喜んでおりなさい。<br/><br/>薬毒を溶かすために神は熱をお与えくださったので、急所はある。<br/><br/>急所を見つけることです。<br/><br/>この方の急所は、淋巴腺、延髄です。<br/><br/>医者でなんかとても治せませんよ。<br/><br/> ――全身しびれで、医者では「心臓神経衰弱」と称するものだそうで。<br/><br/> 時間がきまって全身しびれるのは、たしか死霊にちがいありませんね。<br/><br/>霊が救われてないとき、行方不明で死亡したりして無縁になっており、ちがった祀り方をしておると、日時をきめてやってくる。<br/><br/>考えてみるとわかるから、きちんとしてやる。<br/><br/>浄霊をして浄めてやることですね。<br/><br/> ――物がすべてユガんで見えるのは、いかなる理由でしょうか。<br/><br/> これは少し長くかかる。<br/><br/>薬毒病で、視神経を圧迫するから、物がユガんで見えるのです。<br/><br/>気長にやって、絶対薬を入れるな。<br/><br/> ――昭和二〇年一〇月入信せし者です。<br/><br/>元来胃が悪く、八年前子宮も悪くし、痔の出血一年間つづきました。<br/><br/>「ロート目薬」を一〇〇本も使い、目にブツブツができて激痛がします。<br/><br/> 胃病は背中にかたまりがあるから、そこを浄霊すること。<br/><br/>目薬を点じて仰向けに寝るので、薬毒は眼球のうしろを流れ、後頭部に固まるのである。<br/><br/> ――最近、子供が四〇度前後の熱がつづき、ヒキツケを起こします。<br/><br/>回虫が一匹出ましたが、ゴロゴロ苦しみます。<br/><br/>三年前、主人の妹二四歳が、急性肋膜腸結核で急死いたしました。<br/><br/>そのとき、目がつり上がり、苦悶の状はとても見てられない様子でしたが、これと霊的に関係ありましょうか。<br/><br/> 妹の霊が祀ってもらいたいから、あなたの子供にかかるのです。<br/><br/>御浄霊をよくしてあげなさい。<br/><br/>顔をかきむしるのはそのせいですよ。<br/><br/> ――本年三二歳女、二〇歳のとき盲腸を手術、その後肋膜を患いました。<br/><br/>夫は戦死しました。<br/><br/>最近体の具合悪く足がむくみ、なき夫の霊を出してみますと、浄霊をやめてはしいと申します。<br/><br/>無論夫は信仰はもってませんでした。<br/><br/> この方の信仰がぐらぐらしてるから、迎えに来られるのですよ。<br/><br/>妻が信仰を徹底するとあきらめて、来ても駄目と思いかえってゆく。<br/><br/>邪神からスキをねらわれるということは、信仰が絶対でないからである。<br/><br/>できるだけ御神書を読むようにすることです。<br/><br/>肋膜の急所は背中で、押してみて痛い所、胸の横側も大切です。<br/><br/>盲腸炎の急所は、お腹から右股の所、さわると熱く、必ず痛む所がある。<br/><br/>そこをよくやることですね。<br/><br/> ――首筋の所に浄化をいただいておる者ですが、最近あまり御浄霊をうけても治りがおそいと言って気をもみ、信仰をしようといたしませ〔ん〕が、いかがいたしたらよろしいでしょうか。<br/><br/> この方は先日みえた方ですね。<br/><br/> ――ハイ、さようであります。<br/><br/> この方はいつ入信いたしましたか。<br/><br/> ――ハイ、三年前であります。<br/><br/> 三年くらいで、あの薬毒がすっかりとれるものじゃないですよ。<br/><br/>わたしなんか、三六年も自己浄霊を歯にやってますがね。<br/><br/>昭和三年に薬を入れてますので、薬毒は一〇年、一五年は、すっかりとりきるにかかりますね。<br/><br/>あの方は、肩の毒が御浄霊によって治っておるのでしょ。<br/><br/>この道から離れると御守護がなくなりますよ。<br/><br/>命が危い体が救われたのですから、霊線が切れるとたいへんなことになりますよ。<br/><br/> ――主人がこの道がわからず、おまけに梅毒にかかって六百六号の注射もやっております。<br/><br/>手術もいたしましたが、その後しびれがきておりますが、お救いいただけましょうか。<br/><br/> 六百六号をやると必ず頭が悪くなる。<br/><br/>入信させて、熱心にやることですね。<br/><br/>祖先が霊界で苦しんでおる。<br/><br/>手術をやるとしびれがくる。<br/><br/>例えば、乳癌を手術すると、きまって片腕がしびれる。<br/><br/>この方は消毒薬の中毒になってますね。<br/><br/>便秘はうっちゃらかしておくと出るものです。<br/><br/> 出ることになっておるのですから、薬の量によって、何日で治るかわからないものである。<br/><br/>無理でなく、早く御神体をお祀りしてあげ、御神書を読んで聞かせるうちに救われるでしょう。<br/><br/> おしらせ 御神書『山と水』お歌 礼金 一六〇〇円 この御神書は、家宝として末長く家に蔵してよいもので、子孫へのおみやげです。<br/><br/> 明主様の御直筆あり、装帳も立派で、どこに出してもはずかしくない逸品です。<br/><br/> この歌を常にあげてますと、邪神はつかぬのです。<br/><br/>朗詠によし、ユーモアの内容もあり、明主様の歴史を知るうえにも、ぜひ、おすすめいたしたいものです。<br/><br/>この礼金は、建設資金（箱根強羅）美術館建設に役だたせていただくものだそうです。<br/><br/> 御希望の方は、部数に制限ありますことゆえ、申し込みは少々早めに、当会本部に願います。<br/><br/> 特別御面会 午後一時三〇分より三時二〇分まで （於）強羅 神山荘 上の間 米は田、麦と野菜は畑で、神様がちゃんとおきめになっておられるのです。<br/><br/>陸稲とか、米と麦の連作は、あまり良質は出ません。<br/><br/> 本教は真善美をよく説いており、実行しております。<br/><br/>先日大本教のうめのさんが来ましたがね。<br/><br/>足袋もはいてない。<br/><br/>固い信仰を、固く信仰してることを相手におもわせ。<br/><br/>たしかに真善ではあるが、ちっとも美がない。<br/><br/> 人間にも、ダイヤモンドもおれば、金とか鉄ごとき者もあって、ダイヤモンドごとき人間は、世界に幾人もおらず、金は装飾だから、また鉄は多くあって、たいてい鉄が多い。<br/><br/> 平等とは、差別で公平でないことだ。<br/><br/>神は差別をおつけになった。<br/><br/> 職業によって服装の調わないのがありますが、これはいっこう差し支えない。<br/><br/>百姓の娘と銀座の娘と比較した場合、前者は霊主体従、後者は体主霊従ということになる。<br/><br/> 爪を真っ赤にそめ、姿形のみにとらわれてる者より、むしろまめまめしく働いてる百姓の娘に愛したい気持ちになることさえある。<br/><br/> 画において、真の芸術は、簡略に書いて画面いっぱいに書いたもののように見え、かつ自然よりよく見えるのが本当である。<br/><br/> 結婚について、家のためとかをのみ考えて結婚をおくらせるのは本当でない。<br/><br/>自分の好きなことをやる。<br/><br/>好きな相手と結婚するのがよい。<br/><br/>しかし、一応の常識はあるが、よく世の親などが、うちの娘は年ごろだから、早く片づけねばならないと、むやみにすすめるのはよくない。<br/><br/>まるで、犬か猫の交尾のごとく考えてる者がいる。<br/><br/>遊女ならともかく、あのここで注意しなければならないことは、結婚できないのと、してならないのとある。<br/><br/>これを無理にやると、かえって不幸をまねく場合が多いのである。<br/><br/> 信者がこの道を知らぬ方に説明する場合、やはり明主様と言ってよい。<br/><br/>岡田先生じゃおかしいし、岡田先生はざらにありますからね。<br/><br/> 正守護神の中でも神格を得てる者は、なにかと神の知らせをしてくださるものである。<br/><br/> 生米を食べる家族……これはヘビの霊で、しかも蛇が餓鬼道に堕ちて食物の執着が強く、前世においてこの蛇はたぶんこの家の主に飼われておった。<br/><br/>そのとき食べさせる物も食べさせず、オリの中で死んでしまったので、蛇はおこり、うらんでるのですね。<br/><br/>正守護神がさせるので、食うだけ食えば治る。<br/><br/> 先妻と後妻の位牌の順位は、先妻が先である。<br/><br/> 然毒は、種痘が発見実施されるようになってからで、その以前にはない。<br/><br/> 霊憑りになると、それを信じたがるが、だんだん聴いてると、ずいぶん非常識を言う場合がある。<br/><br/>そのときは注意してやる。<br/><br/> 鳥取県に賀露（かろ）神社という金毛九尾（きんもうきゅうび）の狐霊を祀ってる神社がある。<br/><br/>これは邪神のほうで、人間を堕落させると喜ぶ。<br/><br/>日本にこの眷族（けんぞく）が何万じゃない、何億といる。<br/><br/>これが信者の奥さんに憑ったのですか。<br/><br/>まあまあパンパンのちょっとよいようなものですよ。<br/><br/>淫蕩的ですばらしい色眼をつかったりする。<br/><br/>八面六臂（はちめんろっぴ）の狐は白いが、赤、黒には金毛九尾に多い。<br/><br/>邪神は活躍してる。<br/><br/>これに完全にかてるのは私だけさ。<br/><br/> 邪神に感謝というとおかしいが、決しておかしくないのである。<br/><br/>神は日本を救うために、ソ連（赤龍）を使わした。<br/><br/>すなわち、大邪神サタンである。<br/><br/>日本が豊かになると共産主義は拡がらない。<br/><br/>米は戦争中、日本の敵であるが、米はいま、日本を豊かにせねばならぬといろいろ援助してくださる。<br/><br/>善悪はあざなえる縄のごとしということがある。<br/><br/> 三守護神について（これは午前中の一般御面会において、御論文中に守護神のことがあったので、再度疑問の点をお伺い申し上げたので、詳細御説明くだされたものと拝察申し上げるしだい）。<br/><br/> どんな人間にも三守護神なるものが体内外に存し、常に御守護くださってるものである。<br/><br/>左に三守護神を解説してみよう。<br/><br/> 本守護神（木霊）……神の分霊。<br/><br/>神から命令を受けて人間に懸ってる神。<br/><br/> 肚の真ん中（中腑）と頭脳の真ん中に位置す（天と地）。<br/><br/> 神と人間との取り次ぎをなさる役目である（善性）。<br/><br/>良心。<br/><br/> 仏教でいう菩提心、または、仏心のこと。<br/><br/> 正守護神（正霊）……これは祖先の霊であって、人が生まれるや、それを守護すべく祖霊中のだれかが選抜される。<br/><br/>この場合、神格化した祖霊が憑る場合もある。<br/><br/>すなわち、同化霊である。<br/><br/>龍神、狐、天狗などもある。<br/><br/> 定位とてなく、体の中にあり、必要のときはいつにても、ひょいと外にあって守護くださる。<br/><br/> 人間が危険に遭遇したとき、奇蹟的に助かったり、また、暗示を与えられたり、夢しらせ、虫しらせなどは、この正守護神の活動によるもので、信仰が深くなると正守護神の力が出てくる。<br/><br/> 光明如来様の御利益は、みな正守護神を通して行なわれる。<br/><br/> 副守護神（副霊）……後天的に憑依せる動物霊で、狐、狸、犬、猫、馬、牛、猿、いたち、または龍神、天狗、あらゆる鳥などで、たいてい一人一種、まれには二種以上。<br/><br/> （悪性）邪念……仏教でいう煩悩、または、般若のことである。<br/><br/> いったいこのお客様はどこに住むかと申すと、たいてい、臍の下（下腹）。<br/><br/>また、いたずらですから、上がったり下がったり、ほうぼうまわり、体の外に出たり、入ったりする。<br/><br/>この副霊が頭の前にゆき、木霊を邪魔して占領すると、いわゆる精神病となる。<br/><br/> 参考事項 御浄霊の際、よく額をやるのは、本守護神をいっそう浄めるのでなく、魂をつつんでるくもりをとり除くためである。<br/><br/> あたかも魂である太陽の光を雲がさえぎってるようなもので、これをとり除くのが浄霊であると解せばよい。<br/><br/> 浄霊をすると外から浄まり、御神書を拝読いたすと中から浄まる。<br/><br/> 人の性は善なり、というわけで性善説ができたが、これと反対に、人間の性は悪であると言って、性悪説をとなえた学者もいるが、性善説が本当である。<br/><br/> ごく中心たる魂は動かず、動くのは心である。<br/><br/>魂は善であるが、あまりくもりが多量であると魂がくもって見え、悪に見え、性悪説をとなえることになる。<br/><br/>性善説が真実である。<br/><br/>人助けをすると、周囲より感謝されるから魂が強く働くことになる。<br/><br/>月並祭に多勢の方がお詰りをするとなると、神は強く働き、御利益をたくさんくださるのである。<br/><br/> このたび、七月二五日より御守りが変わったが、これは神様が必要があるから御守り様を変させたのである。<br/><br/>従来の御守り様は御額にして霊界を浄めるのである。<br/><br/> 入信して御浄化をいただけない方は、服んだ薬があまり強く固結してるからである（体的）。<br/><br/> 信者を多くつくり、支部まで築きあげることは、線に沿うことであり、一生懸命やって結果があらわれるから、御利益をいただき、浄化もいただくわけである（霊的）。<br/><br/> 事情があって、教会を幾日も留守にせねばならぬときは、よくお詫を申し上げて留守にせば差し支えなし。<br/><br/>御神体をしまうようなことはせぬでよい。<br/><br/> 下痢状態のとき、水菓子を食すると回数が多くなりたいへんであるから、楽に下痢するには、果物は食べぬほうがよいことになる。<br/><br/>果物は健康時、食べるものである。<br/><br/> 果物の話が出たから説明すると、チフスのときは、絶対果物は悪い。<br/><br/>熟を高めることになるから。<br/><br/>便秘の場合よし。<br/><br/>林檎はすって食べるものでない。<br/><br/> 夢は正守護神と副守護神が見せるのである。<br/><br/>頭の中で夢を見るのではない。<br/><br/> 御守りは白の絹袋、紐はやはり絹が本当である。<br/><br/>しかし、それがない事情ならば、ナイロンでもクサリでもよい。<br/><br/> 歯ぎしりは動物霊の仕業で、よく大きな口を開いて寝てるのも、そうである。<br/><br/> 親鸞上人は、しばらく地獄におった。<br/><br/>長霊抄善光寺の御本尊はインドに帰りましたよ。<br/><br/> 肥るのも体質にもよるが、毒肥りとでないのとあるが、前者は重い。<br/><br/>後者は肥るたちで、毒少ないときは軽く動作する。<br/><br/> 小児麻痺……原因は霊的で、先祖に脳溢血で急死した霊があって、その霊の憑依である。<br/><br/>従って、その症状は脳溢血と同様で、言語不能、半身不随がある。<br/><br/> 霊界では他人に憑依できない規則になっておるので、やむなくその霊線を辿って憑依するのである。<br/><br/> 死霊憑依の場合、成人より小児のほうが憑りやすいのは、たまたま感冒などによって、高熱、食欲不振など衰弱時を好機とするのである。<br/><br/>その場合、祖父母の霊は孫にかかることが多く、かえって親の霊が子にかかるのは少ないのである（医学上の遺伝性疾患は一代おき）。<br/><br/> 変死のごとき突然死の霊も、憑依して小児麻痺となることがある。<br/><br/>この場合も死の覚悟がないため、脳溢血と同様、人間を求め、霊線を通じて憑依するのである。<br/><br/> 勿論死の状態を表わすのである。<br/><br/> 屏風観音様は先祖を浄めるのであるから、結構なことで、入信する前に未入信者の仏壇に奉斎してよい。<br/><br/> 大光明如来、光明如来様は、入信後お祀りいたすのが本則で、そうしなければいけない。<br/><br/> 仏像に善言讃詞をあげる場合は、どういうわけかと申すと左の場合。<br/><br/> 一、近く御神体を奉斎いたすことになっておる。<br/><br/> 二、それまでなにか拝みたい気持ちになる。<br/><br/> 階下に仏壇がある場合、御軸の観音（千手）様がありますから、それをお祈りしなさい。<br/><br/> 午前中、日光殿において、一般参詣者に、係の先生が一体おともして一同にお見せくださいましたが、実にすばらしいものです。<br/><br/>礼金も、屏風観音様と同じです。<br/><br/>まちがったお祀りなさってるときは、ぜひ他人様にお知らせのうえ、速やかに御奉斎くださいますよう願います。<br/><br/> 赤痢……頭が痛まない。<br/><br/>御浄霊の急所は頭である。<br/><br/> チフス……頭が痛み、熱の割合に脈がひくい。<br/><br/>午後四時になると熱発する。<br/><br/>主としてお腹に出る。<br/><br/>食物は流動物（おもゆ、牛乳）を執るべきで、解熱せば、順次おかゆにすること。<br/><br/>だいたいチフスは小腸に小さな穴があくので毒血が集溜し、浄化が起こるのである。<br/><br/>従って、食物も固いのはよくないわけである。<br/><br/> 山形の一信者宅は寺で、その土蔵が、最近白蟻でもって柱が食いあらされておるとのことであるが、これは以前に不浄な金でつくった土蔵であるから、その浄化作用が起きたのである。<br/><br/>仏滅も多少は関係があるが、たいしたことはない。<br/><br/> 物に恵まれてない信者が、より上の位の御神体を奉斎いたす場合に、いままで床の間にかけてあった御神体を、先生（資格者）の手を通して正式に祀りして、他にお取り次ぎしても差し支えない。<br/><br/>順序をあやまらないことが大切である。<br/><br/> 信者が死亡した場合の御守りの取り扱いは、本人の希望（意志）を尊重する。<br/><br/>もし、本人より意志表示なき場合は、故人の御守りを一年間仏壇に供えておき、のち御額にしておくこと。<br/><br/> 恩義を忘れた罪……命を神よりお救いいただき、よろこんでおるのも束の間、なんら神様に報恩の行為をせぬときは、再浄化をいただき、死に至らしめる場合がある。<br/><br/>よくよく注意しなくてはならない。<br/><br/> （文責記者） （昭和二六年九月一二日 謹書）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 卓越せる神療法 『救世』53号、昭和25(1950)年3月11日発行 普通食で下痢とまる 暗黒の肺浸潤から救はれる 徳島県 陽光中教会 山田茂雄（28） 文化的療法と確信していた医学を捨て命の綱と頼んだ薬品を断ち、ひたすらに光明如来様にお縋りし今日の喜びを得て入信させていただく動機となった有難い体験談を御報告させて戴きます。<br><br> 一昨二十三年十二月下旬健康すぐれぬまま出勤致しましたが、作業中呼吸困難になり、早速市立病院へ行きました。<br><br>診断の結果は左肺浸潤のため向う二カ年間は人工気胸せよと言われ、一カ月間続けましたが次第に顔面蒼白になり、何の効果もなくその上大腸炎を併発して下痢が続き食事は医師の指導通り、お粥に野菜スープに卵黄のみで少しでも栄養を摂取しようと魚肉を一片でも食べると忽ち下痢の回数が多くなり、ますます衰弱の度が加わるばかりでした。<br><br>その間医師はブトウ糖、カルシウム、ビタミンＢ２の注射を続け「これが医師としての最上の手当ですから、お粥以外の物を食べたら死にますよ」と厳命されました。<br><br>その後も医師の意見通り懸命に努力しましたが、依然として下痢は止らず焦心の余り漢方薬のハブ草ゲンノショウコ等を服用する一方、お灸を続けても失望の一途を辿るばかりで日夜悲款に暮れていました。<br><br> 悩みに悩んだ末ふと思い出したのが一昨年の夏近所で入信しておられる酒井歌子さんが頑固な子供の皮膚病を光明如来様に救けて戴いたおかげ話でした。<br><br>当時健康だった私は迷信だと一笑に付していましたが、既存療法に失望した現在滞れる者は藁をも掴むの心境で、去る五月二十三日酒井さんにお願いしましたところ早速豪雨をついて林崎の教導所へ同伴して下さいました。<br><br>発病以来の病状を野村先生にお話し致しますとニッコリお笑いになり「助かりたいなら私の言う通りにして下さい。<br><br>注射と薬は中止して食物も健康者と同様にして下さい」と仰言って優しく御浄霊して下さいました。<br><br>こんな療法で難病が治るかしらと疑問を持ちましたが「疑っても治りますから」との先生のお言葉を信じその晩から薬とお粥を全廃しました。<br><br>翌日さしもの頑固な下痢もピッタリ止まり普通便と変りました。<br><br> その時の有難さ嬉しさに家内一同感泣致しました。<br><br>半月程御浄霊して戴いていましたが「働きながらでないと浄化が遅いですよ」と仰言ったので先生の御言葉を守り、約六カ月日の健康者も体力減退する梅雨期に職場へ復帰しました。<br><br>病後の事故多少の苦痛は感じましたが、毎日御浄霊を続けている中に遂には疲労を感じなくなりました。<br><br>このおかげ話を同僚に話しますと「それは治る時が来たからだ」と言われると信念の弱い私は心が動揺していました。<br><br> 八月八日未明激烈な胃痛と嘔吐に、下痢、腹痛で七転八倒の苦悶を始めました。<br><br>見兼ねた家族は驚愕して早く医者をと騒ぎましたが、この時こそ光明如来様にお縋りしようと御浄霊していただきました。<br><br>御浄霊半ばに息も止るような痛みが柔らぎいつしか深い眠りに入っていました。<br><br>目が醒めた時は悪夢から醒めたように今迄の苦しみはすっかり消え少しも疲労を感じませんでした。<br><br> 唯物主義の強者の私も今こそ光明如来様の御霊徳の偉大さに感激し、一人でも多くの人にこの得難い救の道を理解していただこうと入信を固く決心致しました。<br><br>ただ今では以前にも勝る健康体になりまして入信の日の間近に迫る今日野村先生、三田村先生に感謝しつつ希望に満ちた日々を過さしていただいています。<br><br> 右の例は肺浸潤に対し人工気胸を続けたところ、次第に顔面蒼白無効果で、大腸炎を併発下痢持続、しかし医師の指示通り食物に注意したが衰弱加わり、ついにお粥以外のものを食えば死ぬと宣告された、しかるに本教浄霊を受け薬剤を中止したところ翌日普通食を摂ったにかかわらず長期の下痢がピタリと止まったのであるから、医師の宣告と逆である、これは事実だけで説明の要はあるまい。<br><br> ＊ ＊ ＊ 真の効果的療法 目覚めないのが不思議 大阪府 秀明中教会 佐藤よし子（32） 私事一昨年五月肋膜炎にて丁度六カ月療養致し、やっと治りそれから勤務しておりましたところまたまた昨年四月再発、注射、薬、灸など人がよいという事は全部しましたがはかばかしくなく段々体は衰弱するばかり、細くなって行く体をながめては一人で悲歎にくれ時々はヒステリックになって子供に当り散らす始末でございました。<br><br> その時親類の者で入信者がいまして「光明如来様にお縋りなさい、きっと治して頂けるから」と熱心に勧められ、岡田先生を御紹介下さいました。<br><br>それから毎日先生は神戸よりわざわざ大阪の端までお通い下さっての御浄霊、不思議と今迄無かった食欲も出て参りました時の嬉しさ、先生の御導により私も光明如来様におすがりしてお助け頂こうと堅い信念が出来、早速入信させて頂きました。<br><br> ところが今迄医者にかかっていましたので急に断るわけにもゆかず、飲薬だけは頂いても飲まず、注射は仕方なく受けていました。<br><br>すると忘れも致しません七日医者が参りましたので「先生注射が痛いからやめます」と申しますと「それじゃ静脈へする」と直にされまして一生懸命浄霊で解いておりましたらガタガタと震いが来まして寒くて寒くて動く事もどうする事も出来ません。<br><br>お布団を三枚も掛けてもらって子供に上から押えさしましたのにそれをまだ撥返す程の勢なのです。<br><br>一生懸命光明如来様におすがり致し自分で浄霊する事も出来ず、それから一心に善言讃詞を二回苦しい中から上げました。<br><br>それでも中々止まらず脈は段々薄くなって来ますし、なにしろ衰弱しているのですから、もうこれ迄の運命だろうか否きっと御加護が頂ける、一心にお祈りしていました。<br><br>フト御霊紙を頂く事に気が付き早速子供に出させて呑みました。<br><br>暫くたって少しずつ止まって来るではありませんか。<br><br>ああその時の嬉しさ、もう少しの頑張りだと最後の一念じしていますとスウーと忘れたように止まりました。<br><br>救って戴いたと思った瞬間涙がポロポロと流れ母子共々嬉し泣きに泣きました。<br><br> もうこれで絶対に注射は受けないと堅く心に誓いました。<br><br>もうこの頃では知人が吃驚する位元気付いて参り全快も間近と希望を持っています。<br><br> これもひとえに光明如来様のお蔭とお導き下さいました皆様に感謝致し、一日も早く御恩報じの出来ます事を念じています。<br><br> 右のごとくこの患者はあらゆる療法を受けながら衰弱するばかりという事実にみても今日数え切れない程の療法はあるが、真に効果があるのは一つもないといえよう。<br><br> また最後に打った注射一本で、ひどい悪寒発生し死を覚悟する程の苦痛であるにみて注射の逆結果はいつも聞くところでなぜこれに目覚めないか不思議である、何よりも注射は絶対受けないと覚悟してから全快に向かったというのであるからまことに皮肉である。<br><br> ＊ ＊ ＊ 難症免かる 手術せずに助かる 鹿児島県 光宝中教会 牟礼乙助 私の妻（フヂノ）四十五歳は元来血の持病で村でも定評ある虚弱な体質でしたが、昨年十一月医師より、子宮筋腫という病名の宣告を受け、爾来、悲観、落胆、毎日悶々の日を送っていたので有ります。<br><br>そして手術は死よりもつらい思いがするので、医師の勧めにも背いて、八方薬を求めて自宅療養に努めておりましたが、一向効めがないので悩みに悩んでおったのであります。<br><br> ところが誰が教えてくれたのか隣村に光明如来様の霊験にて病気を治して下さる先生がおられると言う話を聞いて早速そこへ行って治療を受け始めたのであります。<br><br>ところが不思議にも下腹部にあった大きな堅い癌が段々柔くなり、半月足らずして遂に流血してなくなって終ったので有ります。<br><br>そして今では身体も元気になって仕事も出来るようになりました。<br><br> 私は初の内は祈祷的な事は嫌いなので、この御力に対しても疑惑の念を抱いていたのでありましたが、病気が全快した事実の前には一驚せざるを得ませんでした。<br><br> そして御霊験の有難さに心から感謝して日々暮らさして戴いている次第で有ります。<br><br> 子宮筋腫と診断され、手術の外ないとされたこの患者は浄霊によって半月足らずで流血全治したのである、このように子宮筋腫の大部分は月経滞りの血塊で更年期に多いのである。<br><br> ＊ ＊ ＊ 疑惑の道開ける 追いつめられ救はれる 愛媛県 陽光中教会 村上好美（27） この世の中を幸福に暮したいのは誰しも望むところであります。<br><br>私は私自身の愚かさを初めて知って恥しく想います。<br><br>だがしかし未だに自分自身の愚かさを知らざるものが少くは無いと推察致します。<br><br>そこでここに私達家族四人が御蔭を頂いて幸福の道へ歩まさせて頂いております体験の有りのままを記します。<br><br> さて五月一日夜、私は大洲町の「あけぼの」喫茶店にてカキとエビを友達と一緒に久し振りに大変おいしく食しました。<br><br>私は常に身体が健康でないため、食べた後で心配をしない事もなかったのですけれど、その店を出る時は元気で出ました。<br><br>それから次に二粁程帰るか帰らないうちに私は頭から冷水をかぶる想いがしたと思うと一、二分も経たない内に物凄くさし込んで来ました。<br><br>どうしても駄目なので、その時一緒に帰途中の友人が背をさすって親切にしてくれた甲斐もなく、痛みは増すばかりでした。<br><br>そこへ四、五人の青年が通り掛って直ぐに村医の家に苦しみながら運ばれました。<br><br>そうして注射を一本打ってもらい大分吾に返り、下剤薬を手にしてやっと自宅へ辿り着きました。<br><br>そうして早速この下剤を服用したけれど一滴も下剤の役目を果さず、それどころか考えても身の縮まる想いのする痛みが身に迫って参るばかり、それより十四日間、夜昼を問わず苦しみました。<br><br> この苦しみは体験しないと判らぬいうにいえない程です。<br><br>この間優しい村医に往診に来て貰いました。<br><br>又その都度「肝臓だから百日間痛み通しても死なないから元気を出せ」と力付けて頂きましたが、私はその痛みよりはむしろ死ぬ方がよほど楽だと思いました。<br><br> それから丁度十四日目に二本注射を打って貰いました。<br><br>その折どうしてか今までになく四時間もすやすやと寝入りました。<br><br>その時は私は知らないけれども母達は電報まで打って大騒ぎをしたらしく、目がさめると、またもや悪魔が攻めて来そうになりました。<br><br>そうしてその時母が力ある声で私に話掛けました。<br><br>「お前は親として責任を持たなければならぬ、もしお前がこの世から去るという事は親の子に対する責任が果されない事になる。<br><br>何んとしても命だけは取り止めなければならぬ。<br><br>それで光明如来様にお助けを頂け」と一心に勧めましたが、私はその時は医者も薬もすでに手が届かなくなっているのだから何かにすがらなくてはならない故、直ちにその道にすがるのが当然なのにそれでもそんな素直な気持にはなれませんでした。<br><br>そのような迷信に迷うまいと固く心に誓っていたからです。<br><br> それからいよいよ益々注射をしついに金も使い果し、増すものは悪魔の責苦のみで一人淋しく目を瞑り空想に耽っておりました。<br><br>その時目に浮んだのは私の村の橋本さんのお宅で大松先生が手を振っておられる姿でした。<br><br> しかしながらこの科学の発達した世にあのような事で絶対に科学に勝てる筈はないと疑っておりましたが、余りにも強い母の心に溶かされて疑いつつも隣村である新谷村の松徳さんの御宅にお願し早速来て頂いたのが松徳金吉先生で御歳十七歳でした。<br><br>先生が到着された際は私は烈しく痛み苦しんでいました。<br><br>早速訳の解らないままに手を振って貰いました。<br><br>すると不思議にも十分間もするかしないうちに薄紙をめくるように少しずつ痛みは逃げ出しました。<br><br>その時私は別世界へでも行っているような気がして全く生れて初めて驚きました。<br><br>又次に驚いた事には松徳先生の御家での御祭に招待されその御祭の朝、またも苦しみましたけれども大松先生の御参上を聞きリヤカーに乗って訪れました。<br><br> そうしてその席上で早速大松先生が光明如来様の御前にて手を振られました。<br><br>そうすると今まで苦しんでいた私が五分も経たないうちにすっかり楽になってしまいました。<br><br>そこで先生が仰言るには「身体に悪いから御飯を食べなさい」と言われました。<br><br>私はすっかり驚きました。<br><br>驚くはずです。<br><br>今までリンゴの汁を飲んですら苦しんでいたのに、ましてや御飯となると驚いたのは無理もありません。<br><br>そこで先生は御飯を持っていらっしゃいました。<br><br>そうしてまた仰言るには「光明如来様のおさがりだから絶対に大丈夫だよ」といわれました。<br><br>でもそれを見ると見るからに恐ろしい天婦羅、カマボコ、豆類でした。<br><br>けれども命令だと思って食べました。<br><br>この時は十八日間見た事もない御飯、本当に二十七年間初めて御飯の有難さがしみじみと身にしみました。<br><br>それからというものは一杯の御飯が咽喉を越すようになって参りました。<br><br>またこれと同時に小川先生に私のような者が先生自身に御浄霊を賜わり何ともこれに換るべき御礼が出来ない程有難く思いました。<br><br> 次に五月二十七日一時頃急に下痢の模様があるので便所へ行ったところ、真黒な菌毒が流れ出ました。<br><br>それからは又一層と調子良くなり今では病気以前よりもずっと健康になりました。<br><br> このような事で全く私は自分自身が自分の身体だけでなく幸福の道を殺していました。<br><br>反省して見るからに全く馬鹿男でした。<br><br>現在では御光もお受けしてなお一層家庭的にも社交的にも希望に満ち、はつ剌と一歩一歩強く歩んでおります、故に私は及ばずながらも陽光中教会の一員として加えて頂き諸先生の御指導の下に一生懸命に御恩奉謝の念をもってより良き日本を再建する為に光明如来様にお仕えさせて頂きつつあります。<br><br> 右は食あたりであるが、下剤を用いても寸効なく、また数多くの注射も効果なく金も費い果したが、それでもなお科学を否定し得なかったが、絶体絶命の極いやいや浄霊を受けるや一回で別世界へ行ったごとく楽になったといい、短期間に全快したのである、これによってみても単なる食あたりくらいが治し得ない現代医学には困ったものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Divina e sua Excelência</h2>
 <p><strong>A diarreia cessa com a alimentação normal</strong>
@@ -146,5 +298,48 @@ function toggleLang(lang) {
 <p>Com tudo isso, percebi que eu estava matando não apenas meu próprio corpo, mas também meu caminho para a felicidade. Ao refletir, vejo que fui um homem verdadeiramente tolo. Hoje, após receber a Medalha da Luz Divina, minha vida familiar e social se encheu de esperança, e caminho com passos firmes e vigorosos. Como membro da Igreja Tyuoo Yoko, por mais insignificante que eu seja, dedico-me a servir a Deus sob a orientação dos reverendos, com um sentimento de profunda gratidão, a fim de contribuir para a reconstrução de um Japão melhor.</p>
 <hr/>
 <p><em>O caso acima trata de uma intoxicação alimentar. O uso de laxantes foi inócuo, e as inúmeras injeções não surtiram efeito, levando o paciente a esgotar seus recursos financeiros. Mesmo assim, ele relutava em negar a ciência. Foi somente ao chegar a uma situação de vida ou morte que, a contragosto, aceitou receber Johrei. Uma única ministração o fez sentir-se como se estivesse em outro mundo, e a recuperação completa veio em um curto espaço de tempo. Diante disso, é de se lamentar a incapacidade da medicina moderna de curar sequer uma simples intoxicação alimentar.</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 卓越せる神療法 『救世』53号、昭和25(1950)年3月11日発行 普通食で下痢とまる 暗黒の肺浸潤から救はれる 徳島県 陽光中教会 山田茂雄（28） 文化的療法と確信していた医学を捨て命の綱と頼んだ薬品を断ち、ひたすらに光明如来様にお縋りし今日の喜びを得て入信させていただく動機となった有難い体験談を御報告させて戴きます。<br/><br/> 一昨二十三年十二月下旬健康すぐれぬまま出勤致しましたが、作業中呼吸困難になり、早速市立病院へ行きました。<br/><br/>診断の結果は左肺浸潤のため向う二カ年間は人工気胸せよと言われ、一カ月間続けましたが次第に顔面蒼白になり、何の効果もなくその上大腸炎を併発して下痢が続き食事は医師の指導通り、お粥に野菜スープに卵黄のみで少しでも栄養を摂取しようと魚肉を一片でも食べると忽ち下痢の回数が多くなり、ますます衰弱の度が加わるばかりでした。<br/><br/>その間医師はブトウ糖、カルシウム、ビタミンＢ２の注射を続け「これが医師としての最上の手当ですから、お粥以外の物を食べたら死にますよ」と厳命されました。<br/><br/>その後も医師の意見通り懸命に努力しましたが、依然として下痢は止らず焦心の余り漢方薬のハブ草ゲンノショウコ等を服用する一方、お灸を続けても失望の一途を辿るばかりで日夜悲款に暮れていました。<br/><br/> 悩みに悩んだ末ふと思い出したのが一昨年の夏近所で入信しておられる酒井歌子さんが頑固な子供の皮膚病を光明如来様に救けて戴いたおかげ話でした。<br/><br/>当時健康だった私は迷信だと一笑に付していましたが、既存療法に失望した現在滞れる者は藁をも掴むの心境で、去る五月二十三日酒井さんにお願いしましたところ早速豪雨をついて林崎の教導所へ同伴して下さいました。<br/><br/>発病以来の病状を野村先生にお話し致しますとニッコリお笑いになり「助かりたいなら私の言う通りにして下さい。<br/><br/>注射と薬は中止して食物も健康者と同様にして下さい」と仰言って優しく御浄霊して下さいました。<br/><br/>こんな療法で難病が治るかしらと疑問を持ちましたが「疑っても治りますから」との先生のお言葉を信じその晩から薬とお粥を全廃しました。<br/><br/>翌日さしもの頑固な下痢もピッタリ止まり普通便と変りました。<br/><br/> その時の有難さ嬉しさに家内一同感泣致しました。<br/><br/>半月程御浄霊して戴いていましたが「働きながらでないと浄化が遅いですよ」と仰言ったので先生の御言葉を守り、約六カ月日の健康者も体力減退する梅雨期に職場へ復帰しました。<br/><br/>病後の事故多少の苦痛は感じましたが、毎日御浄霊を続けている中に遂には疲労を感じなくなりました。<br/><br/>このおかげ話を同僚に話しますと「それは治る時が来たからだ」と言われると信念の弱い私は心が動揺していました。<br/><br/> 八月八日未明激烈な胃痛と嘔吐に、下痢、腹痛で七転八倒の苦悶を始めました。<br/><br/>見兼ねた家族は驚愕して早く医者をと騒ぎましたが、この時こそ光明如来様にお縋りしようと御浄霊していただきました。<br/><br/>御浄霊半ばに息も止るような痛みが柔らぎいつしか深い眠りに入っていました。<br/><br/>目が醒めた時は悪夢から醒めたように今迄の苦しみはすっかり消え少しも疲労を感じませんでした。<br/><br/> 唯物主義の強者の私も今こそ光明如来様の御霊徳の偉大さに感激し、一人でも多くの人にこの得難い救の道を理解していただこうと入信を固く決心致しました。<br/><br/>ただ今では以前にも勝る健康体になりまして入信の日の間近に迫る今日野村先生、三田村先生に感謝しつつ希望に満ちた日々を過さしていただいています。<br/><br/> 右の例は肺浸潤に対し人工気胸を続けたところ、次第に顔面蒼白無効果で、大腸炎を併発下痢持続、しかし医師の指示通り食物に注意したが衰弱加わり、ついにお粥以外のものを食えば死ぬと宣告された、しかるに本教浄霊を受け薬剤を中止したところ翌日普通食を摂ったにかかわらず長期の下痢がピタリと止まったのであるから、医師の宣告と逆である、これは事実だけで説明の要はあるまい。<br/><br/> ＊ ＊ ＊ 真の効果的療法 目覚めないのが不思議 大阪府 秀明中教会 佐藤よし子（32） 私事一昨年五月肋膜炎にて丁度六カ月療養致し、やっと治りそれから勤務しておりましたところまたまた昨年四月再発、注射、薬、灸など人がよいという事は全部しましたがはかばかしくなく段々体は衰弱するばかり、細くなって行く体をながめては一人で悲歎にくれ時々はヒステリックになって子供に当り散らす始末でございました。<br/><br/> その時親類の者で入信者がいまして「光明如来様にお縋りなさい、きっと治して頂けるから」と熱心に勧められ、岡田先生を御紹介下さいました。<br/><br/>それから毎日先生は神戸よりわざわざ大阪の端までお通い下さっての御浄霊、不思議と今迄無かった食欲も出て参りました時の嬉しさ、先生の御導により私も光明如来様におすがりしてお助け頂こうと堅い信念が出来、早速入信させて頂きました。<br/><br/> ところが今迄医者にかかっていましたので急に断るわけにもゆかず、飲薬だけは頂いても飲まず、注射は仕方なく受けていました。<br/><br/>すると忘れも致しません七日医者が参りましたので「先生注射が痛いからやめます」と申しますと「それじゃ静脈へする」と直にされまして一生懸命浄霊で解いておりましたらガタガタと震いが来まして寒くて寒くて動く事もどうする事も出来ません。<br/><br/>お布団を三枚も掛けてもらって子供に上から押えさしましたのにそれをまだ撥返す程の勢なのです。<br/><br/>一生懸命光明如来様におすがり致し自分で浄霊する事も出来ず、それから一心に善言讃詞を二回苦しい中から上げました。<br/><br/>それでも中々止まらず脈は段々薄くなって来ますし、なにしろ衰弱しているのですから、もうこれ迄の運命だろうか否きっと御加護が頂ける、一心にお祈りしていました。<br/><br/>フト御霊紙を頂く事に気が付き早速子供に出させて呑みました。<br/><br/>暫くたって少しずつ止まって来るではありませんか。<br/><br/>ああその時の嬉しさ、もう少しの頑張りだと最後の一念じしていますとスウーと忘れたように止まりました。<br/><br/>救って戴いたと思った瞬間涙がポロポロと流れ母子共々嬉し泣きに泣きました。<br/><br/> もうこれで絶対に注射は受けないと堅く心に誓いました。<br/><br/>もうこの頃では知人が吃驚する位元気付いて参り全快も間近と希望を持っています。<br/><br/> これもひとえに光明如来様のお蔭とお導き下さいました皆様に感謝致し、一日も早く御恩報じの出来ます事を念じています。<br/><br/> 右のごとくこの患者はあらゆる療法を受けながら衰弱するばかりという事実にみても今日数え切れない程の療法はあるが、真に効果があるのは一つもないといえよう。<br/><br/> また最後に打った注射一本で、ひどい悪寒発生し死を覚悟する程の苦痛であるにみて注射の逆結果はいつも聞くところでなぜこれに目覚めないか不思議である、何よりも注射は絶対受けないと覚悟してから全快に向かったというのであるからまことに皮肉である。<br/><br/> ＊ ＊ ＊ 難症免かる 手術せずに助かる 鹿児島県 光宝中教会 牟礼乙助 私の妻（フヂノ）四十五歳は元来血の持病で村でも定評ある虚弱な体質でしたが、昨年十一月医師より、子宮筋腫という病名の宣告を受け、爾来、悲観、落胆、毎日悶々の日を送っていたので有ります。<br/><br/>そして手術は死よりもつらい思いがするので、医師の勧めにも背いて、八方薬を求めて自宅療養に努めておりましたが、一向効めがないので悩みに悩んでおったのであります。<br/><br/> ところが誰が教えてくれたのか隣村に光明如来様の霊験にて病気を治して下さる先生がおられると言う話を聞いて早速そこへ行って治療を受け始めたのであります。<br/><br/>ところが不思議にも下腹部にあった大きな堅い癌が段々柔くなり、半月足らずして遂に流血してなくなって終ったので有ります。<br/><br/>そして今では身体も元気になって仕事も出来るようになりました。<br/><br/> 私は初の内は祈祷的な事は嫌いなので、この御力に対しても疑惑の念を抱いていたのでありましたが、病気が全快した事実の前には一驚せざるを得ませんでした。<br/><br/> そして御霊験の有難さに心から感謝して日々暮らさして戴いている次第で有ります。<br/><br/> 子宮筋腫と診断され、手術の外ないとされたこの患者は浄霊によって半月足らずで流血全治したのである、このように子宮筋腫の大部分は月経滞りの血塊で更年期に多いのである。<br/><br/> ＊ ＊ ＊ 疑惑の道開ける 追いつめられ救はれる 愛媛県 陽光中教会 村上好美（27） この世の中を幸福に暮したいのは誰しも望むところであります。<br/><br/>私は私自身の愚かさを初めて知って恥しく想います。<br/><br/>だがしかし未だに自分自身の愚かさを知らざるものが少くは無いと推察致します。<br/><br/>そこでここに私達家族四人が御蔭を頂いて幸福の道へ歩まさせて頂いております体験の有りのままを記します。<br/><br/> さて五月一日夜、私は大洲町の「あけぼの」喫茶店にてカキとエビを友達と一緒に久し振りに大変おいしく食しました。<br/><br/>私は常に身体が健康でないため、食べた後で心配をしない事もなかったのですけれど、その店を出る時は元気で出ました。<br/><br/>それから次に二粁程帰るか帰らないうちに私は頭から冷水をかぶる想いがしたと思うと一、二分も経たない内に物凄くさし込んで来ました。<br/><br/>どうしても駄目なので、その時一緒に帰途中の友人が背をさすって親切にしてくれた甲斐もなく、痛みは増すばかりでした。<br/><br/>そこへ四、五人の青年が通り掛って直ぐに村医の家に苦しみながら運ばれました。<br/><br/>そうして注射を一本打ってもらい大分吾に返り、下剤薬を手にしてやっと自宅へ辿り着きました。<br/><br/>そうして早速この下剤を服用したけれど一滴も下剤の役目を果さず、それどころか考えても身の縮まる想いのする痛みが身に迫って参るばかり、それより十四日間、夜昼を問わず苦しみました。<br/><br/> この苦しみは体験しないと判らぬいうにいえない程です。<br/><br/>この間優しい村医に往診に来て貰いました。<br/><br/>又その都度「肝臓だから百日間痛み通しても死なないから元気を出せ」と力付けて頂きましたが、私はその痛みよりはむしろ死ぬ方がよほど楽だと思いました。<br/><br/> それから丁度十四日目に二本注射を打って貰いました。<br/><br/>その折どうしてか今までになく四時間もすやすやと寝入りました。<br/><br/>その時は私は知らないけれども母達は電報まで打って大騒ぎをしたらしく、目がさめると、またもや悪魔が攻めて来そうになりました。<br/><br/>そうしてその時母が力ある声で私に話掛けました。<br/><br/>「お前は親として責任を持たなければならぬ、もしお前がこの世から去るという事は親の子に対する責任が果されない事になる。<br/><br/>何んとしても命だけは取り止めなければならぬ。<br/><br/>それで光明如来様にお助けを頂け」と一心に勧めましたが、私はその時は医者も薬もすでに手が届かなくなっているのだから何かにすがらなくてはならない故、直ちにその道にすがるのが当然なのにそれでもそんな素直な気持にはなれませんでした。<br/><br/>そのような迷信に迷うまいと固く心に誓っていたからです。<br/><br/> それからいよいよ益々注射をしついに金も使い果し、増すものは悪魔の責苦のみで一人淋しく目を瞑り空想に耽っておりました。<br/><br/>その時目に浮んだのは私の村の橋本さんのお宅で大松先生が手を振っておられる姿でした。<br/><br/> しかしながらこの科学の発達した世にあのような事で絶対に科学に勝てる筈はないと疑っておりましたが、余りにも強い母の心に溶かされて疑いつつも隣村である新谷村の松徳さんの御宅にお願し早速来て頂いたのが松徳金吉先生で御歳十七歳でした。<br/><br/>先生が到着された際は私は烈しく痛み苦しんでいました。<br/><br/>早速訳の解らないままに手を振って貰いました。<br/><br/>すると不思議にも十分間もするかしないうちに薄紙をめくるように少しずつ痛みは逃げ出しました。<br/><br/>その時私は別世界へでも行っているような気がして全く生れて初めて驚きました。<br/><br/>又次に驚いた事には松徳先生の御家での御祭に招待されその御祭の朝、またも苦しみましたけれども大松先生の御参上を聞きリヤカーに乗って訪れました。<br/><br/> そうしてその席上で早速大松先生が光明如来様の御前にて手を振られました。<br/><br/>そうすると今まで苦しんでいた私が五分も経たないうちにすっかり楽になってしまいました。<br/><br/>そこで先生が仰言るには「身体に悪いから御飯を食べなさい」と言われました。<br/><br/>私はすっかり驚きました。<br/><br/>驚くはずです。<br/><br/>今までリンゴの汁を飲んですら苦しんでいたのに、ましてや御飯となると驚いたのは無理もありません。<br/><br/>そこで先生は御飯を持っていらっしゃいました。<br/><br/>そうしてまた仰言るには「光明如来様のおさがりだから絶対に大丈夫だよ」といわれました。<br/><br/>でもそれを見ると見るからに恐ろしい天婦羅、カマボコ、豆類でした。<br/><br/>けれども命令だと思って食べました。<br/><br/>この時は十八日間見た事もない御飯、本当に二十七年間初めて御飯の有難さがしみじみと身にしみました。<br/><br/>それからというものは一杯の御飯が咽喉を越すようになって参りました。<br/><br/>またこれと同時に小川先生に私のような者が先生自身に御浄霊を賜わり何ともこれに換るべき御礼が出来ない程有難く思いました。<br/><br/> 次に五月二十七日一時頃急に下痢の模様があるので便所へ行ったところ、真黒な菌毒が流れ出ました。<br/><br/>それからは又一層と調子良くなり今では病気以前よりもずっと健康になりました。<br/><br/> このような事で全く私は自分自身が自分の身体だけでなく幸福の道を殺していました。<br/><br/>反省して見るからに全く馬鹿男でした。<br/><br/>現在では御光もお受けしてなお一層家庭的にも社交的にも希望に満ち、はつ剌と一歩一歩強く歩んでおります、故に私は及ばずながらも陽光中教会の一員として加えて頂き諸先生の御指導の下に一生懸命に御恩奉謝の念をもってより良き日本を再建する為に光明如来様にお仕えさせて頂きつつあります。<br/><br/> 右は食あたりであるが、下剤を用いても寸効なく、また数多くの注射も効果なく金も費い果したが、それでもなお科学を否定し得なかったが、絶体絶命の極いやいや浄霊を受けるや一回で別世界へ行ったごとく楽になったといい、短期間に全快したのである、これによってみても単なる食あたりくらいが治し得ない現代医学には困ったものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

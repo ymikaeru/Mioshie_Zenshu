@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak33</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の経路 『天国の福音』昭和22(1947)年2月5日発行 結核初期に到るまでの経路はさきに述べた通りであるが、次の段階からが問題である。<br><br>すなわち医師はまず絶対安静、薬剤使用、栄養食、空気療法等を奨めるが、空気療法以外はいずれも浄化停止療法である。<br><br>まず安静法は最も効果ある衰弱法で、その結果浄化力微弱になるから下熱を始め、他の症状は緩和する。<br><br>また薬物栄養療法も同様浄化停止法である以上、軽快に向かうよう誤認するのである。<br><br>故にたまたま患者が運動をなす場合浄化力発生し発熱する。<br><br>医師は驚いて運動を戒めるという事実は、結核者の常に経験する所であろう。<br><br> ここで注意すべきは、解熱剤使用は最初はある程度効果を奏するも、これを持続する時は漸次反動作用を起し、執拗な高熱が持続し、いかなる解熱法も奏効せぬようになるものである。<br><br>すべて薬物持続は中毒的反動作用を起し、逆効果となるのである。<br><br>彼の下剤持続者が慢性便秘症となる事や、モルヒネ、コカイン等の中毒者がいつしか放す事が出来なくなるにみても肯かるるであろう。<br><br> 以上のごとき高熱症状が長時日持続する場合漸次衰弱を増し斃れるのである。<br><br>また末期の場合多くは喉頭結核及び腸結核に侵されるものであるが、実は私の研究によれば喉頭結核とは腐敗せる古き痰の猛烈なる毒素が咽喉を通過するためと喉頭付近の毒結に浄化発生のためとであり、腸結核はさきに説いたごとくである
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Percurso da Tuberculose e os Equívocos Terapêuticos</h2>
 <p>Conforme exposto anteriormente, o processo que conduz ao estágio inicial da tuberculose segue um determinado percurso. A questão fundamental, contudo, reside na fase subsequente. Com efeito, os médicos costumam recomendar repouso absoluto, o uso de medicamentos, uma dieta nutritiva e a terapia de ar puro. Todavia, à exceção da terapia de ar puro, todos os demais são métodos que interrompem a purificação.</p>
 <p>O repouso, por exemplo, é o método mais eficaz para debilitar o organismo. Como resultado, a força purificadora torna-se tênue, o que leva à diminuição da febre e ao alívio de outros sintomas. De modo análogo, por serem igualmente métodos que detêm a purificação, a farmacoterapia e a nutrição induzem à falsa percepção de que o paciente caminha para a recuperação. Por essa razão, quando o paciente realiza alguma atividade física, a força purificadora se manifesta, gerando febre. O fato de o médico, surpreso, proibir o exercício é uma realidade que os portadores de tuberculose certamente vivenciam com frequência.</p>
 <p>Nesse ponto, é crucial observar que o uso de antitérmicos, embora apresente certa eficácia inicial, provoca gradualmente uma reação adversa quando seu uso é contínuo. Como consequência, instala-se uma febre alta e persistente, que se torna refratária a qualquer método para reduzi-la. Em verdade, o uso prolongado de qualquer substância medicamentosa desencadeia uma reação de natureza tóxica, resultando em efeito contrário ao desejado. Isso pode ser compreendido ao observarmos o caso dos laxantes, cujo uso contínuo leva à constipação crônica, ou o dos dependentes de morfina e cocaína, que se veem incapacitados de abandonar o vício.</p>
 <p>Quando um quadro febril dessa natureza se prolonga por muitos dias, o paciente definha progressivamente até sucumbir. Ademais, no estágio terminal, é comum que o paciente seja acometido pela tuberculose laríngea e intestinal. Na realidade, minhas pesquisas revelam que a tuberculose laríngea se deve a dois fatores: a passagem pela garganta das toxinas virulentas contidas no escarro antigo e em decomposição, e a manifestação do processo purificador nos nódulos de toxinas localizados na região da laringe. Quanto à tuberculose intestinal, sua causa já foi anteriormente elucidada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の経路 『天国の福音』昭和22(1947)年2月5日発行 結核初期に到るまでの経路はさきに述べた通りであるが、次の段階からが問題である。<br/><br/>すなわち医師はまず絶対安静、薬剤使用、栄養食、空気療法等を奨めるが、空気療法以外はいずれも浄化停止療法である。<br/><br/>まず安静法は最も効果ある衰弱法で、その結果浄化力微弱になるから下熱を始め、他の症状は緩和する。<br/><br/>また薬物栄養療法も同様浄化停止法である以上、軽快に向かうよう誤認するのである。<br/><br/>故にたまたま患者が運動をなす場合浄化力発生し発熱する。<br/><br/>医師は驚いて運動を戒めるという事実は、結核者の常に経験する所であろう。<br/><br/> ここで注意すべきは、解熱剤使用は最初はある程度効果を奏するも、これを持続する時は漸次反動作用を起し、執拗な高熱が持続し、いかなる解熱法も奏効せぬようになるものである。<br/><br/>すべて薬物持続は中毒的反動作用を起し、逆効果となるのである。<br/><br/>彼の下剤持続者が慢性便秘症となる事や、モルヒネ、コカイン等の中毒者がいつしか放す事が出来なくなるにみても肯かるるであろう。<br/><br/> 以上のごとき高熱症状が長時日持続する場合漸次衰弱を増し斃れるのである。<br/><br/>また末期の場合多くは喉頭結核及び腸結核に侵されるものであるが、実は私の研究によれば喉頭結核とは腐敗せる古き痰の猛烈なる毒素が咽喉を通過するためと喉頭付近の毒結に浄化発生のためとであり、腸結核はさきに説いたごとくである</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

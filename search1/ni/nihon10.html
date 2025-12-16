@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本式健康法の提唱 （一） 『東方の光』5号、昭和10(1935)年4月8日発行 近来医学衛生が益々進歩しつゝあるに拘わらず病患者の逆比例に増えるのは、何を物語っているのであろうか、これに対し、社会が余り留意しないと言う事は、実に遺憾と言わなければならない。<br><br>今や、世界に雄飛せんとする新興日本は、日本人は、第一に健康問題を忽（ゆるが）せには出来ない、病者と犯罪人の多い事程、国家の進運を阻害するの大なるものはあるまい。<br><br>私は病人の無い日本、罪人の無い日本にしたい念願の下に、観音運動なるものを起したのである。<br><br>それが又、観世音菩薩の大悲願であらせられるのである。<br><br> 元来私自身が、稀なる弱体者であったのが、現在稀なる健康者になっている。<br><br>それは今日の西洋式衛生の大誤謬を悟り、日本式衛生を独創実行したるが為であって、それらの体験を基礎とし、観世音菩薩の霊告を真髄とした健康法を大成し、ここに日本式健康法の名に依って、社会に提唱しようとするのである。<br><br> 一、日本人と白人との相違 今日の医学衛生はあらゆる点において、白人の肉体を基準として研究され来ったのである。<br><br>ところが、日本人と白人とはその根本において非常なる差異ある事を知らなければならない。<br><br>彼は祖先以来、獣肉と麦とを主食とし我は祖先以来野菜と米とを、主食とし今日に至ったのである。<br><br> 彼は肉体的に優れ、我は精神的に優れている。<br><br>たとえて言えば、同じ小禽であっても、カナリヤと鶯との様なもので、カナリヤは菜と稗と水で健康を保ち、鶯は、魚や虫のごとき生餌を多食しなければ、健康を保ってゆけない。<br><br>獣にしても、馬は、藁と豆で生き、虎や狼は生物を食わなければ、生きて行けない道理である。<br><br> 次に、もう一つたとえてみよう、ここに、濁った水の中で棲息している鮒がいるとする。<br><br>これを見た人間が、余り汚い水だから衛生に悪いだろうと、綺麗な水の中へ入れ換えてやると、豈（あに）計らんや、その鮒は、反って弱ったり死んだりするようなものである。<br><br>人間もそれと同じ事で、祖先以来、その土地に生れ、そこの空気を吸いその里で収れた穀物魚菜を食って、立派に健康を保ち、長生をして来たのであるから、今更、何を好んで仏蘭西（フランス）のオートミルや諾威（ノルウェー）の鰯や、加奈陀（カナダ）の牛肉の缶詰等を食う必要があろうか、これらを深く考えて見る時、もう目が醒めてもいゝ時機になっているのではないかと思うのである。<br><br>つまり、人間はその土地に湧いた虫のようなもので、四辺海で囲まれ、平原の少い我国としては、米魚野菜を食べておればよい様に、神が定められたのであって、ちょうど、大陸の人間が獣肉を食うべく、自然的条件が具備しているのと同じ理由である。<br><br> 私は拾余年以前に、その事を識ったので、大の肉食党であったのが、魚菜主義に転向した結果、俄然、健康を取戻し、参貫目も目方が増えるし、頭脳は明晰になり、仕事をしても根気が強く、飽きると言う事が無くなったのである。<br><br>もう一つ驚く事は、冬の寒さが肉食時代よりも、ずっと耐えよくなった事で湯婆子（ゆたんぽ）が無くては寝られなかった者が、冷い寝床へ入って気持よく寝られるという様に変った事等は実に意外な事と言わねばならない。<br><br>以下、各項目に渉って悉（くわ）しく述べる事にする。<br><br> （次号には日本式食餌営〔栄〕養法）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Proposição de um Método de Saúde Japonês (I)</h2>
 <p>A despeito dos crescentes avanços da medicina e da higiene nos últimos tempos, por que o número de doentes aumenta em proporção inversa? É verdadeiramente lamentável que a sociedade não dedique a devida atenção a esse fato. O Japão, em sua ascensão para se projetar no cenário mundial, não pode, em hipótese alguma, negligenciar a questão da saúde. Pois não haverá, porventura, maior obstáculo ao progresso de uma nação do que um elevado número de doentes e criminosos? Foi com o profundo anseio de construir um Japão livre de doentes e de criminosos que iniciei o que denomino Movimento Kannon. Esse é, ademais, o grande e compassivo Voto de Kannon (観世音菩薩).</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Compreendi essa verdade há mais de uma década. Embora fosse um grande apreciador de carne, ao adotar uma dieta baseada em peixes e vegetais, os resultados foram imediatos. Recuperei a saúde, meu peso aumentou consideravelmente, minha mente tornou-se mais clara e passei a trabalhar com um vigor que jamais se esgotava, sem nunca sentir cansaço. Outro fato surpreendente foi a minha maior resistência ao frio do inverno em comparação à época em que consumia carne. Eu, que antes não conseguia dormir sem uma bolsa de água quente, passei a deitar-me em lençóis frios e adormecer com uma sensação de profundo bem-estar. Tal mudança foi, devo admitir, verdadeiramente inesperada.</p>
 <p>A seguir, abordarei cada um desses tópicos em detalhe.</p>
 <p>(No próximo número: O Método de Nutrição Alimentar Japonês)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本式健康法の提唱 （一） 『東方の光』5号、昭和10(1935)年4月8日発行 近来医学衛生が益々進歩しつゝあるに拘わらず病患者の逆比例に増えるのは、何を物語っているのであろうか、これに対し、社会が余り留意しないと言う事は、実に遺憾と言わなければならない。<br/><br/>今や、世界に雄飛せんとする新興日本は、日本人は、第一に健康問題を忽（ゆるが）せには出来ない、病者と犯罪人の多い事程、国家の進運を阻害するの大なるものはあるまい。<br/><br/>私は病人の無い日本、罪人の無い日本にしたい念願の下に、観音運動なるものを起したのである。<br/><br/>それが又、観世音菩薩の大悲願であらせられるのである。<br/><br/> 元来私自身が、稀なる弱体者であったのが、現在稀なる健康者になっている。<br/><br/>それは今日の西洋式衛生の大誤謬を悟り、日本式衛生を独創実行したるが為であって、それらの体験を基礎とし、観世音菩薩の霊告を真髄とした健康法を大成し、ここに日本式健康法の名に依って、社会に提唱しようとするのである。<br/><br/> 一、日本人と白人との相違 今日の医学衛生はあらゆる点において、白人の肉体を基準として研究され来ったのである。<br/><br/>ところが、日本人と白人とはその根本において非常なる差異ある事を知らなければならない。<br/><br/>彼は祖先以来、獣肉と麦とを主食とし我は祖先以来野菜と米とを、主食とし今日に至ったのである。<br/><br/> 彼は肉体的に優れ、我は精神的に優れている。<br/><br/>たとえて言えば、同じ小禽であっても、カナリヤと鶯との様なもので、カナリヤは菜と稗と水で健康を保ち、鶯は、魚や虫のごとき生餌を多食しなければ、健康を保ってゆけない。<br/><br/>獣にしても、馬は、藁と豆で生き、虎や狼は生物を食わなければ、生きて行けない道理である。<br/><br/> 次に、もう一つたとえてみよう、ここに、濁った水の中で棲息している鮒がいるとする。<br/><br/>これを見た人間が、余り汚い水だから衛生に悪いだろうと、綺麗な水の中へ入れ換えてやると、豈（あに）計らんや、その鮒は、反って弱ったり死んだりするようなものである。<br/><br/>人間もそれと同じ事で、祖先以来、その土地に生れ、そこの空気を吸いその里で収れた穀物魚菜を食って、立派に健康を保ち、長生をして来たのであるから、今更、何を好んで仏蘭西（フランス）のオートミルや諾威（ノルウェー）の鰯や、加奈陀（カナダ）の牛肉の缶詰等を食う必要があろうか、これらを深く考えて見る時、もう目が醒めてもいゝ時機になっているのではないかと思うのである。<br/><br/>つまり、人間はその土地に湧いた虫のようなもので、四辺海で囲まれ、平原の少い我国としては、米魚野菜を食べておればよい様に、神が定められたのであって、ちょうど、大陸の人間が獣肉を食うべく、自然的条件が具備しているのと同じ理由である。<br/><br/> 私は拾余年以前に、その事を識ったので、大の肉食党であったのが、魚菜主義に転向した結果、俄然、健康を取戻し、参貫目も目方が増えるし、頭脳は明晰になり、仕事をしても根気が強く、飽きると言う事が無くなったのである。<br/><br/>もう一つ驚く事は、冬の寒さが肉食時代よりも、ずっと耐えよくなった事で湯婆子（ゆたんぽ）が無くては寝られなかった者が、冷い寝床へ入って気持よく寝られるという様に変った事等は実に意外な事と言わねばならない。<br/><br/>以下、各項目に渉って悉（くわ）しく述べる事にする。<br/><br/> （次号には日本式食餌営〔栄〕養法）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

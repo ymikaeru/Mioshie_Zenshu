@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinto03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信徒諸士に告ぐ！ 『栄光』279号、昭和29(1954)年10月20日発行 本教信徒の中に、浄霊の場合、医師にかかること、薬をのむこと、注射をすること等について、否定するごとき言葉ありやにて、本教の主旨を履（は）き違え、社会の誤解を受くることは、本教を傷つける結果となることはもちろんで、この点充分注意され、決して医療を否定するごとき事無きよう、ここに重ねて戒意を促（うなが）す次第である。<br><br> 以上に対し私の所見を述べてみたいと思う。<br><br>まず我がメシヤ教は宗教法人として認証され、国法によって保護を受け、信教の自由を認められている以上、法を重んじなければならないのは当然で、医師法に触れるがごときことは厳に慎まねばならない意味は誰しも分ると思う。<br><br> ところが本教浄霊法は現代医学と全く相異なる立場にたつ治病原理である以上、事実を事実として書いたり喋（しゃべ）ったりすることが悪意に解されれば医療否定という事になる。<br><br>とすれば右の一文に対し一見矛盾を感ずる人もあろうがそうではない。<br><br>それは本教浄霊法の、他に追随を許さない大奇蹟である。<br><br>まず第一に医師に見放された重症患者を起死回生せしめる力の発揮である。<br><br>しかもそれが入信すれば誰でもできること、疑っても治る事、お説教は第二第三で、直接人間の魂に集中透過し改過遷善（かいかせんぜん）できる、人を救えば救う程大きな御神力をいただくことができる、いかなる遠隔僻遠（えんかくへきえん）の地にあっても同様奇蹟をいただくことができること等々、無限絶対の力徳の根源でありその発揮であることは論をまたないところである。<br><br>従って本教浄霊の原理、病理臨床上のことについて人に伝える場合、いささかも先方の意志を無視して強要する必要はないのである。<br><br>否執拗に繰返すことは、熱心のようであって実は御神意に対する冒涜（ぼうとく）であると御垂教（ごすいきょう）賜わっている。<br><br> 次に今一つ重要な事は、最後の時期が迫ってくるとともに救われるものと救われざるものとの審判が厳しくなって来ることである。<br><br>従って本教の話をして分らなかったり、事実に目を背けたり、御神書を見せても分らない人は、時期が来ていないか既に滅びの方に運命づけられているのであるから、いかに救わんとして努力するといえども徒労に過ぎないばかりか、救われるべき人に対してそれだけ救いが遅れることになるので、この点も厳に戒しめられているところである。<br><br> 従って問題が起きる場合を振返ってみると、ことごとく小乗信仰の結果であり、いずれも右の御教えに抵触していることは言うまでもない。<br><br>小乗信仰とは自力本位であるから、いかに本教信者とは言え、否本教信者であるが故に御守護がないと言えよう。<br><br>我々は、今後いかなる事態が起ろうとも、心を謙虚にし、神の愛を胸に畳んで、正邪善悪の判別力すなわち叡智を賜わり進むならば、世に恐るもののないことを一層銘記するのである。<br><br> (注) 改過遷善（かいかせんぜん） 過ちを悔い改めて善くなること。<br><br>論語、改過、学而編。<br><br>遷善、顔淵編。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Exortação aos Membros</h2>
 <p>Há relatos de que, entre os membros de nossa Igreja, existem aqueles que, ao ministrar Johrei, proferem palavras que parecem negar a consulta a médicos, o uso de medicamentos, a aplicação de injeções e práticas afins. Tal postura, que denota uma compreensão equivocada dos princípios fundamentais de nossa fé, gera mal-entendidos na sociedade e, consequentemente, acaba por macular a imagem da Igreja. Portanto, reitero veementemente esta advertência, a fim de que todos ajam com a máxima prudência e jamais se manifestem de forma a negar a medicina.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Outro ponto de suma importância é que, à medida que a era final se aproxima, o juízo que separa os que serão salvos dos que não o serão torna-se cada vez mais rigoroso. Consequentemente, aqueles que não compreendem os Ensinamentos, que se recusam a enxergar os fatos ou que permanecem indiferentes mesmo diante dos Escritos Divinos, ou ainda não atingiram seu tempo, ou já estão predestinados à ruína. Assim, por mais que nos esforcemos para salvá-los, nosso empenho será não apenas um trabalho em vão, como também retardará a salvação daqueles que efetivamente devem ser salvos. Também quanto a este aspecto, recebemos severas advertências.</p>
 <p>Portanto, ao analisarmos as situações em que surgem problemas, constatamos que invariavelmente decorrem de uma fé personalista e, sem exceção, contrariam os Ensinamentos aqui expostos. Essa fé baseia-se na força do ego e, por essa razão, ainda que se trate de um membro de nossa Igreja — ou precisamente por sê-lo e agir dessa forma —, pode-se afirmar que ele se priva da Proteção Divina. Doravante, independentemente das circunstâncias que venham a surgir, se mantivermos a humildade em nosso coração, guardarmos o amor de Deus em nosso peito e avançarmos recebendo a sabedoria — isto é, o discernimento para distinguir o certo do errado e o bem do mal —, devemos ter sempre em mente que não haverá nada a temer neste mundo.</p>
 <p>(Nota) Kaikasenzen (改過遷善): Termo que significa arrepender-se das próprias faltas e emendar-se, tornando-se uma pessoa virtuosa. Deriva dos Analectos de Confúcio.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信徒諸士に告ぐ！ 『栄光』279号、昭和29(1954)年10月20日発行 本教信徒の中に、浄霊の場合、医師にかかること、薬をのむこと、注射をすること等について、否定するごとき言葉ありやにて、本教の主旨を履（は）き違え、社会の誤解を受くることは、本教を傷つける結果となることはもちろんで、この点充分注意され、決して医療を否定するごとき事無きよう、ここに重ねて戒意を促（うなが）す次第である。<br/><br/> 以上に対し私の所見を述べてみたいと思う。<br/><br/>まず我がメシヤ教は宗教法人として認証され、国法によって保護を受け、信教の自由を認められている以上、法を重んじなければならないのは当然で、医師法に触れるがごときことは厳に慎まねばならない意味は誰しも分ると思う。<br/><br/> ところが本教浄霊法は現代医学と全く相異なる立場にたつ治病原理である以上、事実を事実として書いたり喋（しゃべ）ったりすることが悪意に解されれば医療否定という事になる。<br/><br/>とすれば右の一文に対し一見矛盾を感ずる人もあろうがそうではない。<br/><br/>それは本教浄霊法の、他に追随を許さない大奇蹟である。<br/><br/>まず第一に医師に見放された重症患者を起死回生せしめる力の発揮である。<br/><br/>しかもそれが入信すれば誰でもできること、疑っても治る事、お説教は第二第三で、直接人間の魂に集中透過し改過遷善（かいかせんぜん）できる、人を救えば救う程大きな御神力をいただくことができる、いかなる遠隔僻遠（えんかくへきえん）の地にあっても同様奇蹟をいただくことができること等々、無限絶対の力徳の根源でありその発揮であることは論をまたないところである。<br/><br/>従って本教浄霊の原理、病理臨床上のことについて人に伝える場合、いささかも先方の意志を無視して強要する必要はないのである。<br/><br/>否執拗に繰返すことは、熱心のようであって実は御神意に対する冒涜（ぼうとく）であると御垂教（ごすいきょう）賜わっている。<br/><br/> 次に今一つ重要な事は、最後の時期が迫ってくるとともに救われるものと救われざるものとの審判が厳しくなって来ることである。<br/><br/>従って本教の話をして分らなかったり、事実に目を背けたり、御神書を見せても分らない人は、時期が来ていないか既に滅びの方に運命づけられているのであるから、いかに救わんとして努力するといえども徒労に過ぎないばかりか、救われるべき人に対してそれだけ救いが遅れることになるので、この点も厳に戒しめられているところである。<br/><br/> 従って問題が起きる場合を振返ってみると、ことごとく小乗信仰の結果であり、いずれも右の御教えに抵触していることは言うまでもない。<br/><br/>小乗信仰とは自力本位であるから、いかに本教信者とは言え、否本教信者であるが故に御守護がないと言えよう。<br/><br/>我々は、今後いかなる事態が起ろうとも、心を謙虚にし、神の愛を胸に畳んで、正邪善悪の判別力すなわち叡智を賜わり進むならば、世に恐るもののないことを一層銘記するのである。<br/><br/> (注) 改過遷善（かいかせんぜん） 過ちを悔い改めて善くなること。<br/><br/>論語、改過、学而編。<br/><br/>遷善、顔淵編。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

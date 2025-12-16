@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak20</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と精神面 『結核の革命的療法』昭和26(1951)年8月15日発行 結核について、割合関心を持たれていないものに精神面がある。<br><br>ところが事実これ程重要なものはない。<br><br>誰も知るごとく一度結核の宣告を受けるや、いかなる者でも精神的に一大衝撃を受け、前途の希望を失い、世の中が真っ暗になってしまう。<br><br>言わば執行日を定めない死刑の宣告を受けたようなものである。<br><br>ところがおかしな事にはそれを防ごうとするためか、近来結核は養生次第、手当次第で必ず治るという説を、当局も医師もさかんに宣伝しているが、これをまともに受取るものはほとんどあるまい。<br><br>なぜなれば実際療養所などに入れられた者で、本当に治って退院する者は幾人もあるまいからである。<br><br>しかしたまには全治退院する者もないではないが、大部分は退院後再発して再び病院の御厄介になるか、自宅療法かで結局死んでしまうのである。<br><br>だから何程治ると宣伝しても信じないのは当然であろう。<br><br> そのような訳で、結核と聞いただけで、たちまち失望落胆、食欲は不振となり、元気は喪失する。<br><br>いずれは死ぬという予感がコビリついて離れない。<br><br>実に哀れなものである。<br><br>私も十七、八才の頃当時有名な入沢博士から結核と断定された事があるので、その心境はよく判る。<br><br>そういう次第で結核と宣告するのもよくないが、そうかと言って現在の結核療法では、安静やその他の特殊療法の関係上知らさない訳にもゆかないので、ジレンマに陥るのである。<br><br>そうして近来ツベルクリン注射や、レントゲン写真などによって、健康診断を行う事を万全の策としているが、これは果してよいか悪いかも疑問である。<br><br>私はやらない方がいいと思う。<br><br>なぜなれば現在何らの自覚症状がなく、健康と信じていた者が、一度潜伏結核があると聞かされるや、晴天の霹靂（へきれき）のごとき精神的ショックを受けると共に、それからの安静も手伝い、メキメキ衰弱し、数か月後には吃驚（びっくり）する程憔悴（しょうすい）してしまう。<br><br>以前剣道四段という筋骨隆々たる猛者（もさ）が、健康診断の結果潜伏結核があると言い渡され、しかも安静と来たので、フウフウ言って臥床している状(さま)は、馬鹿馬鹿しくて見ていられない程だった。<br><br>何しろ少しも自覚症状がないのでじっと寝ている辛さは察して呉れと言うのである。<br><br>ところが半年くらい経た頃は、頬はゲッソリ落ち、顔色蒼白、一見結核面（づら）となってしまった。<br><br>それから翌年死んだという事を聞いたが、これなどは実に問題であろう。<br><br>もちろん健康診断など受けなかったら、まだまだピンピンしていたに違いないと思って、私は心が暗くなったのである。<br><br> 右のような例は今日随分多いであろう。<br><br>ところがこれについて面白いのは、医学の統計によれば、百人中九十人くらいは一度結核に罹って治った痕跡があるというのである。<br><br>この事も解剖によって判ったという話で、医家は知っているはずである。<br><br>してみればむしろ健康診断など行わない方が、結核患者はどのくらい減るか判らないとさえ私は常に思っている。<br><br>しかし医家はいうであろう。<br><br>結核は伝染しない病気ならとにかく、伝染病だから結核の種をもっている以上、はなはだ危険だから、それを防ぐために早く発見しなければならないし、また早期発見が治療上効果があるからと言うであろうが、後者については詳しく説いたから略すが、前者の伝染についてかいてみるが、これがまた大変な誤りで、結核菌は絶対感染しないことを保証する。<br><br>私がこれを唱えると当局はよく目を光らせるが、これは結核の根本がまだ判っていないからである。<br><br>以前こういう事があった、戦時中私は海軍省から頼まれて、飛行隊に結核患者が多いから解決して貰いたいと申し込んで来たので、まず部下を霞ヶ浦の航空隊へ差遣した。<br><br>そこで結核は感染しないと言ったところ、これを聞いた軍医はカンカンに怒って、そんなものを軍へ入れたら、今に軍全体に結核が蔓延すると言って、たちまち御払箱になってしまった事がある。<br><br> 私がこういう説を唱えるのは、絶対的確信があるからである。<br><br>何よりも私の信者数万中に結核感染者など、何年経っても一人も出ないという事実と、今一つは実験のため、以前私の家庭には結核患者の一人や二人は、いつも必ず宿泊させていた。<br><br>その頃私の子供男女合せて五、六歳から二十歳くらいまで六人おり、十数年続けてみたが一人も感染するどころか、今もって六人共に希に見る健康体である。<br><br>もちろんその間結核患者と起居を共にし、消毒その他の方法も全然行わず、普通人と同様に扱ったのである。<br><br>今一つの例を挙げてみるが、数年前これは四十歳くらいの未亡人、夫の死後結核のため、親戚知人も感染を恐れて寄せつけないので、進退きわまっているのを知った私は、可哀想と思い引取って、今も私の家で働かせているが、もちろん一人の感染者がないばかりか、この頃はほとんど普通人と同様の健康体になってよく働いている。<br><br>もっともたとえ感染しても簡単に治るから、私の家庭にいる者は、何ら結核などに関心を持たないのである。<br><br> 以上のごとくであるから、吾々の方では結核は伝染しないものと安心しているので、この点だけでも一般人に比べて、いかに幸福であるかが判るであろう。<br><br>ところが世の中ではこの感染を恐れるため、到るところ悲劇を生み、常に戦々兢々としている。<br><br>夫婦、親子、兄弟でも近寄って話も出来ず、食器も寝具も別扱いで、除け者同様である。<br><br>しかし医学を信ずるとしたら、そうするのが本当であろう。<br><br>以前こういう面白い事があった。<br><br>某農村の事であるがある農家に十六、七の娘がいた。<br><br>彼女は結核と宣告されたので、一軒の離れ家を作って貰い、一人ボッチで住んでいたが、その離れ家は往来に面しているため、その前を通る村人等は、口を覆うて駈足で通るという事で、私は本人から直接聞いて大笑いした事がある。<br><br>なるほど空気伝染といわれれば、それも無理はないが、実に悲喜劇である。<br><br>だから私の部下や信者は数十万あるから、その中の一万でも二万でも纏（まと）めて、一度に試験してみたら面白いと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Tuberculose e o Fator Espiritual</h2>
 <p>No que tange à tuberculose, há uma faceta que tende a ser negligenciada: a dimensão espiritual e mental do paciente. Contudo, na realidade, nada se revela mais crucial. Com efeito, ao receber o veredito da tuberculose, qualquer indivíduo, por mais forte que seja, sofre um abalo espiritual profundo. As esperanças quanto ao futuro se dissipam, e o mundo à sua volta subitamente se anuvia, tornando-se sombrio. É, em suma, como receber uma sentença de morte cuja data de execução permanece indeterminada.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Permitam-me citar mais um exemplo. Há alguns anos, tomei conhecimento do caso de uma viúva de aproximadamente quarenta anos. Após a morte do marido, ela adoeceu de tuberculose, e seus parentes e amigos, temendo o contágio, passaram a evitá-la. Encontrando-se em uma situação desesperadora, compadeci-me dela e a acolhi em minha casa, onde trabalha até hoje. Evidentemente, ninguém foi infectado; ademais, ela própria recuperou a saúde a ponto de hoje se assemelhar a uma pessoa perfeitamente normal, desempenhando suas funções com vigor. Devo ressaltar que, mesmo que o contágio ocorresse, a cura seria simples; por isso, em meu lar, ninguém nutre a menor preocupação com a tuberculose.</p>
 <p>Diante do exposto, fica claro por que, entre nós, a tuberculose é encarada com a serenidade de algo não contagioso. Só nesse aspecto, é possível vislumbrar quão mais afortunados somos em comparação com a sociedade em geral. Lá fora, o medo do contágio gera tragédias por toda parte, mantendo as pessoas em um estado de constante apreensão. Cônjuges, pais, filhos e irmãos não podem sequer conversar de perto; utensílios de cozinha e roupas de cama são separados, e o doente é tratado como um pária. Acreditando na medicina, essa seria, de fato, a atitude correta.</p>
 <p>Lembro-me de um episódio curioso, ocorrido em um vilarejo. Havia ali uma jovem de dezesseis ou dezessete anos que, ao ser diagnosticada com tuberculose, foi alojada em uma pequena casa isolada, construída para ela. Como a casa ficava de frente para a rua, os outros aldeões, ao passar por ali, cobriam a boca com as mãos e apressavam o passo. Ouvi essa história da própria jovem e não pude conter o riso. É verdade que, se acreditarmos na transmissão pelo ar, tal comportamento não é de todo ilógico, mas não deixa de ser uma verdadeira tragicomédia. É por isso que penso: como tenho centenas de milhares de auxiliares e seguidores, seria um experimento interessante reunir dez ou vinte mil deles de uma só vez para comprovar esta verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と精神面 『結核の革命的療法』昭和26(1951)年8月15日発行 結核について、割合関心を持たれていないものに精神面がある。<br/><br/>ところが事実これ程重要なものはない。<br/><br/>誰も知るごとく一度結核の宣告を受けるや、いかなる者でも精神的に一大衝撃を受け、前途の希望を失い、世の中が真っ暗になってしまう。<br/><br/>言わば執行日を定めない死刑の宣告を受けたようなものである。<br/><br/>ところがおかしな事にはそれを防ごうとするためか、近来結核は養生次第、手当次第で必ず治るという説を、当局も医師もさかんに宣伝しているが、これをまともに受取るものはほとんどあるまい。<br/><br/>なぜなれば実際療養所などに入れられた者で、本当に治って退院する者は幾人もあるまいからである。<br/><br/>しかしたまには全治退院する者もないではないが、大部分は退院後再発して再び病院の御厄介になるか、自宅療法かで結局死んでしまうのである。<br/><br/>だから何程治ると宣伝しても信じないのは当然であろう。<br/><br/> そのような訳で、結核と聞いただけで、たちまち失望落胆、食欲は不振となり、元気は喪失する。<br/><br/>いずれは死ぬという予感がコビリついて離れない。<br/><br/>実に哀れなものである。<br/><br/>私も十七、八才の頃当時有名な入沢博士から結核と断定された事があるので、その心境はよく判る。<br/><br/>そういう次第で結核と宣告するのもよくないが、そうかと言って現在の結核療法では、安静やその他の特殊療法の関係上知らさない訳にもゆかないので、ジレンマに陥るのである。<br/><br/>そうして近来ツベルクリン注射や、レントゲン写真などによって、健康診断を行う事を万全の策としているが、これは果してよいか悪いかも疑問である。<br/><br/>私はやらない方がいいと思う。<br/><br/>なぜなれば現在何らの自覚症状がなく、健康と信じていた者が、一度潜伏結核があると聞かされるや、晴天の霹靂（へきれき）のごとき精神的ショックを受けると共に、それからの安静も手伝い、メキメキ衰弱し、数か月後には吃驚（びっくり）する程憔悴（しょうすい）してしまう。<br/><br/>以前剣道四段という筋骨隆々たる猛者（もさ）が、健康診断の結果潜伏結核があると言い渡され、しかも安静と来たので、フウフウ言って臥床している状(さま)は、馬鹿馬鹿しくて見ていられない程だった。<br/><br/>何しろ少しも自覚症状がないのでじっと寝ている辛さは察して呉れと言うのである。<br/><br/>ところが半年くらい経た頃は、頬はゲッソリ落ち、顔色蒼白、一見結核面（づら）となってしまった。<br/><br/>それから翌年死んだという事を聞いたが、これなどは実に問題であろう。<br/><br/>もちろん健康診断など受けなかったら、まだまだピンピンしていたに違いないと思って、私は心が暗くなったのである。<br/><br/> 右のような例は今日随分多いであろう。<br/><br/>ところがこれについて面白いのは、医学の統計によれば、百人中九十人くらいは一度結核に罹って治った痕跡があるというのである。<br/><br/>この事も解剖によって判ったという話で、医家は知っているはずである。<br/><br/>してみればむしろ健康診断など行わない方が、結核患者はどのくらい減るか判らないとさえ私は常に思っている。<br/><br/>しかし医家はいうであろう。<br/><br/>結核は伝染しない病気ならとにかく、伝染病だから結核の種をもっている以上、はなはだ危険だから、それを防ぐために早く発見しなければならないし、また早期発見が治療上効果があるからと言うであろうが、後者については詳しく説いたから略すが、前者の伝染についてかいてみるが、これがまた大変な誤りで、結核菌は絶対感染しないことを保証する。<br/><br/>私がこれを唱えると当局はよく目を光らせるが、これは結核の根本がまだ判っていないからである。<br/><br/>以前こういう事があった、戦時中私は海軍省から頼まれて、飛行隊に結核患者が多いから解決して貰いたいと申し込んで来たので、まず部下を霞ヶ浦の航空隊へ差遣した。<br/><br/>そこで結核は感染しないと言ったところ、これを聞いた軍医はカンカンに怒って、そんなものを軍へ入れたら、今に軍全体に結核が蔓延すると言って、たちまち御払箱になってしまった事がある。<br/><br/> 私がこういう説を唱えるのは、絶対的確信があるからである。<br/><br/>何よりも私の信者数万中に結核感染者など、何年経っても一人も出ないという事実と、今一つは実験のため、以前私の家庭には結核患者の一人や二人は、いつも必ず宿泊させていた。<br/><br/>その頃私の子供男女合せて五、六歳から二十歳くらいまで六人おり、十数年続けてみたが一人も感染するどころか、今もって六人共に希に見る健康体である。<br/><br/>もちろんその間結核患者と起居を共にし、消毒その他の方法も全然行わず、普通人と同様に扱ったのである。<br/><br/>今一つの例を挙げてみるが、数年前これは四十歳くらいの未亡人、夫の死後結核のため、親戚知人も感染を恐れて寄せつけないので、進退きわまっているのを知った私は、可哀想と思い引取って、今も私の家で働かせているが、もちろん一人の感染者がないばかりか、この頃はほとんど普通人と同様の健康体になってよく働いている。<br/><br/>もっともたとえ感染しても簡単に治るから、私の家庭にいる者は、何ら結核などに関心を持たないのである。<br/><br/> 以上のごとくであるから、吾々の方では結核は伝染しないものと安心しているので、この点だけでも一般人に比べて、いかに幸福であるかが判るであろう。<br/><br/>ところが世の中ではこの感染を恐れるため、到るところ悲劇を生み、常に戦々兢々としている。<br/><br/>夫婦、親子、兄弟でも近寄って話も出来ず、食器も寝具も別扱いで、除け者同様である。<br/><br/>しかし医学を信ずるとしたら、そうするのが本当であろう。<br/><br/>以前こういう面白い事があった。<br/><br/>某農村の事であるがある農家に十六、七の娘がいた。<br/><br/>彼女は結核と宣告されたので、一軒の離れ家を作って貰い、一人ボッチで住んでいたが、その離れ家は往来に面しているため、その前を通る村人等は、口を覆うて駈足で通るという事で、私は本人から直接聞いて大笑いした事がある。<br/><br/>なるほど空気伝染といわれれば、それも無理はないが、実に悲喜劇である。<br/><br/>だから私の部下や信者は数十万あるから、その中の一万でも二万でも纏（まと）めて、一度に試験してみたら面白いと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

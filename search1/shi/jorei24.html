@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊の発明的価値 『栄光』123号、昭和26(1951)年9月26日発行 浄霊という言葉は、歴史上今日までなかった事は言うまでもない。<br><br>もちろん浄霊の言葉の意味は、信者は知り抜いているが、大体人間というものは、見えざる霊と見ゆる体の一致によって成立っているものであって病気の因（もと）は霊に曇りが生じ、それが体に映るのであるから、その曇りを除ればすべての病気は治ってしまうのである。<br><br>これは理屈ばかりではない。<br><br>事実私の信者数十万人が、今まで何百万人の病気に苦しむ者を治したか知れないので、医学とは比べものにならない程の、驚異的効果を挙げているのであるから、これこそ世界的一大発見といっても、決して過言ではないのである。<br><br> 人類史上今日まで、幾多の偉大なる発明発見はあったが、これと比較し得る程のものは、いまだかつてなかった事は言うまでもない。<br><br>何といってもこの発見の価値は人間の生命の問題であって、これ以上の重要なるものはないからである。<br><br>もちろん今日までの人間が最も恐れていた病を、絶無にする事が可能であるとしたら、およそ痴人の夢どころか、全く空想以外の何物でもないと言えよう。<br><br>もし仮に、今日まで本当の医学が生まれたとしたら、その時を期して人類から病は漸減し、人間の寿齢は平均百歳以上になっていなければならないはずである。<br><br>ところが事実はどうであろう。<br><br>今もって人間は、病気という最大苦悩の桎梏（しっこく）から、脱け切れないでいる現状である。<br><br>ところが、この厳然たる事実に直面しながらも、世界中の学者はどうにもならないで、相変らず唯物科学に偏した現代医学を、無二のものとして研究に耽（ひた）っているばかりである、としたら吾々から見れば、彼らの熱心なる努力も、徒労以外の何物でもないと言えよう。<br><br>そうして最も遺憾に思う事は、もしもこの発見発明が、科学者の門から発表されたとしたら、たちまち全世界の学界に、一大センセーションを捲き起し、一挙にして医学は革命されてしまうであろうし、全人類は救世的一大景仰の的とされる事も、間違いないであろう。<br><br> ところが意外にも、私という一宗教家の発見発明であるがため、これを認識させるには一大難関にぶっつかる事である。<br><br>それは仮に現在日本の識者を見本としても分るがごとく、彼らがこの論文を読んだとしても、容易に信じられないどころか、頭から迷信と片付けてしまうに違いあるまい。<br><br>何よりも浄霊による治病成績を見ても聞いても、体験者から直接聞かされても、彼らは心に止むる事なく、馬耳東風であろう。<br><br>彼らのこの頑迷な態度こそ、全く救うべからざる程の科学迷信の虜（とりこ）となっているからである。<br><br>原因はもちろん宗教とか神とかいう、目に見えざるものは、すべて迷信と思い込んでいるからで、その結果偉大なる発明発見といえども、科学者以外から出るはずはないと決めてしまっているからであって、その根強さは、ちょうど邪教迷者と何ら択（えら）ぶところはあるまい。<br><br>従って、この堅固な迷信の牙城を打ち破る事こそ、人類を救う唯一の条件である。<br><br>といっていずれは彼らといえども、飜然（ほんぜん）として我軍門に降（くだ）るのは必定であって、それはただ時の問題でしかあるまい。<br><br>何となれば、現に今日真に目醒めた人々や、今や目覚めんとしている人々が、日に月に増えつつあるにみて明らかである。<br><br>ただ一日も早くこの一大迷蒙に目醒めさせ、病なき社会を実現すべく、吾らは燃ゆるがごとき熱意をもって、進みつつあるのである。<br><br> 以上の意味によって、唯物的なるが故に盲目的に信じ、唯心的なるが故に眼を蔽（おお）うその頑（かたく）なな思想に向かって、一大警鐘を鳴らすのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Valor da Descoberta do Johrei</h2>
 <p>A palavra Johrei, como é evidente, jamais existiu na história até os dias de hoje. O significado do termo, naturalmente, é de pleno conhecimento de nossos fiéis. Em síntese, o ser humano é constituído pela unidade entre o corpo material, visível, e o espírito, invisível. A causa das doenças reside no surgimento de máculas no espírito, as quais se refletem no corpo. Portanto, ao eliminarmos tais máculas, todas as enfermidades são curadas.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>No entanto, como a descoberta provém de mim, um líder religioso, deparamo-nos com um enorme obstáculo para que seja reconhecida. Tomando como exemplo os intelectuais do Japão, mesmo que lessem este artigo, não apenas teriam dificuldade em acreditar, como o descartariam de imediato como mera superstição. Mesmo que vejam ou ouçam os resultados de cura pelo Johrei, ou que lhes sejam relatados diretamente por quem os vivenciou, eles não se darão ao trabalho de considerar, tratando tudo com total indiferença. Essa atitude obstinada revela que se tornaram prisioneiros de uma superstição científica, a ponto de ser algo irremediável.</p>
 <p>A causa, evidentemente, é a convicção de que tudo o que é invisível, como a religião e Deus, não passa de crendice. Consequentemente, determinam que nenhuma grande invenção ou descoberta poderia originar-se de alguém que não seja um cientista. Sua inflexibilidade nesse ponto em nada difere da cegueira dos adeptos de falsas religiões. Portanto, a única condição para salvar a humanidade é demolir essa fortaleza de crendice. Ainda assim, é inevitável que, um dia, até mesmo eles se rendam e se convertam à nossa causa; é apenas uma questão de tempo. Isto se torna evidente ao observarmos o número crescente, dia após dia, daqueles que verdadeiramente despertaram ou que estão em vias de despertar. É com um fervor ardente que avançamos, a fim de despertar o mundo o mais rápido possível desta grande ilusão e concretizar uma sociedade livre de doenças.</p>
 <p>Pelas razões expostas, soamos um grande alarme contra essa ideologia inflexível, que leva os homens a crerem cegamente no materialismo e a fecharem os olhos para o espiritualismo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊の発明的価値 『栄光』123号、昭和26(1951)年9月26日発行 浄霊という言葉は、歴史上今日までなかった事は言うまでもない。<br/><br/>もちろん浄霊の言葉の意味は、信者は知り抜いているが、大体人間というものは、見えざる霊と見ゆる体の一致によって成立っているものであって病気の因（もと）は霊に曇りが生じ、それが体に映るのであるから、その曇りを除ればすべての病気は治ってしまうのである。<br/><br/>これは理屈ばかりではない。<br/><br/>事実私の信者数十万人が、今まで何百万人の病気に苦しむ者を治したか知れないので、医学とは比べものにならない程の、驚異的効果を挙げているのであるから、これこそ世界的一大発見といっても、決して過言ではないのである。<br/><br/> 人類史上今日まで、幾多の偉大なる発明発見はあったが、これと比較し得る程のものは、いまだかつてなかった事は言うまでもない。<br/><br/>何といってもこの発見の価値は人間の生命の問題であって、これ以上の重要なるものはないからである。<br/><br/>もちろん今日までの人間が最も恐れていた病を、絶無にする事が可能であるとしたら、およそ痴人の夢どころか、全く空想以外の何物でもないと言えよう。<br/><br/>もし仮に、今日まで本当の医学が生まれたとしたら、その時を期して人類から病は漸減し、人間の寿齢は平均百歳以上になっていなければならないはずである。<br/><br/>ところが事実はどうであろう。<br/><br/>今もって人間は、病気という最大苦悩の桎梏（しっこく）から、脱け切れないでいる現状である。<br/><br/>ところが、この厳然たる事実に直面しながらも、世界中の学者はどうにもならないで、相変らず唯物科学に偏した現代医学を、無二のものとして研究に耽（ひた）っているばかりである、としたら吾々から見れば、彼らの熱心なる努力も、徒労以外の何物でもないと言えよう。<br/><br/>そうして最も遺憾に思う事は、もしもこの発見発明が、科学者の門から発表されたとしたら、たちまち全世界の学界に、一大センセーションを捲き起し、一挙にして医学は革命されてしまうであろうし、全人類は救世的一大景仰の的とされる事も、間違いないであろう。<br/><br/> ところが意外にも、私という一宗教家の発見発明であるがため、これを認識させるには一大難関にぶっつかる事である。<br/><br/>それは仮に現在日本の識者を見本としても分るがごとく、彼らがこの論文を読んだとしても、容易に信じられないどころか、頭から迷信と片付けてしまうに違いあるまい。<br/><br/>何よりも浄霊による治病成績を見ても聞いても、体験者から直接聞かされても、彼らは心に止むる事なく、馬耳東風であろう。<br/><br/>彼らのこの頑迷な態度こそ、全く救うべからざる程の科学迷信の虜（とりこ）となっているからである。<br/><br/>原因はもちろん宗教とか神とかいう、目に見えざるものは、すべて迷信と思い込んでいるからで、その結果偉大なる発明発見といえども、科学者以外から出るはずはないと決めてしまっているからであって、その根強さは、ちょうど邪教迷者と何ら択（えら）ぶところはあるまい。<br/><br/>従って、この堅固な迷信の牙城を打ち破る事こそ、人類を救う唯一の条件である。<br/><br/>といっていずれは彼らといえども、飜然（ほんぜん）として我軍門に降（くだ）るのは必定であって、それはただ時の問題でしかあるまい。<br/><br/>何となれば、現に今日真に目醒めた人々や、今や目覚めんとしている人々が、日に月に増えつつあるにみて明らかである。<br/><br/>ただ一日も早くこの一大迷蒙に目醒めさせ、病なき社会を実現すべく、吾らは燃ゆるがごとき熱意をもって、進みつつあるのである。<br/><br/> 以上の意味によって、唯物的なるが故に盲目的に信じ、唯心的なるが故に眼を蔽（おお）うその頑（かたく）なな思想に向かって、一大警鐘を鳴らすのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

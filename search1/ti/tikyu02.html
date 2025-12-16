@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tikyu02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地球は呼吸する 『信仰雑話』P.55、昭和23(1948)年9月5日発行 あらゆる生物は呼吸しているという事は誰も知っているが、実は植物も鉱物も、その他万有はことごとく呼吸している。<br><br>そうして地球も呼吸していると言ったら、ちょっと意外に思うかも知れないが、左に説くところによってなる程と肯くであろう。<br><br> そもそも、地球は一年に一回呼吸する。<br><br>息をはき始める時が春で、漸次吐きつつ極点に達した時が夏である。<br><br>地球の吐く息も人間と同じように温かい。<br><br>それは地熱の放散によるからで、春になればそれが濃く、万有は生育しはじめ、まず草木が萌え始める。<br><br>あらゆる物は上方に向かって伸び、人間も浮き浮きする。<br><br>夏になるに従い草木はいよいよ繁茂し、極点に達した時、今度は地球が息を引き始めるから、草木は凋落し、万物はすべて下降状態となり、人間も冷静になる。<br><br>それがまた極点に達したときが冬であって、これが大自然の姿であるが、地球が吐く息は地の霊気で、科学でいう窒素であるから、草木が成長するのである。<br><br>この窒素なるものは、不断に上昇しつつ空気の存在する高さまで上昇集積され、雨によって再び地中へ還元する。<br><br>これが天然の窒素肥料である。<br><br>この意味において、空中から特に窒素を採り、それを肥料にすることは過っている。<br><br>なる程、一時は窒素肥料によって作物の収穫が殖えるが、長く持続するときは、土壌は窒素中毒を起こし、痩土と化す。<br><br>その理由は、窒素過剰結果として土壌自体の活動力が鈍化するからである。<br><br>人も知るごとく、窒素肥料は第一次欧州戦争のとき、ドイツにおいて発明せられたものであるが、戦時に際し一時的収穫を増そうとする場合、その目的に適うからよいが、戦争が済み、平時となればやめるべきである。<br><br> 次に、太陽の黒点について昔から種々論議されているが、これも太陽の呼吸運動である。<br><br>黒点は十一年目に増大するといわれているが、増大する時ははく息が極点に達した時である。<br><br>また今までよく言われた、月の光は太陽の光の反射であるとされているが、同様太陽の燃えるのは、月からの水気による事を知らなくてはならない。<br><br>また、月は二十八日で盈虧がすむが、これも月の呼吸運動である。<br><br> (注) 盈虧（えいき）、満ち欠け
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Respiração da Terra</h2>
 <p>É de conhecimento geral que todos os seres vivos respiram. Contudo, a verdade é que as plantas, os minerais e, com efeito, toda a Criação também respiram. A afirmação de que o próprio planeta Terra possui um ciclo respiratório pode parecer, à primeira vista, surpreendente; todavia, a explanação a seguir certamente os levará a assentir.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>À medida que o verão avança, a vegetação se torna cada vez mais exuberante. Ao atingir o clímax, o planeta inicia, então, sua inspiração. Como resultado, as plantas começam a murchar, todos os elementos da natureza entram em um estado descendente, e o ser humano adquire maior serenidade. O ponto culminante desse processo é o inverno. Eis a verdadeira fisionomia da Grande Natureza. O ar que a Terra exala é a energia espiritual do solo — o que a ciência denomina nitrogênio —, e é por essa razão que as plantas crescem.</p>
 <p>Esse nitrogênio eleva-se continuamente, acumulando-se na atmosfera, e retorna ao subsolo por meio da chuva, constituindo o adubo nitrogenado natural. Nesse sentido, é um equívoco extrair nitrogênio do ar para fabricar fertilizantes artificiais. É verdade que, em um primeiro momento, os fertilizantes nitrogenados aumentam a produção agrícola. Contudo, seu uso prolongado provoca uma intoxicação por nitrogênio, transformando o solo fértil em terra estéril. A razão para tal fenômeno reside no fato de que o excesso de nitrogênio reduz a força vital do próprio solo. Como é sabido, os fertilizantes nitrogenados foram desenvolvidos na Alemanha durante a Primeira Guerra Mundial. Embora se mostrassem adequados ao propósito de aumentar temporariamente as colheitas em tempos de guerra, seu uso deveria ter sido descontinuado com o retorno da paz.</p>
 <p>Abordemos agora as manchas solares. Embora tenham sido objeto de inúmeras discussões ao longo da história, elas nada mais são que o movimento respiratório do Sol. Diz-se que sua quantidade aumenta a cada onze anos, o que corresponde, na verdade, ao ápice da expiração solar. Ademais, embora se afirme com frequência que a luz da Lua é um mero reflexo da luz do Sol, é imperativo compreender que o Sol arde graças ao elemento aquoso proveniente da Lua. Finalmente, o ciclo de vinte e oito dias em que a Lua cresce e míngua também representa o seu próprio movimento respiratório.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地球は呼吸する 『信仰雑話』P.55、昭和23(1948)年9月5日発行 あらゆる生物は呼吸しているという事は誰も知っているが、実は植物も鉱物も、その他万有はことごとく呼吸している。<br/><br/>そうして地球も呼吸していると言ったら、ちょっと意外に思うかも知れないが、左に説くところによってなる程と肯くであろう。<br/><br/> そもそも、地球は一年に一回呼吸する。<br/><br/>息をはき始める時が春で、漸次吐きつつ極点に達した時が夏である。<br/><br/>地球の吐く息も人間と同じように温かい。<br/><br/>それは地熱の放散によるからで、春になればそれが濃く、万有は生育しはじめ、まず草木が萌え始める。<br/><br/>あらゆる物は上方に向かって伸び、人間も浮き浮きする。<br/><br/>夏になるに従い草木はいよいよ繁茂し、極点に達した時、今度は地球が息を引き始めるから、草木は凋落し、万物はすべて下降状態となり、人間も冷静になる。<br/><br/>それがまた極点に達したときが冬であって、これが大自然の姿であるが、地球が吐く息は地の霊気で、科学でいう窒素であるから、草木が成長するのである。<br/><br/>この窒素なるものは、不断に上昇しつつ空気の存在する高さまで上昇集積され、雨によって再び地中へ還元する。<br/><br/>これが天然の窒素肥料である。<br/><br/>この意味において、空中から特に窒素を採り、それを肥料にすることは過っている。<br/><br/>なる程、一時は窒素肥料によって作物の収穫が殖えるが、長く持続するときは、土壌は窒素中毒を起こし、痩土と化す。<br/><br/>その理由は、窒素過剰結果として土壌自体の活動力が鈍化するからである。<br/><br/>人も知るごとく、窒素肥料は第一次欧州戦争のとき、ドイツにおいて発明せられたものであるが、戦時に際し一時的収穫を増そうとする場合、その目的に適うからよいが、戦争が済み、平時となればやめるべきである。<br/><br/> 次に、太陽の黒点について昔から種々論議されているが、これも太陽の呼吸運動である。<br/><br/>黒点は十一年目に増大するといわれているが、増大する時ははく息が極点に達した時である。<br/><br/>また今までよく言われた、月の光は太陽の光の反射であるとされているが、同様太陽の燃えるのは、月からの水気による事を知らなくてはならない。<br/><br/>また、月は二十八日で盈虧がすむが、これも月の呼吸運動である。<br/><br/> (注) 盈虧（えいき）、満ち欠け</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

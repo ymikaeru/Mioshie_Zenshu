@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280301</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年3月1日） 『御垂示録』18号、昭和28(1953)年3月15日発行 昭和二十八年三月一日 昨夜論文を書いたのですが、つまり新宗教というのは、救世教以外には一つもないということです。<br><br>新宗教と言えば新しい所がなくてはならないのです。<br><br>ところが世間にたくさんできている新宗教で新しいものは何もないのです。<br><br>古い宗教の教祖を本尊様にしたり、それから昔からある宗教の良いところをとって――良い所というと、ちょっと間違っているかもしれませんが、それを良い所と思っていたことが、本当は良い所でなかったということが多いのですが、とにかくそういう所をとって新しいように見せたのです。<br><br>だから新宗教ではなくて新装宗教ということです。<br><br>新しく装うということです。<br><br>新しそうにみせいて、やること説くことは昔の宗教と少しも違いありません。<br><br>それでとにかく一番新しそうに見えるのは生長の家です。<br><br>これはインテリを目標にしていろいろ説いて、著述などをやって、出版を専門にしてます。<br><br>今ではやっぱり新宗教の仲間入りをしましたが、以前は当局からやかましいことを言われて、“宗教ではない、出版屋だ”ということにしてやってましたが、信教の自由になったから新宗教の形式に変ったのです。<br><br>私は以前に、全部ではないが主なものだけを本で見ましたが、結局理論です。<br><br>それは多く仏教の「無」の思想をとり入れてます。<br><br>その説というのは“だいたい病気というものはないのだ。<br><br>病気は心の幻影だ。<br><br>だからないと思えばないのだ”と言うのです。<br><br>以前のお蔭話にこういうのがありました。<br><br>生長の家にはいったら“本来痛みはないのだ。<br><br>痛いと思うのは幻影だ、だから本当は痛みはないのだ。<br><br>だからないと思え”と言うから、一生懸命にないと思うが、やっぱり痛い。<br><br>そんなことを思わないで痛みがなくなったほうが良いと思うから救世教にやってもらった。<br><br>と言ってましたが、それは誰でもそう思います。<br><br>貧乏で懐がさみしいのに“あると思え”と言ったところで、あると思って行ったらとんでもないことになります。<br><br>おそろしく美味い物を食って金がないとすれば、結局無銭飲食することになります。<br><br> これは仏教の無の説、空の説です。<br><br>空空寂寂というのはそういうことです。<br><br>前に沼波（カンノン）〔沼波瓊音（ぬなみけいおん）〕という人の哲学で、講演で聞いたこともありますが、かなり売れた説です。<br><br>その人が迷いに迷って、どうしても悟りが開けない。<br><br>それで普段から仏教の本を読んでいて、ある日ふと思ったことは“いかなるものでも結局なくなってしまう。<br><br>こうやっている電灯でも、千年二千年とたったらなくなってしまう。<br><br>結局無だ。<br><br>永遠にあると思うから迷いを生ずるのだ。<br><br>結局無だと思えば迷いも悔しさもない。<br><br>それだ”と、悟りを開いたということを聞きましたが、一応はもっともらしく聞こえますが、結局割り切れません。<br><br>生長の家の説もそれなのです。<br><br>よく仏教の本で「無」という字を一字書いたのがあります。<br><br>それはそれには違いないが、じきにそうなるなら良いですが、その人一代でなることはないので、二代三代の孫の代までは「有」なのですから、これは駄目です。<br><br>それで生長の家で、戦争が始ろうとするちょっと前くらいに、呼ばれて“君のほうでは、何でも「無」と言うが、国家はないと言えるか”と言われて、そこで行き詰ったのです。<br><br>“いや、私が間違っていました”と言うので、“それなら許すが、君が国家がないと言うなら許されない”ということで許されたのです。<br><br>だから私は、もうそういう説は説かないと思っていたが、この間ラジオ東京で宗教関係の人が四人か集まって座談会をやってましたが、やはり谷口さんは「無」を言ってました。<br><br>それで誰でしたか、その説に対して反抗して議論のようになりましたが、そうしてみると今もって「無」の説は続いているわけです。<br><br>この説は生長の家の一枚看板になってますが、しかしこれは実は御釈迦さんが説いたお経の中にあるのだから、新しい説ではないのです。<br><br>別に他教を悪く言おうとするわけではないが、はっきり言わなければ分からないから言うのです。<br><br>それから立正佼成会は日蓮宗ですが、日蓮宗は別に新しいものではないのです。<br><br>南無妙法蓮華経という文句が変ったわけでもないから、以前と同じことになります。<br><br>その次がＰＬ教ですが、これはダンスばかりを一番やってます。<br><br>何というか、客呼びといいますか、そういうようで別に新しいことはありません。<br><br>あの人の親父の、ひとのみちの教祖の御木徳一（みきとくはる）の言ったことをそっくり取っているだけです。<br><br>それでは御木徳一という教祖はどんな新しいことを言ったかというと、別に大して新しいことはないので、その根本は「夫婦の道」を説いており、夫婦仲良くしろ、ということです。<br><br>それから病気は「おふりかえ」というのがありますが、それは病気を書いて御玉串をつけて届けると、それをたくさん重ねておいて、教祖が拝んで、自分にその病気を引き受けさせてもらいたいというので、それを引き受けるのです。<br><br>それは確かに効くようです。<br><br>「おふりかえ」というのは自分に病気をふりかえるというわけですが、それで教祖は非常に苦しむのです。<br><br>そして二十五日を過ぎると、それが済むので、さっぱりしてピンピンするのですが、こういうことも一種の宗教的病気なおしであって別に新しいものではないのです。<br><br> それから大本教は私は良く知っているが新しい説は何もないのです。<br><br>しかし出口王仁三郎先生は新しいことを言いもし、確かにやりもしましたが、それが成功しないでああいうことになってしまったのです。<br><br>ただお筆先とか、そういった文章を、教団では一番の救いの方法として用いているのですから、ぜんぜん新しさはありません。<br><br>主な新宗教がそういうようで、少しも新しさはありません。<br><br>ところが救世教のほうでは第一番に“薬は毒だ、薬が病気を作るのだ”と言うが、このくらい新しい説はありません。<br><br>おそらく紀元前のヒポクラテス以来誰も唱えたことはないのです。<br><br>紀元前からの説を覆したのですから、このくらい新しい説というのはありません。<br><br>それから作物を作るための肥料も、これはいつ頃から用い始めたかということははっきりしないが、そうとう古い時代から使ってます。<br><br>しかし薬ほど古くはありませんが、少なくとも千年以上はたっているでしょう。<br><br>そうすると、これを覆してしまった説ですから新しいものです。<br><br>それから説き方も、霊界と現界との関係ですが、これは今までにもそうとう説いてありますが、私ほどには徹底してはっきりしていません。<br><br>それから善悪の発生についての理論もはっきりとはしてなかったのです。<br><br>悪いことをしてはいけない良いことをしなさい、というような戒律的なことは説かれていたが、しからばどこに根本があって発生するかということは言ってない。<br><br>それから医学にしても、薬がいけないと言うだけでなく、薬が病源の根本を作っているということで、“薬は良い”というこの間違いを説いているが、今まではそういう根本はぜんぜん分からなかった。<br><br>たとえば黴菌にしても、ただ黴菌だけを怖い怖いと言って、黴菌を発見したコッホはたいへんな功績になってますが、では黴菌というのはどこから出るかということの発見は今までになかったのです。<br><br>だから、そのうちの一つでもすばらしい発見であるのに、救世教のほうはそれがいくつもあるのですから、このくらい新しい宗教はないと思います。<br><br>そういうことを書きました。<br><br>だから新宗教は一つしかないのです。<br><br>あとのものは意味が違うのです。<br><br>あとの新宗教は、ただ新しく許可を得たというだけのものです。<br><br>新しく生まれたというのではないのです。<br><br>やっぱり親父の跡を継いだのですから新しいことはありません。<br><br>しかしそこまで言ってしまっては形無しになってしましますが、本当のことを言えばそう言うよりほかに言えないわけです。<br><br>そこで世の中の人がそこまで分かってくれば、それはたいへんなものです。<br><br>しかしほかの宗教をあんまり非難するのは私は嫌いだから、信者さんだけに知ってもらえばそれでいいのです。<br><br> それで日蓮上人の言った「念仏無限[間]、禅天魔、真言亡国、律国賊」という、このくらい他教の非難をする言葉はないと思います。<br><br>「念仏無限、禅天魔」というのは、念仏を唱えていると無限[間]地獄に落ちる。<br><br>禅宗は天の悪魔だ、ということです。<br><br>「真言亡国」ということは、真言宗を信仰すると国が亡びるということです。<br><br>「律国賊」ということは、今はほとんど消えましたが、その時分に律教というのがありましたが、それは国賊だというのです。<br><br>ではなぜ日蓮上人はそういうことを言ったかというと、日蓮上人はバラモンの出なのです。<br><br>日蓮上人は知ってか知らないでか、バラモン式であって仏教の出ではないのです。<br><br>ですからお釈迦さんと逆なのです。<br><br>お釈迦さんはかえって敵なのです。<br><br>バラモンというのは、お釈迦さんが仏教を弘めたために小さくなったのです。<br><br>ですからバラモンのほうとしては、お釈迦さんは仇のようなものです。<br><br>そこで「念仏無限[間]、禅天魔、真言亡国、律国賊」ということは、みんな仏教ですから、それをそんなにコキ下ろすということは、つまり日蓮上人は、知らず識らずおそらくバラモンのほうの霊にやられたのです。<br><br>そこで今日でも、日蓮宗ほど難行苦行をするのはありません。<br><br>この間の新聞にも出てましたが、百日の荒行と言って、髴（かみ）ぼうぼうで白い着物を着てやってますが、あれは一つの宣伝でしょうが、ああいうことをやるのはバラモンです。<br><br>お釈迦さんのほうとはぜんぜん違うのです。<br><br>そこでお釈迦さんは、そういう修行をしなくては悟りを得られないというのはかわいそうだから、お経を読めば悟りを得られるということを言われ、それから良くなったのです。<br><br>それは慈悲なのです。<br><br>それをああいう荒行をするというのは、お釈迦さんの意志にぜんぜん反することになります。<br><br>それで日蓮宗のほうでは、そのやり方が良いと思っているわけです。<br><br>そこで今活動しているのは、仏教のほうでは日蓮宗くらいのもので、あとはほとんど睡眠状態です。<br><br>というのは他の仏教からみれば、バラモンのほうが新しいからです。<br><br>そこで新宗教のうちでは、立正佼成会、孝道教団という日蓮宗の一派が活動しているのです。<br><br>今新宗教で活動していて何とか人から認められているのは、日蓮宗の出なのです。<br><br>この間新聞に出てましたが、新宗教には派がある。<br><br>それは大本教の派というか、救世教、大本教、生長の家教団、それから静岡にある三五（あなない）教です。<br><br>それから日蓮宗だ、というようなことが出てましたが、それはそのとおりです。<br><br>そういうようで、とにかく救世教は本当に新しい宗教というわけです。<br><br>しかしそうなるとやっぱり宗教ではないのです。<br><br>宗教はもう亡びてしまって、今は形骸しか残っていません。<br><br>それでお釈迦さんは“仏滅の世がくる”と言ったが、そのとおりになって来ているわけです。<br><br> この間森山さんが、京都の中外日報という宗教新聞の主催で、関西方面の宗教の教祖代理とか管長とか、その宗教の親玉が来ていろんな話をしたそうですが、想像のとおりで、てんで駄目だという話があったようですが、そういうようなわけで、そろそろ宗教グループにもよほどの変化が起きるだろうと思ってます。<br><br>私は今年から大いに活動するということを言ってありますが、ちょうど時期がそういうような具合になりつつあります。<br><br>それについて東京日日に、昨日まで五日間五回にわたって私の談話を書いてありましたが、これはたいていな人は読んだでしょう。<br><br>あの記事はばかに良いです。<br><br>病気とか浄霊についてですが、最初は宗教と美術について書き、その次は医学と浄霊、その次に自然農法について書いてましたが、実に良く書いてあります。<br><br>日刊新聞であれほどに一つの宗教を褒める……というのではないが、こっちのやっている仕事の目的や、こっちで知らしたい書きたいということを、ちょうど栄光にでも書くようなとおりに書いてありますから、これはこっちで御礼をしてもいいくらいです。<br><br>広告するよりずっと効き目があります。<br><br>こういうことも神様のほうで、ちょっと効果のある手を打ち始めたというように思われるのです。<br><br>これからいろいろ変るでしょうが、一歩一歩前進をしているわけです。<br><br> それで今度は箱根の美術館などもよほど各方面に認められつつありますが、特にアメリカなどでもだいぶ認めてきたとみえて、今月の八日に私のほうにある浮世絵の最高品を四、五点ぜひ見たいからと、アメリカ大使館の参事官か何かで、日本美術に対しての非常な研究家ですが、見せてやるように承諾しました。<br><br>それから今度の浮世絵の展覧会で、博物館のほうで私のほうのをすっかり見て、足りない分は博物館のほうから貸そうということを先方から言って来ました。<br><br>そういうような具合で、おいおい方々で分かってきたようで、非常に結構だと思ってます。<br><br>今思いついたままの話をしたわけですが、この会は質疑応答の会ですから、話はこのくらいにして、質問に答えます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese da Única e Verdadeira Nova Religião</h2>
 <p>O ensaio que redigi na noite passada versa sobre um ponto fundamental: com exceção da Sekaikyuseikyou, não existe uma única nova religião. Para que uma religião possa ser considerada “nova”, é imperativo que ela traga algo genuinamente inédito. Todavia, ao observarmos as inúmeras denominações que surgiram na sociedade, constatamos que nenhuma delas apresenta qualquer elemento de verdadeira novidade. Em geral, elas simplesmente elegem como objeto de veneração o fundador de alguma religião antiga ou se apropriam de preceitos preexistentes — e, embora os considerem admiráveis, muitas vezes o que julgam ser um ponto forte é, na verdade, um equívoco. Com base nesses elementos, elas se apresentam ao mundo com uma aparência de originalidade. Por essa razão, não se trata de novas religiões, mas sim de religiões com uma nova roupagem; um mero disfarce de modernidade. Na prática, suas ações e seus sermões em nada diferem dos dogmas do passado.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Recentemente, o Sr. Moriyama participou de um evento em Kyoto, promovido por um jornal religioso, que reuniu representantes e líderes das principais religiões da região de Kansai. Segundo seu relato, como era de se esperar, o nível das discussões foi decepcionante. Isso me leva a crer que o cenário religioso está prestes a passar por uma profunda transformação. Como anunciei, este será um ano de grande atividade para nós, e as circunstâncias parecem se alinhar a esse propósito. Nesse sentido, o jornal <em>Tokyo Nichinichi Shimbun</em> publicou, ao longo de cinco dias, uma série de entrevistas comigo, que muitos de vocês devem ter lido. O artigo é de uma qualidade excepcional. Abordou temas como doença, Johrei, a relação entre religião e arte, e a Agricultura Natural. A forma como expuseram nossos objetivos e os pontos que desejávamos comunicar foi tão precisa que equivale ao que nós mesmos publicaríamos em nosso jornal. Sinto que deveríamos até mesmo lhes agradecer. O impacto de tal matéria supera em muito o de qualquer publicidade. Interpreto isso como um sinal de que Deus começou a empregar estratégias de grande alcance. Muitas mudanças ainda virão, mas estamos avançando, passo a passo.</p>
 <p>Nesse mesmo sentido, o Museu de Arte de Hakone vem conquistando um reconhecimento notável em diversos círculos. O interesse internacional, especialmente dos Estados Unidos, tem crescido. No próximo dia oito, receberei a visita de um conselheiro da embaixada americana, um profundo conhecedor da arte japonesa, que solicitou ver quatro ou cinco de nossas mais importantes gravuras ukiyo-e. Além disso, para a próxima exposição de ukiyo-e, o Museu Nacional, após avaliar nosso acervo, ofereceu-se para nos emprestar as peças que nos faltam. Esses acontecimentos demonstram que, gradualmente, nosso trabalho vem sendo compreendido em diversas esferas, o que me enche de satisfação.</p>
 <p>Bem, discorri sobre os pensamentos que me ocorreram no momento. Contudo, como este encontro se destina a perguntas e respostas, encerrarei aqui minha explanação para que possamos iniciar o diálogo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年3月1日） 『御垂示録』18号、昭和28(1953)年3月15日発行 昭和二十八年三月一日 昨夜論文を書いたのですが、つまり新宗教というのは、救世教以外には一つもないということです。<br/><br/>新宗教と言えば新しい所がなくてはならないのです。<br/><br/>ところが世間にたくさんできている新宗教で新しいものは何もないのです。<br/><br/>古い宗教の教祖を本尊様にしたり、それから昔からある宗教の良いところをとって――良い所というと、ちょっと間違っているかもしれませんが、それを良い所と思っていたことが、本当は良い所でなかったということが多いのですが、とにかくそういう所をとって新しいように見せたのです。<br/><br/>だから新宗教ではなくて新装宗教ということです。<br/><br/>新しく装うということです。<br/><br/>新しそうにみせいて、やること説くことは昔の宗教と少しも違いありません。<br/><br/>それでとにかく一番新しそうに見えるのは生長の家です。<br/><br/>これはインテリを目標にしていろいろ説いて、著述などをやって、出版を専門にしてます。<br/><br/>今ではやっぱり新宗教の仲間入りをしましたが、以前は当局からやかましいことを言われて、“宗教ではない、出版屋だ”ということにしてやってましたが、信教の自由になったから新宗教の形式に変ったのです。<br/><br/>私は以前に、全部ではないが主なものだけを本で見ましたが、結局理論です。<br/><br/>それは多く仏教の「無」の思想をとり入れてます。<br/><br/>その説というのは“だいたい病気というものはないのだ。<br/><br/>病気は心の幻影だ。<br/><br/>だからないと思えばないのだ”と言うのです。<br/><br/>以前のお蔭話にこういうのがありました。<br/><br/>生長の家にはいったら“本来痛みはないのだ。<br/><br/>痛いと思うのは幻影だ、だから本当は痛みはないのだ。<br/><br/>だからないと思え”と言うから、一生懸命にないと思うが、やっぱり痛い。<br/><br/>そんなことを思わないで痛みがなくなったほうが良いと思うから救世教にやってもらった。<br/><br/>と言ってましたが、それは誰でもそう思います。<br/><br/>貧乏で懐がさみしいのに“あると思え”と言ったところで、あると思って行ったらとんでもないことになります。<br/><br/>おそろしく美味い物を食って金がないとすれば、結局無銭飲食することになります。<br/><br/> これは仏教の無の説、空の説です。<br/><br/>空空寂寂というのはそういうことです。<br/><br/>前に沼波（カンノン）〔沼波瓊音（ぬなみけいおん）〕という人の哲学で、講演で聞いたこともありますが、かなり売れた説です。<br/><br/>その人が迷いに迷って、どうしても悟りが開けない。<br/><br/>それで普段から仏教の本を読んでいて、ある日ふと思ったことは“いかなるものでも結局なくなってしまう。<br/><br/>こうやっている電灯でも、千年二千年とたったらなくなってしまう。<br/><br/>結局無だ。<br/><br/>永遠にあると思うから迷いを生ずるのだ。<br/><br/>結局無だと思えば迷いも悔しさもない。<br/><br/>それだ”と、悟りを開いたということを聞きましたが、一応はもっともらしく聞こえますが、結局割り切れません。<br/><br/>生長の家の説もそれなのです。<br/><br/>よく仏教の本で「無」という字を一字書いたのがあります。<br/><br/>それはそれには違いないが、じきにそうなるなら良いですが、その人一代でなることはないので、二代三代の孫の代までは「有」なのですから、これは駄目です。<br/><br/>それで生長の家で、戦争が始ろうとするちょっと前くらいに、呼ばれて“君のほうでは、何でも「無」と言うが、国家はないと言えるか”と言われて、そこで行き詰ったのです。<br/><br/>“いや、私が間違っていました”と言うので、“それなら許すが、君が国家がないと言うなら許されない”ということで許されたのです。<br/><br/>だから私は、もうそういう説は説かないと思っていたが、この間ラジオ東京で宗教関係の人が四人か集まって座談会をやってましたが、やはり谷口さんは「無」を言ってました。<br/><br/>それで誰でしたか、その説に対して反抗して議論のようになりましたが、そうしてみると今もって「無」の説は続いているわけです。<br/><br/>この説は生長の家の一枚看板になってますが、しかしこれは実は御釈迦さんが説いたお経の中にあるのだから、新しい説ではないのです。<br/><br/>別に他教を悪く言おうとするわけではないが、はっきり言わなければ分からないから言うのです。<br/><br/>それから立正佼成会は日蓮宗ですが、日蓮宗は別に新しいものではないのです。<br/><br/>南無妙法蓮華経という文句が変ったわけでもないから、以前と同じことになります。<br/><br/>その次がＰＬ教ですが、これはダンスばかりを一番やってます。<br/><br/>何というか、客呼びといいますか、そういうようで別に新しいことはありません。<br/><br/>あの人の親父の、ひとのみちの教祖の御木徳一（みきとくはる）の言ったことをそっくり取っているだけです。<br/><br/>それでは御木徳一という教祖はどんな新しいことを言ったかというと、別に大して新しいことはないので、その根本は「夫婦の道」を説いており、夫婦仲良くしろ、ということです。<br/><br/>それから病気は「おふりかえ」というのがありますが、それは病気を書いて御玉串をつけて届けると、それをたくさん重ねておいて、教祖が拝んで、自分にその病気を引き受けさせてもらいたいというので、それを引き受けるのです。<br/><br/>それは確かに効くようです。<br/><br/>「おふりかえ」というのは自分に病気をふりかえるというわけですが、それで教祖は非常に苦しむのです。<br/><br/>そして二十五日を過ぎると、それが済むので、さっぱりしてピンピンするのですが、こういうことも一種の宗教的病気なおしであって別に新しいものではないのです。<br/><br/> それから大本教は私は良く知っているが新しい説は何もないのです。<br/><br/>しかし出口王仁三郎先生は新しいことを言いもし、確かにやりもしましたが、それが成功しないでああいうことになってしまったのです。<br/><br/>ただお筆先とか、そういった文章を、教団では一番の救いの方法として用いているのですから、ぜんぜん新しさはありません。<br/><br/>主な新宗教がそういうようで、少しも新しさはありません。<br/><br/>ところが救世教のほうでは第一番に“薬は毒だ、薬が病気を作るのだ”と言うが、このくらい新しい説はありません。<br/><br/>おそらく紀元前のヒポクラテス以来誰も唱えたことはないのです。<br/><br/>紀元前からの説を覆したのですから、このくらい新しい説というのはありません。<br/><br/>それから作物を作るための肥料も、これはいつ頃から用い始めたかということははっきりしないが、そうとう古い時代から使ってます。<br/><br/>しかし薬ほど古くはありませんが、少なくとも千年以上はたっているでしょう。<br/><br/>そうすると、これを覆してしまった説ですから新しいものです。<br/><br/>それから説き方も、霊界と現界との関係ですが、これは今までにもそうとう説いてありますが、私ほどには徹底してはっきりしていません。<br/><br/>それから善悪の発生についての理論もはっきりとはしてなかったのです。<br/><br/>悪いことをしてはいけない良いことをしなさい、というような戒律的なことは説かれていたが、しからばどこに根本があって発生するかということは言ってない。<br/><br/>それから医学にしても、薬がいけないと言うだけでなく、薬が病源の根本を作っているということで、“薬は良い”というこの間違いを説いているが、今まではそういう根本はぜんぜん分からなかった。<br/><br/>たとえば黴菌にしても、ただ黴菌だけを怖い怖いと言って、黴菌を発見したコッホはたいへんな功績になってますが、では黴菌というのはどこから出るかということの発見は今までになかったのです。<br/><br/>だから、そのうちの一つでもすばらしい発見であるのに、救世教のほうはそれがいくつもあるのですから、このくらい新しい宗教はないと思います。<br/><br/>そういうことを書きました。<br/><br/>だから新宗教は一つしかないのです。<br/><br/>あとのものは意味が違うのです。<br/><br/>あとの新宗教は、ただ新しく許可を得たというだけのものです。<br/><br/>新しく生まれたというのではないのです。<br/><br/>やっぱり親父の跡を継いだのですから新しいことはありません。<br/><br/>しかしそこまで言ってしまっては形無しになってしましますが、本当のことを言えばそう言うよりほかに言えないわけです。<br/><br/>そこで世の中の人がそこまで分かってくれば、それはたいへんなものです。<br/><br/>しかしほかの宗教をあんまり非難するのは私は嫌いだから、信者さんだけに知ってもらえばそれでいいのです。<br/><br/> それで日蓮上人の言った「念仏無限[間]、禅天魔、真言亡国、律国賊」という、このくらい他教の非難をする言葉はないと思います。<br/><br/>「念仏無限、禅天魔」というのは、念仏を唱えていると無限[間]地獄に落ちる。<br/><br/>禅宗は天の悪魔だ、ということです。<br/><br/>「真言亡国」ということは、真言宗を信仰すると国が亡びるということです。<br/><br/>「律国賊」ということは、今はほとんど消えましたが、その時分に律教というのがありましたが、それは国賊だというのです。<br/><br/>ではなぜ日蓮上人はそういうことを言ったかというと、日蓮上人はバラモンの出なのです。<br/><br/>日蓮上人は知ってか知らないでか、バラモン式であって仏教の出ではないのです。<br/><br/>ですからお釈迦さんと逆なのです。<br/><br/>お釈迦さんはかえって敵なのです。<br/><br/>バラモンというのは、お釈迦さんが仏教を弘めたために小さくなったのです。<br/><br/>ですからバラモンのほうとしては、お釈迦さんは仇のようなものです。<br/><br/>そこで「念仏無限[間]、禅天魔、真言亡国、律国賊」ということは、みんな仏教ですから、それをそんなにコキ下ろすということは、つまり日蓮上人は、知らず識らずおそらくバラモンのほうの霊にやられたのです。<br/><br/>そこで今日でも、日蓮宗ほど難行苦行をするのはありません。<br/><br/>この間の新聞にも出てましたが、百日の荒行と言って、髴（かみ）ぼうぼうで白い着物を着てやってますが、あれは一つの宣伝でしょうが、ああいうことをやるのはバラモンです。<br/><br/>お釈迦さんのほうとはぜんぜん違うのです。<br/><br/>そこでお釈迦さんは、そういう修行をしなくては悟りを得られないというのはかわいそうだから、お経を読めば悟りを得られるということを言われ、それから良くなったのです。<br/><br/>それは慈悲なのです。<br/><br/>それをああいう荒行をするというのは、お釈迦さんの意志にぜんぜん反することになります。<br/><br/>それで日蓮宗のほうでは、そのやり方が良いと思っているわけです。<br/><br/>そこで今活動しているのは、仏教のほうでは日蓮宗くらいのもので、あとはほとんど睡眠状態です。<br/><br/>というのは他の仏教からみれば、バラモンのほうが新しいからです。<br/><br/>そこで新宗教のうちでは、立正佼成会、孝道教団という日蓮宗の一派が活動しているのです。<br/><br/>今新宗教で活動していて何とか人から認められているのは、日蓮宗の出なのです。<br/><br/>この間新聞に出てましたが、新宗教には派がある。<br/><br/>それは大本教の派というか、救世教、大本教、生長の家教団、それから静岡にある三五（あなない）教です。<br/><br/>それから日蓮宗だ、というようなことが出てましたが、それはそのとおりです。<br/><br/>そういうようで、とにかく救世教は本当に新しい宗教というわけです。<br/><br/>しかしそうなるとやっぱり宗教ではないのです。<br/><br/>宗教はもう亡びてしまって、今は形骸しか残っていません。<br/><br/>それでお釈迦さんは“仏滅の世がくる”と言ったが、そのとおりになって来ているわけです。<br/><br/> この間森山さんが、京都の中外日報という宗教新聞の主催で、関西方面の宗教の教祖代理とか管長とか、その宗教の親玉が来ていろんな話をしたそうですが、想像のとおりで、てんで駄目だという話があったようですが、そういうようなわけで、そろそろ宗教グループにもよほどの変化が起きるだろうと思ってます。<br/><br/>私は今年から大いに活動するということを言ってありますが、ちょうど時期がそういうような具合になりつつあります。<br/><br/>それについて東京日日に、昨日まで五日間五回にわたって私の談話を書いてありましたが、これはたいていな人は読んだでしょう。<br/><br/>あの記事はばかに良いです。<br/><br/>病気とか浄霊についてですが、最初は宗教と美術について書き、その次は医学と浄霊、その次に自然農法について書いてましたが、実に良く書いてあります。<br/><br/>日刊新聞であれほどに一つの宗教を褒める……というのではないが、こっちのやっている仕事の目的や、こっちで知らしたい書きたいということを、ちょうど栄光にでも書くようなとおりに書いてありますから、これはこっちで御礼をしてもいいくらいです。<br/><br/>広告するよりずっと効き目があります。<br/><br/>こういうことも神様のほうで、ちょっと効果のある手を打ち始めたというように思われるのです。<br/><br/>これからいろいろ変るでしょうが、一歩一歩前進をしているわけです。<br/><br/> それで今度は箱根の美術館などもよほど各方面に認められつつありますが、特にアメリカなどでもだいぶ認めてきたとみえて、今月の八日に私のほうにある浮世絵の最高品を四、五点ぜひ見たいからと、アメリカ大使館の参事官か何かで、日本美術に対しての非常な研究家ですが、見せてやるように承諾しました。<br/><br/>それから今度の浮世絵の展覧会で、博物館のほうで私のほうのをすっかり見て、足りない分は博物館のほうから貸そうということを先方から言って来ました。<br/><br/>そういうような具合で、おいおい方々で分かってきたようで、非常に結構だと思ってます。<br/><br/>今思いついたままの話をしたわけですが、この会は質疑応答の会ですから、話はこのくらいにして、質問に答えます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

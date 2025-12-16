@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reika017</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界篇 ２ 017-039 霊界諸界 017 仏界と幽世大神 霊界は未だ仏界のように伺っておりますが、霊界の主宰神「幽世大御神」と念ずるのはいかなる訳で御座いましょうか。<br><br> 仏界は霊界の一部である。<br><br>霊界の――仏界等、一切の主宰神が幽世大神である。<br><br> 宗教も幽世大神が主宰しているから、幽世大神に願えばよい。<br><br>（S23.11.24） rattail（注） 〔 御光話（S25年 1月） 『御光話録』17号、昭和25(1950)年2月28日発行〕 ――過日の御論文にて、もはや仏界がまったくなくなった由ですが、そうなりましても幽世大神様のお名前はそのままでよろしいのでしょうか。<br><br> 『これはね、「まったく」なってしまったんじゃなくて、なりつつあるんです。<br><br>一遍に昼の世界になるんじゃなくて、だんだんになって行くんですから、ちょうど、太陽がだんだんに高く上るようにね。<br><br>ですから、まあ仏界の移動が始まったというところですね。<br><br>移動だって一日や二日じゃできませんからね。<br><br>ま、「昼の部に入った」というわけです。<br><br> 幽世大神のお名前は無論この通りですよ。<br><br>幽世大神は霊界が昼になったってありますからね。<br><br>それから、いまま……では第三天国くらいしかなかったんですが、今度初めて最高天国ができるんです。<br><br>その反対に最低地獄というものもなくなってくるんです。<br><br>まあ、キリスト教で言う「煉獄」、仏教で言う「無間地獄」、神道の「根底の国」といったものはなくなってくるんです。<br><br>これを現界で言えば、例えば牢屋なんかなくなる、重い罪を作るような人がいなくなりますからね。<br><br>そうなると一番重い刑罰は重労働ということになるんです。<br><br>だから、地下へ入って石炭を掘ることや火夫（かふ）のような苦しい仕事が重刑になるんです。<br><br>悪いことをする人がいなくなるから重い刑罰もなくなるんです。<br><br>』 018 幽界と幽世大神 幽世大神様はいわゆる神幽現の幽界の主宰神で御座居ましょうか。<br><br>また幽界は中有界と地獄の事で御座いましょうか。<br><br>幽世大神様はどなた様で御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 幽界は中有、地獄両方である。<br><br>一切を主宰さるるが、地獄の方が濃い。<br><br>幽は霊界の感じを表わしてる字である。<br><br> 国常立尊は現界のお働きをなされ、おとなしい大国主尊が後継ぎになっている。<br><br>これは二級程度の神で、全然交替ではない。<br><br>審判さるるは国常立尊以外にない。<br><br>（S24. 5.12） 019 新旧幽世の違い 以前の幽世大御神と今度替られた幽世大御神の審判の違いを御伺い申し上げます。<br><br> 幽世大神の審判の違いは神の性格によって違う。<br><br>今のはいくらか和らかいと思う。<br><br>やり方は幾分違う点はあろうが、結局同じである。<br><br>結局は浄化であるから、神といえどもしようがない。<br><br>霊界には情実はない。<br><br>（S23.11.24） 020 死後審判受ける期日 帰幽して幽世大御神の審判を受けるのは死後幾日くらい経っての事で御座いましょうか。<br><br> 死後五十日間は家にいて、それが過ぎて八衢に行く。<br><br>五十日以上経てば審判さるるとみてよい。<br><br>（S23.11.24） 021 神の御目的、本教の霊界、宗教発祥地と宗教信者死後の帰属 既成宗教の信者は死後その霊魂は各宗発祥の地に集結さるるように御伺い致しておりましたが、観音教団の現在の状態においてはどう考えましたらよろしいので御座いましょうか。<br><br> 発祥の地とは決っていない。<br><br>日本にも出張所があって決る訳である。<br><br> 神様は地球全体を天国にするのが御目的である。<br><br> 宗教によっては発祥の地がなくなり、他へ行ってるのもある。<br><br>（その事行（や）った土地）例えば日蓮宗なら身延も中山も池上もある。<br><br> 霊界へ行って教祖が良い所へ違える事もある。<br><br> 宗教はそれぞれ団体があって、そこへ所属する。<br><br> 観音教団は大先生がおられる所である。<br><br>最高の霊界となっている。<br><br> 前は上野毛だったが、今は箱根、熱海である。<br><br>（S24.10.24） 022 宗祖・開祖の死後、（弟子の罪の贖い） 宗祖・開祖は八衢にあって教えを垂れているんでしょうか。<br><br> 宗祖・開祖は天国または極楽にいる。<br><br>八衢で救いをしているのは全部その弟子で、即ち神主とか僧侶、布教師、伝道師等である。<br><br>しかし中には右のような宗教者でも、罪のため、八衢や地獄で苦しんでいるものもある。<br><br>これは間違った事をしていたからで、その罪は宗祖・開祖が一部を引受ける場合もある。<br><br> 023 宗祖・開祖の霊界活動 宗祖・開祖は八衢にあって教えを垂れているんでしょうか。<br><br> 宗祖・開祖は極楽にいる。<br><br>八衢で救いをしているのは全部その弟子で、即ち神主とか布教師あるいは各宗の伝道師である。<br><br>しかし中には罪の為八衢や地獄で苦しんでいるものもある。<br><br>それは弟子や信者が間違った事をしているとその宗祖・開祖が引受けて苦しむのである。<br><br>（S23.12.14） 024 親鸞、日蓮の居所 先日御願い申し上げました村田操の狐霊を以て霊査いたしました。<br><br>いろいろの憑依現象を見せて戴きまして謹んで御礼申し上げます。<br><br>つきましてはその真偽を御垂示賜りたいと存じます。<br><br> 村田に憑った霊の言は間違った所はない。<br><br>その通りである。<br><br>しかしあまりそれに熱中しない方がよい。<br><br>熱中すると憑り易い。<br><br>先方で必要な時だけにする。<br><br> 親鸞、日蓮は第三地獄にいた。<br><br>（S25. 5. 8） 025 御浄霊に感謝したクリスチャンの霊界 クリスチャンが御浄霊を頂き感謝しながら死にました。<br><br>こんな人はどちらの霊界に参るものでしょうか。<br><br> ただ感謝だけではいけない。<br><br>観音様の霊界へは行けない。<br><br>入信しなかったらやはりキリスト教の方へ行く。<br><br> しかし霊界へ行って神様にお許し戴けば、観音様へ行く事は出来る。<br><br>但しその場合もすぐには行けない。<br><br> 026 日本人のキリスト教信徒の死後、キリスト教霊界の地位 日本人がキリスト教信徒として死後の霊の帰属について―― 霊界ではキリスト教の霊界が出来ており、そこの団体へ入る。<br><br>日本では割合い低い所である。<br><br>第三天国に相当する。<br><br>仏教の方が上である。<br><br> その人の好き好きがあり、霊によっては余り好かぬ霊と好む霊とある。<br><br>地獄の霊などは天国へやると苦しくて逃げる。<br><br>つまり相応の所へ行く。<br><br> キリスト教徒などはその霊界で満足する。<br><br>ただ祖先を祀らぬから、霊界でも祖先と一緒にならぬ。<br><br>独自の生活をする。<br><br> 大抵霊界へ行くとキリスト教をやめる。<br><br>今は仏界か神界が建設しつつある。<br><br> 027 キリスト教の祖霊は食に困るか キリスト教、特にメソジストでは毎朝の祖霊様の供物はしておりませんが、祖霊様は飢に苦しんでおりますのでございましょうか。<br><br> これはそうである。<br><br>キリスト教によっては不幸な人が多い。<br><br>祖霊が憑って知らせるが判らない。<br><br>全く気の毒である。<br><br> 外国の霊界は緯で、外国では、外国の霊は殆ど現界と同じようで、一つの、霊界の食物を与えるような所が出来ている。<br><br>そして、そこから配給されるようなもので、大きな共同生活式になっている。<br><br>それで日本人のキリスト教徒は不幸な人が多い。<br><br>それで外国は民主的――。<br><br>（S *.10.24） 028 冬と夜なき天国 御讃歌の中の、 『永遠に冬なき夜なき天国に魂安ませむはや来れかし』 とございます御歌の御解釈を御伺い申し上げます。<br><br> 天国には冬と夜がない。<br><br>いつも明るい。<br><br>暗がない。<br><br>冬は地獄で、天国へ行く程暖かい。<br><br>一番上の天国は裸である。<br><br>仏像などは裸で、暖かい。<br><br>後、薄い衣を着ている。<br><br> 天国的に魂を安らかにして戴きたいというお歌である。<br><br>（S24.11.19） 029 笑いは天国の花 笑いは天国と申しますが、霊界における笑いはいかなる状態の時に起きるものでしょうか。<br><br> 現界と同じ事である。<br><br>神様もよく笑われる。<br><br>去年税問題の起った時、私は国常立尊様にお伺いしたらイキナリ笑われた。<br><br>そこで私は、安心だと思った。<br><br>笑いは天国の花としてある。<br><br>大黒様などいつも笑っている。<br><br> rattail（注） 〔 はしがき（笑の泉） 『笑の泉』昭和26(1951)年1月30日発行〕 『 読者諸君よ、一読大いに笑え！ 三読羽目をはずせ！笑って笑って！ 笑い抜いて！ 天国を造るべきだ。<br><br>笑いは天国の花というじゃないか。<br><br> 』 030 賽の河原の位置 賽の河原で石を積むと言う事が御座いますが、これについて御教えを御願い申し上げます。<br><br> 本当の子供の地獄界では賽の河原というのがある。<br><br> 地獄の一番上等で、八衢の最上層部にある子供の地獄である。<br><br>（S24. 4.21） 031 地獄の釜 霊が地獄の釜の中に投げ込まれて蓋をされ、その後何千年もの間出る事が出来ないという事があるので御座居ましょうか。<br><br>またその釜の中に入れられる霊はいかなる霊で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 形容したのである。<br><br>本当に入れられる訳ではない。<br><br>地獄のひどい所は釜の中で蓋をされたような刑罰である。<br><br>（S24. 5.12） 032 糞壺地獄 ある信徒の妻（三十歳）、七年以前の事、お産の催しが来たので、早速産婆を呼びました。<br><br>産婆の言葉に従い風呂に入ってから便所に参りましたところが急に産気付き便所壺へ誤って産み落しましたが、四日目遂に死亡したとの事ですが、右は霊的にいかなる原因がありますか。<br><br>また死んだ赤ん坊の霊はどのようになるものでしょうか、御教示願います。<br><br>その妻は本教に反対で、浄霊は一度も受けておりません。<br><br> 勿論地獄である。<br><br>糞壺地獄である。<br><br>信仰に反対する位であるから良い事はない。<br><br> （S24. 9.25） 033 修羅道 修羅道とはどんな所で御座いましょうか。<br><br>どんな霊憑りになって出て来ましょうか。<br><br>右、御伺い申し上げます。<br><br> 瞋恚を燃やす。<br><br> 034 地獄・極楽 地獄・極楽を信者に説明する時はいかにしたら宜しいでしょうか。<br><br>御伺い申し上げます。<br><br> あるとかないとか言えば、あるといえばよい。<br><br>地獄・極楽は現世にあるというが、現世にもあるし霊界にもある。<br><br> 035 脱衣婆の更迭 脱衣婆は現界に当てはめて見ますとどういう事をしている者をいうので御座居ましょうか。<br><br> 脱衣婆はそう更（かわ）らない。<br><br>更迭が少い。<br><br>現界には相応するものがない。<br><br> 036 一つ目小僧と霊界と想念 昭和二十二年七月八日の夜十一時頃寝につきましたが、中々眠れず蚊帳の中で扇を使っておりました。<br><br>その時何物かが忍び込み蚊帳の天井から私を押えつけ、蚊帳の天井は正に私の顔につかんばかり、ぐっと腹に力を入れてよく見直しましたら四尺位の丸い真黒の顔、その真中に大きな目が光っております。<br><br>逃げようとして四苦八苦致し、ふと横を見ますと、同じような、高さ一尺五寸位の一つ目小僧が二、三十人並んでいます。<br><br>「こいつ」とばかり大目玉をねらって霊放射を致しましたらヒュッと音を立てて戸外へ逃げて行きました。<br><br>実際に一つ目小僧と言うものは有るもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 霊界には一つ目も三つ目もいろいろある。<br><br>魑魅魍魎、百鬼夜行などとよく言う。<br><br>八衢以下にはそういう所がある。<br><br>人間の想念によって、こういう妖怪のような形が出来る。<br><br>二枚舌など、本当に二枚になる。<br><br>人の目を晦（くら）ましたりなどすると、一つ目小僧になる。<br><br>多くの人から見られるような間違った事をすると三つ目になる。<br><br>想念（と罪）により形が違う。<br><br> 一人の人を大勢が怨むとその想念は妖怪のようになる。<br><br>悪い想念が凝って形となる。<br><br>英雄など皆そうである。<br><br>（その妖怪にやられる。<br><br>ヒットラーなど、多くの国民に取巻かれる）改心しなければドン底に墜つる。<br><br> （反対に尊敬され感謝されれば光に取巻かれ、多くの人から信頼を受ける） （大きいのは親分、小さいのは子分で、悪霊は黒い）（S24. 2.21） 037 猿田彦命と天狗界の位置 猿田彦尊は何の罪により天狗になったのでしょうか。<br><br>天孫降臨の時出迎えたとありますが、霊統は何で御座いましょうか。<br><br>右、御教示御願い申し上げます。<br><br> 天狗は自惚れ―傲慢の罪―というより、そういう性格によってなる。<br><br>罪というんでなくそういう役も必要だった。<br><br>岩戸開きの時、天照大神を御案内した。<br><br>やはり手力男命になる。<br><br>現界においてもそういう性質をもったものが行く。<br><br> 天狗界は第三天国の下位で、中有界の（より）少し良い所である。<br><br>別の階級であって――。<br><br> 天狗で肉体を持っているのがいる。<br><br>鼻が高い。<br><br>何百年と生きている。<br><br>仙人と似ている。<br><br> 038 人間界と畜生界、（天国へ行く鳥） 人間の霊界と動物の霊界と異りますか。<br><br>異りましたらその相違をお願い致します。<br><br> 獣の世界は畜生道で地獄の世界である。<br><br>人間が堕落すれば畜生になる。<br><br>畜生界と人間界は異うが関係はある。<br><br>鳥は異う。<br><br>普通の鳥は天狗界で、孔雀、鳳凰、鶯等特殊の鳥は天国へ行く。<br><br>（S23.11.27） 039 畜生道と本来の動物霊の転生 動物の霊界は畜生道の事で御座いましょうか。<br><br>また、最初からの動物霊は絶対に人霊に転生出来ないものなので御座いましょうか。<br><br> この通りである、畜生道は畜生ばかりである。<br><br>（S24. 2.22）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mundo Búdico e o Grande Deus do Mundo Oculto</h2>
 <p>Fomos informados de que o Mundo Espiritual ainda se assemelha ao Mundo Búdico. Sendo assim, por qual motivo devemos orar ao Grande Deus do Mundo Oculto como a deidade que preside o Mundo Espiritual?</p>
@@ -185,5 +337,48 @@ function toggleLang(lang) {
 <h2>O Caminho das Bestas e a Reencarnação dos Espíritos de Animais</h2>
 <p>O Mundo Espiritual dos animais é o mesmo que o Caminho das Bestas? E os espíritos que são originalmente de animais jamais podem reencarnar como espíritos humanos?</p>
 <p>Sim, é exatamente como pergunta. O Caminho das Bestas é habitado exclusivamente por animais. (22.02.1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界篇 ２ 017-039 霊界諸界 017 仏界と幽世大神 霊界は未だ仏界のように伺っておりますが、霊界の主宰神「幽世大御神」と念ずるのはいかなる訳で御座いましょうか。<br/><br/> 仏界は霊界の一部である。<br/><br/>霊界の――仏界等、一切の主宰神が幽世大神である。<br/><br/> 宗教も幽世大神が主宰しているから、幽世大神に願えばよい。<br/><br/>（S23.11.24） rattail（注） 〔 御光話（S25年 1月） 『御光話録』17号、昭和25(1950)年2月28日発行〕 ――過日の御論文にて、もはや仏界がまったくなくなった由ですが、そうなりましても幽世大神様のお名前はそのままでよろしいのでしょうか。<br/><br/> 『これはね、「まったく」なってしまったんじゃなくて、なりつつあるんです。<br/><br/>一遍に昼の世界になるんじゃなくて、だんだんになって行くんですから、ちょうど、太陽がだんだんに高く上るようにね。<br/><br/>ですから、まあ仏界の移動が始まったというところですね。<br/><br/>移動だって一日や二日じゃできませんからね。<br/><br/>ま、「昼の部に入った」というわけです。<br/><br/> 幽世大神のお名前は無論この通りですよ。<br/><br/>幽世大神は霊界が昼になったってありますからね。<br/><br/>それから、いまま……では第三天国くらいしかなかったんですが、今度初めて最高天国ができるんです。<br/><br/>その反対に最低地獄というものもなくなってくるんです。<br/><br/>まあ、キリスト教で言う「煉獄」、仏教で言う「無間地獄」、神道の「根底の国」といったものはなくなってくるんです。<br/><br/>これを現界で言えば、例えば牢屋なんかなくなる、重い罪を作るような人がいなくなりますからね。<br/><br/>そうなると一番重い刑罰は重労働ということになるんです。<br/><br/>だから、地下へ入って石炭を掘ることや火夫（かふ）のような苦しい仕事が重刑になるんです。<br/><br/>悪いことをする人がいなくなるから重い刑罰もなくなるんです。<br/><br/>』 018 幽界と幽世大神 幽世大神様はいわゆる神幽現の幽界の主宰神で御座居ましょうか。<br/><br/>また幽界は中有界と地獄の事で御座いましょうか。<br/><br/>幽世大神様はどなた様で御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 幽界は中有、地獄両方である。<br/><br/>一切を主宰さるるが、地獄の方が濃い。<br/><br/>幽は霊界の感じを表わしてる字である。<br/><br/> 国常立尊は現界のお働きをなされ、おとなしい大国主尊が後継ぎになっている。<br/><br/>これは二級程度の神で、全然交替ではない。<br/><br/>審判さるるは国常立尊以外にない。<br/><br/>（S24. 5.12） 019 新旧幽世の違い 以前の幽世大御神と今度替られた幽世大御神の審判の違いを御伺い申し上げます。<br/><br/> 幽世大神の審判の違いは神の性格によって違う。<br/><br/>今のはいくらか和らかいと思う。<br/><br/>やり方は幾分違う点はあろうが、結局同じである。<br/><br/>結局は浄化であるから、神といえどもしようがない。<br/><br/>霊界には情実はない。<br/><br/>（S23.11.24） 020 死後審判受ける期日 帰幽して幽世大御神の審判を受けるのは死後幾日くらい経っての事で御座いましょうか。<br/><br/> 死後五十日間は家にいて、それが過ぎて八衢に行く。<br/><br/>五十日以上経てば審判さるるとみてよい。<br/><br/>（S23.11.24） 021 神の御目的、本教の霊界、宗教発祥地と宗教信者死後の帰属 既成宗教の信者は死後その霊魂は各宗発祥の地に集結さるるように御伺い致しておりましたが、観音教団の現在の状態においてはどう考えましたらよろしいので御座いましょうか。<br/><br/> 発祥の地とは決っていない。<br/><br/>日本にも出張所があって決る訳である。<br/><br/> 神様は地球全体を天国にするのが御目的である。<br/><br/> 宗教によっては発祥の地がなくなり、他へ行ってるのもある。<br/><br/>（その事行（や）った土地）例えば日蓮宗なら身延も中山も池上もある。<br/><br/> 霊界へ行って教祖が良い所へ違える事もある。<br/><br/> 宗教はそれぞれ団体があって、そこへ所属する。<br/><br/> 観音教団は大先生がおられる所である。<br/><br/>最高の霊界となっている。<br/><br/> 前は上野毛だったが、今は箱根、熱海である。<br/><br/>（S24.10.24） 022 宗祖・開祖の死後、（弟子の罪の贖い） 宗祖・開祖は八衢にあって教えを垂れているんでしょうか。<br/><br/> 宗祖・開祖は天国または極楽にいる。<br/><br/>八衢で救いをしているのは全部その弟子で、即ち神主とか僧侶、布教師、伝道師等である。<br/><br/>しかし中には右のような宗教者でも、罪のため、八衢や地獄で苦しんでいるものもある。<br/><br/>これは間違った事をしていたからで、その罪は宗祖・開祖が一部を引受ける場合もある。<br/><br/> 023 宗祖・開祖の霊界活動 宗祖・開祖は八衢にあって教えを垂れているんでしょうか。<br/><br/> 宗祖・開祖は極楽にいる。<br/><br/>八衢で救いをしているのは全部その弟子で、即ち神主とか布教師あるいは各宗の伝道師である。<br/><br/>しかし中には罪の為八衢や地獄で苦しんでいるものもある。<br/><br/>それは弟子や信者が間違った事をしているとその宗祖・開祖が引受けて苦しむのである。<br/><br/>（S23.12.14） 024 親鸞、日蓮の居所 先日御願い申し上げました村田操の狐霊を以て霊査いたしました。<br/><br/>いろいろの憑依現象を見せて戴きまして謹んで御礼申し上げます。<br/><br/>つきましてはその真偽を御垂示賜りたいと存じます。<br/><br/> 村田に憑った霊の言は間違った所はない。<br/><br/>その通りである。<br/><br/>しかしあまりそれに熱中しない方がよい。<br/><br/>熱中すると憑り易い。<br/><br/>先方で必要な時だけにする。<br/><br/> 親鸞、日蓮は第三地獄にいた。<br/><br/>（S25. 5. 8） 025 御浄霊に感謝したクリスチャンの霊界 クリスチャンが御浄霊を頂き感謝しながら死にました。<br/><br/>こんな人はどちらの霊界に参るものでしょうか。<br/><br/> ただ感謝だけではいけない。<br/><br/>観音様の霊界へは行けない。<br/><br/>入信しなかったらやはりキリスト教の方へ行く。<br/><br/> しかし霊界へ行って神様にお許し戴けば、観音様へ行く事は出来る。<br/><br/>但しその場合もすぐには行けない。<br/><br/> 026 日本人のキリスト教信徒の死後、キリスト教霊界の地位 日本人がキリスト教信徒として死後の霊の帰属について―― 霊界ではキリスト教の霊界が出来ており、そこの団体へ入る。<br/><br/>日本では割合い低い所である。<br/><br/>第三天国に相当する。<br/><br/>仏教の方が上である。<br/><br/> その人の好き好きがあり、霊によっては余り好かぬ霊と好む霊とある。<br/><br/>地獄の霊などは天国へやると苦しくて逃げる。<br/><br/>つまり相応の所へ行く。<br/><br/> キリスト教徒などはその霊界で満足する。<br/><br/>ただ祖先を祀らぬから、霊界でも祖先と一緒にならぬ。<br/><br/>独自の生活をする。<br/><br/> 大抵霊界へ行くとキリスト教をやめる。<br/><br/>今は仏界か神界が建設しつつある。<br/><br/> 027 キリスト教の祖霊は食に困るか キリスト教、特にメソジストでは毎朝の祖霊様の供物はしておりませんが、祖霊様は飢に苦しんでおりますのでございましょうか。<br/><br/> これはそうである。<br/><br/>キリスト教によっては不幸な人が多い。<br/><br/>祖霊が憑って知らせるが判らない。<br/><br/>全く気の毒である。<br/><br/> 外国の霊界は緯で、外国では、外国の霊は殆ど現界と同じようで、一つの、霊界の食物を与えるような所が出来ている。<br/><br/>そして、そこから配給されるようなもので、大きな共同生活式になっている。<br/><br/>それで日本人のキリスト教徒は不幸な人が多い。<br/><br/>それで外国は民主的――。<br/><br/>（S *.10.24） 028 冬と夜なき天国 御讃歌の中の、 『永遠に冬なき夜なき天国に魂安ませむはや来れかし』 とございます御歌の御解釈を御伺い申し上げます。<br/><br/> 天国には冬と夜がない。<br/><br/>いつも明るい。<br/><br/>暗がない。<br/><br/>冬は地獄で、天国へ行く程暖かい。<br/><br/>一番上の天国は裸である。<br/><br/>仏像などは裸で、暖かい。<br/><br/>後、薄い衣を着ている。<br/><br/> 天国的に魂を安らかにして戴きたいというお歌である。<br/><br/>（S24.11.19） 029 笑いは天国の花 笑いは天国と申しますが、霊界における笑いはいかなる状態の時に起きるものでしょうか。<br/><br/> 現界と同じ事である。<br/><br/>神様もよく笑われる。<br/><br/>去年税問題の起った時、私は国常立尊様にお伺いしたらイキナリ笑われた。<br/><br/>そこで私は、安心だと思った。<br/><br/>笑いは天国の花としてある。<br/><br/>大黒様などいつも笑っている。<br/><br/> rattail（注） 〔 はしがき（笑の泉） 『笑の泉』昭和26(1951)年1月30日発行〕 『 読者諸君よ、一読大いに笑え！ 三読羽目をはずせ！笑って笑って！ 笑い抜いて！ 天国を造るべきだ。<br/><br/>笑いは天国の花というじゃないか。<br/><br/> 』 030 賽の河原の位置 賽の河原で石を積むと言う事が御座いますが、これについて御教えを御願い申し上げます。<br/><br/> 本当の子供の地獄界では賽の河原というのがある。<br/><br/> 地獄の一番上等で、八衢の最上層部にある子供の地獄である。<br/><br/>（S24. 4.21） 031 地獄の釜 霊が地獄の釜の中に投げ込まれて蓋をされ、その後何千年もの間出る事が出来ないという事があるので御座居ましょうか。<br/><br/>またその釜の中に入れられる霊はいかなる霊で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 形容したのである。<br/><br/>本当に入れられる訳ではない。<br/><br/>地獄のひどい所は釜の中で蓋をされたような刑罰である。<br/><br/>（S24. 5.12） 032 糞壺地獄 ある信徒の妻（三十歳）、七年以前の事、お産の催しが来たので、早速産婆を呼びました。<br/><br/>産婆の言葉に従い風呂に入ってから便所に参りましたところが急に産気付き便所壺へ誤って産み落しましたが、四日目遂に死亡したとの事ですが、右は霊的にいかなる原因がありますか。<br/><br/>また死んだ赤ん坊の霊はどのようになるものでしょうか、御教示願います。<br/><br/>その妻は本教に反対で、浄霊は一度も受けておりません。<br/><br/> 勿論地獄である。<br/><br/>糞壺地獄である。<br/><br/>信仰に反対する位であるから良い事はない。<br/><br/> （S24. 9.25） 033 修羅道 修羅道とはどんな所で御座いましょうか。<br/><br/>どんな霊憑りになって出て来ましょうか。<br/><br/>右、御伺い申し上げます。<br/><br/> 瞋恚を燃やす。<br/><br/> 034 地獄・極楽 地獄・極楽を信者に説明する時はいかにしたら宜しいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> あるとかないとか言えば、あるといえばよい。<br/><br/>地獄・極楽は現世にあるというが、現世にもあるし霊界にもある。<br/><br/> 035 脱衣婆の更迭 脱衣婆は現界に当てはめて見ますとどういう事をしている者をいうので御座居ましょうか。<br/><br/> 脱衣婆はそう更（かわ）らない。<br/><br/>更迭が少い。<br/><br/>現界には相応するものがない。<br/><br/> 036 一つ目小僧と霊界と想念 昭和二十二年七月八日の夜十一時頃寝につきましたが、中々眠れず蚊帳の中で扇を使っておりました。<br/><br/>その時何物かが忍び込み蚊帳の天井から私を押えつけ、蚊帳の天井は正に私の顔につかんばかり、ぐっと腹に力を入れてよく見直しましたら四尺位の丸い真黒の顔、その真中に大きな目が光っております。<br/><br/>逃げようとして四苦八苦致し、ふと横を見ますと、同じような、高さ一尺五寸位の一つ目小僧が二、三十人並んでいます。<br/><br/>「こいつ」とばかり大目玉をねらって霊放射を致しましたらヒュッと音を立てて戸外へ逃げて行きました。<br/><br/>実際に一つ目小僧と言うものは有るもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊界には一つ目も三つ目もいろいろある。<br/><br/>魑魅魍魎、百鬼夜行などとよく言う。<br/><br/>八衢以下にはそういう所がある。<br/><br/>人間の想念によって、こういう妖怪のような形が出来る。<br/><br/>二枚舌など、本当に二枚になる。<br/><br/>人の目を晦（くら）ましたりなどすると、一つ目小僧になる。<br/><br/>多くの人から見られるような間違った事をすると三つ目になる。<br/><br/>想念（と罪）により形が違う。<br/><br/> 一人の人を大勢が怨むとその想念は妖怪のようになる。<br/><br/>悪い想念が凝って形となる。<br/><br/>英雄など皆そうである。<br/><br/>（その妖怪にやられる。<br/><br/>ヒットラーなど、多くの国民に取巻かれる）改心しなければドン底に墜つる。<br/><br/> （反対に尊敬され感謝されれば光に取巻かれ、多くの人から信頼を受ける） （大きいのは親分、小さいのは子分で、悪霊は黒い）（S24. 2.21） 037 猿田彦命と天狗界の位置 猿田彦尊は何の罪により天狗になったのでしょうか。<br/><br/>天孫降臨の時出迎えたとありますが、霊統は何で御座いましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 天狗は自惚れ―傲慢の罪―というより、そういう性格によってなる。<br/><br/>罪というんでなくそういう役も必要だった。<br/><br/>岩戸開きの時、天照大神を御案内した。<br/><br/>やはり手力男命になる。<br/><br/>現界においてもそういう性質をもったものが行く。<br/><br/> 天狗界は第三天国の下位で、中有界の（より）少し良い所である。<br/><br/>別の階級であって――。<br/><br/> 天狗で肉体を持っているのがいる。<br/><br/>鼻が高い。<br/><br/>何百年と生きている。<br/><br/>仙人と似ている。<br/><br/> 038 人間界と畜生界、（天国へ行く鳥） 人間の霊界と動物の霊界と異りますか。<br/><br/>異りましたらその相違をお願い致します。<br/><br/> 獣の世界は畜生道で地獄の世界である。<br/><br/>人間が堕落すれば畜生になる。<br/><br/>畜生界と人間界は異うが関係はある。<br/><br/>鳥は異う。<br/><br/>普通の鳥は天狗界で、孔雀、鳳凰、鶯等特殊の鳥は天国へ行く。<br/><br/>（S23.11.27） 039 畜生道と本来の動物霊の転生 動物の霊界は畜生道の事で御座いましょうか。<br/><br/>また、最初からの動物霊は絶対に人霊に転生出来ないものなので御座いましょうか。<br/><br/> この通りである、畜生道は畜生ばかりである。<br/><br/>（S24. 2.22）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

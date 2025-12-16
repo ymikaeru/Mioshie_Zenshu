@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon23</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本脳炎は果して蚊の媒介か？ 『光』30号、昭和24(1949)年10月8日発行 近来、医学においては日本脳炎の原因は蚊の媒介としているが、これは全然誤りである、それについて吾らの研究を発表してみよう。<br><br> 日本脳炎の患者が子供に多く、統計によれば六歳ないし十歳までが最も多いとされている、また、季節は晩夏から初秋にかけて最も多いという事を考慮しなければならない、ところが、医学においては、ちょうど、蚊の発生と共に最も活躍する時機であるから蚊の媒介としたのも無理はないのである、また、蚊を多数つぶして、それを二十日鼠に注射し、脳炎が発生したという研究の結果もあり、そう思い込んだのであろう。<br><br> しかし、吾らの解釈は全く異（ちが）う、二十日鼠と人間とは同一でない事はもちろん、むしろ人間と獣類とは反対の方が多いとさえ思えるのである、何となれば、神示の医学においては、日本脳炎の原因は余りにも明らかで、しかも事実は一人の例外なく短期間に全治可能であるからである、たとえ事実蚊による伝染であったとしても、ことごとく全治する以上蚊などは問題とはならない事はもちろんである、依って日本脳炎の真原因をここに説明してみよう。<br><br> そもそも、人体は何人といえども必ず先天性及び、後天性毒素を多少なりとも保有している、毒素とはもちろん毒血と膿である、ところが、人体が何らかの刺戟を受けた場合、毒素は必ずその部に集注する、これを判りやすくいえば、彼の灸点である、灸を据えるやその部が紅脹を呈し、はなはだしきは化膿さえする、また肉体を殴打または器物の衝戟〔撃〕によれば、必ずその部が紅脹を呈するのは前述のごとく毒素が集注するからである、この理を推し進めてみる時、日本脳炎の原因は容易に判るのである。<br><br> それは、子供はほとんど帽子を冠（かぶ）らず炎天下で遊ぶ、特に六歳から十歳くらいまでは右の傾向が多い、それがため頭脳が熱する、ちょうど、灸を据えると同様である、その場合人体の背部一円にある毒素が頭脳へ向かって集注運動を起す、何よりの証拠は、発病と同時に両側延髄付近は棒のごとく硬化し高熱が伴う、これはもちろん毒素が頭脳を目がけて進行し、一歩手前に一時的集溜するのである、次いで毒素は小脳に向かって侵入運動を起すや睡眠状態に陥る、しかしここに問題がある、それは医療は必ず氷冷を施すから、この氷冷の作用で毒素は固まってしまう、言い換れば、自然に治るべきものを治さないようにするのである、これは驚くべき誤謬である、何よりも、その場合本教浄霊をするや、毒素は小脳から頭脳を通過し、両眼及び鼻穴から排泄し始めるからで、もちろん重症程それが多量である、普通二、三日で出尽し、それと共に快癒する、実に簡単である、まず一週間以内で例外なく全治するのである、その結果発病以前より頭脳明晰となり、学童などは必ず成績可良となる、右は一点の誇張もなく事実ありのままの経路である。<br><br> しかるに医学においては、予後、頭脳が悪くなり、軽度の痴呆症状や、手足の障害等、種々の禍根を残すので、おそれられるのである、これは何がためかというと、前述のごとく自然に排泄されるべく、毒素が小脳を通過せんとするや、氷冷で固めてしまう、それがため固結は頭脳活動の障碍となるからである、実に現代医学の誤謬たるやいうべき言葉がないのである、この誤謬医学のためにいかに多数の人類が災いされつつあるかを思う時、吾らは晏如（あんじょ）たり得ないのである、したがってこの医学の啓蒙に努力しつつあるが、既成医学を基礎として構成された法規がある以上吾らの説は容易に受入れ難いのは無理はないが、しかし事人命に関する以上このままでは禍根は除き得ない訳で実に重大問題である。<br><br> ついでだから、脊髄脳炎も解説するがこれは日本脳炎の一歩手前といってもよく、毒素は延髄部だけに集注固結するのである、何となれば冬に起る病気でそれは頭脳を夏季のごとく炎天下に晒さないからである、しかしこの症状は延髄部が日本脳炎よりも固結はなはだしく、首の前後の運動は全然不可能となる、というのは日本脳炎のごとく毒素が小脳に移行されないからである。<br><br> 以上によってみても、日本脳炎は蚊とは何ら関係がなく、自然浄化作用である事を明らかに知るであろう。<br><br> (注) 晏如（あんじょ）やすらかで落ち着いたようす。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Encefalite Japonesa e o Equívoco da Transmissão por Mosquitos</h2>
 <p>Nos tempos recentes, a medicina tem atribuído a causa da encefalite japonesa à transmissão por mosquitos. Todavia, tal premissa é um completo equívoco. A este respeito, apresentaremos os resultados de nossa investigação.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>No âmbito da medicina, contudo, o prognóstico é temido, pois frequentemente deixa sequelas, como o declínio das funções cerebrais, sintomas de demência branda e deficiências motoras nos membros. Qual a razão para isso? Conforme explicado, no momento em que as toxinas, destinadas a serem naturalmente expelidas, tentam atravessar o cerebelo, elas são solidificadas pelas compressas de gelo. Essa solidificação se torna, portanto, um obstáculo à atividade cerebral. O equívoco da medicina moderna é, de fato, indescritível. Ao refletirmos sobre o imenso número de pessoas que vêm sendo vitimadas por essa medicina falha, não nos é possível permanecer impassíveis. Consequentemente, empenhamo-nos em promover o esclarecimento sobre esta matéria. Contudo, em virtude das regulamentações legais estruturadas com base na medicina estabelecida, é natural que nossas teses encontrem resistência. Todavia, por se tratar de uma questão que envolve vidas humanas, não podemos simplesmente ignorá-la, pois as nefastas consequências persistirão. Trata-se, em verdade, de um problema da mais alta gravidade.</p>
 <p>Aproveitando a oportunidade, discorrerei também sobre a encefalite espinhal. Pode-se dizer que ela representa um estágio anterior à encefalite japonesa. Nela, as toxinas se concentram e solidificam apenas na região do bulbo raquidiano. A razão para isso é que se trata de uma enfermidade que ocorre no inverno, estação em que o cérebro não fica exposto ao sol escaldante como no verão. Contudo, nesse quadro, a solidificação na região do bulbo é ainda mais severa que na encefalite japonesa, tornando totalmente impossível o movimento do pescoço para frente e para trás. Isso ocorre precisamente porque as toxinas não prosseguem em seu trajeto rumo ao cerebelo.</p>
 <p>Pelo exposto, torna-se evidente que a encefalite japonesa não possui qualquer relação com os mosquitos, sendo, na verdade, uma manifestação do processo de purificação natural do organismo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本脳炎は果して蚊の媒介か？ 『光』30号、昭和24(1949)年10月8日発行 近来、医学においては日本脳炎の原因は蚊の媒介としているが、これは全然誤りである、それについて吾らの研究を発表してみよう。<br/><br/> 日本脳炎の患者が子供に多く、統計によれば六歳ないし十歳までが最も多いとされている、また、季節は晩夏から初秋にかけて最も多いという事を考慮しなければならない、ところが、医学においては、ちょうど、蚊の発生と共に最も活躍する時機であるから蚊の媒介としたのも無理はないのである、また、蚊を多数つぶして、それを二十日鼠に注射し、脳炎が発生したという研究の結果もあり、そう思い込んだのであろう。<br/><br/> しかし、吾らの解釈は全く異（ちが）う、二十日鼠と人間とは同一でない事はもちろん、むしろ人間と獣類とは反対の方が多いとさえ思えるのである、何となれば、神示の医学においては、日本脳炎の原因は余りにも明らかで、しかも事実は一人の例外なく短期間に全治可能であるからである、たとえ事実蚊による伝染であったとしても、ことごとく全治する以上蚊などは問題とはならない事はもちろんである、依って日本脳炎の真原因をここに説明してみよう。<br/><br/> そもそも、人体は何人といえども必ず先天性及び、後天性毒素を多少なりとも保有している、毒素とはもちろん毒血と膿である、ところが、人体が何らかの刺戟を受けた場合、毒素は必ずその部に集注する、これを判りやすくいえば、彼の灸点である、灸を据えるやその部が紅脹を呈し、はなはだしきは化膿さえする、また肉体を殴打または器物の衝戟〔撃〕によれば、必ずその部が紅脹を呈するのは前述のごとく毒素が集注するからである、この理を推し進めてみる時、日本脳炎の原因は容易に判るのである。<br/><br/> それは、子供はほとんど帽子を冠（かぶ）らず炎天下で遊ぶ、特に六歳から十歳くらいまでは右の傾向が多い、それがため頭脳が熱する、ちょうど、灸を据えると同様である、その場合人体の背部一円にある毒素が頭脳へ向かって集注運動を起す、何よりの証拠は、発病と同時に両側延髄付近は棒のごとく硬化し高熱が伴う、これはもちろん毒素が頭脳を目がけて進行し、一歩手前に一時的集溜するのである、次いで毒素は小脳に向かって侵入運動を起すや睡眠状態に陥る、しかしここに問題がある、それは医療は必ず氷冷を施すから、この氷冷の作用で毒素は固まってしまう、言い換れば、自然に治るべきものを治さないようにするのである、これは驚くべき誤謬である、何よりも、その場合本教浄霊をするや、毒素は小脳から頭脳を通過し、両眼及び鼻穴から排泄し始めるからで、もちろん重症程それが多量である、普通二、三日で出尽し、それと共に快癒する、実に簡単である、まず一週間以内で例外なく全治するのである、その結果発病以前より頭脳明晰となり、学童などは必ず成績可良となる、右は一点の誇張もなく事実ありのままの経路である。<br/><br/> しかるに医学においては、予後、頭脳が悪くなり、軽度の痴呆症状や、手足の障害等、種々の禍根を残すので、おそれられるのである、これは何がためかというと、前述のごとく自然に排泄されるべく、毒素が小脳を通過せんとするや、氷冷で固めてしまう、それがため固結は頭脳活動の障碍となるからである、実に現代医学の誤謬たるやいうべき言葉がないのである、この誤謬医学のためにいかに多数の人類が災いされつつあるかを思う時、吾らは晏如（あんじょ）たり得ないのである、したがってこの医学の啓蒙に努力しつつあるが、既成医学を基礎として構成された法規がある以上吾らの説は容易に受入れ難いのは無理はないが、しかし事人命に関する以上このままでは禍根は除き得ない訳で実に重大問題である。<br/><br/> ついでだから、脊髄脳炎も解説するがこれは日本脳炎の一歩手前といってもよく、毒素は延髄部だけに集注固結するのである、何となれば冬に起る病気でそれは頭脳を夏季のごとく炎天下に晒さないからである、しかしこの症状は延髄部が日本脳炎よりも固結はなはだしく、首の前後の運動は全然不可能となる、というのは日本脳炎のごとく毒素が小脳に移行されないからである。<br/><br/> 以上によってみても、日本脳炎は蚊とは何ら関係がなく、自然浄化作用である事を明らかに知るであろう。<br/><br/> (注) 晏如（あんじょ）やすらかで落ち着いたようす。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

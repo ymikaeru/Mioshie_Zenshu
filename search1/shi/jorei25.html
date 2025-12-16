@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei25</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊は科学療法なり（１） 『栄光』243号、昭和29(1954)年1月13日発行 これは以前からよく信者が新しい患者を扱う場合、浄霊の原理を訊（き）かれるので、簡単に分りやすく説明をしたいという希望を聞くので、私はここにかいてみたのである。<br><br>というのは散々医療を受けても治らない病気が、浄霊を受けるやアッ気ない程速かに治るので、驚くと共にその理由を知りたいと思うのは無理もない話である。<br><br>もっとも浄霊をする方にしても、一度はそういう経験が必ずあるであろうが、今までのところ時期尚早の関係もあって、私は余り徹底的には説かなかったから、ここに詳しくかくのである。<br><br>ところで昔から病気は医者と薬で治すものと相場が決っているばかりか、今日の人間は何事も科学ならでは信じられないという科学至上主義になり切っている以上、解するに苦しみ、訊きたいのも当然であろう。<br><br>それについて最も肝腎な事は医学と科学との関係であって、これをまず知る事である。<br><br>なるほど他のあらゆるものは科学で解決出来るのは言うまでもないが、独（ひと）り医学に限ってそうはゆかないどころかむしろ見当違いもはなはだしいのである。<br><br>というのは人間と人間以外の一切とは根本的に相違している事である。<br><br>それを詳しくかいてみよう。<br><br> そもそも人間なるものは万物中最高級なる生物であって、実に神秘霊妙到底人智では計り得ないものがある。<br><br>ところが科学はそのような深い点は全然未知なるがため、人間を以って単なる一個の動物とみなし、物質である肉体のみを対象として来たのであるから、病気をもって肉体の毀損（きそん）と解し、薬剤や機械等の物質をもって修理しようとするはなはだ単純な考え方であった。<br><br>しかし事実はそんな簡単なものではない。<br><br>人間は肉体以外生命力というむしろ肉体以上重要な霊的個体なるものが存在しており、それが体との密接不離な関係にあって、人間は生きて活動出来るのである。<br><br>しかし霊は無に等しいものであるため、唯物科学では発見されなかったのである。<br><br>という訳で科学は肉体のみの研究に耽（ふけ）っていたのは、彼（か）の死体の解剖などを見てもよく分る。<br><br>従って何程進歩したといっても、両者の一方だけであるから跛行（はこう）的進歩でしかない以上、いかに努力したとて結局徒労以外の何物でもないと言えよう。<br><br> 以上のごとく人間は霊と体との両面から成立っており、霊が主で体が従となっているのであって、これが万有の法則である。<br><br>そうして病気なるものは体にある保有毒素が霊に移写して曇りとなる、それへ自然浄化作用が発生して曇りが解消すると共に、それがまた体に写って毒素は溶解し排除されるので、その苦痛を言うのであって、つまり前者は霊体一致の緯（よこ）の作用であり、後者は霊主体従の経（たて）の作用であるのであって、この理を充分知る事が肝腎である。<br><br>では一体曇りの本質は何かというと、これこそ無色透明である霊に不透明な部分が発生するそれをいうのであって、これが真の病原であるから、これを払拭（ふっしょく）すれば病気は治るに決っている。<br><br>この方法が浄霊であるから、浄霊とは読んで字のごとく霊の曇りを浄める手段で、これが真の医術である。<br><br>従ってこれ以外の療法はことごとく非医術である事を知るべきである。<br><br>以上が病原と治療との根本原理であって、一言にしていえば病気とは外部に現われた症状であり、病原は内部にある曇りである以上、この解消こそ真の治病法である。<br><br>ところがその理を知らないがため医学は現われた症状さえ除けばいいとしているので、たとえ効果があってもそれは一時的で、必ず再発するのは医師も常に経験しているはずである。<br><br> では一層突進んで浄霊の根本原理を科学的に説明してみよう。<br><br>それには便宜上（べんぎじょう）科学の方程式に則（のっと）り、理論科学と実験科学との両面から検討してみるが、今のところこれが最も正しい方法であるからである。<br><br>そこで霊の曇りとは何であるかというと、これこそ薬剤の毒化したものであって、その本質は不純水素である。<br><br>不純水素とは水素中に毒粒子が混入されたもので、この毒粒子を潰滅すれば純水素となり、病原は根絶される訳だが、これには非常な高熱を要する。<br><br>それによってこの毒粒子を焼尽（しょうじん）出来るからである。<br><br>しかしこの高熱は地球上未（いま）だ嘗（かつ）て存在しなかったところのＸであるが、幸いなるかなこの説明に最も好都合な一事が発見された。<br><br>それが彼の原子爆弾であって、人も知るごとく原爆の高熱も今まで全然なかったもので、二十世紀の今日初めて発見されたもので、この点よく共通しており、偶然の一致というよりももちろん神意の表現である。<br><br>ただ異（ちが）うところは原爆の熱は体の熱で、浄霊のそれは霊の熱であるから、その強力さは比較にならない程のものである。<br><br>すなわち体熱の方は限度があるが、霊熱の方は限度がない程の高度であって、もちろん科学では発見出来なかったのである。<br><br>もっとも発見出来ても人為的には作り得ないから、この点から言っても原爆とは比べものにならない程の性能である。<br><br>しかし科学が現在より数層倍進歩した暁、あるいは発見出来るかも知れないが、それは今のところ未知である。<br><br>ではこの本質は何かというと、これこそ太陽の精であって光と熱の霊である。<br><br>私はこれを名付けて火素（かそ）といっているが、この火素が不純水素に向って放射されるや、水素中の毒粒子のみ一瞬にして焼尽される。<br><br>つまり病原を焼いてしまうのである。<br><br>というのは体的不純物と異い、霊的の方は霊熱でなくては焼けないからである。<br><br>その方法としてこれも私は一紙片に「光」の文字を書き、それを希望者に頒（わか）ち与える。<br><br>するとこれを御守として懐中へ入れるや、太陽から不断に放射されている火素が、私を通じて御守に伝流され、その人の掌から放射される。<br><br>ちょうど太陽が放送局とすれば私は中継所であり、術者は受信機と見ればいい。<br><br>それによって毒粒子は全滅し純水素となって漿液（しょうえき）中に吸収され、かくして病気は全治するのである。<br><br>これを一層分りやすくいえば、例えば痛む個所に向って手を翳（かざ）すやたちまち痛みは去る。<br><br>それは患部の曇りが間髪（かんぱつ）を容れず解消し、体に映るからであって、しかも毒粒子は結核菌でも伝染病菌でもあらゆる菌の発生原であるから、それが全滅するとしたら、これこそ万病治癒の理想的医術である。<br><br>以上で大体判ったであろうが、これを大雑把（おおざっぱ）に言えば、医療は溶けかかった毒素を固める方法であり、浄霊はより溶解し排除させる方法であるから、前者は病気保存法であり、後者は病気解消法である。<br><br>としたら公平に見ても、治る方が科学であり治らない方が非科学であるから、私は医学は非科学であるというのである。<br><br>その例として医学の説明をみればよく分る。<br><br>なるほど徴に入り細に亘（わた）ってはいるが、ことごとく枝葉末節的で、根本には触れていない以上、実際に合わないのは医師も認めているはずであろう。<br><br>ちょうど枯死せんとする樹木は、原因が根にあるのを知らず、枝や葉を研究するようなものである。<br><br> これで病理と医学の大体は理解されたと思うが、要するに現代医学は根本が不明であるため合理性がない低科学である。<br><br>これに反し浄霊医術は合理的高度の科学であり、未来の科学である。<br><br>その証拠として低科学の頭脳をもって浄霊の驚異的効果を見る時、奇蹟として驚歎するが、実は奇蹟でも何でもない。<br><br>治るべき理由があって治るのであるから当然である。<br><br>これについて何人も知りたいであろう事は、一体太陽の精などという素晴しい力が、なぜ私という人間を通じて万人の病を治すのかという事で、全く世紀の謎である。<br><br>しかしこれを説くに当っては深奥なる神秘を露呈しなければならないから、次に譲る事とする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza Científica do Johrei</h2>
 <p>Atendendo a um pedido recorrente de nossos fiéis, que, ao lidarem com novos enfermos, sentem a necessidade de expor os princípios do Johrei de maneira clara e acessível, decidi, pois, abordar o tema. Com efeito, é perfeitamente compreensível que as pessoas fiquem estupefatas e anseiem por uma explicação. Afinal, doenças que resistiram a inúmeros tratamentos médicos rendem-se ao Johrei com uma rapidez desconcertante. Mesmo aqueles que ministram o Johrei certamente já vivenciaram essa surpresa em algum momento. Até o presente, por considerar a época ainda prematura, abstive-me de aprofundar o assunto de forma exaustiva. Chegou, contudo, o momento de fazê-lo em detalhes.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>De maneira geral, podemos resumir da seguinte forma: a medicina é um método que solidifica as toxinas em processo de dissolução, enquanto o Johrei é um método que acelera sua dissolução e expulsão. Portanto, a primeira é um método de conservação da doença; a segunda, um método de sua erradicação. Sob uma análise imparcial, a terapia que cura é científica, e a que não cura, anticientífica. É por isso que afirmo que a medicina é anticientífica. Suas explicações, embora minuciosas e detalhadas, são sempre periféricas e jamais tocam na causa fundamental da doença. Como os próprios médicos devem reconhecer, suas teorias não correspondem à realidade. É como estudar os galhos e as folhas de uma árvore que agoniza, ignorando que a causa do problema reside em suas raízes.</p>
 <p>Creio que, com esta explanação, os princípios da patologia e da medicina tenham sido compreendidos. Em suma, a medicina moderna é uma ciência de baixo nível, desprovida de racionalidade, por desconhecer a causa primordial das doenças. O Johrei, em contrapartida, é uma ciência de nível superior e altamente racional: a ciência do futuro. A prova disso é que, quando mentes habituadas à ciência inferior testemunham os efeitos assombrosos do Johrei, exclamam, maravilhadas, que se trata de um milagre. Na verdade, não há milagre algum. A cura ocorre porque existem razões para que ela ocorra, sendo, portanto, uma consequência natural e lógica.</p>
 <p>A grande incógnita, que certamente todos desejam desvendar, permanece: por que um poder tão sublime como a essência do Sol se manifesta por meu intermédio, um ser humano, para curar as doenças de toda a humanidade? Eis o grande enigma de nosso século. Contudo, desvendar tal questão exige a exposição de um mistério ainda mais profundo, o que deixarei para uma próxima oportunidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊は科学療法なり（１） 『栄光』243号、昭和29(1954)年1月13日発行 これは以前からよく信者が新しい患者を扱う場合、浄霊の原理を訊（き）かれるので、簡単に分りやすく説明をしたいという希望を聞くので、私はここにかいてみたのである。<br/><br/>というのは散々医療を受けても治らない病気が、浄霊を受けるやアッ気ない程速かに治るので、驚くと共にその理由を知りたいと思うのは無理もない話である。<br/><br/>もっとも浄霊をする方にしても、一度はそういう経験が必ずあるであろうが、今までのところ時期尚早の関係もあって、私は余り徹底的には説かなかったから、ここに詳しくかくのである。<br/><br/>ところで昔から病気は医者と薬で治すものと相場が決っているばかりか、今日の人間は何事も科学ならでは信じられないという科学至上主義になり切っている以上、解するに苦しみ、訊きたいのも当然であろう。<br/><br/>それについて最も肝腎な事は医学と科学との関係であって、これをまず知る事である。<br/><br/>なるほど他のあらゆるものは科学で解決出来るのは言うまでもないが、独（ひと）り医学に限ってそうはゆかないどころかむしろ見当違いもはなはだしいのである。<br/><br/>というのは人間と人間以外の一切とは根本的に相違している事である。<br/><br/>それを詳しくかいてみよう。<br/><br/> そもそも人間なるものは万物中最高級なる生物であって、実に神秘霊妙到底人智では計り得ないものがある。<br/><br/>ところが科学はそのような深い点は全然未知なるがため、人間を以って単なる一個の動物とみなし、物質である肉体のみを対象として来たのであるから、病気をもって肉体の毀損（きそん）と解し、薬剤や機械等の物質をもって修理しようとするはなはだ単純な考え方であった。<br/><br/>しかし事実はそんな簡単なものではない。<br/><br/>人間は肉体以外生命力というむしろ肉体以上重要な霊的個体なるものが存在しており、それが体との密接不離な関係にあって、人間は生きて活動出来るのである。<br/><br/>しかし霊は無に等しいものであるため、唯物科学では発見されなかったのである。<br/><br/>という訳で科学は肉体のみの研究に耽（ふけ）っていたのは、彼（か）の死体の解剖などを見てもよく分る。<br/><br/>従って何程進歩したといっても、両者の一方だけであるから跛行（はこう）的進歩でしかない以上、いかに努力したとて結局徒労以外の何物でもないと言えよう。<br/><br/> 以上のごとく人間は霊と体との両面から成立っており、霊が主で体が従となっているのであって、これが万有の法則である。<br/><br/>そうして病気なるものは体にある保有毒素が霊に移写して曇りとなる、それへ自然浄化作用が発生して曇りが解消すると共に、それがまた体に写って毒素は溶解し排除されるので、その苦痛を言うのであって、つまり前者は霊体一致の緯（よこ）の作用であり、後者は霊主体従の経（たて）の作用であるのであって、この理を充分知る事が肝腎である。<br/><br/>では一体曇りの本質は何かというと、これこそ無色透明である霊に不透明な部分が発生するそれをいうのであって、これが真の病原であるから、これを払拭（ふっしょく）すれば病気は治るに決っている。<br/><br/>この方法が浄霊であるから、浄霊とは読んで字のごとく霊の曇りを浄める手段で、これが真の医術である。<br/><br/>従ってこれ以外の療法はことごとく非医術である事を知るべきである。<br/><br/>以上が病原と治療との根本原理であって、一言にしていえば病気とは外部に現われた症状であり、病原は内部にある曇りである以上、この解消こそ真の治病法である。<br/><br/>ところがその理を知らないがため医学は現われた症状さえ除けばいいとしているので、たとえ効果があってもそれは一時的で、必ず再発するのは医師も常に経験しているはずである。<br/><br/> では一層突進んで浄霊の根本原理を科学的に説明してみよう。<br/><br/>それには便宜上（べんぎじょう）科学の方程式に則（のっと）り、理論科学と実験科学との両面から検討してみるが、今のところこれが最も正しい方法であるからである。<br/><br/>そこで霊の曇りとは何であるかというと、これこそ薬剤の毒化したものであって、その本質は不純水素である。<br/><br/>不純水素とは水素中に毒粒子が混入されたもので、この毒粒子を潰滅すれば純水素となり、病原は根絶される訳だが、これには非常な高熱を要する。<br/><br/>それによってこの毒粒子を焼尽（しょうじん）出来るからである。<br/><br/>しかしこの高熱は地球上未（いま）だ嘗（かつ）て存在しなかったところのＸであるが、幸いなるかなこの説明に最も好都合な一事が発見された。<br/><br/>それが彼の原子爆弾であって、人も知るごとく原爆の高熱も今まで全然なかったもので、二十世紀の今日初めて発見されたもので、この点よく共通しており、偶然の一致というよりももちろん神意の表現である。<br/><br/>ただ異（ちが）うところは原爆の熱は体の熱で、浄霊のそれは霊の熱であるから、その強力さは比較にならない程のものである。<br/><br/>すなわち体熱の方は限度があるが、霊熱の方は限度がない程の高度であって、もちろん科学では発見出来なかったのである。<br/><br/>もっとも発見出来ても人為的には作り得ないから、この点から言っても原爆とは比べものにならない程の性能である。<br/><br/>しかし科学が現在より数層倍進歩した暁、あるいは発見出来るかも知れないが、それは今のところ未知である。<br/><br/>ではこの本質は何かというと、これこそ太陽の精であって光と熱の霊である。<br/><br/>私はこれを名付けて火素（かそ）といっているが、この火素が不純水素に向って放射されるや、水素中の毒粒子のみ一瞬にして焼尽される。<br/><br/>つまり病原を焼いてしまうのである。<br/><br/>というのは体的不純物と異い、霊的の方は霊熱でなくては焼けないからである。<br/><br/>その方法としてこれも私は一紙片に「光」の文字を書き、それを希望者に頒（わか）ち与える。<br/><br/>するとこれを御守として懐中へ入れるや、太陽から不断に放射されている火素が、私を通じて御守に伝流され、その人の掌から放射される。<br/><br/>ちょうど太陽が放送局とすれば私は中継所であり、術者は受信機と見ればいい。<br/><br/>それによって毒粒子は全滅し純水素となって漿液（しょうえき）中に吸収され、かくして病気は全治するのである。<br/><br/>これを一層分りやすくいえば、例えば痛む個所に向って手を翳（かざ）すやたちまち痛みは去る。<br/><br/>それは患部の曇りが間髪（かんぱつ）を容れず解消し、体に映るからであって、しかも毒粒子は結核菌でも伝染病菌でもあらゆる菌の発生原であるから、それが全滅するとしたら、これこそ万病治癒の理想的医術である。<br/><br/>以上で大体判ったであろうが、これを大雑把（おおざっぱ）に言えば、医療は溶けかかった毒素を固める方法であり、浄霊はより溶解し排除させる方法であるから、前者は病気保存法であり、後者は病気解消法である。<br/><br/>としたら公平に見ても、治る方が科学であり治らない方が非科学であるから、私は医学は非科学であるというのである。<br/><br/>その例として医学の説明をみればよく分る。<br/><br/>なるほど徴に入り細に亘（わた）ってはいるが、ことごとく枝葉末節的で、根本には触れていない以上、実際に合わないのは医師も認めているはずであろう。<br/><br/>ちょうど枯死せんとする樹木は、原因が根にあるのを知らず、枝や葉を研究するようなものである。<br/><br/> これで病理と医学の大体は理解されたと思うが、要するに現代医学は根本が不明であるため合理性がない低科学である。<br/><br/>これに反し浄霊医術は合理的高度の科学であり、未来の科学である。<br/><br/>その証拠として低科学の頭脳をもって浄霊の驚異的効果を見る時、奇蹟として驚歎するが、実は奇蹟でも何でもない。<br/><br/>治るべき理由があって治るのであるから当然である。<br/><br/>これについて何人も知りたいであろう事は、一体太陽の精などという素晴しい力が、なぜ私という人間を通じて万人の病を治すのかという事で、全く世紀の謎である。<br/><br/>しかしこれを説くに当っては深奥なる神秘を露呈しなければならないから、次に譲る事とする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

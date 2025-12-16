@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinzo09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓病及高血圧 ・病患と医学の誤謬六 『明日の医術 第二編』昭和18(1943)年10月5日発行 心臓病は、医学上大体狭心症、弁膜症、肥大症等に別けられている。<br><br>狭心症は、発作的に突如として、胸部一面激烈な痛みと圧縮感、呼吸切迫等、その苦痛は名状すべからざる程で、まことに恐るべき病気である。<br><br>重症は一回の狭心症によって生命を落す事さえあるが、大抵は一旦快復するものである。<br><br>この原因は、心臓の周囲に滞溜する毒素が第一浄化作用によって心臓の周囲から心臓に向って求心的に強圧するのである。<br><br>これは自然治癒では困難であるし、医療は注射によって一時的小康を得させるだけであるが、本療法によれば容易に根治するのである。<br><br> 又弁膜症は、重症は狭心症と同一の原因であるが、ただ狭心症よりも、第一浄化作用が緩慢であるから、激烈な苦痛はないので、心悸亢進（こうしん）、脈拍不正〔整〕、軽度の呼吸逼迫（ひっぱく）等が重なる症状である。<br><br>又軽症は心臓付近の前後の肋骨部又は横隔膜辺に溜結せる毒素が、浄化作用による微熱の為に心臓を亢奮（こうふん）させるのである。<br><br> 又、心臓肥大症は、これはまれにはあるが、大多数は医家の誤診である。<br><br>それは心臓付近に溜結せる毒素の塊を心臓肥大と診誤（みあやま）るのであろう。<br><br>ただ大酒家やスポーツマンにのみ真の肥大症がある訳で、普通人にはほとんど無いといってもよいのである。<br><br>そうして右の毒素凝結は、自然浄化により多くは喀痰となって排泄治癒するものである。<br><br> 次に近来、高血圧の症状が、壮年以後に多いのであって、しかも高血圧者は脳溢血が起り易いとされているが、これは医学でいう程ではないので、高血圧者必ずしも起るとは限らないが、統計上、低血圧者よりも多いことは事実である。<br><br> そうして、脳溢血の原因は、さきに説いたごとく左右両頸部（耳下腺付近）及び左右延髄付近の毒素溜結にあるが、実は高血圧の原因は、右四個所以外にあるのである。<br><br>即ち両頸部よりやや前方即ち扁桃腺の直下の位置に毒素溜結し、それが動脈を圧迫するので、この動脈は腕に連絡している関係上、血圧計に高く表われるのである。<br><br> 右の証左として頗る好適例を書いてみよう。<br><br>先年六拾歳位の男子で、血圧三百という人が私の所へ来た。<br><br>そうして本人いわく「私の血圧は三百以上あるかも知れない。<br><br>何となれば、血圧計の最高が三百であるから、いつ計ってもすぐ三百に達するのでそう思われる」との事である。<br><br>そうしてその人は、右のごとき高血圧であるに拘わらず高血圧発見以来今日まで五、六年の間、毎日会社へ勤めているが、何の異状もないというのである。<br><br>これは全く、脳溢血と高血圧の根原の位置の異う事を、如実に物語っているのである。<br><br>ちなみにこの人は筆耕書きを三拾年もやって居り、右の動脈が非常に太くなっている為で全く凝りが原因である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Cardiopatias e a Hipertensão Arterial</h2>
 <p>No campo da medicina, as cardiopatias são geralmente classificadas em angina de peito, valvulopatia e hipertrofia cardíaca. A angina de peito manifesta-se em crises súbitas, caracterizadas por uma dor lancinante e uma sensação de compressão em toda a região torácica, acompanhadas de intensa dificuldade respiratória. O sofrimento é de tal monta que se torna indescritível, configurando-a, verdadeiramente, como uma enfermidade temível. Nos casos mais graves, um único ataque pode ser fatal; contudo, na maioria das vezes, o paciente se recupera. A causa reside nas toxinas acumuladas ao redor do coração, as quais, em decorrência da primeira ação purificadora, exercem uma forte pressão centrípeta, ou seja, de fora para dentro, sobre o órgão. A cura espontânea é árdua e os tratamentos médicos, por meio de injeções, proporcionam apenas um alívio temporário. Todavia, através do nosso método terapêutico, a erradicação completa do mal é facilmente alcançada.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Passemos agora à hipertensão arterial, uma condição que tem se tornado frequente em pessoas de meia-idade e idosos. A medicina postula que indivíduos hipertensos são mais suscetíveis à hemorragia cerebral. Contudo, essa correlação não é tão direta quanto se afirma. Embora nem todo hipertenso venha a sofrer tal complicação, as estatísticas de fato demonstram uma incidência maior nesse grupo quando comparado ao de pessoas com pressão baixa.</p>
 <p>Conforme expliquei anteriormente, a causa da hemorragia cerebral reside no acúmulo de toxinas em ambos os lados do pescoço, na região das glândulas parótidas, e nas proximidades do bulbo raquidiano. A origem da hipertensão, entretanto, encontra-se em um local distinto desses quatro pontos. Ela se deve a toxinas solidificadas em uma área ligeiramente à frente do pescoço, precisamente abaixo das amígdalas. Essa solidificação comprime a artéria que se conecta ao braço, o que, por conseguinte, resulta em uma leitura elevada no esfigmomanômetro.</p>
 <p>Para corroborar o que afirmo, permitam-me relatar um caso exemplar. Há alguns anos, procurou-me um senhor de aproximadamente sessenta anos cuja pressão arterial media trezentos. Ele me relatou: "Minha pressão talvez seja superior a trezentos, pois essa é a marcação máxima do aparelho, e sempre que a meço, o indicador atinge esse limite imediatamente". O mais notável é que, apesar de conviver com essa pressão arterial extrema por cinco ou seis anos desde o seu diagnóstico, ele continuava a trabalhar diariamente em sua empresa, sem apresentar qualquer sintoma ou anormalidade. Este fato ilustra de maneira eloquente que as causas fundamentais da hemorragia cerebral e da hipertensão arterial se localizam em pontos distintos do corpo. A título de complemento, devo mencionar que aquele senhor exerceu a profissão de calígrafo por trinta anos, o que levou a um espessamento considerável da referida artéria, sendo a causa de todo o problema, em essência, a solidificação de toxinas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓病及高血圧 ・病患と医学の誤謬六 『明日の医術 第二編』昭和18(1943)年10月5日発行 心臓病は、医学上大体狭心症、弁膜症、肥大症等に別けられている。<br/><br/>狭心症は、発作的に突如として、胸部一面激烈な痛みと圧縮感、呼吸切迫等、その苦痛は名状すべからざる程で、まことに恐るべき病気である。<br/><br/>重症は一回の狭心症によって生命を落す事さえあるが、大抵は一旦快復するものである。<br/><br/>この原因は、心臓の周囲に滞溜する毒素が第一浄化作用によって心臓の周囲から心臓に向って求心的に強圧するのである。<br/><br/>これは自然治癒では困難であるし、医療は注射によって一時的小康を得させるだけであるが、本療法によれば容易に根治するのである。<br/><br/> 又弁膜症は、重症は狭心症と同一の原因であるが、ただ狭心症よりも、第一浄化作用が緩慢であるから、激烈な苦痛はないので、心悸亢進（こうしん）、脈拍不正〔整〕、軽度の呼吸逼迫（ひっぱく）等が重なる症状である。<br/><br/>又軽症は心臓付近の前後の肋骨部又は横隔膜辺に溜結せる毒素が、浄化作用による微熱の為に心臓を亢奮（こうふん）させるのである。<br/><br/> 又、心臓肥大症は、これはまれにはあるが、大多数は医家の誤診である。<br/><br/>それは心臓付近に溜結せる毒素の塊を心臓肥大と診誤（みあやま）るのであろう。<br/><br/>ただ大酒家やスポーツマンにのみ真の肥大症がある訳で、普通人にはほとんど無いといってもよいのである。<br/><br/>そうして右の毒素凝結は、自然浄化により多くは喀痰となって排泄治癒するものである。<br/><br/> 次に近来、高血圧の症状が、壮年以後に多いのであって、しかも高血圧者は脳溢血が起り易いとされているが、これは医学でいう程ではないので、高血圧者必ずしも起るとは限らないが、統計上、低血圧者よりも多いことは事実である。<br/><br/> そうして、脳溢血の原因は、さきに説いたごとく左右両頸部（耳下腺付近）及び左右延髄付近の毒素溜結にあるが、実は高血圧の原因は、右四個所以外にあるのである。<br/><br/>即ち両頸部よりやや前方即ち扁桃腺の直下の位置に毒素溜結し、それが動脈を圧迫するので、この動脈は腕に連絡している関係上、血圧計に高く表われるのである。<br/><br/> 右の証左として頗る好適例を書いてみよう。<br/><br/>先年六拾歳位の男子で、血圧三百という人が私の所へ来た。<br/><br/>そうして本人いわく「私の血圧は三百以上あるかも知れない。<br/><br/>何となれば、血圧計の最高が三百であるから、いつ計ってもすぐ三百に達するのでそう思われる」との事である。<br/><br/>そうしてその人は、右のごとき高血圧であるに拘わらず高血圧発見以来今日まで五、六年の間、毎日会社へ勤めているが、何の異状もないというのである。<br/><br/>これは全く、脳溢血と高血圧の根原の位置の異う事を、如実に物語っているのである。<br/><br/>ちなみにこの人は筆耕書きを三拾年もやって居り、右の動脈が非常に太くなっている為で全く凝りが原因である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

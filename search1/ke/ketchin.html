@@ -1,119 +1,268 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>ketchin</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>ketchin</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 血沈 『結核の正体』昭和18(1943)年11月23日発行 血沈とはもちろん血液の沈降速度の速いか遅いかを知る方法であって、沈降速度の速い程濁血であり、その重量によるためである。<br><br>医学においては速度十ミリ以上を濁血となし、十ミリ以下を浄血としているが、ただこれだけならば私のいう濁血者浄血者を機械的に測定する一の方法として異議はないのであるが、ここに見逃す事の出来ない事は、濁血者は結核容疑者となし、勤労までも停止させる事で、ここに問題の発生があるのである。<br><br> 濁血保有者を結核容疑者とみる事はいかなる訳であろうか、私の推測によればさきに述べたごとく感冒や微熱の原因が、濁血のための毒素溜結に対する第二浄化作用であるから、それが結核に罹りやすいとの推定のためであろうと想うのである。<br><br>もちろん濁血保持者は感冒的症状が発生しやすいのは事実であるが、それだけで結核または結核容疑者と断定する事は余りに早計である。<br><br>ちょうど焚火を見て火事を予想しポンプを引出すのと同様の慌（あわ）て方である。<br><br> そうして浄血者を濁血者たらしめる最も有力なる原因としては、近来しきりに応用する彼の予防注射の一事である。<br><br>さきにも述べたごとく注射液等の異物または毒物を血液に注入するにおいては、それが濁血の原因となるのであるから、注射なるものは濁血者を作る方法でしかないという事になろう。<br><br> しかしながら、専門家はいうであろう。<br><br>注射によって伝染病を予防するのであると、しかし、私は言うのである。<br><br>伝染病とは猛烈なる浄化作用で、これある事によって人体血液中の汚濁を急激に消滅するのであるから、もちろん天与の生理作用である。<br><br>ゆえに体力旺盛なる民族に伝染病が多く、白人のごとき体力低下せる民族程伝染病が僅少であるのは何よりの実証である。<br><br>従って、注射によって濁血者となる以上、浄化力微弱となり、一時的伝染病を免れる事が出来得るが、その後に到って体力の低下、結核発生の素因（そいん）となる事はもちろんである。<br><br>この理によって伝染病を真に解決せんとするには別に方法があるが、それは結核以外にわたるから割愛する。<br><br>その事は拙著「明日の医術」中に詳細掲載されている。<br><br> ただ、ここに一言すべき事がある。<br><br>それはいかに猛烈なる伝染病といえども、その被害は一時的であり、一区域だけで済むという事である。<br><br>従って、国家全体の盛衰に関わるような事はないが、それに反し、伝染病を防止し得て、その国家は理想のごとく伝染病絶滅したとしたら、果していかになりゆくやというに、遺憾ながら所期の目的と反する事になるのである。<br><br>これは論議するまでもない。<br><br>彼の英仏を見よ、人口減少、体位低下という悲観すべき将来に悩んでいるではないか。<br><br>ゆえに吾人は一時的効果に幻惑さるる事なく、民族将来の繁栄と幸福をおもんばかり、善処しなければならない事はもちろんである。<br><br> 次に、今一つ重要な事がある。<br><br>それは血沈測定のため、血液採集の場合、腕の肱（ひじ）際（きわ）隆起せる部からであるが、これには異議がある。<br><br>それは右の部は、注射液の薬毒が最も集溜しやすい所であるから、その部から採集する以上特に濁血である事はもちろんである。<br><br>しかるに医学の解釈によれば、血液なるものは、人体いかなる場所も同一としている事であるが、私の研究によれば、人体各部の血液は一定せず、汚濁の濃淡は非常に差異があるのである。<br><br>それは浄化作用によって血液が循環しつつ、汚濁を一局部に集溜させつつあるからである。<br><br>世間よく鬱血（うっけつ）するというがこの事に外ならない。<br><br>たとえていえば血管とは溝（みぞ）のようなもので、新しいかまたは清潔なる場合、水は広く速く流れるに反し、不潔なる溝においては、水は流れるには違いないが、溜泥のため細く遅く流れるという訳である。<br><br>これは医家において、各部の血液を試験すれば明瞭となるであろう。<br><br>この事の証左として、人体各部の熱の差異の著るしい事であって人により左右腋窩（わきのした）の体温が五、六分の差違ある者がある。<br><br>ゆえに今日の体温計のごとく、腋窩や口中の体温を計るのみでは不完全であるから、人体各部の温度を測定し得べき、進歩せる体温計が出来ればいいと、私は常に思うのである。<br><br> また医学においては、薬毒は体内に入っても時日が経過すれば自然消滅するといわれるが、これもはなはだしい謬見（びゅうけん）である。<br><br>私の永い経験によれば、人間として摂取すべき飲食物は大体定まっているので、それら天与の飲食物は全部消化し、吸収し、排泄さるるのであるが、しからざる場合、異物の大部分は排泄し得られず必ず残存し、凝結し、病原となるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>O Equívoco da Hemossedimentação e a Verdadeira Natureza da Tuberculose</h2>
-            <p>A hemossedimentação é, naturalmente, um método para aferir a velocidade de sedimentação do sangue. Quanto
+<h2>O Equívoco da Hemossedimentação e a Verdadeira Natureza da Tuberculose</h2>
+<p>A hemossedimentação é, naturalmente, um método para aferir a velocidade de sedimentação do sangue. Quanto
                 maior a velocidade, mais impuro é o sangue, devido ao seu peso. Na medicina, uma velocidade acima de dez
                 milímetros é considerada indicativa de sangue impuro, ao passo que, abaixo desse valor, o sangue é tido
                 como puro. Se a questão se limitasse a isso, eu não teria objeções, pois se trataria apenas de um método
@@ -121,7 +270,7 @@ function toggleLang(lang) {
                 definição. Contudo, há um ponto que não pode ser negligenciado: o fato de as pessoas com sangue impuro
                 serem consideradas suspeitas de tuberculose, chegando a ser impedidas de trabalhar. É precisamente aqui
                 que reside o problema.</p>
-            <p>Qual seria, então, a razão para se considerar um portador de sangue impuro como suspeito de tuberculose?
+<p>Qual seria, então, a razão para se considerar um portador de sangue impuro como suspeito de tuberculose?
                 Segundo minha suposição, tal como mencionei anteriormente, a causa dos resfriados e das febres brandas é
                 uma segunda ação purificadora contra o acúmulo de toxinas decorrente do sangue impuro. Creio, portanto,
                 que se presume que essa condição os torna mais propensos à tuberculose. Embora seja um fato que os
@@ -129,11 +278,11 @@ function toggleLang(lang) {
                 precipitado diagnosticá-los como tuberculosos ou mesmo como suspeitos da doença com base apenas nisso.
                 Seria um alarme tão descabido quanto o de alguém que, ao ver uma fogueira, imaginasse um incêndio e já
                 corresse para acionar a bomba d'água.</p>
-            <p>Ademais, uma das causas mais determinantes para tornar impuro o sangue puro é a prática das vacinas
+<p>Ademais, uma das causas mais determinantes para tornar impuro o sangue puro é a prática das vacinas
                 preventivas, tão difundida atualmente. Conforme já expus, ao se injetarem no sangue substâncias
                 estranhas ou toxinas, como as contidas nas vacinas, elas se tornam a causa da sua impureza. Desse modo,
                 a vacinação nada mais é do que um método para produzir pessoas de sangue impuro.</p>
-            <p>Os especialistas, contudo, certamente argumentarão que as vacinas previnem as doenças contagiosas. A
+<p>Os especialistas, contudo, certamente argumentarão que as vacinas previnem as doenças contagiosas. A
                 isso, porém, eu respondo: as doenças contagiosas constituem uma forma de purificação intensa. Por meio
                 delas, as impurezas do sangue são eliminadas de forma drástica, tratando-se, portanto, de um processo
                 fisiológico concedido por Deus. A maior prova disso é que as doenças contagiosas são mais frequentes
@@ -142,10 +291,10 @@ function toggleLang(lang) {
                 capacidade de purificação, possa evitar temporariamente uma doença contagiosa, ela inevitavelmente
                 resulta, mais tarde, em um declínio da vitalidade e na criação de uma predisposição para o surgimento da
                 tuberculose.</p>
-            <p>Existe, a esse respeito, um método distinto para solucionar verdadeiramente o problema das doenças
+<p>Existe, a esse respeito, um método distinto para solucionar verdadeiramente o problema das doenças
                 contagiosas, mas, por se desviar do tema da tuberculose, deixarei de abordá-lo aqui. O assunto está
                 detalhadamente exposto em minha obra “Ashita no Ijutsu”.</p>
-            <p>Cumpre-me, neste ponto, fazer uma observação. Por mais devastadora que seja uma doença contagiosa, seus
+<p>Cumpre-me, neste ponto, fazer uma observação. Por mais devastadora que seja uma doença contagiosa, seus
                 danos são temporários e restritos a uma determinada região. Consequentemente, ela não chega a afetar a
                 prosperidade ou o declínio de uma nação inteira. Em contrapartida, se, ao se prevenirem as doenças
                 contagiosas, uma nação conseguisse, como idealizado, erradicá-las por completo, qual seria o resultado?
@@ -154,7 +303,7 @@ function toggleLang(lang) {
                 declínio populacional e enfraquecimento físico? Portanto, é evidente que não devemos nos deixar iludir
                 por efeitos passageiros; ao contrário, precisamos agir com sabedoria, ponderando sempre sobre a
                 prosperidade e a felicidade futuras de nosso povo.</p>
-            <p>Há ainda outra questão de suma importância. Refere-se ao local da coleta de sangue para o teste de
+<p>Há ainda outra questão de suma importância. Refere-se ao local da coleta de sangue para o teste de
                 hemossedimentação, que é realizada na parte saliente da dobra do braço. Tenho objeções a esse
                 procedimento. A razão é que essa é precisamente a área onde as toxinas das vacinas tendem a se acumular.
                 Naturalmente, uma amostra retirada dali revelará um sangue particularmente impuro. A interpretação
@@ -166,19 +315,61 @@ function toggleLang(lang) {
                 flui de maneira ampla e rápida; em canais sujos, embora a água continue a correr, o fluxo se torna
                 estreito e lento devido ao lodo acumulado. Isso ficaria claro se os médicos analisassem o sangue de
                 diversas partes do corpo.</p>
-            <p>Uma prova do que afirmo é a notável diferença de temperatura observada em distintas partes do corpo; há
+<p>Uma prova do que afirmo é a notável diferença de temperatura observada em distintas partes do corpo; há
                 pessoas em que a temperatura varia cinco ou seis décimos de grau entre a axila direita e a esquerda. Por
                 isso, os termômetros atuais, que medem a temperatura apenas na axila ou na boca, são incompletos. Sempre
                 penso em como seria bom se fosse criado um termômetro mais avançado, capaz de aferir a temperatura em
                 todas as partes do corpo.</p>
-            <p>A medicina também sustenta que as toxinas dos remédios, uma vez no organismo, desaparecem naturalmente
+<p>A medicina também sustenta que as toxinas dos remédios, uma vez no organismo, desaparecem naturalmente
                 com o tempo. Isso, porém, é um equívoco grosseiro. Minha longa experiência demonstra que os alimentos e
                 bebidas que o ser humano deve ingerir são, em sua maioria, predeterminados. Esses alimentos, concedidos
                 por Deus, são inteiramente digeridos, absorvidos e excretados. Quando se trata de substâncias alheias a
                 essa ordem, contudo, a maior parte não consegue ser expelida. Invariavelmente, elas permanecem no corpo,
                 solidificam-se e se tornam a causa primordial das doenças.</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 血沈 『結核の正体』昭和18(1943)年11月23日発行 血沈とはもちろん血液の沈降速度の速いか遅いかを知る方法であって、沈降速度の速い程濁血であり、その重量によるためである。<br/><br/>医学においては速度十ミリ以上を濁血となし、十ミリ以下を浄血としているが、ただこれだけならば私のいう濁血者浄血者を機械的に測定する一の方法として異議はないのであるが、ここに見逃す事の出来ない事は、濁血者は結核容疑者となし、勤労までも停止させる事で、ここに問題の発生があるのである。<br/><br/> 濁血保有者を結核容疑者とみる事はいかなる訳であろうか、私の推測によればさきに述べたごとく感冒や微熱の原因が、濁血のための毒素溜結に対する第二浄化作用であるから、それが結核に罹りやすいとの推定のためであろうと想うのである。<br/><br/>もちろん濁血保持者は感冒的症状が発生しやすいのは事実であるが、それだけで結核または結核容疑者と断定する事は余りに早計である。<br/><br/>ちょうど焚火を見て火事を予想しポンプを引出すのと同様の慌（あわ）て方である。<br/><br/> そうして浄血者を濁血者たらしめる最も有力なる原因としては、近来しきりに応用する彼の予防注射の一事である。<br/><br/>さきにも述べたごとく注射液等の異物または毒物を血液に注入するにおいては、それが濁血の原因となるのであるから、注射なるものは濁血者を作る方法でしかないという事になろう。<br/><br/> しかしながら、専門家はいうであろう。<br/><br/>注射によって伝染病を予防するのであると、しかし、私は言うのである。<br/><br/>伝染病とは猛烈なる浄化作用で、これある事によって人体血液中の汚濁を急激に消滅するのであるから、もちろん天与の生理作用である。<br/><br/>ゆえに体力旺盛なる民族に伝染病が多く、白人のごとき体力低下せる民族程伝染病が僅少であるのは何よりの実証である。<br/><br/>従って、注射によって濁血者となる以上、浄化力微弱となり、一時的伝染病を免れる事が出来得るが、その後に到って体力の低下、結核発生の素因（そいん）となる事はもちろんである。<br/><br/>この理によって伝染病を真に解決せんとするには別に方法があるが、それは結核以外にわたるから割愛する。<br/><br/>その事は拙著「明日の医術」中に詳細掲載されている。<br/><br/> ただ、ここに一言すべき事がある。<br/><br/>それはいかに猛烈なる伝染病といえども、その被害は一時的であり、一区域だけで済むという事である。<br/><br/>従って、国家全体の盛衰に関わるような事はないが、それに反し、伝染病を防止し得て、その国家は理想のごとく伝染病絶滅したとしたら、果していかになりゆくやというに、遺憾ながら所期の目的と反する事になるのである。<br/><br/>これは論議するまでもない。<br/><br/>彼の英仏を見よ、人口減少、体位低下という悲観すべき将来に悩んでいるではないか。<br/><br/>ゆえに吾人は一時的効果に幻惑さるる事なく、民族将来の繁栄と幸福をおもんばかり、善処しなければならない事はもちろんである。<br/><br/> 次に、今一つ重要な事がある。<br/><br/>それは血沈測定のため、血液採集の場合、腕の肱（ひじ）際（きわ）隆起せる部からであるが、これには異議がある。<br/><br/>それは右の部は、注射液の薬毒が最も集溜しやすい所であるから、その部から採集する以上特に濁血である事はもちろんである。<br/><br/>しかるに医学の解釈によれば、血液なるものは、人体いかなる場所も同一としている事であるが、私の研究によれば、人体各部の血液は一定せず、汚濁の濃淡は非常に差異があるのである。<br/><br/>それは浄化作用によって血液が循環しつつ、汚濁を一局部に集溜させつつあるからである。<br/><br/>世間よく鬱血（うっけつ）するというがこの事に外ならない。<br/><br/>たとえていえば血管とは溝（みぞ）のようなもので、新しいかまたは清潔なる場合、水は広く速く流れるに反し、不潔なる溝においては、水は流れるには違いないが、溜泥のため細く遅く流れるという訳である。<br/><br/>これは医家において、各部の血液を試験すれば明瞭となるであろう。<br/><br/>この事の証左として、人体各部の熱の差異の著るしい事であって人により左右腋窩（わきのした）の体温が五、六分の差違ある者がある。<br/><br/>ゆえに今日の体温計のごとく、腋窩や口中の体温を計るのみでは不完全であるから、人体各部の温度を測定し得べき、進歩せる体温計が出来ればいいと、私は常に思うのである。<br/><br/> また医学においては、薬毒は体内に入っても時日が経過すれば自然消滅するといわれるが、これもはなはだしい謬見（びゅうけん）である。<br/><br/>私の永い経験によれば、人間として摂取すべき飲食物は大体定まっているので、それら天与の飲食物は全部消化し、吸収し、排泄さるるのであるが、しからざる場合、異物の大部分は排泄し得られず必ず残存し、凝結し、病原となるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

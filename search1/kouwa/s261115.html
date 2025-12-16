@@ -1,137 +1,286 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>s261115</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>s261115</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月15日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月十五日 霊憑りというのは、私は始終注意していますが、最初は非常に興味があるものでね。<br><br>私なんかも最初は随分やりましたがね。<br><br>結局これは、弊害があるんですね。<br><br>私は霊憑りをやって懲りた事がある。<br><br>それから、やらなくなった。<br><br>それはある青年ですが――大本時代ですが、その男は――店に使っていた――その時分は商人でしたから、店で使っていた店員なんです。<br><br>それが、大本教で熱心になり、それで――大本教は鎮魂帰神と言って、こういう格好で、指の先から霊を出す。<br><br>浄霊と同じ意味ですがね。<br><br>それをやっているうちに、色んな霊が憑かるようになった。<br><br>憑かると面白いから随分やった。<br><br>そのうちにとうとう精神病になって、鉄道線路に行って轢かれて死んじゃった。<br><br>それで、私は神憑りと言うのは、危険なものだ。<br><br>すべきでない、と。<br><br>それで、私は止めちゃった。<br><br>そういう事が、あと一、二件――頭のおかしくなったのがありましたが、それは治りましたがね。<br><br>そんな訳だから、霊憑りと言うのは、余程危険なものですね。<br><br>ところが良い場合もある。<br><br>それで私は、霊的研究を段々していくうちに、良い――悪い、いろんな事が解って来ましたから、それで、良いのと悪いのとの区別が判るような知識ですね。<br><br>霊的知識――それを得られれば、そう危険はないんですが、それまでにはそうとうな修行と経験がいるんですよ。<br><br>ですから、一般には非常に難しいのと、それから霊界が昔と違って来ているので、今はそんな事をしなくても、人を救う事が出来るんですから、全然霊憑りに触れないで、霊憑りはいけないものだと、決めてやるのが一番安全であるとともに、霊憑りに触れる人はやっぱり発展しないんです。<br><br>神様が嫌うんです。<br><br>だから、霊憑りに重きを置かない人は発展するんですね。<br><br>本当のやり方です。<br><br>この間も書いた通り、バラモンから出たものですからね。<br><br>現在、西洋で霊憑りを使ってやりますが、これは科学的なものだからたいした事はないが、日本の行者とか、日蓮宗とか、精神病が出るんですね。<br><br>本当のものじゃないからね。<br><br>そう言う意味を精しく書いて、新聞か雑誌に出そうと思っているが、これは、今の神懸りに対する根本的な事と、それから大体知っておくべきだけの事を書いてありますがね。<br><br> （御論文「霊憑りについて」のあとの御教え）【栄光 一三三号】 これについて、書き足りない点があるんですがね。<br><br>霊視能力というのがありますね。<br><br>人間は――霊の見える人ですね。<br><br>始終見える人は狐がついているんですね。<br><br>だから危ないですね。<br><br>肝腎な事を正守護神が知らせようとする場合に、ちょっと――パッと見せるんですね。<br><br>これは本当です。<br><br>それから、光が見えるのがあるが、これは差し支えない。<br><br>よく、人間の姿ですね――そう言うのが見えるのは――始終見えてはいけないですね。<br><br>必要な時にちょっと見える。<br><br>それで、神様は――本当の神様は実に簡単なものです。<br><br>無駄がないんですね。<br><br>ですから、人間も本当に信仰が徹底してくると、そういう風になるべきものですね。<br><br>それは、他愛ない――普通はいくら喋っても、面白くても、うなっても良いですが、肝腎なことは急所急所に触れる。<br><br>それが神様のやり方です。<br><br>よく――女に多いですが、のべつまくなくべらべら喋るのがありますが、これは狐が喋るんです。<br><br>何を喋ったか解らないような――それが良くありますがね。<br><br>まくし立てて、人に喋らせないですね。<br><br>話でも、人に話させないようにするのは狐霊と思って良い。<br><br>話は聞かなければならないですね。<br><br>だから昔から「話上手に聞き上手」というのがありますからね。<br><br>しかし、聞くだけで――感心したり、解ったなと思うと、案外解らない。<br><br>そこで、一番良いのは、人の話は良く聞いて、隙が出来たら、こっちの話をする。<br><br>それからもう一つ受け答えですね。<br><br>受け答えが満足にできる人は、外国人には案外多いですが、日本人には割合ないですね。<br><br>受け答え――返事が急所を外れる人が多いです。<br><br>聞こうと思う所にぶつからないで――それは聞き手のまずい場合もありますが――私なんか、何か聞いたり話したりしても、それに対する受け答えが満足な事はめったにないですね。<br><br>それでその人が頭が良いか悪いか一番分りますね。<br><br>男には割合多いが――女の方にはまことに申し訳ないが――非常に少ない。<br><br> それから、話術――術ではないが、話したり聞いたりする処置ですね。<br><br>これは大いに勉強しなければならない。<br><br>と言うのは、間ですね。<br><br>間が非常に肝腎な事です。<br><br>先方で――話なら話を聞く事がありますが、中には間髪を入れずに聞くことがあるし、それから順々という事があるし、その――一つの調子ですね。<br><br>まあ、芸術みたいなものですね。<br><br>これは大いに勉強するんですね。<br><br>どこまでも簡単明瞭に言う。<br><br>それから急所をつかむんですね。<br><br>ですから、相手の様子ですね。<br><br>興が乗って、耳をそばだててくるか、あるいはたいして――先が聞きたくない――興が乗らない時は止してしまう。<br><br>それで、趣味とか聞きたいことを洞察してしまう。<br><br>こういう煩悶があるというのだから、こういう解答をする。<br><br>この人には、こういう喋り方なら解るだろうとか、インテリならインテリ――普通人なら普通にと、立て別けなければならない。<br><br>これは大変な芸術なんです。<br><br>そこで、環境、空気、一人対一人、二、三人と話す時に、多勢に言う場合、土地の習慣あるいは、一つの色がありますね。<br><br>九州の地方の人と北海道の人は違いますね。<br><br>九州は、昔から古い人がいて――なかなか、九州魂というのがありますからね。<br><br> それから、北海道というのは、移民ですからね。<br><br>移民というのはおかしいが、地付きの人というのが少ない。<br><br>地付きと言うのはアイヌですが、皆こっちから渡った人ですからね。<br><br>そういう人は色がありますからね。<br><br>東北の人、上方の人、江戸っ子――皆違いますからね。<br><br>それに対する色んな言い方――やり方がある訳だからね。<br><br>そうなると難しくなるが、そんなに難しく考えなくても――そんなのがある訳ですね。<br><br> それから物事を難しく考えてはいけないし、単純に考えてもいけないですね。<br><br>どうしてかと言うと、考えすぎて結果が悪い事があるんですね。<br><br>だから出来るだけ単純にですね。<br><br>私なんかも難しくなる事があるが、ごく単純に考える。<br><br>そうして、あとは神様に任せるんですね。<br><br>だから始終気が楽です。<br><br>人間は気が楽だと良い考えが浮かぶんです。<br><br>気が楽でないと、良い考えが浮かぶ余地がないんです。<br><br>ですから、始終頭の中を空っぽにしておくと、良い考えが浮かびやすいです。<br><br> それから良い考えと言うのは、正守護神がヒントを与えるんです。<br><br>神様は、人間に直接と言う事はない。<br><br>正守護神に知らせて、それから来る。<br><br>ところが頭に一杯あると知らせても――アンテナが、働きが悪いんです。<br><br>だから、良い考えが浮かばない。<br><br>というのは、そういう訳ですね。<br><br>これは、一種のインスピレーションみたいなものですが――始終、ゆったりした気持ちでね。<br><br>ところが、色々な心配事や、気にかかる事があると、そうはいかない。<br><br>ところがやりようによって、そうではない。<br><br>私は、昔はよく気になる事が、色々あると、他の事は頭に入らない。<br><br>ところが段々信仰に入って、そういう事は、神様にお任せしてしまうというと忘れちゃう。<br><br>これはそういう癖をつけちゃうんです。<br><br>一種の修行ですね、よく他の人が、色々な心配事を言うが、私は笑っているので、びっくりしてしまう。<br><br>普通の人では、それが出来ませんよ。<br><br>それについて書いてある。<br><br> （御論文「 御任せする 」のあとの御教え）【栄光 一三一号】 それからこれは関連した話ですけれども――嘘ですね。<br><br>日本人の特徴のように思いますが、日本人は実に嘘をつくんです。<br><br>嘘をつくのが、意識的に嘘をつくんじゃない。<br><br>嘘をつくのが習慣になっている。<br><br>自分で嘘つくのが分らない。<br><br>それほどに嘘が身についているんですね。<br><br>色々、人の話を聞いていると、本当に正直に言うのは、おそらくないと言っても良いですね。<br><br>必ず嘘があるんです。<br><br>その嘘が――本人は嘘と思わないで、本当だと思っている。<br><br>その場合に私が、この点が嘘で、これが本当だと言うと――それでも解らない人がありますね。<br><br>そうすると、こう言う場合に、これが本当で、これが嘘だと言うと、なるほどと言う。<br><br>簡単な事を、わざわざ嘘を言ってややこしくする。<br><br>これは偉い人に多いですね。<br><br>何か問題が起こる。<br><br>すると――正直にすると簡単に解決する。<br><br>それをややこしくしている。<br><br>私に、こういう事を言った人がある。<br><br>この場合にこう言った方が良いですよと言うが、嘘なんです。<br><br>そのご忠告通りにやってみると、成績が悪いんです。<br><br>何か、そこに――スラスラ行かないんです。<br><br>それで私は思った通りにやるようにした。<br><br>思った通りにずばっとやる。<br><br>すると良い。<br><br>正直が一番良いですね。<br><br>正直にしていると、何も頭に残らないから――気が咎めないから良い考えが浮かぶ。<br><br>嘘の執着ですね。<br><br>だから嘘か本当かが、自分ではっきり分れば、そこではっきり標準ができる。<br><br>頭の居所が上になるんですね。<br><br>特に信者は、正守護神からいろんな事がある場合に、頭を空っぽにするというのは、嘘をつかないんですね。<br><br>また、自分に不純な心がなければ――誠意があれば、いくら本当の事を言っても、いっこう差し支えないんですからね。<br><br>よく――以前なんか、家内なんかが私に、そんな事を言っちゃいけませんよと言うんです。<br><br>しかし、私は何でもありのまま言うんです。<br><br>すると案外先方は好感を持つんですね。<br><br>私なんか、随分ひどい事を言う事があります。<br><br>今はそうでもありませんが、以前の――駆け出し時分にですね。<br><br>はっきり言うんです。<br><br>すると、先方が怒りそうなもんだが、怒らないで笑い出したりします。<br><br>この点アメリカは非常に正直だと思いますね。<br><br>映画を見ても、言葉が書いてあるが、あれを見ると、実に正直で、日本人には見られないようですね。<br><br>だから、アメリカ社会が明瞭だというのは、そういう事ですね。<br><br>もっとも、日本人は封建時代から押さえつけられていたから、はっきり言うと誤解されるからで、これは政治のためですね。<br><br>以前はすべて曲げなければならない。<br><br>最初の、「明日の医術」「天国の福音」――「明日の医術」なんか、随分曲げて書いてある。<br><br>ぼやかして書いてある。<br><br>徹底しないというが、徹底して書けないですね。<br><br>「天国の福音」になると、余程違っている。<br><br>この頃になると思いきって書くから、徹底してますがね。<br><br>でもまだ、お医者や何かに気兼ねして書いている。<br><br>今度の「文明の創造」なんかは、全然そんな事なく思った通りに書いてある。<br><br>世界を相手にするので、ややこしい書き方の必要もないし、それじゃ徹底しないからね。<br><br>それから、言論の自由からいうと、何ら差し支えないからね。<br><br>どうせ今に出るから、見るとよく分りますがね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Os Perigos da Possessão Espiritual e a Busca da Verdade</h2>
-            <p>Eu sempre alerto sobre o perigo da possessão espiritual. No início, é um fenômeno que desperta enorme
+<h2>Os Perigos da Possessão Espiritual e a Busca da Verdade</h2>
+<p>Eu sempre alerto sobre o perigo da possessão espiritual. No início, é um fenômeno que desperta enorme
                 interesse; eu mesmo, em meus primórdios, dediquei-me bastante a essa prática. Contudo, concluí que ela
                 acarreta graves malefícios e, por ter sofrido as consequências de lidar com a possessão, abandonei tal
                 caminho.</p>
-            <p>Recordo-me de um caso da época em que eu pertencia à Oomoto. Havia um jovem, funcionário da loja que eu
+<p>Recordo-me de um caso da época em que eu pertencia à Oomoto. Havia um jovem, funcionário da loja que eu
                 mantinha naqueles tempos de comerciante. Ele se tornou um seguidor fervoroso da Oomoto, onde havia uma
                 prática chamada <em>chinkon kishin</em>, que consistia em emitir um espírito pela ponta dos dedos, em um
                 princípio análogo ao do Johrei. Ao se dedicar a essa prática, ele começou a ser assediado por toda sorte
                 de espíritos. Achando o fenômeno fascinante, aprofundou-se cada vez mais, até que, por fim, desenvolveu
                 uma doença mental e tirou a própria vida, atirando-se nos trilhos de um trem.</p>
-            <p>Essa tragédia me fez compreender quão perigosa é a possessão espiritual e que não devemos nos envolver
+<p>Essa tragédia me fez compreender quão perigosa é a possessão espiritual e que não devemos nos envolver
                 com ela. Por isso, deixei de praticá-la. Houve ainda um ou dois outros casos de pessoas que
                 enlouqueceram, embora, felizmente, tenham se recuperado. Fica claro, portanto, que a possessão é algo de
                 extremo risco.</p>
-            <p>Evidentemente, existem manifestações benéficas. À medida que avancei em minhas pesquisas sobre o Mundo
+<p>Evidentemente, existem manifestações benéficas. À medida que avancei em minhas pesquisas sobre o Mundo
                 Espiritual, aprendi a discernir com clareza as diversas naturezas dos fenômenos, distinguindo o bem do
                 mal. Com esse conhecimento espiritual, os perigos diminuem consideravelmente. No entanto, adquirir tal
                 discernimento exige longos anos de disciplina e experiência.</p>
-            <p>Assim, para o público em geral, é uma senda muito difícil. Além disso, o Mundo Espiritual se transformou
+<p>Assim, para o público em geral, é uma senda muito difícil. Além disso, o Mundo Espiritual se transformou
                 em relação ao passado e, hoje, podemos salvar as pessoas sem recorrer a tais práticas. O mais seguro,
                 portanto, é não ter qualquer contato com a possessão espiritual, estabelecendo como regra que se trata
                 de algo incorreto. As pessoas que se apegam a esses fenômenos não prosperam, pois Deus as rejeita. Em
@@ -142,31 +291,31 @@ function toggleLang(lang) {
                 Nitiren, frequentemente geram casos de desequilíbrio mental, pois não são genuínas. Pretendo detalhar
                 este assunto em um artigo para jornal ou revista, abordando os fundamentos do transe mediúnico e o
                 conhecimento essencial que se deve ter.</p>
-            <p>Ainda sobre este tema, há um ponto que merece ser aprofundado: a capacidade de visão espiritual. Existem
+<p>Ainda sobre este tema, há um ponto que merece ser aprofundado: a capacidade de visão espiritual. Existem
                 pessoas que veem espíritos, e aquelas que os enxergam constantemente estão, na verdade, sob a influência
                 de espíritos de raposa, o que é muito perigoso. A manifestação genuína ocorre quando o Espírito Guardião
                 principal deseja comunicar algo crucial; nesse momento, ele nos concede um vislumbre momentâneo. Isso é
                 verdadeiro. Já a visão de luzes não apresenta problema algum. Contudo, ver vultos de pessoas com
                 frequência não é um bom sinal; o correto é que tais visões ocorram apenas esporadicamente, quando
                 necessário.</p>
-            <p>O verdadeiro Deus é de uma simplicidade sublime. Nele, não há desperdício nem excesso. Portanto, à medida
+<p>O verdadeiro Deus é de uma simplicidade sublime. Nele, não há desperdício nem excesso. Portanto, à medida
                 que a fé do ser humano se aprofunda e se purifica, ele também deve caminhar para essa simplicidade. Em
                 conversas triviais, pode-se falar longamente, gracejar e se entusiasmar. Nos momentos decisivos, porém,
                 é preciso ir direto aos pontos essenciais. Assim é o modo de agir de Deus.</p>
-            <p>Vemos com frequência, especialmente entre as mulheres, pessoas que falam sem parar, de forma torrencial,
+<p>Vemos com frequência, especialmente entre as mulheres, pessoas que falam sem parar, de forma torrencial,
                 sem que se compreenda o que disseram. É o espírito de raposa que fala por meio delas. Dominam a
                 conversa, não permitem que o outro se manifeste. Pode-se considerar que quem age assim, monopolizando o
                 diálogo, está sob influência de um espírito de raposa. É fundamental saber ouvir. Desde a antiguidade,
                 diz-se que para ser um bom orador é preciso, antes de tudo, ser um bom ouvinte. Entretanto, apenas
                 ouvir, concordar e pensar que entendeu muitas vezes não basta. A melhor conduta é escutar atentamente e,
                 quando houver uma abertura, expor nosso ponto de vista.</p>
-            <p>Outro ponto é a capacidade de responder adequadamente. É algo que se encontra com certa frequência entre
+<p>Outro ponto é a capacidade de responder adequadamente. É algo que se encontra com certa frequência entre
                 os estrangeiros, mas é relativamente raro entre os japoneses. Muitas pessoas dão respostas que fogem ao
                 cerne da questão. A pergunta não encontra seu alvo. Às vezes, a falha pode ser de quem pergunta, mas, no
                 meu caso, quando questiono ou dialogo com alguém, raramente recebo uma resposta plenamente satisfatória.
                 Essa capacidade de resposta é o melhor indicativo da inteligência de uma pessoa. Entre os homens, ela é
                 mais comum; já entre as mulheres – e peço perdão pela franqueza –, é extremamente rara.</p>
-            <p>A arte da conversação – que não é um mero artifício – requer um grande aprimoramento na forma de falar e
+<p>A arte da conversação – que não é um mero artifício – requer um grande aprimoramento na forma de falar e
                 de ouvir. O ponto crucial aqui é o que chamamos de <em>ma</em>: o tempo, a pausa, o ritmo da interação.
                 Trata-se de uma espécie de cadência, quase uma forma de arte que precisa ser muito estudada. Deve-se
                 buscar sempre a simplicidade e a clareza, focando nos pontos essenciais. É preciso observar a reação do
@@ -175,7 +324,7 @@ function toggleLang(lang) {
                 da pessoa, aquilo que ela deseja ouvir. Se percebemos uma aflição específica, oferecemos a resposta para
                 ela. É preciso discernir que tipo de linguagem será mais bem compreendida por cada um, adaptando a
                 abordagem se nosso interlocutor é um intelectual ou uma pessoa comum.</p>
-            <p>Trata-se de uma verdadeira arte. Devemos considerar o ambiente, a atmosfera, se estamos conversando a
+<p>Trata-se de uma verdadeira arte. Devemos considerar o ambiente, a atmosfera, se estamos conversando a
                 sós, com duas ou três pessoas ou diante de uma multidão. Há também os costumes e as particularidades de
                 cada região. As pessoas de Kyushu são diferentes das de Hokkaido. Kyushu tem uma tradição antiga, e seus
                 habitantes possuem o que se chama de "espírito de Kyushu". Hokkaido, por sua vez, é uma terra de
@@ -183,24 +332,24 @@ function toggleLang(lang) {
                 povo tem sua cor: os do nordeste, os da região de Quioto, os de Tóquio. Todos são diferentes. Para cada
                 um, há uma maneira apropriada de falar e de agir. Embora pareça complexo, não é preciso pensar de forma
                 tão complicada; basta ter ciência de que essas nuances existem.</p>
-            <p>Não se deve complicar os pensamentos, mas tampouco ser simplista em demasia. Pensar excessivamente pode
+<p>Não se deve complicar os pensamentos, mas tampouco ser simplista em demasia. Pensar excessivamente pode
                 levar a maus resultados. Por isso, devemos buscar a simplicidade ao máximo. Eu mesmo, por vezes, sou
                 tentado a complicar as coisas, mas me esforço para pensar de modo muito simples. Feito isso, o restante
                 entrego a Deus. Desse modo, minha mente está sempre em paz. Quando o ser humano está com a mente serena,
                 bons pensamentos surgem. Se não há serenidade, não há espaço para que eles aflorem. Manter a mente
                 vazia, portanto, facilita o surgimento de boas ideias.</p>
-            <p>Essas boas ideias são, na verdade, inspirações que o Espírito Guardião principal nos concede. Deus não se
+<p>Essas boas ideias são, na verdade, inspirações que o Espírito Guardião principal nos concede. Deus não se
                 comunica diretamente com o ser humano; Ele transmite Suas mensagens ao Espírito Guardião, que, por sua
                 vez, as repassa a nós. Contudo, se a mente está sobrecarregada, a “antena” espiritual não funciona bem,
                 e a mensagem não é captada. Eis o motivo pelo qual as boas ideias não vêm. É uma espécie de inspiração
                 que requer um estado de espírito tranquilo e relaxado.</p>
-            <p>Naturalmente, quando temos preocupações e assuntos pendentes, não é fácil atingir esse estado. Mas há uma
+<p>Naturalmente, quando temos preocupações e assuntos pendentes, não é fácil atingir esse estado. Mas há uma
                 maneira de consegui-lo. Antigamente, quando diversas preocupações me afligiam, eu não conseguia pensar
                 em mais nada. Todavia, à medida que aprofundei minha fé, aprendi a entregar tais questões a Deus e,
                 simplesmente, esquecê-las. É um hábito que se adquire, uma forma de disciplina. Muitas pessoas se
                 espantam ao me ver sorrindo enquanto me relatam suas graves preocupações. Para a maioria, essa atitude é
                 inconcebível.</p>
-            <p>Gostaria de abordar agora um assunto correlato: a mentira. Parece-me uma característica do povo japonês.
+<p>Gostaria de abordar agora um assunto correlato: a mentira. Parece-me uma característica do povo japonês.
                 Os japoneses mentem de uma forma impressionante. Não se trata de uma mentira consciente; o ato de mentir
                 tornou-se um hábito tão arraigado que eles já não têm consciência de que o fazem. A mentira está
                 impregnada em seu ser. Ao ouvir as pessoas, posso afirmar que é praticamente impossível encontrar quem
@@ -213,7 +362,7 @@ function toggleLang(lang) {
                 conselho baseado na falsidade. Ao segui-lo, os resultados foram ruins; as coisas não fluíram. A partir
                 de então, passei a agir sempre de acordo com o que eu mesmo pensava. Quando ajo de forma direta e
                 transparente, tudo corre bem.</p>
-            <p>A honestidade é o melhor caminho. Quando se é honesto, nada pesa na mente; a consciência fica tranquila,
+<p>A honestidade é o melhor caminho. Quando se é honesto, nada pesa na mente; a consciência fica tranquila,
                 e os bons pensamentos podem emergir. A mentira gera apegos. Se a pessoa consegue distinguir claramente
                 em si mesma o que é verdade e o que é mentira, ela estabelece um padrão sólido, e sua condição
                 espiritual se eleva. Para os fiéis, em particular, manter a mente vazia para receber as orientações do
@@ -221,25 +370,67 @@ function toggleLang(lang) {
                 sinceridade, pode-se dizer a verdade sem qualquer receio. Antigamente, minha esposa costumava me
                 repreender: "Você não deveria dizer essas coisas!". Mas eu sempre digo tudo como é. E, para minha
                 surpresa, as pessoas geralmente reagem com simpatia.</p>
-            <p>Eu mesmo, por vezes, digo coisas que podem soar bastante duras, especialmente no início da minha missão.
+<p>Eu mesmo, por vezes, digo coisas que podem soar bastante duras, especialmente no início da minha missão.
                 Ao falar com toda a franqueza, seria de se esperar que o interlocutor ficasse zangado, mas, em vez
                 disso, ele costuma sorrir. Nesse aspecto, creio que os americanos são muito honestos. Vejo nos filmes,
                 nos diálogos, uma sinceridade que raramente se encontra entre os japoneses. É por essa razão que a
                 sociedade americana me parece tão transparente. É certo que o povo japonês, oprimido durante a era
                 feudal, aprendeu que falar abertamente gerava mal-entendidos. Foi uma consequência política. Naquela
                 época, era preciso disfarçar tudo.</p>
-            <p>Meus primeiros escritos, como <em>Ashita no Ijutsu</em> e <em>O Evangelho do Céu</em>, foram redigidos de
+<p>Meus primeiros escritos, como <em>Ashita no Ijutsu</em> e <em>O Evangelho do Céu</em>, foram redigidos de
                 forma bastante velada, indireta. Dizem que não são incisivos, mas na época era impossível escrever de
                 outra maneira. <em>O Evangelho do Céu</em> já é bem diferente. Em meus textos mais recentes, escrevo com
                 muito mais liberdade e sou mais direto. Mesmo assim, ainda sinto certa reserva em relação aos médicos e
                 a outros setores.</p>
-            <p>Já na obra que estou escrevendo agora, <em>A Criação da Civilização</em>, não há nada disso. Escrevo
+<p>Já na obra que estou escrevendo agora, <em>A Criação da Civilização</em>, não há nada disso. Escrevo
                 exatamente o que penso, sem rodeios. Como me dirijo ao mundo inteiro, não há necessidade de uma escrita
                 rebuscada ou indireta, pois assim a mensagem não seria compreendida em sua totalidade. Além disso, com a
                 liberdade de expressão que temos hoje, não há qualquer impedimento. Quando a obra for publicada, todos
                 poderão constatar isso com clareza.</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月15日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月十五日 霊憑りというのは、私は始終注意していますが、最初は非常に興味があるものでね。<br/><br/>私なんかも最初は随分やりましたがね。<br/><br/>結局これは、弊害があるんですね。<br/><br/>私は霊憑りをやって懲りた事がある。<br/><br/>それから、やらなくなった。<br/><br/>それはある青年ですが――大本時代ですが、その男は――店に使っていた――その時分は商人でしたから、店で使っていた店員なんです。<br/><br/>それが、大本教で熱心になり、それで――大本教は鎮魂帰神と言って、こういう格好で、指の先から霊を出す。<br/><br/>浄霊と同じ意味ですがね。<br/><br/>それをやっているうちに、色んな霊が憑かるようになった。<br/><br/>憑かると面白いから随分やった。<br/><br/>そのうちにとうとう精神病になって、鉄道線路に行って轢かれて死んじゃった。<br/><br/>それで、私は神憑りと言うのは、危険なものだ。<br/><br/>すべきでない、と。<br/><br/>それで、私は止めちゃった。<br/><br/>そういう事が、あと一、二件――頭のおかしくなったのがありましたが、それは治りましたがね。<br/><br/>そんな訳だから、霊憑りと言うのは、余程危険なものですね。<br/><br/>ところが良い場合もある。<br/><br/>それで私は、霊的研究を段々していくうちに、良い――悪い、いろんな事が解って来ましたから、それで、良いのと悪いのとの区別が判るような知識ですね。<br/><br/>霊的知識――それを得られれば、そう危険はないんですが、それまでにはそうとうな修行と経験がいるんですよ。<br/><br/>ですから、一般には非常に難しいのと、それから霊界が昔と違って来ているので、今はそんな事をしなくても、人を救う事が出来るんですから、全然霊憑りに触れないで、霊憑りはいけないものだと、決めてやるのが一番安全であるとともに、霊憑りに触れる人はやっぱり発展しないんです。<br/><br/>神様が嫌うんです。<br/><br/>だから、霊憑りに重きを置かない人は発展するんですね。<br/><br/>本当のやり方です。<br/><br/>この間も書いた通り、バラモンから出たものですからね。<br/><br/>現在、西洋で霊憑りを使ってやりますが、これは科学的なものだからたいした事はないが、日本の行者とか、日蓮宗とか、精神病が出るんですね。<br/><br/>本当のものじゃないからね。<br/><br/>そう言う意味を精しく書いて、新聞か雑誌に出そうと思っているが、これは、今の神懸りに対する根本的な事と、それから大体知っておくべきだけの事を書いてありますがね。<br/><br/> （御論文「霊憑りについて」のあとの御教え）【栄光 一三三号】 これについて、書き足りない点があるんですがね。<br/><br/>霊視能力というのがありますね。<br/><br/>人間は――霊の見える人ですね。<br/><br/>始終見える人は狐がついているんですね。<br/><br/>だから危ないですね。<br/><br/>肝腎な事を正守護神が知らせようとする場合に、ちょっと――パッと見せるんですね。<br/><br/>これは本当です。<br/><br/>それから、光が見えるのがあるが、これは差し支えない。<br/><br/>よく、人間の姿ですね――そう言うのが見えるのは――始終見えてはいけないですね。<br/><br/>必要な時にちょっと見える。<br/><br/>それで、神様は――本当の神様は実に簡単なものです。<br/><br/>無駄がないんですね。<br/><br/>ですから、人間も本当に信仰が徹底してくると、そういう風になるべきものですね。<br/><br/>それは、他愛ない――普通はいくら喋っても、面白くても、うなっても良いですが、肝腎なことは急所急所に触れる。<br/><br/>それが神様のやり方です。<br/><br/>よく――女に多いですが、のべつまくなくべらべら喋るのがありますが、これは狐が喋るんです。<br/><br/>何を喋ったか解らないような――それが良くありますがね。<br/><br/>まくし立てて、人に喋らせないですね。<br/><br/>話でも、人に話させないようにするのは狐霊と思って良い。<br/><br/>話は聞かなければならないですね。<br/><br/>だから昔から「話上手に聞き上手」というのがありますからね。<br/><br/>しかし、聞くだけで――感心したり、解ったなと思うと、案外解らない。<br/><br/>そこで、一番良いのは、人の話は良く聞いて、隙が出来たら、こっちの話をする。<br/><br/>それからもう一つ受け答えですね。<br/><br/>受け答えが満足にできる人は、外国人には案外多いですが、日本人には割合ないですね。<br/><br/>受け答え――返事が急所を外れる人が多いです。<br/><br/>聞こうと思う所にぶつからないで――それは聞き手のまずい場合もありますが――私なんか、何か聞いたり話したりしても、それに対する受け答えが満足な事はめったにないですね。<br/><br/>それでその人が頭が良いか悪いか一番分りますね。<br/><br/>男には割合多いが――女の方にはまことに申し訳ないが――非常に少ない。<br/><br/> それから、話術――術ではないが、話したり聞いたりする処置ですね。<br/><br/>これは大いに勉強しなければならない。<br/><br/>と言うのは、間ですね。<br/><br/>間が非常に肝腎な事です。<br/><br/>先方で――話なら話を聞く事がありますが、中には間髪を入れずに聞くことがあるし、それから順々という事があるし、その――一つの調子ですね。<br/><br/>まあ、芸術みたいなものですね。<br/><br/>これは大いに勉強するんですね。<br/><br/>どこまでも簡単明瞭に言う。<br/><br/>それから急所をつかむんですね。<br/><br/>ですから、相手の様子ですね。<br/><br/>興が乗って、耳をそばだててくるか、あるいはたいして――先が聞きたくない――興が乗らない時は止してしまう。<br/><br/>それで、趣味とか聞きたいことを洞察してしまう。<br/><br/>こういう煩悶があるというのだから、こういう解答をする。<br/><br/>この人には、こういう喋り方なら解るだろうとか、インテリならインテリ――普通人なら普通にと、立て別けなければならない。<br/><br/>これは大変な芸術なんです。<br/><br/>そこで、環境、空気、一人対一人、二、三人と話す時に、多勢に言う場合、土地の習慣あるいは、一つの色がありますね。<br/><br/>九州の地方の人と北海道の人は違いますね。<br/><br/>九州は、昔から古い人がいて――なかなか、九州魂というのがありますからね。<br/><br/> それから、北海道というのは、移民ですからね。<br/><br/>移民というのはおかしいが、地付きの人というのが少ない。<br/><br/>地付きと言うのはアイヌですが、皆こっちから渡った人ですからね。<br/><br/>そういう人は色がありますからね。<br/><br/>東北の人、上方の人、江戸っ子――皆違いますからね。<br/><br/>それに対する色んな言い方――やり方がある訳だからね。<br/><br/>そうなると難しくなるが、そんなに難しく考えなくても――そんなのがある訳ですね。<br/><br/> それから物事を難しく考えてはいけないし、単純に考えてもいけないですね。<br/><br/>どうしてかと言うと、考えすぎて結果が悪い事があるんですね。<br/><br/>だから出来るだけ単純にですね。<br/><br/>私なんかも難しくなる事があるが、ごく単純に考える。<br/><br/>そうして、あとは神様に任せるんですね。<br/><br/>だから始終気が楽です。<br/><br/>人間は気が楽だと良い考えが浮かぶんです。<br/><br/>気が楽でないと、良い考えが浮かぶ余地がないんです。<br/><br/>ですから、始終頭の中を空っぽにしておくと、良い考えが浮かびやすいです。<br/><br/> それから良い考えと言うのは、正守護神がヒントを与えるんです。<br/><br/>神様は、人間に直接と言う事はない。<br/><br/>正守護神に知らせて、それから来る。<br/><br/>ところが頭に一杯あると知らせても――アンテナが、働きが悪いんです。<br/><br/>だから、良い考えが浮かばない。<br/><br/>というのは、そういう訳ですね。<br/><br/>これは、一種のインスピレーションみたいなものですが――始終、ゆったりした気持ちでね。<br/><br/>ところが、色々な心配事や、気にかかる事があると、そうはいかない。<br/><br/>ところがやりようによって、そうではない。<br/><br/>私は、昔はよく気になる事が、色々あると、他の事は頭に入らない。<br/><br/>ところが段々信仰に入って、そういう事は、神様にお任せしてしまうというと忘れちゃう。<br/><br/>これはそういう癖をつけちゃうんです。<br/><br/>一種の修行ですね、よく他の人が、色々な心配事を言うが、私は笑っているので、びっくりしてしまう。<br/><br/>普通の人では、それが出来ませんよ。<br/><br/>それについて書いてある。<br/><br/> （御論文「 御任せする 」のあとの御教え）【栄光 一三一号】 それからこれは関連した話ですけれども――嘘ですね。<br/><br/>日本人の特徴のように思いますが、日本人は実に嘘をつくんです。<br/><br/>嘘をつくのが、意識的に嘘をつくんじゃない。<br/><br/>嘘をつくのが習慣になっている。<br/><br/>自分で嘘つくのが分らない。<br/><br/>それほどに嘘が身についているんですね。<br/><br/>色々、人の話を聞いていると、本当に正直に言うのは、おそらくないと言っても良いですね。<br/><br/>必ず嘘があるんです。<br/><br/>その嘘が――本人は嘘と思わないで、本当だと思っている。<br/><br/>その場合に私が、この点が嘘で、これが本当だと言うと――それでも解らない人がありますね。<br/><br/>そうすると、こう言う場合に、これが本当で、これが嘘だと言うと、なるほどと言う。<br/><br/>簡単な事を、わざわざ嘘を言ってややこしくする。<br/><br/>これは偉い人に多いですね。<br/><br/>何か問題が起こる。<br/><br/>すると――正直にすると簡単に解決する。<br/><br/>それをややこしくしている。<br/><br/>私に、こういう事を言った人がある。<br/><br/>この場合にこう言った方が良いですよと言うが、嘘なんです。<br/><br/>そのご忠告通りにやってみると、成績が悪いんです。<br/><br/>何か、そこに――スラスラ行かないんです。<br/><br/>それで私は思った通りにやるようにした。<br/><br/>思った通りにずばっとやる。<br/><br/>すると良い。<br/><br/>正直が一番良いですね。<br/><br/>正直にしていると、何も頭に残らないから――気が咎めないから良い考えが浮かぶ。<br/><br/>嘘の執着ですね。<br/><br/>だから嘘か本当かが、自分ではっきり分れば、そこではっきり標準ができる。<br/><br/>頭の居所が上になるんですね。<br/><br/>特に信者は、正守護神からいろんな事がある場合に、頭を空っぽにするというのは、嘘をつかないんですね。<br/><br/>また、自分に不純な心がなければ――誠意があれば、いくら本当の事を言っても、いっこう差し支えないんですからね。<br/><br/>よく――以前なんか、家内なんかが私に、そんな事を言っちゃいけませんよと言うんです。<br/><br/>しかし、私は何でもありのまま言うんです。<br/><br/>すると案外先方は好感を持つんですね。<br/><br/>私なんか、随分ひどい事を言う事があります。<br/><br/>今はそうでもありませんが、以前の――駆け出し時分にですね。<br/><br/>はっきり言うんです。<br/><br/>すると、先方が怒りそうなもんだが、怒らないで笑い出したりします。<br/><br/>この点アメリカは非常に正直だと思いますね。<br/><br/>映画を見ても、言葉が書いてあるが、あれを見ると、実に正直で、日本人には見られないようですね。<br/><br/>だから、アメリカ社会が明瞭だというのは、そういう事ですね。<br/><br/>もっとも、日本人は封建時代から押さえつけられていたから、はっきり言うと誤解されるからで、これは政治のためですね。<br/><br/>以前はすべて曲げなければならない。<br/><br/>最初の、「明日の医術」「天国の福音」――「明日の医術」なんか、随分曲げて書いてある。<br/><br/>ぼやかして書いてある。<br/><br/>徹底しないというが、徹底して書けないですね。<br/><br/>「天国の福音」になると、余程違っている。<br/><br/>この頃になると思いきって書くから、徹底してますがね。<br/><br/>でもまだ、お医者や何かに気兼ねして書いている。<br/><br/>今度の「文明の創造」なんかは、全然そんな事なく思った通りに書いてある。<br/><br/>世界を相手にするので、ややこしい書き方の必要もないし、それじゃ徹底しないからね。<br/><br/>それから、言論の自由からいうと、何ら差し支えないからね。<br/><br/>どうせ今に出るから、見るとよく分りますがね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

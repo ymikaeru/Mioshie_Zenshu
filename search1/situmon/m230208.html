@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230208</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年2月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年二月八日（日） ――産後四十日ほどの女、火事に遭い、以来気が狂ってちょうど狐つきのようになります。<br><br> 眠れるようになればよい、治ります。<br><br>産後の精神病は特に治りいいです。<br><br>それは産後は血が少ないから霊が憑りやすいんです。<br><br>血が充分あれば憑依しません。<br><br> 神前結婚の形式を私も考えているんですがね。<br><br>いままでの神前、仏前結婚はあまり感心できません。<br><br> ――先日いたしましたときは祝詞と誓詞の中へ観音様と大先生の御名前を入れさせていただきました。<br><br> 天津祝詞は結婚式にはいりません。<br><br>お祀りのときは上げなさい。<br><br> ――善言讃詞と祝詞と両方を上げます場合、日月地大神守り給へ幸倍賜へが重複いたしますが…… 重なってもかまわない……仏壇には拍手を三つ打つ。<br><br>神道では五十日祭までは拍手の音を立てないが、こっちでは音を立ててかまわない。<br><br>仏は現界でないから二拍手が本当かもしれませんが正式は三拍手、日月地だから三がよい。<br><br>いままでは地がなかったんですから……結婚や葬式の形式も作りたいと思ってます。<br><br>身体がすっかりよくなったらそういうのを作りたい。<br><br>……出雲の神様は営業がうまいですね。<br><br>大国主命と大黒天とは縁もなにもない。<br><br> ――四人の子が脳膜炎を次々に患い、今度その四人目（二歳）が死にましたが…… なにかわけがある。<br><br>なにか祟っているか、罪が深いと取れないんですよ。<br><br>そんなのもどうこう考えないで自然に任せなさい。<br><br>講習を受けたからとてみんな助かるわけではない。<br><br>いまは大清算が始まっている。<br><br>観音様に救われるというのは亡ぶべき運命の者が、例えば五人死ぬべきものが二人か三人ですまされることで、ぜんぜん死なずに助かるわけには行かない。<br><br>いまはたいへんな時期だからね。<br><br>難しいもんだが、これは判る人は判るし判らぬ人は判らない。<br><br>……生きている人がグズグズしていると霊が大いに働いて判らせるということがずいぶんある。<br><br> ――死んでからあの世で判る人が多いです。<br><br>御守りのことが存命中は判らず霊界へ行って初めて判り、「お蔭で明るい所にいることができます」と非常に感謝されたことがあります。<br><br> この道で助かるにはやはり人間としての道を踏まねばならない。<br><br> 新家庭は必ず仏壇を設けねば駄目なんです。<br><br> 霊媒に観音様が憑ったからとて丸呑みにはできません。<br><br> ふつうの観音様や仏壇に善言讃詞を上げても駄目です。<br><br>やむを得ないとき……例えば光明如来をいただこうとしているが、表装がまだできないときは別ですが。<br><br> ――茨城の太田町で先日日蓮宗の行者が四、五十名集まって修行中、その指導者格の人に金色の光が見えたので、よく調べたところその中に一人御守りをいただいた人がおりました。<br><br> 光明如来をお祀りすると離縁もなくなる。<br><br>こんなのがある。<br><br>少し頭の足りない主人があり、その細君が光明如来をお祀りしたところ、だんだん主人の頭がよくなり、この分なら一生つれ添っても大丈夫だというわけで納まってしまいました。<br><br>夫婦喧嘩もしなくなります。<br><br>光のために動物霊が萎縮するんです。<br><br>喧嘩は動物霊ですからね。<br><br> 支那でも道教の信者は霊格が高いようです。<br><br>新しい信者が掟を破って肉食などして帰ると門番に見破られ殴られるそうです。<br><br> ――今度の帝銀事件の家も代々質屋でだいぶ怨まれてましたが、この前に入った夫婦も変死し、空家になっていたのを帝銀が借りたのだそうです。<br><br> 私は前に相場が好きでよくやったんですがね。<br><br>まあ損ばかりでしたが、兜町辺りには怨みの霊がたくさんいて、あすこから持ってくる紙幣についている。<br><br>悪銭身につかずとは本当ですよ。<br><br>だから私は損ばかりしていたんです。<br><br>それが判ってから相場はやめて鉱山を始めました。<br><br>こうして信者の持ってくる金は浄財ばかりです。<br><br>霊はなんにでもつき作用します。<br><br>怨みの霊が家に入ると家の霊が曇る。<br><br>松下の家にはその家を作った大工……まだ生きてるんです……白い髭の老人の霊が来たそうです。<br><br>自分の作った家に執着を持っているからですね。<br><br>だから人を苦しめてはいけないんです。<br><br> 私はよく言うんです。<br><br>偉い人になってはいけない、ありがたい人にならねばいけない。<br><br>偉い人になると敵から怨まれる。<br><br>英雄の末路哀れなのはそのためです。<br><br>明治天皇がおかくれになったとき、みな二重橋で御平癒を祈った。<br><br>全国では何万という人が祈ったでしょう。<br><br>それでもおかくれになった。<br><br>これは明治天皇は日清日露の戦いをやったので、支那人やロシア人から怨まれる。<br><br>その怨みは日本の中心の天皇に集まるんです。<br><br>なにしろ人間はときどき思い出しては怨みますから始末が悪い。<br><br> 馬鹿馬鹿しいことでも先方の言うようにしてやるのがいい。<br><br>災難とか運が悪いとか言うのはみんなこれです。<br><br>偶然なんていうのは絶対ないんです。<br><br>それさえ判れば苦しいときには、ああこれは自分が種を蒔いたんだと考えることができるんです。<br><br> いまは世の中がみんな怨みっこです。<br><br>愛するなんてことは少しもない。<br><br>自分だけいい子になろうとしている。<br><br>こういう目で政治を見るとなっていないです。<br><br>また国民もこれが判らないんで苦しめられるんですよ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Lei do Espírito e a Realidade do Cotidiano</h2>
 <p>Certa mulher, cerca de quarenta dias após o parto, foi vítima de um incêndio e, desde então, desenvolveu um distúrbio mental, assemelhando-se a uma possessão por espírito de raposa. Se ela conseguir dormir, será curada. Os transtornos mentais pós-parto, em particular, têm uma recuperação muito favorável. A razão para tal é que, após o parto, a mulher tem menos sangue, o que a torna vulnerável à influência de espíritos. Se o sangue for abundante, a possessão não ocorre.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Eu costumo dizer: não se tornem pessoas importantes; tornem-se pessoas que inspiram gratidão. Quem se torna importante atrai o ressentimento de seus inimigos. É por essa razão que o fim dos grandes heróis é, tantas vezes, melancólico. Quando o Imperador Meiji faleceu, uma multidão orou por sua recuperação diante da ponte Nijubashi. Dezenas de milhares de pessoas em todo o país certamente fizeram o mesmo, e ainda assim ele partiu. Isso se deu porque o Imperador Meiji conduziu as guerras Sino-Japonesa e Russo-Japonesa, atraindo o rancor dos chineses e dos russos. Esse ressentimento converge para a figura central do Japão, o imperador. O mais problemático é que os seres humanos remoem suas mágoas e as reavivam de tempos em tempos.</p>
 <p>Mesmo em situações que pareçam absurdas, é prudente ceder à vontade do outro. Infortúnios e má sorte são, invariavelmente, manifestações desse princípio. O acaso é uma ilusão; ele simplesmente não existe. Compreendendo isso, nos momentos de aflição, podemos pensar: “Ah, isto é o resultado de sementes que eu mesmo plantei”.</p>
 <p>O mundo de hoje é um ciclo vicioso de ressentimentos. O amor praticamente inexiste. Cada um busca apenas o próprio bem-estar. Analisar a política sob essa ótica revela um quadro desolador. E o povo, por não compreender essa realidade, acaba sendo o maior prejudicado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年2月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年二月八日（日） ――産後四十日ほどの女、火事に遭い、以来気が狂ってちょうど狐つきのようになります。<br/><br/> 眠れるようになればよい、治ります。<br/><br/>産後の精神病は特に治りいいです。<br/><br/>それは産後は血が少ないから霊が憑りやすいんです。<br/><br/>血が充分あれば憑依しません。<br/><br/> 神前結婚の形式を私も考えているんですがね。<br/><br/>いままでの神前、仏前結婚はあまり感心できません。<br/><br/> ――先日いたしましたときは祝詞と誓詞の中へ観音様と大先生の御名前を入れさせていただきました。<br/><br/> 天津祝詞は結婚式にはいりません。<br/><br/>お祀りのときは上げなさい。<br/><br/> ――善言讃詞と祝詞と両方を上げます場合、日月地大神守り給へ幸倍賜へが重複いたしますが…… 重なってもかまわない……仏壇には拍手を三つ打つ。<br/><br/>神道では五十日祭までは拍手の音を立てないが、こっちでは音を立ててかまわない。<br/><br/>仏は現界でないから二拍手が本当かもしれませんが正式は三拍手、日月地だから三がよい。<br/><br/>いままでは地がなかったんですから……結婚や葬式の形式も作りたいと思ってます。<br/><br/>身体がすっかりよくなったらそういうのを作りたい。<br/><br/>……出雲の神様は営業がうまいですね。<br/><br/>大国主命と大黒天とは縁もなにもない。<br/><br/> ――四人の子が脳膜炎を次々に患い、今度その四人目（二歳）が死にましたが…… なにかわけがある。<br/><br/>なにか祟っているか、罪が深いと取れないんですよ。<br/><br/>そんなのもどうこう考えないで自然に任せなさい。<br/><br/>講習を受けたからとてみんな助かるわけではない。<br/><br/>いまは大清算が始まっている。<br/><br/>観音様に救われるというのは亡ぶべき運命の者が、例えば五人死ぬべきものが二人か三人ですまされることで、ぜんぜん死なずに助かるわけには行かない。<br/><br/>いまはたいへんな時期だからね。<br/><br/>難しいもんだが、これは判る人は判るし判らぬ人は判らない。<br/><br/>……生きている人がグズグズしていると霊が大いに働いて判らせるということがずいぶんある。<br/><br/> ――死んでからあの世で判る人が多いです。<br/><br/>御守りのことが存命中は判らず霊界へ行って初めて判り、「お蔭で明るい所にいることができます」と非常に感謝されたことがあります。<br/><br/> この道で助かるにはやはり人間としての道を踏まねばならない。<br/><br/> 新家庭は必ず仏壇を設けねば駄目なんです。<br/><br/> 霊媒に観音様が憑ったからとて丸呑みにはできません。<br/><br/> ふつうの観音様や仏壇に善言讃詞を上げても駄目です。<br/><br/>やむを得ないとき……例えば光明如来をいただこうとしているが、表装がまだできないときは別ですが。<br/><br/> ――茨城の太田町で先日日蓮宗の行者が四、五十名集まって修行中、その指導者格の人に金色の光が見えたので、よく調べたところその中に一人御守りをいただいた人がおりました。<br/><br/> 光明如来をお祀りすると離縁もなくなる。<br/><br/>こんなのがある。<br/><br/>少し頭の足りない主人があり、その細君が光明如来をお祀りしたところ、だんだん主人の頭がよくなり、この分なら一生つれ添っても大丈夫だというわけで納まってしまいました。<br/><br/>夫婦喧嘩もしなくなります。<br/><br/>光のために動物霊が萎縮するんです。<br/><br/>喧嘩は動物霊ですからね。<br/><br/> 支那でも道教の信者は霊格が高いようです。<br/><br/>新しい信者が掟を破って肉食などして帰ると門番に見破られ殴られるそうです。<br/><br/> ――今度の帝銀事件の家も代々質屋でだいぶ怨まれてましたが、この前に入った夫婦も変死し、空家になっていたのを帝銀が借りたのだそうです。<br/><br/> 私は前に相場が好きでよくやったんですがね。<br/><br/>まあ損ばかりでしたが、兜町辺りには怨みの霊がたくさんいて、あすこから持ってくる紙幣についている。<br/><br/>悪銭身につかずとは本当ですよ。<br/><br/>だから私は損ばかりしていたんです。<br/><br/>それが判ってから相場はやめて鉱山を始めました。<br/><br/>こうして信者の持ってくる金は浄財ばかりです。<br/><br/>霊はなんにでもつき作用します。<br/><br/>怨みの霊が家に入ると家の霊が曇る。<br/><br/>松下の家にはその家を作った大工……まだ生きてるんです……白い髭の老人の霊が来たそうです。<br/><br/>自分の作った家に執着を持っているからですね。<br/><br/>だから人を苦しめてはいけないんです。<br/><br/> 私はよく言うんです。<br/><br/>偉い人になってはいけない、ありがたい人にならねばいけない。<br/><br/>偉い人になると敵から怨まれる。<br/><br/>英雄の末路哀れなのはそのためです。<br/><br/>明治天皇がおかくれになったとき、みな二重橋で御平癒を祈った。<br/><br/>全国では何万という人が祈ったでしょう。<br/><br/>それでもおかくれになった。<br/><br/>これは明治天皇は日清日露の戦いをやったので、支那人やロシア人から怨まれる。<br/><br/>その怨みは日本の中心の天皇に集まるんです。<br/><br/>なにしろ人間はときどき思い出しては怨みますから始末が悪い。<br/><br/> 馬鹿馬鹿しいことでも先方の言うようにしてやるのがいい。<br/><br/>災難とか運が悪いとか言うのはみんなこれです。<br/><br/>偶然なんていうのは絶対ないんです。<br/><br/>それさえ判れば苦しいときには、ああこれは自分が種を蒔いたんだと考えることができるんです。<br/><br/> いまは世の中がみんな怨みっこです。<br/><br/>愛するなんてことは少しもない。<br/><br/>自分だけいい子になろうとしている。<br/><br/>こういう目で政治を見るとなっていないです。<br/><br/>また国民もこれが判らないんで苦しめられるんですよ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

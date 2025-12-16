@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku57</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の盲点と自然良能力 『地上天国』26号、昭和26(1951)年7月25日発行 現代医学の誤っている事は、常に私の唱えている通りであるが、その中で最も誤っている点は何かというと、人間が先天的に保有している自然良能力を全然無視している事であって、それはこうである。<br><br> 今仮に、病気に罹るとする、早速お医者に診て貰うと、お医者は「早く来てよかったですね、もし手遅れになると飛んでもない事になるところでした」というのはよく聞く話であって、全く医学では発病するや放っておくと、益々悪くなるように思うからである。<br><br>そこで極力それを喰い止めるべく薬剤をはじめ、種々の療法を行うのであるが、これにみても医学は手遅れになるのを大いに嫌い、何でも早い内に喰い止めなければいけないと思う点に、大変な誤りがある事を教えなければならないのである。<br><br>何となれば病気とはいつもいう通り毒素の排除作用であるから、そのまま放っておけば順調に排除されてしまい、病気は治るに決っている。<br><br>すなわち熱、咳、痰、鼻汁、汗、下痢、痛み、痒（かゆ）み等あらゆる苦痛がそのためであるから、少し我慢さえすれば、汚物は出るだけ出て体内は綺麗になるからである。<br><br>としたら手遅れなどという意味はない訳である。<br><br>ところがこの理を知らない医学は、反対の解釈であるから、放っておく事を非常に恐れ戒める、ツマリ出ようとする汚物を出さないようにして、固めるのをいいとしている。<br><br>これでは病気根治など出来ないのは当り前である。<br><br>それから今一つの医学の盲点は、よく怪我をしたり、火傷などすると、大抵は膿（う）む事になるが、これをまた非常に恐れ膿を出さないよう種々の方法を行うが、これも大変な間違いである。<br><br>というのはそういう刺戟によってその部へ毒素が集まるもので、どんな人間でも必ず相当量の毒素を保有しているから、何かの機会があれば体外へ排泄されようとして、たちまち傷口目掛けて集中し、排泄されようとするのであるから、化膿の部分が大きい程毒素も多く出る訳ではなはだ結構なのである。<br><br>ところが医学は化膿するのは黴菌が侵入して繁殖するためと、悪い意味に解釈するから、極力化膿を止めようとし殺菌剤などを使い、冷やしたり、注射をしたり、安静にしたりして、色々な手当を行う、という訳で吾々から見れば、馬鹿馬鹿しい程の逆をやっている訳である。<br><br>ところがこの殺菌剤が問題である。<br><br>というのはこれがまず筋肉から滲透し、時日が経つと恐るべき中毒作用を起す事になる。<br><br>何しろいかに微細な黴菌といえども、生物である以上、それを殺す程の薬剤としたら、人体に与える影響もまた甚（はなは）だしいのである。<br><br>それで消毒剤が古くなると猛毒に変化し、早晩この浄化が起る、すなわち発熱、痛み、不快感等非常に悪性の悩みで、その際医師に診（み）せると原因不明の病気と言われるが、何ぞ知らんこの原因こそ医療が作ったのであるが、マサカ医師としては消毒薬が原因であるなどとは夢にも思えないから、治療の施しようもないというのはよく聞く事である。<br><br> このように人体は、常に汚物排除の清掃作用が起るので、これを称して自然良能力というのである。<br><br>このように人間は生まれながらに病気を治す自然良能力をもっているとしたら、この良能力を尊重し、発揮させる方法こそ、真の医学であるべきにかかわらず、反ってその良能力を阻止するのを可として、それを進歩させるのであるから、いかに誤っているかが分るであろう。<br><br>これは理屈ではない、何よりも事実がよく示している。<br><br>仮に寒冒に罹るとする、これを最初から何もせず放っておけば、前述のごとく速かに治ってゆき、普通一週間くらいで済むものを、医療を受けると三週間も四週間もかかる事になる。<br><br>しかも自然療法なら、支障なく順調に治ってゆくが、医療を行うと仲々治らない。<br><br>余病が併発したり悪化したりする。<br><br>中には結核になる人さえある。<br><br>しかしたまたま医療で治る事もないではないが、それは医療の妨害に勝つという旺盛な治病力の持主だが、こういう人はまことに少なく、大部分は溶解毒素が一時的にもせよ固まって全快したようになるのである。<br><br> 以上によって大体分ったであろうが、事実現代医学は大いに進歩したように見え、有難がっているところにその迷蒙さがあるのである。<br><br> 以上によってみても、人間は自然良能力という医療も及ばない程の、素晴しい治病力を天から与えられている以上、これを知っただけでもいかに大きな幸福を掴み得たかである。<br><br>ところが本教浄霊は、その自然良能力をより強化し、より促進させる方法であるから、最も進歩した合理的治病法である事を知るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cegueira da Medicina e o Poder Natural de Cura</h2>
 <p>Conforme venho constantemente afirmando, a medicina moderna incorre em equívocos. Dentre eles, o mais grave reside na completa indiferença perante a capacidade natural de cura, um poder inato ao ser humano.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>É verdade que, ocasionalmente, uma pessoa pode se curar através da medicina, mas isso ocorre apenas com indivíduos cujo poder de cura inato é vigoroso o suficiente para sobrepujar os obstáculos criados pelo tratamento. Tais casos são raros. Na grande maioria das vezes, as toxinas que estavam em processo de dissolução são meramente solidificadas, gerando uma falsa aparência de recuperação plena.</p>
 <p>Pelo que foi exposto, creio que a questão se tornou clara. A aparente e tão aclamada evolução da medicina moderna é, na verdade, o que mantém as pessoas em estado de profunda ilusão.</p>
 <p>Diante do exposto, compreendemos que o ser humano foi agraciado por Deus com um poder de cura formidável, a capacidade natural, que supera em muito os recursos da medicina. A simples conscientização desse fato já representa a conquista de uma felicidade imensurável. O Johrei de nossa Igreja, por sua vez, é o método que fortalece e acelera essa capacidade natural de cura. Assim, todos poderão compreender que ele constitui a mais avançada e racional terapêutica para a erradicação das doenças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の盲点と自然良能力 『地上天国』26号、昭和26(1951)年7月25日発行 現代医学の誤っている事は、常に私の唱えている通りであるが、その中で最も誤っている点は何かというと、人間が先天的に保有している自然良能力を全然無視している事であって、それはこうである。<br/><br/> 今仮に、病気に罹るとする、早速お医者に診て貰うと、お医者は「早く来てよかったですね、もし手遅れになると飛んでもない事になるところでした」というのはよく聞く話であって、全く医学では発病するや放っておくと、益々悪くなるように思うからである。<br/><br/>そこで極力それを喰い止めるべく薬剤をはじめ、種々の療法を行うのであるが、これにみても医学は手遅れになるのを大いに嫌い、何でも早い内に喰い止めなければいけないと思う点に、大変な誤りがある事を教えなければならないのである。<br/><br/>何となれば病気とはいつもいう通り毒素の排除作用であるから、そのまま放っておけば順調に排除されてしまい、病気は治るに決っている。<br/><br/>すなわち熱、咳、痰、鼻汁、汗、下痢、痛み、痒（かゆ）み等あらゆる苦痛がそのためであるから、少し我慢さえすれば、汚物は出るだけ出て体内は綺麗になるからである。<br/><br/>としたら手遅れなどという意味はない訳である。<br/><br/>ところがこの理を知らない医学は、反対の解釈であるから、放っておく事を非常に恐れ戒める、ツマリ出ようとする汚物を出さないようにして、固めるのをいいとしている。<br/><br/>これでは病気根治など出来ないのは当り前である。<br/><br/>それから今一つの医学の盲点は、よく怪我をしたり、火傷などすると、大抵は膿（う）む事になるが、これをまた非常に恐れ膿を出さないよう種々の方法を行うが、これも大変な間違いである。<br/><br/>というのはそういう刺戟によってその部へ毒素が集まるもので、どんな人間でも必ず相当量の毒素を保有しているから、何かの機会があれば体外へ排泄されようとして、たちまち傷口目掛けて集中し、排泄されようとするのであるから、化膿の部分が大きい程毒素も多く出る訳ではなはだ結構なのである。<br/><br/>ところが医学は化膿するのは黴菌が侵入して繁殖するためと、悪い意味に解釈するから、極力化膿を止めようとし殺菌剤などを使い、冷やしたり、注射をしたり、安静にしたりして、色々な手当を行う、という訳で吾々から見れば、馬鹿馬鹿しい程の逆をやっている訳である。<br/><br/>ところがこの殺菌剤が問題である。<br/><br/>というのはこれがまず筋肉から滲透し、時日が経つと恐るべき中毒作用を起す事になる。<br/><br/>何しろいかに微細な黴菌といえども、生物である以上、それを殺す程の薬剤としたら、人体に与える影響もまた甚（はなは）だしいのである。<br/><br/>それで消毒剤が古くなると猛毒に変化し、早晩この浄化が起る、すなわち発熱、痛み、不快感等非常に悪性の悩みで、その際医師に診（み）せると原因不明の病気と言われるが、何ぞ知らんこの原因こそ医療が作ったのであるが、マサカ医師としては消毒薬が原因であるなどとは夢にも思えないから、治療の施しようもないというのはよく聞く事である。<br/><br/> このように人体は、常に汚物排除の清掃作用が起るので、これを称して自然良能力というのである。<br/><br/>このように人間は生まれながらに病気を治す自然良能力をもっているとしたら、この良能力を尊重し、発揮させる方法こそ、真の医学であるべきにかかわらず、反ってその良能力を阻止するのを可として、それを進歩させるのであるから、いかに誤っているかが分るであろう。<br/><br/>これは理屈ではない、何よりも事実がよく示している。<br/><br/>仮に寒冒に罹るとする、これを最初から何もせず放っておけば、前述のごとく速かに治ってゆき、普通一週間くらいで済むものを、医療を受けると三週間も四週間もかかる事になる。<br/><br/>しかも自然療法なら、支障なく順調に治ってゆくが、医療を行うと仲々治らない。<br/><br/>余病が併発したり悪化したりする。<br/><br/>中には結核になる人さえある。<br/><br/>しかしたまたま医療で治る事もないではないが、それは医療の妨害に勝つという旺盛な治病力の持主だが、こういう人はまことに少なく、大部分は溶解毒素が一時的にもせよ固まって全快したようになるのである。<br/><br/> 以上によって大体分ったであろうが、事実現代医学は大いに進歩したように見え、有難がっているところにその迷蒙さがあるのである。<br/><br/> 以上によってみても、人間は自然良能力という医療も及ばない程の、素晴しい治病力を天から与えられている以上、これを知っただけでもいかに大きな幸福を掴み得たかである。<br/><br/>ところが本教浄霊は、その自然良能力をより強化し、より促進させる方法であるから、最も進歩した合理的治病法である事を知るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

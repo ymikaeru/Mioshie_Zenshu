@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280726</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月26日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月二十六日 今『医学革命の書』という本を書いてますが、その中でちょっと変わったことを書きましたから、それを読ませます。<br><br> （御論文『医学革命の書』「科学で病気は治らない」） 今読んだとおり医学というものは実に馬鹿馬鹿しいものなのです。<br><br>つまり病気というものは、なんだかぜんぜん分からないでいて、だろうくらいでやっているのです。<br><br>「この薬が効くだろう」とか「薬で病気が治るだろう」という、はなはだ確信のないことをやっているのですからして、これが本当に分かったら「とんでもない代物」ということになります。<br><br>そうして人間を病気で苦しめて命までまき上げるのですから、まったくとんでもない代物です。<br><br>これをだんだんはっきり説いて世界的に知らせるわけなのです。<br><br>この間ラジオで聞きましたが、湯川博士を囲んでの座談会があったその録音ですが、それについてちょっとおもしろいことがあるので読ませます。<br><br> （御論文「超科学」） このことはちょっと難しいのですが、ひととおりは知っておかないと、ああいうことを聞いたり読んだりした時に、ぜんぜん分からなくてはしようがありませんから。<br><br>今の科学でもっとも進歩した説は素粒子論というのですが、素粒子というのはうまい言葉を使ってます。<br><br>「素」というのは粗いということで、つまりまだ仕上げができてないというわけです。<br><br>物質のもっとも細かい、その物質の粒子を素粒子というのです。<br><br>ところでこれも最初は湯川博士が理論はそうだという考え方だったのですが、宇宙線撮影の時に、写真に六つか七つ写って、それが素粒子だということになったのです。<br><br>次に物性というのは、物の性、つまりわれわれからいうと霊で、一つの気体です。<br><br>これはたぶんそういうものがあるのだろうという想像なのです。<br><br>それが粒子科学の今一番進歩した説なのです。<br><br>ところがその物性粒子よりまだまだもっと細かいものがいくらでもあるので、さっき読んだとおり無限なのです。<br><br>そこで今の物性粒子より先に行くと科学では分からない、というよりか、どうすることもできないのです。<br><br>つまり顕微鏡がもっとウンと発達しない限りしようがありません。<br><br>そうなると一つの気体になるのだから、気体は科学でははっきりつかむことはできないので、「たぶんあるべきだ」というところまではゆくのですが、ところが気体よりかもっと奥があるのです。<br><br>つまり霊、霊界といって、これが何段にもなっているのです。<br><br>そこで霊にも上中下といろいろあるのです。<br><br>その霊の根本というのは光なのです。<br><br>光の根本は太陽なのです。<br><br>太陽の光の根本というのは、太陽の黒点なのです。<br><br>これがつまり大宇宙の種の芯のようなものです。<br><br>しかし天文学ではこれはとても分からないのです。<br><br>黒点は一つに見えますが、いくつもあるものです。<br><br>望遠鏡で見ると分かりますが、私は前に科学博物館で見たことがありますが、いくつも散らばってますが、それがまとまって人間に見えるのが黒点です。<br><br>この黒点というのがたいへんなものです。<br><br>つまりこれが太陽を支配しているものです。<br><br>太陽の中心です。<br><br>それで○ヽ（ス）のヽが黒点なのです。<br><br>それで浄霊で病気が治るこの光は黒点から出ているものです。<br><br> こういうことは説明すればきりがないし、またそんなに深い所まで知る必要はないのだから、それだけ知っていればよいわけです。<br><br>今言ったとおり科学の方では、その霊を認識しなければならないという手前にまで来ているのです。<br><br>ですから科学者の方では、まだ研究する問題が非常に多いということを、湯川博士なども言ってますが、だんだん研究問題が増えて困っていると言ってます。<br><br>それからまた一方の科学者は、実存主義の哲学の方ですが（そこまでゆくと哲学も科学と同じですが）その方は、もうこれ以上はしようがないと行き詰まっている一派があります。<br><br>両方とも間違ってはいませんが、むしろ行き詰まった方が先見の明ありと言えます。<br><br>その科学が行き詰まったその先はどうだということを書きますが、書いたら湯川博士にも送るつもりですが、どのくらい分かるか、分からないか、それは未定ですが、少なくともヒントは得られると思います。<br><br>それが分かれば、浄霊で病気が治るということは科学で充分説明ができます。<br><br>ただこっちの方の科学は現代の科学よりずっと進んだものです。<br><br>そこで薬や機械で病気を治すということは、実に低級な未開人的なものです。<br><br>それを薬などをありがたがってのむということは、これが二十一世紀ぐらいになってみると、二十世紀の奴はナンテ幼稚なものだったか、実際あの時分に文明とか文化と言ったが、実際哀れなものだと言って笑うことになります。<br><br>ただそれを咀嚼するだけの頭脳が今の人にはできてないから、なかなか難しいのです。<br><br>けれどもやはり真理ですから、一時は分からなくても結局は分かることは間違いありません。<br><br>ただそれまで時を要しますが、それを証拠立てるためにこうやって病気が治るということを見せているというわけですから、その点から言えばそんなに難しくはありません。<br><br>ですからそういう意味からいっても、今までの宗教というものは幼稚なものです。<br><br>ですから本当を言えばキリストでも釈迦でも、それはまだまだごく子供みたいなもので、幼稚なものです。<br><br>しかしその時分には、やはりそれほど深い所や高い所を人間に知らせる必要がなかったから、あの時代の人間にはああいうような説き方でよかったのですが、もうそんなことを言っては追いつかないからして、結局、時がそこまで進んだわけです。<br><br>文化がここまで進んだということは、もうそういうことも知らせなければならないという意味もあります。<br><br>他に悪魔の方の関係もありますが、それは別の話になりますが、今は科学、文化の発達の先をお話ししたわけです。<br><br>そういうわけですから、もう近い将来、ある時期に行くとだんだん分かってきます。<br><br> この間聞いた話ですが、最近アメリカでは「今の医学は駄目だ。<br><br>医学でないもの、そういった薬とか機械を使わないで治す方法を研究しなければならない」と言っている一派ができたそうですが、だいぶ近づきつつあるわけです。<br><br>ハワイはだいぶすばらしい成蹟で、来月あたり樋口さんはアメリカに行くことになってますが、しかしいろいろと、なかなか複雑な事情がありますから、簡単にはゆかないが、神様がよい具合にされるだろうと思ってます。<br><br>今アメリカの人に分からせるのが一番手っ取り早いですから、神様は予想もつかないような手を打つに違いないと思います。<br><br>そういうようで、もう一息のところです。<br><br> それから浄化も、本当の浄化が強くなって病人が至る所に続々出て、死ぬ人がたいへんだということも、大体その時期は分かってますが、まだもう数年くらいかかるらしいです。<br><br>霊界が明るくなるその順序から考えてみると、少なくとも二、三年先になって著しくなり、はっきりするというような順序になってきつつあります。<br><br>これは最近はっきり分かりました。<br><br>ですから結局今は神様はその準備を抜け目なくされているのです。<br><br>今読んだ論文などもその準備のうちの一つです。<br><br>これらは時の進むに従って深い所やはっきりした言い方をします。<br><br>それは分かってますが、文章に書くようにはっきりするのは、やはり時が来るとそうなってくるのです。<br><br>ですからとにかくおもしろいものです。<br><br>それで神様の方は早過ぎもせず遅過ぎもせず、ちょうどうまい具合にやるのです。<br><br> それからこの間も言ったとおり、肩の固いのを柔らかくするについて注意しなければならないことは、肩の固いというが肩の凝りは、昔から凝ると按摩でもむとか、ふつうよく叩いたりしますが、そういう頭があるために浄霊の場合も力がはいりやすいのです。<br><br>ところが肩の凝りというのが一番固いのですからして、特にその力を抜かなければいけません。<br><br>それはどれでも力を抜かなければいけないが、肩はどうも力を入れたい気分になりますから、それを逆に、肩が固いほど力を抜くと効果があり柔らかくなります。<br><br>私も経験があります。<br><br>始終按摩をやってましたが、按摩をやるほど、一時は気持ちがよいですが、後が凝ります。<br><br>ですからだんだん強くなります。<br><br>それに気がついてからは素人の女中にもませるようにしたために、それからはかえってだんだん凝らなくなりました。<br><br>そういうようで、力を入れるのや、もむのと反対に、力を入れずに柔らかくするというのが一番なのです。<br><br>それでむしろ後から、凝りの中心辺りを狙ってやると、割合に溶けます。<br><br>そうすると、この間も言ったとおり一番は食欲が非常に増えます。<br><br>だから肺病なら衰弱を非常に少なくすることになります。<br><br>それから消化不良とか胃下垂とか胃痙攣とかにも非常に効果があります。<br><br>だから上半身の病気は肩を柔らかくするということが一番よいということを知って、肩を中心にやるとよいです。<br><br>それから次は頸のまわりですが、特に延髄付近から淋巴腺、ここは大いにやらなければなりません。<br><br>この間おもしろいことがありましたが、舌がつりロレツのまわらない人ですが、この原因が鼻の奥にあります。<br><br>舌がつるのはふつうはここ（顎下）で、横からつるのがふつうですが、縦につるのがあります。<br><br>それは医学で言うアデノイドという所の辺からつるのです。<br><br>ですからそういうのは、ここ（鼻と口の真ん中の奥）と後ろの真ん中をやると、そのつるのがずっとよくなります。<br><br>だからその原因というものは、実にあんがいな所にあるものです。<br><br>それから足や腰の悪い人で、頸をやってから良くなる人もたくさんあります。<br><br>上半身は今言うとおり肩を中心にするのです。<br><br>下半身はなんといっても腰の真ん中で、そこをやると足がとても軽くなります。<br><br>また息切れもとてもよくなります。<br><br>これは私自身の経験がありますが、前には坂を上ったりするとだいぶ息が切れるのです。<br><br>原因は肋間などはそれほど関係はないようだから、これはおかしいと自分で、今言う腰の尾てい骨の付近を浄霊したところが、足が非常に軽くなって息が切れなくなったのです。<br><br>ですから今でも、箱根の山は坂がたくさんありますが、上るのに私はとても速いのです。<br><br>若い人には負けません。<br><br>しかし今の若い人はもっと酷いのがいて、私の方で加減してやっているのです。<br><br>「明主様はとてもお速いです。<br><br>追いつかない」と言う人がありますから、「それは年のせいだ」と言うのです。<br><br>腰のここをやるだけでそんなに違います。<br><br> それからもう一つは女の人の化粧ですが、これでいろいろなことがあるのです。<br><br>第一は、化粧品つまりオシロイやクリームを止めると、半年ないし一年は真っ黒で、南洋の土人みたいになることがありますが、それを我慢して通り越すと非常にきれいになります。<br><br>これはこの間のお蔭話にもありましたが、これは化粧できれいになったのと違って、透きとおってきれいなのです。<br><br>それからもう一つは、近ごろの化粧品はいろんな薬毒がはいってますから、それがしみ込んで行って、顔の皮膚病が起る人が随分あります。<br><br>それから昔から逆上（のぼせ）性といって、逆上せると顔が熱くなりますが、これは字で書いても逆上ですから、下から血が上るようですが、そうではないので、顔に浄化が起って熱くなるのです。<br><br>これも昔からオシロイはつけており、その時分のオシロイというのは非常に鉛を使います。<br><br>それでここに浄化が起って熱くなるのです。<br><br>それからもう一つおもしろいのは、ある立派な中教会長で、いくらか痛みもありますが、歯がグラグラになるというので私が浄霊してやりました。<br><br>それから顔が非常に熱くて熱があるのです。<br><br>それから熱をとるために浄霊すると歯がだんだん締まってきました。<br><br>そうすると歯のグラグラになるのは化粧品中毒なのです。<br><br>実に恐ろしいものです。<br><br>これは歯医者に行ったら、全部抜いて総入れ歯にしてしまうところでした。<br><br>それからもっと恐ろしいのは、最近のことで、だいぶ年をとった人ですが、パーマネントをかけに行って変な薬をつけてもらったのです。<br><br>もっとも近ごろは変な薬を使いますが、それが頭にしみ込んだのですが、そのしみ込んだ痛さにびっくりしたのです。<br><br>それからだんだん浄化が起って、浄霊しても効かないのだそうです。<br><br>それでいろんな症状が起って、霊的ではないかと、私の所に聞きに来ましたが、聞いてみるとパーマネントの中毒に違いないので、ある一定の日数がたって命に別状がなければ大丈夫だ、ということを言ってやりましたが、それから二、三日たって死にました。<br><br>これも古い人です。<br><br>ですから近ごろはだんだん強い薬になってきたために、とんでもないことになってきたようです。<br><br>だからして化粧品をつけないということと、パーマなども薬を使わないでやってもらえばよいです。<br><br>これは電気でちぢらせるだけですから、薬を使わなくてもできるのです。<br><br>ただ長持ちをするというために使うのでしょう。<br><br>とにかく化粧品を止めるようにすると、とてもきれいになります。<br><br>少しの辛抱です。<br><br>それに大体お化粧するのは時間がかかるために、それはたいへんな損です。<br><br>それからあれはまた、夫婦喧嘩の一つの原因になります。<br><br>私も経験がありますが、玄関で待っていて、いつまでたっても出てこないので、あんまり遅いからなにをしているかと見ると、鏡台にかじりついて、こうやったりああやったり、自分の気に入るまでやってます。<br><br>それからどこかに行って、劇場などで便所に行って幕が開いても出てこないので行ってみると、一生懸命顔をたたいているのです。<br><br>ですから女の化粧というのは一種の罪悪です。<br><br>もっとも根本はつまり人工的にきれいに見せようというのですが、それを昔から女の身仕舞とかなんとか言って、女の道徳のように思ってますが、それはそういう理屈もあるけれども、実際言うとあれはごまかしで、一種の欺瞞行為です。<br><br>これが顔だからよいようなものの、さもなければ、馬鹿な者が利巧に見せようとか、金のない者が金持ちに見せようというのと理屈は同じになります。<br><br>大体女は暖かい心になることです。<br><br>そこで血がきれいになれば感じが良くなりますから、ただ皮膚だけを真っ白にしたところで、それよりか感じのよい方がかえってよいです。<br><br>妙な話になりましたが、結局男でも女でも、感じがよいのが一番です。<br><br>それは上面のきれいということは、芸者とかパンパンとか女郎という商売女にはよいでしょうが、始終付き合うのは感じがよいというのが厭きません。<br><br>そこで芯からの美しさです。<br><br>私はただきれいだけではさっぱり魅力はありません。<br><br>煽（おだ）てるわけではないが、やはり信者の人は実際感じがよいです。<br><br>私は随分不思議に思うことがありますが、公平にありのままを言うと、顔の形はあんまり感心しないのがありますが、その人から受ける感じが非常によいので、不思議なものだなと思うことがあります。<br><br>そういうようで、化粧品も一つの薬毒ですから、そこで急に止めるというわけにはゆかないが、だんだん少なくして、ついには止めるという漸進的手段をとったらよいと思います。<br><br>その結果は大いにプラスになると思います。<br><br>現に化粧品を止めたためにきれいになってよかったと言って喜んでいる人があります。<br><br>しかし薬毒を治すのと同じようで、一時的のことはしかたがありません。<br><br>それがために利益するのは、今言ったとおりたいへんなものですから、これがだんだん世の中に拡がるに従って、いろんな点に利益があると思います。<br><br>こういうこともミロクの世の一つの条件かもしれません。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ciência em seu Limite e a Verdade sobre a Purificação</h2>
 <p>Atualmente, dedico-me à escrita de um livro intitulado “O Livro da Revolução na Medicina”. Nele, inseri um trecho que se desvia do convencional, o qual gostaria que lhes fosse lido agora.</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>O ato de a mulher se maquiar é, em si, uma espécie de pecado. Fundamentalmente, é uma tentativa de parecer bonita por meios artificiais. Antigamente, isso era chamado de “adorno feminino” e considerado parte da virtude da mulher. Embora haja certa lógica nesse pensamento, na realidade, trata-se de um engodo, uma espécie de ato de dissimulação. Como se trata do rosto, parece aceitável, mas o princípio é o mesmo de um tolo tentando parecer inteligente ou de um pobre se passando por rico.</p>
 <p>O mais importante para uma mulher é ter um coração cálido. Quando o sangue se purifica, a aura da pessoa se torna agradável. De que adianta ter a pele alva se a impressão que se passa é desagradável? Uma boa aura é muito mais valiosa. Pode parecer um assunto estranho, mas, no fim das contas, tanto para homens quanto para mulheres, o mais importante é transmitir um bom sentimento. A beleza superficial pode ser útil para mulheres de certas profissões, como gueixas ou prostitutas, mas, para o convívio diário, uma aura agradável é o que nunca enfada. É a beleza que emana do âmago. Para mim, a mera beleza exterior não tem atrativo algum. Não digo isso para lisonjear, mas os fiéis realmente têm uma aura agradável. Às vezes, fico maravilhado. Falando com total imparcialidade, encontro pessoas cujos traços faciais não são admiráveis, mas o sentimento que recebo delas é tão bom que chego a pensar em como isso é misterioso.</p>
 <p>Dessa forma, como os cosméticos são também uma forma de toxina, não é preciso abandoná-los de uma vez. Recomendo a adoção de uma abordagem gradual, diminuindo o uso aos poucos até parar completamente. O resultado será imensamente positivo. Já há muitas mulheres que, felizes, relatam como ficaram mais bonitas depois de abandonar a maquiagem. Assim como no tratamento das toxinas medicamentosas, é preciso suportar uma fase transitória, mas os benefícios, como já mencionei, são enormes. À medida que essa verdade se difundir pelo mundo, trará vantagens em diversos aspectos. Talvez esta seja também uma das condições do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月26日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月二十六日 今『医学革命の書』という本を書いてますが、その中でちょっと変わったことを書きましたから、それを読ませます。<br/><br/> （御論文『医学革命の書』「科学で病気は治らない」） 今読んだとおり医学というものは実に馬鹿馬鹿しいものなのです。<br/><br/>つまり病気というものは、なんだかぜんぜん分からないでいて、だろうくらいでやっているのです。<br/><br/>「この薬が効くだろう」とか「薬で病気が治るだろう」という、はなはだ確信のないことをやっているのですからして、これが本当に分かったら「とんでもない代物」ということになります。<br/><br/>そうして人間を病気で苦しめて命までまき上げるのですから、まったくとんでもない代物です。<br/><br/>これをだんだんはっきり説いて世界的に知らせるわけなのです。<br/><br/>この間ラジオで聞きましたが、湯川博士を囲んでの座談会があったその録音ですが、それについてちょっとおもしろいことがあるので読ませます。<br/><br/> （御論文「超科学」） このことはちょっと難しいのですが、ひととおりは知っておかないと、ああいうことを聞いたり読んだりした時に、ぜんぜん分からなくてはしようがありませんから。<br/><br/>今の科学でもっとも進歩した説は素粒子論というのですが、素粒子というのはうまい言葉を使ってます。<br/><br/>「素」というのは粗いということで、つまりまだ仕上げができてないというわけです。<br/><br/>物質のもっとも細かい、その物質の粒子を素粒子というのです。<br/><br/>ところでこれも最初は湯川博士が理論はそうだという考え方だったのですが、宇宙線撮影の時に、写真に六つか七つ写って、それが素粒子だということになったのです。<br/><br/>次に物性というのは、物の性、つまりわれわれからいうと霊で、一つの気体です。<br/><br/>これはたぶんそういうものがあるのだろうという想像なのです。<br/><br/>それが粒子科学の今一番進歩した説なのです。<br/><br/>ところがその物性粒子よりまだまだもっと細かいものがいくらでもあるので、さっき読んだとおり無限なのです。<br/><br/>そこで今の物性粒子より先に行くと科学では分からない、というよりか、どうすることもできないのです。<br/><br/>つまり顕微鏡がもっとウンと発達しない限りしようがありません。<br/><br/>そうなると一つの気体になるのだから、気体は科学でははっきりつかむことはできないので、「たぶんあるべきだ」というところまではゆくのですが、ところが気体よりかもっと奥があるのです。<br/><br/>つまり霊、霊界といって、これが何段にもなっているのです。<br/><br/>そこで霊にも上中下といろいろあるのです。<br/><br/>その霊の根本というのは光なのです。<br/><br/>光の根本は太陽なのです。<br/><br/>太陽の光の根本というのは、太陽の黒点なのです。<br/><br/>これがつまり大宇宙の種の芯のようなものです。<br/><br/>しかし天文学ではこれはとても分からないのです。<br/><br/>黒点は一つに見えますが、いくつもあるものです。<br/><br/>望遠鏡で見ると分かりますが、私は前に科学博物館で見たことがありますが、いくつも散らばってますが、それがまとまって人間に見えるのが黒点です。<br/><br/>この黒点というのがたいへんなものです。<br/><br/>つまりこれが太陽を支配しているものです。<br/><br/>太陽の中心です。<br/><br/>それで○ヽ（ス）のヽが黒点なのです。<br/><br/>それで浄霊で病気が治るこの光は黒点から出ているものです。<br/><br/> こういうことは説明すればきりがないし、またそんなに深い所まで知る必要はないのだから、それだけ知っていればよいわけです。<br/><br/>今言ったとおり科学の方では、その霊を認識しなければならないという手前にまで来ているのです。<br/><br/>ですから科学者の方では、まだ研究する問題が非常に多いということを、湯川博士なども言ってますが、だんだん研究問題が増えて困っていると言ってます。<br/><br/>それからまた一方の科学者は、実存主義の哲学の方ですが（そこまでゆくと哲学も科学と同じですが）その方は、もうこれ以上はしようがないと行き詰まっている一派があります。<br/><br/>両方とも間違ってはいませんが、むしろ行き詰まった方が先見の明ありと言えます。<br/><br/>その科学が行き詰まったその先はどうだということを書きますが、書いたら湯川博士にも送るつもりですが、どのくらい分かるか、分からないか、それは未定ですが、少なくともヒントは得られると思います。<br/><br/>それが分かれば、浄霊で病気が治るということは科学で充分説明ができます。<br/><br/>ただこっちの方の科学は現代の科学よりずっと進んだものです。<br/><br/>そこで薬や機械で病気を治すということは、実に低級な未開人的なものです。<br/><br/>それを薬などをありがたがってのむということは、これが二十一世紀ぐらいになってみると、二十世紀の奴はナンテ幼稚なものだったか、実際あの時分に文明とか文化と言ったが、実際哀れなものだと言って笑うことになります。<br/><br/>ただそれを咀嚼するだけの頭脳が今の人にはできてないから、なかなか難しいのです。<br/><br/>けれどもやはり真理ですから、一時は分からなくても結局は分かることは間違いありません。<br/><br/>ただそれまで時を要しますが、それを証拠立てるためにこうやって病気が治るということを見せているというわけですから、その点から言えばそんなに難しくはありません。<br/><br/>ですからそういう意味からいっても、今までの宗教というものは幼稚なものです。<br/><br/>ですから本当を言えばキリストでも釈迦でも、それはまだまだごく子供みたいなもので、幼稚なものです。<br/><br/>しかしその時分には、やはりそれほど深い所や高い所を人間に知らせる必要がなかったから、あの時代の人間にはああいうような説き方でよかったのですが、もうそんなことを言っては追いつかないからして、結局、時がそこまで進んだわけです。<br/><br/>文化がここまで進んだということは、もうそういうことも知らせなければならないという意味もあります。<br/><br/>他に悪魔の方の関係もありますが、それは別の話になりますが、今は科学、文化の発達の先をお話ししたわけです。<br/><br/>そういうわけですから、もう近い将来、ある時期に行くとだんだん分かってきます。<br/><br/> この間聞いた話ですが、最近アメリカでは「今の医学は駄目だ。<br/><br/>医学でないもの、そういった薬とか機械を使わないで治す方法を研究しなければならない」と言っている一派ができたそうですが、だいぶ近づきつつあるわけです。<br/><br/>ハワイはだいぶすばらしい成蹟で、来月あたり樋口さんはアメリカに行くことになってますが、しかしいろいろと、なかなか複雑な事情がありますから、簡単にはゆかないが、神様がよい具合にされるだろうと思ってます。<br/><br/>今アメリカの人に分からせるのが一番手っ取り早いですから、神様は予想もつかないような手を打つに違いないと思います。<br/><br/>そういうようで、もう一息のところです。<br/><br/> それから浄化も、本当の浄化が強くなって病人が至る所に続々出て、死ぬ人がたいへんだということも、大体その時期は分かってますが、まだもう数年くらいかかるらしいです。<br/><br/>霊界が明るくなるその順序から考えてみると、少なくとも二、三年先になって著しくなり、はっきりするというような順序になってきつつあります。<br/><br/>これは最近はっきり分かりました。<br/><br/>ですから結局今は神様はその準備を抜け目なくされているのです。<br/><br/>今読んだ論文などもその準備のうちの一つです。<br/><br/>これらは時の進むに従って深い所やはっきりした言い方をします。<br/><br/>それは分かってますが、文章に書くようにはっきりするのは、やはり時が来るとそうなってくるのです。<br/><br/>ですからとにかくおもしろいものです。<br/><br/>それで神様の方は早過ぎもせず遅過ぎもせず、ちょうどうまい具合にやるのです。<br/><br/> それからこの間も言ったとおり、肩の固いのを柔らかくするについて注意しなければならないことは、肩の固いというが肩の凝りは、昔から凝ると按摩でもむとか、ふつうよく叩いたりしますが、そういう頭があるために浄霊の場合も力がはいりやすいのです。<br/><br/>ところが肩の凝りというのが一番固いのですからして、特にその力を抜かなければいけません。<br/><br/>それはどれでも力を抜かなければいけないが、肩はどうも力を入れたい気分になりますから、それを逆に、肩が固いほど力を抜くと効果があり柔らかくなります。<br/><br/>私も経験があります。<br/><br/>始終按摩をやってましたが、按摩をやるほど、一時は気持ちがよいですが、後が凝ります。<br/><br/>ですからだんだん強くなります。<br/><br/>それに気がついてからは素人の女中にもませるようにしたために、それからはかえってだんだん凝らなくなりました。<br/><br/>そういうようで、力を入れるのや、もむのと反対に、力を入れずに柔らかくするというのが一番なのです。<br/><br/>それでむしろ後から、凝りの中心辺りを狙ってやると、割合に溶けます。<br/><br/>そうすると、この間も言ったとおり一番は食欲が非常に増えます。<br/><br/>だから肺病なら衰弱を非常に少なくすることになります。<br/><br/>それから消化不良とか胃下垂とか胃痙攣とかにも非常に効果があります。<br/><br/>だから上半身の病気は肩を柔らかくするということが一番よいということを知って、肩を中心にやるとよいです。<br/><br/>それから次は頸のまわりですが、特に延髄付近から淋巴腺、ここは大いにやらなければなりません。<br/><br/>この間おもしろいことがありましたが、舌がつりロレツのまわらない人ですが、この原因が鼻の奥にあります。<br/><br/>舌がつるのはふつうはここ（顎下）で、横からつるのがふつうですが、縦につるのがあります。<br/><br/>それは医学で言うアデノイドという所の辺からつるのです。<br/><br/>ですからそういうのは、ここ（鼻と口の真ん中の奥）と後ろの真ん中をやると、そのつるのがずっとよくなります。<br/><br/>だからその原因というものは、実にあんがいな所にあるものです。<br/><br/>それから足や腰の悪い人で、頸をやってから良くなる人もたくさんあります。<br/><br/>上半身は今言うとおり肩を中心にするのです。<br/><br/>下半身はなんといっても腰の真ん中で、そこをやると足がとても軽くなります。<br/><br/>また息切れもとてもよくなります。<br/><br/>これは私自身の経験がありますが、前には坂を上ったりするとだいぶ息が切れるのです。<br/><br/>原因は肋間などはそれほど関係はないようだから、これはおかしいと自分で、今言う腰の尾てい骨の付近を浄霊したところが、足が非常に軽くなって息が切れなくなったのです。<br/><br/>ですから今でも、箱根の山は坂がたくさんありますが、上るのに私はとても速いのです。<br/><br/>若い人には負けません。<br/><br/>しかし今の若い人はもっと酷いのがいて、私の方で加減してやっているのです。<br/><br/>「明主様はとてもお速いです。<br/><br/>追いつかない」と言う人がありますから、「それは年のせいだ」と言うのです。<br/><br/>腰のここをやるだけでそんなに違います。<br/><br/> それからもう一つは女の人の化粧ですが、これでいろいろなことがあるのです。<br/><br/>第一は、化粧品つまりオシロイやクリームを止めると、半年ないし一年は真っ黒で、南洋の土人みたいになることがありますが、それを我慢して通り越すと非常にきれいになります。<br/><br/>これはこの間のお蔭話にもありましたが、これは化粧できれいになったのと違って、透きとおってきれいなのです。<br/><br/>それからもう一つは、近ごろの化粧品はいろんな薬毒がはいってますから、それがしみ込んで行って、顔の皮膚病が起る人が随分あります。<br/><br/>それから昔から逆上（のぼせ）性といって、逆上せると顔が熱くなりますが、これは字で書いても逆上ですから、下から血が上るようですが、そうではないので、顔に浄化が起って熱くなるのです。<br/><br/>これも昔からオシロイはつけており、その時分のオシロイというのは非常に鉛を使います。<br/><br/>それでここに浄化が起って熱くなるのです。<br/><br/>それからもう一つおもしろいのは、ある立派な中教会長で、いくらか痛みもありますが、歯がグラグラになるというので私が浄霊してやりました。<br/><br/>それから顔が非常に熱くて熱があるのです。<br/><br/>それから熱をとるために浄霊すると歯がだんだん締まってきました。<br/><br/>そうすると歯のグラグラになるのは化粧品中毒なのです。<br/><br/>実に恐ろしいものです。<br/><br/>これは歯医者に行ったら、全部抜いて総入れ歯にしてしまうところでした。<br/><br/>それからもっと恐ろしいのは、最近のことで、だいぶ年をとった人ですが、パーマネントをかけに行って変な薬をつけてもらったのです。<br/><br/>もっとも近ごろは変な薬を使いますが、それが頭にしみ込んだのですが、そのしみ込んだ痛さにびっくりしたのです。<br/><br/>それからだんだん浄化が起って、浄霊しても効かないのだそうです。<br/><br/>それでいろんな症状が起って、霊的ではないかと、私の所に聞きに来ましたが、聞いてみるとパーマネントの中毒に違いないので、ある一定の日数がたって命に別状がなければ大丈夫だ、ということを言ってやりましたが、それから二、三日たって死にました。<br/><br/>これも古い人です。<br/><br/>ですから近ごろはだんだん強い薬になってきたために、とんでもないことになってきたようです。<br/><br/>だからして化粧品をつけないということと、パーマなども薬を使わないでやってもらえばよいです。<br/><br/>これは電気でちぢらせるだけですから、薬を使わなくてもできるのです。<br/><br/>ただ長持ちをするというために使うのでしょう。<br/><br/>とにかく化粧品を止めるようにすると、とてもきれいになります。<br/><br/>少しの辛抱です。<br/><br/>それに大体お化粧するのは時間がかかるために、それはたいへんな損です。<br/><br/>それからあれはまた、夫婦喧嘩の一つの原因になります。<br/><br/>私も経験がありますが、玄関で待っていて、いつまでたっても出てこないので、あんまり遅いからなにをしているかと見ると、鏡台にかじりついて、こうやったりああやったり、自分の気に入るまでやってます。<br/><br/>それからどこかに行って、劇場などで便所に行って幕が開いても出てこないので行ってみると、一生懸命顔をたたいているのです。<br/><br/>ですから女の化粧というのは一種の罪悪です。<br/><br/>もっとも根本はつまり人工的にきれいに見せようというのですが、それを昔から女の身仕舞とかなんとか言って、女の道徳のように思ってますが、それはそういう理屈もあるけれども、実際言うとあれはごまかしで、一種の欺瞞行為です。<br/><br/>これが顔だからよいようなものの、さもなければ、馬鹿な者が利巧に見せようとか、金のない者が金持ちに見せようというのと理屈は同じになります。<br/><br/>大体女は暖かい心になることです。<br/><br/>そこで血がきれいになれば感じが良くなりますから、ただ皮膚だけを真っ白にしたところで、それよりか感じのよい方がかえってよいです。<br/><br/>妙な話になりましたが、結局男でも女でも、感じがよいのが一番です。<br/><br/>それは上面のきれいということは、芸者とかパンパンとか女郎という商売女にはよいでしょうが、始終付き合うのは感じがよいというのが厭きません。<br/><br/>そこで芯からの美しさです。<br/><br/>私はただきれいだけではさっぱり魅力はありません。<br/><br/>煽（おだ）てるわけではないが、やはり信者の人は実際感じがよいです。<br/><br/>私は随分不思議に思うことがありますが、公平にありのままを言うと、顔の形はあんまり感心しないのがありますが、その人から受ける感じが非常によいので、不思議なものだなと思うことがあります。<br/><br/>そういうようで、化粧品も一つの薬毒ですから、そこで急に止めるというわけにはゆかないが、だんだん少なくして、ついには止めるという漸進的手段をとったらよいと思います。<br/><br/>その結果は大いにプラスになると思います。<br/><br/>現に化粧品を止めたためにきれいになってよかったと言って喜んでいる人があります。<br/><br/>しかし薬毒を治すのと同じようで、一時的のことはしかたがありません。<br/><br/>それがために利益するのは、今言ったとおりたいへんなものですから、これがだんだん世の中に拡がるに従って、いろんな点に利益があると思います。<br/><br/>こういうこともミロクの世の一つの条件かもしれません。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

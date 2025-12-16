@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ningyo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人形医学 未発表『文明の創造』昭和27(1952)年執筆 私は、今まで現代医学における、あらゆる誤謬の点を指摘して来たが、ここで最も重要なる点は、人間をして人形扱いにしている事である。<br><br>というのは医学には種々の科目がある。<br><br>内科、外科、脳神経科、泌尿器科、皮膚科、婦人科、小児科、眼科、耳鼻咽喉科、歯科というようにそれぞれ専門部門に分れている。<br><br>また右の科目中、内科にしても結核、胃腸病、心臓病等、それぞれ専門的に分れている。<br><br>そうかと思うと、基礎医学と称し、学問的研究にのみ一生涯没頭している人もある。<br><br>彼のモルモットや二十日鼠を相手に毎日顕微鏡と首ッ引きで余念がない。<br><br>世間よくモルモット博士などと言われているのは誰も知るところで、その他臨床専門で、読んで字のごとく、直接病人の脈を年が年中とっている人もある。<br><br>また予防医学といって主に伝染病予防をはじめ、社会衛生、個人衛生等に専念している人もある。<br><br>次に療法においても色々の種類がある。<br><br>薬剤の服用注射は固（もと）より、手術、電気、マッサージの外、光線療法、物理療法、精神療法等々があるかと思えば、皇漢医術あり、各種の民間療法あり、禁厭（まじない）、祈祷（きとう）宗教による事もある。<br><br>ザット数えただけでも右の通りであるから、実に複雑多岐種類の多い事驚く程である。<br><br>このようになった原因は、全く本当に治るものがなかったからで、もし真に治る療法があったとしたら、それ一つで解決がついているはずである。<br><br> そうして医学の最も間違っている点は、人体を人形と同様に見る事である。<br><br>というのはそもそも人体なるものは、一個の綜合体であって、四肢五体はバラバラのものを、繋ぎ合わせて作られたものではない。<br><br>従って一部分に病気が発るという事は、その部分だけではなく、各部分に関連があるのである。<br><br>例えば手足が悪いという事は、手足だけが悪いのではなく、手足以外の他の部分すなわち甲の部分に原因があり、それが乙に移り、また丙（へい）に表われるというようにどこまでも連繋している。<br><br>仮に歯が弱いという事は、全身が弱いからで、全身が弱いまま歯だけ丈夫にする事は絶対不可能である。<br><br>女性の結核患者の病気が進むと、必ず無月経となるが、これも結核による貧血のためであり、腸が弱い人は必ず胃が弱く、胃の弱い人は肺が弱く、肺の弱い人は心臓が弱いというようにどこまでも相互関係である。<br><br>一番判り易い例は仮に人間を一国家としても判る。<br><br>その国家の政府の政策が悪ければ、国民全般が悪影響を受けると同様、人体の中央政府である心臓が悪いとしたら、身体全部が悪くなる。<br><br>国家が不景気、金詰り、物資不足等というのは人体なれば栄養不足で貧血状態という訳である。<br><br>そうして単なる痛みといえども、それが頭脳を刺戟し、心臓に影響するから、胃にも影響し、食欲不振となり、腸が弱り、便秘、疲労等、全身的に影響を及ぼすのである。<br><br>また肺炎に罹るや、もし肺のみの病気とすれば、肺だけの熱で、他に影響はないはずだが、実際はその熱のため全身的に苦痛が及ぶに見ても明らかである。<br><br> 次に数種の実例を書いてみよう。<br><br> （一）二十歳くらいの女性、右の歯が非常に痛むので浄霊したところ、間もなく痛みは止まったが、翌日また痛いと言って来た。<br><br>普通の歯の痛みなら一回で治るはずだが、まだ治らないのは他に原因があると思って、歯の下部から順次下方へ向かって押してみると、胸部に固結があり痛いというので、その固結を溶かすと直に治ったが、翌日また来てまだ痛いという。<br><br>私は不思議に思って、なお下部へ向かって段々押してゆくと、盲腸部が非常に痛いというので、そこを浄霊したところ、それですっかり治ったので、訊いてみると、以前盲腸を手術したという。<br><br>それで判った事は、その時の消毒薬が固結し、浄化が起ってそれが胸部を通って歯茎から排泄しようとしたその痛みであった。<br><br>これにみても歯痛の原因が盲腸部であったという事は、実に想像もつかないのである。<br><br> （二）二十幾歳の男子、結核三期で咳と痰が非常に出るので、いつもの通り頭、首、肩等を浄霊したが、余り効果がないのでよく査（しら）べたところ、意外にも両股、鼠蹊部にグリグリがあって、そこがかなりの発熱があり、押すと非常に痛いという、ハハアーこれだなと思って、そこを浄霊したところ、一ケ月くらいで全治したのである。<br><br>その時私は「君の肺は股に付いていたんだね」と言って笑ったのである。<br><br>ところがそれについて面白い事があった。<br><br>有名な某医学博士にこの話をしたところ、首を傾けているので「じゃあ試しに貴方の股を診てあげましょう」と言って仰臥させ、押したところ小さいグリグリがあり、微熱もあるので浄霊するやたちまち咳と痰が出たので、唖然として不思議の一語より出なかった。<br><br>某医博は今でも某大学の教授をしている。<br><br> （三）中年の男子、胆石病で苦しんでいたので右背面腎臓を見ると、大きな固結があるのでこれだなと思って数回に亘って溶かしたところ、それで治ってしまった。<br><br> （四）脱肛や痔核で苦しんでいる人の股を診ると、必ずグリグリがある、それを溶かすと治るので、原因は股にある事を知ったのである。<br><br>ところが痔出血や赤痢の原因は、頭部の毒血が溶解下降するためであるから、何よりも頭部を浄霊すれば治ると共に、出血後は頭部が軽快になるのでよく判る。<br><br> （五）頭痛、頭重や精神集注力が乏しい人は、左右いずれかの頸部淋巴腺または延髄部に必ずグリグリがあって、そこに発熱がある、それを溶かすと直に治る。<br><br> （六）目の悪い人は、延髄部を主に頸部から肩にかけて固結があり、また前頭部に必ず発熱がある。<br><br>そこを浄霊すると軽い眼ならそれで治る。<br><br>私は手術をしない眼ならば、大抵は治るというが、今日まで盲目を幾人となく全治さしたからである。<br><br>近眼及び乱視等延髄部の固結を溶かせば、百発百中治る。<br><br> （七）盲腸炎は、右側腎臓部に必ず固結がありそこを浄霊すれば治る。<br><br>また胃でも腸でも、原因は背部にあるから、そこを浄霊するだけでよく治る。<br><br>胃痙攣等激痛の際、前方から浄霊しても痛みは全部取れないが、背部を浄霊すれば全治するのである。<br><br> （八）最も面白いのはひょう疽である。<br><br>患部だけ浄霊しても全部痛みは除れないが、頸部をみると必ず固結があるから、そこを浄霊すると実によく治る。<br><br> 以上によってみても判るごとく、病なるものは表面に表われた症状であって、その因が意外なところにあるものである。<br><br>それを知らない医学は、症状さえ治せば病気は治るものと解釈しているので、真の医術ではないのである。<br><br>それは全く人間は綜合体であるという事の認識がないからである。<br><br>何よりも病気によって療法が異い、薬の種類も数多いという事は、よくそれを物語っている。<br><br>本当に治る医学とすれば、一つの方法で万病を治し得るはずである。<br><br>元来病気とはさきに説いたごとく一種類となった毒素が各局部に固結するので、言わば病気の種類とは固結場所の種類である。<br><br>それが分るとしたら療法も一つとなり、進歩の必要もない事になる。<br><br>なぜなれば進歩とは不完全なものを完全にしようとする過程であるからである。<br><br>この一事だけにみても、現代医学はいかに根本に未知であるかが判るであろう。<br><br>この意味において、今まで進歩と思って来たのは、実は外面だけのそれであって、肝腎な病気は治らず、一つ所を往ったり来たりしていたに過ぎないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Medicina que Trata o Ser Humano como Objeto</h2>
 <p>Tenho apontado, ao longo do tempo, os inúmeros equívocos da medicina moderna. Dentre eles, todavia, o mais fundamental é o fato de ela tratar o ser humano como um objeto. Tal abordagem se manifesta na extrema especialização de suas áreas, como clínica geral, cirurgia, neurologia, urologia, dermatologia, ginecologia, pediatria, oftalmologia, otorrinolaringologia e odontologia. Cada uma dessas áreas, por sua vez, subdivide-se em especialidades ainda mais restritas. A clínica geral, por exemplo, ramifica-se em tuberculose, gastroenterologia, cardiologia, entre outras.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>(8) O mais curioso talvez seja o caso do panarício. Aplicar Johrei apenas na área afetada não alivia completamente a dor. No entanto, ao examinar o pescoço, sempre se encontrará um nódulo endurecido. O Johrei nesse ponto proporciona uma cura notavelmente eficaz.</p>
 <p>Como se pode depreender dos exemplos acima, a doença é um sintoma que se manifesta na superfície, enquanto sua verdadeira causa reside, muitas vezes, em um local inesperado. A medicina, por desconhecer essa realidade, interpreta que a eliminação do sintoma equivale à cura da doença, o que a desqualifica como uma verdadeira arte de curar. Tal equívoco decorre da completa falta de reconhecimento de que o ser humano é um organismo integrado. A própria existência de inúmeros tratamentos para diferentes doenças e a vasta quantidade de medicamentos são a prova cabal dessa limitação. Uma medicina verdadeiramente eficaz deveria ser capaz de curar todas as enfermidades com um único método.</p>
 <p>Como já expliquei anteriormente, a doença nada mais é do que a solidificação de um único tipo de toxina em diferentes partes do corpo. O que se chama de “tipos de doença” são, na verdade, os “tipos de localização” desses nódulos. Se isso fosse compreendido, haveria uma só terapia, e a necessidade de “progresso” deixaria de existir, pois o progresso é o processo de aperfeiçoar algo que é, por natureza, imperfeito. Somente este fato já revela quão ignorante a medicina moderna é em relação aos fundamentos da saúde e da doença. Nesse sentido, o que até hoje se considerou progresso não passou, na realidade, de uma evolução superficial. A medicina moderna tem apenas percorrido círculos, incapaz de curar as doenças em sua essência.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人形医学 未発表『文明の創造』昭和27(1952)年執筆 私は、今まで現代医学における、あらゆる誤謬の点を指摘して来たが、ここで最も重要なる点は、人間をして人形扱いにしている事である。<br/><br/>というのは医学には種々の科目がある。<br/><br/>内科、外科、脳神経科、泌尿器科、皮膚科、婦人科、小児科、眼科、耳鼻咽喉科、歯科というようにそれぞれ専門部門に分れている。<br/><br/>また右の科目中、内科にしても結核、胃腸病、心臓病等、それぞれ専門的に分れている。<br/><br/>そうかと思うと、基礎医学と称し、学問的研究にのみ一生涯没頭している人もある。<br/><br/>彼のモルモットや二十日鼠を相手に毎日顕微鏡と首ッ引きで余念がない。<br/><br/>世間よくモルモット博士などと言われているのは誰も知るところで、その他臨床専門で、読んで字のごとく、直接病人の脈を年が年中とっている人もある。<br/><br/>また予防医学といって主に伝染病予防をはじめ、社会衛生、個人衛生等に専念している人もある。<br/><br/>次に療法においても色々の種類がある。<br/><br/>薬剤の服用注射は固（もと）より、手術、電気、マッサージの外、光線療法、物理療法、精神療法等々があるかと思えば、皇漢医術あり、各種の民間療法あり、禁厭（まじない）、祈祷（きとう）宗教による事もある。<br/><br/>ザット数えただけでも右の通りであるから、実に複雑多岐種類の多い事驚く程である。<br/><br/>このようになった原因は、全く本当に治るものがなかったからで、もし真に治る療法があったとしたら、それ一つで解決がついているはずである。<br/><br/> そうして医学の最も間違っている点は、人体を人形と同様に見る事である。<br/><br/>というのはそもそも人体なるものは、一個の綜合体であって、四肢五体はバラバラのものを、繋ぎ合わせて作られたものではない。<br/><br/>従って一部分に病気が発るという事は、その部分だけではなく、各部分に関連があるのである。<br/><br/>例えば手足が悪いという事は、手足だけが悪いのではなく、手足以外の他の部分すなわち甲の部分に原因があり、それが乙に移り、また丙（へい）に表われるというようにどこまでも連繋している。<br/><br/>仮に歯が弱いという事は、全身が弱いからで、全身が弱いまま歯だけ丈夫にする事は絶対不可能である。<br/><br/>女性の結核患者の病気が進むと、必ず無月経となるが、これも結核による貧血のためであり、腸が弱い人は必ず胃が弱く、胃の弱い人は肺が弱く、肺の弱い人は心臓が弱いというようにどこまでも相互関係である。<br/><br/>一番判り易い例は仮に人間を一国家としても判る。<br/><br/>その国家の政府の政策が悪ければ、国民全般が悪影響を受けると同様、人体の中央政府である心臓が悪いとしたら、身体全部が悪くなる。<br/><br/>国家が不景気、金詰り、物資不足等というのは人体なれば栄養不足で貧血状態という訳である。<br/><br/>そうして単なる痛みといえども、それが頭脳を刺戟し、心臓に影響するから、胃にも影響し、食欲不振となり、腸が弱り、便秘、疲労等、全身的に影響を及ぼすのである。<br/><br/>また肺炎に罹るや、もし肺のみの病気とすれば、肺だけの熱で、他に影響はないはずだが、実際はその熱のため全身的に苦痛が及ぶに見ても明らかである。<br/><br/> 次に数種の実例を書いてみよう。<br/><br/> （一）二十歳くらいの女性、右の歯が非常に痛むので浄霊したところ、間もなく痛みは止まったが、翌日また痛いと言って来た。<br/><br/>普通の歯の痛みなら一回で治るはずだが、まだ治らないのは他に原因があると思って、歯の下部から順次下方へ向かって押してみると、胸部に固結があり痛いというので、その固結を溶かすと直に治ったが、翌日また来てまだ痛いという。<br/><br/>私は不思議に思って、なお下部へ向かって段々押してゆくと、盲腸部が非常に痛いというので、そこを浄霊したところ、それですっかり治ったので、訊いてみると、以前盲腸を手術したという。<br/><br/>それで判った事は、その時の消毒薬が固結し、浄化が起ってそれが胸部を通って歯茎から排泄しようとしたその痛みであった。<br/><br/>これにみても歯痛の原因が盲腸部であったという事は、実に想像もつかないのである。<br/><br/> （二）二十幾歳の男子、結核三期で咳と痰が非常に出るので、いつもの通り頭、首、肩等を浄霊したが、余り効果がないのでよく査（しら）べたところ、意外にも両股、鼠蹊部にグリグリがあって、そこがかなりの発熱があり、押すと非常に痛いという、ハハアーこれだなと思って、そこを浄霊したところ、一ケ月くらいで全治したのである。<br/><br/>その時私は「君の肺は股に付いていたんだね」と言って笑ったのである。<br/><br/>ところがそれについて面白い事があった。<br/><br/>有名な某医学博士にこの話をしたところ、首を傾けているので「じゃあ試しに貴方の股を診てあげましょう」と言って仰臥させ、押したところ小さいグリグリがあり、微熱もあるので浄霊するやたちまち咳と痰が出たので、唖然として不思議の一語より出なかった。<br/><br/>某医博は今でも某大学の教授をしている。<br/><br/> （三）中年の男子、胆石病で苦しんでいたので右背面腎臓を見ると、大きな固結があるのでこれだなと思って数回に亘って溶かしたところ、それで治ってしまった。<br/><br/> （四）脱肛や痔核で苦しんでいる人の股を診ると、必ずグリグリがある、それを溶かすと治るので、原因は股にある事を知ったのである。<br/><br/>ところが痔出血や赤痢の原因は、頭部の毒血が溶解下降するためであるから、何よりも頭部を浄霊すれば治ると共に、出血後は頭部が軽快になるのでよく判る。<br/><br/> （五）頭痛、頭重や精神集注力が乏しい人は、左右いずれかの頸部淋巴腺または延髄部に必ずグリグリがあって、そこに発熱がある、それを溶かすと直に治る。<br/><br/> （六）目の悪い人は、延髄部を主に頸部から肩にかけて固結があり、また前頭部に必ず発熱がある。<br/><br/>そこを浄霊すると軽い眼ならそれで治る。<br/><br/>私は手術をしない眼ならば、大抵は治るというが、今日まで盲目を幾人となく全治さしたからである。<br/><br/>近眼及び乱視等延髄部の固結を溶かせば、百発百中治る。<br/><br/> （七）盲腸炎は、右側腎臓部に必ず固結がありそこを浄霊すれば治る。<br/><br/>また胃でも腸でも、原因は背部にあるから、そこを浄霊するだけでよく治る。<br/><br/>胃痙攣等激痛の際、前方から浄霊しても痛みは全部取れないが、背部を浄霊すれば全治するのである。<br/><br/> （八）最も面白いのはひょう疽である。<br/><br/>患部だけ浄霊しても全部痛みは除れないが、頸部をみると必ず固結があるから、そこを浄霊すると実によく治る。<br/><br/> 以上によってみても判るごとく、病なるものは表面に表われた症状であって、その因が意外なところにあるものである。<br/><br/>それを知らない医学は、症状さえ治せば病気は治るものと解釈しているので、真の医術ではないのである。<br/><br/>それは全く人間は綜合体であるという事の認識がないからである。<br/><br/>何よりも病気によって療法が異い、薬の種類も数多いという事は、よくそれを物語っている。<br/><br/>本当に治る医学とすれば、一つの方法で万病を治し得るはずである。<br/><br/>元来病気とはさきに説いたごとく一種類となった毒素が各局部に固結するので、言わば病気の種類とは固結場所の種類である。<br/><br/>それが分るとしたら療法も一つとなり、進歩の必要もない事になる。<br/><br/>なぜなれば進歩とは不完全なものを完全にしようとする過程であるからである。<br/><br/>この一事だけにみても、現代医学はいかに根本に未知であるかが判るであろう。<br/><br/>この意味において、今まで進歩と思って来たのは、実は外面だけのそれであって、肝腎な病気は治らず、一つ所を往ったり来たりしていたに過ぎないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

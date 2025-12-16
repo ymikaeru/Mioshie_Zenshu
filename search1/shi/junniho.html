@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>junniho</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 純日本医学の建設 （一） 『光明世界』2号、昭和10(1935)年3月4日発行 緒 言 今日まで千数百年以来、我国において行われ来りたる医学そのものは、実にみな外国医学にして、即ち人も知る西洋及び漢法医学なり。<br><br>しかるに両医術共、長年月に渉り、あらゆる研究実験を以てしても、その進歩の遅々たる、到底人類が安心して身を托するに足らず。<br><br>病気の不安より解放さるるの日は、なお前途遼遠（りょうえん）の感無くんば非ず。<br><br>人あるいはいわん、輓近（ばんきん）医学は非常なる進歩をなせしと。<br><br>されど学理のみに偏して治療方面は更に進歩の跡無きに非ずや。<br><br>溢るるばかりの病者と病院の満員なるに見ても、証して余りありというべきなり。<br><br> しこうして人生の幸福はいかなる条件完備するとも、まず健康にして完（まった）かざれば何ら価値無きは論をまたず。<br><br>バイブルにいわく、「爾（なんじ）世界を得るとも、生命を失わば奈何（いかん）せんや」と。<br><br>宜（むべ）なる哉。<br><br>この言や実に永劫の真理なり。<br><br>しかるに余は観世音菩薩の功力（くりき）と、長年月の研究と相まって、あらゆる病源とその療法を識り得たり。<br><br>識るに及んで現在の洋漢いずれの医学も、根本において大いなる誤謬あるを発見して驚愕せり。<br><br>この誤謬を革正するに非（あら）ずんば、今後何百年を費すとも真の医学は確立さるる道理なし。<br><br>これにおいて余は純日本医学建設の名において、この空前なる大創見を順次発表せんとす。<br><br>大方の専門家諸彦（しょげん）虚心宜しく余の真意を汲まれ、熟読、実験、参考に供せられ、真の医学を完成せられ、人類の不幸を殲滅（せんめつ）せられん事を冀（こいねが）いてやまざるものなり。<br><br>その前提としてこの発見の動機と、観世音菩薩との関係等に渉り、ここに述べ置かんとす。<br><br> 現代医薬の建直し 余は本年五拾四歳になるが、四拾歳頃までは実に病弱そのものにして、健康の日数よりも病弱の日数の方多数なりしなり。<br><br>例を挙ぐれば、拾五歳以上四拾歳までの二十五ケ年間に、眼病二年、猛烈なる脳貧血半ケ年、肋膜炎二回にて一ケ年余り、肺結核一ケ年（当時入沢達吉博士より死の宣告を受けたり）扁桃腺炎十数回、類例なき歯痛四本持続的に一ケ年以上、淋疾三回、出血性痔核二ケ年、脚気三ケ月、肺炎一回、腸窒扶斯（チフス）（当時岡田博士より死の宣告を受けたり）盲腸炎二回、腎臓炎一回、腰部神経痛三月、右足神経痛半ケ年、胃弱一ケ年、大腸加答児（カタル）無数等にして、いかに病弱なりしかを想像され得べし。<br><br>これら病患を、その都度医療に依って治療を施せしも、ほとんど医薬に依って治癒したりと思いし事はまことに僅少にして、その多くは食餌療法、自然療法、灸治、信仰、禁厭（まじない）等にて治療し得たるなり。<br><br>随ってついにはこの貴重なる生命を、現代医学に托するは、頗（すこぶ）る不安なるを感ずると共に、大なる欠陥あるを認識し、この上は独自の研究に依って健康問題を解決せざるべからずと、爾来拾数年、医薬以外のあらゆる療法を試み、自己の身体を供して実験せしなり。<br><br>しかるに今より拾余年前信仰生活に入り、八年前、観世音菩薩の神懸（かんがかり）ありて種々の霊示を与えられ、それに依って健康法の真髄と医薬の欠陥を覚り得て、全く闇〔暗〕黒より白昼に出でしがごとく明々となれり。<br><br>爾来身体は絶対的頑健に改造され、更に進んで神霊的療法の霊力を享（う）け、今日までに千数百人に施したるところ、その効果の顕著なる、人類史上全く空前なる成績を挙げつつあり。<br><br>これにおいて観世音菩薩の本願たる、救世済民の一方面としてまず医学の根本的革正を期し、この文を草するゆえんなり。<br><br> 一 臨床診断の欠陥 今日までの臨床診断法としては、重に聴診器と、打診と脈診と、舌又は眼を検する位なれども、余が実験上、指頭に依って、診断の大いに効果ある事を識れり。<br><br>実際において医師諸君が発見し得ざりし病源を発見して治癒せし事、今日までに幾許（いくばく）なるを知らず。<br><br>故に余はこの指頭診断を医家に向って、是非とも推奨せんとするものなり。<br><br>特に脳神経衰弱、脳充血、眩暈（めまい）、眼病、扁桃腺、淋巴（リンパ）腺、耳鼻咽喉、吃音、発音不能、肺の諸疾患、胃病、腎臓病、中風、各癌腫、腹膜炎、喘息、卵巣等の患部原因、いずれも指頭に依って掌を指すがごとく、適確なる診断を得らるべし。<br><br>さればこの指頭診断法その他について、諸病に渉り逐次余が実験を発表すべし。<br><br> 一 肺 結 核 まず患者の肩胛部及び頸部を指頭にて順次探るべし。<br><br>その際必ず大小のグリグリを発見すべし。<br><br>その際左右いずれかが多数又は大なるべし。<br><br>その多大なる方の肺が病に罹りいるなり。<br><br>又肩胸の辺りに掌を当つれば、その熱気の度合に依って患部がいずれにあるか及び軽重を識り得べし。<br><br>又掌を胸部に宛（あ）てて深呼吸をさすれば、喘音を感ずるも、こは聴診器の診断と同一なり。<br><br>又咽喉に喘音のある時、右側の場合に右肺を犯され、左側の場合は左肺を犯され、喘音大ならば、喀痰の量肺内に多く溜積され、喘音小なれば喀啖〔痰〕量小なる訳なり。<br><br>次に声帯異常（皺枯声・しわがれごえ）及び、食物飲下時に痛みを感ずるは、多くは末期に際し、濃毒素を含む喀啖が喉道を通過する際、その毒素に依って粘膜を破壊、もしくは腫脹さるる為なり。<br><br>次に肺結核特有の食欲不振の原因は、これ又案外の方面にある事を知るべし。<br><br>この食欲不振の真因は、未だ医学上においては発見されざるならんも、余は無数の実験によってついにこの原因を識る事を得たり。<br><br>即ちこの原因は胃部心窩部より臍の付近までを指頭にて軽く圧し見よ。<br><br>さすれば強靭（きょうじん）にして弾力性ある、膿の凝結せるごときものを発見すべし。<br><br>そは余の推定によれば喀啖の堆溜凝結せるものにて、余はこれを仮に水膿（すいのう）と名付く。<br><br>この水膿の凝結が絶えず胃部を圧迫しつつある故に、胃の運動を妨（さまた）ぐる事はなはだしく、これが消化不良の原因となるなり。<br><br>この場合余はその水膿凝結を指頭より放射する霊光に依って溶解消滅さするが、する度合に応じて、食欲は漸次進みゆくなり。<br><br>これを以て結核患者の原因と目すべき部位は実は肺臓に非ずして、第一、肩胛部、頸部のグリグリ、第二、胃部の水膿の圧迫にして、医家が患部と目せる肺臓の個所は、その結果の現出部なるを知るべし。<br><br>故に余はこの二点に意を注ぎ、この二点を霊光療法を以て溶解消滅さするにおいて、漸次快方に向い、第三期の患者にして全治せしめたる者多数あり。<br><br> しかし霊光療法は、遺憾ながら、全世界中余一人のみの業なるべきを以て、この点いかんともなし難く、故に今後の医療としては、右二ケ所の水膿凝結をいかに排除すべきや、この研究が残されたる問題というべく、この排除法さえ解決すれば、さしも難治とされいたる肺結核をして、容易に全治され得る事を確言して憚（はばか）らざるなり。<br><br> （岡田仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Estabelecimento da Medicina Puramente Japonesa (I)</h2>
 <h3>Introdução</h3>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Portanto, concentrando minha atenção nesses dois pontos e dissolvendo-os através da Terapia da Luz Espiritual, os pacientes melhoram progressivamente, e tenho um grande número de casos de cura completa de pacientes que já se encontravam no terceiro estágio da doença.</p>
 <p>Infelizmente, a Terapia da Luz Espiritual é uma técnica que, em todo o mundo, apenas eu sou capaz de realizar, e nada posso fazer quanto a isso. Assim, o desafio que se apresenta à medicina do futuro é a pesquisa de um método para eliminar essas duas áreas de condensação purulenta. Ouso afirmar, sem qualquer hesitação, que, uma vez solucionada essa questão, a tuberculose pulmonar, tida como uma doença de difícil tratamento, poderá ser curada com facilidade.</p>
 <p>(Okada Jinsai)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 純日本医学の建設 （一） 『光明世界』2号、昭和10(1935)年3月4日発行 緒 言 今日まで千数百年以来、我国において行われ来りたる医学そのものは、実にみな外国医学にして、即ち人も知る西洋及び漢法医学なり。<br/><br/>しかるに両医術共、長年月に渉り、あらゆる研究実験を以てしても、その進歩の遅々たる、到底人類が安心して身を托するに足らず。<br/><br/>病気の不安より解放さるるの日は、なお前途遼遠（りょうえん）の感無くんば非ず。<br/><br/>人あるいはいわん、輓近（ばんきん）医学は非常なる進歩をなせしと。<br/><br/>されど学理のみに偏して治療方面は更に進歩の跡無きに非ずや。<br/><br/>溢るるばかりの病者と病院の満員なるに見ても、証して余りありというべきなり。<br/><br/> しこうして人生の幸福はいかなる条件完備するとも、まず健康にして完（まった）かざれば何ら価値無きは論をまたず。<br/><br/>バイブルにいわく、「爾（なんじ）世界を得るとも、生命を失わば奈何（いかん）せんや」と。<br/><br/>宜（むべ）なる哉。<br/><br/>この言や実に永劫の真理なり。<br/><br/>しかるに余は観世音菩薩の功力（くりき）と、長年月の研究と相まって、あらゆる病源とその療法を識り得たり。<br/><br/>識るに及んで現在の洋漢いずれの医学も、根本において大いなる誤謬あるを発見して驚愕せり。<br/><br/>この誤謬を革正するに非（あら）ずんば、今後何百年を費すとも真の医学は確立さるる道理なし。<br/><br/>これにおいて余は純日本医学建設の名において、この空前なる大創見を順次発表せんとす。<br/><br/>大方の専門家諸彦（しょげん）虚心宜しく余の真意を汲まれ、熟読、実験、参考に供せられ、真の医学を完成せられ、人類の不幸を殲滅（せんめつ）せられん事を冀（こいねが）いてやまざるものなり。<br/><br/>その前提としてこの発見の動機と、観世音菩薩との関係等に渉り、ここに述べ置かんとす。<br/><br/> 現代医薬の建直し 余は本年五拾四歳になるが、四拾歳頃までは実に病弱そのものにして、健康の日数よりも病弱の日数の方多数なりしなり。<br/><br/>例を挙ぐれば、拾五歳以上四拾歳までの二十五ケ年間に、眼病二年、猛烈なる脳貧血半ケ年、肋膜炎二回にて一ケ年余り、肺結核一ケ年（当時入沢達吉博士より死の宣告を受けたり）扁桃腺炎十数回、類例なき歯痛四本持続的に一ケ年以上、淋疾三回、出血性痔核二ケ年、脚気三ケ月、肺炎一回、腸窒扶斯（チフス）（当時岡田博士より死の宣告を受けたり）盲腸炎二回、腎臓炎一回、腰部神経痛三月、右足神経痛半ケ年、胃弱一ケ年、大腸加答児（カタル）無数等にして、いかに病弱なりしかを想像され得べし。<br/><br/>これら病患を、その都度医療に依って治療を施せしも、ほとんど医薬に依って治癒したりと思いし事はまことに僅少にして、その多くは食餌療法、自然療法、灸治、信仰、禁厭（まじない）等にて治療し得たるなり。<br/><br/>随ってついにはこの貴重なる生命を、現代医学に托するは、頗（すこぶ）る不安なるを感ずると共に、大なる欠陥あるを認識し、この上は独自の研究に依って健康問題を解決せざるべからずと、爾来拾数年、医薬以外のあらゆる療法を試み、自己の身体を供して実験せしなり。<br/><br/>しかるに今より拾余年前信仰生活に入り、八年前、観世音菩薩の神懸（かんがかり）ありて種々の霊示を与えられ、それに依って健康法の真髄と医薬の欠陥を覚り得て、全く闇〔暗〕黒より白昼に出でしがごとく明々となれり。<br/><br/>爾来身体は絶対的頑健に改造され、更に進んで神霊的療法の霊力を享（う）け、今日までに千数百人に施したるところ、その効果の顕著なる、人類史上全く空前なる成績を挙げつつあり。<br/><br/>これにおいて観世音菩薩の本願たる、救世済民の一方面としてまず医学の根本的革正を期し、この文を草するゆえんなり。<br/><br/> 一 臨床診断の欠陥 今日までの臨床診断法としては、重に聴診器と、打診と脈診と、舌又は眼を検する位なれども、余が実験上、指頭に依って、診断の大いに効果ある事を識れり。<br/><br/>実際において医師諸君が発見し得ざりし病源を発見して治癒せし事、今日までに幾許（いくばく）なるを知らず。<br/><br/>故に余はこの指頭診断を医家に向って、是非とも推奨せんとするものなり。<br/><br/>特に脳神経衰弱、脳充血、眩暈（めまい）、眼病、扁桃腺、淋巴（リンパ）腺、耳鼻咽喉、吃音、発音不能、肺の諸疾患、胃病、腎臓病、中風、各癌腫、腹膜炎、喘息、卵巣等の患部原因、いずれも指頭に依って掌を指すがごとく、適確なる診断を得らるべし。<br/><br/>さればこの指頭診断法その他について、諸病に渉り逐次余が実験を発表すべし。<br/><br/> 一 肺 結 核 まず患者の肩胛部及び頸部を指頭にて順次探るべし。<br/><br/>その際必ず大小のグリグリを発見すべし。<br/><br/>その際左右いずれかが多数又は大なるべし。<br/><br/>その多大なる方の肺が病に罹りいるなり。<br/><br/>又肩胸の辺りに掌を当つれば、その熱気の度合に依って患部がいずれにあるか及び軽重を識り得べし。<br/><br/>又掌を胸部に宛（あ）てて深呼吸をさすれば、喘音を感ずるも、こは聴診器の診断と同一なり。<br/><br/>又咽喉に喘音のある時、右側の場合に右肺を犯され、左側の場合は左肺を犯され、喘音大ならば、喀痰の量肺内に多く溜積され、喘音小なれば喀啖〔痰〕量小なる訳なり。<br/><br/>次に声帯異常（皺枯声・しわがれごえ）及び、食物飲下時に痛みを感ずるは、多くは末期に際し、濃毒素を含む喀啖が喉道を通過する際、その毒素に依って粘膜を破壊、もしくは腫脹さるる為なり。<br/><br/>次に肺結核特有の食欲不振の原因は、これ又案外の方面にある事を知るべし。<br/><br/>この食欲不振の真因は、未だ医学上においては発見されざるならんも、余は無数の実験によってついにこの原因を識る事を得たり。<br/><br/>即ちこの原因は胃部心窩部より臍の付近までを指頭にて軽く圧し見よ。<br/><br/>さすれば強靭（きょうじん）にして弾力性ある、膿の凝結せるごときものを発見すべし。<br/><br/>そは余の推定によれば喀啖の堆溜凝結せるものにて、余はこれを仮に水膿（すいのう）と名付く。<br/><br/>この水膿の凝結が絶えず胃部を圧迫しつつある故に、胃の運動を妨（さまた）ぐる事はなはだしく、これが消化不良の原因となるなり。<br/><br/>この場合余はその水膿凝結を指頭より放射する霊光に依って溶解消滅さするが、する度合に応じて、食欲は漸次進みゆくなり。<br/><br/>これを以て結核患者の原因と目すべき部位は実は肺臓に非ずして、第一、肩胛部、頸部のグリグリ、第二、胃部の水膿の圧迫にして、医家が患部と目せる肺臓の個所は、その結果の現出部なるを知るべし。<br/><br/>故に余はこの二点に意を注ぎ、この二点を霊光療法を以て溶解消滅さするにおいて、漸次快方に向い、第三期の患者にして全治せしめたる者多数あり。<br/><br/> しかし霊光療法は、遺憾ながら、全世界中余一人のみの業なるべきを以て、この点いかんともなし難く、故に今後の医療としては、右二ケ所の水膿凝結をいかに排除すべきや、この研究が残されたる問題というべく、この排除法さえ解決すれば、さしも難治とされいたる肺結核をして、容易に全治され得る事を確言して憚（はばか）らざるなり。<br/><br/> （岡田仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

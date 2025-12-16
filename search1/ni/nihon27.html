@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon27</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本の危機 『栄光』224号、昭和28(1953)年9月2日発行 現在我国民の主食である米穀の不足は、国家としての最大悩みである。<br><br>平年作でさえ二千万石も足りないというのに、それを割るとしたらこれこそ大問題である。<br><br>特に本年のごときは、知らるるごとく風水害、虫害等例年にない程の被害であるから、吾々国民として到底安閑（あんかん）としてはおれないのである。<br><br>何しろ人口増加の趨勢（すうせい）は、産制くらいでは到底追いつけそうもない程プラスが勝つとしたら、一体どうすればいいかという事で、これを考えれば前途暗澹（あんたん）たるものである。<br><br>もちろん政府においてもその対策に苦慮し、ヤレ五カ年計画で何割増産だとか、本年などは六カ年計画で、三千億の予算を組んだとかいう事であるから、相当効果は挙（あが）りそうなものだが、今までの例に徴（ちょう）しても、天はそれを笑うがごとく実績は逆であって、今年のごときは平年作を相当割るのは今から分っていて、未（いま）だその予想さえつかない有様である。<br><br> ところがその根本原因こそ、いつもいうごとく肥料迷信のためであるから、私は数年前から政府始め国会議員、新聞社、農事関係の各方面に、本紙特集号一万数千部を配布し、警告を与えているが、糠（ぬか）に釘で今日まで余り反響がないのである。<br><br>もちろん天災も虫害も根本は天理に外れた点があるからであって、これについいても常にいっているごとく、台風なるものは神の浄化作用であり、何しろ清浄な土地を人肥金肥によって汚すからで、神は止むなく若干の犠牲を払っても、肥毒を洗い浄めなければならないからである。<br><br>従ってその際犠牲となる土地も物件も人間も、汚穢が満ちているから、共に浄められるのであるから、気の毒ながらこれも自業自得というより外はない。<br><br>これが厳然たる天地の法則であるからである。<br><br> そこで私はこの理を知らせ、現在以上の収穫量を確実に得られる自然栽培法を教えているのであるが、それがため年々実行者は増えつつあるが、何しろ長い間の肥料迷信に捉われている農民の事とて、目覚めさせるには中々容易な事ではない。<br><br>しかしながら我国における食糧危機は年々深刻になりつつあり、今や溺（おぼ）れんとする農民に藁（わら）ではない、太い綱を出しているので、いずれは気が付き掴む事になるのはもちろんであり、しかもその時が刻々迫りつつあるのである。<br><br> 次に今一つ言いたい事は、医学に関してである。<br><br>現代医学がいかに誤っているかは事実が示している通り、年々悪性の病気が増えており、例えば脳溢血、結核（これは死亡率は減ったが罹病率はいささかも減らない）小児麻痺、心臓病、喘息、胃病、精神病、各種伝染病等々であって、本年のごときも日本脳炎が昨年の二倍という事で、その他赤痢、チフス、猩紅熱（しょうこうねつ）、ジフテリヤ等も相変らずのようである。<br><br>原因はもちろん薬剤のためであるから、これについても私は二十年以前から筆に口に最大級の努力を払っているが、これも肥料と同様長い間の医薬迷信のため分らせるには容易ではない。<br><br> この医学迷信が生活難や、犯罪の原因となるのはもちろん、頭脳衰弱のため近来のごとき事故の頻発、自殺、殺傷沙汰等、社会不安は募るばかりである。<br><br>以上のごとき趨勢をもって進めば、日本の将来はいかなる危機に直面するや、逆睹（ぎゃくと）し難いものがある。<br><br>しかしながらこれを根本的に救う事も敢（あ）えて難事ではない。<br><br>つまり私の言う通り実行すればいいので、それ以外にない事は断言するのである。<br><br>というと大言壮語と思うかも知れないが、これは私が言うのではない。<br><br>神が私をして言わしめるのであるから、絶対信じて間違いはない。<br><br>とはいうもののこの文を無神論者が見たら、鼻の先で嗤（わら）うであろうが今後の推移を見れば驚きと共に、今更のように私の言を思い出し、頭を下げざるを得ない時が来るであろう。<br><br> (注) 逆睹（ぎゃくと）、物事の結末をあらかじめ見て取る事。<br><br>先見。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caminho para a Salvação do Japão</h2>
 <p>Atualmente, a escassez do arroz, alimento basilar do nosso povo, constitui a maior aflição que a nação enfrenta. Se mesmo em anos de colheita regular o deficit já é alarmante, a perspectiva de uma safra ainda menor representa uma crise de enormes proporções. Particularmente neste ano, como é de vosso conhecimento, os danos causados por intempéries e pragas foram de uma severidade sem precedentes, de modo que, como cidadãos, é impossível permanecermos indiferentes. Ademais, a tendência de crescimento populacional supera em muito qualquer tentativa de controle de natalidade, lançando uma sombra funesta sobre o futuro.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>É para difundir essa verdade que venho ensinando o método da Agricultura Natural, o qual garante, de forma inequívoca, colheitas superiores às atuais. O número de praticantes aumenta a cada ano; entretanto, despertar os agricultores, há tanto tempo aprisionados pela superstição dos fertilizantes, não é uma tarefa simples. Ainda assim, a crise alimentar em nosso país se agrava progressivamente. Para os agricultores que estão prestes a se afogar, não estou oferecendo um fiapo de palha, mas uma corda robusta. É certo que, com o tempo, eles a perceberão e se agarrarão a ela. Esse momento, aliás, aproxima-se a cada instante.</p>
 <p>Em seguida, há outra questão que desejo abordar: a medicina. O quão equivocada é a medicina moderna fica evidente nos fatos: ano após ano, aumenta o número de doenças graves, como a hemorragia cerebral, a tuberculose (cuja taxa de mortalidade diminuiu, mas cuja incidência não sofreu a menor redução), a paralisia infantil, as cardiopatias, a asma, as enfermidades gástricas, os transtornos mentais e diversas doenças infecciosas. Neste ano, por exemplo, os casos de encefalite japonesa duplicaram em relação ao ano anterior, ao passo que a disenteria, a febre tifoide, a escarlatina, a difteria e outras moléstias persistem com a mesma intensidade. A causa, evidentemente, reside nos medicamentos. Sobre este assunto, também, venho despendendo os maiores esforços, pela palavra e pela escrita, há mais de vinte anos. Contudo, assim como no caso dos fertilizantes, a arraigada superstição na medicina torna a tarefa de esclarecer as pessoas extremamente difícil.</p>
 <p>Essa superstição médica não só é a causa de dificuldades financeiras e da criminalidade, como também do enfraquecimento mental, que leva à recente frequência de acidentes, suicídios e homicídios, agravando cada vez mais a instabilidade social. Se o Japão continuar nesse rumo, é impossível prever a magnitude da crise que enfrentará no futuro. Todavia, salvar o país dessa situação em suas raízes não é, de modo algum, uma tarefa árdua. Basta que se coloque em prática o que eu digo. Afirmo categoricamente que não existe outra saída. Talvez minhas palavras soem como uma bravata, mas não sou eu quem as profere. É Deus que me faz falar. Portanto, podem crer sem qualquer hesitação. Certamente, se um ateu ler este texto, rirá com desdém. Contudo, chegará o dia em que, ao observar o desenrolar dos acontecimentos, ele se lembrará de minhas palavras com espanto e, só então, não terá outra escolha senão curvar a cabeça em reconhecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本の危機 『栄光』224号、昭和28(1953)年9月2日発行 現在我国民の主食である米穀の不足は、国家としての最大悩みである。<br/><br/>平年作でさえ二千万石も足りないというのに、それを割るとしたらこれこそ大問題である。<br/><br/>特に本年のごときは、知らるるごとく風水害、虫害等例年にない程の被害であるから、吾々国民として到底安閑（あんかん）としてはおれないのである。<br/><br/>何しろ人口増加の趨勢（すうせい）は、産制くらいでは到底追いつけそうもない程プラスが勝つとしたら、一体どうすればいいかという事で、これを考えれば前途暗澹（あんたん）たるものである。<br/><br/>もちろん政府においてもその対策に苦慮し、ヤレ五カ年計画で何割増産だとか、本年などは六カ年計画で、三千億の予算を組んだとかいう事であるから、相当効果は挙（あが）りそうなものだが、今までの例に徴（ちょう）しても、天はそれを笑うがごとく実績は逆であって、今年のごときは平年作を相当割るのは今から分っていて、未（いま）だその予想さえつかない有様である。<br/><br/> ところがその根本原因こそ、いつもいうごとく肥料迷信のためであるから、私は数年前から政府始め国会議員、新聞社、農事関係の各方面に、本紙特集号一万数千部を配布し、警告を与えているが、糠（ぬか）に釘で今日まで余り反響がないのである。<br/><br/>もちろん天災も虫害も根本は天理に外れた点があるからであって、これについいても常にいっているごとく、台風なるものは神の浄化作用であり、何しろ清浄な土地を人肥金肥によって汚すからで、神は止むなく若干の犠牲を払っても、肥毒を洗い浄めなければならないからである。<br/><br/>従ってその際犠牲となる土地も物件も人間も、汚穢が満ちているから、共に浄められるのであるから、気の毒ながらこれも自業自得というより外はない。<br/><br/>これが厳然たる天地の法則であるからである。<br/><br/> そこで私はこの理を知らせ、現在以上の収穫量を確実に得られる自然栽培法を教えているのであるが、それがため年々実行者は増えつつあるが、何しろ長い間の肥料迷信に捉われている農民の事とて、目覚めさせるには中々容易な事ではない。<br/><br/>しかしながら我国における食糧危機は年々深刻になりつつあり、今や溺（おぼ）れんとする農民に藁（わら）ではない、太い綱を出しているので、いずれは気が付き掴む事になるのはもちろんであり、しかもその時が刻々迫りつつあるのである。<br/><br/> 次に今一つ言いたい事は、医学に関してである。<br/><br/>現代医学がいかに誤っているかは事実が示している通り、年々悪性の病気が増えており、例えば脳溢血、結核（これは死亡率は減ったが罹病率はいささかも減らない）小児麻痺、心臓病、喘息、胃病、精神病、各種伝染病等々であって、本年のごときも日本脳炎が昨年の二倍という事で、その他赤痢、チフス、猩紅熱（しょうこうねつ）、ジフテリヤ等も相変らずのようである。<br/><br/>原因はもちろん薬剤のためであるから、これについても私は二十年以前から筆に口に最大級の努力を払っているが、これも肥料と同様長い間の医薬迷信のため分らせるには容易ではない。<br/><br/> この医学迷信が生活難や、犯罪の原因となるのはもちろん、頭脳衰弱のため近来のごとき事故の頻発、自殺、殺傷沙汰等、社会不安は募るばかりである。<br/><br/>以上のごとき趨勢をもって進めば、日本の将来はいかなる危機に直面するや、逆睹（ぎゃくと）し難いものがある。<br/><br/>しかしながらこれを根本的に救う事も敢（あ）えて難事ではない。<br/><br/>つまり私の言う通り実行すればいいので、それ以外にない事は断言するのである。<br/><br/>というと大言壮語と思うかも知れないが、これは私が言うのではない。<br/><br/>神が私をして言わしめるのであるから、絶対信じて間違いはない。<br/><br/>とはいうもののこの文を無神論者が見たら、鼻の先で嗤（わら）うであろうが今後の推移を見れば驚きと共に、今更のように私の言を思い出し、頭を下げざるを得ない時が来るであろう。<br/><br/> (注) 逆睹（ぎゃくと）、物事の結末をあらかじめ見て取る事。<br/><br/>先見。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kinjuma</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 禽獣までも 『栄光』129号、昭和26(1951)年11月7日発行 近来、人間ばかりではなく、家畜の社会も大いに病気が増えたようである。<br><br>これが生産面に及ぼす影響も、仲々馬鹿にならないのである。<br><br>これは全く近来流行の注射のためである事は間違いないので、何とかしてこの誤りに目覚めさせたいと思うが、それが仲々むずかしい。<br><br>もちろん神の慈悲は、禽獣虫魚にまで及ぶので、浄霊を受ける家畜は実に幸運でありそれを飼う人間までも、御蔭を蒙るのだから、早く本教を弘めて、家畜までも救ってやりたいと思うのである。<br><br> 左記の例は僅か入信三カ月の信者が、家畜をドシドシ治した報告で参考になると思うので、この文を添えた訳である。<br><br> 奇蹟！豚一分間の浄霊で救わる 熊本県 明輪中教会 藤崎允朗（27） 入信以来三カ月、数々の御守護、御神徳を戴き、お蔭を以ちまして日一日と明るい光明の生活をさせて頂いております事は、ひとえに明主様の絶対なるお力徳のしからしむるところと深く深く感謝致しております、入信未だ日浅いにもかかわらず、幾多の奇蹟と御教えを戴き、体験を通して薬毒の恐ろしさを知らされ、今更のように身の縮まる思いで御座います、さて私が入信させて頂きましたのは家業が家畜商（豚の仲買）である関係上、豚の病気についても数多く見ては来ましたが、勿論このお道を知らない人達とて発病するや、すぐ獣医に診断を求め治療を受けた訳ですが往々誤診や誤療もあり、空しく死んで行く姿も目の辺り数多く見ておりましたので、この物言わぬ家畜の完全な治療法は無い物かと、夢のような事を常日頃頭に画いていたので御座います、他人に話せば笑われるのが関の山なので、私一人で胸中深く秘めて、このすばらしい空想否理想の実現を毎日夢見ておりました、しかしこの私の空想がある日現実として実現したのであります。<br><br> 奇蹟！ そうです全く奇蹟であります、それはある日商用である養豚家の家を尋ねましたところ、一人の青年が熱心に病豚に向って手をかざしている姿を発見したのであります、余りに奇異な姿に色々とお尋ねして見ましたところ、世界救世教で御浄霊をしているのだとのこと、その人は同教の信者で岡本さんという人だという事も分りました、しかし氏の話は今迄一度も聞いた事もない事だけに、私にとっては中々うなずけませんでした、今にして思えば汗顔の至りで御座いますが、議論数十回遂に私は私の求めているものはこれだ！ との確信を得ましたので、ただの一回の御浄霊を受けた訳ではありませんが入信、御守様拝授の光栄に浴した訳であります、前に申し述べさせて頂きましたように、商売上まず最初に御浄霊をさせて戴きましたのは豚で御座いました、約三十分間の御浄霊で、二日間全然何も喰べなかった豚が喰べるようになった時の嬉しさは、思わず「明主様」と叫び、この偉大なる御神徳に涙がとめどなく落ちて参りました、罪多き至らぬ私ごとき者迄、かかる御恵みを戴けるとは全くもったいない話であります、これに自信を得、力付けられました私は、それから三カ月、今日迄に妻の歯痛、胃病、乳腫れ、先輩知人の腫物、頭痛、脚気、腹痛と数限りなくお救いを戴き、ただただ明主様の御力の絶対であり、この絶対の御救いの道に入れて頂いた幸福をしみじみと感じております、今日迄に浄霊させて戴いた豚の数も三十二、三頭に及び、その内完全にお救いを戴けず致し方なく肉豚にしたのは四頭だけで御座いました、今にして思えばこの四頭の豚は、いずれも獣医が来て注射や浣腸をし、氷で冷した豚許りで御座いました、特に面白い対照的であったのは、八月三十日の二頭の豚でありまして、内一頭は市内でも有名なＳ氏所有の雄豚でした、朝早くＳ氏が来宅せられ、「藤崎君豚が二日も何も喰べないから見てくれないか」と言われましたので早速行って見ましたところ、氷水で全身を冷してありましたので「冷さない方がよいですよ」と言って冷す事を中止させ、約一時間許り御浄霊させて戴きましたが何の変化もありませんでした（今迄の体験では大抵二、三十分でほとんどが御守護を戴いております）。<br><br>私は朝食前でありましたので後刻再び参上する事を約束して帰宅しますと、今度はＫ氏が「豚の工合が悪いから見てくれ」と来ておられましたので、朝食後Ｋ氏宅に行って見ました、豚は足を痛めたらしく引きずるようにして、丸二日間何も食べないとのことでした、念の為獣医の来診の有無を尋ねましたところ、来ていないとの答えでした、早速祝詞を奏上し御浄霊をさせて戴きますと、たちまちにして喰べ始めました、その間約一分！ Ｋ氏も驚嘆されましたが私も全く余りの偉大なる御神徳に茫然となってしまいました。<br><br>その後Ｋ氏宅にはお伺い致しておりませんが足の方も二日後にはさっぱりと良くなったそうであります、一方Ｓ氏の豚は何回かの御浄霊にもかかわらず、何らの効果なく、遂にＳ氏もまた氷水で豚を冷し始められましたので私も御浄霊する事を断念致しました、後でＳ氏にお伺いしましたところ、獣医によってペニシリン数本を打ち、浣腸をしたとの事でした、その夜私は色々と考えて一つの結論を見出しました、それは薬毒の作用している豚は、いかにしても救われず死んでゆくことで御座います。<br><br> この結論を得ました時に今迄私達の考えていた薬、否薬毒の恐ろしさにゾッと身のすくむような思いが致しました、ああ恐ろしき哉薬毒！ 今迄私達の病気を救ってくれる物とばかり信じていた薬？ それは世にも恐ろしい毒物でした、私は入信以来三カ月、豚を実験台にして明主様の御教え、薬毒の意味を味わったので御座います。<br><br>人体も勿論豚と同様な事は言う迄もありません、私はこの貴重な体験を通して、今後御浄霊に、地上天国建設に御奉仕させて頂きたいと張切っております、想えば私ごとき者にさえ、明主様の御教えと、救いの力を戴けてある事は何と御礼を申し上げてよいか分りません、過去を振り返り、現在の自分を見、将来を想う時、変らせて戴いているのだ！ 救って頂きつつあるのだ、とひしひしと身に沁みて考えさせられます、この上は更に一層決意を新たにし、身魂磨きに精進させて頂く覚悟で御座います、又ここまで自分をお導き下さった鬼頭先生、岡本さんに厚く御礼を申し上げると共に、謹んで明主様に御報告させて頂きます、有難う御座いました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Até mesmo os Pássaros e as Feras</h2>
 <p>Recentemente, parece que as enfermidades proliferaram sobremaneira não apenas na sociedade humana, mas também entre os animais de criação. A influência desse quadro na produção agropecuária não é, de modo algum, desprezível. Não há dúvida de que a causa reside na prática das injeções, tão em voga nos dias atuais, e embora almejemos despertar as pessoas para este equívoco, a tarefa se revela sobremodo árdua.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Ao alcançar essa percepção, senti um calafrio percorrer meu corpo ao pensar no terror contido nos remédios — ou melhor, no yakudoku — nos quais tanto confiávamos. Oh, quão terrível é o yakudoku! Aquilo que acreditávamos ser um bálsamo para nossas enfermidades era, na verdade, uma substância peçonhenta da pior espécie.</p>
 <p>Nestes três meses desde minha conversão, utilizando os suínos como objeto de estudo, pude comprovar na prática a profundidade dos Ensinamentos de Meishu-Sama sobre o veneno dos medicamentos. É desnecessário dizer que o mesmo se aplica ao corpo humano. Por meio desta valiosa experiência, anseio por dedicar-me ainda mais ao servir através do Johrei e na sagrada obra de construção do Paraíso na Terra.</p>
 <p>Ao refletir, não encontro palavras para agradecer a Meishu-Sama por ter concedido a alguém como eu Seus Ensinamentos e o poder da salvação. Quando rememoro meu passado, observo meu presente e vislumbro meu futuro, sinto visceralmente que estou sendo transformado! Estou no processo de ser salvo! De agora em diante, com renovada determinação, empenhar-me-ei ainda mais no aprimoramento de meu espírito. Expresso também minha profunda gratidão ao Sr. Kito e ao Sr. Okamoto, que me guiaram até este caminho, e com o devido respeito, apresento este relato a Meishu-Sama. Muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 禽獣までも 『栄光』129号、昭和26(1951)年11月7日発行 近来、人間ばかりではなく、家畜の社会も大いに病気が増えたようである。<br/><br/>これが生産面に及ぼす影響も、仲々馬鹿にならないのである。<br/><br/>これは全く近来流行の注射のためである事は間違いないので、何とかしてこの誤りに目覚めさせたいと思うが、それが仲々むずかしい。<br/><br/>もちろん神の慈悲は、禽獣虫魚にまで及ぶので、浄霊を受ける家畜は実に幸運でありそれを飼う人間までも、御蔭を蒙るのだから、早く本教を弘めて、家畜までも救ってやりたいと思うのである。<br/><br/> 左記の例は僅か入信三カ月の信者が、家畜をドシドシ治した報告で参考になると思うので、この文を添えた訳である。<br/><br/> 奇蹟！豚一分間の浄霊で救わる 熊本県 明輪中教会 藤崎允朗（27） 入信以来三カ月、数々の御守護、御神徳を戴き、お蔭を以ちまして日一日と明るい光明の生活をさせて頂いております事は、ひとえに明主様の絶対なるお力徳のしからしむるところと深く深く感謝致しております、入信未だ日浅いにもかかわらず、幾多の奇蹟と御教えを戴き、体験を通して薬毒の恐ろしさを知らされ、今更のように身の縮まる思いで御座います、さて私が入信させて頂きましたのは家業が家畜商（豚の仲買）である関係上、豚の病気についても数多く見ては来ましたが、勿論このお道を知らない人達とて発病するや、すぐ獣医に診断を求め治療を受けた訳ですが往々誤診や誤療もあり、空しく死んで行く姿も目の辺り数多く見ておりましたので、この物言わぬ家畜の完全な治療法は無い物かと、夢のような事を常日頃頭に画いていたので御座います、他人に話せば笑われるのが関の山なので、私一人で胸中深く秘めて、このすばらしい空想否理想の実現を毎日夢見ておりました、しかしこの私の空想がある日現実として実現したのであります。<br/><br/> 奇蹟！ そうです全く奇蹟であります、それはある日商用である養豚家の家を尋ねましたところ、一人の青年が熱心に病豚に向って手をかざしている姿を発見したのであります、余りに奇異な姿に色々とお尋ねして見ましたところ、世界救世教で御浄霊をしているのだとのこと、その人は同教の信者で岡本さんという人だという事も分りました、しかし氏の話は今迄一度も聞いた事もない事だけに、私にとっては中々うなずけませんでした、今にして思えば汗顔の至りで御座いますが、議論数十回遂に私は私の求めているものはこれだ！ との確信を得ましたので、ただの一回の御浄霊を受けた訳ではありませんが入信、御守様拝授の光栄に浴した訳であります、前に申し述べさせて頂きましたように、商売上まず最初に御浄霊をさせて戴きましたのは豚で御座いました、約三十分間の御浄霊で、二日間全然何も喰べなかった豚が喰べるようになった時の嬉しさは、思わず「明主様」と叫び、この偉大なる御神徳に涙がとめどなく落ちて参りました、罪多き至らぬ私ごとき者迄、かかる御恵みを戴けるとは全くもったいない話であります、これに自信を得、力付けられました私は、それから三カ月、今日迄に妻の歯痛、胃病、乳腫れ、先輩知人の腫物、頭痛、脚気、腹痛と数限りなくお救いを戴き、ただただ明主様の御力の絶対であり、この絶対の御救いの道に入れて頂いた幸福をしみじみと感じております、今日迄に浄霊させて戴いた豚の数も三十二、三頭に及び、その内完全にお救いを戴けず致し方なく肉豚にしたのは四頭だけで御座いました、今にして思えばこの四頭の豚は、いずれも獣医が来て注射や浣腸をし、氷で冷した豚許りで御座いました、特に面白い対照的であったのは、八月三十日の二頭の豚でありまして、内一頭は市内でも有名なＳ氏所有の雄豚でした、朝早くＳ氏が来宅せられ、「藤崎君豚が二日も何も喰べないから見てくれないか」と言われましたので早速行って見ましたところ、氷水で全身を冷してありましたので「冷さない方がよいですよ」と言って冷す事を中止させ、約一時間許り御浄霊させて戴きましたが何の変化もありませんでした（今迄の体験では大抵二、三十分でほとんどが御守護を戴いております）。<br/><br/>私は朝食前でありましたので後刻再び参上する事を約束して帰宅しますと、今度はＫ氏が「豚の工合が悪いから見てくれ」と来ておられましたので、朝食後Ｋ氏宅に行って見ました、豚は足を痛めたらしく引きずるようにして、丸二日間何も食べないとのことでした、念の為獣医の来診の有無を尋ねましたところ、来ていないとの答えでした、早速祝詞を奏上し御浄霊をさせて戴きますと、たちまちにして喰べ始めました、その間約一分！ Ｋ氏も驚嘆されましたが私も全く余りの偉大なる御神徳に茫然となってしまいました。<br/><br/>その後Ｋ氏宅にはお伺い致しておりませんが足の方も二日後にはさっぱりと良くなったそうであります、一方Ｓ氏の豚は何回かの御浄霊にもかかわらず、何らの効果なく、遂にＳ氏もまた氷水で豚を冷し始められましたので私も御浄霊する事を断念致しました、後でＳ氏にお伺いしましたところ、獣医によってペニシリン数本を打ち、浣腸をしたとの事でした、その夜私は色々と考えて一つの結論を見出しました、それは薬毒の作用している豚は、いかにしても救われず死んでゆくことで御座います。<br/><br/> この結論を得ました時に今迄私達の考えていた薬、否薬毒の恐ろしさにゾッと身のすくむような思いが致しました、ああ恐ろしき哉薬毒！ 今迄私達の病気を救ってくれる物とばかり信じていた薬？ それは世にも恐ろしい毒物でした、私は入信以来三カ月、豚を実験台にして明主様の御教え、薬毒の意味を味わったので御座います。<br/><br/>人体も勿論豚と同様な事は言う迄もありません、私はこの貴重な体験を通して、今後御浄霊に、地上天国建設に御奉仕させて頂きたいと張切っております、想えば私ごとき者にさえ、明主様の御教えと、救いの力を戴けてある事は何と御礼を申し上げてよいか分りません、過去を振り返り、現在の自分を見、将来を想う時、変らせて戴いているのだ！ 救って頂きつつあるのだ、とひしひしと身に沁みて考えさせられます、この上は更に一層決意を新たにし、身魂磨きに精進させて頂く覚悟で御座います、又ここまで自分をお導き下さった鬼頭先生、岡本さんに厚く御礼を申し上げると共に、謹んで明主様に御報告させて頂きます、有難う御座いました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

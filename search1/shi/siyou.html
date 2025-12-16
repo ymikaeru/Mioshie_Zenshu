@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>siyou</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 枝葉末節文化 阿呆文学 『光明世界』創刊号、昭和10(1935)年2月4日発行 其一 道は単一無雑という言葉が御座るが、その通りで、決して複雑多岐に渉るものでは御座らぬ。<br><br> 複雑多岐に渉れば渉る程真理と言う奴、影も形も見えなくなるんで御座るから不思議で御座る。<br><br>彼の医学を御覧じろ。<br><br>天から授った、この眼玉では何も無いと思う空気にも、一ミリ四方何億万というバクテリヤがうようよ居るという事が判る程に、顕微鏡的に進歩したんで御座るから、四百四病を治すなんか屁の河童でありそうなものだが、左に非ざる所が不思議千万では御座らぬか。<br><br>それで近頃阿呆、熟々（つくづく）考えたんで御座る。<br><br>その結果、はたと膝を打ったんで御座る。<br><br>ナールホド余り枝葉末節文化の所へ来たので、肝腎な病源の方が千里も後に取残されて、欠伸（あくび）をしているんで御座る。<br><br> それから又一つ判った事が御座る。<br><br>阿呆の曾爺（ひいじい）さんの時代だからまず天保以前頃と思えば間違いがない。<br><br>その時分には病人が少なくて、流石の薮井竹庵（やぶいちくあん）も飯が食えず、赤や紫の女のような羽織を着て、権門富家へ媚（こ）び諂（へつら）い、ようやく鼻の下を塞げたという事程、病人が少なかったので御座るから意外では御座らぬか。<br><br>しかるに何ぞや一時間五百粁（キロ）の速さで、人間様が空を飛ぶという豪勢な御時勢にこれは又何ぞや。<br><br>地上は病人がうようよ、病院が満員、新聞は売薬の広告がなければ経済が持てないという医薬万能の有様。<br><br>どう考えても辻褄が合わないので御座る。<br><br>しかしここで頭のいゝ読者なら、枝葉末節文化の誤謬が、ピンと脳味噌に来るはずと思うので御座るが、いかがで御座る。<br><br> そこで阿呆、緊褌一番（きんこんいちばん）、毛唐が製造したこの枝葉末節医学をこの辺でガンと眼を醒させ、どしどし病人が減って行く医術と言てもゴロゴロ死んで毎晩病院の裏口から仏様を運び出すんでは御座らぬから安心を願っておいて、実は病気の方が治って、病人が減るというので御座る。<br><br>てもさても、不思議な医術が出来たものだと吃驚するで御座ろうが、まあまあ遽（あわ）てないで能く聴いて下され。<br><br>これこそ三千年間見た事も聞いた事も御座らぬこれが正真正銘の日本医術で御座る。<br><br>今までのは支那や西洋からの借物で、日本医術の生れるまでのその間のいわば間に合せ代物、辻褄の合わぬ借着衣裳で御座ったので御座る。<br><br>それで万事お判りになったで御座ろうが何と結構な事になったでは御座らぬか。<br><br> 其二 帝国議会が開会毎に、法律という七面倒臭い条文が増えて行くんで御座る。<br><br>この分で行ったら、昭和五十年頃には、憲法第一万三千八百六十九条の第千七百二十八項等と言う、途轍（とてつ）も御座らぬ条文も出来るであろうと、大して心配もしないが、と、いってそうならぬとも限らないと思うので御座る。<br><br> しかし阿呆もそんな先の先まで苦労をすると、伜（せがれ）に笑われるかも知れないので御座る。<br><br>そこで世上のお偉い方々は、法規いよいよ密にして文化いよいよ進めりと思召（おぼしめ）すで御座ろうが、そこへ行くと阿呆の見方はチト違うんで御座る。<br><br>悪い事をする奴は法網を潜ろうと眼を皿に致して一寸でも隙があれば直ぐに潜るんだから仲々法網という檻の製造も、骨が折れるもので御座る。<br><br> そこでこの潜る奴が増えれば増えるほど、益々条文という網の目も増やさねばならぬ訳なので御座る。<br><br>年々日比谷で網の目を製造をすると言う事は、この通り年々悪い奴が増えるので御座るという証拠を、天下に見せて下さるんで御座るから、まことに以て御苦労千万で御座る。<br><br>ここで又考え好きの阿呆一晩とっくり考えたんで御座る。<br><br>今日の人間はオギャと生れ、八つになるか、成らない内に、教育修身という結構至極な悪い奴にならない勉強をオッ始め、それから物心が付く頃になると、道徳宗教と言う責道具を以て、思想善導業者が大童（おおわらわ）になってのお活動、お上（かみ）も無けなしの懐から無理算段してまで、この思想善導業者をお助けなさる御苦労、並大抵の事では御座らぬ。<br><br> ソコでどう考えたってこう考えたって悪い事する奴なんか一匹も出るはずがないと思うんで御座るが、出るんで御座るから、どう考えたって不思議では御座らぬか。<br><br>そこで阿呆も忙しいのに又一晩、考えたんで御座る。<br><br>すると頭にピンと来たんで御座る。<br><br>何の事、別に不思議は御座らぬ哩（わい）。<br><br>思想善導業者とは、口で喋舌（しゃべ）る善導業者で、行で見せる善導業者ではなかったんで御座る。<br><br>坊さんは待合からお寺の本堂へ酔の醒めた頃を見計らって出掛け、緋の衣を纏（まと）って、有難いお説教をなさり、又、文部大臣とかは何とかの嫌疑で職をお罷（や）めなさり、学校の校長さんや先生は月給以外の丸いものを欲しがったとかで、市ケ谷の御別荘へ罷（まか）り越し、日比谷に集る偉いお方達は待合と高利貸との首引きや金持の番頭どんなんかで御座る。<br><br>大抵のお偉いお方達は、口先で一生懸命思想善導をなされ、傍（そば）から行で善導破壊をやって御座るのだから、賽（さい）の河原で石を積んでいるようなもので御座るから、悪い奴はふえるばかりで御座るのも致し方が無い事で御座るという事が判ったんで御座る。<br><br> 帝国議会で毎年何ケ条の法律は、近頃ほとんど適用せぬから廃止すべしという決議が出て段々法の条文が減って行く様になるのが、文化が進んだ証拠と思召して下されば間違いないので御座る。<br><br>で御座るから法の条文が増える間は悪人が増えるので御座るから、実以て危ない次第なので御座る。<br><br>中には悪人勢に捕虜にされた者に肩書のあるお方もあるのだから、この神州日本もいささか心細いでは御座らぬか。<br><br>依（よっ）て帝国議会で法文の増えるのが続くようなら思想善導業者諸君の方が敗北したので御座るから、いっそ男らしく廃業なされてはいかがで御座る。<br><br> もしそうなったら失業善導業者諸君は早速この阿呆の所へ来なさい。<br><br>諸君の力だけで、今度は法規減少法を御伝授致すで御座ろう。<br><br>それ計（ばか）りでは御座らぬ。<br><br>そうなれば松岡どんの政党解消もお仕舞になり、本願寺の大谷どんも大腕振ってお帰りになられ、総理大臣どんも弾丸除けの窮屈なチョッキも召さずに済むし、学校の先生様も馘（くび）の心配絶対御無用、警視庁に蜘蛛の巣が張るというような事になるので御座るから痛快至極では御座らぬか。<br><br>ただしチトお気の毒なのは警官の失業者で御座る。<br><br>これは阿呆が一手に引受けて一生食うに困らぬようにして差上げる心算（つもり）で御座るとは、阿呆もなかなか話せるでは御座らぬか。<br><br> （明烏阿呆）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falácia da Cultura do Supérfluo</h2>
 <h3>Parte I</h3>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Se tal ocorrer, venham prontamente ao encontro deste tolo, senhores agora desempregados. Apenas com o esforço de vocês, desta vez lhes ensinarei um método para a redução das leis. E não é tudo. Se isso acontecer, a dissolução dos partidos políticos, proposta pelo senhor Matsuoka, chegará ao fim; o sumo sacerdote Otani, do templo Honganji, poderá retornar em triunfo; o primeiro-ministro não precisará mais usar o incômodo colete à prova de balas; os professores não terão mais a menor preocupação com demissões; e teias de aranha se formarão na sede da polícia. Não seria algo formidável?</p>
 <p>A única nota triste seria o desemprego dos policiais. Mas até para isso este tolo tem uma solução: assumirei a responsabilidade por todos eles e garantirei que jamais lhes falte o sustento por toda a vida. Afinal, não é que este tolo tem lá sua lábia?</p>
 <p>(Akegarasu Aho)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 枝葉末節文化 阿呆文学 『光明世界』創刊号、昭和10(1935)年2月4日発行 其一 道は単一無雑という言葉が御座るが、その通りで、決して複雑多岐に渉るものでは御座らぬ。<br/><br/> 複雑多岐に渉れば渉る程真理と言う奴、影も形も見えなくなるんで御座るから不思議で御座る。<br/><br/>彼の医学を御覧じろ。<br/><br/>天から授った、この眼玉では何も無いと思う空気にも、一ミリ四方何億万というバクテリヤがうようよ居るという事が判る程に、顕微鏡的に進歩したんで御座るから、四百四病を治すなんか屁の河童でありそうなものだが、左に非ざる所が不思議千万では御座らぬか。<br/><br/>それで近頃阿呆、熟々（つくづく）考えたんで御座る。<br/><br/>その結果、はたと膝を打ったんで御座る。<br/><br/>ナールホド余り枝葉末節文化の所へ来たので、肝腎な病源の方が千里も後に取残されて、欠伸（あくび）をしているんで御座る。<br/><br/> それから又一つ判った事が御座る。<br/><br/>阿呆の曾爺（ひいじい）さんの時代だからまず天保以前頃と思えば間違いがない。<br/><br/>その時分には病人が少なくて、流石の薮井竹庵（やぶいちくあん）も飯が食えず、赤や紫の女のような羽織を着て、権門富家へ媚（こ）び諂（へつら）い、ようやく鼻の下を塞げたという事程、病人が少なかったので御座るから意外では御座らぬか。<br/><br/>しかるに何ぞや一時間五百粁（キロ）の速さで、人間様が空を飛ぶという豪勢な御時勢にこれは又何ぞや。<br/><br/>地上は病人がうようよ、病院が満員、新聞は売薬の広告がなければ経済が持てないという医薬万能の有様。<br/><br/>どう考えても辻褄が合わないので御座る。<br/><br/>しかしここで頭のいゝ読者なら、枝葉末節文化の誤謬が、ピンと脳味噌に来るはずと思うので御座るが、いかがで御座る。<br/><br/> そこで阿呆、緊褌一番（きんこんいちばん）、毛唐が製造したこの枝葉末節医学をこの辺でガンと眼を醒させ、どしどし病人が減って行く医術と言てもゴロゴロ死んで毎晩病院の裏口から仏様を運び出すんでは御座らぬから安心を願っておいて、実は病気の方が治って、病人が減るというので御座る。<br/><br/>てもさても、不思議な医術が出来たものだと吃驚するで御座ろうが、まあまあ遽（あわ）てないで能く聴いて下され。<br/><br/>これこそ三千年間見た事も聞いた事も御座らぬこれが正真正銘の日本医術で御座る。<br/><br/>今までのは支那や西洋からの借物で、日本医術の生れるまでのその間のいわば間に合せ代物、辻褄の合わぬ借着衣裳で御座ったので御座る。<br/><br/>それで万事お判りになったで御座ろうが何と結構な事になったでは御座らぬか。<br/><br/> 其二 帝国議会が開会毎に、法律という七面倒臭い条文が増えて行くんで御座る。<br/><br/>この分で行ったら、昭和五十年頃には、憲法第一万三千八百六十九条の第千七百二十八項等と言う、途轍（とてつ）も御座らぬ条文も出来るであろうと、大して心配もしないが、と、いってそうならぬとも限らないと思うので御座る。<br/><br/> しかし阿呆もそんな先の先まで苦労をすると、伜（せがれ）に笑われるかも知れないので御座る。<br/><br/>そこで世上のお偉い方々は、法規いよいよ密にして文化いよいよ進めりと思召（おぼしめ）すで御座ろうが、そこへ行くと阿呆の見方はチト違うんで御座る。<br/><br/>悪い事をする奴は法網を潜ろうと眼を皿に致して一寸でも隙があれば直ぐに潜るんだから仲々法網という檻の製造も、骨が折れるもので御座る。<br/><br/> そこでこの潜る奴が増えれば増えるほど、益々条文という網の目も増やさねばならぬ訳なので御座る。<br/><br/>年々日比谷で網の目を製造をすると言う事は、この通り年々悪い奴が増えるので御座るという証拠を、天下に見せて下さるんで御座るから、まことに以て御苦労千万で御座る。<br/><br/>ここで又考え好きの阿呆一晩とっくり考えたんで御座る。<br/><br/>今日の人間はオギャと生れ、八つになるか、成らない内に、教育修身という結構至極な悪い奴にならない勉強をオッ始め、それから物心が付く頃になると、道徳宗教と言う責道具を以て、思想善導業者が大童（おおわらわ）になってのお活動、お上（かみ）も無けなしの懐から無理算段してまで、この思想善導業者をお助けなさる御苦労、並大抵の事では御座らぬ。<br/><br/> ソコでどう考えたってこう考えたって悪い事する奴なんか一匹も出るはずがないと思うんで御座るが、出るんで御座るから、どう考えたって不思議では御座らぬか。<br/><br/>そこで阿呆も忙しいのに又一晩、考えたんで御座る。<br/><br/>すると頭にピンと来たんで御座る。<br/><br/>何の事、別に不思議は御座らぬ哩（わい）。<br/><br/>思想善導業者とは、口で喋舌（しゃべ）る善導業者で、行で見せる善導業者ではなかったんで御座る。<br/><br/>坊さんは待合からお寺の本堂へ酔の醒めた頃を見計らって出掛け、緋の衣を纏（まと）って、有難いお説教をなさり、又、文部大臣とかは何とかの嫌疑で職をお罷（や）めなさり、学校の校長さんや先生は月給以外の丸いものを欲しがったとかで、市ケ谷の御別荘へ罷（まか）り越し、日比谷に集る偉いお方達は待合と高利貸との首引きや金持の番頭どんなんかで御座る。<br/><br/>大抵のお偉いお方達は、口先で一生懸命思想善導をなされ、傍（そば）から行で善導破壊をやって御座るのだから、賽（さい）の河原で石を積んでいるようなもので御座るから、悪い奴はふえるばかりで御座るのも致し方が無い事で御座るという事が判ったんで御座る。<br/><br/> 帝国議会で毎年何ケ条の法律は、近頃ほとんど適用せぬから廃止すべしという決議が出て段々法の条文が減って行く様になるのが、文化が進んだ証拠と思召して下されば間違いないので御座る。<br/><br/>で御座るから法の条文が増える間は悪人が増えるので御座るから、実以て危ない次第なので御座る。<br/><br/>中には悪人勢に捕虜にされた者に肩書のあるお方もあるのだから、この神州日本もいささか心細いでは御座らぬか。<br/><br/>依（よっ）て帝国議会で法文の増えるのが続くようなら思想善導業者諸君の方が敗北したので御座るから、いっそ男らしく廃業なされてはいかがで御座る。<br/><br/> もしそうなったら失業善導業者諸君は早速この阿呆の所へ来なさい。<br/><br/>諸君の力だけで、今度は法規減少法を御伝授致すで御座ろう。<br/><br/>それ計（ばか）りでは御座らぬ。<br/><br/>そうなれば松岡どんの政党解消もお仕舞になり、本願寺の大谷どんも大腕振ってお帰りになられ、総理大臣どんも弾丸除けの窮屈なチョッキも召さずに済むし、学校の先生様も馘（くび）の心配絶対御無用、警視庁に蜘蛛の巣が張るというような事になるので御座るから痛快至極では御座らぬか。<br/><br/>ただしチトお気の毒なのは警官の失業者で御座る。<br/><br/>これは阿呆が一手に引受けて一生食うに困らぬようにして差上げる心算（つもり）で御座るとは、阿呆もなかなか話せるでは御座らぬか。<br/><br/> （明烏阿呆）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

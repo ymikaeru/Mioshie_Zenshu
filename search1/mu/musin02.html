@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>musin02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無信仰時代２ 未発表『私物語』昭和27(1952)年執筆 私は若い頃から、非常に映画が好きなため、映画監督になろうと思った事がある。<br><br>しかしよく考えてみると、映画監督ではたとえ出世したところで大した事はないので、いっそ映画事業をやって成功者となろうと思い、まずその手始めとして映画館を造ってみようと思い立ち、心掛けていたところ、あたかもよし映画館設置の権利を得たが資本が足りないので困っているという人の話を聞いたので、ちょうどいいと思い、早速本人に面会しよく確かめたところ、その通りなので、私も乗気になり、最初は共同の約束をしたが、中途から私が主脳者となる事にした。<br><br>何しろ物の安い頃とて、資本金二万五千円全額払込の株式会社を設立するとして、私が半分の株券を持つ事となったのである。<br><br>もちろん私が専務取締役となるや、適当な土地が見つかったので早速購入し、いよいよ建築に取掛ったのである。<br><br>ところが全然今まで興行などには無経験なので、仲々容易ではないが、しかし私は何も経験だと思って、苦心惨澹、ともかく、小さいながらも一つの映画館を作り上げ、ここに開館する事となったのである。<br><br> ところがその頃のいわゆる活動写真館は、今日と異（ちが）って弁士や楽隊、チョボなどを雇わねばならず、また町内の顔役への付届けだとか、何や彼や別世界の連中を相手にするのであるから、その気苦労は生易しいものではない。<br><br>しかもその社会の裏面など全然知らない素人の青二歳が、急に飛込んだのだから大変だ、私は甘く見られ、舐（な）められてどうしていいか分らなかったのである。<br><br> ところが実に不思議な事があった。<br><br>それは最初の時から、原因不明の発病である。<br><br>それが建築や何かを見廻る予定の日は、判で捺したように発熱、不快に悩ませられる。<br><br>それを我慢しいしい出掛けていたが、驚いた事には開館式当日の事である。<br><br>何しろ私が専務であったから、区長や町長、名誉職などを招待してあるので、どうしても私が出なければならないが、その当日となるや朝から四十度の高熱と来て、ウンウン唸っているという騒ぎ、これでは流石の私もどうする事も出来ず、止むを得ず代理を頼んで済ましたが、全く不可解で考えようがなかったのである。<br><br> そんな訳でもともかく開館はしたが、不思議はまだ続いた。<br><br>それは当時一日置くらいに館へ出張しなければならないが、そうなってから館へ入ると急に腰が痛くなり、梯子段を上ろうにも、漸く手摺に掴まって這うようにするくらいだが、家へ帰るとスーッと治ってしまうのである。<br><br>ところが右の話を聞いたある人が、それは何かの祟りかも知れないから、自分の知っている某宗の行者によく判る人があるから、一度見て貰ったらどうだというので、早速見て貰ったところ、行者がいうには、舞台の真中辺に死人の顔がみえる。<br><br>恨めしそうな顔をして睨んでいるというので、私はゾッとした。<br><br>しかしその頃は無神論のカチカチだったので、そのまま信ずる事は出来ないが、何しろ現実に不思議な事が続くので、そんな事もあるものかなアーくらいに思い、ともかくもこの事業から手を引く事にしたところ、それから病気は日に日に快くなったのである。<br><br> 以上の事を今日考えてみると、神は私の使命に対し、そういう事業に手を出してはいけないとして、止められた事はよく分るのである。<br><br> (注) チョボ、歌舞伎で地の文を義太夫節で語ること。<br><br>また、その義太夫節、およびその太夫。<br><br>ちょぼ語り。<br><br>床本（ゆかほん）の語る部分に傍点を打ったところからの名称という。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Empreendimento Cinematográfico que Deus Não Permitiu</h2>
 <p>Desde a juventude, nutria grande apreço pelo cinema, a ponto de vislumbrar para mim a carreira de diretor. Contudo, após ponderar com mais profundidade, concluí que o sucesso nessa função seria limitado. Assim, uma ambição maior tomou forma em meu espírito: tornar-me um empreendedor de sucesso no ramo cinematográfico. Como passo inicial, decidi construir um cinema.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Segui o conselho e, ao me receber, o praticante afirmou: “No centro do palco, vejo o rosto de um morto. Ele o encara com uma expressão de profundo ressentimento.” Um calafrio percorreu minha espinha. Naquele tempo, porém, eu era um ateu convicto e relutava em acreditar em tais coisas. Todavia, a contínua sucessão de fatos inexplicáveis me fez ponderar se não haveria alguma verdade naquilo. Decidi, então, afastar-me daquele empreendimento. A partir desse momento, minha saúde começou a melhorar dia após dia.</p>
 <p>Ao refletir hoje sobre esses acontecimentos, compreendo com clareza que Deus, ciente de minha verdadeira missão, interveio para impedir que eu me desviasse em tal empreendimento.</p>
 <p>(Nota) Chobo: No teatro Kabuki, refere-se à narração de passagens descritivas entoadas no estilo musical Gidayu-bushi. O termo também designa o próprio estilo musical e seu intérprete. Acredita-se que o nome deriva do costume de marcar com um ponto (chobo) as seções a serem cantadas no roteiro (yukahon).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無信仰時代２ 未発表『私物語』昭和27(1952)年執筆 私は若い頃から、非常に映画が好きなため、映画監督になろうと思った事がある。<br/><br/>しかしよく考えてみると、映画監督ではたとえ出世したところで大した事はないので、いっそ映画事業をやって成功者となろうと思い、まずその手始めとして映画館を造ってみようと思い立ち、心掛けていたところ、あたかもよし映画館設置の権利を得たが資本が足りないので困っているという人の話を聞いたので、ちょうどいいと思い、早速本人に面会しよく確かめたところ、その通りなので、私も乗気になり、最初は共同の約束をしたが、中途から私が主脳者となる事にした。<br/><br/>何しろ物の安い頃とて、資本金二万五千円全額払込の株式会社を設立するとして、私が半分の株券を持つ事となったのである。<br/><br/>もちろん私が専務取締役となるや、適当な土地が見つかったので早速購入し、いよいよ建築に取掛ったのである。<br/><br/>ところが全然今まで興行などには無経験なので、仲々容易ではないが、しかし私は何も経験だと思って、苦心惨澹、ともかく、小さいながらも一つの映画館を作り上げ、ここに開館する事となったのである。<br/><br/> ところがその頃のいわゆる活動写真館は、今日と異（ちが）って弁士や楽隊、チョボなどを雇わねばならず、また町内の顔役への付届けだとか、何や彼や別世界の連中を相手にするのであるから、その気苦労は生易しいものではない。<br/><br/>しかもその社会の裏面など全然知らない素人の青二歳が、急に飛込んだのだから大変だ、私は甘く見られ、舐（な）められてどうしていいか分らなかったのである。<br/><br/> ところが実に不思議な事があった。<br/><br/>それは最初の時から、原因不明の発病である。<br/><br/>それが建築や何かを見廻る予定の日は、判で捺したように発熱、不快に悩ませられる。<br/><br/>それを我慢しいしい出掛けていたが、驚いた事には開館式当日の事である。<br/><br/>何しろ私が専務であったから、区長や町長、名誉職などを招待してあるので、どうしても私が出なければならないが、その当日となるや朝から四十度の高熱と来て、ウンウン唸っているという騒ぎ、これでは流石の私もどうする事も出来ず、止むを得ず代理を頼んで済ましたが、全く不可解で考えようがなかったのである。<br/><br/> そんな訳でもともかく開館はしたが、不思議はまだ続いた。<br/><br/>それは当時一日置くらいに館へ出張しなければならないが、そうなってから館へ入ると急に腰が痛くなり、梯子段を上ろうにも、漸く手摺に掴まって這うようにするくらいだが、家へ帰るとスーッと治ってしまうのである。<br/><br/>ところが右の話を聞いたある人が、それは何かの祟りかも知れないから、自分の知っている某宗の行者によく判る人があるから、一度見て貰ったらどうだというので、早速見て貰ったところ、行者がいうには、舞台の真中辺に死人の顔がみえる。<br/><br/>恨めしそうな顔をして睨んでいるというので、私はゾッとした。<br/><br/>しかしその頃は無神論のカチカチだったので、そのまま信ずる事は出来ないが、何しろ現実に不思議な事が続くので、そんな事もあるものかなアーくらいに思い、ともかくもこの事業から手を引く事にしたところ、それから病気は日に日に快くなったのである。<br/><br/> 以上の事を今日考えてみると、神は私の使命に対し、そういう事業に手を出してはいけないとして、止められた事はよく分るのである。<br/><br/> (注) チョボ、歌舞伎で地の文を義太夫節で語ること。<br/><br/>また、その義太夫節、およびその太夫。<br/><br/>ちょぼ語り。<br/><br/>床本（ゆかほん）の語る部分に傍点を打ったところからの名称という。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

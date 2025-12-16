@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju08042</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （八） ４ 042-056 誤謬２ 042 カルシュウムと結核 肺結核の知覚症状なき人の死体解剖により、多くの人の肺には、一度肺結核に侵された痕跡があり、その個所がカルシュウムによりて固められていると聞きますが、なにゆえ、肺結核に犯された個所に特にカルシュウムが作用するかについて―― カルシュウムは人間の身体にある。<br><br>一度侵されたという事は、自然浄化により治り、これが集ったものである。<br><br>カルシュウムを製造したり、服むと器能が弱る。<br><br>注射等により入れたカルシュウムと身体で作るカルシュウムとは違う。<br><br>カルシュウム注射は蕁麻疹の原因となる。<br><br>魚の骨にあるというが、骨は猫が食うもので、美味しい所を人間が食べる。<br><br>苦いものは毒だから、食べさせぬよう神様が造られている。<br><br>良薬は口に甘しが本当である。<br><br>薬に分量のあるのは、毒であるから分量を定めるのである。<br><br>（S24.12.13） 043 薬剤使用と霊の曇りの関係 薬剤使用者は霊体に曇りがあるので自然と使用するような動機になるのでしょうか。<br><br>御伺い申し上げます。<br><br> あまり関係はない。<br><br>（S24.12.23） 044 注射の効能 注射で死亡する方がよくありますが、そういう場合、その注射薬中に世間で言う毒薬があり、その力のために死んだりするのでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 薬はない。<br><br>もしありとすれば米の飯位である。<br><br>毒で弱らせ、浄化を停止するのが実際の効能である。<br><br>毒を入れても――。<br><br>浄化停止されているが――。<br><br>注射液が身体中へ回らず、一個所へ固まる。<br><br> 045 注射禍の現在 最近頻々として起る注射禍は、昔は予防注射で毒素が陰化されていたものが、浄化が激しくなったため却って誘発されるのではないでしょうか。<br><br> 前は注射したものが、身体中へ回って固まって停止した。<br><br>今はその部から浄化される。<br><br>（S23.12.22） 046 薬毒による諸症状 発病してから一ケ年位になります。<br><br>御光を戴いてから二十日位ですが、それ迄はあらゆる療法も医薬も用い、何等見るべき効果もありませんでした。<br><br>医師は慢性胃腸病と診断しましたが、症状は、食欲なく、不規則な胃痛があります。<br><br>便通はこれも不規則に一日一回ないし二回、硬、軟いずれでもなく普通です。<br><br>なお、不眠が続き、体重が減じて行きます。<br><br>不眠のためか顔色は蒼白だと人が言います。<br><br>一昨年十月十五日に妻が死亡（中風）しております。<br><br>浄霊をうけるようになりましても余り変りがありません。<br><br>これは何かの因縁でしょうか。<br><br>またどうしたら救われますか。<br><br>御教え願います。<br><br> 薬の中毒で、夜の世界のものは、昼の世界には何でも反対になる。<br><br>今迄は薬で固めた方がよかった。<br><br>夜の世界では溶かす働きがなかった。<br><br> 顔色の悪いのは毒が多く血が不足している。<br><br>こういう人は特に頸の周りに毒が沢山あるためである。<br><br>薬毒――。<br><br> （いろいろ考えさせるのは、霊が考えさせる）（S24. 2.27） 047 長い薬毒病 私は三十五歳頃から日々医療に接してきました所、昭和二十一年十二月入信させて頂き、その後、光明如来様、また二十四年一月大光明如来様を御祭りさせて頂きましたが、その頃より浄化を頂き、食進まず、息切れして少しの仕事も出来ず、約四十日位にて少し楽にさせて頂きましたが、その後も時々浄化を頂き、頭、首すじが重く、食進まず、便通悪く、胃の下部が気持悪く、動悸を打ち、息切れがして毎日体がふらつき、仕事も出来ず、少しの咳が出ても右の胸部へこたえる時も度々ありましたが、現在同様な状態が続いています。<br><br>薬毒でしょうか。<br><br>また、いかなる原因でしょうか。<br><br>御教え下さい。<br><br>昨年一月より約一ケ年半浄化を頂いております。<br><br>いかがなものでしょうか。<br><br> 薬毒である。<br><br>浄化は長い。<br><br>背中に固結している。<br><br>背中、頭、肩をよくする。<br><br>触って熱い所をする。<br><br>薬毒はナカナカとれぬ。<br><br>私など未だに三十六年前の薬で、歯で苦労する。<br><br>（S25. 5.27） 048 九神薬による病気 私は三十六歳の時、夫に死に別れ三人の子供を抱え、夜遅くまで働きました所、胃の病にかかり、九神という薬を三年間飲みましたが、今は浄霊しておりますけれども、毎日のように、時をうって四時から五時頃の間、肩から胃にかけて体がしわって来るのですが、いかなる訳ですか。<br><br> 九神のため、新しい病気を造ったようなものである。<br><br>肩胛骨付近と肩を浄霊すれば治る。<br><br>（S24. 4.28） 049 浄霊で治癒遅き薬毒病患者（毛髪汚れ落ちず） 四十八歳の女、一ケ年前から神経痛とリュウマチで浄霊致してますが、その人は以前大阪の芸者で、脇下にグリグリがあり、梅毒の疑いで血液検査されました。<br><br>天候の悪い時は節々が痛み、腫れ上り、その腫れも時々変り、また毛髪もどんな良い石鹸でもソーダで洗っても落ちません。<br><br>以前三年間ペニシリンや色々の注射を多く打ちましたので、最初のみで浄霊前後から少しも効果がありません。<br><br>何の原因でしょうか。<br><br> 薬毒が非常に沢山ある。<br><br>毛髪などもそれで、節々が痛むのもそれである。<br><br>梅毒ならば痛まぬ筈である。<br><br>つまり薬毒病患者である。<br><br> 050 薬の祟り 本年四十歳の男子、現在、左肩が痛み、腕の自由が利きません。<br><br>昨年十月入信、本年三月大光明如来様を御祀りさせて頂き、御浄霊を続けておりますが、中々よくなりません。<br><br>この家では二百年前、当家の下の家に二百年以上経った榎が御座いましたのを切りました所、色々の禍が御座いましたので、代りの榎を植えましたとの事で、その木が丁度当家の裏にあり、何かと他家へ迷惑を掛けますので、昭和十二年に切ったそうで御座います。<br><br>その後、昭和十三年一月、坐骨神経痛を病み、同年六月、四歳になります長女が水疱瘡で死亡致しました。<br><br>榎の祟りではないかと思い、神主に頼み祠を作ってお祀り致しましたが、なお昭和十四年八月と十五年五月、支那において本人が急性盲腸炎を患い、十九年七月、次女（三歳）が急性肺炎にて死亡致し、十九年末より本人の肩が凝り出し、二十二年より悪化し、二十三年より痛みが加わり、二十四年より就寝時にのみ腰が痛み出しました。<br><br>その間、電気治療その他種々の療法を行っております。<br><br>これは榎を切りました祟りのように思われますが、御教えをお願い申し上げます。<br><br> 榎でなく薬の祟りである。<br><br>坐骨――薬毒――。<br><br> 木の祟りとなれば、二百年も祟らぬ。<br><br>せいぜい数十年である。<br><br>（S25. 4.21） 051 薬毒に苦しむ（ノーシン） 四十七歳、薬毒に苦しむ女の信者、二十歳頃から服薬、最近まで朝昼晩にノーシン十服位飲んでおりました。<br><br>八月二十八日、薬をやめさせ、教修致しました。<br><br>御守護のほど御願い致します。<br><br> これは浄化が起るから、よく前に言っておいた方がよい。<br><br>（S24. 9. 9） 052 半身不随より眼かすむ（注射禍） 昨年九月頃から眼がかすみ注射を続けたところ頭がボーッとして左半身不随となり、歩行困難となる。<br><br>本年二月妻が入信、本人は四月入信、光明如来様をお祀りしてからは次第に手足が利くようになり、一人でお参りが出来るようになったところ、九月頃から再浄化烈しく、手足は不自由、便意も不明確となり、笑いも怒りもせず、全く人形のようになってしまいました。<br><br>十一月四日、夕食に立上ろうとした途端にヨロヨロとして柱の角に後頭部を打付けて倒れ、人事不省となり、御浄霊一時間程して気が付き、その夜明け頃から数回に亘り胃液のようなものを吐き、次第に正気になり、ハッキリ言葉も出るようになり、三日目には手足は完全に、頭も明確になり、ただ今では眼だけが少しかすむ位となりました。<br><br>本人は発病後約一年二ケ月間の事は全然記憶が無くなっております。<br><br>いかなる理由でしょうか。<br><br> 注射のためである。<br><br>頭の毒が浄化して、目から出ようとしたのである。<br><br> 053 歩行不能となった精神病者（注射禍） 三十八歳の婦人ですが、昭和二十二年頃精神に異常を来たし、電話をかける風をしたり、歌を歌ったりするような状態のため脳病院に約一ケ月入院をして、精神異常は治りましたが、二十四年の十月頃に肥り出して歩行が余りよく出来なくなりました。<br><br>また、本年初めより今度は全然歩行が出来ず、一人で立ち歩く事が出来ません。<br><br>また、坐っていても時々倒れて終います。<br><br>歌も忘れっぽくなって終いました。<br><br>食事は普通に食べておりますが、直ぐに腹が減って物を食べたがります。<br><br>右は体的な御浄化でしょうか。<br><br>霊的でしょうか。<br><br>御伺い申し上げます。<br><br> 熱は大抵右延髄（大抵右）か頭部（大抵右）である。<br><br>耳下腺をやる。<br><br>精神病の注射が原因である。<br><br>（S25. 1.18） 054 中耳炎に脊髄注射・手振れる 佐野高蔵と申す教導所の主人で御座いますが、十年前に中耳炎を患い、脊髄に注射を致しました。<br><br>中耳炎は治りましたが、手が無意識に振れて、最近は電車に乗る事も困難で御座いました。<br><br>昨年四月入信致しまして、夫婦共熱心に信仰致しております。<br><br>御屏風観音様をお迎え致しまして以来、非常に結果は宜しゅう御座います。<br><br>入信以来お小便はいつも濁っております。<br><br>濁りが少くなりますと、体の具合が悪いと申します。<br><br>祝詞を奏げましても憑霊現象は御座いません。<br><br>眠りますと、何の変化もなく普通人のごとくで御座います。<br><br>不思議に思いまして、本人の眠っております時に、これは霊的ではないでしょうかと語り合いますと、少々手が動き出しました。<br><br>これは霊的で御座いましょうか。<br><br>また、注射のためで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 注射のためである。<br><br>脊髄から手の方へ向って浄霊すればよい。<br><br>（S25. 1.21） 055 掌化膿より咳激し（注射） 信者岡部健蔵（五十三歳）は、本年四月中旬左手の掌が化膿し、医師の治療を受け全快、間もなく五月上旬頃より左側坐骨神経痛になり、起居歩行も困難となり、医師にて痛み止めを十二本注射致しますと腰及び左膝が伸びなくなりました。<br><br>五月三十一日より御浄霊を受け、御守護にて追々楽にして戴き、八月十一日に教修を戴きました。<br><br>八月九日は仕事も出来る程度になりました。<br><br>十月十八日頃より第三回の浄化にて坐骨及び背骨等の痛みのため立てない事もあり、なお、咳と共に痰が出るようになり、その時は下半身、背骨等が、激しく痛みます。<br><br>咳は夜間多く出て二時間位しか眠れません。<br><br>どう致しましたらお救い戴けましょうか。<br><br> 医師の作った病気である。<br><br>出るのを止めた。<br><br>痛み止めの注射十二本が降りて足腰が動かなくなった。<br><br>薬が痰になって出る度に咳が出る。<br><br>痛い所を浄霊すればよい。<br><br>（S24.11. 9） 056 注射薬の浄化 私の浄霊しております児玉つぎ子（三十一歳）は、肺結核にて一ケ年程医療を受け、背中に注射を六十本程しています。<br><br>今年八月より浄霊を始め、九月入信、幾分楽にさせて戴きましたが、この注射薬が浄化して来た時はいかになりますでしょうか。<br><br>また、その場合いかにさせて戴いたら救われましょうか。<br><br>御浄霊法をあわせ御教示下さいませ。<br><br> 浄化して来た時、その都度それに応じてやればよい。<br><br>単に注射薬でもいろいろある。<br><br>（S24.11. 7）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Cálcio e Tuberculose</h2>
 <p>Em autópsias de pessoas sem sintomas aparentes de tuberculose pulmonar, ouve-se dizer que os pulmões de muitos indivíduos apresentam vestígios de infecções pregressas, com as áreas afetadas enrijecidas por cálcio. Por que razão o cálcio atua especificamente nesses locais que foram acometidos pela tuberculose?</p>
@@ -137,5 +289,48 @@ function toggleLang(lang) {
 <h2>Purificação de Medicamentos Injetáveis</h2>
 <p>Estou ministrando Johrei em Tsugiko Kodama, de trinta e um anos, que sofre de tuberculose pulmonar. Ela passou por tratamento médico por cerca de um ano, durante o qual recebeu aproximadamente sessenta injeções nas costas. Começamos o Johrei em agosto deste ano, ela ingressou na fé em setembro e obteve algum alívio. Gostaria de saber como se manifestará a purificação desses medicamentos injetáveis. E, nesse caso, como devo proceder para que ela seja salva? Peço que me ensine também o método de Johrei apropriado.</p>
 <p>Quando a purificação se manifestar, você deve proceder de acordo com a situação do momento. Existem muitos tipos de medicamentos injetáveis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （八） ４ 042-056 誤謬２ 042 カルシュウムと結核 肺結核の知覚症状なき人の死体解剖により、多くの人の肺には、一度肺結核に侵された痕跡があり、その個所がカルシュウムによりて固められていると聞きますが、なにゆえ、肺結核に犯された個所に特にカルシュウムが作用するかについて―― カルシュウムは人間の身体にある。<br/><br/>一度侵されたという事は、自然浄化により治り、これが集ったものである。<br/><br/>カルシュウムを製造したり、服むと器能が弱る。<br/><br/>注射等により入れたカルシュウムと身体で作るカルシュウムとは違う。<br/><br/>カルシュウム注射は蕁麻疹の原因となる。<br/><br/>魚の骨にあるというが、骨は猫が食うもので、美味しい所を人間が食べる。<br/><br/>苦いものは毒だから、食べさせぬよう神様が造られている。<br/><br/>良薬は口に甘しが本当である。<br/><br/>薬に分量のあるのは、毒であるから分量を定めるのである。<br/><br/>（S24.12.13） 043 薬剤使用と霊の曇りの関係 薬剤使用者は霊体に曇りがあるので自然と使用するような動機になるのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> あまり関係はない。<br/><br/>（S24.12.23） 044 注射の効能 注射で死亡する方がよくありますが、そういう場合、その注射薬中に世間で言う毒薬があり、その力のために死んだりするのでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 薬はない。<br/><br/>もしありとすれば米の飯位である。<br/><br/>毒で弱らせ、浄化を停止するのが実際の効能である。<br/><br/>毒を入れても――。<br/><br/>浄化停止されているが――。<br/><br/>注射液が身体中へ回らず、一個所へ固まる。<br/><br/> 045 注射禍の現在 最近頻々として起る注射禍は、昔は予防注射で毒素が陰化されていたものが、浄化が激しくなったため却って誘発されるのではないでしょうか。<br/><br/> 前は注射したものが、身体中へ回って固まって停止した。<br/><br/>今はその部から浄化される。<br/><br/>（S23.12.22） 046 薬毒による諸症状 発病してから一ケ年位になります。<br/><br/>御光を戴いてから二十日位ですが、それ迄はあらゆる療法も医薬も用い、何等見るべき効果もありませんでした。<br/><br/>医師は慢性胃腸病と診断しましたが、症状は、食欲なく、不規則な胃痛があります。<br/><br/>便通はこれも不規則に一日一回ないし二回、硬、軟いずれでもなく普通です。<br/><br/>なお、不眠が続き、体重が減じて行きます。<br/><br/>不眠のためか顔色は蒼白だと人が言います。<br/><br/>一昨年十月十五日に妻が死亡（中風）しております。<br/><br/>浄霊をうけるようになりましても余り変りがありません。<br/><br/>これは何かの因縁でしょうか。<br/><br/>またどうしたら救われますか。<br/><br/>御教え願います。<br/><br/> 薬の中毒で、夜の世界のものは、昼の世界には何でも反対になる。<br/><br/>今迄は薬で固めた方がよかった。<br/><br/>夜の世界では溶かす働きがなかった。<br/><br/> 顔色の悪いのは毒が多く血が不足している。<br/><br/>こういう人は特に頸の周りに毒が沢山あるためである。<br/><br/>薬毒――。<br/><br/> （いろいろ考えさせるのは、霊が考えさせる）（S24. 2.27） 047 長い薬毒病 私は三十五歳頃から日々医療に接してきました所、昭和二十一年十二月入信させて頂き、その後、光明如来様、また二十四年一月大光明如来様を御祭りさせて頂きましたが、その頃より浄化を頂き、食進まず、息切れして少しの仕事も出来ず、約四十日位にて少し楽にさせて頂きましたが、その後も時々浄化を頂き、頭、首すじが重く、食進まず、便通悪く、胃の下部が気持悪く、動悸を打ち、息切れがして毎日体がふらつき、仕事も出来ず、少しの咳が出ても右の胸部へこたえる時も度々ありましたが、現在同様な状態が続いています。<br/><br/>薬毒でしょうか。<br/><br/>また、いかなる原因でしょうか。<br/><br/>御教え下さい。<br/><br/>昨年一月より約一ケ年半浄化を頂いております。<br/><br/>いかがなものでしょうか。<br/><br/> 薬毒である。<br/><br/>浄化は長い。<br/><br/>背中に固結している。<br/><br/>背中、頭、肩をよくする。<br/><br/>触って熱い所をする。<br/><br/>薬毒はナカナカとれぬ。<br/><br/>私など未だに三十六年前の薬で、歯で苦労する。<br/><br/>（S25. 5.27） 048 九神薬による病気 私は三十六歳の時、夫に死に別れ三人の子供を抱え、夜遅くまで働きました所、胃の病にかかり、九神という薬を三年間飲みましたが、今は浄霊しておりますけれども、毎日のように、時をうって四時から五時頃の間、肩から胃にかけて体がしわって来るのですが、いかなる訳ですか。<br/><br/> 九神のため、新しい病気を造ったようなものである。<br/><br/>肩胛骨付近と肩を浄霊すれば治る。<br/><br/>（S24. 4.28） 049 浄霊で治癒遅き薬毒病患者（毛髪汚れ落ちず） 四十八歳の女、一ケ年前から神経痛とリュウマチで浄霊致してますが、その人は以前大阪の芸者で、脇下にグリグリがあり、梅毒の疑いで血液検査されました。<br/><br/>天候の悪い時は節々が痛み、腫れ上り、その腫れも時々変り、また毛髪もどんな良い石鹸でもソーダで洗っても落ちません。<br/><br/>以前三年間ペニシリンや色々の注射を多く打ちましたので、最初のみで浄霊前後から少しも効果がありません。<br/><br/>何の原因でしょうか。<br/><br/> 薬毒が非常に沢山ある。<br/><br/>毛髪などもそれで、節々が痛むのもそれである。<br/><br/>梅毒ならば痛まぬ筈である。<br/><br/>つまり薬毒病患者である。<br/><br/> 050 薬の祟り 本年四十歳の男子、現在、左肩が痛み、腕の自由が利きません。<br/><br/>昨年十月入信、本年三月大光明如来様を御祀りさせて頂き、御浄霊を続けておりますが、中々よくなりません。<br/><br/>この家では二百年前、当家の下の家に二百年以上経った榎が御座いましたのを切りました所、色々の禍が御座いましたので、代りの榎を植えましたとの事で、その木が丁度当家の裏にあり、何かと他家へ迷惑を掛けますので、昭和十二年に切ったそうで御座います。<br/><br/>その後、昭和十三年一月、坐骨神経痛を病み、同年六月、四歳になります長女が水疱瘡で死亡致しました。<br/><br/>榎の祟りではないかと思い、神主に頼み祠を作ってお祀り致しましたが、なお昭和十四年八月と十五年五月、支那において本人が急性盲腸炎を患い、十九年七月、次女（三歳）が急性肺炎にて死亡致し、十九年末より本人の肩が凝り出し、二十二年より悪化し、二十三年より痛みが加わり、二十四年より就寝時にのみ腰が痛み出しました。<br/><br/>その間、電気治療その他種々の療法を行っております。<br/><br/>これは榎を切りました祟りのように思われますが、御教えをお願い申し上げます。<br/><br/> 榎でなく薬の祟りである。<br/><br/>坐骨――薬毒――。<br/><br/> 木の祟りとなれば、二百年も祟らぬ。<br/><br/>せいぜい数十年である。<br/><br/>（S25. 4.21） 051 薬毒に苦しむ（ノーシン） 四十七歳、薬毒に苦しむ女の信者、二十歳頃から服薬、最近まで朝昼晩にノーシン十服位飲んでおりました。<br/><br/>八月二十八日、薬をやめさせ、教修致しました。<br/><br/>御守護のほど御願い致します。<br/><br/> これは浄化が起るから、よく前に言っておいた方がよい。<br/><br/>（S24. 9. 9） 052 半身不随より眼かすむ（注射禍） 昨年九月頃から眼がかすみ注射を続けたところ頭がボーッとして左半身不随となり、歩行困難となる。<br/><br/>本年二月妻が入信、本人は四月入信、光明如来様をお祀りしてからは次第に手足が利くようになり、一人でお参りが出来るようになったところ、九月頃から再浄化烈しく、手足は不自由、便意も不明確となり、笑いも怒りもせず、全く人形のようになってしまいました。<br/><br/>十一月四日、夕食に立上ろうとした途端にヨロヨロとして柱の角に後頭部を打付けて倒れ、人事不省となり、御浄霊一時間程して気が付き、その夜明け頃から数回に亘り胃液のようなものを吐き、次第に正気になり、ハッキリ言葉も出るようになり、三日目には手足は完全に、頭も明確になり、ただ今では眼だけが少しかすむ位となりました。<br/><br/>本人は発病後約一年二ケ月間の事は全然記憶が無くなっております。<br/><br/>いかなる理由でしょうか。<br/><br/> 注射のためである。<br/><br/>頭の毒が浄化して、目から出ようとしたのである。<br/><br/> 053 歩行不能となった精神病者（注射禍） 三十八歳の婦人ですが、昭和二十二年頃精神に異常を来たし、電話をかける風をしたり、歌を歌ったりするような状態のため脳病院に約一ケ月入院をして、精神異常は治りましたが、二十四年の十月頃に肥り出して歩行が余りよく出来なくなりました。<br/><br/>また、本年初めより今度は全然歩行が出来ず、一人で立ち歩く事が出来ません。<br/><br/>また、坐っていても時々倒れて終います。<br/><br/>歌も忘れっぽくなって終いました。<br/><br/>食事は普通に食べておりますが、直ぐに腹が減って物を食べたがります。<br/><br/>右は体的な御浄化でしょうか。<br/><br/>霊的でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 熱は大抵右延髄（大抵右）か頭部（大抵右）である。<br/><br/>耳下腺をやる。<br/><br/>精神病の注射が原因である。<br/><br/>（S25. 1.18） 054 中耳炎に脊髄注射・手振れる 佐野高蔵と申す教導所の主人で御座いますが、十年前に中耳炎を患い、脊髄に注射を致しました。<br/><br/>中耳炎は治りましたが、手が無意識に振れて、最近は電車に乗る事も困難で御座いました。<br/><br/>昨年四月入信致しまして、夫婦共熱心に信仰致しております。<br/><br/>御屏風観音様をお迎え致しまして以来、非常に結果は宜しゅう御座います。<br/><br/>入信以来お小便はいつも濁っております。<br/><br/>濁りが少くなりますと、体の具合が悪いと申します。<br/><br/>祝詞を奏げましても憑霊現象は御座いません。<br/><br/>眠りますと、何の変化もなく普通人のごとくで御座います。<br/><br/>不思議に思いまして、本人の眠っております時に、これは霊的ではないでしょうかと語り合いますと、少々手が動き出しました。<br/><br/>これは霊的で御座いましょうか。<br/><br/>また、注射のためで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 注射のためである。<br/><br/>脊髄から手の方へ向って浄霊すればよい。<br/><br/>（S25. 1.21） 055 掌化膿より咳激し（注射） 信者岡部健蔵（五十三歳）は、本年四月中旬左手の掌が化膿し、医師の治療を受け全快、間もなく五月上旬頃より左側坐骨神経痛になり、起居歩行も困難となり、医師にて痛み止めを十二本注射致しますと腰及び左膝が伸びなくなりました。<br/><br/>五月三十一日より御浄霊を受け、御守護にて追々楽にして戴き、八月十一日に教修を戴きました。<br/><br/>八月九日は仕事も出来る程度になりました。<br/><br/>十月十八日頃より第三回の浄化にて坐骨及び背骨等の痛みのため立てない事もあり、なお、咳と共に痰が出るようになり、その時は下半身、背骨等が、激しく痛みます。<br/><br/>咳は夜間多く出て二時間位しか眠れません。<br/><br/>どう致しましたらお救い戴けましょうか。<br/><br/> 医師の作った病気である。<br/><br/>出るのを止めた。<br/><br/>痛み止めの注射十二本が降りて足腰が動かなくなった。<br/><br/>薬が痰になって出る度に咳が出る。<br/><br/>痛い所を浄霊すればよい。<br/><br/>（S24.11. 9） 056 注射薬の浄化 私の浄霊しております児玉つぎ子（三十一歳）は、肺結核にて一ケ年程医療を受け、背中に注射を六十本程しています。<br/><br/>今年八月より浄霊を始め、九月入信、幾分楽にさせて戴きましたが、この注射薬が浄化して来た時はいかになりますでしょうか。<br/><br/>また、その場合いかにさせて戴いたら救われましょうか。<br/><br/>御浄霊法をあわせ御教示下さいませ。<br/><br/> 浄化して来た時、その都度それに応じてやればよい。<br/><br/>単に注射薬でもいろいろある。<br/><br/>（S24.11. 7）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

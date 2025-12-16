@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyohuji</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恐怖時代の兆し 瓢箪 『栄光』200号、昭和28(1953)年3月18日発行 私の住んでいる市内で、近頃お医者さんは非常に忙しくなり死ぬ人が多くなった。<br><br>又ちょっと気分がわるいといって寝ついたと思うと一日か二日で死ぬ人が殖えて来た。<br><br>そういうのは一家の支柱たる人に多いという事をよく耳にするが、それは従来になく著るしいようである。<br><br>勿論医学迷信の本体を知らぬ医家も一般人もその真因を知る由もない。<br><br>かねて明主様から、「浄化作用が段々強くなって短期間に死ぬ人は殖えるし、医療を施す程急速に悪化する事がはっきりしてくる。<br><br>現界も年と共に昼間の明るさになるのであって、いずれは浄霊以外手の施しようのない奇病も出てくるであろう」と御明示賜わっている信徒には当にその時が目前に迫り来った事が感ぜられる。<br><br>そうして病気が年毎に世界的加速度的に植えつつある報導によっても右の如き現象は当市内だけのものでない事も容易に推定出来る。<br><br> そうして注目すべきは、急死する者は一家に最も大き衝戟を与うる支柱たる人に多い事である。<br><br>それは当然最もよく健康に注意を払われ医療の最善を尽す機会の多かろう地位の人であって医療を施す程病が悪性化する兆しを明かに証している。<br><br>これによっても浄化が強まるにつれて家庭においても社会においても最も重要視さるる人ほど危険率が多い事にもなる。<br><br> そうして今後の浄化作用は、従来のそれとは全く異り決して後退する事なく激烈となるのみであろう、将来短期間に死亡する者数知れず、という大惨事も必ず到るであろうし、そのためあらゆる生産機能が停止さるる様な非常事態も起り得るのであって到底電産や炭労ストもしくは戦争の被害の比ではない。<br><br>それは古来幾度の予言書が比喩警告した如く未だ人類の経験にない凄惨なものであり強烈徹底させるものである。<br><br>形ない脅威、何物も止め様のない恐怖が地球上に瀰漫（びまん）するとしたら世にこれ程の恐しい事はない。<br><br>これは最も信じ難く誰しも信じたくない事であるが、夜明けて太陽の中天に昇るを予示するに等しき絶対的確言であって救世の大き御救いにより幾度か滅亡を救われ栄光の彼岸を知った吾等には一点の疑う余地なき必然である。<br><br> そして今東方の光昇り初めて世は現実にその恐怖の方向に進みつつあるをありやかに眼にする時、覚醒の血の叫びを挙げざるを得ぬ。<br><br>又今明主様が「アメリカを救う」の福音を偏く間配らるるのも、この恐怖時代の接近にあらかじめ備えんとの御心もあらるる事を知るべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Prenúncios de uma Era de Pavor</h2>
 <p>Recentemente, na cidade onde resido, os médicos têm estado sobremaneira atarefados, e o número de falecimentos aumentou consideravelmente. Ademais, tornou-se frequente o relato de pessoas que, sentindo um leve mal-estar e recolhendo-se ao leito, vêm a óbito em um ou dois dias. O que se ouve com insistência é que tais fatalidades acometem, em sua maioria, os sustentáculos do lar, um fenômeno de uma intensidade jamais vista. Naturalmente, tanto os médicos quanto a população em geral, por desconhecerem a essência do equívoco que é a medicina moderna, não têm como discernir a verdadeira causa desses acontecimentos.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A purificação vindoura, aliás, será completamente distinta das que a precederam. Ela jamais retrocederá; tornar-se-á apenas e incessantemente mais intensa. Inevitavelmente, advirá uma tragédia de proporções imensuráveis, na qual inúmeras pessoas perecerão em um breve período. Tal calamidade poderá, inclusive, desencadear uma situação de emergência que paralise por completo todas as atividades produtivas, em uma escala que superaria em muito os danos causados por greves gerais ou mesmo pela guerra. Será uma provação atroz, intensa e implacável, como alertam, em linguagem figurada, diversas profecias ancestrais — algo que a humanidade jamais experienciou. Nada neste mundo pode ser mais aterrador do que uma ameaça invisível, um pavor inexorável que se alastrará por toda a face da Terra.</p>
 <p>Embora seja algo sumamente difícil de acreditar, algo que ninguém deseja aceitar, trata-se de uma certeza absoluta, tão certa quanto o sol que, após a alvorada, ascende ao zênite. Para nós, que por inúmeras vezes fomos salvos da aniquilação pela grandiosa salvação de Meishu-Sama e que conhecemos a outra margem da glória, esta é uma inevitabilidade sobre a qual não paira a menor sombra de dúvida.</p>
 <p>E agora, quando a Luz do Oriente começa a despontar e vemos com nossos próprios olhos o mundo avançar nesta direção aterradora, não podemos nos furtar a erguer um clamor que brota da alma para o despertar da humanidade. Devemos compreender, outrossim, que a razão pela qual Meishu-Sama se empenha em disseminar o evangelho de “Salvar a América” reside precisamente em Seu desígnio de nos precavermos para a aproximação desta era de pavor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恐怖時代の兆し 瓢箪 『栄光』200号、昭和28(1953)年3月18日発行 私の住んでいる市内で、近頃お医者さんは非常に忙しくなり死ぬ人が多くなった。<br/><br/>又ちょっと気分がわるいといって寝ついたと思うと一日か二日で死ぬ人が殖えて来た。<br/><br/>そういうのは一家の支柱たる人に多いという事をよく耳にするが、それは従来になく著るしいようである。<br/><br/>勿論医学迷信の本体を知らぬ医家も一般人もその真因を知る由もない。<br/><br/>かねて明主様から、「浄化作用が段々強くなって短期間に死ぬ人は殖えるし、医療を施す程急速に悪化する事がはっきりしてくる。<br/><br/>現界も年と共に昼間の明るさになるのであって、いずれは浄霊以外手の施しようのない奇病も出てくるであろう」と御明示賜わっている信徒には当にその時が目前に迫り来った事が感ぜられる。<br/><br/>そうして病気が年毎に世界的加速度的に植えつつある報導によっても右の如き現象は当市内だけのものでない事も容易に推定出来る。<br/><br/> そうして注目すべきは、急死する者は一家に最も大き衝戟を与うる支柱たる人に多い事である。<br/><br/>それは当然最もよく健康に注意を払われ医療の最善を尽す機会の多かろう地位の人であって医療を施す程病が悪性化する兆しを明かに証している。<br/><br/>これによっても浄化が強まるにつれて家庭においても社会においても最も重要視さるる人ほど危険率が多い事にもなる。<br/><br/> そうして今後の浄化作用は、従来のそれとは全く異り決して後退する事なく激烈となるのみであろう、将来短期間に死亡する者数知れず、という大惨事も必ず到るであろうし、そのためあらゆる生産機能が停止さるる様な非常事態も起り得るのであって到底電産や炭労ストもしくは戦争の被害の比ではない。<br/><br/>それは古来幾度の予言書が比喩警告した如く未だ人類の経験にない凄惨なものであり強烈徹底させるものである。<br/><br/>形ない脅威、何物も止め様のない恐怖が地球上に瀰漫（びまん）するとしたら世にこれ程の恐しい事はない。<br/><br/>これは最も信じ難く誰しも信じたくない事であるが、夜明けて太陽の中天に昇るを予示するに等しき絶対的確言であって救世の大き御救いにより幾度か滅亡を救われ栄光の彼岸を知った吾等には一点の疑う余地なき必然である。<br/><br/> そして今東方の光昇り初めて世は現実にその恐怖の方向に進みつつあるをありやかに眼にする時、覚醒の血の叫びを挙げざるを得ぬ。<br/><br/>又今明主様が「アメリカを救う」の福音を偏く間配らるるのも、この恐怖時代の接近にあらかじめ備えんとの御心もあらるる事を知るべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

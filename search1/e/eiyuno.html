@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>eiyuno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 英雄の死に就いて 『栄光』205号、昭和28(1953)年4月22日発行 今度のスターリンの死について、考えるまでもなく、この人は今世紀における最も偉大なる存在であった事は今更いうまでもない。<br><br>とにかく彼の来歴をふりむいても分るごとく、ロシヤ帝政時代のアノ圧制極まる帝国主義を、根底から覆（くつが）えしたレーニンの後を継いで、善い悪いは別としても、ともかく今日のごとき共産大帝国を作り上げたその手腕は、驚異に値するといってもよかろう。<br><br>しかも色々三十余年にして、現在見るがごとき、強大なる米国と相対峙（あいたいじ）して、ビクともしない態勢は全く世紀の巨人として英雄の名を冠してもいいであろう。<br><br> にもかかわらず彼の死に対し、心から哀悼（あいとう）する者は世界中果して幾人あるかであろう。<br><br>これは今始った話ではないが、昔から幾多の英雄が死ぬ場合、大多数の感想をいえば、なるほど外形的には輝かしい存在としてその卓越せる鉄腕には感嘆せずにはいれないであろうが、ただそうなるまでには数え切れない程の多くの犠牲者が出た事である。<br><br>これだけでも無条件に賞（ほ）める事は到底出来ないのである。<br><br>というのはそれら被害者の怨恨（えんこん）は深刻なものであり、そのままでは霊は承知しないからである。<br><br>つまり目的のために手段を択ばず式の英雄特有の利己的観念を見出すのであって、この観念の根本こそ全く彼らの無神思想から生まれたものである。<br><br>とすれば世に無神思想程恐るべき幸福の破壊思想であり、文明の敵であるのは言うまでもあるまい。<br><br> 右は英雄と無神思想についてかいたのであるが、この事は英雄ならざる一般人民に対してもいえる。<br><br>すなわち目的のために手段を択ばず、勝てば官軍式の考え方で、この種の人間が現在余りにも多いのである。<br><br>しかもそういう人間が成功者として崇（あが）められるのであるから、それを見習う人間が増え、社会悪がドシドシ作られるのである。<br><br>この悪思潮に対しそれを防止するには宗教以外にないのは知れ切った話である。<br><br>これによってみても宗教なくしては、到底明るい住みよい社会は出来るはずはないのはもちろんである。<br><br>このように宗教が社会不安の防止に役立っているかは計り知れないものがあるにかかわらず、世の識者のほとんどはこれに気が付かず、反って宗教をもって無用の長物視しているので実に情ない話である。<br><br>この原因こそ全く科学中毒のためであって、知らず識らず人間の幸福を阻害し、それが文化人と思い得々（とくとく）としているのが今日の有様である。<br><br> そうして無神主義をもって望み通り、英雄に祭り上げられたとしても、その歓喜と満足は到底長く続くものではない。<br><br>これは歴史がよく物語っている。<br><br>すなわち英雄と名のつく者で、終りを全（まっと）うした者はほとんどないといってもよかろう。<br><br>事実英雄が死に際会して安楽な往生を遂げた者はなく、今度のスターリンのごときは、珍しい平穏な死を遂げたといえるが、しかし彼の死後現在の大ソビエットは、いつまで続くかという疑問である。<br><br>というのは彼によって歓喜幸福を与えられた者の数よりも、彼のために生命を奪われ、不幸に陥った人の数の方がどれ程多いか分らないであろうからで、いずれは多数者の怨霊の塊は、同国を倒さずには措（お）かないと共に、霊界の鉄則としてそういう大きな罪人が死後霊界に往（おもむ）くや、暗黒無明の地獄界に転落し、名状すべからざる悲惨な境遇に落ち、その罪を赦（ゆる）されるまでには、少なくとも数百年はかかるのである。<br><br>従ってこれを知るやいかなる英雄豪傑でも一溜（ひとたま）りもなく後悔するが、時既に遅しでどうにもならないのであるから“哀れなる者よ、汝の名は英雄也”と言いたいのである。<br><br>それに引換え神を信じ、一人でも多くの人を救い、歓喜と安心を得させる吾々こそ永遠なる栄光の下に、真の幸福者たり得るのである。<br><br> (注) 対峙（たいじ）二つの勢力が向き合ったまま動かないでいること。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Acerca da Morte dos Heróis</h2>
 <p>Diante da recente morte de Stalin, é indubitável que ele representou a figura mais imponente do nosso século. Sua trajetória, por si só, revela a dimensão de seus feitos. Como sucessor de Lênin — o homem que derrubou pela raiz o imperialismo opressor da era czarista russa —, Stalin, independentemente de um juízo de valor sobre seus atos, demonstrou uma habilidade extraordinária ao edificar o vasto império comunista que conhecemos hoje. Tal proeza pode ser considerada, sem exagero, um verdadeiro assombro. Ademais, ao longo de mais de três décadas, ele consolidou uma nação capaz de se postar diante dos poderosos Estados Unidos sem vacilar. Essa postura o qualifica, merecidamente, a receber o título de herói, um verdadeiro titã de sua era.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>As considerações anteriores foram tecidas sobre os heróis e a ideologia ateísta, mas aplicam-se igualmente ao cidadão comum. Com efeito, é demasiado numerosa a estirpe de indivíduos que, agindo sob a máxima de que “os fins justificam os meios” e de que “a vitória confere a razão”, permeiam a sociedade atual. Pior ainda, como essas pessoas são reverenciadas como exemplos de sucesso, o número de seus imitadores cresce, o que fomenta incessantemente os males sociais. É notório que, para conter essa perniciosa corrente de pensamento, não há outro recurso senão a religião. Por esse prisma, fica evidente que, sem a religião, é absolutamente impossível construir uma sociedade iluminada e harmoniosa. Apesar do papel imensurável que a religião desempenha na prevenção da instabilidade social, a maioria dos chamados intelectuais do mundo não percebe essa verdade. Pelo contrário, chegam a considerar a religião um anacronismo inútil, o que é, de fato, lamentável. A causa fundamental desse equívoco reside na intoxicação pelo cientificismo. Inadvertidamente, essa visão de mundo obstrui a felicidade humana, enquanto seus adeptos se comprazem em se ver como pessoas cultas — tal é o panorama de nossos dias.</p>
 <p>Ainda que, por meio do ateísmo, alguém alcance o almejado pedestal de herói, a alegria e a satisfação decorrentes dessa conquista estão longe de ser duradouras. A História é pródiga em exemplos que o comprovam. Com efeito, pode-se afirmar que quase nenhum daqueles que ostentaram o título de herói teve um fim sereno. Na verdade, são raros os heróis que tiveram uma passagem tranquila. O caso de Stalin pode ser considerado uma exceção, por ter tido uma morte relativamente serena; contudo, paira a dúvida sobre quanto tempo a grande União Soviética subsistirá após sua partida. Isso porque o número de pessoas que tiveram suas vidas ceifadas ou foram lançadas na infelicidade por sua causa é imensuravelmente maior do que o daquelas a quem ele proporcionou alegria e bem-estar. Cedo ou tarde, a massa formada pelos espíritos ressentidos de suas inúmeras vítimas inevitavelmente levará aquela nação à ruína. Ademais, segundo a lei férrea do Mundo Espiritual, quando pecadores de tamanha magnitude partem para o além, são precipitados em um inferno de trevas e ignorância. Ali, caem em uma condição de miséria indescritível, onde permanecerão por, no mínimo, várias centenas de anos, até que seus pecados sejam perdoados. Portanto, ao tomarem consciência desse destino, mesmo os mais aclamados heróis e conquistadores são tomados por um arrependimento avassalador, mas então já é tarde demais. Por essa razão, apetece-me dizer: “Ó, criatura digna de pena, teu nome é Herói!”.</p>
 <p>Em contrapartida, nós, que cremos em Deus e nos dedicamos a salvar o maior número possível de pessoas, proporcionando-lhes alegria e segurança, somos os verdadeiros bem-aventurados, destinados a viver sob a glória eterna.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 英雄の死に就いて 『栄光』205号、昭和28(1953)年4月22日発行 今度のスターリンの死について、考えるまでもなく、この人は今世紀における最も偉大なる存在であった事は今更いうまでもない。<br/><br/>とにかく彼の来歴をふりむいても分るごとく、ロシヤ帝政時代のアノ圧制極まる帝国主義を、根底から覆（くつが）えしたレーニンの後を継いで、善い悪いは別としても、ともかく今日のごとき共産大帝国を作り上げたその手腕は、驚異に値するといってもよかろう。<br/><br/>しかも色々三十余年にして、現在見るがごとき、強大なる米国と相対峙（あいたいじ）して、ビクともしない態勢は全く世紀の巨人として英雄の名を冠してもいいであろう。<br/><br/> にもかかわらず彼の死に対し、心から哀悼（あいとう）する者は世界中果して幾人あるかであろう。<br/><br/>これは今始った話ではないが、昔から幾多の英雄が死ぬ場合、大多数の感想をいえば、なるほど外形的には輝かしい存在としてその卓越せる鉄腕には感嘆せずにはいれないであろうが、ただそうなるまでには数え切れない程の多くの犠牲者が出た事である。<br/><br/>これだけでも無条件に賞（ほ）める事は到底出来ないのである。<br/><br/>というのはそれら被害者の怨恨（えんこん）は深刻なものであり、そのままでは霊は承知しないからである。<br/><br/>つまり目的のために手段を択ばず式の英雄特有の利己的観念を見出すのであって、この観念の根本こそ全く彼らの無神思想から生まれたものである。<br/><br/>とすれば世に無神思想程恐るべき幸福の破壊思想であり、文明の敵であるのは言うまでもあるまい。<br/><br/> 右は英雄と無神思想についてかいたのであるが、この事は英雄ならざる一般人民に対してもいえる。<br/><br/>すなわち目的のために手段を択ばず、勝てば官軍式の考え方で、この種の人間が現在余りにも多いのである。<br/><br/>しかもそういう人間が成功者として崇（あが）められるのであるから、それを見習う人間が増え、社会悪がドシドシ作られるのである。<br/><br/>この悪思潮に対しそれを防止するには宗教以外にないのは知れ切った話である。<br/><br/>これによってみても宗教なくしては、到底明るい住みよい社会は出来るはずはないのはもちろんである。<br/><br/>このように宗教が社会不安の防止に役立っているかは計り知れないものがあるにかかわらず、世の識者のほとんどはこれに気が付かず、反って宗教をもって無用の長物視しているので実に情ない話である。<br/><br/>この原因こそ全く科学中毒のためであって、知らず識らず人間の幸福を阻害し、それが文化人と思い得々（とくとく）としているのが今日の有様である。<br/><br/> そうして無神主義をもって望み通り、英雄に祭り上げられたとしても、その歓喜と満足は到底長く続くものではない。<br/><br/>これは歴史がよく物語っている。<br/><br/>すなわち英雄と名のつく者で、終りを全（まっと）うした者はほとんどないといってもよかろう。<br/><br/>事実英雄が死に際会して安楽な往生を遂げた者はなく、今度のスターリンのごときは、珍しい平穏な死を遂げたといえるが、しかし彼の死後現在の大ソビエットは、いつまで続くかという疑問である。<br/><br/>というのは彼によって歓喜幸福を与えられた者の数よりも、彼のために生命を奪われ、不幸に陥った人の数の方がどれ程多いか分らないであろうからで、いずれは多数者の怨霊の塊は、同国を倒さずには措（お）かないと共に、霊界の鉄則としてそういう大きな罪人が死後霊界に往（おもむ）くや、暗黒無明の地獄界に転落し、名状すべからざる悲惨な境遇に落ち、その罪を赦（ゆる）されるまでには、少なくとも数百年はかかるのである。<br/><br/>従ってこれを知るやいかなる英雄豪傑でも一溜（ひとたま）りもなく後悔するが、時既に遅しでどうにもならないのであるから“哀れなる者よ、汝の名は英雄也”と言いたいのである。<br/><br/>それに引換え神を信じ、一人でも多くの人を救い、歓喜と安心を得させる吾々こそ永遠なる栄光の下に、真の幸福者たり得るのである。<br/><br/> (注) 対峙（たいじ）二つの勢力が向き合ったまま動かないでいること。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mokka2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 目下戦争準備中 滑稽阿呆文学 未発表、昭和10(1935)年頃に執筆と思われる つらつら現代文明の、世界とやらを眺めたら、危いオッカない事ばかり。<br><br>いつ爆弾や毒瓦斯（ガス）が空から降るやら判らない。<br><br> そもそも毛唐が拵（こしら）えた科学文明という奴は、飛行機、ラジオを初めとし、便利な器械や発明を、やってくれたそのお蔭で、寝ていて千里も二千里も、行ったり来たり丸いもの、使えば勝手に出来るのじゃ。<br><br>まったく名誉も何も彼も、大抵の事は思う様に、なってオマケに馬鹿野郎でも、薄野呂（うすのろ）野郎でも人様を、米搗（こめつき）バッタに致すには、いとも易々出来る娑婆、したがアべコベに銭がない奴と来たらばこれは又、誠に以て情ない惨めな態は稼いでも、稼いでもオッツかぬ。<br><br>間誤々々（まごまご）すりゃ食う事も、出来ないという情なさ。<br><br>万物の霊長と自惚（うぬぼれ）の人間様は宛（さなが）らに、機械同様どころか機械の奴に使われてしまうというその態は、大家に飼われる犬猫より、よっぽど惨めな有様だ。<br><br>餓鬼が増えたら食えないと、生まないような算段を、しなけりゃ追付かぬ世智辛（せちがら）さ、子宝などという言葉は、丸持共より通用しない、というようになっちゃ世も末じゃ。<br><br> 文明開化は人類の、福祉を増すといいながら、実は不幸が増すのじゃて。<br><br>そこで阿呆、いわば便利な世の中になる程苦労が増えるのは、どこかに間違いがあるじゃろうと、よく考えてみりゃコレハこれは、世界中の人間共が、飛んでもない大間違をやっている。<br><br>毛唐の智慧の浅ましさ、それをボツボツこの阿呆が、腸（はらわた）の底へ沁みる程、説いて聞かしてやろうから、黄色も白も黒ん坊も、耳の穴をばカッポジって、能くよく聞くのが良いで御座ろう。<br><br> 世界万国ズラリッと見渡してみりゃどの国も、今お互いに戦争をしなきゃならぬと汗水を垂らしているとは怖ろしい。<br><br>虎狼よりは未だ惨（ひど）い、野獣のような白色の野蛮人共は牙を剥（む）き、爪を研（と）いで唸ってて、今や生命の奪い合いを、オッ始めんとする様は、世界各国の有様で御座る。<br><br>ムッソリーニの親爺は英国へ、ヒットラー団長がフランスヘ、スターリン破落戸（ごろつき）は日本へ、飛掛ろうとして今将（まさ）に、物凄い息吐いている、穴恐ろしや恐ろしや。<br><br> こんなに切迫した世界、いずこを風が吹くのかと、知らぬお顔の半兵衛で、平和は百年も続く様、思って枕を高々と、グーグー昼寝の高鼾（いび）き、自由か不自由か知らないが、毛唐受売りの屁理屈を、ホザク青白い弱虫が、相当幅を利かしてて、大和魂抜く事に一生懸命になっている。<br><br>こういう手合の後には、マッソン結社の大悪魔が、ぺロリと舌を舐（な）めずって、いるとは更に気が付かぬ、いと御目出度い御連中、まったヨボヨボ爺さんや、金がフンダンに有余る、倖せ一人で背負ってる、ようなお方は、こういう結構な娑婆じゃて、一日も延したいと、国は二の次三の次、泰平無事を願うのは、当り前では御座らぬか。<br><br>今に吃驚仰天（びっくりぎょうてん）の、時が来なけりゃ倖せじゃ、未だ未だも一つ厄介な、御連中様がいらっしゃる。<br><br> 近頃御覧の途轍もない、馬鹿大仕掛な選挙粛正とやらいう御手数を、掛けなけやならない程という、怪しからん事やりたがる、政党屋ちう方々が、何だか国家を思うのか、思わないのか判らない、様な為体（ていたらく）とは心細い、我党よりも国家の方が、第一という事心得て、やっておもらい申したい。<br><br>そんなこんなを見るにつけ、ヤキモキしている軍人の国家を思う真心は、泪（なみだ）の出る程嬉しいと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Desvario do Mundo Contemporâneo</h2>
 <p>Ao contemplar com atenção este mundo que chamamos de civilização moderna, deparo-me unicamente com perigos e temores. Nunca se sabe quando bombas ou gases venenosos poderão chover dos céus.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Naturalmente, os anciãos já debilitados e aqueles que acumularam fortunas exorbitantes, carregando sozinhos o fardo da felicidade, desejam prolongar ao máximo suas vidas neste mundo tão aprazível. Para eles, a nação fica em segundo ou terceiro plano; seu único anseio é a paz e a tranquilidade. Não seria essa uma reação previsível? Felizes serão se não chegar o dia em que um sobressalto os fará despertar para a realidade.</p>
 <p>Contudo, existe ainda outro grupo de pessoas bastante problemático. Refiro-me aos políticos partidários, que nos impõem o fardo de movimentos absurdos e de escala colossal, como a recente reforma para a depuração das eleições, cuja necessidade apenas evidencia as práticas abomináveis que eles mesmos promovem. Seu comportamento é tão desalentador que já não se sabe se nutrem algum sentimento pela nação ou se apenas defendem seus próprios interesses. É imperativo que compreendam que o país deve estar sempre acima de seus partidos.</p>
 <p>Ao observar todo esse cenário, a sincera devoção dos militares, que se afligem pela nação, é algo que comove até as lágrimas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 目下戦争準備中 滑稽阿呆文学 未発表、昭和10(1935)年頃に執筆と思われる つらつら現代文明の、世界とやらを眺めたら、危いオッカない事ばかり。<br/><br/>いつ爆弾や毒瓦斯（ガス）が空から降るやら判らない。<br/><br/> そもそも毛唐が拵（こしら）えた科学文明という奴は、飛行機、ラジオを初めとし、便利な器械や発明を、やってくれたそのお蔭で、寝ていて千里も二千里も、行ったり来たり丸いもの、使えば勝手に出来るのじゃ。<br/><br/>まったく名誉も何も彼も、大抵の事は思う様に、なってオマケに馬鹿野郎でも、薄野呂（うすのろ）野郎でも人様を、米搗（こめつき）バッタに致すには、いとも易々出来る娑婆、したがアべコベに銭がない奴と来たらばこれは又、誠に以て情ない惨めな態は稼いでも、稼いでもオッツかぬ。<br/><br/>間誤々々（まごまご）すりゃ食う事も、出来ないという情なさ。<br/><br/>万物の霊長と自惚（うぬぼれ）の人間様は宛（さなが）らに、機械同様どころか機械の奴に使われてしまうというその態は、大家に飼われる犬猫より、よっぽど惨めな有様だ。<br/><br/>餓鬼が増えたら食えないと、生まないような算段を、しなけりゃ追付かぬ世智辛（せちがら）さ、子宝などという言葉は、丸持共より通用しない、というようになっちゃ世も末じゃ。<br/><br/> 文明開化は人類の、福祉を増すといいながら、実は不幸が増すのじゃて。<br/><br/>そこで阿呆、いわば便利な世の中になる程苦労が増えるのは、どこかに間違いがあるじゃろうと、よく考えてみりゃコレハこれは、世界中の人間共が、飛んでもない大間違をやっている。<br/><br/>毛唐の智慧の浅ましさ、それをボツボツこの阿呆が、腸（はらわた）の底へ沁みる程、説いて聞かしてやろうから、黄色も白も黒ん坊も、耳の穴をばカッポジって、能くよく聞くのが良いで御座ろう。<br/><br/> 世界万国ズラリッと見渡してみりゃどの国も、今お互いに戦争をしなきゃならぬと汗水を垂らしているとは怖ろしい。<br/><br/>虎狼よりは未だ惨（ひど）い、野獣のような白色の野蛮人共は牙を剥（む）き、爪を研（と）いで唸ってて、今や生命の奪い合いを、オッ始めんとする様は、世界各国の有様で御座る。<br/><br/>ムッソリーニの親爺は英国へ、ヒットラー団長がフランスヘ、スターリン破落戸（ごろつき）は日本へ、飛掛ろうとして今将（まさ）に、物凄い息吐いている、穴恐ろしや恐ろしや。<br/><br/> こんなに切迫した世界、いずこを風が吹くのかと、知らぬお顔の半兵衛で、平和は百年も続く様、思って枕を高々と、グーグー昼寝の高鼾（いび）き、自由か不自由か知らないが、毛唐受売りの屁理屈を、ホザク青白い弱虫が、相当幅を利かしてて、大和魂抜く事に一生懸命になっている。<br/><br/>こういう手合の後には、マッソン結社の大悪魔が、ぺロリと舌を舐（な）めずって、いるとは更に気が付かぬ、いと御目出度い御連中、まったヨボヨボ爺さんや、金がフンダンに有余る、倖せ一人で背負ってる、ようなお方は、こういう結構な娑婆じゃて、一日も延したいと、国は二の次三の次、泰平無事を願うのは、当り前では御座らぬか。<br/><br/>今に吃驚仰天（びっくりぎょうてん）の、時が来なけりゃ倖せじゃ、未だ未だも一つ厄介な、御連中様がいらっしゃる。<br/><br/> 近頃御覧の途轍もない、馬鹿大仕掛な選挙粛正とやらいう御手数を、掛けなけやならない程という、怪しからん事やりたがる、政党屋ちう方々が、何だか国家を思うのか、思わないのか判らない、様な為体（ていたらく）とは心細い、我党よりも国家の方が、第一という事心得て、やっておもらい申したい。<br/><br/>そんなこんなを見るにつけ、ヤキモキしている軍人の国家を思う真心は、泪（なみだ）の出る程嬉しいと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

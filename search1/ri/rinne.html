@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rinne</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 輪廻転生 『明日の医術 第三編』昭和18(1943)年10月23日発行 前項に述べたごとく、人間は生き更（かわ）り死に代り何回でも生れ替ってくるのである。<br><br>しからば一体、人間死後誰しも往かなければならない霊界とはいかなるところであるか、私の研究によって知り得た事を書いてみよう。<br><br> まず、霊界とはいかなるところか、それは眼にも見えず手にも触るる能わざる非物質即ち虚無であるから、唯物思想になれた一般人には理解され難いのである。<br><br>彼（か）の釈尊が説いた地獄極楽説やダンテの神曲における地獄、煉獄及び天国篇にある表徴は、霊界の一部を示したものであって、決して荒唐無稽な仮説ではないのである。<br><br>何となれば、病気や災厄・不幸等のあった場合、その原因が霊界と余りにも関係が多い事であって、いかに唯物的科学によって解釈しようとしても、事実を歪曲せざる限り、合理的説明は不可能である。<br><br>故に霊的事象に対し、科学的批判をする事――その事がすでに非科学的である。<br><br>しかるに、霊的解釈を下す時、それは事実と何らの矛盾も来さないのであるから、これが真の科学でなくて何であろうと思うのである。<br><br> そうしてまず、霊界とはいかなるものかという事であるが、これを一言にしていえば、意志想念の世界であるといえよう。<br><br>故に、肉体なる物的障碍がないから、現世よりもある点は素晴しい自由がある。<br><br>それはたとえていえば、その霊の意志によっていかなる所へも短時間で行けるのである。<br><br>彼の神道において鎮霊の際「天翔（あまかけ）り国翔り坐（ま）して、之の宮居に鎮まり座（ま）しませ」という事によっても明かなるごとく、千里といえども、数分間にして到達されるのである。<br><br>そうしてこの霊の行動の遅速は、霊の階級によって非常に差異があるものである。<br><br>高級霊即ち神格を得た霊程速かであって、最高級の神霊は一秒の何十分の一よりも速かで、一瞬にして、いかなる遠距離へも達し給うのである。<br><br>故に、低級な霊程遅く、最低級の霊に到っては、千里を走るのに数十分を要するのである。<br><br>それは低級霊ほど汚濁がはなはだしいから重いという訳である。<br><br> 次に、霊は想念によって伸縮自在である。<br><br>故に、一尺位の幅の仏壇の中に数十人否数百人の祖霊が居並ぶ事も出来得るのである。<br><br>その場合、順序、段階、服装等は頗る厳格であって、ことごとく相応の秩序が保たれているのである。<br><br>勿論、仏教にては戒名、神道にては御鏡又は神籬（ひもろぎ）に憑依するのである。<br><br> 又よく幽霊の有無をいうが、これは勿論実在のものであって、死後短時日の間ほど死霊の霊細胞が濃度であるから、たまたま人間の眼に映ずる事がある。<br><br>彼の基督（キリスト）が復活して昇天した姿が眼に映じたものが相当あったという事は別段不思議ではなく、あり得べき事なのである。<br><br>そうして年月を経るに従い浄化され、稀薄になるので、容易に見え難くなるものである。<br><br>又幽霊は、針のような穴からでも出入が出来得るのである。<br><br>それは肉体なる邪魔物がないからである。<br><br> 右のような点だけで解釈する時、自由主義者などは理想的世界と想うであろうが、そうはゆかないのである。<br><br>それはどういう訳かというと、厳然たる法則があって、その法則によって自由が制限されるからである。<br><br> 私は、今も生きている宗教界のある有名な人の著書の中にこういう事が書いてあった。<br><br>それは「人間は死後、霊が滅消してしまうので霊の存続や霊界などはあるものではない。<br><br>なぜなれば、もしそうであるとすれば、昔から死んだ人は何億あるか分らないから、死後、霊魂が存続するとしたら、霊界は満員にならなければならない」――というのである。<br><br>この人などは偉い人ではあるが、霊魂の伸縮自在という事を知らないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza do Mundo Espiritual</h2>
 <p>Conforme exposto anteriormente, o ser humano renasce inúmeras vezes, em um ciclo de vida e morte. Sendo assim, o que é, afinal, o Mundo Espiritual, para o qual todos invariavelmente se dirigem após a morte? Apresentarei a seguir o que minhas pesquisas me permitiram conhecer a esse respeito.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Questiona-se com frequência a existência de fantasmas, mas eles são, sem dúvida, uma realidade. Logo após a morte, as células espirituais do falecido são mais densas, razão pela qual, ocasionalmente, sua imagem pode ser captada pelo olho humano. O fato de um número considerável de pessoas ter testemunhado a figura de Cristo após sua ressurreição e ascensão não constitui, portanto, um evento extraordinário, mas algo perfeitamente plausível. Com o passar dos anos, o espírito é purificado, sua substância se torna mais rarefeita e, consequentemente, sua visualização se torna mais difícil. Ademais, um fantasma pode entrar e sair até mesmo pelo buraco de uma agulha, pois não possui o impedimento do corpo físico.</p>
 <p>Ao se considerar apenas os aspectos mencionados até aqui, um entusiasta da liberdade poderia imaginar o Mundo Espiritual como um lugar ideal, mas a realidade é bem diferente. Isso ocorre porque existem leis rigorosas que restringem essa liberdade.</p>
 <p>Certa vez, li no livro de uma célebre personalidade do mundo religioso, ainda em vida, a seguinte afirmação: "Após a morte, o espírito humano se extingue; portanto, a sobrevivência da alma e a existência de um Mundo Espiritual são inconcebíveis. A razão para isso é que, se as almas persistissem, considerando os incontáveis bilhões de pessoas que já morreram desde a antiguidade, o Mundo Espiritual já estaria superlotado". Embora seja uma pessoa de grande renome, tal autor desconhece a propriedade que as almas possuem de se expandir e se contrair livremente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 輪廻転生 『明日の医術 第三編』昭和18(1943)年10月23日発行 前項に述べたごとく、人間は生き更（かわ）り死に代り何回でも生れ替ってくるのである。<br/><br/>しからば一体、人間死後誰しも往かなければならない霊界とはいかなるところであるか、私の研究によって知り得た事を書いてみよう。<br/><br/> まず、霊界とはいかなるところか、それは眼にも見えず手にも触るる能わざる非物質即ち虚無であるから、唯物思想になれた一般人には理解され難いのである。<br/><br/>彼（か）の釈尊が説いた地獄極楽説やダンテの神曲における地獄、煉獄及び天国篇にある表徴は、霊界の一部を示したものであって、決して荒唐無稽な仮説ではないのである。<br/><br/>何となれば、病気や災厄・不幸等のあった場合、その原因が霊界と余りにも関係が多い事であって、いかに唯物的科学によって解釈しようとしても、事実を歪曲せざる限り、合理的説明は不可能である。<br/><br/>故に霊的事象に対し、科学的批判をする事――その事がすでに非科学的である。<br/><br/>しかるに、霊的解釈を下す時、それは事実と何らの矛盾も来さないのであるから、これが真の科学でなくて何であろうと思うのである。<br/><br/> そうしてまず、霊界とはいかなるものかという事であるが、これを一言にしていえば、意志想念の世界であるといえよう。<br/><br/>故に、肉体なる物的障碍がないから、現世よりもある点は素晴しい自由がある。<br/><br/>それはたとえていえば、その霊の意志によっていかなる所へも短時間で行けるのである。<br/><br/>彼の神道において鎮霊の際「天翔（あまかけ）り国翔り坐（ま）して、之の宮居に鎮まり座（ま）しませ」という事によっても明かなるごとく、千里といえども、数分間にして到達されるのである。<br/><br/>そうしてこの霊の行動の遅速は、霊の階級によって非常に差異があるものである。<br/><br/>高級霊即ち神格を得た霊程速かであって、最高級の神霊は一秒の何十分の一よりも速かで、一瞬にして、いかなる遠距離へも達し給うのである。<br/><br/>故に、低級な霊程遅く、最低級の霊に到っては、千里を走るのに数十分を要するのである。<br/><br/>それは低級霊ほど汚濁がはなはだしいから重いという訳である。<br/><br/> 次に、霊は想念によって伸縮自在である。<br/><br/>故に、一尺位の幅の仏壇の中に数十人否数百人の祖霊が居並ぶ事も出来得るのである。<br/><br/>その場合、順序、段階、服装等は頗る厳格であって、ことごとく相応の秩序が保たれているのである。<br/><br/>勿論、仏教にては戒名、神道にては御鏡又は神籬（ひもろぎ）に憑依するのである。<br/><br/> 又よく幽霊の有無をいうが、これは勿論実在のものであって、死後短時日の間ほど死霊の霊細胞が濃度であるから、たまたま人間の眼に映ずる事がある。<br/><br/>彼の基督（キリスト）が復活して昇天した姿が眼に映じたものが相当あったという事は別段不思議ではなく、あり得べき事なのである。<br/><br/>そうして年月を経るに従い浄化され、稀薄になるので、容易に見え難くなるものである。<br/><br/>又幽霊は、針のような穴からでも出入が出来得るのである。<br/><br/>それは肉体なる邪魔物がないからである。<br/><br/> 右のような点だけで解釈する時、自由主義者などは理想的世界と想うであろうが、そうはゆかないのである。<br/><br/>それはどういう訳かというと、厳然たる法則があって、その法則によって自由が制限されるからである。<br/><br/> 私は、今も生きている宗教界のある有名な人の著書の中にこういう事が書いてあった。<br/><br/>それは「人間は死後、霊が滅消してしまうので霊の存続や霊界などはあるものではない。<br/><br/>なぜなれば、もしそうであるとすれば、昔から死んだ人は何億あるか分らないから、死後、霊魂が存続するとしたら、霊界は満員にならなければならない」――というのである。<br/><br/>この人などは偉い人ではあるが、霊魂の伸縮自在という事を知らないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

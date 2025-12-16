@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nikki1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 最近の日記帳から （１） 瓢箪 『栄光』217号、昭和28(1953)年7月15日発行 四月十四日午後、明主様が箱根美術館へおいでになるとの報を耳にし、私も近くの町に住む者としてじっとしておれない感動を覚えお出迎えさして戴くべく強羅へ上った。<br><br>もっとも私には前日関西からの御帰還を神経痛で脚が立たず松葉杖をついて熱海駅へお出迎え申し上げたところ、おかげさまで帰りには杖なしで歩ける程楽にして戴いたので、今日も丁度幸い御光に触れさして頂き、もう一そう快くしていただきたいという勝手な願望も幾分あった。<br><br> 強羅に着くと、今日の陳列の御用を仰せつかったという専門家のＹ氏が、疲れた顔してやって来るのに出会した「京都に一週間もいて明主様のお伴をしてあちこち廻り、今日着いたばかりでフラフラのところへ又御用ですよ。<br><br>それにしても明主様はあのお年でよくもあんなに身体がお続きになる、全く不思議でならぬ。<br><br>とても吾々若い者は、どんなにしても敵いません」と、それでもお使い戴く喜びを面にうかべながら語っている。<br><br>それは私も長年経験した感歎の悲鳴である。<br><br> 又明主様はいつも若い者がノロイので私の方で加減していると仰せられる程の御元気も、世の為の重要事に対してはどんな御骨折も御いといにならぬ事も、何事にも速刻主義であられ、すべて極めて早いうちから御準備せられることなども充分知っていながら、まさか長途の御旅行から、御帰り早々の今日御着手になろうとは、実は私も大いに驚いていたのであるが、美術館係員の人々も皆意外だったらしく何か狼狽の色が感ぜられた。<br><br> やがて明主様は御着きになり、いつもと変らぬ素早く軽い御足どりで、美術館へお入りになった。<br><br>何の御用もない私は、せめてお仕事のお邪魔にならぬようにありたいと苑内をブラブラしていたものの、やはり少しでも御光に近く接していたい、そして何ともいえぬキビキビした御指図ぶりを拝し、この愚鈍にも智慧の光を賜わりたいという気持を制え難く、図々しくもとうとう館内に入り、暫くの間拝観さして戴いたのである。<br><br> 明主様は煙草をお吹かしになりながら、全く新しくケースの配置から、予め運ばれた御指定の美術品の陳列まで御指図をなされている。<br><br>それはさしてお考えになるという御様子も拝されず、すでに大体でき上ってる御構図のまま形象化されるかの様に極めて御気軽にそうして如何にもお楽しそうになされている。<br><br>私は堪らなく嬉しくなる、明主様のお楽しみの御気持そのままが館内に充ち満つるのか何ともいえぬ楽しく嬉しく香り高い芸術境の雰囲気が漂うている。<br><br>それは最もお好みになる芸術のお仕事としてのお楽しみであり、この偉大な美術館によって大勢の人々を楽しましめ、天国に遊ばせたもう神の大愛でもあろう。<br><br>そして係員の人々もきわめて身軽くこの快よい雰囲気の力に自から動かされているようにみえ、その緊張した面持にも御指図のまま動くいそいそした喜びの血潮を全身に沸（たぎ）らしているのが、惻々（そくそく）として胸に感ぜられてくるのである。<br><br> そしてあの狭い室内に十名余の人々が絶えず出入りして貴重な美術品を動かしたり、ガラス張りのケースを運び入れたり出したりしているのを見ていると、とてもスリルを感じ思わず緊張する。<br><br>それでいて何の遅滞も過失もなく迅速に進捗してゆく状は、明主様の御指図にして初めてなされ得る御事である。<br><br> しかも又、すべての美術品は格位色調形状等による配置の順序の正妙、間隔、高さ、置方等による位置の適確など、あらゆる点を最高の常識によって勘案結合されてなされている寸分のスキのない神技も誰にもできぬ事であり、又それと、室内すべてに強い色感なく、観音の心に落着きを与え、無枠のウインド、細枠のケース等も相俟って美術品の真価を最高度に顕彰せしむる周到言語に絶する装備は悉く明主様によって創成された素晴しい陳列芸術であり、箱根美術館の最高級たる特色の一つとなっている訳である。<br><br> さて、私は御指図の光景を拝観していると、われわれの頭でする仕事などは宛かも何世紀か前の人間を突如現代の文化時代につれて来たように、ただポーッとして生きてるという名ばかりで、いつもフラフラマゴマゴしているに等しい遅鈍極まるものであることをつくずく感じた。<br><br>そして御仕事をただ無為に傍観しているのみの自分が申訳ない気もしてついに館外へ御遠慮さしていただいた。<br><br>そして私は心の曇りを洗い浄められた爽快を覚え、頭脳もいつの間にかとても冴えていることに気がつき、拝観したことによって私の祈望も、充分叶えて戴いたことを知って感謝し奉った。<br><br>やがて明主様をお見送り申し上げ、生き返ったような明るい気持で、帰路に着いたのである。<br><br> そうして明主様はその後十八日午後と、二十日午前と二回おいでになっただけで、あれほどの陳列をすっかり終えさせられたのであった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Observando o Mestre em Plena Obra Divina</h2>
 <p>Na tarde de 14 de abril, ao tomar conhecimento da notícia de que Meishu-Sama visitaria o Museu de Arte de Hakone, senti-me impelido por uma emoção irresistível. Como residente das proximidades, não poderia deixar de ir recebê-Lo e, portanto, dirigi-me a Gora para reverenciá-Lo. Confesso que nutria também uma aspiração pessoal. No dia anterior, ao recepcionar Meishu-Sama na estação de Atami em Seu retorno da região de Kansai, eu mal conseguia me manter em pé devido a uma crise de nevralgia, apoiando-me em muletas. Graças à Sua presença, contudo, ao voltar para casa, já podia caminhar sem elas. Dessa forma, almejava, com certa conveniência, ter a ventura de ser novamente banhado por Sua Luz e alcançar uma recuperação ainda mais plena.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Ademais, a própria disposição das peças revelava uma habilidade divina, de uma perfeição inatingível para qualquer outra pessoa. Cada obra era posicionada com exatidão cirúrgica, em uma ordem que levava em conta a harmonia de seu nível, tonalidade e forma, bem como o espaçamento, a altura e a disposição ideais. Era uma composição sem a mais ínfima falha, concebida a partir da mais elevada sensibilidade. Este primor se aliava a um projeto de interiores de uma sofisticação indescritível: a paleta de cores suaves, as janelas sem molduras e os expositores de estrutura delgada — todos idealizados por Meishu-Sama — conspiravam para exaltar o verdadeiro valor das obras de arte em seu mais alto grau. Trata-se de uma esplêndida arte expositiva, inteiramente criada pelo Mestre, que constitui uma das características mais sublimes do Museu de Arte de Hakone.</p>
 <p>Ao contemplar a cena, tive a nítida percepção de quão rudimentar e moroso é o trabalho que realizamos com nossa mente. Senti-me como um homem de séculos passados transportado subitamente para a era moderna: um ser que apenas existe, atônito, em um estado de perpétua hesitação e confusão. A consciência de minha inutilidade, como mero espectador passivo, gerou em mim um sentimento de embaraço, e decidi, por respeito, retirar-me do local. Foi então que percebi que a névoa em minha mente se dissipara, dando lugar a uma extraordinária clareza e a um profundo frescor. Compreendi, com imensa gratidão, que minha prece inicial havia sido plenamente atendida. Logo depois, despedi-me de Meishu-Sama e tomei o caminho de volta para casa, com o espírito renovado e uma sensação de renascimento.</p>
 <p>Posteriormente, Meishu-Sama retornou ao museu apenas mais duas vezes — na tarde do dia 18 e na manhã do dia 20 — e, nesses breves encontros, concluiu por completo a grandiosa montagem da exposição.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 最近の日記帳から （１） 瓢箪 『栄光』217号、昭和28(1953)年7月15日発行 四月十四日午後、明主様が箱根美術館へおいでになるとの報を耳にし、私も近くの町に住む者としてじっとしておれない感動を覚えお出迎えさして戴くべく強羅へ上った。<br/><br/>もっとも私には前日関西からの御帰還を神経痛で脚が立たず松葉杖をついて熱海駅へお出迎え申し上げたところ、おかげさまで帰りには杖なしで歩ける程楽にして戴いたので、今日も丁度幸い御光に触れさして頂き、もう一そう快くしていただきたいという勝手な願望も幾分あった。<br/><br/> 強羅に着くと、今日の陳列の御用を仰せつかったという専門家のＹ氏が、疲れた顔してやって来るのに出会した「京都に一週間もいて明主様のお伴をしてあちこち廻り、今日着いたばかりでフラフラのところへ又御用ですよ。<br/><br/>それにしても明主様はあのお年でよくもあんなに身体がお続きになる、全く不思議でならぬ。<br/><br/>とても吾々若い者は、どんなにしても敵いません」と、それでもお使い戴く喜びを面にうかべながら語っている。<br/><br/>それは私も長年経験した感歎の悲鳴である。<br/><br/> 又明主様はいつも若い者がノロイので私の方で加減していると仰せられる程の御元気も、世の為の重要事に対してはどんな御骨折も御いといにならぬ事も、何事にも速刻主義であられ、すべて極めて早いうちから御準備せられることなども充分知っていながら、まさか長途の御旅行から、御帰り早々の今日御着手になろうとは、実は私も大いに驚いていたのであるが、美術館係員の人々も皆意外だったらしく何か狼狽の色が感ぜられた。<br/><br/> やがて明主様は御着きになり、いつもと変らぬ素早く軽い御足どりで、美術館へお入りになった。<br/><br/>何の御用もない私は、せめてお仕事のお邪魔にならぬようにありたいと苑内をブラブラしていたものの、やはり少しでも御光に近く接していたい、そして何ともいえぬキビキビした御指図ぶりを拝し、この愚鈍にも智慧の光を賜わりたいという気持を制え難く、図々しくもとうとう館内に入り、暫くの間拝観さして戴いたのである。<br/><br/> 明主様は煙草をお吹かしになりながら、全く新しくケースの配置から、予め運ばれた御指定の美術品の陳列まで御指図をなされている。<br/><br/>それはさしてお考えになるという御様子も拝されず、すでに大体でき上ってる御構図のまま形象化されるかの様に極めて御気軽にそうして如何にもお楽しそうになされている。<br/><br/>私は堪らなく嬉しくなる、明主様のお楽しみの御気持そのままが館内に充ち満つるのか何ともいえぬ楽しく嬉しく香り高い芸術境の雰囲気が漂うている。<br/><br/>それは最もお好みになる芸術のお仕事としてのお楽しみであり、この偉大な美術館によって大勢の人々を楽しましめ、天国に遊ばせたもう神の大愛でもあろう。<br/><br/>そして係員の人々もきわめて身軽くこの快よい雰囲気の力に自から動かされているようにみえ、その緊張した面持にも御指図のまま動くいそいそした喜びの血潮を全身に沸（たぎ）らしているのが、惻々（そくそく）として胸に感ぜられてくるのである。<br/><br/> そしてあの狭い室内に十名余の人々が絶えず出入りして貴重な美術品を動かしたり、ガラス張りのケースを運び入れたり出したりしているのを見ていると、とてもスリルを感じ思わず緊張する。<br/><br/>それでいて何の遅滞も過失もなく迅速に進捗してゆく状は、明主様の御指図にして初めてなされ得る御事である。<br/><br/> しかも又、すべての美術品は格位色調形状等による配置の順序の正妙、間隔、高さ、置方等による位置の適確など、あらゆる点を最高の常識によって勘案結合されてなされている寸分のスキのない神技も誰にもできぬ事であり、又それと、室内すべてに強い色感なく、観音の心に落着きを与え、無枠のウインド、細枠のケース等も相俟って美術品の真価を最高度に顕彰せしむる周到言語に絶する装備は悉く明主様によって創成された素晴しい陳列芸術であり、箱根美術館の最高級たる特色の一つとなっている訳である。<br/><br/> さて、私は御指図の光景を拝観していると、われわれの頭でする仕事などは宛かも何世紀か前の人間を突如現代の文化時代につれて来たように、ただポーッとして生きてるという名ばかりで、いつもフラフラマゴマゴしているに等しい遅鈍極まるものであることをつくずく感じた。<br/><br/>そして御仕事をただ無為に傍観しているのみの自分が申訳ない気もしてついに館外へ御遠慮さしていただいた。<br/><br/>そして私は心の曇りを洗い浄められた爽快を覚え、頭脳もいつの間にかとても冴えていることに気がつき、拝観したことによって私の祈望も、充分叶えて戴いたことを知って感謝し奉った。<br/><br/>やがて明主様をお見送り申し上げ、生き返ったような明るい気持で、帰路に着いたのである。<br/><br/> そうして明主様はその後十八日午後と、二十日午前と二回おいでになっただけで、あれほどの陳列をすっかり終えさせられたのであった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

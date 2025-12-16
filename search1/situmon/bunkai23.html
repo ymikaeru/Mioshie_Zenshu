@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai23</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無碍光 直心分会『会報』５号、昭和24(1949)年6月20日発行 ――夢にごちそうをいただくと病気になると言われておりますが、霊的になにか意味がございましょうか、お伺い申し上げます。<br><br> そんなことはない。<br><br>迷信である。<br><br> ――中風症で二日目に便が出れば二年生き、三日目に出れば三年生きると言われ、また男は左女は右に出ると言うがいかなる由でございましょうか、お伺い申し上げます。<br><br> 医学では中風と便とは密接なる関係があると言っているが、そんなことはない。<br><br>霊体の関係になっている。<br><br> ――一重瞼と二重瞼はいかなる関係があるのでございましょうか、お伺い申し上げます。<br><br> 関係はない。<br><br>瞼の堅いのと軟らかいの相違である。<br><br> ――左記の場合いかなる箇所に重点を置いて御浄霊すればよろしいのでございましょうか、また人工呼吸について御教え願います。<br><br> （一）水に溺れ仮死状態となった場合。<br><br> （二）感電して仮死状態になった場合。<br><br> いずれの場合も心臓を中心にして御浄霊すること、心臓は日になり肺臓は月になるから、心臓の働きを旺盛にしなければ回復しない。<br><br> ――あるとき亀が家に入ってきましたので酒を飲ませたところ酔って死んでしまいました。<br><br>それを地の神様の所に埋めましたところ「せんじょうも」が生えましたと言われておりますが、これはいかなる意味でございましょうか。<br><br> そういうふうな伝統をだれかが作ったのであろう。<br><br> ――ある犬を飼いましたところだれか家の者が耳を悪くします。<br><br>その犬を他家に譲ると治ります。<br><br>また飼いましたところやはり耳が悪くなりました。<br><br>いかなるわけでございましょうか。<br><br> その犬は元人間で死ぬ前に耳をどうかされたので飼われた家の人の耳を悪くするのである。<br><br>このようなことはよくあることである。<br><br> ――ある信者が霊媒でたびたび死霊が憑き救いを求めて解決がつき感謝して帰りましたが、先日観音様の霊というのが出まして、最初私は観音だと言いますので、こんなきたない体に憑らないと言いますと、この家の仏壇に祀ってある魚籃（ぎょらん）観音像であると言い、身魂相応の家を守護している、一つお願いがある、観音様をお祀りしてほしいと言うのでございます。<br><br>このようなことがあるのでございましょうか、お伺い申し上げます。<br><br> そういうことはある。<br><br>観音様にもいろいろある。<br><br>人間が霊界である程度浄まると観音様になれる。<br><br>そして少しの力を出しているが、お祀りしていただくと力が強くなるのである。<br><br> ――冷汗は浄化作用でございますか、お伺い申し上げます。<br><br> 勿論浄化作用である。<br><br> ――火水木金土星の特別に意味がございましょうか、お伺い申し上げます。<br><br> あらゆる物の種類の代表である。<br><br>星というものは、天地合わせ鏡であるから、天にある物はみな地にある。<br><br> ――水死人を探しますとき、鶏を盥（たらい）の中に入れて水面に浮かすと、水死人の上にきた場合鳴くと言われていますが、霊的になにか意味がございましょうか。<br><br> 鶏は霊的に敏感であるから水死人の上にきたら鶏に解るのである。<br><br> ――御浄霊を受けてもなんともなりませんのに、御浄霊をなさると、あくびやげっぷが出るのでございます。<br><br>いかなる由でございましょうか、お伺い申し上げます。<br><br> そのような人は病気を引き受ける人である（月の系統の人）。<br><br>太陽系の人は毒素を焼いてしまうのである。<br><br> ――井戸を掘りますのはどの方角が良いのでございましょうか、また掘っても出ない人と良く出る人とがございますがいかなるわけでございましょうか。<br><br> 坤（ひつじさる）の方角がよい。<br><br>坤は（水、石）になり艮は（火、木）になる。<br><br>物質に恵まれる人は水が良く出る、徳のある人であるから。<br><br> ――茨城県のある家に次々と唖が生まれますが、なにか霊的に意味がございましょうか、お伺い申し上げます。<br><br> 木龍のたたりである。<br><br>信仰で治すより他はない。<br><br>半分ほどは治る。<br><br> ――ある会員の人で、青大将が玉子を飲んだり鶏を絞め殺したりいたしますのです。<br><br>いかがすればよろしゅうございますでしょうか。<br><br> ある程度の食物、生米を与える。<br><br>初めはよく食べるが祀ってやり、祝詞を上げてやると、少ししか食べなくなり、自分が食べるからいろいろ守護をする。<br><br>ちょうど人でもよく言うことをきく人ときかない人があるのと同じである。<br><br> ――死んだ人が霊界から引っ張りますが、監督神のお許しをいただいているのでございましょうか、お伺い申し上げます。<br><br> 許しを得てない。<br><br>人を引っ張ることによって罪を作り、一段一段落ちるのである。<br><br>よく言い聞かしてやる。<br><br>無理心中のようなもので、地獄などの霊はよく逃げ出してくる。<br><br> ――賢い子供は早死にしますが、なにか霊的に意味がございましょうか。<br><br> 親の罪によることが多い。<br><br>祖霊が、お祀りや供養をしないと性質のよい子に憑り知らせようとする。<br><br>また賢い子はかわいいからそういう子供に早く憑るからである。<br><br> ――御讃歌の中のハレルヤの意味を御教えお願い申し上げます。<br><br> めでたい、讃える、讃するという意味である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Diversas Questões</h2>
 <p><strong>Dizem que sonhar com um banquete pressagia doença. Qual seria o significado espiritual por trás disso?</strong></p>
@@ -128,5 +280,48 @@ function toggleLang(lang) {
 <p>Muitas vezes, a causa reside nos pecados dos pais. Quando os antepassados não são devidamente reverenciados com ofícios e orações, eles buscam se manifestar por meio dos filhos de boa índole para alertar a família. Ademais, como as crianças inteligentes são mais amadas, os espíritos tendem a se apegar a elas mais rapidamente.</p>
 <p><strong>Qual o significado da palavra “Aleluia” utilizada nos Hinos Divinos?</strong></p>
 <p>Significa “jubiloso”, “louvar”, “exaltar”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無碍光 直心分会『会報』５号、昭和24(1949)年6月20日発行 ――夢にごちそうをいただくと病気になると言われておりますが、霊的になにか意味がございましょうか、お伺い申し上げます。<br/><br/> そんなことはない。<br/><br/>迷信である。<br/><br/> ――中風症で二日目に便が出れば二年生き、三日目に出れば三年生きると言われ、また男は左女は右に出ると言うがいかなる由でございましょうか、お伺い申し上げます。<br/><br/> 医学では中風と便とは密接なる関係があると言っているが、そんなことはない。<br/><br/>霊体の関係になっている。<br/><br/> ――一重瞼と二重瞼はいかなる関係があるのでございましょうか、お伺い申し上げます。<br/><br/> 関係はない。<br/><br/>瞼の堅いのと軟らかいの相違である。<br/><br/> ――左記の場合いかなる箇所に重点を置いて御浄霊すればよろしいのでございましょうか、また人工呼吸について御教え願います。<br/><br/> （一）水に溺れ仮死状態となった場合。<br/><br/> （二）感電して仮死状態になった場合。<br/><br/> いずれの場合も心臓を中心にして御浄霊すること、心臓は日になり肺臓は月になるから、心臓の働きを旺盛にしなければ回復しない。<br/><br/> ――あるとき亀が家に入ってきましたので酒を飲ませたところ酔って死んでしまいました。<br/><br/>それを地の神様の所に埋めましたところ「せんじょうも」が生えましたと言われておりますが、これはいかなる意味でございましょうか。<br/><br/> そういうふうな伝統をだれかが作ったのであろう。<br/><br/> ――ある犬を飼いましたところだれか家の者が耳を悪くします。<br/><br/>その犬を他家に譲ると治ります。<br/><br/>また飼いましたところやはり耳が悪くなりました。<br/><br/>いかなるわけでございましょうか。<br/><br/> その犬は元人間で死ぬ前に耳をどうかされたので飼われた家の人の耳を悪くするのである。<br/><br/>このようなことはよくあることである。<br/><br/> ――ある信者が霊媒でたびたび死霊が憑き救いを求めて解決がつき感謝して帰りましたが、先日観音様の霊というのが出まして、最初私は観音だと言いますので、こんなきたない体に憑らないと言いますと、この家の仏壇に祀ってある魚籃（ぎょらん）観音像であると言い、身魂相応の家を守護している、一つお願いがある、観音様をお祀りしてほしいと言うのでございます。<br/><br/>このようなことがあるのでございましょうか、お伺い申し上げます。<br/><br/> そういうことはある。<br/><br/>観音様にもいろいろある。<br/><br/>人間が霊界である程度浄まると観音様になれる。<br/><br/>そして少しの力を出しているが、お祀りしていただくと力が強くなるのである。<br/><br/> ――冷汗は浄化作用でございますか、お伺い申し上げます。<br/><br/> 勿論浄化作用である。<br/><br/> ――火水木金土星の特別に意味がございましょうか、お伺い申し上げます。<br/><br/> あらゆる物の種類の代表である。<br/><br/>星というものは、天地合わせ鏡であるから、天にある物はみな地にある。<br/><br/> ――水死人を探しますとき、鶏を盥（たらい）の中に入れて水面に浮かすと、水死人の上にきた場合鳴くと言われていますが、霊的になにか意味がございましょうか。<br/><br/> 鶏は霊的に敏感であるから水死人の上にきたら鶏に解るのである。<br/><br/> ――御浄霊を受けてもなんともなりませんのに、御浄霊をなさると、あくびやげっぷが出るのでございます。<br/><br/>いかなる由でございましょうか、お伺い申し上げます。<br/><br/> そのような人は病気を引き受ける人である（月の系統の人）。<br/><br/>太陽系の人は毒素を焼いてしまうのである。<br/><br/> ――井戸を掘りますのはどの方角が良いのでございましょうか、また掘っても出ない人と良く出る人とがございますがいかなるわけでございましょうか。<br/><br/> 坤（ひつじさる）の方角がよい。<br/><br/>坤は（水、石）になり艮は（火、木）になる。<br/><br/>物質に恵まれる人は水が良く出る、徳のある人であるから。<br/><br/> ――茨城県のある家に次々と唖が生まれますが、なにか霊的に意味がございましょうか、お伺い申し上げます。<br/><br/> 木龍のたたりである。<br/><br/>信仰で治すより他はない。<br/><br/>半分ほどは治る。<br/><br/> ――ある会員の人で、青大将が玉子を飲んだり鶏を絞め殺したりいたしますのです。<br/><br/>いかがすればよろしゅうございますでしょうか。<br/><br/> ある程度の食物、生米を与える。<br/><br/>初めはよく食べるが祀ってやり、祝詞を上げてやると、少ししか食べなくなり、自分が食べるからいろいろ守護をする。<br/><br/>ちょうど人でもよく言うことをきく人ときかない人があるのと同じである。<br/><br/> ――死んだ人が霊界から引っ張りますが、監督神のお許しをいただいているのでございましょうか、お伺い申し上げます。<br/><br/> 許しを得てない。<br/><br/>人を引っ張ることによって罪を作り、一段一段落ちるのである。<br/><br/>よく言い聞かしてやる。<br/><br/>無理心中のようなもので、地獄などの霊はよく逃げ出してくる。<br/><br/> ――賢い子供は早死にしますが、なにか霊的に意味がございましょうか。<br/><br/> 親の罪によることが多い。<br/><br/>祖霊が、お祀りや供養をしないと性質のよい子に憑り知らせようとする。<br/><br/>また賢い子はかわいいからそういう子供に早く憑るからである。<br/><br/> ――御讃歌の中のハレルヤの意味を御教えお願い申し上げます。<br/><br/> めでたい、讃える、讃するという意味である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

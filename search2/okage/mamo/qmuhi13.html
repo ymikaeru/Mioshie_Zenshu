@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmuhi13</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無肥料農耕の体験 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 群馬県多野郡藤田町緑町 日本観音教光陽会会長 教師 小野田松造 昭和二十一年大先生から無肥料農耕のお話を拝聴致し、物心両面行詰った農村を打開するにはこれより他に無しと考えそれを会員に話すについて、無肥料農耕の正しきを認識させる為、実際に栽培する事が最捷の途と考え二、三熱心な会員に実行せしめました。<br><br> 先年私は安政年間の上州の各大名の禄高を調査して見るに七十九万四千石あったのに対し、現在の群馬県の供出高は約八十万石である事実に何かしら割切れぬものを感じておりました。<br><br> 従来禄高を取り立てていた頃の耕地の面積に比し、現耕作面積は三割程度の拡張をみており、しかも肥料について見れば、徳川時代初期迄は僅かに人糞施肥で耕作しており、徳川光圀が堆肥を施す事を発見推奨したが、近時金肥を盛んに利用するようになり、戦争と食糧増産の緊密性よりいよいよ金肥の科学的研究は進歩し農耕に必要欠く可からざる要素として巷間、一点の疑もなき迄になり、農村人にとっては肥料無しでは食糧の増産は不可能なりとの信仰にまで立至ったのである。<br><br>しかるにかくのごとき肥料が進歩し耕地面積が三割も拡大されているにも拘わらず、その結果がほとんど同様でありとすれば、その結果は三割の増加面積だけが減収という反対現象を生じた事になり、施肥こそ反って有害無益と断ぜざるを得ない事と愚考致すに至りました。<br><br>彼のいわゆる精農家と呼ばれている人々自身、果して適正量の施肥を為したとしても収穫時迄安心して待てるでありましょうか。<br><br>風につけ雨につけ、水害、風害、干害、虫害等に絶えず不安と順天良候を心に願うという事は、肥料だけに絶対の信頼を傾け得ず、何かしら大自然の偉力こそ栽培の良否を左右するものと断ぜざるを得ない考えであった。<br><br> ここにおいて吾々は世人嘲罵と家族の不安を耐忍慰励しつつ敢然と無肥料栽培を実施したのである。<br><br>会員はひたすらに神助を信じたのであった。<br><br>その結果は第一年目は分けつ七－十本位で二割五分減収となり、二年目は分けつ十二－二十二本となり一割五分の減収となり、三年目は分けつ十八－二十五位となり一本の茎に二－三本の穂がつき俗に言う穂に穂が咲いたもの、夫婦穂が出たものもあり比較的茎は短大にして穂が充実してシイナがなく、内容外容平均し増収の見込を得る事が出来る程度となり、最初の信念のごとき結果を得られた事を実施者と共に喜びいよいよ確信を固め、第四年目より益々効果を得るの自信を把握する事が出来たのであります。<br><br>ここに今年より初めて無肥料栽培を実施した人達の感想記を添付し参考に供したいと思います。<br><br> 追 記 無肥料栽培による減収が経済的な面と供出の関係より是と思う人達もいざ実行するとなると不安を感じるようですが、無肥料栽培者は肥料購入代金の皆無に依り施肥者が収入の約一割四分程度を肥料代金に費消しているのに対して、これが不要となると第一年目の減収となり反面手持肥料及人馬糞の売却により第一年目と第二年目の実減収一割二分を優に補填（ほてん）し、かつ肥料入手困難の昨今これに対する繁忙と手間代を有効に活用して副業の充実を計り供出面の不備を補綴（ほてい）し得ているのであります。<br><br> 従って、第三年目より右の条件だけ収入増加となり逐年増収高をあわせ考える時、農村経済の好転は期してみるべきものがある事は明白であります。<br><br>この精神的肉体的安心感は農村に革命的幸福をもたらすのであります。<br><br> 右のごとき最初ある期間の原因を大先生に御質（たず）ねしたところ、そのお答え左のごとくである。<br><br> 土壌及び種子共肥毒の為衰弱しているからでそれが年を経るに従い漸次肥毒が軽減し、全く無毒となってから良質増量の美果を得るのである。<br><br>それには種類により早きは一、二年遅きは三、四年後、予期の成果を挙げ得るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Experiência da Agricultura sem Adubos</h2>
 <p>(Publicado na revista "Paraíso Terrestre", nº 1, em 1º de dezembro de 1948)
@@ -107,5 +262,48 @@ Midorimachi, Fujita-cho, Tano-gun, Província de Gunma</p>
 <p>A partir do terceiro ano, portanto, esses fatores por si sós já representam um aumento na renda. Quando consideramos esse ganho juntamente com o aumento progressivo da colheita a cada ano, torna-se evidente que podemos almejar uma notável recuperação da economia rural. Essa sensação de segurança, tanto espiritual quanto física, trará uma felicidade revolucionária às comunidades agrícolas.</p>
 <p>Ao indagar a Meishu-Sama sobre a causa dessa fase inicial, obtive a seguinte resposta:</p>
 <p>Tanto o solo quanto as sementes encontram-se enfraquecidos pelas toxinas dos adubos. Com o passar dos anos, essas toxinas são gradualmente eliminadas e, somente quando o solo se torna completamente puro, é que se pode colher os belos frutos de uma produção de alta qualidade e em maior quantidade. Dependendo da cultura, os resultados esperados podem ser alcançados mais rapidamente, em um ou dois anos, ou levar de três a quatro anos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無肥料農耕の体験 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 群馬県多野郡藤田町緑町 日本観音教光陽会会長 教師 小野田松造 昭和二十一年大先生から無肥料農耕のお話を拝聴致し、物心両面行詰った農村を打開するにはこれより他に無しと考えそれを会員に話すについて、無肥料農耕の正しきを認識させる為、実際に栽培する事が最捷の途と考え二、三熱心な会員に実行せしめました。<br/><br/> 先年私は安政年間の上州の各大名の禄高を調査して見るに七十九万四千石あったのに対し、現在の群馬県の供出高は約八十万石である事実に何かしら割切れぬものを感じておりました。<br/><br/> 従来禄高を取り立てていた頃の耕地の面積に比し、現耕作面積は三割程度の拡張をみており、しかも肥料について見れば、徳川時代初期迄は僅かに人糞施肥で耕作しており、徳川光圀が堆肥を施す事を発見推奨したが、近時金肥を盛んに利用するようになり、戦争と食糧増産の緊密性よりいよいよ金肥の科学的研究は進歩し農耕に必要欠く可からざる要素として巷間、一点の疑もなき迄になり、農村人にとっては肥料無しでは食糧の増産は不可能なりとの信仰にまで立至ったのである。<br/><br/>しかるにかくのごとき肥料が進歩し耕地面積が三割も拡大されているにも拘わらず、その結果がほとんど同様でありとすれば、その結果は三割の増加面積だけが減収という反対現象を生じた事になり、施肥こそ反って有害無益と断ぜざるを得ない事と愚考致すに至りました。<br/><br/>彼のいわゆる精農家と呼ばれている人々自身、果して適正量の施肥を為したとしても収穫時迄安心して待てるでありましょうか。<br/><br/>風につけ雨につけ、水害、風害、干害、虫害等に絶えず不安と順天良候を心に願うという事は、肥料だけに絶対の信頼を傾け得ず、何かしら大自然の偉力こそ栽培の良否を左右するものと断ぜざるを得ない考えであった。<br/><br/> ここにおいて吾々は世人嘲罵と家族の不安を耐忍慰励しつつ敢然と無肥料栽培を実施したのである。<br/><br/>会員はひたすらに神助を信じたのであった。<br/><br/>その結果は第一年目は分けつ七－十本位で二割五分減収となり、二年目は分けつ十二－二十二本となり一割五分の減収となり、三年目は分けつ十八－二十五位となり一本の茎に二－三本の穂がつき俗に言う穂に穂が咲いたもの、夫婦穂が出たものもあり比較的茎は短大にして穂が充実してシイナがなく、内容外容平均し増収の見込を得る事が出来る程度となり、最初の信念のごとき結果を得られた事を実施者と共に喜びいよいよ確信を固め、第四年目より益々効果を得るの自信を把握する事が出来たのであります。<br/><br/>ここに今年より初めて無肥料栽培を実施した人達の感想記を添付し参考に供したいと思います。<br/><br/> 追 記 無肥料栽培による減収が経済的な面と供出の関係より是と思う人達もいざ実行するとなると不安を感じるようですが、無肥料栽培者は肥料購入代金の皆無に依り施肥者が収入の約一割四分程度を肥料代金に費消しているのに対して、これが不要となると第一年目の減収となり反面手持肥料及人馬糞の売却により第一年目と第二年目の実減収一割二分を優に補填（ほてん）し、かつ肥料入手困難の昨今これに対する繁忙と手間代を有効に活用して副業の充実を計り供出面の不備を補綴（ほてい）し得ているのであります。<br/><br/> 従って、第三年目より右の条件だけ収入増加となり逐年増収高をあわせ考える時、農村経済の好転は期してみるべきものがある事は明白であります。<br/><br/>この精神的肉体的安心感は農村に革命的幸福をもたらすのであります。<br/><br/> 右のごとき最初ある期間の原因を大先生に御質（たず）ねしたところ、そのお答え左のごとくである。<br/><br/> 土壌及び種子共肥毒の為衰弱しているからでそれが年を経るに従い漸次肥毒が軽減し、全く無毒となってから良質増量の美果を得るのである。<br/><br/>それには種類により早きは一、二年遅きは三、四年後、予期の成果を挙げ得るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

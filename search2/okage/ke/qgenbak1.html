@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgenbak1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原爆恐るに足らず驚異的御救いの力 『栄光』154号、昭和27(1952)年4月30日発行 熊本県 光宝大教会 江頭美恵子（33） 当時出張さして戴きました模様を御報告させて戴きます。<br><br>第一回目の江頭達夫さん危篤の電報で、達夫さんの父母が病院に行かれたのでございますが、陸軍病院でも余り重態のため、手当の施しようもなく、絶体絶命の断定を下されたのでございました。<br><br>達夫さんのお母さんは、既に御道で御蔭を戴かれておられましたので「この上はどんな方法をやってもよいでしようか」と聞き許可を受け、当時福岡県大川町においでになった木原先生に、御出張御浄霊の御願いのため、お父さんが大川町に帰って来られたのでございました。<br><br>そこに二度目の危篤の電報が参りました。<br><br> 先生は「ともかく早速行って見るように」とおっしゃいましたので、達夫さんのお姉さんと弟、私の三人でその日に出発させて戴きました。<br><br> 島根県浜田陸軍病院の門を潜ったのが、九月二日午前九時、その時は既に三度目の至急官報打電後で、陸軍病院より「三度目の電報発信は死を報ずるのと同じ事だ」と聞かされておりました。<br><br>病態は酸素吸入を施し、全身硬直、爪の先まで紫色になり、意識もかすかな程度で、この時の状態は何と申し上げましたらよいものでございましようか。<br><br> これは到底助かりはしないと思われました。<br><br>病院としても、臨終を予期し、白衣の医者看護婦が十数名、寝台を取巻きなす術もなく、脈を取りながらただ病人の刻々と死の姿に変り行く状態を茫然と眺めているばかりでございました。<br><br>たまりかねた達夫さんのお姉さんは、「先生、何とかして下さい、御願いします」と私の手に泣き縋られるのでございます。<br><br>この時私は、ふと、神様がこういう遠い所まで、わざわざ死ぬる姿を見せるために、よこされるはずはないと思われて来たのでございます。<br><br>そして明主様に御守護を御願い申し上げております内に、とても力強く勇気が出て参りました。<br><br> 院長に向い「もう駄目なんですか」と訊ねますと、院長「もう仕方がないでしょう」と申しますので、私「では何をやってもいいんですか」院長「何をやっても良いです」私「それでは私の思う通りさして下さい」と承諾を得て、即座に酸素吸入、氷冷を取除き、御浄霊をさして戴きました。<br><br>五分、十分と段々硬直状態、呼吸、顔色等変って行くのでした。<br><br>三十分も経ったでしょうか。<br><br>医者は一人減り二人減り、ほっとして気付いた時は、白衣の姿は一人も見当りませんでした。<br><br> それからは注射を断わり薬はその都度捨て、氷は魔法ビンに詰め、私共の食用にし、食事は普通食に変え（病院の反対により、手続きに三日後れましたので、その間私共の食料を病人に廻しました）元気の恢復を計ったのでございました。<br><br>それより猛烈な下痢、火傷の個所よりたくさんな排膿、部分的痛苦はありましたものの、御浄霊毎に良くさして戴き、一週間位の内に御不浄にも付添って行けるようになり、寝台の上で遊ぶ事も出来るようになりましたので、心にはかかりますものの先生に一週間だけお暇を頂いて来ておりましたので、後は姉さん一人に頼み、八日目に大川町に帰る事に致しました。<br><br>ところが次の駅に行く内に汽車の切符を紛失致しましたので、これはこのまま御浄霊を続けよとの御気付のようにも感じさせて頂きましたが、ともあれ帰って見ますと「そのまま御浄霊を続けるように」との電報と行違いになっておりましたので、早速引返して御浄霊を続けさして頂きました。<br><br>その当時食料は門外から色々運び、元気の恢復を計らして頂いておりました。<br><br>二、三日して私外出の留守中、病院から苦情が出ておりました。<br><br>当時病院内では「江頭少尉が助った」というので、一大センセーションを起しておりました。<br><br>院長の部屋に行って見ますと、威猛高に、 院長「江頭と言うんだね。<br><br>江頭少尉の親戚か」 私「親戚ではありません」 院長「誰の許しを得てこの病院に入って来た」と言うのです。<br><br> 私「あなたが許されなければ入って来られない所ではありませんか。<br><br>この通り門鑑も持って出入りしております」私は腹が立ってたまりませんでした。<br><br>『何だ何度も会っているし、何をやってもよいと言ったではないか』と思いました。<br><br> 院長「絶対安静を言渡してある病人を動かしたり、胸の辺をおさえたりしているのはお前か」と言うのです。<br><br> 私「おさえはしないですが、やっているのは私です」 院長「小娘のくせにけしからん。<br><br>田舎に帰って自分で治したとでも言うな、あの病人には貴重な薬を使用して治したのだ」と申しますので『ヘン、自分でサジを投げていながら。<br><br>それからは注射一本してはいないのだ』と思うものですから、思わず苦笑しておりますと、 院長「ここをどこと思っとる」 私「ここは陸軍病院でしょう。<br><br>私も泥坊でない限り、垣根越しでは入って参りません。<br><br>あなたからあの病人はお預りしたではありませんか」 と申します内に、傍に来ておられた達夫さんのお母さんが、私の袖を引き何かと院長の御機嫌を取られたのでその場は事なく済みました。<br><br>病室に帰り、「これはいけない、ここまでよくさして頂いたのに、病院の面目のため、私達の手から病人を取る考えだ」と思われました。<br><br>病院の方はお母さん姉さんにお頼みし、私はこれ以上おっては医者の心証を悪くする丈と思い、大川町に帰って参りました。<br><br>一方病院の方は達夫さんのお父さんが行かれ、裏面交渉をなし、退院許可書は獲得されたのでした。<br><br> 院長から「可哀相だが、破傷風に用いたモヒ剤多量のため、体は使えるようにはならない。<br><br>頭部の脱毛状態も再び毛は生えない」と言われた言葉もそこのけ、今は黒々とした毛髪が揃い、手広い事業の若主人として多忙な日々を過して居られます。<br><br>明主様愚かな私にもこうした尊くも偉大なる体験を賜わり、救世の御聖業に御使い頂きます身に余る幸福を、深く深く感謝申し上げさして頂きますと共に、今後共なお一層御使い頂きます様御念じ申し上げさして頂きます。<br><br> 明主様有難うございました。<br><br> （昭和二十七年四月三十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A bomba atômica não é de se temer: O prodigioso poder da salvação</h2>
 <p>Revista Eikoh nº 154, 30 de abril de 1952
@@ -116,5 +271,48 @@ Egashira Mieko (33 anos)</p>
 <p>As palavras do diretor na ocasião da alta ainda ecoam: “É uma lástima, mas, devido à grande quantidade de morfina utilizada para o tétano, seu corpo ficará inutilizado. A calvície em sua cabeça também será permanente”. Contrariando por completo esse prognóstico, hoje ele ostenta uma farta cabeleira negra e vive dias atarefados como o jovem dirigente de um próspero negócio.</p>
 <p>Agradeço profunda e sinceramente a Meishu-Sama por me conceder, a mim tão insignificante, uma experiência tão sublime e grandiosa, e pela felicidade indescritível de ser utilizada em Sua sagrada Obra de Salvação. Rogo para que, de hoje em diante, eu possa ser ainda mais útil aos Seus desígnios.</p>
 <p>Muito obrigada, Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 原爆恐るに足らず驚異的御救いの力 『栄光』154号、昭和27(1952)年4月30日発行 熊本県 光宝大教会 江頭美恵子（33） 当時出張さして戴きました模様を御報告させて戴きます。<br/><br/>第一回目の江頭達夫さん危篤の電報で、達夫さんの父母が病院に行かれたのでございますが、陸軍病院でも余り重態のため、手当の施しようもなく、絶体絶命の断定を下されたのでございました。<br/><br/>達夫さんのお母さんは、既に御道で御蔭を戴かれておられましたので「この上はどんな方法をやってもよいでしようか」と聞き許可を受け、当時福岡県大川町においでになった木原先生に、御出張御浄霊の御願いのため、お父さんが大川町に帰って来られたのでございました。<br/><br/>そこに二度目の危篤の電報が参りました。<br/><br/> 先生は「ともかく早速行って見るように」とおっしゃいましたので、達夫さんのお姉さんと弟、私の三人でその日に出発させて戴きました。<br/><br/> 島根県浜田陸軍病院の門を潜ったのが、九月二日午前九時、その時は既に三度目の至急官報打電後で、陸軍病院より「三度目の電報発信は死を報ずるのと同じ事だ」と聞かされておりました。<br/><br/>病態は酸素吸入を施し、全身硬直、爪の先まで紫色になり、意識もかすかな程度で、この時の状態は何と申し上げましたらよいものでございましようか。<br/><br/> これは到底助かりはしないと思われました。<br/><br/>病院としても、臨終を予期し、白衣の医者看護婦が十数名、寝台を取巻きなす術もなく、脈を取りながらただ病人の刻々と死の姿に変り行く状態を茫然と眺めているばかりでございました。<br/><br/>たまりかねた達夫さんのお姉さんは、「先生、何とかして下さい、御願いします」と私の手に泣き縋られるのでございます。<br/><br/>この時私は、ふと、神様がこういう遠い所まで、わざわざ死ぬる姿を見せるために、よこされるはずはないと思われて来たのでございます。<br/><br/>そして明主様に御守護を御願い申し上げております内に、とても力強く勇気が出て参りました。<br/><br/> 院長に向い「もう駄目なんですか」と訊ねますと、院長「もう仕方がないでしょう」と申しますので、私「では何をやってもいいんですか」院長「何をやっても良いです」私「それでは私の思う通りさして下さい」と承諾を得て、即座に酸素吸入、氷冷を取除き、御浄霊をさして戴きました。<br/><br/>五分、十分と段々硬直状態、呼吸、顔色等変って行くのでした。<br/><br/>三十分も経ったでしょうか。<br/><br/>医者は一人減り二人減り、ほっとして気付いた時は、白衣の姿は一人も見当りませんでした。<br/><br/> それからは注射を断わり薬はその都度捨て、氷は魔法ビンに詰め、私共の食用にし、食事は普通食に変え（病院の反対により、手続きに三日後れましたので、その間私共の食料を病人に廻しました）元気の恢復を計ったのでございました。<br/><br/>それより猛烈な下痢、火傷の個所よりたくさんな排膿、部分的痛苦はありましたものの、御浄霊毎に良くさして戴き、一週間位の内に御不浄にも付添って行けるようになり、寝台の上で遊ぶ事も出来るようになりましたので、心にはかかりますものの先生に一週間だけお暇を頂いて来ておりましたので、後は姉さん一人に頼み、八日目に大川町に帰る事に致しました。<br/><br/>ところが次の駅に行く内に汽車の切符を紛失致しましたので、これはこのまま御浄霊を続けよとの御気付のようにも感じさせて頂きましたが、ともあれ帰って見ますと「そのまま御浄霊を続けるように」との電報と行違いになっておりましたので、早速引返して御浄霊を続けさして頂きました。<br/><br/>その当時食料は門外から色々運び、元気の恢復を計らして頂いておりました。<br/><br/>二、三日して私外出の留守中、病院から苦情が出ておりました。<br/><br/>当時病院内では「江頭少尉が助った」というので、一大センセーションを起しておりました。<br/><br/>院長の部屋に行って見ますと、威猛高に、 院長「江頭と言うんだね。<br/><br/>江頭少尉の親戚か」 私「親戚ではありません」 院長「誰の許しを得てこの病院に入って来た」と言うのです。<br/><br/> 私「あなたが許されなければ入って来られない所ではありませんか。<br/><br/>この通り門鑑も持って出入りしております」私は腹が立ってたまりませんでした。<br/><br/>『何だ何度も会っているし、何をやってもよいと言ったではないか』と思いました。<br/><br/> 院長「絶対安静を言渡してある病人を動かしたり、胸の辺をおさえたりしているのはお前か」と言うのです。<br/><br/> 私「おさえはしないですが、やっているのは私です」 院長「小娘のくせにけしからん。<br/><br/>田舎に帰って自分で治したとでも言うな、あの病人には貴重な薬を使用して治したのだ」と申しますので『ヘン、自分でサジを投げていながら。<br/><br/>それからは注射一本してはいないのだ』と思うものですから、思わず苦笑しておりますと、 院長「ここをどこと思っとる」 私「ここは陸軍病院でしょう。<br/><br/>私も泥坊でない限り、垣根越しでは入って参りません。<br/><br/>あなたからあの病人はお預りしたではありませんか」 と申します内に、傍に来ておられた達夫さんのお母さんが、私の袖を引き何かと院長の御機嫌を取られたのでその場は事なく済みました。<br/><br/>病室に帰り、「これはいけない、ここまでよくさして頂いたのに、病院の面目のため、私達の手から病人を取る考えだ」と思われました。<br/><br/>病院の方はお母さん姉さんにお頼みし、私はこれ以上おっては医者の心証を悪くする丈と思い、大川町に帰って参りました。<br/><br/>一方病院の方は達夫さんのお父さんが行かれ、裏面交渉をなし、退院許可書は獲得されたのでした。<br/><br/> 院長から「可哀相だが、破傷風に用いたモヒ剤多量のため、体は使えるようにはならない。<br/><br/>頭部の脱毛状態も再び毛は生えない」と言われた言葉もそこのけ、今は黒々とした毛髪が揃い、手広い事業の若主人として多忙な日々を過して居られます。<br/><br/>明主様愚かな私にもこうした尊くも偉大なる体験を賜わり、救世の御聖業に御使い頂きます身に余る幸福を、深く深く感謝申し上げさして頂きますと共に、今後共なお一層御使い頂きます様御念じ申し上げさして頂きます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十七年四月三十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

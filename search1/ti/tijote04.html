@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tijote04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地上天国に就て 『栄光』137号、昭和27(1952)年1月1日発行 現在の世相を観るに、日々の新聞ラジオでも分るごとく、ろくでもない事が余りに多すぎる今日ではないか、誰も知る通り、ザット数えても戦争は別として、ヤレ官吏の汚職、殺人、強窃盗、詐欺、万引、自殺、一家心中、結核や伝染病問題、米の不足、住宅難、金詰り、税金苦等々で、善い方の事は、全く暁天の星のごとくである。<br><br>としたらこの社会は、なぜそうまでになっているかという疑問である。<br><br>なるほど色々の原因もあるではあろうが、一言にしていえば道義の頽廃であり人間のレベルのいかにも低下している事である。<br><br>そこで近来識者も、教育家も、その点に関心を持ち始めた。<br><br>もっとも戦後自由思想の行過ぎなどの原因もあるが、差当り、教育、道徳、修身等を復活興隆させるより外ないとして、寄々（よりより）協議中との事だが、このような場合日本は決して宗教に求めようとしないのは、不思議とさえ思えるのである。<br><br>しかしそれも無理はあるまい、何しろ古い宗教は余りに無力だし、そうかといって新宗教でも、インチキや迷信がそのほとんどであるようだからである。<br><br>そんな訳でどうしても、根本的解決の方法が見付からないのも誰もが知る通りである。<br><br> ところが私は別の面からこの問題解決に寄与すべき、具体的計画を進めつつある。<br><br>というのはまず一般的娯楽である。<br><br>もちろんいつの世でも、大衆に娯楽の必要なのは今更言うまでもないが、今日の社会はそれが余りに、低劣野卑のものが多過ぎる。<br><br>なるほど演劇、映画、スポーツ、碁、将棋、麻雀、パチンコ等々も結構ではあるが、私はそれらよりも一層レベルの高い娯楽も、大いに必要と思うのである。<br><br>その意味からいって、本教が目下造りつつある彼の箱根熱海における両地上天国の模型である。<br><br>今までにもしばしばかいた通り、天然美と人工美とをタイアップさせた、理想的一大パラダイスが造られるのである。<br><br>しかもこれ程の構想は今日まで世界に、何人も企画した者はなかったであろう程の素晴しいものである。<br><br>自画自讃ではないが、まず何人といえども、一度ここに身を置くや、地獄的俗世界とは、余りに懸け離れた雰囲気に陶然として一切を忘れ、身は雲上にある思いするとはいまだ半分も出来ない現在であっても、誰もが絶讃するところである。<br><br> 箱根の方は既に完成に近いが、規模も小さいさいので、ここでは今旺んに造営中の熱海についてかいてみるが、何しろ三万坪の起伏ある庭園内には、今梅、桜、躑躅（つつじ）等の花樹に緑樹も交えて植えつつあり、その他百花の花壇等も作るべく準備中であって春ともなれば目も綾なす美観は固より、遥か相模湾一帯の景観を眺むれば誰も知るごとく、まず理想的一大楽苑といっても過言ではあるまい。<br><br>しかも、この地上天国の位置としては、熱海随一であり、なお錦上花を添えるべく、典型的美術館も出来るのであるから、完成の暁恐らく内外人憧憬の的となるのは必然であろう。<br><br>従って何人も一度この天国に遊ぶや、娑婆（しゃば）の空気に汚れきった心魂を洗い浄め、乾き切った魂にも潤いを生じ、活々として仕事の上にも能率が上るのはもちろん、自然道義心も向上するという訳だから、社会人心に寄与する効果は、並々ならぬものがあろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Construção do Paraíso Terrestre</h2>
 <p>Ao observarmos o panorama da sociedade atual, percebemos, através dos jornais e do rádio, que os acontecimentos nefastos se tornaram excessivamente numerosos em nossos dias. Como todos sabem, mesmo desconsiderando a guerra, podemos citar uma vasta lista de males: a corrupção de funcionários públicos, os assassinatos, os assaltos e roubos, os estelionatos, os pequenos furtos, os suicídios, as tragédias familiares, os problemas da tuberculose e das doenças infecciosas, a escassez de arroz, a crise habitacional, as dificuldades financeiras, o peso dos impostos, e assim por diante. As boas notícias, por sua vez, são tão raras quanto as estrelas na alvorada.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>O protótipo de Hakone já se aproxima da conclusão, mas, por ser de menor escala, abordarei aqui o de Atami, que se encontra em plena construção. Trata-se de um jardim de aproximadamente cem mil metros quadrados em um terreno de relevo ondulado, no qual estamos plantando árvores floríferas, como ameixeiras, cerejeiras e azaleias, mescladas a árvores de folhagem perene. Também estamos preparando canteiros com centenas de variedades de flores. Na primavera, a paisagem será de uma beleza deslumbrante e, ao contemplar a vista panorâmica da Baía de Sagami, todos reconhecerão que não será exagero denominá-lo um grandioso e idílico jardim.</p>
 <p>Ademais, a localização deste Paraíso Terrestre é a mais privilegiada de Atami. E, para coroar a obra, será edificado um museu de arte exemplar. Por tudo isso, é inevitável que, ao ser concluído, ele se torne um destino almejado por pessoas de nosso país e do exterior.</p>
 <p>Portanto, todo aquele que visitar este paraíso terá a oportunidade de purificar a alma, maculada pela atmosfera do mundo profano, e de revitalizar o espírito ressequido. Como resultado, não apenas ganhará novo vigor e aumentará a eficiência em seu trabalho, mas também verá seu senso de moralidade ser naturalmente elevado. Dessa forma, a contribuição para o coração humano e para a sociedade será, sem dúvida, extraordinária.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地上天国に就て 『栄光』137号、昭和27(1952)年1月1日発行 現在の世相を観るに、日々の新聞ラジオでも分るごとく、ろくでもない事が余りに多すぎる今日ではないか、誰も知る通り、ザット数えても戦争は別として、ヤレ官吏の汚職、殺人、強窃盗、詐欺、万引、自殺、一家心中、結核や伝染病問題、米の不足、住宅難、金詰り、税金苦等々で、善い方の事は、全く暁天の星のごとくである。<br/><br/>としたらこの社会は、なぜそうまでになっているかという疑問である。<br/><br/>なるほど色々の原因もあるではあろうが、一言にしていえば道義の頽廃であり人間のレベルのいかにも低下している事である。<br/><br/>そこで近来識者も、教育家も、その点に関心を持ち始めた。<br/><br/>もっとも戦後自由思想の行過ぎなどの原因もあるが、差当り、教育、道徳、修身等を復活興隆させるより外ないとして、寄々（よりより）協議中との事だが、このような場合日本は決して宗教に求めようとしないのは、不思議とさえ思えるのである。<br/><br/>しかしそれも無理はあるまい、何しろ古い宗教は余りに無力だし、そうかといって新宗教でも、インチキや迷信がそのほとんどであるようだからである。<br/><br/>そんな訳でどうしても、根本的解決の方法が見付からないのも誰もが知る通りである。<br/><br/> ところが私は別の面からこの問題解決に寄与すべき、具体的計画を進めつつある。<br/><br/>というのはまず一般的娯楽である。<br/><br/>もちろんいつの世でも、大衆に娯楽の必要なのは今更言うまでもないが、今日の社会はそれが余りに、低劣野卑のものが多過ぎる。<br/><br/>なるほど演劇、映画、スポーツ、碁、将棋、麻雀、パチンコ等々も結構ではあるが、私はそれらよりも一層レベルの高い娯楽も、大いに必要と思うのである。<br/><br/>その意味からいって、本教が目下造りつつある彼の箱根熱海における両地上天国の模型である。<br/><br/>今までにもしばしばかいた通り、天然美と人工美とをタイアップさせた、理想的一大パラダイスが造られるのである。<br/><br/>しかもこれ程の構想は今日まで世界に、何人も企画した者はなかったであろう程の素晴しいものである。<br/><br/>自画自讃ではないが、まず何人といえども、一度ここに身を置くや、地獄的俗世界とは、余りに懸け離れた雰囲気に陶然として一切を忘れ、身は雲上にある思いするとはいまだ半分も出来ない現在であっても、誰もが絶讃するところである。<br/><br/> 箱根の方は既に完成に近いが、規模も小さいさいので、ここでは今旺んに造営中の熱海についてかいてみるが、何しろ三万坪の起伏ある庭園内には、今梅、桜、躑躅（つつじ）等の花樹に緑樹も交えて植えつつあり、その他百花の花壇等も作るべく準備中であって春ともなれば目も綾なす美観は固より、遥か相模湾一帯の景観を眺むれば誰も知るごとく、まず理想的一大楽苑といっても過言ではあるまい。<br/><br/>しかも、この地上天国の位置としては、熱海随一であり、なお錦上花を添えるべく、典型的美術館も出来るのであるから、完成の暁恐らく内外人憧憬の的となるのは必然であろう。<br/><br/>従って何人も一度この天国に遊ぶや、娑婆（しゃば）の空気に汚れきった心魂を洗い浄め、乾き切った魂にも潤いを生じ、活々として仕事の上にも能率が上るのはもちろん、自然道義心も向上するという訳だから、社会人心に寄与する効果は、並々ならぬものがあろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zenwo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善を楽しむ 『信仰雑話』P.13、昭和23(1948)年9月5日発行 私はつくづく世の中を観ると、多くの人間の楽しみとしているところのものは、善か悪かに分けてみると、情ないかな、どうも悪の楽しみのほうがズッと多いようである。<br><br>いな楽しみは悪でなくてはならないように思っている人も少なくないらしい。<br><br> まず一家の主人公であるが、生活に余裕ができると花柳（かりゅう）の巷（ちまた）へ行きたがり、二号などを囲いたがる。<br><br>しかも、それがための金銭は正当でない手段によって得るほうが多いようであるが、もちろんそれは悪に属する行為である。<br><br>それがため、危ない橋を渡り、国家社会に損失を与えたり、自分自身としても家庭の円満を欠き、不安な生活を送ることになろう。<br><br>しかも、成功と享楽が人生最後の目的であるかのごとくし思惟（しい）し、しらずしらずのうちに現世的地獄に転落するのであって、そういう人士は中流以上に多いことであると共に、それら成功者を見る大衆は、外面の様相のみに眩惑され、人生これなるかなと羨望しそのまねをしたがるから、いつになっても良い社会とはならないのである。<br><br>また正直者は馬鹿をみるという言葉もあり、まじめに世渡りをしている者は下積みになり、危ない綱渡りをする者が出世をして、豪奢な生活をするという現状である。<br><br>そのほか官吏の役得、会社員の不正利得、政治家の闇収入等々、全く俯仰（ふぎょう）天地に恥じない人は今日何人ありやといいたい程である。<br><br> ここにおいて、私は善を楽しむことを教えたいのである。<br><br>すなわち、相当社会に頭角を顕すようになっても、柳暗花明（りゅうあんかめい）の巷に出入りすることはできるだけ避け、余財あれば社会公共のために費し、困窮者を助け善徳を施し、神仏に帰依し、ときどきは家族を引きつれ映画、演劇、旅行等を娯しむのである。<br><br>こういうようなやり方であれば、一家は団欒し、妻は夫を尊敬し感謝するようになり、子女のごときも、まず不良になる心配はないであろう。<br><br>従って、経済不安もなく、不摂生もなく、健康にも恵まれ、長寿も保ち得らるる訳で、日々を楽しみ、心は常に洋々たるものがある。<br><br>明治の富豪として有名な大倉喜八郎氏はおもしろい事を言った。<br><br>「人間長生きをしたければ借金をしないことである」と、それは借金ほど精神的苦痛はないからである。<br><br>私も二十年間借金で苦しんだ経験があるので、よく判る気がする。<br><br>しかるに現代人の中には、暴露すれば法にふれたり、涜職罪になったりするような事をなし、暗闇の取引を好み、妻君に知れたら大騷動が起こるような秘密を作り、高利の借金をし常に戦々兢々として不安の日を送っており、その苦痛を酒によって紛らそうとする。<br><br>酒が何程高くなっても売れるのは、そういう訳もあろう。<br><br>したがって健康を害し、短命となるのは言うまでもないと共に、こういう泥沼生活にはいったものは、なかなか抜け出ることができないのが通例である。<br><br>まず抜けでる唯一の方法としては宗教に入る事で、それ以外に方法はないであろう。<br><br> 私は、以上のごとき善悪二筋道を書いてみた。<br><br>悪を楽しむ人と善を楽しむ人とである。<br><br>読者諸士よ、卿らはいずれを選ぶや、熟慮を望むのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Prazer de Praticar o Bem</h2>
 <p>Ao observar atentamente o mundo, constato, com pesar, que a maioria dos prazeres humanos parece originar-se do mal, e não do bem. Na verdade, não são poucos os que parecem acreditar que o prazer, para ser autêntico, necessita ter um componente maligno.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>O Sr. Okura Kihachiro, famoso magnata da Era Meiji, proferiu uma frase interessante: “Quem deseja ter uma vida longa não deve contrair dívidas”. E isso porque poucas coisas causam tanta angústia espiritual quanto as dívidas. Eu mesmo, por ter sofrido com elas durante vinte anos, compreendo profundamente o peso dessas palavras.</p>
 <p>No entanto, entre os homens de hoje, muitos se envolvem em atos que, se revelados, os levariam a responder por crimes e prevaricação. Apreciam transações obscuras, criam segredos cuja descoberta pela esposa causaria um enorme transtorno, contraem empréstimos a juros exorbitantes e vivem em um estado de perpétua apreensão. Tentam afogar esse sofrimento no álcool, o que talvez explique por que a bebida continua a ser tão consumida, independentemente de seu preço. Escusado será dizer que essa conduta arruína a saúde e abrevia a vida. Ademais, uma vez imerso nesse atoleiro moral, é extremamente difícil sair. O único caminho para a libertação é ingressar na fé; fora dela, creio não haver outra saída.</p>
 <p>Esbocei, nas linhas acima, os dois caminhos que se apresentam ao homem: o do prazer no mal e o do prazer no bem. Aos caros leitores, pergunto: qual deles escolherão? Exorto-os a uma profunda reflexão sobre o tema.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善を楽しむ 『信仰雑話』P.13、昭和23(1948)年9月5日発行 私はつくづく世の中を観ると、多くの人間の楽しみとしているところのものは、善か悪かに分けてみると、情ないかな、どうも悪の楽しみのほうがズッと多いようである。<br/><br/>いな楽しみは悪でなくてはならないように思っている人も少なくないらしい。<br/><br/> まず一家の主人公であるが、生活に余裕ができると花柳（かりゅう）の巷（ちまた）へ行きたがり、二号などを囲いたがる。<br/><br/>しかも、それがための金銭は正当でない手段によって得るほうが多いようであるが、もちろんそれは悪に属する行為である。<br/><br/>それがため、危ない橋を渡り、国家社会に損失を与えたり、自分自身としても家庭の円満を欠き、不安な生活を送ることになろう。<br/><br/>しかも、成功と享楽が人生最後の目的であるかのごとくし思惟（しい）し、しらずしらずのうちに現世的地獄に転落するのであって、そういう人士は中流以上に多いことであると共に、それら成功者を見る大衆は、外面の様相のみに眩惑され、人生これなるかなと羨望しそのまねをしたがるから、いつになっても良い社会とはならないのである。<br/><br/>また正直者は馬鹿をみるという言葉もあり、まじめに世渡りをしている者は下積みになり、危ない綱渡りをする者が出世をして、豪奢な生活をするという現状である。<br/><br/>そのほか官吏の役得、会社員の不正利得、政治家の闇収入等々、全く俯仰（ふぎょう）天地に恥じない人は今日何人ありやといいたい程である。<br/><br/> ここにおいて、私は善を楽しむことを教えたいのである。<br/><br/>すなわち、相当社会に頭角を顕すようになっても、柳暗花明（りゅうあんかめい）の巷に出入りすることはできるだけ避け、余財あれば社会公共のために費し、困窮者を助け善徳を施し、神仏に帰依し、ときどきは家族を引きつれ映画、演劇、旅行等を娯しむのである。<br/><br/>こういうようなやり方であれば、一家は団欒し、妻は夫を尊敬し感謝するようになり、子女のごときも、まず不良になる心配はないであろう。<br/><br/>従って、経済不安もなく、不摂生もなく、健康にも恵まれ、長寿も保ち得らるる訳で、日々を楽しみ、心は常に洋々たるものがある。<br/><br/>明治の富豪として有名な大倉喜八郎氏はおもしろい事を言った。<br/><br/>「人間長生きをしたければ借金をしないことである」と、それは借金ほど精神的苦痛はないからである。<br/><br/>私も二十年間借金で苦しんだ経験があるので、よく判る気がする。<br/><br/>しかるに現代人の中には、暴露すれば法にふれたり、涜職罪になったりするような事をなし、暗闇の取引を好み、妻君に知れたら大騷動が起こるような秘密を作り、高利の借金をし常に戦々兢々として不安の日を送っており、その苦痛を酒によって紛らそうとする。<br/><br/>酒が何程高くなっても売れるのは、そういう訳もあろう。<br/><br/>したがって健康を害し、短命となるのは言うまでもないと共に、こういう泥沼生活にはいったものは、なかなか抜け出ることができないのが通例である。<br/><br/>まず抜けでる唯一の方法としては宗教に入る事で、それ以外に方法はないであろう。<br/><br/> 私は、以上のごとき善悪二筋道を書いてみた。<br/><br/>悪を楽しむ人と善を楽しむ人とである。<br/><br/>読者諸士よ、卿らはいずれを選ぶや、熟慮を望むのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

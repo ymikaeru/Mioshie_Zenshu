@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qwatas05</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 私の体験 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 大分県 日本五六七教会如意輪会 農業 房前圭正（22） 私の家は世間の不幸を一家に集めたのではなかろうかと思われる程、病苦と貧乏に喘ぐ惨めな家でありました。<br><br> それは父が軍隊より退役後病弱にして何等なす事なく十余年を経てこの世を去り、その後母一人の手で四人の兄弟を養育せねばならず十余年の間、重なる苦労に、母は終に昭和二十一年四月より病床に伏する身となりました。<br><br>最初は気管支炎と言われておりましたが、八月には肋膜炎が併発し一旦は入院も致しましたが、病勢は募るばかりで何等の効果もなく最早取返しのつかない病気となって終いました。<br><br>私は母が発病した年学校を終えて多忙な家事を一人で切り廻しておりましたが、二十二年四月頃より身体がとてもだるくなり、心配の余り早速医師の診断を受けましたところ、肺門浸潤と宣告せられ愕然として家に帰り、最早その日から昨日とは打って変って病床に伏する身となりました。<br><br> かくする中にただ一人の働き手である姉も農繁期を済ませた頃より私と同じ状態となり、私の家は三人枕を並べて病床に伏する事となり、近所の人は言うに及ばず、村人も親類の人も寄り付く人さえなく、無念とも残念とも言いようもなく哀れ淋しき明暮れのうちに、迫り来るものは無気味な死と経済難とでありました。<br><br>私の家はこの三人の外妹一人弟一人おりますが、いずれも登校中で思うように家事の手伝いもしてくれず、それでも朝早く起きて自分で炊事を済ませて学校に行く姿は誠にいじらしくも哀れでありましたが、今はどうする事も出来ずただただ運命の翻弄に任せるのみでありました。<br><br>その間にも病勢は募り三人共散歩等は思いもよらぬ事、その上頭痛、倦怠、咳嗽、不眠症等あらゆる病苦に悩まされました。<br><br> そして他人から聞いた良いと言う方法はどれでもやってみる、薬も色々と飲んでみましたが更に効果なく、最早死を待つばかりとなりました。<br><br>しかし生に対する欲望は断ち難く、時々こんな事を考えるのでありました。<br><br>「一体この世に神や仏というお方があるのでしょうか、もし有るとしたらなぜ私達のような不幸の者を救っては下さらないのでしょうか」と又ある時は「この世に神仏等あるべきはずはない」と否定してみたり、様々に迷う心のあてもなき、明暮れに早一年という年月が流れ去りました。<br><br> ところがこの不幸な私の一家に遂に一大光明の輝く日が訪ずれて参りました。<br><br>それは今年の四月十三日幾山河隔てた母の里から母の知人が訪ねて来られ、「今、日本五六七教会という宗教が出来ていて手を振っただけでとても有難い御利益があり、又これは誰でも出来るのであるからあなたの家でも是非誰か一人入会してそのお力をいただき、自宅でやってみるが良い」と言われました。<br><br>母は早速知人の言を聞き入れて元気な妹を選び入会させました。<br><br> 私はこれらの事は全く迷信とばかり思っており自分だけは絶対この迷信にひっかかるまいと思っておりました。<br><br>ところが母や姉がその浄霊を受けるようになってから気のせいか、段々元気が出て来たような感じがしましたが、唯物観にとらわれている私に取ってはかえって疑いを強くするばかりでありました。<br><br>そして母の知人（三代先生）が次に訪ねて来られました時には随分と理屈を並べたものでした。<br><br>結局理論では解決がつかず、体験してみる事が先決問題と思いまして、自分の意志をおしまげてまず先生の言われるままに浄霊を受けました。<br><br>ところがこれは又何と不思議な事でしょう。<br><br>先生は私の体に手を当てるのでもなく、圧するのでもないのに一種異様な感じが致しました。<br><br>そして今迄理屈を言っていた自分がいかに浅薄であったかをしみじみと悟らされました。<br><br>そして観音力のいかに偉大であるかに驚きましたと同時にこれならばいかなる難病も治り得るという事を信ぜざるを得なくなりました。<br><br> それから妹や先生の浄霊を約半月位受けましたところ、今迄の病苦は跡方もなく吹飛んで、もう軽い仕事が出来るようになり、一カ月位して元気な人と同様の仕事が出来るようになりました。<br><br>姉も母も日増しに元気になり、今年の田植は人手を借りずに出来ました。<br><br>さしも惨めな私も観音力により蘇りました。<br><br>見る蔭もなき不幸な私の一家も観世音菩薩の大慈悲により救われ、何年振りか笑い顔が出るようになり、本当に光明輝く一家になりました。<br><br> そして微力ではありますがこのような偉大な力を、このような有難い観音様を一日も早く一人でも多く、世の皆様に知らせて上げたいと思い、一家挙って信徒に加えて頂き、観世音菩薩に感謝すると共に、その御恩の幾分なりとも報いたいと思いまして、東奔西走専ら不幸の人達の浄霊に多忙な日を送っております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Okada Jikan</h2>
 <h2>Publicado na revista <em>Paraíso Terrestre</em>, n.º 2, 1º de março de 1949</h2>
@@ -103,5 +258,48 @@ function toggleLang(lang) {
 <p>E que fenômeno extraordinário se seguiu! O mestre não tocava meu corpo nem aplicava qualquer tipo de pressão, e, no entanto, uma sensação singular e indescritível me percorreu. Naquele instante, compreendi profundamente quão superficial havia sido meu ceticismo. Fui tomado de assombro diante da magnitude do Poder de Kannon e, simultaneamente, uma convicção inabalável se formou em meu ser: com essa força, não há doença, por mais grave que seja, que não possa ser curada.</p>
 <p>A partir de então, recebi Johrei de minha irmã e do mestre por aproximadamente quinze dias. Todos os padecimentos que me afligiam desapareceram sem deixar vestígios. Em pouco tempo, já conseguia realizar tarefas leves e, em cerca de um mês, trabalhava com o mesmo vigor de uma pessoa saudável. Minha irmã e minha mãe também se fortaleciam a cada dia, a ponto de conseguirmos realizar o plantio de arroz deste ano sem depender de ajuda externa. Até eu, que me encontrava em um estado tão lastimável, fui ressuscitado pelo Poder de Kannon. Nossa família, antes uma sombra de si mesma, foi salva pela imensa compaixão do Bodhisattva Kanzeon (観世音菩薩). Após anos de sofrimento, o sorriso voltou a iluminar nossos rostos, e nos tornamos, verdadeiramente, um lar radiante de luz.</p>
 <p>E embora minhas forças sejam ínfimas, nasceu em mim o ardente desejo de levar o conhecimento deste poder grandioso e desta abençoada Kannon ao maior número de pessoas, o mais depressa possível. Por essa razão, toda a minha família se tornou membro da fé. Em gratidão ao Bodhisattva Kanzeon, e com o anseio de retribuir, ainda que minimamente, a imensa graça recebida, dedicamos hoje nossos dias a servir ao próximo, percorrendo toda a região para levar o Johrei àqueles que sofrem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 私の体験 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 大分県 日本五六七教会如意輪会 農業 房前圭正（22） 私の家は世間の不幸を一家に集めたのではなかろうかと思われる程、病苦と貧乏に喘ぐ惨めな家でありました。<br/><br/> それは父が軍隊より退役後病弱にして何等なす事なく十余年を経てこの世を去り、その後母一人の手で四人の兄弟を養育せねばならず十余年の間、重なる苦労に、母は終に昭和二十一年四月より病床に伏する身となりました。<br/><br/>最初は気管支炎と言われておりましたが、八月には肋膜炎が併発し一旦は入院も致しましたが、病勢は募るばかりで何等の効果もなく最早取返しのつかない病気となって終いました。<br/><br/>私は母が発病した年学校を終えて多忙な家事を一人で切り廻しておりましたが、二十二年四月頃より身体がとてもだるくなり、心配の余り早速医師の診断を受けましたところ、肺門浸潤と宣告せられ愕然として家に帰り、最早その日から昨日とは打って変って病床に伏する身となりました。<br/><br/> かくする中にただ一人の働き手である姉も農繁期を済ませた頃より私と同じ状態となり、私の家は三人枕を並べて病床に伏する事となり、近所の人は言うに及ばず、村人も親類の人も寄り付く人さえなく、無念とも残念とも言いようもなく哀れ淋しき明暮れのうちに、迫り来るものは無気味な死と経済難とでありました。<br/><br/>私の家はこの三人の外妹一人弟一人おりますが、いずれも登校中で思うように家事の手伝いもしてくれず、それでも朝早く起きて自分で炊事を済ませて学校に行く姿は誠にいじらしくも哀れでありましたが、今はどうする事も出来ずただただ運命の翻弄に任せるのみでありました。<br/><br/>その間にも病勢は募り三人共散歩等は思いもよらぬ事、その上頭痛、倦怠、咳嗽、不眠症等あらゆる病苦に悩まされました。<br/><br/> そして他人から聞いた良いと言う方法はどれでもやってみる、薬も色々と飲んでみましたが更に効果なく、最早死を待つばかりとなりました。<br/><br/>しかし生に対する欲望は断ち難く、時々こんな事を考えるのでありました。<br/><br/>「一体この世に神や仏というお方があるのでしょうか、もし有るとしたらなぜ私達のような不幸の者を救っては下さらないのでしょうか」と又ある時は「この世に神仏等あるべきはずはない」と否定してみたり、様々に迷う心のあてもなき、明暮れに早一年という年月が流れ去りました。<br/><br/> ところがこの不幸な私の一家に遂に一大光明の輝く日が訪ずれて参りました。<br/><br/>それは今年の四月十三日幾山河隔てた母の里から母の知人が訪ねて来られ、「今、日本五六七教会という宗教が出来ていて手を振っただけでとても有難い御利益があり、又これは誰でも出来るのであるからあなたの家でも是非誰か一人入会してそのお力をいただき、自宅でやってみるが良い」と言われました。<br/><br/>母は早速知人の言を聞き入れて元気な妹を選び入会させました。<br/><br/> 私はこれらの事は全く迷信とばかり思っており自分だけは絶対この迷信にひっかかるまいと思っておりました。<br/><br/>ところが母や姉がその浄霊を受けるようになってから気のせいか、段々元気が出て来たような感じがしましたが、唯物観にとらわれている私に取ってはかえって疑いを強くするばかりでありました。<br/><br/>そして母の知人（三代先生）が次に訪ねて来られました時には随分と理屈を並べたものでした。<br/><br/>結局理論では解決がつかず、体験してみる事が先決問題と思いまして、自分の意志をおしまげてまず先生の言われるままに浄霊を受けました。<br/><br/>ところがこれは又何と不思議な事でしょう。<br/><br/>先生は私の体に手を当てるのでもなく、圧するのでもないのに一種異様な感じが致しました。<br/><br/>そして今迄理屈を言っていた自分がいかに浅薄であったかをしみじみと悟らされました。<br/><br/>そして観音力のいかに偉大であるかに驚きましたと同時にこれならばいかなる難病も治り得るという事を信ぜざるを得なくなりました。<br/><br/> それから妹や先生の浄霊を約半月位受けましたところ、今迄の病苦は跡方もなく吹飛んで、もう軽い仕事が出来るようになり、一カ月位して元気な人と同様の仕事が出来るようになりました。<br/><br/>姉も母も日増しに元気になり、今年の田植は人手を借りずに出来ました。<br/><br/>さしも惨めな私も観音力により蘇りました。<br/><br/>見る蔭もなき不幸な私の一家も観世音菩薩の大慈悲により救われ、何年振りか笑い顔が出るようになり、本当に光明輝く一家になりました。<br/><br/> そして微力ではありますがこのような偉大な力を、このような有難い観音様を一日も早く一人でも多く、世の皆様に知らせて上げたいと思い、一家挙って信徒に加えて頂き、観世音菩薩に感謝すると共に、その御恩の幾分なりとも報いたいと思いまして、東奔西走専ら不幸の人達の浄霊に多忙な日を送っております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

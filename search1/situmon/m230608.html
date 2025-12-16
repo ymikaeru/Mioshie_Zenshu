@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230608</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年6月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年六月八日（火） ――「霊体の曇りが局所において毒素となる」との御教えをいただいておりますが、想念や行為の不道徳がそのような毒素となる場合は三毒以外の毒となるのでしょうか。<br><br> 毒はそれぞれみんな違うがたいした違いはないのです。<br><br>同じと思ってもよい。<br><br>想念や行為の不道徳は罪穢れとなるが三毒の中へ入れてもよい。<br><br>この罪穢れを消すような行為をすればよいが、そうでないと毒はふえるばかりです。<br><br> ――人が死んで霊界に帰った場合、その人の副守護神は離脱するものか否か、もし離脱すればその霊魂は善のみとなり従って霊界も悪がなく善のみと存じますが。<br><br> ふつう副霊は霊界へついてくる。<br><br>霊界でその霊が改心すればなお相当期間憑いているが、改心できぬものはかえって離れてしまうものです。<br><br>副霊は憑いたものですからいずれ離れるべきものです。<br><br>ところが中には霊界で副霊にそのまた副霊が憑いたりすることもある。<br><br>そして人間の霊と副霊と一緒になって生きている人間に憑ることがある。<br><br>以前狐の憑いた女を治療すると霊が出てくる、そこで「あんたはだれだ」と訊ねると「荒井サクだ」と言ってるが、しばらくすると狐が出る。<br><br>「お前には用がない」と叱るとまた荒井サクが出てきたりしたことがありました。<br><br>これは本に書いたことです。<br><br>執着の霊は半分龍で半分人間です。<br><br>尻尾ができてくるのもあります。<br><br>いろんなのがありますから一概には言えません。<br><br>あるちょっと有名な人がなにかの講演で「いまの人々は平気で古い木を切ってしまうが自分はかわいそうでしかたがない。<br><br>必ずお祀りすべきだ」と言ったがその人の顔は猿に似ていたそうです。<br><br>猿だから大きな立木を切られるとかわいそうなんです。<br><br> rattail（注） 有名な人＝来馬琢道、くるまたくどう（僧侶、政治家、参議院議員） ――（一）神様の三宝は塗り物でもよろしいでしょうか。<br><br> （二）法事に坊さんを頼むのは通常何回忌までがよろしいでしょうか。<br><br> （三）再婚はしてもよろしいでしょうか。<br><br> （一）神様のは白木が本当です。<br><br>神様はごく古い時代人間の姿で現われ、霊界に行き、人間として生まれてこず、霊界で働いておられるんだから、その古い時代の生活のやり方をしておられる。<br><br>従って神代時代の器物を使ったほうがよい。<br><br>またそのほうが神より人間のほうで気持ちがいいですよ。<br><br>仏様には塗ったのでよい。<br><br>塗った三宝は大黒様によい。<br><br> （二）できるだけ永いほうがいいです。<br><br>昨日の質問に「霊を供養してもその霊が生まれ代わってこの世に来てしまっている場合はいかがでしょう」とあったが、そういうふうに霊界に不在のとき、その供養は現界に戻ってきて、ある程度その人の霊を高めることに役立つのです。<br><br>古い仏のもまあ臨機応変にしたらいいです。<br><br>古いのは強いて坊さんを頼まなくてもよい。<br><br>ふつうは十七回くらいまでです。<br><br> （三）再婚は二度までいいとされてます。<br><br>一年以上経ってからならいい。<br><br>一年以内に再婚すると亡くなった霊が怒りその障りが来ます。<br><br>一年以上では霊界の時効にかかるから障りは来ないのです。<br><br> ――離婚した場合の再婚は…… それは気をつける必要がありますが、いろいろです。<br><br> ――慎重にしたらいかがでしょう。<br><br> その慎重も形だけでね。<br><br>離婚は絶対しないことです。<br><br>夫婦のいっぽうが信仰しいっぽうが反対するのは厄介だがそれは時を待てばよい。<br><br>正しい信仰をあまり邪魔すると神が許さなくてあの世へやられますよ。<br><br> ――夫が道楽して妻が離婚された場合、その妻の再婚はいかがでしょう。<br><br> その場合の再婚は差し支えありません。<br><br> ――今度、中村市郎と中村操が結婚いたす予定でございますが式の仕方は…… ふつうの方法でいいでしょう。<br><br>ただ光明如来様に上げるものをお上げしてお許しをいただくことです。<br><br>「今度縁あって某と某を結婚させたいと思いますからお許しをお願い申し上げます。<br><br>今後とも末永く御守護をお願いいたします」と言う。<br><br>勿論祝詞も上げます。<br><br>それでいいです。<br><br> ――御浄めにより善人と思われる人が助からぬ場合があるのに、まったく悪人としか思えぬ人でさえも助かる場合がありますのはいかなる理由でしょうか。<br><br> 人間が見て善人とか悪人とかきめるのであって、神様がご覧になると違うんです。<br><br>小乗で善人でも大乗で見れば悪人になることがたくさんありますよ。<br><br>なぜなら本当の善人は少ないのです。<br><br>ふつうの善人とは意気地なしでしょう。<br><br>世のため神のため大いに働きのあるのは悪人に見られがちです。<br><br>大善は小悪を伴い大悪は小善を伴う。<br><br>その場合小悪の面を見ると悪人に思えるのです。<br><br>例えば私のこの道が発展すれば医者は私のことを悪人呼ばわりするでしょう。<br><br>これはしかし、しかたのないことです。<br><br>悪人から見れば世の中の善人はすべて悪人ですよ。<br><br>なぜなら悪人のすることの邪魔をしている。<br><br>善人といってもいろいろあります。<br><br>意気地のない善人や、功利的に人の信用を得んとする善人もある。<br><br>こんな善人には悪への憤激がない。<br><br>この悪に対する憤激はなければならないものです。<br><br>が、これがあると悪人に見られがちです。<br><br>……善悪というものは時代で異なるのです。<br><br>いまから見れば、忠君愛国なんかはたいへんな悪ということになります。<br><br>非常な間違いです。<br><br>日本が忠君愛国をやり、支那人や朝鮮人もそれぞれ支那や朝鮮のために忠君愛国をやったらたいへんなことになります。<br><br>よくいわれた皇道なんかも共産主義より下です。<br><br>なぜならロシアヘ行って皇道を宣伝しても広まりはしないが、日本に共産主義は広まっているんですから。<br><br>忠君愛国や皇道は小乗の善であり、世界的に見れば悪です。<br><br>一国や一民族がよくなるのでは悪です。<br><br>世界中の全部の人がよくなるのが真理であり、全人類が幸せになることでなければ駄目です。<br><br>御浄めで生命が助かるか否かはいろいろと原因があるのですよ。<br><br> ――心の中に魂があることは判らせていただきましたが、その魂は体のどこにあるのでしょうか。<br><br> 人体は腹の真ん中と前頭部の奥とで天と地となり相通じ合っているのです。<br><br>ですから高天原を人体で言えば眉間です。<br><br>邪神がつくと眉間へ来たがってしかたがない。<br><br>眉間を占領すればその人を自由にすることができるから。<br><br>そこで眉間へ来れぬときはその人を怒らせる。<br><br>怒ると頭の霊細胞が薄くなるから眉間へ来れるのです。<br><br>そのうちまた気持ちが平静になり霊細胞が濃くなると邪霊は下のほうへ下がるのです。<br><br>ヒステリーなんかはこれです。<br><br>また狐の霊なんか憑くとよくしゃべるんです。<br><br>女でよくしゃべるのは狐です。<br><br>また威丈高になって相手にものを言わせないのもそうです。<br><br> ――先月末から御浄めいたしております四十七歳の女ですが、一カ月半ほど前から狐が憑き頭の中でいろいろなことを申します。<br><br>殊に夜になると「さてぼつぼつ苦しめてやろうか」と言ってなんだかんだとしゃべり続け、眠ることができず非常に苦しんでおりましたが、一回御浄め受けた夜はよく眠られ、翌日さっそく御守りをいただきました。<br><br>最初雌雄二匹憑っていた様子でしたが、三日目に雌のほうは弱って死んだ様子でした。<br><br>講習を受けたとき「油断をしていたらたいへんなことになってしまった」と言ったそうです。<br><br>御浄めしている私の手を「カチューシャのような手だな」などと言ったり「ああ苦しい、ああ苦しい」と苦しがったりしておりました。<br><br>御浄めのとき「なにか頭で声がしたらすぐ口に出してみなさい」と患者に言って御浄めいたしますと、こんなふうなことを申しておりました。<br><br>雄のほうも一昨日はミミズくらい、昨日はシラミくらいになってまいりました。<br><br> 狐が憑くと一度治ったように見えてまた邪魔することがあります。<br><br>気長にやれば治りますよ。<br><br> ――心臓の右にある人がありますか。<br><br> ええありますよ。<br><br>中には最初左にあって、そのうちに右のほうへ動いて移ってしまう人もあります。<br><br> ――神を押し込めた罪とは個人的にですか、または人類全体としてでしょうか。<br><br> 大きな意味ですよ。<br><br>神は世論をもって押し込められたのですから。<br><br> 主神として天御中主大神が在り、次で高御産神、神御産神が現われ給うた。<br><br>これで陰陽善悪ができたのです。<br><br>以前ある人が「なぜ神は悪をなす人間を作りかつその償いとして苦しみを与えるのか」と訊ねたが「私も作られたのであって想像するだけです。<br><br>因果の理によって悪いことをすれば悪い目に遭い、人を幸福にしてやれば自分も幸福になる。<br><br>それなら人を助けてやればよいではないか」と言ったのです。<br><br>まア多少打算的でしょうがね。<br><br>しかし最深最奥のところは人間には判らないのです。<br><br>ともかく人間の目的は幸福になることです。<br><br>だから多くの幸福を人々に与えることです。<br><br> ――私の近所の池では毎年丑の日に人が死にますが、私が疥癬の最中自分が牛になり講習生の家で飼われる夢を見たので、よく調べましたら以前牛がその池で死んだらしいのですが。<br><br> 月一回、牛の好きそうなものを上げてお祀りしたらよろしい。<br><br>お地蔵様も祀ったらいいでしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Doutrina e a Vida Espiritual</h2>
 <p><strong>―― Recebemos o Ensinamento de que "as máculas do corpo espiritual se manifestam como toxinas em pontos específicos". Nesse sentido, quando pensamentos e atos imorais se convertem em tais toxinas, elas seriam de natureza distinta das três toxinas primordiais?</strong></p>
@@ -127,5 +279,48 @@ function toggleLang(lang) {
 <p>Certa vez, alguém me perguntou: "Por que Deus criou seres humanos que praticam o mal e, como punição, lhes inflige sofrimento?". Respondi-lhe: "Eu também fui criado, e só posso fazer suposições. Pela Lei de Causa e Efeito, quem pratica o mal sofre consequências negativas, e quem proporciona felicidade aos outros torna-se feliz. Sendo assim, não é melhor simplesmente ajudar o próximo?". Pode parecer uma lógica um tanto interesseira, reconheço. Contudo, a verdade mais profunda e última é inacessível à compreensão humana. De todo modo, o objetivo do ser humano é alcançar a felicidade. Portanto, nosso dever é proporcionar a maior felicidade possível às pessoas.</p>
 <p><strong>―― Nas proximidades de minha casa, há um lago onde todos os anos, no Dia do Boi, uma pessoa morre. Durante um período em que sofri de sarna, tive um sonho no qual eu me tornava um boi e era criado na casa de um membro. Ao investigar, descobri que, aparentemente, um boi morreu nesse lago no passado.</strong></p>
 <p>Seria bom que, uma vez por mês, você fizesse uma oferenda de algo que um boi apreciaria, em sufrágio de seu espírito. Seria recomendável também consagrar uma estátua de Jizo no local.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年6月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年六月八日（火） ――「霊体の曇りが局所において毒素となる」との御教えをいただいておりますが、想念や行為の不道徳がそのような毒素となる場合は三毒以外の毒となるのでしょうか。<br/><br/> 毒はそれぞれみんな違うがたいした違いはないのです。<br/><br/>同じと思ってもよい。<br/><br/>想念や行為の不道徳は罪穢れとなるが三毒の中へ入れてもよい。<br/><br/>この罪穢れを消すような行為をすればよいが、そうでないと毒はふえるばかりです。<br/><br/> ――人が死んで霊界に帰った場合、その人の副守護神は離脱するものか否か、もし離脱すればその霊魂は善のみとなり従って霊界も悪がなく善のみと存じますが。<br/><br/> ふつう副霊は霊界へついてくる。<br/><br/>霊界でその霊が改心すればなお相当期間憑いているが、改心できぬものはかえって離れてしまうものです。<br/><br/>副霊は憑いたものですからいずれ離れるべきものです。<br/><br/>ところが中には霊界で副霊にそのまた副霊が憑いたりすることもある。<br/><br/>そして人間の霊と副霊と一緒になって生きている人間に憑ることがある。<br/><br/>以前狐の憑いた女を治療すると霊が出てくる、そこで「あんたはだれだ」と訊ねると「荒井サクだ」と言ってるが、しばらくすると狐が出る。<br/><br/>「お前には用がない」と叱るとまた荒井サクが出てきたりしたことがありました。<br/><br/>これは本に書いたことです。<br/><br/>執着の霊は半分龍で半分人間です。<br/><br/>尻尾ができてくるのもあります。<br/><br/>いろんなのがありますから一概には言えません。<br/><br/>あるちょっと有名な人がなにかの講演で「いまの人々は平気で古い木を切ってしまうが自分はかわいそうでしかたがない。<br/><br/>必ずお祀りすべきだ」と言ったがその人の顔は猿に似ていたそうです。<br/><br/>猿だから大きな立木を切られるとかわいそうなんです。<br/><br/> rattail（注） 有名な人＝来馬琢道、くるまたくどう（僧侶、政治家、参議院議員） ――（一）神様の三宝は塗り物でもよろしいでしょうか。<br/><br/> （二）法事に坊さんを頼むのは通常何回忌までがよろしいでしょうか。<br/><br/> （三）再婚はしてもよろしいでしょうか。<br/><br/> （一）神様のは白木が本当です。<br/><br/>神様はごく古い時代人間の姿で現われ、霊界に行き、人間として生まれてこず、霊界で働いておられるんだから、その古い時代の生活のやり方をしておられる。<br/><br/>従って神代時代の器物を使ったほうがよい。<br/><br/>またそのほうが神より人間のほうで気持ちがいいですよ。<br/><br/>仏様には塗ったのでよい。<br/><br/>塗った三宝は大黒様によい。<br/><br/> （二）できるだけ永いほうがいいです。<br/><br/>昨日の質問に「霊を供養してもその霊が生まれ代わってこの世に来てしまっている場合はいかがでしょう」とあったが、そういうふうに霊界に不在のとき、その供養は現界に戻ってきて、ある程度その人の霊を高めることに役立つのです。<br/><br/>古い仏のもまあ臨機応変にしたらいいです。<br/><br/>古いのは強いて坊さんを頼まなくてもよい。<br/><br/>ふつうは十七回くらいまでです。<br/><br/> （三）再婚は二度までいいとされてます。<br/><br/>一年以上経ってからならいい。<br/><br/>一年以内に再婚すると亡くなった霊が怒りその障りが来ます。<br/><br/>一年以上では霊界の時効にかかるから障りは来ないのです。<br/><br/> ――離婚した場合の再婚は…… それは気をつける必要がありますが、いろいろです。<br/><br/> ――慎重にしたらいかがでしょう。<br/><br/> その慎重も形だけでね。<br/><br/>離婚は絶対しないことです。<br/><br/>夫婦のいっぽうが信仰しいっぽうが反対するのは厄介だがそれは時を待てばよい。<br/><br/>正しい信仰をあまり邪魔すると神が許さなくてあの世へやられますよ。<br/><br/> ――夫が道楽して妻が離婚された場合、その妻の再婚はいかがでしょう。<br/><br/> その場合の再婚は差し支えありません。<br/><br/> ――今度、中村市郎と中村操が結婚いたす予定でございますが式の仕方は…… ふつうの方法でいいでしょう。<br/><br/>ただ光明如来様に上げるものをお上げしてお許しをいただくことです。<br/><br/>「今度縁あって某と某を結婚させたいと思いますからお許しをお願い申し上げます。<br/><br/>今後とも末永く御守護をお願いいたします」と言う。<br/><br/>勿論祝詞も上げます。<br/><br/>それでいいです。<br/><br/> ――御浄めにより善人と思われる人が助からぬ場合があるのに、まったく悪人としか思えぬ人でさえも助かる場合がありますのはいかなる理由でしょうか。<br/><br/> 人間が見て善人とか悪人とかきめるのであって、神様がご覧になると違うんです。<br/><br/>小乗で善人でも大乗で見れば悪人になることがたくさんありますよ。<br/><br/>なぜなら本当の善人は少ないのです。<br/><br/>ふつうの善人とは意気地なしでしょう。<br/><br/>世のため神のため大いに働きのあるのは悪人に見られがちです。<br/><br/>大善は小悪を伴い大悪は小善を伴う。<br/><br/>その場合小悪の面を見ると悪人に思えるのです。<br/><br/>例えば私のこの道が発展すれば医者は私のことを悪人呼ばわりするでしょう。<br/><br/>これはしかし、しかたのないことです。<br/><br/>悪人から見れば世の中の善人はすべて悪人ですよ。<br/><br/>なぜなら悪人のすることの邪魔をしている。<br/><br/>善人といってもいろいろあります。<br/><br/>意気地のない善人や、功利的に人の信用を得んとする善人もある。<br/><br/>こんな善人には悪への憤激がない。<br/><br/>この悪に対する憤激はなければならないものです。<br/><br/>が、これがあると悪人に見られがちです。<br/><br/>……善悪というものは時代で異なるのです。<br/><br/>いまから見れば、忠君愛国なんかはたいへんな悪ということになります。<br/><br/>非常な間違いです。<br/><br/>日本が忠君愛国をやり、支那人や朝鮮人もそれぞれ支那や朝鮮のために忠君愛国をやったらたいへんなことになります。<br/><br/>よくいわれた皇道なんかも共産主義より下です。<br/><br/>なぜならロシアヘ行って皇道を宣伝しても広まりはしないが、日本に共産主義は広まっているんですから。<br/><br/>忠君愛国や皇道は小乗の善であり、世界的に見れば悪です。<br/><br/>一国や一民族がよくなるのでは悪です。<br/><br/>世界中の全部の人がよくなるのが真理であり、全人類が幸せになることでなければ駄目です。<br/><br/>御浄めで生命が助かるか否かはいろいろと原因があるのですよ。<br/><br/> ――心の中に魂があることは判らせていただきましたが、その魂は体のどこにあるのでしょうか。<br/><br/> 人体は腹の真ん中と前頭部の奥とで天と地となり相通じ合っているのです。<br/><br/>ですから高天原を人体で言えば眉間です。<br/><br/>邪神がつくと眉間へ来たがってしかたがない。<br/><br/>眉間を占領すればその人を自由にすることができるから。<br/><br/>そこで眉間へ来れぬときはその人を怒らせる。<br/><br/>怒ると頭の霊細胞が薄くなるから眉間へ来れるのです。<br/><br/>そのうちまた気持ちが平静になり霊細胞が濃くなると邪霊は下のほうへ下がるのです。<br/><br/>ヒステリーなんかはこれです。<br/><br/>また狐の霊なんか憑くとよくしゃべるんです。<br/><br/>女でよくしゃべるのは狐です。<br/><br/>また威丈高になって相手にものを言わせないのもそうです。<br/><br/> ――先月末から御浄めいたしております四十七歳の女ですが、一カ月半ほど前から狐が憑き頭の中でいろいろなことを申します。<br/><br/>殊に夜になると「さてぼつぼつ苦しめてやろうか」と言ってなんだかんだとしゃべり続け、眠ることができず非常に苦しんでおりましたが、一回御浄め受けた夜はよく眠られ、翌日さっそく御守りをいただきました。<br/><br/>最初雌雄二匹憑っていた様子でしたが、三日目に雌のほうは弱って死んだ様子でした。<br/><br/>講習を受けたとき「油断をしていたらたいへんなことになってしまった」と言ったそうです。<br/><br/>御浄めしている私の手を「カチューシャのような手だな」などと言ったり「ああ苦しい、ああ苦しい」と苦しがったりしておりました。<br/><br/>御浄めのとき「なにか頭で声がしたらすぐ口に出してみなさい」と患者に言って御浄めいたしますと、こんなふうなことを申しておりました。<br/><br/>雄のほうも一昨日はミミズくらい、昨日はシラミくらいになってまいりました。<br/><br/> 狐が憑くと一度治ったように見えてまた邪魔することがあります。<br/><br/>気長にやれば治りますよ。<br/><br/> ――心臓の右にある人がありますか。<br/><br/> ええありますよ。<br/><br/>中には最初左にあって、そのうちに右のほうへ動いて移ってしまう人もあります。<br/><br/> ――神を押し込めた罪とは個人的にですか、または人類全体としてでしょうか。<br/><br/> 大きな意味ですよ。<br/><br/>神は世論をもって押し込められたのですから。<br/><br/> 主神として天御中主大神が在り、次で高御産神、神御産神が現われ給うた。<br/><br/>これで陰陽善悪ができたのです。<br/><br/>以前ある人が「なぜ神は悪をなす人間を作りかつその償いとして苦しみを与えるのか」と訊ねたが「私も作られたのであって想像するだけです。<br/><br/>因果の理によって悪いことをすれば悪い目に遭い、人を幸福にしてやれば自分も幸福になる。<br/><br/>それなら人を助けてやればよいではないか」と言ったのです。<br/><br/>まア多少打算的でしょうがね。<br/><br/>しかし最深最奥のところは人間には判らないのです。<br/><br/>ともかく人間の目的は幸福になることです。<br/><br/>だから多くの幸福を人々に与えることです。<br/><br/> ――私の近所の池では毎年丑の日に人が死にますが、私が疥癬の最中自分が牛になり講習生の家で飼われる夢を見たので、よく調べましたら以前牛がその池で死んだらしいのですが。<br/><br/> 月一回、牛の好きそうなものを上げてお祀りしたらよろしい。<br/><br/>お地蔵様も祀ったらいいでしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

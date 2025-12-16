@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syaka094</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 ８ 094-108 人事１ 094 職業与えらる 光明如来様をお祭りしてよくお願いすると新しい職業を与えられる。<br><br>観音様が見付けて下さる。<br><br>職業紹介所より確かである。<br><br>（S23. 7.25） 095 納税苦も浄化、解決の道 私は時計貴金属小売商人ですが、一般社会情勢が悪いためどこも同様でありますが、納税に追い立てられ、日もこれ足らず努力しておりますが、仲々完納はむずかしく困っております。<br><br>ところが私は長男（六才）が病気のためある人の世話にて入信させて頂き、家の中が明るくなり、また他人をも次々御導き致しておりますが、浄霊と商売上の事とを調和させるのに時間が足らず、税の方はいつになったら解放せられるのか判りません。<br><br>今営業をやめるにも止める訳にも参りません。<br><br>いかにしたらよいでしょうか。<br><br>御伺い申し上げます。<br><br> 納税で苦しむのも浄化である。<br><br>人を助け、徳を積むうち税の方も完納出来るようになるし、商売もうまくゆく。<br><br>アクセクしても必ずしもうまくゆかぬ。<br><br>神様にお任せせよ。<br><br> 去年の税問題などびっくりしたが、神様に伺うとお笑いになったので安心した。<br><br>（S24. 8.18） 096 納税苦御救の御願 去る五月光明如来様を御祭りさせて戴き、色々御守護を戴きました。<br><br>有難く御礼申し上げます。<br><br>税金の事で御伺い致します。<br><br>私は昨年の申告二十五万円に対し五十万円の決定が参りました。<br><br>他家より借りて十万円を分納致しましたが、これ以上はトテモ払う事が出来ません。<br><br>税務代理弁護人を立て、行政裁判をしてはどうか、と勧められるのですがこの裁判は勝てるでしょうか。<br><br>私共は八百屋で御座いますが、今年の申告は昨年より四割多い予想と税務署より通知があり、一方商売は昨年より悪く、その申告をいかにしたらよいか悩んでおります。<br><br>何卒御教示お願い致します。<br><br> 渋井さんに聞いた方がいいであろう。<br><br>余り考えないで成行に任せた方がよい。<br><br>競売をして新規蒔直しにしてはどうか。<br><br>よく光明如来様に軽くして貰うようお願いすれば何とかして下さる。<br><br>私は借金差押の経験あり。<br><br>（S24. 6.28） 097 二業成功の見込 私は木工挽物業と農業を兼ねて生活をしておりますが、木工業の希望に成功出来る可能性が御座いましょうか。<br><br> 入信して光明如来様にお願いすると自然に浮ぶ。<br><br>（自分でどうすればよいかが）神様からよいように仕向けられる。<br><br>（S24. 3.15） 098 勤務不安への方針 私は鉄道の方へ勤務しております。<br><br>行政整理または降職で強く頭を悩まされますが、今後いかに心掛けましたら最後迄勤め得る事が出来るでしょうか。<br><br> 勤務してよければ勤務するようになる。<br><br>替えた方がよければかえるように、神様が順序をつけて下さる。<br><br>（S24.11.27） 099 夫失職、妻の就職 主人が自動車会社に勤めておりましたが、人員整理で止める事になりましたので、私が職業についたらと言っております。<br><br>いかにしましたら宜しゅう御座いますか、御教え願います。<br><br> 借金は絶対してはいけない。<br><br> 光明如来様に、どうしたらいいかお伺いする。<br><br>すると心に浮ぶか、他動的に決る。<br><br>（S24.11. 6） 100 材木商の永続性 材木屋、製材業者は何代も続かないと、火災と怪我の多いのはいかなる理由で御座いましょうか。<br><br> 大した意味はない。<br><br>こんな品を取扱えば、倒れたり怪我が多い。<br><br> 人間力としては、防火設備をする。<br><br> 怪我は、御守護によれば殆どなくなる。<br><br> 101 新企画のやり方 私は農業のかたわら馬を飼育し、馬車業を経営しておりますが、今度馬車業を切替えて温室栽培（フレーム苺）を経営したいと思いますが、前途の状況はどうで御座いましょうか。<br><br>（同村の数人の温室栽培の経過を見ますれば良い成績であるようですが） 順調にゆけば好いから続け、故障が起れば神様が止めるのだから止める。<br><br> すべて新しい企画はそのようにすべきである。<br><br>（S24. 8.16） 102 勤務と通学（楽しむ環境作れ） 機関車の乗務員勤務の余暇に大学に通学しております。<br><br>私は最近精神的な悩みと労働の疲労とで勉強も気乗りせず悩んでおります。<br><br>どうしたらよいでしょうか。<br><br> これは過重、無理である。<br><br>楽しんで、面白くやれる環境を作った方がよい。<br><br> 103 職業選択のお伺 私は今迄農業と土木請負業をしております。<br><br>どちらがよいか御教え願います。<br><br> 人に相談するのでなく、自分の思う通り、興味のある方をやればよい。<br><br>（S24.10.28） 104 営業不振の解決 私が関係致している信徒の方で、従業員約三十名を使用、鉄工所を経営され、時節柄経営困難で悩んでおられます。<br><br>この際信仰者としていかなる態度で進まれたが宜敷いでしょうか。<br><br>またその方をお導きさせて頂くのにはどう致したら宜敷いでしょうか。<br><br>御教示を御願い致します。<br><br> まず、営業を縮小する。<br><br>何でも手一杯やるからいけない。<br><br> 「貧乏の原因」（光十五号）を読め。<br><br>（S24. 6.27） rattail（注） 〔 貧乏の原因 『光』15号、昭和24(1949)年6月30日発行〕 105 行詰りの事業生かす道 私の村は山林地帯が多く、耕地が少いため農業のみにては生活が困難なる土地にして、しかも工業は無く代々貧農の土地であります。<br><br>私は昭和二十一年より土地の工業振興のため木材業を兼ね、木材加工業（木製玩具、寝具、建具、その他輸出向木竹加工）を始めましたが、周囲の有志の助力によりますます発展致し、昨二十四年私の事業を資本金壱百万円の株式会社とし、現在工員三十名、その他家庭の副業として下請三十名を使用しております。<br><br>この不況下にあっても経営の合理化を計り、従業員一丸となって事業に専心、経営を続けておりますが、この経営の欠陥は高金利、日分二十銭の借入金が五十万円ありますので、その金利のために折角の好成績を修める事業も無になってしまいます。<br><br> また近頃は県の農政課から輸出品の製作依頼もありますが、現在の高利金を使用していてはその方に努力をうばわれ、輸出のような大きな仕事に努力する事も不可能な現状です。<br><br> この五十万円を返済すべく出資者を求めて努力致して来ましたが、今日の金づまりでは人を得る事が出来ません。<br><br>しかしながら現在の工場企画を小にしその金を生み出す事も出来ません。<br><br>私はいかなる方法にて進んだら宜しいでしょうか。<br><br>私の事業に投資して精神的に片腕となって働いて下さる人はないでしょうか。<br><br>今の世の中にそんな事を考えるのは不可能でしょうか。<br><br> 勿論前記しました欠陥を除けば経営も合理化され、利益も上り、また土地の工業振興にも大いにその成果は上ります。<br><br>村当局は村民全員は最大の関心を持て私の業績を見守っております。<br><br>当地の工業振興のため私は生命をかけて事業に当っております。<br><br>私の生命は事業のために費す覚悟です。<br><br>私の生命であるこの事業に、私の日夜崇拝している大先生のお教えをお願い致します。<br><br> 出発点が間違っている。<br><br>出来るだけ事業を縮小する。<br><br>小さくやる。<br><br>大英断して、新規蒔直しのつもりで借金を清算する。<br><br>それによって生きてくる。<br><br>（S24.12. 8） 106 営業の将来 私は胃病のため二十日間食事が出来ませぬ時、光明如来様に御縋りして全快させて頂き、感謝致しております。<br><br>なお私は三年前より自動車修理工場を経営しております。<br><br>現在営業状態は普通ですが今後いかになりましょうか。<br><br>御教示下さい。<br><br> どうなるか、世界的の事ならともかく、個人的の事は、一生懸命やれば繁昌するし、怠ければ繁昌しない（のはあたり前である）が信仰していれば悪いようにはならぬし、悪い事になれば、よい事のある前提になる。<br><br>（S24.11.17） 107 借金営業行詰り打開の道 私は二十一年七月二十一日入信致しました者です。<br><br>昨年一月より多額の借金をして、古着商店を経営しております。<br><br>十月頃までは殊の外順調に千客万来の盛況に益々気を良くし、今一層大奮発と更に借金を増額し、商品を多量に仕入れ意気込んでおりましたが、十一月以後世相一変し、元価を二、三割より五割を切る値にても仲々商品は捌けず、全く行詰りを生じ、このままで推移したならば、元金の返済は疎か利子も支払不可能となり、家屋、宅地迄人手に渡る結果となり、自然消滅の外なく、前途甚だ暗澹たるものあり、毎日光明如来様に熱願しておりますけれども、何か起死回生の良策は無いものでしょうか。<br><br>御教示御願い申し上げます。<br><br> よくある事である。<br><br>いくらでもいいから、一日も早く売る。<br><br>そしてそれだけの金を確保し、一時整理する。<br><br>僅かでも確保して新規蒔直しにする。<br><br>そうでないと生きない。<br><br>犬死一番である。<br><br>それ以外にない。<br><br>後再び借金しない事。<br><br>出来るだけ浄霊して、商売をよしてもよい。<br><br>徹底的にやらねばいけない。<br><br>（S25. 1.26） 108 仕事の継続と止むなき借金 消極的の借金はいけないと御教示を頂きましたが、借金しなければならない時でも、その仕事を止める訳にいきません場合、御教をどう考えるべきでしょうか。<br><br> 出発点さえよければこういう事態までゆかぬ。<br><br>不確実なものに手を出すのは間違っている。<br><br>（S24.12. 3）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Mestre Jikan Okada – Questões Sociais e Pessoais (Parte 1)</h2>
 <p><strong>094 - A profissão nos é concedida</strong></p>
@@ -138,5 +290,48 @@ function toggleLang(lang) {
 <p><strong>108 - A continuidade do trabalho e a dívida inevitável</strong></p>
 <p>Recebi o ensinamento de que dívidas de caráter passivo são prejudiciais. Contudo, em situações nas quais é impossível continuar um trabalho sem recorrer a um empréstimo, como devemos interpretar esse ensinamento?</p>
 <p>Se o ponto de partida for correto, não se chega a uma situação como essa. Lançar-se em projetos incertos é um equívoco.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 ８ 094-108 人事１ 094 職業与えらる 光明如来様をお祭りしてよくお願いすると新しい職業を与えられる。<br/><br/>観音様が見付けて下さる。<br/><br/>職業紹介所より確かである。<br/><br/>（S23. 7.25） 095 納税苦も浄化、解決の道 私は時計貴金属小売商人ですが、一般社会情勢が悪いためどこも同様でありますが、納税に追い立てられ、日もこれ足らず努力しておりますが、仲々完納はむずかしく困っております。<br/><br/>ところが私は長男（六才）が病気のためある人の世話にて入信させて頂き、家の中が明るくなり、また他人をも次々御導き致しておりますが、浄霊と商売上の事とを調和させるのに時間が足らず、税の方はいつになったら解放せられるのか判りません。<br/><br/>今営業をやめるにも止める訳にも参りません。<br/><br/>いかにしたらよいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 納税で苦しむのも浄化である。<br/><br/>人を助け、徳を積むうち税の方も完納出来るようになるし、商売もうまくゆく。<br/><br/>アクセクしても必ずしもうまくゆかぬ。<br/><br/>神様にお任せせよ。<br/><br/> 去年の税問題などびっくりしたが、神様に伺うとお笑いになったので安心した。<br/><br/>（S24. 8.18） 096 納税苦御救の御願 去る五月光明如来様を御祭りさせて戴き、色々御守護を戴きました。<br/><br/>有難く御礼申し上げます。<br/><br/>税金の事で御伺い致します。<br/><br/>私は昨年の申告二十五万円に対し五十万円の決定が参りました。<br/><br/>他家より借りて十万円を分納致しましたが、これ以上はトテモ払う事が出来ません。<br/><br/>税務代理弁護人を立て、行政裁判をしてはどうか、と勧められるのですがこの裁判は勝てるでしょうか。<br/><br/>私共は八百屋で御座いますが、今年の申告は昨年より四割多い予想と税務署より通知があり、一方商売は昨年より悪く、その申告をいかにしたらよいか悩んでおります。<br/><br/>何卒御教示お願い致します。<br/><br/> 渋井さんに聞いた方がいいであろう。<br/><br/>余り考えないで成行に任せた方がよい。<br/><br/>競売をして新規蒔直しにしてはどうか。<br/><br/>よく光明如来様に軽くして貰うようお願いすれば何とかして下さる。<br/><br/>私は借金差押の経験あり。<br/><br/>（S24. 6.28） 097 二業成功の見込 私は木工挽物業と農業を兼ねて生活をしておりますが、木工業の希望に成功出来る可能性が御座いましょうか。<br/><br/> 入信して光明如来様にお願いすると自然に浮ぶ。<br/><br/>（自分でどうすればよいかが）神様からよいように仕向けられる。<br/><br/>（S24. 3.15） 098 勤務不安への方針 私は鉄道の方へ勤務しております。<br/><br/>行政整理または降職で強く頭を悩まされますが、今後いかに心掛けましたら最後迄勤め得る事が出来るでしょうか。<br/><br/> 勤務してよければ勤務するようになる。<br/><br/>替えた方がよければかえるように、神様が順序をつけて下さる。<br/><br/>（S24.11.27） 099 夫失職、妻の就職 主人が自動車会社に勤めておりましたが、人員整理で止める事になりましたので、私が職業についたらと言っております。<br/><br/>いかにしましたら宜しゅう御座いますか、御教え願います。<br/><br/> 借金は絶対してはいけない。<br/><br/> 光明如来様に、どうしたらいいかお伺いする。<br/><br/>すると心に浮ぶか、他動的に決る。<br/><br/>（S24.11. 6） 100 材木商の永続性 材木屋、製材業者は何代も続かないと、火災と怪我の多いのはいかなる理由で御座いましょうか。<br/><br/> 大した意味はない。<br/><br/>こんな品を取扱えば、倒れたり怪我が多い。<br/><br/> 人間力としては、防火設備をする。<br/><br/> 怪我は、御守護によれば殆どなくなる。<br/><br/> 101 新企画のやり方 私は農業のかたわら馬を飼育し、馬車業を経営しておりますが、今度馬車業を切替えて温室栽培（フレーム苺）を経営したいと思いますが、前途の状況はどうで御座いましょうか。<br/><br/>（同村の数人の温室栽培の経過を見ますれば良い成績であるようですが） 順調にゆけば好いから続け、故障が起れば神様が止めるのだから止める。<br/><br/> すべて新しい企画はそのようにすべきである。<br/><br/>（S24. 8.16） 102 勤務と通学（楽しむ環境作れ） 機関車の乗務員勤務の余暇に大学に通学しております。<br/><br/>私は最近精神的な悩みと労働の疲労とで勉強も気乗りせず悩んでおります。<br/><br/>どうしたらよいでしょうか。<br/><br/> これは過重、無理である。<br/><br/>楽しんで、面白くやれる環境を作った方がよい。<br/><br/> 103 職業選択のお伺 私は今迄農業と土木請負業をしております。<br/><br/>どちらがよいか御教え願います。<br/><br/> 人に相談するのでなく、自分の思う通り、興味のある方をやればよい。<br/><br/>（S24.10.28） 104 営業不振の解決 私が関係致している信徒の方で、従業員約三十名を使用、鉄工所を経営され、時節柄経営困難で悩んでおられます。<br/><br/>この際信仰者としていかなる態度で進まれたが宜敷いでしょうか。<br/><br/>またその方をお導きさせて頂くのにはどう致したら宜敷いでしょうか。<br/><br/>御教示を御願い致します。<br/><br/> まず、営業を縮小する。<br/><br/>何でも手一杯やるからいけない。<br/><br/> 「貧乏の原因」（光十五号）を読め。<br/><br/>（S24. 6.27） rattail（注） 〔 貧乏の原因 『光』15号、昭和24(1949)年6月30日発行〕 105 行詰りの事業生かす道 私の村は山林地帯が多く、耕地が少いため農業のみにては生活が困難なる土地にして、しかも工業は無く代々貧農の土地であります。<br/><br/>私は昭和二十一年より土地の工業振興のため木材業を兼ね、木材加工業（木製玩具、寝具、建具、その他輸出向木竹加工）を始めましたが、周囲の有志の助力によりますます発展致し、昨二十四年私の事業を資本金壱百万円の株式会社とし、現在工員三十名、その他家庭の副業として下請三十名を使用しております。<br/><br/>この不況下にあっても経営の合理化を計り、従業員一丸となって事業に専心、経営を続けておりますが、この経営の欠陥は高金利、日分二十銭の借入金が五十万円ありますので、その金利のために折角の好成績を修める事業も無になってしまいます。<br/><br/> また近頃は県の農政課から輸出品の製作依頼もありますが、現在の高利金を使用していてはその方に努力をうばわれ、輸出のような大きな仕事に努力する事も不可能な現状です。<br/><br/> この五十万円を返済すべく出資者を求めて努力致して来ましたが、今日の金づまりでは人を得る事が出来ません。<br/><br/>しかしながら現在の工場企画を小にしその金を生み出す事も出来ません。<br/><br/>私はいかなる方法にて進んだら宜しいでしょうか。<br/><br/>私の事業に投資して精神的に片腕となって働いて下さる人はないでしょうか。<br/><br/>今の世の中にそんな事を考えるのは不可能でしょうか。<br/><br/> 勿論前記しました欠陥を除けば経営も合理化され、利益も上り、また土地の工業振興にも大いにその成果は上ります。<br/><br/>村当局は村民全員は最大の関心を持て私の業績を見守っております。<br/><br/>当地の工業振興のため私は生命をかけて事業に当っております。<br/><br/>私の生命は事業のために費す覚悟です。<br/><br/>私の生命であるこの事業に、私の日夜崇拝している大先生のお教えをお願い致します。<br/><br/> 出発点が間違っている。<br/><br/>出来るだけ事業を縮小する。<br/><br/>小さくやる。<br/><br/>大英断して、新規蒔直しのつもりで借金を清算する。<br/><br/>それによって生きてくる。<br/><br/>（S24.12. 8） 106 営業の将来 私は胃病のため二十日間食事が出来ませぬ時、光明如来様に御縋りして全快させて頂き、感謝致しております。<br/><br/>なお私は三年前より自動車修理工場を経営しております。<br/><br/>現在営業状態は普通ですが今後いかになりましょうか。<br/><br/>御教示下さい。<br/><br/> どうなるか、世界的の事ならともかく、個人的の事は、一生懸命やれば繁昌するし、怠ければ繁昌しない（のはあたり前である）が信仰していれば悪いようにはならぬし、悪い事になれば、よい事のある前提になる。<br/><br/>（S24.11.17） 107 借金営業行詰り打開の道 私は二十一年七月二十一日入信致しました者です。<br/><br/>昨年一月より多額の借金をして、古着商店を経営しております。<br/><br/>十月頃までは殊の外順調に千客万来の盛況に益々気を良くし、今一層大奮発と更に借金を増額し、商品を多量に仕入れ意気込んでおりましたが、十一月以後世相一変し、元価を二、三割より五割を切る値にても仲々商品は捌けず、全く行詰りを生じ、このままで推移したならば、元金の返済は疎か利子も支払不可能となり、家屋、宅地迄人手に渡る結果となり、自然消滅の外なく、前途甚だ暗澹たるものあり、毎日光明如来様に熱願しておりますけれども、何か起死回生の良策は無いものでしょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> よくある事である。<br/><br/>いくらでもいいから、一日も早く売る。<br/><br/>そしてそれだけの金を確保し、一時整理する。<br/><br/>僅かでも確保して新規蒔直しにする。<br/><br/>そうでないと生きない。<br/><br/>犬死一番である。<br/><br/>それ以外にない。<br/><br/>後再び借金しない事。<br/><br/>出来るだけ浄霊して、商売をよしてもよい。<br/><br/>徹底的にやらねばいけない。<br/><br/>（S25. 1.26） 108 仕事の継続と止むなき借金 消極的の借金はいけないと御教示を頂きましたが、借金しなければならない時でも、その仕事を止める訳にいきません場合、御教をどう考えるべきでしょうか。<br/><br/> 出発点さえよければこういう事態までゆかぬ。<br/><br/>不確実なものに手を出すのは間違っている。<br/><br/>（S24.12. 3）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

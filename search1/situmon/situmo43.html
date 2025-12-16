@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo43</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』44号、昭和28(1953)年1月25日発行 （お伺） 謹んでお許しいただき、お伺い申し上げます。<br><br>昭和二十七年十二月十八日、大光明如来様の御奉斎のお許しをいただいた者でございますが、これより以前に拝受いたしました「大光明」「大浄光」の御守り様と「金龍」の横の御書体を、二十七年八月一日、表具師平田護（二十九歳）に表装を願い、十二月十八日御奉斎の当日できあがってまいりました。<br><br>ところが「金龍」の御書体の「龍」の御文字の端が縦に破れておりました。<br><br>さっそく明主様に、表具師とともにお詫びいたしました。<br><br>たいへん申し訳なき御無礼をお許しくださるよう、お願い申し上げます。<br><br>表具師は「裏紙を貼って乾燥中に裏紙のつぎ目より破れた」と申しておりますが、なにか霊的御関係があるようにも思いますので、お伺い申し上げます。<br><br> なお平田護表具師は、後にて聞きましたが三五（あなない）教の信者で、二年くらいになるそうでございます。<br><br>破れた御書体は取りはずすよう頼んでおります。<br><br>処分はいかがいたしましたらよろしいでしょうか。<br><br>お伺い申し上げます。<br><br> （御垂示） 破れが「龍」の文字にかかっていれば、お詫びして焼きなさい。<br><br>かかっていなければそのまま継いで表装してもよろしい。<br><br> （お伺） このたび妻の帰幽に際しまして、私の不注意から、私が以前いただきました大浄光の御守り様を、妻のいただいた緯の大光明の御守り様と思い違え、棺の中へ入れて持たせてやってしまい、取り返しのつかぬことをいたしました。<br><br> なにとぞお許しをお願いいたします。<br><br> なお、いかがさせていただけばよろしゅうございますか。<br><br> 御教示お願い申し上げます。<br><br> 右不注意の段お詫び申し上げます。<br><br> （御垂示） すんだものなら致し方ないから、それでよろしい。<br><br>心配するに及ばない。<br><br> （お伺） 私ども夫婦は、二十年より信仰に入れていただき、二十三年八月に光明如来様を御奉斎させていただき、愚息（本年二十五歳）にも無理に入信させましたためか信仰心なく、私どもの意にも添わなくて困っておりました。<br><br> 昨年十一月二十六日夜、金銭の問題から口論となり、あげくの果てに、恐れ多くも御神体に手を掛け、引き裂いてしまいました。<br><br> 私どもの不行き届きから、かかる不祥事を引き起こしまして、まことに申し訳なく、なんとお詫び申し上げましたらよろしいものか、途方に暮れております。<br><br>謹みてここにお詫びとお許しをお願い申し上げ、破損しました光明如来様の御書はいかがいたしましたらよろしゅうございましょうか、伏してお詫びとともに御教示をお願い申し上げます。<br><br>なお一日も早くお詫びがかなって、再度御神体をお迎えさせていただけます日の、一日も早からんことを御祈願申上げます。<br><br> （御垂示） これはたいへんな間違いをしたのである。<br><br>というのは、御子息を無理に入信させたためである。<br><br>信仰心の湧かない者を無理に入信させるのは、尊い神様に対し非常な御無礼になるので、神様は覚らせるために、御子息の手を通じて破られたのである。<br><br>いつも言う通り信仰には無理がもっともいけないのである。<br><br>しかしできたことは致し方ないから、よくお詫びをして焼き、新規にお受けすればそれでよろしいから、あまり悔んだりしないで、今後注意すれば神様はお赦しになるので、あまり心配しないようになさい。<br><br> （お伺） 現在日本の食糧事情によりますと、畑作を主にした農家においては、経済上より二毛作、三毛作をしている現状ですが、自然農法実施の場合、同一畑地に同一物の二毛作はお許しいただけるものでしょうか（例えば麦と薩摩芋だけ毎年繰り返し連作するような場合）右謹んでお伺いいたします。<br><br> （御垂示） それは土地や気候の関係もあるから、臨機応変にやればいい。<br><br> （お伺） 私は入信前昭和二十三年初めのころより、やや脚気的症状でございましたのが、漸次全身の筋肉の疲労感が高まり、ついに昭和二十四年六月入院する身となりました。<br><br>入院後あらゆる医学的療法を加え、医師も研究されましたがまったく病因不明で、「まあ内分泌系統らしい」とのことで、なんら得るところなく同年九月退院しました。<br><br> その後お道のことをうけたまわり、九月十九日より御浄霊をいただくようになりましたが、その日から床の中にて、ひとりでに手および足がピクピクと痙攣し始めたのでございます。<br><br>私はこのような反応が起こったことに、心中大いに不思議に思いまして、御浄霊を続けていただくうちに、たいへん御守護いただいて便所にも行かれるようにさせていただき、家内とも入信させていただき御屏風観音様を御奉斎申し上げ、二十六年には箱根にて明主様の御光をいただくことができるようにしていただきました。<br><br>その後時折疲労感が出ましても、その都度教会にて御浄霊いただいて治していただいておりました。<br><br> ところが二十七年春ごろより浄化を強くいただくようになり、御浄霊中、痙攣が起こるように変化してまいり肩、腕、腹、大腿部の筋肉が、あるときは次々に盛り上がるごとく、あるときはふつうではとても動かせないように筋肉だけが痙攣し、ピクピク動きます。<br><br>酷いときは約一寸くらいも盛り上がることもあります。<br><br> 十二月初めまでは右のような状態でも特別疲労感は強くございませんでしたが、十二月初めより非常に疲労を感ずるようになり、会社も休みもっぱら御浄霊をいただいています。<br><br>力は重い火鉢を寸時運べるほどあっても、はたき四、五回振ったり、半里近く歩くと、一日中動きまわったような疲労感があり、心臓の鼓動が非常に早くなってまいりますが、痙攣の御浄化のほかには、発熱その他の浄化作用はいっさいいただいていません。<br><br> これは全身にわたって溜まった薬毒のほかに、特に毒素集溜の急所があるものでございましょうか。<br><br>また、霊的関係がございましょうか。<br><br>私の知っております範囲では変死者はおりません。<br><br>御神体は二十七年十二月八日御奉斎させていただきました。<br><br>謹みて右お伺い申し上げます。<br><br> （御垂示） これは霊的であって蝮（まむし）に噛まれて死んだ霊である。<br><br>その霊の憑依で、腫れも、痙攣も、強烈な疲労感も蝮の毒の特徴であるから、気長に浄霊すれば必ず治る。<br><br>勿論薬毒も大いにあるから、いずれは浄化が起こるが、長く浄霊してるからたいしたことはない。<br><br>急所は頭脳を第一とし、腫れや痺（しび）れた所を第二とすれはいい。<br><br> （お伺） 昭和二十三年七月、神経痛をいろいろと御守護いただき入信さしていただいた者でございますが、昭和二十五年御神体、御屏風観音様を御奉斎いたし今日に及びましたところ、昨年五月ごろより左目がしだいに不明となり、八月ごろには右目も薄く見える程度になってまいりましたが、家人にも知らさず支部にまいり、ときどき御浄霊お願いしてましたが、十一月三日ごろ物につまずき、主人にも話したところ（主人とも四名入信）一応医師の診察を奨められ、そのままに医診を受けました。<br><br>医師は血液検査の結果「青そこひ」で視力〇・二と言われましたが、そのまま御浄霊をお願いいたしております。<br><br>最近では一間離れましても人の顔さえ判然といたしません。<br><br>御浄霊は眼の後ろおよび後頭部、延髄を主とし一日に支部にて二回、帰宅後家人にも御浄霊していただき、その都度涙のように二、三滴は出ますが目脂（めやに）までは出ません。<br><br>私はサフラン、中将湯の飲薬もそうとうやり、また死産のとき手術し、腎盂炎で出血多量のため母体保護のためと申し、人工流産させたことがあります。<br><br>なお今日にても月経があるほどの毒血の持ち主であります。<br><br> 御浄霊いただいておりましてこのように見えなくなってまいりましたのは、内部の毒血が浄化してまいり、外部に出てくるための一時的失明で、今後も続けてまいりましたとき必ず治るものでございましょうか。<br><br>霊的に思い当たることもございませんが、流産させた子供に対しましては位牌を作り祀っております。<br><br>浄霊者は力をぬくことに留意しておりますが、他に原因がございましょうか、お伺い申し上げます。<br><br> （御垂示） この人は後頭部から延髄付近にかけて固まりがあるから、それを溶かせば必ず治る。<br><br>しかしだいぶ性質の悪い薬毒のため、溶けにくいから気長にやりなさい。<br><br>いずれは涙か目脂が出るようになれば、少しずつよくなってゆく、霊的関係はない。<br><br> （お伺） 昭和二十五年八月入信、四十八歳の女でございます。<br><br>入信間もなく御屏風観音様を奉斎させていただき、昭和二十六年長女、二女と同時に入信、夫も昭和二十七年九月に入信いたしましたが、まだよくお道が分からず、また住宅の関係上、大光明如来様は御奉斎いたしておりません。<br><br>長男は未入信でお道に反対いたしてます。<br><br> 《御浄化の状態および経緯》 昭和十八年秋ごろ軽い咳をし始め、背筋が痛み出しましたので医師の診断を受けましたところ「肋膜に水が溜まってる」と言われ、すぐ青森市の病院に入院し約六カ月にして退院いたしました。<br><br>退院後二カ月にしてまた悪くなり、今度は○○病院に入院六カ月にして一応退院いたしましたが、また二カ月ほどで、ふたたび○○病院に入院七カ月くらいで退院しました。<br><br>退院時の体重は十八貫くらいありました。<br><br>退院後三カ月ほどして中耳炎となり、青森市の病院で手術を受けました。<br><br>その後四年間医薬を用いることなく家事をしておりましたが、昭和二十五年五月ごろ、咳が出始めたので同地の二人の医師よりの診断の結果、二人とも「気管が悪く、いまのところまだ肺は冒されていない」と言われ、幾日か治療受けましたが咳が止まりませんので、その旨医師に話しましたら、「劇薬」と言って注射しました。<br><br>一日くらい咳が止まりましたが翌日にはまた咳が出始め、同時に四十度くらいの熱が出ましたので床につき、氷冷しているところに信者さんがお出でになり、御浄霊をいただきましたら熱は下がりましたが咳は止まりませんでした。<br><br>しかしなんとなく身体が軽くなったように感じましたので御浄霊を続けましたら、二、三日で床を離れることができました。<br><br> 昭和二十三年来肺結核にて入院中の長男が、手術するとて看病に行き四十日間くらい御浄霊を休み、帰宅後ときどきいただき入信後も月並祭にお参りし御浄霊をいただいていました。<br><br> 昨年の春、中教会長先生よりの御浄霊中憑霊（狐霊）あり、その後の御浄霊中にも憑依しますが目的がはっきりいたさぬように感じられます。<br><br>話すことがまちまちで一致しません。<br><br>憑依しますと寒気がし、霊動いたします。<br><br>間もなく頭部、耳下腺、延髄などに三十九度くらいの熱が出、咽喉、胸部（気管）が苦しくなり、食欲が減り、したがってだんだん衰弱して現在の体重十一貫くらいになりました。<br><br> 昨夏より明主様の御教え通り、床についたり起きて食事などしておりますが、咳、咽喉、気管、腹（腸と思われます）にあまり変化がございません。<br><br>まだ寒気も霊動もときどきいたします。<br><br>御浄霊の箇所および、いかようにいたしましたらよろしゅうございましょうか、お伺い申し上げます。<br><br> （御垂示） それは肋膜に溜まった水が膿化し、だいぶ残っているのでそれを排泄するための咳であるから、痰が出るだけ出れば治るのは勿論だが、それまでに衰弱してはおもしろくないから、今後は絶対菜食にしなさい。<br><br>そうすれば衰弱しないで必ず早く治る。<br><br>浄霊箇所は無論肋膜を患った箇所で、この箇所を発見するには、息を深くして痛む所、または圧して痛い所、熱のある所で、触ってみればよく分かる。<br><br> （お伺） 信者（四十四歳、職業助産婦）の御浄化につきお伺い申し上げます。<br><br> 昭和二十五年七月入信、御屏風観音様御奉斎、そのころ二十六年三月、大光明如来様御奉斎させていただいています。<br><br> 七歳ごろ「はやり目」にて医療を受けましたところ、右眼に星ができ、しだいに近眼となり、十三歳ごろより眼鏡を掛け始めましたが、だんだんに度が進み、三十七歳ごろ非常に眼が痛みましたので医師の診察を受けましたところ「網膜剥離」と言われ手術いたしました。<br><br>その後間もなく右眼は失明し、なお黒目が左に片寄ってしまいました。<br><br>昨年五月ごろより左眼の視力が急におとろえ、明暗の判る程度となり、八、九月ごろ頭痛とともに全身浄化をいただき、そのころは御浄霊いたしますと急に見えたりいたしましたが、十一月初めごろよりいっこうに変化なく、ただいまではほとんど失明状態となりました。<br><br>両眼とも外見は失明しているようには見えません。<br><br>なお御浄霊いたしますと眼球がクルクルとまわり、パチッパチッと音がいたします。<br><br>最近金色または青色の角の生えた龍のようなものが、昼夜の別なくまた瞼（まぶた）を開けても閉じても見え、安眠できず頭が痺れたように感じると申します。<br><br>これはなにか霊的のものでございましょうか。<br><br>御浄霊は前、後頭部、頭部の天辺、眼、こめかみをいたしております。<br><br>右なにとぞ御守護御垂示賜りたくお願い申し上げます。<br><br> なお助産の仕事のほうは、会長先生からの御注意にて一時休むよう申しましたが、本人は懇望され断りきれず、ときどき取り上げさせていただき、その都度たいへん御守護をいただき、心より感謝申し上げております。<br><br> （御垂示） これは最初痛んだとき、ほうっておけば目脂が出て治るものを、医師にかかったため、手術をしたり、その薬毒のためとで、いわば医学の被害者である。<br><br>しかしいろいろ変化があるのは非常によいので、気長に浄霊すれば治るはずだが、ただどういう手術か分からないから、手術によっては全部治るかどうかは分からないが、不自由ないまでには治るはずである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Consultas e Orientações Divinas</h2>
 <p><strong>Pergunta:</strong> Respeitosamente, peço Vossa licença para submeter uma consulta. Sou a pessoa que, em 18 de dezembro de 1952, recebeu a permissão para entronizar a Imagem Divina Daikomyio Nyorai. Antes disso, em 1º de agosto do mesmo ano, eu havia encomendado ao montador, Sr. Mamoru Hirata, de 29 anos, a confecção de um kakejiku com as caligrafias “Daikomyio” e “Daijyoko”, que recebera anteriormente, e também com a caligrafia horizontal de “Kinryu”. O trabalho ficou pronto exatamente no dia da entronização, 18 de dezembro. Contudo, ao recebê-lo, notei que a extremidade do ideograma “Ryu” (Dragão), na caligrafia de “Kinryu”, estava rasgada verticalmente. Imediatamente, dirigi-me a Meishu-Sama, acompanhado do montador, para apresentar nossas desculpas. Rogo humildemente que nos perdoe por tamanha e lamentável irreverência. O montador alega que “o rasgo ocorreu na junção do papel de forro durante o processo de secagem”, mas sinto que possa haver alguma implicação espiritual no ocorrido e, por isso, Vos consulto. Adicionalmente, vim a saber posteriormente que o Sr. Mamoru Hirata é seguidor da religião Ananai-kyo há cerca de dois anos. Já solicitei que a caligrafia danificada seja removida. Qual seria o procedimento adequado para o seu descarte?</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p><strong>Orientação:</strong> A tosse é um processo para expelir o pus que se formou a partir do líquido acumulado na pleura. É evidente que, uma vez que todo o catarro seja eliminado, a cura virá. No entanto, não é bom que a senhora enfraqueça nesse processo. Portanto, de agora em diante, adote uma dieta estritamente vegetariana. Dessa forma, evitará o enfraquecimento e certamente se recuperará mais rápido. O ponto de Johrei, naturalmente, é a área que foi afetada pela pleurisia. Para localizá-lo, respire fundo e identifique onde dói, ou pressione a região para encontrar pontos doloridos ou febris; ao tocar, será fácil de perceber.</p>
 <p><strong>Pergunta:</strong> Venho consultar sobre a purificação de uma membro de 44 anos, que é parteira de profissão. Ela ingressou na fé em julho de 1950 e entronizou a Imagem de Kannon (観音). Em março de 1951, teve a permissão de entronizar a Imagem Divina Daikomyio Nyorai. Aos sete anos, ela contraiu conjuntivite e, devido ao tratamento médico, desenvolveu uma mancha no olho direito, tornando-se gradualmente míope. Aos treze anos, começou a usar óculos, mas o grau aumentava progressivamente. Aos trinta e sete anos, sentiu uma dor muito forte nos olhos e, ao consultar um médico, foi diagnosticada com “descolamento de retina” e submetida a uma cirurgia. Pouco tempo depois, o olho direito perdeu a visão, e a pupila se deslocou para a esquerda. Em maio do ano passado, a visão do olho esquerdo começou a se deteriorar rapidamente, chegando ao ponto de apenas distinguir o claro do escuro. Em agosto e setembro, ela passou por uma purificação generalizada, com dores de cabeça, e nessa época, ao receber Johrei, a visão retornava subitamente. Contudo, desde o início de novembro, não houve mais alteração, e hoje ela se encontra em um estado de quase cegueira total. A aparência externa de ambos os olhos não é a de um cego. Durante o Johrei, seus globos oculares giram rapidamente e emitem estalos. Recentemente, ela passou a ter visões, tanto de dia quanto de noite, de olhos abertos ou fechados, de algo semelhante a um dragão com chifres dourados ou azuis, o que a impede de dormir tranquilamente e lhe causa uma sensação de dormência na cabeça. Seria algo de natureza espiritual? O Johrei está sendo aplicado na parte frontal e posterior da cabeça, no topo da cabeça, nos olhos e nas têmporas. Rogo por Vossa proteção e orientação. Quanto ao seu trabalho de parteira, o responsável da Igreja a aconselhou a fazer uma pausa, mas ela atende a pedidos insistentes que não consegue recusar. A cada parto, ela tem recebido uma proteção imensa, pela qual expressa sua mais profunda gratidão.</p>
 <p><strong>Orientação:</strong> Esta pessoa é uma vítima da medicina. Quando a dor surgiu inicialmente, se ela não tivesse feito nada, a remela teria sido expelida e ela teria se curado. Em vez disso, procurou um médico, foi submetida a uma cirurgia e sofreu com o <em>yakudoku</em>. As diversas manifestações que ela apresenta são um sinal excelente. Se receber Johrei com paciência, deverá se curar. Contudo, como não sei que tipo de cirurgia foi realizada, não posso afirmar se a recuperação será completa, mas ela deverá melhorar o suficiente para não ter mais dificuldades em sua vida diária.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』44号、昭和28(1953)年1月25日発行 （お伺） 謹んでお許しいただき、お伺い申し上げます。<br/><br/>昭和二十七年十二月十八日、大光明如来様の御奉斎のお許しをいただいた者でございますが、これより以前に拝受いたしました「大光明」「大浄光」の御守り様と「金龍」の横の御書体を、二十七年八月一日、表具師平田護（二十九歳）に表装を願い、十二月十八日御奉斎の当日できあがってまいりました。<br/><br/>ところが「金龍」の御書体の「龍」の御文字の端が縦に破れておりました。<br/><br/>さっそく明主様に、表具師とともにお詫びいたしました。<br/><br/>たいへん申し訳なき御無礼をお許しくださるよう、お願い申し上げます。<br/><br/>表具師は「裏紙を貼って乾燥中に裏紙のつぎ目より破れた」と申しておりますが、なにか霊的御関係があるようにも思いますので、お伺い申し上げます。<br/><br/> なお平田護表具師は、後にて聞きましたが三五（あなない）教の信者で、二年くらいになるそうでございます。<br/><br/>破れた御書体は取りはずすよう頼んでおります。<br/><br/>処分はいかがいたしましたらよろしいでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> （御垂示） 破れが「龍」の文字にかかっていれば、お詫びして焼きなさい。<br/><br/>かかっていなければそのまま継いで表装してもよろしい。<br/><br/> （お伺） このたび妻の帰幽に際しまして、私の不注意から、私が以前いただきました大浄光の御守り様を、妻のいただいた緯の大光明の御守り様と思い違え、棺の中へ入れて持たせてやってしまい、取り返しのつかぬことをいたしました。<br/><br/> なにとぞお許しをお願いいたします。<br/><br/> なお、いかがさせていただけばよろしゅうございますか。<br/><br/> 御教示お願い申し上げます。<br/><br/> 右不注意の段お詫び申し上げます。<br/><br/> （御垂示） すんだものなら致し方ないから、それでよろしい。<br/><br/>心配するに及ばない。<br/><br/> （お伺） 私ども夫婦は、二十年より信仰に入れていただき、二十三年八月に光明如来様を御奉斎させていただき、愚息（本年二十五歳）にも無理に入信させましたためか信仰心なく、私どもの意にも添わなくて困っておりました。<br/><br/> 昨年十一月二十六日夜、金銭の問題から口論となり、あげくの果てに、恐れ多くも御神体に手を掛け、引き裂いてしまいました。<br/><br/> 私どもの不行き届きから、かかる不祥事を引き起こしまして、まことに申し訳なく、なんとお詫び申し上げましたらよろしいものか、途方に暮れております。<br/><br/>謹みてここにお詫びとお許しをお願い申し上げ、破損しました光明如来様の御書はいかがいたしましたらよろしゅうございましょうか、伏してお詫びとともに御教示をお願い申し上げます。<br/><br/>なお一日も早くお詫びがかなって、再度御神体をお迎えさせていただけます日の、一日も早からんことを御祈願申上げます。<br/><br/> （御垂示） これはたいへんな間違いをしたのである。<br/><br/>というのは、御子息を無理に入信させたためである。<br/><br/>信仰心の湧かない者を無理に入信させるのは、尊い神様に対し非常な御無礼になるので、神様は覚らせるために、御子息の手を通じて破られたのである。<br/><br/>いつも言う通り信仰には無理がもっともいけないのである。<br/><br/>しかしできたことは致し方ないから、よくお詫びをして焼き、新規にお受けすればそれでよろしいから、あまり悔んだりしないで、今後注意すれば神様はお赦しになるので、あまり心配しないようになさい。<br/><br/> （お伺） 現在日本の食糧事情によりますと、畑作を主にした農家においては、経済上より二毛作、三毛作をしている現状ですが、自然農法実施の場合、同一畑地に同一物の二毛作はお許しいただけるものでしょうか（例えば麦と薩摩芋だけ毎年繰り返し連作するような場合）右謹んでお伺いいたします。<br/><br/> （御垂示） それは土地や気候の関係もあるから、臨機応変にやればいい。<br/><br/> （お伺） 私は入信前昭和二十三年初めのころより、やや脚気的症状でございましたのが、漸次全身の筋肉の疲労感が高まり、ついに昭和二十四年六月入院する身となりました。<br/><br/>入院後あらゆる医学的療法を加え、医師も研究されましたがまったく病因不明で、「まあ内分泌系統らしい」とのことで、なんら得るところなく同年九月退院しました。<br/><br/> その後お道のことをうけたまわり、九月十九日より御浄霊をいただくようになりましたが、その日から床の中にて、ひとりでに手および足がピクピクと痙攣し始めたのでございます。<br/><br/>私はこのような反応が起こったことに、心中大いに不思議に思いまして、御浄霊を続けていただくうちに、たいへん御守護いただいて便所にも行かれるようにさせていただき、家内とも入信させていただき御屏風観音様を御奉斎申し上げ、二十六年には箱根にて明主様の御光をいただくことができるようにしていただきました。<br/><br/>その後時折疲労感が出ましても、その都度教会にて御浄霊いただいて治していただいておりました。<br/><br/> ところが二十七年春ごろより浄化を強くいただくようになり、御浄霊中、痙攣が起こるように変化してまいり肩、腕、腹、大腿部の筋肉が、あるときは次々に盛り上がるごとく、あるときはふつうではとても動かせないように筋肉だけが痙攣し、ピクピク動きます。<br/><br/>酷いときは約一寸くらいも盛り上がることもあります。<br/><br/> 十二月初めまでは右のような状態でも特別疲労感は強くございませんでしたが、十二月初めより非常に疲労を感ずるようになり、会社も休みもっぱら御浄霊をいただいています。<br/><br/>力は重い火鉢を寸時運べるほどあっても、はたき四、五回振ったり、半里近く歩くと、一日中動きまわったような疲労感があり、心臓の鼓動が非常に早くなってまいりますが、痙攣の御浄化のほかには、発熱その他の浄化作用はいっさいいただいていません。<br/><br/> これは全身にわたって溜まった薬毒のほかに、特に毒素集溜の急所があるものでございましょうか。<br/><br/>また、霊的関係がございましょうか。<br/><br/>私の知っております範囲では変死者はおりません。<br/><br/>御神体は二十七年十二月八日御奉斎させていただきました。<br/><br/>謹みて右お伺い申し上げます。<br/><br/> （御垂示） これは霊的であって蝮（まむし）に噛まれて死んだ霊である。<br/><br/>その霊の憑依で、腫れも、痙攣も、強烈な疲労感も蝮の毒の特徴であるから、気長に浄霊すれば必ず治る。<br/><br/>勿論薬毒も大いにあるから、いずれは浄化が起こるが、長く浄霊してるからたいしたことはない。<br/><br/>急所は頭脳を第一とし、腫れや痺（しび）れた所を第二とすれはいい。<br/><br/> （お伺） 昭和二十三年七月、神経痛をいろいろと御守護いただき入信さしていただいた者でございますが、昭和二十五年御神体、御屏風観音様を御奉斎いたし今日に及びましたところ、昨年五月ごろより左目がしだいに不明となり、八月ごろには右目も薄く見える程度になってまいりましたが、家人にも知らさず支部にまいり、ときどき御浄霊お願いしてましたが、十一月三日ごろ物につまずき、主人にも話したところ（主人とも四名入信）一応医師の診察を奨められ、そのままに医診を受けました。<br/><br/>医師は血液検査の結果「青そこひ」で視力〇・二と言われましたが、そのまま御浄霊をお願いいたしております。<br/><br/>最近では一間離れましても人の顔さえ判然といたしません。<br/><br/>御浄霊は眼の後ろおよび後頭部、延髄を主とし一日に支部にて二回、帰宅後家人にも御浄霊していただき、その都度涙のように二、三滴は出ますが目脂（めやに）までは出ません。<br/><br/>私はサフラン、中将湯の飲薬もそうとうやり、また死産のとき手術し、腎盂炎で出血多量のため母体保護のためと申し、人工流産させたことがあります。<br/><br/>なお今日にても月経があるほどの毒血の持ち主であります。<br/><br/> 御浄霊いただいておりましてこのように見えなくなってまいりましたのは、内部の毒血が浄化してまいり、外部に出てくるための一時的失明で、今後も続けてまいりましたとき必ず治るものでございましょうか。<br/><br/>霊的に思い当たることもございませんが、流産させた子供に対しましては位牌を作り祀っております。<br/><br/>浄霊者は力をぬくことに留意しておりますが、他に原因がございましょうか、お伺い申し上げます。<br/><br/> （御垂示） この人は後頭部から延髄付近にかけて固まりがあるから、それを溶かせば必ず治る。<br/><br/>しかしだいぶ性質の悪い薬毒のため、溶けにくいから気長にやりなさい。<br/><br/>いずれは涙か目脂が出るようになれば、少しずつよくなってゆく、霊的関係はない。<br/><br/> （お伺） 昭和二十五年八月入信、四十八歳の女でございます。<br/><br/>入信間もなく御屏風観音様を奉斎させていただき、昭和二十六年長女、二女と同時に入信、夫も昭和二十七年九月に入信いたしましたが、まだよくお道が分からず、また住宅の関係上、大光明如来様は御奉斎いたしておりません。<br/><br/>長男は未入信でお道に反対いたしてます。<br/><br/> 《御浄化の状態および経緯》 昭和十八年秋ごろ軽い咳をし始め、背筋が痛み出しましたので医師の診断を受けましたところ「肋膜に水が溜まってる」と言われ、すぐ青森市の病院に入院し約六カ月にして退院いたしました。<br/><br/>退院後二カ月にしてまた悪くなり、今度は○○病院に入院六カ月にして一応退院いたしましたが、また二カ月ほどで、ふたたび○○病院に入院七カ月くらいで退院しました。<br/><br/>退院時の体重は十八貫くらいありました。<br/><br/>退院後三カ月ほどして中耳炎となり、青森市の病院で手術を受けました。<br/><br/>その後四年間医薬を用いることなく家事をしておりましたが、昭和二十五年五月ごろ、咳が出始めたので同地の二人の医師よりの診断の結果、二人とも「気管が悪く、いまのところまだ肺は冒されていない」と言われ、幾日か治療受けましたが咳が止まりませんので、その旨医師に話しましたら、「劇薬」と言って注射しました。<br/><br/>一日くらい咳が止まりましたが翌日にはまた咳が出始め、同時に四十度くらいの熱が出ましたので床につき、氷冷しているところに信者さんがお出でになり、御浄霊をいただきましたら熱は下がりましたが咳は止まりませんでした。<br/><br/>しかしなんとなく身体が軽くなったように感じましたので御浄霊を続けましたら、二、三日で床を離れることができました。<br/><br/> 昭和二十三年来肺結核にて入院中の長男が、手術するとて看病に行き四十日間くらい御浄霊を休み、帰宅後ときどきいただき入信後も月並祭にお参りし御浄霊をいただいていました。<br/><br/> 昨年の春、中教会長先生よりの御浄霊中憑霊（狐霊）あり、その後の御浄霊中にも憑依しますが目的がはっきりいたさぬように感じられます。<br/><br/>話すことがまちまちで一致しません。<br/><br/>憑依しますと寒気がし、霊動いたします。<br/><br/>間もなく頭部、耳下腺、延髄などに三十九度くらいの熱が出、咽喉、胸部（気管）が苦しくなり、食欲が減り、したがってだんだん衰弱して現在の体重十一貫くらいになりました。<br/><br/> 昨夏より明主様の御教え通り、床についたり起きて食事などしておりますが、咳、咽喉、気管、腹（腸と思われます）にあまり変化がございません。<br/><br/>まだ寒気も霊動もときどきいたします。<br/><br/>御浄霊の箇所および、いかようにいたしましたらよろしゅうございましょうか、お伺い申し上げます。<br/><br/> （御垂示） それは肋膜に溜まった水が膿化し、だいぶ残っているのでそれを排泄するための咳であるから、痰が出るだけ出れば治るのは勿論だが、それまでに衰弱してはおもしろくないから、今後は絶対菜食にしなさい。<br/><br/>そうすれば衰弱しないで必ず早く治る。<br/><br/>浄霊箇所は無論肋膜を患った箇所で、この箇所を発見するには、息を深くして痛む所、または圧して痛い所、熱のある所で、触ってみればよく分かる。<br/><br/> （お伺） 信者（四十四歳、職業助産婦）の御浄化につきお伺い申し上げます。<br/><br/> 昭和二十五年七月入信、御屏風観音様御奉斎、そのころ二十六年三月、大光明如来様御奉斎させていただいています。<br/><br/> 七歳ごろ「はやり目」にて医療を受けましたところ、右眼に星ができ、しだいに近眼となり、十三歳ごろより眼鏡を掛け始めましたが、だんだんに度が進み、三十七歳ごろ非常に眼が痛みましたので医師の診察を受けましたところ「網膜剥離」と言われ手術いたしました。<br/><br/>その後間もなく右眼は失明し、なお黒目が左に片寄ってしまいました。<br/><br/>昨年五月ごろより左眼の視力が急におとろえ、明暗の判る程度となり、八、九月ごろ頭痛とともに全身浄化をいただき、そのころは御浄霊いたしますと急に見えたりいたしましたが、十一月初めごろよりいっこうに変化なく、ただいまではほとんど失明状態となりました。<br/><br/>両眼とも外見は失明しているようには見えません。<br/><br/>なお御浄霊いたしますと眼球がクルクルとまわり、パチッパチッと音がいたします。<br/><br/>最近金色または青色の角の生えた龍のようなものが、昼夜の別なくまた瞼（まぶた）を開けても閉じても見え、安眠できず頭が痺れたように感じると申します。<br/><br/>これはなにか霊的のものでございましょうか。<br/><br/>御浄霊は前、後頭部、頭部の天辺、眼、こめかみをいたしております。<br/><br/>右なにとぞ御守護御垂示賜りたくお願い申し上げます。<br/><br/> なお助産の仕事のほうは、会長先生からの御注意にて一時休むよう申しましたが、本人は懇望され断りきれず、ときどき取り上げさせていただき、その都度たいへん御守護をいただき、心より感謝申し上げております。<br/><br/> （御垂示） これは最初痛んだとき、ほうっておけば目脂が出て治るものを、医師にかかったため、手術をしたり、その薬毒のためとで、いわば医学の被害者である。<br/><br/>しかしいろいろ変化があるのは非常によいので、気長に浄霊すれば治るはずだが、ただどういう手術か分からないから、手術によっては全部治るかどうかは分からないが、不自由ないまでには治るはずである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

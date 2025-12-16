@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yobou1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 予防接種と結核 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 この論文は、現在政府が絶対的信念の下に行われている医学的方策を非難するという意味になるのでかきたくはないが、余りの迷蒙に看過する事が出来ないから書いたのであるから先入観念に捉われる事なく一の学説として参考とされん事である、これを信ずると否とは観る人の自由であるからである。<br><br> 今日伝染病と称するもの、例えば天然痘、麻疹、百日咳、ジフテリヤ、チフスを初め、数多い種類があるが、それら防止手段として予防接種を行うが、なるほどこれによって一時的発病を喰止め得ても発病を絶対阻止する事は不可能である。<br><br> 吾らの持論である病気とは何人も必ず保有している体内毒素の排除作用であるから、病気こそ体内を清浄化する天与の健康増進法であるに対し、医学はこれを逆に解釈し、その浄化活動を停止するを可とする。<br><br>それが予防接種である。<br><br>元来伝染病なるものは旺盛なる浄化作用であるから年少者に多いのである。<br><br>何となれば発育盛りの小児は新陳代謝が旺盛であるから発育の障害物である毒素排泄の浄化活動が起りやすいのは当然で、実に天の恵といわなくてはならない。<br><br>しかるに何ぞや医学はこの結構な浄化活動を弱らせようとする。<br><br>それには薬剤その他の異物を体内に注入して衰弱させるのである。<br><br>これによって弱体化した児童は御拵〔誂〕え通り浄化作用すなわち病気が起り得なくなるから医学は効を奏したと誤認し、今日のごとき予防接種を旺（さか）んに行うようになったので、その誤謬たるや評すべき言葉はないのである。<br><br>従ってせっかく排除さるべき毒素をそのままに保存するばかりか、新しく薬毒を追加するので、毒素はいよいよ増量するが、弱体化した児童は強力な浄化が起り得ないため、精々感冒くらいが頻繁に起るのである。<br><br>ところがこれだけならいいとしても、実はこれが恐るべき結核の原因となる事である。<br><br>ここで一言いうが、感冒とは微弱な浄化ではあるが、ともかく喀痰、鼻汁、発汗等によって体内毒素は緩慢ながら排泄されるが、医学は逆に解釈し、停止手段を行うその結果結核に転化する事は、結核の項目に説いた通りである。<br><br> 以上のごとくであるから、今日、盛んに行われている予防接種こそ全く結核の種蒔きという訳になるから、これに目覚めない限り結核は減るどころか、益々蔓延するのである。<br><br> しかるに、本教浄霊による時、その治癒の速かなる驚く程であると共に、ほとんど生命に危険を及ぼす事は滅多にないのでその効果の的確迅速なる事は、たとえていえば、赤痢は一回二、三十分の浄霊二、三回で全治するから、半日で完全に治癒する訳である。<br><br>チフスにしても一日ないし三日間で全治する。<br><br>疫痢、猩紅熱（しょうこうねつ）等も同様である。<br><br>ジフテリヤは注射を受けないとすれば一、二回で全治する。<br><br>百日咳は一、二週間とみればいい。<br><br>これをみた人は恐らく信じられまいが、事実であるから致し方ない。<br><br>この事実はおかげ話を見れば想像がつくであろう。<br><br>ゆえに浄霊が一般に行われるようになったら伝染病は何分の一に減少するであろう。<br><br> 以上のごとき画期的神医学は病理も治療の方法も、既に完成している事でこれを知らない人達は迷信と断じ、一顧だも与えないのであるから、その人達こそ吾らから見れば恐るべき迷信に掛っているといえよう。<br><br> ああ、右の啓蒙こそ実に難事である。<br><br>何となれば非迷信を迷信と思い込んでいる、その根強さであるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Vacinação e a Tuberculose</h2>
 <p>Embora relute em redigir este ensaio, pois ele representa uma crítica às políticas médicas implementadas pelo governo sob uma fé inabalável, sinto-me compelido a fazê-lo, por não poder ignorar o profundo obscurantismo vigente. Rogo, portanto, que o leitor o analise sem preconceitos, como uma tese a ser considerada, pois a liberdade de crer ou descrer pertence inteiramente a quem o lê.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Por outro lado, quando se recorre ao Johrei de nossa Igreja, a rapidez da cura é assombrosa, e raramente há risco de vida, tamanha a precisão e a celeridade de seus efeitos. A título de exemplo, a disenteria é completamente curada com duas ou três aplicações de Johrei de vinte a trinta minutos cada, o que significa a recuperação total em meio dia. O tifo, por sua vez, é sanado em um a três dias. O mesmo se aplica à disenteria infantil, à escarlatina e a outras enfermidades. A difteria, caso o paciente não tenha recebido a injeção, é curada com uma ou duas aplicações. Para a coqueluche, a recuperação leva de uma a duas semanas. É provável que o leitor não acredite em tais afirmações, mas, sendo elas fatos, não há como negá-las. A veracidade desses relatos pode ser vislumbrada por meio dos testemunhos de fé. Assim, quando o Johrei se difundir amplamente, as doenças contagiosas diminuirão a uma fração do que são hoje.</p>
 <p>Esta revolucionária Medicina Divina, cujos princípios patológicos e métodos terapêuticos já se encontram plenamente estabelecidos, é desconhecida pela maioria. Aqueles que a ignoram, rotulam-na de superstição e não lhe dedicam a menor atenção. Sob nossa ótica, são precisamente essas pessoas que se encontram presas a uma temível superstição.</p>
 <p>Ah, como é árdua a tarefa de promover tal esclarecimento! A razão para tal dificuldade reside na convicção arraigada com que se considera superstição aquilo que, em essência, não o é.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 予防接種と結核 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 この論文は、現在政府が絶対的信念の下に行われている医学的方策を非難するという意味になるのでかきたくはないが、余りの迷蒙に看過する事が出来ないから書いたのであるから先入観念に捉われる事なく一の学説として参考とされん事である、これを信ずると否とは観る人の自由であるからである。<br/><br/> 今日伝染病と称するもの、例えば天然痘、麻疹、百日咳、ジフテリヤ、チフスを初め、数多い種類があるが、それら防止手段として予防接種を行うが、なるほどこれによって一時的発病を喰止め得ても発病を絶対阻止する事は不可能である。<br/><br/> 吾らの持論である病気とは何人も必ず保有している体内毒素の排除作用であるから、病気こそ体内を清浄化する天与の健康増進法であるに対し、医学はこれを逆に解釈し、その浄化活動を停止するを可とする。<br/><br/>それが予防接種である。<br/><br/>元来伝染病なるものは旺盛なる浄化作用であるから年少者に多いのである。<br/><br/>何となれば発育盛りの小児は新陳代謝が旺盛であるから発育の障害物である毒素排泄の浄化活動が起りやすいのは当然で、実に天の恵といわなくてはならない。<br/><br/>しかるに何ぞや医学はこの結構な浄化活動を弱らせようとする。<br/><br/>それには薬剤その他の異物を体内に注入して衰弱させるのである。<br/><br/>これによって弱体化した児童は御拵〔誂〕え通り浄化作用すなわち病気が起り得なくなるから医学は効を奏したと誤認し、今日のごとき予防接種を旺（さか）んに行うようになったので、その誤謬たるや評すべき言葉はないのである。<br/><br/>従ってせっかく排除さるべき毒素をそのままに保存するばかりか、新しく薬毒を追加するので、毒素はいよいよ増量するが、弱体化した児童は強力な浄化が起り得ないため、精々感冒くらいが頻繁に起るのである。<br/><br/>ところがこれだけならいいとしても、実はこれが恐るべき結核の原因となる事である。<br/><br/>ここで一言いうが、感冒とは微弱な浄化ではあるが、ともかく喀痰、鼻汁、発汗等によって体内毒素は緩慢ながら排泄されるが、医学は逆に解釈し、停止手段を行うその結果結核に転化する事は、結核の項目に説いた通りである。<br/><br/> 以上のごとくであるから、今日、盛んに行われている予防接種こそ全く結核の種蒔きという訳になるから、これに目覚めない限り結核は減るどころか、益々蔓延するのである。<br/><br/> しかるに、本教浄霊による時、その治癒の速かなる驚く程であると共に、ほとんど生命に危険を及ぼす事は滅多にないのでその効果の的確迅速なる事は、たとえていえば、赤痢は一回二、三十分の浄霊二、三回で全治するから、半日で完全に治癒する訳である。<br/><br/>チフスにしても一日ないし三日間で全治する。<br/><br/>疫痢、猩紅熱（しょうこうねつ）等も同様である。<br/><br/>ジフテリヤは注射を受けないとすれば一、二回で全治する。<br/><br/>百日咳は一、二週間とみればいい。<br/><br/>これをみた人は恐らく信じられまいが、事実であるから致し方ない。<br/><br/>この事実はおかげ話を見れば想像がつくであろう。<br/><br/>ゆえに浄霊が一般に行われるようになったら伝染病は何分の一に減少するであろう。<br/><br/> 以上のごとき画期的神医学は病理も治療の方法も、既に完成している事でこれを知らない人達は迷信と断じ、一顧だも与えないのであるから、その人達こそ吾らから見れば恐るべき迷信に掛っているといえよう。<br/><br/> ああ、右の啓蒙こそ実に難事である。<br/><br/>何となれば非迷信を迷信と思い込んでいる、その根強さであるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271207</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月7日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月七日 最初に時局について少し話してみたいと思います。<br><br>われわれ国民が直接一番脅威を受けているのはスト問題です。<br><br>炭労ストに電産ストです。<br><br>それで今度のは今までに例がなく、いつまでも解決がつかないのです。<br><br>まあ彼らはスト気違いです。<br><br>よくスットン狂と言いますが、これがそれによく当てはまってます。<br><br>スト狂です。<br><br>いずれは解決がつくでしょうが、よしんば解決してもそれですんだわけではないので、ただ一時的でいずれはまた次から次へと始まるのは勿論です。<br><br>ところが、永久にストが起らないようにすることもわけはありません。<br><br>ストの原因のもっとも中心はなにかというと、労働者の方は少しでも多く賃金とか手間賃をもらおうとするし、資本家の方では少しでも出さないようにする、少なくするようにする、というその衝突なのです。<br><br>ですからちょうど欲張り同士の喧嘩です。<br><br>これはちょうど獣が、底の方に肉の塊りがあるとすると、それを一匹が食おうとすると、ほかの仲間のものが食わせまいとして自分の方に取る。<br><br>ですから肉を取る方法で争っているのと同じことです。<br><br>つまり自分だけが懐に多く入れようとして、人にやるまいとする。<br><br>それが人間の形をしているから、まさか爪や歯をむき出してやるわけにはいかないから、そこにいろんな理屈をつけてやってますが、根本は同じことです。<br><br>ですからまだ人間までに進化してないのです。<br><br>獣性がそうとうあるのです。<br><br>獣性で、濁っているわけです。<br><br>それで文明世界といっていばってますが、実にあさましい人間どもだというわけです。<br><br>それではどうして解決するかというと、これは信仰よりほかにありません。<br><br>その信仰というものは人間の欲望の制限ができるのです。<br><br>自己愛という、自分だけ良ければ人はどうでもいいという思想、考え方というものが、むしろ反対になるのです。<br><br>まず自分の利益を考えないで、人の利益を考えるという利他愛の思想が信仰の根本ですから、その考えでやれば、労働者は大いに働いて良い物を作って、単価を安くして売れるようにする。<br><br>それから資本家の方では、儲かれば彼らに利益を分配するというように考えるのです。<br><br>それで両方がそうなれば、明日からでもすぐに解決するのです。<br><br>解決するどころでなく、そのために事業は非常に繁栄します。<br><br>輸出品というようなものでも、良い物が安くできるのですから世界一になります。<br><br>そうしてたくさんできますから、税金なども楽に払えるばかりでなく、国家としてもよけいな金はいらないから、国の台所がずっと楽になりますから、税金問題というものもなくなってしまいます。<br><br>国民の方では言われないうちに税金を収めたいということになります。<br><br> ですから、そういう結構なことにするのはわけはありません。<br><br>ただ自己愛と利他愛をちょっと向きを変えればいいのです。<br><br>かえってその方が楽で易しいのです。<br><br>これはストなどの方がよほど難しくて骨が折れます。<br><br>どっちもウンスウンス言ってたいへんな騒ぎです。<br><br>われわれ人間から見ると、人間というと変な言い方ですが、実際がこっちは人間と思っているのです。<br><br>先方はまだ人間とは言えません。<br><br>だからわれわれ人間から見ると実にかわいそうなものです。<br><br>やっぱり道端で犬が噛み合っているのと違いないくらいのものです。<br><br>ところがそんな結構な信仰というものを、低級だとか迷信だとか科学的でないとかなんとか言って、偉い人やジャーナリストたちが批判したり嘲笑したりしているのです。<br><br>しかしそれはそうかもしれません。<br><br>獣から見れば、人間はなんと間抜けな奴だろう、オレたちは山でも谷でも一遍に飛び越えてしまうのに、人間という奴は二本足で一生懸命に駆け出しても、じきに息がきれてしまって情けない奴らだ、と思うか思わないか分からないが、そんなものだろうと思います。<br><br>だから結局信仰の目的……というよりか、救世教の目的というのは、まだ人間になりきってない動物を、早く人間にしようというその仕事なのです。<br><br>つまりいつも言うとおり、今の人間は文化的野蛮人です。<br><br>それで文化的文明人と文化的野蛮人と両方あります。<br><br>今のいろんなものは、それは便利になって文化的です。<br><br>しかし考え方やすることは野蛮人と同じです。<br><br>ですから文化的野蛮人です。<br><br>それで野蛮性ということは獣性がまだ残っているのです。<br><br>それで上面は文化性になってますが、中身にまだ残っているのです。<br><br>ですからその濁りを取り去る、取ってしまうというのがわれわれの仕事です。<br><br>ところが取られるのはなにかと言うと、やっぱり副守護神という生きている霊ですが、これは取られるのが怖いのです。<br><br>取らなくてもそういった獣性の因が萎縮すればいいので、いばらなければいいのですが、それがつらいから人間を反対させておどらせるのです。<br><br>いろんな妨害というか、自分をやっつけそうな神様に触れてはたいへんだから、触れないように一生懸命自己擁護しているわけです。<br><br>それで今までは自己擁護もできたのです。<br><br>それで彼らの一番恐ろしいのは光なのです。<br><br>そこで私が光を神様からもらったので、それで彼らは非常に脅威を感じるのです。<br><br>だからやっつけてしまおうと思って、今までいろんな手でやったのですが、だんだん自分たちの方が負けてきたのです。<br><br>それで彼らの負けただけはこっちが勝つのですから、それだけ発展していくのです。<br><br>それでもまだまだ彼らの方でもなかなか妨害しようと思ってやってはいます。<br><br>けれどもだんだんそういったように、こっちが勝ちつつありますからいいのです。<br><br>それで昔からいろんな宗教で、キリストや釈迦とか偉い人がいろいろ出ましたが、つまり光がごく薄かったのです。<br><br>そのために徹底的な迫害にあって、生きているうちにほとんどやられて、死んでから何年もたってからやっと芽が出るという有様ですが、私の光はつまり太陽の光で強いのですから、生きているうちに勝ってしまうというわけです。<br><br>それでスト問題なども、今言ったとおり野蛮性のために自己愛を制御できない、それで解決しないのです。<br><br>だから結局ストを解決し、人間社会からなくするのは信仰よりほかにない。<br><br>そういうことを今書いてますが、この次の『栄光』に出します。<br><br>だから出たら、そういうことに関係した人に大いに読ませるようにしてもらいたいと思います。<br><br> それから私が神様を拝まない理由をちょっと書いてみたのです。<br><br> （御論文「私が神様を拝まぬ理由」）【地上天国 四十三号】 それからもう一つ時局について話したいことは、今度アイゼンハウアーが朝鮮を見に来たのですが、これは新聞にも出てますからよく知っているでしょうが、朝鮮問題がこのままではきりがない。<br><br>それできりがないだけでなく、時の進むに従って共産側の方が有利になるのです。<br><br>なにしろソ連の方の兵隊は一人も出ないで、全部中共とか、あるいは北鮮の人間が犠牲になっているのです。<br><br>ですから、ソ連は武器さえ貸してやればいいのです。<br><br>しかも武器を貸すにしても距離の点において非常に有利です。<br><br>北鮮まで武器を送るのはわけはない。<br><br>シベリア鉄道を利用すればすぐですから、非常に戦争の暇がかかりません。<br><br>それに引き替えてアメリカの方は遠くから運ぶことと、それからアメリカの兵隊は今でも一カ月に千人は死ぬのですから、アメリカ人の中でも、その点をなんとかしてもらいたいという考えが非常にあるのです。<br><br>そこでアイゼンハウアーが大統領選挙の時に、自分が当選したらすぐに朝鮮に行って良く視察して解決するということと、できるだけアメリカ人を使わないように、韓国軍を訓練して前線に立たせる、というそのことが一番有力な方針で国民が動いたわけです。<br><br>ですからその言質を実行すべく今度朝鮮に飛んだのです。<br><br>しかし誰にも知れないようにうまくやったすばしこさは、私は非常にいいと思っているのです。<br><br>アイゼンハウアーという人は見込みがあるようにも思われます。<br><br>これがふつうですと大いに歓迎されて大いばりで行きたいところですが、それをぜんぜん逆のああいったやり方は、要するに気が利いてます。<br><br>とにかく人間はすばしこくなければいけません。<br><br>つまり結局においてなにごとも競争ですから、やっぱりマラソンで駆けるようなもので、早い奴が勝利を得るようなものです。<br><br>とにかくなんでも、すばしこく早く運ぶ、ということが成功の一番の秘訣です。<br><br>ですから私などはその点において大いに誇りとしているのです。<br><br>それで早過ぎていつも困るのです。<br><br>明主様はまだあそこにおいでになっておられないだろうと思ってゆっくりしていると、とうに行っているのでびっくりすることがあるのです。<br><br>その私の素早さがいろいろな面に得をしているのです。<br><br>ですからよく「これからこういうようにしたら良いと思いますが」とか「こうしたら」ということを言ってきますが、私はとうにやっていることです。<br><br>そういうことを考えてみて、今度アイゼンハウアーが朝鮮に行ったやり方は、なかなかおもしろいと思います。<br><br>そんなことはたいしたことではないが、とにかくアイクの目的というものは、戦争を早く片づけなければならない。<br><br>片づけるとすると武力によるよりしようがないから、これから大いに軍備を強調するだろうと思います。<br><br>それについても肝腎なのは日本ですから、日本がよほどしっかりしないと、アメリカが思いきってやる上においても具合が悪いですから、そこであるいは日本の軍備を急速に大いに充実させるかもしれません。<br><br>ですから再軍備反対ということも、これからは蚊の泣くようなものです。<br><br>そんなことはてんで問題になりません。<br><br>火事で、燃えてきたのにポンプの仕度などしないでもいい、というような話になってしまいます。<br><br>そんなわけで、韓国軍は非常に猛烈な訓練をしてます。<br><br>李承晩（りしょうばん）が言った言葉が昨日の新聞に出てましたが、韓国軍だけで北鮮に進撃することができるということを言ってます。<br><br>それで李承晩は、自分はどうしても朝鮮を合併してみせる、そうしてやはり北鮮を取り入れてしまう、そのくらいの力はもうできている、というようなことを言ってましたが、実に意外に強硬なのです。<br><br>そこでアイクの方針は無論中国全土に向かって攻撃をやるだろうと思います。<br><br>満州爆撃、沿岸封鎖、それから韓国軍の進撃、それを一挙にやるのではないかと思います。<br><br>そうすると中国はふたたび大動乱になるわけです。<br><br>しかしこれは神様の方でもそういうようになっているらしいのです。<br><br>というのは、中国に大いに救いの活動が始まるのが近くなっているのです。<br><br>朝鮮は無論のことです。<br><br> それで日本が五で、朝鮮が六で、支那が七ですから、この三つがまず救われなければならない。<br><br>それについて最近台湾に本部がある世界紅卍字会という、これはたいてい知っているでしょうが、あそこで援助してくれということを申し込んできたのです。<br><br>一昨日五人くらい来ました。<br><br>もっともその前にも来たことがあります。<br><br>そこである程度は私も話してやりました。<br><br>ところが先方の目的はちょっとくい違いがあるので、時期が早いからもう少し熟してからと思って、もう少し待て、急いではいかん、ということを言っておきました。<br><br>向こうは元満州で非常に成功して、中共以前の溥儀（ふぎ）の時代には要人の間に信者がそうとうできて、それはたいしたものだった。<br><br>ところが中共になってからは危険になってきたのです。<br><br>それで幾人かは犠牲で死刑になった人があるようです。<br><br>そういうわけで急遽台湾にのがれたのです。<br><br>そうして今本部をつくろうとしてますが、それを援助してくれというようなことを言ってます。<br><br>私の方では台湾につくってもしようがない。<br><br>いずれ始まれば台湾は空襲されるかもしれないから「よせ」と言ってやるつもりです。<br><br>そういうようで、台湾でなんとか旗挙げしようと思ったところが、また具合が悪いことには蒋介石がキリスト教に力を入れるというよりか、アメリカの援助を受けてともかく生きているのですから、どうしてもアメリカの御機嫌を取らなければならない。<br><br>それにはまずキリスト教を大いに立てなければ具合が悪いので、そこで国府軍のそうとう偉い人でもクリスチャンであるようです。<br><br>宋美齢もそうです。<br><br>それから蒋介石の親戚の汪精衛も非常に熱心なクリスチャンだそうです。<br><br>そういうようで、ほかの宗教を弾圧はしないまでも、宣伝するとか弘めるということは嫌っているのです。<br><br>そこで紅卍字会も台湾ではどうにもできないので、日本に本部をつくって紅卍字会を大いに日本で発展させたいという考えです。<br><br>それは「フーチ」というのに出たのです。<br><br>それで今度来たのです。<br><br>そのフーチで日本の新宗教を土台にしろということが出ているので来たところが、結局新宗教中では救世教よりほかにないのです。<br><br>というのは、二十年ばかり以前に紅卍字会は日本に来て、大本教と提携していろいろやり始めたのですが、そのうちに大本教が弾圧をくったので、その後ぜんぜん縁が切れたのです。<br><br>しかしその時代の大本教の幹部の者はそうとう知ってます。<br><br>それで生長の家の谷口さんは、大本教の幹部ではあったが、紅卍字会と提携する時はほとんど脱会していました。<br><br>それでそれを知っているのは、近ごろできた静岡県の三五教（あなない）の会長の中野さんはよく知ってます。<br><br>そういうようでほかの新宗教にいくらか働きかけたのですが相手にされないので、結局私の方にぜひという話になってきたのです。<br><br> しかしさっきから話したように中国の大掃除をやらなければならない。<br><br>こっちがやるのはつまり建設の方ですから、破壊がすまなければならない。<br><br>そうして私の目的というものは、中国を救うのに紅卍字会を働かせようと思ってます。<br><br>救世教の中国救済出張所というようなわけなのです。<br><br>だから今のところは先様が日本で紅卍字会を大いに発展させようという考えとは、大いにくい違いがあるのです。<br><br>しかしそれをすぐに言ったところで分からないから、ゆっくりと彼らに分からせるようにするつもりです。<br><br>そうして結局破壊と建設ですが、建設するのは大いに建設し、大掃除もしなければならない。<br><br>それで日本もこの間の太平洋戦争で大いに爆撃されたり、いろんなことでそうとう掃除ができましたから、そこで救世教が日本に大いに発展されるような段取りになったわけです。<br><br>ですから終戦後ようやく信教の自由ということで宗教的の活動が自由になって、予定どおりになりつつあります。<br><br>そういうようで中国も大掃除をされるのです。<br><br>大掃除をされるとすれば、今度アイクが大統領になってから中国を大掃除するという段取りになるのです。<br><br>それにはどうしても二、三年はかかるとみなければならない。<br><br>ですから紅卍字会の連中にも二、三年待て、そうして今のところはつなぎ程度にして、積極的の活動ということはまだ早いからと言ってやりました。<br><br>そういうようなわけで中国の大掃除が始まるのです。<br><br>なぜといって、今のように中共が政権を握っているようでは、宗教宣伝はぜんぜんできませんから、どうしても中共がアメリカの権利になって、日本のように信教の自由を許すということになって、初めて積極的に活動ができるのです。<br><br>それまで待つよりありません。<br><br>またそうならなければ中国は救われません。<br><br>それで神様はちゃんとそういう順序でされます。<br><br>そう言えばなかなか簡単ですが、それまでは中国全土はなかなかたいへんです。<br><br>それを待っていればいいわけです。<br><br>そういうようなわけですから、これから北鮮から満州にかけてそうとう大きな戦争になってきます。<br><br>といってもこれは第三次戦争にはならないと思います。<br><br>なぜというと、ソ連はある時期にいくと中共を見放してしまうだろうと思います。<br><br>それは今第三次戦争をしてもソ連に勝ち目はありません。<br><br>それは武器の点からいってもアメリカの方がずっと優秀ですから、それはスターリンとしても手は出さないというわけだから、結局今言った範囲くらいでおさまると思います。<br><br>それは前から分かっていたのです。<br><br>トルーマンという人が非常に石部金吉（いしべきんきち）でただ堅く消極的で、事なかれ主義をやっていたために後れたのです。<br><br>しかし後れたりと言えども、まだまだ充分勝てるのです。<br><br>これは前にも言ったとおり、マッカーサーの案と同じなのです。<br><br>ですからあの時にやればもっと楽にいったのです。<br><br>楽にいったわけだが、しかし神様の方から言うとあの時では早過ぎたのです。<br><br>そういうようなわけです。<br><br>それを頭に入れておけば、これからの時局の見当が大体つくわけです。<br><br>それと日本に対する共産主義の活動ですが、結局、電産問題でも炭労問題でも、奥の奥は共産党の手が動いているのです。<br><br>そこで今言ったとおり朝鮮問題が解決するとすれば、その点においても非常に有利だと思います。<br><br>もう一つは日本の再軍備ですが、来年あたりから大いに積極的になるだろうと思います。<br><br>あるいは徴兵制度なども布（し）かれるかも分かりません。<br><br>それから朝鮮に兵隊を送るようにならなければならないかもしれません。<br><br>これはあらかじめ覚悟しておかなければなりません。<br><br>それは日本が出兵するとともにフィリピンも出兵し台湾も出兵するでしょう。<br><br>それで一挙にやってしまおうという戦略かもしれません。<br><br>アイゼンハウアーという人はその点なかなか勝れた手腕を持ってますから、安心して可なりというわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza Humana e a Missão Divina em Meio às Crises Mundiais</h2>
 <p>Gostaria de iniciar abordando brevemente a conjuntura atual. A maior ameaça que nós, cidadãos japoneses, enfrentamos diretamente é a questão das greves, notadamente as dos trabalhadores das minas de carvão e das companhias de eletricidade. O impasse atual, contudo, não tem precedentes e parece não ter solução à vista. Seus promotores são verdadeiros obsessos por greves; a expressão popular que os descreve como “loucos por paralisações” lhes assenta com perfeição. Embora algum acordo venha a ser firmado, será meramente temporário, pois é certo que novas ondas de protestos surgirão em sequência.</p>
@@ -121,5 +273,48 @@ function toggleLang(lang) {
 <p>Isso já era previsível há muito tempo. O atraso se deu porque o presidente Truman era excessivamente rígido e passivo, um adepto da inércia que preferia evitar problemas. Mesmo com esse atraso, a vitória ainda é plenamente possível. O plano atual é, em essência, o mesmo que o General MacArthur propôs no passado. Se tivesse sido implementado na época, o desfecho teria sido mais simples. Contudo, do ponto de vista Divino, ainda era prematuro.</p>
 <p>Tendo isso em mente, é possível ter uma ideia clara do rumo que os acontecimentos tomarão. Quanto às atividades comunistas no Japão, por trás das greves dos trabalhadores da eletricidade e do carvão, a mão do Partido Comunista está sempre presente. Com a resolução da questão coreana, como expliquei, a situação interna também se tornará muito mais favorável.</p>
 <p>Por fim, o rearmamento do Japão ganhará grande impulso a partir do próximo ano. É possível que até mesmo o serviço militar obrigatório seja instituído. Talvez tenhamos que enviar tropas para a Coreia. Devemos estar preparados para essa eventualidade. É provável que, junto com o Japão, as Filipinas e Taiwan também enviem soldados. Pode ser uma estratégia para resolver tudo de uma só vez. Como Eisenhower é um homem de grande competência nesse aspecto, podemos manter a serenidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月7日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月七日 最初に時局について少し話してみたいと思います。<br/><br/>われわれ国民が直接一番脅威を受けているのはスト問題です。<br/><br/>炭労ストに電産ストです。<br/><br/>それで今度のは今までに例がなく、いつまでも解決がつかないのです。<br/><br/>まあ彼らはスト気違いです。<br/><br/>よくスットン狂と言いますが、これがそれによく当てはまってます。<br/><br/>スト狂です。<br/><br/>いずれは解決がつくでしょうが、よしんば解決してもそれですんだわけではないので、ただ一時的でいずれはまた次から次へと始まるのは勿論です。<br/><br/>ところが、永久にストが起らないようにすることもわけはありません。<br/><br/>ストの原因のもっとも中心はなにかというと、労働者の方は少しでも多く賃金とか手間賃をもらおうとするし、資本家の方では少しでも出さないようにする、少なくするようにする、というその衝突なのです。<br/><br/>ですからちょうど欲張り同士の喧嘩です。<br/><br/>これはちょうど獣が、底の方に肉の塊りがあるとすると、それを一匹が食おうとすると、ほかの仲間のものが食わせまいとして自分の方に取る。<br/><br/>ですから肉を取る方法で争っているのと同じことです。<br/><br/>つまり自分だけが懐に多く入れようとして、人にやるまいとする。<br/><br/>それが人間の形をしているから、まさか爪や歯をむき出してやるわけにはいかないから、そこにいろんな理屈をつけてやってますが、根本は同じことです。<br/><br/>ですからまだ人間までに進化してないのです。<br/><br/>獣性がそうとうあるのです。<br/><br/>獣性で、濁っているわけです。<br/><br/>それで文明世界といっていばってますが、実にあさましい人間どもだというわけです。<br/><br/>それではどうして解決するかというと、これは信仰よりほかにありません。<br/><br/>その信仰というものは人間の欲望の制限ができるのです。<br/><br/>自己愛という、自分だけ良ければ人はどうでもいいという思想、考え方というものが、むしろ反対になるのです。<br/><br/>まず自分の利益を考えないで、人の利益を考えるという利他愛の思想が信仰の根本ですから、その考えでやれば、労働者は大いに働いて良い物を作って、単価を安くして売れるようにする。<br/><br/>それから資本家の方では、儲かれば彼らに利益を分配するというように考えるのです。<br/><br/>それで両方がそうなれば、明日からでもすぐに解決するのです。<br/><br/>解決するどころでなく、そのために事業は非常に繁栄します。<br/><br/>輸出品というようなものでも、良い物が安くできるのですから世界一になります。<br/><br/>そうしてたくさんできますから、税金なども楽に払えるばかりでなく、国家としてもよけいな金はいらないから、国の台所がずっと楽になりますから、税金問題というものもなくなってしまいます。<br/><br/>国民の方では言われないうちに税金を収めたいということになります。<br/><br/> ですから、そういう結構なことにするのはわけはありません。<br/><br/>ただ自己愛と利他愛をちょっと向きを変えればいいのです。<br/><br/>かえってその方が楽で易しいのです。<br/><br/>これはストなどの方がよほど難しくて骨が折れます。<br/><br/>どっちもウンスウンス言ってたいへんな騒ぎです。<br/><br/>われわれ人間から見ると、人間というと変な言い方ですが、実際がこっちは人間と思っているのです。<br/><br/>先方はまだ人間とは言えません。<br/><br/>だからわれわれ人間から見ると実にかわいそうなものです。<br/><br/>やっぱり道端で犬が噛み合っているのと違いないくらいのものです。<br/><br/>ところがそんな結構な信仰というものを、低級だとか迷信だとか科学的でないとかなんとか言って、偉い人やジャーナリストたちが批判したり嘲笑したりしているのです。<br/><br/>しかしそれはそうかもしれません。<br/><br/>獣から見れば、人間はなんと間抜けな奴だろう、オレたちは山でも谷でも一遍に飛び越えてしまうのに、人間という奴は二本足で一生懸命に駆け出しても、じきに息がきれてしまって情けない奴らだ、と思うか思わないか分からないが、そんなものだろうと思います。<br/><br/>だから結局信仰の目的……というよりか、救世教の目的というのは、まだ人間になりきってない動物を、早く人間にしようというその仕事なのです。<br/><br/>つまりいつも言うとおり、今の人間は文化的野蛮人です。<br/><br/>それで文化的文明人と文化的野蛮人と両方あります。<br/><br/>今のいろんなものは、それは便利になって文化的です。<br/><br/>しかし考え方やすることは野蛮人と同じです。<br/><br/>ですから文化的野蛮人です。<br/><br/>それで野蛮性ということは獣性がまだ残っているのです。<br/><br/>それで上面は文化性になってますが、中身にまだ残っているのです。<br/><br/>ですからその濁りを取り去る、取ってしまうというのがわれわれの仕事です。<br/><br/>ところが取られるのはなにかと言うと、やっぱり副守護神という生きている霊ですが、これは取られるのが怖いのです。<br/><br/>取らなくてもそういった獣性の因が萎縮すればいいので、いばらなければいいのですが、それがつらいから人間を反対させておどらせるのです。<br/><br/>いろんな妨害というか、自分をやっつけそうな神様に触れてはたいへんだから、触れないように一生懸命自己擁護しているわけです。<br/><br/>それで今までは自己擁護もできたのです。<br/><br/>それで彼らの一番恐ろしいのは光なのです。<br/><br/>そこで私が光を神様からもらったので、それで彼らは非常に脅威を感じるのです。<br/><br/>だからやっつけてしまおうと思って、今までいろんな手でやったのですが、だんだん自分たちの方が負けてきたのです。<br/><br/>それで彼らの負けただけはこっちが勝つのですから、それだけ発展していくのです。<br/><br/>それでもまだまだ彼らの方でもなかなか妨害しようと思ってやってはいます。<br/><br/>けれどもだんだんそういったように、こっちが勝ちつつありますからいいのです。<br/><br/>それで昔からいろんな宗教で、キリストや釈迦とか偉い人がいろいろ出ましたが、つまり光がごく薄かったのです。<br/><br/>そのために徹底的な迫害にあって、生きているうちにほとんどやられて、死んでから何年もたってからやっと芽が出るという有様ですが、私の光はつまり太陽の光で強いのですから、生きているうちに勝ってしまうというわけです。<br/><br/>それでスト問題なども、今言ったとおり野蛮性のために自己愛を制御できない、それで解決しないのです。<br/><br/>だから結局ストを解決し、人間社会からなくするのは信仰よりほかにない。<br/><br/>そういうことを今書いてますが、この次の『栄光』に出します。<br/><br/>だから出たら、そういうことに関係した人に大いに読ませるようにしてもらいたいと思います。<br/><br/> それから私が神様を拝まない理由をちょっと書いてみたのです。<br/><br/> （御論文「私が神様を拝まぬ理由」）【地上天国 四十三号】 それからもう一つ時局について話したいことは、今度アイゼンハウアーが朝鮮を見に来たのですが、これは新聞にも出てますからよく知っているでしょうが、朝鮮問題がこのままではきりがない。<br/><br/>それできりがないだけでなく、時の進むに従って共産側の方が有利になるのです。<br/><br/>なにしろソ連の方の兵隊は一人も出ないで、全部中共とか、あるいは北鮮の人間が犠牲になっているのです。<br/><br/>ですから、ソ連は武器さえ貸してやればいいのです。<br/><br/>しかも武器を貸すにしても距離の点において非常に有利です。<br/><br/>北鮮まで武器を送るのはわけはない。<br/><br/>シベリア鉄道を利用すればすぐですから、非常に戦争の暇がかかりません。<br/><br/>それに引き替えてアメリカの方は遠くから運ぶことと、それからアメリカの兵隊は今でも一カ月に千人は死ぬのですから、アメリカ人の中でも、その点をなんとかしてもらいたいという考えが非常にあるのです。<br/><br/>そこでアイゼンハウアーが大統領選挙の時に、自分が当選したらすぐに朝鮮に行って良く視察して解決するということと、できるだけアメリカ人を使わないように、韓国軍を訓練して前線に立たせる、というそのことが一番有力な方針で国民が動いたわけです。<br/><br/>ですからその言質を実行すべく今度朝鮮に飛んだのです。<br/><br/>しかし誰にも知れないようにうまくやったすばしこさは、私は非常にいいと思っているのです。<br/><br/>アイゼンハウアーという人は見込みがあるようにも思われます。<br/><br/>これがふつうですと大いに歓迎されて大いばりで行きたいところですが、それをぜんぜん逆のああいったやり方は、要するに気が利いてます。<br/><br/>とにかく人間はすばしこくなければいけません。<br/><br/>つまり結局においてなにごとも競争ですから、やっぱりマラソンで駆けるようなもので、早い奴が勝利を得るようなものです。<br/><br/>とにかくなんでも、すばしこく早く運ぶ、ということが成功の一番の秘訣です。<br/><br/>ですから私などはその点において大いに誇りとしているのです。<br/><br/>それで早過ぎていつも困るのです。<br/><br/>明主様はまだあそこにおいでになっておられないだろうと思ってゆっくりしていると、とうに行っているのでびっくりすることがあるのです。<br/><br/>その私の素早さがいろいろな面に得をしているのです。<br/><br/>ですからよく「これからこういうようにしたら良いと思いますが」とか「こうしたら」ということを言ってきますが、私はとうにやっていることです。<br/><br/>そういうことを考えてみて、今度アイゼンハウアーが朝鮮に行ったやり方は、なかなかおもしろいと思います。<br/><br/>そんなことはたいしたことではないが、とにかくアイクの目的というものは、戦争を早く片づけなければならない。<br/><br/>片づけるとすると武力によるよりしようがないから、これから大いに軍備を強調するだろうと思います。<br/><br/>それについても肝腎なのは日本ですから、日本がよほどしっかりしないと、アメリカが思いきってやる上においても具合が悪いですから、そこであるいは日本の軍備を急速に大いに充実させるかもしれません。<br/><br/>ですから再軍備反対ということも、これからは蚊の泣くようなものです。<br/><br/>そんなことはてんで問題になりません。<br/><br/>火事で、燃えてきたのにポンプの仕度などしないでもいい、というような話になってしまいます。<br/><br/>そんなわけで、韓国軍は非常に猛烈な訓練をしてます。<br/><br/>李承晩（りしょうばん）が言った言葉が昨日の新聞に出てましたが、韓国軍だけで北鮮に進撃することができるということを言ってます。<br/><br/>それで李承晩は、自分はどうしても朝鮮を合併してみせる、そうしてやはり北鮮を取り入れてしまう、そのくらいの力はもうできている、というようなことを言ってましたが、実に意外に強硬なのです。<br/><br/>そこでアイクの方針は無論中国全土に向かって攻撃をやるだろうと思います。<br/><br/>満州爆撃、沿岸封鎖、それから韓国軍の進撃、それを一挙にやるのではないかと思います。<br/><br/>そうすると中国はふたたび大動乱になるわけです。<br/><br/>しかしこれは神様の方でもそういうようになっているらしいのです。<br/><br/>というのは、中国に大いに救いの活動が始まるのが近くなっているのです。<br/><br/>朝鮮は無論のことです。<br/><br/> それで日本が五で、朝鮮が六で、支那が七ですから、この三つがまず救われなければならない。<br/><br/>それについて最近台湾に本部がある世界紅卍字会という、これはたいてい知っているでしょうが、あそこで援助してくれということを申し込んできたのです。<br/><br/>一昨日五人くらい来ました。<br/><br/>もっともその前にも来たことがあります。<br/><br/>そこである程度は私も話してやりました。<br/><br/>ところが先方の目的はちょっとくい違いがあるので、時期が早いからもう少し熟してからと思って、もう少し待て、急いではいかん、ということを言っておきました。<br/><br/>向こうは元満州で非常に成功して、中共以前の溥儀（ふぎ）の時代には要人の間に信者がそうとうできて、それはたいしたものだった。<br/><br/>ところが中共になってからは危険になってきたのです。<br/><br/>それで幾人かは犠牲で死刑になった人があるようです。<br/><br/>そういうわけで急遽台湾にのがれたのです。<br/><br/>そうして今本部をつくろうとしてますが、それを援助してくれというようなことを言ってます。<br/><br/>私の方では台湾につくってもしようがない。<br/><br/>いずれ始まれば台湾は空襲されるかもしれないから「よせ」と言ってやるつもりです。<br/><br/>そういうようで、台湾でなんとか旗挙げしようと思ったところが、また具合が悪いことには蒋介石がキリスト教に力を入れるというよりか、アメリカの援助を受けてともかく生きているのですから、どうしてもアメリカの御機嫌を取らなければならない。<br/><br/>それにはまずキリスト教を大いに立てなければ具合が悪いので、そこで国府軍のそうとう偉い人でもクリスチャンであるようです。<br/><br/>宋美齢もそうです。<br/><br/>それから蒋介石の親戚の汪精衛も非常に熱心なクリスチャンだそうです。<br/><br/>そういうようで、ほかの宗教を弾圧はしないまでも、宣伝するとか弘めるということは嫌っているのです。<br/><br/>そこで紅卍字会も台湾ではどうにもできないので、日本に本部をつくって紅卍字会を大いに日本で発展させたいという考えです。<br/><br/>それは「フーチ」というのに出たのです。<br/><br/>それで今度来たのです。<br/><br/>そのフーチで日本の新宗教を土台にしろということが出ているので来たところが、結局新宗教中では救世教よりほかにないのです。<br/><br/>というのは、二十年ばかり以前に紅卍字会は日本に来て、大本教と提携していろいろやり始めたのですが、そのうちに大本教が弾圧をくったので、その後ぜんぜん縁が切れたのです。<br/><br/>しかしその時代の大本教の幹部の者はそうとう知ってます。<br/><br/>それで生長の家の谷口さんは、大本教の幹部ではあったが、紅卍字会と提携する時はほとんど脱会していました。<br/><br/>それでそれを知っているのは、近ごろできた静岡県の三五教（あなない）の会長の中野さんはよく知ってます。<br/><br/>そういうようでほかの新宗教にいくらか働きかけたのですが相手にされないので、結局私の方にぜひという話になってきたのです。<br/><br/> しかしさっきから話したように中国の大掃除をやらなければならない。<br/><br/>こっちがやるのはつまり建設の方ですから、破壊がすまなければならない。<br/><br/>そうして私の目的というものは、中国を救うのに紅卍字会を働かせようと思ってます。<br/><br/>救世教の中国救済出張所というようなわけなのです。<br/><br/>だから今のところは先様が日本で紅卍字会を大いに発展させようという考えとは、大いにくい違いがあるのです。<br/><br/>しかしそれをすぐに言ったところで分からないから、ゆっくりと彼らに分からせるようにするつもりです。<br/><br/>そうして結局破壊と建設ですが、建設するのは大いに建設し、大掃除もしなければならない。<br/><br/>それで日本もこの間の太平洋戦争で大いに爆撃されたり、いろんなことでそうとう掃除ができましたから、そこで救世教が日本に大いに発展されるような段取りになったわけです。<br/><br/>ですから終戦後ようやく信教の自由ということで宗教的の活動が自由になって、予定どおりになりつつあります。<br/><br/>そういうようで中国も大掃除をされるのです。<br/><br/>大掃除をされるとすれば、今度アイクが大統領になってから中国を大掃除するという段取りになるのです。<br/><br/>それにはどうしても二、三年はかかるとみなければならない。<br/><br/>ですから紅卍字会の連中にも二、三年待て、そうして今のところはつなぎ程度にして、積極的の活動ということはまだ早いからと言ってやりました。<br/><br/>そういうようなわけで中国の大掃除が始まるのです。<br/><br/>なぜといって、今のように中共が政権を握っているようでは、宗教宣伝はぜんぜんできませんから、どうしても中共がアメリカの権利になって、日本のように信教の自由を許すということになって、初めて積極的に活動ができるのです。<br/><br/>それまで待つよりありません。<br/><br/>またそうならなければ中国は救われません。<br/><br/>それで神様はちゃんとそういう順序でされます。<br/><br/>そう言えばなかなか簡単ですが、それまでは中国全土はなかなかたいへんです。<br/><br/>それを待っていればいいわけです。<br/><br/>そういうようなわけですから、これから北鮮から満州にかけてそうとう大きな戦争になってきます。<br/><br/>といってもこれは第三次戦争にはならないと思います。<br/><br/>なぜというと、ソ連はある時期にいくと中共を見放してしまうだろうと思います。<br/><br/>それは今第三次戦争をしてもソ連に勝ち目はありません。<br/><br/>それは武器の点からいってもアメリカの方がずっと優秀ですから、それはスターリンとしても手は出さないというわけだから、結局今言った範囲くらいでおさまると思います。<br/><br/>それは前から分かっていたのです。<br/><br/>トルーマンという人が非常に石部金吉（いしべきんきち）でただ堅く消極的で、事なかれ主義をやっていたために後れたのです。<br/><br/>しかし後れたりと言えども、まだまだ充分勝てるのです。<br/><br/>これは前にも言ったとおり、マッカーサーの案と同じなのです。<br/><br/>ですからあの時にやればもっと楽にいったのです。<br/><br/>楽にいったわけだが、しかし神様の方から言うとあの時では早過ぎたのです。<br/><br/>そういうようなわけです。<br/><br/>それを頭に入れておけば、これからの時局の見当が大体つくわけです。<br/><br/>それと日本に対する共産主義の活動ですが、結局、電産問題でも炭労問題でも、奥の奥は共産党の手が動いているのです。<br/><br/>そこで今言ったとおり朝鮮問題が解決するとすれば、その点においても非常に有利だと思います。<br/><br/>もう一つは日本の再軍備ですが、来年あたりから大いに積極的になるだろうと思います。<br/><br/>あるいは徴兵制度なども布（し）かれるかも分かりません。<br/><br/>それから朝鮮に兵隊を送るようにならなければならないかもしれません。<br/><br/>これはあらかじめ覚悟しておかなければなりません。<br/><br/>それは日本が出兵するとともにフィリピンも出兵し台湾も出兵するでしょう。<br/><br/>それで一挙にやってしまおうという戦略かもしれません。<br/><br/>アイゼンハウアーという人はその点なかなか勝れた手腕を持ってますから、安心して可なりというわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

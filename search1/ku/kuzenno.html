@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kuzenno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 空前の難問題 『光』37号、昭和24(1949)年11月26日発行 今ここに論じようとする問題ほど深刻にして解決困難のものはいまだかつてなかったであろう、それは外でもない、本教発展によって当然発生するところの不可抗力ともいうべき難問題である、という事は本教発展と正比例して影響を蒙（こうむ）る職業層である、これは誰も知るごとく医師初め病療に関係ある数々の職業者であると共に既成宗教にも多少の影響はもちろんであろう。<br><br> 以上は実にやむを得ざる性質のもので、本教といえども他の営利事業とか、政治または主義等に関する事と違い、競争者または同業者の分野を不振にし、己れひとり優越者たろうとするのではない、人類社会の不幸を除去し幸福者の世界たらしめようとするのが目的で、全く救いの聖業以外他意ないのである。<br><br> しからば、なぜ医療やその他の方法で難病不治と断定せられたものが、一転快癒の結果となるかという事で、これは常に詳説しているから略すが、何よりも本教教線の発展を見れば首肯されるであろう、前述のごとく他の営業者に影響を与える事実に見ても判るであろう、この世智辛い世の中に何ら効果のないものに熱烈な信仰を捧げるという無智な者がそうあるはずはない、考えてもみるがいい、これ程進歩した医学を捨て去るという事はそれだけの理由があるからで、それを単に迷信と片づける人々こそ、余りに大衆を愚に見るという以外言いようはあるまい、たとえていえば粗悪なものを高く売れば買手は来ないが優良品を安く売れば買手はいくらでも来ると同様で、優勝劣敗の鉄則はここにも厳然と行われているのである。<br><br> これについて明らかな事実は、今日何人といえども、罹病するや速かに医師の診療を受ける、これは現代人の常識となっている、初めから迷信邪教と非難されるものに貴重な生命を託するものは一人もあるまい、ところが病者はいかに大病院や名医等あらゆる療法を受けても更に治らないばかりか、益々悪化の極、断末魔に陥るので迷信邪教でも何でも助かりさえすればよいという心境になるのは当然である、その際体験者の奨めに遇い疑心暗鬼（ぎしんあんき）恐る恐る本教に来て浄霊を受けるのである、しかるにたちまち顕著な御利益を頂き全治するという訳で、入信の動機はほとんどそれであって、本教異例の発展の理由もここにあるのである。<br><br> 以上の事実によって考えれば容易に判る事は、患者が医療を受けた場合順調に全治すればそれで済んでしまうから、本教に来る者などは一人もなく、したがって信者も出来ない訳である、とすれば迷信邪教の存在の余地は消滅する外ない事になる、恐らくこれ程判り切った話はあるまい。<br><br> この理によって医学が進歩したというにかかわらず迷信邪教に走るというその原因こそ、実は医学が無能のためである事になる、したがって本教によって全治されたものは、例外なくその後自己及びその家族が罹病の場合医療を嫌い本教浄霊のみに頼る事となる、全く自己の体験上医療よりも浄霊の方が効果があるからである、もし医療の方が勝れているとすれば右の反対であるはずである、次に言いたい事は信仰療法で悪化し、危機に瀕したものが、医療によって起死回生の効果を得たという例は今日まで一人も聞いた事がない、吾らといえども医学を非難する意志は少しもないが、ただ事実ありのままをかかなくてはならない、それは病なき世界を造るのが目的である以上、医学の是正こそはその根本であるからである。<br><br> ゆえに、この問題の発生を消滅するとしては、どうしても医療は病者を全治せしめる事である、事実によって医学の効果を示す事である、いかなる病者もどしどし全治させるとすれば何を好んで迷信邪教などに趨（はし）る必要はあろうか、ところが医家によって医療の効果のない事を自白しているような者さえある、その表われとしてある地方の医師会などは取締当局を動かし弾圧させようとしたり、地方新聞などを利用し悪宣伝等によって陰に陽に本教の妨害に努めるがこれらはもちろん邪道で、医家が本教に敵し難いため苦肉の手段をとらざるを得ないという自己暴露でしかないといえよう、しかしながらその点吾らも同情に吝（やぶさ）かではないが、吾らは神の意図によって救世の業に従事させられている以上いかんともし難いのである、人間としての情と神からの命との板挟みといってもいい。<br><br> こういう事を言うと唯物主義者は、神の名を利用した巧みな言訳と解釈するかもしれないが、それを理解させる事は容易ではない、何しろ見ゆる物質と見えざる霊との根本観念の相違であるからで、ちょうど上戸（じょうご）と下戸（げこ）との争いのようなものであろう、ただここに言える事は、ある時期に達するや唯物主義者といえども、必ず唯心主義者に転向する事で、これは断言し得るのである。<br><br> 最後に吾らの希望するところは、現代医学が神霊療法よりも勝っているとすれば、吾らも直ちに医師となり大いに人類を救いたいのである、そうすれば迷信邪教などの非難を浴びる事なく正々堂々と闊歩し得るからである、ゆえに今日のごとく迷信邪教の横行は、全く医学が病気を解決し得ないからである、とすればその一半の責任は医学にあるといっても差支えはあるまい、以上あまり忌憚なく論じたが吾らといえども救世上止むを得ないので、この点大いに諒されん事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Inevitável Conflito com a Medicina</h2>
 <p>Jamais houve, porventura, questão tão profunda e de tão árdua solução quanto a que me proponho a analisar. Refiro-me à inevitável e complexa questão que emerge como consequência natural da expansão de nossa Igreja. Tal questão se manifesta no impacto, diretamente proporcional ao nosso crescimento, sobre determinadas classes profissionais. Como é de amplo conhecimento, trata-se primordialmente da classe médica e dos inúmeros profissionais ligados à saúde, embora as religiões estabelecidas também sofram, decerto, alguma influência.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Portanto, a única forma de dirimir o conflito aqui exposto é a medicina passar a curar plenamente os doentes, demonstrando sua eficácia por meio de resultados concretos. Se todo e qualquer enfermo fosse curado com sucesso, que motivo haveria para alguém buscar refúgio em “heresias e superstições”? Contudo, existem até mesmo médicos que confessam a ineficácia de seus tratamentos. Prova disso são as associações médicas de certas localidades que pressionam as autoridades para nos reprimir ou que utilizam jornais locais para disseminar propaganda difamatória, tentando, por vias diretas e indiretas, obstruir nossas atividades. Tais atos, evidentemente, são ardis condenáveis e nada mais representam que uma confissão da própria impotência: ao se verem incapazes de rivalizar com nossa Igreja, os médicos recorrem a medidas desesperadas. Não obstante, não nos furtamos a simpatizar com sua difícil posição. Todavia, como estamos a serviço da obra de salvação por desígnio de Deus, nada podemos fazer. Estamos, por assim dizer, divididos entre a compaixão humana e o desígnio divino.</p>
 <p>Ao ouvir isso, um materialista poderia interpretar minhas palavras como uma desculpa engenhosa que se vale do nome de Deus. Contudo, fazê-lo compreender a verdade não é tarefa fácil. Afinal, a divergência reside na concepção fundamental que separa o mundo material visível do mundo espiritual invisível. É um diálogo tão infrutífero quanto a tentativa de um apreciador de bebidas alcoólicas de convencer um abstêmio de seus prazeres. Posso, contudo, asseverar o seguinte: ao chegar o tempo certo, até mesmo o mais convicto dos materialistas inevitavelmente se converterá à visão espiritualista.</p>
 <p>Para concluir, eis o nosso anseio: se a medicina moderna se demonstrasse superior à terapia espiritual divina, nós mesmos nos tornaríamos médicos sem hesitar, a fim de salvar a humanidade em larga escala. Dessa forma, poderíamos atuar abertamente, com honra e dignidade, livres da pecha de “heresia e superstição”. Assim, a proliferação de movimentos como o nosso nos dias de hoje ocorre unicamente porque a medicina é incapaz de solucionar o problema da doença. Portanto, não seria exagero afirmar que a responsabilidade por essa situação recai, ao menos em parte, sobre a própria medicina. Expus estes pontos com grande franqueza, pois, em nossa missão de salvação, não nos é dado tergiversar. Rogo, portanto, a mais profunda compreensão de todos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 空前の難問題 『光』37号、昭和24(1949)年11月26日発行 今ここに論じようとする問題ほど深刻にして解決困難のものはいまだかつてなかったであろう、それは外でもない、本教発展によって当然発生するところの不可抗力ともいうべき難問題である、という事は本教発展と正比例して影響を蒙（こうむ）る職業層である、これは誰も知るごとく医師初め病療に関係ある数々の職業者であると共に既成宗教にも多少の影響はもちろんであろう。<br/><br/> 以上は実にやむを得ざる性質のもので、本教といえども他の営利事業とか、政治または主義等に関する事と違い、競争者または同業者の分野を不振にし、己れひとり優越者たろうとするのではない、人類社会の不幸を除去し幸福者の世界たらしめようとするのが目的で、全く救いの聖業以外他意ないのである。<br/><br/> しからば、なぜ医療やその他の方法で難病不治と断定せられたものが、一転快癒の結果となるかという事で、これは常に詳説しているから略すが、何よりも本教教線の発展を見れば首肯されるであろう、前述のごとく他の営業者に影響を与える事実に見ても判るであろう、この世智辛い世の中に何ら効果のないものに熱烈な信仰を捧げるという無智な者がそうあるはずはない、考えてもみるがいい、これ程進歩した医学を捨て去るという事はそれだけの理由があるからで、それを単に迷信と片づける人々こそ、余りに大衆を愚に見るという以外言いようはあるまい、たとえていえば粗悪なものを高く売れば買手は来ないが優良品を安く売れば買手はいくらでも来ると同様で、優勝劣敗の鉄則はここにも厳然と行われているのである。<br/><br/> これについて明らかな事実は、今日何人といえども、罹病するや速かに医師の診療を受ける、これは現代人の常識となっている、初めから迷信邪教と非難されるものに貴重な生命を託するものは一人もあるまい、ところが病者はいかに大病院や名医等あらゆる療法を受けても更に治らないばかりか、益々悪化の極、断末魔に陥るので迷信邪教でも何でも助かりさえすればよいという心境になるのは当然である、その際体験者の奨めに遇い疑心暗鬼（ぎしんあんき）恐る恐る本教に来て浄霊を受けるのである、しかるにたちまち顕著な御利益を頂き全治するという訳で、入信の動機はほとんどそれであって、本教異例の発展の理由もここにあるのである。<br/><br/> 以上の事実によって考えれば容易に判る事は、患者が医療を受けた場合順調に全治すればそれで済んでしまうから、本教に来る者などは一人もなく、したがって信者も出来ない訳である、とすれば迷信邪教の存在の余地は消滅する外ない事になる、恐らくこれ程判り切った話はあるまい。<br/><br/> この理によって医学が進歩したというにかかわらず迷信邪教に走るというその原因こそ、実は医学が無能のためである事になる、したがって本教によって全治されたものは、例外なくその後自己及びその家族が罹病の場合医療を嫌い本教浄霊のみに頼る事となる、全く自己の体験上医療よりも浄霊の方が効果があるからである、もし医療の方が勝れているとすれば右の反対であるはずである、次に言いたい事は信仰療法で悪化し、危機に瀕したものが、医療によって起死回生の効果を得たという例は今日まで一人も聞いた事がない、吾らといえども医学を非難する意志は少しもないが、ただ事実ありのままをかかなくてはならない、それは病なき世界を造るのが目的である以上、医学の是正こそはその根本であるからである。<br/><br/> ゆえに、この問題の発生を消滅するとしては、どうしても医療は病者を全治せしめる事である、事実によって医学の効果を示す事である、いかなる病者もどしどし全治させるとすれば何を好んで迷信邪教などに趨（はし）る必要はあろうか、ところが医家によって医療の効果のない事を自白しているような者さえある、その表われとしてある地方の医師会などは取締当局を動かし弾圧させようとしたり、地方新聞などを利用し悪宣伝等によって陰に陽に本教の妨害に努めるがこれらはもちろん邪道で、医家が本教に敵し難いため苦肉の手段をとらざるを得ないという自己暴露でしかないといえよう、しかしながらその点吾らも同情に吝（やぶさ）かではないが、吾らは神の意図によって救世の業に従事させられている以上いかんともし難いのである、人間としての情と神からの命との板挟みといってもいい。<br/><br/> こういう事を言うと唯物主義者は、神の名を利用した巧みな言訳と解釈するかもしれないが、それを理解させる事は容易ではない、何しろ見ゆる物質と見えざる霊との根本観念の相違であるからで、ちょうど上戸（じょうご）と下戸（げこ）との争いのようなものであろう、ただここに言える事は、ある時期に達するや唯物主義者といえども、必ず唯心主義者に転向する事で、これは断言し得るのである。<br/><br/> 最後に吾らの希望するところは、現代医学が神霊療法よりも勝っているとすれば、吾らも直ちに医師となり大いに人類を救いたいのである、そうすれば迷信邪教などの非難を浴びる事なく正々堂々と闊歩し得るからである、ゆえに今日のごとく迷信邪教の横行は、全く医学が病気を解決し得ないからである、とすればその一半の責任は医学にあるといっても差支えはあるまい、以上あまり忌憚なく論じたが吾らといえども救世上止むを得ないので、この点大いに諒されん事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

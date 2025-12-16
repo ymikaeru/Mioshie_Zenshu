@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 『地上天国』12号、昭和25(1950)年1月20日発行 【問】福寿海無量の大功徳の意義。<br><br> 【答】これは形容語で、観音経にある言葉である。<br><br>福は物、寿は寿命、無量はたくさんということで、それを総合して大功徳というのである。<br><br> 【問】観音について。<br><br> 【答】観音とは、梵語でアバロキティシュバラ（Avalokitesvara）という。<br><br>それを支那の鳩摩羅什（クマラジュウ）という学者が観世音と訳し、縮めて観音と言ったのである。<br><br>また観世音の三字を解釈するとおもしろい。<br><br>観は客観とか観察するという意、古い時代、龍宮の音姫様に押し込められたそのときから、音姫の支配する世を観てるというのが本当の意味で、菩薩の本体である伊都能売の神は素盞嗚尊のために危い目に遭われたので、インドへ逃避されたその後は、素盞嗚尊が日本を統治された。<br><br>素盞嗚尊は、天照大神の弟神であるから、その妻神は弟の姫と言うので弟姫と言ったそれをつめて乙姫と言い、また音米姫とも言った。<br><br>乙姫様は物質欲の強い神様で、物欲の執着のため龍神となられ、海底に長い間潜（ひそ）まれていた。<br><br>インドの古代に大自在天が天下を支配したのも乙姫の援助による。<br><br>その時代、観世音の別名観自在の名がそれである。<br><br>乙姫は朝鮮のある海岸に龍宮城を作った。<br><br>それで龍宮の乙姫と言ったのである。<br><br>龍宮城は女の家来ばかりであった。<br><br>それは素盞嗚尊が日本へ来て稚姫君（わかひめぎみ）と言う、第二の妻をもたれたからで、そのお留守中、乙姫は空閨（くうけい）に堪えかねて、日本の青年漁師で、朝鮮へ漂着した浦島太郎が美男だったので、まず、いまで言う若い燕としたのであろう。<br><br>この時代の男女関係は割合い乱れていたようである。<br><br> 【問】神は分霊いたされますが、人霊ならびに動物植物霊は分霊せぬものでしょうか。<br><br> 【答】動植物いっさい分霊はあるが高級であるほど、広さと量と数が多くなる。<br><br>従って、大宇宙の主宰神は全般的に分霊されている。<br><br>右の理によって、神様になると分霊するのは当然である。<br><br>単に霊と言っても、人間以外の動物は、生霊と死霊である。<br><br>人間の霊は精霊と言う。<br><br>植物の霊は無機物と有機物の中間霊である。<br><br>鉱物の霊はただ霊と言う。<br><br>動物霊に限らず、あらゆるものも、いっさい死はある。<br><br>石でも生右と死石あり、霊が抜けるとボロボロにかける。<br><br>釈迦は一切空と言った。<br><br>これは霊を考えず物質だけで考えれば一切空になるので、生長の家などはそれを言ったもので、一切無であると説いている。<br><br>谷口氏は先に警察に呼ばれたとき、一切無としたら、国家はどうかと訊（き）かれて困惑したそうである。<br><br> 【問】シューマンとか、ヴァン・ゴッホのごとき天才的芸術家と言われる人々に、精神病の多いのはいかなる理由でしょうか。<br><br> 【答】天才的芸術家に、必ずしも精神病者が多いわけではない。<br><br>よく天才と精神病は紙一重と言うが、天才はふつうでも変わっているから、精神病的に見えるのである。<br><br>本当に精神病的であるのはまれで、シューマンとかゴッホのごとき人は本当の精神病である。<br><br>最近の文士にも精神病者的のものがあるが、これはヒロポンやアドルム飲用者で、人間の造った精神病である。<br><br> 元来、芸術家はわがままなもので、なにかインスピレーションが湧くと、すぐに飛び出したり、一つ事をじっと見つめていたり、そういう行動が普通人から見ると精神病者的に思えるのである。<br><br>しかし大芸術家は、実に大常識家である。<br><br>光琳などの物の観方は、実に常識的で彼の画は奔放大胆のように見えるが実に一分の破綻なく行き届いているには頭が下がるのである。<br><br> 【問】耳の形状は、幸不幸にも関係すると言われていますが、なにか意味がありましょうか。<br><br> 【答】無論幸不幸に関係がある。<br><br>耳だけではなく、口でも目でも鼻でもそうである。<br><br>耳は特徴があるから、いちばん形で判りやすい。<br><br>研究すると運命に関係があることが判る。<br><br>耳朶（みみたぶ）の大きいのは金持ちになると言われている。<br><br>私は大きいので大いに金持ちになると言われたが、ずいぶん貧乏と借金で苦しんだ。<br><br>しかしいまは公的だが金に不自由はない。<br><br>マア当たったんだろう。<br><br>仏像なども耳輪をされているが、耳朶（じだ）の垂れているのがいいからである。<br><br> 【問】人の個性と霊の個性との間には、どの程度の繋がりがありましょうか。<br><br> 【答】霊体の個性には繋がりもなにもない。<br><br>すべて霊の個性が一元であるが、だいたい霊体は一致してるものである。<br><br>人間には良心と悪心があって、たいていの人は二重人格で、ただそれが著しく表われるのと、そうでないのとあるだけである。<br><br>迷うということは副霊と本霊との意志が争うことで、心が曇ってると、魂はふさがれるから働きが出ない。<br><br>ふつうは副守護の考えのほうが多く出るが、それはみんな邪であるから、多くは失敗し後悔する。<br><br>「人生は失敗の連続である」と言った人があるのはそういうわけである。<br><br>失敗した苦しみによって曇りがとれるから、魂の働きが出る。<br><br>そして魂の働きが出ると、正邪善悪の判断が正確になるから成功する。<br><br>故に「失敗は成功の母」と言うが、右の理である。<br><br> 【問】十五夜、十三夜のお月見の意味、また、すすきなどをあげるのはなんの意味でしょうか。<br><br> 【答】十五夜は、言うまでもなく月が一番丸くなったときを言う。<br><br>すなわち月の最も水分も、光も、満ちているときである。<br><br>それが一番強いのは旧八月十五日である。<br><br> 十三夜とは、仏教の意である。<br><br> 十三の数は、仏教でいろんな意味によく使う。<br><br>仏教では、十三仏や十三塔などと言う。<br><br>また月を十三夜とも言い、二十六夜様などとも言う。<br><br>これは月を祝うのである。<br><br>十五は満ち数で下り坂の一歩手前であるから、十三の数は最もよいわけである。<br><br>また薬師如来の家来に十二神将がある。<br><br>これも合わせて十三になる。<br><br>キリスト教では、十三を凶数として嫌う。<br><br>というのは十三日の金曜はキリストが受難の日であるからで、不思議なことには西洋の歴史でも、実際十三日には悪いことが多いようである。<br><br> 薄（すすき）は、季節的に十五夜のころが一番花が咲くのと、月との対照がよいので、これを使ったものであろう。<br><br> 【問】太陽、月、星、地球の相互関係。<br><br> 【答】そもそも、宇宙の中心は地球で、地球はその真ん中にある。<br><br>地球の中に生物がある。<br><br>地球以外の天体には生物は生存しない。<br><br>いっさいは地球のために否、人間のためにある。<br><br>地球にある人類を育て、進歩発展さすのが神の御目的である。<br><br>その目的に対するいろいろのものとして、火、水、土の三つの力がある。<br><br>日、月、地、星辰、ことごとくその意味である。<br><br> 太陽は火の塊り、月は水の塊り、すなわち水が固形化した氷の魂りである。<br><br>月からは始終太陽熱のため水気が出ている。<br><br>月夜の晩、特に水素が多いのはそのためである。<br><br>またいつの時代でも必ず日、月、星辰に相応した人間が表われるものである。<br><br> 天地は合わせ鏡になっており、天にあるものことごとく、地にうつっているのである。<br><br> すべてのものには、中心がなくてはいけない。<br><br>太陽の黒点はそれで、◎はその象形文字である。<br><br>果実ならその種のようなものである。<br><br> 月には中心がないが、これは日に従属したものだからで、つまり女の働きである。<br><br>男女同権と言っても、霊的には男が主である。<br><br> 女の使命は子を産むのが一番大事で、次に夫を助けるにあって、女はどこまでも補佐的である。<br><br> 星は非常に数が多く光星より暗星がズッと多いのである。<br><br>暗星が硬化して光り出す。<br><br>それが新星の発見と称するものである。<br><br>星は分裂した場合流星となる。<br><br>隕鉄とは流星すなわち星のかけらである。<br><br>星の数と人間の数は同じで、天地創造のころは星はズッと少なかった。<br><br>学者は宇宙線はどんな深い所にもあると言ってるが、霊線は地球の中心まで透っているのである。<br><br> 【問】麻邇の玉とは。<br><br> 【答】麻邇（まに）の玉は仏教では如意宝珠（にょいほうしゅ）と言う。<br><br>観音様のお働きの一つに、如意輪観音というのがそれである。<br><br>また神道で五百津美須磨琉（いほつみすまる）の玉とも言うが、要するに観音様の身魂ということである。<br><br> 【問】「汝ら人に惑はされぬ様に心せよ。<br><br>多くの者わが名を冒し来り、「われはキリストなり」と言ひ、「時は近づけり」と言はん。<br><br>されど終りは直ちに来らず」「その時偽キリスト偽預言者おこりて大いなる徴（しるし）と不思議とを現し、為し得べくば選民をも惑はさんとするなり」イエス問ひ給ふ「汝ら我を誰と言ふか」ペテロ答へて言ふ「汝はキリストなり」イエス答へて言ひ給ふ「汝はさいはひなり」とあり宣教の際読解されますがいかがでしょう。<br><br> 【答】これはまったくその通りである。<br><br>いままでに再臨のキリストなどと称する者はたくさんに出たが、この言葉はそれを注意したものである。<br><br>二十年くらい前に、インドにサンダーシングという三十くらいの男が現われた。<br><br>それで何百万もの信徒ができた。<br><br>水の上を渡ったりいろいろの奇蹟を表わしたので、一時は再臨のキリストと言って騒がれたが、三十幾歳で死んだ。<br><br>しかしこれは本当のものではない。<br><br>この聖書の言葉は本教のほうでも言いたいことである。<br><br>日本においても、いまでも偽りはある。<br><br>いま天照大神の再生と称えるものがたくさんいる。<br><br>いままでたくさんに偽キリストが出ているので本物が出たとしても最初は偽物と思われるが、これは致し方ない。<br><br>しかし本物はいつかは知れるに決まっている。<br><br> 【問】観音力と神力について。<br><br> 【答】観音力は仏の最高力、神力はそれよりもずっと上である。<br><br> 【問】お産の後産を、土地によりそれぞれの箇所に埋めますが、その埋めた上を、一番先に踏んで通った動物と同じ種類の動物を、本人が非常に恐ろしがります。<br><br>なにかわけがありましょうか。<br><br> 【答】一時的のものである。<br><br>後産の汚物はいくらか霊線が通じているから、こういうこともあり得る。<br><br>故になるべく人の踏まぬ所へ埋めると昔から言われている。<br><br> 【問】長虫の霊と猫の霊との相互関係および肉体に現われる症状について。<br><br> 【答】長虫や猫の憑いているのはたくさんあるが、ふつうではちょっと判らぬ。<br><br>病気のときなど異常を表わすので判る。<br><br>蛇の霊と言っても、祟ってる場合と蛇が生まれ変わった場合と、蛇霊が憑いてることもある。<br><br>龍神の憑いてるときの特徴は、喉が乾くので水を欲しがるのが特徴で、龍女の生まれ変わりは結婚を嫌う。<br><br>その他、顔でもよく判る。<br><br> 猫の霊はごく少ない。<br><br>たいていは女で、男にはあまりない。<br><br>あっても酷い目にあわした猫霊の祟りなどである。<br><br> 病気で表われる場合は、子供のジフテリヤに多く、鼻をクンクンしたり、喉がゼイゼイいうのでよく判る。<br><br>ジフテリヤは猫霊が最も多い。<br><br>病気でない場合、猫が憑いていると三味線ひくとか、躍（おど）ることを好む。<br><br>喘息は猫とぜんぜん関係はなくはないが、単なる浄化作用で霊的関係はあまりない。<br><br>これは心臓喘息と気管支性喘息と二種ある。<br><br>咳が出て息がつまるようなのが気管支性である。<br><br> 【問】三十一才の女、蓄膿症で四、五年前一度治りましたが、それ以来鼻の通りが悪く、鼻汁も出なくなり、いまでは臭いも嗅ぐことができません。<br><br>浄霊により治りましょうか。<br><br> 【答】これは治る。<br><br>右のごとく治ったと言っても本当に癒ったのではない。<br><br>固まったにすぎぬ、そのためそのような症状があるのである。<br><br>ふつう蓄膿症は鼻柱の両側に毒が溜まる。<br><br>そしてこの膿は延髄部の膿で、それが鼻から出るべく集溜するのであるから、延髄部を浄霊すると鼻が通り治る。<br><br>小脳および延髄部と鼻は非常に関係があるので、その証拠にはガス中毒は鼻からガスが入って延髄部へ入り、小脳へ侵入すると眠くなり、人事不省となって、はなはだしいのは死んでしまう。<br><br>無嗅覚も延髄を浄霊すると治る。<br><br> 【問】私の兄は喘息で、毎年秋から冬は咳と痰でほとんど起きられません。<br><br>これは霊的に原因がありましょうか。<br><br> 【答】これは霊的喘息ではない。<br><br>元来喘息は季節的に発（おこ）るのが特徴である。<br><br>冬に限って発作するもの、夏に発るもの、あるいは年にいっぺん九月に必ず発るという人もある。<br><br>こういう規則的のものは軽いほうで、年中不規則に発るのは重症である。<br><br> 【問】私方は家族数六名で、私と長男の嫁がお光をいただいております。<br><br>商売はミシン屋で、毎日家中で一生懸命に働いておりますが、「貸倒れ」が、多くて商売がうまく行きません。<br><br>いかがいたしたらよろしいでしょうか。<br><br> 【答】一生懸命働くのは結構だが、焦ると無理が出るから、すべて神様にお任せしていると、自然にうまくゆく。<br><br>それが御守護である。<br><br>そうすると神様から教えてくださる。<br><br>客が来ても、貸して悪い場合、判るのである。<br><br> 【問】大光明の御守りとふつうの御守りとのお働きの相違。<br><br> 【答】大がつくとそれだけ働きが大きくなる。<br><br>これは文字が働くからである。<br><br>文字は不思議なもので、私はその力を神様から与えられているのであるが、人によってはいくらかは文字が働くのである。<br><br> 私の腕から筆を通して、字から紙に光が浸透するのである。<br><br>従って私は言霊、文字、想念の力で人類を救済しつつあるのである。<br><br> 【問】未入信の木樵（きこり）の孫（女児）四歳のとき耳だれが出るようになったら耳が聞こえなくなり、医者へも行き、日蓮宗の信仰もして耳だれが止まって聞こえるようになり、六歳になっております。<br><br>その妹三歳になりますが、本年四月より耳が聞こえなくなり、片言も言わなくなりました。<br><br>二十日はど前より御浄霊をしていただきましたら、耳だれが出て少し聞こえてまいりました。<br><br>右は木龍の祟りでしょうか。<br><br>職業で、大木を倒したのは、いかにお祀りさしていただいたらよろしいでしょうか。<br><br>また右の木樵の別の孫（七歳、嫁に行った娘の子）は生まれつき喉仏がなく、喉の真ん中が上顎の真ん中ごろまで裂けたようになっております。<br><br>発音が明瞭にできず、ごはんはユックリいただけますが、吸うことは少しもできません。<br><br>その家の祖父はひどい喘息で、十七年前、湯殿で縊死（いし）いたしました。<br><br>右はいかなる因縁でしょうか。<br><br>また御浄霊によって少しは発音が良くなるものでしょうか。<br><br> 【答】前者は、木龍ではない。<br><br>祖先のだれかが耳の罪を作った祟りである。<br><br> 後者は前世において、真っ二つに切られたか、または喉をなにかで突き潰されたかして死に、霊界で治らぬうちに再生したものである。<br><br> 【問】骨折して骨接ぎに行き、重なって着いてしまったものは、そのまま御浄霊で治るものでしょうか。<br><br> 【答】くっついたのは治らぬ。<br><br>骨はすぐに固まりやすいものである。<br><br> 【問】ある信者の家で、氏神様のお札が配られたのでいただきました。<br><br>いかがいたしたらよろしいでしょうか。<br><br> 【答】それはたたんで、しばらく光明如来様の前へ台の上にのせておいておけばよい。<br><br>そして一カ月か二カ月くらい経ったら御礼を言って焼けばよい。<br><br> 【問】信者さんの妹で四年前死亡し、母方の寺に土葬してありますが、差し支えはないでしょうか。<br><br> 【答】これは本当は嘘で、父方へ祀るべきであるが、三、四年も経ってなんでもないのだから、それでよろしい。<br><br>霊によって満足しないのがある。<br><br>なにごともなければそれで霊も満足しているわけだ。<br><br> 【問】吃りの原因。<br><br> 【答】頭と舌の連絡筋に固結せる毒素が神経を邪魔しているのが原因である。<br><br>頭の横から頬へかけて、熱のある部を浄霊すれば治る。<br><br> 【問】子供の手首の横すじは、たいてい二本きれておりますが、まれに一本のものがあって、俗に珠数〔数珠〕掛けと申して、長野県の田舎では短命だと言われていますが迷信でしょうか。<br><br> 【答】迷信である。<br><br>なにも意味はない。<br><br> 【問】子供のとき、眼と眼の間に青筋があると癇癪（かんしゃく）持ちと言っておりますが、いかがなものでしょうか。<br><br> 【答】その通りである。<br><br>見ただけで判る。<br><br>ふつうの人でも癇癪を起すと青筋がたつ。<br><br>嬉しいときは顔の皺が解けるということと反対で本能的のもので別に意味はない。<br><br> 【問】仏説の十万億土とはいかなる所でしょうか。<br><br> 【答】極楽浄土のことで、阿弥陀様のおそばのことで、昔はすべておおげさに言った。<br><br>例えば五十六億七千万年のごときもそうで、たいへん遠いようだが、すぐ目の先に来ている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Questões e Respostas sobre os Princípios Divinos</h2>
 <p><strong>Pergunta:</strong> Qual o significado do grande mérito de “Felicidade e Longevidade Vastas como o Oceano”?</p>
@@ -169,5 +321,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> É verdade. É algo que se percebe apenas com o olhar. Mesmo em pessoas comuns, uma veia salta quando se irritam. É o oposto do que ocorre quando o rosto se descontrai de alegria; trata-se de um fenômeno instintivo, sem um significado mais profundo.</p>
 <p><strong>Pergunta:</strong> O que é a “Terra das Dez Milhões de Terras Búdicas” mencionada nos sutras?</p>
 <p><strong>Resposta:</strong> Refere-se à Terra Pura, o paraíso ao lado do Buda Amida. Antigamente, tudo era expresso de forma hiperbólica. O mesmo se aplica aos “cinco bilhões, seiscentos e setenta milhões de anos”. Embora pareça um futuro extremamente distante, ele já está diante de nossos olhos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 『地上天国』12号、昭和25(1950)年1月20日発行 【問】福寿海無量の大功徳の意義。<br/><br/> 【答】これは形容語で、観音経にある言葉である。<br/><br/>福は物、寿は寿命、無量はたくさんということで、それを総合して大功徳というのである。<br/><br/> 【問】観音について。<br/><br/> 【答】観音とは、梵語でアバロキティシュバラ（Avalokitesvara）という。<br/><br/>それを支那の鳩摩羅什（クマラジュウ）という学者が観世音と訳し、縮めて観音と言ったのである。<br/><br/>また観世音の三字を解釈するとおもしろい。<br/><br/>観は客観とか観察するという意、古い時代、龍宮の音姫様に押し込められたそのときから、音姫の支配する世を観てるというのが本当の意味で、菩薩の本体である伊都能売の神は素盞嗚尊のために危い目に遭われたので、インドへ逃避されたその後は、素盞嗚尊が日本を統治された。<br/><br/>素盞嗚尊は、天照大神の弟神であるから、その妻神は弟の姫と言うので弟姫と言ったそれをつめて乙姫と言い、また音米姫とも言った。<br/><br/>乙姫様は物質欲の強い神様で、物欲の執着のため龍神となられ、海底に長い間潜（ひそ）まれていた。<br/><br/>インドの古代に大自在天が天下を支配したのも乙姫の援助による。<br/><br/>その時代、観世音の別名観自在の名がそれである。<br/><br/>乙姫は朝鮮のある海岸に龍宮城を作った。<br/><br/>それで龍宮の乙姫と言ったのである。<br/><br/>龍宮城は女の家来ばかりであった。<br/><br/>それは素盞嗚尊が日本へ来て稚姫君（わかひめぎみ）と言う、第二の妻をもたれたからで、そのお留守中、乙姫は空閨（くうけい）に堪えかねて、日本の青年漁師で、朝鮮へ漂着した浦島太郎が美男だったので、まず、いまで言う若い燕としたのであろう。<br/><br/>この時代の男女関係は割合い乱れていたようである。<br/><br/> 【問】神は分霊いたされますが、人霊ならびに動物植物霊は分霊せぬものでしょうか。<br/><br/> 【答】動植物いっさい分霊はあるが高級であるほど、広さと量と数が多くなる。<br/><br/>従って、大宇宙の主宰神は全般的に分霊されている。<br/><br/>右の理によって、神様になると分霊するのは当然である。<br/><br/>単に霊と言っても、人間以外の動物は、生霊と死霊である。<br/><br/>人間の霊は精霊と言う。<br/><br/>植物の霊は無機物と有機物の中間霊である。<br/><br/>鉱物の霊はただ霊と言う。<br/><br/>動物霊に限らず、あらゆるものも、いっさい死はある。<br/><br/>石でも生右と死石あり、霊が抜けるとボロボロにかける。<br/><br/>釈迦は一切空と言った。<br/><br/>これは霊を考えず物質だけで考えれば一切空になるので、生長の家などはそれを言ったもので、一切無であると説いている。<br/><br/>谷口氏は先に警察に呼ばれたとき、一切無としたら、国家はどうかと訊（き）かれて困惑したそうである。<br/><br/> 【問】シューマンとか、ヴァン・ゴッホのごとき天才的芸術家と言われる人々に、精神病の多いのはいかなる理由でしょうか。<br/><br/> 【答】天才的芸術家に、必ずしも精神病者が多いわけではない。<br/><br/>よく天才と精神病は紙一重と言うが、天才はふつうでも変わっているから、精神病的に見えるのである。<br/><br/>本当に精神病的であるのはまれで、シューマンとかゴッホのごとき人は本当の精神病である。<br/><br/>最近の文士にも精神病者的のものがあるが、これはヒロポンやアドルム飲用者で、人間の造った精神病である。<br/><br/> 元来、芸術家はわがままなもので、なにかインスピレーションが湧くと、すぐに飛び出したり、一つ事をじっと見つめていたり、そういう行動が普通人から見ると精神病者的に思えるのである。<br/><br/>しかし大芸術家は、実に大常識家である。<br/><br/>光琳などの物の観方は、実に常識的で彼の画は奔放大胆のように見えるが実に一分の破綻なく行き届いているには頭が下がるのである。<br/><br/> 【問】耳の形状は、幸不幸にも関係すると言われていますが、なにか意味がありましょうか。<br/><br/> 【答】無論幸不幸に関係がある。<br/><br/>耳だけではなく、口でも目でも鼻でもそうである。<br/><br/>耳は特徴があるから、いちばん形で判りやすい。<br/><br/>研究すると運命に関係があることが判る。<br/><br/>耳朶（みみたぶ）の大きいのは金持ちになると言われている。<br/><br/>私は大きいので大いに金持ちになると言われたが、ずいぶん貧乏と借金で苦しんだ。<br/><br/>しかしいまは公的だが金に不自由はない。<br/><br/>マア当たったんだろう。<br/><br/>仏像なども耳輪をされているが、耳朶（じだ）の垂れているのがいいからである。<br/><br/> 【問】人の個性と霊の個性との間には、どの程度の繋がりがありましょうか。<br/><br/> 【答】霊体の個性には繋がりもなにもない。<br/><br/>すべて霊の個性が一元であるが、だいたい霊体は一致してるものである。<br/><br/>人間には良心と悪心があって、たいていの人は二重人格で、ただそれが著しく表われるのと、そうでないのとあるだけである。<br/><br/>迷うということは副霊と本霊との意志が争うことで、心が曇ってると、魂はふさがれるから働きが出ない。<br/><br/>ふつうは副守護の考えのほうが多く出るが、それはみんな邪であるから、多くは失敗し後悔する。<br/><br/>「人生は失敗の連続である」と言った人があるのはそういうわけである。<br/><br/>失敗した苦しみによって曇りがとれるから、魂の働きが出る。<br/><br/>そして魂の働きが出ると、正邪善悪の判断が正確になるから成功する。<br/><br/>故に「失敗は成功の母」と言うが、右の理である。<br/><br/> 【問】十五夜、十三夜のお月見の意味、また、すすきなどをあげるのはなんの意味でしょうか。<br/><br/> 【答】十五夜は、言うまでもなく月が一番丸くなったときを言う。<br/><br/>すなわち月の最も水分も、光も、満ちているときである。<br/><br/>それが一番強いのは旧八月十五日である。<br/><br/> 十三夜とは、仏教の意である。<br/><br/> 十三の数は、仏教でいろんな意味によく使う。<br/><br/>仏教では、十三仏や十三塔などと言う。<br/><br/>また月を十三夜とも言い、二十六夜様などとも言う。<br/><br/>これは月を祝うのである。<br/><br/>十五は満ち数で下り坂の一歩手前であるから、十三の数は最もよいわけである。<br/><br/>また薬師如来の家来に十二神将がある。<br/><br/>これも合わせて十三になる。<br/><br/>キリスト教では、十三を凶数として嫌う。<br/><br/>というのは十三日の金曜はキリストが受難の日であるからで、不思議なことには西洋の歴史でも、実際十三日には悪いことが多いようである。<br/><br/> 薄（すすき）は、季節的に十五夜のころが一番花が咲くのと、月との対照がよいので、これを使ったものであろう。<br/><br/> 【問】太陽、月、星、地球の相互関係。<br/><br/> 【答】そもそも、宇宙の中心は地球で、地球はその真ん中にある。<br/><br/>地球の中に生物がある。<br/><br/>地球以外の天体には生物は生存しない。<br/><br/>いっさいは地球のために否、人間のためにある。<br/><br/>地球にある人類を育て、進歩発展さすのが神の御目的である。<br/><br/>その目的に対するいろいろのものとして、火、水、土の三つの力がある。<br/><br/>日、月、地、星辰、ことごとくその意味である。<br/><br/> 太陽は火の塊り、月は水の塊り、すなわち水が固形化した氷の魂りである。<br/><br/>月からは始終太陽熱のため水気が出ている。<br/><br/>月夜の晩、特に水素が多いのはそのためである。<br/><br/>またいつの時代でも必ず日、月、星辰に相応した人間が表われるものである。<br/><br/> 天地は合わせ鏡になっており、天にあるものことごとく、地にうつっているのである。<br/><br/> すべてのものには、中心がなくてはいけない。<br/><br/>太陽の黒点はそれで、◎はその象形文字である。<br/><br/>果実ならその種のようなものである。<br/><br/> 月には中心がないが、これは日に従属したものだからで、つまり女の働きである。<br/><br/>男女同権と言っても、霊的には男が主である。<br/><br/> 女の使命は子を産むのが一番大事で、次に夫を助けるにあって、女はどこまでも補佐的である。<br/><br/> 星は非常に数が多く光星より暗星がズッと多いのである。<br/><br/>暗星が硬化して光り出す。<br/><br/>それが新星の発見と称するものである。<br/><br/>星は分裂した場合流星となる。<br/><br/>隕鉄とは流星すなわち星のかけらである。<br/><br/>星の数と人間の数は同じで、天地創造のころは星はズッと少なかった。<br/><br/>学者は宇宙線はどんな深い所にもあると言ってるが、霊線は地球の中心まで透っているのである。<br/><br/> 【問】麻邇の玉とは。<br/><br/> 【答】麻邇（まに）の玉は仏教では如意宝珠（にょいほうしゅ）と言う。<br/><br/>観音様のお働きの一つに、如意輪観音というのがそれである。<br/><br/>また神道で五百津美須磨琉（いほつみすまる）の玉とも言うが、要するに観音様の身魂ということである。<br/><br/> 【問】「汝ら人に惑はされぬ様に心せよ。<br/><br/>多くの者わが名を冒し来り、「われはキリストなり」と言ひ、「時は近づけり」と言はん。<br/><br/>されど終りは直ちに来らず」「その時偽キリスト偽預言者おこりて大いなる徴（しるし）と不思議とを現し、為し得べくば選民をも惑はさんとするなり」イエス問ひ給ふ「汝ら我を誰と言ふか」ペテロ答へて言ふ「汝はキリストなり」イエス答へて言ひ給ふ「汝はさいはひなり」とあり宣教の際読解されますがいかがでしょう。<br/><br/> 【答】これはまったくその通りである。<br/><br/>いままでに再臨のキリストなどと称する者はたくさんに出たが、この言葉はそれを注意したものである。<br/><br/>二十年くらい前に、インドにサンダーシングという三十くらいの男が現われた。<br/><br/>それで何百万もの信徒ができた。<br/><br/>水の上を渡ったりいろいろの奇蹟を表わしたので、一時は再臨のキリストと言って騒がれたが、三十幾歳で死んだ。<br/><br/>しかしこれは本当のものではない。<br/><br/>この聖書の言葉は本教のほうでも言いたいことである。<br/><br/>日本においても、いまでも偽りはある。<br/><br/>いま天照大神の再生と称えるものがたくさんいる。<br/><br/>いままでたくさんに偽キリストが出ているので本物が出たとしても最初は偽物と思われるが、これは致し方ない。<br/><br/>しかし本物はいつかは知れるに決まっている。<br/><br/> 【問】観音力と神力について。<br/><br/> 【答】観音力は仏の最高力、神力はそれよりもずっと上である。<br/><br/> 【問】お産の後産を、土地によりそれぞれの箇所に埋めますが、その埋めた上を、一番先に踏んで通った動物と同じ種類の動物を、本人が非常に恐ろしがります。<br/><br/>なにかわけがありましょうか。<br/><br/> 【答】一時的のものである。<br/><br/>後産の汚物はいくらか霊線が通じているから、こういうこともあり得る。<br/><br/>故になるべく人の踏まぬ所へ埋めると昔から言われている。<br/><br/> 【問】長虫の霊と猫の霊との相互関係および肉体に現われる症状について。<br/><br/> 【答】長虫や猫の憑いているのはたくさんあるが、ふつうではちょっと判らぬ。<br/><br/>病気のときなど異常を表わすので判る。<br/><br/>蛇の霊と言っても、祟ってる場合と蛇が生まれ変わった場合と、蛇霊が憑いてることもある。<br/><br/>龍神の憑いてるときの特徴は、喉が乾くので水を欲しがるのが特徴で、龍女の生まれ変わりは結婚を嫌う。<br/><br/>その他、顔でもよく判る。<br/><br/> 猫の霊はごく少ない。<br/><br/>たいていは女で、男にはあまりない。<br/><br/>あっても酷い目にあわした猫霊の祟りなどである。<br/><br/> 病気で表われる場合は、子供のジフテリヤに多く、鼻をクンクンしたり、喉がゼイゼイいうのでよく判る。<br/><br/>ジフテリヤは猫霊が最も多い。<br/><br/>病気でない場合、猫が憑いていると三味線ひくとか、躍（おど）ることを好む。<br/><br/>喘息は猫とぜんぜん関係はなくはないが、単なる浄化作用で霊的関係はあまりない。<br/><br/>これは心臓喘息と気管支性喘息と二種ある。<br/><br/>咳が出て息がつまるようなのが気管支性である。<br/><br/> 【問】三十一才の女、蓄膿症で四、五年前一度治りましたが、それ以来鼻の通りが悪く、鼻汁も出なくなり、いまでは臭いも嗅ぐことができません。<br/><br/>浄霊により治りましょうか。<br/><br/> 【答】これは治る。<br/><br/>右のごとく治ったと言っても本当に癒ったのではない。<br/><br/>固まったにすぎぬ、そのためそのような症状があるのである。<br/><br/>ふつう蓄膿症は鼻柱の両側に毒が溜まる。<br/><br/>そしてこの膿は延髄部の膿で、それが鼻から出るべく集溜するのであるから、延髄部を浄霊すると鼻が通り治る。<br/><br/>小脳および延髄部と鼻は非常に関係があるので、その証拠にはガス中毒は鼻からガスが入って延髄部へ入り、小脳へ侵入すると眠くなり、人事不省となって、はなはだしいのは死んでしまう。<br/><br/>無嗅覚も延髄を浄霊すると治る。<br/><br/> 【問】私の兄は喘息で、毎年秋から冬は咳と痰でほとんど起きられません。<br/><br/>これは霊的に原因がありましょうか。<br/><br/> 【答】これは霊的喘息ではない。<br/><br/>元来喘息は季節的に発（おこ）るのが特徴である。<br/><br/>冬に限って発作するもの、夏に発るもの、あるいは年にいっぺん九月に必ず発るという人もある。<br/><br/>こういう規則的のものは軽いほうで、年中不規則に発るのは重症である。<br/><br/> 【問】私方は家族数六名で、私と長男の嫁がお光をいただいております。<br/><br/>商売はミシン屋で、毎日家中で一生懸命に働いておりますが、「貸倒れ」が、多くて商売がうまく行きません。<br/><br/>いかがいたしたらよろしいでしょうか。<br/><br/> 【答】一生懸命働くのは結構だが、焦ると無理が出るから、すべて神様にお任せしていると、自然にうまくゆく。<br/><br/>それが御守護である。<br/><br/>そうすると神様から教えてくださる。<br/><br/>客が来ても、貸して悪い場合、判るのである。<br/><br/> 【問】大光明の御守りとふつうの御守りとのお働きの相違。<br/><br/> 【答】大がつくとそれだけ働きが大きくなる。<br/><br/>これは文字が働くからである。<br/><br/>文字は不思議なもので、私はその力を神様から与えられているのであるが、人によってはいくらかは文字が働くのである。<br/><br/> 私の腕から筆を通して、字から紙に光が浸透するのである。<br/><br/>従って私は言霊、文字、想念の力で人類を救済しつつあるのである。<br/><br/> 【問】未入信の木樵（きこり）の孫（女児）四歳のとき耳だれが出るようになったら耳が聞こえなくなり、医者へも行き、日蓮宗の信仰もして耳だれが止まって聞こえるようになり、六歳になっております。<br/><br/>その妹三歳になりますが、本年四月より耳が聞こえなくなり、片言も言わなくなりました。<br/><br/>二十日はど前より御浄霊をしていただきましたら、耳だれが出て少し聞こえてまいりました。<br/><br/>右は木龍の祟りでしょうか。<br/><br/>職業で、大木を倒したのは、いかにお祀りさしていただいたらよろしいでしょうか。<br/><br/>また右の木樵の別の孫（七歳、嫁に行った娘の子）は生まれつき喉仏がなく、喉の真ん中が上顎の真ん中ごろまで裂けたようになっております。<br/><br/>発音が明瞭にできず、ごはんはユックリいただけますが、吸うことは少しもできません。<br/><br/>その家の祖父はひどい喘息で、十七年前、湯殿で縊死（いし）いたしました。<br/><br/>右はいかなる因縁でしょうか。<br/><br/>また御浄霊によって少しは発音が良くなるものでしょうか。<br/><br/> 【答】前者は、木龍ではない。<br/><br/>祖先のだれかが耳の罪を作った祟りである。<br/><br/> 後者は前世において、真っ二つに切られたか、または喉をなにかで突き潰されたかして死に、霊界で治らぬうちに再生したものである。<br/><br/> 【問】骨折して骨接ぎに行き、重なって着いてしまったものは、そのまま御浄霊で治るものでしょうか。<br/><br/> 【答】くっついたのは治らぬ。<br/><br/>骨はすぐに固まりやすいものである。<br/><br/> 【問】ある信者の家で、氏神様のお札が配られたのでいただきました。<br/><br/>いかがいたしたらよろしいでしょうか。<br/><br/> 【答】それはたたんで、しばらく光明如来様の前へ台の上にのせておいておけばよい。<br/><br/>そして一カ月か二カ月くらい経ったら御礼を言って焼けばよい。<br/><br/> 【問】信者さんの妹で四年前死亡し、母方の寺に土葬してありますが、差し支えはないでしょうか。<br/><br/> 【答】これは本当は嘘で、父方へ祀るべきであるが、三、四年も経ってなんでもないのだから、それでよろしい。<br/><br/>霊によって満足しないのがある。<br/><br/>なにごともなければそれで霊も満足しているわけだ。<br/><br/> 【問】吃りの原因。<br/><br/> 【答】頭と舌の連絡筋に固結せる毒素が神経を邪魔しているのが原因である。<br/><br/>頭の横から頬へかけて、熱のある部を浄霊すれば治る。<br/><br/> 【問】子供の手首の横すじは、たいてい二本きれておりますが、まれに一本のものがあって、俗に珠数〔数珠〕掛けと申して、長野県の田舎では短命だと言われていますが迷信でしょうか。<br/><br/> 【答】迷信である。<br/><br/>なにも意味はない。<br/><br/> 【問】子供のとき、眼と眼の間に青筋があると癇癪（かんしゃく）持ちと言っておりますが、いかがなものでしょうか。<br/><br/> 【答】その通りである。<br/><br/>見ただけで判る。<br/><br/>ふつうの人でも癇癪を起すと青筋がたつ。<br/><br/>嬉しいときは顔の皺が解けるということと反対で本能的のもので別に意味はない。<br/><br/> 【問】仏説の十万億土とはいかなる所でしょうか。<br/><br/> 【答】極楽浄土のことで、阿弥陀様のおそばのことで、昔はすべておおげさに言った。<br/><br/>例えば五十六億七千万年のごときもそうで、たいへん遠いようだが、すぐ目の先に来ている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

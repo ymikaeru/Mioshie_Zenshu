@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hitoryo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人療法と神療法 未発表、年代不詳 現代医学を最も端的に言えば人療法であり、吾らの療法は神療法である。<br><br>すなわち人療法は物質を以って物質である肉体を治癒するを目的とし、神療法は霊を以って治すので、一方は眼に見える物を以って、眼に見える体を対象とし、一方は眼に見えぬ霊を以って、眼に見えぬ霊体に体当りではない霊当りすると言う、ただそれだけの話である。<br><br> 従って前者は人間を物質のみとなし、全然霊を認めない、後者は人間は物質のみではない、その内面に霊が在りとする。<br><br>故に前者の観方をすると人間は物質である以上、大根や牛蒡（ごぼう）と同一であるから俎板（まないた）の上で切っても差支えないと言うことになる。<br><br>今矢鱈（やたら）に人を切ったり、一家心中や自殺などするのはこの観念に外ならないので、物質的見方がいかに危険であるかは今更言うまでもないが、これと同様の事は医学にも言える。<br><br>何となれば現代医学も人間を物質と見る以上危険の程度は同一と言えよう。<br><br>何よりも注射で皮膚に針を刺し、手術で肉を切り血を出す等の手段も大根と同一物質的扱いである以上、人間の尊さなどは認めないのである。<br><br> これに対し宗教観は人間の霊を認め物質以上の尊い存在としている、ところがここに重大事がある。<br><br> 右のごとく宗教は人間に霊があり、その霊が肉体を支配していると言うのである。<br><br>従って人間が病気に罹る事も、思想の動向も霊次第であるから、霊が主体で肉が従と言う事になる。<br><br>この理によって、病気の場合その病原は霊にあり、霊の状態そのままが肉体へ移写するのであるから、病気を根本的に治すには霊から治して行かなければならない。<br><br>すなわち病める個所は霊の方も病気に罹っている。<br><br>それはその患部は霊に曇りがあるので、その曇りを払拭（ふっしょく）しなければ肉の方の病気は絶対治るはずはないのである。<br><br>これは事実が証明している。<br><br>すなわち肉だけの病気を除去しても、霊の曇りを消滅しない限り、必ず元通り病気は発生する。<br><br>何よりも医学で治ったと安心しても、そのほとんどは再発する。<br><br>腫物など手術によって除去してもそのお隣りへ出来る、また除去するとまたその隣りへ出来ると言う事は、医家もよく経験する所であろう。<br><br>この理によって医学がいかに進歩しても肉のみを対象とする以上、この世界から病気を無くする事は不可能である。<br><br> 右のごとく万有の原則は霊主体従であり、人間の病気も前述のごとくである以上、これが認識出来なければ真の医学が生れるはずがないのである。<br><br>しかも真の健康人が増えれば、罪悪は跡を絶つのはもちろんである。<br><br>何となればこの見えざる力を知る以上、神を認めるからである。<br><br>この理によって今日のごとき底知れない程の社会悪の発生やそれにつれて不幸者が続出すると言う事も、唯物思想の囚（とりこ）となっているからで、ここに宗教の必要がある。<br><br> 次に注意しなければならない事は、単に宗教と言っても唯心の仮面を覆っている唯物宗教が相当ある事で、それらは宗教の蔭に隠れて、幾多の罪悪を行っているのである。<br><br>これこそ邪教であって、むしろ単なる一般唯物主義者より、社会に害を与えるのである。<br><br>何となれば、彼らのために新宗教の信用を害し、正しい宗教を傷つけるので、その罪は軽視すべからざるものがある。<br><br>今日世人がインチキ邪教に気をつけろ、うっかり触れるなと警戒の目を向けるのは、右のごとき邪宗教があるからである。<br><br>しかしかく言う邪教は遅かれ早かれ淘汰（とうた）される事は必定（ひつじょう）であるが、例え一時的でも社会に害毒を与える以上声を大にして警告するのである。<br><br>とは言うものの現代人が今日のごとき不安極まる世相にあっては、何らかの救を求むるのは当然であるが、それかと言って既成宗教ではあきたらないらしい。<br><br>新宗教は、危険であるからやむを得ず無信仰者になり、唯物観念を持ち続けつつ、不安裡（り）にその日、その日を送っているのが現状である。<br><br> 特にインテリ層はその観念が著しく自分が触れないばかりか、他人をも触れさせまいとしている。<br><br> 以上によってみるも、本教が誤解を受けると言う有力な原因が邪教にある事もよく解るであろう。<br><br> しからばこの邪教の根本は何であるかと言うと、これが右の妨害者である悪魔の仕業（しわざ）でなくて何であろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Divina e a Terapia Humana</h2>
 <p>A medicina moderna, em sua definição mais concisa, é uma terapia humana, ao passo que a nossa é uma terapia Divina. A primeira visa curar o corpo, que é matéria, por meio da própria matéria. A terapia Divina, por sua vez, cura por meio do espírito. Desse modo, uma se ocupa do corpo visível utilizando meios visíveis, enquanto a outra promove um contato direto com o corpo espiritual, invisível, por meio do espírito. A questão se resume a essa distinção fundamental.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>É inevitável que essas falsas religiões sejam, cedo ou tarde, expurgadas pela seleção natural do tempo; contudo, por causarem um mal imenso à sociedade, ainda que temporariamente, é nosso dever bradar um alerta. Dito isso, é natural que o homem moderno, imerso em uma era de extrema instabilidade, busque algum tipo de salvação. Todavia, as religiões estabelecidas já não parecem satisfazê-lo. Por considerar as novas religiões perigosas, ele acaba por se tornar descrente, apegando-se a uma concepção materialista e vivendo seus dias em constante ansiedade. Essa mentalidade é particularmente acentuada entre a camada intelectual, que não apenas evita qualquer contato com a religião, mas também se esforça para que outros façam o mesmo.</p>
 <p>Fica claro, por tudo o que foi dito, que uma das principais causas dos mal-entendidos a respeito de nossa Igreja reside na atuação dessas religiões espúrias.</p>
 <p>Qual é, então, a origem dessas religiões? O que mais poderia ser, senão a obra dos espíritos malignos, os grandes obstrutores de nosso caminho?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人療法と神療法 未発表、年代不詳 現代医学を最も端的に言えば人療法であり、吾らの療法は神療法である。<br/><br/>すなわち人療法は物質を以って物質である肉体を治癒するを目的とし、神療法は霊を以って治すので、一方は眼に見える物を以って、眼に見える体を対象とし、一方は眼に見えぬ霊を以って、眼に見えぬ霊体に体当りではない霊当りすると言う、ただそれだけの話である。<br/><br/> 従って前者は人間を物質のみとなし、全然霊を認めない、後者は人間は物質のみではない、その内面に霊が在りとする。<br/><br/>故に前者の観方をすると人間は物質である以上、大根や牛蒡（ごぼう）と同一であるから俎板（まないた）の上で切っても差支えないと言うことになる。<br/><br/>今矢鱈（やたら）に人を切ったり、一家心中や自殺などするのはこの観念に外ならないので、物質的見方がいかに危険であるかは今更言うまでもないが、これと同様の事は医学にも言える。<br/><br/>何となれば現代医学も人間を物質と見る以上危険の程度は同一と言えよう。<br/><br/>何よりも注射で皮膚に針を刺し、手術で肉を切り血を出す等の手段も大根と同一物質的扱いである以上、人間の尊さなどは認めないのである。<br/><br/> これに対し宗教観は人間の霊を認め物質以上の尊い存在としている、ところがここに重大事がある。<br/><br/> 右のごとく宗教は人間に霊があり、その霊が肉体を支配していると言うのである。<br/><br/>従って人間が病気に罹る事も、思想の動向も霊次第であるから、霊が主体で肉が従と言う事になる。<br/><br/>この理によって、病気の場合その病原は霊にあり、霊の状態そのままが肉体へ移写するのであるから、病気を根本的に治すには霊から治して行かなければならない。<br/><br/>すなわち病める個所は霊の方も病気に罹っている。<br/><br/>それはその患部は霊に曇りがあるので、その曇りを払拭（ふっしょく）しなければ肉の方の病気は絶対治るはずはないのである。<br/><br/>これは事実が証明している。<br/><br/>すなわち肉だけの病気を除去しても、霊の曇りを消滅しない限り、必ず元通り病気は発生する。<br/><br/>何よりも医学で治ったと安心しても、そのほとんどは再発する。<br/><br/>腫物など手術によって除去してもそのお隣りへ出来る、また除去するとまたその隣りへ出来ると言う事は、医家もよく経験する所であろう。<br/><br/>この理によって医学がいかに進歩しても肉のみを対象とする以上、この世界から病気を無くする事は不可能である。<br/><br/> 右のごとく万有の原則は霊主体従であり、人間の病気も前述のごとくである以上、これが認識出来なければ真の医学が生れるはずがないのである。<br/><br/>しかも真の健康人が増えれば、罪悪は跡を絶つのはもちろんである。<br/><br/>何となればこの見えざる力を知る以上、神を認めるからである。<br/><br/>この理によって今日のごとき底知れない程の社会悪の発生やそれにつれて不幸者が続出すると言う事も、唯物思想の囚（とりこ）となっているからで、ここに宗教の必要がある。<br/><br/> 次に注意しなければならない事は、単に宗教と言っても唯心の仮面を覆っている唯物宗教が相当ある事で、それらは宗教の蔭に隠れて、幾多の罪悪を行っているのである。<br/><br/>これこそ邪教であって、むしろ単なる一般唯物主義者より、社会に害を与えるのである。<br/><br/>何となれば、彼らのために新宗教の信用を害し、正しい宗教を傷つけるので、その罪は軽視すべからざるものがある。<br/><br/>今日世人がインチキ邪教に気をつけろ、うっかり触れるなと警戒の目を向けるのは、右のごとき邪宗教があるからである。<br/><br/>しかしかく言う邪教は遅かれ早かれ淘汰（とうた）される事は必定（ひつじょう）であるが、例え一時的でも社会に害毒を与える以上声を大にして警告するのである。<br/><br/>とは言うものの現代人が今日のごとき不安極まる世相にあっては、何らかの救を求むるのは当然であるが、それかと言って既成宗教ではあきたらないらしい。<br/><br/>新宗教は、危険であるからやむを得ず無信仰者になり、唯物観念を持ち続けつつ、不安裡（り）にその日、その日を送っているのが現状である。<br/><br/> 特にインテリ層はその観念が著しく自分が触れないばかりか、他人をも触れさせまいとしている。<br/><br/> 以上によってみるも、本教が誤解を受けると言う有力な原因が邪教にある事もよく解るであろう。<br/><br/> しからばこの邪教の根本は何であるかと言うと、これが右の妨害者である悪魔の仕業（しわざ）でなくて何であろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hiropon2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ヒロポン中毒 『光』36号、昭和24(1949)年11月19日発行 最近覚醒剤としてのヒロポン中毒がやかましくいわれ、禁止の運命になった事は人の知るところである、これはもっともな話で、何しろ青少年層にまで非常な勢をもって浸潤しつつある事実で実におそるべきである、したがって禁圧の手段も当然どころかむしろ遅きに過ぎるくらいである。<br><br> 右について、今日一般の気のつかない重大事をかいてみるが、それは吾らが常に主張するところの一般薬剤の中毒である、すなわち消化薬も、結核や肺炎の特効薬も感冒薬も、一切の薬剤は一の例外もなく中毒を起すのである、ただ一般薬剤はヒロポンのごとく急激な中毒作用を起さないから気がつかないまでである、その二つ三つの例をかいてみるが、彼の消化薬常用者が慢性消化不良である事や便秘症が下剤を用いなければ便通がない事も、熱性患者が解熱剤の常習者となり、コカインの鼻口吸引等なども無論薬剤中毒となっているのである、以上によってみても今日の人間の大部分は薬剤中毒に罹っており、これがため神経衰弱も病弱者も結核も短命も、ことごとくそうであって、実に恐るべきである。<br><br> これによってみても人類救済の根本としては薬剤の怖るべき事を一般に認識させる事で、これほど大きな救世の福音はあるまい。<br><br> 右について左の記事は参考になると思う。<br><br> 昭和二十四年十一月六日付東京日々新聞所載、売れっ子悲劇の因 ヒロポン愛用者列伝 ミス・ワカナがヒロポンのために死亡、永田キングが日劇の楽屋で倒れ関屋五十二が二十の扉をとちり松平晃は声をつぶしまた牧野正博が女房轟夕起子に愛想をつかされ夫婦けんかの結果、一時別れ話まで出たのもヒロポンのためといわれる、また霧島昇、松原操夫妻も愛好者であったが極力止めるよう努力しており、灰田勝彦も恐ろしさを悟って専らビタミンとホルモン注射に転向したと評判、その他脚本家小国英雄、映画演出家亀井文夫、軽演劇の藤尾純、桜むつ子、山茶花究、歌手近江俊郎、小畑実、落語の金馬、歌笑、声帯模写木下華声、講談一龍斎貞山、舞踊荒木陽、アナウンサー和田信賢、作家坂口安吾、菊田一夫なども愛好者でありその他無名のバンドマン、裸ショウの女達のヒロポンのまんえんぶりは大変だ
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Veneno Oculto nos Medicamentos</h2>
 <p>É de conhecimento geral o recente alarme em torno da intoxicação por Hiropon, um estimulante cujo uso caminha para a proibição. Trata-se de uma medida mais do que justificada, pois a sua proliferação, que avança com ímpeto assustador especialmente entre a juventude, constitui um fato verdadeiramente aterrador. Nesse sentido, a ação para coibir seu uso não é apenas apropriada, mas pode até ser considerada tardia.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>A morte de Miss Wakana, atribuída ao uso de Hiropon, o colapso de Nagata King nos bastidores do teatro Nichigeki, o erro crasso de Sekiya Gojuni durante o programa "Vinte Portas" e a voz arruinada de Matsudaira Akira são exemplos contundentes. Diz-se também que o vício de Makino Masahiro foi o que desgastou o relacionamento com sua esposa, Yukiko Todoroki, a ponto de o casal, após um desentendimento, cogitar a separação.</p>
 <p>O casal Kirishima Noboru e Matsubara Misao também era adepto da substância, mas relata-se que ambos se esforçam veementemente para abandonar o hábito. Katsuhiko Haida, por sua vez, ao compreender os perigos, teria mudado seu foco exclusivamente para injeções de vitaminas e hormônios.</p>
 <p>A lista de adeptos conhecidos prossegue, incluindo o roteirista Hideo Oguni, o diretor de cinema Fumio Kamei, os atores de comédia Jun Fujio, Mutsuko Sakura e Kyu Sazanka, os cantores Toshio Omi e Minoru Obata, os contadores de histórias cômicas de rakugo, Kinba e Kasho, o imitador de vozes Kasei Kinoshita, o contador de histórias de kodan, Teizan Ichiryusai, o dançarino Yo Araki, o locutor Nobukata Wada e os escritores Ango Sakaguchi e Kazuo Kikuta. Além destes, a disseminação do Hiropon entre músicos anônimos e dançarinas de espetáculos de nudez atinge proporções alarmantes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ヒロポン中毒 『光』36号、昭和24(1949)年11月19日発行 最近覚醒剤としてのヒロポン中毒がやかましくいわれ、禁止の運命になった事は人の知るところである、これはもっともな話で、何しろ青少年層にまで非常な勢をもって浸潤しつつある事実で実におそるべきである、したがって禁圧の手段も当然どころかむしろ遅きに過ぎるくらいである。<br/><br/> 右について、今日一般の気のつかない重大事をかいてみるが、それは吾らが常に主張するところの一般薬剤の中毒である、すなわち消化薬も、結核や肺炎の特効薬も感冒薬も、一切の薬剤は一の例外もなく中毒を起すのである、ただ一般薬剤はヒロポンのごとく急激な中毒作用を起さないから気がつかないまでである、その二つ三つの例をかいてみるが、彼の消化薬常用者が慢性消化不良である事や便秘症が下剤を用いなければ便通がない事も、熱性患者が解熱剤の常習者となり、コカインの鼻口吸引等なども無論薬剤中毒となっているのである、以上によってみても今日の人間の大部分は薬剤中毒に罹っており、これがため神経衰弱も病弱者も結核も短命も、ことごとくそうであって、実に恐るべきである。<br/><br/> これによってみても人類救済の根本としては薬剤の怖るべき事を一般に認識させる事で、これほど大きな救世の福音はあるまい。<br/><br/> 右について左の記事は参考になると思う。<br/><br/> 昭和二十四年十一月六日付東京日々新聞所載、売れっ子悲劇の因 ヒロポン愛用者列伝 ミス・ワカナがヒロポンのために死亡、永田キングが日劇の楽屋で倒れ関屋五十二が二十の扉をとちり松平晃は声をつぶしまた牧野正博が女房轟夕起子に愛想をつかされ夫婦けんかの結果、一時別れ話まで出たのもヒロポンのためといわれる、また霧島昇、松原操夫妻も愛好者であったが極力止めるよう努力しており、灰田勝彦も恐ろしさを悟って専らビタミンとホルモン注射に転向したと評判、その他脚本家小国英雄、映画演出家亀井文夫、軽演劇の藤尾純、桜むつ子、山茶花究、歌手近江俊郎、小畑実、落語の金馬、歌笑、声帯模写木下華声、講談一龍斎貞山、舞踊荒木陽、アナウンサー和田信賢、作家坂口安吾、菊田一夫なども愛好者でありその他無名のバンドマン、裸ショウの女達のヒロポンのまんえんぶりは大変だ</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

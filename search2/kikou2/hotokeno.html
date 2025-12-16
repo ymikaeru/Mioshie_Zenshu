@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hotokeno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏の涙 メシヤ中教会 藤枝 茂 『栄光』158号、昭和27(1952)年5月28日発行 降りみ降らずみの雨もとうとう本降りになってしまった。<br><br>穂の出揃った麦畠の間をぬって、自動車は今法隆寺へ向って進んでいる。<br><br>早朝からの超スピードのお寺廻りも今や最後のコースへかかって来た。<br><br>車中ではさっき見て来た薬師寺の本尊仏を、米国人がまるで夢の様な莫大な金額で買い取ろうと言って来た話やら、法隆寺で見た横笛と滝口入道のやり取りした恋文でつくったと称する横笛の像の真偽やら、それにしても悲恋の横笛も、度々文章に書かれて世の同情を買い、さぞ浮ばれているだろう等と話はつきない。<br><br>「車中から見る奈良の雨景は又一段と趣きがありますね。<br><br>青によし奈良の都とは言わずに、雨によし奈良の都ではどうかしら」等と洒落て見たりして、程なく目的の法隆寺につく。<br><br>他の寺と違いさすが仏都の中でも一段と位をもったところだけに参詣人は後を絶たない。<br><br>明主様には、早や御車から出られ御自ら傘を御持ちになり、例の少々前コゴミの御姿でどんどん山門へ向って進まれる。<br><br>他の人はと見ると車中では大いに元気でもいざ雨の中へとなると急に疲れが出るらしい、これも美術愛好心に正比例するものか？ 金堂は今改築中で陳列の宝物は全部宝物館にまとめられているとの事、すぐそちらへまわる。<br><br>上ってみるとこの雨の中を団体やら色々で押すな押すなの盛況。<br><br>勿体ない事ですが、明主様も人々と同じ様に藁草履をおはきになり、特に丹念に御覧になられる。<br><br>浅学寡聞の私も一度や二度は聞いたり写真で見たりしたものもあるので、一生懸命に見てゆく。<br><br>御案内の山崎さんが色々申し上げているので傍へ寄ると、明主様も時々何か小声で山崎さんに仰云って居られる。<br><br>それに合槌を打つ様に「全くしようがありません、こう揃っていちゃ！全然問題になりません、余り立派なものばかりでいやんなっちゃう！！」の連発である。<br><br>人間は面白いもので極まると転ずると云うがこんな逆な表現がぴったり来るのはおかしい。<br><br> 明主様の実に御早い事、感嘆の声を残されたかと思うともう次のへ進んで御覧になっていられる。<br><br>とにかく急所々々と見てゆかれるので、私も勉強になると思い順次その後を追う様にしてゆくが一々記憶するひまもない。<br><br>何しろ好きな人はその一体だけを鑑賞する為に随分遠方からやって来て宿へ腰を据えて何日でも通うとか、全くそれも無理はないと思う。<br><br>とにかく千数百年前にこれだけ立派なものが造られている。<br><br>その昔仏教芸術の黄金時代、時の天皇を中心に人々は如何に芸術を愛好し、驚異の眼と敬虔の心を以て参詣し、又協力と平和の美わしい生活が営まれていたであろうか。<br><br>そして今や明主様の御手によって芸術と科学の粋を集めて創り成される地上天国とは一体どんなものであろうかと楽しい幻想を追いつつ表へ出た。<br><br>先刻まで降りしきった雨もいくらか小やみになっている。<br><br>後は夢殿と中宮寺を残すのみとなった。<br><br>明主様は更に御疲れの色も見えずいつも先頭で、御供の人達はどうしても後れ勝ちとなる。<br><br>玉砂利を踏む人々は古今最高の芸術品に酔わされ、憑かれたものの如く黙々として歩を運ぶ。<br><br> ふと眼前に八角堂の様な御堂が一段と高くなっている。<br><br>まわりを取り巻く欄干の古びた朱色が雨に濡れて一層趣を添えている。<br><br>これが夢殿？と自問しながら石段を上ると右手へ回ったところから御本尊を拝む様になっている。<br><br>中はうす暗くてよく見ないと判らない。<br><br>明主様は御身をずっと前の方へのばされる様な姿勢で御厨子の中を御覧になる。<br><br>山崎さんが手持ちの懐中電灯で厨子の中の御仏体を照らしながら小声で早口に御説明申し上げている「藤原時代より明治の頃まで全く御秘仏として誰も拝む事を許されず、遠方から遥拝するのみで、この御厨子等も塵にまみれていたそうです。<br><br>それが維新後開扉されたところがこの立派な御像です、実に不思議です。<br><br>今でも外のと違い年中参観出来ると云うものでない様です。<br><br>運よく開扉の時にぶつかりまして……」明主様はただ深く頷かれ、松井さんに御声をかけられ、足下にある表示の立札を御指しになった。<br><br>中ばかり気をとられた私はそれを見て声を立てるばかりだった。<br><br>救世観世音と書かれているではないか。<br><br>メシヤ観音！そしてその御前に立たれる明主様。<br><br>私は神秘の感に打たれて再び厨子の中を覗き込んだ。<br><br> 聖徳太子は史上第一等の御方であられた事は衆目の一致したところ、誰も否むものはない。<br><br> 斑鳩の聖の宮と讃えられて千余年の今に至るまで世の崇敬の的となり、その建立にかかる法隆寺は芸術の故郷として年ふる毎にその輝きをまして来た。<br><br>その昔太子は何を思われたであろう。<br><br>行くところ可ならざるなき太子が宗教芸術、教育、建築、法律社会制度の改革とあらゆる面に手を染められ、しかも着々としてその実を挙げられ当時としては想像もおよばぬ盛代となったのであろう。<br><br>しかし天の時未だ至らず太子の希いは夢であった。<br><br>そして夢殿の中へ、太子の悲願はメシヤ観音と共に押込められてしまった。<br><br>ここに安置の救世観世音は太子の面影をうつしたものとも云い、又太子の信仰の対照〔象〕であったとも云う、月日は百代の過客であって、万物はいつ迄も、そしてこの美わしくも尊い太子の同じ姿ではいない。<br><br>希いは暁とも云うべき明治の初め、第一回の岩戸開きは行われ、日の目を見る事となり、今講和発効の意義ある日に遥か熱海より下行のメシヤ様御手ずからの第二の岩戸開きであろう。<br><br>天の時いよいよ迫り、今日この喜びに遇う、太子の御魂はいかに喜ばれているであろうか。<br><br>降る雨は太子の御喜びの涙であり、寺々に鎮まります諸善諸仏の歓喜の涙であろうか。<br><br>又諸悪諸業の悔悟の涙ででもあろうか。<br><br>最後に中宮寺にゆき弥勒菩薩の傑作を拝す。<br><br>早や外は暮れかかっている。<br><br>ようやく一日の行程を終り、ぐったりと満足感にひたり車中の人となった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Lágrimas de Buda</h2>
 <p>A chuva intermitente finalmente desabou em um aguaceiro torrencial. O automóvel avançava, cortando a paisagem dos campos de trigo, cujas espigas já haviam despontado, rumo ao Templo Horyu-ji. O roteiro de visitas aos templos, percorrido em velocidade vertiginosa desde a madrugada, aproximava-se de sua etapa final. No interior do veículo, as conversas fluíam sobre os mais variados temas: a história de um americano que oferecera uma quantia assombrosa, quase onírica, pela estátua principal do Templo Yakushi-ji; a discussão sobre a veracidade de uma estátua de Yokobue, que se dizia ter sido esculpida a partir das cartas de amor trocadas com Takiguchi Nyudo; e a reflexão de que o trágico romance de Yokobue, tantas vezes retratado em obras literárias, certamente lhe rendera a compaixão do mundo e, quiçá, a salvação de seu espírito. Em meio a tudo, até mesmo um gracejo surgiu: "A paisagem chuvosa de Nara tem um encanto todo especial. Em vez de 'Nara, a bela capital de matizes verdejantes', que tal 'Nara, a bela capital sob a chuva'?". Em pouco tempo, chegamos ao nosso destino, o Templo Horyu-ji. Diferente dos demais, este lugar se destaca por sua posição preeminente na antiga capital budista, e o fluxo de peregrinos é incessante.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>De repente, surgiu diante de nós um pavilhão octogonal, erguido sobre uma plataforma elevada. O tom rubro e desgastado de suas balaustradas, umedecido pela chuva, conferia-lhe um encanto ainda mais profundo. "Seria este o Yumedono?", questionei-me em silêncio enquanto subia os degraus de pedra. O acesso para contemplar a imagem principal se dava pela direita. O interior, em penumbra, exigia que os olhos se ajustassem para discernir as formas. Meishu-Sama inclinou-se acentuadamente, perscrutando o interior do relicário. O Sr. Yamazaki, com uma lanterna em mãos, iluminou a estátua e começou a explicar em voz baixa e apressada: "Esta imagem foi mantida como um tesouro secreto desde a era Fujiwara até a era Meiji. Ninguém tinha permissão para vê-la, sendo venerada apenas à distância. O relicário estava coberto de poeira. Após a Restauração Meiji, quando foi aberto, esta magnífica estátua foi revelada. É um verdadeiro milagre. Ainda hoje, diferentemente de outras, não está em exibição permanente. Tivemos a sorte de encontrá-la exposta...". Meishu-Sama apenas assentiu profundamente com a cabeça. Em seguida, dirigiu-se ao Sr. Matsui e apontou para uma placa indicativa aos seus pés. Absorto como estava com o interior do relicário, só então notei a inscrição e mal pude conter minha surpresa. Ali estava escrito: Kuse Kannon (救世観世音). A Kannon Salvadora do Mundo! O Messias Kannon! E, diante dela, encontrava-se Meishu-Sama. Fui tomado por um sentimento de profundo mistério e voltei a olhar para o interior do relicário.</p>
 <p>É consenso universal que o Príncipe Shotoku foi uma das figuras mais proeminentes da história; ninguém ousa negá-lo. Venerado como o "Santo de Ikaruga", ele se tornou um farol de reverência por mais de mil anos, e o Templo Horyu-ji, por ele fundado, consolidou-se como o berço da arte, cujo esplendor aumenta a cada ano que passa. Em que teria o Príncipe pensado em sua época? Ele, cujo talento parecia não conhecer limites, atuou em todas as frentes: arte religiosa, educação, arquitetura, direito e reformas sociais, alcançando feitos extraordinários e inaugurando uma era de prosperidade inimaginável para aquele tempo. Contudo, o tempo do Céu ainda não havia chegado, e o desejo do Príncipe permaneceu um sonho. Sua magna aspiração foi, então, confinada no Yumedono, junto à Kuse Kannon. Diz-se que esta Kuse Kannon, aqui entronizada, reflete a imagem do próprio Príncipe, ou que era o objeto de sua fé. O tempo, contudo, é um viajante de inúmeras gerações, e nada, nem mesmo a bela e venerável imagem do Príncipe, permanece imutável. A grande aspiração do Príncipe viu a luz do dia no alvorecer da era Meiji, no que poderíamos chamar de uma primeira "abertura da Porta de Pedra". Agora, neste dia significativo em que o tratado de paz entrou em vigor, a vinda de Meishu-Sama desde a distante Atami representa, sem dúvida, a segunda "abertura da Porta de Pedra", realizada por suas próprias mãos. O tempo do Céu se aproxima. Como deve estar exultante o espírito do Príncipe Shotoku por testemunhar esta alegria! A chuva que cai seriam suas lágrimas de júbilo? Ou seriam as lágrimas de felicidade de todos os budas e divindades benevolentes que repousam nos templos? Ou, ainda, as lágrimas de arrependimento dos inúmeros espíritos do mal e de seus carmas?</p>
 <p>Para finalizar, visitamos o Templo Chugu-ji, onde reverenciamos a obra-prima do Bodhisattva Miroku. O dia já se despedia, e a escuridão começava a envolver a paisagem. Finalmente, a jornada de um dia chegara ao fim. Exausto, mas imerso em uma profunda sensação de plenitude, acomodei-me no carro para a volta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏の涙 メシヤ中教会 藤枝 茂 『栄光』158号、昭和27(1952)年5月28日発行 降りみ降らずみの雨もとうとう本降りになってしまった。<br/><br/>穂の出揃った麦畠の間をぬって、自動車は今法隆寺へ向って進んでいる。<br/><br/>早朝からの超スピードのお寺廻りも今や最後のコースへかかって来た。<br/><br/>車中ではさっき見て来た薬師寺の本尊仏を、米国人がまるで夢の様な莫大な金額で買い取ろうと言って来た話やら、法隆寺で見た横笛と滝口入道のやり取りした恋文でつくったと称する横笛の像の真偽やら、それにしても悲恋の横笛も、度々文章に書かれて世の同情を買い、さぞ浮ばれているだろう等と話はつきない。<br/><br/>「車中から見る奈良の雨景は又一段と趣きがありますね。<br/><br/>青によし奈良の都とは言わずに、雨によし奈良の都ではどうかしら」等と洒落て見たりして、程なく目的の法隆寺につく。<br/><br/>他の寺と違いさすが仏都の中でも一段と位をもったところだけに参詣人は後を絶たない。<br/><br/>明主様には、早や御車から出られ御自ら傘を御持ちになり、例の少々前コゴミの御姿でどんどん山門へ向って進まれる。<br/><br/>他の人はと見ると車中では大いに元気でもいざ雨の中へとなると急に疲れが出るらしい、これも美術愛好心に正比例するものか？ 金堂は今改築中で陳列の宝物は全部宝物館にまとめられているとの事、すぐそちらへまわる。<br/><br/>上ってみるとこの雨の中を団体やら色々で押すな押すなの盛況。<br/><br/>勿体ない事ですが、明主様も人々と同じ様に藁草履をおはきになり、特に丹念に御覧になられる。<br/><br/>浅学寡聞の私も一度や二度は聞いたり写真で見たりしたものもあるので、一生懸命に見てゆく。<br/><br/>御案内の山崎さんが色々申し上げているので傍へ寄ると、明主様も時々何か小声で山崎さんに仰云って居られる。<br/><br/>それに合槌を打つ様に「全くしようがありません、こう揃っていちゃ！全然問題になりません、余り立派なものばかりでいやんなっちゃう！！」の連発である。<br/><br/>人間は面白いもので極まると転ずると云うがこんな逆な表現がぴったり来るのはおかしい。<br/><br/> 明主様の実に御早い事、感嘆の声を残されたかと思うともう次のへ進んで御覧になっていられる。<br/><br/>とにかく急所々々と見てゆかれるので、私も勉強になると思い順次その後を追う様にしてゆくが一々記憶するひまもない。<br/><br/>何しろ好きな人はその一体だけを鑑賞する為に随分遠方からやって来て宿へ腰を据えて何日でも通うとか、全くそれも無理はないと思う。<br/><br/>とにかく千数百年前にこれだけ立派なものが造られている。<br/><br/>その昔仏教芸術の黄金時代、時の天皇を中心に人々は如何に芸術を愛好し、驚異の眼と敬虔の心を以て参詣し、又協力と平和の美わしい生活が営まれていたであろうか。<br/><br/>そして今や明主様の御手によって芸術と科学の粋を集めて創り成される地上天国とは一体どんなものであろうかと楽しい幻想を追いつつ表へ出た。<br/><br/>先刻まで降りしきった雨もいくらか小やみになっている。<br/><br/>後は夢殿と中宮寺を残すのみとなった。<br/><br/>明主様は更に御疲れの色も見えずいつも先頭で、御供の人達はどうしても後れ勝ちとなる。<br/><br/>玉砂利を踏む人々は古今最高の芸術品に酔わされ、憑かれたものの如く黙々として歩を運ぶ。<br/><br/> ふと眼前に八角堂の様な御堂が一段と高くなっている。<br/><br/>まわりを取り巻く欄干の古びた朱色が雨に濡れて一層趣を添えている。<br/><br/>これが夢殿？と自問しながら石段を上ると右手へ回ったところから御本尊を拝む様になっている。<br/><br/>中はうす暗くてよく見ないと判らない。<br/><br/>明主様は御身をずっと前の方へのばされる様な姿勢で御厨子の中を御覧になる。<br/><br/>山崎さんが手持ちの懐中電灯で厨子の中の御仏体を照らしながら小声で早口に御説明申し上げている「藤原時代より明治の頃まで全く御秘仏として誰も拝む事を許されず、遠方から遥拝するのみで、この御厨子等も塵にまみれていたそうです。<br/><br/>それが維新後開扉されたところがこの立派な御像です、実に不思議です。<br/><br/>今でも外のと違い年中参観出来ると云うものでない様です。<br/><br/>運よく開扉の時にぶつかりまして……」明主様はただ深く頷かれ、松井さんに御声をかけられ、足下にある表示の立札を御指しになった。<br/><br/>中ばかり気をとられた私はそれを見て声を立てるばかりだった。<br/><br/>救世観世音と書かれているではないか。<br/><br/>メシヤ観音！そしてその御前に立たれる明主様。<br/><br/>私は神秘の感に打たれて再び厨子の中を覗き込んだ。<br/><br/> 聖徳太子は史上第一等の御方であられた事は衆目の一致したところ、誰も否むものはない。<br/><br/> 斑鳩の聖の宮と讃えられて千余年の今に至るまで世の崇敬の的となり、その建立にかかる法隆寺は芸術の故郷として年ふる毎にその輝きをまして来た。<br/><br/>その昔太子は何を思われたであろう。<br/><br/>行くところ可ならざるなき太子が宗教芸術、教育、建築、法律社会制度の改革とあらゆる面に手を染められ、しかも着々としてその実を挙げられ当時としては想像もおよばぬ盛代となったのであろう。<br/><br/>しかし天の時未だ至らず太子の希いは夢であった。<br/><br/>そして夢殿の中へ、太子の悲願はメシヤ観音と共に押込められてしまった。<br/><br/>ここに安置の救世観世音は太子の面影をうつしたものとも云い、又太子の信仰の対照〔象〕であったとも云う、月日は百代の過客であって、万物はいつ迄も、そしてこの美わしくも尊い太子の同じ姿ではいない。<br/><br/>希いは暁とも云うべき明治の初め、第一回の岩戸開きは行われ、日の目を見る事となり、今講和発効の意義ある日に遥か熱海より下行のメシヤ様御手ずからの第二の岩戸開きであろう。<br/><br/>天の時いよいよ迫り、今日この喜びに遇う、太子の御魂はいかに喜ばれているであろうか。<br/><br/>降る雨は太子の御喜びの涙であり、寺々に鎮まります諸善諸仏の歓喜の涙であろうか。<br/><br/>又諸悪諸業の悔悟の涙ででもあろうか。<br/><br/>最後に中宮寺にゆき弥勒菩薩の傑作を拝す。<br/><br/>早や外は暮れかかっている。<br/><br/>ようやく一日の行程を終り、ぐったりと満足感にひたり車中の人となった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

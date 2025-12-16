@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270506</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月6日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月六日 【御教え】 この間奈良から京都方面の仏教美術ですね。<br><br>たいへん良いけれども、まあお寺巡回ですね。<br><br>まあ大いに得るところがあったんです。<br><br>それをざっと書いてみたんですが、今読ませます。<br><br> （御論文「奈良美術行脚」）【栄光 一五六号】 これはざっと見たままを書いたんですが、ここにおもしろい話があるのは、この間京都でもちょっと話しましたけれども、法隆寺に夢殿という小さい祠がありますが、あそこは一年に一回くらいしか見せないんです。<br><br>ところが先月の二十九日に私が行った時に珍しく開くというんですよ。<br><br>こんなことはないんですね。<br><br>これはなにか神秘なことがあるに違いないと思って、それからそこに行って、扉が開いているんです。<br><br>それで内を見ると、薄っ暗になって、はっきりは分からないが、等身大の観音様があるんです。<br><br>それを見ますと、その観音様からなんとも言えない霊気がスッと入ってきたんです。<br><br>これはおかしいなと思ったが、そうするとなんだか嬉しいような気持ちになって、涙が出そうになった。<br><br>それでしばらく私も恍惚としていた。<br><br>見ると、名前が救世（ぐせ）観世音としてあるんです。<br><br>これは本当から言うと救世観世音といって、これはあるにはあるんです。<br><br>親鸞の書いたものなんかに救世観世音なんかある。<br><br>それを私が救世（メシヤ）観音という名前をつけたんですね。<br><br>これは私が初めてつけたんですが、ところがそういった仏像に出る観音というのはないですね。<br><br>今まで有名なそういうものを見たことがないですからね。<br><br>ところが夢殿というのは、聖徳太子が始終そこを居間にしていたんですね。<br><br>そこでいろんなことをやったんです。<br><br>で、お亡くなりになってから、そこを夢殿と称して救世観音を祀って、締め切りにしていたわけですね。<br><br>ここに神秘があるんです。<br><br>というのは、元来聖徳太子という方は、やはり観音様の化身なんです。<br><br>とにかく日本に仏教が渡ってきたのは、欽明天皇の時ですが、ちょっと聖徳太子の天平から見て二百年くらい前ですね。<br><br>それを聖徳太子が奈良を地点として仏教を弘めたんです。<br><br>一時たいへんなさかんになったわけですね。<br><br>それがために奈良にお寺がたくさんできたわけで、初め聖徳太子が七堂伽藍――あれを法隆寺のある所に作られたわけなんです。<br><br>まあ極楽浄土の形ですね。<br><br>ちょうど私がやっている地上天国の模型と同じことなんです。<br><br>まあ仏教的に言えば七堂伽藍なんです。<br><br>とか、祇園精舎ですね。<br><br>私は仏教的でなく世界的、現代的に地上天国としているんですが――そんなわけで非常に仏教がさかんになって、結局東大寺ができて――奈良の大仏ですよ。<br><br>つまり奈良の大仏なんていうのは、今日でも作るのは難しいかもしれないですね。<br><br>それをあの当時、そんなような冶金やなにかの技術がない時に、ともかくあんなたいしたものを作ったんですから、本当に信仰の熱ですね。<br><br>あの大仏を作った記録なんかを見ると、実に涙ぐましいことがたくさんありますね。<br><br>金なんかが足りなくて、いろんなものを――鍋釜を鋳したりして、金を――金というが材料ですね。<br><br>大仏様の銅を集めたりなんかしたわけですね。<br><br>というのは、いかに仏教信仰が燃えていたかが分かるんです。<br><br>そんなわけで奈良が日本仏教の発祥地ですね。<br><br>発祥地にされたのは聖徳太子なんですからね。<br><br>しかも聖徳太子はああいった仏教美術を作ったばかりでなく、その他のこともいろいろやられたんですね。<br><br>有名な十七条の――あの当時の憲法ですね。<br><br>だから、つまり憲法の元祖ですね。<br><br>もっともその時分には十七条ですんだんですから実に簡単なものなんで、今に較べれば何十分の一かもしれない。<br><br>今のは、第何百何十条なんていって、毎年議会で増やしつつあるんですから、その当時と較べてみると、いかに箇条書き的の量が増えているかが分かる。<br><br>そうすれば、法律が増えれば犯罪者が減るとすれば、その当時より今の方が犯罪者が減りそうなものだが、法律の少ない時の方が犯罪が少なくて、法律が多くなった時の方が増えている。<br><br>もっとも、犯罪者が増えるから法律が増えるのかもしれないが、それはわれわれから言えば肝腎なことを疎かにしているので、いくらやってもしようがない。<br><br>そんなわけで、聖徳太子という方はあらゆる方面に精通していたんですね。<br><br>だから聖徳太子は、他の仏教の開祖なんかと違って、あんまり神秘感はない人ですね。<br><br>だから仏教文化を作られたんですね。<br><br>というのは、この方は千手観音の小さいのと思えば良いですね。<br><br>あらゆることに精通している。<br><br>それで救世観音様が私に懸ったんですよ。<br><br>懸って、これから大いにメシヤ教のために働かれるんです。<br><br>それが今まで――千二百年という間夢殿に時を待たれていたんですね。<br><br>神様の方でも勝手にはできないので、時期時期があって、時期が来ればお働きができるんです。<br><br>そんなわけでいよいよ時期が来たんです。<br><br>ですから、つまり私はやはり聖徳太子と非常に深い因縁があるんです。<br><br>だから、今私がやっていることは聖徳太子のやられたことを世界的に広げたと、こう思ってみるんですね。<br><br>私は今千手観音の働きをしているんです。<br><br>だからなんでも分かるし、なんでも手を出すし、なんでもやるんですね。<br><br>これはつまり千手観音を御神体にしてますが――いつか家で御神体にしていた大きいあれが、それを描いたものなんですがね。<br><br>そんなわけで現在聖徳太子のその仕事を、世界的に私がやられると、こう思えば分かるわけですね。<br><br>それで夢殿という名前もおもしろいと思いますね。<br><br>つまり私がやっていることも夢の実現ですからね。<br><br>よく、思想とかなんか大きな希望ですね。<br><br>そういうことを、夢ということをよく言いますがね。<br><br>実際その時の聖徳太子様の夢ですね。<br><br>夢殿なんて名前はあんまりないですからね。<br><br>おもしろいと思いますね。<br><br>で、今度行って救世観音の――救世観音を「メシヤ」と私が名をつけたということも、その観音様とよく合っているわけですがね。<br><br>ですから今度あっちに行ったのは、仏教芸術をいろいろ調べる意味と、それから今の夢殿ですね。<br><br>それがたいへんな御経綸の一つだったですね。<br><br> それから、京都にいずれ地上天国を造るという、そういうような敷地があるというので見ましたがね。<br><br>なかなか、条件は大体合っているんですね。<br><br>いずれその辺りの地点にできるだろうと思ってますがね。<br><br>これは時期が来ると神様がちゃんとやられるんだから、そういろいろ考える必要はないと思うんです。<br><br>で、京都は去年から三度目ですが、大体分かってきましたけれども、どうしても将来日本の美術の中心ですね。<br><br>そういう所になるべく、今まで――千年も前から準備されたということはよく分かるんです。<br><br>それは神様の方は何万年何十万年前に準備されていたので、人間としての準備は千年くらい前から準備されたということは分かりますが、実に今さら言う必要はないくらいですが、地形ですね。<br><br>いろいろ山の形だとか、水の流れ方、それで一種の霊気ですね。<br><br>霊気と言いますかね。<br><br>空気と霊気と両方の様相ですね。<br><br>実に良いですね。<br><br>とにかくなんとなく気が落ちついて、上品と言いますかね。<br><br>いやらしい感じがないですね。<br><br>ですから将来の、やはり地上天国としての様相がよく備わっているんですね。<br><br>山の形といい、木の色から木の種類から、配置の具合、すべて関東やそういう他の土地とは違います。<br><br>だから、将来一大地上天国が造られるということは分かるんですね。<br><br> そんなようなわけで京都、それから奈良も今にもっと良くなりましょうけれども、しかし奈良はたいしたことはないです。<br><br>ただ古代仏教の遺蹟という程度で、奥床しい一種の寂た地上天国的のようになるわけですね。<br><br>いずれは京都の次に奈良にも地上天国を造るかも分かりませんがね。<br><br>奈良にはお寺はたくさんあるが、元から定まったような宗旨というのがないですね。<br><br>それは寺によって便宜上属した寺はありますがね。<br><br>真宗とか、天台宗とかに属したのはありますが、中途からですね。<br><br>最初はそれがなかったですね。<br><br>仏教でも、原始仏教と言いますが、奈良のが、あれは原始仏教なんです。<br><br>仏教は最初、原始仏教、それから山岳仏教ですね――山を中心とする仏教。<br><br>それから世俗仏教ですね。<br><br>つまり町に出た仏教ですね。<br><br>そういう順序になってきたんですね。<br><br>そのうちの原始仏教が奈良です。<br><br>そこでお寺の在り方に良いところがあるんです。<br><br>偏らないでね。<br><br>で、結局中心はどこでも、みんな観音になっています。<br><br>観音と薬師如来。<br><br>薬師如来は観音様ですからね。<br><br>やはり日本仏教の根本ですね。<br><br>根本も観音様というわけですね。<br><br>で、まあ――さっきも読みましたけれども、あの時代の特に薬師寺の本尊ですね。<br><br>その時代に銅でできた等身大よりちょっと大きいくらいですが、あの作品は実にたいしたものです。<br><br>光背は後でできたものですが、火事で焼けたので光背なんか焼けたものと見えますね。<br><br>それで仏体だけはほとんど完全にしてますが、少し腕の所が取れた所があります。<br><br>これはその時になにか大きな材木でも倒れたものかもしれないですね。<br><br>そうしておもしろいのは、裾の方なんかにいろいろ、毛彫ですが、彫刻がたくさんあるんです。<br><br>たいてい龍に取り巻かれてね。<br><br>その中に裸の土人がなにかやっている――インディアンですね。<br><br>そういう点なんかが、なかなか変わった点があるんですね。<br><br>それで一番良い所は、お顔から手足ですね。<br><br>それから身体全体ですね。<br><br>実に均整が取れているんです。<br><br>一点の非の打ち所がないんですね。<br><br>他にも随分良い彫刻がありますが、どうも――背が低かったり高かったり、手が長かったり短かったり――百済観音も良いですが、ちょっとそれが欠点です。<br><br>薬師寺の本尊様は実に非の打ち所がないです。<br><br>あれは芸術的に見て頭が下がりますね。<br><br>それからもう一つは法華寺の本尊ですが、これは木彫です。<br><br>そう大きくはないが、その細かい巧緻な点はおそらく一番だろうと思いますね。<br><br> それから宇治の平等院の宝物ですね。<br><br>その中の大きな阿弥陀さんですが、これは藤原時代の非常に柔らかい感じが実によく出ている。<br><br>これは私は――御堂もちょうど、そう大きくない御堂で、その仏体だけが入るだけの御堂ですが、前なんか――天井なんか赤い絵がいっぱい画いてある。<br><br>それがかまわなかったので破損して、絵なんか判らないくらいです。<br><br>あれは、なんでも先方では離すような意向があるように聞きましたが、離すようだったらあれを買って、そっくり京都に移そうかと思ってますがね。<br><br>これはすばらしいものですね。<br><br> それでとにかく一番数がたくさんあって良いものは、法隆寺が断然群を抜いてます。<br><br>法隆寺にあるものは片っ端から凄いものばかりです。<br><br>法隆寺に中宮と言いますが、一軒別になってますが、そこの――なにか観音様が、すぐ側に行って見られますが、あれは実に良いものです。<br><br>そんなようなわけで、私は以前見た時は、そういうようなことが分からなかったから夢中でしたが、今度はそういうことが分かってみると、今さらながら驚いたんですね。<br><br>ちょうど、行った時に奈良博物館で白鳳、天平特別展覧会というのをやっていたので、そこに行ってみました。<br><br>いろんなものが出てましたが、そこに大きな三尊の弥陀ですね。<br><br>どこかの寺から持ってきたんでしょうが、これはとても大きなものですね。<br><br>等身大よりか大きいくらいですね――真ん中はね。<br><br>両側は等身大ですがね。<br><br>それはとても、われわれの手にあいませんよ。<br><br>一つお釈迦さんがこれは小さい――このくらいですが、金銅仏で良いものです。<br><br>大きな――タライの替わりでしょうが、大きなお皿みたいなものに乗っている。<br><br>その二つはとうてい及ばないですが、あとの品物は私の方が上です。<br><br>今度仏もたくさんありましたが、そのうちの一番良いのが私のところで持っているよりか落ちます。<br><br>それからお経もたくさんあります。<br><br>たくさんありますが、お経もほとんど天平時代のものばかりで、それも私の方が種類がよけいあるだけ上ですね。<br><br>私のところは天平も、支那の唐時代も、山岳仏教時代のも、そういう種類のお経がありますからね。<br><br>光明皇后のお書きになった長い経文もあります。<br><br>それから仏器ですね。<br><br>仏の道具ですね。<br><br>そういうものも私の方が種類が多いですから負けないつもりです。<br><br>それに不思議にあっちには仏画というものがない。<br><br>絵がないですね。<br><br>これはたびたびあっちの寺は焼けてますから、ああいうのは焼けたのが多いのと、もう一つはふだん巻いてあるから、あの寺にはなにがあるということがあんまり知れないから、財政上から売ったのも随分あるだろうね。<br><br>絵の方は民間の方がずっと多いです。<br><br>民間には良いのがたくさんありますね。<br><br>そんなわけで今度は仏教美術に対して、私が研究したそういった成果を今話したんです。<br><br>その話はそのくらいにしておきましょう。<br><br> これは、いつも結核問題は始終話しているから、特にお話する必要もないんだが、今度来たお蔭話の中で、非常にはっきりしたお蔭で、そうしてごく解りやすい――未信者にも解りやすいような、そういった経路ですから、それに説明を書いたんですが、それだけ読んであとちょっと話します。<br><br> （御論文「恐るべき医学迷信」）【栄光 一五七号】 こういうのをお医者さんが見て、そうしてただ首をひねって驚いているだけで、それでおしまいなんです。<br><br>それが分からないんです。<br><br>これはたいへんなものだ。<br><br>こういうものがあるとしたら、大いに研究しなければならないと思うのがあたりまえですが、そう思わないのが実に不思議なんです。<br><br>これがアメリカとか、ドイツとかで、こういう療法とかこういう薬とか言うと、それこそびっくりして大いに研究するんです。<br><br>日本人で、しかも宗教家から出たのならば、どんなことでも駄目だ。<br><br>駄目だでもないが、気に入らないんです。<br><br>これはおもしろいんです。<br><br>この心理状態ですね。<br><br>言に言えば迷信ですよ。<br><br>恐るべき迷信ですよ。<br><br>ところが彼らの方は、われわれの方を迷信だと思ったりするんですが、実におかしいですね。<br><br>ところがこういうことは、今までないんですからね。<br><br>ただポーッとしちゃって判断力が出ないんですね。<br><br>だからいずれはどうにもしようがなく頭を下げることになりますが、それまでの間まだ命のある者を、なくされる人がたくさんできるに違いないから、それがいかにもかわいそうですよ。<br><br>しかし、そういう人はやはり罪が多いんだから、これもしかたがないんです。<br><br> われわれの方のいろんなことを奇蹟奇蹟と言いますが、本当は奇蹟じゃないんです。<br><br>それは、医学で治れば奇蹟ですが、医学では治るはずがない。<br><br>われわれの方で治るのは奇蹟じゃないんですね。<br><br>つまり今までこういうのはなかったから、それで珍しいので奇蹟と思っている。<br><br>ちょうど今までガラス玉を首に掛けて、立派なものと思っていたのが、今度は本当のダイヤモンドが出たんですね。<br><br>そうすると、今までのガラス玉よりよほど光る。<br><br>これは奇蹟だというのと同じですね。<br><br>この中で、気胸療法で空洞が萎びた。<br><br>小さくなったというのがありますが、あれはなんでもない話で、ちょうど手を片っ方使わずにおくと萎びますからね。<br><br>こんな肉の張ったものが、だんだん萎びていきますからね。<br><br>あれと同じ理屈です。<br><br>気胸で空気を入れて、肺の活動を止めちゃう。<br><br>それで肺胞も活動しないからだんだん萎びていくんです。<br><br>だから空洞も萎びるんです。<br><br>これを、あたりまえにしていくと、肺も大きくなるから、空洞も大きくなる。<br><br>つまらない話なんですよ。<br><br>それをたいしたものと思っているんだから、本当にかわいそうというか、言いようがないですね。<br><br>それからこれにもあるように、外科の意見と内科の意見と違ったり、それから外科のお医者さんが請け負えない。<br><br>なにしろ外を歩いていても突発事故で轢かれることもある。<br><br>こうなっては、一種の詭弁ですよね。<br><br>人の命を預かりながら、こんなことを言うなんてね。<br><br>それは、病人も信ずるということもおかしいんですが、本当のことが解って医学のことを見ると、なんと言って良いか、あまりにひどすぎるんですね。<br><br>もっともそれだからメシヤ教の値打ちがあるんだが、それでしかたがないんだがね。<br><br>時間がだいぶ来たから寸鉄を。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão Divina Revelada na Arte Budista e a Cegueira da Medicina Moderna</h2>
 <p>Recentemente, empreendi uma viagem pela região de Nara e Quioto para apreciar a arte budista. Embora seja de um valor inestimável, a visita consistiu, em essência, em um circuito pelos templos. Foi uma experiência deveras enriquecedora, sobre a qual redigi um breve relato que lerei em seguida.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Diante de casos como este, os médicos limitam-se a expressar perplexidade, meneando a cabeça, e nada mais fazem. Sua incapacidade de compreender é assombrosa. O natural seria que, ao se depararem com tal fenômeno, sentissem o impulso de investigá-lo a fundo. O fato de não o fazerem é verdadeiramente espantoso. Se uma terapia ou um medicamento com tais resultados surgisse nos Estados Unidos ou na Alemanha, seria imediatamente objeto de intensa pesquisa. Mas, por originar-se de um religioso japonês, é sumariamente descartado ou, no mínimo, ignorado por puro preconceito. Essa atitude revela um estado psicológico curioso, que pode ser definido como uma forma de superstição — uma superstição deplorável. E o mais irônico é que são eles a nos acusar de supersticiosos. Trata-se de um fenômeno tão inédito que sua capacidade de julgamento fica paralisada. Inevitavelmente, chegará o dia em que terão de se curvar à verdade, mas, até lá, muitas vidas que poderiam ser salvas continuarão a ser perdidas. É uma situação lamentável, embora, por outro lado, se possa entender que tais pessoas carregam um carma pesado e que seu destino seja inevitável.</p>
 <p>As curas que realizamos são frequentemente chamadas de milagres, mas, na verdade, não o são. Milagre seria se a medicina as obtivesse, pois, segundo seus próprios princípios, são impossíveis. O que ocorre é que, por ser algo inédito, as pessoas o consideram extraordinário. É como se alguém, acostumado a usar colares de contas de vidro, se deparasse pela primeira vez com um diamante genuíno e, maravilhado com seu brilho superior, o chamasse de milagre. No relato, menciona-se que a cavidade pulmonar diminuiu com a terapia de pneumotórax. O mecanismo por trás disso é trivial. Assim como um braço que não é utilizado se atrofia, perdendo sua massa muscular, o mesmo ocorre com o pulmão. Ao injetar ar para imobilizá-lo, os alvéolos cessam sua atividade e, consequentemente, atrofiam-se, fazendo com que a cavidade também encolha. Quando o pulmão volta a expandir-se, a cavidade retorna ao seu tamanho original. É uma lógica elementar, mas que eles consideram um grande feito, o que é, no mínimo, lastimável.</p>
 <p>Ademais, como o próprio relato evidencia, é comum que as opiniões de cirurgiões e clínicos divirjam, ou que um cirurgião se recuse a operar alegando o risco de um acidente imprevisto, como ser atropelado na rua. Isso não passa de um sofisma. É inconcebível que médicos, a quem se confia a vida humana, recorram a tais argumentos. Igualmente lamentável é que os pacientes acreditem neles. Quando se compreende a Verdade e se observa a prática médica, a situação se revela tão absurda que faltam palavras para descrevê-la. Contudo, é precisamente essa realidade que evidencia o valor da nossa Obra Divina. Não há o que fazer. Como nosso tempo está se esgotando, encerrarei por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年5月6日） 『御教え集』10号、昭和27(1952)年6月15日発行 昭和二十七年五月六日 【御教え】 この間奈良から京都方面の仏教美術ですね。<br/><br/>たいへん良いけれども、まあお寺巡回ですね。<br/><br/>まあ大いに得るところがあったんです。<br/><br/>それをざっと書いてみたんですが、今読ませます。<br/><br/> （御論文「奈良美術行脚」）【栄光 一五六号】 これはざっと見たままを書いたんですが、ここにおもしろい話があるのは、この間京都でもちょっと話しましたけれども、法隆寺に夢殿という小さい祠がありますが、あそこは一年に一回くらいしか見せないんです。<br/><br/>ところが先月の二十九日に私が行った時に珍しく開くというんですよ。<br/><br/>こんなことはないんですね。<br/><br/>これはなにか神秘なことがあるに違いないと思って、それからそこに行って、扉が開いているんです。<br/><br/>それで内を見ると、薄っ暗になって、はっきりは分からないが、等身大の観音様があるんです。<br/><br/>それを見ますと、その観音様からなんとも言えない霊気がスッと入ってきたんです。<br/><br/>これはおかしいなと思ったが、そうするとなんだか嬉しいような気持ちになって、涙が出そうになった。<br/><br/>それでしばらく私も恍惚としていた。<br/><br/>見ると、名前が救世（ぐせ）観世音としてあるんです。<br/><br/>これは本当から言うと救世観世音といって、これはあるにはあるんです。<br/><br/>親鸞の書いたものなんかに救世観世音なんかある。<br/><br/>それを私が救世（メシヤ）観音という名前をつけたんですね。<br/><br/>これは私が初めてつけたんですが、ところがそういった仏像に出る観音というのはないですね。<br/><br/>今まで有名なそういうものを見たことがないですからね。<br/><br/>ところが夢殿というのは、聖徳太子が始終そこを居間にしていたんですね。<br/><br/>そこでいろんなことをやったんです。<br/><br/>で、お亡くなりになってから、そこを夢殿と称して救世観音を祀って、締め切りにしていたわけですね。<br/><br/>ここに神秘があるんです。<br/><br/>というのは、元来聖徳太子という方は、やはり観音様の化身なんです。<br/><br/>とにかく日本に仏教が渡ってきたのは、欽明天皇の時ですが、ちょっと聖徳太子の天平から見て二百年くらい前ですね。<br/><br/>それを聖徳太子が奈良を地点として仏教を弘めたんです。<br/><br/>一時たいへんなさかんになったわけですね。<br/><br/>それがために奈良にお寺がたくさんできたわけで、初め聖徳太子が七堂伽藍――あれを法隆寺のある所に作られたわけなんです。<br/><br/>まあ極楽浄土の形ですね。<br/><br/>ちょうど私がやっている地上天国の模型と同じことなんです。<br/><br/>まあ仏教的に言えば七堂伽藍なんです。<br/><br/>とか、祇園精舎ですね。<br/><br/>私は仏教的でなく世界的、現代的に地上天国としているんですが――そんなわけで非常に仏教がさかんになって、結局東大寺ができて――奈良の大仏ですよ。<br/><br/>つまり奈良の大仏なんていうのは、今日でも作るのは難しいかもしれないですね。<br/><br/>それをあの当時、そんなような冶金やなにかの技術がない時に、ともかくあんなたいしたものを作ったんですから、本当に信仰の熱ですね。<br/><br/>あの大仏を作った記録なんかを見ると、実に涙ぐましいことがたくさんありますね。<br/><br/>金なんかが足りなくて、いろんなものを――鍋釜を鋳したりして、金を――金というが材料ですね。<br/><br/>大仏様の銅を集めたりなんかしたわけですね。<br/><br/>というのは、いかに仏教信仰が燃えていたかが分かるんです。<br/><br/>そんなわけで奈良が日本仏教の発祥地ですね。<br/><br/>発祥地にされたのは聖徳太子なんですからね。<br/><br/>しかも聖徳太子はああいった仏教美術を作ったばかりでなく、その他のこともいろいろやられたんですね。<br/><br/>有名な十七条の――あの当時の憲法ですね。<br/><br/>だから、つまり憲法の元祖ですね。<br/><br/>もっともその時分には十七条ですんだんですから実に簡単なものなんで、今に較べれば何十分の一かもしれない。<br/><br/>今のは、第何百何十条なんていって、毎年議会で増やしつつあるんですから、その当時と較べてみると、いかに箇条書き的の量が増えているかが分かる。<br/><br/>そうすれば、法律が増えれば犯罪者が減るとすれば、その当時より今の方が犯罪者が減りそうなものだが、法律の少ない時の方が犯罪が少なくて、法律が多くなった時の方が増えている。<br/><br/>もっとも、犯罪者が増えるから法律が増えるのかもしれないが、それはわれわれから言えば肝腎なことを疎かにしているので、いくらやってもしようがない。<br/><br/>そんなわけで、聖徳太子という方はあらゆる方面に精通していたんですね。<br/><br/>だから聖徳太子は、他の仏教の開祖なんかと違って、あんまり神秘感はない人ですね。<br/><br/>だから仏教文化を作られたんですね。<br/><br/>というのは、この方は千手観音の小さいのと思えば良いですね。<br/><br/>あらゆることに精通している。<br/><br/>それで救世観音様が私に懸ったんですよ。<br/><br/>懸って、これから大いにメシヤ教のために働かれるんです。<br/><br/>それが今まで――千二百年という間夢殿に時を待たれていたんですね。<br/><br/>神様の方でも勝手にはできないので、時期時期があって、時期が来ればお働きができるんです。<br/><br/>そんなわけでいよいよ時期が来たんです。<br/><br/>ですから、つまり私はやはり聖徳太子と非常に深い因縁があるんです。<br/><br/>だから、今私がやっていることは聖徳太子のやられたことを世界的に広げたと、こう思ってみるんですね。<br/><br/>私は今千手観音の働きをしているんです。<br/><br/>だからなんでも分かるし、なんでも手を出すし、なんでもやるんですね。<br/><br/>これはつまり千手観音を御神体にしてますが――いつか家で御神体にしていた大きいあれが、それを描いたものなんですがね。<br/><br/>そんなわけで現在聖徳太子のその仕事を、世界的に私がやられると、こう思えば分かるわけですね。<br/><br/>それで夢殿という名前もおもしろいと思いますね。<br/><br/>つまり私がやっていることも夢の実現ですからね。<br/><br/>よく、思想とかなんか大きな希望ですね。<br/><br/>そういうことを、夢ということをよく言いますがね。<br/><br/>実際その時の聖徳太子様の夢ですね。<br/><br/>夢殿なんて名前はあんまりないですからね。<br/><br/>おもしろいと思いますね。<br/><br/>で、今度行って救世観音の――救世観音を「メシヤ」と私が名をつけたということも、その観音様とよく合っているわけですがね。<br/><br/>ですから今度あっちに行ったのは、仏教芸術をいろいろ調べる意味と、それから今の夢殿ですね。<br/><br/>それがたいへんな御経綸の一つだったですね。<br/><br/> それから、京都にいずれ地上天国を造るという、そういうような敷地があるというので見ましたがね。<br/><br/>なかなか、条件は大体合っているんですね。<br/><br/>いずれその辺りの地点にできるだろうと思ってますがね。<br/><br/>これは時期が来ると神様がちゃんとやられるんだから、そういろいろ考える必要はないと思うんです。<br/><br/>で、京都は去年から三度目ですが、大体分かってきましたけれども、どうしても将来日本の美術の中心ですね。<br/><br/>そういう所になるべく、今まで――千年も前から準備されたということはよく分かるんです。<br/><br/>それは神様の方は何万年何十万年前に準備されていたので、人間としての準備は千年くらい前から準備されたということは分かりますが、実に今さら言う必要はないくらいですが、地形ですね。<br/><br/>いろいろ山の形だとか、水の流れ方、それで一種の霊気ですね。<br/><br/>霊気と言いますかね。<br/><br/>空気と霊気と両方の様相ですね。<br/><br/>実に良いですね。<br/><br/>とにかくなんとなく気が落ちついて、上品と言いますかね。<br/><br/>いやらしい感じがないですね。<br/><br/>ですから将来の、やはり地上天国としての様相がよく備わっているんですね。<br/><br/>山の形といい、木の色から木の種類から、配置の具合、すべて関東やそういう他の土地とは違います。<br/><br/>だから、将来一大地上天国が造られるということは分かるんですね。<br/><br/> そんなようなわけで京都、それから奈良も今にもっと良くなりましょうけれども、しかし奈良はたいしたことはないです。<br/><br/>ただ古代仏教の遺蹟という程度で、奥床しい一種の寂た地上天国的のようになるわけですね。<br/><br/>いずれは京都の次に奈良にも地上天国を造るかも分かりませんがね。<br/><br/>奈良にはお寺はたくさんあるが、元から定まったような宗旨というのがないですね。<br/><br/>それは寺によって便宜上属した寺はありますがね。<br/><br/>真宗とか、天台宗とかに属したのはありますが、中途からですね。<br/><br/>最初はそれがなかったですね。<br/><br/>仏教でも、原始仏教と言いますが、奈良のが、あれは原始仏教なんです。<br/><br/>仏教は最初、原始仏教、それから山岳仏教ですね――山を中心とする仏教。<br/><br/>それから世俗仏教ですね。<br/><br/>つまり町に出た仏教ですね。<br/><br/>そういう順序になってきたんですね。<br/><br/>そのうちの原始仏教が奈良です。<br/><br/>そこでお寺の在り方に良いところがあるんです。<br/><br/>偏らないでね。<br/><br/>で、結局中心はどこでも、みんな観音になっています。<br/><br/>観音と薬師如来。<br/><br/>薬師如来は観音様ですからね。<br/><br/>やはり日本仏教の根本ですね。<br/><br/>根本も観音様というわけですね。<br/><br/>で、まあ――さっきも読みましたけれども、あの時代の特に薬師寺の本尊ですね。<br/><br/>その時代に銅でできた等身大よりちょっと大きいくらいですが、あの作品は実にたいしたものです。<br/><br/>光背は後でできたものですが、火事で焼けたので光背なんか焼けたものと見えますね。<br/><br/>それで仏体だけはほとんど完全にしてますが、少し腕の所が取れた所があります。<br/><br/>これはその時になにか大きな材木でも倒れたものかもしれないですね。<br/><br/>そうしておもしろいのは、裾の方なんかにいろいろ、毛彫ですが、彫刻がたくさんあるんです。<br/><br/>たいてい龍に取り巻かれてね。<br/><br/>その中に裸の土人がなにかやっている――インディアンですね。<br/><br/>そういう点なんかが、なかなか変わった点があるんですね。<br/><br/>それで一番良い所は、お顔から手足ですね。<br/><br/>それから身体全体ですね。<br/><br/>実に均整が取れているんです。<br/><br/>一点の非の打ち所がないんですね。<br/><br/>他にも随分良い彫刻がありますが、どうも――背が低かったり高かったり、手が長かったり短かったり――百済観音も良いですが、ちょっとそれが欠点です。<br/><br/>薬師寺の本尊様は実に非の打ち所がないです。<br/><br/>あれは芸術的に見て頭が下がりますね。<br/><br/>それからもう一つは法華寺の本尊ですが、これは木彫です。<br/><br/>そう大きくはないが、その細かい巧緻な点はおそらく一番だろうと思いますね。<br/><br/> それから宇治の平等院の宝物ですね。<br/><br/>その中の大きな阿弥陀さんですが、これは藤原時代の非常に柔らかい感じが実によく出ている。<br/><br/>これは私は――御堂もちょうど、そう大きくない御堂で、その仏体だけが入るだけの御堂ですが、前なんか――天井なんか赤い絵がいっぱい画いてある。<br/><br/>それがかまわなかったので破損して、絵なんか判らないくらいです。<br/><br/>あれは、なんでも先方では離すような意向があるように聞きましたが、離すようだったらあれを買って、そっくり京都に移そうかと思ってますがね。<br/><br/>これはすばらしいものですね。<br/><br/> それでとにかく一番数がたくさんあって良いものは、法隆寺が断然群を抜いてます。<br/><br/>法隆寺にあるものは片っ端から凄いものばかりです。<br/><br/>法隆寺に中宮と言いますが、一軒別になってますが、そこの――なにか観音様が、すぐ側に行って見られますが、あれは実に良いものです。<br/><br/>そんなようなわけで、私は以前見た時は、そういうようなことが分からなかったから夢中でしたが、今度はそういうことが分かってみると、今さらながら驚いたんですね。<br/><br/>ちょうど、行った時に奈良博物館で白鳳、天平特別展覧会というのをやっていたので、そこに行ってみました。<br/><br/>いろんなものが出てましたが、そこに大きな三尊の弥陀ですね。<br/><br/>どこかの寺から持ってきたんでしょうが、これはとても大きなものですね。<br/><br/>等身大よりか大きいくらいですね――真ん中はね。<br/><br/>両側は等身大ですがね。<br/><br/>それはとても、われわれの手にあいませんよ。<br/><br/>一つお釈迦さんがこれは小さい――このくらいですが、金銅仏で良いものです。<br/><br/>大きな――タライの替わりでしょうが、大きなお皿みたいなものに乗っている。<br/><br/>その二つはとうてい及ばないですが、あとの品物は私の方が上です。<br/><br/>今度仏もたくさんありましたが、そのうちの一番良いのが私のところで持っているよりか落ちます。<br/><br/>それからお経もたくさんあります。<br/><br/>たくさんありますが、お経もほとんど天平時代のものばかりで、それも私の方が種類がよけいあるだけ上ですね。<br/><br/>私のところは天平も、支那の唐時代も、山岳仏教時代のも、そういう種類のお経がありますからね。<br/><br/>光明皇后のお書きになった長い経文もあります。<br/><br/>それから仏器ですね。<br/><br/>仏の道具ですね。<br/><br/>そういうものも私の方が種類が多いですから負けないつもりです。<br/><br/>それに不思議にあっちには仏画というものがない。<br/><br/>絵がないですね。<br/><br/>これはたびたびあっちの寺は焼けてますから、ああいうのは焼けたのが多いのと、もう一つはふだん巻いてあるから、あの寺にはなにがあるということがあんまり知れないから、財政上から売ったのも随分あるだろうね。<br/><br/>絵の方は民間の方がずっと多いです。<br/><br/>民間には良いのがたくさんありますね。<br/><br/>そんなわけで今度は仏教美術に対して、私が研究したそういった成果を今話したんです。<br/><br/>その話はそのくらいにしておきましょう。<br/><br/> これは、いつも結核問題は始終話しているから、特にお話する必要もないんだが、今度来たお蔭話の中で、非常にはっきりしたお蔭で、そうしてごく解りやすい――未信者にも解りやすいような、そういった経路ですから、それに説明を書いたんですが、それだけ読んであとちょっと話します。<br/><br/> （御論文「恐るべき医学迷信」）【栄光 一五七号】 こういうのをお医者さんが見て、そうしてただ首をひねって驚いているだけで、それでおしまいなんです。<br/><br/>それが分からないんです。<br/><br/>これはたいへんなものだ。<br/><br/>こういうものがあるとしたら、大いに研究しなければならないと思うのがあたりまえですが、そう思わないのが実に不思議なんです。<br/><br/>これがアメリカとか、ドイツとかで、こういう療法とかこういう薬とか言うと、それこそびっくりして大いに研究するんです。<br/><br/>日本人で、しかも宗教家から出たのならば、どんなことでも駄目だ。<br/><br/>駄目だでもないが、気に入らないんです。<br/><br/>これはおもしろいんです。<br/><br/>この心理状態ですね。<br/><br/>言に言えば迷信ですよ。<br/><br/>恐るべき迷信ですよ。<br/><br/>ところが彼らの方は、われわれの方を迷信だと思ったりするんですが、実におかしいですね。<br/><br/>ところがこういうことは、今までないんですからね。<br/><br/>ただポーッとしちゃって判断力が出ないんですね。<br/><br/>だからいずれはどうにもしようがなく頭を下げることになりますが、それまでの間まだ命のある者を、なくされる人がたくさんできるに違いないから、それがいかにもかわいそうですよ。<br/><br/>しかし、そういう人はやはり罪が多いんだから、これもしかたがないんです。<br/><br/> われわれの方のいろんなことを奇蹟奇蹟と言いますが、本当は奇蹟じゃないんです。<br/><br/>それは、医学で治れば奇蹟ですが、医学では治るはずがない。<br/><br/>われわれの方で治るのは奇蹟じゃないんですね。<br/><br/>つまり今までこういうのはなかったから、それで珍しいので奇蹟と思っている。<br/><br/>ちょうど今までガラス玉を首に掛けて、立派なものと思っていたのが、今度は本当のダイヤモンドが出たんですね。<br/><br/>そうすると、今までのガラス玉よりよほど光る。<br/><br/>これは奇蹟だというのと同じですね。<br/><br/>この中で、気胸療法で空洞が萎びた。<br/><br/>小さくなったというのがありますが、あれはなんでもない話で、ちょうど手を片っ方使わずにおくと萎びますからね。<br/><br/>こんな肉の張ったものが、だんだん萎びていきますからね。<br/><br/>あれと同じ理屈です。<br/><br/>気胸で空気を入れて、肺の活動を止めちゃう。<br/><br/>それで肺胞も活動しないからだんだん萎びていくんです。<br/><br/>だから空洞も萎びるんです。<br/><br/>これを、あたりまえにしていくと、肺も大きくなるから、空洞も大きくなる。<br/><br/>つまらない話なんですよ。<br/><br/>それをたいしたものと思っているんだから、本当にかわいそうというか、言いようがないですね。<br/><br/>それからこれにもあるように、外科の意見と内科の意見と違ったり、それから外科のお医者さんが請け負えない。<br/><br/>なにしろ外を歩いていても突発事故で轢かれることもある。<br/><br/>こうなっては、一種の詭弁ですよね。<br/><br/>人の命を預かりながら、こんなことを言うなんてね。<br/><br/>それは、病人も信ずるということもおかしいんですが、本当のことが解って医学のことを見ると、なんと言って良いか、あまりにひどすぎるんですね。<br/><br/>もっともそれだからメシヤ教の値打ちがあるんだが、それでしかたがないんだがね。<br/><br/>時間がだいぶ来たから寸鉄を。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

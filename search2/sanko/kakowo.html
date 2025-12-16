@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kakowo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 過去を顧みて 渋井總吉 『地上天国』創刊号、昭和23(1948)年12月1日発行 昨年十一月十一日、日本観音教団発会式を挙行して早くも一年、故に機関誌「地上天国」を発刊するに至った。<br><br>御承知の如く顧問大先生には昭和九年大日本観音会なる宗教形式を以て、東京で救世の業を創められたのであるが、いよいよ大発展の段階に入らんとする時に当って、偶々凡有る新興宗教や唯心的思想の無差別的弾圧の嵐に遇い、開教後二年も閲せずして解散、潰滅的打撃を蒙ったのである。<br><br>そして顧問大先生には当局の要求のままに一切の宗教行為を廃し、雌伏二年の臥薪の間に宗教の科学化を企図、独自の療法を完成せられ、次いで民間療法として再び救いの業を創められて、崩れゆく世の蔭に隠れ、盗人の忍ぶが如く窃かに来たるべき世に備えられたのである。<br><br>しかるに民間療法時代における、その余りにも卓越せる奇蹟的治病力による救命の感謝と、吾等がただただ人類救済の目的をもってあらゆる時艱に堪えて挺身する赤誠との集る所、ことさらに宗教的雰囲気を醸成し、為に宗教再起を計ると做して弾圧を蒙る事一再ではなかった。<br><br>常時の日本において最も自由なるべき善事を行う事の如何に至難なるかを長嘆息する事幾度であったであろう。<br><br>そして吾等は常に当局の峻厳なる看守の視線を遠く近く感じつつ、療法の発展拡充の勢さえ制圧しつつ、言動に細心の注意を払い、しかもなお不当な強圧の憂目に遇い翼々として九年間文字通りいばらの道を歩みつつ漸次滲潤拡充され来ったのである。<br><br> しかるに有難い事に、今次終戦により言論宗教の自由を保証され、吾等は解放の喜びに勇躍、天運循環我世の春来れりの感激に浸ったのであるが、久しく圧迫下の活動に馴れたる吾等には、にわかに本来の宗教の姿に還らんとする企図も思い及ばず、分散的活動形態を踏襲しつつあったところ、どうしても組織化せざるを得ぬ事態に迫られたのでまず日本浄化療法普及会を結成したが、終に本来の出発点たる宗教をもって世に臨むべしという結論に到り、ここに山転じ谷巡るの険路は豁然として眼界明るく、坦々たる洛陽への大道へ出でたる感があった。<br><br>そして宗教転換に着手してみると、あらゆる必要な準備があたかも既に成されある如くに、極めて好調な推移を辿り、着々その形を整え、僅々一ケ月にして公認せらるる迄に至ったのである。<br><br> そうして私が管長に推され一切の組織の衝（しょう）に当らせられたのであるが、私は元来商人であって教義も慈しく、宗教組敵にも全然無智で一宗の管長など予想だもせぬ運命であり、最初は殆んど五里夢中の感があったが、兎に角私としては退去の経験の上に立ち、この救の業の最も拓き易く普遍的に行渉らしむの方針をとり組織化したのであるが、所要の人も物も期せずして聚り、水の渠に流るる如くに進捗し、予想以上の形態が出来上ったのである。<br><br> 顧みてその奇蹟的進捗振りに吾ながら驚歎すると共に、その経路はすべて深甚なる神意のままになされており、無智なる自分は単に観音様に巧妙に繰らるる生人形以外の何物でもない事を深く悟り、神慮の深遠偉大さに讃嘆久しうする次第である。<br><br> 叙上の如く大日本観音会より今日の教団完成に至る推移にみる如く、あらゆる迫害や時流に些かも挑まず、時所位に応現しつついとも自然に大を成してゆく、その過程こそ観音行の真姿であり、観音力の表われなりと称うるのである。<br><br> これに徹して惟うも地上天国建設の事業は、誰しも一夢想事とさえ考えらるるか、この観音力を体験し、深く考察する時初めて不能事に非ず、否神の御眼にはまことに易々たる業なる事を感得し得るのである。<br><br> 従来の宗教は悉く単に人心教化に止まっているか、観音教団は地上天国を実地に建設するのであってまことに空前絶後の大業である。<br><br>しかしながらこれは信不信に拘わらず、吾等はその必成を信じて疑いを容れ得ない、何となればその夢実現の絶対の時が来ており、それを成就すべき絶大の力の発現を明確に握握し、天国世界の如何なるものかも、その力の本体もすべて大先生の創成せられた宗教科学によって、万人が納得し得るまでに理論付けられているからである。<br><br> 顧問大先生には、宗教科学者として古来より人類が知らんとして知り得なかった神秘の扉を妙智の鍵によって開かれんとしている、人類はここに初めて数千年来の謎は解明され、あらゆる苦悩は根本的に解決すべき歓びに酔う時は来たのであり、吾等の感激この上もない。<br><br> そして本誌は、救世の業の一機関として 信仰者にも無信仰者にも地上天国建設の実態を把握せしめ、あわせて救いの光として普（あまね）く世間に配らんとするものである。<br><br> 会員諸君、前述の如く民間療法に転換して久しく教義も教典も抹殺的に秘められ、吾等は唯々無形の力そのものによりて病苦を祓除し、幸福人を作るという赤誠の一念に燃え、宗教に蒙昧のまま転移し、教団も未だ教典が完備するところまでに到っていないが、要するに宗教活動はまず悟りが根本である。<br><br>教師はまず神仏の実体を知り、宗教的学問を修得しなくてはならぬ。<br><br>そのため顧問大先生は“信仰雑話”なる初等教科書御著わし下され、今また本紙に毎回珠玉の御文章を戴ける事となった。<br><br>宗教の悟りは、その極致たる真実を頂上とする山嶺の如くその高きに登る程限界は宏く速く及ぶ。<br><br>救行の根本は愛と智である。<br><br>吾等は宜しくその頂上を極める歓びと幸福を目標に不退転の精進をなすべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Olhar sobre o Passado</h2>
 <p>Por Sokichi Shibui
@@ -108,5 +260,48 @@ Publicado na edição inaugural da revista "Paraíso Terrestre" em 1º de dezemb
 <p>O Grande Mestre Conselheiro, na qualidade de cientista religioso, está prestes a descerrar, com a chave de Sua sublime sabedoria, a porta dos mistérios que a humanidade, desde a Antiguidade, anseia por conhecer, mas jamais conseguiu. Pela primeira vez, os enigmas milenares serão desvendados, e chegou o tempo de a humanidade se inebriar com a alegria de ver todos os seus sofrimentos solucionados em sua raiz. Nossa comoção é, pois, imensurável.</p>
 <p>Esta revista, como um dos veículos da Obra de Salvação, tem o propósito de permitir que tanto fiéis quanto não fiéis compreendam a realidade da construção do Paraíso na Terra e, ao mesmo tempo, de ser distribuída amplamente à sociedade como uma luz de salvação.</p>
 <p>Caros membros! Conforme mencionei, após a transição para a terapia popular, nossos dogmas e escrituras permaneceram ocultos por um longo tempo, como se tivessem sido suprimidos. Ardendo unicamente em nosso sincero desejo de erradicar o sofrimento das doenças e formar pessoas felizes por meio do poder invisível, fizemos a transição de volta à religião ainda em estado de desconhecimento, e nossa Igreja ainda não alcançou o ponto de ter suas escrituras completas. Em suma, o alicerce da atividade religiosa é o despertar espiritual. Os ministros devem, antes de tudo, conhecer a realidade de Deus e dos Budas e dominar o estudo religioso. Para esse fim, o Grande Mestre Conselheiro dignou-se a escrever um manual de nível elementar intitulado “Relatos sobre a Fé”, e agora teremos a honra de receber em cada edição desta revista Seus textos, que são verdadeiras joias. O despertar religioso assemelha-se a uma cordilheira cujo cume é a Verdade: quanto mais alto se sobe, mais vasto e rápido se torna o alcance da visão. O fundamento da prática da salvação é o amor e a sabedoria. Devemos, portanto, devotar-nos com afinco e sem recuo, tendo por meta a alegria e a felicidade de atingir esse cume.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 過去を顧みて 渋井總吉 『地上天国』創刊号、昭和23(1948)年12月1日発行 昨年十一月十一日、日本観音教団発会式を挙行して早くも一年、故に機関誌「地上天国」を発刊するに至った。<br/><br/>御承知の如く顧問大先生には昭和九年大日本観音会なる宗教形式を以て、東京で救世の業を創められたのであるが、いよいよ大発展の段階に入らんとする時に当って、偶々凡有る新興宗教や唯心的思想の無差別的弾圧の嵐に遇い、開教後二年も閲せずして解散、潰滅的打撃を蒙ったのである。<br/><br/>そして顧問大先生には当局の要求のままに一切の宗教行為を廃し、雌伏二年の臥薪の間に宗教の科学化を企図、独自の療法を完成せられ、次いで民間療法として再び救いの業を創められて、崩れゆく世の蔭に隠れ、盗人の忍ぶが如く窃かに来たるべき世に備えられたのである。<br/><br/>しかるに民間療法時代における、その余りにも卓越せる奇蹟的治病力による救命の感謝と、吾等がただただ人類救済の目的をもってあらゆる時艱に堪えて挺身する赤誠との集る所、ことさらに宗教的雰囲気を醸成し、為に宗教再起を計ると做して弾圧を蒙る事一再ではなかった。<br/><br/>常時の日本において最も自由なるべき善事を行う事の如何に至難なるかを長嘆息する事幾度であったであろう。<br/><br/>そして吾等は常に当局の峻厳なる看守の視線を遠く近く感じつつ、療法の発展拡充の勢さえ制圧しつつ、言動に細心の注意を払い、しかもなお不当な強圧の憂目に遇い翼々として九年間文字通りいばらの道を歩みつつ漸次滲潤拡充され来ったのである。<br/><br/> しかるに有難い事に、今次終戦により言論宗教の自由を保証され、吾等は解放の喜びに勇躍、天運循環我世の春来れりの感激に浸ったのであるが、久しく圧迫下の活動に馴れたる吾等には、にわかに本来の宗教の姿に還らんとする企図も思い及ばず、分散的活動形態を踏襲しつつあったところ、どうしても組織化せざるを得ぬ事態に迫られたのでまず日本浄化療法普及会を結成したが、終に本来の出発点たる宗教をもって世に臨むべしという結論に到り、ここに山転じ谷巡るの険路は豁然として眼界明るく、坦々たる洛陽への大道へ出でたる感があった。<br/><br/>そして宗教転換に着手してみると、あらゆる必要な準備があたかも既に成されある如くに、極めて好調な推移を辿り、着々その形を整え、僅々一ケ月にして公認せらるる迄に至ったのである。<br/><br/> そうして私が管長に推され一切の組織の衝（しょう）に当らせられたのであるが、私は元来商人であって教義も慈しく、宗教組敵にも全然無智で一宗の管長など予想だもせぬ運命であり、最初は殆んど五里夢中の感があったが、兎に角私としては退去の経験の上に立ち、この救の業の最も拓き易く普遍的に行渉らしむの方針をとり組織化したのであるが、所要の人も物も期せずして聚り、水の渠に流るる如くに進捗し、予想以上の形態が出来上ったのである。<br/><br/> 顧みてその奇蹟的進捗振りに吾ながら驚歎すると共に、その経路はすべて深甚なる神意のままになされており、無智なる自分は単に観音様に巧妙に繰らるる生人形以外の何物でもない事を深く悟り、神慮の深遠偉大さに讃嘆久しうする次第である。<br/><br/> 叙上の如く大日本観音会より今日の教団完成に至る推移にみる如く、あらゆる迫害や時流に些かも挑まず、時所位に応現しつついとも自然に大を成してゆく、その過程こそ観音行の真姿であり、観音力の表われなりと称うるのである。<br/><br/> これに徹して惟うも地上天国建設の事業は、誰しも一夢想事とさえ考えらるるか、この観音力を体験し、深く考察する時初めて不能事に非ず、否神の御眼にはまことに易々たる業なる事を感得し得るのである。<br/><br/> 従来の宗教は悉く単に人心教化に止まっているか、観音教団は地上天国を実地に建設するのであってまことに空前絶後の大業である。<br/><br/>しかしながらこれは信不信に拘わらず、吾等はその必成を信じて疑いを容れ得ない、何となればその夢実現の絶対の時が来ており、それを成就すべき絶大の力の発現を明確に握握し、天国世界の如何なるものかも、その力の本体もすべて大先生の創成せられた宗教科学によって、万人が納得し得るまでに理論付けられているからである。<br/><br/> 顧問大先生には、宗教科学者として古来より人類が知らんとして知り得なかった神秘の扉を妙智の鍵によって開かれんとしている、人類はここに初めて数千年来の謎は解明され、あらゆる苦悩は根本的に解決すべき歓びに酔う時は来たのであり、吾等の感激この上もない。<br/><br/> そして本誌は、救世の業の一機関として 信仰者にも無信仰者にも地上天国建設の実態を把握せしめ、あわせて救いの光として普（あまね）く世間に配らんとするものである。<br/><br/> 会員諸君、前述の如く民間療法に転換して久しく教義も教典も抹殺的に秘められ、吾等は唯々無形の力そのものによりて病苦を祓除し、幸福人を作るという赤誠の一念に燃え、宗教に蒙昧のまま転移し、教団も未だ教典が完備するところまでに到っていないが、要するに宗教活動はまず悟りが根本である。<br/><br/>教師はまず神仏の実体を知り、宗教的学問を修得しなくてはならぬ。<br/><br/>そのため顧問大先生は“信仰雑話”なる初等教科書御著わし下され、今また本紙に毎回珠玉の御文章を戴ける事となった。<br/><br/>宗教の悟りは、その極致たる真実を頂上とする山嶺の如くその高きに登る程限界は宏く速く及ぶ。<br/><br/>救行の根本は愛と智である。<br/><br/>吾等は宜しくその頂上を極める歓びと幸福を目標に不退転の精進をなすべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak27</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と薬毒 『結核の正体』昭和18(1943)年11月23日発行 前項に述べたごとく、結核が泰西に減少し、我国に増加するという原因を述べるに当って知らねばならない事は彼の種痘の問題である。<br><br> そもそも種痘なるものは一七九八年英国の医学士エドワード・ジェンナーなるものが発表し、それ以来漸次ヨーロッパを初めとし、世界各国に施行せらるるようになったのである。<br><br>しかるに文化人は、恐るべき天然痘疾患から免るるを獲るというので、その恩恵に感謝した事はもちろんで、今日においても救世主のごとくに思われているのは何人も知る所である。<br><br> しかるに、ヨーロッパにおいては種痘施行後、各国人の体位は低下し始め、ついに人口増加率低減という恐るべき問題が発生し始めたのである。<br><br>それはフランスにおいては、種痘発見後三、四十年、英国及びドイツにおいては七、八十年にしてその兆候を表わし始めている。<br><br>しかし幸いにも日本においては、ヨーロッパよりも五、六十年後れたため、体位低下及び人口増加率減少が著るしくないというのが現状である。<br><br>しからば、種痘による体位低下と結核との関係はいかなるものであるかを述べてみよう。<br><br> 種痘によって、天然痘が免疫になるという事は、天然痘毒素（以下然毒と略す）が消滅したのではなく、発病の勢をくじかれたまでである。<br><br>すなわち陽性であるべき毒素が陰性化されたまでであって、実はこの残存陰化然毒が、結核を初めあらゆる種類の病原となるのである。<br><br>そうして陰化然毒は、人体不断の浄化作用によって各局部に集溜固結するので、その局所は主として背面腎臓部である。<br><br>これがためその固結の圧迫によって腎臓は萎縮し、尿の排泄に支障を来すので、その結果として余剰尿毒が背部、肩部、首、頭脳、淋巴腺を初め、全身各部に集溜するのである。<br><br>もちろん神経を使う所程、集溜固結するものである。<br><br>その集溜固結の過程を、私は第一浄化作用という。<br><br>次で右固結を解消排除すべき第二浄化作用が発生するので、その先駆としてまず発熱がある。<br><br>それによって右の固結は溶解し、液体化し喀痰、汗、下痢、嘔吐、鼻汁等になって排泄さるるのである。<br><br>その場合、第二浄化作用は苦痛が伴うので、その苦痛を病気と称するのである。<br><br>従ってこの意味において、病気なるものは実は天恵的浄化作用であって、これによって健康は増進さるるのである。<br><br> しかるに、今日までの医学及びあらゆる療法は、右の理を反対に解し、病気をもって悪化作用となし、極力これを停止しようとしたのである。<br><br>元来浄化作用なるものは、体力旺盛なる程発生しやすく、また強烈でもあるから、これを停止せんとする場合、体力を弱らせなければならない。<br><br>その方法として唯一のものとされていたのが彼の薬剤である。<br><br>元来薬なるものは無いので全部毒物である。<br><br>薬剤の服量を定めるという事は毒であるからであって、これは医学も認めているところである。<br><br>すなわち毒作用によって身体は衰弱するから浄化作用は停止される訳である。<br><br>この結果、浄化作用発生以前の固結状態に還元する。<br><br>それを治癒したと誤ったのであるから、医家においても病気を治すとはいわない。<br><br>固めるというのである。<br><br> ゆえに、右のごとく薬毒によって、浄化を停止するのであるから、真の治癒ではなく擬治癒である。<br><br>従って、時日を経るにおいて、再び浄化作用が起こるのは当然で、それをまた停止するというのが今日までの方法であった。<br><br>しかしそれだけならいいが、右のごとく繰返す結果、その都度薬毒の溜積が増すから、漸次発病毎に悪性となるのである。<br><br>これについて医学においては薬毒は自然排泄消滅するものとしているが、これははなはだしいあやまりであって、人間は人間の食物として定められたる以外の総ては異物であるから、決して消滅はせず体内に残存する事は、私の幾多の経験によって明らかである。<br><br> 右の理によって、病気の原因である毒素なるものは大体陰化然毒、尿毒、薬毒の三種である事を知るであろう。<br><br>そうして病気に際し最も苦痛を現わすものは薬毒で、次が尿毒、次は然毒であるが、然毒はほとんど痛苦はなくただ痒みだけである。<br><br> そうして以上のごとき薬毒の外、氷冷、湿布、光線その他の療法といえども、そのほとんどは固め療法に過ぎないのである。<br><br> また特に注意すべきは、発熱の原因がほとんど薬毒である事である。<br><br>ゆえに発熱が主である結果といえども、その根本原因が薬毒である事は疑いないのである。<br><br>何となれば私が多数の患者を取扱った経験上、生来、薬剤を使用した事のないというものもたまたまあるが、そういう人に限って発熱がなく、従って、病気も軽く大抵一、二回で治癒するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Tuberculose e a Toxina Medicamentosa</h2>
 <p>Conforme mencionei no tópico anterior, para compreendermos as razões pelas quais a tuberculose diminui no Ocidente enquanto aumenta em nosso país, é imprescindível analisar a questão da vacina contra a varíola.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Com base nesse princípio, compreende-se que as causas das doenças residem em três tipos de toxinas: a toxina variólica latente, a toxina urêmica e o yakudoku (薬毒). Durante a enfermidade, a toxina que provoca o sofrimento mais agudo é o yakudoku (薬毒), seguida pela toxina urêmica. A toxina variólica, por sua vez, quase não gera dor, manifestando-se apenas como coceira.</p>
 <p>Ademais, além do yakudoku (薬毒) já mencionado, outras terapias, como o uso de gelo, compressas e fototerapia, em sua maioria, não passam de métodos de solidificação.</p>
 <p>Outro ponto que merece especial atenção é o fato de a febre ser quase sempre causada pelo yakudoku (薬毒). Por conseguinte, mesmo que a febre seja o sintoma principal, não há dúvida de que sua causa fundamental é a toxina medicamentosa. Digo isso porque, em minha vasta experiência no tratamento de inúmeros pacientes, encontrei ocasionalmente pessoas que jamais haviam feito uso de medicamentos ao longo da vida. Eram justamente esses indivíduos que não apresentavam febre e, consequentemente, suas doenças eram brandas, sendo curados, na maioria das vezes, em apenas uma ou duas intervenções.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と薬毒 『結核の正体』昭和18(1943)年11月23日発行 前項に述べたごとく、結核が泰西に減少し、我国に増加するという原因を述べるに当って知らねばならない事は彼の種痘の問題である。<br/><br/> そもそも種痘なるものは一七九八年英国の医学士エドワード・ジェンナーなるものが発表し、それ以来漸次ヨーロッパを初めとし、世界各国に施行せらるるようになったのである。<br/><br/>しかるに文化人は、恐るべき天然痘疾患から免るるを獲るというので、その恩恵に感謝した事はもちろんで、今日においても救世主のごとくに思われているのは何人も知る所である。<br/><br/> しかるに、ヨーロッパにおいては種痘施行後、各国人の体位は低下し始め、ついに人口増加率低減という恐るべき問題が発生し始めたのである。<br/><br/>それはフランスにおいては、種痘発見後三、四十年、英国及びドイツにおいては七、八十年にしてその兆候を表わし始めている。<br/><br/>しかし幸いにも日本においては、ヨーロッパよりも五、六十年後れたため、体位低下及び人口増加率減少が著るしくないというのが現状である。<br/><br/>しからば、種痘による体位低下と結核との関係はいかなるものであるかを述べてみよう。<br/><br/> 種痘によって、天然痘が免疫になるという事は、天然痘毒素（以下然毒と略す）が消滅したのではなく、発病の勢をくじかれたまでである。<br/><br/>すなわち陽性であるべき毒素が陰性化されたまでであって、実はこの残存陰化然毒が、結核を初めあらゆる種類の病原となるのである。<br/><br/>そうして陰化然毒は、人体不断の浄化作用によって各局部に集溜固結するので、その局所は主として背面腎臓部である。<br/><br/>これがためその固結の圧迫によって腎臓は萎縮し、尿の排泄に支障を来すので、その結果として余剰尿毒が背部、肩部、首、頭脳、淋巴腺を初め、全身各部に集溜するのである。<br/><br/>もちろん神経を使う所程、集溜固結するものである。<br/><br/>その集溜固結の過程を、私は第一浄化作用という。<br/><br/>次で右固結を解消排除すべき第二浄化作用が発生するので、その先駆としてまず発熱がある。<br/><br/>それによって右の固結は溶解し、液体化し喀痰、汗、下痢、嘔吐、鼻汁等になって排泄さるるのである。<br/><br/>その場合、第二浄化作用は苦痛が伴うので、その苦痛を病気と称するのである。<br/><br/>従ってこの意味において、病気なるものは実は天恵的浄化作用であって、これによって健康は増進さるるのである。<br/><br/> しかるに、今日までの医学及びあらゆる療法は、右の理を反対に解し、病気をもって悪化作用となし、極力これを停止しようとしたのである。<br/><br/>元来浄化作用なるものは、体力旺盛なる程発生しやすく、また強烈でもあるから、これを停止せんとする場合、体力を弱らせなければならない。<br/><br/>その方法として唯一のものとされていたのが彼の薬剤である。<br/><br/>元来薬なるものは無いので全部毒物である。<br/><br/>薬剤の服量を定めるという事は毒であるからであって、これは医学も認めているところである。<br/><br/>すなわち毒作用によって身体は衰弱するから浄化作用は停止される訳である。<br/><br/>この結果、浄化作用発生以前の固結状態に還元する。<br/><br/>それを治癒したと誤ったのであるから、医家においても病気を治すとはいわない。<br/><br/>固めるというのである。<br/><br/> ゆえに、右のごとく薬毒によって、浄化を停止するのであるから、真の治癒ではなく擬治癒である。<br/><br/>従って、時日を経るにおいて、再び浄化作用が起こるのは当然で、それをまた停止するというのが今日までの方法であった。<br/><br/>しかしそれだけならいいが、右のごとく繰返す結果、その都度薬毒の溜積が増すから、漸次発病毎に悪性となるのである。<br/><br/>これについて医学においては薬毒は自然排泄消滅するものとしているが、これははなはだしいあやまりであって、人間は人間の食物として定められたる以外の総ては異物であるから、決して消滅はせず体内に残存する事は、私の幾多の経験によって明らかである。<br/><br/> 右の理によって、病気の原因である毒素なるものは大体陰化然毒、尿毒、薬毒の三種である事を知るであろう。<br/><br/>そうして病気に際し最も苦痛を現わすものは薬毒で、次が尿毒、次は然毒であるが、然毒はほとんど痛苦はなくただ痒みだけである。<br/><br/> そうして以上のごとき薬毒の外、氷冷、湿布、光線その他の療法といえども、そのほとんどは固め療法に過ぎないのである。<br/><br/> また特に注意すべきは、発熱の原因がほとんど薬毒である事である。<br/><br/>ゆえに発熱が主である結果といえども、その根本原因が薬毒である事は疑いないのである。<br/><br/>何となれば私が多数の患者を取扱った経験上、生来、薬剤を使用した事のないというものもたまたまあるが、そういう人に限って発熱がなく、従って、病気も軽く大抵一、二回で治癒するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

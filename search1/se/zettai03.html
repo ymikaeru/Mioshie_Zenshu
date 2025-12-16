@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zettai03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>zettai03<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>絶対力<br>『救世』139号、昭和27(1952)年1月16日発行<br>そもそも宇宙における森羅万象の活動の源泉は、言うまでもなく神の力である。一切の生成流転も力の現れであり、万有を動かすのも、静止させるのももちろん力である。人間始めあらゆる動物から、黴菌に至るまで力によって生まれ、力によって死滅する。要するに、力こそ無限絶対なる支配者である。こう書いてくると限りがないから、このくらいにしておくが、詮じ詰めれば宇宙そのものが力である。そこで私は力について、おのおのの角度から書いてみようと思うのである。<br>まず力なるものを言霊上から説いてみると、チは血であり、霊であり、カラは空であり、躰（からだ）であり、体である。としたら、力とは、霊体合致して生まれるものである。また人の言霊を解釈してみるとヒトのヒは霊であるから、霊が体へ止まる。すなわちヒがトまるのである。以上のごとく、力とは霊体一致したのものである。次に文字であるが、力の形は最初縦棒を引き、次に横棒を引いて十字に結ばせ、次に横棒の末端から、やや斜めの棒を引き、その尾が跳ね上がる。つまり経緯結ぶや活動が起こる意味で左進右退に回転し始めるのである。すなわち力の活動である。という訳で、いつも言うとおり言霊も文字も、全く神様が造られた事が判るであろう。<br>次に今度は実際面の事から説いてみよう。これを最も大きな意味から言えば、世界の二大思想である。言うまでもなく、唯心思想と唯物思想であり、精神主義と物質主義であり、霊的文化と体的文化である。これを宗教的に見ると一番判り易いからそうしてみるが、右の表われが世界の二大宗教としての彼の仏教と基督（キリスト）教である。前者は東洋的経（たて）であり、霊であるに反し、後者は西洋的緯（よこ）であり、体であるのは、しばしば私が言う通りである。ところが今までの世界は、この経と緯とが別々になっていたため、本当の力が出なかった。その何よりの証拠は、今もって世界的和合統一が出来なかったため、人類は救われなかったのである。<br>その事については、まず歴史を見てみよう。原始時代を経てようやく人間の生活らしいものが生まれてから、最初は太陽崇拝、自然物崇拝、人工物崇拝というようになってから、ついに人間崇拝とまでになったので、その頃から原始宗教が各地に現れ始めたのである。それから、ようやく初期文化時代となって生まれたのが仏教、回々（フイフイ）教、次いでキリスト教であるが、前二者はもちろん根本は経であるから、真の力が出ないと共に、キリスト教も根本は緯であったから、ヤハリ力が出なかった。という訳で、結果としては前者は経に片寄り、失敗とはゆかないまでも、仏教はようやく日本にだけ形を残しているに過ぎないと共に、フイフイ教もアジアの一部に伝統的に固まっているのみである。また後者のキリスト教は緯であるから、世界の大部分に広がってはいるが、目標の天国は実現しないどころか、地獄が多分に残っている現在としたらこれも失敗であるといえよう。<br>以上のごとく今日までの主なる宗教は、いずれもその目的は理想世界実現にあった事は言うまでもないが、ついに現在見るがごとき世界の混乱、行悩みの惨憺たる様相を呈しているとしたら、いかに予想と食い違っているかで、実現の夢はいまだ遠いとせざるを得ないのである。この理由こそ全く力の不足にある事は否定できないが、力の不足とは最初に述べたごとく、経緯が結ばれていなかったからである。しかしながらこれも時の問題であって、神の経綸上やむを得なかったともいえる。<br>ここで私という者の使命の説明をしてみれば、右の意味が一層ハッキリ分ると思う。今、私のやりつつある仕事の中心としては浄霊の業である。これは信者は知り過ぎているくらいであるが、私の書いた一枚の紙をお守りとして懐へ入れるや、医師の見離した重難病でも全治させ得る力が与えられる。そうしてこの御守りは今日まで何十万枚出したか分らない程で、しかし何程増えてもその力には変わりはない。しかも病気ばかりではなく、精神が改善され、人格が高まり、また危機一髪の危難が救われる等々、日々数限りのない奇跡によって歓喜の生活者が増えつつある不思議さで、この力こそ御守りから発揮される力であって、私はあえて誇るつもりはないが、事実は飽くまで事実であってみれば、発表しても差支えあるまい。このような絶大な力を行使したものは、歴史上一人もない事は、いまさら言うまでもあるまい。これら数限りない奇跡は御蔭話中に載っているから、何ら疑うところはあるまい。としたら、この力こそ経と緯を結んで生まれた力であって、この力こそ、仏教的にいえば観音力であり、妙智力であり、基督教的に言えばメシヤの力である。そうして右の力は霊的が主であるが、いずれは体的力の発現となるであろうから、その暁（あかつき）神の目標である東洋の精神文化と、西洋の物質文化が結ばれた真文化が生まれるのはもちろんで、それが神意であり、全く世界はじまって以来の救世的大事業遂行となるのである。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Poder Absoluto</h2>
 <p>A fonte primordial de toda a atividade na vastidão do universo é, inegavelmente, o poder de Deus. A totalidade da criação e de suas transformações nada mais é que uma manifestação desse poder; é ele que move e que aquieta tudo o que existe. Do ser humano aos animais, chegando até os micróbios, tudo nasce e perece por intermédio do poder. Em suma, o poder é o soberano infinito e absoluto. Poderia discorrer sobre este tema indefinidamente, mas por ora me deterei aqui, concluindo que o próprio universo é a encarnação do poder.</p>
@@ -105,5 +455,48 @@ function toggleLang(lang) {
 <p>Como vimos, embora as principais religiões até hoje tivessem como meta a concretização de um mundo ideal, o desolador panorama de caos e estagnação que presenciamos no presente demonstra o quão distantes ficaram de seu propósito. O sonho de sua realização ainda parece remoto. A razão para tal discrepância reside, inegavelmente, na insuficiência de poder, a qual, conforme expliquei no início, decorre da desunião entre os princípios vertical e horizontal. Todavia, tudo isso foi uma questão de tempo, uma etapa inevitável dentro do Plano Divino.</p>
 <p>Neste ponto, ao explicar a minha missão, creio que o significado de tudo o que foi exposto se tornará ainda mais claro. A atividade central que venho realizando é a prática do Johrei. Como os membros sabem perfeitamente, ao portar uma folha de papel por mim caligrafada, que funciona como um talismã sagrado, a pessoa recebe o poder de curar até mesmo as mais graves enfermidades, desenganadas pela medicina. Já distribuí centenas de milhares desses talismãs, e seu poder permanece inalterado, por mais que seu número aumente. Ademais, seus efeitos não se limitam à cura de doenças: o espírito é aprimorado, o caráter se eleva, e as pessoas são salvas de perigos iminentes. Diariamente, o número de fiéis que alcançam uma vida de alegria através desses inúmeros milagres cresce de forma extraordinária. Esse poder, que emana do talismã sagrado, é um fato. Não tenho a intenção de me vangloriar, mas, sendo a verdade inegável, não vejo por que não a expor.</p>
 <p>É desnecessário dizer que jamais houve na história quem exercesse um poder tão imensurável. A veracidade desses incontáveis milagres pode ser comprovada nos testemunhos de fé publicados, não deixando margem para dúvidas. Trata-se, pois, do poder que nasce da união entre o vertical e o horizontal. Em termos budistas, é o poder de Kannon (観音), o poder da sabedoria sublime; em termos cristãos, é o poder do Messias. Atualmente, esse poder se manifesta predominantemente em seu aspecto espiritual, mas em breve seu aspecto material também se revelará. Quando essa alvorada chegar, nascerá a verdadeira civilização, que unirá a cultura espiritual do Oriente e a cultura material do Ocidente. Esta é a Vontade Divina, e assim se dará o cumprimento da maior obra de salvação desde o início dos tempos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>zettai03<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>絶対力<br/>『救世』139号、昭和27(1952)年1月16日発行<br/>そもそも宇宙における森羅万象の活動の源泉は、言うまでもなく神の力である。一切の生成流転も力の現れであり、万有を動かすのも、静止させるのももちろん力である。人間始めあらゆる動物から、黴菌に至るまで力によって生まれ、力によって死滅する。要するに、力こそ無限絶対なる支配者である。こう書いてくると限りがないから、このくらいにしておくが、詮じ詰めれば宇宙そのものが力である。そこで私は力について、おのおのの角度から書いてみようと思うのである。<br/>まず力なるものを言霊上から説いてみると、チは血であり、霊であり、カラは空であり、躰（からだ）であり、体である。としたら、力とは、霊体合致して生まれるものである。また人の言霊を解釈してみるとヒトのヒは霊であるから、霊が体へ止まる。すなわちヒがトまるのである。以上のごとく、力とは霊体一致したのものである。次に文字であるが、力の形は最初縦棒を引き、次に横棒を引いて十字に結ばせ、次に横棒の末端から、やや斜めの棒を引き、その尾が跳ね上がる。つまり経緯結ぶや活動が起こる意味で左進右退に回転し始めるのである。すなわち力の活動である。という訳で、いつも言うとおり言霊も文字も、全く神様が造られた事が判るであろう。<br/>次に今度は実際面の事から説いてみよう。これを最も大きな意味から言えば、世界の二大思想である。言うまでもなく、唯心思想と唯物思想であり、精神主義と物質主義であり、霊的文化と体的文化である。これを宗教的に見ると一番判り易いからそうしてみるが、右の表われが世界の二大宗教としての彼の仏教と基督（キリスト）教である。前者は東洋的経（たて）であり、霊であるに反し、後者は西洋的緯（よこ）であり、体であるのは、しばしば私が言う通りである。ところが今までの世界は、この経と緯とが別々になっていたため、本当の力が出なかった。その何よりの証拠は、今もって世界的和合統一が出来なかったため、人類は救われなかったのである。<br/>その事については、まず歴史を見てみよう。原始時代を経てようやく人間の生活らしいものが生まれてから、最初は太陽崇拝、自然物崇拝、人工物崇拝というようになってから、ついに人間崇拝とまでになったので、その頃から原始宗教が各地に現れ始めたのである。それから、ようやく初期文化時代となって生まれたのが仏教、回々（フイフイ）教、次いでキリスト教であるが、前二者はもちろん根本は経であるから、真の力が出ないと共に、キリスト教も根本は緯であったから、ヤハリ力が出なかった。という訳で、結果としては前者は経に片寄り、失敗とはゆかないまでも、仏教はようやく日本にだけ形を残しているに過ぎないと共に、フイフイ教もアジアの一部に伝統的に固まっているのみである。また後者のキリスト教は緯であるから、世界の大部分に広がってはいるが、目標の天国は実現しないどころか、地獄が多分に残っている現在としたらこれも失敗であるといえよう。<br/>以上のごとく今日までの主なる宗教は、いずれもその目的は理想世界実現にあった事は言うまでもないが、ついに現在見るがごとき世界の混乱、行悩みの惨憺たる様相を呈しているとしたら、いかに予想と食い違っているかで、実現の夢はいまだ遠いとせざるを得ないのである。この理由こそ全く力の不足にある事は否定できないが、力の不足とは最初に述べたごとく、経緯が結ばれていなかったからである。しかしながらこれも時の問題であって、神の経綸上やむを得なかったともいえる。<br/>ここで私という者の使命の説明をしてみれば、右の意味が一層ハッキリ分ると思う。今、私のやりつつある仕事の中心としては浄霊の業である。これは信者は知り過ぎているくらいであるが、私の書いた一枚の紙をお守りとして懐へ入れるや、医師の見離した重難病でも全治させ得る力が与えられる。そうしてこの御守りは今日まで何十万枚出したか分らない程で、しかし何程増えてもその力には変わりはない。しかも病気ばかりではなく、精神が改善され、人格が高まり、また危機一髪の危難が救われる等々、日々数限りのない奇跡によって歓喜の生活者が増えつつある不思議さで、この力こそ御守りから発揮される力であって、私はあえて誇るつもりはないが、事実は飽くまで事実であってみれば、発表しても差支えあるまい。このような絶大な力を行使したものは、歴史上一人もない事は、いまさら言うまでもあるまい。これら数限りない奇跡は御蔭話中に載っているから、何ら疑うところはあるまい。としたら、この力こそ経と緯を結んで生まれた力であって、この力こそ、仏教的にいえば観音力であり、妙智力であり、基督教的に言えばメシヤの力である。そうして右の力は霊的が主であるが、いずれは体的力の発現となるであろうから、その暁（あかつき）神の目標である東洋の精神文化と、西洋の物質文化が結ばれた真文化が生まれるのはもちろんで、それが神意であり、全く世界はじまって以来の救世的大事業遂行となるのである。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

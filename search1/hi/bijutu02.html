@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bijutu02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館建設の意義 『栄光』164号、昭和27(1952)年7月9日発行 左の文は、去る七月一日信者以外の社会各名士を招待の際の御挨拶について、外国新聞通信社の方々から、前もって原稿にして貰いたいというので、お書きになったものである。<br><br> 美術館建設の意義 私はメシヤ教教主岡田茂吉であります。<br><br>今日は御多忙のところ、せっかく御光来下さいました段厚く御礼申し上げます。<br><br>さて今回特に開館に先立って御覧を願う次第は、美術に対する具眼者である諸氏の御批判を仰ぎたいと共に、一言私の抱負を開陳致したいからであります。<br><br>そうして宗教本来の理想としては、真善美の世界を造るにあるのでありまして、真と善とは精神的のものでありますが、美の方は形で表わし、眼から人間の魂を向上させるのであります。<br><br>御承知の通り西洋でもギリシャ、ローマの昔から中世紀頃まではもちろん、日本においても聖徳太子以来鎌倉時代までは、宗教芸術がいかに旺んであったかは御存知の通りであります。<br><br>従って絵画、彫刻、音楽等あらゆる芸術は、宗教が母体であった事は、否み得ない事実であります。<br><br> ところが現代に至っては、それが段々薄れてゆき、宗教と芸術とは離れ離れになってしまい、そこへ近代科学の影響も手伝って、宗教不振の声は常に聞くところであります。<br><br>そのような訳で、どうしても宗教と芸術とは車の両輪のごとくに進まなければならないと思うのであります。<br><br>ところでそれはそれとして、日本という国柄について一言申したい事は、本来地球上の国という国は、人間と同様それぞれその国独自の思想文化をもっている事であります。<br><br>では日本のそれは何かと申しますと、美によって世界人類を楽しませながら、文化の向上に資する事であります。<br><br>日本の山水美が特に秀でている事や、花卉、草木の種類の多い事、日本人の鋭い美の感覚、手技の優れている点等を見ただけでもよく解るはずであります。<br><br>ところがそのような根本を知らないがため、戦争などという無謀極まる野望を起した結果、アノような敗戦の憂き目を見るに至ったのであります。<br><br>しかも再び戦争などを起さないよう武器まで取上げられてしまったという事は、全く神が日本人の真の使命を覚らしむべくなされたのは言うまでもありますまい。<br><br>もっとも最近再軍備などと喧ましく言われていますが、これは単なる防衛手段であってそれ以上の意味はないのはもちろんであります。<br><br> 以上によってみても、今後日本の進むべき道は自ら明らかであります。<br><br>すなわちそれを目標とする以上、永遠なる平和と繁栄は必ず招来するものと信じ、かねてこの事を知った私は、微力ながらその考え方をもって進んで参ったのであります。<br><br>そうしてその具体的方法としては、まず美の小天国を造って天下に示すべく企図（きと）し、その条件に適うところとしては、何といっても箱根と熱海で、交通の至便と山水の美はもちろん、温泉あり、気候空気も好く、申分ないところであります。<br><br>そこでこの両地の特に景勝な地点を選び、天然の美と人工の美をタイアップさせた理想的芸術境を造るべく、漸く出来上ったものがこの地上天国と、そうして美術館であります。<br><br>それについいては御承知のごとく日本には、今日まで日本的の美術館は一つもなかった事であります。<br><br>支那美術館、西洋美術館と博物館の宗教美術等で、日本人でありながら日本美術を観賞する事は出来ないという有様で、今仮に外国の人が日本へ来て、日本独特のものを観たいと思っても、その希望を満す事は不可能でありました。<br><br>としたら美術国日本としての一大欠陥ではありますまいか。<br><br>という訳で今度の美術館が、幾分でもその欠陥を補うに足るとしたら、私は望外の幸いと思うのであります。<br><br> それからこういう事も知って貰いたいのです。<br><br>それは昔から日本には世界に誇り得る程の、立派な美術品が豊富にありながら終戦までは華族富豪等の奥深く死蔵されており、ほとんど大衆の眼には触れさせなかった事であります。<br><br>つまり独占的封建的思想のためでもあったからでありましょう。<br><br>それが民主的国家となった今日、昔の夢となった事はもちろんであります。<br><br>そうして元来美術品なるものは、出来るだけ大衆に見せ、楽しませて、知らず識らずの内に人間の心性を高める事こそ、その存在理由と言えましょう。<br><br>とすればまず独占思想を打破して、美術の解放であります。<br><br>ところが幸いなるかな戦後の国家的大変革に際して、秘蔵されていた多数の文化財が市場に放出されたので、これが我美術館建設にいかに役立ったかはもちろんであります。<br><br> そうして今度の美術館は規模は小さいが、今後次々出来るであろう内外の美術館に対し模範的のものを造りたい方針で、一から十まで私の苦心になったもので、もちろん庭園も一切私の企画で、一木一草といえどもことごとくそうでありますから、素人の作品として欠点は多々ありましょうが、いささかでも御参考になるとしたら、私は満足に思うのであります。<br><br>なおかつ将来あるかも知れない空襲や火災、盗難等についても、環境、設備等充分考慮を払ったつもりでありますから、国宝保存上からも、お役に立つでありましょう。<br><br>以上で大体お分りの事と思いますがつまり日本本来の美の国、世界のパラダイスとしての実現を念願する以外、他意はないのであります。<br><br>なお近き将来熱海にも京都にも、地上天国とそれに付随する美術館を作る計画でありますから、何卒今後共宜しく御支援あらん事を、ここにお願いする次第であります。<br><br>これを御挨拶と致します。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><p>O texto a seguir é o pronunciamento proferido por ocasião do convite a distintas personalidades da sociedade não pertencentes à nossa Fé, no dia 1º de julho, e foi redigido antecipadamente a pedido de correspondentes da imprensa estrangeira.</p>
 <h2>O Significado da Construção do Museu de Arte</h2>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Embora este museu seja de pequenas dimensões, nossa diretriz foi criar algo que sirva de modelo para outros museus que certamente surgirão no Japão e no exterior. Ele é fruto de meu laborioso empenho, do princípio ao fim, incluindo os jardins, nos quais projetei cada árvore e cada folha de grama. Como obra de um amador, certamente apresentará muitas falhas, mas ficarei satisfeito se puder servir, ainda que modestamente, como referência. Além disso, procurei considerar devidamente os possíveis riscos futuros, como ataques aéreos, incêndios e roubos, tanto no ambiente quanto nas instalações, de modo que acredito que será também de grande valia para a preservação dos tesouros nacionais.</p>
 <p>Creio que, com esta explanação, minhas intenções se tornaram claras. Não tenho outro desígnio senão o de concretizar o ideal do Japão como a genuína nação do Belo, um paraíso para o mundo. Tenho ainda planos para, em um futuro próximo, construir Protótipos do Paraíso Terrestre e seus respectivos museus de arte em Atami e em Quioto. Rogo, portanto, que continuem a nos honrar com vosso valioso apoio.</p>
 <p>Com estas palavras, encerro meu pronunciamento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館建設の意義 『栄光』164号、昭和27(1952)年7月9日発行 左の文は、去る七月一日信者以外の社会各名士を招待の際の御挨拶について、外国新聞通信社の方々から、前もって原稿にして貰いたいというので、お書きになったものである。<br/><br/> 美術館建設の意義 私はメシヤ教教主岡田茂吉であります。<br/><br/>今日は御多忙のところ、せっかく御光来下さいました段厚く御礼申し上げます。<br/><br/>さて今回特に開館に先立って御覧を願う次第は、美術に対する具眼者である諸氏の御批判を仰ぎたいと共に、一言私の抱負を開陳致したいからであります。<br/><br/>そうして宗教本来の理想としては、真善美の世界を造るにあるのでありまして、真と善とは精神的のものでありますが、美の方は形で表わし、眼から人間の魂を向上させるのであります。<br/><br/>御承知の通り西洋でもギリシャ、ローマの昔から中世紀頃まではもちろん、日本においても聖徳太子以来鎌倉時代までは、宗教芸術がいかに旺んであったかは御存知の通りであります。<br/><br/>従って絵画、彫刻、音楽等あらゆる芸術は、宗教が母体であった事は、否み得ない事実であります。<br/><br/> ところが現代に至っては、それが段々薄れてゆき、宗教と芸術とは離れ離れになってしまい、そこへ近代科学の影響も手伝って、宗教不振の声は常に聞くところであります。<br/><br/>そのような訳で、どうしても宗教と芸術とは車の両輪のごとくに進まなければならないと思うのであります。<br/><br/>ところでそれはそれとして、日本という国柄について一言申したい事は、本来地球上の国という国は、人間と同様それぞれその国独自の思想文化をもっている事であります。<br/><br/>では日本のそれは何かと申しますと、美によって世界人類を楽しませながら、文化の向上に資する事であります。<br/><br/>日本の山水美が特に秀でている事や、花卉、草木の種類の多い事、日本人の鋭い美の感覚、手技の優れている点等を見ただけでもよく解るはずであります。<br/><br/>ところがそのような根本を知らないがため、戦争などという無謀極まる野望を起した結果、アノような敗戦の憂き目を見るに至ったのであります。<br/><br/>しかも再び戦争などを起さないよう武器まで取上げられてしまったという事は、全く神が日本人の真の使命を覚らしむべくなされたのは言うまでもありますまい。<br/><br/>もっとも最近再軍備などと喧ましく言われていますが、これは単なる防衛手段であってそれ以上の意味はないのはもちろんであります。<br/><br/> 以上によってみても、今後日本の進むべき道は自ら明らかであります。<br/><br/>すなわちそれを目標とする以上、永遠なる平和と繁栄は必ず招来するものと信じ、かねてこの事を知った私は、微力ながらその考え方をもって進んで参ったのであります。<br/><br/>そうしてその具体的方法としては、まず美の小天国を造って天下に示すべく企図（きと）し、その条件に適うところとしては、何といっても箱根と熱海で、交通の至便と山水の美はもちろん、温泉あり、気候空気も好く、申分ないところであります。<br/><br/>そこでこの両地の特に景勝な地点を選び、天然の美と人工の美をタイアップさせた理想的芸術境を造るべく、漸く出来上ったものがこの地上天国と、そうして美術館であります。<br/><br/>それについいては御承知のごとく日本には、今日まで日本的の美術館は一つもなかった事であります。<br/><br/>支那美術館、西洋美術館と博物館の宗教美術等で、日本人でありながら日本美術を観賞する事は出来ないという有様で、今仮に外国の人が日本へ来て、日本独特のものを観たいと思っても、その希望を満す事は不可能でありました。<br/><br/>としたら美術国日本としての一大欠陥ではありますまいか。<br/><br/>という訳で今度の美術館が、幾分でもその欠陥を補うに足るとしたら、私は望外の幸いと思うのであります。<br/><br/> それからこういう事も知って貰いたいのです。<br/><br/>それは昔から日本には世界に誇り得る程の、立派な美術品が豊富にありながら終戦までは華族富豪等の奥深く死蔵されており、ほとんど大衆の眼には触れさせなかった事であります。<br/><br/>つまり独占的封建的思想のためでもあったからでありましょう。<br/><br/>それが民主的国家となった今日、昔の夢となった事はもちろんであります。<br/><br/>そうして元来美術品なるものは、出来るだけ大衆に見せ、楽しませて、知らず識らずの内に人間の心性を高める事こそ、その存在理由と言えましょう。<br/><br/>とすればまず独占思想を打破して、美術の解放であります。<br/><br/>ところが幸いなるかな戦後の国家的大変革に際して、秘蔵されていた多数の文化財が市場に放出されたので、これが我美術館建設にいかに役立ったかはもちろんであります。<br/><br/> そうして今度の美術館は規模は小さいが、今後次々出来るであろう内外の美術館に対し模範的のものを造りたい方針で、一から十まで私の苦心になったもので、もちろん庭園も一切私の企画で、一木一草といえどもことごとくそうでありますから、素人の作品として欠点は多々ありましょうが、いささかでも御参考になるとしたら、私は満足に思うのであります。<br/><br/>なおかつ将来あるかも知れない空襲や火災、盗難等についても、環境、設備等充分考慮を払ったつもりでありますから、国宝保存上からも、お役に立つでありましょう。<br/><br/>以上で大体お分りの事と思いますがつまり日本本来の美の国、世界のパラダイスとしての実現を念願する以外、他意はないのであります。<br/><br/>なお近き将来熱海にも京都にも、地上天国とそれに付随する美術館を作る計画でありますから、何卒今後共宜しく御支援あらん事を、ここにお願いする次第であります。<br/><br/>これを御挨拶と致します。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

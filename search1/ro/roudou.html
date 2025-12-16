@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>roudou</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 労働問題実験記 『光』40号、昭和24(1949)年12月17日発行 私は現在、箱根及び熱海の景勝地に地上天国の模型を造りつつあるが、それに従事している労務者はおよそ百数十人である、そのうち大体半数が信者で、半数が未信者である、信者はもちろん勤労奉仕であるから無賃金で、能率は非常に高く、実に涙ぐましい程真剣な活動をしており、勤労日数は十日交代と一ケ月交代の二種にしている、しかしここでは右の信者以外の有賃勤労者についてかくのである。<br><br> 右の造営は一切私の企画設計によって行われており、建築の構想はもとより庭園の一本一草一石に至るまで、私の指示によらぬものはない、これは何も私の能力を誇ろうとするのではないが、それを言わなければこの文は出来ないからである。<br><br> 私は数年前より一ケ年のうち箱根へ四ケ月、熱海へ八ケ月滞在し、信仰的各般の仕事の外、造営の経営に当っているので、右のごとく箱根か熱海かのいずれかは不在という事になる、不在中は一、二回行く事もあるが、全然行かない事もある、もちろん年二回引移る際、一方は四ケ月分、一方は八ケ月分だけの企画をそれぞれの主任に指示すると共に、不在期間中は部下に命じて進捗の状態を報告させ、それによって新たな企画を次々指示通達させている、それについて私が試みつつある新しい労働者待遇の実状を発表してみよう。<br><br> 労働の種類は言うまでもなく土木建築に関するものばかりであるが、それぞれの集団にはその主任に一任しており、その主任の意志通りが行われている、私の方針としては全然自由主義的であって、例えば出勤も退場も時間などの規定はあまりない、というのは全然請負制度は行わないためで主任といえどもその配下の労働者に対し労働能力に干渉する必要がないからである、したがって勤労者は自由意志で従事している、判りやすくいえば自分自身の仕事をやっているような気持でその仕事を楽しんでやっているのである、かような訳で最初入りたての勤労者は世間並的お座なり的でやっていたものも漸次前述のように自分のものを造るような気持に変わってゆくのである。<br><br> 以上のようであるから、不平不満な空気はない、全員和気あいあいとして労働問題など薬にしたくもないのである、そうして彼らの仕事ぶりを見るとただ良く造る、私の気に入るように造るという意欲で一杯であるから、仕事の出来栄えは世間に見ない程の優秀さを示しているばかりか仕事の都合では夜暗くなるまで電灯をつけながらやっているのを私はしばしば見るのである。<br><br> 私の主義としては人間は横着や狡い事はしないものとして扱うのである、もちろん独り労働者の待遇ばかりがそうではない、私はすべての部下に対しても人間は正直なもの、不正はしない者として扱っているから、自他共に気持がよく愉快に満ちている、したがって狡い事をしたければいくらでも出来るのである、もっともほとんど信仰者であるからでもあるが、私はいつも思う事はこの社会全般が上の人も下の人も私がやっているような関係であるとすれば、いかに気持のいい世の中となるばかりか能率も非常に挙る事はもちろんである。<br><br> 以上が五六七（みろく）の世における労資の関係であって、それを私は今試験的に実行しつつあるので、その成績をここに発表した次第である、今日やかましい労働問題に対し何らか参考になるとすれば幸甚（こうじん）である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Relato Experimental sobre a Questão Trabalhista</h2>
 <p>Atualmente, dedico-me à construção dos modelos do Paraíso Terrestre nas paradisíacas localidades de Hakone e Atami. Mais de uma centena de trabalhadores estão engajados nessa obra, sendo aproximadamente metade composta por membros e a outra metade, por não membros. Os membros, naturalmente, prestam seu serviço como uma dedicação, sem remuneração. Sua eficiência é altíssima e sua atuação é tão sincera que chega a ser comovedora, organizada em turnos de dez dias ou de um mês. Neste artigo, todavia, abordarei a questão dos trabalhadores remunerados, que não professam nossa fé.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Em decorrência do que foi exposto, inexiste qualquer ambiente de queixa ou insatisfação. Todos convivem em plena harmonia, a ponto de a expressão “questão trabalhista” ser completamente alheia à sua realidade. Ao observar sua conduta, percebe-se que estão imbuídos de um único desejo: construir com esmero e de um modo que me seja agradável. Disso resulta não apenas uma qualidade de trabalho de excelência raramente vista, como também uma dedicação notável. Com frequência, vejo-os prosseguirem com suas tarefas à luz de lâmpadas até o anoitecer, sempre que a obra o exige.</p>
 <p>Meu princípio fundamental é tratar o ser humano partindo da premissa de que ele não é inclinado à indolência ou à desonestidade. Essa postura, evidentemente, não se restringe aos trabalhadores; estende-se a todos os meus subordinados, a quem considero, por natureza, íntegros e corretos. Graças a essa confiança mútua, prevalece um sentimento de bem-estar e alegria para todos. Sendo assim, oportunidades para agir com astúcia não faltariam, caso desejassem. É certo que a fé da maioria contribui para esse cenário. Contudo, reflito constantemente: se toda a sociedade, em todos os seus estratos, adotasse um relacionamento como este que pratico, que mundo agradável teríamos! E, sem dúvida, a eficiência das atividades humanas se elevaria de forma extraordinária.</p>
 <p>O que descrevi representa o modelo das relações entre capital e trabalho no Mundo de Miroku (五六七). Estou, no presente momento, colocando-o em prática de forma experimental e decidi apresentar aqui os seus resultados. Se este relato puder servir como referência para a ruidosa questão trabalhista de nossos dias, sentirei imensa satisfação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 労働問題実験記 『光』40号、昭和24(1949)年12月17日発行 私は現在、箱根及び熱海の景勝地に地上天国の模型を造りつつあるが、それに従事している労務者はおよそ百数十人である、そのうち大体半数が信者で、半数が未信者である、信者はもちろん勤労奉仕であるから無賃金で、能率は非常に高く、実に涙ぐましい程真剣な活動をしており、勤労日数は十日交代と一ケ月交代の二種にしている、しかしここでは右の信者以外の有賃勤労者についてかくのである。<br/><br/> 右の造営は一切私の企画設計によって行われており、建築の構想はもとより庭園の一本一草一石に至るまで、私の指示によらぬものはない、これは何も私の能力を誇ろうとするのではないが、それを言わなければこの文は出来ないからである。<br/><br/> 私は数年前より一ケ年のうち箱根へ四ケ月、熱海へ八ケ月滞在し、信仰的各般の仕事の外、造営の経営に当っているので、右のごとく箱根か熱海かのいずれかは不在という事になる、不在中は一、二回行く事もあるが、全然行かない事もある、もちろん年二回引移る際、一方は四ケ月分、一方は八ケ月分だけの企画をそれぞれの主任に指示すると共に、不在期間中は部下に命じて進捗の状態を報告させ、それによって新たな企画を次々指示通達させている、それについて私が試みつつある新しい労働者待遇の実状を発表してみよう。<br/><br/> 労働の種類は言うまでもなく土木建築に関するものばかりであるが、それぞれの集団にはその主任に一任しており、その主任の意志通りが行われている、私の方針としては全然自由主義的であって、例えば出勤も退場も時間などの規定はあまりない、というのは全然請負制度は行わないためで主任といえどもその配下の労働者に対し労働能力に干渉する必要がないからである、したがって勤労者は自由意志で従事している、判りやすくいえば自分自身の仕事をやっているような気持でその仕事を楽しんでやっているのである、かような訳で最初入りたての勤労者は世間並的お座なり的でやっていたものも漸次前述のように自分のものを造るような気持に変わってゆくのである。<br/><br/> 以上のようであるから、不平不満な空気はない、全員和気あいあいとして労働問題など薬にしたくもないのである、そうして彼らの仕事ぶりを見るとただ良く造る、私の気に入るように造るという意欲で一杯であるから、仕事の出来栄えは世間に見ない程の優秀さを示しているばかりか仕事の都合では夜暗くなるまで電灯をつけながらやっているのを私はしばしば見るのである。<br/><br/> 私の主義としては人間は横着や狡い事はしないものとして扱うのである、もちろん独り労働者の待遇ばかりがそうではない、私はすべての部下に対しても人間は正直なもの、不正はしない者として扱っているから、自他共に気持がよく愉快に満ちている、したがって狡い事をしたければいくらでも出来るのである、もっともほとんど信仰者であるからでもあるが、私はいつも思う事はこの社会全般が上の人も下の人も私がやっているような関係であるとすれば、いかに気持のいい世の中となるばかりか能率も非常に挙る事はもちろんである。<br/><br/> 以上が五六七（みろく）の世における労資の関係であって、それを私は今試験的に実行しつつあるので、その成績をここに発表した次第である、今日やかましい労働問題に対し何らか参考になるとすれば幸甚（こうじん）である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

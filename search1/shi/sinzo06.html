@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinzo06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓の手術 『栄光』203号、昭和28(1953)年4月8日発行 今度女子医大の学長、外科の大家榊原博士が、心臓弁膜症の手術に成功したという事をラジオで聴いたが、それは心臓の弁膜は四枚あるのを、病気に罹（かか）っている一枚だけ除去出来たという報告である。<br><br>もっともこれは最近アメリカで成功したという手術であって、それからヒントを得て同博士はメスを振ったのであろうが、日本では最初の成功だという事である。<br><br>ところが吾々からみると歯牙（しが）にかける程の事でもない。<br><br>なぜなれば我浄霊ならばそんな手数をかけずとも訳なく治るからである。<br><br>というのはこの患者は一枚の弁膜の際（きわ）に毒素が固結し、その圧迫によって心臓の活動に障碍（しょうがい）を及ぼしたのであるから、その固結毒素さえ溶解排除させれば、それで治ってしまうので、もちろん肉体に触れず、精々二、三回で済むのである。<br><br> そうしてこの手術に際し注意したい事は、よしんば完全に切除出来たとしても、決してそれで根治するのではない。<br><br>一時は治ったようでも、長くて数年も経てば必ず再発する。<br><br>というのはその隣の残る三枚の内の一枚に固結が必ずまた出来るからで、毒素は誰でも予想外に多いものである。<br><br>しかも手術の際の消毒薬は、いつもいう通り非常な猛毒であるから、その中毒の排除作用が悪性な病気となり、弁膜症再発以外別な苦しみが追加されるから、患者は気の毒なものである。<br><br> では初めから手術もせず、浄霊もしないとしたらどうかというと、普通人の生活常態であれば、時々微熱が出たり、軽い痛み、鼓動の昂（たか）まり、息切れ等、いずれも軽い症状で、気にせずそのままにしておけば、自然に僅かずつ毒素は溶け、咳と痰となって出て、長くはかかるが、完全に治ってしまうので、手術などという余計な事をして、反って余病を作るのは、その無智哀れむべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Cura para as Afecções do Coração</h2>
 <p>Recentemente, ouvi no rádio a notícia de que o doutor Sakakibara, eminente cirurgião e reitor da Universidade Feminina de Medicina, realizou com êxito uma cirurgia de valvulopatia cardíaca. O procedimento, segundo o relato, consistiu na remoção de uma das quatro válvulas do coração que se encontrava enferma. Cumpre notar que se trata de uma cirurgia cujo sucesso foi recentemente alcançado nos Estados Unidos, e que provavelmente inspirou o referido doutor a empunhar o bisturi, sendo este o primeiro êxito registrado no Japão. Todavia, de nosso ponto de vista, tal acontecimento é de pouca monta, pois, por meio do Johrei, a cura é alcançada sem dificuldade e sem a necessidade de tamanhos esforços.</p>
 <p>A explicação para tanto é que a enfermidade desse paciente origina-se do enrijecimento de toxinas nas bordas de uma das válvulas. Essa solidificação exerce uma pressão que obstrui a atividade cardíaca. Portanto, bastaria dissolver e eliminar tais toxinas enrijecidas para que a cura se concretizasse. O Johrei realiza precisamente isso, sem qualquer contato físico e, no máximo, em duas ou três sessões.</p>
 <p>Ademais, é imperativo atentar para um ponto crucial a respeito dessa cirurgia: mesmo que a remoção seja perfeitamente executada, ela de modo algum representa a cura fundamental. Ainda que se observe uma melhora temporária, a reincidência é inevitável dentro de, no máximo, alguns anos. Isso ocorre porque as toxinas se solidificarão novamente, desta vez em uma das três válvulas remanescentes; afinal, a quantidade de toxinas no organismo de qualquer pessoa é surpreendentemente elevada. Some-se a isso o fato de que os antissépticos utilizados no procedimento cirúrgico, como sempre afirmo, são venenos potentíssimos. O processo de eliminação desses venenos pelo corpo gera, por si só, enfermidades malignas. Consequentemente, além da recorrência da valvulopatia, um novo sofrimento é imposto ao paciente, tornando sua situação verdadeiramente lastimável.</p>
 <p>Cabe questionar, então, o que aconteceria caso não se recorresse nem à cirurgia, nem ao Johrei. Mantendo-se um estilo de vida comum, o indivíduo experimentaria sintomas leves, como febres baixas esporádicas, dores sutis, palpitações ou falta de ar. Se tais manifestações forem ignoradas, as toxinas se dissolverão gradualmente de forma natural, sendo expelidas por meio de tosse e expectoração. Embora o processo seja longo, a cura completa seria finalmente alcançada. Portanto, submeter-se a um procedimento supérfluo como a cirurgia, que acaba por gerar novas doenças, é um ato de ignorância digno de compaixão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓の手術 『栄光』203号、昭和28(1953)年4月8日発行 今度女子医大の学長、外科の大家榊原博士が、心臓弁膜症の手術に成功したという事をラジオで聴いたが、それは心臓の弁膜は四枚あるのを、病気に罹（かか）っている一枚だけ除去出来たという報告である。<br/><br/>もっともこれは最近アメリカで成功したという手術であって、それからヒントを得て同博士はメスを振ったのであろうが、日本では最初の成功だという事である。<br/><br/>ところが吾々からみると歯牙（しが）にかける程の事でもない。<br/><br/>なぜなれば我浄霊ならばそんな手数をかけずとも訳なく治るからである。<br/><br/>というのはこの患者は一枚の弁膜の際（きわ）に毒素が固結し、その圧迫によって心臓の活動に障碍（しょうがい）を及ぼしたのであるから、その固結毒素さえ溶解排除させれば、それで治ってしまうので、もちろん肉体に触れず、精々二、三回で済むのである。<br/><br/> そうしてこの手術に際し注意したい事は、よしんば完全に切除出来たとしても、決してそれで根治するのではない。<br/><br/>一時は治ったようでも、長くて数年も経てば必ず再発する。<br/><br/>というのはその隣の残る三枚の内の一枚に固結が必ずまた出来るからで、毒素は誰でも予想外に多いものである。<br/><br/>しかも手術の際の消毒薬は、いつもいう通り非常な猛毒であるから、その中毒の排除作用が悪性な病気となり、弁膜症再発以外別な苦しみが追加されるから、患者は気の毒なものである。<br/><br/> では初めから手術もせず、浄霊もしないとしたらどうかというと、普通人の生活常態であれば、時々微熱が出たり、軽い痛み、鼓動の昂（たか）まり、息切れ等、いずれも軽い症状で、気にせずそのままにしておけば、自然に僅かずつ毒素は溶け、咳と痰となって出て、長くはかかるが、完全に治ってしまうので、手術などという余計な事をして、反って余病を作るのは、その無智哀れむべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai29</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神和会『特別御面会御光話』 昭和26(1951)年7月8日 各宗教祖との誓い 明主様には昨二五年六月、御法難に遭って、静岡庵原（いはら）警察署にお入りになったことは、世人のよく承知のことであるが、これは一大神秘であります。<br><br> 明主様には深夜、各宗の教祖と、「霊界通信」をなされ、左にその主だった方、この言葉をお伝えしておきましょう。<br><br>これはちょっと『栄光』新聞にも出ないのではないかと存じます。<br><br> 注――「霊界通信」とは、この場合、所望の霊を霊界より、または現界人の生霊を呼んで、自由にお話するのであります。<br><br>ちょっと、私どもにはまねができませんね。<br><br> ――出口なお刀自――このたびは、まことに御苦労様です（以下略）。<br><br>どうぞ世の人をお救いくださいませ。<br><br> 承知しました。<br><br>御安心ください。<br><br> ――出口王仁三郎先生。<br><br> 霊界の八衢（やちまた）に在って、あまり気の毒だから、第三天国に救ってやったよ。<br><br>いまは内容は発表できませぬ。<br><br> ――中山みき――私も、この尊き道を、天理教の信者にわからせるようにつとめますから、よろしく願います。<br><br> 承知しました。<br><br> ――日蓮上人――○○に落ちて、苦しんでおった。<br><br>これから日蓮信者を救っておもらいしたい。<br><br> 承知した。<br><br>御安心ください。<br><br> ――明治天皇――霊界で苦しんでいる者がいるから救ってやってほしい。<br><br> はい、かしこまりました。<br><br> ――キリスト。<br><br> 三度、イタリアに生まれ代わり、いま○○の○○になってる。<br><br> ――釈迦。<br><br> 八回生まれ代わって、いま、インドの○○になってる。<br><br> ――スターリンの生霊。<br><br> 頑固で三回憑ったが、とうとう承知しなかった（本教の教義がわからぬらしい）。<br><br> 明主様の御法難の原因は、邪神の仕業にして、実に神秘なものがあり、いまは時期尚早のため未発表ではありますが、期待しててほしいことでありますが。<br><br> 特別御面会 昭和二六年七月八日 午後一時三〇分より約二時間 （於）神山荘 上の間 当日朝より、霧雨がしきり、窓より霧が入ってきます。<br><br> 一六〇名の参席者の中に、珍客人あり。<br><br>それは、徳川夢声氏とアザブ伸。<br><br>徳川夢声氏の十二指腸〔潰瘍〕も御浄霊で治り、たいへん参考になりました、と満足して当日帰られた。<br><br>左に、各資格者より発せられた伺い事項に対し、打てば響く即座の御開示の要点の記録であります。<br><br>『教えの光』の姉妹篇とせば幸いであり、信仰の尺度も数歩前進され、喜んで御奉仕できるようになること、また不思議であります。<br><br> ――物事の解決。<br><br> 臨機応変。<br><br>しかも常識的で、食い違いのないようにする。<br><br> ――女児のみ生まれたり、男子のみ生まれたりするのは。<br><br> 女子は月の系統、男子は日の系統。<br><br>月は龍宮の乙女である。<br><br> ――分骨はよきや。<br><br> 悪い。<br><br>もしわけてしまったなら、しかたがない。<br><br>昔は分骨はしなかった。<br><br>その代わり頭髪の毛、または爪をわけたものである。<br><br> ――位牌は何回忌まで別々にしておくものですか。<br><br> 三十三回忌まで別々にしておくものである。<br><br> ――海外引き揚げ者が胃潰瘍で苦しんでいますが、夜中苦痛を訴える理。<br><br> 霊と関係はなく、「わかもと」の薬毒が原因。<br><br> ――夫婦は霊界で、第三天国以上に住せぬと一緒になれぬ、とうけたまわっておりますが、仏壇内の御夫婦の位牌は、どうなるのでしょうか。<br><br> この場合だけ一緒であるが、片方が地獄に落ちていると仏壇までも来られず、お盆のとき顔を合わせることしかでき得ないものもある。<br><br> ――先妻、後妻の位牌は一緒に祀ってやるべきでしょうか。<br><br> そうするのが真実で、片方だけ祀ると片方は怒りますよ。<br><br> ――御仏壇に供物をおあげする場合の注意。<br><br> 屏風観音を祀ってある場合、お膳は屏風観音と祖霊様と二つおあげするのが本物である。<br><br>しかし仏壇が小さい場合、やむを得ず、すなわち、お膳を一つだけあげると祖霊はお許しを得ていただくことになる。<br><br>二つあげると祖霊は自由に食べる気軽さがある。<br><br> しかし、すべて家に相応していないと霊は苦しむもので、仏壇が大きいのに、なにもあがってないなんて苦しみますよ。<br><br>これはね、霊界の祖霊の中で、八衢あたりの霊が物を運搬する役目の者がいる。<br><br>この者が御用することによって位が上がるのである。<br><br>その功徳によって向上するのであるから、お仏壇には、きれいな花とお供えものはあげておくべきである。<br><br> ――仏壇の位置について、お伺い申し上げます。<br><br> 二階のある家は二階に祀るのが本当で、階上の床の間に御神体を奉斎し、その脇の違い棚に仏壇を祀ってもよい。<br><br> ――屏風観音を祀ってない場合の善言讃詞のあげ方。<br><br> やはりしまいは、「幽世大神守り給へ幸倍賜へ」をおあげする。<br><br>大御神の御は不要で、ただ幽世大神のほうがよい。<br><br> ――メシヤ教になってからは、観音様という御名を使わんほうがよいのです か。<br><br> やはり使わぬほうがよい。<br><br>大光明如来様の御守護をいただいたという言葉が、メシヤ教になってからは本当であるが、未信者に話する場合、観音様の御利益云々と話しても差し支えない。<br><br> ――私は四年間、観音様のお姿を見さしていただいておりますが、最近の観音の姿が変わりましたので、重ねて教えを願いとう存じます。<br><br> （『地上天国』一三号参照） rattail（注） 〔 文字に表われるお姿 〕 この質問をされた方 東京都Ｓ区Ａ・Ｔ氏 注――このＡ氏は現在の観音の姿は、蓮華の上に坐ってなにもお持ちになっておらず、蓮華の花弁もうすらいで見えるそうです。<br><br>お姿の背後に十字架があり、キリストの十字架は十であるが、この十字架は＋でありますと。<br><br> 参考事項 「霊視能力について」（『教えの光』参照） rattail（注） 〔 妙智之光（地上天国５号） 〕 すべて、霊視能力は憑霊のためで、そのほとんどは狐霊である。<br><br>狐が憑ると霊が見えたり、声が聞こえるのである。<br><br>精神病者は右の能力が顕著である。<br><br>ゆえに普通人がそうなることは危険である。<br><br>しかし、特殊の場合、一時的見える場合差し支えない。<br><br>始終見えるのはよくない。<br><br>精神病者がよく空間をみつめているが、これは医学では幻覚といい、聴こえるのを幻聴という。<br><br>正守護神が視せる場合があり、その際狐を使うこともある。<br><br> ――私（神和会長）は去る八日、特別御面会を終えて、計らずも、登山電車の中で対談する機会を得て約一時間、お話してまいり、彼がいかに霊視能力の強い持ち主であるかがうかがわれました。<br><br>職業は一流画家でありました。<br><br> 明主様は、正守護神が見せる場合と、正守護神が狐を使う場合とあるが、この方のは正守護神がお見せになっておるのであると御回答くださっておられるのであります。<br><br> Ａ氏いわく、「お姿は金色で、床の間一面に表現され、実にまぶしく、祝詞を奏上いたしますと、数秒のうちに出てまいり、数秒間にして、すっとなくなります」と。<br><br>六月一五日以来、御浄化をいただきました、との由。<br><br>火素が一段と強くなったことをよくあらわしておるのであります。<br><br>蓮華の花がうすらいでおるとは、仏滅をあらわしてます。<br><br>十字は審判であり、実にはっきりしてます。<br><br> ――一二歳のとき、風邪気味から医者にかかり、気管支カタルの病名にて五年後の今日は脊髄カリエスとなり、昨年七月より歩行困難となり、三回浄霊をいただきましたところ、穴が空き、膿が三合ほど出て、本年六月より四〇度の高熱が続きますが、治りましょうか。<br><br>御浄霊の急所を御教示お願い申し上げます。<br><br> この方は自分で病気をつくってしまった。<br><br>最初の風邪のとき、うっちゃらかしておけば、薬毒カリエスにならぬですんだのである。<br><br>いま、御浄霊をうけたため、とけて苦痛が出てきたのだから、毒素は何カ所にも固まっておるのであるため、そこを気長にやることである。<br><br>必ずよくなる。<br><br> ――御神体をお祀りいたす想念はどうあるべきか。<br><br> 病気治しに利用するとよくない。<br><br> ――掃除を行なってるときの音を嫌う病人。<br><br> これは、前世において、掃除のときに殺された霊が憑いてる。<br><br>水を欲するとすると、たいていながものである。<br><br> 蜿（へび）が御神前に姿を現わすのは、よく祀ってもらいたいから。<br><br> ――土葬と火葬について。<br><br> 本当は、土葬が真実であるが、都会の場合、実際でき得ないので、土地の習慣も守り、火葬にするのである。<br><br>祖霊は土地の習慣を守ると満足するものである。<br><br> ――御神体を奉斉した家の稲荷を、このたび、本山にお帰りを願い、稲荷の好きなものを供え、祀ってあげましたところ、しばらくたって、「さぴしい、さびしい」と言って憑ってきましたが、いかなるわけでございましょうか。<br><br> この稲荷はなに稲荷ですか。<br><br> ――伏見稲荷でございます。<br><br> 伏見、豊川の稲荷は霊格が高いから、御神体を祀ってから、一年経過してから帰ってもらわぬとさわる場合がある。<br><br>一年たってから帰すと、かえって霊格が高くなって帰るから、仲間にもハナが高い。<br><br>狐霊界はおもしろいものですよ。<br><br> ――祈願祭の場合、祝詞奏上して言葉でお祈りお願いいたしてよろしいのでしょうか。<br><br> それでよろしい。<br><br> ――人間が畜生道におちた場合、なにに一番なるでしょうか。<br><br> 狐（人をだます仕事、花柳界の女など）、猫、蛇（執着の強い者）、鳥。<br><br>それで、畜生になるときは、尻尾のほうからなって頭は人間である。<br><br> ――屏風観音は、神道の家にもお祀りしてよろしいでございましょうか。<br><br>お伺い申し上げます。<br><br> 神であるから差し支えない。<br><br> ――私の教会関係で、五人、腕とか脚の骨折患者が参っておりますが、これはなにか霊的に関係がありましょうか。<br><br> やはり骨折の所がくもっておるからである。<br><br>罪が重なってる。<br><br> ――口より月のものを出す女がありますが、霊的になにか意味がありましょうか。<br><br> 前世において逆なことをしたからである。<br><br>ラッパ管の入口に毒素があるから、下腹部をよく浄霊することである。<br><br> ――私は五年前教修をいただいた者ですが、当時、電気はガラスだけは通さぬから、眼鏡をはずして御治療うけるように教えられましたが、やはりガラスは通さぬものでございましょうか。<br><br> いや、そんなことはない。<br><br>すべての物体を通しますよ。<br><br>眼鏡をかけて御浄霊を受けなさい。<br><br> ――一人娘が、五カ年間輸血をしてもらって生きてますが、御浄霊を受けましてから月経が半月もありますが、差し支えないでしょうか。<br><br> 毒血が排除されるのであるから結構で、霊が物質化したのが浄血であるから、御浄霊を受けると、汚い血が出され、きれいな血が増えてゆくのである。<br><br> ――水に溺れた者を引き上げ、御浄霊をしてあげます場合の急所をお願いいたします。<br><br> 急所……心臓（はら這いにさせて心臓背面部より霊射する）。<br><br> ――阿弥陀様の彫刻は、仏壇内のどこに祀るべきでしょうか。<br><br> 向かって右、阿弥陀。<br><br>真ん中、観音。<br><br>向かって左、釈迦。<br><br> しかし、観音は、日、水、土の三位一体であるから、阿弥陀、釈迦をことさらにお祀りはいらぬ。<br><br> 阿弥陀……月、日……観音、地……釈迦。<br><br> ――卵巣膿腫と卵巣水腫の相違について御教示願います。<br><br> 卵巣膿踵は、卵巣内に薬毒が集溜し、その浄化である。<br><br> 卵巣水腫は、卵巣内に尿が集溜し、その浄化である。<br><br> ――レントゲン写真では、毒素の固まりと、溶解時と、いずれがわかるのでございましょうか。<br><br> これは、毒素の固結が写るのである。<br><br> ――ショー・ウインドーに、『メシヤ教早わかり』新聞をかかげて、宣伝これつとめておりますが、効果がないのはなぜでしょうか。<br><br> 飾り窓は商品を陳列する所で、目的が違うからである。<br><br> ――教会、布教所、支部などでかかげる看板の大きさについてお伺い申し上げます。<br><br> ちょうどいいのがよい。<br><br>（爆笑） ――私の髪の毛が最近柔らかくなりましたについて、友人は、君は我がとれたから柔らかくなったのだと言いますが、本当でしょうか。<br><br> おこりっぽいと固く、我がなくなると柔くなる。<br><br>無理は執着が残存するからよくないのである。<br><br> ――一婦人が専門にこのお道をやりたいのですが、主人が理解してくれませぬ。<br><br>この場合、いかがすべきでございましょうか。<br><br> 正守護神がそうされるのであって、専門におやんなさい。<br><br>ただし、主人が理解せぬと不和になるからおもしろくない。<br><br>時期が来ると、ちゃんとよくなるものであるから、気長に時を待って御用をしてることである。<br><br> ――お盆には世間でやってるように、茄子やきゅうりをあげてお祭りしてよいのでしょうか。<br><br> ええ、差し支えありません。<br><br>そうするのがよいので、これは釈尊が、毎年一回日を決めて、地獄にいる霊を、子孫の家に還らしてくださるのである。<br><br> その日は地獄の釜の蓋が開くというが、とにかく地獄の祖霊も仏壇へ招かれて、子孫に供養される。<br><br>地獄の霊もそれを知っていて待っているのである。<br><br> お盆には、その土地土地で、儀式を行なって迎えるのであるが、おがらを焚くのは、ここからお入りなさいという目印で、これはいままで夜の世界で暗く、霊がまごつくからである。<br><br> ――位牌が多くて困るときは、いかがいたしたらよろしいでしょうか。<br><br>御垂示願います。<br><br> 自分の面識のない祖霊は、先祖代々にまとめてよいのである。<br><br> 参考 墓の場合も、このお位牌に準じます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Comunhão Espiritual e Esclarecimentos Divinos</h2>
 <p>É de conhecimento público que Meishu-Sama, no sexto mês do vigésimo quinto ano da Era Showa (1950), enfrentou uma perseguição religiosa que o levou à delegacia de Ihara, em Shizuoka. O que poucos sabem, contudo, é que tal evento encerra um profundo mistério.</p>
@@ -194,5 +346,48 @@ Sim, não há problema algum. É bom que o façam. Esse costume foi iniciado por
 <p><strong>Quando há muitos tabletes ancestrais e isso se torna um problema, como devemos proceder?</strong>
 Os antepassados que o senhor não conheceu em vida podem ser agrupados em um único tablete dedicado a "Todas as gerações de antepassados".</p>
 <p>Referência: O mesmo princípio se aplica aos túmulos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神和会『特別御面会御光話』 昭和26(1951)年7月8日 各宗教祖との誓い 明主様には昨二五年六月、御法難に遭って、静岡庵原（いはら）警察署にお入りになったことは、世人のよく承知のことであるが、これは一大神秘であります。<br/><br/> 明主様には深夜、各宗の教祖と、「霊界通信」をなされ、左にその主だった方、この言葉をお伝えしておきましょう。<br/><br/>これはちょっと『栄光』新聞にも出ないのではないかと存じます。<br/><br/> 注――「霊界通信」とは、この場合、所望の霊を霊界より、または現界人の生霊を呼んで、自由にお話するのであります。<br/><br/>ちょっと、私どもにはまねができませんね。<br/><br/> ――出口なお刀自――このたびは、まことに御苦労様です（以下略）。<br/><br/>どうぞ世の人をお救いくださいませ。<br/><br/> 承知しました。<br/><br/>御安心ください。<br/><br/> ――出口王仁三郎先生。<br/><br/> 霊界の八衢（やちまた）に在って、あまり気の毒だから、第三天国に救ってやったよ。<br/><br/>いまは内容は発表できませぬ。<br/><br/> ――中山みき――私も、この尊き道を、天理教の信者にわからせるようにつとめますから、よろしく願います。<br/><br/> 承知しました。<br/><br/> ――日蓮上人――○○に落ちて、苦しんでおった。<br/><br/>これから日蓮信者を救っておもらいしたい。<br/><br/> 承知した。<br/><br/>御安心ください。<br/><br/> ――明治天皇――霊界で苦しんでいる者がいるから救ってやってほしい。<br/><br/> はい、かしこまりました。<br/><br/> ――キリスト。<br/><br/> 三度、イタリアに生まれ代わり、いま○○の○○になってる。<br/><br/> ――釈迦。<br/><br/> 八回生まれ代わって、いま、インドの○○になってる。<br/><br/> ――スターリンの生霊。<br/><br/> 頑固で三回憑ったが、とうとう承知しなかった（本教の教義がわからぬらしい）。<br/><br/> 明主様の御法難の原因は、邪神の仕業にして、実に神秘なものがあり、いまは時期尚早のため未発表ではありますが、期待しててほしいことでありますが。<br/><br/> 特別御面会 昭和二六年七月八日 午後一時三〇分より約二時間 （於）神山荘 上の間 当日朝より、霧雨がしきり、窓より霧が入ってきます。<br/><br/> 一六〇名の参席者の中に、珍客人あり。<br/><br/>それは、徳川夢声氏とアザブ伸。<br/><br/>徳川夢声氏の十二指腸〔潰瘍〕も御浄霊で治り、たいへん参考になりました、と満足して当日帰られた。<br/><br/>左に、各資格者より発せられた伺い事項に対し、打てば響く即座の御開示の要点の記録であります。<br/><br/>『教えの光』の姉妹篇とせば幸いであり、信仰の尺度も数歩前進され、喜んで御奉仕できるようになること、また不思議であります。<br/><br/> ――物事の解決。<br/><br/> 臨機応変。<br/><br/>しかも常識的で、食い違いのないようにする。<br/><br/> ――女児のみ生まれたり、男子のみ生まれたりするのは。<br/><br/> 女子は月の系統、男子は日の系統。<br/><br/>月は龍宮の乙女である。<br/><br/> ――分骨はよきや。<br/><br/> 悪い。<br/><br/>もしわけてしまったなら、しかたがない。<br/><br/>昔は分骨はしなかった。<br/><br/>その代わり頭髪の毛、または爪をわけたものである。<br/><br/> ――位牌は何回忌まで別々にしておくものですか。<br/><br/> 三十三回忌まで別々にしておくものである。<br/><br/> ――海外引き揚げ者が胃潰瘍で苦しんでいますが、夜中苦痛を訴える理。<br/><br/> 霊と関係はなく、「わかもと」の薬毒が原因。<br/><br/> ――夫婦は霊界で、第三天国以上に住せぬと一緒になれぬ、とうけたまわっておりますが、仏壇内の御夫婦の位牌は、どうなるのでしょうか。<br/><br/> この場合だけ一緒であるが、片方が地獄に落ちていると仏壇までも来られず、お盆のとき顔を合わせることしかでき得ないものもある。<br/><br/> ――先妻、後妻の位牌は一緒に祀ってやるべきでしょうか。<br/><br/> そうするのが真実で、片方だけ祀ると片方は怒りますよ。<br/><br/> ――御仏壇に供物をおあげする場合の注意。<br/><br/> 屏風観音を祀ってある場合、お膳は屏風観音と祖霊様と二つおあげするのが本物である。<br/><br/>しかし仏壇が小さい場合、やむを得ず、すなわち、お膳を一つだけあげると祖霊はお許しを得ていただくことになる。<br/><br/>二つあげると祖霊は自由に食べる気軽さがある。<br/><br/> しかし、すべて家に相応していないと霊は苦しむもので、仏壇が大きいのに、なにもあがってないなんて苦しみますよ。<br/><br/>これはね、霊界の祖霊の中で、八衢あたりの霊が物を運搬する役目の者がいる。<br/><br/>この者が御用することによって位が上がるのである。<br/><br/>その功徳によって向上するのであるから、お仏壇には、きれいな花とお供えものはあげておくべきである。<br/><br/> ――仏壇の位置について、お伺い申し上げます。<br/><br/> 二階のある家は二階に祀るのが本当で、階上の床の間に御神体を奉斎し、その脇の違い棚に仏壇を祀ってもよい。<br/><br/> ――屏風観音を祀ってない場合の善言讃詞のあげ方。<br/><br/> やはりしまいは、「幽世大神守り給へ幸倍賜へ」をおあげする。<br/><br/>大御神の御は不要で、ただ幽世大神のほうがよい。<br/><br/> ――メシヤ教になってからは、観音様という御名を使わんほうがよいのです か。<br/><br/> やはり使わぬほうがよい。<br/><br/>大光明如来様の御守護をいただいたという言葉が、メシヤ教になってからは本当であるが、未信者に話する場合、観音様の御利益云々と話しても差し支えない。<br/><br/> ――私は四年間、観音様のお姿を見さしていただいておりますが、最近の観音の姿が変わりましたので、重ねて教えを願いとう存じます。<br/><br/> （『地上天国』一三号参照） rattail（注） 〔 文字に表われるお姿 〕 この質問をされた方 東京都Ｓ区Ａ・Ｔ氏 注――このＡ氏は現在の観音の姿は、蓮華の上に坐ってなにもお持ちになっておらず、蓮華の花弁もうすらいで見えるそうです。<br/><br/>お姿の背後に十字架があり、キリストの十字架は十であるが、この十字架は＋でありますと。<br/><br/> 参考事項 「霊視能力について」（『教えの光』参照） rattail（注） 〔 妙智之光（地上天国５号） 〕 すべて、霊視能力は憑霊のためで、そのほとんどは狐霊である。<br/><br/>狐が憑ると霊が見えたり、声が聞こえるのである。<br/><br/>精神病者は右の能力が顕著である。<br/><br/>ゆえに普通人がそうなることは危険である。<br/><br/>しかし、特殊の場合、一時的見える場合差し支えない。<br/><br/>始終見えるのはよくない。<br/><br/>精神病者がよく空間をみつめているが、これは医学では幻覚といい、聴こえるのを幻聴という。<br/><br/>正守護神が視せる場合があり、その際狐を使うこともある。<br/><br/> ――私（神和会長）は去る八日、特別御面会を終えて、計らずも、登山電車の中で対談する機会を得て約一時間、お話してまいり、彼がいかに霊視能力の強い持ち主であるかがうかがわれました。<br/><br/>職業は一流画家でありました。<br/><br/> 明主様は、正守護神が見せる場合と、正守護神が狐を使う場合とあるが、この方のは正守護神がお見せになっておるのであると御回答くださっておられるのであります。<br/><br/> Ａ氏いわく、「お姿は金色で、床の間一面に表現され、実にまぶしく、祝詞を奏上いたしますと、数秒のうちに出てまいり、数秒間にして、すっとなくなります」と。<br/><br/>六月一五日以来、御浄化をいただきました、との由。<br/><br/>火素が一段と強くなったことをよくあらわしておるのであります。<br/><br/>蓮華の花がうすらいでおるとは、仏滅をあらわしてます。<br/><br/>十字は審判であり、実にはっきりしてます。<br/><br/> ――一二歳のとき、風邪気味から医者にかかり、気管支カタルの病名にて五年後の今日は脊髄カリエスとなり、昨年七月より歩行困難となり、三回浄霊をいただきましたところ、穴が空き、膿が三合ほど出て、本年六月より四〇度の高熱が続きますが、治りましょうか。<br/><br/>御浄霊の急所を御教示お願い申し上げます。<br/><br/> この方は自分で病気をつくってしまった。<br/><br/>最初の風邪のとき、うっちゃらかしておけば、薬毒カリエスにならぬですんだのである。<br/><br/>いま、御浄霊をうけたため、とけて苦痛が出てきたのだから、毒素は何カ所にも固まっておるのであるため、そこを気長にやることである。<br/><br/>必ずよくなる。<br/><br/> ――御神体をお祀りいたす想念はどうあるべきか。<br/><br/> 病気治しに利用するとよくない。<br/><br/> ――掃除を行なってるときの音を嫌う病人。<br/><br/> これは、前世において、掃除のときに殺された霊が憑いてる。<br/><br/>水を欲するとすると、たいていながものである。<br/><br/> 蜿（へび）が御神前に姿を現わすのは、よく祀ってもらいたいから。<br/><br/> ――土葬と火葬について。<br/><br/> 本当は、土葬が真実であるが、都会の場合、実際でき得ないので、土地の習慣も守り、火葬にするのである。<br/><br/>祖霊は土地の習慣を守ると満足するものである。<br/><br/> ――御神体を奉斉した家の稲荷を、このたび、本山にお帰りを願い、稲荷の好きなものを供え、祀ってあげましたところ、しばらくたって、「さぴしい、さびしい」と言って憑ってきましたが、いかなるわけでございましょうか。<br/><br/> この稲荷はなに稲荷ですか。<br/><br/> ――伏見稲荷でございます。<br/><br/> 伏見、豊川の稲荷は霊格が高いから、御神体を祀ってから、一年経過してから帰ってもらわぬとさわる場合がある。<br/><br/>一年たってから帰すと、かえって霊格が高くなって帰るから、仲間にもハナが高い。<br/><br/>狐霊界はおもしろいものですよ。<br/><br/> ――祈願祭の場合、祝詞奏上して言葉でお祈りお願いいたしてよろしいのでしょうか。<br/><br/> それでよろしい。<br/><br/> ――人間が畜生道におちた場合、なにに一番なるでしょうか。<br/><br/> 狐（人をだます仕事、花柳界の女など）、猫、蛇（執着の強い者）、鳥。<br/><br/>それで、畜生になるときは、尻尾のほうからなって頭は人間である。<br/><br/> ――屏風観音は、神道の家にもお祀りしてよろしいでございましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 神であるから差し支えない。<br/><br/> ――私の教会関係で、五人、腕とか脚の骨折患者が参っておりますが、これはなにか霊的に関係がありましょうか。<br/><br/> やはり骨折の所がくもっておるからである。<br/><br/>罪が重なってる。<br/><br/> ――口より月のものを出す女がありますが、霊的になにか意味がありましょうか。<br/><br/> 前世において逆なことをしたからである。<br/><br/>ラッパ管の入口に毒素があるから、下腹部をよく浄霊することである。<br/><br/> ――私は五年前教修をいただいた者ですが、当時、電気はガラスだけは通さぬから、眼鏡をはずして御治療うけるように教えられましたが、やはりガラスは通さぬものでございましょうか。<br/><br/> いや、そんなことはない。<br/><br/>すべての物体を通しますよ。<br/><br/>眼鏡をかけて御浄霊を受けなさい。<br/><br/> ――一人娘が、五カ年間輸血をしてもらって生きてますが、御浄霊を受けましてから月経が半月もありますが、差し支えないでしょうか。<br/><br/> 毒血が排除されるのであるから結構で、霊が物質化したのが浄血であるから、御浄霊を受けると、汚い血が出され、きれいな血が増えてゆくのである。<br/><br/> ――水に溺れた者を引き上げ、御浄霊をしてあげます場合の急所をお願いいたします。<br/><br/> 急所……心臓（はら這いにさせて心臓背面部より霊射する）。<br/><br/> ――阿弥陀様の彫刻は、仏壇内のどこに祀るべきでしょうか。<br/><br/> 向かって右、阿弥陀。<br/><br/>真ん中、観音。<br/><br/>向かって左、釈迦。<br/><br/> しかし、観音は、日、水、土の三位一体であるから、阿弥陀、釈迦をことさらにお祀りはいらぬ。<br/><br/> 阿弥陀……月、日……観音、地……釈迦。<br/><br/> ――卵巣膿腫と卵巣水腫の相違について御教示願います。<br/><br/> 卵巣膿踵は、卵巣内に薬毒が集溜し、その浄化である。<br/><br/> 卵巣水腫は、卵巣内に尿が集溜し、その浄化である。<br/><br/> ――レントゲン写真では、毒素の固まりと、溶解時と、いずれがわかるのでございましょうか。<br/><br/> これは、毒素の固結が写るのである。<br/><br/> ――ショー・ウインドーに、『メシヤ教早わかり』新聞をかかげて、宣伝これつとめておりますが、効果がないのはなぜでしょうか。<br/><br/> 飾り窓は商品を陳列する所で、目的が違うからである。<br/><br/> ――教会、布教所、支部などでかかげる看板の大きさについてお伺い申し上げます。<br/><br/> ちょうどいいのがよい。<br/><br/>（爆笑） ――私の髪の毛が最近柔らかくなりましたについて、友人は、君は我がとれたから柔らかくなったのだと言いますが、本当でしょうか。<br/><br/> おこりっぽいと固く、我がなくなると柔くなる。<br/><br/>無理は執着が残存するからよくないのである。<br/><br/> ――一婦人が専門にこのお道をやりたいのですが、主人が理解してくれませぬ。<br/><br/>この場合、いかがすべきでございましょうか。<br/><br/> 正守護神がそうされるのであって、専門におやんなさい。<br/><br/>ただし、主人が理解せぬと不和になるからおもしろくない。<br/><br/>時期が来ると、ちゃんとよくなるものであるから、気長に時を待って御用をしてることである。<br/><br/> ――お盆には世間でやってるように、茄子やきゅうりをあげてお祭りしてよいのでしょうか。<br/><br/> ええ、差し支えありません。<br/><br/>そうするのがよいので、これは釈尊が、毎年一回日を決めて、地獄にいる霊を、子孫の家に還らしてくださるのである。<br/><br/> その日は地獄の釜の蓋が開くというが、とにかく地獄の祖霊も仏壇へ招かれて、子孫に供養される。<br/><br/>地獄の霊もそれを知っていて待っているのである。<br/><br/> お盆には、その土地土地で、儀式を行なって迎えるのであるが、おがらを焚くのは、ここからお入りなさいという目印で、これはいままで夜の世界で暗く、霊がまごつくからである。<br/><br/> ――位牌が多くて困るときは、いかがいたしたらよろしいでしょうか。<br/><br/>御垂示願います。<br/><br/> 自分の面識のない祖霊は、先祖代々にまとめてよいのである。<br/><br/> 参考 墓の場合も、このお位牌に準じます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

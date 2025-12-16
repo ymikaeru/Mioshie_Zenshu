@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>keturo15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『結核問題と其解決策（再版）』昭和18(1943)年5月5日発行 以上のごとく、結核の原因及び結核増加の真因並びに本医術の効果等、各般に渉って説いたつもりであるから、読者は結核の正体を充分突止め得たと共に、何ら恐るべきものではない事を知ったであろう。<br><br> そうして、右を要約すれば、病気なるものは浄化作用である事、特に結核は旺盛なる浄化作用であるから、元気旺盛なる青少年時代に発病するものであるという事、結核菌は絶対伝染しないという事、必ず全治するという事等である。<br><br> 又、浄化作用という事を知らない西洋医学は、その療法のことごとくが、折角溶解し始めた毒素を再び固むるのを目的とし、それ以外の何物でもない事。<br><br>即ち浄化発生以前の擬健康に還元させる事を以て、唯一の治療目的としている事。<br><br>故に、その結果として多くは再発の危険がある事。<br><br>又、固結法を行うについては、絶対安静法、薬剤その他の方法等により、多額の費用と長事実を要するを以て、国家にも個人にも莫大なる負担を蒙（こうむ）らせる事。<br><br> 次に、幼時及び少年時代、先天性毒素の浄化作用発生の場合、医療によって固結させ、薬毒を追増させ、ついに腺病質たらしめる結果、青年期の活力旺盛時になると、急激な浄化作用又は執拗な浄化作用が発生する。<br><br>その場合医療は、誤診誤療によって、多くは不幸な結果に陥（おちい）らしめるという事実。<br><br> 近時盛んに予防注射と称して、血液中に異物を注入する。<br><br>それが浄化作用によって一局部に集溜固結する。<br><br>しかるに、体位錬成又は強制労務等の強労働をさせる。<br><br>その結果、右固結に浄化作用が起こり有熱者となる。<br><br>それに対し早期健康診断の名の下に診査をなし、有熱者の発見となり、これらを結核容疑者又は解〔開〕放性結核患者となし、診療又は隔離させる。<br><br>これが為生産を阻害し、人的資源の消耗等、現在の国家目的に対し、すくなからぬ悪影響を与えつゝある事。<br><br> 又、自然発生の病菌であって、絶対に伝染の憂いなきものを伝染するものであるとし、繁雑極まる防止法を行い、それが為個人生活の不安や能率の低下は固より、国家全体が無益なる支出と施設を行わせしめらるる事。<br><br> 右のごとく真相を知ってみるとき、国家の為一日も忽（ゆるが）せに出来ない大問題であって、まことに憂慮に禁（た）えないのである。<br><br>しかしながら、私は結核に対し、完全に解決なし得る対策を示したのであるが、これをいかにして国民全般に知らしめ又は応用するかという事は、政府当局者はじめ、それぞれの専門的権威者又は指導者があるのであるから、それらの人士が、国家の為奮ってこの医術の研究と応用とに着眼さるゝ事を冀っ（こいねが）って熄（や）まないものである。<br><br> （昭和拾七年九月）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose e sua Solução Definitiva</h2>
 <p>Tendo discorrido amplamente sobre as causas da tuberculose, os verdadeiros motivos de seu aumento e os efeitos desta arte de cura, acredito que o leitor terá compreendido em profundidade a real natureza da doença, dissipando, por conseguinte, qualquer temor a seu respeito.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Acrescente-se a isso o fato de uma doença de origem natural e absolutamente não contagiosa ser tratada como infecciosa, impondo-se métodos de prevenção de enorme complexidade. Isso não só gera insegurança na vida dos indivíduos e reduz sua eficiência, como também compele a nação a incorrer em despesas e a criar estruturas inteiramente inúteis.</p>
 <p>Ao compreendermos a verdade dos fatos, percebemos tratar-se de uma questão de suma gravidade para o país, que não pode ser negligenciada sequer por um dia e que me causa profunda apreensão. Todavia, apresentei uma solução capaz de resolver por completo o problema da tuberculose. A questão de como divulgar e aplicar este conhecimento em benefício de todo o povo, contudo, recai sobre as autoridades governamentais, os especialistas de cada área e os líderes da sociedade. Resta-me, portanto, rogar fervorosamente que essas personalidades, movidas pelo bem da nação, se dediquem com afinco ao estudo e à aplicação desta arte de cura.</p>
 <p>(Setembro de 1942)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『結核問題と其解決策（再版）』昭和18(1943)年5月5日発行 以上のごとく、結核の原因及び結核増加の真因並びに本医術の効果等、各般に渉って説いたつもりであるから、読者は結核の正体を充分突止め得たと共に、何ら恐るべきものではない事を知ったであろう。<br/><br/> そうして、右を要約すれば、病気なるものは浄化作用である事、特に結核は旺盛なる浄化作用であるから、元気旺盛なる青少年時代に発病するものであるという事、結核菌は絶対伝染しないという事、必ず全治するという事等である。<br/><br/> 又、浄化作用という事を知らない西洋医学は、その療法のことごとくが、折角溶解し始めた毒素を再び固むるのを目的とし、それ以外の何物でもない事。<br/><br/>即ち浄化発生以前の擬健康に還元させる事を以て、唯一の治療目的としている事。<br/><br/>故に、その結果として多くは再発の危険がある事。<br/><br/>又、固結法を行うについては、絶対安静法、薬剤その他の方法等により、多額の費用と長事実を要するを以て、国家にも個人にも莫大なる負担を蒙（こうむ）らせる事。<br/><br/> 次に、幼時及び少年時代、先天性毒素の浄化作用発生の場合、医療によって固結させ、薬毒を追増させ、ついに腺病質たらしめる結果、青年期の活力旺盛時になると、急激な浄化作用又は執拗な浄化作用が発生する。<br/><br/>その場合医療は、誤診誤療によって、多くは不幸な結果に陥（おちい）らしめるという事実。<br/><br/> 近時盛んに予防注射と称して、血液中に異物を注入する。<br/><br/>それが浄化作用によって一局部に集溜固結する。<br/><br/>しかるに、体位錬成又は強制労務等の強労働をさせる。<br/><br/>その結果、右固結に浄化作用が起こり有熱者となる。<br/><br/>それに対し早期健康診断の名の下に診査をなし、有熱者の発見となり、これらを結核容疑者又は解〔開〕放性結核患者となし、診療又は隔離させる。<br/><br/>これが為生産を阻害し、人的資源の消耗等、現在の国家目的に対し、すくなからぬ悪影響を与えつゝある事。<br/><br/> 又、自然発生の病菌であって、絶対に伝染の憂いなきものを伝染するものであるとし、繁雑極まる防止法を行い、それが為個人生活の不安や能率の低下は固より、国家全体が無益なる支出と施設を行わせしめらるる事。<br/><br/> 右のごとく真相を知ってみるとき、国家の為一日も忽（ゆるが）せに出来ない大問題であって、まことに憂慮に禁（た）えないのである。<br/><br/>しかしながら、私は結核に対し、完全に解決なし得る対策を示したのであるが、これをいかにして国民全般に知らしめ又は応用するかという事は、政府当局者はじめ、それぞれの専門的権威者又は指導者があるのであるから、それらの人士が、国家の為奮ってこの医術の研究と応用とに着眼さるゝ事を冀っ（こいねが）って熄（や）まないものである。<br/><br/> （昭和拾七年九月）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

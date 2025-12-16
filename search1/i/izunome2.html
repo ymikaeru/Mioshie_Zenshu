@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>izunome2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伊都能売神 未発表『文明の創造』昭和27(1952)年執筆 前項に述べたところは、大自在天なる言わば婆羅門（バラモン）宗盛んであった頃の、主宰者を表わしたのであるが、その当時先に述べたごとく、日本古来の神々は印度（インド）へ渡航し、化身仏となられたので、その化身仏の総領が伊都能売神（いづのめのかみ）であって、当時日本における最高の地位であられたのである。<br><br>ところがその頃素盞嗚尊（すさのをのみこと）を中心とする朝鮮の神々が渡来され、伊都能売神の地位を狙って犯そうとしたが、容易に応諾されないため威圧や迫害等から進んで、ついに生命にまでも及んで来たので、急遽御位（みくらい）を棄てられ、変身によって眼を外らし、ひそかに日本を脱出し、支那を通って印度へ落ち延び給うたのである。<br><br>そうして観自在菩薩の御名によって、当時インドの南方海岸にある補陀洛（ふだらく）という名の、余り高からざる山の上に安住せらるべく、新たなる清き館を建てられた。<br><br>この事は華厳経（発表時は悲華経）の中にある。<br><br>いわく「観自在菩薩は補陀洛山上柔かき草地の上に金剛精座を出来（しゅつらい）、二十八部衆を随え結跏趺坐（けっかふざ）して説教をされた云々」とある。<br><br>当時まだ善財童子という御名であった若き釈尊は、この説教を聴聞して、その卓抜せる教えに感激すると共に心機一転してそれまでの悉達（しった）太子という皇太子の御位を放棄し、一大決意の下に、当時紊（みだ）れていた俗界を離脱し、直ちに檀特（だんとく）の山深く別け入り、菩提樹（一名橄欖樹（かんらんじゅ））の下（もと）石上に安坐し一意専心悟道に入るべく、修行三昧に耽ったのである。<br><br>この修行の期間について、諸説紛々としているが、私は七ケ年と示された。<br><br> そうして業成り出山するや、いよいよ釈迦牟尼如来として仏法開示に、取りかかられたのであるから、実際上仏法の本当の祖は、日本の伊都能売神であった事は確かである。<br><br>そうして今一つ日本から仏法が出たという証拠として見逃し得ない一事がある。<br><br>それは仏教でよく称える本地垂跡〔迹〕（ほんじすいじゃく）の言葉である。<br><br>これは私の考察によれば、本地とは本元の国すなわち日本であり、垂跡とはもちろん巡跡教えを垂れる事である。<br><br>すなわち最後に至って、故郷である日本全土に、一度仏の教えを垂れると共に、仏華を咲かせ、実を生らせなければならないという密意である。<br><br>また今一つは観世音の御姿である。<br><br>その最も特異の点は、漆黒の素直な頭髪で、これは日本人特有のものである。<br><br>それに引換え釈迦、阿弥陀は全然異った赭色（しゃしょく）、縮毛であるにみても、両如来がインド人であった事は明らかである。<br><br>また観世音の王冠や、首飾り等も、高貴な地位を物語っており、頭巾（ときん）を被られているのは御忍びの姿である。<br><br> そうしてまた釈尊の弟子に、法蔵菩薩という傑出した一人がいた。<br><br>彼は一時釈尊から離れて他の方面で修行し、業成ってから一日釈尊を訪れていうには「私は今度インドの西方に一の聖地を選びて祗園精舎を作り、これを極楽浄土と名付けた。<br><br>その目的は今後世尊の御教えによって、覚者すなわち仏の資格を得た者を寄こしてもらいたい。<br><br>さすれば右の極楽浄土、別名寂光（じゃっこう）の浄土へ安住させ、一生歓喜法悦の境遇にあらしめるであろう」といって約束をされたのである。<br><br>寂光とは寂しい光であるからもちろん月の光である。<br><br>ところがこの法蔵菩薩が他界するや、阿弥陀如来の法名となって、霊界において一切衆生を救われたのである。<br><br>つまり現界は釈迦、霊界は阿弥陀が救うという意味である。<br><br> そうして観自在菩薩は、終りには観世音菩薩と御名を変えられたのである。<br><br>これは梵語（ぼんご）ではアバロキティシュバラの御名であったが、後支那における鳩摩羅什（くまらじゅう）なる学者が訳され、観世音と名付けられたという事になっている。<br><br>ところがこの観世音の御名については、一つの深い神秘があるから、それを書いてみよう。<br><br> (注) 補陀洛（ふだらく）、【補陀落・普陀洛】光明山・海島山・小花樹山と訳す。<br><br>仏語。<br><br>インド南端の海岸にあり、観音が住むという八角形の山。<br><br> 悉達（しった）、「悉達多」の略。<br><br>目的を達したという意。<br><br>釈迦の出家以前の名。<br><br>誕生したとき、一切の吉祥瑞相をそなえていたことからこの名がつけられた。<br><br> 檀特（だんとく）の山、北インドのガンダーラ地方にあり、釈迦の前身、須大拏（しゆたぬ）太子が菩薩の修行をしたという山。<br><br>悉達（しった）太子が苦行した山とする俗説もある。<br><br>弾多落迦（だんだらか）山。<br><br> 本地垂跡〔迹〕（ほんじすいじゃく）、仏・菩薩（ぼさつ）を本地とし、神を衆生救済のための垂迹とする説。<br><br>法華経・大日経に基づいて説かれたもの。<br><br> 赭色（しゃしょく）、赤褐色。<br><br>あかつち色。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Gênese do Budismo</h2>
 <p>O que expus no tópico anterior descreveu a figura que presidia a era de florescimento da religião bramânica, conhecida como Daijizaiten. Naquela época, conforme já elucidei, as divindades ancestrais do Japão peregrinaram até a Índia, onde se tornaram Budas em manifestação corpórea. O líder supremo desses Budas era Izunome-no-Kami (伊都能売神), que ocupava, à época, a mais elevada posição hierárquica no Japão.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>O termo <em>Jakko</em> significa “Luz Serena”, uma clara alusão ao luar. Após seu falecimento, Hōzō Bosatsu recebeu o nome de Amida Nyorai e passou a se dedicar à salvação de todos os seres no Mundo Espiritual. Isso significa, em suma, que a salvação no Mundo Material é concedida por Shakyamuni, enquanto no Mundo Espiritual, é concedida por Amida.</p>
 <p>Com o tempo, Kanjizai Bosatsu passou a ser conhecido como Kanzeon Bosatsu. Em sânscrito, seu nome era Avalokiteśvara, e a tradição atribui ao erudito chinês Kumarajiva (鳩摩羅什) a tradução que resultou no nome Kanzeon.</p>
 <p>Contudo, o nome Kanzeon encerra um profundo mistério, sobre o qual passarei a discorrer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伊都能売神 未発表『文明の創造』昭和27(1952)年執筆 前項に述べたところは、大自在天なる言わば婆羅門（バラモン）宗盛んであった頃の、主宰者を表わしたのであるが、その当時先に述べたごとく、日本古来の神々は印度（インド）へ渡航し、化身仏となられたので、その化身仏の総領が伊都能売神（いづのめのかみ）であって、当時日本における最高の地位であられたのである。<br/><br/>ところがその頃素盞嗚尊（すさのをのみこと）を中心とする朝鮮の神々が渡来され、伊都能売神の地位を狙って犯そうとしたが、容易に応諾されないため威圧や迫害等から進んで、ついに生命にまでも及んで来たので、急遽御位（みくらい）を棄てられ、変身によって眼を外らし、ひそかに日本を脱出し、支那を通って印度へ落ち延び給うたのである。<br/><br/>そうして観自在菩薩の御名によって、当時インドの南方海岸にある補陀洛（ふだらく）という名の、余り高からざる山の上に安住せらるべく、新たなる清き館を建てられた。<br/><br/>この事は華厳経（発表時は悲華経）の中にある。<br/><br/>いわく「観自在菩薩は補陀洛山上柔かき草地の上に金剛精座を出来（しゅつらい）、二十八部衆を随え結跏趺坐（けっかふざ）して説教をされた云々」とある。<br/><br/>当時まだ善財童子という御名であった若き釈尊は、この説教を聴聞して、その卓抜せる教えに感激すると共に心機一転してそれまでの悉達（しった）太子という皇太子の御位を放棄し、一大決意の下に、当時紊（みだ）れていた俗界を離脱し、直ちに檀特（だんとく）の山深く別け入り、菩提樹（一名橄欖樹（かんらんじゅ））の下（もと）石上に安坐し一意専心悟道に入るべく、修行三昧に耽ったのである。<br/><br/>この修行の期間について、諸説紛々としているが、私は七ケ年と示された。<br/><br/> そうして業成り出山するや、いよいよ釈迦牟尼如来として仏法開示に、取りかかられたのであるから、実際上仏法の本当の祖は、日本の伊都能売神であった事は確かである。<br/><br/>そうして今一つ日本から仏法が出たという証拠として見逃し得ない一事がある。<br/><br/>それは仏教でよく称える本地垂跡〔迹〕（ほんじすいじゃく）の言葉である。<br/><br/>これは私の考察によれば、本地とは本元の国すなわち日本であり、垂跡とはもちろん巡跡教えを垂れる事である。<br/><br/>すなわち最後に至って、故郷である日本全土に、一度仏の教えを垂れると共に、仏華を咲かせ、実を生らせなければならないという密意である。<br/><br/>また今一つは観世音の御姿である。<br/><br/>その最も特異の点は、漆黒の素直な頭髪で、これは日本人特有のものである。<br/><br/>それに引換え釈迦、阿弥陀は全然異った赭色（しゃしょく）、縮毛であるにみても、両如来がインド人であった事は明らかである。<br/><br/>また観世音の王冠や、首飾り等も、高貴な地位を物語っており、頭巾（ときん）を被られているのは御忍びの姿である。<br/><br/> そうしてまた釈尊の弟子に、法蔵菩薩という傑出した一人がいた。<br/><br/>彼は一時釈尊から離れて他の方面で修行し、業成ってから一日釈尊を訪れていうには「私は今度インドの西方に一の聖地を選びて祗園精舎を作り、これを極楽浄土と名付けた。<br/><br/>その目的は今後世尊の御教えによって、覚者すなわち仏の資格を得た者を寄こしてもらいたい。<br/><br/>さすれば右の極楽浄土、別名寂光（じゃっこう）の浄土へ安住させ、一生歓喜法悦の境遇にあらしめるであろう」といって約束をされたのである。<br/><br/>寂光とは寂しい光であるからもちろん月の光である。<br/><br/>ところがこの法蔵菩薩が他界するや、阿弥陀如来の法名となって、霊界において一切衆生を救われたのである。<br/><br/>つまり現界は釈迦、霊界は阿弥陀が救うという意味である。<br/><br/> そうして観自在菩薩は、終りには観世音菩薩と御名を変えられたのである。<br/><br/>これは梵語（ぼんご）ではアバロキティシュバラの御名であったが、後支那における鳩摩羅什（くまらじゅう）なる学者が訳され、観世音と名付けられたという事になっている。<br/><br/>ところがこの観世音の御名については、一つの深い神秘があるから、それを書いてみよう。<br/><br/> (注) 補陀洛（ふだらく）、【補陀落・普陀洛】光明山・海島山・小花樹山と訳す。<br/><br/>仏語。<br/><br/>インド南端の海岸にあり、観音が住むという八角形の山。<br/><br/> 悉達（しった）、「悉達多」の略。<br/><br/>目的を達したという意。<br/><br/>釈迦の出家以前の名。<br/><br/>誕生したとき、一切の吉祥瑞相をそなえていたことからこの名がつけられた。<br/><br/> 檀特（だんとく）の山、北インドのガンダーラ地方にあり、釈迦の前身、須大拏（しゆたぬ）太子が菩薩の修行をしたという山。<br/><br/>悉達（しった）太子が苦行した山とする俗説もある。<br/><br/>弾多落迦（だんだらか）山。<br/><br/> 本地垂跡〔迹〕（ほんじすいじゃく）、仏・菩薩（ぼさつ）を本地とし、神を衆生救済のための垂迹とする説。<br/><br/>法華経・大日経に基づいて説かれたもの。<br/><br/> 赭色（しゃしょく）、赤褐色。<br/><br/>あかつち色。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

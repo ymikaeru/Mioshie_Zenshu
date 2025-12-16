@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kisoku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教法人「世界救世教」規則 『栄光』125号、昭和26(1951)年10月10日発行 目 次 第一章 総則（第一條－第四條） 第二章 役員その他の機関 第一節 代表役員及び責任役員（第五條－第十條） 第二節 代表者（第十一條－第十四條） 第三節 仮代表役員及び仮責任役員（第十五條） 第四節 事務所（第十六條） 第五節 総会（第十七條－第二十三條） 第六節 監事（第二十四條） 第七節 諮問機関（第二十五條） 第三章 教会（第二十六條－第二十八條） 第四章 財務（第二十九條－第四十一條） 第五章 事業（第四十三條） 第六章 補則（第四十四條－第四十六條） 附 則 第一章 総 則 （名称） 第一條 この教団は、宗教法人法による宗教法人であって「世界救世教」という （事務所の所在地） 第二條 この宗教法人（以下「法人」という）は、事務所を静岡県熱海市字大久保二三一番の一に置く （目的） 第三條 この法人は、岡田自観師を教主と仰ぎ、その立教の本義に基き、真理の具現により造物主の目的たる現世地上の天国化を図るため、世界の人類を救済して、教義をひろめ、儀式行事を行い、信者を教化育成し、教会を包括し、その他この教団の目的を達成するための業教務び事業を行うことを目的とする （公告の方法） 第四條 この法人の公告は、機関紙「栄光」に一回掲載し、及び事務所の掲示場に十日間掲示して行う 第二章 役員その他の機関 第一節 代表役員及び責任役員 （員数） 第五條 この法人には、十一人の責任役負を置き、そのうち一人を代表役員とする （呼称） 第六條 代表役員を「管長」と卜い、その他の責任役員を「理事」という （資格及び選任） 第七條 管長は、理事の互選によって定める ２ 理事は、総会において選出した者のうちから管長が選任する （任期） 第八條 管長及び理事の任期は、各々三年とする、但し、再任を妨げない ２ 補欠理事の任期は、前任者の責任期間とする ３ 管長及び理事は、辞任又は任期満了後でも、後任者が就任する時まで、なおその職務を行うものとする （代表役員の職務権限） 第九條 管長は、この法人を代表し、その事務を総理する （責任役員の職務権限） 第十條 この法人の事務は、責任役員の定数の過年数で決し、その議決権は、各々平等とする 第二節 代務者 （置くべき場合） 第十一條 左の各号の一に該当するときは、代務者を置かなければならない 一、管長又は理事が死亡、辞任、任期満了その他の事由に因って欠けた場合において、すみやかにその後任者を選ぶことができないとき 二、管長又は理事が病気、旅行その他の事由に因って三カ月以上その職務を行うことができないとき （選任） 第十二條 管長の代務者は、前條第一号に該当するときほ理事会において選定し、同條第二号に該当するときは管長が選任する ２ 理事の代務者は、管長又はその代務者が選任する （職務権限） 第十三條 代務者は、管長又ほ理事に代ってその職務の全部を行う （退職） 第十四條 代務者はその置くべき事由がやんだときは、当然その職を退くものとする 第三節 仮代表役員及び仮責任役員 第十五條 代表役員は、この法人と利益が相反する事項についてほ代表権を有しない、この場合においては、理事会において仮代表役員を選定しなければならない ２ 責任役員は、その責任役員と特別の利害関係がある事項については、議決権を有しない、この場合においては、理事会において、その議決権を有しない責任役員の員数だけ、仮責任役員を選定しなければならない 第四節 事務所 第十六條 事務所に総務、教務、財務、出版、造営及び事業の六部を設け、職員若干を置く ２ 前項の職員は、管長が任命する 第五節 総 会 （議員） 第十七條 総会は、議員で組織し、議員は、教会の会長たる者をもって充てる ２ 議員の任期は、その会長の任期による （招集） 第十八條 定時総会は、毎年一回二月に、管長が招集する ２ 管長は、必要と認めたときは、臨時総会を招集することができる。<br><br>総議員の四分の一以上の要求があれば、管長はこれを招集しなければならない。<br><br>但し緊急の必要その他やむを得ない事由がある場合は、この限りではない。<br><br>この場合においては、責任役員において議決し、次の総会において承認を受けるものとする （会期） 第十九條 総会の会期は、その都度、管長が定める ２ 管長は、必要と認めたときは、会期を延長することができる。<br><br>総議員の四分の一以上の要求があれば、管長は、これを延長しなければならない （議長及び副議長） 第二十條 総会に議長及び副議長各々一人を置く。<br><br> ２ 議長及び副議長は、総会開会の都度、議員の互選によって定める ３ 議長及び副議長の任期は、その議員の任期による ４ 議長は、総会の議事を整理し、総会を代表する。<br><br>副議長は、議長を助け、議長に事故があるときはその職務を代理する （議事及び議決の定員数） 第二十一條 総会は、総議員の二分の一以上の出席がなければ、議事を開き議決することができない ２ 総会の議事は、出席議員の過半数で決し、可否同数のときは、議長の決するところによる （議決事項） 第二十二條 総会において議決すべき事項は、左のとおりとする 一、この規則の変更に関する事項 二、財産の処分に関する事項 三、予算及び決算に関する事項 四、事業の計画に関する事項 五、その他この規則中特に規定する事項及び管長が必要と認めた事項 （報告事項） 第二十三條 管長は、左に掲げる事項について総会に報告しなければならない 一、この規則の施行細則の制定及び変更に関する事項 二、この法人の事務及び経理に関する事項 第六節 監 事 第二十四條 この法人に三人の監事を置き、財務を監査させる ２第七條第二項及び第八條の規定は、監事に準用する 第七節 諮問機関 第二十五條 この法人に顧問及び相談役を置くことができる ２ 顧問及び相談役は学識経験がある者のうちから、管長が委嘱する ３ 管長は、教会の会員代表を招集して、その意見を聞くことができる 第三章 教 会 （設立、規則の襲更等） 第二十六條 教会を設立しようとするとき、又は教会が左に掲げる行為をしようとするときは、管長の承認を受けなければならない 一、宗教法人となること（この法人と被包括関係を設立することを含む） 二、規則を変更すること 三、合併又は解散をすること （財産の処分等） 第二十七條 教会は、左に掲げる行為をしようとするときは、管長の承認を受けなければならない、但し、第三号から第五号までに掲げる行為が緊急の必要に基くものであり又は軽微のものである場合及び第五條に掲げる行為が一時の期間に係るものである場合は、この限りでない 一、不動産又は財産目録に掲げる賛物を処分し、又は担保に供すること 二、借入（当該会計年度内の収入で償還する一時の借入を除く）又は保証すること 三、主要な境内建物の新築、改築、増築、移築、除却叉ほ著しい模様替をすること 四、境内地の著しい模様替をすること 五、主要な境内建物の用途若しくは境内地の用途を変更し、またはこれらを当該教会の主たる目的以外の目的の為に供すること （代表役員及びその代務者の選任） 第二十八條 教会の会長及びその代務者は、当該教会の規則で定めるところによって選定された者を管長が任命する 第四章 財 務 （教費の賦課徴収） 第二十九條 この法人は、その目的達成の経費に充てるため、教会及び会員に対し、教費を賦課徴収する （資産の区分） 第三十條 この法人の資産は、基本財産及び普通財産とする ２ 基本財産は左に掲げる財産について設定する 一、土地、建物その他の不動産 二、公債、社債その他の有価証券 三、永遠保有の目的で積み立てた財産 四、基本財産として指定された寄付金 ３ 普通財産は、基本財産以外の材産、財産から生ずる果実、教会分担金、会費及び一般の収入とする （基本財産の設定及び変更） 第三十一條 基本財産の設定又はその変更をしようとするときほ、総会の議決を経なければならない （基本財産の管理） 第三十二條 基本財産たる現金は、不動産若しくは確実な有価証券に替え、確実な銀行に預け、その他適当に管理しなければならない （基本財産の処分等） 第三十三條 左に掲げる行為をしようとするときは総会の議決を経なければならない 一、基本財産を処分し、又は担保に供すること 二、借入（当該会計年度内の収入で償還する一時の借入を除く）又は保証すること （財産目録の作成） 第三十四條 財産目録は、毎会計年度終了後一月以内に、前年度末現在によって作成し、監事の監査を経て、総会の承認を受けなければならない （経費の支弁） 第三十五條 この法人の経費は、普通財産をもって支弁する （予算の編成） 第三十六條 予算は毎会計年度開始前に編成し、総会の議決を経なければならない （予算の区分） 第三十七條 予算は、経常及び臨時の二部に分け、各々これを款項目に区分して、歳入の性質及び歳出の目的を明示しなければならない （予備費の設定及び使用） 第三十八條 予算超過又は予算外の支出に充てるため、予算中に予備費を設けることができる ３ 予備費を使用しようとするときは、総会の議決を得なければならない （予算の追加及び更正） 第三十九條 予算作成後にやむを得ない事由が生じたときは、総会の議決を経て、規定予算の追加又は更正をすることができる （決算の作成） 第四十條 決算は、毎会計年度終了後に作成し、翌年度の組合に浸出してその承認を受けなければならない （歳計剰余金及び予算外収入の処置） 第四十一條 歳計に剰余を生じたとき、又は予算外に収入があったときは、これを翌年度の歳入に繰り入れ、又は総会の議決を経てその一部若しくは全部を基本財産に編入することができる （会計年度） 第四十二條 この法人の会計年度は、毎年一月一日に始まり、同年十二月三十一日に終るものとする 第五章 事 業 第四十三條 この法人は、その目的の達成に資するため、鉱山業を行う ２ 前項の事業は事業部において管理運営する ３ 第一項の事業から生じた収益は、左に掲げる法人及び事業のために使用しなければならない 一、この法人 二、この法人が援助する法人 三、この法人が援助する公益事業 ４ 第一項の事業に関する会計は、一般会計から区分し、特別会計として経理しなければならない 第六章 補 則 （規則の攣更及び合併） 第四十四條 この規則を変更しようとするときは、総会の議決を得なければならない、この法人が合併しようとするときも、また同様とする （解散） 第四十五條 この法人が解散しようとするときは、総会員の三分の二以上及び責任役員の定数の全員の同意を得て、文部大臣の認証を受けなければならない ２ この法人が解散したときは、責任役員が清算人となる、この場合においては、清算人の互選によって、代表清算人を定める ３ この法人が解散した場合における残余財産は、解散の時において、総会の議決を経て選定された者に帰属する （施行細則） 第四十六條 この規則の施行に関する細則は、責任役員が定める 付 則 １ この規則は、文部大臣の認証を受けた日から施行する ２ 従前の規則は、廃止する ３ 従前の規則の規定は、宗教法人付則第三項の宗教法人に該当する教会については、なおその効力を有する、但し、この規則中の規定に相当するものについては、この限りでない、この場合においては、この規則中のその相当する規定に従うものとする ４ この規則施行当初の管長、理事及び監事は、左のとおりとする 管長 大草 直好 理事 阿部 豊 理事 荒屋 乙松 理事 岩松 喜夫 理事 大沼 安彦 理事 川合 直行 理事 木原猪一郎 理事 小泉伊之助 理事 百海 政一 理事 森山實太郎 理事 渡邊 勝市 監事 内藤 らく 監事 二本木タカ 監事 矢代 壽
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><p>―― Coletânea de Artigos do Mestre Okada Jikanshi (岡田自観師) ――
 Busca de Ensinamentos: Ajuda | Busca de Documentos:</p>
@@ -281,5 +433,48 @@ Fiscal: Raku Naito
 Fiscal: Taka Nihongi
 Fiscal: Hisashi Yashiro</li>
 </ol></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教法人「世界救世教」規則 『栄光』125号、昭和26(1951)年10月10日発行 目 次 第一章 総則（第一條－第四條） 第二章 役員その他の機関 第一節 代表役員及び責任役員（第五條－第十條） 第二節 代表者（第十一條－第十四條） 第三節 仮代表役員及び仮責任役員（第十五條） 第四節 事務所（第十六條） 第五節 総会（第十七條－第二十三條） 第六節 監事（第二十四條） 第七節 諮問機関（第二十五條） 第三章 教会（第二十六條－第二十八條） 第四章 財務（第二十九條－第四十一條） 第五章 事業（第四十三條） 第六章 補則（第四十四條－第四十六條） 附 則 第一章 総 則 （名称） 第一條 この教団は、宗教法人法による宗教法人であって「世界救世教」という （事務所の所在地） 第二條 この宗教法人（以下「法人」という）は、事務所を静岡県熱海市字大久保二三一番の一に置く （目的） 第三條 この法人は、岡田自観師を教主と仰ぎ、その立教の本義に基き、真理の具現により造物主の目的たる現世地上の天国化を図るため、世界の人類を救済して、教義をひろめ、儀式行事を行い、信者を教化育成し、教会を包括し、その他この教団の目的を達成するための業教務び事業を行うことを目的とする （公告の方法） 第四條 この法人の公告は、機関紙「栄光」に一回掲載し、及び事務所の掲示場に十日間掲示して行う 第二章 役員その他の機関 第一節 代表役員及び責任役員 （員数） 第五條 この法人には、十一人の責任役負を置き、そのうち一人を代表役員とする （呼称） 第六條 代表役員を「管長」と卜い、その他の責任役員を「理事」という （資格及び選任） 第七條 管長は、理事の互選によって定める ２ 理事は、総会において選出した者のうちから管長が選任する （任期） 第八條 管長及び理事の任期は、各々三年とする、但し、再任を妨げない ２ 補欠理事の任期は、前任者の責任期間とする ３ 管長及び理事は、辞任又は任期満了後でも、後任者が就任する時まで、なおその職務を行うものとする （代表役員の職務権限） 第九條 管長は、この法人を代表し、その事務を総理する （責任役員の職務権限） 第十條 この法人の事務は、責任役員の定数の過年数で決し、その議決権は、各々平等とする 第二節 代務者 （置くべき場合） 第十一條 左の各号の一に該当するときは、代務者を置かなければならない 一、管長又は理事が死亡、辞任、任期満了その他の事由に因って欠けた場合において、すみやかにその後任者を選ぶことができないとき 二、管長又は理事が病気、旅行その他の事由に因って三カ月以上その職務を行うことができないとき （選任） 第十二條 管長の代務者は、前條第一号に該当するときほ理事会において選定し、同條第二号に該当するときは管長が選任する ２ 理事の代務者は、管長又はその代務者が選任する （職務権限） 第十三條 代務者は、管長又ほ理事に代ってその職務の全部を行う （退職） 第十四條 代務者はその置くべき事由がやんだときは、当然その職を退くものとする 第三節 仮代表役員及び仮責任役員 第十五條 代表役員は、この法人と利益が相反する事項についてほ代表権を有しない、この場合においては、理事会において仮代表役員を選定しなければならない ２ 責任役員は、その責任役員と特別の利害関係がある事項については、議決権を有しない、この場合においては、理事会において、その議決権を有しない責任役員の員数だけ、仮責任役員を選定しなければならない 第四節 事務所 第十六條 事務所に総務、教務、財務、出版、造営及び事業の六部を設け、職員若干を置く ２ 前項の職員は、管長が任命する 第五節 総 会 （議員） 第十七條 総会は、議員で組織し、議員は、教会の会長たる者をもって充てる ２ 議員の任期は、その会長の任期による （招集） 第十八條 定時総会は、毎年一回二月に、管長が招集する ２ 管長は、必要と認めたときは、臨時総会を招集することができる。<br/><br/>総議員の四分の一以上の要求があれば、管長はこれを招集しなければならない。<br/><br/>但し緊急の必要その他やむを得ない事由がある場合は、この限りではない。<br/><br/>この場合においては、責任役員において議決し、次の総会において承認を受けるものとする （会期） 第十九條 総会の会期は、その都度、管長が定める ２ 管長は、必要と認めたときは、会期を延長することができる。<br/><br/>総議員の四分の一以上の要求があれば、管長は、これを延長しなければならない （議長及び副議長） 第二十條 総会に議長及び副議長各々一人を置く。<br/><br/> ２ 議長及び副議長は、総会開会の都度、議員の互選によって定める ３ 議長及び副議長の任期は、その議員の任期による ４ 議長は、総会の議事を整理し、総会を代表する。<br/><br/>副議長は、議長を助け、議長に事故があるときはその職務を代理する （議事及び議決の定員数） 第二十一條 総会は、総議員の二分の一以上の出席がなければ、議事を開き議決することができない ２ 総会の議事は、出席議員の過半数で決し、可否同数のときは、議長の決するところによる （議決事項） 第二十二條 総会において議決すべき事項は、左のとおりとする 一、この規則の変更に関する事項 二、財産の処分に関する事項 三、予算及び決算に関する事項 四、事業の計画に関する事項 五、その他この規則中特に規定する事項及び管長が必要と認めた事項 （報告事項） 第二十三條 管長は、左に掲げる事項について総会に報告しなければならない 一、この規則の施行細則の制定及び変更に関する事項 二、この法人の事務及び経理に関する事項 第六節 監 事 第二十四條 この法人に三人の監事を置き、財務を監査させる ２第七條第二項及び第八條の規定は、監事に準用する 第七節 諮問機関 第二十五條 この法人に顧問及び相談役を置くことができる ２ 顧問及び相談役は学識経験がある者のうちから、管長が委嘱する ３ 管長は、教会の会員代表を招集して、その意見を聞くことができる 第三章 教 会 （設立、規則の襲更等） 第二十六條 教会を設立しようとするとき、又は教会が左に掲げる行為をしようとするときは、管長の承認を受けなければならない 一、宗教法人となること（この法人と被包括関係を設立することを含む） 二、規則を変更すること 三、合併又は解散をすること （財産の処分等） 第二十七條 教会は、左に掲げる行為をしようとするときは、管長の承認を受けなければならない、但し、第三号から第五号までに掲げる行為が緊急の必要に基くものであり又は軽微のものである場合及び第五條に掲げる行為が一時の期間に係るものである場合は、この限りでない 一、不動産又は財産目録に掲げる賛物を処分し、又は担保に供すること 二、借入（当該会計年度内の収入で償還する一時の借入を除く）又は保証すること 三、主要な境内建物の新築、改築、増築、移築、除却叉ほ著しい模様替をすること 四、境内地の著しい模様替をすること 五、主要な境内建物の用途若しくは境内地の用途を変更し、またはこれらを当該教会の主たる目的以外の目的の為に供すること （代表役員及びその代務者の選任） 第二十八條 教会の会長及びその代務者は、当該教会の規則で定めるところによって選定された者を管長が任命する 第四章 財 務 （教費の賦課徴収） 第二十九條 この法人は、その目的達成の経費に充てるため、教会及び会員に対し、教費を賦課徴収する （資産の区分） 第三十條 この法人の資産は、基本財産及び普通財産とする ２ 基本財産は左に掲げる財産について設定する 一、土地、建物その他の不動産 二、公債、社債その他の有価証券 三、永遠保有の目的で積み立てた財産 四、基本財産として指定された寄付金 ３ 普通財産は、基本財産以外の材産、財産から生ずる果実、教会分担金、会費及び一般の収入とする （基本財産の設定及び変更） 第三十一條 基本財産の設定又はその変更をしようとするときほ、総会の議決を経なければならない （基本財産の管理） 第三十二條 基本財産たる現金は、不動産若しくは確実な有価証券に替え、確実な銀行に預け、その他適当に管理しなければならない （基本財産の処分等） 第三十三條 左に掲げる行為をしようとするときは総会の議決を経なければならない 一、基本財産を処分し、又は担保に供すること 二、借入（当該会計年度内の収入で償還する一時の借入を除く）又は保証すること （財産目録の作成） 第三十四條 財産目録は、毎会計年度終了後一月以内に、前年度末現在によって作成し、監事の監査を経て、総会の承認を受けなければならない （経費の支弁） 第三十五條 この法人の経費は、普通財産をもって支弁する （予算の編成） 第三十六條 予算は毎会計年度開始前に編成し、総会の議決を経なければならない （予算の区分） 第三十七條 予算は、経常及び臨時の二部に分け、各々これを款項目に区分して、歳入の性質及び歳出の目的を明示しなければならない （予備費の設定及び使用） 第三十八條 予算超過又は予算外の支出に充てるため、予算中に予備費を設けることができる ３ 予備費を使用しようとするときは、総会の議決を得なければならない （予算の追加及び更正） 第三十九條 予算作成後にやむを得ない事由が生じたときは、総会の議決を経て、規定予算の追加又は更正をすることができる （決算の作成） 第四十條 決算は、毎会計年度終了後に作成し、翌年度の組合に浸出してその承認を受けなければならない （歳計剰余金及び予算外収入の処置） 第四十一條 歳計に剰余を生じたとき、又は予算外に収入があったときは、これを翌年度の歳入に繰り入れ、又は総会の議決を経てその一部若しくは全部を基本財産に編入することができる （会計年度） 第四十二條 この法人の会計年度は、毎年一月一日に始まり、同年十二月三十一日に終るものとする 第五章 事 業 第四十三條 この法人は、その目的の達成に資するため、鉱山業を行う ２ 前項の事業は事業部において管理運営する ３ 第一項の事業から生じた収益は、左に掲げる法人及び事業のために使用しなければならない 一、この法人 二、この法人が援助する法人 三、この法人が援助する公益事業 ４ 第一項の事業に関する会計は、一般会計から区分し、特別会計として経理しなければならない 第六章 補 則 （規則の攣更及び合併） 第四十四條 この規則を変更しようとするときは、総会の議決を得なければならない、この法人が合併しようとするときも、また同様とする （解散） 第四十五條 この法人が解散しようとするときは、総会員の三分の二以上及び責任役員の定数の全員の同意を得て、文部大臣の認証を受けなければならない ２ この法人が解散したときは、責任役員が清算人となる、この場合においては、清算人の互選によって、代表清算人を定める ３ この法人が解散した場合における残余財産は、解散の時において、総会の議決を経て選定された者に帰属する （施行細則） 第四十六條 この規則の施行に関する細則は、責任役員が定める 付 則 １ この規則は、文部大臣の認証を受けた日から施行する ２ 従前の規則は、廃止する ３ 従前の規則の規定は、宗教法人付則第三項の宗教法人に該当する教会については、なおその効力を有する、但し、この規則中の規定に相当するものについては、この限りでない、この場合においては、この規則中のその相当する規定に従うものとする ４ この規則施行当初の管長、理事及び監事は、左のとおりとする 管長 大草 直好 理事 阿部 豊 理事 荒屋 乙松 理事 岩松 喜夫 理事 大沼 安彦 理事 川合 直行 理事 木原猪一郎 理事 小泉伊之助 理事 百海 政一 理事 森山實太郎 理事 渡邊 勝市 監事 内藤 らく 監事 二本木タカ 監事 矢代 壽</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

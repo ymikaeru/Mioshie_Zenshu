@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju07033</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="http://rattail.verse.jp/cgi/msearch.cgi">
 <input name="hint" type="hidden" value="漢字コード判定用文字列"/><div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
 <tr>
@@ -33,56 +234,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    参考文献 御教え検索 ： help ―― 神智之光 ―― 資料検索 ： 医術篇 （七） ３ 033-045 奇形 033 一寸法師 一寸法師は霊的にどういう事になりますので御座いましょうか。<br><br> 頭に欠陥がある。<br><br>発育すべき要素――医学で脳下垂体とかホルモンとかいう――人間の伸びる働きは頭にある。<br><br>それが毒結のため塞がれている。<br><br>子供のうちに頭を浄霊すれば何でもない。<br><br>福助のように、頭だけが大きいのがある。<br><br>これは頭に毒が一杯あるのである。<br><br>（S24. 2. 4） 034 一睾丸の男 私の御浄霊している今年六歳の男の子、発育は普通人ですが、生れた時から腰の下部に水疱があり、九大病院で手術を受けましたが、今日に至るも糞尿の出る感覚がありません。<br><br>そして最近睾丸が一つしかない事が判りました。<br><br>これは右の病気に関係があるものでしょうか。<br><br>現在迄に約二ケ月浄霊しておりますが、未だ効果がありません。<br><br>右の原因と浄霊法を御伺い申し上げます。<br><br> 水疱でなく水腫である。<br><br>手術の時の局部麻酔の注射に因る。<br><br> 睾丸の一つのは、たまにはある。<br><br> 治る。<br><br>一週間に一ぺん位でよい。<br><br>（S24.12. 5） 035 両性微弱奇形 未入信の男児（四歳）、陰茎が外形は異状なく尿道孔なく亀頭より約七分位下部に排尿孔があり、排尿に支障ありません。<br><br> 両性の軽いので、いくらか女の分子がある。<br><br> 036 処女男性化の復元 朝日新聞の記事、十九歳の処女が卵巣特殊腫の男性ホルモン分泌のため男性化し、その剔出で再び女に還ったとの事。<br><br>（外国にも四、五例日本に二例）月経は一年前から、急激に髭、胸毛が生え、眼光も鋭くなり、喉が突出し、声もしわがれ、骨格が逞しくなり、めきめきと男性化し、昨年十月二十八日名大分院にて右卵巣から男性化細胞腫の剔出の手術を受け、四日目より女の声に変り、一週間位で髭、胸毛、脚毛が取れ、乳も張り出し、次第に女性化した由ですが、手術により一生その効果が持続出来るものでしょうか。<br><br> 卵巣を圧迫したものである。<br><br>腫れが引けば何でもなかったのを、医学でそれが出来ぬので手術した。<br><br>そうすると隣へまた出来るから先のようになる。<br><br>卵巣を浄霊すれば元通りになる。<br><br> 037 不具者は残るか 御浄霊によりましても健全な肉体には戻れない不具者（ビッコや片目、セムシ等）は、そのままの姿を持ったまま五六七の世の人となる事が出来ますものでしょうか。<br><br> 失明でも片眼でも手術しなければ治る。<br><br>薬さえつけてなければ目はまず治る。<br><br>（S24. 9.13） 038 歩行で視界異常 五十歳の男子、三年前より歩行の際道路が波のようにうねる感じを受けます。<br><br>夜道は殊にその感が強く、道が狭く見えたり、よろよろふらついたり致します。<br><br>坐っている時はその症状はありませんが、絶えず耳鳴りが致します。<br><br>既往症は肋膜のみです。<br><br>霊的で御座居ましょうか。<br><br>また、御浄霊はどの辺をよく致したら宜しいでしょうか。<br><br> よくある。<br><br>右延髄に固まりがある。<br><br>心臓に故障のある人もそういう事がある。<br><br>頭の血液がムラである。<br><br> 039 手足猫の如し 掌、足の裏が丁度猫の足のようになっており「猫罰」などと申しており、松の木の皮状をなしており、長く水に浸していると白くなり、薄皮が取れるのです。<br><br>一家族中母と長女と次男が猫罰であり、父と長男は普通です。<br><br>また、この家の親類にも七、八軒猫罰の人があります。<br><br>猫罰は五代続けば自然消滅すると申して諦めていますが、これの原因は何に因るので御座居ましょうか。<br><br>また、浄霊により全治可能でしょうか。<br><br>御教え願い上げます。<br><br> 猫が怨むという事はある。<br><br>一人位はあるが、一つの祖先の薬毒である。<br><br>浄化され一個へ溜るのである。<br><br> 浄霊すれば治る。<br><br>五代続けばその毒がなくなる訳である。<br><br>（S24. 5.12） 040 毛穴より虫出ず 開放性肺結核患者（四十歳）、十数回浄霊を受け快方に向い、去る七月三十日入信し、八月十一日本部へ参り浄霊を受けました。<br><br>翌十二日自宅にて胸部皮膚面全部の毛孔より白い絹糸状の長さ五ミリ位の虫が無数に這い出し、それが誰にでも見えたそうです。<br><br>そして病状は非常に軽快しました。<br><br>この現象について御解明をお願い申し上げます。<br><br> 虫である。<br><br>普通は毛虫のようなもので、爪から出る。<br><br>何でもない。<br><br>今に出なくなる。<br><br>（S24. 9. 3） 041 苦痛なき病気 本年二十歳の男子、自覚症状と致しましては全然異常を感じておりませんでしたが、診療の結果肺浸潤と断じ、一年八ケ月間に右胸部に五十回の気胸療法を行いおりました所、右胸部は全然異常を感ぜず、この頃では左胸部に移行して来たから同療法を行うようにとの医師の話に、頼りなさを感じて御浄霊を四、五日頂きおります。<br><br>自覚症状では肩及び背部が軽くなり、気分と致しましても明朗になりましたが、今後いかなる御浄化を頂きますでしょうか。<br><br> 放置してよい。<br><br>症状がなければよい。<br><br>苦痛の起った時にやればよい。<br><br>人間、生きてる以上、どっか悪い所がある。<br><br>（S *. 2.23） 042 骨が音を発す 私の扱っている信者で、昭和二十三年五月の入信者富永市松（六十五歳）が昨年十一月頃より右足膝裏の所が就寝中や歩行中など時々所かまわず一日四、五回程ブチッと鳴ります。<br><br>五、六間離れた所でも他人に音が聞えます。<br><br>鳴ると暫く歩けません。<br><br>いかなる訳でしょうか。<br><br>お伺い申します。<br><br> 骨に間隙があるのである。<br><br>浄霊で治る。<br><br>裏を押すと痛い所がある。<br><br>そこを浄霊すればよい。<br><br>（S25. 1.17） 043 全身に毒ある浄化状態 中年婦人で十八年間休みなしに然毒が出ておりまして、全身小さくふくれて汁は出ませんが、強くかくと少量の出血をします。<br><br>ふくれる個所はひどく硬くなっております。<br><br>約一ケ月御浄霊させて頂きましたら、やや良好です。<br><br>なお、右腎臓の固結ひどく、少し体が右につられて曲っております。<br><br>右の原因及び浄霊個所を御教示御願い申し上げます。<br><br> 全身に毒がある時はこうなる。<br><br>（S25. 3. 3） 044 白子―薬に因る 白子といって髪の毛、まつげ、眉毛全部真白な人を外地（中国）で見ましたが、原因をお教え下さい。<br><br> 白子は薬毒だと思う。<br><br>支那では変った薬を飲むから、その毒だと思う。<br><br>白なまずのようなものである。<br><br> 045 顔のみ白く全身赤し 近所の娘でありますが、顔は白く実に綺麗ですが、手も足も身体全体が真赤なのですが、いかなる理由でしょうか。<br><br>御浄霊により治るでしょうか。<br><br>御伺い致します。<br><br> こういう女はよくある。<br><br>毒血があるので、身体を使う人は身体の方へ毒が集まってくる。<br><br>気長にやれば治る。<br><br>（S24. 8. 8）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte Médica (VII) 3: Deformidades</h2>
 <p><strong>033 Issun-boshi</strong></p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p><strong>045 Rosto branco, corpo vermelho</strong></p>
 <p>Conheço uma jovem em minha vizinhança cujo rosto é branco e muito belo, mas cujas mãos, pés e o restante do corpo são completamente vermelhos. Qual seria a razão para isso? É possível curá-la com Johrei?</p>
 <p>Casos como o dessa jovem são bastante comuns. A causa é o sangue impuro. Em pessoas fisicamente ativas, as toxinas tendem a se acumular no corpo. Com Johrei ministrado pacientemente, a cura é alcançável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>参考文献 御教え検索 ： help ―― 神智之光 ―― 資料検索 ： 医術篇 （七） ３ 033-045 奇形 033 一寸法師 一寸法師は霊的にどういう事になりますので御座いましょうか。<br/><br/> 頭に欠陥がある。<br/><br/>発育すべき要素――医学で脳下垂体とかホルモンとかいう――人間の伸びる働きは頭にある。<br/><br/>それが毒結のため塞がれている。<br/><br/>子供のうちに頭を浄霊すれば何でもない。<br/><br/>福助のように、頭だけが大きいのがある。<br/><br/>これは頭に毒が一杯あるのである。<br/><br/>（S24. 2. 4） 034 一睾丸の男 私の御浄霊している今年六歳の男の子、発育は普通人ですが、生れた時から腰の下部に水疱があり、九大病院で手術を受けましたが、今日に至るも糞尿の出る感覚がありません。<br/><br/>そして最近睾丸が一つしかない事が判りました。<br/><br/>これは右の病気に関係があるものでしょうか。<br/><br/>現在迄に約二ケ月浄霊しておりますが、未だ効果がありません。<br/><br/>右の原因と浄霊法を御伺い申し上げます。<br/><br/> 水疱でなく水腫である。<br/><br/>手術の時の局部麻酔の注射に因る。<br/><br/> 睾丸の一つのは、たまにはある。<br/><br/> 治る。<br/><br/>一週間に一ぺん位でよい。<br/><br/>（S24.12. 5） 035 両性微弱奇形 未入信の男児（四歳）、陰茎が外形は異状なく尿道孔なく亀頭より約七分位下部に排尿孔があり、排尿に支障ありません。<br/><br/> 両性の軽いので、いくらか女の分子がある。<br/><br/> 036 処女男性化の復元 朝日新聞の記事、十九歳の処女が卵巣特殊腫の男性ホルモン分泌のため男性化し、その剔出で再び女に還ったとの事。<br/><br/>（外国にも四、五例日本に二例）月経は一年前から、急激に髭、胸毛が生え、眼光も鋭くなり、喉が突出し、声もしわがれ、骨格が逞しくなり、めきめきと男性化し、昨年十月二十八日名大分院にて右卵巣から男性化細胞腫の剔出の手術を受け、四日目より女の声に変り、一週間位で髭、胸毛、脚毛が取れ、乳も張り出し、次第に女性化した由ですが、手術により一生その効果が持続出来るものでしょうか。<br/><br/> 卵巣を圧迫したものである。<br/><br/>腫れが引けば何でもなかったのを、医学でそれが出来ぬので手術した。<br/><br/>そうすると隣へまた出来るから先のようになる。<br/><br/>卵巣を浄霊すれば元通りになる。<br/><br/> 037 不具者は残るか 御浄霊によりましても健全な肉体には戻れない不具者（ビッコや片目、セムシ等）は、そのままの姿を持ったまま五六七の世の人となる事が出来ますものでしょうか。<br/><br/> 失明でも片眼でも手術しなければ治る。<br/><br/>薬さえつけてなければ目はまず治る。<br/><br/>（S24. 9.13） 038 歩行で視界異常 五十歳の男子、三年前より歩行の際道路が波のようにうねる感じを受けます。<br/><br/>夜道は殊にその感が強く、道が狭く見えたり、よろよろふらついたり致します。<br/><br/>坐っている時はその症状はありませんが、絶えず耳鳴りが致します。<br/><br/>既往症は肋膜のみです。<br/><br/>霊的で御座居ましょうか。<br/><br/>また、御浄霊はどの辺をよく致したら宜しいでしょうか。<br/><br/> よくある。<br/><br/>右延髄に固まりがある。<br/><br/>心臓に故障のある人もそういう事がある。<br/><br/>頭の血液がムラである。<br/><br/> 039 手足猫の如し 掌、足の裏が丁度猫の足のようになっており「猫罰」などと申しており、松の木の皮状をなしており、長く水に浸していると白くなり、薄皮が取れるのです。<br/><br/>一家族中母と長女と次男が猫罰であり、父と長男は普通です。<br/><br/>また、この家の親類にも七、八軒猫罰の人があります。<br/><br/>猫罰は五代続けば自然消滅すると申して諦めていますが、これの原因は何に因るので御座居ましょうか。<br/><br/>また、浄霊により全治可能でしょうか。<br/><br/>御教え願い上げます。<br/><br/> 猫が怨むという事はある。<br/><br/>一人位はあるが、一つの祖先の薬毒である。<br/><br/>浄化され一個へ溜るのである。<br/><br/> 浄霊すれば治る。<br/><br/>五代続けばその毒がなくなる訳である。<br/><br/>（S24. 5.12） 040 毛穴より虫出ず 開放性肺結核患者（四十歳）、十数回浄霊を受け快方に向い、去る七月三十日入信し、八月十一日本部へ参り浄霊を受けました。<br/><br/>翌十二日自宅にて胸部皮膚面全部の毛孔より白い絹糸状の長さ五ミリ位の虫が無数に這い出し、それが誰にでも見えたそうです。<br/><br/>そして病状は非常に軽快しました。<br/><br/>この現象について御解明をお願い申し上げます。<br/><br/> 虫である。<br/><br/>普通は毛虫のようなもので、爪から出る。<br/><br/>何でもない。<br/><br/>今に出なくなる。<br/><br/>（S24. 9. 3） 041 苦痛なき病気 本年二十歳の男子、自覚症状と致しましては全然異常を感じておりませんでしたが、診療の結果肺浸潤と断じ、一年八ケ月間に右胸部に五十回の気胸療法を行いおりました所、右胸部は全然異常を感ぜず、この頃では左胸部に移行して来たから同療法を行うようにとの医師の話に、頼りなさを感じて御浄霊を四、五日頂きおります。<br/><br/>自覚症状では肩及び背部が軽くなり、気分と致しましても明朗になりましたが、今後いかなる御浄化を頂きますでしょうか。<br/><br/> 放置してよい。<br/><br/>症状がなければよい。<br/><br/>苦痛の起った時にやればよい。<br/><br/>人間、生きてる以上、どっか悪い所がある。<br/><br/>（S *. 2.23） 042 骨が音を発す 私の扱っている信者で、昭和二十三年五月の入信者富永市松（六十五歳）が昨年十一月頃より右足膝裏の所が就寝中や歩行中など時々所かまわず一日四、五回程ブチッと鳴ります。<br/><br/>五、六間離れた所でも他人に音が聞えます。<br/><br/>鳴ると暫く歩けません。<br/><br/>いかなる訳でしょうか。<br/><br/>お伺い申します。<br/><br/> 骨に間隙があるのである。<br/><br/>浄霊で治る。<br/><br/>裏を押すと痛い所がある。<br/><br/>そこを浄霊すればよい。<br/><br/>（S25. 1.17） 043 全身に毒ある浄化状態 中年婦人で十八年間休みなしに然毒が出ておりまして、全身小さくふくれて汁は出ませんが、強くかくと少量の出血をします。<br/><br/>ふくれる個所はひどく硬くなっております。<br/><br/>約一ケ月御浄霊させて頂きましたら、やや良好です。<br/><br/>なお、右腎臓の固結ひどく、少し体が右につられて曲っております。<br/><br/>右の原因及び浄霊個所を御教示御願い申し上げます。<br/><br/> 全身に毒がある時はこうなる。<br/><br/>（S25. 3. 3） 044 白子―薬に因る 白子といって髪の毛、まつげ、眉毛全部真白な人を外地（中国）で見ましたが、原因をお教え下さい。<br/><br/> 白子は薬毒だと思う。<br/><br/>支那では変った薬を飲むから、その毒だと思う。<br/><br/>白なまずのようなものである。<br/><br/> 045 顔のみ白く全身赤し 近所の娘でありますが、顔は白く実に綺麗ですが、手も足も身体全体が真赤なのですが、いかなる理由でしょうか。<br/><br/>御浄霊により治るでしょうか。<br/><br/>御伺い致します。<br/><br/> こういう女はよくある。<br/><br/>毒血があるので、身体を使う人は身体の方へ毒が集まってくる。<br/><br/>気長にやれば治る。<br/><br/>（S24. 8. 8）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

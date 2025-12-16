@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sakkin</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 殺菌か養菌か 『新日本医術書』昭和11(1936)年執筆 西洋医学唯一の治病法は殺菌であるとしている。<br><br>そうして、その殺菌法としては、現在薬剤と光線応用である。<br><br>しかしながら、いかなる薬剤を以てしても、組織に無影響で殺菌し得る事は、到底不可能である事は瞭（あきら）かであるが、他の方法が無い為、止むなく不確実と知りつつ行っているのに過ぎないのである。<br><br> 奏効不確実だけならよいが、その殺菌法が、反って病菌繁殖となり、病気悪化の原因となる事は知識しないのであるから、まことに危険この上も無いのである。<br><br> しからば、それはいかなる理由であるか、ここに説明してみよう。<br><br> 今、殺菌の目的を以て薬剤の服用又は注射をするとする。<br><br>それら薬剤を吸収した血液は勿論、殺菌の目的は達し得るはずが無い。<br><br>ただ溷濁（こんだく）するのみである。<br><br>例えば結核にせよ、薬剤が幾種もの消化器能を通過し、又は、血管を通過するにおいて、その変化による殺菌力は薄弱になるのは当然であるから、患部へ作用する頃は、いか程減退しているか測られないであろう。<br><br>この点試験管内で直接殺菌する事とは、比較にならないであろう。<br><br>そうして、時日を経るに従い、血液の不断浄化によって薬剤は毒素となって、血液から遊離する事になるのである。<br><br>それが時の経過によって、ついに膿汁化し、それがあらゆる病原となるのである。<br><br> しかし、そればかりではない。<br><br>異物によって溷濁せる血液は頗る危険である。<br><br>何となれば、その殺菌力がまことに弱いからである。<br><br>言い換えれば、濁血は病菌の繁殖力に都合が好いからである。<br><br>この文の最初に述べた薬剤は病気悪化の原因となるという事は、以上のごとくである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Paradoxo da Esterilização Terapêutica</h2>
 <p>A medicina ocidental postula a esterilização como seu único método para a cura de doenças. Para tal fim, emprega atualmente medicamentos e aplicações de raios. Contudo, é indubitavelmente impossível que qualquer medicamento logre esterilizar o organismo sem afetar os tecidos. Na ausência de outros recursos, tal prática prossegue por mera necessidade, ainda que se tenha plena ciência de sua ineficácia.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Suponhamos que um medicamento seja administrado oralmente ou por injeção com o propósito de esterilização. Uma vez absorvido, ele evidentemente não logrará seu objetivo, servindo apenas para macular o sangue. Tomemos como exemplo a tuberculose. É natural que, ao atravessar os diversos órgãos do sistema digestório ou ao circular pelos vasos sanguíneos, o poder esterilizante do fármaco se atenue consideravelmente devido às transformações que sofre. Consequentemente, ao alcançar a área afetada, sua potência já terá sido reduzida a um nível imensurável. Tal situação é, portanto, incomparável aos experimentos de esterilização direta realizados em um tubo de ensaio.</p>
 <p>Ademais, com o passar do tempo, o próprio organismo, em seu esforço contínuo de purificação sanguínea, isola o medicamento, que se converte em toxina. Essa toxina, por sua vez, acaba por se transformar em pus, tornando-se a matriz de inúmeras outras enfermidades.</p>
 <p>Contudo, o perigo não se encerra aí. O sangue maculado por substâncias estranhas torna-se sobremaneira vulnerável. Isso ocorre porque sua capacidade natural de esterilização se encontra drasticamente reduzida. Em outras palavras, o sangue impuro constitui um ambiente propício à proliferação de microrganismos patogênicos. Eis, portanto, a fundamentação da assertiva inicial: a de que os medicamentos, em vez de curar, tornam-se a própria causa do agravamento das doenças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 殺菌か養菌か 『新日本医術書』昭和11(1936)年執筆 西洋医学唯一の治病法は殺菌であるとしている。<br/><br/>そうして、その殺菌法としては、現在薬剤と光線応用である。<br/><br/>しかしながら、いかなる薬剤を以てしても、組織に無影響で殺菌し得る事は、到底不可能である事は瞭（あきら）かであるが、他の方法が無い為、止むなく不確実と知りつつ行っているのに過ぎないのである。<br/><br/> 奏効不確実だけならよいが、その殺菌法が、反って病菌繁殖となり、病気悪化の原因となる事は知識しないのであるから、まことに危険この上も無いのである。<br/><br/> しからば、それはいかなる理由であるか、ここに説明してみよう。<br/><br/> 今、殺菌の目的を以て薬剤の服用又は注射をするとする。<br/><br/>それら薬剤を吸収した血液は勿論、殺菌の目的は達し得るはずが無い。<br/><br/>ただ溷濁（こんだく）するのみである。<br/><br/>例えば結核にせよ、薬剤が幾種もの消化器能を通過し、又は、血管を通過するにおいて、その変化による殺菌力は薄弱になるのは当然であるから、患部へ作用する頃は、いか程減退しているか測られないであろう。<br/><br/>この点試験管内で直接殺菌する事とは、比較にならないであろう。<br/><br/>そうして、時日を経るに従い、血液の不断浄化によって薬剤は毒素となって、血液から遊離する事になるのである。<br/><br/>それが時の経過によって、ついに膿汁化し、それがあらゆる病原となるのである。<br/><br/> しかし、そればかりではない。<br/><br/>異物によって溷濁せる血液は頗る危険である。<br/><br/>何となれば、その殺菌力がまことに弱いからである。<br/><br/>言い換えれば、濁血は病菌の繁殖力に都合が好いからである。<br/><br/>この文の最初に述べた薬剤は病気悪化の原因となるという事は、以上のごとくである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

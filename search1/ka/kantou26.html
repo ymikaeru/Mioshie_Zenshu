@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kantou26</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国26号) 『地上天国』26号、昭和26(1951)年7月25日発行 時局はいよいよ朝鮮戦争も、曲りなりにも平和の段階に移って来たようである。<br><br>何しろいかに中共の人海戦術といえども、国連側特にアメリカの進歩せる武器に遭っては、到底長く太刀（たち）向う事は出来ないに決っている。<br><br>そのような訳で、最初の国連軍を海へ落してしまうなどという目算は、反対に下手をすると御自分の方が、北鮮から満州の方へ押込められてしまいそうな形勢になって来たので、流石（さすが）の中共軍も意地にも我慢にも、到底戦争継続は不可能となったので、クレムリンへ救いを求めたところ、クレムリンの方でも、一旦停戦しておいて、徐（おもむ）ろに将来の計画を立てた方がいいとして、今度のような停戦提議となったものであろう。<br><br> ただここで、考えなければならない事は、ソ連はその条件として停戦のみに限り、外交その他の国際間の問題には、触れないという一事である。<br><br>このような条件の裏には、こういう事が考えられる。<br><br>それは共産側が今後再び軍事行動を起そうとする場合、軍事以外の協約があるとするとそれに引っ掛る面倒がないとも言えないからでもあろう。<br><br>だからソ連はどこまでもそういう事のないように、単に北鮮軍と中共の義勇軍司令官と、リッジウェー総司令官との双方の取決めに限定したのであろう意図が、よく窺（うかが）われるのである。<br><br> とすれば一旦鉾（ほこ）を収めておいて、今日まで大犠牲を払って来た中共軍の創痍（そうい）と、ソ連が援助のために費やした軍需の大消耗も、補填（ほてん）せねばならないし、それには今後相当の時を要するので、そこを狙ったのが今度の条件であろう。<br><br> しかしそれだけならいいが、その先が問題である。<br><br>言うまでもなくソ連が今度の戦争の経験で知り得た米国もろもろの武器や、作戦に対する諸々（もろもろ）は、今後におけるイザと言う場合に大いに役立つのみか、あわよくば米を圧倒する程の、大軍備を整えたいという野望もあるであろうし、またそれまでといえども世界各方面に脅威を与えたり、小国を示嗾（しそう）して局部的戦争を起さしたり、共産主義宣伝のための、あの手この手を打つという意図もあろうから、それらの事も予想しなければならないという訳で、先頃米国政府の方でも、たとえ停戦条約が結ばれる後とても、軍備の手は弛（ゆる）めてはならないという警告や、国連圏内の各国へ対する軍需援助も、向う三年間は継続するという方針を明らかにした点などからみても、今後の世界は平和の夢などの実現は望むべくもないであろう。<br><br>以上のごとき種々の事情を綜合してみると、今後双方の軍備競争時代に入るとも言えよう。<br><br>こう見てくると、最後に及んで第三次大戦の勃発がないと誰か保証し得ようか。<br><br>これらを考える時、世界人類の前途やまことに多難の一語に尽きるであろう。<br><br> 以上によってみても、これからの世界は確（しっ）かりした信仰を抱いた者でなければ、安心して生きてゆけない事は余りにも明らかである。<br><br> (注) 示嗾＝指嗾（しそう）指図してそそのかすこと。<br><br>けしかけること。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ilusão da Paz e o Futuro da Humanidade</h2>
 <p>O cenário mundial indica que a Guerra da Coreia, ainda que de forma conturbada, parece enfim caminhar para uma fase de paz. Afinal, por mais que a China Comunista recorra às suas táticas de ondas humanas, é inegável que não podem resistir por muito tempo ao avançado armamento das forças da ONU, especialmente o americano. Nesse sentido, o plano inicial de rechaçar as tropas da ONU até o mar fracassou; pelo contrário, a situação se inverteu a ponto de os próprios chineses correrem o risco de serem encurralados da Coreia do Norte para a Manchúria. Diante da impossibilidade de prosseguir com o conflito, seja por obstinação ou resistência, o exército chinês buscou auxílio junto ao Kremlin. O Kremlin, por sua vez, deve ter julgado mais prudente propor um armistício temporário, a fim de que pudessem, com serenidade, traçar seus planos futuros.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Todavia, o problema não se encerra aí. A experiência adquirida pela União Soviética neste conflito sobre o armamento e as estratégias americanas será de grande valia para um eventual confronto futuro. Ademais, é provável que abriguem a ambição de organizar um poderio militar capaz de subjugar os Estados Unidos. Mesmo antes disso, podemos esperar que continuem a ameaçar diversas regiões do globo, a instigar nações menores a conflitos localizados e a empregar toda sorte de artifícios para a disseminação do comunismo. Tais possibilidades devem ser antecipadas. Não é por outra razão que o governo americano advertiu recentemente sobre a necessidade de não se afrouxar os preparativos bélicos, mesmo após a assinatura de um tratado de paz, e que deixou clara sua política de manter a ajuda militar às nações do bloco da ONU pelos próximos três anos. Diante desse quadro, a concretização de um sonho de paz mundial parece, infelizmente, inalcançável.</p>
 <p>Ao se ponderar o conjunto dessas circunstâncias, pode-se afirmar que o mundo está adentrando uma era de corrida armamentista. Nesse passo, quem poderá garantir que, ao final, não eclodirá uma Terceira Guerra Mundial? Ao refletirmos sobre tais questões, o futuro da humanidade resume-se a uma única palavra: atribulado.</p>
 <p>Por tudo isso, torna-se por demais evidente que, no mundo que se avizinha, somente aqueles que possuírem uma fé sólida e inabalável conseguirão viver com a verdadeira paz de espírito.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国26号) 『地上天国』26号、昭和26(1951)年7月25日発行 時局はいよいよ朝鮮戦争も、曲りなりにも平和の段階に移って来たようである。<br/><br/>何しろいかに中共の人海戦術といえども、国連側特にアメリカの進歩せる武器に遭っては、到底長く太刀（たち）向う事は出来ないに決っている。<br/><br/>そのような訳で、最初の国連軍を海へ落してしまうなどという目算は、反対に下手をすると御自分の方が、北鮮から満州の方へ押込められてしまいそうな形勢になって来たので、流石（さすが）の中共軍も意地にも我慢にも、到底戦争継続は不可能となったので、クレムリンへ救いを求めたところ、クレムリンの方でも、一旦停戦しておいて、徐（おもむ）ろに将来の計画を立てた方がいいとして、今度のような停戦提議となったものであろう。<br/><br/> ただここで、考えなければならない事は、ソ連はその条件として停戦のみに限り、外交その他の国際間の問題には、触れないという一事である。<br/><br/>このような条件の裏には、こういう事が考えられる。<br/><br/>それは共産側が今後再び軍事行動を起そうとする場合、軍事以外の協約があるとするとそれに引っ掛る面倒がないとも言えないからでもあろう。<br/><br/>だからソ連はどこまでもそういう事のないように、単に北鮮軍と中共の義勇軍司令官と、リッジウェー総司令官との双方の取決めに限定したのであろう意図が、よく窺（うかが）われるのである。<br/><br/> とすれば一旦鉾（ほこ）を収めておいて、今日まで大犠牲を払って来た中共軍の創痍（そうい）と、ソ連が援助のために費やした軍需の大消耗も、補填（ほてん）せねばならないし、それには今後相当の時を要するので、そこを狙ったのが今度の条件であろう。<br/><br/> しかしそれだけならいいが、その先が問題である。<br/><br/>言うまでもなくソ連が今度の戦争の経験で知り得た米国もろもろの武器や、作戦に対する諸々（もろもろ）は、今後におけるイザと言う場合に大いに役立つのみか、あわよくば米を圧倒する程の、大軍備を整えたいという野望もあるであろうし、またそれまでといえども世界各方面に脅威を与えたり、小国を示嗾（しそう）して局部的戦争を起さしたり、共産主義宣伝のための、あの手この手を打つという意図もあろうから、それらの事も予想しなければならないという訳で、先頃米国政府の方でも、たとえ停戦条約が結ばれる後とても、軍備の手は弛（ゆる）めてはならないという警告や、国連圏内の各国へ対する軍需援助も、向う三年間は継続するという方針を明らかにした点などからみても、今後の世界は平和の夢などの実現は望むべくもないであろう。<br/><br/>以上のごとき種々の事情を綜合してみると、今後双方の軍備競争時代に入るとも言えよう。<br/><br/>こう見てくると、最後に及んで第三次大戦の勃発がないと誰か保証し得ようか。<br/><br/>これらを考える時、世界人類の前途やまことに多難の一語に尽きるであろう。<br/><br/> 以上によってみても、これからの世界は確（しっ）かりした信仰を抱いた者でなければ、安心して生きてゆけない事は余りにも明らかである。<br/><br/> (注) 示嗾＝指嗾（しそう）指図してそそのかすこと。<br/><br/>けしかけること。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

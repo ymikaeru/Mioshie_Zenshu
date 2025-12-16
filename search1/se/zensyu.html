@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zensyu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善主悪従 『明日の医術 第三編』昭和18(1943)年10月23日発行 右進左退である夜の世界が唯物的文化を生んだのであるから、一切を物質によって解決せんと意図した西洋思想も止むを得ない当然の帰結であった。<br><br>それが今日までの科学であるから、人間を唯物的に、他の動物と同様に取扱われたのであった。<br><br>この意味において、西洋医学は、人間医学ではなく動物医学である訳である。<br><br>そうして右進と左進を善悪に区別するとすれば、右は悪であり左は善である。<br><br>それは物質を主とすれば悪となり、精神を主とすれば善となるからである。<br><br> 従って、右進左退の文化が持続するにおいてはどうしても悪魔的となり、弱肉強食とならざるを得ないのである。<br><br>弱小民族を虐（しいた）げて自国のみ富強を誇った白人文化をみれば肯（うなず）かるゝであろう。<br><br>そうして彼の西洋医学が死体を解剖し、手術によって肉を切り血を出ださせ、注射によって肉を破り痛苦を与える等、悪魔的残虐性を多分にもつ方法を執るのも、そうした意味からであろうと想うのである。<br><br>又西洋医学を進歩発達させたと称せらるゝ大医学者はほとんどが猶太（ユダヤ）人である事である。<br><br>故に、西洋医学へ対して猶太医学という人もあるのである。<br><br> そうしていよいよ昼の世界に転換するとすれば、右の反対である現象が起るのは当然である。<br><br>即ち左進は善に属する以上、精神的にならざるを得ないのである。<br><br>その結果として一切が唯心的方向に進んでゆく。<br><br>故に、近き将来において霊的科学が生れるであろう事も勿論である。<br><br>否すでに生れているといってもよいであろう。<br><br>それは私の創成したこの医術は霊的科学であり、動物医学ではなく人間医学であり、唯心的療法であるからである。<br><br>悪魔的残虐行為とはおよそ反対であって、実に人類愛的医術である。<br><br>従って、右進左退の文化が左進右退的文化になるという事は、悪主善従の世界が、善主悪従の世界になるという事である。<br><br>弱肉強食の世界が道義的世界になるということである。<br><br> 私は、今一つ別の方面を観てみよう。<br><br>それはあらゆる部面における悪が清算されつゝある事である。<br><br>視よ、国際的にはアングロサクソンのマクワベリズム（マキャヴェリズム）的功利主義が清算されつゝあり、我日本においても、近時政治家を初め指導階級のすべては、従来に見ざる真面目さであり、国民の思想も行動も国家の利害を主とし、一頃の自由主義思想は全く影を潜めてしまった。<br><br>又商業者等も利潤追求本位が公益優先本位となり、商品の原価と利潤は旧体制の頃の秘密主義は許されなくなって公開的となり、教育は個人の優越欲や立身出世の目的は第二義的となり、あらゆる出版物も映画も演芸も、低劣や頽廃的のものは許可されなくなり総ての贅沢は制限される――というようになってきたのである。<br><br> これを要するに、一言にしていえば一切の悪と秘密と利己が不可能となって、公正明朗なる道義的新世界が生れんとしつゝある相貌である。<br><br>全く右進左退の世界が左進右退の世界に転換せんとする姿でなくて何であろう。<br><br> rattail（注） 私の所持する２冊ともにこの前後に収録されている「三国同盟の意義」「夜と昼」「善主悪従」が切除されているため原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Supremacia do Bem sobre o Mal</h2>
 <p>A cultura materialista foi gerada pelo Mundo da Noite, uma era em que a direita avança e a esquerda recua. Portanto, a filosofia ocidental, que se empenha em solucionar todas as questões pela matéria, foi uma consequência natural e inevitável. Sendo esta a ciência que prevaleceu até os nossos dias, o ser humano acabou por ser tratado de uma perspectiva puramente material, à semelhança dos outros animais. Nesse sentido, a medicina ocidental não constitui uma medicina humana, mas sim, uma medicina veterinária.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Portanto, a transição de uma cultura em que a direita avança e a esquerda recua para uma cultura em que a esquerda avança e a direita recua significa que o mundo onde o mal impera e o bem se submete está se transformando em um mundo onde o bem predomina e o mal se subordina. Significa que o mundo da lei do mais forte está se convertendo em um mundo de moralidade.</p>
 <p>Gostaria agora de analisar a questão sob outra perspectiva: o fato de que o mal, em todos os seus âmbitos, está sendo depurado. Observemos: no cenário internacional, o utilitarismo maquiavélico anglo-saxão está sendo liquidado. Em nosso Japão, de igual modo, os políticos e toda a classe dirigente demonstram, nos últimos tempos, uma seriedade jamais vista. O pensamento e a conduta do povo passaram a priorizar os interesses da nação, e a antiga mentalidade liberalista desapareceu por completo. No comércio, o anseio pelo lucro foi suplantado pela priorização do bem público; o secretismo do antigo regime sobre custos e margens de lucro dos produtos já não é tolerado, dando lugar à transparência. Na educação, o desejo pela superioridade individual e pela ascensão na carreira tornou-se secundário. Publicações, filmes e espetáculos de natureza inferior ou decadente não são mais permitidos, e todo luxo foi restringido.</p>
 <p>Em suma, para dizê-lo em uma só palavra, todo o mal, o sigilo e o egoísmo estão se tornando impraticáveis, ao mesmo tempo que um novo mundo de moralidade, justo e radiante, está prestes a nascer. O que seria isso, senão a própria imagem do mundo onde a direita avança e a esquerda recua em plena transição para um mundo onde a esquerda avança e a direita recua?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善主悪従 『明日の医術 第三編』昭和18(1943)年10月23日発行 右進左退である夜の世界が唯物的文化を生んだのであるから、一切を物質によって解決せんと意図した西洋思想も止むを得ない当然の帰結であった。<br/><br/>それが今日までの科学であるから、人間を唯物的に、他の動物と同様に取扱われたのであった。<br/><br/>この意味において、西洋医学は、人間医学ではなく動物医学である訳である。<br/><br/>そうして右進と左進を善悪に区別するとすれば、右は悪であり左は善である。<br/><br/>それは物質を主とすれば悪となり、精神を主とすれば善となるからである。<br/><br/> 従って、右進左退の文化が持続するにおいてはどうしても悪魔的となり、弱肉強食とならざるを得ないのである。<br/><br/>弱小民族を虐（しいた）げて自国のみ富強を誇った白人文化をみれば肯（うなず）かるゝであろう。<br/><br/>そうして彼の西洋医学が死体を解剖し、手術によって肉を切り血を出ださせ、注射によって肉を破り痛苦を与える等、悪魔的残虐性を多分にもつ方法を執るのも、そうした意味からであろうと想うのである。<br/><br/>又西洋医学を進歩発達させたと称せらるゝ大医学者はほとんどが猶太（ユダヤ）人である事である。<br/><br/>故に、西洋医学へ対して猶太医学という人もあるのである。<br/><br/> そうしていよいよ昼の世界に転換するとすれば、右の反対である現象が起るのは当然である。<br/><br/>即ち左進は善に属する以上、精神的にならざるを得ないのである。<br/><br/>その結果として一切が唯心的方向に進んでゆく。<br/><br/>故に、近き将来において霊的科学が生れるであろう事も勿論である。<br/><br/>否すでに生れているといってもよいであろう。<br/><br/>それは私の創成したこの医術は霊的科学であり、動物医学ではなく人間医学であり、唯心的療法であるからである。<br/><br/>悪魔的残虐行為とはおよそ反対であって、実に人類愛的医術である。<br/><br/>従って、右進左退の文化が左進右退的文化になるという事は、悪主善従の世界が、善主悪従の世界になるという事である。<br/><br/>弱肉強食の世界が道義的世界になるということである。<br/><br/> 私は、今一つ別の方面を観てみよう。<br/><br/>それはあらゆる部面における悪が清算されつゝある事である。<br/><br/>視よ、国際的にはアングロサクソンのマクワベリズム（マキャヴェリズム）的功利主義が清算されつゝあり、我日本においても、近時政治家を初め指導階級のすべては、従来に見ざる真面目さであり、国民の思想も行動も国家の利害を主とし、一頃の自由主義思想は全く影を潜めてしまった。<br/><br/>又商業者等も利潤追求本位が公益優先本位となり、商品の原価と利潤は旧体制の頃の秘密主義は許されなくなって公開的となり、教育は個人の優越欲や立身出世の目的は第二義的となり、あらゆる出版物も映画も演芸も、低劣や頽廃的のものは許可されなくなり総ての贅沢は制限される――というようになってきたのである。<br/><br/> これを要するに、一言にしていえば一切の悪と秘密と利己が不可能となって、公正明朗なる道義的新世界が生れんとしつゝある相貌である。<br/><br/>全く右進左退の世界が左進右退の世界に転換せんとする姿でなくて何であろう。<br/><br/> rattail（注） 私の所持する２冊ともにこの前後に収録されている「三国同盟の意義」「夜と昼」「善主悪従」が切除されているため原本確認は出来ませんでした。<br/><br/>よって岡田茂吉全集によっています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

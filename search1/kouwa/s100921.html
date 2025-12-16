@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s100921</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年9月21日 最近の講話会の晩はよく雨が降る。<br><br>以前はこういうことはほとんどなかった。<br><br>これはたいへんおもしろいことで、だんだん信者が増えたんで、お天気ですと入りきれなくなるから、調節してくれるものと思います。<br><br>それで雨だとちょうどいっぱいになる。<br><br>お天気だといっぱい入りきれぬ。<br><br>雨が降っても聞きに行こうという人は熱心な方で、そういう方こそ、いい話をたくさん聞かれるということになります。<br><br>たいへんよりぬきの方達が集まられるわけであります。<br><br> この前もお話した通り、来月一日に私の家だけ玉川へ越しますが、いずれはあっちへ道場ができる。<br><br>これはまだそうとう月日が経ってからですから、やはりそれまではここを本部として活動するわけでありますから、一日に越しますが、お祭りもいつもの通りにして、私も参ってするつもりです。<br><br>ついでの方やあっちの方面の方は、どこかと知りたい方もたくさんありましょうから、あっちへ絵図をかいておきましたから、よくご覧なすってくださればいい。<br><br>非常に判りいい所です。<br><br> 玉川の因縁について、少しばかりお話いたします。<br><br>前にも話した通り、玉は五画で川が三画で五三となります。<br><br>また、玉という字は上下が天地で、真ん中は十の字で、天地を結ぶという字で、天地の結ばれるのが玉で、あるいは天地人三才を結ばすという意味にもなる。<br><br>そして、これは神様ということにもなる。<br><br>丶が上へのると主という字になる。<br><br>そういう意味と、玉が日本、川が外国、玉は魂、また、カワは外部、ミを打てばガワ、すなわち側です。<br><br>皮膚などもカワといい、とりまくものをガワという。<br><br>また、玉は真で、玉川というのは、日本と外国ということにもなる。<br><br>また、五三は伊都能売で、麹町本部は日本の経綸というわけで、それで東京の真ん中にある。<br><br> それで、玉川は日本と外国と両方の経綸になる。<br><br>ちょうど玉川のすぐ向こう側が神奈川になり、神奈川県は外国の型になる。<br><br>川からこちらが日本の型になる。<br><br>ちょうど今度の家は外国と日本の間五と三のちょうど間になるわけであります。<br><br>ですから、あっちへ行くと、霊体両方完全の働きになるから、非常に発展する。<br><br>いずれは川向こうへも一カ所できる。<br><br>これはぜんぜん外国の経綸で、川向こうへできるのは、まだどうできるか判らぬが、おそらく西洋造りの家で、お宮だけ日本造りで、後は西洋造りで、今度は日本と外国を結んだ真ん中に、ちょうどなるから、あの家をもってた人は田という名です。<br><br>田は○に十の字の象形文字、○は世界、十は経緯結ぶ形であります。<br><br> 外国は三五です。<br><br>三は体、五は霊で、体が上で霊が下になるゆえ外国で、体霊であります。<br><br>日本は霊体、五が上で三が下、霊主体従ですから五三となる。<br><br> 体霊、霊体両方結ぶのが十の字ですから、今度は霊体一致ということになる。<br><br>三五は三五の月というように月で、五三は日で、どっちも日であって月であります。<br><br>また月であり日であり、三五は月が上で、日が下ですが、日本は霊主体従、外国が体主霊従で月が上、日が下、日月相結んで伊都能売または観音であります。<br><br> そういう具合に、玉川という川の名をつけるときに、神様はちゃんとなさってあるのであります。<br><br>高天原ということを詰めるとタマになる。<br><br>タカアマハラはみなア行、玉川はやはりア行でアの働き、これは天の働き、地の形もその通りになっている。<br><br>そういうように前から神様のほうでは準備してあるんです。<br><br>それを時が来てそうするだけのもので、人間がやっているんでないことが実によく判る。<br><br> 今度東京が広くなったんで、やはり玉川も世田谷区で、東京市になった。<br><br>私が生まれたのが隅田川のほとりで、東の端で、今度の玉川もやはり東京の端になっている。<br><br>これもよほどおもしろいと思う。<br><br>また、川縁から川縁の東から西に来たのですから…… 最近発行した『観音運動』という宣伝用の小冊子、これはずいぶん変わったことが書いてある。<br><br>予備知識があればそうでもないが、初めて読んだ方はびっくりする。<br><br>二、三の批判を言えば、この岡田仁斎という人は葦原将軍みたいな人じゃないかという人、要するに誇大妄想狂だというのです。<br><br>私は葦原将軍よりもっと大きい誇大妄想だと言ったのです。<br><br>また、ある有名な坊さんに本を奨めに行った人に言ったことは、阿弥陀やキリストは非常に間違っていることが書いてある。<br><br>それは怪しからん、そんなことをちょっとでも言おうものなら、無間地獄へ落ちると言ったそうです。<br><br>で、私はなんと答えたかと聞くと、どうもその返事のしようがまずかったんで、こう答えたらいいと言った。<br><br>実はキリストや阿弥陀が無間地獄へ落ちるんで、今度観音様がそれを救われるんだと言ったのです。<br><br>なぜならキリストも釈迦もこういう世界、ミロクの世、天国ができると言って予言して、手形を発行しただけで、一つとして実現できなかったのは、人類を欺したことになる。<br><br>手形を発行した限り決済しないわけになる。<br><br>人間社会でも手形を不渡りにすれば破産するわけです。<br><br>それでキリストも釈迦も破産するわけで、それを破産せぬように、観音様が私を使ってするからありがたく思わなければならんくらいで、そういうとかえって本当に出来難かろうと、あの本も非常に小さく言ってある。<br><br> あの本にあるごとく、ちょうど徳川時代の人間に、飛行機やラジオの説明をするようなもので、実際宣言中にそう書いてあります。<br><br>われわれのほうへ来る病人は、さんざんに医者や薬や、いろんなことでてこずっているから、治すのに二倍三倍の治病力を要するにもかかわらず、六、七十％は治るんであります。<br><br>実は六、七十％どころじゃない九十％は大丈夫で、あるいは九五％行ってるかもしれぬ。<br><br>百％まで行かぬとも言えない。<br><br>医者などでは西洋医学が間違っているために百％まで行かぬわけであります。<br><br> ところが九十％と言えば無論インチキと言われる。<br><br>六、七十％と言えばやや信ずるというので嘘を言ったわけであります。<br><br>観音力によれば、病人は三分の一になるとありますが、あれも加減してあるのです。<br><br>無論五分の一くらいに減る。<br><br>しかし、そうすると葦原将軍以上にされるから、小さく言ったのです。<br><br>実際馬鹿馬鹿しい話だが、いまはそうするよりしようがない。<br><br>どんなことを言ってもあの冊子を読めば、どこか引きつけられることがあるように書いてある。<br><br>ですから、一冊でも一人でもよけいに読ます、それが一番で、それによって一つの種を蒔くのです。<br><br>活字で種を蒔くのは非常に力のあるもので、いま生長の家で本を読めば病気が治ると広告しているが、今夜深川のある寺で、ひとのみち、生長の家、仏教の幹部有力者などの座談会があり、清水さんをやったんですが、きっとなにかおもしろいことを聞いてくるでしょう。<br><br> 本を読めば病気が治ると言っているが、あれは私のほうで『観音運動』を読んでも治る。<br><br>私のほうでは本を読んで病気が治ると言った人があるからやらない。<br><br>大本では非常にこれをやっている。<br><br>大本は『霊界物語』という本があって、どんな病気でも、だれでも病人に読んで聞かせ、また自分が読んでも治ると言っています。<br><br>谷口さんは大本にいたから、それをまねしたものと思う。<br><br>はなはだ問題になっている神想観は、大本の鎮魂帰神と同じようなものですから、これは大本教は下手で、谷口氏は非常に上手に宣伝したものです。<br><br>そのためにああいう具合に天下へ知れたものと思う。<br><br>ちょうど売薬の「わかもと」などを拡めて行ったようなものです。<br><br>しかし、そうはいうものの生長の家のやってることは、たいへんいいと思う。<br><br>だいたいインテリ層をつかまえてやっている。<br><br> 観音会でやるのはインテリをつかまえることは下手で、観音会は誠の人を、インテリでも正しいインテリ、また、インテリでなくとも誠の人、この世の中を憤慨して正しい善の栄える世を造らねばならぬという、そういう人を集める。<br><br>誠意のある人を集めようとしている。<br><br>誠のインテリの人を集める。<br><br> ところが、学問のある人は霊を無視する。<br><br>唯物思想に捉われきっている。<br><br>こういう人に霊が判ればたいへん結構で、西洋医学によってみな苦しんでいることも、唯物主義の一つの弊害が出ている。<br><br>それを打ち砕くのに生長の家のやり方は非常にいい。<br><br>インテリに向かって霊ということをといている。<br><br>心が本体で肉体や物質はないという。<br><br>いかに霊を主にしているかが判る。<br><br>公平に観れば錯覚を起さすものといえるが、これにより霊魂を悟る。<br><br> ひとのみちなども、お振替などと贖罪しているが、あれも霊を知らす一つの方法で、ひとのみちは霊を知らすので薬など断ってる。<br><br>仏教などは病院など建てるが、ひとのみちや生長の家は病院などは建てない。<br><br>あれはたいへんいいと思う。<br><br>それゆえ、いま宣伝しているように霊ということを主張してくれると、観音運動はやりいい、露払いをしてくれるものと、私は大いに賛成している。<br><br> 今日からお彼岸の入りですが、お彼岸ということについては、まだ本当に解釈されていないようですが、観音様から知らされましたからお話さしていただきます。<br><br> いままでの世界は、霊的か体的かどっちか一つしかなかった。<br><br>霊体一致という文明はできなかった。<br><br>これは観音会がやるので、これからすべてそういうように現われてくる。<br><br> 東洋は霊的偏重の結果、物質否定とか禁欲主義になり、そのため亡国的となる。<br><br>すなわち地獄的国になる。<br><br>西洋は体的に傾き、ヨーロッパはあの通り地獄的惨状を現わした。<br><br>要するに極端で、右か左か、赤化かファッショかどっちかになった。<br><br>これを真ん中すなわち両方を調和した文明、これが理想的の社会の文明で、それを観音会がやる。<br><br>ちょうど彼岸は寒暑調和の時です。<br><br>いままでは火と水ですが、観音会は湯であって、暑からず寒からず、ちょうどいい。<br><br>そういう気候からいうので、彼岸は暑からず寒からず、ちょうど暑さ寒さの間になっている。<br><br>それで暑さ寒さも彼岸からといいます。<br><br> こういう暑からず寒からずという世界が伊都能売式で、これが最後の目的だという意味です。<br><br>彼岸は彼方（かなた）の岸ですから、その意味でできたものであります。<br><br> この間の最後の講座で、病気のことにつき心臓と肺臓と胃の関係につき話しましたが、それは急いだから、その点徹底しない話し方があったかしれませんが、観音力の療法は霊的療法ですが、ところが、いままでは心臓が非常に無視されている。<br><br>貝原益軒の『養生訓』という本があり、ちょっと読んでみたんですが、漢方のほうからいうと胃を根本としてある。<br><br>これはたいへんおもしろいと思う。<br><br>そして、西洋医学は肺を一番重要視している。<br><br>ですから、漢方は食物の養生を重んじ、菜葉、葱、紫蘇などの食物のいろんな薬のあるものを書いてある。<br><br>西洋医学では空気を重要視し、病気は転地などを主張している。<br><br>それは胃と肺へ対してはまことによく言ってあるが、心臓に対してはなにも言ってない。<br><br> これを新たに発見したのが観音力療法で、肺は月、心臓は火、胃が土という話をしましたが、胃は土ですから七で、肺は水で六、心臓は五で、やはり五六七になっている。<br><br>ところが、心臓は五で観音様ということで、観音様はあってもいままで出ぬ。<br><br>隠れていた。<br><br>そのために五が隠されていた。<br><br>実は五が主で、心臓は霊気を吸う。<br><br>太陽の霊気を主として吸う。<br><br>根本は太陽の霊気を吸うにある。<br><br>このことも血が浄化される。<br><br>きれいになればあらゆる病気は治る。<br><br>それを知れば空気中に酸素があれば、それで血が浄化されると思っているが、心臓が絶えず霊気を吸収して血がきれいになる。<br><br>これが本当の心臓の働きおよび霊気で、いままで未発見のものだったが、今度私が発見した。<br><br> 要するに霊気が一番重要な役目になっている。<br><br>要するに、観音力の療法は霊気療法で、世間にも霊気療法はあるが、本当のことは知らない。<br><br>霊気も人間の霊界じゃない。<br><br>太陽を主とした月も交わった霊気です。<br><br> で、観音力でするにも無論霊気は出ている。<br><br>それで血が浄化している。<br><br>空気のいい所へ行こうとするのは旧時代の療法で、今度はいい霊気のある所へ行き養生するのです。<br><br>いい霊気のある所はどこかといえば、観音様よりほかにはない。<br><br>ほかにも多少あるがごく弱い。<br><br> 月の霊気もある。<br><br>むしろ月の霊気は違う。<br><br>太陽の霊気は放射する霊気、月の霊気は汚いものを洗う贖罪的のもので、これは限りがある。<br><br>すなわち水のほうには限りがある。<br><br>日のほうは無限でいくらでも燃える。<br><br>浄化される。<br><br>その霊気はどこから発生するかというと、観音様から発する。<br><br>それで観音様を祭ると病気がなくなる。<br><br>というのは、それで祭ると心持ちがよい。<br><br>霊気を発する。<br><br>それによって絶えず霊気を発して浄化される。<br><br>元々、浄化療法とか浄血療法とかいっても、健康の根本は霊気を浄化するのが根本で、空気のいい所へ行っても肺で死ぬ人はたくさんにある。<br><br>東京からそうとう離れた空気のいい所へ行って、そうとうの効果はあっても、絶対にすばらしい効果は得られない。<br><br>また空気のいい所にいて肺病にならぬとは限らぬ。<br><br> 観音会で発表した霊気は、空気より何十倍何百倍いいもので、空気だの紫外線など言っていても、未だ観音力の光の本体は科学で発見されず判っていない。<br><br>いまに時機が来れば、科学的にも実験するつもりです。<br><br>黴菌を殺すこと、浄血すること、膿が浄化することなど、科学的に実験研究などしようと思っている。<br><br> rattail(注) 葦原将軍、葦原金次郎（1852-1937） 金沢の櫛職人で前田侯の馬車に乱暴して1882年東京府癲狂院に入院させられ、88歳で松沢病院で死去した。<br><br>躁的誇大妄想を有し、葦原将軍、葦原帝と称し、参観者に勅語を売りつけ、手製の大礼服を着て一緒に記念撮影に入り料金を要求したりして、ジャーナリズム的人気者であった。<br><br>痴呆的人格崩壊には陥らなかった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Providência Divina em Tamagawa e a Harmonia entre o Espírito e a Matéria</h2>
 <p>Tenho observado um fenômeno interessante em nossas recentes reuniões noturnas: a frequência com que chove. Antigamente, isso raramente ocorria. Creio que se trata de um ajuste Divino, pois, com o gradual aumento do número de fiéis, um dia de tempo bom faria com que o espaço se tornasse insuficiente para todos. Dessa forma, a chuva assegura que o recinto se preencha na medida exata. Pode-se dizer, portanto, que se reúnem aqui os mais seletos, justamente aqueles que, movidos por um fervor sincero, não se deixam deter pelas intempéries e são, por isso mesmo, merecedores de ouvir os mais valiosos ensinamentos.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>A terapia pelo poder de Kannon (観音) vem revelar essa nova dimensão. Como expliquei, os pulmões correspondem à água, o coração ao fogo e o estômago à terra. Numericamente, o estômago é sete (terra), os pulmões são seis (água) e o coração é cinco (fogo), formando a sequência cinco-seis-sete. O número cinco, associado ao coração, representa Kannon (観音), que, embora sempre tenha existido, permanecia oculto. Por isso, o cinco estava velado. Na realidade, o cinco é o elemento principal. O coração absorve a energia espiritual, primordialmente a energia espiritual do sol. A purificação do sangue depende fundamentalmente dessa absorção. Uma vez que o sangue se purifica, todas as doenças são curadas. A ciência atual acredita que o oxigênio do ar é o responsável pela purificação sanguínea, mas a verdade é que é a constante absorção de energia espiritual pelo coração que purifica o sangue. Essa é a verdadeira função do coração e o poder da energia espiritual, uma descoberta inédita que agora revelo.</p>
 <p>Em suma, a energia espiritual desempenha o papel mais crucial. A terapia pelo poder de Kannon (観音) é, em essência, uma terapia pela energia espiritual. Embora existam outras terapias com esse nome, elas desconhecem a sua verdadeira natureza. Não se trata da energia espiritual do mundo espiritual humano, mas da energia emanada do universo, tendo o sol como fonte principal e a lua como auxiliar. Ao ministrarmos o Johrei, estamos irradiando essa energia espiritual, que purifica o sangue. Buscar a cura em lugares de ar puro é um método da era passada. Na nova era, a cura se obterá pela permanência em locais com boa energia espiritual. E onde se encontra a melhor energia espiritual senão junto a Kannon (観音)? Existem outras fontes, mas são extremamente fracas. A energia da lua também existe, mas sua natureza é diferente. A energia do sol é radiante e purificadora, enquanto a da lua é absolutória, lavando as impurezas, mas seu poder é finito. A energia da água tem limites; a do fogo é infinita, capaz de queimar e purificar incessantemente. E de onde emana essa energia? Ela emana de Kannon (観音). Por isso, ao entronizarmos a imagem de Kannon (観音), as doenças desaparecem, pois o ambiente se preenche de bem-estar. A imagem irradia energia espiritual, que nos purifica constantemente.</p>
 <p>Em última análise, seja qual for o nome que se dê — terapia purificadora ou de purificação do sangue —, o fundamento da saúde reside na purificação pela energia espiritual. Muitas pessoas morrem de doenças pulmonares mesmo vivendo em locais de ar puro. Embora uma mudança de ares possa trazer algum alívio, jamais produzirá uma cura espetacular. Viver em um local de ar puro não é garantia de que não se contrairá tuberculose. A energia espiritual revelada pela Kannonkai é dezenas, centenas de vezes mais poderosa que o ar. A ciência, com seus conceitos de oxigênio e raios ultravioleta, ainda não descobriu nem compreendeu a verdadeira natureza da Luz Divina. Quando o tempo for propício, pretendo demonstrar tais fenômenos por meio de experimentos científicos, provando sua capacidade de eliminar micróbios, purificar o sangue e dissolver o pus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年9月21日 最近の講話会の晩はよく雨が降る。<br/><br/>以前はこういうことはほとんどなかった。<br/><br/>これはたいへんおもしろいことで、だんだん信者が増えたんで、お天気ですと入りきれなくなるから、調節してくれるものと思います。<br/><br/>それで雨だとちょうどいっぱいになる。<br/><br/>お天気だといっぱい入りきれぬ。<br/><br/>雨が降っても聞きに行こうという人は熱心な方で、そういう方こそ、いい話をたくさん聞かれるということになります。<br/><br/>たいへんよりぬきの方達が集まられるわけであります。<br/><br/> この前もお話した通り、来月一日に私の家だけ玉川へ越しますが、いずれはあっちへ道場ができる。<br/><br/>これはまだそうとう月日が経ってからですから、やはりそれまではここを本部として活動するわけでありますから、一日に越しますが、お祭りもいつもの通りにして、私も参ってするつもりです。<br/><br/>ついでの方やあっちの方面の方は、どこかと知りたい方もたくさんありましょうから、あっちへ絵図をかいておきましたから、よくご覧なすってくださればいい。<br/><br/>非常に判りいい所です。<br/><br/> 玉川の因縁について、少しばかりお話いたします。<br/><br/>前にも話した通り、玉は五画で川が三画で五三となります。<br/><br/>また、玉という字は上下が天地で、真ん中は十の字で、天地を結ぶという字で、天地の結ばれるのが玉で、あるいは天地人三才を結ばすという意味にもなる。<br/><br/>そして、これは神様ということにもなる。<br/><br/>丶が上へのると主という字になる。<br/><br/>そういう意味と、玉が日本、川が外国、玉は魂、また、カワは外部、ミを打てばガワ、すなわち側です。<br/><br/>皮膚などもカワといい、とりまくものをガワという。<br/><br/>また、玉は真で、玉川というのは、日本と外国ということにもなる。<br/><br/>また、五三は伊都能売で、麹町本部は日本の経綸というわけで、それで東京の真ん中にある。<br/><br/> それで、玉川は日本と外国と両方の経綸になる。<br/><br/>ちょうど玉川のすぐ向こう側が神奈川になり、神奈川県は外国の型になる。<br/><br/>川からこちらが日本の型になる。<br/><br/>ちょうど今度の家は外国と日本の間五と三のちょうど間になるわけであります。<br/><br/>ですから、あっちへ行くと、霊体両方完全の働きになるから、非常に発展する。<br/><br/>いずれは川向こうへも一カ所できる。<br/><br/>これはぜんぜん外国の経綸で、川向こうへできるのは、まだどうできるか判らぬが、おそらく西洋造りの家で、お宮だけ日本造りで、後は西洋造りで、今度は日本と外国を結んだ真ん中に、ちょうどなるから、あの家をもってた人は田という名です。<br/><br/>田は○に十の字の象形文字、○は世界、十は経緯結ぶ形であります。<br/><br/> 外国は三五です。<br/><br/>三は体、五は霊で、体が上で霊が下になるゆえ外国で、体霊であります。<br/><br/>日本は霊体、五が上で三が下、霊主体従ですから五三となる。<br/><br/> 体霊、霊体両方結ぶのが十の字ですから、今度は霊体一致ということになる。<br/><br/>三五は三五の月というように月で、五三は日で、どっちも日であって月であります。<br/><br/>また月であり日であり、三五は月が上で、日が下ですが、日本は霊主体従、外国が体主霊従で月が上、日が下、日月相結んで伊都能売または観音であります。<br/><br/> そういう具合に、玉川という川の名をつけるときに、神様はちゃんとなさってあるのであります。<br/><br/>高天原ということを詰めるとタマになる。<br/><br/>タカアマハラはみなア行、玉川はやはりア行でアの働き、これは天の働き、地の形もその通りになっている。<br/><br/>そういうように前から神様のほうでは準備してあるんです。<br/><br/>それを時が来てそうするだけのもので、人間がやっているんでないことが実によく判る。<br/><br/> 今度東京が広くなったんで、やはり玉川も世田谷区で、東京市になった。<br/><br/>私が生まれたのが隅田川のほとりで、東の端で、今度の玉川もやはり東京の端になっている。<br/><br/>これもよほどおもしろいと思う。<br/><br/>また、川縁から川縁の東から西に来たのですから…… 最近発行した『観音運動』という宣伝用の小冊子、これはずいぶん変わったことが書いてある。<br/><br/>予備知識があればそうでもないが、初めて読んだ方はびっくりする。<br/><br/>二、三の批判を言えば、この岡田仁斎という人は葦原将軍みたいな人じゃないかという人、要するに誇大妄想狂だというのです。<br/><br/>私は葦原将軍よりもっと大きい誇大妄想だと言ったのです。<br/><br/>また、ある有名な坊さんに本を奨めに行った人に言ったことは、阿弥陀やキリストは非常に間違っていることが書いてある。<br/><br/>それは怪しからん、そんなことをちょっとでも言おうものなら、無間地獄へ落ちると言ったそうです。<br/><br/>で、私はなんと答えたかと聞くと、どうもその返事のしようがまずかったんで、こう答えたらいいと言った。<br/><br/>実はキリストや阿弥陀が無間地獄へ落ちるんで、今度観音様がそれを救われるんだと言ったのです。<br/><br/>なぜならキリストも釈迦もこういう世界、ミロクの世、天国ができると言って予言して、手形を発行しただけで、一つとして実現できなかったのは、人類を欺したことになる。<br/><br/>手形を発行した限り決済しないわけになる。<br/><br/>人間社会でも手形を不渡りにすれば破産するわけです。<br/><br/>それでキリストも釈迦も破産するわけで、それを破産せぬように、観音様が私を使ってするからありがたく思わなければならんくらいで、そういうとかえって本当に出来難かろうと、あの本も非常に小さく言ってある。<br/><br/> あの本にあるごとく、ちょうど徳川時代の人間に、飛行機やラジオの説明をするようなもので、実際宣言中にそう書いてあります。<br/><br/>われわれのほうへ来る病人は、さんざんに医者や薬や、いろんなことでてこずっているから、治すのに二倍三倍の治病力を要するにもかかわらず、六、七十％は治るんであります。<br/><br/>実は六、七十％どころじゃない九十％は大丈夫で、あるいは九五％行ってるかもしれぬ。<br/><br/>百％まで行かぬとも言えない。<br/><br/>医者などでは西洋医学が間違っているために百％まで行かぬわけであります。<br/><br/> ところが九十％と言えば無論インチキと言われる。<br/><br/>六、七十％と言えばやや信ずるというので嘘を言ったわけであります。<br/><br/>観音力によれば、病人は三分の一になるとありますが、あれも加減してあるのです。<br/><br/>無論五分の一くらいに減る。<br/><br/>しかし、そうすると葦原将軍以上にされるから、小さく言ったのです。<br/><br/>実際馬鹿馬鹿しい話だが、いまはそうするよりしようがない。<br/><br/>どんなことを言ってもあの冊子を読めば、どこか引きつけられることがあるように書いてある。<br/><br/>ですから、一冊でも一人でもよけいに読ます、それが一番で、それによって一つの種を蒔くのです。<br/><br/>活字で種を蒔くのは非常に力のあるもので、いま生長の家で本を読めば病気が治ると広告しているが、今夜深川のある寺で、ひとのみち、生長の家、仏教の幹部有力者などの座談会があり、清水さんをやったんですが、きっとなにかおもしろいことを聞いてくるでしょう。<br/><br/> 本を読めば病気が治ると言っているが、あれは私のほうで『観音運動』を読んでも治る。<br/><br/>私のほうでは本を読んで病気が治ると言った人があるからやらない。<br/><br/>大本では非常にこれをやっている。<br/><br/>大本は『霊界物語』という本があって、どんな病気でも、だれでも病人に読んで聞かせ、また自分が読んでも治ると言っています。<br/><br/>谷口さんは大本にいたから、それをまねしたものと思う。<br/><br/>はなはだ問題になっている神想観は、大本の鎮魂帰神と同じようなものですから、これは大本教は下手で、谷口氏は非常に上手に宣伝したものです。<br/><br/>そのためにああいう具合に天下へ知れたものと思う。<br/><br/>ちょうど売薬の「わかもと」などを拡めて行ったようなものです。<br/><br/>しかし、そうはいうものの生長の家のやってることは、たいへんいいと思う。<br/><br/>だいたいインテリ層をつかまえてやっている。<br/><br/> 観音会でやるのはインテリをつかまえることは下手で、観音会は誠の人を、インテリでも正しいインテリ、また、インテリでなくとも誠の人、この世の中を憤慨して正しい善の栄える世を造らねばならぬという、そういう人を集める。<br/><br/>誠意のある人を集めようとしている。<br/><br/>誠のインテリの人を集める。<br/><br/> ところが、学問のある人は霊を無視する。<br/><br/>唯物思想に捉われきっている。<br/><br/>こういう人に霊が判ればたいへん結構で、西洋医学によってみな苦しんでいることも、唯物主義の一つの弊害が出ている。<br/><br/>それを打ち砕くのに生長の家のやり方は非常にいい。<br/><br/>インテリに向かって霊ということをといている。<br/><br/>心が本体で肉体や物質はないという。<br/><br/>いかに霊を主にしているかが判る。<br/><br/>公平に観れば錯覚を起さすものといえるが、これにより霊魂を悟る。<br/><br/> ひとのみちなども、お振替などと贖罪しているが、あれも霊を知らす一つの方法で、ひとのみちは霊を知らすので薬など断ってる。<br/><br/>仏教などは病院など建てるが、ひとのみちや生長の家は病院などは建てない。<br/><br/>あれはたいへんいいと思う。<br/><br/>それゆえ、いま宣伝しているように霊ということを主張してくれると、観音運動はやりいい、露払いをしてくれるものと、私は大いに賛成している。<br/><br/> 今日からお彼岸の入りですが、お彼岸ということについては、まだ本当に解釈されていないようですが、観音様から知らされましたからお話さしていただきます。<br/><br/> いままでの世界は、霊的か体的かどっちか一つしかなかった。<br/><br/>霊体一致という文明はできなかった。<br/><br/>これは観音会がやるので、これからすべてそういうように現われてくる。<br/><br/> 東洋は霊的偏重の結果、物質否定とか禁欲主義になり、そのため亡国的となる。<br/><br/>すなわち地獄的国になる。<br/><br/>西洋は体的に傾き、ヨーロッパはあの通り地獄的惨状を現わした。<br/><br/>要するに極端で、右か左か、赤化かファッショかどっちかになった。<br/><br/>これを真ん中すなわち両方を調和した文明、これが理想的の社会の文明で、それを観音会がやる。<br/><br/>ちょうど彼岸は寒暑調和の時です。<br/><br/>いままでは火と水ですが、観音会は湯であって、暑からず寒からず、ちょうどいい。<br/><br/>そういう気候からいうので、彼岸は暑からず寒からず、ちょうど暑さ寒さの間になっている。<br/><br/>それで暑さ寒さも彼岸からといいます。<br/><br/> こういう暑からず寒からずという世界が伊都能売式で、これが最後の目的だという意味です。<br/><br/>彼岸は彼方（かなた）の岸ですから、その意味でできたものであります。<br/><br/> この間の最後の講座で、病気のことにつき心臓と肺臓と胃の関係につき話しましたが、それは急いだから、その点徹底しない話し方があったかしれませんが、観音力の療法は霊的療法ですが、ところが、いままでは心臓が非常に無視されている。<br/><br/>貝原益軒の『養生訓』という本があり、ちょっと読んでみたんですが、漢方のほうからいうと胃を根本としてある。<br/><br/>これはたいへんおもしろいと思う。<br/><br/>そして、西洋医学は肺を一番重要視している。<br/><br/>ですから、漢方は食物の養生を重んじ、菜葉、葱、紫蘇などの食物のいろんな薬のあるものを書いてある。<br/><br/>西洋医学では空気を重要視し、病気は転地などを主張している。<br/><br/>それは胃と肺へ対してはまことによく言ってあるが、心臓に対してはなにも言ってない。<br/><br/> これを新たに発見したのが観音力療法で、肺は月、心臓は火、胃が土という話をしましたが、胃は土ですから七で、肺は水で六、心臓は五で、やはり五六七になっている。<br/><br/>ところが、心臓は五で観音様ということで、観音様はあってもいままで出ぬ。<br/><br/>隠れていた。<br/><br/>そのために五が隠されていた。<br/><br/>実は五が主で、心臓は霊気を吸う。<br/><br/>太陽の霊気を主として吸う。<br/><br/>根本は太陽の霊気を吸うにある。<br/><br/>このことも血が浄化される。<br/><br/>きれいになればあらゆる病気は治る。<br/><br/>それを知れば空気中に酸素があれば、それで血が浄化されると思っているが、心臓が絶えず霊気を吸収して血がきれいになる。<br/><br/>これが本当の心臓の働きおよび霊気で、いままで未発見のものだったが、今度私が発見した。<br/><br/> 要するに霊気が一番重要な役目になっている。<br/><br/>要するに、観音力の療法は霊気療法で、世間にも霊気療法はあるが、本当のことは知らない。<br/><br/>霊気も人間の霊界じゃない。<br/><br/>太陽を主とした月も交わった霊気です。<br/><br/> で、観音力でするにも無論霊気は出ている。<br/><br/>それで血が浄化している。<br/><br/>空気のいい所へ行こうとするのは旧時代の療法で、今度はいい霊気のある所へ行き養生するのです。<br/><br/>いい霊気のある所はどこかといえば、観音様よりほかにはない。<br/><br/>ほかにも多少あるがごく弱い。<br/><br/> 月の霊気もある。<br/><br/>むしろ月の霊気は違う。<br/><br/>太陽の霊気は放射する霊気、月の霊気は汚いものを洗う贖罪的のもので、これは限りがある。<br/><br/>すなわち水のほうには限りがある。<br/><br/>日のほうは無限でいくらでも燃える。<br/><br/>浄化される。<br/><br/>その霊気はどこから発生するかというと、観音様から発する。<br/><br/>それで観音様を祭ると病気がなくなる。<br/><br/>というのは、それで祭ると心持ちがよい。<br/><br/>霊気を発する。<br/><br/>それによって絶えず霊気を発して浄化される。<br/><br/>元々、浄化療法とか浄血療法とかいっても、健康の根本は霊気を浄化するのが根本で、空気のいい所へ行っても肺で死ぬ人はたくさんにある。<br/><br/>東京からそうとう離れた空気のいい所へ行って、そうとうの効果はあっても、絶対にすばらしい効果は得られない。<br/><br/>また空気のいい所にいて肺病にならぬとは限らぬ。<br/><br/> 観音会で発表した霊気は、空気より何十倍何百倍いいもので、空気だの紫外線など言っていても、未だ観音力の光の本体は科学で発見されず判っていない。<br/><br/>いまに時機が来れば、科学的にも実験するつもりです。<br/><br/>黴菌を殺すこと、浄血すること、膿が浄化することなど、科学的に実験研究などしようと思っている。<br/><br/> rattail(注) 葦原将軍、葦原金次郎（1852-1937） 金沢の櫛職人で前田侯の馬車に乱暴して1882年東京府癲狂院に入院させられ、88歳で松沢病院で死去した。<br/><br/>躁的誇大妄想を有し、葦原将軍、葦原帝と称し、参観者に勅語を売りつけ、手製の大礼服を着て一緒に記念撮影に入り料金を要求したりして、ジャーナリズム的人気者であった。<br/><br/>痴呆的人格崩壊には陥らなかった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

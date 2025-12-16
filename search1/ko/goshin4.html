@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>goshin4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御神体奉斎に就いて 『栄光』255号、昭和29(1954)年4月7日発行 これは滅多にはないがどうかするとたまにはある事だから、ここに注意するのである。<br><br>例えば最初妻君が入信し、熱心な余り主人や息子がまだ分らない内に、御神体をお祀りする。<br><br>それをまたいいとしている教師もあるが、これは大変な間違いである。<br><br>いつかも言った通り一家中全部が信仰へ入るとか、そうでなければ相当理解が出来てから、快く御祀りするのが本当である。<br><br>そうでなく一人でも反対者があるとしたらしばらく時を待つべきであるが、何とかして早く入信させたい焦りから、御祀りするのであろうし、またそうすれば早く分ると思うからであるが、これは人間の考え方で神様の方は別である。<br><br>つまりその人それぞれの罪の軽重、因縁、使命等によって、入信の時期も遅速があるから、総ては神様にお任せしていればいいのである。<br><br> それについて最近某中教会長が質（たず）ねた事は、会員の一人である、ある妻君が来ての話に、どうも主人が分らなすぎて困っていたところ、最近ある晩の事泥酔して帰宅するや、何を思ったかイキナリ御神体を破り、神様に関したものは片っ端から放り出すので吃驚（びっくり）し、いくら歎願しても言う事を諾（き）かなかったので全く申訳のない事を致しました、何卒（なにとぞ）御無礼の段は御赦（ゆる）しをお願い致したく、明主様に御取次して頂きたいと申して来たので、いかが致したら宜（よろ）しいでしょうかとの事で、私はこう答えた。<br><br> それは私が常に言っている事を忘れたからで、一人でも反対者がある場合、決してお祀りしてはいけないと戒めている。<br><br>それに気が付かないとしたら、つまり御神書の拝読が足りないからである。<br><br>そこで何より心得べき事は、信仰の根本は本人の自由意志であって、止むに止まれぬ信仰心が湧くのが根本である。<br><br>それを何でも彼（か）んでも無理に分らせようとするから逆結果となり、反って入信の時が遅れるのである。<br><br>これについて一番知らねばならない事は、世の中の事は二二（ににん）が四（し）ではいけない。<br><br>二二が六、二三が七というように、理外の理のある事を悟るべきで、特に信仰においてをやである。<br><br>つまり何事も結果によって判断すべきで、これが千変万化、融通無碍（ゆうずうむげ）の観音行であるから、この理を充分肚の底へ畳み込んで活動すれば、必ず巧くゆくはずである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prudência na Consagração da Imagem da Luz Divina</h2>
 <p>Embora seja uma ocorrência rara, ocasionalmente nos deparamos com uma situação sobre a qual desejo chamar a atenção. Refiro-me ao caso, por exemplo, de uma esposa que, ao ingressar na fé, movida por um fervor excessivo, decide consagrar a Imagem da Luz Divina antes que o marido ou os filhos tenham alcançado a devida compreensão. Existem até mesmo ministros que consideram tal atitude aceitável, o que constitui um equívoco de graves proporções.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>A esse respeito, recebi recentemente a consulta de um dirigente de Igreja. Ele relatou o caso de uma senhora, membro de sua igreja, que o procurara muito aflita com a incompreensão de seu marido. Certa noite, o esposo chegou em casa completamente embriagado e, num ímpeto, rasgou a Imagem da Luz Divina e atirou fora todos os objetos sagrados. A mulher ficou estarrecida e, apesar de seus rogos, ele se mostrou irredutível. Sentindo-se profundamente culpada pelo ocorrido, ela implorou ao dirigente que me transmitisse seu pedido de perdão por tão grave desrespeito. O dirigente então me perguntou como deveria proceder, e esta foi a minha resposta:</p>
 <p>Isso ocorreu porque se esqueceram de um ensinamento que reitero constantemente: jamais consagrem a Imagem da Luz Divina se houver na família um único opositor. O fato de não se darem conta disso evidencia uma leitura insuficiente dos Ensinamentos. Acima de tudo, é preciso compreender que o alicerce da fé é o livre-arbítrio. A verdadeira crença deve brotar de forma espontânea e irresistível no coração da pessoa. Tentar impor a compreensão a qualquer custo gera o efeito contrário, retardando o momento da conversão.</p>
 <p>Nesse sentido, o ponto mais crucial a ser compreendido é que, nos assuntos do mundo, a lógica de que dois mais dois são quatro nem sempre se aplica. É preciso despertar para a existência de uma lógica que transcende a razão, onde dois mais dois podem ser seis, e dois mais três, sete. Isso se aplica com especial veemência ao universo da fé. Em suma, tudo deve ser julgado por seus resultados. Essa é a prática de Kannon (観音), que se manifesta em infinitas variações e atua com absoluta liberdade e flexibilidade. Se assimilarem profundamente este princípio e atuarem com base nele, o sucesso será inevitável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御神体奉斎に就いて 『栄光』255号、昭和29(1954)年4月7日発行 これは滅多にはないがどうかするとたまにはある事だから、ここに注意するのである。<br/><br/>例えば最初妻君が入信し、熱心な余り主人や息子がまだ分らない内に、御神体をお祀りする。<br/><br/>それをまたいいとしている教師もあるが、これは大変な間違いである。<br/><br/>いつかも言った通り一家中全部が信仰へ入るとか、そうでなければ相当理解が出来てから、快く御祀りするのが本当である。<br/><br/>そうでなく一人でも反対者があるとしたらしばらく時を待つべきであるが、何とかして早く入信させたい焦りから、御祀りするのであろうし、またそうすれば早く分ると思うからであるが、これは人間の考え方で神様の方は別である。<br/><br/>つまりその人それぞれの罪の軽重、因縁、使命等によって、入信の時期も遅速があるから、総ては神様にお任せしていればいいのである。<br/><br/> それについて最近某中教会長が質（たず）ねた事は、会員の一人である、ある妻君が来ての話に、どうも主人が分らなすぎて困っていたところ、最近ある晩の事泥酔して帰宅するや、何を思ったかイキナリ御神体を破り、神様に関したものは片っ端から放り出すので吃驚（びっくり）し、いくら歎願しても言う事を諾（き）かなかったので全く申訳のない事を致しました、何卒（なにとぞ）御無礼の段は御赦（ゆる）しをお願い致したく、明主様に御取次して頂きたいと申して来たので、いかが致したら宜（よろ）しいでしょうかとの事で、私はこう答えた。<br/><br/> それは私が常に言っている事を忘れたからで、一人でも反対者がある場合、決してお祀りしてはいけないと戒めている。<br/><br/>それに気が付かないとしたら、つまり御神書の拝読が足りないからである。<br/><br/>そこで何より心得べき事は、信仰の根本は本人の自由意志であって、止むに止まれぬ信仰心が湧くのが根本である。<br/><br/>それを何でも彼（か）んでも無理に分らせようとするから逆結果となり、反って入信の時が遅れるのである。<br/><br/>これについて一番知らねばならない事は、世の中の事は二二（ににん）が四（し）ではいけない。<br/><br/>二二が六、二三が七というように、理外の理のある事を悟るべきで、特に信仰においてをやである。<br/><br/>つまり何事も結果によって判断すべきで、これが千変万化、融通無碍（ゆうずうむげ）の観音行であるから、この理を充分肚の底へ畳み込んで活動すれば、必ず巧くゆくはずである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

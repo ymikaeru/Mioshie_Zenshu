@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tijote01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地上天国 『信仰雑話』P.7、昭和23(1948)年9月5日発行 地上天国という言葉は、何たる美わしい響きであろう。<br><br>この言葉ほど光明と希望を与えるものはあるまい。<br><br>しかるに多くの者は、地上天国などという事は実現の可能性のない夢でしかないと想うであろうが、私は必ずその実現を確信、否実現に近づきつつある事を認識するのである。<br><br>ナザレの聖者キリストが「汝等悔改めよ、天国は近づけり」といった一大獅子吼（ししく）は、何のためであろうかを深く考えてみなくてはならない。<br><br>その教えが全世界の大半を教化し今日のごとく大を成したところの、立教の主たるキリストが、確実性のない空言をされ給う筈がないと私は思うのである。<br><br>しからば地上天国とはいかなるものであろうかという事は何人も知りたいところであろう。<br><br>私は今それを想像して書いてみよう。<br><br> 地上天国とは、端的にいえば「幸福者の世界」である。<br><br>それは病気、貧乏、争闘のない世界で、文化の最も高い世界である。<br><br>しからば今日人類が苦悩に喘ぎつつある、病貧争に満ちたこの世界を、いかにして天国化するかという大問題こそ、吾々に課せられたる一大懸案であろう。<br><br>しかも右の三大災厄の主原因こそは病気そのものである以上、まず病気を絶無ならしむべき方法が発見されなければならない。<br><br>次は貧乏であるが、これもその原因が病気が第一であり、誤れる思想と政治の貧困、社会組織の不備等も第二の原因であろう。<br><br>次に争闘を好む思想であるが、これは人類が未だ野蛮の域を脱し切れない事が原因である。<br><br>しからばこの三大災厄をいかにして除去すべきや、ということが根本問題であるが、この問題解決に私は自信を得たのであって、最も簡単なる事実をここに説き明すのである。<br><br> 本教団に入信し、教化さるるに従い、心身の浄化が行われ、真の健康者たり得ると共に、貧乏からは漸次開〔解〕放され、なお闘争を嫌忌（けんき）するに至る事は不思議として誰も驚くのである。<br><br>そのほとんどの信徒は年一年幸福者に近づきつつある事は、無数の事実が証明している。<br><br> 私は他の欠点を挙ぐる事を好まないが、いささか左記のごとき事実を挙げる事を許されたい。<br><br>それは信仰をしつつ難病に呻吟し、貧困に苦しみながら満足し、喜んでいるものがあるが、なる程これらも無信仰者よりは精神的に救われてはいるが、それは霊だけ救われて体は救われていないのである。<br><br>すなわち半分だけ救われている訳で、真に救われるという事は、霊肉共に救われなくてはならない。<br><br>健康者となり、貧困から脱却し、一家歓喜に浸る生活にならなくてはならない。<br><br>しかるに今日までのあらゆる救いは精神を救う力はあるが肉体まで救う力はなかった訳で、止むを得ず「信仰とは精神のみ救わるべきもの」とされて来たのであろう。<br><br>その例として宗教家がよく言う言葉に「現当利益が目的の信仰は低級信仰である」というが、これはおかしな話である。<br><br>何人といえども、現当利益を欲しない者は決してある筈がない。<br><br>また病苦を訴える者に対し「人間は宣しく死生を超越せざるべからず」と言うが、これもいささかか変である。<br><br>何となればいかなる人間といえども、死生を超越するなどという事は実際上出来得るものではない。<br><br>もし出来得れば、それは己を偽るのである。<br><br>この事について私は沢庵禅師の一挿話をかいてみよう。<br><br> 禅師が死に臨んだ時、周囲の者は「何か辞世を書いて戴きたい」と紙と筆を捧げた。<br><br>禅師は直ちに筆を執って「俺は死にたくない」と書いた。<br><br>周囲の者は「禅師程の名僧がこの様な事をお書きになる筈がない、何かの間違いであろう」と再び紙と筆を捧げた。<br><br>すると今度は「俺はどうしても死にたくない」と書かれたとの話があるが、私はこの禅師の態度こそ実に偉いと思う。<br><br>その様な場合大抵は「死生何ものぞ」というような事を書くであろうが、禅師は何等衒（てら）う事なくその心境を率直に表わした事は普通の名僧では到底出来得ないところであると私は感心したのである。<br><br> 次に、世間よく人を救おうとする場合、自分が病貧争から抜け切らない境遇にありながら宣伝をする人があるが、これらもその心情は嘉（よみ）すべきも、実は本当のやり方ではない、何となれば、自分が救われて幸福者となっているから、他人の地獄的生活に喘いでいる者を、自分と同じような幸福者たらしめんとして信仰を勧めるのである。<br><br>それで相手が自分の幸福である状態を見て心が動く、宣伝効果百パーセントという訳である。<br><br>私といえども、自分が幸福者の条件を具備しなければ宣伝する勇気は出なかったが、幸い神仏の御加護によって幸福者たり得るようになってから教えを説く気になったのである。<br><br>地上天国とは、幸福者の世界でありとすれば、幸福者が作られ、幸福者が集まるところ、地上天国の実相でなくて何であろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Realidade do Paraíso Terrestre</h2>
 <p>Que ressonância sublime possui a expressão Paraíso Terrestre. Dificilmente haverá outras palavras que confiram tamanha luz e esperança. Contudo, a maioria das pessoas provavelmente a considera um sonho inalcançável, uma mera utopia. Eu, todavia, não apenas tenho a convicção de sua concretização, como também reconheço que ela se aproxima a cada dia. É preciso refletir profundamente sobre o significado do magno brado de Cristo, o Santo de Nazaré, ao proclamar: “Arrependei-vos, porque é chegado o Reino dos Céus”. Penso ser inconcebível que Cristo, o fundador de um ensinamento que instruiu a maior parte do mundo e alcançou a magnitude que vemos hoje, proferisse palavras vãs e sem fundamento.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Quando o mestre estava em seu leito de morte, seus discípulos, oferecendo-lhe papel e pincel, pediram: “Gostaríamos que o senhor nos deixasse um poema de despedida”. O mestre prontamente tomou o pincel e escreveu: “Eu não quero morrer”. Surpresos, os discípulos comentaram: “Um monge tão ilustre como o senhor não escreveria algo assim. Deve ter havido algum engano”, e novamente lhe ofereceram papel e pincel. Conta-se que, desta vez, ele escreveu: “Eu, de modo algum, quero morrer”. Considero essa atitude do mestre zen verdadeiramente grandiosa. Naquela situação, a maioria escreveria algo como: “O que são a vida e a morte?”. Ele, porém, expressou seu estado de espírito com total franqueza, sem qualquer afetação, algo que, em minha opinião, um monge comum jamais seria capaz de fazer. Fiquei deveras impressionado.</p>
 <p>Por outro lado, no intuito de salvar o próximo, existem aqueles que se dedicam a difundir uma fé enquanto eles próprios ainda não se libertaram da doença, da pobreza e do conflito. Embora sua intenção seja louvável, na verdade, esse não é o método correto. O procedimento justo consiste em, primeiramente, ser salvo e tornar-se uma pessoa feliz. Assim, quando se recomenda a fé àqueles que sofrem em uma existência infernal, o desejo é que alcancem a mesma felicidade. Ao verem o estado de plenitude de quem lhes fala, seus corações se comovem. A eficácia dessa abordagem é de cem por cento. Eu mesmo não teria tido a coragem de propagar estes Ensinamentos se não tivesse preenchido as condições de uma pessoa feliz. Felizmente, pela proteção de Deus, tornei-me apto a desfrutar dessa felicidade, e só então me senti preparado para pregar.</p>
 <p>Se o Paraíso Terrestre é o mundo dos felizes, o que seria então a sua verdadeira face, senão o lugar onde pessoas felizes são formadas e se reúnem?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地上天国 『信仰雑話』P.7、昭和23(1948)年9月5日発行 地上天国という言葉は、何たる美わしい響きであろう。<br/><br/>この言葉ほど光明と希望を与えるものはあるまい。<br/><br/>しかるに多くの者は、地上天国などという事は実現の可能性のない夢でしかないと想うであろうが、私は必ずその実現を確信、否実現に近づきつつある事を認識するのである。<br/><br/>ナザレの聖者キリストが「汝等悔改めよ、天国は近づけり」といった一大獅子吼（ししく）は、何のためであろうかを深く考えてみなくてはならない。<br/><br/>その教えが全世界の大半を教化し今日のごとく大を成したところの、立教の主たるキリストが、確実性のない空言をされ給う筈がないと私は思うのである。<br/><br/>しからば地上天国とはいかなるものであろうかという事は何人も知りたいところであろう。<br/><br/>私は今それを想像して書いてみよう。<br/><br/> 地上天国とは、端的にいえば「幸福者の世界」である。<br/><br/>それは病気、貧乏、争闘のない世界で、文化の最も高い世界である。<br/><br/>しからば今日人類が苦悩に喘ぎつつある、病貧争に満ちたこの世界を、いかにして天国化するかという大問題こそ、吾々に課せられたる一大懸案であろう。<br/><br/>しかも右の三大災厄の主原因こそは病気そのものである以上、まず病気を絶無ならしむべき方法が発見されなければならない。<br/><br/>次は貧乏であるが、これもその原因が病気が第一であり、誤れる思想と政治の貧困、社会組織の不備等も第二の原因であろう。<br/><br/>次に争闘を好む思想であるが、これは人類が未だ野蛮の域を脱し切れない事が原因である。<br/><br/>しからばこの三大災厄をいかにして除去すべきや、ということが根本問題であるが、この問題解決に私は自信を得たのであって、最も簡単なる事実をここに説き明すのである。<br/><br/> 本教団に入信し、教化さるるに従い、心身の浄化が行われ、真の健康者たり得ると共に、貧乏からは漸次開〔解〕放され、なお闘争を嫌忌（けんき）するに至る事は不思議として誰も驚くのである。<br/><br/>そのほとんどの信徒は年一年幸福者に近づきつつある事は、無数の事実が証明している。<br/><br/> 私は他の欠点を挙ぐる事を好まないが、いささか左記のごとき事実を挙げる事を許されたい。<br/><br/>それは信仰をしつつ難病に呻吟し、貧困に苦しみながら満足し、喜んでいるものがあるが、なる程これらも無信仰者よりは精神的に救われてはいるが、それは霊だけ救われて体は救われていないのである。<br/><br/>すなわち半分だけ救われている訳で、真に救われるという事は、霊肉共に救われなくてはならない。<br/><br/>健康者となり、貧困から脱却し、一家歓喜に浸る生活にならなくてはならない。<br/><br/>しかるに今日までのあらゆる救いは精神を救う力はあるが肉体まで救う力はなかった訳で、止むを得ず「信仰とは精神のみ救わるべきもの」とされて来たのであろう。<br/><br/>その例として宗教家がよく言う言葉に「現当利益が目的の信仰は低級信仰である」というが、これはおかしな話である。<br/><br/>何人といえども、現当利益を欲しない者は決してある筈がない。<br/><br/>また病苦を訴える者に対し「人間は宣しく死生を超越せざるべからず」と言うが、これもいささかか変である。<br/><br/>何となればいかなる人間といえども、死生を超越するなどという事は実際上出来得るものではない。<br/><br/>もし出来得れば、それは己を偽るのである。<br/><br/>この事について私は沢庵禅師の一挿話をかいてみよう。<br/><br/> 禅師が死に臨んだ時、周囲の者は「何か辞世を書いて戴きたい」と紙と筆を捧げた。<br/><br/>禅師は直ちに筆を執って「俺は死にたくない」と書いた。<br/><br/>周囲の者は「禅師程の名僧がこの様な事をお書きになる筈がない、何かの間違いであろう」と再び紙と筆を捧げた。<br/><br/>すると今度は「俺はどうしても死にたくない」と書かれたとの話があるが、私はこの禅師の態度こそ実に偉いと思う。<br/><br/>その様な場合大抵は「死生何ものぞ」というような事を書くであろうが、禅師は何等衒（てら）う事なくその心境を率直に表わした事は普通の名僧では到底出来得ないところであると私は感心したのである。<br/><br/> 次に、世間よく人を救おうとする場合、自分が病貧争から抜け切らない境遇にありながら宣伝をする人があるが、これらもその心情は嘉（よみ）すべきも、実は本当のやり方ではない、何となれば、自分が救われて幸福者となっているから、他人の地獄的生活に喘いでいる者を、自分と同じような幸福者たらしめんとして信仰を勧めるのである。<br/><br/>それで相手が自分の幸福である状態を見て心が動く、宣伝効果百パーセントという訳である。<br/><br/>私といえども、自分が幸福者の条件を具備しなければ宣伝する勇気は出なかったが、幸い神仏の御加護によって幸福者たり得るようになってから教えを説く気になったのである。<br/><br/>地上天国とは、幸福者の世界でありとすれば、幸福者が作られ、幸福者が集まるところ、地上天国の実相でなくて何であろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

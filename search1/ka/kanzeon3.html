@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kanzeon3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観世音菩薩の御本体 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 今日まで、観世音菩薩のみは、全く御秘仏とされて、御本体は誰も識らなかったという事は、まことに不思議な訳である。<br><br>随って、多くの仏者は、菩薩の名に迷って、阿弥陀如来や、釈迦如来よりも、下位と思い、中には又、阿弥陀が本体であって、観音は阿弥陀の化身などと、途方もない解釈をなし、又、釈迦の脇立であるとさえ説くに到っては、沙汰の限りである。<br><br>しからば、観世音菩薩の御本体は、いかなる御方かと申すに、実は、畏れ多くも、天照皇大御神の慈悲に依る救世の代現神仏（だいげんしんぶつ）で被在（あらせ）らるるのである。<br><br> 天照皇大御神は、主神の表現神で被在られ最尊最貴の御神格を具し給い、一あって二無き大神で被在られ、天孫降臨の際、畏（かしこ）くも、皇孫瓊々杵尊（ににぎのみこと）に、豊葦原瑞穂国（全大地球）は、天壌（あめつち）と倶（とも）に窮（きわま）り無き云々との御神勅を賜り、万世一系たる天皇に、統治の大権を、永遠に委ねさせ給うたのである、それより後代に到って、天地経綸上、国津神たる国常立尊（くにとこたちのみこと）に審判の権を与え給い、同尊は幽界の主宰神として、閻魔大王となられたのである。<br><br>又一方、伊都能売（いづのめ）之大神に対し、救世の力を与え給いしにより、ここに、同神は観世音菩薩と化現され、絶対の慈悲を以て、一切衆生を救わせ給う本願を立てられ、今日に至ったものである、その事を、今一層判り易く申せば、いかに世を救わんとなし給うといえども、天照皇大神としては、御神格上、直接、人類を救わせ給う事は不可能であらせられるのである、畏れ多きたとえながら、一天万乗の大君（おおきみ）としては、直接御手を下され、人民を労（いた）わらせ給う事の難く重臣を代らせらるると同一の理である。<br><br>それが為、仏菩薩という下位に墜（お）ちられ、いかなる卑下階級といえども無差別的に救いを施させ給うのである。<br><br>これを懐（おも）えば、天祖大神の大慈大悲なる、まことに感激の極みである。<br><br> 二千五百年以前、前述のごとく、天祖大神より、救世の権限を付与せられ給いし、伊都能売之大神は、月氏国（げっしこく）即ち、今日の印度に渡らせられ、同国の南方、布咀洛迦（ふだらか）山に居を構えさせ、当時の諸天善人に、普（あまね）く法を説かれたのである。<br><br> その事について（華厳経には、南方に布咀洛迦と呼ぶ山あり、観自在菩薩そのところに居ます、ある時善財童子（釈迦）が遊行して、山の頂きに登り、観音を訪ねて、面接する事が出来た、そこには樹木生い茂り、諸処に流泉と浴池あり、その園の柔かい草地の上の金剛宝座に、観自在菩薩は、結迦趺坐（けっかふざ）して、多くの聖者達に恭敬されながら、大慈悲経を講話されていた、その時、観音の侍者として、二十八部衆が居た）。<br><br>（因（ちなみ）に観自在菩薩とは観世音菩薩の別名である） 又支那天台の開祖南岳大師が（昔は、霊山会場に在って妙法蓮華経を説き給い、今は西方浄土に在して、阿弥陀仏と名付け奉る。<br><br>しかも、人界普門（ふもん）に示顕（じげん）しては、救世観世音菩薩となり給う。<br><br>過現未に渡る三世の利益は、これ悉（ことごと）く、観音一体に帰すと）これによっても判るごとく、その弟子の一人たる、善財童子は、その妙説に随喜し、翻然、悟りを開いて、彼の檀特山（だんとくざん）に登って、七年の苦行をなし（この七年の年数は観音よりの霊示である）成道の釈迦として、いよいよ仏法を説かれたのである。<br><br>これを以てみれば、真の仏法の開祖は、観世音菩薩であって、釈迦は、観音の御弟子であったのは間違いない事実である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Identidade de Kannon Bosatsu</h2>
 <p>É verdadeiramente singular que, até os dias de hoje, a identidade de Kannon Bosatsu (観世音菩薩) tenha sido mantida como um profundo segredo, permanecendo sua essência primordial desconhecida por todos. Consequentemente, muitos seguidores do budismo, iludidos pelo título de “Bodhisattva”, consideram-No de hierarquia inferior a Amida Nyorai ou a Shakyamuni Nyorai. Há, inclusive, quem chegue à interpretação descabida de que Amida seria a entidade principal, e Kannon, apenas uma de suas manifestações. A alegação de que seria um mero assistente de Shakyamuni beira o disparate.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>O Sutra Kegon corrobora este fato: “Ao sul, existe uma montanha chamada Fudarakasen, onde reside Kanjizai Bosatsu. Certa vez, o jovem peregrino Zenzai Doji (Shakyamuni) subiu ao topo da montanha em sua jornada e conseguiu avistar Kannon. Ali, as árvores eram vicejantes, e havia fontes e lagos por toda parte. Sobre um assento de diamante, na relva macia do jardim, Kanjizai Bosatsu estava sentado em posição de lótus, reverenciado por uma multidão de santos, enquanto lhes dissertava sobre o Sutra da Grande Compaixão. Naquela ocasião, os Vinte e Oito Protetores serviam como assistentes de Kannon”. (Note-se que Kanjizai Bosatsu é outro nome para Kannon Bosatsu).</p>
 <p>Ademais, o Grande Mestre Nangaku, fundador da seita Tendai na China, afirmou: “Antigamente, no Monte Gṛdhrakūṭa, Ele pregou o Sutra do Lótus da Lei Maravilhosa; hoje, na Terra Pura do Oeste, é chamado de Buda Amida. E, ao se manifestar no portal universal do mundo humano, torna-se o salvador Kannon Bosatsu. Os benefícios das três eras – passado, presente e futuro – convergem, todos eles, na entidade una de Kannon”.</p>
 <p>Com base nisso, podemos compreender que um de Seus discípulos, Zenzai Doji (善財童子), exultou ao ouvir Sua sublime pregação e, profundamente inspirado, alcançou a iluminação. Ele então se dirigiu ao Monte Dantokuzan (檀特山), onde praticou austeridades por sete anos – período este que lhe foi indicado por revelação espiritual de Kannon – e, após atingir a iluminação, tornou-se Shakyamuni, passando a propagar a Lei Búdica. Isso nos leva à inegável constatação de que o verdadeiro fundador do budismo é Kannon Bosatsu, e Shakyamuni foi, de fato, Seu discípulo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観世音菩薩の御本体 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 今日まで、観世音菩薩のみは、全く御秘仏とされて、御本体は誰も識らなかったという事は、まことに不思議な訳である。<br/><br/>随って、多くの仏者は、菩薩の名に迷って、阿弥陀如来や、釈迦如来よりも、下位と思い、中には又、阿弥陀が本体であって、観音は阿弥陀の化身などと、途方もない解釈をなし、又、釈迦の脇立であるとさえ説くに到っては、沙汰の限りである。<br/><br/>しからば、観世音菩薩の御本体は、いかなる御方かと申すに、実は、畏れ多くも、天照皇大御神の慈悲に依る救世の代現神仏（だいげんしんぶつ）で被在（あらせ）らるるのである。<br/><br/> 天照皇大御神は、主神の表現神で被在られ最尊最貴の御神格を具し給い、一あって二無き大神で被在られ、天孫降臨の際、畏（かしこ）くも、皇孫瓊々杵尊（ににぎのみこと）に、豊葦原瑞穂国（全大地球）は、天壌（あめつち）と倶（とも）に窮（きわま）り無き云々との御神勅を賜り、万世一系たる天皇に、統治の大権を、永遠に委ねさせ給うたのである、それより後代に到って、天地経綸上、国津神たる国常立尊（くにとこたちのみこと）に審判の権を与え給い、同尊は幽界の主宰神として、閻魔大王となられたのである。<br/><br/>又一方、伊都能売（いづのめ）之大神に対し、救世の力を与え給いしにより、ここに、同神は観世音菩薩と化現され、絶対の慈悲を以て、一切衆生を救わせ給う本願を立てられ、今日に至ったものである、その事を、今一層判り易く申せば、いかに世を救わんとなし給うといえども、天照皇大神としては、御神格上、直接、人類を救わせ給う事は不可能であらせられるのである、畏れ多きたとえながら、一天万乗の大君（おおきみ）としては、直接御手を下され、人民を労（いた）わらせ給う事の難く重臣を代らせらるると同一の理である。<br/><br/>それが為、仏菩薩という下位に墜（お）ちられ、いかなる卑下階級といえども無差別的に救いを施させ給うのである。<br/><br/>これを懐（おも）えば、天祖大神の大慈大悲なる、まことに感激の極みである。<br/><br/> 二千五百年以前、前述のごとく、天祖大神より、救世の権限を付与せられ給いし、伊都能売之大神は、月氏国（げっしこく）即ち、今日の印度に渡らせられ、同国の南方、布咀洛迦（ふだらか）山に居を構えさせ、当時の諸天善人に、普（あまね）く法を説かれたのである。<br/><br/> その事について（華厳経には、南方に布咀洛迦と呼ぶ山あり、観自在菩薩そのところに居ます、ある時善財童子（釈迦）が遊行して、山の頂きに登り、観音を訪ねて、面接する事が出来た、そこには樹木生い茂り、諸処に流泉と浴池あり、その園の柔かい草地の上の金剛宝座に、観自在菩薩は、結迦趺坐（けっかふざ）して、多くの聖者達に恭敬されながら、大慈悲経を講話されていた、その時、観音の侍者として、二十八部衆が居た）。<br/><br/>（因（ちなみ）に観自在菩薩とは観世音菩薩の別名である） 又支那天台の開祖南岳大師が（昔は、霊山会場に在って妙法蓮華経を説き給い、今は西方浄土に在して、阿弥陀仏と名付け奉る。<br/><br/>しかも、人界普門（ふもん）に示顕（じげん）しては、救世観世音菩薩となり給う。<br/><br/>過現未に渡る三世の利益は、これ悉（ことごと）く、観音一体に帰すと）これによっても判るごとく、その弟子の一人たる、善財童子は、その妙説に随喜し、翻然、悟りを開いて、彼の檀特山（だんとくざん）に登って、七年の苦行をなし（この七年の年数は観音よりの霊示である）成道の釈迦として、いよいよ仏法を説かれたのである。<br/><br/>これを以てみれば、真の仏法の開祖は、観世音菩薩であって、釈迦は、観音の御弟子であったのは間違いない事実である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

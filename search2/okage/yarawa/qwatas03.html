@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qwatas03</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 私の幸福 『結核の革命的療法』昭和26(1951)年8月15日発行 静岡県 みのり中教会 松井寿夫（21） 二十四年の一月から三月の二カ月間、私は肺浸潤の病名に地獄の道を横須賀の某病院に過していました。<br><br> この事は幸か不幸か、私にとって実に意義の深い事で、それは叔母以外誰にも知らせてない入院に、翌日突然今日死ぬか明日死ぬかと人に騒がれた肺結核だった叔父が、病院の長い坂を登って、シャンとした姿をして、 叔父「お前の病気を治しに来た」と。<br><br>私の驚き、否側にいた叔母もおどろいた事は勿論でした。<br><br> 浄霊が終って叔父が帰って行った後、私は一人で考えていた。<br><br>「手を振って霊気というものが出て病気を治す」「薬は服まない方がいいよ」「気が進まなければいくら入院していても構わないから」「未だお前達には解らない」少しは楽になったが何だか変だ。<br><br>叔父の言った事と私の考える事が交叉し、考える程虚空に駆られて行く、とにかくわざわざ遠い山梨より来て、浄霊して下さったのだ。<br><br> 退院してからは紹介された逗子の教会に通い始めそれから二日目に会社に出勤、続いて夜学に通い、なお昼休みにはテニスなどをしたが、それでも別に身体に異状はなく、反って気持が愉快になって来た。<br><br>その頃より私の胸に光明が射して来たのだ。<br><br>そうなるとただもうお守が戴きたくなり、光明如来様に日夜お願いしました。<br><br>すると奇蹟にも、受教修御礼額と同額の突破資金と、光明如来様を拝受するお礼と同額のボーナス等、相続いての入金に感泣した。<br><br>私は神の大愛に、その厚い御霊衣に包まれている。<br><br>そして御先祖様の導きなのだ。<br><br>ただ一人嬉しさの余り手の舞い足のふむ所を知らなかった。<br><br>こうして大いなる神の御恵みに勿体ない程幸福な生活を送らしていただいています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Revolucionária para a Tuberculose</h2>
 <p><strong>Publicado em 15 de agosto de 1951</strong>
@@ -100,5 +255,48 @@ function toggleLang(lang) {
 <p>Depois de receber alta, passei a frequentar a Igreja em Zushi, que me fora recomendada. Apenas dois dias depois, retornei ao trabalho e, em seguida, às aulas noturnas. Chegava até a jogar tênis durante o horário de almoço. Apesar de toda essa atividade, meu corpo não apresentava qualquer anormalidade; pelo contrário, meu espírito se enchia de alegria. Foi a partir de então que uma luz começou a brilhar em meu peito.</p>
 <p>Diante dessa transformação, um desejo intenso de receber o Ohikari brotou em mim, e passei a suplicar dia e noite a Komyō Nyorai-Sama (光明如来様). Então, por um verdadeiro milagre, recebi sucessivos ingressos financeiros que me levaram às lágrimas de gratidão: primeiramente, uma verba inesperada de valor idêntico ao do donativo de gratidão pela outorga e, em seguida, um bônus salarial no montante exato do donativo para entronizar a Imagem de Komyō Nyorai-Sama (光明如来様).</p>
 <p>Sinto-me envolvido pelo imenso amor de Deus, amparado por Seu espesso manto espiritual. Compreendi, ademais, que tudo se dava sob a orientação de meus antepassados. Em minha solidão, a alegria era tamanha que eu mal sabia o que fazer. E assim, graças à imensa misericórdia Divina, levo uma vida tão feliz que me sinto até indigno de recebê-la.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 私の幸福 『結核の革命的療法』昭和26(1951)年8月15日発行 静岡県 みのり中教会 松井寿夫（21） 二十四年の一月から三月の二カ月間、私は肺浸潤の病名に地獄の道を横須賀の某病院に過していました。<br/><br/> この事は幸か不幸か、私にとって実に意義の深い事で、それは叔母以外誰にも知らせてない入院に、翌日突然今日死ぬか明日死ぬかと人に騒がれた肺結核だった叔父が、病院の長い坂を登って、シャンとした姿をして、 叔父「お前の病気を治しに来た」と。<br/><br/>私の驚き、否側にいた叔母もおどろいた事は勿論でした。<br/><br/> 浄霊が終って叔父が帰って行った後、私は一人で考えていた。<br/><br/>「手を振って霊気というものが出て病気を治す」「薬は服まない方がいいよ」「気が進まなければいくら入院していても構わないから」「未だお前達には解らない」少しは楽になったが何だか変だ。<br/><br/>叔父の言った事と私の考える事が交叉し、考える程虚空に駆られて行く、とにかくわざわざ遠い山梨より来て、浄霊して下さったのだ。<br/><br/> 退院してからは紹介された逗子の教会に通い始めそれから二日目に会社に出勤、続いて夜学に通い、なお昼休みにはテニスなどをしたが、それでも別に身体に異状はなく、反って気持が愉快になって来た。<br/><br/>その頃より私の胸に光明が射して来たのだ。<br/><br/>そうなるとただもうお守が戴きたくなり、光明如来様に日夜お願いしました。<br/><br/>すると奇蹟にも、受教修御礼額と同額の突破資金と、光明如来様を拝受するお礼と同額のボーナス等、相続いての入金に感泣した。<br/><br/>私は神の大愛に、その厚い御霊衣に包まれている。<br/><br/>そして御先祖様の導きなのだ。<br/><br/>ただ一人嬉しさの余り手の舞い足のふむ所を知らなかった。<br/><br/>こうして大いなる神の御恵みに勿体ない程幸福な生活を送らしていただいています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

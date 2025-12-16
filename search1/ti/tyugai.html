@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyugai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 虫害 『自然農法解説』昭和26(1951)年1月15日発行 近来、農村の悩みは、肥料代の高価と虫害と風水害との三つであろう。<br><br>肥料については、前項に詳説したから、既に解ったと思うから、次の虫害について詳しく述べてみよう。<br><br>まず、結論からいうと、害虫は肥料によって湧くと思えばいい。<br><br>それは肥料によって土壌を汚すため、土壌は変質し、土の性能は退化されると共に不潔物が残存する。<br><br>あらゆる物質は不潔なるところ必ず腐敗するのは当然で、そこへ小虫が湧き、細菌が発生する。<br><br>これは物質の法則であるとすれば、作物も同様である。<br><br>何よりも肥料溜（こえだめ）に蛆が湧くのでも判る。<br><br>そうして害虫にも色々の種類があるのは肥料に種類があるからである。<br><br>近来、新しい害虫が発生するというが、もちろん新しい肥料が出来るからである。<br><br>農民が肥料溜のある付近は、害虫の発生が多いとよくいうのでも判るであろう。<br><br>今一つ重要な事は、害虫発生の場合駆除の目的で殺虫剤を撒布するが、これがまた非常に悪い。<br><br>何となれば、殺虫剤とは虫を殺すくらいの毒薬である以上、これが土に滲透すれば、土はその毒に中（あ）てられ、不良土となるのである。<br><br>従ってその土へ栽培された植物は、肥毒以外別な毒分まで追加されるので、土はいよいよ弱るので、人間と同様抵抗力がなくなり、害虫は得たりかしこしと、繁殖の勢を増す。<br><br>全く鼬鼠（いたち）ゴッコである。<br><br>この点においても今日までの農法がいかに誤っていたかが判るであろう。<br><br>そればかりではない、硫安のごとき化学肥料は劇毒薬であるから、それを吸収した米を食うとすれば、自然人体も影響を受け、健康に悪いのはもちろんである。<br><br>それは血液が濁るからである。<br><br>何しろ主食は一日三度ずつ、年が年中食っているとすれば、たとえ僅かずつでも積りつもって相当の毒分となり、これがあらゆる病気の原因となるのである。<br><br>ここで伝染病の真因を簡単にかいてみる必要がある。<br><br>そもそも伝染病とは細菌の侵入によって発病するのは誰も知っている。<br><br>しかしながらなぜ、細菌が侵入すると発病するかの理由は判っていない。<br><br>また細菌侵入するも発病者と未発病者とが出来る訳も医学ではいまだ解っていないのである。<br><br>この意味は以前出した私の著書に詳しく記（か）いてあるからここではザット説明するが、黴菌とは、血液の濁りの原素である微粒子を食物とし、それを食いつつ繁殖するのであるから、菌の食物を有している人は発病するが、無い人は菌は餓死するから発病しないという訳である。<br><br>右のごとくであるから、発病者と未発病者とが出来るのはもちろん菌の食物の有無によるのである。<br><br>また保菌者といって菌があっても発病しない人があるが、これは菌の食物が発病する程の量もなく、そうかといって死滅する程少なくもないという言わば中間状態である。<br><br>とすれば、濁血者は発病し浄血者は発病しない事になるから、化学肥料のごときは、血液を濁す事はなはだしいので、近来伝染病や、結核のごとき、細菌による病人が殖えるのもそれが原因である。<br><br>この説は自画自讃かも知れないが、世界的大発見と言ってもよく、この一事だけでもノーベル賞の価値は充分あると思うが、いかんせんノーベル賞審査員の学問程度が、右の説を理解する程に到っていない以上、致し方ないのである。<br><br>この理によって自然農法が全般に行われるとしたら、いかに病人が減るかは想像出来るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa das Pragas e das Doenças</h2>
 <p>Recentemente, três grandes flagelos assolam o meio rural: o elevado custo dos fertilizantes, os danos causados por pragas e os prejuízos decorrentes de tempestades e inundações. Tendo já discorrido em detalhes sobre a questão dos fertilizantes no tópico anterior, creio que o assunto esteja devidamente esclarecido. Passemos, então, a uma análise aprofundada do problema das pragas.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>É por essa razão que, diante de um mesmo foco infeccioso, existem pessoas que adoecem e outras que não. A diferença reside na presença ou ausência do substrato que nutre as bactérias. Existem também os chamados portadores, indivíduos que abrigam os germes sem manifestar a doença. Estes se encontram em um estado intermediário, no qual a quantidade de impurezas não é suficiente para causar a enfermidade, mas tampouco é tão escassa a ponto de levar os micro-organismos à extinção.</p>
 <p>Diante do exposto, conclui-se que as pessoas de sangue impuro adoecem, enquanto as de sangue puro permanecem sãs. Os fertilizantes químicos são uma das principais causas da turvação do sangue, e a crescente incidência de doenças infecciosas e da tuberculose em tempos recentes deriva daí. Embora possa soar como autoelogio, esta tese pode ser considerada uma das maiores descobertas mundiais. Creio que, por si só, ela já seria merecedora do Prêmio Nobel; lamentavelmente, o nível acadêmico do comitê de avaliação parece ainda não ter alcançado a profundidade necessária para compreendê-la. Sendo assim, não há o que se possa fazer.</p>
 <p>Pode-se, assim, vislumbrar a drástica redução no número de doentes que ocorreria caso a Agricultura Natural, fundamentada neste princípio, fosse amplamente praticada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 虫害 『自然農法解説』昭和26(1951)年1月15日発行 近来、農村の悩みは、肥料代の高価と虫害と風水害との三つであろう。<br/><br/>肥料については、前項に詳説したから、既に解ったと思うから、次の虫害について詳しく述べてみよう。<br/><br/>まず、結論からいうと、害虫は肥料によって湧くと思えばいい。<br/><br/>それは肥料によって土壌を汚すため、土壌は変質し、土の性能は退化されると共に不潔物が残存する。<br/><br/>あらゆる物質は不潔なるところ必ず腐敗するのは当然で、そこへ小虫が湧き、細菌が発生する。<br/><br/>これは物質の法則であるとすれば、作物も同様である。<br/><br/>何よりも肥料溜（こえだめ）に蛆が湧くのでも判る。<br/><br/>そうして害虫にも色々の種類があるのは肥料に種類があるからである。<br/><br/>近来、新しい害虫が発生するというが、もちろん新しい肥料が出来るからである。<br/><br/>農民が肥料溜のある付近は、害虫の発生が多いとよくいうのでも判るであろう。<br/><br/>今一つ重要な事は、害虫発生の場合駆除の目的で殺虫剤を撒布するが、これがまた非常に悪い。<br/><br/>何となれば、殺虫剤とは虫を殺すくらいの毒薬である以上、これが土に滲透すれば、土はその毒に中（あ）てられ、不良土となるのである。<br/><br/>従ってその土へ栽培された植物は、肥毒以外別な毒分まで追加されるので、土はいよいよ弱るので、人間と同様抵抗力がなくなり、害虫は得たりかしこしと、繁殖の勢を増す。<br/><br/>全く鼬鼠（いたち）ゴッコである。<br/><br/>この点においても今日までの農法がいかに誤っていたかが判るであろう。<br/><br/>そればかりではない、硫安のごとき化学肥料は劇毒薬であるから、それを吸収した米を食うとすれば、自然人体も影響を受け、健康に悪いのはもちろんである。<br/><br/>それは血液が濁るからである。<br/><br/>何しろ主食は一日三度ずつ、年が年中食っているとすれば、たとえ僅かずつでも積りつもって相当の毒分となり、これがあらゆる病気の原因となるのである。<br/><br/>ここで伝染病の真因を簡単にかいてみる必要がある。<br/><br/>そもそも伝染病とは細菌の侵入によって発病するのは誰も知っている。<br/><br/>しかしながらなぜ、細菌が侵入すると発病するかの理由は判っていない。<br/><br/>また細菌侵入するも発病者と未発病者とが出来る訳も医学ではいまだ解っていないのである。<br/><br/>この意味は以前出した私の著書に詳しく記（か）いてあるからここではザット説明するが、黴菌とは、血液の濁りの原素である微粒子を食物とし、それを食いつつ繁殖するのであるから、菌の食物を有している人は発病するが、無い人は菌は餓死するから発病しないという訳である。<br/><br/>右のごとくであるから、発病者と未発病者とが出来るのはもちろん菌の食物の有無によるのである。<br/><br/>また保菌者といって菌があっても発病しない人があるが、これは菌の食物が発病する程の量もなく、そうかといって死滅する程少なくもないという言わば中間状態である。<br/><br/>とすれば、濁血者は発病し浄血者は発病しない事になるから、化学肥料のごときは、血液を濁す事はなはだしいので、近来伝染病や、結核のごとき、細菌による病人が殖えるのもそれが原因である。<br/><br/>この説は自画自讃かも知れないが、世界的大発見と言ってもよく、この一事だけでもノーベル賞の価値は充分あると思うが、いかんせんノーベル賞審査員の学問程度が、右の説を理解する程に到っていない以上、致し方ないのである。<br/><br/>この理によって自然農法が全般に行われるとしたら、いかに病人が減るかは想像出来るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

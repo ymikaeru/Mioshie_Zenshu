@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei187</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』187号、昭和27(1952)年12月17日発行 某月某日 『腸閉塞、今日も来なかったね。<br><br>』柱時計は二十二時を廻わっている。<br><br>『今日で三日きませんね、あんな大病があんまり早く良くなったんで、もう浄霊して貰わなくてもいい、と思っているんでしょう。<br><br>』子供たちの下着をつくろっていた家内も、五日間浄霊に来ただけで、それっきり来ない人のことを心のうちで案じていたのであった。<br><br> 何んねんも着古してボロボロになった下着を、もう一ぺん役立てよう、と、夜遅くまで丹精こめている家内の姿に憐れと自責を感じて黙然と眺めていると『今晩は……こんなに遅くあがって』と、いま噂さしていたばかりの腸閉塞が来た。<br><br>だいぶいい御機嫌らしく脚もよろめき酒臭い。<br><br>『やったね。<br><br>どう……具合は。<br><br>』無事な顔を見ただけで、いま迄の心配が安堵の思いにかわった。<br><br> 『それが先生、たいしたもんですな。<br><br>何んともありませんや。<br><br>今日は得意先の人に一杯飲ませたんですがね先生が度を過さなければ……と仰っしゃったんで、初めは恐る恐る杯に口を付けていたんですが、そのうちに自分が腸閉塞だ、なんてことを忘れて御覧の態です。<br><br>あんまり嬉しいんで遅いけど一寸お寄りしてみたんです。<br><br>先生のお蔭で今度ばかりは命拾いしました。<br><br>』 三度目の手術をする間際に、メシヤ教のあることを知らされ、禁じられていた好きな酒さえ飲めた嬉しさに腸閉塞の顔は感激に輝やいていた。<br><br>『私のお蔭ではなく神様のお蔭です。<br><br>私から神様のお守りを外せば、何んの取り柄もない一介の市井人に過ぎません。<br><br>貴君の病気を治したのは私の力ではなく、神様のお力だ、と云うことは解ったでしょう。<br><br>貴君もお守りを懸ければ、私と同じように他人様の病気が治せるんだから、貴君の味わった喜びをまず家族の人、親戚知人に味わわせることが神様への御恩返えしになる訳です。<br><br>』と、入信を勧めた『はあ……そうさせて戴きます。<br><br>今晩は時間がないので、明朝、改めてお伺いします。<br><br>』腸閉塞は明るい月の光を背中にして街角を曲って行った。<br><br> 『あの人は入信するでしょう。<br><br>』自分が云おう、としたことを家内が先に云った。<br><br> 『うん……あれだけ医学と浄霊との違いを見せられたんだから、あの男は入信するだろうよ。<br><br>』 『すぐ入りそうな人が入信しなかったり、入信しそうもない人が案外素直に入信したり、むずかしいもんですね。<br><br>』家内はいま迄の多くの人達から学んだ経験を思い浮べ、今の人はきっと入信する、と決めていた。<br><br> いままでにも信者の方からの紹介で浄霊をした人は随分な数に上るが、今度の腸閉塞の人のように、薬毒をすぐ理解した人は初めてで特筆するに価いする、と思っている。<br><br> この人は奇しくも、家内と同じ病院から病院へのコースを歩き、最初の病院での手術は閉塞した個所を医師の間違いで失敗し、すぐ数日後に改めてＴ病院で再手術を行った。<br><br>この時、金だらいに一杯出たものの臭気を指して、あんたはいろんな薬を随分たくさん飲んだね。<br><br>と、執刀した医師が云ったという。<br><br> 胃を悪くしてから、食前食後に消化剤や栄養剤を呑む習慣を付けて仕舞ったのは十年も前で、腸閉塞と診断されるまでに服用した薬の種類は数えきれない。<br><br>手術したとき、医師に薬を随分のんだね。<br><br>と云われたその一言があたまにのこりそれ以来、薬と名の付くものは飲みません。<br><br>先生から薬毒を説明されると、一つ一つ胸に耐えます。<br><br>と、その人ははじめて私が会った日に、そう云った。<br><br>古い信者であるＴさんに紹介されて来たときは、また、腸が塞がり、すぐ入院して手術しなければ。<br><br>と医師に云われたが、年がとしで、若い人のようには体力が快復せず、生命の危険もあらかじめ覚悟しなければ、と思いそれに手術が巧くいったにしても半年は商売も休まなければならず、あれこれと思い迷って入院をためらっているところをＴさんにメシヤ教の浄霊を知らされ、だまされるつもりで連れて来られた。<br><br>と云った。<br><br>だまされるつもり。<br><br>とこの人に率直に云われたとき、私はかえって気持が良かった。<br><br>だまされるつもり。<br><br>とは、メシヤ教の話を聞いたとき、誰でも一応はそう思って浄霊をうけにくるのだ。<br><br>薬も使わず身体に手もふれず、少しの苦痛も感ぜずして難病奇病も治る。<br><br>というこんなうまい話は開闢以来なかった事だからである。<br><br>浄霊をうけてみて、そしてだまされるつもりが、来てよかったという思いに変り、神様を縋って幸福な生活に入る機縁となるのが入信者の一様の経路であるからだ。<br><br>だがいま迄の経験で、薬毒を真に理解させるのは容易ではない。<br><br>明主様は、機会あるごとに執拗なほど、薬の害をお説きなさる。<br><br>信者になっていながら、まだ薬に未練を絶ちきれず、これ位はと考える哀れな人もいる話や、盲腸を手術した人もある。<br><br>と聴かされて不徹底信仰ぶりを不快に感じたことも一再ならずあった。<br><br> 幾千年となく、病気と云えば薬。<br><br>と反射的に答えが出るほど、良し。<br><br>と信じさせられて来た未信者の先入観念は、なかなか一朝一夕には破れない。<br><br>明主様が繰り返えし繰り返えし教える薬害の話は、この先、幾ら繰り返えしても多過ぎる。<br><br>ということはあるまい。<br><br>これ程迄にしみ込んだ薬迷信を打破するには、浄霊の効果を身を以って知らせる以外に、最良適切な方法はない。<br><br>千万言の口舌より浄霊第一であるとは、いつも考えていることである。<br><br>しかしこの人は、打てば響くように、私の説明を理解した。<br><br> 腸閉塞（この人の姓名や住所もまだ訊いていないので、腸閉塞。<br><br>と病名を姓名に代えているのであった。<br><br>）を最初に浄霊した時、恥かしい話であるが、賜の内壁と内壁がくっついて食物が通らない病気。<br><br>としかの知識しかなかった。<br><br>だからこそ腸閉塞そのものは大変な病気で、しかも二度まで手術した後の再発だけに、浄霊で幾日かかったら快くなるのか、全然けんとうも付かなかった。<br><br>年よりの常として動脈も硬化しているらしく左の手も僅かながら不自由と訴えた。<br><br>それが驚いたことには、ただ一回の浄霊で肩が軽くなり、不自由な手が自由に動き、腸の悪い個所は霊気をうけて圧迫を感じた。<br><br>と、思うと同時に威勢よくガスが放出されて頗る爽快であった。<br><br>と、真底から喜んだのであった。<br><br>その翌日、朝早く来て、お蔭様で今朝は空腹を感じ珍らしく朝飯が美味しく食べられました。<br><br>と報告して浄霊を受けお道の話を楽しげに聞いて帰えったのであった。<br><br> 人間のもつ欲望の深さは際限がなく、痛い苦しい思いをし、大金を費って手術しなけばならない大病が、ただ一回の浄霊で苦痛が治まると、永い間、禁じられていた酒が飲みたくなったらしい。<br><br>五日目のとき、それを尋ねられて、少し位はいいだろう。<br><br>と答えたのに気を良くして、今日は久しぶりに杯を手にしたのであった。<br><br>酔っている彼を見たとき『やったね。<br><br>』と云ったのはそれ故である。<br><br> 以前にも胃潰瘍の人に訊かれて、少し位は、と答えたら、私の見ている前で、コップに冷酒を二杯飲んで見せた豪傑がいた。<br><br>内心、こちらが、ハッとしてびくびくしていたが、その酒の影響が全然なかったことを思い浮べて、腸閉塞にも、少し位はと云った訳である。<br><br> お医者さんたちが、腸閉塞や胃潰瘍の乱暴とも思える飲酒を知ったら、唖然とし憤然として怒る事であろう。<br><br>いわば死病である腸閉塞。<br><br>それも二度手術して又の再発が、一回の浄霊で苦痛が去り、五回の浄霊で好きな酒に快よく酔えたこの事実こそは、医学と浄霊との距りが天地霄壤（しょうじょう）ほどの差があることを端的に示したものであろう。<br><br> 神様のお守りさえ懸ければ老幼男女、誰でも行うことのできる天衣無縫とも云うべきメシヤ教の浄霊こそ万民の苦難を救う光りである。<br><br>と、また改めて教えられたのであった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diário de Johrei</h2>
 <p><em>Por Kaiansei, extraído da revista Eikou, nº 187, publicada em 17 de dezembro de 1952.</em></p>
@@ -123,5 +275,48 @@ function toggleLang(lang) {
 <p>Recordo-me de um caso anterior, de um homem com úlcera gástrica que, ao me fazer a mesma pergunta, respondi-lhe que um pouco não faria mal. Para minha surpresa, ele demonstrou sua audácia bebendo dois copos de saquê gelado bem à minha frente. Interiormente, fiquei apreensivo e alarmado, mas recordei-me de que aquela bebida não lhe causara absolutamente nenhum efeito adverso. Foi com base nessa lembrança que eu disse ao homem da obstrução intestinal que um pouco seria aceitável.</p>
 <p>Se os médicos soubessem de um consumo de álcool tão imprudente por parte de pacientes com obstrução intestinal ou úlcera gástrica, ficariam certamente atônitos e indignados. O fato é que uma obstrução intestinal, considerada uma doença potencialmente fatal — e, neste caso, uma reincidência após duas cirurgias —, teve sua dor suprimida com uma única sessão de Johrei e, após cinco sessões, o paciente pôde se embriagar prazerosamente com sua bebida favorita. Este acontecimento, por si só, demonstra de forma eloquente que a distância entre a medicina e o Johrei é tão vasta quanto a que separa o Céu e a Terra.</p>
 <p>O Johrei da fé Messiânica, que pode ser praticado por qualquer pessoa — seja idoso ou criança, homem ou mulher —, bastando para isso portar a Medalha Sagrada de Deus, é, em sua divina simplicidade, a luz que salvará a humanidade de seus padecimentos. Este caso, mais uma vez, ensinou-me essa verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』187号、昭和27(1952)年12月17日発行 某月某日 『腸閉塞、今日も来なかったね。<br/><br/>』柱時計は二十二時を廻わっている。<br/><br/>『今日で三日きませんね、あんな大病があんまり早く良くなったんで、もう浄霊して貰わなくてもいい、と思っているんでしょう。<br/><br/>』子供たちの下着をつくろっていた家内も、五日間浄霊に来ただけで、それっきり来ない人のことを心のうちで案じていたのであった。<br/><br/> 何んねんも着古してボロボロになった下着を、もう一ぺん役立てよう、と、夜遅くまで丹精こめている家内の姿に憐れと自責を感じて黙然と眺めていると『今晩は……こんなに遅くあがって』と、いま噂さしていたばかりの腸閉塞が来た。<br/><br/>だいぶいい御機嫌らしく脚もよろめき酒臭い。<br/><br/>『やったね。<br/><br/>どう……具合は。<br/><br/>』無事な顔を見ただけで、いま迄の心配が安堵の思いにかわった。<br/><br/> 『それが先生、たいしたもんですな。<br/><br/>何んともありませんや。<br/><br/>今日は得意先の人に一杯飲ませたんですがね先生が度を過さなければ……と仰っしゃったんで、初めは恐る恐る杯に口を付けていたんですが、そのうちに自分が腸閉塞だ、なんてことを忘れて御覧の態です。<br/><br/>あんまり嬉しいんで遅いけど一寸お寄りしてみたんです。<br/><br/>先生のお蔭で今度ばかりは命拾いしました。<br/><br/>』 三度目の手術をする間際に、メシヤ教のあることを知らされ、禁じられていた好きな酒さえ飲めた嬉しさに腸閉塞の顔は感激に輝やいていた。<br/><br/>『私のお蔭ではなく神様のお蔭です。<br/><br/>私から神様のお守りを外せば、何んの取り柄もない一介の市井人に過ぎません。<br/><br/>貴君の病気を治したのは私の力ではなく、神様のお力だ、と云うことは解ったでしょう。<br/><br/>貴君もお守りを懸ければ、私と同じように他人様の病気が治せるんだから、貴君の味わった喜びをまず家族の人、親戚知人に味わわせることが神様への御恩返えしになる訳です。<br/><br/>』と、入信を勧めた『はあ……そうさせて戴きます。<br/><br/>今晩は時間がないので、明朝、改めてお伺いします。<br/><br/>』腸閉塞は明るい月の光を背中にして街角を曲って行った。<br/><br/> 『あの人は入信するでしょう。<br/><br/>』自分が云おう、としたことを家内が先に云った。<br/><br/> 『うん……あれだけ医学と浄霊との違いを見せられたんだから、あの男は入信するだろうよ。<br/><br/>』 『すぐ入りそうな人が入信しなかったり、入信しそうもない人が案外素直に入信したり、むずかしいもんですね。<br/><br/>』家内はいま迄の多くの人達から学んだ経験を思い浮べ、今の人はきっと入信する、と決めていた。<br/><br/> いままでにも信者の方からの紹介で浄霊をした人は随分な数に上るが、今度の腸閉塞の人のように、薬毒をすぐ理解した人は初めてで特筆するに価いする、と思っている。<br/><br/> この人は奇しくも、家内と同じ病院から病院へのコースを歩き、最初の病院での手術は閉塞した個所を医師の間違いで失敗し、すぐ数日後に改めてＴ病院で再手術を行った。<br/><br/>この時、金だらいに一杯出たものの臭気を指して、あんたはいろんな薬を随分たくさん飲んだね。<br/><br/>と、執刀した医師が云ったという。<br/><br/> 胃を悪くしてから、食前食後に消化剤や栄養剤を呑む習慣を付けて仕舞ったのは十年も前で、腸閉塞と診断されるまでに服用した薬の種類は数えきれない。<br/><br/>手術したとき、医師に薬を随分のんだね。<br/><br/>と云われたその一言があたまにのこりそれ以来、薬と名の付くものは飲みません。<br/><br/>先生から薬毒を説明されると、一つ一つ胸に耐えます。<br/><br/>と、その人ははじめて私が会った日に、そう云った。<br/><br/>古い信者であるＴさんに紹介されて来たときは、また、腸が塞がり、すぐ入院して手術しなければ。<br/><br/>と医師に云われたが、年がとしで、若い人のようには体力が快復せず、生命の危険もあらかじめ覚悟しなければ、と思いそれに手術が巧くいったにしても半年は商売も休まなければならず、あれこれと思い迷って入院をためらっているところをＴさんにメシヤ教の浄霊を知らされ、だまされるつもりで連れて来られた。<br/><br/>と云った。<br/><br/>だまされるつもり。<br/><br/>とこの人に率直に云われたとき、私はかえって気持が良かった。<br/><br/>だまされるつもり。<br/><br/>とは、メシヤ教の話を聞いたとき、誰でも一応はそう思って浄霊をうけにくるのだ。<br/><br/>薬も使わず身体に手もふれず、少しの苦痛も感ぜずして難病奇病も治る。<br/><br/>というこんなうまい話は開闢以来なかった事だからである。<br/><br/>浄霊をうけてみて、そしてだまされるつもりが、来てよかったという思いに変り、神様を縋って幸福な生活に入る機縁となるのが入信者の一様の経路であるからだ。<br/><br/>だがいま迄の経験で、薬毒を真に理解させるのは容易ではない。<br/><br/>明主様は、機会あるごとに執拗なほど、薬の害をお説きなさる。<br/><br/>信者になっていながら、まだ薬に未練を絶ちきれず、これ位はと考える哀れな人もいる話や、盲腸を手術した人もある。<br/><br/>と聴かされて不徹底信仰ぶりを不快に感じたことも一再ならずあった。<br/><br/> 幾千年となく、病気と云えば薬。<br/><br/>と反射的に答えが出るほど、良し。<br/><br/>と信じさせられて来た未信者の先入観念は、なかなか一朝一夕には破れない。<br/><br/>明主様が繰り返えし繰り返えし教える薬害の話は、この先、幾ら繰り返えしても多過ぎる。<br/><br/>ということはあるまい。<br/><br/>これ程迄にしみ込んだ薬迷信を打破するには、浄霊の効果を身を以って知らせる以外に、最良適切な方法はない。<br/><br/>千万言の口舌より浄霊第一であるとは、いつも考えていることである。<br/><br/>しかしこの人は、打てば響くように、私の説明を理解した。<br/><br/> 腸閉塞（この人の姓名や住所もまだ訊いていないので、腸閉塞。<br/><br/>と病名を姓名に代えているのであった。<br/><br/>）を最初に浄霊した時、恥かしい話であるが、賜の内壁と内壁がくっついて食物が通らない病気。<br/><br/>としかの知識しかなかった。<br/><br/>だからこそ腸閉塞そのものは大変な病気で、しかも二度まで手術した後の再発だけに、浄霊で幾日かかったら快くなるのか、全然けんとうも付かなかった。<br/><br/>年よりの常として動脈も硬化しているらしく左の手も僅かながら不自由と訴えた。<br/><br/>それが驚いたことには、ただ一回の浄霊で肩が軽くなり、不自由な手が自由に動き、腸の悪い個所は霊気をうけて圧迫を感じた。<br/><br/>と、思うと同時に威勢よくガスが放出されて頗る爽快であった。<br/><br/>と、真底から喜んだのであった。<br/><br/>その翌日、朝早く来て、お蔭様で今朝は空腹を感じ珍らしく朝飯が美味しく食べられました。<br/><br/>と報告して浄霊を受けお道の話を楽しげに聞いて帰えったのであった。<br/><br/> 人間のもつ欲望の深さは際限がなく、痛い苦しい思いをし、大金を費って手術しなけばならない大病が、ただ一回の浄霊で苦痛が治まると、永い間、禁じられていた酒が飲みたくなったらしい。<br/><br/>五日目のとき、それを尋ねられて、少し位はいいだろう。<br/><br/>と答えたのに気を良くして、今日は久しぶりに杯を手にしたのであった。<br/><br/>酔っている彼を見たとき『やったね。<br/><br/>』と云ったのはそれ故である。<br/><br/> 以前にも胃潰瘍の人に訊かれて、少し位は、と答えたら、私の見ている前で、コップに冷酒を二杯飲んで見せた豪傑がいた。<br/><br/>内心、こちらが、ハッとしてびくびくしていたが、その酒の影響が全然なかったことを思い浮べて、腸閉塞にも、少し位はと云った訳である。<br/><br/> お医者さんたちが、腸閉塞や胃潰瘍の乱暴とも思える飲酒を知ったら、唖然とし憤然として怒る事であろう。<br/><br/>いわば死病である腸閉塞。<br/><br/>それも二度手術して又の再発が、一回の浄霊で苦痛が去り、五回の浄霊で好きな酒に快よく酔えたこの事実こそは、医学と浄霊との距りが天地霄壤（しょうじょう）ほどの差があることを端的に示したものであろう。<br/><br/> 神様のお守りさえ懸ければ老幼男女、誰でも行うことのできる天衣無縫とも云うべきメシヤ教の浄霊こそ万民の苦難を救う光りである。<br/><br/>と、また改めて教えられたのであった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

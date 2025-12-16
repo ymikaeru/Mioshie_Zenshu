@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qryoyosy</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 療養所の名物男 医者の言を守らぬ男 『栄光』111号、昭和26(1951)年7月4日発行 『結核の革命的療法』昭和26(1951)年8月15日発行 鹿児島県 光宝大教会 八田啓之助（32） 私の入院したのは、元の傷痍軍人療養所、今は国立病院の看板のかかっている所であります、入所当時昭和二十三年には、五百位の収容人員でしたが、現在は六百名以上も収容していましょう、それでも収容し得ない程の大繁昌振りで、有難くない結構な事です。<br><br> 私が入所して半月位してまだ知らない男が、私のベッドの側に来て、用件が済んだ後の話に花が咲きました、この道の先輩なのです、この療養所開設以来の家付患者で、最早十年生なのであります、「貴君が治りたいなら、医者の言う事を聞くな、熱も計るな、脈もとるな、安静もするな、病気は気からだ、気にかけずに暴れ廻れよ」と申すのであります、私は暴言に驚きました、又感心させられました、なお続けて申しますには「自分は医者の言う事を聞かずに、この通りに元気になった」一度は危篤の公電まで打ったのが、今ではこんなに元気に生き返った、公電打って生き返ったのはこの療養所始まって以来、二人だ、自分はその中の一人だ。<br><br>喀血も血痰等も問題でない。<br><br>自分は痰壷抱えて、血痰吐きながら、碁も打ち、畠も打った事がある、今一番元気な奴は皆医者の言う事を聞かない、暴れん坊ばかりだ、十年位見ていると、医者の注意を守る奴は皆死んだ、元気になったのは暴れる奴ばかりだ、だから貴君も医者の注意は聞かない方がよいよ」と言う訳です、成程と感心する所が多かったのですが、全面的に実行するだけの勇気はありませんでした、一部まねて、一部は医学尊重でした、後で判りましたが、この男は俳句を得意とし、ホトトギスの二句欄にも載る程の実力らしい、福岡県直方市の野見山朱鳥の菜穀火の同人でした、碁もやるし歌も唱うし中々の芸術家でした、私もこの男位の勇気があったら、もっと早く全快していたでしょうにと、今ではおもいます。<br><br> この他に療養生活中に色々と珍らしい事、医学で説明の出来ない実例に接しました、ある者は医者は危険だからと、自重安静を勧めるに反対して、家事の都合で、退院して野菜の仲買、いわゆるカツギ屋をやって元気になって、医者は驚いた、この男は既に五号菌を出していた要保護患者であったのであります、あるものは卵大の空洞が出来て、現代医学では絶対に駄目だとされているものが跳び廻り、暴れ廻ってから、全治してしまい医者は判らんと、驚き不思議不思議と言っていたものです。<br><br> 前記の名物男は、絶対安静は絶対にするな、と言葉を残して、全治退院して、福岡県飯塚の一炭坑の採炭夫として、働いているようです、この男は何も宗教を信仰しているのではない様子でしたが、とにかく私の印象深いものがあります、御道を知った今では、殊更に思い合して、微苦笑を禁じ得ないものがあります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Homem Célebre do Sanatório: Aquele que Desobedecia às Ordens Médicas</h2>
 <p>Revista Eikou, n.º 111, publicada em 4 de julho de 1951
@@ -98,5 +253,48 @@ Igreja Koho de Kagoshima</p>
 <p>Havia muito de admirável em seu raciocínio, mas não tive coragem para adotá-lo integralmente. Segui-o em parte, mas, por outro lado, continuei a reverenciar a medicina. Posteriormente, vim a saber que aquele homem era um talentoso poeta de haicai, com habilidade para ter seus versos publicados na prestigiada revista <em>Hototogisu</em>. Era membro do círculo literário <em>Saikakka</em>, liderado por Nomiyama Shuchou, da cidade de Nogata. Ademais, jogava Go, cantava e era, em suma, um notável artista. Hoje, reflito que, se eu tivesse tido a mesma coragem que ele, minha recuperação teria sido, sem dúvida, muito mais rápida.</p>
 <p>Além desse episódio, durante minha estadia no sanatório, presenciei diversos outros acontecimentos singulares, casos concretos que a medicina era incapaz de explicar. Um dos pacientes, por exemplo, contrariando a recomendação de repouso absoluto por seu estado ser considerado perigoso, pediu alta por motivos familiares. Tornou-se um intermediário de hortaliças — um trabalho bastante árduo — e recuperou a saúde, para o espanto dos médicos. Vale ressaltar que se tratava de um paciente que exigia cuidados especiais e cujo escarro já apresentava o bacilo em estágio avançado. Outro interno, que possuía uma cavidade do tamanho de um ovo no pulmão e fora desenganado pela medicina moderna, passou a se movimentar e a realizar atividades intensas. Ao fim, curou-se completamente, deixando os médicos perplexos, a repetir que aquilo era um verdadeiro mistério.</p>
 <p>O homem célebre mencionado anteriormente, após deixar como legado a máxima “O repouso absoluto, não o pratique em absoluto”, teve alta com a saúde plenamente restabelecida. Soube que hoje ele trabalha como mineiro em uma carbonífera de Iizuka, em Fukuoka. Aparentemente, não professava fé religiosa alguma; todavia, a impressão que me causou foi indelével. Agora que conheço os Ensinamentos, ao rememorar tais fatos, não consigo conter um sorriso resignado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 療養所の名物男 医者の言を守らぬ男 『栄光』111号、昭和26(1951)年7月4日発行 『結核の革命的療法』昭和26(1951)年8月15日発行 鹿児島県 光宝大教会 八田啓之助（32） 私の入院したのは、元の傷痍軍人療養所、今は国立病院の看板のかかっている所であります、入所当時昭和二十三年には、五百位の収容人員でしたが、現在は六百名以上も収容していましょう、それでも収容し得ない程の大繁昌振りで、有難くない結構な事です。<br/><br/> 私が入所して半月位してまだ知らない男が、私のベッドの側に来て、用件が済んだ後の話に花が咲きました、この道の先輩なのです、この療養所開設以来の家付患者で、最早十年生なのであります、「貴君が治りたいなら、医者の言う事を聞くな、熱も計るな、脈もとるな、安静もするな、病気は気からだ、気にかけずに暴れ廻れよ」と申すのであります、私は暴言に驚きました、又感心させられました、なお続けて申しますには「自分は医者の言う事を聞かずに、この通りに元気になった」一度は危篤の公電まで打ったのが、今ではこんなに元気に生き返った、公電打って生き返ったのはこの療養所始まって以来、二人だ、自分はその中の一人だ。<br/><br/>喀血も血痰等も問題でない。<br/><br/>自分は痰壷抱えて、血痰吐きながら、碁も打ち、畠も打った事がある、今一番元気な奴は皆医者の言う事を聞かない、暴れん坊ばかりだ、十年位見ていると、医者の注意を守る奴は皆死んだ、元気になったのは暴れる奴ばかりだ、だから貴君も医者の注意は聞かない方がよいよ」と言う訳です、成程と感心する所が多かったのですが、全面的に実行するだけの勇気はありませんでした、一部まねて、一部は医学尊重でした、後で判りましたが、この男は俳句を得意とし、ホトトギスの二句欄にも載る程の実力らしい、福岡県直方市の野見山朱鳥の菜穀火の同人でした、碁もやるし歌も唱うし中々の芸術家でした、私もこの男位の勇気があったら、もっと早く全快していたでしょうにと、今ではおもいます。<br/><br/> この他に療養生活中に色々と珍らしい事、医学で説明の出来ない実例に接しました、ある者は医者は危険だからと、自重安静を勧めるに反対して、家事の都合で、退院して野菜の仲買、いわゆるカツギ屋をやって元気になって、医者は驚いた、この男は既に五号菌を出していた要保護患者であったのであります、あるものは卵大の空洞が出来て、現代医学では絶対に駄目だとされているものが跳び廻り、暴れ廻ってから、全治してしまい医者は判らんと、驚き不思議不思議と言っていたものです。<br/><br/> 前記の名物男は、絶対安静は絶対にするな、と言葉を残して、全治退院して、福岡県飯塚の一炭坑の採炭夫として、働いているようです、この男は何も宗教を信仰しているのではない様子でしたが、とにかく私の印象深いものがあります、御道を知った今では、殊更に思い合して、微苦笑を禁じ得ないものがあります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

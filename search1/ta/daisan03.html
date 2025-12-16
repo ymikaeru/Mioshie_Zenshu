@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>daisan03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 第三次戦争は免れる事が出来る 『栄光』126号、昭和26(1951)年10月17日発行 今最も世界人類が脅威の的とされているのは何といっても第三次世界戦争であろう事は、今更言うまでもない。<br><br>現に日本は固（もと）より、全世界の識者という識者は、それぞれの立場からこれを防止すべく、全智能を絞って筆に口に論議しつつあるのは、人皆知る通りである。<br><br>ところがどうした訳か、独り宗教家に至っては、それに対し何らの発言をする者のないのは、実に心もとない限りである。<br><br> そこでまず考えてみて貰いたい事は、一体宗教の目的は何であるかという事である。<br><br>言うまでもなく、戦争のない平和世界を実現するにあるのは判り切った話である。<br><br>としたら現在のごとき、第三次戦争必至というこの危機に直面していながら、手も足も出ないのか、全然沈黙しているという状態は不可解の外はあるまい。<br><br>なるほど宗教家たる以上、政府の命令のない限りと、また年齢的にも武器を執る事は出来ないとしたら、宗教家は宗教家なりに、相応した平和的手段をもって、戦争防止のため、一役買うべきではなかろうか、この意味において私は、戦争発生の原因と戦争防止、否人類から戦争を絶無にする事の可能である事と、その原理をかいてみようと思うのである。<br><br> それについて、最も判り易くするため、病気と健康についての事をかいてみるが、いつもいう通り、病気とは人間の霊に曇りが溜り、その排除作用が肉体に映って生ずる苦痛であるから、人間のいかなる苦痛といえども、原因はことごとく霊の曇り、すなわち肉体的に言えば汚濁の排除作用であるから、その苦痛を免れたいとしたら、汚濁を溜めないようにすると共に、既に溜っているそれを排除する以外、解決する事の出来ないのは当然である。<br><br> この理によって、集団的苦痛、すなわち風水害、火災、地震、社会的暴動等も、ことごとく病気以外の浄化作用である、としたらこれの大きくなったものがもちろん戦争である。<br><br>従って、戦争を起らないようにするには、人間個人個人の霊の曇りを無くす以外方法のない事は余りにも明らかである。<br><br> 万一第三次戦争が起るとすれば、それは全く霊の曇った人間が増え切って、どうにもならない状態となったからで、恐らく世界のほとんどは、現在汚濁人間で充満していると言っても過言ではあるまい、としたらなぜこのように汚濁人間が増えたかというと、それこそ悪による罪が堆積したからであって、その根本原因こそ神の実在を無視する教育を受けて来たためであって、これが唯物教育であるから、この観念を是正する事によってのみ解決されるのである。<br><br>ではなぜそうであったかというと、つまり唯物教育によって、人間の魂を極度に曇らせ、盲目同様にしたからで、むしろ当然な結果である。<br><br>そうしてここで知らねばならない事は、万有の法則は汚濁の溜るところ、必ず自然浄化作用が発生する。<br><br>例えば伝染病が流行するという事は、病菌発生が直接原因であるとしたら、その原因は何かというと、それは浄化の必要ある人間が出来たからで、相応の理による自然発生である。<br><br>ところがこの理は何物にも共通する。<br><br>すなわち地上にあるあらゆる物質、例えばいかなる大都市でも、建造物でも、およそ物質と名のつくものは、ことごとくといいたい程、現在のそれは悪によって作られたるものである以上、言わば罪の塊であるから、いつかは清算されなければならない運命におかれているのである。<br><br> としたら人間も物質も、地上にありとあらゆる汚濁分子が一挙に浄化される。<br><br>それが大戦争であって、これが宇宙の鉄則であるから、どうしようもないのである。<br><br>この意味において第三次戦争を免れんとするには、この大浄化作用発生の必要のないまでに、人間はじめ地上一切のものが、清浄化されなければならないのは分りきった話である。<br><br>ではそのように一切を清浄化すべき方法はありや、というに、私はありと答える。<br><br>それが我メシヤ教の使命であって、この事のために我メシヤ教は生まれたのである。<br><br> ここで別の説き方ではあるが、世界とは個人の集団であるから、個人個人が浄化の必要のないまでに、立派な人間になりさえすればいいのである。<br><br>立派な人間とは、もちろん霊肉共に汚濁のない人間であって、そういう人間を造り得る力こそ、我メシヤ教をおいて世界広しといえども、決して存在しない事を私は知らせたいのである。<br><br>これは理屈ではない。<br><br>本教が現在行っている浄霊法を見ても分る。<br><br>この方法がいかに絶大な効果があるかは、唯物医学で治らない重難病がドシドシ全治し、死を宣告された者が甦生（そせい）する等、無数に上る事実である。<br><br>これだけでも多くを言う必要はあるまい。<br><br>従ってこの空前の事実こそ、世界人類が救われ、地上天国出現の時期となった事の示唆でなくて何であろう。<br><br>我メシヤ教が全世界に拡がるとしたら、最早戦争による浄化の必要がなくなるから、戦争は起らないに決っている以上、ここに人類待望の平和時代が実現するのである。<br><br> これで大体判ったであろうが、要するに第三次戦争防止の手段こそ、我メシヤ教を措いて絶対他にない事を断言して憚（はばか）らないのである。<br><br>故に万一それが間に合わないとしたら、第三次戦争勃発となるのは、免れ得ない運命として、何人も覚悟すべきであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>É Possível Evitar a Terceira Guerra Mundial</h2>
 <p>É desnecessário reiterar que a maior ameaça que paira sobre a humanidade é, inegavelmente, a Terceira Guerra Mundial. De fato, como todos sabem, os mais notáveis intelectuais do Japão e do mundo inteiro devotam sua máxima capacidade intelectual, por meio da escrita e da palavra, a debater formas de evitá-la, cada qual a partir de sua perspectiva. Contudo, por alguma razão inexplicável, é profundamente desolador constatar o silêncio absoluto dos líderes religiosos a esse respeito.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Analisando por outra ótica, o mundo é um conjunto de indivíduos. Portanto, basta que cada pessoa se torne um ser humano exemplar, ou seja, livre de máculas no espírito e no corpo. E quero que saibam que, em toda a vastidão do mundo, o poder de formar tais seres humanos existe unicamente em nossa Meshiya-kyo. Isso não é mera teoria. Basta observar o método do Johrei que nossa Igreja pratica atualmente. A prova de sua eficácia extraordinária reside nos inúmeros fatos que se acumulam: doenças graves e complexas, incuráveis pela medicina materialista, são curadas uma após a outra, e pessoas sentenciadas à morte são trazidas de volta à vida.</p>
 <p>Esses fatos, por si sós, dispensam maiores argumentos. Com efeito, essa realidade sem precedentes é o maior indício de que chegou o tempo da salvação da humanidade e do advento do Paraíso Terrestre. Quando a Meshiya-kyo se difundir pelo mundo inteiro, a purificação por meio da guerra se tornará obsoleta. Consequentemente, a guerra não ocorrerá, e assim se concretizará a tão almejada era de paz para a humanidade.</p>
 <p>Creio que o essencial foi compreendido. Em suma, afirmo sem qualquer hesitação que o único meio para impedir a Terceira Guerra Mundial reside, categoricamente, na Meshiya-kyo. Por essa razão, se porventura não formos capazes de cumprir nossa missão a tempo, a eclosão da Terceira Guerra Mundial será um destino inevitável, para o qual todos deverão estar preparados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 第三次戦争は免れる事が出来る 『栄光』126号、昭和26(1951)年10月17日発行 今最も世界人類が脅威の的とされているのは何といっても第三次世界戦争であろう事は、今更言うまでもない。<br/><br/>現に日本は固（もと）より、全世界の識者という識者は、それぞれの立場からこれを防止すべく、全智能を絞って筆に口に論議しつつあるのは、人皆知る通りである。<br/><br/>ところがどうした訳か、独り宗教家に至っては、それに対し何らの発言をする者のないのは、実に心もとない限りである。<br/><br/> そこでまず考えてみて貰いたい事は、一体宗教の目的は何であるかという事である。<br/><br/>言うまでもなく、戦争のない平和世界を実現するにあるのは判り切った話である。<br/><br/>としたら現在のごとき、第三次戦争必至というこの危機に直面していながら、手も足も出ないのか、全然沈黙しているという状態は不可解の外はあるまい。<br/><br/>なるほど宗教家たる以上、政府の命令のない限りと、また年齢的にも武器を執る事は出来ないとしたら、宗教家は宗教家なりに、相応した平和的手段をもって、戦争防止のため、一役買うべきではなかろうか、この意味において私は、戦争発生の原因と戦争防止、否人類から戦争を絶無にする事の可能である事と、その原理をかいてみようと思うのである。<br/><br/> それについて、最も判り易くするため、病気と健康についての事をかいてみるが、いつもいう通り、病気とは人間の霊に曇りが溜り、その排除作用が肉体に映って生ずる苦痛であるから、人間のいかなる苦痛といえども、原因はことごとく霊の曇り、すなわち肉体的に言えば汚濁の排除作用であるから、その苦痛を免れたいとしたら、汚濁を溜めないようにすると共に、既に溜っているそれを排除する以外、解決する事の出来ないのは当然である。<br/><br/> この理によって、集団的苦痛、すなわち風水害、火災、地震、社会的暴動等も、ことごとく病気以外の浄化作用である、としたらこれの大きくなったものがもちろん戦争である。<br/><br/>従って、戦争を起らないようにするには、人間個人個人の霊の曇りを無くす以外方法のない事は余りにも明らかである。<br/><br/> 万一第三次戦争が起るとすれば、それは全く霊の曇った人間が増え切って、どうにもならない状態となったからで、恐らく世界のほとんどは、現在汚濁人間で充満していると言っても過言ではあるまい、としたらなぜこのように汚濁人間が増えたかというと、それこそ悪による罪が堆積したからであって、その根本原因こそ神の実在を無視する教育を受けて来たためであって、これが唯物教育であるから、この観念を是正する事によってのみ解決されるのである。<br/><br/>ではなぜそうであったかというと、つまり唯物教育によって、人間の魂を極度に曇らせ、盲目同様にしたからで、むしろ当然な結果である。<br/><br/>そうしてここで知らねばならない事は、万有の法則は汚濁の溜るところ、必ず自然浄化作用が発生する。<br/><br/>例えば伝染病が流行するという事は、病菌発生が直接原因であるとしたら、その原因は何かというと、それは浄化の必要ある人間が出来たからで、相応の理による自然発生である。<br/><br/>ところがこの理は何物にも共通する。<br/><br/>すなわち地上にあるあらゆる物質、例えばいかなる大都市でも、建造物でも、およそ物質と名のつくものは、ことごとくといいたい程、現在のそれは悪によって作られたるものである以上、言わば罪の塊であるから、いつかは清算されなければならない運命におかれているのである。<br/><br/> としたら人間も物質も、地上にありとあらゆる汚濁分子が一挙に浄化される。<br/><br/>それが大戦争であって、これが宇宙の鉄則であるから、どうしようもないのである。<br/><br/>この意味において第三次戦争を免れんとするには、この大浄化作用発生の必要のないまでに、人間はじめ地上一切のものが、清浄化されなければならないのは分りきった話である。<br/><br/>ではそのように一切を清浄化すべき方法はありや、というに、私はありと答える。<br/><br/>それが我メシヤ教の使命であって、この事のために我メシヤ教は生まれたのである。<br/><br/> ここで別の説き方ではあるが、世界とは個人の集団であるから、個人個人が浄化の必要のないまでに、立派な人間になりさえすればいいのである。<br/><br/>立派な人間とは、もちろん霊肉共に汚濁のない人間であって、そういう人間を造り得る力こそ、我メシヤ教をおいて世界広しといえども、決して存在しない事を私は知らせたいのである。<br/><br/>これは理屈ではない。<br/><br/>本教が現在行っている浄霊法を見ても分る。<br/><br/>この方法がいかに絶大な効果があるかは、唯物医学で治らない重難病がドシドシ全治し、死を宣告された者が甦生（そせい）する等、無数に上る事実である。<br/><br/>これだけでも多くを言う必要はあるまい。<br/><br/>従ってこの空前の事実こそ、世界人類が救われ、地上天国出現の時期となった事の示唆でなくて何であろう。<br/><br/>我メシヤ教が全世界に拡がるとしたら、最早戦争による浄化の必要がなくなるから、戦争は起らないに決っている以上、ここに人類待望の平和時代が実現するのである。<br/><br/> これで大体判ったであろうが、要するに第三次戦争防止の手段こそ、我メシヤ教を措いて絶対他にない事を断言して憚（はばか）らないのである。<br/><br/>故に万一それが間に合わないとしたら、第三次戦争勃発となるのは、免れ得ない運命として、何人も覚悟すべきであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

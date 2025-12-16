@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinko06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>sinko06<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>信仰の合理性に就いて<br>『栄光』213号、昭和28(1953)年6月17日発行<br>信仰の合理性について、この間この欄に出したので分ったであろうが、なお最近それに関連した新しい質問が、某中教会長からあったので、それをかいてみよう。これは二年程前入信した信者の事で、入信の動機は主人の肺浸潤が治ったためであるが、本年二月、二つになる自分の子供が肺炎になったので、某支部長に相談したところ、自分が治さして貰うといって、それから熱心に浄霊をしてくれたが、どうもはかばかしくゆかず、ついに危険に瀕（ひん）したので、数日前私のところへ御守護の電話がかかったのである。ところがその時から大分よくなったが、まだ心配なので、今後どうしたらいいかを教えて貰いたいと、某中教会長に縋（すが）り、共々子供を連れた母親が来たのである。そこで私が答えたのはこうだ。肺炎くらいの病気がそんなに長くかかるものではない。必ず間違った点があるからだ。その原因は二つある。一つの方も大いに間違っているが、これは個人的であるから秘しておくとして、今一つの方はより重大であり、中教会長にも聞かしたいと思って、私は詳しく話をしてやった。それはその子供の父も母も一、二年前入信しているのだから、我子の肺炎くらいは父か母が浄霊すればいいので、それで結構治るはずである。それを取違え自分は碌々（ろくろく）浄霊もせずして、支部長を煩（わずら）わすのであるから理屈に外れている。また支部長も支部長で、度々浄霊に赴（おもむ）いたというのであるから、どちらも全然間違っている。本来支部長たるものの役目は、未信者の開拓にあるので、すでに信者となっている人は、神様から治病の御許しを得ている以上、家族の病気などは自分で浄霊すべきである。それを支部長の厄介になるとしたら、支部長の活動を御邪魔をする訳である。また支部長はこの意味を教えるべきはずなのに、それに気がつかないとは余程呆（ぼ）けているとしか思えない。しかし特別の場合神様にお許しを願って、少しくらいなら浄霊してもいいが、それ以上はいけない。<br>つまり何事も理屈に合っていないから、御蔭を頂けないのであるから、中教会長、支部長、教師、役員などそれぞれ自己の階級、職責等をよく弁（わきま）え、不合理にわたらぬよう注意すべきである。これについても平常努めて御神書を拝読し、智慧証覚を磨いておれば、いかなる場合でも気がつくものである。<br>これについても大乗と小乗との区別を忘れてはならない。一切は御神業発展を第一とし、私事は第二第三にすべきで、そうすれば何事も順調にゆくのである。つまり全体的利害を考え、合理的にすれば何程でも御蔭は頂けるもので、少しでも御神業に御邪魔になるとしたら、思うようにゆかないのは当然である。何しろ全人類を救うというドエライ仕事で、しかも神様は非常にお急ぎになっておられるから、そこをよく考えるべきである。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Acerca da Racionalidade da Fé</h2>
 <p>Publicado na revista Eikou n.º 213, em 17 de junho de 1953</p>
@@ -102,5 +452,48 @@ function toggleLang(lang) {
 <p>Sendo os pais da criança membros há um ou dois anos, a pneumonia do filho deveria ter sido tratada por meio do Johrei ministrado por eles mesmos. Com isso, a cura teria sido alcançada. Contrariar esse princípio, abstendo-se de ministrar Johrei e, em vez disso, importunar o chefe de unidade, é uma atitude desprovida de lógica. O chefe de unidade, por sua vez, também incorreu em grave erro ao se deslocar repetidamente para ministrar Johrei. Assim, ambos estão completamente equivocados. A função primordial de um dirigente de unidade consiste em pioneirar a difusão junto aos não membros. Aqueles que já são fiéis, uma vez que receberam de Deus a permissão para curar, devem ser os responsáveis por ministrar Johrei aos seus familiares. Recorrer a ele para tal finalidade significa obstruir suas atividades. Ademais, era dever do dirigente orientá-los nesse sentido. O fato de não ter percebido isso revela uma notável falta de discernimento. Evidentemente, em casos excepcionais, pode-se solicitar a permissão de Deus para ministrar Johrei por um breve período, mas nada além disso.</p>
 <p>Em suma, por terem agido de maneira ilógica, não puderam receber a graça divina. Portanto, é imperativo que chefes de Igreja, dirigentes de unidade, instrutores e demais responsáveis compreendam plenamente suas respectivas posições e atribuições, a fim de evitar ações desprovidas de racionalidade. Para tanto, é essencial a leitura assídua dos Ensinamentos Divinos, pois, ao aprimorar a sabedoria e a percepção espiritual, torna-se possível discernir a atitude correta em qualquer circunstância.</p>
 <p>Nesse sentido, não se deve esquecer a distinção entre o Mahayana, o Grande Veículo, e o Hinayana, o Pequeno Veículo. A expansão da Obra Divina deve ser sempre a prioridade máxima, relegando-se os assuntos pessoais a um plano secundário. Agindo dessa forma, tudo transcorrerá em harmonia. Em outras palavras, ao considerar o bem do todo e agir com lógica, é possível receber graças ilimitadas. Por outro lado, se as ações interferem, ainda que minimamente, no andamento da Obra Divina, é natural que os resultados não sejam os esperados. Afinal, estamos empenhados na grandiosa tarefa de salvar toda a humanidade, e Deus tem extrema urgência em sua realização. É fundamental, portanto, refletir profundamente sobre esse ponto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>sinko06<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>信仰の合理性に就いて<br/>『栄光』213号、昭和28(1953)年6月17日発行<br/>信仰の合理性について、この間この欄に出したので分ったであろうが、なお最近それに関連した新しい質問が、某中教会長からあったので、それをかいてみよう。これは二年程前入信した信者の事で、入信の動機は主人の肺浸潤が治ったためであるが、本年二月、二つになる自分の子供が肺炎になったので、某支部長に相談したところ、自分が治さして貰うといって、それから熱心に浄霊をしてくれたが、どうもはかばかしくゆかず、ついに危険に瀕（ひん）したので、数日前私のところへ御守護の電話がかかったのである。ところがその時から大分よくなったが、まだ心配なので、今後どうしたらいいかを教えて貰いたいと、某中教会長に縋（すが）り、共々子供を連れた母親が来たのである。そこで私が答えたのはこうだ。肺炎くらいの病気がそんなに長くかかるものではない。必ず間違った点があるからだ。その原因は二つある。一つの方も大いに間違っているが、これは個人的であるから秘しておくとして、今一つの方はより重大であり、中教会長にも聞かしたいと思って、私は詳しく話をしてやった。それはその子供の父も母も一、二年前入信しているのだから、我子の肺炎くらいは父か母が浄霊すればいいので、それで結構治るはずである。それを取違え自分は碌々（ろくろく）浄霊もせずして、支部長を煩（わずら）わすのであるから理屈に外れている。また支部長も支部長で、度々浄霊に赴（おもむ）いたというのであるから、どちらも全然間違っている。本来支部長たるものの役目は、未信者の開拓にあるので、すでに信者となっている人は、神様から治病の御許しを得ている以上、家族の病気などは自分で浄霊すべきである。それを支部長の厄介になるとしたら、支部長の活動を御邪魔をする訳である。また支部長はこの意味を教えるべきはずなのに、それに気がつかないとは余程呆（ぼ）けているとしか思えない。しかし特別の場合神様にお許しを願って、少しくらいなら浄霊してもいいが、それ以上はいけない。<br/>つまり何事も理屈に合っていないから、御蔭を頂けないのであるから、中教会長、支部長、教師、役員などそれぞれ自己の階級、職責等をよく弁（わきま）え、不合理にわたらぬよう注意すべきである。これについても平常努めて御神書を拝読し、智慧証覚を磨いておれば、いかなる場合でも気がつくものである。<br/>これについても大乗と小乗との区別を忘れてはならない。一切は御神業発展を第一とし、私事は第二第三にすべきで、そうすれば何事も順調にゆくのである。つまり全体的利害を考え、合理的にすれば何程でも御蔭は頂けるもので、少しでも御神業に御邪魔になるとしたら、思うようにゆかないのは当然である。何しろ全人類を救うというドエライ仕事で、しかも神様は非常にお急ぎになっておられるから、そこをよく考えるべきである。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

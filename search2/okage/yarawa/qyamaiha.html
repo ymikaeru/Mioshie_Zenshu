@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qyamaiha</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 病は勿論、事業にまでこの素晴らしい奇跡 『栄光』166号、昭和27(1952)年7月23日発行 東京都 神成中教会 長島すず子（37） 昭和二十五年夏、当時小学校五年生の次女が校医から慢性中耳炎、扁桃腺肥大、蓄膿症と誠に数多い診断をされ、ぜひ夏休中に治すようにと言われましたが、以上の病は医者へ行っても難しいと聞いており、困った事だと思っておりました。<br><br>ちょうどその頃以前より親しい山本先生が時折見えては御浄霊の御話を聴かせて下さいました。<br><br>しかしそれまでは大して気にもかけず、せっかく御道の御本まで貸して頂いても忙しまぎれに拝見さえせず「又あのおばさん変な事を始めた」と蔭で言っておりました。<br><br>しかし次女が余りにも沢山な病気を一度に言渡されてからは何となく心引かれ、勧められるまま先生と一緒に世田谷の御本部に参りました。<br><br>そこで次女が御浄霊を頂いておりますのを拝見していますと、先生の掌が子供の体から一尺位離れているのに温かく感じると申しますので吃驚致しました。<br><br>不思議に思い、いろいろお話を伺いまして病気が体の掃除である事は少しは分らして頂きましたものの、なお変な気持も残って帰って参りました。<br><br>当時私共一家は戦災を受けてから事業（電気工事）も余り振わず又貸借も悪く、経済的にも非常に苦しい時代でございました。<br><br>そこで御本部の先生に御話し申しましたところ「そういう事でも御救い頂けますからよく御願い申し上げなさい」と言われますので、半信半疑ながら御神体に御願い申し上げてその日は何か心の中が明るく帰宅致しました。<br><br>主人に今日のお話を色々致し、こちらの神様は病気のみでなく経済的にも御恵み下さる事を話しまして「神様に御願いして参りましたからあの貸金もきっと入りますよ」と本部の先生の受け売りをしました。<br><br>その盛大して気にも止めずにおりました。<br><br>ところが驚いた事には翌日今まで何度足を運んでも貰えませんでした貸金の一部を、しかも交渉していた以上の現金をわざわざ持って来て下さいました。<br><br>私のような未入信のたった一度のお願い事が、こんなにも速かにお恵みを頂けるとはどう考えましても人間の力の及ぶところでないと思わず胸をうたれ、主人と共に顔を見合せ御客様のいられるのも忘れて茫然としてしまいました。<br><br>これは黙っていては申訳ないと早速御本部へ御礼に上らせて頂きました。<br><br>その時こそ神様は現実に私達の日常生活を御守り下さるものだと思い、次女の病気もきっと治して頂けるものと信じられました。<br><br>日が経つに従って次女の病気も快方に向い、最近ではほとんど全治させて頂きました。<br><br>このような事実に直面して今までの御無礼を御詫び申し上げ、早速私が御守様を頂き、その年の暮十二月三日初めて明主様に御面会の幸を頂きました。<br><br>その日はただ夢中でございました。<br><br>かくも偉大な御力の明主様と、御歌のごとく浜の真砂にも等しい私共が、こんなにもお側近く拝顔の栄にめぐませて頂きました事を誠にうれしく思いました。<br><br>その御面会を頂きましてから三日目頃より事業の方がどんどん調子よく進みまして、去る七月頃工事を致しました貸金（約四十万円）が少金ながらも初めて入金の糸口がつきまして、事業の方も現金で頂けるような仕事が多くあるようになりました。<br><br>主人も次々のお蔭に感激致し、程なく入信させて頂きました。<br><br>更に御守護を頂き非常に安価にて二階を改築させて頂き、大光明如来様をお迎えさせて頂きました。<br><br>これより以前主人は三十数年来の難聴でございまして、医者も薬も主人自身あきらめておりましたが、この尊い御浄霊を頂くようになりましてから幾回となく御浄化を戴いておりました。<br><br>ちょうど昨年十二月八日の御面会の当日の事、風邪の気味でしたが押して御参詣させて頂きました折、急に鼻血が出まして側におりました私も吃驚いたしました。<br><br>それより耳の方がスーッと軽くなりまして、勿体なくも明主様の御声を初めてはっきりと聴かせて頂けるようになりました。<br><br>かくも偉大な奇蹟を賜わり、有難さに涙を浮べて明主様を伏し拝んでおりました。<br><br>本人にとりましてこれ程の感激は無かった事でございましょう。<br><br> 最近は事業も順調に進み、貸金の回収に苦しみました二、三年前の事を思い出しまして、心から感謝申し上げております。<br><br>又かねがね会長先生には何かと至らぬ私を御導き頂き、朝に夕にどんな御忙しい中でもやさしく御救の道を迷わぬように説いて聞かせて頂きまして「明主様への御恩報じは大勢の方々をお救いする事ですよ」と言い聞かせられ、私も及ばずながら知合の方や近所の方々に御道の御話を致し何人かを信仰へ御導きさせて頂き、又毎日僅かながら病に悩む人を御浄霊させて頂いております。<br><br>又、つい先日も次のようなおかげを頂きました。<br><br>今まで私宅には電話が無く、何かと不便でしたので、再三再四電話局の方へ交渉に参りましたが中々神田局は難しく、せっかく順調に参りますとちょっと事故が起り思うように進みませんでした。<br><br>しかしここにも神様の深い御仕組のございました事を私ははっきり知らせて頂きました。<br><br>ちょうどその頃は経済方面も、帳面合って金足らずという通り懐中の用金が自由に無く、もしも電話が架設されましたところで借金で支払わねばならぬ状態でございました。<br><br>ところが二月末頃にはどうにか良い方に向って参りました。<br><br>ちょうどその頃、電話局から局員が参りまして「近い中に加入出来ますよ」と言ってゆきました。<br><br>心待ちに待っておりましたところ、御近所の方が、お宅の電話番号は「五六九七ですって」と申されていましたので「この九と七が逆になれば申し分ないのだが」と申しておりました。<br><br>私宅のお祭は月の五日になっておりますが、その朝の事、突然局から参りまして「今日電話を架設致しますから」と言われたので家中大喜びでした。<br><br>そしてその局員が「お宅の電話番号は五六七九ですよ」と何気なく言いましたので、我と我が耳を疑いながら開き直してみましたが 「五六七九」とはっきり言って下さいました。<br><br>家中吃驚しました。<br><br>何という不思議な事でございましょう。<br><br>この番号が他の家へ行ったからとて、そんなにも喜ばれるわけではなし、私の家にとってはこんなすばらしい番号は又とない。<br><br>まあ有難いと家中お祭り騒ぎ、今日は又神様の祭日でしかもその日に通話が出来まして、信者さんも早速御利用下さるし、こんなにもすばらしい神様の御守護を深く感じました。<br><br>なお電話の架設代金も公定価にて済み、又不思議にも今月は経済的にもめぐまれ、何事も順調に進ませて頂きました。<br><br> 病苦も貧苦も御救い頂き、更に苦しむ人々を救わせて頂き、かつ考える事が思うように進み、奇蹟の日々を楽しく過させて頂きます事をただただ有難く感謝申し上げております。<br><br>どうか今後も微力ながらこの尊い御道に少しでも尽くさせて頂きたく念願致しております。<br><br>ここに拙き筆ではございますが賜わりました御恵の数々を謹みて御報告させて頂きました。<br><br> 明主様、誠に有難うございました。<br><br>心より厚く厚く御礼を申し上げます。<br><br> （昭和二十七年五月七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Milagre Extraordinário, que Abrangeu Não Apenas a Doença, mas Também os Negócios</h2>
 <p><em>Relato de Graça publicado na revista Eikou, nº 166, de 23 de julho de 1952.</em></p>
@@ -111,5 +266,48 @@ Igreja Kaminaka, Tóquio</p>
 <p>É com estas palavras singelas que apresento, respeitosamente, este relato das inúmeras graças que me foram concedidas.</p>
 <p>Meishu-Sama, muito, muito obrigada. Do fundo do meu coração, reitero minha mais profunda e sincera gratidão.</p>
 <p>(7 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 病は勿論、事業にまでこの素晴らしい奇跡 『栄光』166号、昭和27(1952)年7月23日発行 東京都 神成中教会 長島すず子（37） 昭和二十五年夏、当時小学校五年生の次女が校医から慢性中耳炎、扁桃腺肥大、蓄膿症と誠に数多い診断をされ、ぜひ夏休中に治すようにと言われましたが、以上の病は医者へ行っても難しいと聞いており、困った事だと思っておりました。<br/><br/>ちょうどその頃以前より親しい山本先生が時折見えては御浄霊の御話を聴かせて下さいました。<br/><br/>しかしそれまでは大して気にもかけず、せっかく御道の御本まで貸して頂いても忙しまぎれに拝見さえせず「又あのおばさん変な事を始めた」と蔭で言っておりました。<br/><br/>しかし次女が余りにも沢山な病気を一度に言渡されてからは何となく心引かれ、勧められるまま先生と一緒に世田谷の御本部に参りました。<br/><br/>そこで次女が御浄霊を頂いておりますのを拝見していますと、先生の掌が子供の体から一尺位離れているのに温かく感じると申しますので吃驚致しました。<br/><br/>不思議に思い、いろいろお話を伺いまして病気が体の掃除である事は少しは分らして頂きましたものの、なお変な気持も残って帰って参りました。<br/><br/>当時私共一家は戦災を受けてから事業（電気工事）も余り振わず又貸借も悪く、経済的にも非常に苦しい時代でございました。<br/><br/>そこで御本部の先生に御話し申しましたところ「そういう事でも御救い頂けますからよく御願い申し上げなさい」と言われますので、半信半疑ながら御神体に御願い申し上げてその日は何か心の中が明るく帰宅致しました。<br/><br/>主人に今日のお話を色々致し、こちらの神様は病気のみでなく経済的にも御恵み下さる事を話しまして「神様に御願いして参りましたからあの貸金もきっと入りますよ」と本部の先生の受け売りをしました。<br/><br/>その盛大して気にも止めずにおりました。<br/><br/>ところが驚いた事には翌日今まで何度足を運んでも貰えませんでした貸金の一部を、しかも交渉していた以上の現金をわざわざ持って来て下さいました。<br/><br/>私のような未入信のたった一度のお願い事が、こんなにも速かにお恵みを頂けるとはどう考えましても人間の力の及ぶところでないと思わず胸をうたれ、主人と共に顔を見合せ御客様のいられるのも忘れて茫然としてしまいました。<br/><br/>これは黙っていては申訳ないと早速御本部へ御礼に上らせて頂きました。<br/><br/>その時こそ神様は現実に私達の日常生活を御守り下さるものだと思い、次女の病気もきっと治して頂けるものと信じられました。<br/><br/>日が経つに従って次女の病気も快方に向い、最近ではほとんど全治させて頂きました。<br/><br/>このような事実に直面して今までの御無礼を御詫び申し上げ、早速私が御守様を頂き、その年の暮十二月三日初めて明主様に御面会の幸を頂きました。<br/><br/>その日はただ夢中でございました。<br/><br/>かくも偉大な御力の明主様と、御歌のごとく浜の真砂にも等しい私共が、こんなにもお側近く拝顔の栄にめぐませて頂きました事を誠にうれしく思いました。<br/><br/>その御面会を頂きましてから三日目頃より事業の方がどんどん調子よく進みまして、去る七月頃工事を致しました貸金（約四十万円）が少金ながらも初めて入金の糸口がつきまして、事業の方も現金で頂けるような仕事が多くあるようになりました。<br/><br/>主人も次々のお蔭に感激致し、程なく入信させて頂きました。<br/><br/>更に御守護を頂き非常に安価にて二階を改築させて頂き、大光明如来様をお迎えさせて頂きました。<br/><br/>これより以前主人は三十数年来の難聴でございまして、医者も薬も主人自身あきらめておりましたが、この尊い御浄霊を頂くようになりましてから幾回となく御浄化を戴いておりました。<br/><br/>ちょうど昨年十二月八日の御面会の当日の事、風邪の気味でしたが押して御参詣させて頂きました折、急に鼻血が出まして側におりました私も吃驚いたしました。<br/><br/>それより耳の方がスーッと軽くなりまして、勿体なくも明主様の御声を初めてはっきりと聴かせて頂けるようになりました。<br/><br/>かくも偉大な奇蹟を賜わり、有難さに涙を浮べて明主様を伏し拝んでおりました。<br/><br/>本人にとりましてこれ程の感激は無かった事でございましょう。<br/><br/> 最近は事業も順調に進み、貸金の回収に苦しみました二、三年前の事を思い出しまして、心から感謝申し上げております。<br/><br/>又かねがね会長先生には何かと至らぬ私を御導き頂き、朝に夕にどんな御忙しい中でもやさしく御救の道を迷わぬように説いて聞かせて頂きまして「明主様への御恩報じは大勢の方々をお救いする事ですよ」と言い聞かせられ、私も及ばずながら知合の方や近所の方々に御道の御話を致し何人かを信仰へ御導きさせて頂き、又毎日僅かながら病に悩む人を御浄霊させて頂いております。<br/><br/>又、つい先日も次のようなおかげを頂きました。<br/><br/>今まで私宅には電話が無く、何かと不便でしたので、再三再四電話局の方へ交渉に参りましたが中々神田局は難しく、せっかく順調に参りますとちょっと事故が起り思うように進みませんでした。<br/><br/>しかしここにも神様の深い御仕組のございました事を私ははっきり知らせて頂きました。<br/><br/>ちょうどその頃は経済方面も、帳面合って金足らずという通り懐中の用金が自由に無く、もしも電話が架設されましたところで借金で支払わねばならぬ状態でございました。<br/><br/>ところが二月末頃にはどうにか良い方に向って参りました。<br/><br/>ちょうどその頃、電話局から局員が参りまして「近い中に加入出来ますよ」と言ってゆきました。<br/><br/>心待ちに待っておりましたところ、御近所の方が、お宅の電話番号は「五六九七ですって」と申されていましたので「この九と七が逆になれば申し分ないのだが」と申しておりました。<br/><br/>私宅のお祭は月の五日になっておりますが、その朝の事、突然局から参りまして「今日電話を架設致しますから」と言われたので家中大喜びでした。<br/><br/>そしてその局員が「お宅の電話番号は五六七九ですよ」と何気なく言いましたので、我と我が耳を疑いながら開き直してみましたが 「五六七九」とはっきり言って下さいました。<br/><br/>家中吃驚しました。<br/><br/>何という不思議な事でございましょう。<br/><br/>この番号が他の家へ行ったからとて、そんなにも喜ばれるわけではなし、私の家にとってはこんなすばらしい番号は又とない。<br/><br/>まあ有難いと家中お祭り騒ぎ、今日は又神様の祭日でしかもその日に通話が出来まして、信者さんも早速御利用下さるし、こんなにもすばらしい神様の御守護を深く感じました。<br/><br/>なお電話の架設代金も公定価にて済み、又不思議にも今月は経済的にもめぐまれ、何事も順調に進ませて頂きました。<br/><br/> 病苦も貧苦も御救い頂き、更に苦しむ人々を救わせて頂き、かつ考える事が思うように進み、奇蹟の日々を楽しく過させて頂きます事をただただ有難く感謝申し上げております。<br/><br/>どうか今後も微力ながらこの尊い御道に少しでも尽くさせて頂きたく念願致しております。<br/><br/>ここに拙き筆ではございますが賜わりました御恵の数々を謹みて御報告させて頂きました。<br/><br/> 明主様、誠に有難うございました。<br/><br/>心より厚く厚く御礼を申し上げます。<br/><br/> （昭和二十七年五月七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

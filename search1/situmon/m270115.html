@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M270115</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年1月15日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月十五日 （お伺）淋巴の機能と血液および毒素との関係につき御教えをお願い申し上げます。<br><br>心臓と肝臓というような密接な関係があるように想像されますが。<br><br> 〔御垂示〕 心臓と肝臓というような関係とは違いますがね。<br><br>つまり、頭脳とか特に使うから神経が集中するでしょう。<br><br>淋巴腺というのは、毒素の集まり場所なんです。<br><br>つまりハキ溜めなんです。<br><br>風邪を引くと熱が出るでしょう。<br><br>横から前の方は痰になって出る。<br><br>といって、ここからすぐ出るんじゃないですよ。<br><br>いったん肺に行って、それから痰になって出るんです。<br><br>つまり、毒素が一時的溜まる機関ですね。<br><br>それから――出てしまえば良いですが、ここに出ないようにいろんなことをして固めますね。<br><br>それが瘰癧（るいれき）です。<br><br>瘰癧というと、固く引っ込むようになりますね。<br><br>あれは、人間が作ったんです。<br><br>だから、実に風邪というのは結構なものなんです。<br><br>風邪を引くと熱が出て、痰や洟（はな）が出るでしょう。<br><br>そうすると、人間はいつも健康でいられるんです。<br><br>それを、固めるから、しつこくて――肺の中に固める――それで結核を作っているんですね。<br><br>あれは、実にうまく結核を作ってますよ。<br><br>あれは、よほど研究しなければね。<br><br>医学が病気を作る研究は、実に進歩してます。<br><br>ですから、その犠牲になった人間は、実にかわいそうなものですよ。<br><br> （お伺）大島一子（二十六歳）は、昭和二十三年九月肺門淋巴腺と診断され、漢方薬のみにて約半年ほどで治り、昭和二十五年三月結婚。<br><br>四月に発病し、肺浸潤と診断され、実家に帰りパス二箱を使用いたしましたが効果なく、五月国立病院に入院。<br><br>ストレプトマイシン四十本および毎月三回ずつ飲み薬を使用、だいぶ経過が良いように思われましたが、七月末レントゲン検診の結果、空洞があり手術しなければならないとのことでしたが、家族は御浄霊のありがたさを知るようになり、手術を断り退院し、八月下旬より御浄霊いただくようになりました。<br><br>その後は咳嗽と軽い下痢くらいにて、十二月ごろより頻繁な咳嗽（特に夜間に多く）しだいに食欲が減り、最近ではほとんど食欲なく衰弱を増してまいりました。<br><br>御浄霊は頭部、頸部、延髄、肩、背部、腎臓、右足付け根をいたしております。<br><br>今後どこを主として御浄霊させていただきましたら、よろしゅうございましょうか。<br><br>なお、幼少のころに肺炎を固めたことがございます。<br><br>御神体は御奉斎させていただいております。<br><br> 〔御垂示〕 半年ほどで治り――というのは、固めたんですね。<br><br>これはいくらか見当違いをやっているんだな。<br><br>随分方々やってますが、これは急所が解っていないんです。<br><br>本人でも解りますがね。<br><br>大体頸のまわりですがね。<br><br>ここ（頸部淋巴腺）をやってますか。<br><br> 「いたしております。<br><br>」 どこかに固まりがあるでしょう。<br><br>その一番固まっている所――一番熱いですね。<br><br>熱がありますね――その熱い所が一番浄化が起っているんだから、それでそこが良くなると、他が浄化が起ってくるから、それを間違えないようにする。<br><br>ここだと思っていると、そこが良くなってくると、なんぞ知らんこっちに起ってくる。<br><br>一番熱い所と一番固い所ですね。<br><br>そこが急所だからね。<br><br>熱が減ると、食欲が出てくる。<br><br>この人は肩が固いでしょう。<br><br>たぶんそうでしょう。<br><br>急所は、ここと肩と延髄の左か右かどっちかですね。<br><br>他にたいした所はありませんよ。<br><br>そうして急所を見つければ、なんでもありません。<br><br>そこの急所をやれば順々に良くなります。<br><br>急所が一つはずれているね。<br><br>その毒というのは――幼少のころ肺炎で固めた。<br><br>それからパス二箱。<br><br>ストレプトマイシン四十本。<br><br>飲み薬――それです。<br><br>その毒がなかなか出きらないんです。<br><br>だから、今言ったような具合にしてやれば、治らないことはないですよ。<br><br>なにしろ熱と咳を早く取ってやらなければね。<br><br>すると、食欲が出るから、衰弱がずっと軽くなる。<br><br>こういう肺病なんかは、急所を見つけるのが一番です。<br><br>どうかすると、頭のこういう所（真上）にあることがあるからね。<br><br>急所を見つければ、割合簡単なものです。<br><br>肺門淋巴腺なんていうのは、こういう所の毒が溶けて――肺の上の方から入って出るんですからね。<br><br>うっちゃらかしておけば、とうに治っている。<br><br>一生懸命に結核に作りかけたんですがね。<br><br>実際、現代の人間はかわいそうなものですよ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Função dos Gânglios Linfáticos e o Ponto Vital na Cura</h2>
 <p>Gostaria de solicitar os ensinamentos de Meishu-Sama a respeito da função dos gânglios linfáticos e sua relação com o sangue e as toxinas. Imagino que possa haver uma relação tão estreita quanto a existente entre o coração e o fígado.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>A origem das toxinas é clara: a pneumonia solidificada na infância, os dois lotes de PAS, as quarenta injeções de estreptomicina e a medicação oral. A eliminação completa dessas toxinas é um processo demorado. Contudo, se procederem da forma que orientei, não há por que ela não se curar. De todo modo, é prioritário eliminar a febre e a tosse o mais rápido possível. Com isso, o apetite retornará, e a debilidade diminuirá consideravelmente.</p>
 <p>Em casos de doenças pulmonares como esta, identificar o ponto vital é o mais importante. Às vezes, o ponto pode estar localizado aqui, no topo da cabeça. Uma vez encontrado o ponto vital, a questão se torna relativamente simples. A chamada linfadenopatia hilar nada mais é do que o derretimento das toxinas acumuladas nesta região do pescoço, que então adentram a parte superior dos pulmões para serem expelidas.</p>
 <p>Se a tivessem deixado em paz, já estaria curada há muito tempo. Em vez disso, empenharam-se arduamente em lhe causar tuberculose. Realmente, as pessoas da era moderna são dignas de compaixão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年1月15日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月十五日 （お伺）淋巴の機能と血液および毒素との関係につき御教えをお願い申し上げます。<br/><br/>心臓と肝臓というような密接な関係があるように想像されますが。<br/><br/> 〔御垂示〕 心臓と肝臓というような関係とは違いますがね。<br/><br/>つまり、頭脳とか特に使うから神経が集中するでしょう。<br/><br/>淋巴腺というのは、毒素の集まり場所なんです。<br/><br/>つまりハキ溜めなんです。<br/><br/>風邪を引くと熱が出るでしょう。<br/><br/>横から前の方は痰になって出る。<br/><br/>といって、ここからすぐ出るんじゃないですよ。<br/><br/>いったん肺に行って、それから痰になって出るんです。<br/><br/>つまり、毒素が一時的溜まる機関ですね。<br/><br/>それから――出てしまえば良いですが、ここに出ないようにいろんなことをして固めますね。<br/><br/>それが瘰癧（るいれき）です。<br/><br/>瘰癧というと、固く引っ込むようになりますね。<br/><br/>あれは、人間が作ったんです。<br/><br/>だから、実に風邪というのは結構なものなんです。<br/><br/>風邪を引くと熱が出て、痰や洟（はな）が出るでしょう。<br/><br/>そうすると、人間はいつも健康でいられるんです。<br/><br/>それを、固めるから、しつこくて――肺の中に固める――それで結核を作っているんですね。<br/><br/>あれは、実にうまく結核を作ってますよ。<br/><br/>あれは、よほど研究しなければね。<br/><br/>医学が病気を作る研究は、実に進歩してます。<br/><br/>ですから、その犠牲になった人間は、実にかわいそうなものですよ。<br/><br/> （お伺）大島一子（二十六歳）は、昭和二十三年九月肺門淋巴腺と診断され、漢方薬のみにて約半年ほどで治り、昭和二十五年三月結婚。<br/><br/>四月に発病し、肺浸潤と診断され、実家に帰りパス二箱を使用いたしましたが効果なく、五月国立病院に入院。<br/><br/>ストレプトマイシン四十本および毎月三回ずつ飲み薬を使用、だいぶ経過が良いように思われましたが、七月末レントゲン検診の結果、空洞があり手術しなければならないとのことでしたが、家族は御浄霊のありがたさを知るようになり、手術を断り退院し、八月下旬より御浄霊いただくようになりました。<br/><br/>その後は咳嗽と軽い下痢くらいにて、十二月ごろより頻繁な咳嗽（特に夜間に多く）しだいに食欲が減り、最近ではほとんど食欲なく衰弱を増してまいりました。<br/><br/>御浄霊は頭部、頸部、延髄、肩、背部、腎臓、右足付け根をいたしております。<br/><br/>今後どこを主として御浄霊させていただきましたら、よろしゅうございましょうか。<br/><br/>なお、幼少のころに肺炎を固めたことがございます。<br/><br/>御神体は御奉斎させていただいております。<br/><br/> 〔御垂示〕 半年ほどで治り――というのは、固めたんですね。<br/><br/>これはいくらか見当違いをやっているんだな。<br/><br/>随分方々やってますが、これは急所が解っていないんです。<br/><br/>本人でも解りますがね。<br/><br/>大体頸のまわりですがね。<br/><br/>ここ（頸部淋巴腺）をやってますか。<br/><br/> 「いたしております。<br/><br/>」 どこかに固まりがあるでしょう。<br/><br/>その一番固まっている所――一番熱いですね。<br/><br/>熱がありますね――その熱い所が一番浄化が起っているんだから、それでそこが良くなると、他が浄化が起ってくるから、それを間違えないようにする。<br/><br/>ここだと思っていると、そこが良くなってくると、なんぞ知らんこっちに起ってくる。<br/><br/>一番熱い所と一番固い所ですね。<br/><br/>そこが急所だからね。<br/><br/>熱が減ると、食欲が出てくる。<br/><br/>この人は肩が固いでしょう。<br/><br/>たぶんそうでしょう。<br/><br/>急所は、ここと肩と延髄の左か右かどっちかですね。<br/><br/>他にたいした所はありませんよ。<br/><br/>そうして急所を見つければ、なんでもありません。<br/><br/>そこの急所をやれば順々に良くなります。<br/><br/>急所が一つはずれているね。<br/><br/>その毒というのは――幼少のころ肺炎で固めた。<br/><br/>それからパス二箱。<br/><br/>ストレプトマイシン四十本。<br/><br/>飲み薬――それです。<br/><br/>その毒がなかなか出きらないんです。<br/><br/>だから、今言ったような具合にしてやれば、治らないことはないですよ。<br/><br/>なにしろ熱と咳を早く取ってやらなければね。<br/><br/>すると、食欲が出るから、衰弱がずっと軽くなる。<br/><br/>こういう肺病なんかは、急所を見つけるのが一番です。<br/><br/>どうかすると、頭のこういう所（真上）にあることがあるからね。<br/><br/>急所を見つければ、割合簡単なものです。<br/><br/>肺門淋巴腺なんていうのは、こういう所の毒が溶けて――肺の上の方から入って出るんですからね。<br/><br/>うっちゃらかしておけば、とうに治っている。<br/><br/>一生懸命に結核に作りかけたんですがね。<br/><br/>実際、現代の人間はかわいそうなものですよ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

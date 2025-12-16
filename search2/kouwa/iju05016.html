@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju05016</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（五） 四肢、皮膚 疾患、毛髪 ２ 016-040 四肢２ 016 関節炎 私は昭和二十三年三月突然左足に激痛を感じ、歩行不能となり、速かに医師の診断を求めたところ、関節炎との事で入院致し、毎日注射をしたが益々悪化するのみにて困却その極に達しました折、本教の御話を聞き、入院二週間にて退院致し、近所の方の浄霊を受けましたところ、痛みは止りました。<br><br>その後二ケ年になりますが、毎日御浄霊は受けておりますが、歩行不自由で、関節の屈伸も不自由です。<br><br>御浄霊で旧位に復するでしょうか。<br><br> 何にも手当せず放置していたら治っていたであろう。<br><br>塊が除れぬから歩けぬのである。<br><br>裏を浄霊しなくてはいけない。<br><br> 最初に痛みが取れ、後重苦しかったり麻痺したりしている。<br><br>なるべく歩くとよい。<br><br>（S25. 4.25） 017 関節炎身動き出来ず 本年三十九歳の男、三月より右膝関節炎になり、だんだん進行し、両足、両腕、両肩を侵され、五月頃より全然身動きが出来なくなり、現在に至っております。<br><br>九月中頃より御浄霊を始めました。<br><br>夫婦で御教修を戴き、御仏壇を購入、御屏風観音様を奉斎させて戴きました。<br><br>症状は浄霊後食欲がやや出て参りました。<br><br>鼠蹊部に親指大の固結があります。<br><br>脈搏は百十五前後で、心臓も弱っております。<br><br>霊的関係が御座居ましょうか。<br><br>なお、薬は静脈注射二、三本と電気マッサージ二週間余り、漢方薬塗布等を行っております。<br><br> 霊的でもない。<br><br>薬毒である。<br><br>急所を発見せよ。<br><br>治る。<br><br>（S24.10. 9） 018 歩行困難の足 私は今から十年ばかり前、右足部関節（右足首）に原因不明の自然発病とも言うべき激痛を感ずるようになりまして、昭和二十年十一月お守様をいただき、爾来、信仰によってこの病気を治そうと致して参りました。<br><br>その後以前程の激痛感はなくなりましたが、時々歩行に困難する程の痛みを今以て感じます。<br><br>これはいかなる原因でしょうか。<br><br>また、全治いたしましょうか。<br><br> これは薬である。<br><br>痛みはすべて薬毒である。<br><br>気長にやれば段々治る。<br><br>薬毒には重いのと軽いのとある。<br><br>（S24. 3. 4） 019 固まった関節リュウマチ 五十歳の女（信徒）が八年前より関節リュウマチを患い、最近十回程御浄霊させて頂きましたがはっきり致しません。<br><br>原因と御浄霊法を御教示下さい。<br><br> これは固まっている。<br><br>八年位ならコチコチになっている。<br><br>浄霊しても溶け出すのに手間が掛る。<br><br>気長にやればきっとよくなる。<br><br>押して痛い所がある。<br><br>（S24. 6.28） 020 リュウマチ 三十一歳の女、昨年十月頃より全身の関節リュウマチにて十二月頃より種々医療を加えましたが効なく、本年三月四日より御浄霊させて頂いております。<br><br>遠方の事とて二日続けては二日休むというように御浄霊致しております。<br><br>（但し休みの間は近所の信者が御浄霊致しております）ただ今で丸二ケ月続けましたが、御浄化は毎日の発汗の外、関節の腫れも幾分は減りましたが痛みは他のところへも拡がり、便所へ行くのもやっとで御座います。<br><br> 食事は発病の当時から普通一杯ずつでしたが、御浄霊を致すようになりましてから衰弱が目立って参りました。<br><br>当人の父は関節リュウマチで死亡致しております。<br><br>また、その家は現在迄に三代も人が入れ替り、以前にいた人が二階の梯子で縊死したそうで、その梯子は現在もそのまま使用しております。<br><br> これらは本人の病状と何か霊的に関係がありましょうか。<br><br>治癒の可否、日数等お伺い申し上げます。<br><br> 縊死の霊は関係ない。<br><br>リュウマチは薬毒の固まったもの、放置しておいても治る。<br><br>今迄保存法をしていたためである。<br><br>浄霊は痛む個所。<br><br>痛み出してくればよい。<br><br> 関節リュウマチで亡くなった霊が憑いていても同じ事である。<br><br>（S25. 5.13） 021 足首腫れ痛む（関節リュウマチ） 二十三年七月家族四名入信致し、翌年七月光明如来様と御屏風観音様と御奉斎させて頂きました本年五十四歳の婦人、手首の左右が腫れ、指先が曲っており、また膝と足首が腫れその箇所が痛みます。<br><br>本人の母親が同じような病気で死んでおりますが、霊的でしょうか。<br><br> 霊的ではない。<br><br>関節リュウマチである。<br><br>きっと治る。<br><br>原因は薬毒である。<br><br>薬が関節々々に固まって腫れる。<br><br>（S24. 4.23） 022 関節リュウマチ 私は岐阜県武儀郡洞戸村に住み、教員をやめて現在は小田地を耕しております。<br><br>妻かずゑ儀（五十七歳）は一昨年頃より関節リュウマチ発病し、今年二月頃より重態と相成り、目下全く自由を失い悩み苦しんでおります。<br><br>時々教導所の先生に御浄霊を御願いし、私も一生懸命にやり、大先生の御霊徳に御縋り致しております。<br><br>いかにしたら御救い戴けましょうか。<br><br> リュウマチを固めたために動かなくなったのである。<br><br>痛みのある所は必ず治る。<br><br>気長にやる。<br><br>霊が通らぬといけない。<br><br>（S24. 7. 6） 023 足立たず・手節々腫れる 私は六十七歳の女ですが、五十二歳の時に手が後ろに廻らなくなりましてその日から医者に掛りましたが、一昨年の四月頃には足も立たなくなり、手も節々が腫れて恰好も変ってしまいました。<br><br>そして昨年の四月より中本教導所の先生に浄霊して頂くようになりましてから目に見えてよくなり、何か物に縋って立てば立てるし杖もなくてもボツボツ歩けるようになりました。<br><br>ただ今でも全身が痛みます。<br><br> 今後いかにしたらよいでしょうか。<br><br>もしこのままで霊界に行ったとしたら、この痛みは依然として除れないものでしょうか。<br><br> そんな心配しなくともよい。<br><br>治る。<br><br>リュウマチである。<br><br>節々へ毒が寄るのは皆リュウマチである。<br><br>固まっているから手間どる。<br><br>（S24. 2.16） 024 関節不自由 左足関節の不自由にて膝を折る事も出来ないような状態ですが、完全にお蔭を戴きたいと存じます。<br><br>望みありましょうか。<br><br> 手術していないなら完全に治る。<br><br>関節の所へ毒が固まっている。<br><br>相当長くかかる。<br><br>膝の裏が主で、押すと痛い所がある。<br><br>（S24. 3.15） 025 膝痛 膝関節――前が痛くとも後ろをやればよく治る。<br><br>固めてあるから手間がかかる。<br><br>（S23. 8. 7） 026 足外側冷化、（手足浄霊の根元） 左手足の神経痛、頭を御浄霊約十五分で痛みは止りますが、左足の外側が大変冷たくなる訳―― 冷たくなるのは毒が溜るのである。<br><br>左手足神経痛――頭と手足関係あり。<br><br> 027 手足攣る―手足浄霊の箇所 昨年八月入信させて頂きましたものです。<br><br>私の娘（当年十八歳）は二年前より胃弱にて、現在、体がだるく手や足の筋が攣（つ）るような感じにて冷たく、痛みはありません。<br><br>特に右の方が不自由です。<br><br>家内八人共入信させて頂き、昨年十月光明如来様もおまつりさせて頂き、一生懸命浄霊を受けております。<br><br>胃腸はすっかりよくなりましたが、手足の冷たいのと筋の攣るような感じは強くなったように思います。<br><br>霊的でしょうか。<br><br>またどこを浄霊すればいいでしょうか。<br><br>お伺い申し上げます。<br><br> 手は頸筋か腕の付根である。<br><br>足は股、副腎に塊がある。<br><br>（S24. 9.16） 028 脳炎で手足ブラブラ（延髄） 日本脳炎で手足がブラブラなんですが、浄霊をすれば癒りますか。<br><br> これもおかしい。<br><br>日本脳炎で手足がブラブラする事はない。<br><br> 身体中の毒が集り、延髄が棒のようになっている。<br><br>それが小脳へ入り、固まって手足がブラブラになる。<br><br>放置しておけば治る。<br><br> 029 肺炎より手足不自由 私の主人（三十歳）、去年六月に急性肺炎になり、色々と注射や薬を用いまして一時良くなりましたが、今年二月再発、また良くなりましたが、その後手足不自由、腰から下が冷たく、痛み、耳が遠いのですが、いかがでしょうか。<br><br> 注射の薬毒のためである。<br><br>気長に浄霊すれば治る。<br><br>（S24.11.20） 030 脂手・脂足重症 二十歳になる未入信の娘、幼少より俗に言う脂足、脂手にて、冬になりますと特にひどく、ちょっと靴を穿いておりますと、靴下を通して床に足跡がつく位だそうで御座います。<br><br>これはいかなる原因で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 毒が多いのである。<br><br>相当治るに暇がかかる。<br><br>（S24.10. 2） 031 足倦怠痛・くたびれる事（浄霊箇所） 私方の伯父、昭和二十一年十一月、名古屋市中村区大正町の伯母の宅より家出したまま行方不明にて今日に至っています。<br><br>子供は不具の長男一人あって当方にて世話しています。<br><br>ある占いに見ていただきましたら、水死していると申します。<br><br>つきましては、私は昨年九月上旬頃より左足太モモより下方がだるくて時々痛みます。<br><br>浄霊をしていますが、未だ楽になったり時々痛んだりしますので、伯父の霊がついているのではないかと思いますがいかがでしょうか。<br><br>お伺い申し上げます。<br><br> これはそうではない。<br><br>薬毒が溜っている。<br><br>気長に浄霊をする。<br><br>足は裏の方が多い。<br><br>膝の裏とか、痛む所の塊をする。<br><br>股の裏等もする。<br><br>くたびれるのを老廃物が溜るなどと医学はいうが、そうではなく、歩くと浄化が起る。<br><br>足などに毒があると浄化が起り、熱が出るのである。<br><br>足に毒がないなら、歩いてくたびれぬ訳である。<br><br> 032 爪先で歩く 現在十五歳の男子、十歳の時より歩行が難しくなり、爪先で歩くようになり、段々と悪化し、現在両足は全然利かず、両手も殆ど利きません。<br><br>横臥も人の手を借り、僅かに横に向いて臥すのみで、ひどく肥満し、常に座しております。<br><br>その弟（十歳）もまた同様現在爪先にて歩行し、時々転倒致します。<br><br>同人の祖父の兄が精神病でしたが、祖父がひどく虐待しました。<br><br>祖父の妻は現在五年間中気で臥床中で御座います。<br><br>霊的に関係が御座いましょうか。<br><br>またあると致しましたらどうしたら宜敷う御座いましょうか。<br><br>御教えを賜りたく御願い申し上げます。<br><br> 足の裏に痛い所があるのである。<br><br>踵、ふくらはぎ、膝裏に毒がある。<br><br>治るであろう。<br><br>（S24.10. 1） 033 両足長さ異る子 長男が昭和十九年に小児麻痺で死亡しました。<br><br>長女は出生後異状なく育っておりますが、次女は長男と同様両足の長さが異っているのを発見しました。<br><br>それ以来浄霊をしておりますうちに今（生後十ケ月）は両足の長さは殆ど異（ちが）わぬようになり、大変嬉しく存じます。<br><br>右につきまして、長男との霊的関係がありましょうか。<br><br>また、小児麻痺について御話し下さい。<br><br>それから、右のような病気に対してはどこを重点に浄霊したらよいでしょうか。<br><br> 片方の足にどこか曇りがある。<br><br>毒のため歩く場合よく地に着かない。<br><br>発育のわるいのは足を押すとどこか痛い所がある。<br><br>足に痛い所があって地に着かぬ人がある。<br><br> 本当の小児麻痺は霊が憑る。<br><br>（S24. 3.15） 034 内偏足 二歳の子供、生れつきの内偏足ですが、原因を御説明下さい。<br><br>そして、御浄霊で治りましょうか。<br><br> 足を押してみると痛い所がある。<br><br>そこに毒が固まっているから、それを除ればよい。<br><br>そこに原因がなければ、腎臓にある。<br><br>（S24. 7.27） 035 ガニ股の原因 子供の時からのガニ股は何かの因縁で御座いましょうか。<br><br> 足に痛いところがある。<br><br>大抵は足の裏に原因あり。<br><br>査べてみる必要がある。<br><br> 036 足不自由・踵痛み攣る―急所 私の妹（二十三歳）は二十三年七月急に全身不自由となり、一ケ月程入院致しましたが経過が良くなく、その後八月より浄霊を致すようになり、大変良い方に向いましたが、左足が特に不自由で、立つ時に踵が痛み、足が攣（つ）るようになります。<br><br>なお顔も攣れています。<br><br>御浄霊の場所を御教え願います。<br><br> 左の腎臓が悪いから、そこを浄霊する。<br><br>踵だけではいけない。<br><br>尻の付根、内股等、押してみて浄霊すれば治る。<br><br>（S24. 1.26） 037 踵部の固結（急所） 本年十七歳の男子ですが、最近右足踵にて、踵部に鳩卵大の固結があり、その深部に化膿しているように思われます。<br><br>この人はどこを浄霊すれば良いのでしょうか。<br><br> 臀部の足の付け根と膝裏を浄霊する。<br><br>ウンと腫れて膿が出る。<br><br>上の方に原因がある。<br><br>必ずそこに元がある。<br><br>（S25. 4. 7） 038 足指火傷でくっつく ある信者の子供（満一歳）、昨年九月二十七日、囲炉裏にて火傷致しましたが、それ以来両親が一心にお縋りして御浄霊につとめ、傷は間もなく癒えましたが、両足の親指と第二指とがくっつき合って離れません。<br><br>今後このまま御浄霊を続けましたら離れるので御座いましょうか。<br><br> 左・三本 右・二本 気長にやっていれば治る。<br><br>足の裏からする。<br><br> （S25. 3.21） 039 足指攣る 六十四歳の女です。<br><br>左の足の小指と薬指二本が時々痛んで攣るのですが、治るでしょうか。<br><br> 大抵注射の毒である。<br><br>腰から下へ溜るものである。<br><br>小さい毒の塊は指で浄霊する。<br><br>きっと治る。<br><br>（S24.11.26） 040 足首より半身痛み、家紛糾事について 私は昭和二十年頃から左足首が少々痛んでおりましたが、次第に重くなり、左半身が痛みますので、お灸と鍼を一生懸命やりました所、痛みは止りましたが、全身次第に力がなくなり、今日では歩くことさえ出来ませず、嬉しい話や悲しい話を致しますと全身がふるえ、だるくて長く坐っていることも出来ません。<br><br>主人の最初の妻は離縁となり、二回目の妻は二女を残して一ケ月の病気で亡くなり、長女四歳、次女二歳の時に私が嫁いで参りました。<br><br>嫁いで四ケ月目に次女は病気で亡くなりました。<br><br>その子の世話は姑が全部やってくれましたので私は致しませんでした。<br><br>その後、私の子、男子三人と女子四人が生れましたが、どちらも上から二人ずつ都合四人病死致しました。<br><br>その後、分家の叔父の跡を継がせるために、昭和十七年、先妻の長女に聟養子を取り、三年程同居しておりましたが、子供も出来ましたのでただ今では別居しておりますが、親子六人共未入信で御座います。<br><br>私の家は夫婦と子供三人で、昨年二月入信させて戴き、また本年九月大光明如来様をお斎りして、御浄霊も一生懸命させて戴いております。<br><br>御浄化を戴いていることとは存じておりますが、いかがで御座いましょうか。<br><br>御教えの程御願い申し上げます。<br><br> 薬毒が足首へ固まり、腫れて毒が出るものである。<br><br>足首の固まったためにこういう事もある。<br><br>霊的と見る事も断定は出来ない。<br><br> 複雑した事はそのままにしておく。<br><br>信仰によって段々徐れてゆく。<br><br>（S24.12. 1）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte de Curar (V): Moléstias dos Membros, da Pele e dos Cabelos</h2>
 <p><strong>016 Artrite</strong></p>
@@ -213,5 +365,48 @@ Pé direito: dois dedos.</p>
 </font></p>
 <p>　</p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（五） 四肢、皮膚 疾患、毛髪 ２ 016-040 四肢２ 016 関節炎 私は昭和二十三年三月突然左足に激痛を感じ、歩行不能となり、速かに医師の診断を求めたところ、関節炎との事で入院致し、毎日注射をしたが益々悪化するのみにて困却その極に達しました折、本教の御話を聞き、入院二週間にて退院致し、近所の方の浄霊を受けましたところ、痛みは止りました。<br/><br/>その後二ケ年になりますが、毎日御浄霊は受けておりますが、歩行不自由で、関節の屈伸も不自由です。<br/><br/>御浄霊で旧位に復するでしょうか。<br/><br/> 何にも手当せず放置していたら治っていたであろう。<br/><br/>塊が除れぬから歩けぬのである。<br/><br/>裏を浄霊しなくてはいけない。<br/><br/> 最初に痛みが取れ、後重苦しかったり麻痺したりしている。<br/><br/>なるべく歩くとよい。<br/><br/>（S25. 4.25） 017 関節炎身動き出来ず 本年三十九歳の男、三月より右膝関節炎になり、だんだん進行し、両足、両腕、両肩を侵され、五月頃より全然身動きが出来なくなり、現在に至っております。<br/><br/>九月中頃より御浄霊を始めました。<br/><br/>夫婦で御教修を戴き、御仏壇を購入、御屏風観音様を奉斎させて戴きました。<br/><br/>症状は浄霊後食欲がやや出て参りました。<br/><br/>鼠蹊部に親指大の固結があります。<br/><br/>脈搏は百十五前後で、心臓も弱っております。<br/><br/>霊的関係が御座居ましょうか。<br/><br/>なお、薬は静脈注射二、三本と電気マッサージ二週間余り、漢方薬塗布等を行っております。<br/><br/> 霊的でもない。<br/><br/>薬毒である。<br/><br/>急所を発見せよ。<br/><br/>治る。<br/><br/>（S24.10. 9） 018 歩行困難の足 私は今から十年ばかり前、右足部関節（右足首）に原因不明の自然発病とも言うべき激痛を感ずるようになりまして、昭和二十年十一月お守様をいただき、爾来、信仰によってこの病気を治そうと致して参りました。<br/><br/>その後以前程の激痛感はなくなりましたが、時々歩行に困難する程の痛みを今以て感じます。<br/><br/>これはいかなる原因でしょうか。<br/><br/>また、全治いたしましょうか。<br/><br/> これは薬である。<br/><br/>痛みはすべて薬毒である。<br/><br/>気長にやれば段々治る。<br/><br/>薬毒には重いのと軽いのとある。<br/><br/>（S24. 3. 4） 019 固まった関節リュウマチ 五十歳の女（信徒）が八年前より関節リュウマチを患い、最近十回程御浄霊させて頂きましたがはっきり致しません。<br/><br/>原因と御浄霊法を御教示下さい。<br/><br/> これは固まっている。<br/><br/>八年位ならコチコチになっている。<br/><br/>浄霊しても溶け出すのに手間が掛る。<br/><br/>気長にやればきっとよくなる。<br/><br/>押して痛い所がある。<br/><br/>（S24. 6.28） 020 リュウマチ 三十一歳の女、昨年十月頃より全身の関節リュウマチにて十二月頃より種々医療を加えましたが効なく、本年三月四日より御浄霊させて頂いております。<br/><br/>遠方の事とて二日続けては二日休むというように御浄霊致しております。<br/><br/>（但し休みの間は近所の信者が御浄霊致しております）ただ今で丸二ケ月続けましたが、御浄化は毎日の発汗の外、関節の腫れも幾分は減りましたが痛みは他のところへも拡がり、便所へ行くのもやっとで御座います。<br/><br/> 食事は発病の当時から普通一杯ずつでしたが、御浄霊を致すようになりましてから衰弱が目立って参りました。<br/><br/>当人の父は関節リュウマチで死亡致しております。<br/><br/>また、その家は現在迄に三代も人が入れ替り、以前にいた人が二階の梯子で縊死したそうで、その梯子は現在もそのまま使用しております。<br/><br/> これらは本人の病状と何か霊的に関係がありましょうか。<br/><br/>治癒の可否、日数等お伺い申し上げます。<br/><br/> 縊死の霊は関係ない。<br/><br/>リュウマチは薬毒の固まったもの、放置しておいても治る。<br/><br/>今迄保存法をしていたためである。<br/><br/>浄霊は痛む個所。<br/><br/>痛み出してくればよい。<br/><br/> 関節リュウマチで亡くなった霊が憑いていても同じ事である。<br/><br/>（S25. 5.13） 021 足首腫れ痛む（関節リュウマチ） 二十三年七月家族四名入信致し、翌年七月光明如来様と御屏風観音様と御奉斎させて頂きました本年五十四歳の婦人、手首の左右が腫れ、指先が曲っており、また膝と足首が腫れその箇所が痛みます。<br/><br/>本人の母親が同じような病気で死んでおりますが、霊的でしょうか。<br/><br/> 霊的ではない。<br/><br/>関節リュウマチである。<br/><br/>きっと治る。<br/><br/>原因は薬毒である。<br/><br/>薬が関節々々に固まって腫れる。<br/><br/>（S24. 4.23） 022 関節リュウマチ 私は岐阜県武儀郡洞戸村に住み、教員をやめて現在は小田地を耕しております。<br/><br/>妻かずゑ儀（五十七歳）は一昨年頃より関節リュウマチ発病し、今年二月頃より重態と相成り、目下全く自由を失い悩み苦しんでおります。<br/><br/>時々教導所の先生に御浄霊を御願いし、私も一生懸命にやり、大先生の御霊徳に御縋り致しております。<br/><br/>いかにしたら御救い戴けましょうか。<br/><br/> リュウマチを固めたために動かなくなったのである。<br/><br/>痛みのある所は必ず治る。<br/><br/>気長にやる。<br/><br/>霊が通らぬといけない。<br/><br/>（S24. 7. 6） 023 足立たず・手節々腫れる 私は六十七歳の女ですが、五十二歳の時に手が後ろに廻らなくなりましてその日から医者に掛りましたが、一昨年の四月頃には足も立たなくなり、手も節々が腫れて恰好も変ってしまいました。<br/><br/>そして昨年の四月より中本教導所の先生に浄霊して頂くようになりましてから目に見えてよくなり、何か物に縋って立てば立てるし杖もなくてもボツボツ歩けるようになりました。<br/><br/>ただ今でも全身が痛みます。<br/><br/> 今後いかにしたらよいでしょうか。<br/><br/>もしこのままで霊界に行ったとしたら、この痛みは依然として除れないものでしょうか。<br/><br/> そんな心配しなくともよい。<br/><br/>治る。<br/><br/>リュウマチである。<br/><br/>節々へ毒が寄るのは皆リュウマチである。<br/><br/>固まっているから手間どる。<br/><br/>（S24. 2.16） 024 関節不自由 左足関節の不自由にて膝を折る事も出来ないような状態ですが、完全にお蔭を戴きたいと存じます。<br/><br/>望みありましょうか。<br/><br/> 手術していないなら完全に治る。<br/><br/>関節の所へ毒が固まっている。<br/><br/>相当長くかかる。<br/><br/>膝の裏が主で、押すと痛い所がある。<br/><br/>（S24. 3.15） 025 膝痛 膝関節――前が痛くとも後ろをやればよく治る。<br/><br/>固めてあるから手間がかかる。<br/><br/>（S23. 8. 7） 026 足外側冷化、（手足浄霊の根元） 左手足の神経痛、頭を御浄霊約十五分で痛みは止りますが、左足の外側が大変冷たくなる訳―― 冷たくなるのは毒が溜るのである。<br/><br/>左手足神経痛――頭と手足関係あり。<br/><br/> 027 手足攣る―手足浄霊の箇所 昨年八月入信させて頂きましたものです。<br/><br/>私の娘（当年十八歳）は二年前より胃弱にて、現在、体がだるく手や足の筋が攣（つ）るような感じにて冷たく、痛みはありません。<br/><br/>特に右の方が不自由です。<br/><br/>家内八人共入信させて頂き、昨年十月光明如来様もおまつりさせて頂き、一生懸命浄霊を受けております。<br/><br/>胃腸はすっかりよくなりましたが、手足の冷たいのと筋の攣るような感じは強くなったように思います。<br/><br/>霊的でしょうか。<br/><br/>またどこを浄霊すればいいでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 手は頸筋か腕の付根である。<br/><br/>足は股、副腎に塊がある。<br/><br/>（S24. 9.16） 028 脳炎で手足ブラブラ（延髄） 日本脳炎で手足がブラブラなんですが、浄霊をすれば癒りますか。<br/><br/> これもおかしい。<br/><br/>日本脳炎で手足がブラブラする事はない。<br/><br/> 身体中の毒が集り、延髄が棒のようになっている。<br/><br/>それが小脳へ入り、固まって手足がブラブラになる。<br/><br/>放置しておけば治る。<br/><br/> 029 肺炎より手足不自由 私の主人（三十歳）、去年六月に急性肺炎になり、色々と注射や薬を用いまして一時良くなりましたが、今年二月再発、また良くなりましたが、その後手足不自由、腰から下が冷たく、痛み、耳が遠いのですが、いかがでしょうか。<br/><br/> 注射の薬毒のためである。<br/><br/>気長に浄霊すれば治る。<br/><br/>（S24.11.20） 030 脂手・脂足重症 二十歳になる未入信の娘、幼少より俗に言う脂足、脂手にて、冬になりますと特にひどく、ちょっと靴を穿いておりますと、靴下を通して床に足跡がつく位だそうで御座います。<br/><br/>これはいかなる原因で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 毒が多いのである。<br/><br/>相当治るに暇がかかる。<br/><br/>（S24.10. 2） 031 足倦怠痛・くたびれる事（浄霊箇所） 私方の伯父、昭和二十一年十一月、名古屋市中村区大正町の伯母の宅より家出したまま行方不明にて今日に至っています。<br/><br/>子供は不具の長男一人あって当方にて世話しています。<br/><br/>ある占いに見ていただきましたら、水死していると申します。<br/><br/>つきましては、私は昨年九月上旬頃より左足太モモより下方がだるくて時々痛みます。<br/><br/>浄霊をしていますが、未だ楽になったり時々痛んだりしますので、伯父の霊がついているのではないかと思いますがいかがでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> これはそうではない。<br/><br/>薬毒が溜っている。<br/><br/>気長に浄霊をする。<br/><br/>足は裏の方が多い。<br/><br/>膝の裏とか、痛む所の塊をする。<br/><br/>股の裏等もする。<br/><br/>くたびれるのを老廃物が溜るなどと医学はいうが、そうではなく、歩くと浄化が起る。<br/><br/>足などに毒があると浄化が起り、熱が出るのである。<br/><br/>足に毒がないなら、歩いてくたびれぬ訳である。<br/><br/> 032 爪先で歩く 現在十五歳の男子、十歳の時より歩行が難しくなり、爪先で歩くようになり、段々と悪化し、現在両足は全然利かず、両手も殆ど利きません。<br/><br/>横臥も人の手を借り、僅かに横に向いて臥すのみで、ひどく肥満し、常に座しております。<br/><br/>その弟（十歳）もまた同様現在爪先にて歩行し、時々転倒致します。<br/><br/>同人の祖父の兄が精神病でしたが、祖父がひどく虐待しました。<br/><br/>祖父の妻は現在五年間中気で臥床中で御座います。<br/><br/>霊的に関係が御座いましょうか。<br/><br/>またあると致しましたらどうしたら宜敷う御座いましょうか。<br/><br/>御教えを賜りたく御願い申し上げます。<br/><br/> 足の裏に痛い所があるのである。<br/><br/>踵、ふくらはぎ、膝裏に毒がある。<br/><br/>治るであろう。<br/><br/>（S24.10. 1） 033 両足長さ異る子 長男が昭和十九年に小児麻痺で死亡しました。<br/><br/>長女は出生後異状なく育っておりますが、次女は長男と同様両足の長さが異っているのを発見しました。<br/><br/>それ以来浄霊をしておりますうちに今（生後十ケ月）は両足の長さは殆ど異（ちが）わぬようになり、大変嬉しく存じます。<br/><br/>右につきまして、長男との霊的関係がありましょうか。<br/><br/>また、小児麻痺について御話し下さい。<br/><br/>それから、右のような病気に対してはどこを重点に浄霊したらよいでしょうか。<br/><br/> 片方の足にどこか曇りがある。<br/><br/>毒のため歩く場合よく地に着かない。<br/><br/>発育のわるいのは足を押すとどこか痛い所がある。<br/><br/>足に痛い所があって地に着かぬ人がある。<br/><br/> 本当の小児麻痺は霊が憑る。<br/><br/>（S24. 3.15） 034 内偏足 二歳の子供、生れつきの内偏足ですが、原因を御説明下さい。<br/><br/>そして、御浄霊で治りましょうか。<br/><br/> 足を押してみると痛い所がある。<br/><br/>そこに毒が固まっているから、それを除ればよい。<br/><br/>そこに原因がなければ、腎臓にある。<br/><br/>（S24. 7.27） 035 ガニ股の原因 子供の時からのガニ股は何かの因縁で御座いましょうか。<br/><br/> 足に痛いところがある。<br/><br/>大抵は足の裏に原因あり。<br/><br/>査べてみる必要がある。<br/><br/> 036 足不自由・踵痛み攣る―急所 私の妹（二十三歳）は二十三年七月急に全身不自由となり、一ケ月程入院致しましたが経過が良くなく、その後八月より浄霊を致すようになり、大変良い方に向いましたが、左足が特に不自由で、立つ時に踵が痛み、足が攣（つ）るようになります。<br/><br/>なお顔も攣れています。<br/><br/>御浄霊の場所を御教え願います。<br/><br/> 左の腎臓が悪いから、そこを浄霊する。<br/><br/>踵だけではいけない。<br/><br/>尻の付根、内股等、押してみて浄霊すれば治る。<br/><br/>（S24. 1.26） 037 踵部の固結（急所） 本年十七歳の男子ですが、最近右足踵にて、踵部に鳩卵大の固結があり、その深部に化膿しているように思われます。<br/><br/>この人はどこを浄霊すれば良いのでしょうか。<br/><br/> 臀部の足の付け根と膝裏を浄霊する。<br/><br/>ウンと腫れて膿が出る。<br/><br/>上の方に原因がある。<br/><br/>必ずそこに元がある。<br/><br/>（S25. 4. 7） 038 足指火傷でくっつく ある信者の子供（満一歳）、昨年九月二十七日、囲炉裏にて火傷致しましたが、それ以来両親が一心にお縋りして御浄霊につとめ、傷は間もなく癒えましたが、両足の親指と第二指とがくっつき合って離れません。<br/><br/>今後このまま御浄霊を続けましたら離れるので御座いましょうか。<br/><br/> 左・三本 右・二本 気長にやっていれば治る。<br/><br/>足の裏からする。<br/><br/> （S25. 3.21） 039 足指攣る 六十四歳の女です。<br/><br/>左の足の小指と薬指二本が時々痛んで攣るのですが、治るでしょうか。<br/><br/> 大抵注射の毒である。<br/><br/>腰から下へ溜るものである。<br/><br/>小さい毒の塊は指で浄霊する。<br/><br/>きっと治る。<br/><br/>（S24.11.26） 040 足首より半身痛み、家紛糾事について 私は昭和二十年頃から左足首が少々痛んでおりましたが、次第に重くなり、左半身が痛みますので、お灸と鍼を一生懸命やりました所、痛みは止りましたが、全身次第に力がなくなり、今日では歩くことさえ出来ませず、嬉しい話や悲しい話を致しますと全身がふるえ、だるくて長く坐っていることも出来ません。<br/><br/>主人の最初の妻は離縁となり、二回目の妻は二女を残して一ケ月の病気で亡くなり、長女四歳、次女二歳の時に私が嫁いで参りました。<br/><br/>嫁いで四ケ月目に次女は病気で亡くなりました。<br/><br/>その子の世話は姑が全部やってくれましたので私は致しませんでした。<br/><br/>その後、私の子、男子三人と女子四人が生れましたが、どちらも上から二人ずつ都合四人病死致しました。<br/><br/>その後、分家の叔父の跡を継がせるために、昭和十七年、先妻の長女に聟養子を取り、三年程同居しておりましたが、子供も出来ましたのでただ今では別居しておりますが、親子六人共未入信で御座います。<br/><br/>私の家は夫婦と子供三人で、昨年二月入信させて戴き、また本年九月大光明如来様をお斎りして、御浄霊も一生懸命させて戴いております。<br/><br/>御浄化を戴いていることとは存じておりますが、いかがで御座いましょうか。<br/><br/>御教えの程御願い申し上げます。<br/><br/> 薬毒が足首へ固まり、腫れて毒が出るものである。<br/><br/>足首の固まったためにこういう事もある。<br/><br/>霊的と見る事も断定は出来ない。<br/><br/> 複雑した事はそのままにしておく。<br/><br/>信仰によって段々徐れてゆく。<br/><br/>（S24.12. 1）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

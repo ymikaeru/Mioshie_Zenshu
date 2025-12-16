@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280115</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月15日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月十五日 社会的にそうとう立派なある人が、この間の判決をみて「なぜ控訴しないか」と言うのです。<br><br>それで私は「控訴してもどうせ勝てるわけではないし、勝ったとしたところで、たいしたおもしろ味がないから止した。<br><br>私はもっと大きく仇を討ってやろうと思っている」と言ったら「いったいどういうわけですか」と言うから「私が今に大いに出世して世界的になれば、あれほどの人をどうしてあんなに酷くいじめたのだろうと言って、大いに煩悶するだろうから、その方がかえって深刻な仇討ちではないか」と言ったのです。<br><br> これは昔から例があります。<br><br>松島に瑞巌寺というお寺がありますが、その和尚の話で有名な話ですから聞いているでしょう。<br><br>その人は若い時分に伊達の殿様の足軽になって、いわゆる草履取をしていたのです。<br><br>そうして雪の降った寒い日に、草履が冷たいといけないと思って、懐に入れて温めたのです。<br><br>それを殿様がはいたところが温かいので「貴様はいていたのだろう」と、けとばしたのです。<br><br>それで悔しくてしようがないので、そこを飛び出して死のうと思って、首をくくったか川にはいったか、どうかしたのです。<br><br>するとそこを通りかかった坊さんが助けて「お前はどうして自殺をするのか」と言うので、実はこうこういうわけで悔しくてたまらないから、自分の気持ちを分かってもらいたいために死ぬのだと言ったのです。<br><br>そこでその坊さんは「お前の考え方はごく小さい。<br><br>それでは殿様に対する恨みを晴らすといったところで、わずかなもので、すぐ忘れられてしまう。<br><br>それよりももっと大きな仇を討て」と言ったので、「どうしたらいいか」と言うと、「お前がうんと出世をして殿様を見返してやるのだ」と、懇々と諭したので、自分もその気になってうんと勉強して、日本でもそうとうな坊さんになったのです。<br><br>その結果支那に渡って、支那でまた修行したのです。<br><br>その時分に支那に行くというのは、今外国に行くのより、もっとたいしたものなのです。<br><br>それで支那から帰ってしかるべき寺の住職になったのです。<br><br>なにしろ学問はあるし、立派な人格者としてたいへんな評判になったのです。<br><br>それで故郷が仙台だということを仙台の伊達の殿様が知って、そういう立派な坊さんならぜひ招待したいというので、呼んで初めて会ったのです。<br><br>そこで殿様は、よく来てくれたとたいへんに喜んで歓迎したのです。<br><br>それでたいへん優待され、帰りに、ぜひお土産を上げたいと思って持ってきた物があると言って、懐から立派な包みにつつんである土産物を、恭しく殿様の前に出したのです。<br><br>見ると草履なので、殿様はアッケにとられていたのです。<br><br>それで坊さんは「不思議に思われるのはあたりまえです。<br><br>実はこれには謂れがあります」と、その謂れを話したので、殿様は恐縮して「そのお詫びの印にあなたに寺を寄進しよう」というので建ったのが松島の瑞巌寺です。<br><br>その人は瑞巌和尚というのです。<br><br>その仇討ちですが、非常におもしろいと思います。<br><br> それからもう一つは、これも有名な話ですが、当時たいへん有名な坊さんで白隠禅師という人がいました。<br><br>ところでその当時のそうとうな商人の娘が妊娠したのです。<br><br>それで娘は、本当のことを言うと親がなんと言うか分からないというので、それを怖れて口から出まかせに白隠様だと言ったのです。<br><br>それで親父が怒って、あんな立派な名僧がこんなことをするとは、とんでもない生臭坊主だというので、檀家を集めて相談の結果追放したので、白隠は寺から出て宿無し坊主になって、さんざん苦労をして流浪したのです。<br><br>ところがそのうちに娘が本当のことを言ったので、それはたいへんだというわけでふたたび鄭重に迎えられて、以前より偉い坊さんだということになったのです。<br><br> ですから人間はごく酷い目に遭わされた時には黙っているのです。<br><br>そうしてこっちが偉くなればいいのです。<br><br>そうすれば相手は「こんなたいした人をあんな酷い目に遭わして、自分はなんたる愚かだったか、実に申し訳ない」という心の煩悶を起すのです。<br><br>この仇討ちが一番いいのです。<br><br>ですからふつうの仕返しというのは、ごく小さいことで、またそのために恨みを残すということになります。<br><br>私がその話をしたところが、その人は非常に感心して「なるほどそうです。<br><br>宗教家らしいお考えです」と言ってました。<br><br>結局キリストを磔（はりつけ）にしたヘロデ王も、霊界に行ってどんなに後悔しているか分かりません。<br><br>それからお釈迦さんに対する提婆（だいば）とか、日蓮上人に対する北条時政という人たちは、無論生きている時はそうでもなかったが、霊界に行ってどんなに苦しんだか分かりません。<br><br> それから今度出版した『アメリカを救う』の本は、まだ徹底してないのです。<br><br>ですからあれを読んだ人は必ずもっと徹底したものを読みたくなるのは当然ですから、そこでそのためばかりではなく私は前から、最後には医学について誰が読んでも分かるような、そうしてありのままを忌憚なく説こうと思っていたのですが、ちょうどそういうことのために急に書きたくなったので書き始めたのです。<br><br>今一つは、今まで私が書いたものでは、まだ遠慮して書いたような点があるのです。<br><br>というのは、やはり時期の関係もあるし、教団が世間から知られていないという点や、私などが誤解されていた点とか、いろいろあったので、どうも思いきって書く気がしないのです。<br><br>というのは、まだ救世教にならない時とか、救世教になってからでも、まだ世間が本当に知らないうちにこういうものを書いても馬鹿にして、むしろ気違いじみたように見られる懸念がありますから、そこでなるべく遅らせていたのですが、もうそろそろこれだけのものを書いても、なるほどと思う時期になったと思うのです。<br><br>それからまた一方早く書いて知らせないと、人類を救う上において、苦しむ人が早く救われませんから、そういういろんな点において書き始めたのです。<br><br>これこそ、病気に対することと、浄霊でなおるというような理論を、微に入り細にわたって徹底して書いてありますから、これが結局救世教のもっとも中心になり、『バイブル』のようなものになります。<br><br>最初のうちは病気の説明が主ですが、だんだん神様のいろいろなお働きまで書いていきますから、分からせるにはこれが一番適当した本になるわけです。<br><br>これはなるべく早く出そうと思いますが、もう半年くらいたったら出せるだろうと思います。<br><br>これはアメリカだけでなく世界中に配るつもりです。<br><br>その最初の方のが少し書けましたから、それを今読ませます。<br><br> （御論文『医学革命の書』「序文」「二、医学は迷信なり」「三、病気とは何ぞや」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Mais Profunda Vingança</h2>
 <p>Certa pessoa de elevada posição social, ao tomar conhecimento da recente sentença, questionou-me: “Por que não recorre?”. Respondi-lhe: “Recorrer seria inútil, pois a vitória é improvável e, mesmo que eu vencesse, a satisfação seria ínfima. Por essa razão, desisti. Almejo uma desforra muito maior”. Diante de sua indagação sobre o que eu queria dizer com aquilo, expliquei: “Quando eu alcançar grande proeminência e me tornar uma figura mundial, eles hão de se perguntar: ‘Como pudemos tratar com tamanha crueldade uma pessoa de tal magnitude?’. Serão, então, tomados por um profundo tormento, e não seria esta uma vindita consideravelmente mais profunda?”.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Passemos agora a outro assunto. O livro recém-publicado, “A Salvação da América”, não é ainda uma obra exaustiva. É natural, portanto, que seus leitores anseiem por algo mais completo. Não apenas por essa razão, mas também por um antigo desejo de escrever uma obra sobre medicina que fosse acessível a todos e que expusesse a verdade sem rodeios nem reservas, senti um súbito impulso de começar a escrevê-la. Ademais, há pontos em meus escritos anteriores em que me expressei com certa reserva. Isso se deveu a diversas circunstâncias, como o momento inoportuno, o fato de nossa Igreja ainda ser pouco conhecida e os equívocos que pairavam sobre minha pessoa. Eu não me sentia à vontade para escrever com total liberdade. Se eu tivesse publicado uma obra desta natureza antes da fundação da Sekaikyuseikyou, ou mesmo logo após, quando o mundo ainda nos desconhecia, correria o risco de ser ridicularizado, ou mesmo de ser visto como um insensato. Por isso, adiei o projeto. Creio, todavia, que chegou o momento em que um escrito desta envergadura pode ser compreendido. Por outro lado, há a urgência: se eu não o redigir e publicar o quanto antes, a salvação da humanidade será retardada, e muitos que sofrem não encontrarão alívio.</p>
 <p>Por todas essas razões, dei início a este trabalho. Nele, exponho de forma minuciosa e exaustiva a teoria sobre as doenças e sua cura pelo Johrei. Esta obra se tornará o verdadeiro cerne da Sekaikyuseikyou, uma espécie de “Bíblia” para nossos seguidores. Embora comece com explanações sobre as enfermidades, gradualmente, abordarei as múltiplas atuações de Deus, tornando-se, assim, o veículo mais apropriado para a compreensão de nossos ensinamentos. Pretendo publicá-la o mais breve possível, talvez dentro de seis meses. Meu plano é distribuí-la por todo o mundo, não apenas na América. A primeira parte já está concluída, e peço que a leiam agora.</p>
 <p>(Leitura do Manuscrito “O Livro da Revolução da Medicina”: “Prefácio”, “II - A Medicina é uma Superstição” e “III - O que é a Doença?”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月15日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月十五日 社会的にそうとう立派なある人が、この間の判決をみて「なぜ控訴しないか」と言うのです。<br/><br/>それで私は「控訴してもどうせ勝てるわけではないし、勝ったとしたところで、たいしたおもしろ味がないから止した。<br/><br/>私はもっと大きく仇を討ってやろうと思っている」と言ったら「いったいどういうわけですか」と言うから「私が今に大いに出世して世界的になれば、あれほどの人をどうしてあんなに酷くいじめたのだろうと言って、大いに煩悶するだろうから、その方がかえって深刻な仇討ちではないか」と言ったのです。<br/><br/> これは昔から例があります。<br/><br/>松島に瑞巌寺というお寺がありますが、その和尚の話で有名な話ですから聞いているでしょう。<br/><br/>その人は若い時分に伊達の殿様の足軽になって、いわゆる草履取をしていたのです。<br/><br/>そうして雪の降った寒い日に、草履が冷たいといけないと思って、懐に入れて温めたのです。<br/><br/>それを殿様がはいたところが温かいので「貴様はいていたのだろう」と、けとばしたのです。<br/><br/>それで悔しくてしようがないので、そこを飛び出して死のうと思って、首をくくったか川にはいったか、どうかしたのです。<br/><br/>するとそこを通りかかった坊さんが助けて「お前はどうして自殺をするのか」と言うので、実はこうこういうわけで悔しくてたまらないから、自分の気持ちを分かってもらいたいために死ぬのだと言ったのです。<br/><br/>そこでその坊さんは「お前の考え方はごく小さい。<br/><br/>それでは殿様に対する恨みを晴らすといったところで、わずかなもので、すぐ忘れられてしまう。<br/><br/>それよりももっと大きな仇を討て」と言ったので、「どうしたらいいか」と言うと、「お前がうんと出世をして殿様を見返してやるのだ」と、懇々と諭したので、自分もその気になってうんと勉強して、日本でもそうとうな坊さんになったのです。<br/><br/>その結果支那に渡って、支那でまた修行したのです。<br/><br/>その時分に支那に行くというのは、今外国に行くのより、もっとたいしたものなのです。<br/><br/>それで支那から帰ってしかるべき寺の住職になったのです。<br/><br/>なにしろ学問はあるし、立派な人格者としてたいへんな評判になったのです。<br/><br/>それで故郷が仙台だということを仙台の伊達の殿様が知って、そういう立派な坊さんならぜひ招待したいというので、呼んで初めて会ったのです。<br/><br/>そこで殿様は、よく来てくれたとたいへんに喜んで歓迎したのです。<br/><br/>それでたいへん優待され、帰りに、ぜひお土産を上げたいと思って持ってきた物があると言って、懐から立派な包みにつつんである土産物を、恭しく殿様の前に出したのです。<br/><br/>見ると草履なので、殿様はアッケにとられていたのです。<br/><br/>それで坊さんは「不思議に思われるのはあたりまえです。<br/><br/>実はこれには謂れがあります」と、その謂れを話したので、殿様は恐縮して「そのお詫びの印にあなたに寺を寄進しよう」というので建ったのが松島の瑞巌寺です。<br/><br/>その人は瑞巌和尚というのです。<br/><br/>その仇討ちですが、非常におもしろいと思います。<br/><br/> それからもう一つは、これも有名な話ですが、当時たいへん有名な坊さんで白隠禅師という人がいました。<br/><br/>ところでその当時のそうとうな商人の娘が妊娠したのです。<br/><br/>それで娘は、本当のことを言うと親がなんと言うか分からないというので、それを怖れて口から出まかせに白隠様だと言ったのです。<br/><br/>それで親父が怒って、あんな立派な名僧がこんなことをするとは、とんでもない生臭坊主だというので、檀家を集めて相談の結果追放したので、白隠は寺から出て宿無し坊主になって、さんざん苦労をして流浪したのです。<br/><br/>ところがそのうちに娘が本当のことを言ったので、それはたいへんだというわけでふたたび鄭重に迎えられて、以前より偉い坊さんだということになったのです。<br/><br/> ですから人間はごく酷い目に遭わされた時には黙っているのです。<br/><br/>そうしてこっちが偉くなればいいのです。<br/><br/>そうすれば相手は「こんなたいした人をあんな酷い目に遭わして、自分はなんたる愚かだったか、実に申し訳ない」という心の煩悶を起すのです。<br/><br/>この仇討ちが一番いいのです。<br/><br/>ですからふつうの仕返しというのは、ごく小さいことで、またそのために恨みを残すということになります。<br/><br/>私がその話をしたところが、その人は非常に感心して「なるほどそうです。<br/><br/>宗教家らしいお考えです」と言ってました。<br/><br/>結局キリストを磔（はりつけ）にしたヘロデ王も、霊界に行ってどんなに後悔しているか分かりません。<br/><br/>それからお釈迦さんに対する提婆（だいば）とか、日蓮上人に対する北条時政という人たちは、無論生きている時はそうでもなかったが、霊界に行ってどんなに苦しんだか分かりません。<br/><br/> それから今度出版した『アメリカを救う』の本は、まだ徹底してないのです。<br/><br/>ですからあれを読んだ人は必ずもっと徹底したものを読みたくなるのは当然ですから、そこでそのためばかりではなく私は前から、最後には医学について誰が読んでも分かるような、そうしてありのままを忌憚なく説こうと思っていたのですが、ちょうどそういうことのために急に書きたくなったので書き始めたのです。<br/><br/>今一つは、今まで私が書いたものでは、まだ遠慮して書いたような点があるのです。<br/><br/>というのは、やはり時期の関係もあるし、教団が世間から知られていないという点や、私などが誤解されていた点とか、いろいろあったので、どうも思いきって書く気がしないのです。<br/><br/>というのは、まだ救世教にならない時とか、救世教になってからでも、まだ世間が本当に知らないうちにこういうものを書いても馬鹿にして、むしろ気違いじみたように見られる懸念がありますから、そこでなるべく遅らせていたのですが、もうそろそろこれだけのものを書いても、なるほどと思う時期になったと思うのです。<br/><br/>それからまた一方早く書いて知らせないと、人類を救う上において、苦しむ人が早く救われませんから、そういういろんな点において書き始めたのです。<br/><br/>これこそ、病気に対することと、浄霊でなおるというような理論を、微に入り細にわたって徹底して書いてありますから、これが結局救世教のもっとも中心になり、『バイブル』のようなものになります。<br/><br/>最初のうちは病気の説明が主ですが、だんだん神様のいろいろなお働きまで書いていきますから、分からせるにはこれが一番適当した本になるわけです。<br/><br/>これはなるべく早く出そうと思いますが、もう半年くらいたったら出せるだろうと思います。<br/><br/>これはアメリカだけでなく世界中に配るつもりです。<br/><br/>その最初の方のが少し書けましたから、それを今読ませます。<br/><br/> （御論文『医学革命の書』「序文」「二、医学は迷信なり」「三、病気とは何ぞや」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

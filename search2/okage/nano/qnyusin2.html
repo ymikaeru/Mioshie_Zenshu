@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnyusin2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 入信後の数々の御守護 火災を免る 『救世』57号、昭和25(1950)年4月8日発行 神奈川県 大成大教会 日本中教会 教導師補 山崎ウタ 十年前より私は眼を患い、そちらこちらの医者の手当をうけ遂にそこひというらく印を押され片方は失明、片方も次第に見えなくなりその頃より夢中になって神信心したりよいといわれる眼科の大家を訪れましたが、心の焦躁とは反対に目は暗く閉されてゆくばかりでした。<br><br>はや初老の身で子供はなく行末のことを思うと奈落の底に沈んで行くようで生きる楽しみも失ってしまいました。<br><br>その頃追浜の姪が神経痛で弓のように体が片方に傾いて杖でやっと歩いてちょっとのことでも「イタタ、イタタ」といっておりましたのが突然元気に杖もなく明るい面持ちで訪ねて参りました。<br><br>「光明如来様でこんなに救われ独りでどんどん歩けるようになり叔母さんをお導きしたいと思ってわざわざやって来ました。<br><br>追浜の教導所は遠いから逗子にゆきましょう」と私を教会にシャンシャンした腰つきで案内してくれました。<br><br>溺るる者は藁をも掴むどころか私は早速入信致しました。<br><br>教会に通っているうちに段々目の調子が良くはっきりとさせて頂きしだいに熱心になって来ました。<br><br>石田先生が「この目は中々永いから人様の御浄霊をして徳を積ませて頂きながらやった方が良い」と仰言いましたので早速自分の育くまれた長柄の町に、一里の道をテクテク通って親戚知人の御浄霊を致しました。<br><br>頭痛、腰の痛み、関節炎と楽に治って行くので皆さんに喜ばれ教会へ一緒に御礼参りする人も日増しにふえて行きました。<br><br>私も今日までに味った事のない希望に満ちた毎日を送りました。<br><br> そのうち先生に教導師補の資格を頂きなお一層お仕事の尊さを教えて頂き、その後は日本脳炎だの、子供の大腸カタルだの医学的にいっての大病も自信を持ってやらせて頂くようになりました。<br><br>主人も信仰嫌いでしたが、次々の御利益に段々心が傾き御教修も頂き明主様の御面会へも喜んで一緒にゆくようになりました。<br><br>わけても心にしみて光明如来様の有難いお利益を頂きましたのは忘れも致しません。<br><br> 丁度御面会にゆく前後髪を洗って床につきました。<br><br>「火事だ」という声にハッと飛び起きて寝巻のまま雨戸を開けて見ました。<br><br>小さい路地を隔てて隣りの薬局がパチパチ燃え上っていました。<br><br>私は夢中でそのまま祝詞を奏げながらお浄霊を致しましたが、火の勢は衰えず火の粉は物凄くこちらに吹きつけて来ます。<br><br>その時ハッと胸に手を当ててみると、昨夜髪を洗ってそのまま忘れていたお光！「ああ申訳ない」と床の間にひきかえし首にかけるや又廊下に立ったまま一心不乱にお浄霊致しました。<br><br>ものの五分たたぬ内にパッと風向きが変り屋根まで降りかかった火の粉は反対の方角に吹き飛ぶようになりました。<br><br> 今まで人様を治すたびにその偉大なる妙智力に驚きましたが、このように目の前に如実にみせられたことは始めてで続けて御浄霊をしながらも両眼より感激の涙は留めどなく溢れ出ました。<br><br> やがて薬局とその隣りの八百屋を一晩のうちにぺロリとなめて火災はおさまり夜は白々とあけました。<br><br>教会より田口先生が自転車にて御見舞にかけつけて下さいました。<br><br>その時うれしさの余り持っていた五千円を全部光明如来様の尊い御仕事に使って頂くようにおことづけ致しました。<br><br>私は荷物一つ出さず神の絶対力にお縋りしましたが、近所の方は荷物を出して水浸しになって大変でした。<br><br>自分の災を逃れた喜びとともに一日も早く世の皆様が神の実在に目覚めいろいろの災より抜け出られるよう祈らずにはいられません。<br><br> その後もテクテク歩いて微力ながらも地上天国建設のお手伝いをさせて頂いております。<br><br>こんな素晴しいお仕事を若い立派な青年の方がどしどしやって下されば世界中にひろまるのも近い事と思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Inúmeras Proteções Divinas após a Outorga da Fé (Salva de um Incêndio)</h2>
 <p>Revista "O Salvador", nº 57, publicada em 8 de abril de 1950</p>
@@ -101,5 +256,48 @@ Igreja Nippon-chū, ligada à Grande Igreja Taissei, Província de Kanagawa</p>
 <p>Até aquele momento, eu já me maravilhava com o grandioso e insondável Poder Divino a cada vez que auxiliava na recuperação de alguém, mas aquela foi a primeira vez que o testemunhei de forma tão manifesta. Enquanto continuava a ministrar Johrei, lágrimas de gratidão brotavam incessantemente de meus olhos. O incêndio, que durante a noite devorou por completo a farmácia e a mercearia vizinha, finalmente foi contido ao alvorecer. Pouco depois, o Ministro Taguchi chegou de bicicleta, vindo da Igreja para ver como eu estava. Tomada por imensa alegria, entreguei-lhe os cinco mil ienes que possuía e pedi que fossem utilizados na sagrada Obra Divina. Eu não havia retirado um único pertence de casa, confiando inteiramente no poder absoluto de Deus. Meus vizinhos, em contrapartida, que haviam se apressado em remover seus bens, acabaram por vê-los encharcados e danificados pela água, enfrentando grande dificuldade.</p>
 <p>Juntamente com a felicidade de ter sido poupada daquela calamidade, não posso deixar de orar para que todas as pessoas do mundo despertem o quanto antes para a existência de Deus e, assim, possam se ver livres dos mais diversos infortúnios.</p>
 <p>Desde então, continuo a caminhar com perseverança e, embora minha força seja pequena, tenho a permissão de servir como um instrumento na construção do Paraíso Terrestre. Acredito que, se jovens íntegros e admiráveis se dedicarem com afinco a esta Obra tão sublime, não tardará para que ela se expanda por todo o mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 入信後の数々の御守護 火災を免る 『救世』57号、昭和25(1950)年4月8日発行 神奈川県 大成大教会 日本中教会 教導師補 山崎ウタ 十年前より私は眼を患い、そちらこちらの医者の手当をうけ遂にそこひというらく印を押され片方は失明、片方も次第に見えなくなりその頃より夢中になって神信心したりよいといわれる眼科の大家を訪れましたが、心の焦躁とは反対に目は暗く閉されてゆくばかりでした。<br/><br/>はや初老の身で子供はなく行末のことを思うと奈落の底に沈んで行くようで生きる楽しみも失ってしまいました。<br/><br/>その頃追浜の姪が神経痛で弓のように体が片方に傾いて杖でやっと歩いてちょっとのことでも「イタタ、イタタ」といっておりましたのが突然元気に杖もなく明るい面持ちで訪ねて参りました。<br/><br/>「光明如来様でこんなに救われ独りでどんどん歩けるようになり叔母さんをお導きしたいと思ってわざわざやって来ました。<br/><br/>追浜の教導所は遠いから逗子にゆきましょう」と私を教会にシャンシャンした腰つきで案内してくれました。<br/><br/>溺るる者は藁をも掴むどころか私は早速入信致しました。<br/><br/>教会に通っているうちに段々目の調子が良くはっきりとさせて頂きしだいに熱心になって来ました。<br/><br/>石田先生が「この目は中々永いから人様の御浄霊をして徳を積ませて頂きながらやった方が良い」と仰言いましたので早速自分の育くまれた長柄の町に、一里の道をテクテク通って親戚知人の御浄霊を致しました。<br/><br/>頭痛、腰の痛み、関節炎と楽に治って行くので皆さんに喜ばれ教会へ一緒に御礼参りする人も日増しにふえて行きました。<br/><br/>私も今日までに味った事のない希望に満ちた毎日を送りました。<br/><br/> そのうち先生に教導師補の資格を頂きなお一層お仕事の尊さを教えて頂き、その後は日本脳炎だの、子供の大腸カタルだの医学的にいっての大病も自信を持ってやらせて頂くようになりました。<br/><br/>主人も信仰嫌いでしたが、次々の御利益に段々心が傾き御教修も頂き明主様の御面会へも喜んで一緒にゆくようになりました。<br/><br/>わけても心にしみて光明如来様の有難いお利益を頂きましたのは忘れも致しません。<br/><br/> 丁度御面会にゆく前後髪を洗って床につきました。<br/><br/>「火事だ」という声にハッと飛び起きて寝巻のまま雨戸を開けて見ました。<br/><br/>小さい路地を隔てて隣りの薬局がパチパチ燃え上っていました。<br/><br/>私は夢中でそのまま祝詞を奏げながらお浄霊を致しましたが、火の勢は衰えず火の粉は物凄くこちらに吹きつけて来ます。<br/><br/>その時ハッと胸に手を当ててみると、昨夜髪を洗ってそのまま忘れていたお光！「ああ申訳ない」と床の間にひきかえし首にかけるや又廊下に立ったまま一心不乱にお浄霊致しました。<br/><br/>ものの五分たたぬ内にパッと風向きが変り屋根まで降りかかった火の粉は反対の方角に吹き飛ぶようになりました。<br/><br/> 今まで人様を治すたびにその偉大なる妙智力に驚きましたが、このように目の前に如実にみせられたことは始めてで続けて御浄霊をしながらも両眼より感激の涙は留めどなく溢れ出ました。<br/><br/> やがて薬局とその隣りの八百屋を一晩のうちにぺロリとなめて火災はおさまり夜は白々とあけました。<br/><br/>教会より田口先生が自転車にて御見舞にかけつけて下さいました。<br/><br/>その時うれしさの余り持っていた五千円を全部光明如来様の尊い御仕事に使って頂くようにおことづけ致しました。<br/><br/>私は荷物一つ出さず神の絶対力にお縋りしましたが、近所の方は荷物を出して水浸しになって大変でした。<br/><br/>自分の災を逃れた喜びとともに一日も早く世の皆様が神の実在に目覚めいろいろの災より抜け出られるよう祈らずにはいられません。<br/><br/> その後もテクテク歩いて微力ながらも地上天国建設のお手伝いをさせて頂いております。<br/><br/>こんな素晴しいお仕事を若い立派な青年の方がどしどしやって下されば世界中にひろまるのも近い事と思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bansi068</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ５ 068-083 月系諸神 068 伊邪と伊弉の別 伊邪諾、伊邪冊の二尊の御名の中にいずれも邪の字がついているのはどういう訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br>また弉の字を御用い致す場合も御座いますが、右に付き御教えを賜りたく御願い申し上げます。<br><br> 宛字であろう。<br><br>ナミの方は邪の働きをした事がある。<br><br> 言葉へ対する宛字であるから、捉われる要はない。<br><br>（S24. 9.11） 069 伊邪冊尊のやり方 伊邪諾尊御出現によれば昼の世界となり、御隠退になり、伊邪冊尊は曇らされる御働きで、伊邪冊尊御出現になれば夜の世界となると申してもよろしいでしょうか。<br><br> 伊邪冊尊は兇党界、即ち悪魔の霊に負ける故悪になる。<br><br>これは頭に毒があれば霊が憑くと同じような理屈になる。<br><br>つまり伊邪冊尊の時代が夜であり、伊邪冊尊のやり方では悪魔が活動出来る弱さがあるのである。<br><br> 070 素盞嗚尊追放と世界の変化 伊邪那岐尊が素盞嗚尊を日本より追放しても昼にならなかったのはなぜでございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> そんなに素盞嗚尊が月を支配するんでなく、月が素盞嗚尊を支配する。<br><br> 時期によりそれだけの仕事を神から担当させられる。<br><br>ついてまわるような考えはいらない。<br><br>素盞嗚尊が日本から追放されれば代りの神が造られる。<br><br>例えば大国主命など後を継いで支配した。<br><br> 071 素盞嗚尊三代 素盞嗚尊は三人おいでになると伺いましたが、いかなる方々で、その御関係、並びにお働きにつき御教示お願い申し上げます。<br><br> 親子関係である。<br><br> 初代が神素盞嗚尊で、妻は乙姫、西洋に行った。<br><br>朝鮮から渡って来て、日本を占領統治した。<br><br>そして阿弥陀如来となる。<br><br> 二代は速素盞嗚尊で、大蛇を退治した神。<br><br>櫛名田姫と結婚した。<br><br> 三代は竹速素盞嗚尊――次に大国主尊である。<br><br>第六天魔王となった。<br><br> 大自在天、帝釈天――インドの神である。<br><br> 072 神素盞嗚と素盞嗚 初代が神素盞嗚、次は速素盞嗚、次は竹速素盞嗚と三代ある。<br><br>どの素盞嗚尊でも略す。<br><br>最初出雲へ行き櫛名田姫を助け、八岐大蛇を殺し、その血で川が赤くなるほど流れたという。<br><br>これは神素盞嗚尊で、櫛名田姫を妻（二号）とした。<br><br>宮を作られたが、須賀の宮という。<br><br>家へ入った時スガスガしい気持というので、須賀の宮とした。<br><br> スは上一人、サは佐（たす）ける、故に番頭という訳である。<br><br>これを自分が主人になろうとして武力を以てした。<br><br>ために伊邪諾尊の勘気にふれ、追放された。<br><br> 素盞嗚尊の肖像をみた事がある。<br><br>面長で理智的な顔である。<br><br>偉い神で、なかなか力があった。<br><br> 大体朝鮮の神で、伝説では素志茂里山に天降ったとある。<br><br>朝鮮で一番崇められている。<br><br> 支那では盤古神王、日本では天照大神、印度では大自在天、小アジアではアラーの神と、その国々で違う。<br><br>（S23） 073 素盞嗚尊とフリーメーソン、医学 素盞嗚尊の夜の経綸と、西洋医学、フリーメーソン、及び共産主義とはどういう関係がありましょうか、右御教示御願い申し上げます。<br><br> 大いに関係がある。<br><br>素盞嗚尊が邪神の霊に乗っかったという意味である。<br><br>素盞嗚尊はもう既に判っているので、悉（くわ）しく言う要はない。<br><br> 074 八岐大蛇退治の神話 素盞嗚尊の八岐の大蛇退治の神話の意味についてお伺い致します。<br><br> 八岐大蛇――これは事実だと思う。<br><br>素盞嗚尊は三人ある。<br><br> 櫛名田姫を人身御供（ごくう）にして退治して、姫を妻にしたという。<br><br>そして住居を作った。<br><br>それを須賀宮という。<br><br>そして初めて行った時、気に入って、アナすがすがしと言ったという。<br><br>これは初代神素盞嗚尊であろう。<br><br> クシナダは、言霊でいうと、日本という事になるが、それから日本を領有したのである。<br><br>で、日本にいた八岐大蛇という土匪を退治して日本を領有したという解釈があるが、それでもいいと思う。<br><br>（S23. 7.18） 075 神無月の神集とは いわゆる神無月には本当に各神々様が出雲にお集まりになるので御座いましょうか。<br><br>また御集まりの神々は邪神と解釈いたしましても宜しゅう御座いましょうか。<br><br> お伺い申し上げます。<br><br> 出雲に集まるんではない。<br><br>出雲から帰るんである。<br><br>素盞嗚尊は朝鮮から渡り、出雲へ朝廷を作り、大国主尊になり、神武天皇に敗けた。<br><br>それで朝鮮の神が日の御碕から朝鮮へ帰る。<br><br>それで神無月という。<br><br>故に他は何等関係はない。<br><br> 076 日御碕神宮の祭神 日の御碕大神宮は天照大神さまの御分霊で御座居ましょうか。<br><br> 天照大神様の御分霊かもしれぬ。<br><br>そこから毎年十月、朝鮮へ帰られた。<br><br>それが神無月である。<br><br>（S24. 3. 2） 077 日御碕神社外出禁止の神事 出雲国日御碕神社におきましては、毎年大晦日の夜半、天一（あまのかず）山にて素盞嗚命が天照大御神に天のむらくもの剣を献して仲直りをされる御神事があり、これは小野宮司がただ一人のみ執行し、他の一切の人に見せないという理由から、夜十二時から村の電燈を全部消し、かつ道路の歩行外出等も厳禁します。<br><br>そしてこの禁を破った者がここ、三十年間に二名あり、一名は道路で倒れて死亡し、お宮の格子戸から覗いた者は、顔へ戸がくっついて離れなくなってしまったそうです。<br><br>村人と致しましては覗視することは問題外として、ただ夜半消燈されること、外出出来ないことの不便に対して何か対策はないかと申しておりますが、これはいかにしたらよろしゅう御座いましょうか。<br><br> 天照大神と素盞嗚尊は昔御仲が悪かった。<br><br>出雲の神の眷族が日の御碕神社の神様を偉く見せるため、こんな事をするのである。<br><br> 078 出雲神の縁結び 出雲の神様が縁結びの神と申しますのは、いかがなもので御座いましょうか。<br><br> 御伺い申し上げます。<br><br> これは作ったものである。<br><br>元、出雲朝時代は大勢力があり、国土を奉還したが、出雲の神は国土返還のため失業して縁結びでもやったのであろう。<br><br> 縁を結ぶのは、その時の事が特に残っているのであろう。<br><br>（S24. 5.12） 079 鬼ケ島と「龍宮城の宝」 鬼が島と龍宮城とは関係がありますか。<br><br> 龍宮城には宝が貯蔵してあった。<br><br>乙姫が世界中の金銀を集めて蔵ってあった。<br><br>この宝が手観音の持たせ給う宝である。<br><br> 080 乙姫とサタン 乙姫と「サタン」とはいかなる関係があるのでしょうか、御伺い申し上げます。<br><br> 乙姫は世界の物質を集めた。<br><br>それをサタンに利用された。<br><br>または騙された。<br><br>それだけの関係である。<br><br>（S24. 9. 8） 081 月の神名 お月様を拝する時に、お名前を何と申して拝すればよろしいでしょう。<br><br> 月読尊というのが本当。<br><br>月読教という古い宗教もあるが、月読尊は夜の時代には極くいい訳である。<br><br> 082 第二天国と月の神 第二天国は月の世界であるから、照ったり欠けたりする。<br><br> 月読命は――。<br><br> 素盞嗚命は暗になるから罪を犯し易い。<br><br>罪を犯すから贖罪する。<br><br>故に非常に苦しむ。<br><br> イエスも阿弥陀も素盞嗚尊。<br><br>（S23. 7.14） rattail（注） 〔 観音講座（第二講座） 『観音講座』昭和10(1935)年7月25日発行 素盞嗚尊が月の神であってこれは暗の時の働きである。<br><br> 月読尊も月の神であるが、これは照されている時の働きである。<br><br> ――裏、暗――素盞嗚尊 ――表、照――月読尊 月読尊とは月の世を見る 即月世見である。<br><br> 083 二十三夜様 長崎五島方面では「二十三夜様」と云って千手観音によく似た御姿の神様（または月を三体かいたもの）を祀ります。<br><br>狐霊がこれを怖れた例もあります。<br><br>太陽暦の二十三日の夜に祀りますが、この御本体は何でしょうか。<br><br> 御本体は月読尊である。<br><br>世に月読教というのがある。<br><br>光明如来様奉斎すれば、祀る要はない。<br><br>月夜見とは月夜の時の働きである。<br><br>暗黒面の働きが素盞嗚尊である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Deidades da Linhagem Lunar</h2>
 <p><strong>068 A Distinção entre os Ideogramas de “Izanagi” e “Izanami”</strong></p>
@@ -158,5 +310,48 @@ function toggleLang(lang) {
 <p><strong>083 A Divindade "Nijuusan'ya-sama"</strong></p>
 <p>Na região de Goto, em Nagasaki, cultua-se uma divindade chamada “Nijuusan’ya-sama”, cuja imagem se assemelha muito à de Senju Kannon ou, por vezes, é representada por três luas. Há casos de espíritos de raposa que a temeram. Ela é venerada na noite do dia 23 do calendário solar. Qual é a sua verdadeira identidade?</p>
 <p>Sua verdadeira identidade é Tsukuyomi-no-Mikoto. Existe uma religião chamada Tsukuyomi-kyo. Com a consagração da Imagem da Luz Divina, não há mais necessidade de cultuar essa divindade. Tsukuyomi representa a atuação durante as noites de luar. A atuação no aspecto da escuridão pertence a Susanoo-no-Mikoto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ５ 068-083 月系諸神 068 伊邪と伊弉の別 伊邪諾、伊邪冊の二尊の御名の中にいずれも邪の字がついているのはどういう訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/>また弉の字を御用い致す場合も御座いますが、右に付き御教えを賜りたく御願い申し上げます。<br/><br/> 宛字であろう。<br/><br/>ナミの方は邪の働きをした事がある。<br/><br/> 言葉へ対する宛字であるから、捉われる要はない。<br/><br/>（S24. 9.11） 069 伊邪冊尊のやり方 伊邪諾尊御出現によれば昼の世界となり、御隠退になり、伊邪冊尊は曇らされる御働きで、伊邪冊尊御出現になれば夜の世界となると申してもよろしいでしょうか。<br/><br/> 伊邪冊尊は兇党界、即ち悪魔の霊に負ける故悪になる。<br/><br/>これは頭に毒があれば霊が憑くと同じような理屈になる。<br/><br/>つまり伊邪冊尊の時代が夜であり、伊邪冊尊のやり方では悪魔が活動出来る弱さがあるのである。<br/><br/> 070 素盞嗚尊追放と世界の変化 伊邪那岐尊が素盞嗚尊を日本より追放しても昼にならなかったのはなぜでございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> そんなに素盞嗚尊が月を支配するんでなく、月が素盞嗚尊を支配する。<br/><br/> 時期によりそれだけの仕事を神から担当させられる。<br/><br/>ついてまわるような考えはいらない。<br/><br/>素盞嗚尊が日本から追放されれば代りの神が造られる。<br/><br/>例えば大国主命など後を継いで支配した。<br/><br/> 071 素盞嗚尊三代 素盞嗚尊は三人おいでになると伺いましたが、いかなる方々で、その御関係、並びにお働きにつき御教示お願い申し上げます。<br/><br/> 親子関係である。<br/><br/> 初代が神素盞嗚尊で、妻は乙姫、西洋に行った。<br/><br/>朝鮮から渡って来て、日本を占領統治した。<br/><br/>そして阿弥陀如来となる。<br/><br/> 二代は速素盞嗚尊で、大蛇を退治した神。<br/><br/>櫛名田姫と結婚した。<br/><br/> 三代は竹速素盞嗚尊――次に大国主尊である。<br/><br/>第六天魔王となった。<br/><br/> 大自在天、帝釈天――インドの神である。<br/><br/> 072 神素盞嗚と素盞嗚 初代が神素盞嗚、次は速素盞嗚、次は竹速素盞嗚と三代ある。<br/><br/>どの素盞嗚尊でも略す。<br/><br/>最初出雲へ行き櫛名田姫を助け、八岐大蛇を殺し、その血で川が赤くなるほど流れたという。<br/><br/>これは神素盞嗚尊で、櫛名田姫を妻（二号）とした。<br/><br/>宮を作られたが、須賀の宮という。<br/><br/>家へ入った時スガスガしい気持というので、須賀の宮とした。<br/><br/> スは上一人、サは佐（たす）ける、故に番頭という訳である。<br/><br/>これを自分が主人になろうとして武力を以てした。<br/><br/>ために伊邪諾尊の勘気にふれ、追放された。<br/><br/> 素盞嗚尊の肖像をみた事がある。<br/><br/>面長で理智的な顔である。<br/><br/>偉い神で、なかなか力があった。<br/><br/> 大体朝鮮の神で、伝説では素志茂里山に天降ったとある。<br/><br/>朝鮮で一番崇められている。<br/><br/> 支那では盤古神王、日本では天照大神、印度では大自在天、小アジアではアラーの神と、その国々で違う。<br/><br/>（S23） 073 素盞嗚尊とフリーメーソン、医学 素盞嗚尊の夜の経綸と、西洋医学、フリーメーソン、及び共産主義とはどういう関係がありましょうか、右御教示御願い申し上げます。<br/><br/> 大いに関係がある。<br/><br/>素盞嗚尊が邪神の霊に乗っかったという意味である。<br/><br/>素盞嗚尊はもう既に判っているので、悉（くわ）しく言う要はない。<br/><br/> 074 八岐大蛇退治の神話 素盞嗚尊の八岐の大蛇退治の神話の意味についてお伺い致します。<br/><br/> 八岐大蛇――これは事実だと思う。<br/><br/>素盞嗚尊は三人ある。<br/><br/> 櫛名田姫を人身御供（ごくう）にして退治して、姫を妻にしたという。<br/><br/>そして住居を作った。<br/><br/>それを須賀宮という。<br/><br/>そして初めて行った時、気に入って、アナすがすがしと言ったという。<br/><br/>これは初代神素盞嗚尊であろう。<br/><br/> クシナダは、言霊でいうと、日本という事になるが、それから日本を領有したのである。<br/><br/>で、日本にいた八岐大蛇という土匪を退治して日本を領有したという解釈があるが、それでもいいと思う。<br/><br/>（S23. 7.18） 075 神無月の神集とは いわゆる神無月には本当に各神々様が出雲にお集まりになるので御座いましょうか。<br/><br/>また御集まりの神々は邪神と解釈いたしましても宜しゅう御座いましょうか。<br/><br/> お伺い申し上げます。<br/><br/> 出雲に集まるんではない。<br/><br/>出雲から帰るんである。<br/><br/>素盞嗚尊は朝鮮から渡り、出雲へ朝廷を作り、大国主尊になり、神武天皇に敗けた。<br/><br/>それで朝鮮の神が日の御碕から朝鮮へ帰る。<br/><br/>それで神無月という。<br/><br/>故に他は何等関係はない。<br/><br/> 076 日御碕神宮の祭神 日の御碕大神宮は天照大神さまの御分霊で御座居ましょうか。<br/><br/> 天照大神様の御分霊かもしれぬ。<br/><br/>そこから毎年十月、朝鮮へ帰られた。<br/><br/>それが神無月である。<br/><br/>（S24. 3. 2） 077 日御碕神社外出禁止の神事 出雲国日御碕神社におきましては、毎年大晦日の夜半、天一（あまのかず）山にて素盞嗚命が天照大御神に天のむらくもの剣を献して仲直りをされる御神事があり、これは小野宮司がただ一人のみ執行し、他の一切の人に見せないという理由から、夜十二時から村の電燈を全部消し、かつ道路の歩行外出等も厳禁します。<br/><br/>そしてこの禁を破った者がここ、三十年間に二名あり、一名は道路で倒れて死亡し、お宮の格子戸から覗いた者は、顔へ戸がくっついて離れなくなってしまったそうです。<br/><br/>村人と致しましては覗視することは問題外として、ただ夜半消燈されること、外出出来ないことの不便に対して何か対策はないかと申しておりますが、これはいかにしたらよろしゅう御座いましょうか。<br/><br/> 天照大神と素盞嗚尊は昔御仲が悪かった。<br/><br/>出雲の神の眷族が日の御碕神社の神様を偉く見せるため、こんな事をするのである。<br/><br/> 078 出雲神の縁結び 出雲の神様が縁結びの神と申しますのは、いかがなもので御座いましょうか。<br/><br/> 御伺い申し上げます。<br/><br/> これは作ったものである。<br/><br/>元、出雲朝時代は大勢力があり、国土を奉還したが、出雲の神は国土返還のため失業して縁結びでもやったのであろう。<br/><br/> 縁を結ぶのは、その時の事が特に残っているのであろう。<br/><br/>（S24. 5.12） 079 鬼ケ島と「龍宮城の宝」 鬼が島と龍宮城とは関係がありますか。<br/><br/> 龍宮城には宝が貯蔵してあった。<br/><br/>乙姫が世界中の金銀を集めて蔵ってあった。<br/><br/>この宝が手観音の持たせ給う宝である。<br/><br/> 080 乙姫とサタン 乙姫と「サタン」とはいかなる関係があるのでしょうか、御伺い申し上げます。<br/><br/> 乙姫は世界の物質を集めた。<br/><br/>それをサタンに利用された。<br/><br/>または騙された。<br/><br/>それだけの関係である。<br/><br/>（S24. 9. 8） 081 月の神名 お月様を拝する時に、お名前を何と申して拝すればよろしいでしょう。<br/><br/> 月読尊というのが本当。<br/><br/>月読教という古い宗教もあるが、月読尊は夜の時代には極くいい訳である。<br/><br/> 082 第二天国と月の神 第二天国は月の世界であるから、照ったり欠けたりする。<br/><br/> 月読命は――。<br/><br/> 素盞嗚命は暗になるから罪を犯し易い。<br/><br/>罪を犯すから贖罪する。<br/><br/>故に非常に苦しむ。<br/><br/> イエスも阿弥陀も素盞嗚尊。<br/><br/>（S23. 7.14） rattail（注） 〔 観音講座（第二講座） 『観音講座』昭和10(1935)年7月25日発行 素盞嗚尊が月の神であってこれは暗の時の働きである。<br/><br/> 月読尊も月の神であるが、これは照されている時の働きである。<br/><br/> ――裏、暗――素盞嗚尊 ――表、照――月読尊 月読尊とは月の世を見る 即月世見である。<br/><br/> 083 二十三夜様 長崎五島方面では「二十三夜様」と云って千手観音によく似た御姿の神様（または月を三体かいたもの）を祀ります。<br/><br/>狐霊がこれを怖れた例もあります。<br/><br/>太陽暦の二十三日の夜に祀りますが、この御本体は何でしょうか。<br/><br/> 御本体は月読尊である。<br/><br/>世に月読教というのがある。<br/><br/>光明如来様奉斎すれば、祀る要はない。<br/><br/>月夜見とは月夜の時の働きである。<br/><br/>暗黒面の働きが素盞嗚尊である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

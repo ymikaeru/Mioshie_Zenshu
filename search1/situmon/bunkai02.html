@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』12月号、昭和23(1948)年12月10日発行 ――厄年はいかなる原因により言い伝えられたものでしょうか。<br><br> それは二つの原因があります。<br><br>一つは季節、天候の節と、一つは数の言霊の働きによります。<br><br>人間の一生も一年の季節のようなもので、誕生は正月、三十までは春、六十までは夏、九十までは秋、百二十までは冬となります（人間の寿命は百二十です）。<br><br>年若い男女、青春の蕾を散らせるとも言うではありませんか。<br><br>大厄は男四十二歳、女三十三歳、晩春、初夏の嵐でありましょうし、また言霊で四十二、死に、三十三、さんざん苦労するというようなわけです。<br><br>あとの厄年は小厄で信仰者には問題とする必要はありません。<br><br> ――祖霊様を供養する場合、墓標と位牌のいずれを重視すべきものでしょうか。<br><br> 位牌を重視すべきです。<br><br>位牌には祖霊が毎日お出になっています。<br><br>墓標にはこちらがお参りのときだけ祖霊がお越しになります。<br><br> ――霊木として虞（おそれ）られていた木が枯死した場合、代わりの木を植えずに切り倒しても龍神の祟りはないものでしょうか。<br><br> その木に宿っていた龍神は他へ移っていますから、そのまま切り倒しても差し支えありません。<br><br> ――邸宅の門になぜ門冠りの松をよく植えるのでしょうか。<br><br> 松に宿る龍神（雄龍）の働きにより客が集まり財物が集まるからです。<br><br>本当は門の左に松、右に柳（雌龍）を植えるとよけい繁昌いたします。<br><br> ――死人を北枕に寝かせますがなにか意味がありますか。<br><br>また、ふつうの人が北枕に寝ることを忌みますが、そのわけはなぜでしょうか。<br><br> 北は霊、南は体です。<br><br>そして死体から霊が抜けるときは天国行きは額から抜けますから、北向きに寝かせれば霊は天国へ向かって抜けやすいわけです。<br><br>北はまた気が足りる、すなわち霊気が濃いわけです。<br><br>その理屈で赤ちゃんを生むときは南枕のほうが良いわけです。<br><br>なお一般に寝るときも北枕に寝ることは良いことです。<br><br> ――血族結婚は霊的にいかなる意味がありましょうか。<br><br> 人類の最初は血族結婚で繁殖しました。<br><br>太古には兄弟、姉妹の夫婦もありました。<br><br>妹背の道とか吾妹子という言葉もあるくらいです。<br><br>ですから、血族結婚は別に差し支えはないわけです。<br><br>ただ血族は性質が似ているためにあまり利口な子孫が生まれません。<br><br>人間は混血するほどいろいろな性質を受け入れて優秀な子孫ができます。<br><br>日本民族が割合利口なのは、そうとう混血しているからです。<br><br> ――人魂は霊的に意味がございましょうか。<br><br> 人が死に対して、逢いたい人があるとか、挨拶したい人がある場合、その想念で霊が玉になって行きます。<br><br>人間霊の玉はボーとしています。<br><br>だいたい男は黄色、女は白色です。<br><br>が、その霊の曇りの多少でボーと仕方が違い、また罪の多い人の場合は青みが加わります。<br><br> ――神経痛、頭痛、および尿量が天候に左右されますのはいかなるわけで、ございましょうか。<br><br> 神経痛、頭痛の場合、天候が悪いと寒い、火素が少ない、従って毒素が固まるので、そのときに痛さを感ずるのです。<br><br>毒素は固まるときにも溶けるときにも痛みを感じます。<br><br>尿量増加は冷えると汗が出難くなるためです。<br><br>汗も小便も同じものです。<br><br>よく女学生で固太りに太って、健康優良児のごとくであるにもかかわらず、動作がにぶく、大病をすることがありますが、これは授業中なぞに尿を我慢するくせがつき、尿が腎臓から尿道へ行かず、外部へ顔出して、いわゆる小便肥りとなり、尿毒が身体各所へ溜まったわけです。<br><br>同様の理由で、汽車が混雑したために小便を我慢して機能障害を起した例もあります。<br><br> ――シャックリはいかなる原因でしょうか。<br><br>霊的になにか意味があるでしょうか。<br><br> シャックリは横隔膜の真ん中に原因があります。<br><br>これを止めるには前頭部、延髄、胃部を浄霊すればよろしい。<br><br>霊的のシャックリは鳥霊の憑依で、シャックリの仕方がふつうとは違います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Fenômenos Espirituais e Físicos</h2>
 <p><strong>Qual a origem da tradição sobre as idades de infortúnio?</strong></p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Quanto ao aumento do volume urinário, ele ocorre porque, com o frio, a transpiração diminui. O suor e a urina são, em essência, a mesma substância. É comum observar estudantes que, apesar de uma constituição robusta e aparência saudável, apresentam lentidão nos movimentos e são acometidas por doenças graves. Isso frequentemente decorre do hábito de reter a urina durante as aulas. A urina, em vez de seguir seu fluxo dos rins para a uretra, extravasa, causando o que se poderia chamar de inchaço por retenção urinária, e as toxinas urêmicas se acumulam em diversas partes do corpo. De modo análogo, há relatos de pessoas que desenvolveram distúrbios funcionais por reterem a urina durante viagens em trens lotados.</p>
 <p><strong>Qual a causa dos soluços? Eles possuem algum significado espiritual?</strong></p>
 <p>A causa física dos soluços reside em um ponto no centro do diafragma. Para cessá-los, basta ministrar Johrei na fronte, no bulbo raquidiano e na região do estômago. Existem, contudo, soluços de natureza espiritual, causados pela possessão por um espírito de ave. Nesses casos, a sonoridade e a forma do soluço são distintas das habituais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』12月号、昭和23(1948)年12月10日発行 ――厄年はいかなる原因により言い伝えられたものでしょうか。<br/><br/> それは二つの原因があります。<br/><br/>一つは季節、天候の節と、一つは数の言霊の働きによります。<br/><br/>人間の一生も一年の季節のようなもので、誕生は正月、三十までは春、六十までは夏、九十までは秋、百二十までは冬となります（人間の寿命は百二十です）。<br/><br/>年若い男女、青春の蕾を散らせるとも言うではありませんか。<br/><br/>大厄は男四十二歳、女三十三歳、晩春、初夏の嵐でありましょうし、また言霊で四十二、死に、三十三、さんざん苦労するというようなわけです。<br/><br/>あとの厄年は小厄で信仰者には問題とする必要はありません。<br/><br/> ――祖霊様を供養する場合、墓標と位牌のいずれを重視すべきものでしょうか。<br/><br/> 位牌を重視すべきです。<br/><br/>位牌には祖霊が毎日お出になっています。<br/><br/>墓標にはこちらがお参りのときだけ祖霊がお越しになります。<br/><br/> ――霊木として虞（おそれ）られていた木が枯死した場合、代わりの木を植えずに切り倒しても龍神の祟りはないものでしょうか。<br/><br/> その木に宿っていた龍神は他へ移っていますから、そのまま切り倒しても差し支えありません。<br/><br/> ――邸宅の門になぜ門冠りの松をよく植えるのでしょうか。<br/><br/> 松に宿る龍神（雄龍）の働きにより客が集まり財物が集まるからです。<br/><br/>本当は門の左に松、右に柳（雌龍）を植えるとよけい繁昌いたします。<br/><br/> ――死人を北枕に寝かせますがなにか意味がありますか。<br/><br/>また、ふつうの人が北枕に寝ることを忌みますが、そのわけはなぜでしょうか。<br/><br/> 北は霊、南は体です。<br/><br/>そして死体から霊が抜けるときは天国行きは額から抜けますから、北向きに寝かせれば霊は天国へ向かって抜けやすいわけです。<br/><br/>北はまた気が足りる、すなわち霊気が濃いわけです。<br/><br/>その理屈で赤ちゃんを生むときは南枕のほうが良いわけです。<br/><br/>なお一般に寝るときも北枕に寝ることは良いことです。<br/><br/> ――血族結婚は霊的にいかなる意味がありましょうか。<br/><br/> 人類の最初は血族結婚で繁殖しました。<br/><br/>太古には兄弟、姉妹の夫婦もありました。<br/><br/>妹背の道とか吾妹子という言葉もあるくらいです。<br/><br/>ですから、血族結婚は別に差し支えはないわけです。<br/><br/>ただ血族は性質が似ているためにあまり利口な子孫が生まれません。<br/><br/>人間は混血するほどいろいろな性質を受け入れて優秀な子孫ができます。<br/><br/>日本民族が割合利口なのは、そうとう混血しているからです。<br/><br/> ――人魂は霊的に意味がございましょうか。<br/><br/> 人が死に対して、逢いたい人があるとか、挨拶したい人がある場合、その想念で霊が玉になって行きます。<br/><br/>人間霊の玉はボーとしています。<br/><br/>だいたい男は黄色、女は白色です。<br/><br/>が、その霊の曇りの多少でボーと仕方が違い、また罪の多い人の場合は青みが加わります。<br/><br/> ――神経痛、頭痛、および尿量が天候に左右されますのはいかなるわけで、ございましょうか。<br/><br/> 神経痛、頭痛の場合、天候が悪いと寒い、火素が少ない、従って毒素が固まるので、そのときに痛さを感ずるのです。<br/><br/>毒素は固まるときにも溶けるときにも痛みを感じます。<br/><br/>尿量増加は冷えると汗が出難くなるためです。<br/><br/>汗も小便も同じものです。<br/><br/>よく女学生で固太りに太って、健康優良児のごとくであるにもかかわらず、動作がにぶく、大病をすることがありますが、これは授業中なぞに尿を我慢するくせがつき、尿が腎臓から尿道へ行かず、外部へ顔出して、いわゆる小便肥りとなり、尿毒が身体各所へ溜まったわけです。<br/><br/>同様の理由で、汽車が混雑したために小便を我慢して機能障害を起した例もあります。<br/><br/> ――シャックリはいかなる原因でしょうか。<br/><br/>霊的になにか意味があるでしょうか。<br/><br/> シャックリは横隔膜の真ん中に原因があります。<br/><br/>これを止めるには前頭部、延髄、胃部を浄霊すればよろしい。<br/><br/>霊的のシャックリは鳥霊の憑依で、シャックリの仕方がふつうとは違います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

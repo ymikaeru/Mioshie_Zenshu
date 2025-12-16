@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>geri3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 下痢 『天国の福音』昭和22(1947)年2月5日発行 下痢は最も多い症状で、まず急性と慢性とに区別される。<br><br>急性は飲食物による中毒すなわち食あたりである。<br><br>世間よく寝冷えによって起るというが、これは誤りで冷えによる下痢は極稀である。<br><br>食中りによる下痢の際、薬剤によって止めたり、反対にひまし油等によって排泄を促進させる事を可とするが、これらはもちろん不可であって治癒を永引かせるのみである。<br><br>自然治癒が最も良いのである。<br><br> 右の外、食中り以外突如として猛烈に発生する下痢症がある。<br><br>一日十数回ないし数十回に及ぶものさえある。<br><br>もちろん水便であるが、血液の混入する事もあり、はなはだしきは腐肉とも見ゆるものが下る場合がある。<br><br>これらは膿及び毒血の固結の猛烈な浄化作用によるためである。<br><br>もちろん肉や臓器の一片といえども排出さるべき訳はない。<br><br>かような下痢症は青少年に多く老人は稀である。<br><br> これらも放任しておけば必ず治癒するのであるに係わらず、世人は驚いて医療を加えるがそれが却って悪化のもととなり、永引いたり、死を招いたりする事さえあるのである。<br><br> 次に、慢性下痢は数ケ月あるいは数ケ年に及ぶものさえある。<br><br>医診は大抵腸結核というが、これは既説のごとく化膿性腹膜の浄化作用であって、原因は腎臓萎縮による尿毒が常に腹膜に溜結するためである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Purificação Através da Diarreia</h2>
 <p>A diarreia é um sintoma extremamente frequente, que se distingue, primeiramente, em duas formas: aguda e crônica. A forma aguda é oriunda de intoxicação alimentar, ou seja, da ingestão de alimentos inadequados. Embora se costume atribuir sua causa ao resfriado contraído durante o sono, tal crença é equivocada, pois a diarreia decorrente de friagem é extremamente rara. Nesses casos de intoxicação, há quem defenda o uso de medicamentos para interromper o fluxo ou, ao contrário, o emprego de purgativos como o óleo de rícino para acelerar a evacuação. Ambas as práticas são, evidentemente, desaconselháveis, servindo apenas para retardar o processo de cura. A cura natural é, portanto, o caminho mais acertado.</p>
 <p>Ademais, existem casos de diarreia que não se originam de intoxicação alimentar, manifestando-se de forma súbita e violenta. A frequência das evacuações pode chegar a dezenas de vezes em um único dia. As fezes são naturalmente líquidas, podendo, contudo, conter traços de sangue; em quadros mais severos, pode ocorrer a expulsão de uma matéria semelhante a carne em decomposição. Tais manifestações decorrem de um intenso processo purificador, pelo qual o organismo elimina pus e sangue tóxico solidificados. É fundamental compreender que não se trata, em hipótese alguma, da expulsão de fragmentos de carne ou de órgãos. Essa modalidade de diarreia é mais comum em jovens e adolescentes, sendo rara entre os idosos.</p>
 <p>Apesar de tais quadros também se resolverem naturalmente se lhes for permitido seguir seu curso, as pessoas, alarmadas, recorrem a tratamentos médicos. Essa intervenção, todavia, acaba por agravar a condição, prolongando o sofrimento e, em certas ocasiões, podendo até mesmo levar à morte.</p>
 <p>Passemos agora à diarreia crônica, uma afecção que pode perdurar por meses ou até mesmo por anos. A medicina convencional costuma diagnosticá-la como tuberculose intestinal; contudo, conforme já elucidado, trata-se de um processo de purificação de uma peritonite purulenta. Sua causa reside na atrofia renal, que leva ao acúmulo contínuo de toxinas urêmicas no peritônio.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 下痢 『天国の福音』昭和22(1947)年2月5日発行 下痢は最も多い症状で、まず急性と慢性とに区別される。<br/><br/>急性は飲食物による中毒すなわち食あたりである。<br/><br/>世間よく寝冷えによって起るというが、これは誤りで冷えによる下痢は極稀である。<br/><br/>食中りによる下痢の際、薬剤によって止めたり、反対にひまし油等によって排泄を促進させる事を可とするが、これらはもちろん不可であって治癒を永引かせるのみである。<br/><br/>自然治癒が最も良いのである。<br/><br/> 右の外、食中り以外突如として猛烈に発生する下痢症がある。<br/><br/>一日十数回ないし数十回に及ぶものさえある。<br/><br/>もちろん水便であるが、血液の混入する事もあり、はなはだしきは腐肉とも見ゆるものが下る場合がある。<br/><br/>これらは膿及び毒血の固結の猛烈な浄化作用によるためである。<br/><br/>もちろん肉や臓器の一片といえども排出さるべき訳はない。<br/><br/>かような下痢症は青少年に多く老人は稀である。<br/><br/> これらも放任しておけば必ず治癒するのであるに係わらず、世人は驚いて医療を加えるがそれが却って悪化のもととなり、永引いたり、死を招いたりする事さえあるのである。<br/><br/> 次に、慢性下痢は数ケ月あるいは数ケ年に及ぶものさえある。<br/><br/>医診は大抵腸結核というが、これは既説のごとく化膿性腹膜の浄化作用であって、原因は腎臓萎縮による尿毒が常に腹膜に溜結するためである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

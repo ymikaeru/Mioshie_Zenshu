@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 茨木よし子 『地上天国』40号、昭和27(1952)年9月25日発行 入 信 昭和二十四年一月二十五日 入信動機 二十歳の頃より慢性胃陽病から十二指腸潰瘍にて現代医療を施しその挙句本教にて救われる。<br><br> 家庭状況 家族七人皆入信（昭和二十五年二月八日）大光明如来様並びに屏風観音様奉斎いたし、月並祭もいたしおります。<br><br> 現在の私の浄化状況 毎日頭頸腹部の軽い浄化を絶えずいただき時々激しい浄化をいたゞきますが、その都度御守護をいたゞいています。<br><br>喜び天にも登る気持で御浄霊して戴く様になりましてから色々な現象が目をつむっていますとあらわれてきます。<br><br> 以下記しました事柄はその中の主なる物を抜萃して見ました。<br><br> 霊視の状況報告 一、昭和二十四年六月頃よりお浄霊を頂いていますと不思議な現象が目にうつる様になりました。<br><br>最初掌から出るお光が見え出しました。<br><br>薄い白色の霧の様な光、想念の通りに突き抜ける。<br><br>次に御神体から黄金の光、白金の光さんさんと流れ出て部屋一面のお光である。<br><br>身体に気持よく感じる。<br><br> 一、二十四年の九月本部に参拝致す一週間程前、一度も見た事のない熱海の風景箱根の状が手に取る様に見えたのには驚いてしまった。<br><br> 一、頭の浄化をいたゞいています頃、気持よくいれる場所は、光明如来様の前と支部長さんの傍にいます時。<br><br>まるで慈母の膝にでもいる様に気持よく安心にて大変楽であった。<br><br>知らない人々が来ると（私の傍へ）人一人々々により差はあるが、その人がくると吸いつけられ引ぱりつけられてしまう様で、大層苦しかった事を記憶する。<br><br> 一、支部長さんの家の御神前にて綺麗な蓮花を持たれる観音様、今思えばメシヤ観音様が見え出した。<br><br>この観音様が私の家の御神前にも拝む事が出来ました。<br><br>ある時は虹の橋がくっきりと浮き出て見え、キリストの様な方が支部長さんの家にも私の家にも見えとても気持がよかった。<br><br>同じものが見えるとは不思議である。<br><br> 一、昭和二十四年九月最初の明主様の御面会の際金龍に乗ってお出ましになりました。<br><br>まるで親に会う様に温かみを感じました。<br><br> 一、二十五年八月の御面会の時、木の幹位もある金龍が優しい目をして明主様の右側で、うつらうつらとしているのを拝する。<br><br> 一、秋季になり胃、腸、潰瘍特有の激痛の浄化を毎日三時間おきに位戴き、痛くて困り果てて支部へ参拝していると、袖をひらひらさせ給う美しい観音様が現れ、観音様も涙を拭き拭き温い手を差し伸べ御浄霊下さるお姿を拝し、神は罪多き私如き者の近辺にお出で下され守護ある事を知り感涙致し、勇気を出した事もあります。<br><br>この観音様が支部長さんの背後にお立ちになり、支部長さんの手を経て私を浄霊して下さる。<br><br>又ある時はこの観音様が支部長さんの後にて、細長い帳面をくりくりしておられ、遂にこの時明主様のお姿を拝したのでした。<br><br>この時腹痛が止りました。<br><br> 一、鈍痛の腹痛にて寝床にいて皆さんのおつとめの天津祝詞を聞けば、大勢の神々様が御神前に現れる状が見えました。<br><br>又ある時は明主様が御神前にてお茶を召し上がられるお姿も拝せました。<br><br>又ある時は聖徳太子の傍で鎌足が御用をなさる姿も目にうつりました。<br><br> 一、支部長さんに浄霊して戴くと、その後に支部長さんによく似た僧侶が茶色や紫色の衣を着てお茶をのんでいらっしゃる姿が目にうつりました。<br><br>時々明主様のお姿が支部長さんの後方にお出で下さいました。<br><br>その時には浄化も大変楽に御守護いたゞけます。<br><br> 一、昭和二十六年一月本部に参拝の途中、神聖大教会中村先生宅に参拝しました時、腹痛の浄化いたゞきまして御神前にて支部長さんに浄霊していたゞくこと一時間余り、その間一進一退にして出発時刻になりました。<br><br>その時御神体より観音様が支部長さんの肩の辺にうき立たれました。<br><br>駅に行く途中、その観音様が後向になられ私を絶えず守護下さいます。<br><br>苦しい腹痛を抱えながら遅れぬ様について行きました。<br><br>汽車の中でも絶えず浄霊していたゞき、無事に熱海の宿につきました。<br><br>ここで気がついて見ますと何時の間にか千手観音様と入れかわり私をじっと御守護下さいました。<br><br> 一、再々明主様に御面会致したきため、熱海小学校に転勤を希望致し、実行に移したく思案していた矢先、帰宅途中も又々浄化戴き、支部長さんの傍を離れる事が心細くなり中止する事に決心してしまった。<br><br>身体を速にお救いいたゞき、お道のために全身全霊をなげうち活躍出来る日の一日も早からん事を朝夕神にお祈り申しました。<br><br> 五月十一日 一、豊岡市九日上町（ここのかかみのちょう）字藤の木七五八番地女代（めしろ）大神宮の参拝にて、この宮は支部長さんの氏神様であります。<br><br>次の様に霊視が出来ました。<br><br> １ 天津祝詞を奏上致しますと御神前の扉が静に開いて中から黒髪を垂し十二単衣の着物をお召しになる姫君の様なお方が沢山の神様をお連れになり挨拶に出られました。<br><br> ２ 次に着物を着換えて御人払いされてさめざめと泣かれ、寝床に入らせられて眠られる。<br><br>神様でも御病気をなさるのかしらと思いました。<br><br> ３ おつきの人々は心配そうである。<br><br>だがしかし姫君は絶えず私達の祝詞をお聞き下さる様子。<br><br>不思議な現象が目に映りました。<br><br>一体この御社にはどなた様がお祀り致してあるのであろうか。<br><br>宮主様にも御尋ねもせず帰りました。<br><br> 七月十日 支部長さんの御親戚（舞鶴）の若奥様に悪霊が憑依しているので依頼され、支部長さんと二人で浄霊をさせて頂きました。<br><br>するとお腹の中に長さ七、八寸、丸さ鉛筆位の黒い蛇の子が五、六匹うじゃうじゃしてまるで水の中をオタマジャクシが喜んで遊び戯れている様でした。<br><br>病人の頭の上では直径三、四寸もあると思われる親蛇が真赤な舌をペロペロ出しながら子蛇をじっと見守っているのが霊視出来ました。<br><br>暫くして腹の中の子蛇がじっとして静かになる。<br><br>と共に腹痛も止った様でした。<br><br>この家は京都の多賀先生の信者でしたので十一日の多賀先生のところの例祭に参拝させて頂きました。<br><br> 七月十一日 地上天国に再々おのせ下さった多賀秀三先生の宅に御参拝致しまして色々のお話を伺い今迄の謎が解けた様で大変嬉しく存じました。<br><br>先生は親切に神様に色々お伺い下さいまして次の様にお話し下さいました。<br><br> 「茨木よし子の今迄霊視出来るものは正神である。<br><br>主の神のお許を得た正守護神が見せるのであるのだから安心してよい」との、私にとりまして大変力強きお言葉をいたゞきほっと致しました。<br><br>実は内心邪神では無いかとおどおど致していましたのです。<br><br>この私の霊視能力はある期間迄にして見えなくなるから、見える間にお道の事にうまく活用なさい。<br><br>こうした御使命のもとに生れて来たのであるとおっしゃいました。<br><br> それから先生のお宅の霊界の様をお話し致しました。<br><br> 多賀先生の宅の例祭での霊視を発表致します。<br><br> 一、主神と思われる神様が真中にお立ちになり、その両側に段々に御家来と思われる神々様がお立ちになり、まるでお雛祭の様な光景でした。<br><br> 一、次に明主様の全身のお姿がくっきりと写真の様にお現われになり、一生懸命で栗色をしたとても綺麗な陶器の丸い壷を手に持たれ御鑑賞なさるお姿が何時迄も何時迄も霊視出来ました。<br><br> 一、御仏前では千手観音様がさっとお現われになり、その前で恭々しく綺麗な着物をお召しになられた高貴な若い御婦人がお盆を手に持ち何かされている。<br><br>以上の様なとても素晴しい霊界の様が目に映りました。<br><br> 一、次に「支部長さんと私とはよく気が合うでしょう」と多賀先生がおっしゃいましたので吃驚しました。<br><br>「それには霊的に気の合う理由があり微妙な働きがあるからよく協力しなさい」と申されました。<br><br> 一、次に「豊岡の氏神様と非常に因縁があるから祭神をよく調べて御覧なさい」とおっしゃいました。<br><br>帰ってから早速支部長さんと参拝致しました。<br><br>次の様な霊視が出来ました。<br><br> 七月十三日の氏神の参拝 一、黒い長い美しい髪を垂し、十二単衣の美しい着物を召されたこの間の神様が、長らくの御浄化にてお弱りなされた様なお姿にて、拝殿の両側にお立ちになっていらっしゃる立派な大きな武士の様な方の背に負われて神殿の中から出ていらっしゃる。<br><br>随分やつれていらっしゃる様子。<br><br> 一、次に高齢なお方が普通の着物姿にて長さ一尺ばかりの巻物を差し出されますが、それを受取り申す方はどこを見ても無い様である。<br><br>暫くこの現状が続きます。<br><br> 一、再び先程のお姫様現われる。<br><br>そして乱れた髪を静に静かにときつけられる。<br><br>丁度お産をなされた揚句の様である。<br><br> 一、玉の様な美しいみどり児を膝に抱きお乳を呑ませられている。<br><br>お姫様大分快方に向われられた様である。<br><br>（以上霊視） 参拝終って神主様にお話を聞きますれば氏神様の祭紳は高皇産霊神にして古事記によりますと私の氏神様は、かみむすみの神の子「すくなひこなのみこと」です。<br><br>ですから氏神様の守護も支部長様と私とは親子の関係のあることが初めて分りました。<br><br> 一、信者の方で大浄化をいたゞきとてももう駄目だと家族の者も本人も思っていた頃、光明如来様をいたゞきに支部長さん宅に来られました。<br><br>受取られる際に黒白の葬式の幕が見え驚いていますと、次に明主様がお出でになられまして光明如来様をお渡し下さるお姿が霊視出来ました。<br><br>この方はきっとよくなられる。<br><br>御守護をいたゞきなさると思っていましたら現在ぴんぴんとしていらっしゃいます。<br><br> 一、又ある時は浄化中の信者の寝ている御仏前にておつとめを致しますと仏壇の中から何十本もの手でおまねきが始りました。<br><br>こうした霊視ではとてもと思っていましたらその夜亡くなられました。<br><br> 七月十九日 御神前にておつとめをしていますと朱塗の鳥居の沢山ある立派な稲荷さんが見え、古い親方らしいものが五六匹、その後には沢山の眷族がだらだらと長蛇の列なしてついてくる。<br><br>そして御神前にてお礼を申し述べている様であります。<br><br> そして全部の狐達は立派な着物を着て狐の嫁入りを踊り出したのが霊視出来ました。<br><br> 〇 次に立派な神社が見え、そこから馬に乗った武士の様な高貴な方が大勢の家来を引きつれ、大光明如来様の前に馳せ参じている姿が霊視出来ました。<br><br> 一、言霊の働きにより霊界が変化する事も見えます。<br><br> 一、御浄霊をお受け致しますと黒い邪気の出るのも霊視出来ます。<br><br> 一、支部の例祭の後時刻は十二時を過ぎていました。<br><br>雑談がはずみ信者一同笑いこけているひと時、○○先生と○○氏が面白く意見を交換されている。<br><br>私は何気なくその様を見てしますと二人の副霊野狐がいゝ気になってほえ出す面白い場面が霊視出来ました。<br><br>〇〇氏の方は随分大きく親分らしい。<br><br>両氏が話を止められますと野狐は萎縮してしまい静かである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Reverendo Jikan Okada: Diário de Visões Espirituais, por Yoshiko Ibaraki</h2>
 <p><em>Publicado na edição nº 40 da revista Paraíso Terrestre, em 25 de setembro de 1952.</em></p>
@@ -150,5 +302,48 @@ function toggleLang(lang) {
 <p>Também pude presenciar como o Mundo Espiritual se transforma pela atuação do poder espiritual das palavras.</p>
 <p>Consigo ver, também, a energia maligna e escura que é expelida quando se recebe Johrei.</p>
 <p>Certa vez, após o culto mensal na unidade, já passava da meia-noite. Estávamos em uma conversa animada, e todos os membros riam descontroladamente. O Reverendo Fulano e o Sr. Sicrano trocavam opiniões de forma divertida. Observei a cena casualmente e pude ter a cômica visão dos dois espíritos de raposa secundários que os acompanhavam, que se exaltavam e latiam em aprovação. O do Sr. Sicrano era bem grande, parecia um chefe. Quando ambos pararam de falar, as raposas encolheram-se e se aquietaram.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 茨木よし子 『地上天国』40号、昭和27(1952)年9月25日発行 入 信 昭和二十四年一月二十五日 入信動機 二十歳の頃より慢性胃陽病から十二指腸潰瘍にて現代医療を施しその挙句本教にて救われる。<br/><br/> 家庭状況 家族七人皆入信（昭和二十五年二月八日）大光明如来様並びに屏風観音様奉斎いたし、月並祭もいたしおります。<br/><br/> 現在の私の浄化状況 毎日頭頸腹部の軽い浄化を絶えずいただき時々激しい浄化をいたゞきますが、その都度御守護をいたゞいています。<br/><br/>喜び天にも登る気持で御浄霊して戴く様になりましてから色々な現象が目をつむっていますとあらわれてきます。<br/><br/> 以下記しました事柄はその中の主なる物を抜萃して見ました。<br/><br/> 霊視の状況報告 一、昭和二十四年六月頃よりお浄霊を頂いていますと不思議な現象が目にうつる様になりました。<br/><br/>最初掌から出るお光が見え出しました。<br/><br/>薄い白色の霧の様な光、想念の通りに突き抜ける。<br/><br/>次に御神体から黄金の光、白金の光さんさんと流れ出て部屋一面のお光である。<br/><br/>身体に気持よく感じる。<br/><br/> 一、二十四年の九月本部に参拝致す一週間程前、一度も見た事のない熱海の風景箱根の状が手に取る様に見えたのには驚いてしまった。<br/><br/> 一、頭の浄化をいたゞいています頃、気持よくいれる場所は、光明如来様の前と支部長さんの傍にいます時。<br/><br/>まるで慈母の膝にでもいる様に気持よく安心にて大変楽であった。<br/><br/>知らない人々が来ると（私の傍へ）人一人々々により差はあるが、その人がくると吸いつけられ引ぱりつけられてしまう様で、大層苦しかった事を記憶する。<br/><br/> 一、支部長さんの家の御神前にて綺麗な蓮花を持たれる観音様、今思えばメシヤ観音様が見え出した。<br/><br/>この観音様が私の家の御神前にも拝む事が出来ました。<br/><br/>ある時は虹の橋がくっきりと浮き出て見え、キリストの様な方が支部長さんの家にも私の家にも見えとても気持がよかった。<br/><br/>同じものが見えるとは不思議である。<br/><br/> 一、昭和二十四年九月最初の明主様の御面会の際金龍に乗ってお出ましになりました。<br/><br/>まるで親に会う様に温かみを感じました。<br/><br/> 一、二十五年八月の御面会の時、木の幹位もある金龍が優しい目をして明主様の右側で、うつらうつらとしているのを拝する。<br/><br/> 一、秋季になり胃、腸、潰瘍特有の激痛の浄化を毎日三時間おきに位戴き、痛くて困り果てて支部へ参拝していると、袖をひらひらさせ給う美しい観音様が現れ、観音様も涙を拭き拭き温い手を差し伸べ御浄霊下さるお姿を拝し、神は罪多き私如き者の近辺にお出で下され守護ある事を知り感涙致し、勇気を出した事もあります。<br/><br/>この観音様が支部長さんの背後にお立ちになり、支部長さんの手を経て私を浄霊して下さる。<br/><br/>又ある時はこの観音様が支部長さんの後にて、細長い帳面をくりくりしておられ、遂にこの時明主様のお姿を拝したのでした。<br/><br/>この時腹痛が止りました。<br/><br/> 一、鈍痛の腹痛にて寝床にいて皆さんのおつとめの天津祝詞を聞けば、大勢の神々様が御神前に現れる状が見えました。<br/><br/>又ある時は明主様が御神前にてお茶を召し上がられるお姿も拝せました。<br/><br/>又ある時は聖徳太子の傍で鎌足が御用をなさる姿も目にうつりました。<br/><br/> 一、支部長さんに浄霊して戴くと、その後に支部長さんによく似た僧侶が茶色や紫色の衣を着てお茶をのんでいらっしゃる姿が目にうつりました。<br/><br/>時々明主様のお姿が支部長さんの後方にお出で下さいました。<br/><br/>その時には浄化も大変楽に御守護いたゞけます。<br/><br/> 一、昭和二十六年一月本部に参拝の途中、神聖大教会中村先生宅に参拝しました時、腹痛の浄化いたゞきまして御神前にて支部長さんに浄霊していたゞくこと一時間余り、その間一進一退にして出発時刻になりました。<br/><br/>その時御神体より観音様が支部長さんの肩の辺にうき立たれました。<br/><br/>駅に行く途中、その観音様が後向になられ私を絶えず守護下さいます。<br/><br/>苦しい腹痛を抱えながら遅れぬ様について行きました。<br/><br/>汽車の中でも絶えず浄霊していたゞき、無事に熱海の宿につきました。<br/><br/>ここで気がついて見ますと何時の間にか千手観音様と入れかわり私をじっと御守護下さいました。<br/><br/> 一、再々明主様に御面会致したきため、熱海小学校に転勤を希望致し、実行に移したく思案していた矢先、帰宅途中も又々浄化戴き、支部長さんの傍を離れる事が心細くなり中止する事に決心してしまった。<br/><br/>身体を速にお救いいたゞき、お道のために全身全霊をなげうち活躍出来る日の一日も早からん事を朝夕神にお祈り申しました。<br/><br/> 五月十一日 一、豊岡市九日上町（ここのかかみのちょう）字藤の木七五八番地女代（めしろ）大神宮の参拝にて、この宮は支部長さんの氏神様であります。<br/><br/>次の様に霊視が出来ました。<br/><br/> １ 天津祝詞を奏上致しますと御神前の扉が静に開いて中から黒髪を垂し十二単衣の着物をお召しになる姫君の様なお方が沢山の神様をお連れになり挨拶に出られました。<br/><br/> ２ 次に着物を着換えて御人払いされてさめざめと泣かれ、寝床に入らせられて眠られる。<br/><br/>神様でも御病気をなさるのかしらと思いました。<br/><br/> ３ おつきの人々は心配そうである。<br/><br/>だがしかし姫君は絶えず私達の祝詞をお聞き下さる様子。<br/><br/>不思議な現象が目に映りました。<br/><br/>一体この御社にはどなた様がお祀り致してあるのであろうか。<br/><br/>宮主様にも御尋ねもせず帰りました。<br/><br/> 七月十日 支部長さんの御親戚（舞鶴）の若奥様に悪霊が憑依しているので依頼され、支部長さんと二人で浄霊をさせて頂きました。<br/><br/>するとお腹の中に長さ七、八寸、丸さ鉛筆位の黒い蛇の子が五、六匹うじゃうじゃしてまるで水の中をオタマジャクシが喜んで遊び戯れている様でした。<br/><br/>病人の頭の上では直径三、四寸もあると思われる親蛇が真赤な舌をペロペロ出しながら子蛇をじっと見守っているのが霊視出来ました。<br/><br/>暫くして腹の中の子蛇がじっとして静かになる。<br/><br/>と共に腹痛も止った様でした。<br/><br/>この家は京都の多賀先生の信者でしたので十一日の多賀先生のところの例祭に参拝させて頂きました。<br/><br/> 七月十一日 地上天国に再々おのせ下さった多賀秀三先生の宅に御参拝致しまして色々のお話を伺い今迄の謎が解けた様で大変嬉しく存じました。<br/><br/>先生は親切に神様に色々お伺い下さいまして次の様にお話し下さいました。<br/><br/> 「茨木よし子の今迄霊視出来るものは正神である。<br/><br/>主の神のお許を得た正守護神が見せるのであるのだから安心してよい」との、私にとりまして大変力強きお言葉をいたゞきほっと致しました。<br/><br/>実は内心邪神では無いかとおどおど致していましたのです。<br/><br/>この私の霊視能力はある期間迄にして見えなくなるから、見える間にお道の事にうまく活用なさい。<br/><br/>こうした御使命のもとに生れて来たのであるとおっしゃいました。<br/><br/> それから先生のお宅の霊界の様をお話し致しました。<br/><br/> 多賀先生の宅の例祭での霊視を発表致します。<br/><br/> 一、主神と思われる神様が真中にお立ちになり、その両側に段々に御家来と思われる神々様がお立ちになり、まるでお雛祭の様な光景でした。<br/><br/> 一、次に明主様の全身のお姿がくっきりと写真の様にお現われになり、一生懸命で栗色をしたとても綺麗な陶器の丸い壷を手に持たれ御鑑賞なさるお姿が何時迄も何時迄も霊視出来ました。<br/><br/> 一、御仏前では千手観音様がさっとお現われになり、その前で恭々しく綺麗な着物をお召しになられた高貴な若い御婦人がお盆を手に持ち何かされている。<br/><br/>以上の様なとても素晴しい霊界の様が目に映りました。<br/><br/> 一、次に「支部長さんと私とはよく気が合うでしょう」と多賀先生がおっしゃいましたので吃驚しました。<br/><br/>「それには霊的に気の合う理由があり微妙な働きがあるからよく協力しなさい」と申されました。<br/><br/> 一、次に「豊岡の氏神様と非常に因縁があるから祭神をよく調べて御覧なさい」とおっしゃいました。<br/><br/>帰ってから早速支部長さんと参拝致しました。<br/><br/>次の様な霊視が出来ました。<br/><br/> 七月十三日の氏神の参拝 一、黒い長い美しい髪を垂し、十二単衣の美しい着物を召されたこの間の神様が、長らくの御浄化にてお弱りなされた様なお姿にて、拝殿の両側にお立ちになっていらっしゃる立派な大きな武士の様な方の背に負われて神殿の中から出ていらっしゃる。<br/><br/>随分やつれていらっしゃる様子。<br/><br/> 一、次に高齢なお方が普通の着物姿にて長さ一尺ばかりの巻物を差し出されますが、それを受取り申す方はどこを見ても無い様である。<br/><br/>暫くこの現状が続きます。<br/><br/> 一、再び先程のお姫様現われる。<br/><br/>そして乱れた髪を静に静かにときつけられる。<br/><br/>丁度お産をなされた揚句の様である。<br/><br/> 一、玉の様な美しいみどり児を膝に抱きお乳を呑ませられている。<br/><br/>お姫様大分快方に向われられた様である。<br/><br/>（以上霊視） 参拝終って神主様にお話を聞きますれば氏神様の祭紳は高皇産霊神にして古事記によりますと私の氏神様は、かみむすみの神の子「すくなひこなのみこと」です。<br/><br/>ですから氏神様の守護も支部長様と私とは親子の関係のあることが初めて分りました。<br/><br/> 一、信者の方で大浄化をいたゞきとてももう駄目だと家族の者も本人も思っていた頃、光明如来様をいたゞきに支部長さん宅に来られました。<br/><br/>受取られる際に黒白の葬式の幕が見え驚いていますと、次に明主様がお出でになられまして光明如来様をお渡し下さるお姿が霊視出来ました。<br/><br/>この方はきっとよくなられる。<br/><br/>御守護をいたゞきなさると思っていましたら現在ぴんぴんとしていらっしゃいます。<br/><br/> 一、又ある時は浄化中の信者の寝ている御仏前にておつとめを致しますと仏壇の中から何十本もの手でおまねきが始りました。<br/><br/>こうした霊視ではとてもと思っていましたらその夜亡くなられました。<br/><br/> 七月十九日 御神前にておつとめをしていますと朱塗の鳥居の沢山ある立派な稲荷さんが見え、古い親方らしいものが五六匹、その後には沢山の眷族がだらだらと長蛇の列なしてついてくる。<br/><br/>そして御神前にてお礼を申し述べている様であります。<br/><br/> そして全部の狐達は立派な着物を着て狐の嫁入りを踊り出したのが霊視出来ました。<br/><br/> 〇 次に立派な神社が見え、そこから馬に乗った武士の様な高貴な方が大勢の家来を引きつれ、大光明如来様の前に馳せ参じている姿が霊視出来ました。<br/><br/> 一、言霊の働きにより霊界が変化する事も見えます。<br/><br/> 一、御浄霊をお受け致しますと黒い邪気の出るのも霊視出来ます。<br/><br/> 一、支部の例祭の後時刻は十二時を過ぎていました。<br/><br/>雑談がはずみ信者一同笑いこけているひと時、○○先生と○○氏が面白く意見を交換されている。<br/><br/>私は何気なくその様を見てしますと二人の副霊野狐がいゝ気になってほえ出す面白い場面が霊視出来ました。<br/><br/>〇〇氏の方は随分大きく親分らしい。<br/><br/>両氏が話を止められますと野狐は萎縮してしまい静かである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

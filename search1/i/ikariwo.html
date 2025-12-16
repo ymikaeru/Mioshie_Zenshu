@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ikariwo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 怒りを克服する 『栄光』106号、昭和26(1951)年5月30日発行 私は最近、怒りを和（やわら）げる方法を神様から教えられたので、今その福音を伝えようと思う、およそ人間この世に生きている間、何が一番苦しいかといって憤怒（ふんぬ）に越したものはあるまい、稀（まれ）には怒らない人もあるにはあるが、これは倖せのようでも、実は一種の変質者である。<br><br>まず一般人としては、怒らない者はほとんどないと云ってよかろう。<br><br>昔から淘宮術（とうきゅうじゅつ）やその他の修養法によって、怒りを克服する方法もあるにはあるが、真に効果のあるものはほとんど見当らない、しかしながら怒りをただ抑えるだけとしたら、怒りの苦しみは免れるとしても、新たに抑える苦しみが生まれるから、何にもならない、怒りの苦しみが大きければ大きい程、抑える苦しみもそれにつれるからで、差引二一天作の五（にいちてんさくのご）である。<br><br>ところが、今度私が神から教えられた方法は、怒りの感情を楽に消す事が出来る、何と素晴しいではなかろうか、今それをかいてみよう。<br><br> そもそも、人体の中央にある鳩尾（みぞおち）は、昔から中腑（ちゅうふ）と言われる程重要な部分である、よく臍（へそ）が中心というが、これは腹部の中心であって、勇気とか胆力とか、決断力というような意志の中心である、よく肚が出来ているとか、太っ肚だとか、肚が据（すわ）っているとかいうのは、その意味である、しかし私が常に言う、前頭部は智慧、記憶等の理性を掌（つかさど）り、後頭部は喜怒哀楽等の感情を掌り、肚は右のごとくであるとしたら、この三位一体的総合された結晶が、前述のごとく人体の中腑である以上、怒りの場合もやはりこの部へ想念が集中するのである。<br><br>何よりも怒った時、鳩尾部に何か結ばれた塊のようなものが感じられる、これは誰しも経験するところで、また腹が立つという言葉も腹にある棒が立って棒の頭が鳩尾に当る訳である、それはとにかく、腹の立った際鳩尾部を浄霊すると、間もなく塊が溶け、結んだ紐（ひも）がほどけるような、胸がひらけて何とも言えないいい気持となり、段々心が軽くなって、怒った事が恥しいようになるものである、よく怒りが解けるというが、その通りである。<br><br>しかも浄霊なるものは、自分でも人でもどちらも治せるから、これほど結構な事はあるまい、言うまでもなく個人は元より一家の平和、人との和合、大にしては社会や国際間の平和が破られるのも、怒りが原因であるから、実に大きな救というべきであろう。<br><br> (注) 淘宮術（とうきゅうじゅつ）開運術の一つ。<br><br>人は生まれつきの癖を洗練する事で、心身を向上させ幸福を得る術。<br><br> 二一天作の五（にいちてんさくのご）旧式そろばんの割り算九九、１を２で割る場合のことば。<br><br>転じて計算のこと。<br><br>物事を半分ずつに割る事。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superação da Ira</h2>
 <p>Recentemente, recebi de Deus um ensinamento sobre como apaziguar a ira e desejo agora compartilhar este evangelho. Durante a existência terrena do ser humano, talvez não haja sofrimento maior do que o da fúria. Embora existam, em raras ocasiões, pessoas que não se encolerizam, e isso possa parecer uma ventura, trata-se, na verdade, de uma natureza anômala. De modo geral, podemos afirmar que quase não há quem não se ire. Desde a antiguidade, existem métodos que visam à superação da cólera, como o Toukyuujutsu (淘宮術) e outras disciplinas de aprimoramento espiritual, mas é difícil encontrar algum que seja verdadeiramente eficaz.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Conforme sempre ensino, a região frontal rege o intelecto, como a sabedoria e a memória; a nuca governa as emoções, como a alegria, a ira, a tristeza e o prazer; e o abdômen, como mencionado, é o centro da vontade. Sendo o plexo solar a cristalização dessa síntese trina no corpo humano, é natural que, nos momentos de fúria, a energia mental se concentre precisamente nesse ponto. De fato, quem já não sentiu, ao encolerizar-se, uma espécie de nódulo ou massa se formando no plexo solar? A própria expressão japonesa para “enfurecer-se” alude a um bastão que se ergue no abdômen, cuja ponta atinge essa região.</p>
 <p>Seja como for, ao ministrar Johrei no plexo solar de uma pessoa tomada pela ira, em pouco tempo o nódulo se dissolve, como um laço que se desata. O peito se abre, e uma indescritível sensação de bem-estar toma conta do ser. Gradualmente, o coração se torna mais leve, a ponto de a pessoa sentir vergonha de ter se enraivecido. É exatamente o que se descreve como a ira “se desfazendo”.</p>
 <p>Ademais, o Johrei pode ser tanto autoaplicado como ministrado por outra pessoa, o que o torna um recurso esplêndido. Desnecessário dizer que a ira é a causa da quebra da paz, seja no âmbito individual, na harmonia familiar e nas relações interpessoais ou, em maior escala, na paz social e internacional. Portanto, este método deve ser considerado, em verdade, uma grandiosa salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 怒りを克服する 『栄光』106号、昭和26(1951)年5月30日発行 私は最近、怒りを和（やわら）げる方法を神様から教えられたので、今その福音を伝えようと思う、およそ人間この世に生きている間、何が一番苦しいかといって憤怒（ふんぬ）に越したものはあるまい、稀（まれ）には怒らない人もあるにはあるが、これは倖せのようでも、実は一種の変質者である。<br/><br/>まず一般人としては、怒らない者はほとんどないと云ってよかろう。<br/><br/>昔から淘宮術（とうきゅうじゅつ）やその他の修養法によって、怒りを克服する方法もあるにはあるが、真に効果のあるものはほとんど見当らない、しかしながら怒りをただ抑えるだけとしたら、怒りの苦しみは免れるとしても、新たに抑える苦しみが生まれるから、何にもならない、怒りの苦しみが大きければ大きい程、抑える苦しみもそれにつれるからで、差引二一天作の五（にいちてんさくのご）である。<br/><br/>ところが、今度私が神から教えられた方法は、怒りの感情を楽に消す事が出来る、何と素晴しいではなかろうか、今それをかいてみよう。<br/><br/> そもそも、人体の中央にある鳩尾（みぞおち）は、昔から中腑（ちゅうふ）と言われる程重要な部分である、よく臍（へそ）が中心というが、これは腹部の中心であって、勇気とか胆力とか、決断力というような意志の中心である、よく肚が出来ているとか、太っ肚だとか、肚が据（すわ）っているとかいうのは、その意味である、しかし私が常に言う、前頭部は智慧、記憶等の理性を掌（つかさど）り、後頭部は喜怒哀楽等の感情を掌り、肚は右のごとくであるとしたら、この三位一体的総合された結晶が、前述のごとく人体の中腑である以上、怒りの場合もやはりこの部へ想念が集中するのである。<br/><br/>何よりも怒った時、鳩尾部に何か結ばれた塊のようなものが感じられる、これは誰しも経験するところで、また腹が立つという言葉も腹にある棒が立って棒の頭が鳩尾に当る訳である、それはとにかく、腹の立った際鳩尾部を浄霊すると、間もなく塊が溶け、結んだ紐（ひも）がほどけるような、胸がひらけて何とも言えないいい気持となり、段々心が軽くなって、怒った事が恥しいようになるものである、よく怒りが解けるというが、その通りである。<br/><br/>しかも浄霊なるものは、自分でも人でもどちらも治せるから、これほど結構な事はあるまい、言うまでもなく個人は元より一家の平和、人との和合、大にしては社会や国際間の平和が破られるのも、怒りが原因であるから、実に大きな救というべきであろう。<br/><br/> (注) 淘宮術（とうきゅうじゅつ）開運術の一つ。<br/><br/>人は生まれつきの癖を洗練する事で、心身を向上させ幸福を得る術。<br/><br/> 二一天作の五（にいちてんさくのご）旧式そろばんの割り算九九、１を２で割る場合のことば。<br/><br/>転じて計算のこと。<br/><br/>物事を半分ずつに割る事。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

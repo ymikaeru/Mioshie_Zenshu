@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hujin06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 婦人病 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 婦人病にも種々あるが、概略左に説いてみよう。<br><br> 最も多いのは、子宮に関する病気である。<br><br>医学では子宮内膜炎又は実質炎、周囲炎等の名称を附してゐるが、炎のつく限り有熱病であるから、浄化作用が起つてゐるので、放任しておけば必ず治癒するのである。<br><br>然るに子宮抓爬（そうは）などを行ふが、之等は何の効果もない。<br><br>何となれば、元来子宮内は不断に分泌物又は白帯下（こしけ）が下りるから、抓爬するや、忽ちに旧の通りに汚れるからである。<br><br> 次に、消渇（しょうかち）であるが、之は淋毒性と今一つは、曩に説いた熱尿の為などもあるが淋毒に因る尿道疾患は、淋病の治療法と同じく、尿を頻繁にして、尿道を洗滌するのが一番いいのである。<br><br>熱尿は、曩に説いた通りであるから略すことにする。<br><br> 次に、子宮筋腫も尠くない病気で、その症状も種々あるが、私の経験によれば、誤診が非常に多いのである。<br><br> 真の子宮筋腫は、子宮を牽引（けんいん）してゐる筋が腫脹するので、大きさは大、中、小種類あり、多くは硬性で、無痛と軽痛とあり、無痛に於ては、永い間気の付かない患者すらあるのである。<br><br>又、誤診もあつて、鼠蹊腺部、腎盂炎、腹膜の下部等に凝結する毒素又は月経の残存血液の凝結等を子宮筋腫と誤る事が少くないのである。<br><br>之等を治療する結果、毒素の方は白帯下となつて排泄せられ、残存月経凝結の方は月経となつて排泄せられるので、速かに治癒するのである。<br><br>然し乍ら、真の子宮筋腫は自然治癒では困難であるが、本療法によれば、必ず治癒するのである。<br><br> 次に、卵巣膿腫又は卵巣水腫も相当多い病気で、之も割合苦痛はないのである。<br><br>そうして重症になると非常に膨大し、臨月以上の大きさになるものさへあるが、苦痛がないから右の如き腹を抱えて働いてゐる婦人もよくあるのである。<br><br>そうして腹部の膨大は、腹膜炎とよく似てゐるが、異なる点は、腹膜炎は胸部へかけて、膨満が斜状型になつてゐるが、卵巣膿腫は、胸部は常態にして、腹部のみが際立つて膨満してゐるからよく判るのである。<br><br>そうして此病気に対し、手術は割合奏効する事が多いのである。<br><br>又子宮筋腫も、手術の奏効する事が多いのである。<br><br> 次に、婦人病に対し、医家は診察の結果、よる喇叭（らっぱ）管が腫れてるといふが、之は誤診であると思ふのである。<br><br>それは医家の診断は、内部からみて腫れてるといふが実は外部即ち下腹部に毒素溜結し、それが外方から圧迫するので、内部からはそうみゆるのであらう。<br><br> 次に婦人によくある病気に月経痛がある。<br><br>之は月経毎に多少の痛みを感ずるのであるがそれは喇叭管が狭小又は閉塞してゐるので、それを血液が通過しようとするその為の痛みである。<br><br>そうして原因は、前述の如き、外部からの溜結毒素の圧迫であるから、その毒素を溶解するに於て全治するのである。<br><br>私が治療の頃、例外なく治癒したるにみても明かである。<br><br> 次に、成年期になつても無月経の女性がよくあるが、之等は喇叭管閉塞が強度である為であるから、その原因を除けば必ず治癒するのである。<br><br> 又不姙症も右と同一の原因であつて、医学で唱ふる如く、喇叭管閉塞の為である。<br><br>故に昔から、下腹が固い女性は不姙であるとか、又あの婦人は下腹が固くなつたから、もう子が出来ないなどとよく謂はれるが、之は真実である。<br><br> 次に、姙娠中の病気として姙娠腎が相当多いのである。<br><br>そうして強度の浮腫の為医家は人工流産を奨めるが、此姙娠腎発生は、多くは七八ケ月以後であるから、寧ろ流産でなく死産であるといつてもいいので、実に本人及び家族の精神的苦痛は大である。<br><br>そうして此原因は、平常から背面腎臓部に毒素溜結があり、後部だけなら其圧迫も軽度で気が付かないが、一度姙娠するや、腹部の方からも圧迫するので、腎臓は、前後からの圧迫を受け強度の萎縮腎となり、それが為、余剰尿が浮腫となるのである。<br><br> 然し乍ら、本治療によれば、此症状は特に治癒し易く、短時日に快癒するので、決して人工流産等の必要がなく、順調に出産するから、大いに喜ばれると共に、国家的見地からいつても、大いに推奨すべきであると思ふのである。<br><br> 次に、姙娠中の悪阻（つわり）も頗る多い症状で、甚しきは嘔吐烈しく、一ケ月以上も碌々食を摂る能はず、人工流産のやむなきに至るのであるが、此原因は胃の外部にある毒素溜結が、腹部膨脹によつて圧迫され、浄化作用が発（おこ）つて溶解し排泄される。<br><br>それが嘔吐であるから右の毒素を溶解するに於て治癒するのである。<br><br> 次に、子宮外姙娠もよくある症状で、且つ非常に恐れられてゐるが、之は医学に於ては手術以外方法がないとされてゐる。<br><br>然し乍ら本療法によれば、頗る容易に治癒するのである。<br><br>又此症状も誤診が会々（たまたま）あるやうであるから、注意すべきである。<br><br>そうして此症状は、姙娠二三ケ月頃、下腹部の激痛と出血とが著るしい特徴である。<br><br> 次に、白帯下の多量にある女性があるが、医学に於ては之を不可として種々の療法を行ふが、何れも効果はないのである。<br><br>又子宮が悪いからといふが、之は子宮とは全然関係がないので、只だ深部から溶解毒素が流下し、一旦子宮内に滞溜するのであつて、誤解も亦甚だしいのである。<br><br>従而、其際に於ける子宮抓爬などは意味をなさないのである。<br><br>私の研究によれば、此原因は化膿性腹膜炎が、浄化作用によつて溶解され、その膿が排泄されるのであるから、白帯下は非常に良いのである。<br><br> 其他バルトリン氏腺腫脹、膣炎、掻痒症、子宮脱出、不感症等あるが、之は省く事とする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Enfermidades Femininas</h2>
 <p>Existem diversas enfermidades femininas, sobre as quais discorrerei em linhas gerais. As mais frequentes são as que acometem o útero. A medicina lhes atribui denominações como endometrite, parametrite e outras afins; contudo, a terminação "-ite" denota um processo febril, indicando que uma Ação Purificadora está em curso. Se deixada à sua própria evolução, a cura ocorreria invariavelmente. No entanto, procedimentos como a curetagem uterina são realizados, os quais se mostram de todo ineficazes. A razão para tal ineficácia reside no fato de que o interior do útero está em constante produção de secreções e leucorreia; assim que o procedimento é feito, a cavidade retorna prontamente ao seu estado anterior.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>A gravidez ectópica é outra ocorrência comum e bastante temida, para a qual a medicina considera a cirurgia como único recurso. Através de nossa Terapia, contudo, a cura é alcançada com notável facilidade. Cumpre ressaltar que também neste caso os erros de diagnóstico parecem ocorrer ocasionalmente, exigindo atenção. Seus traços mais característicos, que surgem por volta do segundo ou terceiro mês de gestação, são dor abdominal aguda e sangramento.</p>
 <p>Existem mulheres que apresentam um fluxo abundante de leucorreia. A medicina considera tal quadro um problema e emprega diversas terapias, todas ineficazes. Atribui-se a causa a uma disfunção uterina, quando, na verdade, não há qualquer relação com o útero. Trata-se simplesmente de toxinas que se liquefazem em regiões mais profundas e, ao escorrerem, acumulam-se temporariamente na cavidade uterina. É um equívoco de grandes proporções e, por conseguinte, a curetagem uterina nesses casos não faz o menor sentido. Segundo minhas pesquisas, a causa é o pus de uma peritonite purulenta que, pela Ação Purificadora, está sendo dissolvido e expelido. Sendo assim, a leucorreia é algo extremamente benéfico.</p>
 <p>Há ainda outras condições, como o inchaço da glândula de Bartholin, a vaginite, o prurido vaginal, o prolapso uterino e a frigidez, mas deixarei de abordá-las no momento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 婦人病 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 婦人病にも種々あるが、概略左に説いてみよう。<br/><br/> 最も多いのは、子宮に関する病気である。<br/><br/>医学では子宮内膜炎又は実質炎、周囲炎等の名称を附してゐるが、炎のつく限り有熱病であるから、浄化作用が起つてゐるので、放任しておけば必ず治癒するのである。<br/><br/>然るに子宮抓爬（そうは）などを行ふが、之等は何の効果もない。<br/><br/>何となれば、元来子宮内は不断に分泌物又は白帯下（こしけ）が下りるから、抓爬するや、忽ちに旧の通りに汚れるからである。<br/><br/> 次に、消渇（しょうかち）であるが、之は淋毒性と今一つは、曩に説いた熱尿の為などもあるが淋毒に因る尿道疾患は、淋病の治療法と同じく、尿を頻繁にして、尿道を洗滌するのが一番いいのである。<br/><br/>熱尿は、曩に説いた通りであるから略すことにする。<br/><br/> 次に、子宮筋腫も尠くない病気で、その症状も種々あるが、私の経験によれば、誤診が非常に多いのである。<br/><br/> 真の子宮筋腫は、子宮を牽引（けんいん）してゐる筋が腫脹するので、大きさは大、中、小種類あり、多くは硬性で、無痛と軽痛とあり、無痛に於ては、永い間気の付かない患者すらあるのである。<br/><br/>又、誤診もあつて、鼠蹊腺部、腎盂炎、腹膜の下部等に凝結する毒素又は月経の残存血液の凝結等を子宮筋腫と誤る事が少くないのである。<br/><br/>之等を治療する結果、毒素の方は白帯下となつて排泄せられ、残存月経凝結の方は月経となつて排泄せられるので、速かに治癒するのである。<br/><br/>然し乍ら、真の子宮筋腫は自然治癒では困難であるが、本療法によれば、必ず治癒するのである。<br/><br/> 次に、卵巣膿腫又は卵巣水腫も相当多い病気で、之も割合苦痛はないのである。<br/><br/>そうして重症になると非常に膨大し、臨月以上の大きさになるものさへあるが、苦痛がないから右の如き腹を抱えて働いてゐる婦人もよくあるのである。<br/><br/>そうして腹部の膨大は、腹膜炎とよく似てゐるが、異なる点は、腹膜炎は胸部へかけて、膨満が斜状型になつてゐるが、卵巣膿腫は、胸部は常態にして、腹部のみが際立つて膨満してゐるからよく判るのである。<br/><br/>そうして此病気に対し、手術は割合奏効する事が多いのである。<br/><br/>又子宮筋腫も、手術の奏効する事が多いのである。<br/><br/> 次に、婦人病に対し、医家は診察の結果、よる喇叭（らっぱ）管が腫れてるといふが、之は誤診であると思ふのである。<br/><br/>それは医家の診断は、内部からみて腫れてるといふが実は外部即ち下腹部に毒素溜結し、それが外方から圧迫するので、内部からはそうみゆるのであらう。<br/><br/> 次に婦人によくある病気に月経痛がある。<br/><br/>之は月経毎に多少の痛みを感ずるのであるがそれは喇叭管が狭小又は閉塞してゐるので、それを血液が通過しようとするその為の痛みである。<br/><br/>そうして原因は、前述の如き、外部からの溜結毒素の圧迫であるから、その毒素を溶解するに於て全治するのである。<br/><br/>私が治療の頃、例外なく治癒したるにみても明かである。<br/><br/> 次に、成年期になつても無月経の女性がよくあるが、之等は喇叭管閉塞が強度である為であるから、その原因を除けば必ず治癒するのである。<br/><br/> 又不姙症も右と同一の原因であつて、医学で唱ふる如く、喇叭管閉塞の為である。<br/><br/>故に昔から、下腹が固い女性は不姙であるとか、又あの婦人は下腹が固くなつたから、もう子が出来ないなどとよく謂はれるが、之は真実である。<br/><br/> 次に、姙娠中の病気として姙娠腎が相当多いのである。<br/><br/>そうして強度の浮腫の為医家は人工流産を奨めるが、此姙娠腎発生は、多くは七八ケ月以後であるから、寧ろ流産でなく死産であるといつてもいいので、実に本人及び家族の精神的苦痛は大である。<br/><br/>そうして此原因は、平常から背面腎臓部に毒素溜結があり、後部だけなら其圧迫も軽度で気が付かないが、一度姙娠するや、腹部の方からも圧迫するので、腎臓は、前後からの圧迫を受け強度の萎縮腎となり、それが為、余剰尿が浮腫となるのである。<br/><br/> 然し乍ら、本治療によれば、此症状は特に治癒し易く、短時日に快癒するので、決して人工流産等の必要がなく、順調に出産するから、大いに喜ばれると共に、国家的見地からいつても、大いに推奨すべきであると思ふのである。<br/><br/> 次に、姙娠中の悪阻（つわり）も頗る多い症状で、甚しきは嘔吐烈しく、一ケ月以上も碌々食を摂る能はず、人工流産のやむなきに至るのであるが、此原因は胃の外部にある毒素溜結が、腹部膨脹によつて圧迫され、浄化作用が発（おこ）つて溶解し排泄される。<br/><br/>それが嘔吐であるから右の毒素を溶解するに於て治癒するのである。<br/><br/> 次に、子宮外姙娠もよくある症状で、且つ非常に恐れられてゐるが、之は医学に於ては手術以外方法がないとされてゐる。<br/><br/>然し乍ら本療法によれば、頗る容易に治癒するのである。<br/><br/>又此症状も誤診が会々（たまたま）あるやうであるから、注意すべきである。<br/><br/>そうして此症状は、姙娠二三ケ月頃、下腹部の激痛と出血とが著るしい特徴である。<br/><br/> 次に、白帯下の多量にある女性があるが、医学に於ては之を不可として種々の療法を行ふが、何れも効果はないのである。<br/><br/>又子宮が悪いからといふが、之は子宮とは全然関係がないので、只だ深部から溶解毒素が流下し、一旦子宮内に滞溜するのであつて、誤解も亦甚だしいのである。<br/><br/>従而、其際に於ける子宮抓爬などは意味をなさないのである。<br/><br/>私の研究によれば、此原因は化膿性腹膜炎が、浄化作用によつて溶解され、その膿が排泄されるのであるから、白帯下は非常に良いのである。<br/><br/> 其他バルトリン氏腺腫脹、膣炎、掻痒症、子宮脱出、不感症等あるが、之は省く事とする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M261105</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年11月5日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月五日 （お伺）今年一月風邪を引き発熱し、トリアノン注射五本ばかりで熱は下がりました。<br><br>その後ずっと食が進まず、だんだん痩せて血色がなくなってきましたが、どこにも苦痛を感じませんので、仕事は相変わらず農事を続けておりました。<br><br>あまり長くかかるので、今年七月初めて医診を受けましたところ、左肩胛骨の下に拳大に腫れ、奥底に大豆くらいのぐりぐりがありました。<br><br>注射器で探ってみましたら、血液が溜まっていることが分かり、これは肉腫らしいから、よ一日も早く手術して取り除いた方が良いとのことに、さっそく七月末手術いたしました。<br><br>肉を取ったその奥に袋になって、中に血液が溜まっていたそうです。<br><br>その後また、十五日目くらいにその横が少し腫れたので二回目の手術を受けましたところ、血管が二カ所ばかり静脈瘤のように「こぶ」になっていたそうです。<br><br>その後十五日ばかりで退院しましたが、体の調子は悪く睡眠もできずにおりますうちに、また横に腫れてきましたが、今度は医師も手術してくれず「肉腫はそういうもので、なかなかそれで治った人はないのだから」と言って、見離されました。<br><br>その後お道のことを知り御浄霊を一カ月半ばかりいただいております。<br><br>よく熟睡できるようになり、食欲も出て血色も少し出て、元気もたいへん良くなり、少し肥ってまいり、勝手仕事もぼつぼつできるようになりましたが、最近の状態では、また少し腫れが目立つようになり「ぐりぐり」も一つできましたので心配しております。<br><br>御浄霊はどこを主にいたしたらよろしいでしょうか。<br><br>なお、御浄霊をいただくようになってから、主人が十月初め入信、現在本人も入信のお願いをすましました。<br><br>御神体は御奉斎いたしておりません。<br><br> 〔御垂示〕 なかなかこれで治った人はない――治った人がなかったら、最初からやらなかったら良いですね。<br><br>これは医学による被害者ですね。<br><br>風邪を引いて発熱というのは、腫れるために熱が出たんですね、良い熱です。<br><br>それを注射五本ばかり――で冷ましてしまった。<br><br>固まりは前から固まっていた。<br><br>それが溶けようとしたのを溶かさないようにしちゃったんです。<br><br>そこで、食が進まなくなり、出ようとするのを止めたから、血色が悪くなった。<br><br>それから、肩胛骨――これは結構なんです。<br><br>もっと腫れて、膿が出たらそれで治ったんです。<br><br>いつも言う通り、腫れようという時、それを切ると、そこから出ないで他にいくんです。<br><br>ぐりぐりが腫れてきて、そこから溶けるんですね。<br><br>まだぐりぐりが残っていて、腫れただけ取ったんですね。<br><br>取ってまだ後に残っているから、それは他から出ることになる。<br><br>それから、これは肉腫ではないんですよ。<br><br>血液――毒血の固まりですよ。<br><br>肉腫というのは、血液とは関係ありません。<br><br>読んで字の通り、肉の腫れる固まりのようなものですね。<br><br>これは肉腫らしいから――肉腫というが、これはぜんぜん分からないからです。<br><br>血の固まりです。<br><br>毒血がそこに寄ってきたんです。<br><br>十五日くらいで、その毒がまた腫れて――一所に腫れようというのを手術したからよそに行った。<br><br>針で突いたくらいでも、そこに寄らないですよ。<br><br>いけないですね。<br><br>「こぶ」のようというのは、血の固まりですよ。<br><br>自然に毒血が出ようというのを、いろんなことをして止めたから、変てこなことになった。<br><br> 実際お医者に金を使って悪くして、下手すると命までなくなってしまうんだから、実際馬鹿を通り越してかわいそうなくらいです。<br><br>肉腫はそういうもので――それなら最初からやらない方が良い。<br><br>治る見込みがないものをやるというのは、罪悪ですよ。<br><br>罪悪と言ったところで、お医者さんはそうしなければ「メシ」を食っていけないからしかたがないですが、要するに医学そのものが罪悪ですね。<br><br>罪悪を行なわせるような方法を作ったその医学なるものが、罪悪の根元というんですね。<br><br>心配――心配じゃない。<br><br>あべこべです。<br><br>馬鹿に喜んで、お祝いして良い。<br><br>ぐりぐりはたくさんできて、うんと腫れた方が良い。<br><br>それで体の毒血が出て、あとは健康になります。<br><br>実に、人間の体は良くできてます。<br><br>それをあべこべに考えているんです。<br><br>神様のお心持ちとしてはね。<br><br>浄霊は腫れた所ですよ。<br><br>浄霊をすれば、膿が減り毒血が減りますから少なくてすむ。<br><br>小さいものなら、少なくてすむが――こういうものは、腫れて膿がすっかり出ます。<br><br>結構です。<br><br>だから、なるたけ運動をした方が良い。<br><br>運動をすると早く腫れて、早く出ますからね。<br><br>苦痛がなければ、ふだんの通りにした方が良い。<br><br>安静にすると、治りがずっと遅くなります。<br><br> （お伺）信者北沢文治の長男邦男（一歳八ケ月）は十月三十日ごろより風邪気味にて、身体全部に赤発疹ができ、親たちは「ハシカ」ではないかと思っておりましたが、三十一日朝ごろより、あまり泣かず、ただ口で呼吸をし、起きようともせず寝ていますので、どうしたことかと心配になり、十一月一日支部に連れてきました。<br><br>その時はそうとうに熱もあり、鼻汁が出て、お乳も飲み悪いようでありました。<br><br>浄霊をいただいて帰ってから、たいへん濃い鼻汁がたくさん出るようになりました。<br><br>翌日支部に連れてきた時は、ぜんぜん熱はなく、相変わらず言葉も出ず、泣くこともなく眠っているような状態で、時々空（うつろ）な目で見開きする程度にて、首のまわり、後頭部、腎臓部など良く御浄霊いたしましたが、なんら変化なく、昨日はお乳も飲みそうにもせず、ただうとうと眠っているばかりです。<br><br>一昨日ごろまでは、多少の下痢もありましたが、それもなく絶えず放屁（ほうひ）しております。<br><br>父親は二十二年二月入信いたし、光明如来様を御奉斎させていただいております。<br><br>初めのころは、教導師補の御資格をいただき、布教に努力いたしておりましたが、父母弟妹が非常な反対なので、御用も思わしくできず、今は長男でありながら別居いたしており、ゴム裏、草履製造業を営んでおります。<br><br>母親は二十五年一一月入信いたしました。<br><br>ちょうど、昨年母親が肋膜の御浄化をいただき、御浄霊にて健康にさせていただきましたが、その発病日と子供の発病の日と同日であったとのことです。<br><br>右は、なにか霊的の関係がございましょうか。<br><br>また御浄霊はどこを主にさせていただきましたらよろしいでしょうか。<br><br> 〔御垂示〕 やっぱり祖霊ですね。<br><br>これは、祖霊が早く神様のこと――御神業を一生懸命にやってもらいたくてしようがない。<br><br>だから、御用も思わしくできず――というこれですね。<br><br>これで、祖霊が非常に困っちゃった。<br><br>母親が入信したのは結構だが、ただ入信しただけでは駄目だ。<br><br>最初母親を信仰に入れたいためにこうして、今度は父親も母親も、一生懸命に信仰させたいためのお気づけです。<br><br>よく、それを心から解ってお詫びするんです。<br><br>そうしないと、これはあるいは死ぬかもしれないですよ。<br><br>祖霊さんは、こんなことじゃ駄目だと思って、一人亡くしたらば目が醒めるだろうというようにして――これは危ないところです。<br><br>だからお父さんもお母さんも、一刻も早く目が醒めて、よくお詫びして、これから一生懸命に神様のことをさせていただくからお許しをいただきたいということを、神様にお詫びして、それから祖霊さんにもそういうふうにする。<br><br>そうすると、じき治ります。<br><br>それで、早くそうしないと、霊界にいる祖霊が救われないんですからね。<br><br>だんだん最後が来るに従って、祖霊さんは気が気じゃないですよ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Equivocada Luta da Medicina contra a Purificação</h2>
 <p><strong>(Consulta)</strong>
@@ -113,5 +265,48 @@ Trata-se, indubitavelmente, de uma atuação dos espíritos ancestrais. Os antep
 <p>Ainda que a mãe tenha ingressado na fé, o que é muito bom, apenas ter ingressado não é suficiente. Inicialmente, a purificação da mãe foi um chamado para que ela entrasse para a fé. Agora, este acontecimento com o filho é um aviso para que tanto o pai quanto a mãe se dediquem fervorosamente.</p>
 <p>É preciso que o casal compreenda isso do fundo do coração e se arrependa. Do contrário, a criança poderá vir a falecer. Os espíritos ancestrais, pensando que a situação atual é inaceitável, podem estar agindo na esperança de que, ao perder um filho, o casal finalmente desperte. É uma situação de grande perigo. Portanto, pai e mãe devem despertar o mais rápido possível. É preciso que se arrependam sinceramente, peçam perdão a Deus e aos seus antepassados, e se comprometam a dedicar-se de agora em diante à Obra Divina com total empenho.</p>
 <p>Feito isso, a criança se recuperará prontamente. Se não agirem com urgência, os antepassados que estão no Mundo Espiritual não poderão ser salvos. À medida que o fim dos tempos se aproxima, os espíritos ancestrais sentem uma urgência desesperadora, pois a salvação deles depende da dedicação de seus descendentes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年11月5日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月五日 （お伺）今年一月風邪を引き発熱し、トリアノン注射五本ばかりで熱は下がりました。<br/><br/>その後ずっと食が進まず、だんだん痩せて血色がなくなってきましたが、どこにも苦痛を感じませんので、仕事は相変わらず農事を続けておりました。<br/><br/>あまり長くかかるので、今年七月初めて医診を受けましたところ、左肩胛骨の下に拳大に腫れ、奥底に大豆くらいのぐりぐりがありました。<br/><br/>注射器で探ってみましたら、血液が溜まっていることが分かり、これは肉腫らしいから、よ一日も早く手術して取り除いた方が良いとのことに、さっそく七月末手術いたしました。<br/><br/>肉を取ったその奥に袋になって、中に血液が溜まっていたそうです。<br/><br/>その後また、十五日目くらいにその横が少し腫れたので二回目の手術を受けましたところ、血管が二カ所ばかり静脈瘤のように「こぶ」になっていたそうです。<br/><br/>その後十五日ばかりで退院しましたが、体の調子は悪く睡眠もできずにおりますうちに、また横に腫れてきましたが、今度は医師も手術してくれず「肉腫はそういうもので、なかなかそれで治った人はないのだから」と言って、見離されました。<br/><br/>その後お道のことを知り御浄霊を一カ月半ばかりいただいております。<br/><br/>よく熟睡できるようになり、食欲も出て血色も少し出て、元気もたいへん良くなり、少し肥ってまいり、勝手仕事もぼつぼつできるようになりましたが、最近の状態では、また少し腫れが目立つようになり「ぐりぐり」も一つできましたので心配しております。<br/><br/>御浄霊はどこを主にいたしたらよろしいでしょうか。<br/><br/>なお、御浄霊をいただくようになってから、主人が十月初め入信、現在本人も入信のお願いをすましました。<br/><br/>御神体は御奉斎いたしておりません。<br/><br/> 〔御垂示〕 なかなかこれで治った人はない――治った人がなかったら、最初からやらなかったら良いですね。<br/><br/>これは医学による被害者ですね。<br/><br/>風邪を引いて発熱というのは、腫れるために熱が出たんですね、良い熱です。<br/><br/>それを注射五本ばかり――で冷ましてしまった。<br/><br/>固まりは前から固まっていた。<br/><br/>それが溶けようとしたのを溶かさないようにしちゃったんです。<br/><br/>そこで、食が進まなくなり、出ようとするのを止めたから、血色が悪くなった。<br/><br/>それから、肩胛骨――これは結構なんです。<br/><br/>もっと腫れて、膿が出たらそれで治ったんです。<br/><br/>いつも言う通り、腫れようという時、それを切ると、そこから出ないで他にいくんです。<br/><br/>ぐりぐりが腫れてきて、そこから溶けるんですね。<br/><br/>まだぐりぐりが残っていて、腫れただけ取ったんですね。<br/><br/>取ってまだ後に残っているから、それは他から出ることになる。<br/><br/>それから、これは肉腫ではないんですよ。<br/><br/>血液――毒血の固まりですよ。<br/><br/>肉腫というのは、血液とは関係ありません。<br/><br/>読んで字の通り、肉の腫れる固まりのようなものですね。<br/><br/>これは肉腫らしいから――肉腫というが、これはぜんぜん分からないからです。<br/><br/>血の固まりです。<br/><br/>毒血がそこに寄ってきたんです。<br/><br/>十五日くらいで、その毒がまた腫れて――一所に腫れようというのを手術したからよそに行った。<br/><br/>針で突いたくらいでも、そこに寄らないですよ。<br/><br/>いけないですね。<br/><br/>「こぶ」のようというのは、血の固まりですよ。<br/><br/>自然に毒血が出ようというのを、いろんなことをして止めたから、変てこなことになった。<br/><br/> 実際お医者に金を使って悪くして、下手すると命までなくなってしまうんだから、実際馬鹿を通り越してかわいそうなくらいです。<br/><br/>肉腫はそういうもので――それなら最初からやらない方が良い。<br/><br/>治る見込みがないものをやるというのは、罪悪ですよ。<br/><br/>罪悪と言ったところで、お医者さんはそうしなければ「メシ」を食っていけないからしかたがないですが、要するに医学そのものが罪悪ですね。<br/><br/>罪悪を行なわせるような方法を作ったその医学なるものが、罪悪の根元というんですね。<br/><br/>心配――心配じゃない。<br/><br/>あべこべです。<br/><br/>馬鹿に喜んで、お祝いして良い。<br/><br/>ぐりぐりはたくさんできて、うんと腫れた方が良い。<br/><br/>それで体の毒血が出て、あとは健康になります。<br/><br/>実に、人間の体は良くできてます。<br/><br/>それをあべこべに考えているんです。<br/><br/>神様のお心持ちとしてはね。<br/><br/>浄霊は腫れた所ですよ。<br/><br/>浄霊をすれば、膿が減り毒血が減りますから少なくてすむ。<br/><br/>小さいものなら、少なくてすむが――こういうものは、腫れて膿がすっかり出ます。<br/><br/>結構です。<br/><br/>だから、なるたけ運動をした方が良い。<br/><br/>運動をすると早く腫れて、早く出ますからね。<br/><br/>苦痛がなければ、ふだんの通りにした方が良い。<br/><br/>安静にすると、治りがずっと遅くなります。<br/><br/> （お伺）信者北沢文治の長男邦男（一歳八ケ月）は十月三十日ごろより風邪気味にて、身体全部に赤発疹ができ、親たちは「ハシカ」ではないかと思っておりましたが、三十一日朝ごろより、あまり泣かず、ただ口で呼吸をし、起きようともせず寝ていますので、どうしたことかと心配になり、十一月一日支部に連れてきました。<br/><br/>その時はそうとうに熱もあり、鼻汁が出て、お乳も飲み悪いようでありました。<br/><br/>浄霊をいただいて帰ってから、たいへん濃い鼻汁がたくさん出るようになりました。<br/><br/>翌日支部に連れてきた時は、ぜんぜん熱はなく、相変わらず言葉も出ず、泣くこともなく眠っているような状態で、時々空（うつろ）な目で見開きする程度にて、首のまわり、後頭部、腎臓部など良く御浄霊いたしましたが、なんら変化なく、昨日はお乳も飲みそうにもせず、ただうとうと眠っているばかりです。<br/><br/>一昨日ごろまでは、多少の下痢もありましたが、それもなく絶えず放屁（ほうひ）しております。<br/><br/>父親は二十二年二月入信いたし、光明如来様を御奉斎させていただいております。<br/><br/>初めのころは、教導師補の御資格をいただき、布教に努力いたしておりましたが、父母弟妹が非常な反対なので、御用も思わしくできず、今は長男でありながら別居いたしており、ゴム裏、草履製造業を営んでおります。<br/><br/>母親は二十五年一一月入信いたしました。<br/><br/>ちょうど、昨年母親が肋膜の御浄化をいただき、御浄霊にて健康にさせていただきましたが、その発病日と子供の発病の日と同日であったとのことです。<br/><br/>右は、なにか霊的の関係がございましょうか。<br/><br/>また御浄霊はどこを主にさせていただきましたらよろしいでしょうか。<br/><br/> 〔御垂示〕 やっぱり祖霊ですね。<br/><br/>これは、祖霊が早く神様のこと――御神業を一生懸命にやってもらいたくてしようがない。<br/><br/>だから、御用も思わしくできず――というこれですね。<br/><br/>これで、祖霊が非常に困っちゃった。<br/><br/>母親が入信したのは結構だが、ただ入信しただけでは駄目だ。<br/><br/>最初母親を信仰に入れたいためにこうして、今度は父親も母親も、一生懸命に信仰させたいためのお気づけです。<br/><br/>よく、それを心から解ってお詫びするんです。<br/><br/>そうしないと、これはあるいは死ぬかもしれないですよ。<br/><br/>祖霊さんは、こんなことじゃ駄目だと思って、一人亡くしたらば目が醒めるだろうというようにして――これは危ないところです。<br/><br/>だからお父さんもお母さんも、一刻も早く目が醒めて、よくお詫びして、これから一生懸命に神様のことをさせていただくからお許しをいただきたいということを、神様にお詫びして、それから祖霊さんにもそういうふうにする。<br/><br/>そうすると、じき治ります。<br/><br/>それで、早くそうしないと、霊界にいる祖霊が救われないんですからね。<br/><br/>だんだん最後が来るに従って、祖霊さんは気が気じゃないですよ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

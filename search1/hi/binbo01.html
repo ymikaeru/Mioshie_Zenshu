@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>binbo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,59 +440,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>binbo01<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>貧乏製造宗　　　　　阿呆文学<br>『光明世界』4号、昭和10(1935)年7月25日発行<br>宗教と名の付くものは八宗や、九宗どころの数じゃない。一寸指折り数えただけで、南無阿弥陀仏や蓮華経、だけで五十と六派あり。高天原が十三派、アーメンでさえ幾派あり。この外もぐりや名の知れぬ出来星宗教数えたら、幾何百かは判らない、それやこれやを信じたり、迷信したりする人も、幾千万か判るまい。それら信者は御利益を、タンマリ欲しい人許（ばか）り、中には俺は御利益など、当（あて）の有難信心じゃないぞ国家や人類の為を思うて身命を賭しているんだと肩を張り、肘を怒らし偉そうに口には言えど肚の底、割って砕いて見たならば、おおよそ世智辛（せちがら）い世の中に骨折るばかりで結局は、御蔭が零と言う事が判っていたなら始めから、信仰する様な大馬鹿が、ただの一人もありますか、などと言っても見たくなる。<br>信心も詮じ詰めればどなたでも、御利益ウンと欲しい為め、一円上げて一万円に増して返して貰いたい、とは口先で言わぬだけまことに虫の好い希（ねが）い、そんな欲張り連中が、箒（ほうき）で掃いて棄てる程、どこにもうようよして御座る。さすがの神様仏様、苦笑いして横を向く、とは知りながら宗教に、よっては巧く仕組んでる。欲張り野郎の肚の中、見抜いた様に巧い事、言うも言ったり世の中が、いよいよ神様が言う通り大変りする時が来た。その暁は大出世が、きっと出来ると欲張り共が、涎（よだれ）を垂らしそうな餌、見せびらかすから堪まらない。錦魚（きんぎょ）や鮒や雑魚（ざこ）共が、うかうか釣られてしまうので御座る。<br>こんな調子で世の中の、有象無象を引寄せて、タンとも無さそな懐を、ウンと搾（しぼ）っちゃ捲揚げて立派な御宮をオッタテテ、名前許（ばか）りで中味の無い、出店を何百何千と、あっちこっちに拵（こしら）えて、頭数さえありゃいいと、名前を並べるそれだけの、亡者のような信者をば、何百万と拵えて、大宗教の威勢見せ、蔭へ廻って新聞や、そっちこっちへ丸いものを、コッソリと撒いては臭い物の、蓋止料（ふたとめりょう）にする等は、どこまで行っても抜目が無い。<br>こんな事とは知らないで、何も知らないお芽出度い、善男善女はヒト苦面、しては年中御奉納、とは体裁が好いけれど実は締木（しめき）に掛けられて、絞って搾って搾り抜かれ、どうにもこうにもならないで、家賃は溜り借金は、山程に成って身動きも、出来ない程の為体（ていたらく）、親類縁者はどこも彼（か）も、愛想尽かして見向きさえ、しない態（ざま）ではお助けを、してくれそうな事はない、まるで吹枯（すいがら）しの飴の様、とは本当に可愛想、眼も当られぬ次第で御座る。<br>それに引換え本山は、益々立派に相成って、御一統様は大名の、様な豪奢（ごうしゃ）な暮し向き、湯水の様に流れ込む、信徒の汗や膏（あぶら）をば、教祖が生きて御座ったら、冥利が尽きると血の涙、お流しなさるで御座ろうて、これを例えりゃ冬枯の、広い野原を見渡して、一本杉がニョキリと、立っている様な形じゃろう、小作苛（いじ）めの地主より、算盤（そろばん）弾く商人より、ズッと上手な搾取（さくしゅ）振り、こんな無慈悲な行方（やりかた）が、世の中救う宗教と、どう考えたとて受取れぬ。こんなインチキ気が付かぬ、娑婆であるとは不思議で御座る。<br>まず宗教は誰やらが、言うた阿片か知らないが、金看板を懸けていて、インチキ流をやっている、大宗教がウンと在る。人の眼玉にゃ見えないが、ちょうど殺人メチールの、様な悪酒を飲まされて、グデングデンに酔払い、白いものでも黒く見え、青いものでも赤く見える。という様な色盲に、なってしまって肝腎な、常識などと言うものは、薬にしたくも無い程に、成ってしまってはもう遅い、中には少し増なのが酔がそろそろ醒めかかり尻に帆掛けて逃げようと、思って試みるが神罰が、恐ろしいのでグズグズと、してはボンヤリ日を送る。そうかと言って今までの、様に踊るのはなお厭（いや）と、生きた亡者のようになり、米食って糞を垂れるだけ、虫螻同然な日を送る、そんな可愛想な人間を、拵（こしら）えている宗教を、今度阿呆が名を命（つ）けて、貧乏製造宗という。<br>こんな調子で生亡者（いきもうじゃ）、ドシドシ製造されたなら、一体全体吾々の、愛する国家はどうなるか、経済財政国防や、対外発展覚束ない。元気な国民無くなって、印度や朝鮮の二の舞を、する様になるのは知れた事、こんな亡国的人民を、製造する様な宗教は、飛躍日本の方針と、ちょっと違っていはせぬか、こういう所へもその筋や、識者の眼玉を向けられて貰いたいので御座るで御座る。<br>とは言うもののこの世には、真の神様太陽の、ように光って居らっしゃる。みんな人民は子供じゃで、苦しみ除ってやるわいと、それはそれは素晴しい力を今度は観音様が揮（ふる）いなさるから有難い。それはどこだと聞くだけ野暮じゃ、それが大日本観音会。自体貧乏は大嫌いの、観音様でいらっしゃる。銭や食うのに不自由を、させるなんどと言う様な、吝薔（けち）な事など無い事は、実印押して保証する。観音会員になった人は、金はどんどん懐へ、都合好くよく流れ込む。妙不可思議な観音力、今まで泣いて暮らしてた、家庭もいつか春のよう、豊になれば物事は、何でも彼んでも片付いて夫婦喧嘩や啀合（いがみあ）い、六十米（メートル）の台風で、ふっ飛ばしてしまったよう。みんなの懐暖かに、なるから達磨に足が出来、赤字公債の愚痴などは聞かない様な朗かな、娑婆と相成り満州の、資源開発易々（やすやす）と、出来るんだから堪まらない、それにはどうも糞も無い、一人も多く観音会へ、入会すればそれでいい、こんな結構な簡単な、信仰あるのを明烏が、阿呆阿呆と呶鳴（どな）っては、鼻から提灯（ちょうちん）ブラ下げて、真暗闇で高鼾（いびき）、グウグウ寝てる人達を覚（さま）して上げたいので御座る。<br>（明烏阿呆）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Seita que Fabrica a Pobreza: Literatura de um Tolo</h2>
 <p>As instituições que levam o nome de religião não se contam em dezenas, mas em centenas. Seja entoando o Namu Amida Butsu ou o Sutra do Lótus, existem mais de cinquenta e seis escolas. Só no Xintoísmo, há treze vertentes, e até mesmo as que professam o "Amém" se dividem em inúmeras facções. Se somarmos a isso as religiões clandestinas e as de reputação duvidosa que surgem da noite para o dia, o número total se torna incalculável. Consequentemente, são dezenas de milhões as almas que nelas creem ou que nelas se perdem em superstição.</p>
@@ -108,5 +458,48 @@ function toggleLang(lang) {
 <p>Com a prosperidade, todos os problemas se resolvem. Brigas de casal e desavenças são varridas para longe, como por um tufão de sessenta metros por segundo. Com os bolsos de todos aquecidos, até o impossível se torna realidade, e as queixas sobre a dívida pública se calam. O mundo se tornará um lugar mais alegre, e o desenvolvimento dos recursos da Manchúria se dará com enorme facilidade. Para que isso aconteça, não há segredo nem complicação. Basta que o maior número possível de pessoas se filie à Associação Kannon.</p>
 <p>E é para anunciar a existência desta fé tão magnífica e simples que este Corvo da Manhã, aos brados de "Tolos! Tolos!", deseja despertar aqueles que, com uma lanterna pendurada no nariz, roncam alto na mais completa escuridão, alheios a tudo.</p>
 <p>(O Corvo Tolo da Alvorada)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>binbo01<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>貧乏製造宗　　　　　阿呆文学<br/>『光明世界』4号、昭和10(1935)年7月25日発行<br/>宗教と名の付くものは八宗や、九宗どころの数じゃない。一寸指折り数えただけで、南無阿弥陀仏や蓮華経、だけで五十と六派あり。高天原が十三派、アーメンでさえ幾派あり。この外もぐりや名の知れぬ出来星宗教数えたら、幾何百かは判らない、それやこれやを信じたり、迷信したりする人も、幾千万か判るまい。それら信者は御利益を、タンマリ欲しい人許（ばか）り、中には俺は御利益など、当（あて）の有難信心じゃないぞ国家や人類の為を思うて身命を賭しているんだと肩を張り、肘を怒らし偉そうに口には言えど肚の底、割って砕いて見たならば、おおよそ世智辛（せちがら）い世の中に骨折るばかりで結局は、御蔭が零と言う事が判っていたなら始めから、信仰する様な大馬鹿が、ただの一人もありますか、などと言っても見たくなる。<br/>信心も詮じ詰めればどなたでも、御利益ウンと欲しい為め、一円上げて一万円に増して返して貰いたい、とは口先で言わぬだけまことに虫の好い希（ねが）い、そんな欲張り連中が、箒（ほうき）で掃いて棄てる程、どこにもうようよして御座る。さすがの神様仏様、苦笑いして横を向く、とは知りながら宗教に、よっては巧く仕組んでる。欲張り野郎の肚の中、見抜いた様に巧い事、言うも言ったり世の中が、いよいよ神様が言う通り大変りする時が来た。その暁は大出世が、きっと出来ると欲張り共が、涎（よだれ）を垂らしそうな餌、見せびらかすから堪まらない。錦魚（きんぎょ）や鮒や雑魚（ざこ）共が、うかうか釣られてしまうので御座る。<br/>こんな調子で世の中の、有象無象を引寄せて、タンとも無さそな懐を、ウンと搾（しぼ）っちゃ捲揚げて立派な御宮をオッタテテ、名前許（ばか）りで中味の無い、出店を何百何千と、あっちこっちに拵（こしら）えて、頭数さえありゃいいと、名前を並べるそれだけの、亡者のような信者をば、何百万と拵えて、大宗教の威勢見せ、蔭へ廻って新聞や、そっちこっちへ丸いものを、コッソリと撒いては臭い物の、蓋止料（ふたとめりょう）にする等は、どこまで行っても抜目が無い。<br/>こんな事とは知らないで、何も知らないお芽出度い、善男善女はヒト苦面、しては年中御奉納、とは体裁が好いけれど実は締木（しめき）に掛けられて、絞って搾って搾り抜かれ、どうにもこうにもならないで、家賃は溜り借金は、山程に成って身動きも、出来ない程の為体（ていたらく）、親類縁者はどこも彼（か）も、愛想尽かして見向きさえ、しない態（ざま）ではお助けを、してくれそうな事はない、まるで吹枯（すいがら）しの飴の様、とは本当に可愛想、眼も当られぬ次第で御座る。<br/>それに引換え本山は、益々立派に相成って、御一統様は大名の、様な豪奢（ごうしゃ）な暮し向き、湯水の様に流れ込む、信徒の汗や膏（あぶら）をば、教祖が生きて御座ったら、冥利が尽きると血の涙、お流しなさるで御座ろうて、これを例えりゃ冬枯の、広い野原を見渡して、一本杉がニョキリと、立っている様な形じゃろう、小作苛（いじ）めの地主より、算盤（そろばん）弾く商人より、ズッと上手な搾取（さくしゅ）振り、こんな無慈悲な行方（やりかた）が、世の中救う宗教と、どう考えたとて受取れぬ。こんなインチキ気が付かぬ、娑婆であるとは不思議で御座る。<br/>まず宗教は誰やらが、言うた阿片か知らないが、金看板を懸けていて、インチキ流をやっている、大宗教がウンと在る。人の眼玉にゃ見えないが、ちょうど殺人メチールの、様な悪酒を飲まされて、グデングデンに酔払い、白いものでも黒く見え、青いものでも赤く見える。という様な色盲に、なってしまって肝腎な、常識などと言うものは、薬にしたくも無い程に、成ってしまってはもう遅い、中には少し増なのが酔がそろそろ醒めかかり尻に帆掛けて逃げようと、思って試みるが神罰が、恐ろしいのでグズグズと、してはボンヤリ日を送る。そうかと言って今までの、様に踊るのはなお厭（いや）と、生きた亡者のようになり、米食って糞を垂れるだけ、虫螻同然な日を送る、そんな可愛想な人間を、拵（こしら）えている宗教を、今度阿呆が名を命（つ）けて、貧乏製造宗という。<br/>こんな調子で生亡者（いきもうじゃ）、ドシドシ製造されたなら、一体全体吾々の、愛する国家はどうなるか、経済財政国防や、対外発展覚束ない。元気な国民無くなって、印度や朝鮮の二の舞を、する様になるのは知れた事、こんな亡国的人民を、製造する様な宗教は、飛躍日本の方針と、ちょっと違っていはせぬか、こういう所へもその筋や、識者の眼玉を向けられて貰いたいので御座るで御座る。<br/>とは言うもののこの世には、真の神様太陽の、ように光って居らっしゃる。みんな人民は子供じゃで、苦しみ除ってやるわいと、それはそれは素晴しい力を今度は観音様が揮（ふる）いなさるから有難い。それはどこだと聞くだけ野暮じゃ、それが大日本観音会。自体貧乏は大嫌いの、観音様でいらっしゃる。銭や食うのに不自由を、させるなんどと言う様な、吝薔（けち）な事など無い事は、実印押して保証する。観音会員になった人は、金はどんどん懐へ、都合好くよく流れ込む。妙不可思議な観音力、今まで泣いて暮らしてた、家庭もいつか春のよう、豊になれば物事は、何でも彼んでも片付いて夫婦喧嘩や啀合（いがみあ）い、六十米（メートル）の台風で、ふっ飛ばしてしまったよう。みんなの懐暖かに、なるから達磨に足が出来、赤字公債の愚痴などは聞かない様な朗かな、娑婆と相成り満州の、資源開発易々（やすやす）と、出来るんだから堪まらない、それにはどうも糞も無い、一人も多く観音会へ、入会すればそれでいい、こんな結構な簡単な、信仰あるのを明烏が、阿呆阿呆と呶鳴（どな）っては、鼻から提灯（ちょうちん）ブラ下げて、真暗闇で高鼾（いびき）、グウグウ寝てる人達を覚（さま）して上げたいので御座る。<br/>（明烏阿呆）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

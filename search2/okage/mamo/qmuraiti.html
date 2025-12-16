@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmuraiti</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 村一番の悪田良化す 六俵平均の収穫無肥料栽培に驚く 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 富山県 日本観音教天国会光明分会 数川義信（32） 私は昭和二十二年八月教修を受けさせて頂きました。<br><br>そして二十三年十二月光明如来様の御神体迄も受けさせて頂き、一家共々に喜びの新春を迎えお道のため御奉仕させて頂いております。<br><br>有難いお観音様の御守護を頂きまして良好だった無肥料栽培の御報告をさせて頂きます。<br><br> 私は田地五反程を耕作しておりますが、他の農家では配給の肥料で足らず闇肥料迄購入し、又堆肥も相当入れて耕作いたしております。<br><br>いよいよ収穫時になりますと他の農家では反当り五俵ないし五俵半位の収穫でしたが、私の田からは六俵平均穫れました。<br><br>私は植付前苗を浄霊させて頂きその後見廻りの時お観音様にお念じして丁寧に田を御浄霊させて頂きました。<br><br>村でも一番悪い田とされています私の田からかくも多収穫をみましたことは、誠に有難いお観音様の御守護の賜と深く感謝いたしております。<br><br>この上は一人でも多くこの喜びを分ち合い大先生様中島先生様の御恩の万分の一に御酬いさせて頂きたく念願いたしております。<br><br>一般農家が無肥料栽培の原理を知ったなら今迄アクセクして高い肥料を購入し苦労して収穫の少かった馬鹿馬鹿しさに驚くことでございましょう。<br><br>大自然の恩恵であり法則でもある天然自然の耕作法無肥料栽培を身をもって実験し、あまねく農耕者にお奨め致したいと念じております。<br><br>新春の初めに当りまして謹みて御礼申上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Aprimoramento do Pior Arrozal da Vila e a Surpreendente Colheita de Seis Fardos em Média pelo Cultivo sem Adubos</h2>
 <p><strong>Fonte: Coleção de Ensaios do Mestre Jikan Okada – Volume 2, “O Método de Cultivo sem Adubos”, publicado em 1º de julho de 1949.</strong>
@@ -95,5 +250,48 @@ function toggleLang(lang) {
 <p>Cultivo uma propriedade agrícola de aproximadamente meio hectare. Os demais agricultores da região, não se contentando com os fertilizantes distribuídos pelo governo, recorrem à aquisição de adubos no mercado paralelo e, ademais, aplicam uma quantidade considerável de composto orgânico em suas lavouras. Contudo, ao chegar a época da colheita, enquanto eles obtinham um rendimento de cinco a cinco fardos e meio por cada mil metros quadrados, minhas terras produziram uma média de seis fardos. O meu método consistiu em ministrar Johrei às mudas antes do plantio e, posteriormente, durante as inspeções, percorrer os arrozais rogando a Kannon (観音) e ministrando Johrei cuidadosamente a toda a plantação. Ver brotar uma colheita tão abundante de minhas terras, conhecidas como as piores de toda a vila, é uma prova irrefutável da sublime proteção de Kannon (観音), pela qual expresso minha mais profunda gratidão.</p>
 <p>Doravante, almejo compartilhar esta alegria com o maior número possível de pessoas e, assim, retribuir, ainda que minimamente, a imensa graça que recebi de Meishu-Sama e do Reverendo Nakajima. Se os agricultores em geral conhecessem o princípio do cultivo sem adubos, certamente se espantariam com a insensatez de seus esforços passados, afligindo-se para adquirir fertilizantes caros e trabalhando arduamente para obter colheitas tão parcas. Tendo comprovado por experiência própria este método de cultivo em harmonia com a Natureza — que é, ao mesmo tempo, uma dádiva e uma lei do universo —, desejo ardentemente recomendá-lo a todos os lavradores.</p>
 <p>No limiar deste novo ano, apresento meus mais sinceros agradecimentos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 村一番の悪田良化す 六俵平均の収穫無肥料栽培に驚く 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 富山県 日本観音教天国会光明分会 数川義信（32） 私は昭和二十二年八月教修を受けさせて頂きました。<br/><br/>そして二十三年十二月光明如来様の御神体迄も受けさせて頂き、一家共々に喜びの新春を迎えお道のため御奉仕させて頂いております。<br/><br/>有難いお観音様の御守護を頂きまして良好だった無肥料栽培の御報告をさせて頂きます。<br/><br/> 私は田地五反程を耕作しておりますが、他の農家では配給の肥料で足らず闇肥料迄購入し、又堆肥も相当入れて耕作いたしております。<br/><br/>いよいよ収穫時になりますと他の農家では反当り五俵ないし五俵半位の収穫でしたが、私の田からは六俵平均穫れました。<br/><br/>私は植付前苗を浄霊させて頂きその後見廻りの時お観音様にお念じして丁寧に田を御浄霊させて頂きました。<br/><br/>村でも一番悪い田とされています私の田からかくも多収穫をみましたことは、誠に有難いお観音様の御守護の賜と深く感謝いたしております。<br/><br/>この上は一人でも多くこの喜びを分ち合い大先生様中島先生様の御恩の万分の一に御酬いさせて頂きたく念願いたしております。<br/><br/>一般農家が無肥料栽培の原理を知ったなら今迄アクセクして高い肥料を購入し苦労して収穫の少かった馬鹿馬鹿しさに驚くことでございましょう。<br/><br/>大自然の恩恵であり法則でもある天然自然の耕作法無肥料栽培を身をもって実験し、あまねく農耕者にお奨め致したいと念じております。<br/><br/>新春の初めに当りまして謹みて御礼申上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

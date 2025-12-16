@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo29</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』25号、昭和26(1951)年6月25日発行 （お伺） 既成宗教信徒の家の奉斎神が邪神なりと推定しつつも、同家家人の感情をよくする意味で、形だけの礼拝する場合は悪気を受けるものでしょうか、あるいは奉斎神はかえって好感を抱くものでしょうか。<br><br> （御垂示） それは一概には言えないが、なにより光明如来様をお祀りすれば、他の神様はそのままでよろしい。<br><br>それで一、二年過ぎれば他の神様はメシヤ教の信者になるか、そうでなければ元へお帰りになるから、そうなると自然に解決されるから万事神様にお任せすればよろしい。<br><br> （お伺） 去る五月十八日午後七時三十分ごろ、例祭後御神前において信徒杉本暎弘50歳を約二十分間浄霊（延髄浄霊中）本人は合掌し、手を小さく振わせ、顔をときどき小さく振り、厳粛なる態度で神霊らしき憑霊あり、急に御軸のほうに向き直り、左記のごとき問答をいたしましたが、これは本当の神霊でありましょうか、または他の霊でありましょうか、お伺い申し上げます。<br><br> 記 （霊）こなたは左近少将、姓は藤原、平家の落人（おちうど）で、この身の守護人として憑ったのである。<br><br>この道のお蔭をもってこなたの神格が上がったのである。<br><br>この道の修行によって神格が上がったのである。<br><br>お蔭で最高の神に近寄って行くことができた。<br><br>現界にいるときはその役目役目を官位によって修行をしておった。<br><br>地上天国のあるように幽界においても神界がある。<br><br>神界に上がった者は現世には再生いたさない。<br><br>この修行によって、メシヤの下に働く者は神界人となることができるのである。<br><br> 霊を主とし体を従として信仰に徹するなら、みなみなが救われて行くのである。<br><br>それによってわれわれも向上してどんどん上に昇って行くのである。<br><br>こなたの申したことは夢にも忘れてはならない。<br><br>みなみなが救われて行くのである。<br><br>これもメシヤの思し召しによってみなみなに伝えるのである。<br><br> （問）なにかお尋ねしてもよいでしょうか。<br><br> （答）申されることなら申してやる。<br><br> （問）私の先祖もまだ苦しんでいることと思いますが、いかがしたらよいでしょうか。<br><br> （答）我を捨て我を捨て、まだそなたたちは我が十二分にある。<br><br>さすればみなが救われるのである。<br><br> （問）私のこのメシヤ教の御用のための必要なことを教えてください。<br><br> （答）あせってはいかない。<br><br>あせっては無理が行く。<br><br>時機が来たらそのときは判る。<br><br>もうすぐに来る。<br><br>そなたたちはいまが峠である。<br><br>一番大切な時である。<br><br> （問）まだ一族に判らない者がたくさんありますが。<br><br> （答）それも時機が来ると判る。<br><br> ついて来る者をどんどん導けばよい。<br><br> ついて来ない者はほっておけ。<br><br> 長崎のほうは早く御霊鎮めをしなければならない。<br><br>急ぐ急ぐ、こなたが急ぐ。<br><br> （問）いま中教会長先生は本部へ行かれるので今月中はできませんが、来月早々お願いすればよいでしょうか。<br><br> （答）その通りその通り、早くせねば間に合わない。<br><br>早くしないといままでのことがなんにもならないことになる。<br><br> そなたも痛感していようがこなたがあせっているのである。<br><br>早くしないとみなが救われぬのである。<br><br> （問）長浜のほうはあまり判った者が少ないのですが、時を待てばよいでしょうか。<br><br> （答）さようである、さようである。<br><br>いまからだんだんよくなる。<br><br>お暇いたすであろう。<br><br> （私）まことにありがとうございました。<br><br> ときに午後七時四十五分、この間約十五分、杉本さんはキョロリとして浄霊を受けて、いま言ったことも夢のようと申します。<br><br>そして恭しく大光明如来様に礼拝しました。<br><br>勿論本人はまったく言ったことは無意識と言います。<br><br> （御垂示） その霊は本物である。<br><br>あなたの祖霊の一人で、正守護神になっていた者が、本教の信仰によって、神格が上がったのである。<br><br>非常に結構なことで、これから発展するであろう。<br><br> （お伺） 本年三月入信いたしました常松初江（51）でございます。<br><br>昭和十三年ごろより三カ年間、鳥取市近郊の多鯰ヵ池に祀ってありました弁天様を熱心に信仰いたしました。<br><br>そのときから弁天様を自宅の神棚にお祀りしておりますが、今回お道に入信させていただきましたので、屋外へ祀りかえしたほうが良いと思いますが、建物が屋敷いっぱいで空き地がございません。<br><br>いかがいたしましたらよろしゅうございましょうか、御教えのほどお願い申し上げます。<br><br> （御垂示） 本当は外のほうがよいのであるが、いまのところやむを得ないから、そのことを弁天様にお断りすればそれでよろしい。<br><br> （お伺） 亡妻の三回忌を迎えますについて、ただいまのところ長野の母方の墓地に仮埋葬いたしてございます。<br><br>新墓地は将来の教団の新しい方式が定まってから求めたいと思っておりますが、この十一月に三回忌を迎えますにつきまして、仮埋葬のままでよろしゅうございましょうか、御教えをお願い申し上げます。<br><br> （御垂示） それでよろしい。<br><br> （お伺） 以前、私の家の田の一部に墓がありました。<br><br>勝手が悪いので、亡父が取り除けました。<br><br>そのときは寺の坊さんにお経をあげていただいて除けました。<br><br>それからは家の者が病気になったり、死んだり、不幸が続きますので、稲荷さんに見ていただきましたところ、その墓のあった所で、昔、山伏や六部（ろくぶ）が死んでいるから、元通りにせよと言われますので、元通りにいたしました。<br><br>田の中ですから勝手が悪いのですが、取り除いてはいけないものでございましょうか、お伺い申し上げます。<br><br> （御垂示） 本教の信者になれば、そんな手数をかけることはいらない。<br><br>ただ光明如来様にそれらの霊を救っていただきたいとお願いすれば、必ず救われるのであるから、そんな面倒なことをする必要はない。<br><br> （お伺） 名前のつけ方につきまして御教えのほどお願い申し上げます。<br><br> （御垂示） これはなかなか簡単には教えられない。<br><br>なにしろ七十五声の言霊、一つ一つを知らなければならないからである。<br><br>だから生まれた子供に名をつける場合など、よく光明如来様にお願いすると頭へ浮かんでくるから、それでよいのである。<br><br> （お伺） 目上の人または先生がなにか間違いをいたしている場合、それに対して知らせてやることは悪行為になりますか、また自己の行為が良いと信じきっている先生が、こちらの話の意味を聞きとれず誤解される場合がありますが、そのときにはいかがしたらよろしいでしょうか。<br><br> 御教示くださいませ。<br><br> （御垂示） それは先生の精神的状態と、忠告する人の智慧証覚によるので、簡単には言えない。<br><br>だから光明如来様に、真心をもってお願いすればよいのである、そうすれば神様のほうでよいようにしてくださるから、それでいいのである。<br><br> （お伺） 身体全体に無駄毛が生えている女の人がありますが、いかなるわけでありましょうか、御浄霊でなくなりましょうか。<br><br> （御垂示） これは前の世動物霊であったのが、生まれ変わったのである。<br><br>信仰に入り熱心に御用すればだんだん治ってゆくはずだ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos Divinos</h2>
 <p><strong>(Pergunta)</strong>
@@ -140,5 +292,48 @@ A resposta depende do estado espiritual do mestre e do grau de sabedoria e disce
 Há mulheres que apresentam pelos em excesso por todo o corpo. Qual seria a causa para tal condição? O Johrei pode eliminá-la?</p>
 <p><strong>(Orientação de Meishu-Sama)</strong>
 Tal condição se deve ao fato de, em uma vida pregressa, essa pessoa ter sido um espírito de animal. Ao ingressar na fé e dedicar-se com afinco à Obra Divina, essa característica deverá se atenuar gradativamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』25号、昭和26(1951)年6月25日発行 （お伺） 既成宗教信徒の家の奉斎神が邪神なりと推定しつつも、同家家人の感情をよくする意味で、形だけの礼拝する場合は悪気を受けるものでしょうか、あるいは奉斎神はかえって好感を抱くものでしょうか。<br/><br/> （御垂示） それは一概には言えないが、なにより光明如来様をお祀りすれば、他の神様はそのままでよろしい。<br/><br/>それで一、二年過ぎれば他の神様はメシヤ教の信者になるか、そうでなければ元へお帰りになるから、そうなると自然に解決されるから万事神様にお任せすればよろしい。<br/><br/> （お伺） 去る五月十八日午後七時三十分ごろ、例祭後御神前において信徒杉本暎弘50歳を約二十分間浄霊（延髄浄霊中）本人は合掌し、手を小さく振わせ、顔をときどき小さく振り、厳粛なる態度で神霊らしき憑霊あり、急に御軸のほうに向き直り、左記のごとき問答をいたしましたが、これは本当の神霊でありましょうか、または他の霊でありましょうか、お伺い申し上げます。<br/><br/> 記 （霊）こなたは左近少将、姓は藤原、平家の落人（おちうど）で、この身の守護人として憑ったのである。<br/><br/>この道のお蔭をもってこなたの神格が上がったのである。<br/><br/>この道の修行によって神格が上がったのである。<br/><br/>お蔭で最高の神に近寄って行くことができた。<br/><br/>現界にいるときはその役目役目を官位によって修行をしておった。<br/><br/>地上天国のあるように幽界においても神界がある。<br/><br/>神界に上がった者は現世には再生いたさない。<br/><br/>この修行によって、メシヤの下に働く者は神界人となることができるのである。<br/><br/> 霊を主とし体を従として信仰に徹するなら、みなみなが救われて行くのである。<br/><br/>それによってわれわれも向上してどんどん上に昇って行くのである。<br/><br/>こなたの申したことは夢にも忘れてはならない。<br/><br/>みなみなが救われて行くのである。<br/><br/>これもメシヤの思し召しによってみなみなに伝えるのである。<br/><br/> （問）なにかお尋ねしてもよいでしょうか。<br/><br/> （答）申されることなら申してやる。<br/><br/> （問）私の先祖もまだ苦しんでいることと思いますが、いかがしたらよいでしょうか。<br/><br/> （答）我を捨て我を捨て、まだそなたたちは我が十二分にある。<br/><br/>さすればみなが救われるのである。<br/><br/> （問）私のこのメシヤ教の御用のための必要なことを教えてください。<br/><br/> （答）あせってはいかない。<br/><br/>あせっては無理が行く。<br/><br/>時機が来たらそのときは判る。<br/><br/>もうすぐに来る。<br/><br/>そなたたちはいまが峠である。<br/><br/>一番大切な時である。<br/><br/> （問）まだ一族に判らない者がたくさんありますが。<br/><br/> （答）それも時機が来ると判る。<br/><br/> ついて来る者をどんどん導けばよい。<br/><br/> ついて来ない者はほっておけ。<br/><br/> 長崎のほうは早く御霊鎮めをしなければならない。<br/><br/>急ぐ急ぐ、こなたが急ぐ。<br/><br/> （問）いま中教会長先生は本部へ行かれるので今月中はできませんが、来月早々お願いすればよいでしょうか。<br/><br/> （答）その通りその通り、早くせねば間に合わない。<br/><br/>早くしないといままでのことがなんにもならないことになる。<br/><br/> そなたも痛感していようがこなたがあせっているのである。<br/><br/>早くしないとみなが救われぬのである。<br/><br/> （問）長浜のほうはあまり判った者が少ないのですが、時を待てばよいでしょうか。<br/><br/> （答）さようである、さようである。<br/><br/>いまからだんだんよくなる。<br/><br/>お暇いたすであろう。<br/><br/> （私）まことにありがとうございました。<br/><br/> ときに午後七時四十五分、この間約十五分、杉本さんはキョロリとして浄霊を受けて、いま言ったことも夢のようと申します。<br/><br/>そして恭しく大光明如来様に礼拝しました。<br/><br/>勿論本人はまったく言ったことは無意識と言います。<br/><br/> （御垂示） その霊は本物である。<br/><br/>あなたの祖霊の一人で、正守護神になっていた者が、本教の信仰によって、神格が上がったのである。<br/><br/>非常に結構なことで、これから発展するであろう。<br/><br/> （お伺） 本年三月入信いたしました常松初江（51）でございます。<br/><br/>昭和十三年ごろより三カ年間、鳥取市近郊の多鯰ヵ池に祀ってありました弁天様を熱心に信仰いたしました。<br/><br/>そのときから弁天様を自宅の神棚にお祀りしておりますが、今回お道に入信させていただきましたので、屋外へ祀りかえしたほうが良いと思いますが、建物が屋敷いっぱいで空き地がございません。<br/><br/>いかがいたしましたらよろしゅうございましょうか、御教えのほどお願い申し上げます。<br/><br/> （御垂示） 本当は外のほうがよいのであるが、いまのところやむを得ないから、そのことを弁天様にお断りすればそれでよろしい。<br/><br/> （お伺） 亡妻の三回忌を迎えますについて、ただいまのところ長野の母方の墓地に仮埋葬いたしてございます。<br/><br/>新墓地は将来の教団の新しい方式が定まってから求めたいと思っておりますが、この十一月に三回忌を迎えますにつきまして、仮埋葬のままでよろしゅうございましょうか、御教えをお願い申し上げます。<br/><br/> （御垂示） それでよろしい。<br/><br/> （お伺） 以前、私の家の田の一部に墓がありました。<br/><br/>勝手が悪いので、亡父が取り除けました。<br/><br/>そのときは寺の坊さんにお経をあげていただいて除けました。<br/><br/>それからは家の者が病気になったり、死んだり、不幸が続きますので、稲荷さんに見ていただきましたところ、その墓のあった所で、昔、山伏や六部（ろくぶ）が死んでいるから、元通りにせよと言われますので、元通りにいたしました。<br/><br/>田の中ですから勝手が悪いのですが、取り除いてはいけないものでございましょうか、お伺い申し上げます。<br/><br/> （御垂示） 本教の信者になれば、そんな手数をかけることはいらない。<br/><br/>ただ光明如来様にそれらの霊を救っていただきたいとお願いすれば、必ず救われるのであるから、そんな面倒なことをする必要はない。<br/><br/> （お伺） 名前のつけ方につきまして御教えのほどお願い申し上げます。<br/><br/> （御垂示） これはなかなか簡単には教えられない。<br/><br/>なにしろ七十五声の言霊、一つ一つを知らなければならないからである。<br/><br/>だから生まれた子供に名をつける場合など、よく光明如来様にお願いすると頭へ浮かんでくるから、それでよいのである。<br/><br/> （お伺） 目上の人または先生がなにか間違いをいたしている場合、それに対して知らせてやることは悪行為になりますか、また自己の行為が良いと信じきっている先生が、こちらの話の意味を聞きとれず誤解される場合がありますが、そのときにはいかがしたらよろしいでしょうか。<br/><br/> 御教示くださいませ。<br/><br/> （御垂示） それは先生の精神的状態と、忠告する人の智慧証覚によるので、簡単には言えない。<br/><br/>だから光明如来様に、真心をもってお願いすればよいのである、そうすれば神様のほうでよいようにしてくださるから、それでいいのである。<br/><br/> （お伺） 身体全体に無駄毛が生えている女の人がありますが、いかなるわけでありましょうか、御浄霊でなくなりましょうか。<br/><br/> （御垂示） これは前の世動物霊であったのが、生まれ変わったのである。<br/><br/>信仰に入り熱心に御用すればだんだん治ってゆくはずだ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

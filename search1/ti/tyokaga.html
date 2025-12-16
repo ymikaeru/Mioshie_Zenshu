@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyokaga</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 超科学 『栄光』222号、昭和28(1953)年8月19日発行 ◇左の稿は目下執筆中の、医学革命の書中の一節である。<br><br> 超科学 私は先日ラジオで、最近帰朝した湯川博士を囲んでの、座談会の録音を聴いたが、それによると最近科学の方でも、余程私の説に接近して来たようで、喜びに堪えない次第である。<br><br>それによれば素粒子論に対して、物性論という新しい説を話されたが、それは素粒子は目に見える粒子であり、物性論は目に見えぬ原子をいうらしいが、もちろん前者は実験物理学であり、後者は理論物理学であるから、これこそ私が唱えている前者は体であり、後者は霊という事になる。<br><br>としたらようやく科学も吾々の方へ鞘（さや）寄せして来た訳である。<br><br> これについて従来から理論物理学者が新説を立てる場合、想像、推理、仮定が基本となり、実験に移るのであるが、湯川博士の場合もそうで、初め新発見の中間子（素粒子）にしても、幸い米科学者が実験中、宇宙線撮影の際偶然発見され確認されたので、その功績がノーベル賞授与となった事は衆知の通りである。<br><br>ところがそれに一歩前進した理論が右の物性論であり、この研究が現在主眼となっているようだ。<br><br>しかしながらこれが実験によって確認されるまでには、まだ相当の迂余曲折（うよきょくせつ）を経なければならないと共に、事によると意外な難関に逢着（ほうちゃく）するやも知れないと思うのである。<br><br>というのは現在の顕微鏡がそこまで発達するには容易ではないからで、そうかといって仮にこの物性子が実験によって把握されたとしても、それだけでは何ら意味をなさない。<br><br>要はそれが人類の福祉にどれだけ貢献されるかである。<br><br>ところがこれに対して科学では夢想も出来ない重点がある。<br><br>それは現在以上科学が進歩するとすれば、吾々が常に唱えている霊の圏内に飛込んでしまうからである。<br><br>霊の圏内とはもちろん宗教であるから、そうなると当然科学の分野から離れてしまい宗教に隷属（れいぞく）する事となる。<br><br>という訳で唯物科学の現在は進歩の極致に達し、今や壁に突当らんとする一歩手前にまで来たと言える。<br><br>従って壁を突き破るとしたら、顕微鏡の能力を今より数倍以上、数十数百倍にも引上げなければならないかも知れないがそれは無理である。<br><br>よしんばそれが可能としても、何世紀かかるか見当はつかないであろう。<br><br>以上によって考えてみても、今後の世界は科学でも哲学でも既成宗教でもこれ以上の進歩は至難とみねばなるまい。<br><br>この意味においていよいよ現在文化のレベルから超越したＸ（エックス）が現われる時が来たのである。<br><br>このＸの一大飛躍によって現在のごとき行詰り文明の一大危機を打開し驚嘆すべき新文明を創造するのであって、それが私の使命である。<br><br> 次に素粒子論と物性子論について一層深く掘下げてみよう。<br><br>そうして私の唱えている素粒子とは物質を構成している細胞のごときものであり、それは物と霊子との結合である。<br><br>換言すれば前者は陰子であり、後者は陽子である。<br><br>これがあらゆる物質の本体であるが、今日までの科学はそこまでは未発見であった。<br><br>ではこのような高度の科学理論に対し、私のような浅学の者がなぜ発見出来たかというと、もちろん主神（すしん）が必要によって私に教えられたのであるから、私は史上何人（なんぴと）も知り得なかった万有の真理を会得したと共に、実験科学的にその実証を示す力をも与えられたのである。<br><br>それがこの著の付録である治病実績報告であって、もちろん多方面の信徒から寄せられたものである。<br><br>なお言いたい事は宗教にしろ科学にしろ、最も貴重なる人間の生命を救い得るとしたら、これ以上の福音はあるまい。<br><br>今その原理を詳しく説明してみよう。<br><br> 言うまでもなく人間は万物の霊長であり、地球の王者であり支配者でもあり、天地間一切の万有ことごとくは、人間のために必要な存在であって、第一は人間の生命を保持し、第二は一人一人の使命を援助しているのはもちろんである。<br><br>という訳で生命力をより旺盛に、健康で活動出来るようになっているのが人体である。<br><br>としたらたまたま健康が害（そこ）ねられ、生命を脅かすものとして病気なるものが発生した以上これを排除すべき作用が起るのは当然であって、何ら不思議はない。<br><br>考えるまでもなく他の条件がいかに具備しても不健康である限り、人間使命の遂行は出来ないからである。<br><br>この意味において科学でも宗教でも何でもいい、病さえ解決するものなら、それが真の科学でもあり、宗教でもある。<br><br>としたら現在までの宗教も科学も遺憾ながらその能力がないから、真の科学でも真の宗教でもない事は分り切った話である。<br><br>としたら正直にいって現在までの文明は仮のものであって、本当のものでない事は余りにも明らかである。<br><br> (注) 鞘寄せ（さやよせ）、相場の変動によって値段の開きが小さくなること。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Supraciência</h2>
 <p>Recentemente, ouvi no rádio a gravação de um debate com o Dr. Yukawa, que retornou ao Japão há pouco. Fiquei imensamente satisfeito ao constatar que, segundo o que foi discutido, a ciência moderna tem se aproximado consideravelmente de meus ensinamentos. Nesse debate, mencionou-se uma nova perspectiva, a teoria da natureza da matéria, em contraposição à teoria das partículas elementares. A primeira, ao que parece, trata dos átomos invisíveis, enquanto a segunda se refere às partículas visíveis. Naturalmente, a primeira se enquadra na física experimental, e a segunda, na física teórica. Ora, isto corresponde exatamente ao que venho ensinando: a primeira representa o corpo, e a segunda, o espírito. Sendo assim, pode-se dizer que a ciência finalmente começa a se aproximar de nossa esfera de compreensão.</p>
 <p>A esse respeito, tradicionalmente, quando os físicos teóricos propõem uma nova tese, eles se baseiam na imaginação, na dedução e na formulação de hipóteses antes de proceder à experimentação. O caso do Dr. Yukawa não foi diferente. Como é de conhecimento geral, o méson, sua grande descoberta, foi inicialmente uma partícula hipotética, confirmada por acaso quando cientistas americanos a detectaram em fotografias de raios cósmicos. Contudo, a já mencionada teoria da natureza da matéria representa um passo adiante, e sua pesquisa parece ser o foco principal no momento. Entretanto, prevejo que a sua confirmação experimental exigirá um percurso longo e sinuoso, podendo deparar-se com obstáculos inesperados. Isso porque o desenvolvimento de microscópios com a capacidade necessária para tal observação não é uma tarefa simples. Mesmo que, hipoteticamente, essa partícula venha a ser apreendida por meio de experimentos, tal feito, por si só, não terá significado algum. O que realmente importa é o quanto tal descoberta contribuirá para o bem-estar da humanidade. Todavia, existe um ponto crucial que a ciência sequer é capaz de sonhar. Se ela pretende progredir além de seu estado atual, terá de imergir na esfera do espírito, que é o que sempre postulamos. A esfera do espírito é, por definição, o domínio da religião. Consequentemente, a ciência abandonaria seu próprio campo e se tornaria subordinada a ela. Por essa razão, podemos afirmar que a ciência materialista atingiu o ápice de seu desenvolvimento e está a um passo de colidir com um muro intransponível. Para rompê-lo, seria necessário aumentar a capacidade dos microscópios não apenas em algumas vezes, mas em dezenas ou centenas de vezes — uma proeza impraticável. E mesmo que fosse possível, quem poderia estimar quantos séculos seriam necessários? Diante do exposto, é forçoso concluir que, para a ciência, a filosofia e as religiões estabelecidas, qualquer progresso substancial tornou-se extremamente difícil. Nesse sentido, chegou o momento de emergir um “X”, algo que transcende o nível da cultura atual. É por meio do grande salto desse “X” que a presente crise de uma civilização estagnada será superada, dando origem a uma nova e assombrosa civilização. Essa é a minha missão.</p>
 <p>Aprofundemos, agora, a questão da teoria das partículas elementares e da natureza da matéria. As partículas elementares que postulo são análogas às células que constituem a matéria; elas representam a união entre o elemento material e a partícula espiritual. Em outras palavras, o primeiro é a partícula negativa, e o segundo, a partícula positiva. Essa é a verdadeira essência de toda a matéria, algo que a ciência, até hoje, não foi capaz de descobrir. Alguém poderia questionar como eu, um homem de pouco estudo, fui capaz de tal descoberta. A resposta é simples: foi Deus quem, por necessidade, me revelou este conhecimento. Dessa forma, não apenas compreendi a verdade do Universo, que homem algum na história pôde conhecer, como também me foi concedida a capacidade de demonstrá-la por meio de comprovação científico-experimental. A prova disso são os relatórios de casos de cura que constam no apêndice deste livro, enviados, naturalmente, por fiéis das mais diversas localidades. Ademais, seja na religião ou na ciência, que evangelho maior poderia haver do que a capacidade de salvar a vida humana, o bem mais precioso? Permitam-me, agora, explicar detalhadamente o princípio por trás desse fenômeno.</p>
 <p>O ser humano é, inegavelmente, o senhor de toda a criação, o rei e o soberano do planeta Terra. Tudo o que existe entre o Céu e a Terra foi criado para servir à humanidade. Seu propósito primordial é sustentar a vida humana e, secundariamente, auxiliar cada indivíduo no cumprimento de sua missão. Nesse sentido, o corpo humano foi concebido para que possamos atuar com saúde e uma força vital exuberante. Sendo assim, quando a saúde é abalada e a vida ameaçada por uma enfermidade, é perfeitamente natural que surja uma ação para eliminá-la; não há nisso mistério algum. Afinal, por mais que todas as outras condições estejam presentes, se não houver saúde, é impossível que o ser humano cumpra sua missão. Sob essa ótica, seja ciência, religião ou o que for, aquilo que consegue solucionar o problema da doença é a verdadeira ciência e a verdadeira religião. Se assim é, e considerando que a religião e a ciência até hoje não demonstraram essa capacidade, é forçoso reconhecer que elas não são nem verdadeiramente ciência, nem verdadeiramente religião. Portanto, para sermos honestos, torna-se excessivamente claro que a civilização que conhecemos até agora é provisória e não representa a sua forma autêntica.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 超科学 『栄光』222号、昭和28(1953)年8月19日発行 ◇左の稿は目下執筆中の、医学革命の書中の一節である。<br/><br/> 超科学 私は先日ラジオで、最近帰朝した湯川博士を囲んでの、座談会の録音を聴いたが、それによると最近科学の方でも、余程私の説に接近して来たようで、喜びに堪えない次第である。<br/><br/>それによれば素粒子論に対して、物性論という新しい説を話されたが、それは素粒子は目に見える粒子であり、物性論は目に見えぬ原子をいうらしいが、もちろん前者は実験物理学であり、後者は理論物理学であるから、これこそ私が唱えている前者は体であり、後者は霊という事になる。<br/><br/>としたらようやく科学も吾々の方へ鞘（さや）寄せして来た訳である。<br/><br/> これについて従来から理論物理学者が新説を立てる場合、想像、推理、仮定が基本となり、実験に移るのであるが、湯川博士の場合もそうで、初め新発見の中間子（素粒子）にしても、幸い米科学者が実験中、宇宙線撮影の際偶然発見され確認されたので、その功績がノーベル賞授与となった事は衆知の通りである。<br/><br/>ところがそれに一歩前進した理論が右の物性論であり、この研究が現在主眼となっているようだ。<br/><br/>しかしながらこれが実験によって確認されるまでには、まだ相当の迂余曲折（うよきょくせつ）を経なければならないと共に、事によると意外な難関に逢着（ほうちゃく）するやも知れないと思うのである。<br/><br/>というのは現在の顕微鏡がそこまで発達するには容易ではないからで、そうかといって仮にこの物性子が実験によって把握されたとしても、それだけでは何ら意味をなさない。<br/><br/>要はそれが人類の福祉にどれだけ貢献されるかである。<br/><br/>ところがこれに対して科学では夢想も出来ない重点がある。<br/><br/>それは現在以上科学が進歩するとすれば、吾々が常に唱えている霊の圏内に飛込んでしまうからである。<br/><br/>霊の圏内とはもちろん宗教であるから、そうなると当然科学の分野から離れてしまい宗教に隷属（れいぞく）する事となる。<br/><br/>という訳で唯物科学の現在は進歩の極致に達し、今や壁に突当らんとする一歩手前にまで来たと言える。<br/><br/>従って壁を突き破るとしたら、顕微鏡の能力を今より数倍以上、数十数百倍にも引上げなければならないかも知れないがそれは無理である。<br/><br/>よしんばそれが可能としても、何世紀かかるか見当はつかないであろう。<br/><br/>以上によって考えてみても、今後の世界は科学でも哲学でも既成宗教でもこれ以上の進歩は至難とみねばなるまい。<br/><br/>この意味においていよいよ現在文化のレベルから超越したＸ（エックス）が現われる時が来たのである。<br/><br/>このＸの一大飛躍によって現在のごとき行詰り文明の一大危機を打開し驚嘆すべき新文明を創造するのであって、それが私の使命である。<br/><br/> 次に素粒子論と物性子論について一層深く掘下げてみよう。<br/><br/>そうして私の唱えている素粒子とは物質を構成している細胞のごときものであり、それは物と霊子との結合である。<br/><br/>換言すれば前者は陰子であり、後者は陽子である。<br/><br/>これがあらゆる物質の本体であるが、今日までの科学はそこまでは未発見であった。<br/><br/>ではこのような高度の科学理論に対し、私のような浅学の者がなぜ発見出来たかというと、もちろん主神（すしん）が必要によって私に教えられたのであるから、私は史上何人（なんぴと）も知り得なかった万有の真理を会得したと共に、実験科学的にその実証を示す力をも与えられたのである。<br/><br/>それがこの著の付録である治病実績報告であって、もちろん多方面の信徒から寄せられたものである。<br/><br/>なお言いたい事は宗教にしろ科学にしろ、最も貴重なる人間の生命を救い得るとしたら、これ以上の福音はあるまい。<br/><br/>今その原理を詳しく説明してみよう。<br/><br/> 言うまでもなく人間は万物の霊長であり、地球の王者であり支配者でもあり、天地間一切の万有ことごとくは、人間のために必要な存在であって、第一は人間の生命を保持し、第二は一人一人の使命を援助しているのはもちろんである。<br/><br/>という訳で生命力をより旺盛に、健康で活動出来るようになっているのが人体である。<br/><br/>としたらたまたま健康が害（そこ）ねられ、生命を脅かすものとして病気なるものが発生した以上これを排除すべき作用が起るのは当然であって、何ら不思議はない。<br/><br/>考えるまでもなく他の条件がいかに具備しても不健康である限り、人間使命の遂行は出来ないからである。<br/><br/>この意味において科学でも宗教でも何でもいい、病さえ解決するものなら、それが真の科学でもあり、宗教でもある。<br/><br/>としたら現在までの宗教も科学も遺憾ながらその能力がないから、真の科学でも真の宗教でもない事は分り切った話である。<br/><br/>としたら正直にいって現在までの文明は仮のものであって、本当のものでない事は余りにも明らかである。<br/><br/> (注) 鞘寄せ（さやよせ）、相場の変動によって値段の開きが小さくなること。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

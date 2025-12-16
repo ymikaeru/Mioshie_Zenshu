@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270817</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月17日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月十七日 メシヤ教も宗教になってから、今月でちょうど満五年目になったわけです。<br><br>最初は二十二年の八月でしたが、その時は「浄化療法」――民間療法をやっていて、信者といったような者が数百人あったくらいです。<br><br>こういった参拝――面会の時は二、三百人くらいしかなかったのが、今日は五年で本当に固まった信者――協力会員は十万できましたし、その他の準信者ともいうべきのが四、五十万くらいあるでしょうから、わずかの間に驚くべき発展をしたのです。<br><br>で、信者の数ばかりでなく、こういった地上天国、美術館――そういうものもできたし、熱海の方は今大体敷地その他のものはたいてい今年いっぱいくらいでできる予定です。<br><br>熱海の建築の予定はこの秋あたりからと思ってますが、その時になれば神様がちゃんと指図されます。<br><br>もう後二、三年経ったら、またすばらしいことになると思ってます。<br><br>しかも順調にいったわけではないのです。<br><br>宗教法人になって、そうして発足して一年余り経った翌年の秋には脱税問題で大いに打撃を受けました。<br><br>その代わりそれまで、ほとんど誰も知ってなかった――その時分は「観音教団」と言ってましたが、一躍世間に知れ渡ったのです。<br><br>知れ渡ったには違いないが、良い意味でなくて悪い意味で知れ渡ったのです。<br><br>しかしただ知れるという意味からだと、悪い知れ方の方がずっと早いです。<br><br>良いことというのは、まことに知れないものです。<br><br>良いことということに興味を持たないのです。<br><br>どうも人間は悪いことの方に興味を持つのです。<br><br>だから新聞なんかでも、良いことは報道しないのですが、悪いことの方は、輪に輪をつけて報道するのです。<br><br>そうすると興味があるのです。<br><br>そういうふうに人間がなっているのだから、しかたがないのです。<br><br>とにかく知られるということには、大いに効果があったわけです。<br><br>そうして次は一昨年――一年置いて、二十五年の五月に贈収賄問題というのですが、それで大いに叩かれたのです。<br><br>これは私も随分いじめられました。<br><br>ふつうでは、メシヤ教は駄目になってしまうのではないか、と思った人が随分あっただろうと思いますが、そういうことも凌いで――その間にもちょいちょいありましたが、それにもかかわらず、こうしてすばらしい発展をしつつあるのは、つまり邪神に対して神様の力がいかに強いかということです。<br><br>これは闘いです――霊的の闘いですから、邪神の方では実に一生懸命に力を振るっているのです。<br><br>それがまた、邪神はあの手この手でいろんな――大きいこと小さいことを実にやってます。<br><br>これは私でなければ分からないが、たいへんなものです。<br><br>それについてざっと書いたのですが、今読ませます。<br><br> （御論文「宗教と妨害」）【栄光 一七二号】 最近アメリカに行っていた信者の大学生ですが、この間帰ってきて、医学上の調査――数字もいろいろ統計的に書いてきました。<br><br>日本と違ってあっちの良いことは、なんの病気は現在患者が何人いるとか、なんの病気は何年前にどういう数字があったとか、それが増えたとか減ったとか、それがちゃんと統計に出るのです。<br><br>だから非常に分かり良いわけです。<br><br>それによると今アメリカで医者にかかっている人は千七、八百万人いるそうです。<br><br>人口が一億五千万人ですから一割強はお医者さんの御厄介になっているわけです。<br><br>それでいろんな病気の統計をみると、年々増えているのです。<br><br>減っているのはペストとかコレラとか野蛮国の病気は減ってます。<br><br>それから一番多いのは胃癌、小児 麻痺、結核――これらが一番多いです。<br><br>その他いろいろな病気がありますが、これはいずれ『栄光』に出します。<br><br>そうしてアメリカでは病気に対して非常に苦しんでいるのです。<br><br>私は、いろんな病気は日本が一番多いと思ったところ、どうして、アメリカの方が日本より多いかもしれないです。<br><br>それはなにかというと、アメリカは薬が一番進歩しているからです。<br><br>昔は薬はドイツが世界で一番進歩していたが、今はアメリカが一番進歩している。<br><br>こういう説になっている。<br><br>つまり医学が進歩している国ほど病気が増えるのです。<br><br>これは間違いないです。<br><br>そうしてみるとアメリカの人をまず救わなければならない。<br><br>なにしろ世界の文明をリードしているのはアメリカですから、世界を救おうとしたらアメリカを一番先に救うということが一番効果的です。<br><br>私はその統計を基にして「こういう病気はこうだ」「これはこういうことだ」ということをすっかり書いて、小冊子にして、アメリカの大統領始め偉い人たちに配ろうと思ってます。<br><br>それから、『栄光』も、英文『栄光』というものを作って、あっちに大いに宣伝して、読ませようと思っている。<br><br>ちょうど良いあんばいに、そういったごく適任者が二、三人おりますから、今ハワイに信者も四、五十人できてまして、今非常に発展の気勢がみえてきたのです。<br><br>そんなことで、足掛かりもちょうど良い具合になっているので、そこでこっちの支社のようなものを――もっとも支部も作るつもりです。<br><br>支社を作って大いにアメリカに宣伝しようと思っている。<br><br>そうすると日本人よりかえって分かりが早いから、あんがい良いと思ってます。<br><br>で、アメリカで一番困っているのは小児麻痺です。<br><br>これは、死んだルーズヴェルトの小児麻痺は有名なものですが、今度の報告を聞くと、本当の小児麻痺ではないのです。<br><br>ほとんど疑似小児麻痺です。<br><br>疑似小児麻痺というのは無論薬毒ですから、それを良く解らせればあんがい早く解るのではないかと思ってます。<br><br>つまり足が歩けないのです。<br><br>これが一番多いのです。<br><br>しかも注射がはやりますから、ますます増えるわけです。<br><br>それから親の遺伝薬毒もありますし、それですからアメリカの小児麻痺というのは、浄霊しても全部治ります。<br><br>なんでもないです。<br><br>たいてい膝の辺りに薬毒の固まりができるのです。<br><br>それから癌というのは、根本は肉食です。<br><br>あれは肉食病ですから、野菜をもっと多く食べれば胃癌はなくなるのです。<br><br>それらも簡単な理屈です。<br><br>結核は今度の『結核信仰療法』を読ませれば良いのです。<br><br>こういう意味を根拠として「あらゆる病気は薬毒だ」ということを書けば、そうとう解るだろうと思ってます。<br><br>で、これは先から言っている通り、アメリカが緯で日本が経で、そこで、これを結ばなければならないという、そういった一つの根本的の仕事ですから、やはりそういった時期が来たわけです。<br><br>で、アメリカが解ると日本はとても早く解ります。<br><br>なにしろ今もって舶来崇拝が大いにあるのですから、どうしても逆輸入する。<br><br>そうすることが一番早いです。<br><br>映画の『羅生門』みたいなものです。<br><br>あれだって外国でああして大騒ぎをやられたので、日本人も気がついたのです。<br><br>そういう私もそうなのです。<br><br>先に見た時には、たいしたものと思わなかったが、あっちで評判になったので、なんだかもう一度見たい気がして、そう思って見るとなるほど良いです。<br><br> 昨夜から今朝にかけておもしろい論文を書いたのですが、まだ仕上げをしてないから読みにくいのですが――。<br><br>つまり薬というものは毒ですが、毒を薬のように思わせたのは誰かというと、神様なのです。<br><br>だからちょっと意外な説なのですが、ところがこれを充分解ると根本的に分かるのです。<br><br>なにしろ悪魔というのは、神様が作ったのです。<br><br>こういった説き方は主神の説き方なのです。<br><br>今までの宗教にしろなんにしろ、主神の教えでなかった。<br><br>つまり善の側の神様が出て説いたのですから、悪というものをいちがいにぜんぜんいけないと排撃したのです。<br><br>これは善悪両方の神様がこしらえたのです。<br><br>善の方の神様は、キリストとか釈迦を使って説かせたのです。<br><br>ところが私は善悪両方の主神――その神様の計画を説くのです。<br><br>そこで悪を否定するのでなくて悪を肯定しているのです。<br><br>そうすると毒を薬として飲ませるのはどういうわけだという、そういう意味も知らなければならない。<br><br>それを書いたのです。<br><br> （御論文「文明の創造 人類と医学」） これはちょっと知っておく必要があると思って。<br><br> （御論文「薬毒の恐怖」） （御論文「医学関係者に警告する」）【栄光 一七一号】 それから社会事業についてよく聞かれますから、その説明を書いてあります。<br><br> （御論文「本教と社会事業」）【栄光 一七一号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Expansão da Obra Divina em Meio à Luta Espiritual</h2>
 <p>Neste mês, a Igreja Messiânica celebra o seu quinto aniversário de fundação como instituição religiosa. Em seu início, em agosto de 1947, praticávamos a Terapia Purificadora, considerada uma terapia popular, e contávamos com poucas centenas de seguidores. Naquela época, as reuniões para audiências e orientações congregavam, no máximo, duzentas a trezentas pessoas. Hoje, passados cinco anos, o número de membros dedicados — os membros cooperadores — alcançou a marca de cem mil. Ademais, os simpatizantes, que poderíamos denominar membros associados, somam entre quatrocentas e quinhentas mil pessoas. Portanto, em um curto intervalo de tempo, alcançamos um desenvolvimento surpreendente.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>(Leitura do Ensinamento “Advertência aos Profissionais da Medicina”)</p>
 <p>A seguir, como me perguntam com frequência sobre obras de assistência social, escrevi uma explicação a respeito.</p>
 <p>(Leitura do Ensinamento “Nossa Religião e a Assistência Social”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月17日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月十七日 メシヤ教も宗教になってから、今月でちょうど満五年目になったわけです。<br/><br/>最初は二十二年の八月でしたが、その時は「浄化療法」――民間療法をやっていて、信者といったような者が数百人あったくらいです。<br/><br/>こういった参拝――面会の時は二、三百人くらいしかなかったのが、今日は五年で本当に固まった信者――協力会員は十万できましたし、その他の準信者ともいうべきのが四、五十万くらいあるでしょうから、わずかの間に驚くべき発展をしたのです。<br/><br/>で、信者の数ばかりでなく、こういった地上天国、美術館――そういうものもできたし、熱海の方は今大体敷地その他のものはたいてい今年いっぱいくらいでできる予定です。<br/><br/>熱海の建築の予定はこの秋あたりからと思ってますが、その時になれば神様がちゃんと指図されます。<br/><br/>もう後二、三年経ったら、またすばらしいことになると思ってます。<br/><br/>しかも順調にいったわけではないのです。<br/><br/>宗教法人になって、そうして発足して一年余り経った翌年の秋には脱税問題で大いに打撃を受けました。<br/><br/>その代わりそれまで、ほとんど誰も知ってなかった――その時分は「観音教団」と言ってましたが、一躍世間に知れ渡ったのです。<br/><br/>知れ渡ったには違いないが、良い意味でなくて悪い意味で知れ渡ったのです。<br/><br/>しかしただ知れるという意味からだと、悪い知れ方の方がずっと早いです。<br/><br/>良いことというのは、まことに知れないものです。<br/><br/>良いことということに興味を持たないのです。<br/><br/>どうも人間は悪いことの方に興味を持つのです。<br/><br/>だから新聞なんかでも、良いことは報道しないのですが、悪いことの方は、輪に輪をつけて報道するのです。<br/><br/>そうすると興味があるのです。<br/><br/>そういうふうに人間がなっているのだから、しかたがないのです。<br/><br/>とにかく知られるということには、大いに効果があったわけです。<br/><br/>そうして次は一昨年――一年置いて、二十五年の五月に贈収賄問題というのですが、それで大いに叩かれたのです。<br/><br/>これは私も随分いじめられました。<br/><br/>ふつうでは、メシヤ教は駄目になってしまうのではないか、と思った人が随分あっただろうと思いますが、そういうことも凌いで――その間にもちょいちょいありましたが、それにもかかわらず、こうしてすばらしい発展をしつつあるのは、つまり邪神に対して神様の力がいかに強いかということです。<br/><br/>これは闘いです――霊的の闘いですから、邪神の方では実に一生懸命に力を振るっているのです。<br/><br/>それがまた、邪神はあの手この手でいろんな――大きいこと小さいことを実にやってます。<br/><br/>これは私でなければ分からないが、たいへんなものです。<br/><br/>それについてざっと書いたのですが、今読ませます。<br/><br/> （御論文「宗教と妨害」）【栄光 一七二号】 最近アメリカに行っていた信者の大学生ですが、この間帰ってきて、医学上の調査――数字もいろいろ統計的に書いてきました。<br/><br/>日本と違ってあっちの良いことは、なんの病気は現在患者が何人いるとか、なんの病気は何年前にどういう数字があったとか、それが増えたとか減ったとか、それがちゃんと統計に出るのです。<br/><br/>だから非常に分かり良いわけです。<br/><br/>それによると今アメリカで医者にかかっている人は千七、八百万人いるそうです。<br/><br/>人口が一億五千万人ですから一割強はお医者さんの御厄介になっているわけです。<br/><br/>それでいろんな病気の統計をみると、年々増えているのです。<br/><br/>減っているのはペストとかコレラとか野蛮国の病気は減ってます。<br/><br/>それから一番多いのは胃癌、小児 麻痺、結核――これらが一番多いです。<br/><br/>その他いろいろな病気がありますが、これはいずれ『栄光』に出します。<br/><br/>そうしてアメリカでは病気に対して非常に苦しんでいるのです。<br/><br/>私は、いろんな病気は日本が一番多いと思ったところ、どうして、アメリカの方が日本より多いかもしれないです。<br/><br/>それはなにかというと、アメリカは薬が一番進歩しているからです。<br/><br/>昔は薬はドイツが世界で一番進歩していたが、今はアメリカが一番進歩している。<br/><br/>こういう説になっている。<br/><br/>つまり医学が進歩している国ほど病気が増えるのです。<br/><br/>これは間違いないです。<br/><br/>そうしてみるとアメリカの人をまず救わなければならない。<br/><br/>なにしろ世界の文明をリードしているのはアメリカですから、世界を救おうとしたらアメリカを一番先に救うということが一番効果的です。<br/><br/>私はその統計を基にして「こういう病気はこうだ」「これはこういうことだ」ということをすっかり書いて、小冊子にして、アメリカの大統領始め偉い人たちに配ろうと思ってます。<br/><br/>それから、『栄光』も、英文『栄光』というものを作って、あっちに大いに宣伝して、読ませようと思っている。<br/><br/>ちょうど良いあんばいに、そういったごく適任者が二、三人おりますから、今ハワイに信者も四、五十人できてまして、今非常に発展の気勢がみえてきたのです。<br/><br/>そんなことで、足掛かりもちょうど良い具合になっているので、そこでこっちの支社のようなものを――もっとも支部も作るつもりです。<br/><br/>支社を作って大いにアメリカに宣伝しようと思っている。<br/><br/>そうすると日本人よりかえって分かりが早いから、あんがい良いと思ってます。<br/><br/>で、アメリカで一番困っているのは小児麻痺です。<br/><br/>これは、死んだルーズヴェルトの小児麻痺は有名なものですが、今度の報告を聞くと、本当の小児麻痺ではないのです。<br/><br/>ほとんど疑似小児麻痺です。<br/><br/>疑似小児麻痺というのは無論薬毒ですから、それを良く解らせればあんがい早く解るのではないかと思ってます。<br/><br/>つまり足が歩けないのです。<br/><br/>これが一番多いのです。<br/><br/>しかも注射がはやりますから、ますます増えるわけです。<br/><br/>それから親の遺伝薬毒もありますし、それですからアメリカの小児麻痺というのは、浄霊しても全部治ります。<br/><br/>なんでもないです。<br/><br/>たいてい膝の辺りに薬毒の固まりができるのです。<br/><br/>それから癌というのは、根本は肉食です。<br/><br/>あれは肉食病ですから、野菜をもっと多く食べれば胃癌はなくなるのです。<br/><br/>それらも簡単な理屈です。<br/><br/>結核は今度の『結核信仰療法』を読ませれば良いのです。<br/><br/>こういう意味を根拠として「あらゆる病気は薬毒だ」ということを書けば、そうとう解るだろうと思ってます。<br/><br/>で、これは先から言っている通り、アメリカが緯で日本が経で、そこで、これを結ばなければならないという、そういった一つの根本的の仕事ですから、やはりそういった時期が来たわけです。<br/><br/>で、アメリカが解ると日本はとても早く解ります。<br/><br/>なにしろ今もって舶来崇拝が大いにあるのですから、どうしても逆輸入する。<br/><br/>そうすることが一番早いです。<br/><br/>映画の『羅生門』みたいなものです。<br/><br/>あれだって外国でああして大騒ぎをやられたので、日本人も気がついたのです。<br/><br/>そういう私もそうなのです。<br/><br/>先に見た時には、たいしたものと思わなかったが、あっちで評判になったので、なんだかもう一度見たい気がして、そう思って見るとなるほど良いです。<br/><br/> 昨夜から今朝にかけておもしろい論文を書いたのですが、まだ仕上げをしてないから読みにくいのですが――。<br/><br/>つまり薬というものは毒ですが、毒を薬のように思わせたのは誰かというと、神様なのです。<br/><br/>だからちょっと意外な説なのですが、ところがこれを充分解ると根本的に分かるのです。<br/><br/>なにしろ悪魔というのは、神様が作ったのです。<br/><br/>こういった説き方は主神の説き方なのです。<br/><br/>今までの宗教にしろなんにしろ、主神の教えでなかった。<br/><br/>つまり善の側の神様が出て説いたのですから、悪というものをいちがいにぜんぜんいけないと排撃したのです。<br/><br/>これは善悪両方の神様がこしらえたのです。<br/><br/>善の方の神様は、キリストとか釈迦を使って説かせたのです。<br/><br/>ところが私は善悪両方の主神――その神様の計画を説くのです。<br/><br/>そこで悪を否定するのでなくて悪を肯定しているのです。<br/><br/>そうすると毒を薬として飲ませるのはどういうわけだという、そういう意味も知らなければならない。<br/><br/>それを書いたのです。<br/><br/> （御論文「文明の創造 人類と医学」） これはちょっと知っておく必要があると思って。<br/><br/> （御論文「薬毒の恐怖」） （御論文「医学関係者に警告する」）【栄光 一七一号】 それから社会事業についてよく聞かれますから、その説明を書いてあります。<br/><br/> （御論文「本教と社会事業」）【栄光 一七一号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

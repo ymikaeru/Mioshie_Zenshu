@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gaku051</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ４ 051-064 動物 051 尸解の法則 鳥は死ぬと忽ち霊化すると言いますが、その他の動物はいかがなものでしょうか。<br><br>また人間やその他の動物で生きながら霊化することが出来るでしょうか。<br><br> 鳥は全部霊化するが、鳥に限らず、他の動物でも霊化するのが沢山ある。<br><br>人間に飼われると出来なくなる。<br><br>いわゆる尸解の法則である。<br><br>猫などかなり霊化する。<br><br>熊や狼など殆ど死骸はない。<br><br> 物質が霊化するのであるが、これは人間でも生きながら霊化する事がある。<br><br>先日亀井三郎という人が来て「自分でも霊化する事が出来る」と言っていた。<br><br>英国の俳優で、舞台に行く時壁を抜けて出て行った実例がある。<br><br>亀井氏は縄抜きなどよくする。<br><br> rattail（注） 〔 妙智之光（地上天国13号） 、昭和25(1950)年2月20日発行〕掲載 052 屍化 烏は自分のなきがらを地上に残さないようで御座いますが、どういう訳で御座いましょうか。<br><br> なおこう言う事が獣の一部にも御座いますように聞いておりますが御伺い申し上げます。<br><br> 屍化の法といい、霊化してしまう。<br><br>烏に限らず鳥は皆そうである。<br><br>家畜となるといけない。<br><br>自然に生活しているものは皆屍化の法で、身体が発散してしまう。<br><br>それだけ彼等は汚れていない。<br><br>自然である。<br><br>邪念などない。<br><br>（S24. 1. 5） rattail（注） 〔 妙智之光（地上天国３号） 、昭和24(1949)年4月20日発行〕掲載 053 鳥の最高位 霊位の高いお話で、鉱物では金、木では檜と申されますが、鳥は何鳥が一番霊位が高いのでしょうか。<br><br> 烏は夜明けるもの。<br><br>日を表わす場合には、日をかいて烏をかく。<br><br>月は兎を表わす。<br><br> 私の副守護神は烏で、昔恐しくなってポロポロ涙を出した。<br><br>そしてこれからは間違った事は出来ないと言っていた。<br><br> 054 烏について 烏について。<br><br> （イ）、その鳴声で吉凶が判るものでしょうか。<br><br> （ロ）、霊性が高いとの事ですが、声や形がそれ程美しくない事には意味があるのでしょうか。<br><br> （ハ）、その鳴声は多くの人は嫌いますが「喜び鳴き」というのは聞く人によっては良い声でしょうか。<br><br> 右御教示御願い申し上げます。<br><br> （イ）吉凶が判る。<br><br>烏が啼いてると、烏を呼んでいるから、烏が啼くと死ぬなどという。<br><br>研究すれば判る。<br><br> （ロ）霊感ある鳥である。<br><br>昔から天照大神のお使などという。<br><br>太陽に関係がある。<br><br>天狗界へ行くと烏天狗となる。<br><br>鳥の天狗の中、一番の神様の事がある。<br><br>霊性の高い事は事実である。<br><br> （ハ）大抵は嫌う。<br><br>死ぬ日の朝などよく啼く。<br><br>人の死骸を食う。<br><br>予知して仲間を呼ぶものとみえる。<br><br>喜び事に啼く時は滅多にない。<br><br> 芸妓など美人でも悪い事をする。<br><br>必ずしも美と霊格などは一致せぬ。<br><br> 055 烏啼きと吉凶 烏啼きは、吉凶に関係があると申されておりますが、いかなる意味を持っているもので御座居ましょうか。<br><br> ある。<br><br>烏は死骸を突ついて喰べるのが好きで、死の前には死骸の匂いがするので、それが烏に判る。<br><br>そして突つけると思って友を呼ぶので、啼き方によって言葉が通ずる。<br><br>吉には関係はない。<br><br>外の鳥、鶯などは吉である。<br><br>（S23.12. 2） 056 九官鳥 九官鳥は人の言葉を真似しますが、これは転生で御座いましょうか。<br><br> 転生である。<br><br>九官鳥は、人間の霊が憑り易く、溶け込み易い性能を持っている。<br><br>人霊と感応しやすい。<br><br>（S24. 3.14） 057 動物の霊感 一、鼠は火事を予知してその家から移動するとの事ですが、鼠等にはそのような霊感がありますものでしょうか。<br><br> 二、鳥や虫の中には、その地方に起るべき飢饉を予知して、事前にその牝が減少すると言われますが事実でありましょうか。<br><br> 一、ある。<br><br>動物には霊感が人間の及ばぬ程ある。<br><br>火事の起る前、霊界に火事がある。<br><br>それで逃げる。<br><br>（S25. 2. 3） 058 鶏鳴の変化 最近宇都宮地方の農村も町も、鶏が夜中に不規則に鳴きますが、いかなる理由でしょうか。<br><br>何か特別に意味があるので御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 鳥などは割合に霊感がある。<br><br>霊界が昼になるのを感ずるのであろう。<br><br> 夜から昼に移る場合、いろんなものに変化が起るが、良い事が多い。<br><br>（S24.11.17） 059 午后の鶏鳴は不吉か 昔の人は宵の口から鶏が鳴くと不吉な事があると言われておりますが、最近午后の九時頃から鳴きますが、いかなる訳で御座いましょうか。<br><br>また何か霊的に関係が御座いましょうか。<br><br>御伺い致します。<br><br> 関係がある。<br><br>鶏や鼠のようなものは、感受性が強い。<br><br> 霊界から先に起るからである。<br><br>しかし、もし浄化があれば喜ぶべきである。<br><br>（S25. 5. 7） 060 水死者の上で啼く鶏 水死人を探す時、鶏（ショコク鳥）を盥（たらい）の中に入れて水面を浮動致しますと、死人の上に来た場合その鶏が鳴くそうですが、何か霊的な関係が御座いましょうか。<br><br>御教え御願い申し上げます。<br><br> 鳥などは霊的に敏感なものである。<br><br>地縛の霊は動かぬので、鶏などそれが判るんで啼くのである。<br><br>（S24. 5.22） 061 雌鶏のトキ作る事 「めんどり」が毎朝「とき」をつくると、その家に間違が起ると言われておりますが、いかがで御座いましょうか。<br><br>御伺い申し上げます。<br><br> そんな事はない。<br><br>しかし鳥などは、霊的な事は人間より敏感だから、何か知らせる事はある。<br><br>（S25. 5.18） 062 蟻と多雨 暦に、蟻がしきりに畳の上にはい上るのは、雨の多いしらせと言う事が出ておりましたが、現在曇天の日に、部屋の中に蟻がはい上って来るのに気がついている信者が御座いますが、龍神と蟻と霊的に何か関係が御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 水素を含むと蟻によく分る。<br><br>龍神とは関係はない。<br><br>蛇の死骸が全部蟻になった事を以前かいた。<br><br>蟻は霊感が敏捷である。<br><br>（S25. 5.22） 063 猪妊婦の家は荒さず 私の村では毎年猪が出て作物を荒します。<br><br>しかし家庭に妊娠している人がありますと、隣の家の畑迄荒しても、その家には被害はありません。<br><br>何か訳が御座いましょうか。<br><br> 獣でも、獣としての霊感はある。<br><br> 064 犬遠吠、鶏夜啼 犬が遠吠したり、鶏が夜鳴きをすると変事があるとは、いかなる訳でしょうか。<br><br> 動物には霊的の感覚があり、彼等はよくそれを知る。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compilação de Artigos de Jikan Okada - Pesquisa de Ensinamentos: Seção de Estudos Acadêmicos 4 - Animais (051-064)</h2>
 <h3>052 A Lei da Espiritualização do Corpo Físico</h3>
@@ -146,5 +298,48 @@ function toggleLang(lang) {
 <h3>064 O Uivo do Cão e o Canto Noturno do Galo</h3>
 <p><strong>Pergunta:</strong> Por que se diz que, quando um cão uiva ou um galo canta durante a noite, um acontecimento incomum está para ocorrer?</p>
 <p><strong>Meishu-Sama:</strong> Os animais possuem uma percepção espiritual e são capazes de pressentir tais eventos com clareza.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ４ 051-064 動物 051 尸解の法則 鳥は死ぬと忽ち霊化すると言いますが、その他の動物はいかがなものでしょうか。<br/><br/>また人間やその他の動物で生きながら霊化することが出来るでしょうか。<br/><br/> 鳥は全部霊化するが、鳥に限らず、他の動物でも霊化するのが沢山ある。<br/><br/>人間に飼われると出来なくなる。<br/><br/>いわゆる尸解の法則である。<br/><br/>猫などかなり霊化する。<br/><br/>熊や狼など殆ど死骸はない。<br/><br/> 物質が霊化するのであるが、これは人間でも生きながら霊化する事がある。<br/><br/>先日亀井三郎という人が来て「自分でも霊化する事が出来る」と言っていた。<br/><br/>英国の俳優で、舞台に行く時壁を抜けて出て行った実例がある。<br/><br/>亀井氏は縄抜きなどよくする。<br/><br/> rattail（注） 〔 妙智之光（地上天国13号） 、昭和25(1950)年2月20日発行〕掲載 052 屍化 烏は自分のなきがらを地上に残さないようで御座いますが、どういう訳で御座いましょうか。<br/><br/> なおこう言う事が獣の一部にも御座いますように聞いておりますが御伺い申し上げます。<br/><br/> 屍化の法といい、霊化してしまう。<br/><br/>烏に限らず鳥は皆そうである。<br/><br/>家畜となるといけない。<br/><br/>自然に生活しているものは皆屍化の法で、身体が発散してしまう。<br/><br/>それだけ彼等は汚れていない。<br/><br/>自然である。<br/><br/>邪念などない。<br/><br/>（S24. 1. 5） rattail（注） 〔 妙智之光（地上天国３号） 、昭和24(1949)年4月20日発行〕掲載 053 鳥の最高位 霊位の高いお話で、鉱物では金、木では檜と申されますが、鳥は何鳥が一番霊位が高いのでしょうか。<br/><br/> 烏は夜明けるもの。<br/><br/>日を表わす場合には、日をかいて烏をかく。<br/><br/>月は兎を表わす。<br/><br/> 私の副守護神は烏で、昔恐しくなってポロポロ涙を出した。<br/><br/>そしてこれからは間違った事は出来ないと言っていた。<br/><br/> 054 烏について 烏について。<br/><br/> （イ）、その鳴声で吉凶が判るものでしょうか。<br/><br/> （ロ）、霊性が高いとの事ですが、声や形がそれ程美しくない事には意味があるのでしょうか。<br/><br/> （ハ）、その鳴声は多くの人は嫌いますが「喜び鳴き」というのは聞く人によっては良い声でしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> （イ）吉凶が判る。<br/><br/>烏が啼いてると、烏を呼んでいるから、烏が啼くと死ぬなどという。<br/><br/>研究すれば判る。<br/><br/> （ロ）霊感ある鳥である。<br/><br/>昔から天照大神のお使などという。<br/><br/>太陽に関係がある。<br/><br/>天狗界へ行くと烏天狗となる。<br/><br/>鳥の天狗の中、一番の神様の事がある。<br/><br/>霊性の高い事は事実である。<br/><br/> （ハ）大抵は嫌う。<br/><br/>死ぬ日の朝などよく啼く。<br/><br/>人の死骸を食う。<br/><br/>予知して仲間を呼ぶものとみえる。<br/><br/>喜び事に啼く時は滅多にない。<br/><br/> 芸妓など美人でも悪い事をする。<br/><br/>必ずしも美と霊格などは一致せぬ。<br/><br/> 055 烏啼きと吉凶 烏啼きは、吉凶に関係があると申されておりますが、いかなる意味を持っているもので御座居ましょうか。<br/><br/> ある。<br/><br/>烏は死骸を突ついて喰べるのが好きで、死の前には死骸の匂いがするので、それが烏に判る。<br/><br/>そして突つけると思って友を呼ぶので、啼き方によって言葉が通ずる。<br/><br/>吉には関係はない。<br/><br/>外の鳥、鶯などは吉である。<br/><br/>（S23.12. 2） 056 九官鳥 九官鳥は人の言葉を真似しますが、これは転生で御座いましょうか。<br/><br/> 転生である。<br/><br/>九官鳥は、人間の霊が憑り易く、溶け込み易い性能を持っている。<br/><br/>人霊と感応しやすい。<br/><br/>（S24. 3.14） 057 動物の霊感 一、鼠は火事を予知してその家から移動するとの事ですが、鼠等にはそのような霊感がありますものでしょうか。<br/><br/> 二、鳥や虫の中には、その地方に起るべき飢饉を予知して、事前にその牝が減少すると言われますが事実でありましょうか。<br/><br/> 一、ある。<br/><br/>動物には霊感が人間の及ばぬ程ある。<br/><br/>火事の起る前、霊界に火事がある。<br/><br/>それで逃げる。<br/><br/>（S25. 2. 3） 058 鶏鳴の変化 最近宇都宮地方の農村も町も、鶏が夜中に不規則に鳴きますが、いかなる理由でしょうか。<br/><br/>何か特別に意味があるので御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 鳥などは割合に霊感がある。<br/><br/>霊界が昼になるのを感ずるのであろう。<br/><br/> 夜から昼に移る場合、いろんなものに変化が起るが、良い事が多い。<br/><br/>（S24.11.17） 059 午后の鶏鳴は不吉か 昔の人は宵の口から鶏が鳴くと不吉な事があると言われておりますが、最近午后の九時頃から鳴きますが、いかなる訳で御座いましょうか。<br/><br/>また何か霊的に関係が御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 関係がある。<br/><br/>鶏や鼠のようなものは、感受性が強い。<br/><br/> 霊界から先に起るからである。<br/><br/>しかし、もし浄化があれば喜ぶべきである。<br/><br/>（S25. 5. 7） 060 水死者の上で啼く鶏 水死人を探す時、鶏（ショコク鳥）を盥（たらい）の中に入れて水面を浮動致しますと、死人の上に来た場合その鶏が鳴くそうですが、何か霊的な関係が御座いましょうか。<br/><br/>御教え御願い申し上げます。<br/><br/> 鳥などは霊的に敏感なものである。<br/><br/>地縛の霊は動かぬので、鶏などそれが判るんで啼くのである。<br/><br/>（S24. 5.22） 061 雌鶏のトキ作る事 「めんどり」が毎朝「とき」をつくると、その家に間違が起ると言われておりますが、いかがで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> そんな事はない。<br/><br/>しかし鳥などは、霊的な事は人間より敏感だから、何か知らせる事はある。<br/><br/>（S25. 5.18） 062 蟻と多雨 暦に、蟻がしきりに畳の上にはい上るのは、雨の多いしらせと言う事が出ておりましたが、現在曇天の日に、部屋の中に蟻がはい上って来るのに気がついている信者が御座いますが、龍神と蟻と霊的に何か関係が御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 水素を含むと蟻によく分る。<br/><br/>龍神とは関係はない。<br/><br/>蛇の死骸が全部蟻になった事を以前かいた。<br/><br/>蟻は霊感が敏捷である。<br/><br/>（S25. 5.22） 063 猪妊婦の家は荒さず 私の村では毎年猪が出て作物を荒します。<br/><br/>しかし家庭に妊娠している人がありますと、隣の家の畑迄荒しても、その家には被害はありません。<br/><br/>何か訳が御座いましょうか。<br/><br/> 獣でも、獣としての霊感はある。<br/><br/> 064 犬遠吠、鶏夜啼 犬が遠吠したり、鶏が夜鳴きをすると変事があるとは、いかなる訳でしょうか。<br/><br/> 動物には霊的の感覚があり、彼等はよくそれを知る。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

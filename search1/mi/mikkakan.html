@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mikkakan</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三日間で博士が出来る 『栄光』232号、昭和28(1953)年10月28日発行 これは自画自讃ではないが、現在私が揮っている神力のいかに偉大なものであるかは、どんな言葉でも表現は出来まい。<br><br>というのは古往今来これ程超人間的力の経験は、人類史上嘗（かつ）てなかったからである。<br><br>これは信者はよく知っているから、ここでは未信者を対象としてかいてみよう。<br><br>何しろ長い間難病のため医療を始め、世間にありとあらゆる療法は固（もと）より、色々な信仰によっても治らず、悪化に悪化を重ね、進退谷（きわま）った際本教の話を聞き、早速浄霊を受けるや、今まで想像もしなかったところの素晴しい効果に愕然（がくぜん）と驚くと共に、自分ばかりか、入信すれば人の病気まで治せる事を知った以上、何が何でも入信する事となる。<br><br> ところが二度吃驚（びっくり）、僅（わず）か三日間の教修で、直ぐに人の病気が治せるからである。<br><br>そこでたまたま病人に出遇（あ）うや、最初はオッカナ吃驚、怖々（こわごわ）施術してみると、驚くべしお蔭様でこの通り快くなりましたと礼を言いに来るので、余りの不思議さに治った方より治した方が吃驚し、入信早々こんな力が自分にあるのかと思うと嬉しくて夢のような気がするので、早速御神書を読んだり先生に訊（き）いたりしてようやく分り、ここに初めて救世教の真価を知るのである。<br><br>それから幾人もの病人を治したりして、信仰も固まり一人前の信者となるという訳である。<br><br> ここでよく考えてみて貰いたい事は、今日の医学博士である。<br><br>博士になるまでには少くとも十数年の年月と、百万以上の金がかかるという事である。<br><br>それ程の犠牲を払ってまでかち得た博士が、到底不治と匙（さじ）を抛（な）げた難病が、三日間の修業で出来たてのホヤホヤな赤ん坊博士が、たちまち治してしまうのだから、これ程理屈に合わない話はおよそこの世の中にあるまい、といっても事実は飽くまで事実である。<br><br>もし嘘と思う人があったら、思い切って真相を暴（あば）いて貰いたい。<br><br>私はそれを希望する。<br><br> 以前私は某医師からこういう事を聞いた。<br><br>それは国民全部が医師になれば、衛生も養生も健康法も必要がなくなり、それで国民保健は解決するという話なので、当時なるほどと思った事がある。<br><br>ところがその頃は医学を立派なものと思っていたからであって、今日逆医学だという事が分った以上駄目に決っているが、もしそうだとしても、前記のごとく医師を作るには、大変な金と時を要するから、事実上不可能である。<br><br>ところが我浄霊法は前記のごとく三日間で、博士以上の名医になれるのだから、こんな簡単にして偉大な医学はあるまいと共に、国家経済上にも大変なプラスであって、夢としか思えまい。<br><br>従って全国民ことごとくが浄霊法を覚えるとしたら、ここに病なき日本となるのは当然で、国家の隆昌（りゅうしょう）は素晴しいものであろう。<br><br>その結果日本は世界第一の模範的文化国家となり、各国挙（こぞ）って見習う事になるのは火をみるよりも明らかである。<br><br> 諸君、何と偉大なる事業でなかろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Formação de Doutores em Três Dias</h2>
 <p>Embora não seja meu intuito o autoelogio, a magnitude do Poder Divino que ora manifesto transcende qualquer descrição em palavras. Digo isso porque, em toda a história da humanidade, jamais se experimentou uma força tão sobre-humana. Os membros já conhecem bem essa realidade; portanto, dedicarei as linhas que se seguem àqueles que ainda não professam nossa fé.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Certa vez, ouvi de um médico a seguinte teoria: se toda a população se tornasse médica, não haveria mais necessidade de se preocupar com higiene, cuidados preventivos ou métodos para a manutenção da saúde, e o problema da saúde pública estaria resolvido. Naquela época, a ideia me pareceu bastante razoável. Isso, contudo, foi em uma época em que eu ainda considerava a medicina algo esplêndido. Hoje, tendo compreendido que ela é, em essência, uma “medicina às avessas”, tal plano se mostra evidentemente fadado ao fracasso. Ademais, mesmo que a premissa fosse válida, a formação de médicos, como já mencionei, exige um tempo e um custo tão elevados que a torna, na prática, inviável.</p>
 <p>Em contrapartida, nosso método de Johrei permite, como foi dito, que qualquer pessoa se torne um terapeuta mais competente que um doutor em apenas três dias. Não existe, portanto, uma prática de cura tão simples e, ao mesmo tempo, tão grandiosa. O impacto positivo sobre a economia nacional seria tão imenso que parece, de fato, um sonho. Nesse sentido, se toda a nação aprendesse a ministrar Johrei, o Japão se tornaria, naturalmente, um país livre de doenças, e a prosperidade do Estado alcançaria patamares esplêndidos. Como resultado, o Japão se tornaria a principal nação-modelo do mundo, um farol de cultura que todos os outros países viriam a seguir. Isso é mais claro que a luz do dia.</p>
 <p>Caros leitores, que empreendimento grandioso se descortina diante de nós</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三日間で博士が出来る 『栄光』232号、昭和28(1953)年10月28日発行 これは自画自讃ではないが、現在私が揮っている神力のいかに偉大なものであるかは、どんな言葉でも表現は出来まい。<br/><br/>というのは古往今来これ程超人間的力の経験は、人類史上嘗（かつ）てなかったからである。<br/><br/>これは信者はよく知っているから、ここでは未信者を対象としてかいてみよう。<br/><br/>何しろ長い間難病のため医療を始め、世間にありとあらゆる療法は固（もと）より、色々な信仰によっても治らず、悪化に悪化を重ね、進退谷（きわま）った際本教の話を聞き、早速浄霊を受けるや、今まで想像もしなかったところの素晴しい効果に愕然（がくぜん）と驚くと共に、自分ばかりか、入信すれば人の病気まで治せる事を知った以上、何が何でも入信する事となる。<br/><br/> ところが二度吃驚（びっくり）、僅（わず）か三日間の教修で、直ぐに人の病気が治せるからである。<br/><br/>そこでたまたま病人に出遇（あ）うや、最初はオッカナ吃驚、怖々（こわごわ）施術してみると、驚くべしお蔭様でこの通り快くなりましたと礼を言いに来るので、余りの不思議さに治った方より治した方が吃驚し、入信早々こんな力が自分にあるのかと思うと嬉しくて夢のような気がするので、早速御神書を読んだり先生に訊（き）いたりしてようやく分り、ここに初めて救世教の真価を知るのである。<br/><br/>それから幾人もの病人を治したりして、信仰も固まり一人前の信者となるという訳である。<br/><br/> ここでよく考えてみて貰いたい事は、今日の医学博士である。<br/><br/>博士になるまでには少くとも十数年の年月と、百万以上の金がかかるという事である。<br/><br/>それ程の犠牲を払ってまでかち得た博士が、到底不治と匙（さじ）を抛（な）げた難病が、三日間の修業で出来たてのホヤホヤな赤ん坊博士が、たちまち治してしまうのだから、これ程理屈に合わない話はおよそこの世の中にあるまい、といっても事実は飽くまで事実である。<br/><br/>もし嘘と思う人があったら、思い切って真相を暴（あば）いて貰いたい。<br/><br/>私はそれを希望する。<br/><br/> 以前私は某医師からこういう事を聞いた。<br/><br/>それは国民全部が医師になれば、衛生も養生も健康法も必要がなくなり、それで国民保健は解決するという話なので、当時なるほどと思った事がある。<br/><br/>ところがその頃は医学を立派なものと思っていたからであって、今日逆医学だという事が分った以上駄目に決っているが、もしそうだとしても、前記のごとく医師を作るには、大変な金と時を要するから、事実上不可能である。<br/><br/>ところが我浄霊法は前記のごとく三日間で、博士以上の名医になれるのだから、こんな簡単にして偉大な医学はあるまいと共に、国家経済上にも大変なプラスであって、夢としか思えまい。<br/><br/>従って全国民ことごとくが浄霊法を覚えるとしたら、ここに病なき日本となるのは当然で、国家の隆昌（りゅうしょう）は素晴しいものであろう。<br/><br/>その結果日本は世界第一の模範的文化国家となり、各国挙（こぞ）って見習う事になるのは火をみるよりも明らかである。<br/><br/> 諸君、何と偉大なる事業でなかろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

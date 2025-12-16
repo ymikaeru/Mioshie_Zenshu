@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tsuku2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痛苦 『天国の福音』昭和22(1947)年2月5日発行 痛苦すなわち痛みなるものは前にも述べたごとく、浄化発熱によって固結毒素が溶解され液体化され、それがいずれかに出口を求め、その方向に進まんとする運動が筋肉の神経を刺戟するためである。<br><br> 痛みの症状は盲腸炎、急性腹膜炎、急性腎臓炎、胃及び腸の痙攣、頭痛、歯痛、中耳炎、リョウマチス、各種神経痛等実に多種多様であるが、多くは右の理によるのである。<br><br>また骨膜炎、骨髄炎、肋骨カリエス等骨に関する痛みの原因は骨膜に凝結した毒素が浄化溶解によって表面へ滲出せんとし、骨そのものに無数の極微な穿孔をする、そのための激痛である。<br><br>歯根膜炎、中耳炎等もそうである。<br><br>右の穿孔の窖（あな）は病気治癒後速かに原形に復すのである。<br><br>この場合医家は往々骨が腐るというが、これは誤謬である。<br><br>次にひょう疽脱疽の激痛がある。<br><br>これは患部が暗紫色に腫脹し、漸次拡充する。<br><br>その状態がちょうど腐れゆくごとく見ゆるので医家は腐敗となし一刻も速く切断するを可とするが、これは大いなる誤謬である。<br><br>何となれば右の状態はある程度拡充してから必ず停止するものであるにみて腐敗でない事は明らかである。<br><br>その他火傷、刀傷、打撲傷等もあるが、これらは病気と異なり、自然治癒するのである。<br><br>しかしこれらに対し、消毒薬の塗布等を行うために、容易に治癒し難くなる例は非常に多いのである。<br><br>かかる場合薬剤を廃し、患部を清水に洗うだけで自然によく治癒するのである。<br><br> 既記のごとく痛苦の原因はことごとく薬毒によるのであるから、多種多様の痛みは多種多様の薬剤があるからである。<br><br> 本医術に依る時、痛苦は速かに治癒する。<br><br>特にひょう疽、脱疽等のごとき激痛といえども一回ないし三回位にて無痛となり、患者は驚喜するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem da Dor e do Sofrimento</h2>
 <p>Conforme já explanei anteriormente, a dor, ou o sofrimento, origina-se do processo de purificação. Quando as toxinas solidificadas são dissolvidas e se liquefazem pela febre purificadora, esta matéria liquefeita busca uma via de escape. O movimento em direção a essa saída estimula os nervos dos músculos, gerando a sensação dolorosa.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Existem ainda os casos de queimaduras, cortes e contusões. Diferentemente das doenças, essas lesões possuem um processo de cura natural. Contudo, é extremamente comum que a aplicação de antissépticos e outros medicamentos dificulte e retarde essa recuperação. Nessas situações, ao abandonar o uso de fármacos e apenas lavar a área afetada com água limpa, a cura ocorre de maneira natural e eficiente.</p>
 <p>Portanto, como já afirmado, a causa primordial de todo sofrimento reside nas toxinas medicamentosas. A existência de uma vasta gama de dores corresponde, consequentemente, à vasta gama de medicamentos que as originam.</p>
 <p>Por meio desta arte de cura, o sofrimento é sanado com celeridade. Mesmo as dores mais lancinantes, como as do panarício e da gangrena, cessam após uma a três ministrações, para o assombro e a alegria dos pacientes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痛苦 『天国の福音』昭和22(1947)年2月5日発行 痛苦すなわち痛みなるものは前にも述べたごとく、浄化発熱によって固結毒素が溶解され液体化され、それがいずれかに出口を求め、その方向に進まんとする運動が筋肉の神経を刺戟するためである。<br/><br/> 痛みの症状は盲腸炎、急性腹膜炎、急性腎臓炎、胃及び腸の痙攣、頭痛、歯痛、中耳炎、リョウマチス、各種神経痛等実に多種多様であるが、多くは右の理によるのである。<br/><br/>また骨膜炎、骨髄炎、肋骨カリエス等骨に関する痛みの原因は骨膜に凝結した毒素が浄化溶解によって表面へ滲出せんとし、骨そのものに無数の極微な穿孔をする、そのための激痛である。<br/><br/>歯根膜炎、中耳炎等もそうである。<br/><br/>右の穿孔の窖（あな）は病気治癒後速かに原形に復すのである。<br/><br/>この場合医家は往々骨が腐るというが、これは誤謬である。<br/><br/>次にひょう疽脱疽の激痛がある。<br/><br/>これは患部が暗紫色に腫脹し、漸次拡充する。<br/><br/>その状態がちょうど腐れゆくごとく見ゆるので医家は腐敗となし一刻も速く切断するを可とするが、これは大いなる誤謬である。<br/><br/>何となれば右の状態はある程度拡充してから必ず停止するものであるにみて腐敗でない事は明らかである。<br/><br/>その他火傷、刀傷、打撲傷等もあるが、これらは病気と異なり、自然治癒するのである。<br/><br/>しかしこれらに対し、消毒薬の塗布等を行うために、容易に治癒し難くなる例は非常に多いのである。<br/><br/>かかる場合薬剤を廃し、患部を清水に洗うだけで自然によく治癒するのである。<br/><br/> 既記のごとく痛苦の原因はことごとく薬毒によるのであるから、多種多様の痛みは多種多様の薬剤があるからである。<br/><br/> 本医術に依る時、痛苦は速かに治癒する。<br/><br/>特にひょう疽、脱疽等のごとき激痛といえども一回ないし三回位にて無痛となり、患者は驚喜するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>densen03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝染病と黴菌 『天国の福音』昭和22(1947)年2月5日発行 今日医学においては病原はことごとくといいたい程黴菌によるとされている。<br><br>そうして微小にして顕微鏡でも見る事を得ない黴菌を濾過性黴菌と称している。<br><br> 医学における解釈は次のごときものである。<br><br> 「感冒、ジフテリヤ、百日咳、麻疹、流行性耳下腺炎等の病気は、泡沫伝染という事になっている。<br><br>これは戸を閉め切った室内や乗物の中で、患者のくしゃみや咳嗽の際など、霧のごとく唾と一諸に飛出し、空気中に浮遊しているのを吸込んで感染するのである。<br><br>そうして老人は比較的免疫になっており、青年特に小児が侵されやすく、患者に一メートル以上接近してはならない」という事になっている。<br><br>かようにほとんどの病気は黴菌によるというのであるから、これを信ずるとしたら現代人は生きて行く事さえ恐怖の極みである。<br><br> もし医学がいうごとくでありとすれば、社会生活などは到底不可能であろう。<br><br>まず汽車、電車へ乗る事は危険である。<br><br>隣の乗客は何かの伝染性病気に罹っているかも知れない。<br><br>窓を閉め切れば満員の際など少なくとも数人以上の結核患者はもちろん他の伝染性患者もいるであろうから、空気伝染の危険は免れ得ない。<br><br>また人と談話する事も危険である。<br><br>先方は伝染性疾患を保有しているかも知れない。<br><br>といって一々三尺以上はなれるという事は実際上不可能である。<br><br>その他劇場、映画館等多数人のいる所は危険千万である――という訳になろう。<br><br> 故に、医学の理論を信奉するとすれば、まず社会と全く絶縁しなければならない。<br><br>すなわち山奥の一軒家か、海上遥か沖合に出で船住居をするより他に理想的方法はないであろう。<br><br>吾々が割合恐怖感に捉われないで生活し得るという事は医学の説を丸呑みにしないからである。<br><br> そうして右のごとき空気伝染以外一層危険であるのは、銭湯へ入浴する事はもちろん、手指の接触による場合、すなわち電車の吊皮、扉のハンドルまたは貨幣であろう。<br><br>特に貨幣が多数人の手指に触るる関係上黴菌の巣窟ともいうべく最も危険とみなければならない。<br><br>これについて左のごとき調査報告を示してみよう。<br><br> 「北大医学部衛生学教室阿部三史学士が、郵便局、銀行、市場、デパート、食堂、食料品店、個人等多く利用されるところから十円札、五十銭銀貨、拾銭白銅、拾銭ニッケル、一銭銅貨等取り交ぜ三百四十五個を集めその銀貨なり、札なりに付着している黴菌を研究した結果、左のごとく大腸菌、パラチフス菌、葡萄球菌、コレラ菌、分裂菌等々、数えきれない程の黴菌が付着していた。<br><br>これ等はいずれも人体に害を及ぼすもので、殊に小さな子供等が、無心で銅貨銀貨等をなめているなど大いに注意を要するものであり、一方多くの人は、銀貨、銅貨に、結核菌が付着していると思っているだろうが、阿部氏の研究では結核菌は案外少なく、人体に及ぼす程の偉力はないと言われている。<br><br> 「各種貨幣の黴菌数」（昭和十一年六月調査） まず拾円札、五拾銭、拾銭、一銭各一枚にどれだけの黴菌が付着しているかと言うと、 △ 拾円札には、普通黴菌が最高十六万九千百五個で 平均五万二千四百九十一個 △五拾銭銀貨には 平均千五百五十九個 △拾銭白銅には 二千四百七十個 △拾銭ニッケル白銅には 二千二百三個 △一銭銅貨には 千三十二個 等である。<br><br> 「病菌の種類と数」 更に大腸菌、チブス菌、パラチフス菌等がどれだけついているかと言えば―― △拾円礼には 五十四個 △五拾銭銀貨には 四個 △拾銭白銅には 三個 △拾銭ニッケル白銅には 一個 △一銭銅貨には 四個 ――等で、拾銭ニッケル白銅が他の貨幣より少ない事は、発行されて間もない事によるもので、なお一銭銅貨には比較的黴菌の付着数が少ない事は、銅自身が持っている殺菌性に依るものである。<br><br> 「場所と黴菌数」 しからば、どこで使われている貨幣に最も多くの黴菌が付いているかといえば、一番多いのが市場、次いで郵便局、日用雑貨品店、百貨店、食堂、菓子店、食料品店、個人所有等の順序になっており、個人所有が一番少ないが、これは財布の中に入れられている関係上空気が外部と異って流通しないため、付着した黴菌が培養されない為である」―― 以上によってみても、貨幣にはいかに多くのあらゆる病菌が付着しているかを識るであろう。<br><br>しかしながら貨幣を手に触るる毎に一々消毒するという事は何人といえども不可能である。<br><br>しからばこの問題はいかにして解決すべきやという事であるが、それは容易である。<br><br>すなわち病菌が体内に侵入しても発病しないという健康体になる事である。<br><br>しからはその様な健康体になり得るかというに、私の創成した健康法によれば可能である。<br><br> しかしながら、病菌は医学でとなうるごとく恐ろしいものであるかというに、それ程ではない事を左のごとき調査報告によって証し得るのである。<br><br> それは、昭和十年九月三日の読売新聞の記事によれば、「東京におけるバタ屋すなわち屑を扱う人間が一万二千人程いるが、市社会局では昨年十二月中旬、足立区を中心として認可のある屑物買入所所属の拾い子について詳細な調査を行ったが、二日その結果を発表した。<br><br>それによると、あれ程不衛生な仕事に従事していながら、彼等の間に伝染病その他の病人の少ない事は意外である。<br><br>そうして調査人員二千四百十五人の中、女子は僅かに六十人の少数であった。<br><br>調査人員の年齢は三十一歳から五十歳に至るものが一二九九人を数えて、全員の過半数を占めている。<br><br>健康状態は、慢性胃腸病患者が最も多く、次にアルコール中毒者という順序である。<br><br>そうして、伝染病、肺結核、性病が割合少ないのである。<br><br>すなわち二四一五人のうち、健康なるもの二一二三人、虚弱者八十五人、老衰者五十八人、不具者三十五人、廃疾八十五人、その他の疾病三十二人となっている 右の調査によってみても明らかなるごとく、病菌による伝染病はほとんど無いといい得る程である。<br><br>しかも二六時中最も病菌に接触すべき職業者にしてかくのごとしとすれば、その意外なるに驚かざるを得ないのである。<br><br> そうして一体この世に存在する限りのいかなるものといえども、人間に不必要なものはない筈である。<br><br>もし必要のための存在であったものが人類の進化によって不必要となる時代になれば、そのものは自然淘汰されて滅消さるべきが真理である。<br><br>故に人間が無用とか有害とかいうのは、そのものの存在理由が不明であるからである。<br><br>すなわち人類文化がそれを発見するまでに進歩していないからである。<br><br>この意味において、あらゆる病菌といえども人類の生存上有用の存在でなくてはならない筈である。<br><br> そもそも伝染病といえども、他の疾患と等しく浄化作用であって、ただ伝染病においてはその浄化がすこぶる強烈であり、従って、急速に生命を奪われるために人間は怖れるのである。<br><br>しからばいかなる理由によって伝染病は強烈であるかを説いてみよう。<br><br> 人体血液中の汚濁がある程度濃厚になった場合、汚濁の排除作用が発生する理由は既説の通りである。<br><br>その排除作用を一層促進すべき必要が病菌の存在理由となるのである。<br><br> 病菌がまず食物または皮膚面から侵入するや病菌といえども生物である以上、食生活に依らなければ生命を保持し、種族の繁殖を計る事の出来ない事は他の一般動物と同様である。<br><br>しからば病菌の食物とは何ぞやというと、それは血液中にある汚濁である。<br><br>従って濁血多有者程病菌の繁殖に都合の好い状態に置かれている訳である。<br><br>この理由によって発病者と未発病者との区別は、すなわち発病者は濁血者であり、不発病者は浄血者であるという事になる。<br><br>また保菌者というのは濁血少量者であって、病菌が繁殖する程でもなく、死滅する程でもないという中間的状態である。<br><br> 以上の意味によって病菌なるものは人間中の濁血保有者に対し、速かなる浄血者たらしめんがための掃除夫ともいうべきものである。<br><br>このような有用微生物を、医学は強力なる逆理的浄化停止を行う以上、死を招く結果となるのである。<br><br>それのみではない。<br><br>医学は免疫と称して種々の伝染病の予防注射を行うが、これがまた人間の浄化力を弱らせ体力低下の因となるのである。<br><br> ここで注意すべき事がある。<br><br>近来、膝下に小腫物の発生するものが多いが、これは、予防注射の薬毒が下降し溜結し排除されんとするためで、放任しておけば自然治癒するからなんら心配する必要はない。<br><br> 医学においては、白血球が赤血球中の病菌に対し食菌作用を行うというが、右の原理を知る以上問題にはならないであろう。<br><br>また世人が非常に嫌う蝿なども、血液掃除夫を運搬するのであるから、彼もまた人間にとって重要なる存在であるがそれは現在濁血者が多いからで、将来浄血者が多数になれば蝿の存在理由が無くなるから自然淘汰さるる訳である。<br><br> 私は伝染の名を誘発ととなえるが本当と思う。<br><br>本療法は濁血者を浄血者たらしむるのであるから、本療法が普及するに従い伝染病は漸次減少する事は必定である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre as Doenças Contagiosas e os Micróbios</h2>
 <p>A medicina contemporânea postula que a causa de praticamente todas as enfermidades reside nos micróbios. Aqueles de dimensões tão ínfimas que escapam até mesmo à observação microscópica são denominados “vírus filtráveis”.</p>
@@ -128,5 +280,48 @@ function toggleLang(lang) {
 <p>Há um ponto que merece atenção. Recentemente, muitas pessoas têm apresentado pequenos nódulos na região dos joelhos. Trata-se de toxinas das vacinas que desceram, se acumularam e agora estão sendo expelidas. Não há motivo para preocupação, pois, se deixados em paz, eles se curarão naturalmente.</p>
 <p>A medicina afirma que os glóbulos brancos exercem uma ação fagocitária contra os micróbios presentes nos glóbulos vermelhos, mas, uma vez que se compreende o princípio que acabo de expor, tal teoria perde sua relevância. Até mesmo as moscas, tão detestadas pelas pessoas, são, na verdade, transportadoras desses faxineiros do sangue e, por isso, também desempenham um papel importante para a humanidade. Elas existem porque há muitas pessoas com o sangue impuro. No futuro, quando a maioria tiver o sangue puro, as moscas perderão sua razão de ser e serão naturalmente extintas.</p>
 <p>Por essa razão, considero que o termo “indução” é mais apropriado que “contágio”. Nosso método de saúde visa precisamente transformar pessoas de sangue impuro em pessoas de sangue puro. Portanto, à medida que ele se difundir, é inevitável que as doenças contagiosas diminuam gradualmente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伝染病と黴菌 『天国の福音』昭和22(1947)年2月5日発行 今日医学においては病原はことごとくといいたい程黴菌によるとされている。<br/><br/>そうして微小にして顕微鏡でも見る事を得ない黴菌を濾過性黴菌と称している。<br/><br/> 医学における解釈は次のごときものである。<br/><br/> 「感冒、ジフテリヤ、百日咳、麻疹、流行性耳下腺炎等の病気は、泡沫伝染という事になっている。<br/><br/>これは戸を閉め切った室内や乗物の中で、患者のくしゃみや咳嗽の際など、霧のごとく唾と一諸に飛出し、空気中に浮遊しているのを吸込んで感染するのである。<br/><br/>そうして老人は比較的免疫になっており、青年特に小児が侵されやすく、患者に一メートル以上接近してはならない」という事になっている。<br/><br/>かようにほとんどの病気は黴菌によるというのであるから、これを信ずるとしたら現代人は生きて行く事さえ恐怖の極みである。<br/><br/> もし医学がいうごとくでありとすれば、社会生活などは到底不可能であろう。<br/><br/>まず汽車、電車へ乗る事は危険である。<br/><br/>隣の乗客は何かの伝染性病気に罹っているかも知れない。<br/><br/>窓を閉め切れば満員の際など少なくとも数人以上の結核患者はもちろん他の伝染性患者もいるであろうから、空気伝染の危険は免れ得ない。<br/><br/>また人と談話する事も危険である。<br/><br/>先方は伝染性疾患を保有しているかも知れない。<br/><br/>といって一々三尺以上はなれるという事は実際上不可能である。<br/><br/>その他劇場、映画館等多数人のいる所は危険千万である――という訳になろう。<br/><br/> 故に、医学の理論を信奉するとすれば、まず社会と全く絶縁しなければならない。<br/><br/>すなわち山奥の一軒家か、海上遥か沖合に出で船住居をするより他に理想的方法はないであろう。<br/><br/>吾々が割合恐怖感に捉われないで生活し得るという事は医学の説を丸呑みにしないからである。<br/><br/> そうして右のごとき空気伝染以外一層危険であるのは、銭湯へ入浴する事はもちろん、手指の接触による場合、すなわち電車の吊皮、扉のハンドルまたは貨幣であろう。<br/><br/>特に貨幣が多数人の手指に触るる関係上黴菌の巣窟ともいうべく最も危険とみなければならない。<br/><br/>これについて左のごとき調査報告を示してみよう。<br/><br/> 「北大医学部衛生学教室阿部三史学士が、郵便局、銀行、市場、デパート、食堂、食料品店、個人等多く利用されるところから十円札、五十銭銀貨、拾銭白銅、拾銭ニッケル、一銭銅貨等取り交ぜ三百四十五個を集めその銀貨なり、札なりに付着している黴菌を研究した結果、左のごとく大腸菌、パラチフス菌、葡萄球菌、コレラ菌、分裂菌等々、数えきれない程の黴菌が付着していた。<br/><br/>これ等はいずれも人体に害を及ぼすもので、殊に小さな子供等が、無心で銅貨銀貨等をなめているなど大いに注意を要するものであり、一方多くの人は、銀貨、銅貨に、結核菌が付着していると思っているだろうが、阿部氏の研究では結核菌は案外少なく、人体に及ぼす程の偉力はないと言われている。<br/><br/> 「各種貨幣の黴菌数」（昭和十一年六月調査） まず拾円札、五拾銭、拾銭、一銭各一枚にどれだけの黴菌が付着しているかと言うと、 △ 拾円札には、普通黴菌が最高十六万九千百五個で 平均五万二千四百九十一個 △五拾銭銀貨には 平均千五百五十九個 △拾銭白銅には 二千四百七十個 △拾銭ニッケル白銅には 二千二百三個 △一銭銅貨には 千三十二個 等である。<br/><br/> 「病菌の種類と数」 更に大腸菌、チブス菌、パラチフス菌等がどれだけついているかと言えば―― △拾円礼には 五十四個 △五拾銭銀貨には 四個 △拾銭白銅には 三個 △拾銭ニッケル白銅には 一個 △一銭銅貨には 四個 ――等で、拾銭ニッケル白銅が他の貨幣より少ない事は、発行されて間もない事によるもので、なお一銭銅貨には比較的黴菌の付着数が少ない事は、銅自身が持っている殺菌性に依るものである。<br/><br/> 「場所と黴菌数」 しからば、どこで使われている貨幣に最も多くの黴菌が付いているかといえば、一番多いのが市場、次いで郵便局、日用雑貨品店、百貨店、食堂、菓子店、食料品店、個人所有等の順序になっており、個人所有が一番少ないが、これは財布の中に入れられている関係上空気が外部と異って流通しないため、付着した黴菌が培養されない為である」―― 以上によってみても、貨幣にはいかに多くのあらゆる病菌が付着しているかを識るであろう。<br/><br/>しかしながら貨幣を手に触るる毎に一々消毒するという事は何人といえども不可能である。<br/><br/>しからばこの問題はいかにして解決すべきやという事であるが、それは容易である。<br/><br/>すなわち病菌が体内に侵入しても発病しないという健康体になる事である。<br/><br/>しからはその様な健康体になり得るかというに、私の創成した健康法によれば可能である。<br/><br/> しかしながら、病菌は医学でとなうるごとく恐ろしいものであるかというに、それ程ではない事を左のごとき調査報告によって証し得るのである。<br/><br/> それは、昭和十年九月三日の読売新聞の記事によれば、「東京におけるバタ屋すなわち屑を扱う人間が一万二千人程いるが、市社会局では昨年十二月中旬、足立区を中心として認可のある屑物買入所所属の拾い子について詳細な調査を行ったが、二日その結果を発表した。<br/><br/>それによると、あれ程不衛生な仕事に従事していながら、彼等の間に伝染病その他の病人の少ない事は意外である。<br/><br/>そうして調査人員二千四百十五人の中、女子は僅かに六十人の少数であった。<br/><br/>調査人員の年齢は三十一歳から五十歳に至るものが一二九九人を数えて、全員の過半数を占めている。<br/><br/>健康状態は、慢性胃腸病患者が最も多く、次にアルコール中毒者という順序である。<br/><br/>そうして、伝染病、肺結核、性病が割合少ないのである。<br/><br/>すなわち二四一五人のうち、健康なるもの二一二三人、虚弱者八十五人、老衰者五十八人、不具者三十五人、廃疾八十五人、その他の疾病三十二人となっている 右の調査によってみても明らかなるごとく、病菌による伝染病はほとんど無いといい得る程である。<br/><br/>しかも二六時中最も病菌に接触すべき職業者にしてかくのごとしとすれば、その意外なるに驚かざるを得ないのである。<br/><br/> そうして一体この世に存在する限りのいかなるものといえども、人間に不必要なものはない筈である。<br/><br/>もし必要のための存在であったものが人類の進化によって不必要となる時代になれば、そのものは自然淘汰されて滅消さるべきが真理である。<br/><br/>故に人間が無用とか有害とかいうのは、そのものの存在理由が不明であるからである。<br/><br/>すなわち人類文化がそれを発見するまでに進歩していないからである。<br/><br/>この意味において、あらゆる病菌といえども人類の生存上有用の存在でなくてはならない筈である。<br/><br/> そもそも伝染病といえども、他の疾患と等しく浄化作用であって、ただ伝染病においてはその浄化がすこぶる強烈であり、従って、急速に生命を奪われるために人間は怖れるのである。<br/><br/>しからばいかなる理由によって伝染病は強烈であるかを説いてみよう。<br/><br/> 人体血液中の汚濁がある程度濃厚になった場合、汚濁の排除作用が発生する理由は既説の通りである。<br/><br/>その排除作用を一層促進すべき必要が病菌の存在理由となるのである。<br/><br/> 病菌がまず食物または皮膚面から侵入するや病菌といえども生物である以上、食生活に依らなければ生命を保持し、種族の繁殖を計る事の出来ない事は他の一般動物と同様である。<br/><br/>しからば病菌の食物とは何ぞやというと、それは血液中にある汚濁である。<br/><br/>従って濁血多有者程病菌の繁殖に都合の好い状態に置かれている訳である。<br/><br/>この理由によって発病者と未発病者との区別は、すなわち発病者は濁血者であり、不発病者は浄血者であるという事になる。<br/><br/>また保菌者というのは濁血少量者であって、病菌が繁殖する程でもなく、死滅する程でもないという中間的状態である。<br/><br/> 以上の意味によって病菌なるものは人間中の濁血保有者に対し、速かなる浄血者たらしめんがための掃除夫ともいうべきものである。<br/><br/>このような有用微生物を、医学は強力なる逆理的浄化停止を行う以上、死を招く結果となるのである。<br/><br/>それのみではない。<br/><br/>医学は免疫と称して種々の伝染病の予防注射を行うが、これがまた人間の浄化力を弱らせ体力低下の因となるのである。<br/><br/> ここで注意すべき事がある。<br/><br/>近来、膝下に小腫物の発生するものが多いが、これは、予防注射の薬毒が下降し溜結し排除されんとするためで、放任しておけば自然治癒するからなんら心配する必要はない。<br/><br/> 医学においては、白血球が赤血球中の病菌に対し食菌作用を行うというが、右の原理を知る以上問題にはならないであろう。<br/><br/>また世人が非常に嫌う蝿なども、血液掃除夫を運搬するのであるから、彼もまた人間にとって重要なる存在であるがそれは現在濁血者が多いからで、将来浄血者が多数になれば蝿の存在理由が無くなるから自然淘汰さるる訳である。<br/><br/> 私は伝染の名を誘発ととなえるが本当と思う。<br/><br/>本療法は濁血者を浄血者たらしむるのであるから、本療法が普及するに従い伝染病は漸次減少する事は必定である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

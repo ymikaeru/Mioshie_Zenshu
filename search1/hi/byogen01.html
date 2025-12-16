@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byogen01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病原としての細菌 『結核の革命的療法』昭和26(1951)年8月15日発行 近代医学においては、病原のほとんどは細菌とされている。<br><br>従って細菌の伝染を防ぎさえすれば、病に罹らないとする建前になっているが、一体細菌というものは、いかなるものであるか、これが徹底的に究明されなければならない。<br><br>すなわち細菌とは何の理由によって、どこから発生されたものであるか、まずこの根本が判らない限り、真の医学は確立するはずはないのである。<br><br>いくら微小な細菌であっても、突如として偶発的に湧いたものではない。<br><br>湧く理由があり、発生源があるべきである。<br><br>ところが医学においては、細菌の伝染経路を調べるだけで、その先の根本を判ろうとしない。<br><br>つまりそこまでには達していないからで、現在はその中途まで判っただけでしかない。<br><br>ただ菌の伝染によって病気が発生するというだけでは、いわば一種の結果論にすぎない。<br><br>単なる顕微鏡の発達によって微小なものを捉え、それが病原と判ったので、有頂天になってしまい、それを基本として研究を進めて来たのが、現在の黴菌医学であってみれば、吾々からみる時はなはだ浅薄極まるものと言えよう。<br><br>どうしても黴菌発生の根源にまで突進んで、その実体を把握しなければならないのはもちろんである。<br><br>しかし、学者によっては、そこに気が付かない訳はなかろうが、それを知るには肝腎な方法がいまだ発見されていないから、止むを得ないのである。<br><br>そうして顕微鏡の進歩も、これ以上は容易な業ではないのみか、実はこれから先の領域は、機械での測定は不可能である。<br><br>何となれば無に等しい世界であるからで、私はこれを名付けて無機質界という。<br><br>しかし真の無ではない事は学者も認めており、何かしら確かに在るには違いないとは想像しているが、その実体が判らない。<br><br>ただ僅かに掴み得たものが彼のヴィールスである。<br><br>としたら黴菌医学はまだ揺藍時代の域を脱していないと言えよう。<br><br>もっともこれにも理由がある。<br><br>というのは右の無機質界は、前述のごとく科学の分野ではなく、言わば科学と宗教との中間帯であるからで、実はこの中間帯こそ黴菌発生の根源地であって、空気よりもずっと稀薄な元素の世界である。<br><br>それをこれから解明してみよう。<br><br> 右のごとく、病原の本体である黴菌の発生源が無機質界に在るとしたら、現在のごとき唯物医学では、到底病理の解明などは、木によって魚を求むるようなものである。<br><br>としたら今後いかに研究を続けても、百年河清（かせい）を待つに等しい無益な努力でしかあるまい。<br><br> 以上のように、私は思い切って医学の盲点を指摘したが、もちろん人類救済の目的以外他意はないので、もしこの発見がなかったとしたら、人類の未来は逆睹（ぎゃくと）し難いものがあろう。<br><br>この意味において私の説を肯定し、医学が再出発をするとしたら、病なき世界の実現は決して難事ではないのである。<br><br>ゆえによしんばこの説が全世界の学者、智識人から反対され、非難せられ、抹殺されるかも知れないが私は敢然として、真理の大旆（たいはい）を翳（かざ）して進むのみである。<br><br> とはいうものの学者の中には、私の説に驚嘆し、瞠目（どうもく）し、共鳴するものも必ずあるには相違ない。<br><br>何となればもし百年前に空飛ぶ飛行機、千里の先の話を聞くラジオ、一瞬にして何百万の人間を屠るという原子爆弾の話をしたとしても、誇大妄想狂として、一人の耳を傾ける者もなかったであろう。<br><br> ここに、先覚者の悩みがある。<br><br>しかし私の説は真理であり、しかも事は人間生命の問題である以上、いかなる偉大なる発明発見といえども、これに比すべきものはあるまい。<br><br>としたら全世界の医学者に訴えたいのは、私の説を既成学問に捉われる事なく、白紙となってベルグソンのいわゆる直観の眼をもって見られん事である。<br><br> (注) 逆睹（ぎゃくと）あらかじめ将来を見越すこと。<br><br>予測。<br><br> 大旆（たいはい）堂々とした旗印。<br><br>昔、中国で天子または将軍が用いた、日月と昇竜・降竜を描いた大きな旗。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Bactéria como Agente Patogênico</h2>
 <p>A medicina moderna considera que a maioria das doenças tem sua origem em bactérias. Consequentemente, seu alicerce se firma na premissa de que, ao se impedir o contágio, previne-se o adoecimento. Contudo, é imperativo questionar a natureza intrínseca das bactérias. Sem uma investigação aprofundada sobre a razão e a procedência de seu surgimento, a verdadeira medicina jamais poderá ser estabelecida. Por mais minúscula que seja uma bactéria, ela não emerge do nada, de forma súbita e acidental; devem existir um motivo para sua existência e uma fonte de onde ela se origina. A medicina atual, no entanto, limita-se a investigar as vias de transmissão, sem se aprofundar na causa primordial, pois seu conhecimento ainda não alcançou tal patamar. Encontra-se, portanto, a meio caminho da compreensão.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Não obstante, estou certo de que, entre os estudiosos, haverá aqueles que se sentirão admirados, estupefatos e em profunda sintonia com minha tese. Afinal, se há um século alguém falasse de aviões que voam, de rádios que permitem ouvir conversas a milhares de quilômetros de distância ou de uma bomba atômica capaz de aniquilar milhões de pessoas em um instante, seria taxado de megalomaníaco, e ninguém lhe daria ouvidos.</p>
 <p>Nisto reside o fardo do pioneirismo. Contudo, sendo a minha tese a própria Verdade e versando sobre a questão da vida humana, nenhuma outra invenção ou descoberta, por mais grandiosa que seja, poderá jamais se comparar a ela.</p>
 <p>Assim sendo, o apelo que faço aos médicos e cientistas de todo o mundo é que analisem minhas palavras não com os olhos da ciência estabelecida, mas com uma mente receptiva, valendo-se daquilo que Bergson denominou o olhar da intuição.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病原としての細菌 『結核の革命的療法』昭和26(1951)年8月15日発行 近代医学においては、病原のほとんどは細菌とされている。<br/><br/>従って細菌の伝染を防ぎさえすれば、病に罹らないとする建前になっているが、一体細菌というものは、いかなるものであるか、これが徹底的に究明されなければならない。<br/><br/>すなわち細菌とは何の理由によって、どこから発生されたものであるか、まずこの根本が判らない限り、真の医学は確立するはずはないのである。<br/><br/>いくら微小な細菌であっても、突如として偶発的に湧いたものではない。<br/><br/>湧く理由があり、発生源があるべきである。<br/><br/>ところが医学においては、細菌の伝染経路を調べるだけで、その先の根本を判ろうとしない。<br/><br/>つまりそこまでには達していないからで、現在はその中途まで判っただけでしかない。<br/><br/>ただ菌の伝染によって病気が発生するというだけでは、いわば一種の結果論にすぎない。<br/><br/>単なる顕微鏡の発達によって微小なものを捉え、それが病原と判ったので、有頂天になってしまい、それを基本として研究を進めて来たのが、現在の黴菌医学であってみれば、吾々からみる時はなはだ浅薄極まるものと言えよう。<br/><br/>どうしても黴菌発生の根源にまで突進んで、その実体を把握しなければならないのはもちろんである。<br/><br/>しかし、学者によっては、そこに気が付かない訳はなかろうが、それを知るには肝腎な方法がいまだ発見されていないから、止むを得ないのである。<br/><br/>そうして顕微鏡の進歩も、これ以上は容易な業ではないのみか、実はこれから先の領域は、機械での測定は不可能である。<br/><br/>何となれば無に等しい世界であるからで、私はこれを名付けて無機質界という。<br/><br/>しかし真の無ではない事は学者も認めており、何かしら確かに在るには違いないとは想像しているが、その実体が判らない。<br/><br/>ただ僅かに掴み得たものが彼のヴィールスである。<br/><br/>としたら黴菌医学はまだ揺藍時代の域を脱していないと言えよう。<br/><br/>もっともこれにも理由がある。<br/><br/>というのは右の無機質界は、前述のごとく科学の分野ではなく、言わば科学と宗教との中間帯であるからで、実はこの中間帯こそ黴菌発生の根源地であって、空気よりもずっと稀薄な元素の世界である。<br/><br/>それをこれから解明してみよう。<br/><br/> 右のごとく、病原の本体である黴菌の発生源が無機質界に在るとしたら、現在のごとき唯物医学では、到底病理の解明などは、木によって魚を求むるようなものである。<br/><br/>としたら今後いかに研究を続けても、百年河清（かせい）を待つに等しい無益な努力でしかあるまい。<br/><br/> 以上のように、私は思い切って医学の盲点を指摘したが、もちろん人類救済の目的以外他意はないので、もしこの発見がなかったとしたら、人類の未来は逆睹（ぎゃくと）し難いものがあろう。<br/><br/>この意味において私の説を肯定し、医学が再出発をするとしたら、病なき世界の実現は決して難事ではないのである。<br/><br/>ゆえによしんばこの説が全世界の学者、智識人から反対され、非難せられ、抹殺されるかも知れないが私は敢然として、真理の大旆（たいはい）を翳（かざ）して進むのみである。<br/><br/> とはいうものの学者の中には、私の説に驚嘆し、瞠目（どうもく）し、共鳴するものも必ずあるには相違ない。<br/><br/>何となればもし百年前に空飛ぶ飛行機、千里の先の話を聞くラジオ、一瞬にして何百万の人間を屠るという原子爆弾の話をしたとしても、誇大妄想狂として、一人の耳を傾ける者もなかったであろう。<br/><br/> ここに、先覚者の悩みがある。<br/><br/>しかし私の説は真理であり、しかも事は人間生命の問題である以上、いかなる偉大なる発明発見といえども、これに比すべきものはあるまい。<br/><br/>としたら全世界の医学者に訴えたいのは、私の説を既成学問に捉われる事なく、白紙となってベルグソンのいわゆる直観の眼をもって見られん事である。<br/><br/> (注) 逆睹（ぎゃくと）あらかじめ将来を見越すこと。<br/><br/>予測。<br/><br/> 大旆（たいはい）堂々とした旗印。<br/><br/>昔、中国で天子または将軍が用いた、日月と昇竜・降竜を描いた大きな旗。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

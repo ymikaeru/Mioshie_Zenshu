@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 『地上天国』10号、昭和24(1949)年11月20日発行 【問】二十二年度国勢調査の結果にみても婦人に長命が多いのはなぜでしょう。<br><br> 【答】一家を支える主人すなわち父親のほうが一番身体を大事にするゆえ早死にする。<br><br>大事にする息子ほど弱いし、どうでもいいと思う子供は丈夫である。<br><br>いままでの健康法は逆であったのだ。<br><br>故に体はうっちゃっておいたほうが長命である。<br><br> 【問】音楽もそれを弾く人の想念によって言霊のような働きをなすものでしょうか。<br><br> 【答】勿論そうである。<br><br>器楽を通じて指先からその人の霊が音律へ入ってゆく。<br><br>笛など息から入る。<br><br>故に音楽でも人格者や、信仰のある人のは感じよい。<br><br>ラジオでもその人の霊がラジオを通じて働く。<br><br>しゃべる声なども大いに影響する。<br><br>ある地点にいて私がしゃべる言葉は全世界にひびく。<br><br>どこでもとは言えぬ、その位置により違う。<br><br>霊界には所々に高天原があり、都会もある。<br><br>熱海、箱根も高天原である。<br><br>そこでしゃべることは日本中へひびく。<br><br>以前東京丸の内の中央亭でときどき講話をした。<br><br>丸の内は◎で、その中央で大いに意味がある。<br><br>いま、そのとき話したことが日本中に実現しつつある。<br><br> 【問】二十六歳の男（信者）全国珠算競技に第一位を得た人ですが、「七桁」の暗算は会話をしながら隣りの部屋で読み上げたのを違いなく寄せ、「八桁」になると耳を澄まさないといけないそうです。<br><br>実にすばらしい才能と存じます。<br><br>霊的になにか原因がありましょうか。<br><br>また天才とはいかなる理由に因るのでしょうか。<br><br> 【答】このような人は計算の方面にすごい頭脳が働くので、生まれ変わるたびに計算の仕事をするので、特に発達したものである。<br><br>ふつう二十年か三十年の経験でそうなるのが何百年もやるわけになる。<br><br>天才はすべてそうである。<br><br>人間の頭脳は使えば使うほど発達する。<br><br>無限である。<br><br>であるから何十万年も経てばどんなに人智は発達するか判らない。<br><br>人間か神か判らないほどに発達する。<br><br> 【問】西洋人の生まれ変わりがあるとのこと、その霊は西洋のほうから来るのでしょうか。<br><br>また西洋人にも日本人の生まれ変わりがありましょうか。<br><br> 【答】どちらもある。<br><br>アメリカ人など日本人の生まれ変わりがずいぶんたくさんある。<br><br>以前西部劇の有名な映画俳優でロローというのがあったが、日本人そっくりだ。<br><br>例えば外人で日本へ来た者、日本人の妻君をもった者が、その因縁で死後日本へ憧れ生まれてくる。<br><br>日本人でもアメリカに憧れたものはアメリカ人として生まれるのである。<br><br> 【問】代々仏教の家にて母がキリスト教に帰依しており、死後キリスト教で祀ってほしいと申しますがいかがいたしたらよろしいでしょうか。<br><br> 【答】無論そうしなければいけない。<br><br>すべて生前信仰していた宗教に祀るべきである。<br><br> 【問】自由主義の世になり、婦人の社会進出が目覚ましくなってきましたがその正しいあり方について。<br><br> 【答】女は原則として家庭を治め、子供を産み、育てるのが本来の使命である。<br><br>しかし封建時代は、あまりに女性を認めなさすぎ、不公平であったから、神様はいままでより権利を与えてくだされたのである。<br><br>しかし外で働く女性もなくてはならぬ。<br><br>勿論少数は必要である。<br><br>代議士になる女性はそういう意味である。<br><br>東洋は経であり、西洋は緯が本来であるが、五六七の世になると東洋はいま少しく婦人は上へ行き、西洋はいま少し下へ行くこととなりちょうどよくなるのである。<br><br> 【問】老人と若夫婦との同居と別居はどちらがよろしいでしょうか。<br><br> 【答】別居のほうが本当である。<br><br>子供が成年になれば親から離れるのが本当である。<br><br>動物でも歩けるようになれば離れる。<br><br>あまり長く親の傍にいると子供の活動力が伸びない。<br><br> 【問】お道の会員や患者にしても婦人の方が多いのはなぜでしょうか。<br><br> 【答】女のほうが第六感が働く。<br><br>男は六感が鈍い。<br><br>信仰は六感の働くほうが判りが早い。<br><br>また上流の人ほど六感の働き方が鈍いから入信しない。<br><br>たいてい二の足をふむ。<br><br>これは副守護神の物質欲が強いので、入信を止めるのである。<br><br> 【問】妻が妊娠の場合、夫が悪阻の状態をする例があり、その場合妻はなにごともなく平気でおりますが、これはいかなるわけでしょうか。<br><br>また一般夫婦の場合、お互いの浄化を引き受け合うようなことがあるでしょうか。<br><br> 【答】これはあたりまえで、夫婦の霊線が一番強く太いから、妻の悪阻は夫が引き受ける。<br><br>反対に夫に罪があって浄化をせねばならぬが、夫が浄化のため一家の生活に困る場合、それを妻が引き受ける場合もあり、親の浄化を子供が引き受けることもある。<br><br>ひどいのは子供の生命まで犠牲にする場合もある。<br><br> 【問】現在三十五歳の婦人、娘を連れて再婚、一年ほど前より月経停止、それより体の調子悪く、同時くらいよりお乳が出るようになり、搾（しぼ）ればいまでも出るそうです。<br><br>主人は先妻との間に一子ができたが、産後二、三日で他界、先妻のほうでも主人のほうでもこれを祭ってないとのことです。<br><br>お乳の出るのと死んだ子供との間になにか霊的関係がありましょうか。<br><br> 【答】子供の霊が祀ってないため、後妻であるこの人に憑いた。<br><br>赤児は乳を飲みたいので祖霊の中の正守護神が霊的の乳を出して霊の子供に飲ませる。<br><br>それがいくらか物質化して現実の乳となると解釈すべきである。<br><br>早く祀らないといろいろなことをやる。<br><br>肩がはる場合、赤児の霊がおぶさることがよくある。<br><br>乳にブラ下がることもある。<br><br>そういう場合も赤児の霊が吸うからいくらか乳が出る。<br><br>以前悲しくもないのに涙が出る人があった。<br><br>この人は流産したのが祀ってなかった。<br><br>それを教えてやったらその場で気持ちよくなった。<br><br>これは流産した子供が憑いていた。<br><br> 【問】夫婦で妻の縁類のほうは次々と御教修をいただきますが、主人のほうはいっこうにいただかない場合がありますがいかなるわけでしょうか。<br><br> 【答】霊統の関係である。<br><br>こういうのは妻君の霊統に因縁あり、その多くはその霊統の祖先のうちに熱心な観音様を信仰している人のあるためで話が判りやすく、その霊が手伝うからそういう信仰の人は成績がよい。<br><br> 【問】御簾（みす）の由来について。<br><br> 【答】以前偉い人特に天皇が家来に会う場合簾（すだれ）を垂れた。<br><br>貴人を崇める形式である。<br><br>床の間もそういう意味のものである。<br><br>神武天皇以前はそうであったらしい。<br><br>それが自然に民主的になり、簾なしにお目にかかれることになった。<br><br>昔のお雛様などみても高く四角い所へ畳を敷いて縁に模様があり、それに座して簾を垂れる。<br><br>天理教主などはいまでも簾の中からお授けするそうである。<br><br> 【問】道祖神について。<br><br> 【答】地蔵尊と同じもので、道六神とも言う。<br><br>昔、道を造った人を祭ったものもある。<br><br>道しるべの神である。<br><br> 【問】ある信者の家庭で地上天国の御文字の御額の付近の天井で、四、五晩パリパリと木の裂けるような大きな音がいたし、無気味に思っておりましたところ、ある日御額の御文字の左肩が五、六寸突然剥げました。<br><br>なにかお示しでしょうか。<br><br>経師屋も実に不思議だと申しております。<br><br> 【答】悪魔が苦しいから剥がしたものであろう。<br><br>文字まではさすがに恐ろしく剥がさなかったのである。<br><br> 【問】昭和二十二年入信し、二十四年一月御神体をお迎え申し上げました。<br><br>今回次の神様を処分いたしたく思いますがいかなる方法にしたらよろしいでしょう。<br><br> （イ）井戸神様――井戸の傍にあり、毎年一回氏神様よりへイシンの入れ替えをする。<br><br> （ロ）荒神様――屋内。<br><br> （ハ）神明様――屋外、鏡の裏は天照大神の文字を記してある。<br><br> など合計一一神あるが略す。<br><br> 【答】これは整理したほうがよい。<br><br>ていねいにやれば一つ一つ大御酒（おみき）をあげ、お供えものして祝詞を奏げ、口頭にて今度光明如来様をお迎えしたため元の御座（みくら）にお帰り願います。<br><br>長い間〔の〕御守護の御礼を言い、翌日処分すればよい。<br><br>置いておく神は一柱もない。<br><br>大黒様は光明如来様の前、向かって右に台を作って安置する。<br><br>妙西禅尼は戒名をつけて仏壇へ祭ってやる。<br><br>鏡はしまっておけばよい。<br><br>これなどはまだ少ないほうで、多いのになると三十も四十も祀っているのがある。<br><br>いつも言う通りいままで神の力が薄い細い糸のようなもので、一本では心細いから何本もまとめて太くしてつかまるのである。<br><br>光明如来様なら一本でも太いから安心というわけである。<br><br> 【問】建築の場合、棟木を継ぎ合わせるとき、頭と頭を継ぎ合わせると長男に障ると申しておりますが、なにかわけがありましょうか。<br><br> 【答】これは尾と頭、尾と頭と繋ぐのが本当で、切った木でもなお霊が残っているからである。<br><br>すべて逆は不可である。<br><br>だから私など部屋に品物を置くにも法にかなった置き方をする。<br><br>よく神様の本の上に小説などを置くとなにか障りがある。<br><br>すべてに順序がある。<br><br>以前宝山荘にいたころ、ある部屋へ入るとだれでも気持ちが悪くなる。<br><br>これも調べてみると私の色紙の上に普通人のかいた色紙がのせてあって、順序が間違っていたので、取り除いたらなんともなくなった。<br><br>よく階段の上から目下に挨拶されるときは困るので、私は急いでその人の位置まで上って挨拶をする。<br><br>あらゆるものに法がある。<br><br>言葉でも仕事でもそうである。<br><br>木なども格のある木とないのとあり、格のあるのは庭の上座に植える。<br><br>私の造る庭はそういう点に注意してあるから、気持ちがよいのである。<br><br>言葉に順逆がある。<br><br>心得ていると自然人に好感を持たせる。<br><br>「法にかなう」とはそのことを言うのである。<br><br>いまの世の中で政治でも人事一般がうまくゆかないのはそういう点がでたらめであるからである。<br><br> 【問】栃木県芳賀郡逆川村のある家で、「こんにゃく」の花が咲くごとに家人が死亡しておりますが、なにか関係がございましょうか。<br><br>また「こんにゃく玉」を盗んで栽培いたしましても育たず、なお他人の土地へは繁殖しませんが、なにか原因がありましょうか。<br><br> 【答】なにか霊的のものだ。<br><br>蒟蒻玉というのはよほど意志のあるものと思われる。<br><br>植物によっては動物的のものもある。<br><br>これは意志のある植物で、霊的というよりむしろ神秘的である。<br><br>以前植木屋に聞いて試したが人語の判る植物がよくある。<br><br>花が咲かないので今年咲かないと切ってしまうと言うと必ず咲く、実に不思議である。<br><br>壇の上を小児の形をしたものが多数踊っているのが見える人がある。<br><br> これは妖精と言って西洋に多くある。<br><br>これらは植物と動物と密接したものである。<br><br>淋病の淋菌「ゴノコッケン」は動物性のときは伝染するが、時が経つと菌が苔のように植物性になると伝染しない。<br><br>これが酒などのむとまた動物化するのである。<br><br> 【問】歯石が早くできる人と遅い人とがありますがどんな原因でしょうか。<br><br> 【答】歯石のたまる人は歯が軟らかいからで、軟らかいのは弱いからで、ということは身体が弱っているからである。<br><br>最近小学生は九割虫歯があると言うから、いかに弱体であるか寒心に堪えないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Vida Cotidiana e o Mundo Espiritual</h2>
 <p><strong>Pergunta:</strong> De acordo com os resultados do censo nacional de 1947, por que as mulheres apresentam maior longevidade?</p>
@@ -128,5 +280,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> Trata-se de um fenômeno espiritual. O tubérculo de <em>konnyaku</em> parece possuir uma vontade muito forte. Algumas plantas manifestam características animais. Esta é uma planta dotada de vontade, um fenômeno mais misterioso do que meramente espiritual. Certa vez, ouvi de um jardineiro e fiz o teste: há muitas plantas que compreendem a linguagem humana. Se uma delas não floresce e você a adverte de que será cortada caso não floresça naquele ano, ela infalivelmente florescerá. É verdadeiramente intrigante. Há pessoas que conseguem ver inúmeras figuras com forma de crianças dançando sobre o altar. São as fadas, mais comuns no Ocidente. Elas representam uma estreita conexão entre o reino vegetal e o animal. A bactéria da gonorreia, o gonococo, é contagiosa em seu estado animal. Com o tempo, porém, ela se torna semelhante a um musgo, assumindo uma natureza vegetal, e deixa de ser contagiosa. O consumo de álcool, por exemplo, pode fazê-la reverter ao seu estado animal.</p>
 <p><strong>Pergunta:</strong> Por que algumas pessoas acumulam tártaro nos dentes mais rapidamente que outras? Qual a causa?</p>
 <p><strong>Resposta:</strong> O acúmulo de tártaro ocorre em pessoas cujos dentes são mais frágeis. Dentes frágeis indicam debilidade, o que, por sua vez, reflete um corpo enfraquecido. É alarmante saber que, atualmente, noventa por cento dos alunos do primário possuem cáries, o que demonstra o quão debilitada se tornou a saúde de nossa população.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 『地上天国』10号、昭和24(1949)年11月20日発行 【問】二十二年度国勢調査の結果にみても婦人に長命が多いのはなぜでしょう。<br/><br/> 【答】一家を支える主人すなわち父親のほうが一番身体を大事にするゆえ早死にする。<br/><br/>大事にする息子ほど弱いし、どうでもいいと思う子供は丈夫である。<br/><br/>いままでの健康法は逆であったのだ。<br/><br/>故に体はうっちゃっておいたほうが長命である。<br/><br/> 【問】音楽もそれを弾く人の想念によって言霊のような働きをなすものでしょうか。<br/><br/> 【答】勿論そうである。<br/><br/>器楽を通じて指先からその人の霊が音律へ入ってゆく。<br/><br/>笛など息から入る。<br/><br/>故に音楽でも人格者や、信仰のある人のは感じよい。<br/><br/>ラジオでもその人の霊がラジオを通じて働く。<br/><br/>しゃべる声なども大いに影響する。<br/><br/>ある地点にいて私がしゃべる言葉は全世界にひびく。<br/><br/>どこでもとは言えぬ、その位置により違う。<br/><br/>霊界には所々に高天原があり、都会もある。<br/><br/>熱海、箱根も高天原である。<br/><br/>そこでしゃべることは日本中へひびく。<br/><br/>以前東京丸の内の中央亭でときどき講話をした。<br/><br/>丸の内は◎で、その中央で大いに意味がある。<br/><br/>いま、そのとき話したことが日本中に実現しつつある。<br/><br/> 【問】二十六歳の男（信者）全国珠算競技に第一位を得た人ですが、「七桁」の暗算は会話をしながら隣りの部屋で読み上げたのを違いなく寄せ、「八桁」になると耳を澄まさないといけないそうです。<br/><br/>実にすばらしい才能と存じます。<br/><br/>霊的になにか原因がありましょうか。<br/><br/>また天才とはいかなる理由に因るのでしょうか。<br/><br/> 【答】このような人は計算の方面にすごい頭脳が働くので、生まれ変わるたびに計算の仕事をするので、特に発達したものである。<br/><br/>ふつう二十年か三十年の経験でそうなるのが何百年もやるわけになる。<br/><br/>天才はすべてそうである。<br/><br/>人間の頭脳は使えば使うほど発達する。<br/><br/>無限である。<br/><br/>であるから何十万年も経てばどんなに人智は発達するか判らない。<br/><br/>人間か神か判らないほどに発達する。<br/><br/> 【問】西洋人の生まれ変わりがあるとのこと、その霊は西洋のほうから来るのでしょうか。<br/><br/>また西洋人にも日本人の生まれ変わりがありましょうか。<br/><br/> 【答】どちらもある。<br/><br/>アメリカ人など日本人の生まれ変わりがずいぶんたくさんある。<br/><br/>以前西部劇の有名な映画俳優でロローというのがあったが、日本人そっくりだ。<br/><br/>例えば外人で日本へ来た者、日本人の妻君をもった者が、その因縁で死後日本へ憧れ生まれてくる。<br/><br/>日本人でもアメリカに憧れたものはアメリカ人として生まれるのである。<br/><br/> 【問】代々仏教の家にて母がキリスト教に帰依しており、死後キリスト教で祀ってほしいと申しますがいかがいたしたらよろしいでしょうか。<br/><br/> 【答】無論そうしなければいけない。<br/><br/>すべて生前信仰していた宗教に祀るべきである。<br/><br/> 【問】自由主義の世になり、婦人の社会進出が目覚ましくなってきましたがその正しいあり方について。<br/><br/> 【答】女は原則として家庭を治め、子供を産み、育てるのが本来の使命である。<br/><br/>しかし封建時代は、あまりに女性を認めなさすぎ、不公平であったから、神様はいままでより権利を与えてくだされたのである。<br/><br/>しかし外で働く女性もなくてはならぬ。<br/><br/>勿論少数は必要である。<br/><br/>代議士になる女性はそういう意味である。<br/><br/>東洋は経であり、西洋は緯が本来であるが、五六七の世になると東洋はいま少しく婦人は上へ行き、西洋はいま少し下へ行くこととなりちょうどよくなるのである。<br/><br/> 【問】老人と若夫婦との同居と別居はどちらがよろしいでしょうか。<br/><br/> 【答】別居のほうが本当である。<br/><br/>子供が成年になれば親から離れるのが本当である。<br/><br/>動物でも歩けるようになれば離れる。<br/><br/>あまり長く親の傍にいると子供の活動力が伸びない。<br/><br/> 【問】お道の会員や患者にしても婦人の方が多いのはなぜでしょうか。<br/><br/> 【答】女のほうが第六感が働く。<br/><br/>男は六感が鈍い。<br/><br/>信仰は六感の働くほうが判りが早い。<br/><br/>また上流の人ほど六感の働き方が鈍いから入信しない。<br/><br/>たいてい二の足をふむ。<br/><br/>これは副守護神の物質欲が強いので、入信を止めるのである。<br/><br/> 【問】妻が妊娠の場合、夫が悪阻の状態をする例があり、その場合妻はなにごともなく平気でおりますが、これはいかなるわけでしょうか。<br/><br/>また一般夫婦の場合、お互いの浄化を引き受け合うようなことがあるでしょうか。<br/><br/> 【答】これはあたりまえで、夫婦の霊線が一番強く太いから、妻の悪阻は夫が引き受ける。<br/><br/>反対に夫に罪があって浄化をせねばならぬが、夫が浄化のため一家の生活に困る場合、それを妻が引き受ける場合もあり、親の浄化を子供が引き受けることもある。<br/><br/>ひどいのは子供の生命まで犠牲にする場合もある。<br/><br/> 【問】現在三十五歳の婦人、娘を連れて再婚、一年ほど前より月経停止、それより体の調子悪く、同時くらいよりお乳が出るようになり、搾（しぼ）ればいまでも出るそうです。<br/><br/>主人は先妻との間に一子ができたが、産後二、三日で他界、先妻のほうでも主人のほうでもこれを祭ってないとのことです。<br/><br/>お乳の出るのと死んだ子供との間になにか霊的関係がありましょうか。<br/><br/> 【答】子供の霊が祀ってないため、後妻であるこの人に憑いた。<br/><br/>赤児は乳を飲みたいので祖霊の中の正守護神が霊的の乳を出して霊の子供に飲ませる。<br/><br/>それがいくらか物質化して現実の乳となると解釈すべきである。<br/><br/>早く祀らないといろいろなことをやる。<br/><br/>肩がはる場合、赤児の霊がおぶさることがよくある。<br/><br/>乳にブラ下がることもある。<br/><br/>そういう場合も赤児の霊が吸うからいくらか乳が出る。<br/><br/>以前悲しくもないのに涙が出る人があった。<br/><br/>この人は流産したのが祀ってなかった。<br/><br/>それを教えてやったらその場で気持ちよくなった。<br/><br/>これは流産した子供が憑いていた。<br/><br/> 【問】夫婦で妻の縁類のほうは次々と御教修をいただきますが、主人のほうはいっこうにいただかない場合がありますがいかなるわけでしょうか。<br/><br/> 【答】霊統の関係である。<br/><br/>こういうのは妻君の霊統に因縁あり、その多くはその霊統の祖先のうちに熱心な観音様を信仰している人のあるためで話が判りやすく、その霊が手伝うからそういう信仰の人は成績がよい。<br/><br/> 【問】御簾（みす）の由来について。<br/><br/> 【答】以前偉い人特に天皇が家来に会う場合簾（すだれ）を垂れた。<br/><br/>貴人を崇める形式である。<br/><br/>床の間もそういう意味のものである。<br/><br/>神武天皇以前はそうであったらしい。<br/><br/>それが自然に民主的になり、簾なしにお目にかかれることになった。<br/><br/>昔のお雛様などみても高く四角い所へ畳を敷いて縁に模様があり、それに座して簾を垂れる。<br/><br/>天理教主などはいまでも簾の中からお授けするそうである。<br/><br/> 【問】道祖神について。<br/><br/> 【答】地蔵尊と同じもので、道六神とも言う。<br/><br/>昔、道を造った人を祭ったものもある。<br/><br/>道しるべの神である。<br/><br/> 【問】ある信者の家庭で地上天国の御文字の御額の付近の天井で、四、五晩パリパリと木の裂けるような大きな音がいたし、無気味に思っておりましたところ、ある日御額の御文字の左肩が五、六寸突然剥げました。<br/><br/>なにかお示しでしょうか。<br/><br/>経師屋も実に不思議だと申しております。<br/><br/> 【答】悪魔が苦しいから剥がしたものであろう。<br/><br/>文字まではさすがに恐ろしく剥がさなかったのである。<br/><br/> 【問】昭和二十二年入信し、二十四年一月御神体をお迎え申し上げました。<br/><br/>今回次の神様を処分いたしたく思いますがいかなる方法にしたらよろしいでしょう。<br/><br/> （イ）井戸神様――井戸の傍にあり、毎年一回氏神様よりへイシンの入れ替えをする。<br/><br/> （ロ）荒神様――屋内。<br/><br/> （ハ）神明様――屋外、鏡の裏は天照大神の文字を記してある。<br/><br/> など合計一一神あるが略す。<br/><br/> 【答】これは整理したほうがよい。<br/><br/>ていねいにやれば一つ一つ大御酒（おみき）をあげ、お供えものして祝詞を奏げ、口頭にて今度光明如来様をお迎えしたため元の御座（みくら）にお帰り願います。<br/><br/>長い間〔の〕御守護の御礼を言い、翌日処分すればよい。<br/><br/>置いておく神は一柱もない。<br/><br/>大黒様は光明如来様の前、向かって右に台を作って安置する。<br/><br/>妙西禅尼は戒名をつけて仏壇へ祭ってやる。<br/><br/>鏡はしまっておけばよい。<br/><br/>これなどはまだ少ないほうで、多いのになると三十も四十も祀っているのがある。<br/><br/>いつも言う通りいままで神の力が薄い細い糸のようなもので、一本では心細いから何本もまとめて太くしてつかまるのである。<br/><br/>光明如来様なら一本でも太いから安心というわけである。<br/><br/> 【問】建築の場合、棟木を継ぎ合わせるとき、頭と頭を継ぎ合わせると長男に障ると申しておりますが、なにかわけがありましょうか。<br/><br/> 【答】これは尾と頭、尾と頭と繋ぐのが本当で、切った木でもなお霊が残っているからである。<br/><br/>すべて逆は不可である。<br/><br/>だから私など部屋に品物を置くにも法にかなった置き方をする。<br/><br/>よく神様の本の上に小説などを置くとなにか障りがある。<br/><br/>すべてに順序がある。<br/><br/>以前宝山荘にいたころ、ある部屋へ入るとだれでも気持ちが悪くなる。<br/><br/>これも調べてみると私の色紙の上に普通人のかいた色紙がのせてあって、順序が間違っていたので、取り除いたらなんともなくなった。<br/><br/>よく階段の上から目下に挨拶されるときは困るので、私は急いでその人の位置まで上って挨拶をする。<br/><br/>あらゆるものに法がある。<br/><br/>言葉でも仕事でもそうである。<br/><br/>木なども格のある木とないのとあり、格のあるのは庭の上座に植える。<br/><br/>私の造る庭はそういう点に注意してあるから、気持ちがよいのである。<br/><br/>言葉に順逆がある。<br/><br/>心得ていると自然人に好感を持たせる。<br/><br/>「法にかなう」とはそのことを言うのである。<br/><br/>いまの世の中で政治でも人事一般がうまくゆかないのはそういう点がでたらめであるからである。<br/><br/> 【問】栃木県芳賀郡逆川村のある家で、「こんにゃく」の花が咲くごとに家人が死亡しておりますが、なにか関係がございましょうか。<br/><br/>また「こんにゃく玉」を盗んで栽培いたしましても育たず、なお他人の土地へは繁殖しませんが、なにか原因がありましょうか。<br/><br/> 【答】なにか霊的のものだ。<br/><br/>蒟蒻玉というのはよほど意志のあるものと思われる。<br/><br/>植物によっては動物的のものもある。<br/><br/>これは意志のある植物で、霊的というよりむしろ神秘的である。<br/><br/>以前植木屋に聞いて試したが人語の判る植物がよくある。<br/><br/>花が咲かないので今年咲かないと切ってしまうと言うと必ず咲く、実に不思議である。<br/><br/>壇の上を小児の形をしたものが多数踊っているのが見える人がある。<br/><br/> これは妖精と言って西洋に多くある。<br/><br/>これらは植物と動物と密接したものである。<br/><br/>淋病の淋菌「ゴノコッケン」は動物性のときは伝染するが、時が経つと菌が苔のように植物性になると伝染しない。<br/><br/>これが酒などのむとまた動物化するのである。<br/><br/> 【問】歯石が早くできる人と遅い人とがありますがどんな原因でしょうか。<br/><br/> 【答】歯石のたまる人は歯が軟らかいからで、軟らかいのは弱いからで、ということは身体が弱っているからである。<br/><br/>最近小学生は九割虫歯があると言うから、いかに弱体であるか寒心に堪えないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

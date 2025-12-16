@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhatine2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 八年間の半身不随が 一時間の御浄霊で起上がる 『アメリカを救う』昭和28(1953)年1月1日発行 秋田県 十光中教会 佐良土雄一（19） 暗黒無明の地獄よりお救い頂き、一家歓喜の家庭にならせて頂きました。<br><br>この偉大な又深遠なる明主様の大御恵は筆や言葉には現わし得ませんが、私共と同じ病貧争に悩みおられる世の人々に、一日も早く一人でも多く、救世主であられる明主様の出現を御伝えさして頂き、そしてお救い頂ければ幸と思い、ここにその一端を申し述べさせていただきます。<br><br> 想えば今から十年前の昭和十七年二月のことでありました。<br><br>この時より、幸福でありました我家に無慈悲な病魔が舞込んだのでありました。<br><br>母が出産致してより産後の肥立ちが悪く入院致し、十一月に至るも何の効果もなく、下半身が不自由で起上る事が出来ずそのまま退院いたしました。<br><br>それからというものは次から次と医者を替えて、あらゆる医療を尽しましたが遂に起上る事が出来ず、暗黒の中に呻吟する事四年、戦争は益々激しくなり藤琴の実家に疎開致しました。<br><br> 私達兄弟三人は学校から帰ってまいりましても、母が暗い顔で床の中で休んでおられる姿を見ると胸がふさがるような気持で、楽しく遊ぶことも出来ませんでした。<br><br>祖母は心配の余りとうとう亡くなられました。<br><br>「何と言う不幸でしょう。<br><br>これが生きながらの地獄というものかしら」と母は毎日床の中で泣き暮したのでありました。<br><br> 父が朝早く起き、馴れぬ手つきで食事の支度をする姿を見る時、私達はどんなに悲しかったかわかりません。<br><br>友達の何の心配も無く遊んでいる姿を見て、どんなにうらやましく思った事でございましょう。<br><br> 川崎から疎開してまいりました叔母も、又子供達も次から次と重病にかかり、全くお医者さんと親戚のようなものでした。<br><br>それが大光明如来様にお縋りしてまず手の施しようもない重症と言われた叔母の子宮痛が癒り、子供の骨膜炎も癒りましたので、叔母は母の病気も治したいものと一生懸命御浄霊をして下さいましたのが二十四年九月の事でした。<br><br>一週間致しましても何の効果もございませんでした。<br><br>足掛八年間の業病がそんなに簡単に治るはずもないのでありますが、あらゆる治療に手を焼いた母は、もうすっかりあきらめ切っていたし、治療に対しては自暴自棄的な心情でいたのでございました。<br><br>でも奇蹟的に自分の重病をお救い頂きました叔母は、何とかして母をお救い戴きたいと、一心にお念じさせて頂いておりました。<br><br>その一念が通じたものか御浄霊を始めて八日目の朝ひょっこりと中田先生が訪ねて来て下さいました。<br><br>叔母は自分が御浄霊を頂きたかったのを後まわしにして私の母を治して下さるように頼んで下さいました。<br><br>その内時間も来ましたので私達は学校に行ってしまいました。<br><br>学校から帰ってまいりましたら、母が立って歩いているではありませんか。<br><br>信じ切れずに、夢かとばかり驚いたのでございます。<br><br>叔母から色々とお話を聞かして頂き、目に見えざる霊のため八年の長い間母が苦しめられていた事がわかったのでございます。<br><br>その霊とは、実家の四代前の方で、母には曾祖母に当る方でした。<br><br>二十歳で祖父を生み産後死亡したそうで、これが血の池地獄と言う所で百年近い長年月苦しまれておられたそうでございます。<br><br>実家では仏壇もよくまつり、供養もよくやっていながら救われずにそれ程苦しまれるとは、今までの宗教では、とても霊の救いは出来なかったのでございましようか。<br><br>宗教的知識のない私には分りませんが、八年の業病が霊界で苦しんでいられる霊の救いを求める姿であった事をきかされ、百年の苦しみをただ祝詞三回でお救い頂いた事実をきかされ、その結果として母は目の前で起ち上ったのでございます。<br><br>何という偉大なる御力でございましよう。<br><br>いかに科学が進歩しましても手の施しようもなきこの霊的な病気を、一時間で解決して下されました大神力には御礼のことばもございません。<br><br> 八年間寝た儀の母は、足もなえ果てて全く小児のごとく細くなっており、膝頭が油の切れたような調子でカチカチして思うように歩く事が出来ませんでしたが、一週間目には汽車に乗って大館の教会まで御守様をお受けしに行く約束をしたのでした。<br><br>父や叔父達は、「そんな無茶な事をするな」と大反対致しました。<br><br>中田先生から「神様に御救いを求めて行くのに、どんな困難な事がございましても絶対御守護を下される」とのお言葉を頂いているので、母と叔母は行かねばならないとどこまでも頑張り、喧嘩の様な有様でございました。<br><br>しかしこの時もまた霊が憑り、教修を頂く事の意義をさとして下さいました。<br><br>これは祖母の霊でしたが、可愛いい自分の娘である母をお救い下さるため霊界から愛の御手を差しのべて下さったのです。<br><br>この事実を目のあたりに見ました父も大館行を許して下さいました。<br><br> 三日間の教修も終り、元気で帰って参りました。<br><br>それから一週間目に外へ一人で出て歩けるようになりました。<br><br>なお一カ月目には一里もある所に遊びに行けるようになりました。<br><br>それから間もなく妊娠致し、二十五年の十二月可愛いい弟が生まれました。<br><br>何という有難い事でしょう。<br><br>八年間の業病がいやされ、かつ子宝まで頂くとは、近代科学では考えられぬ大奇蹟であります。<br><br> その後私も入信さして頂き、今はなんの心配もなく過させて頂いております。<br><br>「その頃を顧みすれば恐ろしも闇路杖なく彷ひし吾」の御讃歌が御座いますが、そのままの私達でございます。<br><br>尊い御神恩に何をもってお報い出来ましょうや、凡人の私共には報恩の術も知らぬ有様でございます。<br><br>世の人々にこの大奇蹟の事実をお伝えさせて頂き、尊いこのお道に、大神様の大愛に、お救い頂けるように念願するものでございます。<br><br> （昭和二十七年八月五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A cura da paralisia de oito anos com uma hora de Johrei</h2>
 <p><strong>Extraído de "Salvar a América", publicado em 1º de janeiro de 1953</strong>
@@ -102,5 +257,48 @@ function toggleLang(lang) {
 <p>Ela concluiu os três dias de curso e retornou para casa com saúde. Uma semana depois, já conseguia sair e caminhar sozinha. Passado um mês, já era capaz de ir passear em um local a quase quatro quilômetros de distância. Pouco tempo depois, ela engravidou e, em dezembro de 1950, meu adorável irmão mais novo nasceu. Que bênção inestimável! A cura de uma enfermidade cármica de oito anos, coroada com o dom de um filho, é um milagre extraordinário, inconcebível para a ciência moderna.</p>
 <p>Posteriormente, eu também ingressei na fé e hoje vivemos sem nenhuma preocupação. Há um Hino que diz: “Recordar aqueles tempos me aterroriza, a mim, que vagueava por um caminho de trevas, sem amparo.” Essas palavras descrevem exatamente a nossa situação. Como poderíamos retribuir esta sublime graça Divina? Nós, pessoas comuns, nem sequer conhecemos os meios para expressar nossa gratidão. É nosso mais profundo desejo relatar este grandioso milagre às pessoas do mundo, rogando para que elas também possam ser salvas por este sagrado Caminho e pelo imenso amor do Deus Supremo.</p>
 <p>(5 de agosto de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 八年間の半身不随が 一時間の御浄霊で起上がる 『アメリカを救う』昭和28(1953)年1月1日発行 秋田県 十光中教会 佐良土雄一（19） 暗黒無明の地獄よりお救い頂き、一家歓喜の家庭にならせて頂きました。<br/><br/>この偉大な又深遠なる明主様の大御恵は筆や言葉には現わし得ませんが、私共と同じ病貧争に悩みおられる世の人々に、一日も早く一人でも多く、救世主であられる明主様の出現を御伝えさして頂き、そしてお救い頂ければ幸と思い、ここにその一端を申し述べさせていただきます。<br/><br/> 想えば今から十年前の昭和十七年二月のことでありました。<br/><br/>この時より、幸福でありました我家に無慈悲な病魔が舞込んだのでありました。<br/><br/>母が出産致してより産後の肥立ちが悪く入院致し、十一月に至るも何の効果もなく、下半身が不自由で起上る事が出来ずそのまま退院いたしました。<br/><br/>それからというものは次から次と医者を替えて、あらゆる医療を尽しましたが遂に起上る事が出来ず、暗黒の中に呻吟する事四年、戦争は益々激しくなり藤琴の実家に疎開致しました。<br/><br/> 私達兄弟三人は学校から帰ってまいりましても、母が暗い顔で床の中で休んでおられる姿を見ると胸がふさがるような気持で、楽しく遊ぶことも出来ませんでした。<br/><br/>祖母は心配の余りとうとう亡くなられました。<br/><br/>「何と言う不幸でしょう。<br/><br/>これが生きながらの地獄というものかしら」と母は毎日床の中で泣き暮したのでありました。<br/><br/> 父が朝早く起き、馴れぬ手つきで食事の支度をする姿を見る時、私達はどんなに悲しかったかわかりません。<br/><br/>友達の何の心配も無く遊んでいる姿を見て、どんなにうらやましく思った事でございましょう。<br/><br/> 川崎から疎開してまいりました叔母も、又子供達も次から次と重病にかかり、全くお医者さんと親戚のようなものでした。<br/><br/>それが大光明如来様にお縋りしてまず手の施しようもない重症と言われた叔母の子宮痛が癒り、子供の骨膜炎も癒りましたので、叔母は母の病気も治したいものと一生懸命御浄霊をして下さいましたのが二十四年九月の事でした。<br/><br/>一週間致しましても何の効果もございませんでした。<br/><br/>足掛八年間の業病がそんなに簡単に治るはずもないのでありますが、あらゆる治療に手を焼いた母は、もうすっかりあきらめ切っていたし、治療に対しては自暴自棄的な心情でいたのでございました。<br/><br/>でも奇蹟的に自分の重病をお救い頂きました叔母は、何とかして母をお救い戴きたいと、一心にお念じさせて頂いておりました。<br/><br/>その一念が通じたものか御浄霊を始めて八日目の朝ひょっこりと中田先生が訪ねて来て下さいました。<br/><br/>叔母は自分が御浄霊を頂きたかったのを後まわしにして私の母を治して下さるように頼んで下さいました。<br/><br/>その内時間も来ましたので私達は学校に行ってしまいました。<br/><br/>学校から帰ってまいりましたら、母が立って歩いているではありませんか。<br/><br/>信じ切れずに、夢かとばかり驚いたのでございます。<br/><br/>叔母から色々とお話を聞かして頂き、目に見えざる霊のため八年の長い間母が苦しめられていた事がわかったのでございます。<br/><br/>その霊とは、実家の四代前の方で、母には曾祖母に当る方でした。<br/><br/>二十歳で祖父を生み産後死亡したそうで、これが血の池地獄と言う所で百年近い長年月苦しまれておられたそうでございます。<br/><br/>実家では仏壇もよくまつり、供養もよくやっていながら救われずにそれ程苦しまれるとは、今までの宗教では、とても霊の救いは出来なかったのでございましようか。<br/><br/>宗教的知識のない私には分りませんが、八年の業病が霊界で苦しんでいられる霊の救いを求める姿であった事をきかされ、百年の苦しみをただ祝詞三回でお救い頂いた事実をきかされ、その結果として母は目の前で起ち上ったのでございます。<br/><br/>何という偉大なる御力でございましよう。<br/><br/>いかに科学が進歩しましても手の施しようもなきこの霊的な病気を、一時間で解決して下されました大神力には御礼のことばもございません。<br/><br/> 八年間寝た儀の母は、足もなえ果てて全く小児のごとく細くなっており、膝頭が油の切れたような調子でカチカチして思うように歩く事が出来ませんでしたが、一週間目には汽車に乗って大館の教会まで御守様をお受けしに行く約束をしたのでした。<br/><br/>父や叔父達は、「そんな無茶な事をするな」と大反対致しました。<br/><br/>中田先生から「神様に御救いを求めて行くのに、どんな困難な事がございましても絶対御守護を下される」とのお言葉を頂いているので、母と叔母は行かねばならないとどこまでも頑張り、喧嘩の様な有様でございました。<br/><br/>しかしこの時もまた霊が憑り、教修を頂く事の意義をさとして下さいました。<br/><br/>これは祖母の霊でしたが、可愛いい自分の娘である母をお救い下さるため霊界から愛の御手を差しのべて下さったのです。<br/><br/>この事実を目のあたりに見ました父も大館行を許して下さいました。<br/><br/> 三日間の教修も終り、元気で帰って参りました。<br/><br/>それから一週間目に外へ一人で出て歩けるようになりました。<br/><br/>なお一カ月目には一里もある所に遊びに行けるようになりました。<br/><br/>それから間もなく妊娠致し、二十五年の十二月可愛いい弟が生まれました。<br/><br/>何という有難い事でしょう。<br/><br/>八年間の業病がいやされ、かつ子宝まで頂くとは、近代科学では考えられぬ大奇蹟であります。<br/><br/> その後私も入信さして頂き、今はなんの心配もなく過させて頂いております。<br/><br/>「その頃を顧みすれば恐ろしも闇路杖なく彷ひし吾」の御讃歌が御座いますが、そのままの私達でございます。<br/><br/>尊い御神恩に何をもってお報い出来ましょうや、凡人の私共には報恩の術も知らぬ有様でございます。<br/><br/>世の人々にこの大奇蹟の事実をお伝えさせて頂き、尊いこのお道に、大神様の大愛に、お救い頂けるように念願するものでございます。<br/><br/> （昭和二十七年八月五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

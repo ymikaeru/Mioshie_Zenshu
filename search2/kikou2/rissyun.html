@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rissyun</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 立春祭「如是我解」 『栄光』249号、昭和29(1954)年2月24日発行 壬午（じんご・みずのえうま）の年に呱々の声を挙げられた、救世主神、明主様が、甲午（こうご・きのえうま）の年を迎えられた今年こそは、救世教が天馬空を翔けるの勢いで発展する年であろう。<br><br>とは、元旦の陽光を拝した刹那に感じられた思いである。<br><br> 待望久しかりしメシヤ会館が来む秋を期してその荘厳華麗な威容を瑞雲山頂に現出し、後者の祇園精舎や宗教華やかなりし中世紀の大伽藍とその妍（けん）を競うことが、救世主神、おんみずから率いられるメシヤ教の飛躍と予定された事はもとよりであるが、地上天国を造られる主の神の御経綸は霊界において著るしく進捗し、顕界に移写さるる日の目睫に迫れるを思えば、年も良し。<br><br>甲午即ち天馬空を翔けむと連想されたのである。<br><br> 縁由浅からずしてメシヤ教の信徒の端くれに坐してこのかた、私は霊界の節を画す立春と六月十五日の二つの御祭を、大きな喜びと期待の裡に迎えるのが常であった。<br><br> 昭和二十九年の九は、窮極の九に通じる。<br><br>と覚束なくも解釈すれば、またしても今年こそは、との思いに駆られ、立春祭を待ちわびる楽しさはいやが上にもふくれて、明主様が今日のためにお詠み下された御詠を御祭場に坐す間ももどかしく、一首々々を噛みしめるように味わい、御表現なされた意味の奥のそのまた奥の意味まで悟らせて戴き、昭和二十九年の節分を境に神様のお働きの力がどのように強くなって、人間社会にどのように揮われるか。<br><br>昨年の、一昨年の、そのまた前の年の立春の御詠、立春祭の御教えを断片的ながら思い起して今日の御詠と味わい較べてもみた。<br><br> まことに不遜この上もないことと思いつつも、御詠によって明主様の御感懐の一端を窺い、地上天国建設の御準備を整えてくだされる神様の御予定の一駒だに識ら、とする心からでもあった。<br><br> 九時三十分＝＝こうした私ごとの雑念は今日の嘉き日を祝う祭事が始められると同時に中断された。<br><br> 山の幸、海の幸の献饌、祝詞、善言讃詞の奉唱と、祭事は滞りなく恒の如くに進められ、主の神の御経綸が示される立春御詠を、先達の朗唱のあとをうけて全員が唱和した。<br><br> 雪霜の 験しき多を堪え忍び 春立つ今日を祝う御祭 格調の高いこの首歌には遠く北米にまで教線が拡張されたメシヤ教今日の盛大さも明主様が開教以来今日まで、忍びに忍ばれたくさぐさの難苦。<br><br>ジャーナリズム禍、官憲禍、等々の邪神の妨害に打ち克って、兄の花馥郁と香る春を迎えたお喜びが端的に打ち出されていて、唱和しつつも胸あたたまる思いがした。<br><br>明主様のお喜びは、また全信徒の喜びでもある。<br><br> この仕組 言うてはならじ言はざれば ならじと宜給う常立の神 十八章の御詠のうち、十一番目に据えられたこの御詠こそ、今日の立春を祝う中心、要めの御詠。<br><br>と私には感じられた。<br><br> 基、仏、回の三大宗教は教祖開祖の事歴や教義についても余すところなく研究し尽くされて、今日では後進が付け加えるべきもの一字だになく、その持つ教化力も色失力尽きた過去の宗教と品格されメシヤ教生まるるまでの露払い的役割であった事は疑うべくもなく証明された事実である。<br><br>これにひきかえてメシヤ教は今日の宗教であると共に明日の宗教であり、比類なき奇蹟顕現の力も、神の力の強まるが故に今後、日を逐うて具現力を増し、明主様が御開示賜わった数々のみ教えも例えて言うならば氷山の一露頭に過ぎず、今日以後に御教え賜わることの方が質量共に偉大であり聴く者、驚倒せざるなき真理の御開示があるもの、と私は確信している。<br><br> しかもこの御教えも、凡人の窺知を許さぬ神秘幽玄な霊界にその源が発生しているとしたならば、主神の地上天国建設の大御経綸と歩調を整える時期があることも想像するに難くはなく信者に知らせてやりたい。<br><br>いや、まだその時期ではない。<br><br>と明主様がお考えになるそのことすらも主の神の御方寸にあるのであろう。<br><br>言うてはならじ言わざればならじと宜給う国常立尊様の御思慮は、そのまま明主様の御思慮でもあろうか。<br><br>と御詠を唱和しつつ私は思った。<br><br> 入信してからの年月浅くそのうえすこぶる健忘性である私は、国常立尊様のおんことがお祝いの御歌のうちに詠まれた例を知らない。<br><br>嗚呼、悠久三千年、持てるお力を揮うことを封ぜられ、俗に閻魔大王と称えられてつい最近まで幽世を主宰なされて御在した国常立尊様が、封ぜられていた御神力を時期来って如何に揮わせられるか。<br><br>明主様の御教えが待たれた。<br><br> 十一時。<br><br>明主様、御神殿に御着席。<br><br>正午までの一時間、興趣溢るる御垂教を拝聴した。<br><br> 私が関心を寄せることの深い国常立尊様は、現界における審判の神様として今日の立春よりその御神力を揮われる。<br><br>との事である。<br><br>来るべきもの遂に来る。<br><br>の感深く襟を正しての謹聴であった。<br><br> メシヤ教に入信したその日から説かれた大峠をいよいよ立春の今日から、好むと好まざるとに関わらず登攀しなければならないのである。<br><br>古代幾多の予言者により基督により来るべきを予言せられ来った人類最後の審判。<br><br>善と悪とを截ちわける審判は、国常立尊様のおん手で最早や始められたのである。<br><br>この大峠を安らかに越えて目差す弥勒聖代に往き着く者、幾たりであろうか。<br><br>神を識り神に仕え、よく人を救う者のみ、この恩寵を享くるのであろう。<br><br> 難難困苦の道程であっても大峠を超えさせて戴くことができるだろうか。<br><br>はたまた無慚な落伍者となるか、前途逆睹し難い私であっても、 審かるる 日を知らぬげに慾にほほけ 右往左往の人々の群 あな哀れ 明日をも知らぬ命もて 邪事に耽る人々 世の終り 知らぬが仏の人々の 落ちゆく先は六道の辻 御詠に示されたように、神を識らぬ人々の群の余りにも多きには心が痛み、一人でも多くの人々に結びの御詠 山よりも 高く海よりも尚深し 神の恵みの限り知らねば を示し、救世主神、ここに御在す。<br><br>と知らせる信者としての勤めを果したい。<br><br>と思い、そして又「井戸の端に茶碗を置いた如しとて世を戒しむる艮の神」の御詠の、井戸端の茶碗はこれまた、私のような人間であるかも知れない。<br><br>と反省させられるのであった。<br><br>正午、御講話を終って明主様御退出され、立春の御祭は終った。<br><br> 甲午如月四日、この日、善悪截ちわくる最後の審判国常立尊様により開始さる。<br><br>と青史に刻まれるであろうこの立春祭は、救世教信者にとって忘れることのできない日、いや、忘れてはならない日となろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Início do Juízo Divino: Reflexões sobre o Festival do Início da Primavera</h2>
 <p>Foi no ano de <em>Jin-go</em> (壬午) que o Messias, Meishu-Sama, veio ao mundo. O ano que agora se inicia, <em>Kō-go</em> (甲午), compartilha o mesmo signo do cavalo, o que me inspira a crer que a Sekai Kyuseikyo alçará voo com o ímpeto de um cavalo celestial a cruzar os céus. Tal foi o sentimento que me assaltou no exato instante em que reverenciei a luz do sol no primeiro dia do ano.</p>
@@ -136,5 +288,48 @@ São as bênçãos de Deus, para quem conhece sua infinitude.</p>
 <p>Ademais, o poema "O mundo é como uma tigela de chá na beira de um poço, / Assim adverte o Deus de <em>Ushitora</em>" me fez refletir que aquela tigela, em sua precária condição, poderia ser eu mesmo.</p>
 <p>Ao meio-dia, Meishu-Sama concluiu Sua palestra e retirou-Se, encerrando-se assim o Festival do Início da Primavera.</p>
 <p>Este Festival do Início da Primavera, realizado no quarto dia do segundo mês do ano de <em>Kō-go</em>, certamente será gravado nos anais da história como o dia em que o Juízo Final se iniciou pelas mãos de Kunitokotachi-no-Mikoto. Para nós, fiéis da Sekai Kyuseikyo, ele se tornará um dia inesquecível. Mais do que isso: um dia que jamais deverá ser esquecido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 立春祭「如是我解」 『栄光』249号、昭和29(1954)年2月24日発行 壬午（じんご・みずのえうま）の年に呱々の声を挙げられた、救世主神、明主様が、甲午（こうご・きのえうま）の年を迎えられた今年こそは、救世教が天馬空を翔けるの勢いで発展する年であろう。<br/><br/>とは、元旦の陽光を拝した刹那に感じられた思いである。<br/><br/> 待望久しかりしメシヤ会館が来む秋を期してその荘厳華麗な威容を瑞雲山頂に現出し、後者の祇園精舎や宗教華やかなりし中世紀の大伽藍とその妍（けん）を競うことが、救世主神、おんみずから率いられるメシヤ教の飛躍と予定された事はもとよりであるが、地上天国を造られる主の神の御経綸は霊界において著るしく進捗し、顕界に移写さるる日の目睫に迫れるを思えば、年も良し。<br/><br/>甲午即ち天馬空を翔けむと連想されたのである。<br/><br/> 縁由浅からずしてメシヤ教の信徒の端くれに坐してこのかた、私は霊界の節を画す立春と六月十五日の二つの御祭を、大きな喜びと期待の裡に迎えるのが常であった。<br/><br/> 昭和二十九年の九は、窮極の九に通じる。<br/><br/>と覚束なくも解釈すれば、またしても今年こそは、との思いに駆られ、立春祭を待ちわびる楽しさはいやが上にもふくれて、明主様が今日のためにお詠み下された御詠を御祭場に坐す間ももどかしく、一首々々を噛みしめるように味わい、御表現なされた意味の奥のそのまた奥の意味まで悟らせて戴き、昭和二十九年の節分を境に神様のお働きの力がどのように強くなって、人間社会にどのように揮われるか。<br/><br/>昨年の、一昨年の、そのまた前の年の立春の御詠、立春祭の御教えを断片的ながら思い起して今日の御詠と味わい較べてもみた。<br/><br/> まことに不遜この上もないことと思いつつも、御詠によって明主様の御感懐の一端を窺い、地上天国建設の御準備を整えてくだされる神様の御予定の一駒だに識ら、とする心からでもあった。<br/><br/> 九時三十分＝＝こうした私ごとの雑念は今日の嘉き日を祝う祭事が始められると同時に中断された。<br/><br/> 山の幸、海の幸の献饌、祝詞、善言讃詞の奉唱と、祭事は滞りなく恒の如くに進められ、主の神の御経綸が示される立春御詠を、先達の朗唱のあとをうけて全員が唱和した。<br/><br/> 雪霜の 験しき多を堪え忍び 春立つ今日を祝う御祭 格調の高いこの首歌には遠く北米にまで教線が拡張されたメシヤ教今日の盛大さも明主様が開教以来今日まで、忍びに忍ばれたくさぐさの難苦。<br/><br/>ジャーナリズム禍、官憲禍、等々の邪神の妨害に打ち克って、兄の花馥郁と香る春を迎えたお喜びが端的に打ち出されていて、唱和しつつも胸あたたまる思いがした。<br/><br/>明主様のお喜びは、また全信徒の喜びでもある。<br/><br/> この仕組 言うてはならじ言はざれば ならじと宜給う常立の神 十八章の御詠のうち、十一番目に据えられたこの御詠こそ、今日の立春を祝う中心、要めの御詠。<br/><br/>と私には感じられた。<br/><br/> 基、仏、回の三大宗教は教祖開祖の事歴や教義についても余すところなく研究し尽くされて、今日では後進が付け加えるべきもの一字だになく、その持つ教化力も色失力尽きた過去の宗教と品格されメシヤ教生まるるまでの露払い的役割であった事は疑うべくもなく証明された事実である。<br/><br/>これにひきかえてメシヤ教は今日の宗教であると共に明日の宗教であり、比類なき奇蹟顕現の力も、神の力の強まるが故に今後、日を逐うて具現力を増し、明主様が御開示賜わった数々のみ教えも例えて言うならば氷山の一露頭に過ぎず、今日以後に御教え賜わることの方が質量共に偉大であり聴く者、驚倒せざるなき真理の御開示があるもの、と私は確信している。<br/><br/> しかもこの御教えも、凡人の窺知を許さぬ神秘幽玄な霊界にその源が発生しているとしたならば、主神の地上天国建設の大御経綸と歩調を整える時期があることも想像するに難くはなく信者に知らせてやりたい。<br/><br/>いや、まだその時期ではない。<br/><br/>と明主様がお考えになるそのことすらも主の神の御方寸にあるのであろう。<br/><br/>言うてはならじ言わざればならじと宜給う国常立尊様の御思慮は、そのまま明主様の御思慮でもあろうか。<br/><br/>と御詠を唱和しつつ私は思った。<br/><br/> 入信してからの年月浅くそのうえすこぶる健忘性である私は、国常立尊様のおんことがお祝いの御歌のうちに詠まれた例を知らない。<br/><br/>嗚呼、悠久三千年、持てるお力を揮うことを封ぜられ、俗に閻魔大王と称えられてつい最近まで幽世を主宰なされて御在した国常立尊様が、封ぜられていた御神力を時期来って如何に揮わせられるか。<br/><br/>明主様の御教えが待たれた。<br/><br/> 十一時。<br/><br/>明主様、御神殿に御着席。<br/><br/>正午までの一時間、興趣溢るる御垂教を拝聴した。<br/><br/> 私が関心を寄せることの深い国常立尊様は、現界における審判の神様として今日の立春よりその御神力を揮われる。<br/><br/>との事である。<br/><br/>来るべきもの遂に来る。<br/><br/>の感深く襟を正しての謹聴であった。<br/><br/> メシヤ教に入信したその日から説かれた大峠をいよいよ立春の今日から、好むと好まざるとに関わらず登攀しなければならないのである。<br/><br/>古代幾多の予言者により基督により来るべきを予言せられ来った人類最後の審判。<br/><br/>善と悪とを截ちわける審判は、国常立尊様のおん手で最早や始められたのである。<br/><br/>この大峠を安らかに越えて目差す弥勒聖代に往き着く者、幾たりであろうか。<br/><br/>神を識り神に仕え、よく人を救う者のみ、この恩寵を享くるのであろう。<br/><br/> 難難困苦の道程であっても大峠を超えさせて戴くことができるだろうか。<br/><br/>はたまた無慚な落伍者となるか、前途逆睹し難い私であっても、 審かるる 日を知らぬげに慾にほほけ 右往左往の人々の群 あな哀れ 明日をも知らぬ命もて 邪事に耽る人々 世の終り 知らぬが仏の人々の 落ちゆく先は六道の辻 御詠に示されたように、神を識らぬ人々の群の余りにも多きには心が痛み、一人でも多くの人々に結びの御詠 山よりも 高く海よりも尚深し 神の恵みの限り知らねば を示し、救世主神、ここに御在す。<br/><br/>と知らせる信者としての勤めを果したい。<br/><br/>と思い、そして又「井戸の端に茶碗を置いた如しとて世を戒しむる艮の神」の御詠の、井戸端の茶碗はこれまた、私のような人間であるかも知れない。<br/><br/>と反省させられるのであった。<br/><br/>正午、御講話を終って明主様御退出され、立春の御祭は終った。<br/><br/> 甲午如月四日、この日、善悪截ちわくる最後の審判国常立尊様により開始さる。<br/><br/>と青史に刻まれるであろうこの立春祭は、救世教信者にとって忘れることのできない日、いや、忘れてはならない日となろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

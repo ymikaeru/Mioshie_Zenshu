@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気とは何ぞや 『アメリカを救う』P.4、昭和28(1953)年1月1日発行 序論にもある通り、現在米国における病気の漸増（ぜんぞう）は何がためであるかを、その根本から説いてみるが、まず病気なるものの発生原因であるが、驚くなかれ病気というものは医療が作るのであって、特に薬剤がその中心をなしているという事実である。<br><br>つまり病気を治し、病人を減らそうとするその方法が、反対に病気を治さないようにし、増やしているという到底信じられない程の迷妄である。<br><br>そうしてこれは説明の要のない程明らかであるにかかわらず、それに気が付かないのであるから、全く二十世紀の謎といってもよかろう。<br><br>それどころか益々医学に信頼し、これを進歩させれば病気は解決出来るものと固く信じているのである。<br><br>ではそのような不可解な原因はどこにあるかというと、それは医学の考え方が逆になっており、病気をもって悪い意味に解釈しているからである。<br><br>それをこれから徹底的に解説してみよう。<br><br> 本来人間なるものは、生まれながらにして例外なく先天性毒素と、後天性毒素とを保有している。<br><br>先天性毒素とは無論親からの遺伝であり、後天性毒素とは生まれてから体内へ入れた薬毒である。<br><br>というと何人（なんぴと）も意外に思うであろう。<br><br>何となれば昔から薬は病気を治すもの、健康を補うものとの観念が常識となっていて、良い薬さえ出来れば病気は解決するものと信じ、それを医療の主眼としているからである。<br><br>特に米国は薬に最も重点を置き、新薬発見に非常な努力を払っているのは誰も知る通りである。<br><br>ゆえにもし薬で病気が治るとしたら、病気は漸次減らなければならないはずであるのに、逆に益々増えるのはどうした訳か、これ程理屈に合わない話はあるまい。<br><br>元来薬というものは、地球上只の一つもないのであって、ことごとく毒物であり、毒だから効くのである。<br><br>それはどういう意味かというと、薬という毒の作用によって病気症状が減るから治るように見えるので、実は治るのではないのである。<br><br> では薬がなぜ毒物であるかというと、そもそも人間が口へ入れるものとしては、造物主が人間を造ると同時に生を営むべく用意されたのが食物である。<br><br>そうして食物にも人間が食うべきものと、食うべからざるものとは自ら別けられている。<br><br>すなわち食うべきものには味を含ませ、人間には味覚を与えられているのであるから、人間は食いたいものを楽しんで食えば、それで栄養は充分摂（と）れるので、これだけを考えても造物主の周到なるは分るはずである。<br><br>この意味において生きんがために食物を摂るというよりも、食物を摂る事によって生きてゆけるので、ちょうど生殖と同様、子を得る目的で男女が営むのではなく、別の目的の営みで偶然子は授かるのであるから、神秘極まるものである。<br><br> 右のごとく人間の体内機能は、食物として定められた物以外の異物は、完全に処理出来ないようになっているので、薬は異物である以上、含まれている栄養分だけは吸収されるが他は体内に残ってしまう。<br><br>これが薬毒であって、しかも厄介な事にはこれが各局部に集溜し、時の経つにつれて固結してしまう。<br><br>その集溜個所としては神経を使うところに限られている。<br><br>神経を使うところといえば、もちろん上半身特に首から上で、頭脳を中心とし眼、耳、鼻、口等であるから、そこを目掛けて毒素は集中せんとし、一旦頸の周りに固結する。<br><br>いかなる人でも頸の周り、肩の辺に必ず固結をみるであろう。<br><br>これが凝りであって、ある程度に達するや自然排泄作用すなわち浄化作用が発生する。<br><br>その場合発熱によって毒結は溶けて液体となり、咳、痰、鼻汁、汗、下痢、熱尿等になって排除されようとする。<br><br>これを名付けて感冒というのである。<br><br> ゆえに感冒とは毒素排除の過程であるから、少し苦しいが我慢して自然に委せておけば順調に排泄され、体内は清浄化し、治るという実に結構なものであるから、感冒とは全く簡易な生理作用で、神の摂理であるから、大いに感謝すべきであるにかかわらず、それを知らない人間は、この浄化の苦痛を反って悪い意味に解釈し、これを止めるべく考え出したものが医療であるから、いかに間違っているかが分るであろう。<br><br>そうしてこの浄化作用なるものは、人体の活力が旺盛であればある程起り易いので、これを停めるには人体の活力を弱らせるに限る。<br><br>そこで薬と称する毒を用いたのである。<br><br>昔から草根木皮、鉱物、動物の臓器等から探り出し、煎じたり、粉末にしたり、抽出したりして水薬、丸薬（がんやく）、塗布薬、注射薬等色々な形にして、浄化停止に応用したのである。<br><br>それには毒が強いと生命に関わるから、微弱にして少しずつのませる。<br><br>このため一日何回などと分量を決めたので、よく効く薬とは中毒を起さない程度に毒を強めたものである。<br><br>このように薬毒をもって溶解排除せんとする毒素を固めて来たので、今日の人間がいかに有毒者であり、病気が起り易くなっているかは、近来予防衛生などと喧（やかま）しく言ったり、感冒を恐れるのもそのためである。<br><br>また人間の寿命にしても六十余歳となったといって喜んでいるが、これも大変な誤りである。<br><br>というのは人間病さえなければ百歳以上は楽に生きられるのに、百歳以下で死ぬのは病による不自然死のためで、無病となれば自然死となる以上、長生するのは当然である。<br><br>右のごとく医療とは病を治すものではなく、一時的苦痛緩和手段で、そのための絶対安静、湿布、塗布薬、氷冷、電気、光線療法等々、すべての療法は固め手段ならざるはないのである。<br><br>その中で一、二異（ちが）うのは灸点と温熱方法であるが、これも一時的熱の刺戟によって、その個所へ毒素を誘導させるので楽にはなるが、時間が経てば元通りになるから何にもならないし、またラジウム放射で癌を破壊する方法もあるが、これも癌だけの破壊なら結構だが、実は組織をも破壊してしまうから、差引プラスよりマイナスの方が多い訳である。<br><br> 以上のごとく現在までの療法という療法は、徹頭徹尾固め方法であって、治す方法とは毒素を溶かして排除させる以外決してないのである。<br><br>何よりも医師は“治す”とは言わない。<br><br>“固める”というにみて明らかである。<br><br>しかも固め方法の内最も有効なものが薬であり、その薬が病原を作るのであるから、医療を受ける程余病が発り易く、悪化するのは当然である。<br><br>その結果ついに生命の危険にまで及ぶのである。<br><br>それについてこういう事がある。<br><br>治そうとして熱心に高貴薬など用いる患者程成績が悪く、その反対にどうでもいいと思う患者程治りがいいという話は、医師からよく聞くところである。<br><br>また衛生に注意する者程弱く、無頓著〔着〕（むとんじゃく）の者程健康である事や、医師の家族や病院の看護婦などが多病であるのもよく聞くところである。<br><br>面白い事には稀な健康者、長寿者に訊いてみると、「自分は病気した事がないから、医者や薬の厄介になった事はない」などというが、吾々からみればそれだから健康であり、健康だからそうであるので、この点大いに味わうべきである。<br><br> WHAT IS DISEASE? As mentioned in the introduction, I expound the cause for the rising incidence of disease in the U.S. today from the ground up. Firstly about the source of disease: the fact is, surprisingly enough, that what produces disease is the medical treatment itself, and especially, medicine is the main factor in it. That is to say, the very method for curing illness in order to decrease ill people is, to the contrary, preventing the cure for illness and increasing illness and ill people, which means that they are unbelievably trapped under the total illusion. This is so evident a fact that no explanation would be needed, but it has not been realized at all in general, so we can say it is simply an enigma of the 20th century. In fact, people show more and more faith in medicine and believe firmly that they can get rid of disease by advancing medical science. Then, what is the cause that has brought this enigmatic illusion? It is because the medical way of thinking is inverted, taking diseases as bad phenomena. Now I will try to give an in-depth explanation about this. In the nature of things, a human being has, without exception, both inborn and acquired poisonous substance. The inborn poison is, needless to say, the inheritance from the parents and the acquired one is the poisonous substances in medicine which people have taken in their bodies since after their births. Everyone will be surprised to know this. For the basic assumption is that medicines are what will cure sickness and aid health, so they believe that if only very effective medicines are produced, every sickness will be cured; this is the focus of medical treatment. Above all, the U.S.; people in this country put the most emphasis on medicine and are making a massive effort to discover and develop new drugs, as you know. Hence, if medicine had the power to heal illnesses, existing illnesses should have been decreasing gradually, but the fact is contrariwise that illnesses are increasing even more; why is this happening? Nothing is more irrational than this occurrence. Basically, there is no such thing as a medicine on the earth, so what people think of as medicines are all poisons with no exception and they are effective exactly because they are poisons. What I mean is that so called medicine appears to cure illness because of its toxicity which suppresses the symptoms of illness, but actually the illness is not cured at all. Then, why are medicines poisons? Because, it is foods that what human beings are supposed to eat and the Creator provided for them to live on at the same time as creating humankind. And of the foods, some are for human beings to eat and others are not; this distinction is self-evident. That is to say, the foods which we humans should eat are made to have a taste and humans are given the sense of taste, so if only we enjoy eating foods we want to eat, we can get enough nutrition; considering just this one thing, you should understand how thoroughly the Creator has done. Seen in this light, we do not eat for living but live with eating, just like acts of reproduction, that is, men and women have sex not to bear children, but they happen to be blessed with children making love for another purpose; this is a great mystery. As remarked above, the internal function of human body is made to be unable to process a foreign substance completely except the stuff which is prescribed as food, and so, since the medicine is a foreign material to the human body, when taken into the body, only the nutritional element of medicine is assimilated but the rest of it remains in the body. This is the toxic element in medicine, and in addition, the trouble is that this toxic element accumulates at the local parts of the body and as time goes by, it solidifies. The parts it accumulates are limited to where the nerves are concentrated and highly active. The parts where the nerve activity is very high are situated, of course, in the upper half of the body, especially from the neck up: mainly the brains, and the eyes, ears, nose, mouth, etc., so the toxic substances gather together aiming at these parts and they solidify around the neck for a moment. Any person will have, without exception, the solidification somewhere at the neck or in the shoulder. This is a so-called stiffness, and when it has developed to some degree, the process of natural elimination, that is, the purification occurs. In that case, the solidified toxic elements are dissolved by the action of high fever, liquefied and transformed into cough, phlegm, nasal mucus, sweat, diarrhea, hot urine, etc. to be eliminated. We call this a cold. Consequently, a so-called common cold is the process for eliminating the toxic elements, so if you are patient enough during this process though it is a little painful, and leave it to nature, then the toxic elements are eliminated well, the interior of the body are purified and restored to health; this is excellent. Since the common cold is very simple physiological activity and effect by God's providence, we ought to be most thankful for the process, but the people who did not know the truth interpreted the pain of purification as a bad symptom and invented medical treatment to stop it, which you should understand is a total mistake. And this process of purification is all the more likely to occur because the body is vital, so the most effective way to stop the process is to weaken the bodily vital activity. Upon this, people came to use the poison called medicine. From ancient days, digging out of roots of herbs and barks of trees, minerals, animal internal organs, etc., boiling, powdering, or extracting, they made medicines in various forms: liquid medicine, pills, ointment, medicine for injection, etc., and applied them to stopping the process of purification. However, if the toxicity is too strong, it will be life-threatening, so they make this toxic character very weak and have it taken bit by bit. For this purpose, they fixed a dose of medicine to take, say three times a day, therefore, an effective medicine means the poison whose toxicity is made stronger so far as not to show toxic symptoms. Thus, by using the toxic elements in medicine, they have hardened the poison which otherwise would be dissolved and discharged, and consequently, people today have retained so much poison and contract diseases very easily and this is why they are unduly strict about preventive hygiene and fearful of the common cold. And further, they feel happy to hear that their life span has been extended to be a little over sixty, but this is also a great mistake. For it would not difficult for a human being to live to be more than a hundred years old if only he or she did not have disease, but in fact almost all people die at an age under one hundred; this is a death from unnatural causes of disease, therefore, without disease, people would die of natural causes, consequently, they naturally would live long. Thus, medical treatment is not the method for curing disease but the way to alleviate pains temporarily, for which purpose an absolute minimum of activity, a wet compress, an ointment, an ice application, an electrotherapy, a phototherapy, etc., all these treatments are none other than the means to solidify poisons. Among them, moxa cautery and thermotherapy are a little different; these are methods of treatment which, by applying temporal heat stimuli to some spots, lead toxic element to the spots, and as a result, the patients have relief, but after some time passes, their original conditions return with nothing improved. There is also another method called radium therapy which destroys cancer by radium rays; if this method destroyed cancer only, it would be very good, but actually it destroys the tissue in the body, so on balance, the demerits are greater than the merits. As observed above, every single medical treatment up to now has been thoroughly the method of solidification, but there is absolutely no other method of remedy at all than dissolving toxic substance and discharging it. This is evident from that medical doctors do not say "cure" but "make solid." On top of that, the most effective of all the solidifying method is medicine and the medicine makes source of the disease, so it is quite natural that the more often one has medical treatment, the more easily one suffers complications and become worse. As a result, one is led up to life-threatening condition in the end. Concerning this, the following are very suggestive. We often hear from doctors that a patient who is very eager to be cured of a disease and uses a precious medicine is most likely to become worse, whereas a patient who is indifferent to the course is most likely to get well. And we also often hear that the more careful about hygiene a person is, the poorer health he or she has and the more careless, the healthier; doctors' families and nurses working at the hospital have a tendency to be ill. Interestingly enough, a person of unusual health, a golden ager says, "I have never depended on the help of a doctor or medicine because I have never become ill," but from our standpoint, the person is healthy precisely because he or she has never see a doctor or take medicine and because healthy, no need of a doctor or medicine; this logic should be deeply appreciated.
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Que é a Doença?</h2>
 <p>Conforme exposto na introdução, elucidarei a partir de sua causa fundamental a razão da proliferação de doenças nos Estados Unidos. Primeiramente, no que tange à origem das enfermidades, não se surpreendam: a doença é, em si, uma criação da medicina, e os fármacos constituem o epicentro desse processo. Em outras palavras, o próprio método que visa curar e reduzir o número de enfermos, paradoxalmente, impede a cura e multiplica as enfermidades, num delírio tão profundo que beira o inacreditável. E ainda que este fato seja de uma clareza que dispensa explicações, ele passa completamente despercebido, podendo ser classificado, sem exagero, como o grande enigma do século XX. Pelo contrário, a confiança na medicina só aumenta, e as pessoas creem firmemente que o avanço científico solucionará o problema das doenças. Onde reside, então, a causa de tão incompreensível equívoco? Reside na perspectiva invertida da medicina, que interpreta a doença sob um prisma estritamente negativo. A seguir, analisarei essa questão em profundidade.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Ademais, a celebração por termos alcançado uma expectativa de vida superior a sessenta anos é outro grande engano. A verdade é que, sem as doenças, o ser humano poderia viver mais de cem anos com facilidade. Falecer antes dessa idade constitui uma morte antinatural, causada por enfermidades. Sem doenças, teríamos mortes naturais e, consequentemente, uma vida longa. Desse modo, o tratamento médico não é um método de cura, mas um meio de aliviar temporariamente o sofrimento. O repouso absoluto, as compressas, as pomadas, as aplicações de gelo, a eletroterapia, a fototerapia — todos esses tratamentos, sem exceção, não passam de métodos de solidificação. Dentre eles, a moxabustão e a termoterapia diferem um pouco, pois o estímulo térmico temporário atrai as toxinas para um ponto específico, proporcionando alívio, mas, passado algum tempo, a condição original retorna, não resultando em melhora efetiva. Existe também a radioterapia, que destrói o câncer, o que seria ótimo se destruísse apenas o tumor. Na realidade, ela também aniquila os tecidos sadios adjacentes, resultando em um saldo mais negativo do que positivo.</p>
 <p>Conforme o exposto, absolutamente todas as terapias existentes até hoje são, do princípio ao fim, métodos de solidificação. O único e verdadeiro método de cura consiste em dissolver e expelir as toxinas. A própria linguagem médica evidencia essa realidade, pois os médicos frequentemente falam em "estabilizar" ou "conter" um quadro, não em "curar" em sua essência. Além disso, o medicamento, o mais eficaz agente de solidificação, é também o que gera a própria causa da doença. É natural, portanto, que quanto mais uma pessoa se submete a tratamentos, mais propensa ela se torna a complicações e ao agravamento de seu estado, o que, por fim, pode levá-la a uma condição de risco de vida.</p>
 <p>A esse respeito, certas observações são bastante reveladoras. É comum ouvirmos de médicos que os pacientes mais empenhados em se curar, utilizando medicamentos caros, apresentam os piores resultados, enquanto aqueles que se mostram indiferentes ao curso da doença tendem a melhorar. Ouvimos também que pessoas extremamente cuidadosas com a higiene são mais frágeis, ao passo que as mais displicentes costumam ser mais saudáveis, e que familiares de médicos e enfermeiras de hospitais adoecem com frequência. É curioso notar que pessoas de saúde e longevidade incomuns costumam dizer: "Nunca precisei de médicos ou remédios, pois jamais adoeci". Sob a nossa ótica, a verdade é o inverso: a pessoa é saudável precisamente por não ter recorrido a eles. E por ser saudável, não necessita deles. Eis um ponto que merece profunda reflexão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気とは何ぞや 『アメリカを救う』P.4、昭和28(1953)年1月1日発行 序論にもある通り、現在米国における病気の漸増（ぜんぞう）は何がためであるかを、その根本から説いてみるが、まず病気なるものの発生原因であるが、驚くなかれ病気というものは医療が作るのであって、特に薬剤がその中心をなしているという事実である。<br/><br/>つまり病気を治し、病人を減らそうとするその方法が、反対に病気を治さないようにし、増やしているという到底信じられない程の迷妄である。<br/><br/>そうしてこれは説明の要のない程明らかであるにかかわらず、それに気が付かないのであるから、全く二十世紀の謎といってもよかろう。<br/><br/>それどころか益々医学に信頼し、これを進歩させれば病気は解決出来るものと固く信じているのである。<br/><br/>ではそのような不可解な原因はどこにあるかというと、それは医学の考え方が逆になっており、病気をもって悪い意味に解釈しているからである。<br/><br/>それをこれから徹底的に解説してみよう。<br/><br/> 本来人間なるものは、生まれながらにして例外なく先天性毒素と、後天性毒素とを保有している。<br/><br/>先天性毒素とは無論親からの遺伝であり、後天性毒素とは生まれてから体内へ入れた薬毒である。<br/><br/>というと何人（なんぴと）も意外に思うであろう。<br/><br/>何となれば昔から薬は病気を治すもの、健康を補うものとの観念が常識となっていて、良い薬さえ出来れば病気は解決するものと信じ、それを医療の主眼としているからである。<br/><br/>特に米国は薬に最も重点を置き、新薬発見に非常な努力を払っているのは誰も知る通りである。<br/><br/>ゆえにもし薬で病気が治るとしたら、病気は漸次減らなければならないはずであるのに、逆に益々増えるのはどうした訳か、これ程理屈に合わない話はあるまい。<br/><br/>元来薬というものは、地球上只の一つもないのであって、ことごとく毒物であり、毒だから効くのである。<br/><br/>それはどういう意味かというと、薬という毒の作用によって病気症状が減るから治るように見えるので、実は治るのではないのである。<br/><br/> では薬がなぜ毒物であるかというと、そもそも人間が口へ入れるものとしては、造物主が人間を造ると同時に生を営むべく用意されたのが食物である。<br/><br/>そうして食物にも人間が食うべきものと、食うべからざるものとは自ら別けられている。<br/><br/>すなわち食うべきものには味を含ませ、人間には味覚を与えられているのであるから、人間は食いたいものを楽しんで食えば、それで栄養は充分摂（と）れるので、これだけを考えても造物主の周到なるは分るはずである。<br/><br/>この意味において生きんがために食物を摂るというよりも、食物を摂る事によって生きてゆけるので、ちょうど生殖と同様、子を得る目的で男女が営むのではなく、別の目的の営みで偶然子は授かるのであるから、神秘極まるものである。<br/><br/> 右のごとく人間の体内機能は、食物として定められた物以外の異物は、完全に処理出来ないようになっているので、薬は異物である以上、含まれている栄養分だけは吸収されるが他は体内に残ってしまう。<br/><br/>これが薬毒であって、しかも厄介な事にはこれが各局部に集溜し、時の経つにつれて固結してしまう。<br/><br/>その集溜個所としては神経を使うところに限られている。<br/><br/>神経を使うところといえば、もちろん上半身特に首から上で、頭脳を中心とし眼、耳、鼻、口等であるから、そこを目掛けて毒素は集中せんとし、一旦頸の周りに固結する。<br/><br/>いかなる人でも頸の周り、肩の辺に必ず固結をみるであろう。<br/><br/>これが凝りであって、ある程度に達するや自然排泄作用すなわち浄化作用が発生する。<br/><br/>その場合発熱によって毒結は溶けて液体となり、咳、痰、鼻汁、汗、下痢、熱尿等になって排除されようとする。<br/><br/>これを名付けて感冒というのである。<br/><br/> ゆえに感冒とは毒素排除の過程であるから、少し苦しいが我慢して自然に委せておけば順調に排泄され、体内は清浄化し、治るという実に結構なものであるから、感冒とは全く簡易な生理作用で、神の摂理であるから、大いに感謝すべきであるにかかわらず、それを知らない人間は、この浄化の苦痛を反って悪い意味に解釈し、これを止めるべく考え出したものが医療であるから、いかに間違っているかが分るであろう。<br/><br/>そうしてこの浄化作用なるものは、人体の活力が旺盛であればある程起り易いので、これを停めるには人体の活力を弱らせるに限る。<br/><br/>そこで薬と称する毒を用いたのである。<br/><br/>昔から草根木皮、鉱物、動物の臓器等から探り出し、煎じたり、粉末にしたり、抽出したりして水薬、丸薬（がんやく）、塗布薬、注射薬等色々な形にして、浄化停止に応用したのである。<br/><br/>それには毒が強いと生命に関わるから、微弱にして少しずつのませる。<br/><br/>このため一日何回などと分量を決めたので、よく効く薬とは中毒を起さない程度に毒を強めたものである。<br/><br/>このように薬毒をもって溶解排除せんとする毒素を固めて来たので、今日の人間がいかに有毒者であり、病気が起り易くなっているかは、近来予防衛生などと喧（やかま）しく言ったり、感冒を恐れるのもそのためである。<br/><br/>また人間の寿命にしても六十余歳となったといって喜んでいるが、これも大変な誤りである。<br/><br/>というのは人間病さえなければ百歳以上は楽に生きられるのに、百歳以下で死ぬのは病による不自然死のためで、無病となれば自然死となる以上、長生するのは当然である。<br/><br/>右のごとく医療とは病を治すものではなく、一時的苦痛緩和手段で、そのための絶対安静、湿布、塗布薬、氷冷、電気、光線療法等々、すべての療法は固め手段ならざるはないのである。<br/><br/>その中で一、二異（ちが）うのは灸点と温熱方法であるが、これも一時的熱の刺戟によって、その個所へ毒素を誘導させるので楽にはなるが、時間が経てば元通りになるから何にもならないし、またラジウム放射で癌を破壊する方法もあるが、これも癌だけの破壊なら結構だが、実は組織をも破壊してしまうから、差引プラスよりマイナスの方が多い訳である。<br/><br/> 以上のごとく現在までの療法という療法は、徹頭徹尾固め方法であって、治す方法とは毒素を溶かして排除させる以外決してないのである。<br/><br/>何よりも医師は“治す”とは言わない。<br/><br/>“固める”というにみて明らかである。<br/><br/>しかも固め方法の内最も有効なものが薬であり、その薬が病原を作るのであるから、医療を受ける程余病が発り易く、悪化するのは当然である。<br/><br/>その結果ついに生命の危険にまで及ぶのである。<br/><br/>それについてこういう事がある。<br/><br/>治そうとして熱心に高貴薬など用いる患者程成績が悪く、その反対にどうでもいいと思う患者程治りがいいという話は、医師からよく聞くところである。<br/><br/>また衛生に注意する者程弱く、無頓著〔着〕（むとんじゃく）の者程健康である事や、医師の家族や病院の看護婦などが多病であるのもよく聞くところである。<br/><br/>面白い事には稀な健康者、長寿者に訊いてみると、「自分は病気した事がないから、医者や薬の厄介になった事はない」などというが、吾々からみればそれだから健康であり、健康だからそうであるので、この点大いに味わうべきである。<br/><br/> WHAT IS DISEASE? As mentioned in the introduction, I expound the cause for the rising incidence of disease in the U.S. today from the ground up. Firstly about the source of disease: the fact is, surprisingly enough, that what produces disease is the medical treatment itself, and especially, medicine is the main factor in it. That is to say, the very method for curing illness in order to decrease ill people is, to the contrary, preventing the cure for illness and increasing illness and ill people, which means that they are unbelievably trapped under the total illusion. This is so evident a fact that no explanation would be needed, but it has not been realized at all in general, so we can say it is simply an enigma of the 20th century. In fact, people show more and more faith in medicine and believe firmly that they can get rid of disease by advancing medical science. Then, what is the cause that has brought this enigmatic illusion? It is because the medical way of thinking is inverted, taking diseases as bad phenomena. Now I will try to give an in-depth explanation about this. In the nature of things, a human being has, without exception, both inborn and acquired poisonous substance. The inborn poison is, needless to say, the inheritance from the parents and the acquired one is the poisonous substances in medicine which people have taken in their bodies since after their births. Everyone will be surprised to know this. For the basic assumption is that medicines are what will cure sickness and aid health, so they believe that if only very effective medicines are produced, every sickness will be cured; this is the focus of medical treatment. Above all, the U.S.; people in this country put the most emphasis on medicine and are making a massive effort to discover and develop new drugs, as you know. Hence, if medicine had the power to heal illnesses, existing illnesses should have been decreasing gradually, but the fact is contrariwise that illnesses are increasing even more; why is this happening? Nothing is more irrational than this occurrence. Basically, there is no such thing as a medicine on the earth, so what people think of as medicines are all poisons with no exception and they are effective exactly because they are poisons. What I mean is that so called medicine appears to cure illness because of its toxicity which suppresses the symptoms of illness, but actually the illness is not cured at all. Then, why are medicines poisons? Because, it is foods that what human beings are supposed to eat and the Creator provided for them to live on at the same time as creating humankind. And of the foods, some are for human beings to eat and others are not; this distinction is self-evident. That is to say, the foods which we humans should eat are made to have a taste and humans are given the sense of taste, so if only we enjoy eating foods we want to eat, we can get enough nutrition; considering just this one thing, you should understand how thoroughly the Creator has done. Seen in this light, we do not eat for living but live with eating, just like acts of reproduction, that is, men and women have sex not to bear children, but they happen to be blessed with children making love for another purpose; this is a great mystery. As remarked above, the internal function of human body is made to be unable to process a foreign substance completely except the stuff which is prescribed as food, and so, since the medicine is a foreign material to the human body, when taken into the body, only the nutritional element of medicine is assimilated but the rest of it remains in the body. This is the toxic element in medicine, and in addition, the trouble is that this toxic element accumulates at the local parts of the body and as time goes by, it solidifies. The parts it accumulates are limited to where the nerves are concentrated and highly active. The parts where the nerve activity is very high are situated, of course, in the upper half of the body, especially from the neck up: mainly the brains, and the eyes, ears, nose, mouth, etc., so the toxic substances gather together aiming at these parts and they solidify around the neck for a moment. Any person will have, without exception, the solidification somewhere at the neck or in the shoulder. This is a so-called stiffness, and when it has developed to some degree, the process of natural elimination, that is, the purification occurs. In that case, the solidified toxic elements are dissolved by the action of high fever, liquefied and transformed into cough, phlegm, nasal mucus, sweat, diarrhea, hot urine, etc. to be eliminated. We call this a cold. Consequently, a so-called common cold is the process for eliminating the toxic elements, so if you are patient enough during this process though it is a little painful, and leave it to nature, then the toxic elements are eliminated well, the interior of the body are purified and restored to health; this is excellent. Since the common cold is very simple physiological activity and effect by God's providence, we ought to be most thankful for the process, but the people who did not know the truth interpreted the pain of purification as a bad symptom and invented medical treatment to stop it, which you should understand is a total mistake. And this process of purification is all the more likely to occur because the body is vital, so the most effective way to stop the process is to weaken the bodily vital activity. Upon this, people came to use the poison called medicine. From ancient days, digging out of roots of herbs and barks of trees, minerals, animal internal organs, etc., boiling, powdering, or extracting, they made medicines in various forms: liquid medicine, pills, ointment, medicine for injection, etc., and applied them to stopping the process of purification. However, if the toxicity is too strong, it will be life-threatening, so they make this toxic character very weak and have it taken bit by bit. For this purpose, they fixed a dose of medicine to take, say three times a day, therefore, an effective medicine means the poison whose toxicity is made stronger so far as not to show toxic symptoms. Thus, by using the toxic elements in medicine, they have hardened the poison which otherwise would be dissolved and discharged, and consequently, people today have retained so much poison and contract diseases very easily and this is why they are unduly strict about preventive hygiene and fearful of the common cold. And further, they feel happy to hear that their life span has been extended to be a little over sixty, but this is also a great mistake. For it would not difficult for a human being to live to be more than a hundred years old if only he or she did not have disease, but in fact almost all people die at an age under one hundred; this is a death from unnatural causes of disease, therefore, without disease, people would die of natural causes, consequently, they naturally would live long. Thus, medical treatment is not the method for curing disease but the way to alleviate pains temporarily, for which purpose an absolute minimum of activity, a wet compress, an ointment, an ice application, an electrotherapy, a phototherapy, etc., all these treatments are none other than the means to solidify poisons. Among them, moxa cautery and thermotherapy are a little different; these are methods of treatment which, by applying temporal heat stimuli to some spots, lead toxic element to the spots, and as a result, the patients have relief, but after some time passes, their original conditions return with nothing improved. There is also another method called radium therapy which destroys cancer by radium rays; if this method destroyed cancer only, it would be very good, but actually it destroys the tissue in the body, so on balance, the demerits are greater than the merits. As observed above, every single medical treatment up to now has been thoroughly the method of solidification, but there is absolutely no other method of remedy at all than dissolving toxic substance and discharging it. This is evident from that medical doctors do not say "cure" but "make solid." On top of that, the most effective of all the solidifying method is medicine and the medicine makes source of the disease, so it is quite natural that the more often one has medical treatment, the more easily one suffers complications and become worse. As a result, one is led up to life-threatening condition in the end. Concerning this, the following are very suggestive. We often hear from doctors that a patient who is very eager to be cured of a disease and uses a precious medicine is most likely to become worse, whereas a patient who is indifferent to the course is most likely to get well. And we also often hear that the more careful about hygiene a person is, the poorer health he or she has and the more careless, the healthier; doctors' families and nurses working at the hospital have a tendency to be ill. Interestingly enough, a person of unusual health, a golden ager says, "I have never depended on the help of a doctor or medicine because I have never become ill," but from our standpoint, the person is healthy precisely because he or she has never see a doctor or take medicine and because healthy, no need of a doctor or medicine; this logic should be deeply appreciated.</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

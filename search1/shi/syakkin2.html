@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syakkin2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 借金是か非か 『光』35号、昭和24(1949)年11月12日発行 私は二十数年間、借金のためあらゆる苦しみを舐（な）めて来た、差押え数回、破産一回受けたるにみても想像されるであろう、それらの経験によって帰納されたものが、今言わんとする借金哲学である。<br><br> 今借金をしようとする人を解剖してみるが、単に借金といっても積極と消極とがある、積極とはこれからある事業を始めるに際し、これだけの借金でやればこれだけ儲かる、すなわち利潤から利子を差引いても相当に残るという計算でやるので、これは誰も知っている、ところが消極の方は入金よりも出金の方が多いのでどうしても足りない、やむを得ず借りるというのが普通ではあるが、いよいよ詰ってくると、先の事など考える余裕がない。<br><br>目前焦眉の急を逃るればいいと差迫った揚句利子の高い安いなど問題にせず、借りられればいいというようになる、今日新聞によく出ている高利貸の高歩の記事などがそれである、こうなると十中の八、九は崖から落ちる寸前ともいっていい、全く断末魔である。<br><br> 以上が借金を大雑把に分けてみたのであるが、今度は、借金なしの場合を考えてみよう、借金無しといえば、まず自分が現在持っている資金で事業を創める、したがって洵（まこと）に小規模であるのは致し方がない、例えばここに十万円の資金があるとする、それをまず半分ないし三分の一くらいで創め、後の金は残しておくのだから、理屈からいえば頗（すこぶ）るまだるっこい、しかもその十万円の金も無論人の世話にはならない、己の腕一本で稼いで蓄積したものでなくてはならない、全く身に着いた金であるから、力が入っている、そうして出来るだけ小さく始めるのである、この例として私は信仰療法を創めたのは昭和九年五月、麹町平河町へ家賃七十七円、五間の家を借りた、少し上等過ぎると思ったが、至極条件が良いので思い切って借りたのである、この頃は古い借金がまだ相当あったが、自分が借金によって覚った哲学を実行しようと思ったからである。<br><br> というのは、その根本を大自然からヒントを得たのである、それは人間を見ればよく分る、オギャアと生れた赤ン坊が、年月を経るに従い段々大きくなり、力も智慧も一人前となる、また植物にしてもそうである、最初小さな種を播くや、芽が出、双葉が出来、真葉が出、幹が伸び、枝が張り、ついに天を摩す巨木になるのであって、これが真理である、とすれば人間もこれに習わなくてはならない、したがってこの理を忠実に実行すれば必ず大成すると覚ると共に何事も出来るだけ小さく始める事を決心したのである。<br><br> ところが、世人多くは最初から大きく華々しくやろうとする、そういう人をよく見るとそのほとんどは失敗に帰してしまう、そういう例は余りにも多く見るのである、世間大抵の事業はそうで、最初は大規模に出発し、失敗してから整理し縮小し止むを得ず小さく再出発して、それから成功するという例はよく見るのである。<br><br> ところで、世の中は決して理屈通り算盤（そろばん）通りにゆくものではない、なぜゆかないかというといろいろ理由があるが、その一番大きな点は精神的影響である、すなわち返済期はキチンキチンと来るから、その心配がいつも頭にコビリついている、もちろん現実は決して予算通りにはゆかない、その煩悶が始終頭脳を占領しているから良い考えが浮ばない、これが最も不利な点である、またいつも懐が淋しいから活気が出ない、表面だけかざっても、内容は物心共にはなはだ貧困であるから、万事消極的で伸びる積極性がない、という訳で、いつも不愉快でおる。<br><br>商人などは安い売物があってもすぐ買えないから儲け損なう、また大抵は返金が延びる事になるから信用が薄くなる、利子も仲々馬鹿にならないもので、長くなると利に利がつく、そうなると焦りが出る、無理をする、何事にも焦りと無理が出たらもうお仕舞だ、私はいつもこの焦りと無理を戒めるが、大抵の人は案外これに気がつかない、焦りと無理は一時は成功しても決して長く続くものではない、その例として二、三かいてみるが 彼の信長も秀吉も焦りと無理で失敗者となった。<br><br>そこへゆくと徳川幕府が三百年の長きを保ったのは家康の方針が、最初天下をとる時から焦りと無理がなかった、彼は有名な負けるが勝ちの戦法に出たので少し無理だと思うと一たん陣をひいて時を待ち、自然に自分に有利になる時を待っていた。<br><br>自然に天下が転がりくるようにした、それがよかったのだ。<br><br>彼の訓言に「人の一生は重き荷を背負うて遠き途を行くがごとし、急くべからず」とは彼の性格をよく表わしている。<br><br>今回の日本の敗戦も種々の原因はあるが、この焦りと無理が災いした事に間違いはない。<br><br>それは最初の出発が非であるからである。<br><br>そこへ気がつかず焦りと無理を通そうとしたのが原因であろう。<br><br> 一番いけないのは、苦しまぎれに借金のための借金をする事である、敗戦の末期頃はそれであって、紙幣の乱発をしたのもそのためで、インフレもそれが大きな原因となったのである。<br><br> 彼の英国労働党内閣が成立間もなく三十七億ドルを米国から借金したが、私はこれは将来経済的苦境の原因とならなければよいがと思ったが、果せるかなその後借金に借金を重ねなければやれない事になった、今度のポンドの切下げもその現れである、大英帝国華やかなりし頃は、植民地その他からの収入年三億ポンドというのであったから、実に今昔の感に堪えないものがある、それまで英国の健全財政は同国の誇りでもあったが、二回にわたる戦争によって今日のようになったのも、またやむを得ない運命とも言えるのである。<br><br> 以上によってみても、借金は否とすべきもの、何事も小さく始めるという真理をかいたが、これを座右銘とされたいのである、もっとも短期で返済可能の確信ある場合に限り、例外としての借金は止むを得ないのである。<br><br> 以上が私の提唱する借金哲学である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Filosofia da Dívida</h2>
 <p>Durante mais de duas décadas, vivenciei toda sorte de sofrimentos em virtude de dívidas. O fato de ter enfrentado inúmeras penhoras de bens e uma declaração de falência permite vislumbrar a dimensão dessa provação. A filosofia sobre o endividamento que agora apresento foi, portanto, forjada a partir dessas amargas experiências.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>O pior de tudo é, em um ato de desespero, contrair novas dívidas para pagar dívidas antigas. Foi o que ocorreu no final da guerra; a emissão desenfreada de papel-moeda, uma medida desse tipo, tornou-se uma das principais causas da inflação. Vejamos o caso da Grã-Bretanha: logo após sua formação, o governo do Partido Trabalhista contraiu um empréstimo de 3,7 bilhões de dólares dos Estados Unidos. Na época, pensei que tal medida poderia se tornar a semente de futuras dificuldades econômicas e, como previsto, foi o que aconteceu. O país se viu obrigado a contrair um empréstimo após o outro para se manter. A recente desvalorização da libra é um sintoma dessa condição. É com pesar que recordamos o apogeu do Império Britânico, quando suas receitas anuais, provenientes das colônias e de outras fontes, chegavam a trezentos milhões de libras. A solidez de suas finanças era motivo de orgulho nacional, mas as duas grandes guerras levaram o país a este destino, que, de certa forma, pode ser considerado inevitável.</p>
 <p>Diante do exposto, fica claro que a dívida deve ser, em princípio, rechaçada. A verdade que apresento é a de começar tudo em pequena escala. Façam deste o seu lema de vida. Evidentemente, empréstimos de curto prazo, com a certeza absoluta de sua quitação, podem ser considerados uma exceção aceitável.</p>
 <p>Esta é, em suma, a filosofia sobre o endividamento que proponho.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 借金是か非か 『光』35号、昭和24(1949)年11月12日発行 私は二十数年間、借金のためあらゆる苦しみを舐（な）めて来た、差押え数回、破産一回受けたるにみても想像されるであろう、それらの経験によって帰納されたものが、今言わんとする借金哲学である。<br/><br/> 今借金をしようとする人を解剖してみるが、単に借金といっても積極と消極とがある、積極とはこれからある事業を始めるに際し、これだけの借金でやればこれだけ儲かる、すなわち利潤から利子を差引いても相当に残るという計算でやるので、これは誰も知っている、ところが消極の方は入金よりも出金の方が多いのでどうしても足りない、やむを得ず借りるというのが普通ではあるが、いよいよ詰ってくると、先の事など考える余裕がない。<br/><br/>目前焦眉の急を逃るればいいと差迫った揚句利子の高い安いなど問題にせず、借りられればいいというようになる、今日新聞によく出ている高利貸の高歩の記事などがそれである、こうなると十中の八、九は崖から落ちる寸前ともいっていい、全く断末魔である。<br/><br/> 以上が借金を大雑把に分けてみたのであるが、今度は、借金なしの場合を考えてみよう、借金無しといえば、まず自分が現在持っている資金で事業を創める、したがって洵（まこと）に小規模であるのは致し方がない、例えばここに十万円の資金があるとする、それをまず半分ないし三分の一くらいで創め、後の金は残しておくのだから、理屈からいえば頗（すこぶ）るまだるっこい、しかもその十万円の金も無論人の世話にはならない、己の腕一本で稼いで蓄積したものでなくてはならない、全く身に着いた金であるから、力が入っている、そうして出来るだけ小さく始めるのである、この例として私は信仰療法を創めたのは昭和九年五月、麹町平河町へ家賃七十七円、五間の家を借りた、少し上等過ぎると思ったが、至極条件が良いので思い切って借りたのである、この頃は古い借金がまだ相当あったが、自分が借金によって覚った哲学を実行しようと思ったからである。<br/><br/> というのは、その根本を大自然からヒントを得たのである、それは人間を見ればよく分る、オギャアと生れた赤ン坊が、年月を経るに従い段々大きくなり、力も智慧も一人前となる、また植物にしてもそうである、最初小さな種を播くや、芽が出、双葉が出来、真葉が出、幹が伸び、枝が張り、ついに天を摩す巨木になるのであって、これが真理である、とすれば人間もこれに習わなくてはならない、したがってこの理を忠実に実行すれば必ず大成すると覚ると共に何事も出来るだけ小さく始める事を決心したのである。<br/><br/> ところが、世人多くは最初から大きく華々しくやろうとする、そういう人をよく見るとそのほとんどは失敗に帰してしまう、そういう例は余りにも多く見るのである、世間大抵の事業はそうで、最初は大規模に出発し、失敗してから整理し縮小し止むを得ず小さく再出発して、それから成功するという例はよく見るのである。<br/><br/> ところで、世の中は決して理屈通り算盤（そろばん）通りにゆくものではない、なぜゆかないかというといろいろ理由があるが、その一番大きな点は精神的影響である、すなわち返済期はキチンキチンと来るから、その心配がいつも頭にコビリついている、もちろん現実は決して予算通りにはゆかない、その煩悶が始終頭脳を占領しているから良い考えが浮ばない、これが最も不利な点である、またいつも懐が淋しいから活気が出ない、表面だけかざっても、内容は物心共にはなはだ貧困であるから、万事消極的で伸びる積極性がない、という訳で、いつも不愉快でおる。<br/><br/>商人などは安い売物があってもすぐ買えないから儲け損なう、また大抵は返金が延びる事になるから信用が薄くなる、利子も仲々馬鹿にならないもので、長くなると利に利がつく、そうなると焦りが出る、無理をする、何事にも焦りと無理が出たらもうお仕舞だ、私はいつもこの焦りと無理を戒めるが、大抵の人は案外これに気がつかない、焦りと無理は一時は成功しても決して長く続くものではない、その例として二、三かいてみるが 彼の信長も秀吉も焦りと無理で失敗者となった。<br/><br/>そこへゆくと徳川幕府が三百年の長きを保ったのは家康の方針が、最初天下をとる時から焦りと無理がなかった、彼は有名な負けるが勝ちの戦法に出たので少し無理だと思うと一たん陣をひいて時を待ち、自然に自分に有利になる時を待っていた。<br/><br/>自然に天下が転がりくるようにした、それがよかったのだ。<br/><br/>彼の訓言に「人の一生は重き荷を背負うて遠き途を行くがごとし、急くべからず」とは彼の性格をよく表わしている。<br/><br/>今回の日本の敗戦も種々の原因はあるが、この焦りと無理が災いした事に間違いはない。<br/><br/>それは最初の出発が非であるからである。<br/><br/>そこへ気がつかず焦りと無理を通そうとしたのが原因であろう。<br/><br/> 一番いけないのは、苦しまぎれに借金のための借金をする事である、敗戦の末期頃はそれであって、紙幣の乱発をしたのもそのためで、インフレもそれが大きな原因となったのである。<br/><br/> 彼の英国労働党内閣が成立間もなく三十七億ドルを米国から借金したが、私はこれは将来経済的苦境の原因とならなければよいがと思ったが、果せるかなその後借金に借金を重ねなければやれない事になった、今度のポンドの切下げもその現れである、大英帝国華やかなりし頃は、植民地その他からの収入年三億ポンドというのであったから、実に今昔の感に堪えないものがある、それまで英国の健全財政は同国の誇りでもあったが、二回にわたる戦争によって今日のようになったのも、またやむを得ない運命とも言えるのである。<br/><br/> 以上によってみても、借金は否とすべきもの、何事も小さく始めるという真理をかいたが、これを座右銘とされたいのである、もっとも短期で返済可能の確信ある場合に限り、例外としての借金は止むを得ないのである。<br/><br/> 以上が私の提唱する借金哲学である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

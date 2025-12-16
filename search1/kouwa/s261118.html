@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261118</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月18日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月十八日 霊憑りのために、時々問題を起こしたり、色々あるんですよ。<br><br>霊憑りと言うのを、全然いけないと言う訳にはいかないけれども、まず九割まではいけないのが多いですね。<br><br>だから、それについて、一体霊憑りと言うのはどう言うものかという事を、よく知る事ですね。<br><br>霊憑りでも、邪霊と本当に正しいのと両方ありますからね。<br><br>その関係なんかを、はっきり知っておけば安心ですから、それについて詳しく書いたものです。<br><br> （御論文「霊憑りについて」のあとの御教え）【栄光 一三三号】 これに書き忘れたが、正守護神が人間に何か知らせる場合に、狐霊を使ってやる事があるというのは、狐霊は人間に喋ったりする事が、非常にうまいので、そう言う場合に正守護神が狐霊を使うと狐霊が憑って色々喋るが、ところが正守護神の命じたままを言えばよいが、狐は――何しろ狐ですから、地金が出るんですよ。<br><br>それで余計な事を喋る。<br><br>そう言うのを見ると、狐霊だか本当の正守護神だか分からない事がある。<br><br>これは狐だから本当にしちゃいけないと思う事もあるし、これは正守護神だから本当だと思う事もある。<br><br>だから喋る言葉によって、正しいか正しくないかを判断する。<br><br>そして正しい所だけを取れば、正守護神の思う通りになる。<br><br>その見別けが難しい――とも言えるし、常識的な判断をすれば、そう難しくない。<br><br>それをはっきり見極めるのが審神と言う。<br><br>審神と言うのはそう難しくないです。<br><br>言う事が正しいか、正しくないかを判断するんですね。<br><br>正しいか正しくないかを判断するにも意味がある。<br><br>小乗か大乗かですね。<br><br>小乗で良くてもいけない。<br><br>大乗から見て正しいと言う事が、本当の正しさですから、その見別けですね。<br><br>その点を、分かるようにいつも書いているんですよ。<br><br>大乗と小乗もね。<br><br>ですから、どこまでも、信仰は大乗と小乗を基本として考えていくと間違いないですね。<br><br>ところが、ちょっと聞くと、小乗の方が本当のように思えるんです。<br><br>正しいようにね。<br><br> （御論文「算盤と能率」のあとの御教え） 今ので大体分かっただろうが、一番――人間が何かやる場合に肝腎なのは、急所を知る事です。<br><br>鉄砲玉みたいに――敵を倒すのに一発で――だから、一発で敵にぶつかるようにする。<br><br>そううまくは行かないだろうが、それを、あんまり無駄玉を打ち過ぎるんですね。<br><br> 私はつい二、三日前に――鉱山をやってますが――山に行ったんです。<br><br>それで初めて分ったんですが、行って良かったと思ったね。<br><br>なんだか行ってみたくてしょうがなかったので行ったが、神様に行かされたんですね。<br><br>やっぱり全体から見て、全然見当違いをやっている。<br><br>無駄玉やっている。<br><br>一カ所だけは、今月の月初めに急所をやる方法を指図したので、それはその通り準備してましたがまだまだ素晴らしい急所があったんですが、それは全然無頓着だった。<br><br>もっとも、そこの許可をうけたのは十日前だから、後回しにしていた。<br><br>私は許可を受けたらその日にやる主義ですね。<br><br>それでそう言う素晴らしい所を発見した訳です。<br><br>段々――考えながら帰ってくると一刻も早くやらなければならない。<br><br>帰った晩に――十三日の晩に帰ってきたが、以前の坑道詳しく調べて帰れ、と言う電報を打った。<br><br>十四日の朝電報を打ったが、調べて昨日返ってきた。<br><br>私の思った通りで、すぐに行って、こう言う風にしろと言ったところが、二十一日まで待っていただきたいと言う。<br><br>私はちょうど映画があったので、聞きっぱなしであったが、映画を見て帰る途中、電話をかけて、明日行けと言った。<br><br>それで二十一日までに私が言った通りにして帰れと、すっかり指図したんです。<br><br>そう言う事が、世間並のやり方と異なる私の能率的な事です。<br><br>私が昨夜言ったので、今朝行ったんです。<br><br>そうすると十八、十九、二十、二十一――四日間節約した訳ですね。<br><br>これが今言う能率ですね。<br><br>私のやる仕事ですね。<br><br>だからそういう点が、見込みがついて良いと言う事になると、一刻も早くやるんですね。<br><br>そうかと言ってあせってはいけない。<br><br>あせらないで、物の無駄がなく、急所急所をやっていくんですね。<br><br>十三日に行った時に、一番の山の急所を発見したんです。<br><br>だから、発見した以上は一刻も早く手を付けるというやり方ですから、うまく行くのは当たり前なんです。<br><br>そう言う事が普通の人は、割合のんきなんです。<br><br>今の論文と言うのは、そう言う意味なんですね。<br><br> 私は随分仕事をたくさんしますが、一々細かい話は出来ないんですがね。<br><br>普通の人が十日もかかるような事が、大抵一日でやってしまいますがね。<br><br>一昨日、昨日も、東京に行きましたが、美術の事ですがね。<br><br>二日間で素晴らしい事をやりましたがね。<br><br>普通の人もある程度まねは出来るんです。<br><br>何でもかんでも、急所を見つけるんです。<br><br>浄霊でもそうですね。<br><br>それで、急所を見つけるとそこをやる。<br><br>一つの主義としてね。<br><br>癖としてね。<br><br>そうすると、案外早く行くんです。<br><br>しかし、無理にやってはいけない。<br><br>どうして明主様はやらないんだろうという思うような事がありますよ。<br><br>それは、急所が来ないんです。<br><br>それまではのんきにしておいて、急所と時期が来たら疾風迅雷、素晴らしく早い、だからほとんど失敗しないですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Discriminação Espiritual e a Eficiência Divina</h2>
 <p>A possessão espiritual é um fenômeno que, com frequência, suscita problemas e diversas situações complexas. Embora não se possa condenar indiscriminadamente toda e qualquer manifestação dessa natureza, a verdade é que, em sua esmagadora maioria — cerca de noventa por cento dos casos —, elas são prejudiciais. Portanto, é imprescindível compreender a fundo o que de fato constitui a possessão espiritual. É crucial saber que existem tanto as manifestações de espíritos malignos quanto as de natureza genuinamente elevada. Ter um conhecimento claro a respeito dessas distinções nos proporciona segurança, e é sobre isso que escrevi em detalhes.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Dito isso, não se deve agir com precipitação. A chave é avançar sem desperdício, focando em cada ponto vital, sem ansiedade. Na minha visita do dia treze, descobri o ponto mais crucial daquela montanha. Uma vez feita a descoberta, meu método é iniciar o trabalho o mais breve possível. Por isso, o sucesso é uma consequência natural. As pessoas comuns, em geral, são demasiado complacentes nessas questões. O sentido do artigo que escrevi reside exatamente nisso.</p>
 <p>Eu realizo uma quantidade imensa de trabalho, embora não possa detalhar cada uma de minhas atividades. Tarefas que para uma pessoa comum levariam dez dias, eu geralmente concluo em um. Anteontem e ontem mesmo, estive em Tóquio tratando de assuntos de arte e realizei feitos notáveis em apenas dois dias. Em certa medida, qualquer pessoa pode imitar esse método. O segredo, em tudo, é encontrar o ponto vital. O mesmo princípio se aplica ao Johrei. Encontre o ponto vital e concentre-se nele. Adote isso como um princípio, como um hábito, e verá que os resultados surgirão com uma rapidez surpreendente.</p>
 <p>Todavia, é fundamental não forçar as situações. Haverá momentos em que poderão se perguntar: "Por que Meishu-Sama não está agindo?". A resposta é que o ponto vital e o tempo oportuno ainda não chegaram. Até que esse momento se apresente, permaneço sereno. Mas quando o ponto vital e a hora certa se revelam, ajo com a celeridade de um vendaval e a força de um trovão. É por essa razão que raramente fracasso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月18日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月十八日 霊憑りのために、時々問題を起こしたり、色々あるんですよ。<br/><br/>霊憑りと言うのを、全然いけないと言う訳にはいかないけれども、まず九割まではいけないのが多いですね。<br/><br/>だから、それについて、一体霊憑りと言うのはどう言うものかという事を、よく知る事ですね。<br/><br/>霊憑りでも、邪霊と本当に正しいのと両方ありますからね。<br/><br/>その関係なんかを、はっきり知っておけば安心ですから、それについて詳しく書いたものです。<br/><br/> （御論文「霊憑りについて」のあとの御教え）【栄光 一三三号】 これに書き忘れたが、正守護神が人間に何か知らせる場合に、狐霊を使ってやる事があるというのは、狐霊は人間に喋ったりする事が、非常にうまいので、そう言う場合に正守護神が狐霊を使うと狐霊が憑って色々喋るが、ところが正守護神の命じたままを言えばよいが、狐は――何しろ狐ですから、地金が出るんですよ。<br/><br/>それで余計な事を喋る。<br/><br/>そう言うのを見ると、狐霊だか本当の正守護神だか分からない事がある。<br/><br/>これは狐だから本当にしちゃいけないと思う事もあるし、これは正守護神だから本当だと思う事もある。<br/><br/>だから喋る言葉によって、正しいか正しくないかを判断する。<br/><br/>そして正しい所だけを取れば、正守護神の思う通りになる。<br/><br/>その見別けが難しい――とも言えるし、常識的な判断をすれば、そう難しくない。<br/><br/>それをはっきり見極めるのが審神と言う。<br/><br/>審神と言うのはそう難しくないです。<br/><br/>言う事が正しいか、正しくないかを判断するんですね。<br/><br/>正しいか正しくないかを判断するにも意味がある。<br/><br/>小乗か大乗かですね。<br/><br/>小乗で良くてもいけない。<br/><br/>大乗から見て正しいと言う事が、本当の正しさですから、その見別けですね。<br/><br/>その点を、分かるようにいつも書いているんですよ。<br/><br/>大乗と小乗もね。<br/><br/>ですから、どこまでも、信仰は大乗と小乗を基本として考えていくと間違いないですね。<br/><br/>ところが、ちょっと聞くと、小乗の方が本当のように思えるんです。<br/><br/>正しいようにね。<br/><br/> （御論文「算盤と能率」のあとの御教え） 今ので大体分かっただろうが、一番――人間が何かやる場合に肝腎なのは、急所を知る事です。<br/><br/>鉄砲玉みたいに――敵を倒すのに一発で――だから、一発で敵にぶつかるようにする。<br/><br/>そううまくは行かないだろうが、それを、あんまり無駄玉を打ち過ぎるんですね。<br/><br/> 私はつい二、三日前に――鉱山をやってますが――山に行ったんです。<br/><br/>それで初めて分ったんですが、行って良かったと思ったね。<br/><br/>なんだか行ってみたくてしょうがなかったので行ったが、神様に行かされたんですね。<br/><br/>やっぱり全体から見て、全然見当違いをやっている。<br/><br/>無駄玉やっている。<br/><br/>一カ所だけは、今月の月初めに急所をやる方法を指図したので、それはその通り準備してましたがまだまだ素晴らしい急所があったんですが、それは全然無頓着だった。<br/><br/>もっとも、そこの許可をうけたのは十日前だから、後回しにしていた。<br/><br/>私は許可を受けたらその日にやる主義ですね。<br/><br/>それでそう言う素晴らしい所を発見した訳です。<br/><br/>段々――考えながら帰ってくると一刻も早くやらなければならない。<br/><br/>帰った晩に――十三日の晩に帰ってきたが、以前の坑道詳しく調べて帰れ、と言う電報を打った。<br/><br/>十四日の朝電報を打ったが、調べて昨日返ってきた。<br/><br/>私の思った通りで、すぐに行って、こう言う風にしろと言ったところが、二十一日まで待っていただきたいと言う。<br/><br/>私はちょうど映画があったので、聞きっぱなしであったが、映画を見て帰る途中、電話をかけて、明日行けと言った。<br/><br/>それで二十一日までに私が言った通りにして帰れと、すっかり指図したんです。<br/><br/>そう言う事が、世間並のやり方と異なる私の能率的な事です。<br/><br/>私が昨夜言ったので、今朝行ったんです。<br/><br/>そうすると十八、十九、二十、二十一――四日間節約した訳ですね。<br/><br/>これが今言う能率ですね。<br/><br/>私のやる仕事ですね。<br/><br/>だからそういう点が、見込みがついて良いと言う事になると、一刻も早くやるんですね。<br/><br/>そうかと言ってあせってはいけない。<br/><br/>あせらないで、物の無駄がなく、急所急所をやっていくんですね。<br/><br/>十三日に行った時に、一番の山の急所を発見したんです。<br/><br/>だから、発見した以上は一刻も早く手を付けるというやり方ですから、うまく行くのは当たり前なんです。<br/><br/>そう言う事が普通の人は、割合のんきなんです。<br/><br/>今の論文と言うのは、そう言う意味なんですね。<br/><br/> 私は随分仕事をたくさんしますが、一々細かい話は出来ないんですがね。<br/><br/>普通の人が十日もかかるような事が、大抵一日でやってしまいますがね。<br/><br/>一昨日、昨日も、東京に行きましたが、美術の事ですがね。<br/><br/>二日間で素晴らしい事をやりましたがね。<br/><br/>普通の人もある程度まねは出来るんです。<br/><br/>何でもかんでも、急所を見つけるんです。<br/><br/>浄霊でもそうですね。<br/><br/>それで、急所を見つけるとそこをやる。<br/><br/>一つの主義としてね。<br/><br/>癖としてね。<br/><br/>そうすると、案外早く行くんです。<br/><br/>しかし、無理にやってはいけない。<br/><br/>どうして明主様はやらないんだろうという思うような事がありますよ。<br/><br/>それは、急所が来ないんです。<br/><br/>それまではのんきにしておいて、急所と時期が来たら疾風迅雷、素晴らしく早い、だからほとんど失敗しないですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

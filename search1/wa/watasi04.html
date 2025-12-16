@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私と映画 未発表『私物語』昭和27(1952)年執筆 私の映画の好きな事は、信者はよく知っているが、何しろ今でも隔日には必ず観る事にしている。<br><br>そこで私が映画に親しむようになった最初からの経路をかいてみるが、私が一番先に映画（その時代は活動写真といった）を見たのは十五、六歳の頃であった。<br><br>その時は浅草公園六区に電気館という館があって、これが映画館としては東京での最初のものであろう。<br><br>何しろ写真が動くんだから驚いたのはもちろんで、波が動いたり、犬が駆出したり、町を人が歩いたりするのには、ただ唖然とするばかりだった。<br><br>何と不思議な面白いものが出来たわいと思って、その頃浅草に住んでいたから、暇さえあれば見に行ったものである。<br><br>その内に単純な実写物から、劇的のものへと進んで行ったと共に、当時神田錦町に錦輝館（きんきかん）という今でいう倶楽部（クラブ）のような、公会堂のようなものがあって、界隈での唯一の映画館になっていた。<br><br>その頃『浮かれ閻魔』という題名の、確かフランスパテー会社の作品であったが、仲々面白いので評判となり、連日大入り満員の盛況だ。<br><br>当時はもちろん外国映画ばかりで、ほとんどはフランスのパテーものであったが、その内イタリア物も少しずつ入って来たが、パテーの方は実写物、劇的や子供向のものが専門で万人向がしたが、イタリア物の方は歴史的の大掛りのものが大部分で、たまに喜劇物が混るくらいであった。<br><br> そうこうする内、浅草公園は電気館が益々発展し、映画といえば電気館という程であった。<br><br>何しろ当時は珍しい事とて、どの館も連日押すな押すなであって、今と異（ちが）い小さな館ばかりなので、観るのに大変であった。<br><br>しかし映画の方は急速な進歩をたどりつつ段々長尺物（ちょうじゃくもの）となり、面白いものが出来るようになったが、無論無声映画時代の事とて、弁士の上手下手が大いに影響したのである。<br><br>当時弁士として鳴らしたのが有名な染井三郎君で、暫くしてから今の古川緑波（ロッパ）君が助手として入った事を憶えている。<br><br>その後付近に三友館というのが出来たが、ここは映画とキネオラマと言って、動くパノラマのようなもので、色電気で風雨雷鳴のような天然現象を巧みに表わすので、一時は大いに受けたものである。<br><br>それから次々出来たのが富士館、大勝館、オペラ館、帝国館、日本館などであったが、当時大当りした映画といえばジゴマ、名金、天馬等で、その頃からアメリカ物が入って来たのである。<br><br>それまではフランス、ドイツ、イタリア物ばかりであった。<br><br>私が初めてアメリカ物を見た時は、俳優の演技の迫力、セットの大掛り、テンポの早い事等で、見ていて飽きないから、俄然として人気が集まり、今日と同様映画は西部劇大流行で、しかも連続物と来ているから、大衆はアッピールされてしまったのも無理はない。<br><br>その頃の西部劇で人気を博したのが、ロローという日本人型の小男で、その敏捷軽快なる早業は、見ていて気持がいいものであった。<br><br>そんな訳で映画といえばアメリカ物と決ったようになってしまい、今日に至ったのである。<br><br> そうこうする内、これもアメリカ独特の喜劇物が生まれて、到るところ人気を博した。<br><br>彼のチャップリン、ロイド、キートン等の人気者が出たのもこの頃であった。<br><br>もっともその以前イタリア映画で、新馬鹿大将（アンドリュウ）というすこぶる小男の喜劇俳優があったが、これも一時は人気を湧かしたもので、古い人は知っているであろう。<br><br>またその頃米画には時々大物が入ってファンを驚かした。<br><br>その中で今でも記憶に残っている物に、当時の巨匠グリフィスの大作であった。<br><br>特に大物で題は忘れたが、原始時代から現代までの文化の変遷を描いたもので、全世界を唸らしたという事である。<br><br>またイタリア物ではミラノ会社の作品がほとんどで、十字軍やネロ国王〔皇帝〕、クオバヂス（クオ・ヴァディス）など、仲々大仕掛のものがあった。<br><br>そうして当時米国の会社で主なるものとしては、パラマウント、フォックス、メトロ、ユニバーサル等で、その中で今でも忘れられないのは、ユニバーサル系統の小会社でブリュウ〔ブール〕バードというのがあった。<br><br>この会杜の作品はそれまで全国を風靡していたドタバタ物とは逆に、非常に落着いたちょうど欧州のロマンス文学に一転機を与えた彼のイプセンが現れたと同じような行き方で、非常に文化的でケレンがなく、真面目そのもののテーマであるから別の味があったので、私は見逃さないようにした。<br><br>このブリュウバードは市内の二、三の特殊館だけで、その頃新橋の金春館（弁士は滝田天霊君）赤坂の葵館（同徳川夢声君）が担任していて、ファンを唸らしたものである。<br><br> 話は後〔前〕へ戻るが、最初浅草公園だけに限られていた映画館は、その後市内各所に出来るようになり、しかも関東大震災後は至る所に出来るようになった。<br><br>そうして長い間子供専門であった日本映画も、ようやく大人物になって来た。<br><br>私なども最初の尾上松之助時代は見る気にはなれなかったが、私が日本映画を見始めたのは、今から約十数年前松竹の『夏の陣』という当時林長次郎、今の長谷川一夫君の坂崎出羽守を見た時からであった。<br><br>この映画はその大仕掛な事や、種々の点が洋画にも劣らないので驚いた。<br><br>これをキッカケとして私はこの時から、日本映画ファンになってしまったのである。<br><br>次に近頃の事は誰も知っているからこのくらいにしておくが、ここで現在の邦画について、いささか感ずる事をかいてみたいと思うのである。<br><br> 昔と異い近頃の日本映画は、大分進歩はして来たが、遠慮なく言うと非常に悪い面が残っている。<br><br>その点私は大いに警告を与えたいのである。<br><br>まず一口にいうと日本映画のレベルの低さである。<br><br>それについてよくいう言葉に、日本映画は金を掛けないから、外画のような良いものが出来ないという言い訳で、これが最も間違っている。<br><br>なぜなれば非常に評判になった近頃のイタリア映画にしても、恐らく金の掛っていない事は日本以上であろう。<br><br>それにもかかわらずアレ程評判になるというのは、どこかに大いに魅力がなければならない。<br><br>ではどの点にあるかというと、何としてもそのテーマの真摯（しんし）さで、いささかのケレンもない。<br><br>飽くまで観客を甘くみていない。<br><br>一言にしていえば映画性を避けて、本当に人間のあるがままの姿、にじみ出る社会苦のうめきをよく描いている。<br><br>またすこぶる徹底的で、人間の悩みに対する批判の鋭さが、観終ってから何か万感胸に迫るものがある。<br><br> これに較べると日本映画の甘さはお話にならない。<br><br>いかにも映画的、商業主義的すぎる。<br><br>ところがこの結果が逆である事に気が付かないらしい。<br><br>何よりも甘い邦画を棄てて、外画に吸われるファンの多い事である。<br><br>従って大いに警告したいのは、日本のプロデューサーなり、監督の考え方なりを、一日も早く断然切替えるべきである。<br><br>一口に言えば全体的レベルを高める事である。<br><br>飽くまで観客の胸に喰い入るものを作る事である。<br><br>終いまで我を忘れて観客を椅子に縛りつけてしまわなければならない。<br><br>それらについて思い付いたままをかいてみるが、まず時代劇でこれについても見逃し得ない一大欠陥があるから露呈してみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Relação com o Cinema</h2>
 <p>Os fiéis bem sabem de meu apreço pelo cinema; com efeito, até hoje, mantenho o hábito de assistir a um filme em dias alternados. Descreverei, portanto, a trajetória de meu envolvimento com a sétima arte, desde seus primórdios. Meu primeiro contato com o cinema — na época, chamado de “fotografia animada” — ocorreu por volta dos meus quinze ou dezesseis anos. A sala de exibição era o Denkikan, no bairro de Asakusa, em Tóquio, provavelmente o primeiro cinema da cidade. O espanto que senti ao ver as imagens em movimento foi, naturalmente, indescritível. Ondas que se moviam, um cão que corria, pessoas que caminhavam pela cidade — tudo aquilo me deixava simplesmente atônito. Maravilhado com aquela invenção tão fascinante e peculiar, eu, que residia em Asakusa, aproveitava todo tempo livre para frequentar o local.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Não me estenderei sobre os tempos mais recentes, pois são de conhecimento geral. Gostaria, no entanto, de tecer algumas considerações sobre o estado atual do cinema japonês. Ainda que o cinema japonês tenha progredido consideravelmente em relação ao passado, devo dizer, sem rodeios, que ele ainda padece de um aspecto extremamente negativo. E é sobre isso que desejo fazer um sério alerta. Em suma, refiro-me ao baixo nível das produções japonesas.</p>
 <p>É comum ouvir a justificativa de que os filmes japoneses não alcançam a qualidade das produções estrangeiras por falta de investimento financeiro. Tal argumento, porém, é o mais equivocado de todos. Basta observar o cinema italiano recente, que tem recebido tantos elogios. O custo de suas produções é, muito provavelmente, inferior ao das japonesas. Se, apesar disso, tais filmes alcançam tamanho reconhecimento, é porque possuem um grande atrativo em algum outro aspecto. E onde reside esse atrativo? Reside, inegavelmente, na sinceridade de seus temas, na ausência de qualquer artifício. Seus realizadores não subestimam a inteligência do espectador. Em uma palavra, eles evitam o que é meramente “cinematográfico” para retratar o ser humano como ele é, expressando com maestria o lamento que brota do sofrimento social. Sua abordagem é, ademais, incisiva, e a agudeza da crítica aos dilemas humanos deixa no espectador, ao final da sessão, uma miríade de sentimentos que lhe oprimem o peito.</p>
 <p>Comparada a essa profundidade, a superficialidade do cinema japonês é lastimável. É excessivamente cinematográfico, demasiadamente comercial. O que os realizadores parecem não perceber é que essa abordagem produz o efeito contrário ao desejado, pois leva muitos espectadores a abandonarem os filmes nacionais, tão simplistas, e a se sentirem atraídos pelas obras estrangeiras. Portanto, meu alerta é veemente: os produtores e diretores japoneses precisam mudar sua mentalidade de forma drástica e o mais rápido possível. Em resumo, é imperativo elevar o nível geral das produções. É preciso criar obras que penetrem fundo na alma do espectador, que o prendam à cadeira, absorto, até o último instante. A seguir, apresentarei algumas ideias que me ocorrem a esse respeito, começando por expor uma falha gravíssima e recorrente nos filmes de época.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私と映画 未発表『私物語』昭和27(1952)年執筆 私の映画の好きな事は、信者はよく知っているが、何しろ今でも隔日には必ず観る事にしている。<br/><br/>そこで私が映画に親しむようになった最初からの経路をかいてみるが、私が一番先に映画（その時代は活動写真といった）を見たのは十五、六歳の頃であった。<br/><br/>その時は浅草公園六区に電気館という館があって、これが映画館としては東京での最初のものであろう。<br/><br/>何しろ写真が動くんだから驚いたのはもちろんで、波が動いたり、犬が駆出したり、町を人が歩いたりするのには、ただ唖然とするばかりだった。<br/><br/>何と不思議な面白いものが出来たわいと思って、その頃浅草に住んでいたから、暇さえあれば見に行ったものである。<br/><br/>その内に単純な実写物から、劇的のものへと進んで行ったと共に、当時神田錦町に錦輝館（きんきかん）という今でいう倶楽部（クラブ）のような、公会堂のようなものがあって、界隈での唯一の映画館になっていた。<br/><br/>その頃『浮かれ閻魔』という題名の、確かフランスパテー会社の作品であったが、仲々面白いので評判となり、連日大入り満員の盛況だ。<br/><br/>当時はもちろん外国映画ばかりで、ほとんどはフランスのパテーものであったが、その内イタリア物も少しずつ入って来たが、パテーの方は実写物、劇的や子供向のものが専門で万人向がしたが、イタリア物の方は歴史的の大掛りのものが大部分で、たまに喜劇物が混るくらいであった。<br/><br/> そうこうする内、浅草公園は電気館が益々発展し、映画といえば電気館という程であった。<br/><br/>何しろ当時は珍しい事とて、どの館も連日押すな押すなであって、今と異（ちが）い小さな館ばかりなので、観るのに大変であった。<br/><br/>しかし映画の方は急速な進歩をたどりつつ段々長尺物（ちょうじゃくもの）となり、面白いものが出来るようになったが、無論無声映画時代の事とて、弁士の上手下手が大いに影響したのである。<br/><br/>当時弁士として鳴らしたのが有名な染井三郎君で、暫くしてから今の古川緑波（ロッパ）君が助手として入った事を憶えている。<br/><br/>その後付近に三友館というのが出来たが、ここは映画とキネオラマと言って、動くパノラマのようなもので、色電気で風雨雷鳴のような天然現象を巧みに表わすので、一時は大いに受けたものである。<br/><br/>それから次々出来たのが富士館、大勝館、オペラ館、帝国館、日本館などであったが、当時大当りした映画といえばジゴマ、名金、天馬等で、その頃からアメリカ物が入って来たのである。<br/><br/>それまではフランス、ドイツ、イタリア物ばかりであった。<br/><br/>私が初めてアメリカ物を見た時は、俳優の演技の迫力、セットの大掛り、テンポの早い事等で、見ていて飽きないから、俄然として人気が集まり、今日と同様映画は西部劇大流行で、しかも連続物と来ているから、大衆はアッピールされてしまったのも無理はない。<br/><br/>その頃の西部劇で人気を博したのが、ロローという日本人型の小男で、その敏捷軽快なる早業は、見ていて気持がいいものであった。<br/><br/>そんな訳で映画といえばアメリカ物と決ったようになってしまい、今日に至ったのである。<br/><br/> そうこうする内、これもアメリカ独特の喜劇物が生まれて、到るところ人気を博した。<br/><br/>彼のチャップリン、ロイド、キートン等の人気者が出たのもこの頃であった。<br/><br/>もっともその以前イタリア映画で、新馬鹿大将（アンドリュウ）というすこぶる小男の喜劇俳優があったが、これも一時は人気を湧かしたもので、古い人は知っているであろう。<br/><br/>またその頃米画には時々大物が入ってファンを驚かした。<br/><br/>その中で今でも記憶に残っている物に、当時の巨匠グリフィスの大作であった。<br/><br/>特に大物で題は忘れたが、原始時代から現代までの文化の変遷を描いたもので、全世界を唸らしたという事である。<br/><br/>またイタリア物ではミラノ会社の作品がほとんどで、十字軍やネロ国王〔皇帝〕、クオバヂス（クオ・ヴァディス）など、仲々大仕掛のものがあった。<br/><br/>そうして当時米国の会社で主なるものとしては、パラマウント、フォックス、メトロ、ユニバーサル等で、その中で今でも忘れられないのは、ユニバーサル系統の小会社でブリュウ〔ブール〕バードというのがあった。<br/><br/>この会杜の作品はそれまで全国を風靡していたドタバタ物とは逆に、非常に落着いたちょうど欧州のロマンス文学に一転機を与えた彼のイプセンが現れたと同じような行き方で、非常に文化的でケレンがなく、真面目そのもののテーマであるから別の味があったので、私は見逃さないようにした。<br/><br/>このブリュウバードは市内の二、三の特殊館だけで、その頃新橋の金春館（弁士は滝田天霊君）赤坂の葵館（同徳川夢声君）が担任していて、ファンを唸らしたものである。<br/><br/> 話は後〔前〕へ戻るが、最初浅草公園だけに限られていた映画館は、その後市内各所に出来るようになり、しかも関東大震災後は至る所に出来るようになった。<br/><br/>そうして長い間子供専門であった日本映画も、ようやく大人物になって来た。<br/><br/>私なども最初の尾上松之助時代は見る気にはなれなかったが、私が日本映画を見始めたのは、今から約十数年前松竹の『夏の陣』という当時林長次郎、今の長谷川一夫君の坂崎出羽守を見た時からであった。<br/><br/>この映画はその大仕掛な事や、種々の点が洋画にも劣らないので驚いた。<br/><br/>これをキッカケとして私はこの時から、日本映画ファンになってしまったのである。<br/><br/>次に近頃の事は誰も知っているからこのくらいにしておくが、ここで現在の邦画について、いささか感ずる事をかいてみたいと思うのである。<br/><br/> 昔と異い近頃の日本映画は、大分進歩はして来たが、遠慮なく言うと非常に悪い面が残っている。<br/><br/>その点私は大いに警告を与えたいのである。<br/><br/>まず一口にいうと日本映画のレベルの低さである。<br/><br/>それについてよくいう言葉に、日本映画は金を掛けないから、外画のような良いものが出来ないという言い訳で、これが最も間違っている。<br/><br/>なぜなれば非常に評判になった近頃のイタリア映画にしても、恐らく金の掛っていない事は日本以上であろう。<br/><br/>それにもかかわらずアレ程評判になるというのは、どこかに大いに魅力がなければならない。<br/><br/>ではどの点にあるかというと、何としてもそのテーマの真摯（しんし）さで、いささかのケレンもない。<br/><br/>飽くまで観客を甘くみていない。<br/><br/>一言にしていえば映画性を避けて、本当に人間のあるがままの姿、にじみ出る社会苦のうめきをよく描いている。<br/><br/>またすこぶる徹底的で、人間の悩みに対する批判の鋭さが、観終ってから何か万感胸に迫るものがある。<br/><br/> これに較べると日本映画の甘さはお話にならない。<br/><br/>いかにも映画的、商業主義的すぎる。<br/><br/>ところがこの結果が逆である事に気が付かないらしい。<br/><br/>何よりも甘い邦画を棄てて、外画に吸われるファンの多い事である。<br/><br/>従って大いに警告したいのは、日本のプロデューサーなり、監督の考え方なりを、一日も早く断然切替えるべきである。<br/><br/>一口に言えば全体的レベルを高める事である。<br/><br/>飽くまで観客の胸に喰い入るものを作る事である。<br/><br/>終いまで我を忘れて観客を椅子に縛りつけてしまわなければならない。<br/><br/>それらについて思い付いたままをかいてみるが、まず時代劇でこれについても見逃し得ない一大欠陥があるから露呈してみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kusuri01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬が効かなくなった 『栄光』196号、昭和28(1953)年2月18日発行 本年二月三日東日紙上に左の記事が載っていた。<br><br> 『効かなくなったペニシリン』 戦後医薬界に彗星のごとく現れ、あたかも医療に小革命を起したかの感があった「ペニシリン」は、最近その効力が著しく低下、特に今全国的に流行している風邪にも、目立った効力を現わしていないところから医事関係者や利用者から自然に敬遠され出していると言う。<br><br>そこで「ペニシリン」凋落（ちょうらく）の真相を東大附属伝染病研究所、都衛生局などから聞いてみた。<br><br> どんどん強くなる菌 罪は「アメ」や食品にも ◇ペニシリンが「一般的には大した効きめはない……」といわれ出したのは昭和二十五年全世界を冒しまくったイタリヤ風邪以来の事である。<br><br>この原因はペニシリンそのものは風邪の病原体であるウイルス菌には全然効果がないためで、専門的にいえばウイルス菌は百ミリミクロン（一ミクロンは一ミリの千分の一）以下という電子顕微鏡でやっと見られる微細なものだが、ペニシリンの効力範囲はその四倍から五倍の四、五百ミリミクロンまでがせいぜい…という理由からである。<br><br>従って風邪の副作用として起った肺炎菌などに対しては効用があるが、風邪そのものには全く歯が立たないというのが信用失墜の最大原因となっている。<br><br> ◇ペニシリン不振の第二の原因は放出食料品や国産高級食料品に幾分の罪がある――これはアメリカばかりでなく世界各国の高級食料品や菓子類の大部分はその中に極少のペニシリンが包含されているためである。<br><br>幼児用の「アメ」類にもペニシリン入りが宣伝されて売られているのが見かけられるが、この見方からゆくと日本国民の八割強までは知らない間にペニシリンを何らかの形で体内に摂取しているという。<br><br>従ってペニシリンの注射をした事のない者でもペニシリンへの抵抗要素を体内に作っていることになり、病気でペニシリン配剤のときに多少のソゴを来すこともあるといわれほとんど医療には影響はないが「効かない――」といわれる一つの理由になっている。<br><br> ◇性病の中で淋菌退治はペニシリンの独壇場の感があったが、最近は淋菌そのものがペニシリンに対する抵抗力を著しく増しているので、治癒も二、三年前よりは困難になってきている。<br><br>つまりペニシリン出現当時の昭和二十二年頃は僅か十万単位から二十方単位の注射で完全に治癒したものが、現在では二十倍近くの百八十方単位以上を注射しなければ完全治療は困難だという。<br><br> 結局淋菌そのものが数年前より数倍の抵抗度を増したというのが、性病治癒を困難にしている原因となっている。<br><br> ◇最後にペニシリン・ラッシュという製薬界の現象もこの功罪に仲間入りしている。<br><br>わが国では最盛期の昭和二十五年には、全国で百社近い製薬会社がフルにペニシリンを生産、同年間には七兆五千億単位という天文学的数字のペシリンが国内に出まわり利用者は競（きそ）ってこれを使用した。<br><br>この結果中流階級以上の国民はペニシリン使用経験者ということになり、前記のような反応が起きることになったという。<br><br>では今後の治療法はいかんということになるが、最も賢明な方法はペニシリン、オーレオマイシン、ストレプトマイシン、ヒドラジド、テラマイシン、パス、クロロマイセチンなどの併用に頼るしかないというのが完全治療の一つの前提となっている。<br><br> 右によってみれば、近来薬の効かなくなったことは確かである。<br><br>ところが真の原因が分らないため、取ってつけたような、はなはだ苦しい理由だか言い訳だか分らないような説明をしているが、吾々から見ると気の毒なくらいである。<br><br>信者は百も承知だろうがこれこそ私がいつもいっている通り、全く浄化作用が強くなったためである事は実にハッキリしているのである。<br><br>ところが今はペニシリンだけだが、いずれは薬という薬は全部効かなくなるのは知れ切った話であるから、そうなったら大問題である。<br><br>従ってその時の用意として、今日私は活字に舌に出来るだけ警告しているのである。<br><br>この結果現代医学は、予期通り革命されなければならないのは火を見るよりも明らかである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Declínio da Eficácia dos Medicamentos</h2>
 <p>Revista <em>Eikou</em>, nº 196, publicada em 18 de fevereiro de 1953</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>O exposto acima confirma que, de fato, os medicamentos têm perdido sua eficácia nos últimos tempos. Contudo, por desconhecerem a verdadeira causa, os especialistas apresentam explicações que soam mais como desculpas esfarrapadas e argumentos forçados. De nosso ponto de vista, tal situação é digna de pena.</p>
 <p>Como os membros bem sabem, a razão é claríssima e reside naquilo que sempre exponho: a intensificação do Processo de Purificação. Por ora, trata-se apenas da penicilina, mas é notório que, com o tempo, todos os medicamentos, sem exceção, se tornarão ineficazes. Quando isso ocorrer, um grande problema se abaterá sobre a humanidade.</p>
 <p>É com o intuito de preparar a todos para esse momento que tenho, hoje, incessantemente, feito advertências por meio da palavra escrita e falada. Consequentemente, torna-se mais claro que o sol que a medicina moderna deverá, como previsto, passar por uma revolução.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬が効かなくなった 『栄光』196号、昭和28(1953)年2月18日発行 本年二月三日東日紙上に左の記事が載っていた。<br/><br/> 『効かなくなったペニシリン』 戦後医薬界に彗星のごとく現れ、あたかも医療に小革命を起したかの感があった「ペニシリン」は、最近その効力が著しく低下、特に今全国的に流行している風邪にも、目立った効力を現わしていないところから医事関係者や利用者から自然に敬遠され出していると言う。<br/><br/>そこで「ペニシリン」凋落（ちょうらく）の真相を東大附属伝染病研究所、都衛生局などから聞いてみた。<br/><br/> どんどん強くなる菌 罪は「アメ」や食品にも ◇ペニシリンが「一般的には大した効きめはない……」といわれ出したのは昭和二十五年全世界を冒しまくったイタリヤ風邪以来の事である。<br/><br/>この原因はペニシリンそのものは風邪の病原体であるウイルス菌には全然効果がないためで、専門的にいえばウイルス菌は百ミリミクロン（一ミクロンは一ミリの千分の一）以下という電子顕微鏡でやっと見られる微細なものだが、ペニシリンの効力範囲はその四倍から五倍の四、五百ミリミクロンまでがせいぜい…という理由からである。<br/><br/>従って風邪の副作用として起った肺炎菌などに対しては効用があるが、風邪そのものには全く歯が立たないというのが信用失墜の最大原因となっている。<br/><br/> ◇ペニシリン不振の第二の原因は放出食料品や国産高級食料品に幾分の罪がある――これはアメリカばかりでなく世界各国の高級食料品や菓子類の大部分はその中に極少のペニシリンが包含されているためである。<br/><br/>幼児用の「アメ」類にもペニシリン入りが宣伝されて売られているのが見かけられるが、この見方からゆくと日本国民の八割強までは知らない間にペニシリンを何らかの形で体内に摂取しているという。<br/><br/>従ってペニシリンの注射をした事のない者でもペニシリンへの抵抗要素を体内に作っていることになり、病気でペニシリン配剤のときに多少のソゴを来すこともあるといわれほとんど医療には影響はないが「効かない――」といわれる一つの理由になっている。<br/><br/> ◇性病の中で淋菌退治はペニシリンの独壇場の感があったが、最近は淋菌そのものがペニシリンに対する抵抗力を著しく増しているので、治癒も二、三年前よりは困難になってきている。<br/><br/>つまりペニシリン出現当時の昭和二十二年頃は僅か十万単位から二十方単位の注射で完全に治癒したものが、現在では二十倍近くの百八十方単位以上を注射しなければ完全治療は困難だという。<br/><br/> 結局淋菌そのものが数年前より数倍の抵抗度を増したというのが、性病治癒を困難にしている原因となっている。<br/><br/> ◇最後にペニシリン・ラッシュという製薬界の現象もこの功罪に仲間入りしている。<br/><br/>わが国では最盛期の昭和二十五年には、全国で百社近い製薬会社がフルにペニシリンを生産、同年間には七兆五千億単位という天文学的数字のペシリンが国内に出まわり利用者は競（きそ）ってこれを使用した。<br/><br/>この結果中流階級以上の国民はペニシリン使用経験者ということになり、前記のような反応が起きることになったという。<br/><br/>では今後の治療法はいかんということになるが、最も賢明な方法はペニシリン、オーレオマイシン、ストレプトマイシン、ヒドラジド、テラマイシン、パス、クロロマイセチンなどの併用に頼るしかないというのが完全治療の一つの前提となっている。<br/><br/> 右によってみれば、近来薬の効かなくなったことは確かである。<br/><br/>ところが真の原因が分らないため、取ってつけたような、はなはだ苦しい理由だか言い訳だか分らないような説明をしているが、吾々から見ると気の毒なくらいである。<br/><br/>信者は百も承知だろうがこれこそ私がいつもいっている通り、全く浄化作用が強くなったためである事は実にハッキリしているのである。<br/><br/>ところが今はペニシリンだけだが、いずれは薬という薬は全部効かなくなるのは知れ切った話であるから、そうなったら大問題である。<br/><br/>従ってその時の用意として、今日私は活字に舌に出来るだけ警告しているのである。<br/><br/>この結果現代医学は、予期通り革命されなければならないのは火を見るよりも明らかである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

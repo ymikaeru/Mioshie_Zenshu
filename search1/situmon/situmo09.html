@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 『地上天国』7号、昭和24(1949)年8月30日発行 【問】千手観音様の御頭（おつむ）の上にお顔が見えますがなにを意味しているのでしょうか。<br><br> 【答】仏であり、阿弥陀如来である。<br><br>実を言うと阿弥陀は観音の母になる。<br><br>神仏は人間と違って親子夫婦など、場合によりいろいろにかわる。<br><br>千手観音の頭は十一面観音と同じで、前三面は慈悲、横三面は憤怒、他の三面が勇気、後方一面が笑いである。<br><br>阿弥陀は日光菩薩の場合観音は日になるから、この場合夫婦にもなる。<br><br>本当言うと達磨は阿弥陀の化身であり、月の字を略すと「 」となり、ダルマの形である。<br><br>西王母の園の三千年の桃の実が観音である。<br><br>故に西王母と観音は親子となるので、観音は桃太郎にもなって鬼ケ島征伐するのは邪神を平らげる働きである。<br><br>また釈尊は観音を生んだので母にもなる。<br><br> 【問】神龍のお働きをお聞かせください。<br><br> 【答】神龍はたくさんある。<br><br>神様の仕事をする働きをする龍はみな神龍で、天文なども神龍がする。<br><br>神様の命によりいろんな御用をする。<br><br>人間にも憑る。<br><br>ただし金龍は一柱である。<br><br> 【問】人間の想念により天候に異変を来たすとのことですが、二百十日、二十日を厄日と言われ、特に台風などの起りますのはいかなる理由によるのでしょうか。<br><br> 【答】これは季節的に起るので大いに必要な現象である。<br><br>二百十日とか二十日ごろに台風を起すのは稲や作物を倒すが、根を固める働きは大きい。<br><br>根が張らねば力がなく木など丈夫にならぬ、それで風によって根が張る、根が張ると稲はよくできる。<br><br>風で倒れるとすれば肥料をやるからである。<br><br> 【問】春蒔きの蔓の出る植物は左巻きが通例ですが、立春後に種を蒔くと蔓が必ず右巻きになるのはいかなるわけでしょうか。<br><br> 【答】それはそうなるべきである。<br><br>春は日で秋は月である。<br><br>日は霊で左巻き、月は体で右巻きであるのは理屈に合っている。<br><br> 【問】イスラエル民族の選民思想は単に独善的なものでしょうか、あるいはなにか意味があるのでしょうか。<br><br> 【答】意味もあり、独善もある。<br><br>ユダヤ民族は頭がいい、故にユダヤ民族は学者に多い。<br><br>素盞嗚尊の系統であるユダヤ人は六歳になると割礼をする。<br><br>それを儀式的にやる。<br><br>頭の良いのはそのためもあろう。<br><br> 【問】人間は宇宙の縮図と言いますが、人間の体の部分が宇宙に当てはまるのでしょうか。<br><br> 【答】当てはまる、眼は日（霊）が左で月が右である。<br><br>宇宙の中心たる高天原の型として人体には天帝――天の高天原（頭）は額――地の高天原は臍部となっている。<br><br> 【問】生まれ年、生まれ月が人間の運勢、性格に影響があるのはいかなる関係でしょうか。<br><br> 【答】人間には気がつかぬがあらゆるものに変化がある。<br><br>その年の気を受けるという。<br><br>気候でも春夏秋冬あり、一カ月間にしても雨が多かったり天気が多かったりし、日によってもそれぞれ違う。<br><br>霊的にそのときの気を受けるというわけで、ついでにほかのことも話してみよう。<br><br>私は十二月二十三日に生まれた。<br><br>本来二十二日は冬至で春分は二十三日が本当である。<br><br>二十二日は最も日の短いときだ。<br><br>いまの皇太子も同じ日に生まれられた。<br><br>しかしこういうことはきっちり定まったものでなく、ある程度の影響を受けるのである。<br><br>この意味においてなんの年生まれはどうだとかいうことはある程度当たる。<br><br>私は午の年の午の月の一白に生まれたというので、将来人の頭になるということを言われたが、これは当たっていると思う。<br><br> 【問】最近人口問題に関し政府においても避妊薬などの販売を許可するようですが、 （一）生活難のために母体が健康なれどもやむなく堕胎した場合、胎児の霊はいかがなりますか。<br><br> （二）また堕胎をしたため両親はいかなる罰を神より受け、また胎児の霊により両親の将来はどうなるでしょう。<br><br> 【答】堕胎は悪い、産児制限とは異（ちが）う。<br><br>子供ができると生活が困難になると思うが決してそんなことはない。<br><br>子供は自身の食うだけのものはもってくるものであるから、子供が増えればそれだけ必ず収入は増えるものである。<br><br>また堕胎は殺人であるから大間違いである。<br><br>産児制限は堕胎に比して罪は小さい。<br><br> 【問】民族の平均年齢について。<br><br> 日本人 三十五才 米国人 五十才 末開人 二十才 と発表されておりますが、文化民族のほうが高齢なのはなぜでしょうか。<br><br> 【答】これは昔の統計である。<br><br>いま日本人は四七歳、米国人は六十三歳平均である。<br><br>人間は頭を使うほうが長生きする。<br><br>使わぬほうが早死にである。<br><br>神が人間に与えてある頭脳をできるだけ使うほうがよい。<br><br>心配で頭を使うのはいけない。<br><br>また嘘つくと始終気がとがめるから早死にする。<br><br>故に正しい心で嘘つかぬことでこれが長寿の秘訣である。<br><br> 【問】ふたたび妊娠の方法について。<br><br> 【答】天地自然の法則にかなえばいい。<br><br>自然にその方法は気がつく。<br><br>子宮が膣を外れてるとき妊娠しない。<br><br>それは前からおさえるのが後屈で、その反対が前屈である。<br><br>これが第一の原因で、第二は子宮の発育不全で、これはきっとお腹がかたいので子宮が圧迫されて成育が悪い。<br><br>また腎臓萎縮は性欲が欠乏する。<br><br>卵子が弱いと精虫を吸収する力がない。<br><br> 不感症、鈍感などはみな腎臓萎縮のため。<br><br>女によっては粘液が（アルカリ性の強いため）精虫を殺すと医学では言うが、そういうこともあろう。<br><br>また男のほうも腎臓が弱ると射精力が弱く子宮口までとどかぬためもある。<br><br>まだ種々の原因もあるが公開の席上では言えない。<br><br> 【問】睡眠時間はだいたいどのくらいが適当でしょうか。<br><br>また睡眠と健康について。<br><br> 【答】医学の言っている通りでだいたい良い。<br><br>赤ん坊は十時間か十二時間、青年から中年で八時間くらい、五十を越すと七時間、六十を越すと五時間で、年とるに従って少なくてよい。<br><br>睡眠は不足のほうがよい。<br><br>私など常に不足している。<br><br>医学では睡眠不足は結核の本などと言うが、これは間違っているので、実際私など、いま四時間ないし五時間である。<br><br>活動時間が多くなるほど健康は増す。<br><br>先年東京市内で各階層の結核患者の統計をとったとき、一番結核者の少ないのは花柳界の女であった。<br><br>ところがこの職業の女が一番睡眠不足であり、生活が不規則である。<br><br>これは実際の結果である。<br><br>頭は大いに使ったほうがよい、頭を使うほど長生きする。<br><br>エジソンなど研究室にとび込むと一週間くらい不眠不休だったと言う。<br><br>助手たちもそれをまねたが、だんだん慣れるとみんなできるようになったという。<br><br>睡眠不足のほうが健康にいいと思えばそれでよい。<br><br>英国の故グラッドストーンは椅子に掛けたまま五分くらい居睡りし、また精力を快復したというが私も同様である。<br><br> 【問】結婚の報告は墓前にもいたすべきでしょうか、また正式に手続きしないことは冒涜になるものでしょうか。<br><br> 【答】祖先には報告すべきが義務である。<br><br>また祖先も子孫が報告すれば御守護しなくてはならぬ義務が生ずる。<br><br>ただし内縁関係は披露しなくとも神様はご存じである。<br><br> 【問】御浄霊の際患者に対しどの程度親切にすべきでしょうか。<br><br> 【答】親切にすればするほどいい。<br><br>程度はないが順序は大事で、神様第一でなくてはならぬ。<br><br>しかし人によって区別するのはいけない。<br><br>どこまでも公平であるべきだ。<br><br> 【問】生まれたときは気のつかない程度ですが、大きくなって脱臼していることが判った場合、ふつうはギブスをはめれば治ると申しますが、御浄霊により治るでしょうか。<br><br> 【答】脱臼は浄霊によって治る。<br><br>レントゲンでみる場合でも違うことがよくある。<br><br>レントゲンでみて脱臼してるとよく言うが、浄霊してみると脱臼でないことがある。<br><br> 【問】ある男で、いつの間にか舌が二つに裂け、いっぽうが感じがなくなり食事の際邪魔になると申し自分で鋏で切り取り、その後なにごともないそうですが、なにか霊的にわけがありましょうか。<br><br> 【答】大いにわけがある。<br><br>前の世で二枚舌を使い、そのため人に怨まれ罪を作ったからで、その罪が未だ消えないうちに生まれてきたため二つの舌になったのである。<br><br>生まれながら二枚の舌のある人もある。<br><br> 【問】神社仏閣は四棟ですが、人の住居は四棟の家は不運ですがどういうわけですか。<br><br> 【答】そんなことはない。<br><br>ただ四は死に通ずるから四という数を嫌うのだろう。<br><br>気にする要はない。<br><br> 【問】遠州の新居町で発生したアサリ貝およびカキ貝の中毒は、その貝も養殖でなく天然のものだそうです。<br><br>貝を食べますと中毒発生し七転八倒の苦しみをなし発狂状態となるのですが、発狂状態になるや長きは二時間くらい、短きは一時間くらいにて腹が張り、歯ぐきから出血し死に至るそうです。<br><br>右はいかなる原因によるのでしょうか。<br><br> 【答】これは一種の中毒である。<br><br>よく紫茄子など食べると狂人になるというが中毒の苦しみがひどいためである。<br><br>紫牡蠣（むらさきぼれい）など同様である。<br><br>信仰的に言うと御守護があればそんなものを食べないことになる。<br><br> 【問】歯の生え代わるとき、前の歯が抜けないで八重歯ができたとき、そのままにしておくと口の格好が悪くなりますが、御浄霊により古い歯が抜けるでしょうか。<br><br> 【答】歯の出ないうちに浄霊すれば治る。<br><br>原因は前生、死の刹那、歯を傷害したためである。<br><br> 【問】世間よく夜泣きをする子供の寝床に刃物を置くと夜泣きをしなくなるようですが、この場合刃物は霊的に意味がございましょうか。<br><br> 【答】霊によっては刃物を恐ろしがるのがある。<br><br>夜泣きするのは、親に怨みをもった霊が親を苦しめるためである。<br><br>であるから死人の上など庖丁や七首をのせる。<br><br>刃物が恐いという霊はたくさんある。<br><br>それは刃物で殺された霊などが特に恐がる。<br><br>それがみんな刃物で解決するとは限らぬ。<br><br> 【問】「三隣亡（さんりんぼう）」に家を建てますと風などで倒れやすいと申しますがいかがでしょうか。<br><br> 【答】一種の迷信である。<br><br>悪いことのあるのは浄化ゆえ浄化がすめばよくなるわけである。<br><br> 【問】古墳、墓地、神社などの跡を道路などに改修工事を行なった場合、木を伐るとその関係者に災難があるのですが、いかがいたしましたらよろしいでしょうか。<br><br> 【答】手続きしないからだ。<br><br>手続きすればよい。<br><br>代わりの木を近くへ植えるのである。<br><br>そしてお祭りして言葉でよく事情を言い許しを乞う。<br><br>やむを得ないことは必ず霊は許すのである。<br><br>神社などの場合小さくとも代わりの宮を建て神が鎮まられるようにすればよい。<br><br> 【問】戒名があまり簡単で取り替えたいと思いますがよろしいでしょうか。<br><br> 【答】差し支えがない。<br><br>戒名が簡単だからとて、霊界で階級が違うわけではない。<br><br>長い戒名でも罪汚れがたくさんあれば同じことである。<br><br>金持ちなどたいてい無理して金つくるから霊界へ行っても身分の低いのが多い。<br><br> 【問】ある信者が大光明如来様をお祭りさせていただきましたところ、その部屋に貼り交ぜ屏風がございまして、出口王仁三郎師の万年青の短冊がありましたが、一夜にして葉の色があせて枯葉色になってしまいました。<br><br>いかが解釈しましたらよろしゅうございましょうか。<br><br> 【答】出口王仁三郎師は月の神様が人間に生まれたのである。<br><br>光明如来様は日の光であるからその光にあって枯れてしまったので、決して不思議ではない、あり得べきことである。<br><br>勿論霊のほうが枯れて体に映ったのである。<br><br> 【問】宗旨の違った寺に墓地を移転いたしましてもよろしいでしょうか。<br><br> 【答】あまりよくない。<br><br>それは同じ釈迦の弟子でも親鸞、法然、日蓮などいろいろの派に分かれているが、同じ仏教信徒であっても他宗派に祭られるのは、人間で言えば移民のような居候のような具合でうまく行かぬ。<br><br>霊が窮屈である。<br><br> 【問】イスラエル民族が二十五世紀の永き亡命よりいでてユダヤ国家として独立し、首都エルサレムにおいて初の国会を開きましたがなにか大きな意味をもつものでしょうか。<br><br> 【答】ここはイスラエル民族の故郷であるから、元に復帰したわけでこれでいい。<br><br>あくまで故郷を復活しようとして怨みを抱いたり、執着をもったりして禍していたのが解決した。<br><br>イスラエル民族は二千年前からこの地にいたが千三百年くらい前にアラブ族が占領したのである。<br><br>それでイスラエル民族のほうが古いわけである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e o Cotidiano</h2>
 <p><strong>Pergunta:</strong> O que representa o rosto que se vê sobre a cabeça de Senju Kannon (千手観音)?</p>
@@ -148,5 +300,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> Não é o mais adequado. Embora todos sejam seguidores de Shakyamuni, as diversas escolas — Shinran, Honen, Nichiren — se dividem em diferentes vertentes. Ser cultuado por outra denominação, mesmo dentro do budismo, é desconfortável para o espírito; a situação se assemelha à de um imigrante ou de um agregado, gerando desconforto e inadequação ao espírito.</p>
 <p><strong>Pergunta:</strong> Após um exílio de 2.500 anos, o povo de Israel estabeleceu o Estado Judeu e realizou a primeira sessão de seu parlamento na capital, Jerusalém. Este evento possui algum significado maior?</p>
 <p><strong>Resposta:</strong> Sim. Trata-se do retorno do povo de Israel à sua terra natal, o que é correto e bom. O rancor e o apego que alimentavam o desejo de restaurar sua pátria, e que geravam perturbações, foram finalmente resolvidos. O povo de Israel habitava essa terra há mais de dois mil anos, até que, há cerca de mil e trezentos anos, as tribos árabes a ocuparam. Portanto, a presença de Israel naquele território é mais antiga.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 『地上天国』7号、昭和24(1949)年8月30日発行 【問】千手観音様の御頭（おつむ）の上にお顔が見えますがなにを意味しているのでしょうか。<br/><br/> 【答】仏であり、阿弥陀如来である。<br/><br/>実を言うと阿弥陀は観音の母になる。<br/><br/>神仏は人間と違って親子夫婦など、場合によりいろいろにかわる。<br/><br/>千手観音の頭は十一面観音と同じで、前三面は慈悲、横三面は憤怒、他の三面が勇気、後方一面が笑いである。<br/><br/>阿弥陀は日光菩薩の場合観音は日になるから、この場合夫婦にもなる。<br/><br/>本当言うと達磨は阿弥陀の化身であり、月の字を略すと「 」となり、ダルマの形である。<br/><br/>西王母の園の三千年の桃の実が観音である。<br/><br/>故に西王母と観音は親子となるので、観音は桃太郎にもなって鬼ケ島征伐するのは邪神を平らげる働きである。<br/><br/>また釈尊は観音を生んだので母にもなる。<br/><br/> 【問】神龍のお働きをお聞かせください。<br/><br/> 【答】神龍はたくさんある。<br/><br/>神様の仕事をする働きをする龍はみな神龍で、天文なども神龍がする。<br/><br/>神様の命によりいろんな御用をする。<br/><br/>人間にも憑る。<br/><br/>ただし金龍は一柱である。<br/><br/> 【問】人間の想念により天候に異変を来たすとのことですが、二百十日、二十日を厄日と言われ、特に台風などの起りますのはいかなる理由によるのでしょうか。<br/><br/> 【答】これは季節的に起るので大いに必要な現象である。<br/><br/>二百十日とか二十日ごろに台風を起すのは稲や作物を倒すが、根を固める働きは大きい。<br/><br/>根が張らねば力がなく木など丈夫にならぬ、それで風によって根が張る、根が張ると稲はよくできる。<br/><br/>風で倒れるとすれば肥料をやるからである。<br/><br/> 【問】春蒔きの蔓の出る植物は左巻きが通例ですが、立春後に種を蒔くと蔓が必ず右巻きになるのはいかなるわけでしょうか。<br/><br/> 【答】それはそうなるべきである。<br/><br/>春は日で秋は月である。<br/><br/>日は霊で左巻き、月は体で右巻きであるのは理屈に合っている。<br/><br/> 【問】イスラエル民族の選民思想は単に独善的なものでしょうか、あるいはなにか意味があるのでしょうか。<br/><br/> 【答】意味もあり、独善もある。<br/><br/>ユダヤ民族は頭がいい、故にユダヤ民族は学者に多い。<br/><br/>素盞嗚尊の系統であるユダヤ人は六歳になると割礼をする。<br/><br/>それを儀式的にやる。<br/><br/>頭の良いのはそのためもあろう。<br/><br/> 【問】人間は宇宙の縮図と言いますが、人間の体の部分が宇宙に当てはまるのでしょうか。<br/><br/> 【答】当てはまる、眼は日（霊）が左で月が右である。<br/><br/>宇宙の中心たる高天原の型として人体には天帝――天の高天原（頭）は額――地の高天原は臍部となっている。<br/><br/> 【問】生まれ年、生まれ月が人間の運勢、性格に影響があるのはいかなる関係でしょうか。<br/><br/> 【答】人間には気がつかぬがあらゆるものに変化がある。<br/><br/>その年の気を受けるという。<br/><br/>気候でも春夏秋冬あり、一カ月間にしても雨が多かったり天気が多かったりし、日によってもそれぞれ違う。<br/><br/>霊的にそのときの気を受けるというわけで、ついでにほかのことも話してみよう。<br/><br/>私は十二月二十三日に生まれた。<br/><br/>本来二十二日は冬至で春分は二十三日が本当である。<br/><br/>二十二日は最も日の短いときだ。<br/><br/>いまの皇太子も同じ日に生まれられた。<br/><br/>しかしこういうことはきっちり定まったものでなく、ある程度の影響を受けるのである。<br/><br/>この意味においてなんの年生まれはどうだとかいうことはある程度当たる。<br/><br/>私は午の年の午の月の一白に生まれたというので、将来人の頭になるということを言われたが、これは当たっていると思う。<br/><br/> 【問】最近人口問題に関し政府においても避妊薬などの販売を許可するようですが、 （一）生活難のために母体が健康なれどもやむなく堕胎した場合、胎児の霊はいかがなりますか。<br/><br/> （二）また堕胎をしたため両親はいかなる罰を神より受け、また胎児の霊により両親の将来はどうなるでしょう。<br/><br/> 【答】堕胎は悪い、産児制限とは異（ちが）う。<br/><br/>子供ができると生活が困難になると思うが決してそんなことはない。<br/><br/>子供は自身の食うだけのものはもってくるものであるから、子供が増えればそれだけ必ず収入は増えるものである。<br/><br/>また堕胎は殺人であるから大間違いである。<br/><br/>産児制限は堕胎に比して罪は小さい。<br/><br/> 【問】民族の平均年齢について。<br/><br/> 日本人 三十五才 米国人 五十才 末開人 二十才 と発表されておりますが、文化民族のほうが高齢なのはなぜでしょうか。<br/><br/> 【答】これは昔の統計である。<br/><br/>いま日本人は四七歳、米国人は六十三歳平均である。<br/><br/>人間は頭を使うほうが長生きする。<br/><br/>使わぬほうが早死にである。<br/><br/>神が人間に与えてある頭脳をできるだけ使うほうがよい。<br/><br/>心配で頭を使うのはいけない。<br/><br/>また嘘つくと始終気がとがめるから早死にする。<br/><br/>故に正しい心で嘘つかぬことでこれが長寿の秘訣である。<br/><br/> 【問】ふたたび妊娠の方法について。<br/><br/> 【答】天地自然の法則にかなえばいい。<br/><br/>自然にその方法は気がつく。<br/><br/>子宮が膣を外れてるとき妊娠しない。<br/><br/>それは前からおさえるのが後屈で、その反対が前屈である。<br/><br/>これが第一の原因で、第二は子宮の発育不全で、これはきっとお腹がかたいので子宮が圧迫されて成育が悪い。<br/><br/>また腎臓萎縮は性欲が欠乏する。<br/><br/>卵子が弱いと精虫を吸収する力がない。<br/><br/> 不感症、鈍感などはみな腎臓萎縮のため。<br/><br/>女によっては粘液が（アルカリ性の強いため）精虫を殺すと医学では言うが、そういうこともあろう。<br/><br/>また男のほうも腎臓が弱ると射精力が弱く子宮口までとどかぬためもある。<br/><br/>まだ種々の原因もあるが公開の席上では言えない。<br/><br/> 【問】睡眠時間はだいたいどのくらいが適当でしょうか。<br/><br/>また睡眠と健康について。<br/><br/> 【答】医学の言っている通りでだいたい良い。<br/><br/>赤ん坊は十時間か十二時間、青年から中年で八時間くらい、五十を越すと七時間、六十を越すと五時間で、年とるに従って少なくてよい。<br/><br/>睡眠は不足のほうがよい。<br/><br/>私など常に不足している。<br/><br/>医学では睡眠不足は結核の本などと言うが、これは間違っているので、実際私など、いま四時間ないし五時間である。<br/><br/>活動時間が多くなるほど健康は増す。<br/><br/>先年東京市内で各階層の結核患者の統計をとったとき、一番結核者の少ないのは花柳界の女であった。<br/><br/>ところがこの職業の女が一番睡眠不足であり、生活が不規則である。<br/><br/>これは実際の結果である。<br/><br/>頭は大いに使ったほうがよい、頭を使うほど長生きする。<br/><br/>エジソンなど研究室にとび込むと一週間くらい不眠不休だったと言う。<br/><br/>助手たちもそれをまねたが、だんだん慣れるとみんなできるようになったという。<br/><br/>睡眠不足のほうが健康にいいと思えばそれでよい。<br/><br/>英国の故グラッドストーンは椅子に掛けたまま五分くらい居睡りし、また精力を快復したというが私も同様である。<br/><br/> 【問】結婚の報告は墓前にもいたすべきでしょうか、また正式に手続きしないことは冒涜になるものでしょうか。<br/><br/> 【答】祖先には報告すべきが義務である。<br/><br/>また祖先も子孫が報告すれば御守護しなくてはならぬ義務が生ずる。<br/><br/>ただし内縁関係は披露しなくとも神様はご存じである。<br/><br/> 【問】御浄霊の際患者に対しどの程度親切にすべきでしょうか。<br/><br/> 【答】親切にすればするほどいい。<br/><br/>程度はないが順序は大事で、神様第一でなくてはならぬ。<br/><br/>しかし人によって区別するのはいけない。<br/><br/>どこまでも公平であるべきだ。<br/><br/> 【問】生まれたときは気のつかない程度ですが、大きくなって脱臼していることが判った場合、ふつうはギブスをはめれば治ると申しますが、御浄霊により治るでしょうか。<br/><br/> 【答】脱臼は浄霊によって治る。<br/><br/>レントゲンでみる場合でも違うことがよくある。<br/><br/>レントゲンでみて脱臼してるとよく言うが、浄霊してみると脱臼でないことがある。<br/><br/> 【問】ある男で、いつの間にか舌が二つに裂け、いっぽうが感じがなくなり食事の際邪魔になると申し自分で鋏で切り取り、その後なにごともないそうですが、なにか霊的にわけがありましょうか。<br/><br/> 【答】大いにわけがある。<br/><br/>前の世で二枚舌を使い、そのため人に怨まれ罪を作ったからで、その罪が未だ消えないうちに生まれてきたため二つの舌になったのである。<br/><br/>生まれながら二枚の舌のある人もある。<br/><br/> 【問】神社仏閣は四棟ですが、人の住居は四棟の家は不運ですがどういうわけですか。<br/><br/> 【答】そんなことはない。<br/><br/>ただ四は死に通ずるから四という数を嫌うのだろう。<br/><br/>気にする要はない。<br/><br/> 【問】遠州の新居町で発生したアサリ貝およびカキ貝の中毒は、その貝も養殖でなく天然のものだそうです。<br/><br/>貝を食べますと中毒発生し七転八倒の苦しみをなし発狂状態となるのですが、発狂状態になるや長きは二時間くらい、短きは一時間くらいにて腹が張り、歯ぐきから出血し死に至るそうです。<br/><br/>右はいかなる原因によるのでしょうか。<br/><br/> 【答】これは一種の中毒である。<br/><br/>よく紫茄子など食べると狂人になるというが中毒の苦しみがひどいためである。<br/><br/>紫牡蠣（むらさきぼれい）など同様である。<br/><br/>信仰的に言うと御守護があればそんなものを食べないことになる。<br/><br/> 【問】歯の生え代わるとき、前の歯が抜けないで八重歯ができたとき、そのままにしておくと口の格好が悪くなりますが、御浄霊により古い歯が抜けるでしょうか。<br/><br/> 【答】歯の出ないうちに浄霊すれば治る。<br/><br/>原因は前生、死の刹那、歯を傷害したためである。<br/><br/> 【問】世間よく夜泣きをする子供の寝床に刃物を置くと夜泣きをしなくなるようですが、この場合刃物は霊的に意味がございましょうか。<br/><br/> 【答】霊によっては刃物を恐ろしがるのがある。<br/><br/>夜泣きするのは、親に怨みをもった霊が親を苦しめるためである。<br/><br/>であるから死人の上など庖丁や七首をのせる。<br/><br/>刃物が恐いという霊はたくさんある。<br/><br/>それは刃物で殺された霊などが特に恐がる。<br/><br/>それがみんな刃物で解決するとは限らぬ。<br/><br/> 【問】「三隣亡（さんりんぼう）」に家を建てますと風などで倒れやすいと申しますがいかがでしょうか。<br/><br/> 【答】一種の迷信である。<br/><br/>悪いことのあるのは浄化ゆえ浄化がすめばよくなるわけである。<br/><br/> 【問】古墳、墓地、神社などの跡を道路などに改修工事を行なった場合、木を伐るとその関係者に災難があるのですが、いかがいたしましたらよろしいでしょうか。<br/><br/> 【答】手続きしないからだ。<br/><br/>手続きすればよい。<br/><br/>代わりの木を近くへ植えるのである。<br/><br/>そしてお祭りして言葉でよく事情を言い許しを乞う。<br/><br/>やむを得ないことは必ず霊は許すのである。<br/><br/>神社などの場合小さくとも代わりの宮を建て神が鎮まられるようにすればよい。<br/><br/> 【問】戒名があまり簡単で取り替えたいと思いますがよろしいでしょうか。<br/><br/> 【答】差し支えがない。<br/><br/>戒名が簡単だからとて、霊界で階級が違うわけではない。<br/><br/>長い戒名でも罪汚れがたくさんあれば同じことである。<br/><br/>金持ちなどたいてい無理して金つくるから霊界へ行っても身分の低いのが多い。<br/><br/> 【問】ある信者が大光明如来様をお祭りさせていただきましたところ、その部屋に貼り交ぜ屏風がございまして、出口王仁三郎師の万年青の短冊がありましたが、一夜にして葉の色があせて枯葉色になってしまいました。<br/><br/>いかが解釈しましたらよろしゅうございましょうか。<br/><br/> 【答】出口王仁三郎師は月の神様が人間に生まれたのである。<br/><br/>光明如来様は日の光であるからその光にあって枯れてしまったので、決して不思議ではない、あり得べきことである。<br/><br/>勿論霊のほうが枯れて体に映ったのである。<br/><br/> 【問】宗旨の違った寺に墓地を移転いたしましてもよろしいでしょうか。<br/><br/> 【答】あまりよくない。<br/><br/>それは同じ釈迦の弟子でも親鸞、法然、日蓮などいろいろの派に分かれているが、同じ仏教信徒であっても他宗派に祭られるのは、人間で言えば移民のような居候のような具合でうまく行かぬ。<br/><br/>霊が窮屈である。<br/><br/> 【問】イスラエル民族が二十五世紀の永き亡命よりいでてユダヤ国家として独立し、首都エルサレムにおいて初の国会を開きましたがなにか大きな意味をもつものでしょうか。<br/><br/> 【答】ここはイスラエル民族の故郷であるから、元に復帰したわけでこれでいい。<br/><br/>あくまで故郷を復活しようとして怨みを抱いたり、執着をもったりして禍していたのが解決した。<br/><br/>イスラエル民族は二千年前からこの地にいたが千三百年くらい前にアラブ族が占領したのである。<br/><br/>それでイスラエル民族のほうが古いわけである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

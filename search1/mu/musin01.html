@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>musin01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無信仰時代１ 未発表『私物語』昭和27(1952)年執筆 いつかも記いた事があるが、私の前半生は至極平凡なものであったから、詳しくかかなかったが、その後記き漏らしたと思う点も少なくないので、興味ある話題を少しかいてみようと思うのである。<br><br> それについてまず私の現在の妻であるが、これは二度目であって、最初の妻を娶ったのは私が二十五歳の時で、妻は十九歳であった。<br><br>私のところへ来て一年ばかり経った頃結核に罹ってしまったのである。<br><br>そこで早速医師に診て貰ったところ、医師のいうにはこの病気には薬がないから、まず空気の良いところへ転地して、気長に療養するより外に方法はないとの事であった。<br><br>ところが幸いにも妻の実家は神奈川県の金沢で、海岸ではあるからちょうどいいとして、母や兄、親戚なども口を揃えて、この病気は伝染の危険もあるし、たとえ子供が出来ても遺伝するから、（当時の学説）是非実家へ帰した方がいいと頻（しき）りに勧めるので、私は一時はその気になったが、よく考えてみるとどうも腑に落ちない気がした。<br><br>というのは一生を契（ちぎ）った妻が病気に罹（かか）れば、なおさら親切に介抱してこそ人間の道であるのに、伝染の危険があるからとて実家へ還すなどは、余りに功利的考え方で、そんな薄情な事は私にはどうしても出来ない。<br><br>一生涯苦楽を共にすべきが夫婦の道ではないかと堅く心に決めたのである。<br><br>しかも幸いな事には、以前私が治った体験もある事だし、必ず治るに違いない。<br><br>それのみか人間は正しい道を踏む以上、伝染するはずもないという確信が湧くのである。<br><br>当時無神論者であった私として、そんな考えが湧くのは実に不思議でならなかった。<br><br>それを聞いた医師も親戚の者も呆れてしまい、私を変り者とさえ思ったのである。<br><br>という訳でその時既に肚の底には、信仰の種が蒔かれてあったのであると、宗教人となってから判った事である。<br><br>そうして私の経験上から菜食療法にしたところ、医療も受けず三、四ケ月で治ってしまった。<br><br> それからこういう事もあった。<br><br>そのころ桂庵（けいあん）から雇った十六、七歳の山出し下女があったが、この女が病気になったので房州の実家へ帰したところ、暫くしてからヒョッコリ訪ねて来た。<br><br>見ると真蒼（まっさお）な顔をしているので訊ねたところ、その後段々悪くなり、医師から重症結核と診断をされたので、周囲の者から嫌われ、しかも赤貧洗うがごとき家庭なので、邪魔者扱いにされ、働きに出ろと言われるので参りましたと涙ながらにいうので、私も大いに同情し、「そんな身体で働くなどは飛んでもない話だ。<br><br>直ぐ実家へ帰りなさい。<br><br>その代り食扶持（くいぶち）と医療費を、お前の生きている間は必ず送ってやるから」と言ったので、喜んで帰ったが、それから毎月確か十五円ずつ送ってやったと憶えているが、当時としてはそのくらいで充分であったのである。<br><br>しかしそれだけの話なら情け深い人なら、世間にない事はないが、これについてかきたい事があるから、この話を挿入したのである。<br><br>というのは当時私の親戚知人などは、よくこういったものである。<br><br>「その娘の肺病が治る見込があるならいいが、あれでは死ぬに決っている。<br><br>死ぬに決っている者を援けてやったところでつまらないじゃないか、治ってから働いて御恩返しが出来るならいいが、そうでないとしたら、無駄な金を費うだけで詰まらないじゃないか。<br><br>早く止した方が利口だよ」と勧めるのである。<br><br>そこで私はいってやった。<br><br>「私は恩を被せて代償を貰う気はいささかもない。<br><br>人を世話して恩返しを期待するなどは一種の取引で、丸で恩を売るようなものだ、だからそんなものは慈悲でも何でもない。<br><br>善人らしく見せる一種の功利である。<br><br>ただ私はあんまり可哀想で見ていられないからそうしたまでで、つまり自然なんだ。<br><br>私はそれで満足しているんだからいいじゃないか。<br><br>大きに御世話だ。<br><br>なるほどあんた方から見れば馬鹿だと思うだろうが、馬鹿でも何でも結構なんだよ」とマアーこんな風にいってやったので、みんな呆れて黙ってしまった事があった。<br><br> この時の私も全然無信仰で、唯物主義のカンカンでありながら、丸で信仰者のような考え方なんだから、表面は無信仰でも、肚の底はすでに信仰者になっていた訳である。<br><br> (注) 桂庵（けいあん）縁談や訴訟の仲立ちをする人。<br><br>また、雇い人・奉公人の斡旋（あつせん）を職業とする人。<br><br>口入れ屋。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Semente da Fé em Meio à Descrença</h2>
 <p>Embora já tenha abordado o assunto em outra ocasião, a primeira metade de minha vida transcorreu de forma bastante comum, razão pela qual não a detalhei. Contudo, percebo que há não poucos aspectos que creio ter omitido e, por isso, gostaria de relatar agora alguns episódios de certo interesse.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Naquele tempo, meus parentes e conhecidos costumavam me dizer: "Se houvesse alguma esperança de cura para essa moça, seria compreensível. Mas, no estado em que se encontra, a morte é certa. Que sentido há em ajudar alguém já condenado? Se ela pudesse se recuperar para, então, retribuir sua bondade com o trabalho, seria diferente. Mas, do contrário, não passa de um desperdício de dinheiro. Seria mais inteligente de sua parte desistir logo disso."</p>
 <p>A eles, eu respondia: "Não tenho a menor intenção de conceder um favor esperando uma retribuição. Ajudar alguém na expectativa de ser recompensado é uma forma de transação comercial, equivale a vender favores. Isso nada tem a ver com compaixão; é apenas utilitarismo disfarçado de virtude. Agi simplesmente porque sua situação era lamentável demais para que eu pudesse ignorá-la. Foi um impulso natural. Sinto-me satisfeito com minha decisão, e isso basta. Sei que, do vosso ponto de vista, pareço um tolo, mas não me importo em sê-lo." Diante de tais palavras, todos emudeciam, perplexos.</p>
 <p>Mesmo naquela época, quando eu era um descrente absoluto, um materialista arraigado, minha forma de pensar já se assemelhava à de um homem de fé. A verdade é que, embora a superfície fosse de incredulidade, no fundo de minha alma, eu já era um religioso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無信仰時代１ 未発表『私物語』昭和27(1952)年執筆 いつかも記いた事があるが、私の前半生は至極平凡なものであったから、詳しくかかなかったが、その後記き漏らしたと思う点も少なくないので、興味ある話題を少しかいてみようと思うのである。<br/><br/> それについてまず私の現在の妻であるが、これは二度目であって、最初の妻を娶ったのは私が二十五歳の時で、妻は十九歳であった。<br/><br/>私のところへ来て一年ばかり経った頃結核に罹ってしまったのである。<br/><br/>そこで早速医師に診て貰ったところ、医師のいうにはこの病気には薬がないから、まず空気の良いところへ転地して、気長に療養するより外に方法はないとの事であった。<br/><br/>ところが幸いにも妻の実家は神奈川県の金沢で、海岸ではあるからちょうどいいとして、母や兄、親戚なども口を揃えて、この病気は伝染の危険もあるし、たとえ子供が出来ても遺伝するから、（当時の学説）是非実家へ帰した方がいいと頻（しき）りに勧めるので、私は一時はその気になったが、よく考えてみるとどうも腑に落ちない気がした。<br/><br/>というのは一生を契（ちぎ）った妻が病気に罹（かか）れば、なおさら親切に介抱してこそ人間の道であるのに、伝染の危険があるからとて実家へ還すなどは、余りに功利的考え方で、そんな薄情な事は私にはどうしても出来ない。<br/><br/>一生涯苦楽を共にすべきが夫婦の道ではないかと堅く心に決めたのである。<br/><br/>しかも幸いな事には、以前私が治った体験もある事だし、必ず治るに違いない。<br/><br/>それのみか人間は正しい道を踏む以上、伝染するはずもないという確信が湧くのである。<br/><br/>当時無神論者であった私として、そんな考えが湧くのは実に不思議でならなかった。<br/><br/>それを聞いた医師も親戚の者も呆れてしまい、私を変り者とさえ思ったのである。<br/><br/>という訳でその時既に肚の底には、信仰の種が蒔かれてあったのであると、宗教人となってから判った事である。<br/><br/>そうして私の経験上から菜食療法にしたところ、医療も受けず三、四ケ月で治ってしまった。<br/><br/> それからこういう事もあった。<br/><br/>そのころ桂庵（けいあん）から雇った十六、七歳の山出し下女があったが、この女が病気になったので房州の実家へ帰したところ、暫くしてからヒョッコリ訪ねて来た。<br/><br/>見ると真蒼（まっさお）な顔をしているので訊ねたところ、その後段々悪くなり、医師から重症結核と診断をされたので、周囲の者から嫌われ、しかも赤貧洗うがごとき家庭なので、邪魔者扱いにされ、働きに出ろと言われるので参りましたと涙ながらにいうので、私も大いに同情し、「そんな身体で働くなどは飛んでもない話だ。<br/><br/>直ぐ実家へ帰りなさい。<br/><br/>その代り食扶持（くいぶち）と医療費を、お前の生きている間は必ず送ってやるから」と言ったので、喜んで帰ったが、それから毎月確か十五円ずつ送ってやったと憶えているが、当時としてはそのくらいで充分であったのである。<br/><br/>しかしそれだけの話なら情け深い人なら、世間にない事はないが、これについてかきたい事があるから、この話を挿入したのである。<br/><br/>というのは当時私の親戚知人などは、よくこういったものである。<br/><br/>「その娘の肺病が治る見込があるならいいが、あれでは死ぬに決っている。<br/><br/>死ぬに決っている者を援けてやったところでつまらないじゃないか、治ってから働いて御恩返しが出来るならいいが、そうでないとしたら、無駄な金を費うだけで詰まらないじゃないか。<br/><br/>早く止した方が利口だよ」と勧めるのである。<br/><br/>そこで私はいってやった。<br/><br/>「私は恩を被せて代償を貰う気はいささかもない。<br/><br/>人を世話して恩返しを期待するなどは一種の取引で、丸で恩を売るようなものだ、だからそんなものは慈悲でも何でもない。<br/><br/>善人らしく見せる一種の功利である。<br/><br/>ただ私はあんまり可哀想で見ていられないからそうしたまでで、つまり自然なんだ。<br/><br/>私はそれで満足しているんだからいいじゃないか。<br/><br/>大きに御世話だ。<br/><br/>なるほどあんた方から見れば馬鹿だと思うだろうが、馬鹿でも何でも結構なんだよ」とマアーこんな風にいってやったので、みんな呆れて黙ってしまった事があった。<br/><br/> この時の私も全然無信仰で、唯物主義のカンカンでありながら、丸で信仰者のような考え方なんだから、表面は無信仰でも、肚の底はすでに信仰者になっていた訳である。<br/><br/> (注) 桂庵（けいあん）縁談や訴訟の仲立ちをする人。<br/><br/>また、雇い人・奉公人の斡旋（あつせん）を職業とする人。<br/><br/>口入れ屋。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

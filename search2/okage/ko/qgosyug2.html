@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgosyug2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御守護により原爆免れ 有毒ガスの中も平気 『栄光』155号、昭和27(1952)年5月7日発行 広島県 大原中教会 上田誠次（45） 私は昭和十九年六月頃、広島において、御守様を拝受致しました。<br><br>当時は指圧療法の時でありました。<br><br>病気はありませんでしたが、親戚の者に勧められまして、この療法により病気が治り、人様も助ける力を授かるという事でありますので、しかも入信すれば直ちに容易に出来るとの事、これはただ事でないと感じましたまま、勿論理論など解りようとてない事でありました。<br><br> しかしこのために、世紀の原子爆弾を避け得られた事実は偉大であります。<br><br>厳粛であります。<br><br> 昭和二十年の七、八月は炎天続きでありました。<br><br>毎日市中を行動中Ｂ29の来襲にも時々出会いましたが何ら自分には変りありませんでした。<br><br>当時私は広島市北方十三粁、国鉄電車で三十五分間の距離にあるＫ町の軍需工場に入社勤務していました。<br><br>自宅は市の西部で原爆中心地より半里以内にありました（現在も同じ）。<br><br>会社では当時物資不足の折で、購入や官庁等の用件で毎日午前中はほとんど市中で行動をとっておりました。<br><br> 当八月六日には、早朝弾き出されるように午前六時半横川（広島市北部の省線駅）発の電車で出勤致しました事は、今もって不思議でなりません。<br><br>会社の事務所の北から南向きの自分の机からは、南の窓を通して広島方面の空はその日も炎熱を思わす青白色を西の山が斜に区切っていました。<br><br>「ピカッ」とその上空の閃光を全身に感じましたのは正しく午前八時十五分でありました。<br><br> 「新型爆弾だ」とは全員の意見でした。<br><br>閃光後の茸型の爆煙はこれ又まことに奇異なものでありました。<br><br> 早速広島よりの通勤者はトラックで正午頃帰りました。<br><br>市周辺の家屋は未だ延焼中の物が多くありました。<br><br>途中避難者の群に出会いましたが、これらは全部無傷の者でしたが、全部、荷物はおろか袋一つ持っていませんのを見まして不思議に思いました。<br><br>途中でトラックを下り省線の線路伝いに横川に出るのにガスのため一苦労でした。<br><br>道々に横たわる屍、未だ息のある重傷者、全裸の男女、しかも腕、脚、胸、背の表皮ははがれて、赤身のぶらりと垂れ下ったままで苦痛を訴え救いを求める様、河原の砂上に群なす負傷者達、今もってまざまざと脳裡に浮びます。<br><br> 翌日からは市の西方約十六粁の親戚に疎開致しまして、縁故者の捜査に約一カ月許り市中の各所に通いました。<br><br>朝六時頃出発、日ぐれ八時頃帰途につき十一時頃帰宅致しました。<br><br>無論交通機関絶無の時ですから往復徒歩でありました。<br><br>しかも炎天下、原爆ガスと屍臭が充満して青や緑色一つなく、奇怪な黒褐色に覆われた残骸広島は、生存者の私には大きな反省を促すもののようでありました。<br><br>しかも歩く白シャツ、パンツには真黒になる程の蝿をつけて払えども追えども際限のない蝿でした。<br><br>二十カ年近く呉服商で事務方面に従事致しまして、いわゆる蒲柳（ほりゅう・ひよわなこと）の質の自分が、毎日地下足袋での歩行初めは蹠（あしうら）が痛みましたが、終りには大分皮も厚くなった位であります。<br><br>夕暮時に村と市の境の峠の頂上に立つや、西方の田舎からの空気の爽快な味わいは初めての体験でありまして、いかに当時の広島市中の空気の尋常でなかったかを御想像願います。<br><br>原爆時に難を避けさせて頂きました私も、直後から毎日をこの原爆ガスの中に暮しましたのに何ら故障のなかった事、これもまた普通でなかったと思います。<br><br>後になって気付いた事でありますが、その八月か九月の間に一週間位無痛無熱の下痢がありました。<br><br>近年になりましてこれが大変に結構な御浄化を頂いたのだという事を感じさせて頂きました。<br><br>否この御浄化によって私は生命を賜わったものと感謝致しております。<br><br> このガスのために、原爆当時助かりました者、又疎開者で被爆後に市中に出歩いたために傷ついた人の数は相当に上り、むしろそのために死去した者も多数ありました。<br><br>田舎の人で被爆後市中の寺の墓を調べるために僅か一日来たために帰宅して死去した話を一、二聞きましたが、いかに被爆後の空気状態の悪かったかという事が窺われると思います。<br><br> 最初原爆から御加護を頂いた私も、当時は勿論それが原子爆弾とは知りませんでした（当時は専門学者以外は誰も関知しなかったと思います）。<br><br> 又当然その原爆ガスの有毒さも無関心のまま第二段目とも申します危険この上もないそのガス中を俳徊しながらも、知らず識らずの内に御浄化の御加護によりまして身体に異常のありませんでした事は何と申しましても大神様、明主様の御加護と申し上げる外ないと思います。<br><br>誠に有難く厚く厚く御礼申し上げます。<br><br> なお当時、親戚の婦人の火傷患者に掌を触れずに治療致しましたが、苦痛が軽減致し、遂に全快致しました。<br><br>家屋倒壊の時下敷になりまして右肩、右手全体を打撲致しまして筋を痛めまして、指の動きも不充分で痛苦を訴えていましたが、火傷治療後、御浄霊で楽になりました。<br><br>原爆後は生存者は全部市外に疎開致しましてこのお道の連絡も絶たれておりましたところ、昭和二十一年現在の大原中教会の石原先生が、交通、食糧等すべて不自由の中を、御遠路を御来広下さいました事は、原爆に遭いまして助かった私達と致しまして、誠に、大神様並びに明主様の御恵みと感謝感激厚く御礼申し上げる次第であります。<br><br>爾来毎月御指導に与り、Ｈ支部設置の御許しも頂きました。<br><br>殊に去る三月十二日には、この広島市で最初の世界救世教の大講演会を開催して頂きまして、管長先生外諸先生の御来広下さいました事は私達生存者は勿論、原爆の犠牲者二十幾万の霊のいかに喜びましたかを思いますにつけ、感慨無量なるものがございます。<br><br>今後共益々御道のために努力させて頂く覚悟でございます。<br><br> 簡単でございますが、原子爆弾体験を報告させて頂きました。<br><br>明主様有難うございました。<br><br>厚く御礼申し上げます。<br><br> （昭和二十七年五月七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Pela Proteção Divina, escapei da bomba atômica e permaneci ileso em meio a gases venenosos</h2>
 <p>Revista Eikou, nº 155, publicada em 7 de maio de 1952
@@ -106,5 +261,48 @@ Província de Hiroshima, Igreja Ohara-Tyu, Seiji Ueda (45 anos)</p>
 <p>Recentemente, em 12 de março, um evento especial encheu-nos de júbilo: a realização, pela primeira vez em Hiroshima, de uma Grande Reunião da Sekai Kyusei Kyo. A presença do Presidente e de outros reverendos na cidade foi motivo de imensa alegria não apenas para nós, os sobreviventes, mas, tenho certeza, também para os mais de duzentos mil espíritos vitimados pela bomba. Ao refletir sobre isso, sinto uma emoção indescritível. Renovo, assim, minha determinação em me empenhar cada vez mais em prol desta Obra Divina.</p>
 <p>Este foi um breve relato de minha experiência com a bomba atômica. Muito obrigado, Meishu-Sama. Expresso minha mais profunda gratidão.</p>
 <p>(7 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御守護により原爆免れ 有毒ガスの中も平気 『栄光』155号、昭和27(1952)年5月7日発行 広島県 大原中教会 上田誠次（45） 私は昭和十九年六月頃、広島において、御守様を拝受致しました。<br/><br/>当時は指圧療法の時でありました。<br/><br/>病気はありませんでしたが、親戚の者に勧められまして、この療法により病気が治り、人様も助ける力を授かるという事でありますので、しかも入信すれば直ちに容易に出来るとの事、これはただ事でないと感じましたまま、勿論理論など解りようとてない事でありました。<br/><br/> しかしこのために、世紀の原子爆弾を避け得られた事実は偉大であります。<br/><br/>厳粛であります。<br/><br/> 昭和二十年の七、八月は炎天続きでありました。<br/><br/>毎日市中を行動中Ｂ29の来襲にも時々出会いましたが何ら自分には変りありませんでした。<br/><br/>当時私は広島市北方十三粁、国鉄電車で三十五分間の距離にあるＫ町の軍需工場に入社勤務していました。<br/><br/>自宅は市の西部で原爆中心地より半里以内にありました（現在も同じ）。<br/><br/>会社では当時物資不足の折で、購入や官庁等の用件で毎日午前中はほとんど市中で行動をとっておりました。<br/><br/> 当八月六日には、早朝弾き出されるように午前六時半横川（広島市北部の省線駅）発の電車で出勤致しました事は、今もって不思議でなりません。<br/><br/>会社の事務所の北から南向きの自分の机からは、南の窓を通して広島方面の空はその日も炎熱を思わす青白色を西の山が斜に区切っていました。<br/><br/>「ピカッ」とその上空の閃光を全身に感じましたのは正しく午前八時十五分でありました。<br/><br/> 「新型爆弾だ」とは全員の意見でした。<br/><br/>閃光後の茸型の爆煙はこれ又まことに奇異なものでありました。<br/><br/> 早速広島よりの通勤者はトラックで正午頃帰りました。<br/><br/>市周辺の家屋は未だ延焼中の物が多くありました。<br/><br/>途中避難者の群に出会いましたが、これらは全部無傷の者でしたが、全部、荷物はおろか袋一つ持っていませんのを見まして不思議に思いました。<br/><br/>途中でトラックを下り省線の線路伝いに横川に出るのにガスのため一苦労でした。<br/><br/>道々に横たわる屍、未だ息のある重傷者、全裸の男女、しかも腕、脚、胸、背の表皮ははがれて、赤身のぶらりと垂れ下ったままで苦痛を訴え救いを求める様、河原の砂上に群なす負傷者達、今もってまざまざと脳裡に浮びます。<br/><br/> 翌日からは市の西方約十六粁の親戚に疎開致しまして、縁故者の捜査に約一カ月許り市中の各所に通いました。<br/><br/>朝六時頃出発、日ぐれ八時頃帰途につき十一時頃帰宅致しました。<br/><br/>無論交通機関絶無の時ですから往復徒歩でありました。<br/><br/>しかも炎天下、原爆ガスと屍臭が充満して青や緑色一つなく、奇怪な黒褐色に覆われた残骸広島は、生存者の私には大きな反省を促すもののようでありました。<br/><br/>しかも歩く白シャツ、パンツには真黒になる程の蝿をつけて払えども追えども際限のない蝿でした。<br/><br/>二十カ年近く呉服商で事務方面に従事致しまして、いわゆる蒲柳（ほりゅう・ひよわなこと）の質の自分が、毎日地下足袋での歩行初めは蹠（あしうら）が痛みましたが、終りには大分皮も厚くなった位であります。<br/><br/>夕暮時に村と市の境の峠の頂上に立つや、西方の田舎からの空気の爽快な味わいは初めての体験でありまして、いかに当時の広島市中の空気の尋常でなかったかを御想像願います。<br/><br/>原爆時に難を避けさせて頂きました私も、直後から毎日をこの原爆ガスの中に暮しましたのに何ら故障のなかった事、これもまた普通でなかったと思います。<br/><br/>後になって気付いた事でありますが、その八月か九月の間に一週間位無痛無熱の下痢がありました。<br/><br/>近年になりましてこれが大変に結構な御浄化を頂いたのだという事を感じさせて頂きました。<br/><br/>否この御浄化によって私は生命を賜わったものと感謝致しております。<br/><br/> このガスのために、原爆当時助かりました者、又疎開者で被爆後に市中に出歩いたために傷ついた人の数は相当に上り、むしろそのために死去した者も多数ありました。<br/><br/>田舎の人で被爆後市中の寺の墓を調べるために僅か一日来たために帰宅して死去した話を一、二聞きましたが、いかに被爆後の空気状態の悪かったかという事が窺われると思います。<br/><br/> 最初原爆から御加護を頂いた私も、当時は勿論それが原子爆弾とは知りませんでした（当時は専門学者以外は誰も関知しなかったと思います）。<br/><br/> 又当然その原爆ガスの有毒さも無関心のまま第二段目とも申します危険この上もないそのガス中を俳徊しながらも、知らず識らずの内に御浄化の御加護によりまして身体に異常のありませんでした事は何と申しましても大神様、明主様の御加護と申し上げる外ないと思います。<br/><br/>誠に有難く厚く厚く御礼申し上げます。<br/><br/> なお当時、親戚の婦人の火傷患者に掌を触れずに治療致しましたが、苦痛が軽減致し、遂に全快致しました。<br/><br/>家屋倒壊の時下敷になりまして右肩、右手全体を打撲致しまして筋を痛めまして、指の動きも不充分で痛苦を訴えていましたが、火傷治療後、御浄霊で楽になりました。<br/><br/>原爆後は生存者は全部市外に疎開致しましてこのお道の連絡も絶たれておりましたところ、昭和二十一年現在の大原中教会の石原先生が、交通、食糧等すべて不自由の中を、御遠路を御来広下さいました事は、原爆に遭いまして助かった私達と致しまして、誠に、大神様並びに明主様の御恵みと感謝感激厚く御礼申し上げる次第であります。<br/><br/>爾来毎月御指導に与り、Ｈ支部設置の御許しも頂きました。<br/><br/>殊に去る三月十二日には、この広島市で最初の世界救世教の大講演会を開催して頂きまして、管長先生外諸先生の御来広下さいました事は私達生存者は勿論、原爆の犠牲者二十幾万の霊のいかに喜びましたかを思いますにつけ、感慨無量なるものがございます。<br/><br/>今後共益々御道のために努力させて頂く覚悟でございます。<br/><br/> 簡単でございますが、原子爆弾体験を報告させて頂きました。<br/><br/>明主様有難うございました。<br/><br/>厚く御礼申し上げます。<br/><br/> （昭和二十七年五月七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kaeri27</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 昭和二十七年を顧みて 松籟生 『栄光』188号、昭和27(1952)年12月24日発行 ◎年末に際し余は過去数年を追想し、特に昨年末を思い浮べ、更にことし一年を回顧して、まことに感慨深きものがある。<br><br> ◎過去数年間におけるわが世界救世教の発展と、その途上に発生した幾多のできごとは、吉凶禍福の連続であり、喜悲と苦楽の交錯でもあった。<br><br>しかもその余震は昨年末まで消えなかったのである。<br><br> ◎主宰神の霊妙なる御経綸を信じ、わが教主様の偉大なる御懿徳（いとく）を確信する多数の信徒諸君が、幹部諸氏と協力して、よくこれ等の試練にたえ、敢然として重畳の波瀾を来りこえ得たことは、実に一大壮観で、思い出しても血わき肉おどり、感激に胸せまるものがある。<br><br> ◎しかるに今年に入っては、六月にはやくも箱根強羅に地上天国模型の完成を見、京都嵯峨野にもまた地上天国模型の一部ができあがり久しく難工を続けた熱海瑞雲郷の敷地工事も漸く完了して、今月十六日メシヤ会館建設の地鎮祭が行われたのであった。<br><br> ◎開花の時季には、すさぶ嵐と闘わねばならないのは世の常である。<br><br>しかし今年は結実の季節に入ったのである。<br><br>して箱根強羅の神仙郷には地上天国の果実すでに成熱し、熱海にも京都にも青果みのり、全国幾十万の信徒は等しく歓喜の息はずませながら、ひたすら成熟の日を楽しみに懸命の奉仕を続けておるのである。<br><br> ◎われわれ信徒は今後も勿論この努力を続けねばならぬ。<br><br>けれどもそれは成熟を眼前にひかえての努力である。<br><br>収穫寸前の楽しい努力である。<br><br> ◎教主様には今月二十三日御生誕七十回目の好き日をお迎え遊ばされ、信徒一同御祝い申し上げたのであるが、矍鑠壮者を凌ぐ御姿を拝して、うれし涙に咽ばぬ者とてなかった。<br><br>朝は夙に御床を離れ給い、夜は深更に至るまで御聖業にいそしみ給うと承るに、少しの御おとろえだに示し給わぬ御元気さに励まされて、われ等も一層の精進を御誓い申しあげたのである。<br><br> ◎わが教団今年の特色として、信者相互の親睦が一段その度を加えたことをあげねばならぬ。<br><br>従来の派閥的色彩は殆どそのあとを残さず、各大中教会の間も極めて円滑に、従って信者間の親睦も格段と密になり、教団本来の姿を示すに至ったことは何より喜ばしいことである。<br><br>この形が各大中教会長等の会合にも、理事会にも、常置委員会にも現れ文字通り一心一体となって教主様にお仕え申しあげ、御神業に奉仕させていただくことのできるのは信者無上の幸である。<br><br> ◎今年に入って、識者階級の入信者が、著るしくその数を増したことも、特に注目すべきことと思う。<br><br>これは教主様の御高徳によることは勿論であるが、昨年来全国にくりひろげた講演会が徹底して、全国民の間にわが教団に対する認識が深まり、従来の誤解が漸次解消されつつあるからでもあろう。<br><br>今年の総選挙にわが救世教信者の立候補者三名とも高点をもって当選したこともかかる結果の現れと欣快にたえない。<br><br> ◎わが教団最初の海外布教として、樋口喜代子先生が渡米されることも、今年における嬉しいニュースの一つである。<br><br>樋口先生は信仰においても学歴においても人格においても有数の方である。<br><br>余は先生の活躍に期待し、その成功を心から希念する。<br><br> ◎要之(これをようするに)わが世界救世教は、今年結実の第一年を経過し一大飛躍の機運をはらんで将に新年を迎えんとしておる。<br><br>余は信徒各位が．益々親密の手を携え、当事者が更に協力の態勢強化して、この機運に乗ぜんことを切望する。<br><br>余もまたその驥尾（きび）にふして鈍駑（どんど）を致すであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Retrospectiva do Ano de 1952</h2>
 <p>Ao rememorar os últimos anos neste final de período, e em especial ao recordar o encerramento do ano que passou, sou invadido por uma profunda emoção ao contemplar a trajetória deste ano que agora finda.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Outro fato digno de nota neste ano foi o expressivo aumento no número de ingressantes provenientes das classes intelectuais. Isso se deve, evidentemente, à elevada virtude de Meishu-Sama, mas também é reflexo do êxito das palestras promovidas em todo o país desde o ano passado. Tais eventos aprofundaram a compreensão da população sobre nossa Igreja, desfazendo gradualmente os equívocos de outrora. A eleição dos três candidatos de nossa fé nas eleições gerais deste ano, todos com votações expressivas, é uma manifestação desses resultados que nos enche de júbilo.</p>
 <p>A primeira missão de difusão de nossa Igreja no exterior, com a ida da reverenda Kiyoko Higuchi aos Estados Unidos, representa mais uma jubilosa notícia deste ano. A reverenda Higuchi é uma pessoa de notáveis qualidades, seja em sua fé, em sua formação acadêmica ou em seu caráter. Deposito grandes esperanças em sua atuação e rogo, do fundo do coração, por seu pleno êxito.</p>
 <p>Em suma, nossa Sekaikyuseikyo encerra este primeiro ano de frutificação e se prepara para receber o novo ano, impulsionada por um forte momentum para um grandioso avanço. Anseio fervorosamente que todos os fiéis unam as mãos em laços cada vez mais estreitos e que os responsáveis fortaleçam ainda mais sua cooperação, a fim de aproveitar esta auspiciosa oportunidade. Eu, igualmente, de forma humilde, me esforçarei para contribuir com minha modesta capacidade, seguindo o nobre caminho que nos é traçado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 昭和二十七年を顧みて 松籟生 『栄光』188号、昭和27(1952)年12月24日発行 ◎年末に際し余は過去数年を追想し、特に昨年末を思い浮べ、更にことし一年を回顧して、まことに感慨深きものがある。<br/><br/> ◎過去数年間におけるわが世界救世教の発展と、その途上に発生した幾多のできごとは、吉凶禍福の連続であり、喜悲と苦楽の交錯でもあった。<br/><br/>しかもその余震は昨年末まで消えなかったのである。<br/><br/> ◎主宰神の霊妙なる御経綸を信じ、わが教主様の偉大なる御懿徳（いとく）を確信する多数の信徒諸君が、幹部諸氏と協力して、よくこれ等の試練にたえ、敢然として重畳の波瀾を来りこえ得たことは、実に一大壮観で、思い出しても血わき肉おどり、感激に胸せまるものがある。<br/><br/> ◎しかるに今年に入っては、六月にはやくも箱根強羅に地上天国模型の完成を見、京都嵯峨野にもまた地上天国模型の一部ができあがり久しく難工を続けた熱海瑞雲郷の敷地工事も漸く完了して、今月十六日メシヤ会館建設の地鎮祭が行われたのであった。<br/><br/> ◎開花の時季には、すさぶ嵐と闘わねばならないのは世の常である。<br/><br/>しかし今年は結実の季節に入ったのである。<br/><br/>して箱根強羅の神仙郷には地上天国の果実すでに成熱し、熱海にも京都にも青果みのり、全国幾十万の信徒は等しく歓喜の息はずませながら、ひたすら成熟の日を楽しみに懸命の奉仕を続けておるのである。<br/><br/> ◎われわれ信徒は今後も勿論この努力を続けねばならぬ。<br/><br/>けれどもそれは成熟を眼前にひかえての努力である。<br/><br/>収穫寸前の楽しい努力である。<br/><br/> ◎教主様には今月二十三日御生誕七十回目の好き日をお迎え遊ばされ、信徒一同御祝い申し上げたのであるが、矍鑠壮者を凌ぐ御姿を拝して、うれし涙に咽ばぬ者とてなかった。<br/><br/>朝は夙に御床を離れ給い、夜は深更に至るまで御聖業にいそしみ給うと承るに、少しの御おとろえだに示し給わぬ御元気さに励まされて、われ等も一層の精進を御誓い申しあげたのである。<br/><br/> ◎わが教団今年の特色として、信者相互の親睦が一段その度を加えたことをあげねばならぬ。<br/><br/>従来の派閥的色彩は殆どそのあとを残さず、各大中教会の間も極めて円滑に、従って信者間の親睦も格段と密になり、教団本来の姿を示すに至ったことは何より喜ばしいことである。<br/><br/>この形が各大中教会長等の会合にも、理事会にも、常置委員会にも現れ文字通り一心一体となって教主様にお仕え申しあげ、御神業に奉仕させていただくことのできるのは信者無上の幸である。<br/><br/> ◎今年に入って、識者階級の入信者が、著るしくその数を増したことも、特に注目すべきことと思う。<br/><br/>これは教主様の御高徳によることは勿論であるが、昨年来全国にくりひろげた講演会が徹底して、全国民の間にわが教団に対する認識が深まり、従来の誤解が漸次解消されつつあるからでもあろう。<br/><br/>今年の総選挙にわが救世教信者の立候補者三名とも高点をもって当選したこともかかる結果の現れと欣快にたえない。<br/><br/> ◎わが教団最初の海外布教として、樋口喜代子先生が渡米されることも、今年における嬉しいニュースの一つである。<br/><br/>樋口先生は信仰においても学歴においても人格においても有数の方である。<br/><br/>余は先生の活躍に期待し、その成功を心から希念する。<br/><br/> ◎要之(これをようするに)わが世界救世教は、今年結実の第一年を経過し一大飛躍の機運をはらんで将に新年を迎えんとしておる。<br/><br/>余は信徒各位が．益々親密の手を携え、当事者が更に協力の態勢強化して、この機運に乗ぜんことを切望する。<br/><br/>余もまたその驥尾（きび）にふして鈍駑（どんど）を致すであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

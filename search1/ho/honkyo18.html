@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo18</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教の批判者へ 『光』34号、昭和24(1949)年11月5日発行 これは常に感じている事であるが、本教の批判者の見方ははなはだ不公平な憾（うら）みがある、何となれば本教が現在社会各層に対し、素晴しい救済的功績を挙げつつあるにかかわらず、その事は全然限を蔽うているかのようだ、そうしておいて何かいささかでも欠点がないかと眼を皿のようにしている態度で、たまたま人の噂かまたは反対者の悪口など耳に入るや待っていたとばかりにそれだけを採上げて一種の疑惑を起さしたり、大袈裟（おおげさ）に宣伝する等で、実に解らない話である。<br><br> 今世の中を見渡した時、独り宗教には限らないが、あらゆるものに完全なものは一つもある訳がない、どんな立派なものでも必ず幾分かの欠陥はあるに決っている、しかるに本教においては十のものとすれば、強いて欠陥を求むるも一か二くらいであろう、事程左様である事は本教の発展振りをみれば肯（うなず）くであろう、しかるに本教が発展する土地において、医師、按摩（あんま）を初め他の民間療法者等に自然影響を与える結果彼らは死活問題としてあらゆる手段を講ずる、その方法としてその土地の取締当局をはじめ、地方新聞や舌の宣伝等によって、極力本教に非難を浴びせ、発展を阻止しようとする、その場合まず医療妨害的言葉を発したとか、被害を蒙（こうむ）り泣いている者があるとか、安寧秩序を紊（みだ）す言を発したとか等の些末（さまつ）の事柄を針小棒大に誇張したり、馬鹿馬鹿しい程の作り事等を交ぜて宣伝すると共に、当局に訴え取締りの必要を強調するのである、かような訳で全国的新聞にデマ的記事の載っていない日はほとんど無いといってもよかろう、もちろんそれが本教発展するにつれて増加するのは当然で変な言い方だが善事を行う事のむずかしさを常に痛感するのである。<br><br> 吾らといえども右の事実によって、今後本教が発展すればする程影響を蒙る人々も殖えるであろうし、全く衷心からお気の毒に感じ、同情に吝（やぶさ）かではないが、吾らは神の意図を体し全人類の救済という厖大なる事業を遂行しつつある以上いかんともし難いのである、昔から大善は小悪を伴うというが全くその通りで、以前ある人が言った言葉に「酒飲みがあるから国家の財源が保たれるのだ、全然禁酒するとしたら大蔵省の予算が立たないではないか」と言われた事があるが、これと同様であろう、右に対しそれら反対者に言いたいのは最良なる手段は、本教の信者となり神霊療法を実行する事である、その効たるや医療とは格段の相違があるから、いかに多数の人命を救い感謝されるかは言うまでもない、最近某医学博士が本教に転向した後の告白によってみても明らかである。<br><br> ここで今一つ重要事がある、それは本教が唱導する無肥料栽培であるが、年々肥毒が減少するに従って各地とも素晴しい成果を挙げつつある事実である、これが一般に知れ渡るに従って全国的に普及されるとすれば、肥料事業に及ぼす影響もまた甚大であろう事も、吾らは今から考慮を払っているのである、これらも言い換えれば肥料事業に影響する程であれば、無肥料栽培がいかに効果を挙げるかで、肥料代は零となり労力は著減されるから、その国益増進の効果はいかに大なるものであるか想像されるであろう。<br><br> 以上の諸点に対し、当局においても本教の実態を充分調査の上善処されたい事を望むのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Aos Críticos de Nossa Igreja</h2>
 <p>Reflito constantemente sobre a lamentável parcialidade com que os críticos observam nossa Igreja. Apesar dos notáveis méritos e do auxílio que ela vem prestando às diversas camadas da sociedade, parecem deliberadamente ignorar tais feitos. Em contrapartida, esmeram-se em buscar, com olhos de águia, a menor falha que seja. E, ao ouvirem um mero boato ou a calúnia de um opositor, agem como se aguardassem por aquele exato momento: apoderam-se do fato isolado para instilar a dúvida ou o propagam de forma exagerada. Trata-se, em verdade, de uma atitude incompreensível.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Diante desses fatos, não somos insensíveis. Compreendemos que, quanto mais a Igreja se expandir, mais pessoas terão suas atividades afetadas, e por elas sentimos sincera compaixão e solidariedade. Todavia, como portadores da Vontade Divina e executores da monumental obra de salvação de toda a humanidade, nada podemos fazer para alterar esse curso. Um antigo ditado afirma que um grande bem vem sempre acompanhado de um pequeno mal, e isso é a mais pura verdade. Recordo-me das palavras de um homem, que certa vez comentou: “A arrecadação do Estado se mantém graças aos que bebem. Se o álcool fosse totalmente proibido, o orçamento do Ministério das Finanças entraria em colapso”. Nossa situação é análoga. A esses opositores, gostaria de propor a melhor das soluções: que se tornem membros de nossa Igreja e pratiquem a Terapia Divina. Sua eficácia é incomparavelmente superior à da medicina convencional, e não é preciso descrever a imensa gratidão que receberiam por salvar tantas vidas. O testemunho de um renomado doutor em medicina, que recentemente se converteu à nossa fé, torna essa verdade manifesta.</p>
 <p>Gostaria de abordar, agora, outro ponto de suma importância: a Agricultura sem Adubos, preconizada por nossa Igreja. À medida que os venenos dos fertilizantes diminuem ano a ano, essa prática vem alcançando resultados esplêndidos em diversas regiões. Temos consciência de que, conforme tais resultados se tornem amplamente conhecidos e o método se dissemine por todo o país, o impacto sobre a indústria de fertilizantes será igualmente profundo. Em outras palavras, o próprio fato de essa prática poder afetar tal indústria evidencia a sua extraordinária eficácia. Imagine-se, pois, o imenso benefício para a nação, uma vez que os custos com adubos seriam eliminados e o trabalho no campo, drasticamente reduzido.</p>
 <p>Diante de todos os pontos expostos, esperamos que as autoridades investiguem a fundo a realidade de nossa Igreja e tomem as providências mais justas e adequadas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教の批判者へ 『光』34号、昭和24(1949)年11月5日発行 これは常に感じている事であるが、本教の批判者の見方ははなはだ不公平な憾（うら）みがある、何となれば本教が現在社会各層に対し、素晴しい救済的功績を挙げつつあるにかかわらず、その事は全然限を蔽うているかのようだ、そうしておいて何かいささかでも欠点がないかと眼を皿のようにしている態度で、たまたま人の噂かまたは反対者の悪口など耳に入るや待っていたとばかりにそれだけを採上げて一種の疑惑を起さしたり、大袈裟（おおげさ）に宣伝する等で、実に解らない話である。<br/><br/> 今世の中を見渡した時、独り宗教には限らないが、あらゆるものに完全なものは一つもある訳がない、どんな立派なものでも必ず幾分かの欠陥はあるに決っている、しかるに本教においては十のものとすれば、強いて欠陥を求むるも一か二くらいであろう、事程左様である事は本教の発展振りをみれば肯（うなず）くであろう、しかるに本教が発展する土地において、医師、按摩（あんま）を初め他の民間療法者等に自然影響を与える結果彼らは死活問題としてあらゆる手段を講ずる、その方法としてその土地の取締当局をはじめ、地方新聞や舌の宣伝等によって、極力本教に非難を浴びせ、発展を阻止しようとする、その場合まず医療妨害的言葉を発したとか、被害を蒙（こうむ）り泣いている者があるとか、安寧秩序を紊（みだ）す言を発したとか等の些末（さまつ）の事柄を針小棒大に誇張したり、馬鹿馬鹿しい程の作り事等を交ぜて宣伝すると共に、当局に訴え取締りの必要を強調するのである、かような訳で全国的新聞にデマ的記事の載っていない日はほとんど無いといってもよかろう、もちろんそれが本教発展するにつれて増加するのは当然で変な言い方だが善事を行う事のむずかしさを常に痛感するのである。<br/><br/> 吾らといえども右の事実によって、今後本教が発展すればする程影響を蒙る人々も殖えるであろうし、全く衷心からお気の毒に感じ、同情に吝（やぶさ）かではないが、吾らは神の意図を体し全人類の救済という厖大なる事業を遂行しつつある以上いかんともし難いのである、昔から大善は小悪を伴うというが全くその通りで、以前ある人が言った言葉に「酒飲みがあるから国家の財源が保たれるのだ、全然禁酒するとしたら大蔵省の予算が立たないではないか」と言われた事があるが、これと同様であろう、右に対しそれら反対者に言いたいのは最良なる手段は、本教の信者となり神霊療法を実行する事である、その効たるや医療とは格段の相違があるから、いかに多数の人命を救い感謝されるかは言うまでもない、最近某医学博士が本教に転向した後の告白によってみても明らかである。<br/><br/> ここで今一つ重要事がある、それは本教が唱導する無肥料栽培であるが、年々肥毒が減少するに従って各地とも素晴しい成果を挙げつつある事実である、これが一般に知れ渡るに従って全国的に普及されるとすれば、肥料事業に及ぼす影響もまた甚大であろう事も、吾らは今から考慮を払っているのである、これらも言い換えれば肥料事業に影響する程であれば、無肥料栽培がいかに効果を挙げるかで、肥料代は零となり労力は著減されるから、その国益増進の効果はいかに大なるものであるか想像されるであろう。<br/><br/> 以上の諸点に対し、当局においても本教の実態を充分調査の上善処されたい事を望むのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

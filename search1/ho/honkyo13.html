@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教に迷信はない 『栄光』143号、昭和27(1952)年2月13日発行 世間一般の人の考え方は、新宗教とさえ言えば迷信と見るようだが、これは実におかしい話ではないか、もしその観方が正当とすれば、既成宗教には迷信がないという事になろう。<br><br>しかしよく考えてみると、今日強固な地盤を築いている幾多の既成宗教にしても、その初めは例外なく迷信邪教扱いされたのである。<br><br>まず第一のキリスト教がアノ通りで、時の民衆から散々罵声を浴びせられ、教祖キリストは十字架の露と消えたにみても分るはずである。<br><br>日本においても、彼の法然、親鸞、日蓮、天理教の教祖のごときも邪教の本尊とされ、幾度とない入牢や遠島は固より、中には生命の危険にまで晒されたのは衆知の通りであるが、しかも今なお燦と輝いている。<br><br>これにみても分るごとく、いつの時代でも新宗教に、誤解と受難は付物である。<br><br>という訳で現代人といえども、ジャーナリストなどは、新宗教というとろくろく触れもせず、インチキ邪教と決めてしまうその軽率さはお話にならないのである。<br><br>こういう人達こそ、いずれは引っ込みがつかなくなり、恥をかくくらいが落ちであろう。<br><br> こうみてくると、現在世間から非難を浴びせられている新宗教の中にも、将来今日の既成宗教以上のものが出ないと誰か言い得るであろう。<br><br>はなはだ自画自讃ではあるが本教なども現在毀誉褒貶（きよほうへん）の渦中にあって、社会の注目の的とされてはいるが、いずれは臍（ほぞ）を噛む人も大多数出来るに違いないと思っている。<br><br>もっとも本教の唱える説は、既成宗教や現代文化の水準とは、余りにも懸け離れているので、容易に分り得ないからでもあろう。<br><br>これも昔から多くの例があるように、科学上の学説にしても、新しい説を唱え出した者は、その時代の丁髷（ちょんまげ）階級から異端者扱いをされ、酷い目に遭わされた事績は人の知るところで、彼のコペルニクスやガリレオなどの地動説などもいい見本であろう。<br><br> しかも本教の唱える説たるや、有史以来類例のない程の、余りに破天荒的新説であるから、既成文化の眼で見たら、到底信じられないのは当然で、ちょうど幕末期における切支丹（きりしたん）バテレンのように思えるからであろう。<br><br>ところが現代文化に対し、私としての観方を率直に言えば、驚くなかれその大半は恐るべき迷信に陥っているのである。<br><br>そこでこれを大別してみると、三つの大きな迷信がある。<br><br>第一は医学迷信、第二が肥料迷信で、第三が無神迷信である。<br><br>この内最初の二大迷信は常に説明しているから、ここでは略すとして、第三の無神迷信であるが、これも今まで相当唱えては来たが、まだ言い足りない点もあるので、ここでかいてみるが、言うまでもなくこの世に神などはありはしないという無神思想である。<br><br>それがため反って有神論者を目して、迷信とみなす逆迷信である。<br><br>これなども森羅万象に対し、心を潜めてよく検討すれば、神の実存が分らないはずはないのであるが、そこまで研究しようとする人がまことに少ない現在である。<br><br>という訳は何しろ生まれながらにして、唯物教育を散々叩き込まれた結果、無神思想になり切っているからで、いつも言う通り野蛮人が空気は見えないから、無いというのと同様で、何と未開人的ではなかろうか。<br><br>従ってどうしてもこの無神迷信を打破し、再教育をする事こそ、文化向上の最緊要事であって、それより外に真の文明世界実現の方法は、決してあり得ないのである。<br><br> 次に今日割合人々の軽視している彼の世俗迷信である。<br><br>すなわち暦にあるヤレ大安、仏滅、先負などという馬鹿馬鹿しいと思う程の迷信が、案外人心に喰い入っている。<br><br>また日のいい悪い、家相、方位、相性などもそうであって、こういう迷信は東洋ばかりかと思うと左に非ずで、西洋の方も案外負けないようだ、彼の十三日金曜日などもそれで、ホテルや病院の室も十三の数だけ省くそうである。<br><br>これはキリスト受難日から生まれたものであるが、面白い事には科学の進歩した国程、反って迷信が多いとされている。<br><br>彼の文明国中迷信の数からいうと、独逸（ドイツ）が一番多いというのも、全く理屈に合わない話だが、実はこれが理屈に合っている事を次にかいてみよう。<br><br> まず現代社会で、教養のある人程そうだが、科学的合理的にすれば、万事は都合よくゆくと思っているが、不思議にも事実はそうはゆかない。<br><br>意外な結果となる事が往々ある。<br><br>例えば病気にしても、早い内から有名な博士や大病院に入院し、金に飽かして近代医学の粋を尽しても仲々治らず、死ぬ事さえもあるし、また金持の坊ちゃんなどが、金を掛けお医者のいう通りにしても、弱々しい腺病質になるに反し、ろくろく構わない貧乏人の伜（せがれ）が、ピンピンしているというような事実である。<br><br>また交通事故などで不時な災難を受けたり、いか程注意万端行届いていても、不意の病気も災害も避けられないのが世の中の常で、全く一寸先は闇である。<br><br>その他人間同士にしても、善人らしい悪人もあり、悪人らしい善人もあり、ウッカリ信用して飛んでもない目に遭わされる事があるかと思えば、駄目と思った人間が案外役に立つ事もある。<br><br>またこれも世間ザラにある話だが、平常から心掛けて貯蓄をし、貯金帳を見るのを楽しみにしていると、家族の誰かが病気に罹り、入院でもすると、長年の血と汗の塊も一遍に飛んでしまい、百日の説法屁一つという事もよくある。<br><br>このように考えてくると、実に不安の中で呼吸しているのが人間である。<br><br>それがため政府においても、ヤレ何々保険、何々補償法などといって、各種の災害防止法を熱心に行っているが、これらもないよりは増しだが、到底根本的解決とはならないのは衆知の通りである。<br><br> 以上のように寸時といえども、安心の出来ないこの娑婆（しゃば）としたら、科学だけでは安心出来ないのはもちろんで、他に何らか頼りになるものを求めるのは人情である。<br><br>そこで昔からの言い伝えや、世間ありふれたものの中から、少しでも安心の助けになりそうなものを利用する訳だから、これらも全く科学不信の結果、余儀ないので、結果からいえば科学が迷信を作るといっても、間違いではないであろう。<br><br> ところが本教の信者になると、実に不安というものがなくなる。<br><br>これはお蔭話に沢山出ているから読めば分るが、現在の世の中で本教信者くらい安心感を得ている者はあるまい。<br><br>といっても禍いは絶無とは言えないが、それは世の中に罪穢の全然ない人はないからである。<br><br>しかしたとえ禍いがあっても、その原因がハッキリ分り、禍いは浄化であるからそれが済めば幸福が増すという楽しみがあるので、反って感謝の念さえ湧くから、結局不安のない人間となるのである。<br><br>仮に家を探す場合などもそうで、神様の御守護で思った通りの家が見つかるか、もし見つからなければ、まだ時期が早いから待てという意味で、いずれは予期以上の家を与えられる奇蹟は常にある。<br><br>万事がそうであるとしたら、文字通り安心立命の境地に住し、迷いなど起るはずはないのである。<br><br>すなわち標題のごとく、本教には迷信がないと言う事が分るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Em Nossos Ensinamentos, Não Há Superstição</h2>
 <p>É comum, na percepção geral da sociedade, que o termo “nova religião” seja prontamente associado à superstição. Trata-se, no entanto, de um argumento deveras falacioso. Se tal perspectiva fosse correta, depreender-se-ia que as religiões já estabelecidas estariam isentas de superstições. Contudo, uma reflexão mais atenta revela que as inúmeras religiões hoje consolidadas sobre alicerces robustos foram, sem exceção, tratadas como crendices e heresias em seus primórdios.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Analisando sob essa ótica, percebemos que o ser humano vive imerso em uma constante insegurança. Por isso, os governos se empenham em criar diversas leis de prevenção de desastres, como seguros e sistemas de indenização. Embora sejam melhores do que nada, é notório que não representam uma solução fundamental para o problema. Diante de um mundo onde a insegurança é a norma e a tranquilidade é efêmera, é evidente que a ciência por si só não basta para nos dar paz de espírito. É da natureza humana buscar algo mais em que se amparar. Assim, as pessoas recorrem a ditos populares e a superstições comuns na esperança de encontrar algum alento. Essa atitude é, em última análise, uma consequência da desconfiança na ciência. Por conseguinte, não seria incorreto afirmar que é a própria insuficiência da ciência que fomenta a superstição.</p>
 <p>Contudo, ao se tornarem membros de nossa Igreja, as pessoas descobrem que a ansiedade simplesmente se dissipa. Os inúmeros relatos de graças alcançadas, publicados em nossos periódicos, são prova disso. No mundo atual, não creio que exista um grupo de pessoas que desfrute de maior paz de espírito do que os nossos fiéis. Isso não significa que as adversidades deixem de existir, pois não há ninguém no mundo completamente isento de pecados e máculas. A diferença é que, mesmo diante de uma adversidade, compreendemos sua causa com clareza. Sabemos que as adversidades são purificações e que, uma vez concluído esse processo, nossa felicidade aumenta. Por essa razão, um sentimento de gratidão brota em nosso coração, e a intranquilidade desaparece por completo.</p>
 <p>Tomemos como exemplo a busca por uma casa. Pela proteção de Deus, ou encontramos exatamente a casa que desejávamos, ou, se não a encontramos, entendemos que ainda não é o momento certo e que, no futuro, receberemos uma residência ainda melhor do que a esperada. Milagres como esse ocorrem constantemente. Se todas as questões da vida são encaradas dessa forma, passamos a viver em um estado de completa paz de espírito, onde as dúvidas e os medos não têm como surgir. Fica evidente, portanto, a veracidade do que afirmei no título: em nossos Ensinamentos, não há superstição.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教に迷信はない 『栄光』143号、昭和27(1952)年2月13日発行 世間一般の人の考え方は、新宗教とさえ言えば迷信と見るようだが、これは実におかしい話ではないか、もしその観方が正当とすれば、既成宗教には迷信がないという事になろう。<br/><br/>しかしよく考えてみると、今日強固な地盤を築いている幾多の既成宗教にしても、その初めは例外なく迷信邪教扱いされたのである。<br/><br/>まず第一のキリスト教がアノ通りで、時の民衆から散々罵声を浴びせられ、教祖キリストは十字架の露と消えたにみても分るはずである。<br/><br/>日本においても、彼の法然、親鸞、日蓮、天理教の教祖のごときも邪教の本尊とされ、幾度とない入牢や遠島は固より、中には生命の危険にまで晒されたのは衆知の通りであるが、しかも今なお燦と輝いている。<br/><br/>これにみても分るごとく、いつの時代でも新宗教に、誤解と受難は付物である。<br/><br/>という訳で現代人といえども、ジャーナリストなどは、新宗教というとろくろく触れもせず、インチキ邪教と決めてしまうその軽率さはお話にならないのである。<br/><br/>こういう人達こそ、いずれは引っ込みがつかなくなり、恥をかくくらいが落ちであろう。<br/><br/> こうみてくると、現在世間から非難を浴びせられている新宗教の中にも、将来今日の既成宗教以上のものが出ないと誰か言い得るであろう。<br/><br/>はなはだ自画自讃ではあるが本教なども現在毀誉褒貶（きよほうへん）の渦中にあって、社会の注目の的とされてはいるが、いずれは臍（ほぞ）を噛む人も大多数出来るに違いないと思っている。<br/><br/>もっとも本教の唱える説は、既成宗教や現代文化の水準とは、余りにも懸け離れているので、容易に分り得ないからでもあろう。<br/><br/>これも昔から多くの例があるように、科学上の学説にしても、新しい説を唱え出した者は、その時代の丁髷（ちょんまげ）階級から異端者扱いをされ、酷い目に遭わされた事績は人の知るところで、彼のコペルニクスやガリレオなどの地動説などもいい見本であろう。<br/><br/> しかも本教の唱える説たるや、有史以来類例のない程の、余りに破天荒的新説であるから、既成文化の眼で見たら、到底信じられないのは当然で、ちょうど幕末期における切支丹（きりしたん）バテレンのように思えるからであろう。<br/><br/>ところが現代文化に対し、私としての観方を率直に言えば、驚くなかれその大半は恐るべき迷信に陥っているのである。<br/><br/>そこでこれを大別してみると、三つの大きな迷信がある。<br/><br/>第一は医学迷信、第二が肥料迷信で、第三が無神迷信である。<br/><br/>この内最初の二大迷信は常に説明しているから、ここでは略すとして、第三の無神迷信であるが、これも今まで相当唱えては来たが、まだ言い足りない点もあるので、ここでかいてみるが、言うまでもなくこの世に神などはありはしないという無神思想である。<br/><br/>それがため反って有神論者を目して、迷信とみなす逆迷信である。<br/><br/>これなども森羅万象に対し、心を潜めてよく検討すれば、神の実存が分らないはずはないのであるが、そこまで研究しようとする人がまことに少ない現在である。<br/><br/>という訳は何しろ生まれながらにして、唯物教育を散々叩き込まれた結果、無神思想になり切っているからで、いつも言う通り野蛮人が空気は見えないから、無いというのと同様で、何と未開人的ではなかろうか。<br/><br/>従ってどうしてもこの無神迷信を打破し、再教育をする事こそ、文化向上の最緊要事であって、それより外に真の文明世界実現の方法は、決してあり得ないのである。<br/><br/> 次に今日割合人々の軽視している彼の世俗迷信である。<br/><br/>すなわち暦にあるヤレ大安、仏滅、先負などという馬鹿馬鹿しいと思う程の迷信が、案外人心に喰い入っている。<br/><br/>また日のいい悪い、家相、方位、相性などもそうであって、こういう迷信は東洋ばかりかと思うと左に非ずで、西洋の方も案外負けないようだ、彼の十三日金曜日などもそれで、ホテルや病院の室も十三の数だけ省くそうである。<br/><br/>これはキリスト受難日から生まれたものであるが、面白い事には科学の進歩した国程、反って迷信が多いとされている。<br/><br/>彼の文明国中迷信の数からいうと、独逸（ドイツ）が一番多いというのも、全く理屈に合わない話だが、実はこれが理屈に合っている事を次にかいてみよう。<br/><br/> まず現代社会で、教養のある人程そうだが、科学的合理的にすれば、万事は都合よくゆくと思っているが、不思議にも事実はそうはゆかない。<br/><br/>意外な結果となる事が往々ある。<br/><br/>例えば病気にしても、早い内から有名な博士や大病院に入院し、金に飽かして近代医学の粋を尽しても仲々治らず、死ぬ事さえもあるし、また金持の坊ちゃんなどが、金を掛けお医者のいう通りにしても、弱々しい腺病質になるに反し、ろくろく構わない貧乏人の伜（せがれ）が、ピンピンしているというような事実である。<br/><br/>また交通事故などで不時な災難を受けたり、いか程注意万端行届いていても、不意の病気も災害も避けられないのが世の中の常で、全く一寸先は闇である。<br/><br/>その他人間同士にしても、善人らしい悪人もあり、悪人らしい善人もあり、ウッカリ信用して飛んでもない目に遭わされる事があるかと思えば、駄目と思った人間が案外役に立つ事もある。<br/><br/>またこれも世間ザラにある話だが、平常から心掛けて貯蓄をし、貯金帳を見るのを楽しみにしていると、家族の誰かが病気に罹り、入院でもすると、長年の血と汗の塊も一遍に飛んでしまい、百日の説法屁一つという事もよくある。<br/><br/>このように考えてくると、実に不安の中で呼吸しているのが人間である。<br/><br/>それがため政府においても、ヤレ何々保険、何々補償法などといって、各種の災害防止法を熱心に行っているが、これらもないよりは増しだが、到底根本的解決とはならないのは衆知の通りである。<br/><br/> 以上のように寸時といえども、安心の出来ないこの娑婆（しゃば）としたら、科学だけでは安心出来ないのはもちろんで、他に何らか頼りになるものを求めるのは人情である。<br/><br/>そこで昔からの言い伝えや、世間ありふれたものの中から、少しでも安心の助けになりそうなものを利用する訳だから、これらも全く科学不信の結果、余儀ないので、結果からいえば科学が迷信を作るといっても、間違いではないであろう。<br/><br/> ところが本教の信者になると、実に不安というものがなくなる。<br/><br/>これはお蔭話に沢山出ているから読めば分るが、現在の世の中で本教信者くらい安心感を得ている者はあるまい。<br/><br/>といっても禍いは絶無とは言えないが、それは世の中に罪穢の全然ない人はないからである。<br/><br/>しかしたとえ禍いがあっても、その原因がハッキリ分り、禍いは浄化であるからそれが済めば幸福が増すという楽しみがあるので、反って感謝の念さえ湧くから、結局不安のない人間となるのである。<br/><br/>仮に家を探す場合などもそうで、神様の御守護で思った通りの家が見つかるか、もし見つからなければ、まだ時期が早いから待てという意味で、いずれは予期以上の家を与えられる奇蹟は常にある。<br/><br/>万事がそうであるとしたら、文字通り安心立命の境地に住し、迷いなど起るはずはないのである。<br/><br/>すなわち標題のごとく、本教には迷信がないと言う事が分るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

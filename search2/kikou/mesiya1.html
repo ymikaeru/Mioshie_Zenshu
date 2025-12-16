@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mesiya1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： メシヤ降誕仮祝典に際し全信徒の皆様へ 管長 大草直好 『栄光』263号、昭和29(1954)年6月30日発行 全信徒の皆様に、私から特に申し上げます。<br><br>ただ今まで、私共信徒は「明主様」と呼び讃えて参ったのでありますが、今日この御祭を期しまして、「メシヤ様」と申し上げたいと存じます。<br><br>その点皆様の御了承を得たいと存ずるのであります。<br><br> さて今日の式典は、救世教の歴史に重大なる一頁を画するものと、私は確信しているものであります。<br><br> 救世主の出現は、実に遍く全世界人類の待望しているところであります。<br><br>これを西洋的に申し上げますれば「メシヤの降誕」であり、東洋的に申し上げますれば「弥勒下生」という事になると思うのであります。<br><br> この、「救世主」の出現――即ち、救世主という言葉は、世界における最高最貴の御方を指して申し上げるものと思われるのでありますが、日本で申し上げれば「天照皇大御神様」にも相応するのであると思われるのであります。<br><br> 今日「メシヤ様」御降誕を御祝いするという意味におきまして、この盛大なる式典が、メシヤ会館において挙行されましたる事は、全信徒の皆様と共に、祝福と歓喜に堪えざる次第であります。<br><br> 又、今日は丁度天照皇大御神様の御誕生日に当る日であると申されている佳き日でありまして、私共にとりまして、誠に歓喜と祝福に感無量なるを禁ずる能わざるものがあります。<br><br> 今日「メシヤ様」よりは、皆様に、別に御言葉がございませんでしたがそれは御降誕間もない事であるとの意味におきましての御事であるのであります。<br><br> 今日この式典が挙行されましたるメシヤ会館は、御覧の通り現在約九十％の工事進渉を示しておりますが、来年の三月三日、水晶殿と共に、盛大なる完成式が執り行われる予定になっております。<br><br> このメシヤ会館の開館と共に、益々救世教が全世界に向って発展し「メシヤ様」の地上天国建設の御聖業が、段々とこの世を幸福化するものと確信し、全信徒の皆様と共に、色々と御偉業の一端の御仕事に当らせて戴いて、御恩の万分の一でも御返し申し上げる覚悟をもって邁進致したいと存ずるのであります。<br><br> 甚だ簡単でありますが今日の祝典に当り私の御挨拶として申し上げたる次第であります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Mensagem por Ocasião da Celebração do Advento do Messias</h2>
 <p>Dirijo-me, de modo particular, a todos os senhores, membros da nossa fé. Até o presente momento, nós, fiéis, o temos reverenciado como Meishu-Sama. Contudo, a partir desta sagrada cerimônia, almejo que passemos a nos referir a ele como Messias-Sama. Nesse sentido, anseio por obter a vossa sublime compreensão.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>O Salão Messiânico, onde esta cerimônia foi celebrada, encontra-se, como podem observar, com aproximadamente noventa por cento de suas obras concluídas. Está previsto que sua grande cerimônia de inauguração, juntamente com a do Templo de Cristal, ocorra no dia três de março do próximo ano.</p>
 <p>Tenho a certeza de que, com a inauguração deste Salão Messiânico, a expansão da Sekaikyuseikyou por todo o mundo se intensificará. A Obra Divina de Messias-Sama, a construção do Paraíso Terrestre, trará progressivamente a felicidade a este mundo. Nesse sentido, em união com todos os membros, renovo minha determinação de nos dedicarmos a uma parcela desta magnânima Obra, avançando com a firme resolução de retribuir, ainda que minimamente, a imensa graça que recebemos.</p>
 <p>Embora de forma concisa, estas foram as palavras que desejei expressar como minha saudação na celebração de hoje.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： メシヤ降誕仮祝典に際し全信徒の皆様へ 管長 大草直好 『栄光』263号、昭和29(1954)年6月30日発行 全信徒の皆様に、私から特に申し上げます。<br/><br/>ただ今まで、私共信徒は「明主様」と呼び讃えて参ったのでありますが、今日この御祭を期しまして、「メシヤ様」と申し上げたいと存じます。<br/><br/>その点皆様の御了承を得たいと存ずるのであります。<br/><br/> さて今日の式典は、救世教の歴史に重大なる一頁を画するものと、私は確信しているものであります。<br/><br/> 救世主の出現は、実に遍く全世界人類の待望しているところであります。<br/><br/>これを西洋的に申し上げますれば「メシヤの降誕」であり、東洋的に申し上げますれば「弥勒下生」という事になると思うのであります。<br/><br/> この、「救世主」の出現――即ち、救世主という言葉は、世界における最高最貴の御方を指して申し上げるものと思われるのでありますが、日本で申し上げれば「天照皇大御神様」にも相応するのであると思われるのであります。<br/><br/> 今日「メシヤ様」御降誕を御祝いするという意味におきまして、この盛大なる式典が、メシヤ会館において挙行されましたる事は、全信徒の皆様と共に、祝福と歓喜に堪えざる次第であります。<br/><br/> 又、今日は丁度天照皇大御神様の御誕生日に当る日であると申されている佳き日でありまして、私共にとりまして、誠に歓喜と祝福に感無量なるを禁ずる能わざるものがあります。<br/><br/> 今日「メシヤ様」よりは、皆様に、別に御言葉がございませんでしたがそれは御降誕間もない事であるとの意味におきましての御事であるのであります。<br/><br/> 今日この式典が挙行されましたるメシヤ会館は、御覧の通り現在約九十％の工事進渉を示しておりますが、来年の三月三日、水晶殿と共に、盛大なる完成式が執り行われる予定になっております。<br/><br/> このメシヤ会館の開館と共に、益々救世教が全世界に向って発展し「メシヤ様」の地上天国建設の御聖業が、段々とこの世を幸福化するものと確信し、全信徒の皆様と共に、色々と御偉業の一端の御仕事に当らせて戴いて、御恩の万分の一でも御返し申し上げる覚悟をもって邁進致したいと存ずるのであります。<br/><br/> 甚だ簡単でありますが今日の祝典に当り私の御挨拶として申し上げたる次第であります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

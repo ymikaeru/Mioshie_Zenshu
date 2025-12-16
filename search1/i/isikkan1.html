@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>isikkan1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 胃疾患・病患と医学の誤謬二 『明日の医術 第二編』昭和18(1943)年10月5日発行 日本人に最も多い病気に胃病がある。<br><br>この病気は世人も知る通り種々の症状があるが最初の発病はほとんど軽症であるに拘わらず、療法や摂生の誤謬の為、漸次慢性症状となり、一進一退の経過をとりつつ、終に、悪性に移行するというのが大部分である。<br><br> 故に、一度この病気に罹るや、軽症でも全治するのは極稀である。<br><br>そうして最初は消化不良、胸焼、胃痛等の軽い症状である。<br><br>以下詳細に説明してみよう。<br><br> 消化不良の原因は、先天的には然毒、後天的には尿毒、薬毒及び食事の方法の不適正等によるのである。<br><br>そうして始め、右の然毒又は尿毒が胃の外部に集溜し、それが漸次固結となって胃を圧迫する為、胃は萎縮して活動が遅鈍となり、消化不良となるのである。<br><br> 次に、今一つの原因である食事の方法の不適正とは、近来、医学が唱える食物の量と、食事の時間を規則正しくせよという事で、これが非常な誤りである。<br><br>何となれば人間は機械ではないのと、食物なるものは不同であるからである。<br><br>それはどういう訳かというと、食事と食事との間の時間中、運動をする事もあれば、運動をしない事もある。<br><br>それによって食物の消化に差異が生ずるのは当然である。<br><br>又、食物においても、その種類によって、消化に遅速あり、一時間で消化する物もあれば、三時間以上費す物もある。<br><br>故に、規則正しくするにおいては、食事の時、空腹である事もあれば、未だ空腹にならない事もある。<br><br>空腹ならば食欲旺盛で消化は良好であるが、未だ食欲が起らないのに、時間であるからといって無理に食物を摂れば悪いに定（き）まっている。<br><br>それは、前の食物が停滞して居る上に、新しく食物を入れる場合、前の食物は腐敗醗酵しているから、その毒素の為に、新しい食物の消化は、妨げられるのである。<br><br>しかもそれが又消化しきれない内に、又時間が来たといって仕方なし食うという具合で、漸次消化不良となるのである。<br><br>故に正しい食事の方法とは、前の食物が充分消化し尽してから食事をとるのである。<br><br>そうして、前の食物が消化したか否かは、食欲といういとも正確な指針があるから間違いないのである。<br><br>故に空腹即ち食欲があれば食い、なければ食わないというようにするのが本当である。<br><br>従って、正しい食事法とは食いたい時に食いたいものを、食いたい量だけ食う――という、言わば自然である。<br><br>そうして食いたいと思う物は、その時何らかの必要上、身体が要求している為であるから、それを食えばいいのである。<br><br>又量も同一の意味で、必要なだけ即ち食いたいだけ食うべきである。<br><br>又食いたくない物を薬になるとか、栄養になるとかいって我慢して食うのも間違であると共に、食いたい物を我慢して食わないのも不可である。<br><br>又食欲があるのに喰べ過ぎるといって中止するのも不可であり、満腹して食欲がないのに、無理に詰込むのも勿論不可である。<br><br>要は飽くまで自然でなければならないのである。<br><br> しかし、右の方法が良いからといって、境遇上、何人も行う訳にはゆかないので、食事時間の一定している人は、その場合、量によって加減すればよい訳である。<br><br>そうして食物は、空腹でさえあれば、いかなる物も美味であり美味であれば、栄養満点である。<br><br>故に、右のごとき食事法を実行すれば、消化不良など絶対あり得べきはずがないのである。<br><br> しかるに、不自然な食事法と共に、軽症の胃病発生するや、大抵は胃薬を服用するのである。<br><br>胃薬は消化剤であるから、最初は消化を援け、苦痛は解消するから治癒したように思うが、真の治癒ではないから、また発病しまた服薬、又治癒しまた発病するというように繰返し、終には本格的胃病となるのである。<br><br>元来消化薬なるものは、重曹が主であり、食物を柔軟にするのである。<br><br>所が本来、胃の腑の役目は、嚥下した食物を胃自体の活動によって柔軟にするのにあるが、その役目を消化薬が分担するから、胃の活動力は漸次退化する。<br><br>退化するから不消化になる。<br><br>不消化になるから消化薬を服むというように、悪循環作用となって、胃は漸次弱体化するのである。<br><br>加うるに一旦吸収された薬剤は、薬毒に変化し、胃中に還元されて胃壁外へ浸潤し、凝結するので、その凝結が胃の圧迫材料となって胃はいよいよ萎縮し、鈍化し、弛緩するのでこれが即ち胃下垂である。<br><br>又薬毒を解消すべく、自然作用は胆汁をしきりに胃に向って送入する。<br><br>これが、胃酸過多症である。<br><br>又胃部に溜結せる毒素の浄化作用が胃痛の原因である。<br><br>しかし、胃痛には二種あって、凝結毒素が胃を圧迫する痛みと、凝結毒素が溶解する痛みとある。<br><br>前者は満腹時に痛むのである。<br><br>それは、満腹によって胃と凝結毒素と圧迫し合うからである。<br><br>後者の場合は、溶解毒素が胃中に浸潤し胃壁の一部に滞溜している。<br><br>それが空腹による胃縮小の為に痛むのであるが、重に前者は強痛、後者は軽痛である。<br><br>胃痙攣の激痛は、前者に属し、第一浄化作用の極点に達した時即ち毒素凝結が最も硬化し、強度に胃を圧迫する為で、医療はモヒ（モルヒネ）の注射によって感覚を麻痺させ、一時無痛たらしめ、安静にして流動食を摂るのである。<br><br>それが為、浄化作用が弱るから、毒素硬化は鈍り、又胃は、流動食によって弱化し、抵抗が弱まるから、一時小康を得るのである。<br><br>又胸焼は、胃部の溜結毒素溶解のための局部的発熱である。<br><br> 次に、胃潰瘍の原因は、大部分消化薬の連続服用の為である。<br><br>稀には大酒の為もある。<br><br>それは消化薬が食物を柔軟にすると共に、胃壁をも柔軟にするからである。<br><br>柔軟化した胃壁に食物中の固結物が触れると、そこが破れて出血する。<br><br>それが胃潰瘍の出血であり、痛みを伴なうのである。<br><br>そうしてその多くは、最初胃壁の一部に極微の欠陥を生じ、少量の血液が不断に滲出する。<br><br>それが胃底に滞溜し、漸次増量するに従い、消化を妨げる事がある。<br><br>又その出血が、胃壁から、外部へ浸潤し、胃以外の局所に滞溜し、又は腸の上部に滞溜する事もある。<br><br>この滞溜が多量の場合、胃部より腹膜部にかけて膨満し、浄化作用によって嘔吐する場合、驚く程多量の血液を出すがその際の血液は、コーヒー色を呈し、熟視する時、多くの微粒状血液を見るのである。<br><br>又この血液滞溜が幽門部を圧迫し、幽門狭窄を起す事もあって、その為嘔吐を促進するのである。<br><br>これらによってみても、消化薬の害たるや、まことに恐るべきものがある。<br><br> 大酒の為の胃潰瘍は、実は大酒家は飲酒後又は飲酒中に、胃薬を用いる癖の人が多いので、そういう人は、酒の為よりも、胃薬の為である。<br><br> それから極稀ではあるが、胃薬も用いず、痛み等もなく、何らの原因もなしに吐血又は小さな血粒が痰に混って出たりする事がある。<br><br>この症状は医師も診断に困るのであるが、まず胃潰瘍に近い症状である。<br><br>これはいかなる訳かというと、胃の一部に極微な腫物を生じ、そこから血液が滲出するのであるから、一時吐血等があっても放任しておけば自然に治癒するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa das Moléstias Gástricas e os Erros da Medicina</h2>
 <p>Dentre as enfermidades que mais acometem o povo japonês, destacam-se as de natureza gástrica. Conforme é de conhecimento geral, tais moléstias manifestam-se por meio de uma variedade de sintomas. Contudo, malgrado sua manifestação inicial seja quase sempre branda, os equívocos nos tratamentos e na conduta de vida levam, na maioria dos casos, a um agravamento paulatino para uma condição crônica. O paciente então atravessa um ciclo de melhoras e recaídas, culminando, por fim, na transição para um quadro de natureza maligna. Por conseguinte, uma vez que alguém é acometido por esse mal, ainda que em sua forma leve, a recuperação completa é extremamente rara. Inicialmente, os sintomas são sutis, como má digestão, azia e dores estomacais. A seguir, passarei a explicar o assunto em maior detalhe.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Na maioria das vezes, o processo se inicia com uma minúscula lesão em uma parte da parede estomacal, da qual uma pequena quantidade de sangue vaza continuamente. Esse sangue se acumula no fundo do estômago e, à medida que o volume aumenta, pode dificultar a digestão. O sangue pode também se infiltrar para fora da parede gástrica, acumulando-se em outras áreas ou na parte superior do intestino. Quando esse acúmulo é volumoso, ele causa uma distensão do estômago até a região do peritônio. Se a ação purificadora provocar o vômito, uma quantidade surpreendente de sangue é expelida. Esse sangue tem a cor de café e, sob um olhar atento, revela a presença de inúmeros grânulos. Esse acúmulo de sangue pode também comprimir a região do piloro, causando estenose do piloro, o que, por sua vez, induz o vômito. Diante do exposto, os danos causados pelos digestivos são, de fato, verdadeiramente assustadores.</p>
 <p>Quanto à úlcera gástrica atribuída ao consumo excessivo de álcool, a verdade é que muitos alcoólatras têm o hábito de tomar remédios para o estômago durante ou após a ingestão de bebidas. Nesses casos, a causa da úlcera é mais o medicamento do que o próprio álcool.</p>
 <p>Há também casos extremamente raros em que uma pessoa, sem fazer uso de medicamentos gástricos e sem sentir dor, expele sangue pela boca ou nota pequenos coágulos misturados à expectoração. Mesmo os médicos têm dificuldade em diagnosticar esse quadro, que se assemelha a uma úlcera gástrica. A causa, aqui, é o surgimento de um minúsculo furúnculo em uma parte do estômago, do qual vaza sangue. Mesmo que ocorra um episódio de vômito com sangue, se o quadro for deixado em repouso, o organismo o curará naturalmente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 胃疾患・病患と医学の誤謬二 『明日の医術 第二編』昭和18(1943)年10月5日発行 日本人に最も多い病気に胃病がある。<br/><br/>この病気は世人も知る通り種々の症状があるが最初の発病はほとんど軽症であるに拘わらず、療法や摂生の誤謬の為、漸次慢性症状となり、一進一退の経過をとりつつ、終に、悪性に移行するというのが大部分である。<br/><br/> 故に、一度この病気に罹るや、軽症でも全治するのは極稀である。<br/><br/>そうして最初は消化不良、胸焼、胃痛等の軽い症状である。<br/><br/>以下詳細に説明してみよう。<br/><br/> 消化不良の原因は、先天的には然毒、後天的には尿毒、薬毒及び食事の方法の不適正等によるのである。<br/><br/>そうして始め、右の然毒又は尿毒が胃の外部に集溜し、それが漸次固結となって胃を圧迫する為、胃は萎縮して活動が遅鈍となり、消化不良となるのである。<br/><br/> 次に、今一つの原因である食事の方法の不適正とは、近来、医学が唱える食物の量と、食事の時間を規則正しくせよという事で、これが非常な誤りである。<br/><br/>何となれば人間は機械ではないのと、食物なるものは不同であるからである。<br/><br/>それはどういう訳かというと、食事と食事との間の時間中、運動をする事もあれば、運動をしない事もある。<br/><br/>それによって食物の消化に差異が生ずるのは当然である。<br/><br/>又、食物においても、その種類によって、消化に遅速あり、一時間で消化する物もあれば、三時間以上費す物もある。<br/><br/>故に、規則正しくするにおいては、食事の時、空腹である事もあれば、未だ空腹にならない事もある。<br/><br/>空腹ならば食欲旺盛で消化は良好であるが、未だ食欲が起らないのに、時間であるからといって無理に食物を摂れば悪いに定（き）まっている。<br/><br/>それは、前の食物が停滞して居る上に、新しく食物を入れる場合、前の食物は腐敗醗酵しているから、その毒素の為に、新しい食物の消化は、妨げられるのである。<br/><br/>しかもそれが又消化しきれない内に、又時間が来たといって仕方なし食うという具合で、漸次消化不良となるのである。<br/><br/>故に正しい食事の方法とは、前の食物が充分消化し尽してから食事をとるのである。<br/><br/>そうして、前の食物が消化したか否かは、食欲といういとも正確な指針があるから間違いないのである。<br/><br/>故に空腹即ち食欲があれば食い、なければ食わないというようにするのが本当である。<br/><br/>従って、正しい食事法とは食いたい時に食いたいものを、食いたい量だけ食う――という、言わば自然である。<br/><br/>そうして食いたいと思う物は、その時何らかの必要上、身体が要求している為であるから、それを食えばいいのである。<br/><br/>又量も同一の意味で、必要なだけ即ち食いたいだけ食うべきである。<br/><br/>又食いたくない物を薬になるとか、栄養になるとかいって我慢して食うのも間違であると共に、食いたい物を我慢して食わないのも不可である。<br/><br/>又食欲があるのに喰べ過ぎるといって中止するのも不可であり、満腹して食欲がないのに、無理に詰込むのも勿論不可である。<br/><br/>要は飽くまで自然でなければならないのである。<br/><br/> しかし、右の方法が良いからといって、境遇上、何人も行う訳にはゆかないので、食事時間の一定している人は、その場合、量によって加減すればよい訳である。<br/><br/>そうして食物は、空腹でさえあれば、いかなる物も美味であり美味であれば、栄養満点である。<br/><br/>故に、右のごとき食事法を実行すれば、消化不良など絶対あり得べきはずがないのである。<br/><br/> しかるに、不自然な食事法と共に、軽症の胃病発生するや、大抵は胃薬を服用するのである。<br/><br/>胃薬は消化剤であるから、最初は消化を援け、苦痛は解消するから治癒したように思うが、真の治癒ではないから、また発病しまた服薬、又治癒しまた発病するというように繰返し、終には本格的胃病となるのである。<br/><br/>元来消化薬なるものは、重曹が主であり、食物を柔軟にするのである。<br/><br/>所が本来、胃の腑の役目は、嚥下した食物を胃自体の活動によって柔軟にするのにあるが、その役目を消化薬が分担するから、胃の活動力は漸次退化する。<br/><br/>退化するから不消化になる。<br/><br/>不消化になるから消化薬を服むというように、悪循環作用となって、胃は漸次弱体化するのである。<br/><br/>加うるに一旦吸収された薬剤は、薬毒に変化し、胃中に還元されて胃壁外へ浸潤し、凝結するので、その凝結が胃の圧迫材料となって胃はいよいよ萎縮し、鈍化し、弛緩するのでこれが即ち胃下垂である。<br/><br/>又薬毒を解消すべく、自然作用は胆汁をしきりに胃に向って送入する。<br/><br/>これが、胃酸過多症である。<br/><br/>又胃部に溜結せる毒素の浄化作用が胃痛の原因である。<br/><br/>しかし、胃痛には二種あって、凝結毒素が胃を圧迫する痛みと、凝結毒素が溶解する痛みとある。<br/><br/>前者は満腹時に痛むのである。<br/><br/>それは、満腹によって胃と凝結毒素と圧迫し合うからである。<br/><br/>後者の場合は、溶解毒素が胃中に浸潤し胃壁の一部に滞溜している。<br/><br/>それが空腹による胃縮小の為に痛むのであるが、重に前者は強痛、後者は軽痛である。<br/><br/>胃痙攣の激痛は、前者に属し、第一浄化作用の極点に達した時即ち毒素凝結が最も硬化し、強度に胃を圧迫する為で、医療はモヒ（モルヒネ）の注射によって感覚を麻痺させ、一時無痛たらしめ、安静にして流動食を摂るのである。<br/><br/>それが為、浄化作用が弱るから、毒素硬化は鈍り、又胃は、流動食によって弱化し、抵抗が弱まるから、一時小康を得るのである。<br/><br/>又胸焼は、胃部の溜結毒素溶解のための局部的発熱である。<br/><br/> 次に、胃潰瘍の原因は、大部分消化薬の連続服用の為である。<br/><br/>稀には大酒の為もある。<br/><br/>それは消化薬が食物を柔軟にすると共に、胃壁をも柔軟にするからである。<br/><br/>柔軟化した胃壁に食物中の固結物が触れると、そこが破れて出血する。<br/><br/>それが胃潰瘍の出血であり、痛みを伴なうのである。<br/><br/>そうしてその多くは、最初胃壁の一部に極微の欠陥を生じ、少量の血液が不断に滲出する。<br/><br/>それが胃底に滞溜し、漸次増量するに従い、消化を妨げる事がある。<br/><br/>又その出血が、胃壁から、外部へ浸潤し、胃以外の局所に滞溜し、又は腸の上部に滞溜する事もある。<br/><br/>この滞溜が多量の場合、胃部より腹膜部にかけて膨満し、浄化作用によって嘔吐する場合、驚く程多量の血液を出すがその際の血液は、コーヒー色を呈し、熟視する時、多くの微粒状血液を見るのである。<br/><br/>又この血液滞溜が幽門部を圧迫し、幽門狭窄を起す事もあって、その為嘔吐を促進するのである。<br/><br/>これらによってみても、消化薬の害たるや、まことに恐るべきものがある。<br/><br/> 大酒の為の胃潰瘍は、実は大酒家は飲酒後又は飲酒中に、胃薬を用いる癖の人が多いので、そういう人は、酒の為よりも、胃薬の為である。<br/><br/> それから極稀ではあるが、胃薬も用いず、痛み等もなく、何らの原因もなしに吐血又は小さな血粒が痰に混って出たりする事がある。<br/><br/>この症状は医師も診断に困るのであるが、まず胃潰瘍に近い症状である。<br/><br/>これはいかなる訳かというと、胃の一部に極微な腫物を生じ、そこから血液が滲出するのであるから、一時吐血等があっても放任しておけば自然に治癒するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju01075</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（一） ４ 075-095 眼疾２ 075 眼球飛び出す 富田恵美子（二十歳）、十二、三歳の頃より胃腸が悪く、体も衰弱し、また、眼で五年程前から苦しみ、現在右の眼玉が飛出し、物を見る事が出来なくなりました。<br><br>何か霊的関係があるのでしょうか。<br><br>また、浄霊法を御教示願います。<br><br> 霊的関係はない。<br><br>目だけである。<br><br> バセドー氏病で飛出す事もあり、毒が後から押して飛出すものもある。<br><br>これは後者であろう。<br><br> 薬を服まなくても （ﾏﾏ） 、病気の起りようがない。<br><br> 胃腸は皆薬の中毒である。<br><br>（S24. 6. 7） 076 眼球微動について 眼球微動について――、 四十二歳の男子、常時眼球が微動致します。<br><br>別に不快感はございませんのですが、御浄霊で治りましょうか。<br><br> 治る。<br><br>（S24. 6. 3） 077 斜視 私の娘幸子（十八歳）は斜視でございますが、どうしたらお救い願えましょうか。<br><br>一家五名共入信させて頂いて大光明如来様を奉斎させて頂いております。<br><br> 毒が動眼神経を抑えている。<br><br>目を中心に前頭部をすれば治る。<br><br>首の周り――。<br><br>（S25. 4.26） 078 外方斜視 外方斜視の霊的原因―― 吃りと同じようなもので、目を引っ張ってる線が毒のため短くなっている。<br><br>目の神経に障害があるのであるから、眼の奥の浄霊で治る。<br><br>（S23.12.12） 079 薮睨み 俗に薮睨みと云う目は霊的なものでしょうか、または体的でしょうか。<br><br>御浄霊で治して頂けましょうか。<br><br> 体的が多い。<br><br>眼のどっちかの線が延びぬのである。<br><br>浄霊すれば治る。<br><br> 080 薮睨み 薮睨みは霊的でしょうか。<br><br>また、浄霊により治りましょうか。<br><br> 頭の毒が眼の筋を抑えてる。<br><br>目へ出来てる。<br><br>それでいくらか眩しい。<br><br>頭を浄めればよい。<br><br>（S24. 7.16） 081 無瞳孔 二歳の女児、生まれつき盲で、眼に瞳孔がありません。<br><br>浄霊により追々瞳孔も開き、少々見えるのではないかと思います。<br><br>いかがでしょうか。<br><br> 治る。<br><br>ちょっとでも変化があれば治ってくる。<br><br>目脂など出れば快復期に入ったとみてよい。<br><br> 瞳孔は出たり引っ込んだりするもので、これは瞳孔がないのでなく、ある。<br><br> 蒸すのはよくない。<br><br>先に蒸したために落ちそうになったのがある。<br><br> 082 瞳まとまらず・白眼赤し 左眼水晶体はきれいですが、瞳がまとまらず、右眼三分の一程角膜がかかり両眼共手術しました。<br><br>一年半程浄霊しております。<br><br>最初は霊気も感じませんでしたが二ケ月位でしみるようになりました。<br><br>近頃は天気の良い日など人が前を通ると黒くうつる程度です。<br><br>電燈の点滅も判別つくようになりました。<br><br>お酒を好みますが、悪いでしょうか。<br><br>白眼は赤くなって涙が出てごろつきます。<br><br>これが連続して起ります。<br><br>全治の可能性がありましょうか。<br><br> 涙が出るという事も、ゴロツくのも治る。<br><br>医者で悪くしてるんだろうと思う。<br><br>頭をよく浄霊する。<br><br>相当時日はかかる。<br><br>（S24. 1. 6） 083 眼前に黒物動く 六十歳の婦人で、右眼にラムネの玉のような黒い物が目前一寸位のところで動いて廻ります。<br><br> また、五歳の婦人は左眼の眉の辺あたり顔面より一寸位離れたところにて一寸大の灰色の虫のようなものが動いており、前者も後者も本人だけそう言う風に見えるのだそうですが、どうなるものでしょうか。<br><br> 瞳の上側に毒が固まっている。<br><br>瞳の上側に何かある。<br><br>気長に浄霊すると治る。<br><br> 084 眼心が黄色に光る 眼球のホトケ（黒の中心部）が金色に光る患者、まだ全然見えませんが治りましょうか。<br><br> 偉い人、霊の強い高い人――。<br><br>見えないのは病気。<br><br>瞳の中に障害物がある。<br><br>黄色がとれると見えるようになろう。<br><br> 特殊毒素を薬として使ったものであろう。<br><br>（異物） 085 二重に見ゆ 六十一歳の未入信の婦人、本年七月十六日午後九時頃より左眼が痛み始め、翌朝より物が二重に見えだし、約一ケ月病院に通いました。<br><br>十月十八日より御浄霊を戴きに来られ、最近では、痛みは無くして戴きましたが、二重に見える事は変化が御座いません。<br><br>二十五年前、トラホーム、逆睫で四年間苦しみ、手術をしたそうで御座います。<br><br>御浄霊にて二重に見えるのがよくして戴けましょうか。<br><br>御伺い申し上げます。<br><br> 毒が眼から出るため瞳孔が開き加減になるから二重に見える。<br><br>（S24.11.21） 086 老眼 遠視眼（老眼）は浄霊によって治るでしょうか。<br><br> 遠視はある程度治るが、すっかりは治らぬ。<br><br>年をとるとすべて器能が衰退する。<br><br>若い時と同じようにはゆかぬ。<br><br>（早く老眼になったのは治る）（S24. 1.27） 087 視力鈍る 六十七歳の男子ですが、数年前にどうという事も無くて、視力が鈍り始め、間もなく全く見えなくなってしまいました。<br><br>その後お稲荷さんを拝んでいましたが、今ではまるで狐憑きのようになっております。<br><br>ただ、夜でも昼でもふと目が醒めた時には、手の筋までも見えるのですが、すぐボーッと見えなくなってしまいます。<br><br>いかなるわけで御座いましょうか。<br><br> 眼底へ毒が段々溜って行ったものである。<br><br>目薬で固めてあるから、相当日数がかかるが、治るには治る。<br><br>目脂が出れば治る。<br><br>（S24. 3.14） 088 乱視 一、乱視について――。<br><br> 二、三歳の女、昨年八月頃から時々臍が出たりしましたが、最近は出たきりで泣いた時は特に大きくなります。<br><br>御浄霊により治りましょうか。<br><br> 一、延髄部の塊で、眼への送血を妨げるためである。<br><br>（S24. 9.23） 089 目星 私は昨年六月、鉄工所のグラインダーで作業中真鍮の粉が眼にささり早速医師の治療を受けたのですが、四日後には眼に星がかかり却って悪化しましたが、暫く治療を受けつつ約五ケ月の後に本教に入信、浄霊を戴いております。<br><br>初めは少し見えるようになりましたが、その後いかなる理由か、捗々しく参りません。<br><br>その原因を御教え願います。<br><br> 医者へ行ったためである。<br><br>星は薬が溜って中毒を起したものである。<br><br>気長にやれば治る。<br><br> 090 目の星発生 私の妻志ずえ（六十七歳）事三十年前に右の目の星がぼけ、そのままで今日に到っておりました。<br><br>昨年十一月頃より浄霊を続けております。<br><br>光明如来様御奉斎後左右の目の内側より赤白の肉のような曇りが仏にかかって来てはっきりと見えませんが、霊的でしょうか。<br><br>また、いかにすべきでしょうか。<br><br>御伺い致します。<br><br> 固まっていた膿が溶けて来たので、結構である。<br><br>一時的のものである。<br><br> 目によっては一時見えなくなる事がある。<br><br>（S24. 9. 7） 091 網膜剥離 会員菊地吉蔵（三十七歳）、小学校時代から眼が悪く、手術も何回も致しました。<br><br>昭和二十一年御浄霊を頂き、やや良くなりましたが、今年の春頃よりまた浄化を頂き、間もなく左眼は全然見えなくなりました。<br><br>ところが右眼も漸次視力がなくなり、現在はかすかに見えるだけとなりました。<br><br>医師は網膜剥離だとか底翳だとか申しております。<br><br>御救い頂けましょうか。<br><br> なお、本人は昭和二十一年入信、御屏風観音様を御祀り致し、本年九月大光明如来様を御奉斎申し、一家揃って熱心な信者でございます。<br><br>右、御教示御願い申し上げます。<br><br> 手術で悪くなった。<br><br>薬毒が溜っている。<br><br>これで結構である。<br><br>きっと治る。<br><br>剥離は手術の時はがした。<br><br>（S24.12.23） 092 網膜剥離 四十歳の男、右眼は網膜剥離にて十数年前失明、左眼も二年前よりやはり網膜剥離と言われ、三回程手術、現在僅かにしか見えません。<br><br> 一、網膜剥離はいかなる原因によるのでしょうか。<br><br> 二、御浄霊を頂くようになってから目脂等が余計出るようになりましたので、御救い頂ける事と存じますが、どうでしょうか。<br><br> 三、頭を御浄霊致しますと、右肩が凝って来ると申しますが、これはどのような原因でしょうか。<br><br> 剥離とはよくは知らぬが、網膜と水晶体の間に毒があって離れるのであろう。<br><br>手術によっては治る。<br><br>目脂が出れば治ると思っていい。<br><br> 肩は頭の平均浄化である。<br><br>（S24. 7.23） 093 失明の幼児 幼児にて失明、医師の診断は網膜剥離との事ですが、八歳頃まで明暗は分りました。<br><br>現在は白く瞳に膜がかかり全然見えません。<br><br>御浄霊により白膜はやや取れて参りました。<br><br>幾分でも見えるように御守護頂けましょうか。<br><br> 白いのは膿が固まっている。<br><br>治る。<br><br>薬を点（さ）したので長くかかる。<br><br>目脂、涙が出るとよい。<br><br>（S25. 5. 3） 094 後頭を打って盲目となる 私の父理之助（六十五歳）は昭和二十年末小枝にて眼に突き傷を受け、左眼結膜及び脳、耳等を患い、大体医療にて全治致しました所、昭和二十一年十二月浴場にて倒れ、後頭部を打ち、同月破傷風になり、昭和二十二年十二月十五日より盲目となりました。<br><br>右の病状につきお伺い申し上げます。<br><br> 捨てておけば治る。<br><br>薬をつけると、傷から薬が染み込んで薬毒病になる。<br><br> 足の裏と眼とは関係はない。<br><br>風呂場で倒れた時後頭部に内出血した。<br><br>後頭部の浄霊で治る。<br><br>（S25. 4. 6） 095 視神経（転落による） 高い所から落ちて医学的には眼の視神経が切れて片目が見えなくなったと云う人がございますが、眼の視神経について御教示御願い申し上げます。<br><br> 視神経は頭へ通じていて、それが切れる事はあり得る。<br><br>切れ方が良ければ繋がるが、悪ければ繋がらぬ。<br><br> 目と頭の間、横からもする。<br><br> 内出血が固まって、視神経を圧迫して見えぬ場合もある。<br><br>いずれにしても浄霊してみねば分らぬ。<br><br>（S24. 6. 9）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Medicina (Parte 1) — Doenças Oculares (2)</h2>
 <p><strong>075 Protrusão do Globo Ocular</strong></p>
@@ -165,5 +317,48 @@ function toggleLang(lang) {
 <p><strong>095 Nervo Óptico (Lesão por Queda)</strong></p>
 <p>Há uma pessoa que, segundo a medicina, perdeu a visão de um olho porque o nervo óptico se rompeu em uma queda de um lugar alto. Rogo por seus ensinamentos a respeito do nervo óptico.</p>
 <p>O nervo óptico, que se conecta ao cérebro, pode de fato se romper. Se o rompimento for limpo, ele pode se reconectar; caso contrário, não. Pode haver também o caso de uma hemorragia interna que solidificou e está a comprimir o nervo, impedindo a visão. De todo modo, é impossível saber sem antes ministrar o Johrei, que deve ser aplicado na região entre o olho e a cabeça, e também nas laterais. (9.6.1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（一） ４ 075-095 眼疾２ 075 眼球飛び出す 富田恵美子（二十歳）、十二、三歳の頃より胃腸が悪く、体も衰弱し、また、眼で五年程前から苦しみ、現在右の眼玉が飛出し、物を見る事が出来なくなりました。<br/><br/>何か霊的関係があるのでしょうか。<br/><br/>また、浄霊法を御教示願います。<br/><br/> 霊的関係はない。<br/><br/>目だけである。<br/><br/> バセドー氏病で飛出す事もあり、毒が後から押して飛出すものもある。<br/><br/>これは後者であろう。<br/><br/> 薬を服まなくても （ﾏﾏ） 、病気の起りようがない。<br/><br/> 胃腸は皆薬の中毒である。<br/><br/>（S24. 6. 7） 076 眼球微動について 眼球微動について――、 四十二歳の男子、常時眼球が微動致します。<br/><br/>別に不快感はございませんのですが、御浄霊で治りましょうか。<br/><br/> 治る。<br/><br/>（S24. 6. 3） 077 斜視 私の娘幸子（十八歳）は斜視でございますが、どうしたらお救い願えましょうか。<br/><br/>一家五名共入信させて頂いて大光明如来様を奉斎させて頂いております。<br/><br/> 毒が動眼神経を抑えている。<br/><br/>目を中心に前頭部をすれば治る。<br/><br/>首の周り――。<br/><br/>（S25. 4.26） 078 外方斜視 外方斜視の霊的原因―― 吃りと同じようなもので、目を引っ張ってる線が毒のため短くなっている。<br/><br/>目の神経に障害があるのであるから、眼の奥の浄霊で治る。<br/><br/>（S23.12.12） 079 薮睨み 俗に薮睨みと云う目は霊的なものでしょうか、または体的でしょうか。<br/><br/>御浄霊で治して頂けましょうか。<br/><br/> 体的が多い。<br/><br/>眼のどっちかの線が延びぬのである。<br/><br/>浄霊すれば治る。<br/><br/> 080 薮睨み 薮睨みは霊的でしょうか。<br/><br/>また、浄霊により治りましょうか。<br/><br/> 頭の毒が眼の筋を抑えてる。<br/><br/>目へ出来てる。<br/><br/>それでいくらか眩しい。<br/><br/>頭を浄めればよい。<br/><br/>（S24. 7.16） 081 無瞳孔 二歳の女児、生まれつき盲で、眼に瞳孔がありません。<br/><br/>浄霊により追々瞳孔も開き、少々見えるのではないかと思います。<br/><br/>いかがでしょうか。<br/><br/> 治る。<br/><br/>ちょっとでも変化があれば治ってくる。<br/><br/>目脂など出れば快復期に入ったとみてよい。<br/><br/> 瞳孔は出たり引っ込んだりするもので、これは瞳孔がないのでなく、ある。<br/><br/> 蒸すのはよくない。<br/><br/>先に蒸したために落ちそうになったのがある。<br/><br/> 082 瞳まとまらず・白眼赤し 左眼水晶体はきれいですが、瞳がまとまらず、右眼三分の一程角膜がかかり両眼共手術しました。<br/><br/>一年半程浄霊しております。<br/><br/>最初は霊気も感じませんでしたが二ケ月位でしみるようになりました。<br/><br/>近頃は天気の良い日など人が前を通ると黒くうつる程度です。<br/><br/>電燈の点滅も判別つくようになりました。<br/><br/>お酒を好みますが、悪いでしょうか。<br/><br/>白眼は赤くなって涙が出てごろつきます。<br/><br/>これが連続して起ります。<br/><br/>全治の可能性がありましょうか。<br/><br/> 涙が出るという事も、ゴロツくのも治る。<br/><br/>医者で悪くしてるんだろうと思う。<br/><br/>頭をよく浄霊する。<br/><br/>相当時日はかかる。<br/><br/>（S24. 1. 6） 083 眼前に黒物動く 六十歳の婦人で、右眼にラムネの玉のような黒い物が目前一寸位のところで動いて廻ります。<br/><br/> また、五歳の婦人は左眼の眉の辺あたり顔面より一寸位離れたところにて一寸大の灰色の虫のようなものが動いており、前者も後者も本人だけそう言う風に見えるのだそうですが、どうなるものでしょうか。<br/><br/> 瞳の上側に毒が固まっている。<br/><br/>瞳の上側に何かある。<br/><br/>気長に浄霊すると治る。<br/><br/> 084 眼心が黄色に光る 眼球のホトケ（黒の中心部）が金色に光る患者、まだ全然見えませんが治りましょうか。<br/><br/> 偉い人、霊の強い高い人――。<br/><br/>見えないのは病気。<br/><br/>瞳の中に障害物がある。<br/><br/>黄色がとれると見えるようになろう。<br/><br/> 特殊毒素を薬として使ったものであろう。<br/><br/>（異物） 085 二重に見ゆ 六十一歳の未入信の婦人、本年七月十六日午後九時頃より左眼が痛み始め、翌朝より物が二重に見えだし、約一ケ月病院に通いました。<br/><br/>十月十八日より御浄霊を戴きに来られ、最近では、痛みは無くして戴きましたが、二重に見える事は変化が御座いません。<br/><br/>二十五年前、トラホーム、逆睫で四年間苦しみ、手術をしたそうで御座います。<br/><br/>御浄霊にて二重に見えるのがよくして戴けましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 毒が眼から出るため瞳孔が開き加減になるから二重に見える。<br/><br/>（S24.11.21） 086 老眼 遠視眼（老眼）は浄霊によって治るでしょうか。<br/><br/> 遠視はある程度治るが、すっかりは治らぬ。<br/><br/>年をとるとすべて器能が衰退する。<br/><br/>若い時と同じようにはゆかぬ。<br/><br/>（早く老眼になったのは治る）（S24. 1.27） 087 視力鈍る 六十七歳の男子ですが、数年前にどうという事も無くて、視力が鈍り始め、間もなく全く見えなくなってしまいました。<br/><br/>その後お稲荷さんを拝んでいましたが、今ではまるで狐憑きのようになっております。<br/><br/>ただ、夜でも昼でもふと目が醒めた時には、手の筋までも見えるのですが、すぐボーッと見えなくなってしまいます。<br/><br/>いかなるわけで御座いましょうか。<br/><br/> 眼底へ毒が段々溜って行ったものである。<br/><br/>目薬で固めてあるから、相当日数がかかるが、治るには治る。<br/><br/>目脂が出れば治る。<br/><br/>（S24. 3.14） 088 乱視 一、乱視について――。<br/><br/> 二、三歳の女、昨年八月頃から時々臍が出たりしましたが、最近は出たきりで泣いた時は特に大きくなります。<br/><br/>御浄霊により治りましょうか。<br/><br/> 一、延髄部の塊で、眼への送血を妨げるためである。<br/><br/>（S24. 9.23） 089 目星 私は昨年六月、鉄工所のグラインダーで作業中真鍮の粉が眼にささり早速医師の治療を受けたのですが、四日後には眼に星がかかり却って悪化しましたが、暫く治療を受けつつ約五ケ月の後に本教に入信、浄霊を戴いております。<br/><br/>初めは少し見えるようになりましたが、その後いかなる理由か、捗々しく参りません。<br/><br/>その原因を御教え願います。<br/><br/> 医者へ行ったためである。<br/><br/>星は薬が溜って中毒を起したものである。<br/><br/>気長にやれば治る。<br/><br/> 090 目の星発生 私の妻志ずえ（六十七歳）事三十年前に右の目の星がぼけ、そのままで今日に到っておりました。<br/><br/>昨年十一月頃より浄霊を続けております。<br/><br/>光明如来様御奉斎後左右の目の内側より赤白の肉のような曇りが仏にかかって来てはっきりと見えませんが、霊的でしょうか。<br/><br/>また、いかにすべきでしょうか。<br/><br/>御伺い致します。<br/><br/> 固まっていた膿が溶けて来たので、結構である。<br/><br/>一時的のものである。<br/><br/> 目によっては一時見えなくなる事がある。<br/><br/>（S24. 9. 7） 091 網膜剥離 会員菊地吉蔵（三十七歳）、小学校時代から眼が悪く、手術も何回も致しました。<br/><br/>昭和二十一年御浄霊を頂き、やや良くなりましたが、今年の春頃よりまた浄化を頂き、間もなく左眼は全然見えなくなりました。<br/><br/>ところが右眼も漸次視力がなくなり、現在はかすかに見えるだけとなりました。<br/><br/>医師は網膜剥離だとか底翳だとか申しております。<br/><br/>御救い頂けましょうか。<br/><br/> なお、本人は昭和二十一年入信、御屏風観音様を御祀り致し、本年九月大光明如来様を御奉斎申し、一家揃って熱心な信者でございます。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 手術で悪くなった。<br/><br/>薬毒が溜っている。<br/><br/>これで結構である。<br/><br/>きっと治る。<br/><br/>剥離は手術の時はがした。<br/><br/>（S24.12.23） 092 網膜剥離 四十歳の男、右眼は網膜剥離にて十数年前失明、左眼も二年前よりやはり網膜剥離と言われ、三回程手術、現在僅かにしか見えません。<br/><br/> 一、網膜剥離はいかなる原因によるのでしょうか。<br/><br/> 二、御浄霊を頂くようになってから目脂等が余計出るようになりましたので、御救い頂ける事と存じますが、どうでしょうか。<br/><br/> 三、頭を御浄霊致しますと、右肩が凝って来ると申しますが、これはどのような原因でしょうか。<br/><br/> 剥離とはよくは知らぬが、網膜と水晶体の間に毒があって離れるのであろう。<br/><br/>手術によっては治る。<br/><br/>目脂が出れば治ると思っていい。<br/><br/> 肩は頭の平均浄化である。<br/><br/>（S24. 7.23） 093 失明の幼児 幼児にて失明、医師の診断は網膜剥離との事ですが、八歳頃まで明暗は分りました。<br/><br/>現在は白く瞳に膜がかかり全然見えません。<br/><br/>御浄霊により白膜はやや取れて参りました。<br/><br/>幾分でも見えるように御守護頂けましょうか。<br/><br/> 白いのは膿が固まっている。<br/><br/>治る。<br/><br/>薬を点（さ）したので長くかかる。<br/><br/>目脂、涙が出るとよい。<br/><br/>（S25. 5. 3） 094 後頭を打って盲目となる 私の父理之助（六十五歳）は昭和二十年末小枝にて眼に突き傷を受け、左眼結膜及び脳、耳等を患い、大体医療にて全治致しました所、昭和二十一年十二月浴場にて倒れ、後頭部を打ち、同月破傷風になり、昭和二十二年十二月十五日より盲目となりました。<br/><br/>右の病状につきお伺い申し上げます。<br/><br/> 捨てておけば治る。<br/><br/>薬をつけると、傷から薬が染み込んで薬毒病になる。<br/><br/> 足の裏と眼とは関係はない。<br/><br/>風呂場で倒れた時後頭部に内出血した。<br/><br/>後頭部の浄霊で治る。<br/><br/>（S25. 4. 6） 095 視神経（転落による） 高い所から落ちて医学的には眼の視神経が切れて片目が見えなくなったと云う人がございますが、眼の視神経について御教示御願い申し上げます。<br/><br/> 視神経は頭へ通じていて、それが切れる事はあり得る。<br/><br/>切れ方が良ければ繋がるが、悪ければ繋がらぬ。<br/><br/> 目と頭の間、横からもする。<br/><br/> 内出血が固まって、視神経を圧迫して見えぬ場合もある。<br/><br/>いずれにしても浄霊してみねば分らぬ。<br/><br/>（S24. 6. 9）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

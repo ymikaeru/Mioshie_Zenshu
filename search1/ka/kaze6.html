@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kaze6</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風邪引結構 『栄光』193号、昭和28(1953)年1月28日発行 昨今どこもかしこも風邪引流行で、アチラでもゴホン、コチラでもゴホンで、都会も田舎も咳の騒音地獄だ。<br><br>そうかと思うと例のマスクの氾濫で、人間窒息機械か、緘口具（かんこうぐ）のような変なものを掛け始めたのをみると、さぞ窮屈だろうとお察しするが、御本人は風邪予防と思っているのだから、何をかいわんやである。<br><br>何しろ空気さえ絹漉（きぬご）しにしなければ、安心出来ないという文化族なるものは、吾々からみればまことに哀れな存在である。<br><br>これではせっかくの美女美男も、見せたい顔も出すことが出来ず、目ばかりパチクリさせているその格好たるや、虎魚（おこぜ）が陸へ上ったようである。<br><br> そこで拙者（せっしゃ）は風邪引流行について、どんな頭の悪いお人にも、一遍で分るようにかいてみようと思うが、まずこの地上を眺めてみれば、隅から隅まで埃だらけ塵だらけ、たまたま低気圧の孫みたようなチンピラ風が吹いても、砂塵濛々（もうもう）目も口も開けられぬ有様、だがこれは水撤（みずまき）人夫や鋪装（ほそう）路洗いで、どうやら綺麗にはなるし、家の中でのそれも朝晩嬶（かかあ）やおさんどんが、尻を捲（まく）って箒（ほうき）とハタキのバタバタ作業で相済むし、人間様も朝起きて顔を洗って、脳天のフケでも落せばスッキリするし、からだの垢（あか）は一風呂浴びればサッパリする。<br><br>以上は誰でも知ってる至極当り前のことだが、ここに誰も気の付かないところに、飛んでもない間違が伏在していることをこれからかいてみよう。<br><br> それは外でもない。<br><br>これ程世の中が展（ひら）けても人間様の智慧が進んでも、肝腎要のからだの中に年中溜る汚れものに、お気が付かない安本丹（あんぽんたん）振りである。<br><br>だが言うだろう。<br><br>“そんなことなんかあって堪るもんか、人間は皮膚という天然ゴム製ズックを被（き）ていて隠し蔽（おお）わせている以上安心なもんだよ”と。<br><br>なるほどそれもごもっともだが、よくよく考えて見て貰いたいのは、たとえからだの中でもだ、ヤッパリ汚いものが年中溜るから不思議だ。<br><br>なぜかって訊（き）くだけ野暮だよ。<br><br>人間食ったり飲んだりする物にも毒があるし、それよりも厄介な事には薬という恐ろしい毒なんだ。<br><br>これこそ拙者がいつもいっているが、その外糞毒尿毒も手伝い、人間様の腹の中の汚い事は、まるで塵溜、泥沼、肥料溜（こえだめ）と同様なんだから、何よりも自惚（うぬぼれ）を捨てる事だね。<br><br>それが証拠にはヤレ蛔虫（かいちゅう）、ヤレ蟯虫（ぎょうちゅう）、ヤレ十二指腸虫、ヤレ何々と、色んな虫が湧くにみて分るじゃないか、と言ったら一ペンにギャフンだろう。<br><br>そこで神様も如才（じょさい）がないよ。<br><br>人間共がやっている春秋二季の大掃除をして下さるんだ。<br><br>だが神様の方は縁の下じゃない。<br><br>人間のからだの中一面だよ。<br><br>この掃除を名付けて風邪というんだから、風邪程結構な有難いものはないじゃないか。<br><br>この掃除のおかげでからだの中は清潔になって、健康は増すのだ。<br><br>どうだ分ったか。<br><br>それをどう間違えたものか、そんなに結構な掃除を止めようとするのが、昨今（さっこん）政府始めお医者さん達総掛りの仕事なんだから、その馬鹿さ加減は呆れて物が言えないよ。<br><br>これも全く医学迷信のためなんだから困ったものだよ。<br><br> 従って拙者の申すこの説を聞いたら意外も意外、余りの意外にアフンと逆立（さかだち）してもオッツクまい。<br><br>そこで今これを分り易くかいてみよう。<br><br>まずもって風邪引同志の話を聞いてみると、今度の風邪は性質（たち）が悪い、いつもと違って中々治らないので困りますよ、などと愚痴やら泣言（なきごと）やらを並べているのは皆知っている通りであるが、これこそ風邪はからだの掃除だという事を知らないため、掃除の邪魔をするから治らないのであるから、誰でも風邪を引いたら何にも手当などせず、放っておけば必ず治るんだ。<br><br>そうして寝たきりでもよし、起きたけりゃ起きててもよし、仕事をしたけりゃしてもいいので、要するに気持にしていればそれで結構治るんだから、少しの心配もないんだよ。<br><br>それで治らないとすればヤハリ薬や手当で掃除を止めるからなんだ。<br><br> このような素晴しい真理を話しても、今の人間直ぐには承知出来まい。<br><br>何しろ長い間に医学迷信の虜（とりこ）となってしまった人達ばかりだから、反って逆にとり、「へンそんな馬鹿な話があって堪るもんか、救世教の奴（やつ）時代離れのした非科学的蒙言などを言やがって、迷わせるのは怪しからん、そんな甘いことで善男善女は騙せるとしても、吾々インテリは相手にはしないよ」と鼻高々と威張っている人もあるだろうが、こういう人は、毎日日（ひ）にちゴホンゴホンの連続で、熱で逆上（のぼ）せた赤い目玉で天井睨（にら）んで、ガンガン痛む頭を枕に乗せて、この寒いのに氷詰めになって、ブルブル、ビクビク、フラフラ、ウンウン唸っているのだから、医学迷信の恐ろしさが沁々（しみじみ）分るんだ。<br><br>中には住宅難の今日、エエ面倒だ、いっそ娑婆（しゃば）を見限り、あの世とやらへ転宅をしようかと迷っている人もあるだろう。<br><br> まず戯言（ざれごと）はこのくらいにしておいて、再び本論に戻るが、さて人間のからだの中へ溜った汚れの掃除こそ風邪なんだから、論より証拠咳と嚔（くしゃみ）は箒とハタキで、痰や水洟は塵埃である。<br><br>そうして湯で洗った汚れ水が汗と思えばいい。<br><br>頭やからだの痛いのは、棒で叩かれ塵を浮かせるためだ。<br><br>というようにこれだけでも、ハハーナールホドと感心せずにはいられまい。<br><br>ところがこんな結構な掃除をば、ヤレ注射、ソレ熱冷（さま）し、咳止め、湿布、吸入、葛根湯（かっこんとう）、梅干の黒焼、玉子酒などをガブガブ飲んで、蒲団（ふとん）被って簀巻（すまき）同様になって、じっと我慢しているその辛さは馬鹿馬鹿しいにも程がある。<br><br>そんな余計な苦しみをせずとも最初から放っておけば、腹の中の汚い雑物はスッカリ出てしまい、石川で尻洗ったようにサバサバするところか、一銭の金も、手数も要らずに治って、後は健康が増すとしたら、これ程有難い話はないではないか。<br><br> ところがまだ厄介な事には、掃除を止めたため沢山の汚物は残ってしまうから、今度は一遍にドカンと大掃除が始まる。<br><br>これがみんな恐れてる肺炎なんだから、肺炎という奴は人間が造ったものに違いない。<br><br>ところがまだある大いにある。<br><br>それは誰でも今度の風邪は性質（たち）が悪い、思うように治らないというのは、これこそ近頃の薬が進歩したため、掃除を抑える毒力が強くなったからである。<br><br>つまりせっかく出ようとする塵埃（じんあい）を、出さないようにする方法が進歩したのだ。<br><br>そのため汚物は肺の中で固ってしまうから、この塊を診たお医者さん、コリャ大変、結核の初期だと言うので、奴（やっこ）さん吃驚仰天（びっくりぎょうてん）青くなり、頬はゲッソリ落ちてしまい、眼ばかり光っていよいよ生きた屍（しかばね）になる修行に取掛るという訳。<br><br>テモサテモ今の人間の哀れさは、虫ケラ同然犬猫同然、アキレ蛙のヒキ蛙、泥沼に足突込んで、ギャーギャー鳴いても追っつかない。<br><br>とは情ない世の中になったもんだよ。<br><br> さてこれだけ読めば頭のいい御仁（ごじん）ならピント来て、早速医学迷信西の海へさらりと捨てて、救世教の幸福の門に入って、何年振りかのニコニコ顔になるだろう。<br><br>そういうお方はこれからドシドシ増えるに違いない。<br><br>何よりも本教で救われた天国族は、風邪の流行など屁とも思わないどころか、大いに結構、御蔭で一文要らずで掃除が出来るんだから、その有難さ嬉しさが身に沁みるよう。<br><br>これを世間様に比べたら月にスッポン、ダイヤに硝子（ガラス）どころではない。<br><br>恐らくこんな大きな福音は、世界中どこ探してもないに決っている。<br><br>以上思うままをかいてみたので、拙者も肚の中の掃除が出来たような気がして、久方振りにスーッとしたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Maravilhosa Bênção do Resfriado</h2>
 <p>Recentemente, a epidemia de resfriados alastrou-se por toda parte. Ouvem-se tosses por todos os cantos, e tanto as cidades quanto o campo se transformaram num inferno de ruídos incessantes. Em meio a esse cenário, assistimos à proliferação das famigeradas máscaras, e ao observar as pessoas portando esses estranhos aparatos, que mais se assemelham a instrumentos de asfixia ou a mordaças, só consigo imaginar o quão desconfortável deve ser. Os próprios indivíduos, contudo, acreditam piamente que se trata de uma medida preventiva, de modo que não há muito o que dizer. Afinal, para essa estirpe de gente culta, que só se sente segura se até o ar for filtrado por uma peneira de seda, a existência se revela, a meu ver, verdadeiramente digna de pena. Com isso, belos homens e mulheres veem-se privados de exibir seus rostos, restando-lhes apenas piscar os olhos, numa figura deveras caricata.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Deixando as ironias de lado e retomando o ponto central, o resfriado nada mais é do que a purificação das impurezas acumuladas no corpo. A prova é mais eloquente que qualquer argumento: a tosse e o espirro são a vassoura e o espanador; o catarro e a coriza, a poeira removida. O suor pode ser visto como a água suja após a lavagem. As dores de cabeça e no corpo são como as batidas de um bastão para desalojar a sujeira. Diante dessa explicação, é impossível não reconhecer a lógica e a maravilha do processo. No entanto, em vez de permitir que essa limpeza magnífica siga seu curso, as pessoas a interrompem com injeções, antitérmicos, xaropes para tosse, compressas, inalações e uma infinidade de outros recursos. Enrolam-se em cobertores como se estivessem amarradas e suportam um sofrimento atroz. A insensatez de tal comportamento beira o ridículo. Se, desde o início, simplesmente deixassem a natureza agir, todas as impurezas seriam expelidas, e o corpo ficaria completamente limpo e revigorado. A cura viria sem custo algum, sem esforço, e a saúde seria fortalecida. Haveria bênção maior que esta?</p>
 <p>Há, porém, uma complicação ainda mais séria. Como a limpeza foi interrompida, uma grande quantidade de impurezas permanece no corpo, o que acaba por desencadear uma faxina muito mais drástica e repentina. É isso o que todos temem sob o nome de pneumonia. Fica claro, portanto, que a pneumonia é uma doença criada pelo próprio homem. E não para por aí. A razão pela qual se diz que “o resfriado de agora é mais forte e não melhora” é precisamente o avanço recente da medicina, cujos medicamentos se tornaram mais potentes para suprimir o processo de purificação. Em outras palavras, a ciência aprimorou os métodos para impedir que a sujeira seja expelida. Como resultado, as impurezas se solidificam nos pulmões. Ao se deparar com essa massa endurecida, o médico exclama: “É grave! Um princípio de tuberculose”. O pobre coitado do paciente, apavorado, empalidece, seu rosto se torna cadavérico, e apenas seus olhos brilham, enquanto ele inicia a jornada para se tornar um cadáver ambulante. É lamentável o estado a que chegou o ser humano, reduzido à condição de um inseto, vivendo atolado num pântano de ignorância, de onde seus gritos de desespero não o podem salvar. Que mundo triste se tornou o nosso.</p>
 <p>Aquele que tiver lido até aqui com inteligência certamente compreenderá a verdade. Abandonará de imediato a superstição médica e adentrará o portal da felicidade da Sekaikyuseikyou, reencontrando um sorriso que há muito não exibia. Não tenho dúvidas de que o número de pessoas assim aumentará exponencialmente. Acima de tudo, os membros de nossa Igreja, que já foram salvos e vivem no Paraíso Terrestre, não apenas não se importam com as epidemias de resfriado, como as consideram magníficas. Graças a elas, seus corpos são purificados sem que precisem gastar um único centavo. A gratidão e a alegria que sentem são imensas. Comparar sua condição com a do resto do mundo é ir muito além de contrastar o dia e a noite ou um diamante e um caco de vidro. É certo que um evangelho tão grandioso não pode ser encontrado em nenhum outro lugar do planeta. Tendo exposto meus pensamentos livremente, sinto como se também eu tivesse realizado uma limpeza em meu próprio interior, experimentando um alívio que há muito não sentia.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風邪引結構 『栄光』193号、昭和28(1953)年1月28日発行 昨今どこもかしこも風邪引流行で、アチラでもゴホン、コチラでもゴホンで、都会も田舎も咳の騒音地獄だ。<br/><br/>そうかと思うと例のマスクの氾濫で、人間窒息機械か、緘口具（かんこうぐ）のような変なものを掛け始めたのをみると、さぞ窮屈だろうとお察しするが、御本人は風邪予防と思っているのだから、何をかいわんやである。<br/><br/>何しろ空気さえ絹漉（きぬご）しにしなければ、安心出来ないという文化族なるものは、吾々からみればまことに哀れな存在である。<br/><br/>これではせっかくの美女美男も、見せたい顔も出すことが出来ず、目ばかりパチクリさせているその格好たるや、虎魚（おこぜ）が陸へ上ったようである。<br/><br/> そこで拙者（せっしゃ）は風邪引流行について、どんな頭の悪いお人にも、一遍で分るようにかいてみようと思うが、まずこの地上を眺めてみれば、隅から隅まで埃だらけ塵だらけ、たまたま低気圧の孫みたようなチンピラ風が吹いても、砂塵濛々（もうもう）目も口も開けられぬ有様、だがこれは水撤（みずまき）人夫や鋪装（ほそう）路洗いで、どうやら綺麗にはなるし、家の中でのそれも朝晩嬶（かかあ）やおさんどんが、尻を捲（まく）って箒（ほうき）とハタキのバタバタ作業で相済むし、人間様も朝起きて顔を洗って、脳天のフケでも落せばスッキリするし、からだの垢（あか）は一風呂浴びればサッパリする。<br/><br/>以上は誰でも知ってる至極当り前のことだが、ここに誰も気の付かないところに、飛んでもない間違が伏在していることをこれからかいてみよう。<br/><br/> それは外でもない。<br/><br/>これ程世の中が展（ひら）けても人間様の智慧が進んでも、肝腎要のからだの中に年中溜る汚れものに、お気が付かない安本丹（あんぽんたん）振りである。<br/><br/>だが言うだろう。<br/><br/>“そんなことなんかあって堪るもんか、人間は皮膚という天然ゴム製ズックを被（き）ていて隠し蔽（おお）わせている以上安心なもんだよ”と。<br/><br/>なるほどそれもごもっともだが、よくよく考えて見て貰いたいのは、たとえからだの中でもだ、ヤッパリ汚いものが年中溜るから不思議だ。<br/><br/>なぜかって訊（き）くだけ野暮だよ。<br/><br/>人間食ったり飲んだりする物にも毒があるし、それよりも厄介な事には薬という恐ろしい毒なんだ。<br/><br/>これこそ拙者がいつもいっているが、その外糞毒尿毒も手伝い、人間様の腹の中の汚い事は、まるで塵溜、泥沼、肥料溜（こえだめ）と同様なんだから、何よりも自惚（うぬぼれ）を捨てる事だね。<br/><br/>それが証拠にはヤレ蛔虫（かいちゅう）、ヤレ蟯虫（ぎょうちゅう）、ヤレ十二指腸虫、ヤレ何々と、色んな虫が湧くにみて分るじゃないか、と言ったら一ペンにギャフンだろう。<br/><br/>そこで神様も如才（じょさい）がないよ。<br/><br/>人間共がやっている春秋二季の大掃除をして下さるんだ。<br/><br/>だが神様の方は縁の下じゃない。<br/><br/>人間のからだの中一面だよ。<br/><br/>この掃除を名付けて風邪というんだから、風邪程結構な有難いものはないじゃないか。<br/><br/>この掃除のおかげでからだの中は清潔になって、健康は増すのだ。<br/><br/>どうだ分ったか。<br/><br/>それをどう間違えたものか、そんなに結構な掃除を止めようとするのが、昨今（さっこん）政府始めお医者さん達総掛りの仕事なんだから、その馬鹿さ加減は呆れて物が言えないよ。<br/><br/>これも全く医学迷信のためなんだから困ったものだよ。<br/><br/> 従って拙者の申すこの説を聞いたら意外も意外、余りの意外にアフンと逆立（さかだち）してもオッツクまい。<br/><br/>そこで今これを分り易くかいてみよう。<br/><br/>まずもって風邪引同志の話を聞いてみると、今度の風邪は性質（たち）が悪い、いつもと違って中々治らないので困りますよ、などと愚痴やら泣言（なきごと）やらを並べているのは皆知っている通りであるが、これこそ風邪はからだの掃除だという事を知らないため、掃除の邪魔をするから治らないのであるから、誰でも風邪を引いたら何にも手当などせず、放っておけば必ず治るんだ。<br/><br/>そうして寝たきりでもよし、起きたけりゃ起きててもよし、仕事をしたけりゃしてもいいので、要するに気持にしていればそれで結構治るんだから、少しの心配もないんだよ。<br/><br/>それで治らないとすればヤハリ薬や手当で掃除を止めるからなんだ。<br/><br/> このような素晴しい真理を話しても、今の人間直ぐには承知出来まい。<br/><br/>何しろ長い間に医学迷信の虜（とりこ）となってしまった人達ばかりだから、反って逆にとり、「へンそんな馬鹿な話があって堪るもんか、救世教の奴（やつ）時代離れのした非科学的蒙言などを言やがって、迷わせるのは怪しからん、そんな甘いことで善男善女は騙せるとしても、吾々インテリは相手にはしないよ」と鼻高々と威張っている人もあるだろうが、こういう人は、毎日日（ひ）にちゴホンゴホンの連続で、熱で逆上（のぼ）せた赤い目玉で天井睨（にら）んで、ガンガン痛む頭を枕に乗せて、この寒いのに氷詰めになって、ブルブル、ビクビク、フラフラ、ウンウン唸っているのだから、医学迷信の恐ろしさが沁々（しみじみ）分るんだ。<br/><br/>中には住宅難の今日、エエ面倒だ、いっそ娑婆（しゃば）を見限り、あの世とやらへ転宅をしようかと迷っている人もあるだろう。<br/><br/> まず戯言（ざれごと）はこのくらいにしておいて、再び本論に戻るが、さて人間のからだの中へ溜った汚れの掃除こそ風邪なんだから、論より証拠咳と嚔（くしゃみ）は箒とハタキで、痰や水洟は塵埃である。<br/><br/>そうして湯で洗った汚れ水が汗と思えばいい。<br/><br/>頭やからだの痛いのは、棒で叩かれ塵を浮かせるためだ。<br/><br/>というようにこれだけでも、ハハーナールホドと感心せずにはいられまい。<br/><br/>ところがこんな結構な掃除をば、ヤレ注射、ソレ熱冷（さま）し、咳止め、湿布、吸入、葛根湯（かっこんとう）、梅干の黒焼、玉子酒などをガブガブ飲んで、蒲団（ふとん）被って簀巻（すまき）同様になって、じっと我慢しているその辛さは馬鹿馬鹿しいにも程がある。<br/><br/>そんな余計な苦しみをせずとも最初から放っておけば、腹の中の汚い雑物はスッカリ出てしまい、石川で尻洗ったようにサバサバするところか、一銭の金も、手数も要らずに治って、後は健康が増すとしたら、これ程有難い話はないではないか。<br/><br/> ところがまだ厄介な事には、掃除を止めたため沢山の汚物は残ってしまうから、今度は一遍にドカンと大掃除が始まる。<br/><br/>これがみんな恐れてる肺炎なんだから、肺炎という奴は人間が造ったものに違いない。<br/><br/>ところがまだある大いにある。<br/><br/>それは誰でも今度の風邪は性質（たち）が悪い、思うように治らないというのは、これこそ近頃の薬が進歩したため、掃除を抑える毒力が強くなったからである。<br/><br/>つまりせっかく出ようとする塵埃（じんあい）を、出さないようにする方法が進歩したのだ。<br/><br/>そのため汚物は肺の中で固ってしまうから、この塊を診たお医者さん、コリャ大変、結核の初期だと言うので、奴（やっこ）さん吃驚仰天（びっくりぎょうてん）青くなり、頬はゲッソリ落ちてしまい、眼ばかり光っていよいよ生きた屍（しかばね）になる修行に取掛るという訳。<br/><br/>テモサテモ今の人間の哀れさは、虫ケラ同然犬猫同然、アキレ蛙のヒキ蛙、泥沼に足突込んで、ギャーギャー鳴いても追っつかない。<br/><br/>とは情ない世の中になったもんだよ。<br/><br/> さてこれだけ読めば頭のいい御仁（ごじん）ならピント来て、早速医学迷信西の海へさらりと捨てて、救世教の幸福の門に入って、何年振りかのニコニコ顔になるだろう。<br/><br/>そういうお方はこれからドシドシ増えるに違いない。<br/><br/>何よりも本教で救われた天国族は、風邪の流行など屁とも思わないどころか、大いに結構、御蔭で一文要らずで掃除が出来るんだから、その有難さ嬉しさが身に沁みるよう。<br/><br/>これを世間様に比べたら月にスッポン、ダイヤに硝子（ガラス）どころではない。<br/><br/>恐らくこんな大きな福音は、世界中どこ探してもないに決っている。<br/><br/>以上思うままをかいてみたので、拙者も肚の中の掃除が出来たような気がして、久方振りにスーッとしたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tengok11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国篇 ・ミロクの世の実相 『栄光』137号、昭和27(1952)年1月1日発行 左記の論文は文明の創造中から、新春にふさわしいものとして載せたのである。<br><br> 天国篇 私は科学篇、宗教篇を次々かいて来たが、これから最後の天国篇をかくのである。<br><br>しかしこの所論は真の意味における前人未説のものであって、文明世界設計の根幹ともなるものであるから、そのつもりで読んで貰いたいのである。<br><br>しかし初めてこれを読む人は、現実とあまりに懸け離れた理想論としか思われまいが、決してそうではない。<br><br>立派な実現性のある事は、読むに従って分かるであろう。<br><br>そもそも、主神の御目的である地上天国を建設する基本条件としては、何よりも大自然の実相そのままを表わす事である。<br><br>というのはいつも言うごとく、宇宙一切の構成は、日月地が根本となっており、この本質が火水土であるから、この三位一体の力によって、万物は生成され、化育され、世界は無限の発展を遂げつつあるのである。<br><br>ところが今日までの霊界は、しばしば説くごとく夜であったがため、日は隠れていたのである。<br><br>つまり月土日の順序となっていた。<br><br>無論これは正しい順序ではないから、これまでの世界は一切に調和が欠け、紊れに乱れて、現在見るがごとき地獄世界を現出したのである。<br><br>これというのも善と悪についてさきに説いたごとく、善悪の軋轢（あつれき）が必要であったからで、全く深甚（しんじん）なる神意に外ならないのである。<br><br>その期間中わずかに宗教によって緩和されて来た事もかいたが、全く釈尊の唱えた苦の娑婆と諦めの言葉も、キリストの贖罪と隣人愛もその意味に外ならなかった。<br><br> ところで私の唱える夜の世界が、昼の世界に転換するという事であるが、本来宇宙の原則としては、日月地の三段階が正しい順序であるにかかわらず、そうでなかったのは前述のごとき意味であったからで、それが今度いよいよ完全の形となるのである。<br><br>言わば世界は百八十度の転換であって、実に空前の一大異変である。<br><br>従って現在の文化形体も一変するのはもちろん、その大綱としては、前述のごとき大自然の形となる以上、一切の機構も三段階になり、分かれて六となり、また分かれて九となる、つまり三六九で、これを縮めればミロクとなる。<br><br>地上天国一名ミロクの世とはこの事である。<br><br>ではミロクの世とは具体的にはどのような世界であるかを、順次説いてみよう。<br><br> ミロクの世の実相 これをまず国際上から説明してみるが、世界各国の国境は、現在のままではあるが、実質的には撤廃されたと同様になるのである。<br><br>つまり隣国に対する権力は平等となる以上、侵略などは絶対なくなるというよりも、侵略の必要がなくなるのである。<br><br>ここで侵略について少しかいてみるが、今日までは侵略にも止むを得ざるそれと、そうでない侵略との二つがあった。<br><br>前者の方は例えばある一国の人口が益々殖えるので、国土が狭くなり、ために過剰人口のはけ口を求めなければならないが、それを快く受け入れる国がないとしたら、どんな手段によっても、そうしなければならない事になる。<br><br>ここに戦争にうったえざるを得ないのであるが、ミロクの世になれば、そういう事情は絶対起らない。<br><br>というのは世界には広漠（こうばく）たる原野を抱えて、人口稀薄の国はいくらでもあるから日本のごとく国土狭く、人口過剰な国家があるとしても、簡単に解決されるのである。<br><br>それは世界議会があって、いかなる問題でも、慎重審議の上可決する。<br><br>もちろん今日のごとき自国本位の、我利的根性など全然ないから、いかなる法案も正しいものである以上、円満に成立するのはもちろんで、一ヵ年何万人でも、過剰人口はそれぞれの国家へ公正に配分され、争いの余地などあり得ないのである。<br><br>これがミロクの世の世界議会であるが、しかしそうなっても各々の国には、その国の国会もあるにはあるが、今とは違い議員の素質も立派で、自利的観念を棄て何事も世界的人類愛的に解決する。<br><br>従って現在の議場のごとき、甲論乙駁（こうろんおっぱく）、喧々諤々（けんけんがくがく）〔喧喧囂囂〕たる場面などは更になく、何事も説明だけで、和気藹々（わきあいあい）裡に即決されてしまうので、時間なども今日の十分の一にも足りないであろう。<br><br>そのような訳で会期も三月に一回くらいで、一回の日数は半日ずつ三日くらいで済むであろう。<br><br> これにも理由がある。<br><br>それは法律というものが非常に少なくなる。<br><br>いうまでもなく法律なるものは善人には必要がなく、悪人に対してのみの必要品であるからで、悪人のない世界となれば、そうなるのは当然である。<br><br>このような議会を頭において、現在の議会を見たならどうであろうか、忌憚なく言えば文化的野蛮人の集合場といってもいいであろう。<br><br> ここで世界議会の事を別の面からかいてみるが、近来アメリカにおいて、唱導されている世界国家というのがそれであって、この説が出たという事も、ミロクの世の近まっている示唆であろう。<br><br>そうして世界議会とは、今日の議会を世界的に拡げたものと思えばいい。<br><br>もちろんその中心の首脳者こそ、今日の大統領と同様で、すなわち世界大統領が出来るのである。<br><br>この任期は三年であって、もちろん世界各国の議員の中から銓衡員（せんこういん）が選ばれ、大統領を選ぶのであるが、その議員はその国の人口数に割当てられる。<br><br>つまりこれが世界議員である。<br><br> それから今一つの後者の侵略者であるが、その時代はもはや世界各国は武力がないので、戦争は不可能となり、前述のごとくすべて合理的平和的に、人口調節が出来る以上、これをかく必要もない訳である。<br><br> (注） 喧々諤々（けんけんがくがく）「けんけんごうごう（喧喧囂囂）」と「かんかんがくがく（侃侃諤諤）」とが混同されてできた語、大勢の人がくちぐちに意見を言って騒がしいさま。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Capítulo do Paraíso</h2>
 <p>Após discorrer sobre os capítulos da Ciência e da Religião, dedicar-me-ei agora ao capítulo final: o do Paraíso. Contudo, esta tese é, em seu mais verdadeiro sentido, algo sem precedentes na história, e constitui o próprio alicerce para o projeto de uma nova civilização mundial. Rogo, portanto, que seja lida sob essa perspectiva. É natural que aqueles que tiverem um primeiro contato com estas palavras as considerem um mero idealismo, excessivamente distante da realidade. Todavia, asseguro que não o é. Sua notável viabilidade se tornará evidente no decorrer da leitura.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Há uma razão para isso: as leis se tornarão extraordinariamente escassas. Afinal, as leis são artigos de necessidade apenas para os malfeitores, não para os homens de bem. Em um mundo isento de maldade, essa é a consequência natural. Tendo em mente tal parlamento, como nos pareceria o atual? Falando sem rodeios, poderíamos descrevê-lo como um local de encontro de bárbaros com verniz de cultura.</p>
 <p>Analisemos o Parlamento Mundial sob outra perspectiva. Recentemente, tem-se defendido nos Estados Unidos a ideia de um Estado Mundial. O surgimento dessa tese já é um prenúncio da proximidade do Mundo de Miroku. O Parlamento Mundial pode ser concebido como uma versão ampliada, em escala global, dos parlamentos atuais. Naturalmente, seu líder supremo, análogo aos presidentes de hoje, será o Presidente Mundial. Seu mandato será de três anos. Ele será eleito por um colégio de eleitores selecionados entre os parlamentares de todas as nações do mundo. A representação de cada país, por sua vez, será proporcional à sua população. Estes serão os parlamentares mundiais.</p>
 <p>Quanto à segunda modalidade de invasão, a que não é motivada pela necessidade, não há por que me aprofundar no assunto. Naquela era, as nações já não possuirão forças armadas, tornando a guerra impossível. Como expliquei, o controle populacional será realizado de forma racional e pacífica, esgotando-se assim a necessidade de abordar tal questão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国篇 ・ミロクの世の実相 『栄光』137号、昭和27(1952)年1月1日発行 左記の論文は文明の創造中から、新春にふさわしいものとして載せたのである。<br/><br/> 天国篇 私は科学篇、宗教篇を次々かいて来たが、これから最後の天国篇をかくのである。<br/><br/>しかしこの所論は真の意味における前人未説のものであって、文明世界設計の根幹ともなるものであるから、そのつもりで読んで貰いたいのである。<br/><br/>しかし初めてこれを読む人は、現実とあまりに懸け離れた理想論としか思われまいが、決してそうではない。<br/><br/>立派な実現性のある事は、読むに従って分かるであろう。<br/><br/>そもそも、主神の御目的である地上天国を建設する基本条件としては、何よりも大自然の実相そのままを表わす事である。<br/><br/>というのはいつも言うごとく、宇宙一切の構成は、日月地が根本となっており、この本質が火水土であるから、この三位一体の力によって、万物は生成され、化育され、世界は無限の発展を遂げつつあるのである。<br/><br/>ところが今日までの霊界は、しばしば説くごとく夜であったがため、日は隠れていたのである。<br/><br/>つまり月土日の順序となっていた。<br/><br/>無論これは正しい順序ではないから、これまでの世界は一切に調和が欠け、紊れに乱れて、現在見るがごとき地獄世界を現出したのである。<br/><br/>これというのも善と悪についてさきに説いたごとく、善悪の軋轢（あつれき）が必要であったからで、全く深甚（しんじん）なる神意に外ならないのである。<br/><br/>その期間中わずかに宗教によって緩和されて来た事もかいたが、全く釈尊の唱えた苦の娑婆と諦めの言葉も、キリストの贖罪と隣人愛もその意味に外ならなかった。<br/><br/> ところで私の唱える夜の世界が、昼の世界に転換するという事であるが、本来宇宙の原則としては、日月地の三段階が正しい順序であるにかかわらず、そうでなかったのは前述のごとき意味であったからで、それが今度いよいよ完全の形となるのである。<br/><br/>言わば世界は百八十度の転換であって、実に空前の一大異変である。<br/><br/>従って現在の文化形体も一変するのはもちろん、その大綱としては、前述のごとき大自然の形となる以上、一切の機構も三段階になり、分かれて六となり、また分かれて九となる、つまり三六九で、これを縮めればミロクとなる。<br/><br/>地上天国一名ミロクの世とはこの事である。<br/><br/>ではミロクの世とは具体的にはどのような世界であるかを、順次説いてみよう。<br/><br/> ミロクの世の実相 これをまず国際上から説明してみるが、世界各国の国境は、現在のままではあるが、実質的には撤廃されたと同様になるのである。<br/><br/>つまり隣国に対する権力は平等となる以上、侵略などは絶対なくなるというよりも、侵略の必要がなくなるのである。<br/><br/>ここで侵略について少しかいてみるが、今日までは侵略にも止むを得ざるそれと、そうでない侵略との二つがあった。<br/><br/>前者の方は例えばある一国の人口が益々殖えるので、国土が狭くなり、ために過剰人口のはけ口を求めなければならないが、それを快く受け入れる国がないとしたら、どんな手段によっても、そうしなければならない事になる。<br/><br/>ここに戦争にうったえざるを得ないのであるが、ミロクの世になれば、そういう事情は絶対起らない。<br/><br/>というのは世界には広漠（こうばく）たる原野を抱えて、人口稀薄の国はいくらでもあるから日本のごとく国土狭く、人口過剰な国家があるとしても、簡単に解決されるのである。<br/><br/>それは世界議会があって、いかなる問題でも、慎重審議の上可決する。<br/><br/>もちろん今日のごとき自国本位の、我利的根性など全然ないから、いかなる法案も正しいものである以上、円満に成立するのはもちろんで、一ヵ年何万人でも、過剰人口はそれぞれの国家へ公正に配分され、争いの余地などあり得ないのである。<br/><br/>これがミロクの世の世界議会であるが、しかしそうなっても各々の国には、その国の国会もあるにはあるが、今とは違い議員の素質も立派で、自利的観念を棄て何事も世界的人類愛的に解決する。<br/><br/>従って現在の議場のごとき、甲論乙駁（こうろんおっぱく）、喧々諤々（けんけんがくがく）〔喧喧囂囂〕たる場面などは更になく、何事も説明だけで、和気藹々（わきあいあい）裡に即決されてしまうので、時間なども今日の十分の一にも足りないであろう。<br/><br/>そのような訳で会期も三月に一回くらいで、一回の日数は半日ずつ三日くらいで済むであろう。<br/><br/> これにも理由がある。<br/><br/>それは法律というものが非常に少なくなる。<br/><br/>いうまでもなく法律なるものは善人には必要がなく、悪人に対してのみの必要品であるからで、悪人のない世界となれば、そうなるのは当然である。<br/><br/>このような議会を頭において、現在の議会を見たならどうであろうか、忌憚なく言えば文化的野蛮人の集合場といってもいいであろう。<br/><br/> ここで世界議会の事を別の面からかいてみるが、近来アメリカにおいて、唱導されている世界国家というのがそれであって、この説が出たという事も、ミロクの世の近まっている示唆であろう。<br/><br/>そうして世界議会とは、今日の議会を世界的に拡げたものと思えばいい。<br/><br/>もちろんその中心の首脳者こそ、今日の大統領と同様で、すなわち世界大統領が出来るのである。<br/><br/>この任期は三年であって、もちろん世界各国の議員の中から銓衡員（せんこういん）が選ばれ、大統領を選ぶのであるが、その議員はその国の人口数に割当てられる。<br/><br/>つまりこれが世界議員である。<br/><br/> それから今一つの後者の侵略者であるが、その時代はもはや世界各国は武力がないので、戦争は不可能となり、前述のごとくすべて合理的平和的に、人口調節が出来る以上、これをかく必要もない訳である。<br/><br/> (注） 喧々諤々（けんけんがくがく）「けんけんごうごう（喧喧囂囂）」と「かんかんがくがく（侃侃諤諤）」とが混同されてできた語、大勢の人がくちぐちに意見を言って騒がしいさま。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

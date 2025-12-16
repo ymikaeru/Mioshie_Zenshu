@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nyusi001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（入信、信仰上の悩み） １ 001-014 入信 001 霊線とは 霊線の根源とその本体について御伺い申し上げます。<br><br> 霊線とは、霊的の繋りで、そういう風に出来ている。<br><br>神様が造られている。<br><br>（S24. 7. 5） 002 霊線の長短 霊線の長い短いという事はどういう事で御座いましょうか。<br><br>また、血族の霊線は切れないとの事で御座いますが、血族の範囲はどの辺までを指すので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 長短は本来はない。<br><br>太い細いはある。<br><br>日本人がアメリカへ行ってもやはり繋っている。<br><br>遠くになれば細くなる。<br><br>血族の範囲は全部繋っている。<br><br>遠くなる程細い。<br><br>夫婦、親子、兄弟の順で、夫婦の霊線は質が違う。<br><br>（S23.12. 1） 003 因縁と霊線 霊線は切れても因縁は切れないでしょうか。<br><br>因縁の綱は一種の霊線でしょうか。<br><br> 異（ちが）う。<br><br>関係はないと言ってよい。<br><br>前の世で近しくなった人でも知らない同志の場合霊線はない。<br><br> 因縁があると霊線が繋りやすい。<br><br>（S24. 7.11） 004 家族変質の悩みの解決、（霊線による浄め） 私は本年八月十二日入信致しました。<br><br>私は後妻としてこの家に来たのですが、先妻の子供が二人ありますが、それでせつ子（長女二十三歳）がヒステリーが強く、そのために家の中が暗くなって仕舞います。<br><br>私はなんとかよくしたいと考えておりますが、本人は信仰する気持はない――浄霊は大嫌いです。<br><br>せつ子は胃が弱く、いつも胃薬を用いており、せつ子の子供（二歳）が一人ありますが、叱り飛ばすので子供迄が癇が強くなって仕舞いました。<br><br>今後いかにしたらよいでしょうか。<br><br>御教え下さいませ。<br><br> 入信して徳を積む。<br><br>すると家族も霊線によって浄まる。<br><br>せつ子も霊線によって浄めてゆく。<br><br>そうすると入信したくなる。<br><br>ある程度浄めなければ信仰心は起らぬ。<br><br>それにはこちらが浄まる事で、そして霊線によって浄める事が一番効果がある。<br><br>霊線を伝わって曇りがとれる。<br><br>一人判った人が出来ればいい。<br><br>（S24.11. 7） 005 本家霊友会・分家光明如来様の場合 本家は真言宗でありましたが最近霊友会の信仰を始めました。<br><br>その事を分家が知り、光明如来様をお祭りをしておりますが、それで宜しゅう御座いましょうか。<br><br> 結構である。<br><br>霊線の方も――本家も変ってくる。<br><br>いずれ悟る時期が来る。<br><br>（S24. 4. 3） 006 一人の入信と家族 昭和二十二年より光明一家になりました。<br><br>但し当年九十二歳のお婆さんだけはお守を頂いておりません。<br><br>この婆さんは二十年前より聾と盲です。<br><br>本年二月六日に当年十三歳の曾孫がお参りに伺いました。<br><br>その夜夢にて観音様におさとしを頂き、その時から婆さんの左乳房の下部に黒あざが出来ました。<br><br>いかなる訳でしょう。<br><br> 周囲の人の霊が浄まれば祖母さんも良くなる。<br><br>それは、一家の者は皆太い霊線で繋っているので、お祖母さんが御守を戴かなくとも、霊線を通して御霊徳はゆくのである。<br><br> 一家の中で一人が浄霊を受けると、霊線を通じてその関係者も浄まってゆくものである。<br><br> 007 自暴自棄的病人に教修を受けさせる事 酒井三郎（三十四歳）、昨年九月より肺結核にて昨年末まで家庭にて療養、本年の一月よりベツレヘム療養所へ入院約一ケ月、現在横浜教導所にて御浄霊を受けており、一週間程前より食事も進まず睡眠もとれず、本人も自暴自棄的状態になっていますが、なお御浄霊を続けて宜しいでしょうか。<br><br>二日前、本人が自分の部屋より光が出て行くと申します。<br><br> 面白くなく、食欲もない故むつかしい。<br><br>本人に信仰雑話や地上天国などを出来るだけ読ませ、浄霊を続けてみるといい。<br><br>自暴自棄といっても絶望ではない。<br><br>信仰が固まると御守護がある。<br><br>教修受けさしてよい。<br><br> 008 親密と入信（時期） 教導所の近隣の人達は、個人的には親密さと尊敬を以て私達に応接しておりますが、御道に入信してくる人が殆どないのは何か原因がありましょうか。<br><br> 時期が至らないからである。<br><br>（S24. 5.23） 009 家族続死、受講前に死亡、（入信と罪の多寡） 生後八ケ月の子供を一週間程御浄霊致し死亡致しました。<br><br>その後その祖父（五十歳）が教修を受けることになりましたが、その翌日列車事故のため死亡致しました。<br><br>職は鉄道員で、公務中で御座います。<br><br>霊的に何か意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> よほど罪が多いのである。<br><br>罪が多いために講習受けるのが早い。<br><br>資格になっていない。<br><br>も一つは、教修を受けては困るという邪霊に生命を奪（と）られる。<br><br>それもそういう弱点があり、資格がある訳である。<br><br>相応の理であって、一方的のものではない。<br><br> 010 親切の悪魔 吾々は親切の悪魔と言う。<br><br>陰に悪魔が隠れている。<br><br>善いのであるからどこまでも進んでゆく。<br><br>光明如来様にお詫びしてお許しを願う。<br><br>（S *.10.16） rattail（注） 〔 親切な悪魔 、未発表、年代不詳〕 011 悪心の湧起 現在四十九歳の女、三十三歳の時に神経衰弱にかかり、良くなったり悪くなったりが三ケ年、その後、神様や仏様の前へ行くと唾・小便をかけたくなるのです。<br><br>しかしまたそれをしてはいけないと言う声もするのです。<br><br>それは恐ろしくて、四十五歳の九月頃よりのぼせ、四十六歳の六月より床についたままです。<br><br>それは起きると悪い事をしたくて、それが恐ろしいのです。<br><br>その兄嫁が昭和十二年十二月二十五日弁膜炎にて、道にて倒れたまま死亡しました。<br><br>再婚の兄嫁が二十六歳より月のものが無くなり、この家には子供がありません。<br><br>この方は現在三十六歳です。<br><br>今後どういう方針を取ればよいでしょうか。<br><br> 信仰へ入ると治る。<br><br> 012 入信と家相や年廻り 家を建て、また修繕する時にあの方向には金神様がおられるとか、また主人の年廻りが悪いとか言いますが、これは信じて良いのでしょうか。<br><br>また迷信でしょうか。<br><br>御伺い致します。<br><br> 入信した人は霊が強いから、何の障りも受けぬ。<br><br>であるから、そんな事は迷信になる。<br><br>家相は少しはある。<br><br>方角や年廻りなどは少しもない。<br><br>（S25. 1.25） 013 入信者の乗船で浄化起る 愛媛県南宇和郡西外海村の中川（三十八歳）という男でトロール船の乗組員ですが、昨年十二月入信させて頂き、近隣の人を浄霊して御利益を頂いております。<br><br>この男がそのトロール船に乗り込みますと漁獲が激減し、また乗組みの漁師たちが手を折る、怪我をする、熱を出す等大騒ぎが度々ありますが、怪我人や熱の出た人々はその都度浄霊にて度々お救いさせて頂きおります。<br><br>ところがこの人が浄化にて三、四日下船している間は何事もなく却て大漁と云う始末ですが、いかなる訳でしょうか。<br><br>御伺い申し上げます。<br><br> この人が乗ると浄化作用が起るのである。<br><br>全員が入信すれば非常に大した事であるが、まあ自然にしておくとよい。<br><br>それに関係した霊が工夫しているから、そのままにしておくと、ある時期へ行って非常に結構になる。<br><br>（S25. 4.25） 014 眼は心の窓 諺にも「眼は心の窓」と申しますが、必ず心を写すもので御座いましょうか。<br><br> 心の窓で、必ず写す。<br><br>ただこちらに見分ける眼があるかないかである。<br><br>人を見るには眼が一番よい。<br><br>信仰に入って一番違うのは眼である。<br><br>入信前の眼は暗い感じである。<br><br>救われた人の眼は明るい感じである。<br><br>心に一物ある人の眼は分る。<br><br>（S24. 2.24）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: auxílio; Pesquisa de Materiais: Volume da Fé (Ingresso na Fé, Dificuldades na Prática da Fé) 1</h2>
 <p><strong>001-014 – Ingresso na Fé</strong></p>
@@ -135,5 +287,48 @@ function toggleLang(lang) {
 <p><strong>014 – Os Olhos são a Janela da Alma</strong></p>
 <p>Como diz o provérbio, "os olhos são a janela da alma". Eles realmente refletem nosso interior?</p>
 <p>Sim, os olhos são a janela da alma e sempre a refletem. A questão é se temos ou não a capacidade de discernir o que eles mostram. Para conhecer uma pessoa, o melhor é observar seus olhos. A maior mudança que ocorre em alguém após ingressar na fé se manifesta no olhar. Antes da fé, os olhos têm uma aparência sombria. Os olhos de uma pessoa salva, por outro lado, são luminosos. É possível reconhecer quando alguém abriga más intenções em seu coração apenas por seu olhar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇（入信、信仰上の悩み） １ 001-014 入信 001 霊線とは 霊線の根源とその本体について御伺い申し上げます。<br/><br/> 霊線とは、霊的の繋りで、そういう風に出来ている。<br/><br/>神様が造られている。<br/><br/>（S24. 7. 5） 002 霊線の長短 霊線の長い短いという事はどういう事で御座いましょうか。<br/><br/>また、血族の霊線は切れないとの事で御座いますが、血族の範囲はどの辺までを指すので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 長短は本来はない。<br/><br/>太い細いはある。<br/><br/>日本人がアメリカへ行ってもやはり繋っている。<br/><br/>遠くになれば細くなる。<br/><br/>血族の範囲は全部繋っている。<br/><br/>遠くなる程細い。<br/><br/>夫婦、親子、兄弟の順で、夫婦の霊線は質が違う。<br/><br/>（S23.12. 1） 003 因縁と霊線 霊線は切れても因縁は切れないでしょうか。<br/><br/>因縁の綱は一種の霊線でしょうか。<br/><br/> 異（ちが）う。<br/><br/>関係はないと言ってよい。<br/><br/>前の世で近しくなった人でも知らない同志の場合霊線はない。<br/><br/> 因縁があると霊線が繋りやすい。<br/><br/>（S24. 7.11） 004 家族変質の悩みの解決、（霊線による浄め） 私は本年八月十二日入信致しました。<br/><br/>私は後妻としてこの家に来たのですが、先妻の子供が二人ありますが、それでせつ子（長女二十三歳）がヒステリーが強く、そのために家の中が暗くなって仕舞います。<br/><br/>私はなんとかよくしたいと考えておりますが、本人は信仰する気持はない――浄霊は大嫌いです。<br/><br/>せつ子は胃が弱く、いつも胃薬を用いており、せつ子の子供（二歳）が一人ありますが、叱り飛ばすので子供迄が癇が強くなって仕舞いました。<br/><br/>今後いかにしたらよいでしょうか。<br/><br/>御教え下さいませ。<br/><br/> 入信して徳を積む。<br/><br/>すると家族も霊線によって浄まる。<br/><br/>せつ子も霊線によって浄めてゆく。<br/><br/>そうすると入信したくなる。<br/><br/>ある程度浄めなければ信仰心は起らぬ。<br/><br/>それにはこちらが浄まる事で、そして霊線によって浄める事が一番効果がある。<br/><br/>霊線を伝わって曇りがとれる。<br/><br/>一人判った人が出来ればいい。<br/><br/>（S24.11. 7） 005 本家霊友会・分家光明如来様の場合 本家は真言宗でありましたが最近霊友会の信仰を始めました。<br/><br/>その事を分家が知り、光明如来様をお祭りをしておりますが、それで宜しゅう御座いましょうか。<br/><br/> 結構である。<br/><br/>霊線の方も――本家も変ってくる。<br/><br/>いずれ悟る時期が来る。<br/><br/>（S24. 4. 3） 006 一人の入信と家族 昭和二十二年より光明一家になりました。<br/><br/>但し当年九十二歳のお婆さんだけはお守を頂いておりません。<br/><br/>この婆さんは二十年前より聾と盲です。<br/><br/>本年二月六日に当年十三歳の曾孫がお参りに伺いました。<br/><br/>その夜夢にて観音様におさとしを頂き、その時から婆さんの左乳房の下部に黒あざが出来ました。<br/><br/>いかなる訳でしょう。<br/><br/> 周囲の人の霊が浄まれば祖母さんも良くなる。<br/><br/>それは、一家の者は皆太い霊線で繋っているので、お祖母さんが御守を戴かなくとも、霊線を通して御霊徳はゆくのである。<br/><br/> 一家の中で一人が浄霊を受けると、霊線を通じてその関係者も浄まってゆくものである。<br/><br/> 007 自暴自棄的病人に教修を受けさせる事 酒井三郎（三十四歳）、昨年九月より肺結核にて昨年末まで家庭にて療養、本年の一月よりベツレヘム療養所へ入院約一ケ月、現在横浜教導所にて御浄霊を受けており、一週間程前より食事も進まず睡眠もとれず、本人も自暴自棄的状態になっていますが、なお御浄霊を続けて宜しいでしょうか。<br/><br/>二日前、本人が自分の部屋より光が出て行くと申します。<br/><br/> 面白くなく、食欲もない故むつかしい。<br/><br/>本人に信仰雑話や地上天国などを出来るだけ読ませ、浄霊を続けてみるといい。<br/><br/>自暴自棄といっても絶望ではない。<br/><br/>信仰が固まると御守護がある。<br/><br/>教修受けさしてよい。<br/><br/> 008 親密と入信（時期） 教導所の近隣の人達は、個人的には親密さと尊敬を以て私達に応接しておりますが、御道に入信してくる人が殆どないのは何か原因がありましょうか。<br/><br/> 時期が至らないからである。<br/><br/>（S24. 5.23） 009 家族続死、受講前に死亡、（入信と罪の多寡） 生後八ケ月の子供を一週間程御浄霊致し死亡致しました。<br/><br/>その後その祖父（五十歳）が教修を受けることになりましたが、その翌日列車事故のため死亡致しました。<br/><br/>職は鉄道員で、公務中で御座います。<br/><br/>霊的に何か意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> よほど罪が多いのである。<br/><br/>罪が多いために講習受けるのが早い。<br/><br/>資格になっていない。<br/><br/>も一つは、教修を受けては困るという邪霊に生命を奪（と）られる。<br/><br/>それもそういう弱点があり、資格がある訳である。<br/><br/>相応の理であって、一方的のものではない。<br/><br/> 010 親切の悪魔 吾々は親切の悪魔と言う。<br/><br/>陰に悪魔が隠れている。<br/><br/>善いのであるからどこまでも進んでゆく。<br/><br/>光明如来様にお詫びしてお許しを願う。<br/><br/>（S *.10.16） rattail（注） 〔 親切な悪魔 、未発表、年代不詳〕 011 悪心の湧起 現在四十九歳の女、三十三歳の時に神経衰弱にかかり、良くなったり悪くなったりが三ケ年、その後、神様や仏様の前へ行くと唾・小便をかけたくなるのです。<br/><br/>しかしまたそれをしてはいけないと言う声もするのです。<br/><br/>それは恐ろしくて、四十五歳の九月頃よりのぼせ、四十六歳の六月より床についたままです。<br/><br/>それは起きると悪い事をしたくて、それが恐ろしいのです。<br/><br/>その兄嫁が昭和十二年十二月二十五日弁膜炎にて、道にて倒れたまま死亡しました。<br/><br/>再婚の兄嫁が二十六歳より月のものが無くなり、この家には子供がありません。<br/><br/>この方は現在三十六歳です。<br/><br/>今後どういう方針を取ればよいでしょうか。<br/><br/> 信仰へ入ると治る。<br/><br/> 012 入信と家相や年廻り 家を建て、また修繕する時にあの方向には金神様がおられるとか、また主人の年廻りが悪いとか言いますが、これは信じて良いのでしょうか。<br/><br/>また迷信でしょうか。<br/><br/>御伺い致します。<br/><br/> 入信した人は霊が強いから、何の障りも受けぬ。<br/><br/>であるから、そんな事は迷信になる。<br/><br/>家相は少しはある。<br/><br/>方角や年廻りなどは少しもない。<br/><br/>（S25. 1.25） 013 入信者の乗船で浄化起る 愛媛県南宇和郡西外海村の中川（三十八歳）という男でトロール船の乗組員ですが、昨年十二月入信させて頂き、近隣の人を浄霊して御利益を頂いております。<br/><br/>この男がそのトロール船に乗り込みますと漁獲が激減し、また乗組みの漁師たちが手を折る、怪我をする、熱を出す等大騒ぎが度々ありますが、怪我人や熱の出た人々はその都度浄霊にて度々お救いさせて頂きおります。<br/><br/>ところがこの人が浄化にて三、四日下船している間は何事もなく却て大漁と云う始末ですが、いかなる訳でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> この人が乗ると浄化作用が起るのである。<br/><br/>全員が入信すれば非常に大した事であるが、まあ自然にしておくとよい。<br/><br/>それに関係した霊が工夫しているから、そのままにしておくと、ある時期へ行って非常に結構になる。<br/><br/>（S25. 4.25） 014 眼は心の窓 諺にも「眼は心の窓」と申しますが、必ず心を写すもので御座いましょうか。<br/><br/> 心の窓で、必ず写す。<br/><br/>ただこちらに見分ける眼があるかないかである。<br/><br/>人を見るには眼が一番よい。<br/><br/>信仰に入って一番違うのは眼である。<br/><br/>入信前の眼は暗い感じである。<br/><br/>救われた人の眼は明るい感じである。<br/><br/>心に一物ある人の眼は分る。<br/><br/>（S24. 2.24）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

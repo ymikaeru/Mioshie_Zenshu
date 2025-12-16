@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qigaku01</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医学が病人を造る 肺浸潤全快の悦び 『結核信仰療法』昭和27(1952)年12月1日発行 大分県 如意輪中教会 三宮主計（19） 思えば昭和二十五年八月七日の事で御座居ました。<br><br>私は当時郵便局に勤務中、福岡の郵便研究所へ入所のため緒方病院へ健康診断に行きましたところ、当病院の副院長先生よりレントゲン写真を見て、「少し曇りがあるから入院しなさい。<br><br>血沈も二十一ミリですから」と申されました。<br><br>私はなんの事かさっぱり分らず、「先生私は悪いのですか」と聞きますと先生は「少し悪いからあなたの局の局長さんに手紙を持って帰りなさい。<br><br>今度の研究所行きは止めなさい」と申します。<br><br>私はいよいよ不安になり、先日迄は元気だったのに？ と思いつつ、手紙を持って帰局致しました。<br><br>局長さんに見せると、「肺浸潤ですから早速入院」と書いてありました。<br><br>私は小さい時から病弱で御座居ましたが、肺浸潤なんかの病気はどんな病気か知りませんでした。<br><br>早速翌日より休職致し、八月の十一日に入院しました。<br><br>入院して私にはなんの症状もないので、床につくのが馬鹿らしく、他の病室に行って遊びました。<br><br>そして一週間位してから「肺浸潤は肺病だ」との事を同病者の方より聞き、びっくり致し、眼の前が暗くなる思いでした。<br><br>その日から早速安静にして静養いたしました。<br><br>二十日位たって先生は、もうぼつぼつ恢復しているとの事を申しました。<br><br>その当時薬はコンテーベンを服薬しておりましたが、先生は入院しても注射も何もしないで、同病の方より肺病はマイシンを打てばよいとの事で、その当時は薬で病気は治る事と思っていましたので、「先生マイシンを打って下さい」と申しますと、先生は「そうあなたが申しますなら」とて五本打って下さいました。<br><br>私はこれで私の病気は治ったと思いまして安心しておりました。<br><br>そうして十月十目先生に退院を話しました。<br><br>すると先生は家で安静にしていれば同じだからと言って退院させて戴きました。<br><br>退院して遊んだ上、もうマイシンも打ち、これで元気になったと思い、一カ月位家にいて再び十一月二十日より勤務致しました。<br><br>二十日位勤務しますと又も再発致し、今度は「一カ年安静にしていなければいけない」との事でした。<br><br>私はいよいよ吃驚して前途の夢や希望はなく真暗になり、これより又もや病床生活が始りました。<br><br> 二十六年三月に近所のメシヤ教信者の橋本政子様よりメシヤ教の話をして下さいました。<br><br>私はその当時はそんな事をして科学でも問題の結核が治るものかと思って、頭から疑っておりましたが三月一日より橋本様に浄霊して戴きました。<br><br>初めの内は問題にしていませんでしたが、日に日に元気になって行く自分の姿を顧みる時、最早疑う心は消え失せて、毎日悦びと希望を抱いて毎日御浄霊をしていただき、七月に私も入信させて戴きました。<br><br> 十二月四日に同病院に行きレントゲン写真も撮って貰いましたが、曇りも全くなくなり、血沈も健康体の普通となり、副院長先生より全快の証明書を出して下さった時の私の悦び、欣喜雀躍と申しますか、飛び上って踊りたい程の悦びで胸が一杯でした。<br><br>それから数日後より郵便局に出勤していますが何等の異常もなく、毎日元気で朗かに勤務させて戴いています。<br><br> これも全く光明如来様の御蔭でなくて何でありましよう。<br><br>前途真暗な暗黒生活より光明世界に入らせていただいた悦び、今では感謝で一杯です。<br><br>私のこの光明生活も御明主様はじめ御指導下さいました諸先生方の御蔭で御座います。<br><br> 謹んで厚く厚く御礼申し上げます。<br><br> （二十七年一月一日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Medicina que Cria Doentes: A Alegria pela Cura Completa de Infiltração Pulmonar</h2>
 <p>Tudo começou, se bem me recordo, em 7 de agosto de 1950. Naquela época, eu trabalhava em uma agência dos correios e, para ingressar no Instituto de Pesquisas Postais de Fukuoka, fui submetido a um exame de saúde no Hospital Ogata. Lá, após examinar a radiografia, o vice-diretor do hospital informou-me: “Há uma pequena mancha em seu pulmão, e sua velocidade de hemossedimentação está em vinte e um milímetros. É necessário que se interne”.</p>
@@ -100,5 +255,48 @@ function toggleLang(lang) {
 <p>A que mais poderia eu atribuir tal milagre, senão às graças de Deus? O contentamento de ter sido resgatado de uma existência sombria e sem perspectivas para adentrar o Mundo de Luz é imensurável, e hoje meu coração transborda de gratidão. Devo esta vida luminosa a Meishu-Sama e aos reverendos e ministros que me orientaram.</p>
 <p>Profundamente, expresso meu mais sincero e profundo agradecimento.</p>
 <p>(Enviado em 1 de janeiro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医学が病人を造る 肺浸潤全快の悦び 『結核信仰療法』昭和27(1952)年12月1日発行 大分県 如意輪中教会 三宮主計（19） 思えば昭和二十五年八月七日の事で御座居ました。<br/><br/>私は当時郵便局に勤務中、福岡の郵便研究所へ入所のため緒方病院へ健康診断に行きましたところ、当病院の副院長先生よりレントゲン写真を見て、「少し曇りがあるから入院しなさい。<br/><br/>血沈も二十一ミリですから」と申されました。<br/><br/>私はなんの事かさっぱり分らず、「先生私は悪いのですか」と聞きますと先生は「少し悪いからあなたの局の局長さんに手紙を持って帰りなさい。<br/><br/>今度の研究所行きは止めなさい」と申します。<br/><br/>私はいよいよ不安になり、先日迄は元気だったのに？ と思いつつ、手紙を持って帰局致しました。<br/><br/>局長さんに見せると、「肺浸潤ですから早速入院」と書いてありました。<br/><br/>私は小さい時から病弱で御座居ましたが、肺浸潤なんかの病気はどんな病気か知りませんでした。<br/><br/>早速翌日より休職致し、八月の十一日に入院しました。<br/><br/>入院して私にはなんの症状もないので、床につくのが馬鹿らしく、他の病室に行って遊びました。<br/><br/>そして一週間位してから「肺浸潤は肺病だ」との事を同病者の方より聞き、びっくり致し、眼の前が暗くなる思いでした。<br/><br/>その日から早速安静にして静養いたしました。<br/><br/>二十日位たって先生は、もうぼつぼつ恢復しているとの事を申しました。<br/><br/>その当時薬はコンテーベンを服薬しておりましたが、先生は入院しても注射も何もしないで、同病の方より肺病はマイシンを打てばよいとの事で、その当時は薬で病気は治る事と思っていましたので、「先生マイシンを打って下さい」と申しますと、先生は「そうあなたが申しますなら」とて五本打って下さいました。<br/><br/>私はこれで私の病気は治ったと思いまして安心しておりました。<br/><br/>そうして十月十目先生に退院を話しました。<br/><br/>すると先生は家で安静にしていれば同じだからと言って退院させて戴きました。<br/><br/>退院して遊んだ上、もうマイシンも打ち、これで元気になったと思い、一カ月位家にいて再び十一月二十日より勤務致しました。<br/><br/>二十日位勤務しますと又も再発致し、今度は「一カ年安静にしていなければいけない」との事でした。<br/><br/>私はいよいよ吃驚して前途の夢や希望はなく真暗になり、これより又もや病床生活が始りました。<br/><br/> 二十六年三月に近所のメシヤ教信者の橋本政子様よりメシヤ教の話をして下さいました。<br/><br/>私はその当時はそんな事をして科学でも問題の結核が治るものかと思って、頭から疑っておりましたが三月一日より橋本様に浄霊して戴きました。<br/><br/>初めの内は問題にしていませんでしたが、日に日に元気になって行く自分の姿を顧みる時、最早疑う心は消え失せて、毎日悦びと希望を抱いて毎日御浄霊をしていただき、七月に私も入信させて戴きました。<br/><br/> 十二月四日に同病院に行きレントゲン写真も撮って貰いましたが、曇りも全くなくなり、血沈も健康体の普通となり、副院長先生より全快の証明書を出して下さった時の私の悦び、欣喜雀躍と申しますか、飛び上って踊りたい程の悦びで胸が一杯でした。<br/><br/>それから数日後より郵便局に出勤していますが何等の異常もなく、毎日元気で朗かに勤務させて戴いています。<br/><br/> これも全く光明如来様の御蔭でなくて何でありましよう。<br/><br/>前途真暗な暗黒生活より光明世界に入らせていただいた悦び、今では感謝で一杯です。<br/><br/>私のこの光明生活も御明主様はじめ御指導下さいました諸先生方の御蔭で御座います。<br/><br/> 謹んで厚く厚く御礼申し上げます。<br/><br/> （二十七年一月一日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

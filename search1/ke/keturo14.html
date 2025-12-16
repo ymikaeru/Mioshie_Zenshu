@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>keturo14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『結核信仰療法』昭和27(1952)年12月1日発行 私は結核問題について、現代医学に対し随分思い切って、赤裸々にかいて来たが、これを読んだとしたら政府当局者も、専門家も、一般人も、余りの意外な説に、恐らくただちに首肯（しゅこう）する事は出来ないであろう。<br><br>ある人は怪しからんと言うであろうし、ある人は宗教人一流の独善論と思うかも知れないし、中にはこれは大変な説である、もし真実としたら世界的大問題として、真面目に研究しようとする人も現れるであろうが、私としてはあえて医学を誹謗する考えは毫（ごう）もない。<br><br>ただ真理を真理として披瀝（ひれき）したまでである。<br><br>というのは真に人類を救おうとするには、こうするより外に方法はないからである。<br><br> 何といってもこの著の出現は、人類不幸の根源たる病気滅消の天の時が来ったのであって、これこそ神意の発動でなくて何であろう。<br><br>従って既成学理にこだわる事なく、白紙になって読むとしたら、何らの疑念も起こらないはずで、信ずるより外はないであろう。<br><br>そうしてこの真理を神は日本人である私に、初めて啓示されたという事は、まず日本から救いの業を始めよとの意図であろう。<br><br>としたら現在日本においての最大苦悩は結核問題であるから、ここにまずこの著の出版となったのである。<br><br>とはいうものの現在の日本人も、唯物科学の信奉者になり切っている以上、科学上の新説なら耳を傾けるが、科学以外いかなる立派な説といえども、最初から否定の眼を以って見るに違いあるまい。<br><br>しかも神とか霊とかいう宗教的臭いがあるとしたら、なおさらそうであろうが、しかし理論を体系とし、事実を裏付けとして解説してある以上、全然否定の余地のない事はもちろんである。<br><br>そうしてこの実証方法こそ我浄霊法であって、現在あらゆる病を治し、病人なき家庭を無数に造りつつある、この生きた事実を見ても分かるはずである。<br><br> 最後に浄霊の原理も根本的にかきたいが、これは信者以外第三者としては分かり難いから、ある程度に止めておくとして、元々この著の主とするところは、医学の盲点を指摘する事と、浄霊の効果を知らすにあるのである。<br><br> そこで浄霊法の概略だけをかいてみるが、この方法たるや何らの物質を用いず、患者にむかって数尺離れたところから、ただ手を翳（かざ）すだけで、それであらゆる病気が治る。<br><br>という訳は掌から光の霊波が放射され、それによって患者の霊の曇りが払拭され、体に映って毒素は溶解排除されるからである。<br><br>そうして毒素稀薄な場合、大部分は水分となって、漿液中に混入され、濃度の場合は濃い分だけ種々の排泄物となって体外へ出るのである。<br><br>例えば盲腸炎の激痛のごときは、普通二、三十分で治り、重症となるとそれを二、三回繰返せば半日くらいで全治する。<br><br>もちろん溶解された毒素は、間もなく下痢となって排泄されるから、全く根治であり、再発の憂いは決してないのである。<br><br>この事だけにみても現在の医療が手術の苦痛や多くの日数莫大な費用はもちろん、擬似腹膜炎（これは手術後の盲腸部の痛み）や腎臓病の原因をも作るのであるから、我浄霊法と較べたら雲泥の相違であって、この浄霊法こそ最も進歩せる新医術である。<br><br>そうして今日結核療法においては、気胸はじめ種々の手術を行うが、これらも間に合せ手段で、根本的ではないからはかばかしく治らないのみか、たとえ治るにしても一時的で、再発かそうでなければ弱体者となり、一生壊れ者扱いをされなければならない人間となるのは、医家もよく承知しているであろう。<br><br> ここで浄霊の霊波について、概略説明してみるが、これは一種の光線である。<br><br>しかし単に光線といっても霊と体との区別がある。<br><br>彼のレントゲンやラジウムのごときは光線の体であるが、浄霊の光線は霊であって、この二様の作用は反対である。<br><br>前者は医学でも知らるるごとく、レントゲンは毒素を固める性能であり、ラジウムは毒素を破壊する性能であるから、癌治療はこの破壊力を応用するのである。<br><br>しかし厄介な事には、その破壊力は癌と共に、局部の機質をも破壊するから、結果において効果は抹殺され、差し引き零となり、気休め以外の何物でもないのである。<br><br>しかも非常に高価な代金を払って外国から取寄せるのだから、実に愚かな話である。<br><br> ところが浄霊による光波たるや、右のごとき固めでも破壊でもない。<br><br>固まった毒素を溶解し、原形に復させる療法であるから、全く邪と正との異いさである。<br><br>しかも前者は機械的に鉱物から採取するため、費用も手数も掛るが、後者に至っては人体から無限に放射されるので、一文も要らずして効果は前記のごとくであるとしたら、全く神が人類を救うべく、授けられたものである事は推測されるであろう。<br><br> 最後に人間の寿齢の事を少しかいてみるが、近来日本人の寿命がだいぶ延びて、男女平均六十一、二歳になったと喜んでいるが、今少しくらいは延びるかも知れないが、これは健康になったためではなく、浄化停止によって発病を延ばすからで、発病しなければ医療を受ける機会がないので、生命の危険を免れるという訳である。<br><br>この例として高度の文化国家程そうであるのは、彼の英仏のごときを見ればよく分る。<br><br>なるほど寿命は延びたと共に、老人が多くなり、青少年はその割に少ないから、国民の元気乏しく人口も殖えず、安易を貪（むさぼ）る事にのみ汲々（きゅうきゅう）たる消極的人民になってしまった。<br><br>現に両国共数ある植民地も漸次減ってゆき、国威は日に月に衰えつつあるにみて分かるであろう。<br><br>そうして今日までの人間は死の原因といえば、災害を除けばことごとく病気であるから、言わば不自然死である。<br><br>故に病なき時代となれば、全部自然死となる以上、早逝者はなくなり寿齢は大いに延び、百歳以上は普通となるのは当然である。<br><br>としたら誰でも一生涯の間に、いかに多くの仕事が出来、しかも病気の心配がないから思い切った計画も立てられ、死ぬまで活動が出来るから、人類社会にとってこれほどの大きな福音はないであろう。<br><br>このような夢にも等しい世界が如実に生れるその方法こそ、本著の理論を信じ、実行する事であって、私は神の代行者として、この真理をあまねく人類に伝えんとするのである。<br><br> 最後に結核に限らず、一般医学に対する批判と私の抱負をかいてみるが、まず今日全世界を挙げて、現代医学をもって最も進歩せる療病法と信じ、各国政府においてもこれを基礎として、健康確保の施設を立てており、医学の進歩によってのみ、人間生命の安全を保ち得るとしているのである。<br><br> そうして昔から幾多の新発見や新学説、または幾度とない革命はあったが、この医学の革命程偉大なものは、いまだかつてなかったであろう。<br><br>何よりもこれによって人類の生命は永遠に確保されるとしたら、正直に言って釈迦、キリストの偉業よりも、何層倍価値あるものであるかは考えるまでもあるまい。<br><br>この意味において好むと好まざるとにかかわらず、信ずると信ぜざるとにかかわらず、今やいよいよ真の医学は太陽のごとく燦（さん）として、東方の一角に輝き出でたのである。<br><br>ゆえにこれに従う者は永遠な栄えを得ると共に、従わざる者は医学と共に、滅亡の運命を甘受するより外ないであろう。<br><br>聖書にある“あまねく天国の福音を宣べ伝えらるべし、しかる後末期到る”という一節に留意されたいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Considerações Finais sobre a Terapia da Fé para a Tuberculose</h2>
 <p>Tenho abordado a questão da tuberculose com grande franqueza, expondo abertamente minhas objeções à medicina moderna. É provável que, ao lerem estas palavras, tanto as autoridades governamentais e os especialistas quanto o público em geral não consigam anuir de imediato, tal a natureza insólita desta tese. Alguns, por certo, a considerarão um ultraje; outros talvez a julguem como mero dogmatismo, próprio de um líder religioso. Contudo, é possível que surjam aqueles que a percebam como uma teoria de suma importância e, caso a considerem verídica, se disponham a investigá-la seriamente como uma questão de relevância mundial. De minha parte, afirmo não haver a menor intenção de difamar a medicina. Limitei-me apenas a expor a Verdade tal como ela é, pois não existe outro meio para a genuína salvação da humanidade.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Permitam-me tecer alguns comentários sobre a longevidade humana. Recentemente, comemora-se o fato de a expectativa de vida no Japão ter se estendido, alcançando uma média de sessenta e um ou sessenta e dois anos para ambos os sexos. É possível que ela se prolongue ainda mais, porém, isso não se deve a uma melhora na saúde da população, mas sim à interrupção do processo de purificação, que adia o surgimento das doenças. Se a enfermidade não se manifesta, não há oportunidade para intervenção médica, e assim se evita o risco de vida. Os países de cultura mais avançada, como Inglaterra e França, servem de exemplo. É verdade que sua longevidade aumentou, mas, ao mesmo tempo, o número de idosos cresceu em desproporção ao de jovens. Como resultado, a nação carece de vigor, a população não se expande e o povo tornou-se passivo, absorto unicamente na busca por uma vida cômoda. Prova disso é a gradual perda de suas numerosas colônias e o declínio diário de seu prestígio nacional, como se pode observar. Até hoje, a causa da morte humana, à exceção dos desastres, tem sido invariavelmente a doença, o que a caracteriza como uma morte não natural. Portanto, em uma era sem enfermidades, todas as mortes serão naturais. Consequentemente, não haverá falecimentos prematuros, a longevidade aumentará sobremaneira e viver mais de cem anos se tornará algo comum. Ponderemos sobre o quanto uma pessoa poderá realizar ao longo de uma vida inteira. Livre da preocupação com doenças, ela poderá traçar planos audaciosos e manter-se ativa até o fim de seus dias. Para a sociedade humana, não poderia haver evangelho maior. O método para que este mundo, hoje semelhante a um sonho, se torne realidade é crer na teoria exposta nesta obra e praticá-la. Na condição de representante de Deus, minha missão é transmitir esta Verdade a toda a humanidade.</p>
 <p>Para concluir, apresento minha crítica à medicina em geral, não apenas no que tange à tuberculose, e exponho minhas aspirações. Atualmente, o mundo inteiro acredita que a medicina moderna é o método terapêutico mais avançado. Os governos de todas as nações fundamentam nela suas políticas de saúde, convictos de que somente através do progresso médico a segurança da vida humana pode ser mantida.</p>
 <p>Ao longo da história, testemunhamos inúmeras descobertas, novas teorias e revoluções, mas nenhuma jamais se equiparou à grandiosidade desta revolução na medicina. Acima de tudo, se por meio dela a vida humana for eternamente assegurada, é preciso admitir, com toda a sinceridade, que seu valor é muitas vezes superior ao das grandes obras de Buda ou de Cristo. Nesse sentido, quer se queira, quer não, quer se creia, quer não, a verdadeira medicina finalmente despontou, resplandecente como o sol, em um rincão do Oriente. Portanto, aqueles que a seguirem obterão prosperidade eterna, ao passo que os que a rejeitarem não terão outra escolha senão resignar-se ao destino da ruína, juntamente com a medicina que defendem. Atentem para a passagem da Bíblia que diz: “E este evangelho do Reino será pregado em todo o mundo, [...] e então virá o fim.”</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『結核信仰療法』昭和27(1952)年12月1日発行 私は結核問題について、現代医学に対し随分思い切って、赤裸々にかいて来たが、これを読んだとしたら政府当局者も、専門家も、一般人も、余りの意外な説に、恐らくただちに首肯（しゅこう）する事は出来ないであろう。<br/><br/>ある人は怪しからんと言うであろうし、ある人は宗教人一流の独善論と思うかも知れないし、中にはこれは大変な説である、もし真実としたら世界的大問題として、真面目に研究しようとする人も現れるであろうが、私としてはあえて医学を誹謗する考えは毫（ごう）もない。<br/><br/>ただ真理を真理として披瀝（ひれき）したまでである。<br/><br/>というのは真に人類を救おうとするには、こうするより外に方法はないからである。<br/><br/> 何といってもこの著の出現は、人類不幸の根源たる病気滅消の天の時が来ったのであって、これこそ神意の発動でなくて何であろう。<br/><br/>従って既成学理にこだわる事なく、白紙になって読むとしたら、何らの疑念も起こらないはずで、信ずるより外はないであろう。<br/><br/>そうしてこの真理を神は日本人である私に、初めて啓示されたという事は、まず日本から救いの業を始めよとの意図であろう。<br/><br/>としたら現在日本においての最大苦悩は結核問題であるから、ここにまずこの著の出版となったのである。<br/><br/>とはいうものの現在の日本人も、唯物科学の信奉者になり切っている以上、科学上の新説なら耳を傾けるが、科学以外いかなる立派な説といえども、最初から否定の眼を以って見るに違いあるまい。<br/><br/>しかも神とか霊とかいう宗教的臭いがあるとしたら、なおさらそうであろうが、しかし理論を体系とし、事実を裏付けとして解説してある以上、全然否定の余地のない事はもちろんである。<br/><br/>そうしてこの実証方法こそ我浄霊法であって、現在あらゆる病を治し、病人なき家庭を無数に造りつつある、この生きた事実を見ても分かるはずである。<br/><br/> 最後に浄霊の原理も根本的にかきたいが、これは信者以外第三者としては分かり難いから、ある程度に止めておくとして、元々この著の主とするところは、医学の盲点を指摘する事と、浄霊の効果を知らすにあるのである。<br/><br/> そこで浄霊法の概略だけをかいてみるが、この方法たるや何らの物質を用いず、患者にむかって数尺離れたところから、ただ手を翳（かざ）すだけで、それであらゆる病気が治る。<br/><br/>という訳は掌から光の霊波が放射され、それによって患者の霊の曇りが払拭され、体に映って毒素は溶解排除されるからである。<br/><br/>そうして毒素稀薄な場合、大部分は水分となって、漿液中に混入され、濃度の場合は濃い分だけ種々の排泄物となって体外へ出るのである。<br/><br/>例えば盲腸炎の激痛のごときは、普通二、三十分で治り、重症となるとそれを二、三回繰返せば半日くらいで全治する。<br/><br/>もちろん溶解された毒素は、間もなく下痢となって排泄されるから、全く根治であり、再発の憂いは決してないのである。<br/><br/>この事だけにみても現在の医療が手術の苦痛や多くの日数莫大な費用はもちろん、擬似腹膜炎（これは手術後の盲腸部の痛み）や腎臓病の原因をも作るのであるから、我浄霊法と較べたら雲泥の相違であって、この浄霊法こそ最も進歩せる新医術である。<br/><br/>そうして今日結核療法においては、気胸はじめ種々の手術を行うが、これらも間に合せ手段で、根本的ではないからはかばかしく治らないのみか、たとえ治るにしても一時的で、再発かそうでなければ弱体者となり、一生壊れ者扱いをされなければならない人間となるのは、医家もよく承知しているであろう。<br/><br/> ここで浄霊の霊波について、概略説明してみるが、これは一種の光線である。<br/><br/>しかし単に光線といっても霊と体との区別がある。<br/><br/>彼のレントゲンやラジウムのごときは光線の体であるが、浄霊の光線は霊であって、この二様の作用は反対である。<br/><br/>前者は医学でも知らるるごとく、レントゲンは毒素を固める性能であり、ラジウムは毒素を破壊する性能であるから、癌治療はこの破壊力を応用するのである。<br/><br/>しかし厄介な事には、その破壊力は癌と共に、局部の機質をも破壊するから、結果において効果は抹殺され、差し引き零となり、気休め以外の何物でもないのである。<br/><br/>しかも非常に高価な代金を払って外国から取寄せるのだから、実に愚かな話である。<br/><br/> ところが浄霊による光波たるや、右のごとき固めでも破壊でもない。<br/><br/>固まった毒素を溶解し、原形に復させる療法であるから、全く邪と正との異いさである。<br/><br/>しかも前者は機械的に鉱物から採取するため、費用も手数も掛るが、後者に至っては人体から無限に放射されるので、一文も要らずして効果は前記のごとくであるとしたら、全く神が人類を救うべく、授けられたものである事は推測されるであろう。<br/><br/> 最後に人間の寿齢の事を少しかいてみるが、近来日本人の寿命がだいぶ延びて、男女平均六十一、二歳になったと喜んでいるが、今少しくらいは延びるかも知れないが、これは健康になったためではなく、浄化停止によって発病を延ばすからで、発病しなければ医療を受ける機会がないので、生命の危険を免れるという訳である。<br/><br/>この例として高度の文化国家程そうであるのは、彼の英仏のごときを見ればよく分る。<br/><br/>なるほど寿命は延びたと共に、老人が多くなり、青少年はその割に少ないから、国民の元気乏しく人口も殖えず、安易を貪（むさぼ）る事にのみ汲々（きゅうきゅう）たる消極的人民になってしまった。<br/><br/>現に両国共数ある植民地も漸次減ってゆき、国威は日に月に衰えつつあるにみて分かるであろう。<br/><br/>そうして今日までの人間は死の原因といえば、災害を除けばことごとく病気であるから、言わば不自然死である。<br/><br/>故に病なき時代となれば、全部自然死となる以上、早逝者はなくなり寿齢は大いに延び、百歳以上は普通となるのは当然である。<br/><br/>としたら誰でも一生涯の間に、いかに多くの仕事が出来、しかも病気の心配がないから思い切った計画も立てられ、死ぬまで活動が出来るから、人類社会にとってこれほどの大きな福音はないであろう。<br/><br/>このような夢にも等しい世界が如実に生れるその方法こそ、本著の理論を信じ、実行する事であって、私は神の代行者として、この真理をあまねく人類に伝えんとするのである。<br/><br/> 最後に結核に限らず、一般医学に対する批判と私の抱負をかいてみるが、まず今日全世界を挙げて、現代医学をもって最も進歩せる療病法と信じ、各国政府においてもこれを基礎として、健康確保の施設を立てており、医学の進歩によってのみ、人間生命の安全を保ち得るとしているのである。<br/><br/> そうして昔から幾多の新発見や新学説、または幾度とない革命はあったが、この医学の革命程偉大なものは、いまだかつてなかったであろう。<br/><br/>何よりもこれによって人類の生命は永遠に確保されるとしたら、正直に言って釈迦、キリストの偉業よりも、何層倍価値あるものであるかは考えるまでもあるまい。<br/><br/>この意味において好むと好まざるとにかかわらず、信ずると信ぜざるとにかかわらず、今やいよいよ真の医学は太陽のごとく燦（さん）として、東方の一角に輝き出でたのである。<br/><br/>ゆえにこれに従う者は永遠な栄えを得ると共に、従わざる者は医学と共に、滅亡の運命を甘受するより外ないであろう。<br/><br/>聖書にある“あまねく天国の福音を宣べ伝えらるべし、しかる後末期到る”という一節に留意されたいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

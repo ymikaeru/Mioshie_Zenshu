@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sitani3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 舌に代えて 『栄光』148号、昭和27(1952)年3月19日発行 今回本教宣伝班が、山陽地方へ布教旅行について、私の原稿が欲しいというのでかいてやったのが、左の論文であって、ここに掲げる事としたのである。<br><br> 私はメシヤ教々主岡田茂吉であります。<br><br>実は皆さんに直接お話したいのでありますが、そういう訳には参らないので、残念ながら原稿にして読ませますから、そのおつもりで聴いて貰いたいのであります。<br><br> そもそも我メシヤ教は、名は宗教でありますが、単なる宗教ではなく、宗教はメシヤ教の一部なのであります。<br><br>というと大言壮語のようでありますが、決してそうではなく厳たる事実であって、これを具体的に言えば病貧争絶無の世界、すなわちこの世に天国を造るという一大事業であります。<br><br>そうして読んで字のごとく、病を無くし、貧乏を無くし、争いを無くすというのであるから、丸で夢のような話でどんな人でもそのまま信ずる事は出来ないでありましょう。<br><br> ここでまず人間誰もが共通している欲望でありますが、言うまでもなく幸福の二字でありましょう。<br><br>恐らく精神病者でない限りどんなに欲のない人間でも、幸福はいらないという人は一人もありますまい、昔から宗教も、学問も、政治も、教育も、芸術も何も彼もその目的とするところは、人類の幸福にあるのは余りに分り切った話でありましょう。<br><br>ところがです、これ程進歩した文化時代になったにもかかわらず、果して予期した通りに幸福を得られたでありましょうか、仮に今人間の一人一人に訊いてみても分る通り、俺は幸福だという人が、唯の一人でもあるでしょうか、実に危いものであります。<br><br> 皆さん、この事実に直面して考えてみて貰いたい事は、これ程幸福追求のため、永い間一生懸命苦労して来た甲斐もなく、幸福どころではなく反対に不幸に取巻かれているのが今の人間の姿ではないでしょうか。<br><br>事実一般はいつ大戦争が始まるか分らないという不安、月給取りはこう物価が高くてはやり切れない、商人は金詰りの苦しみ、農民は肥料代、虫害、風水害に悩み、そのため我国は一カ年二千万石も不足し、輸入米の代金千数百億というのであるから大変で、その他一般的税金の苦しみは御承知の通りで、かてて加えて一番厄介なのは病気の心配でありましょう。<br><br>恐らく病気程恐ろしいものはありますまい。<br><br>何しろ一つよりない大事な命取りになるからであります。<br><br>右のごとくザットかいただけでもこのくらいで、どこを見でも不幸は山のようであって、幸福などは影も形も見えない有様ではありますまいか。<br><br> 以上によってまず考えなくてはならない事は、一体全体人間には幸福というものは、未来永劫得られないものでありましょうか。<br><br>実にこれ程痛切な問題はないでありましょう。<br><br>ところが神様の御目的はチャンと決っているのであります。<br><br>驚いてはいけません。<br><br>いよいよ幸福に満ちた世界を御造りになる時期が来たのであります。<br><br>そうしてその構想たるや今までの物質文化の面だけであった世界を、今度は精神文化の面をも急速に向上させ、両々あいまっていよいよ地上天国が出来るのであります。<br><br>これについて今一つの知らねばならない事は、今まで無神思想がはびこっていたので、これは物質文化を発達させんがためのある期間であったのが、これが打ち切りになって有神思想になるのであります。<br><br>つまり無神有神の入れ換えになるのであります。<br><br>そこで神様はまず幸福世界にするには不幸を無くす事が第一で、不幸の最大原因は病気でありますから、人類から病気を絶滅し病なき世界にするのであって、これだけで目的は達せられるのであります。<br><br> ここで我メシヤ教の生まれた理由をお話しなければなりませんが、前述のごとく全人類待望の幸福な世界をお造りになるために、主（す）の神すなわち別の御名エホバ、ゴット、ジュース、天帝、仏陀、天御中主神（あめのみなかぬしのかみ）等で、大経綸をなされるので、その担当者として私という人間が選ばれたのであります。<br><br>そうしてまずメシヤ教という機関を造り、最後の救いを実行されるのであります。<br><br>しかしこの事は昔からすでに偉い聖者達が予言されてあります。<br><br>彼のキリストの天国、釈尊のミロクの世、日蓮上人の義農の世、天理教教祖の甘露台の世、ユダヤ教のメシヤ降臨等々がそれで、これも世界に知れ渡っているのであります。<br><br>してみればこの大事業も来るべき時が来たのであって、今初めて私が唱え出したものではありません。<br><br> そこで前申したような、病気を根絶するため、本教は病気治しに最も力を注いでいるのであります。<br><br>博士から見離された病人でも、本教信者になれば、誰でも治す力を与えられるのであります。<br><br>この力こそ主神から私を中継ぎとして、信者に伝達されるものであって、これによって病無き世界は必ず実現するのであります。<br><br>皆さん、このような大きな事を堂々と言う私は、いかに確信があるかを想像してもらいたいのであります。<br><br>もしこれが少しでも偽りがあるとしたら、必ず暴露して大変な罪を作った事になり、世の中から葬り去られるのは必然でありますから、そんな馬鹿な事はまっぴら御免であります。<br><br> 以上によって大体お分りになったと思いますが、要するに本教は幸福世界を造る大事業であるとしたら、世界は個人の集合体である以上、まず個人個人を幸福にする事が先でありますから、その通り本教信者になれば一日一日幸福となり、天国的家庭が作られるのであります。<br><br>これこそ真の安心立命であります。<br><br>そうして本教程奇蹟の多い宗教は、昔から類例がないとされております。<br><br>奇蹟の多い宗教程価値も大きいのでこの点からみても分るでありましょう。<br><br>まだ色々申したい事がありますが、余り長くなるから、今日はこれだけにしておきます。<br><br>さようなら。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Edificação do Paraíso na Terra</h2>
 <p>O presente artigo foi escrito a meu punho em atendimento a uma solicitação da equipe de difusão de nossa Igreja, por ocasião de sua viagem missionária à região de Sanyo. Decidi, pois, publicá-lo aqui para um público mais amplo.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Creio que a essência de minha mensagem foi compreendida. Em síntese, se a missão de nossa Igreja é a magna obra de criar um mundo feliz, e considerando que o mundo nada mais é que o somatório de indivíduos, a prioridade é, primeiramente, tornar cada pessoa feliz. E, de fato, aqueles que se tornam membros da Igreja Messiânica veem sua felicidade crescer dia após dia, construindo lares celestiais. Nisto consiste a verdadeira paz de espírito e a certeza de seu propósito de vida. Ademais, afirma-se que, desde a antiguidade, jamais houve uma religião com tantos milagres quanto a nossa. O valor de uma doutrina pode ser medido pela abundância de seus prodígios, o que, por si só, já é um grande testemunho.</p>
 <p>Haveria muito mais a dizer, mas, para não me alongar, encerro por aqui.
 Despeço-me.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 舌に代えて 『栄光』148号、昭和27(1952)年3月19日発行 今回本教宣伝班が、山陽地方へ布教旅行について、私の原稿が欲しいというのでかいてやったのが、左の論文であって、ここに掲げる事としたのである。<br/><br/> 私はメシヤ教々主岡田茂吉であります。<br/><br/>実は皆さんに直接お話したいのでありますが、そういう訳には参らないので、残念ながら原稿にして読ませますから、そのおつもりで聴いて貰いたいのであります。<br/><br/> そもそも我メシヤ教は、名は宗教でありますが、単なる宗教ではなく、宗教はメシヤ教の一部なのであります。<br/><br/>というと大言壮語のようでありますが、決してそうではなく厳たる事実であって、これを具体的に言えば病貧争絶無の世界、すなわちこの世に天国を造るという一大事業であります。<br/><br/>そうして読んで字のごとく、病を無くし、貧乏を無くし、争いを無くすというのであるから、丸で夢のような話でどんな人でもそのまま信ずる事は出来ないでありましょう。<br/><br/> ここでまず人間誰もが共通している欲望でありますが、言うまでもなく幸福の二字でありましょう。<br/><br/>恐らく精神病者でない限りどんなに欲のない人間でも、幸福はいらないという人は一人もありますまい、昔から宗教も、学問も、政治も、教育も、芸術も何も彼もその目的とするところは、人類の幸福にあるのは余りに分り切った話でありましょう。<br/><br/>ところがです、これ程進歩した文化時代になったにもかかわらず、果して予期した通りに幸福を得られたでありましょうか、仮に今人間の一人一人に訊いてみても分る通り、俺は幸福だという人が、唯の一人でもあるでしょうか、実に危いものであります。<br/><br/> 皆さん、この事実に直面して考えてみて貰いたい事は、これ程幸福追求のため、永い間一生懸命苦労して来た甲斐もなく、幸福どころではなく反対に不幸に取巻かれているのが今の人間の姿ではないでしょうか。<br/><br/>事実一般はいつ大戦争が始まるか分らないという不安、月給取りはこう物価が高くてはやり切れない、商人は金詰りの苦しみ、農民は肥料代、虫害、風水害に悩み、そのため我国は一カ年二千万石も不足し、輸入米の代金千数百億というのであるから大変で、その他一般的税金の苦しみは御承知の通りで、かてて加えて一番厄介なのは病気の心配でありましょう。<br/><br/>恐らく病気程恐ろしいものはありますまい。<br/><br/>何しろ一つよりない大事な命取りになるからであります。<br/><br/>右のごとくザットかいただけでもこのくらいで、どこを見でも不幸は山のようであって、幸福などは影も形も見えない有様ではありますまいか。<br/><br/> 以上によってまず考えなくてはならない事は、一体全体人間には幸福というものは、未来永劫得られないものでありましょうか。<br/><br/>実にこれ程痛切な問題はないでありましょう。<br/><br/>ところが神様の御目的はチャンと決っているのであります。<br/><br/>驚いてはいけません。<br/><br/>いよいよ幸福に満ちた世界を御造りになる時期が来たのであります。<br/><br/>そうしてその構想たるや今までの物質文化の面だけであった世界を、今度は精神文化の面をも急速に向上させ、両々あいまっていよいよ地上天国が出来るのであります。<br/><br/>これについて今一つの知らねばならない事は、今まで無神思想がはびこっていたので、これは物質文化を発達させんがためのある期間であったのが、これが打ち切りになって有神思想になるのであります。<br/><br/>つまり無神有神の入れ換えになるのであります。<br/><br/>そこで神様はまず幸福世界にするには不幸を無くす事が第一で、不幸の最大原因は病気でありますから、人類から病気を絶滅し病なき世界にするのであって、これだけで目的は達せられるのであります。<br/><br/> ここで我メシヤ教の生まれた理由をお話しなければなりませんが、前述のごとく全人類待望の幸福な世界をお造りになるために、主（す）の神すなわち別の御名エホバ、ゴット、ジュース、天帝、仏陀、天御中主神（あめのみなかぬしのかみ）等で、大経綸をなされるので、その担当者として私という人間が選ばれたのであります。<br/><br/>そうしてまずメシヤ教という機関を造り、最後の救いを実行されるのであります。<br/><br/>しかしこの事は昔からすでに偉い聖者達が予言されてあります。<br/><br/>彼のキリストの天国、釈尊のミロクの世、日蓮上人の義農の世、天理教教祖の甘露台の世、ユダヤ教のメシヤ降臨等々がそれで、これも世界に知れ渡っているのであります。<br/><br/>してみればこの大事業も来るべき時が来たのであって、今初めて私が唱え出したものではありません。<br/><br/> そこで前申したような、病気を根絶するため、本教は病気治しに最も力を注いでいるのであります。<br/><br/>博士から見離された病人でも、本教信者になれば、誰でも治す力を与えられるのであります。<br/><br/>この力こそ主神から私を中継ぎとして、信者に伝達されるものであって、これによって病無き世界は必ず実現するのであります。<br/><br/>皆さん、このような大きな事を堂々と言う私は、いかに確信があるかを想像してもらいたいのであります。<br/><br/>もしこれが少しでも偽りがあるとしたら、必ず暴露して大変な罪を作った事になり、世の中から葬り去られるのは必然でありますから、そんな馬鹿な事はまっぴら御免であります。<br/><br/> 以上によって大体お分りになったと思いますが、要するに本教は幸福世界を造る大事業であるとしたら、世界は個人の集合体である以上、まず個人個人を幸福にする事が先でありますから、その通り本教信者になれば一日一日幸福となり、天国的家庭が作られるのであります。<br/><br/>これこそ真の安心立命であります。<br/><br/>そうして本教程奇蹟の多い宗教は、昔から類例がないとされております。<br/><br/>奇蹟の多い宗教程価値も大きいのでこの点からみても分るでありましょう。<br/><br/>まだ色々申したい事がありますが、余り長くなるから、今日はこれだけにしておきます。<br/><br/>さようなら。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

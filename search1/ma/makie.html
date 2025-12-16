@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>makie</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蒔絵 ･日本美術とその将来（3） 自観叢書第5編『自観隨談』P.65、昭和24(1949)年8月30日発行 次に、美術工芸についてかいてみるが、これも絵画と同様古人の優秀さは驚くべきものがある。<br><br>まず外国にない日本独特の工芸美術としては蒔絵（まきえ）である。<br><br>よってそれから書いてみよう。<br><br>蒔絵は余程古くから発達したもので、天平時代既に立派な作品が出来ている。<br><br>もちろんその時代のものは仏教関係のものが多く、研出（とぎだし）蒔絵の経箱などがほとんどである。<br><br>蒔絵が大に盛んになったのは鎌倉室町時代からで、次いで足利期に及び桃山時代に至って大いに進歩発達し、名工も簇出（そうしゅつ）したのである。<br><br>なかんずく五十嵐道甫（どうほ）、山本春正（しゅんしょう）、古満（こま）休意、休伯、塩見政誠等はおもなる名工であり。<br><br>多くの名作を残している。<br><br>それまでは研出蒔絵のみであったが、その頃から高蒔絵が製出されるようになったが、一方これに対し全然新しい図案と描法をもって一大センセーションを捲き起こしたものは、彼の本阿弥光悦（ほんあみこうえつ）及び尾形光琳（こうりん）である。<br><br>彼等は鉛、青貝、金〔の〕平蒔絵等を巧みに応用し、前者の巧緻を極めた美々しきものに対し、これはまた自由奔放独特の図案はもちろん、雅致横溢（がちおういつ）したものである。<br><br>次いで小川破笠（はりつ）の陶器を混入した新機軸的のものや、杣田（そまた）重光の金銀の薄板と青貝等を主とした独特の作を出すあり、漆芸の進歩著るしいものがある。<br><br>そうして桃山時代の飛躍の後を受けて徳川期に入るや、各大名が競うて大作名作を制作させたので、名工輩出すると共に、彼の百万石の大々名加賀の前田氏のごときは御小屋と称し、庭園の一部に仕事場を作り、名工を招聘（しょうへい）し、材料も手間も御入用構わずで一生涯捨扶持（すてぶち）をやった事によって、いかに絢爛優秀なる作品を生むに至ったかは、今なお博物館初め各所に残っているものにみてもよく判るのである。<br><br>全く日本が世界に誇る一大芸術国である事も認識され得よう。<br><br> 近代に至っては梶川彦兵衛、同文龍斎、中山胡民（こみん）等の名工等が明治に入るや簇出し始めたのである。<br><br>蒔絵も他の美術と等しく幕末から明治初年の衰退期を経て一躍全盛期に突入した。<br><br>柴田是真、白山松哉（しょうさい）、小川松民、池田泰真、川之辺一朝、赤塚自得、植松抱民、同抱美、船橋舟眠、迎田秋悦、都築幸哉、由木尾（ゆきお）雪雄等がおもなるものである。<br><br> ここに特筆すべきは白山松哉である。<br><br>恐らく彼は古今を通じての第一人者であって、彼の右に出づる者は一人もないといっても過言ではなかろう。<br><br>彼こそ漆芸界における大名人である。<br><br>彼の作品を見る時私は頭が下るのである。<br><br>もちろん最初の帝室技芸員でありながら、彼の逸話として伝えらるるところは、大正時代彼は一日の手間賃四円五十銭と決め、それ以上は決してとらないという事で、実に無欲恬淡（てんたん）、ただ芸術にのみ生きたという、彼こそは真の意味の芸術家であるといえよう。<br><br>実に敬慕すべき巨匠ではあった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte do Maki-e e o Gênio Japonês</h2>
 <p>Abordemos agora as artes aplicadas, nas quais, assim como na pintura, a excelência dos mestres do passado é digna de assombro. Dentre elas, a mais distintamente japonesa, sem equivalente no estrangeiro, é a arte do <em>Maki-e</em>. É por ela, portanto, que iniciaremos nossa explanação.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Impulsionada pelo grande salto do Período Momoyama, essa arte adentrou a era Tokugawa. Nesse período, os diversos senhores feudais competiam entre si para encomendar obras grandiosas e magistrais, o que favoreceu o surgimento de inúmeros mestres. Um exemplo notável é o do clã Maeda, da província de Kaga, um poderoso domínio. Os Maeda estabeleceram uma oficina, conhecida como <em>Okoya</em>, em uma parte de seus jardins, para a qual convidaram os mais renomados artesãos. Esses mestres recebiam um soldo vitalício, com a liberdade de não se preocuparem com o custo dos materiais ou com o tempo de execução. A magnificência e a excelência das obras que resultaram desse mecenato podem ser claramente apreciadas nas peças que ainda hoje se encontram em museus e coleções diversas. Por meio delas, pode-se reconhecer que o Japão é, de fato, uma grande nação artística, motivo de orgulho perante o mundo.</p>
 <p>Já na era moderna, com a chegada do Período Meiji, começaram a despontar mestres como Kajikawa Hikobei (梶川彦兵衛), Bunryusai (文龍斎) e Nakayama Komin (中山胡民). O <em>Maki-e</em>, assim como as demais artes, após passar por um período de declínio entre o final do xogunato e o início da era Meiji, adentrou subitamente uma nova fase de apogeu. Os principais expoentes desse renascimento foram Shibata Zeshin (柴田是真), Hakusan Shosai (白山松哉), Ogawa Shomin (小川松民), Ikeda Taishin (池田泰真), Kawanobe Itcho (川之辺一朝), Akatsuka Jitoku (赤塚自得), Uematsu Homin (植松抱民) e Hobi (抱美), Funabashi Shumin (船橋舟眠), Mukaeda Shuetsu (迎田秋悦), Tsuzuki Kosai (都築幸哉) e Yukio Yukio (由木尾雪雄).</p>
 <p>Neste ponto, é imperativo fazer uma menção especial a Hakusan Shosai (白山松哉). Ele é, quiçá, o maior mestre de todos os tempos, e não seria exagero afirmar que ninguém jamais o superou. Shosai foi o grande gênio da arte da laca. Ao contemplar suas obras, sinto-me compelido a curvar a cabeça em reverência. Ele foi, naturalmente, um dos primeiros a receber o título de Artista da Casa Imperial. Contudo, uma anedota que ilustra seu caráter narra que, durante a era Taisho, ele estipulou o valor de seu trabalho diário em quatro ienes e cinquenta sen, recusando-se a aceitar qualquer quantia superior. Desapegado de ambições materiais e vivendo unicamente para a sua arte, ele pode ser considerado um artista no mais verdadeiro sentido da palavra. Foi, de fato, um mestre sublime, digno da mais profunda admiração.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蒔絵 ･日本美術とその将来（3） 自観叢書第5編『自観隨談』P.65、昭和24(1949)年8月30日発行 次に、美術工芸についてかいてみるが、これも絵画と同様古人の優秀さは驚くべきものがある。<br/><br/>まず外国にない日本独特の工芸美術としては蒔絵（まきえ）である。<br/><br/>よってそれから書いてみよう。<br/><br/>蒔絵は余程古くから発達したもので、天平時代既に立派な作品が出来ている。<br/><br/>もちろんその時代のものは仏教関係のものが多く、研出（とぎだし）蒔絵の経箱などがほとんどである。<br/><br/>蒔絵が大に盛んになったのは鎌倉室町時代からで、次いで足利期に及び桃山時代に至って大いに進歩発達し、名工も簇出（そうしゅつ）したのである。<br/><br/>なかんずく五十嵐道甫（どうほ）、山本春正（しゅんしょう）、古満（こま）休意、休伯、塩見政誠等はおもなる名工であり。<br/><br/>多くの名作を残している。<br/><br/>それまでは研出蒔絵のみであったが、その頃から高蒔絵が製出されるようになったが、一方これに対し全然新しい図案と描法をもって一大センセーションを捲き起こしたものは、彼の本阿弥光悦（ほんあみこうえつ）及び尾形光琳（こうりん）である。<br/><br/>彼等は鉛、青貝、金〔の〕平蒔絵等を巧みに応用し、前者の巧緻を極めた美々しきものに対し、これはまた自由奔放独特の図案はもちろん、雅致横溢（がちおういつ）したものである。<br/><br/>次いで小川破笠（はりつ）の陶器を混入した新機軸的のものや、杣田（そまた）重光の金銀の薄板と青貝等を主とした独特の作を出すあり、漆芸の進歩著るしいものがある。<br/><br/>そうして桃山時代の飛躍の後を受けて徳川期に入るや、各大名が競うて大作名作を制作させたので、名工輩出すると共に、彼の百万石の大々名加賀の前田氏のごときは御小屋と称し、庭園の一部に仕事場を作り、名工を招聘（しょうへい）し、材料も手間も御入用構わずで一生涯捨扶持（すてぶち）をやった事によって、いかに絢爛優秀なる作品を生むに至ったかは、今なお博物館初め各所に残っているものにみてもよく判るのである。<br/><br/>全く日本が世界に誇る一大芸術国である事も認識され得よう。<br/><br/> 近代に至っては梶川彦兵衛、同文龍斎、中山胡民（こみん）等の名工等が明治に入るや簇出し始めたのである。<br/><br/>蒔絵も他の美術と等しく幕末から明治初年の衰退期を経て一躍全盛期に突入した。<br/><br/>柴田是真、白山松哉（しょうさい）、小川松民、池田泰真、川之辺一朝、赤塚自得、植松抱民、同抱美、船橋舟眠、迎田秋悦、都築幸哉、由木尾（ゆきお）雪雄等がおもなるものである。<br/><br/> ここに特筆すべきは白山松哉である。<br/><br/>恐らく彼は古今を通じての第一人者であって、彼の右に出づる者は一人もないといっても過言ではなかろう。<br/><br/>彼こそ漆芸界における大名人である。<br/><br/>彼の作品を見る時私は頭が下るのである。<br/><br/>もちろん最初の帝室技芸員でありながら、彼の逸話として伝えらるるところは、大正時代彼は一日の手間賃四円五十銭と決め、それ以上は決してとらないという事で、実に無欲恬淡（てんたん）、ただ芸術にのみ生きたという、彼こそは真の意味の芸術家であるといえよう。<br/><br/>実に敬慕すべき巨匠ではあった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

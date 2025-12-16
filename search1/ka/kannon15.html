@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音講座 第三講座 『観音講座』昭和10(1935)年8月5日発行 観世音菩薩の本体 救世主の出現 アメリカの新しい宗教に「バハイ教」と言うのがある。<br><br>開祖が神懸りになり救世主の資格を発表しました。<br><br>その資格は次のごときであります。<br><br> 大聖主の九大資格（アブデュルバハー） 一、世界人類の教育者たるべき事。<br><br> 二、その教義は世界的にして人類に光輝を齎（もたら）すものなる事。<br><br> 三、その知識は天性自湧的のもので、後天的にあらざる事。<br><br> 四、あらゆる賢哲の疑問に明答を与え、人類至難の問題を解決し、一切の迫害と苦痛を甘受すべきものたる事。<br><br> 五、歓喜の給与者にして、幸福の天国の報道者たる事。<br><br> 六、無限の知識を有し、その知慧は理解し得べきものなる事。<br><br> 七、言説徹底し、その威力は最兇悪なる敵をも打伏し能（あた）うものたる事。<br><br> 八、悲哀と厄難は彼を悩すに足らず、その勇気と決断は神明のごとく、しかも日を逐（お）い堅実と熱烈を加うる事。<br><br> 九、世界共通の文明建設者にして、各宗教の統一者であり、世界平和の確定者であり、且（かつ）世界人類の 最も崇高卓絶せる道徳の体験者たるべき事。<br><br> 汝右の条件を具備せる者を見出せば、その時こそ世は彼に指導を受け、光明を被（こうむ）る事を得る。<br><br> これに対し私は次のごとく補足しました。<br><br>八項目次のごとし。<br><br> 救世主八大資格 一、世界万民の病を治すべき万人の医療者を作る。<br><br> 二、貧の根絶に地下に埋蔵せる黄金を無限に発掘して人類に頒（わか）ち与う。<br><br> 三、森羅万象を意のごとくなす絶対力を有し、その予言は必ず実現すべき事。<br><br> 四、その経綸は悉（ことごと）く前人の跡を踏まず、総て新機軸によって進展す。<br><br> 五、政治経済宗教芸術等、人世百般の事象に精通し、いかなる問題に会うも快刀乱麻を断つがごとく立ち所に解決す。<br><br> 六、太陽のごとく身体より霊光を放つ。<br><br> 七、最高の神格を有するが故に万神を従わしめ魔神を服せしむ。<br><br> 八、天賦の力徳は一切衆生を無為にして化せしむ。<br><br> 基 督 教 イエス、世界人類の為に罪を贖（あがな）い救う為に生れて来たのである。<br><br>イエスはユダヤ民族でイスラエルの民である。<br><br>その時代ユダヤ教という教あり、その予言に最後の世にメシヤが現われる。<br><br>メシヤは救世主のことであり、キリストである。<br><br>メシヤとはヘブライ語で救世主という事になる。<br><br> 素盞嗚尊（すさのをのみこと）――照――イエス 月 神 ――暗――マッソン（フリーメーソン） 贖 罪 主 イエスをキリストでないと言う事を見破った者ありて、あれは偽のキリストであると皇帝に告げた。<br><br>その者を生かして置いたら非常なる間違いになると言う見地からイエスを磔刑にしたのである。<br><br>イエスは素盞嗚尊が以前罪を犯した為、黄泉国へやられた。<br><br>その罪を赦して戴くために大きな功をたてなければならん、その贖罪をなされたのである。<br><br> それ故イエスは贖罪主である。<br><br>人類の罪の代表者なのである。<br><br>人類のお詫びの代行者なのである。<br><br> 救 世 主 キリストは人類の諸々の罪の赦し主である。<br><br>救世主は罪を赦しに現われるのである。<br><br> 霊体密着して人となる。<br><br>離れると八となる。<br><br> 神明統一者である。<br><br>キリストのキは天地を貫く貴い字で、神の霊返しはキである。<br><br>キリストが雲より降ると言う事があるが、人間が雲に乗ることは絶対に出来ない。<br><br>人間が雲の上に止っていられん事に出来ているのである。<br><br>これが出来たら天地の律法に反することになる。<br><br> イエスとはイスラエルの事にして、エは天地を貫かぬ。<br><br>エは枝の働き、又江は水の枝、スは一人で統（すべ）るとなる。<br><br>素盞嗚尊の分身・分霊の事となる。<br><br>雲から降ると言う事は何か。<br><br>日月を隠すものは雲である。<br><br>神を隠すものとなるのである。<br><br>神を隠すものは雲の働きである。<br><br> これは科学文明の事である。<br><br>神を隠すものは現代科学文明である。<br><br>今の文明はいかに神を隠そうかと一生懸命である。<br><br>神を隠そうと今の学者が総ての神とか霊とかを無視してこの事を発表すると、皆インチキであると決定して終う。<br><br> しかも今の世の神とか霊とか言う連中が多くインチキばかりやっているのが多い為で、本物こそ良い面の皮である。<br><br>これが為本物は非常に迷惑であるが、これを区別することを致さない警察は実に情ない。<br><br>科学がいかに神を隠すことに一生懸命であるか、それが雲の働きである。<br><br> 現代文明は科学の文明である。<br><br>現代においては現われると言う事が雲から現われるという事である。<br><br>則ち天から降ると言う事になるのである。<br><br> 神霊文明――科学文明 神霊文明が天で、科学文明が地であるから、神霊文明から科学文明へ降るのである。<br><br> キリストの再臨 二千年の後黄金の国にキリストが再臨すると予言してあります。<br><br>黄金の国とは日本の事である。<br><br>人の顔を見れば日本人は黄金色をしているのである。<br><br>支那人は青金の色であり、日本の地下には金が沢山ある。<br><br>その霊気により黄色となるのである。<br><br> キリストとイエスと一度に再臨するとある。<br><br>キリストはイエスの父なのである。<br><br>イエスでは世界統一は出来ん。<br><br>二千年前ですら出来なかったのである。<br><br>国常立尊が一度世界を統一した事がある。<br><br> 今イエスが現われて罪を贖（あがな）ったところで赦すことが出来んから、何程出ても無駄である。<br><br>観音会のことを世界で知ったら驚く事である。<br><br>今度は本当に金剛力を持った神様が出て今までの世を救うのである。<br><br>しかも罪を赦す権力を持って出られるのである。<br><br> 物が上で心が下であるから違う。<br><br> 神様が仏に化して外国へ行ったから仏になったのだ。<br><br> 物は外郭であり心が中心である。<br><br> 神様が外国へ行って仏になったのだから、日本へ帰れば神様であらねばならない。<br><br>神仏を逆にすれば仏神であるから、逆（釈迦）の教である。<br><br> 外は空（から）で中が魂であるから、人の事を「カラ魂」と云うのは肉体と魂を言うことなのである。<br><br>空っぽへ霊が止るから霊止（たまし）というのである。<br><br>霊体がくっ付いていなければいけない。<br><br>離れては開く事になる。<br><br>八の字である。<br><br>霊は左にして体は右である。<br><br> 今までは仏神であったが三段となり、仏神に伊都能売が加わって仏、神、伊となったのである。<br><br>この三段が区別があって無く、又無くてあるのが今後の事である。<br><br> 中心が天皇その上が伊都能売大神その外が神で仏は滅するのである。<br><br> この図を縦に見れば左図のごとくである。<br><br> 又節をとれば下図のごとくなる。<br><br> この時を以って大光明世界となる。<br><br> 又斜に見れば、 大東京が十五区から三十五区になったのである。<br><br> 海を埋めて丸くなるのであるがこれは今後の事である。<br><br> 市役所が月島に移転する等の問題もこの為の御経綸である。<br><br> 霊 体 ｜ イヅノメ、霊界は霊が上で体が下である。<br><br> 五十三 体 霊 ｜ 現界は物質界であるから体の方が上である。<br><br> 三十五 東京が三十五区になったのも、大震災からであるから、震災は神様の御経綸であったことがわかる。<br><br> これを天地に貫けば神となる。<br><br> これは経緯の経綸を示す事で、これが永遠に続いて行くのである。<br><br> 佛 弓は弓張月とて月の事であるから、仏教は月の教である事が判る。<br><br>その弓を縦に二本の棒で貫いている。<br><br> このごとく弓の月をアミダとシャカの二本の棒で貫いている。<br><br>それが人である事を示し、神でない事を知らしている。<br><br> イは人（人偏）である。<br><br> 地 十一（統一） カミ 大地 ナリ （成る）＝完成する 土 十 一 也 統一が成る事になれば、今までは土でなく泥であったから固らずにいたのである。<br><br>その為地震があったり、何かしたのである。<br><br>今後において完成する時初めて地となるのである。<br><br>地となれば地震や色々の災難も無く地上天国となる。<br><br> 神と仏の字 仏はブツであり物質文明時代を表わす。<br><br> 神の文字は示偏に申と書いてあるが、申と云う字は干支の申（さる）ではない、田の字の真中の経の棒が上と下へ抜け出ている。<br><br>そして田の字とは○に十から起った。<br><br>○に十とは、○は地球であり大地の事である。<br><br>十の字は経と緯の棒の結んだ形で、経は火で緯は水である。<br><br>火と水はカとミであるからカミとなる。<br><br> 大地は神が主宰し給い神の世界である。<br><br>神は無始無終であるから上下の棒が貫いて無始無終を表わす。<br><br> 右の意味を人類に示さなくてはならぬ。<br><br>人々に示す意味なのである。<br><br> 観世音の本体 和光同塵（光をやわらげ、ちりにまじわる） 観音様は人類救済の為にいかなる極悪な者も、獣や虫類に至るまでお救いを垂れられる為、馬頭観音のごとく、お姿を変えられて地獄の者までもお救いになられる。<br><br> 最高最貴の神様がこんなにしてまでも一切衆生を救われる。<br><br>およそ人間は神様のお子である為、この苦の娑婆にあえぐ人間達を天国的生活に入らしめんと大変な御努力を遊ばされるので恐れ多い極みであります。<br><br>何にも捉われず三十三相に化身されて融通無碍（ゆうずうむげ）、円転滑脱（えんてんかつだつ）、対手（あいて）に合せて喜ばれる様にされる。<br><br> 天台大師の観音原義のはこじつけで解らんが、世の音声を見る、そして救うと言うが、音を見るなぞとはおかしな話で、物は見る、音は聞くのである。<br><br>要するに事実を解く事が出来ないのである。<br><br> 梵語＝観世音（アバロキテシュバラー）支那の鳩摩羅什（クマラジュウ）が観世音としたのである。<br><br> 天照皇大御神（あまてらすすめおほみかみ）が御現れになり、天忍穂耳尊（あめのおしほみみのみこと）がお生れになった。<br><br>この時分に相当に人類はあったが統治は出来なかったのである。<br><br> 天照皇大御神――左守 国常立尊（くにとこたちのみこと） 右守 素盞嗚尊（すさのをのみこと） 国常立尊は忠義というより、実に誠忠無比の神様で力のある神様である。<br><br> 国常立尊が天下平定の御経綸を申付けられたが、最初は良く治ったが、余り厳格な神様故人民が窮屈になりし為、どうしてもやり切れん様になった。<br><br>そこを見て取ったのが盤古神王（ばんこしんわう）の子天之若彦命（あめのわかひこのみこと）である。<br><br>この命が国常立尊を排斥する運動を起したのである。<br><br>これに共鳴者が非常に多かった。<br><br>そして盤古神王を押立てんとしたが、盤古神王は善良でおとなしい神様で力がないから、この神を立れば楽が出来るからと、看板に盤古神王を立て、実権は天之若彦命が握り世界統治をやられたのである。<br><br>この為国常立尊は隠退遊ばされたのである。<br><br>この御隠退は東北へなされたと成っているが、世界から見ると日本であり、日本からすれば東北である。<br><br>日本の東北、即（すなわち）艮（うしとら）へ御隠退された為にこの神様のことを艮（うしとら）の金神（こんじん）と申上げるのである。<br><br>日本の艮はどこか、北海道の芦別山に御隠退になられたのである。<br><br>又一方幽界では閻魔大王となられたのである。<br><br>神様は霊分身が御自由である為、幾柱にも別れることが出来るのである。<br><br> そこで伊都能売神様は、一方印度にて観音になられ、一方は兄の花姫尊（このはなひめのみこと）（梅の花）となられて富士山に御鎮りになられ、又、一方は金龍となって近江の国の琵琶湖へお隠れになられたのである。<br><br>その故〔は〕富士山と琵琶湖を邪神に占領されたならば、日本は危険であるからである。<br><br>富士山はなぜ大切かと言うと、人間で言うと富士山が臍（へそ）であるからである。<br><br>人間の体としても臍は一番大切なところとすればその意であるからである。<br><br>この為兄の花姫と成られ、金龍となられてこの二ケ所を守られたのである。<br><br> 豊雲野尊（とよくもぬのみこと）は国常立尊の妻神様であるが、夫神様の犠牲となられ坤（ひつじさる）の方へ御隠退になられた。<br><br>坤の方とは鬼界ケ島の事である。<br><br>日本の西南に当るところである。<br><br>この神様が思兼尊（おもひかねのみこと）様である。<br><br> 又一方別れて木の花咲耶姫命（このはなさくやひめのみこと）になられて印度に行かれて釈迦となられたのである。<br><br>木の花咲耶姫命の木の花は桜の花の事である。<br><br> 天之若彦命が世界統治をされて一時は楽になったと喜んでいた所、天之若彦命は女狂い等始めた為又非常に乱れて終った。<br><br> 天之若彦命の奥方の若姫岐美命（わかひめぎみのみこと）は非常に貞節な方であったが、いつの間にか素盞嗚尊と恋愛関係を結ばれた。<br><br>素盞嗚尊はその時朝鮮に居られたので、烏となって行って逢われたのである。<br><br>於加良洲明神（おからすみょうじん）と言うのはこの神様を祭られたのである。<br><br>その後に春日明神となられたのである。<br><br> 音姫尊は素盞嗚尊の奥方であるが、これが乙姫の事である。<br><br>天照大神様の妹の為弟姫と言うたのを音姫又は乙姫と申されたのである。<br><br>この神様は観音様と非常に関係のある神様である。<br><br> 音姫は非常に嫉妬深い神様で、遂に嫉妬の余り龍神となり海の底へ隠れられ、和田津海（わたつみ）の神、大（おほ）和田津海の神、海原姫命（うなばらひめのみこと）とも言うて海底へ龍宮城を造られたのであるが、これは霊界での事であって、海の王様となられたのである。<br><br> 音姫は非常に欲が深く、又非常に強かったから、世界の宝を集めて海に隠れたのである。<br><br>宝と言っても霊的の事である。<br><br>その為地方にある鉱山が出なかったのである。<br><br>その宝を以って天下の権を掌握しようとかゝったが、女であるから駄目であった。<br><br>致し方なくその時の支配者を緩けたのである。<br><br> 神界の支配者 盤古神王 大自在天 この神が金が必要の為龍宮の乙姫の宝を要する為に、乙姫から貰って来たのである。<br><br>この何千年来乙姫が実権者であったのである。<br><br>上記のごとく音姫の世を観ているというのが観世音であった。<br><br>時期は約三千年で九千年六千年三千年となっている。<br><br> 三 二 一 みる 世を 音姫の 観ﾚ 世ﾚ 音 国常立尊が天照大神から命ぜられた時が九千年前である。<br><br>音とは日即ち統一の形である。<br><br>要するに立即ち龍が世界を統一するという字であるから、音姫が天下を統一している事になるのである。<br><br>龍が天下を統一した時は暗となるのである。<br><br>又闇である。<br><br>ヤミの字には必ず音の字が付いているのを見てもよくわかる。<br><br>字は皆意味があって出来ているのである。<br><br> 乙姫の統一した間を「暗の世」と言う。<br><br>乙姫ともかくのであって、この乙姫の姿は黒龍である。<br><br>黒龍は悪龍である。<br><br>私は越智隆蔵氏方の龍神の池に黒龍の泳ぎいるのを見たことがあったが、 越―乙 智―血―霊 隆―龍 蔵―オサム カクレル カクス 越智隆蔵とは乙姫の型である。<br><br>乙の字が既に龍の形なのである。<br><br> 乙姫の血即ち霊を持った龍を隠しているとか隠れているとか、治めている、右の様な意味にて正しく乙姫なのである。<br><br>越智方に龍神のお祭りの時三、四尺の池を掘り龍神を祭った時池一杯に五分間位黒龍が泳いでいたので良く解った。<br><br> 暗黒無明の世であると言う事は音姫（乙姫）の世であるという事である。<br><br>観世音とは乙姫が世を支配している間の御名であるから、今後余り長い間使用する様なことはない。<br><br>乙姫が神様に世を譲れば観世音とは言われなくなるのである。<br><br>この意味においても遠からず観音会も会名の変る時が来ることが悟られるのである。<br><br>又一名観自在天とも言い、印度では要するに観自在天なのである。<br><br> 印度は『大自在天』が最高の神であるから、この自在天の世を観ているという意味になるのである。<br><br>日本では観世音である。<br><br>これは前述の音姫の世を見ているのである。<br><br> 龍 神止 暗 黒 立 正 安 国 日蓮上人に邪神が懸ってこの立正安国論を説いたのである。<br><br>この邪神も龍神である事は立正の立で解るのである。<br><br>立正安国論もあの当時であったから良かったのであるが、今日では駄目である。<br><br>この意味は「龍が神を止め暗黒の世とする」というのである。<br><br> 観音様は円満具足という事になる。<br><br>丸くて完全であるという事である。<br><br>真丸という事である。<br><br> ［イラスト省略］ 真丸はダイヤモンドをよく見ると解る。<br><br>ダイヤは八角であるからその八角を取って行くと真丸になるのである。<br><br> ハッパ六十四角である。<br><br>六十四角が真丸になるのである。<br><br> 又三十三相というのが実は三十二相である。<br><br>この三十二相は化身で、本体の聖観音を加えて三十三相というのである。<br><br> 聖観音は決して化けないのである。<br><br>六十四州と言うのが、この意味に相通じているところがある。<br><br>麻邇（まに）の玉―如意宝珠（にょいほうしゅ）とも言う。<br><br>神霊（みたま）というのを神という。<br><br>神というのは真丸な円満具足なる事である。<br><br> 玉の横の丶を上に掲げると主になる。<br><br>玉の字は非常に貴い字である。<br><br>伊都能売とは円満滑脱である。<br><br>玉はくるくる自由自在にどちらへでも転んで行く。<br><br>神様に角があっては善良な神様とは言えぬ。<br><br>丸くならねばならん。<br><br>丸いから転るのである。<br><br>自由無碍に転るのである。<br><br> 法輪を転ずるとは観音様の事である。<br><br>滑稽洒脱（しゃだつ）である。<br><br>大いに笑わせるのである。<br><br>観音行に近い人程丸いのである。<br><br>どんな人にも合わして行かねばならんのである。<br><br>怒るのは真丸ではない。<br><br>人に突掛るのは角である。<br><br>観音行はこの角が取れなければ丸くなる事は出来ない。<br><br>又湿っぽくては駄目である。<br><br>笑冠句（わらいかんく）を奨励するのはこの意味からである。<br><br>笑ったり笑わしたりすれば、自然に天国状態となり、円満になれるのである。<br><br>世界の平和とは争がなくなる事である。<br><br> （昭和十年八月五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Bodhisattva Kannon</h2>
 <p>Dentre as novas religiões surgidas nos Estados Unidos, destaca-se a Fé Bahá'í. Seu fundador, após ser tomado por inspiração divina, promulgou os requisitos para se reconhecer o Messias, os quais apresento a seguir.</p>
@@ -182,5 +334,48 @@ O nome Ochi Ryuzo é, portanto, um arquétipo de Otohime, significando "aquele q
 <p>A palavra para "joia" (玉) é extremamente nobre. Ao mover o pequeno traço lateral para cima, ela se torna "senhor" (主). Ser Izunome é ser perfeitamente maleável. Uma joia rola livremente em qualquer direção. Um deus com arestas não pode ser considerado um deus benevolente; é preciso ser redondo para poder rolar com liberdade.</p>
 <p>"Girar a Roda da Lei" é uma expressão que se refere a Kannon. Ela é espirituosa e despojada. Ela nos faz rir abundantemente. Quanto mais uma pessoa se aproxima da prática de Kannon, mais arredondada ela se torna. É preciso harmonizar-se com todos. A raiva denota a falta de circularidade; confrontar os outros é ter arestas. Na prática de Kannon, é impossível alcançar a perfeição sem eliminar essas arestas. A melancolia também é um obstáculo. A recomendação de versos humorísticos (<em>waraikanku</em>) tem este propósito. Ao rir e fazer os outros rirem, cria-se naturalmente um estado paradisíaco, e a plenitude é alcançada. A paz mundial nada mais é do que o fim de todos os conflitos.</p>
 <p>(5 de agosto de 1935)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音講座 第三講座 『観音講座』昭和10(1935)年8月5日発行 観世音菩薩の本体 救世主の出現 アメリカの新しい宗教に「バハイ教」と言うのがある。<br/><br/>開祖が神懸りになり救世主の資格を発表しました。<br/><br/>その資格は次のごときであります。<br/><br/> 大聖主の九大資格（アブデュルバハー） 一、世界人類の教育者たるべき事。<br/><br/> 二、その教義は世界的にして人類に光輝を齎（もたら）すものなる事。<br/><br/> 三、その知識は天性自湧的のもので、後天的にあらざる事。<br/><br/> 四、あらゆる賢哲の疑問に明答を与え、人類至難の問題を解決し、一切の迫害と苦痛を甘受すべきものたる事。<br/><br/> 五、歓喜の給与者にして、幸福の天国の報道者たる事。<br/><br/> 六、無限の知識を有し、その知慧は理解し得べきものなる事。<br/><br/> 七、言説徹底し、その威力は最兇悪なる敵をも打伏し能（あた）うものたる事。<br/><br/> 八、悲哀と厄難は彼を悩すに足らず、その勇気と決断は神明のごとく、しかも日を逐（お）い堅実と熱烈を加うる事。<br/><br/> 九、世界共通の文明建設者にして、各宗教の統一者であり、世界平和の確定者であり、且（かつ）世界人類の 最も崇高卓絶せる道徳の体験者たるべき事。<br/><br/> 汝右の条件を具備せる者を見出せば、その時こそ世は彼に指導を受け、光明を被（こうむ）る事を得る。<br/><br/> これに対し私は次のごとく補足しました。<br/><br/>八項目次のごとし。<br/><br/> 救世主八大資格 一、世界万民の病を治すべき万人の医療者を作る。<br/><br/> 二、貧の根絶に地下に埋蔵せる黄金を無限に発掘して人類に頒（わか）ち与う。<br/><br/> 三、森羅万象を意のごとくなす絶対力を有し、その予言は必ず実現すべき事。<br/><br/> 四、その経綸は悉（ことごと）く前人の跡を踏まず、総て新機軸によって進展す。<br/><br/> 五、政治経済宗教芸術等、人世百般の事象に精通し、いかなる問題に会うも快刀乱麻を断つがごとく立ち所に解決す。<br/><br/> 六、太陽のごとく身体より霊光を放つ。<br/><br/> 七、最高の神格を有するが故に万神を従わしめ魔神を服せしむ。<br/><br/> 八、天賦の力徳は一切衆生を無為にして化せしむ。<br/><br/> 基 督 教 イエス、世界人類の為に罪を贖（あがな）い救う為に生れて来たのである。<br/><br/>イエスはユダヤ民族でイスラエルの民である。<br/><br/>その時代ユダヤ教という教あり、その予言に最後の世にメシヤが現われる。<br/><br/>メシヤは救世主のことであり、キリストである。<br/><br/>メシヤとはヘブライ語で救世主という事になる。<br/><br/> 素盞嗚尊（すさのをのみこと）――照――イエス 月 神 ――暗――マッソン（フリーメーソン） 贖 罪 主 イエスをキリストでないと言う事を見破った者ありて、あれは偽のキリストであると皇帝に告げた。<br/><br/>その者を生かして置いたら非常なる間違いになると言う見地からイエスを磔刑にしたのである。<br/><br/>イエスは素盞嗚尊が以前罪を犯した為、黄泉国へやられた。<br/><br/>その罪を赦して戴くために大きな功をたてなければならん、その贖罪をなされたのである。<br/><br/> それ故イエスは贖罪主である。<br/><br/>人類の罪の代表者なのである。<br/><br/>人類のお詫びの代行者なのである。<br/><br/> 救 世 主 キリストは人類の諸々の罪の赦し主である。<br/><br/>救世主は罪を赦しに現われるのである。<br/><br/> 霊体密着して人となる。<br/><br/>離れると八となる。<br/><br/> 神明統一者である。<br/><br/>キリストのキは天地を貫く貴い字で、神の霊返しはキである。<br/><br/>キリストが雲より降ると言う事があるが、人間が雲に乗ることは絶対に出来ない。<br/><br/>人間が雲の上に止っていられん事に出来ているのである。<br/><br/>これが出来たら天地の律法に反することになる。<br/><br/> イエスとはイスラエルの事にして、エは天地を貫かぬ。<br/><br/>エは枝の働き、又江は水の枝、スは一人で統（すべ）るとなる。<br/><br/>素盞嗚尊の分身・分霊の事となる。<br/><br/>雲から降ると言う事は何か。<br/><br/>日月を隠すものは雲である。<br/><br/>神を隠すものとなるのである。<br/><br/>神を隠すものは雲の働きである。<br/><br/> これは科学文明の事である。<br/><br/>神を隠すものは現代科学文明である。<br/><br/>今の文明はいかに神を隠そうかと一生懸命である。<br/><br/>神を隠そうと今の学者が総ての神とか霊とかを無視してこの事を発表すると、皆インチキであると決定して終う。<br/><br/> しかも今の世の神とか霊とか言う連中が多くインチキばかりやっているのが多い為で、本物こそ良い面の皮である。<br/><br/>これが為本物は非常に迷惑であるが、これを区別することを致さない警察は実に情ない。<br/><br/>科学がいかに神を隠すことに一生懸命であるか、それが雲の働きである。<br/><br/> 現代文明は科学の文明である。<br/><br/>現代においては現われると言う事が雲から現われるという事である。<br/><br/>則ち天から降ると言う事になるのである。<br/><br/> 神霊文明――科学文明 神霊文明が天で、科学文明が地であるから、神霊文明から科学文明へ降るのである。<br/><br/> キリストの再臨 二千年の後黄金の国にキリストが再臨すると予言してあります。<br/><br/>黄金の国とは日本の事である。<br/><br/>人の顔を見れば日本人は黄金色をしているのである。<br/><br/>支那人は青金の色であり、日本の地下には金が沢山ある。<br/><br/>その霊気により黄色となるのである。<br/><br/> キリストとイエスと一度に再臨するとある。<br/><br/>キリストはイエスの父なのである。<br/><br/>イエスでは世界統一は出来ん。<br/><br/>二千年前ですら出来なかったのである。<br/><br/>国常立尊が一度世界を統一した事がある。<br/><br/> 今イエスが現われて罪を贖（あがな）ったところで赦すことが出来んから、何程出ても無駄である。<br/><br/>観音会のことを世界で知ったら驚く事である。<br/><br/>今度は本当に金剛力を持った神様が出て今までの世を救うのである。<br/><br/>しかも罪を赦す権力を持って出られるのである。<br/><br/> 物が上で心が下であるから違う。<br/><br/> 神様が仏に化して外国へ行ったから仏になったのだ。<br/><br/> 物は外郭であり心が中心である。<br/><br/> 神様が外国へ行って仏になったのだから、日本へ帰れば神様であらねばならない。<br/><br/>神仏を逆にすれば仏神であるから、逆（釈迦）の教である。<br/><br/> 外は空（から）で中が魂であるから、人の事を「カラ魂」と云うのは肉体と魂を言うことなのである。<br/><br/>空っぽへ霊が止るから霊止（たまし）というのである。<br/><br/>霊体がくっ付いていなければいけない。<br/><br/>離れては開く事になる。<br/><br/>八の字である。<br/><br/>霊は左にして体は右である。<br/><br/> 今までは仏神であったが三段となり、仏神に伊都能売が加わって仏、神、伊となったのである。<br/><br/>この三段が区別があって無く、又無くてあるのが今後の事である。<br/><br/> 中心が天皇その上が伊都能売大神その外が神で仏は滅するのである。<br/><br/> この図を縦に見れば左図のごとくである。<br/><br/> 又節をとれば下図のごとくなる。<br/><br/> この時を以って大光明世界となる。<br/><br/> 又斜に見れば、 大東京が十五区から三十五区になったのである。<br/><br/> 海を埋めて丸くなるのであるがこれは今後の事である。<br/><br/> 市役所が月島に移転する等の問題もこの為の御経綸である。<br/><br/> 霊 体 ｜ イヅノメ、霊界は霊が上で体が下である。<br/><br/> 五十三 体 霊 ｜ 現界は物質界であるから体の方が上である。<br/><br/> 三十五 東京が三十五区になったのも、大震災からであるから、震災は神様の御経綸であったことがわかる。<br/><br/> これを天地に貫けば神となる。<br/><br/> これは経緯の経綸を示す事で、これが永遠に続いて行くのである。<br/><br/> 佛 弓は弓張月とて月の事であるから、仏教は月の教である事が判る。<br/><br/>その弓を縦に二本の棒で貫いている。<br/><br/> このごとく弓の月をアミダとシャカの二本の棒で貫いている。<br/><br/>それが人である事を示し、神でない事を知らしている。<br/><br/> イは人（人偏）である。<br/><br/> 地 十一（統一） カミ 大地 ナリ （成る）＝完成する 土 十 一 也 統一が成る事になれば、今までは土でなく泥であったから固らずにいたのである。<br/><br/>その為地震があったり、何かしたのである。<br/><br/>今後において完成する時初めて地となるのである。<br/><br/>地となれば地震や色々の災難も無く地上天国となる。<br/><br/> 神と仏の字 仏はブツであり物質文明時代を表わす。<br/><br/> 神の文字は示偏に申と書いてあるが、申と云う字は干支の申（さる）ではない、田の字の真中の経の棒が上と下へ抜け出ている。<br/><br/>そして田の字とは○に十から起った。<br/><br/>○に十とは、○は地球であり大地の事である。<br/><br/>十の字は経と緯の棒の結んだ形で、経は火で緯は水である。<br/><br/>火と水はカとミであるからカミとなる。<br/><br/> 大地は神が主宰し給い神の世界である。<br/><br/>神は無始無終であるから上下の棒が貫いて無始無終を表わす。<br/><br/> 右の意味を人類に示さなくてはならぬ。<br/><br/>人々に示す意味なのである。<br/><br/> 観世音の本体 和光同塵（光をやわらげ、ちりにまじわる） 観音様は人類救済の為にいかなる極悪な者も、獣や虫類に至るまでお救いを垂れられる為、馬頭観音のごとく、お姿を変えられて地獄の者までもお救いになられる。<br/><br/> 最高最貴の神様がこんなにしてまでも一切衆生を救われる。<br/><br/>およそ人間は神様のお子である為、この苦の娑婆にあえぐ人間達を天国的生活に入らしめんと大変な御努力を遊ばされるので恐れ多い極みであります。<br/><br/>何にも捉われず三十三相に化身されて融通無碍（ゆうずうむげ）、円転滑脱（えんてんかつだつ）、対手（あいて）に合せて喜ばれる様にされる。<br/><br/> 天台大師の観音原義のはこじつけで解らんが、世の音声を見る、そして救うと言うが、音を見るなぞとはおかしな話で、物は見る、音は聞くのである。<br/><br/>要するに事実を解く事が出来ないのである。<br/><br/> 梵語＝観世音（アバロキテシュバラー）支那の鳩摩羅什（クマラジュウ）が観世音としたのである。<br/><br/> 天照皇大御神（あまてらすすめおほみかみ）が御現れになり、天忍穂耳尊（あめのおしほみみのみこと）がお生れになった。<br/><br/>この時分に相当に人類はあったが統治は出来なかったのである。<br/><br/> 天照皇大御神――左守 国常立尊（くにとこたちのみこと） 右守 素盞嗚尊（すさのをのみこと） 国常立尊は忠義というより、実に誠忠無比の神様で力のある神様である。<br/><br/> 国常立尊が天下平定の御経綸を申付けられたが、最初は良く治ったが、余り厳格な神様故人民が窮屈になりし為、どうしてもやり切れん様になった。<br/><br/>そこを見て取ったのが盤古神王（ばんこしんわう）の子天之若彦命（あめのわかひこのみこと）である。<br/><br/>この命が国常立尊を排斥する運動を起したのである。<br/><br/>これに共鳴者が非常に多かった。<br/><br/>そして盤古神王を押立てんとしたが、盤古神王は善良でおとなしい神様で力がないから、この神を立れば楽が出来るからと、看板に盤古神王を立て、実権は天之若彦命が握り世界統治をやられたのである。<br/><br/>この為国常立尊は隠退遊ばされたのである。<br/><br/>この御隠退は東北へなされたと成っているが、世界から見ると日本であり、日本からすれば東北である。<br/><br/>日本の東北、即（すなわち）艮（うしとら）へ御隠退された為にこの神様のことを艮（うしとら）の金神（こんじん）と申上げるのである。<br/><br/>日本の艮はどこか、北海道の芦別山に御隠退になられたのである。<br/><br/>又一方幽界では閻魔大王となられたのである。<br/><br/>神様は霊分身が御自由である為、幾柱にも別れることが出来るのである。<br/><br/> そこで伊都能売神様は、一方印度にて観音になられ、一方は兄の花姫尊（このはなひめのみこと）（梅の花）となられて富士山に御鎮りになられ、又、一方は金龍となって近江の国の琵琶湖へお隠れになられたのである。<br/><br/>その故〔は〕富士山と琵琶湖を邪神に占領されたならば、日本は危険であるからである。<br/><br/>富士山はなぜ大切かと言うと、人間で言うと富士山が臍（へそ）であるからである。<br/><br/>人間の体としても臍は一番大切なところとすればその意であるからである。<br/><br/>この為兄の花姫と成られ、金龍となられてこの二ケ所を守られたのである。<br/><br/> 豊雲野尊（とよくもぬのみこと）は国常立尊の妻神様であるが、夫神様の犠牲となられ坤（ひつじさる）の方へ御隠退になられた。<br/><br/>坤の方とは鬼界ケ島の事である。<br/><br/>日本の西南に当るところである。<br/><br/>この神様が思兼尊（おもひかねのみこと）様である。<br/><br/> 又一方別れて木の花咲耶姫命（このはなさくやひめのみこと）になられて印度に行かれて釈迦となられたのである。<br/><br/>木の花咲耶姫命の木の花は桜の花の事である。<br/><br/> 天之若彦命が世界統治をされて一時は楽になったと喜んでいた所、天之若彦命は女狂い等始めた為又非常に乱れて終った。<br/><br/> 天之若彦命の奥方の若姫岐美命（わかひめぎみのみこと）は非常に貞節な方であったが、いつの間にか素盞嗚尊と恋愛関係を結ばれた。<br/><br/>素盞嗚尊はその時朝鮮に居られたので、烏となって行って逢われたのである。<br/><br/>於加良洲明神（おからすみょうじん）と言うのはこの神様を祭られたのである。<br/><br/>その後に春日明神となられたのである。<br/><br/> 音姫尊は素盞嗚尊の奥方であるが、これが乙姫の事である。<br/><br/>天照大神様の妹の為弟姫と言うたのを音姫又は乙姫と申されたのである。<br/><br/>この神様は観音様と非常に関係のある神様である。<br/><br/> 音姫は非常に嫉妬深い神様で、遂に嫉妬の余り龍神となり海の底へ隠れられ、和田津海（わたつみ）の神、大（おほ）和田津海の神、海原姫命（うなばらひめのみこと）とも言うて海底へ龍宮城を造られたのであるが、これは霊界での事であって、海の王様となられたのである。<br/><br/> 音姫は非常に欲が深く、又非常に強かったから、世界の宝を集めて海に隠れたのである。<br/><br/>宝と言っても霊的の事である。<br/><br/>その為地方にある鉱山が出なかったのである。<br/><br/>その宝を以って天下の権を掌握しようとかゝったが、女であるから駄目であった。<br/><br/>致し方なくその時の支配者を緩けたのである。<br/><br/> 神界の支配者 盤古神王 大自在天 この神が金が必要の為龍宮の乙姫の宝を要する為に、乙姫から貰って来たのである。<br/><br/>この何千年来乙姫が実権者であったのである。<br/><br/>上記のごとく音姫の世を観ているというのが観世音であった。<br/><br/>時期は約三千年で九千年六千年三千年となっている。<br/><br/> 三 二 一 みる 世を 音姫の 観ﾚ 世ﾚ 音 国常立尊が天照大神から命ぜられた時が九千年前である。<br/><br/>音とは日即ち統一の形である。<br/><br/>要するに立即ち龍が世界を統一するという字であるから、音姫が天下を統一している事になるのである。<br/><br/>龍が天下を統一した時は暗となるのである。<br/><br/>又闇である。<br/><br/>ヤミの字には必ず音の字が付いているのを見てもよくわかる。<br/><br/>字は皆意味があって出来ているのである。<br/><br/> 乙姫の統一した間を「暗の世」と言う。<br/><br/>乙姫ともかくのであって、この乙姫の姿は黒龍である。<br/><br/>黒龍は悪龍である。<br/><br/>私は越智隆蔵氏方の龍神の池に黒龍の泳ぎいるのを見たことがあったが、 越―乙 智―血―霊 隆―龍 蔵―オサム カクレル カクス 越智隆蔵とは乙姫の型である。<br/><br/>乙の字が既に龍の形なのである。<br/><br/> 乙姫の血即ち霊を持った龍を隠しているとか隠れているとか、治めている、右の様な意味にて正しく乙姫なのである。<br/><br/>越智方に龍神のお祭りの時三、四尺の池を掘り龍神を祭った時池一杯に五分間位黒龍が泳いでいたので良く解った。<br/><br/> 暗黒無明の世であると言う事は音姫（乙姫）の世であるという事である。<br/><br/>観世音とは乙姫が世を支配している間の御名であるから、今後余り長い間使用する様なことはない。<br/><br/>乙姫が神様に世を譲れば観世音とは言われなくなるのである。<br/><br/>この意味においても遠からず観音会も会名の変る時が来ることが悟られるのである。<br/><br/>又一名観自在天とも言い、印度では要するに観自在天なのである。<br/><br/> 印度は『大自在天』が最高の神であるから、この自在天の世を観ているという意味になるのである。<br/><br/>日本では観世音である。<br/><br/>これは前述の音姫の世を見ているのである。<br/><br/> 龍 神止 暗 黒 立 正 安 国 日蓮上人に邪神が懸ってこの立正安国論を説いたのである。<br/><br/>この邪神も龍神である事は立正の立で解るのである。<br/><br/>立正安国論もあの当時であったから良かったのであるが、今日では駄目である。<br/><br/>この意味は「龍が神を止め暗黒の世とする」というのである。<br/><br/> 観音様は円満具足という事になる。<br/><br/>丸くて完全であるという事である。<br/><br/>真丸という事である。<br/><br/> ［イラスト省略］ 真丸はダイヤモンドをよく見ると解る。<br/><br/>ダイヤは八角であるからその八角を取って行くと真丸になるのである。<br/><br/> ハッパ六十四角である。<br/><br/>六十四角が真丸になるのである。<br/><br/> 又三十三相というのが実は三十二相である。<br/><br/>この三十二相は化身で、本体の聖観音を加えて三十三相というのである。<br/><br/> 聖観音は決して化けないのである。<br/><br/>六十四州と言うのが、この意味に相通じているところがある。<br/><br/>麻邇（まに）の玉―如意宝珠（にょいほうしゅ）とも言う。<br/><br/>神霊（みたま）というのを神という。<br/><br/>神というのは真丸な円満具足なる事である。<br/><br/> 玉の横の丶を上に掲げると主になる。<br/><br/>玉の字は非常に貴い字である。<br/><br/>伊都能売とは円満滑脱である。<br/><br/>玉はくるくる自由自在にどちらへでも転んで行く。<br/><br/>神様に角があっては善良な神様とは言えぬ。<br/><br/>丸くならねばならん。<br/><br/>丸いから転るのである。<br/><br/>自由無碍に転るのである。<br/><br/> 法輪を転ずるとは観音様の事である。<br/><br/>滑稽洒脱（しゃだつ）である。<br/><br/>大いに笑わせるのである。<br/><br/>観音行に近い人程丸いのである。<br/><br/>どんな人にも合わして行かねばならんのである。<br/><br/>怒るのは真丸ではない。<br/><br/>人に突掛るのは角である。<br/><br/>観音行はこの角が取れなければ丸くなる事は出来ない。<br/><br/>又湿っぽくては駄目である。<br/><br/>笑冠句（わらいかんく）を奨励するのはこの意味からである。<br/><br/>笑ったり笑わしたりすれば、自然に天国状態となり、円満になれるのである。<br/><br/>世界の平和とは争がなくなる事である。<br/><br/> （昭和十年八月五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>meisin03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信邪教 『信仰雑話』P.28、昭和23(1948)年9月5日発行 今日新聞雑誌ラジオ等、盛んに迷信邪教にだまされるなという事を警告しているが、なる程、迷信邪教は昔から絶えず輩出しているばかりか、今日は最も甚だしいようである。<br><br>しかし、全部が全部迷信邪教とはいわれまい。<br><br>その中の幾分かは今日立派な宗教として残っているからである。<br><br>実をいえば、今日世界最大の宗教として隆盛をうたわれている彼のキリスト教にしてもそうである。<br><br>その立教者であるイエス・キリストが、生存中は迷信邪教として遇され、遂にあれ程の刑罰をうける事になったのを見ても肯けるのである。<br><br>茨の冠を被せられ、刑場へ曳かれてゆくその傷ましきお姿に対し、それを阻止すべき一人の義人も表れなかったという事実にみても、いかに時人から迷信邪教視せられていたかが察知せらるるのである。<br><br> わが国においても、遠きは法然・親鸞の遠島を始め、彼の日蓮が法華経を弘通するにあたって、その法難のいかに過酷であったかという事や、近きは天理教開祖の中山ミキ子刀自の二十数回の留置所入り、数回の入獄等の例にみても明らかである。<br><br>ただ釈尊のみは全然迫害を蒙らなかった事は、その出身が皇太子であったという理由による為であろう。<br><br> 私としても今日新しく発生した種々の信仰を観る時、その余りに低劣なるに、顰蹙せざるを得ない事がある。<br><br>もし私が当局としても、厳重なる取り締まりをせざるを得ないと思う程で、社会に迷惑をかけ人騒がせをさせる神憑り的信仰や、到底見るに堪えない多数の信徒が踊り狂う狂態や、突飛な予言をし、世人に恐怖心を与えたり、騒音によって近隣を悩ます等の信仰も、本当のものとは思えない。<br><br>また中には、金儲けの目的をもってする宗教企業もあるが、これらのすべては時の推移と共に、いつかは没落し消滅するものである。<br><br> 広い世間には恐ろしい信仰がある。<br><br>それは一種の脅迫信仰である。<br><br>例えば何年何月何日には大変事があるから、助かりたい人は何々教に入らなければ危ないと言い、そうかと思うと、一旦入信した者が脱退しようとする場合、その先生が恐ろしい事を言う。<br><br>「あなたがこの信仰を離れたら最後、必ず死ぬ」とか、または「一家死に絶える」というような脅しを言って脱退を止めようとするが、これらはいずれも正しいやり方ではない、一種の脅迫であって、恐ろしいから信仰を続けるという事は甚だ間違っている。<br><br>もともと神仏は愛であり慈悲である以上、脅迫などある筈はないのである。<br><br> 有難い神仏であるから、入信したいというのが本当の信仰である。<br><br>またこういう事も警戒しなければならない。<br><br>それは執拗に信仰を勧め、何度断わっても来ては勧め、または長時間にわたって種々の行事を行ない、ために家業に影響を及ぼす事等である。<br><br>こういう信仰なども本当のものではないと私は思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Discernindo a Verdadeira Fé</h2>
 <p>Atualmente, jornais, revistas e o rádio alertam veementemente para que as pessoas não se deixem enganar por superstições e falsas doutrinas. De fato, tais crenças não apenas surgem incessantemente desde a antiguidade, como parecem proliferar com especial intensidade nos dias de hoje. Contudo, não se pode afirmar que todas sejam indistintamente supersticiosas ou heréticas. Afinal, uma parcela delas sobreviveu ao tempo e se consolidou como religiões respeitáveis.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Pessoalmente, ao observar as diversas crenças que surgem em nossos dias, não posso deixar de sentir repulsa diante da inferioridade de muitas delas. Chego a pensar que, se eu estivesse em uma posição de autoridade, sentir-me-ia compelido a reprimi-las com rigor. Crenças de natureza mediúnica que causam transtornos sociais e perturbam as pessoas, o espetáculo degradante de multidões de fiéis em transes de dança frenética, a disseminação de profecias estapafúrdias que instilam o pânico na população ou aquelas que atormentam a vizinhança com ruídos excessivos, certamente não me parecem genuínas. Ademais, existem empreendimentos religiosos cujo único propósito é o estelionato. Todas essas manifestações, porém, estão fadadas a declinar e desaparecer com o passar do tempo.</p>
 <p>Existem no mundo certas crenças verdadeiramente assustadoras, que podem ser classificadas como uma espécie de fé coercitiva. Elas operam, por exemplo, anunciando que uma grande calamidade ocorrerá em determinada data e que, para se salvarem, as pessoas precisam ingressar em sua doutrina. Outra tática se manifesta quando um fiel tenta se desvincular. O líder profere ameaças terríveis, como: “Se você abandonar esta fé, certamente morrerá” ou “Sua família inteira perecerá”, numa tentativa de impedir sua saída. Tais métodos são fundamentalmente equivocados. Constituem uma forma de coação, e a ideia de permanecer em uma fé por medo é um erro gravíssimo. Afinal, sendo Deus e os budas a manifestação do Amor e da Misericórdia, a coação é um elemento que lhes é totalmente estranho.</p>
 <p>A verdadeira fé nasce do desejo de se filiar a uma doutrina por reconhecer a grandiosidade e a benevolência de Deus e dos budas. É preciso, ainda, precaver-se contra outras práticas, como a insistência obstinada na conversão, em que missionários retornam inúmeras vezes apesar das recusas, ou a exigência de participação em cerimônias prolongadas que acabam por prejudicar as ocupações e o sustento familiar. Em minha concepção, crenças com tais características também não podem ser consideradas verdadeiras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信邪教 『信仰雑話』P.28、昭和23(1948)年9月5日発行 今日新聞雑誌ラジオ等、盛んに迷信邪教にだまされるなという事を警告しているが、なる程、迷信邪教は昔から絶えず輩出しているばかりか、今日は最も甚だしいようである。<br/><br/>しかし、全部が全部迷信邪教とはいわれまい。<br/><br/>その中の幾分かは今日立派な宗教として残っているからである。<br/><br/>実をいえば、今日世界最大の宗教として隆盛をうたわれている彼のキリスト教にしてもそうである。<br/><br/>その立教者であるイエス・キリストが、生存中は迷信邪教として遇され、遂にあれ程の刑罰をうける事になったのを見ても肯けるのである。<br/><br/>茨の冠を被せられ、刑場へ曳かれてゆくその傷ましきお姿に対し、それを阻止すべき一人の義人も表れなかったという事実にみても、いかに時人から迷信邪教視せられていたかが察知せらるるのである。<br/><br/> わが国においても、遠きは法然・親鸞の遠島を始め、彼の日蓮が法華経を弘通するにあたって、その法難のいかに過酷であったかという事や、近きは天理教開祖の中山ミキ子刀自の二十数回の留置所入り、数回の入獄等の例にみても明らかである。<br/><br/>ただ釈尊のみは全然迫害を蒙らなかった事は、その出身が皇太子であったという理由による為であろう。<br/><br/> 私としても今日新しく発生した種々の信仰を観る時、その余りに低劣なるに、顰蹙せざるを得ない事がある。<br/><br/>もし私が当局としても、厳重なる取り締まりをせざるを得ないと思う程で、社会に迷惑をかけ人騒がせをさせる神憑り的信仰や、到底見るに堪えない多数の信徒が踊り狂う狂態や、突飛な予言をし、世人に恐怖心を与えたり、騒音によって近隣を悩ます等の信仰も、本当のものとは思えない。<br/><br/>また中には、金儲けの目的をもってする宗教企業もあるが、これらのすべては時の推移と共に、いつかは没落し消滅するものである。<br/><br/> 広い世間には恐ろしい信仰がある。<br/><br/>それは一種の脅迫信仰である。<br/><br/>例えば何年何月何日には大変事があるから、助かりたい人は何々教に入らなければ危ないと言い、そうかと思うと、一旦入信した者が脱退しようとする場合、その先生が恐ろしい事を言う。<br/><br/>「あなたがこの信仰を離れたら最後、必ず死ぬ」とか、または「一家死に絶える」というような脅しを言って脱退を止めようとするが、これらはいずれも正しいやり方ではない、一種の脅迫であって、恐ろしいから信仰を続けるという事は甚だ間違っている。<br/><br/>もともと神仏は愛であり慈悲である以上、脅迫などある筈はないのである。<br/><br/> 有難い神仏であるから、入信したいというのが本当の信仰である。<br/><br/>またこういう事も警戒しなければならない。<br/><br/>それは執拗に信仰を勧め、何度断わっても来ては勧め、または長時間にわたって種々の行事を行ない、ために家業に影響を及ぼす事等である。<br/><br/>こういう信仰なども本当のものではないと私は思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

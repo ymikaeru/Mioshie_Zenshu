@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinko05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰の合理性と再浄化 『栄光』210号、昭和28(1953)年5月27日発行 そもそも信仰の根本は、合理の二字にある事を忘れてはならない。<br><br>いかに信仰上もっともらしい説を立てても、道理に合わないとしたら真の信仰とはいえないのである。<br><br>この意味において神様というものは、理屈に合えば何程でも御守護があるが、理屈に合わなければいかに拝むとても、御守護はないのである。<br><br>この点が最も肝腎であって、再浄化の意味もこれに外ならないのである。<br><br> 散々医療を始めあらゆる療法を受けても治らない結核患者などが、浄霊によってたちまち治ったので喜んで入信することとなる。<br><br>そして暫くしてから再浄化が起る人がよくあるが、これはどういう訳かというと、もちろん理屈に合っていないからである。<br><br>すなわち医者から見放された病気が、神様の御蔭で治ったとしたら、神様から無い命を頂いた訳であるから、何程感謝してもし切れない程であるにかかわらず、中にはその当時の感激もいつか忘れて、最早治った以上それで済んだと思ってしまう。<br><br>そうなると信仰前と同じでないまでも、感心出来ない生活態度となってしまうが、それで何事もなければ万々歳だが、どっこいそうはゆかない。<br><br>というのは長い間散々薬毒を注ぎ込まれているため、健康恢復に伴い、溜りに溜っていた薬毒の排除作用が起る。<br><br>これが再浄化である。<br><br>しかしいつもいう通り右は体的面だけの事だが、実は霊的面の方に体的以上重要な問題があるのである。<br><br>しかしこの事については今まで少しも知らしていなかったが、最早それが許されない時となったので、その根本をかくのである。<br><br> ではなぜ今まで知らせなかったかというと、未信者や新しい信者などには、誤解を招く懼（おそ）れがあるからで、出来るだけ言わないようにしていた。<br><br>ところが段々浄化が強くなるにつれて再浄化の人も増える事になるから、ここにハッキリさせるのである。<br><br>そもそも世の中の事は一切相応の理によって動き、道理に合うように出来ている。<br><br>特に信仰にあってはそれが顕著である。<br><br>彼（か）の釈尊のいわれた生者必滅（しょうじゃひつめつ）、会者定離（えしゃじょうり）とは、これを一言に喝破（かっぱ）したものであり、因果律（いんがりつ）とか因果応報などもその意味に外ならない。<br><br> これによっても分るごとく、死を覚悟し絶望的となった重病患者が全治したとしたら、何を措（お）いても力の限り、神様に御恩報じをするのが当然であり、これが合理であるにかかわらず、忘れるとしたら御蔭の取りっ放しであり、恩知らずもはなはだしいのである。<br><br>この理を一層分り易くいってみると、例えば生命の価値を十とすれば、十の感謝ならプラスマイナスであるが、十以上であればその余分だけはプラスになり、神様はその何倍にも当る御恵みを下さるものである。<br><br>それと反対に感謝が五とすれば、差引五だけマイナスとなるから神様への借金となる。<br><br>そこで一日も早く御返しすればいいが、それを怠（おこた）るとすると利息が嵩（かさ）んで借金は増えてゆく。<br><br>この点現界と少しも変りはないので、これも相応の理である。<br><br>そこで借金が溜ってある程度を越えると、神権裁判所から督促（とくそく）や差押えが来る。<br><br>これが再浄化であるから、それに気が付き心からお詫びをすると共に、元利合計御払いすれば助かるのは当然である。<br><br>ところが中には飛んでもない考え違いを起す人がある。<br><br>それは信仰で治ったと思ったのはヤハリ一時的で、本当に治ったのではないとして迷い始める。<br><br>そこへ周囲の者などが、それ見た事かと言わんばかりにしきりに医療を勧めるので、ついその気になって医者へ行く事になるが、もうこうなったらお仕舞で、十人が十人悪化の一路を辿（たど）り、ついにあの世行となるのは常に経験するところである。<br><br>ではそうなる原因はどこにあるかというと、霊界においては悪魔は人間の心の隙を狙いつめており、ちょっとでも油断があるとたちまち憑依し、その人をワヤにする。<br><br>この点注意の上にも注意をしなければならないのである。<br><br> そうして感謝の誠を捧げる場合、仮に金銭にしても、多い少ないは問わない。<br><br>分相応の最大限度であればいいのである。<br><br>神様は何もかも御存知だから、無理をせずとも御許しになると共に、その上一人でも多くの人を救い信者を作ればなおさら結構であって、要は実行である。<br><br>そのようにすべてが理屈に叶（かな）えば、まず再浄化は起らないはずで、たとえ起っても軽く済み、命に関わるような事は決してないのである。<br><br>話は違うが世間多くの宗教の中には、御蔭を頂かない内から、これだけ献金すれば助かるなどといって、御礼の先取りをする事があるが、これなどは欺瞞（ぎまん）行為であるから、御利益のあろうはずはない。<br><br>全く取次先生の考えが誤っているからである。<br><br>そこへゆくと我救世教は御利益があってから分相応の感謝をすればいいので、至極合理的であるにかかわらず、それを怠（おこた）るとしたら、全く人間の方が間違っており、お気付けを頂くのは当然である。<br><br>それでも気がつかないから命まで召上げられるので、どこまでも不合理は赦（ゆる）されないのである。<br><br>今一つ肝腎な事は、神様が命を下さる御目的はその人を御神業に働かせるためであるから、それを覚って実行すれば健康は益々よくなり、幸福は何程でも恵まれるが、それを裏切るとしたらせっかくの救いを自分から拒否する訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Lógica Divina e o Processo de Re-purificação</h2>
 <p>Jamais devemos nos esquecer de que o fundamento da fé reside em um princípio essencial: a racionalidade. Por mais eloquente que uma doutrina possa parecer, se ela se desvia da lógica e do bom senso, não se pode considerá-la uma fé verdadeira. Nesse sentido, a atuação de Deus se manifesta de forma análoga: Ele concede Sua proteção ilimitada àqueles cujas ações estão em conformidade com a razão. Contudo, por mais fervorosas que sejam as preces, a proteção Divina não se estenderá àquilo que carece de lógica. Este é o ponto mais crucial, e o significado da re-purificação não foge a esta mesma regra.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Ao expressar a sinceridade da gratidão, mesmo que seja por meio de um donativo monetário, a quantia em si não é o mais importante. O que vale é que a oferta represente o máximo que a pessoa pode fazer de acordo com suas condições. Deus, que a tudo conhece, não exige sacrifícios impossíveis e aceita a sinceridade do coração. Mais valioso ainda é quando, além disso, a pessoa se dedica a salvar o maior número possível de pessoas, guiando-as à fé. Em suma, o essencial é a prática. Quando todas as atitudes de uma pessoa estão em harmonia com a razão, a re-purificação raramente ocorre. E, mesmo que venha a ocorrer, será um processo leve, que jamais colocará a vida em risco.</p>
 <p>Mudando um pouco de assunto, observemos que muitas religiões no mundo cometem o equívoco de exigir donativos como condição para se obter uma graça, numa espécie de cobrança antecipada. Tal prática constitui um ato de estelionato espiritual e, por isso, não pode gerar qualquer benefício verdadeiro. O erro reside no pensamento equivocado dos próprios orientadores. Nossa Igreja, ao contrário, segue um caminho sumamente racional: primeiro, a pessoa recebe a graça Divina; somente depois, ela expressa sua gratidão de acordo com suas posses. Se, mesmo diante de um sistema tão justo, a pessoa negligencia seu dever de gratidão, o erro está inteiramente do lado humano, sendo natural que receba uma advertência Divina. Se ainda assim ela não despertar, sua vida poderá ser recolhida, pois a irracionalidade, em última instância, jamais é perdoada.</p>
 <p>Há um último ponto fundamental a ser compreendido: o propósito pelo qual Deus concede a uma pessoa o dom da vida é para que ela possa se dedicar à Obra Divina. Aquele que compreende essa missão e a coloca em prática verá sua saúde se fortalecer e receberá felicidade sem medida. Trair esse propósito, por outro lado, significa rejeitar, por vontade própria, a salvação que lhe foi oferecida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰の合理性と再浄化 『栄光』210号、昭和28(1953)年5月27日発行 そもそも信仰の根本は、合理の二字にある事を忘れてはならない。<br/><br/>いかに信仰上もっともらしい説を立てても、道理に合わないとしたら真の信仰とはいえないのである。<br/><br/>この意味において神様というものは、理屈に合えば何程でも御守護があるが、理屈に合わなければいかに拝むとても、御守護はないのである。<br/><br/>この点が最も肝腎であって、再浄化の意味もこれに外ならないのである。<br/><br/> 散々医療を始めあらゆる療法を受けても治らない結核患者などが、浄霊によってたちまち治ったので喜んで入信することとなる。<br/><br/>そして暫くしてから再浄化が起る人がよくあるが、これはどういう訳かというと、もちろん理屈に合っていないからである。<br/><br/>すなわち医者から見放された病気が、神様の御蔭で治ったとしたら、神様から無い命を頂いた訳であるから、何程感謝してもし切れない程であるにかかわらず、中にはその当時の感激もいつか忘れて、最早治った以上それで済んだと思ってしまう。<br/><br/>そうなると信仰前と同じでないまでも、感心出来ない生活態度となってしまうが、それで何事もなければ万々歳だが、どっこいそうはゆかない。<br/><br/>というのは長い間散々薬毒を注ぎ込まれているため、健康恢復に伴い、溜りに溜っていた薬毒の排除作用が起る。<br/><br/>これが再浄化である。<br/><br/>しかしいつもいう通り右は体的面だけの事だが、実は霊的面の方に体的以上重要な問題があるのである。<br/><br/>しかしこの事については今まで少しも知らしていなかったが、最早それが許されない時となったので、その根本をかくのである。<br/><br/> ではなぜ今まで知らせなかったかというと、未信者や新しい信者などには、誤解を招く懼（おそ）れがあるからで、出来るだけ言わないようにしていた。<br/><br/>ところが段々浄化が強くなるにつれて再浄化の人も増える事になるから、ここにハッキリさせるのである。<br/><br/>そもそも世の中の事は一切相応の理によって動き、道理に合うように出来ている。<br/><br/>特に信仰にあってはそれが顕著である。<br/><br/>彼（か）の釈尊のいわれた生者必滅（しょうじゃひつめつ）、会者定離（えしゃじょうり）とは、これを一言に喝破（かっぱ）したものであり、因果律（いんがりつ）とか因果応報などもその意味に外ならない。<br/><br/> これによっても分るごとく、死を覚悟し絶望的となった重病患者が全治したとしたら、何を措（お）いても力の限り、神様に御恩報じをするのが当然であり、これが合理であるにかかわらず、忘れるとしたら御蔭の取りっ放しであり、恩知らずもはなはだしいのである。<br/><br/>この理を一層分り易くいってみると、例えば生命の価値を十とすれば、十の感謝ならプラスマイナスであるが、十以上であればその余分だけはプラスになり、神様はその何倍にも当る御恵みを下さるものである。<br/><br/>それと反対に感謝が五とすれば、差引五だけマイナスとなるから神様への借金となる。<br/><br/>そこで一日も早く御返しすればいいが、それを怠（おこた）るとすると利息が嵩（かさ）んで借金は増えてゆく。<br/><br/>この点現界と少しも変りはないので、これも相応の理である。<br/><br/>そこで借金が溜ってある程度を越えると、神権裁判所から督促（とくそく）や差押えが来る。<br/><br/>これが再浄化であるから、それに気が付き心からお詫びをすると共に、元利合計御払いすれば助かるのは当然である。<br/><br/>ところが中には飛んでもない考え違いを起す人がある。<br/><br/>それは信仰で治ったと思ったのはヤハリ一時的で、本当に治ったのではないとして迷い始める。<br/><br/>そこへ周囲の者などが、それ見た事かと言わんばかりにしきりに医療を勧めるので、ついその気になって医者へ行く事になるが、もうこうなったらお仕舞で、十人が十人悪化の一路を辿（たど）り、ついにあの世行となるのは常に経験するところである。<br/><br/>ではそうなる原因はどこにあるかというと、霊界においては悪魔は人間の心の隙を狙いつめており、ちょっとでも油断があるとたちまち憑依し、その人をワヤにする。<br/><br/>この点注意の上にも注意をしなければならないのである。<br/><br/> そうして感謝の誠を捧げる場合、仮に金銭にしても、多い少ないは問わない。<br/><br/>分相応の最大限度であればいいのである。<br/><br/>神様は何もかも御存知だから、無理をせずとも御許しになると共に、その上一人でも多くの人を救い信者を作ればなおさら結構であって、要は実行である。<br/><br/>そのようにすべてが理屈に叶（かな）えば、まず再浄化は起らないはずで、たとえ起っても軽く済み、命に関わるような事は決してないのである。<br/><br/>話は違うが世間多くの宗教の中には、御蔭を頂かない内から、これだけ献金すれば助かるなどといって、御礼の先取りをする事があるが、これなどは欺瞞（ぎまん）行為であるから、御利益のあろうはずはない。<br/><br/>全く取次先生の考えが誤っているからである。<br/><br/>そこへゆくと我救世教は御利益があってから分相応の感謝をすればいいので、至極合理的であるにかかわらず、それを怠（おこた）るとしたら、全く人間の方が間違っており、お気付けを頂くのは当然である。<br/><br/>それでも気がつかないから命まで召上げられるので、どこまでも不合理は赦（ゆる）されないのである。<br/><br/>今一つ肝腎な事は、神様が命を下さる御目的はその人を御神業に働かせるためであるから、それを覚って実行すれば健康は益々よくなり、幸福は何程でも恵まれるが、それを裏切るとしたらせっかくの救いを自分から拒否する訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

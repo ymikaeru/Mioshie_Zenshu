@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gan</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 癌 『アメリカを救う』P.21、昭和28(1953)年1月1日発行 この病気は肉食病といってもいいくらいのもので、これを根本的に説明してみると、最初造物主は人間を造った時、その食物としては穀類、野菜、獣鳥肉、魚肉等それぞれ人体に適合した物を造られ、それを食う事によって、健康で生を営み得るようにされたのである。<br><br>もちろん住んでいる風土、気候や、人種別にも適応するようになっているのはもちろんで、それが自然である。<br><br>従って米国における大いなる沃野（よくや）と、そこに生産する穀類、野菜、獣鳥肉等が豊富であるのも植物性と動物性食物を適当に食えという訳である。<br><br>また日本は陸地が狭く、海に取り巻かれているのは、魚肉を多く食えというのである。<br><br> ところがそのような自然の実体を、科学という魔法使が打ち壊してしまい、人体を単なる物質扱いにした結果形而下（けいじか）的には進歩発達はしたが、形而上（けいじじょう）の存在である人間の生命までも形而下に引き下し、栄養学などという飛んでもない学問を作り、皮相なる分析上から獣肉を推奨したのであるから、今日のごとく肉食過多に陥ったのである。<br><br>ところが元来獣肉には一種の毒素が含まれており、この毒素が漸次集積し固結したものが真症癌であるから、自然はこの肉毒中和の必要からも野菜があるので、穀類は別とし副食物としては相当量野菜を交ぜなくてはならないのである。<br><br>そうすれば決して癌は発生しない。<br><br>としたら米国などは肉と野菜と半々くらいがちょうどいい訳である。<br><br>何よりも菜食多量の民族には癌はないはずである。<br><br>近来日本においても癌はあるにはあるが、米国とは比較にならない程少数であるのは、全く日本は生活が低く、肉食が少ないからである。<br><br> 次に注意したい事は、単に癌といっても真症と擬似との別がある。<br><br>すなわち右にかいたのは真症であるが、実は擬似の方がズッと多く、この点日本も米国も大差ないであろう。<br><br>この擬似癌の原因は、無論悪性な薬毒の一種であるから、薬を廃止する事によって無くなるのはもちろん、罹病の場合薬を廃（や）め菜食を多くすれば長くは掛かるが少しずつ治ってゆくから、左程心配はない訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa do Câncer</h2>
 <p>Essa doença poderia muito bem ser denominada "a enfermidade dos que se alimentam de carne". Para elucidar suas causas fundamentais, é preciso remontar à Criação. Quando o Criador concebeu o ser humano, proveu-lhe os alimentos adequados à sua constituição, como os cereais, as hortaliças, as carnes de animais e aves e os peixes. Ao consumi-los, o homem estaria apto a manter a saúde e a conduzir sua vida. Evidentemente, tais alimentos foram designados em conformidade com as particularidades de cada terra, clima e raça, o que constitui a ordem natural.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Contudo, essa realidade natural foi subvertida por um ilusionista chamado ciência. Ao tratar o corpo humano como mera matéria, a ciência promoveu avanços no plano físico, mas rebaixou a própria vida humana — uma existência de natureza metafísica — a essa mesma dimensão material. Foi assim que se engendrou uma disciplina descabida como a nutrição, a qual, com base em análises superficiais, passou a preconizar o consumo de carne, o que nos conduziu ao excesso dos dias atuais.</p>
 <p>Ocorre que a carne de animais contém, em sua essência, um tipo de toxina. O acúmulo e a solidificação progressiva dessa toxina é o que constitui o câncer verdadeiro. Por esse motivo, a Natureza provê as hortaliças, cuja função é neutralizar essa toxina da carne. Desse modo, com exceção dos cereais, a alimentação complementar deve incluir uma quantidade considerável de vegetais. Adotando-se essa prática, o câncer jamais se manifestará. Para os Estados Unidos, por exemplo, a proporção ideal seria um equilíbrio de metade carne, metade vegetais. Acima de tudo, é certo que o câncer não acomete os povos cuja dieta é rica em vegetais. Recentemente, embora existam casos de câncer no Japão, seu número é incomparavelmente menor que o dos Estados Unidos, fato que se deve unicamente ao padrão de vida mais modesto dos japoneses e, por conseguinte, ao seu baixo consumo de carne.</p>
 <p>Ademais, cumpre notar que, embora se fale genericamente de câncer, existe uma distinção entre o tipo verdadeiro e o espúrio. O que descrevi até aqui refere-se ao câncer verdadeiro; na realidade, porém, o tipo espúrio é muito mais frequente, e, nesse aspecto, não deve haver grande diferença entre o Japão e os Estados Unidos. A causa desse pseudo-câncer é, sem dúvida, uma espécie de toxina medicamentosa maligna, o yakudoku (薬毒). Por conseguinte, ele naturalmente desaparece com a suspensão dos medicamentos. Mesmo que a pessoa já esteja doente, se abandonar os remédios e aumentar o consumo de vegetais, embora a recuperação possa ser demorada, a cura virá de forma gradual. Portanto, não há motivo para grande preocupação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 癌 『アメリカを救う』P.21、昭和28(1953)年1月1日発行 この病気は肉食病といってもいいくらいのもので、これを根本的に説明してみると、最初造物主は人間を造った時、その食物としては穀類、野菜、獣鳥肉、魚肉等それぞれ人体に適合した物を造られ、それを食う事によって、健康で生を営み得るようにされたのである。<br/><br/>もちろん住んでいる風土、気候や、人種別にも適応するようになっているのはもちろんで、それが自然である。<br/><br/>従って米国における大いなる沃野（よくや）と、そこに生産する穀類、野菜、獣鳥肉等が豊富であるのも植物性と動物性食物を適当に食えという訳である。<br/><br/>また日本は陸地が狭く、海に取り巻かれているのは、魚肉を多く食えというのである。<br/><br/> ところがそのような自然の実体を、科学という魔法使が打ち壊してしまい、人体を単なる物質扱いにした結果形而下（けいじか）的には進歩発達はしたが、形而上（けいじじょう）の存在である人間の生命までも形而下に引き下し、栄養学などという飛んでもない学問を作り、皮相なる分析上から獣肉を推奨したのであるから、今日のごとく肉食過多に陥ったのである。<br/><br/>ところが元来獣肉には一種の毒素が含まれており、この毒素が漸次集積し固結したものが真症癌であるから、自然はこの肉毒中和の必要からも野菜があるので、穀類は別とし副食物としては相当量野菜を交ぜなくてはならないのである。<br/><br/>そうすれば決して癌は発生しない。<br/><br/>としたら米国などは肉と野菜と半々くらいがちょうどいい訳である。<br/><br/>何よりも菜食多量の民族には癌はないはずである。<br/><br/>近来日本においても癌はあるにはあるが、米国とは比較にならない程少数であるのは、全く日本は生活が低く、肉食が少ないからである。<br/><br/> 次に注意したい事は、単に癌といっても真症と擬似との別がある。<br/><br/>すなわち右にかいたのは真症であるが、実は擬似の方がズッと多く、この点日本も米国も大差ないであろう。<br/><br/>この擬似癌の原因は、無論悪性な薬毒の一種であるから、薬を廃止する事によって無くなるのはもちろん、罹病の場合薬を廃（や）め菜食を多くすれば長くは掛かるが少しずつ治ってゆくから、左程心配はない訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

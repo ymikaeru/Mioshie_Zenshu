@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261005</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月5日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月五日 （御論文「 弥勒三会 」のあとの御教） これについて面白い話は、この間鎌倉の長谷の観音をメシヤ教で引き受けてくれないかと言う申し込みがあった。<br><br>聞いてみると、観音さんの身の丈が三丈三寸と言う大きなものです。<br><br>観音さんのお姿は小さい方が良い。<br><br>一寸八分が良いんですから、三丈三寸というのは大いに間違っている。<br><br>だから、やり切れない事になる。<br><br>そうすると、鎌倉の大仏さんより大きい事になる。<br><br>大仏さんは座ってはいるがね。<br><br> もう一つ間違っている事は石で造ってある。<br><br>この間もそう言う話があったが、どうしたら良いかと言うが、どうする事も出来ない。<br><br>室内ではいけないからね。<br><br>雨ざらしになるわけですが、外と言うのは外国と言う事になる。<br><br>観音さんは家の中でお廚子の中に入れるのが本当です。<br><br>ですから、もし金無垢で出来なければ、金箔を塗る。<br><br>そうして小さい箱に入れる。<br><br>普通は九寸が多い。<br><br>木造のね。<br><br>本当は尺八寸が良いですが、それを縮めて、半分の九寸でも良い。<br><br>方々にある御本尊は大抵九寸ですね。<br><br>つまり一寸八分と言う事は弥勒さんですからね。<br><br>観音さんは弥勒菩薩ですからね。<br><br>面白いのはビルマですが、ビルマは仏教国ですが、あそこの本尊は弥勒菩薩になってますね。<br><br>かえって、インドの方はお釈迦さんで、ビルマは弥勒さんになっているんだから面白い。<br><br> （御論文「 天国的宗教と地獄的宗教 」のあとの御教）【栄光新聞 一二七号】 今読んだ通り一番肝心な事で、つまり今までの世の中は苦しむ事を良いとしてきたんですね。<br><br>その結果人類は苦しみを楽しむと言う事になった。<br><br>色んな宗教や精神の修養場と言うものの説き方は、苦しみを楽しめと言うように説いてある。<br><br>病気で苦しみながら有難い有難いと言う宗教がありますからね。<br><br>あれは苦しみを楽しむと言うんで、大変な間違いですね。<br><br>だから世の中の一切はねじれちゃった。<br><br>素直にありのままと言う事はなくなって、おかしくひねくれちゃったんですね。<br><br>そこで皆ありのままと言う訳ですね。<br><br>だから神様と言うのは、率直に感じたまま、見たまま――それが本当の神様のみ心なんです。<br><br>それを人間が色々にひねくれて、楽しく楽に行ける世の中を、わざわざヘンテコに――苦しむようにつくっちゃった。<br><br>だから、信仰を一生懸命しながら段々貧乏になったり、病人が絶えなかったりする。<br><br>だから、いわばメシヤ教は宗教改革も一つの仕事になっているんですね。<br><br>医学の改革やら、宗教の改革、農業も改革し、色んなものを改革するんですね。<br><br>だから、それが判かりさえすれば、目が醒めたようにありがたくなるんですがね。<br><br>何しろ長い間ひねくれた文化が続いてきたんで、分からせるのに骨が折れる。<br><br>安いものを食っていた者に、たまたま美味いものを食わせると、変に思ったりする。<br><br>こう言う美味いものがあると言っても、そんなものがあるものかと言うんだから始末が悪い。<br><br> （御論文「 医学迷信 」のあとの御教）【栄光新聞 一二八号】 こういうことはどなたも始終あるでしょうからね。<br><br>しかしこれだからやり甲斐があるんですよ。<br><br>と言うのは、もしかお医者の方で片っ端から治したら、こっちに来る訳がないし、又簡単に神様の方がそういく訳がない。<br><br>こういう人達を済度して分からせると言う所に我々の仕事があるんだから、あんまり簡単に行き過ぎても、張り合いがないし、こう言うのでも厄介だし、これ程みんな分からなくなっているから、大いに救うべき必要がある訳だから、ちょっと考えても残念で我慢が出来ないのですがね。<br><br>又よく考えれば、こうあればあるほど――分からないほど救うべき必要が非常に強い訳ですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Dimensões Divinas de Kannon</h2>
 <p>A esse respeito, há uma história interessante. Recentemente, recebemos uma proposta para que a Igreja Messiânica assumisse a responsabilidade pela imagem de Kannon do Templo de Hase, em Kamakura. Ao averiguar os detalhes, descobrimos que a estátua possui uma magnitude colossal, com três <em>jō</em> e três <em>sun</em> de altura.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Certamente, todos os senhores se deparam com situações semelhantes constantemente. Contudo, é justamente nelas que reside o valor de nossa missão. Afinal, se os médicos fossem capazes de curar todas as enfermidades, ninguém nos procuraria. Ademais, não é da natureza de Deus que as coisas se resolvam com tamanha simplicidade.</p>
 <p>Nosso trabalho consiste precisamente em salvar e levar o esclarecimento a essas pessoas. Se a tarefa fosse excessivamente fácil, careceria de estímulo; por outro lado, a situação atual é, de fato, árdua. O fato de as pessoas estarem tão perdidas em meio à ignorância evidencia a imensa necessidade de salvação que existe.</p>
 <p>À primeira vista, tal panorama pode parecer frustrante e intolerável. Todavia, refletindo mais profundamente, compreendemos que, quanto maior a ignorância, mais premente e imperativa se torna a necessidade de salvar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月5日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月五日 （御論文「 弥勒三会 」のあとの御教） これについて面白い話は、この間鎌倉の長谷の観音をメシヤ教で引き受けてくれないかと言う申し込みがあった。<br/><br/>聞いてみると、観音さんの身の丈が三丈三寸と言う大きなものです。<br/><br/>観音さんのお姿は小さい方が良い。<br/><br/>一寸八分が良いんですから、三丈三寸というのは大いに間違っている。<br/><br/>だから、やり切れない事になる。<br/><br/>そうすると、鎌倉の大仏さんより大きい事になる。<br/><br/>大仏さんは座ってはいるがね。<br/><br/> もう一つ間違っている事は石で造ってある。<br/><br/>この間もそう言う話があったが、どうしたら良いかと言うが、どうする事も出来ない。<br/><br/>室内ではいけないからね。<br/><br/>雨ざらしになるわけですが、外と言うのは外国と言う事になる。<br/><br/>観音さんは家の中でお廚子の中に入れるのが本当です。<br/><br/>ですから、もし金無垢で出来なければ、金箔を塗る。<br/><br/>そうして小さい箱に入れる。<br/><br/>普通は九寸が多い。<br/><br/>木造のね。<br/><br/>本当は尺八寸が良いですが、それを縮めて、半分の九寸でも良い。<br/><br/>方々にある御本尊は大抵九寸ですね。<br/><br/>つまり一寸八分と言う事は弥勒さんですからね。<br/><br/>観音さんは弥勒菩薩ですからね。<br/><br/>面白いのはビルマですが、ビルマは仏教国ですが、あそこの本尊は弥勒菩薩になってますね。<br/><br/>かえって、インドの方はお釈迦さんで、ビルマは弥勒さんになっているんだから面白い。<br/><br/> （御論文「 天国的宗教と地獄的宗教 」のあとの御教）【栄光新聞 一二七号】 今読んだ通り一番肝心な事で、つまり今までの世の中は苦しむ事を良いとしてきたんですね。<br/><br/>その結果人類は苦しみを楽しむと言う事になった。<br/><br/>色んな宗教や精神の修養場と言うものの説き方は、苦しみを楽しめと言うように説いてある。<br/><br/>病気で苦しみながら有難い有難いと言う宗教がありますからね。<br/><br/>あれは苦しみを楽しむと言うんで、大変な間違いですね。<br/><br/>だから世の中の一切はねじれちゃった。<br/><br/>素直にありのままと言う事はなくなって、おかしくひねくれちゃったんですね。<br/><br/>そこで皆ありのままと言う訳ですね。<br/><br/>だから神様と言うのは、率直に感じたまま、見たまま――それが本当の神様のみ心なんです。<br/><br/>それを人間が色々にひねくれて、楽しく楽に行ける世の中を、わざわざヘンテコに――苦しむようにつくっちゃった。<br/><br/>だから、信仰を一生懸命しながら段々貧乏になったり、病人が絶えなかったりする。<br/><br/>だから、いわばメシヤ教は宗教改革も一つの仕事になっているんですね。<br/><br/>医学の改革やら、宗教の改革、農業も改革し、色んなものを改革するんですね。<br/><br/>だから、それが判かりさえすれば、目が醒めたようにありがたくなるんですがね。<br/><br/>何しろ長い間ひねくれた文化が続いてきたんで、分からせるのに骨が折れる。<br/><br/>安いものを食っていた者に、たまたま美味いものを食わせると、変に思ったりする。<br/><br/>こう言う美味いものがあると言っても、そんなものがあるものかと言うんだから始末が悪い。<br/><br/> （御論文「 医学迷信 」のあとの御教）【栄光新聞 一二八号】 こういうことはどなたも始終あるでしょうからね。<br/><br/>しかしこれだからやり甲斐があるんですよ。<br/><br/>と言うのは、もしかお医者の方で片っ端から治したら、こっちに来る訳がないし、又簡単に神様の方がそういく訳がない。<br/><br/>こういう人達を済度して分からせると言う所に我々の仕事があるんだから、あんまり簡単に行き過ぎても、張り合いがないし、こう言うのでも厄介だし、これ程みんな分からなくなっているから、大いに救うべき必要がある訳だから、ちょっと考えても残念で我慢が出来ないのですがね。<br/><br/>又よく考えれば、こうあればあるほど――分からないほど救うべき必要が非常に強い訳ですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

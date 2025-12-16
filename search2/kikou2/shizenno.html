@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>shizenno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然農法について 向陽生 『栄光』273号、昭和29(1954)年9月8日発行 明主様の御神示により、本教が自然農法――無肥料栽培法――を堤唱して既に数年になる。<br><br>最初はその所説がいわゆる世の常識である肥料依存の観念とへあまりにも懸絶せるの故を以て、信者である農民諸氏の間においてすらも、なかなかに、これを信奉し素直に実行する勇気のある者は、まことに蓼々たるものであったが、年を追うにつれ、その成果は明らかとなり、増収、良質、美味に加えて、病虫害や天災等の被害の殆んど言うに足らざる等の特筆すべき良結果は、次第にその実践者を増加せしめ、我が国農業界の耳目を衝動せずにはおかなかった。<br><br>加うるに、過去三回に亘り、毎年初頭には明主様の御論文と、その年度の実績を満載せる、本紙の農業特集号を発行し、殊に、本年は実に百数十万部の大部数を全国の農家を始め各方面に頒布して、その驚異的なる成績を発表し、更に、天の摂理は、あえて信者たらずとも、肥料を施す事を止め、我等の説く新作法に従いさえすれば、何人といえども所期の成果をいと容易に挙げ得る事を強調するとともに、信者未信者を問わず、本農法に関心を有する方々によって、自然農法普及会を組織し、あるいは講演会に、または展示会、座談会等を全国各地に開催して、本教の布教活動とは全然別個にその普及運動を開始したのである。<br><br> 時あたかも昨年の冷害による空前の凶作はひとり豊作を享受せる本農法の有利性を事実の上に実証せるのみならず、右の活動と相俟って本年度においては、右自然農法会員即ち自然栽培実施者の躍進的増加をみたのである。<br><br>また本紙とは別個に「自然農法普及会会報」の発刊をみるに至り、その理論に、実際の作業方法の指導体験及び実績発表等を満載して毎月一回発行され、既に第八号の刊行をみるに至ったのである。<br><br> かかる趨勢は、必然的に過去において、本農法の説くところに対し、徒らに、目を覆い耳を塞いでいた我が国農業界の指導者層はもとより、各方面においても、遂にこれを採り上げざるを得なくなり、各専門紙その他においても、本農法に関する論述等を散見するた至り、その所論の当否はともかく、我等をして大いに意を強くせしめるものがあった。<br><br> 特に我が国農業の大衆たる農林省内においてすらも本年三月、一部職員有志を出て「農林省職員有志自然農法研究会」なる団体が組織されたる趣きを仄聞（そくぶん）せる時は、我等は天の時漸く来ったかの感あり、右団体において、虚心坦懐に、あらゆる角度から本農法を調査研究されん事を期待したのであった。<br><br> しかして本年は、稲作においては、田植時機より冷温多雨、七月に亘って止まず「冷害凶作の、おそれある旨の警鐘は至る所に乱打されたるも、幸いにして八月に入りてよりは、好天と高温に恵まれ、漸く愁眉を開き一安堵した次第であったが、また一面において、病虫害の懸念甚だしく、その防除の為に、集団的に、ホリドール撒布等が施行せられたのであった。<br><br>この間にあって自然農法の苗の成育状態は各地方において、空前の好成績を収め、本農法実施者をして欣喜せしめた次第であった。<br><br>しかし一面前記の防除の為の薬剤撒布が集団的地域的に半強制的に施行せらるるが為に、無肥料無農薬を根本理念とする本農法実施者をして、これを免れしめんが為の困難は一方ならぬものがあったのである。<br><br> しかるに今回、右農林職員有志自然農法研究会会長名を以て、本会会長宛に左の如き通牒を寄せられたるは、以て本農法の本年度の実績を如実に裏書せるのみならず、また一面当局においても如何に本農法の成果を注視し、庇護の手すらをば伸ばさんとする意図ある事を物語るものであり、多年苦難の中に忍従を強いられて来た我等に大いなる喜びを齎（もたら）すものであると言わねばならない。<br><br> いつの日か医学の面においても、かかる現実の現われん事を待望し、期待し、またその実現を確信せしむるところ大なるものがある。<br><br> 通牒文 八月六日 農林省職員有志自然農法研究会 委員長 山川達雄 印 自然農法普及会会長殿 貴会において目下熱心に宣伝普及に努力している自然農法については、我が研究会においても鋭意実態の探究に努力しておりますが、我々が現在まで調査致したところによれば、驚異的な成績を挙げている事が判明致しましたが、本年度の実施者についても、自然農法の提唱する無肥料無農薬の原則を確く守らしめ、特に集団的農薬撒布の際には、自然農法の栽培方法は目下試験研究中のもので、その結果については我が研究会においても特に関心を以て注目している点を強調して当局者に諒解を求められた上、貴会の提唱通り栽培せしめられたく、その結果について調査致したきにつき収穫に到る迄の過程を詳細に御報告煩わしたく。<br><br> 右御願い申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Marco para a Agricultura Natural</h2>
 <p>Por Indicação Divina de Meishu-Sama, já se passaram vários anos desde que nossa Igreja propôs a Agricultura Natural — o método de cultivo sem fertilizantes. De início, por ser uma teoria tão diametralmente oposta à concepção predominante da dependência de adubos, mesmo entre os agricultores fiéis à nossa Obra, raros foram os que tiveram a coragem de adotá-la e praticá-la com sinceridade. Contudo, com o transcorrer dos anos, seus resultados tornaram-se manifestos. O aumento da produtividade, a qualidade superior, o sabor aprimorado, somados à notável resistência a pragas e desastres naturais, foram resultados tão expressivos que gradualmente aumentaram o número de praticantes, despertando, de forma inequívoca, a atenção dos círculos agrícolas de nosso país.</p>
@@ -110,5 +262,48 @@ Sociedade de Estudos da Agricultura Natural por Funcionários Voluntários do Mi
 <p>No que diz respeito aos praticantes deste ano, solicitamos que sejam orientados a seguir rigorosamente os princípios de não utilização de fertilizantes e agrotóxicos, conforme preconiza a Agricultura Natural. Especialmente por ocasião das pulverizações coletivas de agrotóxicos, recomendamos que busquem a compreensão das autoridades locais, enfatizando que o método da Agricultura Natural encontra-se em fase de estudo e pesquisa, e que nossa Sociedade de Estudos acompanha seus resultados com especial interesse. Feito isso, solicitamos que prossigam com o cultivo conforme preconizado por Vossa Associação.</p>
 <p>Visto que desejamos analisar os resultados, solicitamos a gentileza de nos apresentar um relatório detalhado de todo o processo, até a colheita.</p>
 <p>Agradecemos antecipadamente sua colaboração.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然農法について 向陽生 『栄光』273号、昭和29(1954)年9月8日発行 明主様の御神示により、本教が自然農法――無肥料栽培法――を堤唱して既に数年になる。<br/><br/>最初はその所説がいわゆる世の常識である肥料依存の観念とへあまりにも懸絶せるの故を以て、信者である農民諸氏の間においてすらも、なかなかに、これを信奉し素直に実行する勇気のある者は、まことに蓼々たるものであったが、年を追うにつれ、その成果は明らかとなり、増収、良質、美味に加えて、病虫害や天災等の被害の殆んど言うに足らざる等の特筆すべき良結果は、次第にその実践者を増加せしめ、我が国農業界の耳目を衝動せずにはおかなかった。<br/><br/>加うるに、過去三回に亘り、毎年初頭には明主様の御論文と、その年度の実績を満載せる、本紙の農業特集号を発行し、殊に、本年は実に百数十万部の大部数を全国の農家を始め各方面に頒布して、その驚異的なる成績を発表し、更に、天の摂理は、あえて信者たらずとも、肥料を施す事を止め、我等の説く新作法に従いさえすれば、何人といえども所期の成果をいと容易に挙げ得る事を強調するとともに、信者未信者を問わず、本農法に関心を有する方々によって、自然農法普及会を組織し、あるいは講演会に、または展示会、座談会等を全国各地に開催して、本教の布教活動とは全然別個にその普及運動を開始したのである。<br/><br/> 時あたかも昨年の冷害による空前の凶作はひとり豊作を享受せる本農法の有利性を事実の上に実証せるのみならず、右の活動と相俟って本年度においては、右自然農法会員即ち自然栽培実施者の躍進的増加をみたのである。<br/><br/>また本紙とは別個に「自然農法普及会会報」の発刊をみるに至り、その理論に、実際の作業方法の指導体験及び実績発表等を満載して毎月一回発行され、既に第八号の刊行をみるに至ったのである。<br/><br/> かかる趨勢は、必然的に過去において、本農法の説くところに対し、徒らに、目を覆い耳を塞いでいた我が国農業界の指導者層はもとより、各方面においても、遂にこれを採り上げざるを得なくなり、各専門紙その他においても、本農法に関する論述等を散見するた至り、その所論の当否はともかく、我等をして大いに意を強くせしめるものがあった。<br/><br/> 特に我が国農業の大衆たる農林省内においてすらも本年三月、一部職員有志を出て「農林省職員有志自然農法研究会」なる団体が組織されたる趣きを仄聞（そくぶん）せる時は、我等は天の時漸く来ったかの感あり、右団体において、虚心坦懐に、あらゆる角度から本農法を調査研究されん事を期待したのであった。<br/><br/> しかして本年は、稲作においては、田植時機より冷温多雨、七月に亘って止まず「冷害凶作の、おそれある旨の警鐘は至る所に乱打されたるも、幸いにして八月に入りてよりは、好天と高温に恵まれ、漸く愁眉を開き一安堵した次第であったが、また一面において、病虫害の懸念甚だしく、その防除の為に、集団的に、ホリドール撒布等が施行せられたのであった。<br/><br/>この間にあって自然農法の苗の成育状態は各地方において、空前の好成績を収め、本農法実施者をして欣喜せしめた次第であった。<br/><br/>しかし一面前記の防除の為の薬剤撒布が集団的地域的に半強制的に施行せらるるが為に、無肥料無農薬を根本理念とする本農法実施者をして、これを免れしめんが為の困難は一方ならぬものがあったのである。<br/><br/> しかるに今回、右農林職員有志自然農法研究会会長名を以て、本会会長宛に左の如き通牒を寄せられたるは、以て本農法の本年度の実績を如実に裏書せるのみならず、また一面当局においても如何に本農法の成果を注視し、庇護の手すらをば伸ばさんとする意図ある事を物語るものであり、多年苦難の中に忍従を強いられて来た我等に大いなる喜びを齎（もたら）すものであると言わねばならない。<br/><br/> いつの日か医学の面においても、かかる現実の現われん事を待望し、期待し、またその実現を確信せしむるところ大なるものがある。<br/><br/> 通牒文 八月六日 農林省職員有志自然農法研究会 委員長 山川達雄 印 自然農法普及会会長殿 貴会において目下熱心に宣伝普及に努力している自然農法については、我が研究会においても鋭意実態の探究に努力しておりますが、我々が現在まで調査致したところによれば、驚異的な成績を挙げている事が判明致しましたが、本年度の実施者についても、自然農法の提唱する無肥料無農薬の原則を確く守らしめ、特に集団的農薬撒布の際には、自然農法の栽培方法は目下試験研究中のもので、その結果については我が研究会においても特に関心を以て注目している点を強調して当局者に諒解を求められた上、貴会の提唱通り栽培せしめられたく、その結果について調査致したきにつき収穫に到る迄の過程を詳細に御報告煩わしたく。<br/><br/> 右御願い申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

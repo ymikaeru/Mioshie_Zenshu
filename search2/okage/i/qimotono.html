@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qimotono</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 妹の絶望的子宮ガンを救われし私の喜び 『アメリカを救う』昭和28(1953)年1月1日発行 北海道 旭光中教会 角 まつ子（43） 数々の御守護を戴きました中で、御救に御縁なくば今頃この世の人でないでありましょう私の妹の救われし喜びを、謹みて代筆にて御礼申し上げさせて戴きます。<br><br> ああ、思い出すさえ恐しき子宮癌の妹、七歳を頭に四人の子供を残して主人は出征し、過ぎし事ではありながら込み上げて来る涙をどうする事も出来ません。<br><br>その後長い月日は流れ、昭和二十三年十月二十日弟は病気のためシベリヤより帰還致しました。<br><br>その間妹の苦労は申すに及びません。<br><br>やれやれと安心も束の間、妹は子宮癌のため次第に衰弱致し、四、五人の医者の診断を受けたところ「完全な子宮癌で大分進行している」との事、妹の事ながら私は生きた心地無く、その後親戚と相談の結果、札幌大学病院に入院致す事になり、私は医者では治らぬと心に思いつつも一人ではどうする事も出来ず、その年の十二月入院大手術を行い、子宮、喇叭管、卵巣を除去し、左骨盤も削取りました。<br><br>翌年三月帯広に帰郷致し、専門医院に入院、色々良いという手当をしておりましたところ、又再発との事、再度札幌大学病院に入院し、その後は日増に悪化する許り、私は二人の苦労を思う時、たとえ半年一年でも必ず良くして頂けたらとの一心から、あらゆる神様に御願いしましたが、その度に「幾ら神様でもこのような人は助けられません。<br><br>もうとうにこの世にいない人だ」などと申され、胸が一杯で御礼の言葉も出ず、頭を下げ街路に出ましたが、止めど無く溢るる涙を拭う気力もなく夕方我家に帰りました。<br><br>私の家は妹の家（帯広）より八里程離れたところで主人は郵便局に勤め、私は別に衣料雑貨等を販売致しております。<br><br>ちょうどその夜、いつも局の方に御出になる入信者の岡様が私の家に御泊になり、夕食後妹の話が出ましたところ「それでは帯広に良い先生が内地（本州）より来ておられ、生まれつきの片端以外何でもよくなるとのこと、早速試に病気で苦しんでいる方々に御知らせしましたら、皆次々と良くなり大変喜ばれました」とおっしゃいましたので、本当に立派な神様である事が分り、妹も治して戴けると思っております内、妹も病院では治る見込なく、近く札幌より帰る由の通知を受けましたので、恐る恐る帯広の先生に御願いに行き詳しく申し上げますと「楽になります」との事、「ちょうど二十九日本部の先生が御出になりますのでその折御出下さい」と申され、本当に飛び立つ思いの嬉しさで、早速弟にその事を話し、妹に二十九日帯広に帰って来るように電報で通知致しました。<br><br>中二日間が待遠しい事、一カ月も二カ月も待つ程にて、本当に妹がもう救われたように思えて力がつきました。<br><br> 二十九日朝帯広に着きました。<br><br>その姿、私の妹とは思えぬ程痩せ衰え、この世の人とは思われませんでした。<br><br>早速支部へハイヤーで参り、有難き御話を聞き、妹の体が重体ですので皆様のお先に御浄霊をして戴きました。<br><br>御参りに来ていた信者六十名程の方々は妹を見て異口同音にこの人この体とあっけに取られておられました。<br><br>少し気分が良い様に思えましたので、室宮先生、小野様に毎日来て戴くように御願い致して帰りましたが、とても心配でいつも電話で御尋ね致し、又出帯致して様子を御伺い致しました。<br><br>先生は「そのように妹様思いの姉様でしたら、貴方が御守様を戴いて苦しんでいる妹様を帯広に来る度に御浄霊をして上げれば一層に楽になります。<br><br>誰でも出来る事です」と申され、何も知らぬ私は不思議に思いつつ入信させて戴きました。<br><br>早速妹が十一日間便通なく苦しんでいるので二、三十分御浄霊をしましたところ、すぐ両便も多く出ました。<br><br>本当に私ごとき者に何という尊き力が戴けたのだろうと、急に生まれ変り、闇より明るみに第一歩を踏出した気持、ただ有難さに感謝する許りでした。<br><br>その頃は大手術後痛が未だ残っているとの事で、ラジウムやレントゲンで焼き、余り強過ぎたため腸、尿道も焼け切れて肛門まで固くなり、水分も出なかったのです。<br><br>内臓で小便も大便も一緒になって膣より出ていたのです。<br><br>妹もその後色々の変化があり、二週間目頃より多量の出血が二、三回ありました。<br><br>私は癌が取れて来たのではないかと心の中で喜んでおりましたが、家族や親類の者は御浄霊の考など毛頭なく、医者よ薬よと大騒ぎしているのです。<br><br>私は暇さえあれば御浄霊をさせて戴いておりました。<br><br>先生に私が御願い致して帰れば妹が断り、次第に痛みも激しくなり、昼夜眠る事も出来ず、足一本自由にならぬ妹が苦しさに部屋中這廻りました。<br><br>強力な眠り薬もモルヒネも効果なく、夢遊病者のごとく苦しみ、「こんなに苦しんでまで生きたくはないから浄霊などしていらない」と言い、痛み出して七十日位になりますので骨と皮ばかりでした。<br><br>四度目の「危篤」を受けて行きました十一月四日にはもう虫の息でした。<br><br>一生懸命御浄霊をさせて戴き、心の中で今晩必ず室宮先生の御供をして御面会に行き、明主様に御願いに参ります、と固く決心し、出発の用意は致してみましたが、その反面留守中もしやの事があってはと心配しておりましたら見違えるように妹が元気になり「御姉様大丈夫、心配しないで行って来て下さい」と言うのです。<br><br>私は驚くの外はありません。<br><br>このような御守護を戴けるとは何と有難い事でしょうと思い出発致しました。<br><br>八日の御面会で明主様に御質問致し御浄霊法を御教え下さいました。<br><br>勿体なく嬉しいこの胸の中は何と申し上げて良いか分りませんでした。<br><br>一週間以上の旅行なので、この前の時は疲れが出て一カ月床につきましたが、今度は何ともなくむしろ元気で妹の家へ帰りました。<br><br>母に様子を聞くと「何も頂けなかった妹が三度の食事も待兼ね、間食までしている」との事、私は嬉しくて嬉しくて早速明主様に御礼を述べ、妹を見ますと一週間位でこのように太り、元気な姿、私は無言で坐ったまま閉じた目より熱い涙が止めど無く流れる許りでした。<br><br> それよりは日増に快方に向い、床についたまま胸の上で主人と子供四人のセーターを編み、丹前の仕立と冬仕度を一人で整え、正月も楽しく過させて戴きました。<br><br>しかしまだ肛門は萎縮したきり膣から許り便が出て、汚物が溜ると腫れたり爛れたり致し苦しみますので、再度御面会に御参りし、御質問致し御浄霊箇所を教えて戴いて帰り、二、三回御浄霊をさせて戴きました。<br><br>三日目に肛門より便通あり、重ね重ね御偉効誠に有難く感謝の日々を送っております。<br><br>妹も今は御仕事も出来、毎月の支部参拝にもお参りさせて頂いております。<br><br> 今後は明主様、大光明如来様に感謝を捧げ、大恩の万分の一なりとも報わせて頂く覚悟です。<br><br>誠に有態う御座いました。<br><br>妹に代り御礼をのべさせて戴きました。<br><br>有難う御座いました。<br><br> 謹みて御利益の一端を拙なき文筆に御報告させて戴きました。<br><br>有難う御座いました。<br><br>重ね重ね御礼申し上げます。<br><br> （昭和二十六年十二月二十三日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A minha alegria ao ver minha irmã salva de um câncer uterino desenganado</h2>
 <p><strong>Publicado na edição de 1º de janeiro de 1953 da revista “A Salvação da América”</strong>
@@ -109,5 +264,48 @@ function toggleLang(lang) {
 <p>De agora em diante, dedicarei minha vida a agradecer a Meishu-Sama e ao Deus Supremo, Grande Luz Divina, na esperança de retribuir, ainda que minimamente, uma parcela deste imenso favor. Muito obrigada. Escrevo estas linhas em nome de minha irmã para expressar nossa gratidão. Muito obrigada.</p>
 <p>Apresento este relato de uma graça recebida, embora com palavras simples. Agradeço profundamente e reitero minha gratidão.</p>
 <p>(23 de dezembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 妹の絶望的子宮ガンを救われし私の喜び 『アメリカを救う』昭和28(1953)年1月1日発行 北海道 旭光中教会 角 まつ子（43） 数々の御守護を戴きました中で、御救に御縁なくば今頃この世の人でないでありましょう私の妹の救われし喜びを、謹みて代筆にて御礼申し上げさせて戴きます。<br/><br/> ああ、思い出すさえ恐しき子宮癌の妹、七歳を頭に四人の子供を残して主人は出征し、過ぎし事ではありながら込み上げて来る涙をどうする事も出来ません。<br/><br/>その後長い月日は流れ、昭和二十三年十月二十日弟は病気のためシベリヤより帰還致しました。<br/><br/>その間妹の苦労は申すに及びません。<br/><br/>やれやれと安心も束の間、妹は子宮癌のため次第に衰弱致し、四、五人の医者の診断を受けたところ「完全な子宮癌で大分進行している」との事、妹の事ながら私は生きた心地無く、その後親戚と相談の結果、札幌大学病院に入院致す事になり、私は医者では治らぬと心に思いつつも一人ではどうする事も出来ず、その年の十二月入院大手術を行い、子宮、喇叭管、卵巣を除去し、左骨盤も削取りました。<br/><br/>翌年三月帯広に帰郷致し、専門医院に入院、色々良いという手当をしておりましたところ、又再発との事、再度札幌大学病院に入院し、その後は日増に悪化する許り、私は二人の苦労を思う時、たとえ半年一年でも必ず良くして頂けたらとの一心から、あらゆる神様に御願いしましたが、その度に「幾ら神様でもこのような人は助けられません。<br/><br/>もうとうにこの世にいない人だ」などと申され、胸が一杯で御礼の言葉も出ず、頭を下げ街路に出ましたが、止めど無く溢るる涙を拭う気力もなく夕方我家に帰りました。<br/><br/>私の家は妹の家（帯広）より八里程離れたところで主人は郵便局に勤め、私は別に衣料雑貨等を販売致しております。<br/><br/>ちょうどその夜、いつも局の方に御出になる入信者の岡様が私の家に御泊になり、夕食後妹の話が出ましたところ「それでは帯広に良い先生が内地（本州）より来ておられ、生まれつきの片端以外何でもよくなるとのこと、早速試に病気で苦しんでいる方々に御知らせしましたら、皆次々と良くなり大変喜ばれました」とおっしゃいましたので、本当に立派な神様である事が分り、妹も治して戴けると思っております内、妹も病院では治る見込なく、近く札幌より帰る由の通知を受けましたので、恐る恐る帯広の先生に御願いに行き詳しく申し上げますと「楽になります」との事、「ちょうど二十九日本部の先生が御出になりますのでその折御出下さい」と申され、本当に飛び立つ思いの嬉しさで、早速弟にその事を話し、妹に二十九日帯広に帰って来るように電報で通知致しました。<br/><br/>中二日間が待遠しい事、一カ月も二カ月も待つ程にて、本当に妹がもう救われたように思えて力がつきました。<br/><br/> 二十九日朝帯広に着きました。<br/><br/>その姿、私の妹とは思えぬ程痩せ衰え、この世の人とは思われませんでした。<br/><br/>早速支部へハイヤーで参り、有難き御話を聞き、妹の体が重体ですので皆様のお先に御浄霊をして戴きました。<br/><br/>御参りに来ていた信者六十名程の方々は妹を見て異口同音にこの人この体とあっけに取られておられました。<br/><br/>少し気分が良い様に思えましたので、室宮先生、小野様に毎日来て戴くように御願い致して帰りましたが、とても心配でいつも電話で御尋ね致し、又出帯致して様子を御伺い致しました。<br/><br/>先生は「そのように妹様思いの姉様でしたら、貴方が御守様を戴いて苦しんでいる妹様を帯広に来る度に御浄霊をして上げれば一層に楽になります。<br/><br/>誰でも出来る事です」と申され、何も知らぬ私は不思議に思いつつ入信させて戴きました。<br/><br/>早速妹が十一日間便通なく苦しんでいるので二、三十分御浄霊をしましたところ、すぐ両便も多く出ました。<br/><br/>本当に私ごとき者に何という尊き力が戴けたのだろうと、急に生まれ変り、闇より明るみに第一歩を踏出した気持、ただ有難さに感謝する許りでした。<br/><br/>その頃は大手術後痛が未だ残っているとの事で、ラジウムやレントゲンで焼き、余り強過ぎたため腸、尿道も焼け切れて肛門まで固くなり、水分も出なかったのです。<br/><br/>内臓で小便も大便も一緒になって膣より出ていたのです。<br/><br/>妹もその後色々の変化があり、二週間目頃より多量の出血が二、三回ありました。<br/><br/>私は癌が取れて来たのではないかと心の中で喜んでおりましたが、家族や親類の者は御浄霊の考など毛頭なく、医者よ薬よと大騒ぎしているのです。<br/><br/>私は暇さえあれば御浄霊をさせて戴いておりました。<br/><br/>先生に私が御願い致して帰れば妹が断り、次第に痛みも激しくなり、昼夜眠る事も出来ず、足一本自由にならぬ妹が苦しさに部屋中這廻りました。<br/><br/>強力な眠り薬もモルヒネも効果なく、夢遊病者のごとく苦しみ、「こんなに苦しんでまで生きたくはないから浄霊などしていらない」と言い、痛み出して七十日位になりますので骨と皮ばかりでした。<br/><br/>四度目の「危篤」を受けて行きました十一月四日にはもう虫の息でした。<br/><br/>一生懸命御浄霊をさせて戴き、心の中で今晩必ず室宮先生の御供をして御面会に行き、明主様に御願いに参ります、と固く決心し、出発の用意は致してみましたが、その反面留守中もしやの事があってはと心配しておりましたら見違えるように妹が元気になり「御姉様大丈夫、心配しないで行って来て下さい」と言うのです。<br/><br/>私は驚くの外はありません。<br/><br/>このような御守護を戴けるとは何と有難い事でしょうと思い出発致しました。<br/><br/>八日の御面会で明主様に御質問致し御浄霊法を御教え下さいました。<br/><br/>勿体なく嬉しいこの胸の中は何と申し上げて良いか分りませんでした。<br/><br/>一週間以上の旅行なので、この前の時は疲れが出て一カ月床につきましたが、今度は何ともなくむしろ元気で妹の家へ帰りました。<br/><br/>母に様子を聞くと「何も頂けなかった妹が三度の食事も待兼ね、間食までしている」との事、私は嬉しくて嬉しくて早速明主様に御礼を述べ、妹を見ますと一週間位でこのように太り、元気な姿、私は無言で坐ったまま閉じた目より熱い涙が止めど無く流れる許りでした。<br/><br/> それよりは日増に快方に向い、床についたまま胸の上で主人と子供四人のセーターを編み、丹前の仕立と冬仕度を一人で整え、正月も楽しく過させて戴きました。<br/><br/>しかしまだ肛門は萎縮したきり膣から許り便が出て、汚物が溜ると腫れたり爛れたり致し苦しみますので、再度御面会に御参りし、御質問致し御浄霊箇所を教えて戴いて帰り、二、三回御浄霊をさせて戴きました。<br/><br/>三日目に肛門より便通あり、重ね重ね御偉効誠に有難く感謝の日々を送っております。<br/><br/>妹も今は御仕事も出来、毎月の支部参拝にもお参りさせて頂いております。<br/><br/> 今後は明主様、大光明如来様に感謝を捧げ、大恩の万分の一なりとも報わせて頂く覚悟です。<br/><br/>誠に有態う御座いました。<br/><br/>妹に代り御礼をのべさせて戴きました。<br/><br/>有難う御座いました。<br/><br/> 謹みて御利益の一端を拙なき文筆に御報告させて戴きました。<br/><br/>有難う御座いました。<br/><br/>重ね重ね御礼申し上げます。<br/><br/> （昭和二十六年十二月二十三日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

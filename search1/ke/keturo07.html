@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>keturo07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 西洋医学の誤謬と、本療法の効果とは、大略述べた心算であるが、その帰結として、今少し、述べてみたいのである。<br><br>西洋医学における黴菌の研究及び、生理解剖、分析等は、確に、有用であるから、勿論、飽くまでも、科学的に進歩発達せしむべきものである。<br><br> ただ私が一大警告を、発せんとする目的は病患の真因と、そうして、治療の誤謬を指摘したい事である。<br><br>それによって、西洋医学が、真の治療を確立し、正しい歩みに入らねばならない事を、望む外、他意無い事である。<br><br>それは、言うまでもなく、治る医術と、天寿を全うし得る、健康法の完成である。<br><br> 私が常に直接間接に耳にする事であるが、医家がいかに努力をしても、西洋医学では、完全に病気は治らないので、常に、懊悩（おうのう）を続けているという、告白である。<br><br>又、私の門弟の一人が、某医学博士の令嬢（二十歳）の、慢性腹膜炎を、九日間で治癒し、手首の鶏卵大の、七年間の癌を、四回で治癒したのであるが、それへ対して、父なる博士は、驚くかと思いの外、左のごとき、実に味うべき事を、言うたそうである。<br><br>それはこうである。<br><br> 「別に驚くには当らない。<br><br>人間の病気は、人間以上の、神の力なら、治るべきが本当である。<br><br>人間の病気を、同じ人間である医師が、治そうとしても、それは決して、治るものではない」との事である。<br><br> そうして、その博士は、家族の者には決して、病気へ対して、薬剤を使用しないそうである、それは効かない物を服んでも、無駄であると、言うのである。<br><br> 又京都に居る、ある医博は、灸治療法を専門にしているとの事で、わざわざ、東京から行く患者もある。<br><br>その他、漢法〔方〕や、民間療法を研究しつつある医家も、すくなくないという事を、よく聞くのである。<br><br>これらの傾向によって察（み）ても最早、西洋医学の、治療における、一大革命期が、来つつあるのである。<br><br> 本療法についての、科学的説明は、今の所、困難である。<br><br>しかしながら、全然、説明し得ない事はないから、概略を述べてみよう。<br><br>それは、一種の、神秘光線の放射である。<br><br>ただ、その光線は、今日まで学問で知り得なかったものである。<br><br>そうして、この光線と、現在行われている、ラジュウムやレントゲン、太陽灯と異る所は、それらと比較出来ない程の、有力な、治病効果のある光線である事と、今一つは、人体を通さなければ応用出来ない、という点である。<br><br>しかして、この光線を放射する時、皮下にある膿は、解溶してゆくのである、又それによって、痛みは眼前に、除去されるのである。<br><br>そうして、いかなる深部といえども透過するから、手術でも、除去するのに困難である位置の膿も、外部からの治療によって、容易に勿論、些（いささ）かの苦痛も無く、解消されてしまうのである。<br><br>恐らく、かかる、不思議なる療法は現代人としては、到底信じ得られない事は、能（よ）く判っている。<br><br>故に、その真相を知る方法としては、体験以外には、ない事である。<br><br> しからば、この神秘なる光線の本体は、何であるかを、説明したいのであるが、唯心主義者には信じ得られるが、唯物主義者には、信じ難いと思うのである。<br><br>何となれば 「観世音菩薩が、病気根絶の本願から、流射され賜う光波で、人間を通す事によって、治病の効果が、挙げられるのである」 こう言えば、現在の社会人は、観世音菩薩などという、その事だけで、迷信視し、インチキ視するという、懼（おそ）れがあるので、発表したくはないが、それを言わなければ、真相に触れる事が、出来得ない以上、止むを得ない事である。<br><br> 私の冀（ねが）うのは、医家が、これを習得され、治療に応用されたい事である。<br><br>西洋医学の治療よりも、その効果において、何十倍であるか、量り知れない成績を挙げる事は、断じてあやまりがないのである。<br><br>又、なお進んで、医科大学において、応用、研究されなければならないと、思うのである。<br><br>それに関してのすべては、出来得る限り、喜んで、実験に応ずる事を、誓うものである。<br><br> （一一、三、二八）（仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Iminente Revolução na Arte de Curar</h2>
 <p>Creio já ter delineado, em linhas gerais, os equívocos da medicina ocidental e a eficácia de nossa terapia. Todavia, a título de conclusão, gostaria de aprofundar um pouco mais o tema. A pesquisa de micróbios, bem como os estudos de anatomia, fisiologia e outras análises realizadas pela medicina ocidental, são indubitavelmente úteis. Portanto, é natural que devam continuar a progredir e a se desenvolver cientificamente.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Ao fazer tal afirmação, receio que a sociedade contemporânea, ao ouvir a menção a Kannon (観音), imediatamente a rotule como superstição ou charlatanismo. Embora eu preferisse não o revelar, é imperativo que o faça, pois, de outro modo, seria impossível expor a verdade em sua essência.</p>
 <p>Meu mais profundo desejo é que os médicos aprendam esta terapia e a apliquem em seus tratamentos. Posso garantir, sem margem para erro, que obterão resultados dezenas de vezes superiores aos da medicina ocidental, a um ponto que se torna até mesmo imensurável. Adicionalmente, acredito que ela deva ser aplicada e pesquisada no âmbito das faculdades de medicina. A esse respeito, comprometo-me a cooperar, com imensa satisfação, em toda e qualquer experimentação que se faça necessária.</p>
 <p>(28 de março de 1936) (Jinsai)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 西洋医学の誤謬と、本療法の効果とは、大略述べた心算であるが、その帰結として、今少し、述べてみたいのである。<br/><br/>西洋医学における黴菌の研究及び、生理解剖、分析等は、確に、有用であるから、勿論、飽くまでも、科学的に進歩発達せしむべきものである。<br/><br/> ただ私が一大警告を、発せんとする目的は病患の真因と、そうして、治療の誤謬を指摘したい事である。<br/><br/>それによって、西洋医学が、真の治療を確立し、正しい歩みに入らねばならない事を、望む外、他意無い事である。<br/><br/>それは、言うまでもなく、治る医術と、天寿を全うし得る、健康法の完成である。<br/><br/> 私が常に直接間接に耳にする事であるが、医家がいかに努力をしても、西洋医学では、完全に病気は治らないので、常に、懊悩（おうのう）を続けているという、告白である。<br/><br/>又、私の門弟の一人が、某医学博士の令嬢（二十歳）の、慢性腹膜炎を、九日間で治癒し、手首の鶏卵大の、七年間の癌を、四回で治癒したのであるが、それへ対して、父なる博士は、驚くかと思いの外、左のごとき、実に味うべき事を、言うたそうである。<br/><br/>それはこうである。<br/><br/> 「別に驚くには当らない。<br/><br/>人間の病気は、人間以上の、神の力なら、治るべきが本当である。<br/><br/>人間の病気を、同じ人間である医師が、治そうとしても、それは決して、治るものではない」との事である。<br/><br/> そうして、その博士は、家族の者には決して、病気へ対して、薬剤を使用しないそうである、それは効かない物を服んでも、無駄であると、言うのである。<br/><br/> 又京都に居る、ある医博は、灸治療法を専門にしているとの事で、わざわざ、東京から行く患者もある。<br/><br/>その他、漢法〔方〕や、民間療法を研究しつつある医家も、すくなくないという事を、よく聞くのである。<br/><br/>これらの傾向によって察（み）ても最早、西洋医学の、治療における、一大革命期が、来つつあるのである。<br/><br/> 本療法についての、科学的説明は、今の所、困難である。<br/><br/>しかしながら、全然、説明し得ない事はないから、概略を述べてみよう。<br/><br/>それは、一種の、神秘光線の放射である。<br/><br/>ただ、その光線は、今日まで学問で知り得なかったものである。<br/><br/>そうして、この光線と、現在行われている、ラジュウムやレントゲン、太陽灯と異る所は、それらと比較出来ない程の、有力な、治病効果のある光線である事と、今一つは、人体を通さなければ応用出来ない、という点である。<br/><br/>しかして、この光線を放射する時、皮下にある膿は、解溶してゆくのである、又それによって、痛みは眼前に、除去されるのである。<br/><br/>そうして、いかなる深部といえども透過するから、手術でも、除去するのに困難である位置の膿も、外部からの治療によって、容易に勿論、些（いささ）かの苦痛も無く、解消されてしまうのである。<br/><br/>恐らく、かかる、不思議なる療法は現代人としては、到底信じ得られない事は、能（よ）く判っている。<br/><br/>故に、その真相を知る方法としては、体験以外には、ない事である。<br/><br/> しからば、この神秘なる光線の本体は、何であるかを、説明したいのであるが、唯心主義者には信じ得られるが、唯物主義者には、信じ難いと思うのである。<br/><br/>何となれば 「観世音菩薩が、病気根絶の本願から、流射され賜う光波で、人間を通す事によって、治病の効果が、挙げられるのである」 こう言えば、現在の社会人は、観世音菩薩などという、その事だけで、迷信視し、インチキ視するという、懼（おそ）れがあるので、発表したくはないが、それを言わなければ、真相に触れる事が、出来得ない以上、止むを得ない事である。<br/><br/> 私の冀（ねが）うのは、医家が、これを習得され、治療に応用されたい事である。<br/><br/>西洋医学の治療よりも、その効果において、何十倍であるか、量り知れない成績を挙げる事は、断じてあやまりがないのである。<br/><br/>又、なお進んで、医科大学において、応用、研究されなければならないと、思うのである。<br/><br/>それに関してのすべては、出来得る限り、喜んで、実験に応ずる事を、誓うものである。<br/><br/> （一一、三、二八）（仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

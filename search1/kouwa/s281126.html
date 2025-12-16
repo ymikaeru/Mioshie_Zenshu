@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281126</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月26日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月二十六日 ついこの間、日展を見ましたが、それについて感想を書いてみたので読ませます。<br><br> （御論文「日展を観て」） 【栄光 二三六号】 つまり根本のまた根本の原因は、日本人がその自覚がないのです。<br><br>ということは、白人よりも劣っていると思っているのです。<br><br>だからなんでも西洋でできた物ならよい、西洋人は偉いと思っているのですが、これがたいへんな間違いです。<br><br>私はこのことも大いに言ったり書いたりしようと思ったのですが、これは終戦以前まではいろいろ書いたりしてました。<br><br>私の『明日の医術』に書いてありますが、英国は月、米国は星、日本は日ということを書いたことがありますが、これも終戦後進駐軍が来てから、それを密告した者があるのです。<br><br>しかしいいあんばいに、そういうことはなくてすみました。<br><br>そういうような具合で、日本人にそういうことを教えたいと思っていたのですが、なにしろ占領中はそういうことは言えないから黙っていたのです。<br><br>もう講和になった以上言えるから言うようなものの、実際日本人の方が白人よりも劣るというこの考えが、たいへんに間違っているのです。<br><br>これは日本人は世界一なのです。<br><br>まったく、日の本と言って、日の民族なのです。<br><br>要するに太陽系民族です。<br><br>つまり月の系統の民族が白人な町です。<br><br>ちょうど、いわば金と銀です。<br><br>ですからテンデ比較にならないのです。<br><br>そのために私は『アメリカを救う』という本を出したのです。<br><br>日本人は劣等感がありますから、あれをたいへんに大胆な、トビ上がったように見た人があるようですが、それを知らないからです。<br><br>日本人は太陽系ですから、昼間の人種です。<br><br>夜の民族を救うのはあたりまえで、少しの不思議はないのです。<br><br>値打ちが違うのです。<br><br>つまり金の値打ちと銀の値打ちの違いです。<br><br>そういうようなわけで、芸術も日本人の方がずっと上なのです。<br><br>だから日本人が油絵をまねするということは、とんでもない間違いです。<br><br>これはかえって外国人の方がよく知ってます。<br><br>現代の日本画は外人はハナにもかけません。<br><br>日本画と言えば、古い時代というほどのこともないが、油絵風にならないときの画は、大いに買いもするし認めていたのですが、今の洋画風になってからは、ぜんぜん見向きもしないです。<br><br>それでいてそれに気がつかないのです。<br><br>それでこの間展覧会に行ったときに、いったいこういう画は売れるのですかと、その方のことを知っている人に聞いたところが、売れないと言うのです。<br><br>いったいどうするのかと言ったところが、これはいろいろな会社の応接間とかなにかに頼んで掛けてもらって、そうして絵の具代としてお礼をもらうというぐらいのもので、ほとんど収入というものはないのです。<br><br>第一アンナ物は買い手がないです。<br><br>いっそ油絵ならよいですが、日本画は馬鹿デカイのです。<br><br>ふつうの家で買っても、床の間に掛けるわけにもゆかないし、屏風のようなものです。<br><br>ですから宝の持ち腐れになってしまいます。<br><br>私などは、くれると言ってもいりません。<br><br>それがウンと出ているのです。<br><br>そのウンと出た何分の一が入選したのですが私は見て気の毒でしようがないのです。<br><br>その絹とか絵の具代というのはたいへんなものでしょうが、もったいない話です。<br><br>それでそれを画く間、暇をつぶすのですから、生活費とかそういうことを考えたら、あのぐらいな浪費はないと思います。<br><br>これは本当は止めた方が、国家のためにどのくらい利益になるか分かりません。<br><br>なんにもならないことをしているのです。<br><br>それは日本画の良い絵なら日本人を楽しませることもできるし、外国にも出すことができますが、これでは日本人を楽しませることはできないし、外人は見向きもしないです。<br><br>今国家において一番無駄なものはそういう人たちでしょう。<br><br>それと病人を大事にしろ、肺病などは安静にして何年も寝ていろという、これも随分不生産です。<br><br>だから日本が貧乏になるのはあたりまえです。<br><br>今日本人ぐらい貧乏になる条件を備えている民族はないと思います。<br><br> 二、三日前にアメリカの女の新聞記者が来ましたが、その人の御亭主はＮＨＫの外語放送をやっている人です。<br><br>夫人は『ニホン・タイムズ』という新聞の記者で＝私のことも今度出すことになってますが＝いろんな話の中で、アメリカ人には非常に金持ちができるというのですが、その金持ちの弁明をしているわけです。<br><br>これは日本人はふだんから、アメリカの金のあるのを羨んでいるのを、ちょっと言い訳を言うかのように言ってましたが、ロックフェラー（三世で、今は孫になっているそうですが、よく知っているらしいです）にしても、あんまり金ができすぎてしまって、もう金などはいらないと言っているそうです。<br><br>だから頭は始終世界を平和にして、人類をみんな幸福にさせるということしか考えていないというのです。<br><br>それでロックフェラーだけでなく、アメリカの大きな金持ちというのは、みんなそういう考えを持っているそうです。<br><br>というのは、つまり非常に金が儲かる、金が溜まるような組織にもなっているし、日本みたいにそういう無駄とか、結果において不利益なことというのはアメリカ人は嫌いです。<br><br>だから国が富んで、そのためにああいう、今言ったように日本人が崇拝するような国になってしまったわけです。<br><br>そこで私はそれに対して、かえって私の方で言い訳を言ったのです。<br><br>アメリカで金を集め、非常に富むということは、自分たちが贅沢したりいばったりするというためでなく、世界を平和にするということのためだ。<br><br>それについては非常に金がいるから、アメリカで金を集めるということは、根本は正義感だ。<br><br>それでアメリカくらい正義感が強い国はないので、それで私はアメリカを非常によいと思っている。<br><br>とにかく世界の正義を維持しているのはアメリカなので、それにはやはり非常に物資もいります。<br><br>たとえてみれば軍備です。<br><br>だからアメリカが金を集めるという根本はそういう目的だからして、大いに集めて金持ちがたくさんできた方が結構だと思う、と言ってやりました。<br><br>私はふだんから思っているのは、もしかアメリカのあの富がなかったら、世界は共産主義になってしまいます。<br><br>とにかく共産主義の根本は人類愛ではないので、世界を自分の支配下にして、そうして要するに世界封建――ロシア帝国を造って、そうして世界を自由自在にしようというので――そういった根本が悪ですから、それではいけないから、それを押さえるというのはアメリカの力です。<br><br>朝鮮問題にしても、最初北鮮が南鮮を攻撃して釜山まで来たときに、もしアメリカが救わなかったら、もう、とうに朝鮮は北鮮のものになっていて、南北朝鮮を合併して、その後を中共が押さえ、その後をソ連が押さえているということになります。<br><br>そうしてその次には日本にやってくるに決まってます。<br><br>ですからもしあの時にアメリカが乗り出さなかったら、日本は中共のものになって、われわれは共産政策のもとに、ナッパ服のような物を揃って着ていなければならないのです。<br><br>なにしろ中共の国民はみんなナッパ服です。<br><br>それをとにかく中共を押さえて、こうやっていられるのはアメリカのお蔭です。<br><br>それをアメリカのそれに反対して、怨むのではないが、怨ませるように煽動しているのです。<br><br>社会党のように……。<br><br>そうして軍備をさせないように一生懸命にやってますが、この軍備をさせないということは、いずれは中共やソ連が日本をやっつけるときに、日本に軍備があるとよけいな手数がかかるというわけで、ぜんぜんソ連の方の味方です。<br><br>そうして投票までするのがあるのです。<br><br>ただ軍備をなくすれば亭主も伜（せがれ）も兵隊にとられない、安全だというわけなのですが、そこにちょっと気がつけば、なんでもないのです。<br><br>そうすれば、ある程度はやはり軍備をしなければならないのです。<br><br>いかに再軍備反対と言ったところで、そんなことにはかまわずドンドンやってゆきますが、これはやはり神様は邪には味方しないので、正の方に味方するから、心配はありませんが、そういうようなわけで、なかなか簡単にはゆかないわけです。<br><br> 日本人は世界で一番優秀だということは、勿論太陽の民族で、太陽系だからですが、日本人の中にも支那系と朝鮮系とあるのです。<br><br>それで真の大和民族というのはごく少ないのです。<br><br>これは少ないのはあたりまえで、良いものほど少ないのです。<br><br>神様はチャンとそういうふうに造ってあるのです。<br><br>ちょうどピラミッドみたいなものです。<br><br>一番上に行くほど範囲が小さくなってますが、それと同じで、日本人が一番少ないが、十番優秀なのです。<br><br>そうして日本人の大和民族というのは一番争いを嫌うのです。<br><br>絶対に争わないのです。<br><br>戦争を嫌うのです。<br><br>ですからその真の日本人の中心が私なのだから、私は武器を嫌うのです。<br><br>私は博物館に行くといつも、刀のある所は脇目もふらないで通り過ぎてしまいます。<br><br>とても気持ちが悪いのです。<br><br>だから私は美術品は随分集めるが、刀剣類は一つも集めません。<br><br>大和民族というのはそういうものです。<br><br>ですから大和民族が世界を支配するときがミロクの世界です。<br><br>しかし目下の人間は、争いが好きな、戦争が好きな――戦争が好きといったところで、やっぱりみんな嫌いなのです。<br><br>戦争は国家と国家の争いですが、個人と個人の争いということは好きなのです。<br><br>これが一番分かるのは政治家ですが、政治家ぐらい喧嘩の好きなのはないです。<br><br>なんでもないことで、穏やかに丸くすむことを、わざわざ喧嘩の材料にするので、見ていると実におかしいのです。<br><br>今一番やっているのは、鳩山の方と吉田の方とが手を握ろうか握るまいかと、ウンだりツブレたり毎日のようにやってます。<br><br>鳩山は吉田と仲良くなりたいと言うし、吉田の方も鳩山の方か改進党の方がなかったら絶対多数にならないので、それでは政治はできないから、どっちかを自分のほうと一致しなければならない。<br><br>しかし改進党の方は重光がナンダカンダと文句を言って、改進党の党員もいろんな苦情を言って容易に軽く行かない。<br><br>そこで鳩山に目をつけて、この方が可能性があるからですが、今や両方が手を握らんとしていることですが、ああいうことも、至極簡単に行くことです。<br><br>そうして党員の中にナンダカンダと言って、つまらないことで、理由もなく、面目上か今までの成り行きかで、変なことを争っているのです。<br><br>だから戦争は嫌いだが、個人的争いは実に好きです。<br><br>もっとも、小さくは夫婦の争いですが、おそらく夫婦喧嘩をしない家庭よりも、する家庭の方がずっと多いでしょう。<br><br>十軒のうちに夫婦喧嘩をしないというのは一軒もどうですか。<br><br>それから兄弟喧嘩と、実に喧嘩が好きです。<br><br>そういうようなわけで、これは大和民族が喧嘩の嫌いなそういう民族が、今まで下積みにされていたわけです。<br><br>そうして喧嘩の好きな系統がみんな上に立ってやっていたわけです。<br><br>これを神様が平和的に、平和の好きな方の趣意に賛成するわけです。<br><br>というのは、やはり平和の力ですが、平和の力というのは、一番おもしろいと思うのは、私が今書いているのは、殺人原爆――人を殺す原子爆弾――と、活人原爆ですが、私の方でこうやりますが、これは人を活かす原子爆弾です。<br><br>ところが、人を殺す原子爆弾は今まで人類にはなかったのです。<br><br>最近に到って人殺し原子爆弾というのが現われて、世界中に一大恐怖が起こったわけです。<br><br>ところがこうやって人を活かす原子爆弾も、今まではなかったのです。<br><br>ちょうど人殺し原子爆弾が生まれるとちょうど同じように、人を活かす原子爆弾が現われたわけです。<br><br>これは神様もなかなかうまくやられたわけです。<br><br>ところが人を殺す原子爆弾の方は形に現われるから、一度に世界に知れてしまったが、人を活かす原子爆弾の方は、なかなか急には分からせられないのです。<br><br>しかしながら、なにしろ神様がやっているのですから、世界中に分かるのは決まってます。<br><br>ただこの方は少し暇がかかるだけのものです。<br><br>そこで人を殺す原子爆弾が最後に出て、それから人を活かす原子爆弾が出て、そこで初めて地上天国ができるのです。<br><br>そういうように考えるとよく分かると思います。<br><br>そういう人を活かす原子爆弾、要するに平和を造る力というものは大和民族でなければならないのです。<br><br>そこまで分からせなくても、日本人の優秀性は他の例でもたくさんありますから、私はだんだんそれをアメリカ人にも分からせようと思ってます。<br><br>しかしそれにはよほど慎重にやらないと、また日本人の奴馬鹿に偉がって、前のようなことでオッ始めるとたいへんだ、というそういう懸念もありますから、どうしても浄霊で病気を治すということが最初です。<br><br>これをすっかり分からせなければならないのです。<br><br> それと、一つは宗教的に行くのですから、ある程度は最初から変な目で見ることはないです。<br><br>アメリカの一部にはだいぶ救世教ということに関心を持ってきて、つまり有識階級の人たちが私に会いたいというような話もあります。<br><br>それで一昨日来た『ニホン・タイムズ』の記者なども、自分は日本に四年いるけれども、あなたのような意見の人は日本人には一人もない、自分も非常に共鳴するということを言って、非常に褒めてました。<br><br>というのは、一つは私がだいたいアメリカ人に似ていて、日本人離れがしているので、アメリカ人にはピタッとゆくのです。<br><br>だいたい美術評論家なので美術に対する眼識は日本人にもないくらいよく分かります。<br><br>私も感心したくらいです。<br><br>それでこういうことを言っていました。<br><br>自分は世界のあらゆる美術館を見た。<br><br>なるほど立派な物もすばらしい物もあるが、ただそれだけであって箱根美術館みたいに、いろいろな自然の風景とか草木、石類を調和して、一つのああいった雰囲気というものの作られている所は一つもない。<br><br>それについて自分は実に打たれる。<br><br>あそこにいるとどうしても去ることができなかった、と言うのです。<br><br>一昨日来たのですが、時間がないのでとうとう思いきって帰ったというくらいで、あれほどの美術館というのは実にすばらしい物だと言って感心してました。<br><br>今度は主人を連れて熱海の方も見るつもりだそうです。<br><br> それから宗教の方にもなかなか関心を持っていて、宗教の話も随分しましたが、なかなかの見識があります。<br><br>そこで、これからアメリカ人の偉い人を連れてくるからよいかと言うので、結構だから、いつでも私は万障繰り合わして会うからと約束をしました。<br><br>そういうような具合で、ぜんぜん日本人と違って非常に分かりよいのです。<br><br>宗教のことなども実に分かるのです。<br><br>というのは、どの点が私と一番一致するかというと、現実主義なことです。<br><br>その仕事が形に現われる結果ということに一番重きをおくのです。<br><br>それからこういうことも言ってました。<br><br>すなわち、日本人は明治天皇を非常に偉いとして崇拝している。<br><br>しかし自分から見れば明治天皇は、軍人をたくさん作ったことと、武器を大いに作ったというそれだけではないか、だから平和に対することは別にたいしてやってないではないか、ということを言ってましたが、これもアメリカ式の現実主義です。<br><br>ですから私は、宗教も拝んだり太鼓叩いたりするということは別に意味がない。<br><br>それよりか病気が治るとか幸福になるとか、悪人が善人になるとか、本当に現実に現われる、それだけが宗教の価値だと考えてます。<br><br>アメリカ式の考え方もそれですから、そこで話がよく合うのです。<br><br>ところが日本人の一番悪いのはその点にあります。<br><br>事実を無視することです。<br><br>たとえてみれば、今度の『救世教奇蹟集』にしても、読売は出しましたが、朝日、毎日は広告を出さないのです。<br><br>つまり私の言うことが、あまり意表に出るので、今までの宗教の言い方や説とは違うから、そこで恐れをなしたのだろうと思います。<br><br>しかし一般ジャーナリストは、“医学のイの字も知らない、おまけに新興宗教で、近ごろニョキニョキと頭を出したくせに、コンナ大それた”ということで、事実を見ないで、ただそういったような理屈にならない理屈をつけて、そうして自分ではそれが良いと思っているのでしょうが、そういった現在です。<br><br>ですからこれがアメリカ式にゆくと、なにがなんでも、とにかく何者がこういうことをしても、事実医学よりもよく病気が治ればよいではないか、それを取りあげるのがよいという考え方です。<br><br>そこにアメリカがああいう立派な国になる根本があるのです。<br><br>日本は、島国根性が抜けきれないで小乗的になってしまうのです。<br><br>それがなんにでも現われてます。<br><br>話は違うが、今もって芝居やラジオで忠臣蔵をやってますが、これも日本人の今もって囚われた島国根性から抜けきれない証拠です。<br><br>ですから忠臣蔵で、一生涯を犠牲にして自分の殿様の仇をうつというのですが、そういうような考え方として、結果はいったい日本人の幸福に対してどれだけの役に立つかということを言いたいのです。<br><br>もし役立つとすると、その当時の権力者、大名などに対する忠義ということは、その大名が権力を維持するうえにおいての一つの手段です。<br><br>それがために一般民衆はなんにもならないので、少しも幸福の役に立つわけではないので、それをたいしたように思い、また思っている考えがあるので、それだから興行師がそういう物を扱うようになるのです。<br><br>ですから今の本当の民主主義の思想と、くい違いもはなはだしいです。<br><br>日本人のこういった小さな思想を、もっと世界的に人類愛的に拡げるのが一番必要なわけです。<br><br>そこで宗教も、ただ日本人だけを信仰させるというのでは、およそこれからの世界とは違っているわけです。<br><br>世界救世教として、一番にアメリカ人を救おうと思ってます。<br><br>そうすれば、世界を天国の世にするにはこれが一番効果的であるし、手っ取り早いです。<br><br>神様は勿論その御心なのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão da Estirpe do Sol</h2>
 <p>Recentemente, visitei a exposição Nitten e redigi algumas impressões, as quais gostaria de compartilhar. A causa fundamental, a raiz de tudo isso, reside na falta de autoconsciência do povo japonês, que se julga inferior aos ocidentais. Por consequência, admiram tudo o que vem do Ocidente e consideram os ocidentais superiores, o que constitui um equívoco funesto. Tenciono abordar este assunto extensivamente, tanto em meus escritos quanto em minhas palestras, algo que já fazia com frequência antes do fim da guerra. Em minha obra “A Medicina do Futuro”, por exemplo, discorri sobre a analogia entre a Inglaterra e a Lua, os Estados Unidos e as estrelas, e o Japão e o Sol. Após a rendição, contudo, quando as forças de ocupação chegaram, houve quem me delatasse por tais afirmações. Felizmente, tal denúncia não prosperou. Era meu desejo instruir os japoneses sobre essa verdade, mas, durante a ocupação, o silêncio se impôs como única opção. Agora, com a assinatura do tratado de paz, sinto-me à vontade para falar abertamente. A ideia de que os japoneses são inferiores aos ocidentais é, de fato, um erro colossal.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Da mesma forma, creio que, na religião, orar ou tocar tambores não tem grande significado. O valor de uma religião reside unicamente em seus resultados tangíveis: a cura de doenças, a conquista da felicidade, a transformação de pessoas más em boas. Como o pensamento americano se alinha a esse princípio, nossos diálogos fluem com grande harmonia. O pior defeito dos japoneses, por outro lado, é justamente ignorar os fatos. Veja o caso da nossa recente publicação, a “Coletânea de Milagres da Sekaikyuseikyou”. O jornal Yomiuri publicou nosso anúncio, mas o Asahi e o Mainichi se recusaram. Creio que minhas palavras, por serem tão inesperadas e distintas dos discursos e sermões religiosos convencionais, os amedrontaram. A mentalidade geral dos jornalistas parece ser: “Ele não sabe nada de medicina, lidera uma religião nova que surgiu do nada e ainda tem a audácia de fazer afirmações tão grandiosas”. Eles se apegam a essa lógica ilógica e se recusam a olhar para os fatos, convencidos de que estão certos. Essa é a realidade atual. Uma abordagem americana seria completamente diferente: não importa quem ou como, se um método cura doenças melhor que a medicina, ele deve ser reconhecido e divulgado. É nesse princípio que reside a base da grandeza dos Estados Unidos.</p>
 <p>O Japão, por sua vez, não consegue se libertar de sua mentalidade insular, tornando-se mesquinho e limitado. Isso se manifesta em tudo. Mudando de assunto, ainda hoje o teatro e o rádio apresentam a história de <em>Chushingura</em>, o que é mais uma prova de que os japoneses permanecem presos a essa mentalidade. A história exalta a ideia de sacrificar a vida inteira para vingar o senhor feudal. Eu pergunto: qual foi o resultado prático disso para a felicidade do povo japonês? Se teve alguma utilidade, foi apenas como um meio para os detentores do poder da época, os daimyos, manterem sua autoridade, reforçando a lealdade de seus súditos. Para o povo comum, não trouxe benefício algum, não contribuiu em nada para sua felicidade. E, no entanto, essa mentalidade é exaltada, e os empresários do entretenimento continuam a explorá-la. Há um profundo descompasso entre isso e o verdadeiro pensamento democrático.</p>
 <p>A tarefa mais urgente para os japoneses é expandir essa visão tacanha, transformando-a em uma perspectiva global e humanitária. Uma religião que se propõe a converter apenas os japoneses está completamente desalinhada com o mundo que se avizinha. Como líder da Sekaikyuseikyou, pretendo, em primeiro lugar, salvar o povo americano. Pois este é o caminho mais eficaz e direto para transformar o mundo em um paraíso. E essa é, indubitavelmente, a Vontade de Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月26日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月二十六日 ついこの間、日展を見ましたが、それについて感想を書いてみたので読ませます。<br/><br/> （御論文「日展を観て」） 【栄光 二三六号】 つまり根本のまた根本の原因は、日本人がその自覚がないのです。<br/><br/>ということは、白人よりも劣っていると思っているのです。<br/><br/>だからなんでも西洋でできた物ならよい、西洋人は偉いと思っているのですが、これがたいへんな間違いです。<br/><br/>私はこのことも大いに言ったり書いたりしようと思ったのですが、これは終戦以前まではいろいろ書いたりしてました。<br/><br/>私の『明日の医術』に書いてありますが、英国は月、米国は星、日本は日ということを書いたことがありますが、これも終戦後進駐軍が来てから、それを密告した者があるのです。<br/><br/>しかしいいあんばいに、そういうことはなくてすみました。<br/><br/>そういうような具合で、日本人にそういうことを教えたいと思っていたのですが、なにしろ占領中はそういうことは言えないから黙っていたのです。<br/><br/>もう講和になった以上言えるから言うようなものの、実際日本人の方が白人よりも劣るというこの考えが、たいへんに間違っているのです。<br/><br/>これは日本人は世界一なのです。<br/><br/>まったく、日の本と言って、日の民族なのです。<br/><br/>要するに太陽系民族です。<br/><br/>つまり月の系統の民族が白人な町です。<br/><br/>ちょうど、いわば金と銀です。<br/><br/>ですからテンデ比較にならないのです。<br/><br/>そのために私は『アメリカを救う』という本を出したのです。<br/><br/>日本人は劣等感がありますから、あれをたいへんに大胆な、トビ上がったように見た人があるようですが、それを知らないからです。<br/><br/>日本人は太陽系ですから、昼間の人種です。<br/><br/>夜の民族を救うのはあたりまえで、少しの不思議はないのです。<br/><br/>値打ちが違うのです。<br/><br/>つまり金の値打ちと銀の値打ちの違いです。<br/><br/>そういうようなわけで、芸術も日本人の方がずっと上なのです。<br/><br/>だから日本人が油絵をまねするということは、とんでもない間違いです。<br/><br/>これはかえって外国人の方がよく知ってます。<br/><br/>現代の日本画は外人はハナにもかけません。<br/><br/>日本画と言えば、古い時代というほどのこともないが、油絵風にならないときの画は、大いに買いもするし認めていたのですが、今の洋画風になってからは、ぜんぜん見向きもしないです。<br/><br/>それでいてそれに気がつかないのです。<br/><br/>それでこの間展覧会に行ったときに、いったいこういう画は売れるのですかと、その方のことを知っている人に聞いたところが、売れないと言うのです。<br/><br/>いったいどうするのかと言ったところが、これはいろいろな会社の応接間とかなにかに頼んで掛けてもらって、そうして絵の具代としてお礼をもらうというぐらいのもので、ほとんど収入というものはないのです。<br/><br/>第一アンナ物は買い手がないです。<br/><br/>いっそ油絵ならよいですが、日本画は馬鹿デカイのです。<br/><br/>ふつうの家で買っても、床の間に掛けるわけにもゆかないし、屏風のようなものです。<br/><br/>ですから宝の持ち腐れになってしまいます。<br/><br/>私などは、くれると言ってもいりません。<br/><br/>それがウンと出ているのです。<br/><br/>そのウンと出た何分の一が入選したのですが私は見て気の毒でしようがないのです。<br/><br/>その絹とか絵の具代というのはたいへんなものでしょうが、もったいない話です。<br/><br/>それでそれを画く間、暇をつぶすのですから、生活費とかそういうことを考えたら、あのぐらいな浪費はないと思います。<br/><br/>これは本当は止めた方が、国家のためにどのくらい利益になるか分かりません。<br/><br/>なんにもならないことをしているのです。<br/><br/>それは日本画の良い絵なら日本人を楽しませることもできるし、外国にも出すことができますが、これでは日本人を楽しませることはできないし、外人は見向きもしないです。<br/><br/>今国家において一番無駄なものはそういう人たちでしょう。<br/><br/>それと病人を大事にしろ、肺病などは安静にして何年も寝ていろという、これも随分不生産です。<br/><br/>だから日本が貧乏になるのはあたりまえです。<br/><br/>今日本人ぐらい貧乏になる条件を備えている民族はないと思います。<br/><br/> 二、三日前にアメリカの女の新聞記者が来ましたが、その人の御亭主はＮＨＫの外語放送をやっている人です。<br/><br/>夫人は『ニホン・タイムズ』という新聞の記者で＝私のことも今度出すことになってますが＝いろんな話の中で、アメリカ人には非常に金持ちができるというのですが、その金持ちの弁明をしているわけです。<br/><br/>これは日本人はふだんから、アメリカの金のあるのを羨んでいるのを、ちょっと言い訳を言うかのように言ってましたが、ロックフェラー（三世で、今は孫になっているそうですが、よく知っているらしいです）にしても、あんまり金ができすぎてしまって、もう金などはいらないと言っているそうです。<br/><br/>だから頭は始終世界を平和にして、人類をみんな幸福にさせるということしか考えていないというのです。<br/><br/>それでロックフェラーだけでなく、アメリカの大きな金持ちというのは、みんなそういう考えを持っているそうです。<br/><br/>というのは、つまり非常に金が儲かる、金が溜まるような組織にもなっているし、日本みたいにそういう無駄とか、結果において不利益なことというのはアメリカ人は嫌いです。<br/><br/>だから国が富んで、そのためにああいう、今言ったように日本人が崇拝するような国になってしまったわけです。<br/><br/>そこで私はそれに対して、かえって私の方で言い訳を言ったのです。<br/><br/>アメリカで金を集め、非常に富むということは、自分たちが贅沢したりいばったりするというためでなく、世界を平和にするということのためだ。<br/><br/>それについては非常に金がいるから、アメリカで金を集めるということは、根本は正義感だ。<br/><br/>それでアメリカくらい正義感が強い国はないので、それで私はアメリカを非常によいと思っている。<br/><br/>とにかく世界の正義を維持しているのはアメリカなので、それにはやはり非常に物資もいります。<br/><br/>たとえてみれば軍備です。<br/><br/>だからアメリカが金を集めるという根本はそういう目的だからして、大いに集めて金持ちがたくさんできた方が結構だと思う、と言ってやりました。<br/><br/>私はふだんから思っているのは、もしかアメリカのあの富がなかったら、世界は共産主義になってしまいます。<br/><br/>とにかく共産主義の根本は人類愛ではないので、世界を自分の支配下にして、そうして要するに世界封建――ロシア帝国を造って、そうして世界を自由自在にしようというので――そういった根本が悪ですから、それではいけないから、それを押さえるというのはアメリカの力です。<br/><br/>朝鮮問題にしても、最初北鮮が南鮮を攻撃して釜山まで来たときに、もしアメリカが救わなかったら、もう、とうに朝鮮は北鮮のものになっていて、南北朝鮮を合併して、その後を中共が押さえ、その後をソ連が押さえているということになります。<br/><br/>そうしてその次には日本にやってくるに決まってます。<br/><br/>ですからもしあの時にアメリカが乗り出さなかったら、日本は中共のものになって、われわれは共産政策のもとに、ナッパ服のような物を揃って着ていなければならないのです。<br/><br/>なにしろ中共の国民はみんなナッパ服です。<br/><br/>それをとにかく中共を押さえて、こうやっていられるのはアメリカのお蔭です。<br/><br/>それをアメリカのそれに反対して、怨むのではないが、怨ませるように煽動しているのです。<br/><br/>社会党のように……。<br/><br/>そうして軍備をさせないように一生懸命にやってますが、この軍備をさせないということは、いずれは中共やソ連が日本をやっつけるときに、日本に軍備があるとよけいな手数がかかるというわけで、ぜんぜんソ連の方の味方です。<br/><br/>そうして投票までするのがあるのです。<br/><br/>ただ軍備をなくすれば亭主も伜（せがれ）も兵隊にとられない、安全だというわけなのですが、そこにちょっと気がつけば、なんでもないのです。<br/><br/>そうすれば、ある程度はやはり軍備をしなければならないのです。<br/><br/>いかに再軍備反対と言ったところで、そんなことにはかまわずドンドンやってゆきますが、これはやはり神様は邪には味方しないので、正の方に味方するから、心配はありませんが、そういうようなわけで、なかなか簡単にはゆかないわけです。<br/><br/> 日本人は世界で一番優秀だということは、勿論太陽の民族で、太陽系だからですが、日本人の中にも支那系と朝鮮系とあるのです。<br/><br/>それで真の大和民族というのはごく少ないのです。<br/><br/>これは少ないのはあたりまえで、良いものほど少ないのです。<br/><br/>神様はチャンとそういうふうに造ってあるのです。<br/><br/>ちょうどピラミッドみたいなものです。<br/><br/>一番上に行くほど範囲が小さくなってますが、それと同じで、日本人が一番少ないが、十番優秀なのです。<br/><br/>そうして日本人の大和民族というのは一番争いを嫌うのです。<br/><br/>絶対に争わないのです。<br/><br/>戦争を嫌うのです。<br/><br/>ですからその真の日本人の中心が私なのだから、私は武器を嫌うのです。<br/><br/>私は博物館に行くといつも、刀のある所は脇目もふらないで通り過ぎてしまいます。<br/><br/>とても気持ちが悪いのです。<br/><br/>だから私は美術品は随分集めるが、刀剣類は一つも集めません。<br/><br/>大和民族というのはそういうものです。<br/><br/>ですから大和民族が世界を支配するときがミロクの世界です。<br/><br/>しかし目下の人間は、争いが好きな、戦争が好きな――戦争が好きといったところで、やっぱりみんな嫌いなのです。<br/><br/>戦争は国家と国家の争いですが、個人と個人の争いということは好きなのです。<br/><br/>これが一番分かるのは政治家ですが、政治家ぐらい喧嘩の好きなのはないです。<br/><br/>なんでもないことで、穏やかに丸くすむことを、わざわざ喧嘩の材料にするので、見ていると実におかしいのです。<br/><br/>今一番やっているのは、鳩山の方と吉田の方とが手を握ろうか握るまいかと、ウンだりツブレたり毎日のようにやってます。<br/><br/>鳩山は吉田と仲良くなりたいと言うし、吉田の方も鳩山の方か改進党の方がなかったら絶対多数にならないので、それでは政治はできないから、どっちかを自分のほうと一致しなければならない。<br/><br/>しかし改進党の方は重光がナンダカンダと文句を言って、改進党の党員もいろんな苦情を言って容易に軽く行かない。<br/><br/>そこで鳩山に目をつけて、この方が可能性があるからですが、今や両方が手を握らんとしていることですが、ああいうことも、至極簡単に行くことです。<br/><br/>そうして党員の中にナンダカンダと言って、つまらないことで、理由もなく、面目上か今までの成り行きかで、変なことを争っているのです。<br/><br/>だから戦争は嫌いだが、個人的争いは実に好きです。<br/><br/>もっとも、小さくは夫婦の争いですが、おそらく夫婦喧嘩をしない家庭よりも、する家庭の方がずっと多いでしょう。<br/><br/>十軒のうちに夫婦喧嘩をしないというのは一軒もどうですか。<br/><br/>それから兄弟喧嘩と、実に喧嘩が好きです。<br/><br/>そういうようなわけで、これは大和民族が喧嘩の嫌いなそういう民族が、今まで下積みにされていたわけです。<br/><br/>そうして喧嘩の好きな系統がみんな上に立ってやっていたわけです。<br/><br/>これを神様が平和的に、平和の好きな方の趣意に賛成するわけです。<br/><br/>というのは、やはり平和の力ですが、平和の力というのは、一番おもしろいと思うのは、私が今書いているのは、殺人原爆――人を殺す原子爆弾――と、活人原爆ですが、私の方でこうやりますが、これは人を活かす原子爆弾です。<br/><br/>ところが、人を殺す原子爆弾は今まで人類にはなかったのです。<br/><br/>最近に到って人殺し原子爆弾というのが現われて、世界中に一大恐怖が起こったわけです。<br/><br/>ところがこうやって人を活かす原子爆弾も、今まではなかったのです。<br/><br/>ちょうど人殺し原子爆弾が生まれるとちょうど同じように、人を活かす原子爆弾が現われたわけです。<br/><br/>これは神様もなかなかうまくやられたわけです。<br/><br/>ところが人を殺す原子爆弾の方は形に現われるから、一度に世界に知れてしまったが、人を活かす原子爆弾の方は、なかなか急には分からせられないのです。<br/><br/>しかしながら、なにしろ神様がやっているのですから、世界中に分かるのは決まってます。<br/><br/>ただこの方は少し暇がかかるだけのものです。<br/><br/>そこで人を殺す原子爆弾が最後に出て、それから人を活かす原子爆弾が出て、そこで初めて地上天国ができるのです。<br/><br/>そういうように考えるとよく分かると思います。<br/><br/>そういう人を活かす原子爆弾、要するに平和を造る力というものは大和民族でなければならないのです。<br/><br/>そこまで分からせなくても、日本人の優秀性は他の例でもたくさんありますから、私はだんだんそれをアメリカ人にも分からせようと思ってます。<br/><br/>しかしそれにはよほど慎重にやらないと、また日本人の奴馬鹿に偉がって、前のようなことでオッ始めるとたいへんだ、というそういう懸念もありますから、どうしても浄霊で病気を治すということが最初です。<br/><br/>これをすっかり分からせなければならないのです。<br/><br/> それと、一つは宗教的に行くのですから、ある程度は最初から変な目で見ることはないです。<br/><br/>アメリカの一部にはだいぶ救世教ということに関心を持ってきて、つまり有識階級の人たちが私に会いたいというような話もあります。<br/><br/>それで一昨日来た『ニホン・タイムズ』の記者なども、自分は日本に四年いるけれども、あなたのような意見の人は日本人には一人もない、自分も非常に共鳴するということを言って、非常に褒めてました。<br/><br/>というのは、一つは私がだいたいアメリカ人に似ていて、日本人離れがしているので、アメリカ人にはピタッとゆくのです。<br/><br/>だいたい美術評論家なので美術に対する眼識は日本人にもないくらいよく分かります。<br/><br/>私も感心したくらいです。<br/><br/>それでこういうことを言っていました。<br/><br/>自分は世界のあらゆる美術館を見た。<br/><br/>なるほど立派な物もすばらしい物もあるが、ただそれだけであって箱根美術館みたいに、いろいろな自然の風景とか草木、石類を調和して、一つのああいった雰囲気というものの作られている所は一つもない。<br/><br/>それについて自分は実に打たれる。<br/><br/>あそこにいるとどうしても去ることができなかった、と言うのです。<br/><br/>一昨日来たのですが、時間がないのでとうとう思いきって帰ったというくらいで、あれほどの美術館というのは実にすばらしい物だと言って感心してました。<br/><br/>今度は主人を連れて熱海の方も見るつもりだそうです。<br/><br/> それから宗教の方にもなかなか関心を持っていて、宗教の話も随分しましたが、なかなかの見識があります。<br/><br/>そこで、これからアメリカ人の偉い人を連れてくるからよいかと言うので、結構だから、いつでも私は万障繰り合わして会うからと約束をしました。<br/><br/>そういうような具合で、ぜんぜん日本人と違って非常に分かりよいのです。<br/><br/>宗教のことなども実に分かるのです。<br/><br/>というのは、どの点が私と一番一致するかというと、現実主義なことです。<br/><br/>その仕事が形に現われる結果ということに一番重きをおくのです。<br/><br/>それからこういうことも言ってました。<br/><br/>すなわち、日本人は明治天皇を非常に偉いとして崇拝している。<br/><br/>しかし自分から見れば明治天皇は、軍人をたくさん作ったことと、武器を大いに作ったというそれだけではないか、だから平和に対することは別にたいしてやってないではないか、ということを言ってましたが、これもアメリカ式の現実主義です。<br/><br/>ですから私は、宗教も拝んだり太鼓叩いたりするということは別に意味がない。<br/><br/>それよりか病気が治るとか幸福になるとか、悪人が善人になるとか、本当に現実に現われる、それだけが宗教の価値だと考えてます。<br/><br/>アメリカ式の考え方もそれですから、そこで話がよく合うのです。<br/><br/>ところが日本人の一番悪いのはその点にあります。<br/><br/>事実を無視することです。<br/><br/>たとえてみれば、今度の『救世教奇蹟集』にしても、読売は出しましたが、朝日、毎日は広告を出さないのです。<br/><br/>つまり私の言うことが、あまり意表に出るので、今までの宗教の言い方や説とは違うから、そこで恐れをなしたのだろうと思います。<br/><br/>しかし一般ジャーナリストは、“医学のイの字も知らない、おまけに新興宗教で、近ごろニョキニョキと頭を出したくせに、コンナ大それた”ということで、事実を見ないで、ただそういったような理屈にならない理屈をつけて、そうして自分ではそれが良いと思っているのでしょうが、そういった現在です。<br/><br/>ですからこれがアメリカ式にゆくと、なにがなんでも、とにかく何者がこういうことをしても、事実医学よりもよく病気が治ればよいではないか、それを取りあげるのがよいという考え方です。<br/><br/>そこにアメリカがああいう立派な国になる根本があるのです。<br/><br/>日本は、島国根性が抜けきれないで小乗的になってしまうのです。<br/><br/>それがなんにでも現われてます。<br/><br/>話は違うが、今もって芝居やラジオで忠臣蔵をやってますが、これも日本人の今もって囚われた島国根性から抜けきれない証拠です。<br/><br/>ですから忠臣蔵で、一生涯を犠牲にして自分の殿様の仇をうつというのですが、そういうような考え方として、結果はいったい日本人の幸福に対してどれだけの役に立つかということを言いたいのです。<br/><br/>もし役立つとすると、その当時の権力者、大名などに対する忠義ということは、その大名が権力を維持するうえにおいての一つの手段です。<br/><br/>それがために一般民衆はなんにもならないので、少しも幸福の役に立つわけではないので、それをたいしたように思い、また思っている考えがあるので、それだから興行師がそういう物を扱うようになるのです。<br/><br/>ですから今の本当の民主主義の思想と、くい違いもはなはだしいです。<br/><br/>日本人のこういった小さな思想を、もっと世界的に人類愛的に拡げるのが一番必要なわけです。<br/><br/>そこで宗教も、ただ日本人だけを信仰させるというのでは、およそこれからの世界とは違っているわけです。<br/><br/>世界救世教として、一番にアメリカ人を救おうと思ってます。<br/><br/>そうすれば、世界を天国の世にするにはこれが一番効果的であるし、手っ取り早いです。<br/><br/>神様は勿論その御心なのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

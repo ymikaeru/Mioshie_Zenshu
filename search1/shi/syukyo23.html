@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo23</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と妨害 『栄光』172号、昭和27(1952)年9月3日発行 昔から宗教に妨害は付物とされているが、その中の一番大なるものは、彼のキリストの受難であろう。<br><br>その外釈迦に提婆（だいば）なども有名なものだが、日本においても法然、親鸞、日蓮等の受難も衆知の通りであるし、近いところでは天理教、大本教、人の道等もそうであったと共に、本教も御多聞に洩れず、今までにも何回となく弾圧され新聞を賑わした事は、新宗教中の有難くもない王座を占めていた訳である。<br><br>そうして面白い事には、その宗教が将来性があり、価値の高いもの程正比例的に、妨害も強い事実である。<br><br>というのはどういう訳であるかをかいてみよう。<br><br> 言うまでもなく、宗教なるものは霊主体従の法則により、霊界における神々が主神の命に従って、時と所と民族に適応する救いを行うので、キリスト教、仏教、マホメット教のごときは、その最大なものである。<br><br>もちろん宗教の建前は善を諭（おし）え、人類社会を天国化するにあるので、人間からみれば結構ではあるが、邪神の方では全然反対である。<br><br>というのは邪神は悪の人間を作り、苦悩に充ちた地獄社会を作るのが目的であるから、絶えず正神と闘っている。<br><br>これが霊界の実相であって、そのまま現界に映るのであるから、見らるる通りの地獄世界である。<br><br> そうして小善には小悪の邪神が妨害し、大善には大悪の邪神が妨害するのはもちろんである。<br><br>このような訳だから我メシヤ教に対しても、絶えず邪神界の頭目が妨害に当っている。<br><br>何しろ歴史はじまって以来ない偉大な宗教であるから、邪神界は大恐慌を起している。<br><br>この事は細大洩らさず私には分るが、信者の方でも各地において神憑等によって、その片鱗を知らされているであろう。<br><br>そうして今最も活躍しているのが赤龍と黒龍の頭目で、これが多くの眷族（けんぞく）を使い、共同的に妨害しているのであるから堪らない。<br><br>その争闘たるや血湧き肉躍るの概がある。<br><br>それらを赤裸々にかきたいが、今は神様から止められているので、残念ながら、いずれ時が来れば発表するつもりである。<br><br>ところで何程邪神の頭目が大々的に妨害しようとしても、コチラの方には金剛力を揮われる最高の神様が付いているから、一時は負けても最後は必ず勝つので心配は要らないが、勝つまでの苦しみは相当なものである。<br><br>しかし随分妨害されながらも、順調に発展しつつあるのは見らるる通りである。<br><br>ここで知っておくべきは邪神の特長である。<br><br>それは驚く程の執拗さで、幾度失敗しても決して懲りたり諦めたりするような事はない。<br><br>どこまでもあの手この手でやってくる。<br><br>その点とても人間では想像もつかない程である。<br><br>しかもその無慈悲残虐なる悪魔的心理に至っては、形容の言葉すらないので、これが邪神の本性であるから致し方ないのである。<br><br>そうして悪魔中の力ある奴程、人間界の社会的地位ある者やインテリゲンチャ、ジャーナリスト中から選び憑くのであるから、この真相が分ったなら愕然とするであろう。<br><br> 従ってこういう凄い悪魔と、それ以上の神様との闘いが始終行われているにかかわらず、見えざる霊界の事とて知るはずもないから、人形同様に躍らされているのが万物の霊長様である。<br><br>もちろん当事者である私にはよく分るから、恐ろしい事もあり、面白い事もあり、愉快でもあるので、この心境のみはいかなる人でも分らないのである。<br><br>しかも今度の御神業における正邪の戦いは、古往今来かつてない程の千変万化、虚々実々の大芝居で、ただ神秘と云うより外はないのである。<br><br>ところでそれについての大きな問題は、地球の一大転換である。<br><br>それは昔から今日までの神と悪魔の戦いですなわち夜の世界であったからで、神の方が一旦敗北すると、挽回に相当の時を要したものが、最近に至っては非常に狭まって来た事は信者も知る通りである。<br><br>ところが今や昼の世界に移りつつあるから、邪神の力は段々弱まって来た。<br><br>そのため挽回の速い事は、反ってプラスになる場合さえあるくらいで、それは事実が示している。<br><br>一昨年五月のアノ事件は、一時は致命的と思われるくらいの打撃を受けたので、世間では再び起つ事は出来まいと思われたにかかわらず、僅か二年を経た今日、箱根熱海の地上天国の進捗や、教勢の拡大等誰も予想のつかない程の発展振りである。<br><br>従ってもしアノ事件がなかったとしたら、この何倍の発展か分らないはずである。<br><br>というのは神様の威力が非常に強くなった証拠であるから、何といっても今一息というところまで来ているのである。<br><br>いずれは全世界から引っ張凧にされる時の来るのは必定である。<br><br>もっとも世界人類を救うという空前の偉業であるから、これくらいの妨害は当たり前かも知れないとも思っているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza da Perseguição Religiosa</h2>
 <p>Desde tempos imemoriais, a perseguição tem sido um elemento indissociável da trajetória das religiões, e o ápice de tal fenômeno foi, sem dúvida, o martírio de Cristo. Além dele, as tribulações sofridas por Shakyamuni com Devadatta são igualmente famosas. No Japão, as provações de Honen, Shinran e Nichiren são de notório saber, e, em tempos mais recentes, a Tenrikyo, a Oomoto e a Hito-no-Michi enfrentaram o mesmo destino. Nossa Igreja, não fugindo à regra, sofreu inúmeras repressões que estamparam as manchetes dos jornais, ocupando, de forma inglória, uma posição de destaque entre as novas religiões. É um fato que, quanto maior o valor e o potencial de uma religião, mais intensa é a perseguição que ela enfrenta, numa relação de proporcionalidade direta. Explicarei a razão de tal fenômeno.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Apesar de essa tremenda batalha entre o bem e o mal, entre Deus e os demônios, se desenrolar continuamente, as pessoas nada percebem, pois ela ocorre no invisível Mundo Espiritual. Assim, os autoproclamados “senhores da criação” são manipulados como marionetes. Eu, que participo diretamente dos acontecimentos, compreendo-os com clareza, o que os torna ao mesmo tempo terríveis, fascinantes e até mesmo prazerosos. É um estado de espírito que ninguém mais poderia compreender. Essa contenda sagrada entre o bem e o mal constitui um grandioso espetáculo de infindáveis transformações, um intricado jogo de verdades e falsidades, algo que só pode ser descrito como um profundo mistério.</p>
 <p>A questão central, no entanto, é a grande transição pela qual a Terra está passando. Desde a antiguidade até os dias de hoje, vivemos no Mundo da Noite, palco da luta entre Deus e os demônios. Nesse período, quando o lado de Deus sofria uma derrota, a recuperação exigia um tempo considerável. Recentemente, como os fiéis já sabem, esse intervalo diminuiu drasticamente. Agora, porém, estamos adentrando o Mundo do Dia, e o poder dos espíritos malignos enfraquece progressivamente. Por isso, a recuperação se tornou tão rápida que, em certas ocasiões, a adversidade reverte-se em benefício. Os fatos comprovam essa realidade.</p>
 <p>O incidente ocorrido em maio do ano retrasado é um exemplo eloquente. Naquela ocasião, sofremos um golpe que pareceu fatal, e a opinião pública julgou que jamais nos reergueríamos. Contudo, passados apenas dois anos, o avanço na construção do Paraíso Terrestre em Hakone e Atami e a expansão da nossa Igreja atingiram um patamar que ninguém poderia imaginar. Se aquele incidente não tivesse ocorrido, é impossível prever quão maior teria sido nosso crescimento. Isso é prova de que o poder de Deus se fortaleceu imensamente. Estamos, portanto, a um passo da vitória final. Inevitavelmente, chegará o tempo em que nossa obra será requisitada por todo o mundo. Afinal, por se tratar da missão sem precedentes de salvar toda a humanidade, talvez um grau tão elevado de perseguição seja algo natural.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と妨害 『栄光』172号、昭和27(1952)年9月3日発行 昔から宗教に妨害は付物とされているが、その中の一番大なるものは、彼のキリストの受難であろう。<br/><br/>その外釈迦に提婆（だいば）なども有名なものだが、日本においても法然、親鸞、日蓮等の受難も衆知の通りであるし、近いところでは天理教、大本教、人の道等もそうであったと共に、本教も御多聞に洩れず、今までにも何回となく弾圧され新聞を賑わした事は、新宗教中の有難くもない王座を占めていた訳である。<br/><br/>そうして面白い事には、その宗教が将来性があり、価値の高いもの程正比例的に、妨害も強い事実である。<br/><br/>というのはどういう訳であるかをかいてみよう。<br/><br/> 言うまでもなく、宗教なるものは霊主体従の法則により、霊界における神々が主神の命に従って、時と所と民族に適応する救いを行うので、キリスト教、仏教、マホメット教のごときは、その最大なものである。<br/><br/>もちろん宗教の建前は善を諭（おし）え、人類社会を天国化するにあるので、人間からみれば結構ではあるが、邪神の方では全然反対である。<br/><br/>というのは邪神は悪の人間を作り、苦悩に充ちた地獄社会を作るのが目的であるから、絶えず正神と闘っている。<br/><br/>これが霊界の実相であって、そのまま現界に映るのであるから、見らるる通りの地獄世界である。<br/><br/> そうして小善には小悪の邪神が妨害し、大善には大悪の邪神が妨害するのはもちろんである。<br/><br/>このような訳だから我メシヤ教に対しても、絶えず邪神界の頭目が妨害に当っている。<br/><br/>何しろ歴史はじまって以来ない偉大な宗教であるから、邪神界は大恐慌を起している。<br/><br/>この事は細大洩らさず私には分るが、信者の方でも各地において神憑等によって、その片鱗を知らされているであろう。<br/><br/>そうして今最も活躍しているのが赤龍と黒龍の頭目で、これが多くの眷族（けんぞく）を使い、共同的に妨害しているのであるから堪らない。<br/><br/>その争闘たるや血湧き肉躍るの概がある。<br/><br/>それらを赤裸々にかきたいが、今は神様から止められているので、残念ながら、いずれ時が来れば発表するつもりである。<br/><br/>ところで何程邪神の頭目が大々的に妨害しようとしても、コチラの方には金剛力を揮われる最高の神様が付いているから、一時は負けても最後は必ず勝つので心配は要らないが、勝つまでの苦しみは相当なものである。<br/><br/>しかし随分妨害されながらも、順調に発展しつつあるのは見らるる通りである。<br/><br/>ここで知っておくべきは邪神の特長である。<br/><br/>それは驚く程の執拗さで、幾度失敗しても決して懲りたり諦めたりするような事はない。<br/><br/>どこまでもあの手この手でやってくる。<br/><br/>その点とても人間では想像もつかない程である。<br/><br/>しかもその無慈悲残虐なる悪魔的心理に至っては、形容の言葉すらないので、これが邪神の本性であるから致し方ないのである。<br/><br/>そうして悪魔中の力ある奴程、人間界の社会的地位ある者やインテリゲンチャ、ジャーナリスト中から選び憑くのであるから、この真相が分ったなら愕然とするであろう。<br/><br/> 従ってこういう凄い悪魔と、それ以上の神様との闘いが始終行われているにかかわらず、見えざる霊界の事とて知るはずもないから、人形同様に躍らされているのが万物の霊長様である。<br/><br/>もちろん当事者である私にはよく分るから、恐ろしい事もあり、面白い事もあり、愉快でもあるので、この心境のみはいかなる人でも分らないのである。<br/><br/>しかも今度の御神業における正邪の戦いは、古往今来かつてない程の千変万化、虚々実々の大芝居で、ただ神秘と云うより外はないのである。<br/><br/>ところでそれについての大きな問題は、地球の一大転換である。<br/><br/>それは昔から今日までの神と悪魔の戦いですなわち夜の世界であったからで、神の方が一旦敗北すると、挽回に相当の時を要したものが、最近に至っては非常に狭まって来た事は信者も知る通りである。<br/><br/>ところが今や昼の世界に移りつつあるから、邪神の力は段々弱まって来た。<br/><br/>そのため挽回の速い事は、反ってプラスになる場合さえあるくらいで、それは事実が示している。<br/><br/>一昨年五月のアノ事件は、一時は致命的と思われるくらいの打撃を受けたので、世間では再び起つ事は出来まいと思われたにかかわらず、僅か二年を経た今日、箱根熱海の地上天国の進捗や、教勢の拡大等誰も予想のつかない程の発展振りである。<br/><br/>従ってもしアノ事件がなかったとしたら、この何倍の発展か分らないはずである。<br/><br/>というのは神様の威力が非常に強くなった証拠であるから、何といっても今一息というところまで来ているのである。<br/><br/>いずれは全世界から引っ張凧にされる時の来るのは必定である。<br/><br/>もっとも世界人類を救うという空前の偉業であるから、これくらいの妨害は当たり前かも知れないとも思っているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

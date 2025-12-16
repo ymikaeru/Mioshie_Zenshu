@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jisitu3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痔疾患 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 日本人特有の病気に痔疾患がある。<br><br>其病気症状も種々ある事は、世人が知る通りである。<br><br>其中最も多いのは脱肛であらう。<br><br>之は、医学でも言ふ通り、日本の便所の構造が悪い為も確かにある。<br><br>そうして脱肛は、排便方法によつて治すのが一番良いのである。<br><br>それは、便所の時間が長いのが、最大原因であるから、之を先ず短縮する事である。<br><br>即ち排便が有る無しに関はらず、一回を五分以内とすること。<br><br>但し、一日何回でも差支へない。<br><br>此方法を一二年続くるに於て、必ず治癒又は軽快するのである。<br><br>又今一つの原因は便秘による硬便であるが、之は本治療を施せば容易に治癒するのである。<br><br> 次に、疣痔（いぼじ）は、放任しておいても長時日によれば治癒するが、如何なる重症であつても本治療によれば短時日で全治するのである。<br><br>又出血、掻痒症等もあるが、之等も放任しておいても、自然治癒するのである。<br><br> 又世人に非常に怖れられてゐるものに痔瘻（じろう）があるが、之は決して怖るべき病気ではないのである。<br><br>最初から放任しておけば長時日膿が排泄されて必ず治癒するのである。<br><br>然るに、之を知らない世人は、医療によらなければ治癒しないと思ふのであるが、医療は、排膿孔を手術によつて閉塞するので、膿は隣接部から穿孔排膿する。<br><br>それを又閉塞する。<br><br>復穿孔するといふやうに繰返すに於て、遂には蜂の巣のやうになる。<br><br>而も、之に薬毒が加はるから激烈な痛苦を伴ひ、頗る悪性になるのであるが、本治療によれば、如何なる痔瘻と雖も完全に全治するので、痔瘻は、私は、治りいい病気と常に言つてゐるのである。<br><br>そうして世間よく痔瘻を手術すると肺病になり易いと謂はれるが、之はどういふ訳かといふと元来痔瘻の原因は、軽症なるカリヱスの如きものであつて、その膿が肛門から排泄する訳であるから、肛門の排泄口を閉鎖すればその膿は肋膜又は肺臓内へ浸潤し、喀痰によつて排泄されようとする―それが肺病になるといはれる訳である。<br><br> そうして、痔の出血を世人は恐れるのであるが、これは浄化作用による濁血の排泄であるから、反つていいのである。<br><br>丁度、赤痢の血便と同様な意味であつて、後頭部の重い症状や、首肩の凝りが、痔出血によつて治癒する事がよくあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Moléstias Hemorroidárias</h2>
 <p>Entre as enfermidades características do povo japonês, destacam-se as moléstias hemorroidárias. Como é de conhecimento geral, suas manifestações sintomáticas são diversas, sendo o prolapso anal a mais comum. A estrutura inadequada dos sanitários japoneses, conforme aponta a própria medicina, contribui para essa condição.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>As fístulas anais, por sua vez, são alvo de grande temor, mas, na verdade, não se trata de uma enfermidade que justifique tal receio. Se deixada evoluir naturalmente desde o início, a fístula permite a drenagem do pus por um longo período, culminando invariavelmente na cura. Contudo, por desconhecerem esse processo, as pessoas creem que a cura só é possível por meio da intervenção médica. O tratamento convencional, no entanto, consiste em fechar cirurgicamente o orifício de drenagem. Como resultado, o pus acumulado perfura um novo canal em uma área adjacente para ser expelido. Este novo orifício é, por sua vez, fechado, e o ciclo se repete até que a região se assemelhe a um favo de mel. Adiciona-se a esse quadro a intoxicação medicamentosa, o que agrava a condição, tornando-a extremamente maligna e acompanhada de dores lancinantes. Nosso tratamento, por outro lado, promove a cura completa de qualquer fístula anal, por mais complexa que seja. Por essa razão, costumo afirmar que se trata de uma doença de fácil recuperação.</p>
 <p>É comum ouvir-se que a cirurgia de fístula anal pode levar ao desenvolvimento de doenças pulmonares. A explicação para tal fato reside na própria origem da fístula, que, em sua essência, assemelha-se a uma forma branda de cárie óssea, cuja secreção purulenta é naturalmente expelida pelo ânus. Quando o orifício de drenagem anal é obstruído cirurgicamente, o pus é forçado a se infiltrar na pleura ou nos próprios pulmões. Dessa forma, o organismo tenta expelir a secreção através do escarro, processo este que é diagnosticado como uma doença pulmonar.</p>
 <p>Por fim, muitas pessoas temem o sangramento hemorroidário; todavia, ele é, na verdade, um processo benéfico. Trata-se da eliminação de sangue impuro, como parte de uma ação purificadora do organismo. O fenômeno é análogo ao das evacuações sanguinolentas na disenteria. Com efeito, não é raro que sintomas como peso na nuca ou enrijecimento do pescoço e dos ombros sejam sanados precisamente por meio desse sangramento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痔疾患 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 日本人特有の病気に痔疾患がある。<br/><br/>其病気症状も種々ある事は、世人が知る通りである。<br/><br/>其中最も多いのは脱肛であらう。<br/><br/>之は、医学でも言ふ通り、日本の便所の構造が悪い為も確かにある。<br/><br/>そうして脱肛は、排便方法によつて治すのが一番良いのである。<br/><br/>それは、便所の時間が長いのが、最大原因であるから、之を先ず短縮する事である。<br/><br/>即ち排便が有る無しに関はらず、一回を五分以内とすること。<br/><br/>但し、一日何回でも差支へない。<br/><br/>此方法を一二年続くるに於て、必ず治癒又は軽快するのである。<br/><br/>又今一つの原因は便秘による硬便であるが、之は本治療を施せば容易に治癒するのである。<br/><br/> 次に、疣痔（いぼじ）は、放任しておいても長時日によれば治癒するが、如何なる重症であつても本治療によれば短時日で全治するのである。<br/><br/>又出血、掻痒症等もあるが、之等も放任しておいても、自然治癒するのである。<br/><br/> 又世人に非常に怖れられてゐるものに痔瘻（じろう）があるが、之は決して怖るべき病気ではないのである。<br/><br/>最初から放任しておけば長時日膿が排泄されて必ず治癒するのである。<br/><br/>然るに、之を知らない世人は、医療によらなければ治癒しないと思ふのであるが、医療は、排膿孔を手術によつて閉塞するので、膿は隣接部から穿孔排膿する。<br/><br/>それを又閉塞する。<br/><br/>復穿孔するといふやうに繰返すに於て、遂には蜂の巣のやうになる。<br/><br/>而も、之に薬毒が加はるから激烈な痛苦を伴ひ、頗る悪性になるのであるが、本治療によれば、如何なる痔瘻と雖も完全に全治するので、痔瘻は、私は、治りいい病気と常に言つてゐるのである。<br/><br/>そうして世間よく痔瘻を手術すると肺病になり易いと謂はれるが、之はどういふ訳かといふと元来痔瘻の原因は、軽症なるカリヱスの如きものであつて、その膿が肛門から排泄する訳であるから、肛門の排泄口を閉鎖すればその膿は肋膜又は肺臓内へ浸潤し、喀痰によつて排泄されようとする―それが肺病になるといはれる訳である。<br/><br/> そうして、痔の出血を世人は恐れるのであるが、これは浄化作用による濁血の排泄であるから、反つていいのである。<br/><br/>丁度、赤痢の血便と同様な意味であつて、後頭部の重い症状や、首肩の凝りが、痔出血によつて治癒する事がよくあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ichino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一の感想 百地超生 『地上天国』31号、昭和26(1951)年12月25日発行 某日、本教に二三年来関係している某氏がある場所への明主様の御欠席を謝るのに「何分ワンマンだからね」といった言葉が何か侮蔑的に耳に響いて一瞬憤激を覚えた ワンマンとはその人の偉大さの反面、その独裁性の揶揄的表現であろうからである。<br><br>しかし、彼としては、そのような悪意的に発した言辞でもなかったらしいので黙許した。<br><br> 要するに彼氏の言うワンマンとは、明主様は救世教における絶対者であるという意なのであろう。<br><br>ただ吾等としては明主様を世にいうワンマンと同視又は比較視して許さるる如き事は心外に堪えぬ所である。<br><br> 言うまでもなく、明主様は本教の生命であらせられ、本教の一切は明主様の御徳と御力によって成立ち動いている。<br><br>そして役員信徒は一人も残らず、死の運命を明主様の御力によって救われ、その御高恩に酬い奉る道として、人類救済の御聖業に誠を尽し、大いなる幸福を与えられている。<br><br>故に明主様は強制や独善のない自らなる感謝の絶対者であらせられる。<br><br> 本教の現在の仕事としては、浄霊、宣教、出版、造営、美術等であるが、今後益々多角的にその部門はふえてゆくのである。<br><br>そして、明主様の御仕事は非常に高度な新文明世界建設であるから、従来の智識や経験で固まった凡人の頭脳ではリード出来ぬ故、本教の仕事の根本は悉く明主様の御指示を仰がねば成らぬ事のみである。<br><br> 特に神苑の造営の如き、その一木一草一石たりとも明主様の御差図によらねば手を染める事は出来ぬ。<br><br>例えば、巌石の配置の如き、従来の造苑技術の常識の正反対の手法によって飛躍的効果を発揮され、斯道（しどう）の権威者を呆然たらしめられた程であって、神にして初めて可能な御構想である。<br><br> 特に最も厄介な事は、吾々奉仕者の頭脳である。<br><br>ひとり造営のみではないが、明主様はよく仰せられていた「ただ頭の悪いだけなら始末がいいが、変なのは一番厄介だ。<br><br>例えば造営にしても、決して私の差図通りにしない。<br><br>それでやり直させると今度は逆に間違える。<br><br>又やり治すで、何遍やり治すか判らぬ、全く根比べである。<br><br>物によっては諦めて、そのままにする事もある」と。<br><br> 吾々は長い夜の期間、逆理によって頭脳を変質的に発達せしめ、肉体を削って退化せしめており、明主様から御覧になれば一種の不具者であろう。<br><br> 吾々の考えは、大抵は明主様の御考えと反対の場合が多い。<br><br>そして肉体はガタバスに例えられ、明主様から御修理いただかねばすぐに動けなくなってしまう。<br><br>吾々は未だに錆ついて壊れかかった器械なのだ。<br><br>吾々の信仰の努力は、神の思召に通う利器となる事にあった。<br><br>しかしそれも御使用に堪え得る程度に修理頂かねば果し得ぬ事である。<br><br> 私が御恵豊かな御側近に在った二十年間、これでは足りない、申訳ない、これでいいのかと、常に足らざる気持に追われていたが、しかも未だ故障しやすい車の域を脱していない。<br><br>古い信仰者は皆同一の気持であろう。<br><br> 明主様の御差図戴けるのは、その衝に当る少数の人々のみであるが、そのお差図は常に即決簡明で些かの無理もない。<br><br>何事にもあれ御言葉通り遵守すれば面白い程順調にゆく、吾々はただ与えられた道を楽しく前進すればよいのだ。<br><br>仮に難関に逢着しても迷わず突破すれば、予想外の好結果を獲られる。<br><br>それなのに心内の悪魔は隙をみては御言葉に対する批判的囁きをする。<br><br>そして光の道を遮蔽せんとしたり、間違った横道を設けたりする。<br><br>一度この囁きに同調せんか、迷路は迷路を生んで、危うく断崖に落込まんとしては、お慈悲にお救いいただく、このような過ちを未だに繰返す恐れある吾々のあさましさである。<br><br> 御偉業の蔭には、このような大中小様々の御煩瑣（はんさ）がある。<br><br>ただ、吾々信徒に与えられた大自由の中に常に明るく笑まれる御顔からは誰一人伺い得ぬまでである。<br><br> 吾々古い信徒は、長い御奉仕によって、勲功をたてたという誇りを心のどこかで意識してもいるが、事実は果して手柄をたてたか、あるいはお手数をかけたのか、あるいは神業の妨害をしていたのか断定は出来ぬ。<br><br>よし勲功をたて、慈まれた境遇となっているとしても、それは自力によって獲得したものではなく、明主様の御力で与えられたものである事を知る時、手柄顔は出来ないのである。<br><br>否吾々はまず生命を与えられ、御奉仕する事によって深い罪障の御許をいただくものである事を忘れてはならないと思う。<br><br> 明主様は、筆に口に日々御救の道を説かれている。<br><br>それは悉く、如何なるものも救い幸福を与えずにおかぬ人類愛から迸り出る真理である。<br><br>もし人類がこれを信奉すれば、直に夢の如き幸福が訪れるし、これを受入れぬとすれば、それは自ら幸福を否定し、救いを拒絶するに等しい絶対のものである。<br><br> 明主様の備え給う火水土三位一体の御権威の神秘については吾々の想像の外である。<br><br>私はただ明主様に対し奉る吾々の気持の一端を述べて、筆を擱くとする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Autoridade Divina de Meishu-Sama</h2>
 <p>Certo dia, as palavras de um senhor que se relaciona com nossa Igreja há alguns anos soaram-me de forma algo depreciativa, causando-me um assomo de indignação. Ao justificar a ausência de Meishu-Sama em determinado local, ele comentou: "Sabe como é, ele é um <em>one-man</em>". A expressão <em>one-man</em> é comumente empregada de forma pejorativa para ironizar o caráter autocrático de alguém, em contraponto à sua grandeza. Todavia, como percebi que sua intenção não era maliciosa, silenciei e permiti que o comentário passasse.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Nós, membros antigos, talvez tenhamos em algum recanto da alma o orgulho de havermos acumulado méritos por tantos anos de dedicação. Mas, na verdade, como podemos ter certeza? Acaso realizamos grandes feitos, ou apenas Lhe causamos transtornos? Ou, pior, teríamos sido um empecilho para a Obra Divina? Mesmo que tenhamos acumulado méritos e nos encontremos em uma situação abençoada, quando compreendemos que tal condição não foi conquistada por nosso próprio esforço, mas nos foi concedida pelo poder de Meishu-Sama, não há espaço para a vanglória. Não, antes de tudo, não devemos nos esquecer de que recebemos o dom da vida e que, ao servir, nos é outorgado o perdão de nossos profundos pecados e impurezas.</p>
 <p>Diariamente, seja por meio da escrita ou da palavra, Meishu-Sama nos ensina o caminho da salvação. Tudo o que Ele transmite é a mais pura verdade, que jorra de um amor que anseia por salvar e agraciar com a felicidade toda a humanidade. Se os seres humanos aceitarem Seus Ensinamentos com fé, uma felicidade celestial os alcançará imediatamente. Rejeitá-los, por outro lado, equivale a negar a própria felicidade e a recusar a salvação. Nisso reside seu caráter absoluto.</p>
 <p>O mistério da autoridade de Meishu-Sama, que integra a Trindade do Fogo, da Água e da Terra, transcende nossa imaginação. Com estas palavras, busco apenas expressar uma pequena parcela dos sentimentos que nutrimos por Meishu-Sama, e assim, concluo este texto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一の感想 百地超生 『地上天国』31号、昭和26(1951)年12月25日発行 某日、本教に二三年来関係している某氏がある場所への明主様の御欠席を謝るのに「何分ワンマンだからね」といった言葉が何か侮蔑的に耳に響いて一瞬憤激を覚えた ワンマンとはその人の偉大さの反面、その独裁性の揶揄的表現であろうからである。<br/><br/>しかし、彼としては、そのような悪意的に発した言辞でもなかったらしいので黙許した。<br/><br/> 要するに彼氏の言うワンマンとは、明主様は救世教における絶対者であるという意なのであろう。<br/><br/>ただ吾等としては明主様を世にいうワンマンと同視又は比較視して許さるる如き事は心外に堪えぬ所である。<br/><br/> 言うまでもなく、明主様は本教の生命であらせられ、本教の一切は明主様の御徳と御力によって成立ち動いている。<br/><br/>そして役員信徒は一人も残らず、死の運命を明主様の御力によって救われ、その御高恩に酬い奉る道として、人類救済の御聖業に誠を尽し、大いなる幸福を与えられている。<br/><br/>故に明主様は強制や独善のない自らなる感謝の絶対者であらせられる。<br/><br/> 本教の現在の仕事としては、浄霊、宣教、出版、造営、美術等であるが、今後益々多角的にその部門はふえてゆくのである。<br/><br/>そして、明主様の御仕事は非常に高度な新文明世界建設であるから、従来の智識や経験で固まった凡人の頭脳ではリード出来ぬ故、本教の仕事の根本は悉く明主様の御指示を仰がねば成らぬ事のみである。<br/><br/> 特に神苑の造営の如き、その一木一草一石たりとも明主様の御差図によらねば手を染める事は出来ぬ。<br/><br/>例えば、巌石の配置の如き、従来の造苑技術の常識の正反対の手法によって飛躍的効果を発揮され、斯道（しどう）の権威者を呆然たらしめられた程であって、神にして初めて可能な御構想である。<br/><br/> 特に最も厄介な事は、吾々奉仕者の頭脳である。<br/><br/>ひとり造営のみではないが、明主様はよく仰せられていた「ただ頭の悪いだけなら始末がいいが、変なのは一番厄介だ。<br/><br/>例えば造営にしても、決して私の差図通りにしない。<br/><br/>それでやり直させると今度は逆に間違える。<br/><br/>又やり治すで、何遍やり治すか判らぬ、全く根比べである。<br/><br/>物によっては諦めて、そのままにする事もある」と。<br/><br/> 吾々は長い夜の期間、逆理によって頭脳を変質的に発達せしめ、肉体を削って退化せしめており、明主様から御覧になれば一種の不具者であろう。<br/><br/> 吾々の考えは、大抵は明主様の御考えと反対の場合が多い。<br/><br/>そして肉体はガタバスに例えられ、明主様から御修理いただかねばすぐに動けなくなってしまう。<br/><br/>吾々は未だに錆ついて壊れかかった器械なのだ。<br/><br/>吾々の信仰の努力は、神の思召に通う利器となる事にあった。<br/><br/>しかしそれも御使用に堪え得る程度に修理頂かねば果し得ぬ事である。<br/><br/> 私が御恵豊かな御側近に在った二十年間、これでは足りない、申訳ない、これでいいのかと、常に足らざる気持に追われていたが、しかも未だ故障しやすい車の域を脱していない。<br/><br/>古い信仰者は皆同一の気持であろう。<br/><br/> 明主様の御差図戴けるのは、その衝に当る少数の人々のみであるが、そのお差図は常に即決簡明で些かの無理もない。<br/><br/>何事にもあれ御言葉通り遵守すれば面白い程順調にゆく、吾々はただ与えられた道を楽しく前進すればよいのだ。<br/><br/>仮に難関に逢着しても迷わず突破すれば、予想外の好結果を獲られる。<br/><br/>それなのに心内の悪魔は隙をみては御言葉に対する批判的囁きをする。<br/><br/>そして光の道を遮蔽せんとしたり、間違った横道を設けたりする。<br/><br/>一度この囁きに同調せんか、迷路は迷路を生んで、危うく断崖に落込まんとしては、お慈悲にお救いいただく、このような過ちを未だに繰返す恐れある吾々のあさましさである。<br/><br/> 御偉業の蔭には、このような大中小様々の御煩瑣（はんさ）がある。<br/><br/>ただ、吾々信徒に与えられた大自由の中に常に明るく笑まれる御顔からは誰一人伺い得ぬまでである。<br/><br/> 吾々古い信徒は、長い御奉仕によって、勲功をたてたという誇りを心のどこかで意識してもいるが、事実は果して手柄をたてたか、あるいはお手数をかけたのか、あるいは神業の妨害をしていたのか断定は出来ぬ。<br/><br/>よし勲功をたて、慈まれた境遇となっているとしても、それは自力によって獲得したものではなく、明主様の御力で与えられたものである事を知る時、手柄顔は出来ないのである。<br/><br/>否吾々はまず生命を与えられ、御奉仕する事によって深い罪障の御許をいただくものである事を忘れてはならないと思う。<br/><br/> 明主様は、筆に口に日々御救の道を説かれている。<br/><br/>それは悉く、如何なるものも救い幸福を与えずにおかぬ人類愛から迸り出る真理である。<br/><br/>もし人類がこれを信奉すれば、直に夢の如き幸福が訪れるし、これを受入れぬとすれば、それは自ら幸福を否定し、救いを拒絶するに等しい絶対のものである。<br/><br/> 明主様の備え給う火水土三位一体の御権威の神秘については吾々の想像の外である。<br/><br/>私はただ明主様に対し奉る吾々の気持の一端を述べて、筆を擱くとする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

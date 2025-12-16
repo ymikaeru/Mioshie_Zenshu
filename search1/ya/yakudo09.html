@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakudo09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒に就いて 未発表『医学革命の書』昭和28(1953)年執筆 前項までに詳説した薬毒のいかなるものであるかは、大体分ったであろうが、ここに最も明らかな例をかいてみると、もし薬なるものが本当に病を治す力があるとしたら、先祖代々人間体内に入れた薬毒は、驚くべき量に上っているはずであるから、現代の人間は非常に健康になっていて、病人など一人も無い世界になっていなければならないにかかわらず、事実はその反対であるとしたら、ここに疑問が起らなければならないが、全然気付かない迷盲である。<br><br>何よりも昔から病は薬で治るものとの信念になり切っており、それが迷信となってしまったのである。<br><br>それがため医学の進歩を嗤（わら）うがごとく病人は増えるばかりで、医師が、看護婦が足りない、病院は満員、ベッドの不足、健康保険、療養所、社会衛生等々、何だかんだの病気に対する対策の繁（はん）なる衆知の通りで、これだけ見れば医学の進歩とは科学的に、微に入り細に渉（わた）っての唯物的進歩であるから、治す進歩であって治る進歩でない。<br><br>学理上治るべき進歩であって、実際上治るべき進歩ではない。<br><br>こう見てくると現代人の生命は学理の支配下にある以上、もし学理が誤っているとしたら、学理の犠牲になる訳である。<br><br>その根本は現在の学理は、人間生命まで解決出来る程に進歩したと信じているからである。<br><br>実に驚くべき学理の信奉者である。<br><br> そうして最近の統計によれば、日本人の寿命は近来非常に延び、三十年前は男女平均四十七歳であったものが、最近は六十二、三歳にまで延長したといって喜んでおり、これが医学の進歩としているが、この理由はこうである。<br><br>すなわち浄化作用を止めるべく医学は薬毒で人体を弱らせ、浄化を弱らせ、苦痛を緩和する。<br><br>ところが以前用いた薬毒は弱いため浄化の方が勝って死んだのであるが、近頃の新薬は中毒が起らない程度に毒を強めるに成功したので、浄化の停止期間が長くなり、それだけ死も延長された訳で、ちょうど医学が進歩したように見えるのである。<br><br>従って近来の新薬続出となったので、言わば変体的進歩である。<br><br> もちろんそれで病が治るのではないから、死にもせず健康にもならないという中ブラ人間が増えるばかりで、この傾向は文明国程そうである。<br><br>近頃欧州から帰朝した人の話によるも、英仏などは老人が多くなると共に、一般国民は勤労を厭（いと）い、安易な生活を求め、享楽に耽（ふけ）る事のみ考えており、殊に英国のごときは食糧不足に悩まされ、戦敗国の日本よりも酷（ひど）いという事であるから、全く国民体力が低下したためであるのは争うべくもない。<br><br>同国に社会主義が発展したのもそのためで、社会主義は優勝劣敗を好まず、働く意欲が衰えるからで、英国近来の疲弊もそれが拍車となったので、日本も大いに考えるべきである。<br><br> 話は別だが歴史を繙（ひもと）いてみると、日本の建国後千年くらいまでは、天皇の寿齢百歳以上が通例であった事で、その時代はもちろん薬がなかったからである。<br><br>その後漢方薬が渡来してから病が発生しはじめたと共に、千四百年前仏教渡来後、間もなく疫病が流行し、当時の政府は仏教入国のため、日本神々の怒りといい、仏教を禁圧したところ、それでも効果ないので、再び許したという事である。<br><br>今一つの例は有名な伝説で、彼の秦の始皇帝が「東方に蓬莱島（日本）あり、その島の住民は非常に長命で、定めし素晴しい薬があるに違いないから、その霊薬を探し求めよ」と、臣徐福に命じ渡来させたところ、当時の日本は無薬時代であった事が分り、流石の徐福も帰国する能（あた）わず、そのまま日本に残り一生を終ったそうで、今もその墓が和歌山の某所にあるそうだから、無稽（むけい）な説でない事が分る。<br><br>これらによってみても人間の寿齢は、薬さえ用いなければ百歳以上は易々（いい）たるもので、事実人間の死は病気のためで、言わば不自然死であるから、無薬時代となれば自然死となる以上、長命するのは何ら不思議はないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Acerca do Veneno Contido nos Remédios</h2>
 <p>Embora a natureza do veneno contido nos remédios já tenha sido pormenorizada em seções anteriores, apresento aqui o mais claro dos exemplos. Se os medicamentos de fato possuíssem o poder de curar as doenças, a espantosa quantidade de venenos introduzida no corpo humano ao longo de gerações deveria ter resultado em uma humanidade excepcionalmente saudável, em um mundo onde não houvesse um único doente. Contudo, a realidade manifesta precisamente o oposto. Tal paradoxo deveria suscitar um profundo questionamento, mas as pessoas permanecem em uma cegueira absoluta, incapazes de percebê-lo. A causa reside na crença arraigada, transmitida desde tempos imemoriais, de que as doenças são curadas com remédios — uma convicção que se fossilizou em mera superstição.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Em uma digressão histórica, ao perscrutarmos os anais, verificamos que, até cerca de mil anos após a fundação do Japão, era comum que os imperadores vivessem mais de cem anos. A razão para tal longevidade é simples: naquela era, não existiam medicamentos. As doenças começaram a surgir após a introdução da medicina chinesa. Ademais, pouco tempo depois da chegada do budismo, há mil e quatrocentos anos, uma epidemia assolou o país. O governo da época, atribuindo a calamidade à ira dos deuses japoneses pela introdução de uma religião estrangeira, proibiu o budismo. Como a medida não surtiu efeito, a proibição foi revogada.</p>
 <p>Outro exemplo notável nos é legado por uma famosa lenda. O imperador Qin Shi Huang da China, ao saber que “a leste existe a ilha de Horai (Japão), cujos habitantes são extremamente longevos, devendo possuir um remédio miraculoso”, ordenou a seu vassalo, Xu Fu, que partisse em busca desse elixir. Ao chegar, Xu Fu descobriu que o Japão de então era uma terra sem medicamentos. Incapaz de retornar de mãos vazias, ele permaneceu no país até o fim de seus dias. Dizem que seu túmulo se encontra até hoje em um determinado local na província de Wakayama, o que demonstra não se tratar de uma mera fábula.</p>
 <p>Tais exemplos históricos e lendários demonstram que, se o ser humano não recorresse a medicamentos, ultrapassar os cem anos de vida seria algo trivial. Com efeito, a morte do homem é causada por doenças, sendo, portanto, uma morte não natural. Em uma era livre de remédios, a morte voltaria a ser um processo natural, e a longevidade, por conseguinte, não teria nada de extraordinário.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒に就いて 未発表『医学革命の書』昭和28(1953)年執筆 前項までに詳説した薬毒のいかなるものであるかは、大体分ったであろうが、ここに最も明らかな例をかいてみると、もし薬なるものが本当に病を治す力があるとしたら、先祖代々人間体内に入れた薬毒は、驚くべき量に上っているはずであるから、現代の人間は非常に健康になっていて、病人など一人も無い世界になっていなければならないにかかわらず、事実はその反対であるとしたら、ここに疑問が起らなければならないが、全然気付かない迷盲である。<br/><br/>何よりも昔から病は薬で治るものとの信念になり切っており、それが迷信となってしまったのである。<br/><br/>それがため医学の進歩を嗤（わら）うがごとく病人は増えるばかりで、医師が、看護婦が足りない、病院は満員、ベッドの不足、健康保険、療養所、社会衛生等々、何だかんだの病気に対する対策の繁（はん）なる衆知の通りで、これだけ見れば医学の進歩とは科学的に、微に入り細に渉（わた）っての唯物的進歩であるから、治す進歩であって治る進歩でない。<br/><br/>学理上治るべき進歩であって、実際上治るべき進歩ではない。<br/><br/>こう見てくると現代人の生命は学理の支配下にある以上、もし学理が誤っているとしたら、学理の犠牲になる訳である。<br/><br/>その根本は現在の学理は、人間生命まで解決出来る程に進歩したと信じているからである。<br/><br/>実に驚くべき学理の信奉者である。<br/><br/> そうして最近の統計によれば、日本人の寿命は近来非常に延び、三十年前は男女平均四十七歳であったものが、最近は六十二、三歳にまで延長したといって喜んでおり、これが医学の進歩としているが、この理由はこうである。<br/><br/>すなわち浄化作用を止めるべく医学は薬毒で人体を弱らせ、浄化を弱らせ、苦痛を緩和する。<br/><br/>ところが以前用いた薬毒は弱いため浄化の方が勝って死んだのであるが、近頃の新薬は中毒が起らない程度に毒を強めるに成功したので、浄化の停止期間が長くなり、それだけ死も延長された訳で、ちょうど医学が進歩したように見えるのである。<br/><br/>従って近来の新薬続出となったので、言わば変体的進歩である。<br/><br/> もちろんそれで病が治るのではないから、死にもせず健康にもならないという中ブラ人間が増えるばかりで、この傾向は文明国程そうである。<br/><br/>近頃欧州から帰朝した人の話によるも、英仏などは老人が多くなると共に、一般国民は勤労を厭（いと）い、安易な生活を求め、享楽に耽（ふけ）る事のみ考えており、殊に英国のごときは食糧不足に悩まされ、戦敗国の日本よりも酷（ひど）いという事であるから、全く国民体力が低下したためであるのは争うべくもない。<br/><br/>同国に社会主義が発展したのもそのためで、社会主義は優勝劣敗を好まず、働く意欲が衰えるからで、英国近来の疲弊もそれが拍車となったので、日本も大いに考えるべきである。<br/><br/> 話は別だが歴史を繙（ひもと）いてみると、日本の建国後千年くらいまでは、天皇の寿齢百歳以上が通例であった事で、その時代はもちろん薬がなかったからである。<br/><br/>その後漢方薬が渡来してから病が発生しはじめたと共に、千四百年前仏教渡来後、間もなく疫病が流行し、当時の政府は仏教入国のため、日本神々の怒りといい、仏教を禁圧したところ、それでも効果ないので、再び許したという事である。<br/><br/>今一つの例は有名な伝説で、彼の秦の始皇帝が「東方に蓬莱島（日本）あり、その島の住民は非常に長命で、定めし素晴しい薬があるに違いないから、その霊薬を探し求めよ」と、臣徐福に命じ渡来させたところ、当時の日本は無薬時代であった事が分り、流石の徐福も帰国する能（あた）わず、そのまま日本に残り一生を終ったそうで、今もその墓が和歌山の某所にあるそうだから、無稽（むけい）な説でない事が分る。<br/><br/>これらによってみても人間の寿齢は、薬さえ用いなければ百歳以上は易々（いい）たるもので、事実人間の死は病気のためで、言わば不自然死であるから、無薬時代となれば自然死となる以上、長命するのは何ら不思議はないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

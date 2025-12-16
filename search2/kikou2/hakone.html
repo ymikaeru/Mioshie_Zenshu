@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hakone</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術の新殿堂…箱根美術館 外人美術批評家の箱根神仙郷評 『栄光』239号、昭和28(1953)年12月16日発行 エリス・グリリさんはＮＨＫ外国放送担当のエリス氏夫人であって、美術批評家として令名あり、ニホン・タイムスの記者である。<br><br> 去る十一月二十四日箱根神仙郷を観て、午後熱海に来られ、明主様に御面会を求め対談されたのであるが、箱根神仙郷について次のように述べられた。<br><br> 単に天然の美とか、人工の美とかを求めるならば、世界的に有名なノルウェーとか、スイスとか、フランス及びイタリヤ等の国々の風景及びその他各地に建てられている美術館や博物館に陳列されてある美術品によって得らるるのであるが、それらは単にそれが美しいというだけに止まるのである。<br><br>しかして日本においても滞在四年に及び、全国の名所、旧跡及び美術品を探査して歩いたのであったが、この箱根神仙郷のごとくに天然の美と人工の美とを綜合させた一個の芸術品を発見したのは、初めてである。<br><br>即ち箱根という天下の景勝地である。<br><br>自然美に囲まれた山腹に、木、石、苔、花、水の天然のものを配した人工的美の神仙郷造園あり、更にこの人工的天然美の中に、美術館体の綜合的美というものは、世界広しといえども初めて接したものであるとして、明主様の箱根地上天国御建設の御構想を看破した慧眼は流石であり、かつ未だかつて、内外人にして、かくまで感得した人はなかったのである。<br><br> 又同夫人は熱海、瑞雲台一帯の計画を聞いて、その素晴しさに驚嘆し、更に日を改めて主人同伴、ここを訪れることを約したと共に、僅か一時間にして、箱根熱海を結んだ地に、かかる珍しい観光地ができることは、外国人に紹介するに極めて有意義であるとしていた。<br><br> 同夫人の宗教に対する考え方も自然美に立脚するものあり、自然によって人格の向上を図ること、美による魂の向上ということにも着眼しており、現在の既宗教がそれら教祖の唱導した理論早や地に落ち、教線の隆盛ならざるは、これ皆何れも自然に相反するものであることに因ると喝破している。<br><br> 今箱根神仙郷評の記事が、ニホン・タイムスに掲載されたので、原文を翻訳して掲げることとする。<br><br> （阿部理事） 昭和二十八年十一月三十日付「ニホン・タイムス所載」 美術の新殿堂…箱根美術館 エリス・グリリ 『栄光』239号、昭和28(1953)年12月16日発行 もしあなたの住む世界が私の住む世界に似ているとしたら、それは、想像と期待が、常に現実を凌駕する世界に違いない。<br><br>私の、美術品とその他人生の驚異を求める遍歴においては、現実という網で捕えることのできない、ある傑作美術品を、自分の想像の中で、あれこれと展開させて行くには、一寸したきっかけさえあれば充分である。<br><br>たとえば、如何にしてあの「モナ・リザ」という、一枚の小さな、暗い色彩の肖像画が、この絵に関して人が本で読み、かつ想像々夢見るすべてに値いし得るであろうか？ 等。<br><br>私は今度日本で、どうやら、私の期待を満たすことができた。<br><br> 美術上の名作が、仏蘭西のルーヴルとか伊太利のヴァチカン美術館のような、美術センターに集中されていないこのお国では、ただ一つの彫像や、僅か二、三の陶器を見んが為のみに、辛抱強く、遠方の、寺院とか個人のコレクションを訪れねばならないのである。<br><br>従って、日本美術の発展に力あった仏教の教える忍耐と諦めを真似て、さして強い期待を抱かぬ方が賢明かも知れない。<br><br>この夏中、私は箱根に新しくできた美術館を訪れる計画をしていた。<br><br>それは浮世絵木版画展覧会の広告を見たからである。<br><br>浮世絵版画は、私が、日本へ来る以前から、最も親しみを感じていた日本美術であったからで、きっとこの人里離れた展覧会は閉館を急がずに待っていてくれるだろうと思ったところ、実際冬を迎えて閉館する日の前日迄待っていてくれた。<br><br>で、その日にやって来た私は、すんでのところで、日本における私の全美術遍歴中、最も実り豊かな経験をし損うところであった。<br><br> 初めて現実が私の築き上げていた期待を凌駕した。<br><br>展覧会の広告は、実際よりも遥かに控え目であり、簡潔であった。<br><br>欠点のない浮世絵の一流品を展示という広告であったが、これなどは、遥かに膨大な全計画中のほんの一部に過ぎなかった。<br><br>強羅公園に程近い山腹の傾斜に、現代の奇蹟は実現していた。<br><br>「開け、ごま！」の一声に山腹が口をあけて、そこに、きらびやかな宝石や金貨の代りに何世紀もの間、人が考え、創造した珍宝の集積が満ち満ちた新しい宝庫が出現したのだ。<br><br>美術館の建物は、殆んど雲に隠れるかと思う程山上高く、アラディンの幻想かとまがう許りに、新しく、白く、輝いている。<br><br>どの時代、どの国という特定の型にはまらぬ、簡潔な長方形の、窓が大きくあいた建物のてっぺんを、少しの不調和も見せずに、青いかわらの支那風の屋根が飾っている。<br><br>現代風ないい方をすれば「機能主義的」建築で、新古の傑作を展示するにふさわしい環境の創造を狙っている。<br><br>建物内部には陽光が満ち満ち、硝子、木、大理石の輝く面は、大きなケースの中に連なる、変化に富んだ展示品のために、広闊な、調和的な背景を作り出している。<br><br> 明らかには眼に見えぬ所も劣らず重要である。<br><br>つまり、この美術館も、かけがえのない重要美術品の、安全、保全のために、耐火建築であり、気温調節の設備がある。<br><br>普通、公設美術館を覆っている、あの陰気な御霊屋的雰囲気は、この美術館に関する限り全くない。<br><br>大きな窓から差し込む陽光、彼方に横たわる山々の、あっと息を呑むような景観は、これ等生ける自然、つまり、それ自身かつて詩的強さを以て感じられた自然の細部が蒸溜されることによって生まれ出た巧みを尽くした美術品の数々、とよく調和している。<br><br>美術館の外部には、これ又一つの芸術品である、苔と岩をあしらった庭園が、山腹の林に囲まれて横たわっている。<br><br>東洋風と西洋風を調和したこの美術館の建物に蔵されている蒐集美術品も、又東西両大陸に亘っている。<br><br>勿論分量からいえば日本美術が一番多いが、同時に、支那、印度、ギリシャ、地中海地方等の同類美術品も見られる。<br><br> この小さなビルディングの蔵品は、浮世絵芸術の全発達史、又兵衛風の肉筆掛物から、写楽、歌麿、更には、その直後の北斎、広重等輩出した一八〇〇年頃の黄金時代の頂点に到る迄を跡づけてくれる。<br><br> 箱根の冬は、展示品にとっても、観覧者にとっても余りに寒さが厳しい。<br><br>従って美術館はずっと閉館し、来年五月一日開館、桃山時代美術品の大展示会を催おす予定とか。<br><br>かかる美術の天国を実現せしめた力の根原は、治病を専らとするある宗教団体である。<br><br>彼らのイデオロギーは、参観者にとって少しも気にならない。<br><br>ただ、自然と人工を問わず、芸術と美のみあれば、地上の天国を実現できるという明らかな信仰を除いては。<br><br> （立松文二訳）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Mestre Okada Jikanshi — Organizada por Periódico</h2>
 <p>HAKONE ART MUSEUM
@@ -98,5 +250,48 @@ Formato A5, 6 páginas. Publicação estimada em 1952.</p>
 <p>Aparentemente, trata-se da tradução para o inglês do prospecto intitulado “O Propósito da Construção do Museu de Arte”. Este, por sua vez, foi elaborado com base no manuscrito “O Significado da Construção do Museu de Arte”, apresentado por ocasião do evento que reuniu eminentes personalidades de diversos setores e correspondentes da imprensa estrangeira, previamente à inauguração pública do Museu de Arte de Hakone, nos dias 30 de junho e 1º de julho de 1952.</p>
 <p>A capa exibe uma vista panorâmica do Museu de Arte de Hakone, ao passo que a terceira página apresenta a fotografia do <em>ukiyo-e</em> pintado à mão, intitulado “Yuna”.</p>
 <p>Para a época, o material empregado é um papel de qualidade notavelmente superior. Ademais, a tipografia escolhida para o título na capa revela um esmero e uma sofisticação consideráveis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術の新殿堂…箱根美術館 外人美術批評家の箱根神仙郷評 『栄光』239号、昭和28(1953)年12月16日発行 エリス・グリリさんはＮＨＫ外国放送担当のエリス氏夫人であって、美術批評家として令名あり、ニホン・タイムスの記者である。<br/><br/> 去る十一月二十四日箱根神仙郷を観て、午後熱海に来られ、明主様に御面会を求め対談されたのであるが、箱根神仙郷について次のように述べられた。<br/><br/> 単に天然の美とか、人工の美とかを求めるならば、世界的に有名なノルウェーとか、スイスとか、フランス及びイタリヤ等の国々の風景及びその他各地に建てられている美術館や博物館に陳列されてある美術品によって得らるるのであるが、それらは単にそれが美しいというだけに止まるのである。<br/><br/>しかして日本においても滞在四年に及び、全国の名所、旧跡及び美術品を探査して歩いたのであったが、この箱根神仙郷のごとくに天然の美と人工の美とを綜合させた一個の芸術品を発見したのは、初めてである。<br/><br/>即ち箱根という天下の景勝地である。<br/><br/>自然美に囲まれた山腹に、木、石、苔、花、水の天然のものを配した人工的美の神仙郷造園あり、更にこの人工的天然美の中に、美術館体の綜合的美というものは、世界広しといえども初めて接したものであるとして、明主様の箱根地上天国御建設の御構想を看破した慧眼は流石であり、かつ未だかつて、内外人にして、かくまで感得した人はなかったのである。<br/><br/> 又同夫人は熱海、瑞雲台一帯の計画を聞いて、その素晴しさに驚嘆し、更に日を改めて主人同伴、ここを訪れることを約したと共に、僅か一時間にして、箱根熱海を結んだ地に、かかる珍しい観光地ができることは、外国人に紹介するに極めて有意義であるとしていた。<br/><br/> 同夫人の宗教に対する考え方も自然美に立脚するものあり、自然によって人格の向上を図ること、美による魂の向上ということにも着眼しており、現在の既宗教がそれら教祖の唱導した理論早や地に落ち、教線の隆盛ならざるは、これ皆何れも自然に相反するものであることに因ると喝破している。<br/><br/> 今箱根神仙郷評の記事が、ニホン・タイムスに掲載されたので、原文を翻訳して掲げることとする。<br/><br/> （阿部理事） 昭和二十八年十一月三十日付「ニホン・タイムス所載」 美術の新殿堂…箱根美術館 エリス・グリリ 『栄光』239号、昭和28(1953)年12月16日発行 もしあなたの住む世界が私の住む世界に似ているとしたら、それは、想像と期待が、常に現実を凌駕する世界に違いない。<br/><br/>私の、美術品とその他人生の驚異を求める遍歴においては、現実という網で捕えることのできない、ある傑作美術品を、自分の想像の中で、あれこれと展開させて行くには、一寸したきっかけさえあれば充分である。<br/><br/>たとえば、如何にしてあの「モナ・リザ」という、一枚の小さな、暗い色彩の肖像画が、この絵に関して人が本で読み、かつ想像々夢見るすべてに値いし得るであろうか？ 等。<br/><br/>私は今度日本で、どうやら、私の期待を満たすことができた。<br/><br/> 美術上の名作が、仏蘭西のルーヴルとか伊太利のヴァチカン美術館のような、美術センターに集中されていないこのお国では、ただ一つの彫像や、僅か二、三の陶器を見んが為のみに、辛抱強く、遠方の、寺院とか個人のコレクションを訪れねばならないのである。<br/><br/>従って、日本美術の発展に力あった仏教の教える忍耐と諦めを真似て、さして強い期待を抱かぬ方が賢明かも知れない。<br/><br/>この夏中、私は箱根に新しくできた美術館を訪れる計画をしていた。<br/><br/>それは浮世絵木版画展覧会の広告を見たからである。<br/><br/>浮世絵版画は、私が、日本へ来る以前から、最も親しみを感じていた日本美術であったからで、きっとこの人里離れた展覧会は閉館を急がずに待っていてくれるだろうと思ったところ、実際冬を迎えて閉館する日の前日迄待っていてくれた。<br/><br/>で、その日にやって来た私は、すんでのところで、日本における私の全美術遍歴中、最も実り豊かな経験をし損うところであった。<br/><br/> 初めて現実が私の築き上げていた期待を凌駕した。<br/><br/>展覧会の広告は、実際よりも遥かに控え目であり、簡潔であった。<br/><br/>欠点のない浮世絵の一流品を展示という広告であったが、これなどは、遥かに膨大な全計画中のほんの一部に過ぎなかった。<br/><br/>強羅公園に程近い山腹の傾斜に、現代の奇蹟は実現していた。<br/><br/>「開け、ごま！」の一声に山腹が口をあけて、そこに、きらびやかな宝石や金貨の代りに何世紀もの間、人が考え、創造した珍宝の集積が満ち満ちた新しい宝庫が出現したのだ。<br/><br/>美術館の建物は、殆んど雲に隠れるかと思う程山上高く、アラディンの幻想かとまがう許りに、新しく、白く、輝いている。<br/><br/>どの時代、どの国という特定の型にはまらぬ、簡潔な長方形の、窓が大きくあいた建物のてっぺんを、少しの不調和も見せずに、青いかわらの支那風の屋根が飾っている。<br/><br/>現代風ないい方をすれば「機能主義的」建築で、新古の傑作を展示するにふさわしい環境の創造を狙っている。<br/><br/>建物内部には陽光が満ち満ち、硝子、木、大理石の輝く面は、大きなケースの中に連なる、変化に富んだ展示品のために、広闊な、調和的な背景を作り出している。<br/><br/> 明らかには眼に見えぬ所も劣らず重要である。<br/><br/>つまり、この美術館も、かけがえのない重要美術品の、安全、保全のために、耐火建築であり、気温調節の設備がある。<br/><br/>普通、公設美術館を覆っている、あの陰気な御霊屋的雰囲気は、この美術館に関する限り全くない。<br/><br/>大きな窓から差し込む陽光、彼方に横たわる山々の、あっと息を呑むような景観は、これ等生ける自然、つまり、それ自身かつて詩的強さを以て感じられた自然の細部が蒸溜されることによって生まれ出た巧みを尽くした美術品の数々、とよく調和している。<br/><br/>美術館の外部には、これ又一つの芸術品である、苔と岩をあしらった庭園が、山腹の林に囲まれて横たわっている。<br/><br/>東洋風と西洋風を調和したこの美術館の建物に蔵されている蒐集美術品も、又東西両大陸に亘っている。<br/><br/>勿論分量からいえば日本美術が一番多いが、同時に、支那、印度、ギリシャ、地中海地方等の同類美術品も見られる。<br/><br/> この小さなビルディングの蔵品は、浮世絵芸術の全発達史、又兵衛風の肉筆掛物から、写楽、歌麿、更には、その直後の北斎、広重等輩出した一八〇〇年頃の黄金時代の頂点に到る迄を跡づけてくれる。<br/><br/> 箱根の冬は、展示品にとっても、観覧者にとっても余りに寒さが厳しい。<br/><br/>従って美術館はずっと閉館し、来年五月一日開館、桃山時代美術品の大展示会を催おす予定とか。<br/><br/>かかる美術の天国を実現せしめた力の根原は、治病を専らとするある宗教団体である。<br/><br/>彼らのイデオロギーは、参観者にとって少しも気にならない。<br/><br/>ただ、自然と人工を問わず、芸術と美のみあれば、地上の天国を実現できるという明らかな信仰を除いては。<br/><br/> （立松文二訳）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

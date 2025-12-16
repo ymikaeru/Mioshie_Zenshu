@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syakkin1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 借金 自観叢書第5編『自観隨談』P.7、昭和24(1949)年8月30日発行 私が中年頃から二十余年間は、実に借金との苦闘史時代といってもよかろう。<br><br>忘れもしない私が三十五、六歳の時大失敗をして、借金と縁を結んでしまった。<br><br>しかしそれから何とかして借金と手を切ろうと焦ってはみたが、焦れば焦る程反って借金を殖やすという結果になり、それがついに数人の高利貸から差押えらるるという事になったのである。<br><br>差押えらるる事、実に六、七回に及んだ。<br><br>これは経験のない人はちょっと判り難いが、差押えを受けるという事はおよそ気持の悪いものである。<br><br>執達吏君が来て、妙な紙片を眼ぼしい家財にペタペタと貼る。<br><br>特に弱ったのは箪笥（たんす）の抽出（ひきだ）しである。<br><br>抽出しを開けられないよう貼るのだから衣類など出す事が出来ない。<br><br>しかも右の紙片を毀損（きそん）する時は刑法に触れるという事を執達吏が申渡すので、どうしようもなく、これには一番閉口した。<br><br>そうして幾つもの裁判の被告となり、また高利貸と交渉したり歎願をしたりして、ついに十数年の日時を閲（けみ）してしまった。<br><br>もちろんその間借金のための苦悩も並大抵ではなかった。<br><br>何しろ相手は数人の高利貸で、中にはある意味において当時相当有名な悪辣家もあったから、全く生易しい訳のものではなかった。<br><br>手形の切換えに日歩十銭から五十銭くらい支払った事もあった。<br><br>また一度は破産の宣告をも受けたのである。<br><br>これも経験のない人は判り難い事だが、破産は実に嫌なものである。<br><br>まず第一、銀行との取引が出来なくなるし、興信所の内報には掲載される。<br><br>その頃私は小間物の問屋をしていて相当手広くやっていたが、一度破産となるや、現金でなくては絶対取引が出来なくなり、手形取引は全然駄目になったので、これが一番困った。<br><br>そればかりではない。<br><br>私宛の郵便物は残らず一旦破産換算人の所に配達され、換算人が一々開封してから私の手に渡るので不快極まりないものである。<br><br>そんな訳で借金を全く解決したのは六十歳過ぎてからであるから、つまり二十四、五年間、借金と闘い続けて来たという訳である。<br><br>私は何かの本でみたが、九十幾歳の寿を保った故大倉喜八郎翁の「長寿の秘訣」という話の中に、人間長生きをしたければ借金をしない事だ、借金くらい命を縮めるものはないと書いてあった。<br><br>この意味からすれば、私などは恐らく借金のために縮めた寿命は少々ではあるまい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Árdua Batalha Contra as Dívidas</h2>
 <p>O período de mais de vinte anos que se estendeu de minha meia-idade em diante pode ser verdadeiramente descrito como a crônica de minha árdua batalha contra as dívidas. Recordo-me vividamente de quando, aos trinta e cinco ou trinta e seis anos, cometi um grave erro que me atou a esse infortúnio. A partir de então, por mais que me afligisse na tentativa de me libertar desse fardo, quanto mais ansiava por isso, mais as dívidas se avolumavam. Essa espiral descendente culminou na penhora de meus bens por diversos agiotas.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Nesse ínterim, tornei-me réu em inúmeros processos judiciais e vi transcorrer mais de uma década em meio a negociações e súplicas com os agiotas. Naturalmente, o sofrimento causado pelas dívidas durante esse período foi de uma magnitude imensa. Afinal, eu lidava com diversos credores, entre os quais havia indivíduos de notória perversidade, bastante conhecidos à época. A situação, portanto, estava longe de ser simples. Houve ocasiões em que, para renovar as notas promissórias, fui obrigado a pagar juros diários exorbitantes.</p>
 <p>Em certa ocasião, cheguei a ter minha falência decretada. Novamente, para quem não viveu essa realidade, é difícil mensurar o quão penosa ela é. Primeiramente, todas as transações bancárias são suspensas, e o nome do falido passa a constar nos registros das agências de crédito. Naquela época, eu atuava como atacadista no ramo de armarinhos e meus negócios eram bastante prósperos. Contudo, com a decretação da falência, todas as negociações passaram a ser exclusivamente à vista, e as transações com notas promissórias tornaram-se inviáveis, o que representou minha maior dificuldade. E não era só isso. Toda a minha correspondência era primeiramente entregue ao administrador da massa falida, que a abria e inspecionava antes de repassá-la a mim, uma situação de extremo dissabor.</p>
 <p>Diante de todo esse cenário, só vim a solucionar por completo a questão das dívidas após os sessenta anos, o que significa que lutei contra elas por um período de vinte e quatro ou vinte e cinco anos. Certa vez, li em um livro as palavras do falecido barão Okura Kihachiro, que desfrutou de uma vida longeva até mais de noventa anos. Em um texto intitulado “O Segredo da Longevidade”, ele afirmava que, para se viver muito, o essencial é não contrair dívidas, pois poucas coisas abreviam tanto a vida. Nesse sentido, o tempo que as dívidas subtraíram de minha própria existência certamente não foi pouco.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 借金 自観叢書第5編『自観隨談』P.7、昭和24(1949)年8月30日発行 私が中年頃から二十余年間は、実に借金との苦闘史時代といってもよかろう。<br/><br/>忘れもしない私が三十五、六歳の時大失敗をして、借金と縁を結んでしまった。<br/><br/>しかしそれから何とかして借金と手を切ろうと焦ってはみたが、焦れば焦る程反って借金を殖やすという結果になり、それがついに数人の高利貸から差押えらるるという事になったのである。<br/><br/>差押えらるる事、実に六、七回に及んだ。<br/><br/>これは経験のない人はちょっと判り難いが、差押えを受けるという事はおよそ気持の悪いものである。<br/><br/>執達吏君が来て、妙な紙片を眼ぼしい家財にペタペタと貼る。<br/><br/>特に弱ったのは箪笥（たんす）の抽出（ひきだ）しである。<br/><br/>抽出しを開けられないよう貼るのだから衣類など出す事が出来ない。<br/><br/>しかも右の紙片を毀損（きそん）する時は刑法に触れるという事を執達吏が申渡すので、どうしようもなく、これには一番閉口した。<br/><br/>そうして幾つもの裁判の被告となり、また高利貸と交渉したり歎願をしたりして、ついに十数年の日時を閲（けみ）してしまった。<br/><br/>もちろんその間借金のための苦悩も並大抵ではなかった。<br/><br/>何しろ相手は数人の高利貸で、中にはある意味において当時相当有名な悪辣家もあったから、全く生易しい訳のものではなかった。<br/><br/>手形の切換えに日歩十銭から五十銭くらい支払った事もあった。<br/><br/>また一度は破産の宣告をも受けたのである。<br/><br/>これも経験のない人は判り難い事だが、破産は実に嫌なものである。<br/><br/>まず第一、銀行との取引が出来なくなるし、興信所の内報には掲載される。<br/><br/>その頃私は小間物の問屋をしていて相当手広くやっていたが、一度破産となるや、現金でなくては絶対取引が出来なくなり、手形取引は全然駄目になったので、これが一番困った。<br/><br/>そればかりではない。<br/><br/>私宛の郵便物は残らず一旦破産換算人の所に配達され、換算人が一々開封してから私の手に渡るので不快極まりないものである。<br/><br/>そんな訳で借金を全く解決したのは六十歳過ぎてからであるから、つまり二十四、五年間、借金と闘い続けて来たという訳である。<br/><br/>私は何かの本でみたが、九十幾歳の寿を保った故大倉喜八郎翁の「長寿の秘訣」という話の中に、人間長生きをしたければ借金をしない事だ、借金くらい命を縮めるものはないと書いてあった。<br/><br/>この意味からすれば、私などは恐らく借金のために縮めた寿命は少々ではあるまい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

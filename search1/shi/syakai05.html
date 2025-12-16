@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syakai05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会不安の真因 『光』25号、昭和24(1949)年9月3日発行 今日、当局の談によれば「犯罪者が殖えて困る、これはどうすればよいか」とよく訊かれるが、これについていささか所見を述べてみよう。<br><br> 忌憚（きたん）なくいえば、現代人はいまだ真の人間として完成してはいないのである、というのは獣的分子がいまだ多分にある、いわば半獣半人である、随分酷い事を言うと思うであろうが、事実であるから致し方がない、その理由をかいてみるが読む人はなる程と承知するであろう。<br><br> 今日犯罪防止の方法としては、警察、裁判所、監獄等の施設と、それを運営する多数の吏員、何百何千の法文があって、ほとんど犯罪の隙のない程外形は完備している、ちょうど人間に危害を加える動物に対し、幾重にも厳重な檻を作って被害を防ぐというのと何ら択（えら）ぶところはない、人間は古い時代から智慧を搾って、何度檻を作っても動物共は直に破るので、段々巧妙に細かく網の目を張るようになったのが、現在の防犯状況である、視よ年々法規は殖えるが、それは綱の目を細かくする事である、かように扱わなければならないのは、動物人間は檻を破ろうとして爪を磨き牙を鳴らしている、これが社会不安の原である、事実外形は人間であっても内容は獣類である。<br><br> もし真の人間でありとすれば、檻など必要としない社会が生れるべきだ、どんな所へ放り出しても決して悪い事はしないという人間こそ、人間としての資格者だ、文化が何程進歩しても、道義の頽廃（たいはい）が依然たる事実は檻を破る手段が防ぐ手段に勝っているからである、吾らがいつも言うところの今日の文化は唯物主義のみ発達した跛行的文化というゆえんである。<br><br> 以上の意味によって法律もない、防犯施設もない世界こそ人間の世界であって、吾らが現在努力しつつある目標こそは、ただ人間の世界を造るにある、といえよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa da Instabilidade Social</h2>
 <p>Nos dias de hoje, as autoridades frequentemente me indagam sobre como lidar com o crescente e preocupante número de criminosos. A esse respeito, gostaria de tecer algumas considerações.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Os métodos de prevenção ao crime hoje existentes – como a polícia, os tribunais e os presídios, juntamente com os inúmeros funcionários que os administram e as centenas de milhares de artigos legais – formam uma estrutura externa aparentemente completa, que não deveria deixar brechas para a delinquência. Contudo, tal aparato em nada difere das jaulas rigorosamente reforçadas, construídas em múltiplas camadas com o propósito de nos proteger de animais perigosos. Desde tempos remotos, a humanidade tem empregado sua inteligência para criar essas jaulas, mas os animais sempre encontram uma forma de rompê-las. Em resposta, as malhas da rede foram se tornando cada vez mais finas e engenhosas, o que descreve com precisão o cenário atual da prevenção criminal. Observem: a cada ano, as leis se multiplicam, o que nada mais é do que o estreitamento das malhas dessa rede. A necessidade de tratar o homem dessa maneira reside no fato de que o “homem-animal” está sempre a afiar suas garras e a ranger seus dentes, buscando destruir a jaula. Eis a verdadeira origem da instabilidade social. De fato, embora a aparência exterior seja humana, a natureza interior é bestial.</p>
 <p>Se os homens fossem verdadeiramente humanos, deveria surgir uma sociedade que prescindisse de jaulas. O indivíduo que, sob qualquer circunstância, jamais pratica o mal, este sim está qualificado para ser chamado de ser humano. Por mais que a civilização avance, a persistente decadência moral demonstra que os meios para destruir a jaula se tornaram mais eficientes que os meios para contê-la. Eis a razão pela qual sempre afirmamos que a cultura de nossos dias é uma cultura claudicante, na qual apenas o materialismo se desenvolveu.</p>
 <p>Nesse sentido, podemos afirmar que um mundo sem leis e sem aparatos de repressão é, em sua essência, o verdadeiro mundo dos homens. O objetivo pelo qual nos empenhamos atualmente consiste precisamente em construir esse mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会不安の真因 『光』25号、昭和24(1949)年9月3日発行 今日、当局の談によれば「犯罪者が殖えて困る、これはどうすればよいか」とよく訊かれるが、これについていささか所見を述べてみよう。<br/><br/> 忌憚（きたん）なくいえば、現代人はいまだ真の人間として完成してはいないのである、というのは獣的分子がいまだ多分にある、いわば半獣半人である、随分酷い事を言うと思うであろうが、事実であるから致し方がない、その理由をかいてみるが読む人はなる程と承知するであろう。<br/><br/> 今日犯罪防止の方法としては、警察、裁判所、監獄等の施設と、それを運営する多数の吏員、何百何千の法文があって、ほとんど犯罪の隙のない程外形は完備している、ちょうど人間に危害を加える動物に対し、幾重にも厳重な檻を作って被害を防ぐというのと何ら択（えら）ぶところはない、人間は古い時代から智慧を搾って、何度檻を作っても動物共は直に破るので、段々巧妙に細かく網の目を張るようになったのが、現在の防犯状況である、視よ年々法規は殖えるが、それは綱の目を細かくする事である、かように扱わなければならないのは、動物人間は檻を破ろうとして爪を磨き牙を鳴らしている、これが社会不安の原である、事実外形は人間であっても内容は獣類である。<br/><br/> もし真の人間でありとすれば、檻など必要としない社会が生れるべきだ、どんな所へ放り出しても決して悪い事はしないという人間こそ、人間としての資格者だ、文化が何程進歩しても、道義の頽廃（たいはい）が依然たる事実は檻を破る手段が防ぐ手段に勝っているからである、吾らがいつも言うところの今日の文化は唯物主義のみ発達した跛行的文化というゆえんである。<br/><br/> 以上の意味によって法律もない、防犯施設もない世界こそ人間の世界であって、吾らが現在努力しつつある目標こそは、ただ人間の世界を造るにある、といえよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

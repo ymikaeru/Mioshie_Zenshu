@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教、哲学、科学の一致 『栄光』91号、昭和26(1951)年2月14日発行 この論旨の内容は、現在あるところの宗教、哲学、科学の水準よりも、幾層倍進歩したものであるが、これを読むに従って、納得されるはずである。<br><br> まず、科学界の現在であるがこれは誰も知るごとく、原子時代にまで進んで来て、彼の湯川博士の中間子発見となったが、これは御承知のごとく、原子科学の理論物理学としては最尖端にまで来ているのである。<br><br>ところが、全世界の科学者はこれ以上の発見を目指して非常な努力を払っているが、ほとんど行詰り状態で、壁に突当ってどうにもならないというのが現状という事である。<br><br> そうして面白い事には、哲学でも同様であって、最も新しいものとしては、彼の実存哲学であるが、これによるも科学と同様壁に突当ってしまって、どうにも動きがとれないのが事実である。<br><br>そこで近来の哲学者は、絶対者の言葉に論理の鉾先（ほこさき）をボカしているが、これは実に面白い。<br><br>絶対者とはいうまでもなく神の代名詞である。<br><br>神の言葉を使うと宗教の分野に入る事になるから、止むを得ずそう言わざるを得ないのであろう。<br><br> また宗教であるが、これも御多分に漏れず行詰ってどうにもならない。<br><br>というのは宗教の本領である奇蹟が、まことに少ない実状である。<br><br>そこでやむなく理論によって、それを補おうとしたり、種々の社会事業等によって、存在の価値を意義付けようとしているくらいで、人類の最も苦悩である病気、犯罪、戦争等に対しては、ほとんど何ら有効なる活動はなし得ないにみても、やはり行詰りをよく物語っている。<br><br> このような現実は、一体何を示唆しているのであろうか、もちろん世界の有識者の誰もが同一観念の下に行き悩んでいるのである。<br><br>ここに到って私はこれら一切の、行詰りを打開し、一大指針を示すべく、今その論文を執筆中である。<br><br> 従って今その概念だけをかいてみるが、例えば、原子科学にしろ、今一歩進めば無機質界に突入してしまうのである。<br><br>何しろこの無機質界は、機械での測定は不可能であるから、把握することは全然出来ないのである。<br><br>言うまでもなく、この世界こそ神霊界の手前であり、一切万有の根源であって、科学的に言えばもちろん無限小の粒子によって、構成されている世界で、その粒子は光の根源でもありこれを放射能として応用する事も出来る。<br><br>しかもこの放射能力は人類の経験にもない威力を発揮し得るのである。<br><br>これを科学的に言えば理論神霊学である。<br><br>そうしてまた科学上の実験物理学と同様実験神霊学でもある。<br><br> この実験神霊学の現われとして最近報告されたところの、神霊の光に対し、レントゲン光線が透過出来なかったという事や、誰もいないのに一大音響を発し、未信者である隣家の塀が倒れんとした事などの、奇蹟にみても明らかである。<br><br>従って現在人類が最も恐怖の的とされている彼の原子爆弾の光にしろ、恐らく透過は不可能であろう。<br><br>とすればこの神霊の力によって、戦争なき時代を招来する事も、あえて不可能ではないであろう。<br><br> 今一つは、医学上唯一の病源とされている黴菌の発生源も、理論神霊学によれば、明確に把握出来るのであるから、これによって病なき世界の実現も、左程難しい事ではないのである。<br><br> これを一言にしていえば、宗教も哲学も科学も、神霊界の一歩手前に来て、行き悩んでいる以上、今日のごとき暗黒無明の時代となっているのである。<br><br>ここにおいて神は、私をしてその障壁否岩戸を押開き、光明世界に導かんとする、その大愛が本教の出現となったのである。<br><br>いわゆる、世界の岩戸開きといってもよかろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Concordância entre Religião, Filosofia e Ciência</h2>
 <p>O conteúdo desta tese apresenta um avanço de múltiplas ordens em relação ao patamar atual da religião, da filosofia e da ciência. Todavia, à medida que o leitor prosseguir com a leitura, certamente chegará a essa mesma compreensão.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Como manifestação dessa Ciência Espiritual Experimental, temos os milagres relatados recentemente, como o caso em que a Luz Divina bloqueou a passagem de raios X ou o fenômeno em que, na ausência de qualquer pessoa, um estrondo ecoou, e o muro da casa vizinha, pertencente a um não membro, esteve a ponto de desmoronar. Portanto, é provável que mesmo a luz da bomba atômica, o maior temor da humanidade atual, não consiga transpor essa barreira. Se assim for, não será de modo algum impossível, por meio do poder do espírito Divino, inaugurar uma era sem guerras.</p>
 <p>Outro ponto fundamental é que a origem dos micróbios, considerados pela medicina como a única causa das doenças, pode ser claramente compreendida pela Ciência Espiritual Teórica. Por conseguinte, a concretização de um mundo isento de doenças não é uma tarefa de grande dificuldade.</p>
 <p>Em suma, a razão pela qual vivemos em uma era de trevas e ignorância é que a religião, a filosofia e a ciência estagnaram no limiar do Mundo Espiritual. Foi então que Deus, em Seu infinito Amor, me incumbiu de abrir essa barreira — esse Iwato — e conduzir a humanidade ao Mundo de Luz. O surgimento de nossa Fé é o resultado desse Grande Amor. Poderíamos, com propriedade, denominá-lo a Abertura do Iwato do Mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教、哲学、科学の一致 『栄光』91号、昭和26(1951)年2月14日発行 この論旨の内容は、現在あるところの宗教、哲学、科学の水準よりも、幾層倍進歩したものであるが、これを読むに従って、納得されるはずである。<br/><br/> まず、科学界の現在であるがこれは誰も知るごとく、原子時代にまで進んで来て、彼の湯川博士の中間子発見となったが、これは御承知のごとく、原子科学の理論物理学としては最尖端にまで来ているのである。<br/><br/>ところが、全世界の科学者はこれ以上の発見を目指して非常な努力を払っているが、ほとんど行詰り状態で、壁に突当ってどうにもならないというのが現状という事である。<br/><br/> そうして面白い事には、哲学でも同様であって、最も新しいものとしては、彼の実存哲学であるが、これによるも科学と同様壁に突当ってしまって、どうにも動きがとれないのが事実である。<br/><br/>そこで近来の哲学者は、絶対者の言葉に論理の鉾先（ほこさき）をボカしているが、これは実に面白い。<br/><br/>絶対者とはいうまでもなく神の代名詞である。<br/><br/>神の言葉を使うと宗教の分野に入る事になるから、止むを得ずそう言わざるを得ないのであろう。<br/><br/> また宗教であるが、これも御多分に漏れず行詰ってどうにもならない。<br/><br/>というのは宗教の本領である奇蹟が、まことに少ない実状である。<br/><br/>そこでやむなく理論によって、それを補おうとしたり、種々の社会事業等によって、存在の価値を意義付けようとしているくらいで、人類の最も苦悩である病気、犯罪、戦争等に対しては、ほとんど何ら有効なる活動はなし得ないにみても、やはり行詰りをよく物語っている。<br/><br/> このような現実は、一体何を示唆しているのであろうか、もちろん世界の有識者の誰もが同一観念の下に行き悩んでいるのである。<br/><br/>ここに到って私はこれら一切の、行詰りを打開し、一大指針を示すべく、今その論文を執筆中である。<br/><br/> 従って今その概念だけをかいてみるが、例えば、原子科学にしろ、今一歩進めば無機質界に突入してしまうのである。<br/><br/>何しろこの無機質界は、機械での測定は不可能であるから、把握することは全然出来ないのである。<br/><br/>言うまでもなく、この世界こそ神霊界の手前であり、一切万有の根源であって、科学的に言えばもちろん無限小の粒子によって、構成されている世界で、その粒子は光の根源でもありこれを放射能として応用する事も出来る。<br/><br/>しかもこの放射能力は人類の経験にもない威力を発揮し得るのである。<br/><br/>これを科学的に言えば理論神霊学である。<br/><br/>そうしてまた科学上の実験物理学と同様実験神霊学でもある。<br/><br/> この実験神霊学の現われとして最近報告されたところの、神霊の光に対し、レントゲン光線が透過出来なかったという事や、誰もいないのに一大音響を発し、未信者である隣家の塀が倒れんとした事などの、奇蹟にみても明らかである。<br/><br/>従って現在人類が最も恐怖の的とされている彼の原子爆弾の光にしろ、恐らく透過は不可能であろう。<br/><br/>とすればこの神霊の力によって、戦争なき時代を招来する事も、あえて不可能ではないであろう。<br/><br/> 今一つは、医学上唯一の病源とされている黴菌の発生源も、理論神霊学によれば、明確に把握出来るのであるから、これによって病なき世界の実現も、左程難しい事ではないのである。<br/><br/> これを一言にしていえば、宗教も哲学も科学も、神霊界の一歩手前に来て、行き悩んでいる以上、今日のごとき暗黒無明の時代となっているのである。<br/><br/>ここにおいて神は、私をしてその障壁否岩戸を押開き、光明世界に導かんとする、その大愛が本教の出現となったのである。<br/><br/>いわゆる、世界の岩戸開きといってもよかろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

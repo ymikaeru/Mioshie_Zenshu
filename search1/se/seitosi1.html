@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seitosi1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生と死 『明日の医術 第三編』昭和18(1943)年10月23日発行 そもそも、吾々の住むこの地上は「霊界と現界」に区別されていることは、すでに述べた通りである。<br><br>この理によって人間は、霊は霊界に属し、肉体は現界に属しているから、人が死ぬということは、肉体から霊が離脱して霊界に復帰することである。<br><br>故に、一般人が考えている死によって全部が消滅する――というような解釈は、全然誤っているのである。<br><br>私は約十年間位、人の死と霊界との関係を徹底的に研究し、動かすべからざる根拠を把握し得たのである。<br><br> 故に、死後人間の精霊は、直ちに霊界に入り、霊界の社会人となり、霊界の生活が始まるのである。<br><br>そうしてまず人間が死の刹那（せつな）はいかなる状態であるかを、霊界から観察する時の模様を書いてみよう。<br><br> 死即ち精霊が肉体から離脱の場合、概（おおむ）ね人体の三個所から出るのである。<br><br>即ち前額部、臍（へそ）部、足の爪先からである。<br><br>この区別はいかなる理由によるかというに、霊の清浄なるものは前額部、中位のものは臍部、汚濁せるものは足部という訳である。<br><br>そうして霊の清浄なるものとは、生前善を行い、徳を積み、それによって霊体が浄化されたるもの、足部は生前罪悪を重ねたるもの、臍部はその中間である。<br><br> そうして、死の刹那を霊視したある看護婦の記録を私は見た事がある。<br><br>これは最も好い例であると思うから書いてみよう。<br><br> これは、西洋の例であるが、人によって霊の見える人が、何万人に一人は日本にも西洋にもあるのである。<br><br>この看護婦もこの種のものであったと見え、なかなかよく書いてあった。<br><br>私は詳しい事は忘れたが要点だけを誌（しる）す事にする。<br><br>ある時、今や死に垂（なんな）んとする病人を熟視していると、額の辺から一条の白色の霧のようなものが濛々（もうもう）と立昇り、空間に緩やかに拡がりゆくのである。<br><br>そうして雲烟（うんえん）のごとく、一つの大きな不規則な塊のようなものになったかと思うと、間もなくしかも徐々として人体の形状になってゆき、数分後には、全く生前そのままの姿となって空間に立ち、凝乎（じっ）と自己の死骸をみつめているのである。<br><br>その際死骸に取ついて、近親者が悲歎にくれているのに対し、自分の存在を知らしたいような風にみえたが、何しろ幽冥ところを異にしているので、それを諦めたのかやや暫くして向直り、窓の方に進んで、頗（すこぶ）る軽るげに外へ出て行ったというのであるが、これは全く、死の刹那をよく表わしているのである。<br><br> そうして仏教においては人の死を名付けて往生という。<br><br>これは現界からみれば死に往くのであるから往死でなければならない。<br><br>しかしながら仏界は霊界であるから逆になるので現界の死は仏界からいえば生即ち往生である。<br><br>又、死ぬ前のことを生前というのも右の意味に外ならないのである。<br><br>そうして人間は、霊界における生活を何年か何十年何百年かを経て再び生れるのである。<br><br>かくのごとく、生更（かわ）り死に代り何回でも生れてくるのである。<br><br> そうして霊界そのものは、人間に対しいかなる関係がありやというに、それは現界において、神の御目的の受命者として、人各々の業務を遂行するにおいて、意識すると意識せざるとに関わらず、さきに説いたごとく霊体に汚穢（おわい）が堆積するのである。<br><br>それと共に肉体も病気老廃等によって受命を遂行し難くなるから、一旦体である衣を脱ぎすて霊界に復帰するのである。<br><br>昔から霊の脱出した体を称してナキガラというのは、そういう意味であり、カラダというのも同一の意味である。<br><br>そうして霊魂が霊界に入るや、汚穢の堆積した量に対し、浄化作用が行われるのであって、ある程度、清浄化した霊魂は再び現界に生れてくるのである。<br><br> 又、人は生れながらにして賢愚の別がある。<br><br>これはどういう訳かというと、古い霊魂ほど賢いのである。<br><br>何となれば、再生の度数が多い為、現世の経験が豊富であるからである。<br><br>それに引換え、新しい霊魂は経験が浅い為、どうしても愚かであるのはやむを得ないのである。<br><br>新しい霊魂とは霊界における生殖作用によって新生するのであるが、現界の生殖作用とは全然異なるそうである。<br><br> 又、誰しも経験する所であるが、見ず知らずの他人であっても、一度接するや親子のごとく兄弟のごとく、否それ以上に親しみを感ずる事があるが、これは、前生において、近親者又は非常に親密な間柄であった為である。<br><br>これらを称して因縁というのである。<br><br>袖すり合うも他生（たしょう）の縁とかいうような事も無意味ではないのである。<br><br> 又旅行などした時、ある場所に非常に親しみを感ずる事がある。<br><br>それは前生においてその辺に住み、又は永く滞在していた為である。<br><br> 右の様に、前世と今世との関係は、あらゆる事に影響しているのである。<br><br> 又、よくこういう事がある。<br><br>非常に嫌いな物とか、恐ろしがるものがある。<br><br>たとえていえば、犬や猫・鼠等を見て恐ろしがったり、又は蛙、蟻、毛虫等のごとき虫類を怖れたり、水を見ると慄（ふる）えたりする人がある。<br><br>それらはどういう訳かというと、犬・猫・鼠等に噛まれて、それが原因で死んだので、その恐怖が霊魂に染み着いている為である。<br><br>又、虫類を見て恐怖の刹那顛落し、それによって死んだり、水に落ちて死ぬ等によって、その恐怖が霊魂に染みつき、それが全く解消しないうちに再生するからである。<br><br> 以前、私が扱った患者にこういうのがあった。<br><br>その人は、誰も居ない場所では恐ろしくて寸時も居られない。<br><br>故に、一人留守居をする時は、往来へ出て立っているのである。<br><br>これはどういう訳かというと、前世の時、独居の際急に発病し、人を呼んでも来ない中に死んでしまったので、その時の恐怖がのこっている為である。<br><br>こういう人の例は割合多いものであるから、読者の知人にして、右と類似の行動がある人を観察する場合、右の私の説を参考にすれば大抵判断はつくはずである。<br><br> 又、世間よく非常に心が良い人であるに拘わらず、まことに不幸な境遇の人がある。<br><br>こういう人に対し、その知人などが常に疑問を起すのであるが、この疑問に対し、私は次のごとく解くのである。<br><br> 人間が前世において悪事を重ね、それが為、刑場において死罪になるとか、又は何らかの刑罰を受けるか、恨まれて生命を奪われる場合死に直面した時、深く前非を悔悟し、悪の結果の恐ろしさを知って、この次生れた時は決して悪は為（な）すまいと心に誓うのである。<br><br>その想念が再生してからも強く滲みつき、悪を厭（いと）い善事を為すのである。<br><br>しかるに再生しても前世における罪穢が未だ残存している為、その浄化作用としての苦悩を受けなければならないのである――という理由である。<br><br> 又、男子であって、非常に貞操の正しい人がある。<br><br>自分の妻以外の婦人には決して関わりを作らないというのであるが、これらも前世において、婦人の為大いなる失敗をなし、身の破滅にまで到り、死に際会して悔悟し、この次の世では、決して正しからざる婦人関係は作らないと固く決心したという訳である。<br><br> 又、歴史を繙（ひもと）く時、ある時代の場面や人物などに、何かしら親しみか又は憎悪等関心を払わずにおられない事があるが、それらは自分がその時代に生れ合せ、関係があった為である事は勿論である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Vida e a Morte</h2>
 <p>Conforme já foi elucidado, este plano terrestre em que habitamos se divide entre o Mundo Espiritual e o Mundo Material. Por este princípio, o espírito do ser humano pertence ao Mundo Espiritual, enquanto seu corpo físico pertence ao Mundo Material. A morte, portanto, consiste no desprendimento do espírito do corpo para que retorne ao seu plano de origem. Logo, a interpretação generalizada de que tudo se aniquila com a morte é, pois, completamente equivocada. Dediquei-me por aproximadamente uma década à pesquisa exaustiva da relação entre a morte e o Mundo Espiritual, logrando alcançar fundamentos irrefutáveis.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>É comum nos depararmos com pessoas de índole notavelmente boa que, no entanto, vivem em meio a infortúnios. Seus conhecidos frequentemente se indagam sobre essa aparente contradição. A este questionamento, respondo da seguinte forma: em sua existência anterior, o indivíduo cometeu graves delitos, pelos quais foi condenado à morte ou submetido a severas punições, ou ainda teve sua vida ceifada por vingança. Diante da morte, contudo, arrependeu-se profundamente de seus atos e, compreendendo a terrível consequência do mal, jurou a si mesmo que, ao renascer, jamais voltaria a praticá-lo. Essa forte determinação impregna sua alma no renascimento, levando-o a abominar o mal e a praticar o bem. Todavia, como as máculas de seus pecados pretéritos ainda persistem, ele precisa passar por sofrimentos, que atuam como um processo purificador, para expiá-las.</p>
 <p>Há também o caso de homens de conduta moral irrepreensível, que se mantêm estritamente fiéis, sem jamais se envolverem com outra mulher que não a sua esposa. Isso também se explica por uma vida passada na qual, por causa de uma mulher, sofreram um grande revés que os levou à ruína. No momento da morte, arrependidos, tomaram a firme resolução de que, na próxima existência, jamais se envolveriam em relações ilícitas.</p>
 <p>Finalmente, ao folhearmos os livros de história, por vezes sentimos uma inexplicável afinidade, ou mesmo aversão, por determinadas épocas, cenários ou personagens. Isso ocorre, evidentemente, porque estivemos presentes naquele período e tivemos alguma relação com tais eventos ou figuras históricas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生と死 『明日の医術 第三編』昭和18(1943)年10月23日発行 そもそも、吾々の住むこの地上は「霊界と現界」に区別されていることは、すでに述べた通りである。<br/><br/>この理によって人間は、霊は霊界に属し、肉体は現界に属しているから、人が死ぬということは、肉体から霊が離脱して霊界に復帰することである。<br/><br/>故に、一般人が考えている死によって全部が消滅する――というような解釈は、全然誤っているのである。<br/><br/>私は約十年間位、人の死と霊界との関係を徹底的に研究し、動かすべからざる根拠を把握し得たのである。<br/><br/> 故に、死後人間の精霊は、直ちに霊界に入り、霊界の社会人となり、霊界の生活が始まるのである。<br/><br/>そうしてまず人間が死の刹那（せつな）はいかなる状態であるかを、霊界から観察する時の模様を書いてみよう。<br/><br/> 死即ち精霊が肉体から離脱の場合、概（おおむ）ね人体の三個所から出るのである。<br/><br/>即ち前額部、臍（へそ）部、足の爪先からである。<br/><br/>この区別はいかなる理由によるかというに、霊の清浄なるものは前額部、中位のものは臍部、汚濁せるものは足部という訳である。<br/><br/>そうして霊の清浄なるものとは、生前善を行い、徳を積み、それによって霊体が浄化されたるもの、足部は生前罪悪を重ねたるもの、臍部はその中間である。<br/><br/> そうして、死の刹那を霊視したある看護婦の記録を私は見た事がある。<br/><br/>これは最も好い例であると思うから書いてみよう。<br/><br/> これは、西洋の例であるが、人によって霊の見える人が、何万人に一人は日本にも西洋にもあるのである。<br/><br/>この看護婦もこの種のものであったと見え、なかなかよく書いてあった。<br/><br/>私は詳しい事は忘れたが要点だけを誌（しる）す事にする。<br/><br/>ある時、今や死に垂（なんな）んとする病人を熟視していると、額の辺から一条の白色の霧のようなものが濛々（もうもう）と立昇り、空間に緩やかに拡がりゆくのである。<br/><br/>そうして雲烟（うんえん）のごとく、一つの大きな不規則な塊のようなものになったかと思うと、間もなくしかも徐々として人体の形状になってゆき、数分後には、全く生前そのままの姿となって空間に立ち、凝乎（じっ）と自己の死骸をみつめているのである。<br/><br/>その際死骸に取ついて、近親者が悲歎にくれているのに対し、自分の存在を知らしたいような風にみえたが、何しろ幽冥ところを異にしているので、それを諦めたのかやや暫くして向直り、窓の方に進んで、頗（すこぶ）る軽るげに外へ出て行ったというのであるが、これは全く、死の刹那をよく表わしているのである。<br/><br/> そうして仏教においては人の死を名付けて往生という。<br/><br/>これは現界からみれば死に往くのであるから往死でなければならない。<br/><br/>しかしながら仏界は霊界であるから逆になるので現界の死は仏界からいえば生即ち往生である。<br/><br/>又、死ぬ前のことを生前というのも右の意味に外ならないのである。<br/><br/>そうして人間は、霊界における生活を何年か何十年何百年かを経て再び生れるのである。<br/><br/>かくのごとく、生更（かわ）り死に代り何回でも生れてくるのである。<br/><br/> そうして霊界そのものは、人間に対しいかなる関係がありやというに、それは現界において、神の御目的の受命者として、人各々の業務を遂行するにおいて、意識すると意識せざるとに関わらず、さきに説いたごとく霊体に汚穢（おわい）が堆積するのである。<br/><br/>それと共に肉体も病気老廃等によって受命を遂行し難くなるから、一旦体である衣を脱ぎすて霊界に復帰するのである。<br/><br/>昔から霊の脱出した体を称してナキガラというのは、そういう意味であり、カラダというのも同一の意味である。<br/><br/>そうして霊魂が霊界に入るや、汚穢の堆積した量に対し、浄化作用が行われるのであって、ある程度、清浄化した霊魂は再び現界に生れてくるのである。<br/><br/> 又、人は生れながらにして賢愚の別がある。<br/><br/>これはどういう訳かというと、古い霊魂ほど賢いのである。<br/><br/>何となれば、再生の度数が多い為、現世の経験が豊富であるからである。<br/><br/>それに引換え、新しい霊魂は経験が浅い為、どうしても愚かであるのはやむを得ないのである。<br/><br/>新しい霊魂とは霊界における生殖作用によって新生するのであるが、現界の生殖作用とは全然異なるそうである。<br/><br/> 又、誰しも経験する所であるが、見ず知らずの他人であっても、一度接するや親子のごとく兄弟のごとく、否それ以上に親しみを感ずる事があるが、これは、前生において、近親者又は非常に親密な間柄であった為である。<br/><br/>これらを称して因縁というのである。<br/><br/>袖すり合うも他生（たしょう）の縁とかいうような事も無意味ではないのである。<br/><br/> 又旅行などした時、ある場所に非常に親しみを感ずる事がある。<br/><br/>それは前生においてその辺に住み、又は永く滞在していた為である。<br/><br/> 右の様に、前世と今世との関係は、あらゆる事に影響しているのである。<br/><br/> 又、よくこういう事がある。<br/><br/>非常に嫌いな物とか、恐ろしがるものがある。<br/><br/>たとえていえば、犬や猫・鼠等を見て恐ろしがったり、又は蛙、蟻、毛虫等のごとき虫類を怖れたり、水を見ると慄（ふる）えたりする人がある。<br/><br/>それらはどういう訳かというと、犬・猫・鼠等に噛まれて、それが原因で死んだので、その恐怖が霊魂に染み着いている為である。<br/><br/>又、虫類を見て恐怖の刹那顛落し、それによって死んだり、水に落ちて死ぬ等によって、その恐怖が霊魂に染みつき、それが全く解消しないうちに再生するからである。<br/><br/> 以前、私が扱った患者にこういうのがあった。<br/><br/>その人は、誰も居ない場所では恐ろしくて寸時も居られない。<br/><br/>故に、一人留守居をする時は、往来へ出て立っているのである。<br/><br/>これはどういう訳かというと、前世の時、独居の際急に発病し、人を呼んでも来ない中に死んでしまったので、その時の恐怖がのこっている為である。<br/><br/>こういう人の例は割合多いものであるから、読者の知人にして、右と類似の行動がある人を観察する場合、右の私の説を参考にすれば大抵判断はつくはずである。<br/><br/> 又、世間よく非常に心が良い人であるに拘わらず、まことに不幸な境遇の人がある。<br/><br/>こういう人に対し、その知人などが常に疑問を起すのであるが、この疑問に対し、私は次のごとく解くのである。<br/><br/> 人間が前世において悪事を重ね、それが為、刑場において死罪になるとか、又は何らかの刑罰を受けるか、恨まれて生命を奪われる場合死に直面した時、深く前非を悔悟し、悪の結果の恐ろしさを知って、この次生れた時は決して悪は為（な）すまいと心に誓うのである。<br/><br/>その想念が再生してからも強く滲みつき、悪を厭（いと）い善事を為すのである。<br/><br/>しかるに再生しても前世における罪穢が未だ残存している為、その浄化作用としての苦悩を受けなければならないのである――という理由である。<br/><br/> 又、男子であって、非常に貞操の正しい人がある。<br/><br/>自分の妻以外の婦人には決して関わりを作らないというのであるが、これらも前世において、婦人の為大いなる失敗をなし、身の破滅にまで到り、死に際会して悔悟し、この次の世では、決して正しからざる婦人関係は作らないと固く決心したという訳である。<br/><br/> 又、歴史を繙（ひもと）く時、ある時代の場面や人物などに、何かしら親しみか又は憎悪等関心を払わずにおられない事があるが、それらは自分がその時代に生れ合せ、関係があった為である事は勿論である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

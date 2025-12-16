@@ -1,123 +1,470 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>joron22</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-
-        
-
-
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>joron22</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 『明日の医術（再版）第一編』昭和18(1943)年2月5日発行 この書を読む人の為に前以て断っておきたい事はいかなる読者といえども、今まで読んだところの書物否今日まで全世界で出版されたあらゆる書物といえども、恐らく私のこの著書位想像もつかない驚愕すべき説は無いであろうと思うのである。<br><br>あるいは異端邪説視する人もあるかも知れない。<br><br>それは、十六世紀の初め彼の地動説の始祖ポーランド人コペルニクスが、その天文学革新の説を著書として出版しようとしたが本国では到底許さるべくもないので、弟子である独逸（ドイツ）の一青年に託して独逸国で出版しようとしたが独逸でもそのままでは危いので、冒頭に“作り話”と書いて辛くも出版し得たという事や、又その後継者ともいうべき自然科学の泰斗ガリレオが、地球の自転説によってローマ法皇庁に喚（よ）ばれ拷問の刑に遭ってやむなく自説を飜えさゞるを得なかったのは、それは彼が七十歳の老齢で拷問に堪え得なかったからだという事であった。<br><br>その当時ガリレオが作った望遠鏡を人々は悪魔の道具であるといって近寄るのを恐れたという今日から観ると真実とは思えない程の滑稽事さえあったという事である。<br><br>かようにその時代にあって、既存の説を覆えすような新しい説や、人々の予想もしない新発見は、誤解と狂人扱される例は少くないのである。<br><br> そうして私は、過去弐拾数年間医学でない病気治療に従事している中、実に驚くべき事実を発見して愕然としたのである。<br><br>恐らく今日まで世界の誰もが発見したという事を聞かない悲しむべき一大事実である。<br><br> しかし、私は考えた、この真実を発見し得たというその事は大いなる理由がなくてはならない、その理由とは何ぞや、それはこの事を遍（あまね）く人類に知らしめなくてはならない“危機の時”が来たという、神の意志でなくて何であろうと思ったのである。<br><br> ここで、平凡な私の経歴を書かして貰おう。<br><br>私は学問は極めて低い、ただ画家を志して美術学校の予備門に入り、眼疾の為半途退学をしたのである、それから実業家たらんとして一時少し成功したが、ついに大失敗をして失望懊悩の結果と生来の病弱を解決したい一念も手伝って宗教方面に趨（はし）り、霊の研究に趣味を持ち全身を打込んだのであった。<br><br>それから“病気と霊との関係のある事”を知って、なおも研究に耽（ふけ）りつつついに独特の治病法を創成したのであるが、それよりも病気とその原因とが想像もつかない意外な所にあるのを知ったのである。<br><br>そうしてそれは、はっきり知れば知る程、現代医学の理論と反対であって、西洋医学を基本としている今日の政府の政策とは全然喰違うので病気治療を廃（や）めてしまったのである。<br><br> しかしながら、私の治療に従事している時の治癒率は当（まさ）に驚くべき程で、その治癒率は九十パーセントは確かであった。<br><br>常に門前市をなしどうにも身体が続かなくなったというその事も廃める理由の一つであった。<br><br>治病率九十パーセントなどゝいうと何人も本当にする者はあるまい。<br><br>特に専門に従事する人はなおさら信じ難いであろう。<br><br>しかしながら私が治療に従事している時に、こういう事を言ったらそれは宣伝の具に使うと思われるが、今は廃めてしまって閑日月（かんじつげつ）を送っている境遇でそんな宣伝などは何ら必要はない訳である。<br><br>そうして右のごとき恐らく世界に類例のないであろう治病率を挙げ得たという事は何が為であるか、それは病原の真実を知ってそれを衝いたからである。<br><br>しかも医薬も器械も使用しない、ただ手指と掌の技術によってである。<br><br>今一度断わっておきたい事は、私のいう右の効果がいささかの誇張もないという事である。<br><br> 今日医学は実に驚くべき進歩を遂げつゝありとされている。<br><br>そうしてあらゆる文明国人がいささかの疑もなく信じ切ってしまって、各国の政府も国民もこれを基礎として、それぞれその国民の保健政策を樹てている。<br><br>そうして未来観としてあらゆる病原は一つ一つ解決されてゆき、その治療法は確立され、人間の寿齢は延長し、体位は向上すべく、先進文明国が伝染病や結核が漸減しつゝある事実に観て社会衛生の進歩の結果とされているのである。<br><br>しかるに何ぞしらん伝染病や結核が理想のごとく漸減し、寿齢が緩慢ながら延長し、死亡率も漸減しつゝあるのであるから人口はどうしても増加しなければならないはずであるに係らず現実はその反対であって、各国共人口低減の防止に必死となっているという事は全く不合理極まる事というべきである。<br><br> 又、我日本においての結核や虚弱児童の増加一般体位の低下等は周知の事実である。<br><br>しかも明治三十年代の兵役壮丁者の胸部疾患が百人に付二人であったものが、昭和十二年には百人に付二十人という実に十倍という増加である。<br><br>その他幾多の事実が医学の進歩とおよそ逆比例しつつあるのは何故であろうか、これは要するに何らか未だ発見されない所の大いなる原因が潜んでいるのではなかろうか、これを例えていうならば樹木の葉の色が悪くなって新芽の出方が年々少くなるというので葉や枝や幹に原因があるのではないかと研究しているようなものではなかろうか。<br><br>何ぞ知らん、原因は誰も見えない所の根にあるのだという事それに気が付かないのではなかろうか。<br><br>私は、病原はこの根にあるという事を発見し得たのである。<br><br> そうして、私の説が真理として肯定される事も、実行に移さるゝ事も、容易ならぬ事であろう。<br><br>それは現在まで幾世紀の間築き上げられた西洋医学を基本として、あらゆる制度や施設が作り上げられている現状だからである。<br><br>といってこのままではいよいよますます統計は悲観的方向を指すであろう。<br><br>これ故に末梢的方策をいかに行ったところで、一時的ある程度の効果はあろうがその原因に触れざる限り大勢はいかんともなし得ないであろう。<br><br>事は、国家の興隆民族存亡に関する重大問題である。<br><br>地動説のように、それが肯定に百年遅れてもあえて危機には関わらないが、これは焦眉の急を要する大問題である。<br><br>私はこの著書を以てまず警鐘たらしめようとするのである。<br><br> 近代文明は、科学の進歩によって築き上げられた事は今更論をまたない所である。<br><br>科学の功績によって、人類の福祉がいかに増大されたかは、けだし、量り知れないであろう。<br><br>これゆえに、現代人がいかなる事物といえども、科学によって解決なし得ないものはないと思うのも無理からぬ事である。<br><br>勿論人間の病気も生命も科学の力によって漸次解決されてゆくとするのも当然であろう。<br><br> しかしながら、あらゆる事物が、科学によって解決なし得るものと、科学では解決なし得ないものとの区別が自らあるという事も知らねばならない。<br><br>又こういう事もいえると思う。<br><br>現代科学の進歩そのものは、原始時代からの歴史と相対的に観ての事であって、今後数百年又は数千年後の人類が二十世紀の科学を批判する時、その余りに幼稚であった事を嗤（わら）うであろう事は、ちょうど吾々が原始時代の文化を嗤うと同一であると想うのである。<br><br>彼の中世紀におけるアリストテレスや基督教一派が唱えた地球中心の説を、その時代の人々は無上の真理としていた事や、又その時代の占星術が今日の科学のごとく崇拝され、占星術を知らない医師は名医とはいわれなかったという史実も今日からみれば馬鹿馬鹿しい位のものである。<br><br>これゆえに私は人間の生命は、現代程度の科学での解決は不可能であると言うのである。<br><br>しかしながら停止することを知らない科学の未来は、ついに人間の生命をも解決為し得る時代が来るであろう事も想像されるのである。<br><br>従って、私の所説は、人間の生命に関してのみ、現代科学の理念では解決出来得ないと言うのである。<br><br>それにも係らず解決なし得るとしている。<br><br>そこに根本的誤謬の発生があるのであってその誤謬の発見こそ、この著書となったゆえんなのである。<br><br> そうして、私のこの所説こそは、実は未来の科学と思っている。<br><br>故に、現代科学に慣れている読者は先入観念にとらわれる事なく飽くまで頭脳を白紙にして臨まれん事である。<br><br> 専門家はいうであろう。<br><br>医学を学んだ事のないいわゆる素人輩に何が判るか。<br><br>おこがましいにも程があると、しかしながら私はいう。<br><br>私が医学を知らなかったからこの大発見が出来たのである。<br><br>それは偉大なる発明が専門家でない一介の無名人が為し得た事や大鉱山が鉱物智識のない者が発見したという事実など少くないことは、誰もが知る所である。<br><br> ここで、発明発見について、私の所見をいわして貰いたい。<br><br>今日までの偉大なる発明や発見においてそのほとんどが学者や専門家ではないということである。<br><br>彼の蒸気におけるワットや無線電信のマルコニー、電気のエジソン、飛行機のライト兄弟等々にみても明かである。<br><br>そうしていわゆる素人が根本原理を発見し、学者がそれの進歩改良を遂げるというそういう経路によって発達し来ったのが、あらゆる文化の現実であろう。<br><br> 又今日世界を動かしつゝある偉大なる人物として彼のヒットラー、ムッソリーニ、スターリンのごときも、学問は極めて低いという事である。<br><br>この不思議な現象はいかなる訳であるかということを述べてみよう。<br><br> 元来、学問とは、前人によって作為されたところの事物、法則の歴史であって、過去の知識である。<br><br>未来の分野に対する開拓的知識であるよりもただ基礎としての価値である。<br><br>言わば、既成的定型的知識である。<br><br>従って、未来の夢を現実にしようとする場合むしろ学問が邪魔になる事さえあるのである。<br><br>その固性化したところの定型的理念がその夢を否定しようとするからである。<br><br>しかるに、偉人とは、すべてその企図や行動が型破りならざるはないのである。<br><br>既成の型や過去の知識の否定によってこそ新しい物が生れるのである。<br><br>そこに飛躍がある、昨日の文化は明日の文化ではない。<br><br>勿論、いかに新しい発見や発明といえども無から有を生ずる魔法ではない。<br><br>永い間前人が築き上げた歴史の土台の上に打ち建てられるものには相違ない。<br><br>そうして学問は、既成の型を絶対の真理として信奉する結果、それが往々有用なる発見や発明を阻止し、否定しようとするのであって面白いのはその役目をその時の有識者がする事もあるのでせっかく人類に役立つ立派なものが一時押えつけられるという例もよくあるのである。<br><br> そうして一体、医学の目的は何であるか、いうまでもなく医学の為の医学ではない。<br><br>病気を解決せんが為の医学であらねばならない。<br><br>それは、あらゆる病原を闡明（せんめい）し、あらゆる病気を治癒し、健康を増進せしむる事である。<br><br>即ち病気のない人間病人のない家庭を作る事である。<br><br>人口増加が旺盛で、これに関して政府の施設など要しない国家たらしむる事である。<br><br>結核療養所も精神病院も漸減し、体力管理も健康診断も不必要になる事である。<br><br>以上のような方向に少くとも一歩一歩近づくというそうなる事が、医学の進歩であって、そうならせる力それが真の医学であると私は思うのである。<br><br>しかるに何ぞや、現在の状態を見るがいい。<br><br>右に述べた事とおよそ反対の方向に進んでいるではないか、それはいかなる訳であろうか、これらの現実に対して、専門家は勿論の事、政府も国民も何ら疑問を起さないのである。<br><br>実に不可解極まる事と私は思うのである。<br><br>この不可解極まる世紀の謎は、この著書によって明かになるであろう。<br><br> しかし、飜（ひるがえ）って省察する時、それは理由がある。<br><br>現代医学のその容装の何と絢爛たる事よ、顕微鏡の進歩は細菌の発見となり、解剖学やレントゲン等によって人体内部はますます闡明され、各般に渉っての分析は微に入り細に渉って幾多の発見となり、薬物光線その他の療法はいよいよ種類を増し、手術の技巧は巧緻を極め機具や設備や消毒法等は実に完璧とさえ思われる程である。<br><br>これらによって、医学がすばらしい進歩を遂げつゝありと思うのも無理はないのである。<br><br> そうして、文化民族が私のこの理論を肯定するか否定するかによって、その運命は決定するのである。<br><br>もし、肯定を遅疑し、又は否定するとすればそれは滅亡への前進を速めるばかりである。<br><br>しかし、反対に肯定するとしたら、それは永遠の光明と繁栄への道へと進むのである。<br><br>従って、医学専門家の一人でもいい、私の説による“医学の創始”に着眼せられたい事である。<br><br>それは確かに医学の革新であり、明日の医術への出発であり、未来の科学の創建への第一歩となるであろう。<br><br> 又、今日まで医学として、真の意味における日本医術はなかったと私は惟（おも）うのである。<br><br>帰する所、西洋、支那、印度等において創始された医術を日本化したまでであって日本独創の医術ではない。<br><br>しかし、私の提唱するこの医術こそ、それは真の日本医術として永遠に誇るに足ると惟うのである。<br><br> 又、私は常にこういう事を思うのである。<br><br>今日本が、支那や南洋の占領地帯ヘ、宣撫班を派している、そうして宣撫班の主点は何といっても医療によって、彼らに日本の文化の発達を示しその恩恵を知らしめる事である。<br><br>しかし、一歩進んで考える時こういう結果になるのではなかろうか、それは、その医療が効果のあった場合、日本人の優秀を信ずるよりも、まずその医学の創始者である西洋人の優秀性を感ぜずには措かないであろう。<br><br>そうして、日本人の偉さは、西洋人の作品に対し、その模倣の巧妙さを讃えるというそれ以上には出でないであろう事である。<br><br>この意味において私のこの医術を以て彼らを救う場合、西洋医学より効果の大であればあるだけ心底から日本人に服するという事は自明の理である。<br><br>しかも機械も薬剤も何も要らないのであるから、いかなる僻地といえども容易に実行し得らるゝのである。<br><br> 今日の社会において、あらゆる不幸の最大原因は何であるかというと、まず病気そのものであるといえよう。<br><br>ここに一人の病人が出来たとする、たまたまそれが結核とかそうでなくとも何とか名のつく病気とする。<br><br>それは誰しも直ちに医師又は病院に診察を乞い、治療を受けるのが常識である。<br><br>しかるに、医療においては少し重い病気はまず安静を第一とする。<br><br>次いで、服薬、注射、氷冷、湿布等々複雑多岐なる療法を行う。<br><br>しかるに、容易に治癒しない。<br><br>やむを得ず患者は、医師又は病院を替える。<br><br>それでも治らない。<br><br>その場合、余裕のある人程治りたい一心で、費用や時間に構わず何個所も病院を更（か）える。<br><br>ちょうど病院遍歴者である。<br><br>しかし、いかに焦っても治るはずがない。<br><br>何となれば、何軒歩いた所で西洋医学という一つの根本理論から成立っている療法はどこへ行っても大同小異であるからである。<br><br>故に、最初の医師で効果がなかったものは、同様の学歴によって修得した次の医師も左程異るはずがない。<br><br>たゞ医師によりその才能の特に優れた人は、診断、技術、精神的方面等綜合して良い結果を生むという例はない事はないが、それらは一般には当嵌（あてはま）らないのである。<br><br>そうして何程病院通いしても入院しても治らない。<br><br>患者は煩悶懊悩（はんもんおうのう）する。<br><br>そういう頃になると大抵な人は貯金は費い尽し、しかも、主人である場合、長い間職業を放棄しているので、収入は減少又は杜絶して借金は出来る、勤務先からは馘になり進退ここに谷（きわま）るという、いとも悲惨な状態は今日随所に見らるゝ事実である。<br><br>又患者が妻女又は子女である場合、病気が数年に渉るにおいて一寸した財産は蕩尽してしまうであろう。<br><br>そうしてその結果生命を失くするというに至っては、それまでの多額の費用はほとんど無駄に捨てたも同然である。<br><br>即ちその莫大なる費額の代償として得たるところは長時日間の苦痛と“死”そのものである。<br><br>噫（ああ）、あわれなるものよ！“汝の名は現代の人間である”と言いたい位である。<br><br>まず二、三人の子女を次々右のごとき病気の経路と死を繰返すにおいて、大抵な財産は蕩尽され、老後の希望も楽しみも消失して絶望の極（きわみ）敗残者のごとき生活に陥ってしまったという不幸な人の例も、私は余りにも多く見たり聞いたりしたのである。<br><br>かくのごとき高価なる犠牲を払って、かくのごとき不幸なる結果がその代償であるという事実は何を物語っているのであろうか、その理由は簡単である。<br><br>現代医学は、病気を解決するには余りにも無力であるという事である。<br><br> この著書においての主眼とする所は、人口問題であって、それは文化民族の増加率が低減するという事が、その帰結として、ついに滅亡への運命を示唆していることである。<br><br>彼の独逸の人口統計学者として知られているブルグドエルファー氏の推計した所によると今から約百十年を経た西暦二○五○年頃になると、独逸の人口は二千五百万人になってしまうという事である。<br><br>これは今日の独逸の人口六千七百万人に比ベるとほとんど五分の二に近い数に激減してしまう事になる。<br><br>又、イギリスのエニッド・チャールス女史の研究によるとイギリスの人口が、これからも今までと同じ様に出生率と死亡率とが一緒に下ってゆくとすれば、イギリス今日の人口は約四千六百万人位であるが、今から百年後にはその十分の一以下の四百四十万人になってしまうというのである。<br><br>しからば我日本における統計はどうであろうか。<br><br>我国統計学の権威中川友長博士の推算によると、昭和十五年の現在数七千三百九十三万九千二百七十八人が今日までの割合で推移するとして六十年後の昭和七十五年には一億二千二百七拾四万一千七百七十七人となり、これを極点として減少し初め、それより二十年後の昭和九十五年には一億一千五百四十六万五千三百八十六人になるという事である。<br><br>右の計算を以てすれば独逸は五百五拾年後にはただの百六十万人となり、英国は向後二百年にして四十四万人となり、日本は四、五百年にして零になるという計算になるのである。<br><br> 右は統計を基礎としての予想である以上相当の信をおいてよかろう。<br><br>実に、この問題に直面する時何人といえども恐怖と戦慄に襲われない訳にはゆくまい。<br><br>私はこの大問題こそ、東亜共栄圏の問題よりも、世界新秩序の問題よりも、幾層倍、否幾十倍もの大なる問題であり、絶対的解決を要すべき問題であると思うのである。<br><br>以上のごとく十九世紀から二十世紀にかけて、この人口減少という恐るべき現象が起ってきたのはなぜであろうか、そうしてこの不思議な現象は十八世紀以前には無かったと思うのである。<br><br>何となればもしいつの時代かに始まっていたとすれば少くとも今日までに文化民族は滅亡か、あるいは滅亡に近い運命になっていなければならないはずであるからである。<br><br> そうしてこの人口低減という二十世紀の謎の本体は何であるか。<br><br>読者よ驚くなかれ実に医学の進歩そのものであるという事である。<br><br>嗚呼歴史あって以来かくのごとき意想外極まる問題はあったであろうか。<br><br> 私は文化民族が三四五百年にして全滅するという統計を示したのであるが実は私の観る所ではもっと速くあるいは二三百年以上は困難ではないかと思うのである。<br><br>何となればその原因が医学の進歩による逆効果である以上医学が益々進歩するとすれば現在程度の医学で樹てた予想よりもより悪い結果を来すべきは当然の帰結であるからである。<br><br> しからば右の逆効果という意味はいかなる訳であろうか。<br><br>これを徹底的に暴露闡明し真の日本医術を創建し、滅びゆかんとする人類幾億の精霊を救済せんとする一大本願がこの著書となったのである。<br><br> （昭和十六年十月） ※本篇は脱稿時点において社会情勢から発刊不可能を覚悟された出版物であり、当初その旨を序文に記されていたが、昭和十七年に刊行することを得たものである。<br><br>下にその際削除された序文の一部を参考のため掲載する。<br><br> 「最後に特に断わっておきたい事はこの著書は今日の時勢では出版は困難であろうと思うのである。<br><br>それなら出版できないものをなぜ書いたかというと、それはこういう訳である。<br><br>いずれ何年か何十年かの後には必ず現代医学の欠陥が暴露されて私が創成した日本医術が非常な勢いを持って世の中に推奨さるるに違いないことを確信するからである。<br><br>何となれば誤謬は到底永続すべきはずが無いとともに、真実は長く埋れているはずはないからである。<br><br>（昭和十六年十月）」
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Introdução</h2>
-            <p>Ashita no Ijutsu (Reimpressão) – Primeira Parte</p>
-            <p>Aos que se dispõem a ler esta obra, sinto-me no dever de fazer uma advertência: dentre todos os livros
+<h2>Introdução</h2>
+<p>Ashita no Ijutsu (Reimpressão) – Primeira Parte</p>
+<p>Aos que se dispõem a ler esta obra, sinto-me no dever de fazer uma advertência: dentre todos os livros
                 que porventura já tenham lido — quiçá, dentre todas as publicações existentes no mundo até hoje —, é
                 provável que nenhum apresente uma tese tão surpreendente e inimaginável quanto a que exponho nestas
                 páginas. É possível que alguns a considerem uma heresia, uma doutrina perversa. Tal reação não seria
@@ -133,14 +480,14 @@ function toggleLang(lang) {
                 “instrumento do demônio”. Assim, ao longo da história, não são raros os exemplos de novas teorias que
                 derrubam conceitos estabelecidos ou de descobertas que superam a imaginação popular serem recebidas com
                 incompreensão e seus autores, tratados como insanos.</p>
-            <p>Nesse sentido, ao longo de mais de vinte anos dedicados a uma prática de cura que não se enquadra na
+<p>Nesse sentido, ao longo de mais de vinte anos dedicados a uma prática de cura que não se enquadra na
                 medicina convencional, deparei-me, atônito, com uma descoberta de fato assombrosa. Trata-se de uma
                 verdade crucial e lamentável que, até onde sei, jamais foi revelada por alguém em qualquer parte do
                 mundo.</p>
-            <p>Contudo, pus-me a refletir. Para que me fosse concedida a graça de desvendar tal verdade, deveria haver
+<p>Contudo, pus-me a refletir. Para que me fosse concedida a graça de desvendar tal verdade, deveria haver
                 uma razão monumental. E qual seria essa razão? Pensei: o que seria senão a Vontade Divina, sinalizando
                 que chegou o “momento de crise” em que esta verdade precisa ser revelada a toda a humanidade?</p>
-            <p>Permitam-me, aqui, relatar brevemente minha modesta trajetória. Minha formação acadêmica é extremamente
+<p>Permitam-me, aqui, relatar brevemente minha modesta trajetória. Minha formação acadêmica é extremamente
                 limitada. Apenas ingressei no curso preparatório da Escola de Belas-Artes com o sonho de me tornar
                 pintor, mas fui forçado a abandonar os estudos devido a uma enfermidade ocular. Depois, tentei ser
                 empresário e, após um breve período de sucesso, sofri um grande fracasso. A combinação do desespero e do
@@ -153,7 +500,7 @@ function toggleLang(lang) {
                 era sua oposição à teoria médica contemporânea. Como esta abordagem se chocava frontalmente com as
                 políticas governamentais, alicerçadas na medicina ocidental, decidi por fim abandonar a prática de
                 tratamentos.</p>
-            <p>Não obstante, durante o tempo em que exerci minha atividade terapêutica, a taxa de cura era
+<p>Não obstante, durante o tempo em que exerci minha atividade terapêutica, a taxa de cura era
                 verdadeiramente espantosa, alcançando, com certeza, noventa por cento. A afluência de pessoas era
                 tamanha que se formavam multidões à minha porta, e a exaustão física que isso me causava foi também um
                 dos motivos para interromper o trabalho. Sei que, ao mencionar uma taxa de cura de noventa por cento,
@@ -165,7 +512,7 @@ function toggleLang(lang) {
                 origem das enfermidades e atuava diretamente sobre ela. E isso sem utilizar medicamentos ou aparelhos,
                 valendo-me unicamente da técnica de imposição dos dedos e das palmas das mãos. Reitero, para que não
                 reste dúvida: não há o menor exagero no efeito que acabo de descrever.</p>
-            <p>Afirma-se que a medicina atual experimenta um progresso notável. Os povos de todas as nações civilizadas
+<p>Afirma-se que a medicina atual experimenta um progresso notável. Os povos de todas as nações civilizadas
                 acreditam nisso sem a menor hesitação, e tanto os governos quanto os cidadãos baseiam-se nesse
                 pressuposto para estabelecer suas políticas de saúde pública. A perspectiva para o futuro é que as
                 causas de todas as doenças serão elucidadas uma a uma, seus tratamentos serão consolidados, a
@@ -176,7 +523,7 @@ function toggleLang(lang) {
                 aumentando, ainda que lentamente, e se a taxa de mortalidade também estivesse em declínio, a população
                 deveria, por lógica, estar crescendo. A realidade, entretanto, é o exato oposto: diversas nações lutam
                 desesperadamente para conter a queda de seus índices populacionais. Isso não é o cúmulo do paradoxo?</p>
-            <p>Ademais, no Japão, o aumento da tuberculose, da debilidade infantil e a deterioração geral da condição
+<p>Ademais, no Japão, o aumento da tuberculose, da debilidade infantil e a deterioração geral da condição
                 física da população são fatos notórios. Mais alarmante ainda é a incidência de doenças torácicas entre
                 os jovens convocados para o serviço militar, que na década de 1890 era de dois em cada cem, e saltou
                 para vinte em cada cem em 1937 — um aumento de dez vezes. Por que tantos fatos demonstram uma proporção
@@ -186,7 +533,7 @@ function toggleLang(lang) {
                 galhos e tronco, supondo que ali reside o problema. Mal sabem eles que a verdadeira causa está nas
                 raízes, ocultas sob a terra, e não se dão conta disso. Pois bem, eu logrei descobrir que a origem das
                 doenças se encontra justamente nessa raiz.</p>
-            <p>Sei, contudo, que não será fácil que minha tese seja aceita como verdade e, menos ainda, que seja posta
+<p>Sei, contudo, que não será fácil que minha tese seja aceita como verdade e, menos ainda, que seja posta
                 em prática. Afinal, a realidade atual é que todos os sistemas e instituições foram erigidos com base na
                 medicina ocidental, um edifício construído ao longo de séculos. Insistir nesse caminho, porém, apenas
                 fará com que as estatísticas apontem para uma direção cada vez mais pessimista. Por isso, por mais que
@@ -196,12 +543,12 @@ function toggleLang(lang) {
                 heliocêntrica, por exemplo, poderia ter sua aceitação retardada em um século sem que isso representasse
                 uma crise iminente. Este problema, no entanto, é de urgência crítica. Minha intenção, com esta obra, é
                 soar o primeiro alarme.</p>
-            <p>É inegável que a civilização moderna foi erigida sobre o progresso da ciência. O quanto o bem-estar da
+<p>É inegável que a civilização moderna foi erigida sobre o progresso da ciência. O quanto o bem-estar da
                 humanidade foi ampliado pelas conquistas científicas é, de fato, imensurável. Sendo assim, é natural que
                 o homem contemporâneo acredite que não há nada que a ciência não possa solucionar. Obviamente, também é
                 natural supor que as doenças e a própria vida humana serão gradualmente desvendadas pelo poder da
                 ciência.</p>
-            <p>Entretanto, é preciso compreender que existe, por natureza, uma distinção entre aquilo que a ciência pode
+<p>Entretanto, é preciso compreender que existe, por natureza, uma distinção entre aquilo que a ciência pode
                 solucionar e aquilo que está além de seu alcance. Pode-se argumentar, ainda, que o progresso da ciência
                 moderna é um conceito relativo, visto em perspectiva histórica desde a era primitiva. Daqui a algumas
                 centenas ou milhares de anos, quando a humanidade do futuro analisar a ciência do século XX, certamente
@@ -215,24 +562,24 @@ function toggleLang(lang) {
                 vida seja compreendida. Minha tese, portanto, é que a vida humana, em sua essência, não pode ser
                 solucionada pelos paradigmas da ciência atual. Apesar disso, insiste-se que tal solução é possível. É aí
                 que reside a origem de um erro fundamental, e a descoberta desse erro é a razão de ser desta obra.</p>
-            <p>Na realidade, considero que esta minha tese é, em si, a ciência do futuro. Por isso, peço aos leitores
+<p>Na realidade, considero que esta minha tese é, em si, a ciência do futuro. Por isso, peço aos leitores
                 habituados à ciência moderna que abordem esta leitura com a mente desprovida de preconceitos, como uma
                 folha em branco.</p>
-            <p>Os especialistas dirão: “O que pode saber um leigo, alguém que jamais estudou medicina? Que pretensão
+<p>Os especialistas dirão: “O que pode saber um leigo, alguém que jamais estudou medicina? Que pretensão
                 desmedida!”. Digo, porém, que foi precisamente por não conhecer a medicina que pude realizar esta grande
                 descoberta. É notório que grandes invenções não raro foram obra de pessoas anônimas, alheias à área de
                 especialização, e que vastas jazidas minerais foram descobertas por quem não tinha conhecimento algum de
                 mineralogia.</p>
-            <p>A esse respeito, gostaria de expor minha visão sobre invenções e descobertas. A maioria das grandes
+<p>A esse respeito, gostaria de expor minha visão sobre invenções e descobertas. A maioria das grandes
                 invenções e descobertas da história não proveio de acadêmicos ou especialistas. Isso fica evidente em
                 casos como o de James Watt com a máquina a vapor, Guglielmo Marconi com o telégrafo sem fio, Thomas
                 Edison com a eletricidade e os irmãos Wright com a aviação. A realidade do progresso em todas as áreas
                 da cultura parece seguir um padrão: um leigo descobre o princípio fundamental, e os acadêmicos o
                 aprimoram e desenvolvem.</p>
-            <p>Da mesma forma, as grandes figuras que hoje movem o mundo, como Hitler, Mussolini e Stalin, possuem,
+<p>Da mesma forma, as grandes figuras que hoje movem o mundo, como Hitler, Mussolini e Stalin, possuem,
                 segundo consta, uma formação acadêmica bastante limitada. Tentarei explicar a razão por trás desse
                 curioso fenômeno.</p>
-            <p>O saber acadêmico, em sua essência, é a história das coisas e leis criadas por nossos predecessores; é o
+<p>O saber acadêmico, em sua essência, é a história das coisas e leis criadas por nossos predecessores; é o
                 conhecimento do passado. Seu valor reside mais em servir como alicerce do que em ser um conhecimento
                 exploratório voltado para o futuro. É, por assim dizer, um conhecimento formatado e preestabelecido.
                 Consequentemente, ao se tentar transformar um sonho futuro em realidade, o saber acadêmico pode, por
@@ -245,7 +592,7 @@ function toggleLang(lang) {
                 verdades absolutas, frequentemente acaba por obstruir e rechaçar invenções e descobertas úteis. O
                 curioso é que esse papel de barreira é muitas vezes desempenhado pelos próprios intelectuais da época,
                 fazendo com que valiosas contribuições à humanidade sejam temporariamente suprimidas.</p>
-            <p>Afinal, qual é o propósito da medicina? Evidentemente, não é a medicina pela medicina. Deve ser uma
+<p>Afinal, qual é o propósito da medicina? Evidentemente, não é a medicina pela medicina. Deve ser uma
                 medicina para solucionar as doenças. Seu objetivo há de ser elucidar a causa de todas as enfermidades,
                 curar todas as doenças e promover a saúde. Em outras palavras, criar seres humanos sem doenças e lares
                 sem doentes. É tornar a nação tão próspera em seu crescimento populacional que as políticas
@@ -257,25 +604,25 @@ function toggleLang(lang) {
                 qual a razão para isso? Diante dessa realidade, nem os especialistas, nem o governo, nem a população
                 levantam qualquer questionamento. É algo que considero sumamente incompreensível. Este enigma do século,
                 tão difícil de decifrar, será finalmente revelado por esta obra.</p>
-            <p>Ao refletir, porém, percebo que há uma razão para essa cegueira. Quão deslumbrante é a aparência da
+<p>Ao refletir, porém, percebo que há uma razão para essa cegueira. Quão deslumbrante é a aparência da
                 medicina moderna! O avanço do microscópio levou à descoberta das bactérias; a anatomia e os raios X
                 desvendaram cada vez mais o interior do corpo humano; as análises em diversas áreas, cada vez mais
                 minuciosas e detalhadas, resultaram em inúmeras descobertas; os tratamentos com medicamentos, raios e
                 outras terapias multiplicam-se sem cessar; a técnica cirúrgica atingiu o ápice da destreza; e os
                 instrumentos, as instalações e os métodos de desinfecção parecem ter chegado à perfeição. Diante de tudo
                 isso, é natural pensar que a medicina está a realizar um progresso formidável.</p>
-            <p>O destino dos povos civilizados será selado pela forma como acolherem ou rechaçarem esta minha teoria. Se
+<p>O destino dos povos civilizados será selado pela forma como acolherem ou rechaçarem esta minha teoria. Se
                 hesitarem em aceitá-la, ou se a negarem, apenas acelerarão sua marcha rumo à ruína. Se, ao contrário, a
                 acolherem, trilharão o caminho da luz e da prosperidade eternas. Faço, portanto, um apelo para que ao
                 menos um especialista em medicina atente para a “fundação da medicina” que proponho. Ela certamente
                 representará a renovação da medicina, o ponto de partida para a arte de curar do amanhã e o primeiro
                 passo para a criação da ciência do futuro.</p>
-            <p>Ademais, creio que, até hoje, não existiu uma arte médica japonesa em seu sentido mais autêntico. O que
+<p>Ademais, creio que, até hoje, não existiu uma arte médica japonesa em seu sentido mais autêntico. O que
                 tivemos, em última análise, foram práticas médicas originadas no Ocidente, na China e na Índia, que
                 foram adaptadas ao Japão, mas não uma arte de cura genuinamente japonesa. Acredito, porém, que esta arte
                 médica que proponho será, sim, a verdadeira arte médica japonesa, da qual poderemos nos orgulhar
                 eternamente.</p>
-            <p>Há algo em que penso com frequência. O Japão envia atualmente missões de pacificação aos territórios
+<p>Há algo em que penso com frequência. O Japão envia atualmente missões de pacificação aos territórios
                 ocupados na China e nos Mares do Sul. O principal pilar dessas missões é, sem dúvida, a assistência
                 médica, por meio da qual se busca demonstrar o avanço da cultura japonesa e fazer com que aqueles povos
                 sintam seus benefícios. Se, no entanto, analisarmos a situação mais a fundo, não chegaremos a outro
@@ -286,7 +633,7 @@ function toggleLang(lang) {
                 evidente que, quanto maior for sua eficácia em comparação à medicina ocidental, mais eles se submeterão
                 aos japoneses de todo o coração. Ademais, como não requer equipamentos nem medicamentos, pode ser
                 praticada com facilidade em qualquer lugar, por mais remoto que seja.</p>
-            <p>Na sociedade de hoje, qual é a maior causa de toda a infelicidade? Pode-se dizer que é, em primeiro
+<p>Na sociedade de hoje, qual é a maior causa de toda a infelicidade? Pode-se dizer que é, em primeiro
                 lugar, a própria doença. Suponhamos que uma pessoa adoeça. Pode ser tuberculose ou qualquer outra
                 enfermidade diagnosticada. O senso comum dita que se procure imediatamente um médico ou um hospital para
                 obter um diagnóstico e iniciar o tratamento. Na prática médica, contudo, para doenças um pouco mais
@@ -314,7 +661,7 @@ function toggleLang(lang) {
                 em uma vida de desespero, como verdadeiros derrotados. O que nos diz o fato de que um sacrifício tão
                 caro tenha como recompensa um resultado tão infeliz? A razão é simples: a medicina moderna é impotente
                 demais para solucionar o problema da doença.</p>
-            <p>O tema central desta obra é a questão demográfica, especificamente o declínio da taxa de crescimento das
+<p>O tema central desta obra é a questão demográfica, especificamente o declínio da taxa de crescimento das
                 nações civilizadas, um fenômeno que, em sua conclusão lógica, aponta para um destino de extinção.
                 Segundo as projeções do renomado demógrafo alemão Friedrich Burgdörfer, por volta do ano 2050, ou seja,
                 daqui a cerca de 110 anos, a população da Alemanha terá se reduzido a 25 milhões de habitantes. Em
@@ -328,7 +675,7 @@ function toggleLang(lang) {
                 então começar a declinar. Vinte anos depois, em 2020, o número seria de 115.465.386. Com base nesses
                 cálculos, a Alemanha teria apenas 1,6 milhão de habitantes em 550 anos; o Reino Unido, 440 mil em 200
                 anos; e o Japão chegaria a zero em 400 ou 500 anos.</p>
-            <p>Considerando que essas projeções se baseiam em dados estatísticos, podemos lhes conferir um grau
+<p>Considerando que essas projeções se baseiam em dados estatísticos, podemos lhes conferir um grau
                 considerável de credibilidade. Diante de tal questão, quem poderia não ser assaltado pelo pavor e pela
                 apreensão? Acredito que este grande problema é muitas vezes, senão dezenas de vezes, maior que a questão
                 da Esfera de Coprosperidade da Grande Ásia Oriental ou a da Nova Ordem Mundial, e exige uma solução
@@ -336,30 +683,72 @@ function toggleLang(lang) {
                 Acredito que esse estranho fenômeno não existia antes do século XVIII, pois, se tivesse começado em
                 alguma época anterior, os povos civilizados já teriam se extinguido ou estariam à beira da extinção
                 hoje.</p>
-            <p>Qual é, então, a verdadeira natureza deste enigma do século XX, o declínio populacional? Leitor, não se
+<p>Qual é, então, a verdadeira natureza deste enigma do século XX, o declínio populacional? Leitor, não se
                 espante: é o próprio progresso da medicina. Ah, desde o início da história, terá havido um problema tão
                 paradoxal e inesperado?</p>
-            <p>Apresentei estatísticas que indicam a aniquilação total dos povos civilizados em trezentos, quatrocentos
+<p>Apresentei estatísticas que indicam a aniquilação total dos povos civilizados em trezentos, quatrocentos
                 ou quinhentos anos. Na verdade, a meu ver, o processo será ainda mais rápido; creio que será difícil que
                 durem mais de duzentos ou trezentos anos. Se a causa é o efeito reverso do progresso da medicina, é uma
                 consequência lógica que, à medida que a medicina avança, os resultados sejam ainda piores do que os
                 previstos com base em seu nível atual.</p>
-            <p>Mas o que significa esse “efeito reverso”? O grande e sagrado voto de expor e elucidar a fundo esta
+<p>Mas o que significa esse “efeito reverso”? O grande e sagrado voto de expor e elucidar a fundo esta
                 verdade, de fundar a autêntica medicina japonesa e de salvar as centenas de milhões de almas da
                 humanidade que caminham para a perdição, materializou-se nesta obra.</p>
-            <p>(Outubro de 1941)</p>
-            <p>※ No momento em que este manuscrito foi concluído, o autor estava ciente de que, devido à conjuntura
+<p>(Outubro de 1941)</p>
+<p>※ No momento em que este manuscrito foi concluído, o autor estava ciente de que, devido à conjuntura
                 social da época, sua publicação seria impossível, e havia registrado essa percepção no prefácio
                 original. A obra, no entanto, pôde ser publicada em 1942. Abaixo, para referência, reproduzimos um
                 trecho do prefácio que foi então removido.</p>
-            <p>“Por fim, algo que desejo deixar especialmente claro é que acredito ser difícil publicar esta obra nos
+<p>“Por fim, algo que desejo deixar especialmente claro é que acredito ser difícil publicar esta obra nos
                 tempos atuais. Então, por que escrever algo que não pode ser publicado? A razão é a seguinte: tenho a
                 firme convicção de que, daqui a alguns anos ou algumas décadas, as falhas da medicina moderna serão
                 expostas, e a medicina japonesa que criei será promovida no mundo com um vigor extraordinário. Isso
                 porque o erro jamais poderá perdurar, assim como a verdade não pode permanecer oculta para sempre.
                 (Outubro de 1941)”</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 『明日の医術（再版）第一編』昭和18(1943)年2月5日発行 この書を読む人の為に前以て断っておきたい事はいかなる読者といえども、今まで読んだところの書物否今日まで全世界で出版されたあらゆる書物といえども、恐らく私のこの著書位想像もつかない驚愕すべき説は無いであろうと思うのである。<br/><br/>あるいは異端邪説視する人もあるかも知れない。<br/><br/>それは、十六世紀の初め彼の地動説の始祖ポーランド人コペルニクスが、その天文学革新の説を著書として出版しようとしたが本国では到底許さるべくもないので、弟子である独逸（ドイツ）の一青年に託して独逸国で出版しようとしたが独逸でもそのままでは危いので、冒頭に“作り話”と書いて辛くも出版し得たという事や、又その後継者ともいうべき自然科学の泰斗ガリレオが、地球の自転説によってローマ法皇庁に喚（よ）ばれ拷問の刑に遭ってやむなく自説を飜えさゞるを得なかったのは、それは彼が七十歳の老齢で拷問に堪え得なかったからだという事であった。<br/><br/>その当時ガリレオが作った望遠鏡を人々は悪魔の道具であるといって近寄るのを恐れたという今日から観ると真実とは思えない程の滑稽事さえあったという事である。<br/><br/>かようにその時代にあって、既存の説を覆えすような新しい説や、人々の予想もしない新発見は、誤解と狂人扱される例は少くないのである。<br/><br/> そうして私は、過去弐拾数年間医学でない病気治療に従事している中、実に驚くべき事実を発見して愕然としたのである。<br/><br/>恐らく今日まで世界の誰もが発見したという事を聞かない悲しむべき一大事実である。<br/><br/> しかし、私は考えた、この真実を発見し得たというその事は大いなる理由がなくてはならない、その理由とは何ぞや、それはこの事を遍（あまね）く人類に知らしめなくてはならない“危機の時”が来たという、神の意志でなくて何であろうと思ったのである。<br/><br/> ここで、平凡な私の経歴を書かして貰おう。<br/><br/>私は学問は極めて低い、ただ画家を志して美術学校の予備門に入り、眼疾の為半途退学をしたのである、それから実業家たらんとして一時少し成功したが、ついに大失敗をして失望懊悩の結果と生来の病弱を解決したい一念も手伝って宗教方面に趨（はし）り、霊の研究に趣味を持ち全身を打込んだのであった。<br/><br/>それから“病気と霊との関係のある事”を知って、なおも研究に耽（ふけ）りつつついに独特の治病法を創成したのであるが、それよりも病気とその原因とが想像もつかない意外な所にあるのを知ったのである。<br/><br/>そうしてそれは、はっきり知れば知る程、現代医学の理論と反対であって、西洋医学を基本としている今日の政府の政策とは全然喰違うので病気治療を廃（や）めてしまったのである。<br/><br/> しかしながら、私の治療に従事している時の治癒率は当（まさ）に驚くべき程で、その治癒率は九十パーセントは確かであった。<br/><br/>常に門前市をなしどうにも身体が続かなくなったというその事も廃める理由の一つであった。<br/><br/>治病率九十パーセントなどゝいうと何人も本当にする者はあるまい。<br/><br/>特に専門に従事する人はなおさら信じ難いであろう。<br/><br/>しかしながら私が治療に従事している時に、こういう事を言ったらそれは宣伝の具に使うと思われるが、今は廃めてしまって閑日月（かんじつげつ）を送っている境遇でそんな宣伝などは何ら必要はない訳である。<br/><br/>そうして右のごとき恐らく世界に類例のないであろう治病率を挙げ得たという事は何が為であるか、それは病原の真実を知ってそれを衝いたからである。<br/><br/>しかも医薬も器械も使用しない、ただ手指と掌の技術によってである。<br/><br/>今一度断わっておきたい事は、私のいう右の効果がいささかの誇張もないという事である。<br/><br/> 今日医学は実に驚くべき進歩を遂げつゝありとされている。<br/><br/>そうしてあらゆる文明国人がいささかの疑もなく信じ切ってしまって、各国の政府も国民もこれを基礎として、それぞれその国民の保健政策を樹てている。<br/><br/>そうして未来観としてあらゆる病原は一つ一つ解決されてゆき、その治療法は確立され、人間の寿齢は延長し、体位は向上すべく、先進文明国が伝染病や結核が漸減しつゝある事実に観て社会衛生の進歩の結果とされているのである。<br/><br/>しかるに何ぞしらん伝染病や結核が理想のごとく漸減し、寿齢が緩慢ながら延長し、死亡率も漸減しつゝあるのであるから人口はどうしても増加しなければならないはずであるに係らず現実はその反対であって、各国共人口低減の防止に必死となっているという事は全く不合理極まる事というべきである。<br/><br/> 又、我日本においての結核や虚弱児童の増加一般体位の低下等は周知の事実である。<br/><br/>しかも明治三十年代の兵役壮丁者の胸部疾患が百人に付二人であったものが、昭和十二年には百人に付二十人という実に十倍という増加である。<br/><br/>その他幾多の事実が医学の進歩とおよそ逆比例しつつあるのは何故であろうか、これは要するに何らか未だ発見されない所の大いなる原因が潜んでいるのではなかろうか、これを例えていうならば樹木の葉の色が悪くなって新芽の出方が年々少くなるというので葉や枝や幹に原因があるのではないかと研究しているようなものではなかろうか。<br/><br/>何ぞ知らん、原因は誰も見えない所の根にあるのだという事それに気が付かないのではなかろうか。<br/><br/>私は、病原はこの根にあるという事を発見し得たのである。<br/><br/> そうして、私の説が真理として肯定される事も、実行に移さるゝ事も、容易ならぬ事であろう。<br/><br/>それは現在まで幾世紀の間築き上げられた西洋医学を基本として、あらゆる制度や施設が作り上げられている現状だからである。<br/><br/>といってこのままではいよいよますます統計は悲観的方向を指すであろう。<br/><br/>これ故に末梢的方策をいかに行ったところで、一時的ある程度の効果はあろうがその原因に触れざる限り大勢はいかんともなし得ないであろう。<br/><br/>事は、国家の興隆民族存亡に関する重大問題である。<br/><br/>地動説のように、それが肯定に百年遅れてもあえて危機には関わらないが、これは焦眉の急を要する大問題である。<br/><br/>私はこの著書を以てまず警鐘たらしめようとするのである。<br/><br/> 近代文明は、科学の進歩によって築き上げられた事は今更論をまたない所である。<br/><br/>科学の功績によって、人類の福祉がいかに増大されたかは、けだし、量り知れないであろう。<br/><br/>これゆえに、現代人がいかなる事物といえども、科学によって解決なし得ないものはないと思うのも無理からぬ事である。<br/><br/>勿論人間の病気も生命も科学の力によって漸次解決されてゆくとするのも当然であろう。<br/><br/> しかしながら、あらゆる事物が、科学によって解決なし得るものと、科学では解決なし得ないものとの区別が自らあるという事も知らねばならない。<br/><br/>又こういう事もいえると思う。<br/><br/>現代科学の進歩そのものは、原始時代からの歴史と相対的に観ての事であって、今後数百年又は数千年後の人類が二十世紀の科学を批判する時、その余りに幼稚であった事を嗤（わら）うであろう事は、ちょうど吾々が原始時代の文化を嗤うと同一であると想うのである。<br/><br/>彼の中世紀におけるアリストテレスや基督教一派が唱えた地球中心の説を、その時代の人々は無上の真理としていた事や、又その時代の占星術が今日の科学のごとく崇拝され、占星術を知らない医師は名医とはいわれなかったという史実も今日からみれば馬鹿馬鹿しい位のものである。<br/><br/>これゆえに私は人間の生命は、現代程度の科学での解決は不可能であると言うのである。<br/><br/>しかしながら停止することを知らない科学の未来は、ついに人間の生命をも解決為し得る時代が来るであろう事も想像されるのである。<br/><br/>従って、私の所説は、人間の生命に関してのみ、現代科学の理念では解決出来得ないと言うのである。<br/><br/>それにも係らず解決なし得るとしている。<br/><br/>そこに根本的誤謬の発生があるのであってその誤謬の発見こそ、この著書となったゆえんなのである。<br/><br/> そうして、私のこの所説こそは、実は未来の科学と思っている。<br/><br/>故に、現代科学に慣れている読者は先入観念にとらわれる事なく飽くまで頭脳を白紙にして臨まれん事である。<br/><br/> 専門家はいうであろう。<br/><br/>医学を学んだ事のないいわゆる素人輩に何が判るか。<br/><br/>おこがましいにも程があると、しかしながら私はいう。<br/><br/>私が医学を知らなかったからこの大発見が出来たのである。<br/><br/>それは偉大なる発明が専門家でない一介の無名人が為し得た事や大鉱山が鉱物智識のない者が発見したという事実など少くないことは、誰もが知る所である。<br/><br/> ここで、発明発見について、私の所見をいわして貰いたい。<br/><br/>今日までの偉大なる発明や発見においてそのほとんどが学者や専門家ではないということである。<br/><br/>彼の蒸気におけるワットや無線電信のマルコニー、電気のエジソン、飛行機のライト兄弟等々にみても明かである。<br/><br/>そうしていわゆる素人が根本原理を発見し、学者がそれの進歩改良を遂げるというそういう経路によって発達し来ったのが、あらゆる文化の現実であろう。<br/><br/> 又今日世界を動かしつゝある偉大なる人物として彼のヒットラー、ムッソリーニ、スターリンのごときも、学問は極めて低いという事である。<br/><br/>この不思議な現象はいかなる訳であるかということを述べてみよう。<br/><br/> 元来、学問とは、前人によって作為されたところの事物、法則の歴史であって、過去の知識である。<br/><br/>未来の分野に対する開拓的知識であるよりもただ基礎としての価値である。<br/><br/>言わば、既成的定型的知識である。<br/><br/>従って、未来の夢を現実にしようとする場合むしろ学問が邪魔になる事さえあるのである。<br/><br/>その固性化したところの定型的理念がその夢を否定しようとするからである。<br/><br/>しかるに、偉人とは、すべてその企図や行動が型破りならざるはないのである。<br/><br/>既成の型や過去の知識の否定によってこそ新しい物が生れるのである。<br/><br/>そこに飛躍がある、昨日の文化は明日の文化ではない。<br/><br/>勿論、いかに新しい発見や発明といえども無から有を生ずる魔法ではない。<br/><br/>永い間前人が築き上げた歴史の土台の上に打ち建てられるものには相違ない。<br/><br/>そうして学問は、既成の型を絶対の真理として信奉する結果、それが往々有用なる発見や発明を阻止し、否定しようとするのであって面白いのはその役目をその時の有識者がする事もあるのでせっかく人類に役立つ立派なものが一時押えつけられるという例もよくあるのである。<br/><br/> そうして一体、医学の目的は何であるか、いうまでもなく医学の為の医学ではない。<br/><br/>病気を解決せんが為の医学であらねばならない。<br/><br/>それは、あらゆる病原を闡明（せんめい）し、あらゆる病気を治癒し、健康を増進せしむる事である。<br/><br/>即ち病気のない人間病人のない家庭を作る事である。<br/><br/>人口増加が旺盛で、これに関して政府の施設など要しない国家たらしむる事である。<br/><br/>結核療養所も精神病院も漸減し、体力管理も健康診断も不必要になる事である。<br/><br/>以上のような方向に少くとも一歩一歩近づくというそうなる事が、医学の進歩であって、そうならせる力それが真の医学であると私は思うのである。<br/><br/>しかるに何ぞや、現在の状態を見るがいい。<br/><br/>右に述べた事とおよそ反対の方向に進んでいるではないか、それはいかなる訳であろうか、これらの現実に対して、専門家は勿論の事、政府も国民も何ら疑問を起さないのである。<br/><br/>実に不可解極まる事と私は思うのである。<br/><br/>この不可解極まる世紀の謎は、この著書によって明かになるであろう。<br/><br/> しかし、飜（ひるがえ）って省察する時、それは理由がある。<br/><br/>現代医学のその容装の何と絢爛たる事よ、顕微鏡の進歩は細菌の発見となり、解剖学やレントゲン等によって人体内部はますます闡明され、各般に渉っての分析は微に入り細に渉って幾多の発見となり、薬物光線その他の療法はいよいよ種類を増し、手術の技巧は巧緻を極め機具や設備や消毒法等は実に完璧とさえ思われる程である。<br/><br/>これらによって、医学がすばらしい進歩を遂げつゝありと思うのも無理はないのである。<br/><br/> そうして、文化民族が私のこの理論を肯定するか否定するかによって、その運命は決定するのである。<br/><br/>もし、肯定を遅疑し、又は否定するとすればそれは滅亡への前進を速めるばかりである。<br/><br/>しかし、反対に肯定するとしたら、それは永遠の光明と繁栄への道へと進むのである。<br/><br/>従って、医学専門家の一人でもいい、私の説による“医学の創始”に着眼せられたい事である。<br/><br/>それは確かに医学の革新であり、明日の医術への出発であり、未来の科学の創建への第一歩となるであろう。<br/><br/> 又、今日まで医学として、真の意味における日本医術はなかったと私は惟（おも）うのである。<br/><br/>帰する所、西洋、支那、印度等において創始された医術を日本化したまでであって日本独創の医術ではない。<br/><br/>しかし、私の提唱するこの医術こそ、それは真の日本医術として永遠に誇るに足ると惟うのである。<br/><br/> 又、私は常にこういう事を思うのである。<br/><br/>今日本が、支那や南洋の占領地帯ヘ、宣撫班を派している、そうして宣撫班の主点は何といっても医療によって、彼らに日本の文化の発達を示しその恩恵を知らしめる事である。<br/><br/>しかし、一歩進んで考える時こういう結果になるのではなかろうか、それは、その医療が効果のあった場合、日本人の優秀を信ずるよりも、まずその医学の創始者である西洋人の優秀性を感ぜずには措かないであろう。<br/><br/>そうして、日本人の偉さは、西洋人の作品に対し、その模倣の巧妙さを讃えるというそれ以上には出でないであろう事である。<br/><br/>この意味において私のこの医術を以て彼らを救う場合、西洋医学より効果の大であればあるだけ心底から日本人に服するという事は自明の理である。<br/><br/>しかも機械も薬剤も何も要らないのであるから、いかなる僻地といえども容易に実行し得らるゝのである。<br/><br/> 今日の社会において、あらゆる不幸の最大原因は何であるかというと、まず病気そのものであるといえよう。<br/><br/>ここに一人の病人が出来たとする、たまたまそれが結核とかそうでなくとも何とか名のつく病気とする。<br/><br/>それは誰しも直ちに医師又は病院に診察を乞い、治療を受けるのが常識である。<br/><br/>しかるに、医療においては少し重い病気はまず安静を第一とする。<br/><br/>次いで、服薬、注射、氷冷、湿布等々複雑多岐なる療法を行う。<br/><br/>しかるに、容易に治癒しない。<br/><br/>やむを得ず患者は、医師又は病院を替える。<br/><br/>それでも治らない。<br/><br/>その場合、余裕のある人程治りたい一心で、費用や時間に構わず何個所も病院を更（か）える。<br/><br/>ちょうど病院遍歴者である。<br/><br/>しかし、いかに焦っても治るはずがない。<br/><br/>何となれば、何軒歩いた所で西洋医学という一つの根本理論から成立っている療法はどこへ行っても大同小異であるからである。<br/><br/>故に、最初の医師で効果がなかったものは、同様の学歴によって修得した次の医師も左程異るはずがない。<br/><br/>たゞ医師によりその才能の特に優れた人は、診断、技術、精神的方面等綜合して良い結果を生むという例はない事はないが、それらは一般には当嵌（あてはま）らないのである。<br/><br/>そうして何程病院通いしても入院しても治らない。<br/><br/>患者は煩悶懊悩（はんもんおうのう）する。<br/><br/>そういう頃になると大抵な人は貯金は費い尽し、しかも、主人である場合、長い間職業を放棄しているので、収入は減少又は杜絶して借金は出来る、勤務先からは馘になり進退ここに谷（きわま）るという、いとも悲惨な状態は今日随所に見らるゝ事実である。<br/><br/>又患者が妻女又は子女である場合、病気が数年に渉るにおいて一寸した財産は蕩尽してしまうであろう。<br/><br/>そうしてその結果生命を失くするというに至っては、それまでの多額の費用はほとんど無駄に捨てたも同然である。<br/><br/>即ちその莫大なる費額の代償として得たるところは長時日間の苦痛と“死”そのものである。<br/><br/>噫（ああ）、あわれなるものよ！“汝の名は現代の人間である”と言いたい位である。<br/><br/>まず二、三人の子女を次々右のごとき病気の経路と死を繰返すにおいて、大抵な財産は蕩尽され、老後の希望も楽しみも消失して絶望の極（きわみ）敗残者のごとき生活に陥ってしまったという不幸な人の例も、私は余りにも多く見たり聞いたりしたのである。<br/><br/>かくのごとき高価なる犠牲を払って、かくのごとき不幸なる結果がその代償であるという事実は何を物語っているのであろうか、その理由は簡単である。<br/><br/>現代医学は、病気を解決するには余りにも無力であるという事である。<br/><br/> この著書においての主眼とする所は、人口問題であって、それは文化民族の増加率が低減するという事が、その帰結として、ついに滅亡への運命を示唆していることである。<br/><br/>彼の独逸の人口統計学者として知られているブルグドエルファー氏の推計した所によると今から約百十年を経た西暦二○五○年頃になると、独逸の人口は二千五百万人になってしまうという事である。<br/><br/>これは今日の独逸の人口六千七百万人に比ベるとほとんど五分の二に近い数に激減してしまう事になる。<br/><br/>又、イギリスのエニッド・チャールス女史の研究によるとイギリスの人口が、これからも今までと同じ様に出生率と死亡率とが一緒に下ってゆくとすれば、イギリス今日の人口は約四千六百万人位であるが、今から百年後にはその十分の一以下の四百四十万人になってしまうというのである。<br/><br/>しからば我日本における統計はどうであろうか。<br/><br/>我国統計学の権威中川友長博士の推算によると、昭和十五年の現在数七千三百九十三万九千二百七十八人が今日までの割合で推移するとして六十年後の昭和七十五年には一億二千二百七拾四万一千七百七十七人となり、これを極点として減少し初め、それより二十年後の昭和九十五年には一億一千五百四十六万五千三百八十六人になるという事である。<br/><br/>右の計算を以てすれば独逸は五百五拾年後にはただの百六十万人となり、英国は向後二百年にして四十四万人となり、日本は四、五百年にして零になるという計算になるのである。<br/><br/> 右は統計を基礎としての予想である以上相当の信をおいてよかろう。<br/><br/>実に、この問題に直面する時何人といえども恐怖と戦慄に襲われない訳にはゆくまい。<br/><br/>私はこの大問題こそ、東亜共栄圏の問題よりも、世界新秩序の問題よりも、幾層倍、否幾十倍もの大なる問題であり、絶対的解決を要すべき問題であると思うのである。<br/><br/>以上のごとく十九世紀から二十世紀にかけて、この人口減少という恐るべき現象が起ってきたのはなぜであろうか、そうしてこの不思議な現象は十八世紀以前には無かったと思うのである。<br/><br/>何となればもしいつの時代かに始まっていたとすれば少くとも今日までに文化民族は滅亡か、あるいは滅亡に近い運命になっていなければならないはずであるからである。<br/><br/> そうしてこの人口低減という二十世紀の謎の本体は何であるか。<br/><br/>読者よ驚くなかれ実に医学の進歩そのものであるという事である。<br/><br/>嗚呼歴史あって以来かくのごとき意想外極まる問題はあったであろうか。<br/><br/> 私は文化民族が三四五百年にして全滅するという統計を示したのであるが実は私の観る所ではもっと速くあるいは二三百年以上は困難ではないかと思うのである。<br/><br/>何となればその原因が医学の進歩による逆効果である以上医学が益々進歩するとすれば現在程度の医学で樹てた予想よりもより悪い結果を来すべきは当然の帰結であるからである。<br/><br/> しからば右の逆効果という意味はいかなる訳であろうか。<br/><br/>これを徹底的に暴露闡明し真の日本医術を創建し、滅びゆかんとする人類幾億の精霊を救済せんとする一大本願がこの著書となったのである。<br/><br/> （昭和十六年十月） ※本篇は脱稿時点において社会情勢から発刊不可能を覚悟された出版物であり、当初その旨を序文に記されていたが、昭和十七年に刊行することを得たものである。<br/><br/>下にその際削除された序文の一部を参考のため掲載する。<br/><br/> 「最後に特に断わっておきたい事はこの著書は今日の時勢では出版は困難であろうと思うのである。<br/><br/>それなら出版できないものをなぜ書いたかというと、それはこういう訳である。<br/><br/>いずれ何年か何十年かの後には必ず現代医学の欠陥が暴露されて私が創成した日本医術が非常な勢いを持って世の中に推奨さるるに違いないことを確信するからである。<br/><br/>何となれば誤謬は到底永続すべきはずが無いとともに、真実は長く埋れているはずはないからである。<br/><br/>（昭和十六年十月）」</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

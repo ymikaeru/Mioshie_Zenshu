@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsekidom</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 咳止めで悪化す 塗布薬にも薬毒はある 『救世』54号、昭和25(1950)年3月18日発行 岡山県 神光中教会 西崎清子（46） 昨年一月十一日長女文子（七歳）が風邪を引き発熱とひどい咳で早速医者にかかり毎日注射をしてもらいましたが咳は止らず、百日咳のようにはげしくせきますので夜も眠られず困っておりました。<br><br>余り治らないものですから薬局へ行って薬をもとめ服ませましたが、少しもききめがなく朝夕湿布をして何カ月も首に包帯を巻いておりました。<br><br>夜は子供の咳で共に眠られず病弱な私は共泣きしておりましたところへ、三月末に名古屋から船橋先生が来岡され光明如来様の有難いお話を承り御浄霊をして頂きました。<br><br>それから一週間位は咳をしては痰を出し毎日洗面器に半分位も吐きました。<br><br>あまりよく吐くので心配しましたが、二週間目からずっと減って三週間位経った頃には二銭銅貨位しか出なくなり、一カ月後には完全に出なくなり全快致しました。<br><br>船橋先生の申されますには「咳を止めようとして薬を服ませるから何カ月経っても治らないのだ、咳は痰を出す為のポンプ作用であるのだから痰を全部吐いてしまったら咳は自然に止るのだ」と教えて下さいました。<br><br>成程そうであったかと感心致しました。<br><br>なお次の子供も小さい時から吹出物が出来て五十日位医者へ通いましたが、ちっとも治らぬので放っておきましたら耳の中迄もオデキが出ました。<br><br>船橋先生はこれは「赤チン」をつける結果だと申されましたので、以来傷をしても紙を御飯粒で張って浄霊をしておきますと一週間もたてば跡方もなくきれいに光ってしまいます。<br><br> 丁度御浄霊を受けるようになってから一カ年になりますが、あれだけよく出ていたオデキが一つもなく治ってしまったのには近所の人達も驚いております。<br><br> 又これは病気ではありませんが、義弟（夫の弟）が満州で召集されシベリヤへ行き以来消息がない為親族一同死んだものと諦めておりましたが、何の通知もなく昨年の今月今夜ヒョッコリ帰宅しまして一同嬉し泣きに泣きました。<br><br>何分弟には二人の子供（十歳と七歳）がありまして、弟が死亡したら兄である私の夫が面倒を見ねばなりませんので、夫の喜びも大変でした。<br><br>これはひとえに光明如来様の御守護と一同感謝致しております。<br><br> 満一カ年を迎えまして数々の御利益を得ました事を厚く御礼申上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A tosse que se agrava com o uso de antitussígenos — Os medicamentos de uso tópico também contêm toxinas (Medicina do Amanhã)</h2>
 <p>Publicado na revista <em>Kyusei</em> nº 54, em 18 de março de 1950
@@ -101,5 +256,48 @@ Kiyoko Nishizaki (46 anos)</p>
 <p>Transcorrido exatamente um ano desde que começamos a receber Johrei, os furúnculos que tanto o afligiam desapareceram por completo, para grande surpresa de nossos vizinhos.</p>
 <p>Gostaria de relatar outro fato, que não se refere a uma doença. Meu cunhado, irmão mais novo de meu marido, fora convocado para a Manchúria e enviado à Sibéria. Como não tínhamos notícias suas há muito tempo, todos os familiares já o consideravam morto. Contudo, para nossa imensa surpresa e sem qualquer aviso prévio, ele retornou ao lar no ano passado, justamente neste mês. Foi um momento de comoção indescritível, e todos choramos de alegria. Meu cunhado tem dois filhos, de dez e sete anos, e, caso ele tivesse falecido, a responsabilidade por criá-los recairia sobre meu marido. Portanto, a felicidade de meu esposo foi imensurável. Atribuímos este milagre unicamente à sagrada proteção de Komyō Nyorai-sama e somos imensamente gratos.</p>
 <p>Ao completarmos este primeiro ano na Fé, expresso minha mais profunda gratidão pelas inúmeras graças que recebemos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 咳止めで悪化す 塗布薬にも薬毒はある 『救世』54号、昭和25(1950)年3月18日発行 岡山県 神光中教会 西崎清子（46） 昨年一月十一日長女文子（七歳）が風邪を引き発熱とひどい咳で早速医者にかかり毎日注射をしてもらいましたが咳は止らず、百日咳のようにはげしくせきますので夜も眠られず困っておりました。<br/><br/>余り治らないものですから薬局へ行って薬をもとめ服ませましたが、少しもききめがなく朝夕湿布をして何カ月も首に包帯を巻いておりました。<br/><br/>夜は子供の咳で共に眠られず病弱な私は共泣きしておりましたところへ、三月末に名古屋から船橋先生が来岡され光明如来様の有難いお話を承り御浄霊をして頂きました。<br/><br/>それから一週間位は咳をしては痰を出し毎日洗面器に半分位も吐きました。<br/><br/>あまりよく吐くので心配しましたが、二週間目からずっと減って三週間位経った頃には二銭銅貨位しか出なくなり、一カ月後には完全に出なくなり全快致しました。<br/><br/>船橋先生の申されますには「咳を止めようとして薬を服ませるから何カ月経っても治らないのだ、咳は痰を出す為のポンプ作用であるのだから痰を全部吐いてしまったら咳は自然に止るのだ」と教えて下さいました。<br/><br/>成程そうであったかと感心致しました。<br/><br/>なお次の子供も小さい時から吹出物が出来て五十日位医者へ通いましたが、ちっとも治らぬので放っておきましたら耳の中迄もオデキが出ました。<br/><br/>船橋先生はこれは「赤チン」をつける結果だと申されましたので、以来傷をしても紙を御飯粒で張って浄霊をしておきますと一週間もたてば跡方もなくきれいに光ってしまいます。<br/><br/> 丁度御浄霊を受けるようになってから一カ年になりますが、あれだけよく出ていたオデキが一つもなく治ってしまったのには近所の人達も驚いております。<br/><br/> 又これは病気ではありませんが、義弟（夫の弟）が満州で召集されシベリヤへ行き以来消息がない為親族一同死んだものと諦めておりましたが、何の通知もなく昨年の今月今夜ヒョッコリ帰宅しまして一同嬉し泣きに泣きました。<br/><br/>何分弟には二人の子供（十歳と七歳）がありまして、弟が死亡したら兄である私の夫が面倒を見ねばなりませんので、夫の喜びも大変でした。<br/><br/>これはひとえに光明如来様の御守護と一同感謝致しております。<br/><br/> 満一カ年を迎えまして数々の御利益を得ました事を厚く御礼申上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

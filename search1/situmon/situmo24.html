@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』20号、昭和26(1951)年1月25日発行 （お伺） 去る十二月八日付毎日新聞朝刊紙上に「宇宙線が異常増加（太陽電波と関連？）」の見出しのものに「名大理学部では科学研究所と協力去る九月以来、乗鞍の宇宙線観測所で約一カ年間宇宙線の観測を行なっていたが東京天文台の「九月二十日午後零時六分太陽電波の爆発的増加が認められた」との報告により観測記録を整理した結果、同十二分ごろから宇宙線が異常増加していることを発見した云々」という記事がございましたが、左の事柄につき御教え賜りたくお願い申し上げます。<br><br>以下四問 （一）宇宙線が異常増加するということはあり得るものでございましょうか。<br><br>もしあるとすれば、霊的にいかなる意味がございましょうか。<br><br> （二）太陽電波と宇宙線は霊的および体的にどんな関係がございましょうか。<br><br> （三）宇宙線の異常増加は宇宙問および地上の動植物にも大きな影響がございましょうか。<br><br> （四）太陽電波の増加と火素の増量ということとは、なにか関係がございましょうか。<br><br> （御垂示） 右四問を総括して教えるが、私が言う昼の世界になるに従って、火素が増えるということは、太陽の威力が漸次増すのであるから、今後もあらゆる物象に表われるのである。<br><br>まだいろいろな異変があり、いずれは学者が面食らって、なにがなんだか分からないことが出てくるのである。<br><br> （お伺） フランスの細菌の泰斗（たいと）パスツールの細菌発見の実験につきまして御神書に、 「そもそも森羅万象の構成は火素、水素、土素であり、霊気は火素を主とし、空気は水素を主とし、土壌は土素を主とする。<br><br>また霊気（火素）は経に上下動し、空気（水素）は緯に流動する。<br><br>そうして微生物の発生は、熱すなわち火素に因るのであるから、口の曲がれる瓶は経に昇降する火素をガラスが遮断するためである」と、御開明いただいておりますが、ガラスが霊的（火素）を遮断する原理についてお伺い申し上げます。<br><br> （御垂示） 全部を遮断することはできないが、ある程度できるものである。<br><br>この原理を簡単に言えば、室内の温度を唐紙一枚でも遮断されるではないか。<br><br>これは原理ではなく現実である。<br><br> （お伺） 「道」という字は「ミチ」で「体霊」であると伺っておりますが、こういう大切な字であるにかかわらず、体が霊より上にあるのは、なにか意味がございましょうか。<br><br>御教示くださいませ。<br><br> （御垂示） これは現界のことの働きであるから、体が上になるのである。<br><br> （お伺） 言霊学の起源について。<br><br> （御垂示） この学問は二千数百年以前からあった。<br><br>天津祝詞のできたころである。<br><br>その後断絶したのを、かの有名な本居宣長翁が再興して、七十五声の言霊を解剖し、一々の活力を解説したのである。<br><br>その後静岡県清水市美保神社の宮司長沢雄楯（かつたて）師が宣長師の言霊学を基本として、いっそう深いものとしたのを、大本教教主出口王仁三郎師が弟子となって学ぶとともに、より高いものとしたのである。<br><br>ところがそれを私は出口先生から教えられるとともに、私独自の言霊学を樹立したのである。<br><br>いずれ余暇ができたら言霊のなんたるかを解くつもりである。<br><br> （お伺） 外国語を言霊学にて解釈いたします場合に、固有名詞以外も発音そのままを語源五十音に当てはめるべきでありますか。<br><br>あるいは日本語に翻訳して解釈いたすべきでありますか、御垂示お願い申し上げます。<br><br> （御垂示） 翻訳してはいけない。<br><br>外国語そのままを用いるのが本当である。<br><br>この一例として少しばかり書いてみるが、今後起るところの米ソの対戦も、前大戦も、実は霊的に言えば龍神同士の戦いなのである。<br><br>言霊学上、龍神憑依者は必ずラリルレロの音がある。<br><br>マルクス、エンゲルス、レーニン、スターリン、トルーマン、アットリー、ヒトラー、ムッソリー二等々をみても判るであろう。<br><br> （お伺） ある信者さんでございますが、昨年七月ふのりを貼るため浜辺の石を海に入れるとき、その中の一つに直径約一尺三寸くらいの不思議な石（丸い形の石がその中にさらに玉のような石を包むようにしてできており、その外側の一部分が欠けているため中の丸い石がよく見えております）を見つけ、それをその土地の石神様といわれる所（いろいろな石が祀ってある場所）に預けておりましたところ、その後この人の従妹が病弱のため、現在住んでいる函館の「とちのきさん」という行者風の老婆に見てもらいました際「貴方の親戚の人が海辺で非常に不思議な石を見つけ、それをどこかに祀っているはずだが、その石はその人と因縁があり、金毘羅さんが憑っていて、以前この人が遭難したときに力を振って助けたことがあるから、家に祀り変えをして毎日お水を上げるように」と申したそうでございます。<br><br> 事実いまから約二十年前、沖にて小舟に乗り漁の最中、大波風に襲われて危険になりましたとき、救助船に助けられて港まで曳航してもらい、その際波しぶき一つ入らずに救われたという記憶があり、これらのことを考え合わせまして、さっそく家にその石を持ち帰り、御神前の左隅にお祀りしておりますが、これはどのようにさせていただきましたら、よろしいのでございましょうか、お伺い申し上げます。<br><br> （御垂示） この石は、子持石といってよくあるもので、事実石が子を生むものである。<br><br>こういう石には神霊がよく憑るもので、この人の祖先が金毘羅様を信仰していたその功徳によって、御守護を賜ったものである。<br><br>しかし床の間の隅ではいけないから、御神体と隅との間くらい、無論御神体に向かって右のほうに祀ればいいのである。<br><br>月並祭の後お祭りしてあげるとお喜びになり、ますます御守護くださるものである。<br><br> （お伺） 過般、私の家の菩提寺から通知があり、頼みもしないのに、私の祖父母（祖父は四十年前死亡、祖母は存命）の戒名の位を上げたと称し、御礼をとって、いままでの戒名とはぜんぜん違った戒名を知らせてきましたが、こういう場合、これに従って位牌や墓まで新しい戒名に直すべきものでしょうか、もし直す場合には従来の位牌を、祖父母の位牌のない親戚に譲ってもよろしいものでしょうか。<br><br>御教示お願いいたします。<br><br> （御垂示） 戒名は決して変えてはいけないものである。<br><br>そのようなことを寺から言ってきたのは、懐勘定からであろう。<br><br> （お伺） 伊豆大島のように土質が火山灰の場合、野菜の自然農耕をいたしますに、大根は成績が良好ですが、白菜類やホーレン草など、菜類が成績悪く、耕作方法が悪いのではないかと存じ、堆肥を深い浅いのなきよう注意して試作いたしました。<br><br>なお土地は三カ年無肥料耕作の肥毒なしの土地においてです。<br><br>砂土のため、降雨の際に砂をはね上げ、菜の葉に付着するためではないかと存じまして、播種後その上にワラを薄く置いてみましたが、いくらか成績はよろしきようですが、有肥耕作とは比較になりません。<br><br>菜種は買種（有肥）のためではないかと存ぜられますので、畠へ出るたびに御浄霊をやらせていただいております。<br><br> いかに農耕いたしますればよろしゅうございましょうか、御教示お願い申し上げます。<br><br> 陸稲のできは自然農耕において成績も非常によく、質味の点においても一段勝っております。<br><br>ありがたく御礼申し上げます。<br><br> （御垂示） 火山灰はそうとう年限が経たないと、有毒がぜんぜん抜けきれないものである。<br><br>だから適当する種類を作るよりほかに方法はない。<br><br>この例としてかの栃木県那須野ケ原は数百年に渉って栽培不可能であったが、いまから二、三十年以前からボツボツ栽培できるようになったにみて肯（うなず）かれるであろう。<br><br>ただ堆肥を充分腐蝕して混入すれば、たしかに効果はある。<br><br> （お伺） 昭和二十三年五月入信、現在四十七歳ですが、子供がないため、他から出生後間もない女子をもらいましたところ、十カ月にて一週間後病にて死亡、次に男の子供をもらい、出生後二年にてジフテリアにて死亡、三度目にも男の子をもらい、四年目腸炎にて二十七時間にて死亡、四度目は親なし子を育てましたが、盗癖がありましたので里方に帰し、五度目は十九歳の娘をもらい、優しい良い子でしたが、私が入信と同時に自分から里方に帰り、現在は五十七歳の良人と二人暮らしですが、主人が子供がなくては家が絶えると心配いたすのですが、私は子供にはこりごりいたしております。<br><br>子供のないため家庭も淋しく、主人も他に女性を作っております。<br><br>私は後妻ですが、先妻は色情関係にて自殺いたしております。<br><br>このうえはただ神の道へと、大光明如来様を奉斎し、信仰を続けておりますが、今後子供をもらっても不幸は続きましょうか、また子供の死はいかなる原因でしょうか、お伺いいたします。<br><br> （御垂示） これは信仰雑話の「夫婦の道」の項を読めば詳しく書いてある。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos Divinos</h2>
 <p><strong>Consulta</strong></p>
@@ -146,5 +298,48 @@ function toggleLang(lang) {
 <p>Atualmente, vivo apenas com meu marido, de cinquenta e sete anos. Ele se preocupa com a extinção da linhagem familiar por não termos filhos, mas eu já sofri o bastante e não desejo mais passar por isso. A ausência de filhos tornou nosso lar solitário, e meu esposo mantém um relacionamento com outra mulher. Sou sua segunda esposa; a primeira cometeu suicídio por questões passionais. Diante de tudo, decidi me dedicar unicamente ao caminho de Deus, entronizando o altar de Dai-Komyo-Nyorai e perseverando na fé. Minha dúvida é: se eu adotar outra criança, a infelicidade persistirá? E qual a causa da morte dessas crianças? Rogo por vosso esclarecimento.</p>
 <p><strong>Orientação Divina</strong></p>
 <p>A resposta está detalhada no capítulo “O Caminho do Casal”, do livro “Crônicas da Fé”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』20号、昭和26(1951)年1月25日発行 （お伺） 去る十二月八日付毎日新聞朝刊紙上に「宇宙線が異常増加（太陽電波と関連？）」の見出しのものに「名大理学部では科学研究所と協力去る九月以来、乗鞍の宇宙線観測所で約一カ年間宇宙線の観測を行なっていたが東京天文台の「九月二十日午後零時六分太陽電波の爆発的増加が認められた」との報告により観測記録を整理した結果、同十二分ごろから宇宙線が異常増加していることを発見した云々」という記事がございましたが、左の事柄につき御教え賜りたくお願い申し上げます。<br/><br/>以下四問 （一）宇宙線が異常増加するということはあり得るものでございましょうか。<br/><br/>もしあるとすれば、霊的にいかなる意味がございましょうか。<br/><br/> （二）太陽電波と宇宙線は霊的および体的にどんな関係がございましょうか。<br/><br/> （三）宇宙線の異常増加は宇宙問および地上の動植物にも大きな影響がございましょうか。<br/><br/> （四）太陽電波の増加と火素の増量ということとは、なにか関係がございましょうか。<br/><br/> （御垂示） 右四問を総括して教えるが、私が言う昼の世界になるに従って、火素が増えるということは、太陽の威力が漸次増すのであるから、今後もあらゆる物象に表われるのである。<br/><br/>まだいろいろな異変があり、いずれは学者が面食らって、なにがなんだか分からないことが出てくるのである。<br/><br/> （お伺） フランスの細菌の泰斗（たいと）パスツールの細菌発見の実験につきまして御神書に、 「そもそも森羅万象の構成は火素、水素、土素であり、霊気は火素を主とし、空気は水素を主とし、土壌は土素を主とする。<br/><br/>また霊気（火素）は経に上下動し、空気（水素）は緯に流動する。<br/><br/>そうして微生物の発生は、熱すなわち火素に因るのであるから、口の曲がれる瓶は経に昇降する火素をガラスが遮断するためである」と、御開明いただいておりますが、ガラスが霊的（火素）を遮断する原理についてお伺い申し上げます。<br/><br/> （御垂示） 全部を遮断することはできないが、ある程度できるものである。<br/><br/>この原理を簡単に言えば、室内の温度を唐紙一枚でも遮断されるではないか。<br/><br/>これは原理ではなく現実である。<br/><br/> （お伺） 「道」という字は「ミチ」で「体霊」であると伺っておりますが、こういう大切な字であるにかかわらず、体が霊より上にあるのは、なにか意味がございましょうか。<br/><br/>御教示くださいませ。<br/><br/> （御垂示） これは現界のことの働きであるから、体が上になるのである。<br/><br/> （お伺） 言霊学の起源について。<br/><br/> （御垂示） この学問は二千数百年以前からあった。<br/><br/>天津祝詞のできたころである。<br/><br/>その後断絶したのを、かの有名な本居宣長翁が再興して、七十五声の言霊を解剖し、一々の活力を解説したのである。<br/><br/>その後静岡県清水市美保神社の宮司長沢雄楯（かつたて）師が宣長師の言霊学を基本として、いっそう深いものとしたのを、大本教教主出口王仁三郎師が弟子となって学ぶとともに、より高いものとしたのである。<br/><br/>ところがそれを私は出口先生から教えられるとともに、私独自の言霊学を樹立したのである。<br/><br/>いずれ余暇ができたら言霊のなんたるかを解くつもりである。<br/><br/> （お伺） 外国語を言霊学にて解釈いたします場合に、固有名詞以外も発音そのままを語源五十音に当てはめるべきでありますか。<br/><br/>あるいは日本語に翻訳して解釈いたすべきでありますか、御垂示お願い申し上げます。<br/><br/> （御垂示） 翻訳してはいけない。<br/><br/>外国語そのままを用いるのが本当である。<br/><br/>この一例として少しばかり書いてみるが、今後起るところの米ソの対戦も、前大戦も、実は霊的に言えば龍神同士の戦いなのである。<br/><br/>言霊学上、龍神憑依者は必ずラリルレロの音がある。<br/><br/>マルクス、エンゲルス、レーニン、スターリン、トルーマン、アットリー、ヒトラー、ムッソリー二等々をみても判るであろう。<br/><br/> （お伺） ある信者さんでございますが、昨年七月ふのりを貼るため浜辺の石を海に入れるとき、その中の一つに直径約一尺三寸くらいの不思議な石（丸い形の石がその中にさらに玉のような石を包むようにしてできており、その外側の一部分が欠けているため中の丸い石がよく見えております）を見つけ、それをその土地の石神様といわれる所（いろいろな石が祀ってある場所）に預けておりましたところ、その後この人の従妹が病弱のため、現在住んでいる函館の「とちのきさん」という行者風の老婆に見てもらいました際「貴方の親戚の人が海辺で非常に不思議な石を見つけ、それをどこかに祀っているはずだが、その石はその人と因縁があり、金毘羅さんが憑っていて、以前この人が遭難したときに力を振って助けたことがあるから、家に祀り変えをして毎日お水を上げるように」と申したそうでございます。<br/><br/> 事実いまから約二十年前、沖にて小舟に乗り漁の最中、大波風に襲われて危険になりましたとき、救助船に助けられて港まで曳航してもらい、その際波しぶき一つ入らずに救われたという記憶があり、これらのことを考え合わせまして、さっそく家にその石を持ち帰り、御神前の左隅にお祀りしておりますが、これはどのようにさせていただきましたら、よろしいのでございましょうか、お伺い申し上げます。<br/><br/> （御垂示） この石は、子持石といってよくあるもので、事実石が子を生むものである。<br/><br/>こういう石には神霊がよく憑るもので、この人の祖先が金毘羅様を信仰していたその功徳によって、御守護を賜ったものである。<br/><br/>しかし床の間の隅ではいけないから、御神体と隅との間くらい、無論御神体に向かって右のほうに祀ればいいのである。<br/><br/>月並祭の後お祭りしてあげるとお喜びになり、ますます御守護くださるものである。<br/><br/> （お伺） 過般、私の家の菩提寺から通知があり、頼みもしないのに、私の祖父母（祖父は四十年前死亡、祖母は存命）の戒名の位を上げたと称し、御礼をとって、いままでの戒名とはぜんぜん違った戒名を知らせてきましたが、こういう場合、これに従って位牌や墓まで新しい戒名に直すべきものでしょうか、もし直す場合には従来の位牌を、祖父母の位牌のない親戚に譲ってもよろしいものでしょうか。<br/><br/>御教示お願いいたします。<br/><br/> （御垂示） 戒名は決して変えてはいけないものである。<br/><br/>そのようなことを寺から言ってきたのは、懐勘定からであろう。<br/><br/> （お伺） 伊豆大島のように土質が火山灰の場合、野菜の自然農耕をいたしますに、大根は成績が良好ですが、白菜類やホーレン草など、菜類が成績悪く、耕作方法が悪いのではないかと存じ、堆肥を深い浅いのなきよう注意して試作いたしました。<br/><br/>なお土地は三カ年無肥料耕作の肥毒なしの土地においてです。<br/><br/>砂土のため、降雨の際に砂をはね上げ、菜の葉に付着するためではないかと存じまして、播種後その上にワラを薄く置いてみましたが、いくらか成績はよろしきようですが、有肥耕作とは比較になりません。<br/><br/>菜種は買種（有肥）のためではないかと存ぜられますので、畠へ出るたびに御浄霊をやらせていただいております。<br/><br/> いかに農耕いたしますればよろしゅうございましょうか、御教示お願い申し上げます。<br/><br/> 陸稲のできは自然農耕において成績も非常によく、質味の点においても一段勝っております。<br/><br/>ありがたく御礼申し上げます。<br/><br/> （御垂示） 火山灰はそうとう年限が経たないと、有毒がぜんぜん抜けきれないものである。<br/><br/>だから適当する種類を作るよりほかに方法はない。<br/><br/>この例としてかの栃木県那須野ケ原は数百年に渉って栽培不可能であったが、いまから二、三十年以前からボツボツ栽培できるようになったにみて肯（うなず）かれるであろう。<br/><br/>ただ堆肥を充分腐蝕して混入すれば、たしかに効果はある。<br/><br/> （お伺） 昭和二十三年五月入信、現在四十七歳ですが、子供がないため、他から出生後間もない女子をもらいましたところ、十カ月にて一週間後病にて死亡、次に男の子供をもらい、出生後二年にてジフテリアにて死亡、三度目にも男の子をもらい、四年目腸炎にて二十七時間にて死亡、四度目は親なし子を育てましたが、盗癖がありましたので里方に帰し、五度目は十九歳の娘をもらい、優しい良い子でしたが、私が入信と同時に自分から里方に帰り、現在は五十七歳の良人と二人暮らしですが、主人が子供がなくては家が絶えると心配いたすのですが、私は子供にはこりごりいたしております。<br/><br/>子供のないため家庭も淋しく、主人も他に女性を作っております。<br/><br/>私は後妻ですが、先妻は色情関係にて自殺いたしております。<br/><br/>このうえはただ神の道へと、大光明如来様を奉斎し、信仰を続けておりますが、今後子供をもらっても不幸は続きましょうか、また子供の死はいかなる原因でしょうか、お伺いいたします。<br/><br/> （御垂示） これは信仰雑話の「夫婦の道」の項を読めば詳しく書いてある。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

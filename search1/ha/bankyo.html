@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bankyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万教帰一 『光明世界』5号、昭和11(1936)年1月25日発行 今まで種々な宗教がありますけれど、それらは大変間違いがあるんで、それは神様が、世界経綸の上において、本当の事を発表する事が出来なかったんであります。<br><br>その為に、いくら一生懸命になっても、本当の事が判らない。<br><br>判らないから種々と迷いが起り、迷いが起るから、人間社会が良くならなかったんであります。<br><br>要するに人類は、今まで真実の事を知らされなかった。<br><br>宗教の教義や聖典などは、仮りであって、いわば、仮定的の教なり説だったんであります。<br><br>それで今まで、お釈迦様以来の聖者、又は偉人等が種々と説かれたりしても、駄目であった。<br><br> 実は今までの聖者や偉人と言われた人達も死ぬまで本当の事が判らずに、実は迷って死んだのが大部分であります。<br><br>達磨のごときは、面壁九年も苦念して、悟りを開いたという話がありますが、その悟りを得たというのは、どこまでか判らないので一番奥を知ったのがお釈迦様でありますが、それでも経文の中には、本当の事は説いてなかったのであります。<br><br> 今までに、大小種々の教が出、今なお、新宗教が簇出（そうしゅつ）していると言う事は、要するに本当の教が出なかったからで、絶対的価値ある教が出たとすれば、種々な説や教が出る余地はない訳であります。<br><br>例えば、病気の薬にしても、後から後から種々出来るというのは、つまり前の薬が治らないからで、本当に治る薬が出れば、それで解決するから、最早、新薬は出る余地がない訳であります。<br><br>又種痘であります。<br><br>これが発明されて以来、決して新しいものが出来ないというのは、あれ一つで解決してしまったからで、教えにしても、本当のものが出れば、その教一つになってしまうんで、八宗九宗あらゆる教というものは、存在の意義がなく、又新宗教の出現の余地もない訳であります。<br><br>何宗とか何教とか今以て沢山あるのは、絶対のものが無かった証拠であります。<br><br>そしてモ一ツ不思議な事には、今まで観音宗の本山とか、観音教とかいうものは無かった事であります。<br><br>これが神様の深い経綸であって、それは、将来あらゆる宗教を綜合統一する準備だったんであります。<br><br> 今度いよいよ観音の教えが、教えと言っては当らない。<br><br>実は観音力が出る訳なんで、それでいよいよ、観音力に依って、万教帰一の時が来たんであります。<br><br>従って、観音様の教えというものは、教えとしては極簡単なんで、この前も太陽のお話をしましたが、太陽なんであります。<br><br> 先刻も清水さんから言われました。<br><br>三五（あなない）の月が隠れて、今度は、東方の光が出るという事は、夜の幕が閉じて、昼になるという事です。<br><br>これを世界に準（なぞら）えてみますと、三五の月、即ち月とは西方文明になるんで、東方の光が出ると、西方文明が清算されるという事になるんであります。<br><br> 今までの教えは、まず一番親玉としては仏教であります。<br><br>その経文は、実に大したもので、八万四千もあるんでありますが、前から私は、あれ程沢山書かなくってもよさそうなものだ、あんなに沢山書いたから誰にも悟れなかったんで、悟れないから、多くの人が迷ったのであります。<br><br> 真理というものは、極めて簡単であるべきで、簡単でなくては、最大多数者は救われるはずがないではありませんか。<br><br> それでは、なぜ沢山の文字を使わなければならなかったかと言うと、これを光でたとえてみましょう。<br><br>蝋燭（ろうそく）で明るくするには沢山に灯を点けなければ明るくならない。<br><br>一部屋を明るくするには、何十本も点けなければならない道理で、お経とか、バイブルとか、その他種々の聖典が、沢山文字を使ってあるのはそういう訳であります。<br><br>又仏典や聖書の文章が頗（すこぶ）る難解である。<br><br>これも不思議であります。<br><br>滑稽なのは難解だから有難味が有ると言うのです。<br><br>諸君、たとえてみれば、芝居を観て筋が分らないから面白いと言う人がありましょうか、もしあったら、その人は、精神異常者でありましょう。<br><br>それと同じであります。<br><br> 太陽の出るまでは、薄暗くとも、蝋燭や電灯を沢山点けて我慢するより仕方がないのであります。<br><br> 所が観音会は至極簡単で、ただ太陽に向えばいいんであります。<br><br>家を明るくするには、ただ戸を開ければよろしい。<br><br>人間ならば心の窓を開ければいいんであります。<br><br>昔は先刻岡庭さんの壷坂の沢市のお話がありましたが、今までは、あれ程に一生懸命になって信仰しなければ、御利益は戴けなかった。<br><br>今日の観音会のごとく、僅か一円五十銭で頂いたお掛軸を拝めば、よく病が治るんでありますから、実に結構な時節になったんであります。<br><br> 二三日前に、私の家へ、ある婦人が来られ、二階へ上って来て言われるには、「先生、下に懸っているお観音様は、生きておられますね。<br><br>」と言われ、「拝んでると、観音様の御姿から、光明が発すると同時に、最初眉毛を動かされ、次に眼をパチパチさせられ、次に口を開けて御笑いになる。<br><br>そうして、立ってるお観音様が歩き出されたんで吃驚しました。<br><br>右の方へ歩いて行かれると、又元の所へ戻られる。<br><br>昔の話に左甚五郎の彫ったものが生きて歩いたとか、飛んだとか言いますが、全く嘘じゃないのですね」とこういう話をされたんであります。<br><br>それで私は、それはそうだ、描いたお観音様が、それ位でなかったら、世界中を救うという事は出来ないではありませんか、と言ったんであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Alvorada da Verdade Absoluta</h2>
 <p>Até hoje, existiram inúmeras religiões, mas todas continham graves equívocos. Isso ocorreu porque, no âmbito do Plano Divino para o mundo, ainda não era chegado o momento de Deus revelar a Verdade em sua plenitude. Por essa razão, por mais que as pessoas se esforçassem, não conseguiam compreendê-la. A ausência de compreensão, por sua vez, gerava toda sorte de dúvidas e confusões, e estas impediam que a sociedade humana se aprimorasse. Em suma, a humanidade, até o presente, foi mantida na ignorância a respeito dos fatos essenciais. As doutrinas e escrituras sagradas de todas as religiões eram de caráter provisório; eram, por assim dizer, ensinamentos e teorias preparatórias. Eis o motivo pelo qual as pregações de todos os sábios e vultos ilustres, desde Buda Shakyamuni, não surtiram o efeito definitivo.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>O caminho de Kannon (観音), todavia, é de uma simplicidade extrema: basta volver-se em direção ao Sol. Para iluminar uma casa, basta abrir as portas. Ao ser humano, basta abrir as janelas do coração. Antigamente, como nos foi relatado há pouco pelo senhor Okaba na história de Sawachi de Tsubosaka, era necessário devotar-se com tamanho afinco para receber uma graça. Hoje, vivemos uma era verdadeiramente abençoada, pois, em nossa fé, ao reverenciar a Imagem Sagrada, recebida pela módica quantia de um iene e cinquenta sen, muitas doenças são curadas.</p>
 <p>Há dois ou três dias, uma senhora veio à minha casa, subiu ao segundo andar e relatou-me o seguinte: "Mestre, a imagem de Kannon (観音) exposta no andar de baixo está viva, não é mesmo? Enquanto orava, percebi que da imagem emanava uma luz e, simultaneamente, Ela moveu as sobrancelhas, piscou os olhos e, por fim, abriu a boca num sorriso. Fiquei assombrada quando a imagem, que estava de pé, começou a caminhar! Ela andou para a direita e depois retornou ao seu lugar original. Sempre ouvi as antigas histórias sobre as esculturas de Hidari Jingoro que ganhavam vida, andavam e voavam, e agora vejo que não eram meras fábulas".</p>
 <p>Ao que respondi: "Naturalmente. Se uma imagem de Kannon (観音) não fosse capaz de tal prodígio, como poderia Ela salvar o mundo inteiro?".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万教帰一 『光明世界』5号、昭和11(1936)年1月25日発行 今まで種々な宗教がありますけれど、それらは大変間違いがあるんで、それは神様が、世界経綸の上において、本当の事を発表する事が出来なかったんであります。<br/><br/>その為に、いくら一生懸命になっても、本当の事が判らない。<br/><br/>判らないから種々と迷いが起り、迷いが起るから、人間社会が良くならなかったんであります。<br/><br/>要するに人類は、今まで真実の事を知らされなかった。<br/><br/>宗教の教義や聖典などは、仮りであって、いわば、仮定的の教なり説だったんであります。<br/><br/>それで今まで、お釈迦様以来の聖者、又は偉人等が種々と説かれたりしても、駄目であった。<br/><br/> 実は今までの聖者や偉人と言われた人達も死ぬまで本当の事が判らずに、実は迷って死んだのが大部分であります。<br/><br/>達磨のごときは、面壁九年も苦念して、悟りを開いたという話がありますが、その悟りを得たというのは、どこまでか判らないので一番奥を知ったのがお釈迦様でありますが、それでも経文の中には、本当の事は説いてなかったのであります。<br/><br/> 今までに、大小種々の教が出、今なお、新宗教が簇出（そうしゅつ）していると言う事は、要するに本当の教が出なかったからで、絶対的価値ある教が出たとすれば、種々な説や教が出る余地はない訳であります。<br/><br/>例えば、病気の薬にしても、後から後から種々出来るというのは、つまり前の薬が治らないからで、本当に治る薬が出れば、それで解決するから、最早、新薬は出る余地がない訳であります。<br/><br/>又種痘であります。<br/><br/>これが発明されて以来、決して新しいものが出来ないというのは、あれ一つで解決してしまったからで、教えにしても、本当のものが出れば、その教一つになってしまうんで、八宗九宗あらゆる教というものは、存在の意義がなく、又新宗教の出現の余地もない訳であります。<br/><br/>何宗とか何教とか今以て沢山あるのは、絶対のものが無かった証拠であります。<br/><br/>そしてモ一ツ不思議な事には、今まで観音宗の本山とか、観音教とかいうものは無かった事であります。<br/><br/>これが神様の深い経綸であって、それは、将来あらゆる宗教を綜合統一する準備だったんであります。<br/><br/> 今度いよいよ観音の教えが、教えと言っては当らない。<br/><br/>実は観音力が出る訳なんで、それでいよいよ、観音力に依って、万教帰一の時が来たんであります。<br/><br/>従って、観音様の教えというものは、教えとしては極簡単なんで、この前も太陽のお話をしましたが、太陽なんであります。<br/><br/> 先刻も清水さんから言われました。<br/><br/>三五（あなない）の月が隠れて、今度は、東方の光が出るという事は、夜の幕が閉じて、昼になるという事です。<br/><br/>これを世界に準（なぞら）えてみますと、三五の月、即ち月とは西方文明になるんで、東方の光が出ると、西方文明が清算されるという事になるんであります。<br/><br/> 今までの教えは、まず一番親玉としては仏教であります。<br/><br/>その経文は、実に大したもので、八万四千もあるんでありますが、前から私は、あれ程沢山書かなくってもよさそうなものだ、あんなに沢山書いたから誰にも悟れなかったんで、悟れないから、多くの人が迷ったのであります。<br/><br/> 真理というものは、極めて簡単であるべきで、簡単でなくては、最大多数者は救われるはずがないではありませんか。<br/><br/> それでは、なぜ沢山の文字を使わなければならなかったかと言うと、これを光でたとえてみましょう。<br/><br/>蝋燭（ろうそく）で明るくするには沢山に灯を点けなければ明るくならない。<br/><br/>一部屋を明るくするには、何十本も点けなければならない道理で、お経とか、バイブルとか、その他種々の聖典が、沢山文字を使ってあるのはそういう訳であります。<br/><br/>又仏典や聖書の文章が頗（すこぶ）る難解である。<br/><br/>これも不思議であります。<br/><br/>滑稽なのは難解だから有難味が有ると言うのです。<br/><br/>諸君、たとえてみれば、芝居を観て筋が分らないから面白いと言う人がありましょうか、もしあったら、その人は、精神異常者でありましょう。<br/><br/>それと同じであります。<br/><br/> 太陽の出るまでは、薄暗くとも、蝋燭や電灯を沢山点けて我慢するより仕方がないのであります。<br/><br/> 所が観音会は至極簡単で、ただ太陽に向えばいいんであります。<br/><br/>家を明るくするには、ただ戸を開ければよろしい。<br/><br/>人間ならば心の窓を開ければいいんであります。<br/><br/>昔は先刻岡庭さんの壷坂の沢市のお話がありましたが、今までは、あれ程に一生懸命になって信仰しなければ、御利益は戴けなかった。<br/><br/>今日の観音会のごとく、僅か一円五十銭で頂いたお掛軸を拝めば、よく病が治るんでありますから、実に結構な時節になったんであります。<br/><br/> 二三日前に、私の家へ、ある婦人が来られ、二階へ上って来て言われるには、「先生、下に懸っているお観音様は、生きておられますね。<br/><br/>」と言われ、「拝んでると、観音様の御姿から、光明が発すると同時に、最初眉毛を動かされ、次に眼をパチパチさせられ、次に口を開けて御笑いになる。<br/><br/>そうして、立ってるお観音様が歩き出されたんで吃驚しました。<br/><br/>右の方へ歩いて行かれると、又元の所へ戻られる。<br/><br/>昔の話に左甚五郎の彫ったものが生きて歩いたとか、飛んだとか言いますが、全く嘘じゃないのですね」とこういう話をされたんであります。<br/><br/>それで私は、それはそうだ、描いたお観音様が、それ位でなかったら、世界中を救うという事は出来ないではありませんか、と言ったんであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

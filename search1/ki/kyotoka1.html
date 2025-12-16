@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyotoka1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 兇党界 『明日の医術 第三編』昭和18(1943)年10月23日発行 兇党界とは悪魔の世界であって一名邪神界ともいう。<br><br>この団体は常に正神と対抗しているのである。<br><br>神の方に八百万（やおよろづ）あるように、悪魔の方にも八百万あるのである。<br><br>そうして正神はこの世界に善を行わんとするに対し、邪神は悪を行わんとし、常に相対峙しているのである。<br><br>ちょうど人間の中心において本守護神と副守護神と闘争しているようなものである。<br><br>（守護神については後に説く事とする）故に正神界からは霊線によって人間の本守護神に正気を送流しつつあるに対し、邪神界においても人間の副守護神に対し、霊線によって悪気を送流しているのである。<br><br>この理によって一人の人間といえども、世界的に繋がりがあり、その一挙一動は全世界に響くものである以上、軽率な行動は出来ないのである。<br><br>兇党界には三巨頭があって、その名は古典あるいは伝説にもある八岐（やまた）の大蛇（おろち）に金毛九尾（きんもうきゅうび）の狐及び邪鬼である。<br><br>聖書にある悪魔の頭目サタンは赤い辰としてあり、この赤龍は八岐の大蛇の部下であろう。<br><br>そうして右の邪神の性格をいえば、八岐の大蛇は戦争や殺伐を好み、男性的であり、金毛九尾の狐は残忍、淫靡を好み、陰険にして女性的であり、邪鬼は冷酷、譎詐（きっさ）、理智的である。<br><br>故に右の一は、戦争を勃発させるのを得意とし、二は堕落させるのを得意とし、三は思想悪化を得意とする。<br><br>これら邪神の今日まで最も活動した舞台としては米英蘇仏等が主なるもので、その過去を覧ればよく判るのである。<br><br> 我神国日本においても、一時は危うく邪神の魔手に毒せられんとしたが、神聖犯すべからざる皇国であるから、ついに殃（わざわ）いせられずに済んだのであって、まことに有難き極みである。<br><br>そうして右の三邪神は、近世に至って猶太（ユダヤ）人を機関として活動を続けつつあるのである。<br><br>しかしながら猶太人はイスラエルの民族であって、本来聖なる人種であったのであるが、半途（なかば）において、人為的に世界制覇の野望を起した結果知らず識らず邪神の傀儡（かいらい）となってしまった事は、まことに惜しむべきである。<br><br>しかしながら、それによって物質文化の発達に貢献する事になったのであるから、結局は主神の必要なる経綸であった事は疑いなき事実であろう。<br><br> ここで注意すべき事は、フリーメーソンと邪神との関係である。<br><br>それは邪神中の邪鬼がフリーメーソンによって目的を達しようとしている事である。<br><br>そうして邪鬼の眷族（けんぞく）も何万何億あるか分らない位で、これが共産主義を作り、その発展に活動しているのである。<br><br>故に共産主義者の面貌をみればよく判るのであって、鬼という感じが実によく表われているのである。<br><br>又私はこういう事を聞いた事がある。<br><br>それは共産主義華やかなりし頃であった。<br><br>ある霊の見える人が、大学の講堂へ行った時の事である。<br><br>視ると、日本室でいえば欄間（らんま）に相当する位置――即ち白色の小壁に、鬼の顔が沢山並んでいるので、その人は驚いたとの事であった。<br><br>この鬼の霊が日本へ渡来する場合、大抵は書籍に憑依して来るのである。<br><br>又西洋医学の方面には、この鬼の霊の活動がすくなからずある事を私はよく知っているが、これは書く事を遠慮する。<br><br>いずれはこの鬼共も、日本から締出しを食う日のあることを、私は確信しているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Esfera dos Espíritos Malignos</h2>
 <p>A Esfera dos Espíritos Malignos, também conhecida como o mundo demoníaco, é o domínio que se opõe de maneira constante aos Espíritos Justos. Assim como existem miríades de divindades do lado de Deus, existem igualmente miríades de demônios. Portanto, enquanto os Espíritos Justos se empenham em praticar o bem neste mundo, os Espíritos Malignos se esforçam para praticar o mal, mantendo-se em um estado de perpétuo antagonismo. Essa dinâmica se assemelha à luta que ocorre no âmago do ser humano entre o Espírito Guardião Primário e o Espírito Guardião Secundário, tema que abordarei em maior detalhe posteriormente.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Em nossa nação divina, o Japão, também estivemos a um passo de sucumbir à influência perniciosa dos espíritos malignos. Contudo, por sermos uma nação imperial cuja santidade é inviolável, conseguimos evitar a calamidade, o que é motivo de imensa gratidão. Em tempos recentes, esses três espíritos malignos têm prosseguido com suas atividades utilizando o povo judeu como seu instrumento. Embora os judeus sejam descendentes de Israel e, originalmente, um povo sagrado, em determinado momento de sua história, conceberam artificialmente a ambição de dominar o mundo. Como resultado, tornaram-se, sem o perceber, fantoches desses espíritos, o que é verdadeiramente lamentável. Não obstante, tal processo acabou por contribuir para o desenvolvimento da civilização material, sendo, em última análise, um fato indubitável que tudo fazia parte do desígnio necessário de Deus Supremo.</p>
 <p>Nesse sentido, cumpre atentar para a relação entre a Maçonaria e os espíritos malignos. Jaki, um dos três líderes, utiliza a Maçonaria para concretizar seus objetivos. O séquito de Jaki é composto por legiões incontáveis de subordinados, que foram os responsáveis por criar o comunismo e que ainda hoje trabalham ativamente por sua expansão. A prova disso se revela ao observarmos a fisionomia dos comunistas, na qual a impressão demoníaca se manifesta com notável clareza.</p>
 <p>Certa vez, ouvi um relato interessante da época em que o comunismo estava em seu apogeu. Uma pessoa dotada de visão espiritual foi ao auditório de uma universidade e, ao olhar para o alto, viu uma fileira de rostos demoníacos na parte superior da parede, em uma pequena faixa branca. Naturalmente, ela ficou assustada. Quando esses espíritos demoníacos ingressam no Japão, geralmente o fazem utilizando os livros como veículo. Sei também que a atividade desses espíritos é considerável no campo da medicina ocidental, mas me absterei de aprofundar-me neste tema. Tenho a firme convicção, todavia, de que chegará o dia em que todos esses demônios serão expulsos do Japão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 兇党界 『明日の医術 第三編』昭和18(1943)年10月23日発行 兇党界とは悪魔の世界であって一名邪神界ともいう。<br/><br/>この団体は常に正神と対抗しているのである。<br/><br/>神の方に八百万（やおよろづ）あるように、悪魔の方にも八百万あるのである。<br/><br/>そうして正神はこの世界に善を行わんとするに対し、邪神は悪を行わんとし、常に相対峙しているのである。<br/><br/>ちょうど人間の中心において本守護神と副守護神と闘争しているようなものである。<br/><br/>（守護神については後に説く事とする）故に正神界からは霊線によって人間の本守護神に正気を送流しつつあるに対し、邪神界においても人間の副守護神に対し、霊線によって悪気を送流しているのである。<br/><br/>この理によって一人の人間といえども、世界的に繋がりがあり、その一挙一動は全世界に響くものである以上、軽率な行動は出来ないのである。<br/><br/>兇党界には三巨頭があって、その名は古典あるいは伝説にもある八岐（やまた）の大蛇（おろち）に金毛九尾（きんもうきゅうび）の狐及び邪鬼である。<br/><br/>聖書にある悪魔の頭目サタンは赤い辰としてあり、この赤龍は八岐の大蛇の部下であろう。<br/><br/>そうして右の邪神の性格をいえば、八岐の大蛇は戦争や殺伐を好み、男性的であり、金毛九尾の狐は残忍、淫靡を好み、陰険にして女性的であり、邪鬼は冷酷、譎詐（きっさ）、理智的である。<br/><br/>故に右の一は、戦争を勃発させるのを得意とし、二は堕落させるのを得意とし、三は思想悪化を得意とする。<br/><br/>これら邪神の今日まで最も活動した舞台としては米英蘇仏等が主なるもので、その過去を覧ればよく判るのである。<br/><br/> 我神国日本においても、一時は危うく邪神の魔手に毒せられんとしたが、神聖犯すべからざる皇国であるから、ついに殃（わざわ）いせられずに済んだのであって、まことに有難き極みである。<br/><br/>そうして右の三邪神は、近世に至って猶太（ユダヤ）人を機関として活動を続けつつあるのである。<br/><br/>しかしながら猶太人はイスラエルの民族であって、本来聖なる人種であったのであるが、半途（なかば）において、人為的に世界制覇の野望を起した結果知らず識らず邪神の傀儡（かいらい）となってしまった事は、まことに惜しむべきである。<br/><br/>しかしながら、それによって物質文化の発達に貢献する事になったのであるから、結局は主神の必要なる経綸であった事は疑いなき事実であろう。<br/><br/> ここで注意すべき事は、フリーメーソンと邪神との関係である。<br/><br/>それは邪神中の邪鬼がフリーメーソンによって目的を達しようとしている事である。<br/><br/>そうして邪鬼の眷族（けんぞく）も何万何億あるか分らない位で、これが共産主義を作り、その発展に活動しているのである。<br/><br/>故に共産主義者の面貌をみればよく判るのであって、鬼という感じが実によく表われているのである。<br/><br/>又私はこういう事を聞いた事がある。<br/><br/>それは共産主義華やかなりし頃であった。<br/><br/>ある霊の見える人が、大学の講堂へ行った時の事である。<br/><br/>視ると、日本室でいえば欄間（らんま）に相当する位置――即ち白色の小壁に、鬼の顔が沢山並んでいるので、その人は驚いたとの事であった。<br/><br/>この鬼の霊が日本へ渡来する場合、大抵は書籍に憑依して来るのである。<br/><br/>又西洋医学の方面には、この鬼の霊の活動がすくなからずある事を私はよく知っているが、これは書く事を遠慮する。<br/><br/>いずれはこの鬼共も、日本から締出しを食う日のあることを、私は確信しているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

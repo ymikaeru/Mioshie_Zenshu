@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju10058</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ５ 058-077 産後 の浄化 058 多産婦の老貌 子供を沢山生んだ婦人は生まない人よりもふけて見えますが、子供を生む事は天職を完うしていると考えられますが、右の理由はいかなるわけでございましょうか。<br><br>御教示御願い申し上げます。<br><br> そうでもない。<br><br>子供を生んでも若く見えるのがある。<br><br> 子供のため化粧も構わぬから老けて見えるのであろう。<br><br> お産は毒素を出すから、反って若くなる訳である。<br><br> 薬を服めば年をとる。<br><br>（S24. 9. 9） 059 産後頭痛・逆上 私は昭和二十三年十月出産、四時間後突然大出血し医師に掛かり、「内膜掻爬」をしました。<br><br>十四日目に勝手仕事をし、また寝込み、医療を受け一ケ月程で良くなり、その後また痕（あと）が悪くなり、腰湯をしたり高貴薬を用いたりし、すっかり悪化し、頭鳴り、頭痛あり、逆上がし、少し動いても血が騒ぎ、便所へ行く事も出来なくなりました。<br><br>本年一月以来薬を止めて浄霊を戴いておりますが、一進一退です。<br><br>どこを浄霊致しましたら宜敷いでしょうか。<br><br>お伺い申し上げます。<br><br> 一番肝腎なのは、頭と首の周りである。<br><br> 薬毒である。<br><br>薬が減るに従い治る。<br><br>気長にやればすっかり治る。<br><br> 060 産後驚愕・頭痛除れず 二十年前、産後ちょっと驚きましてから頭の痛みが取れず、夢ばかり見て十一時、十二時頃に目が覚めると眠る事が出来ません。<br><br>何のためでしょう。<br><br> 産後は古血が腹に溜っている。<br><br>そして神経を使う所へ毒がゆく。<br><br>こういう人は驚いたので頭へ行ったのである。<br><br>気長に浄霊する。<br><br>足を使えば足へゆき、何年か経つと痺れて動かなくなる事がある。<br><br>であるから、出血がなくなってから段々始める。<br><br> 悪露がある中は未だ本当でないから、激しい事をしてはいけない。<br><br>古血の固まったのは割合い溶け難い。<br><br>（S24. 1. 6） 061 産後眩暈・顔火照り・足冷ゆ・動悸（憑霊） 三十三歳の女、昨年正月に出産（初産）があり、本年三月末に突然眩暈がして気が遠くなり、顔と頭だけが熱いような感じで、足が大変冷えますので、そのまま寝込みました。<br><br>四月下旬から脈搏は普通ですが、動悸が頭へ強く響くようになり、時々横隔膜のあたりから胸へかけて圧迫があり、顔が熱くなり、物がぼやけて見えますので、足には湯たんぽをあて、頭は水枕で冷やして実母散を飲み、ホルモン、カンフルビタミン、ヒロポン等種々の注射を九月中旬まで続けましたが全然効果なく、医師は心悸亢進症、心臓脚気、血の道等診察を受ける毎に違います。<br><br>九月下旬から御浄霊を受け、三日目に月経がいつもより余分にありましたが別に変ったこともなく、十日目あたりから乳の下部の圧迫は楽になりましたが、今迄全然感じなかった臍のあたりから左胸、頭の方へ圧迫を感ずるようになり、動悸は余り楽になりません。<br><br>現在は臍の周りから胃部にかけて固結があり、七日程前から腹が鳴ります。<br><br>食欲は発病以来平常通りで、殆ど衰弱もございません。<br><br>右の動悸はいかなる訳でございましょうか。<br><br>なお、本人の実母及び祖母が心臓病で亡くなっておりますが、霊的関係が御座いましょうか。<br><br> こういう霊が憑る。<br><br> 産後心配して頭を使うと古血が上る。<br><br>一時固まり、三月末にその浄化が起った。<br><br>顔面の毒は浄化して火照る。<br><br> 動悸は祖母が憑っている。<br><br> 浄霊で治る。<br><br>（S24.10.19） 062 古血に因る動悸・眩暈 三十八歳の婦人、四年前お産致し、直後腰が次第に曲り、心臓が悪く、少しの事にも動悸が致して、また、寝起きの時は特に眩暈甚しく時間がかかります。<br><br>四ケ月間浄霊を続けました。<br><br>浄霊する前よりも相当良くなって来ましたが、本人は何かさわりがあるように思えて仕方がないといつもおびえております。<br><br>本人の義弟にあたる人は自殺しております。<br><br>また、現在の家は元馬小屋でした。<br><br>何か霊的でしょうか。<br><br>また、その病気は全快しますでしょうか。<br><br>お伺い申し上げます。<br><br>本人は入信しております。<br><br> 霊的ではない。<br><br>お産のために古血が腰へ集った。<br><br>起居し過ぎたとみえる。<br><br>それで古血が心臓の近くへ行って固まった――胃と心臓の間へ固まったのである。<br><br>または腰から心臓へ固まって、ちょっとした事でも動悸する。<br><br>二つの中のいずれかである。<br><br>眩暈は脳貧血で、頭を動かすと眩暈する。<br><br>固まっているから時日がかかる。<br><br>（S24.11. 8） 063 血の道より冷性 二十年前から出産後血の道、腎臓病に罹り、ここ数年前まで薬、鍼灸等あらゆる手当の結果今では全身活動がにぶく、左半身が冷たく、寝床に入ってもなかなか温まらず、一年前から浄霊を行っておりますが、薬毒のため頭の毛が抜けておりますが、今では薄く毛が生へて来ましたが、何分慢性病のため治りがにぶく、これも何かと霊的（二度目の縁にて主人たる者は四度目に当り、三度目の先妻は狐霊がついて毎日主人を迎えに行くその関係）にて病も進行するのではないかと思い、病人も何年もかけて回復するのではないかと思います。<br><br> 薬毒である。<br><br>一時的抑えによって大きい苦しみの因を作る。<br><br>また、あるいは霊的かもしれぬが浄霊で治る。<br><br> 064 産後の血の道 四十一歳の女、十三年前から産後の血の道で苦しんでおります。<br><br>昨年一月より御浄霊を戴き大分快方に向いつつありますが、血の道は不治の難症だとも云われますが、本当でしょうか。<br><br> 産後の血の道は、血の出切れないうちに神経を使ったりなどするとそこへ血が寄る。<br><br>使う局部へ寄り、この血は普通なかなか出難いものである。<br><br>血の道は必ず治る。<br><br>いろいろ症状がある。<br><br> 本当は七十五日間は普通の事をしてはいけない。<br><br>七十五日で殆ど普通の通りになる。<br><br> 065 産後の無月経と氷冷 私は二十一歳の時子供を産みましたが、産後出血致しましてより月経が少しもありません。<br><br>以前より冷え症で御座いましたが、医師の診断では異常はないと申します。<br><br>女として月々あるのが当然です。<br><br>本教の浄霊を受けてより二年近くなり、冷え症は良くさせて戴きましたが、まだ月経はありませんが、いかなるわけでございましょうか。<br><br>今後浄霊を続ければあるようになるでしょうか。<br><br>御伺い致します。<br><br> よく古血の下る時、子宮を氷冷する。<br><br>そのために固まり、喇叭管を塞ぐので、月経の血が喇叭管を通らなくなる。<br><br> 月経の血が無理に通ろうとする。<br><br>これが月経痛である。<br><br> 浄霊して塊を溶かせばよい。<br><br>（S24.10.27） 066 産後無月経 私は今年四十歳になりましたが、三十一歳の時お産をしてより月経が一度あっただけで止りました。<br><br>教修を戴きまして三年になりますが、矢張り止ったままになっております。<br><br>このままなくても差支え御座居ませんでしょうか。<br><br>御尋ね致します。<br><br> 月経がなくてはいけない。<br><br> 肺病など進むと月経はなくなる。<br><br>月経がなくなると内部は大分衰弱している。<br><br> （貧血のためか、喇叭管が塞がっているかである。<br><br>大抵は貧血のためである）（S24. 2. 3） 067 産後の無月経と有月経 産後月経がすぐある者と、次の子供が出来るまで全然無月経の者とある訳。<br><br>また、どちらがよろしいのでしょうか。<br><br>月経と子供との関係―― 産後すぐに月経などあるべき筈はない。<br><br>古血の残っているのが出るのである。<br><br> 月経がなくとも子供が出来る事がある――本当ではないが。<br><br>年をとってならない事はないが、若い時はない。<br><br> 068 産後の寸白 俗に「スンバク」と申しまして、御産をした婦人に多く身体の一部の血管がみみずばれのようになっている人があり、また中には身体の一部が痙攣致す方がありますが、いかなる意味がございましょうか。<br><br>御伺い申し上げます。<br><br> 足に多い。<br><br>産後古血が下り切らぬうちに足を使うとそこへ固まる。<br><br>古血の下りる間は一個所を使わぬようにする。<br><br>痙攣はそのためである。<br><br>筋がつるのである。<br><br>（S24. 7.22） 069 産後足不自由 八年前お産をしてから両膝関節が腫れ自由にならない人を浄霊しておりますが、自由になるでしょうか。<br><br>また、どこを浄霊すれば宜敷いか。<br><br>御伺い申します。<br><br> 治る。<br><br>産後未だ古血が出切らぬうちに歩くと古血が膝裏へ集る。<br><br>膝の裏を押すと塊があって痛い。<br><br>そこをすると治る。<br><br>産後悪露の出ないうちに神経を一所に集注するのはいけない。<br><br>産後よく精神病になるのは悪露のためである。<br><br>古血は浄霊で減る。<br><br>（S23.11.16） 070 産後歩行困難 三十五歳の未入信の婦人、昨年六月お産して産褥熱を起し、その年の九月迄入院、漸く歩くようになったが、十月頃より歩行困難となり、現在床についたままで寝返りも困難です。<br><br>来客のある度毎に、また誰でも身体にちょっとでも触れただけで汗が出て一日中止らず、かつ非常に寒さを感じます。<br><br>食欲は一日に粥一杯だけで相当衰弱しております。<br><br>なお、舅が酒に酔って路上で倒れ提灯の火が身体に回り黒焦げになって死亡しています。<br><br>このように産褥熱が長く続くものでしょうか。<br><br> 霊とは関係はない。<br><br>歩行困難は薬毒のためで、気長にやれば治る。<br><br>割合い早く治るのもある。<br><br> 071 婦人の両足斑点 四十歳の女、両足膨れ、赤き斑点が生じ立つ事が出来ません。<br><br>また、顔にも赤の斑点が出来ました。<br><br>いかなる理由ですか。<br><br>本年九月に入会致しました。<br><br> 子供を産んだ人によくある。<br><br>内出血であり、薬毒である。<br><br>産後など足を使うとよくこういう事がある。<br><br>そうでないのは月経に因る場合と、薬毒に因る場合である。<br><br> 毒血が浄化によって皮膚へ出てくる。<br><br> 赤いのは敗血症ではない。<br><br>（S24） 072 産後毎に足裏ふくる お産した人で、足の裏の方にみみずのごとく紫色になっている人があり、原因は産後の古血が出きれぬうちに歩く、その古血が足へ溜る。<br><br>その癖がついているからお産の度に足へ下る。<br><br> ゲンノショウコの浄化が起ると大抵助からぬ。<br><br>一種の自殺法である。<br><br>腹膜になり易い。<br><br>産後一週間は安静にして古血の降りる間あまり身体を使わぬようにする。<br><br>三週間で古血が降りる事になっている。<br><br>悪露の下りる間、あまり使ってはいけない。<br><br>（S23） 073 産後少出血長く・足腰冷ゆ 三十六歳の婦人、十年前に二人目の子供が生れてから後妊娠三ケ月程の腹となり、約七年間は月経が順調でしたが、その後一年半の間毎日少量の出血が続き、それから現在迄約一年間は半月ずつ出血を見ております。<br><br>出血の際、別に痛みはありませんが、足腰の冷えが甚だしく、食事を少し余分に食べてもなかなか寝つかれません。<br><br>現在迄医療はお灸以外全然加へておりません。<br><br>病因、浄霊法、妊娠の可能性等について御教示御願い申し上げます。<br><br> どこかに故障がある。<br><br>子供時代の薬でも非常に影響する。<br><br>何年経っても薬は減らぬ。<br><br>人間は食物以外は消化出来ぬ。<br><br>食うべからざる物を食うと残る。<br><br>萎縮腎であるから浄霊すれば治る。<br><br>月経の血液の溜る個所がゆるんで漏れるのである。<br><br>妊娠はする。<br><br>（S24. 7.29） 074 産後腰痛・背骨曲り歩行不能 私は昭和二十三年四月、産後三ケ月後に腰が痛み、背骨が曲り、七月頃より膝の力が抜け、歩行が出来なくなりました。<br><br>続いて足が痙攣するようになりましたので、医師に相談致しましたら、手術をすれば治るとの事で、昨年一月に入院し五月に脊髄の手術を受けました。<br><br>けれど足の痙攣は治らず、歩行も出来ず、それが二ケ月後に四十度以上の熱が出て、直後痙攣が止まり、物にとまって立つ事が出来るようになりました。<br><br>それで九月に退院いたしました。<br><br>その後はまた痙攣がひどくなり、歩行も出来ず、足が引きつっています。<br><br>十月に観音様のお話を聞き、母が入信して浄霊をして頂いておりますが、その後大した変化はございません。<br><br>どうしましたらお救い頂けますでしょうか。<br><br> 産後の古血が溜ってる。<br><br>足の筋と神経を圧迫している。<br><br>見当違いの手術したため痙攣が治らぬ。<br><br>腰をよく浄霊すれば必ず治る。<br><br>古い人に時々やってもらうといい。<br><br>（S25. 4.26） 075 産褥熱 私の家は九人家内の農家です。<br><br>三年程前より肺炎を同一人が三回、またお産の後高熱にて意識が遠くなったり、父が神経痛にて悩んでおりますが、一体どういう訳でしょうか。<br><br>特にお産の後などは、自分では高熱でもさのみ苦しみもしませんが、他人から見るととても苦しいように見えますが、浄霊致すにどのような点に力を入れたらよいでしょうか。<br><br> 産褥熱である。<br><br>褥熱という。<br><br>身体中触ってみて一番熱い所をやる。<br><br>一局部から出る。<br><br>押してみて痛い所である。<br><br>これを浄霊する。<br><br>（S24.11.26） 076 産後神経痛執拗 五十歳の女、産後の肥立ちが悪く、私が二十一年の秋から浄霊させて頂いておりますが、段々悪くなり、今では起き上る事も出来ません。<br><br>その人は二十一年にお光を戴いております。<br><br>現在は神経痛のような状態ですが、どうした理由でしょうか。<br><br>また、治るものでしょうか。<br><br>御教え願います。<br><br> 訳なく治る筈だ。<br><br>見当違いか、霊力が足りないのである。<br><br>急所が外れてる。<br><br> 腎臓の下の方に痛む個所がある。<br><br>顔面はある薬毒である。<br><br> 人によって、霊力の強弱がある。<br><br>長くやってる人程霊の放射は強い。<br><br>（S24. 3.15） 077 出産と食道癌 知人の妻（四十三歳）、出産しましたところ、産後の身体の調子が悪く、医者に診て貰うと食道癌と云われました。<br><br>食欲が少なく苦しんでおります。<br><br>未だ浄霊を始めたばかりですが、私は経験が少ないので、誠に恐れ入りますが原因と浄霊法を御教え下さい。<br><br> 出産によって食道癌になるという事はない。<br><br>食道癌と出産は関係はない。<br><br>食道癌なりや否やの判別はし難い。<br><br>（今一層くわしく書け）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Tratado sobre a Arte da Cura (Dez)</h2>
 <h2>5. A Purificação no Puerpério</h2>
@@ -152,5 +304,48 @@ function toggleLang(lang) {
 <p><strong>077. Parto e câncer de esôfago</strong></p>
 <p><strong>Pergunta:</strong> A esposa de um conhecido, de quarenta e três anos, teve uma má recuperação após o parto. Ao consultar um médico, foi diagnosticada com câncer de esôfago. Ela tem pouco apetite e está sofrendo muito. Acabamos de começar a ministrar Johrei, mas como tenho pouca experiência, peço, humildemente, que me ensine a causa e o método de Johrei.</p>
 <p><strong>Meishu-Sama:</strong> O parto não causa câncer de esôfago. Não há relação entre as duas coisas. É difícil determinar se é de fato câncer de esôfago ou não. (Descreva o caso com mais detalhes).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ５ 058-077 産後 の浄化 058 多産婦の老貌 子供を沢山生んだ婦人は生まない人よりもふけて見えますが、子供を生む事は天職を完うしていると考えられますが、右の理由はいかなるわけでございましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> そうでもない。<br/><br/>子供を生んでも若く見えるのがある。<br/><br/> 子供のため化粧も構わぬから老けて見えるのであろう。<br/><br/> お産は毒素を出すから、反って若くなる訳である。<br/><br/> 薬を服めば年をとる。<br/><br/>（S24. 9. 9） 059 産後頭痛・逆上 私は昭和二十三年十月出産、四時間後突然大出血し医師に掛かり、「内膜掻爬」をしました。<br/><br/>十四日目に勝手仕事をし、また寝込み、医療を受け一ケ月程で良くなり、その後また痕（あと）が悪くなり、腰湯をしたり高貴薬を用いたりし、すっかり悪化し、頭鳴り、頭痛あり、逆上がし、少し動いても血が騒ぎ、便所へ行く事も出来なくなりました。<br/><br/>本年一月以来薬を止めて浄霊を戴いておりますが、一進一退です。<br/><br/>どこを浄霊致しましたら宜敷いでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 一番肝腎なのは、頭と首の周りである。<br/><br/> 薬毒である。<br/><br/>薬が減るに従い治る。<br/><br/>気長にやればすっかり治る。<br/><br/> 060 産後驚愕・頭痛除れず 二十年前、産後ちょっと驚きましてから頭の痛みが取れず、夢ばかり見て十一時、十二時頃に目が覚めると眠る事が出来ません。<br/><br/>何のためでしょう。<br/><br/> 産後は古血が腹に溜っている。<br/><br/>そして神経を使う所へ毒がゆく。<br/><br/>こういう人は驚いたので頭へ行ったのである。<br/><br/>気長に浄霊する。<br/><br/>足を使えば足へゆき、何年か経つと痺れて動かなくなる事がある。<br/><br/>であるから、出血がなくなってから段々始める。<br/><br/> 悪露がある中は未だ本当でないから、激しい事をしてはいけない。<br/><br/>古血の固まったのは割合い溶け難い。<br/><br/>（S24. 1. 6） 061 産後眩暈・顔火照り・足冷ゆ・動悸（憑霊） 三十三歳の女、昨年正月に出産（初産）があり、本年三月末に突然眩暈がして気が遠くなり、顔と頭だけが熱いような感じで、足が大変冷えますので、そのまま寝込みました。<br/><br/>四月下旬から脈搏は普通ですが、動悸が頭へ強く響くようになり、時々横隔膜のあたりから胸へかけて圧迫があり、顔が熱くなり、物がぼやけて見えますので、足には湯たんぽをあて、頭は水枕で冷やして実母散を飲み、ホルモン、カンフルビタミン、ヒロポン等種々の注射を九月中旬まで続けましたが全然効果なく、医師は心悸亢進症、心臓脚気、血の道等診察を受ける毎に違います。<br/><br/>九月下旬から御浄霊を受け、三日目に月経がいつもより余分にありましたが別に変ったこともなく、十日目あたりから乳の下部の圧迫は楽になりましたが、今迄全然感じなかった臍のあたりから左胸、頭の方へ圧迫を感ずるようになり、動悸は余り楽になりません。<br/><br/>現在は臍の周りから胃部にかけて固結があり、七日程前から腹が鳴ります。<br/><br/>食欲は発病以来平常通りで、殆ど衰弱もございません。<br/><br/>右の動悸はいかなる訳でございましょうか。<br/><br/>なお、本人の実母及び祖母が心臓病で亡くなっておりますが、霊的関係が御座いましょうか。<br/><br/> こういう霊が憑る。<br/><br/> 産後心配して頭を使うと古血が上る。<br/><br/>一時固まり、三月末にその浄化が起った。<br/><br/>顔面の毒は浄化して火照る。<br/><br/> 動悸は祖母が憑っている。<br/><br/> 浄霊で治る。<br/><br/>（S24.10.19） 062 古血に因る動悸・眩暈 三十八歳の婦人、四年前お産致し、直後腰が次第に曲り、心臓が悪く、少しの事にも動悸が致して、また、寝起きの時は特に眩暈甚しく時間がかかります。<br/><br/>四ケ月間浄霊を続けました。<br/><br/>浄霊する前よりも相当良くなって来ましたが、本人は何かさわりがあるように思えて仕方がないといつもおびえております。<br/><br/>本人の義弟にあたる人は自殺しております。<br/><br/>また、現在の家は元馬小屋でした。<br/><br/>何か霊的でしょうか。<br/><br/>また、その病気は全快しますでしょうか。<br/><br/>お伺い申し上げます。<br/><br/>本人は入信しております。<br/><br/> 霊的ではない。<br/><br/>お産のために古血が腰へ集った。<br/><br/>起居し過ぎたとみえる。<br/><br/>それで古血が心臓の近くへ行って固まった――胃と心臓の間へ固まったのである。<br/><br/>または腰から心臓へ固まって、ちょっとした事でも動悸する。<br/><br/>二つの中のいずれかである。<br/><br/>眩暈は脳貧血で、頭を動かすと眩暈する。<br/><br/>固まっているから時日がかかる。<br/><br/>（S24.11. 8） 063 血の道より冷性 二十年前から出産後血の道、腎臓病に罹り、ここ数年前まで薬、鍼灸等あらゆる手当の結果今では全身活動がにぶく、左半身が冷たく、寝床に入ってもなかなか温まらず、一年前から浄霊を行っておりますが、薬毒のため頭の毛が抜けておりますが、今では薄く毛が生へて来ましたが、何分慢性病のため治りがにぶく、これも何かと霊的（二度目の縁にて主人たる者は四度目に当り、三度目の先妻は狐霊がついて毎日主人を迎えに行くその関係）にて病も進行するのではないかと思い、病人も何年もかけて回復するのではないかと思います。<br/><br/> 薬毒である。<br/><br/>一時的抑えによって大きい苦しみの因を作る。<br/><br/>また、あるいは霊的かもしれぬが浄霊で治る。<br/><br/> 064 産後の血の道 四十一歳の女、十三年前から産後の血の道で苦しんでおります。<br/><br/>昨年一月より御浄霊を戴き大分快方に向いつつありますが、血の道は不治の難症だとも云われますが、本当でしょうか。<br/><br/> 産後の血の道は、血の出切れないうちに神経を使ったりなどするとそこへ血が寄る。<br/><br/>使う局部へ寄り、この血は普通なかなか出難いものである。<br/><br/>血の道は必ず治る。<br/><br/>いろいろ症状がある。<br/><br/> 本当は七十五日間は普通の事をしてはいけない。<br/><br/>七十五日で殆ど普通の通りになる。<br/><br/> 065 産後の無月経と氷冷 私は二十一歳の時子供を産みましたが、産後出血致しましてより月経が少しもありません。<br/><br/>以前より冷え症で御座いましたが、医師の診断では異常はないと申します。<br/><br/>女として月々あるのが当然です。<br/><br/>本教の浄霊を受けてより二年近くなり、冷え症は良くさせて戴きましたが、まだ月経はありませんが、いかなるわけでございましょうか。<br/><br/>今後浄霊を続ければあるようになるでしょうか。<br/><br/>御伺い致します。<br/><br/> よく古血の下る時、子宮を氷冷する。<br/><br/>そのために固まり、喇叭管を塞ぐので、月経の血が喇叭管を通らなくなる。<br/><br/> 月経の血が無理に通ろうとする。<br/><br/>これが月経痛である。<br/><br/> 浄霊して塊を溶かせばよい。<br/><br/>（S24.10.27） 066 産後無月経 私は今年四十歳になりましたが、三十一歳の時お産をしてより月経が一度あっただけで止りました。<br/><br/>教修を戴きまして三年になりますが、矢張り止ったままになっております。<br/><br/>このままなくても差支え御座居ませんでしょうか。<br/><br/>御尋ね致します。<br/><br/> 月経がなくてはいけない。<br/><br/> 肺病など進むと月経はなくなる。<br/><br/>月経がなくなると内部は大分衰弱している。<br/><br/> （貧血のためか、喇叭管が塞がっているかである。<br/><br/>大抵は貧血のためである）（S24. 2. 3） 067 産後の無月経と有月経 産後月経がすぐある者と、次の子供が出来るまで全然無月経の者とある訳。<br/><br/>また、どちらがよろしいのでしょうか。<br/><br/>月経と子供との関係―― 産後すぐに月経などあるべき筈はない。<br/><br/>古血の残っているのが出るのである。<br/><br/> 月経がなくとも子供が出来る事がある――本当ではないが。<br/><br/>年をとってならない事はないが、若い時はない。<br/><br/> 068 産後の寸白 俗に「スンバク」と申しまして、御産をした婦人に多く身体の一部の血管がみみずばれのようになっている人があり、また中には身体の一部が痙攣致す方がありますが、いかなる意味がございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 足に多い。<br/><br/>産後古血が下り切らぬうちに足を使うとそこへ固まる。<br/><br/>古血の下りる間は一個所を使わぬようにする。<br/><br/>痙攣はそのためである。<br/><br/>筋がつるのである。<br/><br/>（S24. 7.22） 069 産後足不自由 八年前お産をしてから両膝関節が腫れ自由にならない人を浄霊しておりますが、自由になるでしょうか。<br/><br/>また、どこを浄霊すれば宜敷いか。<br/><br/>御伺い申します。<br/><br/> 治る。<br/><br/>産後未だ古血が出切らぬうちに歩くと古血が膝裏へ集る。<br/><br/>膝の裏を押すと塊があって痛い。<br/><br/>そこをすると治る。<br/><br/>産後悪露の出ないうちに神経を一所に集注するのはいけない。<br/><br/>産後よく精神病になるのは悪露のためである。<br/><br/>古血は浄霊で減る。<br/><br/>（S23.11.16） 070 産後歩行困難 三十五歳の未入信の婦人、昨年六月お産して産褥熱を起し、その年の九月迄入院、漸く歩くようになったが、十月頃より歩行困難となり、現在床についたままで寝返りも困難です。<br/><br/>来客のある度毎に、また誰でも身体にちょっとでも触れただけで汗が出て一日中止らず、かつ非常に寒さを感じます。<br/><br/>食欲は一日に粥一杯だけで相当衰弱しております。<br/><br/>なお、舅が酒に酔って路上で倒れ提灯の火が身体に回り黒焦げになって死亡しています。<br/><br/>このように産褥熱が長く続くものでしょうか。<br/><br/> 霊とは関係はない。<br/><br/>歩行困難は薬毒のためで、気長にやれば治る。<br/><br/>割合い早く治るのもある。<br/><br/> 071 婦人の両足斑点 四十歳の女、両足膨れ、赤き斑点が生じ立つ事が出来ません。<br/><br/>また、顔にも赤の斑点が出来ました。<br/><br/>いかなる理由ですか。<br/><br/>本年九月に入会致しました。<br/><br/> 子供を産んだ人によくある。<br/><br/>内出血であり、薬毒である。<br/><br/>産後など足を使うとよくこういう事がある。<br/><br/>そうでないのは月経に因る場合と、薬毒に因る場合である。<br/><br/> 毒血が浄化によって皮膚へ出てくる。<br/><br/> 赤いのは敗血症ではない。<br/><br/>（S24） 072 産後毎に足裏ふくる お産した人で、足の裏の方にみみずのごとく紫色になっている人があり、原因は産後の古血が出きれぬうちに歩く、その古血が足へ溜る。<br/><br/>その癖がついているからお産の度に足へ下る。<br/><br/> ゲンノショウコの浄化が起ると大抵助からぬ。<br/><br/>一種の自殺法である。<br/><br/>腹膜になり易い。<br/><br/>産後一週間は安静にして古血の降りる間あまり身体を使わぬようにする。<br/><br/>三週間で古血が降りる事になっている。<br/><br/>悪露の下りる間、あまり使ってはいけない。<br/><br/>（S23） 073 産後少出血長く・足腰冷ゆ 三十六歳の婦人、十年前に二人目の子供が生れてから後妊娠三ケ月程の腹となり、約七年間は月経が順調でしたが、その後一年半の間毎日少量の出血が続き、それから現在迄約一年間は半月ずつ出血を見ております。<br/><br/>出血の際、別に痛みはありませんが、足腰の冷えが甚だしく、食事を少し余分に食べてもなかなか寝つかれません。<br/><br/>現在迄医療はお灸以外全然加へておりません。<br/><br/>病因、浄霊法、妊娠の可能性等について御教示御願い申し上げます。<br/><br/> どこかに故障がある。<br/><br/>子供時代の薬でも非常に影響する。<br/><br/>何年経っても薬は減らぬ。<br/><br/>人間は食物以外は消化出来ぬ。<br/><br/>食うべからざる物を食うと残る。<br/><br/>萎縮腎であるから浄霊すれば治る。<br/><br/>月経の血液の溜る個所がゆるんで漏れるのである。<br/><br/>妊娠はする。<br/><br/>（S24. 7.29） 074 産後腰痛・背骨曲り歩行不能 私は昭和二十三年四月、産後三ケ月後に腰が痛み、背骨が曲り、七月頃より膝の力が抜け、歩行が出来なくなりました。<br/><br/>続いて足が痙攣するようになりましたので、医師に相談致しましたら、手術をすれば治るとの事で、昨年一月に入院し五月に脊髄の手術を受けました。<br/><br/>けれど足の痙攣は治らず、歩行も出来ず、それが二ケ月後に四十度以上の熱が出て、直後痙攣が止まり、物にとまって立つ事が出来るようになりました。<br/><br/>それで九月に退院いたしました。<br/><br/>その後はまた痙攣がひどくなり、歩行も出来ず、足が引きつっています。<br/><br/>十月に観音様のお話を聞き、母が入信して浄霊をして頂いておりますが、その後大した変化はございません。<br/><br/>どうしましたらお救い頂けますでしょうか。<br/><br/> 産後の古血が溜ってる。<br/><br/>足の筋と神経を圧迫している。<br/><br/>見当違いの手術したため痙攣が治らぬ。<br/><br/>腰をよく浄霊すれば必ず治る。<br/><br/>古い人に時々やってもらうといい。<br/><br/>（S25. 4.26） 075 産褥熱 私の家は九人家内の農家です。<br/><br/>三年程前より肺炎を同一人が三回、またお産の後高熱にて意識が遠くなったり、父が神経痛にて悩んでおりますが、一体どういう訳でしょうか。<br/><br/>特にお産の後などは、自分では高熱でもさのみ苦しみもしませんが、他人から見るととても苦しいように見えますが、浄霊致すにどのような点に力を入れたらよいでしょうか。<br/><br/> 産褥熱である。<br/><br/>褥熱という。<br/><br/>身体中触ってみて一番熱い所をやる。<br/><br/>一局部から出る。<br/><br/>押してみて痛い所である。<br/><br/>これを浄霊する。<br/><br/>（S24.11.26） 076 産後神経痛執拗 五十歳の女、産後の肥立ちが悪く、私が二十一年の秋から浄霊させて頂いておりますが、段々悪くなり、今では起き上る事も出来ません。<br/><br/>その人は二十一年にお光を戴いております。<br/><br/>現在は神経痛のような状態ですが、どうした理由でしょうか。<br/><br/>また、治るものでしょうか。<br/><br/>御教え願います。<br/><br/> 訳なく治る筈だ。<br/><br/>見当違いか、霊力が足りないのである。<br/><br/>急所が外れてる。<br/><br/> 腎臓の下の方に痛む個所がある。<br/><br/>顔面はある薬毒である。<br/><br/> 人によって、霊力の強弱がある。<br/><br/>長くやってる人程霊の放射は強い。<br/><br/>（S24. 3.15） 077 出産と食道癌 知人の妻（四十三歳）、出産しましたところ、産後の身体の調子が悪く、医者に診て貰うと食道癌と云われました。<br/><br/>食欲が少なく苦しんでおります。<br/><br/>未だ浄霊を始めたばかりですが、私は経験が少ないので、誠に恐れ入りますが原因と浄霊法を御教え下さい。<br/><br/> 出産によって食道癌になるという事はない。<br/><br/>食道癌と出産は関係はない。<br/><br/>食道癌なりや否やの判別はし難い。<br/><br/>（今一層くわしく書け）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qjinzo2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 腎臓病はじめ全身の病苦 御浄霊にて悉く御救い戴く 『アメリカを救う』昭和28(1953)年1月1日発行 長野県 博愛中教会 萩原ふゆ（46） 私は主人と共に十五、十三になる二女を恵まれておりますが、病の苦しみは下の子を出産した時から始りました。<br><br>順調な陣痛が来ておりましたが、「真夜中に掛ると大変だから早く生まれさせてしまおう」と産婆さんが促進注射を打ってくれ、間もなく五分もたたない中に生まれ、一同びっくり致しました。<br><br>その後二週間で起き上れましたものの歩く度に子宮に響いて非常に痛み、大変心配しまして早速婦人科へ参りました。<br><br>医師は「下腹部にシコリが有る」と言って至急に手術をと奨めましたが、どうしてもその気持になれず、注射で幸い痛みはとれましたものの、それ以後体の調子が次第にだるくなり、腰の痛み、急性腎臓炎等が年中再発し、頭はいつも大きな笠を被せられたようで、すっかり病身となってしまいました。<br><br>年のせいで休も弱くなったと諦めてはおりますものの、何とかして丈夫になりたいとあの医者、この薬と転々と歩き廻りました。<br><br>腰に悪寒が参りますとそれが脊髄へザワザワッとのぼり、その冷い感じのものが延髄まで来ますと、後へ引きつって立っている事が出来なく「それ湯たんぽだ、心臓を冷せ」と大騒ぎをして、やっと治るといった苦しみを、年に十数回繰返し、四年間の暗い日を送っていたのでございます。<br><br>「余り注射ばかりするのも毒になるから、信心なさったら」と心ある人から奨められ、自分もその気になって近くの弘法様の信仰に入りましたところ「あなたの病気にはセンブリ、山牛蒡の根、バラの根等々の煎薬をのみなさい」と言われ、それを二年間続けました。<br><br>一時非常によい様に思いましたが、その中に下腹が張って、腰が硬い感じで、体は前より一層動けなくなって参りました。<br><br> 二十六年四月のある夜、シクシクと下腹部の痛みで、一晩中まんじりとも出来ません。<br><br>翌日医者へ参りました処途端に急性盲腸炎と診断されました。<br><br>入院、手術と矢継早に頭に浮んで参りましたが、この時もまた手術を断りました。<br><br>手術を奨められましたのがこれで二度目、救われた今日、考えて見ますと二度共手術を断ってしまいました事は、何も知らずにいた頃とはいえ、この様な有難い神様の御導きを戴いていたので御座います。<br><br>何も知らぬ事とて、注射で散らしてもらい帰宅後局部を氷で冷し通し、三日目に血液検査を受けましたところ「まだ濁っているから」と言われ一生懸命に冷していましたところへ、直ぐ向いの救世教の西沢先生のお父様が尋ねて来て下さいました。<br><br>「人間の体の中に霊の曇り即ち毒素と言うものが沢山あって、今盲腸と言う一つの出口へ出ようとしているんだから、こんな結構な事はないから、早く氷を取りなさい。<br><br>御浄霊と言ってこうして手を翳すと、この掌から神様の御光が出て浄まって、早く病気が治るんです」と浄化作用のお話を詳しくお話し下さいました。<br><br>何のこだわる気持もなく、早速氷を取って御浄霊を戴きました。<br><br>一回目はほとんど何の変化も御座いませんでしたが、「この程度の痛みだったら無理に寝ている事もないから起きなさい」と言われ、翌日から起き上って、朝夕二回ずつの御浄霊を二日間戴きました。<br><br>お蔭様で痛みはすっかり取れましたものの、下痢一つなく、小水も思う程なく、冷切ったお腹は前よりももっとぱんぱんに張り、腎臓まではれ上り、どう仕様もなく御神前へお参りさせて戴き、何かしら変った霊気の中に置かれる感じをしながら続けて二回の御浄霊を戴きました。<br><br>誰かが臍部の芯の塊りを背中で絞っているような苦しみを堪えながら、腎臓と腹部とを交互に約一時間程御浄霊を戴きましたところ、驚くなかれあれ程永く続きました痛みはほとんど取れてしまい、起き上ってお腹をさすって見ました時、本当に吃驚しました。<br><br>あの張切っていた太鼓腹は、何の排泄物も無いのに小さくなって、もう体中何の苦しみも無いのでございます。<br><br>不思議だ不思議だと、それから十日間程、平穏支部の御神前で御浄霊を戴いておりますうちに、年がら年中笠を被った感じの頭は、すっかり良く治ってしまいました。<br><br>私のしつこい急性盲腸炎はただの数回の御浄霊で根治して戴いたのです。<br><br>ただ手を翳すだけでこんなにも自分の体も気分も良くならせて戴ける。<br><br>これは大変な神様に違いないと、早速主人と相談致しまして、五月の半ば西村先生から御教修を戴いたのでございます。<br><br> 御教修の御話を聞いておりますと、一つ一つそうだ、そうだ、今までは何も知らなかったけれど、確かにそうだあの時素直に御浄霊戴く気持になっていなかったら、今頃自分はどうなっていただろう。<br><br>私は救われた！ いやお救い戴けたのです。<br><br>御神前で頭を低く垂れている私の胸は熱く、目頭がジーンとしてなにも見えなくなりました。<br><br>今まで探し求めていた「幸福」がこの御道だったのでございます。<br><br>有難くて嬉しくて、到底言葉に表し様も御座いません。<br><br>どうしたらこの喜びの胸中を分って戴けるのでございましょう。<br><br> 知らずにのんだとは言え、余りにも大量の薬毒が体内に入っておりますことを考えますと、それだけでも当然私の生命は無いものと思うのでございますが、御守護を戴きまして入信後一年になります今日まで、時折戴く軽い御浄化によって、恐しい薬毒を出させて戴いております。<br><br>平常は数年聞苦しんだ病も忘れたような清々しい気分でおりますが、御浄化の時でもほとんど以前のように寝る事はなく、元気に働きながら、次第に毒素のない健康な身体にして戴いております。<br><br> 明主様は、朝も夕べもいつも私の身辺においで下さり病ばかりでなく、他のあらゆる面に御守護下さっておられます事を、心から感謝申し上げ、拙き御報告を終らせて戴きます。<br><br> （昭和二十七年六月五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Doença renal e múltiplos sofrimentos físicos: a salvação completa por meio do Johrei</h2>
 <p><strong>Publicado na edição de 1º de janeiro de 1953 da revista “Salvar a América”</strong>
@@ -100,5 +255,48 @@ Fuyu Hagiwara (46 anos), Igreja Hakuai-naka, Província de Nagano</p>
 <p>Quando pondero sobre a enorme quantidade de toxinas medicamentosas que, por ignorância, introduzi em meu organismo, concluo que somente esse fato já seria suficiente para ter ceifado minha vida. Contudo, amparada pela proteção Divina, hoje, um ano após minha outorga, continuo a expelir essas terríveis toxinas por meio de purificações brandas e esporádicas. Na maior parte do tempo, sinto-me tão revigorada que até me esqueço dos anos de sofrimento. Mesmo durante as purificações, raramente preciso me acamar como antigamente e, enquanto trabalho com vigor, sinto meu corpo ser gradualmente transformado em um organismo saudável e livre de toxinas.</p>
 <p>Sinto que Meishu-Sama está sempre ao meu lado, ao alvorecer e ao anoitecer, protegendo-me não apenas das doenças, mas em todos os aspectos da minha vida. É com o coração transbordando de gratidão que encerro este meu humilde relato.</p>
 <p>(5 de junho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 腎臓病はじめ全身の病苦 御浄霊にて悉く御救い戴く 『アメリカを救う』昭和28(1953)年1月1日発行 長野県 博愛中教会 萩原ふゆ（46） 私は主人と共に十五、十三になる二女を恵まれておりますが、病の苦しみは下の子を出産した時から始りました。<br/><br/>順調な陣痛が来ておりましたが、「真夜中に掛ると大変だから早く生まれさせてしまおう」と産婆さんが促進注射を打ってくれ、間もなく五分もたたない中に生まれ、一同びっくり致しました。<br/><br/>その後二週間で起き上れましたものの歩く度に子宮に響いて非常に痛み、大変心配しまして早速婦人科へ参りました。<br/><br/>医師は「下腹部にシコリが有る」と言って至急に手術をと奨めましたが、どうしてもその気持になれず、注射で幸い痛みはとれましたものの、それ以後体の調子が次第にだるくなり、腰の痛み、急性腎臓炎等が年中再発し、頭はいつも大きな笠を被せられたようで、すっかり病身となってしまいました。<br/><br/>年のせいで休も弱くなったと諦めてはおりますものの、何とかして丈夫になりたいとあの医者、この薬と転々と歩き廻りました。<br/><br/>腰に悪寒が参りますとそれが脊髄へザワザワッとのぼり、その冷い感じのものが延髄まで来ますと、後へ引きつって立っている事が出来なく「それ湯たんぽだ、心臓を冷せ」と大騒ぎをして、やっと治るといった苦しみを、年に十数回繰返し、四年間の暗い日を送っていたのでございます。<br/><br/>「余り注射ばかりするのも毒になるから、信心なさったら」と心ある人から奨められ、自分もその気になって近くの弘法様の信仰に入りましたところ「あなたの病気にはセンブリ、山牛蒡の根、バラの根等々の煎薬をのみなさい」と言われ、それを二年間続けました。<br/><br/>一時非常によい様に思いましたが、その中に下腹が張って、腰が硬い感じで、体は前より一層動けなくなって参りました。<br/><br/> 二十六年四月のある夜、シクシクと下腹部の痛みで、一晩中まんじりとも出来ません。<br/><br/>翌日医者へ参りました処途端に急性盲腸炎と診断されました。<br/><br/>入院、手術と矢継早に頭に浮んで参りましたが、この時もまた手術を断りました。<br/><br/>手術を奨められましたのがこれで二度目、救われた今日、考えて見ますと二度共手術を断ってしまいました事は、何も知らずにいた頃とはいえ、この様な有難い神様の御導きを戴いていたので御座います。<br/><br/>何も知らぬ事とて、注射で散らしてもらい帰宅後局部を氷で冷し通し、三日目に血液検査を受けましたところ「まだ濁っているから」と言われ一生懸命に冷していましたところへ、直ぐ向いの救世教の西沢先生のお父様が尋ねて来て下さいました。<br/><br/>「人間の体の中に霊の曇り即ち毒素と言うものが沢山あって、今盲腸と言う一つの出口へ出ようとしているんだから、こんな結構な事はないから、早く氷を取りなさい。<br/><br/>御浄霊と言ってこうして手を翳すと、この掌から神様の御光が出て浄まって、早く病気が治るんです」と浄化作用のお話を詳しくお話し下さいました。<br/><br/>何のこだわる気持もなく、早速氷を取って御浄霊を戴きました。<br/><br/>一回目はほとんど何の変化も御座いませんでしたが、「この程度の痛みだったら無理に寝ている事もないから起きなさい」と言われ、翌日から起き上って、朝夕二回ずつの御浄霊を二日間戴きました。<br/><br/>お蔭様で痛みはすっかり取れましたものの、下痢一つなく、小水も思う程なく、冷切ったお腹は前よりももっとぱんぱんに張り、腎臓まではれ上り、どう仕様もなく御神前へお参りさせて戴き、何かしら変った霊気の中に置かれる感じをしながら続けて二回の御浄霊を戴きました。<br/><br/>誰かが臍部の芯の塊りを背中で絞っているような苦しみを堪えながら、腎臓と腹部とを交互に約一時間程御浄霊を戴きましたところ、驚くなかれあれ程永く続きました痛みはほとんど取れてしまい、起き上ってお腹をさすって見ました時、本当に吃驚しました。<br/><br/>あの張切っていた太鼓腹は、何の排泄物も無いのに小さくなって、もう体中何の苦しみも無いのでございます。<br/><br/>不思議だ不思議だと、それから十日間程、平穏支部の御神前で御浄霊を戴いておりますうちに、年がら年中笠を被った感じの頭は、すっかり良く治ってしまいました。<br/><br/>私のしつこい急性盲腸炎はただの数回の御浄霊で根治して戴いたのです。<br/><br/>ただ手を翳すだけでこんなにも自分の体も気分も良くならせて戴ける。<br/><br/>これは大変な神様に違いないと、早速主人と相談致しまして、五月の半ば西村先生から御教修を戴いたのでございます。<br/><br/> 御教修の御話を聞いておりますと、一つ一つそうだ、そうだ、今までは何も知らなかったけれど、確かにそうだあの時素直に御浄霊戴く気持になっていなかったら、今頃自分はどうなっていただろう。<br/><br/>私は救われた！ いやお救い戴けたのです。<br/><br/>御神前で頭を低く垂れている私の胸は熱く、目頭がジーンとしてなにも見えなくなりました。<br/><br/>今まで探し求めていた「幸福」がこの御道だったのでございます。<br/><br/>有難くて嬉しくて、到底言葉に表し様も御座いません。<br/><br/>どうしたらこの喜びの胸中を分って戴けるのでございましょう。<br/><br/> 知らずにのんだとは言え、余りにも大量の薬毒が体内に入っておりますことを考えますと、それだけでも当然私の生命は無いものと思うのでございますが、御守護を戴きまして入信後一年になります今日まで、時折戴く軽い御浄化によって、恐しい薬毒を出させて戴いております。<br/><br/>平常は数年聞苦しんだ病も忘れたような清々しい気分でおりますが、御浄化の時でもほとんど以前のように寝る事はなく、元気に働きながら、次第に毒素のない健康な身体にして戴いております。<br/><br/> 明主様は、朝も夕べもいつも私の身辺においで下さり病ばかりでなく、他のあらゆる面に御守護下さっておられます事を、心から感謝申し上げ、拙き御報告を終らせて戴きます。<br/><br/> （昭和二十七年六月五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

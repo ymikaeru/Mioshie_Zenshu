@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkitigai</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 気違、一週間で癒え事故にもこの奇蹟 『アメリカを救う』昭和28(1953)年1月1日発行 秋田県 十光中教会 仲沢 康（20） 私が狐に憑かれ「堂に入った気違」とまで言われ、「まだ若いのに可哀相に」と言われた程でありました。<br><br>普通は脳病院に入れられてしまうところでありましたが、従兄の武田さんの奨めで、馬鹿でも簡単に治る救世教で僅か一週間位で救われたのであります。<br><br>気違当時のことはどんな言動をとったかは全然分りませんので、親兄弟や親戚の方々から聞いて、当時の模様をここに発表させて頂き、あの当時の私のような状態にある人々に一日も早く一人でも多く正常にかえって頂き、又救世教では奇蹟でどんな病気や災害からも救われるという事を、声を大にして叫びたいのであります。<br><br> 私は左官をやっておりますので毎日隣町の師匠のところへ行って仕事をしておりましたが、昭和二十五年十月の初め頃だったのです。<br><br>仕事が終って家へ帰りましたが買ったばかりの私の自転車がないのに気がつき、早速駐在署へ届け出たのです。<br><br>巡査は「ただ今の出来事だったら盗んだ奴はまだそこらをうろついているかも知れないから直ぐに手配して探そう」と言って電話で方々へ手配されました。<br><br>ところがその自転車が師匠の家に朝おいたままになっていたとの事です。<br><br>私は自転車に乗って帰り、途中扇田新道で泥棒に盗られたとテッキリ思い込んでおったのです。<br><br>その時からすっかり頭が変になっておったのでした。<br><br>この事が『北鹿新聞』にも嘲笑的記事になって載ったとの事でした。<br><br>家の人は「康のために世間の人に顔向けが出来ない」と言って気まずい数日を過したとの事です。<br><br>それからは言う事なす事がトンチンカンで本当ではなかったのです。<br><br>世間の人は「康も可哀相に堂に入ったのでは中々治らないネ、まだ若いのになア」と同情してくれたそうです。<br><br>家の人や親戚一同が非常に心配して方々のイタコ（巫女）やゴミソ（占師）に行って拝んでもらったそうですが、一向にラチがあかないのです。<br><br> 金のある親戚は、「こうしておってはいけないから大学病院に行ってよく診てもらい、電気をかけてもらえば治るそうだよ」とすすめてくれるのです。<br><br>「金がなければ貸すから」と言ってくれるのです。<br><br>「神様も神様だが、医者にも見せなければ」と言うので公立大館病院に連れて行かれました。<br><br>ところが「つける薬はないから」と言われ、ていよく帰されたのです。<br><br>親戚の人々の相談で、弘前の大学病院に行く事に大体話が決った時でした。<br><br>従兄の武田さんが、「弘前へ行く事もよいが、私達の入っている救世教は、馬鹿でも何でもよく治りますから、一度小館花の支部に行って先生によく診てもらったらどうですか」とすすめて下さいました。<br><br>中にはそれに反対する親戚もありましたが、「もし救世教でも治らない時は弘前へ行く事にして、小館花町に行ってみよう」という事になり、五、六人に連れられて小館花町の支部へ参りました。<br><br>武田さんが前もって先生に事情を話してくれておったので早速御神前でお浄霊頂く事になったのです。<br><br>鈴木先生が大光明如来様の前で祝詞を奏げられ、霊査をして下さいました。<br><br>その時私は逆立ちしてひっくりかえったそうです。<br><br>又わけのわからないドドドーと言う馬鹿声を出したり、気味の悪い変な眼つきで、先生をにらんだりしたそうです。<br><br>先生は私の母をかいして霊を確めたそうですが、狐と猫が邪魔しているとの事でした。<br><br>方々の神様も「年功の深い狐が三匹も憑いているから、中々手強いよ。<br><br>本人をつれて来て、七草よせでもして払わなければ」と言っていたそうです。<br><br>先生は、「気違のほとんどは狐ですね。<br><br>御浄霊で霊体のくもりがとれれば、狐もついておれないで離れますよ、そしてなおるんですよ。<br><br>だから何も脳病院なんかにとじこめて苦しめる必要はないんです」と付添いの人々に教えてくれたそうです。<br><br>又「馬鹿は寒中裸になっても滅多に風邪を引かないようです。<br><br>どんなものを食べても腹をこわして下痢するという事もないようですね。<br><br>もし下痢したり、風邪を引くようになったらしめたものですよ、まず治りますネ。<br><br>康さんも御浄霊頂いている中に下痢するようになるかも知れませんから、そうなっても心配しないで下さい。<br><br>なおって来た事ですから反って喜んで下さい」と力強く教えて下さったそうです。<br><br>次の日も、又その次の日も御浄霊に通いました。<br><br>その度に馬鹿力を出しては暴れ、わけのわからないことをどなっては騒ぎ、先生方をはじめ付添の方々をもさんざん困らしたとの事です。<br><br>ある時は余り暴れて大の男が五、六人がかりでも押え切れなかったとの事でした。<br><br>その私が御浄霊三、四回目頃から大量の下痢をするようになりました。<br><br>それからは何となく物事が分って来たような感じがして来るのでした。<br><br>支部に御浄霊に来た翌日教修会が開かれておりましたので、兄が早速教修を受けお守様をおさずけ頂き、家へ帰っては一生懸命私を御浄霊して下さいました。<br><br>御浄霊頂いてより約一週間ばかりで正気の人間にならせて頂きました。<br><br>堂に入ってとても治るまいと言われた私が、救世教によってこんなにも早くお救い頂くとは全く夢のような気がして、ただただ有難涙にむせぶのみでありました。<br><br>一週間目に正気に還った私が御礼参りに支部に上った時は、みんな吃驚しておりました。<br><br>私の家は貧乏で、その日暮しの有様でありましたが、何とかして絶対の有難いお守様を頂きたいものと正気に還った健康体で毎日毎日仕事に励みました。<br><br>御守護により間もなく教修も受けられ、絶対力のお守様をお授け頂きました。<br><br>それからも数々の大きな奇蹟を頂き、本当に心配のない毎日を送らせて頂いております。<br><br>本当に果報者の私です。<br><br>ある時は仕事の帰りに、道具を積んでトロッコで来ましたが、途中で車が急停車して十八人乗っていた人が十七人もそれぞれ重軽傷をおいました。<br><br>私だけがカスリ傷一つおわず、安全な場所にチャンと立っているではありませんか。<br><br>全く自分でも不思議でたまりませんでした。<br><br>又、学校の高い所の壁を塗っている時でしたが丈余もある高い足場に壁土と道具をのせて、今や塗らんとした時足場の縄が切れて足場が解体し、道具も壁土も一瞬に落ちてしまったのですが、私は二階の窓枠に無意識の中に掴まっておったのでした。<br><br>又足場の真下で仕事をしていた兄も余り一瞬の出来事だったにもかかわらずその場をさけて助かったのです。<br><br>気違を治して頂き、入信さして頂き、しかもその上生命にかかわるような数多の危難からこうして無事に救って頂いている私達であります。<br><br>「明主様」とお念じすれば大きな奇蹟によってお救い頂ける私達救世教の信者であります。<br><br> この御恩は明主様の地上天国建設の御手伝させて頂く事によってお報いさして頂きたいと思っております。<br><br> （昭和二十七年五月十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura da Insanidade em Uma Semana e o Milagre que me Salvou de Acidentes (Salvar a América)</h2>
 <p>Publicado em 1º de janeiro de 1953
@@ -108,5 +263,48 @@ Yasushi Nakazawa (20 anos)</p>
 <p>Em outra ocasião, eu estava sobre um andaime a uma altura considerável, aplicando reboco em uma parede. Tinha acabado de colocar a argamassa e as ferramentas sobre a plataforma quando as cordas se romperam. O andaime desmoronou, e tudo despencou em um instante. Contudo, eu, de forma inconsciente, havia me agarrado ao parapeito de uma janela do segundo andar. Meu irmão, que trabalhava exatamente abaixo do andaime, também se salvou, apesar da rapidez do ocorrido.</p>
 <p>Nós, que fomos curados da insanidade, que recebemos a graça de ingressar na fé e que, ademais, somos constantemente salvos de tantos perigos que ameaçam nossa vida, somos a prova viva dessa proteção. Nós, fiéis da Sekaikyuseikyou, sabemos que, ao mentalizarmos o nome de Meishu-Sama, somos salvos por meio de grandiosos milagres.</p>
 <p>Desejo retribuir esta imensa graça dedicando-me a servir como um instrumento na Obra de Construção do Paraíso Terrestre de Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 気違、一週間で癒え事故にもこの奇蹟 『アメリカを救う』昭和28(1953)年1月1日発行 秋田県 十光中教会 仲沢 康（20） 私が狐に憑かれ「堂に入った気違」とまで言われ、「まだ若いのに可哀相に」と言われた程でありました。<br/><br/>普通は脳病院に入れられてしまうところでありましたが、従兄の武田さんの奨めで、馬鹿でも簡単に治る救世教で僅か一週間位で救われたのであります。<br/><br/>気違当時のことはどんな言動をとったかは全然分りませんので、親兄弟や親戚の方々から聞いて、当時の模様をここに発表させて頂き、あの当時の私のような状態にある人々に一日も早く一人でも多く正常にかえって頂き、又救世教では奇蹟でどんな病気や災害からも救われるという事を、声を大にして叫びたいのであります。<br/><br/> 私は左官をやっておりますので毎日隣町の師匠のところへ行って仕事をしておりましたが、昭和二十五年十月の初め頃だったのです。<br/><br/>仕事が終って家へ帰りましたが買ったばかりの私の自転車がないのに気がつき、早速駐在署へ届け出たのです。<br/><br/>巡査は「ただ今の出来事だったら盗んだ奴はまだそこらをうろついているかも知れないから直ぐに手配して探そう」と言って電話で方々へ手配されました。<br/><br/>ところがその自転車が師匠の家に朝おいたままになっていたとの事です。<br/><br/>私は自転車に乗って帰り、途中扇田新道で泥棒に盗られたとテッキリ思い込んでおったのです。<br/><br/>その時からすっかり頭が変になっておったのでした。<br/><br/>この事が『北鹿新聞』にも嘲笑的記事になって載ったとの事でした。<br/><br/>家の人は「康のために世間の人に顔向けが出来ない」と言って気まずい数日を過したとの事です。<br/><br/>それからは言う事なす事がトンチンカンで本当ではなかったのです。<br/><br/>世間の人は「康も可哀相に堂に入ったのでは中々治らないネ、まだ若いのになア」と同情してくれたそうです。<br/><br/>家の人や親戚一同が非常に心配して方々のイタコ（巫女）やゴミソ（占師）に行って拝んでもらったそうですが、一向にラチがあかないのです。<br/><br/> 金のある親戚は、「こうしておってはいけないから大学病院に行ってよく診てもらい、電気をかけてもらえば治るそうだよ」とすすめてくれるのです。<br/><br/>「金がなければ貸すから」と言ってくれるのです。<br/><br/>「神様も神様だが、医者にも見せなければ」と言うので公立大館病院に連れて行かれました。<br/><br/>ところが「つける薬はないから」と言われ、ていよく帰されたのです。<br/><br/>親戚の人々の相談で、弘前の大学病院に行く事に大体話が決った時でした。<br/><br/>従兄の武田さんが、「弘前へ行く事もよいが、私達の入っている救世教は、馬鹿でも何でもよく治りますから、一度小館花の支部に行って先生によく診てもらったらどうですか」とすすめて下さいました。<br/><br/>中にはそれに反対する親戚もありましたが、「もし救世教でも治らない時は弘前へ行く事にして、小館花町に行ってみよう」という事になり、五、六人に連れられて小館花町の支部へ参りました。<br/><br/>武田さんが前もって先生に事情を話してくれておったので早速御神前でお浄霊頂く事になったのです。<br/><br/>鈴木先生が大光明如来様の前で祝詞を奏げられ、霊査をして下さいました。<br/><br/>その時私は逆立ちしてひっくりかえったそうです。<br/><br/>又わけのわからないドドドーと言う馬鹿声を出したり、気味の悪い変な眼つきで、先生をにらんだりしたそうです。<br/><br/>先生は私の母をかいして霊を確めたそうですが、狐と猫が邪魔しているとの事でした。<br/><br/>方々の神様も「年功の深い狐が三匹も憑いているから、中々手強いよ。<br/><br/>本人をつれて来て、七草よせでもして払わなければ」と言っていたそうです。<br/><br/>先生は、「気違のほとんどは狐ですね。<br/><br/>御浄霊で霊体のくもりがとれれば、狐もついておれないで離れますよ、そしてなおるんですよ。<br/><br/>だから何も脳病院なんかにとじこめて苦しめる必要はないんです」と付添いの人々に教えてくれたそうです。<br/><br/>又「馬鹿は寒中裸になっても滅多に風邪を引かないようです。<br/><br/>どんなものを食べても腹をこわして下痢するという事もないようですね。<br/><br/>もし下痢したり、風邪を引くようになったらしめたものですよ、まず治りますネ。<br/><br/>康さんも御浄霊頂いている中に下痢するようになるかも知れませんから、そうなっても心配しないで下さい。<br/><br/>なおって来た事ですから反って喜んで下さい」と力強く教えて下さったそうです。<br/><br/>次の日も、又その次の日も御浄霊に通いました。<br/><br/>その度に馬鹿力を出しては暴れ、わけのわからないことをどなっては騒ぎ、先生方をはじめ付添の方々をもさんざん困らしたとの事です。<br/><br/>ある時は余り暴れて大の男が五、六人がかりでも押え切れなかったとの事でした。<br/><br/>その私が御浄霊三、四回目頃から大量の下痢をするようになりました。<br/><br/>それからは何となく物事が分って来たような感じがして来るのでした。<br/><br/>支部に御浄霊に来た翌日教修会が開かれておりましたので、兄が早速教修を受けお守様をおさずけ頂き、家へ帰っては一生懸命私を御浄霊して下さいました。<br/><br/>御浄霊頂いてより約一週間ばかりで正気の人間にならせて頂きました。<br/><br/>堂に入ってとても治るまいと言われた私が、救世教によってこんなにも早くお救い頂くとは全く夢のような気がして、ただただ有難涙にむせぶのみでありました。<br/><br/>一週間目に正気に還った私が御礼参りに支部に上った時は、みんな吃驚しておりました。<br/><br/>私の家は貧乏で、その日暮しの有様でありましたが、何とかして絶対の有難いお守様を頂きたいものと正気に還った健康体で毎日毎日仕事に励みました。<br/><br/>御守護により間もなく教修も受けられ、絶対力のお守様をお授け頂きました。<br/><br/>それからも数々の大きな奇蹟を頂き、本当に心配のない毎日を送らせて頂いております。<br/><br/>本当に果報者の私です。<br/><br/>ある時は仕事の帰りに、道具を積んでトロッコで来ましたが、途中で車が急停車して十八人乗っていた人が十七人もそれぞれ重軽傷をおいました。<br/><br/>私だけがカスリ傷一つおわず、安全な場所にチャンと立っているではありませんか。<br/><br/>全く自分でも不思議でたまりませんでした。<br/><br/>又、学校の高い所の壁を塗っている時でしたが丈余もある高い足場に壁土と道具をのせて、今や塗らんとした時足場の縄が切れて足場が解体し、道具も壁土も一瞬に落ちてしまったのですが、私は二階の窓枠に無意識の中に掴まっておったのでした。<br/><br/>又足場の真下で仕事をしていた兄も余り一瞬の出来事だったにもかかわらずその場をさけて助かったのです。<br/><br/>気違を治して頂き、入信さして頂き、しかもその上生命にかかわるような数多の危難からこうして無事に救って頂いている私達であります。<br/><br/>「明主様」とお念じすれば大きな奇蹟によってお救い頂ける私達救世教の信者であります。<br/><br/> この御恩は明主様の地上天国建設の御手伝させて頂く事によってお報いさして頂きたいと思っております。<br/><br/> （昭和二十七年五月十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

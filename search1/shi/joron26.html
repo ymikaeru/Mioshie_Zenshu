@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>joron26</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 未発表『医学革命の書』昭和28(1953)年執筆 人類は今日まで実に恐るべき過誤を犯して来た。<br><br>恐らくこれほど大きな誤算はあるまい。<br><br>それは何かというと医学である。<br><br>何しろ人間にとっての最も貴重なる生命を、保持するものとしての重要な存在であるからである。<br><br>しかるにこれが前記のごとしとすれば、これ以上の大問題はあるまい。<br><br>従って現在文化の素晴しい進歩によって、人間に与えられているところの、礼讃し感謝しても尽し切れない程の福祉も、この医学によってその功績を抹殺しても、なお余りあるくらいである。<br><br>ところがこれほどの誤りを今日まで気付かなかったという事は、実に不可解というべきである。<br><br>ところが神の大愛はいつまでもそれを許されるはずはない。<br><br>ここに医学の蒙を啓くべく、断乎（だんこ）としてその手段を執（と）られ始めた。<br><br>すなわち医学の革命である。<br><br> 昔から革命と名の付くものは幾度かあったが、それは一国家、一民族、もしくは一時代、一思想といったように限られていたが、今私が行わんとするこの医学革命に至っては、全人類の生命を永遠に救うという、その福祉の大きい事は、破天荒（はてんこう）といっていいか、画期的といっていいか、言葉では現わす事は不可能であろう。<br><br>要するに神は全人類苦悩の根本である医学の過誤に目醒めさせるべく、私に対しそれに必要な智慧と力を与えられたのであって、この事こそ真理の具現であり、救いの基本的条件である。<br><br>ところが人類は何千年間にわたって真理を知らなかった。<br><br>否神はある事情によって知らせなかったのである。<br><br>しかしいよいよ天の時到ってここに真理を知らせ、文明転換という史上空前の偉業は開幕されたのである。<br><br>これこそキリストのいった「世の終り」であり、「最後の審判」であり、世界的大清算である。<br><br> この時に際して、神の大慈悲は今やこの渦中に巻込まれ、溺（おぼ）れんとする最大多数の生命を救わんとするのである。<br><br>もちろんこの大清算こそ、既成文明の欠陥を明らかにし、真の文明のあり方を教え、神の大目的たる理想世界を実現せられるのである。<br><br>これもキリストのいった「天国」、釈尊のいった「弥勒の世」、本教のモットーである「病貧争絶無の世界」であり、その根本こそ何といっても人類から病を無くす事である。<br><br> 以上のごとく私は、古往今来夢想だもしなかった大胆極まる宣言をするのであって、これは神言である以上、一点の誤りはないのである。<br><br>この意味において本著を精読するや、ここに豁然（かつぜん）として目覚むるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Alvorada da Revolução Médica</h2>
 <p>Até os dias de hoje, a humanidade tem incorrido em um equívoco verdadeiramente assombroso; talvez não exista, em toda a sua história, erro de cálculo de tamanha magnitude. Refiro-me à medicina. Sua importância é inegável, pois constitui o pilar que sustenta a vida, o bem mais precioso do ser humano. Se, contudo, essa mesma medicina estiver fundamentalmente equivocada, como afirmo, não há, por conseguinte, questão de maior gravidade. Nesse sentido, mesmo os admiráveis avanços da cultura contemporânea, que nos proporcionam um bem-estar pelo qual toda reverência e gratidão seriam insuficientes, têm seus méritos completamente anulados — e em muito superados — pela falha colossal da prática médica. O fato de um erro de tamanhas proporções ter passado despercebido até agora é, deveras, inexplicável.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Em essência, para despertar a humanidade para o erro da medicina — a causa primordial de todo o seu sofrimento —, Deus outorgou-me a sabedoria e a força necessárias para essa missão. Este fato constitui a própria materialização da Verdade e a condição fundamental para a salvação. Durante milênios, os seres humanos desconheceram a Verdade. Não; a bem dizer, foi Deus quem, por uma razão particular, não a revelou. Agora, porém, chegada a Hora Divina, a Verdade finalmente se manifesta, e assim se inaugura a transição da civilização, o maior feito já registrado na história. Isto é o que Cristo denominou "o fim dos tempos" e o "Juízo Final", e corresponde a uma grande purificação em escala mundial.</p>
 <p>Diante de tal conjuntura, a imensa compaixão de Deus se manifesta para salvar a maioria esmagadora das vidas que, arrastadas para o epicentro deste turbilhão, estão prestes a se afogar. Evidentemente, essa grande purificação tem por finalidade expor as falhas da civilização vigente, ensinar os preceitos de uma civilização verdadeira e, assim, concretizar o supremo objetivo divino: a construção do Mundo Ideal. Este corresponde ao "Reino dos Céus" de Cristo, ao "Mundo de Miroku" de Sakyamuni e ao lema de nossa fé: "um mundo isento de doença, pobreza e conflito". O alicerce para tanto é, inequivocamente, a erradicação da doença do seio da humanidade.</p>
 <p>Assim, conforme o exposto, faço aqui uma declaração de uma audácia jamais sonhada em toda a história. E, por se tratar da Palavra de Deus, nela não há o mais ínfimo erro. Nesse sentido, ao lerem esta obra com a devida atenção, os senhores decerto despertarão para a verdade com absoluta clareza.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 未発表『医学革命の書』昭和28(1953)年執筆 人類は今日まで実に恐るべき過誤を犯して来た。<br/><br/>恐らくこれほど大きな誤算はあるまい。<br/><br/>それは何かというと医学である。<br/><br/>何しろ人間にとっての最も貴重なる生命を、保持するものとしての重要な存在であるからである。<br/><br/>しかるにこれが前記のごとしとすれば、これ以上の大問題はあるまい。<br/><br/>従って現在文化の素晴しい進歩によって、人間に与えられているところの、礼讃し感謝しても尽し切れない程の福祉も、この医学によってその功績を抹殺しても、なお余りあるくらいである。<br/><br/>ところがこれほどの誤りを今日まで気付かなかったという事は、実に不可解というべきである。<br/><br/>ところが神の大愛はいつまでもそれを許されるはずはない。<br/><br/>ここに医学の蒙を啓くべく、断乎（だんこ）としてその手段を執（と）られ始めた。<br/><br/>すなわち医学の革命である。<br/><br/> 昔から革命と名の付くものは幾度かあったが、それは一国家、一民族、もしくは一時代、一思想といったように限られていたが、今私が行わんとするこの医学革命に至っては、全人類の生命を永遠に救うという、その福祉の大きい事は、破天荒（はてんこう）といっていいか、画期的といっていいか、言葉では現わす事は不可能であろう。<br/><br/>要するに神は全人類苦悩の根本である医学の過誤に目醒めさせるべく、私に対しそれに必要な智慧と力を与えられたのであって、この事こそ真理の具現であり、救いの基本的条件である。<br/><br/>ところが人類は何千年間にわたって真理を知らなかった。<br/><br/>否神はある事情によって知らせなかったのである。<br/><br/>しかしいよいよ天の時到ってここに真理を知らせ、文明転換という史上空前の偉業は開幕されたのである。<br/><br/>これこそキリストのいった「世の終り」であり、「最後の審判」であり、世界的大清算である。<br/><br/> この時に際して、神の大慈悲は今やこの渦中に巻込まれ、溺（おぼ）れんとする最大多数の生命を救わんとするのである。<br/><br/>もちろんこの大清算こそ、既成文明の欠陥を明らかにし、真の文明のあり方を教え、神の大目的たる理想世界を実現せられるのである。<br/><br/>これもキリストのいった「天国」、釈尊のいった「弥勒の世」、本教のモットーである「病貧争絶無の世界」であり、その根本こそ何といっても人類から病を無くす事である。<br/><br/> 以上のごとく私は、古往今来夢想だもしなかった大胆極まる宣言をするのであって、これは神言である以上、一点の誤りはないのである。<br/><br/>この意味において本著を精読するや、ここに豁然（かつぜん）として目覚むるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

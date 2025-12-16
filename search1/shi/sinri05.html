@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinri05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理は簡単だ 阿呆文学 『栄光』87号、昭和26(1951)年1月17日発行 真理なんかっていうと、恐ろしく七難（しちむずか）しいように思い、額に八の字を寄せ、苦虫を踏〔噛〕み潰したような面（つら）で、考えなければならないように思うであろうが、それは大違いだ。<br><br>というのは難しく考えるから難しいんで、易しく考えれば何でもないんだよ。<br><br>だからそのつもりで簡単に考えると、いとも簡単に判るんだ。<br><br> 人間が飯を食って、お茶を呑んで、空気を吸って、何だかんだと文句を言って、糞小便を垂れて、それでともかく生きている。<br><br>これが真理なんだ。<br><br>というとあわて者は「オイッ、馬鹿にするにも程がある、そんな屁みたいな理屈が、真理などとは馬鹿にするのも程がある」と言ってムクれるかも知れないが、こちらでも負けてはいないよ、へン、どちらが馬鹿にしているか、マー耳の穴をカッ穿（ぽじ）って、拙者の言う事をよく聞いてみな、お前達は何でもかんでも難しく難しく考えるから判らないんでアップアップ苦しむんだよ、だから可哀想で見ちゃあおれんから、いよいよ拙者の虎の巻を展げてやるから、気絶しないよう気を付けろ。<br><br> 今、人間共が一番苦しんでいるのは、言わずと知れた病気という奴だろう。<br><br>まず人間共はチョット病気に罹ると、ヤレ薬だ、ソレ注射だ、手術だとぬかして治そうとする、酷いのになると万物の霊長様を鮒か鯉のようにまな板の上へ乗せ、庖丁片手に穴を穿けたり、骨や肉を切ったり、血みどろにして病気を取出すんじゃない、天から授かった大切な臓器を掴み出すんだから、何とムゴイ話じゃ御座らぬか、なるほど命が助かるためなら我慢もしようが、仲々お誂え通りにはゆかない。<br><br>なぜかといえば、そこに底があるんだ、といってウッカリ喋舌（しゃべ）ろうもんなら、こいつ怪しからんといって憎まれたり、怒られたりするから、危くってビクビクものだよ、と言って言わなきゃ人間共が苦しむんだから、マァー要領よく、チョッピリばかりかくとしようよ。<br><br> 一体全体、人間という代物は誰が作ったんで御座んしょうかだ。<br><br>今仮にこの事を大勢に訊いてみよう。<br><br>すると大抵の奴、答に間誤つくだろう。<br><br>それで仕方がないから、当節流行の投票とやらで、点数を採ってみるんだ。<br><br>するとまずこんな具合だろう、判らないという人が八十点、判るという人が二十点くらいだろう。<br><br>そこで判るという御仁に訊いてみると、造物主という神様が造ったというに違いない。<br><br>無論人間が科学的に機械で造ったという御方は一人もあるまい、してみると科学で造ったものでない代物を、科学で直そうとするんだから、およそ無理では御座らぬか。<br><br>マサカ自動車が壊れたんじゃあるまいし、機械や油じゃ駄目に決っているよ。<br><br>ではどうすればいいかというと、言うには及ぶで、神様が造った品物なら、とこらヤッパリ神様に御願い申すより外に、治る訳がないじゃ御座んすまいか、ところがこれにお気が付かないんだから、人間様の頭もチトどうかしていると言いたいよ。<br><br> だから拙者等が病気を治そうとすると、実によく治る、みんな吃驚（びっくり）して目の玉をキョロキョロさせる、最新とやらの科学療法で治らない病人が、ドシドシ治るんだから、不思議だ不思議だと言うが、ドッコイ不思議でも何でも御座らぬ。<br><br>人間を造ったお方に治して頂くんだから、治るのは当り前で治らないのが不思議だよ。<br><br> 次に、話は別だが、今拙者等がやっている自然農法だ。<br><br>肥料をやらない程、米でも麦でも野菜でもウンと穫れるんだから、百姓君は目のクリ玉をデングリ返えして吃驚するんだ。<br><br>だが仲々分らない。<br><br>いわく「ソゲーナ、馬鹿な事がこの世の中にあってたまるもんケー、デー一人間だって飯を食わなきゃ生きていられねえじゃねえか、作物だって同じコンだ、肥料は作物の米の飯なんだから、これをやらなけりゃオッちんじまうに決っているのでがすよ、だから儂等（わしら）はソゲーナ馬鹿な事は出来るもんじゃねえんだ」と仰言（おっしゃ）るんだ。<br><br>なるほどごもっとも千万で御座るが、ここでチョッピリ考えて貰いたい事がある。<br><br>一体土というものは何のために誰が作ったのかという事だ、これも人間様と同様、造物主という神様が御造りになったものには違いないんだから、人間共が食うだけの品物はチャンと育つように出来ているんだよ。<br><br>これもヤッパリ真理なんだから仕方がないんだ。<br><br>だから余計な事をしないで、土だけに委せておけば、人間共がいくら増えてもチットも困りゃしないんだよ。<br><br>何と結構に出来ているでは御座らぬか、だから百姓君の言うような作物の食い物は、糞や毒薬や小便粕のようなものじゃないんだ。<br><br>お土という結構なものが作物にとっては何よりの御馳走で、土程美味しいものはないんで、土は肥料の塊なんだよ、ところが馬鹿なのは人間共だ、奇麗な美味しい土を食わせないで、汚い不味（まず）い色々な変なものを食わせようとするんだから、土も作物も糞面白くもねえと言って、怠けてしまうんだ、だから人間が生きるだけの食物が穫れないのは当り前だよ。<br><br>そこで仕方がないから、人の国で出来たものを分けて貰って、ようやく命を繋いでいる有様だから、豊葦原（とよあしはら）の瑞穂（みずほ）の国も何と情ない事になったんでは御座らぬか、恐らく世の中にこんな骨折り損の草臥（くたびれ）儲けの安本丹（あんぽんたん）はあるまい。<br><br>それにお気が付きそうなものだが、人間余ッ程頭が空ッポになったと見えて、今もってお気が付かないんだから、流石（さすが）の神様も捨ててはおけぬ、助けてやれとの思召（おぼしめし）から、この拙者に御命令が下ったので、拙者もあの手この手で、今一生懸命目醒ましをやっているんだよ。<br><br>貴い肉体を下さった神様に、こんな余計な御手数を掛けるんだから、実にもったいない話じゃないか。<br><br> さて、余り長くなるから、このくらいにしておくが、右の通り病気でも、農作物でも、ワザワザ余計な手数を掛けて、命を失くしたり、食い物を穫れなくしたりして、年中ブツブツ愚痴ばかりホザイている人間共を、見ちゃいられないんだ。<br><br>だがこれもみんな真理に外れているんだから、自業自得と言いたいが、それじゃあんまり可哀想だから、ここに真理というものをかいたんだ、だからこれを読んでよくよく肚の中へ叩っこんで、一日も早く実行する事だよ。<br><br>そうしたなら有難くて涙がこぼれる程よくなるんだ。<br><br>ドージャ、判ったか、虫ケラじゃない、人間共よ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade é Simples</h2>
 <p>Quando se fala em Verdade, muitos imaginam algo terrivelmente complexo, que exige franzir a testa e adotar uma expressão de quem engoliu algo amargo para poder compreendê-la. Contudo, isso é um grande engano. A Verdade se torna complexa porque a concebemos assim; se a pensarmos com simplicidade, ela se revela com a maior facilidade.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>O argumento parece, à primeira vista, bastante sensato. No entanto, proponho aqui uma breve reflexão. Para que finalidade o solo foi criado, e por quem? Assim como o homem, ele também é uma obra do Criador. O solo foi concebido para que dele brote o sustento necessário a todos os seres humanos, não importa quantos sejamos. Esta também é a Verdade, e nada pode alterá-la. Portanto, se o deixássemos atuar livremente, jamais haveria escassez. Que sistema perfeito! O verdadeiro alimento das plantas não são excrementos, venenos ou resíduos de urina. O próprio solo é o mais sublime dos banquetes; ele é, em si, a essência do fertilizante. Mas a insensatez humana é tamanha que, em vez de oferecer o solo puro e nutritivo, insiste em alimentar as plantas com substâncias impuras, desagradáveis e de toda sorte. Diante disso, o solo e as culturas perdem o interesse e se entregam à inércia. É natural, pois, que as colheitas sejam insuficientes. Como consequência, vemo-nos na condição de depender de alimentos importados de outras nações para sobreviver. Que triste destino para a nação outrora conhecida como a “Terra das Planícies de Juncos Exuberantes e das Espigas de Arroz Viçosas”! Certamente não há no mundo tolo maior do que aquele que tanto se esforça para colher apenas cansaço. Era de se esperar que percebessem o erro, mas, vendo que as mentes humanas se tornaram ocas, o próprio Deus, não podendo mais tolerar tal situação, conferiu-me a missão de despertá-las. Por isso, de todas as formas possíveis, empenho-me incansavelmente nesta tarefa. É lamentável que façamos Deus ter tanto trabalho por nós, que Dele recebemos um corpo tão sagrado.</p>
 <p>Para não me estender em demasia, concluo por aqui. É penoso observar os seres humanos que, tanto na saúde quanto na agricultura, insistem em trilhar caminhos trabalhosos e desnecessários que resultam na perda da vida e do alimento, passando os dias a murmurar queixas. Tudo isso decorre do afastamento da Verdade, sendo, portanto, um infortúnio autoinfligido. Mas como seria cruel dizer apenas isso, decidi escrever sobre a Verdade. Leiam estas palavras, assimilem-nas profundamente em seu ser e ponham-nas em prática o mais rápido possível. Se o fizerem, suas vidas melhorarão a ponto de verterem lágrimas de gratidão.</p>
 <p>Então? Compreenderam, ó seres humanos? Não sois meros insetos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理は簡単だ 阿呆文学 『栄光』87号、昭和26(1951)年1月17日発行 真理なんかっていうと、恐ろしく七難（しちむずか）しいように思い、額に八の字を寄せ、苦虫を踏〔噛〕み潰したような面（つら）で、考えなければならないように思うであろうが、それは大違いだ。<br/><br/>というのは難しく考えるから難しいんで、易しく考えれば何でもないんだよ。<br/><br/>だからそのつもりで簡単に考えると、いとも簡単に判るんだ。<br/><br/> 人間が飯を食って、お茶を呑んで、空気を吸って、何だかんだと文句を言って、糞小便を垂れて、それでともかく生きている。<br/><br/>これが真理なんだ。<br/><br/>というとあわて者は「オイッ、馬鹿にするにも程がある、そんな屁みたいな理屈が、真理などとは馬鹿にするのも程がある」と言ってムクれるかも知れないが、こちらでも負けてはいないよ、へン、どちらが馬鹿にしているか、マー耳の穴をカッ穿（ぽじ）って、拙者の言う事をよく聞いてみな、お前達は何でもかんでも難しく難しく考えるから判らないんでアップアップ苦しむんだよ、だから可哀想で見ちゃあおれんから、いよいよ拙者の虎の巻を展げてやるから、気絶しないよう気を付けろ。<br/><br/> 今、人間共が一番苦しんでいるのは、言わずと知れた病気という奴だろう。<br/><br/>まず人間共はチョット病気に罹ると、ヤレ薬だ、ソレ注射だ、手術だとぬかして治そうとする、酷いのになると万物の霊長様を鮒か鯉のようにまな板の上へ乗せ、庖丁片手に穴を穿けたり、骨や肉を切ったり、血みどろにして病気を取出すんじゃない、天から授かった大切な臓器を掴み出すんだから、何とムゴイ話じゃ御座らぬか、なるほど命が助かるためなら我慢もしようが、仲々お誂え通りにはゆかない。<br/><br/>なぜかといえば、そこに底があるんだ、といってウッカリ喋舌（しゃべ）ろうもんなら、こいつ怪しからんといって憎まれたり、怒られたりするから、危くってビクビクものだよ、と言って言わなきゃ人間共が苦しむんだから、マァー要領よく、チョッピリばかりかくとしようよ。<br/><br/> 一体全体、人間という代物は誰が作ったんで御座んしょうかだ。<br/><br/>今仮にこの事を大勢に訊いてみよう。<br/><br/>すると大抵の奴、答に間誤つくだろう。<br/><br/>それで仕方がないから、当節流行の投票とやらで、点数を採ってみるんだ。<br/><br/>するとまずこんな具合だろう、判らないという人が八十点、判るという人が二十点くらいだろう。<br/><br/>そこで判るという御仁に訊いてみると、造物主という神様が造ったというに違いない。<br/><br/>無論人間が科学的に機械で造ったという御方は一人もあるまい、してみると科学で造ったものでない代物を、科学で直そうとするんだから、およそ無理では御座らぬか。<br/><br/>マサカ自動車が壊れたんじゃあるまいし、機械や油じゃ駄目に決っているよ。<br/><br/>ではどうすればいいかというと、言うには及ぶで、神様が造った品物なら、とこらヤッパリ神様に御願い申すより外に、治る訳がないじゃ御座んすまいか、ところがこれにお気が付かないんだから、人間様の頭もチトどうかしていると言いたいよ。<br/><br/> だから拙者等が病気を治そうとすると、実によく治る、みんな吃驚（びっくり）して目の玉をキョロキョロさせる、最新とやらの科学療法で治らない病人が、ドシドシ治るんだから、不思議だ不思議だと言うが、ドッコイ不思議でも何でも御座らぬ。<br/><br/>人間を造ったお方に治して頂くんだから、治るのは当り前で治らないのが不思議だよ。<br/><br/> 次に、話は別だが、今拙者等がやっている自然農法だ。<br/><br/>肥料をやらない程、米でも麦でも野菜でもウンと穫れるんだから、百姓君は目のクリ玉をデングリ返えして吃驚するんだ。<br/><br/>だが仲々分らない。<br/><br/>いわく「ソゲーナ、馬鹿な事がこの世の中にあってたまるもんケー、デー一人間だって飯を食わなきゃ生きていられねえじゃねえか、作物だって同じコンだ、肥料は作物の米の飯なんだから、これをやらなけりゃオッちんじまうに決っているのでがすよ、だから儂等（わしら）はソゲーナ馬鹿な事は出来るもんじゃねえんだ」と仰言（おっしゃ）るんだ。<br/><br/>なるほどごもっとも千万で御座るが、ここでチョッピリ考えて貰いたい事がある。<br/><br/>一体土というものは何のために誰が作ったのかという事だ、これも人間様と同様、造物主という神様が御造りになったものには違いないんだから、人間共が食うだけの品物はチャンと育つように出来ているんだよ。<br/><br/>これもヤッパリ真理なんだから仕方がないんだ。<br/><br/>だから余計な事をしないで、土だけに委せておけば、人間共がいくら増えてもチットも困りゃしないんだよ。<br/><br/>何と結構に出来ているでは御座らぬか、だから百姓君の言うような作物の食い物は、糞や毒薬や小便粕のようなものじゃないんだ。<br/><br/>お土という結構なものが作物にとっては何よりの御馳走で、土程美味しいものはないんで、土は肥料の塊なんだよ、ところが馬鹿なのは人間共だ、奇麗な美味しい土を食わせないで、汚い不味（まず）い色々な変なものを食わせようとするんだから、土も作物も糞面白くもねえと言って、怠けてしまうんだ、だから人間が生きるだけの食物が穫れないのは当り前だよ。<br/><br/>そこで仕方がないから、人の国で出来たものを分けて貰って、ようやく命を繋いでいる有様だから、豊葦原（とよあしはら）の瑞穂（みずほ）の国も何と情ない事になったんでは御座らぬか、恐らく世の中にこんな骨折り損の草臥（くたびれ）儲けの安本丹（あんぽんたん）はあるまい。<br/><br/>それにお気が付きそうなものだが、人間余ッ程頭が空ッポになったと見えて、今もってお気が付かないんだから、流石（さすが）の神様も捨ててはおけぬ、助けてやれとの思召（おぼしめし）から、この拙者に御命令が下ったので、拙者もあの手この手で、今一生懸命目醒ましをやっているんだよ。<br/><br/>貴い肉体を下さった神様に、こんな余計な御手数を掛けるんだから、実にもったいない話じゃないか。<br/><br/> さて、余り長くなるから、このくらいにしておくが、右の通り病気でも、農作物でも、ワザワザ余計な手数を掛けて、命を失くしたり、食い物を穫れなくしたりして、年中ブツブツ愚痴ばかりホザイている人間共を、見ちゃいられないんだ。<br/><br/>だがこれもみんな真理に外れているんだから、自業自得と言いたいが、それじゃあんまり可哀想だから、ここに真理というものをかいたんだ、だからこれを読んでよくよく肚の中へ叩っこんで、一日も早く実行する事だよ。<br/><br/>そうしたなら有難くて涙がこぼれる程よくなるんだ。<br/><br/>ドージャ、判ったか、虫ケラじゃない、人間共よ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

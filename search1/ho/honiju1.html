@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honiju1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本医術と既存医術 『天国の福音』昭和22(1947)年2月5日発行 前項までにおいて個々の病気に対し概略解説したが、それ以外のあらゆる病気については類推すれば大体は判る筈である。<br><br>本来病気なるものは一定型的ではなく、万人が万人面貌の異なるがごとくことごとく多少は異なるものである。<br><br>例えば肺患といえども結核あり壊疽（えそ）あり気腫あり浸潤あり肺炎あり、また単に結核にしても各人それぞれその症状経過も同じではない。<br><br>もちろんその理由としては体質、性格、環境、治療法の種類、過程、薬用の多寡等にもよるからである。<br><br>以上のごとくであるから、治療の上においても、診査の場合病原探求が主要条件で、いわゆる急所を衝（つ）く事である。<br><br>急所を外れる場合、施術をいかに努力するも効果は薄い訳である。<br><br>しからば病原発見はいかにすればいいかというに、それは主として叡智と経験とであり、これらの条件を練磨するには熱意と時日を要する事はもちろんで、そうする事によって漸次技能の向上が得らるるのである。<br><br> そうして本医術修得後一年位技能を練磨した者と、数十年間西洋医学を研鑚したる者とを比較する場合、その診断も技術も問題にならぬ程の差異を認めるのである。<br><br>何となれば有数なる病院または有名なる博士等によって不治と見なされたものが、本療法によってしかも一、二年の経験者によって全治せるもの日々無数にのぼる現状であるからである。<br><br>一言にして言えば、治る医術と治らない医術というも過言ではない。<br><br>また今一つ言うべき事がある。<br><br>それは本医術は新聞雑誌その他印刷物等によって決して宣伝しない事である。<br><br>その訳は宣伝の必要がないからである。<br><br>例えば患者があらゆる療法によって治癒せず、煩悶懊悩（はんもんおうのう）の際たまたま本医術を知って治療を受け全治または生命を救われた場合、感激と共に自己と同様の病患に苦しむものを看過出来ないからである。<br><br>従ってこれらの人に対し自己の体験を語る場合その言葉には力と生命がある。<br><br>百の新聞雑誌の宣伝よりも一人のその言葉は効果百パーセントであろう。<br><br>また病気全治者は本医術修得の意欲を起す事は当然であるから大抵は受講者となるのである。<br><br>かような順序によって本医術は今や非常な速度をもって日に月に発展拡充しつつある。<br><br>従ってその帰結としていずれの日かは既存医学の没落となる事は火をみるよりも明らかである。<br><br>もちろん真実ならざるものの辿（たど）るべき当然の運命でしかあるまい。<br><br>その後に来るものそれは実に人類の理想たる病無き世界の実現である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte Médica Divina e a Medicina Convencional</h2>
 <p>Nos artigos anteriores, dissertei de forma sucinta sobre enfermidades específicas. Contudo, as demais patologias podem ser compreendidas, em sua maioria, por analogia. Em sua essência, as doenças não se manifestam de forma padronizada; assim como os rostos de dez mil pessoas são distintos entre si, cada caso clínico apresenta suas particularidades. Por exemplo, no caso das afecções pulmonares, encontramos a tuberculose, a gangrena, o enfisema, a infiltração e a pneumonia. Mesmo no caso da tuberculose, os sintomas e a evolução do quadro clínico variam de pessoa para pessoa. Evidentemente, tais diferenças decorrem de múltiplos fatores, como a constituição física, a personalidade, o ambiente, o tipo e o andamento do tratamento, bem como a quantidade de medicamentos utilizados.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, ao compararmos um praticante que aprimorou sua técnica por aproximadamente um ano após aprender esta arte médica com um profissional que se dedicou por décadas à medicina ocidental, constatamos uma disparidade de diagnóstico e de habilidade simplesmente incomensurável. A razão para tal é que presenciamos, diariamente, inúmeros casos de pessoas desenganadas pelos mais renomados hospitais e médicos, que alcançam a cura completa por meio de nossa terapia, mesmo quando ministrada por praticantes com apenas um ou dois anos de experiência. Em suma, não seria exagero afirmar que se trata da diferença entre uma arte médica que cura e outra que não o faz.</p>
 <p>Há ainda outro ponto que merece ser mencionado: esta arte médica jamais recorre à publicidade em jornais, revistas ou qualquer outro meio impresso. A razão é simples: a propaganda é desnecessária. Imagine-se um paciente que, após esgotar todos os recursos terapêuticos sem sucesso e encontrar-se em profundo sofrimento e angústia, fortuitamente conhece esta arte, recebe o tratamento e obtém a cura completa ou tem sua vida salva. Transbordando de gratidão, essa pessoa torna-se incapaz de ignorar o sofrimento de outros que padecem do mesmo mal. Portanto, quando ela relata sua experiência, suas palavras possuem força e vida. O testemunho de uma única pessoa como essa tem, indubitavelmente, um efeito muito superior ao de centenas de anúncios em jornais e revistas.</p>
 <p>Ademais, é natural que aqueles que alcançam a cura completa sintam o desejo de aprender esta arte médica, tornando-se, em sua maioria, nossos discípulos. É dessa forma que a nossa arte vem se desenvolvendo e se expandindo em uma velocidade impressionante, dia após dia, mês após mês. Consequentemente, seu desfecho inevitável será, em um futuro próximo, a derrocada da medicina convencional — um fato mais claro do que a luz do dia. Trata-se, por certo, do destino natural reservado a tudo aquilo que não se alicerça na verdade. E o que virá depois será, em verdade, a concretização do ideal da humanidade: um mundo sem doenças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本医術と既存医術 『天国の福音』昭和22(1947)年2月5日発行 前項までにおいて個々の病気に対し概略解説したが、それ以外のあらゆる病気については類推すれば大体は判る筈である。<br/><br/>本来病気なるものは一定型的ではなく、万人が万人面貌の異なるがごとくことごとく多少は異なるものである。<br/><br/>例えば肺患といえども結核あり壊疽（えそ）あり気腫あり浸潤あり肺炎あり、また単に結核にしても各人それぞれその症状経過も同じではない。<br/><br/>もちろんその理由としては体質、性格、環境、治療法の種類、過程、薬用の多寡等にもよるからである。<br/><br/>以上のごとくであるから、治療の上においても、診査の場合病原探求が主要条件で、いわゆる急所を衝（つ）く事である。<br/><br/>急所を外れる場合、施術をいかに努力するも効果は薄い訳である。<br/><br/>しからば病原発見はいかにすればいいかというに、それは主として叡智と経験とであり、これらの条件を練磨するには熱意と時日を要する事はもちろんで、そうする事によって漸次技能の向上が得らるるのである。<br/><br/> そうして本医術修得後一年位技能を練磨した者と、数十年間西洋医学を研鑚したる者とを比較する場合、その診断も技術も問題にならぬ程の差異を認めるのである。<br/><br/>何となれば有数なる病院または有名なる博士等によって不治と見なされたものが、本療法によってしかも一、二年の経験者によって全治せるもの日々無数にのぼる現状であるからである。<br/><br/>一言にして言えば、治る医術と治らない医術というも過言ではない。<br/><br/>また今一つ言うべき事がある。<br/><br/>それは本医術は新聞雑誌その他印刷物等によって決して宣伝しない事である。<br/><br/>その訳は宣伝の必要がないからである。<br/><br/>例えば患者があらゆる療法によって治癒せず、煩悶懊悩（はんもんおうのう）の際たまたま本医術を知って治療を受け全治または生命を救われた場合、感激と共に自己と同様の病患に苦しむものを看過出来ないからである。<br/><br/>従ってこれらの人に対し自己の体験を語る場合その言葉には力と生命がある。<br/><br/>百の新聞雑誌の宣伝よりも一人のその言葉は効果百パーセントであろう。<br/><br/>また病気全治者は本医術修得の意欲を起す事は当然であるから大抵は受講者となるのである。<br/><br/>かような順序によって本医術は今や非常な速度をもって日に月に発展拡充しつつある。<br/><br/>従ってその帰結としていずれの日かは既存医学の没落となる事は火をみるよりも明らかである。<br/><br/>もちろん真実ならざるものの辿（たど）るべき当然の運命でしかあるまい。<br/><br/>その後に来るものそれは実に人類の理想たる病無き世界の実現である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bansi106</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ７ 106-126 龍神、邪神 106 天龍、金龍、銀龍について 天龍は天皇になる龍神。<br><br>金龍は国常立尊様、太陽、火。<br><br>銀龍は素盞嗚尊、月、水。<br><br>（S24. 4.23） 107 龍と支那、（神と龍） 日光東照宮や嵯峨天龍寺のように、神社仏閣ではよく天井に龍等の絵を描き、個人の家庭ではそんな事は御座居ませんが、天井絵には何か意味が御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 龍を非常に尊んだ風俗は支那から来た。<br><br>支那では何でも龍をつけた。<br><br>支那に龍あり、非常に力がある。<br><br>龍神を救ったりなどするには力がなくては出来ぬ。<br><br>であるから日蓮宗の行者は非常に怖がる。<br><br> 原因不明で頓死するのは、龍神にやられるのが多い。<br><br> 龍神には位があり、人間に転化すると人間になり、龍神が人間になる事が多い。<br><br>位の高い人が龍神になる事がある。<br><br>神と龍神は同じであるといっていい。<br><br>故に龍顔美わしく、袞龍の袖など、みな龍をつける。<br><br>玉顔美わしくが本当である。<br><br>（S24. 7.１） 108 龍王はいかに現界に働くか 八大龍王、その他神々様が現界に御出ましになり、御活動あらせられる由に御教えを戴いておりますが、現界にては本守護神として御生れになっておられるのでしょうか。<br><br>あるいは御憑りになって御働き遊ばされるので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> （両方である）一たん天へ昇り人間に生れるのがあり、そのまま人間に憑るのもある。<br><br>龍神は昇天して人間に生れるのが本当であるが、それでは時期が間に合わぬ。<br><br>一日も早く人間に憑って活動するのが本当である。<br><br>（高位の龍神は働かないから一旦昇天してから憑るが、働く龍神の方が多い）人間に憑る方が多い。<br><br>（S24. 6.21） 109 龍の昇天と転生、修行と御光 昭和二十一年五月に現在の家に転居しました時、その家が余りきたないので大工、左官を入れ修理致しましたところ、作業の半ばで父が急性肺炎で急死致しましたので、母が驚きある人に拝んで貰うと、今迄この家に蛇がいて、余り家をいじりまわすのでいる所がなくなり、怒って、父に祟ったのだから直ぐ祭をやれとの事で、それ以来家の棚の上に祭って有りますが、昨年十一月、大光明如来様をお迎えしてからは手不足のためそのままになっております。<br><br>いかが致しますればよろしいでしょうか。<br><br>御教示下さい。<br><br> 一年経ってからお祭りして、お帰り願う。<br><br>蛇でも修行すると昇天する。<br><br>昇天しお帰りを願うのである。<br><br>言葉でいえばよい。<br><br>汚れが除れると昇天する。<br><br> 龍は海に千年、山に千年、大地に千年という。<br><br> 光明如来様の光を受けると、とても早く汚れが除れる。<br><br>故に大抵一年も経てば昇天出来る。<br><br> 神格ある龍は昇天する。<br><br>そうでないのは人間に生れ替る。<br><br>故に人間に生れ代るよう幽世大神にお頼みする。<br><br>（S24. 5.15） 110 龍神の種類、性格 蛇、龍神――。<br><br> 火の系統の龍は山にいる。<br><br>水、月の系統の龍は海にいる。<br><br> 金平様は二、三流の神で、海の支配者は日本では琴平別命である。<br><br> 乙姫は人間に出ている。<br><br> 龍虎相搏つなどというが、そういう龍は戦うのが好きである。<br><br>赤龍は陰険なものである。<br><br>支那にも龍は沢山いる。<br><br>青龍。<br><br> みみずは地龍である。<br><br>龍は怒り易く怖い。<br><br>人を殺すのは何でもない。<br><br>人間から蛇になったのが多い。<br><br> 国全体が腐っているから汚い。<br><br>不良分子は蛆のようなもので、それが湧く。<br><br>こちらが隙がないようにしなければならぬ。<br><br>（S23） 111 踏むと病気にする石（位と向上） 片淵光雄（四九歳）と申し、新しい信者で御座います。<br><br>その家の裏手に池がありましたが、現在は埋めてしまって御座いません。<br><br>その畔になった石が今でも残っております。<br><br>その石は他家の者が股いだり触ったりすれば不思議に大熱が出て医者では治らず、御祓いをすればケロリと治るそうで御座います。<br><br>なお十年前にこの信者の父が祟りのある石は他人に迷惑とて他所に捨てましたら、その人は非常な腹痛を起したそうで御座います。<br><br>それで石を持ち帰って元の位置に戻しましたらその腹痛は治りました。<br><br>何も知らぬ人には今でも迷惑を掛けるから、その場所は通行禁止にしているそうで御座います。<br><br>この石はいかなもので御座いましょうか。<br><br>またいかに致しましたらよろしいものでございましょうか。<br><br>御伺い申し上げます。<br><br> 踏まれる事をイヤがるのである。<br><br>それで踏まれぬように苦痛を与える。<br><br>というのは人間に踏まれると龍神の位が下る。<br><br>また修行中に人間に踏まれると向上が遅れる。<br><br> 本当いうと小さいお宮へ安置し、小さい池のようなものを作り、時々祝詞を奏げると向上が早くなり、非常に喜ぶ。<br><br>（25. 1.12） 112 女を嫌う神社 福岡県宗像（むなかた）郡大島村沖ノ島（島の周囲一里位）に沖津宮（女神様を祀ってあるといわれています）が御座います。<br><br>女が参ると遭難にあいその島に上る事も出来ず、男でも一週間身を浄めて御詣りするそうで御座います。<br><br>またこの宮には虻が非常に沢山いるそうでございます。<br><br>これはいかなる意味のあるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 龍神は潔癖なもので、汚されるのを嫌う。<br><br>女は月経などあるので、女を嫌う。<br><br>男でも浄めてゆくと喜ぶ。<br><br>虻は海藻か何かで打上げられたものに発生するのであろう。<br><br>（S25. 1.12） 113 龍神（三寒、三熱症状） 稲毛輝子（三十六歳）、主人が「カリエス」で苦しみますので、仏壇に向って善言讃詞を上げましたところ、上げている中に頭の方より、冷たき感じが足に迄届くと、間もなく足の方より温くなり汗をかき、善言讃詞を上げ終る迄に三回繰返されました。<br><br>これは祖霊の何か教えでしょうか。<br><br>御教示下さい。<br><br> 龍神の霊で、普通の祖霊では温くなるという事はない。<br><br>龍神がお礼に来たのである。<br><br>龍神はすべて三回やる。<br><br>三熱とよくいうが日に三回熱くなるという。<br><br>（その度水へ入る）（S24. 8. 8） 114 青大将の憑依（蛇の特性） 信者の婦人で御座いますが、どんな物の匂いでも鼻につくと共に胸がわくわくして来るそうで御座いますが、以前この婦人は、家の中に大きな青大将が入って来たのを追っても逃げませんので、唐芥子をいぶして、その煙で追い出そうと致しましたが、なお出ませんので、近所の人に頼みまして、その青大将を殺したそうで御座います。<br><br>その頃より前記の状態になったそうで御座いますので、龍神様としてお詫び申し上げ、お祭りして御座いますが、治らないと申しております。<br><br>毒素のためで御座いましょうか。<br><br>また霊的のもので御座いましょうか。<br><br>お伺い申し上げます。<br><br> 霊的である。<br><br>青大将の霊である。<br><br>蛇は人間より匂いなど敏感であり、これが蛇の特性である。<br><br>その人のお腹にいる。<br><br> 蛇を浄霊して祝詞を奏げてやるといい。<br><br>すると出るか、いても差支えない事になる。<br><br> 蛇は、煙草の匂いなどすぐ判る。<br><br>ヤニの匂い、鉄の匂い、紺の匂いなど非常に嫌うという。<br><br>（S25. 2. 2） 115 龍神は痒い 未入信の七十三歳の男子で御座いますが、昨年八月頃より風邪気味で床につきましたが、その後ずっと休んでおり、最近は熱は御座いませんが、皮膚が蛇の鱗のようになり、手足、胴体が非常にかゆいそうで御座います。<br><br>なおその家には以前五歳の子供が井戸に落ちて死んでおりますが、祀ってないそうで御座います。<br><br>霊的に何か関係が御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br>なお、本人は三人の後妻を迎えましたが、いずれも死亡しております。<br><br> やはり龍神の生れ代りである。<br><br>龍神は非常に痒いものである。<br><br>一日に三寒三熱である。<br><br>祀ってやらなければいけない。<br><br>龍神は夫婦の状態を嫌う。<br><br>（S25. 5.22） 116 赤城山について、本来の邪神と夜の世界、正邪神と国魂、最悪の国魂、邪神への挨拶、氷川神社と流行神、府中大国魂神社と明主様 赤城の夕立は荒れる。<br><br> 今迄は正神が押込められ、邪神が蔓延っている。<br><br>邪神は元からの邪神はない。<br><br>邪神に神が負けると善くない働きをする。<br><br>今度の整理で邪神の味方した神も味方が出来なくなる。<br><br>邪神に騙らかされた神もいろいろある。<br><br>その国魂が力が薄いとか、系統が正統神の裾の系統の場合など――。<br><br>悪霊や邪神の活動し易いとその地方は悪い。<br><br>国魂神の善い悪いで定る。<br><br>国魂神の悪いのは、武蔵（東京）が一番悪い。<br><br>東京の中心程悪い。<br><br> 悪い神でも参拝するのは差支えない。<br><br>邪神だから参拝してはいけないなどという宗教は本当でない。<br><br>神は邪を恐れぬからである。<br><br>故にどの神も挨拶した方がよい。<br><br>仁義である。<br><br>こちらへ来て働く、よろしく――。<br><br>稲荷でも何でもいい。<br><br> 赤城は素晴しい龍神がいるに違いない。<br><br>山を登るに六根清浄というのはいい。<br><br>山で尿するのも断ってやれば何でもない。<br><br>征服などというのは極くわるい。<br><br>これは闘争心から出ている。<br><br> 府中の大国魂神社は――。<br><br> 武蔵の本当の国魂は日の系統の神で、長らく圧迫されていた。<br><br>大先生が行かせられたら非常に喜んだ。<br><br> 埼玉の氷川神社は素盞嗚尊で、関東鎮台本元である。<br><br>氷川さんも段々改心した。<br><br> 不動様は印度へ帰った。<br><br> 流行神は殆んど訝わしい別のものが入っている。<br><br>（S23） 117 兇党界について、絶対善と絶対悪と進化、五六七界の兇党界 兇党界について御伺い申し上げます。<br><br> 一、神漏岐、神漏美尊が出られて、善悪二つに分れたと伺いましたが、この悪は兇党界の出現でしょうか、 二、主神の御目から御覧になった場合の兇党界存在の意義、 三、兇党界の現在の働き、 四、五六七の御代になった場合、兇党界の霊は正神に服するのでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 一、神漏岐神漏美は兇党界と全然関係はない。<br><br>霊と体を善悪に分けると、霊は善、体は悪となる。<br><br>悪人は兇党界などとは違う。<br><br>男は善、女は悪――別けるとそうなる。<br><br>即ち霊と体である。<br><br> 二、主神の御眼よりは同じ事である。<br><br>必要のない、いけないものなら、万能の力を以てつぶすのは訳ない。<br><br>やはり必要なのである。<br><br>対称的で、神は絶対善であるから、それに対称して、絶対悪がなくてはならぬものである。<br><br>でなくては人類社会は進化しない。<br><br>故に必要悪である。<br><br>審判など神が裁く。<br><br>罪を裁くなど慈悲も何もないではないか。<br><br> 四、五六七世には、兇党界の霊はなくなりはしない、限定される。<br><br>兇党界とは、要するに獣の働きである。<br><br>今は人間が獣の域を脱せぬ。<br><br>大いに残っている。<br><br>今は半獣半人である。<br><br> 118 邪を作る神意 神は愛であり絶対のもので、これがすべてのものを作ったとすれば、悪いこと、つまり邪神、邪神の人間など出来よう筈はないと思いますが、これはいかなるわけで御座いましょうか。<br><br>邪心の起源と人間の邪悪の始まりにつき御教え下さい。<br><br> 御本に方々書いてあるから、読めば判る。<br><br>（S25. 5.27） 119 巧みな邪神の理屈づけ、反対ある場合の対応 邪神は理屈をつけるのが実に巧い。<br><br>あまり反対のある時は、当分遠退いた方がよい。<br><br>いくら先方が間違っていても、怨みが来て邪魔するから、一旦気を抜いて時期を待って行った方がよい。<br><br>（S23. 8.21） 120 黒龍と青龍、邪神の必要、支那の龍、邪神の種々、黒龍と青龍の働き 黒龍は邪神である。<br><br>乙姫が欲の執念のため、邪神になった事がある。<br><br> すべて黒は悪魔であるから、気をつけなくてはいけない。<br><br> 青龍――青大将などこれに属する。<br><br>（善悪中間）。<br><br>支那に多い。<br><br>黄龍も多い。<br><br> 邪神は神様に対する邪神、兇党界が元で、働くのも邪神、間違えて働くのも邪神である。<br><br> 悪魔はすべてに渉ってある。<br><br>一時アクマになり、改心して良くなるのも沢山ある。<br><br> 世界のあらゆる事は、破壊と創造を繰返している。<br><br>神は創造者であり、破壊者は悪魔である。<br><br>故に邪神も必要である。<br><br> 121 邪神幹部の系統 私は二十年秋入信させて頂き、二十三年元日狭心症で倒れ、医師に見離された所を、平本先生の御浄霊で助けられ、家族中入信、大光明如来様も祭らせて頂いておりますが、二十三年二月頃より悪夢を見ると極端に身体の工合悪く、その都度御浄霊を頂くと必ず悪霊が浮き、最近は「サタン」と名乗り大暴れをし、黒龍と言っては大あばれをし、踊る神の本尊狐と名乗り、御神前で大暴れをし、平本先生の御浄霊により鎮まっておますが、これはいかなる因縁で御座いましょうか。<br><br> 何千年か何百年前、邪神の幹部の系統である。<br><br>そういう因縁がないと憑れぬ。<br><br>邪神でも団体みたいになっている。<br><br>口惜しくて邪魔しようとするか、助けられたいかだが、そこまで行ってはいない。<br><br>大分弱ってはいる。<br><br>改心しても――。<br><br>（邪神にもよいわるいがある）（S25. 2. 3） 122 兇党界、金龍と赤龍、八岐大蛇、金毛九尾、邪鬼、邪鬼の元、天魔坊、邪神の本籍、山口県は入口 兇党界は悪魔の世界で、悪魔で連絡し合ってやった。<br><br>赤龍は共産党で、伊都能売金龍と始終戦っている。<br><br>今以て戦っている。<br><br>この頃先方の力が弱ったので、楽になった。<br><br>八岐大蛇は赤龍の子分。<br><br>金毛九尾、邪鬼は力あり、赤龍と競争する。<br><br>共同活動もある。<br><br>よく漢方の先生で「未だ邪鬼が抜けない」などという。<br><br> 邪鬼の元は印度で、天魔坊は第六天魔王で、いわゆる天魔である。<br><br> 山口県は外国から邪神など来る時は、ここから入る。<br><br>今、入って来た霊は、続々本籍の外国へ移されている。<br><br>（S23. 7.17） 123 凶党界の三巨頭と霊線と昼間世界、邪神と兇党界の相違、真の善人の率 兇党界の事について御伺い申し上げます。<br><br> 兇党界は悪魔の世界、八岐大蛇、金毛九尾、邪鬼、この三つが巨頭で、今迄盛んに活躍していた。<br><br> これは邪神と違い根本からの悪魔である。<br><br>これらは善の世界になると小さくなり、悪い事をする霊はすべて明るい所では働けぬ。<br><br> 兇党界から霊線の繋っている霊は沢山いる。<br><br>例えば金毛九尾などは何億もいて、これらは女に憑いている。<br><br>今の女は殆んどこれである。<br><br>共産党などは邪鬼である。<br><br>八岐大蛇は戦争が好きで、少くとも職業軍人のごとき、全部これの眷族が憑いている。<br><br> 兇党界は今迄力が強かったので、世の中も悪が強かった。<br><br>今迄は大抵悪である。<br><br>善人でも偽善者の仮面を被っている。<br><br>大部分悪である。<br><br>真底の善人は百人に一人とない。<br><br>実に悪に満ちた世界であった。<br><br> 神から与えられた魂が良心である。<br><br> 124 八岐の大蛇、邪鬼、九尾の狐、人間心内の戦い 素盞嗚尊の退治されたと云う八岐の大蛇の由来を御教え願います。<br><br> いろいろ説がある。<br><br>悪魔の巨頭で、三巨頭の一である。<br><br>眷族は何億とおり、一人一人の人間に憑って悪い事をさす。<br><br> 大蛇は戦争が好きで、東条とかヒットラーなどは、その眷族が憑いたものである。<br><br> 邪鬼も戦争は好きである。<br><br> 金毛九尾は女に憑ってる。<br><br>花柳界の女とかパンパンガールのごとき皆憑いていて、世の中を乱す事をする。<br><br>男を堕落さす仕事をする。<br><br>女の腹を裂いたりするのもそれである。<br><br>人間は常にこれらと本守護神と戦っている。<br><br>（S24. 5.12） 125 サタン キリストとサタンの因縁―― 聖書に「サタンは赤い龍なり」とあり、悪魔の頭目である。<br><br>共産主義はサタンである。<br><br> 釈迦に提婆というように、キリストを始終苦しめてるのがサタンである。<br><br>パリサイ人も反対派である。<br><br> これは普通の人間がキリスト教を嫌うごとく、明主様と、昔からサタンは戦っている。<br><br>短刀をもって殺しに来た事もあるが、これは頭から顔から全身真赤であった。<br><br> 126 赤龍の握っているもの 黒龍は物質を握っているもののように承っておりましたが、赤龍は何を握っているので御座いましょうか。<br><br> 黒龍は龍宮の乙姫であり、赤龍は「サタンは赤い辰なり」といい、共産主義で、世界の三分の一位握っている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Dragões Divinos e Espíritos Malignos</h2>
 <p><strong>106. Sobre o Dragão Celestial, o Dragão Dourado e o Dragão Prateado</strong></p>
@@ -189,5 +341,48 @@ function toggleLang(lang) {
 <p><strong>126. O que o Dragão Vermelho Controla</strong></p>
 <p><em>Pergunta: Fomos ensinados que o Dragão Negro controla o mundo material. O que o Dragão Vermelho controla?</em></p>
 <p>O Dragão Negro é a princesa Otohime do Palácio do Dragão. O Dragão Vermelho, como diz a escritura, “Satã é um dragão vermelho”, representa o comunismo e controla cerca de um terço do mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ７ 106-126 龍神、邪神 106 天龍、金龍、銀龍について 天龍は天皇になる龍神。<br/><br/>金龍は国常立尊様、太陽、火。<br/><br/>銀龍は素盞嗚尊、月、水。<br/><br/>（S24. 4.23） 107 龍と支那、（神と龍） 日光東照宮や嵯峨天龍寺のように、神社仏閣ではよく天井に龍等の絵を描き、個人の家庭ではそんな事は御座居ませんが、天井絵には何か意味が御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 龍を非常に尊んだ風俗は支那から来た。<br/><br/>支那では何でも龍をつけた。<br/><br/>支那に龍あり、非常に力がある。<br/><br/>龍神を救ったりなどするには力がなくては出来ぬ。<br/><br/>であるから日蓮宗の行者は非常に怖がる。<br/><br/> 原因不明で頓死するのは、龍神にやられるのが多い。<br/><br/> 龍神には位があり、人間に転化すると人間になり、龍神が人間になる事が多い。<br/><br/>位の高い人が龍神になる事がある。<br/><br/>神と龍神は同じであるといっていい。<br/><br/>故に龍顔美わしく、袞龍の袖など、みな龍をつける。<br/><br/>玉顔美わしくが本当である。<br/><br/>（S24. 7.１） 108 龍王はいかに現界に働くか 八大龍王、その他神々様が現界に御出ましになり、御活動あらせられる由に御教えを戴いておりますが、現界にては本守護神として御生れになっておられるのでしょうか。<br/><br/>あるいは御憑りになって御働き遊ばされるので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> （両方である）一たん天へ昇り人間に生れるのがあり、そのまま人間に憑るのもある。<br/><br/>龍神は昇天して人間に生れるのが本当であるが、それでは時期が間に合わぬ。<br/><br/>一日も早く人間に憑って活動するのが本当である。<br/><br/>（高位の龍神は働かないから一旦昇天してから憑るが、働く龍神の方が多い）人間に憑る方が多い。<br/><br/>（S24. 6.21） 109 龍の昇天と転生、修行と御光 昭和二十一年五月に現在の家に転居しました時、その家が余りきたないので大工、左官を入れ修理致しましたところ、作業の半ばで父が急性肺炎で急死致しましたので、母が驚きある人に拝んで貰うと、今迄この家に蛇がいて、余り家をいじりまわすのでいる所がなくなり、怒って、父に祟ったのだから直ぐ祭をやれとの事で、それ以来家の棚の上に祭って有りますが、昨年十一月、大光明如来様をお迎えしてからは手不足のためそのままになっております。<br/><br/>いかが致しますればよろしいでしょうか。<br/><br/>御教示下さい。<br/><br/> 一年経ってからお祭りして、お帰り願う。<br/><br/>蛇でも修行すると昇天する。<br/><br/>昇天しお帰りを願うのである。<br/><br/>言葉でいえばよい。<br/><br/>汚れが除れると昇天する。<br/><br/> 龍は海に千年、山に千年、大地に千年という。<br/><br/> 光明如来様の光を受けると、とても早く汚れが除れる。<br/><br/>故に大抵一年も経てば昇天出来る。<br/><br/> 神格ある龍は昇天する。<br/><br/>そうでないのは人間に生れ替る。<br/><br/>故に人間に生れ代るよう幽世大神にお頼みする。<br/><br/>（S24. 5.15） 110 龍神の種類、性格 蛇、龍神――。<br/><br/> 火の系統の龍は山にいる。<br/><br/>水、月の系統の龍は海にいる。<br/><br/> 金平様は二、三流の神で、海の支配者は日本では琴平別命である。<br/><br/> 乙姫は人間に出ている。<br/><br/> 龍虎相搏つなどというが、そういう龍は戦うのが好きである。<br/><br/>赤龍は陰険なものである。<br/><br/>支那にも龍は沢山いる。<br/><br/>青龍。<br/><br/> みみずは地龍である。<br/><br/>龍は怒り易く怖い。<br/><br/>人を殺すのは何でもない。<br/><br/>人間から蛇になったのが多い。<br/><br/> 国全体が腐っているから汚い。<br/><br/>不良分子は蛆のようなもので、それが湧く。<br/><br/>こちらが隙がないようにしなければならぬ。<br/><br/>（S23） 111 踏むと病気にする石（位と向上） 片淵光雄（四九歳）と申し、新しい信者で御座います。<br/><br/>その家の裏手に池がありましたが、現在は埋めてしまって御座いません。<br/><br/>その畔になった石が今でも残っております。<br/><br/>その石は他家の者が股いだり触ったりすれば不思議に大熱が出て医者では治らず、御祓いをすればケロリと治るそうで御座います。<br/><br/>なお十年前にこの信者の父が祟りのある石は他人に迷惑とて他所に捨てましたら、その人は非常な腹痛を起したそうで御座います。<br/><br/>それで石を持ち帰って元の位置に戻しましたらその腹痛は治りました。<br/><br/>何も知らぬ人には今でも迷惑を掛けるから、その場所は通行禁止にしているそうで御座います。<br/><br/>この石はいかなもので御座いましょうか。<br/><br/>またいかに致しましたらよろしいものでございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 踏まれる事をイヤがるのである。<br/><br/>それで踏まれぬように苦痛を与える。<br/><br/>というのは人間に踏まれると龍神の位が下る。<br/><br/>また修行中に人間に踏まれると向上が遅れる。<br/><br/> 本当いうと小さいお宮へ安置し、小さい池のようなものを作り、時々祝詞を奏げると向上が早くなり、非常に喜ぶ。<br/><br/>（25. 1.12） 112 女を嫌う神社 福岡県宗像（むなかた）郡大島村沖ノ島（島の周囲一里位）に沖津宮（女神様を祀ってあるといわれています）が御座います。<br/><br/>女が参ると遭難にあいその島に上る事も出来ず、男でも一週間身を浄めて御詣りするそうで御座います。<br/><br/>またこの宮には虻が非常に沢山いるそうでございます。<br/><br/>これはいかなる意味のあるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 龍神は潔癖なもので、汚されるのを嫌う。<br/><br/>女は月経などあるので、女を嫌う。<br/><br/>男でも浄めてゆくと喜ぶ。<br/><br/>虻は海藻か何かで打上げられたものに発生するのであろう。<br/><br/>（S25. 1.12） 113 龍神（三寒、三熱症状） 稲毛輝子（三十六歳）、主人が「カリエス」で苦しみますので、仏壇に向って善言讃詞を上げましたところ、上げている中に頭の方より、冷たき感じが足に迄届くと、間もなく足の方より温くなり汗をかき、善言讃詞を上げ終る迄に三回繰返されました。<br/><br/>これは祖霊の何か教えでしょうか。<br/><br/>御教示下さい。<br/><br/> 龍神の霊で、普通の祖霊では温くなるという事はない。<br/><br/>龍神がお礼に来たのである。<br/><br/>龍神はすべて三回やる。<br/><br/>三熱とよくいうが日に三回熱くなるという。<br/><br/>（その度水へ入る）（S24. 8. 8） 114 青大将の憑依（蛇の特性） 信者の婦人で御座いますが、どんな物の匂いでも鼻につくと共に胸がわくわくして来るそうで御座いますが、以前この婦人は、家の中に大きな青大将が入って来たのを追っても逃げませんので、唐芥子をいぶして、その煙で追い出そうと致しましたが、なお出ませんので、近所の人に頼みまして、その青大将を殺したそうで御座います。<br/><br/>その頃より前記の状態になったそうで御座いますので、龍神様としてお詫び申し上げ、お祭りして御座いますが、治らないと申しております。<br/><br/>毒素のためで御座いましょうか。<br/><br/>また霊的のもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 霊的である。<br/><br/>青大将の霊である。<br/><br/>蛇は人間より匂いなど敏感であり、これが蛇の特性である。<br/><br/>その人のお腹にいる。<br/><br/> 蛇を浄霊して祝詞を奏げてやるといい。<br/><br/>すると出るか、いても差支えない事になる。<br/><br/> 蛇は、煙草の匂いなどすぐ判る。<br/><br/>ヤニの匂い、鉄の匂い、紺の匂いなど非常に嫌うという。<br/><br/>（S25. 2. 2） 115 龍神は痒い 未入信の七十三歳の男子で御座いますが、昨年八月頃より風邪気味で床につきましたが、その後ずっと休んでおり、最近は熱は御座いませんが、皮膚が蛇の鱗のようになり、手足、胴体が非常にかゆいそうで御座います。<br/><br/>なおその家には以前五歳の子供が井戸に落ちて死んでおりますが、祀ってないそうで御座います。<br/><br/>霊的に何か関係が御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/>なお、本人は三人の後妻を迎えましたが、いずれも死亡しております。<br/><br/> やはり龍神の生れ代りである。<br/><br/>龍神は非常に痒いものである。<br/><br/>一日に三寒三熱である。<br/><br/>祀ってやらなければいけない。<br/><br/>龍神は夫婦の状態を嫌う。<br/><br/>（S25. 5.22） 116 赤城山について、本来の邪神と夜の世界、正邪神と国魂、最悪の国魂、邪神への挨拶、氷川神社と流行神、府中大国魂神社と明主様 赤城の夕立は荒れる。<br/><br/> 今迄は正神が押込められ、邪神が蔓延っている。<br/><br/>邪神は元からの邪神はない。<br/><br/>邪神に神が負けると善くない働きをする。<br/><br/>今度の整理で邪神の味方した神も味方が出来なくなる。<br/><br/>邪神に騙らかされた神もいろいろある。<br/><br/>その国魂が力が薄いとか、系統が正統神の裾の系統の場合など――。<br/><br/>悪霊や邪神の活動し易いとその地方は悪い。<br/><br/>国魂神の善い悪いで定る。<br/><br/>国魂神の悪いのは、武蔵（東京）が一番悪い。<br/><br/>東京の中心程悪い。<br/><br/> 悪い神でも参拝するのは差支えない。<br/><br/>邪神だから参拝してはいけないなどという宗教は本当でない。<br/><br/>神は邪を恐れぬからである。<br/><br/>故にどの神も挨拶した方がよい。<br/><br/>仁義である。<br/><br/>こちらへ来て働く、よろしく――。<br/><br/>稲荷でも何でもいい。<br/><br/> 赤城は素晴しい龍神がいるに違いない。<br/><br/>山を登るに六根清浄というのはいい。<br/><br/>山で尿するのも断ってやれば何でもない。<br/><br/>征服などというのは極くわるい。<br/><br/>これは闘争心から出ている。<br/><br/> 府中の大国魂神社は――。<br/><br/> 武蔵の本当の国魂は日の系統の神で、長らく圧迫されていた。<br/><br/>大先生が行かせられたら非常に喜んだ。<br/><br/> 埼玉の氷川神社は素盞嗚尊で、関東鎮台本元である。<br/><br/>氷川さんも段々改心した。<br/><br/> 不動様は印度へ帰った。<br/><br/> 流行神は殆んど訝わしい別のものが入っている。<br/><br/>（S23） 117 兇党界について、絶対善と絶対悪と進化、五六七界の兇党界 兇党界について御伺い申し上げます。<br/><br/> 一、神漏岐、神漏美尊が出られて、善悪二つに分れたと伺いましたが、この悪は兇党界の出現でしょうか、 二、主神の御目から御覧になった場合の兇党界存在の意義、 三、兇党界の現在の働き、 四、五六七の御代になった場合、兇党界の霊は正神に服するのでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 一、神漏岐神漏美は兇党界と全然関係はない。<br/><br/>霊と体を善悪に分けると、霊は善、体は悪となる。<br/><br/>悪人は兇党界などとは違う。<br/><br/>男は善、女は悪――別けるとそうなる。<br/><br/>即ち霊と体である。<br/><br/> 二、主神の御眼よりは同じ事である。<br/><br/>必要のない、いけないものなら、万能の力を以てつぶすのは訳ない。<br/><br/>やはり必要なのである。<br/><br/>対称的で、神は絶対善であるから、それに対称して、絶対悪がなくてはならぬものである。<br/><br/>でなくては人類社会は進化しない。<br/><br/>故に必要悪である。<br/><br/>審判など神が裁く。<br/><br/>罪を裁くなど慈悲も何もないではないか。<br/><br/> 四、五六七世には、兇党界の霊はなくなりはしない、限定される。<br/><br/>兇党界とは、要するに獣の働きである。<br/><br/>今は人間が獣の域を脱せぬ。<br/><br/>大いに残っている。<br/><br/>今は半獣半人である。<br/><br/> 118 邪を作る神意 神は愛であり絶対のもので、これがすべてのものを作ったとすれば、悪いこと、つまり邪神、邪神の人間など出来よう筈はないと思いますが、これはいかなるわけで御座いましょうか。<br/><br/>邪心の起源と人間の邪悪の始まりにつき御教え下さい。<br/><br/> 御本に方々書いてあるから、読めば判る。<br/><br/>（S25. 5.27） 119 巧みな邪神の理屈づけ、反対ある場合の対応 邪神は理屈をつけるのが実に巧い。<br/><br/>あまり反対のある時は、当分遠退いた方がよい。<br/><br/>いくら先方が間違っていても、怨みが来て邪魔するから、一旦気を抜いて時期を待って行った方がよい。<br/><br/>（S23. 8.21） 120 黒龍と青龍、邪神の必要、支那の龍、邪神の種々、黒龍と青龍の働き 黒龍は邪神である。<br/><br/>乙姫が欲の執念のため、邪神になった事がある。<br/><br/> すべて黒は悪魔であるから、気をつけなくてはいけない。<br/><br/> 青龍――青大将などこれに属する。<br/><br/>（善悪中間）。<br/><br/>支那に多い。<br/><br/>黄龍も多い。<br/><br/> 邪神は神様に対する邪神、兇党界が元で、働くのも邪神、間違えて働くのも邪神である。<br/><br/> 悪魔はすべてに渉ってある。<br/><br/>一時アクマになり、改心して良くなるのも沢山ある。<br/><br/> 世界のあらゆる事は、破壊と創造を繰返している。<br/><br/>神は創造者であり、破壊者は悪魔である。<br/><br/>故に邪神も必要である。<br/><br/> 121 邪神幹部の系統 私は二十年秋入信させて頂き、二十三年元日狭心症で倒れ、医師に見離された所を、平本先生の御浄霊で助けられ、家族中入信、大光明如来様も祭らせて頂いておりますが、二十三年二月頃より悪夢を見ると極端に身体の工合悪く、その都度御浄霊を頂くと必ず悪霊が浮き、最近は「サタン」と名乗り大暴れをし、黒龍と言っては大あばれをし、踊る神の本尊狐と名乗り、御神前で大暴れをし、平本先生の御浄霊により鎮まっておますが、これはいかなる因縁で御座いましょうか。<br/><br/> 何千年か何百年前、邪神の幹部の系統である。<br/><br/>そういう因縁がないと憑れぬ。<br/><br/>邪神でも団体みたいになっている。<br/><br/>口惜しくて邪魔しようとするか、助けられたいかだが、そこまで行ってはいない。<br/><br/>大分弱ってはいる。<br/><br/>改心しても――。<br/><br/>（邪神にもよいわるいがある）（S25. 2. 3） 122 兇党界、金龍と赤龍、八岐大蛇、金毛九尾、邪鬼、邪鬼の元、天魔坊、邪神の本籍、山口県は入口 兇党界は悪魔の世界で、悪魔で連絡し合ってやった。<br/><br/>赤龍は共産党で、伊都能売金龍と始終戦っている。<br/><br/>今以て戦っている。<br/><br/>この頃先方の力が弱ったので、楽になった。<br/><br/>八岐大蛇は赤龍の子分。<br/><br/>金毛九尾、邪鬼は力あり、赤龍と競争する。<br/><br/>共同活動もある。<br/><br/>よく漢方の先生で「未だ邪鬼が抜けない」などという。<br/><br/> 邪鬼の元は印度で、天魔坊は第六天魔王で、いわゆる天魔である。<br/><br/> 山口県は外国から邪神など来る時は、ここから入る。<br/><br/>今、入って来た霊は、続々本籍の外国へ移されている。<br/><br/>（S23. 7.17） 123 凶党界の三巨頭と霊線と昼間世界、邪神と兇党界の相違、真の善人の率 兇党界の事について御伺い申し上げます。<br/><br/> 兇党界は悪魔の世界、八岐大蛇、金毛九尾、邪鬼、この三つが巨頭で、今迄盛んに活躍していた。<br/><br/> これは邪神と違い根本からの悪魔である。<br/><br/>これらは善の世界になると小さくなり、悪い事をする霊はすべて明るい所では働けぬ。<br/><br/> 兇党界から霊線の繋っている霊は沢山いる。<br/><br/>例えば金毛九尾などは何億もいて、これらは女に憑いている。<br/><br/>今の女は殆んどこれである。<br/><br/>共産党などは邪鬼である。<br/><br/>八岐大蛇は戦争が好きで、少くとも職業軍人のごとき、全部これの眷族が憑いている。<br/><br/> 兇党界は今迄力が強かったので、世の中も悪が強かった。<br/><br/>今迄は大抵悪である。<br/><br/>善人でも偽善者の仮面を被っている。<br/><br/>大部分悪である。<br/><br/>真底の善人は百人に一人とない。<br/><br/>実に悪に満ちた世界であった。<br/><br/> 神から与えられた魂が良心である。<br/><br/> 124 八岐の大蛇、邪鬼、九尾の狐、人間心内の戦い 素盞嗚尊の退治されたと云う八岐の大蛇の由来を御教え願います。<br/><br/> いろいろ説がある。<br/><br/>悪魔の巨頭で、三巨頭の一である。<br/><br/>眷族は何億とおり、一人一人の人間に憑って悪い事をさす。<br/><br/> 大蛇は戦争が好きで、東条とかヒットラーなどは、その眷族が憑いたものである。<br/><br/> 邪鬼も戦争は好きである。<br/><br/> 金毛九尾は女に憑ってる。<br/><br/>花柳界の女とかパンパンガールのごとき皆憑いていて、世の中を乱す事をする。<br/><br/>男を堕落さす仕事をする。<br/><br/>女の腹を裂いたりするのもそれである。<br/><br/>人間は常にこれらと本守護神と戦っている。<br/><br/>（S24. 5.12） 125 サタン キリストとサタンの因縁―― 聖書に「サタンは赤い龍なり」とあり、悪魔の頭目である。<br/><br/>共産主義はサタンである。<br/><br/> 釈迦に提婆というように、キリストを始終苦しめてるのがサタンである。<br/><br/>パリサイ人も反対派である。<br/><br/> これは普通の人間がキリスト教を嫌うごとく、明主様と、昔からサタンは戦っている。<br/><br/>短刀をもって殺しに来た事もあるが、これは頭から顔から全身真赤であった。<br/><br/> 126 赤龍の握っているもの 黒龍は物質を握っているもののように承っておりましたが、赤龍は何を握っているので御座いましょうか。<br/><br/> 黒龍は龍宮の乙姫であり、赤龍は「サタンは赤い辰なり」といい、共産主義で、世界の三分の一位握っている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

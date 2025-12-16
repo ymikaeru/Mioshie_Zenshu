@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kokahu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 効果不感症 『栄光』206号、昭和28(1953)年4月29日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 左の御蔭話は結核に付物の卵大の空洞が、三カ月で縮小したと共に、目方も一貫五百匁（もんめ）増えた奇蹟に、驚いたのは御医者さんで、どうして快くなったかを訊かれたので、救世教で快くなったと説明したところ、ただニヤッと笑っただけでおしまいだというのであるが、いつもながらこの点実に不可解だと思うのは、この事実こそ医学上からいっても大問題である。<br><br>しかも今日結核問題は日本における最大悩みとされているのは、医者もよく知っているはずである。<br><br>従って右の事実によってこの大問題解決の糸口を掴み得たとしたら何を措（お）いても直に突き進んで研究すべきではないかと思うが、そういう事は更にないとしたら実に不可解で、頭脳を疑わざるを得ないのである。<br><br>吾々はこういう事を聞くその度毎に医師の良心を疑わざるを得ないと共に、一種の憤激さえ起るのである。<br><br>これ程の驚くべき奇蹟に対して無感覚で過すとしたら、ロボット同様でしかないと思う。<br><br> 卵大の空洞忽ち縮小 京都府 五三中教会 菅野武雄（39） 明主様日々数々の御守護謹みて御礼申し上げます。<br><br> 私は昭和二十七年九月三日舞鶴共済病院にて健康診断を受けました。<br><br>レントゲン写真は肺結核の病名となり、右肺に卵大の空洞があり、「あなたの肺は気胸はむずかしいから療養所に入院しなさい」と言われましたが、私はどうしても入院する気持になれず、十日程薬をのみましたが、肺病にはまだ確実な薬が無いと以前から聞いて居りましたので止めてしまいました。<br><br>その後知合いの高橋よし子様が来られて御浄霊をして戴き、有難いお道のお話を色々と聞かせて頂きました。<br><br>御浄霊三回日頃、「一度支部にお参りし先生のお話を聞かれてはどうです」と言われ、早速九月下旬、東舞鶴支部にお参りさせて頂き、後藤和吉先生に色々と有難いお話を承り、御浄霊も頂きました。<br><br>「必ず治して戴けます」との支部長先生の御言葉に、御神書も拝読させて頂き、希望がもてる様になりました。<br><br>支部にお参りさせて頂く度に御浄化の有難い意味、薬毒の恐ろしさ、明主様の偉大なる御霊徳並びに大建設の御経綸等々、御聞きする事総てに驚き、私の前途に光明の道をあたえられた様に思われ、早速十月八日入信させて戴き、有難いお守様を謹みて拝受致しました。<br><br>九日早速御浄化を戴き発熱致しましたが、夜分高橋よし子様においで願って御浄霊を戴き、楽に夜も寝ませて頂きました。<br><br>翌十日支部にお参りし後藤先生の御浄霊を戴きまして頭の重いのもすっかり取って頂きました。<br><br>翌十月十一日には妻も浄化を戴き、三十九度余りの熱が出ましたが、高橋よし子様に御浄霊を頂き私も御浄霊致しまして熱も段々下り楽にして頂きました。<br><br>十月十五日妻きぬも入信の栄を賜わりました。<br><br>十一月三日義妹が遊びに来て居て帰る日突然腹痛を超しましたので、私と妻とで御浄霊をさせて戴き、約二十分程で痛みはすっかり楽にして戴き、喜んで帰りました。<br><br>当日私は本籍地に行きました後で、二男次雄が又熱の御浄化を頂き、四十度以上になり、高橋よし子様に来て頂いて御浄霊を頂き、私達もさせて頂き、三日間でさしもの熱も下らして頂きました。<br><br>二月十二日御屏風観音様、十二月五日には御神体を御奉斎申し上げ、我が家に明主様の光明が満ち、朝夕に拝浴させて戴ける喜びとなりました。<br><br>入信後中教会長先生並びに支部長先生の御指導の許に、色々の人達に御浄霊をお取次させて頂き、次々と元気になられた人から喜んでお礼を申されます度、明主様の御偉大なる御神力に感謝申し上げ、一人でも多くこの光栄に御縋りされます様努力致しております。<br><br>なお御神体御奉斎当日、勤務先に出すべく診断に共済病院にて三カ月振りに受診致しましたところ、一貫五百匁も体重が増えているのと、レントゲン写真の結果卵大の空洞が小さくなったことに、「何をやっているのか？」と聞きましたので、「救世教で浄霊をして頂いている」と申しました。<br><br>医師は笑っておりましたが、別段強い反対も致しませんでした。<br><br>今では私も段々気持よく家族一同元気に日々御守護賜わって送らせて頂いております。<br><br>入信日浅き私如き者にも右の如き数知れぬ御守護を賜わり一人でも多く幸福の道に御導きさせて頂く様微力ながら御協力させて頂きます。<br><br>何卒今後共御守護賜わりまして、御用に従事させて頂けます様御願い申し上げますと共に、謹みて厚く御礼申し上げます。<br><br> 明主様有難うございました。<br><br> （昭和二十八年一月十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Insensibilidade Diante do Milagre</h2>
 <p>O relato de graça que se segue descreve um milagre no qual uma caverna pulmonar do tamanho de um ovo, característica da tuberculose, diminuiu em três meses, acompanhado de um ganho de peso superior a cinco quilos e meio. O médico que assistia o paciente ficou assombrado com tal fato e, ao ser indagado sobre a causa da melhora, o fiel explicou ter se recuperado por meio de nossa Fé. Diante disso, o profissional reagiu apenas com um sorriso de escárnio, encerrando o assunto.</p>
@@ -111,5 +263,48 @@ Sugano Takeo (39 anos)</p>
 <p>Hoje, sinto-me cada vez melhor, e toda a minha família vive seus dias com saúde, sob a Proteção Divina. Mesmo sendo eu um membro de pouca fé, recebi inúmeras graças como as que relatei. Desejo, com minhas parcas forças, colaborar para conduzir o maior número de pessoas a este caminho de felicidade. Rogo para que, daqui em diante, eu possa continuar a receber Vossa proteção e me dedicar à Obra Divina, e aproveito para expressar, do fundo do meu coração, meus mais sinceros agradecimentos.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(17 de janeiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 効果不感症 『栄光』206号、昭和28(1953)年4月29日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 左の御蔭話は結核に付物の卵大の空洞が、三カ月で縮小したと共に、目方も一貫五百匁（もんめ）増えた奇蹟に、驚いたのは御医者さんで、どうして快くなったかを訊かれたので、救世教で快くなったと説明したところ、ただニヤッと笑っただけでおしまいだというのであるが、いつもながらこの点実に不可解だと思うのは、この事実こそ医学上からいっても大問題である。<br/><br/>しかも今日結核問題は日本における最大悩みとされているのは、医者もよく知っているはずである。<br/><br/>従って右の事実によってこの大問題解決の糸口を掴み得たとしたら何を措（お）いても直に突き進んで研究すべきではないかと思うが、そういう事は更にないとしたら実に不可解で、頭脳を疑わざるを得ないのである。<br/><br/>吾々はこういう事を聞くその度毎に医師の良心を疑わざるを得ないと共に、一種の憤激さえ起るのである。<br/><br/>これ程の驚くべき奇蹟に対して無感覚で過すとしたら、ロボット同様でしかないと思う。<br/><br/> 卵大の空洞忽ち縮小 京都府 五三中教会 菅野武雄（39） 明主様日々数々の御守護謹みて御礼申し上げます。<br/><br/> 私は昭和二十七年九月三日舞鶴共済病院にて健康診断を受けました。<br/><br/>レントゲン写真は肺結核の病名となり、右肺に卵大の空洞があり、「あなたの肺は気胸はむずかしいから療養所に入院しなさい」と言われましたが、私はどうしても入院する気持になれず、十日程薬をのみましたが、肺病にはまだ確実な薬が無いと以前から聞いて居りましたので止めてしまいました。<br/><br/>その後知合いの高橋よし子様が来られて御浄霊をして戴き、有難いお道のお話を色々と聞かせて頂きました。<br/><br/>御浄霊三回日頃、「一度支部にお参りし先生のお話を聞かれてはどうです」と言われ、早速九月下旬、東舞鶴支部にお参りさせて頂き、後藤和吉先生に色々と有難いお話を承り、御浄霊も頂きました。<br/><br/>「必ず治して戴けます」との支部長先生の御言葉に、御神書も拝読させて頂き、希望がもてる様になりました。<br/><br/>支部にお参りさせて頂く度に御浄化の有難い意味、薬毒の恐ろしさ、明主様の偉大なる御霊徳並びに大建設の御経綸等々、御聞きする事総てに驚き、私の前途に光明の道をあたえられた様に思われ、早速十月八日入信させて戴き、有難いお守様を謹みて拝受致しました。<br/><br/>九日早速御浄化を戴き発熱致しましたが、夜分高橋よし子様においで願って御浄霊を戴き、楽に夜も寝ませて頂きました。<br/><br/>翌十日支部にお参りし後藤先生の御浄霊を戴きまして頭の重いのもすっかり取って頂きました。<br/><br/>翌十月十一日には妻も浄化を戴き、三十九度余りの熱が出ましたが、高橋よし子様に御浄霊を頂き私も御浄霊致しまして熱も段々下り楽にして頂きました。<br/><br/>十月十五日妻きぬも入信の栄を賜わりました。<br/><br/>十一月三日義妹が遊びに来て居て帰る日突然腹痛を超しましたので、私と妻とで御浄霊をさせて戴き、約二十分程で痛みはすっかり楽にして戴き、喜んで帰りました。<br/><br/>当日私は本籍地に行きました後で、二男次雄が又熱の御浄化を頂き、四十度以上になり、高橋よし子様に来て頂いて御浄霊を頂き、私達もさせて頂き、三日間でさしもの熱も下らして頂きました。<br/><br/>二月十二日御屏風観音様、十二月五日には御神体を御奉斎申し上げ、我が家に明主様の光明が満ち、朝夕に拝浴させて戴ける喜びとなりました。<br/><br/>入信後中教会長先生並びに支部長先生の御指導の許に、色々の人達に御浄霊をお取次させて頂き、次々と元気になられた人から喜んでお礼を申されます度、明主様の御偉大なる御神力に感謝申し上げ、一人でも多くこの光栄に御縋りされます様努力致しております。<br/><br/>なお御神体御奉斎当日、勤務先に出すべく診断に共済病院にて三カ月振りに受診致しましたところ、一貫五百匁も体重が増えているのと、レントゲン写真の結果卵大の空洞が小さくなったことに、「何をやっているのか？」と聞きましたので、「救世教で浄霊をして頂いている」と申しました。<br/><br/>医師は笑っておりましたが、別段強い反対も致しませんでした。<br/><br/>今では私も段々気持よく家族一同元気に日々御守護賜わって送らせて頂いております。<br/><br/>入信日浅き私如き者にも右の如き数知れぬ御守護を賜わり一人でも多く幸福の道に御導きさせて頂く様微力ながら御協力させて頂きます。<br/><br/>何卒今後共御守護賜わりまして、御用に従事させて頂けます様御願い申し上げますと共に、謹みて厚く御礼申し上げます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十八年一月十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

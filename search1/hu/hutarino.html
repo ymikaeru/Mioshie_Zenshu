@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hutarino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 二人の盲の話 自観叢書第5編『自観隨談』P.35、昭和24(1949)年8月30日発行 私が十二、三の頃浅草の千束町に住んでいた事がある。<br><br>父は古道具屋をしていたのでその仲間であった、当時浅草一といわれた道具屋で花亀という人があった（この名は花川戸の亀さんだからである）。<br><br>この人は六十位の時に両眼つぶれ完全な盲目となってしまった。<br><br>その話を父からよく聞かされたので今でも覚えている。<br><br>その話はこうである。<br><br> 花亀が盲になったのは全く罰が当ったんだ、という事で、その訳は花亀が中年の頃当時静岡県の有名な某寺の住職が相当大仕掛で浅草の観音様の境内を借りて、開帳をした事がとんでもない運命となったのである。<br><br>それは予期に反し非常な損をしたので帰山する事が出来ず、止むを得ず本尊の観世音菩薩の像を花亀に抵当とし金を借りてようやく帰る事が出来た。<br><br>その後数ケ月経て金を拵え、約束通り花亀へ行って返金すると共に本尊の返還を求めた。<br><br>すると花亀は「そんな覚えは全然ない、何かの間違いだろう」といってテンデ取り合わないので、住職は進退きわまり花亀を恨んだ末軒先で縊死したのである。<br><br>もちろん花亀はその仏像を非常な高価で外人に売り、それから店も一段大きくなったという話である。<br><br>右のごとくその住職の怨恨が祟って盲目者となったのはもちろんで、しかもその一人息子の跡取りが大酒呑みで数年の間にさしもの財産も飲み潰して家出をし行方不明になったという事である。<br><br>その結果赤貧洗うがごとく、親戚等の援助で辛くも露命を繋いでおったような有様で、その頃よく老妻に手を曳かれ町を歩いている姿を私は度々みたのである。<br><br> 今一つはやはり私の近所に渡辺銀次郎こと、経銀という表具師があった。<br><br>これがまた六十歳頃から盲となった。<br><br>ここへは私はよく遊びに行って可愛がられたものである。<br><br>盲の原因としてはこういう訳がある。<br><br>この経銀というのは表具師の名人でしかも贋物を作るのが特技であった。<br><br>彼は某絵師と結托した。<br><br>その絵師は古人は元より応挙、抱一、是真等の偽筆が巧みで私はよく遊びに行っては書く所をみたものである。<br><br>その絵を経銀が古びをつけるがこれがまた彼の得意で、特に虫喰いなど本物としが思われない程で、私が遊びに行くとある部屋は締め切って誰も入れなかった。<br><br>聞いてみると虫喰いを作るのを人に見せないためである。<br><br>この様な訳で全く贋物で人の目を眩まし大儲けをした天罰と聞かされ私は子供心にも天罰の恐ろしさをつくづく知ったのである。<br><br> その後私が三十歳頃の事一人の女中を傭った。<br><br>その女は年は十八、九でなかなかの美人であったが惜しいかな片一方の眼が潰れているので、前記の二つの例もあるし私は何かの罪と思ったのでよく聞いたところ、この女の父は明治初年頃ゴムで作ったニセ珊瑚が初めて日本に現われた事があったその時、このニセ玉を地方へ売り歩き大儲けをしたとの話で私はなる程と思った。<br><br>この女の盲の原因というのは以前奉公をした家の坊ちゃんが、空気銃で冗談にうったのが当って片目が駄目になったとの話であった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Conto dos Dois Cegos</h2>
 <p>Quando eu contava com doze ou treze anos de idade, residi por um tempo no bairro de Senzoku, em Asakusa. Meu pai se dedicava ao comércio de antiguidades e, em seu meio, havia um homem conhecido como Hanagame (alcunha que se originou de "Kame-san de Hanakawado"), considerado, à época, o maior antiquário da região. Por volta dos sessenta anos, este homem perdeu a visão de ambos os olhos, sendo acometido por uma cegueira completa. Recordo-me vividamente de seu caso, pois meu pai mo narrava com frequência. O relato é o seguinte.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Como se pode depreender, foi o profundo rancor do sacerdote que, como uma maldição, o levou à cegueira. Ademais, seu único filho e herdeiro, entregando-se à bebida, dissipou em poucos anos a considerável fortuna da família, até que por fim abandonou o lar e desapareceu sem deixar vestígios. Consequentemente, a família foi reduzida à mais abjeta pobreza, subsistindo penosamente com o auxílio de parentes. Lembro-me de, naquela época, ter visto repetidas vezes a figura de Hanagame, já idoso, caminhando pela cidade amparado por sua esposa, que o guiava pela mão.</p>
 <p>Há um segundo exemplo, também de minha vizinhança. Tratava-se de um montador de obras de arte chamado Watanabe Ginjiro, conhecido pelo nome profissional de Kyogin. Ele, da mesma forma, perdeu a visão por volta dos sessenta anos. Eu costumava frequentar sua oficina para brincar e sempre fui tratado com muito carinho por ele. A causa de sua cegueira, porém, tem a seguinte explicação: Kyogin, embora fosse um mestre em sua arte, possuía um talento especial para a falsificação. Ele atuava em conluio com um certo pintor, exímio em imitar o traço de mestres antigos, como Okyo, Hoitsu e Zeshin. Muitas vezes, em minhas visitas, eu o observava a pintar. Cabia então a Kyogin conferir a essas telas um aspecto envelhecido, técnica na qual ele era inigualável. As marcas de caruncho que criava, por exemplo, eram tão perfeitas que se passariam por autênticas aos olhos de qualquer um. Lembro-me de que, quando eu ia brincar em sua casa, um dos cômodos permanecia sempre trancado, com a entrada vedada a todos. Ao perguntar o porquê, soube que era ali que ele produzia as marcas de insetos, longe de olhares curiosos. Assim, foi-me explicado que sua cegueira era o castigo celestial por ter ludibriado tantas pessoas com suas falsificações e acumulado grandes lucros. Mesmo com minha mente de criança, compreendi profundamente, na ocasião, o quão terrível pode ser a punição divina.</p>
 <p>Anos mais tarde, quando eu já contava com cerca de trinta anos, contratei uma criada. Era uma jovem de dezoito ou dezenove anos, de notável beleza, mas que, lamentavelmente, era cega de um olho. Tendo em mente os dois exemplos anteriores, presumi que alguma mácula espiritual estivesse por trás de sua condição e a inquiri a respeito. Ela me contou, então, que seu pai, nos primórdios da Era Meiji, quando surgiram no Japão as primeiras imitações de coral feitas de borracha, viajou pelo interior do país vendendo essas contas falsas e, com isso, amealhou uma fortuna considerável. Ao ouvir seu relato, compreendi a raiz do problema. A causa imediata de sua cegueira, segundo ela, foi um acidente: o filho do seu antigo patrão, brincando com uma espingarda de ar comprimido, disparou e a atingiu, inutilizando-lhe um dos olhos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 二人の盲の話 自観叢書第5編『自観隨談』P.35、昭和24(1949)年8月30日発行 私が十二、三の頃浅草の千束町に住んでいた事がある。<br/><br/>父は古道具屋をしていたのでその仲間であった、当時浅草一といわれた道具屋で花亀という人があった（この名は花川戸の亀さんだからである）。<br/><br/>この人は六十位の時に両眼つぶれ完全な盲目となってしまった。<br/><br/>その話を父からよく聞かされたので今でも覚えている。<br/><br/>その話はこうである。<br/><br/> 花亀が盲になったのは全く罰が当ったんだ、という事で、その訳は花亀が中年の頃当時静岡県の有名な某寺の住職が相当大仕掛で浅草の観音様の境内を借りて、開帳をした事がとんでもない運命となったのである。<br/><br/>それは予期に反し非常な損をしたので帰山する事が出来ず、止むを得ず本尊の観世音菩薩の像を花亀に抵当とし金を借りてようやく帰る事が出来た。<br/><br/>その後数ケ月経て金を拵え、約束通り花亀へ行って返金すると共に本尊の返還を求めた。<br/><br/>すると花亀は「そんな覚えは全然ない、何かの間違いだろう」といってテンデ取り合わないので、住職は進退きわまり花亀を恨んだ末軒先で縊死したのである。<br/><br/>もちろん花亀はその仏像を非常な高価で外人に売り、それから店も一段大きくなったという話である。<br/><br/>右のごとくその住職の怨恨が祟って盲目者となったのはもちろんで、しかもその一人息子の跡取りが大酒呑みで数年の間にさしもの財産も飲み潰して家出をし行方不明になったという事である。<br/><br/>その結果赤貧洗うがごとく、親戚等の援助で辛くも露命を繋いでおったような有様で、その頃よく老妻に手を曳かれ町を歩いている姿を私は度々みたのである。<br/><br/> 今一つはやはり私の近所に渡辺銀次郎こと、経銀という表具師があった。<br/><br/>これがまた六十歳頃から盲となった。<br/><br/>ここへは私はよく遊びに行って可愛がられたものである。<br/><br/>盲の原因としてはこういう訳がある。<br/><br/>この経銀というのは表具師の名人でしかも贋物を作るのが特技であった。<br/><br/>彼は某絵師と結托した。<br/><br/>その絵師は古人は元より応挙、抱一、是真等の偽筆が巧みで私はよく遊びに行っては書く所をみたものである。<br/><br/>その絵を経銀が古びをつけるがこれがまた彼の得意で、特に虫喰いなど本物としが思われない程で、私が遊びに行くとある部屋は締め切って誰も入れなかった。<br/><br/>聞いてみると虫喰いを作るのを人に見せないためである。<br/><br/>この様な訳で全く贋物で人の目を眩まし大儲けをした天罰と聞かされ私は子供心にも天罰の恐ろしさをつくづく知ったのである。<br/><br/> その後私が三十歳頃の事一人の女中を傭った。<br/><br/>その女は年は十八、九でなかなかの美人であったが惜しいかな片一方の眼が潰れているので、前記の二つの例もあるし私は何かの罪と思ったのでよく聞いたところ、この女の父は明治初年頃ゴムで作ったニセ珊瑚が初めて日本に現われた事があったその時、このニセ玉を地方へ売り歩き大儲けをしたとの話で私はなる程と思った。<br/><br/>この女の盲の原因というのは以前奉公をした家の坊ちゃんが、空気銃で冗談にうったのが当って片目が駄目になったとの話であった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

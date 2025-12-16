@@ -3,56 +3,8 @@
 <html lang="ja"><head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/><title>hakone5</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/></head>
-<body style="background-color: rgb(233, 254, 218);"><blockquote>
-
-
+<body style="background-color: rgb(233, 254, 218);"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content"><blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ――― 美の天国・箱根美術館 文学博士 藤懸静也 箱根美術館は、世界救世教教主岡田茂吉氏によって、昭和二十七年六月、箱根強羅に建立せられ、浮世絵館は同二十八年六月に、その別館として特設せられたのである。<br><br> 本館は三階建で、白亜の外観は巌として気高く、強羅の自然美の眺望をほしいままにし、三階は日本間で貴賓室、床には観音の尊像が掛けられ、自観の署名があ る。<br><br>教主の親筆で、専門の画家には、画けない優雅さがあり、荘巌な力がある。<br><br>この室は大文字山で有名な明星ケ嶽と相対し、遥か遠くに太平洋を望む眺望絶佳 な位置を占めている。<br><br>二階と一階とが陳列場で、採光もよろしく、美術品陳列のケースにも細心の注意がうかがわれ、美術館として極めてよく設計されている。<br><br> 聞けば美術館のすべての構想は教主の企画設計によるのであるという。<br><br>実に教主はこの美術館に心を傾けられたのであって、自らいわれるには、美の天国を作っ て天下に示そうとして熱海と箱根とを選び、人の心性を高める美術品を集めて、外人に日本の宝物を見せ、更に日本人には、とくと鑑賞してもらい、芸術家にも 参考として味ってもらいたい。<br><br>それについて一から十まで自ら苦心しているのであって、庭園さえも、一切自分の企画で、一木一草といえども、心を入れている のである。<br><br>かくて堅固な美術館を作り、日本の宝物を蒐集しそれを保護、保存し、多くの人々に鑑賞してもらわんとするのであって、国宝保存の上にもお役に立 てばと思うていると。<br><br>もって教主の意の深いことが推想される。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Mestre Okada Jikan – O Paraíso da Beleza: Museu de Arte de Hakone</h2>
 <p><em>Por Fujikake Shizuya, Doutor em Letras</em></p>
@@ -68,4 +20,4 @@ function toggleLang(lang) {
 て天下に示そうとして熱海と箱根とを選び、人の心性を高める美術品を集めて、外人に日本の宝物を見せ、更に日本人には、とくと鑑賞してもらい、芸術家にも
 参考として味ってもらいたい。それについて一から十まで自ら苦心しているのであって、庭園さえも、一切自分の企画で、一木一草といえども、心を入れている
 のである。かくて堅固な美術館を作り、日本の宝物を蒐集しそれを保護、保存し、多くの人々に鑑賞してもらわんとするのであって、国宝保存の上にもお役に立
-てばと思うていると。もって教主の意の深いことが推想される。<br/><br/><br/><br/><br/><br/></blockquote></body></html>
+てばと思うていると。もって教主の意の深いことが推想される。<br/><br/><br/><br/><br/><br/></blockquote></div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ――― 美の天国・箱根美術館 文学博士 藤懸静也 箱根美術館は、世界救世教教主岡田茂吉氏によって、昭和二十七年六月、箱根強羅に建立せられ、浮世絵館は同二十八年六月に、その別館として特設せられたのである。<br/><br/> 本館は三階建で、白亜の外観は巌として気高く、強羅の自然美の眺望をほしいままにし、三階は日本間で貴賓室、床には観音の尊像が掛けられ、自観の署名があ る。<br/><br/>教主の親筆で、専門の画家には、画けない優雅さがあり、荘巌な力がある。<br/><br/>この室は大文字山で有名な明星ケ嶽と相対し、遥か遠くに太平洋を望む眺望絶佳 な位置を占めている。<br/><br/>二階と一階とが陳列場で、採光もよろしく、美術品陳列のケースにも細心の注意がうかがわれ、美術館として極めてよく設計されている。<br/><br/> 聞けば美術館のすべての構想は教主の企画設計によるのであるという。<br/><br/>実に教主はこの美術館に心を傾けられたのであって、自らいわれるには、美の天国を作っ て天下に示そうとして熱海と箱根とを選び、人の心性を高める美術品を集めて、外人に日本の宝物を見せ、更に日本人には、とくと鑑賞してもらい、芸術家にも 参考として味ってもらいたい。<br/><br/>それについて一から十まで自ら苦心しているのであって、庭園さえも、一切自分の企画で、一木一草といえども、心を入れている のである。<br/><br/>かくて堅固な美術館を作り、日本の宝物を蒐集しそれを保護、保存し、多くの人々に鑑賞してもらわんとするのであって、国宝保存の上にもお役に立 てばと思うていると。<br/><br/>もって教主の意の深いことが推想される。<br/><br/></div><script src="../compare.js"></script></body></html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rirei1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狸霊と髑髏 『明日の医術 第三編』昭和18(1943)年10月23日発行 左の二つの例は、私の弟子である某海軍大佐夫人の実験記録で、霊の実在とその作用を知る上において参考になると思うから、ここに掲載する事とした。<br><br> 『久しぶりに九州から上京した姉（二十数年間女学校教師奉職中）と火鉢を囲んで、尽きぬ話はいつか霊の実在や、現代科学では割切れぬ神秘力等の事に触れてゆきました。<br><br> 「霊といえばとても不思議な事があるんですよ。<br><br>」 姉は宛（あた）かもそこに物の怪（け）でも居る様に肩を竦（すく）めて四辺（あたり）を見廻しました。<br><br>早春の夜をひっそりと雨が降っています。<br><br> 「もう十年の余にもなるかしら、未だあの士族屋敷の古い家に居た頃のある真夜中、二階に休んでいられたお祖母さん（姉の夫の母）がいきなりゲラゲラ笑い出したんです。<br><br>初めの中は夢でも見て居られるのだろうと気にも留めずに居たのですが、あまりその笑いが続くので、主人と二人お祖母さんの部屋へ行って見ました。<br><br>正体もなくゲラゲラ笑うお祖母さんに、これはてっきり発狂されたんじゃないかと、ともかくも私達は濡（ぬれ）手拭で頭を冷したり、首を冷したり、その合間には「お祖母さんお祖母さん」と大声に呼んでみたりして正気づける事に懸命に努めました。<br><br>どの位時間が経ったでしょうか。<br><br>夢中でタオルを絞っていると、ふいに東側の硝子（ガラス）窓がスルスルと忍びやかに独りでに開くではありませんか」 『開いたって、どの位開いたんです。<br><br>』 私も全身にサーッと、総毛立つものを感じながら聞いていました。<br><br> 「覚えているでしょう。<br><br>あの三尺の窓なのよ、あれが全部開いてしまったのです。<br><br>私達は冷水を浴びた様にゾッとして身体は硬直して動けなくなってしまいました。<br><br>冷たい夜気がさっと流れて、開け放された窓の外に黒い木立が怪物のように突立って見えるのが、一層私達の恐怖に拍車をかけて、その窓を閉めに行く事すら出来ません。<br><br>と、急にお祖母さんの笑い声が止んで私達を認めると 『一体どうしたの』と云うのです。<br><br> 「どうしたもこうしたもお祖母さんこそどうしたというのです。<br><br>」――主人がやっと口を開く事が出来ました。<br><br> 『夢だったろうか。<br><br>大きな猫とも犬ともつかぬ獣が蒲団の間から入って来て、私に咬みつこうとしたんだよ』 「でもお祖母さんは笑っていらしたじゃありませんか。<br><br>」 『へー、私が笑ったかねえ、それは知らない。<br><br>ただ私は、咬付かせまいとしてもがいていたんだよ』 この夜ほど、朝の光の待遠しかった事はありません。<br><br>あの不思議な出来事は人にも話せず胸に畳んで一週間程過ぎました。<br><br>するとある朝親しいお隣りのＳ氏夫人（Ｓ氏もまた姉と同じ女学校教論）が起抜けにドテラのまま裏木戸から入って来ました。<br><br> 『妾ね、夜中に主人から額を噛みつかれたのよ』いきなり挨拶もせずそういうのです。<br><br> 「朝からお惚気（のろけ）も好い加減になさい。<br><br>」――笑って相手にしない私に、Ｓ夫人は 『冗談じゃないのよ、見て御覧なさい。<br><br>私の額に歯型があるでしょう』そう言われてみれば歴然と深い歯の痕があるのです。<br><br>私も初めて本気になって 「一体どうしたというのです。<br><br>」と何かしら昨夜のお祖母さんの事件と関係がある様な予感がして訊いてみました。<br><br> 『今朝二時頃、いきなり主人が私の額に噛付いたので、キャッと悲鳴をあげると、初めて正気に返った主人は吃驚（びっくり）して飛び退きました。<br><br>これは大変な事をしたと、気の毒なほどしょげているのです。<br><br>聞いてみると、 （良い気持で眠っていると、大きな犬でもないし猫でもない動物が入ってきて噛み付こうとするので、必死になってそいつに掴みかかって行ったつもりだった。<br><br>）』 そういう訳で、一週間の間に起った両家の怪事件は、謎のまま思い出す度に今でも身震いが出ます。<br><br>」初めて聞く姉の家の怪談に、あの草葺（くさぶき）の湿っぽい、陰気な士族屋敷の家並みを想い浮べて、ゾッと背筋を冷たいものが走りました。<br><br>』 右は全く狸霊の仕業であって、狸霊の面目躍如たるものがある。<br><br>もちろん、劫（ごう）を経た古狸に違いないのである。<br><br>笑うという事は狸霊の特色であるが、窓を開けるに至っては、その霊力驚くべきものがある。<br><br> 次は―― 『もう十二、三年も前の事です。<br><br>主人の中学時代の親友Ｋ氏の夫人は、御実家の墓を何かの事情で他所（よそ）へ移す事になり、御主人のＫ氏と妹さん御夫妻とで墓所へ行かれました。<br><br> 妹さんの御主人Ｓ氏は当時なかなか羽振りの好い株屋さんでした。<br><br>墓所の発掘に取掛りますと、飛んでもない所から髑髏が一つ出て来ました。<br><br>するとＳ氏は、いきなりその髑髏をポンと蹴ったというのです。<br><br>皆あまりの所作に喫驚して 「そんな事をすると祟りが来る」と申しましたが、Ｓ氏は元々唯物的な人でしたから、 『馬鹿な！ もし祟るものなら僕一人が皆背負ってやるから、祟ってみるがよい』――と一笑に付して帰りました。<br><br> 所が帰宅すると、そのまま脳溢血で倒れてしまいました。<br><br>それからは泣きっ面に蜂と申しましょうか商売はうまく行かなくなるし、番頭は金を持って逃げるやらでさしも豪勢を誇ったＳ氏の店も破産に等しく、遂に麻布のある裏町に引込んで、細々と暮らす事になりました。<br><br> 五年間を中風でたおれたままの生活は、全く生ける屍（しかばね）という言葉そのものでありました。<br><br>腰の辺の床ずれ等二目と見られないものである。<br><br>おまけに医療費はかかるし財産はなし、それでいて死ぬにも死ねず病人は癇（かん）が立って焦れるし、Ｓ氏夫人は毎日メソメソする――とある日Ｋ夫人が来宅されての打明話でした。<br><br>そして 『もしやあの髑髏が、本当に祟ったのではないでしょうか』――と言われるのです。<br><br> その頃、私は心霊学に興味を持って、霊媒実験等をして喜んでいる時でしたから、早速霊媒に紹介状を書いて「除霊」をお願して差上げました。<br><br>紹介状はもちろんその髑髏の一件等には触れず、病人の事に関しては、年齢と名前だけ書いたのみです。<br><br> Ｋ夫人は半信半疑というよりは、むしろ嘲笑している方が多い妹のＳ夫人を同行して心霊協会へ行かれました。<br><br> 除霊のために、霊媒が入神状態に入りましたが、仲々霊が浮かず、暫くしてから『どうしても墓石が邪魔していて、何も分らない』というのだそうです。<br><br>そういわれると胸に来るものがある訳です。<br><br>両夫人は無気味な思いで顔を見合せました。<br><br>相当長い入神状態が続いてやっと霊が出ました。<br><br>私が予期していた通り「蹴られた髑髏」と名乗って出たそうです。<br><br> 『心底呪っているから、あの男は未だまだ苦しむし、それかといって死ねもしない、哀れなものさ』――とせせら笑うのです。<br><br> 「どんなお詫びでもして供養するから、その呪いを解いてほしい」両夫人も審神者も一生懸命に三十分ばかり交渉してようよう霊を納得させたそうです。<br><br> 『一週間、種々の野菜を供えてお経をあげる事』という霊の要求で帰宅すると早速仏壇（註仏壇は階下）に数々の野菜を供えました。<br><br>所が供え終ると二階の病人が、それまで碌々（ろくろく）口も利けなかったのに、イキナリ 『葱（ねぎ）を退けろ葱を退けろ』と喘ぐのだそうです。<br><br>看護婦が喫驚して、夫人の所へ来てその由を告げました。<br><br>何の事か何度聞いても同じ事を云われるので困り抜いて、ふと仏壇の葱に気付きともかく葱を取り去ってみました。<br><br>するとそのまま二階の病人は満足気に、大人しく眠り初めました。<br><br> 次の日はまた 『紙を替えろ紙を替えろ』と、もどかしく叫ぶので考えてみると、前日の紙を取替えずに裏返しで、第二日の野菜を供えたのがいけなかったという訳です。<br><br> 第三日は、剥き豆を供えたのだそうですが、『豆をもっとくれ』という訳で、山盛りにしたら納まりました。<br><br> さすが冷静な、御主人に似て唯物的なＳ夫人も気味悪さに耐えられなくなって姉さんのＫ家の書生さんを宿りに寄越して欲しいと頼みに来られだそうです。<br><br> それ以後の事は聞き漏しましたが、一週間の供養が済むと間もなく、安らかにＳ氏は息を引とられました。<br><br> 右の体験によって流石のＳ氏夫人も、その後は夢の醒めたごとく、霊を信ずるようになったそうです。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Espírito do Tanuki e a Caveira</h2>
 <p>Os dois relatos que se seguem são registros de experiências vividas pela esposa de um capitão da marinha, uma de minhas discípulas. Decidi publicá-los por considerá-los valiosos para a compreensão da existência real dos espíritos e de sua influência.</p>
@@ -134,5 +286,48 @@ function toggleLang(lang) {
 <p>Diante de tais fatos, até mesmo a senhora S., uma mulher pragmática e materialista como o marido, não suportou o temor e pediu à sua irmã, a senhora K., que enviasse um de seus empregados para passar as noites em sua casa.</p>
 <p>Não soube dos detalhes subsequentes, mas me contaram que, logo após o término da semana de oferendas, o senhor S. faleceu em paz.</p>
 <p>Dizem que, após essa experiência, a senhora S. despertou como de um sonho e passou a acreditar firmemente na existência do mundo espiritual.”</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狸霊と髑髏 『明日の医術 第三編』昭和18(1943)年10月23日発行 左の二つの例は、私の弟子である某海軍大佐夫人の実験記録で、霊の実在とその作用を知る上において参考になると思うから、ここに掲載する事とした。<br/><br/> 『久しぶりに九州から上京した姉（二十数年間女学校教師奉職中）と火鉢を囲んで、尽きぬ話はいつか霊の実在や、現代科学では割切れぬ神秘力等の事に触れてゆきました。<br/><br/> 「霊といえばとても不思議な事があるんですよ。<br/><br/>」 姉は宛（あた）かもそこに物の怪（け）でも居る様に肩を竦（すく）めて四辺（あたり）を見廻しました。<br/><br/>早春の夜をひっそりと雨が降っています。<br/><br/> 「もう十年の余にもなるかしら、未だあの士族屋敷の古い家に居た頃のある真夜中、二階に休んでいられたお祖母さん（姉の夫の母）がいきなりゲラゲラ笑い出したんです。<br/><br/>初めの中は夢でも見て居られるのだろうと気にも留めずに居たのですが、あまりその笑いが続くので、主人と二人お祖母さんの部屋へ行って見ました。<br/><br/>正体もなくゲラゲラ笑うお祖母さんに、これはてっきり発狂されたんじゃないかと、ともかくも私達は濡（ぬれ）手拭で頭を冷したり、首を冷したり、その合間には「お祖母さんお祖母さん」と大声に呼んでみたりして正気づける事に懸命に努めました。<br/><br/>どの位時間が経ったでしょうか。<br/><br/>夢中でタオルを絞っていると、ふいに東側の硝子（ガラス）窓がスルスルと忍びやかに独りでに開くではありませんか」 『開いたって、どの位開いたんです。<br/><br/>』 私も全身にサーッと、総毛立つものを感じながら聞いていました。<br/><br/> 「覚えているでしょう。<br/><br/>あの三尺の窓なのよ、あれが全部開いてしまったのです。<br/><br/>私達は冷水を浴びた様にゾッとして身体は硬直して動けなくなってしまいました。<br/><br/>冷たい夜気がさっと流れて、開け放された窓の外に黒い木立が怪物のように突立って見えるのが、一層私達の恐怖に拍車をかけて、その窓を閉めに行く事すら出来ません。<br/><br/>と、急にお祖母さんの笑い声が止んで私達を認めると 『一体どうしたの』と云うのです。<br/><br/> 「どうしたもこうしたもお祖母さんこそどうしたというのです。<br/><br/>」――主人がやっと口を開く事が出来ました。<br/><br/> 『夢だったろうか。<br/><br/>大きな猫とも犬ともつかぬ獣が蒲団の間から入って来て、私に咬みつこうとしたんだよ』 「でもお祖母さんは笑っていらしたじゃありませんか。<br/><br/>」 『へー、私が笑ったかねえ、それは知らない。<br/><br/>ただ私は、咬付かせまいとしてもがいていたんだよ』 この夜ほど、朝の光の待遠しかった事はありません。<br/><br/>あの不思議な出来事は人にも話せず胸に畳んで一週間程過ぎました。<br/><br/>するとある朝親しいお隣りのＳ氏夫人（Ｓ氏もまた姉と同じ女学校教論）が起抜けにドテラのまま裏木戸から入って来ました。<br/><br/> 『妾ね、夜中に主人から額を噛みつかれたのよ』いきなり挨拶もせずそういうのです。<br/><br/> 「朝からお惚気（のろけ）も好い加減になさい。<br/><br/>」――笑って相手にしない私に、Ｓ夫人は 『冗談じゃないのよ、見て御覧なさい。<br/><br/>私の額に歯型があるでしょう』そう言われてみれば歴然と深い歯の痕があるのです。<br/><br/>私も初めて本気になって 「一体どうしたというのです。<br/><br/>」と何かしら昨夜のお祖母さんの事件と関係がある様な予感がして訊いてみました。<br/><br/> 『今朝二時頃、いきなり主人が私の額に噛付いたので、キャッと悲鳴をあげると、初めて正気に返った主人は吃驚（びっくり）して飛び退きました。<br/><br/>これは大変な事をしたと、気の毒なほどしょげているのです。<br/><br/>聞いてみると、 （良い気持で眠っていると、大きな犬でもないし猫でもない動物が入ってきて噛み付こうとするので、必死になってそいつに掴みかかって行ったつもりだった。<br/><br/>）』 そういう訳で、一週間の間に起った両家の怪事件は、謎のまま思い出す度に今でも身震いが出ます。<br/><br/>」初めて聞く姉の家の怪談に、あの草葺（くさぶき）の湿っぽい、陰気な士族屋敷の家並みを想い浮べて、ゾッと背筋を冷たいものが走りました。<br/><br/>』 右は全く狸霊の仕業であって、狸霊の面目躍如たるものがある。<br/><br/>もちろん、劫（ごう）を経た古狸に違いないのである。<br/><br/>笑うという事は狸霊の特色であるが、窓を開けるに至っては、その霊力驚くべきものがある。<br/><br/> 次は―― 『もう十二、三年も前の事です。<br/><br/>主人の中学時代の親友Ｋ氏の夫人は、御実家の墓を何かの事情で他所（よそ）へ移す事になり、御主人のＫ氏と妹さん御夫妻とで墓所へ行かれました。<br/><br/> 妹さんの御主人Ｓ氏は当時なかなか羽振りの好い株屋さんでした。<br/><br/>墓所の発掘に取掛りますと、飛んでもない所から髑髏が一つ出て来ました。<br/><br/>するとＳ氏は、いきなりその髑髏をポンと蹴ったというのです。<br/><br/>皆あまりの所作に喫驚して 「そんな事をすると祟りが来る」と申しましたが、Ｓ氏は元々唯物的な人でしたから、 『馬鹿な！ もし祟るものなら僕一人が皆背負ってやるから、祟ってみるがよい』――と一笑に付して帰りました。<br/><br/> 所が帰宅すると、そのまま脳溢血で倒れてしまいました。<br/><br/>それからは泣きっ面に蜂と申しましょうか商売はうまく行かなくなるし、番頭は金を持って逃げるやらでさしも豪勢を誇ったＳ氏の店も破産に等しく、遂に麻布のある裏町に引込んで、細々と暮らす事になりました。<br/><br/> 五年間を中風でたおれたままの生活は、全く生ける屍（しかばね）という言葉そのものでありました。<br/><br/>腰の辺の床ずれ等二目と見られないものである。<br/><br/>おまけに医療費はかかるし財産はなし、それでいて死ぬにも死ねず病人は癇（かん）が立って焦れるし、Ｓ氏夫人は毎日メソメソする――とある日Ｋ夫人が来宅されての打明話でした。<br/><br/>そして 『もしやあの髑髏が、本当に祟ったのではないでしょうか』――と言われるのです。<br/><br/> その頃、私は心霊学に興味を持って、霊媒実験等をして喜んでいる時でしたから、早速霊媒に紹介状を書いて「除霊」をお願して差上げました。<br/><br/>紹介状はもちろんその髑髏の一件等には触れず、病人の事に関しては、年齢と名前だけ書いたのみです。<br/><br/> Ｋ夫人は半信半疑というよりは、むしろ嘲笑している方が多い妹のＳ夫人を同行して心霊協会へ行かれました。<br/><br/> 除霊のために、霊媒が入神状態に入りましたが、仲々霊が浮かず、暫くしてから『どうしても墓石が邪魔していて、何も分らない』というのだそうです。<br/><br/>そういわれると胸に来るものがある訳です。<br/><br/>両夫人は無気味な思いで顔を見合せました。<br/><br/>相当長い入神状態が続いてやっと霊が出ました。<br/><br/>私が予期していた通り「蹴られた髑髏」と名乗って出たそうです。<br/><br/> 『心底呪っているから、あの男は未だまだ苦しむし、それかといって死ねもしない、哀れなものさ』――とせせら笑うのです。<br/><br/> 「どんなお詫びでもして供養するから、その呪いを解いてほしい」両夫人も審神者も一生懸命に三十分ばかり交渉してようよう霊を納得させたそうです。<br/><br/> 『一週間、種々の野菜を供えてお経をあげる事』という霊の要求で帰宅すると早速仏壇（註仏壇は階下）に数々の野菜を供えました。<br/><br/>所が供え終ると二階の病人が、それまで碌々（ろくろく）口も利けなかったのに、イキナリ 『葱（ねぎ）を退けろ葱を退けろ』と喘ぐのだそうです。<br/><br/>看護婦が喫驚して、夫人の所へ来てその由を告げました。<br/><br/>何の事か何度聞いても同じ事を云われるので困り抜いて、ふと仏壇の葱に気付きともかく葱を取り去ってみました。<br/><br/>するとそのまま二階の病人は満足気に、大人しく眠り初めました。<br/><br/> 次の日はまた 『紙を替えろ紙を替えろ』と、もどかしく叫ぶので考えてみると、前日の紙を取替えずに裏返しで、第二日の野菜を供えたのがいけなかったという訳です。<br/><br/> 第三日は、剥き豆を供えたのだそうですが、『豆をもっとくれ』という訳で、山盛りにしたら納まりました。<br/><br/> さすが冷静な、御主人に似て唯物的なＳ夫人も気味悪さに耐えられなくなって姉さんのＫ家の書生さんを宿りに寄越して欲しいと頼みに来られだそうです。<br/><br/> それ以後の事は聞き漏しましたが、一週間の供養が済むと間もなく、安らかにＳ氏は息を引とられました。<br/><br/> 右の体験によって流石のＳ氏夫人も、その後は夢の醒めたごとく、霊を信ずるようになったそうです。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

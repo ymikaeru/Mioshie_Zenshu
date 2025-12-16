@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280926</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S28年9月26日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月二十六日（４日目） 今年の六月十五日の時に“これから浄化が本当になるから、なにがあるか分からない”と言いましたが、それから間もなく九州の水害があり、それから今度の台風も、その掃除がなかなか念入りになってきました。<br><br>今年のようにしつこい台風はないでしょう。<br><br>やはりいろいろ汚いものが溜まるからですが、土は肥毒が溜まり、人間は薬毒が溜まるのだから、どうしても神様は、だんだんきれいにするについては、いろんな方法で掃除をしなければならないのです。<br><br>昨日の演芸で柴田早苗という有名な人が来ましたが、夜眠られないと言うので、頸をちょっとみてやりましたが、その薬毒の固まりというものはたいへんなものです。<br><br>それで“あなたは今日本では国宝みたいなものだから、治してあげるから月に二、三回来なさい”と言ってやりました。<br><br>それから堤真佐子という人が、私もついでにみてもらいたいというので、みてやったところが、早苗ほどではないが、ものすごいのです。<br><br>ああいう人は始終いろんな薬をのんでいるので、本当に浄化が始まったら命はありません。<br><br>だから柴田早苗にも言ってやりましたが、非常に喜んでました。<br><br>ですから現代人での少し新しいような、気のきいたような人間は、みんなこういうようだと思えばよいです。<br><br>そういうようなわけで、土は肥毒が固まっていてどうにもならないし、人間は薬毒の固まりみたいなものですから、前途が思いやられます。<br><br> 自然農法ですけれども、だいぶ注目されてきたようです。<br><br>今年はいろんな害がありますが、特に病虫害、冷害、水害と、主な害が三つあります。<br><br>そこであのとおり不作なのです。<br><br>いろんな数字がありますが、結局七、八百万石の減収は確かだと思います。<br><br>ですから一割ではきかないです。<br><br>とにかく大問題です。<br><br>それでまたこういう事情になればなるほど、自然農法の方が分かりやすいのです。<br><br>そんな影響で各地とも、その土地の篤農家とか有力者というのがよほど分かってきたのです。<br><br>ですから会員もドシドシ増えてますから、この分でゆくと、全国的に普及されるのはあんがい早いと思ってます。<br><br>今日はわずかの時間しかないので、ラジオのニュース的に要点だけをお話しします。<br><br> 米国の方の布教は着々と発展しつつありまして、近々サンフランシスコ、シアトルに支部ができるだろうと思っています。<br><br>どちらにも信者が三人ずつできました。<br><br>それで現在のロサンゼルスと三カ所で本格的に活動を始めるだろうと思ってます。<br><br>だから来年あたりになったら目覚ましい発展をするだろうと思います。<br><br> 次に、この間世界中の科学者が日本に集まって理論物理学の会議がありました。<br><br>これについて私はもう少したったら科学の理論を書こうと思ってます。<br><br>今度世界中の科学者が集まっての論議の中心は大体物性論です。<br><br>湯川博士などは特にこれに力を入れてますが、この物性論というのは素粒子論から一歩進んだものです。<br><br>物性論というものは、今まで発見した微粒子よりいっそう細かいものです。<br><br>しかしまだ実験物理学では把握できないものです。<br><br>それで素粒子というのは湯川博士がノーベル賞をとったのですが、宇宙線を写真に写すときに六つか七つの粒子が写って、それが中間子ということになったのですが、それは実験物理学で発見して確定したわけです。<br><br>ところが物性論というのは、もういっそう細かいものです。<br><br>そこで理論だけでは確かにあるというけれども、まだ実験の証明はできないのです。<br><br>素粒子までは今言う宇宙線によって物理的に分かったけれども、物性論の方はなかなか難しいのです。<br><br>というのは、もう霊の方に入ってきているからです。<br><br>ですから科学というのは大体物理科学ですが、科学は今、量子力学の方に入りかけてきたのです。<br><br>ですから科学がこれから先に行けば行くほど、だんだん分からなくなってきます。<br><br>というのは、結局お辞儀するよりほかありません。<br><br>それで私が書こうというのは物性論から先の分野です。<br><br>それでこの間も顕微鏡何万倍ということを書きましたが、あの理屈なのです。<br><br>ですからこれから進んで行くと、ますます分からない所に入って行きます。<br><br>それについて京都での開会式で湯川博士が“今の科学はちょうど暗闇の中にみんなが集まっていて、各々どっちの方に行ったがよいかということを考えたり論議している状態で、どこかに行かなければならないが、しかしどこが確かだということは分からない。<br><br>五里霧中だ。<br><br>それが今の科学界の現状だ”ということを言いましたが、うまい言い表わし方だと思います。<br><br> そこで科学はつまり霊界に入ってきたのです。<br><br>すなわち自分の受け持ちでない所に入りかけてきたのです。<br><br>そこで結局どこまで行くかというと、この間も言ったとおり無限界です。<br><br>科学というものは、たとえ素粒子だとか物性論だとか言ったところで、またそのものが発見できたところで、それをいかに全人類に役立たせるかということが最後の問題です。<br><br>それには力です。<br><br>それについてはこの間も科学者で量子力学を話した人がありますが、結局量子力学で、力です。<br><br>その発見した物質なり粒子なりの力をどうすれば出せるかということです。<br><br>要するに原子爆弾も原子科学から力を発見したわけです。<br><br>これは私はその原理は『信仰雑話』にも書いてあるとおり、地球から水分を抜けば一瞬にして爆発するというそれです。<br><br>これだけの範囲の中から水分を抜いて、からにしてしまうというのです。<br><br>ぜんぜん水分をなくすれば気体が爆発します。<br><br>そうするとたくさんの核というものがあって、次のを爆発し、また次へと行く。<br><br>それがある程度に行くのです。<br><br>私はこの理論は二十何年か前に書いているのです。<br><br>その方法を科学の方で発見したわけですが、これは科学の方でもかなり成功した方です。<br><br>今のは原子科学の力を出したということですが、それとても一部です。<br><br>よく、水素爆弾を東京で爆発させると沼津あたりまで破壊するということを言ってますが、しかし日本全土を破壊する、あるいは東洋全土を、世界全土を破壊するというわけにはゆきません。<br><br>それはつまり物質の力だからです。<br><br>物質の力というのは有限力なのです。<br><br>有限力とは限りある力ですから知れたものです。<br><br>ところが科学が自分の分野でない霊の方に入るとなれば、科学ではなくなるのです。<br><br>結局科学は粒子ですから、これは数えられるわけです。<br><br>何億何十億の粒子だとて計算ができますが、そうすればそれで限度があるのです。<br><br>ですからどうしても無限でなければならないのです。<br><br>無限粒子というわけですが、しかし粒子という名もつけられません。<br><br>要するに無限力です。<br><br>それで浄霊で病気が治るということは無限力です。<br><br>この無限力というのが神様の力です。<br><br>ですからロサンゼルスも最近非常な奇蹟のお蔭がいくつもありましたが、そうすると私から発する霊がロサンゼルスまで行くのだから、とても原子爆弾どころの小さなものではありません。<br><br>そこに有限力と無限力の違いさがあるのです。<br><br>それでやっぱり有限力では限度があるから、人を救うとか世の中を良くするということはできないのです。<br><br>ある程度まで、ある範囲までという所ですから、それでは駄目です。<br><br>ちょうど今、共産主義とか資本主義とかいって争っているようなものです。<br><br>そういう主義というものが有限なのです。<br><br>それで世の中は良くならないのです。<br><br>それで一つの主義をよくすると他の主義をやっつけることになり、それでは全体を良くするということはできません。<br><br>ですから世界人類を救うということは、世界全土に力が行かなければならないのです。<br><br>それが神様の力です。<br><br>そういうことを昨夜大下宇陀児（うだる）さんに簡単に話したところが“これは救世教を見直さなければならない。<br><br>科学のそんな奥の方まで言うとは、今まで考えていたのはまるで間違っていた”と、つくづく言ってました。<br><br>それで浄霊でどういうわけで病気が治るかということを、今言った理論科学的に、誰にも納得のゆくように詳しく書くつもりです。<br><br>そうするとどうしても神様の解剖ということになるのです。<br><br>そこで神様を解剖するといっても、主神は別ですが、いろんな神様の種類があるし階級もありますから、そういうこともよく分かるように書きます。<br><br>そうすると宗教も科学も別々に見ることはできないのです。<br><br>結局同じではないが……大きく言えば同じですが……ただ価値から言うと安いものと高いものとの違いです。<br><br>つまり科学は安物なのです。<br><br>それで神霊の方は、あんまり値打ちがありすぎて値段をつけられないくらいなものです。<br><br>そういうことも書くつもりです。<br><br>お祭りの話のようでなく、大学の講義のようになりましたが、ちょうどこの間科学の会がありましたし、これは学問上から言っても新しい説で、これほど新しい説はないのだから、早くお話ししようと思って話をしたわけです。<br><br> 美術館もだいぶ知れ渡ってきて、観覧者もだんだん増えてきました。<br><br>特に外人の間にもだんだん知れてきたとみえて、必ず何人か来ます。<br><br>そういうわけで、来年あたりになるといっそう認められるようになるわけですが、それについて、来年の計画としては第一番に桃山展をやろうと思います。<br><br>これは去年東京のあるデパートでやり、私の方でも少し出しましたが、あれはごく貧弱なもので、ただ一般の客寄せみたいなものでした。<br><br>来年こっちでやるのは、すばらしいものになると思います。<br><br>門外不出の、だれも知らないような物がそうとうにあります。<br><br>そういう物だけは、いずれ桃山展をやるときにと思って、今まであんまり出品しなかったのです。<br><br>ですから来年出すときには、ほとんど見ない物ばかりと言ってもよいのですから、大いに楽しみに待っていてよいと思います。<br><br>それから六、七の二カ月は近代名品展というのをやります。<br><br>そうして八、九、十の三カ月は第二回の浮世絵展をやろうと思います。<br><br>今年の浮世絵展は非常に評判がよかったし、それからまた奇蹟的に良い物が随分集まって、まだあそこに出さない物がそうとうにありますから、来年はぜんぜん変わった物を出すつもりです。<br><br>近代名品展の方は明治以来の名人の傑作品というわけです。<br><br>工芸品の方は、蒔絵の松民（しょうみん）、松哉（しょうさい）、自得（じとく）、包美（ほうび）。<br><br>彫金は加納夏雄です。<br><br>幾人もいますが、明治以来の名人としては夏雄が傑出してます。<br><br>彫刻は佐藤玄々（げんげん）、平櫛田中（でんちゅう）。<br><br>陶器は板谷波山（はざん）。<br><br>堆朱（ついしゅ）は楊成（ようぜい）。<br><br>竹細工は飯塚琅かん斎。<br><br>絵の方は、抱一（ほういつ）、是真（ぜしん）、雅邦（がほう）、芳崖（ほうがい）、栖鳳（せいほう）、鉄斎、大観、玉堂（ぎょくどう）、春草（しゅんそう）。<br><br>大体そういうような人たちのを出すつもりです。<br><br>この中には門外不出の物が随分いろいろありますから、これはまたすばらしいものになると思います。<br><br> それから熱海の方もだいぶ進捗しつつありますが、今やっている「救世会館」は来年の春ということになってましたが、どうも神様の方ではよほど念を入れて、あんまり急いでやって欠点のあるようなものになってはいけないというので、なかなかゆっくりされるのです。<br><br>それで間違いのないところ秋に開館式になるというようなわけです。<br><br>景観台のガラスの家はわけなく一緒にできるでしょう。<br><br>その次に美術館ですが、美術館は勿論ここのより大きいことと、すべての点において、ここの見本で分かりましたから、いっそう良いものを造るつもりです。<br><br>それから今度は箱根の光明台ですが、そこの敷地もこの間行って土地の設計だけはやりました。<br><br>これは丸い家ですが、半円形ではなく、円形がもっと多く三分の二くらいの円形にして、外観を見るとちょうど昔の国技館というような形になります。<br><br>つまり末広形です。<br><br>なにしろ人数は一万人を入れるつもりですから、長方形や四角ではうまくありません。<br><br>そこで円形にして、ここに私が坐って、まわりに丸くゆくと大勢入れるし、話もよく聞けるわけです。<br><br>こういった四角なのは間抜けなのです。<br><br>椅子も直線にしてますが、これが丸くなると遠くからも放射状的に向かい合えますから、これに限るのです。<br><br>今まで世界でもそういうような建て方はあまり見ないが、もっともそんなに大勢入れるつもりもないのでしょうが、これも新しい企画だと思ってます。<br><br>それにはなんと言っても向こうに突き抜ける道が先の問題ですから、そこでケーブルの下のトンネルをこれからやるつもりです。<br><br>そうして今花畑になっている所に広い広場を作って、そこに信者の宿舎を、会別か県別にするかして、少なくとも一万人以上泊まれるくらいのものを造りたいと思ってます。<br><br>しかしあるいはそれは難しいかもしれませんが、はみ出た者はやっぱり宿屋のご厄介になるかもしれません。<br><br>もっともあんまりこっちばかりでやると、宿屋の方で期待していたのがまるっきり駄目になって、困るというので、また嘆願書などが出ますから。<br><br>それで殿堂には一万人ですが、多くなった時には、テントを張って二万人ぐらい入るような広さにするつもりです。<br><br>約五千坪ありますが、家が二千五百坪か三千坪です。<br><br>約半分くらいでできます。<br><br>そういう計画で、これから土地を作るのですから、建築はどうしても三年ぐらい先になりましょう。<br><br>またちょうどその時分にはそのくらいのものが適当するような情勢に神様がされるでしょう。<br><br>なにしろ神様の計画は大体できあがっているのですが、ただ時期です。<br><br>時期が来ると私にそういう指図をするというようなわけですから、いつも言うとおり、はなはだ気楽な話です。<br><br>それだけ設計するのに、ちょっと行って三十分ばかりですまして、明くる日にはその仕事をする植木屋や土木の方に命令しました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Poder Infinito e os Novos Rumos da Salvação</h2>
 <p>Em 15 de junho deste ano, afirmei que, a partir daquele momento, a purificação se intensificaria e o que poderia ocorrer era imprevisível. Pouco tempo depois, sobrevieram as inundações na região de Kyushu e, em seguida, o recente tufão, demonstrando que essa limpeza vem se tornando cada vez mais meticulosa. Dificilmente haverá registro de um tufão tão persistente como o deste ano. Com efeito, tal fenômeno ocorre devido ao acúmulo de diversas impurezas: no solo, acumulam-se as toxinas dos adubos; no ser humano, as toxinas dos medicamentos. Sendo assim, para purificar o mundo gradualmente, é imperativo que Deus se utilize de variados métodos para realizar essa limpeza.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Em Atami, as obras também progridem. A previsão de conclusão do “Kyusei Kaikan” era para a primavera do próximo ano. No entanto, parece que Deus deseja que o trabalho seja feito com o máximo esmero, para que não haja falhas decorrentes da pressa, e por isso o ritmo está mais lento. Assim, é quase certo que a cerimônia de inauguração ocorrerá no outono. A casa de vidro do Mirante Panorâmico deverá ser concluída sem problemas junto com o salão. Em seguida, virá o Museu de Arte. Ele será, naturalmente, maior que o de Hakone, e, em todos os aspectos, construiremos algo ainda melhor, pois aprendemos muito com o modelo que temos aqui.</p>
 <p>Agora, sobre o Komyodai de Hakone, estive lá recentemente e defini o projeto para o terreno. Será um edifício circular, mas não um semicírculo; terá uma forma correspondente a cerca de dois terços de um círculo. Visto de fora, sua aparência lembrará o antigo estádio Kokugikan, com seu formato de leque aberto. Pretendemos acomodar dez mil pessoas, e para um público tão grande, um formato retangular ou quadrado como este é pouco eficiente. Com uma estrutura circular, eu me sentarei aqui, e todos poderão se dispor ao redor, permitindo que mais pessoas entrem e ouçam bem a palestra. As cadeiras, em vez de estarem em fileiras retas, serão dispostas de forma radial, permitindo que mesmo os que estão distantes fiquem de frente para o centro. É a melhor solução. Embora não se vejam muitas construções desse tipo no mundo, talvez seja porque não se planeja acomodar tantas pessoas. Considero este também um projeto inovador.</p>
 <p>Para viabilizá-lo, a questão prioritária é o acesso que atravessará o terreno. Portanto, o próximo passo será a construção do túnel sob o teleférico. Além disso, no local que hoje é um campo de flores, criaremos uma grande praça e construiremos dormitórios para os fiéis, divididos por Igreja ou por província, com capacidade para pelo menos dez mil pessoas. Talvez seja um projeto ambicioso, e aqueles que não conseguirem acomodação terão de recorrer às hospedarias locais. Afinal, se concentrarmos tudo aqui, as hospedarias, que contam com nosso público, ficariam em uma situação difícil e poderiam até nos enviar petições. O salão principal comportará dez mil pessoas, mas em ocasiões de maior afluência, pretendemos armar tendas para receber cerca de vinte mil. O terreno tem aproximadamente cinco mil tsubo, e a construção ocupará entre dois mil e quinhentos e três mil tsubo, cerca de metade da área. Com este plano, iniciaremos agora a preparação do terreno, de modo que a construção em si deverá começar daqui a uns três anos. Creio que, nessa época, a situação do mundo será tal que Deus fará com que uma estrutura dessa magnitude seja apropriada. O plano de Deus já está, em grande parte, definido; a única questão é o momento certo. Quando a hora chega, Ele me dá as devidas instruções. Como sempre digo, tudo transcorre com notável serenidade. Para projetar tudo isso, bastou uma visita de cerca de trinta minutos ao local, e no dia seguinte já transmiti as ordens aos paisagistas e engenheiros responsáveis pela obra.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S28年9月26日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月二十六日（４日目） 今年の六月十五日の時に“これから浄化が本当になるから、なにがあるか分からない”と言いましたが、それから間もなく九州の水害があり、それから今度の台風も、その掃除がなかなか念入りになってきました。<br/><br/>今年のようにしつこい台風はないでしょう。<br/><br/>やはりいろいろ汚いものが溜まるからですが、土は肥毒が溜まり、人間は薬毒が溜まるのだから、どうしても神様は、だんだんきれいにするについては、いろんな方法で掃除をしなければならないのです。<br/><br/>昨日の演芸で柴田早苗という有名な人が来ましたが、夜眠られないと言うので、頸をちょっとみてやりましたが、その薬毒の固まりというものはたいへんなものです。<br/><br/>それで“あなたは今日本では国宝みたいなものだから、治してあげるから月に二、三回来なさい”と言ってやりました。<br/><br/>それから堤真佐子という人が、私もついでにみてもらいたいというので、みてやったところが、早苗ほどではないが、ものすごいのです。<br/><br/>ああいう人は始終いろんな薬をのんでいるので、本当に浄化が始まったら命はありません。<br/><br/>だから柴田早苗にも言ってやりましたが、非常に喜んでました。<br/><br/>ですから現代人での少し新しいような、気のきいたような人間は、みんなこういうようだと思えばよいです。<br/><br/>そういうようなわけで、土は肥毒が固まっていてどうにもならないし、人間は薬毒の固まりみたいなものですから、前途が思いやられます。<br/><br/> 自然農法ですけれども、だいぶ注目されてきたようです。<br/><br/>今年はいろんな害がありますが、特に病虫害、冷害、水害と、主な害が三つあります。<br/><br/>そこであのとおり不作なのです。<br/><br/>いろんな数字がありますが、結局七、八百万石の減収は確かだと思います。<br/><br/>ですから一割ではきかないです。<br/><br/>とにかく大問題です。<br/><br/>それでまたこういう事情になればなるほど、自然農法の方が分かりやすいのです。<br/><br/>そんな影響で各地とも、その土地の篤農家とか有力者というのがよほど分かってきたのです。<br/><br/>ですから会員もドシドシ増えてますから、この分でゆくと、全国的に普及されるのはあんがい早いと思ってます。<br/><br/>今日はわずかの時間しかないので、ラジオのニュース的に要点だけをお話しします。<br/><br/> 米国の方の布教は着々と発展しつつありまして、近々サンフランシスコ、シアトルに支部ができるだろうと思っています。<br/><br/>どちらにも信者が三人ずつできました。<br/><br/>それで現在のロサンゼルスと三カ所で本格的に活動を始めるだろうと思ってます。<br/><br/>だから来年あたりになったら目覚ましい発展をするだろうと思います。<br/><br/> 次に、この間世界中の科学者が日本に集まって理論物理学の会議がありました。<br/><br/>これについて私はもう少したったら科学の理論を書こうと思ってます。<br/><br/>今度世界中の科学者が集まっての論議の中心は大体物性論です。<br/><br/>湯川博士などは特にこれに力を入れてますが、この物性論というのは素粒子論から一歩進んだものです。<br/><br/>物性論というものは、今まで発見した微粒子よりいっそう細かいものです。<br/><br/>しかしまだ実験物理学では把握できないものです。<br/><br/>それで素粒子というのは湯川博士がノーベル賞をとったのですが、宇宙線を写真に写すときに六つか七つの粒子が写って、それが中間子ということになったのですが、それは実験物理学で発見して確定したわけです。<br/><br/>ところが物性論というのは、もういっそう細かいものです。<br/><br/>そこで理論だけでは確かにあるというけれども、まだ実験の証明はできないのです。<br/><br/>素粒子までは今言う宇宙線によって物理的に分かったけれども、物性論の方はなかなか難しいのです。<br/><br/>というのは、もう霊の方に入ってきているからです。<br/><br/>ですから科学というのは大体物理科学ですが、科学は今、量子力学の方に入りかけてきたのです。<br/><br/>ですから科学がこれから先に行けば行くほど、だんだん分からなくなってきます。<br/><br/>というのは、結局お辞儀するよりほかありません。<br/><br/>それで私が書こうというのは物性論から先の分野です。<br/><br/>それでこの間も顕微鏡何万倍ということを書きましたが、あの理屈なのです。<br/><br/>ですからこれから進んで行くと、ますます分からない所に入って行きます。<br/><br/>それについて京都での開会式で湯川博士が“今の科学はちょうど暗闇の中にみんなが集まっていて、各々どっちの方に行ったがよいかということを考えたり論議している状態で、どこかに行かなければならないが、しかしどこが確かだということは分からない。<br/><br/>五里霧中だ。<br/><br/>それが今の科学界の現状だ”ということを言いましたが、うまい言い表わし方だと思います。<br/><br/> そこで科学はつまり霊界に入ってきたのです。<br/><br/>すなわち自分の受け持ちでない所に入りかけてきたのです。<br/><br/>そこで結局どこまで行くかというと、この間も言ったとおり無限界です。<br/><br/>科学というものは、たとえ素粒子だとか物性論だとか言ったところで、またそのものが発見できたところで、それをいかに全人類に役立たせるかということが最後の問題です。<br/><br/>それには力です。<br/><br/>それについてはこの間も科学者で量子力学を話した人がありますが、結局量子力学で、力です。<br/><br/>その発見した物質なり粒子なりの力をどうすれば出せるかということです。<br/><br/>要するに原子爆弾も原子科学から力を発見したわけです。<br/><br/>これは私はその原理は『信仰雑話』にも書いてあるとおり、地球から水分を抜けば一瞬にして爆発するというそれです。<br/><br/>これだけの範囲の中から水分を抜いて、からにしてしまうというのです。<br/><br/>ぜんぜん水分をなくすれば気体が爆発します。<br/><br/>そうするとたくさんの核というものがあって、次のを爆発し、また次へと行く。<br/><br/>それがある程度に行くのです。<br/><br/>私はこの理論は二十何年か前に書いているのです。<br/><br/>その方法を科学の方で発見したわけですが、これは科学の方でもかなり成功した方です。<br/><br/>今のは原子科学の力を出したということですが、それとても一部です。<br/><br/>よく、水素爆弾を東京で爆発させると沼津あたりまで破壊するということを言ってますが、しかし日本全土を破壊する、あるいは東洋全土を、世界全土を破壊するというわけにはゆきません。<br/><br/>それはつまり物質の力だからです。<br/><br/>物質の力というのは有限力なのです。<br/><br/>有限力とは限りある力ですから知れたものです。<br/><br/>ところが科学が自分の分野でない霊の方に入るとなれば、科学ではなくなるのです。<br/><br/>結局科学は粒子ですから、これは数えられるわけです。<br/><br/>何億何十億の粒子だとて計算ができますが、そうすればそれで限度があるのです。<br/><br/>ですからどうしても無限でなければならないのです。<br/><br/>無限粒子というわけですが、しかし粒子という名もつけられません。<br/><br/>要するに無限力です。<br/><br/>それで浄霊で病気が治るということは無限力です。<br/><br/>この無限力というのが神様の力です。<br/><br/>ですからロサンゼルスも最近非常な奇蹟のお蔭がいくつもありましたが、そうすると私から発する霊がロサンゼルスまで行くのだから、とても原子爆弾どころの小さなものではありません。<br/><br/>そこに有限力と無限力の違いさがあるのです。<br/><br/>それでやっぱり有限力では限度があるから、人を救うとか世の中を良くするということはできないのです。<br/><br/>ある程度まで、ある範囲までという所ですから、それでは駄目です。<br/><br/>ちょうど今、共産主義とか資本主義とかいって争っているようなものです。<br/><br/>そういう主義というものが有限なのです。<br/><br/>それで世の中は良くならないのです。<br/><br/>それで一つの主義をよくすると他の主義をやっつけることになり、それでは全体を良くするということはできません。<br/><br/>ですから世界人類を救うということは、世界全土に力が行かなければならないのです。<br/><br/>それが神様の力です。<br/><br/>そういうことを昨夜大下宇陀児（うだる）さんに簡単に話したところが“これは救世教を見直さなければならない。<br/><br/>科学のそんな奥の方まで言うとは、今まで考えていたのはまるで間違っていた”と、つくづく言ってました。<br/><br/>それで浄霊でどういうわけで病気が治るかということを、今言った理論科学的に、誰にも納得のゆくように詳しく書くつもりです。<br/><br/>そうするとどうしても神様の解剖ということになるのです。<br/><br/>そこで神様を解剖するといっても、主神は別ですが、いろんな神様の種類があるし階級もありますから、そういうこともよく分かるように書きます。<br/><br/>そうすると宗教も科学も別々に見ることはできないのです。<br/><br/>結局同じではないが……大きく言えば同じですが……ただ価値から言うと安いものと高いものとの違いです。<br/><br/>つまり科学は安物なのです。<br/><br/>それで神霊の方は、あんまり値打ちがありすぎて値段をつけられないくらいなものです。<br/><br/>そういうことも書くつもりです。<br/><br/>お祭りの話のようでなく、大学の講義のようになりましたが、ちょうどこの間科学の会がありましたし、これは学問上から言っても新しい説で、これほど新しい説はないのだから、早くお話ししようと思って話をしたわけです。<br/><br/> 美術館もだいぶ知れ渡ってきて、観覧者もだんだん増えてきました。<br/><br/>特に外人の間にもだんだん知れてきたとみえて、必ず何人か来ます。<br/><br/>そういうわけで、来年あたりになるといっそう認められるようになるわけですが、それについて、来年の計画としては第一番に桃山展をやろうと思います。<br/><br/>これは去年東京のあるデパートでやり、私の方でも少し出しましたが、あれはごく貧弱なもので、ただ一般の客寄せみたいなものでした。<br/><br/>来年こっちでやるのは、すばらしいものになると思います。<br/><br/>門外不出の、だれも知らないような物がそうとうにあります。<br/><br/>そういう物だけは、いずれ桃山展をやるときにと思って、今まであんまり出品しなかったのです。<br/><br/>ですから来年出すときには、ほとんど見ない物ばかりと言ってもよいのですから、大いに楽しみに待っていてよいと思います。<br/><br/>それから六、七の二カ月は近代名品展というのをやります。<br/><br/>そうして八、九、十の三カ月は第二回の浮世絵展をやろうと思います。<br/><br/>今年の浮世絵展は非常に評判がよかったし、それからまた奇蹟的に良い物が随分集まって、まだあそこに出さない物がそうとうにありますから、来年はぜんぜん変わった物を出すつもりです。<br/><br/>近代名品展の方は明治以来の名人の傑作品というわけです。<br/><br/>工芸品の方は、蒔絵の松民（しょうみん）、松哉（しょうさい）、自得（じとく）、包美（ほうび）。<br/><br/>彫金は加納夏雄です。<br/><br/>幾人もいますが、明治以来の名人としては夏雄が傑出してます。<br/><br/>彫刻は佐藤玄々（げんげん）、平櫛田中（でんちゅう）。<br/><br/>陶器は板谷波山（はざん）。<br/><br/>堆朱（ついしゅ）は楊成（ようぜい）。<br/><br/>竹細工は飯塚琅かん斎。<br/><br/>絵の方は、抱一（ほういつ）、是真（ぜしん）、雅邦（がほう）、芳崖（ほうがい）、栖鳳（せいほう）、鉄斎、大観、玉堂（ぎょくどう）、春草（しゅんそう）。<br/><br/>大体そういうような人たちのを出すつもりです。<br/><br/>この中には門外不出の物が随分いろいろありますから、これはまたすばらしいものになると思います。<br/><br/> それから熱海の方もだいぶ進捗しつつありますが、今やっている「救世会館」は来年の春ということになってましたが、どうも神様の方ではよほど念を入れて、あんまり急いでやって欠点のあるようなものになってはいけないというので、なかなかゆっくりされるのです。<br/><br/>それで間違いのないところ秋に開館式になるというようなわけです。<br/><br/>景観台のガラスの家はわけなく一緒にできるでしょう。<br/><br/>その次に美術館ですが、美術館は勿論ここのより大きいことと、すべての点において、ここの見本で分かりましたから、いっそう良いものを造るつもりです。<br/><br/>それから今度は箱根の光明台ですが、そこの敷地もこの間行って土地の設計だけはやりました。<br/><br/>これは丸い家ですが、半円形ではなく、円形がもっと多く三分の二くらいの円形にして、外観を見るとちょうど昔の国技館というような形になります。<br/><br/>つまり末広形です。<br/><br/>なにしろ人数は一万人を入れるつもりですから、長方形や四角ではうまくありません。<br/><br/>そこで円形にして、ここに私が坐って、まわりに丸くゆくと大勢入れるし、話もよく聞けるわけです。<br/><br/>こういった四角なのは間抜けなのです。<br/><br/>椅子も直線にしてますが、これが丸くなると遠くからも放射状的に向かい合えますから、これに限るのです。<br/><br/>今まで世界でもそういうような建て方はあまり見ないが、もっともそんなに大勢入れるつもりもないのでしょうが、これも新しい企画だと思ってます。<br/><br/>それにはなんと言っても向こうに突き抜ける道が先の問題ですから、そこでケーブルの下のトンネルをこれからやるつもりです。<br/><br/>そうして今花畑になっている所に広い広場を作って、そこに信者の宿舎を、会別か県別にするかして、少なくとも一万人以上泊まれるくらいのものを造りたいと思ってます。<br/><br/>しかしあるいはそれは難しいかもしれませんが、はみ出た者はやっぱり宿屋のご厄介になるかもしれません。<br/><br/>もっともあんまりこっちばかりでやると、宿屋の方で期待していたのがまるっきり駄目になって、困るというので、また嘆願書などが出ますから。<br/><br/>それで殿堂には一万人ですが、多くなった時には、テントを張って二万人ぐらい入るような広さにするつもりです。<br/><br/>約五千坪ありますが、家が二千五百坪か三千坪です。<br/><br/>約半分くらいでできます。<br/><br/>そういう計画で、これから土地を作るのですから、建築はどうしても三年ぐらい先になりましょう。<br/><br/>またちょうどその時分にはそのくらいのものが適当するような情勢に神様がされるでしょう。<br/><br/>なにしろ神様の計画は大体できあがっているのですが、ただ時期です。<br/><br/>時期が来ると私にそういう指図をするというようなわけですから、いつも言うとおり、はなはだ気楽な話です。<br/><br/>それだけ設計するのに、ちょっと行って三十分ばかりですまして、明くる日にはその仕事をする植木屋や土木の方に命令しました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

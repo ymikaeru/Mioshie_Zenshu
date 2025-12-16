@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qwaganyu</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： わが入信の記 『結核の革命的療法』昭和26(1951)年8月15日発行 宮崎県 光宝大教会 河瀬光夫（34） 私は延岡市のある化学工業会社の研究部に籍を置く者ですが、元来物事をどこまでも科学的に究明しなければ夜も日も明けぬ環境にありながら、私が俄然救世教の浄霊作用御利益地上天国建設を全幅的に受入れた事について、友人等は今更のごとくおどろき、恐らく私のいない折はお茶のみ話のツマにされている事と思います。<br><br>しかし私としてはいささかも職場の科学に屈し、宗教へ逃避したものでなく、まして英雄主義や奇行主義的魂胆などの高等戦術？ を心得ていたわけでもありません。<br><br>又私の入信については家庭的に見ましても、私の実家が郷里で外科医をし、妻の父は内科医ですので、将来私との間に多少の摩擦は免れないと覚悟はしていますが、彼ら医者としても救世教の御教示による神霊医術、つまり大自然の法則大真理を認めざるを得ない時期が、遠からず来るものと確信しています。<br><br>あるいは既に少しは感得していても商売柄黙殺しているのかも知れません。<br><br>このようにかいてくると、私という人間が偉い見識をもった科学者であり、また相当裕福な階級に属する近より難い人種に見えるかと考えますが、私とて戦後映画の筋書通り東京と鹿児島でヒドイ戦災にあい、家財は全く失い、あまつさえ永年勤めていた会社は解体のため職を失い、親子四人で職を求めて東奔西走の末当地にたどりつき、辛うじて下積の研究員として現職にありついたのも束の間、就職二年目に一家の唯一の支柱である私が、医師より両肺結核に侵されている診断を言渡され、もし放置すればここ一、二年の寿命だ。<br><br>胸廓成形術をやれば幾分寿命は延びるが、未だ日本医学界では両側の手術で成功した臨床例はほとんどないとの冷厳なる宣告でした。<br><br>ああ自らを殺すは易くとも、私は何としても生き抜かなければならぬあの恐ろしい空襲下生死を共にし、今また悲惨な食住生活を甘んじていてくれる妻子を残してどうして犬死されよう。<br><br>私は即座に医師に対し、両側胸部手術を施行してもらい、予後はどうなろうと、自分の意志力と天の御守護におすがりして、早速某大学病院に入院さしてもらい、入院後一カ月目に、当院としては当時最初の胸廓成形術が私を実験台として実施された訳です。<br><br>その手術までの一カ月間、私はこの大学病院で何を見たか。<br><br>それは隣のベッドで、次の病棟で、入院当時はかなり元気であった患者達（一般内外科患者）が、病変の度に高価な注射、服薬処置を受け、日に増し衰弱して、遂に不帰の客になってゆく姿を朝夕見る度に、誰にともなく義憤を感じ当代医学に対し懐疑をもち始め、医学の誤謬を接求すること数旬、結論として重病患者の萎縮不活発になった体細胞に、病変の都度痛みどめ剤のモルヒネ、解熱剤のアスピリン、ビラミドン、消炎剤のサルチール、サルファー、その他種々の高価薬と称せられる化学薬の薬毒が、いかに体質を弱めてゆくかを理解するに至りました。<br><br>しかし当時私としては救世教は勿論、浄化作用の何たるかも知る由もなく、このあわれな小羊は三度手術台の人となり、幸い手術後熱発も早く納り、食欲が旺盛である事を理由に、実兄の知人である主治医に頼んで一切の服薬と注射をことわり、その後徹底した外気安静療法に入り、食事前後だけは勇をふるって運動し、食欲増進を計りました。<br><br>しかしわずかの健康保健の給付金であってみれば、家族四人の生計費を差引いて、私の毎日とる滋養食たるや想像にあまるものがあるのですが、天を信じ聖書（闘病の修養書として）をひもとく度に、心は常に豊になり、不思議に外の同種患者とは日毎に治療成績が離れてゆき、入院後一年目には体重十二キロを増し、二年後（昭和二十五年）四月には、日本医学界でも奇蹟に価する両側成形手術の治療者として復職する運びになった次第ですが、この奇蹟は果して医学だけがもたらしてくれたものか。<br><br>この拙文をお読みになった御方にはお判りになるわけです。<br><br>偶然に私のとった闘病方針の結果から申しましてもいかに救世教の無薬主義が真理であるかが確認されます。<br><br> さてこの春先から単身復職はしてみたものの療養中と種々条件もちがい、折角手術虚脱療法により固結した胸部の病巣が溶けはじめたのか、六月初め風邪で一週間病床につき、やや再発状態になりましたところ、救世教入信者の田中氏より救世教の御教示御趣旨につき興味ある談話をされ、後で彼の所蔵しておられる一年分位の光新聞と、明主様の御著述になる御教書十数冊を貸していただき、それを三日間で読破する程に、私としては未だかつて経験した事のない満足と感激をもって読了し、早速彼にお願して坂井先生をお訪ねして、いろいろ有難い御導きを頂くと共に、御浄霊の奇蹟的事実に私自身で触れさして戴く中に私の入信の決意は動かし難いものとなり遂に七月初旬、教修を頂かしてもらった次第です。<br><br>私のごとき者でも地上天国建設者の一員につつがなく加えて頂いた上は、自分の座右銘である誠実を、内的にも外的にもいよいよ現金天化して、明主様の御本願に沿い奉らんと、深く心に誓っています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Terapia Revolucionária para a Tuberculose</h2>
 <p>Publicado em 15 de agosto de 1951
@@ -101,5 +256,48 @@ Grande Igreja Kōhō, Prefeitura de Miyazaki</p>
 <p>Mas teria sido esse milagre um feito exclusivo da medicina? Aqueles que leem este modesto relato certamente compreenderão a resposta. A própria trajetória de meu tratamento, por si só, já confirma quão verdadeira é a ausência de medicamentos preconizada pela Sekaikyuseikyou.</p>
 <p>Pois bem, embora eu tenha retornado ao trabalho no início desta primavera, vivendo sozinho, as condições eram muito diferentes das do período de convalescença. As lesões em meu peito, que haviam se solidificado com a cirurgia, começaram a se dissolver. No início de junho, um resfriado me deixou acamado por uma semana, e tive uma recaída. Foi nesse momento que o senhor Tanaka, membro da Sekaikyuseikyou, falou-me de forma cativante sobre os Ensinamentos e os objetivos da Obra Divina. Ele me emprestou cerca de um ano de exemplares do Jornal Hikari e mais de uma dezena de livros com os Escritos de Meishu-Sama. Devorei todo o material em apenas três dias, concluindo a leitura com uma sensação de satisfação e enlevo que jamais experimentara. Imediatamente, pedi-lhe que me apresentasse ao Reverendo Sakai, de quem recebi valiosas orientações. Ao testemunhar pessoalmente a realidade miraculosa do Johrei, minha decisão de ingressar na fé tornou-se inabalável. Finalmente, no início de julho, tive a permissão de receber a Iniciação.</p>
 <p>Agora que fui humildemente acolhido como um dos construtores do Paraíso Terrestre, renovo em meu coração o profundo juramento de viver meu lema, a sinceridade, tanto interna quanto externamente, manifestando-a de forma concreta para servir ao Voto Sagrado de Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： わが入信の記 『結核の革命的療法』昭和26(1951)年8月15日発行 宮崎県 光宝大教会 河瀬光夫（34） 私は延岡市のある化学工業会社の研究部に籍を置く者ですが、元来物事をどこまでも科学的に究明しなければ夜も日も明けぬ環境にありながら、私が俄然救世教の浄霊作用御利益地上天国建設を全幅的に受入れた事について、友人等は今更のごとくおどろき、恐らく私のいない折はお茶のみ話のツマにされている事と思います。<br/><br/>しかし私としてはいささかも職場の科学に屈し、宗教へ逃避したものでなく、まして英雄主義や奇行主義的魂胆などの高等戦術？ を心得ていたわけでもありません。<br/><br/>又私の入信については家庭的に見ましても、私の実家が郷里で外科医をし、妻の父は内科医ですので、将来私との間に多少の摩擦は免れないと覚悟はしていますが、彼ら医者としても救世教の御教示による神霊医術、つまり大自然の法則大真理を認めざるを得ない時期が、遠からず来るものと確信しています。<br/><br/>あるいは既に少しは感得していても商売柄黙殺しているのかも知れません。<br/><br/>このようにかいてくると、私という人間が偉い見識をもった科学者であり、また相当裕福な階級に属する近より難い人種に見えるかと考えますが、私とて戦後映画の筋書通り東京と鹿児島でヒドイ戦災にあい、家財は全く失い、あまつさえ永年勤めていた会社は解体のため職を失い、親子四人で職を求めて東奔西走の末当地にたどりつき、辛うじて下積の研究員として現職にありついたのも束の間、就職二年目に一家の唯一の支柱である私が、医師より両肺結核に侵されている診断を言渡され、もし放置すればここ一、二年の寿命だ。<br/><br/>胸廓成形術をやれば幾分寿命は延びるが、未だ日本医学界では両側の手術で成功した臨床例はほとんどないとの冷厳なる宣告でした。<br/><br/>ああ自らを殺すは易くとも、私は何としても生き抜かなければならぬあの恐ろしい空襲下生死を共にし、今また悲惨な食住生活を甘んじていてくれる妻子を残してどうして犬死されよう。<br/><br/>私は即座に医師に対し、両側胸部手術を施行してもらい、予後はどうなろうと、自分の意志力と天の御守護におすがりして、早速某大学病院に入院さしてもらい、入院後一カ月目に、当院としては当時最初の胸廓成形術が私を実験台として実施された訳です。<br/><br/>その手術までの一カ月間、私はこの大学病院で何を見たか。<br/><br/>それは隣のベッドで、次の病棟で、入院当時はかなり元気であった患者達（一般内外科患者）が、病変の度に高価な注射、服薬処置を受け、日に増し衰弱して、遂に不帰の客になってゆく姿を朝夕見る度に、誰にともなく義憤を感じ当代医学に対し懐疑をもち始め、医学の誤謬を接求すること数旬、結論として重病患者の萎縮不活発になった体細胞に、病変の都度痛みどめ剤のモルヒネ、解熱剤のアスピリン、ビラミドン、消炎剤のサルチール、サルファー、その他種々の高価薬と称せられる化学薬の薬毒が、いかに体質を弱めてゆくかを理解するに至りました。<br/><br/>しかし当時私としては救世教は勿論、浄化作用の何たるかも知る由もなく、このあわれな小羊は三度手術台の人となり、幸い手術後熱発も早く納り、食欲が旺盛である事を理由に、実兄の知人である主治医に頼んで一切の服薬と注射をことわり、その後徹底した外気安静療法に入り、食事前後だけは勇をふるって運動し、食欲増進を計りました。<br/><br/>しかしわずかの健康保健の給付金であってみれば、家族四人の生計費を差引いて、私の毎日とる滋養食たるや想像にあまるものがあるのですが、天を信じ聖書（闘病の修養書として）をひもとく度に、心は常に豊になり、不思議に外の同種患者とは日毎に治療成績が離れてゆき、入院後一年目には体重十二キロを増し、二年後（昭和二十五年）四月には、日本医学界でも奇蹟に価する両側成形手術の治療者として復職する運びになった次第ですが、この奇蹟は果して医学だけがもたらしてくれたものか。<br/><br/>この拙文をお読みになった御方にはお判りになるわけです。<br/><br/>偶然に私のとった闘病方針の結果から申しましてもいかに救世教の無薬主義が真理であるかが確認されます。<br/><br/> さてこの春先から単身復職はしてみたものの療養中と種々条件もちがい、折角手術虚脱療法により固結した胸部の病巣が溶けはじめたのか、六月初め風邪で一週間病床につき、やや再発状態になりましたところ、救世教入信者の田中氏より救世教の御教示御趣旨につき興味ある談話をされ、後で彼の所蔵しておられる一年分位の光新聞と、明主様の御著述になる御教書十数冊を貸していただき、それを三日間で読破する程に、私としては未だかつて経験した事のない満足と感激をもって読了し、早速彼にお願して坂井先生をお訪ねして、いろいろ有難い御導きを頂くと共に、御浄霊の奇蹟的事実に私自身で触れさして戴く中に私の入信の決意は動かし難いものとなり遂に七月初旬、教修を頂かしてもらった次第です。<br/><br/>私のごとき者でも地上天国建設者の一員につつがなく加えて頂いた上は、自分の座右銘である誠実を、内的にも外的にもいよいよ現金天化して、明主様の御本願に沿い奉らんと、深く心に誓っています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

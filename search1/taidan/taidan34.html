@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan34</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と谷川徹三氏との御対談 （完） 『栄光』214号、昭和28(1953)年6月24日発行 ◎支那陶器について 谷川氏 この前もありましたが、第五室のはいるとすぐ右手にあった越州窯（えつしゅうよう）すね。<br><br>今年も去年と同じ所に出てましたが、越州窯では天下の名品ですね。<br><br>いつ見ても良いです。<br><br> 明主様 それに大きいですから良いですね。<br><br> 谷川氏 大きくて強くて実に堂々たる物です。<br><br> 明主様 あれの小さいのはアメリカにもありますがね。<br><br> 谷川氏 それから郊壇窯（こうだんよう）というのは、どこの物どこの物と分かってますからね。<br><br>いくども問題にした物です。<br><br>郊壇窯では岩崎さんの香炉、横河さんの鉢ですね。<br><br> 明主様 そうでしょうね。<br><br> 谷川氏 南宋哥窯（なんそうかよう）の研究ができたのは近ごろですから、郊壇窯の研究はまだだったのです。<br><br>そういえば今度新しく出た袴腰の哥窯は良いですね。<br><br>私は岩崎さんの香炉は見ていませんが、色刷りの写真によると、色は私が以前に見たのに非常によく似てます。<br><br>岩崎さんのを一度手にとって見たいと思っているのです。<br><br> 谷川氏 そうですね。<br><br>しかし横河コレクションと言ってずいぶんたくさんありますが、天下の名器となると、そうよけいにはありませんね。<br><br> 明主様 そういう意味では、あるのは白鶴ではありませんか。<br><br> 谷川氏 私は具体的に並べて見たことはありませんが、あるいはそうかもしれませんね。<br><br> 明主様 そうでしょうね。<br><br>私は、あそこにどうしても欲しいという物が二、三点あるのですが、なかなかウンと言いません。<br><br> 谷川氏 それで良い物は黒いですね。<br><br> 奥様 やっぱり名工が焼くのでしょうね。<br><br> 谷川氏 それは官窯ですからね。<br><br> 明主様 王様に気に入られようと思って心血をそそぐのでしょうね。<br><br> 谷川氏 今郊壇窯として知られているのは、不孤斎（ふこさい）の「そう」〔琮〕と岩崎の物と横河コレクションの物ですね。<br><br> 明主様 「そう」というのはなんですか。<br><br> 谷川氏 日本でよく三〔算〕木手（さんぎて）というあれです。<br><br> 明主様 三木手のあれは良い物ですね。<br><br> 谷川氏 昔は日本に砧（きぬた）青磁つまり龍泉窯はたくさん来ましたが、それで不孤斎が寄付した琮というのは砧青磁よりもっと貴重な物だということが分からなかったのです。<br><br>伊達家にありましたが、伊達家では水指に使っていたそうです。<br><br>シャーマン・リーという向うとの連絡で来ていた人が不孤斎が寄付した「そう」を見て、この人は気に入った物を見ると舌打ちをする癖がありますが、舌打ちをして、デイビッドのコレクションにもあるが、それよりずっと良い。<br><br>これならニューヨークに持って行ったら四万ドルでも、五万ドルでも、好きな値をつけられると言ってました。<br><br> 明主様 デイビッドには非常に大きなヒビ手がありますが、あれはなんですか。<br><br> 谷川氏 最初の秦の帝室の宝物だった物がだいぶありますが、そういう物については多少問題があるのです。<br><br>ですからあそこには南宋哥窯としてある物の種類がたくさんあります。<br><br>黄色っぽいのがずいぶんいろいろとありますね。<br><br> 明主様 しかし青磁というものは難しいものではないですか。<br><br> （注）原本ではこの後応答の順序が前後しているが意味が通るように岡田茂吉全集に倣いました。<br><br> 谷川氏 難しいですね。<br><br>私も約三十年くらい焼物をいじってますが、青磁の本当のおもしろさが分かったのは五、六年前からです。<br><br>難しいからなかなか分かりませんね。<br><br> 明主様 私も青磁が好きですが、後から後から疑問が出てきます。<br><br> 谷川氏 しかし今からしてみますと、支那人が一番珍重しただけあって、やっぱり焼物の頂点ですね。<br><br> 明主様 そうです。<br><br>品格がありますね。<br><br>美術館に出ている鉢はずいぶんほめられますよ。<br><br> 谷川氏 修内司（しゅうないじ）窯のですね。<br><br>あれは良いです。<br><br> 明主様 去年あった袴腰の青磁も良い物でしょう。<br><br> 谷川氏 良い物でした。<br><br>昔砧と言っていた中から、だんだん研究して修内司窯と選り分けるようになったのですが、少し白っぽて実に品格の高い物です。<br><br> 明主様 そうですね。<br><br>細工も、形とか、薄手のキッチリとした所とか、実に良いですね。<br><br> 谷川氏 そうですね。<br><br> 明主様 この間名古屋に行ったときに鳳凰耳花生のを見せてもらったが、色は良いですが、細工が悪いです。<br><br>要するにゲテ物作りです。<br><br>それに片方の耳が取れて、新しくこしらえた物のようでした。<br><br> 谷川氏 私は手にとって見たことはありませんが、しかしあれは堂々たる物ですね。<br><br> 明主様 そうです。<br><br>見映えがあります。<br><br> 奥様 白鶴の浮牡丹もなかなか良いですね。<br><br> 谷川氏 しかし私はそういうゴテゴテした物より、無文のほうが良いです。<br><br> 明主様 しかし白の浮牡丹は良かったです。<br><br>これはちょっと違っていて、非常に強いのです。<br><br> 谷川氏 そうですか。<br><br>私ははっきりと記憶にありませんのですが、ふつう言っているのはゴテゴテしてますからね。<br><br> 明主様 そうです。<br><br>ゴテゴテしてます。<br><br>しかし白鶴のは非常に鋭いのです。<br><br>その力強さがなんとも言えません。<br><br>白鶴の磁州の龍のはどうですか。<br><br> 谷川氏 あれは良いですね。<br><br>アメリカに行っても幅がきいたらしいです。<br><br>私は長い間写真で見て、たいした物ではないと思っていたのですが、実物を二つ並べて見ると龍のほうが上です。<br><br>龍のほうが男性で、細川さんのは女性です。<br><br>力強さからいっても違いますね。<br><br> 奥様 三彩の鶏頭壷も良いですね。<br><br> 明主様 良いね。<br><br>三彩では日本一でしょう。<br><br> 谷川氏 しかし三彩の鶏頭壷とかいろんな物があっても、私は箱根美術館にある越州窯のが第一等だと思います。<br><br>あの力はたいへんなものです。<br><br> 明主様 そうです。<br><br>それにサビの具合から、古さからいっても良いです。<br><br> ◇玉器、銅器について 谷川氏 玉器はまだお買いになりませんね。<br><br>私はいま玉器に興味を持っていますが、玉器や銅器になると、漢以前でなければ弱くて駄目です。<br><br>三国、漢の物を、殷や周の中に入れて見ていると、だんだんいやになります。<br><br>焼物ですと漢のは強くて良いのですが、玉器とか銅器というのは漢までの物で、漢以後の物はまるで駄目です。<br><br>銅器は戦国時代にもありましたが、漢以後の物は弱くなります。<br><br> 明主様 まったく銅器となると、漢以後は駄目ですね。<br><br>私は、不思議に思うのは、周代に周銅などとあれほどの物ができたということです。<br><br> 谷川氏 その前の殷、商（しょう）でもそうです。<br><br>殷の物でも立派なものですね。<br><br> 明主様 立派ですね。<br><br>ですから陶器でも、ほとんど銅器を写してますね。<br><br>殷から周時代の文化というのは、たいへんなものですね。<br><br> 谷川氏 このことは私どもも一番興味のあることです。<br><br>結局銅器は、古代の宗教に結びついた祭器ですから、漢以後になると仏教がはいってますからね。<br><br>ですから支那は、仏教がはいってからと、その前と区別します。<br><br>仏教は北魏のときにさかんになったのです。<br><br> 明主様 ですから魏には仏像の良いのがあるのですね。<br><br> 谷川氏 日本の飛鳥ですね。<br><br>そうして奈良朝はだいたい唐ですね。<br><br>日本でも飛鳥の物というと強いですからね。<br><br> ◇仏像について 明主様 仏教美術の方はどうですか。<br><br> 谷川氏 私はなんでも好きです。<br><br>今度お買いになられた三体の金銅仏では、小泉さんのでない後の二つの方が良いですね。<br><br>私が見たときには白鳳としてあるが、飛鳥の方が美しいと思いました。<br><br>飛鳥の方が野蛮な顔をしてますが、良い物と思いました。<br><br>肩から背中から、力があって良い物ですね。<br><br>小泉三伸の仏はだいぶ劣りますね。<br><br>それから五室の四十八体仏の中に、ああいう野蛮な顔をしているのがありますね。<br><br> 明主様 四十八体仏の中ではどれが良いですか。<br><br> 谷川氏 図録を見ないと宙では言えませんが、しかしそれぞれに良いですね。<br><br>初めは妙に線のつまった物や、野蛮なのは、いやだと思いましたが、やはりそれぞれに良いですね。<br><br>金銅仏とは言いますが、あの中に木彫のが一体はいっているそうです。<br><br> 明主様 金銅仏は推古と白鳳とはまるで違いますね。<br><br> 谷川氏 しかしずいぶん多方面にいろいろお持ちですからたいへんですね。<br><br>私も、一つの物しか蒐めないというのは蒐集の邪道だと思います。<br><br>なんでも相通ずるものがあると思います。<br><br> 明主様 そうです。<br><br> 谷川氏 私は今日は風邪を引いたかして、汽車の中でも憂鬱だったのですが、美術品を見ていると疲れません。<br><br> 明主様 私も、いろいろ用事はありますが、こういう時間だけは特別です。<br><br> 谷川氏 私もそうです。<br><br>他に用事があったりしますが、骨董屋に行くときだけは別です。<br><br>いろいろ見せていただきましてありがとうございました。<br><br>いま美術館に陳列してある物で、ゆっくり見たい物もありますから、またお伺いします。<br><br> 一同 どうも長い間ありがとうございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diálogo entre Meishu-Sama e o Sr. Tanigawa Tetsuzo</h2>
 <h2>Sobre a Cerâmica Chinesa</h2>
@@ -158,5 +310,48 @@ function toggleLang(lang) {
 <p>— Eu sinto o mesmo. Apesar de ter muitas outras responsabilidades, o tempo que dedico a isto é especial.</p>
 <p>— Comigo ocorre o mesmo. Mesmo tendo outros compromissos, o tempo que passo em antiquários é sagrado. Agradeço imensamente por me mostrar tantas maravilhas. Há algumas peças na atual exposição do museu que gostaria de apreciar com mais calma, portanto, farei uma nova visita em breve.</p>
 <p>— Agradecemos a todos pela sua longa visita.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と谷川徹三氏との御対談 （完） 『栄光』214号、昭和28(1953)年6月24日発行 ◎支那陶器について 谷川氏 この前もありましたが、第五室のはいるとすぐ右手にあった越州窯（えつしゅうよう）すね。<br/><br/>今年も去年と同じ所に出てましたが、越州窯では天下の名品ですね。<br/><br/>いつ見ても良いです。<br/><br/> 明主様 それに大きいですから良いですね。<br/><br/> 谷川氏 大きくて強くて実に堂々たる物です。<br/><br/> 明主様 あれの小さいのはアメリカにもありますがね。<br/><br/> 谷川氏 それから郊壇窯（こうだんよう）というのは、どこの物どこの物と分かってますからね。<br/><br/>いくども問題にした物です。<br/><br/>郊壇窯では岩崎さんの香炉、横河さんの鉢ですね。<br/><br/> 明主様 そうでしょうね。<br/><br/> 谷川氏 南宋哥窯（なんそうかよう）の研究ができたのは近ごろですから、郊壇窯の研究はまだだったのです。<br/><br/>そういえば今度新しく出た袴腰の哥窯は良いですね。<br/><br/>私は岩崎さんの香炉は見ていませんが、色刷りの写真によると、色は私が以前に見たのに非常によく似てます。<br/><br/>岩崎さんのを一度手にとって見たいと思っているのです。<br/><br/> 谷川氏 そうですね。<br/><br/>しかし横河コレクションと言ってずいぶんたくさんありますが、天下の名器となると、そうよけいにはありませんね。<br/><br/> 明主様 そういう意味では、あるのは白鶴ではありませんか。<br/><br/> 谷川氏 私は具体的に並べて見たことはありませんが、あるいはそうかもしれませんね。<br/><br/> 明主様 そうでしょうね。<br/><br/>私は、あそこにどうしても欲しいという物が二、三点あるのですが、なかなかウンと言いません。<br/><br/> 谷川氏 それで良い物は黒いですね。<br/><br/> 奥様 やっぱり名工が焼くのでしょうね。<br/><br/> 谷川氏 それは官窯ですからね。<br/><br/> 明主様 王様に気に入られようと思って心血をそそぐのでしょうね。<br/><br/> 谷川氏 今郊壇窯として知られているのは、不孤斎（ふこさい）の「そう」〔琮〕と岩崎の物と横河コレクションの物ですね。<br/><br/> 明主様 「そう」というのはなんですか。<br/><br/> 谷川氏 日本でよく三〔算〕木手（さんぎて）というあれです。<br/><br/> 明主様 三木手のあれは良い物ですね。<br/><br/> 谷川氏 昔は日本に砧（きぬた）青磁つまり龍泉窯はたくさん来ましたが、それで不孤斎が寄付した琮というのは砧青磁よりもっと貴重な物だということが分からなかったのです。<br/><br/>伊達家にありましたが、伊達家では水指に使っていたそうです。<br/><br/>シャーマン・リーという向うとの連絡で来ていた人が不孤斎が寄付した「そう」を見て、この人は気に入った物を見ると舌打ちをする癖がありますが、舌打ちをして、デイビッドのコレクションにもあるが、それよりずっと良い。<br/><br/>これならニューヨークに持って行ったら四万ドルでも、五万ドルでも、好きな値をつけられると言ってました。<br/><br/> 明主様 デイビッドには非常に大きなヒビ手がありますが、あれはなんですか。<br/><br/> 谷川氏 最初の秦の帝室の宝物だった物がだいぶありますが、そういう物については多少問題があるのです。<br/><br/>ですからあそこには南宋哥窯としてある物の種類がたくさんあります。<br/><br/>黄色っぽいのがずいぶんいろいろとありますね。<br/><br/> 明主様 しかし青磁というものは難しいものではないですか。<br/><br/> （注）原本ではこの後応答の順序が前後しているが意味が通るように岡田茂吉全集に倣いました。<br/><br/> 谷川氏 難しいですね。<br/><br/>私も約三十年くらい焼物をいじってますが、青磁の本当のおもしろさが分かったのは五、六年前からです。<br/><br/>難しいからなかなか分かりませんね。<br/><br/> 明主様 私も青磁が好きですが、後から後から疑問が出てきます。<br/><br/> 谷川氏 しかし今からしてみますと、支那人が一番珍重しただけあって、やっぱり焼物の頂点ですね。<br/><br/> 明主様 そうです。<br/><br/>品格がありますね。<br/><br/>美術館に出ている鉢はずいぶんほめられますよ。<br/><br/> 谷川氏 修内司（しゅうないじ）窯のですね。<br/><br/>あれは良いです。<br/><br/> 明主様 去年あった袴腰の青磁も良い物でしょう。<br/><br/> 谷川氏 良い物でした。<br/><br/>昔砧と言っていた中から、だんだん研究して修内司窯と選り分けるようになったのですが、少し白っぽて実に品格の高い物です。<br/><br/> 明主様 そうですね。<br/><br/>細工も、形とか、薄手のキッチリとした所とか、実に良いですね。<br/><br/> 谷川氏 そうですね。<br/><br/> 明主様 この間名古屋に行ったときに鳳凰耳花生のを見せてもらったが、色は良いですが、細工が悪いです。<br/><br/>要するにゲテ物作りです。<br/><br/>それに片方の耳が取れて、新しくこしらえた物のようでした。<br/><br/> 谷川氏 私は手にとって見たことはありませんが、しかしあれは堂々たる物ですね。<br/><br/> 明主様 そうです。<br/><br/>見映えがあります。<br/><br/> 奥様 白鶴の浮牡丹もなかなか良いですね。<br/><br/> 谷川氏 しかし私はそういうゴテゴテした物より、無文のほうが良いです。<br/><br/> 明主様 しかし白の浮牡丹は良かったです。<br/><br/>これはちょっと違っていて、非常に強いのです。<br/><br/> 谷川氏 そうですか。<br/><br/>私ははっきりと記憶にありませんのですが、ふつう言っているのはゴテゴテしてますからね。<br/><br/> 明主様 そうです。<br/><br/>ゴテゴテしてます。<br/><br/>しかし白鶴のは非常に鋭いのです。<br/><br/>その力強さがなんとも言えません。<br/><br/>白鶴の磁州の龍のはどうですか。<br/><br/> 谷川氏 あれは良いですね。<br/><br/>アメリカに行っても幅がきいたらしいです。<br/><br/>私は長い間写真で見て、たいした物ではないと思っていたのですが、実物を二つ並べて見ると龍のほうが上です。<br/><br/>龍のほうが男性で、細川さんのは女性です。<br/><br/>力強さからいっても違いますね。<br/><br/> 奥様 三彩の鶏頭壷も良いですね。<br/><br/> 明主様 良いね。<br/><br/>三彩では日本一でしょう。<br/><br/> 谷川氏 しかし三彩の鶏頭壷とかいろんな物があっても、私は箱根美術館にある越州窯のが第一等だと思います。<br/><br/>あの力はたいへんなものです。<br/><br/> 明主様 そうです。<br/><br/>それにサビの具合から、古さからいっても良いです。<br/><br/> ◇玉器、銅器について 谷川氏 玉器はまだお買いになりませんね。<br/><br/>私はいま玉器に興味を持っていますが、玉器や銅器になると、漢以前でなければ弱くて駄目です。<br/><br/>三国、漢の物を、殷や周の中に入れて見ていると、だんだんいやになります。<br/><br/>焼物ですと漢のは強くて良いのですが、玉器とか銅器というのは漢までの物で、漢以後の物はまるで駄目です。<br/><br/>銅器は戦国時代にもありましたが、漢以後の物は弱くなります。<br/><br/> 明主様 まったく銅器となると、漢以後は駄目ですね。<br/><br/>私は、不思議に思うのは、周代に周銅などとあれほどの物ができたということです。<br/><br/> 谷川氏 その前の殷、商（しょう）でもそうです。<br/><br/>殷の物でも立派なものですね。<br/><br/> 明主様 立派ですね。<br/><br/>ですから陶器でも、ほとんど銅器を写してますね。<br/><br/>殷から周時代の文化というのは、たいへんなものですね。<br/><br/> 谷川氏 このことは私どもも一番興味のあることです。<br/><br/>結局銅器は、古代の宗教に結びついた祭器ですから、漢以後になると仏教がはいってますからね。<br/><br/>ですから支那は、仏教がはいってからと、その前と区別します。<br/><br/>仏教は北魏のときにさかんになったのです。<br/><br/> 明主様 ですから魏には仏像の良いのがあるのですね。<br/><br/> 谷川氏 日本の飛鳥ですね。<br/><br/>そうして奈良朝はだいたい唐ですね。<br/><br/>日本でも飛鳥の物というと強いですからね。<br/><br/> ◇仏像について 明主様 仏教美術の方はどうですか。<br/><br/> 谷川氏 私はなんでも好きです。<br/><br/>今度お買いになられた三体の金銅仏では、小泉さんのでない後の二つの方が良いですね。<br/><br/>私が見たときには白鳳としてあるが、飛鳥の方が美しいと思いました。<br/><br/>飛鳥の方が野蛮な顔をしてますが、良い物と思いました。<br/><br/>肩から背中から、力があって良い物ですね。<br/><br/>小泉三伸の仏はだいぶ劣りますね。<br/><br/>それから五室の四十八体仏の中に、ああいう野蛮な顔をしているのがありますね。<br/><br/> 明主様 四十八体仏の中ではどれが良いですか。<br/><br/> 谷川氏 図録を見ないと宙では言えませんが、しかしそれぞれに良いですね。<br/><br/>初めは妙に線のつまった物や、野蛮なのは、いやだと思いましたが、やはりそれぞれに良いですね。<br/><br/>金銅仏とは言いますが、あの中に木彫のが一体はいっているそうです。<br/><br/> 明主様 金銅仏は推古と白鳳とはまるで違いますね。<br/><br/> 谷川氏 しかしずいぶん多方面にいろいろお持ちですからたいへんですね。<br/><br/>私も、一つの物しか蒐めないというのは蒐集の邪道だと思います。<br/><br/>なんでも相通ずるものがあると思います。<br/><br/> 明主様 そうです。<br/><br/> 谷川氏 私は今日は風邪を引いたかして、汽車の中でも憂鬱だったのですが、美術品を見ていると疲れません。<br/><br/> 明主様 私も、いろいろ用事はありますが、こういう時間だけは特別です。<br/><br/> 谷川氏 私もそうです。<br/><br/>他に用事があったりしますが、骨董屋に行くときだけは別です。<br/><br/>いろいろ見せていただきましてありがとうございました。<br/><br/>いま美術館に陳列してある物で、ゆっくり見たい物もありますから、またお伺いします。<br/><br/> 一同 どうも長い間ありがとうございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkekka03</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 結核性皮膚炎と肺浸潤を救われて 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 兵庫県 秀明中教会 上本朝子（53） 昭和二十四年四月、両下肢に数カ所、拇指大位の塊りが出来、押すと痛みを感じますが、他には何にも障りもないまま放っておきました。<br><br>すると右下肢の一カ所が紅く大きく腫れ上り、その部分に熱をもっていますので、付近の医師に診察してもらうと「丹毒になるかも知れぬ」といってペニシリンを二度注射して頂きましたが何の変化もありませんでした。<br><br>家の者も「何か判らぬ」という事は良くないものに違いないと申し自分でも不安になって、大阪の皮膚科の診察を受けた所「バザン氏硬結性紅斑」という結核性の腫物である事が判りました。<br><br>それと同時に胸部にも異常があるかもしれませんという事で、レントゲンを撮ると左肺浸潤が出ていました。<br><br>それで左肺に気胸をし、下肢にはレントゲン照射をしながら治療をつづけていましたが、別段苦しくもないまま勤めていた所、下肢はだんだん腫れがひどくなり、塊は大きくなり、赤かった一カ所がとうとう崩れ潰瘍となりました。<br><br>七月になって足は益々腫れ、ふくらはぎも、くるぶしも同じ太さになり、潰瘍は大きくなり、かつ塗り薬にまけてぐるりの皮は水ぶくれになり、痒く、とてもひどくなってしまいました。<br><br>阪大の医師も、これでは伊丹から大阪まで来る事が既にいけないから、足を使わぬよう高く、ふとんの上にでもあげて寝ているように、治療は付近の先生にしてもらうようにとの事でしたので、近所の病院でレントゲンがないため紫外線をかけて頂き、気胸もうけていましたが、八、九月と思いきって二カ月休ましてもらい、ずっと寝ていました。<br><br>そのうち九月終り頃やっと潰瘍はふさぎましたが、他の塊りと腫れは一向によくなりません。<br><br>十月になってから気胸が原因で湿性肋膜炎になり、熱は三十八、九度を上下し、とうとう少しも動けなくなってしまいました。<br><br>食欲は七月頃から減っていましたが、寝ついてからは少しも食欲がなく、衰弱をして見るかげもなくやせてしまいました。<br><br>母も死ぬのではないかとひどく心配して一生懸命看護をしてくれましたので、翌昭和二十五年三月頃ようやく床の上に起き上るようになりました。<br><br>その頃今度は母が弱り、中風のようになり、身体がきかなくなりました。<br><br>私自身まだ一向食欲も出ませんし、一旦治ったかにみえた下肢の塊りが、足も使わぬのに又々数カ所出て参りましたし、何かにつけて、真暗な思いが致しました。<br><br>医師はマイシンを打ってみたらと言われますが、とてもそんな余裕もなく、母が寝ているため、しっかりせぬ自分が何から何迄していては、今度はどんな結核性疾患を起すやらと、不安と焦燥とでたまらない心地でした。<br><br> 丁度この頃の事でした。<br><br>御近所の奥様が、このお道の先生がみえられるから来てみたらと言われ、初めて小山先生にお目にかかったのでした。<br><br>いろいろお話を伺いましたが、その時は全然信じられませんでしたが、何とかして治りたい、母より先に死ぬような事があってはと、藁をつかむ思いで一杯でしたので、とにかく御浄霊を受ける気になりました。<br><br>小山先生に御浄霊して頂いた夜でした。<br><br>足の拇指から電気が走るようなピリピリした感じがして二度も目がさめましたので、何かあるという事は気がつきました。<br><br>それからは岡田先生がずっと御浄霊して下さいましたが、半信半疑でいる内に病気は人間のもつ自然の浄化力の表われであり、神の恩恵である事をだんだん覚らして頂き、治ってから入信したのではおそいと、自分で判然と感じ、信ずるからにはと、医師と医薬の絶対信の観念から百八十度転換をして五月十七日教修をお受けしました。<br><br>それよりはひたすらに神様を信仰しおすがりして参りました。<br><br> 御浄霊を頂き初めてから十日程して、目立って食欲も出、元気も出て参りました。<br><br>それに入信後間のない私に迄、神様の御力を授け賜わり、近所の方で不眠になやむ人も、一度でよく寝られるようになられたり、又母を浄霊しますと霊動をし、それが狐霊や祖霊である事も判らせて頂きました。<br><br>それに中風も追々軽快に、おサジからお箸も持てるようになり、もつれた言葉もだんだんはっきりさして頂き、便所にもゆけるようになりました。<br><br>それに私も七月になって下肢の腫れは去り、塊りは消えてしまって、足を使っていながらこのようになり得ました事、ただただおどろくばかりの御恩恵を賜わり、何と神様に感謝申上げてよろしいやら言葉も分りません。<br><br>なお八月には肺浸潤も非常に良くなっている事が、勤先へ提出する厳重な診断でハッキリさして頂き、毎日毎日感謝で一杯でした。<br><br>又経済的にもおかげを頂きまして、十月には大光明如来様をお迎え申上げ、その間筆舌に尽せぬ御恩恵を賜わりまして、神様の偉大なる御力をまざまざわからせて頂きました。<br><br>明主様、まことに有難うございました。<br><br>厚くあつく御礼申上げます。<br><br> なお又十二月二十一日より再浄化頂き、毎日発熱三十八、九度に昇り、激しい咳と沢山の痰が出て、夜はそのために寝れず、食欲は少しもなくなり、見る見る衰弱しましたが、岡田先生の親身も及ばぬ御浄霊をうけ、この二十六年の元旦には床を離れる事が出来ました。<br><br>家族の者は又ブリ返すのではないか、こんどは死ぬかと心配したようですが、自分では神様にひたすらおすがりしており、身も魂も神様のものと有難く、再浄化頂きました事がなお更有難く、心から御礼申上げました。<br><br>果して一月十日頃から俄然食欲が出て、自分でもおどろくほど何でも美味しく見る見る肥りました。<br><br>病気以前は体重十三貫位だったのが、最近では十四貫五百を越え、何をしても疲れず、毎年三月頃に出てくる下肢の塊も腫れも、本年は何の事もなく、しんからよくなった事を知り得まして、毎日毎日愉快に有難く、勿体なく過させて頂いています。<br><br>神様のこの尊い御守護に対し、一人でも多くの方々を御救い申上げ、御高恩の万分の一にでも御報いし地上天国御建設に少しでも御協力さして頂きたいと念願しています。<br><br> 明主様、有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salva da Dermatite Tuberculosa e da Infiltração Pulmonar</h2>
 <p><strong>Coleção de Artigos do Mestre Jikan Okada</strong>
@@ -106,5 +261,48 @@ Pesquisa de Ensinamentos | Relatos de Graça | Pesquisa de Materiais</p>
 <p>No dia 21 de dezembro, tive uma nova purificação. A febre diária subia para 38 ou 39 graus, acompanhada de tosse intensa e grande quantidade de expectoração. As noites eram em claro, o apetite nulo, e eu fui debilitando-me a olhos vistos. Contudo, recebi Johrei do Reverendo Okada com um desvelo que transcende o cuidado familiar e, no primeiro dia do ano de 1951, já pude levantar-me. Meus familiares temiam uma recaída fatal, mas eu me apegava firmemente a Deus. Sentia que meu corpo e minha alma pertenciam a Ele, e agradecia por aquela nova purificação com imensa reverência.</p>
 <p>E, de fato, por volta de 10 de janeiro, meu apetite retornou de forma súbita. Surpreendia-me com o sabor delicioso de tudo o que comia e ganhei peso rapidamente. Antes da doença, meu peso era de aproximadamente 48 quilos; recentemente, ultrapassei os 54. Não sinto mais cansaço, e os nódulos e o inchaço que costumavam aparecer anualmente por volta de março não se manifestaram este ano. Sei que fui curada em minha essência. Vivo meus dias com alegria, gratidão e um profundo sentimento de ser imerecedora de tantas dádivas. Diante desta sublime proteção Divina, meu maior anseio é poder salvar o maior número possível de pessoas, como forma de retribuir uma ínfima parcela da imensa graça recebida, e assim, colaborar, ainda que modestamente, para a construção do Paraíso Terrestre.</p>
 <p>Meishu-Sama, muito obrigada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 結核性皮膚炎と肺浸潤を救われて 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 兵庫県 秀明中教会 上本朝子（53） 昭和二十四年四月、両下肢に数カ所、拇指大位の塊りが出来、押すと痛みを感じますが、他には何にも障りもないまま放っておきました。<br/><br/>すると右下肢の一カ所が紅く大きく腫れ上り、その部分に熱をもっていますので、付近の医師に診察してもらうと「丹毒になるかも知れぬ」といってペニシリンを二度注射して頂きましたが何の変化もありませんでした。<br/><br/>家の者も「何か判らぬ」という事は良くないものに違いないと申し自分でも不安になって、大阪の皮膚科の診察を受けた所「バザン氏硬結性紅斑」という結核性の腫物である事が判りました。<br/><br/>それと同時に胸部にも異常があるかもしれませんという事で、レントゲンを撮ると左肺浸潤が出ていました。<br/><br/>それで左肺に気胸をし、下肢にはレントゲン照射をしながら治療をつづけていましたが、別段苦しくもないまま勤めていた所、下肢はだんだん腫れがひどくなり、塊は大きくなり、赤かった一カ所がとうとう崩れ潰瘍となりました。<br/><br/>七月になって足は益々腫れ、ふくらはぎも、くるぶしも同じ太さになり、潰瘍は大きくなり、かつ塗り薬にまけてぐるりの皮は水ぶくれになり、痒く、とてもひどくなってしまいました。<br/><br/>阪大の医師も、これでは伊丹から大阪まで来る事が既にいけないから、足を使わぬよう高く、ふとんの上にでもあげて寝ているように、治療は付近の先生にしてもらうようにとの事でしたので、近所の病院でレントゲンがないため紫外線をかけて頂き、気胸もうけていましたが、八、九月と思いきって二カ月休ましてもらい、ずっと寝ていました。<br/><br/>そのうち九月終り頃やっと潰瘍はふさぎましたが、他の塊りと腫れは一向によくなりません。<br/><br/>十月になってから気胸が原因で湿性肋膜炎になり、熱は三十八、九度を上下し、とうとう少しも動けなくなってしまいました。<br/><br/>食欲は七月頃から減っていましたが、寝ついてからは少しも食欲がなく、衰弱をして見るかげもなくやせてしまいました。<br/><br/>母も死ぬのではないかとひどく心配して一生懸命看護をしてくれましたので、翌昭和二十五年三月頃ようやく床の上に起き上るようになりました。<br/><br/>その頃今度は母が弱り、中風のようになり、身体がきかなくなりました。<br/><br/>私自身まだ一向食欲も出ませんし、一旦治ったかにみえた下肢の塊りが、足も使わぬのに又々数カ所出て参りましたし、何かにつけて、真暗な思いが致しました。<br/><br/>医師はマイシンを打ってみたらと言われますが、とてもそんな余裕もなく、母が寝ているため、しっかりせぬ自分が何から何迄していては、今度はどんな結核性疾患を起すやらと、不安と焦燥とでたまらない心地でした。<br/><br/> 丁度この頃の事でした。<br/><br/>御近所の奥様が、このお道の先生がみえられるから来てみたらと言われ、初めて小山先生にお目にかかったのでした。<br/><br/>いろいろお話を伺いましたが、その時は全然信じられませんでしたが、何とかして治りたい、母より先に死ぬような事があってはと、藁をつかむ思いで一杯でしたので、とにかく御浄霊を受ける気になりました。<br/><br/>小山先生に御浄霊して頂いた夜でした。<br/><br/>足の拇指から電気が走るようなピリピリした感じがして二度も目がさめましたので、何かあるという事は気がつきました。<br/><br/>それからは岡田先生がずっと御浄霊して下さいましたが、半信半疑でいる内に病気は人間のもつ自然の浄化力の表われであり、神の恩恵である事をだんだん覚らして頂き、治ってから入信したのではおそいと、自分で判然と感じ、信ずるからにはと、医師と医薬の絶対信の観念から百八十度転換をして五月十七日教修をお受けしました。<br/><br/>それよりはひたすらに神様を信仰しおすがりして参りました。<br/><br/> 御浄霊を頂き初めてから十日程して、目立って食欲も出、元気も出て参りました。<br/><br/>それに入信後間のない私に迄、神様の御力を授け賜わり、近所の方で不眠になやむ人も、一度でよく寝られるようになられたり、又母を浄霊しますと霊動をし、それが狐霊や祖霊である事も判らせて頂きました。<br/><br/>それに中風も追々軽快に、おサジからお箸も持てるようになり、もつれた言葉もだんだんはっきりさして頂き、便所にもゆけるようになりました。<br/><br/>それに私も七月になって下肢の腫れは去り、塊りは消えてしまって、足を使っていながらこのようになり得ました事、ただただおどろくばかりの御恩恵を賜わり、何と神様に感謝申上げてよろしいやら言葉も分りません。<br/><br/>なお八月には肺浸潤も非常に良くなっている事が、勤先へ提出する厳重な診断でハッキリさして頂き、毎日毎日感謝で一杯でした。<br/><br/>又経済的にもおかげを頂きまして、十月には大光明如来様をお迎え申上げ、その間筆舌に尽せぬ御恩恵を賜わりまして、神様の偉大なる御力をまざまざわからせて頂きました。<br/><br/>明主様、まことに有難うございました。<br/><br/>厚くあつく御礼申上げます。<br/><br/> なお又十二月二十一日より再浄化頂き、毎日発熱三十八、九度に昇り、激しい咳と沢山の痰が出て、夜はそのために寝れず、食欲は少しもなくなり、見る見る衰弱しましたが、岡田先生の親身も及ばぬ御浄霊をうけ、この二十六年の元旦には床を離れる事が出来ました。<br/><br/>家族の者は又ブリ返すのではないか、こんどは死ぬかと心配したようですが、自分では神様にひたすらおすがりしており、身も魂も神様のものと有難く、再浄化頂きました事がなお更有難く、心から御礼申上げました。<br/><br/>果して一月十日頃から俄然食欲が出て、自分でもおどろくほど何でも美味しく見る見る肥りました。<br/><br/>病気以前は体重十三貫位だったのが、最近では十四貫五百を越え、何をしても疲れず、毎年三月頃に出てくる下肢の塊も腫れも、本年は何の事もなく、しんからよくなった事を知り得まして、毎日毎日愉快に有難く、勿体なく過させて頂いています。<br/><br/>神様のこの尊い御守護に対し、一人でも多くの方々を御救い申上げ、御高恩の万分の一にでも御報いし地上天国御建設に少しでも御協力さして頂きたいと念願しています。<br/><br/> 明主様、有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

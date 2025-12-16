@@ -152,3 +152,73 @@ P.honbun {
   background-color: #BDC3C7;
   border-radius: 4px;
 }
+
+/* ============================================
+   Global Compare Mode - Horizontal Layout
+   ============================================ */
+body.compare-mode {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 20px !important;
+  max-width: 95% !important;
+  margin: 0 auto !important;
+  padding: 10px !important;
+}
+
+body.compare-mode>.lang-toggle-bar {
+  grid-column: 1 / -1;
+  /* Full width */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 20px;
+  height: 40px !important;
+}
+
+/* Keep buttons from deforming - GLOBAL FIX */
+.lang-toggle-bar .lang-btn {
+  flex: 0 0 auto !important;
+  /* Don't shrink, don't grow */
+  width: auto !important;
+  min-width: 100px !important;
+  height: 40px !important;
+  /* Ensure minimum click target */
+  white-space: nowrap !important;
+}
+
+/* Keep buttons from deforming */
+body.compare-mode .lang-toggle-bar .lang-btn {
+  flex-shrink: 0 !important;
+  min-width: 100px !important;
+  white-space: nowrap !important;
+}
+
+body.compare-mode #pt-content,
+body.compare-mode #jp-content {
+  display: block !important;
+  max-height: 85vh !important;
+  overflow-y: auto !important;
+  padding: 20px !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+}
+
+body.compare-mode #jp-content {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif !important;
+  color: #4a5568 !important;
+}
+
+/* Hide legacy search forms globally */
+form[action*="msearch.cgi"] {
+  display: none !important;
+}
+
+/* Hide search forms in compare mode */
+body.compare-mode form {
+  display: none !important;
+}

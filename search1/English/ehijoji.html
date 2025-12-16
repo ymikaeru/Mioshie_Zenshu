@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ehijoji</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： CRISIS AND RELIGION The Light from the East , first issue, January 23, 1935 translated by cynndd Everyone seems to be using the word "crisis" these days. The word is used in international as well as domestic contexts, but here I would like to discuss how "crisis" is being used in the domestic scene and emphasize the relation of "crisis" to religion. In the domestic sphere, when we speak of "crises", we are usually referring to economic issues, and specifically to the high unemployment rates in agriculture and in middle-sized businesses. The basis of these economic problems, however, rests on politics. The poor state of the economy is what brought about the League of Blood and May 15th incidents. The goal of those involved in these incidents was to reform the errors of the bad influence of party politics on society, in particular, the protection enjoyed by the privileged classes, and the excesses of majority politics. Even supposing that the reforms called for could have been successful, would we still have been able to enjoy a perfect political system? I have grave doubts as to the possibility of that success. I have doubts about this possibility because the foundation of constitutional government is made up of both voters and those who receive the votes. Complaints about the system are usually made only of the political parties, that is, the groups of those individuals who receive the votes. There will be no true success in improving constitutional government until the other side of its foundation, the voters, also improve. If the cause of political corruption is in the buying of votes, then the sellers of votes, the voters, are equally as guilty as the politicians who try to buy their votes. Political forms are merely secondary, and the heart of the system is the degree of a sense of justice in those who are a part of the system. A sense of morality that absolutely refuses to entertain offers to buy their vote must be instilled in the people. The current situation certainly shows that education has been ineffective. I am sure that the power of religion can cultivate a sense of justice. Religious leaders should henceforth work hard to awaken a sense of political justice in the people. I do believe that this is why society does not hold religious leaders in high regard. Religious leaders have lost sight of the problems people face in daily life and are not awakening to the flow of time. 非常時と宗教 『東方の光』創刊号、昭和10(1935)年1月23日発行 今日誰しも言葉を吐けば非常時と言う。<br><br>この非常時にも国際的と国内的との区別がある。<br><br>今ここでは国内的非常時について宗教との関係を少しく説いてみたいと思う。<br><br> 国内的非常時にも経済問題即ち農村及び中商工失業問題等多くあるがその根幹を成しているのは何と言っても政治問題であろう。<br><br>彼の血盟団及び五、一五事件等に因って醸（かも）し出された事は何人も否めない所であろう。<br><br>その目的とする所は政党政治の弊害即ち特権階級擁護政治、多数決政治の誤謬をして改革するにあるのであるが仮りにその改革なるものが成功した所で果して完全なる政治が行われるであろうか。<br><br>これは大いなる疑問であらねばならない。<br><br> なぜなれば立憲政治の根元は投票者と被投票者の両方から成立っているもので被投票者の集団が政党なのであるから政党のみを責め、改革した所で片一方の投票者たる民衆の方もあわせて改善されなければ真の効果は無いはずである。<br><br>腐敗の原因が投票買収にありとすれば買収される民衆も罪は同罪でなければならない。<br><br> 故に政治形体は第二義的であって要は運用する者の正義の分量にあるんで、この意味において吾々はこの民衆をして投票買収に断然応じないだけの正義感を植え付けなければならないと思う。<br><br>それは教育の力では効果のない事は現在事実が示している通りで、どうしてもこの点に向って宗教の力を以てするより致し方がないと思う。<br><br> 故に今後の宗教家は宜（よろし）くこの民衆の政治的正義心を喚起すべく大いに働きかけなければならない。<br><br>宗教家が社会から重要視せられない原因はこの辺にあるのではあるまいか。<br><br>余りに実生活に遠ざかり時代意識に目醒めない点にあるのであると思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião em Tempos de Crise</h2>
 <p>Atualmente, o termo “crise” ecoa por toda parte. Embora seja empregado tanto no cenário internacional quanto no doméstico, gostaria de me ater aqui à sua aplicação no âmbito nacional, a fim de discorrer sobre a profunda relação que essa conjuntura estabelece com a religião.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>E isso se dá porque o alicerce de um governo constitucional é formado tanto pelos eleitores quanto pelos eleitos. As queixas sobre o sistema geralmente se dirigem apenas aos partidos políticos, que nada mais são do que o agrupamento dos indivíduos que recebem os votos. Entretanto, não haverá verdadeiro êxito na depuração do governo constitucional enquanto o outro lado de sua fundação, os eleitores, também não se aprimorar. Se a causa da corrupção política reside na compra de votos, então aqueles que os vendem, os próprios eleitores, são tão culpados quanto os políticos que tentam adquiri-los.</p>
 <p>Portanto, as formas de governo são, em si, secundárias; o cerne da questão reside no grau de senso de justiça daqueles que integram o sistema. É imperativo que se incuta no povo uma moralidade tão arraigada que o leve a rechaçar, de modo absoluto, qualquer oferta de compra de seu voto. A situação atual demonstra, inequivocamente, que a educação tem se mostrado ineficaz para tal fim. Estou convicto de que somente o poder da religião é capaz de cultivar esse senso de justiça.</p>
 <p>Por conseguinte, os líderes religiosos devem, doravante, empenhar-se arduamente em despertar no povo a consciência de sua justiça política. Creio que é justamente por essa omissão que a sociedade não os reverencia. Os líderes religiosos perderam de vista os problemas que as pessoas enfrentam na vida cotidiana e não despertaram para o fluxo dos tempos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： CRISIS AND RELIGION The Light from the East , first issue, January 23, 1935 translated by cynndd Everyone seems to be using the word "crisis" these days. The word is used in international as well as domestic contexts, but here I would like to discuss how "crisis" is being used in the domestic scene and emphasize the relation of "crisis" to religion. In the domestic sphere, when we speak of "crises", we are usually referring to economic issues, and specifically to the high unemployment rates in agriculture and in middle-sized businesses. The basis of these economic problems, however, rests on politics. The poor state of the economy is what brought about the League of Blood and May 15th incidents. The goal of those involved in these incidents was to reform the errors of the bad influence of party politics on society, in particular, the protection enjoyed by the privileged classes, and the excesses of majority politics. Even supposing that the reforms called for could have been successful, would we still have been able to enjoy a perfect political system? I have grave doubts as to the possibility of that success. I have doubts about this possibility because the foundation of constitutional government is made up of both voters and those who receive the votes. Complaints about the system are usually made only of the political parties, that is, the groups of those individuals who receive the votes. There will be no true success in improving constitutional government until the other side of its foundation, the voters, also improve. If the cause of political corruption is in the buying of votes, then the sellers of votes, the voters, are equally as guilty as the politicians who try to buy their votes. Political forms are merely secondary, and the heart of the system is the degree of a sense of justice in those who are a part of the system. A sense of morality that absolutely refuses to entertain offers to buy their vote must be instilled in the people. The current situation certainly shows that education has been ineffective. I am sure that the power of religion can cultivate a sense of justice. Religious leaders should henceforth work hard to awaken a sense of political justice in the people. I do believe that this is why society does not hold religious leaders in high regard. Religious leaders have lost sight of the problems people face in daily life and are not awakening to the flow of time. 非常時と宗教 『東方の光』創刊号、昭和10(1935)年1月23日発行 今日誰しも言葉を吐けば非常時と言う。<br/><br/>この非常時にも国際的と国内的との区別がある。<br/><br/>今ここでは国内的非常時について宗教との関係を少しく説いてみたいと思う。<br/><br/> 国内的非常時にも経済問題即ち農村及び中商工失業問題等多くあるがその根幹を成しているのは何と言っても政治問題であろう。<br/><br/>彼の血盟団及び五、一五事件等に因って醸（かも）し出された事は何人も否めない所であろう。<br/><br/>その目的とする所は政党政治の弊害即ち特権階級擁護政治、多数決政治の誤謬をして改革するにあるのであるが仮りにその改革なるものが成功した所で果して完全なる政治が行われるであろうか。<br/><br/>これは大いなる疑問であらねばならない。<br/><br/> なぜなれば立憲政治の根元は投票者と被投票者の両方から成立っているもので被投票者の集団が政党なのであるから政党のみを責め、改革した所で片一方の投票者たる民衆の方もあわせて改善されなければ真の効果は無いはずである。<br/><br/>腐敗の原因が投票買収にありとすれば買収される民衆も罪は同罪でなければならない。<br/><br/> 故に政治形体は第二義的であって要は運用する者の正義の分量にあるんで、この意味において吾々はこの民衆をして投票買収に断然応じないだけの正義感を植え付けなければならないと思う。<br/><br/>それは教育の力では効果のない事は現在事実が示している通りで、どうしてもこの点に向って宗教の力を以てするより致し方がないと思う。<br/><br/> 故に今後の宗教家は宜（よろし）くこの民衆の政治的正義心を喚起すべく大いに働きかけなければならない。<br/><br/>宗教家が社会から重要視せられない原因はこの辺にあるのではあるまいか。<br/><br/>余りに実生活に遠ざかり時代意識に目醒めない点にあるのであると思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

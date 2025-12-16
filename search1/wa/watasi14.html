@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の仕事を邪魔しないでくれ （下） 『栄光』132号、昭和26(1951)年11月28日発行 次は美術館であるが、これは三階建、総建坪千坪くらいのもので、この様式がまた問題である。<br><br>何となればこれも大体コルビュジエ式ではあるが、美術館としての色彩を充分出した世界的のものにしたいからである。<br><br>そうしてその陳列の美術品であるが、これも量は固（もと）より質においては、世界最高峰を目指している。<br><br>というのはなるほど米英仏等にも、それぞれ立派な博物館、美術館はあるにはあるが、何しろ陳列品は西洋の作品がほとんどであるに対し、本館は東洋美術に重点を置いている。<br><br>この事は欧米の美術愛好家の意見もそうであるごとく、世界の美術としては何と言っても東洋が優っているので、近来欧米においても東洋美術の蒐集に腐心しているにみても明らかである。<br><br>そんな訳で彼らも数十年前からここに目を付け、金に飽かして手に入れた物が、今日自国の美術館を賑わしているが、しかし何といっても僅か数十年の短い期間では、充実までにはゆかないのでこれが欧米識者の悩みとされている。<br><br>ところが幸いな事には、我日本には千数百年前から支那朝鮮は固より、日本独自の作品までも遺憾なく国中に蔵されており、それが分散的ではあるが、大いに意を強うする物がある。<br><br>しかし今のところほとんど死蔵の形であるのは遺憾ではあるが致し方あるまい。<br><br>何しろ欧米と異（ちが）い、今日までの日本はそれを生かして、世に益すべき機関がなかったからである。<br><br>しかも支那朝鮮の美術品は現在本国にはほとんどないとされている。<br><br>というのは昔から幾度もの兵火を蒙（こうむ）って来た事とて、全部破壊焼尽されており、ただ僅かに発掘品がたまに出るくらいで、これが欧米人の手に入り、博物館、美術館に出陳されるという事である。<br><br> ところが日本においては、千年以上前から支那朝鮮の名画名器を輸入したのはもちろん、日本においても千三百年前推古朝時代すでに仏教芸術を支那に学び、日本人独特の仏教美術を作り出し、その後あらゆる美術品に亘って進歩発達し、名人巨匠の輩出と相まって、多数の名品が作られ、天平、藤原、鎌倉、桃山、徳川、明治、大正期を経て今日に至ったのであるから、その長い期間に貯蔵された東洋美術の優秀品は実に夥（おびただ）しいものがある。<br><br>しかも昔から皇室をはじめ将軍、大名や近代に至っては財閥等が愛好珍重し、保有に努めて来た事とて、今日といえどもそれらの珍什名器は国中至るところに愛蔵されており、私が常にいう日本は世界の美術館なり、との言葉も宜（むべ）なるかなというべきである。<br><br> そんな訳で、今度私の造る美術館にしても、東洋美術の粋を集めて、世界各国愛好者の渇（かつ）を医（いや）すと共に、日本人の文化的水準の高さを示す結果ともなり、好戦国民の汚名を拭う上にも至大な効果があるであろうし、なお完成の暁、外客誘致の国策にも、与って力ある事は誇称し得るのである。<br><br>そうして右以外、今一つの重要事がある。<br><br>それは今日、日本の美術家達が、古美術の傑作品を参考に見たいという、旺盛な意欲である。<br><br>ところがそれを満たすに足るべき施設はほとんどないと言ってもよかろう。<br><br>ただ僅かに三都の博物館と、数箇所の私設美術館あるのみで、博物館は歴史的考古学的のものが主となっており、美術的にははなはだ物足りないと共に、私設美術館に至っては、一種の財産保護手段ともいうべきもので、僅かに春秋二回短期間だけ特殊の人に見せるくらいで、誰でも見たい時に見られるという簡易な組織の美術館がないので、この美術館が出来たとしたら、今後我国文化の向上に、いかに役立つかは多言を要しないであろう。<br><br> 右によっても分るごとく、現在日本に数多（あまた）あるところの珍什名器は、財閥や特殊階級の倉庫深く死蔵されているに対し、一方それに憧れている日本中の美術家や好事家（こうずか）も多数あるとしたら、双方を連繋する機関こそ、今後なくてはならないものである。<br><br>この意味において何よりも美術品所蔵家の理解を得ると共に、安心して出陳出来るだけの設備の完備した美術館が大いに必要である。<br><br> 以上長々とかいて来たが、このような大きな事業を、私一人の手で達成しようとするのであるから、実に容易な業ではない。<br><br>恐らく有史以来誰も試みた事のない大事業であろう。<br><br>本来なれば政府の援助は無理としても、市や民間団体等から相当の支援を受けてもよかりそうなものだが、私はそれを嫌うのである。<br><br>なぜなればそうされると私の考え通り思い切ってやれないからである。<br><br>何しろ営利事業でない事と、余りに例のない大規模な新企画であってみれば、ちょうど美術家の製作品と同様、飽くまで私としての個性を発揮したいのである。<br><br> 以上のごときこの大事業に対し、その実際内容を知らないで、本教をとやかく言うジャーナリストもあるようだが、大いに考えて貰いたいのである。<br><br>以上によっても分るだろうが、私は世界文化のためと、日本将来のためを思い黙々として努力して来たのであって、神助によってともかく順調に進んで来た今日、満足には思っているが、この事業は私がやらないとしても、誰かがやらなければならない切実な国家的、否世界的事業であり、それが早ければ早い程、文化の向上に資するところ大であろう。<br><br>従って未知の人や関心を持つ限りの人々は、まず実地をみて貰いたいのである。<br><br>その場合懇切に案内もし、納得のゆくよう説明の労も惜しまないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão do Museu de Arte</h2>
 <p>O próximo grande projeto é o Museu de Arte. Trata-se de uma edificação de três pavimentos, com uma área total de aproximadamente mil tsubo. Seu estilo arquitetônico constitui um desafio particular, pois, embora inspirado em linhas gerais na escola de Le Corbusier, almejo que sua identidade como museu seja plenamente expressa, tornando-o uma obra de relevância mundial.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Embora tenha discorrido longamente sobre o tema, a realização de um projeto de tamanha magnitude por minhas próprias mãos não é tarefa simples. Trata-se, quiçá, de um empreendimento de uma magnitude jamais tentada na história. Seria natural que recebesse um apoio considerável da prefeitura ou de entidades civis, para não mencionar o auxílio do governo, mas faço questão de recusá-lo. A razão é que tal apoio me impediria de executar o projeto com a liberdade que minha visão exige. Por não se tratar de uma iniciativa com fins lucrativos e por ser um plano inovador de escala sem precedentes, desejo expressar ao máximo a minha individualidade, assim como o faz um artista em sua obra.</p>
 <p>Diante de um projeto de tamanha envergadura, sei que há jornalistas que, desconhecendo seu real conteúdo, tecem críticas à nossa Igreja. A eles, peço que reflitam profundamente. Como procurei esclarecer, tenho me empenhado silenciosamente pelo bem da cultura mundial e pelo futuro do Japão. O fato de que tudo tem progredido de forma harmoniosa graças ao Auxílio Divino é motivo de satisfação. Este é um projeto de premente necessidade, não apenas nacional, mas mundial. Mesmo que não fosse eu a realizá-lo, alguém precisaria fazê-lo. E quanto antes for concretizado, maior será sua contribuição para o avanço da cultura.</p>
 <p>Portanto, convido as pessoas que ainda não conhecem o projeto e todos aqueles que por ele se interessam a visitarem o local e verem com os próprios olhos. Na ocasião, terei o prazer de oferecer uma visita guiada e não pouparei esforços para fornecer todas as explicações necessárias até que sua compreensão seja plena.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の仕事を邪魔しないでくれ （下） 『栄光』132号、昭和26(1951)年11月28日発行 次は美術館であるが、これは三階建、総建坪千坪くらいのもので、この様式がまた問題である。<br/><br/>何となればこれも大体コルビュジエ式ではあるが、美術館としての色彩を充分出した世界的のものにしたいからである。<br/><br/>そうしてその陳列の美術品であるが、これも量は固（もと）より質においては、世界最高峰を目指している。<br/><br/>というのはなるほど米英仏等にも、それぞれ立派な博物館、美術館はあるにはあるが、何しろ陳列品は西洋の作品がほとんどであるに対し、本館は東洋美術に重点を置いている。<br/><br/>この事は欧米の美術愛好家の意見もそうであるごとく、世界の美術としては何と言っても東洋が優っているので、近来欧米においても東洋美術の蒐集に腐心しているにみても明らかである。<br/><br/>そんな訳で彼らも数十年前からここに目を付け、金に飽かして手に入れた物が、今日自国の美術館を賑わしているが、しかし何といっても僅か数十年の短い期間では、充実までにはゆかないのでこれが欧米識者の悩みとされている。<br/><br/>ところが幸いな事には、我日本には千数百年前から支那朝鮮は固より、日本独自の作品までも遺憾なく国中に蔵されており、それが分散的ではあるが、大いに意を強うする物がある。<br/><br/>しかし今のところほとんど死蔵の形であるのは遺憾ではあるが致し方あるまい。<br/><br/>何しろ欧米と異（ちが）い、今日までの日本はそれを生かして、世に益すべき機関がなかったからである。<br/><br/>しかも支那朝鮮の美術品は現在本国にはほとんどないとされている。<br/><br/>というのは昔から幾度もの兵火を蒙（こうむ）って来た事とて、全部破壊焼尽されており、ただ僅かに発掘品がたまに出るくらいで、これが欧米人の手に入り、博物館、美術館に出陳されるという事である。<br/><br/> ところが日本においては、千年以上前から支那朝鮮の名画名器を輸入したのはもちろん、日本においても千三百年前推古朝時代すでに仏教芸術を支那に学び、日本人独特の仏教美術を作り出し、その後あらゆる美術品に亘って進歩発達し、名人巨匠の輩出と相まって、多数の名品が作られ、天平、藤原、鎌倉、桃山、徳川、明治、大正期を経て今日に至ったのであるから、その長い期間に貯蔵された東洋美術の優秀品は実に夥（おびただ）しいものがある。<br/><br/>しかも昔から皇室をはじめ将軍、大名や近代に至っては財閥等が愛好珍重し、保有に努めて来た事とて、今日といえどもそれらの珍什名器は国中至るところに愛蔵されており、私が常にいう日本は世界の美術館なり、との言葉も宜（むべ）なるかなというべきである。<br/><br/> そんな訳で、今度私の造る美術館にしても、東洋美術の粋を集めて、世界各国愛好者の渇（かつ）を医（いや）すと共に、日本人の文化的水準の高さを示す結果ともなり、好戦国民の汚名を拭う上にも至大な効果があるであろうし、なお完成の暁、外客誘致の国策にも、与って力ある事は誇称し得るのである。<br/><br/>そうして右以外、今一つの重要事がある。<br/><br/>それは今日、日本の美術家達が、古美術の傑作品を参考に見たいという、旺盛な意欲である。<br/><br/>ところがそれを満たすに足るべき施設はほとんどないと言ってもよかろう。<br/><br/>ただ僅かに三都の博物館と、数箇所の私設美術館あるのみで、博物館は歴史的考古学的のものが主となっており、美術的にははなはだ物足りないと共に、私設美術館に至っては、一種の財産保護手段ともいうべきもので、僅かに春秋二回短期間だけ特殊の人に見せるくらいで、誰でも見たい時に見られるという簡易な組織の美術館がないので、この美術館が出来たとしたら、今後我国文化の向上に、いかに役立つかは多言を要しないであろう。<br/><br/> 右によっても分るごとく、現在日本に数多（あまた）あるところの珍什名器は、財閥や特殊階級の倉庫深く死蔵されているに対し、一方それに憧れている日本中の美術家や好事家（こうずか）も多数あるとしたら、双方を連繋する機関こそ、今後なくてはならないものである。<br/><br/>この意味において何よりも美術品所蔵家の理解を得ると共に、安心して出陳出来るだけの設備の完備した美術館が大いに必要である。<br/><br/> 以上長々とかいて来たが、このような大きな事業を、私一人の手で達成しようとするのであるから、実に容易な業ではない。<br/><br/>恐らく有史以来誰も試みた事のない大事業であろう。<br/><br/>本来なれば政府の援助は無理としても、市や民間団体等から相当の支援を受けてもよかりそうなものだが、私はそれを嫌うのである。<br/><br/>なぜなればそうされると私の考え通り思い切ってやれないからである。<br/><br/>何しろ営利事業でない事と、余りに例のない大規模な新企画であってみれば、ちょうど美術家の製作品と同様、飽くまで私としての個性を発揮したいのである。<br/><br/> 以上のごときこの大事業に対し、その実際内容を知らないで、本教をとやかく言うジャーナリストもあるようだが、大いに考えて貰いたいのである。<br/><br/>以上によっても分るだろうが、私は世界文化のためと、日本将来のためを思い黙々として努力して来たのであって、神助によってともかく順調に進んで来た今日、満足には思っているが、この事業は私がやらないとしても、誰かがやらなければならない切実な国家的、否世界的事業であり、それが早ければ早い程、文化の向上に資するところ大であろう。<br/><br/>従って未知の人や関心を持つ限りの人々は、まず実地をみて貰いたいのである。<br/><br/>その場合懇切に案内もし、納得のゆくよう説明の労も惜しまないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

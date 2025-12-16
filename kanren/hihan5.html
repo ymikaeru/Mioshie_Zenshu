@@ -4,56 +4,211 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hihan5</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 関 連 出 版 物 ――― 岡田自観氏に望む 山岡荘八 宇宙は未知の分野の多すぎる科学だけではまだまだ解明されない。<br><br>したがつて唯心論が一世を蔽う時もあれば、唯物論が世界をつゝむこともあろう。<br><br>その時代々々の流行で、平家にあらざれは人にあらざる時があるのも止むを得まい。<br><br> といって、そうした世論に歩調も合せて宇宙そのものが唯心論者になったり唯物論者になったりしないことだけは確実である。<br><br> いかに世界の二大陣営がカンカンになって論議しようと、いかに原子爆弾をバラ撒こうと、そのために宇宙の実体が、その意志を変えることもあるまい。<br><br> 宇宙の実体は、片々たる人間どもの認識などにはかゝわりなく厳として実在する。<br><br>一日庭におりて、春に花をつけ、秋にみのる植物たちの営みに接するだけでも無限の感懐を禁じ得ない。<br><br> 唯心論が向う鉢巻で唯物論を攻撃したり、科学と宗教が反撥しあったりする時代はすでにすぎ去ったと思う。<br><br>物質のもとは電子であり、電子はすでに小宇宙であって、科学では解明しきれない霊的なものを含んでいる――ということを解明したのは科学であった。<br><br> お互いにひとりよがりはやめにして、敬虔に、次なる文明の建設に取りかゝらなければなるまい。<br><br> 由来私は宗教家なる者の排他思想にはつくづく嫌悪を感じている。<br><br>もし真理の探求ということが、未だ解明されざる宇宙の法則から、その意志をさぐることにあるとするならば、それをさぐりに入る門は無数にあってよい筈である。<br><br> キリストを介して入るがゆえに邪となり、仏を介して近づくがゆえに悪であるというようなおかしな論理はあり得まい。<br><br>同時に日蓮の門から入ろうと、親鸞の門から歩き出そうと、その精神に励精がかけていたのでは、迷信の域を一歩も出られないことも事実であろうが、みなそれぞれに真理の登山口ではあろう。<br><br> しかしその真理の山は、われこそ頂上を極めたりと叫んだ人の声のみ残って、いまだに民衆のものではない。<br><br> 民衆は手をひいて共に頂上をきわめ、四方の景観を見せられた後でなければ信じない。<br><br>その意味からは、いまだ未踏の処女峰である。<br><br>その険岨な処女峰の征服途上で、強力たちが目的を忘れてつかみあいの喧嘩をしている――といったのが、いまの宗教家だと私は思っている。<br><br> 私は宗教と迷信を、その人のめざすもの、実体が、何であるかに依って区別している。<br><br> 唯物論者がどんなに小賢しい物証を並べようと、唯心論者が、どんなにまかふしぎな祈祷をやらかそうと、そんなものとは厳として別に存在する宇宙の大意志。<br><br> その意志をさぐって救われようとするのならば、いかに見すぼらしい会員にも真の宗教が存在すると思うし、いかに大伽藍の奥で金襴の法衣をひけらかそうと、強力同志の喧嘩などを考えている手合いやそれを有難がるのは迷信の徒に違いない。<br><br>その意味では、いかに迷信家が日本中にあふれているかという事にもなるが、その反対にかくれた宗教家もまた多いという事にもなろう。<br><br> 大体古いものはみな真物で、新しいものは偽物といった妙な事大主義が明治この方日本人の宗教観に、かなり大きくつきまとっている。<br><br> 勿論これはインテリと称する者の間にだが、これらの人々の宗教を礼装の装飾位に考えた安易な人生観が、古いものの権威と尊厳をいちじるしく低めたようだ。<br><br>安易な容認はつねに内容の腐敗低下をうながすからである。<br><br> 岡田自観氏の観音教は、前に記した宇宙の意志を「愛――」と「調和――」と見たところに出発しているようである。<br><br>その出発に私は異義をさしはさむ何ものも持っていない。<br><br>私は宇宙を人も物もふくめた一つの生命体と観て、そこにわがさゝやかな安住の場を見つけ出している。<br><br>したがって物を公平に分配しようという共産主義にも、腕に任せて取るがよいという資本主義にも賛成出来ない。<br><br>もともと物と人とは一体であって、つねに一体の努力が更に新しい物質（科学）や又文化を産みだして人間生活を豊富にすべきもの――と、考えているからである。<br><br> その意味では組合主義などとも、キリスト教ともいさゝか違うと思っている。<br><br>さまざまな物資や領土が人類のためにあると考えると、人と物とは二元になって、人類はやがてまた物資を求め、領土をねらって闘争を繰返すことになるが、もともと一体なのだからと考えるとだいぶ考え方は違って来る。<br><br> 植物のない世界に動物のあろう筈はなく、水のないところに空気のあろう筈もない。<br><br>資本家だけがあっても仕事にならず、労働者ばかりでも高度の生産はのぞめない。<br><br> 自分があるということはすでに他があるということで、他と自己とは原子に至ってはっきりと一つであることが証明された。<br><br> 換言すれは個々は原子の小となり、大は一個の宇宙となる万物をふくめた一つの生命体であることは、今日よでの文明が探り得た動かすべからざる事実なのである。<br><br> この事実に基づいて、新しく人間の生前を規正してゆくのでなければ、人類ばかりでなく他の生産までが滅亡するかも知れない危機に見舞われている。<br><br> そしてこの危機感もまた、一つの生命体であるがゆえに、各大陸から各国家、各民族、各個人にまでことごとく滲透して、現代社会の絶望を構成している。<br><br> したがってこうした危機の感受出来ない宗教家などというものは、すでに宗教家ではなく、知って動けなけれは廃物というより他にない。<br><br> （何と日本中に廃物の多いことか！） 岡田自観氏はこの危機感からます信者を救おうとして起ちあがり、病と貧と争いなき世界を建設すると宣言している。<br><br> これも不賛成を称える理由はない。<br><br>ショウペンハウエルがさまざまな法則を目して「宇宙の盲目意志――」といったその「意志――」を大愛と調和の神の意志と見た以上、当然これは生れて来なけれはならない宗教家の悲願のはずである。<br><br> 病と貧と争い―― 私はまだそれほど深く自観氏を知らない。<br><br>したがってこの三大眼目の実行が、どのようにしてなされるかの詳細にはふれ得ないが、しかし、熱海にまず、その三つを無くした「地上天国――」の粗本を建設しようとして、土木工事を起していることは聞いている。<br><br>死せる伽藍、信徒おどしの過去の伽藍にならぬよう、大いに深遠なる経倫を示してもらいたいと思っている。<br><br> 世の中にはよく釈尊やキリストやその他の開祖たちなどを超俗的な隠者風になぞらえ、宗教とは政治の上に超然すべきかのごとき言辞を弄して、自己の無力を隠蔽している偽聖者が存在するが、キリストにしても釈尊にしても、おれは救世主だとは云ったが宗教家だとは云っていない。<br><br> 政治を度外視した救世などがあり得るかどうか、曲言も甚だしいものだと思っている。<br><br> 世を救おうと宣言するほどの気魄の者は、今日の言葉で云えば、革命家でなければならない。<br><br> 政治・経済、芸術、学問、すべてに新しい見識と意気をもって、行詰った過去の文明とそれにまつわる権力を破砕するのでなけれは、天国など建設出来る筈はない。<br><br> 釈尊は立派な革命家であった。<br><br>キリストも権力の前などには一歩もひざまづかなかった。<br><br> たゞ濁世を憂い、救世の悲願を行動してやまなかった、大哲人であり、大政治家であり、大芸術家であった。<br><br> 岡田自観氏の霊魂がその高きよりくだり、叡智これ伴うならば、すでに時間の問題になっている唯物論的科学文明時代の最後に啓示された、原子文明時代の扉を逞しくおし開いて貰いたい。<br><br> 宇宙の意志を神の大愛と見る点では、ことごとく氏と同感の私には、今こそ神は、そうした使徒の出現を両手をひらいて待ちうけているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O que Espero de Okada Jikan</h2>
 <p>Yamaoka Sohachi</p>
@@ -79,5 +234,48 @@ function toggleLang(lang) {
 <p>Shakyamuni foi um magnífico revolucionário. Cristo também não se curvou um centímetro sequer diante do poder. Eles foram grandes filósofos, grandes estadistas e grandes artistas que se afligiam com a corrupção do mundo e agiam incessantemente movidos pelo anseio de salvar a humanidade.</p>
 <p>Se a alma de Okada Jikan descender dessas alturas, acompanhada da devida sabedoria, anseio que ele abra com vigor as portas da civilização da era atômica, cuja revelação se tornou uma questão de tempo neste final da era da civilização científico-materialista.</p>
 <p>Para mim, que concordo inteiramente com ele no que tange a ver a Vontade do Universo como o Grande Amor de Deus, sei que agora é o momento em que Deus aguarda, de braços abertos, o surgimento de tal apóstolo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 関 連 出 版 物 ――― 岡田自観氏に望む 山岡荘八 宇宙は未知の分野の多すぎる科学だけではまだまだ解明されない。<br/><br/>したがつて唯心論が一世を蔽う時もあれば、唯物論が世界をつゝむこともあろう。<br/><br/>その時代々々の流行で、平家にあらざれは人にあらざる時があるのも止むを得まい。<br/><br/> といって、そうした世論に歩調も合せて宇宙そのものが唯心論者になったり唯物論者になったりしないことだけは確実である。<br/><br/> いかに世界の二大陣営がカンカンになって論議しようと、いかに原子爆弾をバラ撒こうと、そのために宇宙の実体が、その意志を変えることもあるまい。<br/><br/> 宇宙の実体は、片々たる人間どもの認識などにはかゝわりなく厳として実在する。<br/><br/>一日庭におりて、春に花をつけ、秋にみのる植物たちの営みに接するだけでも無限の感懐を禁じ得ない。<br/><br/> 唯心論が向う鉢巻で唯物論を攻撃したり、科学と宗教が反撥しあったりする時代はすでにすぎ去ったと思う。<br/><br/>物質のもとは電子であり、電子はすでに小宇宙であって、科学では解明しきれない霊的なものを含んでいる――ということを解明したのは科学であった。<br/><br/> お互いにひとりよがりはやめにして、敬虔に、次なる文明の建設に取りかゝらなければなるまい。<br/><br/> 由来私は宗教家なる者の排他思想にはつくづく嫌悪を感じている。<br/><br/>もし真理の探求ということが、未だ解明されざる宇宙の法則から、その意志をさぐることにあるとするならば、それをさぐりに入る門は無数にあってよい筈である。<br/><br/> キリストを介して入るがゆえに邪となり、仏を介して近づくがゆえに悪であるというようなおかしな論理はあり得まい。<br/><br/>同時に日蓮の門から入ろうと、親鸞の門から歩き出そうと、その精神に励精がかけていたのでは、迷信の域を一歩も出られないことも事実であろうが、みなそれぞれに真理の登山口ではあろう。<br/><br/> しかしその真理の山は、われこそ頂上を極めたりと叫んだ人の声のみ残って、いまだに民衆のものではない。<br/><br/> 民衆は手をひいて共に頂上をきわめ、四方の景観を見せられた後でなければ信じない。<br/><br/>その意味からは、いまだ未踏の処女峰である。<br/><br/>その険岨な処女峰の征服途上で、強力たちが目的を忘れてつかみあいの喧嘩をしている――といったのが、いまの宗教家だと私は思っている。<br/><br/> 私は宗教と迷信を、その人のめざすもの、実体が、何であるかに依って区別している。<br/><br/> 唯物論者がどんなに小賢しい物証を並べようと、唯心論者が、どんなにまかふしぎな祈祷をやらかそうと、そんなものとは厳として別に存在する宇宙の大意志。<br/><br/> その意志をさぐって救われようとするのならば、いかに見すぼらしい会員にも真の宗教が存在すると思うし、いかに大伽藍の奥で金襴の法衣をひけらかそうと、強力同志の喧嘩などを考えている手合いやそれを有難がるのは迷信の徒に違いない。<br/><br/>その意味では、いかに迷信家が日本中にあふれているかという事にもなるが、その反対にかくれた宗教家もまた多いという事にもなろう。<br/><br/> 大体古いものはみな真物で、新しいものは偽物といった妙な事大主義が明治この方日本人の宗教観に、かなり大きくつきまとっている。<br/><br/> 勿論これはインテリと称する者の間にだが、これらの人々の宗教を礼装の装飾位に考えた安易な人生観が、古いものの権威と尊厳をいちじるしく低めたようだ。<br/><br/>安易な容認はつねに内容の腐敗低下をうながすからである。<br/><br/> 岡田自観氏の観音教は、前に記した宇宙の意志を「愛――」と「調和――」と見たところに出発しているようである。<br/><br/>その出発に私は異義をさしはさむ何ものも持っていない。<br/><br/>私は宇宙を人も物もふくめた一つの生命体と観て、そこにわがさゝやかな安住の場を見つけ出している。<br/><br/>したがって物を公平に分配しようという共産主義にも、腕に任せて取るがよいという資本主義にも賛成出来ない。<br/><br/>もともと物と人とは一体であって、つねに一体の努力が更に新しい物質（科学）や又文化を産みだして人間生活を豊富にすべきもの――と、考えているからである。<br/><br/> その意味では組合主義などとも、キリスト教ともいさゝか違うと思っている。<br/><br/>さまざまな物資や領土が人類のためにあると考えると、人と物とは二元になって、人類はやがてまた物資を求め、領土をねらって闘争を繰返すことになるが、もともと一体なのだからと考えるとだいぶ考え方は違って来る。<br/><br/> 植物のない世界に動物のあろう筈はなく、水のないところに空気のあろう筈もない。<br/><br/>資本家だけがあっても仕事にならず、労働者ばかりでも高度の生産はのぞめない。<br/><br/> 自分があるということはすでに他があるということで、他と自己とは原子に至ってはっきりと一つであることが証明された。<br/><br/> 換言すれは個々は原子の小となり、大は一個の宇宙となる万物をふくめた一つの生命体であることは、今日よでの文明が探り得た動かすべからざる事実なのである。<br/><br/> この事実に基づいて、新しく人間の生前を規正してゆくのでなければ、人類ばかりでなく他の生産までが滅亡するかも知れない危機に見舞われている。<br/><br/> そしてこの危機感もまた、一つの生命体であるがゆえに、各大陸から各国家、各民族、各個人にまでことごとく滲透して、現代社会の絶望を構成している。<br/><br/> したがってこうした危機の感受出来ない宗教家などというものは、すでに宗教家ではなく、知って動けなけれは廃物というより他にない。<br/><br/> （何と日本中に廃物の多いことか！） 岡田自観氏はこの危機感からます信者を救おうとして起ちあがり、病と貧と争いなき世界を建設すると宣言している。<br/><br/> これも不賛成を称える理由はない。<br/><br/>ショウペンハウエルがさまざまな法則を目して「宇宙の盲目意志――」といったその「意志――」を大愛と調和の神の意志と見た以上、当然これは生れて来なけれはならない宗教家の悲願のはずである。<br/><br/> 病と貧と争い―― 私はまだそれほど深く自観氏を知らない。<br/><br/>したがってこの三大眼目の実行が、どのようにしてなされるかの詳細にはふれ得ないが、しかし、熱海にまず、その三つを無くした「地上天国――」の粗本を建設しようとして、土木工事を起していることは聞いている。<br/><br/>死せる伽藍、信徒おどしの過去の伽藍にならぬよう、大いに深遠なる経倫を示してもらいたいと思っている。<br/><br/> 世の中にはよく釈尊やキリストやその他の開祖たちなどを超俗的な隠者風になぞらえ、宗教とは政治の上に超然すべきかのごとき言辞を弄して、自己の無力を隠蔽している偽聖者が存在するが、キリストにしても釈尊にしても、おれは救世主だとは云ったが宗教家だとは云っていない。<br/><br/> 政治を度外視した救世などがあり得るかどうか、曲言も甚だしいものだと思っている。<br/><br/> 世を救おうと宣言するほどの気魄の者は、今日の言葉で云えば、革命家でなければならない。<br/><br/> 政治・経済、芸術、学問、すべてに新しい見識と意気をもって、行詰った過去の文明とそれにまつわる権力を破砕するのでなけれは、天国など建設出来る筈はない。<br/><br/> 釈尊は立派な革命家であった。<br/><br/>キリストも権力の前などには一歩もひざまづかなかった。<br/><br/> たゞ濁世を憂い、救世の悲願を行動してやまなかった、大哲人であり、大政治家であり、大芸術家であった。<br/><br/> 岡田自観氏の霊魂がその高きよりくだり、叡智これ伴うならば、すでに時間の問題になっている唯物論的科学文明時代の最後に啓示された、原子文明時代の扉を逞しくおし開いて貰いたい。<br/><br/> 宇宙の意志を神の大愛と見る点では、ことごとく氏と同感の私には、今こそ神は、そうした使徒の出現を両手をひらいて待ちうけているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

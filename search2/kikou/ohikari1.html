@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohikari1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御光雑記（一） 馬太（マタイ） 『栄光』168号、昭和27(1952)年8月6日発行 ＝御光の籠った杖＝ 今からおよそ十五六年前、明主様はお弟子達数人が経営の任に当っていた岐阜県下呂町の鉱山へお出でになった事がある。<br><br>明主様は麓の鉱山事務所に予（あらかじ）め用意されてあった杖をついて登山せられたが、その杖は御下山の後、事務所に置かれたまま御帰京になった。<br><br>ところが事務所の家屋には、永年のリョウマチで歩行不如意の老人がいたが、彼は土間に立てかけてあったその杖が丁度恰好だったので、明主様御使用のものと知ってか知らでか、その杖に縋って歩いた。<br><br>気がついてみるといつもと違って非常に軽く歩ける。<br><br>不思議に思いながらその後も歩行の度にその杖を使っていたところ、永年苦しんだリョウマチも何時の間にか治ってしまったので、思いもかけぬお蔭に驚喜したのであった。<br><br>これは未だ御力を秘めておられた頃の出来事の多数の中の一例に過ぎぬが僅々二三時間お手を御触れになったものでも、これ程の大きい恵みを与えられるものである。<br><br>それは勿論、御霊気が杖に満された為である。<br><br>その当時から数年前、火鉢の縁に手を触れられたまゝのお姿を撮影した所御掌が火鉢を透過して映った事があり、御手からは絶えず強い御光が放射されている事を知ったものである。<br><br> ＝御浄霊の事＝ 又信徒がその御偉力を讃える御霊紙も、以前は半紙半分を四つ折りにして重ねたものを一二日間御懐へお入れになったものである。<br><br>つまり御肌に触れられている間に御霊気が滲み込んだ訳であって、この半紙の一片だけでも、時には起死回生の力を発揮するのであるから驚くべき事である。<br><br>この二つの片鱗にみても、明主様が御手や御身に触れられたものには御霊気が入り、奇蹟を表わす事が知られる。<br><br> ＝明主様の活花＝ 又明主様の活花は、一幅の名画にも掛る最高度の芸術品であるが、特に強く観者の心を打つものは、花でも葉や枝でも、完全な調和の中に生かされ高い気品を放つ、美的生命の溌剌さで、それは自然のものよりなお美しく生々とみえる事である。<br><br>最も不思議な事は、お活けになった花は、普通の何倍もの期間生々として萎れない、これは勿論、御手に触れ活けらるる事によって、御霊光が入り、生命力が与えられるからである。<br><br> これ故に、吾々が御参拝の都度、明主様の御言霊を拝聴し、御浄霊を戴く事は、最も尊い御霊光を直接魂に滲まれる訳であるから、多量の曇を払拭さるるは勿論不老不死的生命力を賜わるものである事が知らるる。<br><br>何と有難い事ではないか。<br><br> ＝御書体は無限の生命体＝ 又明主様の大愛を籠めておかきになる御神体、お守御書体等の如きは、その文字の意そのままの無限の生命体となる。<br><br>例えば光明如来の御書が、はっきりと光明如来様の御姿となって拝さるるのもよく聞く所であって、御文字そのままが生ける御紳体であらるる事が知られる。<br><br> 御守は、難行も苦行もなくして自他共に霊体の曇を払拭され、病苦や禍を無くする御光である事はあまりに明かな事実である。<br><br> 又、御書体は、その文字の意志通りに広範囲に霊界を変えてゆく活物である。<br><br> 故に、御守をかけ、御神体を御奉斎する事によって一家庭又は一団体は漸次天国になってゆくし、御書体を掲げる事によってより幸福を増し、御救いを拡大する事になるのである。<br><br>まことに開闢以来ない偉大なる御救いである。<br><br>かように偉大な御力が世に知れ渉らぬ筈はない。<br><br>いずれ明主様の御力が知れ渡り、世界中に大御光が遍満する時、無病長寿の天国世界が出現すべきは、何の疑も容れる事は出来ぬ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luz Divina em Suas Múltiplas Manifestações</h2>
 <p>Há aproximadamente quinze ou dezesseis anos, Meishu-Sama visitou uma mina na cidade de Gero, província de Gifu, cuja gestão estava a cargo de alguns de seus discípulos. Para a subida, Meishu-Sama utilizou um cajado que Lhe fora preparado no escritório da mina, ao pé da montanha. Ao retornar, porém, partiu para Tóquio, deixando o cajado esquecido no escritório.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>O Ohikari, por sua vez, é a manifestação da Luz que nos permite purificar as máculas espirituais, tanto as nossas quanto as de outrem, eliminando doenças e infortúnios sem a necessidade de quaisquer austeridades ou penitências. Esta é uma verdade por demais evidente. Suas caligrafias são, ainda, agentes de transformação que reestruturam o Mundo Espiritual em vasta escala, de acordo com a intenção expressa em cada ideograma.</p>
 <p>Por conseguinte, ao receber o Ohikari e entronizar a Imagem Sagrada, um lar ou uma comunidade se converte, gradualmente, em um protótipo do Paraíso. Expor Suas outras caligrafias potencializa a felicidade e expande o alcance da salvação.</p>
 <p>Verdadeiramente, esta é a mais grandiosa salvação concedida à humanidade desde a aurora da criação. É inconcebível que um poder de tal magnitude permaneça desconhecido. Inevitavelmente, chegará o dia em que o poder de Meishu-Sama será reconhecido por todos e Sua Grande Luz preencherá cada recanto da Terra. Nesse momento, a instauração de um Mundo Celestial, livre de doenças e pleno de longevidade, será uma realidade inquestionável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御光雑記（一） 馬太（マタイ） 『栄光』168号、昭和27(1952)年8月6日発行 ＝御光の籠った杖＝ 今からおよそ十五六年前、明主様はお弟子達数人が経営の任に当っていた岐阜県下呂町の鉱山へお出でになった事がある。<br/><br/>明主様は麓の鉱山事務所に予（あらかじ）め用意されてあった杖をついて登山せられたが、その杖は御下山の後、事務所に置かれたまま御帰京になった。<br/><br/>ところが事務所の家屋には、永年のリョウマチで歩行不如意の老人がいたが、彼は土間に立てかけてあったその杖が丁度恰好だったので、明主様御使用のものと知ってか知らでか、その杖に縋って歩いた。<br/><br/>気がついてみるといつもと違って非常に軽く歩ける。<br/><br/>不思議に思いながらその後も歩行の度にその杖を使っていたところ、永年苦しんだリョウマチも何時の間にか治ってしまったので、思いもかけぬお蔭に驚喜したのであった。<br/><br/>これは未だ御力を秘めておられた頃の出来事の多数の中の一例に過ぎぬが僅々二三時間お手を御触れになったものでも、これ程の大きい恵みを与えられるものである。<br/><br/>それは勿論、御霊気が杖に満された為である。<br/><br/>その当時から数年前、火鉢の縁に手を触れられたまゝのお姿を撮影した所御掌が火鉢を透過して映った事があり、御手からは絶えず強い御光が放射されている事を知ったものである。<br/><br/> ＝御浄霊の事＝ 又信徒がその御偉力を讃える御霊紙も、以前は半紙半分を四つ折りにして重ねたものを一二日間御懐へお入れになったものである。<br/><br/>つまり御肌に触れられている間に御霊気が滲み込んだ訳であって、この半紙の一片だけでも、時には起死回生の力を発揮するのであるから驚くべき事である。<br/><br/>この二つの片鱗にみても、明主様が御手や御身に触れられたものには御霊気が入り、奇蹟を表わす事が知られる。<br/><br/> ＝明主様の活花＝ 又明主様の活花は、一幅の名画にも掛る最高度の芸術品であるが、特に強く観者の心を打つものは、花でも葉や枝でも、完全な調和の中に生かされ高い気品を放つ、美的生命の溌剌さで、それは自然のものよりなお美しく生々とみえる事である。<br/><br/>最も不思議な事は、お活けになった花は、普通の何倍もの期間生々として萎れない、これは勿論、御手に触れ活けらるる事によって、御霊光が入り、生命力が与えられるからである。<br/><br/> これ故に、吾々が御参拝の都度、明主様の御言霊を拝聴し、御浄霊を戴く事は、最も尊い御霊光を直接魂に滲まれる訳であるから、多量の曇を払拭さるるは勿論不老不死的生命力を賜わるものである事が知らるる。<br/><br/>何と有難い事ではないか。<br/><br/> ＝御書体は無限の生命体＝ 又明主様の大愛を籠めておかきになる御神体、お守御書体等の如きは、その文字の意そのままの無限の生命体となる。<br/><br/>例えば光明如来の御書が、はっきりと光明如来様の御姿となって拝さるるのもよく聞く所であって、御文字そのままが生ける御紳体であらるる事が知られる。<br/><br/> 御守は、難行も苦行もなくして自他共に霊体の曇を払拭され、病苦や禍を無くする御光である事はあまりに明かな事実である。<br/><br/> 又、御書体は、その文字の意志通りに広範囲に霊界を変えてゆく活物である。<br/><br/> 故に、御守をかけ、御神体を御奉斎する事によって一家庭又は一団体は漸次天国になってゆくし、御書体を掲げる事によってより幸福を増し、御救いを拡大する事になるのである。<br/><br/>まことに開闢以来ない偉大なる御救いである。<br/><br/>かように偉大な御力が世に知れ渉らぬ筈はない。<br/><br/>いずれ明主様の御力が知れ渡り、世界中に大御光が遍満する時、無病長寿の天国世界が出現すべきは、何の疑も容れる事は出来ぬ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

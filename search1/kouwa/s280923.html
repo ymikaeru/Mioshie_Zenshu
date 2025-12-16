@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280923</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S28年9月23日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月二十三日（１日目） 今日は珍しく雨ですが、雨が降るということは、光が強くなるほど降るのです。<br><br>光が強いということは、やっぱり熱が強いのです。<br><br>今日はここは二十度で、東京は十七度なのです。<br><br>ですから東京より三度高いのです。<br><br>大体今年は平均して東京よりも強羅の方が暑いのです。<br><br>こういうことは今までにないのです。<br><br>けれどもその割には東京よりも涼しいということは、空気が乾燥しているためです。<br><br>空気の乾燥ということは、暑さによほど違います。<br><br>五度以上は違います。<br><br>箱根は霧があったりするので、たいへん湿るように思ってますが、実は高山地帯というのは乾燥しているのです。<br><br>それからまた今年は方々に水害があって非常に雨が多いですが、これも霊界に火素が増えたわけなのです。<br><br>今日は時間があまりないのに、お話しすることの項目が多いので、簡単に要点だけをお話しします。<br><br> 自然農法のことですが、普及会の会員も大いに増えて、だいぶそういった方面の注目を引いてきました。<br><br>また今年ぐらい不作の年はありません。<br><br>昨日の発表でみると五千八百五十万石というのですが、そうすると最近一番とれた年が六千六百万石ですから、七百五十万石の減収です。<br><br>それがヤレ農地改良だとか、いろんな施設をしたり、肥料なども今年は今までで一番多いそうです、それにもかかわらず、かえって逆になるのですから、やっぱり私の言う説のとおりになっているわけです。<br><br>なるほど九州の水害はそうとう影響しましたが、しかし全体からみるとそれほどでもありません。<br><br>むしろ東北地方の冷害の方が大きいです。<br><br>この冷害というのは、ただ冷えるだけでなく、冷害のために害虫が死なないのです。<br><br>天候やなにかで害虫が弱ったり死んだりしますが、この冷害のために虫が弱らないのです。<br><br>その害が大きいのです。<br><br>ですからただ寒いだけでとれないものなら、昔から有名な越後や信州や秋田でもとれないわけです。<br><br>寒いためにとれないということは、結局虫が減らないからなのです。<br><br>そういうわけで害虫の影響が一番大きいのです。<br><br>ということは、肥料がわかせるわけです。<br><br>それから、こういうふうに不作にすれば早く分かるという、神様の一つのお仕組みと思ってもよいのです。<br><br>しかしどうも、神様は随分ひどいと思うかもしれないが、本当に知らせるには、やはり病気と同じようなもので、人間苦しまなければ分からないのです。<br><br>だからこの苦しみは一時的で、結局将来は非常に大きな良い結果になるのですから、これもやむを得ません。<br><br> それから米国への布教ですが、先月からロサンゼルスで始めたのです。<br><br>まだいくらにもならないが、シアトルとサンフランシスコにも非常な奇蹟でどっちも信者が三人ずつできたのです。<br><br>ですからこれも近々支部ができると思います。<br><br>すなわちロサンゼルス、サンフランシスコ、シアトルに支部ができて活動を始めるわけです。<br><br>非常に早いです。<br><br>今年いっぱい――といって年末までですが――にはそうとうに何カ所かに拡がると思ってます。<br><br>それであっちが燃え始めたら、とても日本どころではありません。<br><br>非常に早いです。<br><br>おまけに、あっちの方はだいぶ遅れていますから、神様の方は非常に急がれています。<br><br>来年あたりは目覚ましい発展をするわけです。<br><br>それからハワイは無論ドンドン発展しつつありますから、非常におもしろいと思います。<br><br>いつも言うとおり、アメリカで発展することが日本の発展に一番刺激になるのです。<br><br>アメリカの物ならなんでも良いと思っているのですから。<br><br>……化粧品の広告などを見ても、“アメリカ、アメリカ”で、必ずアメリカ製とか、アメリカではやるということが出てますが、あれを見てもいかに日本はアメリカ崇拝がさかんかということが分かります。<br><br>ですから宗教も、大いにアメリカ人に発展するという、それだけでも、一番の宣伝になるわけです。<br><br> それから美術館もだんだん知れてきて、観覧者も増えつつあります。<br><br>特に外人が来るようになりました。<br><br>この間の日曜には十三人来ましたし、ほとんど毎日何人かは必ず来てます。<br><br>これもたいへんおもしろいと思います。<br><br>来年の計画は桃山展をやろうと思ってます。<br><br>去年でしたか、東京のあるデパートで桃山展をやりましたが、間に合わせのようなものでした。<br><br>こっちのは、ちょっと驚くような計画です。<br><br>そういった品物もそうとうに集まっていますし、前からそういうような計画がありましたから、なるだけ見せないようにして、“これは”という物は出していないのです。<br><br>ですからそうとうに評判になると思ってます。<br><br>それからもう一つは近代名品展というのをやって、明治以来のすべての傑作品を出そうと思ってます。<br><br>これも今まで門外不出の物がほとんどなのです。<br><br>近代美術でこんなにも良い物ができていると驚くような物もそうとうにあるつもりです。<br><br>たとえて言えば工芸品は蒔絵の白山松哉（しらやましょうさい）、彫金の加納夏雄（かのうなつお）、彫刻の佐藤玄々（さとうげんげん）、竹細工の飯塚琅かん斎（ろうかんさい）、陶器は板谷波山（いたやはざん）、堆朱（ついしゅ）は楊成（ようぜい）、――これらの人は明治以来の工芸では第一人者ですが――そういう人たちの特に傑作ばかりです。<br><br>ですからその道に趣味のある人には垂涎物（すいぜんもの）ばかりと思います。<br><br>それから絵の方では栖鳳（せいほう）、大観（たいかん）、玉堂（ぎょくどう）、春草（しゅんそう）、雅邦（がほう）、芳崖（ほうがい）、抱一（ほういつ）、そういう人たちの傑作ばかりを出すつもりです。<br><br>それで桃山展は会期中やりますが、今の近代名品展というのは、六月、七月の二カ月の予定です。<br><br>それから浮世絵展がばかに評判がよいので来年もやりたいと思ってます。<br><br>それに新しい物も入ってますから、そこで第二回の浮世絵展を八、九、十月にという予定です。<br><br> それから今世界中の学者が来て会をやってます。<br><br>これは湯川博士のあれだけの功績に対して、そういった学者が日本に集まるというわけで、これは日本としてもその方面だけは、ようやく世界の水準になったので、たいへん結構です。<br><br>ところで今中心となっているのは物性論です。<br><br>これはつまり素粒子論から物性論に入ってきたのですが、物性論というのは、まだ顕微鏡などでも分からないもので、けれどもあるという物の性質、つまり霊です。<br><br>そこに入ってきたわけです。<br><br>それでそれから先には進めない。<br><br>ここで行き詰まっているわけです。<br><br>ですからこの間の開会式で湯川博士が、“ちょうど暗闇の中を、みんながどっちに行こうかと迷っているようなものです。<br><br>それが今の科学界だ”と言ってましたが、うまいことを言ったもので、まったくそのとおりです。<br><br>それで今の科学では物性論から先には行きようがないのです。<br><br>そして今のは理論物理学ですが、私のは理論神霊学です。<br><br>それは理論物理学から先に行くと理論神霊学に入ってくるのです。<br><br>それはもう科学ではないから宗教には違いないが、しかしそれは今までの観念で見る宗教観とは違うのです。<br><br>というのは、まだ宗教でもそこまでは分からない世界です。<br><br>それで今までの宗教は水準がまず科学と同じくらいなものですから、私はその先を説くつもりです。<br><br>そうなると神様の解剖ということになってきますが、これはまだ誰もやったことがないのです。<br><br>それがすっかり分かると、浄霊で病気が治るということもなんでもなく分かります。<br><br>従っていくら科学者でも、浄霊で病気が治るということだけはどうしても想像がつかないのですが、それを説くつもりです。<br><br>どこまで説けるか、なにしろ難しいのです。<br><br>そうすると善と悪の根本もすっかり分かります。<br><br>ですからこれはたいへんな未来の学問です。<br><br> それから二、三日前に光明台に行って、大体地面の設計だけはしました。<br><br>三十分くらいで、すっかり言いつけてしまいました。<br><br>これはどうしても三年ぐらい先になりましょう。<br><br>丸い家が建ちます。<br><br>大体建築は三千坪ぐらいで、一万人収容の予定です。<br><br>それから家の外のまわりに立てるのが二万人くらいのつもりです。<br><br>大体形やいろいろなことはすっかりできましたが、なにしろ一万人の人間が、四角のでは遠過ぎてとても駄目ですから、そこで、そう遠くならないようにしなければならないのです。<br><br>それには円形よりしかたがありません。<br><br>ちょうど外観は前の国技館というような形になりましょう。<br><br>そうして大体全部丸いのでもなく、半円形でもなく、三分の二くらいの丸さです。<br><br>そうしてそれは扇形、末広形になります。<br><br>というのは、これ（扇）形は末広がりで、非常に発展する形なのです。<br><br>富士山は末広と言います。<br><br>それでここに要がありますが、ここに非常に神秘があります。<br><br>それはいずれ話します。<br><br>要というのは、たいへんな意味があります。<br><br>大体今度の光明会館はそういったような形になるわけです。<br><br>それはずっと先のことで熱海ができた後のことです。<br><br>それで神様はすべて順序ですから、チャンと順序が合わないとスラスラと行かないのです。<br><br>だからなんでもやってみてスラスラと行かないことは、みんなどこかに、霊的に間違ったところがあるからです。<br><br>そこに気がついてやり直し、計画を変えるということが肝腎です。<br><br>そうするとスラスラと行きます。<br><br>だから楽に行くことでなければ、うまく行くものではありません。<br><br>苦しむようでは決してうまくは行きません。<br><br>箱根ができて熱海に移り、熱海ができて今度はまた箱根に行く、という順序なのです。<br><br>それで私のやっていることは肝腎な経綸ですから、ちょっとでも順序が違うとすぐに神様からやられてしまうのです。<br><br>これは古い信者の人はよく知ってますが、とてもおもしろいのです。<br><br> それから私のお腹にある光の玉はだいぶ大きくなってます。<br><br>ドンドン大きくなりつつありますが、これが世界的に大きくなったときがミロクの世です。<br><br>そこまで大きくならないうちに、いけない者は片づいて行くわけです。<br><br>まだ今のところの大きさは、この会場くらいの大きさですが、これがドンドン大きくなって行きます。<br><br>ということは火素が増し、浄化が本当に強くなるということです。<br><br>そこで自然に善い悪いの差別がついてくるのです。<br><br>それを知っていて世の中を見ると、もう二、三年も先になると、だいぶはっきり分かってきます。<br><br> 題目みたいな話になりましたが、時間がないからそのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Plano Divino em Pleno Andamento</h2>
 <p>Embora seja um fato raro, hoje chove, e a chuva ocorre na proporção em que a Luz se intensifica. Uma Luz mais intensa, por sua vez, significa um calor mais forte. A título de exemplo, a temperatura aqui é de vinte graus, enquanto em Tóquio é de dezessete; portanto, estamos três graus acima da capital. De modo geral, neste ano, Gora tem se mantido, em média, mais quente que Tóquio, algo inédito até então. Contudo, a sensação de frescor aqui é maior devido ao ar seco. A secura do ar faz uma diferença considerável na percepção da temperatura, podendo alterar a sensação térmica em mais de cinco graus. Embora Hakone seja conhecida por suas névoas, o que poderia sugerir um ambiente úmido, a verdade é que as regiões de maior altitude são, de fato, mais secas. Por outro lado, este ano tem sido marcado por inundações em diversas localidades e por chuvas abundantes, o que também se deve ao aumento do elemento fogo no Mundo Espiritual. Como o tempo hoje é escasso e os tópicos a serem abordados são muitos, falarei de forma concisa, atendo-me aos pontos essenciais.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Há dois ou três dias, estive no local do futuro Santuário e, em cerca de trinta minutos, defini todo o projeto de terraplenagem. A construção levará aproximadamente três anos. Será um edifício de formato circular, com uma área construída de aproximadamente dez mil metros quadrados e capacidade para dez mil pessoas em seu interior e outras vinte mil nos arredores. A forma e outros detalhes já estão definidos. Para acomodar dez mil pessoas, uma estrutura retangular tornaria a distância excessiva para muitos. A solução, portanto, é a forma circular. Sua aparência externa lembrará o antigo ginásio de sumô Kokugikan. Não será um círculo completo, nem um semicírculo, mas corresponderá a cerca de dois terços de uma circunferência, assumindo a forma de um leque aberto — <em>suehiro-gata</em>. Esta forma simboliza prosperidade e expansão contínua. O Monte Fuji, por exemplo, é considerado <em>suehiro</em>. O ponto de articulação do leque, o <em>kaname</em>, encerra um profundo mistério, sobre o qual falarei em outra ocasião, pois seu significado é imenso. Esse, em linhas gerais, será o formato do Komyo Kaikan. Contudo, este é um projeto futuro, a ser realizado após a conclusão das obras de Atami. Deus segue uma ordem para tudo, e se essa sequência não for rigorosamente respeitada, nada flui com suavidade. Por isso, quando algo que empreendemos não avança com facilidade, é sinal de que existe um equívoco espiritual em algum ponto. O fundamental é perceber isso, corrigir o rumo e alterar o plano. Feito isso, tudo passará a fluir. Somente o que transcorre com leveza pode ser bem-sucedido; o que exige sofrimento jamais prosperará. A sequência é: Hakone, depois Atami, e então novamente Hakone. A obra que realizo é um pilar fundamental do Plano Divino; por essa razão, ao menor desvio na ordem estabelecida, sou imediatamente corrigido por Deus. Os membros mais antigos conhecem bem este fato e o consideram deveras interessante.</p>
 <p>A esfera de Luz em meu ventre tem se expandido consideravelmente e continua a crescer. Quando ela atingir uma dimensão global, o Mundo de Miroku estará estabelecido. Antes que alcance tal magnitude, aqueles que não são dignos serão purificados. No momento, seu tamanho é comparável ao deste salão, mas ela se expande incessantemente. Isso significa que o elemento fogo está aumentando e que a purificação se torna verdadeiramente intensa. Como resultado, a distinção entre o bem e o mal se manifestará naturalmente. Ao observar o mundo com esse conhecimento, verão que, dentro de dois ou três anos, tudo se tornará muito mais nítido.</p>
 <p>Minhas palavras acabaram soando como o título de um sermão, mas, como o tempo é curto, encerrarei por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S28年9月23日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月二十三日（１日目） 今日は珍しく雨ですが、雨が降るということは、光が強くなるほど降るのです。<br/><br/>光が強いということは、やっぱり熱が強いのです。<br/><br/>今日はここは二十度で、東京は十七度なのです。<br/><br/>ですから東京より三度高いのです。<br/><br/>大体今年は平均して東京よりも強羅の方が暑いのです。<br/><br/>こういうことは今までにないのです。<br/><br/>けれどもその割には東京よりも涼しいということは、空気が乾燥しているためです。<br/><br/>空気の乾燥ということは、暑さによほど違います。<br/><br/>五度以上は違います。<br/><br/>箱根は霧があったりするので、たいへん湿るように思ってますが、実は高山地帯というのは乾燥しているのです。<br/><br/>それからまた今年は方々に水害があって非常に雨が多いですが、これも霊界に火素が増えたわけなのです。<br/><br/>今日は時間があまりないのに、お話しすることの項目が多いので、簡単に要点だけをお話しします。<br/><br/> 自然農法のことですが、普及会の会員も大いに増えて、だいぶそういった方面の注目を引いてきました。<br/><br/>また今年ぐらい不作の年はありません。<br/><br/>昨日の発表でみると五千八百五十万石というのですが、そうすると最近一番とれた年が六千六百万石ですから、七百五十万石の減収です。<br/><br/>それがヤレ農地改良だとか、いろんな施設をしたり、肥料なども今年は今までで一番多いそうです、それにもかかわらず、かえって逆になるのですから、やっぱり私の言う説のとおりになっているわけです。<br/><br/>なるほど九州の水害はそうとう影響しましたが、しかし全体からみるとそれほどでもありません。<br/><br/>むしろ東北地方の冷害の方が大きいです。<br/><br/>この冷害というのは、ただ冷えるだけでなく、冷害のために害虫が死なないのです。<br/><br/>天候やなにかで害虫が弱ったり死んだりしますが、この冷害のために虫が弱らないのです。<br/><br/>その害が大きいのです。<br/><br/>ですからただ寒いだけでとれないものなら、昔から有名な越後や信州や秋田でもとれないわけです。<br/><br/>寒いためにとれないということは、結局虫が減らないからなのです。<br/><br/>そういうわけで害虫の影響が一番大きいのです。<br/><br/>ということは、肥料がわかせるわけです。<br/><br/>それから、こういうふうに不作にすれば早く分かるという、神様の一つのお仕組みと思ってもよいのです。<br/><br/>しかしどうも、神様は随分ひどいと思うかもしれないが、本当に知らせるには、やはり病気と同じようなもので、人間苦しまなければ分からないのです。<br/><br/>だからこの苦しみは一時的で、結局将来は非常に大きな良い結果になるのですから、これもやむを得ません。<br/><br/> それから米国への布教ですが、先月からロサンゼルスで始めたのです。<br/><br/>まだいくらにもならないが、シアトルとサンフランシスコにも非常な奇蹟でどっちも信者が三人ずつできたのです。<br/><br/>ですからこれも近々支部ができると思います。<br/><br/>すなわちロサンゼルス、サンフランシスコ、シアトルに支部ができて活動を始めるわけです。<br/><br/>非常に早いです。<br/><br/>今年いっぱい――といって年末までですが――にはそうとうに何カ所かに拡がると思ってます。<br/><br/>それであっちが燃え始めたら、とても日本どころではありません。<br/><br/>非常に早いです。<br/><br/>おまけに、あっちの方はだいぶ遅れていますから、神様の方は非常に急がれています。<br/><br/>来年あたりは目覚ましい発展をするわけです。<br/><br/>それからハワイは無論ドンドン発展しつつありますから、非常におもしろいと思います。<br/><br/>いつも言うとおり、アメリカで発展することが日本の発展に一番刺激になるのです。<br/><br/>アメリカの物ならなんでも良いと思っているのですから。<br/><br/>……化粧品の広告などを見ても、“アメリカ、アメリカ”で、必ずアメリカ製とか、アメリカではやるということが出てますが、あれを見てもいかに日本はアメリカ崇拝がさかんかということが分かります。<br/><br/>ですから宗教も、大いにアメリカ人に発展するという、それだけでも、一番の宣伝になるわけです。<br/><br/> それから美術館もだんだん知れてきて、観覧者も増えつつあります。<br/><br/>特に外人が来るようになりました。<br/><br/>この間の日曜には十三人来ましたし、ほとんど毎日何人かは必ず来てます。<br/><br/>これもたいへんおもしろいと思います。<br/><br/>来年の計画は桃山展をやろうと思ってます。<br/><br/>去年でしたか、東京のあるデパートで桃山展をやりましたが、間に合わせのようなものでした。<br/><br/>こっちのは、ちょっと驚くような計画です。<br/><br/>そういった品物もそうとうに集まっていますし、前からそういうような計画がありましたから、なるだけ見せないようにして、“これは”という物は出していないのです。<br/><br/>ですからそうとうに評判になると思ってます。<br/><br/>それからもう一つは近代名品展というのをやって、明治以来のすべての傑作品を出そうと思ってます。<br/><br/>これも今まで門外不出の物がほとんどなのです。<br/><br/>近代美術でこんなにも良い物ができていると驚くような物もそうとうにあるつもりです。<br/><br/>たとえて言えば工芸品は蒔絵の白山松哉（しらやましょうさい）、彫金の加納夏雄（かのうなつお）、彫刻の佐藤玄々（さとうげんげん）、竹細工の飯塚琅かん斎（ろうかんさい）、陶器は板谷波山（いたやはざん）、堆朱（ついしゅ）は楊成（ようぜい）、――これらの人は明治以来の工芸では第一人者ですが――そういう人たちの特に傑作ばかりです。<br/><br/>ですからその道に趣味のある人には垂涎物（すいぜんもの）ばかりと思います。<br/><br/>それから絵の方では栖鳳（せいほう）、大観（たいかん）、玉堂（ぎょくどう）、春草（しゅんそう）、雅邦（がほう）、芳崖（ほうがい）、抱一（ほういつ）、そういう人たちの傑作ばかりを出すつもりです。<br/><br/>それで桃山展は会期中やりますが、今の近代名品展というのは、六月、七月の二カ月の予定です。<br/><br/>それから浮世絵展がばかに評判がよいので来年もやりたいと思ってます。<br/><br/>それに新しい物も入ってますから、そこで第二回の浮世絵展を八、九、十月にという予定です。<br/><br/> それから今世界中の学者が来て会をやってます。<br/><br/>これは湯川博士のあれだけの功績に対して、そういった学者が日本に集まるというわけで、これは日本としてもその方面だけは、ようやく世界の水準になったので、たいへん結構です。<br/><br/>ところで今中心となっているのは物性論です。<br/><br/>これはつまり素粒子論から物性論に入ってきたのですが、物性論というのは、まだ顕微鏡などでも分からないもので、けれどもあるという物の性質、つまり霊です。<br/><br/>そこに入ってきたわけです。<br/><br/>それでそれから先には進めない。<br/><br/>ここで行き詰まっているわけです。<br/><br/>ですからこの間の開会式で湯川博士が、“ちょうど暗闇の中を、みんながどっちに行こうかと迷っているようなものです。<br/><br/>それが今の科学界だ”と言ってましたが、うまいことを言ったもので、まったくそのとおりです。<br/><br/>それで今の科学では物性論から先には行きようがないのです。<br/><br/>そして今のは理論物理学ですが、私のは理論神霊学です。<br/><br/>それは理論物理学から先に行くと理論神霊学に入ってくるのです。<br/><br/>それはもう科学ではないから宗教には違いないが、しかしそれは今までの観念で見る宗教観とは違うのです。<br/><br/>というのは、まだ宗教でもそこまでは分からない世界です。<br/><br/>それで今までの宗教は水準がまず科学と同じくらいなものですから、私はその先を説くつもりです。<br/><br/>そうなると神様の解剖ということになってきますが、これはまだ誰もやったことがないのです。<br/><br/>それがすっかり分かると、浄霊で病気が治るということもなんでもなく分かります。<br/><br/>従っていくら科学者でも、浄霊で病気が治るということだけはどうしても想像がつかないのですが、それを説くつもりです。<br/><br/>どこまで説けるか、なにしろ難しいのです。<br/><br/>そうすると善と悪の根本もすっかり分かります。<br/><br/>ですからこれはたいへんな未来の学問です。<br/><br/> それから二、三日前に光明台に行って、大体地面の設計だけはしました。<br/><br/>三十分くらいで、すっかり言いつけてしまいました。<br/><br/>これはどうしても三年ぐらい先になりましょう。<br/><br/>丸い家が建ちます。<br/><br/>大体建築は三千坪ぐらいで、一万人収容の予定です。<br/><br/>それから家の外のまわりに立てるのが二万人くらいのつもりです。<br/><br/>大体形やいろいろなことはすっかりできましたが、なにしろ一万人の人間が、四角のでは遠過ぎてとても駄目ですから、そこで、そう遠くならないようにしなければならないのです。<br/><br/>それには円形よりしかたがありません。<br/><br/>ちょうど外観は前の国技館というような形になりましょう。<br/><br/>そうして大体全部丸いのでもなく、半円形でもなく、三分の二くらいの丸さです。<br/><br/>そうしてそれは扇形、末広形になります。<br/><br/>というのは、これ（扇）形は末広がりで、非常に発展する形なのです。<br/><br/>富士山は末広と言います。<br/><br/>それでここに要がありますが、ここに非常に神秘があります。<br/><br/>それはいずれ話します。<br/><br/>要というのは、たいへんな意味があります。<br/><br/>大体今度の光明会館はそういったような形になるわけです。<br/><br/>それはずっと先のことで熱海ができた後のことです。<br/><br/>それで神様はすべて順序ですから、チャンと順序が合わないとスラスラと行かないのです。<br/><br/>だからなんでもやってみてスラスラと行かないことは、みんなどこかに、霊的に間違ったところがあるからです。<br/><br/>そこに気がついてやり直し、計画を変えるということが肝腎です。<br/><br/>そうするとスラスラと行きます。<br/><br/>だから楽に行くことでなければ、うまく行くものではありません。<br/><br/>苦しむようでは決してうまくは行きません。<br/><br/>箱根ができて熱海に移り、熱海ができて今度はまた箱根に行く、という順序なのです。<br/><br/>それで私のやっていることは肝腎な経綸ですから、ちょっとでも順序が違うとすぐに神様からやられてしまうのです。<br/><br/>これは古い信者の人はよく知ってますが、とてもおもしろいのです。<br/><br/> それから私のお腹にある光の玉はだいぶ大きくなってます。<br/><br/>ドンドン大きくなりつつありますが、これが世界的に大きくなったときがミロクの世です。<br/><br/>そこまで大きくならないうちに、いけない者は片づいて行くわけです。<br/><br/>まだ今のところの大きさは、この会場くらいの大きさですが、これがドンドン大きくなって行きます。<br/><br/>ということは火素が増し、浄化が本当に強くなるということです。<br/><br/>そこで自然に善い悪いの差別がついてくるのです。<br/><br/>それを知っていて世の中を見ると、もう二、三年も先になると、だいぶはっきり分かってきます。<br/><br/> 題目みたいな話になりましたが、時間がないからそのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

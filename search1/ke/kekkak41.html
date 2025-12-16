@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak41</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は感染しない 『結核信仰療法』昭和27(1952)年12月1日発行 結核が医療によって作られる経緯は、前項までに詳しくかいたが、その原因は結核菌感染によるとは医学の定説となっているが、私の見解によればこの説こそ大変な誤りである。<br><br>それは彼のパスツールの伝染説を医学は採用したからであろうが、私はその反対に自然発生である事を断言するのである。<br><br>今それを詳しくかいてみるが、最初感冒の際、喀痰を肺臓内に固めた結果、時日を経るに従い、結核菌は痰中に自然に湧くのである。<br><br>というのはいかなるものでも、不潔物には必ず微生虫が発生するのは物質の原則である。<br><br>としたら痰は不潔物であり、しかも体温という好条件も加わる以上腐敗もし、微生虫の湧くのは当然である。<br><br> ところが医学の感染説であるが、この考え方は肺胞に菌が付着して繁殖し、空洞（うろ）を作ったり、病竃（びょうそう）を作ると思っているのであろうが、もしそれが本当とすれば、無菌結核は何が原因であるかという事である。<br><br>だがこの答えは簡単である。<br><br>すなわち無菌結核とは前記のごとく、肺臓内に固めた痰に菌が湧く程、時日が経っていないからである。<br><br>と言うだけで分るであろう。<br><br>それはとにかくとして、結核菌は果して感染するものであるか否かは、理屈よりも事実で示す方が確実であろう。<br><br>すなわち私の多年の実験によっても明らかなごとく、私は二十数年前結核非感染の原理を知ってから、まず私自身を試験台とした。<br><br>それは重症結核患者である一婦人の唾を、口移しにして試したのである。<br><br>それから二十数年を経た今日、他の病気はしたが、結核的のものはした事がない。<br><br>また私の家庭内にはその頃当歳（とうさい）から十五、六歳までの私の実子六人いたが、いつも二、三人の結核患者の女性を私は治療してやりながら、女中として同居させていた。<br><br>その数今日までで十数人に及んで二十年以上になるが、その間治って帰宅した者と、新規の者とが交替しつつ、現在でも二、三人はいるが、今日まで結核どころか病気で寝る者すら一人もないのである。<br><br>もちろん最初から消毒などは一切せず、家族同様に扱っているのであって、右の六人の子供の内四人はすでに結婚して、孫も数人出来ており、全部素晴しい健康である。<br><br>また私の非感染説は、数十万の信徒にも教えており、信者は絶対に信じその通り実行しているが、結核の治った話は数限りなく聞くが、感染した話など一人も聞いた事がない。<br><br>としたらこれ以上確かな証拠はあるまい。<br><br>ゆえに万一今後一人でも感染する者があるとしたら、それこそ信ずべからざる一大奇蹟である。<br><br> しかし医学が結核感染説を唱え出した事にも理由はある。<br><br>たとえば一家庭内で一人が結核で死亡したとする。<br><br>そのため後に残っている誰もは極度に結核を怖れると共に、医師の注意もあり、感染しないよう出来るだけ用心をする。<br><br>それには何より風邪を引かないようにする事だが、万一風邪を引いた場合、早速医師に診て貰う。<br><br>医師もまた結核死亡者のあった家は、疑いをもっているので特に注意し、入念に治療する。<br><br>ところが医療は結核製造法であるから、結局本物に仕立上げてしまうので、その状態をみればどうしても感染としか思えないのである。<br><br>ところがそれを裏書する一事がある。<br><br>というのは注意をする人程感染し易く、そうでない人程感染しない例で、これなども医師は常に経験するところであろう。<br><br>その他の原因としては、結核で死んだ霊が兄弟や夫や妻などに憑依して、原因となる事も少なくないが、これは唯物思想の人には信じ難いから、この説明は省く事とする。<br><br> 右のような訳で、医学は菌のみに囚われ、菌の感染を防止すると共に、殺菌方法が完成さえすれば、それで解決すると思う末梢的考え方で、これこそ根本に触れていない以上、治らないのは当然である。<br><br>次にこれを詳説してみよう。<br><br>そもそも菌といえども偶然降って湧いたものではなく、湧くべき条件と、湧くべき物質があってこそ湧くのであるから、その点が明らかにならない限り、病気の本体は分るはずがないのである。<br><br>という訳で現代医学の菌に対する解釈は、菌その物だけに囚われ、菌の発生源にまでさかのぼっていないのであるから、幼稚極まるものであって、このような学問程度で人間生命の神秘を探ろうなどとは無理であって、これで結核問題の解決など前途遼遠と言わねばならない。<br><br>それがため幾億万の生霊が、無期限に徒（いたず）らなる犠牲となるのであるから、実に由々しき大事件である。<br><br>ところが私は神示によってこの真相を知った以上、一日も早く天下万民に知らせ、結核から解放させるべく、この著をもって警鐘の第一声とするのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Não Contagiosidade da Tuberculose</h2>
 <p>Nos tópicos anteriores, detalhei o processo pelo qual a tuberculose é gerada pela própria medicina. A despeito disso, a teoria médica estabelecida atribui a causa da doença à infecção pelo bacilo da tuberculose. Segundo minha perspectiva, contudo, essa teoria constitui um equívoco monumental. Tal engano decorre, provavelmente, da adesão da medicina ao postulado da contagiosidade de Pasteur. Em oposição direta a essa ideia, assevero categoricamente que a doença resulta de um processo de geração espontânea.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Por todas essas razões, a medicina, obcecada unicamente pelo bacilo, adota uma abordagem superficial. Acredita que a solução reside em prevenir a infecção e em desenvolver métodos de esterilização. Uma vez que essa perspectiva não atinge a raiz do problema, é natural que a cura não seja alcançada. Permitam-me explanar sobre isso.</p>
 <p>Afinal, mesmo um bacilo não surge do acaso; ele só se manifesta quando existem as condições e a matéria propícias para sua geração. Enquanto esse ponto fundamental não for esclarecido, será impossível compreender a verdadeira natureza da doença. Nesse sentido, a interpretação da medicina moderna sobre os germes é extremamente pueril, pois se restringe ao micro-organismo em si, sem retroceder à sua fonte geradora. É insensato pretender desvendar os mistérios da vida humana com um nível tão elementar de conhecimento. Com tal base, a solução para o problema da tuberculose permanece um horizonte distante. Em consequência, incontáveis almas são sacrificadas em vão e por tempo indeterminado, o que representa uma tragédia de proporções imensuráveis.</p>
 <p>Eu, porém, que vim a conhecer esta verdade por Revelação Divina, sinto o dever de comunicá-la a toda a humanidade com a máxima urgência, a fim de libertá-la do flagelo da tuberculose. Assim, por meio desta obra, faço soar o primeiro brado de alerta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は感染しない 『結核信仰療法』昭和27(1952)年12月1日発行 結核が医療によって作られる経緯は、前項までに詳しくかいたが、その原因は結核菌感染によるとは医学の定説となっているが、私の見解によればこの説こそ大変な誤りである。<br/><br/>それは彼のパスツールの伝染説を医学は採用したからであろうが、私はその反対に自然発生である事を断言するのである。<br/><br/>今それを詳しくかいてみるが、最初感冒の際、喀痰を肺臓内に固めた結果、時日を経るに従い、結核菌は痰中に自然に湧くのである。<br/><br/>というのはいかなるものでも、不潔物には必ず微生虫が発生するのは物質の原則である。<br/><br/>としたら痰は不潔物であり、しかも体温という好条件も加わる以上腐敗もし、微生虫の湧くのは当然である。<br/><br/> ところが医学の感染説であるが、この考え方は肺胞に菌が付着して繁殖し、空洞（うろ）を作ったり、病竃（びょうそう）を作ると思っているのであろうが、もしそれが本当とすれば、無菌結核は何が原因であるかという事である。<br/><br/>だがこの答えは簡単である。<br/><br/>すなわち無菌結核とは前記のごとく、肺臓内に固めた痰に菌が湧く程、時日が経っていないからである。<br/><br/>と言うだけで分るであろう。<br/><br/>それはとにかくとして、結核菌は果して感染するものであるか否かは、理屈よりも事実で示す方が確実であろう。<br/><br/>すなわち私の多年の実験によっても明らかなごとく、私は二十数年前結核非感染の原理を知ってから、まず私自身を試験台とした。<br/><br/>それは重症結核患者である一婦人の唾を、口移しにして試したのである。<br/><br/>それから二十数年を経た今日、他の病気はしたが、結核的のものはした事がない。<br/><br/>また私の家庭内にはその頃当歳（とうさい）から十五、六歳までの私の実子六人いたが、いつも二、三人の結核患者の女性を私は治療してやりながら、女中として同居させていた。<br/><br/>その数今日までで十数人に及んで二十年以上になるが、その間治って帰宅した者と、新規の者とが交替しつつ、現在でも二、三人はいるが、今日まで結核どころか病気で寝る者すら一人もないのである。<br/><br/>もちろん最初から消毒などは一切せず、家族同様に扱っているのであって、右の六人の子供の内四人はすでに結婚して、孫も数人出来ており、全部素晴しい健康である。<br/><br/>また私の非感染説は、数十万の信徒にも教えており、信者は絶対に信じその通り実行しているが、結核の治った話は数限りなく聞くが、感染した話など一人も聞いた事がない。<br/><br/>としたらこれ以上確かな証拠はあるまい。<br/><br/>ゆえに万一今後一人でも感染する者があるとしたら、それこそ信ずべからざる一大奇蹟である。<br/><br/> しかし医学が結核感染説を唱え出した事にも理由はある。<br/><br/>たとえば一家庭内で一人が結核で死亡したとする。<br/><br/>そのため後に残っている誰もは極度に結核を怖れると共に、医師の注意もあり、感染しないよう出来るだけ用心をする。<br/><br/>それには何より風邪を引かないようにする事だが、万一風邪を引いた場合、早速医師に診て貰う。<br/><br/>医師もまた結核死亡者のあった家は、疑いをもっているので特に注意し、入念に治療する。<br/><br/>ところが医療は結核製造法であるから、結局本物に仕立上げてしまうので、その状態をみればどうしても感染としか思えないのである。<br/><br/>ところがそれを裏書する一事がある。<br/><br/>というのは注意をする人程感染し易く、そうでない人程感染しない例で、これなども医師は常に経験するところであろう。<br/><br/>その他の原因としては、結核で死んだ霊が兄弟や夫や妻などに憑依して、原因となる事も少なくないが、これは唯物思想の人には信じ難いから、この説明は省く事とする。<br/><br/> 右のような訳で、医学は菌のみに囚われ、菌の感染を防止すると共に、殺菌方法が完成さえすれば、それで解決すると思う末梢的考え方で、これこそ根本に触れていない以上、治らないのは当然である。<br/><br/>次にこれを詳説してみよう。<br/><br/>そもそも菌といえども偶然降って湧いたものではなく、湧くべき条件と、湧くべき物質があってこそ湧くのであるから、その点が明らかにならない限り、病気の本体は分るはずがないのである。<br/><br/>という訳で現代医学の菌に対する解釈は、菌その物だけに囚われ、菌の発生源にまでさかのぼっていないのであるから、幼稚極まるものであって、このような学問程度で人間生命の神秘を探ろうなどとは無理であって、これで結核問題の解決など前途遼遠と言わねばならない。<br/><br/>それがため幾億万の生霊が、無期限に徒（いたず）らなる犠牲となるのであるから、実に由々しき大事件である。<br/><br/>ところが私は神示によってこの真相を知った以上、一日も早く天下万民に知らせ、結核から解放させるべく、この著をもって警鐘の第一声とするのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

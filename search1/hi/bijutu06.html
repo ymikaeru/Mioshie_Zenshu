@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bijutu06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術品の集まる理由 『栄光』177号、昭和27(1952)年10月8日発行 箱根美術館を観た人は分るであろうが、容易に手に入らないような物が豊富に蒐（あつま）っているので、驚かない者はほとんどないのである。<br><br>これについて最初からの経路をかいてみるが、まず買始めたのが終戦直後からであった。<br><br>何しろ日本はかつてない世の中の変り方で、誰も知るごとく一挙に貴族富豪、大名、財閥等残らずと言いたい程特権階級の転落となったので、たちまち経済的苦境に陥り、先祖伝来大切に秘蔵してあった書画骨董類を手放さない訳にはゆかなくなった事である。<br><br>従って珍什名器は随分出たと共に、値段も安かった。<br><br> かてて加えて巨額な財産税を課せられたので、どうしても手放さなければならない窮地に追込められ、泣く泣く売払ったのであるから、余りの気の毒に私は同情に堪えなかったのである。<br><br>そうかといって売らなければ追っ付かないから、私は買いつつも助ける気持も手伝ったくらいである。<br><br>という訳で私は値切らずほとんど言い値で買ったものである。<br><br>しかし欲張り道具屋の暴利だけは加減したのはもちろんである。<br><br>そのようにしてボツボツ集まるには集ったが、いつもいう通り私は若い頃から美術が好きではあったが、鑑識の点は無論素人の域を脱していなかったと共に、買った経験もないので相場も分らず、ただ見て気に入った物だけを買ったのである。<br><br>ところがその方針が当ったとみえて、全部と言いたい程買損ないがなかった。<br><br> これは美術館を観た専門的知識のある人は御世辞でなく褒めている。<br><br>今までどんな美術館を見ても、いかがわしい物は相当あるものだが、この美術館は屑がない、逸品揃いだと言うのである。<br><br>先頃来られたニューヨーク・メトロポリタン博物館、東洋美術部長プリースト氏なども、この点特に褒め讃えていた。<br><br>そうこうしている内大分品物も集まり、私も段々目が利くようになったので、いずれは美術館を造らねばならないと思いはじめたのが、忘れもしない三年前くらいであった。<br><br>それから不思議にもその目的に合ったものが予想外に集まって来たので、いよいよ神様が美術館建設に力を注ぎはじめた事がハッキリ分ったのである。<br><br>それについての奇蹟は余りに多いので、一々はかけないから、その中の著しいものだけかいてみよう。<br><br> 最初の頃であった。<br><br>ある蒔絵専門の道具屋が、不思議と思う程上等な蒔絵物を次から次へと持って来るので、私も驚いたと共に道具屋も実に不思議だといったものである。<br><br>しかも時も時とて非常によいものが驚く程の安価で手に入ったもので、まず今日の相場から言えば、少なくとも数倍以上は違うのである。<br><br>今美術館に並んでいる蒔絵物がそれで、あれだけの品物が僅か半年くらいで集まったのである。<br><br>特に稀世の名人白山松哉（しょうさい）の物なども、現在並べてあるのが二点であるが、まだ数点は蔵（しま）ってあるから、いずれは並べるつもりである。<br><br>何しろこの人の作品は今日ほとんど売物には出ないくらいで、いかに品物の少ない事と、所持者が珍重して手放さない事が分るのである。<br><br> また私が以前から好きなのは、琳派物と仁清（にんせい）の陶器であったが、これなども時の経つに従い段々高くなるばかりで、近来売物はほとんど影を没してしまい、希望者は歎声を漏らしているそうだ。<br><br>ところが終戦直後のドサクサ紛れで、値もすこぶる安く、相当数手に入ったので、全く神様の力である事がよく分るのである。<br><br>そんな訳で私が是非欲しいと思う物、美術館になくてはならないという物は必ず手に入る。<br><br>その都度道具屋は不思議だ、奇蹟だという。<br><br>それについてこういう事があった。<br><br>私は広重の有名な東海道五十三次の初版のものが欲しかったところ、ある版画専門の道具屋が来て、広重物など見せたので、私は初版の五十三次ならいつでも買うと言ってやったところ、その翌日持って来たので驚いた。<br><br>すると彼いわく“こんな不思議な事はありません。<br><br>昨日帰宅するやある人が昨日のお話通りのものを持って来たので吃驚しました。<br><br>私は四十年前から心掛けておったのですが、昨日帰宅するやそれを売りに来たのですから、どう考えても分らない”というので、私も余りの奇蹟に感激したのはもちろんであった。<br><br>よく見るとこれは有名な某大大名の秘蔵していたもので、先祖が作ったとかで、その立派な画帖にも二度吃驚したのである。<br><br>かつ値段も非常に安く喜んだのである。<br><br> 次に支那陶器であるが、私は以前から全然趣味もなく、鑑識もなかったところ、美術館としてはどうしても必要と思ったところ、それから間もなく方々から集まって来た。<br><br>今並べてあるものがそれだが、何しろ約一年くらいで蒐めたので、これを知った誰もは本当に思わない。<br><br>しかも初めは全然目が利かず、道具屋の説明や自分の六感で選んだのだが、今日専門家はよくこんな好い物が、これ程沢山集まったものだと感心している。<br><br>という訳でいつもながら御守護の偉大さは何ともいえないのである。<br><br>まだ色々あるが後は想像して貰いたい。<br><br> そこでこの奇蹟は何がためかという事をここにかいてみるが、これこそ霊界においてその作者はもちろん愛玩していた人、その品物に関係のあった人等の霊が、大いに手柄を立てたいと思い、適当の順序を経て私の手に入るように仕向けるのである。<br><br>なぜなれば大功績によって救われ、階級も上るからである。<br><br>言うまでもなく僅かの期間でこれ程の美術館が出来たというのも全く右の理由によるのである。<br><br>考えてもみるがいい、今日まで財閥富豪が一世一代掛って漸く出来るくらいの美術館が、瞬（またた）く間に出来たとしたら、到底人間業でない事が誰が目にも映るであろう。<br><br> (注) 白山松哉（しらやましょうさい、1853～1923） 東京美術学校教授 帝室技芸員 精微な研ぎ出し蒔絵には定評があった。<br><br> 野々村仁清（ののむらにんせい、生没年未詳）本名清右衛門、仁和寺の門前で開窯したところから仁清と呼ばれる。<br><br>京焼きの祖。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Reunião das Obras de Arte</h2>
 <p>Quem visita o Museu de Arte de Hakone certamente compreende o que digo. Surpreende a quase todos a vasta quantidade de obras que dificilmente poderiam ser adquiridas, tamanha a sua raridade. Passo a descrever a trajetória que nos trouxe a este ponto, principiando pelas primeiras aquisições, que se deram logo após o fim da guerra.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>(Obs.)
 Hakusan Shosai (白山松哉, 1853–1923): Professor da Escola de Belas-Artes de Tóquio e Artista da Casa Imperial. Tinha renome por sua técnica de <em>makie</em> polido de extrema precisão.
 Nonomura Ninsei (野々村仁清, datas de nascimento e morte desconhecidas): Seu nome verdadeiro era Seiemon. Passou a ser chamado de Ninsei por ter estabelecido seu forno em frente ao portão do templo Ninna-ji. É considerado o fundador da cerâmica de Quioto (<em>Kyo-yaki</em>).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術品の集まる理由 『栄光』177号、昭和27(1952)年10月8日発行 箱根美術館を観た人は分るであろうが、容易に手に入らないような物が豊富に蒐（あつま）っているので、驚かない者はほとんどないのである。<br/><br/>これについて最初からの経路をかいてみるが、まず買始めたのが終戦直後からであった。<br/><br/>何しろ日本はかつてない世の中の変り方で、誰も知るごとく一挙に貴族富豪、大名、財閥等残らずと言いたい程特権階級の転落となったので、たちまち経済的苦境に陥り、先祖伝来大切に秘蔵してあった書画骨董類を手放さない訳にはゆかなくなった事である。<br/><br/>従って珍什名器は随分出たと共に、値段も安かった。<br/><br/> かてて加えて巨額な財産税を課せられたので、どうしても手放さなければならない窮地に追込められ、泣く泣く売払ったのであるから、余りの気の毒に私は同情に堪えなかったのである。<br/><br/>そうかといって売らなければ追っ付かないから、私は買いつつも助ける気持も手伝ったくらいである。<br/><br/>という訳で私は値切らずほとんど言い値で買ったものである。<br/><br/>しかし欲張り道具屋の暴利だけは加減したのはもちろんである。<br/><br/>そのようにしてボツボツ集まるには集ったが、いつもいう通り私は若い頃から美術が好きではあったが、鑑識の点は無論素人の域を脱していなかったと共に、買った経験もないので相場も分らず、ただ見て気に入った物だけを買ったのである。<br/><br/>ところがその方針が当ったとみえて、全部と言いたい程買損ないがなかった。<br/><br/> これは美術館を観た専門的知識のある人は御世辞でなく褒めている。<br/><br/>今までどんな美術館を見ても、いかがわしい物は相当あるものだが、この美術館は屑がない、逸品揃いだと言うのである。<br/><br/>先頃来られたニューヨーク・メトロポリタン博物館、東洋美術部長プリースト氏なども、この点特に褒め讃えていた。<br/><br/>そうこうしている内大分品物も集まり、私も段々目が利くようになったので、いずれは美術館を造らねばならないと思いはじめたのが、忘れもしない三年前くらいであった。<br/><br/>それから不思議にもその目的に合ったものが予想外に集まって来たので、いよいよ神様が美術館建設に力を注ぎはじめた事がハッキリ分ったのである。<br/><br/>それについての奇蹟は余りに多いので、一々はかけないから、その中の著しいものだけかいてみよう。<br/><br/> 最初の頃であった。<br/><br/>ある蒔絵専門の道具屋が、不思議と思う程上等な蒔絵物を次から次へと持って来るので、私も驚いたと共に道具屋も実に不思議だといったものである。<br/><br/>しかも時も時とて非常によいものが驚く程の安価で手に入ったもので、まず今日の相場から言えば、少なくとも数倍以上は違うのである。<br/><br/>今美術館に並んでいる蒔絵物がそれで、あれだけの品物が僅か半年くらいで集まったのである。<br/><br/>特に稀世の名人白山松哉（しょうさい）の物なども、現在並べてあるのが二点であるが、まだ数点は蔵（しま）ってあるから、いずれは並べるつもりである。<br/><br/>何しろこの人の作品は今日ほとんど売物には出ないくらいで、いかに品物の少ない事と、所持者が珍重して手放さない事が分るのである。<br/><br/> また私が以前から好きなのは、琳派物と仁清（にんせい）の陶器であったが、これなども時の経つに従い段々高くなるばかりで、近来売物はほとんど影を没してしまい、希望者は歎声を漏らしているそうだ。<br/><br/>ところが終戦直後のドサクサ紛れで、値もすこぶる安く、相当数手に入ったので、全く神様の力である事がよく分るのである。<br/><br/>そんな訳で私が是非欲しいと思う物、美術館になくてはならないという物は必ず手に入る。<br/><br/>その都度道具屋は不思議だ、奇蹟だという。<br/><br/>それについてこういう事があった。<br/><br/>私は広重の有名な東海道五十三次の初版のものが欲しかったところ、ある版画専門の道具屋が来て、広重物など見せたので、私は初版の五十三次ならいつでも買うと言ってやったところ、その翌日持って来たので驚いた。<br/><br/>すると彼いわく“こんな不思議な事はありません。<br/><br/>昨日帰宅するやある人が昨日のお話通りのものを持って来たので吃驚しました。<br/><br/>私は四十年前から心掛けておったのですが、昨日帰宅するやそれを売りに来たのですから、どう考えても分らない”というので、私も余りの奇蹟に感激したのはもちろんであった。<br/><br/>よく見るとこれは有名な某大大名の秘蔵していたもので、先祖が作ったとかで、その立派な画帖にも二度吃驚したのである。<br/><br/>かつ値段も非常に安く喜んだのである。<br/><br/> 次に支那陶器であるが、私は以前から全然趣味もなく、鑑識もなかったところ、美術館としてはどうしても必要と思ったところ、それから間もなく方々から集まって来た。<br/><br/>今並べてあるものがそれだが、何しろ約一年くらいで蒐めたので、これを知った誰もは本当に思わない。<br/><br/>しかも初めは全然目が利かず、道具屋の説明や自分の六感で選んだのだが、今日専門家はよくこんな好い物が、これ程沢山集まったものだと感心している。<br/><br/>という訳でいつもながら御守護の偉大さは何ともいえないのである。<br/><br/>まだ色々あるが後は想像して貰いたい。<br/><br/> そこでこの奇蹟は何がためかという事をここにかいてみるが、これこそ霊界においてその作者はもちろん愛玩していた人、その品物に関係のあった人等の霊が、大いに手柄を立てたいと思い、適当の順序を経て私の手に入るように仕向けるのである。<br/><br/>なぜなれば大功績によって救われ、階級も上るからである。<br/><br/>言うまでもなく僅かの期間でこれ程の美術館が出来たというのも全く右の理由によるのである。<br/><br/>考えてもみるがいい、今日まで財閥富豪が一世一代掛って漸く出来るくらいの美術館が、瞬（またた）く間に出来たとしたら、到底人間業でない事が誰が目にも映るであろう。<br/><br/> (注) 白山松哉（しらやましょうさい、1853～1923） 東京美術学校教授 帝室技芸員 精微な研ぎ出し蒔絵には定評があった。<br/><br/> 野々村仁清（ののむらにんせい、生没年未詳）本名清右衛門、仁和寺の門前で開窯したところから仁清と呼ばれる。<br/><br/>京焼きの祖。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

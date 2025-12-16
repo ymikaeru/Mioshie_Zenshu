@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>monono</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 物の世界と心の世界 照明中教会 吉良昌晃 『地上天国』26号、昭和26(1951)年7月25日発行 あらゆる文化が「物」に依って裏づけられなければならない現代の社会は、「物」と「物」とが網の目のように入り組んでお互に関係し合い、目の廻るような複雑さを以て構成されている。<br><br>だから「物」と「物」との組合せは、それがスムーズに動き合っている時は実に偉大な動きをする代りに、一度どこかに故障が起るとそれが非常に広い範囲に響き、ひどい時には全体に大きな破綻を生じて社会の機能が全くストップしてしまう事さえある。<br><br>それだけ「物」と云うものはその立っている根拠が薄弱であり、動きはデリケートではあるが底力がない。<br><br> この事は、それが人間に依って作り上げられ、人間に依って動かされていると云う事から来る大きな弱点なのである。<br><br>人間が作ったものは、人間それ自体が完全なものではないから、そしてその上、背後にあって何か重大な役割を果している何物かをすっかり忘れているから、どうしてもどこかに目に見えない「穴」が出来てくるのを防ぐ事が出来ない。<br><br>そして人間は目に見えない「穴」を、ないものと思い込んで、自分で作り上げた「物」だけの世界を自画自讃の体で眺めて一人で悦に入っているのである。<br><br>そこで神様は一寸悪戯がして見たくなって、人間の気が付かないその穴から人間共の馬鹿さ加減を覗こうとなさっただけで、折角人間が苦心して作り上げた「物」の世界も忽ちヒックリ返ってガラクタの集りと化し、神様は人間共のダラシなさを「アハハ」とお笑いになる。<br><br>（かどうか僕は知らない） とにかく、物質だけの文化は、それが進めば進む程精巧にはなるが脆くなって来る。<br><br>そして、このような「物」のみに依って裏付けられた社会に住む人間の心も自然に「穴」だらけになり脆くなって、右に風が吹けば右に靡き、左に風が吹けば左に頭を垂れ、嵐が来れば一たまりもなくフッ飛んでしまうのである。<br><br> 「物」と「物」との複雑な構成は、それがスムーズに動き合っている間は実によく働くが、どこか一つ故障が起ると忽ち全体がグラグラして来るのと同じように、今の社会に住む人間の心も、食べる物に事欠かず着る物も充分で、冬は暖く夏は涼しい家に住んで不満のない生活をしていさえすれば、毎日を和やかに楽しく送って行くけれども、何か変った事があって、ちょっと意に充たない事が出来て来ると、忽ち二本の足がもう二本どこから生えて来て恐しい世の中になって来る。<br><br> 「物」の文化、が発達して「物」と云うものが当てにならなくなればなる程、人の心も当てにはならなくなる。<br><br>だからメニューヒンのような偉大な音楽家でさえ“私の今日あるは金のお陰に負う所が非常に大きい”と云うような事まで云わねばならないのである。<br><br>昔の人々は、たとえそれが如何程貧しい音楽家に依って作られあるいは演奏された音楽であっても、立派な音楽であれば、心から耳を傾けて拍手を贈る心の余裕を持っていた。<br><br>今の世の中で、モーツァルトやベートーヴェンやシューベルトのような生活をしながら音楽芸術に志そうとする危篤な音楽家がもしあったとしても、その男の芸術は勿論の事、生命さえ一年の保証をも与える事は出来ないであろう。<br><br> 吾々はここでよく胸に手を当てて考えなければならない事にぶつかった。<br><br>それは「物」と「心」と云う問題である。<br><br>僕は結論から先に出した方がここではわかりやすいと思う。<br><br>「心」は「霊」であり「霊」は宇宙万有の根本である以上、「物」は「心」に依って先行され、「心」は「物」を従えなければならない。<br><br> なるほど「物」は大切である。<br><br>食べる「物」着る「物」目に見える「物」目に見えない「物」吾々の生活から「物」を取除く事は絶対に不可能である。<br><br>けれども物だけで人間の社会人間の生活は解決出来ない。<br><br>人間の「心」の動きは脳細胞の物理的、科学的変動だと思っている学者も世間の人も沢山あるが、その学者達が機械の力を以て脳の細胞を自由自在に動かす事は出来ないし、又世間の人達もそこまで科学の力が進んで行くと信じている者は少いだろう。<br><br>更に「物」だけを組合せて人間の形を作る事は出来ると断言する学者は居ても、それが息を吸って起き上り、「皆さん今日わ」と挨拶する人間に造る事の出来る学者は恐らく居ないだろう。<br><br> 私達は、そこに何か一つ抜けている事に気がつく筈であるその「何か一つ」と云うものこそ霊魂に他ならない。<br><br>即ち、物をいくら丁寧に並べ合わせて見ても、霊魂を考えに入れなければその「物」は生きて来ないし、たとえ霊魂を考えに入れたとしても、「物」をあくまで主にしている間は、「物」の動きは片端（かたわ）であって、前に述べたように、つまらない事にでもすぐ躓いてグラグラするのである。<br><br> 人間の生活も「物」だけを考えに入れている時にはきっとどこかに足りない所が出て来るし、「物」が主になっている間は、「心」も又汚れた曇ったものになり易い。<br><br>と云うのは「物」を主に考える時には、必ずそこに欲を伴うからである。<br><br>欲はエゴイズムを生み、エゴイズムは闘争の原因となる。<br><br>即ち「物」のみに依る生活は、人間社会に最も重要な和を欠く事になり、和の欠亡は「心」の曇りとなるのである。<br><br> 僕は先程「心」は「霊」であり、「霊」は宇宙の根本であると云った。<br><br>「霊魂」は宇宙創造の神に依って作られ、神に依って動かされるからであり、更に霊魂を失った人間は感ずる心も考える心も持たないからである。<br><br>即ち人間の心は宇宙の創造神である絶対の神につながる事によってのみ真の人間の心であって、決して「物」によって従えられるものでもなく、「物」の奴隷でもない。<br><br>神と人間の心とがつながるものであると云う事、神の御意志に依って人間の心が動かされなければならない事を信ずるという態度、即ち信仰の境地に入る事によってのみ、人間の「心」は「物」を従える事が出来「心」は「物」に優越出来るのである。<br><br> 少々話が難しくなって来てしまったけれども、要するに吾々の社会、吾々の生活は、神につながる汚れのない「心」と「心」とが互に触れ合ってこそ、本当の美しい生活となり社会となるのである。<br><br> 「物」に頼り過ぎた吾々の生活が本当の生活でなかった事にもう吾々は気が付かなくてはいけない。<br><br> 「心」の世界こそ、明主様の常日頃口にされ筆にされる霊主体従の世界ではないだろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Preponderância do Espírito sobre a Matéria</h2>
 <p>A sociedade contemporânea, na qual toda expressão cultural exige o esteio do mundo material, está constituída por uma vertiginosa complexidade. Nela, os elementos materiais se entrelaçam em uma intrincada malha de interdependências. Quando seus componentes operam em harmonia, seu dinamismo é de fato extraordinário; contudo, basta que uma única falha surja em qualquer ponto para que as repercussões se alastrem amplamente. Em casos extremos, pode-se gerar uma fratura tão grande que as funções sociais paralisam por completo. Tal cenário revela que tudo aquilo que se fundamenta unicamente na matéria possui bases frágeis; seu movimento, embora delicado, é desprovido de uma força fundamental.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Embora a explanação tenha se tornado um tanto complexa, a essência é que nossa sociedade e nossa vida só se tornarão verdadeiramente belas quando corações puros, vinculados a Deus, se tocarem e se unirem.</p>
 <p>Já é hora de nos darmos conta de que nossa existência, excessivamente dependente da matéria, não era a vida verdadeira.</p>
 <p>Não seria este Mundo do Coração, afinal, o Mundo em que o Espírito precede a Matéria, que Meishu-Sama tão constantemente nos revela em suas palavras e em seus escritos?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 物の世界と心の世界 照明中教会 吉良昌晃 『地上天国』26号、昭和26(1951)年7月25日発行 あらゆる文化が「物」に依って裏づけられなければならない現代の社会は、「物」と「物」とが網の目のように入り組んでお互に関係し合い、目の廻るような複雑さを以て構成されている。<br/><br/>だから「物」と「物」との組合せは、それがスムーズに動き合っている時は実に偉大な動きをする代りに、一度どこかに故障が起るとそれが非常に広い範囲に響き、ひどい時には全体に大きな破綻を生じて社会の機能が全くストップしてしまう事さえある。<br/><br/>それだけ「物」と云うものはその立っている根拠が薄弱であり、動きはデリケートではあるが底力がない。<br/><br/> この事は、それが人間に依って作り上げられ、人間に依って動かされていると云う事から来る大きな弱点なのである。<br/><br/>人間が作ったものは、人間それ自体が完全なものではないから、そしてその上、背後にあって何か重大な役割を果している何物かをすっかり忘れているから、どうしてもどこかに目に見えない「穴」が出来てくるのを防ぐ事が出来ない。<br/><br/>そして人間は目に見えない「穴」を、ないものと思い込んで、自分で作り上げた「物」だけの世界を自画自讃の体で眺めて一人で悦に入っているのである。<br/><br/>そこで神様は一寸悪戯がして見たくなって、人間の気が付かないその穴から人間共の馬鹿さ加減を覗こうとなさっただけで、折角人間が苦心して作り上げた「物」の世界も忽ちヒックリ返ってガラクタの集りと化し、神様は人間共のダラシなさを「アハハ」とお笑いになる。<br/><br/>（かどうか僕は知らない） とにかく、物質だけの文化は、それが進めば進む程精巧にはなるが脆くなって来る。<br/><br/>そして、このような「物」のみに依って裏付けられた社会に住む人間の心も自然に「穴」だらけになり脆くなって、右に風が吹けば右に靡き、左に風が吹けば左に頭を垂れ、嵐が来れば一たまりもなくフッ飛んでしまうのである。<br/><br/> 「物」と「物」との複雑な構成は、それがスムーズに動き合っている間は実によく働くが、どこか一つ故障が起ると忽ち全体がグラグラして来るのと同じように、今の社会に住む人間の心も、食べる物に事欠かず着る物も充分で、冬は暖く夏は涼しい家に住んで不満のない生活をしていさえすれば、毎日を和やかに楽しく送って行くけれども、何か変った事があって、ちょっと意に充たない事が出来て来ると、忽ち二本の足がもう二本どこから生えて来て恐しい世の中になって来る。<br/><br/> 「物」の文化、が発達して「物」と云うものが当てにならなくなればなる程、人の心も当てにはならなくなる。<br/><br/>だからメニューヒンのような偉大な音楽家でさえ“私の今日あるは金のお陰に負う所が非常に大きい”と云うような事まで云わねばならないのである。<br/><br/>昔の人々は、たとえそれが如何程貧しい音楽家に依って作られあるいは演奏された音楽であっても、立派な音楽であれば、心から耳を傾けて拍手を贈る心の余裕を持っていた。<br/><br/>今の世の中で、モーツァルトやベートーヴェンやシューベルトのような生活をしながら音楽芸術に志そうとする危篤な音楽家がもしあったとしても、その男の芸術は勿論の事、生命さえ一年の保証をも与える事は出来ないであろう。<br/><br/> 吾々はここでよく胸に手を当てて考えなければならない事にぶつかった。<br/><br/>それは「物」と「心」と云う問題である。<br/><br/>僕は結論から先に出した方がここではわかりやすいと思う。<br/><br/>「心」は「霊」であり「霊」は宇宙万有の根本である以上、「物」は「心」に依って先行され、「心」は「物」を従えなければならない。<br/><br/> なるほど「物」は大切である。<br/><br/>食べる「物」着る「物」目に見える「物」目に見えない「物」吾々の生活から「物」を取除く事は絶対に不可能である。<br/><br/>けれども物だけで人間の社会人間の生活は解決出来ない。<br/><br/>人間の「心」の動きは脳細胞の物理的、科学的変動だと思っている学者も世間の人も沢山あるが、その学者達が機械の力を以て脳の細胞を自由自在に動かす事は出来ないし、又世間の人達もそこまで科学の力が進んで行くと信じている者は少いだろう。<br/><br/>更に「物」だけを組合せて人間の形を作る事は出来ると断言する学者は居ても、それが息を吸って起き上り、「皆さん今日わ」と挨拶する人間に造る事の出来る学者は恐らく居ないだろう。<br/><br/> 私達は、そこに何か一つ抜けている事に気がつく筈であるその「何か一つ」と云うものこそ霊魂に他ならない。<br/><br/>即ち、物をいくら丁寧に並べ合わせて見ても、霊魂を考えに入れなければその「物」は生きて来ないし、たとえ霊魂を考えに入れたとしても、「物」をあくまで主にしている間は、「物」の動きは片端（かたわ）であって、前に述べたように、つまらない事にでもすぐ躓いてグラグラするのである。<br/><br/> 人間の生活も「物」だけを考えに入れている時にはきっとどこかに足りない所が出て来るし、「物」が主になっている間は、「心」も又汚れた曇ったものになり易い。<br/><br/>と云うのは「物」を主に考える時には、必ずそこに欲を伴うからである。<br/><br/>欲はエゴイズムを生み、エゴイズムは闘争の原因となる。<br/><br/>即ち「物」のみに依る生活は、人間社会に最も重要な和を欠く事になり、和の欠亡は「心」の曇りとなるのである。<br/><br/> 僕は先程「心」は「霊」であり、「霊」は宇宙の根本であると云った。<br/><br/>「霊魂」は宇宙創造の神に依って作られ、神に依って動かされるからであり、更に霊魂を失った人間は感ずる心も考える心も持たないからである。<br/><br/>即ち人間の心は宇宙の創造神である絶対の神につながる事によってのみ真の人間の心であって、決して「物」によって従えられるものでもなく、「物」の奴隷でもない。<br/><br/>神と人間の心とがつながるものであると云う事、神の御意志に依って人間の心が動かされなければならない事を信ずるという態度、即ち信仰の境地に入る事によってのみ、人間の「心」は「物」を従える事が出来「心」は「物」に優越出来るのである。<br/><br/> 少々話が難しくなって来てしまったけれども、要するに吾々の社会、吾々の生活は、神につながる汚れのない「心」と「心」とが互に触れ合ってこそ、本当の美しい生活となり社会となるのである。<br/><br/> 「物」に頼り過ぎた吾々の生活が本当の生活でなかった事にもう吾々は気が付かなくてはいけない。<br/><br/> 「心」の世界こそ、明主様の常日頃口にされ筆にされる霊主体従の世界ではないだろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

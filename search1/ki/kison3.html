@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kison3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 既存療法 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 病気治療の方法として、今日行はれてゐる種々の療法に就て一通り解説してみよう。<br><br> 先づ、西洋医学に於ける治療法は、薬剤其他の方法を以て、浄化作用停止である事は、読者は最早充分諒解されたであらう。<br><br>然し、未だ言ひ残した事があるから今少しく述べてみよう。<br><br> 私の経験上、最も怖るべきは注射療法として、彼の六百六号一名サルバルサンがある。<br><br>之は周知の如く、駆梅療法として、一時は、実に救世主の如く思はれたが、何ぞ知らん、事実は恐るべき結果を来すものである。<br><br>そうして此薬剤は人の知る如く、原料は砒素剤であつて、同剤は耳掻き一杯で、人命を落すといふ程の猛毒であるから、注射するや一時的浄化作用停止の力は強烈なものである。<br><br>即ち梅毒性発疹や腫脹に対し、同剤を注射するや忽ちにして消滅するから、一時治癒したやうに見へるのである。<br><br>然し、実は潜伏毒素が、浄化作用によつて、皮膚面に押出されたのが同剤の注射によつて、浄化作用は停止し、毒素は浄化作用以前の潜伏状態に還元するのである。<br><br>それだけならいいが、右の砒素は、不断の浄化作用によつて、漸次体内の一局部に集溜するのである。<br><br>その集溜局所として、最も多きは頭脳で、砒毒が頭脳に集溜する結果は、大抵精神病は免れないのである。<br><br>その際医家は誤診して脳黴毒といふが、何ぞ知らん、実は駆黴療法の結果であるといふに至つては、何と評すべきや言辞は無いであらう。<br><br>近来、精神病激増の傾向があるが、私は六百六号の原因による事も尠くないと想ふのである。<br><br>次に、恐るべきは、六百六号に因る眼疾であるが、大抵は失明するのであつて、此症状は殆んど片眼で治癒に頗る困難である。<br><br>尤も医家により眼疾のある患者は悪化するとして、同剤の注射を見合す由である。<br><br>其他種々の病原となる事は明かであつて、私の経験上、同剤注射の経験をもつ患者の病症は、特に治癒に時日を要するのである。<br><br> 次に私は、医家は固より、世人に一大警告をしなければならない事がある。<br><br>それは予防注射の薬毒による腫物である。<br><br>近来、足部特に膝下の部に大小の腫物が出来る人が多い事は人の知る所であらう。<br><br>之は、予防注射の薬毒が時日を経て足部に集溜し、浄化作用によつて排除されんとする為である。<br><br>之等は放任しておけば短期間に治癒するのであるが、それに気が付かない為、薬剤を使用するので、それによつて相当長期間に渉るのである。<br><br>そうして不幸な人は、医療によつて薬毒を追増される為、悪化して終に足部を切断さるるやうになる事も、稀にはあるのである。<br><br> 又、注射液によつては、■疽（ひょうそ）及び脱疽の原因となる事もあるから注意すべきである。<br><br>そうして、之等も手術によつて大小の不具となるのは勿論である。<br><br> 次に、利尿剤の逆作用も注意すべき問題である。<br><br>先ず腹膜炎患者が尿水の為、腹部膨満するや、医療は唯一の方法として利尿剤を用ふるのである。<br><br>それが為、一時は尿量を増し腹部縮小して、軽快又は殆んど治癒する事があるが、それは一時的であつて、例外なく再び膨満するのである。<br><br>従而、復（また）利尿剤を用ひる。<br><br>復縮小するといふ訳で、斯の如き事を繰返すに於て、終には利尿剤中毒となつて、逆効果の為、腹部は弥々膨満し頗る頑固性となり、減退し難くなるので、医家は止むを得ず穿孔して排水するのであるが、その殆んどが結果不良で斃れるのである。<br><br>右の如く利尿剤による逆効果の起つた患者は、その利尿剤服用の多い程、治癒に時日を要するのをみても利尿剤使用は戒むべきである。<br><br> 又、睾丸水腫といふ、睾丸の膨脹する病気や、尿の閉止する症状等も、利尿剤の逆効果による事が多いのである。<br><br> 次に、神経痛の如き、強烈な痛みが持続する場合、モヒの注射によつて一時的苦痛を免れるのであるが、之も多くは繰返す事になるので、其場合、非常に食欲を減退させ、それが愈々進むに従つて、終に頻繁なる嘔吐を催し、食欲の減退甚だしく衰弱によつて畢に斃れるのである。<br><br> 次に、ヂフテリヤの注射は、同病に卓効ありとせられ、予防に治療に近来大いに行はれてゐるが、之等も未だ研究の余地は多分にあるのである。<br><br>私の研究によれば此注射によつて悪結果を蒙つた者は、あまりにも多い事である。<br><br>甚だしきは死に到つたものさへ尠くなかつたのである。<br><br>そうして中には一週間位昏睡状態に陥つて、覚醒後、精神変質者になつたものや、胃腸障碍を起したり、神経衰弱的症状になつたりして、而も頗る頑固性であり、数年又は数十年に及ぶものさへあるのである。<br><br>故に仮令、ヂフテリヤに効果があるとしても、悪作用と比較して、功罪何れが勝るや疑問である。<br><br> 同病は本療法によれば、十分乃至三十分位の一回の治療によつて、完全に治癒するのである。<br><br> 次に、今日広範囲に使用するものに沃度（ヨード）剤がある。<br><br>この沃度剤の中毒も恐るべきであつて、これが頭痛の原因となり、神経衰弱、胃病、腎臓病等、種々の病原となるのである。<br><br>人により、発作的痙攣を起したり、手足の運動不能の原因となる事もあるが、医家は勿論世人もあまり知らないやうである。<br><br> 次に、外傷等に於ける殺菌用として使用する“沃度ホルム剤”は、もつとも恐るべきものである。<br><br>よく手術のための外傷が、治癒に頗る時日を要することがあつてその場合、医家は不可解におもふであらうが、これは全く消毒薬の中毒であるから薬剤を廃し、清水で洗ふだけにしておけば、速かに治癒するので、私はしばしば経験して好結果を挙げたのである。<br><br>そうして、沃度ホルムが何故恐るべきか―といふに、この薬が外傷部の筋肉から滲透する時、患部の周囲またはその附近に、青白色の膿状斑点が出来るのである。<br><br>そうして、それが漸次増大して、その状態が宛かも腐りゆく如く見ゆるので、医家はそう信じて驚いて、手足の場合切断を奨むるのである。<br><br>而も、強烈に痛むので、その苦痛を免れんため患者も終に切断を受ける事になるのである。<br><br>即ち、放置しても治癒する位の外傷が、沃度ホルムといふ薬剤によつて、不具にまでなるといふに至つては、全く驚くの外はないであらう。<br><br>故に今日戦傷勇士が、よく手や足を切断するといふことを聞くが、その多くが、沃度ホルム中毒のためではないかと、私は推断すると共に、そうであるとすれば憂ふるの外ないのである。<br><br> 故に一言にしていへば、外傷に、黴菌の侵入するを恐るる結果、殺菌作用を行ふのであるが、その殺菌作用が、黴菌の侵入よりも、幾層倍恐るべき結果を招来するといふ事になるので、全く角を矯（た）めて牛を殺す―といふ類である。<br><br> 次に、湿布薬及び膏薬に就て説明してみよう。<br><br>之等も皮膚から薬毒を滲透させるので、その部面の浄化作用を停止するから、一時的苦痛は軽減するが、その薬毒が残存して種々の悪影響を来すのである。<br><br>私が経験した二三の例を挙げてみよう。<br><br>背部が凝るので、数年に渉つて或有名な売薬の膏薬を持続的に貼用（ちょうよう）した患者があつた。<br><br>然るに、その薬毒が漸次脊柱及びその附近に溜着して、凝りの外に激しい痛みが加はつて来たのである。<br><br>これは全く膏薬中毒である事が明かになつた。<br><br>又或患者で顔面に普通のニキビより稍々大きい発疹が、十数年に渉つて治癒しないで悩まされてゐたのがあつた。<br><br>之等も最初、普通のニキビを治そうとして、種々の薬剤を塗布しそれが浸潤してニキビが増大し、頑固性になつたのである。<br><br>次に又、最初一局部に湿疹が出来それへ薬剤を塗布した為、その薬液が浸潤し薬毒性湿疹となり、それが漸次蔓延しつつ、遂には全身にまで及んだが、それでも未だ気づかないで、医療は塗布薬を持続するので、極端に悪化し、皮膚は糜爛（びらん）し、紫黒色さへ呈し、患者はその苦痛に呻吟しつつ全く手が付けられないのであつて、私は、医学の過誤に長大息を禁じ得なかつたのである。<br><br>其他、頭痛に対する鎮静剤や、不眠に対する睡眠剤、鼻孔閉塞に対するコカインの注入等の中毒は、周知の事であるから省くこととする。<br><br> 次に、漢方薬であるが、之も洋薬と同様中毒を起すのであるが、只だ洋薬の如くその中毒が強烈でない事が異ふのである。<br><br>又その症状も、洋薬の如く複雑ではないので、それは漢薬が殆んど新薬が出ないから、種類も少なく、旧套墨守（きゅうとうぼくしゅ）的である為であらう。<br><br>そうして漢方薬中毒の最も多い症状としては食欲不振及び嘔吐である。<br><br>此嘔吐は常習的であつて、大抵は一回の嘔吐で平素通りになるのである。<br><br>然し、其際の嘔吐は一種の臭ひがあるが、それは、以前服用した漢方薬の臭ひであるにみても中毒である事が知らるるのである。<br><br> そうして漢方薬中毒者は、腎臓疾患が多く顔色暗黄色で、何となく冴えないものである。<br><br>之に就て私は、支那人の顔色は赤味がなく、青黄色が多いのは、祖先以来漢方薬服用の結果であると惟ふのである。<br><br> そうして、洋薬も漢薬もそうであるが、多くを使用した者ほど皮膚は光沢を失ひ弾力なく、青壮年者にして老人の如き状態を呈するのである。<br><br>然るに、斯の如き人と雖も、薬剤を廃止するに於て、年々薬毒的症状が消へるに従つて若返るのであるにみて、此点に於ても、薬毒の悚（おそ）るべき事が肯れるであらう。<br><br> 次に、電気及び光線療法であるが、之も、概略説明してみよう。<br><br>此療法の根本は毒素を固結さすのであるから、病原である毒素溶解作用を停止するのみならず、寧ろ浄化作用発生以前よりも固結が強化されるので、従而容積も著しく減少し、或程度治癒したと思ふのであるが、実際は固結さしたので、最初の病気発生の苦痛とは違つた苦痛が生ずるのである。<br><br>それは最初の病気症状は、毒素溶解作用の苦痛であるが、後の症状はその反対である固結の為に支障を及ぼす苦痛で、その位置により苦痛は一定してゐないもので、位置によつては苦痛のない事もあるのである。<br><br> 然し乍ら、死に直面した重症に対し、電気療法によつて起死回生の偉効を奏する事も聞くが、固め療法も其症状によつて適合する場合、効果は確かにあらう。<br><br>そういふ人は電気療法を讃へるのである。<br><br>然し乍ら、私の経験上、レントゲン療法は悪いのである。<br><br>之は、最も能く毒素を固結させるからである。<br><br> 次に、氷冷及び湿布療法は曩に述べたから略すが、咳嗽に対して吸入療法を行ふが、之は実に馬鹿々々しいのである。<br><br>何となれば、曩に説いた如く、咳嗽の原因は咽喉ではないから、吸入法を如何程行ふも何等の効果はないのである。<br><br> 又、温めるといふ温熱療法があるが、之も病気により一時的軽快を得る事があるが、病気により反つて悪化さす事もあるのである。<br><br>又感冒の際、全身を温めて発汗さす事を良いとしてゐるが、之も誤りで、発汗さすよりも自然に放任しておく方が反つてよく治癒するのであつてすべて自然が良いのである。<br><br>次に癌に対しラヂユム放射を行ふが、之も何等効果はないのである。<br><br>その説明として私は唯一の事実を挙げるにとどめる。<br><br>それは彼の東郷元帥の喉頭癌に対し、その当時三十五万円のラヂユムを使用したに関はらず、半ケ年にして生命を失つたことである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Falácias da Medicina Convencional</h2>
 <p>Neste ensejo, passarei a elucidar as diversas terapias empregadas na atualidade para o tratamento das enfermidades. Os leitores já devem ter plena compreensão de que os métodos da medicina ocidental, sejam farmacológicos ou de outra natureza, visam fundamentalmente à interrupção do processo de purificação. Todavia, como ainda há pontos a serem aprofundados, discorrerei um pouco mais sobre o assunto.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Apesar disso, ouve-se falar de casos em que a eletroterapia teve um efeito extraordinário em pacientes graves, à beira da morte, resgatando-os. De fato, a terapia de solidificação pode ser eficaz quando aplicada em quadros que a ela se adequam, e quem passa por essa experiência exalta seus méritos. Contudo, com base em minha vivência, a radioterapia é perniciosa, pois é o método que mais intensamente solidifica as toxinas.</p>
 <p>As terapias com gelo e compressas úmidas já foram discutidas, portanto, passarei adiante. Quanto à terapia de inalação para a tosse, é algo francamente absurdo. Conforme expliquei anteriormente, a causa da tosse não está na garganta; logo, por mais que se realize a inalação, não se obterá efeito algum.</p>
 <p>Existe também a termoterapia, que consiste em aquecer a área afetada. Dependendo da doença, pode proporcionar um alívio temporário, mas em outras pode, ao contrário, agravar o quadro. No caso de resfriados, considera-se benéfico aquecer todo o corpo para induzir a transpiração. Isso também é um equívoco. Em vez de forçar o suor, deixar o corpo seguir seu curso natural resulta em uma cura mais eficaz. Em tudo, o natural é sempre o melhor. Por fim, utiliza-se a radiação de rádio para o tratamento do câncer, mas isso tampouco tem qualquer eficácia. Para ilustrar, limito-me a citar um único fato: apesar de se ter empregado o equivalente a trezentos e cinquenta mil ienes em rádio para tratar o câncer de laringe do Almirante Togo, sua vida se extinguiu em apenas seis meses.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 既存療法 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 病気治療の方法として、今日行はれてゐる種々の療法に就て一通り解説してみよう。<br/><br/> 先づ、西洋医学に於ける治療法は、薬剤其他の方法を以て、浄化作用停止である事は、読者は最早充分諒解されたであらう。<br/><br/>然し、未だ言ひ残した事があるから今少しく述べてみよう。<br/><br/> 私の経験上、最も怖るべきは注射療法として、彼の六百六号一名サルバルサンがある。<br/><br/>之は周知の如く、駆梅療法として、一時は、実に救世主の如く思はれたが、何ぞ知らん、事実は恐るべき結果を来すものである。<br/><br/>そうして此薬剤は人の知る如く、原料は砒素剤であつて、同剤は耳掻き一杯で、人命を落すといふ程の猛毒であるから、注射するや一時的浄化作用停止の力は強烈なものである。<br/><br/>即ち梅毒性発疹や腫脹に対し、同剤を注射するや忽ちにして消滅するから、一時治癒したやうに見へるのである。<br/><br/>然し、実は潜伏毒素が、浄化作用によつて、皮膚面に押出されたのが同剤の注射によつて、浄化作用は停止し、毒素は浄化作用以前の潜伏状態に還元するのである。<br/><br/>それだけならいいが、右の砒素は、不断の浄化作用によつて、漸次体内の一局部に集溜するのである。<br/><br/>その集溜局所として、最も多きは頭脳で、砒毒が頭脳に集溜する結果は、大抵精神病は免れないのである。<br/><br/>その際医家は誤診して脳黴毒といふが、何ぞ知らん、実は駆黴療法の結果であるといふに至つては、何と評すべきや言辞は無いであらう。<br/><br/>近来、精神病激増の傾向があるが、私は六百六号の原因による事も尠くないと想ふのである。<br/><br/>次に、恐るべきは、六百六号に因る眼疾であるが、大抵は失明するのであつて、此症状は殆んど片眼で治癒に頗る困難である。<br/><br/>尤も医家により眼疾のある患者は悪化するとして、同剤の注射を見合す由である。<br/><br/>其他種々の病原となる事は明かであつて、私の経験上、同剤注射の経験をもつ患者の病症は、特に治癒に時日を要するのである。<br/><br/> 次に私は、医家は固より、世人に一大警告をしなければならない事がある。<br/><br/>それは予防注射の薬毒による腫物である。<br/><br/>近来、足部特に膝下の部に大小の腫物が出来る人が多い事は人の知る所であらう。<br/><br/>之は、予防注射の薬毒が時日を経て足部に集溜し、浄化作用によつて排除されんとする為である。<br/><br/>之等は放任しておけば短期間に治癒するのであるが、それに気が付かない為、薬剤を使用するので、それによつて相当長期間に渉るのである。<br/><br/>そうして不幸な人は、医療によつて薬毒を追増される為、悪化して終に足部を切断さるるやうになる事も、稀にはあるのである。<br/><br/> 又、注射液によつては、■疽（ひょうそ）及び脱疽の原因となる事もあるから注意すべきである。<br/><br/>そうして、之等も手術によつて大小の不具となるのは勿論である。<br/><br/> 次に、利尿剤の逆作用も注意すべき問題である。<br/><br/>先ず腹膜炎患者が尿水の為、腹部膨満するや、医療は唯一の方法として利尿剤を用ふるのである。<br/><br/>それが為、一時は尿量を増し腹部縮小して、軽快又は殆んど治癒する事があるが、それは一時的であつて、例外なく再び膨満するのである。<br/><br/>従而、復（また）利尿剤を用ひる。<br/><br/>復縮小するといふ訳で、斯の如き事を繰返すに於て、終には利尿剤中毒となつて、逆効果の為、腹部は弥々膨満し頗る頑固性となり、減退し難くなるので、医家は止むを得ず穿孔して排水するのであるが、その殆んどが結果不良で斃れるのである。<br/><br/>右の如く利尿剤による逆効果の起つた患者は、その利尿剤服用の多い程、治癒に時日を要するのをみても利尿剤使用は戒むべきである。<br/><br/> 又、睾丸水腫といふ、睾丸の膨脹する病気や、尿の閉止する症状等も、利尿剤の逆効果による事が多いのである。<br/><br/> 次に、神経痛の如き、強烈な痛みが持続する場合、モヒの注射によつて一時的苦痛を免れるのであるが、之も多くは繰返す事になるので、其場合、非常に食欲を減退させ、それが愈々進むに従つて、終に頻繁なる嘔吐を催し、食欲の減退甚だしく衰弱によつて畢に斃れるのである。<br/><br/> 次に、ヂフテリヤの注射は、同病に卓効ありとせられ、予防に治療に近来大いに行はれてゐるが、之等も未だ研究の余地は多分にあるのである。<br/><br/>私の研究によれば此注射によつて悪結果を蒙つた者は、あまりにも多い事である。<br/><br/>甚だしきは死に到つたものさへ尠くなかつたのである。<br/><br/>そうして中には一週間位昏睡状態に陥つて、覚醒後、精神変質者になつたものや、胃腸障碍を起したり、神経衰弱的症状になつたりして、而も頗る頑固性であり、数年又は数十年に及ぶものさへあるのである。<br/><br/>故に仮令、ヂフテリヤに効果があるとしても、悪作用と比較して、功罪何れが勝るや疑問である。<br/><br/> 同病は本療法によれば、十分乃至三十分位の一回の治療によつて、完全に治癒するのである。<br/><br/> 次に、今日広範囲に使用するものに沃度（ヨード）剤がある。<br/><br/>この沃度剤の中毒も恐るべきであつて、これが頭痛の原因となり、神経衰弱、胃病、腎臓病等、種々の病原となるのである。<br/><br/>人により、発作的痙攣を起したり、手足の運動不能の原因となる事もあるが、医家は勿論世人もあまり知らないやうである。<br/><br/> 次に、外傷等に於ける殺菌用として使用する“沃度ホルム剤”は、もつとも恐るべきものである。<br/><br/>よく手術のための外傷が、治癒に頗る時日を要することがあつてその場合、医家は不可解におもふであらうが、これは全く消毒薬の中毒であるから薬剤を廃し、清水で洗ふだけにしておけば、速かに治癒するので、私はしばしば経験して好結果を挙げたのである。<br/><br/>そうして、沃度ホルムが何故恐るべきか―といふに、この薬が外傷部の筋肉から滲透する時、患部の周囲またはその附近に、青白色の膿状斑点が出来るのである。<br/><br/>そうして、それが漸次増大して、その状態が宛かも腐りゆく如く見ゆるので、医家はそう信じて驚いて、手足の場合切断を奨むるのである。<br/><br/>而も、強烈に痛むので、その苦痛を免れんため患者も終に切断を受ける事になるのである。<br/><br/>即ち、放置しても治癒する位の外傷が、沃度ホルムといふ薬剤によつて、不具にまでなるといふに至つては、全く驚くの外はないであらう。<br/><br/>故に今日戦傷勇士が、よく手や足を切断するといふことを聞くが、その多くが、沃度ホルム中毒のためではないかと、私は推断すると共に、そうであるとすれば憂ふるの外ないのである。<br/><br/> 故に一言にしていへば、外傷に、黴菌の侵入するを恐るる結果、殺菌作用を行ふのであるが、その殺菌作用が、黴菌の侵入よりも、幾層倍恐るべき結果を招来するといふ事になるので、全く角を矯（た）めて牛を殺す―といふ類である。<br/><br/> 次に、湿布薬及び膏薬に就て説明してみよう。<br/><br/>之等も皮膚から薬毒を滲透させるので、その部面の浄化作用を停止するから、一時的苦痛は軽減するが、その薬毒が残存して種々の悪影響を来すのである。<br/><br/>私が経験した二三の例を挙げてみよう。<br/><br/>背部が凝るので、数年に渉つて或有名な売薬の膏薬を持続的に貼用（ちょうよう）した患者があつた。<br/><br/>然るに、その薬毒が漸次脊柱及びその附近に溜着して、凝りの外に激しい痛みが加はつて来たのである。<br/><br/>これは全く膏薬中毒である事が明かになつた。<br/><br/>又或患者で顔面に普通のニキビより稍々大きい発疹が、十数年に渉つて治癒しないで悩まされてゐたのがあつた。<br/><br/>之等も最初、普通のニキビを治そうとして、種々の薬剤を塗布しそれが浸潤してニキビが増大し、頑固性になつたのである。<br/><br/>次に又、最初一局部に湿疹が出来それへ薬剤を塗布した為、その薬液が浸潤し薬毒性湿疹となり、それが漸次蔓延しつつ、遂には全身にまで及んだが、それでも未だ気づかないで、医療は塗布薬を持続するので、極端に悪化し、皮膚は糜爛（びらん）し、紫黒色さへ呈し、患者はその苦痛に呻吟しつつ全く手が付けられないのであつて、私は、医学の過誤に長大息を禁じ得なかつたのである。<br/><br/>其他、頭痛に対する鎮静剤や、不眠に対する睡眠剤、鼻孔閉塞に対するコカインの注入等の中毒は、周知の事であるから省くこととする。<br/><br/> 次に、漢方薬であるが、之も洋薬と同様中毒を起すのであるが、只だ洋薬の如くその中毒が強烈でない事が異ふのである。<br/><br/>又その症状も、洋薬の如く複雑ではないので、それは漢薬が殆んど新薬が出ないから、種類も少なく、旧套墨守（きゅうとうぼくしゅ）的である為であらう。<br/><br/>そうして漢方薬中毒の最も多い症状としては食欲不振及び嘔吐である。<br/><br/>此嘔吐は常習的であつて、大抵は一回の嘔吐で平素通りになるのである。<br/><br/>然し、其際の嘔吐は一種の臭ひがあるが、それは、以前服用した漢方薬の臭ひであるにみても中毒である事が知らるるのである。<br/><br/> そうして漢方薬中毒者は、腎臓疾患が多く顔色暗黄色で、何となく冴えないものである。<br/><br/>之に就て私は、支那人の顔色は赤味がなく、青黄色が多いのは、祖先以来漢方薬服用の結果であると惟ふのである。<br/><br/> そうして、洋薬も漢薬もそうであるが、多くを使用した者ほど皮膚は光沢を失ひ弾力なく、青壮年者にして老人の如き状態を呈するのである。<br/><br/>然るに、斯の如き人と雖も、薬剤を廃止するに於て、年々薬毒的症状が消へるに従つて若返るのであるにみて、此点に於ても、薬毒の悚（おそ）るべき事が肯れるであらう。<br/><br/> 次に、電気及び光線療法であるが、之も、概略説明してみよう。<br/><br/>此療法の根本は毒素を固結さすのであるから、病原である毒素溶解作用を停止するのみならず、寧ろ浄化作用発生以前よりも固結が強化されるので、従而容積も著しく減少し、或程度治癒したと思ふのであるが、実際は固結さしたので、最初の病気発生の苦痛とは違つた苦痛が生ずるのである。<br/><br/>それは最初の病気症状は、毒素溶解作用の苦痛であるが、後の症状はその反対である固結の為に支障を及ぼす苦痛で、その位置により苦痛は一定してゐないもので、位置によつては苦痛のない事もあるのである。<br/><br/> 然し乍ら、死に直面した重症に対し、電気療法によつて起死回生の偉効を奏する事も聞くが、固め療法も其症状によつて適合する場合、効果は確かにあらう。<br/><br/>そういふ人は電気療法を讃へるのである。<br/><br/>然し乍ら、私の経験上、レントゲン療法は悪いのである。<br/><br/>之は、最も能く毒素を固結させるからである。<br/><br/> 次に、氷冷及び湿布療法は曩に述べたから略すが、咳嗽に対して吸入療法を行ふが、之は実に馬鹿々々しいのである。<br/><br/>何となれば、曩に説いた如く、咳嗽の原因は咽喉ではないから、吸入法を如何程行ふも何等の効果はないのである。<br/><br/> 又、温めるといふ温熱療法があるが、之も病気により一時的軽快を得る事があるが、病気により反つて悪化さす事もあるのである。<br/><br/>又感冒の際、全身を温めて発汗さす事を良いとしてゐるが、之も誤りで、発汗さすよりも自然に放任しておく方が反つてよく治癒するのであつてすべて自然が良いのである。<br/><br/>次に癌に対しラヂユム放射を行ふが、之も何等効果はないのである。<br/><br/>その説明として私は唯一の事実を挙げるにとどめる。<br/><br/>それは彼の東郷元帥の喉頭癌に対し、その当時三十五万円のラヂユムを使用したに関はらず、半ケ年にして生命を失つたことである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

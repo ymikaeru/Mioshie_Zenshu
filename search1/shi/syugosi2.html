@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syugosi2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 守護神 『天国の福音』昭和22(1947)年2月5日発行 いかなる人間といえども正守護神、または守護霊なるものが霊界にあって付随し、常に守護している事である。<br><br>そうして人は神の子であり、神の宮であるといわれるが、既説のごとくそれは神から受命されたすなわち神の分霊を有しているからで、これが本守誰神であり、後天的に憑依せる動物霊が副守護神であるが、動物霊とは狐、狸、犬、猫、馬、牛、猿、鼬（いたち）等の獣類もしくは種々の龍神、天狗、あらゆる鳥類等がおもなるものである。<br><br>大抵は一人一種であるが、稀には二、三種以上の事もある。<br><br>こういう事については現代人は到底信じ難く嘲笑する位であろうが、私が幾多の経験によって動かすべからざる実体を把握し得たのであるから、否定は不可能である。<br><br>そうしてさきに説いたごとく、本守護神は善性であり、良心であり、副守護神はその反対で悪であり、邪念である。<br><br>仏教においては良心を菩提心（ぼだいしん）または仏心といい、邪念を煩悩または般若という。<br><br>そうして本副両守護神のほか初めに書いたごとき正守護神がある。<br><br>これは祖先の霊であって人が生まれるやそれを守護すべく祖霊中の誰かが選抜されるのである。<br><br>この場合普通は人霊であるが、同化霊である龍神、狐、天狗等もある。<br><br>私といえども副守護神は烏天狗で、正守護神は龍神である。<br><br>よく人間が危険に遭遇した場合、奇跡的に助かったり、また暗示を与えられたり、夢知らせや虫が知らせる等の事があるが、皆正守護神の活動によるのである。<br><br>また芸術家が創作の場合や発明家が熱中する時一種のインスピレーションを受けるが、これらももちろん正守護神の暗示である。<br><br>その他人間の正しい希望が実現したり、信仰によって御利益を得る場合、神が正守護神を通じて行なわれるのである。<br><br>昔から至誠天に通ずるとか、真心が神に通ずるとかいうのは、神が正守護神を通じてその人に恩恵を垂れるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza dos Espíritos Guardiões</h2>
 <p>A todo e qualquer ser humano, sem exceção, encontra-se vinculado um Espírito Guardião Primário, ou Espírito Guardião, que, do Mundo Espiritual, o acompanha e protege constantemente. Afirma-se que o ser humano é filho e Templo de Deus, e isso ocorre, conforme explanei anteriormente, por ele possuir uma centelha divina outorgada por Deus, um espírito partilhado. Essa centelha constitui o Espírito Guardião Original. Em contrapartida, existe o Espírito Guardião Secundário, que é um espírito animal que se vincula à pessoa no decorrer de sua vida. Os espíritos animais são principalmente feras como raposas, cães-guaxinins, cães, gatos, cavalos, bois, macacos e doninhas, ou ainda diversas divindades-dragão, tengus e toda sorte de aves.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Ademais do Espírito Guardião Original e do Secundário, existe o Espírito Guardião Primário, ao qual me referi no início. Trata-se do espírito de um antepassado, selecionado dentre os ancestrais no momento do nascimento de uma pessoa com a incumbência de protegê-la. Em geral, é um espírito humano, mas também pode se manifestar como um espírito assimilado, tal como uma divindade-dragão, uma raposa ou um tengu. Mesmo no meu caso, meu Espírito Guardião Secundário é um Karasu Tengu, e meu Espírito Guardião Primário é uma divindade-dragão.</p>
 <p>É comum que, ao se depararem com o perigo, as pessoas sejam salvas de maneira milagrosa, recebam alguma intuição, ou tenham sonhos e pressentimentos reveladores; todos esses fenômenos decorrem da atuação do Espírito Guardião Primário. Da mesma forma, a inspiração que acomete artistas em seu processo criativo ou inventores absortos em seu trabalho é, indubitavelmente, uma emanação sutil desse mesmo espírito.</p>
 <p>Adicionalmente, quando os anseios justos de uma pessoa se concretizam ou quando ela aufere graças por meio da fé, é Deus quem atua, valendo-Se do Espírito Guardião Primário como intermediário. Os antigos adágios, como “a sinceridade alcança os Céus” ou “um coração verdadeiro chega a Deus”, expressam justamente essa verdade: é por intermédio do Espírito Guardião Primário que Deus concede Suas bênçãos ao ser humano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 守護神 『天国の福音』昭和22(1947)年2月5日発行 いかなる人間といえども正守護神、または守護霊なるものが霊界にあって付随し、常に守護している事である。<br/><br/>そうして人は神の子であり、神の宮であるといわれるが、既説のごとくそれは神から受命されたすなわち神の分霊を有しているからで、これが本守誰神であり、後天的に憑依せる動物霊が副守護神であるが、動物霊とは狐、狸、犬、猫、馬、牛、猿、鼬（いたち）等の獣類もしくは種々の龍神、天狗、あらゆる鳥類等がおもなるものである。<br/><br/>大抵は一人一種であるが、稀には二、三種以上の事もある。<br/><br/>こういう事については現代人は到底信じ難く嘲笑する位であろうが、私が幾多の経験によって動かすべからざる実体を把握し得たのであるから、否定は不可能である。<br/><br/>そうしてさきに説いたごとく、本守護神は善性であり、良心であり、副守護神はその反対で悪であり、邪念である。<br/><br/>仏教においては良心を菩提心（ぼだいしん）または仏心といい、邪念を煩悩または般若という。<br/><br/>そうして本副両守護神のほか初めに書いたごとき正守護神がある。<br/><br/>これは祖先の霊であって人が生まれるやそれを守護すべく祖霊中の誰かが選抜されるのである。<br/><br/>この場合普通は人霊であるが、同化霊である龍神、狐、天狗等もある。<br/><br/>私といえども副守護神は烏天狗で、正守護神は龍神である。<br/><br/>よく人間が危険に遭遇した場合、奇跡的に助かったり、また暗示を与えられたり、夢知らせや虫が知らせる等の事があるが、皆正守護神の活動によるのである。<br/><br/>また芸術家が創作の場合や発明家が熱中する時一種のインスピレーションを受けるが、これらももちろん正守護神の暗示である。<br/><br/>その他人間の正しい希望が実現したり、信仰によって御利益を得る場合、神が正守護神を通じて行なわれるのである。<br/><br/>昔から至誠天に通ずるとか、真心が神に通ずるとかいうのは、神が正守護神を通じてその人に恩恵を垂れるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

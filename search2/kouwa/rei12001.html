@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei12001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（二） １ 001-016 上体 001 死霊による脳膜炎 十九歳の娘、時々三十八度位の発熱と共に喘息のような咳が出て脳膜炎的な症状となり、数分間呼吸が出来なくなる事が幾度もありますが、脈は不思議な程平常です。<br><br>この娘の祖父が喘息で死んでおりますためか、祖父のうわごとをよく云いますので、霊的とは思いますが、新薬の阿片麻を十五本も注射していますので、右肩及び腰部が強く痛みます。<br><br>長い時は四、五時間も気が付かない事がございます。<br><br>右、御救い頂けましょうか。<br><br> 死霊が憑いて脳膜炎的症状を呈する。<br><br> 肩などの注射のため、阿片麻など毒薬である。<br><br> 浄霊で治る。<br><br> 仏壇を早速祀るべきである。<br><br> 002 脳梅毒の夫（御神書） 私の夫行雄（当年三十八歳）は一昨年十月頃医師より脳梅毒陽性と診断されサルバルサン四十本程を打ちましたが思わしくなく、マハールゾルをこれも約四十本打ちましたが症状は悪化するのみなので一時中止し、昨年末より浄霊を受けるようになりましたら、よく眠る事も出来、食欲も普通になり、体力は回復しました。<br><br>約二ケ月前より下痢の御浄化を頂いておりますが、病状は変化なく、嘘をよくつき、非常に欲の深い事を言っており、勝手にそれを実行し反って損のいく事ばかりをしながら本人はそれが分りません。<br><br>私は本年二月に、また、夫の実妹は四月に入信させて頂き、今月初めには光明如来様、屏風観音様ともに奉斎させて頂きました。<br><br>なお、私の家は実兄がおりながら盲目のため別居して、家督は弟である夫の行雄が継いでおります。<br><br>しかし戸籍面では夫が長男になり兄が養子となっております。<br><br>実父は型紙彫刻を業とし、母は十年程以前に破傷風で亡くなっており、生前は夫行雄を特に可愛がったそうです。<br><br>家には兄の参拝していた稲荷神社大麻と書いたお札と以前の家の持主の祭っていたらしいお稲荷様が神棚にそのままになっております。<br><br> 右の次第ですが、いかなる原因で、また今後どのようにすればよろしいでしょうか。<br><br>また治るでしょうか。<br><br>御教示を御願い致します。<br><br> 下痢しているのは非常に結構である。<br><br>嘘をつくのは狐である。<br><br>御神書を読ませれば治る。<br><br>稲荷神社のお札は処理した方がよい。<br><br>一年はそのままにしておき、月に一度位お祀りしてやる。<br><br>（S25. 5.27） 003 唖の真因（木龍、前世、欧氏管通風） 唖の発生の原因について御教え願います。<br><br> 耳が聞えて物言えぬ事もあるが、普通は耳が聞えず物が言えぬ。<br><br> 木龍の場合と、前の世で死ぬ時頭を砕いて死んだり、脳震盪の内出血が耳へ出て死んだ場合とか、また、服毒して舌が硬化して死んだりする。<br><br>それ等のものが生れ替ったものである。<br><br> 木龍は耳があるにはある。<br><br>例えば、神社の木などに憑いてる龍で、それを伐って祟る場合がある。<br><br>だから木龍の方が治りいい。<br><br> また、耳下腺あるいは鼓膜の奥に塊のあるのは治りいい。<br><br> 非常に長くかかるのと治り易いのとある。<br><br> 欧（Ｏ）氏管通風というのがある。<br><br>耳と鼻の間に何か詰っているとして通す。<br><br>するとこれによって鼓膜の裏側の所を通し、全然聞えぬ。<br><br> 生れつきの唖は肚の中にいるうち龍が憑く場合もある。<br><br> 龍神が人間に生れた場合、結婚出来ぬ。<br><br> 龍女も信仰して徳を積めば結婚も出来る。<br><br> 唖は木龍である。<br><br> 盲も殆ど蛇の罪――。<br><br>生れつきの盲など、腹にいる時憑依するものである。<br><br> 先天的唖は祀るといい。<br><br> 胎児、五ケ月以上の子は人間として扱う。<br><br>（S23. 8.12） 004 口利けぬ子（木龍祟り） 当年八歳の男の子、生れながらに口がきけませんが、耳は聞えます。<br><br>ラジオの歌などよく覚えて調子をとります。<br><br>二十二年十月、私が入信以来浄霊を続けておりますが、現在記憶力がなくなってきました。<br><br>何か霊的原因がありましょうか。<br><br>また、御浄霊により治りましょうか。<br><br>御伺い致します。<br><br> 治る。<br><br>木龍か何か憑いている。<br><br>普通の木龍ではなく何かの祟りである。<br><br>その執着が龍神になっている。<br><br> 前頭部と首筋の塊を浄霊する。<br><br>耳が聞えれば口はきける。<br><br>（S25. 2. 5） 005 狐霊による唖 唖の原因に狐霊の場合がありますか。<br><br> 狐の場合は滅多にない。<br><br> 狐がなぐられ、ブチ殺されて耳をやられたのが憑く。<br><br>そういう場合もあり得る。<br><br> 大体は蛇である。<br><br> 006 痙攣・歩けず・口きけぬ小児麻痺（赤子か動物霊） 四歳の子供（森けい子）、小児麻痺で浄霊を続けていますが、痙攣、歩けず、口がきけず――癒りますか。<br><br> 相当重そうである。<br><br>憑霊であろう。<br><br>（老霊）治らぬ事はないが長びく。<br><br>気長にやると年々よくなる。<br><br>赤ン坊か動物霊かどっちかで、母なら母が信仰に入り、徳を積む。<br><br>（二、三年前大阪の人が来たが、最初来た時は随分ひどかったが、この前来た時は立てた。<br><br>それと同じような症状である） 007 幼児遠眼（鳥転生） 室蘭市の白坂秋子（十歳）、現在眼病にて悩んでおります。<br><br>三、四歳頃には何ともなかったが、六歳頃からそれと気がつき、病院へ行き院長先生に見て頂いたところ「生れつきだから切開せねばならぬ」と申されたそうです。<br><br>現在電気や光はとてもまぶしがります。<br><br>夜なら普通の光なれば三里ばかり先でも見えます。<br><br>昼でも老眼鏡をかけるとよく見えるのです。<br><br>浄霊の際の手は二寸位先まではハッキリ見えます。<br><br>また、平常は眼の玉が左右に動き通しです。<br><br>このような病人も治るでしょうか。<br><br>また、浄霊法をお教え下さい。<br><br> 動物霊の生れ替りである。<br><br>治る。<br><br>夜活動した動物で、鳥であろう。<br><br>鳥には遠くが見えるのがある。<br><br> 前頭部の奥を主に浄霊する。<br><br>気長にやれば治る。<br><br>（S24.11. 8） 008 鳥眼と鳥胆（転生） 鳥眼の患者に鳥の胆を食べさせてよく治ったと言う事を聞きますが、どんな訳でしょうか。<br><br> こんな事はない。<br><br>鳥眼の原因は前世に鳥だったのが転生し、その性能が残っている。<br><br>浄霊で治る。<br><br>鳥の胆とは関係はない。<br><br>鰻の胆などというが、あまりうまいものではない。<br><br> 009 鳥眼より失明状態となる 私は少年時（十二歳頃）より眼が悪く、夕方より段々に視力弱くなり、夜間に至っては全く見えなくなりましたので、医師に診断を受けると鳥眼との事でした故に家伝薬は勿論、その他あらゆる医薬に親しみましたが全く効果なく、三十年程前東京一流の専門医に診察の結果、盲膜炎変性と診断され、眼球に注射する事約五百本、その他眼球手術右四回、左一回致しましたが全然効果なく、五年前より更に悪化し、昨年暮迄の全くの失明状態となりました。<br><br>昨年正月入信、浄霊を戴きましてより、極く少時間ではありますが見える事があるようになりました。<br><br>全快の可能性ありましょうか。<br><br> 治る。<br><br>目は少しやって僅かでも効果があればきっと治る。<br><br>効果のないものでも気長にやれば治る。<br><br>ただ手術の薬毒でどうなるか、問題はそれだけである。<br><br>鳥眼とは鳥であった時代の習性が残っている。<br><br>人から鳥となり、それから人間になったものである。<br><br>医者にかからなければ鳥眼だけで済んだであろう。<br><br>医者へかかって失明するまで悪くしてもらった。<br><br>全く医学禍の被害者である。<br><br>この位大きな間違いはない。<br><br>それを救う手段方法も神様から与えられた。<br><br>これを知った以上じっとしておられない。<br><br>（S24. 6.18） 010 色盲・夜盲症（動物霊） 色盲や夜盲症は 御浄霊致しましても相当長くかかるように存じますが、早く御救い頂くにはどのように致しましたら宜しいでしょうか、右、御教示御願い申し上げます。<br><br> 動物霊時代のものが残っている。<br><br>軽いのと重いのとあり、事実ははっきり言えぬ。<br><br>いくらかずつ良くなる。<br><br> 011 色盲男子に多し 十四歳の男の子で御座いますが、父が入信しましてから色盲になりました。<br><br>そのお宅には祖父より伝わる狐の舌（実物）が御座いまして、狐憑き等はこれを布団の下へ入れるとすぐ離れるとの事で重宝がられております。<br><br>この狐の舌と色盲とは何か関係が御座いましょうか。<br><br>またこうした場合、色盲は治らないもので御座いましょうか。<br><br>なお、色盲は男子に多く女子には殆どないのはいかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 色盲は前世の動物の性能が残っているのである。<br><br>動物は一色か二色の単一色に見える。<br><br>馬なども赤一色である。<br><br>音声でも一色か二色である。<br><br>一番種類の多いのは人間である。<br><br> 入信したため動物の分子が浮いて来たのである。<br><br>スッカリなくなる。<br><br>狐の舌とは関係はない。<br><br> 獣の性能は男の方が濃い。<br><br>（S24. 8.22） 012 肺炎と鳥眼（憑依と発熱） 肺炎の患者で御座いますが、食事もろくろく頂かずにおり、家人の者より勧められて食事をしようと致しましたら急に眼が見えなくなりました。<br><br>昼間は見えず、夜分電燈の光線になると見えるようになりますが、いかなる御浄化で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 鳥か猫の霊か何か憑いたのであろう。<br><br>夜見える霊である。<br><br> 肺炎というのは――、そういう霊の憑いた時はキッと非常に熱が出るのを間違えたものである。<br><br> きっと治る。<br><br>頭を浄霊する。<br><br>（S24. 6.21） 013 夜盲症（鳥、猫） 本年五歳になる男の子で御座いますが、三歳の頃大病を致しましてから日中は目がよく見えないで夜になるとよく見えるそうです。<br><br>最近針金で眼を突きさし、色々手をつくしましたが見込みがないとの事で五日程前から浄霊をいただいておりますが、毎日のように眠り続けておりますが、何か霊が付いているので御座いましょうか。<br><br> 鳥とか猫の霊かであろう。<br><br>治る。<br><br>前頭部の奥――。<br><br>（S24. 2.24） 014 蛇形眼に映る 私は右眼の御浄化中御浄霊により御救い頂き、今年春入信させて頂きました。<br><br>その後左眼に見るもの総てに黒点で虫のような形をしたものが見え、その黒点を見つめていますと蛇の形に変ります。<br><br>また、空中を見ますと手足のついた蛇の形をしたものが見えるので御座いますが、いかなるわけで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 蛇の霊である。<br><br>浄霊でとれる。<br><br>（S24. 9.29） 015 眼球脱出と青大将 満二歳になる男の子が、出産後十日余り母乳を吸ったのみにて、三ケ月目には母親が腎臓炎にて亡くなりました。<br><br>その後一年を経た昨年の五月、子供の右眼の黒玉の下の方に白い星が出来ました。<br><br>私はその頃入信、御浄霊をさせて頂いております。<br><br>それから二、三日の間に両眼とも閉じてしまい、食物もろくろく食べませんでした。<br><br>やっと一ケ月を経て瞼を開きましたが、目玉が蟹のように飛び出して沢山の目脂が出続けました。<br><br>その後、目は大分引込んで参りました。<br><br>今では黒玉が白赤色を帯び少し飛び出ている程度で、全然見えないまま目脂の御浄化を頂いております。<br><br>これには何か霊的に原因があるので御座いましょうか。<br><br>なお、子供の母親は二年前鶏を取りに来た蛇（青大将）を二匹殺した事があり、その後間もなく産後が悪くて死亡致しております。<br><br>これと何か関係が御座いましょうか。<br><br>また、どうすれば宜しいでしょうか。<br><br>御教えを御願い申し上げます。<br><br> 関係がありそうである。<br><br>（青大将を殺すとかような事がよくある。<br><br>蛇は殺す時頭を叩き眼が飛び出る）母が亡くなったので子供の目へ来たものだと思う。<br><br>盲蛇になって霊界にいるからである。<br><br> 目脂が出れば必ず治る。<br><br>眼薬は目脂を出なくする。<br><br>（S24. 6.21） 016 盲続く家 大光明如来様を御祭りしてから母（六十五歳）が目を病み、約五ケ月になり先生の浄霊も受け、私も毎日のごとく浄霊致しますがはっきりせず、私の家は古い家を買い受け住んでいますが、前住者家族に二人盲にて死んだ人（七、八十年前）があります。<br><br>また、私の家は現在龍神様が祭ってありますので、先祖の因縁か龍神様の因縁か、関係ないでしょうか。<br><br>御伺い申します。<br><br> 霊が制えるのである。<br><br>それも霊が曇ってるからである。<br><br> 出来れば祝詞がいい。<br><br>声が出なければ心で奏げてもいい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Doenças de Causa Espiritual (II)</h2>
 <h3>001 Meningite Causada por Espírito de Morto</h3>
@@ -164,5 +316,48 @@ Parece haver uma relação. (É comum que coisas assim aconteçam quando se mata
 <p>Desde que consagramos a Imagem da Luz Divina, minha mãe, de sessenta e cinco anos, começou a sofrer dos olhos. Já se passaram cinco meses, ela recebeu Johrei do ministro e eu também ministro diariamente, mas não há uma melhora clara. Nós moramos em uma casa antiga que compramos, e soubemos que dois membros da família que morava aqui antes morreram cegos, há setenta ou oitenta anos. Atualmente, temos um Deus-Dragão consagrado em nossa casa. Haveria alguma relação com o carma dos antepassados, com o Deus-Dragão, ou seriam fatos sem conexão?</p>
 <p><strong>Resposta:</strong>
 Um espírito está exercendo controle. Isso ocorre porque tal espírito está obscurecido. Se possível, o ideal é entoar a Oração Amatsu-Norito. Se não puder fazê-lo em voz alta, pode entoá-la mentalmente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（二） １ 001-016 上体 001 死霊による脳膜炎 十九歳の娘、時々三十八度位の発熱と共に喘息のような咳が出て脳膜炎的な症状となり、数分間呼吸が出来なくなる事が幾度もありますが、脈は不思議な程平常です。<br/><br/>この娘の祖父が喘息で死んでおりますためか、祖父のうわごとをよく云いますので、霊的とは思いますが、新薬の阿片麻を十五本も注射していますので、右肩及び腰部が強く痛みます。<br/><br/>長い時は四、五時間も気が付かない事がございます。<br/><br/>右、御救い頂けましょうか。<br/><br/> 死霊が憑いて脳膜炎的症状を呈する。<br/><br/> 肩などの注射のため、阿片麻など毒薬である。<br/><br/> 浄霊で治る。<br/><br/> 仏壇を早速祀るべきである。<br/><br/> 002 脳梅毒の夫（御神書） 私の夫行雄（当年三十八歳）は一昨年十月頃医師より脳梅毒陽性と診断されサルバルサン四十本程を打ちましたが思わしくなく、マハールゾルをこれも約四十本打ちましたが症状は悪化するのみなので一時中止し、昨年末より浄霊を受けるようになりましたら、よく眠る事も出来、食欲も普通になり、体力は回復しました。<br/><br/>約二ケ月前より下痢の御浄化を頂いておりますが、病状は変化なく、嘘をよくつき、非常に欲の深い事を言っており、勝手にそれを実行し反って損のいく事ばかりをしながら本人はそれが分りません。<br/><br/>私は本年二月に、また、夫の実妹は四月に入信させて頂き、今月初めには光明如来様、屏風観音様ともに奉斎させて頂きました。<br/><br/>なお、私の家は実兄がおりながら盲目のため別居して、家督は弟である夫の行雄が継いでおります。<br/><br/>しかし戸籍面では夫が長男になり兄が養子となっております。<br/><br/>実父は型紙彫刻を業とし、母は十年程以前に破傷風で亡くなっており、生前は夫行雄を特に可愛がったそうです。<br/><br/>家には兄の参拝していた稲荷神社大麻と書いたお札と以前の家の持主の祭っていたらしいお稲荷様が神棚にそのままになっております。<br/><br/> 右の次第ですが、いかなる原因で、また今後どのようにすればよろしいでしょうか。<br/><br/>また治るでしょうか。<br/><br/>御教示を御願い致します。<br/><br/> 下痢しているのは非常に結構である。<br/><br/>嘘をつくのは狐である。<br/><br/>御神書を読ませれば治る。<br/><br/>稲荷神社のお札は処理した方がよい。<br/><br/>一年はそのままにしておき、月に一度位お祀りしてやる。<br/><br/>（S25. 5.27） 003 唖の真因（木龍、前世、欧氏管通風） 唖の発生の原因について御教え願います。<br/><br/> 耳が聞えて物言えぬ事もあるが、普通は耳が聞えず物が言えぬ。<br/><br/> 木龍の場合と、前の世で死ぬ時頭を砕いて死んだり、脳震盪の内出血が耳へ出て死んだ場合とか、また、服毒して舌が硬化して死んだりする。<br/><br/>それ等のものが生れ替ったものである。<br/><br/> 木龍は耳があるにはある。<br/><br/>例えば、神社の木などに憑いてる龍で、それを伐って祟る場合がある。<br/><br/>だから木龍の方が治りいい。<br/><br/> また、耳下腺あるいは鼓膜の奥に塊のあるのは治りいい。<br/><br/> 非常に長くかかるのと治り易いのとある。<br/><br/> 欧（Ｏ）氏管通風というのがある。<br/><br/>耳と鼻の間に何か詰っているとして通す。<br/><br/>するとこれによって鼓膜の裏側の所を通し、全然聞えぬ。<br/><br/> 生れつきの唖は肚の中にいるうち龍が憑く場合もある。<br/><br/> 龍神が人間に生れた場合、結婚出来ぬ。<br/><br/> 龍女も信仰して徳を積めば結婚も出来る。<br/><br/> 唖は木龍である。<br/><br/> 盲も殆ど蛇の罪――。<br/><br/>生れつきの盲など、腹にいる時憑依するものである。<br/><br/> 先天的唖は祀るといい。<br/><br/> 胎児、五ケ月以上の子は人間として扱う。<br/><br/>（S23. 8.12） 004 口利けぬ子（木龍祟り） 当年八歳の男の子、生れながらに口がきけませんが、耳は聞えます。<br/><br/>ラジオの歌などよく覚えて調子をとります。<br/><br/>二十二年十月、私が入信以来浄霊を続けておりますが、現在記憶力がなくなってきました。<br/><br/>何か霊的原因がありましょうか。<br/><br/>また、御浄霊により治りましょうか。<br/><br/>御伺い致します。<br/><br/> 治る。<br/><br/>木龍か何か憑いている。<br/><br/>普通の木龍ではなく何かの祟りである。<br/><br/>その執着が龍神になっている。<br/><br/> 前頭部と首筋の塊を浄霊する。<br/><br/>耳が聞えれば口はきける。<br/><br/>（S25. 2. 5） 005 狐霊による唖 唖の原因に狐霊の場合がありますか。<br/><br/> 狐の場合は滅多にない。<br/><br/> 狐がなぐられ、ブチ殺されて耳をやられたのが憑く。<br/><br/>そういう場合もあり得る。<br/><br/> 大体は蛇である。<br/><br/> 006 痙攣・歩けず・口きけぬ小児麻痺（赤子か動物霊） 四歳の子供（森けい子）、小児麻痺で浄霊を続けていますが、痙攣、歩けず、口がきけず――癒りますか。<br/><br/> 相当重そうである。<br/><br/>憑霊であろう。<br/><br/>（老霊）治らぬ事はないが長びく。<br/><br/>気長にやると年々よくなる。<br/><br/>赤ン坊か動物霊かどっちかで、母なら母が信仰に入り、徳を積む。<br/><br/>（二、三年前大阪の人が来たが、最初来た時は随分ひどかったが、この前来た時は立てた。<br/><br/>それと同じような症状である） 007 幼児遠眼（鳥転生） 室蘭市の白坂秋子（十歳）、現在眼病にて悩んでおります。<br/><br/>三、四歳頃には何ともなかったが、六歳頃からそれと気がつき、病院へ行き院長先生に見て頂いたところ「生れつきだから切開せねばならぬ」と申されたそうです。<br/><br/>現在電気や光はとてもまぶしがります。<br/><br/>夜なら普通の光なれば三里ばかり先でも見えます。<br/><br/>昼でも老眼鏡をかけるとよく見えるのです。<br/><br/>浄霊の際の手は二寸位先まではハッキリ見えます。<br/><br/>また、平常は眼の玉が左右に動き通しです。<br/><br/>このような病人も治るでしょうか。<br/><br/>また、浄霊法をお教え下さい。<br/><br/> 動物霊の生れ替りである。<br/><br/>治る。<br/><br/>夜活動した動物で、鳥であろう。<br/><br/>鳥には遠くが見えるのがある。<br/><br/> 前頭部の奥を主に浄霊する。<br/><br/>気長にやれば治る。<br/><br/>（S24.11. 8） 008 鳥眼と鳥胆（転生） 鳥眼の患者に鳥の胆を食べさせてよく治ったと言う事を聞きますが、どんな訳でしょうか。<br/><br/> こんな事はない。<br/><br/>鳥眼の原因は前世に鳥だったのが転生し、その性能が残っている。<br/><br/>浄霊で治る。<br/><br/>鳥の胆とは関係はない。<br/><br/>鰻の胆などというが、あまりうまいものではない。<br/><br/> 009 鳥眼より失明状態となる 私は少年時（十二歳頃）より眼が悪く、夕方より段々に視力弱くなり、夜間に至っては全く見えなくなりましたので、医師に診断を受けると鳥眼との事でした故に家伝薬は勿論、その他あらゆる医薬に親しみましたが全く効果なく、三十年程前東京一流の専門医に診察の結果、盲膜炎変性と診断され、眼球に注射する事約五百本、その他眼球手術右四回、左一回致しましたが全然効果なく、五年前より更に悪化し、昨年暮迄の全くの失明状態となりました。<br/><br/>昨年正月入信、浄霊を戴きましてより、極く少時間ではありますが見える事があるようになりました。<br/><br/>全快の可能性ありましょうか。<br/><br/> 治る。<br/><br/>目は少しやって僅かでも効果があればきっと治る。<br/><br/>効果のないものでも気長にやれば治る。<br/><br/>ただ手術の薬毒でどうなるか、問題はそれだけである。<br/><br/>鳥眼とは鳥であった時代の習性が残っている。<br/><br/>人から鳥となり、それから人間になったものである。<br/><br/>医者にかからなければ鳥眼だけで済んだであろう。<br/><br/>医者へかかって失明するまで悪くしてもらった。<br/><br/>全く医学禍の被害者である。<br/><br/>この位大きな間違いはない。<br/><br/>それを救う手段方法も神様から与えられた。<br/><br/>これを知った以上じっとしておられない。<br/><br/>（S24. 6.18） 010 色盲・夜盲症（動物霊） 色盲や夜盲症は 御浄霊致しましても相当長くかかるように存じますが、早く御救い頂くにはどのように致しましたら宜しいでしょうか、右、御教示御願い申し上げます。<br/><br/> 動物霊時代のものが残っている。<br/><br/>軽いのと重いのとあり、事実ははっきり言えぬ。<br/><br/>いくらかずつ良くなる。<br/><br/> 011 色盲男子に多し 十四歳の男の子で御座いますが、父が入信しましてから色盲になりました。<br/><br/>そのお宅には祖父より伝わる狐の舌（実物）が御座いまして、狐憑き等はこれを布団の下へ入れるとすぐ離れるとの事で重宝がられております。<br/><br/>この狐の舌と色盲とは何か関係が御座いましょうか。<br/><br/>またこうした場合、色盲は治らないもので御座いましょうか。<br/><br/>なお、色盲は男子に多く女子には殆どないのはいかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 色盲は前世の動物の性能が残っているのである。<br/><br/>動物は一色か二色の単一色に見える。<br/><br/>馬なども赤一色である。<br/><br/>音声でも一色か二色である。<br/><br/>一番種類の多いのは人間である。<br/><br/> 入信したため動物の分子が浮いて来たのである。<br/><br/>スッカリなくなる。<br/><br/>狐の舌とは関係はない。<br/><br/> 獣の性能は男の方が濃い。<br/><br/>（S24. 8.22） 012 肺炎と鳥眼（憑依と発熱） 肺炎の患者で御座いますが、食事もろくろく頂かずにおり、家人の者より勧められて食事をしようと致しましたら急に眼が見えなくなりました。<br/><br/>昼間は見えず、夜分電燈の光線になると見えるようになりますが、いかなる御浄化で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 鳥か猫の霊か何か憑いたのであろう。<br/><br/>夜見える霊である。<br/><br/> 肺炎というのは――、そういう霊の憑いた時はキッと非常に熱が出るのを間違えたものである。<br/><br/> きっと治る。<br/><br/>頭を浄霊する。<br/><br/>（S24. 6.21） 013 夜盲症（鳥、猫） 本年五歳になる男の子で御座いますが、三歳の頃大病を致しましてから日中は目がよく見えないで夜になるとよく見えるそうです。<br/><br/>最近針金で眼を突きさし、色々手をつくしましたが見込みがないとの事で五日程前から浄霊をいただいておりますが、毎日のように眠り続けておりますが、何か霊が付いているので御座いましょうか。<br/><br/> 鳥とか猫の霊かであろう。<br/><br/>治る。<br/><br/>前頭部の奥――。<br/><br/>（S24. 2.24） 014 蛇形眼に映る 私は右眼の御浄化中御浄霊により御救い頂き、今年春入信させて頂きました。<br/><br/>その後左眼に見るもの総てに黒点で虫のような形をしたものが見え、その黒点を見つめていますと蛇の形に変ります。<br/><br/>また、空中を見ますと手足のついた蛇の形をしたものが見えるので御座いますが、いかなるわけで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 蛇の霊である。<br/><br/>浄霊でとれる。<br/><br/>（S24. 9.29） 015 眼球脱出と青大将 満二歳になる男の子が、出産後十日余り母乳を吸ったのみにて、三ケ月目には母親が腎臓炎にて亡くなりました。<br/><br/>その後一年を経た昨年の五月、子供の右眼の黒玉の下の方に白い星が出来ました。<br/><br/>私はその頃入信、御浄霊をさせて頂いております。<br/><br/>それから二、三日の間に両眼とも閉じてしまい、食物もろくろく食べませんでした。<br/><br/>やっと一ケ月を経て瞼を開きましたが、目玉が蟹のように飛び出して沢山の目脂が出続けました。<br/><br/>その後、目は大分引込んで参りました。<br/><br/>今では黒玉が白赤色を帯び少し飛び出ている程度で、全然見えないまま目脂の御浄化を頂いております。<br/><br/>これには何か霊的に原因があるので御座いましょうか。<br/><br/>なお、子供の母親は二年前鶏を取りに来た蛇（青大将）を二匹殺した事があり、その後間もなく産後が悪くて死亡致しております。<br/><br/>これと何か関係が御座いましょうか。<br/><br/>また、どうすれば宜しいでしょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 関係がありそうである。<br/><br/>（青大将を殺すとかような事がよくある。<br/><br/>蛇は殺す時頭を叩き眼が飛び出る）母が亡くなったので子供の目へ来たものだと思う。<br/><br/>盲蛇になって霊界にいるからである。<br/><br/> 目脂が出れば必ず治る。<br/><br/>眼薬は目脂を出なくする。<br/><br/>（S24. 6.21） 016 盲続く家 大光明如来様を御祭りしてから母（六十五歳）が目を病み、約五ケ月になり先生の浄霊も受け、私も毎日のごとく浄霊致しますがはっきりせず、私の家は古い家を買い受け住んでいますが、前住者家族に二人盲にて死んだ人（七、八十年前）があります。<br/><br/>また、私の家は現在龍神様が祭ってありますので、先祖の因縁か龍神様の因縁か、関係ないでしょうか。<br/><br/>御伺い申します。<br/><br/> 霊が制えるのである。<br/><br/>それも霊が曇ってるからである。<br/><br/> 出来れば祝詞がいい。<br/><br/>声が出なければ心で奏げてもいい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

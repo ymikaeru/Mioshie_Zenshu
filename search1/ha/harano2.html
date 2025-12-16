@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>harano2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腹の虫は人為肥料から ・法話（五） 『東京日々新聞』昭和28(1953)年2月28日発行 また浅根の作物は畑土に草葉の堆肥をまぜるだけでいいが、深根のものは、特に畑土一尺くらい下の方に木の葉の堆肥の床を作るといい。<br><br>堆肥の効果は土を固めないためと土を温めるためと、もう一つは作物の根際（ねぎわ）に土乾きがする場合乾きを防ぎ得るということの三つだといえる。<br><br>自然農法の根本は土そのものを生かすことにある。<br><br>土壌に人為肥料のような不純物を用いないことに主眼を置く。<br><br>そうすれば土壌は本来の性能を発揮することになる。<br><br>土は作物を作れば作る程良くなるもので、人間でいえば働けば働く程、健康が増すのと同じ理屈。<br><br> だから連作をいけないこととしているのは間違っている。<br><br>私が今年作ったトウモロコシなどは連作七年になり、しかも小石混りで、ものすごい不良土だが実行きも良く美味満点である。<br><br>土壌というものは、作物の種類によって、その作物に適応する性能が自然に出来るものである。<br><br> このごろの農村の悩みは、肥料代の高いのと、虫害と風水害の三つだともいえるが、害虫は、肥料によってわくと思えばいい。<br><br>それは肥料によって土壌には不潔物が残る。<br><br>不潔なところへ小虫がわき細菌が発生するのは作物も同じだ。<br><br>これは、肥料（こえ）だめに蛆がわくのを見ても判る。<br><br>また、害虫にいろいろの種類があるのは、肥料に種類があるからで新しい害虫の発生も新しい肥料が作られているからだ。<br><br>更に、もう一つ重要なことは、殺虫剤が虫を殺す程の毒性で土を不良土とする事だ。<br><br>だからその土に栽培された植物は、肥毒以外の別な毒分まで追加されるわけだ。<br><br> 硫安肥料をよく使うが、これは劇薬毒であるから、これを吸収した米を食べると、自然人体も影響を受け、健康にも悪いのは当然といえる。<br><br>つまり血液が濁るからだ。<br><br> 次に寄生虫の問題だが、日本人の中で八十パーセント以上が回虫保有者なのだから驚く。<br><br>回虫はふん尿肥料によってその卵が野菜から人間の口を通じて胃に入って繁殖する。<br><br>ところが蟯虫（ぎょうちゅう）、十二指腸虫、かいせん虫、水虫などは、いずれも小虫の繁殖によるが、医学ではまだ病源不明とされている。<br><br>これは私の研究では、人為肥料のためで、これが直接の原因ではないが、結局人肥によって血液が濁るから小虫がわくので、この点パスツールの伝染説は明らかに間違っているわけだ。<br><br>大体、体内に入れてはいけない不潔なものを入れて血液を濁すから、こういうことになる。<br><br> さて、わたしの自然農法を行う場合、浄霊による効果のことをちょっと話してみたい。<br><br>自然農法の原理は今までの人為農法によって骨折り損のくたびれもうけであったのを私は、神のお告げによって、この誤りを知り、今までとは反対に土を清浄にすればするほど、作物はよく出来るという原理を発表したのである。<br><br> つまり万有は霊と体で成立しており、土も作物も、やはり霊と体から成立っている以上、今までのように人為肥料によって汚されていれば土の霊も、その通り曇っているわけだ。<br><br>ところが一度浄霊をすると、土の霊の曇りが減りそのため土の方も不純物が減って清浄になる。<br><br>だから清浄になった土は、成育力が旺盛になるとともに、作物の方も残っている肥毒が減るから、霊主体従の法則によって成育が更に旺盛になる。<br><br> 大分長い話になったが、これで大体お解りになったことと思う。<br><br>（完）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem das Pragas nos Adubos Artificiais</h2>
 <p>Para as culturas de raízes superficiais, basta incorporar ao solo uma compostagem de folhas e capim. No caso daquelas de raízes profundas, contudo, o ideal é preparar uma camada de compostagem de folhas a aproximadamente trinta centímetros de profundidade. Os benefícios da compostagem podem ser resumidos em três pontos principais: ela impede a compactação do solo, mantém sua temperatura aquecida e, por fim, evita o ressecamento junto à base das raízes das plantas.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Gostaria agora de abordar brevemente os efeitos do Johrei na prática da minha Agricultura Natural. O método agrícola artificial, até então predominante, não passava de um esforço inglório e extenuante. Foi por meio de uma revelação Divina que tomei conhecimento desse erro e anunciei um princípio oposto: quanto mais purificarmos o solo, melhores serão as colheitas.</p>
 <p>Tudo no Universo é constituído de espírito e matéria. O solo e as plantas não são exceção. Se a terra é contaminada por adubos artificiais, como se tem feito, seu espírito igualmente se macula. Ao ministrarmos Johrei, contudo, as máculas do espírito do solo diminuem, o que, por sua vez, reduz as impurezas da terra física, purificando-a. Um solo purificado torna-se mais vigoroso, e as plantas, com menos toxinas de adubos em seu interior, passam a se desenvolver com ainda mais exuberância, em obediência à Lei do Espírito Precede a Matéria.</p>
 <p>Embora tenha me alongado, creio que, com esta explanação, o essencial foi compreendido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腹の虫は人為肥料から ・法話（五） 『東京日々新聞』昭和28(1953)年2月28日発行 また浅根の作物は畑土に草葉の堆肥をまぜるだけでいいが、深根のものは、特に畑土一尺くらい下の方に木の葉の堆肥の床を作るといい。<br/><br/>堆肥の効果は土を固めないためと土を温めるためと、もう一つは作物の根際（ねぎわ）に土乾きがする場合乾きを防ぎ得るということの三つだといえる。<br/><br/>自然農法の根本は土そのものを生かすことにある。<br/><br/>土壌に人為肥料のような不純物を用いないことに主眼を置く。<br/><br/>そうすれば土壌は本来の性能を発揮することになる。<br/><br/>土は作物を作れば作る程良くなるもので、人間でいえば働けば働く程、健康が増すのと同じ理屈。<br/><br/> だから連作をいけないこととしているのは間違っている。<br/><br/>私が今年作ったトウモロコシなどは連作七年になり、しかも小石混りで、ものすごい不良土だが実行きも良く美味満点である。<br/><br/>土壌というものは、作物の種類によって、その作物に適応する性能が自然に出来るものである。<br/><br/> このごろの農村の悩みは、肥料代の高いのと、虫害と風水害の三つだともいえるが、害虫は、肥料によってわくと思えばいい。<br/><br/>それは肥料によって土壌には不潔物が残る。<br/><br/>不潔なところへ小虫がわき細菌が発生するのは作物も同じだ。<br/><br/>これは、肥料（こえ）だめに蛆がわくのを見ても判る。<br/><br/>また、害虫にいろいろの種類があるのは、肥料に種類があるからで新しい害虫の発生も新しい肥料が作られているからだ。<br/><br/>更に、もう一つ重要なことは、殺虫剤が虫を殺す程の毒性で土を不良土とする事だ。<br/><br/>だからその土に栽培された植物は、肥毒以外の別な毒分まで追加されるわけだ。<br/><br/> 硫安肥料をよく使うが、これは劇薬毒であるから、これを吸収した米を食べると、自然人体も影響を受け、健康にも悪いのは当然といえる。<br/><br/>つまり血液が濁るからだ。<br/><br/> 次に寄生虫の問題だが、日本人の中で八十パーセント以上が回虫保有者なのだから驚く。<br/><br/>回虫はふん尿肥料によってその卵が野菜から人間の口を通じて胃に入って繁殖する。<br/><br/>ところが蟯虫（ぎょうちゅう）、十二指腸虫、かいせん虫、水虫などは、いずれも小虫の繁殖によるが、医学ではまだ病源不明とされている。<br/><br/>これは私の研究では、人為肥料のためで、これが直接の原因ではないが、結局人肥によって血液が濁るから小虫がわくので、この点パスツールの伝染説は明らかに間違っているわけだ。<br/><br/>大体、体内に入れてはいけない不潔なものを入れて血液を濁すから、こういうことになる。<br/><br/> さて、わたしの自然農法を行う場合、浄霊による効果のことをちょっと話してみたい。<br/><br/>自然農法の原理は今までの人為農法によって骨折り損のくたびれもうけであったのを私は、神のお告げによって、この誤りを知り、今までとは反対に土を清浄にすればするほど、作物はよく出来るという原理を発表したのである。<br/><br/> つまり万有は霊と体で成立しており、土も作物も、やはり霊と体から成立っている以上、今までのように人為肥料によって汚されていれば土の霊も、その通り曇っているわけだ。<br/><br/>ところが一度浄霊をすると、土の霊の曇りが減りそのため土の方も不純物が減って清浄になる。<br/><br/>だから清浄になった土は、成育力が旺盛になるとともに、作物の方も残っている肥毒が減るから、霊主体従の法則によって成育が更に旺盛になる。<br/><br/> 大分長い話になったが、これで大体お解りになったことと思う。<br/><br/>（完）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

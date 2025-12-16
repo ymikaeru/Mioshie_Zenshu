@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakusi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬師如来 『地上天国』13号、昭和25(1950)年2月20日発行 薬師如来は、観世音菩薩の化身であって、一名東方薬師如来ともいう。<br><br>私は、観音様の働きをしながら、薬は毒だという説を唱えているにかかわらず、薬師如来は薬の仏様というのであるから、すこぶる矛盾している訳であるが、ここについてその真相を開明してみよう。<br><br> 仏法の存在する期間は夜の世界と私は常に言っている。<br><br>従って、その期間は火素より水素の方が多いから、毒素溶解の力が足りなかったので、固める方が有利であった。<br><br>そこで毒素を固めるべく薬を服めという訳で、彼の釈尊も薬草喩品（ゆぼん）という経文を説いたのである。<br><br> しかし薬師如来は、物質の薬剤は良くないから、霊的薬剤によって病気治癒の御利益を下されたのである。<br><br>ところがいよいよ昼の世界になりつつある現在、今度は毒素溶解排除手段をとられたのである。<br><br>それが私の発揮しつつある観音力である。<br><br> YAKUSHI NYORAI: THE MEDICINE BUDDHA Yakushi Nyorai (Bhaisajyaguru [Sanskrit], meaning the Master of Healing or Medicine Buddha, who quells all diseases and lengthens life) is an incarnation of Kannon and is also called "The East Yakushi Nyorai ('The East' indicates 'the Paradise of the East')." I have been exercising the Kannon Power and insisting that medicines are poison, while Yakushi Nyorai is the Buddha of medicine; this seems to be a sheer contradiction. So I will give you a true account of this situation. I have been consistently pointing out that during the period of time when there exist the teachings of Buddha, we live in the World of Night. Therefore, during that period, because there were more spiritual elements of water than those of fire, the power of melting poisonous substance was not enough; so, it was more effective to solidify the poison than to melt it. Then, people were urged to take medicine in order to solidify poison and Shakyamuni Buddha also preached "The Parable of the Medicinal Herbs" in the Lotus Sutra. And yet, Yakushi Nyorai gave a blessing of healing disease through spiritual medicines because material medicines are bad. However, the time has finally come in our day when the World of Day begins to prevail and this time He has adopted the measures to melt away toxic elements. This is the Kannon Power which I am now exerting.
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre Yakushi Nyorai</h2>
 <p>Yakushi Nyorai (薬師如来) é uma manifestação de Kannon (観世音菩薩), sendo também reverenciado como o Yakushi Nyorai do Leste (東方薬師如来).</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Foi por essa razão que se recomendava o uso de medicamentos, com o propósito de solidificar as toxinas. O próprio Shakyamuni abordou esse princípio ao pregar o capítulo do Sutra de Lótus conhecido como “A Parábola das Ervas Medicinais” (薬草喩品).</p>
 <p>Todavia, Yakushi Nyorai, ciente de que os medicamentos materiais não eram benéficos, concedia a graça da cura por meio de medicamentos espirituais. Agora, porém, ao adentrarmos finalmente a era do Mundo do Dia, Ele adotou um novo método: o da dissolução e eliminação das toxinas.</p>
 <p>Este é precisamente o Poder de Kannon (観音力) que venho manifestando.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬師如来 『地上天国』13号、昭和25(1950)年2月20日発行 薬師如来は、観世音菩薩の化身であって、一名東方薬師如来ともいう。<br/><br/>私は、観音様の働きをしながら、薬は毒だという説を唱えているにかかわらず、薬師如来は薬の仏様というのであるから、すこぶる矛盾している訳であるが、ここについてその真相を開明してみよう。<br/><br/> 仏法の存在する期間は夜の世界と私は常に言っている。<br/><br/>従って、その期間は火素より水素の方が多いから、毒素溶解の力が足りなかったので、固める方が有利であった。<br/><br/>そこで毒素を固めるべく薬を服めという訳で、彼の釈尊も薬草喩品（ゆぼん）という経文を説いたのである。<br/><br/> しかし薬師如来は、物質の薬剤は良くないから、霊的薬剤によって病気治癒の御利益を下されたのである。<br/><br/>ところがいよいよ昼の世界になりつつある現在、今度は毒素溶解排除手段をとられたのである。<br/><br/>それが私の発揮しつつある観音力である。<br/><br/> YAKUSHI NYORAI: THE MEDICINE BUDDHA Yakushi Nyorai (Bhaisajyaguru [Sanskrit], meaning the Master of Healing or Medicine Buddha, who quells all diseases and lengthens life) is an incarnation of Kannon and is also called "The East Yakushi Nyorai ('The East' indicates 'the Paradise of the East')." I have been exercising the Kannon Power and insisting that medicines are poison, while Yakushi Nyorai is the Buddha of medicine; this seems to be a sheer contradiction. So I will give you a true account of this situation. I have been consistently pointing out that during the period of time when there exist the teachings of Buddha, we live in the World of Night. Therefore, during that period, because there were more spiritual elements of water than those of fire, the power of melting poisonous substance was not enough; so, it was more effective to solidify the poison than to melt it. Then, people were urged to take medicine in order to solidify poison and Shakyamuni Buddha also preached "The Parable of the Medicinal Herbs" in the Lotus Sutra. And yet, Yakushi Nyorai gave a blessing of healing disease through spiritual medicines because material medicines are bad. However, the time has finally come in our day when the World of Day begins to prevail and this time He has adopted the measures to melt away toxic elements. This is the Kannon Power which I am now exerting.</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

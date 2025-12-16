@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M240423</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年4月23日） 『御光話録』7号、昭和24(1949)年<b>月</b>日発行 昭和二十四年四月二十三日（土） ――大浄化について、 （一）大浄化が非常に近い由洩れうけたまわりますが、大浄化はいつごろでしょうか。<br><br> これは絶対に言えません。<br><br>こんなことを言うとかえって思い違いされて、新聞や当局がさっそく目をつけますからね。<br><br>教導師が自分でそう思っていろいろ言うんでしょう。<br><br>ただ近寄ったってことと、きっとあるってことだけは言えますね。<br><br>しかし、これはキリスト教でも最後の審判とか、世の終わりとかって『聖書』に書いてあり、それを信じろって言うんですからね。<br><br>私がこう言ったって別にどうってことはありませんよ。<br><br>近寄ったってことは言えますね。<br><br>けれども近寄ったと言ってもまだ来月とか再来月とかじゃなくてまだちょっとはありますからね、そんなに…… ――（二）大先生様より国民や人類への大警告がいただけましょうか。<br><br> これは私も判りませんがね。<br><br>その時になればたぶんそういうことがあるでしょう。<br><br>いま、警告したところで、まあ信者間では信用があるけど、私がまだ社会的には信用がありませんから無駄ですよ。<br><br>全人口の三分の一くらいが信者になれば警告してもいいですがね。<br><br>いまやったって鼻であしらわれるくらいのところですからね、馬鹿馬鹿しいですよ。<br><br>むしろ悪く解釈されますよ。<br><br>あんなこと言っておどかして信者を殖やそうとする策略だととられますしね。<br><br>なんとしても頭から軽蔑されてインチキと見ますよ。<br><br>だから、はっきりとも言えないし、また言ったところでたいして効果がありませんよ。<br><br> ――（三）その非常時に直面して、資格者はいかなる態度をとるべきでしょうか。<br><br> 大いに救うことですよ。<br><br>それからが大いに働き甲斐のある時期なんですよ。<br><br>いまはそれに備えての準備時代ですよ。<br><br>世の中の人がみんな救けてくれって言ってきてたいへんですからね、その時に大いに力を発揮するんですよ。<br><br> ――資格者が、自分は罪が深いから尊いお道のお手伝いをさせていただくと考えることと、自分は神より選ばれた人間だといくぶん高く評価する考え方とはどちらが正しいでしょうか。<br><br> 別に……どちらも正しいですよ。<br><br>罪が深いから働くって言うのも変ですよ。<br><br>罪の深い浅いじゃないんです。<br><br>罪が深いからって言うんなら、殺人強盗にもいい機関なんですが、（笑声）やはり因縁ですからね。<br><br>それから神様に選ばれた人間だと思うことはいいけど、別に高く評価する必要はありませんよ。<br><br>無論選ばれたには違いないが、それだけじゃ高い価値はありませんよ。<br><br>この教えにも因縁、系統で入ったんですからね、それから働きがあって非常に仕合せになり、いい地位になったら、それだけ高く評価するのはいいですけどね。<br><br>だからこの信者になったからって、ただ選ばれただけでなにもしないって言うのは間違いですよ。<br><br> ――資格者が、熱心にお手伝いさせていただきたいと存じながら、その希望のごとくよい結果が生じない場合、自己の不徳、不適任と思い、かつ経済上からも元の職業に帰るべきではないかと迷っている人がございますが、こんな場合どのようにいたすべきでしょうか。<br><br> こういう人は決心が足りないんです。<br><br>つまり信仰が浅いんですよ。<br><br>自分が命がけで神様にお願いしてやったら、うまくいかないなんてことは決してありませんよ。<br><br>すっかりおすがりしてないから元へ戻ろうか、なんて迷うんです。<br><br>こんな人は一度元へ戻ってみたらいい、どうせうまく行きっこないですからね。<br><br>（笑声）で、そっちへ行って困ってからまたこっちへ戻って、それから一生懸命すればいいですよ。<br><br>確固たる信仰を持っていれば、すばらしいどんな御利益でもいただけるもんですよ。<br><br> ――人々はこの尊いお道のお手伝いをさせていただくことにより罪を軽減し、そのお許しをいただく可能性が生まれると信じますが、未だこのお道を知らない人々が、身近に迫った大浄化に気づいてから悔い改めてもお許しいただけますでしょうか。<br><br> それはお許しをいただける人もあるし、いただけない人もありますよ。<br><br>罪のそう多くない人はその時に改心すれば救われますし、多い人は救われませんしね、一様には言えませんよ。<br><br>この時にみんな働くんですね、一心になってね。<br><br>またその時分にはみんな力が出ますから、非常に働けますよ。<br><br> ――まじめに働いていても明日の大浄化は信じられぬゆえ「特にこのお仕事が最善の道とは考えられない。<br><br>それゆえ明日の裁きがいかようにあるともよい」と考えている人もたくさんあります。<br><br>かかる人々は神様からどのようなお咎めをいただくでしょうか。<br><br> これは信者ですか、信者でない人ですか。<br><br> ――信者でない人でございます。<br><br> 信者でない人ね、こんなもんでしょうね。<br><br>まあしかし、まじめに働いててそんなに罪を犯さなければ救われますよ。<br><br>信者だからって怠けていてなにもしなければ危いですよ。<br><br>信者じゃなくてもいい行いをして正しい心の人は救われますよ。<br><br>ただ信者は助かるべき方法を教えていただけるんで、このお道で人を助けることによって罪が減るんです。<br><br>ちょうどね、金が手に入っても、ただしまっておくだけじゃなんにもならないし、またくだらないことに金を使っちゃかえって害になるくらいがおちで、使い道のいい所に使わなくちゃいけません。<br><br>その方法をこの信者になると教わるんですよ。<br><br>金の使い道は、この教えで使うのが一番有効な道ですからね。<br><br>せっかくその道は教わっても、実際にやってゆかなくちゃなんにもなりませんよ。<br><br>つまりね、人を助ける最善の方法を教わるのが教修なんですからね、教修を受けただけで、人を助けなければなんにもなりませんよ。<br><br> ――御浄霊をいただく場合、非常に熱く感じたり、ビリビリ感じたりする人がありますが、また当方が相手によって感じに差がありますが、これはいかなるわけでしょうか。<br><br> これは御浄霊をやるほうがですか、受けるほうがですか。<br><br> ――やるほうのこともございますし、受けるほうのこともございまして両方でございますが…… 両方ね、で、どっちが多いですか。<br><br> ――御浄霊するほうが多うございます。<br><br> やるほうがね。<br><br>……それがあたりまえですがね。<br><br>この原因はいろいろあって相手にもよりますよ。<br><br>特に相手が水性って言いますか、水の多い人の場合には熱く感じるんです。<br><br>この御浄霊は火で火素が中心ですから水が多いほど火はさかんに燃えるんです。<br><br>こういうのが一番多いですね。<br><br>それから患者のほうに霊の障りのあることがあるんです。<br><br>例えば信仰で病気を治そうとする場合、「信仰でなんか治るもんか、医者にかからねば絶対駄目だ」っていう者が近親者にいたりすると、その反対した人の生き霊がくっついて邪魔するんで患者が熱くもならないし、こっちも熱くならないんです。<br><br>それからこっちの霊の障りのこともありますよ。<br><br>こっちに邪魔が入っていろんなふうに迷わしたり、邪魔したりする霊がたくさんいますからね。<br><br>こんなのにやられると火素の出が少なくなるから熱くならないんです。<br><br>まあ、いろいろありますがね、だいたいそんなわけですよ。<br><br> ――別に気にしないでよろしいでしょうか。<br><br> ええ、気にしなくていいですよ、一々気にしてたら骨が折れてしかたがない、ただ無意識になってやってればいいんですよ。<br><br> ――神様にお願いいたしたいことがたくさんございますが、毎日いくつものお願い事をしても失礼には当たらないでしょうか。<br><br> いくらでもかまいませんよ。<br><br>いくらお願いしたって失礼にはなりません。<br><br>第一、失礼だと思うことが失礼ですよ。<br><br>神様は百でも千でもちゃんとお聞き分けになるんです。<br><br>数は問題じゃありませんよ。<br><br>もし数が多くて差し支えるんだったら浅草の観音様なんて骨が折れてかないませんよ。<br><br>毎日何千て信者がお詣りするんですからね。<br><br> ――御軸のお祀り替えをさせていただきますとき、いままでお祀り申し上げた御軸に、お供え物をいたし、お祀りし、御礼を申し上げるべきと存じますがいかがでしょうか。<br><br> それはそうですね、いままでの御礼をしなければいけませんよ。<br><br> ――大黒様はたくさんお祀りしてもよいとのお言葉でございましたが、たくさんお祀りする場合やはり床の間がよろしいでしょうか。<br><br> 大黒様はそんなにたくさんなくちゃいかんていうことはありませんよ。<br><br>多いのがいいんなら百も二百も並べなくちゃいけないじゃないですか。<br><br>一つでいいですよ。<br><br>ただあまり小さいのはいけませんがね。<br><br>床の間にちょうどいいくらいの大きさでなくちゃあね。<br><br>だからここでもあれ一つですよ。<br><br>多いほうがいいなら、大黒様をこの辺にいっぱいぶら下げておきますよ、お雛様みたいにね。<br><br>（笑声） ――床の間の裏手が便所になっている家がよくありますがいかがでしょうか。<br><br> 差し支えないですよ。<br><br>そんなことを言ってたらお祀りできやしない。<br><br>こんな家はたくさんありますからね。<br><br>便所の中はいけませんが、（笑声）壁があればいいですよ。<br><br>（笑声） ――因縁のあった蛇や猫をお祀りする場合、その位置はどこがよろしいでしょうか。<br><br> 家の外で祀るんですね。<br><br>庭にちょうど適当したような所があるもんですよ。<br><br>勿論人の踏まない所で、浄い所を選ぶんですね。<br><br>向きはね、その家に光明如来様をお祀りしてあれば、光明如来様のほうへ向けるような向きにするんです。<br><br> ――十八歳の女子、十四歳のときに月経が始まりましたが、月経の期間が一カ月ばかり続きます。<br><br>これはいかなるわけでしょうか。<br><br>本人は顔色蒼白のほかに別状ありません。<br><br> これは月経が少ないんでしょうね。<br><br>出が悪いんでしょう。<br><br>血は喇叭管を通じて子宮に入るんですが、その管が細いんで手間がかかるんですよ。<br><br>これはおなかに毒があるんで、その固まりが管を圧迫してるんですよ。<br><br>だから、おなかを溶かせばいいわけです。<br><br>その元は腎臓ですね。<br><br>またこういうこともあるんですよ。<br><br>血が濃い、つまり毒が多いんですね。<br><br>血っていうものは、いい血になると希薄になって通りがいいんですが、血が濃くて濁ってると循環が悪いんですよ。<br><br>濃い血は粘るんでね、ほんとは濁りのないサラサラしたものじゃなくちゃいけないんです。<br><br>そういう血の悪い人はね、信仰に入って浄霊を受けて、また多くの人に浄霊してあげて浄まればいいんです。<br><br> ――生前に戒名をいただくことはいかがでしょうか。<br><br> 間違っちゃないですが、死んでからでもいいんじゃないですかね。<br><br>（笑声）間に合いますよ、死んでからでも。<br><br>（笑声）死んでからでは間に合わないようだったらいただいたらいいでしょう。<br><br>まあ死ぬ前から棺桶を用意するようなもんですね。<br><br>（笑声） ――仏滅になると、現在たくさんある寺院はどうなりましょうか。<br><br> これも言えませんね。<br><br>お坊さんでも来てると怒られますからね。<br><br>そういうことを言うと、こっちでやるように思われますしね。<br><br>別にこっちに悪意はないんですが、自然にそういうことになればなるんです。<br><br>だから、こっちの知ったことではありませんよ。<br><br>お釈迦が仏は滅するって言ってますしね。<br><br>またそう言ったところで、お釈迦さんにも責任はないんですよ。<br><br>だから、今度暴風雨が来るとか、低気圧が来るとか、気象台が予報しますがね、気象台は予報するだけで、気象台がそれを起すんじゃないんですからね。<br><br>（笑声）ここのとこを人々はよく間違えるんですよ。<br><br> ――寺院の本堂に御額をかけさせていただいてよろしいでしょうか。<br><br> ああ、これは結構ですね。<br><br> ――その人の霊には判っていることでも、その人の頭脳にははっきり判らないことがたくさんあると存じますがいかがでしょうか。<br><br> これはどういうわけでしょうかね。<br><br>霊はその人に入っているものなんですがね。<br><br> ――例えば霊は何回も生まれ変わっているのに、現在その人の頭脳には前世のことが判らないわけでございますから、そういうことが言えるのではございませんでしょうか。<br><br> ええ、前世のことは判らないですよ。<br><br>判らないように神様は作ってらっしゃるんですよ。<br><br>また前世のことが判っても都合が悪いですよ。<br><br>よその人の細君を見てね、「あ、あいつは前世で俺の女房だった」なんてね。<br><br>（爆笑）細君ならまだいいけど、前世で恋人だったりしたら困りますよ。<br><br>（笑声） ――例えば、生き霊が憑る場合に、いま生き霊が憑っているということはその人の霊には判らないわけでございますか。<br><br> ええ、霊には判らないんですよ。<br><br> ――このことは高級な神仏が人間のお姿にお生まれになっておられる場合にも言えるのでしょうか。<br><br> これも判りませんね。<br><br>私なんかもそんな神様が想っておられるっていうことはなかなか判らなかったもんですよ。<br><br>なにか神様に弄（もてあそば）れているような感じがしょっちゅうしたもんですよ。<br><br>ま、いろんなことで知らされてはっきり判ってきたんですがね。<br><br> ――例えば、大先生様に御守護をお願いする場合、大先生様の御頭脳にはそのお願い事がお判りにならないわけでございましょうか。<br><br> 私のことですか。<br><br>ええ、私には判りませんよ。<br><br>いちいち判ったら忙しくてたいへんですよ。<br><br>それから霊界にも私の信者がたくさんいてね、私にお願い事をしても、その信者がたいてい片付けてしまうんですよ。<br><br>それからその人の守護神が働きますしね。<br><br> ――二毛作はいかがでしょうか。<br><br> 結構ですよ、できるだけやったがいいですよ。<br><br>二毛作は暖かい所がいいですがね。<br><br>寒い所でも工夫によっては充分できますよ。<br><br>麦と米と両方作ればいい。<br><br> ――歯を磨くのに塩を用うるのはいかがでしょうか。<br><br> 結構ですよ。<br><br>薬の入った歯磨きよりかえって塩がいいですよ。<br><br>薬の入ったのは歯が弱りますからね。<br><br>ハッカの入ったのも歯が弱りますね。<br><br>その点では塩が一番いいでしょう。<br><br> ――分骨はいけないとのお言葉でしたが、すでに分骨してしまったのはいかがいたすべきでしょうか。<br><br> してしまったのは、それでいいですよ。<br><br>ただ霊は嫌いますがね、霊じゃ骨をどうするってこともできませんからね。<br><br> ――観音院○○居士の戒名をいただきましたが、観音とあっても差し支えないでしょうか。<br><br> 観音院っていうのは院がついてるから、観音という意味ではありませんよ。<br><br>観音の家のことですからかまいません。<br><br>このままでいいですよ。<br><br> 補遺――〔『御光話録』〕四号所載の「お節句の意味について」のお伺いに対し、別の御面会日に次のごときお言葉をいただきましたので、既載の分に追加させていただきます。<br><br> ……それから桃というのは、季節的にその節句の時期に咲くし、また若い処女のような感じのする花だから、それで用いるんでしょう。<br><br>五月の端午の節句のほうはいろいろに言われてますが、一つには男が出世するというような意味があります。<br><br>鯉のぼりを立てますが、あの鯉はね出世を現わすんです。<br><br>昔、支那に登龍門という門があって、その門まで鯉が泳いで登って行くと、あとは大きな川になっている、というのです。<br><br>そのほかのことは昔の武家時代の風習などから作られたものでしょうね。<br><br> それからお雛様はね、ごく昔は紙で作ったもんなんです。<br><br>いまでも紙雛っていうのがありますね。<br><br>そしてその雛を……まあ、いろいろ話したいこともありますが、時間がないからこの次にしましょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Grande Purificação e Outras Questões</h2>
 <p><strong>Pergunta: Temos ouvido dizer que a Grande Purificação está muito próxima. Poderia nos informar quando ela ocorrerá?</strong></p>
@@ -165,5 +317,48 @@ function toggleLang(lang) {
 <p>...Quanto ao pessegueiro, suas flores desabrocham justamente na época dessa festividade e transmitem a sensação de uma jovem donzela; por isso são utilizadas.</p>
 <p>A respeito do Festival dos Meninos, em maio, há várias explicações. Uma delas é que ele simboliza o desejo de sucesso e ascensão para os homens. As flâmulas de carpa que são hasteadas representam essa ascensão. Antigamente, na China, havia um portal chamado Toryumon, o Portão do Dragão. Dizia-se que a carpa que conseguisse nadar rio acima e atravessá-lo se transformaria em dragão e encontraria um grande rio adiante. Os demais costumes provavelmente se originaram de tradições da era dos samurais.</p>
 <p>Quanto às bonecas do Festival das Meninas, antigamente elas eram feitas de papel. Ainda hoje existem as chamadas “bonecas de papel”. E essas bonecas... bem, há muito mais que eu gostaria de contar, mas, como não há tempo, deixemos para a próxima oportunidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年4月23日） 『御光話録』7号、昭和24(1949)年**月**日発行 昭和二十四年四月二十三日（土） ――大浄化について、 （一）大浄化が非常に近い由洩れうけたまわりますが、大浄化はいつごろでしょうか。<br/><br/> これは絶対に言えません。<br/><br/>こんなことを言うとかえって思い違いされて、新聞や当局がさっそく目をつけますからね。<br/><br/>教導師が自分でそう思っていろいろ言うんでしょう。<br/><br/>ただ近寄ったってことと、きっとあるってことだけは言えますね。<br/><br/>しかし、これはキリスト教でも最後の審判とか、世の終わりとかって『聖書』に書いてあり、それを信じろって言うんですからね。<br/><br/>私がこう言ったって別にどうってことはありませんよ。<br/><br/>近寄ったってことは言えますね。<br/><br/>けれども近寄ったと言ってもまだ来月とか再来月とかじゃなくてまだちょっとはありますからね、そんなに…… ――（二）大先生様より国民や人類への大警告がいただけましょうか。<br/><br/> これは私も判りませんがね。<br/><br/>その時になればたぶんそういうことがあるでしょう。<br/><br/>いま、警告したところで、まあ信者間では信用があるけど、私がまだ社会的には信用がありませんから無駄ですよ。<br/><br/>全人口の三分の一くらいが信者になれば警告してもいいですがね。<br/><br/>いまやったって鼻であしらわれるくらいのところですからね、馬鹿馬鹿しいですよ。<br/><br/>むしろ悪く解釈されますよ。<br/><br/>あんなこと言っておどかして信者を殖やそうとする策略だととられますしね。<br/><br/>なんとしても頭から軽蔑されてインチキと見ますよ。<br/><br/>だから、はっきりとも言えないし、また言ったところでたいして効果がありませんよ。<br/><br/> ――（三）その非常時に直面して、資格者はいかなる態度をとるべきでしょうか。<br/><br/> 大いに救うことですよ。<br/><br/>それからが大いに働き甲斐のある時期なんですよ。<br/><br/>いまはそれに備えての準備時代ですよ。<br/><br/>世の中の人がみんな救けてくれって言ってきてたいへんですからね、その時に大いに力を発揮するんですよ。<br/><br/> ――資格者が、自分は罪が深いから尊いお道のお手伝いをさせていただくと考えることと、自分は神より選ばれた人間だといくぶん高く評価する考え方とはどちらが正しいでしょうか。<br/><br/> 別に……どちらも正しいですよ。<br/><br/>罪が深いから働くって言うのも変ですよ。<br/><br/>罪の深い浅いじゃないんです。<br/><br/>罪が深いからって言うんなら、殺人強盗にもいい機関なんですが、（笑声）やはり因縁ですからね。<br/><br/>それから神様に選ばれた人間だと思うことはいいけど、別に高く評価する必要はありませんよ。<br/><br/>無論選ばれたには違いないが、それだけじゃ高い価値はありませんよ。<br/><br/>この教えにも因縁、系統で入ったんですからね、それから働きがあって非常に仕合せになり、いい地位になったら、それだけ高く評価するのはいいですけどね。<br/><br/>だからこの信者になったからって、ただ選ばれただけでなにもしないって言うのは間違いですよ。<br/><br/> ――資格者が、熱心にお手伝いさせていただきたいと存じながら、その希望のごとくよい結果が生じない場合、自己の不徳、不適任と思い、かつ経済上からも元の職業に帰るべきではないかと迷っている人がございますが、こんな場合どのようにいたすべきでしょうか。<br/><br/> こういう人は決心が足りないんです。<br/><br/>つまり信仰が浅いんですよ。<br/><br/>自分が命がけで神様にお願いしてやったら、うまくいかないなんてことは決してありませんよ。<br/><br/>すっかりおすがりしてないから元へ戻ろうか、なんて迷うんです。<br/><br/>こんな人は一度元へ戻ってみたらいい、どうせうまく行きっこないですからね。<br/><br/>（笑声）で、そっちへ行って困ってからまたこっちへ戻って、それから一生懸命すればいいですよ。<br/><br/>確固たる信仰を持っていれば、すばらしいどんな御利益でもいただけるもんですよ。<br/><br/> ――人々はこの尊いお道のお手伝いをさせていただくことにより罪を軽減し、そのお許しをいただく可能性が生まれると信じますが、未だこのお道を知らない人々が、身近に迫った大浄化に気づいてから悔い改めてもお許しいただけますでしょうか。<br/><br/> それはお許しをいただける人もあるし、いただけない人もありますよ。<br/><br/>罪のそう多くない人はその時に改心すれば救われますし、多い人は救われませんしね、一様には言えませんよ。<br/><br/>この時にみんな働くんですね、一心になってね。<br/><br/>またその時分にはみんな力が出ますから、非常に働けますよ。<br/><br/> ――まじめに働いていても明日の大浄化は信じられぬゆえ「特にこのお仕事が最善の道とは考えられない。<br/><br/>それゆえ明日の裁きがいかようにあるともよい」と考えている人もたくさんあります。<br/><br/>かかる人々は神様からどのようなお咎めをいただくでしょうか。<br/><br/> これは信者ですか、信者でない人ですか。<br/><br/> ――信者でない人でございます。<br/><br/> 信者でない人ね、こんなもんでしょうね。<br/><br/>まあしかし、まじめに働いててそんなに罪を犯さなければ救われますよ。<br/><br/>信者だからって怠けていてなにもしなければ危いですよ。<br/><br/>信者じゃなくてもいい行いをして正しい心の人は救われますよ。<br/><br/>ただ信者は助かるべき方法を教えていただけるんで、このお道で人を助けることによって罪が減るんです。<br/><br/>ちょうどね、金が手に入っても、ただしまっておくだけじゃなんにもならないし、またくだらないことに金を使っちゃかえって害になるくらいがおちで、使い道のいい所に使わなくちゃいけません。<br/><br/>その方法をこの信者になると教わるんですよ。<br/><br/>金の使い道は、この教えで使うのが一番有効な道ですからね。<br/><br/>せっかくその道は教わっても、実際にやってゆかなくちゃなんにもなりませんよ。<br/><br/>つまりね、人を助ける最善の方法を教わるのが教修なんですからね、教修を受けただけで、人を助けなければなんにもなりませんよ。<br/><br/> ――御浄霊をいただく場合、非常に熱く感じたり、ビリビリ感じたりする人がありますが、また当方が相手によって感じに差がありますが、これはいかなるわけでしょうか。<br/><br/> これは御浄霊をやるほうがですか、受けるほうがですか。<br/><br/> ――やるほうのこともございますし、受けるほうのこともございまして両方でございますが…… 両方ね、で、どっちが多いですか。<br/><br/> ――御浄霊するほうが多うございます。<br/><br/> やるほうがね。<br/><br/>……それがあたりまえですがね。<br/><br/>この原因はいろいろあって相手にもよりますよ。<br/><br/>特に相手が水性って言いますか、水の多い人の場合には熱く感じるんです。<br/><br/>この御浄霊は火で火素が中心ですから水が多いほど火はさかんに燃えるんです。<br/><br/>こういうのが一番多いですね。<br/><br/>それから患者のほうに霊の障りのあることがあるんです。<br/><br/>例えば信仰で病気を治そうとする場合、「信仰でなんか治るもんか、医者にかからねば絶対駄目だ」っていう者が近親者にいたりすると、その反対した人の生き霊がくっついて邪魔するんで患者が熱くもならないし、こっちも熱くならないんです。<br/><br/>それからこっちの霊の障りのこともありますよ。<br/><br/>こっちに邪魔が入っていろんなふうに迷わしたり、邪魔したりする霊がたくさんいますからね。<br/><br/>こんなのにやられると火素の出が少なくなるから熱くならないんです。<br/><br/>まあ、いろいろありますがね、だいたいそんなわけですよ。<br/><br/> ――別に気にしないでよろしいでしょうか。<br/><br/> ええ、気にしなくていいですよ、一々気にしてたら骨が折れてしかたがない、ただ無意識になってやってればいいんですよ。<br/><br/> ――神様にお願いいたしたいことがたくさんございますが、毎日いくつものお願い事をしても失礼には当たらないでしょうか。<br/><br/> いくらでもかまいませんよ。<br/><br/>いくらお願いしたって失礼にはなりません。<br/><br/>第一、失礼だと思うことが失礼ですよ。<br/><br/>神様は百でも千でもちゃんとお聞き分けになるんです。<br/><br/>数は問題じゃありませんよ。<br/><br/>もし数が多くて差し支えるんだったら浅草の観音様なんて骨が折れてかないませんよ。<br/><br/>毎日何千て信者がお詣りするんですからね。<br/><br/> ――御軸のお祀り替えをさせていただきますとき、いままでお祀り申し上げた御軸に、お供え物をいたし、お祀りし、御礼を申し上げるべきと存じますがいかがでしょうか。<br/><br/> それはそうですね、いままでの御礼をしなければいけませんよ。<br/><br/> ――大黒様はたくさんお祀りしてもよいとのお言葉でございましたが、たくさんお祀りする場合やはり床の間がよろしいでしょうか。<br/><br/> 大黒様はそんなにたくさんなくちゃいかんていうことはありませんよ。<br/><br/>多いのがいいんなら百も二百も並べなくちゃいけないじゃないですか。<br/><br/>一つでいいですよ。<br/><br/>ただあまり小さいのはいけませんがね。<br/><br/>床の間にちょうどいいくらいの大きさでなくちゃあね。<br/><br/>だからここでもあれ一つですよ。<br/><br/>多いほうがいいなら、大黒様をこの辺にいっぱいぶら下げておきますよ、お雛様みたいにね。<br/><br/>（笑声） ――床の間の裏手が便所になっている家がよくありますがいかがでしょうか。<br/><br/> 差し支えないですよ。<br/><br/>そんなことを言ってたらお祀りできやしない。<br/><br/>こんな家はたくさんありますからね。<br/><br/>便所の中はいけませんが、（笑声）壁があればいいですよ。<br/><br/>（笑声） ――因縁のあった蛇や猫をお祀りする場合、その位置はどこがよろしいでしょうか。<br/><br/> 家の外で祀るんですね。<br/><br/>庭にちょうど適当したような所があるもんですよ。<br/><br/>勿論人の踏まない所で、浄い所を選ぶんですね。<br/><br/>向きはね、その家に光明如来様をお祀りしてあれば、光明如来様のほうへ向けるような向きにするんです。<br/><br/> ――十八歳の女子、十四歳のときに月経が始まりましたが、月経の期間が一カ月ばかり続きます。<br/><br/>これはいかなるわけでしょうか。<br/><br/>本人は顔色蒼白のほかに別状ありません。<br/><br/> これは月経が少ないんでしょうね。<br/><br/>出が悪いんでしょう。<br/><br/>血は喇叭管を通じて子宮に入るんですが、その管が細いんで手間がかかるんですよ。<br/><br/>これはおなかに毒があるんで、その固まりが管を圧迫してるんですよ。<br/><br/>だから、おなかを溶かせばいいわけです。<br/><br/>その元は腎臓ですね。<br/><br/>またこういうこともあるんですよ。<br/><br/>血が濃い、つまり毒が多いんですね。<br/><br/>血っていうものは、いい血になると希薄になって通りがいいんですが、血が濃くて濁ってると循環が悪いんですよ。<br/><br/>濃い血は粘るんでね、ほんとは濁りのないサラサラしたものじゃなくちゃいけないんです。<br/><br/>そういう血の悪い人はね、信仰に入って浄霊を受けて、また多くの人に浄霊してあげて浄まればいいんです。<br/><br/> ――生前に戒名をいただくことはいかがでしょうか。<br/><br/> 間違っちゃないですが、死んでからでもいいんじゃないですかね。<br/><br/>（笑声）間に合いますよ、死んでからでも。<br/><br/>（笑声）死んでからでは間に合わないようだったらいただいたらいいでしょう。<br/><br/>まあ死ぬ前から棺桶を用意するようなもんですね。<br/><br/>（笑声） ――仏滅になると、現在たくさんある寺院はどうなりましょうか。<br/><br/> これも言えませんね。<br/><br/>お坊さんでも来てると怒られますからね。<br/><br/>そういうことを言うと、こっちでやるように思われますしね。<br/><br/>別にこっちに悪意はないんですが、自然にそういうことになればなるんです。<br/><br/>だから、こっちの知ったことではありませんよ。<br/><br/>お釈迦が仏は滅するって言ってますしね。<br/><br/>またそう言ったところで、お釈迦さんにも責任はないんですよ。<br/><br/>だから、今度暴風雨が来るとか、低気圧が来るとか、気象台が予報しますがね、気象台は予報するだけで、気象台がそれを起すんじゃないんですからね。<br/><br/>（笑声）ここのとこを人々はよく間違えるんですよ。<br/><br/> ――寺院の本堂に御額をかけさせていただいてよろしいでしょうか。<br/><br/> ああ、これは結構ですね。<br/><br/> ――その人の霊には判っていることでも、その人の頭脳にははっきり判らないことがたくさんあると存じますがいかがでしょうか。<br/><br/> これはどういうわけでしょうかね。<br/><br/>霊はその人に入っているものなんですがね。<br/><br/> ――例えば霊は何回も生まれ変わっているのに、現在その人の頭脳には前世のことが判らないわけでございますから、そういうことが言えるのではございませんでしょうか。<br/><br/> ええ、前世のことは判らないですよ。<br/><br/>判らないように神様は作ってらっしゃるんですよ。<br/><br/>また前世のことが判っても都合が悪いですよ。<br/><br/>よその人の細君を見てね、「あ、あいつは前世で俺の女房だった」なんてね。<br/><br/>（爆笑）細君ならまだいいけど、前世で恋人だったりしたら困りますよ。<br/><br/>（笑声） ――例えば、生き霊が憑る場合に、いま生き霊が憑っているということはその人の霊には判らないわけでございますか。<br/><br/> ええ、霊には判らないんですよ。<br/><br/> ――このことは高級な神仏が人間のお姿にお生まれになっておられる場合にも言えるのでしょうか。<br/><br/> これも判りませんね。<br/><br/>私なんかもそんな神様が想っておられるっていうことはなかなか判らなかったもんですよ。<br/><br/>なにか神様に弄（もてあそば）れているような感じがしょっちゅうしたもんですよ。<br/><br/>ま、いろんなことで知らされてはっきり判ってきたんですがね。<br/><br/> ――例えば、大先生様に御守護をお願いする場合、大先生様の御頭脳にはそのお願い事がお判りにならないわけでございましょうか。<br/><br/> 私のことですか。<br/><br/>ええ、私には判りませんよ。<br/><br/>いちいち判ったら忙しくてたいへんですよ。<br/><br/>それから霊界にも私の信者がたくさんいてね、私にお願い事をしても、その信者がたいてい片付けてしまうんですよ。<br/><br/>それからその人の守護神が働きますしね。<br/><br/> ――二毛作はいかがでしょうか。<br/><br/> 結構ですよ、できるだけやったがいいですよ。<br/><br/>二毛作は暖かい所がいいですがね。<br/><br/>寒い所でも工夫によっては充分できますよ。<br/><br/>麦と米と両方作ればいい。<br/><br/> ――歯を磨くのに塩を用うるのはいかがでしょうか。<br/><br/> 結構ですよ。<br/><br/>薬の入った歯磨きよりかえって塩がいいですよ。<br/><br/>薬の入ったのは歯が弱りますからね。<br/><br/>ハッカの入ったのも歯が弱りますね。<br/><br/>その点では塩が一番いいでしょう。<br/><br/> ――分骨はいけないとのお言葉でしたが、すでに分骨してしまったのはいかがいたすべきでしょうか。<br/><br/> してしまったのは、それでいいですよ。<br/><br/>ただ霊は嫌いますがね、霊じゃ骨をどうするってこともできませんからね。<br/><br/> ――観音院○○居士の戒名をいただきましたが、観音とあっても差し支えないでしょうか。<br/><br/> 観音院っていうのは院がついてるから、観音という意味ではありませんよ。<br/><br/>観音の家のことですからかまいません。<br/><br/>このままでいいですよ。<br/><br/> 補遺――〔『御光話録』〕四号所載の「お節句の意味について」のお伺いに対し、別の御面会日に次のごときお言葉をいただきましたので、既載の分に追加させていただきます。<br/><br/> ……それから桃というのは、季節的にその節句の時期に咲くし、また若い処女のような感じのする花だから、それで用いるんでしょう。<br/><br/>五月の端午の節句のほうはいろいろに言われてますが、一つには男が出世するというような意味があります。<br/><br/>鯉のぼりを立てますが、あの鯉はね出世を現わすんです。<br/><br/>昔、支那に登龍門という門があって、その門まで鯉が泳いで登って行くと、あとは大きな川になっている、というのです。<br/><br/>そのほかのことは昔の武家時代の風習などから作られたものでしょうね。<br/><br/> それからお雛様はね、ごく昔は紙で作ったもんなんです。<br/><br/>いまでも紙雛っていうのがありますね。<br/><br/>そしてその雛を……まあ、いろいろ話したいこともありますが、時間がないからこの次にしましょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

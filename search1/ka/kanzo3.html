@@ -3,8 +3,209 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -39,56 +240,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肝臓、胆嚢、膀胱の結石 未発表『文明の創造』昭和27(1952)年執筆 医診でよく言われる肝臓病というのは、実は誤りで、肝臓そのものには異常がないので、ただ肝臓の外部に薬毒が固結しておるのを間違えたものである。<br><br>しかしもちろんその毒結が肝臓を圧迫しているので、苦痛であるのみか、これが黄疸の原因ともなるから、始末が悪いのである。<br><br>もちろん右のごとく毒結によって、肝臓を圧迫する以上、肝臓の裏にある胆嚢も圧迫されるから、胆嚢の中にある胆汁が滲出し全身に廻る。<br><br>それが黄疸である。<br><br>ところが黄疸は皮膚の変色ばかりの病ではなく、胃の活動をも阻害させる。<br><br>というのは胆汁は胃の消化を助けるため、絶えず輸胆管を通じて、胃に送流しているにかかわらず、右によって胆汁の供給が減るからである。<br><br>ゆえにこの病気を本当に治すには、原因である肝臓外部の毒結を溶解し、排除させるより外に方法はないが、医療ではそれが不可能であるから、一時的緩和法によって、小康を得るより手段はないのである。<br><br> ここで、結石についてかいてみるが、最も多いのは胆嚢結石であって、これは胆嚢の中へ石が出来るので、その石が胆汁と共に胃に向かって流入せんとする際、輸胆管通過が困難なのでそれが堪えられない激痛となるのである。<br><br>従って医師も特に治療困難な病気としている。<br><br>近来細い針金様の機械を作り、咽喉から胃を通して、捕捉し出すという事を聞いているが余り効果はないようである。<br><br>ところが石の小さい場合、通過下降し、腎臓にまで流入するので、腎臓内の尿素が付着し、段々大きくなってゆき、ここに腎臓結石となるのである。<br><br>そうして困る事には、結石は腎臓活動のため、腎臓壁に触れて疵が出来る。<br><br>そこへ尿が沁みるから痛みと共に出血するので、これを医診は腎臓結核というのである。<br><br>しかも結石は漸次育ってゆき、余り大きくなると致命的となり、医療は手術によって片一方の病腎を剔出（てきしゅつ）するのであるが、その時分は非常に固い石となっており、これを細工して指環やカフスボタン等に作られたものを見た事があるが、すこぶる光沢があって宝石に見紛うばかりである。<br><br>また小さい内膀胱に流入し、腎臓におけると同様育ってゆく、これが膀胱結石である。<br><br>ところが最も困る事には、その石が膀胱の入口へ痞(つか)える事がある。<br><br>それをうまく通過しても今度は尿道口に痞える。<br><br>両方とも尿の排泄を止めるから、尿は漸次下腹部に溜り腫れるので、医師はブージーを挿入するが、これも尿道口だけの閉塞なら奏効するが、膀胱口の方は仲々困難なので、ついに生命に関わる事となるのである。<br><br> ここで、最初の胆嚢結石の原因を書いてみるが、これはさきに述べたごとく、腎臓から滲出する薬毒が、漸次上部に移行する際、胆嚢の裏面から胆嚢内へ滲透するので、その毒素と胆汁と化合して石となるのである。<br><br>従って、これを治すには根本である背面腎臓部の毒結を溶解し、腎臓を活発にさせ、余剰尿を作らないようにする事で、それより外に方法はないのである。<br><br>従って本浄霊法によれば、割合簡単に石は分解され、砂のごとくなって、尿と共に排泄されるので、短期間に全治するのである。<br><br> (注) ブージー（Bougie）消息子。<br><br>食道・尿道などを広げるのに用いる細長い器具
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre os Cálculos Hepáticos, Biliares e Vesicais</h2>
 <p>As enfermidades hepáticas, frequentemente diagnosticadas pela medicina, constituem, na realidade, um equívoco. Em verdade, o fígado em si não apresenta qualquer anomalia; o diagnóstico confunde o estado do órgão com as toxinas medicinais solidificadas em sua parte externa. Contudo, essa massa de toxinas comprime o fígado, o que não só acarreta grande sofrimento, como também se torna a causa da icterícia, agravando sobremaneira o quadro. Naturalmente, tal compressão sobre o fígado afeta igualmente a vesícula biliar, localizada em sua face posterior. Por conseguinte, a bile contida na vesícula extravasa e se espalha por todo o corpo, manifestando-se como icterícia.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Ocorre que, sendo os cálculos pequenos, eles conseguem descer e alcançar os rins. Ali, a ureia presente na urina adere a eles, fazendo-os crescer gradualmente e dando origem aos cálculos renais. A situação se agrava, pois, com a atividade renal, os cálculos atritam-se contra as paredes do órgão, causando ferimentos. A urina, ao infiltrar-se nessas lesões, provoca dor e sangramento, quadro que a medicina diagnostica erroneamente como tuberculose renal. Ademais, os cálculos continuam a crescer e, ao atingirem dimensões consideráveis, podem tornar-se fatais, levando a medicina a recorrer à extração cirúrgica de um dos rins. Nessa fase, as pedras já se encontram extremamente duras; tive a oportunidade de ver exemplares que foram lapidados para a confecção de anéis e abotoaduras, possuindo um brilho tão notável que se assemelham a verdadeiras joias.</p>
 <p>Cálculos menores podem também fluir para a bexiga e lá crescer, de modo análogo ao que ocorre nos rins, formando os cálculos vesicais. A complicação mais severa surge quando uma dessas pedras obstrui a entrada da bexiga ou, se conseguir passar, o meato uretral. Em ambos os casos, a excreção de urina é bloqueada, fazendo com que esta se acumule e cause inchaço no baixo-ventre. Para intervir, os médicos inserem um instrumento denominado <em>bougie</em>. Contudo, embora tal procedimento possa ser eficaz se a obstrução estiver apenas no meato uretral, a desobstrução na entrada da bexiga é sobremaneira difícil, e a condição pode, por fim, ceifar a vida do paciente.</p>
 <p>Explanarei, a seguir, a causa primordial dos cálculos biliares. Conforme já mencionado, as toxinas medicinais que emanam dos rins ascendem gradualmente pelo corpo e se infiltram na vesícula biliar a partir de sua face posterior. A combinação dessas toxinas com a bile resulta na formação dos cálculos. Sendo assim, a cura definitiva consiste em dissolver as toxinas solidificadas na região dorsal dos rins, que constituem a raiz do problema, revitalizando a função renal e impedindo a formação de urina em excesso. Não há outro caminho. Através do nosso método de Johrei, os cálculos desintegram-se com relativa facilidade, transformando-se em partículas semelhantes à areia que são expelidas junto à urina, proporcionando a cura completa em um curto período.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肝臓、胆嚢、膀胱の結石 未発表『文明の創造』昭和27(1952)年執筆 医診でよく言われる肝臓病というのは、実は誤りで、肝臓そのものには異常がないので、ただ肝臓の外部に薬毒が固結しておるのを間違えたものである。<br/><br/>しかしもちろんその毒結が肝臓を圧迫しているので、苦痛であるのみか、これが黄疸の原因ともなるから、始末が悪いのである。<br/><br/>もちろん右のごとく毒結によって、肝臓を圧迫する以上、肝臓の裏にある胆嚢も圧迫されるから、胆嚢の中にある胆汁が滲出し全身に廻る。<br/><br/>それが黄疸である。<br/><br/>ところが黄疸は皮膚の変色ばかりの病ではなく、胃の活動をも阻害させる。<br/><br/>というのは胆汁は胃の消化を助けるため、絶えず輸胆管を通じて、胃に送流しているにかかわらず、右によって胆汁の供給が減るからである。<br/><br/>ゆえにこの病気を本当に治すには、原因である肝臓外部の毒結を溶解し、排除させるより外に方法はないが、医療ではそれが不可能であるから、一時的緩和法によって、小康を得るより手段はないのである。<br/><br/> ここで、結石についてかいてみるが、最も多いのは胆嚢結石であって、これは胆嚢の中へ石が出来るので、その石が胆汁と共に胃に向かって流入せんとする際、輸胆管通過が困難なのでそれが堪えられない激痛となるのである。<br/><br/>従って医師も特に治療困難な病気としている。<br/><br/>近来細い針金様の機械を作り、咽喉から胃を通して、捕捉し出すという事を聞いているが余り効果はないようである。<br/><br/>ところが石の小さい場合、通過下降し、腎臓にまで流入するので、腎臓内の尿素が付着し、段々大きくなってゆき、ここに腎臓結石となるのである。<br/><br/>そうして困る事には、結石は腎臓活動のため、腎臓壁に触れて疵が出来る。<br/><br/>そこへ尿が沁みるから痛みと共に出血するので、これを医診は腎臓結核というのである。<br/><br/>しかも結石は漸次育ってゆき、余り大きくなると致命的となり、医療は手術によって片一方の病腎を剔出（てきしゅつ）するのであるが、その時分は非常に固い石となっており、これを細工して指環やカフスボタン等に作られたものを見た事があるが、すこぶる光沢があって宝石に見紛うばかりである。<br/><br/>また小さい内膀胱に流入し、腎臓におけると同様育ってゆく、これが膀胱結石である。<br/><br/>ところが最も困る事には、その石が膀胱の入口へ痞(つか)える事がある。<br/><br/>それをうまく通過しても今度は尿道口に痞える。<br/><br/>両方とも尿の排泄を止めるから、尿は漸次下腹部に溜り腫れるので、医師はブージーを挿入するが、これも尿道口だけの閉塞なら奏効するが、膀胱口の方は仲々困難なので、ついに生命に関わる事となるのである。<br/><br/> ここで、最初の胆嚢結石の原因を書いてみるが、これはさきに述べたごとく、腎臓から滲出する薬毒が、漸次上部に移行する際、胆嚢の裏面から胆嚢内へ滲透するので、その毒素と胆汁と化合して石となるのである。<br/><br/>従って、これを治すには根本である背面腎臓部の毒結を溶解し、腎臓を活発にさせ、余剰尿を作らないようにする事で、それより外に方法はないのである。<br/><br/>従って本浄霊法によれば、割合簡単に石は分解され、砂のごとくなって、尿と共に排泄されるので、短期間に全治するのである。<br/><br/> (注) ブージー（Bougie）消息子。<br/><br/>食道・尿道などを広げるのに用いる細長い器具</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

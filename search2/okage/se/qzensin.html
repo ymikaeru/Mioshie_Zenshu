@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qzensin</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 全身の関節リューマチス 十三年間の病床より救わる 『アメリカを救う』昭和28(1953)年1月1日発行 長野県 博愛中教会 小林訓二（29） 謹んで明主様の御救いに御礼申し上げますと共に、入信の喜びを御報告させていただきます。<br><br> 今から十三年以前、私が十六歳の時でしたが、突然左足首が痛くなり出し、驚いて医者に診て貰いましたところ、関節リューマチスとの事にて手当を受けましたが、何の効果なく、十日間でその痛みは全身に廻り、アッと言う間に床を離れる事が出来なくなってしまいました。<br><br>手の指一本一本の関節が腫れ曲ってしまい、ひじ、肩、首、腰は勿論、足の指から膝小僧にかけて大きく腫れて、足の甲もこんもりと隆起し、坐る事すら出来なくなってしまいました。<br><br>少々は歩く事が出来ましたが、それもやっとの事で、自分で自分の身体をどうにもする事が出来なくなってしまいました。<br><br> はじめは世間の例に漏れず医者に頼り、あらゆる注射内服薬と手をつくしましたが、腫れは益々ひどく固まるばかり。<br><br>薬はもう駄目とあきらめ、鍼、灸、電気治療、マッサージ等母の世話になりながらつづけて見ましたが、どれもこれも癒してくれるものは一つもありません。<br><br>しかしそのうちに次第に痛みが薄らいで来たかと思うと、翌年は又疼痛が始り、寝込んでしまうという状態でした。<br><br>「良いからぜひ」とすすめられる信仰もし、祈祷もして貰いましたが何の効果なく、だまされたと思う不快な気持が後に残るだけでした。<br><br>全身のあらゆる関節は節くれ立って醜い姿に固まってしまったのです。<br><br>「私の病気は今までの医学や信仰ではとても治らない、一生暗い気持で終るのか」と思い、蒲団の中で幾度泣いたか知れません。<br><br>体を動かさないためか、胃腸病、心臓病、喘息という重い病もともなって、春秋の農繁期にはただ親兄弟に世話をかけるばかりでした。<br><br> このような毎日を繰返して十三年の歳月が経ち、人の奨めてくれる治療も今は一つも信じられず、自分の病気に対しては治らぬものと半ば諦めておりました。<br><br> ところが本年五月、隣家の小林茂己さんが「長年の蓄膿症が治った」と言って、急に私の家へ来て御浄霊の事やこのお道の事に関してこまごまと話してくれましたが、あらゆるものが信じられなくなった今、「そんな簡単な事で治るものか」と思いつつも三日間迷い続け、考えつめたあげく「治らなくとも同じだ、治れば幸だ、一度行って見よう」と決心して、五月二日須坂様へ案内して貰いました。<br><br>今考えれば他の治療と同じく断ってしまえばそれまででしたが、よくも決心して行ったものだと、紙一重でお救いいただいた事を沁々と感ずるのであります。<br><br> 篠崎様から全身の御浄霊をいただきまして帰ろうと思い、自転車のベタルを踏んで見ましたところ、来る時には途中休み休みやっと参りました一里の道も、帰りはほとんど苦痛もなく、楽に家へ着くことが出来ました。<br><br>「不思議だ、不思議だ」何度考えてもよく解りません。<br><br>ただ身体が楽になった事だけは事実なのです。<br><br>十数年間いかんともしようのなかった自分の体が、一度の浄霊でこんなに軽くなるとはいくら考えても不思議でなりません。<br><br> 翌朝目をさましますと、平常とは違い楽に起上ることが出来ました。<br><br>十三年間の暗い歳月から初めて光明を見出した喜びに、二日目も喜び勇んで須坂様まで車を走らせました。<br><br>三日目は篠崎様宅での月並祭で、西村先生に御面会し、色々とお話を聞いては、益々心が明るくなって参りました。<br><br>又一番驚いた事は集って来られる皆さんはとても元気で朗かです。<br><br>こんな明るい会は初めてで、これなら病気も吹っ飛んでしまうと思いました。<br><br>帰りに御丁寧な御浄霊をいただき、軽々と自転車に乗って帰宅いたしました。<br><br>日一日と軽くなって行く自分の体に、暗い気持はふっとんで、ただ明るい人生への希望が湧いて参りました。<br><br>この喜びは何とおつたえしたらよいか、教育もない私の筆では到底書き表わす事は出来ません。<br><br> その翌日から、平穏村渋温泉での教修会で先生のお話を三日間おきき致しました。<br><br>一日も早く教修を受けさせていただきたい気持で一ぱいでしたが、色々都合もありましたので、ともかく一日も早く体をなおして戴いてからと思い、それから毎日隣の小林さんから御浄霊いただき、日増に全身の関節の痛みも減って参りました。<br><br>御浄霊いただき始めましてから僅か一カ月半の後には、二十二年間何もする事の出来なかった身体が、鎌を持ち麦を刈る事が出来るようになりました。<br><br>以前は鎌を持つ事は出来ても、力を入れる事は全然出来なかったのが、関節はまだ腫れ上って、指も掌も変形してはおりますものの、ギュッと力を入れてザックと刈る事が出来た時は、たとえようのない喜びでした。<br><br>それからは一生懸命に働き、御教修を受けさせていただく用意も整いましたので、七月下旬、益満様宅にての出張教修会に出席致し、待望のお守様を受けさせていただきました。<br><br>三日間の教修会中に、御浄霊のお光を拝む方、御神体が金色に光るのを拝む方、先生の肩から丸く出る光を拝む方等、次から次へ起る奇貴にただ驚くばかり、最後にお守様を拝受致しました時、全身カッと熱くなり、ただ感謝の涙があふれるばかりでした。<br><br> お守様をいただきましてより、より一層身体も楽にしていただきました。<br><br>いつかは必ずこのはれも引いて、あきらめておりました体も一人前になれる確信が持てるようになりました。<br><br> 入信後三カ月の月日ですが、今は農家の仕事はほとんど出来るようになって参りました。<br><br>今はただ、出来る限り多くの方にこの御道をおしらせする事に努力致すと共に、美術館の御建設に少しでもお役に立たせていただきたいと日夜微力を尽させていただいております。<br><br> 喜びのあまり御報告を記させていただきました。<br><br> （昭和二十六年二月二十一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reumatismo Articular Generalizado: A Salvação de Treze Anos no Leito de Enfermidade</h2>
 <p>Publicado em "Salvar a América", em 1º de janeiro de 1953
@@ -105,5 +260,48 @@ Igreja Hakuaichu, Província de Nagano</p>
 <p>Passados três meses de meu ingresso na fé, já consigo realizar quase todas as tarefas da lavoura. Agora, dedico-me a transmitir este sagrado Caminho ao maior número de pessoas possível e a empenhar, dia e noite, minhas modestas forças para ser útil, de alguma forma, na construção do Museu de Arte.</p>
 <p>Foi com imensa alegria que redigi este relato.</p>
 <p>(21 de fevereiro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 全身の関節リューマチス 十三年間の病床より救わる 『アメリカを救う』昭和28(1953)年1月1日発行 長野県 博愛中教会 小林訓二（29） 謹んで明主様の御救いに御礼申し上げますと共に、入信の喜びを御報告させていただきます。<br/><br/> 今から十三年以前、私が十六歳の時でしたが、突然左足首が痛くなり出し、驚いて医者に診て貰いましたところ、関節リューマチスとの事にて手当を受けましたが、何の効果なく、十日間でその痛みは全身に廻り、アッと言う間に床を離れる事が出来なくなってしまいました。<br/><br/>手の指一本一本の関節が腫れ曲ってしまい、ひじ、肩、首、腰は勿論、足の指から膝小僧にかけて大きく腫れて、足の甲もこんもりと隆起し、坐る事すら出来なくなってしまいました。<br/><br/>少々は歩く事が出来ましたが、それもやっとの事で、自分で自分の身体をどうにもする事が出来なくなってしまいました。<br/><br/> はじめは世間の例に漏れず医者に頼り、あらゆる注射内服薬と手をつくしましたが、腫れは益々ひどく固まるばかり。<br/><br/>薬はもう駄目とあきらめ、鍼、灸、電気治療、マッサージ等母の世話になりながらつづけて見ましたが、どれもこれも癒してくれるものは一つもありません。<br/><br/>しかしそのうちに次第に痛みが薄らいで来たかと思うと、翌年は又疼痛が始り、寝込んでしまうという状態でした。<br/><br/>「良いからぜひ」とすすめられる信仰もし、祈祷もして貰いましたが何の効果なく、だまされたと思う不快な気持が後に残るだけでした。<br/><br/>全身のあらゆる関節は節くれ立って醜い姿に固まってしまったのです。<br/><br/>「私の病気は今までの医学や信仰ではとても治らない、一生暗い気持で終るのか」と思い、蒲団の中で幾度泣いたか知れません。<br/><br/>体を動かさないためか、胃腸病、心臓病、喘息という重い病もともなって、春秋の農繁期にはただ親兄弟に世話をかけるばかりでした。<br/><br/> このような毎日を繰返して十三年の歳月が経ち、人の奨めてくれる治療も今は一つも信じられず、自分の病気に対しては治らぬものと半ば諦めておりました。<br/><br/> ところが本年五月、隣家の小林茂己さんが「長年の蓄膿症が治った」と言って、急に私の家へ来て御浄霊の事やこのお道の事に関してこまごまと話してくれましたが、あらゆるものが信じられなくなった今、「そんな簡単な事で治るものか」と思いつつも三日間迷い続け、考えつめたあげく「治らなくとも同じだ、治れば幸だ、一度行って見よう」と決心して、五月二日須坂様へ案内して貰いました。<br/><br/>今考えれば他の治療と同じく断ってしまえばそれまででしたが、よくも決心して行ったものだと、紙一重でお救いいただいた事を沁々と感ずるのであります。<br/><br/> 篠崎様から全身の御浄霊をいただきまして帰ろうと思い、自転車のベタルを踏んで見ましたところ、来る時には途中休み休みやっと参りました一里の道も、帰りはほとんど苦痛もなく、楽に家へ着くことが出来ました。<br/><br/>「不思議だ、不思議だ」何度考えてもよく解りません。<br/><br/>ただ身体が楽になった事だけは事実なのです。<br/><br/>十数年間いかんともしようのなかった自分の体が、一度の浄霊でこんなに軽くなるとはいくら考えても不思議でなりません。<br/><br/> 翌朝目をさましますと、平常とは違い楽に起上ることが出来ました。<br/><br/>十三年間の暗い歳月から初めて光明を見出した喜びに、二日目も喜び勇んで須坂様まで車を走らせました。<br/><br/>三日目は篠崎様宅での月並祭で、西村先生に御面会し、色々とお話を聞いては、益々心が明るくなって参りました。<br/><br/>又一番驚いた事は集って来られる皆さんはとても元気で朗かです。<br/><br/>こんな明るい会は初めてで、これなら病気も吹っ飛んでしまうと思いました。<br/><br/>帰りに御丁寧な御浄霊をいただき、軽々と自転車に乗って帰宅いたしました。<br/><br/>日一日と軽くなって行く自分の体に、暗い気持はふっとんで、ただ明るい人生への希望が湧いて参りました。<br/><br/>この喜びは何とおつたえしたらよいか、教育もない私の筆では到底書き表わす事は出来ません。<br/><br/> その翌日から、平穏村渋温泉での教修会で先生のお話を三日間おきき致しました。<br/><br/>一日も早く教修を受けさせていただきたい気持で一ぱいでしたが、色々都合もありましたので、ともかく一日も早く体をなおして戴いてからと思い、それから毎日隣の小林さんから御浄霊いただき、日増に全身の関節の痛みも減って参りました。<br/><br/>御浄霊いただき始めましてから僅か一カ月半の後には、二十二年間何もする事の出来なかった身体が、鎌を持ち麦を刈る事が出来るようになりました。<br/><br/>以前は鎌を持つ事は出来ても、力を入れる事は全然出来なかったのが、関節はまだ腫れ上って、指も掌も変形してはおりますものの、ギュッと力を入れてザックと刈る事が出来た時は、たとえようのない喜びでした。<br/><br/>それからは一生懸命に働き、御教修を受けさせていただく用意も整いましたので、七月下旬、益満様宅にての出張教修会に出席致し、待望のお守様を受けさせていただきました。<br/><br/>三日間の教修会中に、御浄霊のお光を拝む方、御神体が金色に光るのを拝む方、先生の肩から丸く出る光を拝む方等、次から次へ起る奇貴にただ驚くばかり、最後にお守様を拝受致しました時、全身カッと熱くなり、ただ感謝の涙があふれるばかりでした。<br/><br/> お守様をいただきましてより、より一層身体も楽にしていただきました。<br/><br/>いつかは必ずこのはれも引いて、あきらめておりました体も一人前になれる確信が持てるようになりました。<br/><br/> 入信後三カ月の月日ですが、今は農家の仕事はほとんど出来るようになって参りました。<br/><br/>今はただ、出来る限り多くの方にこの御道をおしらせする事に努力致すと共に、美術館の御建設に少しでもお役に立たせていただきたいと日夜微力を尽させていただいております。<br/><br/> 喜びのあまり御報告を記させていただきました。<br/><br/> （昭和二十六年二月二十一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

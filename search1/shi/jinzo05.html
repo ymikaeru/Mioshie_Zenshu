@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jinzo05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓炎乃至腎臓病 『アメリカを救う』P.129、昭和28(1953)年1月1日発行 腎臓という機能は、尿の処理機関であるのは誰も知っているが、この病気は初め薬毒が背面腎臓部に溜り固結するので、これが腎臓を圧迫し完全に尿の処理が出来なくなる。<br><br>すなわち萎縮腎である。<br><br>このため余剰尿は腎臓膜を滲出し、全身に氾濫する。<br><br>これが浮腫（むくみ）である。<br><br>ところがこの余剰尿は局部的に固まって種々の病気となる。<br><br>その中一番多いのが首肩の凝り、頭脳の病、耳、眼、鼻の病が主で、驚くべきは歯槽膿漏の原因もこれであるから、考えたら不潔極まるものである。<br><br>また右の固結が浄化のため発熱する場合、これを腎臓炎というのである。<br><br>また腎臓結核は非常に痛む病気で、重症になると血の混った尿が出る事がある。<br><br>これは薬毒によって腎臓壁に腫物が出来、そこから膿と血が滲出するからである。<br><br>また腎臓結石は最初胆石病の胆石の小粒が尿に混って流下し、腎臓内に停滞するうち尿素が付着して段々大きくなり、これが膀胱の入口または出口につかえ、尿が閉止する事がよくある。<br><br>そのため下腹部が浮腫となり、増大してどうにもならなくてついに死ぬ人も往々あるのである。<br><br> ここで注意すべきは、医学では腎臓病の場合尿中の蛋白を恐れ、塩分を禁止したり牛乳を多量に飲ませたりするが、これはナンセンスである。<br><br>というのは蛋白とは実は前記のごとく浄化によって溶けた尿素であるからで、蛋白が出る程いいのである。<br><br>従って蛋白が出切ってしまえば、完全に治ってしまう。<br><br>医師諸君においても、今後試して貰いたいと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Nefrite e as Enfermidades Renais</h2>
 <p>É de conhecimento geral que a função primordial dos rins consiste no processamento da urina. A gênese dessa enfermidade, contudo, reside na acumulação e solidificação de toxinas medicamentosas na região dorsal correspondente aos rins. Essa massa comprime o órgão e o incapacita de realizar plenamente suas funções, configurando o que se denomina rim atrofiado. Em decorrência desse quadro, o excesso de urina transuda através da membrana renal e se difunde por todo o organismo, originando o edema, popularmente conhecido como inchaço.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Ademais, quando essa massa solidificada passa por um processo de purificação que gera febre, temos o quadro denominado nefrite. A tuberculose renal, por sua vez, é uma condição extremamente dolorosa que, em estágios avançados, pode levar à eliminação de urina com sangue. Isso ocorre porque as toxinas medicamentosas provocam o surgimento de tumores na parede do rim, dos quais emanam pus e sangue.</p>
 <p>No que tange aos cálculos renais, sua formação se inicia quando pequenos cálculos biliares, oriundos da vesícula, misturam-se à urina e descem até os rins, onde ficam retidos. Com o tempo, a ureia adere a esses núcleos, fazendo-os aumentar gradualmente de tamanho. É comum que esses cálculos obstruam a entrada ou a saída da bexiga, resultando na interrupção do fluxo urinário. Consequentemente, o baixo-ventre se edemacia e aumenta de volume a um ponto insustentável, uma condição que, não raro, culmina no falecimento do indivíduo.</p>
 <p>Neste ponto, é crucial elucidar um equívoco da medicina. Diante de uma enfermidade renal, a prática médica convencional teme a presença de proteína na urina, o que a leva a proibir o consumo de sal e a prescrever grandes quantidades de leite. Tal abordagem, todavia, é um completo disparate. A razão para tal afirmação é que a substância identificada como proteína consiste, na verdade, na ureia previamente mencionada, que se dissolveu em virtude do processo de purificação. Portanto, quanto maior a eliminação dessa proteína, mais benéfico é para o paciente. Uma vez que toda ela tenha sido expelida, a cura completa se estabelece. Gostaria, pois, de exortar os senhores médicos a que, de futuro, coloquem este postulado à prova.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓炎乃至腎臓病 『アメリカを救う』P.129、昭和28(1953)年1月1日発行 腎臓という機能は、尿の処理機関であるのは誰も知っているが、この病気は初め薬毒が背面腎臓部に溜り固結するので、これが腎臓を圧迫し完全に尿の処理が出来なくなる。<br/><br/>すなわち萎縮腎である。<br/><br/>このため余剰尿は腎臓膜を滲出し、全身に氾濫する。<br/><br/>これが浮腫（むくみ）である。<br/><br/>ところがこの余剰尿は局部的に固まって種々の病気となる。<br/><br/>その中一番多いのが首肩の凝り、頭脳の病、耳、眼、鼻の病が主で、驚くべきは歯槽膿漏の原因もこれであるから、考えたら不潔極まるものである。<br/><br/>また右の固結が浄化のため発熱する場合、これを腎臓炎というのである。<br/><br/>また腎臓結核は非常に痛む病気で、重症になると血の混った尿が出る事がある。<br/><br/>これは薬毒によって腎臓壁に腫物が出来、そこから膿と血が滲出するからである。<br/><br/>また腎臓結石は最初胆石病の胆石の小粒が尿に混って流下し、腎臓内に停滞するうち尿素が付着して段々大きくなり、これが膀胱の入口または出口につかえ、尿が閉止する事がよくある。<br/><br/>そのため下腹部が浮腫となり、増大してどうにもならなくてついに死ぬ人も往々あるのである。<br/><br/> ここで注意すべきは、医学では腎臓病の場合尿中の蛋白を恐れ、塩分を禁止したり牛乳を多量に飲ませたりするが、これはナンセンスである。<br/><br/>というのは蛋白とは実は前記のごとく浄化によって溶けた尿素であるからで、蛋白が出る程いいのである。<br/><br/>従って蛋白が出切ってしまえば、完全に治ってしまう。<br/><br/>医師諸君においても、今後試して貰いたいと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

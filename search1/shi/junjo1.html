@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>junjo1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 順序 自観叢書第5編『自観隨談』P.9、昭和24(1949)年8月30日発行 「神は順序なり」という事が昔からいわれているがこれは全くそうであると思う。<br><br>何事においてもそれが滑らかに運ばないという原因は、全く順序が紊（みだ）れているからで、特に人事においてそうである。<br><br>支那の諺に「夫婦別あり、老幼序あり」というが全く至言である。<br><br>近来社会全般の順序の乱れははなはだしい。<br><br>また順序と礼儀には切っても切れない関係にあるものでこの点特に注意すべきと思う。<br><br>大自然を観ても判るように、春夏秋冬もその日その日の明暗も、草木の生育等一として順序に添わぬものはない。<br><br>梅の花より桜の花の方が先に咲くという事は決してない。<br><br>これについて種々の例を挙げてみよう。<br><br> まず神仏等に参詣に行く場合、他で用達をしてから参詣するのは何にもならないのである。<br><br>それは用が主になり、神仏が従となるからである。<br><br>故に病気浄霊を受けに行く時などもそうである。<br><br>まず教導所へ先に行き、他の用は後にすべきである。<br><br>そうする事によって効果の著しい事はいうまでもない。<br><br>またよく見受ける事であるが、家を建てる場合、子供の部屋を二階に親の居間を下に作る事がよくあるが、このようにすると子供の方が上位になるから子供は親の言う事を聞かなくなる。<br><br>主人と奉公人の場合も同じであるから大いに注意すべきである。<br><br> また小さい事のようだが、部屋に座る場合も同様である。<br><br>家長は上座に座り妻は次に、長男次男次女というような順序になすべきである。<br><br>順序よく座る事によって円満裡に和合の空気が漂うのである。<br><br>従って反対である場合争いや不快な事が起こり勝ちなのは当然である。<br><br>私が幾多の経験上、集会などに列席した場合、部屋に入るや何となく不快な空気が漂うている事がある。<br><br>そうした時よく見ると、大方座席の順序が間違っている事が判る。<br><br>そうしてすべての場合、上座下座はどういう標準で決めるかというと、部屋の入口に近い所を下座となし、入口から離れている程上座とみればいい。<br><br>もっとも床の間の前を上座にする事は誰も知る所であるから、床の間と入口の位置をよく見て、常識的に判断すればいいであろう。<br><br> また左右は左が霊で上位であり、右は体であるから下位である。<br><br>人間が右手を多く使用するのは体であるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Ordem Divina</h2>
 <p>A antiga máxima "Deus é Ordem" revela-se uma verdade absoluta. A causa fundamental pela qual os assuntos não transcorrem com fluidez, em qualquer circunstância, reside unicamente na perturbação da ordem, o que se manifesta de modo particular nas relações humanas. Nesse sentido, o provérbio chinês que afirma haver "distinção entre marido e mulher, e ordem entre velhos e jovens" é, de fato, uma expressão de profunda sabedoria. É notório o quão grave se tornou a desordem na sociedade contemporânea. Ademais, existe um vínculo indissociável entre ordem e etiqueta, um ponto que, a meu ver, requer especial atenção.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Embora possa parecer um detalhe menor, a ordem ao se sentar em um recinto segue o mesmo preceito. O chefe da família deve ocupar o assento de honra, seguido pela esposa e, depois, pelos filhos, em ordem de primogenitura. Quando todos se sentam de acordo com a ordem correta, uma atmosfera de harmonia e união preenche o ambiente. Por conseguinte, é natural que, na situação inversa, surjam atritos e situações desagradáveis.</p>
 <p>Com base em minhas inúmeras experiências, ao participar de reuniões, por vezes sinto uma atmosfera de desconforto inexplicável ao adentrar o recinto. Nessas ocasiões, uma observação mais atenta revela que, na maioria dos casos, a causa reside na incorreta disposição dos assentos. Para determinar, em qualquer situação, qual é o assento de honra e qual é o assento inferior, a regra é simples: considera-se inferior o lugar mais próximo à entrada, e de honra aquele que dela estiver mais distante. Evidentemente, é de conhecimento geral que o assento diante do tokonoma é o lugar de maior prestígio. Logo, basta observar a posição do tokonoma e da entrada para determinar a disposição correta, usando o bom senso.</p>
 <p>Ademais, no que tange à direita e à esquerda, a esquerda corresponde ao espírito, sendo superior, enquanto a direita corresponde à matéria, sendo inferior. O fato de os seres humanos utilizarem predominantemente a mão direita deve-se justamente a essa sua correspondência com o corpo físico.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 順序 自観叢書第5編『自観隨談』P.9、昭和24(1949)年8月30日発行 「神は順序なり」という事が昔からいわれているがこれは全くそうであると思う。<br/><br/>何事においてもそれが滑らかに運ばないという原因は、全く順序が紊（みだ）れているからで、特に人事においてそうである。<br/><br/>支那の諺に「夫婦別あり、老幼序あり」というが全く至言である。<br/><br/>近来社会全般の順序の乱れははなはだしい。<br/><br/>また順序と礼儀には切っても切れない関係にあるものでこの点特に注意すべきと思う。<br/><br/>大自然を観ても判るように、春夏秋冬もその日その日の明暗も、草木の生育等一として順序に添わぬものはない。<br/><br/>梅の花より桜の花の方が先に咲くという事は決してない。<br/><br/>これについて種々の例を挙げてみよう。<br/><br/> まず神仏等に参詣に行く場合、他で用達をしてから参詣するのは何にもならないのである。<br/><br/>それは用が主になり、神仏が従となるからである。<br/><br/>故に病気浄霊を受けに行く時などもそうである。<br/><br/>まず教導所へ先に行き、他の用は後にすべきである。<br/><br/>そうする事によって効果の著しい事はいうまでもない。<br/><br/>またよく見受ける事であるが、家を建てる場合、子供の部屋を二階に親の居間を下に作る事がよくあるが、このようにすると子供の方が上位になるから子供は親の言う事を聞かなくなる。<br/><br/>主人と奉公人の場合も同じであるから大いに注意すべきである。<br/><br/> また小さい事のようだが、部屋に座る場合も同様である。<br/><br/>家長は上座に座り妻は次に、長男次男次女というような順序になすべきである。<br/><br/>順序よく座る事によって円満裡に和合の空気が漂うのである。<br/><br/>従って反対である場合争いや不快な事が起こり勝ちなのは当然である。<br/><br/>私が幾多の経験上、集会などに列席した場合、部屋に入るや何となく不快な空気が漂うている事がある。<br/><br/>そうした時よく見ると、大方座席の順序が間違っている事が判る。<br/><br/>そうしてすべての場合、上座下座はどういう標準で決めるかというと、部屋の入口に近い所を下座となし、入口から離れている程上座とみればいい。<br/><br/>もっとも床の間の前を上座にする事は誰も知る所であるから、床の間と入口の位置をよく見て、常識的に判断すればいいであろう。<br/><br/> また左右は左が霊で上位であり、右は体であるから下位である。<br/><br/>人間が右手を多く使用するのは体であるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

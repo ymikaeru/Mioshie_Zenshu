@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jinzo09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓病とその他の病 未発表『文明の創造』昭和27(1952)年執筆 主なる病気 私は、人体の重要なる三大機能の大体をかいたが、これから主なる病気について解説してみよう。<br><br> 腎臓病とその他の病 腎臓は体内機能中、三大機能に次いでの重要なる役目をしているもので、これは医学でも唱えるごとく、一旦腎臓へ集溜されたる液中から、貴重なるホルモンを抽出すると共に、廃物液体である尿は膀胱へ送られるのである。<br><br>ところが厄介な事には、腎臓が完全に活動されるとしたら右の通りであるが、実際上幼児から少年、青年、壮年と年を重ねるに従って、漸次働きが鈍るのが通例でその原因は腎臓が萎縮するからである。<br><br>ではなぜ萎縮するかというと、腎臓が前述のごとく、必要なものと不必要なものとが分けられる場合、右の二者以外の異物が混じる場合がある。<br><br>この異物こそ言うまでもなく薬毒であって、これがどう処理されるかというと、ホルモンにも尿にもならないので、腎臓の表皮を滲透して、背部腎臓面に浸出し僅かずつ溜るのである。<br><br>それが固結し腎臓を圧迫するから、腎臓は漸次萎縮し、ホルモン産出は減少する（不感症はこの原因が多い）と共に尿の処理も鈍化し、その幾分はこれも外部へ浸出するから、薬毒に追加され、両毒合併して毒結はいよいよ増大する以上、脊柱の両側に溜り上向延長しつつ、ついに肩や頸の辺にまで及ぶのである。<br><br>肩や首が凝るのはこれであって、面白い事にはこの両毒結を判別する事が出来る。<br><br>すなわち患部を押せば薬毒の方は固くて痛み、頑固性であるが、尿毒の方はやや柔軟でほとんど痛みがない。<br><br>そうして毒素はついに頭脳内にまで進入するので、その結果浄化が起るそれが頭重、頭痛はもちろん、脳膜炎、日本脳炎、脳脊髄膜炎、脳溢血等、すべての脳疾患である。<br><br>この頭脳内の毒素の有無を知るのははなはだ簡単で、頭脳に手を触れてみれば直ぐ判る。<br><br>すなわち少しでも温味があれば毒素のある証拠で、温い程毒素が多い訳だが、現代人で無熱の人は恐らく一人もあるまい。<br><br> そして前頭部に固結した毒素の、急激強烈な浄化が脳膜炎であり、この病気が児童に多いのは、浄化力が旺盛であるからである。<br><br>すなわちこの病気は高熱と共に、前頭部の激痛と目が開けられないのが特異性で、これは眩しいのと眩暈（めまい）とのためである。<br><br>しかしこれも放置しておけば、毒結は溶解し涙、鼻汁等になって排泄され、完全に治るのである。<br><br>しかも予後病気以前よりも頭脳明晰となり、児童などは学業の成績も優良となるので、これは医師も一般人も意外に思うのである。<br><br>ところが医療は、氷冷等で固めるため、一旦無熱となり、治ったようでもその固結が機能の活動を阻害し、痴呆症や、その他種々の不具的症状を表わすのである。<br><br> その他として、彼の日本脳炎であるが、これは統計によるも五歳から十歳くらいまでが、最も多いとされている。<br><br>これによっても判るごとく、夏日炎天下に帽子も被らないで遊ぶ場合、脳は強烈な日光の直射を受けるから、その刺戟によって背部、肩等にある毒素が頭脳に向かって集中を開始する。<br><br>その際一旦延髄付近に集溜するので、その部に手を触るれば棒状の固結を見るが、それが高熱によって溶解、後頭内に侵入するや、非常に睡くなるのである。<br><br>ところが医療は氷冷で固めるから、予後脳膜炎と等しく、種々な不具的症状を残すのである。<br><br>しかしこの病気も放置しておけば、後脳内に入った毒素は、頭脳を通過して目及び鼻口から、血膿となってさかんに排泄され、出るだけ出ればそれで完全に治ってしまうのである。<br><br>まず全治まで一週間とみればいい。<br><br>しかも予後脳膜炎と同様、児童などは非常に学校の成績が良くなるのみならず、初めから生命の危険などは絶対にないにかかわらず、死ぬというのは全く氷冷等の、誤れる逆療法を行うからである。<br><br>そうして日本脳炎は夏期羅病するに対し、冬期に起るのが脳脊髄膜炎である。<br><br>これは日本脳炎と同様、延髄付近に毒素が棒状に固結するが、これは夏と異い日光に晒されていないから、中途で止まるという訳である。<br><br>この病気の特異性は右のごとき棒状のため、首は前後に動かず、ちょうど丸太棒のような形で良く判るのであるが、この経過も日本脳炎と同様であるから略す事とする。<br><br> 次に脳疾患の外の種々の症状を詳しく書いてみよう。<br><br> 前述のごとく萎縮腎のため、頭部に向かって進行する毒素は、延髄付近にも固結するので、眼球に送血する血管が圧迫され、眼は貧血を発す事になる。<br><br>つまり眼の栄養不足で、そのため視力が弱り、遠方まで見得る力が足りない。<br><br>これが近視眼の原因である。<br><br>何よりも右の固結を溶解するに従って、近視眼は全治するに見て明らかである。<br><br>乱視も同様の原因であるが、ただ乱視の方は、浄化のため人により固結状態が絶えず動揺し、血管を不規則に圧迫するため、視力も動揺するからである。<br><br>また底翳（そこひ）は眼底に毒素が溜結し、視神経を遮断するから見えないのである。<br><br>白内障、緑内障は、眼球そのものに毒素が固結するので、これも放置しておけば自然に溶解し全治するが、医療は点眼薬や眼球注射等を行うから、この薬毒のため毒素は固まってしまい、治るべき眼病も治らない結果になるのである。<br><br>そうしてすべての眼病は、頭脳に集溜した毒素が、出口を求めて眼球から排泄されようとし、一旦眼球に集中し、再び溶けて膿、目脂（めやに）、涙等となって出るのであるから、放任しておけば長くは掛るが、必ず治るものである。<br><br>またトラホームは頭脳の毒素が眼瞼（まぶた）の裏の粘膜から排泄されようとし、発疹となって排膿されるので、これも自然に簡単に治るものである。<br><br> 次に鼻に関する病であるが、鼻茸（はなたけ）、肥厚性鼻炎、鼻加答児（カタル）等は、いずれも頭脳の毒素が一旦鼻の両側、鼻の奥、鼻口等に集溜し、排泄されるのであるから、これも自然に治癒すべきを、医学は種々の逆方を施す結果、治らない事になるのである。<br><br>また中耳炎は耳下腺及び淋巴腺の毒結が高熱により溶解穿骨（せんこつ）し、一旦中耳に入り、鼓膜を破って排泄されるそれらの痛みであるから、これらも二、三日そのままにしておけば、順調に治癒されるのである。<br><br> 次に扁桃腺炎であるが、これも淋巴腺付近の毒素が、日を重ねるに従い、扁桃腺に固結し高熱によって溶解、粘膜を破って排泄されるという極く簡単な浄化作用で結構なるものであるが、医学はルゴール等の塗布薬を用い、浄化を妨害するので拗（こじ）れると共に、ついに膨大し手術の止むなきに至るのである。<br><br>ゆえに読者諸君は試みに、今度扁桃腺の発った場合、何もせずに放っておいてみられたい。<br><br>すると短時日で順調によく治ってしまうばかりか、起る毎に段々軽くなり、ついに全治するのである。<br><br>これは私が慢性扁桃腺炎を治した経験と、多数の人に教えた結果、例外なく根治したに見ても確実である。<br><br> ここで面白い事がある。<br><br>それは多い病気とは言えないが、割合厄介なものに歯槽膿漏があるが、これも淋巴腺付近の毒素が、歯茎（はぐき）を目掛けて集溜し、血膿となって排泄されようとする一種の浄化であるから、私はこんな汚いものはないというのである。<br><br>それは元々尿の古くなったものが、口中から出る訳だからである。<br><br>これを治すのは訳はない、歯茎を固いブラシで摩擦すれば、血膿が出るだけ出てそれで治ってしまうものである。<br><br> 右によっても分るごとく、最初に述べた寒〔感〕冒の原因である肩から上に固結する毒素は、すべて腎臓が元である事は明らかである。<br><br>としたら寒冒も結核も肺炎もほとんどの病気は腎臓萎縮が原因である事が判ったであろう。<br><br>ところがそればかりではない。<br><br>肋膜炎も、腹膜炎も関節リュウマチも神経痛も婦人病ももちろんそうであり、カリエスも、肝臓病も、黄疸も、糖尿病も、胆嚢、腎臓、膀胱内の結石も、喘息も、中風も、小児麻痺も、精神病もそうである。<br><br>としたら実に腎臓萎縮を起さないようにする事こそ、健康の第一条件である。<br><br>以上の病気は順次説く事にするからそれを読めばなおよく判るであろう。<br><br> この理によって、腎臓を完全に働かせる事が肝腎で、それには腎臓萎縮の原因である固結を、溶解除去すると共に、作らないようにする事である。<br><br>ところが現在のいかなる療法によっても不可能であるが、独り本教浄霊によれば可能であるから、この一事によっても病なき世界は期待して誤りないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Relação entre a Disfunção Renal e as Demais Enfermidades</h2>
 <p>Após ter discorrido, em linhas gerais, sobre as três funções precípuas do organismo humano, passarei a elucidar as principais enfermidades.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Há aqui um ponto interessante a ser mencionado. Embora não seja uma doença tão comum, a piorreia é bastante incômoda. Ela também consiste em um tipo de purificação, no qual as toxinas próximas aos gânglios linfáticos se concentram nas gengivas para serem expelidas como pus sanguinolento. Em minha opinião, não há nada mais impuro, pois, em sua essência, trata-se de urina envelhecida sendo eliminada pela boca. Curá-la, no entanto, é muito simples: basta friccionar as gengivas com uma escova de cerdas duras. Todo o pus sanguinolento sairá, e a doença estará sanada.</p>
 <p>Como se pode depreender do exposto, as toxinas que se solidificam da altura dos ombros para cima – e que, como afirmei no início, são a causa dos resfriados – têm todas a sua origem nos rins. Fica evidente, portanto, que não apenas os resfriados, mas também a tuberculose, a pneumonia e a maioria das enfermidades são causadas pela atrofia renal. E a lista não para por aí. Pleurisia, peritonite, artrite reumatoide, nevralgia e as doenças femininas também se incluem, assim como cáries, hepatopatias, icterícia, diabetes, cálculos na vesícula, nos rins e na bexiga, asma, derrame, paralisia infantil e doenças mentais. Sendo assim, evitar a atrofia dos rins constitui, de fato, a condição primordial para a saúde. Abordarei cada uma dessas doenças sequencialmente em futuros escritos, e sua leitura trará uma compreensão ainda mais aprofundada.</p>
 <p>Por essa lógica, é primordial que os rins funcionem em sua plena capacidade. Para tanto, é necessário não apenas dissolver e remover os nódulos que causam a atrofia, mas também impedir que novos se formem. Todavia, nenhuma terapia existente é capaz de realizar tal feito. Somente o Johrei de nossa Igreja o torna possível. Apenas este fato já é suficiente para que possamos vislumbrar, sem margem para erro, a chegada de um mundo isento de doenças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓病とその他の病 未発表『文明の創造』昭和27(1952)年執筆 主なる病気 私は、人体の重要なる三大機能の大体をかいたが、これから主なる病気について解説してみよう。<br/><br/> 腎臓病とその他の病 腎臓は体内機能中、三大機能に次いでの重要なる役目をしているもので、これは医学でも唱えるごとく、一旦腎臓へ集溜されたる液中から、貴重なるホルモンを抽出すると共に、廃物液体である尿は膀胱へ送られるのである。<br/><br/>ところが厄介な事には、腎臓が完全に活動されるとしたら右の通りであるが、実際上幼児から少年、青年、壮年と年を重ねるに従って、漸次働きが鈍るのが通例でその原因は腎臓が萎縮するからである。<br/><br/>ではなぜ萎縮するかというと、腎臓が前述のごとく、必要なものと不必要なものとが分けられる場合、右の二者以外の異物が混じる場合がある。<br/><br/>この異物こそ言うまでもなく薬毒であって、これがどう処理されるかというと、ホルモンにも尿にもならないので、腎臓の表皮を滲透して、背部腎臓面に浸出し僅かずつ溜るのである。<br/><br/>それが固結し腎臓を圧迫するから、腎臓は漸次萎縮し、ホルモン産出は減少する（不感症はこの原因が多い）と共に尿の処理も鈍化し、その幾分はこれも外部へ浸出するから、薬毒に追加され、両毒合併して毒結はいよいよ増大する以上、脊柱の両側に溜り上向延長しつつ、ついに肩や頸の辺にまで及ぶのである。<br/><br/>肩や首が凝るのはこれであって、面白い事にはこの両毒結を判別する事が出来る。<br/><br/>すなわち患部を押せば薬毒の方は固くて痛み、頑固性であるが、尿毒の方はやや柔軟でほとんど痛みがない。<br/><br/>そうして毒素はついに頭脳内にまで進入するので、その結果浄化が起るそれが頭重、頭痛はもちろん、脳膜炎、日本脳炎、脳脊髄膜炎、脳溢血等、すべての脳疾患である。<br/><br/>この頭脳内の毒素の有無を知るのははなはだ簡単で、頭脳に手を触れてみれば直ぐ判る。<br/><br/>すなわち少しでも温味があれば毒素のある証拠で、温い程毒素が多い訳だが、現代人で無熱の人は恐らく一人もあるまい。<br/><br/> そして前頭部に固結した毒素の、急激強烈な浄化が脳膜炎であり、この病気が児童に多いのは、浄化力が旺盛であるからである。<br/><br/>すなわちこの病気は高熱と共に、前頭部の激痛と目が開けられないのが特異性で、これは眩しいのと眩暈（めまい）とのためである。<br/><br/>しかしこれも放置しておけば、毒結は溶解し涙、鼻汁等になって排泄され、完全に治るのである。<br/><br/>しかも予後病気以前よりも頭脳明晰となり、児童などは学業の成績も優良となるので、これは医師も一般人も意外に思うのである。<br/><br/>ところが医療は、氷冷等で固めるため、一旦無熱となり、治ったようでもその固結が機能の活動を阻害し、痴呆症や、その他種々の不具的症状を表わすのである。<br/><br/> その他として、彼の日本脳炎であるが、これは統計によるも五歳から十歳くらいまでが、最も多いとされている。<br/><br/>これによっても判るごとく、夏日炎天下に帽子も被らないで遊ぶ場合、脳は強烈な日光の直射を受けるから、その刺戟によって背部、肩等にある毒素が頭脳に向かって集中を開始する。<br/><br/>その際一旦延髄付近に集溜するので、その部に手を触るれば棒状の固結を見るが、それが高熱によって溶解、後頭内に侵入するや、非常に睡くなるのである。<br/><br/>ところが医療は氷冷で固めるから、予後脳膜炎と等しく、種々な不具的症状を残すのである。<br/><br/>しかしこの病気も放置しておけば、後脳内に入った毒素は、頭脳を通過して目及び鼻口から、血膿となってさかんに排泄され、出るだけ出ればそれで完全に治ってしまうのである。<br/><br/>まず全治まで一週間とみればいい。<br/><br/>しかも予後脳膜炎と同様、児童などは非常に学校の成績が良くなるのみならず、初めから生命の危険などは絶対にないにかかわらず、死ぬというのは全く氷冷等の、誤れる逆療法を行うからである。<br/><br/>そうして日本脳炎は夏期羅病するに対し、冬期に起るのが脳脊髄膜炎である。<br/><br/>これは日本脳炎と同様、延髄付近に毒素が棒状に固結するが、これは夏と異い日光に晒されていないから、中途で止まるという訳である。<br/><br/>この病気の特異性は右のごとき棒状のため、首は前後に動かず、ちょうど丸太棒のような形で良く判るのであるが、この経過も日本脳炎と同様であるから略す事とする。<br/><br/> 次に脳疾患の外の種々の症状を詳しく書いてみよう。<br/><br/> 前述のごとく萎縮腎のため、頭部に向かって進行する毒素は、延髄付近にも固結するので、眼球に送血する血管が圧迫され、眼は貧血を発す事になる。<br/><br/>つまり眼の栄養不足で、そのため視力が弱り、遠方まで見得る力が足りない。<br/><br/>これが近視眼の原因である。<br/><br/>何よりも右の固結を溶解するに従って、近視眼は全治するに見て明らかである。<br/><br/>乱視も同様の原因であるが、ただ乱視の方は、浄化のため人により固結状態が絶えず動揺し、血管を不規則に圧迫するため、視力も動揺するからである。<br/><br/>また底翳（そこひ）は眼底に毒素が溜結し、視神経を遮断するから見えないのである。<br/><br/>白内障、緑内障は、眼球そのものに毒素が固結するので、これも放置しておけば自然に溶解し全治するが、医療は点眼薬や眼球注射等を行うから、この薬毒のため毒素は固まってしまい、治るべき眼病も治らない結果になるのである。<br/><br/>そうしてすべての眼病は、頭脳に集溜した毒素が、出口を求めて眼球から排泄されようとし、一旦眼球に集中し、再び溶けて膿、目脂（めやに）、涙等となって出るのであるから、放任しておけば長くは掛るが、必ず治るものである。<br/><br/>またトラホームは頭脳の毒素が眼瞼（まぶた）の裏の粘膜から排泄されようとし、発疹となって排膿されるので、これも自然に簡単に治るものである。<br/><br/> 次に鼻に関する病であるが、鼻茸（はなたけ）、肥厚性鼻炎、鼻加答児（カタル）等は、いずれも頭脳の毒素が一旦鼻の両側、鼻の奥、鼻口等に集溜し、排泄されるのであるから、これも自然に治癒すべきを、医学は種々の逆方を施す結果、治らない事になるのである。<br/><br/>また中耳炎は耳下腺及び淋巴腺の毒結が高熱により溶解穿骨（せんこつ）し、一旦中耳に入り、鼓膜を破って排泄されるそれらの痛みであるから、これらも二、三日そのままにしておけば、順調に治癒されるのである。<br/><br/> 次に扁桃腺炎であるが、これも淋巴腺付近の毒素が、日を重ねるに従い、扁桃腺に固結し高熱によって溶解、粘膜を破って排泄されるという極く簡単な浄化作用で結構なるものであるが、医学はルゴール等の塗布薬を用い、浄化を妨害するので拗（こじ）れると共に、ついに膨大し手術の止むなきに至るのである。<br/><br/>ゆえに読者諸君は試みに、今度扁桃腺の発った場合、何もせずに放っておいてみられたい。<br/><br/>すると短時日で順調によく治ってしまうばかりか、起る毎に段々軽くなり、ついに全治するのである。<br/><br/>これは私が慢性扁桃腺炎を治した経験と、多数の人に教えた結果、例外なく根治したに見ても確実である。<br/><br/> ここで面白い事がある。<br/><br/>それは多い病気とは言えないが、割合厄介なものに歯槽膿漏があるが、これも淋巴腺付近の毒素が、歯茎（はぐき）を目掛けて集溜し、血膿となって排泄されようとする一種の浄化であるから、私はこんな汚いものはないというのである。<br/><br/>それは元々尿の古くなったものが、口中から出る訳だからである。<br/><br/>これを治すのは訳はない、歯茎を固いブラシで摩擦すれば、血膿が出るだけ出てそれで治ってしまうものである。<br/><br/> 右によっても分るごとく、最初に述べた寒〔感〕冒の原因である肩から上に固結する毒素は、すべて腎臓が元である事は明らかである。<br/><br/>としたら寒冒も結核も肺炎もほとんどの病気は腎臓萎縮が原因である事が判ったであろう。<br/><br/>ところがそればかりではない。<br/><br/>肋膜炎も、腹膜炎も関節リュウマチも神経痛も婦人病ももちろんそうであり、カリエスも、肝臓病も、黄疸も、糖尿病も、胆嚢、腎臓、膀胱内の結石も、喘息も、中風も、小児麻痺も、精神病もそうである。<br/><br/>としたら実に腎臓萎縮を起さないようにする事こそ、健康の第一条件である。<br/><br/>以上の病気は順次説く事にするからそれを読めばなおよく判るであろう。<br/><br/> この理によって、腎臓を完全に働かせる事が肝腎で、それには腎臓萎縮の原因である固結を、溶解除去すると共に、作らないようにする事である。<br/><br/>ところが現在のいかなる療法によっても不可能であるが、独り本教浄霊によれば可能であるから、この一事によっても病なき世界は期待して誤りないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

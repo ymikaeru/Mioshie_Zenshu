@@ -1,133 +1,282 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>s270607</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>s270607</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年6月7日） 『御教え集』11号、昭和27(1952)年7月15日発行 昭和二十七年六月七日 【御教え】 落成式が近づいたので、だいぶ少ないようですが――昨日も少なかったので話をしたんで、非常にみんな喜んでましたから、今日も話をしようと思います。<br><br> これは肝腎なことですが、よく私の書いた文章だとか、私の言ったこともありますが、明主様のおっしゃることでも、やはり裏表があるから、そういうのも考えなければいけない、というようなことを時々聞くんです。<br><br>そういう人があったら、それは邪神が憑いていると思えばいいんです。<br><br>私の言うことは、決して裏表がないんだからね。<br><br>言ったまま、字に書いたまま、そのまま受け取れば良いんです。<br><br>そういう裏表を書くようでは、どこまで信じて良いか分からなくなります。<br><br>それはどういうわけかというと、終戦前は危ないですから、あの当時の官憲は偉い人が出るということを非常に怖がった。<br><br>それですから、大本教でもひとのみちでも、やられましたけれども、その根本は生きた人間を拝むんです。<br><br>生きた人間を拝むと天皇陛下より上ということになるんですね。<br><br>そこで、ひとのみちなんかは、御木徳一（みきとくはる）という教祖の像をニッケルで作って――お宮の真ん中が天照大神で、向かって右が代々の天皇、左が祖先と、こういうふうな像を作って、天照大神の前に御木徳一氏の像を置いて、それを拝ませた。<br><br>で、他のことはみんな官憲が作ったものでしょうね。<br><br>根本はそれなんですよ。<br><br>つまり不敬ですね。<br><br>天照大神の前に自分の像を置いて拝ませるということは、ちょうど天皇と同じような意味になりますからね。<br><br>またどうしてそんなことをしたものか、ちょっと気が知れないと思ったんですがね。<br><br>しかしやはり信仰的に――神懸り的にそういうふうに信じたんでしょうね。<br><br>それが元だったんです。<br><br>大本教なんか、出口王仁三郎先生ですね。<br><br>あの人が不敬も不敬、たいへんな不敬だったですね。<br><br>十六の菊の御紋をつけた羽織を着て、服装なんか宮様でも着るような服装をして、言うことも、ワシが日本の本当の天皇の系統だと言う。<br><br>というのは、あの人は有栖川（ありすがわ）の宮さんの落とし子だそうです。<br><br>これは本当でしょう。<br><br>有栖川の宮さんが京都に滞在なされたことがある。<br><br>その時に近侍として出た若い娘にお手がついたとの話です。<br><br>その時生まれたのが出口王仁三郎先生だと言うのです。<br><br>だからお母さんが有栖川の宮さんの胤（たね）をいただいたわけですね。<br><br>それは、お母さんが危篤の時に出口先生が行って、今まで隠していたが、お前は本当はこういう事情のもとに生まれたのだ、という話をされた由です。<br><br>その直後に私は見舞いに行って帰ってきて出口先生に直接聞いたんです。<br><br>それからガラッと変わったんです。<br><br>俺はそうしてみると本当の日本の天皇の系統だ、という気持ちになった。<br><br>それで明治四十年ごろに「南北朝正統論」というのがやかましく言われましたが、学者の説で南朝が正統だということになったんです。<br><br>で、その当時の天皇の系統――終戦時の天皇の系統は北朝ですから、北朝は本当ではない。<br><br>俺は南朝の正統だから、俺こそ日本の天皇になるべきものだ、という考えになっちゃったんでしょう。<br><br>それから外出する――旅行なんかするにも、儀仗兵的に――駅なんかに着くと、あの時分青年隊というのがありましたが、それは全部軍人のような服装をして、出口王仁三郎先生はちゃんとサーベルかなにか持って――剣を持って――それは抜くと旗なんですが、剣の形にね。<br><br>それでプラットホームに行くとみんな敬礼している。<br><br>それで陛下の時のようにしている。<br><br>外に出るとオートバイが二台先頭に立ってズーッと行くんです。<br><br>それで後からお供の車が二、三台行く。<br><br>これは私が大本教を脱退した一つの理由だったんです。<br><br>危ない、これはやられると思ってね。<br><br>その時諫言（かんげん）した人もそうとうあるんですがね。<br><br>注意したんですが、その注意がおかしいんです。<br><br>出口王仁三郎先生は聖師様とその時言っていたが、「聖師様はそういう思し召しはないんだが、側の者がそういうことをするのは怪しからん」というのと「聖師様がそうするのだ」というのと両方ありましたが、なにしろ危ないので、それが脱退した一つの理由です。<br><br>それで官憲の方は怪しからんと根こそぎ弾圧したんです。<br><br>あとで行ってみると、よくも壊したものですがね。<br><br>月宮殿というのがありましたが、みんな壊れて――戦災の跡みたいです。<br><br>みんなダイナマイトで壊したんですから、見る影もないです。<br><br> そんなような具合で、その当時の官憲は偉い人というのを非常に嫌った。<br><br>だから私が病気を治したりすると、ありがたがって敬ったりしますが、それが危ないんです。<br><br>だからできるだけそういうことのないように、小さく小さくやっていたんです。<br><br>それでも大宮警察署に引っ張られて、そこで拷問にあって――これは肉体的拷問です。<br><br>頭の毛を引っ張られたり、剣術の竹刀を持って二人の奴が、腰骨をくだくとまで言ってやられたり、それでぜんぜんありもしないことを書いて、判を捺（お）せというんですからね。<br><br>今度の静岡の取り調べも随分ひどかったが、それほどではなかったですね。<br><br>随分ひどかったが、今言ったそういう恐ろしいことはなかったですね。<br><br>それを警視庁にやると、岡田という奴は怪しからん、とブラックリストに載せられる。<br><br>それで至る所警察の奴が放たれて――監視つきですね。<br><br>随分あの当時は嫌な感じだったです。<br><br>熱海に来た時は――東山荘に来た時ですね。<br><br>熱海の警察署から二人来て、塀の穴からのぞいて、今日は男が何人、女が何人、いつごろ帰ったと記録していたんですからね。<br><br>だから時々変な男が家のまわりを見にきたりするんで、だから気持ちが悪くてね。<br><br>それで、天国会の中島さんがやっている時警察が来て、病気が治るということは、つまり観音様で治るのではない。<br><br>陛下の御稜威（みいつ）で治るんだ。<br><br>陛下の御稜威で治るというのを言うのなら良いが、観音さんで治ると言ってはいかんと、そういうことがありましたね。<br><br>そんなこんなだから、やり悪（にく）かったんですよ。<br><br>その当時中田重治という人がやっていた、ホーリネスというキリスト教会があるんですが、そこなんか幹部の者が六人牢屋に入れられて、非常な拷問や虐待を受けて二人牢で死んだです。<br><br>まあ殺されたようなものですね。<br><br>中田重治という人も病気になって死にましたがね。<br><br>なにが原因かというと、再臨派といって、キリストの再臨を信じた。<br><br>キリストは黄金の国に再臨するといって――黄金の国とは日本で、日本に再臨しなければならないというので、再臨派はそうとういたですね。<br><br>先に大阪の人で、位置は大阪に違いないが――大阪に再臨しているに違いないと、そうして探した人がありますがね。<br><br>そんなわけでホーリネス教会の一人で、いったいキリストが再臨したら、天皇とキリストと較べてどっちが偉いんだ。<br><br>こういうことを言ったんですがね。<br><br>それは日本では天皇陛下は偉い方に違いないが、世界的に言えば、やはりキリストの方が全人類を救われるんだから、まずキリストの方が上とみなければならない。<br><br>その一言でやられたんです。<br><br>ただその時分に日本の軍部――日本の天皇陛下は世界を統一する――八紘一宇（はっこういちう）ですね。<br><br>そこで天皇より偉いということになれば、それはたいへんなんです。<br><br>それだけでとうとうつぶされましたがね。<br><br>近ごろいくらか小さく始めているようですが、まあ気の毒なものですよ。<br><br>中田重治という人はなかなか立派な人で、言うことは正しかったですね。<br><br>むしろキリスト教の方ではホーリネスを注目していたですがね。<br><br>ホーリネス教会という名前で、どこかにできたということを聞きましたがね。<br><br> 御伺い 明主様申し上げます。<br><br>関西の方で再臨教会というので、さかんにいたしております。<br><br> そうでしょうね。<br><br>やっぱりあれは、キリスト教も本当に研究すればそこにいくんですからね。<br><br>そんなようなわけで――話が馬鹿に横道にいったんですが――本筋が分からなくなっちゃったが、そういうわけですから、そうそう裏表の話でした。<br><br>そういうわけだから、はっきり言えなかったですね。<br><br>ですから私の本なんかでも、最初の『明日（みょうにち）の医術』なんかは、随分ぼかして書いてありますから、確かに裏表があったんです。<br><br>日本でも最初――昔、仏教の最初の時代ですが、あの時代には随分神道やなにかも力があって、本当のことが言えないために大いに――裏表どころではない、裏ばかりの説き方をしていた。<br><br>その時分の――真言密教ですね。<br><br>あれがそうなんです。<br><br>密教というのは、本当の奥義はお釈迦さんは七王の上にあるとしてある。<br><br>七つの王様の上にあるというんですね。<br><br>ですからその時分の天皇に対して、非常に不敬になるんです。<br><br>天皇より上なんですからね。<br><br>大本教にそういう研究家がいて、釈迦は七王の上にあるんだと言って、警察に呼び出されて、随分やられたようです。<br><br>そうしてその弁明に非常に苦しんだようですが、これは宗教の――霊界のことだからというので、うまくごまかしたようですがね。<br><br>そんなわけで、言葉や筆で知らせることができなかった。<br><br>ですから覚りでいくんですからね。<br><br>本当のことを言わないで、本当に近いようなことを言って覚らせるんです。<br><br>教えをして、味わいですね。<br><br>あれをさせる時には、試験の時には大僧正の前に行って、大僧正から「お前解ったか」というと、「解りました」。<br><br>それで良いんですからね。<br><br>それでちゃんと霊的に通じているわけですね。<br><br>霊的に解ったんです、ですからあの時分は暗号といって符牒（ふちょう）を作ったんですよ。<br><br>ちょうど今の共産主義のようなものでね。<br><br>昨日かの新聞に出てましたが、共産党の暗号は野球に準（なぞ）らえてね。<br><br>そういうことは日本の密教が初めですよ。<br><br>その言葉をなにかでちょっと見ましたがね。<br><br>共産党よりか上手くできてましたよ――もっと深かったですね。<br><br>共産党のはじきに分かりますからね。<br><br>そんなようなわけで、だから仏教でも嘘は許されていたんです。<br><br>ですから「嘘も方便」と言いますがね。<br><br>ですから嘘は――結構じゃないが、それほどの罪にならないです。<br><br>罪になるのは偽りです。<br><br>嘘と偽りは違うんですよ。<br><br>嘘というのは、先が信ずるも信じないも勝手です。<br><br>鼻の先であしらう――嘘言ってやがらあ、とね。<br><br>偽りというのは嘘の具体的効果ですね。<br><br>人に嘘を言うのはそれほどでもない。<br><br>場合によっては嘘を言っても良いんです。<br><br>ですから嘘というのは空虚なものですね。<br><br>ですから口偏に虚（から）と書きますね。<br><br>偽りというのは中に実体が入っているんですね。<br><br> それからもう一つは、理外の理ということをよく言いますが、理外の理ということは、あれも本当じゃないんですよ。<br><br>理外に理はあるものじゃないです。<br><br>理外にもし理があるとすれば、その理は非理ですね。<br><br>というのは理外の理の、最初の理と後の理が違うんです。<br><br>今理外の理という最初の理は理じゃないんです。<br><br>後の理が本当なんです。<br><br>理というのは道理であり真理です。<br><br>真理というのは理外の「理」の理ではないんです。<br><br>ですから理外の「理」というのは真理じゃない。<br><br>偽理ですね。<br><br>後の理の方が本当に効果的、実質的ですね。<br><br>そうしてみると、今までの理屈とか道理とかいうのは、それは嘘だった。<br><br>贋物だった。<br><br>ですから、私の言うことは真理なんですが、真理でない偽理の方が一般的になっているために、真理がおかしく取れることがありますね。<br><br>だからよくありますが、最初メシヤ教の説を聞くとあまりに突飛なんで、正面（まとも）に信じられないような奇想天外なのでびっくりする、とよく書いてありますがね。<br><br>それは本当いうと、私などが世間で言うような理屈を聞くと、奇想天外と思うんです。<br><br>ぜんぜんなっていないので、あんなことをしたら、とんでもないことになる。<br><br>たとえてみれば、結核新薬のヒドラジドなんかたいしたものと思って、世界中で大騒ぎしているんですが――それについて一つ書いたんですがね。<br><br> （御論文「結核半減記念祝いに就て」）【栄光 一六一号】 それから、今日はすべてが間違いきっているわけですね。<br><br>それを治すのがわれわれの仕事なんだから、たいへんな仕事には違いないですね。<br><br> それからまた話が違うけれども、大本教のお筆先にうまいことが書いてあるんですよ。<br><br>「人間が見て解る様なちょろこい仕組ではない。<br><br>神の奥には奥があり、その又奥に奥がある仕組である」ということがある。<br><br>それから「神界が解らないと思う人は解りたるのであるぞよ」こういうのがあるんですね。<br><br>それはどういうわけかというと、人間的の考えで判断するのは、これが一番怖いんですね。<br><br>とにかく人類を救う――新しい文明世界を造るというくらいの非常に大きな深い仕組みなんですね。<br><br>だからして人間的の判断なんかでとうてい解るものではないです。<br><br>そうかといって、それをはっきり言うことができないですね。<br><br>やはり時代に――時期によりますからね。<br><br>私は先から少しずつだんだん近い所を説くようにしてますが、まだまだその深さというのはどこまでもありますからね。<br><br>時期の進むに従って、説いていくわけですね。<br><br>だから人間は、奥の奥――深い所、神秘な所を分かりたいのは誰でもそうですが、それを分かろうと思うだけならいいが、ただ上っ面の所で――自分の小智小才をもって善悪を判断するというのが一番具合が悪いんですよ。<br><br>それがまた、分かるようならやはり神様と同じなんだから、分からないのがあたりまえで、ただ素直に時期を待つという態度でいるのが一番良いんですね。<br><br> それからもう一つは、人からいろんなことを聞きますが、それを正面（まとも）に信ずるということが、これがまた危ないですね。<br><br>だからいろんなことを聞いても、なるほど良い、しかしこれは神様の御趣旨に合っているかどうかということをまず考えてみて、どうも神様の御趣旨に合わない点もあるようだという場合には、御神書を見るんです――読むんです。<br><br>そうするとたいていなことはどこかにありますから、それで判断をするということにしなければならない。<br><br>そういうことで聞違えることがよくありますからね。<br><br>最近こういうことがあったですね。<br><br>ある信者で、メシヤ教は天国を造るんで、家庭も天国にしなければならない。<br><br>そうするとお金は、つまり余ってからあげる。<br><br>あげても経済的に差し障りがないだけの金をあげる。<br><br>そうすれば金の苦しみがないから、それが本当のやり方だ。<br><br>苦しんで金をあげるということは、やはり一つの苦しみを作るのだから、それは神様の御趣旨に合わない。<br><br>昔からいう「信心は徳の余り」というわけですね。<br><br>それを聞いて、ある信者は感心したんですよ。<br><br>それがだんだん広がって――苦しんで金をあげるから、だから家庭が天国にならないんだということにまでなった。<br><br>そうするとまた一方神様は今非常にお金が御入用だ。<br><br>人間は少しは苦労をしても神様の方にあげなければならない。<br><br>という両方の説が対立した。<br><br>しかしどうも後の説が負けるんですよ。<br><br>最初の方が勝っていくんですね。<br><br>どうもゴタゴタしているので、私が呼んでよく話してやった。<br><br>私の話はこういうわけです。<br><br>最初の、家庭が困らないようにするということも合っている。<br><br>確かにそれに違いない。<br><br>それから、神様はお金はたくさん必要だから――はやく地上天国を造って救わなければならないので、どんなことをしても金をあげなければならない――どんなに苦しんでもあげなければならない、ということも合っている。<br><br>両方とも合っているんだ。<br><br>ただ大乗と小乗だ。<br><br>最初の方は小乗的考え方ですね。<br><br>後の方は大乗的考え方ですね。<br><br>じゃ、後の方は金をあげて苦しむかというと、決して苦しまない。<br><br>金をあげてそんな苦しむような神様だったら拝むのを止めたらいい。<br><br>だから試しにあげてご覧なさい。<br><br>苦しむようにあげてご覧なさい。<br><br>十倍になって返ってきます。<br><br>苦しむどころじゃない。<br><br>たいへんな金にだぶついてくる。<br><br>そう言ってやったので、両方とも――小乗的の方はよく解って、ついこの間、謝りに来ましたがね。<br><br>そういうことがあるんですよ。<br><br>ですからそういうことも心得ておかなければならないということを、今話したんですがね。<br><br> それから五、六日前に宮本武蔵の絵を買いましたがね。<br><br>それはなぜ買ったというと、道具屋に行ったところが脇に掛けてあったんです。<br><br>見ると実に良く書いてあるんです。<br><br>これは誰だというと、宮本武蔵というんです。<br><br>絵の中に「二天（てん）」と書いてあるんですがね。<br><br>達磨さんの絵ですがね。<br><br>宋時代の絵に負けないですね。<br><br>私はぜひ欲しいからと買ってきましたがね。<br><br>おそらく、今の古径（こけい）、靫彦（ゆきひこ）なんか足元につかないです。<br><br>技術なんかですね。<br><br>今度美術館に出しますから、見れば分かります。<br><br>そこで考えさせられるのは、ふだんこの方（剣術）は始終やってましたが、筆の方はそれほど、そう研究したわけじゃないからね。<br><br>それはどういうわけかというと、一芸に達した人は他の方もそうなる。<br><br>たとえてみれば、いろんななにがあるとしますが、一つ飛び抜けて上の方に行きますと、他のものもそれについていくんです。<br><br>結局は同じなんですからね。<br><br>だから、武道の奥義に達すれば、絵の方もそこに行っちゃうんです――少し経てばね。<br><br>結局それによって魂を向上させれば良いわけですね。<br><br>これが一番はっきりしているのは、私ですが、私はなにも植木屋の手伝いしたわけでもないし、大工の――庭でも、今度の建築でも全部私がやったんですが、一つそこにいくと、なんでもそこのレベルにいきますからね。<br><br>今度美術館をやりましたが、最高のレベルだと思います。<br><br>今あれだけの設計をするのは、おそらくないです。<br><br>これが私が宗教の教祖でなければ、なぐられちゃいますよ――馬鹿にしているとね。<br><br>まあ、実際を見れば分かりますからね。<br><br>これはホラじゃないんですよ。<br><br>そういうようなもので、その道理を押し進めていくと美術品ですね。<br><br>あの良いものを見るんですね。<br><br>名人の傑作品を見ると魂がそれにいきますから、目が高くなるんですね。<br><br>目が高くなると、他のものにまでいきますから、批評眼が高くなるんですね。<br><br>芸術品ばかりでなく、あらゆるものの批評眼が高くなるから、その人の智慧証覚が高くなるんです。<br><br>智慧証覚というのは批評眼です。<br><br>ものを見てそれが善いとか悪いとかね。<br><br>本当だとか嘘だとか、その判別は批評眼によるんですからね。<br><br>ですから人間は物を見た批評眼が一番大切ですね。<br><br>だからああいった美術品の好きな――今の美術館はそういった価値はありますね。<br><br> この間私は上野に行って「国際美術展」の各国のを見ましたが、実にお話にならない。<br><br>あれを良いとか悪いとか批評して新聞や雑誌に出てますが、あれは批評できないですね。<br><br>もし批評するとすれば零（ゼロ）というんです。<br><br>ひどいものです。<br><br>ちょうど薬で病気を作っているのと同じです。<br><br>それから、糞をかけて米を穫れないようにしているのとね。<br><br>美術の方もそうなっているんですね。<br><br>そこにいくと古美術の秀れた高さというものは、たいしたものです。<br><br>現代人がつまらないものをたいそうに思うのは、批評眼がないからです。<br><br>批評眼がないということは、良いものを見ないからですね。<br><br>その点においても私は美術館はたいへんな役目をすると思ってます。<br><br>古い良いものを見ると、その人の頭がよほど違ってきます。<br><br>一番分かりやすいのは、ああいうものが好きな芸術家はみんな上になるんですからね。<br><br>一番好きなのは吉川英治ですが、三十年くらい前から好きで持ってます。<br><br>今もって好きで買ってますがね。<br><br>それから大仏次郎、川端康成――とても好きなんです。<br><br>それからあれはいつか来て見せてやりましたがね――高見順ですね。<br><br>このごろだいぶ出世してきました。<br><br>川端康成の弟子ですがね。<br><br>だいぶ注目されてきました。<br><br>油絵の方では梅原龍三郎です。<br><br>また馬鹿に好きなんです。<br><br>ですからあの人の油絵は一番良いです。<br><br>今度の美術館にもあの人の油絵の良い方のを一つか二つ出します。<br><br>私は他の油絵を美術館には出す気にはならないですね。<br><br>出す価値がないです。<br><br>梅原龍三郎は他の者が持っていないものを持っているんです。<br><br>ですから二、三日前に芸術家の会議で行きましたがね。<br><br>やっぱりあの人の骨董好きですね。<br><br>それが影響しているわけですね。<br><br>それから吉川英治なんか宮本武蔵なんて傑作を作りましたが、あの中に光悦も入ってますが、それから沢庵和尚ですね。<br><br>あの文芸作品で、ああいう方面に関心を持ったということは、やはりそれだけ違っていたわけですね。<br><br>なかなか、話の方はきりがないから、このくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>A Interpretação Correta dos Ensinamentos e o Discernimento Espiritual</h2>
-            <p>Embora a cerimônia de inauguração se aproxime e o número de presentes pareça consideravelmente menor,
+<h2>A Interpretação Correta dos Ensinamentos e o Discernimento Espiritual</h2>
+<p>Embora a cerimônia de inauguração se aproxime e o número de presentes pareça consideravelmente menor,
                 ontem, diante de uma audiência igualmente reduzida, proferi algumas palavras que foram recebidas com
                 grande contentamento. Por essa razão, decidi falar novamente hoje.</p>
-            <p>Gostaria de abordar um ponto de suma importância. Ocasionalmente, chegam a meus ouvidos comentários de
+<p>Gostaria de abordar um ponto de suma importância. Ocasionalmente, chegam a meus ouvidos comentários de
                 que meus escritos, ou mesmo minhas palavras, possuem um duplo sentido, uma face oculta que precisa ser
                 decifrada. Se encontrarem alguém que sustente tal ideia, podem estar certos de que essa pessoa está sob
                 a influência de um espírito maligno. Meus ensinamentos são absolutamente desprovidos de duplicidade.
                 Devem ser recebidos exatamente como são ditos e como são escritos. Se eu recorresse a sentidos ocultos,
                 como poderiam saber até que ponto depositar sua fé?</p>
-            <p>A origem dessa cautela remonta ao período anterior ao fim da guerra, uma época perigosa. As autoridades
+<p>A origem dessa cautela remonta ao período anterior ao fim da guerra, uma época perigosa. As autoridades
                 de então nutriam um profundo temor pelo surgimento de grandes líderes. Foi por essa razão que religiões
                 como a Oomoto e a Hito no Michi sofreram severa perseguição. A questão primordial era a veneração a um
                 ser humano vivo, prática que, aos olhos do governo, elevava o líder religioso a uma posição superior à
                 do Imperador.</p>
-            <p>No caso da Hito no Michi, por exemplo, eles chegaram a produzir uma imagem de níquel de seu fundador,
+<p>No caso da Hito no Michi, por exemplo, eles chegaram a produzir uma imagem de níquel de seu fundador,
                 Miki Tokuharu (御木徳一). Em seus altares, a figura central era a deusa Amaterasu Omikami, ladeada à direita
                 pelas imagens dos sucessivos imperadores e, à esquerda, pelas dos antepassados. Contudo, posicionaram a
                 estátua de Miki Tokuharu diante da deusa, instruindo os fiéis a reverenciá-la. As demais acusações foram
@@ -135,7 +284,7 @@ function toggleLang(lang) {
                 Colocar a própria imagem diante de Amaterasu Omikami para ser venerada equivalia a se equiparar ao
                 Imperador. Confesso que, na época, achei tal atitude de uma insensatez desconcertante, mas é provável
                 que, em seu fervor religioso e mediúnico, acreditassem genuinamente nisso.</p>
-            <p>Na Oomoto, o caso de Deguchi Onisaburo (出口王仁三郎) foi ainda mais grave; seu desrespeito à figura imperial
+<p>Na Oomoto, o caso de Deguchi Onisaburo (出口王仁三郎) foi ainda mais grave; seu desrespeito à figura imperial
                 era flagrante. Ele vestia um haori adornado com o crisântemo de dezesseis pétalas, o brasão imperial, e
                 trajava-se de uma maneira que nem mesmo um membro da família real ousaria. Afirmava ser o herdeiro da
                 verdadeira linhagem imperial do Japão. Aparentemente, ele era, de fato, um filho ilegítimo do príncipe
@@ -144,7 +293,7 @@ function toggleLang(lang) {
                 revelou-lhe essa verdade até então oculta. Fui visitá-la pouco antes de seu falecimento e, ao retornar,
                 ouvi a história diretamente dos lábios do mestre Deguchi. A partir desse momento, sua atitude mudou
                 drasticamente. Ele passou a se ver como o legítimo herdeiro do trono.</p>
-            <p>Nesse período, por volta de 1907, a "Controvérsia sobre a Legitimidade das Cortes do Norte e do Sul"
+<p>Nesse período, por volta de 1907, a "Controvérsia sobre a Legitimidade das Cortes do Norte e do Sul"
                 estava em voga, e os acadêmicos concluíram que a linhagem da Corte do Sul era a legítima. Como a família
                 imperial da época descendia da Corte do Norte, Deguchi, considerando-se o verdadeiro herdeiro da Corte
                 do Sul, convenceu-se de que deveria ser o Imperador do Japão. Passou, então, a viajar com uma espécie de
@@ -160,7 +309,7 @@ function toggleLang(lang) {
                 destruindo tudo. Quando visitei o local posteriormente, a devastação era estarrecedora. O Templo da Lua,
                 por exemplo, fora completamente demolido com dinamite, assemelhando-se às ruínas de um bombardeio; não
                 restava sequer uma sombra do que fora.</p>
-            <p>Diante desse cenário, as autoridades da época detestavam qualquer pessoa que se destacasse. Quando eu
+<p>Diante desse cenário, as autoridades da época detestavam qualquer pessoa que se destacasse. Quando eu
                 curava doenças, as pessoas naturalmente me demonstravam gratidão e reverência, o que me colocava em uma
                 posição de risco. Por isso, sempre agi da forma mais discreta possível, mantendo minhas atividades em
                 pequena escala. Ainda assim, fui detido pela delegacia de Omiya e submetido a tortura física. Puxaram-me
@@ -175,7 +324,7 @@ function toggleLang(lang) {
                 Nakajima dirigia a Tengoku-kai, a polícia interveio, afirmando que as curas não provinham do poder de
                 Kannon, mas sim do augusto poder do Imperador. Diziam que poderíamos continuar, desde que atribuíssemos
                 as curas à majestade imperial. Era um ambiente extremamente difícil para se trabalhar.</p>
-            <p>Havia também a Igreja Holiness, um grupo cristão liderado por Nakata Shigeharu (中田重治). Seis de seus
+<p>Havia também a Igreja Holiness, um grupo cristão liderado por Nakata Shigeharu (中田重治). Seis de seus
                 líderes foram presos e submetidos a torturas e maus-tratos tão severos que dois deles morreram na prisão
                 — foram praticamente assassinados. O próprio Nakata Shigeharu adoeceu e veio a falecer. A causa da
                 perseguição foi a crença na Segunda Vinda de Cristo. Eles pregavam que Cristo retornaria à "Terra do
@@ -189,21 +338,21 @@ function toggleLang(lang) {
                 ele era um crime gravíssimo, e por isso foram aniquilados. Recentemente, ouvi dizer que estão tentando
                 se reerguer timidamente, o que é lamentável. Nakata Shigeharu era um homem notável, e seus ensinamentos
                 eram corretos. Na verdade, a Igreja Holiness era vista com grande atenção dentro do cristianismo.</p>
-            <p>(Pergunta de um membro: Mestre, na região de Kansai, uma igreja chamada Sairin Kyokai está bastante
+<p>(Pergunta de um membro: Mestre, na região de Kansai, uma igreja chamada Sairin Kyokai está bastante
                 ativa.)</p>
-            <p>Sim, é natural. Qualquer cristão que estude as escrituras a fundo chegará a essa mesma conclusão.</p>
-            <p>Minhas palavras se desviaram bastante do curso original, a ponto de eu quase me esquecer do fio da meada.
+<p>Sim, é natural. Qualquer cristão que estude as escrituras a fundo chegará a essa mesma conclusão.</p>
+<p>Minhas palavras se desviaram bastante do curso original, a ponto de eu quase me esquecer do fio da meada.
                 Ah, sim, falava sobre a duplicidade. Como expliquei, devido àquele contexto opressor, eu não podia me
                 expressar com total clareza. Por isso, meus primeiros livros, como "Ashita no Ijutsu", foram escritos de
                 forma bastante velada. Naquela época, havia, de fato, um duplo sentido.</p>
-            <p>Essa prática não é nova no Japão. Nos primórdios do budismo, quando o xintoísmo ainda detinha grande
+<p>Essa prática não é nova no Japão. Nos primórdios do budismo, quando o xintoísmo ainda detinha grande
                 poder, era impossível pregar a verdade abertamente. Os ensinamentos eram, portanto, não apenas dúbios,
                 mas quase que inteiramente velados. O Budismo Esotérico Shingon é um exemplo disso. Sua doutrina secreta
                 ensina que Buda está acima dos sete reis, o que, para a época, seria um ato de extrema afronta ao
                 Imperador. Um estudioso da Oomoto que ousou afirmar isso foi convocado pela polícia e severamente
                 repreendido. Ele teve grande dificuldade para se justificar, mas conseguiu contornar a situação
                 argumentando que se tratava de uma questão do Mundo Espiritual, e não do mundo terreno.</p>
-            <p>Dessa forma, a verdade não podia ser transmitida abertamente por palavras ou pela escrita, mas sim
+<p>Dessa forma, a verdade não podia ser transmitida abertamente por palavras ou pela escrita, mas sim
                 através da iluminação espiritual, do satori. Ensinava-se algo próximo à verdade, de modo a despertar a
                 compreensão interior. Ao final do treinamento, o discípulo se apresentava diante do sumo sacerdote, que
                 lhe perguntava: "Compreendeste?". Bastava a resposta "Compreendi" para que a transmissão espiritual
@@ -211,13 +360,13 @@ function toggleLang(lang) {
                 comunistas de hoje. Li no jornal recentemente que o Partido Comunista usa uma cifra baseada em termos de
                 beisebol. Pois bem, o budismo esotérico japonês foi pioneiro nisso, e seus códigos eram muito mais
                 sofisticados e profundos que os dos comunistas, que são facilmente decifráveis.</p>
-            <p>Em virtude dessas circunstâncias, no budismo, a mentira era permitida. Daí o ditado: "A mentira também
+<p>Em virtude dessas circunstâncias, no budismo, a mentira era permitida. Daí o ditado: "A mentira também
                 pode ser um meio hábil". A mentira em si não é um pecado grave; a falsidade, sim. Mentira e falsidade
                 são distintas. Diante de uma mentira, o interlocutor tem a liberdade de acreditar ou não. É algo que se
                 pode ignorar com desdém. A mentira é uma palavra vazia; não por acaso, o kanji para "mentira" (嘘) é
                 composto pelos radicais de "boca" (口) e "vazio" (虚). A falsidade (偽り), por sua vez, é a manifestação
                 concreta da mentira. Ela contém uma substância real e um propósito de enganar.</p>
-            <p>Outro conceito frequentemente mencionado é o do "princípio além do princípio" (rigai no ri). Isso, na
+<p>Outro conceito frequentemente mencionado é o do "princípio além do princípio" (rigai no ri). Isso, na
                 verdade, não é correto. Não pode existir um princípio fora do princípio. Se existisse, seria um
                 não-princípio. A questão é que o primeiro "princípio" e o segundo "princípio" dessa expressão têm
                 naturezas diferentes. O primeiro "princípio" não é um princípio verdadeiro; o segundo é que é. Princípio
@@ -231,9 +380,9 @@ function toggleLang(lang) {
                 fundamento, algo que, se seguido, levaria a consequências desastrosas. Vejam, por exemplo, o alarde
                 mundial em torno da hidrazida, o novo medicamento para a tuberculose. Escrevi um artigo a esse respeito.
             </p>
-            <p>Hoje, tudo está imerso no erro. Nossa missão de corrigir essa situação é, sem dúvida, uma tarefa
+<p>Hoje, tudo está imerso no erro. Nossa missão de corrigir essa situação é, sem dúvida, uma tarefa
                 monumental.</p>
-            <p>Mudando de assunto, há uma passagem muito interessante nas Escrituras Sagradas da Oomoto: "O Plano Divino
+<p>Mudando de assunto, há uma passagem muito interessante nas Escrituras Sagradas da Oomoto: "O Plano Divino
                 não é algo tão simples que o ser humano possa compreender. Nos desígnios de Deus há um mistério, e por
                 trás desse mistério, há outro ainda mais profundo". E também: "Aquele que julga não compreender o Mundo
                 Divino é quem, na verdade, o compreendeu". O que isso significa? Significa que o maior perigo reside em
@@ -246,12 +395,12 @@ function toggleLang(lang) {
                 o bem e o mal com nosso parco intelecto e talento. Se pudéssemos compreender tudo, seríamos como Deus. O
                 natural é não compreender. A atitude mais correta é simplesmente aguardar o momento certo com um coração
                 dócil.</p>
-            <p>Outro ponto importante é o perigo de acreditar cegamente em tudo o que se ouve. Ao receber uma
+<p>Outro ponto importante é o perigo de acreditar cegamente em tudo o que se ouve. Ao receber uma
                 informação, mesmo que pareça boa, devemos primeiro ponderar se ela está de acordo com a Vontade Divina.
                 Se houver dúvidas, devemos consultar os Ensinamentos. A maioria das questões já foi abordada em algum
                 lugar, e é por meio deles que devemos formar nosso juízo. É muito comum haver equívocos por falta desse
                 cuidado.</p>
-            <p>Recentemente, ocorreu um caso ilustrativo. Certo membro começou a difundir a ideia de que, como a Igreja
+<p>Recentemente, ocorreu um caso ilustrativo. Certo membro começou a difundir a ideia de que, como a Igreja
                 Messiânica visa construir o Paraíso, o lar também deve se tornar um paraíso. Segundo ele, o donativo
                 correto seria apenas aquele feito com o dinheiro que sobra, de modo a não gerar qualquer dificuldade
                 financeira para a família. Assim, sem sofrimento, o lar se tornaria paradisíaco. Fazer um donativo com
@@ -259,47 +408,47 @@ function toggleLang(lang) {
                 de que "a fé vem da sobra da virtude". Muitos membros se entusiasmaram com essa teoria, que se espalhou
                 a ponto de se afirmar que os lares não se tornavam paraísos porque as pessoas faziam donativos com
                 sacrifício.</p>
-            <p>Por outro lado, havia a visão de que Deus, neste momento, necessita urgentemente de recursos e que,
+<p>Por outro lado, havia a visão de que Deus, neste momento, necessita urgentemente de recursos e que,
                 portanto, devemos contribuir mesmo que isso nos custe algum sacrifício. As duas teses entraram em
                 conflito, mas a primeira ganhava cada vez mais adeptos. Diante da confusão, convoquei os envolvidos para
                 esclarecer a questão.</p>
-            <p>Minha explicação foi a seguinte: a primeira visão, a de não comprometer o sustento da família, está
+<p>Minha explicação foi a seguinte: a primeira visão, a de não comprometer o sustento da família, está
                 correta. É inegável. A segunda, a de que Deus precisa de muitos recursos para acelerar a construção do
                 Paraíso Terrestre e que, por isso, devemos contribuir mesmo com sacrifício, também está correta. Ambas
                 estão certas. A diferença reside em uma ser uma perspectiva de Pequeno Veículo e a outra, de Grande
                 Veículo. A primeira é uma visão limitada; a segunda, uma visão abrangente.</p>
-            <p>Mas será que aquele que doa com sacrifício realmente sofre? De forma alguma. Se Deus nos fizesse sofrer
+<p>Mas será que aquele que doa com sacrifício realmente sofre? De forma alguma. Se Deus nos fizesse sofrer
                 por um donativo, seria melhor deixar de segui-Lo. Eu lhes disse: "Experimentem. Façam um donativo que
                 lhes exija sacrifício e verão. Receberão dez vezes mais em retorno. Longe de sofrerem, terão uma
                 abundância extraordinária". Após essa orientação, os defensores da visão do Pequeno Veículo
                 compreenderam seu equívoco e, há pouco tempo, vieram se desculpar. São situações como essa que vocês
                 precisam ter em mente.</p>
-            <p>Há alguns dias, adquiri uma pintura de Miyamoto Musashi. Eu estava em um antiquário quando a vi pendurada
+<p>Há alguns dias, adquiri uma pintura de Miyamoto Musashi. Eu estava em um antiquário quando a vi pendurada
                 em uma parede lateral. A qualidade da obra era notável. Perguntei quem era o autor e me disseram ser
                 Miyamoto Musashi. A pintura de um Daruma trazia a assinatura "Niten". A sua técnica não fica em nada a
                 dever às obras da dinastia Sung. Insisti em comprá-la. Artistas contemporâneos como Kokei (古径) ou
                 Yukihiko (靫彦) não chegariam aos seus pés. A obra estará em exposição no museu para que possam
                 apreciá-la.</p>
-            <p>O que isso nos faz pensar é que, embora Musashi se dedicasse diariamente à esgrima, ele certamente não
+<p>O que isso nos faz pensar é que, embora Musashi se dedicasse diariamente à esgrima, ele certamente não
                 estudou a pintura com a mesma intensidade. Como isso é possível? Aquele que atinge a maestria em uma
                 arte, alcança-a também em outras áreas. Imagine diversos campos do saber. Se você se eleva a um patamar
                 superior em um deles, os demais o acompanharão, pois, em sua essência, todos estão conectados. Ao
                 atingir o ápice da arte marcial, ele também atingiu, com o tempo, o ápice da pintura. O fundamental é a
                 elevação do espírito.</p>
-            <p>O exemplo mais claro disso sou eu mesmo. Nunca fui aprendiz de jardineiro ou carpinteiro, mas projetei os
+<p>O exemplo mais claro disso sou eu mesmo. Nunca fui aprendiz de jardineiro ou carpinteiro, mas projetei os
                 jardins e também os edifícios que estão sendo construídos. Quando se atinge um determinado nível
                 espiritual, tudo o que se faz alcança esse mesmo nível. O museu que estamos construindo, creio eu,
                 representa o mais alto padrão arquitetônico. Dificilmente haverá, hoje, quem possa realizar um projeto
                 como este. Se eu não fosse o líder de uma religião, certamente seria agredido por dizer tais coisas,
                 acusado de presunção. Mas os fatos falarão por si. Não estou sendo vaidoso.</p>
-            <p>Esse mesmo princípio se aplica à apreciação da arte. Contemplar as obras-primas dos grandes mestres eleva
+<p>Esse mesmo princípio se aplica à apreciação da arte. Contemplar as obras-primas dos grandes mestres eleva
                 nosso espírito e aprimora nosso olhar. Com um olhar mais elevado, nossa capacidade de discernimento se
                 aguça, não apenas para a arte, mas para todas as coisas. A percepção da verdade, a sabedoria e a
                 iluminação nada mais são do que essa capacidade de discernimento. É a faculdade de olhar para algo e
                 julgar se é bom ou ruim, verdadeiro ou falso. Portanto, o discernimento é a faculdade mais importante
                 para o ser humano. E o apreço por obras de arte como as de nosso museu tem um valor inestimável para
                 desenvolvê-lo.</p>
-            <p>Recentemente, visitei a Exposição Internacional de Belas-Artes em Ueno e vi as obras de vários países.
+<p>Recentemente, visitei a Exposição Internacional de Belas-Artes em Ueno e vi as obras de vários países.
                 Eram simplesmente indescritíveis. Jornais e revistas publicam críticas, mas, na verdade, aquelas obras
                 são incriticáveis. A única crítica possível seria atribuir-lhes a nota zero. É algo terrível. É o mesmo
                 que criar doenças com remédios, ou adubar o campo com excrementos para impedir a colheita do arroz. A
@@ -309,7 +458,7 @@ function toggleLang(lang) {
                 que nosso museu cumprirá um papel de extrema importância. Contemplar as grandes obras do passado
                 transforma a mente das pessoas. A prova mais clara disso é que os artistas que apreciam essas obras se
                 tornam os melhores em seus campos.</p>
-            <p>Yoshikawa Eiji é um grande apreciador, colecionador há mais de trinta anos. Osamu Dazai e Kawabata
+<p>Yoshikawa Eiji é um grande apreciador, colecionador há mais de trinta anos. Osamu Dazai e Kawabata
                 Yasunari também são grandes entusiastas. Takami Jun, um discípulo de Kawabata que tem ganhado destaque,
                 também veio nos visitar certa vez. Na pintura a óleo, temos Umehara Ryuzaburo, que é um apaixonado por
                 antiguidades. Por isso, suas pinturas são as melhores. Exibiremos uma ou duas de suas principais obras
@@ -318,9 +467,51 @@ function toggleLang(lang) {
                 novamente seu apreço por antiguidades, o que certamente influencia seu trabalho. Yoshikawa Eiji, que
                 escreveu a obra-prima "Musashi", demonstrou seu interesse por essa esfera ao incluir personagens como
                 Hon'ami Koetsu e o monge Takuan Soho em sua narrativa.</p>
-            <p>Bem, as conversas sobre este assunto não têm fim, portanto, encerrarei por aqui.</p>
-        </div>
-    </blockquote>
-</body>
+<p>Bem, as conversas sobre este assunto não têm fim, portanto, encerrarei por aqui.</p>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年6月7日） 『御教え集』11号、昭和27(1952)年7月15日発行 昭和二十七年六月七日 【御教え】 落成式が近づいたので、だいぶ少ないようですが――昨日も少なかったので話をしたんで、非常にみんな喜んでましたから、今日も話をしようと思います。<br/><br/> これは肝腎なことですが、よく私の書いた文章だとか、私の言ったこともありますが、明主様のおっしゃることでも、やはり裏表があるから、そういうのも考えなければいけない、というようなことを時々聞くんです。<br/><br/>そういう人があったら、それは邪神が憑いていると思えばいいんです。<br/><br/>私の言うことは、決して裏表がないんだからね。<br/><br/>言ったまま、字に書いたまま、そのまま受け取れば良いんです。<br/><br/>そういう裏表を書くようでは、どこまで信じて良いか分からなくなります。<br/><br/>それはどういうわけかというと、終戦前は危ないですから、あの当時の官憲は偉い人が出るということを非常に怖がった。<br/><br/>それですから、大本教でもひとのみちでも、やられましたけれども、その根本は生きた人間を拝むんです。<br/><br/>生きた人間を拝むと天皇陛下より上ということになるんですね。<br/><br/>そこで、ひとのみちなんかは、御木徳一（みきとくはる）という教祖の像をニッケルで作って――お宮の真ん中が天照大神で、向かって右が代々の天皇、左が祖先と、こういうふうな像を作って、天照大神の前に御木徳一氏の像を置いて、それを拝ませた。<br/><br/>で、他のことはみんな官憲が作ったものでしょうね。<br/><br/>根本はそれなんですよ。<br/><br/>つまり不敬ですね。<br/><br/>天照大神の前に自分の像を置いて拝ませるということは、ちょうど天皇と同じような意味になりますからね。<br/><br/>またどうしてそんなことをしたものか、ちょっと気が知れないと思ったんですがね。<br/><br/>しかしやはり信仰的に――神懸り的にそういうふうに信じたんでしょうね。<br/><br/>それが元だったんです。<br/><br/>大本教なんか、出口王仁三郎先生ですね。<br/><br/>あの人が不敬も不敬、たいへんな不敬だったですね。<br/><br/>十六の菊の御紋をつけた羽織を着て、服装なんか宮様でも着るような服装をして、言うことも、ワシが日本の本当の天皇の系統だと言う。<br/><br/>というのは、あの人は有栖川（ありすがわ）の宮さんの落とし子だそうです。<br/><br/>これは本当でしょう。<br/><br/>有栖川の宮さんが京都に滞在なされたことがある。<br/><br/>その時に近侍として出た若い娘にお手がついたとの話です。<br/><br/>その時生まれたのが出口王仁三郎先生だと言うのです。<br/><br/>だからお母さんが有栖川の宮さんの胤（たね）をいただいたわけですね。<br/><br/>それは、お母さんが危篤の時に出口先生が行って、今まで隠していたが、お前は本当はこういう事情のもとに生まれたのだ、という話をされた由です。<br/><br/>その直後に私は見舞いに行って帰ってきて出口先生に直接聞いたんです。<br/><br/>それからガラッと変わったんです。<br/><br/>俺はそうしてみると本当の日本の天皇の系統だ、という気持ちになった。<br/><br/>それで明治四十年ごろに「南北朝正統論」というのがやかましく言われましたが、学者の説で南朝が正統だということになったんです。<br/><br/>で、その当時の天皇の系統――終戦時の天皇の系統は北朝ですから、北朝は本当ではない。<br/><br/>俺は南朝の正統だから、俺こそ日本の天皇になるべきものだ、という考えになっちゃったんでしょう。<br/><br/>それから外出する――旅行なんかするにも、儀仗兵的に――駅なんかに着くと、あの時分青年隊というのがありましたが、それは全部軍人のような服装をして、出口王仁三郎先生はちゃんとサーベルかなにか持って――剣を持って――それは抜くと旗なんですが、剣の形にね。<br/><br/>それでプラットホームに行くとみんな敬礼している。<br/><br/>それで陛下の時のようにしている。<br/><br/>外に出るとオートバイが二台先頭に立ってズーッと行くんです。<br/><br/>それで後からお供の車が二、三台行く。<br/><br/>これは私が大本教を脱退した一つの理由だったんです。<br/><br/>危ない、これはやられると思ってね。<br/><br/>その時諫言（かんげん）した人もそうとうあるんですがね。<br/><br/>注意したんですが、その注意がおかしいんです。<br/><br/>出口王仁三郎先生は聖師様とその時言っていたが、「聖師様はそういう思し召しはないんだが、側の者がそういうことをするのは怪しからん」というのと「聖師様がそうするのだ」というのと両方ありましたが、なにしろ危ないので、それが脱退した一つの理由です。<br/><br/>それで官憲の方は怪しからんと根こそぎ弾圧したんです。<br/><br/>あとで行ってみると、よくも壊したものですがね。<br/><br/>月宮殿というのがありましたが、みんな壊れて――戦災の跡みたいです。<br/><br/>みんなダイナマイトで壊したんですから、見る影もないです。<br/><br/> そんなような具合で、その当時の官憲は偉い人というのを非常に嫌った。<br/><br/>だから私が病気を治したりすると、ありがたがって敬ったりしますが、それが危ないんです。<br/><br/>だからできるだけそういうことのないように、小さく小さくやっていたんです。<br/><br/>それでも大宮警察署に引っ張られて、そこで拷問にあって――これは肉体的拷問です。<br/><br/>頭の毛を引っ張られたり、剣術の竹刀を持って二人の奴が、腰骨をくだくとまで言ってやられたり、それでぜんぜんありもしないことを書いて、判を捺（お）せというんですからね。<br/><br/>今度の静岡の取り調べも随分ひどかったが、それほどではなかったですね。<br/><br/>随分ひどかったが、今言ったそういう恐ろしいことはなかったですね。<br/><br/>それを警視庁にやると、岡田という奴は怪しからん、とブラックリストに載せられる。<br/><br/>それで至る所警察の奴が放たれて――監視つきですね。<br/><br/>随分あの当時は嫌な感じだったです。<br/><br/>熱海に来た時は――東山荘に来た時ですね。<br/><br/>熱海の警察署から二人来て、塀の穴からのぞいて、今日は男が何人、女が何人、いつごろ帰ったと記録していたんですからね。<br/><br/>だから時々変な男が家のまわりを見にきたりするんで、だから気持ちが悪くてね。<br/><br/>それで、天国会の中島さんがやっている時警察が来て、病気が治るということは、つまり観音様で治るのではない。<br/><br/>陛下の御稜威（みいつ）で治るんだ。<br/><br/>陛下の御稜威で治るというのを言うのなら良いが、観音さんで治ると言ってはいかんと、そういうことがありましたね。<br/><br/>そんなこんなだから、やり悪（にく）かったんですよ。<br/><br/>その当時中田重治という人がやっていた、ホーリネスというキリスト教会があるんですが、そこなんか幹部の者が六人牢屋に入れられて、非常な拷問や虐待を受けて二人牢で死んだです。<br/><br/>まあ殺されたようなものですね。<br/><br/>中田重治という人も病気になって死にましたがね。<br/><br/>なにが原因かというと、再臨派といって、キリストの再臨を信じた。<br/><br/>キリストは黄金の国に再臨するといって――黄金の国とは日本で、日本に再臨しなければならないというので、再臨派はそうとういたですね。<br/><br/>先に大阪の人で、位置は大阪に違いないが――大阪に再臨しているに違いないと、そうして探した人がありますがね。<br/><br/>そんなわけでホーリネス教会の一人で、いったいキリストが再臨したら、天皇とキリストと較べてどっちが偉いんだ。<br/><br/>こういうことを言ったんですがね。<br/><br/>それは日本では天皇陛下は偉い方に違いないが、世界的に言えば、やはりキリストの方が全人類を救われるんだから、まずキリストの方が上とみなければならない。<br/><br/>その一言でやられたんです。<br/><br/>ただその時分に日本の軍部――日本の天皇陛下は世界を統一する――八紘一宇（はっこういちう）ですね。<br/><br/>そこで天皇より偉いということになれば、それはたいへんなんです。<br/><br/>それだけでとうとうつぶされましたがね。<br/><br/>近ごろいくらか小さく始めているようですが、まあ気の毒なものですよ。<br/><br/>中田重治という人はなかなか立派な人で、言うことは正しかったですね。<br/><br/>むしろキリスト教の方ではホーリネスを注目していたですがね。<br/><br/>ホーリネス教会という名前で、どこかにできたということを聞きましたがね。<br/><br/> 御伺い 明主様申し上げます。<br/><br/>関西の方で再臨教会というので、さかんにいたしております。<br/><br/> そうでしょうね。<br/><br/>やっぱりあれは、キリスト教も本当に研究すればそこにいくんですからね。<br/><br/>そんなようなわけで――話が馬鹿に横道にいったんですが――本筋が分からなくなっちゃったが、そういうわけですから、そうそう裏表の話でした。<br/><br/>そういうわけだから、はっきり言えなかったですね。<br/><br/>ですから私の本なんかでも、最初の『明日（みょうにち）の医術』なんかは、随分ぼかして書いてありますから、確かに裏表があったんです。<br/><br/>日本でも最初――昔、仏教の最初の時代ですが、あの時代には随分神道やなにかも力があって、本当のことが言えないために大いに――裏表どころではない、裏ばかりの説き方をしていた。<br/><br/>その時分の――真言密教ですね。<br/><br/>あれがそうなんです。<br/><br/>密教というのは、本当の奥義はお釈迦さんは七王の上にあるとしてある。<br/><br/>七つの王様の上にあるというんですね。<br/><br/>ですからその時分の天皇に対して、非常に不敬になるんです。<br/><br/>天皇より上なんですからね。<br/><br/>大本教にそういう研究家がいて、釈迦は七王の上にあるんだと言って、警察に呼び出されて、随分やられたようです。<br/><br/>そうしてその弁明に非常に苦しんだようですが、これは宗教の――霊界のことだからというので、うまくごまかしたようですがね。<br/><br/>そんなわけで、言葉や筆で知らせることができなかった。<br/><br/>ですから覚りでいくんですからね。<br/><br/>本当のことを言わないで、本当に近いようなことを言って覚らせるんです。<br/><br/>教えをして、味わいですね。<br/><br/>あれをさせる時には、試験の時には大僧正の前に行って、大僧正から「お前解ったか」というと、「解りました」。<br/><br/>それで良いんですからね。<br/><br/>それでちゃんと霊的に通じているわけですね。<br/><br/>霊的に解ったんです、ですからあの時分は暗号といって符牒（ふちょう）を作ったんですよ。<br/><br/>ちょうど今の共産主義のようなものでね。<br/><br/>昨日かの新聞に出てましたが、共産党の暗号は野球に準（なぞ）らえてね。<br/><br/>そういうことは日本の密教が初めですよ。<br/><br/>その言葉をなにかでちょっと見ましたがね。<br/><br/>共産党よりか上手くできてましたよ――もっと深かったですね。<br/><br/>共産党のはじきに分かりますからね。<br/><br/>そんなようなわけで、だから仏教でも嘘は許されていたんです。<br/><br/>ですから「嘘も方便」と言いますがね。<br/><br/>ですから嘘は――結構じゃないが、それほどの罪にならないです。<br/><br/>罪になるのは偽りです。<br/><br/>嘘と偽りは違うんですよ。<br/><br/>嘘というのは、先が信ずるも信じないも勝手です。<br/><br/>鼻の先であしらう――嘘言ってやがらあ、とね。<br/><br/>偽りというのは嘘の具体的効果ですね。<br/><br/>人に嘘を言うのはそれほどでもない。<br/><br/>場合によっては嘘を言っても良いんです。<br/><br/>ですから嘘というのは空虚なものですね。<br/><br/>ですから口偏に虚（から）と書きますね。<br/><br/>偽りというのは中に実体が入っているんですね。<br/><br/> それからもう一つは、理外の理ということをよく言いますが、理外の理ということは、あれも本当じゃないんですよ。<br/><br/>理外に理はあるものじゃないです。<br/><br/>理外にもし理があるとすれば、その理は非理ですね。<br/><br/>というのは理外の理の、最初の理と後の理が違うんです。<br/><br/>今理外の理という最初の理は理じゃないんです。<br/><br/>後の理が本当なんです。<br/><br/>理というのは道理であり真理です。<br/><br/>真理というのは理外の「理」の理ではないんです。<br/><br/>ですから理外の「理」というのは真理じゃない。<br/><br/>偽理ですね。<br/><br/>後の理の方が本当に効果的、実質的ですね。<br/><br/>そうしてみると、今までの理屈とか道理とかいうのは、それは嘘だった。<br/><br/>贋物だった。<br/><br/>ですから、私の言うことは真理なんですが、真理でない偽理の方が一般的になっているために、真理がおかしく取れることがありますね。<br/><br/>だからよくありますが、最初メシヤ教の説を聞くとあまりに突飛なんで、正面（まとも）に信じられないような奇想天外なのでびっくりする、とよく書いてありますがね。<br/><br/>それは本当いうと、私などが世間で言うような理屈を聞くと、奇想天外と思うんです。<br/><br/>ぜんぜんなっていないので、あんなことをしたら、とんでもないことになる。<br/><br/>たとえてみれば、結核新薬のヒドラジドなんかたいしたものと思って、世界中で大騒ぎしているんですが――それについて一つ書いたんですがね。<br/><br/> （御論文「結核半減記念祝いに就て」）【栄光 一六一号】 それから、今日はすべてが間違いきっているわけですね。<br/><br/>それを治すのがわれわれの仕事なんだから、たいへんな仕事には違いないですね。<br/><br/> それからまた話が違うけれども、大本教のお筆先にうまいことが書いてあるんですよ。<br/><br/>「人間が見て解る様なちょろこい仕組ではない。<br/><br/>神の奥には奥があり、その又奥に奥がある仕組である」ということがある。<br/><br/>それから「神界が解らないと思う人は解りたるのであるぞよ」こういうのがあるんですね。<br/><br/>それはどういうわけかというと、人間的の考えで判断するのは、これが一番怖いんですね。<br/><br/>とにかく人類を救う――新しい文明世界を造るというくらいの非常に大きな深い仕組みなんですね。<br/><br/>だからして人間的の判断なんかでとうてい解るものではないです。<br/><br/>そうかといって、それをはっきり言うことができないですね。<br/><br/>やはり時代に――時期によりますからね。<br/><br/>私は先から少しずつだんだん近い所を説くようにしてますが、まだまだその深さというのはどこまでもありますからね。<br/><br/>時期の進むに従って、説いていくわけですね。<br/><br/>だから人間は、奥の奥――深い所、神秘な所を分かりたいのは誰でもそうですが、それを分かろうと思うだけならいいが、ただ上っ面の所で――自分の小智小才をもって善悪を判断するというのが一番具合が悪いんですよ。<br/><br/>それがまた、分かるようならやはり神様と同じなんだから、分からないのがあたりまえで、ただ素直に時期を待つという態度でいるのが一番良いんですね。<br/><br/> それからもう一つは、人からいろんなことを聞きますが、それを正面（まとも）に信ずるということが、これがまた危ないですね。<br/><br/>だからいろんなことを聞いても、なるほど良い、しかしこれは神様の御趣旨に合っているかどうかということをまず考えてみて、どうも神様の御趣旨に合わない点もあるようだという場合には、御神書を見るんです――読むんです。<br/><br/>そうするとたいていなことはどこかにありますから、それで判断をするということにしなければならない。<br/><br/>そういうことで聞違えることがよくありますからね。<br/><br/>最近こういうことがあったですね。<br/><br/>ある信者で、メシヤ教は天国を造るんで、家庭も天国にしなければならない。<br/><br/>そうするとお金は、つまり余ってからあげる。<br/><br/>あげても経済的に差し障りがないだけの金をあげる。<br/><br/>そうすれば金の苦しみがないから、それが本当のやり方だ。<br/><br/>苦しんで金をあげるということは、やはり一つの苦しみを作るのだから、それは神様の御趣旨に合わない。<br/><br/>昔からいう「信心は徳の余り」というわけですね。<br/><br/>それを聞いて、ある信者は感心したんですよ。<br/><br/>それがだんだん広がって――苦しんで金をあげるから、だから家庭が天国にならないんだということにまでなった。<br/><br/>そうするとまた一方神様は今非常にお金が御入用だ。<br/><br/>人間は少しは苦労をしても神様の方にあげなければならない。<br/><br/>という両方の説が対立した。<br/><br/>しかしどうも後の説が負けるんですよ。<br/><br/>最初の方が勝っていくんですね。<br/><br/>どうもゴタゴタしているので、私が呼んでよく話してやった。<br/><br/>私の話はこういうわけです。<br/><br/>最初の、家庭が困らないようにするということも合っている。<br/><br/>確かにそれに違いない。<br/><br/>それから、神様はお金はたくさん必要だから――はやく地上天国を造って救わなければならないので、どんなことをしても金をあげなければならない――どんなに苦しんでもあげなければならない、ということも合っている。<br/><br/>両方とも合っているんだ。<br/><br/>ただ大乗と小乗だ。<br/><br/>最初の方は小乗的考え方ですね。<br/><br/>後の方は大乗的考え方ですね。<br/><br/>じゃ、後の方は金をあげて苦しむかというと、決して苦しまない。<br/><br/>金をあげてそんな苦しむような神様だったら拝むのを止めたらいい。<br/><br/>だから試しにあげてご覧なさい。<br/><br/>苦しむようにあげてご覧なさい。<br/><br/>十倍になって返ってきます。<br/><br/>苦しむどころじゃない。<br/><br/>たいへんな金にだぶついてくる。<br/><br/>そう言ってやったので、両方とも――小乗的の方はよく解って、ついこの間、謝りに来ましたがね。<br/><br/>そういうことがあるんですよ。<br/><br/>ですからそういうことも心得ておかなければならないということを、今話したんですがね。<br/><br/> それから五、六日前に宮本武蔵の絵を買いましたがね。<br/><br/>それはなぜ買ったというと、道具屋に行ったところが脇に掛けてあったんです。<br/><br/>見ると実に良く書いてあるんです。<br/><br/>これは誰だというと、宮本武蔵というんです。<br/><br/>絵の中に「二天（てん）」と書いてあるんですがね。<br/><br/>達磨さんの絵ですがね。<br/><br/>宋時代の絵に負けないですね。<br/><br/>私はぜひ欲しいからと買ってきましたがね。<br/><br/>おそらく、今の古径（こけい）、靫彦（ゆきひこ）なんか足元につかないです。<br/><br/>技術なんかですね。<br/><br/>今度美術館に出しますから、見れば分かります。<br/><br/>そこで考えさせられるのは、ふだんこの方（剣術）は始終やってましたが、筆の方はそれほど、そう研究したわけじゃないからね。<br/><br/>それはどういうわけかというと、一芸に達した人は他の方もそうなる。<br/><br/>たとえてみれば、いろんななにがあるとしますが、一つ飛び抜けて上の方に行きますと、他のものもそれについていくんです。<br/><br/>結局は同じなんですからね。<br/><br/>だから、武道の奥義に達すれば、絵の方もそこに行っちゃうんです――少し経てばね。<br/><br/>結局それによって魂を向上させれば良いわけですね。<br/><br/>これが一番はっきりしているのは、私ですが、私はなにも植木屋の手伝いしたわけでもないし、大工の――庭でも、今度の建築でも全部私がやったんですが、一つそこにいくと、なんでもそこのレベルにいきますからね。<br/><br/>今度美術館をやりましたが、最高のレベルだと思います。<br/><br/>今あれだけの設計をするのは、おそらくないです。<br/><br/>これが私が宗教の教祖でなければ、なぐられちゃいますよ――馬鹿にしているとね。<br/><br/>まあ、実際を見れば分かりますからね。<br/><br/>これはホラじゃないんですよ。<br/><br/>そういうようなもので、その道理を押し進めていくと美術品ですね。<br/><br/>あの良いものを見るんですね。<br/><br/>名人の傑作品を見ると魂がそれにいきますから、目が高くなるんですね。<br/><br/>目が高くなると、他のものにまでいきますから、批評眼が高くなるんですね。<br/><br/>芸術品ばかりでなく、あらゆるものの批評眼が高くなるから、その人の智慧証覚が高くなるんです。<br/><br/>智慧証覚というのは批評眼です。<br/><br/>ものを見てそれが善いとか悪いとかね。<br/><br/>本当だとか嘘だとか、その判別は批評眼によるんですからね。<br/><br/>ですから人間は物を見た批評眼が一番大切ですね。<br/><br/>だからああいった美術品の好きな――今の美術館はそういった価値はありますね。<br/><br/> この間私は上野に行って「国際美術展」の各国のを見ましたが、実にお話にならない。<br/><br/>あれを良いとか悪いとか批評して新聞や雑誌に出てますが、あれは批評できないですね。<br/><br/>もし批評するとすれば零（ゼロ）というんです。<br/><br/>ひどいものです。<br/><br/>ちょうど薬で病気を作っているのと同じです。<br/><br/>それから、糞をかけて米を穫れないようにしているのとね。<br/><br/>美術の方もそうなっているんですね。<br/><br/>そこにいくと古美術の秀れた高さというものは、たいしたものです。<br/><br/>現代人がつまらないものをたいそうに思うのは、批評眼がないからです。<br/><br/>批評眼がないということは、良いものを見ないからですね。<br/><br/>その点においても私は美術館はたいへんな役目をすると思ってます。<br/><br/>古い良いものを見ると、その人の頭がよほど違ってきます。<br/><br/>一番分かりやすいのは、ああいうものが好きな芸術家はみんな上になるんですからね。<br/><br/>一番好きなのは吉川英治ですが、三十年くらい前から好きで持ってます。<br/><br/>今もって好きで買ってますがね。<br/><br/>それから大仏次郎、川端康成――とても好きなんです。<br/><br/>それからあれはいつか来て見せてやりましたがね――高見順ですね。<br/><br/>このごろだいぶ出世してきました。<br/><br/>川端康成の弟子ですがね。<br/><br/>だいぶ注目されてきました。<br/><br/>油絵の方では梅原龍三郎です。<br/><br/>また馬鹿に好きなんです。<br/><br/>ですからあの人の油絵は一番良いです。<br/><br/>今度の美術館にもあの人の油絵の良い方のを一つか二つ出します。<br/><br/>私は他の油絵を美術館には出す気にはならないですね。<br/><br/>出す価値がないです。<br/><br/>梅原龍三郎は他の者が持っていないものを持っているんです。<br/><br/>ですから二、三日前に芸術家の会議で行きましたがね。<br/><br/>やっぱりあの人の骨董好きですね。<br/><br/>それが影響しているわけですね。<br/><br/>それから吉川英治なんか宮本武蔵なんて傑作を作りましたが、あの中に光悦も入ってますが、それから沢庵和尚ですね。<br/><br/>あの文芸作品で、ああいう方面に関心を持ったということは、やはりそれだけ違っていたわけですね。<br/><br/>なかなか、話の方はきりがないから、このくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

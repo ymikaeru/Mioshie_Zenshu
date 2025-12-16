@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 『救世』56号、昭和25(1950)年4月1日発行 軽蔑していて治る 疑うべからざる神の力 愛知県 神元中教会 中野安福（23） 年毎に増え行く体重のグラフを眺めながら、のび行く青春の血は燃え事変下の事とて想いは常に兵役の事に集中され甲種合格と晴れの入営とを望んでおりましたところ、忘れようとして忘れる事の出来ぬ八月十五日あの終戦の勅語を耳にした時の驚きは食道を進行しつつあった食物は急停止、張りつめた若人の血潮は逆流、前途は暗澹と恐怖に包まれてなすことを知らなかった。<br><br>ちようどその頃より胃を悪くしていた私は食事は人一倍進むに反して体重は増加どころか減退しているのに気付くようになりました。<br><br>何か腹中に障害物の我が者顔にいるように思われ、それに便秘が加わり憂うつな日が続くようになりました。<br><br>顔色も悪く仕事をしても身体が重く非常に疲れが早くて人並には出来ず欠勤する日が多くなってまいりました。<br><br>一昨年の春頃より一層悪化の速度を増して人の目からは私の動作は怠け者のごとく思われました。<br><br>家族の者も憂慮の色濃く、医者に行くように執拗に申しましたが、このようなグズグズした病気は医者だとてなかなか治るものではないと、気の向くままにあちらの仕事をちょっとこちらの仕事をちょっとやっては休みしているような状態で、人の溌剌とした働き振りを眺めては呪わしく我ながら情けなくなりました。<br><br>希望もなく死なばそれまでと半ば諦めておりました。<br><br>反面何か良い方法はないものかと心はあせるのですが、これといって良いところもなく意気消沈闇路を彷（さまよ）う私でした。<br><br> ある日尋ねて来た叔母様が私の様子を心配して光明如来様のお力によりいかなる病気でも治され、その上貧乏からも救われとても素晴らしい御利益がある事を色々とお話しをきかせて下さいましたが、光明如来様だ宗教だときいただけで何がそんな……治るものならとっくに医者に行っている、と考える余地もありませんでした。<br><br>その後家族の者も何か手当しなければと余り心配致しますので仕方なく半信半疑で、というより何が治るものかと思いながらも余り心配させてはと両親の気休めの為に一里位ある教会にて浄霊を受ける事となりました。<br><br> 林先生は浄霊に先立ち光明如来様に合掌何かおまいりしておられましたが、自分としては掌を合せる気もありませんでした。<br><br>先生の前に座りますと掌を振っているだけで何かからかわれているような気持で、こんな事なら小学校の子供でも出来ると可笑しくもありました。<br><br>全身に対して掌を振り終り色々と光明如来様の有難そうなお話も興味なく家に帰りましたが、治るのだといわれて見れば信じる事が出来ませんでしたが、心の片隅に治りたい一念は続けてお願いするようになり一週間位たった頃には先生のお話しされた一つ一つ思い当る節もあり、掌を振る時に出るという霊気らしいものを感じ始め教会に行くのが楽しみになり、これは一心におすがりする事によって救われるのだと自然にお詣りするようになりました。<br><br>顔色も出て来たといわれ、自分でも仕事が気持よく腹中の障害物も萎縮されたように軽くなり、便通も順調になり一カ月もたった頃には人並の仕事も出来るようになりました。<br><br> こんな簡単に掌を振るだけで病気が治るとすれば私もお光を戴きたくなり、先生にお願いして入信お守りをいただきました。<br><br>去年一月には光明如来様までお祀りして下され有難く尊いこのお光により私は健康を回復し、人の病を治す喜びは又格別、治された嬉しさの余りは恩の万分の一にも当りませんがお手伝いさせていただいております。<br><br> 右のごとく、最初の中身体がだるかったり、怠けたりするのは微熱のあるためである、もちろん微熱の原因は、常に微弱な浄化が起っているからである、世間こういう人は非常に多いと共に、医診は結核の初期のように診断するもので、馬鹿にならない症状である。<br><br> この報告で面白い事は、我神療法を疑うどころか軽蔑までしているにもかかわらず、驚くべき効果を挙げ全治したのであるから、世間よくいう信ずるから治るという言葉は何ら通用しない訳である、もちろん全然自力は加わらず、他力すなわち神力のみである事は疑う余地はないであろう。<br><br> ＊ ＊ ＊ 浄霊は無病療法 腫物は自然に抗はず排膿 青森県 神聲中教会 工藤善蔵（43） 謹んで御報告させて頂きます。<br><br>私は昭和二十三年七月十一日入信、有難い御守護を頂戴致しました。<br><br>今日まで数々の浄化をいただき、その度に浄霊により救われております。<br><br> 六月末ころより腹部丁度胃の上部に少し赤色に「デキモノ」の症状になり、それから二日、三日と日が経つに従って次第に大きくなり、十月ころには腫れ上った皮膚の周囲が湯呑茶碗位に大きくなりました。<br><br>いよいよ大変な事になったと思い、教会の先生に浄霊お願いする事数回、又家に来て下さる知人に浄霊を御願い致しました。<br><br>六月七日には光明如来様を御祭り致し光明如来様の御利益の御恵みを頂き腫物の苦痛一つなく歩行にも自転車にても痛みませんが、赤黒色に腫れ直径四寸程もあり、身体が重苦しく感じて二十五日ころには今日か明日かと思われるようになり、腫物の一大恐慌時代となりました。<br><br>八月三日の朝になり腫れ上ったところに針でついた位の小さい穴から約一カ月ぶりで膿が出始め、ミルク缶より押出してくるミルクのごとく膿の洪水で脱脂綿ではとても拭取る事が出来ませんでした。<br><br>長い間どうなる事かと心配し知人の皆様が不思議な腫物として疑問にしておりましたが、謎のごとくに不思議な腫物も無事に解決し、膿の出た量が実に一合五勺もあり、湯呑茶碗二つもありました。<br><br>夜になって又赤白色の薄水が一合程出ました。<br><br> 約一カ月、自分でもよく頑張ったと思いますが光明如来様の御力、御守護の御恵みと深く身にしみ涙が出て参りました。<br><br> 近頃「デキモノ」の人が多く医者に診てもらうと直ぐに手術といわれ、入院二日目に死に至る人の多い事を聞いておりますので光明如来様の有難さをつくづく知り、力と行と心との信念であることを覚り、無医薬にて御利益の賜物を世の皆様に御知らせ致したいと思います。<br><br> この腫物の治し方は自然であって、いかなる腫物でもこれと同様の経過をたどるものである、もちろん放任しておけば充分腫れ切って自然に小孔が開き排膿し治癒するのである。<br><br> ところが、それまでの間激痛が伴うので手術をするが、その際浄霊によれば、最後まで例外なく無痛に経過するので、実に浄霊の素晴しさが判る、もちろん手術は自然に反抗する手段であるから反って悪化し、生命の危険にまで至るのである、したがって医学はこの点に目醒めん事を望んでやまないのである。<br><br> ＊ ＊ ＊ 注射の逆作用 次ぎ次ぎに病気になる 愛知県 和光中教会 佐々木一夫（18） 私は高等科一年の頃より何と無く身体が弱く光明如来様の御力に救われる昨年の秋迄ズット医者に懸り切りのようなものでした。<br><br> 九月頃少し身体も健康になり野良仕事も普通に出来るようになりましたので二十日ばかり村の林道開鑿（かいさく）作業に出ましたら、労働が烈しかったためか、又逆戻りし衰弱し始めたので、早速医師に診断をして貰うと脚気と宣告され、言う通りの養生法で手当が早かったのか短期間で全快しました。<br><br> しかし又次の病気が起り、それが直ると又移動するように次が悪くなる、マッタク悲観して仕舞いました。<br><br>頼り無い医者の言葉を唯一の頼りにし、毎日のように三里余の医院まで通っている内に何の原因か判らず又身体はだるくなる一方でした。<br><br>ある日医師がレントゲンをとってみようとすすめられたので、御願いしました。<br><br>その結果は肺門淋巴腺炎だと聞かされ吃驚致しました。<br><br>そのため労働は勿論、日光をも避け出来るだけ寝ているように言われ、落胆の極に陥り医師の言われる通り寝たり、起きたりして日を過ごしていました。<br><br> ある日医者にヤトコニンを注射して貰ってから急に微熱が続き出し、頭を何かで殴られたようにガーンとし、とうとう正真正銘の病人に成って夜もロクロク眠れず嫌な事ばかり頭に浮んで来て、悲観のみが先に立つ、父母もいろいろと慰め元気づけてくれるのですけど、兄二人姉二人を他界させ残る頼りの私が又この姿、口には出さないが今思うと父母もどの位暗い蔭に悩んだでしょう。<br><br>少し熱でも出ると陰気臭い顔が三つどん底に突き落され暗黒の家の中でシーンとして、母などは涙を耐えるのに一生懸命のようでした。<br><br> 丁度その頃親戚の人と小久保先生が御尋ね下され、その暗い様を見てさんざん強い戒めの御言葉を掛けられ、誰も家人以外には語っても無かったのにちょっと掌をお振りになっただけで右肺門淋巴腺炎とぴったりと言い当てられ、病に対する注意を聞かされ、なお有難い浄霊を頂き一度に元気付けられ、かつ今迄の間違いに大いに驚き、それ以来床を蹴って起き上り一里近い山道を教会へ通う事にしました。<br><br> 先生の親切な御言葉と浄霊を毎日頂き一週間目にはそれとは別に足に大浄化をきたし、身動きも不自由でしかも一日二回激しい下痢が八日間程続き二昼夜余り一睡も出来ず難儀でしたが、小久保先生、井本先生を煩わして御浄霊をお願いし二週間内外にて浄化も終り皆吃驚する程でしたがそれ迄青ざめて生色の無かった顔は血色が出、生気付き見違える程元気に成りその大浄化以来すっかり立上る事が出来ました。<br><br> 暗かりし 此現世も何時かしら 明るくなりぬ 吾救はれてより 私が救われただけでなく母の長年の腰痛も去り、仕事をしながらも善言讃詞を唱えているような次第で気が違ったかと思われる程の常住坐臥光明如来の有難さで一杯である。<br><br> 大前に 額く毎に涙しぬ 救はれたりし 此身思へば 父も長年にわたるリウマチで出来ない仕事も種々有りましたが今年などどんな仕事も吃驚する位働いてくれます。<br><br> 昨年十一月御力を頂き今年二月光明如来様も御迎えする事が出来、幾年振りにか甦った一家、想えば彼の林道作業も当時は怨んだものでしたが、回顧すればこの有難い光明如来様に救われるための浄化だったと思われ誠に感謝の気持です。<br><br> 救はれし 幸を思へば身を竭（つく）し 心砕きて 報はでおかめや 数限り無い明主様のみ救いに預り暗黒の一家三名、感謝の日々を御恵みの万分の一をも悩める人に伝え度いと務めております。<br><br> 有難く厚く御礼申上げます。<br><br> この患者の経路をみると、わが神医術の理論を肯定して遺憾なしである、最初の一つの病気が治るや次の病気が発（おこ）り、また治るや次が起るというような事実は、医学で治っても根治ではなく一時制えという事を物語っている、また根気よく固め療法で小康を得ていたが、林道作業という強労働のため浄化発生したのである、もちろんこういう人は薬毒多有者であるから浄化発生しやすいからでもある、またヤトコニンの注射をするや悪化し臥床（がしょう）のやむなきに至ったという事は、注射の逆作用である、このような病人は普通なら、長い間苦しんだ揚句死にまで及ぶのは常に見るところである、全く神療法によって救われたという事は、大いなる幸運者というべきである。<br><br> ＊ ＊ ＊ 暴風に耐える無肥栽培 幸福に導きつつある教へ 岐阜県 善栄中教会 森 敏雄（33） 私がこの尊い御業にお導きを頂いたのは昭和二十二年五月で本部の渡辺先生よりこの偉大なる救いの御業の御話を聞き感激し、家族五人教修を受け喜んで帰宅しました。<br><br> すると二、三日前より遊びに来ていた姉が、持病の腹痛で苦しんでいる最中で薬をいくら飲ませてもおさまらぬと母が手をやき困り果てているところでした。<br><br>早速頼むというので「よしすぐ楽にしてやる」といって浄霊を初め、腹部をやる頃には今までの苦しみはどこへやらスヤスヤと眠り始めたではありませんか、喜んだのは母上、嬉しかったのは私で見入るものは皆唖然として言葉もない有様でした。<br><br> 僅か三十分足らずの浄霊にあれほど苦しんでいた腹痛が治るとは、それも教修受けたその日にこんな大きな効果を現わして頂けるとは本当に有難い事だと家族一同喜びました。<br><br> この偉大な事実に力を得てすぐ無肥料栽培を全耕地一町三反全部に実施すべく決意し、その日から金肥絶対不用で、分会長先生はじめ諸先生方の御熱心なる御指導下に今日に至ったのであります。<br><br> その間の御利益の偉大なる事は素晴しいもので御座居ましたが、品質の良い事は他家に比して吃驚りする程でした。<br><br>翌二十三年の収穫を参考のために左に示します。<br><br>（反当り） 種 別 平均収量 二十三年収量 玄 米 二石四斗 三石一斗二升 大 豆 八斗 一石二斗強 小 麦 六斗 一石二斗 馬鈴薯 三百二十貫 三百三十貫 甘 藷 三百貫 四百貫 その他小量の粟、きび、そば等も三割以上の増収を得ました。<br><br>しかし秋蒔の大根、蕪は他家のよりちょっと小さいようでしたが、質が良く、味のよいには吃驚しました。<br><br>また虫害がなく綺麗なものでした。<br><br> その後有難い御守護を頂き喜びの一端を皆様にお知らせ致します。<br><br>丁度小麦の出穂期で七、八分出穂した昨年七月二十日頃でした。<br><br>急に空模様が悪くなり大風雨となり、約一昼夜続いた嵐の為に他家の麦はほとんど悲惨なる姿に打ちのめされているではありませんか。<br><br>我家の麦はと見れば、噫！ 何んと不思議ではありませんか。<br><br>嵐以前よりなお一層の元気さを見せているではありませんか。<br><br>噫！ この御守護の偉大さにただ感謝感激の涙にむせぶのみでした。<br><br> それが収穫して又一驚しました。<br><br>小麦の実収は何んと一昨年の倍あります。<br><br>実に平年作の四倍になり近隣の人達も吃驚しております。<br><br>稲の出来も昨年は非常によく近隣の金肥を施用したどの田よりも出来がよく、余りよい出来栄えに「かくれて肥料をやったんだろう」と近隣の人達が噂しているそうです。<br><br> この他にまだ大きな御利益を書き遅れましたが、私の耕作面積一町三反を二十二年には男一人、女三人で耕作し、相当忙しい思いをしましたが、昨年は女二人で楽々と耕作が出来た上、前記のごとき御利益をいただき誠に人間業でなくこれが神業と申すものだと思います。<br><br> 何にも分らない私一家も分会長先生初め諸先生の熱と誠の御指導賜り、段々分らせていただきお蔭にて私と妹は資格をいただき、私は富山県に妹は京都に開拓の一歩を現し尊い御業を一人でも多く知らせたい一念にて奉公致しております。<br><br>なお御利益の万分の一にもと真心の御奉公させていただく覚悟でおります。<br><br>御利益の数々筆舌に尽くせぬ感謝の一端を報告させていただきます。<br><br> この報告で驚くべき事は、教修を受けたその日に偉大なる治病力を顕（あら）わし得た事である、もちろん医学の医の字も知らない人であるにみてなお更驚かない訳にはゆくまい、いつも言う通り、数十年の研鑚を経た専門家の治病力に比較し、浄霊法を習ったホヤホヤの方が何十層倍の治病力を発揮されるという事は、何人（なんぴと）も信ずる事は出来まい、この奇蹟を言い表す言葉は絶対ないであろう。<br><br> 次に無肥料耕作の偉効であるが、暴風雨に耐える強靱な力も、虫害のない事も、品質のよい事も多収穫も、労力の著減も、無肥なるがためと浄霊の偉効である事は言うまでもない、これだけにみても本教がいかに人間を幸福に導きつつあるか、多弁を要しないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Indubitável Poder de Deus</h2>
 <p><strong>Relato do Sr. Nakano Yasufuku (23 anos), da Igreja Chūkyō de Kamimoto, Aichi</strong></p>
@@ -159,5 +311,48 @@ function toggleLang(lang) {
 <p><strong>Comentário de Meishu-Sama</strong></p>
 <p>O que mais espanta neste relato é o fato de uma pessoa manifestar um poder de cura tão grandioso no mesmo dia em que recebe os Ensinamentos. É ainda mais surpreendente por se tratar de alguém que desconhece por completo os princípios da medicina. Como sempre afirmo, ninguém acreditaria que um praticante recém-iniciado no Johrei possa manifestar um poder curativo dezenas de vezes superior ao de um especialista com décadas de estudo. Não há palavras para descrever este milagre.</p>
 <p>Quanto aos notáveis resultados da agricultura sem adubos, a resistência à tempestade, a ausência de pragas, a qualidade superior, a alta produtividade e a significativa redução do esforço de trabalho são, sem dúvida, consequências da ausência de fertilizantes e da sublime eficácia do Johrei. Apenas por estes fatos, torna-se desnecessário discorrer longamente sobre como nossos Ensinamentos estão a conduzir a humanidade à felicidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 『救世』56号、昭和25(1950)年4月1日発行 軽蔑していて治る 疑うべからざる神の力 愛知県 神元中教会 中野安福（23） 年毎に増え行く体重のグラフを眺めながら、のび行く青春の血は燃え事変下の事とて想いは常に兵役の事に集中され甲種合格と晴れの入営とを望んでおりましたところ、忘れようとして忘れる事の出来ぬ八月十五日あの終戦の勅語を耳にした時の驚きは食道を進行しつつあった食物は急停止、張りつめた若人の血潮は逆流、前途は暗澹と恐怖に包まれてなすことを知らなかった。<br/><br/>ちようどその頃より胃を悪くしていた私は食事は人一倍進むに反して体重は増加どころか減退しているのに気付くようになりました。<br/><br/>何か腹中に障害物の我が者顔にいるように思われ、それに便秘が加わり憂うつな日が続くようになりました。<br/><br/>顔色も悪く仕事をしても身体が重く非常に疲れが早くて人並には出来ず欠勤する日が多くなってまいりました。<br/><br/>一昨年の春頃より一層悪化の速度を増して人の目からは私の動作は怠け者のごとく思われました。<br/><br/>家族の者も憂慮の色濃く、医者に行くように執拗に申しましたが、このようなグズグズした病気は医者だとてなかなか治るものではないと、気の向くままにあちらの仕事をちょっとこちらの仕事をちょっとやっては休みしているような状態で、人の溌剌とした働き振りを眺めては呪わしく我ながら情けなくなりました。<br/><br/>希望もなく死なばそれまでと半ば諦めておりました。<br/><br/>反面何か良い方法はないものかと心はあせるのですが、これといって良いところもなく意気消沈闇路を彷（さまよ）う私でした。<br/><br/> ある日尋ねて来た叔母様が私の様子を心配して光明如来様のお力によりいかなる病気でも治され、その上貧乏からも救われとても素晴らしい御利益がある事を色々とお話しをきかせて下さいましたが、光明如来様だ宗教だときいただけで何がそんな……治るものならとっくに医者に行っている、と考える余地もありませんでした。<br/><br/>その後家族の者も何か手当しなければと余り心配致しますので仕方なく半信半疑で、というより何が治るものかと思いながらも余り心配させてはと両親の気休めの為に一里位ある教会にて浄霊を受ける事となりました。<br/><br/> 林先生は浄霊に先立ち光明如来様に合掌何かおまいりしておられましたが、自分としては掌を合せる気もありませんでした。<br/><br/>先生の前に座りますと掌を振っているだけで何かからかわれているような気持で、こんな事なら小学校の子供でも出来ると可笑しくもありました。<br/><br/>全身に対して掌を振り終り色々と光明如来様の有難そうなお話も興味なく家に帰りましたが、治るのだといわれて見れば信じる事が出来ませんでしたが、心の片隅に治りたい一念は続けてお願いするようになり一週間位たった頃には先生のお話しされた一つ一つ思い当る節もあり、掌を振る時に出るという霊気らしいものを感じ始め教会に行くのが楽しみになり、これは一心におすがりする事によって救われるのだと自然にお詣りするようになりました。<br/><br/>顔色も出て来たといわれ、自分でも仕事が気持よく腹中の障害物も萎縮されたように軽くなり、便通も順調になり一カ月もたった頃には人並の仕事も出来るようになりました。<br/><br/> こんな簡単に掌を振るだけで病気が治るとすれば私もお光を戴きたくなり、先生にお願いして入信お守りをいただきました。<br/><br/>去年一月には光明如来様までお祀りして下され有難く尊いこのお光により私は健康を回復し、人の病を治す喜びは又格別、治された嬉しさの余りは恩の万分の一にも当りませんがお手伝いさせていただいております。<br/><br/> 右のごとく、最初の中身体がだるかったり、怠けたりするのは微熱のあるためである、もちろん微熱の原因は、常に微弱な浄化が起っているからである、世間こういう人は非常に多いと共に、医診は結核の初期のように診断するもので、馬鹿にならない症状である。<br/><br/> この報告で面白い事は、我神療法を疑うどころか軽蔑までしているにもかかわらず、驚くべき効果を挙げ全治したのであるから、世間よくいう信ずるから治るという言葉は何ら通用しない訳である、もちろん全然自力は加わらず、他力すなわち神力のみである事は疑う余地はないであろう。<br/><br/> ＊ ＊ ＊ 浄霊は無病療法 腫物は自然に抗はず排膿 青森県 神聲中教会 工藤善蔵（43） 謹んで御報告させて頂きます。<br/><br/>私は昭和二十三年七月十一日入信、有難い御守護を頂戴致しました。<br/><br/>今日まで数々の浄化をいただき、その度に浄霊により救われております。<br/><br/> 六月末ころより腹部丁度胃の上部に少し赤色に「デキモノ」の症状になり、それから二日、三日と日が経つに従って次第に大きくなり、十月ころには腫れ上った皮膚の周囲が湯呑茶碗位に大きくなりました。<br/><br/>いよいよ大変な事になったと思い、教会の先生に浄霊お願いする事数回、又家に来て下さる知人に浄霊を御願い致しました。<br/><br/>六月七日には光明如来様を御祭り致し光明如来様の御利益の御恵みを頂き腫物の苦痛一つなく歩行にも自転車にても痛みませんが、赤黒色に腫れ直径四寸程もあり、身体が重苦しく感じて二十五日ころには今日か明日かと思われるようになり、腫物の一大恐慌時代となりました。<br/><br/>八月三日の朝になり腫れ上ったところに針でついた位の小さい穴から約一カ月ぶりで膿が出始め、ミルク缶より押出してくるミルクのごとく膿の洪水で脱脂綿ではとても拭取る事が出来ませんでした。<br/><br/>長い間どうなる事かと心配し知人の皆様が不思議な腫物として疑問にしておりましたが、謎のごとくに不思議な腫物も無事に解決し、膿の出た量が実に一合五勺もあり、湯呑茶碗二つもありました。<br/><br/>夜になって又赤白色の薄水が一合程出ました。<br/><br/> 約一カ月、自分でもよく頑張ったと思いますが光明如来様の御力、御守護の御恵みと深く身にしみ涙が出て参りました。<br/><br/> 近頃「デキモノ」の人が多く医者に診てもらうと直ぐに手術といわれ、入院二日目に死に至る人の多い事を聞いておりますので光明如来様の有難さをつくづく知り、力と行と心との信念であることを覚り、無医薬にて御利益の賜物を世の皆様に御知らせ致したいと思います。<br/><br/> この腫物の治し方は自然であって、いかなる腫物でもこれと同様の経過をたどるものである、もちろん放任しておけば充分腫れ切って自然に小孔が開き排膿し治癒するのである。<br/><br/> ところが、それまでの間激痛が伴うので手術をするが、その際浄霊によれば、最後まで例外なく無痛に経過するので、実に浄霊の素晴しさが判る、もちろん手術は自然に反抗する手段であるから反って悪化し、生命の危険にまで至るのである、したがって医学はこの点に目醒めん事を望んでやまないのである。<br/><br/> ＊ ＊ ＊ 注射の逆作用 次ぎ次ぎに病気になる 愛知県 和光中教会 佐々木一夫（18） 私は高等科一年の頃より何と無く身体が弱く光明如来様の御力に救われる昨年の秋迄ズット医者に懸り切りのようなものでした。<br/><br/> 九月頃少し身体も健康になり野良仕事も普通に出来るようになりましたので二十日ばかり村の林道開鑿（かいさく）作業に出ましたら、労働が烈しかったためか、又逆戻りし衰弱し始めたので、早速医師に診断をして貰うと脚気と宣告され、言う通りの養生法で手当が早かったのか短期間で全快しました。<br/><br/> しかし又次の病気が起り、それが直ると又移動するように次が悪くなる、マッタク悲観して仕舞いました。<br/><br/>頼り無い医者の言葉を唯一の頼りにし、毎日のように三里余の医院まで通っている内に何の原因か判らず又身体はだるくなる一方でした。<br/><br/>ある日医師がレントゲンをとってみようとすすめられたので、御願いしました。<br/><br/>その結果は肺門淋巴腺炎だと聞かされ吃驚致しました。<br/><br/>そのため労働は勿論、日光をも避け出来るだけ寝ているように言われ、落胆の極に陥り医師の言われる通り寝たり、起きたりして日を過ごしていました。<br/><br/> ある日医者にヤトコニンを注射して貰ってから急に微熱が続き出し、頭を何かで殴られたようにガーンとし、とうとう正真正銘の病人に成って夜もロクロク眠れず嫌な事ばかり頭に浮んで来て、悲観のみが先に立つ、父母もいろいろと慰め元気づけてくれるのですけど、兄二人姉二人を他界させ残る頼りの私が又この姿、口には出さないが今思うと父母もどの位暗い蔭に悩んだでしょう。<br/><br/>少し熱でも出ると陰気臭い顔が三つどん底に突き落され暗黒の家の中でシーンとして、母などは涙を耐えるのに一生懸命のようでした。<br/><br/> 丁度その頃親戚の人と小久保先生が御尋ね下され、その暗い様を見てさんざん強い戒めの御言葉を掛けられ、誰も家人以外には語っても無かったのにちょっと掌をお振りになっただけで右肺門淋巴腺炎とぴったりと言い当てられ、病に対する注意を聞かされ、なお有難い浄霊を頂き一度に元気付けられ、かつ今迄の間違いに大いに驚き、それ以来床を蹴って起き上り一里近い山道を教会へ通う事にしました。<br/><br/> 先生の親切な御言葉と浄霊を毎日頂き一週間目にはそれとは別に足に大浄化をきたし、身動きも不自由でしかも一日二回激しい下痢が八日間程続き二昼夜余り一睡も出来ず難儀でしたが、小久保先生、井本先生を煩わして御浄霊をお願いし二週間内外にて浄化も終り皆吃驚する程でしたがそれ迄青ざめて生色の無かった顔は血色が出、生気付き見違える程元気に成りその大浄化以来すっかり立上る事が出来ました。<br/><br/> 暗かりし 此現世も何時かしら 明るくなりぬ 吾救はれてより 私が救われただけでなく母の長年の腰痛も去り、仕事をしながらも善言讃詞を唱えているような次第で気が違ったかと思われる程の常住坐臥光明如来の有難さで一杯である。<br/><br/> 大前に 額く毎に涙しぬ 救はれたりし 此身思へば 父も長年にわたるリウマチで出来ない仕事も種々有りましたが今年などどんな仕事も吃驚する位働いてくれます。<br/><br/> 昨年十一月御力を頂き今年二月光明如来様も御迎えする事が出来、幾年振りにか甦った一家、想えば彼の林道作業も当時は怨んだものでしたが、回顧すればこの有難い光明如来様に救われるための浄化だったと思われ誠に感謝の気持です。<br/><br/> 救はれし 幸を思へば身を竭（つく）し 心砕きて 報はでおかめや 数限り無い明主様のみ救いに預り暗黒の一家三名、感謝の日々を御恵みの万分の一をも悩める人に伝え度いと務めております。<br/><br/> 有難く厚く御礼申上げます。<br/><br/> この患者の経路をみると、わが神医術の理論を肯定して遺憾なしである、最初の一つの病気が治るや次の病気が発（おこ）り、また治るや次が起るというような事実は、医学で治っても根治ではなく一時制えという事を物語っている、また根気よく固め療法で小康を得ていたが、林道作業という強労働のため浄化発生したのである、もちろんこういう人は薬毒多有者であるから浄化発生しやすいからでもある、またヤトコニンの注射をするや悪化し臥床（がしょう）のやむなきに至ったという事は、注射の逆作用である、このような病人は普通なら、長い間苦しんだ揚句死にまで及ぶのは常に見るところである、全く神療法によって救われたという事は、大いなる幸運者というべきである。<br/><br/> ＊ ＊ ＊ 暴風に耐える無肥栽培 幸福に導きつつある教へ 岐阜県 善栄中教会 森 敏雄（33） 私がこの尊い御業にお導きを頂いたのは昭和二十二年五月で本部の渡辺先生よりこの偉大なる救いの御業の御話を聞き感激し、家族五人教修を受け喜んで帰宅しました。<br/><br/> すると二、三日前より遊びに来ていた姉が、持病の腹痛で苦しんでいる最中で薬をいくら飲ませてもおさまらぬと母が手をやき困り果てているところでした。<br/><br/>早速頼むというので「よしすぐ楽にしてやる」といって浄霊を初め、腹部をやる頃には今までの苦しみはどこへやらスヤスヤと眠り始めたではありませんか、喜んだのは母上、嬉しかったのは私で見入るものは皆唖然として言葉もない有様でした。<br/><br/> 僅か三十分足らずの浄霊にあれほど苦しんでいた腹痛が治るとは、それも教修受けたその日にこんな大きな効果を現わして頂けるとは本当に有難い事だと家族一同喜びました。<br/><br/> この偉大な事実に力を得てすぐ無肥料栽培を全耕地一町三反全部に実施すべく決意し、その日から金肥絶対不用で、分会長先生はじめ諸先生方の御熱心なる御指導下に今日に至ったのであります。<br/><br/> その間の御利益の偉大なる事は素晴しいもので御座居ましたが、品質の良い事は他家に比して吃驚りする程でした。<br/><br/>翌二十三年の収穫を参考のために左に示します。<br/><br/>（反当り） 種 別 平均収量 二十三年収量 玄 米 二石四斗 三石一斗二升 大 豆 八斗 一石二斗強 小 麦 六斗 一石二斗 馬鈴薯 三百二十貫 三百三十貫 甘 藷 三百貫 四百貫 その他小量の粟、きび、そば等も三割以上の増収を得ました。<br/><br/>しかし秋蒔の大根、蕪は他家のよりちょっと小さいようでしたが、質が良く、味のよいには吃驚しました。<br/><br/>また虫害がなく綺麗なものでした。<br/><br/> その後有難い御守護を頂き喜びの一端を皆様にお知らせ致します。<br/><br/>丁度小麦の出穂期で七、八分出穂した昨年七月二十日頃でした。<br/><br/>急に空模様が悪くなり大風雨となり、約一昼夜続いた嵐の為に他家の麦はほとんど悲惨なる姿に打ちのめされているではありませんか。<br/><br/>我家の麦はと見れば、噫！ 何んと不思議ではありませんか。<br/><br/>嵐以前よりなお一層の元気さを見せているではありませんか。<br/><br/>噫！ この御守護の偉大さにただ感謝感激の涙にむせぶのみでした。<br/><br/> それが収穫して又一驚しました。<br/><br/>小麦の実収は何んと一昨年の倍あります。<br/><br/>実に平年作の四倍になり近隣の人達も吃驚しております。<br/><br/>稲の出来も昨年は非常によく近隣の金肥を施用したどの田よりも出来がよく、余りよい出来栄えに「かくれて肥料をやったんだろう」と近隣の人達が噂しているそうです。<br/><br/> この他にまだ大きな御利益を書き遅れましたが、私の耕作面積一町三反を二十二年には男一人、女三人で耕作し、相当忙しい思いをしましたが、昨年は女二人で楽々と耕作が出来た上、前記のごとき御利益をいただき誠に人間業でなくこれが神業と申すものだと思います。<br/><br/> 何にも分らない私一家も分会長先生初め諸先生の熱と誠の御指導賜り、段々分らせていただきお蔭にて私と妹は資格をいただき、私は富山県に妹は京都に開拓の一歩を現し尊い御業を一人でも多く知らせたい一念にて奉公致しております。<br/><br/>なお御利益の万分の一にもと真心の御奉公させていただく覚悟でおります。<br/><br/>御利益の数々筆舌に尽くせぬ感謝の一端を報告させていただきます。<br/><br/> この報告で驚くべき事は、教修を受けたその日に偉大なる治病力を顕（あら）わし得た事である、もちろん医学の医の字も知らない人であるにみてなお更驚かない訳にはゆくまい、いつも言う通り、数十年の研鑚を経た専門家の治病力に比較し、浄霊法を習ったホヤホヤの方が何十層倍の治病力を発揮されるという事は、何人（なんぴと）も信ずる事は出来まい、この奇蹟を言い表す言葉は絶対ないであろう。<br/><br/> 次に無肥料耕作の偉効であるが、暴風雨に耐える強靱な力も、虫害のない事も、品質のよい事も多収穫も、労力の著減も、無肥なるがためと浄霊の偉効である事は言うまでもない、これだけにみても本教がいかに人間を幸福に導きつつあるか、多弁を要しないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

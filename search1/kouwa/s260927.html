@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260927</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S26年9月27日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月二十七日（五日目） 今日はお天気になって良かったですね。<br><br> 箱根の方も見られる通り、美術館の建築に取り掛かったんです。<br><br>これが来年の夏までには出来る予定です。<br><br>それから、裏の方に、今石や何か出し始めた。<br><br>あれもすっかり、それまでには完成するつもりです。<br><br>向こうの方の流れから、穏やかな渓流にして、まわりに「もみじ」を植えたいですね。<br><br>裏の方も、「もみじ」の庭みたいにするつもりです。<br><br>大体「もみじ」の相当大きいのを百本植える予定で、言いつけておきました。<br><br>それで、下を苔にしようと思う。<br><br>この春京都の苔寺に行って見た所が、仲々苔も良いですしね。<br><br>「もみじ」はなるべく紅葉するのを選びましたが、紅葉して下が青くなったら、非常に良いだろうと思う。<br><br>苔寺の苔はめちゃくちゃで風情も大してなく、ただいろんな苔が生えているだけです。<br><br>いろんな苔の種類を話してましたが、苔は自然に放っておいても出るものなのです。<br><br>こっちで、一種類にしようと思っても、苔の方で色々出てくる。<br><br>まあ――そんな計画です。<br><br>随分と、見た事もないような庭が出来るだろうと思います。<br><br>橋の模型を掛けてますが、あれよりもう少し幅の広い、もっと気のきいた形に造るつもりです。<br><br>京都の通天橋と言うのがありますが、あんなような風情にしようと思う。<br><br>それで美術館と庭が出来れば、大体神仙郷は完成するんです。<br><br>美術館の方も色々調べた結果、日本には美術館らしい美術館はあんまりないようです。<br><br>官立の美術館としては、上野の博物館、京都の博物館、大阪の博物館ですね。<br><br>なるほど建物は――東京の博物館は立派ですが、中に並べてあるものは、考古学的なものや歴史的なものを主にしているから、美術的なものは割合少ないですね。<br><br>何百年前、何千年前と言うのがあるが、ただ参考になるだけです。<br><br>専門家や色々関心を持つ人は――天平時代だとか、飛鳥時代のものだと言って、賞味しますが、しかし私なんかの美術館の目的と言うのは、大衆の誰も彼もが見て、美の観念に打たれると言う所を狙っている。<br><br>ああ良いなと言って楽しめるのは良いが。<br><br>これは何年前に何の為に作られたのだろう。<br><br>何が良いんだろう。<br><br>と、額に八の字を寄せて考えるようでは、どうもありがたくないですね。<br><br>今まで、日本は良いものと言うと、みんな大名の蔵とか金持ちの蔵にしまいこんで仲々見せない。<br><br>独占ですね。<br><br>これについて、外国の相当の識者なんかの意見で、日本で「国宝」と言う名をつけるのはおかしい。<br><br>と言うのは、要するに世界の美術を独占すると言う意味になる。<br><br>ところが、美術品と言うのは、世界中の人の目を楽しませると言うのが本当なんです。<br><br>それなのに、大事にしまって国から出さないようにすると言う意味になるから「国宝」は止めた方が良いと言う説があるそうです。<br><br>私は以前から、ああ言うものを独占的に自分の所有物としてしまっておくと言う事は嘘だと思ってます。<br><br>今までにも、私立の美術館もあるにはありますが、公衆に見せたいと言うのではなくて、自己の財産を擁護したいと言うのです。<br><br>保護して、子孫の代になって手放す事は出来ない。<br><br>世襲財産ですね。<br><br>財産擁護の為です。<br><br>そこで、一年に二回づつ展覧会をしますが、わずか一週間くらいです。<br><br>規則が展覧会をしなければならないという規則になってますからね。<br><br>今度は一年に四、五回と増えたそうです。<br><br>そんな事を聞きました。<br><br>そんな風で、公衆に見せるというのではなくて、財産擁護と言う事になっている。<br><br>見せると言っても、一部の人しか見られない。<br><br>誰でも見れるようなきっかけを与えると言うのでなければ、美術館の意味はない。<br><br>そういう美術館は日本にはないです。<br><br>そこで、私はそういうものを造ろうと思う。<br><br>最初は――箱根のはごく小さく、見本的に造るんですが、最初から大衆に見せたら整理がつかないから、最初は信者さんか、信者さんの紹介した人に限って見せます。<br><br>いずれ、熱海の方にずっと大きな、規模の素晴らしいものを造るつもりです。<br><br>それは、誰でも見られるような組織にしようと思う。<br><br>箱根に出来る美術館も、出来たら日本一のものが出来ると思います。<br><br>今の美術館を調べてみても、一部的で全般的の美術品を陳列しているところはないです。<br><br>博物館は、今まで予算が足りなかったので余り良いものが買えなかったそうですがね。<br><br>相当仕入れてありますが、まだ充分とは行かない。<br><br>私はそれ以上のものを並べようと思って――大体重要なものは、どこの誰が持っているかと言う事は定まっているのですからね。<br><br>うまく――というのは変ですがね。<br><br>何かだますようでね。<br><br>それをうまく話して出品させる――了解させるんですね。<br><br>ボツボツ交渉や――色々してみていますが、割合可能性があるんです。<br><br>だから、相当有名なものを並べる事が出来ると思います。<br><br>それから、熱海の方は世界的なものを造るつもりです。<br><br>世界で有名なのは、英国のロンドン、米国のワシントン及びボストンですね。<br><br>美術品としての博物館ですね。<br><br>大体調べてみましたが大したものはない。<br><br>というのは、なるほど西洋で出来た油絵とかガラスは敵いっこないですが、美術というのは、世界中で東洋のものが上だ。<br><br>美術的価値があると言う事になっているので、向こうでは非常に欲しがっている。<br><br>日本美術は手に入れる事が出来ないと言うんです。<br><br>日本人は日本の美術を西洋にやる事を警戒して、やらなかった為に、日本美術は外国に行ってない。<br><br>たまたま行っているのは贋物が多い。<br><br>あっち向きにそろえたものです。<br><br>終戦後、本物を見て非常に驚いて、これなら欲しいというので、昨今非常に日本美術を狙っている。<br><br>その結果日本の歌を書いた色紙ですね。<br><br>そういうのも非常に欲しがっている。<br><br>絵の方は良いものは手に入らないくらいです。<br><br>そんなような訳で、今度出来る美術館も、日本美術の優秀なものを主にしてやろうと思う。<br><br>あとは支那、朝鮮ですね。<br><br>美術館の方はその位にしておきます。<br><br> 熱海の方の土地の模様は大体出来たんです。<br><br>これから木を植える事になる。<br><br>真中の展望台が出来る山に「ツツジ」を二千本植えるつもりです。<br><br>これが出来たら素晴らしい壮観だろうと思いますね。<br><br>来年の五月には花が咲く。<br><br>「ツツジ」ですがね。<br><br>どうしても二、三年経ってからでなければ本当は花が咲かないのです。<br><br>花がつかないのですが、来年の五月でも相当に美しいだろうと思います。<br><br>これは日本一と言っても間違いない。<br><br>そんなに「ツツジ」をたくさん植えた山がある訳がない。<br><br>しかも、その「ツツジ」は種類が多いのでも一番です。<br><br>三、四年前に箱根の芦ノ湖に岩崎の別荘があるが、そこの「ツツジ」で、岩崎さんが金にあかして種類を集めたんで、実に良い種類が集まっている。<br><br>その時千本位売ると言うので、私はただ買いたくてしょうがないので買ったんですが、今から見ると十分の一か、五分の一でしょう。<br><br>しかも一株が――掘ってみると二本三本くらいの寄せ植えになってますから、千本でちょうど二、三千本あるんです。<br><br>実に安かった。<br><br>神様が用意したものですね。<br><br>私は、どこに植えるあてもなく、神様が買えと言う事で買ったんですが、今日では立派に役に立った。<br><br> 晴々台の横は桜の園を造る事になっているが、どうしても狭かったが、横の方を買ってくれと言う事になって――大体定まったんですが、そこに山を造って桜を千本植える。<br><br>ちょうど植わるつもりです。<br><br>吉野山は一目千本と言っているが、こっちも一目千本です。<br><br>吉野山のは広い所ですから、ぱらぱらですが、こっちは桜の花で詰まりますから、さだめし壮観だろうと思います。<br><br>それから、梅は大体再来月は全部植わるはずです。<br><br>「ツツジ」も今年一杯で植わるでしょう。<br><br>桜だけは後回しになるが、そんな訳で、庭園は桜を除いただけは、今年一杯に出来るはずです。<br><br>どんな人でも驚くだろうと思ってますがね。<br><br> それから建築ですが、最初はメシヤ会館ですね。<br><br>予定は六百六十坪の予定ですが、様式も今までにないような様式のつもりです。<br><br>これは私が設計するつもりですが、それから美術館は世界的なものを造ろうと思っている。<br><br>世界的と言っても、金を掛けるのでは、アメリカ辺りにはかないませんが、つまり様式ですね。<br><br>外国人が来ても、アッとするようなものを造ろうと思っている。<br><br>神様の方で色んな経綸はあるんですが、あんまり始めから知ってしまうと面白くないから、その都度――必要だけづつ知っていれば良い訳ですからね。<br><br>その位にしておきます。<br><br> 病貧争絶無の世界という――病気ですね。<br><br>病気は始終言っているから、今さら言う必要はありませんが浄霊法ですね。<br><br>これを変えてもらいたいと思うのは、今までは振りましたが、そうするとどうしても力が入るんです。<br><br>これからは、光が強くなってくると、力を入れると、人間に遮られる。<br><br>振らないで、スッとした方が、力が抜けるんです。<br><br>だから、これからは動かさないというのを原則にして――場合によっては少し振っても良いですが、出来るだけ力を入れないのです。<br><br>ボヤッとしてね。<br><br>その代わり、霊が通らなければならないからね。<br><br>通ると言うのは考えですからね。<br><br>ですから通すつもりで、力を抜くと言うんだから、慣れない中は難しいが、慣れると非常に楽になります。<br><br>今までの離れ方で良いですが、このくらい（一尺）でも、力を抜くと割に霊が通るんです。<br><br>だから、何倍治りが良くなるかやって御覧なさい。<br><br>私なんかでも、力を抜くほど治りが良くなる。<br><br>ここ(お腹)にある光の玉が、楽にすると、ここ（手）からよく出る。<br><br>ちょっとでも力を入れると光を遮る。<br><br>そうすれば、病気は段々治り良いようになってきます。<br><br> それから「 結核の革命的療法 」ですね。<br><br>あの本も段々――厚生省の方とか色々調べた結果、法規には触れないと言う事が分かった。<br><br>だから、いずれ一般に向かって出版しますが、それには大々的に新聞広告しなければならないですね。<br><br>それから、印刷や何かでも金がかかるから充分準備をしてからやろうと思ってます。<br><br>その時期は来年過ぎになるでしょう。<br><br> 「文明の創造」の中の病気に関した事ですね。<br><br>この著述を三部にします。<br><br>一部として、主に病気に関した事を書いてあります。<br><br>これは実に医学の大革命です。<br><br>これを出版するつもりです。<br><br>これはどうしても、相当センセーションを起こすつもりです。<br><br>これは大仕掛けにして――無論翻訳して外国にも出します。<br><br>世界的の医学革命ですね。<br><br>それは、よほど準備してからかからなければならないです。<br><br>そうして、病をなくすと言う一つの表面的の活動になるわけです。<br><br>それから貧乏をなくすと言う事は――最初は日本ですね。<br><br>日本でも、よく考えてみると――日本の人口の八割は農民ですから、まず、農民から貧乏をなくすと言う事が一番です。<br><br>ところが最近になって、農村が一番貧乏――と言ってはなんだが、経済的の苦痛になっている。<br><br>と言うのは、最近の日銀の調べによりますと、貨幣ですね。<br><br>貨幣の分布状態から言うと、農民は人口が八割あるにかかわらず、今農民階級の方に行っているお札は五番目になっていますね。<br><br>戦後、一時――農村が一番ある統計になってますが、今日は下がって五番目です。<br><br>そうするといかに疲弊しているかが分かる。<br><br>そこで、自然農法にすると、まず、五年経てば――五年続けてやれば、大体肥毒が抜けますから、五割の増産は間違いない。<br><br>今年の予想で行くと、六千四百万石ですから、五割増産すると九千六百万石になる。<br><br>日本の人口が八千万と見て、二千万石足りない。<br><br>そこで二千万石輸入を仰がなければならない。<br><br>と言うことになっているが、農地改良だとか、交換分合だとか、色んな事をしているが、ちょっとも増えない。<br><br>むしろ風水害のひどいのがでると、減るくらいの状勢です。<br><br>というのは、肥料と言う根本が間違っている。<br><br>そこで九千六百万石と見ると、一千万石以上余りますから、逆に輸出が出来るから、千億や二千億じゃきかない。<br><br>肥料も要らないし、農民の懐具合が豊かになると、農民の購買力は増えるから、商工業にもお金が行くわけです。<br><br>そうすると、根本的の貧乏の原因が除かれますから、病貧がなくなり、結核の心配がなくなり、伝染病なんか屁でもないと言う事になり、病貧は解決できます。<br><br> ただ、戦争です。<br><br>一番解決しなければならない問題であって、一番急を要する問題です。<br><br>今まで戦争の事について余り書かなかったが、今度、戦争をなくすると言う事について書いてみた。<br><br> （御論文 「第三次戦争は免かれる事が出来る」 のあとの御教え）【栄光新聞一二六号】 最近聞いた話ですが、進駐軍の人だとか――そういった宗教に関係ある――関心を持つアメリカ人の人が七、八人くらいで、メシヤ教を研究しているのだそうです。<br><br>やっぱり、一々翻訳しては、仲々熱心に研究しているそうです。<br><br>それは、非常に良い意味なんです。<br><br>ですから、そう言う人が、今の論文を見れば――無論翻訳して本国に送りますからね。<br><br>目のある人なら、なるほどと思わなければならない。<br><br>こう言うような意味も、段々世界的に宣伝していくつもりです。<br><br>というのは、今までの文化と言うのは――今、私が書いている論文に「空虚の文明」と言うのを書いている。<br><br>つまり、空っぽ――外側ばかりです。<br><br>戦争防止と言うと、力には力を持ってする――精巧な武器――進歩した武器を造る。<br><br>それより他に手段がない。<br><br>ところが、今のところは大いに必要です。<br><br>原子爆弾でも、原子砲でもそろえて、立ち向かわなければならない。<br><br>やっぱり、時期のもので、永久的のものではない。<br><br>第三次戦争をなくするのは、やはり人間個人個人の魂です。<br><br> 戦争ばかりではない。<br><br>何でもそうです。<br><br>最近犯罪が増えると言う事は、犯罪を起こそうと言う魂なんです。<br><br>それを忘れて、犯罪が現れた結果を防ごうとして、法律を持って防ぐんですね。<br><br>警察官を増やしたり、裁判所や、そう言った――無論教育も入ってますが、つまり外から防いでいるんですね。<br><br>医学がそうです。<br><br>病気と言う症状に現れたものを防ごうとして、色んな事をやっている。<br><br>しかし、なんでも中身なんです。<br><br>中を無視しているんです。<br><br>先に「外画文明」と言うのを書いたが、外画だけを一生懸命やっている。<br><br>ところが、今言ったように原因は中にある。<br><br>中心にあると言うのは魂です。<br><br>魂を良くするのは、宗教よりないんですからね。<br><br>ところがそれだけの力がある宗教は今まで出なかった。<br><br>そこで、宗教は信用がなくなったので、宗教は駄目だと言うので――そう言った形あるもので防ぐよりしようがないと言うので進んだのが、今の文化です。<br><br>だから、魂を治すんです。<br><br>メシヤ教でやると治るんです。<br><br>ところが、医学では、中心を治すのでないから、一時良くなっても再発して駄目になってしまう。<br><br>戦争もそう言ったように、人間が曇りきって――汚れきってますから、汚れたのをきれいにする。<br><br>それには――汚れてどうしようもない人間は命をなくして生まれ変わるより他はない。<br><br>色んな物質で、罪が溜まって汚いのは、ぶち壊して新しくする。<br><br>その時期が今日なんです。<br><br>結局、今までにないような大きな戦争が始まると言うわけですね。<br><br>そうして、これが最後になる。<br><br>最後の大掃除が第三次戦争なんです。<br><br>だから、掃除される汚いものを人間の方で、先回りして取ってしまえば良い。<br><br>これは外国人の人も分かるはずです。<br><br>無神論のカチカチ――これだけはしようがないですね。<br><br>これは掃除の時に、掃除されるんです。<br><br>これをみんな助けると言うわけにはいかないそうですからね――神様の方は。<br><br> 我々のやっている事は、生き残る人間を増やすんです。<br><br>出来るだけ――一人でも多く、生き残らせようとするのは当たり前です。<br><br> 今、「文明の創造」の医学の方は出来て、今度宗教を書いている。<br><br>宗教編でも、今までの宗教の説き方では駄目なので、駄目と言うより、つまり一つのお説教になっている。<br><br>「こういう事をしてはいけない」「汝こうするな」とね。<br><br>それは悪くはないが、もっと今の人間には徹底して、合理的に納得できなければならないように説くんです。<br><br>そうかと言って、無味乾燥なお説教じゃ面白くないから、出来るだけ面白く――知らず知らずに読んでいくと言うように説いているつもりです。<br><br>それにしても一番肝心なのは仏教ですからね。<br><br>ですから仏教を主にして説いてある。<br><br>時間があれば「仏教の起源」と言うのを読ませるつもりですが、話の方が長くなったので、それに時間を取られたので読む事が出来ないが、仏教と言うのは、日本から起こった。<br><br>日本人がお釈迦さんに教えたんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Visões do Paraíso Terrestre e a Erradicação do Mal</h2>
 <p>É uma alegria que o dia esteja ensolarado.</p>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p>Nossa missão consiste em aumentar o número de sobreviventes. É natural que queiramos salvar o maior número possível de pessoas, nem que seja uma a mais.</p>
 <p>A seção sobre medicina da obra “A Criação da Civilização” já está concluída, e agora estou escrevendo a parte sobre religião. A maneira tradicional de expor temas religiosos já não é eficaz; mais do que isso, tornou-se um mero sermão, com preceitos como “Não faças isto” ou “Não deves fazer aquilo”. Não que sejam ensinamentos maus, mas para o homem moderno, é necessária uma abordagem mais profunda e racional, que o convença de forma cabal. Por outro lado, um sermão árido e sem vida não desperta interesse. Por isso, procuro escrever de uma forma que seja, ao mesmo tempo, interessante, para que a pessoa leia naturalmente, sem se dar conta de que está sendo instruída. Nesse contexto, o Budismo é o tema mais crucial, e por isso dedico-lhe atenção especial.</p>
 <p>Se o tempo permitisse, eu leria para vocês meu artigo “A Origem do Budismo”, mas como me estendi demais, não será possível. O Budismo, na verdade, teve sua origem no Japão. Foram os japoneses que instruíram Sidarta Gautama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S26年9月27日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月二十七日（五日目） 今日はお天気になって良かったですね。<br/><br/> 箱根の方も見られる通り、美術館の建築に取り掛かったんです。<br/><br/>これが来年の夏までには出来る予定です。<br/><br/>それから、裏の方に、今石や何か出し始めた。<br/><br/>あれもすっかり、それまでには完成するつもりです。<br/><br/>向こうの方の流れから、穏やかな渓流にして、まわりに「もみじ」を植えたいですね。<br/><br/>裏の方も、「もみじ」の庭みたいにするつもりです。<br/><br/>大体「もみじ」の相当大きいのを百本植える予定で、言いつけておきました。<br/><br/>それで、下を苔にしようと思う。<br/><br/>この春京都の苔寺に行って見た所が、仲々苔も良いですしね。<br/><br/>「もみじ」はなるべく紅葉するのを選びましたが、紅葉して下が青くなったら、非常に良いだろうと思う。<br/><br/>苔寺の苔はめちゃくちゃで風情も大してなく、ただいろんな苔が生えているだけです。<br/><br/>いろんな苔の種類を話してましたが、苔は自然に放っておいても出るものなのです。<br/><br/>こっちで、一種類にしようと思っても、苔の方で色々出てくる。<br/><br/>まあ――そんな計画です。<br/><br/>随分と、見た事もないような庭が出来るだろうと思います。<br/><br/>橋の模型を掛けてますが、あれよりもう少し幅の広い、もっと気のきいた形に造るつもりです。<br/><br/>京都の通天橋と言うのがありますが、あんなような風情にしようと思う。<br/><br/>それで美術館と庭が出来れば、大体神仙郷は完成するんです。<br/><br/>美術館の方も色々調べた結果、日本には美術館らしい美術館はあんまりないようです。<br/><br/>官立の美術館としては、上野の博物館、京都の博物館、大阪の博物館ですね。<br/><br/>なるほど建物は――東京の博物館は立派ですが、中に並べてあるものは、考古学的なものや歴史的なものを主にしているから、美術的なものは割合少ないですね。<br/><br/>何百年前、何千年前と言うのがあるが、ただ参考になるだけです。<br/><br/>専門家や色々関心を持つ人は――天平時代だとか、飛鳥時代のものだと言って、賞味しますが、しかし私なんかの美術館の目的と言うのは、大衆の誰も彼もが見て、美の観念に打たれると言う所を狙っている。<br/><br/>ああ良いなと言って楽しめるのは良いが。<br/><br/>これは何年前に何の為に作られたのだろう。<br/><br/>何が良いんだろう。<br/><br/>と、額に八の字を寄せて考えるようでは、どうもありがたくないですね。<br/><br/>今まで、日本は良いものと言うと、みんな大名の蔵とか金持ちの蔵にしまいこんで仲々見せない。<br/><br/>独占ですね。<br/><br/>これについて、外国の相当の識者なんかの意見で、日本で「国宝」と言う名をつけるのはおかしい。<br/><br/>と言うのは、要するに世界の美術を独占すると言う意味になる。<br/><br/>ところが、美術品と言うのは、世界中の人の目を楽しませると言うのが本当なんです。<br/><br/>それなのに、大事にしまって国から出さないようにすると言う意味になるから「国宝」は止めた方が良いと言う説があるそうです。<br/><br/>私は以前から、ああ言うものを独占的に自分の所有物としてしまっておくと言う事は嘘だと思ってます。<br/><br/>今までにも、私立の美術館もあるにはありますが、公衆に見せたいと言うのではなくて、自己の財産を擁護したいと言うのです。<br/><br/>保護して、子孫の代になって手放す事は出来ない。<br/><br/>世襲財産ですね。<br/><br/>財産擁護の為です。<br/><br/>そこで、一年に二回づつ展覧会をしますが、わずか一週間くらいです。<br/><br/>規則が展覧会をしなければならないという規則になってますからね。<br/><br/>今度は一年に四、五回と増えたそうです。<br/><br/>そんな事を聞きました。<br/><br/>そんな風で、公衆に見せるというのではなくて、財産擁護と言う事になっている。<br/><br/>見せると言っても、一部の人しか見られない。<br/><br/>誰でも見れるようなきっかけを与えると言うのでなければ、美術館の意味はない。<br/><br/>そういう美術館は日本にはないです。<br/><br/>そこで、私はそういうものを造ろうと思う。<br/><br/>最初は――箱根のはごく小さく、見本的に造るんですが、最初から大衆に見せたら整理がつかないから、最初は信者さんか、信者さんの紹介した人に限って見せます。<br/><br/>いずれ、熱海の方にずっと大きな、規模の素晴らしいものを造るつもりです。<br/><br/>それは、誰でも見られるような組織にしようと思う。<br/><br/>箱根に出来る美術館も、出来たら日本一のものが出来ると思います。<br/><br/>今の美術館を調べてみても、一部的で全般的の美術品を陳列しているところはないです。<br/><br/>博物館は、今まで予算が足りなかったので余り良いものが買えなかったそうですがね。<br/><br/>相当仕入れてありますが、まだ充分とは行かない。<br/><br/>私はそれ以上のものを並べようと思って――大体重要なものは、どこの誰が持っているかと言う事は定まっているのですからね。<br/><br/>うまく――というのは変ですがね。<br/><br/>何かだますようでね。<br/><br/>それをうまく話して出品させる――了解させるんですね。<br/><br/>ボツボツ交渉や――色々してみていますが、割合可能性があるんです。<br/><br/>だから、相当有名なものを並べる事が出来ると思います。<br/><br/>それから、熱海の方は世界的なものを造るつもりです。<br/><br/>世界で有名なのは、英国のロンドン、米国のワシントン及びボストンですね。<br/><br/>美術品としての博物館ですね。<br/><br/>大体調べてみましたが大したものはない。<br/><br/>というのは、なるほど西洋で出来た油絵とかガラスは敵いっこないですが、美術というのは、世界中で東洋のものが上だ。<br/><br/>美術的価値があると言う事になっているので、向こうでは非常に欲しがっている。<br/><br/>日本美術は手に入れる事が出来ないと言うんです。<br/><br/>日本人は日本の美術を西洋にやる事を警戒して、やらなかった為に、日本美術は外国に行ってない。<br/><br/>たまたま行っているのは贋物が多い。<br/><br/>あっち向きにそろえたものです。<br/><br/>終戦後、本物を見て非常に驚いて、これなら欲しいというので、昨今非常に日本美術を狙っている。<br/><br/>その結果日本の歌を書いた色紙ですね。<br/><br/>そういうのも非常に欲しがっている。<br/><br/>絵の方は良いものは手に入らないくらいです。<br/><br/>そんなような訳で、今度出来る美術館も、日本美術の優秀なものを主にしてやろうと思う。<br/><br/>あとは支那、朝鮮ですね。<br/><br/>美術館の方はその位にしておきます。<br/><br/> 熱海の方の土地の模様は大体出来たんです。<br/><br/>これから木を植える事になる。<br/><br/>真中の展望台が出来る山に「ツツジ」を二千本植えるつもりです。<br/><br/>これが出来たら素晴らしい壮観だろうと思いますね。<br/><br/>来年の五月には花が咲く。<br/><br/>「ツツジ」ですがね。<br/><br/>どうしても二、三年経ってからでなければ本当は花が咲かないのです。<br/><br/>花がつかないのですが、来年の五月でも相当に美しいだろうと思います。<br/><br/>これは日本一と言っても間違いない。<br/><br/>そんなに「ツツジ」をたくさん植えた山がある訳がない。<br/><br/>しかも、その「ツツジ」は種類が多いのでも一番です。<br/><br/>三、四年前に箱根の芦ノ湖に岩崎の別荘があるが、そこの「ツツジ」で、岩崎さんが金にあかして種類を集めたんで、実に良い種類が集まっている。<br/><br/>その時千本位売ると言うので、私はただ買いたくてしょうがないので買ったんですが、今から見ると十分の一か、五分の一でしょう。<br/><br/>しかも一株が――掘ってみると二本三本くらいの寄せ植えになってますから、千本でちょうど二、三千本あるんです。<br/><br/>実に安かった。<br/><br/>神様が用意したものですね。<br/><br/>私は、どこに植えるあてもなく、神様が買えと言う事で買ったんですが、今日では立派に役に立った。<br/><br/> 晴々台の横は桜の園を造る事になっているが、どうしても狭かったが、横の方を買ってくれと言う事になって――大体定まったんですが、そこに山を造って桜を千本植える。<br/><br/>ちょうど植わるつもりです。<br/><br/>吉野山は一目千本と言っているが、こっちも一目千本です。<br/><br/>吉野山のは広い所ですから、ぱらぱらですが、こっちは桜の花で詰まりますから、さだめし壮観だろうと思います。<br/><br/>それから、梅は大体再来月は全部植わるはずです。<br/><br/>「ツツジ」も今年一杯で植わるでしょう。<br/><br/>桜だけは後回しになるが、そんな訳で、庭園は桜を除いただけは、今年一杯に出来るはずです。<br/><br/>どんな人でも驚くだろうと思ってますがね。<br/><br/> それから建築ですが、最初はメシヤ会館ですね。<br/><br/>予定は六百六十坪の予定ですが、様式も今までにないような様式のつもりです。<br/><br/>これは私が設計するつもりですが、それから美術館は世界的なものを造ろうと思っている。<br/><br/>世界的と言っても、金を掛けるのでは、アメリカ辺りにはかないませんが、つまり様式ですね。<br/><br/>外国人が来ても、アッとするようなものを造ろうと思っている。<br/><br/>神様の方で色んな経綸はあるんですが、あんまり始めから知ってしまうと面白くないから、その都度――必要だけづつ知っていれば良い訳ですからね。<br/><br/>その位にしておきます。<br/><br/> 病貧争絶無の世界という――病気ですね。<br/><br/>病気は始終言っているから、今さら言う必要はありませんが浄霊法ですね。<br/><br/>これを変えてもらいたいと思うのは、今までは振りましたが、そうするとどうしても力が入るんです。<br/><br/>これからは、光が強くなってくると、力を入れると、人間に遮られる。<br/><br/>振らないで、スッとした方が、力が抜けるんです。<br/><br/>だから、これからは動かさないというのを原則にして――場合によっては少し振っても良いですが、出来るだけ力を入れないのです。<br/><br/>ボヤッとしてね。<br/><br/>その代わり、霊が通らなければならないからね。<br/><br/>通ると言うのは考えですからね。<br/><br/>ですから通すつもりで、力を抜くと言うんだから、慣れない中は難しいが、慣れると非常に楽になります。<br/><br/>今までの離れ方で良いですが、このくらい（一尺）でも、力を抜くと割に霊が通るんです。<br/><br/>だから、何倍治りが良くなるかやって御覧なさい。<br/><br/>私なんかでも、力を抜くほど治りが良くなる。<br/><br/>ここ(お腹)にある光の玉が、楽にすると、ここ（手）からよく出る。<br/><br/>ちょっとでも力を入れると光を遮る。<br/><br/>そうすれば、病気は段々治り良いようになってきます。<br/><br/> それから「 結核の革命的療法 」ですね。<br/><br/>あの本も段々――厚生省の方とか色々調べた結果、法規には触れないと言う事が分かった。<br/><br/>だから、いずれ一般に向かって出版しますが、それには大々的に新聞広告しなければならないですね。<br/><br/>それから、印刷や何かでも金がかかるから充分準備をしてからやろうと思ってます。<br/><br/>その時期は来年過ぎになるでしょう。<br/><br/> 「文明の創造」の中の病気に関した事ですね。<br/><br/>この著述を三部にします。<br/><br/>一部として、主に病気に関した事を書いてあります。<br/><br/>これは実に医学の大革命です。<br/><br/>これを出版するつもりです。<br/><br/>これはどうしても、相当センセーションを起こすつもりです。<br/><br/>これは大仕掛けにして――無論翻訳して外国にも出します。<br/><br/>世界的の医学革命ですね。<br/><br/>それは、よほど準備してからかからなければならないです。<br/><br/>そうして、病をなくすと言う一つの表面的の活動になるわけです。<br/><br/>それから貧乏をなくすと言う事は――最初は日本ですね。<br/><br/>日本でも、よく考えてみると――日本の人口の八割は農民ですから、まず、農民から貧乏をなくすと言う事が一番です。<br/><br/>ところが最近になって、農村が一番貧乏――と言ってはなんだが、経済的の苦痛になっている。<br/><br/>と言うのは、最近の日銀の調べによりますと、貨幣ですね。<br/><br/>貨幣の分布状態から言うと、農民は人口が八割あるにかかわらず、今農民階級の方に行っているお札は五番目になっていますね。<br/><br/>戦後、一時――農村が一番ある統計になってますが、今日は下がって五番目です。<br/><br/>そうするといかに疲弊しているかが分かる。<br/><br/>そこで、自然農法にすると、まず、五年経てば――五年続けてやれば、大体肥毒が抜けますから、五割の増産は間違いない。<br/><br/>今年の予想で行くと、六千四百万石ですから、五割増産すると九千六百万石になる。<br/><br/>日本の人口が八千万と見て、二千万石足りない。<br/><br/>そこで二千万石輸入を仰がなければならない。<br/><br/>と言うことになっているが、農地改良だとか、交換分合だとか、色んな事をしているが、ちょっとも増えない。<br/><br/>むしろ風水害のひどいのがでると、減るくらいの状勢です。<br/><br/>というのは、肥料と言う根本が間違っている。<br/><br/>そこで九千六百万石と見ると、一千万石以上余りますから、逆に輸出が出来るから、千億や二千億じゃきかない。<br/><br/>肥料も要らないし、農民の懐具合が豊かになると、農民の購買力は増えるから、商工業にもお金が行くわけです。<br/><br/>そうすると、根本的の貧乏の原因が除かれますから、病貧がなくなり、結核の心配がなくなり、伝染病なんか屁でもないと言う事になり、病貧は解決できます。<br/><br/> ただ、戦争です。<br/><br/>一番解決しなければならない問題であって、一番急を要する問題です。<br/><br/>今まで戦争の事について余り書かなかったが、今度、戦争をなくすると言う事について書いてみた。<br/><br/> （御論文 「第三次戦争は免かれる事が出来る」 のあとの御教え）【栄光新聞一二六号】 最近聞いた話ですが、進駐軍の人だとか――そういった宗教に関係ある――関心を持つアメリカ人の人が七、八人くらいで、メシヤ教を研究しているのだそうです。<br/><br/>やっぱり、一々翻訳しては、仲々熱心に研究しているそうです。<br/><br/>それは、非常に良い意味なんです。<br/><br/>ですから、そう言う人が、今の論文を見れば――無論翻訳して本国に送りますからね。<br/><br/>目のある人なら、なるほどと思わなければならない。<br/><br/>こう言うような意味も、段々世界的に宣伝していくつもりです。<br/><br/>というのは、今までの文化と言うのは――今、私が書いている論文に「空虚の文明」と言うのを書いている。<br/><br/>つまり、空っぽ――外側ばかりです。<br/><br/>戦争防止と言うと、力には力を持ってする――精巧な武器――進歩した武器を造る。<br/><br/>それより他に手段がない。<br/><br/>ところが、今のところは大いに必要です。<br/><br/>原子爆弾でも、原子砲でもそろえて、立ち向かわなければならない。<br/><br/>やっぱり、時期のもので、永久的のものではない。<br/><br/>第三次戦争をなくするのは、やはり人間個人個人の魂です。<br/><br/> 戦争ばかりではない。<br/><br/>何でもそうです。<br/><br/>最近犯罪が増えると言う事は、犯罪を起こそうと言う魂なんです。<br/><br/>それを忘れて、犯罪が現れた結果を防ごうとして、法律を持って防ぐんですね。<br/><br/>警察官を増やしたり、裁判所や、そう言った――無論教育も入ってますが、つまり外から防いでいるんですね。<br/><br/>医学がそうです。<br/><br/>病気と言う症状に現れたものを防ごうとして、色んな事をやっている。<br/><br/>しかし、なんでも中身なんです。<br/><br/>中を無視しているんです。<br/><br/>先に「外画文明」と言うのを書いたが、外画だけを一生懸命やっている。<br/><br/>ところが、今言ったように原因は中にある。<br/><br/>中心にあると言うのは魂です。<br/><br/>魂を良くするのは、宗教よりないんですからね。<br/><br/>ところがそれだけの力がある宗教は今まで出なかった。<br/><br/>そこで、宗教は信用がなくなったので、宗教は駄目だと言うので――そう言った形あるもので防ぐよりしようがないと言うので進んだのが、今の文化です。<br/><br/>だから、魂を治すんです。<br/><br/>メシヤ教でやると治るんです。<br/><br/>ところが、医学では、中心を治すのでないから、一時良くなっても再発して駄目になってしまう。<br/><br/>戦争もそう言ったように、人間が曇りきって――汚れきってますから、汚れたのをきれいにする。<br/><br/>それには――汚れてどうしようもない人間は命をなくして生まれ変わるより他はない。<br/><br/>色んな物質で、罪が溜まって汚いのは、ぶち壊して新しくする。<br/><br/>その時期が今日なんです。<br/><br/>結局、今までにないような大きな戦争が始まると言うわけですね。<br/><br/>そうして、これが最後になる。<br/><br/>最後の大掃除が第三次戦争なんです。<br/><br/>だから、掃除される汚いものを人間の方で、先回りして取ってしまえば良い。<br/><br/>これは外国人の人も分かるはずです。<br/><br/>無神論のカチカチ――これだけはしようがないですね。<br/><br/>これは掃除の時に、掃除されるんです。<br/><br/>これをみんな助けると言うわけにはいかないそうですからね――神様の方は。<br/><br/> 我々のやっている事は、生き残る人間を増やすんです。<br/><br/>出来るだけ――一人でも多く、生き残らせようとするのは当たり前です。<br/><br/> 今、「文明の創造」の医学の方は出来て、今度宗教を書いている。<br/><br/>宗教編でも、今までの宗教の説き方では駄目なので、駄目と言うより、つまり一つのお説教になっている。<br/><br/>「こういう事をしてはいけない」「汝こうするな」とね。<br/><br/>それは悪くはないが、もっと今の人間には徹底して、合理的に納得できなければならないように説くんです。<br/><br/>そうかと言って、無味乾燥なお説教じゃ面白くないから、出来るだけ面白く――知らず知らずに読んでいくと言うように説いているつもりです。<br/><br/>それにしても一番肝心なのは仏教ですからね。<br/><br/>ですから仏教を主にして説いてある。<br/><br/>時間があれば「仏教の起源」と言うのを読ませるつもりですが、話の方が長くなったので、それに時間を取られたので読む事が出来ないが、仏教と言うのは、日本から起こった。<br/><br/>日本人がお釈迦さんに教えたんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

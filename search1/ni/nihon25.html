@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon25</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本農法の大革命 無肥科で初年度から一割乃至（ないし）五割増産 『栄光』245号、昭和29(1954)年1月27日発行 『日本は救われた』と私は叫びたいのである。<br><br>その訳は現在我国における最も重大問題としての、米作多収穫の一大福音が生まれたからである。<br><br>衆知のごとく、終戦後我国土は四分の三に狭められたばかりか、人口増加の趨勢は産制など尻目にかけて、相変らず一カ年百万以上というのであるから、到底楽観は許されないのである。<br><br>としたら今日これ程痛切な問題は他にあるまい。<br><br>というのは国家は年々多額の予算を計上し農地改良は固（もと）より、あらん限りの施設方法を立て官民共に大童（おおわらわ）になっているにかかわらず、予期の成果どころか平年作維持さえ精一パイという有様である。<br><br>そこへ昨年のごとき台風、冷害、虫害等の災厄続きで、アノような大凶作となったのであるから、我国農業の前途を考える時、全く寒心の外ないのである。<br><br> もっとも昔と違い、今日は外国からの米麦輸入の道もあるが、これとても一時凌（しの）ぎであって、そう長くは続けられないのはもちろんである。<br><br>というのは近年のごとく貿易の逆調はなはだしく、経済界の危機さえ叫ばれている今日、緊急対策を立てねばならないところに来ているからである。<br><br>そのため政府においても相当思い切ったデフレ政策に転向すべく、その対策を練ってはいるようだが、これも無理からぬ事であろう。<br><br>というように事態は容易ならぬ段階に来ている。<br><br>しかしこの問題解決の鍵は、何といっても米の増産である。<br><br>率直にいって全人口を養い得るだけの絶対量確保にあるのは言うまでもないが、今のところそんな夢のような希望の実現は到底不可能であろう。<br><br>ところが驚いてはいけない。<br><br>この危機を打開すべき画期的農法が生まれたのであって、これが自然農法である。<br><br>これによれば必要量の増産どころか、それ以上の収穫も可能であるとしたら、余りに棚牡丹（たなぼた）式で反って信じられないであろうが、事実は飽くまで事実であって現在全国各地において驚くべき実績を挙げつつあるのである。<br><br>昨年のごときは到る所減産の悲鳴の中に、ひとり自然農法者のみは一人の減産もなく、ことごとく増産の歓喜に輝いているので、これを見る今まで迷っていた近隣の農民達もたまらなくなり、慌てて各地共入会者続出という有様である。<br><br>従って私の予想である数年ならずして日本全国の大半はこの農法に切替えられる事となるのは、最早間違いないと思う。<br><br>これについては三年前から、毎春前年度の実績を資料として特集号を出して来たが、漸次実行者が増えるに従い、その報告も増え、従来の八頁ではどうにもならないので、今回活字改良と共に四頁を増し十二頁にしたのである。<br><br>しかも幸か不幸か昨年のごとき全国的大凶作に対し、本農法は反対に一斉大増産としたら、全く神が与えた好チャンスとして、この際大々的会員獲得運動に活躍する事となったのである。<br><br>そのため百万部増刷の準備も出来たので、会員諸氏もその方針を以って奮闘されん事である。<br><br> 自然農法の原理 この原理を説くに当って徹底的に分らせるためには、どうしても既成科学の頭脳では無理であるから、私が神示によって知り得た唯心科学を以って説くつもりである。<br><br>従って最初は相当難解であるかも知れなもとらいが、熟読玩味するに従い、必ず理解されるはずである。<br><br>もしそうでないとしたら、それは科学迷信に囚われているからで、これに気付けばいいのである。<br><br>そうして私の説くところ絶対真理であるのは何よりも事実が示している。<br><br>故に、これに従えば、初年度から一割ないし五割増産は確実である。<br><br>それに反し現在の農法は知らるるごとく伝統的方法と科学的方法とを併（あわ）せ行い、大いに進歩したように思っているが、結果はそれを裏切って余りある。<br><br>昨年の大減収によっても分るごとく、その直接原因である種々の災厄に対し、それに打克（うちか）つだけの力が稲になかったからで、つまり稲の弱体である。<br><br>ではこの原因は何によるかというと、これこそ肥料という毒素のためであると言ったら、唖然として開いた口が窄（すぼま）らぬであろう。<br><br>何しろ今日までの農業者は、肥料を以って農耕上不可欠のものと信じ切っていたからでこの考え方こそ農民の低い知識と科学の盲点とのため、肥料の害毒を発見出来なかったのである。<br><br>これについて重要な事はなるほど科学は他の物に対しては結構に違いないが、少くとも農業に関する限り、無力どころか大いに誤っている。<br><br>例えば土の本質も肥料の性能も今以て不明であるため、人為的方法を可とし、自然の力を無視している点にあるからである。<br><br>見よ長年に渉り政府、篤農家、学者が三位一体となって努力しているにもかかわらず、何らの進歩改善も見られない事実にみても分るとおり、昨年のごとき大凶作に遭えば手も足も出ず科学は自然に一溜りもなく敗北したのである。<br><br>としたら今後打つ手は何もあるまい。<br><br>全く日本農業は壁に突当ってどうにもならないのである。<br><br>ところが喜ぶべし、神はこの壁を突破る方法を教え給うた。<br><br>これが自然農法であって、これ以外日本を救う道のない事は断言するのである。<br><br>では一体この農法はいかなるものであるかを、以下詳しく説いてみよう。<br><br> そもそもこの問題の根本は土に対する認識不足からである。<br><br>というのは今日までの農法は肝腎な土を軽視し、補助的である肥料を重視したところに原因がある。<br><br>考えてもみるがいい、いかなる植物でも土を離れて何の意味かある。<br><br>これについての好い例は、終戦後米（べい）の駐屯兵が水栽培を行い注目を引いた事はまだ記憶に新たであろうが、これも最初は相当の成績を上げたようだが、最近聞くところによれば漸次退化し、ついにやめてしまったという話である。<br><br>これと同じように今日までの農業者は土を蔑視し、肥料を以って作物の食料とさえ思った程であるから、驚くべき錯誤であった。<br><br>その結果土壌は酸性化し、土本来の活力の衰えた事は、昨年の大凶作がよく物語っている。<br><br>それに気付かない農民は、長い間多額の肥料代や労力を空費し、凶作の原因を作っていたのであるから、その愚及ぶべからずである。<br><br> ではこれから土の本質に向って神霊科学のメスを入れてみるが、その前に知っておかねばならない事は土本来の意義である。<br><br>そもそも太初造物主が人間を造るや、人間を養うに足るだけの食物を生産すべく造られたものが土であるから、それに種子を播けば芽を出し、茎、葉、花、実というように漸次発育して、芽出度く稔りの秋を迎える事になるのである。<br><br>してみればこの米を生産する土こそ実に素晴しい技術者であり、大いに優遇すべきが本当ではなかろうが。<br><br>もちろんこれが自然力であるから、この研究こそ科学の課題でなくてはならないはずである。<br><br>ところが科学は飛んでもない見当違いをした。<br><br>それが自然力よりも人為力に頼りすぎた誤りである。<br><br> ではこの自然力とは何であるかというと、これこそ日、月、土、すなわち火素、水素、土素の融合によって発生したＸすなわち自然力である。<br><br>そうしてこの地球の中心は、人も知るごとく火の塊りであって、これが地熱の発生原である。<br><br>この地熱の精が地殻を透して成層圏までの空間を充填（じゅうてん）しており、この精にも霊と体の二面があって体の方は科学でいう窒素であり、霊の方は未発見である。<br><br>それと共に、太陽から放射される精が火素で、これにも霊と体があり、体は光と熱であり、霊は未発見である。<br><br>また月から放射される精は水素で、体はあらゆる水であり、霊は未発見である。<br><br>というようにこの三者の未発見である霊が抱合一体となって生まれたものがＸである。<br><br>これによって一切万有は生成化育されるのであって、このＸこそ無にして有であり、万物の生命力の根原でもある。<br><br>従って農作物の生育といえどもこの力によるのであるから、この力こそ無限の肥料である。<br><br>故にこれを認めて土を愛し、土を尊重してこそ、その性能は驚く程強化されるので、これが真の農法であって、これ以外に農法はあり得ないのである。<br><br>故にこの方法を実行する事によって、問題は根本的に解決されるのである。<br><br> ここで今一つの重要事がある。<br><br>それは今日までの人間は理性、感情等の意志想念は動物のみに限られると思っていた事である。<br><br>ところが意外にもこれが無機物にもある事を聞いたら唖然とするであろう。<br><br>もちろん土も作物も同様であるから、土を尊び土を愛する事によって、土自体の性能は充分発揮される。<br><br>それには何よりも土を汚さず、より清浄にする事であって、これによって土は喜びの感情が湧き活発となるのは言うまでもない。<br><br>ただ意志想念が動物と異（ちが）う点は、動物は自由動的であるに反し、土や植物は非自由静的である。<br><br>故に稲に対しても同様感謝の念を以って多収穫を念願すれば、心は通じ御蔭は必ずあるものである。<br><br>この理を知らないがため、見えざる掴めざるものは、すべて無と片付けているところに、科学の一大欠陥があったのである。<br><br> 本農法の技術面その他 本農法の原理は大体分ったであろうがこれを実行するに当って知っておくべき主なる点を書いてみるが、別項多数の報告〔略〕にもある通り、最初は例外なく苗が細く色は黄色く、実に貧弱なので悲観すると共に、近隣の人々や家族達から軽侮、嘲笑を浴びせられ、忠告までされるので、迷いが生じ易いのも無理はないが、何しろ信仰の土台がある以上、歯を食いしばって堪え忍んでいると、その時を過ぎるや漸次持直し、ヤレヤレと安堵する。<br><br>しかも収穫となるや案外にも幾分かの増収にさえなるので、ここに驚きと共に喜びに蘇生する、という事実は一人の例外もない。<br><br> これを説明してみればこうである。<br><br>初めの貧弱であるのは、もちろん肥毒のためであって、ちょうど麻薬中毒者や酒呑と同様、廃（や）めた直後は一時元気が失く、ボンヤリするようなものであって、それを通り越せば漸次普段通りになり、それから年一年良好に向い、数年経た頃は、苗は最初から青々している。<br><br>これは肥料の無くなった証拠であるから、こうなったらしめたもので、反（たん）十俵以上は間違いはない。<br><br>これを見てもいかに肥毒の恐ろしいかが分るであろう。<br><br>そうして特に重要な事は連作である。<br><br>それは米なら米と、一種類を続ければ続ける程、土はそれに適応する性能が生まれ、漸次旺盛となるのである。<br><br>これをみても土の性能こそ実に神秘霊妙なものであって、これがＸである。<br><br> 故に出来るだけ土を清浄にし、連作主義にすれば年々収穫を増し、反二十俵以上もあえて夢ではないのである。<br><br>それだのに何ぞや。<br><br>全然逆に土を汚すことのみに専念し、多額の犠牲を払うのであるから、何と評していいか言葉はない。<br><br>これについて昨年の凶作で分った事は、肥料を多く施した田程悪い事が分り、幾分目覚めたようだが、このくらいな事ではまだまだ前途遼遠（りょうえん）であろう。<br><br> 次に技術面であるが、知らるるごとく現在の水田は、長年の肥料のため表面は肥毒の壁のようになっているから、これを突破って天地返しをする事であるが、これも深すぎても浅すぎてもいけない。<br><br>その土地にもよるがまず一尺前後くらいがよかろう。<br><br>その際客土を使えばなおさらいい。<br><br>それだけ浄土が増え、肥毒が中和されるからである。<br><br>また株間も一尺前後がよく、二、三本植がいいようである。<br><br>しかし技術面はその土地の気候や状態にもよるから、適当に按配（あんばい）する事である。<br><br>次に藁（わら）を使う事は廃（や）めた方がいい。<br><br>何よりも土以外の異物は決して入れないようにすべきである。<br><br>ではなぜ藁を使ったかというと、これには訳がある。<br><br>日本が占領当時、占領軍の規則の中に、農作物は肥料を施すべしとの条項があったそうで、それを利用し当時無肥料栽培の名称であったのを種に、金銭を強請（ゆす）ろうとした奴がいて、あわよくば本教を潰して信者を獲得しようとする企（たくら）みも背後にあったようで、危険であるから、私は自然農法と改め、肥料として藁を使わせたのである。<br><br> 次に二、三注意したい事は、今だに報告書の中に浄霊とか御守護などの言葉があるが、宗教臭くてはいけないとして、昨年の特集号にも出した程であるから、今後は充分注意して貰いたい。<br><br>というのは入信しなければ増収が出来ないとしたらそれだけ普及に影響するからである。<br><br>また事実からいって信仰なしでも無肥料にさえすれば五割や十割の増産は確実であり要は今日の日本を一日も早く救わねばならないからである。<br><br> 今一つ言いたい事は、本農法は独（ひと）り米の増産のみではない。<br><br>こういう素晴しいプラスがある。<br><br>それは現在硫安製造に使う電力の使用量は、日本全体の半分弱という事で、もしそれを廃めるとしたら、現在の電力で充分間に合い、なお余るとの話をこの間専門家から聞き、私は驚いたのである。<br><br>とすれば本農法を全農民が実施する暁、米の輸入はなくなり、肥料も要らず、農民の労力は半減し、電力は余るとしたら、その全国家経済に及ぼす利益たるや、到底計算は出来ない程であろうから、これだけでも日本は一躍世界一の平和裕福な国家となるのは太鼓判を捺（お）しても間違いはない。<br><br>最後に今一つ驚くべき事がある。<br><br>それは言うまでもなく肥毒の害は独り作物のみではない、人体も同様である。<br><br>近年寄生虫が激増し、特に農村程多い話を聞くがこれは都会人はパン食が多く、農民は米食が多い関係によるのであろうが、これについての好適例がある。<br><br>その報告と写真を下に掲げるが、これを見たら何人も慄然とするであろう。<br><br>故にこの面からいっても、有肥栽培の害毒がよく分るのである。<br><br> 肥毒の恐ろしさ 静岡県志太郡青島町 愛進中教会農事担当者 増田耕一（33） 明主様より肥毒の恐ろしさについて御教えいただきまして、皆様にもその害毒を話しておりながらこの度程ハッキリその恐ろしさを見せつけられた事はありません。<br><br> 昨年暮、信者の多々良武夫氏が自然栽培一年目（品種白菊）の玄米と有肥栽培の玄米の標本を作られ、教会へ持って来られました。<br><br> 自然栽培の玄米は丸々として粒張りがあり実に力強い感を受けるに対し、有肥玄米は細長く弱々しい結核患者を思わせる様で、自然米と有肥米の対照がよく分り、いい標本として皆様にも説明して驚かれたものでした。<br><br>ところが今年になってからいつか忘れて事務室の片隅に置忘れられてしまいました。<br><br> 最近になって事務室の机や畳の上に時折穀象虫を見受ける様になりました。<br><br>最初の内は別に気にも止めませんでしたが毎日数が増えて来ますので「穀類のないはずの事務室にどうして穀象虫が出るのだろうか」と漸く不審を抱く様になりました。<br><br>それから数日後、フト気付いて「そうだ昨年米の見本を置いたからもしや」と思い早速棚の隅に忘れられていた二つの標本函を探し出しました。<br><br> 二つの函が重ねられてそのままになっており、上が自然米、下が有肥米でセロファン張りの自然米の函は何の異常もなく昨年見たのと同じでした。<br><br>ところが下の有肥米の函を見てハッとしました。<br><br>函の上面に張られたセロファンは真黒に見えました。<br><br>よく見ればこの僅か十糎足らずの函の中に幾十の穀象虫が右往左往してうごめいております。<br><br>昨年見たスマートな有肥玄米の姿はあのグロテスクな穀象虫に化けてしまったとしか思えません。<br><br>密閉したセロファンの各所に、穴をあけ、三匹、五匹と這い出しております。<br><br>そして手といわず畳といわずたちまち穀象虫は散開してゆきます。<br><br>その姿はあたかも自分の使命を完うして引揚げてゆく勇姿に見えて私もこの時だけは、無気味な穀象虫に対し「御苦労様でした」と呼びかけたい気持でした。<br><br>実に惨憺たる有様にて、ほとんど八〇％以上が見事な防空壕が掘られ、トンネルが貫通し、中にはほとんど空ろになって紙より薄い外郭のみを残した妙技には感歎させられます。<br><br>殆んど満足な粒はなく、虫糞にまみれて精白された様な有肥玄米の姿に比して一方自然玄米は昨年と少しも変らぬ瑞々しさ、肥料によってかくまで違うものだろうかと慄然と致しました。<br><br> その後試みに穀象虫を数匹ずつ何回か自然玄米の中へ入れて見ましたが、何時か姿を消してしまいます。<br><br>穀象虫に言わせたら「こんな自然玄米は真平だ、肥毒気のない米に用はない」と言うに違いありません。<br><br> この事実を見るにつけ、自然米の腹もちのよい事も頷け、保存のきく事も証明される訳です。<br><br>又近年農作物に病虫害の多発する事も肥料の種類の増加に比例するとの御教えもよく分らせて頂けました。<br><br>なおあの穀象虫が米粒の芯から自然発生して中身を食べながら大きくなる事も、まだ穴のあいてない米粒をすかして見ると中に白線が出来ていて、穀象虫の幼虫の姿が不透明な影となって見られます。<br><br>こうした事からも汚れた所に黴菌が自然発生する事も自明の理であります。<br><br> 自然栽培を実施している方達も異口同音に、虫が湧かなくなったと申しております。<br><br>数年前より麦の自然栽培を実施している相馬茂雄氏は「今年はカマス（藁で織った袋）の中へじかに麦を入れておいたがほとんど虫は湧かない」と言われております。<br><br> ちなみにこの標本の玄米一勺の目方は自然が四匁、有肥が二匁二分で（昭和二十八年十月十八日計量）自然百に対し有肥は五十五％となり、一升の重量は、自然四百匁に対し有肥は二百二十匁という驚くべき結果となり、従って日常の食事の約半分が栄養分のない、反って人体に有害な肥毒分とも考えられ、今更ながら有肥米の恐ろしさに戦慄を禁じ得ません。<br><br>近年増加した医診に言う「千人に一人」とか「万人に一人」という奇病の発生も、日常無関心に食べる米や野菜に含まれた肥料の毒がその要因とも考えられ、日頃御教え頂いております明主様の御言葉が他に求む由もない絶対の真理の顕彰であられる事が殊更に胸に迫り感涙がこみ上げます。<br><br> 今後「自然農法普及会」の発展に伴ない、既成農法の誇る手中の玉、肥料こそ、実は農作物の生産と尊い人命を刻々蝕んでゆく悪魔の玉である事が白日下に晒され、肥料万能に盲信、陶酔する近代農業の大革命が行われ、この地上に恐るべき肥毒の消滅する日も遠くない事を確信して、拙稿を結ばせて頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Revolução na Agricultura Japonesa</h2>
 <h2>Aumento de Dez a Cinquenta por Cento na Produção desde o Primeiro Ano pelo Método sem Adubos</h2>
@@ -145,5 +495,48 @@ function toggleLang(lang) {
 <p>A propósito, o peso de uma pequena medida (<em>shaku</em>) do arroz integral desta amostra era de 4 <em>monme</em> (15g) para o natural e 2,2 <em>monme</em> (8,25g) para o com adubos (pesagem de 18 de outubro de 1953). Isso significa que, em relação ao peso do arroz natural (100%), o do arroz com adubos era de apenas 55%. Extrapolando, um litro de arroz natural pesaria 400 <em>monme</em> (1,5kg), enquanto o com adubos pesaria apenas 220 <em>monme</em> (825g). Este resultado espantoso sugere que quase metade do que comemos em uma refeição diária não tem valor nutritivo e, pior, consiste em toxinas de adubos prejudiciais ao corpo. Sinto um calafrio ao tomar consciência do perigo do arroz cultivado com adubos.</p>
 <p>Acredito que a causa do surgimento de doenças raras, que os médicos dizem afetar “uma em mil” ou “uma em dez mil” pessoas, pode estar no veneno dos adubos contido no arroz e nos vegetais que consumimos displicentemente todos os dias. Diante disso, as palavras de Meishu-Sama, que recebemos em seus ensinamentos, revelam-se uma manifestação da verdade absoluta, que não precisa ser buscada em nenhum outro lugar. Meu peito se enche de emoção e as lágrimas me vêm aos olhos.</p>
 <p>Tenho a convicção de que, com o avanço da Associação de Agricultura Natural, a joia mais preciosa da agricultura convencional – o adubo – será desmascarada como o que realmente é: a joia do demônio, que corrói dia a dia a produção agrícola e a preciosa vida humana. Uma grande revolução na agricultura moderna, que hoje se encontra cega e inebriada pela onipotência dos adubos, ocorrerá. O dia em que o terrível veneno dos adubos desaparecerá da face da Terra não está distante. Com esta certeza, concluo meu modesto relato.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本農法の大革命 無肥科で初年度から一割乃至（ないし）五割増産 『栄光』245号、昭和29(1954)年1月27日発行 『日本は救われた』と私は叫びたいのである。<br/><br/>その訳は現在我国における最も重大問題としての、米作多収穫の一大福音が生まれたからである。<br/><br/>衆知のごとく、終戦後我国土は四分の三に狭められたばかりか、人口増加の趨勢は産制など尻目にかけて、相変らず一カ年百万以上というのであるから、到底楽観は許されないのである。<br/><br/>としたら今日これ程痛切な問題は他にあるまい。<br/><br/>というのは国家は年々多額の予算を計上し農地改良は固（もと）より、あらん限りの施設方法を立て官民共に大童（おおわらわ）になっているにかかわらず、予期の成果どころか平年作維持さえ精一パイという有様である。<br/><br/>そこへ昨年のごとき台風、冷害、虫害等の災厄続きで、アノような大凶作となったのであるから、我国農業の前途を考える時、全く寒心の外ないのである。<br/><br/> もっとも昔と違い、今日は外国からの米麦輸入の道もあるが、これとても一時凌（しの）ぎであって、そう長くは続けられないのはもちろんである。<br/><br/>というのは近年のごとく貿易の逆調はなはだしく、経済界の危機さえ叫ばれている今日、緊急対策を立てねばならないところに来ているからである。<br/><br/>そのため政府においても相当思い切ったデフレ政策に転向すべく、その対策を練ってはいるようだが、これも無理からぬ事であろう。<br/><br/>というように事態は容易ならぬ段階に来ている。<br/><br/>しかしこの問題解決の鍵は、何といっても米の増産である。<br/><br/>率直にいって全人口を養い得るだけの絶対量確保にあるのは言うまでもないが、今のところそんな夢のような希望の実現は到底不可能であろう。<br/><br/>ところが驚いてはいけない。<br/><br/>この危機を打開すべき画期的農法が生まれたのであって、これが自然農法である。<br/><br/>これによれば必要量の増産どころか、それ以上の収穫も可能であるとしたら、余りに棚牡丹（たなぼた）式で反って信じられないであろうが、事実は飽くまで事実であって現在全国各地において驚くべき実績を挙げつつあるのである。<br/><br/>昨年のごときは到る所減産の悲鳴の中に、ひとり自然農法者のみは一人の減産もなく、ことごとく増産の歓喜に輝いているので、これを見る今まで迷っていた近隣の農民達もたまらなくなり、慌てて各地共入会者続出という有様である。<br/><br/>従って私の予想である数年ならずして日本全国の大半はこの農法に切替えられる事となるのは、最早間違いないと思う。<br/><br/>これについては三年前から、毎春前年度の実績を資料として特集号を出して来たが、漸次実行者が増えるに従い、その報告も増え、従来の八頁ではどうにもならないので、今回活字改良と共に四頁を増し十二頁にしたのである。<br/><br/>しかも幸か不幸か昨年のごとき全国的大凶作に対し、本農法は反対に一斉大増産としたら、全く神が与えた好チャンスとして、この際大々的会員獲得運動に活躍する事となったのである。<br/><br/>そのため百万部増刷の準備も出来たので、会員諸氏もその方針を以って奮闘されん事である。<br/><br/> 自然農法の原理 この原理を説くに当って徹底的に分らせるためには、どうしても既成科学の頭脳では無理であるから、私が神示によって知り得た唯心科学を以って説くつもりである。<br/><br/>従って最初は相当難解であるかも知れなもとらいが、熟読玩味するに従い、必ず理解されるはずである。<br/><br/>もしそうでないとしたら、それは科学迷信に囚われているからで、これに気付けばいいのである。<br/><br/>そうして私の説くところ絶対真理であるのは何よりも事実が示している。<br/><br/>故に、これに従えば、初年度から一割ないし五割増産は確実である。<br/><br/>それに反し現在の農法は知らるるごとく伝統的方法と科学的方法とを併（あわ）せ行い、大いに進歩したように思っているが、結果はそれを裏切って余りある。<br/><br/>昨年の大減収によっても分るごとく、その直接原因である種々の災厄に対し、それに打克（うちか）つだけの力が稲になかったからで、つまり稲の弱体である。<br/><br/>ではこの原因は何によるかというと、これこそ肥料という毒素のためであると言ったら、唖然として開いた口が窄（すぼま）らぬであろう。<br/><br/>何しろ今日までの農業者は、肥料を以って農耕上不可欠のものと信じ切っていたからでこの考え方こそ農民の低い知識と科学の盲点とのため、肥料の害毒を発見出来なかったのである。<br/><br/>これについて重要な事はなるほど科学は他の物に対しては結構に違いないが、少くとも農業に関する限り、無力どころか大いに誤っている。<br/><br/>例えば土の本質も肥料の性能も今以て不明であるため、人為的方法を可とし、自然の力を無視している点にあるからである。<br/><br/>見よ長年に渉り政府、篤農家、学者が三位一体となって努力しているにもかかわらず、何らの進歩改善も見られない事実にみても分るとおり、昨年のごとき大凶作に遭えば手も足も出ず科学は自然に一溜りもなく敗北したのである。<br/><br/>としたら今後打つ手は何もあるまい。<br/><br/>全く日本農業は壁に突当ってどうにもならないのである。<br/><br/>ところが喜ぶべし、神はこの壁を突破る方法を教え給うた。<br/><br/>これが自然農法であって、これ以外日本を救う道のない事は断言するのである。<br/><br/>では一体この農法はいかなるものであるかを、以下詳しく説いてみよう。<br/><br/> そもそもこの問題の根本は土に対する認識不足からである。<br/><br/>というのは今日までの農法は肝腎な土を軽視し、補助的である肥料を重視したところに原因がある。<br/><br/>考えてもみるがいい、いかなる植物でも土を離れて何の意味かある。<br/><br/>これについての好い例は、終戦後米（べい）の駐屯兵が水栽培を行い注目を引いた事はまだ記憶に新たであろうが、これも最初は相当の成績を上げたようだが、最近聞くところによれば漸次退化し、ついにやめてしまったという話である。<br/><br/>これと同じように今日までの農業者は土を蔑視し、肥料を以って作物の食料とさえ思った程であるから、驚くべき錯誤であった。<br/><br/>その結果土壌は酸性化し、土本来の活力の衰えた事は、昨年の大凶作がよく物語っている。<br/><br/>それに気付かない農民は、長い間多額の肥料代や労力を空費し、凶作の原因を作っていたのであるから、その愚及ぶべからずである。<br/><br/> ではこれから土の本質に向って神霊科学のメスを入れてみるが、その前に知っておかねばならない事は土本来の意義である。<br/><br/>そもそも太初造物主が人間を造るや、人間を養うに足るだけの食物を生産すべく造られたものが土であるから、それに種子を播けば芽を出し、茎、葉、花、実というように漸次発育して、芽出度く稔りの秋を迎える事になるのである。<br/><br/>してみればこの米を生産する土こそ実に素晴しい技術者であり、大いに優遇すべきが本当ではなかろうが。<br/><br/>もちろんこれが自然力であるから、この研究こそ科学の課題でなくてはならないはずである。<br/><br/>ところが科学は飛んでもない見当違いをした。<br/><br/>それが自然力よりも人為力に頼りすぎた誤りである。<br/><br/> ではこの自然力とは何であるかというと、これこそ日、月、土、すなわち火素、水素、土素の融合によって発生したＸすなわち自然力である。<br/><br/>そうしてこの地球の中心は、人も知るごとく火の塊りであって、これが地熱の発生原である。<br/><br/>この地熱の精が地殻を透して成層圏までの空間を充填（じゅうてん）しており、この精にも霊と体の二面があって体の方は科学でいう窒素であり、霊の方は未発見である。<br/><br/>それと共に、太陽から放射される精が火素で、これにも霊と体があり、体は光と熱であり、霊は未発見である。<br/><br/>また月から放射される精は水素で、体はあらゆる水であり、霊は未発見である。<br/><br/>というようにこの三者の未発見である霊が抱合一体となって生まれたものがＸである。<br/><br/>これによって一切万有は生成化育されるのであって、このＸこそ無にして有であり、万物の生命力の根原でもある。<br/><br/>従って農作物の生育といえどもこの力によるのであるから、この力こそ無限の肥料である。<br/><br/>故にこれを認めて土を愛し、土を尊重してこそ、その性能は驚く程強化されるので、これが真の農法であって、これ以外に農法はあり得ないのである。<br/><br/>故にこの方法を実行する事によって、問題は根本的に解決されるのである。<br/><br/> ここで今一つの重要事がある。<br/><br/>それは今日までの人間は理性、感情等の意志想念は動物のみに限られると思っていた事である。<br/><br/>ところが意外にもこれが無機物にもある事を聞いたら唖然とするであろう。<br/><br/>もちろん土も作物も同様であるから、土を尊び土を愛する事によって、土自体の性能は充分発揮される。<br/><br/>それには何よりも土を汚さず、より清浄にする事であって、これによって土は喜びの感情が湧き活発となるのは言うまでもない。<br/><br/>ただ意志想念が動物と異（ちが）う点は、動物は自由動的であるに反し、土や植物は非自由静的である。<br/><br/>故に稲に対しても同様感謝の念を以って多収穫を念願すれば、心は通じ御蔭は必ずあるものである。<br/><br/>この理を知らないがため、見えざる掴めざるものは、すべて無と片付けているところに、科学の一大欠陥があったのである。<br/><br/> 本農法の技術面その他 本農法の原理は大体分ったであろうがこれを実行するに当って知っておくべき主なる点を書いてみるが、別項多数の報告〔略〕にもある通り、最初は例外なく苗が細く色は黄色く、実に貧弱なので悲観すると共に、近隣の人々や家族達から軽侮、嘲笑を浴びせられ、忠告までされるので、迷いが生じ易いのも無理はないが、何しろ信仰の土台がある以上、歯を食いしばって堪え忍んでいると、その時を過ぎるや漸次持直し、ヤレヤレと安堵する。<br/><br/>しかも収穫となるや案外にも幾分かの増収にさえなるので、ここに驚きと共に喜びに蘇生する、という事実は一人の例外もない。<br/><br/> これを説明してみればこうである。<br/><br/>初めの貧弱であるのは、もちろん肥毒のためであって、ちょうど麻薬中毒者や酒呑と同様、廃（や）めた直後は一時元気が失く、ボンヤリするようなものであって、それを通り越せば漸次普段通りになり、それから年一年良好に向い、数年経た頃は、苗は最初から青々している。<br/><br/>これは肥料の無くなった証拠であるから、こうなったらしめたもので、反（たん）十俵以上は間違いはない。<br/><br/>これを見てもいかに肥毒の恐ろしいかが分るであろう。<br/><br/>そうして特に重要な事は連作である。<br/><br/>それは米なら米と、一種類を続ければ続ける程、土はそれに適応する性能が生まれ、漸次旺盛となるのである。<br/><br/>これをみても土の性能こそ実に神秘霊妙なものであって、これがＸである。<br/><br/> 故に出来るだけ土を清浄にし、連作主義にすれば年々収穫を増し、反二十俵以上もあえて夢ではないのである。<br/><br/>それだのに何ぞや。<br/><br/>全然逆に土を汚すことのみに専念し、多額の犠牲を払うのであるから、何と評していいか言葉はない。<br/><br/>これについて昨年の凶作で分った事は、肥料を多く施した田程悪い事が分り、幾分目覚めたようだが、このくらいな事ではまだまだ前途遼遠（りょうえん）であろう。<br/><br/> 次に技術面であるが、知らるるごとく現在の水田は、長年の肥料のため表面は肥毒の壁のようになっているから、これを突破って天地返しをする事であるが、これも深すぎても浅すぎてもいけない。<br/><br/>その土地にもよるがまず一尺前後くらいがよかろう。<br/><br/>その際客土を使えばなおさらいい。<br/><br/>それだけ浄土が増え、肥毒が中和されるからである。<br/><br/>また株間も一尺前後がよく、二、三本植がいいようである。<br/><br/>しかし技術面はその土地の気候や状態にもよるから、適当に按配（あんばい）する事である。<br/><br/>次に藁（わら）を使う事は廃（や）めた方がいい。<br/><br/>何よりも土以外の異物は決して入れないようにすべきである。<br/><br/>ではなぜ藁を使ったかというと、これには訳がある。<br/><br/>日本が占領当時、占領軍の規則の中に、農作物は肥料を施すべしとの条項があったそうで、それを利用し当時無肥料栽培の名称であったのを種に、金銭を強請（ゆす）ろうとした奴がいて、あわよくば本教を潰して信者を獲得しようとする企（たくら）みも背後にあったようで、危険であるから、私は自然農法と改め、肥料として藁を使わせたのである。<br/><br/> 次に二、三注意したい事は、今だに報告書の中に浄霊とか御守護などの言葉があるが、宗教臭くてはいけないとして、昨年の特集号にも出した程であるから、今後は充分注意して貰いたい。<br/><br/>というのは入信しなければ増収が出来ないとしたらそれだけ普及に影響するからである。<br/><br/>また事実からいって信仰なしでも無肥料にさえすれば五割や十割の増産は確実であり要は今日の日本を一日も早く救わねばならないからである。<br/><br/> 今一つ言いたい事は、本農法は独（ひと）り米の増産のみではない。<br/><br/>こういう素晴しいプラスがある。<br/><br/>それは現在硫安製造に使う電力の使用量は、日本全体の半分弱という事で、もしそれを廃めるとしたら、現在の電力で充分間に合い、なお余るとの話をこの間専門家から聞き、私は驚いたのである。<br/><br/>とすれば本農法を全農民が実施する暁、米の輸入はなくなり、肥料も要らず、農民の労力は半減し、電力は余るとしたら、その全国家経済に及ぼす利益たるや、到底計算は出来ない程であろうから、これだけでも日本は一躍世界一の平和裕福な国家となるのは太鼓判を捺（お）しても間違いはない。<br/><br/>最後に今一つ驚くべき事がある。<br/><br/>それは言うまでもなく肥毒の害は独り作物のみではない、人体も同様である。<br/><br/>近年寄生虫が激増し、特に農村程多い話を聞くがこれは都会人はパン食が多く、農民は米食が多い関係によるのであろうが、これについての好適例がある。<br/><br/>その報告と写真を下に掲げるが、これを見たら何人も慄然とするであろう。<br/><br/>故にこの面からいっても、有肥栽培の害毒がよく分るのである。<br/><br/> 肥毒の恐ろしさ 静岡県志太郡青島町 愛進中教会農事担当者 増田耕一（33） 明主様より肥毒の恐ろしさについて御教えいただきまして、皆様にもその害毒を話しておりながらこの度程ハッキリその恐ろしさを見せつけられた事はありません。<br/><br/> 昨年暮、信者の多々良武夫氏が自然栽培一年目（品種白菊）の玄米と有肥栽培の玄米の標本を作られ、教会へ持って来られました。<br/><br/> 自然栽培の玄米は丸々として粒張りがあり実に力強い感を受けるに対し、有肥玄米は細長く弱々しい結核患者を思わせる様で、自然米と有肥米の対照がよく分り、いい標本として皆様にも説明して驚かれたものでした。<br/><br/>ところが今年になってからいつか忘れて事務室の片隅に置忘れられてしまいました。<br/><br/> 最近になって事務室の机や畳の上に時折穀象虫を見受ける様になりました。<br/><br/>最初の内は別に気にも止めませんでしたが毎日数が増えて来ますので「穀類のないはずの事務室にどうして穀象虫が出るのだろうか」と漸く不審を抱く様になりました。<br/><br/>それから数日後、フト気付いて「そうだ昨年米の見本を置いたからもしや」と思い早速棚の隅に忘れられていた二つの標本函を探し出しました。<br/><br/> 二つの函が重ねられてそのままになっており、上が自然米、下が有肥米でセロファン張りの自然米の函は何の異常もなく昨年見たのと同じでした。<br/><br/>ところが下の有肥米の函を見てハッとしました。<br/><br/>函の上面に張られたセロファンは真黒に見えました。<br/><br/>よく見ればこの僅か十糎足らずの函の中に幾十の穀象虫が右往左往してうごめいております。<br/><br/>昨年見たスマートな有肥玄米の姿はあのグロテスクな穀象虫に化けてしまったとしか思えません。<br/><br/>密閉したセロファンの各所に、穴をあけ、三匹、五匹と這い出しております。<br/><br/>そして手といわず畳といわずたちまち穀象虫は散開してゆきます。<br/><br/>その姿はあたかも自分の使命を完うして引揚げてゆく勇姿に見えて私もこの時だけは、無気味な穀象虫に対し「御苦労様でした」と呼びかけたい気持でした。<br/><br/>実に惨憺たる有様にて、ほとんど八〇％以上が見事な防空壕が掘られ、トンネルが貫通し、中にはほとんど空ろになって紙より薄い外郭のみを残した妙技には感歎させられます。<br/><br/>殆んど満足な粒はなく、虫糞にまみれて精白された様な有肥玄米の姿に比して一方自然玄米は昨年と少しも変らぬ瑞々しさ、肥料によってかくまで違うものだろうかと慄然と致しました。<br/><br/> その後試みに穀象虫を数匹ずつ何回か自然玄米の中へ入れて見ましたが、何時か姿を消してしまいます。<br/><br/>穀象虫に言わせたら「こんな自然玄米は真平だ、肥毒気のない米に用はない」と言うに違いありません。<br/><br/> この事実を見るにつけ、自然米の腹もちのよい事も頷け、保存のきく事も証明される訳です。<br/><br/>又近年農作物に病虫害の多発する事も肥料の種類の増加に比例するとの御教えもよく分らせて頂けました。<br/><br/>なおあの穀象虫が米粒の芯から自然発生して中身を食べながら大きくなる事も、まだ穴のあいてない米粒をすかして見ると中に白線が出来ていて、穀象虫の幼虫の姿が不透明な影となって見られます。<br/><br/>こうした事からも汚れた所に黴菌が自然発生する事も自明の理であります。<br/><br/> 自然栽培を実施している方達も異口同音に、虫が湧かなくなったと申しております。<br/><br/>数年前より麦の自然栽培を実施している相馬茂雄氏は「今年はカマス（藁で織った袋）の中へじかに麦を入れておいたがほとんど虫は湧かない」と言われております。<br/><br/> ちなみにこの標本の玄米一勺の目方は自然が四匁、有肥が二匁二分で（昭和二十八年十月十八日計量）自然百に対し有肥は五十五％となり、一升の重量は、自然四百匁に対し有肥は二百二十匁という驚くべき結果となり、従って日常の食事の約半分が栄養分のない、反って人体に有害な肥毒分とも考えられ、今更ながら有肥米の恐ろしさに戦慄を禁じ得ません。<br/><br/>近年増加した医診に言う「千人に一人」とか「万人に一人」という奇病の発生も、日常無関心に食べる米や野菜に含まれた肥料の毒がその要因とも考えられ、日頃御教え頂いております明主様の御言葉が他に求む由もない絶対の真理の顕彰であられる事が殊更に胸に迫り感涙がこみ上げます。<br/><br/> 今後「自然農法普及会」の発展に伴ない、既成農法の誇る手中の玉、肥料こそ、実は農作物の生産と尊い人命を刻々蝕んでゆく悪魔の玉である事が白日下に晒され、肥料万能に盲信、陶酔する近代農業の大革命が行われ、この地上に恐るべき肥毒の消滅する日も遠くない事を確信して、拙稿を結ばせて頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

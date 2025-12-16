@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei21071</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（一） ５ 071-095 特異症状 071 三代にわたる歩行不能と眼病 四十歳の男の信者、十年前より段々歩行が困難となり、五年前から特に悪化して、幼児の歩き初めのような状態になりました。<br><br>二年前入信させて頂き、妻と共に一生懸命にお縋りし、御浄霊させて頂いておりますが、大した変化がありません。<br><br>御神体や御屏風観音様もお祀りさせて頂いております。<br><br>なお、父は五年前より底翳で失明し、床に臥し、母は三年前腹痛で死亡、なお、先夫と祖父は共に本人と同じように歩行困難となり、眼を悪くし衰弱し、死亡しております。<br><br> 足と目に子供の霊が憑った。<br><br>特に目に祟りありと思わる。<br><br> 祖先からひどい目に遇った怨みが祟っている。<br><br>あるいは子供がそういう具合で死んだのかもしれない。<br><br> 神様の御役に立つよう徳を積む。<br><br>人を救う事により、怨みは段々消えてゆく。<br><br> 072 指伸びず・浄霊時腕を振る 十七歳の女子、本年一月ひょう疽を、左の人差指を浄霊によって全治致しましたが、その後指が伸びません。<br><br>最近浄霊致しますと自然と円を描き、次第に腕を大きく振ります。<br><br>また、左腎臓を浄霊致しますと左足をはげしく躍動致します。<br><br>右の浄霊法を御垂示御願い申し上げます。<br><br> 指の伸びないのは毒が固まって痙っている。<br><br>そこへ霊が憑った。<br><br>そこで円を描く。<br><br>塊を溶かせばいい。<br><br>指で浄霊する。<br><br>（S24.11.19） 073 足への憑霊（血の道患者） 女の人で、長く血の道で、自由も叶わず寝ております。<br><br>それを私が浄霊して上げましたら、自由も叶い、歩く事も出来るようになりました。<br><br>それが私が帰るとすぐ歩く事も出来ないようになって、気持が小さくなりましたが、いかなる訳で御座いましょうか。<br><br> 霊である。<br><br>浄霊によって霊が放れて自由になった。<br><br>根気よくやれば治る。<br><br> 足なら足に毒があり、足の霊が曇っている。<br><br>足が浄まって、憑けなくなって治る。<br><br>根気よくやる事である。<br><br> 074 背部浄霊で痙攣 平川ムラ（五十六歳）と申す者で御座いますが、背部を浄霊の場合ビクビク痙攣致します。<br><br>いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 背中に霊がいる。<br><br>大した事でない。<br><br>治る。<br><br>（S24. 7.12） 075 足臀部にくっつく 昭和四年一月一日生れの子が、昭和十九年十一月、何の心当りもないのに突然一夜にして右足踵が臀部に屈着しました。<br><br>その後注射を一週間続けましたが効果がないので、鍼灸を一日に二回ずつ四ケ月位続けて漸く足先（爪先）が地に着くまでに伸びましたが、なお右腰が引痙ったままなので、諸所の神仏にお参りを続けて現在に致っております。<br><br>五、六回の浄霊で下痢を始めました。<br><br>その屈着した原因を御教示下さい。<br><br> 霊が憑ったのである。<br><br>治る。<br><br>腰が引痙ったまま毒がある。<br><br> 霊が五六七教で治してもらいたいという希望の意味もある。<br><br>（S24. 5. 6） 076 「床下土中へ埋められし者の霊」の処置 三十歳になる未入信の男子、五、六日目に一回位の割で霊が憑り、暴れたり意味の判らぬ事を喚いたり致しますが、半日位で平生に返ります。<br><br>途中半日位誠に憂鬱となり「もうあかん」「こらえてくれ」とか言っていかにも恐そうに周囲を見廻します。<br><br>平生に返った時尋ねますと、「家の下に入ってしまい、体が土の中に入って死んでいるような気持であり、自分一人だけで誰一人おらず、恐くてたまらない」と言うそうでございます。<br><br>いかなる霊が憑依するのでございましょうか。<br><br>妻は入信し、御浄霊させて頂いております。<br><br> 誰もいない時に殺され、家の下へ埋められたらしい者の霊である。<br><br> 掘り返すのも厄介だから、位牌を作って、仏壇の下位へ祀ってやり、祝詞を奏げてやる。<br><br>そうするとお礼をする。<br><br>（S23） 077 外人の面貌となる 三年以前より発病、頭髪が抜け、最近では眉毛も抜け、ひげもうすく、顔は赤々として腫れ、目はくぼみ、一見外人のように見えます。<br><br>医師の診断でも病名不明にて困っております。<br><br>浄霊にて全快出来るでしょうか。<br><br>妻は先般入信して毎日浄霊をしてくれますが、余り変化がありません。<br><br>いかなる原因でしょうか。<br><br>御教示願います。<br><br> 浄霊を沢山やった人は霊の集注がいいから強い。<br><br>こういう状態の霊が憑ったのである。<br><br>外人の霊かもしれない。<br><br>気長にやれば治る。<br><br>（S24. 8. 9） 078 定日に発作する病気 現在入信致していない二十一歳の青年ですが、大概の月に一日と十五日の二回発作を起し、先祖の仏壇にお参りしお祭りしてある母の写真を知らぬまに持ち、無意識となり倒れています。<br><br>御浄霊を好みますので母の霊でもつくのかと思われます。<br><br>御浄霊法を御教示御願い申し上げます。<br><br> 執着のため霊界で救われていない。<br><br>信仰に入らなくてはならぬ。<br><br> 一日と十五日とすると、昔職人か、職人に関係ある者であろう。<br><br>母を愛していたものに違いない。<br><br>霊界で遇えないから、現界で執着するのである。<br><br>この人か家族かが入信して、発作の時祝詞を奏げる。<br><br>（S24. 7.16） 079 毎閏年に一時的発狂 東北地方に閏年馬鹿と称し、陰暦の閏年に限って発狂し、その年が過ぎれば平常に戻る者が御座いますが、霊的関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 四年に一ぺんずつ二十九日にお祭りするようにする。<br><br>霊が閏年に死んだとか、殺されたとかいう意味で、それが魂に強く染みついている。<br><br>それで閏年に限って憑くのである。<br><br>（S25. 1.12） 080 三人ずつ身体を動かす 私がただ今浄霊している者で、先祖代々（数代前より）必ず三名ずつ常時体を動かしているのであります。<br><br>これは夜昼の区別なく、寝ている時でもやっております。<br><br>これがために急にぽっくり死ぬと次の者にちゃんと代りが出来ます。<br><br>ただ今は夫婦と子供一人がやっております。<br><br>このようなのは浄霊しまして治るでしょうか。<br><br>霊的の原因を御教示下さい。<br><br>なお、先祖に注意すべき者はありません。<br><br> 一人ならあるが、代る代るあるのは珍しい。<br><br>浄霊で治る。<br><br>前頭部と腰をする。<br><br> 救われない霊が憑るのである。<br><br>（S25. 2. 7） 081 犬猫や叔父を恐る 五歳の女児、半年前より肺門淋巴腺炎を患い、医者に治療を受けておりましたが、最近御浄霊をさせて戴いております。<br><br>脈搏百三十を今なお打っておりまして、最初は犬や猫を見て恐ろしがっておりましたが、最近は同居している叔父を見ると恐怖心を持つようで御座いますが、何か霊的に関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br>但しその母に、脳貧血で死亡した祖母が現在憑っておりまして、御浄霊中で御座います。<br><br> 脳貧血では死なない。<br><br>脳充血か脳溢血である。<br><br> 前世に犬か猫に噛まれて死んだもので、叔父さんに苦しめられた霊が憑っている。<br><br>（S24.11.21） 082 夜間と外出に恐怖感（癲癇） 私は時々自己意識を忘却するようになり、頭脳の中に色々の事が想い出されて現在の時間的観念がわからぬ事もあります。<br><br>ちょっとした瞬間で以前はさほど気にもしておりませんでしたが、最近頻繁に発作的に襲われるように思われ、特に夜間と外出に恐怖感を抱くようになりました。<br><br>数年前、中耳、内耳炎に罹り、相当医療を受け、また蓄膿の手術もしております。<br><br>絶えず後頭部が重苦しく感じます。<br><br>これは単なる薬毒の浄化で御座いましょうか。<br><br>御教示願います。<br><br> 一種の癲癇と薬毒である。<br><br>想い出されるというのは霊が思うのである。<br><br>過失死とか、殺されたか――夜、外で死んだ霊で、その恐怖である。<br><br> 薬毒の除れるに従って治ってゆく。<br><br>（S24.12.25） 083 外出恐怖症 私は長年心悸亢進症で苦しんでおりましたが、一昨年入信させていただきましてから御守護いただきまして、大変良くなりまして、一時外出も出来るようになりましたので御座いますが、その後外出先で発作を起しましてからはまた外出すると気分が悪くなりまして、今は殆ど一歩も戸外に出る事が出来ません。<br><br>家におりますと普通と変らず働けますし、毎日五、六人位ずつ御浄霊させていただいております。<br><br>教会へお参り致したいと思い、またいくら励まされても一歩戸外へ出ると気分が悪くなるためお参りも出来ないので御座います。<br><br>何か霊的の障りでも御座いましょうか。<br><br>御伺い申し上げます。<br><br> つきましては気掛りの事が御座いますので、左に申し述べさせて戴きます。<br><br>私の実家は岡山県津山で、代々一向宗で御座いましたが、母と私が大本教になりまして、栗田家へ嫁いでからも一昨年本教に入信させていただく迄信仰致しておりました。<br><br>母は戦時中疎開先の神奈川県相模原で死亡致しまして、遺骨はその土地の氏神様、日々神社に預けまして今日迄そのままに致して御座います。<br><br>両親は正式の結婚では御座いますが、どちらも相続人のためそれぞれの姓を名乗り、寺も宗旨も別々なので御座いますが、埋骨の場合いかが致したらよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 遺骨などは早く埋めよ。<br><br> 本当は男の方へ祀るべきである。<br><br>外出して死んだ霊が憑いているので外出を怖がる。<br><br>よく徳を積め。<br><br>（S25. 3.18） 084 老人の霊による病気（死霊） 田中裕明と申します生後二年四ケ月の男児で御座いますが、発育不順で誕生日頃に漸く這う位で御座いました。<br><br>畳の上に這わせますと急に泣き出し、人の上に這わせますと泣かないそうで御座います。<br><br>その後疫痢にかかり、ただ今は腰が非常に小さく、坐る時は立膝でないと坐れません。<br><br>風の日には大変息苦しそうに致し、顔を軽く吹いてさえ息苦しそうに致します。<br><br>本人の曽祖父は他国で首を吊って自殺し、その弟は生れながら身体がコチコチで、生後三日で死亡致しております。<br><br>右の病気は霊的原因によるもので御座いましょうか。<br><br>どう処置致しましたら宜しゅう御座いましょうか。<br><br>教えを賜りたく御願い申し上げます。<br><br>なお、本人の母は近日教修戴く事になっております。<br><br> 年寄の霊が憑いてるか生れ代りかである。<br><br>それで畳の上をイヤがるのである。<br><br> 息苦しい病気で死んだものである。<br><br>（S25. 2.11） 085 甘味とらぬと眠れぬ 半月程前から甘いものが無いと痰がからんでどうしても寝られず、甘いものを少し食べるとどうにか眠れます。<br><br>それでも二、三時間位です。<br><br>これは何の因縁でしょうか。<br><br>光明如来様御奉斎済み。<br><br> 甘い物の好きな人間の霊かもしれぬ。<br><br>その人に憑って果そうとする。<br><br> それと、一つの癖がつく。<br><br>段々減してゆくといい。<br><br> 086 家族に立向う霊の処理 年令五十歳の薬屋さんの主人、十五年ほど前より体が病弱でいつも年代不明の四十五歳位の婦人が憑って来るとキセルを持って長男や嫁に立向って行きます。<br><br>そうすると長男も嫁も体が硬直してしまい、声も発せられず苦しみます。<br><br>今月十四日に奥さんと長男と嫁と三人入信致しましたら、いつも主人に憑る霊がその晩は直接に長男に、翌晩は嫁に立ち向って来て体が不自由になってしまいました。<br><br>どのようにいたしましたらよろしいでしょうか。<br><br> 迷って悪意を持ってる霊である。<br><br>憑った度に浄霊すれば段々よくなる。<br><br> こういう時、御讃歌の執着に関する歌とか、信仰雑話の「我と執着」の項などを読んでやるとよい。<br><br> また、素性がはっきり判れば祀ってやるとよい。<br><br> 087 白痴霊善言讃詞を喜ぶ 私の四歳になります甥は、生れつき白痴でありますが、善言讃詞を奏げますと眠っていても、起きて来て喜んでお参りいたしますが、どう言う訳でありましょうか。<br><br> 白痴の霊が憑いている。<br><br>善言讃詞を奏げて非常に気持よくなるというのは結構である。<br><br>白痴の霊自体が治りたいから、聞きたいのである。<br><br>（S24. 8.17） 088 魚商生臭い大出血す 一信者の夫で結核の三期と言われ既に見放されている人で御座いますが、七日朝脳に血が逆上致しますような感じがいたしまして、同時に脳の左側が耐えられない程苦しくなりました。<br><br>熱心に観音様を念じました所、頭痛がとれて歯茎から毒血が吹出しまして、その状態が一日中持続致しまして、御浄霊を戴きましても止りません。<br><br>出血の量は一日で小洗面器二杯程で御座いました。<br><br>八日午後御浄霊させて戴きました所口内からの出血は止りましたが、一時間後鼻血が出始めまして一晩中続き、朝七時頃、奥さんの御浄霊を戴いている中に止り、その後ずっと眠っています。<br><br>鼻血の出血量は洗面器一杯程で御座いました。<br><br>また同じように真黒の血便が相当量出まして、出血の時間は前後三日間程続きました。<br><br>それは真黒で生臭く、出ると直ちに固まるそうで御座います。<br><br>当家は代々魚商をいたしています。<br><br>何か霊的に関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 生臭いのは、魚に関係がある。<br><br>大変結構である。<br><br> 父の霊が、霊界で中気が未だ治らず、憑って来たものである。<br><br>そして中気の毒が出た訳である。<br><br>肺病であってもよく治る。<br><br>（S24. 5.12） 089 死直前大人顔となった子（霊・子を殺す） 先に御開示を御願い致しました動物や叔父を見て恐ろしがる四歳の子供で御座いますが、最近死亡致しました。<br><br>死ぬ直前に、一度首の付根迄両手をつき上げ、顔は五十歳前後の男のように変り、その大きさも三倍位になりましたが、間もなくまた普通の顔に戻って立派な死方をさせて戴きました。<br><br>（その子の母親は子供がなくなる少し前に入信されました）最近ではその子の叔母の寝顔が男の顔に見えるそうで御座いますが、以上の事実は何か霊的な意味が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 霊が憑いていたのが今度は伯母に憑いた。<br><br>救われたいのである。<br><br>五十歳前後の霊が子供を殺した。<br><br>何か訳があろう。<br><br>信仰雑話をみれば判る。<br><br>入信して一生懸命すれば治る。<br><br>（S24.12.11） 090 昏睡より醒む（御守護願いの偉力） 今月四日に御守護御願い申し上げました渡辺満子（十八歳）、その後御守護を戴き、九日間昏睡状態で御守護御願いに上り、お邸到着が十一時四十分でございました。<br><br>本人が気がつきましたのが十一時四十分で、同じ時間でございました。<br><br>それから御飯を食べるようになりました。<br><br>それから四日目よりまた霊的になりました。<br><br>あとは口頭にて申し上げます。<br><br> こういうのは説得してやるとよい。<br><br>「命をとれば自分自身地獄のドン底に落つるから、助けてやりなさい」と。<br><br>段々治ってゆく。<br><br>（S24. 8.19） 091 飲酒で顔面神経痛（奇病） 未入信の方で御座いますが、平常は異常御座いませんが、酒を呑みますとひどい顔面神経痛を起します。<br><br>これは霊的に何か意味が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 酒の、顔面神経で死んだ霊が憑っている。<br><br>気長に浄霊すれば治る。<br><br> 入信して、ある程度判ると治る。<br><br>（S25. 3. 2） 092 スポーツと憑霊 御著書に「義経には鞍馬山の天狗が憑いていた」と拝見致しますが、スポーツや武術――例えば水泳や唐手、馬術等で超人的な妙技をするのはいかがでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 超人的なのは霊で、動物の霊が多い。<br><br>こういう霊はこういう人に憑きたがる。<br><br>河童、魚の霊、龍神などが憑く。<br><br>（河童は水に入るのが好きなだけである）（S24. 1.18） 093 狂信者の霊 私の主人は六十歳になりますが、二年前よりだんだん気が変になり、この頃は一人でいると昼夜を問わず独り言を言います。<br><br>それは大抵先祖の事か、神仏の事か、また修養の話等、普通聞いてためになる話をしますが、人前に出ると変な言語動作を致します。<br><br>因みに主人は十年間程道徳科学の教えを受けていました。<br><br>また、昭和二十年に御光を戴いております。<br><br>いかなる原因でしょうか。<br><br>私は現在、教導師としてこの道に御手伝いをさせて戴いておりますが、今後いかに致したらよいでしょうか。<br><br>御伺い申し上げます。<br><br> 信仰気狂いのような霊が憑っている。<br><br>長いのは五、六年、早くて一年位かかろう。<br><br> 094 人喰人種の霊 人喰人種は獣霊の憑依でしょうか。<br><br> 獣霊の憑依だけでなく、原始人の習慣が残っている。<br><br>それが伝統的にいいとなっている。<br><br>原始人はそういうのが多かった。<br><br>これは文化から離れているためで、未だにある。<br><br>文化の普及により段々になくなる。<br><br>しかし、文化人でも獣霊が憑くと人を齧りたくなるのがある。<br><br>（S23.12.22） 095 特異憑霊 次の事項御教示の程お願いします。<br><br> （イ）、私は時折夢の中で法華経だとか一度も読んだ事のない、また習事もない難しい経文をスラスラと読んだりします。<br><br>いかなる理由でしょう。<br><br> （ロ）、それから人と対談中、相手の心の動き、即ち今この話しをし相手は何を考えているかと言う事が見え透くようにわかり、また他家に訪問の場合等でも、心から言うてくれるか表面だけのお世辞かと言う事等がハッキリわかり過ぎて困ります。<br><br> （ハ）、次に事細かい日常の家庭内の事でも、また社会一般の事でも余も先の結果が見え透いて歯痒く、しまいには馬鹿らしくさえなり、法律規則等までに文句の一つも言いたくなります。<br><br>例えば、十八歳にならぬものは会社、工場等も使用出来ず、その中に不良化したり、ヒロポン等と言う注射液等乱売の結果、青年の身心共に滅する者が続出したり、また、産制のための社会悪、道徳の乱れ等思えば、全く腹立たしい位の世相を何とかする事は出来ないでしょうか。<br><br>知事、課長、部長級等の者の犯罪等もあり、この眼に余る社会悪の氾濫は、早く何とかならぬものでしょうか。<br><br>以上三項目御教示下さい。<br><br> （イ）、こういう霊が憑いている。<br><br>そして寝る時に話す。<br><br> （ロ）、憑いてるその人が教える。<br><br>あまり相手の心が分らぬ方がよい。<br><br> （ハ）、考え方が単純である。<br><br>やはり時期もある。<br><br>世相をみれば制え切れぬ考えが起るが、やはりこれでいいと思う。<br><br>（S24. 9.25）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Mestre Okada Jikan — Estudos Espirituais, Volume 2: Fenômenos Espirituais (Parte 1)</h2>
 <h2>Sintomas Singulares</h2>
@@ -168,5 +320,48 @@ function toggleLang(lang) {
 <h3>095. Manifestações espirituais peculiares</h3>
 <p>Rogo vossa orientação sobre os seguintes pontos: (a) Ocasionalmente, em sonhos, recito com fluência sutras complexos, como o Sutra de Lótus, que nunca li nem estudei. Qual a razão disso? (b) Durante conversas, consigo perceber com clareza os pensamentos da outra pessoa, ou seja, sei exatamente o que ela está pensando sobre o que estou dizendo. Ao visitar a casa de alguém, também distingo com nitidez se suas palavras são sinceras ou meros cumprimentos, o que chega a ser um incômodo. (c) Consigo prever com tanta antecedência o desfecho de pequenos assuntos domésticos e de questões sociais mais amplas que sinto impaciência e, por fim, até um certo enfado. Chego a sentir vontade de criticar leis e regulamentos. Por exemplo, ao pensar em jovens que não podem ser contratados por empresas antes dos dezoito anos e acabam se tornando delinquentes; no crescente número de jovens que arruínam corpo e mente devido à venda indiscriminada de substâncias injetáveis como o Hiropon; ou nos males sociais decorrentes do controle de natalidade e na decadência moral, sinto uma revolta diante de um cenário mundial que parece imutável. Com os crimes cometidos por governadores e altos funcionários, o que pode ser feito para conter rapidamente essa proliferação de males sociais tão flagrantes?</p>
 <p>(a) Um espírito com essa habilidade está se manifestando e se expressa durante o seu sono. (b) É o próprio espírito que o informa. É preferível não compreender tanto assim o coração das outras pessoas. (c) Seu modo de pensar é simplista. Tudo tem seu tempo. Ao observar o estado do mundo, é natural que surjam pensamentos de indignação, mas, ainda assim, é preciso compreender que tudo está como deve ser. (25 de setembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（一） ５ 071-095 特異症状 071 三代にわたる歩行不能と眼病 四十歳の男の信者、十年前より段々歩行が困難となり、五年前から特に悪化して、幼児の歩き初めのような状態になりました。<br/><br/>二年前入信させて頂き、妻と共に一生懸命にお縋りし、御浄霊させて頂いておりますが、大した変化がありません。<br/><br/>御神体や御屏風観音様もお祀りさせて頂いております。<br/><br/>なお、父は五年前より底翳で失明し、床に臥し、母は三年前腹痛で死亡、なお、先夫と祖父は共に本人と同じように歩行困難となり、眼を悪くし衰弱し、死亡しております。<br/><br/> 足と目に子供の霊が憑った。<br/><br/>特に目に祟りありと思わる。<br/><br/> 祖先からひどい目に遇った怨みが祟っている。<br/><br/>あるいは子供がそういう具合で死んだのかもしれない。<br/><br/> 神様の御役に立つよう徳を積む。<br/><br/>人を救う事により、怨みは段々消えてゆく。<br/><br/> 072 指伸びず・浄霊時腕を振る 十七歳の女子、本年一月ひょう疽を、左の人差指を浄霊によって全治致しましたが、その後指が伸びません。<br/><br/>最近浄霊致しますと自然と円を描き、次第に腕を大きく振ります。<br/><br/>また、左腎臓を浄霊致しますと左足をはげしく躍動致します。<br/><br/>右の浄霊法を御垂示御願い申し上げます。<br/><br/> 指の伸びないのは毒が固まって痙っている。<br/><br/>そこへ霊が憑った。<br/><br/>そこで円を描く。<br/><br/>塊を溶かせばいい。<br/><br/>指で浄霊する。<br/><br/>（S24.11.19） 073 足への憑霊（血の道患者） 女の人で、長く血の道で、自由も叶わず寝ております。<br/><br/>それを私が浄霊して上げましたら、自由も叶い、歩く事も出来るようになりました。<br/><br/>それが私が帰るとすぐ歩く事も出来ないようになって、気持が小さくなりましたが、いかなる訳で御座いましょうか。<br/><br/> 霊である。<br/><br/>浄霊によって霊が放れて自由になった。<br/><br/>根気よくやれば治る。<br/><br/> 足なら足に毒があり、足の霊が曇っている。<br/><br/>足が浄まって、憑けなくなって治る。<br/><br/>根気よくやる事である。<br/><br/> 074 背部浄霊で痙攣 平川ムラ（五十六歳）と申す者で御座いますが、背部を浄霊の場合ビクビク痙攣致します。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 背中に霊がいる。<br/><br/>大した事でない。<br/><br/>治る。<br/><br/>（S24. 7.12） 075 足臀部にくっつく 昭和四年一月一日生れの子が、昭和十九年十一月、何の心当りもないのに突然一夜にして右足踵が臀部に屈着しました。<br/><br/>その後注射を一週間続けましたが効果がないので、鍼灸を一日に二回ずつ四ケ月位続けて漸く足先（爪先）が地に着くまでに伸びましたが、なお右腰が引痙ったままなので、諸所の神仏にお参りを続けて現在に致っております。<br/><br/>五、六回の浄霊で下痢を始めました。<br/><br/>その屈着した原因を御教示下さい。<br/><br/> 霊が憑ったのである。<br/><br/>治る。<br/><br/>腰が引痙ったまま毒がある。<br/><br/> 霊が五六七教で治してもらいたいという希望の意味もある。<br/><br/>（S24. 5. 6） 076 「床下土中へ埋められし者の霊」の処置 三十歳になる未入信の男子、五、六日目に一回位の割で霊が憑り、暴れたり意味の判らぬ事を喚いたり致しますが、半日位で平生に返ります。<br/><br/>途中半日位誠に憂鬱となり「もうあかん」「こらえてくれ」とか言っていかにも恐そうに周囲を見廻します。<br/><br/>平生に返った時尋ねますと、「家の下に入ってしまい、体が土の中に入って死んでいるような気持であり、自分一人だけで誰一人おらず、恐くてたまらない」と言うそうでございます。<br/><br/>いかなる霊が憑依するのでございましょうか。<br/><br/>妻は入信し、御浄霊させて頂いております。<br/><br/> 誰もいない時に殺され、家の下へ埋められたらしい者の霊である。<br/><br/> 掘り返すのも厄介だから、位牌を作って、仏壇の下位へ祀ってやり、祝詞を奏げてやる。<br/><br/>そうするとお礼をする。<br/><br/>（S23） 077 外人の面貌となる 三年以前より発病、頭髪が抜け、最近では眉毛も抜け、ひげもうすく、顔は赤々として腫れ、目はくぼみ、一見外人のように見えます。<br/><br/>医師の診断でも病名不明にて困っております。<br/><br/>浄霊にて全快出来るでしょうか。<br/><br/>妻は先般入信して毎日浄霊をしてくれますが、余り変化がありません。<br/><br/>いかなる原因でしょうか。<br/><br/>御教示願います。<br/><br/> 浄霊を沢山やった人は霊の集注がいいから強い。<br/><br/>こういう状態の霊が憑ったのである。<br/><br/>外人の霊かもしれない。<br/><br/>気長にやれば治る。<br/><br/>（S24. 8. 9） 078 定日に発作する病気 現在入信致していない二十一歳の青年ですが、大概の月に一日と十五日の二回発作を起し、先祖の仏壇にお参りしお祭りしてある母の写真を知らぬまに持ち、無意識となり倒れています。<br/><br/>御浄霊を好みますので母の霊でもつくのかと思われます。<br/><br/>御浄霊法を御教示御願い申し上げます。<br/><br/> 執着のため霊界で救われていない。<br/><br/>信仰に入らなくてはならぬ。<br/><br/> 一日と十五日とすると、昔職人か、職人に関係ある者であろう。<br/><br/>母を愛していたものに違いない。<br/><br/>霊界で遇えないから、現界で執着するのである。<br/><br/>この人か家族かが入信して、発作の時祝詞を奏げる。<br/><br/>（S24. 7.16） 079 毎閏年に一時的発狂 東北地方に閏年馬鹿と称し、陰暦の閏年に限って発狂し、その年が過ぎれば平常に戻る者が御座いますが、霊的関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 四年に一ぺんずつ二十九日にお祭りするようにする。<br/><br/>霊が閏年に死んだとか、殺されたとかいう意味で、それが魂に強く染みついている。<br/><br/>それで閏年に限って憑くのである。<br/><br/>（S25. 1.12） 080 三人ずつ身体を動かす 私がただ今浄霊している者で、先祖代々（数代前より）必ず三名ずつ常時体を動かしているのであります。<br/><br/>これは夜昼の区別なく、寝ている時でもやっております。<br/><br/>これがために急にぽっくり死ぬと次の者にちゃんと代りが出来ます。<br/><br/>ただ今は夫婦と子供一人がやっております。<br/><br/>このようなのは浄霊しまして治るでしょうか。<br/><br/>霊的の原因を御教示下さい。<br/><br/>なお、先祖に注意すべき者はありません。<br/><br/> 一人ならあるが、代る代るあるのは珍しい。<br/><br/>浄霊で治る。<br/><br/>前頭部と腰をする。<br/><br/> 救われない霊が憑るのである。<br/><br/>（S25. 2. 7） 081 犬猫や叔父を恐る 五歳の女児、半年前より肺門淋巴腺炎を患い、医者に治療を受けておりましたが、最近御浄霊をさせて戴いております。<br/><br/>脈搏百三十を今なお打っておりまして、最初は犬や猫を見て恐ろしがっておりましたが、最近は同居している叔父を見ると恐怖心を持つようで御座いますが、何か霊的に関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/>但しその母に、脳貧血で死亡した祖母が現在憑っておりまして、御浄霊中で御座います。<br/><br/> 脳貧血では死なない。<br/><br/>脳充血か脳溢血である。<br/><br/> 前世に犬か猫に噛まれて死んだもので、叔父さんに苦しめられた霊が憑っている。<br/><br/>（S24.11.21） 082 夜間と外出に恐怖感（癲癇） 私は時々自己意識を忘却するようになり、頭脳の中に色々の事が想い出されて現在の時間的観念がわからぬ事もあります。<br/><br/>ちょっとした瞬間で以前はさほど気にもしておりませんでしたが、最近頻繁に発作的に襲われるように思われ、特に夜間と外出に恐怖感を抱くようになりました。<br/><br/>数年前、中耳、内耳炎に罹り、相当医療を受け、また蓄膿の手術もしております。<br/><br/>絶えず後頭部が重苦しく感じます。<br/><br/>これは単なる薬毒の浄化で御座いましょうか。<br/><br/>御教示願います。<br/><br/> 一種の癲癇と薬毒である。<br/><br/>想い出されるというのは霊が思うのである。<br/><br/>過失死とか、殺されたか――夜、外で死んだ霊で、その恐怖である。<br/><br/> 薬毒の除れるに従って治ってゆく。<br/><br/>（S24.12.25） 083 外出恐怖症 私は長年心悸亢進症で苦しんでおりましたが、一昨年入信させていただきましてから御守護いただきまして、大変良くなりまして、一時外出も出来るようになりましたので御座いますが、その後外出先で発作を起しましてからはまた外出すると気分が悪くなりまして、今は殆ど一歩も戸外に出る事が出来ません。<br/><br/>家におりますと普通と変らず働けますし、毎日五、六人位ずつ御浄霊させていただいております。<br/><br/>教会へお参り致したいと思い、またいくら励まされても一歩戸外へ出ると気分が悪くなるためお参りも出来ないので御座います。<br/><br/>何か霊的の障りでも御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> つきましては気掛りの事が御座いますので、左に申し述べさせて戴きます。<br/><br/>私の実家は岡山県津山で、代々一向宗で御座いましたが、母と私が大本教になりまして、栗田家へ嫁いでからも一昨年本教に入信させていただく迄信仰致しておりました。<br/><br/>母は戦時中疎開先の神奈川県相模原で死亡致しまして、遺骨はその土地の氏神様、日々神社に預けまして今日迄そのままに致して御座います。<br/><br/>両親は正式の結婚では御座いますが、どちらも相続人のためそれぞれの姓を名乗り、寺も宗旨も別々なので御座いますが、埋骨の場合いかが致したらよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 遺骨などは早く埋めよ。<br/><br/> 本当は男の方へ祀るべきである。<br/><br/>外出して死んだ霊が憑いているので外出を怖がる。<br/><br/>よく徳を積め。<br/><br/>（S25. 3.18） 084 老人の霊による病気（死霊） 田中裕明と申します生後二年四ケ月の男児で御座いますが、発育不順で誕生日頃に漸く這う位で御座いました。<br/><br/>畳の上に這わせますと急に泣き出し、人の上に這わせますと泣かないそうで御座います。<br/><br/>その後疫痢にかかり、ただ今は腰が非常に小さく、坐る時は立膝でないと坐れません。<br/><br/>風の日には大変息苦しそうに致し、顔を軽く吹いてさえ息苦しそうに致します。<br/><br/>本人の曽祖父は他国で首を吊って自殺し、その弟は生れながら身体がコチコチで、生後三日で死亡致しております。<br/><br/>右の病気は霊的原因によるもので御座いましょうか。<br/><br/>どう処置致しましたら宜しゅう御座いましょうか。<br/><br/>教えを賜りたく御願い申し上げます。<br/><br/>なお、本人の母は近日教修戴く事になっております。<br/><br/> 年寄の霊が憑いてるか生れ代りかである。<br/><br/>それで畳の上をイヤがるのである。<br/><br/> 息苦しい病気で死んだものである。<br/><br/>（S25. 2.11） 085 甘味とらぬと眠れぬ 半月程前から甘いものが無いと痰がからんでどうしても寝られず、甘いものを少し食べるとどうにか眠れます。<br/><br/>それでも二、三時間位です。<br/><br/>これは何の因縁でしょうか。<br/><br/>光明如来様御奉斎済み。<br/><br/> 甘い物の好きな人間の霊かもしれぬ。<br/><br/>その人に憑って果そうとする。<br/><br/> それと、一つの癖がつく。<br/><br/>段々減してゆくといい。<br/><br/> 086 家族に立向う霊の処理 年令五十歳の薬屋さんの主人、十五年ほど前より体が病弱でいつも年代不明の四十五歳位の婦人が憑って来るとキセルを持って長男や嫁に立向って行きます。<br/><br/>そうすると長男も嫁も体が硬直してしまい、声も発せられず苦しみます。<br/><br/>今月十四日に奥さんと長男と嫁と三人入信致しましたら、いつも主人に憑る霊がその晩は直接に長男に、翌晩は嫁に立ち向って来て体が不自由になってしまいました。<br/><br/>どのようにいたしましたらよろしいでしょうか。<br/><br/> 迷って悪意を持ってる霊である。<br/><br/>憑った度に浄霊すれば段々よくなる。<br/><br/> こういう時、御讃歌の執着に関する歌とか、信仰雑話の「我と執着」の項などを読んでやるとよい。<br/><br/> また、素性がはっきり判れば祀ってやるとよい。<br/><br/> 087 白痴霊善言讃詞を喜ぶ 私の四歳になります甥は、生れつき白痴でありますが、善言讃詞を奏げますと眠っていても、起きて来て喜んでお参りいたしますが、どう言う訳でありましょうか。<br/><br/> 白痴の霊が憑いている。<br/><br/>善言讃詞を奏げて非常に気持よくなるというのは結構である。<br/><br/>白痴の霊自体が治りたいから、聞きたいのである。<br/><br/>（S24. 8.17） 088 魚商生臭い大出血す 一信者の夫で結核の三期と言われ既に見放されている人で御座いますが、七日朝脳に血が逆上致しますような感じがいたしまして、同時に脳の左側が耐えられない程苦しくなりました。<br/><br/>熱心に観音様を念じました所、頭痛がとれて歯茎から毒血が吹出しまして、その状態が一日中持続致しまして、御浄霊を戴きましても止りません。<br/><br/>出血の量は一日で小洗面器二杯程で御座いました。<br/><br/>八日午後御浄霊させて戴きました所口内からの出血は止りましたが、一時間後鼻血が出始めまして一晩中続き、朝七時頃、奥さんの御浄霊を戴いている中に止り、その後ずっと眠っています。<br/><br/>鼻血の出血量は洗面器一杯程で御座いました。<br/><br/>また同じように真黒の血便が相当量出まして、出血の時間は前後三日間程続きました。<br/><br/>それは真黒で生臭く、出ると直ちに固まるそうで御座います。<br/><br/>当家は代々魚商をいたしています。<br/><br/>何か霊的に関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 生臭いのは、魚に関係がある。<br/><br/>大変結構である。<br/><br/> 父の霊が、霊界で中気が未だ治らず、憑って来たものである。<br/><br/>そして中気の毒が出た訳である。<br/><br/>肺病であってもよく治る。<br/><br/>（S24. 5.12） 089 死直前大人顔となった子（霊・子を殺す） 先に御開示を御願い致しました動物や叔父を見て恐ろしがる四歳の子供で御座いますが、最近死亡致しました。<br/><br/>死ぬ直前に、一度首の付根迄両手をつき上げ、顔は五十歳前後の男のように変り、その大きさも三倍位になりましたが、間もなくまた普通の顔に戻って立派な死方をさせて戴きました。<br/><br/>（その子の母親は子供がなくなる少し前に入信されました）最近ではその子の叔母の寝顔が男の顔に見えるそうで御座いますが、以上の事実は何か霊的な意味が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 霊が憑いていたのが今度は伯母に憑いた。<br/><br/>救われたいのである。<br/><br/>五十歳前後の霊が子供を殺した。<br/><br/>何か訳があろう。<br/><br/>信仰雑話をみれば判る。<br/><br/>入信して一生懸命すれば治る。<br/><br/>（S24.12.11） 090 昏睡より醒む（御守護願いの偉力） 今月四日に御守護御願い申し上げました渡辺満子（十八歳）、その後御守護を戴き、九日間昏睡状態で御守護御願いに上り、お邸到着が十一時四十分でございました。<br/><br/>本人が気がつきましたのが十一時四十分で、同じ時間でございました。<br/><br/>それから御飯を食べるようになりました。<br/><br/>それから四日目よりまた霊的になりました。<br/><br/>あとは口頭にて申し上げます。<br/><br/> こういうのは説得してやるとよい。<br/><br/>「命をとれば自分自身地獄のドン底に落つるから、助けてやりなさい」と。<br/><br/>段々治ってゆく。<br/><br/>（S24. 8.19） 091 飲酒で顔面神経痛（奇病） 未入信の方で御座いますが、平常は異常御座いませんが、酒を呑みますとひどい顔面神経痛を起します。<br/><br/>これは霊的に何か意味が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 酒の、顔面神経で死んだ霊が憑っている。<br/><br/>気長に浄霊すれば治る。<br/><br/> 入信して、ある程度判ると治る。<br/><br/>（S25. 3. 2） 092 スポーツと憑霊 御著書に「義経には鞍馬山の天狗が憑いていた」と拝見致しますが、スポーツや武術――例えば水泳や唐手、馬術等で超人的な妙技をするのはいかがでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 超人的なのは霊で、動物の霊が多い。<br/><br/>こういう霊はこういう人に憑きたがる。<br/><br/>河童、魚の霊、龍神などが憑く。<br/><br/>（河童は水に入るのが好きなだけである）（S24. 1.18） 093 狂信者の霊 私の主人は六十歳になりますが、二年前よりだんだん気が変になり、この頃は一人でいると昼夜を問わず独り言を言います。<br/><br/>それは大抵先祖の事か、神仏の事か、また修養の話等、普通聞いてためになる話をしますが、人前に出ると変な言語動作を致します。<br/><br/>因みに主人は十年間程道徳科学の教えを受けていました。<br/><br/>また、昭和二十年に御光を戴いております。<br/><br/>いかなる原因でしょうか。<br/><br/>私は現在、教導師としてこの道に御手伝いをさせて戴いておりますが、今後いかに致したらよいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 信仰気狂いのような霊が憑っている。<br/><br/>長いのは五、六年、早くて一年位かかろう。<br/><br/> 094 人喰人種の霊 人喰人種は獣霊の憑依でしょうか。<br/><br/> 獣霊の憑依だけでなく、原始人の習慣が残っている。<br/><br/>それが伝統的にいいとなっている。<br/><br/>原始人はそういうのが多かった。<br/><br/>これは文化から離れているためで、未だにある。<br/><br/>文化の普及により段々になくなる。<br/><br/>しかし、文化人でも獣霊が憑くと人を齧りたくなるのがある。<br/><br/>（S23.12.22） 095 特異憑霊 次の事項御教示の程お願いします。<br/><br/> （イ）、私は時折夢の中で法華経だとか一度も読んだ事のない、また習事もない難しい経文をスラスラと読んだりします。<br/><br/>いかなる理由でしょう。<br/><br/> （ロ）、それから人と対談中、相手の心の動き、即ち今この話しをし相手は何を考えているかと言う事が見え透くようにわかり、また他家に訪問の場合等でも、心から言うてくれるか表面だけのお世辞かと言う事等がハッキリわかり過ぎて困ります。<br/><br/> （ハ）、次に事細かい日常の家庭内の事でも、また社会一般の事でも余も先の結果が見え透いて歯痒く、しまいには馬鹿らしくさえなり、法律規則等までに文句の一つも言いたくなります。<br/><br/>例えば、十八歳にならぬものは会社、工場等も使用出来ず、その中に不良化したり、ヒロポン等と言う注射液等乱売の結果、青年の身心共に滅する者が続出したり、また、産制のための社会悪、道徳の乱れ等思えば、全く腹立たしい位の世相を何とかする事は出来ないでしょうか。<br/><br/>知事、課長、部長級等の者の犯罪等もあり、この眼に余る社会悪の氾濫は、早く何とかならぬものでしょうか。<br/><br/>以上三項目御教示下さい。<br/><br/> （イ）、こういう霊が憑いている。<br/><br/>そして寝る時に話す。<br/><br/> （ロ）、憑いてるその人が教える。<br/><br/>あまり相手の心が分らぬ方がよい。<br/><br/> （ハ）、考え方が単純である。<br/><br/>やはり時期もある。<br/><br/>世相をみれば制え切れぬ考えが起るが、やはりこれでいいと思う。<br/><br/>（S24. 9.25）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

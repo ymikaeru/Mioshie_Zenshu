@@ -1,111 +1,299 @@
 ﻿<html>
-
 <head>
-<meta http-equiv="Content-Type"
-content="text/html; charset=UTF-8">
-<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hikari06</title>
-<link rel="stylesheet" type="text/css" href="../../style4.css">
-</head>
-
-<body bgcolor="#E9FEDA">
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="">
-    <input type="hidden" name="config" value="">
-    <div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>――</strong></font>
-            <font size="2" face="HG正楷書体-PRO"><strong> 岡田自観師の論文集 ――</strong>　</font>
-            <font size="2" face="ＭＳ ゴシック"><strong>御教え検索</strong>：</font></p>
-            </td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35" bgcolor="#EFFFE6"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
-        </tr>
-    </table>
-    </div>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font></p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
+</tr>
+</table>
+</div>
 </form>
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="shiryo">
-    <input type="hidden" name="config" value="">
-    <div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35">　</td>
-        </tr>
-    </table>
-    </div>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
 </form>
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 光の主 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 あらゆる病気を治し、貧乏を無くし、争いを無くする力、不幸と罪の原因を、はっきりさせて、その原因を取除く力、それは、光りの、力の浄化作用である。<br><br>日月の光りが、一個の人間の肉体を通して、働きかけるという力とは、実に、空前の事象なのだ。<br><br>科学では到底、判らない光りであるが、実在の光りである。<br><br>この光りが、驚くべき奇蹟を、今、無数に作っている。<br><br> しからば、その光りは一体どこにあるのか、それは、観世音菩薩が具有され、一人の超人を機関とされて、救世の大本願の達成に努められているのだ。<br><br>その力を、観音力と言う。<br><br> この観音力が働くや、一切の不幸は、解消してゆく、驚くべき一大奇蹟である。<br><br>この力ヘ対しては、神学も、哲学も、理論も、科学も、何らの説明は出来ない。<br><br>何となれば、人類史上、未だ経験のないものであるからである。<br><br>過去の世界の事物を対象とした、学問と経験では、説明出来ないのである。<br><br>ここに、ただ、体験する一つの手段だけが、この力を識る、唯一の方法としてあるばかりである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
-    <p><font size="4" face="ＭＳ ゴシック"><strong>光の主<br>
-    </strong></font><font size="3" face="ＭＳ ゴシック"><br>
-    『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行<br>
-    <br>
-    　あらゆる病気を治し、貧乏を無くし、争いを無くする力、不幸と罪の原因を、はっきりさせて、その原因を取除く力、それは、光りの、力の浄化作用である。日月の光りが、一個の人間の肉体を通して、働きかけるという力とは、実に、空前の事象なのだ。科学では到底、判らない光りであるが、実在の光りである。この光りが、驚くべき奇蹟を、今、無数に作っている。<br>
-    　しからば、その光りは一体どこにあるのか、それは、観世音菩薩が具有され、一人の超人を機関とされて、救世の大本願の達成に努められているのだ。その力を、観音力と言う。<br>
-    　この観音力が働くや、一切の不幸は、解消してゆく、驚くべき一大奇蹟である。この力ヘ対しては、神学も、哲学も、理論も、科学も、何らの説明は出来ない。何となれば、人類史上、未だ経験のないものであるからである。過去の世界の事物を対象とした、学問と経験では、説明出来ないのである。ここに、ただ、体験する一つの手段だけが、この力を識る、唯一の方法としてあるばかりである。<br>
-    <br>
-    <br>
-    </font></p>
+<p><font face="ＭＳ ゴシック" size="4"><strong>光の主<br/>
+</strong></font><font face="ＭＳ ゴシック" size="3"><br/>
+    『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行<br/>
+<br/>
+    　あらゆる病気を治し、貧乏を無くし、争いを無くする力、不幸と罪の原因を、はっきりさせて、その原因を取除く力、それは、光りの、力の浄化作用である。日月の光りが、一個の人間の肉体を通して、働きかけるという力とは、実に、空前の事象なのだ。科学では到底、判らない光りであるが、実在の光りである。この光りが、驚くべき奇蹟を、今、無数に作っている。<br/>
+    　しからば、その光りは一体どこにあるのか、それは、観世音菩薩が具有され、一人の超人を機関とされて、救世の大本願の達成に努められているのだ。その力を、観音力と言う。<br/>
+    　この観音力が働くや、一切の不幸は、解消してゆく、驚くべき一大奇蹟である。この力ヘ対しては、神学も、哲学も、理論も、科学も、何らの説明は出来ない。何となれば、人類史上、未だ経験のないものであるからである。過去の世界の事物を対象とした、学問と経験では、説明出来ないのである。ここに、ただ、体験する一つの手段だけが、この力を識る、唯一の方法としてあるばかりである。<br/>
+<br/>
+<br/>
+</font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 光の主 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 あらゆる病気を治し、貧乏を無くし、争いを無くする力、不幸と罪の原因を、はっきりさせて、その原因を取除く力、それは、光りの、力の浄化作用である。<br/><br/>日月の光りが、一個の人間の肉体を通して、働きかけるという力とは、実に、空前の事象なのだ。<br/><br/>科学では到底、判らない光りであるが、実在の光りである。<br/><br/>この光りが、驚くべき奇蹟を、今、無数に作っている。<br/><br/> しからば、その光りは一体どこにあるのか、それは、観世音菩薩が具有され、一人の超人を機関とされて、救世の大本願の達成に努められているのだ。<br/><br/>その力を、観音力と言う。<br/><br/> この観音力が働くや、一切の不幸は、解消してゆく、驚くべき一大奇蹟である。<br/><br/>この力ヘ対しては、神学も、哲学も、理論も、科学も、何らの説明は出来ない。<br/><br/>何となれば、人類史上、未だ経験のないものであるからである。<br/><br/>過去の世界の事物を対象とした、学問と経験では、説明出来ないのである。<br/><br/>ここに、ただ、体験する一つの手段だけが、この力を識る、唯一の方法としてあるばかりである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

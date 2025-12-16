@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の仕事を邪魔しないでくれ （上） 『栄光』131号、昭和26(1951)年11月21日発行 私が今、全身全霊を打ち込んで努力している事業は、信者はよく知っているが、近来識者の間にも、大分理解する人が増えて来たようで喜ばしいが、まだ誤解している人もあるらしいから、これらの人のために少しかいてみるが、この人達ももちろん本教の真相を知らないからで、世間の噂や言論機関のデマなどで迷わされたり、中には生まれつき宗教が嫌いな、無神論のカチカチ屋などもあるだろうし、そうかと思うと嘘のような話だが、悪が好きなのか、宗教は善を勧めるから、癪（しゃく）に障るという人もあるらしい。<br><br>しかしながらまず共産主義者以外の人なら、自分の生まれたこの日本の国が、よくなる事に反対する者は一人もあるまい。<br><br> そこで今書こうとするこの文の目的は、神とか信仰とかいう宗教的の事は、一切抜きにして、普通人でも理解出来る面の事を主としたものである。<br><br>それは私が今造営中の箱根熱海における地上天国の模型であって、箱根の方は規模も小さいので、ここでは熱海の方についてのみかいてみるが、私の最初からの計画は世界に二つとない自然美と人工美とをタイアップさせた一大芸術品を作ろうとするのである。<br><br> そういう訳で、まず世界的にみても一番風景に富んだ国としたら、我日本であるというのが定説である。<br><br>なるほど私はまだ外国へ行った事はないが、種々な点からみてもそう思えるのである。<br><br>私がいつも言うごとく、日本は最初から神がその御目的の下に造られた世界の公園であって、しかも幸いな事には自分がこの国に生まれ、現在住んでいるのであるから、万事好都合なのはもちろんである。<br><br>そこで日本のどの地点がその条件に最も叶うかを調べたところ、何といっても箱根熱海である事が分ったので、私は箱根熱海を探したところ、不思議にも思い通りの土地も住む家も見付かり、容易に手に入ったのである。<br><br>その後終戦となるやすべてが順調に運び、箱根といい、熱海といい、どちらも必要な地域が次々手に入り、現在はどちらも二、三万坪に垂（なんな）んとする程になったので、広さにおいてはまず充分と言えよう。<br><br>しかし箱根の方は何しろ山が嶮（けわ）しく、巌石重畳としているので、大規模の構想には不適当だが、そこへゆくと熱海の方は山は高からず、土のところも多いので、自由に大規模な計画が出来るという訳で、目下熱海に造営中なのがそれである。<br><br> この地があらゆる条件を具備している事は、まず何よりも素晴しい眺望である。<br><br>恐らく日本中どこを探しても、これほどの所はあるまいとは、観る人の一致する言である。<br><br>しかも交通至ってよく、人も知るごとく関東と関西とのほとんど中間になっており、東西いずれからでも容易に往来出来る。<br><br>その他の特色としては冬暖かく、温泉豊富にして、周囲の山並を包んでいる緑の色、鏡のごとき相模湾の海原、右手遥かに五つの岬が描いている曲線美、左手真鶴の突端にある二、三の小島も面白く、晴れたる時は地平線上夢のごとくに浮んでいる三浦半島の一線、霞の奥長々と寝ているような一条（ひとすじ）は房総半島で、有名な鋸山のギザギザな不思議な曲線が目を惹いている。<br><br>まなかいには盆石の佇（たたず）まうごとき初島あり、その右手には有名な噴火に似合しからぬ柔らかい線の大島も見える。<br><br> 右のごとき絶景を一望に収むるこの地点が、瑞雲郷中央の景観台であって、ここは位置といい、山の高さといい、全景観の眺めには最も好適で、ここに身を置く時さながらこの世の天国にある思いするとは、誰もが絶讃するところである。<br><br>全く天地創造の時神が準備された聖地であり、神の大芸術品でなくて何であろう。<br><br>しかも駅から徒歩で十五分、車で五分で行ける近さで、路はダラダラ坂であるから交通も至便である。<br><br>そうして最初この土地を手に入れたのが昭和二十一年であったから、ちょうど今年で五年になる。<br><br>今まで毎日五十人から百人くらいの人間が、私の設計のまま一生懸命に働いているので、地形だけは本年一杯で大体出来上るつもりである。<br><br>そこへ植える花樹は躑躅（つつじ）二十種類で二千本、桜一千本、梅五百本を主なるものとし、その他出来るだけの種類を網羅した花樹を植込み、次から次へ花の絶えないようにする。<br><br>まず理想的一大パラダイスと言ってよかろう。<br><br> そこでいよいよ来年春頃から建築に取掛るが、最初は敷地千三百坪の上に、八百坪一階建のメシヤ会館を建てるが、もちろん鉄筋コンクリートで、様式は現在世界の建築界を風靡している彼のフランスの、ル・コルビュジエ式を基本とし、それに私の考案を入れた画期的新形式のもので、出来上った上は恐らく世界的宗教建築として世の注目を引くであろう。<br><br>なるほどコルビュジエ式は確かに時代感覚にピッタリしてはいるが、荘厳味に欠けており、官庁、アパート、住宅等の実用向にはいいが、宗教のそれとしては、どうも相応（ふさわ）しからぬ感がある。<br><br>といって今更古典的な昔人（せきじん）の遺品のようなものも採りたくないから、ヤハリ時代的感覚を充分表現したものでなくてはならないと共に、内部の装飾その他もそれに似合うよう新機軸を出すつもりである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Materialização do Paraíso na Terra</h2>
 <p>A obra à qual venho dedicando-me de corpo e alma é bem conhecida pelos fiéis e, para minha satisfação, tem conquistado a compreensão de um número crescente de intelectuais. Contudo, parece que ainda persistem equívocos a respeito dela, razão pela qual escrevo estas linhas. Tais equívocos surgem, naturalmente, do desconhecimento sobre a verdadeira natureza de nossa Obra Divina, sendo as pessoas iludidas por boatos, pela desinformação propagada pela imprensa ou, em alguns casos, por uma aversão inata à religião, típica dos ateus mais intransigentes. Há também, por mais inverossímil que pareça, aqueles que, por uma aparente afinidade com o mal, sentem-se contrariados pelo fato de a religião promover o bem. Apesar de tudo, com exceção talvez dos comunistas, creio que não há um único japonês que se oponha à prosperidade de sua pátria. O propósito deste texto, portanto, é abordar o tema sob uma perspectiva que possa ser compreendida por qualquer pessoa, deixando de lado, por ora, as questões de fé e os aspectos estritamente religiosos.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>O ponto que permite abarcar toda essa paisagem sublime em um único olhar é o mirante central de Zuiun-kyo. Sua posição e altitude são ideais para a contemplação da vista panorâmica, e todos os que ali chegam exaltam a sensação de estar em um verdadeiro paraíso terrestre. De fato, o que seria este lugar senão um solo sagrado, preparado por Deus desde a Criação do universo; uma obra-prima da arte divina? Além de tudo, o acesso é muito simples: apenas quinze minutos a pé ou cinco minutos de carro a partir da estação, por um caminho de inclinação suave. Adquirimos este terreno em 1946; portanto, há exatos cinco anos. Desde então, uma equipe de cinquenta a cem homens tem trabalhado diligentemente sob minha orientação, e prevejo que a modelagem do terreno estará, em suas linhas gerais, concluída até o final deste ano.</p>
 <p>A essa etapa, seguir-se-á o plantio. As espécies principais serão duas mil azaleias de vinte variedades distintas, mil cerejeiras e quinhentas ameixeiras. Além delas, plantaremos a maior diversidade possível de outras flores e árvores, de modo que haja um florescimento constante ao longo de todo o ano. Será, em suma, um grandioso e idílico paraíso.</p>
 <p>A partir da primavera do próximo ano, daremos início às construções. A primeira edificação será o Salão Messiânico, com uma área construída de aproximadamente 2.600 metros quadrados em um único pavimento, implantado em um terreno de 4.300 metros quadrados. A estrutura será de concreto armado, e o estilo arquitetônico terá como base o do arquiteto francês Le Corbusier, que hoje domina o cenário mundial, ao qual acrescentarei minhas próprias inovações para criar uma forma nova e arrojada. Quando concluído, creio que atrairá a atenção do mundo como um marco da arquitetura religiosa. De fato, embora o estilo de Le Corbusier se ajuste perfeitamente ao espírito de nossa época, ele carece da solenidade necessária a um edifício de natureza religiosa. É excelente para fins práticos, como edifícios governamentais, apartamentos e residências, mas me parece inadequado para um templo. Por outro lado, não desejo recorrer a estilos clássicos que apenas replicam o legado de nossos antepassados. É imperativo que a obra expresse plenamente a sensibilidade contemporânea. Nesse mesmo espírito, pretendo introduzir conceitos inteiramente novos na decoração interna e nos demais detalhes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の仕事を邪魔しないでくれ （上） 『栄光』131号、昭和26(1951)年11月21日発行 私が今、全身全霊を打ち込んで努力している事業は、信者はよく知っているが、近来識者の間にも、大分理解する人が増えて来たようで喜ばしいが、まだ誤解している人もあるらしいから、これらの人のために少しかいてみるが、この人達ももちろん本教の真相を知らないからで、世間の噂や言論機関のデマなどで迷わされたり、中には生まれつき宗教が嫌いな、無神論のカチカチ屋などもあるだろうし、そうかと思うと嘘のような話だが、悪が好きなのか、宗教は善を勧めるから、癪（しゃく）に障るという人もあるらしい。<br/><br/>しかしながらまず共産主義者以外の人なら、自分の生まれたこの日本の国が、よくなる事に反対する者は一人もあるまい。<br/><br/> そこで今書こうとするこの文の目的は、神とか信仰とかいう宗教的の事は、一切抜きにして、普通人でも理解出来る面の事を主としたものである。<br/><br/>それは私が今造営中の箱根熱海における地上天国の模型であって、箱根の方は規模も小さいので、ここでは熱海の方についてのみかいてみるが、私の最初からの計画は世界に二つとない自然美と人工美とをタイアップさせた一大芸術品を作ろうとするのである。<br/><br/> そういう訳で、まず世界的にみても一番風景に富んだ国としたら、我日本であるというのが定説である。<br/><br/>なるほど私はまだ外国へ行った事はないが、種々な点からみてもそう思えるのである。<br/><br/>私がいつも言うごとく、日本は最初から神がその御目的の下に造られた世界の公園であって、しかも幸いな事には自分がこの国に生まれ、現在住んでいるのであるから、万事好都合なのはもちろんである。<br/><br/>そこで日本のどの地点がその条件に最も叶うかを調べたところ、何といっても箱根熱海である事が分ったので、私は箱根熱海を探したところ、不思議にも思い通りの土地も住む家も見付かり、容易に手に入ったのである。<br/><br/>その後終戦となるやすべてが順調に運び、箱根といい、熱海といい、どちらも必要な地域が次々手に入り、現在はどちらも二、三万坪に垂（なんな）んとする程になったので、広さにおいてはまず充分と言えよう。<br/><br/>しかし箱根の方は何しろ山が嶮（けわ）しく、巌石重畳としているので、大規模の構想には不適当だが、そこへゆくと熱海の方は山は高からず、土のところも多いので、自由に大規模な計画が出来るという訳で、目下熱海に造営中なのがそれである。<br/><br/> この地があらゆる条件を具備している事は、まず何よりも素晴しい眺望である。<br/><br/>恐らく日本中どこを探しても、これほどの所はあるまいとは、観る人の一致する言である。<br/><br/>しかも交通至ってよく、人も知るごとく関東と関西とのほとんど中間になっており、東西いずれからでも容易に往来出来る。<br/><br/>その他の特色としては冬暖かく、温泉豊富にして、周囲の山並を包んでいる緑の色、鏡のごとき相模湾の海原、右手遥かに五つの岬が描いている曲線美、左手真鶴の突端にある二、三の小島も面白く、晴れたる時は地平線上夢のごとくに浮んでいる三浦半島の一線、霞の奥長々と寝ているような一条（ひとすじ）は房総半島で、有名な鋸山のギザギザな不思議な曲線が目を惹いている。<br/><br/>まなかいには盆石の佇（たたず）まうごとき初島あり、その右手には有名な噴火に似合しからぬ柔らかい線の大島も見える。<br/><br/> 右のごとき絶景を一望に収むるこの地点が、瑞雲郷中央の景観台であって、ここは位置といい、山の高さといい、全景観の眺めには最も好適で、ここに身を置く時さながらこの世の天国にある思いするとは、誰もが絶讃するところである。<br/><br/>全く天地創造の時神が準備された聖地であり、神の大芸術品でなくて何であろう。<br/><br/>しかも駅から徒歩で十五分、車で五分で行ける近さで、路はダラダラ坂であるから交通も至便である。<br/><br/>そうして最初この土地を手に入れたのが昭和二十一年であったから、ちょうど今年で五年になる。<br/><br/>今まで毎日五十人から百人くらいの人間が、私の設計のまま一生懸命に働いているので、地形だけは本年一杯で大体出来上るつもりである。<br/><br/>そこへ植える花樹は躑躅（つつじ）二十種類で二千本、桜一千本、梅五百本を主なるものとし、その他出来るだけの種類を網羅した花樹を植込み、次から次へ花の絶えないようにする。<br/><br/>まず理想的一大パラダイスと言ってよかろう。<br/><br/> そこでいよいよ来年春頃から建築に取掛るが、最初は敷地千三百坪の上に、八百坪一階建のメシヤ会館を建てるが、もちろん鉄筋コンクリートで、様式は現在世界の建築界を風靡している彼のフランスの、ル・コルビュジエ式を基本とし、それに私の考案を入れた画期的新形式のもので、出来上った上は恐らく世界的宗教建築として世の注目を引くであろう。<br/><br/>なるほどコルビュジエ式は確かに時代感覚にピッタリしてはいるが、荘厳味に欠けており、官庁、アパート、住宅等の実用向にはいいが、宗教のそれとしては、どうも相応（ふさわ）しからぬ感がある。<br/><br/>といって今更古典的な昔人（せきじん）の遺品のようなものも採りたくないから、ヤハリ時代的感覚を充分表現したものでなくてはならないと共に、内部の装飾その他もそれに似合うよう新機軸を出すつもりである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

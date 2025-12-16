@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtankika</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 短期間に威力示す 無医村に療病力を與う 『救世』52号、昭和25(1950)年3月4日発行 山形県 木の花中教会 五十嵐松弥（39） 私は幼い頃より体が弱く七歳の時は肺炎、八歳の時は脳病の為め、小学校も一学期休学致し薬毒の為かドモリと成り、世間に出て用件も果せず困まっていました。<br><br>本年三十九歳と成りますが、毎年春秋二回心臓脚気と気管支喘息で、それに永年眼病のため、郷里よりバスで四十分、それに汽車で五十分もかかるある市の眼科医にパスを買って四カ月通院し、又ある医科大学付属病院にそれもパスを求めて四カ月通院しましたが治る様子もありません。<br><br>病名はトラコマ・パンムシという事でした。<br><br>現在医学の発達をいわれており、それに化学的良薬をいろいろ使用しているのに全治せぬとは不思議と思います。<br><br>ビタミンＢ１を毎日二本、三日に一回ビタカンフルを使用したが益々悪くなる。<br><br> 又、注射も一カ月に四、五百回もうち、家計も病気同様となりますので、村医もありますが町の医院に診断していただくつもりで母より二升の米をいただき、雪道を歩きましたが心臓が悪いので人と一緒に歩くことも出来ず、釜谷坂でお昼となりました。<br><br> 宗片先生とは福栄村に公職にある節から知人だったので先生宅でお昼にすることに決心し先生に有りのままの話を致しましたら、世界救世教の有難い御力で治していただいたらとの御話をなされ早速御浄霊をしていただきました。<br><br> 気分も非常に良くなり、医者にも行かず宗片先生宅で御世話様になる事に御願い致しました。<br><br>その晩も又翌日も一日に二回も御浄霊していただき三日二晩でどしどし快方に向い、一時帰宅さしていただきました。<br><br>私も月に四、五回町に用件があるのでその都度、宗片先生に御世話様になり御浄霊していただき余りの有難さに三月十五日教修を受けさせて戴きました。<br><br>以後六カ月間無病で元気で働いております。<br><br> 去る九月二日村の人で二十五歳になる娘が眼病で苦しんでいましたが、私が永年眼病で苦しんでいたので私はありのまま光明如来様の有難い御慈悲で全治したと話しました。<br><br> 近日中宗片先生宅にあがって御話を聞き、又御浄霊を受けるよう申しました。<br><br>とにかく、今晩は娘の眼だけでよいから御浄霊をして戴きたいとの事で、私が御浄霊をしてあげましたところ、翌日になると前より良くなり眼も痛まないとの事でした。<br><br>翌日先生が村に来て下さったので娘の御浄霊をお願いし、私の家で娘と娘の父親と二人御浄霊して戴き、いろいろ光明如来様の御話を聞き喜んで帰りました。<br><br>今では毎晩娘と父、母親三人、私の御浄霊で満足して喜んでいます。<br><br>その事を宗片先生に御話ししましたところ、父親に教修を受けさしてはと仰言ったので私より勧めましたところ父親も喜んで、去る十月十一日先生宅の月並祭を吉日として光明如来様の前でお光を戴きました。<br><br> 私の村は戸数三十戸人口約九百人あります。<br><br>冬は雪で三尺から四尺も積りますので医者には一里半もあり往診料も大金がかかるのを思えば、自宅でも浄霊出来、病気の心配のないのは本当に有難いことです。<br><br>私も娘も父も出来る限り光明如来様又大先生様の御恵の万分の一の奉仕させて頂きたいと日夜念願致しております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O poder que se manifesta em curto período: A força da cura chega a uma vila sem médicos</h2>
 <p><strong>Publicado na Revista Kyusei nº 52, em 4 de março de 1950</strong>
@@ -102,5 +257,48 @@ Igreja Konohana Naka, Yamagata</p>
 <p>No outro dia, o Mestre Muneshige visitou nossa aldeia, e roguei-lhe que ministrasse Johrei à jovem. Em minha casa, tanto ela quanto seu pai receberam Johrei e ouviram atentamente os ensinamentos sobre Deus, partindo depois repletos de alegria. Agora, todas as noites, a jovem e seus pais recebem meu Johrei, sentindo-se plenamente satisfeitos e felizes.</p>
 <p>Ao relatar o ocorrido ao Mestre Muneshige, ele sugeriu que o pai da moça também se tornasse membro. Propus a ideia a ele, que a aceitou com grande contentamento. No dia 11 de outubro, aproveitando a data auspiciosa do Culto Mensal na casa do mestre, ele recebeu o Ohikari perante o altar de Deus.</p>
 <p>Nossa aldeia possui trinta famílias e uma população de aproximadamente novecentas pessoas. Durante o inverno, a neve pode acumular-se a mais de um metro de altura, e o médico mais próximo fica a quase seis quilômetros de distância, o que torna as visitas domiciliares extremamente dispendiosas. É uma bênção verdadeiramente inestimável poder ministrar Johrei em nosso próprio lar, livres da preocupação com as doenças. A jovem, seu pai e eu rogamos dia e noite para que possamos servir e retribuir, nem que seja uma ínfima parcela da imensa graça que recebemos de Deus e de Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 短期間に威力示す 無医村に療病力を與う 『救世』52号、昭和25(1950)年3月4日発行 山形県 木の花中教会 五十嵐松弥（39） 私は幼い頃より体が弱く七歳の時は肺炎、八歳の時は脳病の為め、小学校も一学期休学致し薬毒の為かドモリと成り、世間に出て用件も果せず困まっていました。<br/><br/>本年三十九歳と成りますが、毎年春秋二回心臓脚気と気管支喘息で、それに永年眼病のため、郷里よりバスで四十分、それに汽車で五十分もかかるある市の眼科医にパスを買って四カ月通院し、又ある医科大学付属病院にそれもパスを求めて四カ月通院しましたが治る様子もありません。<br/><br/>病名はトラコマ・パンムシという事でした。<br/><br/>現在医学の発達をいわれており、それに化学的良薬をいろいろ使用しているのに全治せぬとは不思議と思います。<br/><br/>ビタミンＢ１を毎日二本、三日に一回ビタカンフルを使用したが益々悪くなる。<br/><br/> 又、注射も一カ月に四、五百回もうち、家計も病気同様となりますので、村医もありますが町の医院に診断していただくつもりで母より二升の米をいただき、雪道を歩きましたが心臓が悪いので人と一緒に歩くことも出来ず、釜谷坂でお昼となりました。<br/><br/> 宗片先生とは福栄村に公職にある節から知人だったので先生宅でお昼にすることに決心し先生に有りのままの話を致しましたら、世界救世教の有難い御力で治していただいたらとの御話をなされ早速御浄霊をしていただきました。<br/><br/> 気分も非常に良くなり、医者にも行かず宗片先生宅で御世話様になる事に御願い致しました。<br/><br/>その晩も又翌日も一日に二回も御浄霊していただき三日二晩でどしどし快方に向い、一時帰宅さしていただきました。<br/><br/>私も月に四、五回町に用件があるのでその都度、宗片先生に御世話様になり御浄霊していただき余りの有難さに三月十五日教修を受けさせて戴きました。<br/><br/>以後六カ月間無病で元気で働いております。<br/><br/> 去る九月二日村の人で二十五歳になる娘が眼病で苦しんでいましたが、私が永年眼病で苦しんでいたので私はありのまま光明如来様の有難い御慈悲で全治したと話しました。<br/><br/> 近日中宗片先生宅にあがって御話を聞き、又御浄霊を受けるよう申しました。<br/><br/>とにかく、今晩は娘の眼だけでよいから御浄霊をして戴きたいとの事で、私が御浄霊をしてあげましたところ、翌日になると前より良くなり眼も痛まないとの事でした。<br/><br/>翌日先生が村に来て下さったので娘の御浄霊をお願いし、私の家で娘と娘の父親と二人御浄霊して戴き、いろいろ光明如来様の御話を聞き喜んで帰りました。<br/><br/>今では毎晩娘と父、母親三人、私の御浄霊で満足して喜んでいます。<br/><br/>その事を宗片先生に御話ししましたところ、父親に教修を受けさしてはと仰言ったので私より勧めましたところ父親も喜んで、去る十月十一日先生宅の月並祭を吉日として光明如来様の前でお光を戴きました。<br/><br/> 私の村は戸数三十戸人口約九百人あります。<br/><br/>冬は雪で三尺から四尺も積りますので医者には一里半もあり往診料も大金がかかるのを思えば、自宅でも浄霊出来、病気の心配のないのは本当に有難いことです。<br/><br/>私も娘も父も出来る限り光明如来様又大先生様の御恵の万分の一の奉仕させて頂きたいと日夜念願致しております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

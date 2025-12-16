@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本浄化療法普及会主旨及会則 『日本浄化療法普及会主旨及会則』昭和21(1946)年発行 日本浄化療法普及金主旨 私が日本浄化療法を国民厚生の一助たるべく創めて以来二拾数年になります。<br><br> この間私と労苦を共にせられ、日本浄化療法の発展のため力を致された皆様に対して今回終戦後の新しい日本の平和と幸福を想い我々としての務めを明かにすべく日本浄化療法普及会を創立するに当り感謝を捧げると共に、新しい将来への所感を述べる事は私として大きな喜びであります。<br><br> 静かに考えみますれば、戦争に対していかなる解釈があろうとたしかに悪魔の罪悪です。<br><br> 私達は長い間暗黒に閉され、苦悩と悲劇の中をさまよって来たのです。<br><br>しかし私達は戦争を神に誓って抛棄したのです。<br><br>そして新しい日本への道は私達の反省と自覚において一歩一歩拓けて来ています。<br><br> この時私達は目前の混乱や動揺に迷って自らを失う事なく新しい日本の平和と幸福を祈るべく一層の精進を誓わねばならぬものと思います。<br><br> 日本浄化療法も本当の意味において国民厚生に役立つのはこれからと思います、私が持つ普及会創立の意図も新しい日本の平和と幸福を念ずる真心の実践であります。<br><br> 敗戦という現実はあらゆる罪悪を巷（ちまた）に造っています、人心の不安に乗じて邪教の流行もその一つです。<br><br>私達のは正しい信仰の自由において自らの精神生活を作るものです。<br><br>日本浄化療法の真髄も正しいそして美しい心は強い身体に宿るという心体一致にあります。<br><br> 私は改めて申上げますが、信仰はその人のものであり、普及会はその人の信仰をも干渉する何ものもありません、勿論政治的な一切の関係もないのです、ひたすら新しい日本人の正しい、そして美しい心を宿す強い身体を作るための私達の努力に他ならないのです。<br><br> 私は二十数年来の経験を基調として皆様の無限な協力と援助を得て理想の実現を図りたいと思います。<br><br> 皆様の健勝を心から祈ると共に会の発展のため皆様の御協力を期待して止みません。<br><br> 熱海市熱海東山一七一二ノ五 岡 田 茂 吉 日本浄化療法普及会々則 第一条 本会は日本浄化療法普及会と称す 第二条 本会は事務所を熱海市に置く 第三条 本会は新日本国民厚生の強化促進のため日本浄化療法の普及を図るを以て目的とす 第四条 本会は必要に応じ地方支部を設置す 第五条 本会は前条の目的を達成するため左の事業を行う （一） 日本浄化療法普及に関する事業 （二） 日本浄化療法学院の設立・療養所の設置・農園の経営 （三） 講習会の開催 （四） 機関誌その他出版 （五） その他本会の目的を達するに必要とする諸般の事業 第六条 本会は会員を分ちて普通会員及特別会員とす （一） 普通会員は本会所定の講習会その他の指導を受けし者を以て会員とす （二） 特別会員は本会の趣旨に賛同する者を会長にこれを推薦し理事会にて決定す 第七条 会員たる者は本会の規定する義務を負うものとす 第八条 会員にして本会の趣旨目的に反する言行ある時は理事会の決議に依りこれを除名す 第九条 本会に左の役員を置く （一） 会 長 一 名 （二） 副会長 一 名 （三） 理事長 一 名 （四） 理 事 若干名（常任理事一名） （五） 監 事 二 名 （六） 評議員 若干名 第十条 （一） 会長は本会を総理代表す （二） 副会長は会長を補佐し会長事故ある時はこれを代行す （三） 理事長は会長の旨を受け本会を代表し会務を統理す （四） 理事は理事長を補佐し会務を処理す （五） 監事は会の財務を監査す （六） 評議員は必要事項に関し会長の諮問に応ず 第十一条 本会に顧問を置く 顧問は理事会にて推薦し会長これを委嘱す 第十二条 役員の任期は理事長三年その他を二年とす、再選を妨げず 第十三条 本会は事務処理のため事務局を置く事務局規定は別にこれを定む 第十四条 本会は年二回会員総会を開く 会員総会にては事務報告新規計画を発表予算等に関して討議す 第十五条 本会の経費は講習会及び雑収入その他を以て支弁す 第十六条 本会の会計年度は毎年四月一日に始り翌年三月三十一日を以て終る 会 長 ―― 顧 問 ｜ 副会長 ｜ 理事長 ｜ 理 事 ―― 評議員 ｜ 事務局 ―― 総 務 部 厚生文化部 技術指導部 連 絡 部 追而 組織内容は 会 長 岡田茂吉 副会長 渋井総太郎 理事長 林出賢次郎 常任理事 黒沼真行 理 事 鶴見憲、三尋木銀次郎 評議員 中島多計彦、坂井克行、荒屋乙松、木原義彦、川上吉子 内藤らく、高頭信正、大沼光彦、小川雅靖 顧問及び事務局員は近く発表す （昭和二十一年）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Propósito e Estatuto da Associação para a Divulgação da Terapia Johrei do Japão</h2>
 <p>Transcorreram mais de duas décadas desde que iniciei a Terapia Johrei do Japão com o propósito de contribuir para o bem-estar da nação. Neste momento, ao fundarmos a Associação para a Divulgação da Terapia Johrei do Japão com o intuito de delinear nossa missão em prol da paz e da felicidade do novo Japão que emerge no pós-guerra, é com imensa alegria que manifesto minha gratidão a todos que compartilharam comigo as mesmas adversidades e se dedicaram ao desenvolvimento desta obra, ao mesmo tempo em que compartilho minhas aspirações para o futuro.</p>
@@ -153,5 +305,48 @@ Secretaria — Departamento de Assuntos Gerais, Departamento Sociocultural, Depa
 <strong>Conselheiros Deliberativos:</strong> Takehiko Nakajima, Katsuyuki Sakai, Otomatsu Araya, Yoshihiko Kihara, Yoshiko Kawakami, Raku Naito, Nobumasa Takato, Mitsuhiko Onuma, Masayasu Ogawa</p>
 <p>Os nomes dos Consultores e dos membros da Secretaria serão anunciados em breve.</p>
 <p>(Showa 21 – 1946)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本浄化療法普及会主旨及会則 『日本浄化療法普及会主旨及会則』昭和21(1946)年発行 日本浄化療法普及金主旨 私が日本浄化療法を国民厚生の一助たるべく創めて以来二拾数年になります。<br/><br/> この間私と労苦を共にせられ、日本浄化療法の発展のため力を致された皆様に対して今回終戦後の新しい日本の平和と幸福を想い我々としての務めを明かにすべく日本浄化療法普及会を創立するに当り感謝を捧げると共に、新しい将来への所感を述べる事は私として大きな喜びであります。<br/><br/> 静かに考えみますれば、戦争に対していかなる解釈があろうとたしかに悪魔の罪悪です。<br/><br/> 私達は長い間暗黒に閉され、苦悩と悲劇の中をさまよって来たのです。<br/><br/>しかし私達は戦争を神に誓って抛棄したのです。<br/><br/>そして新しい日本への道は私達の反省と自覚において一歩一歩拓けて来ています。<br/><br/> この時私達は目前の混乱や動揺に迷って自らを失う事なく新しい日本の平和と幸福を祈るべく一層の精進を誓わねばならぬものと思います。<br/><br/> 日本浄化療法も本当の意味において国民厚生に役立つのはこれからと思います、私が持つ普及会創立の意図も新しい日本の平和と幸福を念ずる真心の実践であります。<br/><br/> 敗戦という現実はあらゆる罪悪を巷（ちまた）に造っています、人心の不安に乗じて邪教の流行もその一つです。<br/><br/>私達のは正しい信仰の自由において自らの精神生活を作るものです。<br/><br/>日本浄化療法の真髄も正しいそして美しい心は強い身体に宿るという心体一致にあります。<br/><br/> 私は改めて申上げますが、信仰はその人のものであり、普及会はその人の信仰をも干渉する何ものもありません、勿論政治的な一切の関係もないのです、ひたすら新しい日本人の正しい、そして美しい心を宿す強い身体を作るための私達の努力に他ならないのです。<br/><br/> 私は二十数年来の経験を基調として皆様の無限な協力と援助を得て理想の実現を図りたいと思います。<br/><br/> 皆様の健勝を心から祈ると共に会の発展のため皆様の御協力を期待して止みません。<br/><br/> 熱海市熱海東山一七一二ノ五 岡 田 茂 吉 日本浄化療法普及会々則 第一条 本会は日本浄化療法普及会と称す 第二条 本会は事務所を熱海市に置く 第三条 本会は新日本国民厚生の強化促進のため日本浄化療法の普及を図るを以て目的とす 第四条 本会は必要に応じ地方支部を設置す 第五条 本会は前条の目的を達成するため左の事業を行う （一） 日本浄化療法普及に関する事業 （二） 日本浄化療法学院の設立・療養所の設置・農園の経営 （三） 講習会の開催 （四） 機関誌その他出版 （五） その他本会の目的を達するに必要とする諸般の事業 第六条 本会は会員を分ちて普通会員及特別会員とす （一） 普通会員は本会所定の講習会その他の指導を受けし者を以て会員とす （二） 特別会員は本会の趣旨に賛同する者を会長にこれを推薦し理事会にて決定す 第七条 会員たる者は本会の規定する義務を負うものとす 第八条 会員にして本会の趣旨目的に反する言行ある時は理事会の決議に依りこれを除名す 第九条 本会に左の役員を置く （一） 会 長 一 名 （二） 副会長 一 名 （三） 理事長 一 名 （四） 理 事 若干名（常任理事一名） （五） 監 事 二 名 （六） 評議員 若干名 第十条 （一） 会長は本会を総理代表す （二） 副会長は会長を補佐し会長事故ある時はこれを代行す （三） 理事長は会長の旨を受け本会を代表し会務を統理す （四） 理事は理事長を補佐し会務を処理す （五） 監事は会の財務を監査す （六） 評議員は必要事項に関し会長の諮問に応ず 第十一条 本会に顧問を置く 顧問は理事会にて推薦し会長これを委嘱す 第十二条 役員の任期は理事長三年その他を二年とす、再選を妨げず 第十三条 本会は事務処理のため事務局を置く事務局規定は別にこれを定む 第十四条 本会は年二回会員総会を開く 会員総会にては事務報告新規計画を発表予算等に関して討議す 第十五条 本会の経費は講習会及び雑収入その他を以て支弁す 第十六条 本会の会計年度は毎年四月一日に始り翌年三月三十一日を以て終る 会 長 ―― 顧 問 ｜ 副会長 ｜ 理事長 ｜ 理 事 ―― 評議員 ｜ 事務局 ―― 総 務 部 厚生文化部 技術指導部 連 絡 部 追而 組織内容は 会 長 岡田茂吉 副会長 渋井総太郎 理事長 林出賢次郎 常任理事 黒沼真行 理 事 鶴見憲、三尋木銀次郎 評議員 中島多計彦、坂井克行、荒屋乙松、木原義彦、川上吉子 内藤らく、高頭信正、大沼光彦、小川雅靖 顧問及び事務局員は近く発表す （昭和二十一年）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

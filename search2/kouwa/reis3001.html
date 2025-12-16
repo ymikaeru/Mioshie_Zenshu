@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis3001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 １ 001-014 仏霊 001 地蔵の祀り場所 十年前お地蔵様のお祭りしてあった土地に家を建てました。<br><br>その後お地蔵様はずっと家に祭っておりますが、どこかへお納めするのがよろしいでしょうか。<br><br> 右御教示お願い申し上げます。<br><br> 家の中へ祀るのは嘘で、外へ祀るのはいい。<br><br>地蔵は地であるから地の上に祀る。<br><br>地に立って救われる。<br><br>家の中では違っている。<br><br>庭も本当でない。<br><br>人の多勢通る所がいい。<br><br>現界の守護のため、よく自殺者の近所に地蔵を立てるが、これは阿弥陀の御用をして、自分の在世の罪をなくす意味である。<br><br>つまり地蔵菩薩という御用をさせられるその御用の徳により罪を減らしてもらう意味である。<br><br> 002 地蔵に唱え言 地蔵は阿弥陀如来であるから、祝詞より善言讃詞がよい。<br><br> 仏界はもう二、三年ある。<br><br> 003 石地蔵の役 私方の屋敷内に石地蔵様がありますが（由緒は不明です）これは御祭りすべきでございましょうか。<br><br>取除いた方がよろしゅうございましょうか。<br><br>また右の方法について御教示下さいませ。<br><br> 邪魔にならなければそのままにしておく。<br><br>（移動する）道路上のあらゆる事であるからお祭りの要はない。<br><br>道路警戒があり悪人も一道標にもなる。<br><br>（S25. 4.26） 004 移転先の地蔵処置 今迄地蔵様を祀っていた人がそれをそのままにして、他所へ引越したあとへ移転する場合、そういう御地蔵様はどのように処置致したら宜しいでしょうか。<br><br>右御教示お願い申し上げます。<br><br> そのままでよい。<br><br>そこの家へ祀る。<br><br>でなければ持ち帰って供養すれば非常に喜ぶ。<br><br>（S23.11. 8） rattail（注） 〔 御光話（S23年11月 8日） 『御光話録』1号、昭和23(1948)年12月8日発行〕掲載 005 失明とその原因霊の祀り（二十三夜様の霊） 昭和二十三年十一月二十三日入信の二十五歳の失明の女性で御座いますが、昨年三月頃は眼が少し見えるようにして頂きましたが、また次第に視力が衰え現在は全く見えなくなりました。<br><br>左目には瞳孔に小さな白い斑点があるように見え、右目は瞳孔に白い膜のごときものがかかっております。<br><br>また入信当時は体も肥り頭までブクブクしておりましたが、現在では体は大変細くしまって参りましたが、頭の上部がとても柔こう御座います。<br><br>御浄霊を致しますと二十三夜様の霊と申すのがうきまして、救って頂きたいと申しております。<br><br>この女の人は二十三日の日には度々変った事が御座います。<br><br>入信前も家の変事が起った日は二十三日だと申しております。<br><br> 近所の老人に聞きますと桐山と言う山に二十三夜様と阿彌陀様と薬師如来様の三体が祀って御座いましたが、その後阿彌陀様と薬師如来様は近所の寺にお祀りし、二十三夜様はある信仰の深い人が家で祀ったとの事で御座います。<br><br>その後その家が破産致しまして、近所の人に二十三夜様の祀ってある宅地を売って出てしまい、その宅地を買った人は霊を抜いて貰ったからと言ってその二十三夜様の祠を焼いたそうで御座います。<br><br> この女の人の状態は毒素のためで御座いましょうか。<br><br>それとも二十三夜様の霊と関係が御座いましょうか。<br><br>もし二十三夜様と関係が御座います場合どう致しましたら宜しゅう御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 人間の場合でも龍神、天狗等の場合もある。<br><br>光明如来様の前へ、向って右へ小さい台を置いて祀る。<br><br> 祭典の時、光明如来様の次に祝詞を奏げる。<br><br>すると御光を受けて霊が救われる。<br><br>そして「二十三夜様」が守護するようになるのでよい。<br><br>すると眼の治るのは早くなる。<br><br>相当日数はかかる。<br><br>（S25. 4.22） rattail（注） 〔 御光話（S23年 8月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年〕 ――長崎五島のほうでは「二十三夜様」と称して千手観音様によく似た御姿の神を祀りますが、これはなんの神でしょうか。<br><br> 『これは月読尊です。<br><br>月読経という宗教もあります。<br><br>勿論、光明如来様をお祀りすれば、もうそれは祀る必要はない。<br><br>二十三夜とは月のことです。<br><br>月の照ったときは月読尊、まったく暗闇のときは素盞嗚尊のお働きです。<br><br>月読とは月が夜を見ることであり月のいい面の働きです。<br><br>素盞嗚尊は闇の働きです。<br><br>』 006 二家交互に同浄化 甲乙二人の信者さんがありまして、乙は癲癇持ちで御座居ます。<br><br>甲がその癲癇の方を浄霊致しておりますと、その方に霊が憑り「家族の者が判らないから甲の宅へ祀ってもらいたい」と申しますので、甲の宅では早速祀りました。<br><br>すると甲の家族の者が乙の病人と同様の寒気、ふるいが起りましたので御浄霊致しますと楽になります。<br><br>すると乙の方が同様の状態になります。<br><br>かようにして一方が楽になれば他方が苦しむと言う風に交互に続き、今日まで数日に及び困っております。<br><br>もっともこれは甲の宅へ乙が浄霊を受けに参った時のみでございます。<br><br>これはいかなる霊的作用でございましょうか。<br><br>またどう致しましたら宜敷うございましょうか。<br><br>御伺い申し上げます。<br><br> 祀っても安住出来ないのである。<br><br>祀り方がわるい。<br><br>（S24. 5. 2） 007 死を意識せぬ霊 亀井三郎霊媒を介して、昭和十七年二月八日（公報）戦死した者の霊を呼び会談の結果、戦死者の霊は終戦になっても自分が戦死しても知らずに、今父に「栄三々々」と呼ばれてふと眼を醒して来た許りで何も判らんと言い、砲弾でやられたのは二月十八日だと言い、終戦になったと言うと「ケッタイナー」といかにも不思議相に言いました。<br><br>そこでこの霊はフィリッピンにいるように申しましたから、フィリッピンに帰る必要がないから仏壇におれと言いましたが、今はこの霊はどこにいるでしょうか。<br><br>もしまだフィリッピンにいるとすれば帰還せしむる方法を御教え下さい。<br><br> こういう事はないとはいえぬ。<br><br>死んだ意識のない者が相当いる。<br><br>相当期間そういうのがある。<br><br>（霊界を信じない人である） 亀井はよい霊媒で、憑ると自己意識はあまりない。<br><br> そのままにしておいて、いつでも来られる準備をすればよい。<br><br>祖霊が迎えにゆく。<br><br> 位牌を作って仏壇へ安置しておく。<br><br>位牌を作って拝むとフィリッピンにいる霊へそれを通じて通うから段々霊に判ってくる。<br><br>（よく思いもよらぬ吉い事が起る時、供養による場合がある） 古い霊で、生れ代って霊界にいない霊の二百年回忌等をする。<br><br>長いのは千年祭などもある。<br><br> 霊界にいない場合でも、生れ代った所へ行くと、生れ代った人は善い事がある。<br><br>（S24. 8.18） 008 過去帳にいたい祖霊 老夫婦の信者で御座いますが（元日蓮宗徒）お婆さんが胆石の御浄化を戴いておりますが、この二ケ月御浄霊を戴きましても一向はかばかしく楽になりませんので、最近お爺さんが光明如来様に「何か間違いが御座いましたらお知らせ戴きたう御座います。<br><br>」とお願い致しましたところ、ふと「仏壇にしまってある過去帳を出して祀ってほしい」というように思えて参りました。<br><br>早速出してお詣り致しますとお婆さんの痛みは楽になりました。<br><br>この過去帳はお屏風観音様をお迎え致しました時、お位牌をととのえまして霊にお移り願ってからおしまいしてありましたもので御座いますがいかなるわけで御座いましょうか。<br><br>お伺い申し上げます。<br><br> 位牌へ移るのは嫌なのである。<br><br>大勢の所は嫌で過去帳にいた方がいいので、静かな所にいたい霊である。<br><br>胆石の浄霊は、腎臓と尿道等を後からする。<br><br>（S25. 3.22） 009 嬰児の戒名 生後十五日に死亡せる子の位牌、信士としてよいか。<br><br> 孩子（がいし）でよかろう。<br><br>（S24.12.18） 010 死産児多数の祀り ある信者で御座いますが、その人の兄弟は八人全部死亡致しておりますが、長女、次女、三女、長男、四女、次男の六人は、胎児の中に七ケ月ないし十ケ月で死産致し、五女は生後十一日目に死亡致しております。<br><br>それで戒名も御座いませんし命日も判りません。<br><br>またお骨も御座いません。<br><br>六女だけはお位牌が御座います。<br><br>どう致しましたら宜しゅう御座いましょうか。<br><br>お伺い申し上げます。<br><br> 共同でいいから位牌を作る。<br><br>名はつける。<br><br>仮につけてもよい。<br><br>（S25. 5. 2） 011 流産霊の祀りと憑依 流産の場合は何ケ月よりその霊をお祀りすべきでしょうか。<br><br>その方法はいかに致すべきでしょう。<br><br> 大体五ケ月から人間の部に入る。<br><br> 普通のごとくお寺へ行き戒名を貰い祀る。<br><br>水子であるから葬式などは要らぬ。<br><br>近親者だけ寺へ行って葬式の型をする。<br><br> アルコール漬などは非常に間違っている。<br><br>霊は嫌がる。<br><br> 赤ン坊はよく肩へつかまる。<br><br>それで肩が凝る。<br><br> 012 流産霊の後祀の場合 妊娠四ケ月以上で流産した場合は、その霊を御祀りしなければならぬと御伺い致しましたが、霊を祀ることを知らずに数年たっている霊を新たに御祀り致しますには、戒名はやはりお寺で作って頂くべきでしょうか。<br><br>右御教示御願い申し上げます。<br><br> 寺へ頼む。<br><br>（S24. 5.23） rattail（注） 〔 御光話（S24年 5月23日） 『御光話録』10号、昭和24(1949)年7月10日発行〕 ――妊娠四カ月以上で流産した場合はその霊を祀るようにとのお言葉でございましたが、知らずに数年経ってしまっている霊を新たにお祀りいたしますにはいかがいたしたらよろしいでしょうか。<br><br>戒名はやはりお寺で作っていただくべきでしょうか。<br><br> 『そうです、お寺へ頼んで戒名をつけてもらい、お葬式を簡単にやってもらって、小さい位牌をこしらえて、ふつうの死んだ人と同じように祀ればいいんです。<br><br>』 013 人工流産霊の祀り 二、三ケ月で人工流産をしました子供を御祀りした方がよろしゅう御座いましょうか。<br><br>祀る時は男女の別も判りませんが、どのようにして祀りましたら宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 人工流産の霊は、寧ろ祀るよりお詫びした方がよい。<br><br>五ケ月以後は祀らなくてはならぬ。<br><br>稀には五ケ月以前のが祟る事がある。<br><br>これは祟った時―知らす時祀ればよい。<br><br> 五ケ月以後は戒名をもらい、仏事に祀る。<br><br>（内輪に）堕胎は殺人である。<br><br>（S23.11.21） rattail（注） 〔 御光話（S23年 8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃〕 ――流産の子は何月くらいから祀ったらよろしいでしょう。<br><br>また石鹸や歯ブラシは世間並に朝夕使ってもよろしいでしょうか。<br><br> 『胎児は五カ月から人間の部に入る。<br><br>だから祀らねばならないが、その方法は大人のような葬式はいりません。<br><br>よく胎児をアルコール漬にするが、霊はこれを非常に嫌うものです。<br><br>よく死んだ赤ん坊の霊が来て母の肩へとまることがありますが、そうすると急に肩が重くなったりします。<br><br>石鹸なんか大いに使ってよろしい。<br><br>歯ブラシは朝だけでいいでしょう。<br><br>また歯ブラシのため歯が悪くなることはない。<br><br>みんな薬のためです。<br><br>歯を磨くとき、歯よりむしろ肉を磨いたほうがよろしい。<br><br>歯ぐきから血が出たりすると歯がしまってきます。<br><br>劇しい歯痛は膿が骨に孔をあけるからで、そのときの膿はほとんど薬です。<br><br>ほかの場合でも劇痛は薬毒と思って差し支えない。<br><br>私の子供は生まれたときから薬を服ませないので痛みなんかほとんどないですね。<br><br>鬼歯というのは膿の固まり……毒結があるため歯が曲がって成長するのです。<br><br>治ります。<br><br>歯磨粉も薬の強いのはいけない。<br><br>以前坂井のほうで作っていたでしょう、あれがいいですよ。<br><br>』 014 四ケ月流産でも祀る場合 十二歳の女児に祖母の霊が憑りまして、以前に死亡した五人の嬰児の霊を祀るように申しましたが、母親は四人しか記憶にありません。<br><br>すると霊は便所へ流産して落した子があるではないかと指摘しました。<br><br>そしてその子は今霊界で五人の内最下段の地獄で苦しんでいると申しました。<br><br>なるほど言われて見ればその覚えは御座います。<br><br>妊娠四ケ月にも満たないものでしたのでちょっと不思議に思われますが、妊娠四ケ月位の子供でも祭る必要のある場合が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 赤子は大体五ケ月としてある。<br><br>五ケ月で体は出来上る。<br><br>三ケ月で霊子は宿っている。<br><br>宿った時から神霊は宿るが、未だ体は出来ぬ。<br><br>霊の性格で大変相違がある。<br><br>祀ってもらいたいのであるから祀ってやる。<br><br>（S23. 9.11）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Escritos do Mestre Okada Jikanshi — Culto aos Espíritos, Terceira Parte: Espíritos Búdicos (001-014)</h2>
 <h3>001 O Local Adequado para a Consagração de Jizo</h3>
@@ -148,5 +300,48 @@ function toggleLang(lang) {
 <h3>014 O Caso do Culto a um Feto de Quatro Meses</h3>
 <p><strong>Pergunta:</strong> O espírito da avó manifestou-se por meio de sua neta de doze anos e pediu que os cinco filhos que ela perdeu fossem cultuados. A mãe da menina, no entanto, só se lembrava de quatro. O espírito então a interpelou, dizendo: "E aquele que você abortou no banheiro?". Afirmou também que, no Mundo Espiritual, essa criança está sofrendo no nível mais baixo do inferno. De fato, ao ouvir isso, a mãe se recordou do ocorrido. Contudo, parece-nos estranho, pois a gestação não havia chegado aos quatro meses. Haveria casos em que um feto com essa idade precise ser cultuado?</p>
 <p><strong>Meishu-Sama:</strong> Estabelecemos a regra geral de cinco meses, pois é nesse período que o corpo do feto se completa. O espírito, no entanto, aloja-se no terceiro mês. Embora o corpo ainda não esteja formado, o espírito divino já está presente desde a concepção. Há grandes diferenças de acordo com a personalidade do espírito. Neste caso, uma vez que ele manifesta o desejo de ser cultuado, deve-se atender ao seu pedido. (11 de setembro de 1948)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 １ 001-014 仏霊 001 地蔵の祀り場所 十年前お地蔵様のお祭りしてあった土地に家を建てました。<br/><br/>その後お地蔵様はずっと家に祭っておりますが、どこかへお納めするのがよろしいでしょうか。<br/><br/> 右御教示お願い申し上げます。<br/><br/> 家の中へ祀るのは嘘で、外へ祀るのはいい。<br/><br/>地蔵は地であるから地の上に祀る。<br/><br/>地に立って救われる。<br/><br/>家の中では違っている。<br/><br/>庭も本当でない。<br/><br/>人の多勢通る所がいい。<br/><br/>現界の守護のため、よく自殺者の近所に地蔵を立てるが、これは阿弥陀の御用をして、自分の在世の罪をなくす意味である。<br/><br/>つまり地蔵菩薩という御用をさせられるその御用の徳により罪を減らしてもらう意味である。<br/><br/> 002 地蔵に唱え言 地蔵は阿弥陀如来であるから、祝詞より善言讃詞がよい。<br/><br/> 仏界はもう二、三年ある。<br/><br/> 003 石地蔵の役 私方の屋敷内に石地蔵様がありますが（由緒は不明です）これは御祭りすべきでございましょうか。<br/><br/>取除いた方がよろしゅうございましょうか。<br/><br/>また右の方法について御教示下さいませ。<br/><br/> 邪魔にならなければそのままにしておく。<br/><br/>（移動する）道路上のあらゆる事であるからお祭りの要はない。<br/><br/>道路警戒があり悪人も一道標にもなる。<br/><br/>（S25. 4.26） 004 移転先の地蔵処置 今迄地蔵様を祀っていた人がそれをそのままにして、他所へ引越したあとへ移転する場合、そういう御地蔵様はどのように処置致したら宜しいでしょうか。<br/><br/>右御教示お願い申し上げます。<br/><br/> そのままでよい。<br/><br/>そこの家へ祀る。<br/><br/>でなければ持ち帰って供養すれば非常に喜ぶ。<br/><br/>（S23.11. 8） rattail（注） 〔 御光話（S23年11月 8日） 『御光話録』1号、昭和23(1948)年12月8日発行〕掲載 005 失明とその原因霊の祀り（二十三夜様の霊） 昭和二十三年十一月二十三日入信の二十五歳の失明の女性で御座いますが、昨年三月頃は眼が少し見えるようにして頂きましたが、また次第に視力が衰え現在は全く見えなくなりました。<br/><br/>左目には瞳孔に小さな白い斑点があるように見え、右目は瞳孔に白い膜のごときものがかかっております。<br/><br/>また入信当時は体も肥り頭までブクブクしておりましたが、現在では体は大変細くしまって参りましたが、頭の上部がとても柔こう御座います。<br/><br/>御浄霊を致しますと二十三夜様の霊と申すのがうきまして、救って頂きたいと申しております。<br/><br/>この女の人は二十三日の日には度々変った事が御座います。<br/><br/>入信前も家の変事が起った日は二十三日だと申しております。<br/><br/> 近所の老人に聞きますと桐山と言う山に二十三夜様と阿彌陀様と薬師如来様の三体が祀って御座いましたが、その後阿彌陀様と薬師如来様は近所の寺にお祀りし、二十三夜様はある信仰の深い人が家で祀ったとの事で御座います。<br/><br/>その後その家が破産致しまして、近所の人に二十三夜様の祀ってある宅地を売って出てしまい、その宅地を買った人は霊を抜いて貰ったからと言ってその二十三夜様の祠を焼いたそうで御座います。<br/><br/> この女の人の状態は毒素のためで御座いましょうか。<br/><br/>それとも二十三夜様の霊と関係が御座いましょうか。<br/><br/>もし二十三夜様と関係が御座います場合どう致しましたら宜しゅう御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 人間の場合でも龍神、天狗等の場合もある。<br/><br/>光明如来様の前へ、向って右へ小さい台を置いて祀る。<br/><br/> 祭典の時、光明如来様の次に祝詞を奏げる。<br/><br/>すると御光を受けて霊が救われる。<br/><br/>そして「二十三夜様」が守護するようになるのでよい。<br/><br/>すると眼の治るのは早くなる。<br/><br/>相当日数はかかる。<br/><br/>（S25. 4.22） rattail（注） 〔 御光話（S23年 8月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年〕 ――長崎五島のほうでは「二十三夜様」と称して千手観音様によく似た御姿の神を祀りますが、これはなんの神でしょうか。<br/><br/> 『これは月読尊です。<br/><br/>月読経という宗教もあります。<br/><br/>勿論、光明如来様をお祀りすれば、もうそれは祀る必要はない。<br/><br/>二十三夜とは月のことです。<br/><br/>月の照ったときは月読尊、まったく暗闇のときは素盞嗚尊のお働きです。<br/><br/>月読とは月が夜を見ることであり月のいい面の働きです。<br/><br/>素盞嗚尊は闇の働きです。<br/><br/>』 006 二家交互に同浄化 甲乙二人の信者さんがありまして、乙は癲癇持ちで御座居ます。<br/><br/>甲がその癲癇の方を浄霊致しておりますと、その方に霊が憑り「家族の者が判らないから甲の宅へ祀ってもらいたい」と申しますので、甲の宅では早速祀りました。<br/><br/>すると甲の家族の者が乙の病人と同様の寒気、ふるいが起りましたので御浄霊致しますと楽になります。<br/><br/>すると乙の方が同様の状態になります。<br/><br/>かようにして一方が楽になれば他方が苦しむと言う風に交互に続き、今日まで数日に及び困っております。<br/><br/>もっともこれは甲の宅へ乙が浄霊を受けに参った時のみでございます。<br/><br/>これはいかなる霊的作用でございましょうか。<br/><br/>またどう致しましたら宜敷うございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 祀っても安住出来ないのである。<br/><br/>祀り方がわるい。<br/><br/>（S24. 5. 2） 007 死を意識せぬ霊 亀井三郎霊媒を介して、昭和十七年二月八日（公報）戦死した者の霊を呼び会談の結果、戦死者の霊は終戦になっても自分が戦死しても知らずに、今父に「栄三々々」と呼ばれてふと眼を醒して来た許りで何も判らんと言い、砲弾でやられたのは二月十八日だと言い、終戦になったと言うと「ケッタイナー」といかにも不思議相に言いました。<br/><br/>そこでこの霊はフィリッピンにいるように申しましたから、フィリッピンに帰る必要がないから仏壇におれと言いましたが、今はこの霊はどこにいるでしょうか。<br/><br/>もしまだフィリッピンにいるとすれば帰還せしむる方法を御教え下さい。<br/><br/> こういう事はないとはいえぬ。<br/><br/>死んだ意識のない者が相当いる。<br/><br/>相当期間そういうのがある。<br/><br/>（霊界を信じない人である） 亀井はよい霊媒で、憑ると自己意識はあまりない。<br/><br/> そのままにしておいて、いつでも来られる準備をすればよい。<br/><br/>祖霊が迎えにゆく。<br/><br/> 位牌を作って仏壇へ安置しておく。<br/><br/>位牌を作って拝むとフィリッピンにいる霊へそれを通じて通うから段々霊に判ってくる。<br/><br/>（よく思いもよらぬ吉い事が起る時、供養による場合がある） 古い霊で、生れ代って霊界にいない霊の二百年回忌等をする。<br/><br/>長いのは千年祭などもある。<br/><br/> 霊界にいない場合でも、生れ代った所へ行くと、生れ代った人は善い事がある。<br/><br/>（S24. 8.18） 008 過去帳にいたい祖霊 老夫婦の信者で御座いますが（元日蓮宗徒）お婆さんが胆石の御浄化を戴いておりますが、この二ケ月御浄霊を戴きましても一向はかばかしく楽になりませんので、最近お爺さんが光明如来様に「何か間違いが御座いましたらお知らせ戴きたう御座います。<br/><br/>」とお願い致しましたところ、ふと「仏壇にしまってある過去帳を出して祀ってほしい」というように思えて参りました。<br/><br/>早速出してお詣り致しますとお婆さんの痛みは楽になりました。<br/><br/>この過去帳はお屏風観音様をお迎え致しました時、お位牌をととのえまして霊にお移り願ってからおしまいしてありましたもので御座いますがいかなるわけで御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 位牌へ移るのは嫌なのである。<br/><br/>大勢の所は嫌で過去帳にいた方がいいので、静かな所にいたい霊である。<br/><br/>胆石の浄霊は、腎臓と尿道等を後からする。<br/><br/>（S25. 3.22） 009 嬰児の戒名 生後十五日に死亡せる子の位牌、信士としてよいか。<br/><br/> 孩子（がいし）でよかろう。<br/><br/>（S24.12.18） 010 死産児多数の祀り ある信者で御座いますが、その人の兄弟は八人全部死亡致しておりますが、長女、次女、三女、長男、四女、次男の六人は、胎児の中に七ケ月ないし十ケ月で死産致し、五女は生後十一日目に死亡致しております。<br/><br/>それで戒名も御座いませんし命日も判りません。<br/><br/>またお骨も御座いません。<br/><br/>六女だけはお位牌が御座います。<br/><br/>どう致しましたら宜しゅう御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 共同でいいから位牌を作る。<br/><br/>名はつける。<br/><br/>仮につけてもよい。<br/><br/>（S25. 5. 2） 011 流産霊の祀りと憑依 流産の場合は何ケ月よりその霊をお祀りすべきでしょうか。<br/><br/>その方法はいかに致すべきでしょう。<br/><br/> 大体五ケ月から人間の部に入る。<br/><br/> 普通のごとくお寺へ行き戒名を貰い祀る。<br/><br/>水子であるから葬式などは要らぬ。<br/><br/>近親者だけ寺へ行って葬式の型をする。<br/><br/> アルコール漬などは非常に間違っている。<br/><br/>霊は嫌がる。<br/><br/> 赤ン坊はよく肩へつかまる。<br/><br/>それで肩が凝る。<br/><br/> 012 流産霊の後祀の場合 妊娠四ケ月以上で流産した場合は、その霊を御祀りしなければならぬと御伺い致しましたが、霊を祀ることを知らずに数年たっている霊を新たに御祀り致しますには、戒名はやはりお寺で作って頂くべきでしょうか。<br/><br/>右御教示御願い申し上げます。<br/><br/> 寺へ頼む。<br/><br/>（S24. 5.23） rattail（注） 〔 御光話（S24年 5月23日） 『御光話録』10号、昭和24(1949)年7月10日発行〕 ――妊娠四カ月以上で流産した場合はその霊を祀るようにとのお言葉でございましたが、知らずに数年経ってしまっている霊を新たにお祀りいたしますにはいかがいたしたらよろしいでしょうか。<br/><br/>戒名はやはりお寺で作っていただくべきでしょうか。<br/><br/> 『そうです、お寺へ頼んで戒名をつけてもらい、お葬式を簡単にやってもらって、小さい位牌をこしらえて、ふつうの死んだ人と同じように祀ればいいんです。<br/><br/>』 013 人工流産霊の祀り 二、三ケ月で人工流産をしました子供を御祀りした方がよろしゅう御座いましょうか。<br/><br/>祀る時は男女の別も判りませんが、どのようにして祀りましたら宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 人工流産の霊は、寧ろ祀るよりお詫びした方がよい。<br/><br/>五ケ月以後は祀らなくてはならぬ。<br/><br/>稀には五ケ月以前のが祟る事がある。<br/><br/>これは祟った時―知らす時祀ればよい。<br/><br/> 五ケ月以後は戒名をもらい、仏事に祀る。<br/><br/>（内輪に）堕胎は殺人である。<br/><br/>（S23.11.21） rattail（注） 〔 御光話（S23年 8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃〕 ――流産の子は何月くらいから祀ったらよろしいでしょう。<br/><br/>また石鹸や歯ブラシは世間並に朝夕使ってもよろしいでしょうか。<br/><br/> 『胎児は五カ月から人間の部に入る。<br/><br/>だから祀らねばならないが、その方法は大人のような葬式はいりません。<br/><br/>よく胎児をアルコール漬にするが、霊はこれを非常に嫌うものです。<br/><br/>よく死んだ赤ん坊の霊が来て母の肩へとまることがありますが、そうすると急に肩が重くなったりします。<br/><br/>石鹸なんか大いに使ってよろしい。<br/><br/>歯ブラシは朝だけでいいでしょう。<br/><br/>また歯ブラシのため歯が悪くなることはない。<br/><br/>みんな薬のためです。<br/><br/>歯を磨くとき、歯よりむしろ肉を磨いたほうがよろしい。<br/><br/>歯ぐきから血が出たりすると歯がしまってきます。<br/><br/>劇しい歯痛は膿が骨に孔をあけるからで、そのときの膿はほとんど薬です。<br/><br/>ほかの場合でも劇痛は薬毒と思って差し支えない。<br/><br/>私の子供は生まれたときから薬を服ませないので痛みなんかほとんどないですね。<br/><br/>鬼歯というのは膿の固まり……毒結があるため歯が曲がって成長するのです。<br/><br/>治ります。<br/><br/>歯磨粉も薬の強いのはいけない。<br/><br/>以前坂井のほうで作っていたでしょう、あれがいいですよ。<br/><br/>』 014 四ケ月流産でも祀る場合 十二歳の女児に祖母の霊が憑りまして、以前に死亡した五人の嬰児の霊を祀るように申しましたが、母親は四人しか記憶にありません。<br/><br/>すると霊は便所へ流産して落した子があるではないかと指摘しました。<br/><br/>そしてその子は今霊界で五人の内最下段の地獄で苦しんでいると申しました。<br/><br/>なるほど言われて見ればその覚えは御座います。<br/><br/>妊娠四ケ月にも満たないものでしたのでちょっと不思議に思われますが、妊娠四ケ月位の子供でも祭る必要のある場合が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 赤子は大体五ケ月としてある。<br/><br/>五ケ月で体は出来上る。<br/><br/>三ケ月で霊子は宿っている。<br/><br/>宿った時から神霊は宿るが、未だ体は出来ぬ。<br/><br/>霊の性格で大変相違がある。<br/><br/>祀ってもらいたいのであるから祀ってやる。<br/><br/>（S23. 9.11）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

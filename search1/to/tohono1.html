@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tohono1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東方の光 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 仏教では、娑婆即寂光之浄土と言う、この寂光という事を有難がっているが、これは大に間違っている。<br><br>なぜなれば、寂光とは寂しい光りである。<br><br>それは、月の光りを指したのである。<br><br>この一事を以てみても、仏教時代は夜の世界であった事が判る。<br><br>故に、陽光の浄土とか、明光の浄土とか言うのが、本当の明かるい世界の事である。<br><br> 昔から、東方観世音菩薩と言い、西方阿弥陀如来と言った。<br><br>観音は、東方の国、即日本から顕（あら）である、又、東方の光の言葉がある。<br><br>これも同じく日本から、光が顕われると言う予言である。<br><br>東から顕われる光は、勿論、太陽である。<br><br>これら一々を考え合せただけでも、観音と東方の光は、日本から出なくてはならない宿命である事が分ろう。<br><br> 大太陽が、一度出ずるや、月は光を失い星は光を潜むるのは当然の天体物質現象である。<br><br>この天体現象によって想像して見ても、今後における事象を判断し得らるるはずである。<br><br> 法華経は、一天四海妙法に帰すと言っている。<br><br>妙の字は、実は、明の字を秘めてあるのである。<br><br>それは、観音が未だ現われていなかったからである。<br><br> 故に、この意味は、一天四海、日月神たる、観音の教に帰すると言う事である。<br><br>即ち、これによって万教は帰一するという予言である。<br><br> 皇太子殿下満御一年の、御誕生日たる昭和九年十二月二十三日の良き日に、第一号を発行した、「東方之光」という、本会の新聞が、全く偶然でない事を知るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Profecia da Luz do Oriente</h2>
 <p>O budismo reverencia o conceito segundo o qual “este mundo é a Terra Pura da Luz Solitária”, valorizando enormemente essa dita “luz solitária”. Todavia, trata-se de um profundo equívoco. A razão é simples: uma luz solitária é, por definição, uma luz melancólica, que se refere ao brilho da lua. Este único fato já nos permite constatar que a era budista foi a Era da Noite. Portanto, a verdadeira descrição de um mundo iluminado seria “Terra Pura da Luz Solar” ou “Terra Pura da Luz Resplandecente”.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Quando o grandioso Sol desponte, a lua perde seu brilho e as estrelas ocultam seu fulgor. Trata-se de um fenômeno astronômico perfeitamente natural. A partir desta analogia cósmica, torna-se possível discernir os acontecimentos vindouros.</p>
 <p>O Sutra do Lótus profetiza que “o mundo inteiro se converterá à Lei Mística”. O ideograma que representa o termo “místico”, na verdade, oculta em sua essência o ideograma para “luz”. A razão para tal segredo é que Kannon (観音) ainda não havia se manifestado. O verdadeiro significado dessa profecia, portanto, é que o mundo inteiro se converterá aos ensinamentos de Kannon (観音), a Divindade do Sol e da Lua. Trata-se, em suma, da predição de que, por meio dela, todas as religiões se unificarão em uma só.</p>
 <p>Nesse sentido, a publicação do primeiro número de nosso periódico, “Luz do Oriente”, ocorreu no auspicioso dia 23 de dezembro de 1934, data do primeiro aniversário de Sua Alteza, o Príncipe Herdeiro. Compreenderão, portanto, que tal fato não constitui, em absoluto, uma mera coincidência.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東方の光 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 仏教では、娑婆即寂光之浄土と言う、この寂光という事を有難がっているが、これは大に間違っている。<br/><br/>なぜなれば、寂光とは寂しい光りである。<br/><br/>それは、月の光りを指したのである。<br/><br/>この一事を以てみても、仏教時代は夜の世界であった事が判る。<br/><br/>故に、陽光の浄土とか、明光の浄土とか言うのが、本当の明かるい世界の事である。<br/><br/> 昔から、東方観世音菩薩と言い、西方阿弥陀如来と言った。<br/><br/>観音は、東方の国、即日本から顕（あら）である、又、東方の光の言葉がある。<br/><br/>これも同じく日本から、光が顕われると言う予言である。<br/><br/>東から顕われる光は、勿論、太陽である。<br/><br/>これら一々を考え合せただけでも、観音と東方の光は、日本から出なくてはならない宿命である事が分ろう。<br/><br/> 大太陽が、一度出ずるや、月は光を失い星は光を潜むるのは当然の天体物質現象である。<br/><br/>この天体現象によって想像して見ても、今後における事象を判断し得らるるはずである。<br/><br/> 法華経は、一天四海妙法に帰すと言っている。<br/><br/>妙の字は、実は、明の字を秘めてあるのである。<br/><br/>それは、観音が未だ現われていなかったからである。<br/><br/> 故に、この意味は、一天四海、日月神たる、観音の教に帰すると言う事である。<br/><br/>即ち、これによって万教は帰一するという予言である。<br/><br/> 皇太子殿下満御一年の、御誕生日たる昭和九年十二月二十三日の良き日に、第一号を発行した、「東方之光」という、本会の新聞が、全く偶然でない事を知るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

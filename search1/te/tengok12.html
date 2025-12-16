@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tengok12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国篇 未発表『文明の創造』昭和27(1952)年執筆 『栄光』137号、昭和27(1952)年1月1日発行に掲載 私は科学篇、宗教篇を次々かいて来たが、これから最後の天国篇をかくのである。<br><br>しかしこの所論は真の意味における前人未説のものであって、文明世界設計の根幹ともなるものであるから、そのつもりで読んで貰いたいのである。<br><br>しかし初めてこれを読む人は、現実とあまりに懸け離れた理想論としか思われまいが、決してそうではない。<br><br>立派な実現性のある事は、読むに従って分かるであろう。<br><br>そもそも、主神の御目的である地上天国を建設する基本条件としては、何よりも大自然の実相そのままを表わす事である。<br><br>というのはいつも言うごとく、宇宙一切の構成は、日月地が根本となっており、この本質が火水土であるから、この三位一体の力によって、万物は生成され、化育され、世界は無限の発展を遂げつつあるのである。<br><br>ところが今日までの霊界は、しばしば説くごとく夜であったがため、日は隠れていたのである。<br><br>つまり月土日の順序となっていた。<br><br>無論これは正しい順序ではないから、これまでの世界は一切に調和が欠け、紊れに乱れて、現在見るがごとき地獄世界を現出したのである。<br><br>これというのも善と悪についてさきに説いたごとく、善悪の軋轢（あつれき）が必要であったからで、全く深甚（しんじん）なる神意に外ならないのである。<br><br>その期間中わずかに宗教によって緩和されて来た事もかいたが、全く釈尊の唱えた苦の娑婆と諦めの言葉も、キリストの贖罪と隣人愛もその意味に外ならなかった。<br><br> ところで私の唱える夜の世界が、昼の世界に転換するという事であるが、本来宇宙の原則としては、日月地の三段階が正しい順序であるにかかわらず、そうでなかったのは前述のごとき意味であったからで、それが今度いよいよ完全の形となるのである。<br><br>言わば世界は百八十度の転換であって、実に空前の一大異変である。<br><br>従って現在の文化形体も一変するのはもちろん、その大綱としては、前述のごとき大自然の形となる以上、一切の機構も三段階になり、分かれて六となり、また分かれて九となる、つまり三六九で、これを縮めればミロクとなる。<br><br>地上天国一名ミロクの世とはこの事である。<br><br>ではミロクの世とは具体的にはどのような世界であるかを、順次説いてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Edificação do Paraíso Terrestre</h2>
 <p>Após ter escrito sucessivamente sobre a Ciência e a Religião, dedico-me agora a redigir o último volume: o do Paraíso. Contudo, esta dissertação é, em seu mais verdadeiro sentido, um ensinamento inédito, que se tornará o alicerce para a concepção de um mundo civilizado. Rogo, portanto, que a leiam sob essa perspectiva. É provável que, em um primeiro contato, o leitor considere estas palavras apenas uma teoria idealista, por demais distante da realidade. Todavia, asseguro que não se trata disso. Sua notável viabilidade se tornará evidente à medida que a leitura avançar.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Proclamo, pois, a transição do Mundo da Noite para o Mundo do Dia. Embora o princípio cósmico estabeleça como ordem correta a sequência Sol, Lua e Terra, a inversão dessa hierarquia ocorreu pelas razões já mencionadas. Agora, finalmente, a forma perfeita será restaurada. Pode-se dizer que o mundo passa por uma conversão de cento e oitenta graus, um acontecimento grandioso e sem precedentes na História.</p>
 <p>Consequentemente, a forma da cultura atual sofrerá uma transformação completa. Em suas linhas gerais, uma vez que assumirá a configuração da Grande Natureza, como já exposto, todas as suas estruturas se organizarão em três estágios. Estes, por sua vez, se desdobrarão em seis e, posteriormente, em nove. Temos, assim, a sequência três-seis-nove, que, em sua abreviação fonética, forma a palavra Miroku. Nisto consiste o Paraíso Terrestre, também conhecido como o Mundo de Miroku.</p>
 <p>Passarei, então, a descrever em detalhes e de forma ordenada como será, concretamente, o Mundo de Miroku.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国篇 未発表『文明の創造』昭和27(1952)年執筆 『栄光』137号、昭和27(1952)年1月1日発行に掲載 私は科学篇、宗教篇を次々かいて来たが、これから最後の天国篇をかくのである。<br/><br/>しかしこの所論は真の意味における前人未説のものであって、文明世界設計の根幹ともなるものであるから、そのつもりで読んで貰いたいのである。<br/><br/>しかし初めてこれを読む人は、現実とあまりに懸け離れた理想論としか思われまいが、決してそうではない。<br/><br/>立派な実現性のある事は、読むに従って分かるであろう。<br/><br/>そもそも、主神の御目的である地上天国を建設する基本条件としては、何よりも大自然の実相そのままを表わす事である。<br/><br/>というのはいつも言うごとく、宇宙一切の構成は、日月地が根本となっており、この本質が火水土であるから、この三位一体の力によって、万物は生成され、化育され、世界は無限の発展を遂げつつあるのである。<br/><br/>ところが今日までの霊界は、しばしば説くごとく夜であったがため、日は隠れていたのである。<br/><br/>つまり月土日の順序となっていた。<br/><br/>無論これは正しい順序ではないから、これまでの世界は一切に調和が欠け、紊れに乱れて、現在見るがごとき地獄世界を現出したのである。<br/><br/>これというのも善と悪についてさきに説いたごとく、善悪の軋轢（あつれき）が必要であったからで、全く深甚（しんじん）なる神意に外ならないのである。<br/><br/>その期間中わずかに宗教によって緩和されて来た事もかいたが、全く釈尊の唱えた苦の娑婆と諦めの言葉も、キリストの贖罪と隣人愛もその意味に外ならなかった。<br/><br/> ところで私の唱える夜の世界が、昼の世界に転換するという事であるが、本来宇宙の原則としては、日月地の三段階が正しい順序であるにかかわらず、そうでなかったのは前述のごとき意味であったからで、それが今度いよいよ完全の形となるのである。<br/><br/>言わば世界は百八十度の転換であって、実に空前の一大異変である。<br/><br/>従って現在の文化形体も一変するのはもちろん、その大綱としては、前述のごとき大自然の形となる以上、一切の機構も三段階になり、分かれて六となり、また分かれて九となる、つまり三六九で、これを縮めればミロクとなる。<br/><br/>地上天国一名ミロクの世とはこの事である。<br/><br/>ではミロクの世とは具体的にはどのような世界であるかを、順次説いてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

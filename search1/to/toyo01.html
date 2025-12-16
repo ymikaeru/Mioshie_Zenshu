@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>toyo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東洋と西洋 『信仰雑話』P.63、昭和23(1948)年9月5日発行 天地間あらゆるものに、陰と陽のある事は誰知らぬ者もない。<br><br>そうして私はこの陰陽を経緯（たてよこ）に別けてみるが、陽は経であり、陰は緯である。<br><br>この経緯を左に分類してみよう。<br><br> 経――日、火、東洋、霊、男、仏教、 赤、山、昼 緯――月、水、西洋、体、女、基（キリスト）教、白、海、夜 以上は概略で、これを解説してみるが、右のごとくあらゆるものに経緯がある。<br><br>例えば東洋は経であるから祖先崇拝であり、忠孝を貴び、子孫に美田を買い、厳然たる階級制度であるに反し、緯の西洋は夫婦愛が基調で隣人愛となり、ついには人類愛にまで発展するというように、緯への無限の広がりである。<br><br>又東洋では男子の絶対権を認め、女性は男子に追随するものとされているが、西洋は女子の権利を認め、男女同権が当然とされている。<br><br> 右のごとく、今日までは東洋は経の線を固持し、西洋は緯の線に満足していた。<br><br>しかしながら、いずれの日かこの経緯の線が結んで、十字の形にならなければならない。<br><br>というのは、東洋の精神文明と西洋の物質文明との結合である。<br><br>この結ぶ事によって、世界人類は初めて理想の文化時代に入るのである。<br><br>キリスト教の十字架はそれの暗示であり、仏教の卍も同様の意味であろう。<br><br> そうして、経は霊で緯は体であるから、これが結んで力の発生となる。<br><br>チカラのチは血で、霊であり、血は人体を経に昇降しているが、カラは殻で体であり、霊の容れ物である。<br><br>故に血である霊が脱出すれば、体は空となるからナキガラといい、肉体をカラダという。<br><br>また人（ヒト）とは言霊学上ヒは霊であり、トは止であるから、霊が止まってヒトとなり、人というのである。<br><br>人間が生きている間は立体であるのは、経である霊の物質化である血が通っているからで、死と共に横体になるのは霊が脱出して、緯である体のみになるからである。<br><br>又人間立体の時は温かく、横臥すれば寒く、夜着を着なければならないのは、霊界においては火素が経に昇降し、水素が緯に流れているからである。<br><br> ここで、十字形について述べたい事がある。<br><br>それは終戦前までの日本は、封建制によってあまりに経となり、階級制が甚だしかった結果、戦争の原因ともなり、人民大衆の苦悩の原因ともなっていた。<br><br>そこで神様は、日本人を民主主義という、よこ緯の力によって救うべくなされたのであるが、これを分かりやすくいえば、経の棒である日本へ、緯の棒である米国式を採り入れ給うた。<br><br>すなわち経と緯が結んで、ここに十字形の文化が呱々の声を挙げたのである。<br><br>この事が分かれば、今度の敗戦は喜ぶべき事であって、実に有難い国になったのであるから、日本人もそのつもりで、将来を楽しみに、世界から仰がれるような立派な国にならなければならない、と私は思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio Vertical e Horizontal</h2>
 <p>É de conhecimento universal que todas as coisas existentes entre o Céu e a Terra possuem os aspectos Yin e Yang. Eu, por minha vez, classifico esses dois princípios em um eixo vertical e um eixo horizontal. Nessa perspectiva, Yang corresponde ao vertical, e Yin, ao horizontal. Permitam-me, pois, apresentar uma classificação destes dois eixos, conforme se segue:</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Enquanto o ser humano está vivo, ele se mantém em uma posição vertical, pois o sangue — a materialização do espírito, que é vertical — flui em seu interior. Com a morte, o espírito se evade, restando apenas o corpo material, horizontal, que então é deitado. Existe ainda outra correspondência: o corpo na vertical é quente, mas, ao se deitar, esfria, necessitando de agasalho. Isso ocorre porque, no Mundo Espiritual, o elemento fogo movimenta-se verticalmente, enquanto o elemento água flui no sentido horizontal.</p>
 <p>A esse respeito, gostaria de tecer algumas considerações sobre a forma da cruz. Até o fim da guerra, o Japão, sob a influência de seu sistema feudal, era excessivamente vertical. A rigidez de sua estrutura hierárquica tornou-se uma das causas do conflito e da imensa aflição imposta ao povo. Foi então que Deus, para salvar o povo japonês, atuou por meio da força horizontal da democracia. Simplificando, Ele introduziu no Japão, o eixo vertical, o modelo americano, que é o eixo horizontal. Dessa forma, o vertical e o horizontal se uniram, e uma nova cultura em forma de cruz nasceu.</p>
 <p>Quem compreende este princípio percebe que a recente derrota do Japão deve ser motivo de alegria. Nossa nação tornou-se, de fato, um país abençoado. Por isso, creio que nós, japoneses, devemos ter essa consciência, olhar com esperança para o futuro e nos esforçar para construir uma nação tão admirável que venha a ser reverenciada por todo o mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東洋と西洋 『信仰雑話』P.63、昭和23(1948)年9月5日発行 天地間あらゆるものに、陰と陽のある事は誰知らぬ者もない。<br/><br/>そうして私はこの陰陽を経緯（たてよこ）に別けてみるが、陽は経であり、陰は緯である。<br/><br/>この経緯を左に分類してみよう。<br/><br/> 経――日、火、東洋、霊、男、仏教、 赤、山、昼 緯――月、水、西洋、体、女、基（キリスト）教、白、海、夜 以上は概略で、これを解説してみるが、右のごとくあらゆるものに経緯がある。<br/><br/>例えば東洋は経であるから祖先崇拝であり、忠孝を貴び、子孫に美田を買い、厳然たる階級制度であるに反し、緯の西洋は夫婦愛が基調で隣人愛となり、ついには人類愛にまで発展するというように、緯への無限の広がりである。<br/><br/>又東洋では男子の絶対権を認め、女性は男子に追随するものとされているが、西洋は女子の権利を認め、男女同権が当然とされている。<br/><br/> 右のごとく、今日までは東洋は経の線を固持し、西洋は緯の線に満足していた。<br/><br/>しかしながら、いずれの日かこの経緯の線が結んで、十字の形にならなければならない。<br/><br/>というのは、東洋の精神文明と西洋の物質文明との結合である。<br/><br/>この結ぶ事によって、世界人類は初めて理想の文化時代に入るのである。<br/><br/>キリスト教の十字架はそれの暗示であり、仏教の卍も同様の意味であろう。<br/><br/> そうして、経は霊で緯は体であるから、これが結んで力の発生となる。<br/><br/>チカラのチは血で、霊であり、血は人体を経に昇降しているが、カラは殻で体であり、霊の容れ物である。<br/><br/>故に血である霊が脱出すれば、体は空となるからナキガラといい、肉体をカラダという。<br/><br/>また人（ヒト）とは言霊学上ヒは霊であり、トは止であるから、霊が止まってヒトとなり、人というのである。<br/><br/>人間が生きている間は立体であるのは、経である霊の物質化である血が通っているからで、死と共に横体になるのは霊が脱出して、緯である体のみになるからである。<br/><br/>又人間立体の時は温かく、横臥すれば寒く、夜着を着なければならないのは、霊界においては火素が経に昇降し、水素が緯に流れているからである。<br/><br/> ここで、十字形について述べたい事がある。<br/><br/>それは終戦前までの日本は、封建制によってあまりに経となり、階級制が甚だしかった結果、戦争の原因ともなり、人民大衆の苦悩の原因ともなっていた。<br/><br/>そこで神様は、日本人を民主主義という、よこ緯の力によって救うべくなされたのであるが、これを分かりやすくいえば、経の棒である日本へ、緯の棒である米国式を採り入れ給うた。<br/><br/>すなわち経と緯が結んで、ここに十字形の文化が呱々の声を挙げたのである。<br/><br/>この事が分かれば、今度の敗戦は喜ぶべき事であって、実に有難い国になったのであるから、日本人もそのつもりで、将来を楽しみに、世界から仰がれるような立派な国にならなければならない、と私は思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

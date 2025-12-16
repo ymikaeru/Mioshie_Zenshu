@@ -1,114 +1,302 @@
 ﻿<html>
-
 <head>
-<meta http-equiv="Content-Type"
-content="text/html; charset=UTF-8">
-<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ichino</title>
-<link rel="stylesheet" type="text/css" href="../../style4.css">
-</head>
-
-<body bgcolor="#E9FEDA">
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="">
-    <input type="hidden" name="config" value="">
-    <div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>――</strong></font>
-            <font size="2" face="HG正楷書体-PRO"><strong> 岡田自観師の論文集 ――</strong>　</font>
-            <font size="2" face="ＭＳ ゴシック"><strong>御教え検索</strong>：</font></p>
-            </td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35" bgcolor="#EFFFE6"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
-        </tr>
-    </table>
-    </div>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font></p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
+</tr>
+</table>
+</div>
 </form>
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="shiryo">
-    <input type="hidden" name="config" value="">
-    <div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35">　</td>
-        </tr>
-    </table>
-    </div>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right"><table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
 </form>
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一の世界 『栄光』111号、昭和26(1951)年7月4日発行 そもそも、現代文明を検討して見る時、その構成は唯物科学が基本であることは言うまでもないが、今それについて詳しくかいてみよう。<br><br> それについてまず知っておかなければならない事は、大宇宙の構成である。<br><br>といっても人間に直接関係のない事は省き、重要な点だけをかいてみるが、本来宇宙なるものは、太陽、月球、地球の三つの原素から成立っている。<br><br>そうしてこの三つの原素とは火、水、土の精で、その現われが霊界、空気界、現象界のこの三つの世界であって、これがよく融合調和されているのが実相である。<br><br>ところが今日まではこの三原素中の二原素である空気界と現象界（物質界）だけが判っていたばかりで、この二原素の外に今一つの霊界なるものの在る事が分っていなかったのである。<br><br>というのは唯物科学では、全然把握する事が出来なかったからである。<br><br>従って、右の二つだけの進歩によって出来たのが、現在のごとき唯物文化であるから、つまり三分の二だけの文化という訳である。<br><br> ところが何ぞ知らん、この無とされて来た三分の一の霊界こそ、実は二と三を二つ合せたよりも重要な、基本的力の中心であるから、これを無視しては完全な文明は生まれるはずはないのである。<br><br>何よりも二つの文化がこれほど発達したにかかわらず、人類唯一の欲求である幸福が、それに伴わないのがよくそれを示している。<br><br>従って今この矛盾の根本を充分検討してみると、これには深い理由のある事を発見するのである。<br><br>というのはもし人類が、初めから一の霊界のある事を知ったとしたら、物質文明は今日のごとく、素晴しい発達を遂げ得なかったに違いない。<br><br>何となれば霊界を無視したればこそ、無神思想が生まれ、その思想から悪が発生し、その結果善と悪との闘争となり、人類は苦悩に苛（さいな）まれつつ、ついに唯物文化の発達を余儀なくさせられたからである。<br><br>これを深く考えれば、全く深甚なる神の経綸でなくて何であろう。<br><br>ところが物質文化がある程度発達するや、それ以上は反って文化の破綻（はたん）を来すおそれが生じて来た。<br><br>何よりも彼の原子爆弾の発見で、もちろんこれもその一つの表われではあるが、ここに到っては最早文化の進歩に対し、一大転換が行われなければならない天の時となったのである。<br><br>その第一歩として、無とされていた一の霊界の存在を普（あまね）く人類に明示される事となった。<br><br>といっても無の存在である以上、その方法たるや、科学では無論不可能である。<br><br>そこでいまだかつて人類の経験にない程の偉大なる力の発揮である。<br><br>すなわち神の力である。<br><br>ところが長い間唯物主観に固まっていた現代人であるから、納得させるには非常な困難が伴うのであるが、これに対し本教が行う唯一の方法としての奇蹟がある。<br><br>すなわち本教の浄霊法こそそれである。<br><br>これによっていかなる無神論者といえども、一挙に承服せずには措（お）かないからである。<br><br>従ってこの事が普く人類社会に知れ亘（わた）るにおいては、世界共通の真文明が生まれんとして、現代文化は百八十度の転換を、余儀なくされるであろう。<br><br> ところがここに残された厄介な問題がある。<br><br>それは何千何万年も掛って、今日のごとき文化を作り上げたのであるから、これまでにはいかに多くの罪悪が行われたか分らない。<br><br>罪悪とはもちろん霊体の汚穢で、それが溜り溜っている以上、このままでは新世界建設に障碍（しょうがい）となる。<br><br>ちょうど家を建てる場合、木屑、鉋屑（かんなくず）、その他種々の塵芥（ちりあくた）が散らばっているようなものであるから、ここにその清浄作用が行われなければならないが、これもまた止むを得ないのである。<br><br>キリストの最後の審判とはこれをいわれたのであろう。<br><br> 以上によっても判るごとく、本教が素晴しい奇蹟を数限りなく現わしているこの事実こそ、一の世界の存在を認識させるための、神の御計画でなくて何であろう。<br><br>そうして神は私にこの大任を荷（にな）わせ給うたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
-    <p><font size="4" face="ＭＳ ゴシック"><strong>一の世界</strong><br>
-    </font><font size="3" face="ＭＳ ゴシック"><br>
-    『栄光』111号、昭和26(1951)年7月4日発行<br>
-    <br>
-    　そもそも、現代文明を検討して見る時、その構成は唯物科学が基本であることは言うまでもないが、今それについて詳しくかいてみよう。<br>
-    　それについてまず知っておかなければならない事は、大宇宙の構成である。といっても人間に直接関係のない事は省き、重要な点だけをかいてみるが、本来宇宙なるものは、太陽、月球、地球の三つの原素から成立っている。そうしてこの三つの原素とは火、水、土の精で、その現われが霊界、空気界、現象界のこの三つの世界であって、これがよく融合調和されているのが実相である。ところが今日まではこの三原素中の二原素である空気界と現象界（物質界）だけが判っていたばかりで、この二原素の外に今一つの霊界なるものの在る事が分っていなかったのである。というのは唯物科学では、全然把握する事が出来なかったからである。従って、右の二つだけの進歩によって出来たのが、現在のごとき唯物文化であるから、つまり三分の二だけの文化という訳である。<br>
-    　ところが何ぞ知らん、この無とされて来た三分の一の霊界こそ、実は二と三を二つ合せたよりも重要な、基本的力の中心であるから、これを無視しては完全な文明は生まれるはずはないのである。何よりも二つの文化がこれほど発達したにかかわらず、人類唯一の欲求である幸福が、それに伴わないのがよくそれを示している。従って今この矛盾の根本を充分検討してみると、これには深い理由のある事を発見するのである。というのはもし人類が、初めから一の霊界のある事を知ったとしたら、物質文明は今日のごとく、素晴しい発達を遂げ得なかったに違いない。何となれば霊界を無視したればこそ、無神思想が生まれ、その思想から悪が発生し、その結果善と悪との闘争となり、人類は苦悩に苛（さいな）まれつつ、ついに唯物文化の発達を余儀なくさせられたからである。これを深く考えれば、全く深甚なる神の経綸でなくて何であろう。ところが物質文化がある程度発達するや、それ以上は反って文化の破綻（はたん）を来すおそれが生じて来た。何よりも彼の原子爆弾の発見で、もちろんこれもその一つの表われではあるが、ここに到っては最早文化の進歩に対し、一大転換が行われなければならない天の時となったのである。その第一歩として、無とされていた一の霊界の存在を普（あまね）く人類に明示される事となった。といっても無の存在である以上、その方法たるや、科学では無論不可能である。そこでいまだかつて人類の経験にない程の偉大なる力の発揮である。すなわち神の力である。ところが長い間唯物主観に固まっていた現代人であるから、納得させるには非常な困難が伴うのであるが、これに対し本教が行う唯一の方法としての奇蹟がある。すなわち本教の浄霊法こそそれである。これによっていかなる無神論者といえども、一挙に承服せずには措（お）かないからである。従ってこの事が普く人類社会に知れ亘（わた）るにおいては、世界共通の真文明が生まれんとして、現代文化は百八十度の転換を、余儀なくされるであろう。<br>
-    　ところがここに残された厄介な問題がある。それは何千何万年も掛って、今日のごとき文化を作り上げたのであるから、これまでにはいかに多くの罪悪が行われたか分らない。罪悪とはもちろん霊体の汚穢で、それが溜り溜っている以上、このままでは新世界建設に障碍（しょうがい）となる。ちょうど家を建てる場合、木屑、鉋屑（かんなくず）、その他種々の塵芥（ちりあくた）が散らばっているようなものであるから、ここにその清浄作用が行われなければならないが、これもまた止むを得ないのである。キリストの最後の審判とはこれをいわれたのであろう。<br>
-    　以上によっても判るごとく、本教が素晴しい奇蹟を数限りなく現わしているこの事実こそ、一の世界の存在を認識させるための、神の御計画でなくて何であろう。そうして神は私にこの大任を荷（にな）わせ給うたのである。<br>
-    <br>
-    <br>
-    <br>
-    </font></p>
+<p><font face="ＭＳ ゴシック" size="4"><strong>一の世界</strong><br/>
+</font><font face="ＭＳ ゴシック" size="3"><br/>
+    『栄光』111号、昭和26(1951)年7月4日発行<br/>
+<br/>
+    　そもそも、現代文明を検討して見る時、その構成は唯物科学が基本であることは言うまでもないが、今それについて詳しくかいてみよう。<br/>
+    　それについてまず知っておかなければならない事は、大宇宙の構成である。といっても人間に直接関係のない事は省き、重要な点だけをかいてみるが、本来宇宙なるものは、太陽、月球、地球の三つの原素から成立っている。そうしてこの三つの原素とは火、水、土の精で、その現われが霊界、空気界、現象界のこの三つの世界であって、これがよく融合調和されているのが実相である。ところが今日まではこの三原素中の二原素である空気界と現象界（物質界）だけが判っていたばかりで、この二原素の外に今一つの霊界なるものの在る事が分っていなかったのである。というのは唯物科学では、全然把握する事が出来なかったからである。従って、右の二つだけの進歩によって出来たのが、現在のごとき唯物文化であるから、つまり三分の二だけの文化という訳である。<br/>
+    　ところが何ぞ知らん、この無とされて来た三分の一の霊界こそ、実は二と三を二つ合せたよりも重要な、基本的力の中心であるから、これを無視しては完全な文明は生まれるはずはないのである。何よりも二つの文化がこれほど発達したにかかわらず、人類唯一の欲求である幸福が、それに伴わないのがよくそれを示している。従って今この矛盾の根本を充分検討してみると、これには深い理由のある事を発見するのである。というのはもし人類が、初めから一の霊界のある事を知ったとしたら、物質文明は今日のごとく、素晴しい発達を遂げ得なかったに違いない。何となれば霊界を無視したればこそ、無神思想が生まれ、その思想から悪が発生し、その結果善と悪との闘争となり、人類は苦悩に苛（さいな）まれつつ、ついに唯物文化の発達を余儀なくさせられたからである。これを深く考えれば、全く深甚なる神の経綸でなくて何であろう。ところが物質文化がある程度発達するや、それ以上は反って文化の破綻（はたん）を来すおそれが生じて来た。何よりも彼の原子爆弾の発見で、もちろんこれもその一つの表われではあるが、ここに到っては最早文化の進歩に対し、一大転換が行われなければならない天の時となったのである。その第一歩として、無とされていた一の霊界の存在を普（あまね）く人類に明示される事となった。といっても無の存在である以上、その方法たるや、科学では無論不可能である。そこでいまだかつて人類の経験にない程の偉大なる力の発揮である。すなわち神の力である。ところが長い間唯物主観に固まっていた現代人であるから、納得させるには非常な困難が伴うのであるが、これに対し本教が行う唯一の方法としての奇蹟がある。すなわち本教の浄霊法こそそれである。これによっていかなる無神論者といえども、一挙に承服せずには措（お）かないからである。従ってこの事が普く人類社会に知れ亘（わた）るにおいては、世界共通の真文明が生まれんとして、現代文化は百八十度の転換を、余儀なくされるであろう。<br/>
+    　ところがここに残された厄介な問題がある。それは何千何万年も掛って、今日のごとき文化を作り上げたのであるから、これまでにはいかに多くの罪悪が行われたか分らない。罪悪とはもちろん霊体の汚穢で、それが溜り溜っている以上、このままでは新世界建設に障碍（しょうがい）となる。ちょうど家を建てる場合、木屑、鉋屑（かんなくず）、その他種々の塵芥（ちりあくた）が散らばっているようなものであるから、ここにその清浄作用が行われなければならないが、これもまた止むを得ないのである。キリストの最後の審判とはこれをいわれたのであろう。<br/>
+    　以上によっても判るごとく、本教が素晴しい奇蹟を数限りなく現わしているこの事実こそ、一の世界の存在を認識させるための、神の御計画でなくて何であろう。そうして神は私にこの大任を荷（にな）わせ給うたのである。<br/>
+<br/>
+<br/>
+<br/>
+</font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一の世界 『栄光』111号、昭和26(1951)年7月4日発行 そもそも、現代文明を検討して見る時、その構成は唯物科学が基本であることは言うまでもないが、今それについて詳しくかいてみよう。<br/><br/> それについてまず知っておかなければならない事は、大宇宙の構成である。<br/><br/>といっても人間に直接関係のない事は省き、重要な点だけをかいてみるが、本来宇宙なるものは、太陽、月球、地球の三つの原素から成立っている。<br/><br/>そうしてこの三つの原素とは火、水、土の精で、その現われが霊界、空気界、現象界のこの三つの世界であって、これがよく融合調和されているのが実相である。<br/><br/>ところが今日まではこの三原素中の二原素である空気界と現象界（物質界）だけが判っていたばかりで、この二原素の外に今一つの霊界なるものの在る事が分っていなかったのである。<br/><br/>というのは唯物科学では、全然把握する事が出来なかったからである。<br/><br/>従って、右の二つだけの進歩によって出来たのが、現在のごとき唯物文化であるから、つまり三分の二だけの文化という訳である。<br/><br/> ところが何ぞ知らん、この無とされて来た三分の一の霊界こそ、実は二と三を二つ合せたよりも重要な、基本的力の中心であるから、これを無視しては完全な文明は生まれるはずはないのである。<br/><br/>何よりも二つの文化がこれほど発達したにかかわらず、人類唯一の欲求である幸福が、それに伴わないのがよくそれを示している。<br/><br/>従って今この矛盾の根本を充分検討してみると、これには深い理由のある事を発見するのである。<br/><br/>というのはもし人類が、初めから一の霊界のある事を知ったとしたら、物質文明は今日のごとく、素晴しい発達を遂げ得なかったに違いない。<br/><br/>何となれば霊界を無視したればこそ、無神思想が生まれ、その思想から悪が発生し、その結果善と悪との闘争となり、人類は苦悩に苛（さいな）まれつつ、ついに唯物文化の発達を余儀なくさせられたからである。<br/><br/>これを深く考えれば、全く深甚なる神の経綸でなくて何であろう。<br/><br/>ところが物質文化がある程度発達するや、それ以上は反って文化の破綻（はたん）を来すおそれが生じて来た。<br/><br/>何よりも彼の原子爆弾の発見で、もちろんこれもその一つの表われではあるが、ここに到っては最早文化の進歩に対し、一大転換が行われなければならない天の時となったのである。<br/><br/>その第一歩として、無とされていた一の霊界の存在を普（あまね）く人類に明示される事となった。<br/><br/>といっても無の存在である以上、その方法たるや、科学では無論不可能である。<br/><br/>そこでいまだかつて人類の経験にない程の偉大なる力の発揮である。<br/><br/>すなわち神の力である。<br/><br/>ところが長い間唯物主観に固まっていた現代人であるから、納得させるには非常な困難が伴うのであるが、これに対し本教が行う唯一の方法としての奇蹟がある。<br/><br/>すなわち本教の浄霊法こそそれである。<br/><br/>これによっていかなる無神論者といえども、一挙に承服せずには措（お）かないからである。<br/><br/>従ってこの事が普く人類社会に知れ亘（わた）るにおいては、世界共通の真文明が生まれんとして、現代文化は百八十度の転換を、余儀なくされるであろう。<br/><br/> ところがここに残された厄介な問題がある。<br/><br/>それは何千何万年も掛って、今日のごとき文化を作り上げたのであるから、これまでにはいかに多くの罪悪が行われたか分らない。<br/><br/>罪悪とはもちろん霊体の汚穢で、それが溜り溜っている以上、このままでは新世界建設に障碍（しょうがい）となる。<br/><br/>ちょうど家を建てる場合、木屑、鉋屑（かんなくず）、その他種々の塵芥（ちりあくた）が散らばっているようなものであるから、ここにその清浄作用が行われなければならないが、これもまた止むを得ないのである。<br/><br/>キリストの最後の審判とはこれをいわれたのであろう。<br/><br/> 以上によっても判るごとく、本教が素晴しい奇蹟を数限りなく現わしているこの事実こそ、一の世界の存在を認識させるための、神の御計画でなくて何であろう。<br/><br/>そうして神は私にこの大任を荷（にな）わせ給うたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

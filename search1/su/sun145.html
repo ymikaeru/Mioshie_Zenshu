@@ -5,8 +5,209 @@
 <title>sun145</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,61 +242,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光145号) 『栄光』145号、昭和27(1952)年2月27日発行 ◇今度新政党、改進党が出来たが改進の進の字は間違いだろう。<br><br>本当は心という字で、いよいよ改心したという訳だから、お次は謝罪党と改名するだろう。<br><br>と言うとイヤその名はすでに出来てるよ、知らないかソレ、アノー謝罪党だ。<br><br>オット違った、社会党だった ◇今度出来た改進党は頭の無い政党だなどと色々悪口を言われるが心配する事はないよ。<br><br>頭なんが無い方がいいんだよ。<br><br>その代り何でも掴める大きな手さえありゃいいんだ。<br><br>どうじゃ分ったろう ◇農業特輯号を見た百姓君。<br><br>ヒャアーオッタマゲタだよ。<br><br>コネーナ馬鹿気た事が、この世の中にアリヤスケー、といって目を白黒、一体（テイ）このメシヤ教チューのは、ドゲーナ宗教ダンベー、何じゃと名前（メイ）の通りメシヤもしているチューのケー、だから米の事が人一倍（ベー）気になるんだんべー、すんじゃ、今年からハアー、チットンベー、儂らもやってみべーかと、鍬をオッとるだけで、それで日本の食糧問題解決さ、分ったか、糞ッ垂野郎じゃない、糞ブッ掛け野郎共 ◇今度、結核信仰療法の本を出す事になったが、これを読んだら世界中のお医者さん、みんな吃驚して引ッ繰返って気絶する事請合だ。<br><br>そこで入院中の患者は全部退院させるに違いないから、その建物を何に使おうかと、拙者は今考え中だが、諸君その使い途（みち）を考えて投書して呉れ給え、ただし懸賞付で、一等一億円やるが、信者は直ぐ献金するだろうから、その手数を省いて拳骨で済ましておこうよ
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>Surgiu um novo partido político, o Partido da Reforma. Contudo, creio que o termo "Reforma" esteja equivocado. O correto seria "Reforma Íntima", pois finalmente seus membros parecem ter se arrependido. Nesse sentido, o próximo passo seria, naturalmente, rebatizá-lo para "Partido da Retratação". Alguém poderia objetar: "Mas esse nome já existe!". Ah, sim... O Partido da Retratação. Perdoem-me, confundi-o com o Partido Social. A semelhança sonora é notável.</p>
 <p>Dizem por aí que o recém-formado Partido da Reforma é uma sigla "sem cabeça", entre outras tantas maledicências. Todavia, não há motivo para preocupação. É até preferível que não tenha cabeça. Em seu lugar, basta que possua mãos bem grandes, capazes de agarrar o que quer que seja. Compreenderam a essência da questão?</p>
 <p>Ao ler a edição especial sobre agricultura, o lavrador reage: "Minha nossa, que espanto! Como pode existir algo tão absurdo neste mundo?". Perplexo, ele se questiona: "Afinal, que religião é essa, a Igreja Messiânica? Ah, pelo que vejo, seu interesse pelo arroz é genuíno e profundo! Pois bem, sendo assim, a partir deste ano, talvez devêssemos experimentar um pouco". Basta que os agricultores empunhem suas enxadas com essa nova convicção, e o problema alimentar do Japão estará resolvido. Entenderam? Deixem de ser meros homens do campo para se tornarem nobres aplicadores de adubo!</p>
 <p>Decidimos publicar um livro sobre a terapêutica da tuberculose pela fé. Garanto-lhes que, ao lê-lo, os médicos do mundo inteiro ficarão tão estarrecidos que cairão para trás, desmaiados. Consequentemente, não tenho dúvida de que darão alta a todos os pacientes internados. Diante disso, já estou a ponderar sobre qual destino dar a tantos edifícios hospitalares que ficarão vagos. Proponho que os senhores pensem em uma finalidade e me enviem suas sugestões. Haverá um prêmio, naturalmente: o primeiro lugar receberá cem milhões de ienes. Contudo, como sei que os membros imediatamente doariam o valor recebido, pouparemos esse transtorno. Deixemos o prêmio de lado e celebremos com um gesto de reconhecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光145号) 『栄光』145号、昭和27(1952)年2月27日発行 ◇今度新政党、改進党が出来たが改進の進の字は間違いだろう。<br/><br/>本当は心という字で、いよいよ改心したという訳だから、お次は謝罪党と改名するだろう。<br/><br/>と言うとイヤその名はすでに出来てるよ、知らないかソレ、アノー謝罪党だ。<br/><br/>オット違った、社会党だった ◇今度出来た改進党は頭の無い政党だなどと色々悪口を言われるが心配する事はないよ。<br/><br/>頭なんが無い方がいいんだよ。<br/><br/>その代り何でも掴める大きな手さえありゃいいんだ。<br/><br/>どうじゃ分ったろう ◇農業特輯号を見た百姓君。<br/><br/>ヒャアーオッタマゲタだよ。<br/><br/>コネーナ馬鹿気た事が、この世の中にアリヤスケー、といって目を白黒、一体（テイ）このメシヤ教チューのは、ドゲーナ宗教ダンベー、何じゃと名前（メイ）の通りメシヤもしているチューのケー、だから米の事が人一倍（ベー）気になるんだんべー、すんじゃ、今年からハアー、チットンベー、儂らもやってみべーかと、鍬をオッとるだけで、それで日本の食糧問題解決さ、分ったか、糞ッ垂野郎じゃない、糞ブッ掛け野郎共 ◇今度、結核信仰療法の本を出す事になったが、これを読んだら世界中のお医者さん、みんな吃驚して引ッ繰返って気絶する事請合だ。<br/><br/>そこで入院中の患者は全部退院させるに違いないから、その建物を何に使おうかと、拙者は今考え中だが、諸君その使い途（みち）を考えて投書して呉れ給え、ただし懸賞付で、一等一億円やるが、信者は直ぐ献金するだろうから、その手数を省いて拳骨で済ましておこうよ</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

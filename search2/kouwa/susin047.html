@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>susin047</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 ４ 047-055 兄花姫 047 光明如来・弥勒・兄花の意義、大日如来と観音 兄の花とはどういう意味でしょうか。<br><br> 観音様が、位が一段高くなると光明如来になられ、光明如来を尊称して大光明如来と申し上る。<br><br>光明は「火と水」である。<br><br> 大日如来は天照大神が仏界へ表われ給うた時の御名である。<br><br>太陽の表現神であるから日の神になる。<br><br> 大日如来の方が御位は上であるが、働きは光明如来様の方が広い。<br><br>神様にすると、伊都能売神となる。<br><br>――火と水のお働きであるから、火と水は光明になり、霊的のお働きであるが、それに土のお働きが加わる。<br><br>これが三位一体で、弥勒の神となる。<br><br> 光明如来は今働いておられる。<br><br>暫く経つと弥勒の働きとなる。<br><br>すると力が強くなる。<br><br>邪神も邪魔が出来ぬ。<br><br>今では邪神が発展を妨げようと大活躍している。<br><br> 兄の花は梅の花――男である。<br><br>一番先に咲くから、すべての花の兄――長男になる。<br><br> 木の花は桜で、女である。<br><br>花の王としてある。<br><br>ただ花といえば桜の事である。<br><br> 兄の花は位からいって上である。<br><br> 048 兄花姫と木花咲爺姫の真義 兄の花姫尊はお観音様とうけたまわっておりますが、御讃歌には木の花咲爺姫と御座いますが、木の花姫は釈迦とうけたまわっておりますが、どちらが正しいのでしょうか。<br><br>御伺い申し上げます。<br><br> （これも間違いであろう） 木花咲爺姫尊は仏教で、仏教は桜の花になる。<br><br>兄花姫尊は梅の花になる。<br><br>どちらも観音である。<br><br>木花咲爺姫は仏界のお働きになる。<br><br> 釈迦時代の観音様は桜の花のお働きになり、今度の観音様のお働きは、梅の花のお働きになる。<br><br>故に梅の花の時のは実るのである。<br><br>（S23.10.19） 049 兄の花と木の花のお働き、富士の御守護 『東海の芙蓉の峰に時待ちし木の花姫は観音に在せり』と御讃歌に御座いますが、木の花姫尊は今日までいかなる御働きをなさったので御座いましょうか。<br><br>また「木の花姫」と書きます場合と「兄の花姫」の場合と御座いますが、何か意味の相違が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 木の花姫は木花咲爺姫で、兄花は神のお働きである。<br><br>今迄は富士山の頂上に祭られ、日本中の御守護をされていた。<br><br>これは実に偉大なものである。<br><br>日本の中心は富士であり、富士の中心の上でなくては全体の御守護は出来ぬ。<br><br>であるから、伊勢よりズーッと大きい御守護をされた。<br><br>一番動かぬのが一番大きい働きで、それは支配であり、頭脳である。<br><br>共産党などは手足であり労働階級である。<br><br> 木の花は桜で、仏界のあった時のお働きが木の花で、即ち夜の世界の間のお働きである。<br><br> 仏界はすべて桜の花を使う。<br><br>兄の花は梅になる。<br><br>仏が済んで神様のお働きの時、兄の花となる。<br><br>（S24. 7.22） 050 兄花姫尊と乙姫の史実、（主と立、乙姫の領有） 乙姫様と木の花姫との御関係―― 叔母、姪の関係である。<br><br> 木の花姫は十八、九才位の美しい神様であり、兄花姫は極く古い時代に生れられた。<br><br>その御子が○○（ある神様）で、その何番目かのお子さんの奥様が乙姫で、音米姫ともいう。<br><br>木の花姫は大森にいた時見た人がある。<br><br> 兄花姫は観音の化身であり、木花咲爺姫は仏界の表われで、やはり観音である。<br><br>富士山の中途に皇后の神社があったが、富士山には木花咲爺姫皇后の御殿があったといい、おかくれになってから頂上へお祭りした。<br><br>兄花姫は、素盞嗚尊に圧迫され、一切を素盞嗚尊に渡さなくてはならぬ事となった。<br><br>素盞嗚尊は自分がそれを握って乙姫に保管せしめた。<br><br>乙姫は物欲の強い方で、あらゆる金銀財宝を集め、天下の実権を握った。<br><br>極東、日本と朝鮮位は領有したかと思う。<br><br>その間観世音は隠退せられ、乙姫の世を客観されたのである。<br><br>霊界では何千年間、現界でも――両方で隠退されたのである。<br><br> 乙姫は龍神となり、龍宮海にいた。<br><br>丹後、高砂沖の冠島、沓島の間に龍宮があり、そこに乙姫が住んでいるという。<br><br>生きている時は朝鮮にいた。<br><br> 主は神の形、これをくずすと立となる。<br><br>―― 一をバラバラにするとリウウとなる。<br><br>即ち龍。<br><br> 日 月 地 主 日 月 地 ヽ ＋ 王 ＝ 主 立正は立は龍、正は一を止む、神を止める。<br><br>龍が神を止める。<br><br>すると世の中は暗黒となる。<br><br> 観自在菩薩――印度は大自在天が治めた。<br><br>（S24. 2.22） 051 木花咲爺姫の御姿、（明主様富士御登山）、松竹梅 観世音――。<br><br> 兄の花姫は梅。<br><br>木花咲爺姫命は桜になる。<br><br>十八才位である。<br><br> 大先生が富士からお帰りになった時一緒に帰られた。<br><br>洋間でヒョイとみた書生がある。<br><br>十二単衣着けられた十八、九才の女神様で、かんざしを着けた素晴しく綺麗な御方であらせられたという。<br><br>これが木花咲爺姫である。<br><br>観音様は印度へ表われたお姿である。<br><br>木花姫は日本へ表われられる。<br><br> 日本 日 松 支那 土 梅 朝鮮 月 竹 松は日本で一番古い木であり、梅や桜は支那から来たもので、竹は、朝鮮から来たものである。<br><br> ナは、ナり成る。<br><br>地という事。<br><br>地の完成。<br><br>シ――枝。<br><br> 地球は未完成である。<br><br>地震の後には、必ず地面が低くなる。<br><br> バラモン――観音様神力に頭を下げた。<br><br> 観音の下で釈迦は七年、九年、十一年諸説あるも、七年修行した。<br><br> 印度一番偉神と選んだのが自在天。<br><br>（S23. 7. 3） 052 桜と松の神、（松、柳の植え場所） 木の花咲爺姫が桜、兄の花姫は梅と承っておりますが、松はどなたを表象しておりますので御座居ましょうか。<br><br> 松とは関係ない。<br><br>松竹梅の梅にはめればいえる。<br><br>これはまた違う。<br><br> 竹は朝鮮が本元で、梅は支那から移植したものである。<br><br> 兄花姫は神、木花咲爺姫は仏で、両方共観音様である。<br><br>厳密にいえば、神と仏になる。<br><br> 松は日本で、木の王、木の龍神になる。<br><br> 松は男龍、柳は女龍であるから、左に松、右に柳を植えるといい。<br><br>三十三間堂柳のお龍というが、松も柳もコケは龍の膚である。<br><br> 獣の龍は馬で、龍馬という。<br><br>（S23. 8. 4） 053 木の花と兄の花、梅と桜の御働き 観音様は男性で御座いましょうか。<br><br>また、木の花姫について、また『木の花の香りも高き富士ケ嶺の宮居は今も忘れ難なき』とございますが、木の花姫は富士に宮居を建ててお住まいになった事がありましょうか。<br><br> 浅間神社は兄の花姫を祭る。<br><br> 仏界――観世音菩薩――桜――木花姫 兄の花――梅 夜の間は仏界で、観音様は木の花姫であった。<br><br> 仏界から神界へ行かれる時、兄の花姫とならる。<br><br>今丁度その時である。<br><br>（S23） 054 木花と兄花、（梅と桜） 木の花姫と兄の花姫の御違いを御伺い申し上げます。<br><br> 木の花姫――桜の事。<br><br>兄花姫――梅の事。<br><br> 歌など木の花といえば桜になる。<br><br>富士山に祭ってある御神体は、桜を持っている。<br><br> 055 梅と桜（開と散の例へ）、松は万木の元 桜は花の王で、印度に関係がある。<br><br>四月八日の花の日――などという。<br><br> 兄の花は梅で、梅は万花に魁けて咲くから、兄になる。<br><br> 神様の方からいうと、桜というものはパッと咲いてたちまち散る。<br><br>パッと散る意味である。<br><br> 仏教の華を咲かす、これが妙法蓮華経になる。<br><br>これはパッと咲く意味である。<br><br> 梅は、長い間苦労して花を咲かす意味である。<br><br>「三千世界一度に開く梅の花、梅で開いて松で治める」という事がある。<br><br>梅はそういう意味に例えてあり、五大洲の形だともいうが、そういう深い意味はないと思う。<br><br> 梅は支那から来たもので、松は古い時代からある。<br><br> 木の公を一字にして松になる。<br><br>万木の元という事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>047 O significado de Nyorai da Luz, Miroku e Ane-no-hana; Nyorai Dainiti e Kannon</h2>
 <p>Qual o significado de Ane-no-hana (兄の花)?</p>
@@ -147,5 +299,48 @@ Analisando o termo “Risshō” (立正), “ritsu” (立) é o dragão, e “
 <p>A ameixeira, em contrapartida, simboliza o florescimento que advém após um longo período de dificuldades. Há um ditado que diz: “As flores de ameixeira que desabrocham de uma só vez nos três mil mundos. Com a ameixeira se inicia, com o pinheiro se consolida”. A ameixeira é utilizada como uma analogia para esse profundo significado. Diz-se também que sua flor representa o formato dos cinco continentes, mas não creio que seu significado seja tão profundo.</p>
 <p>A ameixeira veio da China, enquanto o pinheiro existe no Japão desde tempos remotos.</p>
 <p>O ideograma para pinheiro, 松 (matsu), é formado pela união dos ideogramas 木 (ki – árvore) e 公 (kou – duque). Ou seja, “o duque das árvores” em um só caractere. Isso significa que ele é a origem de todas as árvores.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 ４ 047-055 兄花姫 047 光明如来・弥勒・兄花の意義、大日如来と観音 兄の花とはどういう意味でしょうか。<br/><br/> 観音様が、位が一段高くなると光明如来になられ、光明如来を尊称して大光明如来と申し上る。<br/><br/>光明は「火と水」である。<br/><br/> 大日如来は天照大神が仏界へ表われ給うた時の御名である。<br/><br/>太陽の表現神であるから日の神になる。<br/><br/> 大日如来の方が御位は上であるが、働きは光明如来様の方が広い。<br/><br/>神様にすると、伊都能売神となる。<br/><br/>――火と水のお働きであるから、火と水は光明になり、霊的のお働きであるが、それに土のお働きが加わる。<br/><br/>これが三位一体で、弥勒の神となる。<br/><br/> 光明如来は今働いておられる。<br/><br/>暫く経つと弥勒の働きとなる。<br/><br/>すると力が強くなる。<br/><br/>邪神も邪魔が出来ぬ。<br/><br/>今では邪神が発展を妨げようと大活躍している。<br/><br/> 兄の花は梅の花――男である。<br/><br/>一番先に咲くから、すべての花の兄――長男になる。<br/><br/> 木の花は桜で、女である。<br/><br/>花の王としてある。<br/><br/>ただ花といえば桜の事である。<br/><br/> 兄の花は位からいって上である。<br/><br/> 048 兄花姫と木花咲爺姫の真義 兄の花姫尊はお観音様とうけたまわっておりますが、御讃歌には木の花咲爺姫と御座いますが、木の花姫は釈迦とうけたまわっておりますが、どちらが正しいのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> （これも間違いであろう） 木花咲爺姫尊は仏教で、仏教は桜の花になる。<br/><br/>兄花姫尊は梅の花になる。<br/><br/>どちらも観音である。<br/><br/>木花咲爺姫は仏界のお働きになる。<br/><br/> 釈迦時代の観音様は桜の花のお働きになり、今度の観音様のお働きは、梅の花のお働きになる。<br/><br/>故に梅の花の時のは実るのである。<br/><br/>（S23.10.19） 049 兄の花と木の花のお働き、富士の御守護 『東海の芙蓉の峰に時待ちし木の花姫は観音に在せり』と御讃歌に御座いますが、木の花姫尊は今日までいかなる御働きをなさったので御座いましょうか。<br/><br/>また「木の花姫」と書きます場合と「兄の花姫」の場合と御座いますが、何か意味の相違が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 木の花姫は木花咲爺姫で、兄花は神のお働きである。<br/><br/>今迄は富士山の頂上に祭られ、日本中の御守護をされていた。<br/><br/>これは実に偉大なものである。<br/><br/>日本の中心は富士であり、富士の中心の上でなくては全体の御守護は出来ぬ。<br/><br/>であるから、伊勢よりズーッと大きい御守護をされた。<br/><br/>一番動かぬのが一番大きい働きで、それは支配であり、頭脳である。<br/><br/>共産党などは手足であり労働階級である。<br/><br/> 木の花は桜で、仏界のあった時のお働きが木の花で、即ち夜の世界の間のお働きである。<br/><br/> 仏界はすべて桜の花を使う。<br/><br/>兄の花は梅になる。<br/><br/>仏が済んで神様のお働きの時、兄の花となる。<br/><br/>（S24. 7.22） 050 兄花姫尊と乙姫の史実、（主と立、乙姫の領有） 乙姫様と木の花姫との御関係―― 叔母、姪の関係である。<br/><br/> 木の花姫は十八、九才位の美しい神様であり、兄花姫は極く古い時代に生れられた。<br/><br/>その御子が○○（ある神様）で、その何番目かのお子さんの奥様が乙姫で、音米姫ともいう。<br/><br/>木の花姫は大森にいた時見た人がある。<br/><br/> 兄花姫は観音の化身であり、木花咲爺姫は仏界の表われで、やはり観音である。<br/><br/>富士山の中途に皇后の神社があったが、富士山には木花咲爺姫皇后の御殿があったといい、おかくれになってから頂上へお祭りした。<br/><br/>兄花姫は、素盞嗚尊に圧迫され、一切を素盞嗚尊に渡さなくてはならぬ事となった。<br/><br/>素盞嗚尊は自分がそれを握って乙姫に保管せしめた。<br/><br/>乙姫は物欲の強い方で、あらゆる金銀財宝を集め、天下の実権を握った。<br/><br/>極東、日本と朝鮮位は領有したかと思う。<br/><br/>その間観世音は隠退せられ、乙姫の世を客観されたのである。<br/><br/>霊界では何千年間、現界でも――両方で隠退されたのである。<br/><br/> 乙姫は龍神となり、龍宮海にいた。<br/><br/>丹後、高砂沖の冠島、沓島の間に龍宮があり、そこに乙姫が住んでいるという。<br/><br/>生きている時は朝鮮にいた。<br/><br/> 主は神の形、これをくずすと立となる。<br/><br/>―― 一をバラバラにするとリウウとなる。<br/><br/>即ち龍。<br/><br/> 日 月 地 主 日 月 地 ヽ ＋ 王 ＝ 主 立正は立は龍、正は一を止む、神を止める。<br/><br/>龍が神を止める。<br/><br/>すると世の中は暗黒となる。<br/><br/> 観自在菩薩――印度は大自在天が治めた。<br/><br/>（S24. 2.22） 051 木花咲爺姫の御姿、（明主様富士御登山）、松竹梅 観世音――。<br/><br/> 兄の花姫は梅。<br/><br/>木花咲爺姫命は桜になる。<br/><br/>十八才位である。<br/><br/> 大先生が富士からお帰りになった時一緒に帰られた。<br/><br/>洋間でヒョイとみた書生がある。<br/><br/>十二単衣着けられた十八、九才の女神様で、かんざしを着けた素晴しく綺麗な御方であらせられたという。<br/><br/>これが木花咲爺姫である。<br/><br/>観音様は印度へ表われたお姿である。<br/><br/>木花姫は日本へ表われられる。<br/><br/> 日本 日 松 支那 土 梅 朝鮮 月 竹 松は日本で一番古い木であり、梅や桜は支那から来たもので、竹は、朝鮮から来たものである。<br/><br/> ナは、ナり成る。<br/><br/>地という事。<br/><br/>地の完成。<br/><br/>シ――枝。<br/><br/> 地球は未完成である。<br/><br/>地震の後には、必ず地面が低くなる。<br/><br/> バラモン――観音様神力に頭を下げた。<br/><br/> 観音の下で釈迦は七年、九年、十一年諸説あるも、七年修行した。<br/><br/> 印度一番偉神と選んだのが自在天。<br/><br/>（S23. 7. 3） 052 桜と松の神、（松、柳の植え場所） 木の花咲爺姫が桜、兄の花姫は梅と承っておりますが、松はどなたを表象しておりますので御座居ましょうか。<br/><br/> 松とは関係ない。<br/><br/>松竹梅の梅にはめればいえる。<br/><br/>これはまた違う。<br/><br/> 竹は朝鮮が本元で、梅は支那から移植したものである。<br/><br/> 兄花姫は神、木花咲爺姫は仏で、両方共観音様である。<br/><br/>厳密にいえば、神と仏になる。<br/><br/> 松は日本で、木の王、木の龍神になる。<br/><br/> 松は男龍、柳は女龍であるから、左に松、右に柳を植えるといい。<br/><br/>三十三間堂柳のお龍というが、松も柳もコケは龍の膚である。<br/><br/> 獣の龍は馬で、龍馬という。<br/><br/>（S23. 8. 4） 053 木の花と兄の花、梅と桜の御働き 観音様は男性で御座いましょうか。<br/><br/>また、木の花姫について、また『木の花の香りも高き富士ケ嶺の宮居は今も忘れ難なき』とございますが、木の花姫は富士に宮居を建ててお住まいになった事がありましょうか。<br/><br/> 浅間神社は兄の花姫を祭る。<br/><br/> 仏界――観世音菩薩――桜――木花姫 兄の花――梅 夜の間は仏界で、観音様は木の花姫であった。<br/><br/> 仏界から神界へ行かれる時、兄の花姫とならる。<br/><br/>今丁度その時である。<br/><br/>（S23） 054 木花と兄花、（梅と桜） 木の花姫と兄の花姫の御違いを御伺い申し上げます。<br/><br/> 木の花姫――桜の事。<br/><br/>兄花姫――梅の事。<br/><br/> 歌など木の花といえば桜になる。<br/><br/>富士山に祭ってある御神体は、桜を持っている。<br/><br/> 055 梅と桜（開と散の例へ）、松は万木の元 桜は花の王で、印度に関係がある。<br/><br/>四月八日の花の日――などという。<br/><br/> 兄の花は梅で、梅は万花に魁けて咲くから、兄になる。<br/><br/> 神様の方からいうと、桜というものはパッと咲いてたちまち散る。<br/><br/>パッと散る意味である。<br/><br/> 仏教の華を咲かす、これが妙法蓮華経になる。<br/><br/>これはパッと咲く意味である。<br/><br/> 梅は、長い間苦労して花を咲かす意味である。<br/><br/>「三千世界一度に開く梅の花、梅で開いて松で治める」という事がある。<br/><br/>梅はそういう意味に例えてあり、五大洲の形だともいうが、そういう深い意味はないと思う。<br/><br/> 梅は支那から来たもので、松は古い時代からある。<br/><br/> 木の公を一字にして松になる。<br/><br/>万木の元という事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

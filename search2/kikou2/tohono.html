@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tohono</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教海外紹介映画 総天然色『東方の光』 陽春の候を期して撮映開始 Ｓ・Ｆ生 『栄光』192号、昭和28(1953)年1月21日発行 この度米国アンスコカラー映画（三十五ミリ及び十六ミリ総天然色映画）が作られるようになりましたことは、すでに栄光一八九号の役員による座談会中にもあり御周知の通りでありますが、ここに正式に毎日新聞事業部との間に製作契約が交されましたので、一応この映画の梗概について信徒の皆様にも御紹介致したくぺンを執ってみます。<br><br> この映画は明主様が「東方の光」と題をおつけになられました由、いよいよ一粒の実より燦然たる光輝を発し世界を照し出さんとするこの二十八年の年頭、まことに意義深き御神事なる哉、と感慨一入深いものがあります。<br><br>特にこの度の映画は今迄の二本の記録映画「大建設」「天国の苑」とは大いに趣を異にし、海外へ世界救世教の存在を紹介する意味において撮られるものであり、英語版と日本語版の二本のブリントが作られることになっております。<br><br>従って、撮影に当る毎日新聞社側も全力を挙げてその製作に慎重を期されるでありましょう。<br><br>特にその撮影の手法、色彩効果等の点等についても斬新な意匠が用いられるのではないかと思います。<br><br>勿論二巻二千フィート足らずのものでありますので、これを以て世界救世教の全貌を紹介せんとするのはいささか無理かもしれませんが、浄霊もて世の病貧争を救い、美わしき地上天国を世界に造らんと、その建設に邁進している救世教のアウトラインははっきりと描き出されるでありましょう。<br><br>即ち単なる日本の一宗教としてでなく、世界を救う「救いの業」「救いの光」としての高い観点から作られるのであります。<br><br>特にこの映画の中に名実共に世界の救世主として明主様がお出ましになり、三十秒にわたって御聖姿を拝するを得、御言葉を賜わることになっており、その世界的意義の深さに胸の高鳴るのを禁じ得ぬ次第であります。<br><br> 撮影は陽春の候を期して開始され、今のところ二十四日間のロケが見込まれており五月末までには日英両版共完成することになっています。<br><br>又、海外における上映普及についても、毎日新聞において協力斡旋の労を取る旨約束してあり、海外への普及も大いに期待されています。<br><br> では「東方の光」の製作スタッフと脚本の一部を御紹介申し上げましょう。<br><br> スタッフは 製 作 ＝ 毎日新聞社 監 修 ＝ 世界救世教 構成・色彩・演出＝木村春彦 色彩・撮影＝小山正厚 特殊技術＝ 太田芳太郎 音 楽 ＝ 伊藤宣二 解 説 ＝ 高橋圭三 となっています。<br><br> タイトルバックは、地球儀にパッと光がさしてくると註釈してあります。<br><br>何かしら印象的な直観が閃きます。<br><br>それから次々展開してゆく各シーンは、多分に幻想的な手法の中に、現実の姿を折りこみ、花園が現れ跳躍する色々のヴァレーが現れるかと思うと、明主様が御手を翳されている御姿が現れ、梅林の梅が美しく咲き誇っている場面が現れ和讃の一大コーラスの中に静かに移動してゆき、箱根の美術館に転ずるというように、救世教の面目躍如として、脚本の上にも輝いています。<br><br> ああ、如何に素晴しいものが出来上るか、信徒の皆様と共にその完成を鶴首して待つのみであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Produção Cinematográfica “A Luz do Oriente”</h2>
 <p>É com grande alegria que informo aos senhores sobre a produção de um filme em cores, utilizando a tecnologia americana Anscocolor de 35 e 16 milímetros. Conforme já foi divulgado na edição 189 da revista Eikou, durante o diálogo com a diretoria, o contrato de produção foi agora formalmente selado com o departamento de projetos do jornal Mainichi Shimbun. Tomo, portanto, a liberdade de escrever estas linhas para apresentar aos membros um resumo desta obra cinematográfica.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 *   Narração: Keizo Takahashi</p>
 <p>O roteiro indica que, ao fundo dos créditos iniciais, um globo terrestre será subitamente banhado por um facho de luz; uma imagem que, por si só, desperta uma intuição impactante. As cenas subsequentes se desdobrarão com uma abordagem que mescla, de maneira artística, elementos fantásticos e a representação da realidade. Veremos jardins floridos onde bailarinas saltam graciosamente, para então contemplarmos a imagem de Meishu-Sama com a mão erguida em oração. Em seguida, surgirão as ameixeiras do bosque em plena e magnífica floração, enquanto um grandioso coro de hinos ecoa suavemente, conduzindo a transição para as cenas no Museu de Arte de Hakone. Em cada detalhe, o espírito vibrante da nossa Igreja resplandece no próprio roteiro.</p>
 <p>Ah, podemos apenas imaginar quão esplêndida será a obra finalizada! Juntamente com todos os membros, aguardamos com fervorosa expectativa a sua conclusão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教海外紹介映画 総天然色『東方の光』 陽春の候を期して撮映開始 Ｓ・Ｆ生 『栄光』192号、昭和28(1953)年1月21日発行 この度米国アンスコカラー映画（三十五ミリ及び十六ミリ総天然色映画）が作られるようになりましたことは、すでに栄光一八九号の役員による座談会中にもあり御周知の通りでありますが、ここに正式に毎日新聞事業部との間に製作契約が交されましたので、一応この映画の梗概について信徒の皆様にも御紹介致したくぺンを執ってみます。<br/><br/> この映画は明主様が「東方の光」と題をおつけになられました由、いよいよ一粒の実より燦然たる光輝を発し世界を照し出さんとするこの二十八年の年頭、まことに意義深き御神事なる哉、と感慨一入深いものがあります。<br/><br/>特にこの度の映画は今迄の二本の記録映画「大建設」「天国の苑」とは大いに趣を異にし、海外へ世界救世教の存在を紹介する意味において撮られるものであり、英語版と日本語版の二本のブリントが作られることになっております。<br/><br/>従って、撮影に当る毎日新聞社側も全力を挙げてその製作に慎重を期されるでありましょう。<br/><br/>特にその撮影の手法、色彩効果等の点等についても斬新な意匠が用いられるのではないかと思います。<br/><br/>勿論二巻二千フィート足らずのものでありますので、これを以て世界救世教の全貌を紹介せんとするのはいささか無理かもしれませんが、浄霊もて世の病貧争を救い、美わしき地上天国を世界に造らんと、その建設に邁進している救世教のアウトラインははっきりと描き出されるでありましょう。<br/><br/>即ち単なる日本の一宗教としてでなく、世界を救う「救いの業」「救いの光」としての高い観点から作られるのであります。<br/><br/>特にこの映画の中に名実共に世界の救世主として明主様がお出ましになり、三十秒にわたって御聖姿を拝するを得、御言葉を賜わることになっており、その世界的意義の深さに胸の高鳴るのを禁じ得ぬ次第であります。<br/><br/> 撮影は陽春の候を期して開始され、今のところ二十四日間のロケが見込まれており五月末までには日英両版共完成することになっています。<br/><br/>又、海外における上映普及についても、毎日新聞において協力斡旋の労を取る旨約束してあり、海外への普及も大いに期待されています。<br/><br/> では「東方の光」の製作スタッフと脚本の一部を御紹介申し上げましょう。<br/><br/> スタッフは 製 作 ＝ 毎日新聞社 監 修 ＝ 世界救世教 構成・色彩・演出＝木村春彦 色彩・撮影＝小山正厚 特殊技術＝ 太田芳太郎 音 楽 ＝ 伊藤宣二 解 説 ＝ 高橋圭三 となっています。<br/><br/> タイトルバックは、地球儀にパッと光がさしてくると註釈してあります。<br/><br/>何かしら印象的な直観が閃きます。<br/><br/>それから次々展開してゆく各シーンは、多分に幻想的な手法の中に、現実の姿を折りこみ、花園が現れ跳躍する色々のヴァレーが現れるかと思うと、明主様が御手を翳されている御姿が現れ、梅林の梅が美しく咲き誇っている場面が現れ和讃の一大コーラスの中に静かに移動してゆき、箱根の美術館に転ずるというように、救世教の面目躍如として、脚本の上にも輝いています。<br/><br/> ああ、如何に素晴しいものが出来上るか、信徒の皆様と共にその完成を鶴首して待つのみであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

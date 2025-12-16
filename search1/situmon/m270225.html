@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M270225</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年2月25日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月二十五日 （お伺）山川静子（昨年三月入信。<br><br>六十七歳）。<br><br>昨年十二月十二日午前四時ごろ、ふと目が覚めますと、なんとなく頭が変で、胸が重苦しく、嫌な気分がいたし、便所に行こうといたしましたところ、立って歩けず、這ってまいりました。<br><br>そのまま床に入りましたが、腰から下が寒気もいたしませんのにガクガク震えました。<br><br>一時間ほどで平常に復しました。<br><br>その後本年一月二日および二月五日、前回とほとんど同じ時刻に同じ症状となりました。<br><br>その時は必ず三、四回吐き気を伴いますが吐くことはなく、また必ず小用を催します。<br><br>なお、本人の夫は昭和九年に脳溢血にて倒れ、昭和十七年再発死亡いたしております。<br><br>本人は、昭和四年ごろ突然耳が聞こえなくなり、ストリキニーネを毎日一粒ずつ服用いたし、聞こえるようになりましたが、一週間後にふたたび聞こえなくなりました。<br><br>その後服用はいたしておりませんが、現在もほとんど聞こえません。<br><br>これは霊的でございましょうか。<br><br>またいかがさせていただきましたら、よろしゅうございましょうか。<br><br>御神体はお祀りさせていただいておりますが、仏壇は旧家のために非常に大きく、中央に大きな阿弥陀像があり、横に動かすのも困難と思われます。<br><br>また本人が信仰していた関係もあり、まだ御屏風観音様をお迎えできない事情でございます。<br><br>右御教えのほどお願い申し上げます。<br><br> 〔御垂示〕 これは、光明如来様はお祀りしてあるんですね。<br><br>仏壇はどこに。<br><br> 「次の間にございます。<br><br>」 本当の座敷に光明如来様をお祀りしてあるんですね。<br><br>これは、祖霊が憑るんですよ。<br><br>病気じゃないですよ。<br><br>それで、祖霊のうちで、なにか気にかかることがあるんですね。<br><br>それを頼みたいんです。<br><br>これは信者ですね。<br><br>仏壇は立派ですね。<br><br>大きいんですか。<br><br> 「三尺の幅で、十三代前よりございます。<br><br>」 お祀りすれば良いんだな。<br><br>きっとそれをやってもらいたいんでしょう。<br><br>仏壇が大きければ、屏風観音様じゃ小さいかもしれないから、そうすると、お掛軸の千手観音様をすれば良い。<br><br> 「阿弥陀像は木造で、厨子に入っておりますが。<br><br>」 仏壇の中で厨子に入っているんですか。<br><br>そうしたら、阿弥陀さんを向かって右の方に、ちょっとずらせば良いんだがね。<br><br>それを、祖父が承知するかどうか。<br><br> 「本人が入信しておりますので。<br><br>」 じいさんは。<br><br> 「亡くなっております。<br><br>」 それじゃ、なんでもないな。<br><br>ずらせば良いですね。<br><br> 「非常に大きいのでございますが。<br><br>」 かまわないです。<br><br>ずらせば良いんです。<br><br>それだけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Sofrimento Causado por um Antepassado</h2>
 <p><strong>Pergunta:</strong> Apresento o caso da senhora Shizuko Yamakawa, de sessenta e sete anos, que ingressou na fé em março do ano passado.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Nesse caso, não há qualquer impedimento. Basta deslocá-la.</p>
 <p>“Mas a estátua é extremamente grande.”</p>
 <p>Isso não representa problema algum. Apenas desloque-a. É tudo o que precisa ser feito.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年2月25日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月二十五日 （お伺）山川静子（昨年三月入信。<br/><br/>六十七歳）。<br/><br/>昨年十二月十二日午前四時ごろ、ふと目が覚めますと、なんとなく頭が変で、胸が重苦しく、嫌な気分がいたし、便所に行こうといたしましたところ、立って歩けず、這ってまいりました。<br/><br/>そのまま床に入りましたが、腰から下が寒気もいたしませんのにガクガク震えました。<br/><br/>一時間ほどで平常に復しました。<br/><br/>その後本年一月二日および二月五日、前回とほとんど同じ時刻に同じ症状となりました。<br/><br/>その時は必ず三、四回吐き気を伴いますが吐くことはなく、また必ず小用を催します。<br/><br/>なお、本人の夫は昭和九年に脳溢血にて倒れ、昭和十七年再発死亡いたしております。<br/><br/>本人は、昭和四年ごろ突然耳が聞こえなくなり、ストリキニーネを毎日一粒ずつ服用いたし、聞こえるようになりましたが、一週間後にふたたび聞こえなくなりました。<br/><br/>その後服用はいたしておりませんが、現在もほとんど聞こえません。<br/><br/>これは霊的でございましょうか。<br/><br/>またいかがさせていただきましたら、よろしゅうございましょうか。<br/><br/>御神体はお祀りさせていただいておりますが、仏壇は旧家のために非常に大きく、中央に大きな阿弥陀像があり、横に動かすのも困難と思われます。<br/><br/>また本人が信仰していた関係もあり、まだ御屏風観音様をお迎えできない事情でございます。<br/><br/>右御教えのほどお願い申し上げます。<br/><br/> 〔御垂示〕 これは、光明如来様はお祀りしてあるんですね。<br/><br/>仏壇はどこに。<br/><br/> 「次の間にございます。<br/><br/>」 本当の座敷に光明如来様をお祀りしてあるんですね。<br/><br/>これは、祖霊が憑るんですよ。<br/><br/>病気じゃないですよ。<br/><br/>それで、祖霊のうちで、なにか気にかかることがあるんですね。<br/><br/>それを頼みたいんです。<br/><br/>これは信者ですね。<br/><br/>仏壇は立派ですね。<br/><br/>大きいんですか。<br/><br/> 「三尺の幅で、十三代前よりございます。<br/><br/>」 お祀りすれば良いんだな。<br/><br/>きっとそれをやってもらいたいんでしょう。<br/><br/>仏壇が大きければ、屏風観音様じゃ小さいかもしれないから、そうすると、お掛軸の千手観音様をすれば良い。<br/><br/> 「阿弥陀像は木造で、厨子に入っておりますが。<br/><br/>」 仏壇の中で厨子に入っているんですか。<br/><br/>そうしたら、阿弥陀さんを向かって右の方に、ちょっとずらせば良いんだがね。<br/><br/>それを、祖父が承知するかどうか。<br/><br/> 「本人が入信しておりますので。<br/><br/>」 じいさんは。<br/><br/> 「亡くなっております。<br/><br/>」 それじゃ、なんでもないな。<br/><br/>ずらせば良いですね。<br/><br/> 「非常に大きいのでございますが。<br/><br/>」 かまわないです。<br/><br/>ずらせば良いんです。<br/><br/>それだけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

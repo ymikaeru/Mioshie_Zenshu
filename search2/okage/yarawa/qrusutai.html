@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qrusutai</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： ルース台風雨に倒伏せぬ稲作状況の報告 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 長崎県 南光中教会 竹松安雄（46） 私は昭和二十六年秋、実際行った稲作自然栽培の体験並びに感想を御報告させて戴きます。<br><br> 実は自然栽培法の御教えを戴きました瞬間、脳裡を走った事は「作物が肥料なしで」と言う、申し上げるのも有難い言葉でございました。<br><br>実際私共は肥料は人間で申しますならば食物に相当する物で、作物の食物であると信じておりました。<br><br>しかし、これも善い事と思えど悪い事でありまして、大自然即神様の御意志に反しておりました。<br><br> 自然栽培法でありましたならば如何なる風水害及び虫害にも御蔭を頂ける御教えを賜わりましたが、私は丁度今年で三年御教え通り実行しておりますが、例年通り私の稲は二尺五寸位で、色は黄色にて、上下畦一重の他人の有肥田は色黒々として、丈は三尺から四尺のできばえですが、色々な害虫ができ色々な薬剤を撒布しながら「肥料も一銭がた（程）もやらず、ただ手を翳って何が出来るか、色を見ろ出穂前にうんだような色じゃないか」とか、「神様田じゃけん（だから）虫はおらんとか、支部教会本部とか、旅行ばかりして何が出来るちうけぇ（ものか）」とか、色々聞き流しておりましたが他人の稲は穂も出揃わず、色黒々としていましたが、みな神様に御委せしている以上、刈取る時になれば善悪が分ると思いしところ、去る十月十四日ルース台風雨、一夜にして有肥、無肥の稲が立て別けられました。<br><br>有肥の稲は穂は出揃わぬまま、根から折れ込んで、藁は腐り、籾はもえて、後れ穂は青米ばかりで、その後小雨にて色々と近頃迄悪口いった人は今度は「どうなるでっしょうなあ（でしようか）虫気しちょったもんじゃけん（あったものだから）大風でこっとり（ことごとく）やられて、籾は青芽切り、藁は牛も喰わんとん（喰わないよ）」と皆掛声で話しておりますが、私の七反歩の稲は御蔭様にて台風前と変りなく、何と有難いことでしょう。<br><br>有肥であれば当然倒伏すべき稲に拘らず、倒伏致さなかったのは奇蹟でなくて何でありましょう。<br><br>一見しますと直立不動の姿勢にて、黄金の波と申しますか、今日では早く刈りに来る様にと穂が招いているように思われます。<br><br>自然栽培を知らない方は、今年の稲は虫害のできたのに台風に遭い、倒伏したと思っておられますが、明主様の御教え通り害虫は肥料から発生し、肥料の種類が多くなったので虫の種類も多くなると御教示戴いております。<br><br>私が今年の稲作体験致しました事実です。<br><br>妻が便所の肥の捨て場がないので、三畝位の田一枚を肥捨田として、植付前後にわたり担い込んでいましたが、出穂時期となるや、ウンカは勿論色々な害虫が大発生し、二、三日にして全滅しましたので、神様にお詫び申し上げて焼却させて頂き、体験させて頂きました。<br><br>今後便所の肥料捨て場は、山の中に井戸みたいに掘り、捨てさせて頂くようにする考えでございます。<br><br> 私共農業者は偉大なる真理を明主様より御明示になられているのですから、その真理を大いに活用し研究して、発展へ発展へと進むことは私共の使命であると考え、無肥料三年目の土地には色々と研究的に栽培法を実施しておりますが結果の御報告はいずれ又させて頂きたいと思っています。<br><br>私の自然栽培もいよいよ当地では注目の的となり、心ある者は随分注意深く見ておりますが、彼等もやがてこの自然の真理になびかざるを得なくなることも遠からず、この農業の一大革命の山村僻地に迄知れわたり、一大飛躍発展することを期待しつつ一生懸命です。<br><br>願わくば世の農耕者が一刻も早くこの偉大なる明主様の真理に基く自然栽培を実施して大自然の恩恵に浴されんことを切望して止みません。<br><br>色々と御守護有難うございました。<br><br> （昭和二十六年十一月八日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato sobre a situação da rizicultura que não sucumbiu às chuvas do Tufão Ruth (Elucidação sobre a Agricultura Natural)</h2>
 <p>Takematsu Yasuo (46 anos)
@@ -103,5 +258,48 @@ Igreja Nankochu, Província de Nagasaki</p>
 <p>Minha lavoura, cultivada pelo método natural, tornou-se um foco de atenção em nossa localidade. Pessoas de mente aberta a observam com grande interesse, e estou convicto de que, em breve, não terão como não se render a esta verdade da Natureza. Dedico-me de corpo e alma à expectativa de que esta grande revolução na agricultura se dissemine até as mais remotas aldeias montanhosas, promovendo um extraordinário avanço. Anseio fervorosamente que os agricultores de todo o mundo adotem o quanto antes a Agricultura Natural, fundamentada na sublime verdade de Meishu-Sama, para que possam ser banhados pelas bênçãos da Grande Natureza.</p>
 <p>Agradeço profundamente por toda a Vossa proteção.</p>
 <p>(Submetido em 8 de novembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： ルース台風雨に倒伏せぬ稲作状況の報告 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 長崎県 南光中教会 竹松安雄（46） 私は昭和二十六年秋、実際行った稲作自然栽培の体験並びに感想を御報告させて戴きます。<br/><br/> 実は自然栽培法の御教えを戴きました瞬間、脳裡を走った事は「作物が肥料なしで」と言う、申し上げるのも有難い言葉でございました。<br/><br/>実際私共は肥料は人間で申しますならば食物に相当する物で、作物の食物であると信じておりました。<br/><br/>しかし、これも善い事と思えど悪い事でありまして、大自然即神様の御意志に反しておりました。<br/><br/> 自然栽培法でありましたならば如何なる風水害及び虫害にも御蔭を頂ける御教えを賜わりましたが、私は丁度今年で三年御教え通り実行しておりますが、例年通り私の稲は二尺五寸位で、色は黄色にて、上下畦一重の他人の有肥田は色黒々として、丈は三尺から四尺のできばえですが、色々な害虫ができ色々な薬剤を撒布しながら「肥料も一銭がた（程）もやらず、ただ手を翳って何が出来るか、色を見ろ出穂前にうんだような色じゃないか」とか、「神様田じゃけん（だから）虫はおらんとか、支部教会本部とか、旅行ばかりして何が出来るちうけぇ（ものか）」とか、色々聞き流しておりましたが他人の稲は穂も出揃わず、色黒々としていましたが、みな神様に御委せしている以上、刈取る時になれば善悪が分ると思いしところ、去る十月十四日ルース台風雨、一夜にして有肥、無肥の稲が立て別けられました。<br/><br/>有肥の稲は穂は出揃わぬまま、根から折れ込んで、藁は腐り、籾はもえて、後れ穂は青米ばかりで、その後小雨にて色々と近頃迄悪口いった人は今度は「どうなるでっしょうなあ（でしようか）虫気しちょったもんじゃけん（あったものだから）大風でこっとり（ことごとく）やられて、籾は青芽切り、藁は牛も喰わんとん（喰わないよ）」と皆掛声で話しておりますが、私の七反歩の稲は御蔭様にて台風前と変りなく、何と有難いことでしょう。<br/><br/>有肥であれば当然倒伏すべき稲に拘らず、倒伏致さなかったのは奇蹟でなくて何でありましょう。<br/><br/>一見しますと直立不動の姿勢にて、黄金の波と申しますか、今日では早く刈りに来る様にと穂が招いているように思われます。<br/><br/>自然栽培を知らない方は、今年の稲は虫害のできたのに台風に遭い、倒伏したと思っておられますが、明主様の御教え通り害虫は肥料から発生し、肥料の種類が多くなったので虫の種類も多くなると御教示戴いております。<br/><br/>私が今年の稲作体験致しました事実です。<br/><br/>妻が便所の肥の捨て場がないので、三畝位の田一枚を肥捨田として、植付前後にわたり担い込んでいましたが、出穂時期となるや、ウンカは勿論色々な害虫が大発生し、二、三日にして全滅しましたので、神様にお詫び申し上げて焼却させて頂き、体験させて頂きました。<br/><br/>今後便所の肥料捨て場は、山の中に井戸みたいに掘り、捨てさせて頂くようにする考えでございます。<br/><br/> 私共農業者は偉大なる真理を明主様より御明示になられているのですから、その真理を大いに活用し研究して、発展へ発展へと進むことは私共の使命であると考え、無肥料三年目の土地には色々と研究的に栽培法を実施しておりますが結果の御報告はいずれ又させて頂きたいと思っています。<br/><br/>私の自然栽培もいよいよ当地では注目の的となり、心ある者は随分注意深く見ておりますが、彼等もやがてこの自然の真理になびかざるを得なくなることも遠からず、この農業の一大革命の山村僻地に迄知れわたり、一大飛躍発展することを期待しつつ一生懸命です。<br/><br/>願わくば世の農耕者が一刻も早くこの偉大なる明主様の真理に基く自然栽培を実施して大自然の恩恵に浴されんことを切望して止みません。<br/><br/>色々と御守護有難うございました。<br/><br/> （昭和二十六年十一月八日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

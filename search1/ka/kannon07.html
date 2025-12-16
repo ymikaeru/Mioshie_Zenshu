@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,59 +440,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>kannon07<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>観音運動は一切の病気治しなり<br>『東方の光』9号、昭和11(1936)年1月1日発行<br>――併而世の既成宗教家に斯文を呈す<br>宗教の真の使命は、病気治しである。否、宗教の全使命が病気治しであり、それ以外には何物もないのである。故に病気治しを行わない宗教は宗教としては無価値であるといえるのである。しかしながらただ病気と言えば、人間の肉体的のみに解釈し易いのであるが、実はそれ以外、あらゆるものに病気はあるのである。ここにその真相を説いてみよう。<br>しからば、人間の肉体以外の病気とは、何ぞやと云えば、それは人間の思想にも病気がある。即ち不純な思想の持主は思想の病人であり、社会的不安の真因たる諸々の不正堕落は、この病的思想から胚胎された症状に外ならないのである。即ち個人の集合による社会は、個人の病的思想によって、病的社会、不健康な社会相を現出するのは、当然な話である。立憲政治の運用が国家の進運に伴わないのは、病的思想の保持者である政治家に、因（よ）るからであるのは言をまたない。又不景気は、経済界が病体であるからであって、資金の偏重は血液の不循環である。富が上層へのみ集注し、下層が欠乏するのは、血液が脳にのみ上騰して脚部が冷ゆる、逆上（のぼせ）的病状である。又青年が、赤化のごとき不健全思想に感染する原因は、美濃部博士のごとく、学問至上主義に捉われて、尊厳なる国体を無視したる学説を真理のごとく信じて、それを講説するからである。<br>しこうしてこれらの思想は不治な肺結核のごときものでしかもこの結核思想病者はインテリ層に、割合多数あるらしいのであるから現代青年が、これに感染するのはまことに困ったものである。故にこれを私は思想結核病というのである。その他国際間宗教界等、あらゆる方面においてそれぞれ大中小の難病に罹り、それに悩まされて居らぬは無いという現状が、今日の世界及び社会である。<br>右に述べたるごとく、今日あらゆる人間苦の根本原因はあらゆる方面が病体であるからである。さればその病患を治すべく、宗教家も為政者も、学者も教育家も智嚢（ちのう）を搾（しぼ）ってはいるが、悲しいかな、未だその疾患の治療法を発見し得ないのみかその疾患の原因すら、認識把捉し得ないという実状である。のみならずその病患は益々重症に陥りつゝあるのである。既成宗教に在る当事者とその支持者達は、口を開けば、宗教は病気治しじゃないと誇らかにいうのである。又いわく、病気に超越して安心立命を得させるのが真の宗教であると言うのである。吾々はこの人達の頭脳を疑わざるを得ない――なぜかといえば病気を治し得ないでどこに救いがあるか――人間の病気を治し得ないでいかにして世を救い得べきや。病苦に悩みつゝ死の不安に晒（さら）されながら、安心立命の出来得る人がもし在りとすれば、それは世界中卿（けい）らのみである。随って、病気を治し得ない宗教は止むなく理論で人を救おうとしている。理論で安心立命を得らるゝならば飯の説明だけで腹が満（く）ちくなるはずである。予算だけで金持に成らなければならない。<br>本来宗教は、形而上のものであるから、神力仏力の活現でなくてはならない。古来――仏陀はじめ各聖者も、各々それを如実に表わした。即ち、霊を以て霊を救われた。空海も親鸞も日蓮も決して物質的救済は行わなかった。又そうしろとも言わなかった。飽くまで霊的で精神的で能く偉大なる崇高なる人格を以て、大衆を教化し死しての後、今もなお無言の感化を与えているという事実は、既成宗教に携わる程の人は充分知り抜いているはずである。<br>社会事業は、決して悪い事ではない、多々益々発展させなければならない事は勿論である。しかしながら、社会事業その物は形而下のものである、形而上のものである宗教が社会事業に専念するという事は適切ではない。本来の使命を没却しているといわれても、一言の辞は無いであろう、ただ、宗教の一部門として、社会事業を援助する位が、適当であろう。故に、吾人をして、忌憚なく言わしむれば、既成宗教家諸君が病気治しも、霊的教化も行なわないとすれば、その宗教は最早生命を失って居るので、宗教としての本質は無いのであるから、宜しく宗教家の衣を脱却し、専門的に社会事業家に成るのが至当ではなかろうか、そうして殿堂も伽藍も、社会事業の為に利用した方がどの位――国家社会にとって効果的であるかは、考える余地は無いであろう。<br>あえて世の既成宗教家諸君に――この文を呈するゆえんである。<br>従って、吾人の最後の目的は健康な肉体、健康なる思想、健康な国家社会、健康な世界たらしむる事である。それが真の宗教の使命でなければならない。故に重ねて言う、宗教の使命とは人間の霊肉の病気治しを基調として森羅万象――一切の病気治しである事である。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Movimento de Kannon (観音) é, em sua essência, a cura de todas as enfermidades</h2>
 <h4>— Apresentando este Ensaio aos Religiosos do Mundo Contemporâneo —</h4>
@@ -104,5 +454,48 @@ function toggleLang(lang) {
 <p>Permitam-me, pois, expressar-me sem rodeios: se os líderes das religiões estabelecidas não praticam a cura nem oferecem orientação espiritual, suas religiões já perderam a vida. Estão desprovidas de sua essência fundamental. Não seria mais justo, então, que abandonassem seus paramentos religiosos e se tornassem assistentes sociais profissionais? Pensem em quão mais eficaz seria para a nação e para a sociedade se seus templos e catedrais fossem utilizados para tais finalidades. A resposta é autoevidente.</p>
 <p>É por essa razão que ouso apresentar este ensaio aos religiosos do mundo contemporâneo.</p>
 <p>Nosso objetivo último é, portanto, a concretização de um corpo sadio, de um pensamento sadio, de uma nação e uma sociedade sadias, e de um mundo sadio. Essa, e nenhuma outra, deve ser a verdadeira missão da religião. Reitero, por fim: a missão da religião, fundamentada na cura do espírito e da matéria do ser humano, é a de sanar todas as enfermidades que afligem a Criação em sua totalidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>kannon07<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>観音運動は一切の病気治しなり<br/>『東方の光』9号、昭和11(1936)年1月1日発行<br/>――併而世の既成宗教家に斯文を呈す<br/>宗教の真の使命は、病気治しである。否、宗教の全使命が病気治しであり、それ以外には何物もないのである。故に病気治しを行わない宗教は宗教としては無価値であるといえるのである。しかしながらただ病気と言えば、人間の肉体的のみに解釈し易いのであるが、実はそれ以外、あらゆるものに病気はあるのである。ここにその真相を説いてみよう。<br/>しからば、人間の肉体以外の病気とは、何ぞやと云えば、それは人間の思想にも病気がある。即ち不純な思想の持主は思想の病人であり、社会的不安の真因たる諸々の不正堕落は、この病的思想から胚胎された症状に外ならないのである。即ち個人の集合による社会は、個人の病的思想によって、病的社会、不健康な社会相を現出するのは、当然な話である。立憲政治の運用が国家の進運に伴わないのは、病的思想の保持者である政治家に、因（よ）るからであるのは言をまたない。又不景気は、経済界が病体であるからであって、資金の偏重は血液の不循環である。富が上層へのみ集注し、下層が欠乏するのは、血液が脳にのみ上騰して脚部が冷ゆる、逆上（のぼせ）的病状である。又青年が、赤化のごとき不健全思想に感染する原因は、美濃部博士のごとく、学問至上主義に捉われて、尊厳なる国体を無視したる学説を真理のごとく信じて、それを講説するからである。<br/>しこうしてこれらの思想は不治な肺結核のごときものでしかもこの結核思想病者はインテリ層に、割合多数あるらしいのであるから現代青年が、これに感染するのはまことに困ったものである。故にこれを私は思想結核病というのである。その他国際間宗教界等、あらゆる方面においてそれぞれ大中小の難病に罹り、それに悩まされて居らぬは無いという現状が、今日の世界及び社会である。<br/>右に述べたるごとく、今日あらゆる人間苦の根本原因はあらゆる方面が病体であるからである。さればその病患を治すべく、宗教家も為政者も、学者も教育家も智嚢（ちのう）を搾（しぼ）ってはいるが、悲しいかな、未だその疾患の治療法を発見し得ないのみかその疾患の原因すら、認識把捉し得ないという実状である。のみならずその病患は益々重症に陥りつゝあるのである。既成宗教に在る当事者とその支持者達は、口を開けば、宗教は病気治しじゃないと誇らかにいうのである。又いわく、病気に超越して安心立命を得させるのが真の宗教であると言うのである。吾々はこの人達の頭脳を疑わざるを得ない――なぜかといえば病気を治し得ないでどこに救いがあるか――人間の病気を治し得ないでいかにして世を救い得べきや。病苦に悩みつゝ死の不安に晒（さら）されながら、安心立命の出来得る人がもし在りとすれば、それは世界中卿（けい）らのみである。随って、病気を治し得ない宗教は止むなく理論で人を救おうとしている。理論で安心立命を得らるゝならば飯の説明だけで腹が満（く）ちくなるはずである。予算だけで金持に成らなければならない。<br/>本来宗教は、形而上のものであるから、神力仏力の活現でなくてはならない。古来――仏陀はじめ各聖者も、各々それを如実に表わした。即ち、霊を以て霊を救われた。空海も親鸞も日蓮も決して物質的救済は行わなかった。又そうしろとも言わなかった。飽くまで霊的で精神的で能く偉大なる崇高なる人格を以て、大衆を教化し死しての後、今もなお無言の感化を与えているという事実は、既成宗教に携わる程の人は充分知り抜いているはずである。<br/>社会事業は、決して悪い事ではない、多々益々発展させなければならない事は勿論である。しかしながら、社会事業その物は形而下のものである、形而上のものである宗教が社会事業に専念するという事は適切ではない。本来の使命を没却しているといわれても、一言の辞は無いであろう、ただ、宗教の一部門として、社会事業を援助する位が、適当であろう。故に、吾人をして、忌憚なく言わしむれば、既成宗教家諸君が病気治しも、霊的教化も行なわないとすれば、その宗教は最早生命を失って居るので、宗教としての本質は無いのであるから、宜しく宗教家の衣を脱却し、専門的に社会事業家に成るのが至当ではなかろうか、そうして殿堂も伽藍も、社会事業の為に利用した方がどの位――国家社会にとって効果的であるかは、考える余地は無いであろう。<br/>あえて世の既成宗教家諸君に――この文を呈するゆえんである。<br/>従って、吾人の最後の目的は健康な肉体、健康なる思想、健康な国家社会、健康な世界たらしむる事である。それが真の宗教の使命でなければならない。故に重ねて言う、宗教の使命とは人間の霊肉の病気治しを基調として森羅万象――一切の病気治しである事である。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

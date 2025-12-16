@@ -1,174 +1,365 @@
 ﻿<html>
-
 <head>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-        <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-        <title>kekkaku1</title>
-        <link href="../style1.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-        <p align="center">
-                <font face="HG正楷書体-PRO" size="3">―――　岡
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>kekkaku1</title>
+<link href="../style1.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<p align="center">
+<font face="HG正楷書体-PRO" size="3">―――　岡
                         田 自 観 師 の 論 文 集　――</font>
-                <font size="2">Por Publicação<br />
-                </font>
-                <font size="3"><br />
-                </font>
-        </p>
-        <blockquote>
-                
+<font size="2">Por Publicação<br/>
+</font>
+<font size="3"><br/>
+</font>
+</p>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 結核問題ト其解決策 『明日の医術』初版中より、結核に関する所説を抜粋したもの。<br><br> 結核問題ト其解決策 （初版） 昭和 17年12月13日 発行 謄写版、和紙、袋とじ A５版 、133丁、265頁 非売品 著者 岡田 茂吉 印刷者 原 清作 発行所 坂井商事出版部 和紙は流石に痛みがほとんど感じられない 結核問題と其解決策 （再版） 昭和18年5月5日発行 Ｂ６版 181P 定価二円 著者 岡田 茂吉 発行者 志保澤 武 印刷所 熊谷印刷所 昭和19年2月発行禁止処分
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-                        <p>Coletânea de Teses do Mestre Okada Jikan – Organizado por Periódico de Publicação</p>
-                        <h2>A Questão da Tuberculose e sua Solução (Ashita no Ijutsu)</h2>
-                        <p>Trechos extraídos da primeira edição de "Ashita no Ijutsu", compilando os ensinamentos
+<p>Coletânea de Teses do Mestre Okada Jikan – Organizado por Periódico de Publicação</p>
+<h2>A Questão da Tuberculose e sua Solução (Ashita no Ijutsu)</h2>
+<p>Trechos extraídos da primeira edição de "Ashita no Ijutsu", compilando os ensinamentos
                                 relativos à tuberculose.</p>
-                        <p><strong>A Questão da Tuberculose e sua Solução (Primeira Edição)</strong></p>
-                        <p>Publicado em 13 de dezembro de 1942
+<p><strong>A Questão da Tuberculose e sua Solução (Primeira Edição)</strong></p>
+<p>Publicado em 13 de dezembro de 1942
                                 Impressão mimeografada, papel japonês, encadernação em estilo fukurotoji
                                 Formato A5, 133 fólios, 265 páginas
                                 Distribuição restrita
                                 Autor: Okada Mokichi
                                 Impressor: Hara Seisaku
                                 Editora: Departamento de Publicações da Sakai Shoji</p>
-                        <p>Como era de se esperar, o papel japonês praticamente não apresenta sinais de deterioração.
+<p>Como era de se esperar, o papel japonês praticamente não apresenta sinais de deterioração.
                         </p>
-                        <p><strong>A Questão da Tuberculose e sua Solução (Segunda Edição)</strong></p>
-                        <p>Publicado em 5 de maio de 1943
+<p><strong>A Questão da Tuberculose e sua Solução (Segunda Edição)</strong></p>
+<p>Publicado em 5 de maio de 1943
                                 Formato B6, 181 páginas
                                 Preço: dois ienes
                                 Autor: Okada Mokichi
                                 Editor: Shihozawa Takeshi
                                 Gráfica: Kumagai Insatsusho</p>
-                        <p>Sua publicação foi proibida em fevereiro de 1944.</p>
-                </div>
-        </blockquote>
-        <div align="center">
-                <center>
-                        <table bgcolor="#EFFFE6" border="0" width="80%">
-                                <tr>
-                                        <td align="center">
-                                                <p align="center"><img height="296" src="../img/kekkaku1.jpg"
-                                                                width="229" /></p>
-                                        </td>
-                                        <td valign="top"><a href="../sasshi/kaiketu1.html">Coletânea de Ensaios do
+<p>Sua publicação foi proibida em fevereiro de 1944.</p>
+</div>
+</blockquote>
+<div align="center">
+<center>
+<table bgcolor="#EFFFE6" border="0" width="80%">
+<tr>
+<td align="center">
+<p align="center"><img height="296" src="../img/kekkaku1.jpg" width="229"/></p>
+</td>
+<td valign="top"><a href="../sasshi/kaiketu1.html">Coletânea de Ensaios do
                                                         Mestre Jikan Okada</a>
-                                                <font face="ＭＳ ゴシック" size="3"><strong>（初版）</strong></font>
-                                                <font size="4"><br />
-                                                </font>
-                                                <font size="3"><br />
+<font face="ＭＳ ゴシック" size="3"><strong>（初版）</strong></font>
+<font size="4"><br/>
+</font>
+<font size="3"><br/>
                                                         Era Showa</font>
-                                                <font face="ＭＳ ゴシック">13 de dezembro de 1942</font>
-                                                <font size="3">Publicado<br />
-                                                        <br />
-                                                        謄写版、和紙、袋とじ<br />
+<font face="ＭＳ ゴシック">13 de dezembro de 1942</font>
+<font size="3">Publicado<br/>
+<br/>
+                                                        謄写版、和紙、袋とじ<br/>
                                                         A５版
                                                 </font>
-                                                <font face="ＭＳ ゴシック" size="3">、133丁、265頁<br />
-                                                        Venda Proibida<br />
-                                                </font>
-                                                <font size="3"><br />
-                                                        Autor: Mokiti Okada<br />
-                                                        <br />
-                                                        Impressor: 　原　　清作<br />
+<font face="ＭＳ ゴシック" size="3">、133丁、265頁<br/>
+                                                        Venda Proibida<br/>
+</font>
+<font size="3"><br/>
+                                                        Autor: Mokiti Okada<br/>
+<br/>
+                                                        Impressor: 　原　　清作<br/>
                                                         発行所　坂井商事出版部
                                                 </font>
-                                        </td>
-                                </tr>
-                                <tr>
-                                        <td>　</td>
-                                        <td>　</td>
-                                </tr>
-                                <tr>
-                                        <td align="center" colspan="2"><img height="278" src="../img/kekkaku3.jpg"
-                                                        width="371" /></td>
-                                </tr>
-                                <tr>
-                                        <td colspan="2">
-                                                <p align="center">和紙は流石に痛みがほとんど感じられない</p>
-                                        </td>
-                                </tr>
-                                <tr>
-                                        <td align="center"><img height="270" src="../img/ksono.JPG" width="188" /></td>
-                                        <td valign="top"><a href="../sasshi/kaiketu2.html">O Problema da Tuberculose e
+</td>
+</tr>
+<tr>
+<td>　</td>
+<td>　</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img height="278" src="../img/kekkaku3.jpg" width="371"/></td>
+</tr>
+<tr>
+<td colspan="2">
+<p align="center">和紙は流石に痛みがほとんど感じられない</p>
+</td>
+</tr>
+<tr>
+<td align="center"><img height="270" src="../img/ksono.JPG" width="188"/></td>
+<td valign="top"><a href="../sasshi/kaiketu2.html">O Problema da Tuberculose e
                                                         sua Solução (Reedição)</a>
-                                                <font face="ＭＳ ゴシック" size="4"><strong>（Saiban）</strong><br />
-                                                        <br />
-                                                </font>
-                                                <font face="ＭＳ ゴシック" size="3">Publicado em 5 de maio de 1943<br />
-                                                        Ｂ６ Ban　　　181P　<br />
-                                                        定価二円<br />
-                                                </font>
-                                                <font size="3">Autor: Mokiti Okada</font>
-                                                <font face="ＭＳ Ｐゴシック" size="3"><br />
-                                                </font>
-                                                <font face="ＭＳ ゴシック" size="3">Editor: 　志保澤　武<br />
+<font face="ＭＳ ゴシック" size="4"><strong>（Saiban）</strong><br/>
+<br/>
+</font>
+<font face="ＭＳ ゴシック" size="3">Publicado em 5 de maio de 1943<br/>
+                                                        Ｂ６ Ban　　　181P　<br/>
+                                                        定価二円<br/>
+</font>
+<font size="3">Autor: Mokiti Okada</font>
+<font face="ＭＳ Ｐゴシック" size="3"><br/>
+</font>
+<font face="ＭＳ ゴシック" size="3">Editor: 　志保澤　武<br/>
                                                         Gráfica: 　熊谷Gráfica: </font>
-                                                <font size="3"><br />
-                                                        <br />
-                                                </font>Disposição de proibição de publicação em fevereiro de 1944
+<font size="3"><br/>
+<br/>
+</font>Disposição de proibição de publicação em fevereiro de 1944
                                         </td>
-                                </tr>
-                                <tr>
-                                        <td align="center" colspan="2">　</td>
-                                </tr>
-                                <tr>
-                                        <td align="center" colspan="2"><img height="255" src="../img/kekkaku2.jpg"
-                                                        width="328" /></td>
-                                </tr>
-                        </table>
-                </center>
-        </div>
-        <p align="left">　</p>
-        <p align="left">　</p>
-</body>
+</tr>
+<tr>
+<td align="center" colspan="2">　</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img height="255" src="../img/kekkaku2.jpg" width="328"/></td>
+</tr>
+</table>
+</center>
+</div>
+<p align="left">　</p>
+<p align="left">　</p>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 結核問題ト其解決策 『明日の医術』初版中より、結核に関する所説を抜粋したもの。<br/><br/> 結核問題ト其解決策 （初版） 昭和 17年12月13日 発行 謄写版、和紙、袋とじ A５版 、133丁、265頁 非売品 著者 岡田 茂吉 印刷者 原 清作 発行所 坂井商事出版部 和紙は流石に痛みがほとんど感じられない 結核問題と其解決策 （再版） 昭和18年5月5日発行 Ｂ６版 181P 定価二円 著者 岡田 茂吉 発行者 志保澤 武 印刷所 熊谷印刷所 昭和19年2月発行禁止処分</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

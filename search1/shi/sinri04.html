@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinri04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理の具現 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』18号、昭和24(1949)年7月16日発行 そもそも、宗教の真の目的は何であるかといえば、言うまでもなく真理の具現である。<br><br>真理とは何ぞやというと、もちろん自然そのままの姿をいうのである。<br><br>東から太陽が出て、西に沈むという事も、人間は生れれば必ず死ぬという事も、これは仏説のいわゆる生者必滅（しょうじゃひつめつ）会者定離（えしゃじょうり）という事であり、人間は空気を呼吸し、食物を食う事によって生きているという事も、もちろん真理である。<br><br>こんな判り切った事を言わなければならない程、人類の現状は出鱈目（でたらめ）になっているのである。<br><br> 右の理によって、現在社会万般にわたる混乱、闘争、無秩序、罪悪等の忌わしき事象を見ても、人類が幸福になるよりも、不幸になる条件の方が多い事は否み得まい。<br><br>とすれば、その原因が奈辺（なへん）にありやを考えてみなくてはならない。<br><br>私の見るところでは、一切の根本が真理に遠ざかり過ぎているからで、それがあまりにも明かである。<br><br>ただ真理に遠ざかっていながら、それに気がつかないだけである。<br><br>しかしながら、それは何がためであろうかをここに検討してみるが、実は現代人は真理そのものさえも判らなくなっている。<br><br>というのは生活問題の窮迫に真理など考える余裕が無いからでもあろう。<br><br>もっとも、肝腎な宗教でさえ、今日まで真理そのものがはっきりしなかった点もあり、真理と思って非真理を説く事が多かったのである。<br><br>もし真理を真に説き得たとしたら、人類社会は現在よりもっと良くなっていなければならないはずである。<br><br>あるいは天国楽土がある程度実現していたかも知れないと思う。<br><br>しかるに天の時来ってここに神意の発現となり、私を通して真理を説諭すると共に真理の具現を遂行さるる事になったのである。<br><br>ゆえに私が説くところの諸々の言説は、真理そのものを万人に最も解りやすく宣示する以上、読む人は虚心坦懐（きょしんたんかい）白紙になって熟読玩味（じゅくどくがんみ）すれば、髣髴（ほうふつ）として真理は浮ぶであろう。<br><br> 右によって私は最も手近な所から説いてみるが、人間が病気をするという事は、真理に外れた点があるからであり、それを治し得ない医学は、これまた真理に外れているからである。<br><br>政治が悪い、思想が悪いという事も、犯罪が殖える、金詰り、インフレ、デフレで苦しむという事も、どこか真理に外れたところがあるからである。<br><br>もし真理に外れていないとすれば、正しい事は人間の希望通りにゆくはずで、そのように人間社会を神が造られているのである。<br><br>ゆえに思〔理〕想的善美な社会も、人間が歓喜幸福の生活者となり得る事も、あえて難事ではないのである。<br><br>すなわち私が唱える地上天国出現の可能性もここにあるのである。<br><br> このような訳であるから、私の言説には随分異（ちが）った点があると思うであろうが、実はいささかも異ってはいない。<br><br>至極当りまえの事である。<br><br>異っていると思うのは非真理の眼で見るからである。<br><br>私の説が異説と思えば思う程、社会の現実が異説的なためである。<br><br> 神は人間に対し無限の自由を与えている。<br><br>これが真理である。<br><br>人間以外の動植物には限られる自由しか与えられていない。<br><br>ここに人間の尊さがある。<br><br>しからば人間の自由とは何であるかというと、人間向上すれば神となり、堕落すれば獣となるという両極端のその中間の位置に存在しているからである。<br><br>この理を推進する時、こういう事になる。<br><br>それは人間のやり方次第で、この世はいとも楽しい楽苑ともなり、その反対であればいとも悲惨な地獄ともなる。<br><br> これが真理である。<br><br>とすれば、人間は右のいずれを選ぶべきか、考えるまでもなく先天性の悪魔でない限り、前者を欲するのは当然であろう。<br><br> 右のごとくでありとすれば、前者の天国世界の実現こそ、人類究極の目的であり、その目的達成こそ、真理の具現あるのみである。<br><br>そうして、それが宗教本来の使命である以上、私は常に、筆に口に真理を教え、なおかつ真理の具現者として、日もこれ足らず努力活動しつつあるのである。<br><br> ACTUALIZATION OF THE TRUTH (2nd version) What is the true purpose of religion in the first place? The answer is, of course, actualization of the truth. Well then, what is the truth? The answer is, of course, what nature is as it is in itself. That the sun rises in the east and sets in the west, that if man is to be born, then man is to necessarily die: this is, what Buddhism says, "All living things must die" or "Those who meet must part", and also that man breathes the air and lives by eating foods; of course, all these are truths. To such an extent that I have to say these obvious facts, the present state of mankind has been deranged For this reason, when you see disgusting events all over the present society: disorder, conflicts, chaos, crimes, etc., you probably cannot deny that there are more conditions that lead mankind to unhappiness rather than to happiness. If so, we must think about where in the world the cause lies. As I see it, this is exactly because the basis of every thing has been too far away from the truth. And the whole story is simply that while people have moved away from the truth, yet they have no consciousness of this state. But why? Let me consider and tell you the truth, the contemporary people have already become unable to get even the slightest idea of truth itself. One reason is probably that they cannot afford to direct their thoughts to what truth is, because they are too busy struggling with pressing problems of everyday life. There is another reason, though: even the religion, which is crucial for bringing the solution, has not had enough light to see clearly the truth itself so far, and has often taught untruth thinking it to be the truth. If the religion had had the ability to teach the truth in a true way, human society should have had to be much better than now. Or rather, I think, heaven on earth may have been realized to some extent. However, the heavenly time has come and the divine will is here to be revealed, and God would preach the truth through me and carry out the actualization of the truth by using me as well. Therefore, since all kinds of discourse that I expound make clear the truth itself in the simplest way for everyone, if my readers, being free from all prejudice with a clean slate, read my writings closely and with appreciation, the truth will come vividly to mind. So that, I will explain the most familiar matters to begin with; people fall ill just because they are off the truth in some sense, and the reason why medicine cannot cure the illness is also its being off the truth. Politics is to blame; current thoughts are unsound; crimes are increasing; people are suffering from lack of money, deflation or inflation; all these come to happen precisely because something is off the truth. If there is nothing off the truth on the side of humans, whatever is right should be as well under way as they wish, for God has created human society in such way. Therefore, it is not so difficult for us to realize an ideal society of virtue and beauty, as well as for man to live a joyful happy life; that is to say, the possibility consists in this that heaven on earth will arrive, which I advocate. Such being the case, my remarks may seem to be very odd in some points, but actually there is no oddity at all. They are quite as a matter of course. People find oddity in what I say because they see it with untruthful eyes. They think my view to be heretical all the more because the reality of this world is heretical. God has granted unlimited freedom to man. This is the truth. Plants and animals other than human beings have been only given limited freedom, in which the honor of man consists. Then, what is the freedom intrinsic to man? Let me say: man has freedom because he exists in the middle point between the opposite extremes, which means that if man is elevated he will become a god, while if he is degraded he will become a beast. When this reasoning is pushed forward, we get to this: it depends on man's way of doing whether this world becomes so joyful a paradise or, on the contrary, so miserable a hell. This is the truth. If so, which of these two should we choose? Needless to think of, it is quite natural, excluding a born natural devil, to prefer the former. What follows straight from the above is that the former, that is, the realization of heaven on earth is exactly the ultimate purpose of mankind, and the achievement of this purpose is nothing but the actualization of the truth. And so, since it is the primary mission of religion, I continually teach the truth both by writing and by speaking; still further, as an actualizer of the truth, by day and by night I am acting with my best efforts.
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Concretização da Verdade</h2>
 <p>Qual é, em essência, o verdadeiro propósito da religião? É, sem dúvida, a concretização da Verdade. E o que é a Verdade? É, por certo, a própria manifestação da natureza em sua forma original. O fato de o Sol nascer no Leste e se pôr no Oeste, ou de o ser humano, uma vez nascido, invariavelmente caminhar para a morte — o que corresponde aos preceitos budistas de <em>shojahitsumetsu</em> (todo aquele que vive certamente há de morrer) e <em>eshajori</em> (aqueles que se encontram, inevitavelmente hão de se separar) —, assim como o fato de vivermos ao respirar o ar e nos alimentarmos, tudo isso é, naturalmente, a Verdade. A necessidade de expor fatos tão manifestos revela o quão desvirtuada se encontra a condição atual da humanidade.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Deus concedeu ao ser humano liberdade ilimitada. Esta é a Verdade. Aos animais e plantas, que não o homem, foi outorgada apenas uma liberdade restrita. Nisto reside a nobreza do ser humano. O que é, então, a liberdade humana? Ela se define pela posição intermediária que o homem ocupa entre dois extremos opostos: a capacidade de se elevar ao nível de um deus ou de se degradar à condição de uma besta. Ao aprofundarmos esse raciocínio, concluímos que, a depender da conduta humana, este mundo pode se transformar tanto em um paraíso de sublime deleite quanto, ao contrário, em um inferno de profunda miséria.</p>
 <p>Esta é a Verdade. Posto isso, qual das duas alternativas o ser humano deve escolher? Salvo no caso de um demônio por natureza, a preferência pela primeira é, obviamente, a única escolha sensata.</p>
 <p>Sendo assim, a realização do primeiro cenário, ou seja, do Mundo Celestial, é o objetivo supremo da humanidade, e a consecução de tal objetivo reside unicamente na concretização da Verdade. E, por ser essa a missão primordial da religião, eu me dedico incessantemente, pela escrita e pela palavra, a ensinar a Verdade. Mais ainda, como agente de sua concretização, empenho-me em minhas atividades com um esforço que nem os dias e as noites são capazes de conter.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理の具現 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』18号、昭和24(1949)年7月16日発行 そもそも、宗教の真の目的は何であるかといえば、言うまでもなく真理の具現である。<br/><br/>真理とは何ぞやというと、もちろん自然そのままの姿をいうのである。<br/><br/>東から太陽が出て、西に沈むという事も、人間は生れれば必ず死ぬという事も、これは仏説のいわゆる生者必滅（しょうじゃひつめつ）会者定離（えしゃじょうり）という事であり、人間は空気を呼吸し、食物を食う事によって生きているという事も、もちろん真理である。<br/><br/>こんな判り切った事を言わなければならない程、人類の現状は出鱈目（でたらめ）になっているのである。<br/><br/> 右の理によって、現在社会万般にわたる混乱、闘争、無秩序、罪悪等の忌わしき事象を見ても、人類が幸福になるよりも、不幸になる条件の方が多い事は否み得まい。<br/><br/>とすれば、その原因が奈辺（なへん）にありやを考えてみなくてはならない。<br/><br/>私の見るところでは、一切の根本が真理に遠ざかり過ぎているからで、それがあまりにも明かである。<br/><br/>ただ真理に遠ざかっていながら、それに気がつかないだけである。<br/><br/>しかしながら、それは何がためであろうかをここに検討してみるが、実は現代人は真理そのものさえも判らなくなっている。<br/><br/>というのは生活問題の窮迫に真理など考える余裕が無いからでもあろう。<br/><br/>もっとも、肝腎な宗教でさえ、今日まで真理そのものがはっきりしなかった点もあり、真理と思って非真理を説く事が多かったのである。<br/><br/>もし真理を真に説き得たとしたら、人類社会は現在よりもっと良くなっていなければならないはずである。<br/><br/>あるいは天国楽土がある程度実現していたかも知れないと思う。<br/><br/>しかるに天の時来ってここに神意の発現となり、私を通して真理を説諭すると共に真理の具現を遂行さるる事になったのである。<br/><br/>ゆえに私が説くところの諸々の言説は、真理そのものを万人に最も解りやすく宣示する以上、読む人は虚心坦懐（きょしんたんかい）白紙になって熟読玩味（じゅくどくがんみ）すれば、髣髴（ほうふつ）として真理は浮ぶであろう。<br/><br/> 右によって私は最も手近な所から説いてみるが、人間が病気をするという事は、真理に外れた点があるからであり、それを治し得ない医学は、これまた真理に外れているからである。<br/><br/>政治が悪い、思想が悪いという事も、犯罪が殖える、金詰り、インフレ、デフレで苦しむという事も、どこか真理に外れたところがあるからである。<br/><br/>もし真理に外れていないとすれば、正しい事は人間の希望通りにゆくはずで、そのように人間社会を神が造られているのである。<br/><br/>ゆえに思〔理〕想的善美な社会も、人間が歓喜幸福の生活者となり得る事も、あえて難事ではないのである。<br/><br/>すなわち私が唱える地上天国出現の可能性もここにあるのである。<br/><br/> このような訳であるから、私の言説には随分異（ちが）った点があると思うであろうが、実はいささかも異ってはいない。<br/><br/>至極当りまえの事である。<br/><br/>異っていると思うのは非真理の眼で見るからである。<br/><br/>私の説が異説と思えば思う程、社会の現実が異説的なためである。<br/><br/> 神は人間に対し無限の自由を与えている。<br/><br/>これが真理である。<br/><br/>人間以外の動植物には限られる自由しか与えられていない。<br/><br/>ここに人間の尊さがある。<br/><br/>しからば人間の自由とは何であるかというと、人間向上すれば神となり、堕落すれば獣となるという両極端のその中間の位置に存在しているからである。<br/><br/>この理を推進する時、こういう事になる。<br/><br/>それは人間のやり方次第で、この世はいとも楽しい楽苑ともなり、その反対であればいとも悲惨な地獄ともなる。<br/><br/> これが真理である。<br/><br/>とすれば、人間は右のいずれを選ぶべきか、考えるまでもなく先天性の悪魔でない限り、前者を欲するのは当然であろう。<br/><br/> 右のごとくでありとすれば、前者の天国世界の実現こそ、人類究極の目的であり、その目的達成こそ、真理の具現あるのみである。<br/><br/>そうして、それが宗教本来の使命である以上、私は常に、筆に口に真理を教え、なおかつ真理の具現者として、日もこれ足らず努力活動しつつあるのである。<br/><br/> ACTUALIZATION OF THE TRUTH (2nd version) What is the true purpose of religion in the first place? The answer is, of course, actualization of the truth. Well then, what is the truth? The answer is, of course, what nature is as it is in itself. That the sun rises in the east and sets in the west, that if man is to be born, then man is to necessarily die: this is, what Buddhism says, "All living things must die" or "Those who meet must part", and also that man breathes the air and lives by eating foods; of course, all these are truths. To such an extent that I have to say these obvious facts, the present state of mankind has been deranged For this reason, when you see disgusting events all over the present society: disorder, conflicts, chaos, crimes, etc., you probably cannot deny that there are more conditions that lead mankind to unhappiness rather than to happiness. If so, we must think about where in the world the cause lies. As I see it, this is exactly because the basis of every thing has been too far away from the truth. And the whole story is simply that while people have moved away from the truth, yet they have no consciousness of this state. But why? Let me consider and tell you the truth, the contemporary people have already become unable to get even the slightest idea of truth itself. One reason is probably that they cannot afford to direct their thoughts to what truth is, because they are too busy struggling with pressing problems of everyday life. There is another reason, though: even the religion, which is crucial for bringing the solution, has not had enough light to see clearly the truth itself so far, and has often taught untruth thinking it to be the truth. If the religion had had the ability to teach the truth in a true way, human society should have had to be much better than now. Or rather, I think, heaven on earth may have been realized to some extent. However, the heavenly time has come and the divine will is here to be revealed, and God would preach the truth through me and carry out the actualization of the truth by using me as well. Therefore, since all kinds of discourse that I expound make clear the truth itself in the simplest way for everyone, if my readers, being free from all prejudice with a clean slate, read my writings closely and with appreciation, the truth will come vividly to mind. So that, I will explain the most familiar matters to begin with; people fall ill just because they are off the truth in some sense, and the reason why medicine cannot cure the illness is also its being off the truth. Politics is to blame; current thoughts are unsound; crimes are increasing; people are suffering from lack of money, deflation or inflation; all these come to happen precisely because something is off the truth. If there is nothing off the truth on the side of humans, whatever is right should be as well under way as they wish, for God has created human society in such way. Therefore, it is not so difficult for us to realize an ideal society of virtue and beauty, as well as for man to live a joyful happy life; that is to say, the possibility consists in this that heaven on earth will arrive, which I advocate. Such being the case, my remarks may seem to be very odd in some points, but actually there is no oddity at all. They are quite as a matter of course. People find oddity in what I say because they see it with untruthful eyes. They think my view to be heretical all the more because the reality of this world is heretical. God has granted unlimited freedom to man. This is the truth. Plants and animals other than human beings have been only given limited freedom, in which the honor of man consists. Then, what is the freedom intrinsic to man? Let me say: man has freedom because he exists in the middle point between the opposite extremes, which means that if man is elevated he will become a god, while if he is degraded he will become a beast. When this reasoning is pushed forward, we get to this: it depends on man's way of doing whether this world becomes so joyful a paradise or, on the contrary, so miserable a hell. This is the truth. If so, which of these two should we choose? Needless to think of, it is quite natural, excluding a born natural devil, to prefer the former. What follows straight from the above is that the former, that is, the realization of heaven on earth is exactly the ultimate purpose of mankind, and the achievement of this purpose is nothing but the actualization of the truth. And so, since it is the primary mission of religion, I continually teach the truth both by writing and by speaking; still further, as an actualizer of the truth, by day and by night I am acting with my best efforts.</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

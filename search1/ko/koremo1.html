@@ -1,159 +1,308 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>koremo1</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>koremo1</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： これも医療の被害者 『栄光』185号、昭和27(1952)年12月3日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 医療は病気を治すものではなく、一時抑えで、実際は病気を悪くする方法だという事はいつも唱えているが、左記の例はそれをハッキリ表わしているので、これを読んだら誰でもなるほどと思うであろう。<br><br>このような恐るべき理に気が付かず、相変らず医学に迷信してる現代社会は、何といっていいかその無智蒙昧（もうまい）に驚かざるを得ないのである。<br><br>これを一言にしていえば、現代は文化的野蛮時代というより外に言葉はあるまい。<br><br> 悪質の眼病いつしか癒えて 東京都 更生中教会 今江雅治（28） 幼少の頃よりの眼病いつしか癒され、光明と希望に満ちてる毎日を尊い御聖業の一端に御奉仕させて戴く喜び、ただただ明主様に有難うございますの御礼を申し上ぐるのみでございます。<br><br>現在のこの身の幸を思うとき、暗黒の世にあえぎ苦しんで来た二十年間の思い出が浮んで参ります。<br><br>生まれると間もなく胎毒の為目が悪くなり、毎朝目脂に閉され、母親がなめて目脂を取ってくれたとのことです。<br><br>水や湯で洗ってもなかなか取れず、取っても後から血が吹出て来る為なめて取ってくれたのだそうです。<br><br>解毒剤を五週間程のみ漸く治ったとの事でした。<br><br>肩の張り頭の重いのは子供心にも覚えており、九歳頃はよく母親に肩をもんでもらった事をおぼえております。<br><br>今にして思えば目の御浄化の折何も手当をせず放任して置けば自然に治癒し後で又苦しむ事が無かった事と思います。<br><br>小学校高等科一年の夏、大島六力村小学校の水泳大会に出場の為八月毎日の様に練習致しておりました。<br><br>大会の朝登校中突然目が痛み出し、両眼開けている事が出来ず、医者へかけ込み治療を受けましたが楽にならず、大会にも出場出来ず医師より目薬をもらい家に帰りました。<br><br>帰宅後は特に痛み何か目の中に入っている様に感じ、母に見てもらいましたところ、上下まぶたの表面のうすい皮がむけてよれているとの事、取去って後しばらくすると又よれて痛んで参ります。<br><br>目薬を差しますとそれが一層はげしく、取っても取っても皮がむけて来るのです。<br><br>五日間程は目を開けて物を見る事が出来ませんでした。<br><br>一週間目頃からどうやら物を見る事が出来る様になり、学校へ行ける様になりましたが、それから後は太陽の光がまぶしく、天気のよい日は目を開けている事が困難でした。<br><br>目薬は医者からのは一週間、ロート目薬は一カ月位使用致しました。<br><br>小学校卒業後青山師範の受験の折身体検査で重症トラホームであると言われ落第、この折はじめてトラホームなる病症である事を知りました。<br><br>その後東京月島のある鉄工所に勤める様になり、その夏隅田川の汚水作業で終了後毎日の様に泳いだところ又々目が痛み出し、九月より夜学へ通学不眠も加え益々悪化、昭和十七年十一月頃より東京京橋の宮下眼科医院へ通院する様になり、以後二年半一日の休みとてなく全治させたい一心で通っておりましたが、通院日数が増すにつれ目は一層悪化するのみにて、目は赤くただれ、時には腫れ、又はかすみ、それと共に頭は重く、人と面と向って対談する事はいかにもつらく、人中へ出るのもいやになり、心の底までも陪くなってしまいました。<br><br>手術も数回しましたが変化無く、終には角膜実質炎と言われ眼球に網状のものが出来かすむ様になってしまいました。<br><br>視力も〇・一までになり失明するのではないかと如何ばかり心配した事でしょう。<br><br>何とかして治りたいと新聞雑誌等に目薬の広告が出ていると必ず取よせ使用してみましたが何の効果も見られませんでした。<br><br>医師に聞いても「あなたの目はたちが悪いから長くかかります。<br><br>その内に良くなりますよ」との事、「その内に良くなる」これのみをたよりに二年半通い続けたのです。<br><br>昭和二十年三月十日東京大空襲の折宮下眼科医院も焼け、引続く空襲に目どころではなくなり、その折より目の手当を止めてしまいました。<br><br>しかるに今までの苦しみが漸次うすらぎ、一カ月後にはほとんど苦痛が無くなり、視力も出て来まして四月二十五日、石川県金沢へ入隊する頃は大変良くなっておりました。<br><br>九月十三日復員、大島へ帰らず静岡県駿東郡小山町の姉のところへ帰って来ました。<br><br>復員後眼病の再発を感じおりましたところ、姉より藤曲の森田先生のお話を聞きすすめられるままに姉と森田先生のところへ参りました。<br><br>当時は治療時代で先生は患者の半裸体の上に手を振り又はさわり治療しておられ、当時の私には異様な感じでした。<br><br>お話を伺っております内に今までの医療とは百八十度の違いでありますが真理の様に思われ、又私自身の体験からしても、医学療法で現在に及び未だ治癒せず、医薬を止めてからやや良くなった事等を思い合わせると今までの治療法が間違っていたという事を感ぜずにはおられませんでした。<br><br>先生は「目の悪くなる原因は頭と頸と肩に原因があり、そこを治さなければ目は治りません」と言われます。<br><br>私の肩は子供の頃から悪く、頸も頭も同様立くらみ等毎度の事ですので、成程だなと思いました。<br><br>その日は御浄霊して戴き、『明日の医術』の御著書第三篇をお借りして帰り、拝読させて頂くに今までの常識と異なるのに仰天、お伺いの度に第一篇第二篇をもお読みさせて頂きました。<br><br>医学の間違い薬の恐ろしさをつくづくと感じさせられ、十月十三、十四、十五日の教修会に参列させて頂き、坂井先生より尊い御守を御下げ戴き拝受させて戴きました。<br><br>以後七年微力ながらも御聖業に御奉仕させて頂き、やがては盲目の悲しみに泣く我が目も何時とはなく癒され、報恩感謝の念に燃え希望に満てる日々を過させて頂いております事を厚く御礼申し上げます。<br><br> 御恩の万分の一にもお報いさせて頂きたく努力しております。<br><br>入信以来数々の御守護を戴いております事を重ねて厚く御礼申し上げます。<br><br>御礼御報告の延び延びになり大変おくれました事をお詫び申し上げます。<br><br> 明主様有難うございます。<br><br> （昭和二十七年十月十六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Mais uma vítima da terapêutica médica</h2>
-            <p>Tenho reiteradamente afirmado que a terapêutica médica não cura as doenças, mas constitui apenas uma
+<h2>Mais uma vítima da terapêutica médica</h2>
+<p>Tenho reiteradamente afirmado que a terapêutica médica não cura as doenças, mas constitui apenas uma
                 supressão temporária, sendo, na realidade, um método que as agrava. O relato a seguir elucida essa
                 verdade de forma irrefutável e, ao lê-lo, qualquer pessoa certamente a compreenderá. É de se espantar a
                 ignorância e a ofuscação da sociedade contemporânea que, alheia a um princípio tão funesto, persiste em
                 sua supersticiosa confiança na medicina. Para expressá-lo em poucas palavras, não há outra expressão
                 para a era atual senão “a era da barbárie cultural”.</p>
-            <h3>Grave enfermidade ocular curada de forma imperceptível</h3>
-            <p><strong>Tóquio – Igreja Johrei Kossei – Imae Masaharu (28 anos)</strong></p>
-            <p>A alegria de poder me dedicar a uma parcela da sagrada Obra Divina, com a enfermidade ocular que me
+<h3>Grave enfermidade ocular curada de forma imperceptível</h3>
+<p><strong>Tóquio – Igreja Johrei Kossei – Imae Masaharu (28 anos)</strong></p>
+<p>A alegria de poder me dedicar a uma parcela da sagrada Obra Divina, com a enfermidade ocular que me
                 afligia desde a infância finalmente curada, enche meus dias de luz e esperança. Por essa graça, resta-me
                 apenas expressar minha infinda gratidão a Meishu-Sama. Quando reflito sobre a felicidade que desfruto
                 hoje, emergem as lembranças de vinte anos em que padeci e lutei nas trevas.</p>
-            <p>Logo após meu nascimento, devido a toxinas congênitas, meus olhos foram acometidos por uma afecção. Todas
+<p>Logo após meu nascimento, devido a toxinas congênitas, meus olhos foram acometidos por uma afecção. Todas
                 as manhãs, amanheciam selados pela secreção, e minha mãe precisava removê-la com a própria língua, pois
                 a tentativa com água ou pano provocava sangramento. Tomei um depurativo por cerca de cinco semanas, o
                 que trouxe uma melhora aparente. Contudo, desde a infância, recordo-me da rigidez nos ombros e da cabeça
                 pesada, a ponto de, por volta dos nove anos, pedir frequentemente à minha mãe que me massageasse os
                 ombros.</p>
-            <p>Hoje, ao refletir, compreendo que se, à época daquela purificação ocular, não tivesse recebido tratamento
+<p>Hoje, ao refletir, compreendo que se, à época daquela purificação ocular, não tivesse recebido tratamento
                 algum e a deixasse seguir seu curso, a cura teria sido natural, e eu não teria padecido novamente no
                 futuro.</p>
-            <p>No verão do primeiro ano do curso superior da escola primária, enquanto treinava diariamente para a
+<p>No verão do primeiro ano do curso superior da escola primária, enquanto treinava diariamente para a
                 competição de natação, fui acometido por uma súbita dor lancinante nos olhos a caminho da escola. Não
                 conseguia mantê-los abertos. Corri a um médico e recebi tratamento, mas o alívio não veio. Incapaz de
                 participar do torneio, voltei para casa com um colírio.</p>
-            <p>Em casa, a dor intensificou-se, com a sensação de ter um corpo estranho nos olhos. Pedi à minha mãe que
+<p>Em casa, a dor intensificou-se, com a sensação de ter um corpo estranho nos olhos. Pedi à minha mãe que
                 verificasse, e ela constatou que a fina película que reveste a parte interna das pálpebras superiores e
                 inferiores estava se desprendendo e enrugando. Mesmo após a remoção, em pouco tempo o problema
                 retornava, causando dor. A aplicação do colírio apenas intensificava o processo, fazendo com que a
                 película se soltasse incessantemente. Por cinco dias, fui incapaz de abrir os olhos. Somente após uma
                 semana consegui enxergar o suficiente para voltar à escola, mas, a partir de então, a luz do sol
                 tornou-se ofuscante, dificultando manter os olhos abertos em dias claros.</p>
-            <p>Após me formar, prestei exame para a Escola Normal de Aoyama, mas fui reprovado no exame físico, quando
+<p>Após me formar, prestei exame para a Escola Normal de Aoyama, mas fui reprovado no exame físico, quando
                 me diagnosticaram com tracoma grave. Foi a primeira vez que ouvi o nome da minha doença.</p>
-            <p>Posteriormente, passei a trabalhar em uma metalúrgica em Tsukishima, Tóquio. Naquele verão, após o
+<p>Posteriormente, passei a trabalhar em uma metalúrgica em Tsukishima, Tóquio. Naquele verão, após o
                 expediente, nadei quase diariamente nas águas poluídas do rio Sumida, o que provocou uma nova crise. A
                 partir de setembro, comecei a frequentar um curso noturno, e a consequente falta de sono agravou ainda
                 mais meu estado. Por volta de novembro de 1942, iniciei tratamento na Clínica Oftalmológica Miyashita,
                 em Kyobashi, à qual compareci por dois anos e meio, sem faltar um único dia, no anseio desesperado pela
                 cura.</p>
-            <p>Todavia, quanto mais eu frequentava a clínica, pior ficava. Meus olhos viviam avermelhados e inflamados,
+<p>Todavia, quanto mais eu frequentava a clínica, pior ficava. Meus olhos viviam avermelhados e inflamados,
                 por vezes inchados e com a visão turva. Concomitantemente, a cabeça pesava, e o simples ato de conversar
                 face a face com alguém tornou-se um tormento. Passei a evitar o convívio social, e minha alma
                 amargurou-se até o âmago. Submeti-me a várias cirurgias, sem qualquer resultado, até que, por fim, fui
@@ -163,39 +312,81 @@ function toggleLang(lang) {
                 nenhum surtiu efeito. Ao questionar o médico, ele dizia: “Seus olhos têm uma condição rebelde, o
                 tratamento será longo. Com o tempo, o senhor ficará bom.” Apegado a essa única promessa, persisti no
                 tratamento por dois anos e meio.</p>
-            <p>Em 10 de março de 1945, durante o Grande Bombardeio Aéreo de Tóquio, a Clínica Miyashita foi incendiada.
+<p>Em 10 de março de 1945, durante o Grande Bombardeio Aéreo de Tóquio, a Clínica Miyashita foi incendiada.
                 Com os ataques incessantes, a preocupação com os olhos tornou-se secundária, e abandonei por completo
                 qualquer tratamento. Contudo, para minha surpresa, o sofrimento que me atormentara por tanto tempo
                 começou a diminuir gradualmente. Um mês depois, a dor havia praticamente desaparecido, e a acuidade
                 visual começava a retornar. Em 25 de abril, quando fui convocado para o serviço militar em Kanazawa, na
                 província de Ishikawa, eu já estava muito melhor.</p>
-            <p>Desmobilizado do exército em 13 de setembro, em vez de voltar para Oshima, fui para a casa de minha irmã
+<p>Desmobilizado do exército em 13 de setembro, em vez de voltar para Oshima, fui para a casa de minha irmã
                 em Oyama-cho, província de Shizuoka. Lá, senti que a doença ocular estava ressurgindo. Foi quando minha
                 irmã me falou sobre o ministro Morita, de Fujimagari. A seu conselho, fomos juntos procurá-lo. Naquela
                 época, vivíamos a chamada "era da terapêutica", e o ministro ministrava movendo as mãos ou tocando o
                 corpo seminu dos enfermos, uma cena que, a princípio, me pareceu bastante peculiar.</p>
-            <p>Suas palavras, embora representassem uma inversão de 180 graus em relação à medicina convencional,
+<p>Suas palavras, embora representassem uma inversão de 180 graus em relação à medicina convencional,
                 ressoaram em mim como a mais pura verdade. Ao correlacionar minha própria experiência — a ineficácia da
                 medicina e a melhora que senti justamente ao abandoná-la —, não pude deixar de sentir que todo o meu
                 tratamento anterior havia sido um equívoco. O ministro explicou: “A causa do problema em seus olhos está
                 na cabeça, no pescoço e nos ombros. Sem tratar esses pontos, seus olhos não se curarão.” Como eu sofria
                 com os ombros, o pescoço e a cabeça desde criança, com tonturas frequentes, suas palavras fizeram todo o
                 sentido.</p>
-            <p>Naquele dia, recebi Johrei e tomei emprestado o terceiro volume da obra <em>Ashita no Ijutsu</em>. Ao
+<p>Naquele dia, recebi Johrei e tomei emprestado o terceiro volume da obra <em>Ashita no Ijutsu</em>. Ao
                 iniciar a leitura, fiquei atônito com a forma como ela contrariava o senso comum. Em visitas
                 posteriores, li também o primeiro e o segundo volumes, compreendendo em profundidade o erro da medicina
                 e o perigo dos medicamentos. Participei de um curso de formação nos dias 13, 14 e 15 de outubro e tive a
                 honra de receber o sagrado Ohikari das mãos do reverendo Sakai.</p>
-            <p>Desde então, há sete anos, venho servindo à Obra Divina com minhas parcas forças. Meus olhos, outrora
+<p>Desde então, há sete anos, venho servindo à Obra Divina com minhas parcas forças. Meus olhos, outrora
                 fadados a chorar na tristeza da cegueira, foram curados de forma quase imperceptível. Hoje, ardo em
                 gratidão e vivo dias plenos de esperança. Esforço-me para retribuir, ainda que minimamente, uma ínfima
                 parcela da imensa graça recebida. Reitero minha mais profunda gratidão pelas inúmeras proteções que
                 venho recebendo desde que ingressei na fé.</p>
-            <p>Peço sinceras desculpas pela demora em apresentar este relato e testemunho de gratidão.</p>
-            <p>Meishu-Sama, muito obrigado.</p>
-            <p>(16 de outubro de 1952)</p>
-        </div>
-    </blockquote>
-</body>
+<p>Peço sinceras desculpas pela demora em apresentar este relato e testemunho de gratidão.</p>
+<p>Meishu-Sama, muito obrigado.</p>
+<p>(16 de outubro de 1952)</p>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： これも医療の被害者 『栄光』185号、昭和27(1952)年12月3日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 医療は病気を治すものではなく、一時抑えで、実際は病気を悪くする方法だという事はいつも唱えているが、左記の例はそれをハッキリ表わしているので、これを読んだら誰でもなるほどと思うであろう。<br/><br/>このような恐るべき理に気が付かず、相変らず医学に迷信してる現代社会は、何といっていいかその無智蒙昧（もうまい）に驚かざるを得ないのである。<br/><br/>これを一言にしていえば、現代は文化的野蛮時代というより外に言葉はあるまい。<br/><br/> 悪質の眼病いつしか癒えて 東京都 更生中教会 今江雅治（28） 幼少の頃よりの眼病いつしか癒され、光明と希望に満ちてる毎日を尊い御聖業の一端に御奉仕させて戴く喜び、ただただ明主様に有難うございますの御礼を申し上ぐるのみでございます。<br/><br/>現在のこの身の幸を思うとき、暗黒の世にあえぎ苦しんで来た二十年間の思い出が浮んで参ります。<br/><br/>生まれると間もなく胎毒の為目が悪くなり、毎朝目脂に閉され、母親がなめて目脂を取ってくれたとのことです。<br/><br/>水や湯で洗ってもなかなか取れず、取っても後から血が吹出て来る為なめて取ってくれたのだそうです。<br/><br/>解毒剤を五週間程のみ漸く治ったとの事でした。<br/><br/>肩の張り頭の重いのは子供心にも覚えており、九歳頃はよく母親に肩をもんでもらった事をおぼえております。<br/><br/>今にして思えば目の御浄化の折何も手当をせず放任して置けば自然に治癒し後で又苦しむ事が無かった事と思います。<br/><br/>小学校高等科一年の夏、大島六力村小学校の水泳大会に出場の為八月毎日の様に練習致しておりました。<br/><br/>大会の朝登校中突然目が痛み出し、両眼開けている事が出来ず、医者へかけ込み治療を受けましたが楽にならず、大会にも出場出来ず医師より目薬をもらい家に帰りました。<br/><br/>帰宅後は特に痛み何か目の中に入っている様に感じ、母に見てもらいましたところ、上下まぶたの表面のうすい皮がむけてよれているとの事、取去って後しばらくすると又よれて痛んで参ります。<br/><br/>目薬を差しますとそれが一層はげしく、取っても取っても皮がむけて来るのです。<br/><br/>五日間程は目を開けて物を見る事が出来ませんでした。<br/><br/>一週間目頃からどうやら物を見る事が出来る様になり、学校へ行ける様になりましたが、それから後は太陽の光がまぶしく、天気のよい日は目を開けている事が困難でした。<br/><br/>目薬は医者からのは一週間、ロート目薬は一カ月位使用致しました。<br/><br/>小学校卒業後青山師範の受験の折身体検査で重症トラホームであると言われ落第、この折はじめてトラホームなる病症である事を知りました。<br/><br/>その後東京月島のある鉄工所に勤める様になり、その夏隅田川の汚水作業で終了後毎日の様に泳いだところ又々目が痛み出し、九月より夜学へ通学不眠も加え益々悪化、昭和十七年十一月頃より東京京橋の宮下眼科医院へ通院する様になり、以後二年半一日の休みとてなく全治させたい一心で通っておりましたが、通院日数が増すにつれ目は一層悪化するのみにて、目は赤くただれ、時には腫れ、又はかすみ、それと共に頭は重く、人と面と向って対談する事はいかにもつらく、人中へ出るのもいやになり、心の底までも陪くなってしまいました。<br/><br/>手術も数回しましたが変化無く、終には角膜実質炎と言われ眼球に網状のものが出来かすむ様になってしまいました。<br/><br/>視力も〇・一までになり失明するのではないかと如何ばかり心配した事でしょう。<br/><br/>何とかして治りたいと新聞雑誌等に目薬の広告が出ていると必ず取よせ使用してみましたが何の効果も見られませんでした。<br/><br/>医師に聞いても「あなたの目はたちが悪いから長くかかります。<br/><br/>その内に良くなりますよ」との事、「その内に良くなる」これのみをたよりに二年半通い続けたのです。<br/><br/>昭和二十年三月十日東京大空襲の折宮下眼科医院も焼け、引続く空襲に目どころではなくなり、その折より目の手当を止めてしまいました。<br/><br/>しかるに今までの苦しみが漸次うすらぎ、一カ月後にはほとんど苦痛が無くなり、視力も出て来まして四月二十五日、石川県金沢へ入隊する頃は大変良くなっておりました。<br/><br/>九月十三日復員、大島へ帰らず静岡県駿東郡小山町の姉のところへ帰って来ました。<br/><br/>復員後眼病の再発を感じおりましたところ、姉より藤曲の森田先生のお話を聞きすすめられるままに姉と森田先生のところへ参りました。<br/><br/>当時は治療時代で先生は患者の半裸体の上に手を振り又はさわり治療しておられ、当時の私には異様な感じでした。<br/><br/>お話を伺っております内に今までの医療とは百八十度の違いでありますが真理の様に思われ、又私自身の体験からしても、医学療法で現在に及び未だ治癒せず、医薬を止めてからやや良くなった事等を思い合わせると今までの治療法が間違っていたという事を感ぜずにはおられませんでした。<br/><br/>先生は「目の悪くなる原因は頭と頸と肩に原因があり、そこを治さなければ目は治りません」と言われます。<br/><br/>私の肩は子供の頃から悪く、頸も頭も同様立くらみ等毎度の事ですので、成程だなと思いました。<br/><br/>その日は御浄霊して戴き、『明日の医術』の御著書第三篇をお借りして帰り、拝読させて頂くに今までの常識と異なるのに仰天、お伺いの度に第一篇第二篇をもお読みさせて頂きました。<br/><br/>医学の間違い薬の恐ろしさをつくづくと感じさせられ、十月十三、十四、十五日の教修会に参列させて頂き、坂井先生より尊い御守を御下げ戴き拝受させて戴きました。<br/><br/>以後七年微力ながらも御聖業に御奉仕させて頂き、やがては盲目の悲しみに泣く我が目も何時とはなく癒され、報恩感謝の念に燃え希望に満てる日々を過させて頂いております事を厚く御礼申し上げます。<br/><br/> 御恩の万分の一にもお報いさせて頂きたく努力しております。<br/><br/>入信以来数々の御守護を戴いております事を重ねて厚く御礼申し上げます。<br/><br/>御礼御報告の延び延びになり大変おくれました事をお詫び申し上げます。<br/><br/> 明主様有難うございます。<br/><br/> （昭和二十七年十月十六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

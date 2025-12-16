@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教的治病に於る誤謬 『新日本医術書』昭和11(1936)年4月8日執筆 世間往々、信仰によって病気治しをする場合、非常に誤られ易い重大事がある。<br><br>そうしてそれを誰もが気が付かないで、今日に至っている事である。<br><br>それは何であるかというと、信仰で治そうと思いつつ、実は自己の力に頼りつつあるその事である。<br><br>勿論、信仰で治そうとする以上、熱心であればある程、効果はあるはずであって、その目標である神仏に祈願をこむるのであるが、この場合、実は自分自身の精神療法をしている事が多いのである。<br><br>何となれば、真の意味における神仏は、人間が水を浴び、お百度を踏み、数時間経文を誦（よ）み拍子木等を敲（たた）き、又は貧困に陥いるまで財産を提供させる等によって、神徳仏果を享（う）けるというごときは、実に謬（あやま）れるのはなはだしいものである。<br><br> たとえていえば、神仏の御心は、親の心と同じようなものであり、信徒は子のようなものである。<br><br>子が親に向って、ある欲求をする場合、見るも悲惨な苦行は、親として決して快いものではない。<br><br>故に、その願求が正当であるならば、親は欣（よろこ）んで、否、吾子を喜ばせんが為、難行苦行などさせずに、少しでも多く与えたいのが真情である。<br><br>随って、苦行を求める信仰は、その目標である神は、正神であるはずがないから、こういう信仰は悉（ことごとく）、迷信であるといってよいのである。<br><br> しかし、子がいかに親の恩恵を享けようとしても、その子が常にわがまま勝手な事をし、親を顧みずして、ただ親から吾が欲しいものだけを与えて貰おうとしても駄目である。<br><br>矢張り平常から、親を思い、親に尽し、親の言う事を肯（き）き、親の喜ぶ行為を重ねなければならないのである。<br><br>世には御利益ばかりを欲しがり、絶大な御利益を受けながら、それに対し感謝報恩を忘るる者があるが、これらは実に親不孝者で、ついに親から見放されてしまうのは致し方ないのである。<br><br>しかし、こういう輩（やから）に限って、自己の非を悟らないで親を怨むという事になり、自ら滅びゆくという哀れな結果になるものである。<br><br> 故に、人は神仏に対（むか）っては、よく神仏の御心を悟り、人として無理からぬ正しい願求を、恭々（うやうや）しく淡白になし、又、出来るだけの報恩感謝をするのが本当である。<br><br> そうして、感謝報恩とは、一人でも多くを救う事である。<br><br>といって人間には、人間を救う力は到底有る訳がないから、自分が救われた神仏へ導くより外は無いのである。<br><br>そうして、人を導くその徳によって、それだけ自分も救われるのである。<br><br>又、人を導く暇のない人などは、それに換るに、金銭物品を奉る事も結構である。<br><br> 次に病気である場合、それを治すのに病気が無いと思えとか、又は思念するとか、難行苦行するとかいうのは、皆自力で治すのであって、神仏の力徳では全然無いのである。<br><br>神仏の力徳が顕著であるならば、人間が苦しい思いをして有るものを無いと思うような錯覚的苦悩などする必要がない。<br><br>又、難行苦行なども、自己修養にはよいが、それらの信仰はみな、その神仏に力徳が欠けているので、人間力を加えさして、さも神仏が御利益を与えたように思わせるのであって、一種の誤魔化しである。<br><br>世間、こういう信仰は余りにも多いのであるが、実はみなインチキである。<br><br>しかし、こういうインチキ的宗教は、来るべき神の清算に遇えば、忽（たちま）ち崩壊するのは必然であるから、その神仏の教祖や役員信徒等は一時も早くその非を覚り、本当の道に進まなければまことに危険である事を警告したいのである。<br><br> （昭和十一年四月八日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falácia na Cura pela Fé</h2>
 <p>No mundo, é comum depararmo-nos com um equívoco de suma importância quando se busca a cura de doenças por meio da fé; um equívoco que, todavia, tem passado despergecido pela maioria das pessoas até os dias de hoje. Consiste ele no fato de que, embora se tenha a intenção de curar pela fé, na realidade, a pessoa está a depender de sua própria força.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>E o que significa manifestar gratidão e retribuição? Significa salvar o maior número possível de pessoas. Como o ser humano é fundamentalmente desprovido do poder de salvar seu semelhante, não há outra alternativa senão conduzir as pessoas ao mesmo Deus pelo qual foi salvo. É pela virtude de guiar o próximo que a pessoa, por sua vez, também alcança a própria salvação. Aqueles que não dispõem de tempo para se dedicar a essa orientação podem, em substituição, ofertar donativos em dinheiro ou bens materiais, o que é igualmente meritório.</p>
 <p>Passemos ao caso das doenças. Práticas como mentalizar que a enfermidade não existe, concentrar o pensamento em sua inexistência ou submeter-se a sacrifícios e provações representam, invariavelmente, tentativas de cura pela força própria, e não pelo Poder e Virtude de Deus. Se o Poder e a Virtude de Deus fossem manifestos, não haveria necessidade alguma de o ser humano se infligir o sofrimento ilusório de tentar negar a existência daquilo que de fato existe. Ademais, embora as provações e os sacrifícios possam ser úteis para o aprimoramento pessoal, as crenças que os exigem o fazem porque a divindade em questão é desprovida de poder e virtude. O que fazem é compelir o indivíduo a agregar seu esforço humano para, então, criar a aparência de que a bênção foi concedida pela divindade. Trata-se de uma forma de estelionato espiritual. No mundo, há um número excessivo de crenças dessa natureza, mas, na realidade, todas são fraudulentas.</p>
 <p>Todavia, é inevitável que tais religiões fraudulentas desmoronem subitamente quando se depararem com o vindouro Juízo Divino. Por essa razão, desejo alertar para o grave perigo que correm os fundadores, dirigentes e seguidores de tais caminhos, caso não despertem o quanto antes para seu erro e ingressem na senda verdadeira.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教的治病に於る誤謬 『新日本医術書』昭和11(1936)年4月8日執筆 世間往々、信仰によって病気治しをする場合、非常に誤られ易い重大事がある。<br/><br/>そうしてそれを誰もが気が付かないで、今日に至っている事である。<br/><br/>それは何であるかというと、信仰で治そうと思いつつ、実は自己の力に頼りつつあるその事である。<br/><br/>勿論、信仰で治そうとする以上、熱心であればある程、効果はあるはずであって、その目標である神仏に祈願をこむるのであるが、この場合、実は自分自身の精神療法をしている事が多いのである。<br/><br/>何となれば、真の意味における神仏は、人間が水を浴び、お百度を踏み、数時間経文を誦（よ）み拍子木等を敲（たた）き、又は貧困に陥いるまで財産を提供させる等によって、神徳仏果を享（う）けるというごときは、実に謬（あやま）れるのはなはだしいものである。<br/><br/> たとえていえば、神仏の御心は、親の心と同じようなものであり、信徒は子のようなものである。<br/><br/>子が親に向って、ある欲求をする場合、見るも悲惨な苦行は、親として決して快いものではない。<br/><br/>故に、その願求が正当であるならば、親は欣（よろこ）んで、否、吾子を喜ばせんが為、難行苦行などさせずに、少しでも多く与えたいのが真情である。<br/><br/>随って、苦行を求める信仰は、その目標である神は、正神であるはずがないから、こういう信仰は悉（ことごとく）、迷信であるといってよいのである。<br/><br/> しかし、子がいかに親の恩恵を享けようとしても、その子が常にわがまま勝手な事をし、親を顧みずして、ただ親から吾が欲しいものだけを与えて貰おうとしても駄目である。<br/><br/>矢張り平常から、親を思い、親に尽し、親の言う事を肯（き）き、親の喜ぶ行為を重ねなければならないのである。<br/><br/>世には御利益ばかりを欲しがり、絶大な御利益を受けながら、それに対し感謝報恩を忘るる者があるが、これらは実に親不孝者で、ついに親から見放されてしまうのは致し方ないのである。<br/><br/>しかし、こういう輩（やから）に限って、自己の非を悟らないで親を怨むという事になり、自ら滅びゆくという哀れな結果になるものである。<br/><br/> 故に、人は神仏に対（むか）っては、よく神仏の御心を悟り、人として無理からぬ正しい願求を、恭々（うやうや）しく淡白になし、又、出来るだけの報恩感謝をするのが本当である。<br/><br/> そうして、感謝報恩とは、一人でも多くを救う事である。<br/><br/>といって人間には、人間を救う力は到底有る訳がないから、自分が救われた神仏へ導くより外は無いのである。<br/><br/>そうして、人を導くその徳によって、それだけ自分も救われるのである。<br/><br/>又、人を導く暇のない人などは、それに換るに、金銭物品を奉る事も結構である。<br/><br/> 次に病気である場合、それを治すのに病気が無いと思えとか、又は思念するとか、難行苦行するとかいうのは、皆自力で治すのであって、神仏の力徳では全然無いのである。<br/><br/>神仏の力徳が顕著であるならば、人間が苦しい思いをして有るものを無いと思うような錯覚的苦悩などする必要がない。<br/><br/>又、難行苦行なども、自己修養にはよいが、それらの信仰はみな、その神仏に力徳が欠けているので、人間力を加えさして、さも神仏が御利益を与えたように思わせるのであって、一種の誤魔化しである。<br/><br/>世間、こういう信仰は余りにも多いのであるが、実はみなインチキである。<br/><br/>しかし、こういうインチキ的宗教は、来るべき神の清算に遇えば、忽（たちま）ち崩壊するのは必然であるから、その神仏の教祖や役員信徒等は一時も早くその非を覚り、本当の道に進まなければまことに危険である事を警告したいのである。<br/><br/> （昭和十一年四月八日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

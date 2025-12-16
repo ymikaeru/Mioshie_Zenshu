@@ -1,126 +1,275 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>joron01</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>joron01</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 『新日本医術書』昭和11(1936)年2月8日執筆 そもそも、医術とは何ぞやと言えば、人間のあらゆる疾患を治癒し、完全なる健康体たらしむるのが、真目的である事は、今更言を俟（ま）たないところである。<br><br>故に、真の医術が完成さるるに従い、人間の罹病率は年と共に減るべきであり、又、病気の種類も漸減し、その当然の結果として、人間各自の天寿、即ち天より享（う）けたる齢だけの年数を重ねて、苦痛のない眠るがごとき自然死の人が増加してゆかなければならないはずである。<br><br> しかるに、現在までの事実はいかん。<br><br>右と余りに反対の経路を辿（たど）りつつあるではないか。<br><br>視よ、罹病率は日に月に増すのみであって、一人も病者の無い家はほとんど稀である。<br><br>今日、国民の健康を厳診するにおいて、真の無病者は、果して幾人あるであろうか。<br><br>恐らく十人に一人も難しいであろう。<br><br>壮丁（そうてい）の体格が年々低下するという報告や、乳児死亡率が、有難くもない世界第一の統計を示すごとき、又、結核患者の撲滅に官民共に大童（おおわらわ）の努力を払い、多額の国費を使いつつあるに拘わらず、更に減少せざるのみか、今なお、一ケ年百二十万人の患者と、十余万人の死亡者を出しているという状勢である。<br><br>又、病気の種類に見ても、増加するとも減少しない事実は、何を物語っているであろうか。<br><br>今日男子にして、高等教育を受け、有為の才を抱きながら、病床に呻吟しつつある者、又は修業の半途において、病患の為に挫折し、可惜（あたら）青春の身を以て、煩悶の日を送りつつある者、又は相当の地位や、成功を収めて、大いに国家社会に尽さんとする頃、病に斃（たお）るる者、又、婦女子にして、病弱の為に妻としての、母としての天賦の務を完うし得ざる者、婚期を過す者、愛児の早逝〔世〕による悲嘆、その他不具、変質、発狂等、これらが原因となって、不幸逆境に沈淪（ちんりん）する者のいかに多きかは、誰もが余りに知り過ぎている事実である。<br><br>今仮に、一家に一人の重患者を出すとすれば、長年汗した貯蓄は、たちまち費消されるべく、況（いわ）んや二、三人の重患者、又は死亡者の生ずるにおいては、相当の資産をさえ、蕩尽されてしまうという悲惨事は、到（いたる）ところに見るのである。<br><br>今日、社会の敗残者、無産者のその原因の病気に困る事のいかに多いかは、周知の事実である。<br><br>故に、世人の病気を恐るる事、今日よりはなはだしきは無く、その弱点に付け込まれ、効果疑問の売薬や滋養剤を、巧妙なる広告戦術に魅せられて、多くの病者の財嚢（さいふ）は相当搾（しぼ）られ、窮乏線に拍車を掛けられている状態である。<br><br> そうして、一度重患に罹るや、驚くべき高価なる手術料や、多額の入院料を負担させられるに拘わらず、その治癒するの遅々たる、治病率の低き、実に当事者の言に徴するも、五十パーセントも難しいとの事である。<br><br> 慶大の草間博士は、公開の席上において、明言していわく、「現代医学では、病気は決して治らないのであるから、今後は病気に罹らない医学、即ち予防医学に依って各自の健康を保つより外に、最善の方法は無いのである」と。<br><br>実に正直にして良心のある、真の学者の言であると思うのである。<br><br> 故に、賢明なる医師は、西洋医学での治病の無力を痛感して、止むなく漢方医術、灸治、その他の民間療法に着目し研究せんとする者、簇出（そうしゅつ）しつつあるの実状である。<br><br> 以上説く所の事実によって見るも、現代医学の真価は明かである。<br><br>なる程、黴菌発見や、基礎医学方面にては、多少の進歩の跡は見るけれども、治療方面においては、実に十年一日のごとしと言いたい位である。<br><br>しからば、この真因はどちらに在るであろうか。<br><br>その発見こそは、まことにいかなる政治よりも、経済よりも、発明よりも、緊要事であろう事である。<br><br>言うまでもなく、国民の不健康程、国家の損失はあるまい。<br><br>今や、躍進日本の地位より観て、今後益々欧米人に伍して相競うは固より、望むらくは、白人種を凌駕するまでにならなければならないところの、重大使命を持つ日本人として、実に健康こそ何よりも最大根本問題であらねばならない事である。<br><br> しからば、現代医学の誤謬は、いかなる点に存するのであろうか。<br><br>それは実に、その出発点において、重大なる錯誤がある事である。<br><br>それが、この書中に詳述してあるから、熟読玩味するにおいて、何人といえども豁然（かつぜん）としてその蒙（もう）が啓（ひら）け、病気の真因も、健康の要諦も、天日（てんじつ）の下に晒さるるがごとくで、無医薬療病に依って、病患は根絶さるる事を、覚り得るのである。<br><br> 実にこの新日本医術であり、明日の医学とも言うべき観音力療病と健康法の真髄こそは、人類の歴史有（はじま）って以来恐らく空前であろう程の、一大福音である。<br><br>又、私が余りに狂人にも等しい、大言壮語する事に対して、反って疑を持つ人がないとも限らない事であるが、それは、たとえばいかに食物の美味を説明しても、口へ入れなければ判らないのと同じである。<br><br>とにかく、実験と体験である。<br><br>私は全責任を以て、私の言の一点偽りの無い事を誓うものである。<br><br> （昭和十一年二月八日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>O Alvorecer de uma Nova Arte Médica</h2>
-            <p>Em princípio, qual seria o propósito da arte médica? É um fato incontestável que seu verdadeiro objetivo
+<h2>O Alvorecer de uma Nova Arte Médica</h2>
+<p>Em princípio, qual seria o propósito da arte médica? É um fato incontestável que seu verdadeiro objetivo
                 é curar todas as enfermidades humanas e conduzir o ser humano a um estado de saúde plena. Portanto, à
                 medida que a verdadeira arte médica se aperfeiçoasse, seria de se esperar que a taxa de morbidade
                 diminuísse ano a ano. Concomitantemente, os tipos de doenças deveriam reduzir-se gradualmente e, como
                 consequência natural, deveria aumentar o número de pessoas que cumprem sua longevidade natural — ou
                 seja, os anos de vida concedidos pelo Céu — e que partem em uma morte serena, como se adormecessem,
                 livres de qualquer sofrimento.</p>
-            <p>Contudo, qual é a realidade que se apresenta até hoje? Não estamos, por acaso, trilhando um caminho
+<p>Contudo, qual é a realidade que se apresenta até hoje? Não estamos, por acaso, trilhando um caminho
                 diametralmente oposto? Observemos: a taxa de morbidade não cessa de aumentar, a ponto de ser raro
                 encontrar um lar sem ao menos uma pessoa doente. Atualmente, ao se realizar um exame rigoroso da saúde
                 da população, quantos indivíduos seriam de fato considerados sadios? Provavelmente, seria difícil
@@ -131,7 +280,7 @@ function toggleLang(lang) {
                 investidas, a doença não apenas se recusa a diminuir, como ainda hoje acomete um milhão e duzentos mil
                 pacientes e ceifa mais de cem mil vidas anualmente. Ademais, o que nos revela o fato de que a variedade
                 de doenças também aumenta, em vez de diminuir?</p>
-            <p>São fatos por demais conhecidos por todos a imensa quantidade de pessoas que, por tais motivos, sucumbem
+<p>São fatos por demais conhecidos por todos a imensa quantidade de pessoas que, por tais motivos, sucumbem
                 à desventura e à adversidade. Vemos jovens de notável talento que, após receberem uma educação esmerada,
                 passam a vida a gemer em seus leitos de enfermos. Outros têm suas carreiras interrompidas em seu
                 alvorecer, frustrados pela doença. Há também aqueles que, tendo alcançado posições de destaque e
@@ -140,7 +289,7 @@ function toggleLang(lang) {
                 deveres celestiais como esposas e mães, ou veem passar a idade para o casamento? Acrescentem-se a isso o
                 luto pela morte prematura de filhos amados e as tragédias decorrentes de deficiências físicas,
                 degeneração e insanidade mental.</p>
-            <p>Basta que surja um único paciente em estado grave em uma família para que as economias acumuladas com o
+<p>Basta que surja um único paciente em estado grave em uma família para que as economias acumuladas com o
                 suor de longos anos se esvaiam em um instante. Quando então se trata de dois ou três doentes graves, ou
                 mesmo de falecimentos, vemos por toda parte a triste realidade de famílias que têm seu patrimônio, por
                 vezes considerável, completamente dilapidado. É fato notório o quanto a doença figura como causa
@@ -149,20 +298,20 @@ function toggleLang(lang) {
                 engenhosas táticas publicitárias a consumir remédios de venda livre e suplementos de eficácia duvidosa.
                 O resultado é um considerável esvaziamento de seus recursos financeiros, o que apenas acelera sua marcha
                 rumo à indigência.</p>
-            <p>Além disso, uma vez acometido por uma enfermidade grave, o paciente se vê obrigado a arcar com honorários
+<p>Além disso, uma vez acometido por uma enfermidade grave, o paciente se vê obrigado a arcar com honorários
                 cirúrgicos assombrosamente elevados e custosas despesas de internação. Apesar disso, o processo de cura
                 é moroso e a taxa de sucesso, baixa. Na verdade, segundo os próprios especialistas da área, é difícil
                 que se alcance sequer um índice de cinquenta por cento.</p>
-            <p>O doutor Kusama, da Universidade Keio, declarou abertamente em uma palestra: "A medicina moderna é
+<p>O doutor Kusama, da Universidade Keio, declarou abertamente em uma palestra: "A medicina moderna é
                 incapaz de curar as doenças. Sendo assim, de agora em diante, não há método mais eficaz do que cada um
                 zelar pela própria saúde por meio de uma medicina que evite o adoecer, ou seja, a medicina preventiva."
                 Considero estas as palavras de um verdadeiro e consciencioso homem da ciência, plenas de honestidade.
             </p>
-            <p>Por conseguinte, médicos mais perspicazes, sentindo agudamente a impotência da medicina ocidental para
+<p>Por conseguinte, médicos mais perspicazes, sentindo agudamente a impotência da medicina ocidental para
                 promover a cura, veem-se compelidos a voltar sua atenção para o estudo da medicina tradicional chinesa,
                 da moxabustão e de outras terapias populares. A realidade é que o número desses profissionais não para
                 de crescer.</p>
-            <p>À luz dos fatos até aqui expostos, o verdadeiro valor da medicina moderna torna-se evidente. É verdade
+<p>À luz dos fatos até aqui expostos, o verdadeiro valor da medicina moderna torna-se evidente. É verdade
                 que se observam alguns vestígios de progresso em campos como a descoberta de micróbios e na medicina
                 fundamental. No que tange aos tratamentos, contudo, a estagnação é tamanha que se poderia dizer que nada
                 mudou nos últimos dez anos. Sendo assim, onde reside a verdadeira causa para tal estado de coisas? Sua
@@ -172,13 +321,13 @@ function toggleLang(lang) {
                 a saúde deve constituir a questão mais fundamental e prioritária. Com efeito, como japoneses, temos a
                 importante missão não apenas de competir de igual para igual com os ocidentais, mas, almejamos, de
                 superar a raça branca.</p>
-            <p>Onde, então, reside o erro fundamental da medicina moderna? Ele se encontra, na verdade, em um equívoco
+<p>Onde, então, reside o erro fundamental da medicina moderna? Ele se encontra, na verdade, em um equívoco
                 crucial em seu próprio ponto de partida. Como tal equívoco está detalhadamente exposto nesta obra, ao
                 lê-la e refletir profundamente sobre seu conteúdo, qualquer pessoa terá sua ignorância dissipada. A
                 verdadeira causa das doenças e o segredo da saúde se tornarão tão claros como se estivessem expostos sob
                 a luz do sol, e todos poderão compreender que as enfermidades podem ser erradicadas por meio de uma
                 terapia que prescinde de medicamentos.</p>
-            <p>Na verdade, esta nova arte médica japonesa, que poderíamos denominar Ashita no Ijutsu, e que constitui a
+<p>Na verdade, esta nova arte médica japonesa, que poderíamos denominar Ashita no Ijutsu, e que constitui a
                 essência da terapia pelo poder de Kannon (観音) e do método para a saúde, é o maior evangelho que a
                 humanidade já conheceu, provavelmente sem precedentes desde o início de sua história. É possível que
                 alguns, diante de minhas afirmações tão grandiosas, que beiram a megalomania, sintam-se inclinados à
@@ -186,9 +335,51 @@ function toggleLang(lang) {
                 a explicação, não se pode compreendê-lo sem prová-lo. Em suma, tudo se resume à experimentação e à
                 vivência. Assumo, com total responsabilidade, o compromisso de jurar que em minhas palavras não há o
                 mais ínfimo traço de falsidade.</p>
-            <p>8 de fevereiro de 1936</p>
-        </div>
-    </blockquote>
-</body>
+<p>8 de fevereiro de 1936</p>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 『新日本医術書』昭和11(1936)年2月8日執筆 そもそも、医術とは何ぞやと言えば、人間のあらゆる疾患を治癒し、完全なる健康体たらしむるのが、真目的である事は、今更言を俟（ま）たないところである。<br/><br/>故に、真の医術が完成さるるに従い、人間の罹病率は年と共に減るべきであり、又、病気の種類も漸減し、その当然の結果として、人間各自の天寿、即ち天より享（う）けたる齢だけの年数を重ねて、苦痛のない眠るがごとき自然死の人が増加してゆかなければならないはずである。<br/><br/> しかるに、現在までの事実はいかん。<br/><br/>右と余りに反対の経路を辿（たど）りつつあるではないか。<br/><br/>視よ、罹病率は日に月に増すのみであって、一人も病者の無い家はほとんど稀である。<br/><br/>今日、国民の健康を厳診するにおいて、真の無病者は、果して幾人あるであろうか。<br/><br/>恐らく十人に一人も難しいであろう。<br/><br/>壮丁（そうてい）の体格が年々低下するという報告や、乳児死亡率が、有難くもない世界第一の統計を示すごとき、又、結核患者の撲滅に官民共に大童（おおわらわ）の努力を払い、多額の国費を使いつつあるに拘わらず、更に減少せざるのみか、今なお、一ケ年百二十万人の患者と、十余万人の死亡者を出しているという状勢である。<br/><br/>又、病気の種類に見ても、増加するとも減少しない事実は、何を物語っているであろうか。<br/><br/>今日男子にして、高等教育を受け、有為の才を抱きながら、病床に呻吟しつつある者、又は修業の半途において、病患の為に挫折し、可惜（あたら）青春の身を以て、煩悶の日を送りつつある者、又は相当の地位や、成功を収めて、大いに国家社会に尽さんとする頃、病に斃（たお）るる者、又、婦女子にして、病弱の為に妻としての、母としての天賦の務を完うし得ざる者、婚期を過す者、愛児の早逝〔世〕による悲嘆、その他不具、変質、発狂等、これらが原因となって、不幸逆境に沈淪（ちんりん）する者のいかに多きかは、誰もが余りに知り過ぎている事実である。<br/><br/>今仮に、一家に一人の重患者を出すとすれば、長年汗した貯蓄は、たちまち費消されるべく、況（いわ）んや二、三人の重患者、又は死亡者の生ずるにおいては、相当の資産をさえ、蕩尽されてしまうという悲惨事は、到（いたる）ところに見るのである。<br/><br/>今日、社会の敗残者、無産者のその原因の病気に困る事のいかに多いかは、周知の事実である。<br/><br/>故に、世人の病気を恐るる事、今日よりはなはだしきは無く、その弱点に付け込まれ、効果疑問の売薬や滋養剤を、巧妙なる広告戦術に魅せられて、多くの病者の財嚢（さいふ）は相当搾（しぼ）られ、窮乏線に拍車を掛けられている状態である。<br/><br/> そうして、一度重患に罹るや、驚くべき高価なる手術料や、多額の入院料を負担させられるに拘わらず、その治癒するの遅々たる、治病率の低き、実に当事者の言に徴するも、五十パーセントも難しいとの事である。<br/><br/> 慶大の草間博士は、公開の席上において、明言していわく、「現代医学では、病気は決して治らないのであるから、今後は病気に罹らない医学、即ち予防医学に依って各自の健康を保つより外に、最善の方法は無いのである」と。<br/><br/>実に正直にして良心のある、真の学者の言であると思うのである。<br/><br/> 故に、賢明なる医師は、西洋医学での治病の無力を痛感して、止むなく漢方医術、灸治、その他の民間療法に着目し研究せんとする者、簇出（そうしゅつ）しつつあるの実状である。<br/><br/> 以上説く所の事実によって見るも、現代医学の真価は明かである。<br/><br/>なる程、黴菌発見や、基礎医学方面にては、多少の進歩の跡は見るけれども、治療方面においては、実に十年一日のごとしと言いたい位である。<br/><br/>しからば、この真因はどちらに在るであろうか。<br/><br/>その発見こそは、まことにいかなる政治よりも、経済よりも、発明よりも、緊要事であろう事である。<br/><br/>言うまでもなく、国民の不健康程、国家の損失はあるまい。<br/><br/>今や、躍進日本の地位より観て、今後益々欧米人に伍して相競うは固より、望むらくは、白人種を凌駕するまでにならなければならないところの、重大使命を持つ日本人として、実に健康こそ何よりも最大根本問題であらねばならない事である。<br/><br/> しからば、現代医学の誤謬は、いかなる点に存するのであろうか。<br/><br/>それは実に、その出発点において、重大なる錯誤がある事である。<br/><br/>それが、この書中に詳述してあるから、熟読玩味するにおいて、何人といえども豁然（かつぜん）としてその蒙（もう）が啓（ひら）け、病気の真因も、健康の要諦も、天日（てんじつ）の下に晒さるるがごとくで、無医薬療病に依って、病患は根絶さるる事を、覚り得るのである。<br/><br/> 実にこの新日本医術であり、明日の医学とも言うべき観音力療病と健康法の真髄こそは、人類の歴史有（はじま）って以来恐らく空前であろう程の、一大福音である。<br/><br/>又、私が余りに狂人にも等しい、大言壮語する事に対して、反って疑を持つ人がないとも限らない事であるが、それは、たとえばいかに食物の美味を説明しても、口へ入れなければ判らないのと同じである。<br/><br/>とにかく、実験と体験である。<br/><br/>私は全責任を以て、私の言の一点偽りの無い事を誓うものである。<br/><br/> （昭和十一年二月八日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kokka</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 刻下の大問題たる国民保健に就て 未発表、昭和11(1936)年執筆 報ずる所によれば、我国民特に壮丁の体格が逐年低下しつつあり、又、弱体児童が激増しつつあるという事実はまことに意想外であって、国家の前途を惟（おも）う時寒心すべき大問題である。<br><br>政府においてもこれが対策として今回一千七百万円の予算を計上した事は万（ばん）止むを得ない訳である。<br><br>しかしながらいかに多額の国帑（こくど）を費すも、又いかなる対策を実施するといえども、その原因を適確に把捉せざる限り真の効果は得られない事である。<br><br> しかるに、政府も専門家の察（み）て以て原因とするそれが、真原因でなくその傍因であるとしたら、これは看過出来ない事である。<br><br> 当事者が対策としてる各項目を見る時、それは現代医学の方法によって防し得るとしている事である。<br><br>その重なる方法として結核の早期診断と隔離と衛生知識の普及等であって、要するに特に下層階級が医療の機会を簡便に普（あまね）く受け得らるる事が主眼であり、それらによってある程度の成果を挙げ得らるると信じているようである。<br><br>これを詮じ詰めれば、現代医学を非常に進歩せりと思惟し、その進歩した医学を一般化す事によって、解決し得らるると信じている様である。<br><br> しかるに以上のごとき、現代医学が是と信ずる方法が、実は反対に結核や弱体者を増加する結果であるという、ほとんど信ずべからざる程の一大事実を私は知ったのであって、国家の為到底黙視する能（あた）わず、ここに拙文をも顧みず、天下有識の士に愬（うった）えんとするのである。<br><br> それについてまず根本的概念を得べき理論を述べたいのである。<br><br> 当局が発表せるところの壮丁の体格が、大正十一年には一千人に付二百五十人の兵役不能者が、十五年を経た昨年度は四百人に増加した事実、及び明治二十四、五年の二人であった結核患者が、今日二十四人に増加したというその事実は何を物語っているであろうか。<br><br>大いに考慮の必要があるであろう。<br><br>それはその当時と今日とを比較して医学の進歩、医療の一般化、衛生の普及等、いずれが優っているであろうか。<br><br>論をまたないのである。<br><br>事実、今日のごとく益々医学が進歩発達したに係らず、その結果は全く反比例であるという事は、全く不可解極る事である。<br><br>故に、この理から推せば一層医学が進歩し、医療と衛生が普及するにおいて、結核はいよいよ激増するであろう事は想像されるのである。<br><br>この逆説的事実に直面して、なお目覚めないという事は、現代医学の外装に幻惑されてしまっている阿片中毒者とも言えようと思うのである。<br><br> 右の事実を冷静に批判するにおいて、それは何人も透見し得ない一大欠陥が伏在していなければならないはずである。<br><br>当局者が多額の予算を計上したり、結核防止週間を作りながらも、何らか確信的でない不安の有りげなのは、その真因を把捉出来ないのによるからであろう。<br><br>最近政府の発表せる理由の中にこういう事がある。<br><br>『医術の進歩医療の普及等は結核による死亡率の低下に、ある程度の効果を示したが、結核の発生防止に対しては全然無力なるゆえんを実証した』これによってみても、流石の政府も、結核発生の防止に対して、医学の無力を認識し得た事は一大進歩であると思うのである。<br><br>しかしながら、その真因を把捉出来ないで、漫然といかに対策を実施するとも、その結果は推して知るべしである。<br><br> これを要するに、問題の帰結は真因の発見そのものであって、その真因に対しての適切なる方策を樹てるより外に何物もないであろう事は明かである。<br><br>しからば、その真因は何か。<br><br>それを出来るだけ詳説したものが、別冊「結核の病原と其治療」なのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Grave Problema da Saúde Pública</h2>
 <p>Segundo noticiado, a constituição física de nosso povo, sobremaneira a dos jovens em idade militar, vem declinando ano a ano. Ademais, o fato de que o número de crianças de constituição débil aumenta vertiginosamente é, em verdade, surpreendente. Trata-se de uma questão gravíssima que nos causa profunda apreensão ao ponderarmos sobre o futuro da nação. Nesse sentido, a destinação de um orçamento de dezessete milhões de ienes pelo governo para enfrentar esta situação é uma medida compreensível. Contudo, por mais vultosos que sejam os recursos do erário despendidos ou quaisquer que sejam as contramedidas implementadas, a verdadeira eficácia jamais será alcançada enquanto a causa primordial não for identificada com precisão.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Segundo dados divulgados pelas autoridades, o número de jovens inaptos para o serviço militar, que em 1922 era de duzentos e cinquenta por mil, saltou para quatrocentos no ano passado, apenas quinze anos depois. Outrossim, o fato de o número de pacientes com tuberculose ter aumentado de dois, por volta de 1891, para vinte e quatro em nossos dias, o que nos revela? Urge uma profunda reflexão. Comparemos aquela época com a atual: em qual delas o progresso da medicina, a generalização do tratamento e a difusão da higiene foram superiores? A resposta é inequívoca. Com efeito, é absolutamente incompreensível que, apesar do avanço e do desenvolvimento cada vez maiores da medicina, os resultados sejam diametralmente opostos ao esperado. Seguindo essa lógica, é lícito imaginar que, quanto mais a medicina avançar e mais se difundirem os cuidados médicos e a higiene, mais a tuberculose aumentará drasticamente. Confrontar-se com esta realidade paradoxal e ainda assim não despertar é, a meu ver, uma atitude análoga à de um dependente de ópio, iludido pela aparência externa da medicina moderna.</p>
 <p>Ao analisarmos serenamente os fatos expostos, torna-se evidente que deve existir uma falha monumental, oculta aos olhos de todos. A aparente insegurança das autoridades, que, apesar de destinarem orçamentos vultosos e criarem semanas de prevenção, não demonstram convicção em suas ações, deve-se provavelmente à sua incapacidade de apreender a verdadeira causa do problema. Recentemente, um comunicado do governo continha a seguinte afirmação: "O avanço das técnicas médicas e a difusão do tratamento demonstraram certa eficácia na redução da taxa de mortalidade por tuberculose, mas se provaram totalmente impotentes para impedir a sua ocorrência". Isso demonstra que até mesmo o governo, em sua alta esfera, foi capaz de reconhecer a ineficácia da medicina na prevenção da gênese da tuberculose, o que considero um grande progresso. Contudo, enquanto implementarem medidas de forma aleatória, sem compreender a causa primordial, os resultados são previsíveis.</p>
 <p>Em suma, a resolução do problema reside na descoberta de sua verdadeira causa. É evidente que não há outro caminho senão o de estabelecer uma estratégia apropriada, direcionada a essa causa fundamental. Sendo assim, qual seria essa verdadeira causa? Procurei explicitá-la com o maior detalhe possível no volume à parte intitulado "A Causa Primordial e o Tratamento da Tuberculose".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 刻下の大問題たる国民保健に就て 未発表、昭和11(1936)年執筆 報ずる所によれば、我国民特に壮丁の体格が逐年低下しつつあり、又、弱体児童が激増しつつあるという事実はまことに意想外であって、国家の前途を惟（おも）う時寒心すべき大問題である。<br/><br/>政府においてもこれが対策として今回一千七百万円の予算を計上した事は万（ばん）止むを得ない訳である。<br/><br/>しかしながらいかに多額の国帑（こくど）を費すも、又いかなる対策を実施するといえども、その原因を適確に把捉せざる限り真の効果は得られない事である。<br/><br/> しかるに、政府も専門家の察（み）て以て原因とするそれが、真原因でなくその傍因であるとしたら、これは看過出来ない事である。<br/><br/> 当事者が対策としてる各項目を見る時、それは現代医学の方法によって防し得るとしている事である。<br/><br/>その重なる方法として結核の早期診断と隔離と衛生知識の普及等であって、要するに特に下層階級が医療の機会を簡便に普（あまね）く受け得らるる事が主眼であり、それらによってある程度の成果を挙げ得らるると信じているようである。<br/><br/>これを詮じ詰めれば、現代医学を非常に進歩せりと思惟し、その進歩した医学を一般化す事によって、解決し得らるると信じている様である。<br/><br/> しかるに以上のごとき、現代医学が是と信ずる方法が、実は反対に結核や弱体者を増加する結果であるという、ほとんど信ずべからざる程の一大事実を私は知ったのであって、国家の為到底黙視する能（あた）わず、ここに拙文をも顧みず、天下有識の士に愬（うった）えんとするのである。<br/><br/> それについてまず根本的概念を得べき理論を述べたいのである。<br/><br/> 当局が発表せるところの壮丁の体格が、大正十一年には一千人に付二百五十人の兵役不能者が、十五年を経た昨年度は四百人に増加した事実、及び明治二十四、五年の二人であった結核患者が、今日二十四人に増加したというその事実は何を物語っているであろうか。<br/><br/>大いに考慮の必要があるであろう。<br/><br/>それはその当時と今日とを比較して医学の進歩、医療の一般化、衛生の普及等、いずれが優っているであろうか。<br/><br/>論をまたないのである。<br/><br/>事実、今日のごとく益々医学が進歩発達したに係らず、その結果は全く反比例であるという事は、全く不可解極る事である。<br/><br/>故に、この理から推せば一層医学が進歩し、医療と衛生が普及するにおいて、結核はいよいよ激増するであろう事は想像されるのである。<br/><br/>この逆説的事実に直面して、なお目覚めないという事は、現代医学の外装に幻惑されてしまっている阿片中毒者とも言えようと思うのである。<br/><br/> 右の事実を冷静に批判するにおいて、それは何人も透見し得ない一大欠陥が伏在していなければならないはずである。<br/><br/>当局者が多額の予算を計上したり、結核防止週間を作りながらも、何らか確信的でない不安の有りげなのは、その真因を把捉出来ないのによるからであろう。<br/><br/>最近政府の発表せる理由の中にこういう事がある。<br/><br/>『医術の進歩医療の普及等は結核による死亡率の低下に、ある程度の効果を示したが、結核の発生防止に対しては全然無力なるゆえんを実証した』これによってみても、流石の政府も、結核発生の防止に対して、医学の無力を認識し得た事は一大進歩であると思うのである。<br/><br/>しかしながら、その真因を把捉出来ないで、漫然といかに対策を実施するとも、その結果は推して知るべしである。<br/><br/> これを要するに、問題の帰結は真因の発見そのものであって、その真因に対しての適切なる方策を樹てるより外に何物もないであろう事は明かである。<br/><br/>しからば、その真因は何か。<br/><br/>それを出来るだけ詳説したものが、別冊「結核の病原と其治療」なのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

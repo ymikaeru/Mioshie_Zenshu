@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hensyu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 編集後記に替えて 井上茂登吉 『地上天国』16号、昭和25(1950)年8月15日発行 この新春劈頭 「今年はもただならぬ世となりぬらむ ただありやかにいえぬが悲し」 「いと深き神の仕組は今年より 現れなむとすも心せよみな」 「如何ならむ事起らむか大神の 珍の仕組の深きにあれば」 等々の如き数々の御歌を賜わり、今年こそはかつてなき肝胆戦慄の変事突発せんを警告せられつも流石に本教自らにあまりにも予測せざる、しかも事明主様の御上にまでかくも惨烈に及ぶに至っては、痛酷、心肝裂くるの出来事ではあった。<br><br>それだけに、大半の準備成った本十六号の発行も不可能かと思われたが、神意転妙、直ちに斬新なる本教会の組織も成り一応の落着きを得て、ここに発行の運びに至ったのである。<br><br>惟（おも）えば本誌も十五の満数をもって中断せられたのも豈（あに）偶然事ではあるまい。<br><br> 周知の如く、明主様には、酷烈なる受難の故に苛まれ給うた御身を、函嶺緑蔭の寓居に御静養を続けられたが、今は日に新たなる神命を受けられ、人類愛に燃ゆる御胸を撫されつつも、崩壊に瀕せる世を静観せられいる御模様であって、毎日参拝参観する信徒も低徊寂として声なきを見る。<br><br>吾等は自ら 「世の為に竭す真人は何時の世も 茨の道をくぐるものにや」 「善き事を悪しとみらるる世にありて 何をかせんや懐手すも」 「超人の力かくして荒みゆく 此現世を静かに視護る」 等々の十余年前の御歌を想起して、大神人の無量の御心境を偲はずにはおれない。<br><br>神に在らるる御身に、固より罪に問はるべき御過失のありよう筈はなく、まこと一点の暗影もあられぬこそ真実であり、全信徒の確く信ずる所である。<br><br>やがて事の真相は明々白々天下に証され吾等又、積雲霽れて天日を仰ぐの歓びに抃舞（べんぶ）する日も遠からざる将来であろう。<br><br>而して恐るべき審判の最後の日来る時、 「今の世に我生れずば天ケ下 ものの命は如何になりなむ」 の御歌を万民斉（ひと）しく唱和するに至るであろう確信を、いよいよ強うするものである。<br><br> 明主様には御法難の門出に、「散花結実」の御一言を残されて赴かれたと承わるが、まことにこの五、六、七の三月に渉る一連の突発事象に秘められた深遠なる神意は、この一語に表現せられつくしている。<br><br>これこそ本教が従来屡々経験してその都度新しい大発展の段階に入りつつ今日の大を成し来った大経綸の形態であり、造物主が行う万有進化の原則ではあろう。<br><br> 永遠の教主と慕い仰ぎ奉った明主様が、その地位を御去りになられたのは、信徒として一見心淋しさの極みであるが、一面それは霊界のより高きに上らせられた事を意味する。<br><br>現に浄霊における治病力は截然（せつぜん）として弥増し、日と共に強まりつつある事実は、教師の何れも驚歎せられつつある所である。<br><br>結実の期間は仮し長しとするも、従来も常にそうであるごとく、必ずより良き、より偉大なる教の実りの豊に輝しき事は一点の疑もない所である。<br><br>将に迫りつつある人類の一大危機は、遂に本教をして、世界救世の唯一絶対の存在たらしめずには措かぬであらう。<br><br> この大嵐によって、本教は神人共に最も祝福すぺさ偉大なる成果を期待し得る事となった。<br><br>それは又全人類の上に、神の理想実現の空前の一大慶事といわねばなるまい。<br><br>一切は神意のままに選ばれるを知る時、吾等は果して何をか悲しみ何をか喜ぶべきや、にわかに断じ難いであろう。<br><br>小さなる人の眼に写る不安も失望もやがては徒事の二字に尽き、歓喜の二字におき替えられるであろう。<br><br> 散花結実の表われは、本教所属の各細胞にまで及ぶべきは論をまたぬ、今こそ神が与えた実りの時である。<br><br>吾等はすべからく救世の偉力を身に充実せしめ、来るべき終末的危機の為に備えねばならない。<br><br>それは御讃歌の一節であり、御垂訓の聖言である。<br><br> 本号から御玉稿は原則として一題を限って下さる事となったが、それから間もなく事件に遭遇し発行中絶したのも偶然ではなかった。<br><br>思えば従来毎回数種の御論評を賜わった事は勿体なき極みである感があった。<br><br>真に価値ある宝玉は小さくしてその真価を謳われる。<br><br>最高のものはただ一つでよいのは言うまでもない。<br><br> 本号に賜わった『物を知る事』の御文章を拝読する時、未だ経験せぬ深遠絶妙の感銘に打たれ、誰人といえども反覆味読せざるを得ぬであろう。<br><br>これを拝して吾等はまず小さなる眼を通した人物観の低劣さを知り、物を知る事の尊さを泌々と悟り、芸術の無形の力の如何に高く偉大なるかを初めて悟知した。<br><br>全くこれこそ現代人にはすっかり忘却された、否寧ろ未知である高遠なる世界の啓示であって、明主様の妙智の底知れぬ深きを感じ地上天国御建設の御深意を窺知し得たような感を与えられたのである。<br><br> 御歌「瑞雲天国」には御胸中に描かれた完成の暁の御構想が絵の如く三十一文字に詠まれており、これを諭すれば、瑞雲山を知る誰人の眼にも夢の天国が髣髴せられるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Dispersão das Flores e a Colheita dos Frutos</h2>
 <p>No limiar deste novo ano, fomos agraciados com diversos poemas de Meishu-Sama, dentre os quais se destacam os seguintes:</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>A partir desta edição, ficou estabelecido que Meishu-Sama, em princípio, nos concederia apenas um artigo por vez. Não foi coincidência que, pouco tempo após essa decisão, tenhamos nos deparado com o incidente que interrompeu a publicação. Olhando em retrospecto, sentíamos ser uma honra quase imerecida receber vários de Seus artigos a cada edição. Uma joia de verdadeiro valor é apreciada por sua preciosidade concisa. O que é supremo, basta que seja um.</p>
 <p>Ao lermos o artigo de Meishu-Sama concedido para esta edição, intitulado ‘Sobre o Conhecimento das Coisas’, somos tomados por uma impressão de profundidade e primor jamais experimentada, sentindo-nos compelidos a relê-lo e a saboreá-lo diversas vezes. Através dele, primeiramente, reconhecemos a inferioridade de nosso julgamento sobre o caráter alheio, baseado em nossa limitada perspectiva; em seguida, compreendemos intimamente o quão valioso é o ato de conhecer as coisas e, pela primeira vez, percebemos o quão elevado e grandioso é o poder invisível da arte. Trata-se, de fato, de uma revelação de um mundo sublime, completamente esquecido — ou melhor, desconhecido — pelo homem moderno. Tal leitura nos faz sentir a insondável profundidade da sublime sabedoria de Meishu-Sama e nos permite vislumbrar a profundidade de Sua intenção na construção do Paraíso Terrestre.</p>
 <p>No poema <em>Zuiun Tengoku</em> (瑞雲天国 - Paraíso das Nuvens Auspiciosas), Sua concepção para a alvorada da conclusão do Paraíso encontra-se poeticamente retratada nos trinta e um sons de um poema, como uma pintura. Ao declamá-lo, para qualquer um que conheça as Terras Sagradas, o Paraíso dos sonhos se delineia vividamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 編集後記に替えて 井上茂登吉 『地上天国』16号、昭和25(1950)年8月15日発行 この新春劈頭 「今年はもただならぬ世となりぬらむ ただありやかにいえぬが悲し」 「いと深き神の仕組は今年より 現れなむとすも心せよみな」 「如何ならむ事起らむか大神の 珍の仕組の深きにあれば」 等々の如き数々の御歌を賜わり、今年こそはかつてなき肝胆戦慄の変事突発せんを警告せられつも流石に本教自らにあまりにも予測せざる、しかも事明主様の御上にまでかくも惨烈に及ぶに至っては、痛酷、心肝裂くるの出来事ではあった。<br/><br/>それだけに、大半の準備成った本十六号の発行も不可能かと思われたが、神意転妙、直ちに斬新なる本教会の組織も成り一応の落着きを得て、ここに発行の運びに至ったのである。<br/><br/>惟（おも）えば本誌も十五の満数をもって中断せられたのも豈（あに）偶然事ではあるまい。<br/><br/> 周知の如く、明主様には、酷烈なる受難の故に苛まれ給うた御身を、函嶺緑蔭の寓居に御静養を続けられたが、今は日に新たなる神命を受けられ、人類愛に燃ゆる御胸を撫されつつも、崩壊に瀕せる世を静観せられいる御模様であって、毎日参拝参観する信徒も低徊寂として声なきを見る。<br/><br/>吾等は自ら 「世の為に竭す真人は何時の世も 茨の道をくぐるものにや」 「善き事を悪しとみらるる世にありて 何をかせんや懐手すも」 「超人の力かくして荒みゆく 此現世を静かに視護る」 等々の十余年前の御歌を想起して、大神人の無量の御心境を偲はずにはおれない。<br/><br/>神に在らるる御身に、固より罪に問はるべき御過失のありよう筈はなく、まこと一点の暗影もあられぬこそ真実であり、全信徒の確く信ずる所である。<br/><br/>やがて事の真相は明々白々天下に証され吾等又、積雲霽れて天日を仰ぐの歓びに抃舞（べんぶ）する日も遠からざる将来であろう。<br/><br/>而して恐るべき審判の最後の日来る時、 「今の世に我生れずば天ケ下 ものの命は如何になりなむ」 の御歌を万民斉（ひと）しく唱和するに至るであろう確信を、いよいよ強うするものである。<br/><br/> 明主様には御法難の門出に、「散花結実」の御一言を残されて赴かれたと承わるが、まことにこの五、六、七の三月に渉る一連の突発事象に秘められた深遠なる神意は、この一語に表現せられつくしている。<br/><br/>これこそ本教が従来屡々経験してその都度新しい大発展の段階に入りつつ今日の大を成し来った大経綸の形態であり、造物主が行う万有進化の原則ではあろう。<br/><br/> 永遠の教主と慕い仰ぎ奉った明主様が、その地位を御去りになられたのは、信徒として一見心淋しさの極みであるが、一面それは霊界のより高きに上らせられた事を意味する。<br/><br/>現に浄霊における治病力は截然（せつぜん）として弥増し、日と共に強まりつつある事実は、教師の何れも驚歎せられつつある所である。<br/><br/>結実の期間は仮し長しとするも、従来も常にそうであるごとく、必ずより良き、より偉大なる教の実りの豊に輝しき事は一点の疑もない所である。<br/><br/>将に迫りつつある人類の一大危機は、遂に本教をして、世界救世の唯一絶対の存在たらしめずには措かぬであらう。<br/><br/> この大嵐によって、本教は神人共に最も祝福すぺさ偉大なる成果を期待し得る事となった。<br/><br/>それは又全人類の上に、神の理想実現の空前の一大慶事といわねばなるまい。<br/><br/>一切は神意のままに選ばれるを知る時、吾等は果して何をか悲しみ何をか喜ぶべきや、にわかに断じ難いであろう。<br/><br/>小さなる人の眼に写る不安も失望もやがては徒事の二字に尽き、歓喜の二字におき替えられるであろう。<br/><br/> 散花結実の表われは、本教所属の各細胞にまで及ぶべきは論をまたぬ、今こそ神が与えた実りの時である。<br/><br/>吾等はすべからく救世の偉力を身に充実せしめ、来るべき終末的危機の為に備えねばならない。<br/><br/>それは御讃歌の一節であり、御垂訓の聖言である。<br/><br/> 本号から御玉稿は原則として一題を限って下さる事となったが、それから間もなく事件に遭遇し発行中絶したのも偶然ではなかった。<br/><br/>思えば従来毎回数種の御論評を賜わった事は勿体なき極みである感があった。<br/><br/>真に価値ある宝玉は小さくしてその真価を謳われる。<br/><br/>最高のものはただ一つでよいのは言うまでもない。<br/><br/> 本号に賜わった『物を知る事』の御文章を拝読する時、未だ経験せぬ深遠絶妙の感銘に打たれ、誰人といえども反覆味読せざるを得ぬであろう。<br/><br/>これを拝して吾等はまず小さなる眼を通した人物観の低劣さを知り、物を知る事の尊さを泌々と悟り、芸術の無形の力の如何に高く偉大なるかを初めて悟知した。<br/><br/>全くこれこそ現代人にはすっかり忘却された、否寧ろ未知である高遠なる世界の啓示であって、明主様の妙智の底知れぬ深きを感じ地上天国御建設の御深意を窺知し得たような感を与えられたのである。<br/><br/> 御歌「瑞雲天国」には御胸中に描かれた完成の暁の御構想が絵の如く三十一文字に詠まれており、これを諭すれば、瑞雲山を知る誰人の眼にも夢の天国が髣髴せられるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

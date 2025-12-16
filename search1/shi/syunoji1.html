@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syunoji1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主の字 『光』25号、昭和24(1949)年9月3日発行 私は常に、順序を正しくせよと言うが、この順序をタッタ一字で表わしたのが「主」の字である。<br><br>今この主の字を解剖してみよう。<br><br> 上中下の横棒三本は天地人、日月地、五六七、神幽現という意味で、それを経（たて）の棒が貫き、一番上にヽ（ちょん）が乗っている、これが正しい順序で、政治でも経済でも教育宗教でも一切万事この形でゆかなければうまく行くはずがないのである、ところが、今日まであらゆるものは、大抵経緯（たてよこ）が別々で、その最も大きなものは、経の東洋思想と緯の西洋とで、離れ放れであった、ところがいよいよ時節到来、十字に結ぶ事になったのである、すなわち主の字の真中が十の字であり、上下の横棒は天と地である、つまり人間界は天地の中間であるから、人間界が十字に結ばるという訳である。<br><br>これが地上天国の実相で、すなわち十字の形の神の世界である、神という言葉もその意味である。<br><br>カとは火、ミとは水で火は経に燃え、水は緯に流れる、これが結んでカミという意味になるので、神御産霊（かみむすび）、高御産霊（たかみむすび）という通り、神の御働きは結びである、また仏はホトケでありホドケルであるという言霊であるから、ホドケている世界を、神が結ぶというのが、今や来らんとする神世界である、キリスト教徒が胸に描く十字架もそれの暗示であり、仏教の卍も同様の意味でただ仏教の卍は、十の字の一つ一つが枉（まが）っている、これは十の字に結ばると共に廻転が始まるという訳である、以上の意味によって政治も三段階でなければうまくゆかない、上下を真中の十でしっかり結んで上下の棒を支えている、という事は、中産階級が上層と下層との階級を調和させる役という意味にもなる、そうして一番上に大統領または総理大臣が座って支配するという意味であるから、主の形にすれば、何事も破綻なくうまくゆくのである、会社経営でも団体運営でも理屈は同じで吾らが常に唱うるミロクの世の姿である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio do Ideograma “Senhor”</h2>
 <p>Costumo sempre dizer que é preciso estabelecer a ordem correta, e o ideograma que representa este princípio em um único caractere é o de “Senhor”. Analisemos, pois, a anatomia deste ideograma.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Com efeito, o centro do ideograma “Senhor” forma uma cruz. As linhas horizontais superior e inferior representam o Céu e a Terra. Assim, o mundo dos homens, situado entre ambos, é onde essa união em cruz se manifesta. Esta é a verdadeira imagem do Paraíso Terrestre: um mundo divino com a estrutura de uma cruz. A própria palavra Deus, no idioma japonês, também encerra esse significado. O som <em>ka</em> representa o fogo, que arde na vertical, enquanto o som <em>mi</em> representa a água, que flui na horizontal. A união de ambos forma a palavra <em>Kami</em> (Deus). Portanto, como indicam os termos Kamimusubi (神御産霊) e Takamimusubi (高御産霊), a Obra Divina é a obra da união. Ademais, segundo o princípio espiritual da palavra, o termo Buda (<em>hotoke</em>) também significa “desatar” (<em>hodokeru</em>). Nesse sentido, o mundo divino que se aproxima é aquele no qual Deus virá para unir o que se encontrava desatado.</p>
 <p>A cruz que os cristãos traçam sobre o peito é um presságio disso, e a suástica budista, manji (卍), possui um significado análogo. No caso da suástica, contudo, as extremidades da cruz são dobradas, indicando que, ao se realizar a união em cruz, inicia-se também um movimento de rotação.</p>
 <p>Por todas essas razões, a política também não pode prosperar sem se estruturar em três níveis. A cruz central, que une firmemente os traços superior e inferior, simboliza o papel da classe média em harmonizar as classes alta e baixa. Acima de todos, na posição mais elevada, senta-se o presidente ou o primeiro-ministro, que governa o todo. Portanto, ao se estruturar qualquer coisa segundo o modelo do ideograma “Senhor”, tudo transcorrerá de forma harmoniosa e sem rupturas. Seja na administração de uma empresa ou na gestão de uma organização, a lógica é a mesma. Essa é a verdadeira forma do Mundo de Miroku, que sempre anunciamos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主の字 『光』25号、昭和24(1949)年9月3日発行 私は常に、順序を正しくせよと言うが、この順序をタッタ一字で表わしたのが「主」の字である。<br/><br/>今この主の字を解剖してみよう。<br/><br/> 上中下の横棒三本は天地人、日月地、五六七、神幽現という意味で、それを経（たて）の棒が貫き、一番上にヽ（ちょん）が乗っている、これが正しい順序で、政治でも経済でも教育宗教でも一切万事この形でゆかなければうまく行くはずがないのである、ところが、今日まであらゆるものは、大抵経緯（たてよこ）が別々で、その最も大きなものは、経の東洋思想と緯の西洋とで、離れ放れであった、ところがいよいよ時節到来、十字に結ぶ事になったのである、すなわち主の字の真中が十の字であり、上下の横棒は天と地である、つまり人間界は天地の中間であるから、人間界が十字に結ばるという訳である。<br/><br/>これが地上天国の実相で、すなわち十字の形の神の世界である、神という言葉もその意味である。<br/><br/>カとは火、ミとは水で火は経に燃え、水は緯に流れる、これが結んでカミという意味になるので、神御産霊（かみむすび）、高御産霊（たかみむすび）という通り、神の御働きは結びである、また仏はホトケでありホドケルであるという言霊であるから、ホドケている世界を、神が結ぶというのが、今や来らんとする神世界である、キリスト教徒が胸に描く十字架もそれの暗示であり、仏教の卍も同様の意味でただ仏教の卍は、十の字の一つ一つが枉（まが）っている、これは十の字に結ばると共に廻転が始まるという訳である、以上の意味によって政治も三段階でなければうまくゆかない、上下を真中の十でしっかり結んで上下の棒を支えている、という事は、中産階級が上層と下層との階級を調和させる役という意味にもなる、そうして一番上に大統領または総理大臣が座って支配するという意味であるから、主の形にすれば、何事も破綻なくうまくゆくのである、会社経営でも団体運営でも理屈は同じで吾らが常に唱うるミロクの世の姿である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

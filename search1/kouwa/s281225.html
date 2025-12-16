@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281225</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月25日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十五日 浄霊で病気がよく治るということを、初めて浄霊を受けて治った場合によく聞かれます。<br><br>そこで“なるほど”と思うように説明してやらなければならないのですが、それをできるだけ分かりやすく書いてみましたが、まだ少し物足りないところがありますが、だいたいこういうわけです。<br><br> （御論文「浄霊は科学療法なり」） 【栄光 二四三号】 つまりこの不純水素の毒粒子を焼いてしまうのです。<br><br>その焼く熱度というものがたいへんなものなのです。<br><br>ですからここ（掌）から出る光の熱は、それこそ寒暖計では計れないほどの熱ですが、ただ熱の霊なのです。<br><br>ふつうの熱いというのは熱の体なのです。<br><br>熱の霊というのは、体ではないから、その熱さは感じないのです。<br><br>その代わり熱としての力は非常なもので、むしろ無限と言ってもよいくらいなものです。<br><br>こう説くのが科学的説明なのです。<br><br>科学的と言っても機械的ではないのです。<br><br>いわば霊的科学です。<br><br>それで霊的科学というのは、今まで人間には経験がないからちょっと分かりにくいのですが、理屈はチャンと合っているのです。<br><br>というのは、今の医学などの科学というのは、ごく幼稚なものだから説明ができないのです。<br><br>つまり病気の原因はなんだと言っても、医学では説明できないのです。<br><br>それを無理にこじつけて説明してます。<br><br>よく新聞や雑誌に出てますが、その苦しいのはよく分かります。<br><br>こじつけだからして始終説が違ってくるのです。<br><br>最初この薬は非常に効くというやつが、だんだん時がたってくると逆作用が起こるとか言うのです。<br><br>結核によく効くという抗生物質というのが、最初はよく効いたが、だんだんやっているうちに、体の方にまたそれに対抗するものができるというので、かえって逆に結核菌の力が強くなる、ということを、このごろ言い出してます。<br><br>そういうようで、根本が分からないから上面だけで、半年も効くと鬼の首でも取ったように大騒ぎをするのですが、二年たち三年たつとみんな駄目になってしまうのです。<br><br>今までの結核の特効薬というのは、みんなそうです。<br><br>ですから私は今まで薬が出るたびに、今に駄目になると言って笑うのですが、これはなんでもないことで、当然なのです。<br><br>今までは物質的説明はできるが、科学的説明はできないのです。<br><br>だから科学ではないと言うのです。<br><br>ところがこっちの方を非科学と言い、自分の方を科学と言うのですから、おおよそ逆です。<br><br>今の文化というのはそういうものです。<br><br>それを今の文化的の人がいばって言っているのですから、笑うべきものです。<br><br>物事がうまくゆくはずがないのです。<br><br>始終みんなアップアップやって失敗ばかりしてます。<br><br>つまり救世教というのは、一つの高等教育です。<br><br>つまりまだまだ大いに未開人的分子が残っているのを大いに分からせるというわけで、教育です。<br><br>それには実際を見せなければ信じないから、浄霊やいろいろな奇蹟を見せて信じさせるというようにしてますが、実際を見ても信じない人がたくさんあるのですから、いかに迷信に捉われているかということが分かります。<br><br>迷信者の方が迷信でないものを見れば、やっぱり迷信と見るのです。<br><br>もっとも、そういった迷信がなくてチャンと分かっていれば救世教の必要がないわけですから、救世教を世界的の立派なものにするには、そういう迷信者が大いに必要……というよりか、それが根本です。<br><br>それについて、信仰に関係なく無神論をやっつけるようなふうに書いてみました。<br><br> （御論文「無神論に就いて」） かなりやっつけてありますが、無神論者を分からせるには、宗教的だとどうしても最初から毛嫌いしますから、かえって分かりにくいので、信仰を抜きにして書いてみたのです。<br><br>つまり人間の上等と下等というか、そういうようなことに心が向くということは、人間としては頭脳が上等なのです。<br><br>ただそういうことにぜんぜん関心を持たないで、毎日を、儲かるとか儲からないとか、思うようにゆくとかゆかないとか言って気をもんで、要するに高等な思想ということに向かないということは、それだけ魂が低いわけです。<br><br>だからそういうことを考える人――哲学者とか思想家というのは、人間で言えば上等な部類に属するのです。<br><br>というのは魂の位置、霊の位置なのです。<br><br>なにしろ霊の地位というのは百八十段もあるのですが、上に行くほど、つまり働きが高等なのです。<br><br>そこに、真ん中の線――地平線――上下を区別している線があり、その線を抜いて上に行けばよいのです。<br><br>それで、その線の上がつまり神様の分野で、線から下が獣の分野です。<br><br>動物界です。<br><br>そうなってますから、そこで今の偉い人でも、無神論者は線よりか以下なのです。<br><br>それで線の所まで行くが、それを抜くことができないのです。<br><br>神様を知る――神様は確かにある、というのは線を抜いたわけです。<br><br>わずかなところでぜんぜん世界が違ってしまうのです。<br><br>ところが線の以下ではどんな偉い人でも、智慧があっても、それは悪智慧になるのです。<br><br>悪いことをするために働く智慧になってしまうのです。<br><br>線を抜いて上に行けば、その人の考えること、やることがすべて本当の人間となり、つまり善だからして、まず間違いないわけです。<br><br>それとともに罪を作らないからどうしても不仕合せが来ない、幸福をかち得るわけになります。<br><br>その点です。<br><br>ですから信仰というものは、その線を抜くことを教えるだけでなく、“なるほど、それに違いない”と信じさせることです。<br><br>それが信仰の根本です。<br><br> 線を抜いてからも、やっぱりいくつにも段があるのです。<br><br>ところがたいていな世間の信仰は低いのです。<br><br>稲荷様とか権現様を信仰するのは、線をちょっと抜いた所です。<br><br>それから何々教とか何々宗というのになると、だいぶ上になってくるのです。<br><br>ところが上になったとは言っても、まだ本当の上ではないのです。<br><br>線をちょっと抜いた所だからすぐに下に落ちてしまうのです。<br><br>この間の霊友会というのはそうです。<br><br>ふだんは上になっているのですが、どうかすると下に落ちてしまうから間違いをしでかすのです。<br><br>そういうふうに考えると、分かりにくいことはないので、実に分かりよいです。<br><br>それで線から上の段で一番高いのが救世教です。<br><br>そうなると力が違ってくるのです。<br><br>では今までそういった上の段に行かれる宗教はなぜなかったかというと、今までの宗教は全部月の神様なのです。<br><br>つまり夜の世界だったから月の神様が支配していたから、光が足りなかったのです。<br><br>今度は太陽が現われたのです。<br><br>ですから私のこの病気を治す力も太陽の力です。<br><br>今読んだ、水素の毒粒子を焼き尽くすという火素は、太陽の力だからそういうことができるのです。<br><br>ところが今までは宗教でもなんでも全部月の系統です。<br><br>太陽の光からみると六十分の一ですから、六十分の一の力しかなかったわけです。<br><br>ところが今度は今までよりも六十倍の力ですから、そこで信者の人でもすばらしい力を発揮するわけです。<br><br>キリストでも月の神様の最高のものだから、月だけの力しかなかったわけです。<br><br>私の弟子は、月の力よりも太陽の光は、わずかでも、やっぱりそれだけの働きが違うわけです。<br><br>ですから奇蹟が現われるということは、そういうわけです。<br><br>今までないことがあるということは、今までは月の力であったからで、今度は日の力になるということに大きな違いさがあるわけです。<br><br>そう考えると、救世教の奇蹟が多いことも、浄霊で病気が治るということも分かるわけです。<br><br>別に難しいことはないわけです。<br><br>ただ、今まで太陽の方の神様が出なかった、出られなかったというところが根本なのです。<br><br>それで、今度はその太陽が現われたのです。<br><br>昼間の世界というのは、そういうわけです。<br><br> 宇宙というものは、そういうことになっているのです。<br><br>すべて夜昼の区別があるように、だいたい一年、十年、百年、千年、万年というように、定期的に決まっているのです。<br><br>今度昼間の世界になったのは三千年目になるのです。<br><br>実に宇宙というものは無限の神秘であって、とうてい言葉では言われないくらいなものです。<br><br>それで悠久のものですけれども、悠久の中にも大中小、大中小となって変化することになっているのです。<br><br>今度は三千年目で昼間になったのですが、三千年で一回転するのです。<br><br>それで三千年というと永久と言ってもよいです。<br><br>三千年ではつまらないと言っても、自分の命よりはずっと長いのです。<br><br>三千年の間には、いくども生き代わり死に代わりしているのです。<br><br>そのくらいの変化ですから、今度の変化というのは大変化であるし、祖先以来ないものです。<br><br>ですからこれに生まれ合わせ、この仕事に携わった人はどんなに仕合せか、祖先以来ないのですからたいへんなものです。<br><br>そういうような大変化だからして、分からせようと思っても、なかなか分かりにくいのです。<br><br>しかし分かりにくいけれども、聞いてみれば、なるほどそういうことも有り得るわけだということも分かるわけです。<br><br>こういう話は、哲学でもなければ宗教でもない、新しいものですが、しいて言えば宗教の哲学みたいなものです。<br><br>それで、これを知ることが覚りを開くということなのですが、しかし覚りを開くというが、今までの覚りはそこまでは分かっているのですが……それを朧（おぼろ）げながら分かったのはキリスト、釈迦という人たちです。<br><br>釈迦が“仏滅の世が来る”ということを言ったのは、ある程度分かったから言えるのです。<br><br>それからキリストの“天国は近づけり”ということも、ある程度まで分かったわけです。<br><br>けれども、私が分かるだけは分からなかったわけです。<br><br>もし分かれば、その時にもっとすばらしい奇蹟＝大きな力を現わさなければならないです。<br><br>救世教というものは、今までの観念でゆくと非常に難しいようですが、分かってみればかえって今までよりもずっとよく分かるのです。<br><br>それは根本が分かるからして、非常に難しいようでいて非常にやさしいのです。<br><br>ちょうど病気を治すようなもので、医者の方で首をひねってどうにもならない者が、こっちの方でこうやって治ってしまうのですから、理屈は同じです。<br><br>ただあんまり違い過ぎるので、その点に骨が折れるのです。<br><br> それから一昨日の寄書の中にちょっとおもしろい話がありました。<br><br>事務所の人と建築の方の椎野さんとの談話で――今度の『栄光』に出します。<br><br> 〔 メシヤ会館現場事務所へ椎野氏を訪ねて「栄光」 242号〕 これは私もびっくりしたのですが――会館の天井の高さですが、この間建築の方の博士が来て見たのか図面でか、とにかくすっかり見てもらったのです。<br><br>そうすると、下から上までの寸法というものがピッタリ合っていて、少しも違ってないというのです。<br><br>これを合わせるには学者が二カ月かかるそうですが、それを私は五分ぐらいなものでした。<br><br>その高さを模型でやってみて、それからちょうどこの辺だと思って、何十何尺と決めたわけです。<br><br>それは別に考えて頭を使ったわけではないのです。<br><br>ただ見た感じで、ちょうどこのぐらいがよいと決めたわけですが、学者の方ではそんなにたいへんなものです。<br><br>それから柱の太さも、やっぱり最初見本を見たときに、直径二尺八寸がちょうどよいからそれにしろと言ったのですが、それも今度、太さが建築にピッタリ合っているのだそうです。<br><br>重量とか、そういった計算でしょうが……。<br><br>それで非常に驚いたということが出てました。<br><br>ちょうどこれは、医者がいくらかかっても治らない者が浄霊で、ちょっとこうやって治るというのと理屈は同じだと思います。<br><br>ですからこれからだんだんできてきますが、名前は「熱海地上天国」としますから、そのつもりで……。<br><br>箱根地上天国、熱海地上天国、京都地上天国というように、だんだん各地に地上天国ができるわけです。<br><br>それで展望台の上のガラスの家は「水晶殿」と名前をつけました。<br><br>その高さから屋根の形から全部私がやったのですが、これは建築屋の方では非常に難しいものなのです。<br><br>六尺のものを接ぎ合わしてゆくのです。<br><br>それでふつうのガラスでは太陽が当たったりするとキラキラして見にくいので、プラスチックにすることにしました。<br><br>これならそういうことはないし、非常に丈夫です。<br><br>“風が強く当たったらどうか”と言うから、私は“そういう心配はない”と言ったのです。<br><br>というのは、風が当たっても、丸くてスベルから、風をよけると言ったのです。<br><br>それで予定よりもウンと大きくしました。<br><br>というのは、見物人がウンと来るだろうと思いますから、百人ぐらいが一度に入れるくらいな大きさにしました。<br><br>これができたら、日本中のたいへんな評判になるでしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ciência Espiritual e o Advento do Mundo do Dia</h2>
 <p>Muitas vezes, as pessoas que recebem Johrei pela primeira vez e se curam de suas enfermidades nos perguntam como tal recuperação é possível. Nessas ocasiões, é nosso dever oferecer-lhes uma explanação que as leve à compreensão. Embora eu já tenha abordado este tema no ensaio “O Johrei é uma Terapia Científica”, e ainda que sinta que a explicação possa ser aprimorada, o princípio fundamental é o que se segue.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Portanto, a transformação atual é de uma magnitude sem precedentes na história de nossos antepassados. Ter a permissão de nascer nesta época e de participar desta Obra Divina é uma ventura extraordinária. Por se tratar de uma mudança tão monumental, é natural que seja difícil de assimilar. No entanto, ao ouvir a explanação, a pessoa pode ao menos admitir a possibilidade de que tais coisas aconteçam. O que exponho aqui não é filosofia nem religião no sentido convencional; é algo novo. Se fosse preciso classificá-lo, diria que é uma espécie de “filosofia da religião”. Compreender isto é atingir a iluminação. Contudo, a iluminação do passado era limitada. Personalidades como Cristo e Shakyamuni tiveram apenas uma percepção tênue dessa verdade. A profecia de Shakyamuni sobre a chegada da “era do fim do Darma” e as palavras de Cristo, “o Reino dos Céus está próximo”, são evidências de que eles compreenderam até certo ponto. Todavia, seu entendimento não alcançou a profundidade do meu. Se o tivessem alcançado, teriam manifestado milagres e um poder muito maiores em suas respectivas épocas. A Sekaikyuseikyou pode parecer extremamente complexa sob a ótica das concepções antigas, mas, uma vez que se compreende seu fundamento, ela se revela mais clara do que qualquer outro ensinamento. Por ir direto à raiz das questões, o que parece difícil é, na verdade, muito simples. O mesmo princípio se aplica à cura das doenças: um caso que deixa os médicos perplexos, nós o solucionamos com um simples gesto. A lógica é a mesma; a dificuldade para os outros reside apenas na magnitude da diferença entre as duas abordagens.</p>
 <p>A propósito, um relato interessante me chegou anteontem, em uma conversa entre um funcionário do escritório e o Sr. Shiino, da equipe de construção, que será publicada na próxima edição da revista <em>Eikoh</em>. Confesso que até eu fiquei surpreso. O assunto era a altura do teto do Salão Messiânico. Recentemente, um arquiteto de renome examinou o local, ou talvez as plantas, e constatou que as medidas verticais, do piso ao teto, estavam perfeitamente alinhadas, sem a menor discrepância. Segundo ele, um cálculo dessa precisão levaria dois meses para ser feito por especialistas. Eu, no entanto, o defini em cerca de cinco minutos. Apenas observei a maquete, senti qual seria a altura ideal e determinei as medidas. Não foi um processo de raciocínio ou cálculo; foi pura intuição. Para os acadêmicos, porém, é uma tarefa de enorme complexidade. O mesmo ocorreu com a espessura dos pilares. Quando vi a primeira amostra, disse que o diâmetro de dois shaku e oito sun seria o ideal, e agora foi confirmado que essa medida se ajusta perfeitamente aos cálculos de sustentação de peso da estrutura. O espanto deles foi imenso. Creio que a lógica aqui é idêntica à do Johrei, que cura um doente desenganado pelos médicos.</p>
 <p>As obras avançam gradualmente, e o local se chamará “Paraíso Terrestre de Atami”. Assim, teremos o Paraíso Terrestre de Hakone, o de Atami, o de Quioto, e, sucessivamente, construiremos Paraísos Terrestres em diversas localidades. A construção de vidro no topo do mirante eu a nomeei “Pavilhão de Cristal”. Defini pessoalmente sua altura, o formato do telhado, tudo. Do ponto de vista da arquitetura, é um projeto extremamente complexo, que exige a junção de painéis de seis shaku. Optamos por utilizar plástico em vez de vidro comum, que ofuscaria a vista com o reflexo do sol. O plástico não apresenta esse problema e é muito resistente. Quando me perguntaram sobre a resistência a ventos fortes, respondi que não havia motivo para preocupação, pois, sendo a estrutura arredondada, o vento simplesmente desliza por ela. Decidi também torná-la muito maior do que o previsto, para que possa acomodar cerca de cem pessoas de uma só vez, antecipando o grande número de visitantes. Quando estiver concluído, este local certamente se tornará célebre em todo o Japão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月25日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十五日 浄霊で病気がよく治るということを、初めて浄霊を受けて治った場合によく聞かれます。<br/><br/>そこで“なるほど”と思うように説明してやらなければならないのですが、それをできるだけ分かりやすく書いてみましたが、まだ少し物足りないところがありますが、だいたいこういうわけです。<br/><br/> （御論文「浄霊は科学療法なり」） 【栄光 二四三号】 つまりこの不純水素の毒粒子を焼いてしまうのです。<br/><br/>その焼く熱度というものがたいへんなものなのです。<br/><br/>ですからここ（掌）から出る光の熱は、それこそ寒暖計では計れないほどの熱ですが、ただ熱の霊なのです。<br/><br/>ふつうの熱いというのは熱の体なのです。<br/><br/>熱の霊というのは、体ではないから、その熱さは感じないのです。<br/><br/>その代わり熱としての力は非常なもので、むしろ無限と言ってもよいくらいなものです。<br/><br/>こう説くのが科学的説明なのです。<br/><br/>科学的と言っても機械的ではないのです。<br/><br/>いわば霊的科学です。<br/><br/>それで霊的科学というのは、今まで人間には経験がないからちょっと分かりにくいのですが、理屈はチャンと合っているのです。<br/><br/>というのは、今の医学などの科学というのは、ごく幼稚なものだから説明ができないのです。<br/><br/>つまり病気の原因はなんだと言っても、医学では説明できないのです。<br/><br/>それを無理にこじつけて説明してます。<br/><br/>よく新聞や雑誌に出てますが、その苦しいのはよく分かります。<br/><br/>こじつけだからして始終説が違ってくるのです。<br/><br/>最初この薬は非常に効くというやつが、だんだん時がたってくると逆作用が起こるとか言うのです。<br/><br/>結核によく効くという抗生物質というのが、最初はよく効いたが、だんだんやっているうちに、体の方にまたそれに対抗するものができるというので、かえって逆に結核菌の力が強くなる、ということを、このごろ言い出してます。<br/><br/>そういうようで、根本が分からないから上面だけで、半年も効くと鬼の首でも取ったように大騒ぎをするのですが、二年たち三年たつとみんな駄目になってしまうのです。<br/><br/>今までの結核の特効薬というのは、みんなそうです。<br/><br/>ですから私は今まで薬が出るたびに、今に駄目になると言って笑うのですが、これはなんでもないことで、当然なのです。<br/><br/>今までは物質的説明はできるが、科学的説明はできないのです。<br/><br/>だから科学ではないと言うのです。<br/><br/>ところがこっちの方を非科学と言い、自分の方を科学と言うのですから、おおよそ逆です。<br/><br/>今の文化というのはそういうものです。<br/><br/>それを今の文化的の人がいばって言っているのですから、笑うべきものです。<br/><br/>物事がうまくゆくはずがないのです。<br/><br/>始終みんなアップアップやって失敗ばかりしてます。<br/><br/>つまり救世教というのは、一つの高等教育です。<br/><br/>つまりまだまだ大いに未開人的分子が残っているのを大いに分からせるというわけで、教育です。<br/><br/>それには実際を見せなければ信じないから、浄霊やいろいろな奇蹟を見せて信じさせるというようにしてますが、実際を見ても信じない人がたくさんあるのですから、いかに迷信に捉われているかということが分かります。<br/><br/>迷信者の方が迷信でないものを見れば、やっぱり迷信と見るのです。<br/><br/>もっとも、そういった迷信がなくてチャンと分かっていれば救世教の必要がないわけですから、救世教を世界的の立派なものにするには、そういう迷信者が大いに必要……というよりか、それが根本です。<br/><br/>それについて、信仰に関係なく無神論をやっつけるようなふうに書いてみました。<br/><br/> （御論文「無神論に就いて」） かなりやっつけてありますが、無神論者を分からせるには、宗教的だとどうしても最初から毛嫌いしますから、かえって分かりにくいので、信仰を抜きにして書いてみたのです。<br/><br/>つまり人間の上等と下等というか、そういうようなことに心が向くということは、人間としては頭脳が上等なのです。<br/><br/>ただそういうことにぜんぜん関心を持たないで、毎日を、儲かるとか儲からないとか、思うようにゆくとかゆかないとか言って気をもんで、要するに高等な思想ということに向かないということは、それだけ魂が低いわけです。<br/><br/>だからそういうことを考える人――哲学者とか思想家というのは、人間で言えば上等な部類に属するのです。<br/><br/>というのは魂の位置、霊の位置なのです。<br/><br/>なにしろ霊の地位というのは百八十段もあるのですが、上に行くほど、つまり働きが高等なのです。<br/><br/>そこに、真ん中の線――地平線――上下を区別している線があり、その線を抜いて上に行けばよいのです。<br/><br/>それで、その線の上がつまり神様の分野で、線から下が獣の分野です。<br/><br/>動物界です。<br/><br/>そうなってますから、そこで今の偉い人でも、無神論者は線よりか以下なのです。<br/><br/>それで線の所まで行くが、それを抜くことができないのです。<br/><br/>神様を知る――神様は確かにある、というのは線を抜いたわけです。<br/><br/>わずかなところでぜんぜん世界が違ってしまうのです。<br/><br/>ところが線の以下ではどんな偉い人でも、智慧があっても、それは悪智慧になるのです。<br/><br/>悪いことをするために働く智慧になってしまうのです。<br/><br/>線を抜いて上に行けば、その人の考えること、やることがすべて本当の人間となり、つまり善だからして、まず間違いないわけです。<br/><br/>それとともに罪を作らないからどうしても不仕合せが来ない、幸福をかち得るわけになります。<br/><br/>その点です。<br/><br/>ですから信仰というものは、その線を抜くことを教えるだけでなく、“なるほど、それに違いない”と信じさせることです。<br/><br/>それが信仰の根本です。<br/><br/> 線を抜いてからも、やっぱりいくつにも段があるのです。<br/><br/>ところがたいていな世間の信仰は低いのです。<br/><br/>稲荷様とか権現様を信仰するのは、線をちょっと抜いた所です。<br/><br/>それから何々教とか何々宗というのになると、だいぶ上になってくるのです。<br/><br/>ところが上になったとは言っても、まだ本当の上ではないのです。<br/><br/>線をちょっと抜いた所だからすぐに下に落ちてしまうのです。<br/><br/>この間の霊友会というのはそうです。<br/><br/>ふだんは上になっているのですが、どうかすると下に落ちてしまうから間違いをしでかすのです。<br/><br/>そういうふうに考えると、分かりにくいことはないので、実に分かりよいです。<br/><br/>それで線から上の段で一番高いのが救世教です。<br/><br/>そうなると力が違ってくるのです。<br/><br/>では今までそういった上の段に行かれる宗教はなぜなかったかというと、今までの宗教は全部月の神様なのです。<br/><br/>つまり夜の世界だったから月の神様が支配していたから、光が足りなかったのです。<br/><br/>今度は太陽が現われたのです。<br/><br/>ですから私のこの病気を治す力も太陽の力です。<br/><br/>今読んだ、水素の毒粒子を焼き尽くすという火素は、太陽の力だからそういうことができるのです。<br/><br/>ところが今までは宗教でもなんでも全部月の系統です。<br/><br/>太陽の光からみると六十分の一ですから、六十分の一の力しかなかったわけです。<br/><br/>ところが今度は今までよりも六十倍の力ですから、そこで信者の人でもすばらしい力を発揮するわけです。<br/><br/>キリストでも月の神様の最高のものだから、月だけの力しかなかったわけです。<br/><br/>私の弟子は、月の力よりも太陽の光は、わずかでも、やっぱりそれだけの働きが違うわけです。<br/><br/>ですから奇蹟が現われるということは、そういうわけです。<br/><br/>今までないことがあるということは、今までは月の力であったからで、今度は日の力になるということに大きな違いさがあるわけです。<br/><br/>そう考えると、救世教の奇蹟が多いことも、浄霊で病気が治るということも分かるわけです。<br/><br/>別に難しいことはないわけです。<br/><br/>ただ、今まで太陽の方の神様が出なかった、出られなかったというところが根本なのです。<br/><br/>それで、今度はその太陽が現われたのです。<br/><br/>昼間の世界というのは、そういうわけです。<br/><br/> 宇宙というものは、そういうことになっているのです。<br/><br/>すべて夜昼の区別があるように、だいたい一年、十年、百年、千年、万年というように、定期的に決まっているのです。<br/><br/>今度昼間の世界になったのは三千年目になるのです。<br/><br/>実に宇宙というものは無限の神秘であって、とうてい言葉では言われないくらいなものです。<br/><br/>それで悠久のものですけれども、悠久の中にも大中小、大中小となって変化することになっているのです。<br/><br/>今度は三千年目で昼間になったのですが、三千年で一回転するのです。<br/><br/>それで三千年というと永久と言ってもよいです。<br/><br/>三千年ではつまらないと言っても、自分の命よりはずっと長いのです。<br/><br/>三千年の間には、いくども生き代わり死に代わりしているのです。<br/><br/>そのくらいの変化ですから、今度の変化というのは大変化であるし、祖先以来ないものです。<br/><br/>ですからこれに生まれ合わせ、この仕事に携わった人はどんなに仕合せか、祖先以来ないのですからたいへんなものです。<br/><br/>そういうような大変化だからして、分からせようと思っても、なかなか分かりにくいのです。<br/><br/>しかし分かりにくいけれども、聞いてみれば、なるほどそういうことも有り得るわけだということも分かるわけです。<br/><br/>こういう話は、哲学でもなければ宗教でもない、新しいものですが、しいて言えば宗教の哲学みたいなものです。<br/><br/>それで、これを知ることが覚りを開くということなのですが、しかし覚りを開くというが、今までの覚りはそこまでは分かっているのですが……それを朧（おぼろ）げながら分かったのはキリスト、釈迦という人たちです。<br/><br/>釈迦が“仏滅の世が来る”ということを言ったのは、ある程度分かったから言えるのです。<br/><br/>それからキリストの“天国は近づけり”ということも、ある程度まで分かったわけです。<br/><br/>けれども、私が分かるだけは分からなかったわけです。<br/><br/>もし分かれば、その時にもっとすばらしい奇蹟＝大きな力を現わさなければならないです。<br/><br/>救世教というものは、今までの観念でゆくと非常に難しいようですが、分かってみればかえって今までよりもずっとよく分かるのです。<br/><br/>それは根本が分かるからして、非常に難しいようでいて非常にやさしいのです。<br/><br/>ちょうど病気を治すようなもので、医者の方で首をひねってどうにもならない者が、こっちの方でこうやって治ってしまうのですから、理屈は同じです。<br/><br/>ただあんまり違い過ぎるので、その点に骨が折れるのです。<br/><br/> それから一昨日の寄書の中にちょっとおもしろい話がありました。<br/><br/>事務所の人と建築の方の椎野さんとの談話で――今度の『栄光』に出します。<br/><br/> 〔 メシヤ会館現場事務所へ椎野氏を訪ねて「栄光」 242号〕 これは私もびっくりしたのですが――会館の天井の高さですが、この間建築の方の博士が来て見たのか図面でか、とにかくすっかり見てもらったのです。<br/><br/>そうすると、下から上までの寸法というものがピッタリ合っていて、少しも違ってないというのです。<br/><br/>これを合わせるには学者が二カ月かかるそうですが、それを私は五分ぐらいなものでした。<br/><br/>その高さを模型でやってみて、それからちょうどこの辺だと思って、何十何尺と決めたわけです。<br/><br/>それは別に考えて頭を使ったわけではないのです。<br/><br/>ただ見た感じで、ちょうどこのぐらいがよいと決めたわけですが、学者の方ではそんなにたいへんなものです。<br/><br/>それから柱の太さも、やっぱり最初見本を見たときに、直径二尺八寸がちょうどよいからそれにしろと言ったのですが、それも今度、太さが建築にピッタリ合っているのだそうです。<br/><br/>重量とか、そういった計算でしょうが……。<br/><br/>それで非常に驚いたということが出てました。<br/><br/>ちょうどこれは、医者がいくらかかっても治らない者が浄霊で、ちょっとこうやって治るというのと理屈は同じだと思います。<br/><br/>ですからこれからだんだんできてきますが、名前は「熱海地上天国」としますから、そのつもりで……。<br/><br/>箱根地上天国、熱海地上天国、京都地上天国というように、だんだん各地に地上天国ができるわけです。<br/><br/>それで展望台の上のガラスの家は「水晶殿」と名前をつけました。<br/><br/>その高さから屋根の形から全部私がやったのですが、これは建築屋の方では非常に難しいものなのです。<br/><br/>六尺のものを接ぎ合わしてゆくのです。<br/><br/>それでふつうのガラスでは太陽が当たったりするとキラキラして見にくいので、プラスチックにすることにしました。<br/><br/>これならそういうことはないし、非常に丈夫です。<br/><br/>“風が強く当たったらどうか”と言うから、私は“そういう心配はない”と言ったのです。<br/><br/>というのは、風が当たっても、丸くてスベルから、風をよけると言ったのです。<br/><br/>それで予定よりもウンと大きくしました。<br/><br/>というのは、見物人がウンと来るだろうと思いますから、百人ぐらいが一度に入れるくらいな大きさにしました。<br/><br/>これができたら、日本中のたいへんな評判になるでしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

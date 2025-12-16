@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtikago</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 地下五千尺で落盤脱線、マイトの奇跡 『栄光』149号、昭和27(1952)年3月26日発行 福岡県 明輪中教会 森光与四郎（34） 偉大なる明主様の御神徳により日々奇蹟の御守護を頂き、感謝感激で胸がつまる思いでございます。<br><br>人生の意義の深遠なる事を悟らせて頂き、教線の拡張に微力を捧げさせて頂いております。<br><br> 私の御世話させて頂いている信者さんのお蔭話の二、三を謹んで御報告させて頂きます。<br><br> 昭和二十六年の暮の事でありますが、夜のお参り済ましたところに、一年前に入信された千原幾夫さんと言う信者が来られましたので御用を伺いますと「ただ今御礼参りに来ました」と言って礼拝後、「今思い出しても胸がどきどきする」と顔を紅潮させ「炭坑の地下五千尺の中で間一髪で命を救って頂いた」と、次の話をされました。<br><br> 「私の作業箇所は天井も緩み、亀裂もあって非常に危険な所ですが、そこにマツ岩（氷山を逆にしたように黒岩が天井にくっついて予告なしにコッポリ落ちて来る）がちょっとのぞいていたが、先山（経験者）がよそへ行ったので後向（経験の浅い人）二人でマイトをかける準備をしておったのです。<br><br>高さ三尺位のマツ岩の下へ私がかがんで這入り、炭を掻き出していたが、どうも足場が悪いので何の気なしに岩の下から這い出して立つと同時にサッと顔先に風を起して牛のような岩がドドォーと落ちて来ました。<br><br>あっと思った瞬間何と言ったらよいか、ただ茫然自失、ぼんやりと他人事のように眺めていたようですが、現実のこの出来事をはっきり意識した頃、胸がドキドキと鳴り始めたんですよ。<br><br>その時瞬時こう思いました。<br><br>「こんなに遅い神経では、とても人間の力ではこの危難を逃れる事は出来ない、嗚呼神様のお救いだ御守護だ」と気がつき思わず「明主様有難うございました」と言っておりました。<br><br>ちょうどその時横でうめき声が聞えるので埃を透して見れば一人は岩の端に片足を敷かれ、引出そうともがいているのです。<br><br>手伝って出してやりましたが、彼は病院で十日間休業との診断との事でした。<br><br>真下の私が無傷で、側の者が怪我をするなんて全く不思議ですね。<br><br>ほんの二、三秒で私はスルメのようになって今頃こんなにしてお話も出来ないのだがなあ」と言って身振いしておられました。<br><br> この話を聞く私も何となく動悸を覚え「大光明如来様は地下五千尺の曲りくねった暗黒坑道まで御手を差伸べられ、お救い下さるのですね」と言って、この偉大なる御守護を語り合いました。<br><br>それから二、三日経って又来られ「坑内の炭車がカーブでいつも脱線するので調べても異常はない。<br><br>そこで物は試しと申訳ない事ですが炭車に御浄霊させて頂くと、なんと不思議ではありませんか、炭を満載した炭車がするすると順調に進む、これは有難いと毎日やらして頂いたので能率は上り、みんな喜んでおりました。<br><br>いつも五、六回は脱線するのでナグレ（最低賃金）の日が多かったのですから喜ぶのも当然です。<br><br>私が昨日一日休んだので六回も脱線し、枠足をたおし、大ナグレとこぼしておりました。<br><br>今日はお蔭で脱線もなく御力の有難さをつぶさに知らせて頂きました。<br><br>なお今日はもう一つ面白い事があります」と言って、次のように述懐するのです。<br><br>「マイトをかけるので私達は待避して食事をして待っていたが爆発音がいつまで経っても聞えません。<br><br>普通十分か二十分で済むのに何しているんだ、寝ているんじゃないかと皆で冗談を言いながら私一人で様子を見に行きました。<br><br> 現場では「変だなあどうしても鳴らんのだ」と言って爆発器を三つも取替えたりマイト線を点検したり汗びっしょりになってやっているのです。<br><br>私も手伝って電通試験をやったが電気はちゃんと来るので私まで変だと思いましたが、ふと御浄霊の事を思い出し、「ちょっと私にまじないをさせて見なさい」と、爆発器と線を御浄霊させて頂き、「さあやってみなさい」と内心気にかかったが待避して合図しますと間もなくゴォーと地軸をゆるがす爆破音が聞えました。<br><br>私は嬉しくて堪らないので同僚達に話しても信じてくれないので、先生に聞いて貰いに来ました」とさも嬉しそうに話されました。<br><br> その後十八日の月並祭の後でこのお蔭話の発表をして頂き、ちょうど奇蹟と世の中には偶然という事はないというお話の後だったので参拝者の皆さんも特に感動されて聞いておられました。<br><br>嬉しさをつつみきれず、乱文ながら右謹んで御報告させて頂きます。<br><br> 明主様の偉大なる御守護の下に救世の大業に参加させて頂く光栄を肝に銘じ、益々奮闘致したい念願でございます。<br><br> 明主様誠に有難うございました。<br><br> （昭和二十七年三月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Desmoronamento e descarrilamento a cinco mil pés de profundidade: o milagre da dinamite</h2>
 <p><em>Revista Eikou, nº 149, publicada em 26 de março de 1952</em>
@@ -103,5 +258,48 @@ function toggleLang(lang) {
 <p>Guardo profundamente em meu coração a honra de poder participar da grandiosa Obra da Salvação sob a sublime proteção de Meishu-Sama, e renovo meu desejo de me empenhar com afinco cada vez maior.</p>
 <p>Meishu-Sama, profundamente agradecido.</p>
 <p>(1º de março de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 地下五千尺で落盤脱線、マイトの奇跡 『栄光』149号、昭和27(1952)年3月26日発行 福岡県 明輪中教会 森光与四郎（34） 偉大なる明主様の御神徳により日々奇蹟の御守護を頂き、感謝感激で胸がつまる思いでございます。<br/><br/>人生の意義の深遠なる事を悟らせて頂き、教線の拡張に微力を捧げさせて頂いております。<br/><br/> 私の御世話させて頂いている信者さんのお蔭話の二、三を謹んで御報告させて頂きます。<br/><br/> 昭和二十六年の暮の事でありますが、夜のお参り済ましたところに、一年前に入信された千原幾夫さんと言う信者が来られましたので御用を伺いますと「ただ今御礼参りに来ました」と言って礼拝後、「今思い出しても胸がどきどきする」と顔を紅潮させ「炭坑の地下五千尺の中で間一髪で命を救って頂いた」と、次の話をされました。<br/><br/> 「私の作業箇所は天井も緩み、亀裂もあって非常に危険な所ですが、そこにマツ岩（氷山を逆にしたように黒岩が天井にくっついて予告なしにコッポリ落ちて来る）がちょっとのぞいていたが、先山（経験者）がよそへ行ったので後向（経験の浅い人）二人でマイトをかける準備をしておったのです。<br/><br/>高さ三尺位のマツ岩の下へ私がかがんで這入り、炭を掻き出していたが、どうも足場が悪いので何の気なしに岩の下から這い出して立つと同時にサッと顔先に風を起して牛のような岩がドドォーと落ちて来ました。<br/><br/>あっと思った瞬間何と言ったらよいか、ただ茫然自失、ぼんやりと他人事のように眺めていたようですが、現実のこの出来事をはっきり意識した頃、胸がドキドキと鳴り始めたんですよ。<br/><br/>その時瞬時こう思いました。<br/><br/>「こんなに遅い神経では、とても人間の力ではこの危難を逃れる事は出来ない、嗚呼神様のお救いだ御守護だ」と気がつき思わず「明主様有難うございました」と言っておりました。<br/><br/>ちょうどその時横でうめき声が聞えるので埃を透して見れば一人は岩の端に片足を敷かれ、引出そうともがいているのです。<br/><br/>手伝って出してやりましたが、彼は病院で十日間休業との診断との事でした。<br/><br/>真下の私が無傷で、側の者が怪我をするなんて全く不思議ですね。<br/><br/>ほんの二、三秒で私はスルメのようになって今頃こんなにしてお話も出来ないのだがなあ」と言って身振いしておられました。<br/><br/> この話を聞く私も何となく動悸を覚え「大光明如来様は地下五千尺の曲りくねった暗黒坑道まで御手を差伸べられ、お救い下さるのですね」と言って、この偉大なる御守護を語り合いました。<br/><br/>それから二、三日経って又来られ「坑内の炭車がカーブでいつも脱線するので調べても異常はない。<br/><br/>そこで物は試しと申訳ない事ですが炭車に御浄霊させて頂くと、なんと不思議ではありませんか、炭を満載した炭車がするすると順調に進む、これは有難いと毎日やらして頂いたので能率は上り、みんな喜んでおりました。<br/><br/>いつも五、六回は脱線するのでナグレ（最低賃金）の日が多かったのですから喜ぶのも当然です。<br/><br/>私が昨日一日休んだので六回も脱線し、枠足をたおし、大ナグレとこぼしておりました。<br/><br/>今日はお蔭で脱線もなく御力の有難さをつぶさに知らせて頂きました。<br/><br/>なお今日はもう一つ面白い事があります」と言って、次のように述懐するのです。<br/><br/>「マイトをかけるので私達は待避して食事をして待っていたが爆発音がいつまで経っても聞えません。<br/><br/>普通十分か二十分で済むのに何しているんだ、寝ているんじゃないかと皆で冗談を言いながら私一人で様子を見に行きました。<br/><br/> 現場では「変だなあどうしても鳴らんのだ」と言って爆発器を三つも取替えたりマイト線を点検したり汗びっしょりになってやっているのです。<br/><br/>私も手伝って電通試験をやったが電気はちゃんと来るので私まで変だと思いましたが、ふと御浄霊の事を思い出し、「ちょっと私にまじないをさせて見なさい」と、爆発器と線を御浄霊させて頂き、「さあやってみなさい」と内心気にかかったが待避して合図しますと間もなくゴォーと地軸をゆるがす爆破音が聞えました。<br/><br/>私は嬉しくて堪らないので同僚達に話しても信じてくれないので、先生に聞いて貰いに来ました」とさも嬉しそうに話されました。<br/><br/> その後十八日の月並祭の後でこのお蔭話の発表をして頂き、ちょうど奇蹟と世の中には偶然という事はないというお話の後だったので参拝者の皆さんも特に感動されて聞いておられました。<br/><br/>嬉しさをつつみきれず、乱文ながら右謹んで御報告させて頂きます。<br/><br/> 明主様の偉大なる御守護の下に救世の大業に参加させて頂く光栄を肝に銘じ、益々奮闘致したい念願でございます。<br/><br/> 明主様誠に有難うございました。<br/><br/> （昭和二十七年三月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

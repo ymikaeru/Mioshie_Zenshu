@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核新薬を嗤う 『栄光』150号、昭和27(1952)年4月2日発行 最近アメリカにおいてリミフォン（イソニコチン酸、ハイドラジット）という新薬が発明され、これによると人体の結核菌は短期間にことごとく死滅し、たちまち病気は快くなると云い、今や世界的に評判になっているようだが、もっともまだ試験中で、発表は本年六月頃との事であるから、もしその言う通りであるとしたら、救世主のごとく騒がれるであろうが、それは一時的で、時の経つにつれて消えてしまうのは、今までの新薬の例に徴（ちょう）しても分るであろう。<br><br>これについて吾々が確信をもって断言出来るのは、今後どんな立派な新薬が出来ても、無論一時的で、結局は駄目になると言っても間違いはあるまい。<br><br>としたらどんな人でも信じられまいからその理由を詳しくかいてみるが、これを読んだら誰でもなるほどと肯くに違いなかろう。<br><br> そもそも現代医学者の考え方は、結核菌さえ殺してしまえば、それで解決するものと思っているその浅見である。<br><br>もっともこれは根本を知らないから致し方ないが、ここでよく考えてみて貰いたい事は、結核菌といえども天から降ったものでも地から湧いたものでもない以上、必ず何らかの理由によって、どこからか湧いたものに違いないが、医学はその点を知る程に進歩していないので、そのためいかに無益な努力を払っているか分からない程である。<br><br>ところが吾々の方はとっくに根本的原理が分かっているから、この根本を教えたいのである。<br><br> まず人間なるものは、いつもいう通り見える体と見えざる霊との二要素から成立っているもので、これは万有の真理であって、これに洩るるものは一つもない。<br><br>たとえば天地、陰陽、昼夜、火水、日月、明暗等々ことごとくそうである。<br><br>従って人体とても同様で、病気なるものは初め霊に曇りが生ずる。<br><br>曇りとは透明体である霊身が、不透明になる事である。<br><br>もちろん目にも見えない以上、科学では到底分かり得ないが、これを科学的にいっても超微粒子が本質で、空気よりも層一層稀薄な原素である。<br><br>ところが人体は不断に自然浄化作用が行われているから、それによって曇りは漸次圧縮されつつ濃度化し、部分的に凝結する。<br><br>もちろんこの本質も水素の密合体で、ちょうど大空の雲のごときものである。<br><br>それが極度に到るや、ここに一種のバクテリアが発生する。<br><br>これは無機質植物性のごときものであって、このバクテリアが時の進むに従い、生育すると共に有機体に変化する。<br><br>すなわちこれが黴菌の卵で、この卵が漸次生長して一個の生物となる。<br><br>これが黴菌であって、最早顕微鏡で見得る程度になるのである。<br><br>彼のウイルスとは右のごとき黴菌の卵であるから、いずれは親となり病原となるのは、医学でも認めている通りである。<br><br> この理によって、たとえ黴菌を殺し尽したとしても、それは結果の解消でしかないから、後から後から無限に生産される以上、病気は根治とはならないのである。<br><br>従ってどうしても発生源である曇りの解消こそ根本的解決法であってみれば、それ以外方法のない事は分り切った話である。<br><br>この理によって殺菌法は一時的効果で、結局無意味であるのは余りにも明らかである。<br><br>ところが本教浄霊とは病原である曇りの解消方法であるから、これこそ真の医学である。<br><br>従って現在のごとき唯物医学をいかに研究したとしても、徒労以外の何物でもないのである。<br><br>という訳で私はこの真理を一日も早く全世界の医学者に分からせ、覚醒させたい念願である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falácia dos Novos Medicamentos para Tuberculose</h2>
 <p>Propaga-se, em âmbito mundial, a notícia de um novo medicamento desenvolvido nos Estados Unidos, denominado Rimifon (hidrazida do ácido isonicotínico). Afirma-se que tal substância é capaz de exterminar, em curto prazo, a totalidade dos bacilos da tuberculose no corpo humano, debelando a enfermidade com rapidez. Embora o fármaco ainda se encontre em fase de testes, com sua divulgação oficial prevista para junho deste ano, sua notoriedade já é imensa. Caso suas promessas se confirmem, é provável que seja aclamado como um recurso salvífico.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Com o passar do tempo, essa bactéria se desenvolve e se transforma em uma entidade orgânica. Eis o germe do micróbio, que, ao crescer progressivamente, converte-se em um organismo vivo. Este é o micróbio propriamente dito, que então se torna visível ao microscópio. O que se denomina vírus, aliás, corresponde a esse estado germinal do micróbio, o qual, como a própria medicina reconhece, eventualmente se desenvolve e se torna um patógeno.</p>
 <p>Decorre desse princípio que, ainda que se extermine a totalidade dos micróbios, tal ação representa meramente a remediação da consequência, não da causa. Visto que novos micróbios são produzidos incessantemente a partir de sua fonte, a enfermidade jamais alcança a cura definitiva. A verdadeira solução, a única de fato, reside na dissolução de sua fonte geradora: as turvações espirituais. Qualquer outro método está, portanto, fadado ao insucesso. Fica evidente, pois, que os métodos bactericidas oferecem apenas um efeito transitório e, em última análise, são destituídos de sentido.</p>
 <p>É precisamente nesse ponto que o Johrei, ministrado por nossa Igreja, revela seu propósito, pois atua diretamente na eliminação da origem das enfermidades. Eis, portanto, a autêntica medicina. Assim, por mais que se aprofundem as pesquisas no campo da medicina materialista vigente, elas não passarão de uma labuta inglória. Sendo assim, meu mais profundo anseio é fazer com que os médicos do mundo inteiro compreendam esta verdade o mais breve possível e, por meio dela, alcancem o despertar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核新薬を嗤う 『栄光』150号、昭和27(1952)年4月2日発行 最近アメリカにおいてリミフォン（イソニコチン酸、ハイドラジット）という新薬が発明され、これによると人体の結核菌は短期間にことごとく死滅し、たちまち病気は快くなると云い、今や世界的に評判になっているようだが、もっともまだ試験中で、発表は本年六月頃との事であるから、もしその言う通りであるとしたら、救世主のごとく騒がれるであろうが、それは一時的で、時の経つにつれて消えてしまうのは、今までの新薬の例に徴（ちょう）しても分るであろう。<br/><br/>これについて吾々が確信をもって断言出来るのは、今後どんな立派な新薬が出来ても、無論一時的で、結局は駄目になると言っても間違いはあるまい。<br/><br/>としたらどんな人でも信じられまいからその理由を詳しくかいてみるが、これを読んだら誰でもなるほどと肯くに違いなかろう。<br/><br/> そもそも現代医学者の考え方は、結核菌さえ殺してしまえば、それで解決するものと思っているその浅見である。<br/><br/>もっともこれは根本を知らないから致し方ないが、ここでよく考えてみて貰いたい事は、結核菌といえども天から降ったものでも地から湧いたものでもない以上、必ず何らかの理由によって、どこからか湧いたものに違いないが、医学はその点を知る程に進歩していないので、そのためいかに無益な努力を払っているか分からない程である。<br/><br/>ところが吾々の方はとっくに根本的原理が分かっているから、この根本を教えたいのである。<br/><br/> まず人間なるものは、いつもいう通り見える体と見えざる霊との二要素から成立っているもので、これは万有の真理であって、これに洩るるものは一つもない。<br/><br/>たとえば天地、陰陽、昼夜、火水、日月、明暗等々ことごとくそうである。<br/><br/>従って人体とても同様で、病気なるものは初め霊に曇りが生ずる。<br/><br/>曇りとは透明体である霊身が、不透明になる事である。<br/><br/>もちろん目にも見えない以上、科学では到底分かり得ないが、これを科学的にいっても超微粒子が本質で、空気よりも層一層稀薄な原素である。<br/><br/>ところが人体は不断に自然浄化作用が行われているから、それによって曇りは漸次圧縮されつつ濃度化し、部分的に凝結する。<br/><br/>もちろんこの本質も水素の密合体で、ちょうど大空の雲のごときものである。<br/><br/>それが極度に到るや、ここに一種のバクテリアが発生する。<br/><br/>これは無機質植物性のごときものであって、このバクテリアが時の進むに従い、生育すると共に有機体に変化する。<br/><br/>すなわちこれが黴菌の卵で、この卵が漸次生長して一個の生物となる。<br/><br/>これが黴菌であって、最早顕微鏡で見得る程度になるのである。<br/><br/>彼のウイルスとは右のごとき黴菌の卵であるから、いずれは親となり病原となるのは、医学でも認めている通りである。<br/><br/> この理によって、たとえ黴菌を殺し尽したとしても、それは結果の解消でしかないから、後から後から無限に生産される以上、病気は根治とはならないのである。<br/><br/>従ってどうしても発生源である曇りの解消こそ根本的解決法であってみれば、それ以外方法のない事は分り切った話である。<br/><br/>この理によって殺菌法は一時的効果で、結局無意味であるのは余りにも明らかである。<br/><br/>ところが本教浄霊とは病原である曇りの解消方法であるから、これこそ真の医学である。<br/><br/>従って現在のごとき唯物医学をいかに研究したとしても、徒労以外の何物でもないのである。<br/><br/>という訳で私はこの真理を一日も早く全世界の医学者に分からせ、覚醒させたい念願である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

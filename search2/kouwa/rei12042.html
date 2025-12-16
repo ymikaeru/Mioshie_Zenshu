@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei12042</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（二） ４ 042-053 中風 042 中風霊 六十九歳の女、七、八年前より神経衰弱に罹りましたが次第によくなりました。<br><br>今年五月頃より頸が前屈し胸に着き不自由となりました。<br><br>浄霊七回目の直後箸が握れなくなり、更に五時間後右手が胸の横に二つ折になってくっ着き、言葉も出なくなり、足は動くが立てず、四十度内外の熱が続きましたが、四日目に熱は下り、浄霊中に手が動き出し、一週間後言葉もかなり言えるようになりましたが、横にも向けずうめいています。<br><br>食事は少量戴けます。<br><br>家人は軽い中風のように思っていますが、この患者の娘、幼児の時脳病を患い、それ以来白痴のようになり、時折乱暴します。<br><br>この母子の間に霊的関係がございましょうか。<br><br>この病気の原因並びに浄霊法につき御教示願います。<br><br> 中風の霊である。<br><br>赤ン坊の脳病とは関係ない。<br><br>気長にし、なるべく祝詞を聞かせる。<br><br>少しずつよくなる。<br><br>（S24. 9.18） 043 吐瀉より中風症状 信者岡部政一（二十七歳）、去る十六日午後二時頃寒気及び左顔面神経痛にて勤め先より帰り、御浄霊を致しました。<br><br>同日夜少し吐瀉いたしました。<br><br>全身的に発熱致し、特に前額部左コメカミ及び延髄に痛みを訴えました。<br><br>十七日は一日中前日と同様な状態でしたが、夜食事を致しますときどうしても箸が握れず、以来右手は丁度中風のごとく利きません。<br><br>夜六時頃便所へ行くと申し起しますが、立つ事が出来ませんでした。<br><br>夜中一時頃便所に行って出たとき「今地獄の一丁目にいる」と突然申しました。<br><br>十八日朝まで普通に寝ましたが、九時頃起きられず、便器にて二回続けて大便あり、この頃より舌が回らず、意識はありますが話が出来なくなりました。<br><br>午前十一時十分前頃一度危篤状態となり、教導所へ御守護御願い致しまして、午後二時頃より意識がつきましたが舌が利きません。<br><br>その後少しずつ回復に向いましたが、夜九時頃医師が参り注射を一本打ちましたところ容体が悪化致し、意識は多少ありますが危篤状態が続いております。<br><br>熱は三十八、九度位ございます。<br><br>食事は全然通りません。<br><br>右、宜しく御守護をお願い申し上げます。<br><br> 中風で死んだ霊の憑依である。<br><br>気長に浄霊すれば治る。<br><br>（S24.11.19） 044 中風霊による症状 五十五歳の婦人ですが、去る九月三日食後急に突き上げが来まして、それ以来血圧が非常に高く手足が不自由になり、後に医療を加えておりましたけれど、少し動くようになりましたが、頭が他人のもののようになり重くて、就寝は隔日にしか出来ません。<br><br>また、時々強く動悸がして、眩暈がして娘の手を固く握りしめ「淋しいから離れないでくれ」と申します。<br><br>夫は十四年前に中気になり、七年目に死亡致しました。<br><br>また、話し方は狂人のごとき状態で何か霊が憑依しているようであります。<br><br>何か霊的に関係しておりますでしょうか。<br><br>また、浄霊の方法を御教示願います。<br><br> 中気の夫の霊らしい。<br><br>右頸部が凝っている。<br><br>頸を主にし、全身の苦痛の個所をする。<br><br>祝詞を奏げてやる。<br><br>（S24.11. 8） 045 中風と物欲 二十六歳の女、本年四月十八日、突然左半身不随となり、婚約も駄目になりました。<br><br>お浄めで今辛うじて歩行が出来ましたが、未だ手が不自由で御座居ます。<br><br>何かの因縁でしょうか。<br><br>お教え下さい。<br><br> 中風の霊が憑ったのであろう。<br><br>二十六歳で中風は早すぎる。<br><br>四十過ぎでなくては起らぬものである。<br><br>気長にやれば治る。<br><br>中風は物質欲がいけない。<br><br>物欲をとらなくてはいけない。<br><br>であるから症状は手（拇指）を握って胸へくっつける。<br><br>罪の金があると本当の金は入らぬ。<br><br>私など二十年間借金で苦しんだ。<br><br>諦めてお任せすると入って来た。<br><br> 046 拇指より霊入って中風症状となる 五十七歳の婦人、七年前――戦時中、常会の際左足親指より頭頂部にスウーと何か入ったような感じがして同時に左膝がガクガクとなり、それより三日間意識不明となり、左半身不随となりました。<br><br>因みに本人の父親、林業に従事致し、商売繁盛を仙台の三吉稲荷にお願い致しました。<br><br>その後好転致しまして、相当の財産を作った由、その後三吉稲荷に御礼せず、後心臓病にて死亡致しました。<br><br>近親者は狐の祟りと言っております。<br><br>なお本人は左手を握ったままです。<br><br>アクビをする時手指を延ばします。<br><br>浄霊によって霊体共に救われますか。<br><br>また、浄霊の急所をお伺い致します。<br><br> 狐ではない。<br><br>人間の霊で、中風で死んだ霊である。<br><br>足の拇指から入るのは地獄の霊である。<br><br>左手を握ったままでも、霊が憑ったのであるから普通のよりは軽い。<br><br> 狐は手の拇指から入り、龍神は人差指から入る。<br><br>祝詞を奏げてやる。<br><br>入信して御奉斎せよ。<br><br>（S24. 7.17） 047 毒死霊の中気 長島清一（四十八歳）、昨年十一月、軽い中風発病後口中より甘いネバネバした唾が出て、何を食べても皆一様に同じ味がします。<br><br>どれも皆美味しいそうです。<br><br>空腹感も満腹感もなく、お湯を飲んでも水を飲んでも酒を飲んでも甘いそうです。<br><br>入浴しても熱いぬるいが判りません。<br><br>身体は右半身が少し痺れます。<br><br>いかなる原因で御座いましょうか。<br><br>お伺い申し上げます。<br><br> 普通の中風ではない。<br><br>霊が憑っている。<br><br>毒死の霊である。<br><br> 砒素剤系の毒は全身神経麻痺するから、無感覚になる。<br><br>（S25. 3.18） 048 中風で呼吸困難・舌を出す（猫） 五十七歳の婦人、昨年十二月七日中風発病、特異症状としては、夜分時間を限り二、三回は呼吸困難となります。<br><br>その時はちょっと舌を出すようにして息をし、何か食物を欲しがります。<br><br>本人はその節、歯に力が入り、歯が浮くような感じがすると申します。<br><br>三十年前にある悪戯な野良猫を戸外の電信柱に縛ったまま殺してしまった事がありますので、その祟りではないかと気にしております。<br><br>もしそうだと致しますれば、御浄霊の他に何か特別にお祭りの方法がありましょうか。<br><br> 猫の祟りである。<br><br>中風の外に猫が憑っている。<br><br>祝詞を奏げてやるとよい。<br><br>（S25. 3.3） 049 真症小児麻痺 真症小児麻痺になった場合、霊が物質化して毒となり、腕や脚の神経、血管等を圧迫し、その成長を妨げるのでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 真症は脳溢血などで死んだ霊である。<br><br>霊の物質化したのが脊髄――。<br><br>（S23.10.18） 050 脳溢血霊の小児麻痺 当年十五歳の少年で御座いますが、三年程前から首は右に曲り、背は彎曲して、体は斜めで、手は全然利かなくはありませんがぶらぶらして蟹のような恰好をして歩きます。<br><br>現在御浄霊をさせて頂いておりますが、いかなる原因で御座いましょうか。<br><br>父親は轢死、祖父は脳溢血で死んでおります。<br><br> 脳溢血の霊である。<br><br>この通りの恰好で死んだものである。<br><br> 気長に悪い所だけ浄霊する。<br><br> 光明如来様をお祭りしなくてはいけない。<br><br>でないと霊が救われぬ。<br><br> 051 中風霊（歩行不能） 私が半月程前より近所の小児麻痺の九歳になる女の子を浄霊致しております。<br><br>右半身の方がひどいようで御座いますが、どのように浄霊すると早く歩けるようになりましょうか。<br><br>父親は浄霊を始めてから四日目に入信致しました。<br><br> 中風の霊である。<br><br>足をよく査べよ。<br><br>足の裏にきっと痛い所がある。<br><br>割合よく治る。<br><br>（S24. 9. 7） 052 中風霊小児 今年九歳の女児、昨年春脳炎を患い、御浄霊により全快致すと同時に半身不随になりまして、御浄化を頂いておりますが、未だ何の変化もございません。<br><br>その父は六年前南方において戦死致しております。<br><br>どのような事で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 中風霊、脳溢血の霊である。<br><br> 頭、頸筋、腕の付根――。<br><br>（S24. 3.14） 053 脊髄性小児麻痺 九歳の男子、生後六ケ月頃風邪を引き、薬を飲ませておりましたところ、ハシカのような状態となりましてより三日程して全身クラゲのようにクタクタになり、その状態が三日程続き漸次良好に向いました。<br><br>その後半月程に左手の肩の所が脱臼したようになりました。<br><br>指先が多少動くが腕の上下は出来ません。<br><br>日赤病院で診察して貰ったら脊髄性小児麻痺と云われました。<br><br>二十二年十月御守を頂き、浄霊を続けておりますが大した変化はありません。<br><br>原因と浄霊法を御教示下さい。<br><br> 中風の霊が憑いたらしい。<br><br>真症小児麻痺である。<br><br>気長にやれば治る。<br><br> 前頭部の奥を浄霊する。<br><br>腕の付根もする。<br><br>少しずつ良くなってゆく。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Estudos Espirituais: Doenças Espirituais (Parte II) - 042-053 Apoplexia</h2>
 <h3>042 Espírito de Apoplexia</h3>
@@ -133,5 +285,48 @@ function toggleLang(lang) {
 <h3>053 Paralisia infantil espinhal</h3>
 <p>Um menino de nove anos, por volta dos seis meses de idade, contraiu um resfriado e foi medicado. Em seguida, desenvolveu um quadro semelhante ao sarampo e, três dias depois, seu corpo ficou completamente flácido, como uma água-viva. Essa condição persistiu por três dias, após os quais ele começou a melhorar gradualmente. Cerca de quinze dias mais tarde, seu ombro esquerdo ficou como se estivesse deslocado. Ele consegue mover levemente as pontas dos dedos, mas não o braço para cima e para baixo. O diagnóstico do hospital da Cruz Vermelha foi paralisia infantil espinhal. Ele recebeu o Ohikari em outubro de 1947 e, desde então, vem recebendo Johrei continuamente, mas não houve mudanças significativas. Rogamos que nos elucide sobre a causa e o método de Johrei.</p>
 <p>Aparentemente, um espírito que sofreu de apoplexia o possuiu. Trata-se de um caso de paralisia infantil genuína. Com perseverança, ele será curado. Ministre Johrei na parte interna da região frontal da cabeça. Ministre também na base do braço. Ele melhorará gradualmente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（二） ４ 042-053 中風 042 中風霊 六十九歳の女、七、八年前より神経衰弱に罹りましたが次第によくなりました。<br/><br/>今年五月頃より頸が前屈し胸に着き不自由となりました。<br/><br/>浄霊七回目の直後箸が握れなくなり、更に五時間後右手が胸の横に二つ折になってくっ着き、言葉も出なくなり、足は動くが立てず、四十度内外の熱が続きましたが、四日目に熱は下り、浄霊中に手が動き出し、一週間後言葉もかなり言えるようになりましたが、横にも向けずうめいています。<br/><br/>食事は少量戴けます。<br/><br/>家人は軽い中風のように思っていますが、この患者の娘、幼児の時脳病を患い、それ以来白痴のようになり、時折乱暴します。<br/><br/>この母子の間に霊的関係がございましょうか。<br/><br/>この病気の原因並びに浄霊法につき御教示願います。<br/><br/> 中風の霊である。<br/><br/>赤ン坊の脳病とは関係ない。<br/><br/>気長にし、なるべく祝詞を聞かせる。<br/><br/>少しずつよくなる。<br/><br/>（S24. 9.18） 043 吐瀉より中風症状 信者岡部政一（二十七歳）、去る十六日午後二時頃寒気及び左顔面神経痛にて勤め先より帰り、御浄霊を致しました。<br/><br/>同日夜少し吐瀉いたしました。<br/><br/>全身的に発熱致し、特に前額部左コメカミ及び延髄に痛みを訴えました。<br/><br/>十七日は一日中前日と同様な状態でしたが、夜食事を致しますときどうしても箸が握れず、以来右手は丁度中風のごとく利きません。<br/><br/>夜六時頃便所へ行くと申し起しますが、立つ事が出来ませんでした。<br/><br/>夜中一時頃便所に行って出たとき「今地獄の一丁目にいる」と突然申しました。<br/><br/>十八日朝まで普通に寝ましたが、九時頃起きられず、便器にて二回続けて大便あり、この頃より舌が回らず、意識はありますが話が出来なくなりました。<br/><br/>午前十一時十分前頃一度危篤状態となり、教導所へ御守護御願い致しまして、午後二時頃より意識がつきましたが舌が利きません。<br/><br/>その後少しずつ回復に向いましたが、夜九時頃医師が参り注射を一本打ちましたところ容体が悪化致し、意識は多少ありますが危篤状態が続いております。<br/><br/>熱は三十八、九度位ございます。<br/><br/>食事は全然通りません。<br/><br/>右、宜しく御守護をお願い申し上げます。<br/><br/> 中風で死んだ霊の憑依である。<br/><br/>気長に浄霊すれば治る。<br/><br/>（S24.11.19） 044 中風霊による症状 五十五歳の婦人ですが、去る九月三日食後急に突き上げが来まして、それ以来血圧が非常に高く手足が不自由になり、後に医療を加えておりましたけれど、少し動くようになりましたが、頭が他人のもののようになり重くて、就寝は隔日にしか出来ません。<br/><br/>また、時々強く動悸がして、眩暈がして娘の手を固く握りしめ「淋しいから離れないでくれ」と申します。<br/><br/>夫は十四年前に中気になり、七年目に死亡致しました。<br/><br/>また、話し方は狂人のごとき状態で何か霊が憑依しているようであります。<br/><br/>何か霊的に関係しておりますでしょうか。<br/><br/>また、浄霊の方法を御教示願います。<br/><br/> 中気の夫の霊らしい。<br/><br/>右頸部が凝っている。<br/><br/>頸を主にし、全身の苦痛の個所をする。<br/><br/>祝詞を奏げてやる。<br/><br/>（S24.11. 8） 045 中風と物欲 二十六歳の女、本年四月十八日、突然左半身不随となり、婚約も駄目になりました。<br/><br/>お浄めで今辛うじて歩行が出来ましたが、未だ手が不自由で御座居ます。<br/><br/>何かの因縁でしょうか。<br/><br/>お教え下さい。<br/><br/> 中風の霊が憑ったのであろう。<br/><br/>二十六歳で中風は早すぎる。<br/><br/>四十過ぎでなくては起らぬものである。<br/><br/>気長にやれば治る。<br/><br/>中風は物質欲がいけない。<br/><br/>物欲をとらなくてはいけない。<br/><br/>であるから症状は手（拇指）を握って胸へくっつける。<br/><br/>罪の金があると本当の金は入らぬ。<br/><br/>私など二十年間借金で苦しんだ。<br/><br/>諦めてお任せすると入って来た。<br/><br/> 046 拇指より霊入って中風症状となる 五十七歳の婦人、七年前――戦時中、常会の際左足親指より頭頂部にスウーと何か入ったような感じがして同時に左膝がガクガクとなり、それより三日間意識不明となり、左半身不随となりました。<br/><br/>因みに本人の父親、林業に従事致し、商売繁盛を仙台の三吉稲荷にお願い致しました。<br/><br/>その後好転致しまして、相当の財産を作った由、その後三吉稲荷に御礼せず、後心臓病にて死亡致しました。<br/><br/>近親者は狐の祟りと言っております。<br/><br/>なお本人は左手を握ったままです。<br/><br/>アクビをする時手指を延ばします。<br/><br/>浄霊によって霊体共に救われますか。<br/><br/>また、浄霊の急所をお伺い致します。<br/><br/> 狐ではない。<br/><br/>人間の霊で、中風で死んだ霊である。<br/><br/>足の拇指から入るのは地獄の霊である。<br/><br/>左手を握ったままでも、霊が憑ったのであるから普通のよりは軽い。<br/><br/> 狐は手の拇指から入り、龍神は人差指から入る。<br/><br/>祝詞を奏げてやる。<br/><br/>入信して御奉斎せよ。<br/><br/>（S24. 7.17） 047 毒死霊の中気 長島清一（四十八歳）、昨年十一月、軽い中風発病後口中より甘いネバネバした唾が出て、何を食べても皆一様に同じ味がします。<br/><br/>どれも皆美味しいそうです。<br/><br/>空腹感も満腹感もなく、お湯を飲んでも水を飲んでも酒を飲んでも甘いそうです。<br/><br/>入浴しても熱いぬるいが判りません。<br/><br/>身体は右半身が少し痺れます。<br/><br/>いかなる原因で御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 普通の中風ではない。<br/><br/>霊が憑っている。<br/><br/>毒死の霊である。<br/><br/> 砒素剤系の毒は全身神経麻痺するから、無感覚になる。<br/><br/>（S25. 3.18） 048 中風で呼吸困難・舌を出す（猫） 五十七歳の婦人、昨年十二月七日中風発病、特異症状としては、夜分時間を限り二、三回は呼吸困難となります。<br/><br/>その時はちょっと舌を出すようにして息をし、何か食物を欲しがります。<br/><br/>本人はその節、歯に力が入り、歯が浮くような感じがすると申します。<br/><br/>三十年前にある悪戯な野良猫を戸外の電信柱に縛ったまま殺してしまった事がありますので、その祟りではないかと気にしております。<br/><br/>もしそうだと致しますれば、御浄霊の他に何か特別にお祭りの方法がありましょうか。<br/><br/> 猫の祟りである。<br/><br/>中風の外に猫が憑っている。<br/><br/>祝詞を奏げてやるとよい。<br/><br/>（S25. 3.3） 049 真症小児麻痺 真症小児麻痺になった場合、霊が物質化して毒となり、腕や脚の神経、血管等を圧迫し、その成長を妨げるのでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 真症は脳溢血などで死んだ霊である。<br/><br/>霊の物質化したのが脊髄――。<br/><br/>（S23.10.18） 050 脳溢血霊の小児麻痺 当年十五歳の少年で御座いますが、三年程前から首は右に曲り、背は彎曲して、体は斜めで、手は全然利かなくはありませんがぶらぶらして蟹のような恰好をして歩きます。<br/><br/>現在御浄霊をさせて頂いておりますが、いかなる原因で御座いましょうか。<br/><br/>父親は轢死、祖父は脳溢血で死んでおります。<br/><br/> 脳溢血の霊である。<br/><br/>この通りの恰好で死んだものである。<br/><br/> 気長に悪い所だけ浄霊する。<br/><br/> 光明如来様をお祭りしなくてはいけない。<br/><br/>でないと霊が救われぬ。<br/><br/> 051 中風霊（歩行不能） 私が半月程前より近所の小児麻痺の九歳になる女の子を浄霊致しております。<br/><br/>右半身の方がひどいようで御座いますが、どのように浄霊すると早く歩けるようになりましょうか。<br/><br/>父親は浄霊を始めてから四日目に入信致しました。<br/><br/> 中風の霊である。<br/><br/>足をよく査べよ。<br/><br/>足の裏にきっと痛い所がある。<br/><br/>割合よく治る。<br/><br/>（S24. 9. 7） 052 中風霊小児 今年九歳の女児、昨年春脳炎を患い、御浄霊により全快致すと同時に半身不随になりまして、御浄化を頂いておりますが、未だ何の変化もございません。<br/><br/>その父は六年前南方において戦死致しております。<br/><br/>どのような事で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 中風霊、脳溢血の霊である。<br/><br/> 頭、頸筋、腕の付根――。<br/><br/>（S24. 3.14） 053 脊髄性小児麻痺 九歳の男子、生後六ケ月頃風邪を引き、薬を飲ませておりましたところ、ハシカのような状態となりましてより三日程して全身クラゲのようにクタクタになり、その状態が三日程続き漸次良好に向いました。<br/><br/>その後半月程に左手の肩の所が脱臼したようになりました。<br/><br/>指先が多少動くが腕の上下は出来ません。<br/><br/>日赤病院で診察して貰ったら脊髄性小児麻痺と云われました。<br/><br/>二十二年十月御守を頂き、浄霊を続けておりますが大した変化はありません。<br/><br/>原因と浄霊法を御教示下さい。<br/><br/> 中風の霊が憑いたらしい。<br/><br/>真症小児麻痺である。<br/><br/>気長にやれば治る。<br/><br/> 前頭部の奥を浄霊する。<br/><br/>腕の付根もする。<br/><br/>少しずつ良くなってゆく。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

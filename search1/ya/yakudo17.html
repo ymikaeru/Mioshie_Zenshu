@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakudo17</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒の体験 『栄光』197号、昭和28(1953)年2月25日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 薬剤迷信のため、人類がいかに苦悩の窮地に陥っているかは、この事が分って世の中の病人を見れば、思い半ばにすぎるであろう。<br><br>昔から惚れりゃアバタも笑窪（えくぼ）に見えるとの諺（ことわざ）の通り、現代人は薬に惚れぬいて有難がっていながら、事実は薬のため恐るべき被害を蒙（こうむ）っていても、いささかも気が付かないのであるから大問題である。<br><br>しかもこの災いに苦しみながら、文明国の有識者はこれを謳歌（おうか）し、奨励しているのであるから、その無智蒙昧（もうまい）たるや考えれば考える程、不思議である。<br><br>左の御蔭話は、薬毒迷信の体験記ともいうべきもので、もしこれを読んでも分らない人があるとすれば、その頭脳こそ形は文化人でも、内容は未開人と少しも変らないと思うのである。<br><br> 薬毒が作る病苦を体験して 香川県 実生中教会 佐伯繁美（29） 思い起せば昭和二十二年九月、この世に生を享けてより二十年余、身体には絶対的自信を持ち、自他共に健康第一人者として許して来た私にも、突如病魔がおそって来たのです。<br><br>病気の苦しみを知らなかった私には、言葉には表わし切れない無限の悲しみを感じたのでしたが、でも医者にさえ診て貰えば病名も分るし又薬さえのめば病気は治るものだと信じ切っていた私は、早速最寄りの病院に行き診察を受けましたが、どこが悪いとも分らぬまま薬だけを貰って帰りましたが、これからが私の医療生活の始まりで、今日まで満五カ年間ほとんど一日として薬を離す事の出来ない人間となったのです。<br><br>その間一日も早く元気な身体になりたい一心から、あちこちの病院を走り廻り、苦い薬も痛い注射も何のその医師の言われる通りにして参りましたが、よくなって行くどころか反って年一年と調子は悪くなり、身体はやせる一方で、Ａの病院では肝臓病だ、Ｂの病院では慢性胃病だと申される始末に、果してどこが悪いのか見当がつかず、その上医者が治してくれるものと信じて来たものの悪くなる一方なので、頼りなく思いながらも薬さえのんでいれば又何時かは良くなるだろうと自分で自分を慰めながら服薬を続けたものでした。<br><br>しかし他にもよい治療法はと、人に勧められるままに鍼灸療法を始めましたが、最初の内は非常に効果的で気分もある程度良くなっておりましたが、段々長く続けているうちに効果も薄らぎ、初めの状態に復してしまいました。<br><br>もうこれまで八方手を尽くして来て良くならないのでは自分は到底助からないのではなかろうかと激しい死の恐怖におそわれ、この世に生きる希望さえも失いかけました。<br><br>勿論他人の楽しそうな姿を見ては一層の悲しみを感じ、他人と口をきくのさえおっくうで、ちょっとした事にも腹が立ち易く、ただ思うは身体の事ばかりで毎日悩み続けました。<br><br> ところが昭和二十七年六月職場にて救世教の御話を吉冨様より御伺い致しまして、何か胸を打つものを感じましたので、とにかく瀦れるものは藁をも掴む気持で教会へ参りまして、島津先生より「病気は浄化作用であり、薬は毒で、現代医学は浄化停止療法即ち固め療法である。<br><br>神の医学は浄霊によりて霊の曇りを取り、体内の毒素を溶かし、体外に排泄させて病気を根本的に治す方法である」等詳しく御話を承りましたが、実は余りにも言われる事が現代医学と反対なので吃驚したのでした。<br><br> 果してこのまま今直に薬を止められるだろうか、薬を止めれば病気は益々悪くなるに決っている。<br><br>ただ手をあんなに翳しただけで本当に病気が治るものだろうか、あんな事をして病気が治る位なら何も病院も薬もいらないであろうに等と、今思えば甚だ申訳なく勿体ない次第でございましたが、次から次へと疑惑の念が湧いて来ましたが、でも今日まで五カ年も医師に付き服薬を続けて少しも良くならず反って悪化する一方なのだから一応薬を止めてみようと一大決意の下に遂に五カ年間の服薬生活から別れを告げたのでございます。<br><br> それからというものは食前、食後に何か物足りなさを感じながらも、教会に御参りして毎日御浄霊をお受けする様になりました。<br><br>ところがどうでしょう、薬を止めれば段々と悪くなって行くに決っていると思っていたのに、不思議に日が経つに従って段々と初めの調子より良くなって行くではありませんか。<br><br>何となく有難さを感じ、一カ月後の七月入信させて頂きましたが、それでも未だ半信半疑で時々心の動揺を生じ、大変苦しんだ事もございましたが、御神書や『地上天国』、『栄光』新聞を読ませて戴いている内に段々お道の真意を科学的に解らせて頂き、今日では非常に安心立命の有難い境地に立たせて頂き、日々の生活にも生甲斐を感じさせられ、全く暗黒の世界より光明の世界へと導かれて参りまして、このたとえようもない喜びに明主様に感謝しつつ、この世に私等と同じく現代の医学を絶対的病気治療法と信じ、恐るべき薬毒を体内に注入しつつも一向に良くなるどころか悪化の一路を辿って日夜苦しんでいる多くの人々に一日も早く、一人でも多く、この超科学的神の医学を解って頂きたい気持で一杯です。<br><br> もし明主様のこの偉大なる薬毒の御発見がなかったならば、救世教にて今日まで救われた多くの人々も今頃は薬毒の犠牲者となっていたであろうと思う時、薬毒の真理は絶対的なもので、必ずや現代医学を駆逐するだろう事は明らかであり、又そうでなければ地球上の全人類は必ず薬毒の為に全滅をまぬがれぬでありましょう。<br><br>何と恐ろしい事ではありませんか。<br><br>この恐るべき現代医学においては薬が病気を治すもの也と信じ、私達人間の身体を一種の機械あつかいとなし、油を注ぐ如く薬を与えて平然としているのを思う時、明主様の御神業の偉大さに今更ながらただただ頭の下るのみでございます。<br><br> 甚だ拙文で申訳ないのですが、過去の過ちを思い出すままに書き綴りました事を御許し願うと共に、明主様の有難い御教えに心より敬服するものでございます。<br><br> 明主様御救い下さいまして有難うございました。<br><br> 病きの因は薬にあるを知らす 救ひの業の難しきかも 人の作りし医術は科学にあらで神霊の 医しの業は科学なりけり （御讃歌） （昭和二十七年十二月二十三日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Flagelo do Veneno dos Remédios</h2>
 <p>A que ponto a humanidade se encontra encurralada em um abismo de sofrimento devido à superstição em torno dos medicamentos é uma verdade que se torna dolorosamente clara ao observarmos os doentes à nossa volta. Tal como reza o antigo provérbio que o amor nos cega aos defeitos, o homem moderno está completamente apaixonado pelos remédios, reverenciando-os enquanto, na realidade, padece de seus terríveis malefícios sem a menor consciência, o que constitui um problema de enormes proporções. E, ainda que atormentados por essa calamidade, os ditos intelectuais das nações civilizadas a exaltam e a incentivam. Quanto mais se reflete sobre sua ignorância e obscurantismo, mais assombroso tudo parece.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <em>Ciência, sim, é a Obra de cura realizada por Deus.</em></p>
 <p>(Salmos de Meishu-Sama)</p>
 <p>(23 de dezembro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒の体験 『栄光』197号、昭和28(1953)年2月25日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 薬剤迷信のため、人類がいかに苦悩の窮地に陥っているかは、この事が分って世の中の病人を見れば、思い半ばにすぎるであろう。<br/><br/>昔から惚れりゃアバタも笑窪（えくぼ）に見えるとの諺（ことわざ）の通り、現代人は薬に惚れぬいて有難がっていながら、事実は薬のため恐るべき被害を蒙（こうむ）っていても、いささかも気が付かないのであるから大問題である。<br/><br/>しかもこの災いに苦しみながら、文明国の有識者はこれを謳歌（おうか）し、奨励しているのであるから、その無智蒙昧（もうまい）たるや考えれば考える程、不思議である。<br/><br/>左の御蔭話は、薬毒迷信の体験記ともいうべきもので、もしこれを読んでも分らない人があるとすれば、その頭脳こそ形は文化人でも、内容は未開人と少しも変らないと思うのである。<br/><br/> 薬毒が作る病苦を体験して 香川県 実生中教会 佐伯繁美（29） 思い起せば昭和二十二年九月、この世に生を享けてより二十年余、身体には絶対的自信を持ち、自他共に健康第一人者として許して来た私にも、突如病魔がおそって来たのです。<br/><br/>病気の苦しみを知らなかった私には、言葉には表わし切れない無限の悲しみを感じたのでしたが、でも医者にさえ診て貰えば病名も分るし又薬さえのめば病気は治るものだと信じ切っていた私は、早速最寄りの病院に行き診察を受けましたが、どこが悪いとも分らぬまま薬だけを貰って帰りましたが、これからが私の医療生活の始まりで、今日まで満五カ年間ほとんど一日として薬を離す事の出来ない人間となったのです。<br/><br/>その間一日も早く元気な身体になりたい一心から、あちこちの病院を走り廻り、苦い薬も痛い注射も何のその医師の言われる通りにして参りましたが、よくなって行くどころか反って年一年と調子は悪くなり、身体はやせる一方で、Ａの病院では肝臓病だ、Ｂの病院では慢性胃病だと申される始末に、果してどこが悪いのか見当がつかず、その上医者が治してくれるものと信じて来たものの悪くなる一方なので、頼りなく思いながらも薬さえのんでいれば又何時かは良くなるだろうと自分で自分を慰めながら服薬を続けたものでした。<br/><br/>しかし他にもよい治療法はと、人に勧められるままに鍼灸療法を始めましたが、最初の内は非常に効果的で気分もある程度良くなっておりましたが、段々長く続けているうちに効果も薄らぎ、初めの状態に復してしまいました。<br/><br/>もうこれまで八方手を尽くして来て良くならないのでは自分は到底助からないのではなかろうかと激しい死の恐怖におそわれ、この世に生きる希望さえも失いかけました。<br/><br/>勿論他人の楽しそうな姿を見ては一層の悲しみを感じ、他人と口をきくのさえおっくうで、ちょっとした事にも腹が立ち易く、ただ思うは身体の事ばかりで毎日悩み続けました。<br/><br/> ところが昭和二十七年六月職場にて救世教の御話を吉冨様より御伺い致しまして、何か胸を打つものを感じましたので、とにかく瀦れるものは藁をも掴む気持で教会へ参りまして、島津先生より「病気は浄化作用であり、薬は毒で、現代医学は浄化停止療法即ち固め療法である。<br/><br/>神の医学は浄霊によりて霊の曇りを取り、体内の毒素を溶かし、体外に排泄させて病気を根本的に治す方法である」等詳しく御話を承りましたが、実は余りにも言われる事が現代医学と反対なので吃驚したのでした。<br/><br/> 果してこのまま今直に薬を止められるだろうか、薬を止めれば病気は益々悪くなるに決っている。<br/><br/>ただ手をあんなに翳しただけで本当に病気が治るものだろうか、あんな事をして病気が治る位なら何も病院も薬もいらないであろうに等と、今思えば甚だ申訳なく勿体ない次第でございましたが、次から次へと疑惑の念が湧いて来ましたが、でも今日まで五カ年も医師に付き服薬を続けて少しも良くならず反って悪化する一方なのだから一応薬を止めてみようと一大決意の下に遂に五カ年間の服薬生活から別れを告げたのでございます。<br/><br/> それからというものは食前、食後に何か物足りなさを感じながらも、教会に御参りして毎日御浄霊をお受けする様になりました。<br/><br/>ところがどうでしょう、薬を止めれば段々と悪くなって行くに決っていると思っていたのに、不思議に日が経つに従って段々と初めの調子より良くなって行くではありませんか。<br/><br/>何となく有難さを感じ、一カ月後の七月入信させて頂きましたが、それでも未だ半信半疑で時々心の動揺を生じ、大変苦しんだ事もございましたが、御神書や『地上天国』、『栄光』新聞を読ませて戴いている内に段々お道の真意を科学的に解らせて頂き、今日では非常に安心立命の有難い境地に立たせて頂き、日々の生活にも生甲斐を感じさせられ、全く暗黒の世界より光明の世界へと導かれて参りまして、このたとえようもない喜びに明主様に感謝しつつ、この世に私等と同じく現代の医学を絶対的病気治療法と信じ、恐るべき薬毒を体内に注入しつつも一向に良くなるどころか悪化の一路を辿って日夜苦しんでいる多くの人々に一日も早く、一人でも多く、この超科学的神の医学を解って頂きたい気持で一杯です。<br/><br/> もし明主様のこの偉大なる薬毒の御発見がなかったならば、救世教にて今日まで救われた多くの人々も今頃は薬毒の犠牲者となっていたであろうと思う時、薬毒の真理は絶対的なもので、必ずや現代医学を駆逐するだろう事は明らかであり、又そうでなければ地球上の全人類は必ず薬毒の為に全滅をまぬがれぬでありましょう。<br/><br/>何と恐ろしい事ではありませんか。<br/><br/>この恐るべき現代医学においては薬が病気を治すもの也と信じ、私達人間の身体を一種の機械あつかいとなし、油を注ぐ如く薬を与えて平然としているのを思う時、明主様の御神業の偉大さに今更ながらただただ頭の下るのみでございます。<br/><br/> 甚だ拙文で申訳ないのですが、過去の過ちを思い出すままに書き綴りました事を御許し願うと共に、明主様の有難い御教えに心より敬服するものでございます。<br/><br/> 明主様御救い下さいまして有難うございました。<br/><br/> 病きの因は薬にあるを知らす 救ひの業の難しきかも 人の作りし医術は科学にあらで神霊の 医しの業は科学なりけり （御讃歌） （昭和二十七年十二月二十三日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

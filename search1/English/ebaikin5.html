@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ebaikin5</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ORIGINATION OF BACTERIA "Faith Cure for Tuberculosis," December 1st, 1952 (the 27 year of Showa) If tuberculosis bacteria generate spontaneously, as I have mentioned in the previous chapter, then, where and by what process do they generate? I will write about this problem theoretically just like physics and psychology so that everyone can simply understand. To do this, however, is not easy because, for one thing, the object of my study is an invisible spirit, which nobody until now has attempted to adopt as an object of science. The reason may be that this kind of study is difficult to base on facts, but I make public a theory which is founded on the facts. Therefore, no matter how strongly they oppose my theory with materialistic science, it is impossible to defeat it. Regarding this point, what you need to know in advance is the basic formation of the world. Even so highly developed contemporary science has not yet advanced as far as to clarify this domain of science, whereas I am going to the point of explaining it comprehensively, so if you calm yourself down and keep attentive to read carefully these descriptions of mine, no matter who or what you might be, you would be surprised to know the greatness of this discovery of mine, and at the same time, cannot but awake to the grave error in medicine. Now, to begin with, as regards the formation of this world, it consists of three stages: one is the first dimension of material world, another is the second dimension of aerial world, and the other is the third dimension of spirit world. However, science until now has recognized only the first and the second worlds, so the modern science has a fatal defect in that it has been built on the basis of only those two worlds. That is because this third dimension of the world, which is unknown to the existing science, is in reality the very source of the power of all things and every aspect in the universe, and everything, by virtue of this power, comes into existence, grows, and continues to infinitely develop. However, the scientists who are ignorant of this real existence believe that contemporary science has the ability to work out all problems, so they overestimate the capacity of science, which is totally mistaken and has caused people to deny the existence of the third dimension of spirit world, and has made up such deformity as today's medicine. Accordingly, as I have explained in various ways, medicine only suppresses the symptoms which have come out as diseases and cannot cure them to the root, and thus, tuberculosis will never stop spreading. Given that medicine has digressed from the fundamentals as mentioned above, the further it goes ahead, the more it digresses into a maze of puzzles and sticks to trivial details, so that it has attributed the origin of disease all to bacteria. The evidence is that an attempt to cure a disease A caused other diseases B and C to occur, so the disease has only been transformed into the other diseases. These are secondary diseases. Now, let me advance the point a step further. How can we comprehend the connection between the above-mentioned spiritual world and a human? Of course, even a human being exists in each of the above-mentioned stages, and so the physical body is material, and the aquatic element is also categorized into aerial substance which is a kind of material, while the other element, that is to say, invisible spirit is the very essence of a human being and the source of disease lies in it. However, materialistic medical science considers disease to only occur within the physical body and ascribes the origination of disease wholly to the material body. Thus, medicine insists on the external theory of enemy, as it were, which claims disease occurs through virus-invasion from outside, while we advocate the internal theory of enemy or the theory of spontaneous generation of bacteria, which is opposed to the theory of infection claimed by medical science. However, the external theory is easy to follow because of its mechanical explanation but the internal theory is not so easy to grasp, and this is why people have fallen into such an absurd fallacy as we see today. Let me explain about this in due order. Now the question is: what exactly is the human spirit? Scientifically speaking, it has high degree of substantiality and ultra-subtlety, and is composed of super-submicron particles which are so infinitesimal that we can never see them by any means, even by today's highly advanced electron or atomic microscope. However, because these particles are the very essence of a human being as mentioned above, they are so mystical, subtle and profound as to surpass all imagination. In this manner, the initiation of the source of disease occurs as clouds all over the spirit or at a part of it. There are two sorts of causes that induce these clouds. One cause is filth that derives from sin committed by a human being, and the other is medical poison. As to the former, the idea of the filth of sin is, of course, based on the cause-and-effect explanation that the wrongdoing, such as afflicting others or doing harm to the society, makes sin and the sin produces filth, while the latter, the medical poison is a combination of the innate and the acquired, which is to be explained elsewhere, and here, let me describe about the clouds themselves. The nature of clouds in the spirit is just like clouds in the air; it is, so to speak, aggregation of spiritual elements of water. The spiritual clouds divide into two types; impure and pure. The latter is very well; it's like cirrocumulus clouds or stratus in a fine sky, but in case of the former, the impure type of clouds must, sooner or later, be swept away by wind and rain, as occurs in a cloudy sky. This is a self-purification process of the earth as a heavenly sphere and although human disease is likewise the self-purification, medicine, not knowing the true function of disease, suspends the beneficial process of self-purification; so, these clouds of impurity gradually increase their density, and then, some kinds of bacteria originate. These are like inorganic vegetative matter, and in due course, gradually grow, and finally change into organic matter. This organic matter is none other than the seeds of bacteria, and after a time, when these seeds or eggs grow up to be adults and have individuality, they get large enough to be recognized for the first time through a microscope. If you happen to know this logic of process, you should realize what so-called viruses are. More specifically, since viruses are the babies of bacteria that have yet to be parents as mentioned above, they cannot be seen through a standard microscope, but they certainly grow to be parents and become bacteria. Even existent science acknowledges this. For these reasons, it is evident that in order to cure diseases completely, there is no true cure except clearing away the spiritual clouds which are such sources of bacteria as above explained. If this is the case, you will be able to realize that this principle of complete cure of disease is truly far beyond the standard of contemporary science. Then, how can the clouds be removed? Since I have been taught the concrete method by God, and at the same time, given the power to do this, I am now producing remarkable results, as you see in the appendix of this book [omitted]. I have just written about disease pushing forward to the pathological basis, as set forth above, and I would rather explain still deeper; if I do this, however, I may possibly go into the realm of religion and the explanation would be hard for third-party people to receive, so I will try here to make an explanation as easy to understand scientifically as possible. Let me explain how the clouds are dissipated. The moment when a practitioner of this method (Johrei) holds out his or her hand toward the diseased part of a patient, lightwave of some kind are radiated from the palm of the practitioner. Well then, what is this lightwave? To put it simply, that is spirit of the sun and I named it the spiritual element of fire. This is because the essence of aerial substance is water spirit or the spirit of water, while the essence of spiritual substance is spiritual element of fire; of course, the spiritual element of fire is certainly a kind of fire, but what a human being can see with his or her eyes and feel hot is the physical element or the body of fire spirit, while the above-mentioned spiritual element of fire is the spirit of fire. When this fire spirit is radiated to the clouds of human spirit, only the impure elements of the clouds are burned away and the resultant elements reduced to ashes, are excluded out of the body as excretory substance; on the other hand, the pure elements of the clouds are mingled into serum and at this moment, the clouds, that is to say, the source of disease has been dispelled. Well then, why can you emanate the fire spirit which has such healing power when you join us as a believer? This is because of the lightwave which is radiated from the token (called Ohikari, which means light) that a believer wears around the neck. This token is my calligraphic letter or letters and has three kinds: "Light", "High-Powered Light", and "Great High-Powered Light." The Divine Spirit of the Lord God (Jehovah) is transmitted to the token using my spiritual body as a relay center and is radiated from this token through the palm of a believer. But even when you listen to this explanation, you cannot possibly believe it right away. On the contrary, some may have an antipathy toward such explanation. They also may regard it as an outrageous fraud because there cannot be such absurdity in the world, which I do not think unreasonable. For there have never been any such meta-physical precedents like this since recorded history. However, the fact is undeniably a fact and one hundred arguments do not make one fact. To put it plainly, the time has finally come when the will of God be made explicit and I have just been charged by God with a great job of the salvation of mankind. It is a revolution of medicine as the first step of human salvation, so if you understand this explanation, you should find that there is no wonder about what I am carrying out at present. As can be seen, the explanation in this chapter sounds very mystical, but it is no mysticism at all. Actually, it is a veritable science. Therefore, if you read this and regard it as mysterious, that is because the level of the contemporary science is still much lower. So it is quite natural that when, in the future, science has advanced up to the level much higher than now, my theory will be easily understood at large. It is not until then that a common ground between science and religion will be found and the true civilization will be born. Today, they say at every opportunity that the end and aim of science lies in the pursuit of truth, but from my stand point, the truth has already been discovered and you will find the description of it in this book. It may be still difficult to believe in even what I have explained so far, but in the first place, what is truth at all? To put it simply, truth is reality itself. For example, that the sun rises in the east, and that a human being is born and dies; these are the reality and the truth. If so, the theory which I have expounded, though mystical it may be, is also neither an ideal nor an absurdity, but a reality itself. I still have a lot more I would like to say, but this should be good enough; otherwise, the subject would gradually move away from the main issue of tuberculosis. 黴菌の発生 『結核信仰療法』昭和27(1952)年12月1日発行 前項に説いたごとく、結核菌は、自然発生であるとしたら、ではどこからいかなる過程を経て発生したかを、何人にも理解し易いよう理論物理学的に、理論心理学的にかいてみるが、何しろ見えざる霊を対象とするのであるから容易でない事は、今日まで何人といえども試みた者のないにみても明らかである。<br><br>というのは事実の裏付が困難であったからでもあろうが、私は事実を根拠とした理論を発表するのであるから、たとえ唯物科学をもっていかに反対するといえども、打ち破る事は不可能である。<br><br> それについて前もって知っておかねばならない事は、世界というものの構成である。<br><br>これ程進歩した現在の学問でも、そこまではいまだ判明していないに反し、私はそこまで徹底して説くのであるから、静かに心を潜めてこの文を熟読すれば、何人といえどもこの発見の偉大さに驚くと共に、医学の誤謬に目醒めない訳にはゆかないであろう。<br><br>そうしてまずこの世界の構成であるが、それは一次元の物質界と、二次元の空気界と、三次元の霊気界との三段階から成立っているものである。<br><br>ところが現在までの学問では、一次元と二次元の世界だけしか判っていないため、この二つの世界を基本として形成されたものが現代科学であるから、その点に一大欠陥があったのである。<br><br>というのは右の無とされていたこの三次元の世界こそ、実は一切万有の力の根源であって、この力によって万物は生成し化育し、無限の発展を遂げつつあるのである。<br><br>ところがそれに未知である学者は、現在の科学をもってすれば、何物をも解決出来得るとするこの科学過信の誤りが、三次元の霊気界を否定し、今日のごとき不具的医学を作ってしまったのである。<br><br>その結果今までに種々説明したごとく、表われた病気症状を抑えるだけで、根本的治病は不可能なるため、結核は減らないのである。<br><br> 右のごとく根本から外れた医学としたら、進歩すればする程横道に迷い込んで、枝葉末節に囚われてしまい、すべての病原を黴菌にしてしまったのである。<br><br>その証拠には甲の病気を解決しようとすれば、乙、丙の病気がおこるというように、ただ形を変えるだけの事で、これが余病である。<br><br>さて論旨を進めて右の霊界と人間とは一体どういう関係にあるかというと、もちろん人間といえども右の三段階中の存在である以上、肉体は物質であり、水分も空気でヤハリ物質であるが、今一つの見えざる霊こそ実は人間の本体であって、これが病気の発生源である。<br><br>ところが唯物医学は病気とは肉体だけのものと思い、一切の病原を肉体に帰し、外部からの黴菌浸入のためとの、言わば外敵説に反し、吾々の方は内敵説であり、医学の感染説に対し、吾々は自然発生説である。<br><br>しかし外部説は機械で分かりうるが、内部説は分かり難いため、今日のごとき迷妄に陥ってしまったのである。<br><br>それを以下順をおって解説してみよう。<br><br> ここで一体人間の霊なるものは、何であるかというと、科学的に言えば非常に密度が高く超稀薄なものであって、現在進歩した原〔電〕子顕微鏡でも、到底見る事は出来ない程の超々極微粒子であるにもかかわらずこれこそ前記のごとく人間の本体であるから、全く想像もつかない程の神秘幽幻なものである。<br><br>この理によって病原の最初はこの霊の全部または一部に曇りが発生する。<br><br>曇りにもその原因に二種ある。<br><br>一は人間が犯す罪穢によるものと、二は薬毒によるものとである。<br><br>前者の罪穢とは言うまでもなく因果説に属するもので、人を苦しめるとか、社会を毒すとかいうつまり悪の行為からであり、後者の薬毒とは先天性のそれと後天性のそれとの合併したものであるが、それは別の項に譲るとして、ここでは曇りそのものについてかいてみるが、曇りの本質はちょうど大空の雲のごときもので、言わば水素の密合体である。<br><br>これにも不純性と純粋性があり、後者は晴れた日の鱗（うろこ）雲や段々雲に等しいもので結構だが、前者に至ってはいずれは風雨発生して払拭されなければならない。<br><br>これが天体の浄化作用であって、人間の病気もそれと同様であるにかかわらず、それを知らない医学は、せっかくの浄化作用を停止するのであるから、この不純性の曇りは漸次濃度を増してゆくと共に、ここに一種のバクテリヤが発生する。<br><br>これは無機質植物性のごときもので、時の進むに従い段々生育し、遂には有機質に変化する。<br><br>この有機物こそ黴菌の卵であって、この卵が時を経て一人前の親となり個性となって、初めて顕微鏡で見得る程度になるのである。<br><br>この理を知ったなら彼のウイルスも分かるであろう。<br><br>すなわちウイルスとは右のごとくまだ親にならない黴菌の子供であるから、顕微鏡では見えないが、確かに育って親となり病原となるので、これは学問でも認めている。<br><br> 以上の理によって根本的に病気を治すとしたら、右のごとき黴菌の発生源である霊の曇りを解消する以外に、真の治病法のない事は明らかである。<br><br>としたらこの原理こそ現代科学の水準よりも、遥かに高度である事も認識出来るであろう。<br><br>ではその曇りの解消はどうすればいいかというと、私はこの方法を神から教えられあわせてその力をも授けられたのであるから、本著の付録〔略〕に見るごとき、素晴しい実績を挙げつつあるのである。<br><br>以上のごとく私は病理の根本にまで突き進んで説いたのであるが、なお一層深く解説したいが、そうなると宗教的分野に入り、第三者には信じ難いから、ここでは出来るだけ科学的に解り易く説明するつもりである。<br><br> それについての曇りの解消とは一体どういう意味かを説明してみるとこうである。<br><br>すなわち施術者は患者の患部にむかって掌をかざすや、施術者の掌から一種の光波が放射されるのである。<br><br>ではこの光波とは何かというと、分かりやすく言えばこれは太陽の精であって、私はこれを火素と名付けた。<br><br>すなわち空気の本質は水素であるに対し、霊気の本質は火素であるからで、もちろん火素といえば火には違いないが、人間が現在目で見、熱く感じるそれは火素の体であって、右の火素とはつまり火霊である。<br><br>この火霊が人霊の曇りに向かって放射されるや、曇りの中の不純分子だけ焼尽され、その灰に相応する分子が排泄物となって体外へ排除され、純粋分子は漿液中に混入されてしまい、ここに曇りすなわち病原は解消されるのである。<br><br> では本教信者になると、このような治病力ある火霊が、なぜ放射され得るかというと、これは信者が首に掛けている御守から発する光波である。<br><br>この御守というのは私が書いた文字で、光、光明、大光明の三種あるが、これこそ主の神（エホバ）の神霊が、私の霊体を中継として御守に伝達され、御守から信者の掌を透して放射されるのである。<br><br>しかしこの説明を聞かされても、すぐに信ずる事は出来まい。<br><br>むしろ反感を抱く者さえあるかも知れない。<br><br>そんな馬鹿な事がこの世の中にあってたまるもんか、インチキにも程があるとするかも知れないが、それも無理とは思わない。<br><br>何となれば有史以来、かくのごとき超物理的例はないからである。<br><br>しかし事実はあくまで事実であり、百の議論よりも一の事実にしかずである。<br><br>これを一言にしていえば、いよいよ天の時来って、神は人類救済の大任を私に命じられたのである。<br><br>その一着手としての医学の革命であるから、この事を知ったなら今私の行っている事は、何ら不思議はないはずである。<br><br> 以上のごとくこの項はすこぶる神秘的な説明になったが、これは神秘でも何でもない。<br><br>実は純然たる科学である。<br><br>ゆえにこれを読んで神秘と思われるとしたら、それは現在科学のレベルが低いからで、将来一層も二層も進んだ暁、容易に理解出来るのはもちろんである。<br><br>そこに到って初めて科学と宗教との一致点が見出され、真の文明は生まれるのである。<br><br>そうして今日口を開けば学問の目的は、真理の探究にありとしているが、私からいえば最早真理は発見されたので、その解説がこの著である。<br><br> ここまで説明してもなお信ずる事は困難であろうが、そもそも真理とは何かというと、端的に言えば現実そのものである。<br><br>たとえば東から太陽が出るのも、人間が生れて死ぬのも現実であって真理である。<br><br>としたら私が説くところの神秘な説といえども、理想でも桁外れでもない。<br><br>現実そのものである。<br><br>まだ色々言いたい事があるが結核問題とは段々離れてしまうから、このくらいにして置くとする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese das Bactérias</h2>
 <p>Se, conforme expus no capítulo anterior, a bactéria da tuberculose se origina de forma espontânea, cumpre-nos agora inquirir onde e mediante que processo tal fenômeno ocorre. Buscarei elucidar esta questão sob uma perspectiva que harmonize a física e a psicologia teóricas, de modo a torná-la compreensível a todos. A tarefa, contudo, não é simples, pois o objeto de meu estudo é o espírito, uma dimensão invisível que, até hoje, ninguém ousou abordar como campo da ciência. A razão para tal hesitação reside, talvez, na dificuldade de fundamentar tal estudo em fatos concretos. Eu, todavia, apresento uma teoria alicerçada na realidade factual e, por conseguinte, por mais que a ciência materialista se oponha a ela, será impossível refutá-la.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Como se pode notar, a explanação neste capítulo soa bastante mística, mas não se trata de misticismo. Na realidade, é ciência em sua forma mais pura. Se, ao ler estas palavras, o leitor as considera misteriosas, é porque o nível da ciência contemporânea ainda é muito baixo. É natural, portanto, que no futuro, quando a ciência avançar a um patamar muito mais elevado, minha teoria será facilmente compreendida por todos. Somente então um ponto de convergência entre a ciência e a religião será encontrado, e a verdadeira civilização nascerá.</p>
 <p>Hoje, a todo momento, diz-se que o objetivo final da ciência reside na busca da verdade. Do meu ponto de vista, porém, a verdade já foi descoberta, e sua descrição se encontra neste livro. Pode ser ainda difícil acreditar no que expliquei até agora, mas, em primeiro lugar, o que é a verdade? De forma sucinta, a verdade é a própria realidade. Por exemplo, o fato de o Sol nascer no leste e de o ser humano nascer e morrer são realidades e, portanto, verdades. Sendo assim, a teoria que exponho, por mais mística que pareça, não é um ideal nem um disparate, mas a própria realidade.</p>
 <p>Ainda haveria muito mais a dizer, mas, para não nos afastarmos gradualmente da questão central da tuberculose, darei o assunto por encerrado neste ponto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ORIGINATION OF BACTERIA "Faith Cure for Tuberculosis," December 1st, 1952 (the 27 year of Showa) If tuberculosis bacteria generate spontaneously, as I have mentioned in the previous chapter, then, where and by what process do they generate? I will write about this problem theoretically just like physics and psychology so that everyone can simply understand. To do this, however, is not easy because, for one thing, the object of my study is an invisible spirit, which nobody until now has attempted to adopt as an object of science. The reason may be that this kind of study is difficult to base on facts, but I make public a theory which is founded on the facts. Therefore, no matter how strongly they oppose my theory with materialistic science, it is impossible to defeat it. Regarding this point, what you need to know in advance is the basic formation of the world. Even so highly developed contemporary science has not yet advanced as far as to clarify this domain of science, whereas I am going to the point of explaining it comprehensively, so if you calm yourself down and keep attentive to read carefully these descriptions of mine, no matter who or what you might be, you would be surprised to know the greatness of this discovery of mine, and at the same time, cannot but awake to the grave error in medicine. Now, to begin with, as regards the formation of this world, it consists of three stages: one is the first dimension of material world, another is the second dimension of aerial world, and the other is the third dimension of spirit world. However, science until now has recognized only the first and the second worlds, so the modern science has a fatal defect in that it has been built on the basis of only those two worlds. That is because this third dimension of the world, which is unknown to the existing science, is in reality the very source of the power of all things and every aspect in the universe, and everything, by virtue of this power, comes into existence, grows, and continues to infinitely develop. However, the scientists who are ignorant of this real existence believe that contemporary science has the ability to work out all problems, so they overestimate the capacity of science, which is totally mistaken and has caused people to deny the existence of the third dimension of spirit world, and has made up such deformity as today's medicine. Accordingly, as I have explained in various ways, medicine only suppresses the symptoms which have come out as diseases and cannot cure them to the root, and thus, tuberculosis will never stop spreading. Given that medicine has digressed from the fundamentals as mentioned above, the further it goes ahead, the more it digresses into a maze of puzzles and sticks to trivial details, so that it has attributed the origin of disease all to bacteria. The evidence is that an attempt to cure a disease A caused other diseases B and C to occur, so the disease has only been transformed into the other diseases. These are secondary diseases. Now, let me advance the point a step further. How can we comprehend the connection between the above-mentioned spiritual world and a human? Of course, even a human being exists in each of the above-mentioned stages, and so the physical body is material, and the aquatic element is also categorized into aerial substance which is a kind of material, while the other element, that is to say, invisible spirit is the very essence of a human being and the source of disease lies in it. However, materialistic medical science considers disease to only occur within the physical body and ascribes the origination of disease wholly to the material body. Thus, medicine insists on the external theory of enemy, as it were, which claims disease occurs through virus-invasion from outside, while we advocate the internal theory of enemy or the theory of spontaneous generation of bacteria, which is opposed to the theory of infection claimed by medical science. However, the external theory is easy to follow because of its mechanical explanation but the internal theory is not so easy to grasp, and this is why people have fallen into such an absurd fallacy as we see today. Let me explain about this in due order. Now the question is: what exactly is the human spirit? Scientifically speaking, it has high degree of substantiality and ultra-subtlety, and is composed of super-submicron particles which are so infinitesimal that we can never see them by any means, even by today's highly advanced electron or atomic microscope. However, because these particles are the very essence of a human being as mentioned above, they are so mystical, subtle and profound as to surpass all imagination. In this manner, the initiation of the source of disease occurs as clouds all over the spirit or at a part of it. There are two sorts of causes that induce these clouds. One cause is filth that derives from sin committed by a human being, and the other is medical poison. As to the former, the idea of the filth of sin is, of course, based on the cause-and-effect explanation that the wrongdoing, such as afflicting others or doing harm to the society, makes sin and the sin produces filth, while the latter, the medical poison is a combination of the innate and the acquired, which is to be explained elsewhere, and here, let me describe about the clouds themselves. The nature of clouds in the spirit is just like clouds in the air; it is, so to speak, aggregation of spiritual elements of water. The spiritual clouds divide into two types; impure and pure. The latter is very well; it's like cirrocumulus clouds or stratus in a fine sky, but in case of the former, the impure type of clouds must, sooner or later, be swept away by wind and rain, as occurs in a cloudy sky. This is a self-purification process of the earth as a heavenly sphere and although human disease is likewise the self-purification, medicine, not knowing the true function of disease, suspends the beneficial process of self-purification; so, these clouds of impurity gradually increase their density, and then, some kinds of bacteria originate. These are like inorganic vegetative matter, and in due course, gradually grow, and finally change into organic matter. This organic matter is none other than the seeds of bacteria, and after a time, when these seeds or eggs grow up to be adults and have individuality, they get large enough to be recognized for the first time through a microscope. If you happen to know this logic of process, you should realize what so-called viruses are. More specifically, since viruses are the babies of bacteria that have yet to be parents as mentioned above, they cannot be seen through a standard microscope, but they certainly grow to be parents and become bacteria. Even existent science acknowledges this. For these reasons, it is evident that in order to cure diseases completely, there is no true cure except clearing away the spiritual clouds which are such sources of bacteria as above explained. If this is the case, you will be able to realize that this principle of complete cure of disease is truly far beyond the standard of contemporary science. Then, how can the clouds be removed? Since I have been taught the concrete method by God, and at the same time, given the power to do this, I am now producing remarkable results, as you see in the appendix of this book [omitted]. I have just written about disease pushing forward to the pathological basis, as set forth above, and I would rather explain still deeper; if I do this, however, I may possibly go into the realm of religion and the explanation would be hard for third-party people to receive, so I will try here to make an explanation as easy to understand scientifically as possible. Let me explain how the clouds are dissipated. The moment when a practitioner of this method (Johrei) holds out his or her hand toward the diseased part of a patient, lightwave of some kind are radiated from the palm of the practitioner. Well then, what is this lightwave? To put it simply, that is spirit of the sun and I named it the spiritual element of fire. This is because the essence of aerial substance is water spirit or the spirit of water, while the essence of spiritual substance is spiritual element of fire; of course, the spiritual element of fire is certainly a kind of fire, but what a human being can see with his or her eyes and feel hot is the physical element or the body of fire spirit, while the above-mentioned spiritual element of fire is the spirit of fire. When this fire spirit is radiated to the clouds of human spirit, only the impure elements of the clouds are burned away and the resultant elements reduced to ashes, are excluded out of the body as excretory substance; on the other hand, the pure elements of the clouds are mingled into serum and at this moment, the clouds, that is to say, the source of disease has been dispelled. Well then, why can you emanate the fire spirit which has such healing power when you join us as a believer? This is because of the lightwave which is radiated from the token (called Ohikari, which means light) that a believer wears around the neck. This token is my calligraphic letter or letters and has three kinds: "Light", "High-Powered Light", and "Great High-Powered Light." The Divine Spirit of the Lord God (Jehovah) is transmitted to the token using my spiritual body as a relay center and is radiated from this token through the palm of a believer. But even when you listen to this explanation, you cannot possibly believe it right away. On the contrary, some may have an antipathy toward such explanation. They also may regard it as an outrageous fraud because there cannot be such absurdity in the world, which I do not think unreasonable. For there have never been any such meta-physical precedents like this since recorded history. However, the fact is undeniably a fact and one hundred arguments do not make one fact. To put it plainly, the time has finally come when the will of God be made explicit and I have just been charged by God with a great job of the salvation of mankind. It is a revolution of medicine as the first step of human salvation, so if you understand this explanation, you should find that there is no wonder about what I am carrying out at present. As can be seen, the explanation in this chapter sounds very mystical, but it is no mysticism at all. Actually, it is a veritable science. Therefore, if you read this and regard it as mysterious, that is because the level of the contemporary science is still much lower. So it is quite natural that when, in the future, science has advanced up to the level much higher than now, my theory will be easily understood at large. It is not until then that a common ground between science and religion will be found and the true civilization will be born. Today, they say at every opportunity that the end and aim of science lies in the pursuit of truth, but from my stand point, the truth has already been discovered and you will find the description of it in this book. It may be still difficult to believe in even what I have explained so far, but in the first place, what is truth at all? To put it simply, truth is reality itself. For example, that the sun rises in the east, and that a human being is born and dies; these are the reality and the truth. If so, the theory which I have expounded, though mystical it may be, is also neither an ideal nor an absurdity, but a reality itself. I still have a lot more I would like to say, but this should be good enough; otherwise, the subject would gradually move away from the main issue of tuberculosis. 黴菌の発生 『結核信仰療法』昭和27(1952)年12月1日発行 前項に説いたごとく、結核菌は、自然発生であるとしたら、ではどこからいかなる過程を経て発生したかを、何人にも理解し易いよう理論物理学的に、理論心理学的にかいてみるが、何しろ見えざる霊を対象とするのであるから容易でない事は、今日まで何人といえども試みた者のないにみても明らかである。<br/><br/>というのは事実の裏付が困難であったからでもあろうが、私は事実を根拠とした理論を発表するのであるから、たとえ唯物科学をもっていかに反対するといえども、打ち破る事は不可能である。<br/><br/> それについて前もって知っておかねばならない事は、世界というものの構成である。<br/><br/>これ程進歩した現在の学問でも、そこまではいまだ判明していないに反し、私はそこまで徹底して説くのであるから、静かに心を潜めてこの文を熟読すれば、何人といえどもこの発見の偉大さに驚くと共に、医学の誤謬に目醒めない訳にはゆかないであろう。<br/><br/>そうしてまずこの世界の構成であるが、それは一次元の物質界と、二次元の空気界と、三次元の霊気界との三段階から成立っているものである。<br/><br/>ところが現在までの学問では、一次元と二次元の世界だけしか判っていないため、この二つの世界を基本として形成されたものが現代科学であるから、その点に一大欠陥があったのである。<br/><br/>というのは右の無とされていたこの三次元の世界こそ、実は一切万有の力の根源であって、この力によって万物は生成し化育し、無限の発展を遂げつつあるのである。<br/><br/>ところがそれに未知である学者は、現在の科学をもってすれば、何物をも解決出来得るとするこの科学過信の誤りが、三次元の霊気界を否定し、今日のごとき不具的医学を作ってしまったのである。<br/><br/>その結果今までに種々説明したごとく、表われた病気症状を抑えるだけで、根本的治病は不可能なるため、結核は減らないのである。<br/><br/> 右のごとく根本から外れた医学としたら、進歩すればする程横道に迷い込んで、枝葉末節に囚われてしまい、すべての病原を黴菌にしてしまったのである。<br/><br/>その証拠には甲の病気を解決しようとすれば、乙、丙の病気がおこるというように、ただ形を変えるだけの事で、これが余病である。<br/><br/>さて論旨を進めて右の霊界と人間とは一体どういう関係にあるかというと、もちろん人間といえども右の三段階中の存在である以上、肉体は物質であり、水分も空気でヤハリ物質であるが、今一つの見えざる霊こそ実は人間の本体であって、これが病気の発生源である。<br/><br/>ところが唯物医学は病気とは肉体だけのものと思い、一切の病原を肉体に帰し、外部からの黴菌浸入のためとの、言わば外敵説に反し、吾々の方は内敵説であり、医学の感染説に対し、吾々は自然発生説である。<br/><br/>しかし外部説は機械で分かりうるが、内部説は分かり難いため、今日のごとき迷妄に陥ってしまったのである。<br/><br/>それを以下順をおって解説してみよう。<br/><br/> ここで一体人間の霊なるものは、何であるかというと、科学的に言えば非常に密度が高く超稀薄なものであって、現在進歩した原〔電〕子顕微鏡でも、到底見る事は出来ない程の超々極微粒子であるにもかかわらずこれこそ前記のごとく人間の本体であるから、全く想像もつかない程の神秘幽幻なものである。<br/><br/>この理によって病原の最初はこの霊の全部または一部に曇りが発生する。<br/><br/>曇りにもその原因に二種ある。<br/><br/>一は人間が犯す罪穢によるものと、二は薬毒によるものとである。<br/><br/>前者の罪穢とは言うまでもなく因果説に属するもので、人を苦しめるとか、社会を毒すとかいうつまり悪の行為からであり、後者の薬毒とは先天性のそれと後天性のそれとの合併したものであるが、それは別の項に譲るとして、ここでは曇りそのものについてかいてみるが、曇りの本質はちょうど大空の雲のごときもので、言わば水素の密合体である。<br/><br/>これにも不純性と純粋性があり、後者は晴れた日の鱗（うろこ）雲や段々雲に等しいもので結構だが、前者に至ってはいずれは風雨発生して払拭されなければならない。<br/><br/>これが天体の浄化作用であって、人間の病気もそれと同様であるにかかわらず、それを知らない医学は、せっかくの浄化作用を停止するのであるから、この不純性の曇りは漸次濃度を増してゆくと共に、ここに一種のバクテリヤが発生する。<br/><br/>これは無機質植物性のごときもので、時の進むに従い段々生育し、遂には有機質に変化する。<br/><br/>この有機物こそ黴菌の卵であって、この卵が時を経て一人前の親となり個性となって、初めて顕微鏡で見得る程度になるのである。<br/><br/>この理を知ったなら彼のウイルスも分かるであろう。<br/><br/>すなわちウイルスとは右のごとくまだ親にならない黴菌の子供であるから、顕微鏡では見えないが、確かに育って親となり病原となるので、これは学問でも認めている。<br/><br/> 以上の理によって根本的に病気を治すとしたら、右のごとき黴菌の発生源である霊の曇りを解消する以外に、真の治病法のない事は明らかである。<br/><br/>としたらこの原理こそ現代科学の水準よりも、遥かに高度である事も認識出来るであろう。<br/><br/>ではその曇りの解消はどうすればいいかというと、私はこの方法を神から教えられあわせてその力をも授けられたのであるから、本著の付録〔略〕に見るごとき、素晴しい実績を挙げつつあるのである。<br/><br/>以上のごとく私は病理の根本にまで突き進んで説いたのであるが、なお一層深く解説したいが、そうなると宗教的分野に入り、第三者には信じ難いから、ここでは出来るだけ科学的に解り易く説明するつもりである。<br/><br/> それについての曇りの解消とは一体どういう意味かを説明してみるとこうである。<br/><br/>すなわち施術者は患者の患部にむかって掌をかざすや、施術者の掌から一種の光波が放射されるのである。<br/><br/>ではこの光波とは何かというと、分かりやすく言えばこれは太陽の精であって、私はこれを火素と名付けた。<br/><br/>すなわち空気の本質は水素であるに対し、霊気の本質は火素であるからで、もちろん火素といえば火には違いないが、人間が現在目で見、熱く感じるそれは火素の体であって、右の火素とはつまり火霊である。<br/><br/>この火霊が人霊の曇りに向かって放射されるや、曇りの中の不純分子だけ焼尽され、その灰に相応する分子が排泄物となって体外へ排除され、純粋分子は漿液中に混入されてしまい、ここに曇りすなわち病原は解消されるのである。<br/><br/> では本教信者になると、このような治病力ある火霊が、なぜ放射され得るかというと、これは信者が首に掛けている御守から発する光波である。<br/><br/>この御守というのは私が書いた文字で、光、光明、大光明の三種あるが、これこそ主の神（エホバ）の神霊が、私の霊体を中継として御守に伝達され、御守から信者の掌を透して放射されるのである。<br/><br/>しかしこの説明を聞かされても、すぐに信ずる事は出来まい。<br/><br/>むしろ反感を抱く者さえあるかも知れない。<br/><br/>そんな馬鹿な事がこの世の中にあってたまるもんか、インチキにも程があるとするかも知れないが、それも無理とは思わない。<br/><br/>何となれば有史以来、かくのごとき超物理的例はないからである。<br/><br/>しかし事実はあくまで事実であり、百の議論よりも一の事実にしかずである。<br/><br/>これを一言にしていえば、いよいよ天の時来って、神は人類救済の大任を私に命じられたのである。<br/><br/>その一着手としての医学の革命であるから、この事を知ったなら今私の行っている事は、何ら不思議はないはずである。<br/><br/> 以上のごとくこの項はすこぶる神秘的な説明になったが、これは神秘でも何でもない。<br/><br/>実は純然たる科学である。<br/><br/>ゆえにこれを読んで神秘と思われるとしたら、それは現在科学のレベルが低いからで、将来一層も二層も進んだ暁、容易に理解出来るのはもちろんである。<br/><br/>そこに到って初めて科学と宗教との一致点が見出され、真の文明は生まれるのである。<br/><br/>そうして今日口を開けば学問の目的は、真理の探究にありとしているが、私からいえば最早真理は発見されたので、その解説がこの著である。<br/><br/> ここまで説明してもなお信ずる事は困難であろうが、そもそも真理とは何かというと、端的に言えば現実そのものである。<br/><br/>たとえば東から太陽が出るのも、人間が生れて死ぬのも現実であって真理である。<br/><br/>としたら私が説くところの神秘な説といえども、理想でも桁外れでもない。<br/><br/>現実そのものである。<br/><br/>まだ色々言いたい事があるが結核問題とは段々離れてしまうから、このくらいにして置くとする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

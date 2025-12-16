@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270406</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月6日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月六日 【御教え】 どなたも、ここにある鉱石を見られたでしょう。<br><br>これも、一通り説明しなくてはならんと思います。<br><br>これは鉱山の知識のない人はちょっと判らないですけれども、この石は日本一だそうです。<br><br>神岡鉱山――あれは鉛、亜鉛は日本一の山で、飛び抜けて大きな鉱山です。<br><br>そこの技師が日本一の折り紙をつけたんですから間違いないです。<br><br>これは亜鉛と鉛と銅と、その三種なんです。<br><br>で、今掘ってますが、鉱量はよほどあるらしいです。<br><br>ですから、事業的に言うとすばらしいものです。<br><br>大いに前祝いをして、踊っても良いんですがね。<br><br>こっちは人類救済にこの金を使うんですから――嬉しいですけれども、金儲け一方の人の嬉しさとは違うんです。<br><br>それから、なにしろ世界を救うんですから、よほどたいへんな金が今後いるんです。<br><br>しかも神様は何万年前から仕度されているんですから、このくらい出るのはあたりまえだ――もう少し早く出してくれれば良いと思うくらいです。<br><br>これを今すぐでも売れば金になりますけれども、しかしたいてい――銅なら銅。<br><br>鉛、亜鉛なら鉛、亜鉛と、ほとんど別々に処理するふうになっているんです。<br><br>こういうふうに三つ混合している石というのは、ほとんどないです。<br><br>ですから、これで売ると、銅専門の会社に売ると、鉛、亜鉛はお供みたいになっちゃう。<br><br>それから鉛、亜鉛の会社に売ると、銅はお供みたいになっちゃう。<br><br>非常に損なんです。<br><br>そこで、こっちで分離することができるので――機械で選鉱する。<br><br>そうして亜鉛、鉛、銅と三種に区分してやると、そっくり金になるわけですね。<br><br>それには設備がいる、ですから、今その設備に取り掛かったんです。<br><br>どうしても、もう二、三カ月かかると見なければならないですね。<br><br>今掘って溜めて、機械の設備がすっかりできてから、売り物ができる。<br><br>という段取りです。<br><br>これを掘ったのは先月です。<br><br>最近の報告によると、もっと良くなっているんです。<br><br>この倍くらいに太くなっているんです。<br><br>ですから、まだまだすばらしい鉱山になるわけですがね。<br><br>で、私は二十年前から鉱山をやってますが、やっていると言っても続けてやるんでなく、時々やったんですね。<br><br>なにしろ下手に手を出すと金がかかりますからね。<br><br>ですから、やる時よりやらない時の方が多かった。<br><br>しかし怠らずにやっていたんですがね。<br><br>で、私は最初は知らなかったけれども、ここ数年前から神様から鉱山について、いろいろ教わったわけですね。<br><br>これなんかも、神様の方の鉱山学で見当つけたんです。<br><br>最初、去年拳くらいの石を見本に持ってきたんです。<br><br>それを見るとすばらしい石なんです。<br><br>ですからすぐに聞かしたところが売りたいと言うんですね。<br><br>安かったのですぐ買えと言って買ったわけなんです。<br><br>で、この山に去年の秋私は行ったんです。<br><br>水上ですがね。<br><br>温泉の側です。<br><br>水上駅の左側は、すぐ温泉場になってますが、駅の手前を右に二、三町行った所です。<br><br>実に便利な所です。<br><br>そこで、先に掘ってある所の脈を見ると細いんです。<br><br>一寸か二寸なんです。<br><br>ふつうの脈は太いけれども、鉱物がついている脈は細いんです。<br><br>これは、下に行くと太くなるというので掘らせました。<br><br>下に行くと太くなるというのも、神様の方の鉱山学なんですよ。<br><br>すると、それから十間ばかり行くと、昔掘った坑道がある。<br><br>五、六十間もある。<br><br>ちょうど良い。<br><br>この下だから、もう少し掘って行くと良い、と目をつけてやらせたんですよ。<br><br>で、元掘ってあった所の、すぐ上がっているような所を、もう少し掘れと言って、四、五尺上がったところが、これにぶつかっちゃった。<br><br>昔それを掘った人が――なんでも二、三十年前なんですがね。<br><br>もう少し掘らせたら、そこを見つけたんですよ。<br><br>しかし、そこで力がなくなったんでしょうね。<br><br>そこで、間違えたとみえて、横っちょの方に掘ってある。<br><br>そんなこんなでうまく行かなかった。<br><br>これは神様がキュッと止めたんですね。<br><br>たいへんな奇蹟です。<br><br>だから村人なんかも、あそこであんなに良い脈があるなんて思えない。<br><br>手伝った人が随分あるんですが、あそこがあんなにあるなんておかしいと、見物に来るそうですがね。<br><br>村中の評判になっているそうです。<br><br>その時分に神様が用意してあったんですね。<br><br>楽なものですよ。<br><br>また、その大きさに掘ってある。<br><br>それで四、五尺で当たっちゃったんです。<br><br> また、このくらい便利な所はないんですよ。<br><br>駅から二、三町ですからね。<br><br>駅から見えますよ。<br><br>ですから掘ったものを索道かけて、ずっと運んでしまう。<br><br>その間運賃なんていらないんです。<br><br>たいてい、鉱山というのは、駅から何里もあるものなんですよ。<br><br>その運搬費はたいへんなものです。<br><br>その運搬費がいらないんですからね。<br><br> それに信者の奉仕隊の人を増やしていくんですよ。<br><br>そうすると、鉱物は日本一だし、運搬費は零みたいなもので、掘る坑夫は――これも零みたいなものです。<br><br>非常に有利なものですね。<br><br>さすがに人間のやることとは違うと感心するくらいですね。<br><br>ですから、この夏あたりからボツボツプラスになるわけですね。<br><br> ちょうど夏あたりから会館の建築にかかったり、それからまた箱根の本山ですね。<br><br>光明殿と言うんですが、光明殿に来年はぜひかかりたいと思っているんです。<br><br>ちょうど金のいる時に金が入るようになるわけですね。<br><br>それから去年も私がここで言った通り、「金のいる時には神様の方で、どこからか入ってくる」と言いましたが、あの時は私は、そんなに山が良くなるとは思わなかったんですが、なにか入るとは思っていたんです。<br><br>今考えると、これかと思うんですね。<br><br>この間のお祭りの時に、これからのいろいろな経綸のことをお話しましたが、そんな具合で、今教団で――やはりなんと言っても、金が一番入り用なんです。<br><br>ですからいよいよ山が始まるようになると、また発展は目覚ましいものがあるだろうと思いますね。<br><br>いつかも話した通り、京都にも地上天国を造らなければならないんですよ。<br><br>ですから京都は、熱海、箱根よりかもっと大きな規模になるだろうと思ってますがね。<br><br>いろいろの――そういう経費が何億いるか、何十億いるか分からないですからね。<br><br>やっぱりそれが手に入るようになりますからね。<br><br>それは心配ないですがね。<br><br>お祭りの時にその話をしたのは四日目と五日目でした。<br><br>ですから、最初の三日間というのは、その話をしなかった。<br><br>ただこれからの経綸の話をしたんです。<br><br>だから信者に向かって説くのに、資格者としては、こんなに金がたいへんだ。<br><br>われわれはどうしようかと心配した人もあるらしいが、なるたけ得心の行くように、今日は話したのです。<br><br>そうかと言ってあまり安心しても困る。<br><br>まだ二、三カ月、出るまでは金がいりますからね。<br><br>それともう一つは、みんな――信者の人なんかというのは霊的の借金がうんとあるんですよ。<br><br>これは自分ばかりでない、祖先以来ですからね。<br><br>要するにそれが罪穢――メグリですね。<br><br>それを、病気――いろんな苦しみによって、借金を減らしているんですがね。<br><br>だから、大本教のお筆先に「皆メグリは沢山あるから、一日も早く借金なしにして下されよ」というのがあるんですよ。<br><br>そんなわけで、金の御用をするというのは、それだけ罪を減らすんですから、無理をしない限り――できるだけたくさんした方が、早くメグリが取れるわけですね。<br><br>そうすれば、それだけ苦しみが減るのと、あべこべに徳が多くなるですね。<br><br>私は今まであまり言わなかったですが、神様に上げた金は何倍にもなって帰るんですよ。<br><br>目覚ましいものです。<br><br>これは、経験すると分かりますよ。<br><br>支部で財政が苦しいというのを、よく聞きますが、それは金の御用をしなかったからと、よく言います。<br><br>他の宗教みたいに――天理教みたいにスッカラカンになって苦しむということは絶対にないですね。<br><br>そんな気の利かない神様だったら、信仰止めた方が良い。<br><br>ですから、今教団の方で金がいらなくなると――今のうちに御用をした方が良いということになります。<br><br>そうすると、なんだかうまく言って、金を出させようと、そういうふうにとられると困るんです。<br><br>私は正直だから、ありのままを言うんです。<br><br>今に、あべこべにこっちの方で、「支部の家がない」「よしきた」と、こしらえてやるようになります。<br><br>これも嘘言ったらたいへんですからね。<br><br>どうしても嘘は言えない。<br><br>将来は地上天国が方々にできるんですよ。<br><br>今は箱根、熱海ですが、いずれは京都に造るし、それから九州に造るし、北海道に造るし、それから小さい天国ですね。<br><br>それには各町村、小さい州にですね。<br><br>やっぱり大中小になるんです。<br><br>それにはやはり本部の方にうんと金ができなければね。<br><br>信者さんの方だけでは、できないことはないが、手早くできないです。<br><br>そういうことを、大いに楽しみにしていてもらいたいと思いますね。<br><br>鉱山の話もいろいろありますが、あまり信仰とは関係がなくなりますから、今日はこのくらいにしておきます。<br><br> それから、よくあいつは邪神が憑いているとか、あの人は気をつけろとか、よく今までも言う人があるんです。<br><br>それについて書いたのを、今読ませますからね。<br><br> （御論文「人を裁く勿れ」） それから、これは今度の『結核信仰療法』の一項目ですけれども、非常に参考になると思うから、今読ませますがね。<br><br>病気に対して、また信者とか未信者ですね。<br><br>そういうふうに解らせる――説き方ですね。<br><br>それについて非常に参考になると思うから、読ませます。<br><br> （御論文「医療誤点の種々相」）【栄光 一五二号】 それから、もう一つ注意することがあるんです。<br><br>よく邪神が憑いてるか憑いてないか、あるいは邪神か邪神でないかを見る、一つの方法があるんです。<br><br>それは、一番分かりやすいのは、邪神というものはしつこいんです。<br><br>で、神様ほどあっさりしているんです。<br><br>ですからクドクドしく一つ事を言ったりするのは、これは邪神と見て良いですね。<br><br>で、高級な神様ほどあっさりしている。<br><br>ですから、あっさり言う人は身魂が高級と思って良いですね。<br><br>それからクドクドしく言うのは、邪神でなければ、神様では低い――低級とは言えないが、低いんですね。<br><br>一番低いのは狐ですよ。<br><br>まくし立てますが、あれはたいてい狐です。<br><br>そういうのでなく、本当に身魂が良い人は穏やかに――議論したりまくし立てたりすることはないですね。<br><br>それから女でペラペラしゃべるのは狐が多いです。<br><br>男で、いばったりするのは天狗ですよ。<br><br>こう見ていれば間違いない。<br><br>議会なんかで、いろいろ議論したりしますが、あれは天狗ですからね。<br><br>天狗というのは、負けるのが嫌ですからね。<br><br>言い出したら通そうとする。<br><br>議員だとか学者や弁護士だとか、ああいうのは天狗が多いんです。<br><br>横車を押したり、人に議論したりするのは、天狗に限るんです。<br><br>なにしろ天狗というのは問答が好きでして、天狗は問答して勝ったのが、位が上がっていくんですから、議論して勝とうとしますね。<br><br>みんな天狗ですよ。<br><br>それは天狗も良い働きをしますよ。<br><br>だから悪くはとれないんですが、しかしよけいな手数をかけるだけのもので、天狗でも智慧のあるのは良いですが、あまり智慧のないのは困るんですよ。<br><br>年中争ったり――口争いですがね。<br><br>人の感情を害したり、物事を渉〔捗〕らせなかったり、そういうことがありますからね。<br><br>こういう、天狗の憑いている人でも、だんだん神様のことが分かれば、自分の欠点が分かってきますから良いわけですが、そういうように、大体参考にすれば良いですね。<br><br> それから神懸りについて昨日私は話したが、たいへん良い話だったと言う人がありましたがね。<br><br>それと、私は神様は拝まないんですよ。<br><br>どの宗教でも、今までどんな教祖でも、必ず神様を拝んだものです。<br><br>それを、私は拝まない。<br><br>と言うのは、私に憑いている神様は、一番高級だから拝むものがないんです。<br><br>みんな下ですからね。<br><br>それからもう一つは、よく神様にお伺いを立てるとか、あるいは神様にお知らせをいただくとかして言うんですが――たいへんありがたく思うんですが、私は簡単に、ふつうのことのように言うんです。<br><br>うっかりして軽く見るんですね。<br><br>そのために忘れちゃったり、うっかりして、なにかあった時、これは先に明主様に御注意いただいたことがある。<br><br>お言葉にある。<br><br>と、気がつくことが、どなたもあるんですがね。<br><br>私は神様にお伺いして、それをお取り次ぎするんでなくて、私の口から出ることは、神様自身が言う――こういうことになるんですね。<br><br>最高の神様ですからね。<br><br>だから、私が神様にお願いするとかお伺いするとか、そういうことはないんですよ。<br><br>そこで、御守りなんか書く時に、ふつうならどの宗教の教祖でも、そういう時には、羽織袴で祝詞を奏げるものですがね。<br><br>私なんかそうでない。<br><br>夏なんか裸でアグラかいてやりますからね。<br><br>見る人はありがたく思いませんよ。<br><br>私はそれで良いんですよ。<br><br>神様自体が書くんだから、どうしようもない。<br><br>こういうことは今まで言わなかった。<br><br>そういうことも心得て良いですね。<br><br> もう一つたとえて言えば、信者の人でいろんな奇蹟をやりますが、奇蹟も、やっぱりキリストがやったくらいの奇蹟は毎日やってますからね。<br><br>これは、時間があったら読もうと思ったが、時間がないから止したんですが、キリストの奇蹟以上の奇蹟ですよ。<br><br>これはぜんぜん理屈がつかないほどの奇蹟です。<br><br> それから、原子爆弾で助かったお蔭話ですね。<br><br>これも、七つばかり来ましたからね。<br><br>私は、それを発表するように言ってあるんです。<br><br>これも、今度良く説明をつけて、この次あたりに読ませますがね。<br><br>そんなわけで、私の弟子がキリストくらいの奇蹟をすれば、やはりキリストも私の弟子になるんです。<br><br>それをはっきり分かっていなければ、キリスト教信者なんか誤解します。<br><br>というのは、もう一つ言っておくことは、キリストは贖罪主なんです。<br><br>贖罪主というのは、一つの会社なら専務ですね。<br><br>専務みたいなものです。<br><br>もし会社でいろんな過ちがあったりしますと、専務が代表者になって、許してくれと言って社長にお詫びします。<br><br>贖罪主というのは、そういうものです。<br><br>万民の罪を御自分が負って、万民になり代わって十字架にかかる。<br><br>贖罪主とは別に、社長――すなわち、よし許すと言う、許し主がなくてはならない。<br><br>私は許し主なんです。<br><br>ですから、そういう点は非常に――主人と家来ほど違うんですね。<br><br>こういうことも、今までも言いたかったんですが、あまりかけ離れているから、誤解されますので言わなかった。<br><br>明主様は、誇大妄想的な脱線だ。<br><br>と、未信者は言いますから、言わなかったんですが、もうソロソロ言っても良い時期になったので、言ったんですがね。<br><br>そういうことも知ると、よけいいろんなことがはっきり分かるわけですね。<br><br>そのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Providência Divina e o Discernimento Espiritual</h2>
 <p>Imagino que todos os senhores já tenham observado o minério aqui exposto. Creio ser necessário oferecer uma breve explicação a seu respeito. Para aqueles que não possuem conhecimento em mineralogia, talvez não seja evidente, mas esta rocha é considerada a melhor do Japão. O engenheiro responsável pela Mina de Kamioka — a maior produtora de chumbo e zinco do país, uma jazida de proporções extraordinárias — atestou pessoalmente sua qualidade superior, o que nos assegura de seu valor. Este minério é uma composição de zinco, chumbo e cobre. A extração já está em andamento, e as reservas aparentam ser vastíssimas, o que, do ponto de vista empreendedor, representa algo verdadeiramente esplêndido. Poderíamos, com razão, celebrar e festejar antecipadamente.</p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p>Para ilustrar com outro exemplo, os membros realizam diversos milagres. Os milagres que ocorrem diariamente em nossa Igreja são da mesma magnitude dos que Cristo realizou. Eu pretendia ler alguns relatos hoje, mas o tempo não permite. São milagres que ultrapassam os de Cristo, fenômenos que desafiam completamente a lógica. Recebemos também cerca de sete testemunhos de pessoas que foram salvas da bomba atômica, e já instruí que sejam publicados. Em uma próxima oportunidade, apresentarei esses relatos com as devidas explicações.</p>
 <p>Se meus discípulos realizam milagres no mesmo nível de Cristo, então o próprio Cristo se torna meu discípulo. É fundamental que isso seja compreendido com clareza para evitar mal-entendidos, especialmente por parte dos cristãos. Há mais um ponto a esclarecer: Cristo é o Redentor (贖罪主). Em uma empresa, o Redentor seria como o diretor executivo. Se ocorrem falhas na companhia, é o diretor quem assume a responsabilidade e se desculpa perante o presidente. O Redentor é aquele que assume a responsabilidade pelos pecados de toda a humanidade, intercedendo em seu nome e se sacrificando na cruz.</p>
 <p>Contudo, para que a redenção seja efetiva, é preciso que exista a figura do "Presidente" — o Perdoador (許し主), aquele que possui a autoridade para conceder o perdão. Eu sou o Perdoador. A diferença entre essas duas posições é imensa, como a que existe entre o mestre e o servo. Há muito tempo eu desejava falar sobre isso, mas, por ser algo tão distinto do conhecimento comum, poderia gerar incompreensão. Os não-crentes poderiam dizer que Meishu-Sama sofre de um delírio de grandeza. Por isso, me calei. Todavia, sinto que a época apropriada para revelá-lo finalmente chegou. O conhecimento desses fatos lhes trará uma clareza ainda maior sobre todas as coisas. Por hoje, encerro aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月6日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月六日 【御教え】 どなたも、ここにある鉱石を見られたでしょう。<br/><br/>これも、一通り説明しなくてはならんと思います。<br/><br/>これは鉱山の知識のない人はちょっと判らないですけれども、この石は日本一だそうです。<br/><br/>神岡鉱山――あれは鉛、亜鉛は日本一の山で、飛び抜けて大きな鉱山です。<br/><br/>そこの技師が日本一の折り紙をつけたんですから間違いないです。<br/><br/>これは亜鉛と鉛と銅と、その三種なんです。<br/><br/>で、今掘ってますが、鉱量はよほどあるらしいです。<br/><br/>ですから、事業的に言うとすばらしいものです。<br/><br/>大いに前祝いをして、踊っても良いんですがね。<br/><br/>こっちは人類救済にこの金を使うんですから――嬉しいですけれども、金儲け一方の人の嬉しさとは違うんです。<br/><br/>それから、なにしろ世界を救うんですから、よほどたいへんな金が今後いるんです。<br/><br/>しかも神様は何万年前から仕度されているんですから、このくらい出るのはあたりまえだ――もう少し早く出してくれれば良いと思うくらいです。<br/><br/>これを今すぐでも売れば金になりますけれども、しかしたいてい――銅なら銅。<br/><br/>鉛、亜鉛なら鉛、亜鉛と、ほとんど別々に処理するふうになっているんです。<br/><br/>こういうふうに三つ混合している石というのは、ほとんどないです。<br/><br/>ですから、これで売ると、銅専門の会社に売ると、鉛、亜鉛はお供みたいになっちゃう。<br/><br/>それから鉛、亜鉛の会社に売ると、銅はお供みたいになっちゃう。<br/><br/>非常に損なんです。<br/><br/>そこで、こっちで分離することができるので――機械で選鉱する。<br/><br/>そうして亜鉛、鉛、銅と三種に区分してやると、そっくり金になるわけですね。<br/><br/>それには設備がいる、ですから、今その設備に取り掛かったんです。<br/><br/>どうしても、もう二、三カ月かかると見なければならないですね。<br/><br/>今掘って溜めて、機械の設備がすっかりできてから、売り物ができる。<br/><br/>という段取りです。<br/><br/>これを掘ったのは先月です。<br/><br/>最近の報告によると、もっと良くなっているんです。<br/><br/>この倍くらいに太くなっているんです。<br/><br/>ですから、まだまだすばらしい鉱山になるわけですがね。<br/><br/>で、私は二十年前から鉱山をやってますが、やっていると言っても続けてやるんでなく、時々やったんですね。<br/><br/>なにしろ下手に手を出すと金がかかりますからね。<br/><br/>ですから、やる時よりやらない時の方が多かった。<br/><br/>しかし怠らずにやっていたんですがね。<br/><br/>で、私は最初は知らなかったけれども、ここ数年前から神様から鉱山について、いろいろ教わったわけですね。<br/><br/>これなんかも、神様の方の鉱山学で見当つけたんです。<br/><br/>最初、去年拳くらいの石を見本に持ってきたんです。<br/><br/>それを見るとすばらしい石なんです。<br/><br/>ですからすぐに聞かしたところが売りたいと言うんですね。<br/><br/>安かったのですぐ買えと言って買ったわけなんです。<br/><br/>で、この山に去年の秋私は行ったんです。<br/><br/>水上ですがね。<br/><br/>温泉の側です。<br/><br/>水上駅の左側は、すぐ温泉場になってますが、駅の手前を右に二、三町行った所です。<br/><br/>実に便利な所です。<br/><br/>そこで、先に掘ってある所の脈を見ると細いんです。<br/><br/>一寸か二寸なんです。<br/><br/>ふつうの脈は太いけれども、鉱物がついている脈は細いんです。<br/><br/>これは、下に行くと太くなるというので掘らせました。<br/><br/>下に行くと太くなるというのも、神様の方の鉱山学なんですよ。<br/><br/>すると、それから十間ばかり行くと、昔掘った坑道がある。<br/><br/>五、六十間もある。<br/><br/>ちょうど良い。<br/><br/>この下だから、もう少し掘って行くと良い、と目をつけてやらせたんですよ。<br/><br/>で、元掘ってあった所の、すぐ上がっているような所を、もう少し掘れと言って、四、五尺上がったところが、これにぶつかっちゃった。<br/><br/>昔それを掘った人が――なんでも二、三十年前なんですがね。<br/><br/>もう少し掘らせたら、そこを見つけたんですよ。<br/><br/>しかし、そこで力がなくなったんでしょうね。<br/><br/>そこで、間違えたとみえて、横っちょの方に掘ってある。<br/><br/>そんなこんなでうまく行かなかった。<br/><br/>これは神様がキュッと止めたんですね。<br/><br/>たいへんな奇蹟です。<br/><br/>だから村人なんかも、あそこであんなに良い脈があるなんて思えない。<br/><br/>手伝った人が随分あるんですが、あそこがあんなにあるなんておかしいと、見物に来るそうですがね。<br/><br/>村中の評判になっているそうです。<br/><br/>その時分に神様が用意してあったんですね。<br/><br/>楽なものですよ。<br/><br/>また、その大きさに掘ってある。<br/><br/>それで四、五尺で当たっちゃったんです。<br/><br/> また、このくらい便利な所はないんですよ。<br/><br/>駅から二、三町ですからね。<br/><br/>駅から見えますよ。<br/><br/>ですから掘ったものを索道かけて、ずっと運んでしまう。<br/><br/>その間運賃なんていらないんです。<br/><br/>たいてい、鉱山というのは、駅から何里もあるものなんですよ。<br/><br/>その運搬費はたいへんなものです。<br/><br/>その運搬費がいらないんですからね。<br/><br/> それに信者の奉仕隊の人を増やしていくんですよ。<br/><br/>そうすると、鉱物は日本一だし、運搬費は零みたいなもので、掘る坑夫は――これも零みたいなものです。<br/><br/>非常に有利なものですね。<br/><br/>さすがに人間のやることとは違うと感心するくらいですね。<br/><br/>ですから、この夏あたりからボツボツプラスになるわけですね。<br/><br/> ちょうど夏あたりから会館の建築にかかったり、それからまた箱根の本山ですね。<br/><br/>光明殿と言うんですが、光明殿に来年はぜひかかりたいと思っているんです。<br/><br/>ちょうど金のいる時に金が入るようになるわけですね。<br/><br/>それから去年も私がここで言った通り、「金のいる時には神様の方で、どこからか入ってくる」と言いましたが、あの時は私は、そんなに山が良くなるとは思わなかったんですが、なにか入るとは思っていたんです。<br/><br/>今考えると、これかと思うんですね。<br/><br/>この間のお祭りの時に、これからのいろいろな経綸のことをお話しましたが、そんな具合で、今教団で――やはりなんと言っても、金が一番入り用なんです。<br/><br/>ですからいよいよ山が始まるようになると、また発展は目覚ましいものがあるだろうと思いますね。<br/><br/>いつかも話した通り、京都にも地上天国を造らなければならないんですよ。<br/><br/>ですから京都は、熱海、箱根よりかもっと大きな規模になるだろうと思ってますがね。<br/><br/>いろいろの――そういう経費が何億いるか、何十億いるか分からないですからね。<br/><br/>やっぱりそれが手に入るようになりますからね。<br/><br/>それは心配ないですがね。<br/><br/>お祭りの時にその話をしたのは四日目と五日目でした。<br/><br/>ですから、最初の三日間というのは、その話をしなかった。<br/><br/>ただこれからの経綸の話をしたんです。<br/><br/>だから信者に向かって説くのに、資格者としては、こんなに金がたいへんだ。<br/><br/>われわれはどうしようかと心配した人もあるらしいが、なるたけ得心の行くように、今日は話したのです。<br/><br/>そうかと言ってあまり安心しても困る。<br/><br/>まだ二、三カ月、出るまでは金がいりますからね。<br/><br/>それともう一つは、みんな――信者の人なんかというのは霊的の借金がうんとあるんですよ。<br/><br/>これは自分ばかりでない、祖先以来ですからね。<br/><br/>要するにそれが罪穢――メグリですね。<br/><br/>それを、病気――いろんな苦しみによって、借金を減らしているんですがね。<br/><br/>だから、大本教のお筆先に「皆メグリは沢山あるから、一日も早く借金なしにして下されよ」というのがあるんですよ。<br/><br/>そんなわけで、金の御用をするというのは、それだけ罪を減らすんですから、無理をしない限り――できるだけたくさんした方が、早くメグリが取れるわけですね。<br/><br/>そうすれば、それだけ苦しみが減るのと、あべこべに徳が多くなるですね。<br/><br/>私は今まであまり言わなかったですが、神様に上げた金は何倍にもなって帰るんですよ。<br/><br/>目覚ましいものです。<br/><br/>これは、経験すると分かりますよ。<br/><br/>支部で財政が苦しいというのを、よく聞きますが、それは金の御用をしなかったからと、よく言います。<br/><br/>他の宗教みたいに――天理教みたいにスッカラカンになって苦しむということは絶対にないですね。<br/><br/>そんな気の利かない神様だったら、信仰止めた方が良い。<br/><br/>ですから、今教団の方で金がいらなくなると――今のうちに御用をした方が良いということになります。<br/><br/>そうすると、なんだかうまく言って、金を出させようと、そういうふうにとられると困るんです。<br/><br/>私は正直だから、ありのままを言うんです。<br/><br/>今に、あべこべにこっちの方で、「支部の家がない」「よしきた」と、こしらえてやるようになります。<br/><br/>これも嘘言ったらたいへんですからね。<br/><br/>どうしても嘘は言えない。<br/><br/>将来は地上天国が方々にできるんですよ。<br/><br/>今は箱根、熱海ですが、いずれは京都に造るし、それから九州に造るし、北海道に造るし、それから小さい天国ですね。<br/><br/>それには各町村、小さい州にですね。<br/><br/>やっぱり大中小になるんです。<br/><br/>それにはやはり本部の方にうんと金ができなければね。<br/><br/>信者さんの方だけでは、できないことはないが、手早くできないです。<br/><br/>そういうことを、大いに楽しみにしていてもらいたいと思いますね。<br/><br/>鉱山の話もいろいろありますが、あまり信仰とは関係がなくなりますから、今日はこのくらいにしておきます。<br/><br/> それから、よくあいつは邪神が憑いているとか、あの人は気をつけろとか、よく今までも言う人があるんです。<br/><br/>それについて書いたのを、今読ませますからね。<br/><br/> （御論文「人を裁く勿れ」） それから、これは今度の『結核信仰療法』の一項目ですけれども、非常に参考になると思うから、今読ませますがね。<br/><br/>病気に対して、また信者とか未信者ですね。<br/><br/>そういうふうに解らせる――説き方ですね。<br/><br/>それについて非常に参考になると思うから、読ませます。<br/><br/> （御論文「医療誤点の種々相」）【栄光 一五二号】 それから、もう一つ注意することがあるんです。<br/><br/>よく邪神が憑いてるか憑いてないか、あるいは邪神か邪神でないかを見る、一つの方法があるんです。<br/><br/>それは、一番分かりやすいのは、邪神というものはしつこいんです。<br/><br/>で、神様ほどあっさりしているんです。<br/><br/>ですからクドクドしく一つ事を言ったりするのは、これは邪神と見て良いですね。<br/><br/>で、高級な神様ほどあっさりしている。<br/><br/>ですから、あっさり言う人は身魂が高級と思って良いですね。<br/><br/>それからクドクドしく言うのは、邪神でなければ、神様では低い――低級とは言えないが、低いんですね。<br/><br/>一番低いのは狐ですよ。<br/><br/>まくし立てますが、あれはたいてい狐です。<br/><br/>そういうのでなく、本当に身魂が良い人は穏やかに――議論したりまくし立てたりすることはないですね。<br/><br/>それから女でペラペラしゃべるのは狐が多いです。<br/><br/>男で、いばったりするのは天狗ですよ。<br/><br/>こう見ていれば間違いない。<br/><br/>議会なんかで、いろいろ議論したりしますが、あれは天狗ですからね。<br/><br/>天狗というのは、負けるのが嫌ですからね。<br/><br/>言い出したら通そうとする。<br/><br/>議員だとか学者や弁護士だとか、ああいうのは天狗が多いんです。<br/><br/>横車を押したり、人に議論したりするのは、天狗に限るんです。<br/><br/>なにしろ天狗というのは問答が好きでして、天狗は問答して勝ったのが、位が上がっていくんですから、議論して勝とうとしますね。<br/><br/>みんな天狗ですよ。<br/><br/>それは天狗も良い働きをしますよ。<br/><br/>だから悪くはとれないんですが、しかしよけいな手数をかけるだけのもので、天狗でも智慧のあるのは良いですが、あまり智慧のないのは困るんですよ。<br/><br/>年中争ったり――口争いですがね。<br/><br/>人の感情を害したり、物事を渉〔捗〕らせなかったり、そういうことがありますからね。<br/><br/>こういう、天狗の憑いている人でも、だんだん神様のことが分かれば、自分の欠点が分かってきますから良いわけですが、そういうように、大体参考にすれば良いですね。<br/><br/> それから神懸りについて昨日私は話したが、たいへん良い話だったと言う人がありましたがね。<br/><br/>それと、私は神様は拝まないんですよ。<br/><br/>どの宗教でも、今までどんな教祖でも、必ず神様を拝んだものです。<br/><br/>それを、私は拝まない。<br/><br/>と言うのは、私に憑いている神様は、一番高級だから拝むものがないんです。<br/><br/>みんな下ですからね。<br/><br/>それからもう一つは、よく神様にお伺いを立てるとか、あるいは神様にお知らせをいただくとかして言うんですが――たいへんありがたく思うんですが、私は簡単に、ふつうのことのように言うんです。<br/><br/>うっかりして軽く見るんですね。<br/><br/>そのために忘れちゃったり、うっかりして、なにかあった時、これは先に明主様に御注意いただいたことがある。<br/><br/>お言葉にある。<br/><br/>と、気がつくことが、どなたもあるんですがね。<br/><br/>私は神様にお伺いして、それをお取り次ぎするんでなくて、私の口から出ることは、神様自身が言う――こういうことになるんですね。<br/><br/>最高の神様ですからね。<br/><br/>だから、私が神様にお願いするとかお伺いするとか、そういうことはないんですよ。<br/><br/>そこで、御守りなんか書く時に、ふつうならどの宗教の教祖でも、そういう時には、羽織袴で祝詞を奏げるものですがね。<br/><br/>私なんかそうでない。<br/><br/>夏なんか裸でアグラかいてやりますからね。<br/><br/>見る人はありがたく思いませんよ。<br/><br/>私はそれで良いんですよ。<br/><br/>神様自体が書くんだから、どうしようもない。<br/><br/>こういうことは今まで言わなかった。<br/><br/>そういうことも心得て良いですね。<br/><br/> もう一つたとえて言えば、信者の人でいろんな奇蹟をやりますが、奇蹟も、やっぱりキリストがやったくらいの奇蹟は毎日やってますからね。<br/><br/>これは、時間があったら読もうと思ったが、時間がないから止したんですが、キリストの奇蹟以上の奇蹟ですよ。<br/><br/>これはぜんぜん理屈がつかないほどの奇蹟です。<br/><br/> それから、原子爆弾で助かったお蔭話ですね。<br/><br/>これも、七つばかり来ましたからね。<br/><br/>私は、それを発表するように言ってあるんです。<br/><br/>これも、今度良く説明をつけて、この次あたりに読ませますがね。<br/><br/>そんなわけで、私の弟子がキリストくらいの奇蹟をすれば、やはりキリストも私の弟子になるんです。<br/><br/>それをはっきり分かっていなければ、キリスト教信者なんか誤解します。<br/><br/>というのは、もう一つ言っておくことは、キリストは贖罪主なんです。<br/><br/>贖罪主というのは、一つの会社なら専務ですね。<br/><br/>専務みたいなものです。<br/><br/>もし会社でいろんな過ちがあったりしますと、専務が代表者になって、許してくれと言って社長にお詫びします。<br/><br/>贖罪主というのは、そういうものです。<br/><br/>万民の罪を御自分が負って、万民になり代わって十字架にかかる。<br/><br/>贖罪主とは別に、社長――すなわち、よし許すと言う、許し主がなくてはならない。<br/><br/>私は許し主なんです。<br/><br/>ですから、そういう点は非常に――主人と家来ほど違うんですね。<br/><br/>こういうことも、今までも言いたかったんですが、あまりかけ離れているから、誤解されますので言わなかった。<br/><br/>明主様は、誇大妄想的な脱線だ。<br/><br/>と、未信者は言いますから、言わなかったんですが、もうソロソロ言っても良い時期になったので、言ったんですがね。<br/><br/>そういうことも知ると、よけいいろんなことがはっきり分かるわけですね。<br/><br/>そのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

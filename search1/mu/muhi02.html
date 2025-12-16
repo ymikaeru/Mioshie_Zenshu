@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>muhi02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無肥栽培の報告を読んで 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 初めて無肥料栽培を実施した作物の、そのほとんどは最初の数ケ月は、発育が悪く、茎も細く葉も黄色で、有肥の田畑と較べてすこぶる見劣りがする。<br><br>という事は試作者の異口同音に唱える声で、中には夜も寝られない程心配する者さえあるという事実で、これについて私は注意を与えたいのである。<br><br> 元来、無肥料栽培といっても、その耕作する土壌もまた種子も全然肥毒のないものはない。<br><br>長年の肥毒のため両方とも極端に変質しているのである。<br><br>それがため土壌本来の性能を発揮する力を失っている。<br><br>それと共に種子の方も土壌の真の成分を吸収する力がない。<br><br>何となれば肥料を吸収すべく変質しているからである。<br><br>この理由としては、いかなる物質といえども対象物に適応すべき変質するのが原則である。<br><br>たとえ、誤った対象物であっても絶えず繰返すにおいて、それに適応するようになるのである。<br><br>これがいわゆる中毒である。<br><br> 以上の理によって、急激に無肥料になった場合、土壌本来の性能を直に発揮し得ない。<br><br>といって今までのごとく吸収すべく肥料もない、という理由によって一時衰弱するのである。<br><br>しかるに一定時を過ぎると、肥毒は漸次消失すると共に、その入れ替りに土はその本質に還元するのである。<br><br>それと同様種子の方も肥毒の消滅によって、土性〔壌〕を吸収する本来の機能が活動を始めるので、両々（りょうりょう）あいまって収穫前頃俄然として本来の生育力を発揮するのである。<br><br> そうして中毒症状は、ひとり植物のみではない。<br><br>動物においても同様である。<br><br>例えば飲酒家が禁酒し、煙草喫みが禁煙をすれば一時は呆然として活動力が減殺する。<br><br>下剤常習者が便秘症となり、消化薬常習者が胃弱者となり、解熱剤常習者がやめると一旦高熱が出るという事や、モルヒネ中毒コカイン中毒者も同様の現象を呈するにみても明らかである。<br><br>また借金のある者が期日到達の際借替えすれば小康を得るが、借替えをやめ一時に返済をすれば苦しむがその後に至って安定するのも同様の理である。<br><br> この理によって、真に無肥料栽培の偉力を発揮させるには、種子も土壌も全然肥毒が消失してからであって、それにはどうしても二、三年を要するのである。<br><br>しかし割合肥毒の少ない土壌または新規開拓地等は、最初から増収を得る場合も相当ある。<br><br> 要は、汚穢のない最も清浄なる土壌であらねばならない。<br><br>それによって驚くほどの効果を挙げ得るのである。<br><br>故に無肥料栽培が全国的に行われるとすれば五割の増収は容易であり、農民の収入は現在の倍額となり、労働時間は現在の半分で済む事になろう。<br><br> 以上が五六七（みろく）の代（よ）の農耕と、そうして農民の生活状態である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Dificuldades Iniciais da Agricultura Natural</h2>
 <p>É voz corrente entre os agricultores que iniciam a prática da agricultura sem adubos que, nos primeiros meses, a maioria das culturas apresenta um desenvolvimento insatisfatório. Os caules mostram-se finos, as folhas, amareladas, e, em comparação com as lavouras adubadas, o aspecto geral é de grande inferioridade. Relata-se, inclusive, que a preocupação de alguns chega a ser tão intensa que lhes tira o sono. A esse respeito, desejo oferecer uma orientação.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Com base nesse princípio, para que a Agricultura Natural manifeste seu grandioso poder, é imprescindível que tanto as sementes quanto o solo estejam completamente livres da intoxicação por adubos. Para tanto, são necessários, invariavelmente, dois ou três anos. Todavia, em solos com menor grau de contaminação ou em terras recém-desbravadas, não são raros os casos em que se obtém um aumento da produção desde a primeira safra.</p>
 <p>O ponto crucial é que o solo deve ser isento de impurezas, em seu estado mais puro. Atingindo essa condição, é possível obter resultados surpreendentes. Por conseguinte, se a Agricultura Natural for implementada em escala nacional, um aumento de 50% na produção agrícola será facilmente alcançado. A renda dos agricultores dobrará, e a jornada de trabalho poderá ser reduzida à metade.</p>
 <p>Esta é a agricultura da Era de Miroku (五六七の代) e este é o estado de vida reservado aos agricultores nesse tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無肥栽培の報告を読んで 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 初めて無肥料栽培を実施した作物の、そのほとんどは最初の数ケ月は、発育が悪く、茎も細く葉も黄色で、有肥の田畑と較べてすこぶる見劣りがする。<br/><br/>という事は試作者の異口同音に唱える声で、中には夜も寝られない程心配する者さえあるという事実で、これについて私は注意を与えたいのである。<br/><br/> 元来、無肥料栽培といっても、その耕作する土壌もまた種子も全然肥毒のないものはない。<br/><br/>長年の肥毒のため両方とも極端に変質しているのである。<br/><br/>それがため土壌本来の性能を発揮する力を失っている。<br/><br/>それと共に種子の方も土壌の真の成分を吸収する力がない。<br/><br/>何となれば肥料を吸収すべく変質しているからである。<br/><br/>この理由としては、いかなる物質といえども対象物に適応すべき変質するのが原則である。<br/><br/>たとえ、誤った対象物であっても絶えず繰返すにおいて、それに適応するようになるのである。<br/><br/>これがいわゆる中毒である。<br/><br/> 以上の理によって、急激に無肥料になった場合、土壌本来の性能を直に発揮し得ない。<br/><br/>といって今までのごとく吸収すべく肥料もない、という理由によって一時衰弱するのである。<br/><br/>しかるに一定時を過ぎると、肥毒は漸次消失すると共に、その入れ替りに土はその本質に還元するのである。<br/><br/>それと同様種子の方も肥毒の消滅によって、土性〔壌〕を吸収する本来の機能が活動を始めるので、両々（りょうりょう）あいまって収穫前頃俄然として本来の生育力を発揮するのである。<br/><br/> そうして中毒症状は、ひとり植物のみではない。<br/><br/>動物においても同様である。<br/><br/>例えば飲酒家が禁酒し、煙草喫みが禁煙をすれば一時は呆然として活動力が減殺する。<br/><br/>下剤常習者が便秘症となり、消化薬常習者が胃弱者となり、解熱剤常習者がやめると一旦高熱が出るという事や、モルヒネ中毒コカイン中毒者も同様の現象を呈するにみても明らかである。<br/><br/>また借金のある者が期日到達の際借替えすれば小康を得るが、借替えをやめ一時に返済をすれば苦しむがその後に至って安定するのも同様の理である。<br/><br/> この理によって、真に無肥料栽培の偉力を発揮させるには、種子も土壌も全然肥毒が消失してからであって、それにはどうしても二、三年を要するのである。<br/><br/>しかし割合肥毒の少ない土壌または新規開拓地等は、最初から増収を得る場合も相当ある。<br/><br/> 要は、汚穢のない最も清浄なる土壌であらねばならない。<br/><br/>それによって驚くほどの効果を挙げ得るのである。<br/><br/>故に無肥料栽培が全国的に行われるとすれば五割の増収は容易であり、農民の収入は現在の倍額となり、労働時間は現在の半分で済む事になろう。<br/><br/> 以上が五六七（みろく）の代（よ）の農耕と、そうして農民の生活状態である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

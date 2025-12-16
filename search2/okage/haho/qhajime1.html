@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhajime1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 初めて知らされた薬毒の恐ろしさ 『栄光』139号、昭和27(1952)年1月16日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 福岡県 光宝大教会 野口スミ（25） 私は今まで通りであれば後一年と生命のなかった体を今度明主様の御力でお救い戴いた者でございます。<br><br> 幼少の頃より膀胱カタル、腎臓炎、盲腸炎、肺炎、中耳炎、関節炎等とあらゆる病気にかかっていた私でございます。<br><br>そして三年程前から急に食欲がなくなり、日に一杯の御飯さえ頂けなくなりました。<br><br>家の者はいろいろと心配して何かと心づけてくれましたが、全然効果がありませんでした。<br><br>遂に昨年の六月よけ、肋膜炎との診断を受け、病床に臥す身となりました。<br><br>初めはさほどではなかったらしい症状が、昨年五月の末には医師も首をひねる程になりました。<br><br>今から考えますと薬毒の為に衰弱したのだという事が分りますが、当時はこれだけ治療しているのにどうして快方に向わないものだろうかと口には出さなくても心では日夜煩悶しておりました。<br><br>食事は依然として少しもほしくなく、まるで砂をかむようで、ただ注射と薬に明け暮れておりました。<br><br>母も私の事の心配や過労で血圧が高くなり、不眠症になって薬よ鍼よといろいろの手当を致しておりました。<br><br> ちょうどその頃、御近所に吉冨さんと言うとても重病の方が元気になられ、母が驚いて尋ねに行きますと、この有難い光明如来様のお救いを戴かれたとの御話でございました。<br><br>それでかねてお勧め下さっていた持田さんの御紹介で座談会に参りました時、ただ一回の御浄霊でとても良く眠るようになり、それより母は毎日教会にお参りするようになりました。<br><br>それから母の症状が日一日とぐんぐんと良くなってまいりました。<br><br>でも私は一種の精神作用だとばかり思っており母がどんなにすすめてもいつもせせら笑っておりました。<br><br>今から考えると誠に勿体なくて、ほんとに相済まない事でございます。<br><br>母は七月十四日に入信いたし、それからは一層私にすすめるのでした。<br><br>『栄光』新聞や『地上天国』を枕元にもって来たり、『神示の健康法』の御神書をお借りしてきたりしましたが、私は手にも取りませんでした。<br><br>母が余りすすめますので御浄霊をいやいやながら半ば嘲笑的な気持で十日程母より頂きました。<br><br>母がどんなに言っても私はその間消化薬と栄養剤はどうしてもはなせなかったのです。<br><br>すると肩がこり腹部が張ったりして益々悪くなっていると思い、御浄化の事を信じられなかった私はとうとう途中でやめて仕舞いました。<br><br>下剤をかけ、その後は薬をあびる程のみました。<br><br>それから一週間程たった八月九日の晩に六回程真っ白な泡粒の様なものを吐きました。<br><br>今考えますとそれは大量の薬毒だったのでございます。<br><br>信じてお受けしたのではなく、半ば強制されたその上に薬をのみながら御浄霊をいただいた私でも、神様は公平に毒を出して下さいましたのでございます。<br><br>ほんとに有難い事でございます。<br><br>母はすぐ御浄化だと気づき、私に御浄霊をしてくれたのでございます。<br><br>六回程吐いてくたくたになり、身動きもできなかった私が御浄霊ですっかり気分が良くなると共に心の中には、いつしか御浄霊を御受けしようという気持が出て参りました。<br><br>翌十日の朝は御飯の味が少し出て二杯程いただきました。<br><br>十一日に初めて母につれられて教会にお参りし、先生から御浄霊を頂きましたが、その時に「大丈夫すっかり良くなって元気になりますよ」との御言葉に真暗であった私の心の中に一筋の光明と安心感が出て参りました。<br><br>殊に胃は握飯をはめたように固くふくれ、腸は板をつけたように固り、全く薬毒の為にその働きが出来なくなってる事を悟らせて頂きました。<br><br>一、二回の御浄霊で御飯も今までになくおいしく人並以上に頂ける様になりました。<br><br> そして一年半ぶりに自分で床も上げさせて頂きました。<br><br>医学迷信にかかっておられる世の人がこの教えに入られる時の心境も私と同じであろうと思います。<br><br>だんだん御浄霊を続けさせていただいている内に胃も腸も薬毒が溶けて柔らかになり、形まで変って人並の身体の様になって参りました。<br><br>ある時は高熱が出て全身がむくみ、ある時は教会で二度も卒倒したり、胸が痛み頭がしびれた事がありました。<br><br> この間、薬毒を粟粒の様な唾液や牛乳の様な小水として絶えず出させて頂きました。<br><br> 初め健康にする為に次から次へとのみました薬を神様は広大な御光によりたやすく楽に出して下さいました。<br><br>今更ながら今の世の人がいかに間違った道に迷っているかという事を分らせて頂きました。<br><br> 私も八月二十三日にこの有難い御神力を戴き、それ以来感謝の日々を送っております。<br><br> 今では少々走ってもさして体にこたえないようになり、洗濯や炊事等も人並に働かせて頂き、しみじみと健康の有難さを覚らせていただきました。<br><br>何のとりえもない罪穢れの多い私を、明主様の偉大な御霊徳で御救いを頂き、これからは迷った道で苦しんでおられる方々に一人でも多くこの有難い御道の事を御伝えさせて頂きたいと思っております。<br><br>最近も喘息で苦しんでいられた方が御救いを頂き、感謝の中に入信致されました。<br><br> 以上の事実の前に感激致しました無神論者の父が、早速御参りさせて頂きまして間もなく入信させて戴きました。<br><br> 誠に何と御礼申し上げてよいか分りません。<br><br> 明主様有難うございました。<br><br> この上は新しく頂いた命を新しい御代の建設に身心共におつかい戴きとうございます。<br><br> 重ねて明主様御礼を申し上げます。<br><br> 誠に有難うございました。<br><br> （昭和二十六年十一月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A terrível verdade sobre o yakudoku, que me foi revelada</h2>
 <p>(Publicado na revista “Glória” n.º 139, de 16 de janeiro de 1952)
@@ -114,5 +269,48 @@ Meishu-Sama, muito obrigada.</p>
 <p>Reitero meus mais profundos agradecimentos a Meishu-Sama.
 Muito, muito obrigada.</p>
 <p>(1º de novembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 初めて知らされた薬毒の恐ろしさ 『栄光』139号、昭和27(1952)年1月16日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 福岡県 光宝大教会 野口スミ（25） 私は今まで通りであれば後一年と生命のなかった体を今度明主様の御力でお救い戴いた者でございます。<br/><br/> 幼少の頃より膀胱カタル、腎臓炎、盲腸炎、肺炎、中耳炎、関節炎等とあらゆる病気にかかっていた私でございます。<br/><br/>そして三年程前から急に食欲がなくなり、日に一杯の御飯さえ頂けなくなりました。<br/><br/>家の者はいろいろと心配して何かと心づけてくれましたが、全然効果がありませんでした。<br/><br/>遂に昨年の六月よけ、肋膜炎との診断を受け、病床に臥す身となりました。<br/><br/>初めはさほどではなかったらしい症状が、昨年五月の末には医師も首をひねる程になりました。<br/><br/>今から考えますと薬毒の為に衰弱したのだという事が分りますが、当時はこれだけ治療しているのにどうして快方に向わないものだろうかと口には出さなくても心では日夜煩悶しておりました。<br/><br/>食事は依然として少しもほしくなく、まるで砂をかむようで、ただ注射と薬に明け暮れておりました。<br/><br/>母も私の事の心配や過労で血圧が高くなり、不眠症になって薬よ鍼よといろいろの手当を致しておりました。<br/><br/> ちょうどその頃、御近所に吉冨さんと言うとても重病の方が元気になられ、母が驚いて尋ねに行きますと、この有難い光明如来様のお救いを戴かれたとの御話でございました。<br/><br/>それでかねてお勧め下さっていた持田さんの御紹介で座談会に参りました時、ただ一回の御浄霊でとても良く眠るようになり、それより母は毎日教会にお参りするようになりました。<br/><br/>それから母の症状が日一日とぐんぐんと良くなってまいりました。<br/><br/>でも私は一種の精神作用だとばかり思っており母がどんなにすすめてもいつもせせら笑っておりました。<br/><br/>今から考えると誠に勿体なくて、ほんとに相済まない事でございます。<br/><br/>母は七月十四日に入信いたし、それからは一層私にすすめるのでした。<br/><br/>『栄光』新聞や『地上天国』を枕元にもって来たり、『神示の健康法』の御神書をお借りしてきたりしましたが、私は手にも取りませんでした。<br/><br/>母が余りすすめますので御浄霊をいやいやながら半ば嘲笑的な気持で十日程母より頂きました。<br/><br/>母がどんなに言っても私はその間消化薬と栄養剤はどうしてもはなせなかったのです。<br/><br/>すると肩がこり腹部が張ったりして益々悪くなっていると思い、御浄化の事を信じられなかった私はとうとう途中でやめて仕舞いました。<br/><br/>下剤をかけ、その後は薬をあびる程のみました。<br/><br/>それから一週間程たった八月九日の晩に六回程真っ白な泡粒の様なものを吐きました。<br/><br/>今考えますとそれは大量の薬毒だったのでございます。<br/><br/>信じてお受けしたのではなく、半ば強制されたその上に薬をのみながら御浄霊をいただいた私でも、神様は公平に毒を出して下さいましたのでございます。<br/><br/>ほんとに有難い事でございます。<br/><br/>母はすぐ御浄化だと気づき、私に御浄霊をしてくれたのでございます。<br/><br/>六回程吐いてくたくたになり、身動きもできなかった私が御浄霊ですっかり気分が良くなると共に心の中には、いつしか御浄霊を御受けしようという気持が出て参りました。<br/><br/>翌十日の朝は御飯の味が少し出て二杯程いただきました。<br/><br/>十一日に初めて母につれられて教会にお参りし、先生から御浄霊を頂きましたが、その時に「大丈夫すっかり良くなって元気になりますよ」との御言葉に真暗であった私の心の中に一筋の光明と安心感が出て参りました。<br/><br/>殊に胃は握飯をはめたように固くふくれ、腸は板をつけたように固り、全く薬毒の為にその働きが出来なくなってる事を悟らせて頂きました。<br/><br/>一、二回の御浄霊で御飯も今までになくおいしく人並以上に頂ける様になりました。<br/><br/> そして一年半ぶりに自分で床も上げさせて頂きました。<br/><br/>医学迷信にかかっておられる世の人がこの教えに入られる時の心境も私と同じであろうと思います。<br/><br/>だんだん御浄霊を続けさせていただいている内に胃も腸も薬毒が溶けて柔らかになり、形まで変って人並の身体の様になって参りました。<br/><br/>ある時は高熱が出て全身がむくみ、ある時は教会で二度も卒倒したり、胸が痛み頭がしびれた事がありました。<br/><br/> この間、薬毒を粟粒の様な唾液や牛乳の様な小水として絶えず出させて頂きました。<br/><br/> 初め健康にする為に次から次へとのみました薬を神様は広大な御光によりたやすく楽に出して下さいました。<br/><br/>今更ながら今の世の人がいかに間違った道に迷っているかという事を分らせて頂きました。<br/><br/> 私も八月二十三日にこの有難い御神力を戴き、それ以来感謝の日々を送っております。<br/><br/> 今では少々走ってもさして体にこたえないようになり、洗濯や炊事等も人並に働かせて頂き、しみじみと健康の有難さを覚らせていただきました。<br/><br/>何のとりえもない罪穢れの多い私を、明主様の偉大な御霊徳で御救いを頂き、これからは迷った道で苦しんでおられる方々に一人でも多くこの有難い御道の事を御伝えさせて頂きたいと思っております。<br/><br/>最近も喘息で苦しんでいられた方が御救いを頂き、感謝の中に入信致されました。<br/><br/> 以上の事実の前に感激致しました無神論者の父が、早速御参りさせて頂きまして間もなく入信させて戴きました。<br/><br/> 誠に何と御礼申し上げてよいか分りません。<br/><br/> 明主様有難うございました。<br/><br/> この上は新しく頂いた命を新しい御代の建設に身心共におつかい戴きとうございます。<br/><br/> 重ねて明主様御礼を申し上げます。<br/><br/> 誠に有難うございました。<br/><br/> （昭和二十六年十一月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

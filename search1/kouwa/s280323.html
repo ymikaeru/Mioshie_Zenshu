@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280323</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S28年3月23日） 『御教え集』20号、昭和28(1953)年4月15日発行 『栄光』206号、4月29日発行に掲載 昭和二十八年三月二十三日（１日目） 今日は随分大勢ですね。<br><br>人間というものはよく融通がつくものと思います。<br><br>やっぱり弾力性があるのでしょう。<br><br> 今日はお祭りですから簡単にお話しします。<br><br> 今さら言うまでもありませんが、救世教というものは、つまり大きな革命運動です。<br><br>一口に言うと世界文化の革命です。<br><br>いろんな間違った文化を革命するのです。<br><br>つまり間違った文化のためにいろいろな悩み苦しみが満ち満ちているので、そのためによけいなことをして、よけいな金を使ったり骨を折ったりして苦しんで、世の中を悪くするので、今の文化は要するに愚かです。<br><br>吉田さんが「馬鹿野郎」と言ったのは、今の文化を言ったと言っても良いです。<br><br>確かに「馬鹿野郎の世界」です。<br><br>しかしこっちが言うのは吉田さんより大きいのです。<br><br>実に世界中が馬鹿野郎になってます。<br><br>それをもっと利巧になるように引き上げるという、これが救世教です。<br><br> 救世教と言うと宗教ですが、引き上げるための宗教的の一種の手段です。<br><br>宗教という手段でやるというのが一番良いことと、また、今までにない革命ですから、それよりほかに方法がないわけです。<br><br>だから宗教的にやるよりほかにやりようがないのです。<br><br>ですから救世教としては、宗教というものを利用し、一つの手段としているのです。<br><br>従ってミロクの世になれば宗教というものはなくなるのです。<br><br>というのは、宗教の必要がないからです。<br><br>つまり医学がなくなるのと同じことです。<br><br>だからそれまでの救世教です。<br><br>悪い世の中だから救うというので「救世」ですが、良い世の中ならば救う必要はないのです。<br><br>それはまた形が違うわけです。<br><br>良い世の中をいっそう良い世の中にするというわけです。<br><br>今の世の中は、実は良いと思ってやっていることが逆になっているわけです。<br><br>薬をのんで病気を良くしようということが、反対に薬で病気を悪くするということになるので、どんなことにもそういうことがあります。<br><br>この間違えているというその根本はなにかと言うと、霊を認めなかったことです。<br><br> 今度『救世教奇蹟集』という本が大体できあがりましたから印刷にかかりますが、二、三カ月先に出版の予定であります。<br><br>この奇蹟というものは誰がやるかと言うと、勿論神様がやられるのですが、「ではなんの目的だ」漠然と「奇蹟だ、不思議だ不思議だ」と言って驚いているばかりが能ではないので、やっぱりそういう奇蹟を現わすということは、神様の方の大きな目的がなければならないのです。<br><br>では、その目的とはなにかと言うと、霊を認めさせることです。<br><br>霊を知らせることです。<br><br>だから霊の方が分かれば、「奇蹟」という言葉はなくなるのです。<br><br>奇蹟ではなくてあたりまえのことになるからです。<br><br>しかし霊ということを認めないから、ああいう変わった、あり得べからざることがあるのです。<br><br>断崖から落ちて怪我一つしないとか、自動車や汽車に衝突して跳ね飛ばされても助かるという、あり得べからざることは、つまり霊の方で助かるから、体の方は大丈夫なのです。<br><br>要するに霊主体従の法則です。<br><br>それは奇蹟によるよりほかに認めさせようがないのです。<br><br>大病人を浄霊してなおるのは、霊の力ということですから、霊を認めさせるというために、神様は……神様が認めさせるわけではなくて、神様の方から言えばあたりまえのことをするのです。<br><br>ところが、今までの人間で霊を認めていない人はたくさんおり、また霊を認めていても霊の働きを知らない人がほとんどです。<br><br>それは宗教家とか、そういうことに関心を持っている人は、霊の実在は分かっているが、ただ霊が分かるだけのことで、ではどういう働きをするかというところまでは、まだ分かっていないのです。<br><br>ただそういった霊の力が現われた場合、物質的には実に不思議に思われますから、それで不思議だという、それに刺激を受けて考える。<br><br>そこで霊界があり、霊があり、霊の働きはこういうものだ、という説明を受けて、なるほどと思うということになるのです。<br><br>奇蹟というのは、霊を知らせるという第一歩です。<br><br>そういうことを、今度の『救世教奇蹟集』に書きました。<br><br>そうして実例として百例を挙げました。<br><br>病気以外のいろいろな奇蹟を七十、病気に関しては三十です。<br><br>病気の方は今までのいろいろな本に出てますから、少し減らして三十とし、合計で百例にして載せてあります。<br><br>今までに『栄光』に出た奇蹟を見直すと、実際、驚くべき奇蹟です。<br><br>私はその当時読んだが、ほとんど忘れてしまっているのです。<br><br>今読んでびっくりしているわけです。<br><br>ですからこれが本になって出れば、またたいへんな問題になるだろうと思います。<br><br>キリストの「ビッコを歩くようにした」とか「盲の目を開けた」ということが、今もってキリスト教の方の一つのたいへんな自慢になっているのですが、それと比べたら、今度の『奇蹟集』の奇蹟は何倍上か分からないくらいです。<br><br>これも勿論翻訳して世界中に出すつもりです。<br><br> また『結核信仰療法』の方も問題にならざるを得ないと思います。<br><br>これをお医者なり、あるいはそういうことに関係のある学者などの専門的の人が見たら、黙ってはいられないと思います。<br><br>「医学が結核を作る」ということでも、仮に政府の当局者が見たらたいへんなことになります。<br><br>とにかく結核は医学によって解決しようとして、いろいろな手段を尽くし、法律まで出してやっており、たいへんなものですが、それがかえって結核を作るものだということを、天下に発表したとすると、黙ってはいられないです。<br><br>しかしそれを突っ込んでくることはできないのです。<br><br>と言って黙っていると黙認したことになります。<br><br>それから「結核は感染しない」ということも、結核は感染するという建前で、消毒だとかなんだとか、いろいろやって大騒ぎをやってますが、それを感染しないとなると、当局のやり方をぜんぜん叩きつけたようなやり方ですから、これもなんとか先方で言わなければ認めたことになりますから、そうなると変なことになります。<br><br>だからとにかく、これからあっちの方の人たちが首をひねって相談をしたり、溜息をついているのではもう追いつかないので、なんとかしてやっつけたいが、それはちょっと難しいのです。<br><br>なぜ難しいかというと、私の方で書いてある本には、少しばかりも突っ込むところがないのです。<br><br>とにかく横綱の前で、子供が前から取り組んで来るようなものですから、先方に勝ち目はないのです。<br><br>そうかといってこれを黙っていると、当局や専門家の面目にかかわるし、そうしてまた問題はたいへんな問題です。<br><br>考えてみれば実際大きな問題です。<br><br>こんな無鉄砲……では変ですが、こんな大胆なことをした人は今までにないでしょう。<br><br>そうかといって、こっちは理論と実際との両方で行くのです。<br><br>実際はこうだ、結核菌という物の根本はこうだ、こういう物から発生していると言っているのです。<br><br>つまり先方は菌だけを発見して大騒ぎをしますが、こっちは菌の根元をうち開けてありますから、喧嘩のしようがないのです。<br><br>先方に勝ち目はないのです。<br><br>だから正面きってぶつかってくるということはできますまい。<br><br>そこで黙っているということもできないというジレンマに陥るでしょう。<br><br>彼らの方はどういう態度に出てくるかということが、興味あることです。<br><br>それで最後には病院に行って、私が片端から浄霊をやってやるとか、医者との質疑応答でも、たくさん集めて疑問に思う所はどんどんこっちで教えてやります。<br><br>そうすると、先方ではどうにもしようがなくなると思います。<br><br>それでやっつけられないとすればカブトをぬぐよりないのです。<br><br>カブトをぬぐというと、医学の方の法規を急に改正することはできないが、本当にやれば「医学禁止法案」というものを作らなければならないのです。<br><br>そうすると、今日の再軍備問題によって、憲法を改正しなければできないというより、もっと大きな問題になるだろうと思います。<br><br>やはり医学を禁止するということは、憲法改正にまで行くかも分かりません。<br><br>結局はどうしてもそこに行かなければ追いつきません。<br><br>しかしこれは、あえて私がやるわけではなく、神様がやるのですが、神様はどういうような結末をつけるかということが、大いに興味ある問題で、私も今から楽しみにしてます。<br><br> それからもう一つの農業革命の自然栽培も大きな問題になります。<br><br>しかしこの方は簡単です。<br><br>肥料をやらないということだけで、なんでもない話です。<br><br>ただ、それが分かって実行するというだけのことですから、医学の方とは比較にはなりません。<br><br>これは殊によると、数年ならずしてそういう世論になってしまうかも分かりません。<br><br>そうしたら、これだけでもたいへんな問題であるし、また救世教というものが、いかに本当に救う宗教であるかということが分かるのです。<br><br>そうして、この肥料問題はひとり日本ばかりでなく、世界的のものです。<br><br>よく調べてみると、肥料をたくさん使うのは日本が一番だそうです。<br><br>ロクでもないことで一番のことが日本にはたくさんあります。<br><br>そうでしょう、日本は糞尿というものがあるが、外国にはなかったでしょうから、ほかは世界並でしょうが、糞尿だけが日本は多くなるから、世界一になるわけです。<br><br>それから薬も世界一だそうです。<br><br>アメリカはあんなに薬で大騒ぎをやっているが、日本の方がずっと多いそうです。<br><br>それはアメリカには漢方薬がないのです。<br><br>これも肥料と同じで倍になります。<br><br> 今言ったような二つの革命は、たいへんに大きな革命です。<br><br>ほかの問題についてもいずれ本を出すつもりです。<br><br>政治の問題、教育の問題ということもだんだんに発表します。<br><br> 教育の問題にしても、教団の方で学校を作って、実際に見せなければならないことになります。<br><br>これはいずれだんだんにやって行きます。<br><br>今日の教育は、子供のうちからやりすぎるのです。<br><br>ほかのことは別として一言だけ言っておきますが、教育は十二歳からやるのです。<br><br>その前にやってはいけないのです。<br><br>今の人間は非常に頭が悪いのですが、これは早期教育のためなのです。<br><br>というのは、人間はある程度頭の組織ができるのに十二歳くらいまでかかるのです。<br><br>それをもっと早く頭を使うと、頭がそこまでできないうちに発育が止まってしまうのです。<br><br>ちょうど労働と同じようなもので、労働はやはり青年になって初めてどんな労働でもできるのです。<br><br>それを十一か十二の子供に労働させると、発育が止まるのです。<br><br>それについて私は前に柔道をやった時に、十五歳以下は柔道をやってはいけないということでした。<br><br>それは背の発育が止まるからです。<br><br>ですから柔道の先生などは割に背が低いのです。<br><br>横は張っているが背は低いのでも分かります。<br><br>それはつまり肉体的の発育が止まるのです。<br><br>それと同じで、頭脳もあまり完成しないうちに使うと発育が止まるのです。<br><br>ですから働きが悪くなるのです。<br><br>そういうわけで十二歳まで遊ばしておいて、それからやると非常に覚えが良いのです。<br><br>ですから今までよりか倍くらい良くなるのです。<br><br>十二歳からで、小学三年、中学三年、大学三年と、それだけやれば充分です。<br><br>ところがそういうことを知らないから、早期教育をやるのです。<br><br>それこそ今は小学校の生徒などでも、いろいろと難しいことを教え込むのです。<br><br>ですからつまり子供を早く大人にしようというやり方です。<br><br>今の子供をご覧なさい、以前ならちょうど親父が言うようなことを言ってます。<br><br>子供の大人を作っているのです。<br><br>早く大人にするのを良いとしているのです。<br><br>だからちょっと見るとたいへんませていて良いようだが、肝腎の頭脳の発育を止めてしまうのです。<br><br>だから後になって本当に大人になるに従って、言わば耄碌（もうろく）が早くなります。<br><br>そういうことがたいへんな間違いです。<br><br>そこでそういう教育をするには学校を作らなければならないのです。<br><br>ところが今では「文部省令」にぶつかります……。<br><br>十二まで遊ばせておくということがたいへんな問題になります。<br><br>ですからそういうことをやるにも、救世教なるものは、たとえてみれば自然栽培というこれによって増産になり、これはたいへんなものだと言って先方で頭を下げるという時代になれば、教育もこれでなければいけないと言うと、それではこれが本当だろうということになります。<br><br>それが時期です。<br><br> それから今年の美術館は去年とはだいぶ違って、今度の別館で浮世絵展をやりますが、これはみんな知っているでしょう。<br><br>そのほかに外国の物で、エジプト、ギリシア、ペルシア、インド、勿論中国もですが、そういう美術品をたぶん一室全部に陳列するつもりです。<br><br>そういう外国の美術品展は日本にあるにはあるが、そういう美術館式のものはないのです。<br><br>不思議なことに博物館でもやらないのです。<br><br>博物館はやはり日本美術を紹介するというのが主眼だそうで、外国の美術品は軽視して手を出さなかったのです。<br><br>と言って、今のところほかには勿論ありません。<br><br>それですから割合隠れているのです。<br><br>それは神様がやるのですから、今年になって不思議にそういう物が手にはいってくるのです。<br><br>美術館の一室をいっぱいにするくらいは集まったのです。<br><br>そういう物はみんなは知らないから買い手がないので安いのです。<br><br>今に高くなります。<br><br>なにしろ二千年三千年前の物でなかなかおもしろい物があります。<br><br>今度出ますから見れば分かります。<br><br>ですからこれだけは日本一と、最初からいばれます。<br><br>あんがい注目されるだろうと思ってます。<br><br> 浮世絵の方も、おそらく今までの浮世絵展としては一番だろうと思います。<br><br>また実に良い物が集まったのです。<br><br>これも神様がやられているのですが、割合安く、非常に奇蹟的に集まったのです。<br><br>美術館も去年あたりはまだ世の中がほとんど知らなかったが、だんだん知るに従って、今年はそうとう見物に来るだろうと思ってます。<br><br>博物館でもなかなか援助してくれてます。<br><br>私の方のをすっかり見て、不足している分だけは博物館の品物を貸してくれるそうです。<br><br>そういうようで美術館の方も今年はいっそう充実して、去年より見応えがあるものができるわけです。<br><br>それから別館もでき、すっかり整頓しますから気持ちが良いです。<br><br>去年のようなガタガタした所がすっかりきれいになりますから、大いに楽しみにして良いと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Revolução da Verdadeira Cultura</h2>
 <p>É um grande público que vejo hoje. Creio que o ser humano é, de fato, bastante flexível. Possui, certamente, uma grande capacidade de adaptação. Por ser hoje um dia de celebração, serei breve em minhas palavras.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>No que tange à educação, será necessário que a própria Igreja construa escolas para demonstrar nosso método na prática. Isso será feito gradualmente. O erro da educação atual é o excesso de ensino na primeira infância. Sem me aprofundar em outros aspectos, direi apenas uma coisa: a educação deve começar aos doze anos de idade. Antes disso, não se deve ensinar. A capacidade intelectual reduzida do homem moderno se deve justamente à educação precoce. O cérebro humano leva cerca de doze anos para atingir um certo grau de desenvolvimento estrutural. Forçar o uso do cérebro antes desse período interrompe seu desenvolvimento prematuramente. É um princípio semelhante ao do trabalho físico. Um jovem pode realizar qualquer tipo de trabalho pesado, mas se uma criança de onze ou doze anos for submetida a tal esforço, seu crescimento físico será prejudicado. Lembro-me de quando pratiquei judô: era proibido para menores de quinze anos, pois se dizia que a prática impedia o crescimento da estatura. De fato, é comum que os mestres de judô sejam relativamente baixos. São largos de ombros, mas baixos, o que comprova a tese. O desenvolvimento físico é interrompido. O mesmo ocorre com o cérebro: usá-lo antes que esteja plenamente formado interrompe seu desenvolvimento e, consequentemente, reduz sua capacidade. Por isso, se deixarmos as crianças brincarem livremente até os doze anos e iniciarmos os estudos a partir de então, a capacidade de aprendizado será imensa, talvez o dobro da atual. A partir dos doze anos, três anos de ensino fundamental, três de ensino médio e três de universidade seriam mais do que suficientes. Mas, por ignorarem esse princípio, insistem na educação precoce. Hoje, ensinam coisas complicadíssimas até mesmo para alunos do primário. É uma tentativa de transformar crianças em adultos o mais rápido possível. Observem as crianças de hoje: elas falam coisas que, antigamente, ouviríamos apenas de nossos pais. Estamos criando crianças-adultas, acreditando que amadurecê-las cedo é algo bom. À primeira vista, elas parecem precoces e inteligentes, mas o que ocorre na verdade é a interrupção do desenvolvimento de seu cérebro. Como resultado, mais tarde, à medida que se tornam verdadeiramente adultas, o declínio cognitivo precoce se manifesta. Esse é um erro gravíssimo. Para implementar um novo método educacional, teremos que construir nossas próprias escolas. Contudo, hoje, esbarramos nas normativas do Ministério da Educação. A ideia de deixar as crianças brincarem até os doze anos se tornaria um grande problema. Para que isso seja viável, será preciso que a Sekaikyuseikyou primeiro demonstre seu valor em outras áreas. Quando a Agricultura Natural, por exemplo, gerar um aumento de produção tão espetacular que eles próprios venham a nós e se curvem em reconhecimento, então, quando dissermos que a educação também deve seguir nossos princípios, eles nos ouvirão e dirão: “Deve ser verdade”. Esse será o momento certo.</p>
 <p>Por fim, o Museu de Arte deste ano será bastante diferente do ano passado. Como todos devem saber, teremos uma exposição de Ukiyo-e no anexo recém-construído. Além disso, pretendemos dedicar provavelmente uma sala inteira a obras de arte estrangeiras, com peças do Egito, Grécia, Pérsia, Índia e, claro, da China. Embora existam exposições de arte estrangeira no Japão, não há nada no formato de uma coleção permanente como a nossa. Curiosamente, nem mesmo os museus nacionais se dedicam a isso. Aparentemente, o foco principal deles é a divulgação da arte japonesa, e por isso negligenciaram a aquisição de obras estrangeiras. Sendo assim, nosso acervo, até o momento, é único e permanecia relativamente desconhecido. Contudo, por ser uma Obra Divina, essas peças começaram a chegar até nós de forma misteriosa neste ano. Já reunimos o suficiente para preencher uma sala inteira do museu. Como o público em geral não conhece o valor dessas obras, não há muitos compradores, e os preços são baixos. Em breve, elas se valorizarão. Temos peças fascinantes, algumas com dois ou três mil anos de idade. Poderão vê-las na próxima exposição. Portanto, desde já, podemos nos orgulhar de ter a melhor coleção do Japão nesse segmento. Creio que ela atrairá bastante atenção.</p>
 <p>A exposição de Ukiyo-e também será, provavelmente, a maior e melhor já realizada até hoje. Reunimos obras de qualidade excepcional. Isso também é obra de Deus, pois conseguimos adquiri-las de forma quase milagrosa e a preços relativamente baixos. Até o ano passado, o museu era pouco conhecido, mas, à medida que sua fama cresce, esperamos um número considerável de visitantes este ano. Até mesmo os museus nacionais têm nos oferecido apoio. Eles visitaram nosso acervo e se ofereceram para emprestar peças de suas coleções para complementar o que nos falta. Assim, a programação do museu este ano será ainda mais rica e impressionante que a do ano anterior. Com a conclusão do anexo, todo o espaço será reorganizado e se tornará muito mais agradável. As áreas que estavam improvisadas no ano passado estarão impecavelmente arrumadas. Portanto, creio que podem aguardar com grande expectativa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S28年3月23日） 『御教え集』20号、昭和28(1953)年4月15日発行 『栄光』206号、4月29日発行に掲載 昭和二十八年三月二十三日（１日目） 今日は随分大勢ですね。<br/><br/>人間というものはよく融通がつくものと思います。<br/><br/>やっぱり弾力性があるのでしょう。<br/><br/> 今日はお祭りですから簡単にお話しします。<br/><br/> 今さら言うまでもありませんが、救世教というものは、つまり大きな革命運動です。<br/><br/>一口に言うと世界文化の革命です。<br/><br/>いろんな間違った文化を革命するのです。<br/><br/>つまり間違った文化のためにいろいろな悩み苦しみが満ち満ちているので、そのためによけいなことをして、よけいな金を使ったり骨を折ったりして苦しんで、世の中を悪くするので、今の文化は要するに愚かです。<br/><br/>吉田さんが「馬鹿野郎」と言ったのは、今の文化を言ったと言っても良いです。<br/><br/>確かに「馬鹿野郎の世界」です。<br/><br/>しかしこっちが言うのは吉田さんより大きいのです。<br/><br/>実に世界中が馬鹿野郎になってます。<br/><br/>それをもっと利巧になるように引き上げるという、これが救世教です。<br/><br/> 救世教と言うと宗教ですが、引き上げるための宗教的の一種の手段です。<br/><br/>宗教という手段でやるというのが一番良いことと、また、今までにない革命ですから、それよりほかに方法がないわけです。<br/><br/>だから宗教的にやるよりほかにやりようがないのです。<br/><br/>ですから救世教としては、宗教というものを利用し、一つの手段としているのです。<br/><br/>従ってミロクの世になれば宗教というものはなくなるのです。<br/><br/>というのは、宗教の必要がないからです。<br/><br/>つまり医学がなくなるのと同じことです。<br/><br/>だからそれまでの救世教です。<br/><br/>悪い世の中だから救うというので「救世」ですが、良い世の中ならば救う必要はないのです。<br/><br/>それはまた形が違うわけです。<br/><br/>良い世の中をいっそう良い世の中にするというわけです。<br/><br/>今の世の中は、実は良いと思ってやっていることが逆になっているわけです。<br/><br/>薬をのんで病気を良くしようということが、反対に薬で病気を悪くするということになるので、どんなことにもそういうことがあります。<br/><br/>この間違えているというその根本はなにかと言うと、霊を認めなかったことです。<br/><br/> 今度『救世教奇蹟集』という本が大体できあがりましたから印刷にかかりますが、二、三カ月先に出版の予定であります。<br/><br/>この奇蹟というものは誰がやるかと言うと、勿論神様がやられるのですが、「ではなんの目的だ」漠然と「奇蹟だ、不思議だ不思議だ」と言って驚いているばかりが能ではないので、やっぱりそういう奇蹟を現わすということは、神様の方の大きな目的がなければならないのです。<br/><br/>では、その目的とはなにかと言うと、霊を認めさせることです。<br/><br/>霊を知らせることです。<br/><br/>だから霊の方が分かれば、「奇蹟」という言葉はなくなるのです。<br/><br/>奇蹟ではなくてあたりまえのことになるからです。<br/><br/>しかし霊ということを認めないから、ああいう変わった、あり得べからざることがあるのです。<br/><br/>断崖から落ちて怪我一つしないとか、自動車や汽車に衝突して跳ね飛ばされても助かるという、あり得べからざることは、つまり霊の方で助かるから、体の方は大丈夫なのです。<br/><br/>要するに霊主体従の法則です。<br/><br/>それは奇蹟によるよりほかに認めさせようがないのです。<br/><br/>大病人を浄霊してなおるのは、霊の力ということですから、霊を認めさせるというために、神様は……神様が認めさせるわけではなくて、神様の方から言えばあたりまえのことをするのです。<br/><br/>ところが、今までの人間で霊を認めていない人はたくさんおり、また霊を認めていても霊の働きを知らない人がほとんどです。<br/><br/>それは宗教家とか、そういうことに関心を持っている人は、霊の実在は分かっているが、ただ霊が分かるだけのことで、ではどういう働きをするかというところまでは、まだ分かっていないのです。<br/><br/>ただそういった霊の力が現われた場合、物質的には実に不思議に思われますから、それで不思議だという、それに刺激を受けて考える。<br/><br/>そこで霊界があり、霊があり、霊の働きはこういうものだ、という説明を受けて、なるほどと思うということになるのです。<br/><br/>奇蹟というのは、霊を知らせるという第一歩です。<br/><br/>そういうことを、今度の『救世教奇蹟集』に書きました。<br/><br/>そうして実例として百例を挙げました。<br/><br/>病気以外のいろいろな奇蹟を七十、病気に関しては三十です。<br/><br/>病気の方は今までのいろいろな本に出てますから、少し減らして三十とし、合計で百例にして載せてあります。<br/><br/>今までに『栄光』に出た奇蹟を見直すと、実際、驚くべき奇蹟です。<br/><br/>私はその当時読んだが、ほとんど忘れてしまっているのです。<br/><br/>今読んでびっくりしているわけです。<br/><br/>ですからこれが本になって出れば、またたいへんな問題になるだろうと思います。<br/><br/>キリストの「ビッコを歩くようにした」とか「盲の目を開けた」ということが、今もってキリスト教の方の一つのたいへんな自慢になっているのですが、それと比べたら、今度の『奇蹟集』の奇蹟は何倍上か分からないくらいです。<br/><br/>これも勿論翻訳して世界中に出すつもりです。<br/><br/> また『結核信仰療法』の方も問題にならざるを得ないと思います。<br/><br/>これをお医者なり、あるいはそういうことに関係のある学者などの専門的の人が見たら、黙ってはいられないと思います。<br/><br/>「医学が結核を作る」ということでも、仮に政府の当局者が見たらたいへんなことになります。<br/><br/>とにかく結核は医学によって解決しようとして、いろいろな手段を尽くし、法律まで出してやっており、たいへんなものですが、それがかえって結核を作るものだということを、天下に発表したとすると、黙ってはいられないです。<br/><br/>しかしそれを突っ込んでくることはできないのです。<br/><br/>と言って黙っていると黙認したことになります。<br/><br/>それから「結核は感染しない」ということも、結核は感染するという建前で、消毒だとかなんだとか、いろいろやって大騒ぎをやってますが、それを感染しないとなると、当局のやり方をぜんぜん叩きつけたようなやり方ですから、これもなんとか先方で言わなければ認めたことになりますから、そうなると変なことになります。<br/><br/>だからとにかく、これからあっちの方の人たちが首をひねって相談をしたり、溜息をついているのではもう追いつかないので、なんとかしてやっつけたいが、それはちょっと難しいのです。<br/><br/>なぜ難しいかというと、私の方で書いてある本には、少しばかりも突っ込むところがないのです。<br/><br/>とにかく横綱の前で、子供が前から取り組んで来るようなものですから、先方に勝ち目はないのです。<br/><br/>そうかといってこれを黙っていると、当局や専門家の面目にかかわるし、そうしてまた問題はたいへんな問題です。<br/><br/>考えてみれば実際大きな問題です。<br/><br/>こんな無鉄砲……では変ですが、こんな大胆なことをした人は今までにないでしょう。<br/><br/>そうかといって、こっちは理論と実際との両方で行くのです。<br/><br/>実際はこうだ、結核菌という物の根本はこうだ、こういう物から発生していると言っているのです。<br/><br/>つまり先方は菌だけを発見して大騒ぎをしますが、こっちは菌の根元をうち開けてありますから、喧嘩のしようがないのです。<br/><br/>先方に勝ち目はないのです。<br/><br/>だから正面きってぶつかってくるということはできますまい。<br/><br/>そこで黙っているということもできないというジレンマに陥るでしょう。<br/><br/>彼らの方はどういう態度に出てくるかということが、興味あることです。<br/><br/>それで最後には病院に行って、私が片端から浄霊をやってやるとか、医者との質疑応答でも、たくさん集めて疑問に思う所はどんどんこっちで教えてやります。<br/><br/>そうすると、先方ではどうにもしようがなくなると思います。<br/><br/>それでやっつけられないとすればカブトをぬぐよりないのです。<br/><br/>カブトをぬぐというと、医学の方の法規を急に改正することはできないが、本当にやれば「医学禁止法案」というものを作らなければならないのです。<br/><br/>そうすると、今日の再軍備問題によって、憲法を改正しなければできないというより、もっと大きな問題になるだろうと思います。<br/><br/>やはり医学を禁止するということは、憲法改正にまで行くかも分かりません。<br/><br/>結局はどうしてもそこに行かなければ追いつきません。<br/><br/>しかしこれは、あえて私がやるわけではなく、神様がやるのですが、神様はどういうような結末をつけるかということが、大いに興味ある問題で、私も今から楽しみにしてます。<br/><br/> それからもう一つの農業革命の自然栽培も大きな問題になります。<br/><br/>しかしこの方は簡単です。<br/><br/>肥料をやらないということだけで、なんでもない話です。<br/><br/>ただ、それが分かって実行するというだけのことですから、医学の方とは比較にはなりません。<br/><br/>これは殊によると、数年ならずしてそういう世論になってしまうかも分かりません。<br/><br/>そうしたら、これだけでもたいへんな問題であるし、また救世教というものが、いかに本当に救う宗教であるかということが分かるのです。<br/><br/>そうして、この肥料問題はひとり日本ばかりでなく、世界的のものです。<br/><br/>よく調べてみると、肥料をたくさん使うのは日本が一番だそうです。<br/><br/>ロクでもないことで一番のことが日本にはたくさんあります。<br/><br/>そうでしょう、日本は糞尿というものがあるが、外国にはなかったでしょうから、ほかは世界並でしょうが、糞尿だけが日本は多くなるから、世界一になるわけです。<br/><br/>それから薬も世界一だそうです。<br/><br/>アメリカはあんなに薬で大騒ぎをやっているが、日本の方がずっと多いそうです。<br/><br/>それはアメリカには漢方薬がないのです。<br/><br/>これも肥料と同じで倍になります。<br/><br/> 今言ったような二つの革命は、たいへんに大きな革命です。<br/><br/>ほかの問題についてもいずれ本を出すつもりです。<br/><br/>政治の問題、教育の問題ということもだんだんに発表します。<br/><br/> 教育の問題にしても、教団の方で学校を作って、実際に見せなければならないことになります。<br/><br/>これはいずれだんだんにやって行きます。<br/><br/>今日の教育は、子供のうちからやりすぎるのです。<br/><br/>ほかのことは別として一言だけ言っておきますが、教育は十二歳からやるのです。<br/><br/>その前にやってはいけないのです。<br/><br/>今の人間は非常に頭が悪いのですが、これは早期教育のためなのです。<br/><br/>というのは、人間はある程度頭の組織ができるのに十二歳くらいまでかかるのです。<br/><br/>それをもっと早く頭を使うと、頭がそこまでできないうちに発育が止まってしまうのです。<br/><br/>ちょうど労働と同じようなもので、労働はやはり青年になって初めてどんな労働でもできるのです。<br/><br/>それを十一か十二の子供に労働させると、発育が止まるのです。<br/><br/>それについて私は前に柔道をやった時に、十五歳以下は柔道をやってはいけないということでした。<br/><br/>それは背の発育が止まるからです。<br/><br/>ですから柔道の先生などは割に背が低いのです。<br/><br/>横は張っているが背は低いのでも分かります。<br/><br/>それはつまり肉体的の発育が止まるのです。<br/><br/>それと同じで、頭脳もあまり完成しないうちに使うと発育が止まるのです。<br/><br/>ですから働きが悪くなるのです。<br/><br/>そういうわけで十二歳まで遊ばしておいて、それからやると非常に覚えが良いのです。<br/><br/>ですから今までよりか倍くらい良くなるのです。<br/><br/>十二歳からで、小学三年、中学三年、大学三年と、それだけやれば充分です。<br/><br/>ところがそういうことを知らないから、早期教育をやるのです。<br/><br/>それこそ今は小学校の生徒などでも、いろいろと難しいことを教え込むのです。<br/><br/>ですからつまり子供を早く大人にしようというやり方です。<br/><br/>今の子供をご覧なさい、以前ならちょうど親父が言うようなことを言ってます。<br/><br/>子供の大人を作っているのです。<br/><br/>早く大人にするのを良いとしているのです。<br/><br/>だからちょっと見るとたいへんませていて良いようだが、肝腎の頭脳の発育を止めてしまうのです。<br/><br/>だから後になって本当に大人になるに従って、言わば耄碌（もうろく）が早くなります。<br/><br/>そういうことがたいへんな間違いです。<br/><br/>そこでそういう教育をするには学校を作らなければならないのです。<br/><br/>ところが今では「文部省令」にぶつかります……。<br/><br/>十二まで遊ばせておくということがたいへんな問題になります。<br/><br/>ですからそういうことをやるにも、救世教なるものは、たとえてみれば自然栽培というこれによって増産になり、これはたいへんなものだと言って先方で頭を下げるという時代になれば、教育もこれでなければいけないと言うと、それではこれが本当だろうということになります。<br/><br/>それが時期です。<br/><br/> それから今年の美術館は去年とはだいぶ違って、今度の別館で浮世絵展をやりますが、これはみんな知っているでしょう。<br/><br/>そのほかに外国の物で、エジプト、ギリシア、ペルシア、インド、勿論中国もですが、そういう美術品をたぶん一室全部に陳列するつもりです。<br/><br/>そういう外国の美術品展は日本にあるにはあるが、そういう美術館式のものはないのです。<br/><br/>不思議なことに博物館でもやらないのです。<br/><br/>博物館はやはり日本美術を紹介するというのが主眼だそうで、外国の美術品は軽視して手を出さなかったのです。<br/><br/>と言って、今のところほかには勿論ありません。<br/><br/>それですから割合隠れているのです。<br/><br/>それは神様がやるのですから、今年になって不思議にそういう物が手にはいってくるのです。<br/><br/>美術館の一室をいっぱいにするくらいは集まったのです。<br/><br/>そういう物はみんなは知らないから買い手がないので安いのです。<br/><br/>今に高くなります。<br/><br/>なにしろ二千年三千年前の物でなかなかおもしろい物があります。<br/><br/>今度出ますから見れば分かります。<br/><br/>ですからこれだけは日本一と、最初からいばれます。<br/><br/>あんがい注目されるだろうと思ってます。<br/><br/> 浮世絵の方も、おそらく今までの浮世絵展としては一番だろうと思います。<br/><br/>また実に良い物が集まったのです。<br/><br/>これも神様がやられているのですが、割合安く、非常に奇蹟的に集まったのです。<br/><br/>美術館も去年あたりはまだ世の中がほとんど知らなかったが、だんだん知るに従って、今年はそうとう見物に来るだろうと思ってます。<br/><br/>博物館でもなかなか援助してくれてます。<br/><br/>私の方のをすっかり見て、不足している分だけは博物館の品物を貸してくれるそうです。<br/><br/>そういうようで美術館の方も今年はいっそう充実して、去年より見応えがあるものができるわけです。<br/><br/>それから別館もでき、すっかり整頓しますから気持ちが良いです。<br/><br/>去年のようなガタガタした所がすっかりきれいになりますから、大いに楽しみにして良いと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

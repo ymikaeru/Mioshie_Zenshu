@@ -1,126 +1,275 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>myoniti3</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>myoniti3</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明日の文化 『明日の医術 第三編』昭和18(1943)年10月23日発行 私はこれから、霊及び霊界について、あらゆる方法を以て、約二十年間の研究によって得たる成果を発表しようとするのである。<br><br> 元来、霊なるものは、空漠として無に等しいものである以上、今直ちに実証的に確認し得られる方法はないのであるから、勿論学問として唯物的に成立させ得る事は困難である。<br><br>しかしながら、さきにも述べたごとく、停止する事を知らない科学の進歩は、学問的に、機械的に何人にも把握出来得るようになるであろう事は信じて疑〔わ〕ないのである。<br><br> 吾々が今日、大なる恩恵に浴しつつある現代科学といえども、その初めはその時代の先覚者達が、夢にも等しい空想を描いた事が基礎となり、それがついに現実化し、学問的重要分野と成った事は明かな事実である。<br><br>この意味によってみても、霊の存在が確認され、霊科学が学問としての重要部門を占めるようになる事も時日の問題でしかあるまい。<br><br> たとえていうならば、今日野蛮未開人に対しこの空間には空気なる物質が存在するという事を、いか程説明しても信じないであろう事は今日の文化人に対し、霊及び霊界の存在を説明するとしても信じないであろう事と等しいと思うのである。<br><br> しかしながら、霊の実在を知る事によって事物を観察する時、まことによく透徹し、矛盾や撞着等の懼（おそ）れのない事である。<br><br>のみならず唯物的科学を批判する場合といえども、その根源の剔出（てきしゅつ）が容易である事である。<br><br>この様な素晴しい力の発現はそれ自体が真理であるからである。<br><br>この意味において、現在進みつつある世界の大転換も、その後における新しく生れるであろう新文化に対しての想像もつくであろう。<br><br> しからば、大転換以後の文化とはいかなるものであろうか、それは勿論、霊的文化の発生と、その飛躍であらねばならない。<br><br>そうして霊と物質との関係がある程度闡明（せんめい）する事によって、既成文化の躍進もまた素晴しいものがあろう。<br><br>それは勿論、時は戦後であり、発生基地は、日本でなくてはならないのである。<br><br> そうして、空気が機械文明の発達によってその実体を把握し、人類に役立つものたらしめたと同様の意味において、今より一層機械が発達した暁、霊の実在を測定し、それを有用化するという事も、決して夢想ではないであろう。<br><br> ただ私は、霊と病気との関係を研究しつつ、ついに霊なるものの実体・因果関係等を知るに到ったのである。<br><br>そうして、それらは人間の病原のみではなく、森羅万象あらゆる物の変化、流転等にまで、密接な関係のある事を知り得たのである。<br><br>しかしながらこの著述は、病気の解決が主である以上、大体その方針を以て説き進めるのである。<br><br> そうして、霊的科学を有用化し、人間の健康に対し、驚くべき偉力を発揮出来得るように大成さしたその事が、この日本医術なるもので、ただ時代より先んじたまでである。<br><br> 又、霊なるものの実在を人類に知らしめる第一歩としては、霊の実体を誰の眼にも見得るような方法が生れなければならない。<br><br>それについて、私は一のヒントを与えようと思うのである。<br><br>先年、ある本に書いてあった。<br><br>西洋の霊科学者の一人が霊衣を見得る方法を発見したというのである。<br><br>それはディシャニンなる薬剤を硝子（ガラス）に応用すれば、霊を視得るというのであるが、これは、充分の成果は挙げ得なかったとみえて、その後立消えになったようである。<br><br> ここで、考慮すべき事は、写真のレンズである。<br><br>西洋においても日本においても、幽霊写真なるものが、今日まで相当映写されている。<br><br>私も相当多数見たのであるが、真なるものと偽なるものとの両方ある事である。<br><br>しかるに科学者は、霊写真は全部作り物であるとなし、又、霊の研究者は、大抵真とするような傾向があるが、私のみる所では、偽もあるが、真なるものも確かにあるのである。<br><br>従って、写真のレンズは人間の肉眼よりも数倍物体映像の力即ち密度に対する敏感性を有しているのであるから、この理を推進めレンズの一層進歩した物が出来れば霊の映写は可能となるであろう。<br><br>右のごとく、精巧なるレンズが成功するか又は新しい光線の発見があるとすれば人体に対し、今日のＸ光線のごとき装置を以て霊視する時、霊衣及びその曇は掌（たなごころ）を指すごとく視得るであろうから、その曇を施術者より放射する光波によって解溶するという状態をみた時、いかなる唯物論者といえども、霊医術の価値を信じない訳にはゆかないであろう。<br><br>ここに到って初めて、霊科学は学問の一分野となるであろう。<br><br> そうして右の原理は、Ｘ光線の反対でなければならないのである。<br><br>それはＸ光線においては、骨とか金属とかいう、密度の高いもの程光線が透過せず、それが顕出するのであるが霊を浮び出すにはその逆で、物質的密度の高い程通過し、霊の密度の高いもの程捕捉顕出するという方法でなければならないのである。<br><br> 又、右以外、写真の乾板を進歩改良させる方法である。<br><br>たとえていえば、今日の赤外線写真のごとき、特殊の映像法の発明であって、それは現在の乾板でさえ、たまたま霊が映る位であるから、左程難事ではないと思うのである。<br><br>従って、その方面の専門家諸君に対し、研究を望むものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>— Coleção de Teses do Mestre Okada Jikanshi —</h2>
-            <h2>Ashita no Ijutsu, Primeiro Volume (Reimpressão)</h2>
-            <p>Publicado em 5 de fevereiro de 1943</p>
-            <h3>Introdução</h3>
-            <p>Aos que se debruçam sobre esta obra, desejo de antemão fazer uma advertência: dentre todos os livros que
+<h2>— Coleção de Teses do Mestre Okada Jikanshi —</h2>
+<h2>Ashita no Ijutsu, Primeiro Volume (Reimpressão)</h2>
+<p>Publicado em 5 de fevereiro de 1943</p>
+<h3>Introdução</h3>
+<p>Aos que se debruçam sobre esta obra, desejo de antemão fazer uma advertência: dentre todos os livros que
                 porventura tenham lido – e ouso dizer, dentre todos os volumes já publicados no mundo inteiro até os
                 dias de hoje –, creio que não encontrarão tese tão espantosa e inimaginável quanto a que apresento
                 nestas páginas. Poderá haver quem a considere uma heresia ou uma doutrina maligna.</p>
-            <p>Talvez isso nos remeta ao início do século XVI, quando o polonês Copérnico, pai da teoria heliocêntrica,
+<p>Talvez isso nos remeta ao início do século XVI, quando o polonês Copérnico, pai da teoria heliocêntrica,
                 tentou publicar sua obra que revolucionaria a astronomia. Ciente de que em sua pátria a permissão seria
                 sumariamente negada, confiou o manuscrito a um jovem discípulo alemão. Mesmo na Alemanha, o risco era
                 iminente, e a única forma de viabilizar a publicação foi acrescentar no prefácio a ressalva de que se
@@ -132,14 +281,14 @@ function toggleLang(lang) {
                 difíceis de acreditar. Assim, a história nos mostra que novas teorias que subvertem o conhecimento
                 estabelecido e descobertas que desafiam as expectativas humanas são frequentemente recebidas com
                 incompreensão, e seus autores, tratados como insanos.</p>
-            <p>Em minha jornada, ao longo de mais de duas décadas dedicadas a um método de tratamento de doenças alheio
+<p>Em minha jornada, ao longo de mais de duas décadas dedicadas a um método de tratamento de doenças alheio
                 à medicina convencional, deparei-me com um fato de tal magnitude que me deixou estarrecido. Trata-se de
                 uma verdade crucial e lamentável, da qual não tenho notícia de que alguém, em qualquer parte do mundo,
                 já tenha se apercebido.</p>
-            <p>Contudo, refleti: a descoberta de uma verdade de tamanha envergadura não poderia ocorrer sem uma razão
+<p>Contudo, refleti: a descoberta de uma verdade de tamanha envergadura não poderia ocorrer sem uma razão
                 maior. E que razão seria essa, senão a Vontade Divina, indicando que chegamos a um “tempo de crise” e
                 que este conhecimento deve ser universalmente revelado à humanidade?</p>
-            <p>Permitam-me, neste ponto, relatar minha modesta trajetória. Minha formação acadêmica é bastante limitada.
+<p>Permitam-me, neste ponto, relatar minha modesta trajetória. Minha formação acadêmica é bastante limitada.
                 Aspirei ser pintor e ingressei no curso preparatório de uma escola de belas-artes, mas fui obrigado a
                 abandonar os estudos prematuramente devido a uma enfermidade ocular. Decidi, então, tornar-me um homem
                 de negócios e, por um tempo, obtive algum sucesso, mas acabei por sofrer um grande fracasso. Em meio ao
@@ -148,10 +297,10 @@ function toggleLang(lang) {
                 me dediquei de corpo e alma. Foi então que compreendi a relação entre as doenças e o Mundo Espiritual.
                 Aprofundando minhas pesquisas, acabei por criar um método de tratamento singular. Mais importante,
                 porém, foi descobrir que a doença e suas causas residem em um lugar absolutamente inesperado.</p>
-            <p>Quanto mais clara se tornava essa compreensão, mais evidente se mostrava sua oposição às teorias da
+<p>Quanto mais clara se tornava essa compreensão, mais evidente se mostrava sua oposição às teorias da
                 medicina moderna. Por divergir por completo das políticas governamentais, que se baseiam na medicina
                 ocidental, decidi abandonar a prática de tratamentos.</p>
-            <p>Todavia, na época em que me dedicava a essa atividade, a taxa de cura que alcançava era verdadeiramente
+<p>Todavia, na época em que me dedicava a essa atividade, a taxa de cura que alcançava era verdadeiramente
                 assombrosa: posso afirmar, com segurança, que atingia os noventa por cento. A demanda era tamanha que
                 uma multidão se formava diariamente à minha porta, e o esgotamento físico tornou-se um dos motivos que
                 me levaram a cessar o trabalho. Ao mencionar uma taxa de cura de noventa por cento, sei que poucos
@@ -162,7 +311,7 @@ function toggleLang(lang) {
                 provavelmente sem precedentes no mundo? A resposta é simples: porque conheci a verdadeira causa das
                 doenças e atuei diretamente sobre ela. E isso sem utilizar medicamentos ou instrumentos, apenas com a
                 técnica de meus dedos e palmas das mãos. Reitero que não há o menor exagero no efeito que descrevo.</p>
-            <p>Hoje, afirma-se que a medicina progride de forma notável. Todos os povos civilizados acreditam nisso sem
+<p>Hoje, afirma-se que a medicina progride de forma notável. Todos os povos civilizados acreditam nisso sem
                 a menor hesitação, e tanto governos quanto cidadãos baseiam-se nela para estabelecer suas políticas de
                 saúde pública. A perspectiva futura é de que todas as causas de doenças serão elucidadas uma a uma, os
                 tratamentos se consolidarão, a longevidade humana aumentará e a constituição física melhorará. O fato de
@@ -172,7 +321,7 @@ function toggleLang(lang) {
                 lentamente, e se a taxa de mortalidade também decresce, a população deveria, por lógica, aumentar. A
                 realidade, porém, é o oposto: diversas nações lutam desesperadamente para conter o declínio
                 populacional, o que constitui uma contradição gritante.</p>
-            <p>Em nosso Japão, o aumento da tuberculose, o crescente número de crianças de constituição frágil e o
+<p>Em nosso Japão, o aumento da tuberculose, o crescente número de crianças de constituição frágil e o
                 declínio geral da condição física são fatos de conhecimento público. Ademais, na terceira década da Era
                 Meiji, a incidência de doenças torácicas entre os jovens convocados para o serviço militar era de dois
                 em cada cem; no décimo segundo ano da Era Showa, esse número saltou para vinte em cada cem – um aumento
@@ -182,7 +331,7 @@ function toggleLang(lang) {
                 pesquisadores se concentrassem em buscar a causa nas folhas, nos galhos ou no tronco. Mal sabem eles que
                 o problema reside na raiz, oculta sob a terra. O que descobri foi precisamente a causa da doença que se
                 encontra nessa raiz.</p>
-            <p>Sei que não será fácil que minha teoria seja aceita como verdade e colocada em prática, pois a realidade
+<p>Sei que não será fácil que minha teoria seja aceita como verdade e colocada em prática, pois a realidade
                 atual é que todos os sistemas e instituições foram erigidos ao longo de séculos com base na medicina
                 ocidental. Contudo, se as coisas permanecerem como estão, as estatísticas apontarão para um rumo cada
                 vez mais pessimista. Por mais que se implementem medidas paliativas, elas poderão ter algum efeito
@@ -191,12 +340,12 @@ function toggleLang(lang) {
                 sobrevivência de nosso povo. No caso da teoria heliocêntrica, um atraso de cem anos em sua aceitação não
                 representaria uma crise iminente. Este problema, no entanto, é de uma urgência premente. Com esta obra,
                 pretendo, antes de tudo, soar o alarme.</p>
-            <p>É indiscutível que a civilização moderna foi construída sobre o avanço da ciência. O aumento do bem-estar
+<p>É indiscutível que a civilização moderna foi construída sobre o avanço da ciência. O aumento do bem-estar
                 humano proporcionado por suas conquistas é, de fato, incomensurável. Por conseguinte, é natural que o
                 homem contemporâneo acredite que não há nada que a ciência não possa, eventualmente, solucionar.
                 Naturalmente, supõe-se também que as doenças e a própria vida humana serão gradualmente desvendadas pelo
                 poder da ciência.</p>
-            <p>Todavia, é preciso compreender que existe uma distinção intrínseca entre o que pode ser resolvido pela
+<p>Todavia, é preciso compreender que existe uma distinção intrínseca entre o que pode ser resolvido pela
                 ciência e o que está além de seu alcance. Poderíamos ainda argumentar que o progresso da ciência moderna
                 é um conceito relativo, visto em comparação com a história desde os tempos primitivos. Daqui a algumas
                 centenas ou milhares de anos, quando a humanidade do futuro analisar a ciência do século XX, certamente
@@ -210,28 +359,28 @@ function toggleLang(lang) {
                 humana, a solução está fora do alcance dos conceitos da ciência moderna. E, no entanto, insiste-se que
                 essa solução é possível. É aí que reside a origem de um erro fundamental, e a descoberta desse erro é a
                 razão de ser desta obra.</p>
-            <p>Na verdade, considero que esta minha tese é a ciência do futuro. Por isso, peço ao leitor habituado à
+<p>Na verdade, considero que esta minha tese é a ciência do futuro. Por isso, peço ao leitor habituado à
                 ciência moderna que se dispa de preconceitos e aborde estas páginas com a mente completamente aberta.
             </p>
-            <p>Os especialistas dirão: “O que pode saber um leigo que nunca estudou medicina? Que pretensão desmedida!”.
+<p>Os especialistas dirão: “O que pode saber um leigo que nunca estudou medicina? Que pretensão desmedida!”.
                 A isso, respondo: foi precisamente por não conhecer a medicina que pude fazer esta grande descoberta.
                 Não são poucos os casos de invenções grandiosas realizadas por pessoas anônimas, sem especialização, ou
                 de grandes minas descobertas por quem não possuía conhecimento de mineralogia. São fatos conhecidos por
                 todos.</p>
-            <p>Gostaria de expor minha perspectiva sobre invenções e descobertas. A maioria das grandes invenções e
+<p>Gostaria de expor minha perspectiva sobre invenções e descobertas. A maioria das grandes invenções e
                 descobertas da história não foi obra de acadêmicos ou especialistas. Isso fica claro ao observarmos
                 figuras como Watt com a máquina a vapor, Marconi com o telégrafo sem fio, Edison com a eletricidade, os
                 irmãos Wright com o avião, entre outros. O princípio fundamental é descoberto por um leigo, e os
                 acadêmicos se encarregam de seu aprimoramento e desenvolvimento. Essa tem sido a trajetória de evolução
                 de toda a cultura.</p>
-            <p>Ademais, grandes figuras que movem o mundo hoje, como Hitler, Mussolini e Stalin, possuem uma formação
+<p>Ademais, grandes figuras que movem o mundo hoje, como Hitler, Mussolini e Stalin, possuem uma formação
                 acadêmica bastante limitada. Qual a razão para esse curioso fenômeno? A erudição, em sua essência, é a
                 história dos fatos e leis criados por nossos predecessores; é o conhecimento do passado. É um
                 conhecimento que serve mais como alicerce do que como uma ferramenta para desbravar o futuro. Em outras
                 palavras, é um saber já estabelecido e formalizado. Consequentemente, ao se tentar transformar um sonho
                 futuro em realidade, o conhecimento acadêmico pode, por vezes, tornar-se um obstáculo. A rigidez de suas
                 ideias já formalizadas tende a negar esse sonho.</p>
-            <p>Os grandes homens, por sua vez, são todos, sem exceção, inovadores em seus planos e ações. É da negação
+<p>Os grandes homens, por sua vez, são todos, sem exceção, inovadores em seus planos e ações. É da negação
                 dos moldes estabelecidos e do conhecimento do passado que o novo pode nascer. Aí reside o salto
                 evolutivo. A cultura de ontem não é a cultura de amanhã. Evidentemente, nenhuma nova descoberta ou
                 invenção é um passe de mágica que cria algo do nada. Ela se ergue, invariavelmente, sobre os alicerces
@@ -239,7 +388,7 @@ function toggleLang(lang) {
                 estabelecidos como verdades absolutas, frequentemente obstrui e nega descobertas e invenções úteis. O
                 curioso é que, por vezes, são os próprios intelectuais da época que desempenham esse papel, fazendo com
                 que algo valioso para a humanidade seja temporariamente suprimido.</p>
-            <p>Afinal, qual é o propósito da medicina? Não é, obviamente, a medicina pela medicina. Deve ser uma
+<p>Afinal, qual é o propósito da medicina? Não é, obviamente, a medicina pela medicina. Deve ser uma
                 medicina que visa solucionar as doenças, elucidar todas as suas causas, curar todas as enfermidades e
                 promover a saúde. O objetivo é criar seres humanos sem doenças e lares sem enfermos. É tornar uma nação
                 tão próspera em seu crescimento populacional que as políticas governamentais para esse fim se tornem
@@ -247,28 +396,28 @@ function toggleLang(lang) {
                 a gestão da condição física e os exames de saúde se tornarem supérfluos. Um progresso que nos aproxime,
                 passo a passo, dessa direção – isso, em minha opinião, é o avanço da medicina. E a força que nos
                 impulsiona nesse sentido é a verdadeira medicina.</p>
-            <p>Contudo, observemos a situação atual. Não estamos caminhando na direção diametralmente oposta ao que
+<p>Contudo, observemos a situação atual. Não estamos caminhando na direção diametralmente oposta ao que
                 acabo de descrever? Qual a razão para isso? Diante dessa realidade, nem os especialistas, nem o governo,
                 nem o povo levantam qualquer questionamento. Considero isso algo de uma estranheza sem par. E o enigma
                 deste século, tão incompreensível, será desvendado por esta obra.</p>
-            <p>Ao refletirmos, porém, percebemos que há uma razão para tal. A aparência da medicina moderna é
+<p>Ao refletirmos, porém, percebemos que há uma razão para tal. A aparência da medicina moderna é
                 esplendorosa! O avanço do microscópio levou à descoberta das bactérias; a anatomia e os raios X
                 elucidaram cada vez mais o interior do corpo humano; análises minuciosas em diversas áreas resultaram em
                 inúmeras descobertas; os tipos de tratamentos com medicamentos, raios e outros métodos se multiplicam; a
                 técnica cirúrgica atinge o ápice da sofisticação; e os equipamentos, instalações e métodos de
                 desinfecção parecem ter chegado à perfeição. Diante de tudo isso, não é de se estranhar que se pense que
                 a medicina está progredindo maravilhosamente.</p>
-            <p>O destino dos povos civilizados será decidido pela aceitação ou rejeição desta minha teoria. Se hesitarem
+<p>O destino dos povos civilizados será decidido pela aceitação ou rejeição desta minha teoria. Se hesitarem
                 em aceitá-la ou se a negarem, apenas acelerarão sua marcha rumo à extinção. Se, ao contrário, a
                 aceitarem, trilharão o caminho da luz e da prosperidade eternas. Portanto, desejo que ao menos um
                 especialista em medicina atente para a “criação de uma nova medicina” baseada em minha tese. Ela será,
                 certamente, a reforma da medicina, o ponto de partida para Ashita no Ijutsu e o primeiro passo para a
                 fundação da ciência do futuro.</p>
-            <p>Creio também que, até hoje, não existiu uma arte médica japonesa em seu verdadeiro sentido. O que temos
+<p>Creio também que, até hoje, não existiu uma arte médica japonesa em seu verdadeiro sentido. O que temos
                 são adaptações de artes médicas originadas no Ocidente, na China, na Índia, etc., e não uma arte médica
                 genuinamente japonesa. Contudo, esta que proponho, acredito ser uma verdadeira arte médica japonesa, da
                 qual poderemos nos orgulhar eternamente.</p>
-            <p>Ademais, reflito constantemente sobre o seguinte: o Japão envia atualmente equipes de pacificação para as
+<p>Ademais, reflito constantemente sobre o seguinte: o Japão envia atualmente equipes de pacificação para as
                 áreas ocupadas na China e nos Mares do Sul. O ponto central dessas missões é, sem dúvida, a assistência
                 médica, por meio da qual se demonstra o desenvolvimento da cultura japonesa e se faz conhecer seus
                 benefícios. No entanto, ao aprofundarmos a reflexão, não chegaríamos a um resultado diferente? Se a
@@ -279,7 +428,7 @@ function toggleLang(lang) {
                 forem superiores aos da medicina ocidental, é evidente que elas se submeterão de coração ao povo
                 japonês. E como não são necessários equipamentos nem medicamentos, sua prática é viável até mesmo nas
                 regiões mais remotas.</p>
-            <p>Na sociedade de hoje, qual é a maior causa de toda a infelicidade? Pode-se dizer que é, em primeiro
+<p>Na sociedade de hoje, qual é a maior causa de toda a infelicidade? Pode-se dizer que é, em primeiro
                 lugar, a própria doença. Suponhamos que uma pessoa adoeça. Se for tuberculose ou alguma outra
                 enfermidade diagnosticada, o senso comum dita que se procure imediatamente um médico ou um hospital para
                 receber tratamento. No tratamento médico, porém, para doenças um pouco mais graves, o repouso absoluto é
@@ -293,7 +442,7 @@ function toggleLang(lang) {
                 resultados, não se pode esperar que o próximo, com formação similar, seja muito diferente. Existem, é
                 claro, médicos de talento excepcional que, combinando diagnóstico, técnica e abordagem psicológica,
                 alcançam bons resultados, mas esses são casos isolados.</p>
-            <p>Assim, por mais que frequente hospitais ou se interne, o paciente não melhora. Ele se angustia e se
+<p>Assim, por mais que frequente hospitais ou se interne, o paciente não melhora. Ele se angustia e se
                 atormenta. A essa altura, a maioria já esgotou suas economias. E se for o chefe da família, por ter
                 abandonado o trabalho por um longo período, sua renda diminui ou cessa, as dívidas se acumulam, é
                 demitido do emprego e chega a uma situação de desespero. Cenas trágicas como essa são vistas por toda
@@ -306,7 +455,7 @@ function toggleLang(lang) {
                 esperança e a alegria na velhice e caíram em uma vida de desespero, como verdadeiros derrotados. O que
                 nos diz o fato de que um sacrifício tão caro tem como recompensa um resultado tão infeliz? A razão é
                 simples: a medicina moderna é impotente demais para solucionar as doenças.</p>
-            <p>O foco principal desta obra é a questão populacional. O declínio na taxa de crescimento dos povos
+<p>O foco principal desta obra é a questão populacional. O declínio na taxa de crescimento dos povos
                 civilizados sugere, como consequência final, um destino de extinção. Segundo estimativas do Dr.
                 Burgdörfer, renomado demógrafo alemão, por volta do ano 2050, daqui a aproximadamente 110 anos, a
                 população da Alemanha terá se reduzido a 25 milhões. Em comparação com os atuais 67 milhões, isso
@@ -319,27 +468,27 @@ function toggleLang(lang) {
                 chegando a 115.465.386 vinte anos depois, em 2015. Com base nesses cálculos, a Alemanha terá apenas 1,6
                 milhão de habitantes em 550 anos, o Reino Unido terá 440 mil em 200 anos, e o Japão chegará a zero em
                 400 ou 500 anos.</p>
-            <p>Sendo esta uma previsão baseada em estatísticas, podemos lhe conferir um grau considerável de
+<p>Sendo esta uma previsão baseada em estatísticas, podemos lhe conferir um grau considerável de
                 credibilidade. De fato, ao nos depararmos com essa questão, é impossível não ser tomado pelo pavor e
                 pelo espanto. Acredito que este grande problema é muitas vezes, senão dezenas de vezes, maior que a
                 questão da Esfera de Coprosperidade da Grande Ásia Oriental ou a da Nova Ordem Mundial, e exige uma
                 solução absoluta. Por que esse fenômeno aterrador do declínio populacional surgiu entre os séculos XIX e
                 XX? Creio que esse estranho fenômeno não existia antes do século XVIII. Pois, se tivesse começado em
                 alguma época anterior, os povos civilizados já estariam extintos ou à beira da extinção hoje.</p>
-            <p>E qual é a verdadeira natureza deste enigma do século XX, o declínio populacional? Leitor, não se
+<p>E qual é a verdadeira natureza deste enigma do século XX, o declínio populacional? Leitor, não se
                 espante: é o próprio progresso da medicina. Ah, desde o início da história, terá havido um problema tão
                 espantosamente inesperado?</p>
-            <p>Apresentei estatísticas que indicam que os povos civilizados serão extintos em trezentos, quatrocentos ou
+<p>Apresentei estatísticas que indicam que os povos civilizados serão extintos em trezentos, quatrocentos ou
                 quinhentos anos. Na verdade, a meu ver, o processo será mais rápido; creio que será difícil ultrapassar
                 duzentos ou trezentos anos. A razão é que, se a causa é o efeito reverso do progresso da medicina, e se
                 a medicina continuar a progredir, é lógico que o resultado será ainda pior do que as previsões baseadas
                 no nível atual da medicina.</p>
-            <p>Sendo assim, qual o significado desse efeito reverso? A grande aspiração que deu origem a esta obra é
+<p>Sendo assim, qual o significado desse efeito reverso? A grande aspiração que deu origem a esta obra é
                 expor e elucidar completamente essa questão, fundar a verdadeira arte médica japonesa e salvar as
                 centenas de milhões de espíritos da humanidade que caminham para a extinção.
                 (Outubro de 1941)</p>
-            <h3>A Questão Populacional</h3>
-            <p>Nos países civilizados de hoje, a questão que atrai maior interesse como o problema mais importante é,
+<h3>A Questão Populacional</h3>
+<p>Nos países civilizados de hoje, a questão que atrai maior interesse como o problema mais importante é,
                 sem dúvida, a questão populacional, pois ela constitui a base da ascensão e queda dos povos. As palavras
                 de Adam Smith, de que a riqueza e o poder de uma nação “dependem de sua capacidade de crescimento
                 populacional”, são uma verdade absoluta. O brado de Mussolini ao povo italiano, “Alcancem a maior taxa
@@ -353,7 +502,7 @@ function toggleLang(lang) {
                 de hoje provavelmente não existiria. Pelo contrário, eles estariam extintos ou, como os Ainu, restariam
                 apenas em número reduzido. Consequentemente, o esplêndido desenvolvimento cultural que vemos hoje não
                 teria sido possível.</p>
-            <p>A primeira questão que devemos levantar a esse respeito é: se a queda na taxa de crescimento populacional
+<p>A primeira questão que devemos levantar a esse respeito é: se a queda na taxa de crescimento populacional
                 começou no início do século XIX, devemos considerar que algum método especial, que não existia
                 absolutamente antes do século XVIII, foi aplicado a toda a população de cada nação civilizada, não muito
                 antes dessa época. Portanto, é necessário investigar qual seria esse método e descobrir sua verdadeira
@@ -364,10 +513,10 @@ function toggleLang(lang) {
                 negativos, eles podem ser ignorados por um forte preconceito. Isso seria semelhante ao fato de que,
                 mesmo depois que a verdadeira natureza de um culto maligno é exposta, seus seguidores, iludidos por
                 preconceitos, continuam a acreditar cegamente, criando justificativas.</p>
-            <p>Descobrir esse “certo método” é a chave para resolver este grande problema. Então, o que seria esse
+<p>Descobrir esse “certo método” é a chave para resolver este grande problema. Então, o que seria esse
                 método enigmático? Antes de revelar esse enigma, no entanto, apresentarei a tendência da dinâmica
                 populacional em nosso Japão e em outros países do mundo.</p>
-            <p>O Boletim Semanal do Gabinete, de 8 de dezembro de 1940, diz o seguinte:
+<p>O Boletim Semanal do Gabinete, de 8 de dezembro de 1940, diz o seguinte:
                 (A taxa de natalidade de nosso país, que atingiu o pico de 36 por mil habitantes em 1920, tem mostrado
                 uma tendência de queda gradual. Em 1936, caiu abaixo de 30; em 1937, registrou 31; e em 1938, sob a
                 influência do Incidente, caiu para 27. No entanto, em comparação com os 23 da Itália, 19 da Alemanha, 17
@@ -383,7 +532,7 @@ function toggleLang(lang) {
                 chamada seleção reversa, ou seja, a tendência de que os de melhor qualidade diminuam e os de pior
                 qualidade aumentem. Deste ponto de vista, para melhorar a qualidade da população, é preciso que a
                 natalidade seja alta.)</p>
-            <p>A seguir, vejamos um exemplo da relação entre a questão populacional e a guerra. (Segundo o mesmo
+<p>A seguir, vejamos um exemplo da relação entre a questão populacional e a guerra. (Segundo o mesmo
                 boletim)
                 Se tomarmos como exemplo a Alemanha na última Guerra Mundial, a guerra moderna mais típica dos últimos
                 tempos, a Alemanha mobilizou mais de treze milhões de jovens ao longo de quatro anos, e diz-se que o
@@ -392,14 +541,14 @@ function toggleLang(lang) {
                 perdida pela Alemanha chegou a 4,2 milhões, um número surpreendente, duas vezes e meia o número de
                 mortos em combate. Se somarmos essas duas perdas populacionais, fica claro o quanto uma guerra moderna
                 afeta o crescimento populacional e a importância de repor rapidamente essa perda.</p>
-            <p>As flutuações de nascimentos e mortes, ou seja, a dinâmica populacional de nosso país sob o Incidente,
+<p>As flutuações de nascimentos e mortes, ou seja, a dinâmica populacional de nosso país sob o Incidente,
                 também mostram um efeito semelhante, embora em grau diferente. Em 1938, em comparação com o ano
                 anterior, houve uma diminuição de mais de 250.000 nascimentos e um aumento de mais de 50.000 mortes,
                 excluindo as mortes por combate, doença ou ferimento. Como resultado, houve uma redução de mais de
                 300.000 no crescimento natural. É verdadeiramente inevitável perder parte do crescimento natural devido
                 à guerra, mas perder parte do crescimento natural hoje significa perder futuros pais e mães, e devemos
                 pensar profundamente no impacto duradouro que isso terá no futuro do crescimento populacional.</p>
-            <p>Um ponto ainda mais importante é que o impacto da guerra difere muito dependendo do estágio de
+<p>Um ponto ainda mais importante é que o impacto da guerra difere muito dependendo do estágio de
                 crescimento populacional em que ela ocorre. Com base nas flutuações de nascimentos e mortes, podemos
                 dividir a era de crescimento populacional dos países civilizados em quatro períodos. O primeiro período
                 é quando a taxa de mortalidade atinge seu pico e começa a cair, enquanto a taxa de natalidade aumenta,
@@ -419,7 +568,7 @@ function toggleLang(lang) {
                 forma como eles se preocuparam com a alocação de pessoal e temeram as perdas humanas nesta guerra é
                 claramente demonstrada pelo curso das batalhas desde a operação alemã na Escandinávia até a entrada sem
                 sangue do exército alemão em Paris.</p>
-            <p>Diz-se que Napoleão, que percorreu a Europa durante o auge da França, ao contemplar as consideráveis
+<p>Diz-se que Napoleão, que percorreu a Europa durante o auge da França, ao contemplar as consideráveis
                 perdas de suas tropas na noite da Batalha de Eylau em fevereiro de 1807, gabou-se: “Uma noite em Paris
                 compensará tudo”. Em contraste, há uma história de que um general francês, durante a Guerra Mundial,
                 lamentou na frente de batalha de Marne que, se houvesse um pouco mais de jovens, o exército francês
@@ -427,7 +576,7 @@ function toggleLang(lang) {
                 natalidade e a estagnação do crescimento populacional da França tornaram-se finalmente decisivas com a
                 última Guerra Mundial. A França hoje se curvou à Alemanha. A julgar pela tendência da população francesa
                 após a Grande Guerra, esse era provavelmente o destino inevitável da França.</p>
-            <p>Quando a mão demoníaca do imperialismo do Império Russo se aproximou de nosso país, o Japão lutou
+<p>Quando a mão demoníaca do imperialismo do Império Russo se aproximou de nosso país, o Japão lutou
                 resolutamente a Guerra Russo-Japonesa, derrotando um império branco e fazendo com que os povos de cor
                 levantassem suas vozes em aclamação. Naquela época, a população de nosso país estava exatamente no meio
                 do primeiro período. No entanto, a situação populacional de nosso país hoje, como será mencionado mais
@@ -436,7 +585,7 @@ function toggleLang(lang) {
                 que os períodos populacionais são diferentes. Uma das razões pelas quais devemos estar muito vigilantes
                 hoje, sob o Incidente, em relação ao futuro do crescimento populacional de nosso país, reside
                 precisamente neste ponto.</p>
-            <p>A seguir, devemos comparar a taxa de natalidade dos vários povos que cercam nosso país, especialmente
+<p>A seguir, devemos comparar a taxa de natalidade dos vários povos que cercam nosso país, especialmente
                 aqueles dentro da Esfera de Coprosperidade da Grande Ásia Oriental. A taxa de natalidade do povo chinês,
                 que representa um quinto da população mundial, é desconhecida, mas há razões para estimar que seja de
                 pelo menos 40 por mil habitantes. A taxa de natalidade da União Soviética, com uma população que se
@@ -448,7 +597,7 @@ function toggleLang(lang) {
                 notável é seu potencial de crescimento. Não é difícil supor que, uma vez que a paz e a ordem sejam
                 estabelecidas e a estabilidade e o progresso da vida econômica sejam garantidos, eles garantirão uma
                 capacidade de crescimento surpreendente.</p>
-            <p>A seguir, o Boletim Semanal da Agência de Informação, de 12 de fevereiro de 1941, diz o seguinte:
+<p>A seguir, o Boletim Semanal da Agência de Informação, de 12 de fevereiro de 1941, diz o seguinte:
                 O fato de a população do Japão ter continuado a aumentar em quase um milhão de pessoas por ano até o
                 início do Incidente da China parece, à primeira vista, prometer um desenvolvimento infinito para o povo
                 japonês. No entanto, isso é, na verdade, uma grande ilusão. É um fato inegável que a população do Japão
@@ -473,26 +622,26 @@ function toggleLang(lang) {
                 natalidade, ela entrou em um declínio acentuado, e em 1937 era de 16,95. E nesse curto período de apenas
                 dezesseis anos, a taxa de mortalidade de nosso país diminuiu 8,46 por mil habitantes. Isso é realmente
                 surpreendente.</p>
-            <p>A razão pela qual o aumento da população do Japão não diminuiu tanto e continuou a aumentar em quase um
+<p>A razão pela qual o aumento da população do Japão não diminuiu tanto e continuou a aumentar em quase um
                 milhão de pessoas por ano, apesar de a taxa de natalidade ter mostrado um declínio súbito e acentuado a
                 partir da última Guerra Mundial, é inteiramente o resultado dessa diminuição na taxa de mortalidade.</p>
-            <p>Quando a taxa de natalidade e a taxa de mortalidade diminuem juntas, qual será o futuro da população?
+<p>Quando a taxa de natalidade e a taxa de mortalidade diminuem juntas, qual será o futuro da população?
                 Isso já foi experimentado pelos países europeus. Como resultado da inversão da tendência de queda da
                 taxa de natalidade e da taxa de mortalidade, o que aconteceu com a população dos países europeus? O
                 primeiro resultado foi que, nesses países, a própria população começou a diminuir gradualmente, e eles
                 tiveram que se preocupar com a autoextinção do próprio povo.</p>
-            <p>Por que a população segue um destino de autoextinção no futuro quando a taxa de natalidade e a taxa de
+<p>Por que a população segue um destino de autoextinção no futuro quando a taxa de natalidade e a taxa de
                 mortalidade começam a diminuir juntas? A razão é que não há limite para a queda da taxa de natalidade.
                 Em casos extremos, pode-se até imaginar que não haja um único nascimento. No entanto, há um limite para
                 a queda da taxa de mortalidade, e ela não diminui indefinidamente. Seria uma história diferente se um
                 elixir da imortalidade ou um método milagroso, como o imaginado pelos antigos, fosse descoberto.</p>
-            <p>Pela experiência da humanidade até hoje, é muito difícil reduzir a taxa de mortalidade para menos de 10
+<p>Pela experiência da humanidade até hoje, é muito difícil reduzir a taxa de mortalidade para menos de 10
                 por mil habitantes. No mundo, os países com a menor taxa de mortalidade hoje são a Austrália e a Nova
                 Zelândia. Lá, a taxa de mortalidade está abaixo de 10 por mil habitantes há vinte anos, o que é a taxa
                 mais baixa do mundo. Mesmo entre os países civilizados da Europa, o Reino Unido, que tem a mais baixa,
                 tem uma taxa de mortalidade de 11,6 por mil (em 1938), e a Alemanha, 11,7 (no mesmo ano). Devemos
                 considerar que estes representam a menor taxa de mortalidade que a humanidade pode alcançar.</p>
-            <p>Portanto, se a taxa de natalidade e a taxa de mortalidade no Japão continuarem a diminuir acentuadamente
+<p>Portanto, se a taxa de natalidade e a taxa de mortalidade no Japão continuarem a diminuir acentuadamente
                 até se tornarem as mesmas dos países europeus, qual será o resultado? Não há dúvida de que chegará um
                 momento em que nosso país terá que se preocupar com a autoextinção, assim como esses países europeus. De
                 acordo com as previsões do Instituto de Pesquisa Populacional, se as coisas continuarem como estão, a
@@ -502,7 +651,7 @@ function toggleLang(lang) {
                 precisos, com base nos movimentos da população de nosso país até 1937. No entanto, para nós que agora
                 estamos dedicando todos os nossos esforços para a construção da Esfera de Coprosperidade da Grande Ásia
                 Oriental, esta é uma previsão verdadeiramente desanimadora.</p>
-            <p>O segundo problema preocupante que surge no fenômeno populacional de um país como resultado da queda da
+<p>O segundo problema preocupante que surge no fenômeno populacional de um país como resultado da queda da
                 taxa de natalidade e da taxa de mortalidade é que a proporção de jovens diminui gradualmente e a
                 proporção de idosos aumenta.
                 Isso ocorre porque, à medida que a taxa de mortalidade diminui e a taxa de natalidade também diminui, a
@@ -514,11 +663,11 @@ function toggleLang(lang) {
                 proporção de idosos já aumentou consideravelmente. Se deixarmos as coisas como estão, essa tendência se
                 tornará cada vez mais pronunciada, e não há dúvida de que acabaremos na mesma situação que a Europa.
                 Isso é algo extremamente preocupante.</p>
-            <p>Um povo sem juventude não terá desenvolvimento nem, provavelmente, será capaz de sonhar com um futuro
+<p>Um povo sem juventude não terá desenvolvimento nem, provavelmente, será capaz de sonhar com um futuro
                 brilhante. Imagine um país habitado apenas por idosos desfrutando tranquilamente do resto de suas vidas.
                 Lá, não se encontrará progresso nem desenvolvimento. O destino da França nesta guerra mostra mais
                 claramente o quão trágico é o destino de um povo sem juventude.</p>
-            <p>A seguir, o mesmo boletim, de 19 de fevereiro de 1941, diz o seguinte:
+<p>A seguir, o mesmo boletim, de 19 de fevereiro de 1941, diz o seguinte:
                 (IV) Objetivos e Métodos da Política Populacional
                 Por trás do aparente desenvolvimento e aumento brilhante da população japonesa até agora, essa toxina
                 terrível já estava sendo produzida. Primeiro, devemos remover essa toxina terrível e evitar repetir o
@@ -539,7 +688,7 @@ function toggleLang(lang) {
                 milhões em 1960 for alcançada, o aumento da população no Japão a partir de então se tornará ainda mais
                 exponencial, e o povo japonês poderá, pela primeira vez, estabelecer as bases para um desenvolvimento
                 exponencial perpétuo e duradouro.</p>
-            <p>No entanto, alcançar essa meta de 100 milhões de habitantes no Japão continental em 1960 é, na verdade,
+<p>No entanto, alcançar essa meta de 100 milhões de habitantes no Japão continental em 1960 é, na verdade,
                 uma tarefa muito difícil.
                 Mas agora devemos superar essa dificuldade extraordinária e atingir essa meta o mais rápido possível.
                 Então, como podemos atingir essa meta difícil? Geralmente, podemos pensar em dois métodos: aumentar a
@@ -552,19 +701,19 @@ function toggleLang(lang) {
                 cuidar bem das crianças que nascem e reduzir ao mínimo suas mortes é o método mais eficiente e racional
                 para atingir o objetivo de aumento populacional.” À primeira vista, essa parece ser uma opinião muito
                 razoável.</p>
-            <p>Reduzir a taxa de mortalidade é algo particularmente necessário em nosso país. No entanto, se a opinião
+<p>Reduzir a taxa de mortalidade é algo particularmente necessário em nosso país. No entanto, se a opinião
                 acima defende a redução da taxa de mortalidade na futura política populacional do Japão, não se pode
                 dizer que seja necessariamente uma opinião correta. A razão é que, mesmo que nos esforcemos apenas para
                 reduzir a taxa de mortalidade, não só não conseguiremos atingir a meta de 100 milhões de habitantes no
                 Japão continental em 1960 em termos de cálculo, mas também, apenas com a redução da taxa de mortalidade,
                 certamente chegará um momento em que a população do Japão começará a diminuir em algumas décadas.</p>
-            <p>A previsão do Instituto de Pesquisa Populacional mencionada anteriormente foi calculada com base na
+<p>A previsão do Instituto de Pesquisa Populacional mencionada anteriormente foi calculada com base na
                 suposição de que a taxa de natalidade e a taxa de mortalidade do Japão continuariam a tendência de queda
                 do período até 1937. De acordo com ela, mesmo que a taxa de mortalidade de nosso país continue a
                 diminuir a um ritmo consideravelmente rápido como até agora, a população começará a diminuir a partir de
                 1995. Portanto, para atingir a meta desejada, não podemos contar apenas com a redução da taxa de
                 mortalidade. Devemos nos concentrar em aumentar a taxa de natalidade.</p>
-            <p>(V) Declínio da Natalidade e Medidas para seu Aumento
+<p>(V) Declínio da Natalidade e Medidas para seu Aumento
                 Como mencionado acima, para aumentar a população, o aumento dos nascimentos deve ser a base. Então, como
                 podemos aumentar esses nascimentos?
                 O fato de a taxa de natalidade de nosso país ter mostrado um declínio acentuado desde o período logo
@@ -588,7 +737,7 @@ function toggleLang(lang) {
                 isso não nos permitirá atingir a meta desejada. Para isso, é necessário adiantar a idade do casamento e
                 aumentar a taxa de casados entre os jovens. Além disso, devemos nos esforçar para aumentar a taxa de
                 natalidade dos casados.</p>
-            <p>No entanto, atingir esses objetivos de aumento de nascimentos não é, na verdade, uma tarefa fácil. Para
+<p>No entanto, atingir esses objetivos de aumento de nascimentos não é, na verdade, uma tarefa fácil. Para
                 isso, como pré-requisito básico, devemos rejeitar ao máximo a tendência de controle de natalidade e de
                 individualismo e nos esforçar para manter e fortalecer um sistema familiar saudável. Um sistema familiar
                 saudável é a força motriz do aumento populacional. Além disso, para adiantar a idade do casamento e
@@ -598,17 +747,17 @@ function toggleLang(lang) {
                 reforma do sistema escolar, é especialmente necessário considerar a relação com a política populacional
                 e melhorar urgentemente coisas como o adiamento do casamento devido à necessidade de frequentar a escola
                 por um longo tempo.</p>
-            <p>(VI) Declínio Populacional e Medidas para o Aumento da Qualidade
+<p>(VI) Declínio Populacional e Medidas para o Aumento da Qualidade
                 Para fortalecer a população, é necessário, em primeiro lugar, se esforçar para aumentar os nascimentos.
                 No entanto, é desnecessário dizer que, ao mesmo tempo, é necessário se esforçar para reduzir as mortes.
                 E, no esboço da política populacional desta vez, para atingir o objetivo de aumento populacional,
                 espera-se reduzir a taxa de mortalidade geral em aproximadamente 35% nos próximos vinte anos, mas isso
                 também, como no caso do aumento de nascimentos, é uma tarefa muito difícil.</p>
-            <p>Mencionei anteriormente que a taxa de mortalidade de nosso país ainda é consideravelmente alta em
+<p>Mencionei anteriormente que a taxa de mortalidade de nosso país ainda é consideravelmente alta em
                 comparação com países europeus como a Alemanha e o Reino Unido. No entanto, se investigarmos um pouco
                 mais detalhadamente, a taxa de mortalidade de bebês e crianças pequenas e a taxa de mortalidade por
                 tuberculose, que afeta principalmente jovens em torno dos vinte anos, são excepcionalmente altas.</p>
-            <p>No entanto, a taxa de mortalidade de bebês e crianças pequenas em nosso país tem diminuído a um ritmo
+<p>No entanto, a taxa de mortalidade de bebês e crianças pequenas em nosso país tem diminuído a um ritmo
                 notável nos últimos tempos, desde a época da última Guerra Mundial. Ou seja, a taxa de mortalidade
                 infantil em nosso país em 1918 era de 188,6 por mil nascidos vivos; em 1919, 170,5; e em 1920, 165,7.
                 Naquela época, quase 20% das crianças que nasciam morriam antes de completar seu primeiro aniversário.
@@ -618,10 +767,10 @@ function toggleLang(lang) {
                 mortalidade infantil no Reino Unido era de apenas 61,9 por mil nascidos vivos; na Alemanha, 65,8; e na
                 França, 67,0. Além disso, de acordo com a sexta tabela de vida de nosso país, de 100.000 nascidos vivos,
                 apenas 81.788 meninos e 83.229 meninas sobrevivem até os cinco anos.</p>
-            <p>Isso mostra o fato surpreendente de que quase 20% deles morrem antes de completar cinco anos. Para
+<p>Isso mostra o fato surpreendente de que quase 20% deles morrem antes de completar cinco anos. Para
                 reduzir a taxa de mortalidade de nosso país, é essencial, antes de tudo, reduzir a taxa de mortalidade
                 de bebês e crianças pequenas.</p>
-            <p>Quanto à taxa de mortalidade por tuberculose, até agora algumas pessoas pensavam que era algo inevitável
+<p>Quanto à taxa de mortalidade por tuberculose, até agora algumas pessoas pensavam que era algo inevitável
                 que acompanhava o progresso da civilização, algo que poderia ser chamado de doença da civilização. No
                 entanto, isso é um grande erro. A taxa de mortalidade por tuberculose em nosso país quase não mostra
                 tendência de queda. Pelo contrário, nos últimos tempos, tem mostrado uma tendência de aumento. Ou seja,
@@ -632,11 +781,11 @@ function toggleLang(lang) {
                 na Alemanha é de 5,5, na Austrália é de 3,8, e na Nova Zelândia é de 3,6. Isso prova que reduzir a taxa
                 de mortalidade por tuberculose não é necessariamente impossível, dependendo dos esforços,
                 independentemente do progresso da civilização.</p>
-            <p>Portanto, no esboço da política populacional desta vez, o foco principal para reduzir a taxa de
+<p>Portanto, no esboço da política populacional desta vez, o foco principal para reduzir a taxa de
                 mortalidade é melhorar a taxa de mortalidade de bebês e crianças pequenas e reduzir a taxa de
                 mortalidade por tuberculose.</p>
-            <h3>Dinâmica Populacional nos Diversos Países</h3>
-            <p>Vejamos, a título de exemplo, a dinâmica populacional da França. Mesmo neste país, no início do século
+<h3>Dinâmica Populacional nos Diversos Países</h3>
+<p>Vejamos, a título de exemplo, a dinâmica populacional da França. Mesmo neste país, no início do século
                 XIX, a taxa de natalidade era consideravelmente alta. De 1801 a 1810, era de 32,4; de 1811 a 1820, 31,8;
                 e de 1821 a 1830, 31,0. Contudo, entre 1831 e 1840, caiu abaixo da casa dos 30,0, chegando a 29,0. Desde
                 então, seguiu uma trajetória de declínio contínuo, caindo drasticamente para 25,0 na época da Guerra
@@ -646,14 +795,14 @@ function toggleLang(lang) {
                 continuou a cair, chegando à trágica situação de 14,6 em 1938. Diante disso, o sociólogo Laveleye, em
                 sua teoria da seleção social, aponta diversas causas, mas afirma que a principal é a infertilidade
                 fisiológica.</p>
-            <p>É preciso atentar para o fato de que o declínio populacional na França começou por volta de 1834.</p>
-            <p>Nas estatísticas desse país, o número de nascimentos no início do século XIX, em 1801, era de 900.000; em
+<p>É preciso atentar para o fato de que o declínio populacional na França começou por volta de 1834.</p>
+<p>Nas estatísticas desse país, o número de nascimentos no início do século XIX, em 1801, era de 900.000; em
                 1926, 750.000; e em 1931, 730.000. A diferença pode não parecer tão grande, mas é preciso analisar em
                 proporção ao crescimento populacional do período. Em 1801, foram 900.000 nascimentos para uma população
                 de 27 milhões; em 1926, 750.000 nascimentos para uma população de 40 milhões; e em 1931, 730.000
                 nascimentos para uma população de 41,8 milhões. Isso permite perceber a gravidade do declínio da taxa de
                 natalidade. A título de ilustração, apresentamos a evolução da taxa de natalidade:</p>
-            <p>| Período | Média de Nascimentos por 10.000 Habitantes |
+<p>| Período | Média de Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | 1801-1810 | 329 |
                 | 1811-1820 | 318 |
@@ -670,13 +819,13 @@ function toggleLang(lang) {
                 | 1921-1925 | 193 |
                 | 1926 | 188 |
                 | 1931 | 174 |</p>
-            <p>O declínio da taxa de natalidade nos países civilizados não se restringe à França; hoje, pode ser visto
+<p>O declínio da taxa de natalidade nos países civilizados não se restringe à França; hoje, pode ser visto
                 como uma lei universal. A razão pela qual o declínio da taxa de natalidade na França se tornou um
                 problema foi porque a diminuição já se manifestou no início do século XIX. Os países que viam o declínio
                 da taxa de natalidade francesa como um problema distante agora enfrentam uma situação semelhante. A
                 seguir, apresentamos a situação dos países europeus.</p>
-            <p>No Reino Unido, a taxa de natalidade é a seguinte:</p>
-            <p>| Período | Nascimentos por 10.000 Habitantes |
+<p>No Reino Unido, a taxa de natalidade é a seguinte:</p>
+<p>| Período | Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | 1841-1850 | 326 |
                 | 1851-1860 | 342 |
@@ -691,8 +840,8 @@ function toggleLang(lang) {
                 | 1926 | 178 |
                 | 1930 | 168 |
                 <em>Fonte: Tese do Professor Shiras</em>
-            </p>
-            <p>Até 1871-1880, a taxa de natalidade seguia uma trajetória de aumento, mas desde então inverteu sua
+</p>
+<p>Até 1871-1880, a taxa de natalidade seguia uma trajetória de aumento, mas desde então inverteu sua
                 direção e está diminuindo de forma acelerada. De 355, caiu para 241 antes da guerra, chegando a 178 em
                 1926 e 168 em 1930. No meio século entre 1871-1880 e 1926, continuou a cair, diminuindo para quase menos
                 da metade. Comparando com o declínio da França, a velocidade é cerca de duas vezes e meia mais rápida,
@@ -701,7 +850,7 @@ function toggleLang(lang) {
                 marcante das estatísticas populacionais do Reino Unido desde o início deste século, continua, e a taxa
                 de declínio parece estar se acelerando cada vez mais”. As estatísticas recentes do Reino Unido são tão
                 pessimistas quanto as seguintes:</p>
-            <p>| Ano | Nascimentos por 10.000 Habitantes |
+<p>| Ano | Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | 1921 | 224 |
                 | 1922 | 204 |
@@ -709,9 +858,9 @@ function toggleLang(lang) {
                 | 1924 | 188 |
                 | 1925 | 183 |
                 | 1926 | 178 |</p>
-            <p>Como se vê, em 1926, a taxa já era inferior à da França (188).</p>
-            <p>Vejamos agora a Alemanha.</p>
-            <p>| Período | Nascimentos por 10.000 Habitantes |
+<p>Como se vê, em 1926, a taxa já era inferior à da França (188).</p>
+<p>Vejamos agora a Alemanha.</p>
+<p>| Período | Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | 1841-1850 | 361 |
                 | 1851-1860 | 353 |
@@ -723,26 +872,26 @@ function toggleLang(lang) {
                 | 1911-1915 | 285 |
                 | 1916-1920 | 179 |
                 | 1921-1925 | 219 |</p>
-            <p>Até 1871-1880, a taxa de natalidade vinha aumentando gradualmente, mas desde então começou a diminuir de
+<p>Até 1871-1880, a taxa de natalidade vinha aumentando gradualmente, mas desde então começou a diminuir de
                 forma bastante acentuada. De 391, caiu para 330 no início do século XX. No entanto, na Alemanha, onde a
                 taxa de natalidade era geralmente muito alta, não se acreditou nesse declínio súbito. O Sr. Dietzel o
                 viu com ceticismo, o Sr. Wagner, em 1907, atribuiu-o a uma maré baixa temporária na taxa de natalidade,
                 e o Sr. Fielks atribuiu-o a um erro no cálculo estatístico. Assim, os estudiosos alemães não acreditaram
                 no declínio da taxa de natalidade. No entanto, a realidade continuou a ser de declínio, e em 1913, caiu
                 para 276. Isso significa que a Alemanha perdeu um terço de sua taxa de natalidade em quarenta anos.</p>
-            <p>A situação após a guerra é a seguinte:</p>
-            <p>| Ano | Nascimentos por 10.000 Habitantes |
+<p>A situação após a guerra é a seguinte:</p>
+<p>| Ano | Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | 1921 | 253 |
                 | 1922 | 230 |
                 | 1923 | 208 |
                 | 1924 | 202 |
                 | 1925 | 204 |</p>
-            <p>No período de 1871 a 1925, a taxa de natalidade caiu de 391 para 204. Ou seja, em meio século, perdeu
+<p>No período de 1871 a 1925, a taxa de natalidade caiu de 391 para 204. Ou seja, em meio século, perdeu
                 metade de sua taxa de natalidade (48%). E o declínio continua de forma regular. A velocidade da queda é
                 duas vezes e meia a da França.</p>
-            <p>Vejamos agora a Itália.</p>
-            <p>| Ano | Nascimentos por 10.000 Habitantes |
+<p>Vejamos agora a Itália.</p>
+<p>| Ano | Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | 1861-1870 | 371 |
                 | 1871-1880 | 370 |
@@ -752,27 +901,27 @@ function toggleLang(lang) {
                 | 1911-1915 | 328 |
                 | 1916-1920 | 229 |
                 | 1921-1925 | 291 |</p>
-            <p>A Itália também apresenta um fenômeno de declínio da taxa de natalidade, embora não tão acentuado quanto
+<p>A Itália também apresenta um fenômeno de declínio da taxa de natalidade, embora não tão acentuado quanto
                 no Reino Unido ou na Alemanha. No entanto, o declínio recente da taxa de natalidade é bastante notável.
             </p>
-            <p>| Ano | Nascimentos por 10.000 Habitantes |
+<p>| Ano | Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | 1921 | 303 |
                 | 1922 | 302 |
                 | 1923 | 293 |
                 | 1924 | 282 |
                 | 1925 | 275 |</p>
-            <p>E o declínio continua, chegando a 251 em 1929. Diante disso, o governo italiano emitiu um grande alerta à
+<p>E o declínio continua, chegando a 251 em 1929. Diante disso, o governo italiano emitiu um grande alerta à
                 nação, afirmando que, se a taxa de natalidade continuasse a diminuir, o país enfrentaria uma grande
                 crise no final do século XX, e incentivou fortemente o aumento da população. De qualquer forma, a Itália
                 perdeu um quarto de sua taxa de natalidade em cerca de quarenta anos, até 1925.</p>
-            <p>Além disso, o Sr. Rabinowicz apresenta estatísticas sobre a Bélgica, Suécia e Noruega, mostrando o
+<p>Além disso, o Sr. Rabinowicz apresenta estatísticas sobre a Bélgica, Suécia e Noruega, mostrando o
                 declínio da taxa de natalidade. A taxa de natalidade da Bélgica perdeu 40% em cerca de oitenta anos. A
                 Suécia, por vezes, seguiu o mesmo caminho da França, com a taxa de natalidade caindo pela metade em um
                 século. Na Noruega, o declínio da taxa de natalidade começou mais tarde do que na Suécia, mas perdeu 40%
                 em dez anos. A Suíça perdeu 40% de sua taxa de natalidade em meio século (1875-1926).</p>
-            <p>Voltemos agora os olhos para outros continentes. E a Austrália e a Nova Zelândia?</p>
-            <p>| Ano | Austrália | Nova Zelândia |
+<p>Voltemos agora os olhos para outros continentes. E a Austrália e a Nova Zelândia?</p>
+<p>| Ano | Austrália | Nova Zelândia |
                 | :--- | :--- | :--- |
                 | 1913 | 282 | 261 |
                 | 1914 | 279 | 260 |
@@ -787,19 +936,19 @@ function toggleLang(lang) {
                 | 1927 | 217 | 203 |
                 | 1928 | 213 | 196 |
                 | 1929 | 203 | 190 |</p>
-            <p>Ambos perderam mais de 30% de sua taxa de natalidade em apenas dezesseis anos. Os países de população
+<p>Ambos perderam mais de 30% de sua taxa de natalidade em apenas dezesseis anos. Os países de população
                 branca do hemisfério sul, com circunstâncias sociais completamente diferentes da Europa, também não são
                 exceção ao declínio da taxa de natalidade.</p>
-            <p>Com base nas estatísticas desses países, Rabinowicz conclui que se observa um declínio da taxa de
+<p>Com base nas estatísticas desses países, Rabinowicz conclui que se observa um declínio da taxa de
                 natalidade em todos os países e povos do mundo.</p>
-            <p>E os Estados Unidos? Como não há registro de nascimentos em todo o país, não há dados para mostrar
+<p>E os Estados Unidos? Como não há registro de nascimentos em todo o país, não há dados para mostrar
                 diretamente o declínio da taxa de natalidade em todo o país. No entanto, subtraindo-se o número de
                 imigrantes líquidos da população total em cada ano de censo e comparando-o com a população do ano de
                 censo anterior, pode-se calcular a taxa de crescimento da população e, assim, ter uma ideia geral da
                 tendência da taxa de natalidade. De acordo com isso, a taxa de natalidade vem diminuindo desde 1880.
                 Além disso, a taxa de natalidade nas áreas de registro recentes também mostra um declínio anual, como na
                 tabela a seguir.</p>
-            <p>| Ano | Nascimentos por 1.000 Habitantes |
+<p>| Ano | Nascimentos por 1.000 Habitantes |
                 | :--- | :--- |
                 | 1920-21 | 24,0 |
                 | 1922-23 | 22,5 |
@@ -810,12 +959,12 @@ function toggleLang(lang) {
                 | 1929 | 18,9 |
                 | 1930 | 18,9 |
                 <em>Fonte: Shirras, "The Population Problem in India", Economic Journal, mar., 1933, p. 63.</em>
-            </p>
-            <p>Na América do Sul, por enquanto, só se sabe da Argentina. Em 1910-14, a taxa de natalidade média anual
+</p>
+<p>Na América do Sul, por enquanto, só se sabe da Argentina. Em 1910-14, a taxa de natalidade média anual
                 era de 38,9 por mil, e a taxa de crescimento natural era de 20,8, uma proporção esplêndida. No entanto,
                 em 1934-38, a taxa de natalidade caiu para 25,0 e a taxa de crescimento natural para 12,5.</p>
-            <p>Então, e o nosso Japão?</p>
-            <p>| Ano | Nascimentos por 1.000 Habitantes |
+<p>Então, e o nosso Japão?</p>
+<p>| Ano | Nascimentos por 1.000 Habitantes |
                 | :--- | :--- |
                 | 1911-15 | 33,5 |
                 | 1916-20 | 33,0 |
@@ -826,7 +975,7 @@ function toggleLang(lang) {
                 | 1929 | 33,0 |
                 | 1930 | 32,4 |
                 | 1931 | 32,1 |</p>
-            <p>Em 1916-20, devido à influência da Guerra Mundial, a taxa caiu para um mínimo de 31,6 em 1919 (Taisho 9),
+<p>Em 1916-20, devido à influência da Guerra Mundial, a taxa caiu para um mínimo de 31,6 em 1919 (Taisho 9),
                 e no ano seguinte, talvez por uma reação, subiu para 36,2, estabelecendo um recorde para nosso país. A
                 flutuação da taxa de natalidade durante este período é observada em todos os países do mundo. Portanto,
                 se excluirmos este período e olharmos para o quadro geral, a taxa de natalidade de nosso país mostrou um
@@ -834,10 +983,10 @@ function toggleLang(lang) {
                 os países chamados civilizados do mundo estão em uma tendência de declínio da taxa de natalidade há cem
                 anos, ou no mínimo quarenta a cinquenta anos, o fato de nosso país ter mostrado um aumento na taxa de
                 natalidade é algo que tem chamado a atenção dos estudiosos.</p>
-            <p>Diante disso, hoje o declínio da taxa de natalidade tornou-se uma lei de ferro populacional nos países
+<p>Diante disso, hoje o declínio da taxa de natalidade tornou-se uma lei de ferro populacional nos países
                 civilizados. A tabela a seguir mostra o quanto os países civilizados do mundo diminuíram sua taxa de
                 natalidade.</p>
-            <p>| País | Anos | Percentual de Declínio da Taxa de Natalidade |
+<p>| País | Anos | Percentual de Declínio da Taxa de Natalidade |
                 | :--- | :--- | :--- |
                 | França | 120 anos | 45% |
                 | Reino Unido | 50 anos | 50% |
@@ -847,12 +996,12 @@ function toggleLang(lang) {
                 | Suécia | 100 anos | 50% |
                 | Noruega | 70 anos | 40% |
                 | Suíça | 50 anos | 40% |</p>
-            <p>Em suma, a França foi apenas a primeira a iniciar o declínio da taxa de natalidade. Todos os outros
+<p>Em suma, a França foi apenas a primeira a iniciar o declínio da taxa de natalidade. Todos os outros
                 países, com maior ou menor atraso, seguiram o mesmo caminho, e hoje alguns a alcançaram, enquanto outros
                 a ultrapassaram.</p>
-            <p>A época em que a taxa de natalidade da França era excepcionalmente baixa já passou. Hoje, os tempos
+<p>A época em que a taxa de natalidade da França era excepcionalmente baixa já passou. Hoje, os tempos
                 mudaram completamente, e a situação atual dos países europeus é a seguinte (1929):</p>
-            <p>| País | Nascimentos por 10.000 Habitantes |
+<p>| País | Nascimentos por 10.000 Habitantes |
                 | :--- | :--- |
                 | França | 177 |
                 | Suíça | 171 |
@@ -860,11 +1009,11 @@ function toggleLang(lang) {
                 | Noruega | 173 |
                 | Áustria | 167 |
                 | Suécia | 152 |</p>
-            <p>O fato de o declínio da taxa de natalidade ser acompanhado pelo declínio da taxa de mortalidade é
+<p>O fato de o declínio da taxa de natalidade ser acompanhado pelo declínio da taxa de mortalidade é
                 geralmente o mesmo em todos os países, mas como o declínio da taxa de natalidade é, sem exceção, maior
                 que o declínio da taxa de mortalidade, a taxa de crescimento diminui. Como exemplo, apresentamos as
                 estatísticas da França:</p>
-            <p>| Ano | Mortes por 10.000 Habitantes | Excedente de Nascimentos |
+<p>| Ano | Mortes por 10.000 Habitantes | Excedente de Nascimentos |
                 | :--- | :--- | :--- |
                 | 1801-10 | 286 | 73 |
                 | 1811-20 | 260 | 53 |
@@ -878,15 +1027,15 @@ function toggleLang(lang) {
                 | 1891-1900 | 215 | 16 |
                 | 1901-10 | 194 | 12 |
                 | 1913 | 176 | 15 |</p>
-            <p>A taxa de mortalidade caiu consideravelmente até 1913, ou seja, 39%, mas como a taxa de natalidade caiu
+<p>A taxa de mortalidade caiu consideravelmente até 1913, ou seja, 39%, mas como a taxa de natalidade caiu
                 ainda mais, o excedente de nascimentos foi afetado. Do final do século XIX ao início do século XX, o
                 excedente foi muito fraco, e até apareceram anos com excedente de mortes. Não é de se estranhar que os
                 intelectuais franceses tenham clamado pela extinção de seu país. Finalmente, em 1938, o país registrou
                 um déficit de cerca de 130.000 pessoas.</p>
-            <p>Finalmente, apresentemos novamente as estatísticas de nosso país.
+<p>Finalmente, apresentemos novamente as estatísticas de nosso país.
                 Atingindo um pico de 36,19 por mil habitantes em 1920, a taxa de natalidade mostrou uma tendência de
                 queda desde então, e a taxa de mortalidade também mostrou uma tendência semelhante.</p>
-            <p>| Ano | Taxa de Natalidade | Taxa de Mortalidade |
+<p>| Ano | Taxa de Natalidade | Taxa de Mortalidade |
                 | :--- | :--- | :--- |
                 | Taisho 9 (1920) | 36,19 | 25,41 |
                 | Taisho 10 | 35,06 | 23,69 |
@@ -907,7 +1056,7 @@ function toggleLang(lang) {
                 | Showa 11 | 29,92 | 17,51 |
                 | Showa 12 | 30,61 | 16,95 |
                 | Showa 13 | 26,70 | 17,44 |</p>
-            <p>Como se vê na tabela acima, embora haja algumas flutuações de ano para ano, pode-se ver claramente que
+<p>Como se vê na tabela acima, embora haja algumas flutuações de ano para ano, pode-se ver claramente que
                 tanto a taxa de natalidade quanto a de mortalidade estão diminuindo gradualmente. Ou seja, a taxa de
                 natalidade, que era de 36,19 em 1920, caiu drasticamente para 26,70 em 1938, dezoito anos depois. No
                 entanto, a taxa de mortalidade também caiu drasticamente de 25,41 em 1920 para 16,78 em 1935, mas
@@ -916,9 +1065,9 @@ function toggleLang(lang) {
                 estarem diminuindo é algo a ser observado. A opinião pública interpreta a diminuição gradual da taxa de
                 mortalidade como resultado do progresso da medicina, mas isso é um erro, e explicarei a causa em
                 detalhes mais adiante.</p>
-            <p>Supondo que tanto a taxa de natalidade quanto a de mortalidade mantenham essa tendência, a previsão
+<p>Supondo que tanto a taxa de natalidade quanto a de mortalidade mantenham essa tendência, a previsão
                 futura calculada pelo Dr. Tomonaga Nakagawa é a seguinte:</p>
-            <p>| Ano | Taxa de Natalidade | Taxa de Mortalidade | Taxa de Crescimento Natural |
+<p>| Ano | Taxa de Natalidade | Taxa de Mortalidade | Taxa de Crescimento Natural |
                 | :--- | :--- | :--- | :--- |
                 | Showa 10 (1935) | 31,63 | 16,78 | 14,85 |
                 | Showa 15 | 28,78 | 15,30 | 13,48 |
@@ -938,7 +1087,7 @@ function toggleLang(lang) {
                 | Showa 85 | 12,60 | 15,69 | (-)3,09 |
                 | Showa 90 | 11,90 | 16,06 | (-)4,16 |
                 | Showa 95 | 11,20 | 17,35 | (-)6,15 |</p>
-            <p>Observando a tabela acima, a taxa de natalidade diminui gradualmente. Em 1960, aproxima-se da recente
+<p>Observando a tabela acima, a taxa de natalidade diminui gradualmente. Em 1960, aproxima-se da recente
                 taxa de natalidade da Itália, 23,6. Em 1975, da recente taxa de natalidade da Alemanha, 19,7. Em 1990,
                 da recente taxa de natalidade do Reino Unido, 15,1. Em 1995, da recente taxa de natalidade da França,
                 14,6. A tendência de queda da taxa de natalidade continua, e calcula-se que em 2015 ela cairá para
@@ -954,7 +1103,7 @@ function toggleLang(lang) {
                 mortalidade relativamente baixo aumenta. No entanto, a partir de 1965, embora a proporção de bebês e
                 crianças pequenas com alto risco de mortalidade continue a diminuir, por outro lado, a proporção de
                 idosos com alto risco de mortalidade aumenta gradualmente.</p>
-            <p>Em seguida, observando a evolução da taxa de crescimento natural, como a queda da taxa de natalidade é
+<p>Em seguida, observando a evolução da taxa de crescimento natural, como a queda da taxa de natalidade é
                 maior que a queda da taxa de mortalidade, a taxa de crescimento natural diminui gradualmente. No
                 entanto, até 1955, ainda é possível manter uma taxa de crescimento natural acima de 13. Mas, a partir de
                 1965, enquanto a taxa de natalidade continua a diminuir, a taxa de mortalidade mostra uma tendência de
@@ -967,10 +1116,10 @@ function toggleLang(lang) {
                 nosso povo. Não há necessidade de discutir que, diante dessa crise que se manifesta na realidade,
                 devemos estabelecer uma política fundamental e abrangente. É natural que o governo tenha estabelecido
                 recentemente o Bureau de População e esteja tomando medidas urgentes.</p>
-            <p>A seguir, supondo que a taxa de natalidade e a taxa de mortalidade futuras mantenham a tendência de queda
+<p>A seguir, supondo que a taxa de natalidade e a taxa de mortalidade futuras mantenham a tendência de queda
                 dos últimos anos, a população futura de nosso país, calculada pelo Dr. Nakagawa, é mostrada na tabela a
                 seguir. No entanto, é preciso observar que a influência do Incidente da China não foi considerada.</p>
-            <p>| Ano | População Total |
+<p>| Ano | População Total |
                 | :--- | :--- |
                 | Showa 10 (1935) | 69.254.148 |
                 | Showa 15 | 73.939.278 |
@@ -991,7 +1140,7 @@ function toggleLang(lang) {
                 | Showa 90 | 118.492.685 |
                 | Showa 95 | 115.465.385 |
                 | Showa 100 | 111.776.766 |</p>
-            <p>Observando a tabela acima, embora a taxa de crescimento natural esteja diminuindo gradualmente, ela é
+<p>Observando a tabela acima, embora a taxa de crescimento natural esteja diminuindo gradualmente, ela é
                 positiva até 1995, de modo que a população total nesse ano é a mais alta, atingindo mais de 122,74
                 milhões. A partir de então, a população total começa a diminuir, mas em 2020, ainda terá uma população
                 muito maior que os 73,93 milhões de 1940. O fato de que, mesmo em 2020, excluindo a influência do
@@ -1001,7 +1150,7 @@ function toggleLang(lang) {
                 é a encruzilhada do declínio do povo. O fato de que um dos objetivos do esboço da política populacional
                 do governo seja “garantir o desenvolvimento eterno da população” provavelmente levou em consideração
                 este ponto.</p>
-            <p>Como vimos acima, ao examinar a dinâmica populacional em nosso Japão e em outros países, o fato da queda
+<p>Como vimos acima, ao examinar a dinâmica populacional em nosso Japão e em outros países, o fato da queda
                 na taxa de crescimento já se tornou uma grande lei de ferro, sem exceção, em todos os países. Como
                 contramedida, as políticas que estão sendo implementadas em vários países até hoje, como se sabe, têm
                 como principais medidas para aumentar a taxa de natalidade a redução da idade do casamento e a prevenção
@@ -1009,19 +1158,19 @@ function toggleLang(lang) {
                 tuberculose e da mortalidade infantil. Outras medidas seriam a prevenção da concentração da população
                 nas cidades, ou seja, a redistribuição da população, a exaltação da consciência nacional, a
                 reconfirmação do sistema familiar, etc.</p>
-            <p>No entanto, afirmo que todas as medidas acima são paliativas, não de raiz, e, embora possam ter algum
+<p>No entanto, afirmo que todas as medidas acima são paliativas, não de raiz, e, embora possam ter algum
                 efeito, não conseguirão de forma alguma impedir a tendência geral. Não é preciso dizer que todas as
                 coisas têm uma causa e um resultado. Naturalmente, a queda na taxa de crescimento populacional não está
                 fora dessa lei. Portanto, não pode haver uma contramedida fundamental além de descobrir sua causa e
                 removê-la. No entanto, o fato de que essa causa não foi descoberta por ninguém até hoje foi, por sua
                 vez, uma segunda causa.</p>
-            <p>No entanto, essa causa – ou seja, o enigma mencionado no início – será explicada na próxima seção.</p>
-            <h3>O Problema da Queda na Taxa de Crescimento Populacional</h3>
-            <p>Pelas estatísticas dos vários países apresentadas até agora, a tendência do problema populacional do
+<p>No entanto, essa causa – ou seja, o enigma mencionado no início – será explicada na próxima seção.</p>
+<h3>O Problema da Queda na Taxa de Crescimento Populacional</h3>
+<p>Pelas estatísticas dos vários países apresentadas até agora, a tendência do problema populacional do
                 Japão e do mundo atual deve ter sido compreendida. Em resumo, pode-se reduzir a dois pontos:
                 1. Na Europa, a queda na taxa de crescimento começou após meados do século XIX; no Japão, após 1921.
                 2. A causa da diminuição da taxa de mortalidade e da taxa de crescimento ocorrerem em paralelo.</p>
-            <p>Vamos analisar profundamente esses dois pontos.
+<p>Vamos analisar profundamente esses dois pontos.
                 Como causa do ponto 1, afirmo categoricamente que é a própria vacinação antivariólica, que a humanidade
                 mundial considera como um salvador.
                 A vacinação antivariólica, como se sabe, foi descoberta por Edward Jenner, que nasceu em Berkeley,
@@ -1031,7 +1180,7 @@ function toggleLang(lang) {
                 Posteriormente, soube-se que a varíola bovina poderia substituir a varíola humana. Em 14 de maio de
                 1796, ele inoculou a varíola bovina no braço de seu próprio filho e confirmou seu sucesso, e em 1798,
                 anunciou finalmente o método de vacinação.</p>
-            <p>Em nosso país, a primeira vacina chegou no segundo ano da Era Kaei (1849). Em seguida, no quinto ano da
+<p>Em nosso país, a primeira vacina chegou no segundo ano da Era Kaei (1849). Em seguida, no quinto ano da
                 Era Ansei (1858), o Instituto de Vacinação foi inaugurado em Otamagaike, Kanda, e o Instituto de
                 Medicina Ocidental foi estabelecido, posteriormente renomeado para Instituto de Medicina, que é a atual
                 Faculdade de Medicina da Universidade Imperial. Depois disso, no início da Era Meiji, Nagayo Sensai
@@ -1039,7 +1188,7 @@ function toggleLang(lang) {
                 do sétimo ano da Era Meiji, o Posto de Transmissão de Varíola Bovina foi estabelecido em Bakurocho,
                 Tóquio, e, em seguida, o Instituto de Doenças Infecciosas passou a produzir a vacina, e a varíola bovina
                 passou a ser usada para inocular a população em geral e obter imunidade à varíola.</p>
-            <p>Aqui, gostaria de esclarecer que, na medicina, imunidade parece significar não desenvolver a doença. No
+<p>Aqui, gostaria de esclarecer que, na medicina, imunidade parece significar não desenvolver a doença. No
                 entanto, se avançarmos um passo no raciocínio, a seguinte teoria se estabelece. Não desenvolver a doença
                 pode significar que a toxina da varíola foi eliminada e desapareceu, ou que, mesmo com a presença da
                 toxina, a doença não se manifesta por alguma razão. A razão é a seguinte: os seres humanos nascem com
@@ -1050,7 +1199,7 @@ function toggleLang(lang) {
                 cada pústula se rompe e o pus é expelido – esse processo é chamado de doença da varíola. A febre nesse
                 momento é uma ação de dissolução natural para facilitar a expulsão da toxina. Portanto, ao observar a
                 própria varíola, qualquer pessoa pode concordar com essa razão.</p>
-            <p>A vacinação antivariólica, no entanto, suprime essa ação de eliminação da toxina da varíola (doravante
+<p>A vacinação antivariólica, no entanto, suprime essa ação de eliminação da toxina da varíola (doravante
                 abreviada como toxina natural). Ela enfraquece a força purificadora. Em outras palavras, transforma o
                 positivo em negativo. Essa toxina natural negativada, ou seja, a toxina natural negativada, perde sua
                 força de eliminação e permanece no corpo. E que ação essa toxina natural negativada que permaneceu no
@@ -1058,13 +1207,13 @@ function toggleLang(lang) {
                 e todas as outras enfermidades. Além disso, a permanência da toxina natural negativada enfraquece as
                 funções de todo o corpo, promovendo, naturalmente, o declínio da condição física geral e a queda na taxa
                 de fertilidade feminina. Esta é a verdadeira causa do surgimento do problema populacional.</p>
-            <p>Isso se manifesta claramente nas estatísticas populacionais. Na Europa, foi após a descoberta da
+<p>Isso se manifesta claramente nas estatísticas populacionais. Na Europa, foi após a descoberta da
                 vacinação. Como mostram as estatísticas, a França foi a primeira, mostrando sinais de diminuição na taxa
                 de crescimento trinta ou quarenta anos após a descoberta da vacinação. A Inglaterra e a Alemanha, cerca
                 de setenta ou oitenta anos depois. Em nosso país também, seguindo quase o mesmo caminho da Europa, os
                 sinais começaram a aparecer cerca de cinquenta ou sessenta anos após a vacinação em geral se tornar
                 comum.</p>
-            <p>Vejamos outro exemplo. A taxa de natalidade de 40 por mil dos chineses, cuja medicina e higiene social
+<p>Vejamos outro exemplo. A taxa de natalidade de 40 por mil dos chineses, cuja medicina e higiene social
                 são imperfeitas, deve-se inteiramente ao fato de não praticarem a vacinação, não é preciso dizer. Outros
                 exemplos: o fato de o vencedor da maratona na décima primeira Olimpíada, Son Kitei, ser coreano; o fato
                 de os vencedores do primeiro e segundo lugares no levantamento de peso no Campeonato de Educação Física
@@ -1076,7 +1225,7 @@ function toggleLang(lang) {
                 a situação atual continuar, o que acontecerá? A disparidade na força dos povos aumentará cada vez mais,
                 e quem pode negar que virá uma era terrível em que os povos civilizados se extinguirão e os povos não
                 civilizados prosperarão? Diante dessa realidade inegável, não podemos fechar os olhos.</p>
-            <p>Vamos agora explicar como a toxina natural negativada se torna a causa de todas as doenças. Com isso,
+<p>Vamos agora explicar como a toxina natural negativada se torna a causa de todas as doenças. Com isso,
                 será impossível não reconhecer como a medicina até hoje errou em sua raiz.
                 Primeiro, o que é a doença? “O que é a doença?” talvez seja a questão que mais atormentou a mente humana
                 ao longo dos tempos. Quantos milhares, dezenas de milhares de intelectuais em todo o mundo dedicaram
@@ -1091,8 +1240,8 @@ function toggleLang(lang) {
                 longevidade é estendida”. Portanto, o homem deve oferecer a maior gratidão pela doença. Ao lerem tal
                 teoria, provavelmente não deixarão de se surpreender com sua estranheza. Então, em que razão ela se
                 baseia? Explicarei em detalhes a seguir.</p>
-            <h3>A Verdadeira Causa da Doença</h3>
-            <p>Quando um ser humano nasce neste mundo, ele possui toxinas hereditárias, principalmente a toxina da
+<h3>A Verdadeira Causa da Doença</h3>
+<p>Quando um ser humano nasce neste mundo, ele possui toxinas hereditárias, principalmente a toxina da
                 varíola mencionada no início, além de várias outras, como já expliquei. Como a saúde não pode ser
                 perfeitamente mantida devido ao obstáculo dessas toxinas, o corpo humano é feito de forma que uma ação
                 purificadora natural ocorre constantemente para que elas sejam expelidas para fora do corpo. Quando essa
@@ -1104,7 +1253,7 @@ function toggleLang(lang) {
                 coriza, catarro, falta de apetite, cansaço geral, dores nos membros, etc. Qual a razão disso? Pela
                 primeira ação purificadora, que ocorre constantemente, as toxinas acumuladas em várias partes do corpo
                 iniciaram uma atividade para serem eliminadas pela segunda ação purificadora.</p>
-            <p>Aqui, é necessário explicar o que é a ação purificadora. A ação purificadora é o processo pelo qual
+<p>Aqui, é necessário explicar o que é a ação purificadora. A ação purificadora é o processo pelo qual
                 substâncias impuras do corpo, como a toxina natural, a toxina úrica, as toxinas medicamentosas, etc.,
                 através de uma ação purificadora constante, acumulam-se e se solidificam gradualmente em um determinado
                 local. E onde é o local de acúmulo? É especialmente nos lugares onde se usam os nervos, e explicarei
@@ -1116,7 +1265,7 @@ function toggleLang(lang) {
                 seguida, no segundo caso, ocorre a ação de dissolução desse enrijecimento, que são os sintomas do
                 resfriado. Ou seja, esse sofrimento é a doença. O ditado popular de que “quando os ombros enrijecem,
                 pega-se um resfriado” se baseia nesse princípio.</p>
-            <p>Como expliquei acima, a febre é uma ação de dissolução para facilitar a eliminação do acúmulo de toxinas,
+<p>Como expliquei acima, a febre é uma ação de dissolução para facilitar a eliminação do acúmulo de toxinas,
                 e as toxinas dissolvidas e liquefeitas são a coriza e o catarro. Elas também podem se tornar suor,
                 urina, diarreia, etc. No entanto, mesmo as toxinas líquidas, quando ainda são concentradas, são difíceis
                 de eliminar, e para isso ocorre uma ação de sucção. Isso é o espirro e a tosse. O espirro é para sugar a
@@ -1128,7 +1277,7 @@ function toggleLang(lang) {
                 ocorre porque, pelo mesmo princípio, as cordas vocais e as válvulas sofrem de catarro, o que dificulta o
                 funcionamento das válvulas de fonação. A dor de cabeça é a irritação da ação de eliminação das toxinas
                 líquidas dissolvidas pela febre nas toxinas do pescoço ou da cabeça.</p>
-            <p>O resfriado é isso. Portanto, se deixado em paz, sem nenhum tratamento ou medicamento, a ação
+<p>O resfriado é isso. Portanto, se deixado em paz, sem nenhum tratamento ou medicamento, a ação
                 purificadora ocorrerá sem problemas e a cura completa virá em pouco tempo. Portanto, o fato de a ação
                 purificadora ocorrer tão facilmente com um resfriado é uma verdadeira bênção celestial. Por esse
                 princípio, cada vez que se contrai um resfriado, as toxinas diminuem. Se um resfriado for curado
@@ -1138,13 +1287,13 @@ function toggleLang(lang) {
                 um resfriado raramente, como a toxina é mínima, quase não há febre, apenas um pouco de coriza e catarro,
                 e pode-se dizer que não há outros sofrimentos. Pode-se continuar com as atividades diárias e a cura
                 ocorre quase sem que se perceba.</p>
-            <p>No entanto, todas as teorias médicas até hoje são o oposto disso. O resfriado é temido como um prelúdio
+<p>No entanto, todas as teorias médicas até hoje são o oposto disso. O resfriado é temido como um prelúdio
                 de uma doença grave. Desde os tempos antigos, diz-se que “o resfriado é a base de todas as doenças”, e
                 hoje é temido como a porta de entrada para a tuberculose. Mas, por esse princípio, o resfriado é “a
                 causa de se evitar todas as doenças”, um método para não contrair tuberculose. Portanto, contrair um
                 resfriado é algo a se alegrar, e “fazer com que se contraia um resfriado” é a primeira condição para
                 promover a saúde.</p>
-            <p>Por desconhecerem esse princípio, todas as terapias até hoje temem o resfriado, consideram o sofrimento
+<p>Por desconhecerem esse princípio, todas as terapias até hoje temem o resfriado, consideram o sofrimento
                 causado por ele como uma ação de agravamento e o suprimem. O primeiro método para isso é o uso de
                 medicamentos. Todos os medicamentos são toxinas. Um grande mestre da medicina chinesa antiga disse:
                 “Todos os remédios são venenos. Portanto, curar doenças com remédios é combater veneno com veneno”. É
@@ -1164,17 +1313,17 @@ function toggleLang(lang) {
                 são adicionadas a cada vez, de modo que as toxinas a serem purificadas aumentam cada vez mais.
                 Consequentemente, é natural que o resfriado se torne gradualmente mais maligno. Como resultado, a
                 pneumonia, etc., ocorre.</p>
-            <p>Originalmente, a doença chamada pneumonia é uma forma intensa de ação purificadora. Pode-se dizer que é
+<p>Originalmente, a doença chamada pneumonia é uma forma intensa de ação purificadora. Pode-se dizer que é
                 uma forma grave de resfriado. Como mencionado anteriormente, como a pequena ação purificadora do
                 resfriado é suprimida, as toxinas se acumulam e aumentam a cada vez, e isso se manifesta de uma vez como
                 uma grande ação purificadora reativa.</p>
-            <p>Como a medicina atual partiu de um erro fundamental, é natural que, quanto mais a medicina progride, mais
+<p>Como a medicina atual partiu de um erro fundamental, é natural que, quanto mais a medicina progride, mais
                 doentes surjam e mais a condição física decline. Portanto, o progresso da medicina não é um progresso
                 que cura doenças, mas sim “um progresso que não cura doenças”. A diminuição na taxa de crescimento
                 populacional também tem como principal causa a queda na taxa de fertilidade feminina, como os estudiosos
                 reconhecem. A morte de bebês e crianças pequenas e o aumento da tuberculose também se devem,
                 naturalmente, ao erro da medicina atual.</p>
-            <p>Em segundo lugar, a razão pela qual a queda na taxa de crescimento populacional e a diminuição da taxa de
+<p>Em segundo lugar, a razão pela qual a queda na taxa de crescimento populacional e a diminuição da taxa de
                 mortalidade ocorrem em paralelo é a seguinte. O fato de que, nos países civilizados da Europa, as
                 doenças infecciosas e a tuberculose pulmonar diminuíram nos últimos anos é atribuído ao progresso da
                 higiene social, mas essa é apenas uma parte da razão, não a razão geral. Naturalmente, a perfeição das
@@ -1184,7 +1333,7 @@ function toggleLang(lang) {
                 purificadora devido à força física vigorosa. Portanto, é natural que, em um povo cuja força física
                 diminuiu, a ação purificadora não possa ocorrer intensamente. O fato de haver muitas doenças infecciosas
                 entre o povo chinês se deve mais à sua força física vigorosa do que à sua indiferença à higiene.</p>
-            <p>Se levarmos essa teoria adiante, chegaremos ao seguinte. Para facilitar a compreensão, vamos dividir os
+<p>Se levarmos essa teoria adiante, chegaremos ao seguinte. Para facilitar a compreensão, vamos dividir os
                 seres humanos em três tipos. O primeiro tipo é o de corpo perfeitamente saudável, sem toxinas, portanto,
                 a doença não pode ocorrer. O segundo tipo é o de pessoas com toxinas e força física vigorosa, portanto,
                 a ação purificadora ocorre facilmente (a maioria das pessoas pertence a este tipo). O terceiro tipo é o
@@ -1193,38 +1342,38 @@ function toggleLang(lang) {
                 de exercícios, etc., ela ocorre. Portanto, essas pessoas, se usarem imediatamente medicamentos e
                 repousarem, retornarão ao estado anterior e se recuperarão temporariamente. Essas pessoas se esforçam
                 para evitar o excesso de trabalho.</p>
-            <p>No entanto, como a medicina de hoje desconhece esse princípio, ela tenta transformar as pessoas do
+<p>No entanto, como a medicina de hoje desconhece esse princípio, ela tenta transformar as pessoas do
                 segundo tipo no terceiro tipo. Como exemplo disso, o fato de que as crianças da cidade e os filhos de
                 médicos, ou seja, aqueles que têm mais oportunidades de entrar em contato com médicos, são mais fracos,
                 e o fato de haver muitos intelectuais pálidos que seguem fielmente as teorias da medicina e higiene de
                 hoje, são a prova mais contundente. É claro que, mesmo que se tente melhorar as pessoas do segundo tipo
                 para o primeiro, o método é impossível com a medicina moderna.</p>
-            <p>E qual é a razão da morte? Desde os tempos antigos, diz-se que se morre de doença, mas, na verdade,
+<p>E qual é a razão da morte? Desde os tempos antigos, diz-se que se morre de doença, mas, na verdade,
                 morrer de doença é extremamente raro. A maioria morre porque “a doença é suprimida”. Como expliquei
                 repetidamente, como se aplicam métodos de supressão à ação purificadora, as toxinas não são eliminadas e
                 retornam, e as toxinas medicamentosas são adicionadas. Isso se repete em conflito com a ação
                 purificadora. Isso aumenta o enfraquecimento e, finalmente, leva à perda da vida.</p>
-            <p>Outra razão é que, nos povos civilizados, como as instalações médicas são completas, o tratamento médico
+<p>Outra razão é que, nos povos civilizados, como as instalações médicas são completas, o tratamento médico
                 é aplicado imediatamente em caso de doença. Isso, como expliquei acima, leva à interrupção da
                 purificação e ao acréscimo de toxinas medicamentosas, enfraquecendo a condição física. Nos povos não
                 civilizados, em caso de doença, eles a deixam em paz e confiam na cura natural, de modo que a ação
                 purificadora ocorre completamente. Isso se torna a causa da força física vigorosa.</p>
-            <p>Portanto, como resultado, a força física dos povos civilizados diminui. Como diminui, a ação purificadora
+<p>Portanto, como resultado, a força física dos povos civilizados diminui. Como diminui, a ação purificadora
                 se torna fraca e a oportunidade de adoecer diminui. Como diminui, a taxa de mortalidade é baixa. Pelo
                 contrário, na época em que os povos civilizados de hoje ainda tinham uma ação purificadora vigorosa, a
                 oportunidade de adoecer era grande. Como era grande, eles recebiam tratamento médico. Como o tratamento
                 médico era contraproducente, a taxa de mortalidade era alta. Esta é a verdadeira causa de haver uma alta
                 taxa de mortalidade na época em que a força física era vigorosa e a taxa de natalidade era alta.</p>
-            <p>No entanto, não se pode negar que há méritos consideráveis na medicina moderna, mas o problema é que há
+<p>No entanto, não se pode negar que há méritos consideráveis na medicina moderna, mas o problema é que há
                 erros muitas vezes maiores que seus méritos, e isso se tornou a causa do problema populacional e de
                 outros problemas. Vamos agora examinar de todos os ângulos como esses erros são surpreendentes e
                 terríveis.</p>
-            <p>E quanto à solução do problema populacional, não é preciso dizer que a solução está na abolição da
+<p>E quanto à solução do problema populacional, não é preciso dizer que a solução está na abolição da
                 “vacinação antivariólica”, sua causa fundamental, e na solução da toxina da varíola por ela causada. No
                 entanto, deixarei isso para outra seção e, em seguida, discutirei o problema da tuberculose pulmonar e
                 da mortalidade infantil.</p>
-            <h3>O Problema da Tuberculose e sua Tendência</h3>
-            <p>Em relação ao problema populacional, o mais importante é o problema da tuberculose. Qual é a situação da
+<h3>O Problema da Tuberculose e sua Tendência</h3>
+<p>Em relação ao problema populacional, o mais importante é o problema da tuberculose. Qual é a situação da
                 tuberculose? Vamos mostrar com base em vários materiais de pesquisa (devido à situação de guerra, não
                 houve anúncios de pesquisa nos últimos anos, e os materiais a seguir, lamentavelmente, param por volta
                 de 1936).
@@ -1245,13 +1394,13 @@ function toggleLang(lang) {
                 adultos. De acordo com as estatísticas de mortes de 1935 investigadas pelo Departamento de Saúde da
                 Cidade de Tóquio, o maior número é de 2.196 pessoas de 20 a 24 anos, 18,5%; em seguida, 1.930 pessoas de
                 15 a 19 anos, 16,6%; e depois 1.789 pessoas de 25 a 29 anos, 15,4%.</p>
-            <p>De acordo com o anúncio do Departamento de Higiene do Ministério do Interior de 1933, o número de mortes
+<p>De acordo com o anúncio do Departamento de Higiene do Ministério do Interior de 1933, o número de mortes
                 por tuberculose do sistema respiratório foi de 13,9 por 10.000 habitantes; por outras formas de
                 tuberculose, 4,9; e por bronquite, pneumonia e pleurisia, 22,2. Com base no censo de 1º de novembro de
                 1935, com uma população no Japão continental de 34.731.860 homens e 34.519.405 mulheres, totalizando
                 69.251.265 pessoas, o número de mortes por tuberculose respiratória de 13,9 significa 96.259 pessoas, e
                 por outras formas de tuberculose, 4,9, significa 34.033 pessoas, totalizando 130.292 pessoas.</p>
-            <p>No entanto, no caso de mortes por tuberculose, muitas vezes a causa da morte é registrada como uma
+<p>No entanto, no caso de mortes por tuberculose, muitas vezes a causa da morte é registrada como uma
                 complicação, por um desejo de negar a tuberculose, especialmente em casos de pneumonia, pleurisia,
                 bronquite, etc., de modo que se pode supor que o número real seja mais do que o dobro. Por exemplo, de
                 acordo com o anúncio do Departamento de Higiene, o número de mortes por pneumonia por 10.000 habitantes
@@ -1261,12 +1410,12 @@ function toggleLang(lang) {
                 nação, se compilarmos os anúncios do Ministério do Exército, por volta de 1922 a 1926, 25% dos jovens
                 eram de constituição física de classe C e D, mas na média de 1927 a 1932, saltou para 36%, e na pesquisa
                 de 1935, atingiu 40%, uma situação verdadeiramente lamentável.</p>
-            <p>Além disso, o número de pessoas dispensadas do serviço militar por tuberculose após o alistamento, que
+<p>Além disso, o número de pessoas dispensadas do serviço militar por tuberculose após o alistamento, que
                 era de apenas 2% por volta de 1904-05, atingiu 20% em 1935, dez vezes mais, o que é surpreendente.
                 Especialmente se compilarmos o fato de que 90% dos soldados doentes enviados de volta da Manchúria, onde
                 as mudanças climáticas têm grande influência, são na verdade doentes de tuberculose, isso mostra
                 vividamente o quanto a constituição física dos jovens diminuiu.</p>
-            <p>Além disso, ao observar a constituição física das crianças do ensino fundamental com base na pesquisa do
+<p>Além disso, ao observar a constituição física das crianças do ensino fundamental com base na pesquisa do
                 Ministério da Educação, observa-se um aumento anual de crianças com constituição linfática e fraca. Por
                 exemplo, de acordo com o anúncio do Departamento de Educação da Cidade de Tóquio, 22% do total de
                 crianças do ensino fundamental na cidade de Tóquio, 154.000, são crianças de constituição fraca e
@@ -1277,7 +1426,7 @@ function toggleLang(lang) {
                 Educação quatro milhões, a cidade de Tóquio quinze milhões, a Polícia Metropolitana um milhão, etc., e
                 todos os seus conhecimentos e habilidades foram dedicados ao resgate de crianças do ensino fundamental,
                 ao socorro de jovens ou soldados, e à prevenção e resgate das classes mais baixas.</p>
-            <p>Em seguida, o Departamento de Higiene da Cidade de Tóquio realizou uma pesquisa sequencial em 12.796
+<p>Em seguida, o Departamento de Higiene da Cidade de Tóquio realizou uma pesquisa sequencial em 12.796
                 alunos do ensino fundamental de sete distritos da cidade ao longo de dois anos, a partir de 1934. O
                 resultado foi que mais de 38% dos pesquisados estavam infectados com tuberculose, e mais de mil pessoas
                 precisavam ser isoladas em hospitais ou eram suspeitas de estarem no estágio inicial. Se extrapolarmos
@@ -1294,7 +1443,7 @@ function toggleLang(lang) {
                 e havia um grande risco de infectar outras crianças se deixadas como estavam, o que é aterrorizante. O
                 Departamento de Higiene, juntamente com o Departamento de Educação, decidiu, com base nesses números,
                 garantir a higiene escolar completa.</p>
-            <p>A seguir, apresentamos a situação atual do ensino médio. De acordo com os resultados da pesquisa do
+<p>A seguir, apresentamos a situação atual do ensino médio. De acordo com os resultados da pesquisa do
                 Departamento de Educação Física do Ministério da Educação sobre as estatísticas de mortes durante a
                 matrícula, abandono por doença e ausência por doença de alunos de escolas secundárias, escolas
                 profissionais e escolas femininas em todo o país no ano fiscal de 1933:
@@ -1303,11 +1452,11 @@ function toggleLang(lang) {
                 - <strong>Abandono por doença:</strong> 3.766
                 - <strong>Licença por doença:</strong> 9.734
                 - <strong>Ausência por doença de uma semana ou mais:</strong> 47.884</p>
-            <p>Dentre eles, cerca de 5.800 abandonaram no meio do caminho por doença, e descobriu-se que a maioria se
+<p>Dentre eles, cerca de 5.800 abandonaram no meio do caminho por doença, e descobriu-se que a maioria se
                 devia a doenças tuberculosas. No entanto, como mencionado anteriormente, há um exemplo de que mais de
                 10% dos alunos do ensino médio eram pacientes com tuberculose, e a causa não reside apenas no excesso de
                 trabalho para os exames de admissão – o que levanta uma questão importante e preocupante.</p>
-            <p>A seguir, a opinião das autoridades sobre isso:
+<p>A seguir, a opinião das autoridades sobre isso:
                 “Acredita-se que haja espaço para pesquisa e melhoria em relação à constituição física dos alunos, à
                 situação familiar, ao tempo de estudo e de exercício, etc. No entanto, em última análise, o fato de se
                 contrair tuberculose se resume ao fato de que o corpo do aluno não possui força suficiente para repelir
@@ -1328,7 +1477,7 @@ function toggleLang(lang) {
                 e o bacilo da tuberculose aproveita essa oportunidade para exercer seu poder. Portanto, os alunos que
                 estão nesse período de risco devem sempre se nutrir bem, recuperar sua força física e se esforçar para
                 melhorar sua resistência.”</p>
-            <p>A seguir, descreverei em linhas gerais o método de tratamento mais recente para a tuberculose na medicina
+<p>A seguir, descreverei em linhas gerais o método de tratamento mais recente para a tuberculose na medicina
                 (de um artigo de um doutor em medicina).
                 “Os métodos de tratamento atuais para a tuberculose incluem, na medicina interna, a terapia natural de
                 repouso, nutrição e ar puro, além da chamada terapia de tranquilidade, que mantém a paz de espírito. Na
@@ -1348,7 +1497,7 @@ function toggleLang(lang) {
                 pela manifestação de sua ação sinérgica, ele penetra profundamente no foco da doença, destrói a membrana
                 lipoide, que era considerada a mais difícil, e age diretamente no corpo do bacilo, sendo chamado de
                 composto especial.”</p>
-            <p>A causa e a interpretação da tuberculose na medicina são as seguintes:
+<p>A causa e a interpretação da tuberculose na medicina são as seguintes:
                 “A tuberculose inicial tem aproximadamente seis formas: tipo resfriado, tipo gastrointestinal, tipo
                 febril, tipo neurastênico, etc. Há inúmeros exemplos reais em que o que se pensava ser um resfriado ou
                 uma doença gastrointestinal era na verdade o início da tuberculose, o que agravou a doença.
@@ -1378,7 +1527,7 @@ function toggleLang(lang) {
                 casos, mesmo que se pense que é um resfriado ou um problema gastrointestinal, na verdade, a tuberculose
                 já rompeu sua casca e está ativa. Portanto, se não se abandonar rapidamente os meios paliativos e não se
                 realizar um tratamento completo, há muitos exemplos em que a doença se agrava.”</p>
-            <p>A seguir, as medidas que as autoridades estão tomando como “movimento prático de prevenção da
+<p>A seguir, as medidas que as autoridades estão tomando como “movimento prático de prevenção da
                 tuberculose”:
                 A Polícia Metropolitana decidiu enviar “equipes de prevenção itinerantes da tuberculose” para vários
                 lugares sob sua jurisdição. Elas são divididas em quatro equipes, e cada equipe tem um carro equipado
@@ -1395,7 +1544,7 @@ function toggleLang(lang) {
                 uma família de oito pessoas vivendo em uma casa de dois cômodos, totalizando onze tatames, com dois
                 pacientes que precisam de internação urgente dormindo amontoados com quatro crianças, a mais velha com
                 dezesseis anos. Exemplos tão trágicos e extremamente perigosos não devem ser poucos em todo o país.</p>
-            <p>A seguir, descreverei em linhas gerais as terapias desde os tempos antigos até o presente em vários
+<p>A seguir, descreverei em linhas gerais as terapias desde os tempos antigos até o presente em vários
                 países.
                 A tuberculose apareceu pela primeira vez na história da medicina em tempos muito antigos. Em 400 a.C., o
                 santo médico grego Hipócrates descreveu a tísica pulmonar. Por volta da era cristã, Celso propôs o clima
@@ -1420,7 +1569,7 @@ function toggleLang(lang) {
                 mundialmente famosos hoje, foram todos estabelecidos sob a influência dessa terapia natural de Brehmer.
                 Essa terapia natural, juntamente com a terapia nutricional, tornou-se indispensável no tratamento da
                 tuberculose.</p>
-            <p>A seguir, a interpretação da medicina.
+<p>A seguir, a interpretação da medicina.
                 Para explicar o que é resistência de forma fácil, nosso corpo humano está equipado com uma ação de
                 defesa natural contra todas as substâncias nocivas que o invadem. A mais importante delas é a existência
                 de substâncias antibacterianas que dissolvem e matam os germes que entraram no corpo e neutralizam suas
@@ -1430,7 +1579,7 @@ function toggleLang(lang) {
                 indispensáveis no tratamento é, em última análise, com o objetivo de fortalecer a resistência,
                 enriquecendo a nutrição no corpo e buscando a cura natural. É uma concretização da crença de que “o que
                 cura a própria doença não é senão a própria força”.</p>
-            <p>A seguir, apresento exemplos reais de como pessoas e famílias trágicas estão nascendo por causa da
+<p>A seguir, apresento exemplos reais de como pessoas e famílias trágicas estão nascendo por causa da
                 tuberculose. (De um artigo de jornal)
                 A Polícia Metropolitana, em sua luta para prevenir e erradicar a doença fatal da tuberculose pulmonar,
                 realizou recentemente um comitê especial para discutir medidas de prevenção. A partir do novo ano
@@ -1480,7 +1629,7 @@ function toggleLang(lang) {
                 trágica com os seis ienes que recebem de um conselheiro de área como despesas de subsistência.
                 Além disso, todos os pacientes da classe mais baixa estão em uma situação extremamente trágica, então
                 decidiu-se estender a mão da salvação em consulta com as autoridades da cidade.</p>
-            <p>Como um exemplo trágico da tuberculose, havia o seguinte em uma coluna de conselhos de um certo jornal.
+<p>Como um exemplo trágico da tuberculose, havia o seguinte em uma coluna de conselhos de um certo jornal.
                 “Pergunta: Uma mulher casada de trinta e três anos. Ela se casou uma vez e seu marido morreu logo em
                 seguida. Neste verão, ela se casou novamente por meio da apresentação de veteranos que a ajudaram, mas
                 recentemente descobriu um erro grave. No ano passado, eu tive pleurisia e finalmente me recuperei, mas o
@@ -1493,7 +1642,7 @@ function toggleLang(lang) {
                 intermediário. Meu marido não concorda com o divórcio de forma alguma. Se eu ficar assim, minha vida
                 estará em perigo. Se eu me separar à força e causar problemas, isso prejudicará a honra dos meus
                 veteranos, o que também é um problema, mas não sinto que estou viva. O que devo fazer? (T-ko)”</p>
-            <p>A seguir, como referência, apresentamos uma visão geral dos sanatórios de tuberculose.
+<p>A seguir, como referência, apresentamos uma visão geral dos sanatórios de tuberculose.
                 A província e a cidade de Tóquio abrigam pacientes no Hospital Kiyose da Província de Tóquio, no
                 Seiwaien, no Kurume Gakuen, no Sanatório da Cidade de Tóquio em Egota, Nakano-ku, etc. O procedimento é
                 ser examinado (gratuitamente) em uma clínica de saúde provincial ou municipal e se inscrever através de
@@ -1506,7 +1655,7 @@ function toggleLang(lang) {
                 Salvação, a Saiseikai, etc., oferecem tratamento gratuito, mas como também há muitos inscritos, não é
                 possível ser internado em pouco tempo. Além disso, nos principais hospitais privados pagantes, a taxa de
                 internação varia de oitenta sen a dois ienes e cinquenta sen por dia.</p>
-            <p>A seguir, qual é a situação da tuberculose do ponto de vista da economia nacional?
+<p>A seguir, qual é a situação da tuberculose do ponto de vista da economia nacional?
                 De acordo com o Ministério do Interior, em relação à tuberculose, o número de mortes em um ano é de
                 120.000, e o número de pacientes é de cerca de dez vezes, 1,2 milhão. Se considerarmos as despesas de
                 tratamento como um iene por dia, são 36 milhões de ienes por mês e 432 milhões de ienes por ano. Este
@@ -1529,8 +1678,8 @@ function toggleLang(lang) {
                 com sintomas leves que não se reconhecem como tuberculosos, o número se torna enorme.
                 No entanto, hoje o número de mortes é superior a 150.000, o que significa um aumento de 25% em relação
                 aos números acima.</p>
-            <h3>Tuberculose Pulmonar</h3>
-            <p>A tendência atual desta doença no Japão é como descrita acima, e mostra como a situação é urgente.
+<h3>Tuberculose Pulmonar</h3>
+<p>A tendência atual desta doença no Japão é como descrita acima, e mostra como a situação é urgente.
                 Leitor, por que a tuberculose pulmonar está aumentando tanto? Segundo minha descoberta, a causa reside
                 inteiramente no erro da medicina moderna. As próprias medidas de prevenção da tuberculose da medicina
                 moderna estão tendo o efeito reverso de aumentar a tuberculose. Para ser franco, a medicina moderna está
@@ -1545,7 +1694,7 @@ function toggleLang(lang) {
                 tuberculose, as radiografias, etc. E os sintomas são febre persistente, tosse, catarro, escarro com
                 sangue, hemoptise, emagrecimento, suores noturnos, distúrbios gastrointestinais, sensação de fadiga,
                 etc. Vamos falar sobre eles.</p>
-            <p>Como expliquei em detalhes na seção sobre a verdadeira causa da doença, como resultado da supressão do
+<p>Como expliquei em detalhes na seção sobre a verdadeira causa da doença, como resultado da supressão do
                 resfriado, a toxina natural, a toxina úrica e as toxinas medicamentosas se acumulam e se solidificam
                 gradualmente em várias partes do corpo. E onde são esses locais? Em primeiro lugar, é em todo o corpo,
                 mas geralmente é fixo. São ao redor do pescoço, especialmente perto do bulbo raquidiano esquerdo e
@@ -1561,7 +1710,7 @@ function toggleLang(lang) {
                 pacientes que os médicos diagnosticam como tendo tuberculose pulmonar são, na verdade, na maioria dos
                 casos, pacientes com nefrite crônica e peritonite purulenta crônica. Parece que o diagnóstico dos
                 médicos não consegue detectar esse acúmulo de toxinas na região dos rins e no peritônio.</p>
-            <p>Além disso, quando as toxinas solidificadas desta peritonite purulenta crônica se dissolvem devido à
+<p>Além disso, quando as toxinas solidificadas desta peritonite purulenta crônica se dissolvem devido à
                 febre e causam diarreia persistente, os médicos a chamam de tuberculose intestinal.
                 Assim, as toxinas acumuladas em vários locais, em casos leves, são em dois ou três lugares, mas em casos
                 graves, podem se estender a todos os locais. Naturalmente, a febre causada pela segunda ação
@@ -1576,7 +1725,7 @@ function toggleLang(lang) {
                 expliquei repetidamente, o tratamento médico é inteiramente a supressão da ação purificadora. Portanto,
                 o catarro que estava prestes a ser expelido passando pelos pulmões tem seu impulso frustrado e acaba
                 estagnando nos pulmões.</p>
-            <p>O tratamento médico, em primeiro lugar, recomenda repouso absoluto. Não há nada que enfraqueça mais o
+<p>O tratamento médico, em primeiro lugar, recomenda repouso absoluto. Não há nada que enfraqueça mais o
                 estômago e os intestinos do que o repouso absoluto. Pense bem, mesmo um corpo saudável, se continuar em
                 repouso absoluto por um mês, em primeiro lugar, o estômago e os intestinos adormecerão e todo o corpo
                 enfraquecerá, o que é óbvio. Em seguida, administram-se medicamentos por via oral ou por injeção. Como
@@ -1590,7 +1739,7 @@ function toggleLang(lang) {
                 está sob a luz do sol, é natural fazer exercícios intensos, como caminhar ou trabalhar, a ponto de suar.
                 No entanto, quando se está sob a luz do sol em um estado ainda mais imóvel do que em um ambiente
                 fechado, isso não é natural e, portanto, não pode ser bom.</p>
-            <p>Como se aplicam vários métodos que, em geral, aumentam o enfraquecimento, a ação purificadora é
+<p>Como se aplicam vários métodos que, em geral, aumentam o enfraquecimento, a ação purificadora é
                 suprimida, de modo que os sintomas da doença diminuem, e não é de se estranhar que se pense
                 equivocadamente que se está caminhando para a cura. No entanto, como não é a cura real, o seguinte
                 acontece.
@@ -1599,14 +1748,14 @@ function toggleLang(lang) {
                 acaba estagnando nos pulmões. Além disso, embora em pequena quantidade, o catarro subsequente se
                 infiltra nos pulmões e as toxinas estagnadas aumentam gradualmente em quantidade. Como resultado,
                 forma-se uma solidificação de catarro nos pulmões. Isso é a causa da dificuldade respiratória.</p>
-            <p>Originalmente, os pulmões são a função que absorve a quantidade necessária de ar no corpo humano através
+<p>Originalmente, os pulmões são a função que absorve a quantidade necessária de ar no corpo humano através
                 do movimento respiratório. Portanto, se uma solidificação se formar nos pulmões, a quantidade de ar
                 absorvida será reduzida na mesma proporção. Consequentemente, a menos que a respiração seja feita com
                 frequência, a absorção de uma quantidade fixa de ar não pode ser alcançada. Por exemplo, se uma
                 quantidade necessária de dez for impedida por um obstáculo de dois, de modo que apenas oito possam ser
                 absorvidos, para absorver cem de ar, o que deveria ser feito em dez respirações, deve ser feito em doze
                 respirações e meia.</p>
-            <p>E quando os médicos diagnosticam a solidificação de catarro acima, eles dão nomes de doenças como
+<p>E quando os médicos diagnosticam a solidificação de catarro acima, eles dão nomes de doenças como
                 tuberculose, gangrena pulmonar, câncer de pulmão, etc. O acima é o curso comum que um paciente com
                 tuberculose geralmente segue. Com base nisso, pode-se ver que o que no início não era nada de anormal
                 nos pulmões, como resultado de uma terapia errada, torna-se um paciente com tuberculose verdadeira e,
@@ -1618,7 +1767,7 @@ function toggleLang(lang) {
                 em um erro. Ou seja, como a ausência de febre se deve ao enfraquecimento causado pelo repouso e à
                 interrupção da purificação, é natural que a febre surja quando se faz exercício, pois a ação
                 purificadora ocorre.</p>
-            <p>Consequentemente, os médicos não dizem que curam a tuberculose, mas que a solidificam. Isso é algo que
+<p>Consequentemente, os médicos não dizem que curam a tuberculose, mas que a solidificam. Isso é algo que
                 todos sabem. No entanto, a verdadeira cura de qualquer doença deve ser a dissolução da toxina
                 solidificada, que é a causa da doença, e a eliminação completa dela, de modo que não restem toxinas.
                 Quando se cura assim, não importa que tipo de trabalho se faça após a recuperação, nunca haverá uma
@@ -1628,7 +1777,7 @@ function toggleLang(lang) {
                 médico por um longo período e realizarem a terapia de solidificação, e finalmente se recuperarem com
                 alegria, de repente têm uma recaída e precisam começar tudo de novo. Isso é inteiramente o resultado da
                 terapia de solidificação.</p>
-            <p>Aqui, explicarei a infiltração pulmonar. Esta é uma doença em que as toxinas acumuladas nas costelas e em
+<p>Aqui, explicarei a infiltração pulmonar. Esta é uma doença em que as toxinas acumuladas nas costelas e em
                 suas proximidades se dissolvem com o calor, se infiltram na membrana pulmonar e nos pulmões, e tentam
                 ser expelidas como catarro. Portanto, se deixada em paz, as toxinas são eliminadas sem problemas e a
                 cura ocorre. No entanto, tanto os médicos quanto os pacientes temem que seja o início da tuberculose e
@@ -1642,7 +1791,7 @@ function toggleLang(lang) {
                 serão expelidas como catarro, resultando na cura. No entanto, quando se fala em enrijecimento dos
                 ombros, pode-se pensar que se limita aos idosos, mas nos últimos tempos é muito comum em jovens e até em
                 crianças.</p>
-            <p>Há mais uma coisa importante. Na teoria médica atual, o excesso de trabalho é considerado uma das
+<p>Há mais uma coisa importante. Na teoria médica atual, o excesso de trabalho é considerado uma das
                 principais causas da tuberculose. E diz-se que, como resultado do excesso de trabalho, a resistência
                 enfraquece. No entanto, essa interpretação é completamente oposta. A razão é a seguinte: se você se
                 exercita a ponto de se cansar, a ação purificadora ocorre. Aqui, é necessário explicar o que é a fadiga.
@@ -1656,12 +1805,12 @@ function toggleLang(lang) {
                 cansa. Por esse princípio, ao repetir a sensação de fadiga com o exercício, as toxinas diminuem
                 gradualmente e a saúde melhora. O que é cômico é a teoria acadêmica de que a causa da fadiga é a geração
                 de um tipo de toxina pelo exercício excessivo.</p>
-            <p>Por esse princípio, uma pessoa com ação purificadora vigorosa, ou seja, uma pessoa que tem febre
+<p>Por esse princípio, uma pessoa com ação purificadora vigorosa, ou seja, uma pessoa que tem febre
                 facilmente e se cansa, tem uma forte resistência. Portanto, se, como na teoria médica, as pessoas com
                 resistência fraca são mais suscetíveis à tuberculose, os idosos, que se cansam mais facilmente, deveriam
                 contrair mais tuberculose. No entanto, a realidade é que a juventude, que é o período de maior vigor, é
                 a mais suscetível, o que significa que a juventude é o período de maior ação purificadora.</p>
-            <p>Além disso, podemos aplicar esse princípio à situação atual da Europa. O fato de a tuberculose ser
+<p>Além disso, podemos aplicar esse princípio à situação atual da Europa. O fato de a tuberculose ser
                 particularmente comum entre os japoneses se deve ao fato de que sua força física ainda é mais vigorosa
                 que a dos brancos e a ação purificadora ocorre mais facilmente. Como expliquei repetidamente, os
                 sintomas iniciais da tuberculose ocorrem devido à ação purificadora, e é por isso que é comum na
@@ -1679,7 +1828,7 @@ function toggleLang(lang) {
                 Europa. Portanto, se o Japão continuar como está, eventualmente chegará a um estado de declínio drástico
                 de pacientes com tuberculose, como os brancos de hoje. No entanto, quando isso acontecer, acredito que
                 eles louvarão a medicina e a higiene pelo sucesso na prevenção da tuberculose.</p>
-            <p>A seguir, falarei sobre o diagnóstico da medicina.
+<p>A seguir, falarei sobre o diagnóstico da medicina.
                 Sobre os estertores, já falei. Sobre a reação de Mantoux, ou seja, a injeção da solução de tuberculina,
                 segundo a interpretação da medicina, quando a parte injetada fica vermelha, incha, forma bolhas ou
                 úlceras, é um caso positivo, e considera-se que a pessoa já foi infectada com tuberculose. Quando não há
@@ -1696,7 +1845,7 @@ function toggleLang(lang) {
                 turvo, e quanto mais toxinas, mais pesado ele será e mais rápida será a velocidade de sedimentação.
                 Portanto, quanto mais turvo o sangue de uma pessoa, mais facilmente ocorrerá a ação purificadora, ou
                 seja, a doença.</p>
-            <p>Em seguida, o bacilo da tuberculose não é absolutamente contagioso, e explicarei isso em detalhes na
+<p>Em seguida, o bacilo da tuberculose não é absolutamente contagioso, e explicarei isso em detalhes na
                 próxima seção.
                 Em seguida, explicarei sobre as radiografias. Os médicos, apenas por verem uma sombra na radiografia,
                 diagnosticam como tuberculose pulmonar, mas isso é muito precipitado. A razão é que a radiografia mostra
@@ -1707,22 +1856,22 @@ function toggleLang(lang) {
                 haja uma diferença entre a toxina natural, a toxina úrica e as toxinas medicamentosas, isso não pode ser
                 determinado por uma radiografia. No entanto, com o método de diagnóstico pela ponta dos dedos que criei,
                 isso também pode ser determinado com precisão.</p>
-            <p>Em seguida, a hemoptise é muito boa. Isso porque o sangue tóxico é expelido pela ação purificadora. A
+<p>Em seguida, a hemoptise é muito boa. Isso porque o sangue tóxico é expelido pela ação purificadora. A
                 medicina também afirma que a tuberculose com hemoptise é fácil de curar. E o local da hemoptise não é
                 fixo. Na maioria dos casos, o sangue tóxico se solidifica em um local fora dos pulmões pela ação
                 purificadora, ou se infiltra nos pulmões e se solidifica, e então se dissolve com a febre e é expelido
                 como hemoptise. O que deve ser observado aqui é que, no caso de um derrame cerebral, o sangramento pode
                 não ocorrer no cérebro, mas se transformar em hemoptise. Muitos médicos diagnosticam erroneamente isso
                 como hemoptise dos pulmões, mas mal sabem eles que, por causa disso, o derrame cerebral foi evitado.</p>
-            <p>Em seguida, os suores noturnos são a melhor ação purificadora. As toxinas dissolvidas pelo calor intenso
+<p>Em seguida, os suores noturnos são a melhor ação purificadora. As toxinas dissolvidas pelo calor intenso
                 e transformadas em um líquido diluído são expelidas pelos capilares da pele, o que promove muito a cura.
                 Em minha experiência, os pacientes que têm suores noturnos ou em quem a ação de suores noturnos ocorre
                 com o tratamento, sem exceção, têm bons resultados. É o mesmo princípio de um resfriado, em que a febre
                 baixa e a cura ocorre com a transpiração.
                 No entanto, a medicina considera os suores noturnos como resultado da fadiga e tenta detê-los, mas isso
                 é um erro. Não é por causa da fadiga, mas sim por causa da ação purificadora vigorosa.</p>
-            <h3>A Tuberculose Não é Absolutamente Contagiosa</h3>
-            <p>Hoje, a tuberculose é muito temida como uma doença contagiosa. Por isso, várias medidas são tomadas, e a
+<h3>A Tuberculose Não é Absolutamente Contagiosa</h3>
+<p>Hoje, a tuberculose é muito temida como uma doença contagiosa. Por isso, várias medidas são tomadas, e a
                 complexidade e o enorme fardo para o estado e para os indivíduos são realmente surpreendentes. Portanto,
                 todos temem o contágio, e até mesmo pais, filhos, maridos e esposas são proibidos pelos médicos de se
                 aproximarem e conversarem. Quando um paciente com tuberculose surge em uma família, toda a família vive
@@ -1741,7 +1890,7 @@ function toggleLang(lang) {
                 Portanto, o bacilo da tuberculose também é de geração espontânea e não é absolutamente contagioso.
                 Acredito que, com o avanço e o desenvolvimento da ciência no futuro, se chegará à descoberta de que não
                 é contagioso.</p>
-            <p>Além disso, como expliquei anteriormente sobre o resfriado, o bacilo da tuberculose também se desenvolve
+<p>Além disso, como expliquei anteriormente sobre o resfriado, o bacilo da tuberculose também se desenvolve
                 espontaneamente nas toxinas que retornaram e se solidificaram novamente porque a purificação das toxinas
                 solidificadas em vários locais foi interrompida. Doenças como escrófula, tuberculose renal e outras
                 doenças chamadas de “tuberculosas” se devem a esse princípio.
@@ -1757,7 +1906,7 @@ function toggleLang(lang) {
                 Além disso, estou sempre disposto a ter o contágio do bacilo da tuberculose testado. Desejo que
                 experimentem o contágio em mim mesmo ou em qualquer membro da minha família. Eu me ofereceria de bom
                 grado como cobaia.</p>
-            <p>Os cientistas modernos provavelmente rirão dessa teoria da geração espontânea de bactérias. A razão é
+<p>Os cientistas modernos provavelmente rirão dessa teoria da geração espontânea de bactérias. A razão é
                 que, com a descoberta das bactérias por Pasteur, o titã da bacteriologia francesa, que se equipara ao
                 famoso Dr. Koch da Alemanha, a teoria da geração espontânea, que era apoiada pela maioria dos estudiosos
                 até então, foi derrubada. Pasteur experimentou com a teoria de que os microrganismos não são de geração
@@ -1775,7 +1924,7 @@ function toggleLang(lang) {
                 seja, do calor. No entanto, esse calor é bloqueado até certo ponto por substâncias duras como vidro ou
                 metal. Portanto, quando Pasteur realizou seu experimento, o frasco de vidro de boca curva bloqueou o
                 calor do elemento fogo.</p>
-            <p>Além disso, diz-se que a medicina moderna entrou em uma nova era quando o Dr. Virchow, considerado o
+<p>Além disso, diz-se que a medicina moderna entrou em uma nova era quando o Dr. Virchow, considerado o
                 santo médico do século XIX, propôs a patologia celular. De acordo com ela, o corpo humano – pele,
                 mucosas, músculos, esqueleto, cabelo, etc. – é composto de inúmeras células, e cada uma dessas células
                 tem vida e existência, e a vida e a existência de cada célula se reúnem para constituir um corpo humano.
@@ -1788,7 +1937,7 @@ function toggleLang(lang) {
                 Ou seja, a febre de um paciente com tuberculose ocorre porque o bacilo da tuberculose invade os pulmões
                 e cria um foco de doença, e esse foco de doença e as toxinas liberadas pelo próprio bacilo estimulam o
                 centro da febre, causando a febre.</p>
-            <p>Essa teoria patológica é fundamentalmente errônea. Não é preciso dizer que, se o enfraquecimento da vida
+<p>Essa teoria patológica é fundamentalmente errônea. Não é preciso dizer que, se o enfraquecimento da vida
                 celular é a causa da doença, a doença não deveria ocorrer da infância à juventude, quando o metabolismo
                 é mais vigoroso, mas deveria ocorrer mais à medida que se envelhece. Acho estranho que uma teoria tão
                 contrária aos fatos tenha sido acreditada.
@@ -1806,11 +1955,11 @@ function toggleLang(lang) {
                 modernos.
                 2. Criar seres humanos que não desenvolvam febre, que é a característica da tuberculose – ou seja, seres
                 humanos sem toxinas –, ou seja, seres humanos perfeitamente saudáveis no verdadeiro sentido.</p>
-            <p>Qual dos dois devemos escolher? Naturalmente, é criar os seres humanos do segundo tipo – essa é a
+<p>Qual dos dois devemos escolher? Naturalmente, é criar os seres humanos do segundo tipo – essa é a
                 verdadeira solução, e só é possível com a arte médica que criei. No entanto, deve-se saber que o método
                 da medicina ocidental que está sendo praticado atualmente é o método do primeiro tipo.</p>
-            <h3>O Problema da Taxa de Mortalidade Infantil</h3>
-            <p>Depois da tuberculose pulmonar, a taxa de mortalidade infantil é um setor importante do problema
+<h3>O Problema da Taxa de Mortalidade Infantil</h3>
+<p>Depois da tuberculose pulmonar, a taxa de mortalidade infantil é um setor importante do problema
                 populacional. Então, qual é a tendência atual? Vamos mostrar a seguir.
                 O número total de mortes em nosso país em 1937 foi de 1.207.899, das quais 397.870 foram de bebês e
                 crianças pequenas (antes da idade escolar). O número de mortes de bebês e crianças pequenas representa
@@ -1818,7 +1967,7 @@ function toggleLang(lang) {
                 230.711; um ano, 72.991; dois anos, 38.955; três anos, 26.005; quatro anos, 17.854; e cinco anos,
                 11.364. As crianças morrem mais quanto mais jovens são. Pelo contrário, à medida que a idade avança, o
                 número de mortes diminui acentuadamente.</p>
-            <p>A seguir, ao comparar a mortalidade infantil de nosso país com a da Alemanha, Reino Unido e Estados
+<p>A seguir, ao comparar a mortalidade infantil de nosso país com a da Alemanha, Reino Unido e Estados
                 Unidos, em termos da taxa de mortalidade recente por 10.000 habitantes em cada idade, para bebês, o
                 Japão é 130,00; a Alemanha, 84,99; o Reino Unido, 79,78; e os Estados Unidos, 64,50. Para um ano, o
                 Japão é 39,90; a Alemanha, 9,33; o Reino Unido, 17,03; e os Estados Unidos, 8,90. Para dois anos, o
@@ -1835,7 +1984,7 @@ function toggleLang(lang) {
                 morrem, ou, como ainda não há contato com o mundo exterior, a influência do ambiente é fraca e é raro
                 contrair uma doença fatal. A partir do segundo mês de vida, um pequeno número de remanescentes de causas
                 congênitas morre, e a maioria morre de doenças adquiridas.</p>
-            <p>Agora, ao observar as causas da mortalidade infantil (0-4 anos) de acordo com a tabela estatística de
+<p>Agora, ao observar as causas da mortalidade infantil (0-4 anos) de acordo com a tabela estatística de
                 1938, as causas de morte que podem ser consideradas congênitas são (1) “fraqueza congênita”, (2)
                 “malformação congênita”, (3) “lesão do recém-nascido durante o parto”, (4) “prematuridade”, (5) “sífilis
                 congênita” e (6) “outras doenças específicas de bebês frágeis”.
@@ -1843,7 +1992,7 @@ function toggleLang(lang) {
                 durante o parto”, 381; “prematuridade”, 5.410; “sífilis congênita”, 2.270; e “outras doenças específicas
                 de bebês frágeis”, 8.971, totalizando 81.215. Do total de mortes de bebês e crianças pequenas no mesmo
                 ano, 365.852, as causas de morte congênitas representam pouco mais de um quarto.</p>
-            <p>Em seguida, à medida que a idade avança para um e dois anos, a causa da morte se torna uma doença
+<p>Em seguida, à medida que a idade avança para um e dois anos, a causa da morte se torna uma doença
                 adquirida. As doenças importantes como causas de morte adquiridas durante a primeira infância são as
                 doenças respiratórias, como a pneumonia, e a diarreia e a enterite (incluindo a indigestão), que são as
                 duas principais doenças de morte adquirida na primeira infância.
@@ -1859,7 +2008,7 @@ function toggleLang(lang) {
                 infecciosas agudas da infância, como disenteria e disenteria tóxica (14.641), coqueluche (8.653),
                 sarampo (4.643), difteria (2.873), etc. A incidência dessas doenças infecciosas agudas aumenta com a
                 idade.</p>
-            <p>O acima é um estudo das causas da mortalidade infantil com base em estatísticas. No entanto, ao avançar
+<p>O acima é um estudo das causas da mortalidade infantil com base em estatísticas. No entanto, ao avançar
                 com um plano de implementação de contramedidas, deve-se notar que os nomes das doenças registrados em
                 tais estatísticas são uma compilação dos nomes das doenças nos atestados de óbito dos médicos. O
                 atestado de óbito registra o nome da doença final da criança doente. Há casos em que um bebê que se
@@ -1882,14 +2031,14 @@ function toggleLang(lang) {
                 Ou seja, sabemos que as causas da mortalidade infantil incluem causas diretas ou finais de morte e
                 causas indiretas ou primárias. No entanto, as causas primárias podem ser congênitas, adquiridas ou uma
                 mistura de ambas.</p>
-            <p>A seguir, uma parte dos resultados do exame nacional de bebês e crianças pequenas realizado pelo
+<p>A seguir, uma parte dos resultados do exame nacional de bebês e crianças pequenas realizado pelo
                 Departamento de Força Física do Ministério da Saúde e Bem-Estar de maio a setembro de 1940. Em geral, os
                 examinados tinham de dois meses a um ano e dois meses de idade, e seu número era de aproximadamente 1,51
                 milhão. Dentre eles, 27%, ou cerca de 410.000, precisavam de atenção, com cerca de 180.000 doentes e
                 cerca de 200.000 com desnutrição. A tabela abaixo é uma parte, mostrando os tipos de doenças
                 investigadas em Fukushima, Ibaraki, Nara, Kagawa, etc. Com ela, pode-se ter uma ideia geral da
                 tendência.</p>
-            <p>| <strong>Distúrbios Nutricionais e Doenças do Sistema Digestivo</strong> | |
+<p>| <strong>Distúrbios Nutricionais e Doenças do Sistema Digestivo</strong> | |
                 | :--- | :--- |
                 | Indigestão | 2.941 |
                 | Gastrenterite | 1.510 |
@@ -1897,7 +2046,7 @@ function toggleLang(lang) {
                 | Distúrbio Nutricional (incluindo distúrbio nutricional por farinha) | 704 |
                 | Outros | 131 |
                 | <strong>Total</strong> | <strong>6.697</strong> |</p>
-            <p>| <strong>Doenças do Sistema Respiratório</strong> | |
+<p>| <strong>Doenças do Sistema Respiratório</strong> | |
                 | :--- | :--- |
                 | Bronquite | 1.541 |
                 | Resfriado | 367 |
@@ -1907,46 +2056,46 @@ function toggleLang(lang) {
                 | Tuberculose Pulmonar | 34 |
                 | Catarro da Garganta e Outros | 56 |
                 | <strong>Total</strong> | <strong>2.282</strong> |</p>
-            <p>| <strong>Deficiência de Vitaminas</strong> | |
+<p>| <strong>Deficiência de Vitaminas</strong> | |
                 | :--- | :--- |
                 | Beribéri Infantil | 390 |
                 | Deficiência de Vitaminas | 12 |
                 | Outros | 15 |
                 | <strong>Total</strong> | <strong>417</strong> |</p>
-            <p>| <strong>Doenças do Sangue e do Sistema Circulatório</strong> | |
+<p>| <strong>Doenças do Sangue e do Sistema Circulatório</strong> | |
                 | :--- | :--- |
                 | Doença Cardíaca (incluindo distúrbio valvular) | 27 |
                 | Anemia e Outros | 73 |
                 | <strong>Total</strong> | <strong>100</strong> |</p>
-            <p>| <strong>Doenças Linfáticas e da Pele</strong> | |
+<p>| <strong>Doenças Linfáticas e da Pele</strong> | |
                 | :--- | :--- |
                 | Eczema | 1.936 |
                 | Linfadenite e Hipertrofia | 314 |
                 | Outros | 895 |
                 | <strong>Total</strong> | <strong>3.145</strong> |</p>
-            <p>| <strong>Doenças do Sistema Nervoso</strong> | |
+<p>| <strong>Doenças do Sistema Nervoso</strong> | |
                 | :--- | :--- |
                 | Hidrocefalia | 19 |
                 | Paralisia Infantil | 16 |
                 | Outros | 14 |
                 | <strong>Total</strong> | <strong>49</strong> |</p>
-            <p>| <strong>Doenças do Sistema Urinário e Genital</strong> | |
+<p>| <strong>Doenças do Sistema Urinário e Genital</strong> | |
                 | :--- | :--- |
                 | Hidrocele | 74 |
                 | Outros | 1 |
                 | <strong>Total</strong> | <strong>75</strong> |</p>
-            <p>| <strong>Doenças Oculares</strong> | |
+<p>| <strong>Doenças Oculares</strong> | |
                 | :--- | :--- |
                 | Conjuntivite | 290 |
                 | Tracoma | 170 |
                 | Outros | 74 |
                 | <strong>Total</strong> | <strong>534</strong> |</p>
-            <p>| <strong>Doenças de Ouvido e Nariz</strong> | |
+<p>| <strong>Doenças de Ouvido e Nariz</strong> | |
                 | :--- | :--- |
                 | Otite Média e Otorreia e Outros | 494 |
                 | Rinite | 16 |
                 | <strong>Total</strong> | <strong>510</strong> |</p>
-            <p>| <strong>Doenças Infecciosas</strong> | |
+<p>| <strong>Doenças Infecciosas</strong> | |
                 | :--- | :--- |
                 | Sarampo | 779 |
                 | Coqueluche | 206 |
@@ -1954,11 +2103,11 @@ function toggleLang(lang) {
                 | Sífilis | 64 |
                 | Outros | 22 |
                 | <strong>Total</strong> | <strong>1.275</strong> |</p>
-            <p>| <strong>Outras Doenças</strong> | 1.176 |
+<p>| <strong>Outras Doenças</strong> | 1.176 |
                 | :--- | :--- |
                 <em>(Publicado no Boletim Fotográfico Semanal do Gabinete, 23 de abril de 1941)</em>
-            </p>
-            <p>Mesmo com base nas estatísticas acima, a taxa de mortalidade infantil é verdadeiramente preocupante.
+</p>
+<p>Mesmo com base nas estatísticas acima, a taxa de mortalidade infantil é verdadeiramente preocupante.
                 Então, qual é a verdadeira causa? Explicarei a seguir.
                 A causa fundamental disso também é, desnecessário dizer, a vacinação antivariólica. Ou seja, a condição
                 física da mãe diminuiu gradualmente devido à vacinação, e é um princípio comum a todas as coisas que os
@@ -1968,7 +2117,7 @@ function toggleLang(lang) {
                 nascimento, a ação purificadora dessas várias toxinas ocorre. Essa ação purificadora se manifesta como
                 enterite, diarreia, indigestão, e também resfriado, pneumonia, bronquite, asma, sarampo, coqueluche,
                 eczema, etc. (A paralisia infantil é de causa espiritual e será explicada em sua seção).</p>
-            <p>Como as várias doenças acima são ações purificadoras, a maioria delas se curaria completamente se deixada
+<p>Como as várias doenças acima são ações purificadoras, a maioria delas se curaria completamente se deixada
                 em paz. No entanto, como a ação purificadora é suprimida pelo tratamento médico, a estagnação dessas
                 toxinas leva ao enfraquecimento. Além disso, como as toxinas medicamentosas são adicionadas, o
                 enfraquecimento aumenta e a morte é acelerada, o que é natural. No entanto, no caso de adultos, como
@@ -1984,7 +2133,7 @@ function toggleLang(lang) {
                 quantidade de comida aumenta e, com isso, a quantidade de leite materno também aumenta gradualmente.
                 Além disso, quando há uma solidificação de toxinas ao redor do mamilo, ela comprime as glândulas
                 mamárias e diminui a quantidade de leite, mas isso pode ser curado facilmente.</p>
-            <p>Além disso, a taxa de mortalidade infantil no Japão é muito mais alta que na Alemanha, Reino Unido e
+<p>Além disso, a taxa de mortalidade infantil no Japão é muito mais alta que na Alemanha, Reino Unido e
                 Estados Unidos, e há uma razão para isso. Enquanto os povos brancos têm sido criados com leite
                 artificial por gerações, em nosso país, o leite materno tem sido a norma por gerações. Portanto,
                 enquanto as funções de desenvolvimento deles se acostumaram a isso, para nós, que estamos acostumados
@@ -1996,8 +2145,8 @@ function toggleLang(lang) {
                 não há solução fundamental além de descobrir e refletir sobre esse ponto de violação da providência.
                 Então, o que é essa violação da providência? É o próprio erro da medicina moderna, como mencionei no
                 início.</p>
-            <h3>O Problema do Declínio da Condição Física Nacional</h3>
-            <p>Em conexão com o problema populacional, há uma questão importante que não pode ser separada: o problema
+<h3>O Problema do Declínio da Condição Física Nacional</h3>
+<p>Em conexão com o problema populacional, há uma questão importante que não pode ser separada: o problema
                 do declínio da condição física nacional. Vamos mostrar a tendência a seguir.
                 Em junho de 1936, o então Ministro do Exército, General Terauchi, recomendou o estabelecimento de uma
                 política nacional de saúde e higiene em resposta ao problema do declínio da condição física nacional.
@@ -2034,7 +2183,7 @@ function toggleLang(lang) {
                 departamentos e seções ministeriais relacionados. Ele deve controlar os assuntos de seguro de trabalho,
                 prevenção de epidemias, cuidados médicos, educação física, etc., e cumprir a missão original da
                 administração sanitária.</p>
-            <p>“Assuntos sob Jurisdição”
+<p>“Assuntos sob Jurisdição”
                 1. Ajuste da distribuição do problema populacional e alimentar e dos recursos vitais.
                 2. Assuntos humanos relacionados à imigração.
                 3. Aumento da eficiência e resistência no trabalho da população.
@@ -2049,7 +2198,7 @@ function toggleLang(lang) {
                 de Higiene do Ministério do Interior, o Instituto de Nutrição, o Instituto de Educação Física do
                 Ministério da Educação, etc., e adicionar instituições de pesquisa sobre saúde e higiene para criar uma
                 instituição de pesquisa em ciências da vida).</p>
-            <p>Agora, os principais reprovados são os de constituição muscular e óssea fraca, e o número desses
+<p>Agora, os principais reprovados são os de constituição muscular e óssea fraca, e o número desses
                 indivíduos de constituição fraca estava aumentando a uma taxa de 0,1% ao ano: 31,7% dos jovens em 1932,
                 32,7% em 1933 e 33,7% em 1934.
                 A seguir, os reprovados que se seguem a essa constituição fraca são os com doenças tuberculosas,
@@ -2066,7 +2215,7 @@ function toggleLang(lang) {
                 comparação com o dos europeus, americanos e chineses, que é curto no diâmetro esquerdo-direito e longo
                 no diâmetro anteroposterior, mesmo com a mesma circunferência do peito, deve-se reconhecer que o
                 conteúdo é inferior.</p>
-            <p>O que deve ser notado aqui é que o aumento ou diminuição do peso pode ocorrer de duas maneiras: uma em
+<p>O que deve ser notado aqui é que o aumento ou diminuição do peso pode ocorrer de duas maneiras: uma em
                 que o peso aumenta ou diminui uniformemente em todo o corpo, e outra em que uma parte do corpo engorda
                 enquanto outra parte emagrece. O fenômeno de que este último tipo é comum entre os jovens de nosso país
                 é algo a ser observado.
@@ -2077,7 +2226,7 @@ function toggleLang(lang) {
                 vida militar retorna ao corpo de antes do alistamento após um ou dois anos de vida de licença –
                 especialmente quando se vê que isso é notável entre os agricultores e trabalhadores industriais –, faz
                 com que se sinta isso ainda mais profundamente.</p>
-            <p>Agora, vejamos a influência da vida urbana e rural nos jovens. Ao investigar mais de 600.000 jovens que
+<p>Agora, vejamos a influência da vida urbana e rural nos jovens. Ao investigar mais de 600.000 jovens que
                 fizeram o exame em 1936, descobriu-se que, entre os que nasceram e cresceram na cidade, o número de
                 reprovados era de 410 por mil jovens. Em comparação, entre os que nasceram e cresceram no campo, o
                 número de reprovados era de pouco mais de 310 por mil jovens, cerca de 100 a menos. No entanto, entre os
@@ -2090,7 +2239,7 @@ function toggleLang(lang) {
                 Assim, entende-se que o campo é melhor que a cidade, mas a vida rural também não deve ser deixada como
                 está. Há pouco mais de dez anos, o número de reprovados no campo era de pouco mais de 200 por mil, mas
                 hoje já ultrapassou 300, o que é um sentimento doloroso.</p>
-            <p>A seguir, qual é a condição física dos estudantes?
+<p>A seguir, qual é a condição física dos estudantes?
                 A situação da saúde e da condição física da população, como revelado no exame de alistamento de nosso
                 país, e a comparação entre a cidade e o campo são como descritas acima. Vejamos agora por profissão.
                 Ao observar os reprovados por profissão, os primeiros são os estudantes, e sua taxa de reprovação é de
@@ -2116,7 +2265,7 @@ function toggleLang(lang) {
                 da escola primária, os que se formaram no ensino fundamental comum têm mais reprovados da classe C do
                 que os que se formaram no ensino superior, e aqui também reside um grande problema social e educacional.
             </p>
-            <p>A seguir, sobre a influência da vida urbana na saúde das crianças do ensino fundamental, o Departamento
+<p>A seguir, sobre a influência da vida urbana na saúde das crianças do ensino fundamental, o Departamento
                 de Educação da cidade, que está avançando na pesquisa, realizou um exame físico em 106.085 de 120.878
                 crianças do ensino fundamental este ano (1936). O resultado foi que os pacientes de
                 otorrinolaringologia, liderados por 9.564 meninos e 8.595 meninas, totalizando 18.159, e os portadores
@@ -2126,13 +2275,13 @@ function toggleLang(lang) {
                 A discriminação das crianças doentes é △Oftalmologia: 4.152 meninos, 9.223 meninas; △Dermatologia: 2.468
                 meninos, 1.492 meninas; △Hérnia, sopro cardíaco, catarro brônquico: 2.535 meninos, 1.909 meninas;
                 △Problemas ósseos, articulares e musculares: 847 meninos, 560 meninas.</p>
-            <p>A seguir, o fato de que há muitos míopes entre nosso povo é mundialmente famoso, mas a pesquisa realizada
+<p>A seguir, o fato de que há muitos míopes entre nosso povo é mundialmente famoso, mas a pesquisa realizada
                 pelo Departamento de Educação Física do Ministério da Educação em estudantes, alunos e crianças do
                 ensino fundamental em todo o país mostrou resultados verdadeiramente aterrorizantes.
                 Ou seja, no ano fiscal de 1922, nas escolas primárias, era de 12,93% para os meninos e 15,27% para as
                 meninas. Em 1930, aumentou progressivamente para 16,24% para os meninos e 19,69% para as meninas. As
                 outras escolas mostraram as seguintes porcentagens nos anos fiscais de 1920 e 1930.</p>
-            <p>| | (1920) | (1930) |
+<p>| | (1920) | (1930) |
                 | :--- | :--- | :--- |
                 | Escolas Secundárias Femininas | 16,63 | 34,07 |
                 | Escolas Secundárias | 21,75 | 36,33 |
@@ -2141,12 +2290,12 @@ function toggleLang(lang) {
                 | | 19,23 | 40,25 |
                 | Escolas Profissionais Superiores (Masculinas) | 41,53 | 42,71 |
                 | | 20,55 | 53,98 |</p>
-            <p>Para dizer de forma muito geral, a miopia, que era de 15% ao entrar na escola primária, aumenta para 20%
+<p>Para dizer de forma muito geral, a miopia, que era de 15% ao entrar na escola primária, aumenta para 20%
                 ao entrar na escola secundária e para 50% ao chegar à escola profissional superior. Se adicionarmos a
                 isso a presbiopia, o astigmatismo, o estrabismo, etc., de pessoas com mais de cinquenta anos, 60 a 70%
                 das pessoas ativas na sociedade sentem inconveniência ou desperdiçam seus nervos desnecessariamente,
                 diminuindo a eficiência de suas atividades.</p>
-            <p>A seguir, apresentamos as principais doenças com alta taxa de mortalidade em nosso país (pesquisa de
+<p>A seguir, apresentamos as principais doenças com alta taxa de mortalidade em nosso país (pesquisa de
                 1936).
                 De acordo com a pesquisa do Bureau de Estatísticas do Gabinete, do total de 1.234.000 mortes em nosso
                 país em 1934, mais de 131.500 foram por tuberculose respiratória e outras, com uma proporção de 106,5
@@ -2157,7 +2306,7 @@ function toggleLang(lang) {
                 menos de um ano, e as de hemorragia cerebral e embolia cerebral são muito comuns entre os cinquenta e
                 cinco e os setenta e nove anos. Em contraste, na tuberculose, o fato de a maioria das mortes ocorrer
                 entre os quinze e os vinte e nove anos exige grande atenção.</p>
-            <p>A seguir, o Tokyo Nichinichi Shimbun de 3 de junho de 1936 escreveu o seguinte:
+<p>A seguir, o Tokyo Nichinichi Shimbun de 3 de junho de 1936 escreveu o seguinte:
                 (Preâmbulo omitido)
                 “A altura e o peso aumentaram, o que parece um bom resultado à primeira vista, mas a taxa de aumento do
                 peso não acompanha a da altura, as doenças tuberculosas também aumentaram notavelmente, e a miopia, as
@@ -2191,7 +2340,7 @@ function toggleLang(lang) {
                 últimos tempos, a ginástica escolar de nosso país está sendo gradualmente melhorada, o treinamento
                 militar também foi adicionado e os esportes também estão sendo incentivados. No entanto, o fato de a
                 constituição física dos jovens estar se tornando tão inferior indica que há alguma deficiência aí.</p>
-            <p>A seguir, um artigo do Yomiuri Shimbun de 30 de julho de 1940 dizia o seguinte:
+<p>A seguir, um artigo do Yomiuri Shimbun de 30 de julho de 1940 dizia o seguinte:
                 “A ênfase excessiva na educação física é a causa? A tuberculose entre os novos alunos. O novo sistema de
                 admissão lança um sinal vermelho.
                 Quando a atenção de vários setores está voltada para o tipo de influência que o exame de admissão ao
@@ -2225,7 +2374,7 @@ function toggleLang(lang) {
                 por meio de um exame de saúde, verificar cientificamente o momento e o grau da infecção. Aqueles que têm
                 o início do desenvolvimento da doença devem parar com os exercícios excessivos e se esforçar para se
                 recuperar.”</p>
-            <p>Sobre o problema da saúde da população, vejamos a situação recente no Reino Unido.
+<p>Sobre o problema da saúde da população, vejamos a situação recente no Reino Unido.
                 No último ano, foram gastos duzentos milhões de libras em despesas de saúde, mas a constituição física
                 da população continua a diminuir. Além disso, as despesas apenas com cuidados médicos chegam a trezentos
                 milhões de libras por ano, totalizando quinhentos milhões de libras (cinco bilhões de ienes em conversão
@@ -2236,8 +2385,8 @@ function toggleLang(lang) {
                 melhore. Se formos negligentes, levará duas gerações para recuperar a constituição física fraca.” E
                 acrescentou: “Vejam o fracasso do Reino Unido nos Jogos Olímpicos. Não se pode acreditar que estes sejam
                 os britânicos que têm o histórico campo de esportes de Eton.”</p>
-            <h3>A Verdadeira Causa do Declínio da Condição Física</h3>
-            <p>Pelas estatísticas de vários campos, acredito que se compreendeu o quão preocupante é a tendência de
+<h3>A Verdadeira Causa do Declínio da Condição Física</h3>
+<p>Pelas estatísticas de vários campos, acredito que se compreendeu o quão preocupante é a tendência de
                 declínio da condição física nacional em nosso país. E, como expliquei em detalhes na primeira parte, a
                 causa fundamental é, naturalmente, a vacinação antivariólica e as toxinas medicamentosas. E se o
                 objetivo original da vacinação antivariólica é prevenir a doença da varíola, então qual é a causa da
@@ -2263,7 +2412,7 @@ function toggleLang(lang) {
                 fato histórico. Qual a razão disso? Imagina-se que, antes da introdução do budismo, os medicamentos
                 chineses já haviam sido introduzidos, e eles se tornaram a causa das epidemias. Naturalmente, as
                 epidemias eram a varíola.</p>
-            <p>E a intenção de nossos antepassados de curar doenças com medicamentos teve um efeito completamente
+<p>E a intenção de nossos antepassados de curar doenças com medicamentos teve um efeito completamente
                 reverso. Não só isso, mas o método de tratamento de doenças se tornou “a causa da ocorrência de
                 doenças”, e isso se repetiu, levando finalmente ao resultado do declínio da condição física de hoje. É
                 semelhante à famosa história da Bíblia, em que Adão e Eva, no Jardim do Éden, comeram o fruto proibido,
@@ -2279,8 +2428,8 @@ function toggleLang(lang) {
                 época, não havia medicamentos no Japão, e é por isso que as pessoas eram longevas. Diante disso, até
                 mesmo Xu Fu não pôde retornar ao seu país e, sem escolha, terminou sua vida no Japão. Diz-se que o
                 túmulo de Xu Fu ainda existe hoje em um certo lugar em Shikoku [Wakayama].</p>
-            <h3>Toxinas Medicamentosas</h3>
-            <p>Até hoje, na medicina ocidental, desde a arte médica fundada por Hipócrates há 2.500 anos, e na arte
+<h3>Toxinas Medicamentosas</h3>
+<p>Até hoje, na medicina ocidental, desde a arte médica fundada por Hipócrates há 2.500 anos, e na arte
                 médica fundada por Fuxi, o ancestral da medicina chinesa, há 5.000 anos, e em todas as dezenas de
                 milhões de outros métodos de tratamento de doenças, todos não passaram de métodos de interrupção da ação
                 purificadora ou de alívio temporário do sofrimento, como expliquei repetidamente. E o que foi
@@ -2313,7 +2462,7 @@ function toggleLang(lang) {
                 interrompida por medicamentos e outros métodos. Ou seja, a ação purificadora, que é natural, é suprimida
                 de forma não natural – esse atrito se torna sofrimento. E, como é um corpo completamente enfraquecido, o
                 sofrimento é duplicado.</p>
-            <p>Desde os tempos antigos, há um ditado que diz que “o homem é um receptáculo de doenças”, mas isso está
+<p>Desde os tempos antigos, há um ditado que diz que “o homem é um receptáculo de doenças”, mas isso está
                 muito errado. Na verdade, “o homem é um receptáculo de saúde”, e a saúde deve ser o princípio. Acredito
                 que Deus fez o homem nascer para manifestar os ideais de Deus nesta terra. Portanto, ao cumprir essa
                 missão, ele não deve ser insalubre. Portanto, a falta de saúde se deve ao fato de o homem estar
@@ -2328,13 +2477,13 @@ function toggleLang(lang) {
                 apenas por pessoas de saúde raramente vista hoje. Além disso, as pessoas que acreditam em minha teoria e
                 a praticam, sem exceção, estão se tornando mais saudáveis a cada ano, e famílias saudáveis estão sendo
                 criadas. Vendo isso, não há espaço para dúvidas.</p>
-            <p>Aqui, devo mencionar mais uma coisa importante. É que os portadores de toxinas medicamentosas sofrem as
+<p>Aqui, devo mencionar mais uma coisa importante. É que os portadores de toxinas medicamentosas sofrem as
                 seguintes más influências, e quanto maior a quantidade, mais grave é. No entanto, as pessoas não
                 percebem isso de forma alguma.
                 1. Sensação constante de desconforto.
                 2. A atividade do cérebro se torna lenta.
                 3. Os movimentos do corpo se tornam relaxados.</p>
-            <p>Explicarei em detalhes esses três itens.
+<p>Explicarei em detalhes esses três itens.
                 1. O desconforto ocorre porque há um calor leve nos locais de acúmulo de toxinas medicamentosas,
                 causando um calafrio local ou geral. Portanto, a pessoa sempre sente mais frio que o normal. Além disso,
                 ela se sente preguiçosa para fazer qualquer coisa, gosta de dormir, se cansa facilmente das coisas e não
@@ -2346,9 +2495,9 @@ function toggleLang(lang) {
                 graves, ela se torna pessimista e até mesmo uma pessoa inútil.
                 Quando uma pessoa assim surge em uma família, os outros também são afetados, o lar se torna sombrio e as
                 brigas são constantes, de modo que é impossível esperar alcançar a felicidade na vida.</p>
-            <ol>
-                <li>
-                    <p>O cérebro das pessoas modernas tornou-se muito lento. Consequentemente, a memória ruim também é
+<ol>
+<li>
+<p>O cérebro das pessoas modernas tornou-se muito lento. Consequentemente, a memória ruim também é
                         abundante. Portanto, os discursos de pessoas em posições importantes hoje em dia quase não podem
                         ser feitos sem um manuscrito. Ouvi dizer que antigamente era considerado uma vergonha ter um
                         manuscrito.
@@ -2369,9 +2518,9 @@ function toggleLang(lang) {
                         para anunciar à população pela rádio, jornais, cartazes, etc., o fato de a população não
                         entender e executar rapidamente se deve, acredito, ao fato de que o cérebro de toda a população
                         de hoje se tornou lento.</p>
-                </li>
-                <li>
-                    <p>A lentidão dos movimentos das pessoas modernas também é notável. Como a maior parte da população
+</li>
+<li>
+<p>A lentidão dos movimentos das pessoas modernas também é notável. Como a maior parte da população
                         é assim, eles não percebem. Em particular, a lentidão da caminhada dos habitantes da cidade é
                         surpreendente. Isso porque o corpo é pesado.
                         Os samurais e artistas marciais de antigamente, em um instante, podiam desviar do corpo como um
@@ -2385,10 +2534,10 @@ function toggleLang(lang) {
                         humanos sem toxinas medicamentosas surgisse. Um ser humano que se livrou completamente das
                         toxinas medicamentosas tem um cérebro claro, está cheio de uma sensação de frescor e é vibrante.
                     </p>
-                </li>
-            </ol>
-            <h3>O Que Fazer com a Vacinação Antivariólica?</h3>
-            <p>Expliquei que o declínio da condição física nacional e todas as doenças têm a vacinação antivariólica
+</li>
+</ol>
+<h3>O Que Fazer com a Vacinação Antivariólica?</h3>
+<p>Expliquei que o declínio da condição física nacional e todas as doenças têm a vacinação antivariólica
                 como principal causa. Então, a vacinação antivariólica deve ser abolida imediatamente? Naturalmente,
                 isso é difícil. A razão é que, para o ser humano atual, que felizmente conseguiu escapar da doença da
                 varíola, contrair novamente a varíola seria um sofrimento insuportável. Nesse sentido, acredito que
@@ -2403,8 +2552,8 @@ function toggleLang(lang) {
                 natural que a toxina da varíola também seja eliminada.
                 Observando assim, entender-se-á que o problema da abolição da vacinação antivariólica não é tão difícil.
             </p>
-            <h3>Medicina Não Científica</h3>
-            <p>Hoje, não há ninguém que não acredite que a medicina ocidental seja científica. No entanto, eu não
+<h3>Medicina Não Científica</h3>
+<p>Hoje, não há ninguém que não acredite que a medicina ocidental seja científica. No entanto, eu não
                 considero a medicina ocidental científica.
                 Originalmente, a ciência natural é aprofundar a realidade da natureza como ela é e conhecer suas leis. E
                 com isso, servir ao progresso e à melhoria da cultura. Portanto, se se apreender verdadeiramente as leis
@@ -2471,7 +2620,7 @@ function toggleLang(lang) {
                 entre os médicos, essa experiência é comum. É que os pacientes que eles realmente querem curar são mais
                 difíceis de curar, enquanto os pacientes com os quais eles não se preocupam tanto, ao contrário, se
                 curam melhor. Naturalmente, isso se deve ao mesmo princípio que o anterior.</p>
-            <p>Além disso, quando se trata de uma doença um pouco difícil, os diagnósticos dos médicos são diferentes.
+<p>Além disso, quando se trata de uma doença um pouco difícil, os diagnósticos dos médicos são diferentes.
                 Se cinco médicos diagnosticarem um paciente, provavelmente todos os cinco terão diagnósticos diferentes.
                 Isso porque não há um padrão científico. Portanto, digo que a medicina é mecânica, mas não científica.
                 E, para mostrar o quão impotente é o diagnóstico e a terapia da medicina ocidental, apresento um exemplo
@@ -2489,7 +2638,7 @@ function toggleLang(lang) {
                 descoberto.
                 4. O fato de que, por mais que o próprio doutor e todos os grandes médicos cooperassem, ele não pôde ser
                 curado.</p>
-            <p>Sobre isso, não acho que precise dizer muito. Apenas acho que os fatos provaram o valor da medicina
+<p>Sobre isso, não acho que precise dizer muito. Apenas acho que os fatos provaram o valor da medicina
                 moderna.
                 Em seguida, a causa da morte do famoso Dr. Tatsukichi Irisawa, que faleceu há alguns anos, foi
                 apendicite. Naquela época, diz-se que os doutores que se reuniram de vários lugares ao ouvir sobre o
@@ -2499,7 +2648,7 @@ function toggleLang(lang) {
                 diz-se que o doutor compôs o seguinte poema waka.
                 “Embora eu pense que não funciona, isso também é uma obrigação,
                 o remédio que fiz as pessoas tomarem, eu tomo.”</p>
-            <p>E quando um médico faz um diagnóstico, ele pergunta em detalhes sobre assuntos relacionados ao passado,
+<p>E quando um médico faz um diagnóstico, ele pergunta em detalhes sobre assuntos relacionados ao passado,
                 como a causa da morte dos pais e irmãos, a presença ou ausência de doenças, o histórico médico do
                 próprio paciente, etc., e faz o diagnóstico com base nessas referências. Naturalmente, pode ser por uma
                 questão de cautela, mas, na verdade, como não é possível fazer um diagnóstico preciso apenas examinando
@@ -2508,14 +2657,14 @@ function toggleLang(lang) {
                 apenas examinando o corpo atual do paciente. No entanto, pode-se dizer que um diagnóstico tão simples e
                 rápido é possível? Eu afirmo que é possível. A razão é que, quando eu estava envolvido no tratamento,
                 era assim.</p>
-            <p>Além disso, a verdadeira arte médica é aquela cujo tratamento não causa o menor sofrimento ao paciente.
+<p>Além disso, a verdadeira arte médica é aquela cujo tratamento não causa o menor sofrimento ao paciente.
                 Pelo contrário, acredito que o tratamento deve ser acompanhado de uma sensação de prazer. E a condição é
                 que o período até a cura seja rápido, e que se possa garantir que não haverá absolutamente nenhuma
                 recaída, não importa quantos anos passem após a cura. E não é só isso. Deve-se ensinar o método de saúde
                 pós-cura, e com isso o paciente deve se tornar mais saudável do que antes de adoecer e não precisar mais
                 da ajuda de um médico. Qualquer um levantaria a dúvida de se uma arte médica tão ideal, ou mesmo
                 fantasiosa, poderia nascer. Mas ela já nasceu.</p>
-            <p>No entanto, olhe para a medicina ocidental atual. Não é muito incivilizada? No entanto, a ilusão e a
+<p>No entanto, olhe para a medicina ocidental atual. Não é muito incivilizada? No entanto, a ilusão e a
                 ignorância do homem moderno, que considera que quanto mais incivilizada, mais civilizada é, são dignas
                 de pena. Veja, mesmo para uma doença trivial, corta-se a carne, consome-se o sangue, causa-se dor,
                 atormenta-se com desconforto, e, em troca disso, sob o nome de taxa cirúrgica, gasta-se uma quantia
@@ -2529,8 +2678,8 @@ function toggleLang(lang) {
                 quando chega a hora, está prestes a quebrar a casca com seu pequeno bico. Agora, o pintinho vivo que
                 será verdadeiramente útil para a humanidade está prestes a dar seu primeiro pio. Quero que meus
                 compatriotas saibam disso o mais rápido possível.</p>
-            <h3>Recursos Humanos e a Medicina Moderna</h3>
-            <p>Na grave situação atual, o maior objetivo de nosso Japão é, desnecessário dizer, a conclusão da Esfera de
+<h3>Recursos Humanos e a Medicina Moderna</h3>
+<p>Na grave situação atual, o maior objetivo de nosso Japão é, desnecessário dizer, a conclusão da Esfera de
                 Coprosperidade da Grande Ásia Oriental. E o maior elemento para alcançar isso é, sem dúvida, a questão
                 dos recursos humanos. O fato de as autoridades estarem implementando todas as medidas para incentivar o
                 nascimento e o aumento da população também se deve a isso. No entanto, se dermos um passo atrás e
@@ -2545,7 +2694,7 @@ function toggleLang(lang) {
                 corpos verdadeiramente saudáveis existem entre os japoneses? Apenas imaginar isso é extremamente
                 preocupante. Pelas várias estatísticas apresentadas anteriormente, os leitores devem ter concordado
                 plenamente.</p>
-            <p>A medicina de hoje é uma medicina que cria doentes, e o tratamento médico transforma os doentes leves em
+<p>A medicina de hoje é uma medicina que cria doentes, e o tratamento médico transforma os doentes leves em
                 graves, levando-os finalmente à morte, como expliquei suficientemente. Além disso, o tratamento médico
                 recomenda repouso absoluto para os pacientes com tuberculose, que estão aumentando mais. Se eles fossem
                 completamente curados por esses métodos, o abandono do trabalho por um certo período seria inevitável.
@@ -2554,7 +2703,7 @@ function toggleLang(lang) {
                 necessário para cuidar dos pacientes em repouso por um longo período e o pessoal e os materiais para
                 fabricar os medicamentos e instrumentos usados para isso, o número chegaria a uma cifra
                 inimaginavelmente enorme.</p>
-            <p>Há mais uma coisa problemática. É o diagnóstico precoce. Como expliquei anteriormente, a maioria dos
+<p>Há mais uma coisa problemática. É o diagnóstico precoce. Como expliquei anteriormente, a maioria dos
                 pacientes com tuberculose em estágio inicial se curaria naturalmente se deixada em paz. No entanto,
                 quando os sintomas iniciais são descobertos pelo diagnóstico precoce, eles devem receber tratamento
                 médico à força e também ser isolados. Além disso, como a tuberculose é sugerida ou declarada, o
@@ -2566,7 +2715,7 @@ function toggleLang(lang) {
                 constantemente hoje. Eu me esforcei para descrever a realidade sem o menor exagero. Portanto, acredito
                 que não apenas os médicos, mas também os pacientes, ao lerem este texto, pensarão que é mais do que a
                 metade da verdade.</p>
-            <p>Com base nos fatos acima, afirmo que a maior causa que impede os recursos humanos é a própria medicina. A
+<p>Com base nos fatos acima, afirmo que a maior causa que impede os recursos humanos é a própria medicina. A
                 menos que se desperte para isso, o número de doentes aumentará cada vez mais. E por mais que o governo
                 se esforce para tomar medidas, lamento dizer que a falta de recursos humanos não poderá ser resolvida.
                 Além disso, como se depende da medicina, quanto mais se apressa, mais grave se torna o efeito reverso,
@@ -2585,7 +2734,7 @@ function toggleLang(lang) {
                 natural que os recursos humanos se tornem ainda mais insuficientes. No entanto, como os recursos que
                 podem ser liberados pela reorganização e consolidação são limitados, quem pode negar que chegará um
                 momento em que se sofrerá de uma grande falta de recursos humanos?</p>
-            <p>E se o governo adotar esta arte médica que criei e a implementar em todo o país, qual será o resultado?
+<p>E se o governo adotar esta arte médica que criei e a implementar em todo o país, qual será o resultado?
                 Eu imagino e escrevo. Em primeiro lugar, o número de doentes diminuirá dia a dia. A maioria dos doentes
                 se curará enquanto trabalha. Especialmente a tuberculose pulmonar diminuirá drasticamente, e seremos
                 libertados do medo do contágio. As doenças infecciosas também diminuirão, é claro, e o número de pessoas
@@ -2597,15 +2746,15 @@ function toggleLang(lang) {
                 ano. E se for verdade que uma mente sã habita em um corpo são, é natural que o pensamento da população
                 se torne são em proporção à saúde do corpo. E se a maior causa da infelicidade é a doença, não é preciso
                 dizer que a infelicidade, a pobreza e as brigas diminuirão notavelmente.</p>
-            <h3>Crise de Recursos Humanos</h3>
-            <p>Recentemente, um representante da fábrica XX da cidade XX veio ao meu encontro, buscando esta terapia por
+<h3>Crise de Recursos Humanos</h3>
+<p>Recentemente, um representante da fábrica XX da cidade XX veio ao meu encontro, buscando esta terapia por
                 considerar a medicina ocidental muito ineficaz para o problema de saúde dos operários. Enviei quatro dos
                 meus discípulos que estavam em atividade para que se dedicassem ao tratamento. Perguntei a esses
                 discípulos qual era a doença mais comum entre os operários, e a resposta foi que a referida fábrica tem
                 sete mil operários, e o problema é que eles se cansam facilmente durante o trabalho, faltando-lhes,
                 portanto, resistência. Não é preciso dizer que isso se deve a uma febre leve, um passo antes da
                 tuberculose, e que, de qualquer forma, a tuberculose será inevitável.</p>
-            <p>Recentemente, ouvi outro fato surpreendente. Trata-se de uma das maiores fábricas do Japão, com dezenas
+<p>Recentemente, ouvi outro fato surpreendente. Trata-se de uma das maiores fábricas do Japão, com dezenas
                 de milhares de operários. A taxa de absenteísmo tem aumentado cada vez mais nos últimos tempos. No ano
                 retrasado, era de 10%; no ano passado, 15%; e neste ano, piorou muito, chegando a 25% recentemente.
                 Diante disso, a empresa, sem alternativa, considera todos os que faltam por mais de duas semanas como
@@ -2620,13 +2769,13 @@ function toggleLang(lang) {
                 gravidade variada, precisavam ser tratados como pacientes com tuberculose. É um grande problema. Além
                 disso, mesmo os trabalhadores, com o declínio da condição física, não podem escapar da fadiga, e a
                 consequente queda na produtividade é algo que causa arrepios só de imaginar.</p>
-            <p>Recentemente, ouvi dizer que em algumas fábricas há uma tendência de queda na eficiência do trabalho. Por
+<p>Recentemente, ouvi dizer que em algumas fábricas há uma tendência de queda na eficiência do trabalho. Por
                 isso, os supervisores suspeitam de sabotagem, mas, nesta grave situação, pensando que não pode haver
                 tais pessoas entre os japoneses, investigaram e descobriram que a causa era a fadiga. Um operário
                 veterano de uma grande fábrica disse: "Uma máquina que antes era movida por cerca de três pessoas hoje
                 precisa das mãos de cinco ou seis para se mover. Não há dúvida de que a força física dos operários
                 diminuiu."</p>
-            <p>O acima não é uma questão de imaginação ou de conceito. São fatos vívidos que estão se manifestando
+<p>O acima não é uma questão de imaginação ou de conceito. São fatos vívidos que estão se manifestando
                 agora. Diante disso, é natural que o governo tenha iniciado recentemente o movimento de fortalecimento
                 do povo e esteja se esforçando para melhorar a condição física e erradicar a tuberculose.
                 De acordo com um anúncio recente das autoridades, o plano do inimigo americano é realizar um grande
@@ -2639,8 +2788,8 @@ function toggleLang(lang) {
                 disso, estão na situação descrita acima, não há como ficar tranquilo.
                 Acredito que não há outro método além desta arte médica para solucionar tanto a tuberculose quanto a
                 fadiga, e reitero aqui meu alerta.</p>
-            <h3>Germes e Doenças Infecciosas</h3>
-            <p>A patologia da medicina ocidental praticada hoje é quase toda baseada na teoria dos germes. Quase todas
+<h3>Germes e Doenças Infecciosas</h3>
+<p>A patologia da medicina ocidental praticada hoje é quase toda baseada na teoria dos germes. Quase todas
                 as doenças são interpretadas como sendo transmitidas por germes. Até mesmo o resfriado é considerado uma
                 ação dos germes. E diz-se que o germe do resfriado é tão pequeno que não pode ser visto nem mesmo com um
                 microscópio, sendo chamado de germe filtrável.
@@ -2772,14 +2921,56 @@ function toggleLang(lang) {
                 como os da cólera, disenteria, tifo, etc., são de natureza completamente diferente. É minha teoria que
                 os últimos são contagiosos, mas os primeiros não são. Portanto, nesse sentido, os últimos precisam de
                 prevenção de epidemias, mas os primeiros não precisam de nenhuma desinfecção.</p>
-            <h3>Ashita no Ijutsu, Primeiro Volume</h3>
-            <h4>Ensaio</h4>
-            <p>Publicado em 5 de fevereiro de 1943 (Reimpressão, não comercializável)</p>
-            <p>Autor: Mokiti Okada
+<h3>Ashita no Ijutsu, Primeiro Volume</h3>
+<h4>Ensaio</h4>
+<p>Publicado em 5 de fevereiro de 1943 (Reimpressão, não comercializável)</p>
+<p>Autor: Mokiti Okada
                 Editor: Takeshi Shiozawa
                 Impressor: Seisaku Hara</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明日の文化 『明日の医術 第三編』昭和18(1943)年10月23日発行 私はこれから、霊及び霊界について、あらゆる方法を以て、約二十年間の研究によって得たる成果を発表しようとするのである。<br/><br/> 元来、霊なるものは、空漠として無に等しいものである以上、今直ちに実証的に確認し得られる方法はないのであるから、勿論学問として唯物的に成立させ得る事は困難である。<br/><br/>しかしながら、さきにも述べたごとく、停止する事を知らない科学の進歩は、学問的に、機械的に何人にも把握出来得るようになるであろう事は信じて疑〔わ〕ないのである。<br/><br/> 吾々が今日、大なる恩恵に浴しつつある現代科学といえども、その初めはその時代の先覚者達が、夢にも等しい空想を描いた事が基礎となり、それがついに現実化し、学問的重要分野と成った事は明かな事実である。<br/><br/>この意味によってみても、霊の存在が確認され、霊科学が学問としての重要部門を占めるようになる事も時日の問題でしかあるまい。<br/><br/> たとえていうならば、今日野蛮未開人に対しこの空間には空気なる物質が存在するという事を、いか程説明しても信じないであろう事は今日の文化人に対し、霊及び霊界の存在を説明するとしても信じないであろう事と等しいと思うのである。<br/><br/> しかしながら、霊の実在を知る事によって事物を観察する時、まことによく透徹し、矛盾や撞着等の懼（おそ）れのない事である。<br/><br/>のみならず唯物的科学を批判する場合といえども、その根源の剔出（てきしゅつ）が容易である事である。<br/><br/>この様な素晴しい力の発現はそれ自体が真理であるからである。<br/><br/>この意味において、現在進みつつある世界の大転換も、その後における新しく生れるであろう新文化に対しての想像もつくであろう。<br/><br/> しからば、大転換以後の文化とはいかなるものであろうか、それは勿論、霊的文化の発生と、その飛躍であらねばならない。<br/><br/>そうして霊と物質との関係がある程度闡明（せんめい）する事によって、既成文化の躍進もまた素晴しいものがあろう。<br/><br/>それは勿論、時は戦後であり、発生基地は、日本でなくてはならないのである。<br/><br/> そうして、空気が機械文明の発達によってその実体を把握し、人類に役立つものたらしめたと同様の意味において、今より一層機械が発達した暁、霊の実在を測定し、それを有用化するという事も、決して夢想ではないであろう。<br/><br/> ただ私は、霊と病気との関係を研究しつつ、ついに霊なるものの実体・因果関係等を知るに到ったのである。<br/><br/>そうして、それらは人間の病原のみではなく、森羅万象あらゆる物の変化、流転等にまで、密接な関係のある事を知り得たのである。<br/><br/>しかしながらこの著述は、病気の解決が主である以上、大体その方針を以て説き進めるのである。<br/><br/> そうして、霊的科学を有用化し、人間の健康に対し、驚くべき偉力を発揮出来得るように大成さしたその事が、この日本医術なるもので、ただ時代より先んじたまでである。<br/><br/> 又、霊なるものの実在を人類に知らしめる第一歩としては、霊の実体を誰の眼にも見得るような方法が生れなければならない。<br/><br/>それについて、私は一のヒントを与えようと思うのである。<br/><br/>先年、ある本に書いてあった。<br/><br/>西洋の霊科学者の一人が霊衣を見得る方法を発見したというのである。<br/><br/>それはディシャニンなる薬剤を硝子（ガラス）に応用すれば、霊を視得るというのであるが、これは、充分の成果は挙げ得なかったとみえて、その後立消えになったようである。<br/><br/> ここで、考慮すべき事は、写真のレンズである。<br/><br/>西洋においても日本においても、幽霊写真なるものが、今日まで相当映写されている。<br/><br/>私も相当多数見たのであるが、真なるものと偽なるものとの両方ある事である。<br/><br/>しかるに科学者は、霊写真は全部作り物であるとなし、又、霊の研究者は、大抵真とするような傾向があるが、私のみる所では、偽もあるが、真なるものも確かにあるのである。<br/><br/>従って、写真のレンズは人間の肉眼よりも数倍物体映像の力即ち密度に対する敏感性を有しているのであるから、この理を推進めレンズの一層進歩した物が出来れば霊の映写は可能となるであろう。<br/><br/>右のごとく、精巧なるレンズが成功するか又は新しい光線の発見があるとすれば人体に対し、今日のＸ光線のごとき装置を以て霊視する時、霊衣及びその曇は掌（たなごころ）を指すごとく視得るであろうから、その曇を施術者より放射する光波によって解溶するという状態をみた時、いかなる唯物論者といえども、霊医術の価値を信じない訳にはゆかないであろう。<br/><br/>ここに到って初めて、霊科学は学問の一分野となるであろう。<br/><br/> そうして右の原理は、Ｘ光線の反対でなければならないのである。<br/><br/>それはＸ光線においては、骨とか金属とかいう、密度の高いもの程光線が透過せず、それが顕出するのであるが霊を浮び出すにはその逆で、物質的密度の高い程通過し、霊の密度の高いもの程捕捉顕出するという方法でなければならないのである。<br/><br/> 又、右以外、写真の乾板を進歩改良させる方法である。<br/><br/>たとえていえば、今日の赤外線写真のごとき、特殊の映像法の発明であって、それは現在の乾板でさえ、たまたま霊が映る位であるから、左程難事ではないと思うのである。<br/><br/>従って、その方面の専門家諸君に対し、研究を望むものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

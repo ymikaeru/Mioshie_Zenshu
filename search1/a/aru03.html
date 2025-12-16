@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>aru03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 或質屋の話 『光』26号、昭和24(1949)年9月10日発行 この間東京神田の某質屋の主人から聞いた話だが、最近質屋は大繁盛であるそうで、新規開業も殖えつつあると言う事だ、そうしてこの原因はと聞いてみると「病気のため」で、今日医師に罹った場合、医療費が非常に高くしかも長びくので、生命には代えられないからヒト工面しても続けなければならないという訳で、全く悲惨な話であるというのだ、次は、勤めている会社の給料遅延とこの二つのためというのだ。<br><br> 右二つを社会問題として観る時、由々しき大問題であると共に、その解決こそ焦眉の急を要する、すなわち給料遅延は大した問題ではないが、医療費問題の方は底知れない深刻さがある、とすれば本教浄霊のいかに重大意義を有するかである、実際上現代医学はその点忌憚（きたん）なくいえば病気を治癒する力はないのだ、吾らが常に言うごとく、医療は一時的苦痛緩和だけの効果で、その苦痛緩和の方法が、実は病気増悪の原因となる事など全然知らないのだから問題は重大だ。<br><br> この一大誤謬に目覚めないがために、人間はいかに病苦に災いされると共に、その結果として貧窮の境地に落込むという二重苦だから何たる悲惨事であろうか、何よりも前記の質屋の問題だけにみても明らかで、これは氷山の頭が見えたのと同様であろう。<br><br> 以上の事実に対し、罹病の場合僅かな治療費で短期間に全治するという医術が生れなければ人間は余りに可哀相（かわいそう）だ、しかし世人はそのような夢にも等しい医術が生れようなどとは想像だも出来ないから、現状のままの状態で仕方がないと諦めて、相変らずの悲劇を繰返しているのが今の実情だ。<br><br> ところが、本教浄霊法こそ右の夢が具体化したものである以上、現社会のこの欠陥に対し晏如（あんじょ）し得ないのだ、そのため本教発行の光新聞及び雑誌地上天国、種々の著書をもって目的達成に邁進しつつあるのだ。<br><br> 先日ラジオの「家庭の話題」の時間に、右の質屋の主人がその事を話したが放送局は肝腎な所を削ってしまったとはおかしな話だ、マサか放送員が医師会から賄賂を貰った訳でもあるまい、とすればいよいよ判らない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Crise da Doença e da Pobreza: Um Testemunho Revelador</h2>
 <p>Recentemente, ouvi um relato do proprietário de uma casa de penhores no bairro de Kanda, em Tóquio, que me pareceu bastante significativo. Segundo ele, seu ramo de negócio vive um período de notável prosperidade, com um número crescente de novos estabelecimentos sendo inaugurados. Ao questioná-lo sobre a causa desse fenômeno, a resposta foi estarrecedora: “por motivo de doença”. Ocorre que, nos dias de hoje, os custos dos tratamentos médicos são exorbitantes e, via de regra, prolongados. Como a vida é o bem mais precioso, as pessoas se veem forçadas a levantar fundos a qualquer custo para dar continuidade ao tratamento, uma situação verdadeiramente aflitiva. Uma segunda causa, apontou ele, reside no atraso do pagamento de salários por parte das empresas.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Diante de tal realidade, a condição humana torna-se excessivamente lastimável se não surgir uma arte de cura capaz de proporcionar a recuperação completa em curto prazo e a um custo ínfimo. Contudo, a maioria das pessoas sequer ousa imaginar o surgimento de um método terapêutico tão semelhante a um sonho. Resignadas, acreditam não haver alternativa para a situação atual e, assim, continuam a perpetuar esse ciclo de tragédias.</p>
 <p>Todavia, o Johrei de nossa Igreja é precisamente a concretização desse sonho. Sendo assim, não nos é possível permanecer indiferentes a essa falha da sociedade atual. É por essa razão que avançamos com determinação para o cumprimento de nosso objetivo, por meio de nossas publicações, como o jornal Hikari, a revista Paraíso Terrestre e diversas outras obras.</p>
 <p>Causa estranheza o fato de que, recentemente, ao participar do programa de rádio “Assuntos do Lar”, o referido penhorista teve as partes mais cruciais de seu depoimento censuradas pela emissora. Seria leviano supor que os responsáveis pela transmissão tenham sido subornados pela classe médica; contudo, sem essa hipótese, a situação torna-se verdadeiramente incompreensível.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 或質屋の話 『光』26号、昭和24(1949)年9月10日発行 この間東京神田の某質屋の主人から聞いた話だが、最近質屋は大繁盛であるそうで、新規開業も殖えつつあると言う事だ、そうしてこの原因はと聞いてみると「病気のため」で、今日医師に罹った場合、医療費が非常に高くしかも長びくので、生命には代えられないからヒト工面しても続けなければならないという訳で、全く悲惨な話であるというのだ、次は、勤めている会社の給料遅延とこの二つのためというのだ。<br/><br/> 右二つを社会問題として観る時、由々しき大問題であると共に、その解決こそ焦眉の急を要する、すなわち給料遅延は大した問題ではないが、医療費問題の方は底知れない深刻さがある、とすれば本教浄霊のいかに重大意義を有するかである、実際上現代医学はその点忌憚（きたん）なくいえば病気を治癒する力はないのだ、吾らが常に言うごとく、医療は一時的苦痛緩和だけの効果で、その苦痛緩和の方法が、実は病気増悪の原因となる事など全然知らないのだから問題は重大だ。<br/><br/> この一大誤謬に目覚めないがために、人間はいかに病苦に災いされると共に、その結果として貧窮の境地に落込むという二重苦だから何たる悲惨事であろうか、何よりも前記の質屋の問題だけにみても明らかで、これは氷山の頭が見えたのと同様であろう。<br/><br/> 以上の事実に対し、罹病の場合僅かな治療費で短期間に全治するという医術が生れなければ人間は余りに可哀相（かわいそう）だ、しかし世人はそのような夢にも等しい医術が生れようなどとは想像だも出来ないから、現状のままの状態で仕方がないと諦めて、相変らずの悲劇を繰返しているのが今の実情だ。<br/><br/> ところが、本教浄霊法こそ右の夢が具体化したものである以上、現社会のこの欠陥に対し晏如（あんじょ）し得ないのだ、そのため本教発行の光新聞及び雑誌地上天国、種々の著書をもって目的達成に邁進しつつあるのだ。<br/><br/> 先日ラジオの「家庭の話題」の時間に、右の質屋の主人がその事を話したが放送局は肝腎な所を削ってしまったとはおかしな話だ、マサか放送員が医師会から賄賂を貰った訳でもあるまい、とすればいよいよ判らない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

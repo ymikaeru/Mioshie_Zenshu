@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmokumok</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 黙々三年間の試作体験 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 宮城県 日本観音教進々会 教導師 及川富雄 昭和十八年八月よりこの有難い信仰に入り当時治病の業に専念中無肥料栽培について荒屋先生より御説明を項きました。<br><br> その当時無肥料栽培を行う事はどうしても不可能でありました。<br><br>当時は戦時で国家総力を挙げて増産を叫ばれており、農業会全国の指導機関は口を揃えて増収の鉄則は肥料の適合適量の様に世人一般に普及し、世人一般も又指導そのまま固く信じ化学肥料等人為的肥料に苦心していましたが、その結果としては病虫害は年一年と増し農作物の収穫は減収する一途を辿るのみでありました。<br><br> しかしながら科学を信ずる世人一般は何らの不審も抱かなかったのであります。<br><br>ところがたまたま荒屋先生より化学肥料栽培で穫った作物を食べるとしらずしらず人間の身体に悪いと言う事も教え頂いたのでいけないと早速昭和十九年春作よりこの実施に取掛ったのであります。<br><br>こんな結構なしかも簡単な栽培方法があったのかと喜びましたが、又半面収穫をみなくてはという心配もあったのであります。<br><br> 初年の稲作は不良という結果になったので村内一般より無肥料栽培のため不作になったのだと非難を浴せられたのでありますが、三年後の暁をみる迄はと思う決心で黙々実行しておったのであります。<br><br>ところが、同年九月現役として入営の余儀なきに至ったのでありますが、私の所信を家人に篤と話しこの実行を中絶することなく実施していて貰ったのでありますが、御守護により丁度一カ年目の九月に復員して、再び所信の研究をさせて頂きました。<br><br>その結果初年水稲は三割減収、麦作三割五分減収、次年には水稲二割減収、麦作三割減収、三年目には水稲一割減収、麦作は一割五分減収位に止める事が出来ました。<br><br> 所信三カ年の成果にて年一年減収の復活をみる事が出来ましたので、これにより平年を越して増収をみるもあえて難事ではなく、この実行を継続することによってその成果が近きにありと感じなおも研究に余念がなかったのであります。<br><br>その頃大先生様に御面会の際、無肥料栽培について具体的な御垂示を賜りました。<br><br> その一つは木の葉堆肥をやると作土が非常に軟くなり細根が延び根の働きが充分に出来るので作物に非常に良いとの事でありました。<br><br> もう一つは作根に太陽の熱を与えるようにするのがよいと話されましたので早速実行して見ました。<br><br>その結果四年目には水稲三割増収、麦作は二割五分増収という大なる御神徳を頂き、この時の御守護の有難さはたとえようもありませんでした。<br><br> 当時村内一般の作況は平年作にも至らず不況であったにも拘らず、私の家では前記の二割ないし三割という増収であったので、村内一般は驚異の眼でみたので農業指導関係者の訪問迄も受けたのでありますから、その情況はおして知るべしであります。<br><br> そこで病虫害発生の原因も研究させられて参りましたが三カ年間の無肥料無消毒の結果、水稲においては稲熱病、苗代の腐敗等迄も全然なくなり、麦作においては「元消セ」「雪腐れ病」「自穂病」等迄も全然なくなりました。<br><br>これを思うに病虫害の発生は化学肥料並びに薬剤撒布が原因である事がはっきり判り、なお作物の出来るのは御土の霊気が原動力で火素水素土素の三位一体の大自然のお力によるものであると言う事を教わったのですが、その通りであるという事を判らせて頂きました。<br><br> なお付け加えて無肥料栽培の作物の味覚も格別であり、身体にとっても栄養満点であると思われます。<br><br>無肥料栽培の特長として増収栽培方法の簡単、経費及労力軽減、病虫害自然防止、味覚優良等々幾多の特点があるので、これを全国の皆様にお奨めしたいのであります。<br><br> 耕作段別 畑八段七畝、田一町五畝
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato da experiência de três anos de cultivo silencioso</h2>
 <p><strong>Publicado em "Antologia Jikan, Volume 2: O Método de Cultivo sem Fertilizantes", 1º de julho de 1949</strong></p>
@@ -104,5 +259,48 @@ function toggleLang(lang) {
 <p>Área cultivada:
 Campos secos: 8 tan e 7 se
 Arrozais: 1 chō e 5 se</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 黙々三年間の試作体験 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 宮城県 日本観音教進々会 教導師 及川富雄 昭和十八年八月よりこの有難い信仰に入り当時治病の業に専念中無肥料栽培について荒屋先生より御説明を項きました。<br/><br/> その当時無肥料栽培を行う事はどうしても不可能でありました。<br/><br/>当時は戦時で国家総力を挙げて増産を叫ばれており、農業会全国の指導機関は口を揃えて増収の鉄則は肥料の適合適量の様に世人一般に普及し、世人一般も又指導そのまま固く信じ化学肥料等人為的肥料に苦心していましたが、その結果としては病虫害は年一年と増し農作物の収穫は減収する一途を辿るのみでありました。<br/><br/> しかしながら科学を信ずる世人一般は何らの不審も抱かなかったのであります。<br/><br/>ところがたまたま荒屋先生より化学肥料栽培で穫った作物を食べるとしらずしらず人間の身体に悪いと言う事も教え頂いたのでいけないと早速昭和十九年春作よりこの実施に取掛ったのであります。<br/><br/>こんな結構なしかも簡単な栽培方法があったのかと喜びましたが、又半面収穫をみなくてはという心配もあったのであります。<br/><br/> 初年の稲作は不良という結果になったので村内一般より無肥料栽培のため不作になったのだと非難を浴せられたのでありますが、三年後の暁をみる迄はと思う決心で黙々実行しておったのであります。<br/><br/>ところが、同年九月現役として入営の余儀なきに至ったのでありますが、私の所信を家人に篤と話しこの実行を中絶することなく実施していて貰ったのでありますが、御守護により丁度一カ年目の九月に復員して、再び所信の研究をさせて頂きました。<br/><br/>その結果初年水稲は三割減収、麦作三割五分減収、次年には水稲二割減収、麦作三割減収、三年目には水稲一割減収、麦作は一割五分減収位に止める事が出来ました。<br/><br/> 所信三カ年の成果にて年一年減収の復活をみる事が出来ましたので、これにより平年を越して増収をみるもあえて難事ではなく、この実行を継続することによってその成果が近きにありと感じなおも研究に余念がなかったのであります。<br/><br/>その頃大先生様に御面会の際、無肥料栽培について具体的な御垂示を賜りました。<br/><br/> その一つは木の葉堆肥をやると作土が非常に軟くなり細根が延び根の働きが充分に出来るので作物に非常に良いとの事でありました。<br/><br/> もう一つは作根に太陽の熱を与えるようにするのがよいと話されましたので早速実行して見ました。<br/><br/>その結果四年目には水稲三割増収、麦作は二割五分増収という大なる御神徳を頂き、この時の御守護の有難さはたとえようもありませんでした。<br/><br/> 当時村内一般の作況は平年作にも至らず不況であったにも拘らず、私の家では前記の二割ないし三割という増収であったので、村内一般は驚異の眼でみたので農業指導関係者の訪問迄も受けたのでありますから、その情況はおして知るべしであります。<br/><br/> そこで病虫害発生の原因も研究させられて参りましたが三カ年間の無肥料無消毒の結果、水稲においては稲熱病、苗代の腐敗等迄も全然なくなり、麦作においては「元消セ」「雪腐れ病」「自穂病」等迄も全然なくなりました。<br/><br/>これを思うに病虫害の発生は化学肥料並びに薬剤撒布が原因である事がはっきり判り、なお作物の出来るのは御土の霊気が原動力で火素水素土素の三位一体の大自然のお力によるものであると言う事を教わったのですが、その通りであるという事を判らせて頂きました。<br/><br/> なお付け加えて無肥料栽培の作物の味覚も格別であり、身体にとっても栄養満点であると思われます。<br/><br/>無肥料栽培の特長として増収栽培方法の簡単、経費及労力軽減、病虫害自然防止、味覚優良等々幾多の特点があるので、これを全国の皆様にお奨めしたいのであります。<br/><br/> 耕作段別 畑八段七畝、田一町五畝</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

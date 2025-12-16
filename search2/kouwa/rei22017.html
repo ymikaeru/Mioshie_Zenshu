@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei22017</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（二） ２ 017-027 霊視 017 祈る時観音様見ゆ、明主様と観音様 四十歳の女、二十年前より観音様の信仰により御祈りして病気を治しておりました。<br><br>御祈りする時に観音様が現れて私の目に見えますが一般の方には見えないと言います。<br><br>この観音様は正しいか御伺いします。<br><br>入信は昨年十月致しました。<br><br>その後も同じです。<br><br> 見える人と見えぬ人がある。<br><br>観音様は本当で、贋物でない。<br><br>二十五、六年前私が大本へ入って間もなくある人が訪ねて来た。<br><br>その頃大本教と聞いていたが、大本は神か仏かとその人は質（き）く。<br><br>先生の側に観音様が見える。<br><br>目をつむっている。<br><br>大先生と同じ位の大きさで、便所へ行かれたら観音様も便所へ行かれるという。<br><br>私は観音様はその御姿など好きだった位しか思わぬ。<br><br>何か観音様と関係はあると思った。<br><br>その人が大先生の所へ来ようとすると観音様が見える。<br><br>観音様が大先生を使われてる事を知った。<br><br>神憑りの婆は「そもじは観音を熱心に信仰してるようだ」と言ったが、そんな事はない。<br><br>（S24. 1. 6） rattail（注） 〔 観世音菩薩と私 、自観叢書第4篇『奇蹟物語』P.4、昭和24(1949)年10月5日〕参照 018 霊衣の見える訳（霊眼の二様式） 霊衣（光）の見える人と見えない人がありますが、原因を御教え下さい。<br><br> いろんなものがよく見えるのは、眼の裏にある毒や、霊の曇りのためにそうなるので、これは浄霊で治る。<br><br>眼の神経の異常である。<br><br> 霊界を見るには眼をつぶった方が見える。<br><br>人事百般いろいろな事が見える。<br><br>よく映画のように、廻り燈籠のように運命が見える人があった。<br><br>（自分の過去） 右の二様式がある。<br><br> 人間の霊感は素晴らしい働きをする。<br><br> 019 霊視と転換期 普河教導所所属の信者から最近霊的疾患の方が続発し、また霊衣の見える人が出たり致しましたが、これはいかなる訳でございましょうか。<br><br>御伺い申し上げます。<br><br> 霊界が段々明るくなって、火素が増量し、霊が早く助けて貰おうとして人間に憑依する。<br><br>最近の新聞で、京都でヂフテリヤ予防注射で相当数病気になった。<br><br>島根でもあった。<br><br>大阪日赤製造のもので、こんなのがこれから出るであろう。<br><br>これは霊界が明るくなり、浄化力旺盛になったためである。<br><br> 霊が見えるのはその人に霊が憑る。<br><br>度々見えるのはよくない。<br><br>一番見えるのは精神病で、医学では幻覚、幻聴と言う。<br><br>――石川の例。<br><br> 一番よく見えるのは狐霊で、日蓮宗などはよく見える。<br><br>以前大本教時代、京都で、見えすぎて困る人があった。<br><br>（S23.12. 9） 020 霊視能力の根本 心霊学者、修養団体（報恩会、奉誠会、霊友会）等の指導者の霊視能力は憑霊のためでしょうか。<br><br> すべて霊視能力は憑霊のためで、その殆どは狐霊である。<br><br>狐が憑ると霊が見えたり、声が聞えるのである。<br><br>精神病者は右の能力が顕著である。<br><br>故に普通人がそうなる事は危険である。<br><br>しかし特殊の場合、一時的に見える場合は差支えない。<br><br>始終見えるのは危い。<br><br> 精神病者がよく空間を仰視（みつ）めているが、これは医学では幻覚と言い、聞えるのを幻聴と言う。<br><br> 正守護神が見せる場合があり、その際狐を使う事もある。<br><br> （狐は特殊の能力を持っているので、人間に知らすためよく守護神や人霊に頼まれる。<br><br>巫女なども大いにそれがある。<br><br>狐はとても頭がよく、どんな事を聞いても返事する。<br><br>実にうまく何でも理屈つけるので、限りなく喋る。<br><br>喋ってる時の理屈はとても人間も敵わぬ。<br><br>こっちの話は全然聞かず、押付けるように喋るものである） rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕に掲載 021 霊視について 光明如来の御軸より出る光が教団に古くから入っている人に見えずに、新しく入った人に見えるのはどんな訳で御座いますか。<br><br> その人の霊の関係で、見える人と見えぬ人とある。<br><br>始終、霊の見えるのは良くない。<br><br>危険である。<br><br>たまに見えるのがよい。<br><br>見える場合、狐の霊が憑く時に見えるので、正守護神が狐を使って見せさすのであるが、どっちかというと見えぬ方がよい。<br><br>精神病になる人は見える人に多い。<br><br>見えぬのが原則である。<br><br>信仰団体では、多く見える人が尊敬される。<br><br>日蓮の行者は、狐が憑くと神通力が出るという。<br><br> 022 霊視能力（霊眼） 私は前に弘法大師を信仰しておりましたが、神経痛のため、隣家の人の御浄霊を頂いておりました。<br><br>本年二月下旬、その人が御面会から変られ早速御浄霊をして頂きました。<br><br>その夜十二時頃座敷の南の鴨居の真中に弘法大師が現われ、平伏して頭を下げました。<br><br>そして頭を上げて見ると光明如来と金文字で南の鴨居に現われ、また御写真で拝見した大先生が大勢の前で御話しをしておらるるところが現われ、また人間が落ちて行く地獄の絵巻（床の間の桂 (ﾏﾏ) の上）の上に手と手が握り合っている（御救いの手につかまれとの暗示と思いました）等々種々不思議な事が映画のように見せられました。<br><br>その後私も御守を戴き、それから光明如来様を奉斎致しましたが、今もなお阿弥陀如来が神として現われるとか種々不思議な事を見せられます。<br><br>私にはなぜ右のような事が見えるのでしょうか。<br><br>御尋ね致します。<br><br> これは霊眼で、そういう能力のある人がある。<br><br>人により廻り燈籠のように（映画のフィルムのごとく）見える人がある。<br><br>祖霊の中で、種々教えるためとか、信仰を進めるとかの目的で、そうしたもので、弘法大師が導いたものであろう。<br><br>そういう霊は狐である。<br><br>狐は霊視能力は一番である。<br><br> 大先生の御手につかまらぬと地獄へ堕つる事を（見せたのである。<br><br>） 阿弥陀は月読尊、素盞嗚尊である。<br><br>（S24. 7.25） 023 息苦しく頭振る（足のみ霊視） 私の母（五十二歳）は、去年七月、田の草取りで（稲の穂で目を突き）目を悪くして以来盲となり、一進一退の状態です。<br><br>私が最近善言讃詞を上げていると、すうっと手が上り（母親）頭を左右に振り、声は荒々しく息苦しく、くやしがり終（つい）に泣き出してしまいます。<br><br>また悪くなって以来、大光明如来様の前に人間の足の膝から下が（歩く姿が）見え、また蛇の腹が見えたり、太い大きな木が倒れたりするそうです。<br><br>いかなる霊の仕業でしょうか。<br><br>またこのような事が今後続くのでしょうか。<br><br>御教示を御願い申し上げます。<br><br> 祟っている。<br><br>頭を振り息苦しくなるのは霊が憑ってくる証拠である。<br><br>足だけ見えるのは霊が歩くのである。<br><br>霊の足だけ見える事はよくある。<br><br>気長に浄霊すれば治る。<br><br>頭をよく浄霊する。<br><br>（S24. 7. 5） 024 両眼突如失明・蛇と骸骨を視る 愛知県碧海郡上郷村のある信者の家で御座いますが、三月五日に年忌を致しましたところ、翌六日、その宅の十二歳になります子供が突然目が見えなくなり、両眼共白く雲がかかりました。<br><br>それからは、いつも目の前に海に舟が浮いているように見え、海にも舟の中にも無数の蛇がおり、皆二ツ頭で、舟の中にはトグロを巻いているそうで御座います。<br><br>また、舟の中には五ツの骸骨があり、右手は肉がついているようにも見え、棒を振り廻しているそうで御座います。<br><br>御浄霊を致しましても霊は浮きません。<br><br>また母親が昨年道端にいた蛇に田の土を投げた所、蛇は逃げず、善言讃詞を奏上致しますと、頭を上げ一向に逃げず、御浄霊を致しますと、投げた土の中に入って姿を消してしまったそうで御座います。<br><br>何か霊的に関係が御座いましょうか。<br><br>御教えを賜りたくお願い申し上げます。<br><br> 蛇を沢山殺した漁師が、殺した蛇を船へ乗せて海へ捨てた。<br><br>その怨みで、漁船が難船五人溺死したのであろう。<br><br> 頼って来てる。<br><br>眼は治る。<br><br> 浄霊もするが、祝詞を出来るだけ奏げる。<br><br>一日に数回、祝詞や御讃歌を奏げる。<br><br>段々よくなる。<br><br> 光明如来様と幽世大神様にお願いする。<br><br>（S25. 4.21） 025 霊感者の例 私の導いた信徒で本年二十七歳の男子、入信後霊憑りの状態を表わし、患者を浄霊する場合、相手の患部が自己に反映し、特に霊的原因においては霊が見えるのであります。<br><br>夜間独り歩き等する場合、通行人に出会う五十米位前方において、もし相手に害意がある場合は黒い影、しからざる場合は白い影が眼前に現われ、事前に知る事が出来ます。<br><br>誰に浄霊をしても霊が出て参りますので、本人は非常に恐れておりますが、いかにしたらよろしいのでしょうか。<br><br>なお先月御面会を頂きましてから余計その状態が激しくなったようであります。<br><br>御教示御願い致します。<br><br> こういう人はある。<br><br>霊感の強い人である。<br><br>良い事に使えばいい。<br><br>この人に憑っている霊がそういう能力のある霊である。<br><br> 苦痛のようだったら治して上げる。<br><br> 霊が見えて苦しむ人もある。<br><br>（S24.10. 8） 026 病人に御讃歌の霊感 御浄化を戴いている人を浄霊致し、病人の頭へ祝詞を奏上させて戴いておりますと、御讃歌を病人の胸に奉唱すればよいと云う霊感が私に感ぜられます。<br><br>よって同一の御讃歌を病人の胸に三回奉唱致しますと、病気に原因の霊が私に見えて参りますと共にその霊の要求が解ります。<br><br>その霊の要求通りに致しますと浄化が速かにおさまりますが、右に関して御教示を御願い致します。<br><br> 大いに結構である。<br><br>守護神が手伝うのである。<br><br>御讃歌は非常に喜ぶ。<br><br>（S24. 7.29） 027 人の意中・行動を感知す 三十三歳の婦人、肺結核のため三ケ月床につき、本年四月入信して以来、他人の意中、行動等が教わらずに分るようになりました。<br><br>（なお、この人は以前御稲荷さんを信仰した事もあります）いかなる訳でしょうか。<br><br>御教示下さい。<br><br> 稲荷が判らすのである。<br><br>（S *. 7. 8）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Mestre Okada Jikan – Pesquisa de Ensinamentos: Pesquisa de Materiais: Estudos Espirituais, Parte Dois, Fenômenos Espirituais (II)</h2>
 <h2>017 A visão de Kannon durante a oração e a relação com Meishu-Sama</h2>
@@ -143,5 +295,48 @@ function toggleLang(lang) {
 <h2>027 Perceber as Intenções e Ações das Pessoas</h2>
 <p><strong>Pergunta:</strong> Uma senhora de trinta e três anos, acamada por três meses com tuberculose, ingressou na fé em abril deste ano. Desde então, ela passou a compreender as intenções e as ações de outras pessoas sem que ninguém lhe diga nada. (Essa pessoa também costumava cultuar Inari). Qual seria a razão para isso?</p>
 <p><strong>Resposta:</strong> É o espírito de Inari que lhe concede essa percepção.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 二 霊的現象（二） ２ 017-027 霊視 017 祈る時観音様見ゆ、明主様と観音様 四十歳の女、二十年前より観音様の信仰により御祈りして病気を治しておりました。<br/><br/>御祈りする時に観音様が現れて私の目に見えますが一般の方には見えないと言います。<br/><br/>この観音様は正しいか御伺いします。<br/><br/>入信は昨年十月致しました。<br/><br/>その後も同じです。<br/><br/> 見える人と見えぬ人がある。<br/><br/>観音様は本当で、贋物でない。<br/><br/>二十五、六年前私が大本へ入って間もなくある人が訪ねて来た。<br/><br/>その頃大本教と聞いていたが、大本は神か仏かとその人は質（き）く。<br/><br/>先生の側に観音様が見える。<br/><br/>目をつむっている。<br/><br/>大先生と同じ位の大きさで、便所へ行かれたら観音様も便所へ行かれるという。<br/><br/>私は観音様はその御姿など好きだった位しか思わぬ。<br/><br/>何か観音様と関係はあると思った。<br/><br/>その人が大先生の所へ来ようとすると観音様が見える。<br/><br/>観音様が大先生を使われてる事を知った。<br/><br/>神憑りの婆は「そもじは観音を熱心に信仰してるようだ」と言ったが、そんな事はない。<br/><br/>（S24. 1. 6） rattail（注） 〔 観世音菩薩と私 、自観叢書第4篇『奇蹟物語』P.4、昭和24(1949)年10月5日〕参照 018 霊衣の見える訳（霊眼の二様式） 霊衣（光）の見える人と見えない人がありますが、原因を御教え下さい。<br/><br/> いろんなものがよく見えるのは、眼の裏にある毒や、霊の曇りのためにそうなるので、これは浄霊で治る。<br/><br/>眼の神経の異常である。<br/><br/> 霊界を見るには眼をつぶった方が見える。<br/><br/>人事百般いろいろな事が見える。<br/><br/>よく映画のように、廻り燈籠のように運命が見える人があった。<br/><br/>（自分の過去） 右の二様式がある。<br/><br/> 人間の霊感は素晴らしい働きをする。<br/><br/> 019 霊視と転換期 普河教導所所属の信者から最近霊的疾患の方が続発し、また霊衣の見える人が出たり致しましたが、これはいかなる訳でございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊界が段々明るくなって、火素が増量し、霊が早く助けて貰おうとして人間に憑依する。<br/><br/>最近の新聞で、京都でヂフテリヤ予防注射で相当数病気になった。<br/><br/>島根でもあった。<br/><br/>大阪日赤製造のもので、こんなのがこれから出るであろう。<br/><br/>これは霊界が明るくなり、浄化力旺盛になったためである。<br/><br/> 霊が見えるのはその人に霊が憑る。<br/><br/>度々見えるのはよくない。<br/><br/>一番見えるのは精神病で、医学では幻覚、幻聴と言う。<br/><br/>――石川の例。<br/><br/> 一番よく見えるのは狐霊で、日蓮宗などはよく見える。<br/><br/>以前大本教時代、京都で、見えすぎて困る人があった。<br/><br/>（S23.12. 9） 020 霊視能力の根本 心霊学者、修養団体（報恩会、奉誠会、霊友会）等の指導者の霊視能力は憑霊のためでしょうか。<br/><br/> すべて霊視能力は憑霊のためで、その殆どは狐霊である。<br/><br/>狐が憑ると霊が見えたり、声が聞えるのである。<br/><br/>精神病者は右の能力が顕著である。<br/><br/>故に普通人がそうなる事は危険である。<br/><br/>しかし特殊の場合、一時的に見える場合は差支えない。<br/><br/>始終見えるのは危い。<br/><br/> 精神病者がよく空間を仰視（みつ）めているが、これは医学では幻覚と言い、聞えるのを幻聴と言う。<br/><br/> 正守護神が見せる場合があり、その際狐を使う事もある。<br/><br/> （狐は特殊の能力を持っているので、人間に知らすためよく守護神や人霊に頼まれる。<br/><br/>巫女なども大いにそれがある。<br/><br/>狐はとても頭がよく、どんな事を聞いても返事する。<br/><br/>実にうまく何でも理屈つけるので、限りなく喋る。<br/><br/>喋ってる時の理屈はとても人間も敵わぬ。<br/><br/>こっちの話は全然聞かず、押付けるように喋るものである） rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕に掲載 021 霊視について 光明如来の御軸より出る光が教団に古くから入っている人に見えずに、新しく入った人に見えるのはどんな訳で御座いますか。<br/><br/> その人の霊の関係で、見える人と見えぬ人とある。<br/><br/>始終、霊の見えるのは良くない。<br/><br/>危険である。<br/><br/>たまに見えるのがよい。<br/><br/>見える場合、狐の霊が憑く時に見えるので、正守護神が狐を使って見せさすのであるが、どっちかというと見えぬ方がよい。<br/><br/>精神病になる人は見える人に多い。<br/><br/>見えぬのが原則である。<br/><br/>信仰団体では、多く見える人が尊敬される。<br/><br/>日蓮の行者は、狐が憑くと神通力が出るという。<br/><br/> 022 霊視能力（霊眼） 私は前に弘法大師を信仰しておりましたが、神経痛のため、隣家の人の御浄霊を頂いておりました。<br/><br/>本年二月下旬、その人が御面会から変られ早速御浄霊をして頂きました。<br/><br/>その夜十二時頃座敷の南の鴨居の真中に弘法大師が現われ、平伏して頭を下げました。<br/><br/>そして頭を上げて見ると光明如来と金文字で南の鴨居に現われ、また御写真で拝見した大先生が大勢の前で御話しをしておらるるところが現われ、また人間が落ちて行く地獄の絵巻（床の間の桂 (ﾏﾏ) の上）の上に手と手が握り合っている（御救いの手につかまれとの暗示と思いました）等々種々不思議な事が映画のように見せられました。<br/><br/>その後私も御守を戴き、それから光明如来様を奉斎致しましたが、今もなお阿弥陀如来が神として現われるとか種々不思議な事を見せられます。<br/><br/>私にはなぜ右のような事が見えるのでしょうか。<br/><br/>御尋ね致します。<br/><br/> これは霊眼で、そういう能力のある人がある。<br/><br/>人により廻り燈籠のように（映画のフィルムのごとく）見える人がある。<br/><br/>祖霊の中で、種々教えるためとか、信仰を進めるとかの目的で、そうしたもので、弘法大師が導いたものであろう。<br/><br/>そういう霊は狐である。<br/><br/>狐は霊視能力は一番である。<br/><br/> 大先生の御手につかまらぬと地獄へ堕つる事を（見せたのである。<br/><br/>） 阿弥陀は月読尊、素盞嗚尊である。<br/><br/>（S24. 7.25） 023 息苦しく頭振る（足のみ霊視） 私の母（五十二歳）は、去年七月、田の草取りで（稲の穂で目を突き）目を悪くして以来盲となり、一進一退の状態です。<br/><br/>私が最近善言讃詞を上げていると、すうっと手が上り（母親）頭を左右に振り、声は荒々しく息苦しく、くやしがり終（つい）に泣き出してしまいます。<br/><br/>また悪くなって以来、大光明如来様の前に人間の足の膝から下が（歩く姿が）見え、また蛇の腹が見えたり、太い大きな木が倒れたりするそうです。<br/><br/>いかなる霊の仕業でしょうか。<br/><br/>またこのような事が今後続くのでしょうか。<br/><br/>御教示を御願い申し上げます。<br/><br/> 祟っている。<br/><br/>頭を振り息苦しくなるのは霊が憑ってくる証拠である。<br/><br/>足だけ見えるのは霊が歩くのである。<br/><br/>霊の足だけ見える事はよくある。<br/><br/>気長に浄霊すれば治る。<br/><br/>頭をよく浄霊する。<br/><br/>（S24. 7. 5） 024 両眼突如失明・蛇と骸骨を視る 愛知県碧海郡上郷村のある信者の家で御座いますが、三月五日に年忌を致しましたところ、翌六日、その宅の十二歳になります子供が突然目が見えなくなり、両眼共白く雲がかかりました。<br/><br/>それからは、いつも目の前に海に舟が浮いているように見え、海にも舟の中にも無数の蛇がおり、皆二ツ頭で、舟の中にはトグロを巻いているそうで御座います。<br/><br/>また、舟の中には五ツの骸骨があり、右手は肉がついているようにも見え、棒を振り廻しているそうで御座います。<br/><br/>御浄霊を致しましても霊は浮きません。<br/><br/>また母親が昨年道端にいた蛇に田の土を投げた所、蛇は逃げず、善言讃詞を奏上致しますと、頭を上げ一向に逃げず、御浄霊を致しますと、投げた土の中に入って姿を消してしまったそうで御座います。<br/><br/>何か霊的に関係が御座いましょうか。<br/><br/>御教えを賜りたくお願い申し上げます。<br/><br/> 蛇を沢山殺した漁師が、殺した蛇を船へ乗せて海へ捨てた。<br/><br/>その怨みで、漁船が難船五人溺死したのであろう。<br/><br/> 頼って来てる。<br/><br/>眼は治る。<br/><br/> 浄霊もするが、祝詞を出来るだけ奏げる。<br/><br/>一日に数回、祝詞や御讃歌を奏げる。<br/><br/>段々よくなる。<br/><br/> 光明如来様と幽世大神様にお願いする。<br/><br/>（S25. 4.21） 025 霊感者の例 私の導いた信徒で本年二十七歳の男子、入信後霊憑りの状態を表わし、患者を浄霊する場合、相手の患部が自己に反映し、特に霊的原因においては霊が見えるのであります。<br/><br/>夜間独り歩き等する場合、通行人に出会う五十米位前方において、もし相手に害意がある場合は黒い影、しからざる場合は白い影が眼前に現われ、事前に知る事が出来ます。<br/><br/>誰に浄霊をしても霊が出て参りますので、本人は非常に恐れておりますが、いかにしたらよろしいのでしょうか。<br/><br/>なお先月御面会を頂きましてから余計その状態が激しくなったようであります。<br/><br/>御教示御願い致します。<br/><br/> こういう人はある。<br/><br/>霊感の強い人である。<br/><br/>良い事に使えばいい。<br/><br/>この人に憑っている霊がそういう能力のある霊である。<br/><br/> 苦痛のようだったら治して上げる。<br/><br/> 霊が見えて苦しむ人もある。<br/><br/>（S24.10. 8） 026 病人に御讃歌の霊感 御浄化を戴いている人を浄霊致し、病人の頭へ祝詞を奏上させて戴いておりますと、御讃歌を病人の胸に奉唱すればよいと云う霊感が私に感ぜられます。<br/><br/>よって同一の御讃歌を病人の胸に三回奉唱致しますと、病気に原因の霊が私に見えて参りますと共にその霊の要求が解ります。<br/><br/>その霊の要求通りに致しますと浄化が速かにおさまりますが、右に関して御教示を御願い致します。<br/><br/> 大いに結構である。<br/><br/>守護神が手伝うのである。<br/><br/>御讃歌は非常に喜ぶ。<br/><br/>（S24. 7.29） 027 人の意中・行動を感知す 三十三歳の婦人、肺結核のため三ケ月床につき、本年四月入信して以来、他人の意中、行動等が教わらずに分るようになりました。<br/><br/>（なお、この人は以前御稲荷さんを信仰した事もあります）いかなる訳でしょうか。<br/><br/>御教示下さい。<br/><br/> 稲荷が判らすのである。<br/><br/>（S *. 7. 8）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

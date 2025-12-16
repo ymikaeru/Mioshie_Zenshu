@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kenkou05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康による天国化 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』号外、昭和24(1949)年5月30日発行の論文を修正掲載 キリストの一大予言である「天国は近づけり」の獅子吼（ししく）はもとより、あらゆる宗教の目的とするところは、より良き世界すなわち人間から苦悩を除き、歓喜の世界実現にある事は言うまでもない。<br><br>この一致した理想に対し、遺憾ながら現実は実現どころか地獄の境界から脱却するさえ前途遼遠の感がある。<br><br>洋の東西を問わず、昔から宗教、哲学、科学、道徳、教育等によって不断の努力を払いつつあるにかかわらず、今もって何らの進展も見られないのは何がためであろうか、そうして悲劇の根源とも目すべき人間の健康に至っては、解決の曙光さえ見られないのが現実である。<br><br> この事については、我々は常に耳にタコが出来る程説いてはいるが、この問題に限って説き過ぎるとは思わない。<br><br>何となればこの健康問題が立派に解決されない限り、他のあらゆる条件が全部具現しても何らの意味をなさないからである。<br><br>しかるに私によって完成されたところの神霊療法は、人間のあらゆる病患を除去し、完全健康体たる事が可能であるのである。<br><br> このような大発見は、現代文化の水準を抜く事あまりにも高いため反って誤解を生じ易いのである。<br><br>何となればちょうど地上の人間が屋根の上にいる人間の頭上が見えないようなものであるからである。<br><br> 見よ、一切の悲劇の根源を探究する時、必ずそこに病患の原因を見出すのである。<br><br>若くして結核に倒れる者、今や高等学府を出でんとする真〔間〕際に同病に犯され、当人は元よりその親は唯一の希望を失い、前途暗澹たる運命に投げ出される者、中年者にして事業半途（なかば）にして挫折したり、ようやく基礎が成って大いに勇躍せんとする時、病魔のために進退難に陥る者等々、実に社会悲劇の大部分は病気が原因である。<br><br>それに対して進歩せる医学も既成宗教も、相変らず努力を続けてはいるが、何ら光明を見出し得ないのが事実である。<br><br> このような悲惨極まる今日、突如として現れたのが神霊療法である、この神霊療法いかに画期的大医学であるか、一度本教に入信し実体を把握した者は容易に納得がゆくのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Saúde como Alicerce para o Paraíso Terrestre</h2>
 <p>O objetivo primordial de todas as religiões, ecoado na grandiosa profecia de Cristo — “O Reino dos Céus está próximo” —, é, sem dúvida, a concretização de um mundo melhor, um mundo de júbilo, livre do sofrimento humano. Todavia, em face desse ideal unânime, a realidade se mostra lamentavelmente distante. Não apenas estamos longe de sua concretização, como a própria superação de um estado infernal parece uma perspectiva remota.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Observai: ao investigarmos a origem de toda tragédia, invariavelmente encontraremos a doença como sua causa. Jovens que sucumbem à tuberculose; estudantes que, prestes a concluir seus estudos superiores, são acometidos pelo mesmo mal, fazendo com que não apenas eles, mas também seus pais, percam sua única esperança e sejam lançados a um destino sombrio; pessoas de meia-idade que veem seus empreendimentos fracassarem a meio caminho ou que, no exato momento de alçar grandes voos após consolidarem suas bases, são paralisadas pelo demônio da doença, ficando em uma situação de impasse. De fato, a grande maioria das tragédias sociais origina-se nas enfermidades.</p>
 <p>Diante desse quadro, tanto a medicina, com todos os seus avanços, quanto as religiões estabelecidas prosseguem em seus esforços. Contudo, a verdade é que não foram capazes de encontrar qualquer luz.</p>
 <p>É em meio a estes tempos de extrema desolação que surge, subitamente, a Terapia Divina. Aqueles que ingressam em nossa Fé e compreendem sua essência podem facilmente aquilatar quão revolucionária e grandiosa é esta nova medicina.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康による天国化 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』号外、昭和24(1949)年5月30日発行の論文を修正掲載 キリストの一大予言である「天国は近づけり」の獅子吼（ししく）はもとより、あらゆる宗教の目的とするところは、より良き世界すなわち人間から苦悩を除き、歓喜の世界実現にある事は言うまでもない。<br/><br/>この一致した理想に対し、遺憾ながら現実は実現どころか地獄の境界から脱却するさえ前途遼遠の感がある。<br/><br/>洋の東西を問わず、昔から宗教、哲学、科学、道徳、教育等によって不断の努力を払いつつあるにかかわらず、今もって何らの進展も見られないのは何がためであろうか、そうして悲劇の根源とも目すべき人間の健康に至っては、解決の曙光さえ見られないのが現実である。<br/><br/> この事については、我々は常に耳にタコが出来る程説いてはいるが、この問題に限って説き過ぎるとは思わない。<br/><br/>何となればこの健康問題が立派に解決されない限り、他のあらゆる条件が全部具現しても何らの意味をなさないからである。<br/><br/>しかるに私によって完成されたところの神霊療法は、人間のあらゆる病患を除去し、完全健康体たる事が可能であるのである。<br/><br/> このような大発見は、現代文化の水準を抜く事あまりにも高いため反って誤解を生じ易いのである。<br/><br/>何となればちょうど地上の人間が屋根の上にいる人間の頭上が見えないようなものであるからである。<br/><br/> 見よ、一切の悲劇の根源を探究する時、必ずそこに病患の原因を見出すのである。<br/><br/>若くして結核に倒れる者、今や高等学府を出でんとする真〔間〕際に同病に犯され、当人は元よりその親は唯一の希望を失い、前途暗澹たる運命に投げ出される者、中年者にして事業半途（なかば）にして挫折したり、ようやく基礎が成って大いに勇躍せんとする時、病魔のために進退難に陥る者等々、実に社会悲劇の大部分は病気が原因である。<br/><br/>それに対して進歩せる医学も既成宗教も、相変らず努力を続けてはいるが、何ら光明を見出し得ないのが事実である。<br/><br/> このような悲惨極まる今日、突如として現れたのが神霊療法である、この神霊療法いかに画期的大医学であるか、一度本教に入信し実体を把握した者は容易に納得がゆくのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

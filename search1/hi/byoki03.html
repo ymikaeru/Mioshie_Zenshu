@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気と医学 未発表『文明の創造』昭和27(1952)年執筆 前述のごとく、私は反文明の原因としての、戦争と病気の二大苦を挙げたが、その外に今一つの貧困がある。<br><br>しかしこれは戦争と病気とが解決出来れば、自然に解決さるるものであるから書かないが、まず戦争の原因から説いてみると、これはもちろん精神的欠陥すなわち心の病気にあるので、これも肉体の病気さえ解決出来れば、共に解決さるべきものである。<br><br> 右のごとく病気も、戦争も、貧困も同一原因であるとしたら、真の健康人すなわち霊肉共に完全な人間を作ればいいのである。<br><br>しかしこう言えば至極簡単のようであるが、実はこれが容易でない事は誰も想像されるであろう。<br><br>しかし私から言えば、決して不可能ではない。<br><br>何となれば必ず解決出来得るだけの方法を、神から啓示されているからで、これが私の使命でもあり、その一段階としてのこの著である。<br><br> 従ってまず病気なるものから書いてみるが、病（やまい）と言っても前述の通り、肉体と精神との両方であるが、現代人は普通病とさえ言えば、肉体のみのものと思っているところに誤りがあるので、この精神の不健康者こそ、戦争の原因となるのである。<br><br>そのような訳でどうしても人間が肉体と精神と共に本当にならない限り、真の文明世界は生まれないのは言うまでもない。<br><br>ではどうすればそれが実現され得るかというと、それにはもちろんその根本が解ると共に、可能の方法も発見せられなければならない。<br><br>ところが私はそれに関する根本義を発見し、しかも絶対解決の方法までも把握し得たので、ここに詳細徹底的にかくのである。<br><br>それについてはまず吾々が住んでいるこの地上の実相から解いてみるが、元来この地上の一切、今日までの学問では物質のみの存在とされており、それ以外は無とされて来たのである。<br><br>しかしこの考え方たるや非常な誤りであって、無どころではない。<br><br>人類にとってこれ程重要なるものはない程のものが、確実に存在している事である。<br><br>にもかかわらずそれがなぜ今日まで分っていなかったかというと、全く唯物科学にのみ依存して来た結果であるからで、すなわち唯物科学においての理論は、見えざるものは無と決めていた以上、これ程進歩したと思われる唯物科学でも把握出来なかったのである。<br><br>右のごとく唯物科学で知り得ないものは、ことごとく否定の闇に葬ってしまった。<br><br>その独断的観念こそ、学者の頭脳なるもののいとも頑（かたくな）な偏見さである。<br><br>これについては多くをいう必要はあるまい程、人類の幸福が文化の進歩に伴わない事実である。<br><br>それをこれから漸次説き進めてみよう。<br><br> 以上説いたごとく精神と肉体共に完全なる人間を作るのが真の医学であるとしたら、現代医学は果たして目的通りに進んでいるであろうかをここで検討する時、それは余りにも背反している事実である。<br><br>それどころではない。<br><br>むしろ病気を作り、病人を増やしていると言っても過言ではない程の誤りを犯している事で、それをこれから詳しく書いてみるが、まず医学なるものの今日までの根本的考え方である。<br><br>というのは医学は病気の原因が全然分っていないから、すべて反対に解釈している。<br><br>もちろん唯物科学本位で進んで来たものとすれば致し方ないであろう。<br><br> 右の結果医学は病気の場合外部に表われたる苦痛を緩和するのみに専念している。<br><br>従って医学の進歩とは一時的苦痛緩和法の進歩したものであって、その方法として採られているものが彼の薬剤、機械、放射能等の物質の応用である。<br><br>なるほどこれによって病気の苦痛は緩和されるので、これで病気が治るものと誤認し、緩和法を続行するのであるが、事実は苦痛緩和と病気の治る事とは、根本的に異（ちが）うのである。<br><br>すなわち前者は一時的で、後者は永久的であるからである。<br><br>しかもその苦痛緩和の方法自体が病を作り、病を悪化させる結果なのであるから問題は大きいのである。<br><br> 何しろ唯物的医学であるから、人体も単なる物質と見るのみか、人間と人間以外の動物をも同一視するのである。<br><br>それによって動物を研究資料として、病理の発見に努め、たまたま何らかの成果を得るや、直ちに人間に応用するのであるが、これが非常な誤りである。<br><br>何となれば人間と動物とは形も本質も内容も全く異なっている事で、これに気が付かないのである。<br><br>この理によって人間の病気は人間を対象として研究されなければならない事は余りにも明らかであって、これ以外人間を治す医学は確立されるはずはないのである。<br><br>そうして今一つこういう点も知らなければならない事は、動物には人間のような神経作用がないが人間には大いにある。<br><br>人間が神経作用のために、どのくらい病気に影響するか分らない。<br><br>例えば一度結核と宣告されるや、この一言で患者の神経は大打撃を受け、目に見えて憔悴（しょうすい）する事実は、医家も一般人もよく知るところであろう。<br><br>ところが動物にはそういう事が全然ないに見ても肯かれるであろう。<br><br> 以上によって見る時、現代医学の欠陥は、霊と体で構成されている人間を、霊を無視して体のみを対象とする事と、人間と動物を同一に視ている点で、これが主なるものである事を知らねばならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem dos Flagelos Humanos e a Falácia da Medicina Moderna</h2>
 <p>Conforme mencionei anteriormente, apontei a guerra e a doença como os dois grandes flagelos que constituem a causa da anticivilização. Haveria ainda um terceiro, a pobreza. Contudo, não discorrerei sobre ela, pois é um mal que será naturalmente solucionado uma vez que a guerra e a doença o sejam. Primeiramente, ao analisar as causas da guerra, constatamos que sua origem reside, sem dúvida, em uma falha de ordem espiritual — uma enfermidade da alma. Esta, por sua vez, é uma questão que também encontrará sua resolução quando a doença do corpo for superada.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Sendo uma medicina materialista, ela não só enxerga o corpo humano como mera matéria, mas também equipara o ser humano aos demais animais. Com base nessa premissa, utiliza os animais como objeto de estudo para desvendar a patologia e, ao obter algum resultado, apressa-se em aplicá-lo aos seres humanos. Trata-se de um erro crasso, pois não se dão conta de que seres humanos e animais diferem por completo em forma, essência e constituição.</p>
 <p>Por essa lógica, torna-se por demais evidente que as doenças humanas devem ser pesquisadas tendo como objeto o próprio ser humano. Fora disso, é impossível que se estabeleça uma medicina capaz de curá-lo. Há ainda outro ponto a ser considerado: os animais não possuem um sistema nervoso como o dos seres humanos. É incalculável a influência que a atividade nervosa exerce sobre as doenças no homem. O diagnóstico de tuberculose, por exemplo, é um golpe devastador para os nervos do paciente, que passa a definhar visivelmente — um fato bem conhecido tanto por médicos quanto pelo público em geral. A constatação de que nada semelhante ocorre com os animais corrobora esse argumento.</p>
 <p>Diante do exposto, cumpre reconhecer que os principais defeitos da medicina moderna residem em dois pontos: o primeiro é ignorar o espírito, tratando o ser humano — um ser constituído de espírito e matéria — apenas com base em seu corpo; o segundo é equiparar o homem aos animais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気と医学 未発表『文明の創造』昭和27(1952)年執筆 前述のごとく、私は反文明の原因としての、戦争と病気の二大苦を挙げたが、その外に今一つの貧困がある。<br/><br/>しかしこれは戦争と病気とが解決出来れば、自然に解決さるるものであるから書かないが、まず戦争の原因から説いてみると、これはもちろん精神的欠陥すなわち心の病気にあるので、これも肉体の病気さえ解決出来れば、共に解決さるべきものである。<br/><br/> 右のごとく病気も、戦争も、貧困も同一原因であるとしたら、真の健康人すなわち霊肉共に完全な人間を作ればいいのである。<br/><br/>しかしこう言えば至極簡単のようであるが、実はこれが容易でない事は誰も想像されるであろう。<br/><br/>しかし私から言えば、決して不可能ではない。<br/><br/>何となれば必ず解決出来得るだけの方法を、神から啓示されているからで、これが私の使命でもあり、その一段階としてのこの著である。<br/><br/> 従ってまず病気なるものから書いてみるが、病（やまい）と言っても前述の通り、肉体と精神との両方であるが、現代人は普通病とさえ言えば、肉体のみのものと思っているところに誤りがあるので、この精神の不健康者こそ、戦争の原因となるのである。<br/><br/>そのような訳でどうしても人間が肉体と精神と共に本当にならない限り、真の文明世界は生まれないのは言うまでもない。<br/><br/>ではどうすればそれが実現され得るかというと、それにはもちろんその根本が解ると共に、可能の方法も発見せられなければならない。<br/><br/>ところが私はそれに関する根本義を発見し、しかも絶対解決の方法までも把握し得たので、ここに詳細徹底的にかくのである。<br/><br/>それについてはまず吾々が住んでいるこの地上の実相から解いてみるが、元来この地上の一切、今日までの学問では物質のみの存在とされており、それ以外は無とされて来たのである。<br/><br/>しかしこの考え方たるや非常な誤りであって、無どころではない。<br/><br/>人類にとってこれ程重要なるものはない程のものが、確実に存在している事である。<br/><br/>にもかかわらずそれがなぜ今日まで分っていなかったかというと、全く唯物科学にのみ依存して来た結果であるからで、すなわち唯物科学においての理論は、見えざるものは無と決めていた以上、これ程進歩したと思われる唯物科学でも把握出来なかったのである。<br/><br/>右のごとく唯物科学で知り得ないものは、ことごとく否定の闇に葬ってしまった。<br/><br/>その独断的観念こそ、学者の頭脳なるもののいとも頑（かたくな）な偏見さである。<br/><br/>これについては多くをいう必要はあるまい程、人類の幸福が文化の進歩に伴わない事実である。<br/><br/>それをこれから漸次説き進めてみよう。<br/><br/> 以上説いたごとく精神と肉体共に完全なる人間を作るのが真の医学であるとしたら、現代医学は果たして目的通りに進んでいるであろうかをここで検討する時、それは余りにも背反している事実である。<br/><br/>それどころではない。<br/><br/>むしろ病気を作り、病人を増やしていると言っても過言ではない程の誤りを犯している事で、それをこれから詳しく書いてみるが、まず医学なるものの今日までの根本的考え方である。<br/><br/>というのは医学は病気の原因が全然分っていないから、すべて反対に解釈している。<br/><br/>もちろん唯物科学本位で進んで来たものとすれば致し方ないであろう。<br/><br/> 右の結果医学は病気の場合外部に表われたる苦痛を緩和するのみに専念している。<br/><br/>従って医学の進歩とは一時的苦痛緩和法の進歩したものであって、その方法として採られているものが彼の薬剤、機械、放射能等の物質の応用である。<br/><br/>なるほどこれによって病気の苦痛は緩和されるので、これで病気が治るものと誤認し、緩和法を続行するのであるが、事実は苦痛緩和と病気の治る事とは、根本的に異（ちが）うのである。<br/><br/>すなわち前者は一時的で、後者は永久的であるからである。<br/><br/>しかもその苦痛緩和の方法自体が病を作り、病を悪化させる結果なのであるから問題は大きいのである。<br/><br/> 何しろ唯物的医学であるから、人体も単なる物質と見るのみか、人間と人間以外の動物をも同一視するのである。<br/><br/>それによって動物を研究資料として、病理の発見に努め、たまたま何らかの成果を得るや、直ちに人間に応用するのであるが、これが非常な誤りである。<br/><br/>何となれば人間と動物とは形も本質も内容も全く異なっている事で、これに気が付かないのである。<br/><br/>この理によって人間の病気は人間を対象として研究されなければならない事は余りにも明らかであって、これ以外人間を治す医学は確立されるはずはないのである。<br/><br/>そうして今一つこういう点も知らなければならない事は、動物には人間のような神経作用がないが人間には大いにある。<br/><br/>人間が神経作用のために、どのくらい病気に影響するか分らない。<br/><br/>例えば一度結核と宣告されるや、この一言で患者の神経は大打撃を受け、目に見えて憔悴（しょうすい）する事実は、医家も一般人もよく知るところであろう。<br/><br/>ところが動物にはそういう事が全然ないに見ても肯かれるであろう。<br/><br/> 以上によって見る時、現代医学の欠陥は、霊と体で構成されている人間を、霊を無視して体のみを対象とする事と、人間と動物を同一に視ている点で、これが主なるものである事を知らねばならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

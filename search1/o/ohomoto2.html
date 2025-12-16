@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohomoto2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大本信者時代の私 自観叢書第5編『自観隨談』P.74、昭和24(1949)年8月30日発行 私が大本教に入信してから数年の間は、実に信仰は小乗的で、困苦しい極端な程禁欲的であった。<br><br>何しろ衣服などは絹物はいけない、木綿でなくては着るべからずというのであるがら推して知るべきである。<br><br>言霊学上絹物とは着ぬ物であり、木綿は気がモメン、家庭がモメンというのであるから実に滑稽（こっけい）である。<br><br>故に信者の会合などに行く時など、私はわざわざ木綿の着物を作って着て行ったものである。<br><br>そのくせ平常は、絹物を着ていたのであるから止むを得ない虚偽である。<br><br>もちろん食物もその通りで肉食も厳禁されている。<br><br>彼等にいわせると四足を食うと血が穢れるとの事である。<br><br>そうして大本教の重要行事として一年に一度、丹後の高砂沖に冠島沓島という二つの小島があり、それは大本教の根本神国常立尊（くにとこたちのみこと）という神様が修行された行場であるというので、多勢の信者が船に乗って参拝するのであるが、その際も皮製の鞄は厳禁している。<br><br>というのは四つ足の皮は海の神様がお嫌いになり海が荒れるからというのである。<br><br> ところが私はどうも理屈に合わないような気がする。<br><br>なぜなれば、肉食もその皮もいけないとしたら、外国人を救う事は出来ないではないか。<br><br>大本は世界人類を救うという建前と矛盾しているという訳で、私は入信前と変りなく、肉食もし、特に大本へ行く時は洋服を着たものである。<br><br>その頃洋服を着るのは多くの信徒中私一人であったので、それがため洋服の岡田さんとして有名になったものである。<br><br>また本部へ参拝に行く時、数人で汽車へ乗った時など食堂へ行くと、決まって私はサンドウィッチを食べる。<br><br>外の者は驚いて種々忠告するが、私はただ笑うのみであった。<br><br>しかしそれから数年くらい経た頃から信者も漸次変って来て、私が脱退した頃は、肉食も洋服も世間一般と同様になった事はもちろんである。<br><br> 以上の訳を説明してみるが、教祖出口直子刀自は、経（たて）の教えで小乗的であるに反し、出口王仁三郎師は大乗的緯（よこ）の教えであったからである。<br><br>しかし、王仁三郎師は緯になり過ぎ経を閑却されたため、あのような法難を受ける事になったのであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Reflexão sobre Meus Anos na Religião Omoto</h2>
 <p>Durante os primeiros anos após minha adesão à religião Omoto, a prática da fé era, de fato, notavelmente restrita e pautada por um ascetismo de extremo rigor. Para que se tenha uma ideia, era proibido o uso de seda; apenas o algodão era permitido. A justificativa, fundamentada na doutrina do poder espiritual da palavra, era de uma comicidade singular: alegava-se que a seda era vetada por um trocadilho fonético, e o algodão, por sua vez, era associado à harmonia, com base em outra construção similar. Por conseguinte, quando eu precisava comparecer às reuniões de membros, via-me obrigado a mandar confeccionar e a vestir trajes de algodão especialmente para a ocasião. Contudo, em minha rotina diária, eu continuava a usar seda, o que tornava essa prática uma hipocrisia inevitável.</p>
 <p>O mesmo rigor se aplicava à alimentação, sendo o consumo de carne terminantemente proibido. A alegação era de que a ingestão de animais quadrúpedes macularia o sangue. Havia, ademais, um importante rito anual na Omoto: uma peregrinação marítima a duas pequenas ilhas na costa de Tango, chamadas Kanmurijima e Kutsushima. Consideradas o local de ascese da divindade fundamental da religião, Kuninotokotachi-no-Mikoto (国常立尊), atraíam um grande número de fiéis. Nessas ocasiões, o uso de bolsas de couro era expressamente vedado, sob o pretexto de que o couro de quadrúpedes desagradaria à divindade do mar, que, em resposta, tornaria as águas turbulentas.</p>
 <p>Todavia, tais preceitos me pareciam desprovidos de lógica. Afinal, se o consumo de carne e o uso de seu couro fossem condenáveis, como seria possível estender a salvação aos povos estrangeiros, cujos costumes incluem ambos? Isso representava uma clara contradição com a missão declarada da Omoto de salvar toda a humanidade. Em virtude desse raciocínio, mantive meus hábitos anteriores à conversão, continuando a consumir carne e, notadamente, a usar trajes ocidentais ao visitar a Sede. Naquela época, eu era o único entre os numerosos membros que se vestia dessa maneira, o que me rendeu a alcunha de "o senhor Okada de terno". Em outra ocasião, durante uma viagem de trem à Sede com outros fiéis, dirigi-me ao vagão-restaurante e, como de costume, pedi um sanduíche. Meus companheiros, atônitos, me advertiram de várias formas, mas eu me limitava a sorrir. Contudo, alguns anos mais tarde, os próprios membros começaram a mudar gradualmente. Na época em que me desliguei da organização, a aceitação do consumo de carne e do vestuário ocidental já havia se tornado tão comum quanto na sociedade em geral.</p>
 <p>Passo agora a elucidar as razões subjacentes a essa dinâmica. A fundadora, Deguchi Nao, representava o ensinamento vertical, de natureza restrita, ao passo que seu sucessor, Deguchi Onisaburo, personificava o ensinamento horizontal, de caráter abrangente. Ocorre que o mestre Onisaburo pendeu em demasia para o horizontal, negligenciando o alicerce do vertical. Presumo que essa tenha sido a causa primordial da grande perseguição religiosa que a organização veio a sofrer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大本信者時代の私 自観叢書第5編『自観隨談』P.74、昭和24(1949)年8月30日発行 私が大本教に入信してから数年の間は、実に信仰は小乗的で、困苦しい極端な程禁欲的であった。<br/><br/>何しろ衣服などは絹物はいけない、木綿でなくては着るべからずというのであるがら推して知るべきである。<br/><br/>言霊学上絹物とは着ぬ物であり、木綿は気がモメン、家庭がモメンというのであるから実に滑稽（こっけい）である。<br/><br/>故に信者の会合などに行く時など、私はわざわざ木綿の着物を作って着て行ったものである。<br/><br/>そのくせ平常は、絹物を着ていたのであるから止むを得ない虚偽である。<br/><br/>もちろん食物もその通りで肉食も厳禁されている。<br/><br/>彼等にいわせると四足を食うと血が穢れるとの事である。<br/><br/>そうして大本教の重要行事として一年に一度、丹後の高砂沖に冠島沓島という二つの小島があり、それは大本教の根本神国常立尊（くにとこたちのみこと）という神様が修行された行場であるというので、多勢の信者が船に乗って参拝するのであるが、その際も皮製の鞄は厳禁している。<br/><br/>というのは四つ足の皮は海の神様がお嫌いになり海が荒れるからというのである。<br/><br/> ところが私はどうも理屈に合わないような気がする。<br/><br/>なぜなれば、肉食もその皮もいけないとしたら、外国人を救う事は出来ないではないか。<br/><br/>大本は世界人類を救うという建前と矛盾しているという訳で、私は入信前と変りなく、肉食もし、特に大本へ行く時は洋服を着たものである。<br/><br/>その頃洋服を着るのは多くの信徒中私一人であったので、それがため洋服の岡田さんとして有名になったものである。<br/><br/>また本部へ参拝に行く時、数人で汽車へ乗った時など食堂へ行くと、決まって私はサンドウィッチを食べる。<br/><br/>外の者は驚いて種々忠告するが、私はただ笑うのみであった。<br/><br/>しかしそれから数年くらい経た頃から信者も漸次変って来て、私が脱退した頃は、肉食も洋服も世間一般と同様になった事はもちろんである。<br/><br/> 以上の訳を説明してみるが、教祖出口直子刀自は、経（たて）の教えで小乗的であるに反し、出口王仁三郎師は大乗的緯（よこ）の教えであったからである。<br/><br/>しかし、王仁三郎師は緯になり過ぎ経を閑却されたため、あのような法難を受ける事になったのであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sunobunk</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ○ヽ（す）の文化 『栄光』173号、昭和27(1952)年9月10日発行 この標題を説くに当っては、まず最初○ヽ【表示できないため併記する】の意味からかいてみるが、見らるる通り○ヽとは、○の真中にチョンが点いている。<br><br>ただこれだけなら別に大した意味はないが、実はこの○ヽの形程神秘偉大な意味はないのである。<br><br>それは何かというと、この○はこういう意味である。<br><br>つまり森羅万象一切の形は○である。<br><br>第一地球も太陽も、月もそうであり、人間も霊になると他へ移動する場合、○の形になって行く、これは人魂がよく表わしているし、神様でも移動なさる場合、ヤハリ○になられるが、同じ○でも神様の方は光の玉となる。<br><br>だが人間の方は光がなく、ただ白色または黄色の朦朧（もうろう）体であって、黄色は男、白色は女である。<br><br>これは太陽と月に相応する訳である。<br><br> これらの説明はこのくらいにしておいて、肝腎な事をかいてみるが、もちろんこの世界も○であるが、○だけでは輪であるから、中身は空虚である。<br><br>人間でいえば魂がない訳であるから、この真中へチョンすなわち魂を入れれば、生きた人間になり、活動が出来るのであるがら、○ヽとは空ッポに魂が入った形である。<br><br>昔から美術家などがよくいう入魂という言葉がこれである。<br><br>この理によって今までの世界は、チョンすなわち魂がなかったのであるから、以前私は外廓〔郭〕的文化とかいたのはこの意味である。<br><br>何よりもこの理はあらゆる文化面に現れている。<br><br>いつもいう通り病気に対する対症療法がそうで、痛みや痒みを外部から注射をして麻痺させたり薬を塗ったり、発熱を氷で冷したり、服薬で浄化を止めたりして、一時的苦痛を免れるのであって、中心には触れていないから根治は無論不可能で、時が経てば必ず再発する。<br><br>つまり病気の延期でしかないのである。<br><br>という訳で病原もチョンにあるのだが、それが今まで分らなかったのである。<br><br> その他犯罪にしてもそうだ、現在は刑罰の苦しみで懲りさせ、防止する手段以外方法がない。<br><br>医学と同様対症療法であるから、大抵は一旦犯罪を冒すと、二度も三度も犯すようになり、中には何十回も犯す奴さえ出来る。<br><br>酷いのになると一生涯の中、娑婆（しゃば）にいるより牢屋にいる時の方が多い奴さえある。<br><br>この原因もチョンすなわち魂がないからである。<br><br>戦争にしてもそうだ、軍備を充実させれば相手も勝目がないから、一時止めてしまう。<br><br>つまり延期手段でしかないので、いつかは必ず始まるというのが歴史上明らかな事実である。<br><br>こうみてくると今までの文化は○だけで、チョンがなかった事がよく分るであろう。<br><br> そうして私は九分九厘と一厘という事を常にいうが、○にチョンが入るとなるとこれが九分九厘を一厘で換えてしまう。<br><br>言い換えれば九分九厘の悪を一厘の善の力で往生させるという意味である。<br><br>ちょうど○全体が黒く塗りつぶされようとする時、チョン一の力で、反対に黒を消して白全体にしてしまうので、これを世界的にいえば空虚な文明に実を入れる。<br><br>すなわち魂を入れるのである。<br><br>これによって今まで形だけで死人同様になっていた文明を生かす、すなわち新世界の誕生である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cultura do Ponto Central</h2>
 <p>Ao abordar o tema em epígrafe, cumpre-me iniciar pela elucidação do símbolo ○ヽ. Como se pode observar, trata-se de um círculo com um ponto em seu centro. À primeira vista, poderia parecer algo de pouca importância; na realidade, contudo, não existe forma que encerre um significado tão profundo, místico e grandioso.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>No que tange à guerra, o raciocínio é análogo. Uma nação fortalece seu poderio bélico, e seu adversário, julgando não ter chances de vitória, recua temporariamente. Não passa de uma estratégia de adiamento, pois a história demonstra inequivocamente que, sob tais condições, o conflito um dia eclodirá. Diante desses fatos, torna-se evidente que a cultura até então existente era apenas o círculo, desprovida do ponto essencial.</p>
 <p>Costumo mencionar a relação entre os noventa e nove vírgula nove por cento e o um décimo de por cento. Quando o ponto é inserido no círculo, este um décimo de por cento transforma por completo os noventa e nove vírgula nove por cento restantes. Em outras palavras, significa que o um décimo de por cento de Bem tem o poder de subjugar os noventa e nove vírgula nove por cento de mal. Imagine que, no instante em que a totalidade do círculo está prestes a ser preenchida pela escuridão, a força contida nesse único ponto reverte o processo, dissipando o negrume e restaurando a brancura plena.</p>
 <p>Transportando essa imagem para uma escala mundial, significa infundir substância, ou seja, alma, em uma civilização vazia. Isso vivificará a civilização que, até hoje, não passava de uma forma sem vida, análoga a um corpo inerte. É o nascimento de um novo mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ○ヽ（す）の文化 『栄光』173号、昭和27(1952)年9月10日発行 この標題を説くに当っては、まず最初○ヽ【表示できないため併記する】の意味からかいてみるが、見らるる通り○ヽとは、○の真中にチョンが点いている。<br/><br/>ただこれだけなら別に大した意味はないが、実はこの○ヽの形程神秘偉大な意味はないのである。<br/><br/>それは何かというと、この○はこういう意味である。<br/><br/>つまり森羅万象一切の形は○である。<br/><br/>第一地球も太陽も、月もそうであり、人間も霊になると他へ移動する場合、○の形になって行く、これは人魂がよく表わしているし、神様でも移動なさる場合、ヤハリ○になられるが、同じ○でも神様の方は光の玉となる。<br/><br/>だが人間の方は光がなく、ただ白色または黄色の朦朧（もうろう）体であって、黄色は男、白色は女である。<br/><br/>これは太陽と月に相応する訳である。<br/><br/> これらの説明はこのくらいにしておいて、肝腎な事をかいてみるが、もちろんこの世界も○であるが、○だけでは輪であるから、中身は空虚である。<br/><br/>人間でいえば魂がない訳であるから、この真中へチョンすなわち魂を入れれば、生きた人間になり、活動が出来るのであるがら、○ヽとは空ッポに魂が入った形である。<br/><br/>昔から美術家などがよくいう入魂という言葉がこれである。<br/><br/>この理によって今までの世界は、チョンすなわち魂がなかったのであるから、以前私は外廓〔郭〕的文化とかいたのはこの意味である。<br/><br/>何よりもこの理はあらゆる文化面に現れている。<br/><br/>いつもいう通り病気に対する対症療法がそうで、痛みや痒みを外部から注射をして麻痺させたり薬を塗ったり、発熱を氷で冷したり、服薬で浄化を止めたりして、一時的苦痛を免れるのであって、中心には触れていないから根治は無論不可能で、時が経てば必ず再発する。<br/><br/>つまり病気の延期でしかないのである。<br/><br/>という訳で病原もチョンにあるのだが、それが今まで分らなかったのである。<br/><br/> その他犯罪にしてもそうだ、現在は刑罰の苦しみで懲りさせ、防止する手段以外方法がない。<br/><br/>医学と同様対症療法であるから、大抵は一旦犯罪を冒すと、二度も三度も犯すようになり、中には何十回も犯す奴さえ出来る。<br/><br/>酷いのになると一生涯の中、娑婆（しゃば）にいるより牢屋にいる時の方が多い奴さえある。<br/><br/>この原因もチョンすなわち魂がないからである。<br/><br/>戦争にしてもそうだ、軍備を充実させれば相手も勝目がないから、一時止めてしまう。<br/><br/>つまり延期手段でしかないので、いつかは必ず始まるというのが歴史上明らかな事実である。<br/><br/>こうみてくると今までの文化は○だけで、チョンがなかった事がよく分るであろう。<br/><br/> そうして私は九分九厘と一厘という事を常にいうが、○にチョンが入るとなるとこれが九分九厘を一厘で換えてしまう。<br/><br/>言い換えれば九分九厘の悪を一厘の善の力で往生させるという意味である。<br/><br/>ちょうど○全体が黒く塗りつぶされようとする時、チョン一の力で、反対に黒を消して白全体にしてしまうので、これを世界的にいえば空虚な文明に実を入れる。<br/><br/>すなわち魂を入れるのである。<br/><br/>これによって今まで形だけで死人同様になっていた文明を生かす、すなわち新世界の誕生である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

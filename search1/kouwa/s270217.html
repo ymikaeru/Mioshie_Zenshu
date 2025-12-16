@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270217</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年2月17日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月十七日 【御教え】 つい二、三日前アメリカに行っている信者の人で――これはあっちの、なんとか大学と言うんですがね。<br><br>そこに、つまり文部省の特待生と言いますかね――それの試験にパスして、そうしてアメリカの留学に行っているんですね。<br><br>約一年ばかりになりますがね。<br><br>それで、あっちで宣伝しているんです。<br><br>その人の手紙の中に、今アメリカで非常に結核が増えたと言うんです。<br><br>去年はアメリカで、結核の死亡者は他の病気――全部の総計よりも多いんだそうです。<br><br>ですからまあ――アメリカでは結核が一番死亡者が多いわけですね。<br><br>これは、私は意外に思ったんです。<br><br>と言うのは、アメリカは非常に結核が減った。<br><br>で、最近と言いますか、医学の方の統計によると、大体百人に六人の――そのくらいの割になったと、だからやっぱり、アメリカのような方法をやれば、結核は減るというのが、日本の方の医学の方の理由になっているんです。<br><br>で、日本の現在の結核の療法というのは、アメリカ式をやっているわけです。<br><br>ところが今言ったような具合に急激に増えたらしいですね。<br><br>と言うのは、私がふだん唱えているのが、良く合っているんですね。<br><br>つまり薬で抑えつけているから、一時延びるんですよ。<br><br>今度はそれが、反動時代になって、薬毒の浄化も加わって、猛烈な悪性結核が増えるんですね。<br><br>ちょうどアメリカがそれになっている。<br><br>だからいずれは、それに気がつくだろうとは思ってますがね。<br><br>そこで早く気をつかせなければ、日本人は無論ですが、アメリカの人たちも非常にかわいそうですからね。<br><br>それを救ってあげたいと思ってね。<br><br>それで、私は今「結核信仰療法」という本を書いているんですが、これは大体できたんです。<br><br>これは翻訳して、あっちにもたくさん読ませるつもりですがね。<br><br>今、「序文」だけ読ませますがね。<br><br>この前も読みましたがね。<br><br>今度はすっかりまとまりましたから、もう一ぺんね。<br><br> （御論文「結核信仰療法 序文」） それから、これはちょっとおもしろいので、今読ませます。<br><br> （御論文「依頼心を去れ」のあとの御教え）【栄光 一四五号】 そんなわけで、箱根の美術館も着々としてできつつありますがね。<br><br>六月までには充分できるわけですがね。<br><br>そこで、今美術が非常にさかんになってきましたがね。<br><br>美術館なんていうのも、方々にできつつあり、外国でも非常に美術がはやってきたですね。<br><br>この美術なんかは、もっとも平和的なもので、これが世界的に国同士で交流するようになると、非常に良いと思うね。<br><br>ですから、美術がはやるのとスポーツがはやるということは、平和思想を大いに高めることと、それから国同士で仲が良くなるということについて、非常に効果があると思う。<br><br>で、そんな意味で、ますます美術思想、スポーツ思想――これがさかんになると思う。<br><br>そこで、今度箱根にできる美術館は、私は世界一と思っているんです。<br><br>ちょっと不思議に思いますがね。<br><br>しかし、今美術館が方々にありますが、仮に日本の美術品として、日本の美術品はあまりないんですよ。<br><br>だから日本人が日本の美術を見たいと思っても、さて見られる所というのはないんです。<br><br>まあ、仮に博物館としても、仏教美術は一番です。<br><br>それはすばらしい物がありますね。<br><br>非常に、お寺や皇室と関係がありますから、御物の仏像なんか、随分立派な物があります。<br><br>ところが、仏教美術はふつうの人が見ても、なかなか解らないんです。<br><br>大体、時代が解らないからね。<br><br>何年くらい前にできた物か。<br><br>これは天平だとか、藤原だとか。<br><br>如意輪観音とか薬師如来、帝釈天、毘沙門天だとか言っても解らないですね。<br><br>そうすると、美術思想を養うというところまでは、なかなかいかないですね、まあ歴史的、考古学的というような意味ですからね。<br><br>ですから、誰にも理解できるような美術ですね。<br><br>それを見せるようにしなければいけないと思う。<br><br>博物館を始め、あとの品々は――いつも言う通り――どうもレベルが低いんです。<br><br>だから仮に、日本人もそうですし、外国人が日本に来て、日本の美術を見たい。<br><br>日本じゃ光琳という画家がたいへん偉い。<br><br>光琳をぜひ見たいと思ったところで、見る所がないんですね。<br><br>それから陶器類ですね。<br><br>日本には仁清、乾山、柿右衛門とか、偉い陶芸家がある。<br><br>ぜひ見たいと言ったところで、それも見る所がないんです。<br><br>日本で博物館以外の美術館と言えば、個人の美術館ですが、そういうものでも――今度できたブリヂストン美術館のような具合に油絵か、あるいは岡山の大原美術館は、西洋の絵はあるけれども、どうも日本の絵はないんです。<br><br>それから、私はいつも褒める白鶴美術館でも、支那の陶器と銅器ですからね。<br><br>日本のはぜんぜんないんです。<br><br>それから、京都の博物館と言えば、京都のお寺の博物館ですからね。<br><br>まあ、お寺美術館と言っても良いのです。<br><br>立派な大きな仏像なんかがありますが――たいしたものですがね、それから東京の根津美術館、長尾美術館、大倉集古館にしろ、本当の日本美術というものは、わずかなものです。<br><br> それですからどうしても、日本の美術品を日本人も見られ、外国人にも見せるというのが、ぜひなければならない。<br><br>それがないんですよ。<br><br>私は先から、そこを狙っている。<br><br>どうしても日本美術は――日本は世界の美術国だとか言っていばっているが、じゃ品物を見ようというと、ないんです。<br><br>ですから、アメリカ人でもイギリス人でも、日本美術というのは、おそらく知らないくらいなものです。<br><br>あっちの美術館というのは、ほとんど支那美術ですね。<br><br>支那美術と言っても、支那の陶器と銅器ばかりで、絵はほとんどないんです。<br><br>支那の絵は、やはり日本にたくさんある。<br><br>また、アメリカにある日本の絵というのは、ほとんど贋物ばかりで、ひどいです。<br><br>そんなわけで、日本人は今まで――良いか悪いか解らないが――国宝だとか言って、日本の美術を海外に出さないように政策を取っていたんです。<br><br>これについてもフランスあたりのそうとうな識者は、日本が国宝という制度を作るのは非常に間違っている、ということを言ってますがね。<br><br>なんだと言うと、国宝というのは、つまり外国に出さない――日本で占有する意味になるから、美術というと世界的に多くの人の目を楽しませるのが本当だと言うんですね。<br><br>ところが、己の国に保存して他国に出さない。<br><br>世界の人に見せないと言う、一つの独占ですね。<br><br>だから本当でないという話があるんですがね。<br><br>そんなような具合で、今まで日本は良い物を持ちながら、まことに――隠して見せないようにしていた。<br><br>ですから、どうしても日本の美術を世界的に――世界の人たちに見せるような――そういう機関を作らなければならないですね。<br><br>それからもう一つは、日本の美術家というのは、近ごろ非常に堕落と言いますか、なんと言いますか、とにかく日本画にしろ、油絵のまねするのが多くなった。<br><br>これは時代の風潮にもありますけれどもね。<br><br>もう一つは、日本の美術を見る方法がないんです。<br><br>日本でも、昔の名人のにいろいろな良い物があるんですが、それを見ることができないからして――かえって油絵の方がよけいに見られますからね。<br><br>だからどうしても美術眼ですね。<br><br>そういったものは、西洋の方に偏っている。<br><br>ですから、そういう人たちに大いに日本の傑作品を見せなければならない。<br><br>要するに眼識を養うんです。<br><br>そうすると、日本はすばらしいというんで、それにまねしないまでも、大いにヒントを得て、変わっていくわけですね。<br><br>ところがそういう機関がないために、どうしても日本の本当の特色ですね。<br><br>そういうものが薄れていくんです。<br><br>だからどうしても、そういう日本の芸術家――美術家に大いに見せるという方法をとらなければいけないと思う。<br><br>私はそういうつもりで、美術館も日本美術を根本にして、東洋美術、支那、朝鮮――そういう物を参考としておくという順立てにするつもりですがね。<br><br>おそらく、できたらば非常に喜ぶだろうと思う。<br><br>むしろ日本人が「俺の国の先祖はこんな立派な物を作ったのか。<br><br>これは良いな。<br><br>それじゃ大いに日本的なそういった良い物を作らなければならん」という意欲が、大いに起こるだろうと思う。<br><br>ですから、そのために外国人も、なるほど日本は大した物がある、と言って驚くだろうと思ってます。<br><br>そのようなわけで、本当に日本の美術を並べてある美術館は世界中にないんです。<br><br>もちろん日本にさえないんですから、外国には、なおさらないんです。<br><br>そうしてみると、その意味において世界一だと思ってます。<br><br>なにも、規模とか――そういうのでなく、日本の美術を集めたというので、世界一だと思ってます。<br><br>世界の美術品をいろいろ検討してみますと、やっぱり美術は日本が一番なんです。<br><br>仮に仏像にしても、支那にできた六朝仏といって、仏に関心を持つ人は六朝仏を一番貴んだ。<br><br>それが日本に、欽明天皇時代に渡ってきて、それから推古ですね。<br><br>最初は支那のまねをした。<br><br>ところが不思議なことに、やはり日本的の味を出している。<br><br>推古から飛鳥、天平、弘仁。<br><br>鎌倉時代になって非常に――木彫ですね。<br><br>最初は金銅仏といって、銅で作って金のメッキをした。<br><br>それが、藤原時代に木彫のそうとう良い物ができた。<br><br>それが鎌倉時代になって俄然発達した。<br><br>鎌倉時代の木彫を――私は近ごろ仏を研究してますが、すばらしい物です。<br><br>ロダンなんか足下にも及ばない。<br><br>これは世界に知られないですね。<br><br>すばらしい物です。<br><br>それはどこにあると言うとお寺ですね。<br><br>京都、奈良、それから関東にもあります。<br><br>不思議に、鎌倉でできた物は京都、奈良にある。<br><br>国宝になってます。<br><br>私は一度仏を見に行こうと思ってますがね。<br><br>近ごろはあっちの方のお寺に知り合いができたのでね。<br><br>知り合いができたと言ったところで、仏のためにですがね。<br><br>ぜひ見にきてくれという所がチョイチョイあるんです。<br><br>いずれ行くつもりですがね。<br><br> それから日本の陶器ですが、陶器も支那には陶器はすばらしい物があります。<br><br>私も感心しているんです。<br><br>世界で、陶器は支那が一番ですがね。<br><br>ロサンゼルスで、支那の宋時代の展覧会をやるんですがね。<br><br>宋時代と言うと、今から八百年前から千年前ですね。<br><br>約二百年の間に、できたものです。<br><br>たいしたものです。<br><br>私も好きで多少はあります。<br><br>で、宋時代の展覧会を――やっぱり日本にも勧誘して、二十九点日本から送ることになって、この間発送しました。<br><br>で、宋磁展覧会と言って、アメリカとイギリス人が非常に好きですね。<br><br>フランスはあんまり――フランスは朝鮮が好きですね。<br><br>とにかく、支那の宋の物はたいしたものです。<br><br>まるで、美術品を講義しているみたいだね。<br><br>それで、支那の宋時代が、日本の平安朝時代になるわけですね。<br><br>で、平安朝時代にも良い物ができましたがね。<br><br>それから、日本の鎌倉時代に彫刻の良い物ができたのですがね。<br><br>支那で言うと、明の時代に入りかけている。<br><br>明の初期から中期に良い物ができた。<br><br>これは、ぜんぜん宋時代とは違ってね。<br><br>それで桃山時代になって、明の次の康煕（こうき）に入って、まあ――そうとうに良い物ができましたがね。<br><br>そういった、文化交流時代ですね。<br><br>それが、支那と日本と大体符合が合っているんです。<br><br>そんなような具合で、日本は支那から学ぶと言いながら、日本独特の物を出した。<br><br>日本人の一つの、美術に対する秀れた才能ですね。<br><br>そういうものがある。<br><br>そういった美術品を見て、研究した結果やはり美術においては、日本人は世界一と言って良いんですね。<br><br>非常に秀れた天才ですね――それを持っている。<br><br>これが本当に世界的に知られてないから、それをどうしても、私は知らせたいと思いますね。<br><br>それには日本人が作った良い物を見せる。<br><br>それよりないですからね。<br><br>箱根の美術館は小さいですからね。<br><br>仏教美術までは見せるわけにはいかないから、将来できる熱海の大きいのは、仏教美術の良い物を――お寺にある国宝級の良い物を集めて、世界的の展覧会をやりたいと思っている。<br><br>そのために外国の観光外客が、当てにして見にくるというまでにやってみたいと思っている。<br><br>とにかく、平和ということに対する――今言ったような具合に、美術思想なんかを植えつけるということは、非常に良いんです。<br><br>そんなことにも、非常に金がいりますがね。<br><br>私は、その金を始終心配している。<br><br>しかし、今まではどうやら、それだけの金は集まるんです。<br><br>箱根の美術館なんかも、始める時は、ほとんど余分な金はないんです。<br><br>だからまあ、やって、うまくできるかどうか、実際おっかなびっくりだった。<br><br>だけども、神様の方では非常に急がれる。<br><br>だから他の方で調子が良くなって、だんだん進んでいくので、これは良いだろうと思って始めると――十一月に始めると、十一、十二、一月とスラスラとそれだけの金は集まった。<br><br>現金はまだそれだけありませんが、申し込みだけは大体ね。<br><br>で、まあ――ホッと安心したわけです。<br><br>それで信者だけ見るという、そんなものじゃ駄目ですから、誰でも一般的に見られる――そういうふうにしようと思う。<br><br>ちょうど地勢がそういうふうになっている。<br><br>萩の家の後ろに門を作ると、教団の方に関係なく、美術館だけ見られる。<br><br>やっぱり神様は地形までされている。<br><br>それでまあ、入場料までとる。<br><br>二百円くらいね。<br><br>二百円と言うと、ちょっと高いようですがこの間ブリヂストン美術館ですが、あれが五十円ですがね。<br><br>あれが五十円だとすると、私の方は千円でも安い。<br><br>品物を見れば解りますがね。<br><br>油絵は、日本でも見られます。<br><br>しかし、西洋に行っても見られます。<br><br>今度できる箱根の美術館は、どこにも見られない物です。<br><br>それが、一品か二品でなく、たくさんあるんだから、どんなに喜ぶか解らないですね。<br><br>文士連中でも――ああいうのも非常に待ってます。<br><br>作家連中でも、とても好きなんですよ。<br><br>去年の暮れあたりに川端康成、吉川英治、大仏次郎、高見順、武者小路実篤、徳川夢声の諸氏など、まだまだいろいろありますが、来るのを止めてあるんです。<br><br>美術館ができたら一ぺんに見せるからとね。<br><br>今、少しずつ見せてもしようがないからね。<br><br>徳川夢声氏なんか、馬鹿に好きですよ。<br><br>つい二、三日前に古九谷の良い物を買ったから、一ぺん見てくださいと言ってね。<br><br>そういう連中が、期待して待っているんです。<br><br>だから、始めたら、随分来るだろうと思います。<br><br>本当に良く見れば、半日もかかりますからね、そこで始終来るより、面倒臭いから――一々入場料やってね。<br><br>いっそ信者になれば、見たい時に只で見られるからと、そのために信者になる人も、随分あるだろうと思います。<br><br>それで、信者になっても良いんです。<br><br>なにしろ神様と縁が繋がりますからね。<br><br>結局だんだん信仰的なことも解るんです。<br><br>大体あそこの空気を吸うだけでも良いんです。<br><br>なかなか神様も抜け目なくやられます。<br><br>そういうようなわけで、着々としていろいろな設備もできつつあります。<br><br>まあ、美術館も大いに役をすると思ってます。<br><br> もう少し読むものがありますからね。<br><br> （御論文「社会事業と宗教事業」）【栄光 一四六号】 それから、今度また、松井、鈴木、百海、木原、アザブ、秀月の諸氏が山陰地方に宣伝旅行に行きますが、私になにか書いてくれと言いますからね。<br><br>急いで昨夜書いたんですが、それを読ませます。<br><br> （御論文「舌に代えて」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão do Belo e a Salvação pela Arte</h2>
 <p>Há apenas dois ou três dias, recebi uma carta de um membro que se encontra nos Estados Unidos. Ele foi para lá como um bolsista de destaque do Ministério da Educação, aprovado em um exame para estudar em uma renomada universidade americana, e já está lá há cerca de um ano. Durante esse tempo, ele tem se dedicado a difundir nossos ensinamentos.</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p>(...)</p>
 <p>Em breve, os senhores Matsui, Suzuki, Momomi, Kihara, Azabu e Shugetsu partirão em uma viagem de difusão pela região de San'in. Eles me pediram que escrevesse algo para a ocasião, e o fiz ontem à noite, às pressas. Gostaria de ler para vocês.</p>
 <p>(...)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年2月17日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月十七日 【御教え】 つい二、三日前アメリカに行っている信者の人で――これはあっちの、なんとか大学と言うんですがね。<br/><br/>そこに、つまり文部省の特待生と言いますかね――それの試験にパスして、そうしてアメリカの留学に行っているんですね。<br/><br/>約一年ばかりになりますがね。<br/><br/>それで、あっちで宣伝しているんです。<br/><br/>その人の手紙の中に、今アメリカで非常に結核が増えたと言うんです。<br/><br/>去年はアメリカで、結核の死亡者は他の病気――全部の総計よりも多いんだそうです。<br/><br/>ですからまあ――アメリカでは結核が一番死亡者が多いわけですね。<br/><br/>これは、私は意外に思ったんです。<br/><br/>と言うのは、アメリカは非常に結核が減った。<br/><br/>で、最近と言いますか、医学の方の統計によると、大体百人に六人の――そのくらいの割になったと、だからやっぱり、アメリカのような方法をやれば、結核は減るというのが、日本の方の医学の方の理由になっているんです。<br/><br/>で、日本の現在の結核の療法というのは、アメリカ式をやっているわけです。<br/><br/>ところが今言ったような具合に急激に増えたらしいですね。<br/><br/>と言うのは、私がふだん唱えているのが、良く合っているんですね。<br/><br/>つまり薬で抑えつけているから、一時延びるんですよ。<br/><br/>今度はそれが、反動時代になって、薬毒の浄化も加わって、猛烈な悪性結核が増えるんですね。<br/><br/>ちょうどアメリカがそれになっている。<br/><br/>だからいずれは、それに気がつくだろうとは思ってますがね。<br/><br/>そこで早く気をつかせなければ、日本人は無論ですが、アメリカの人たちも非常にかわいそうですからね。<br/><br/>それを救ってあげたいと思ってね。<br/><br/>それで、私は今「結核信仰療法」という本を書いているんですが、これは大体できたんです。<br/><br/>これは翻訳して、あっちにもたくさん読ませるつもりですがね。<br/><br/>今、「序文」だけ読ませますがね。<br/><br/>この前も読みましたがね。<br/><br/>今度はすっかりまとまりましたから、もう一ぺんね。<br/><br/> （御論文「結核信仰療法 序文」） それから、これはちょっとおもしろいので、今読ませます。<br/><br/> （御論文「依頼心を去れ」のあとの御教え）【栄光 一四五号】 そんなわけで、箱根の美術館も着々としてできつつありますがね。<br/><br/>六月までには充分できるわけですがね。<br/><br/>そこで、今美術が非常にさかんになってきましたがね。<br/><br/>美術館なんていうのも、方々にできつつあり、外国でも非常に美術がはやってきたですね。<br/><br/>この美術なんかは、もっとも平和的なもので、これが世界的に国同士で交流するようになると、非常に良いと思うね。<br/><br/>ですから、美術がはやるのとスポーツがはやるということは、平和思想を大いに高めることと、それから国同士で仲が良くなるということについて、非常に効果があると思う。<br/><br/>で、そんな意味で、ますます美術思想、スポーツ思想――これがさかんになると思う。<br/><br/>そこで、今度箱根にできる美術館は、私は世界一と思っているんです。<br/><br/>ちょっと不思議に思いますがね。<br/><br/>しかし、今美術館が方々にありますが、仮に日本の美術品として、日本の美術品はあまりないんですよ。<br/><br/>だから日本人が日本の美術を見たいと思っても、さて見られる所というのはないんです。<br/><br/>まあ、仮に博物館としても、仏教美術は一番です。<br/><br/>それはすばらしい物がありますね。<br/><br/>非常に、お寺や皇室と関係がありますから、御物の仏像なんか、随分立派な物があります。<br/><br/>ところが、仏教美術はふつうの人が見ても、なかなか解らないんです。<br/><br/>大体、時代が解らないからね。<br/><br/>何年くらい前にできた物か。<br/><br/>これは天平だとか、藤原だとか。<br/><br/>如意輪観音とか薬師如来、帝釈天、毘沙門天だとか言っても解らないですね。<br/><br/>そうすると、美術思想を養うというところまでは、なかなかいかないですね、まあ歴史的、考古学的というような意味ですからね。<br/><br/>ですから、誰にも理解できるような美術ですね。<br/><br/>それを見せるようにしなければいけないと思う。<br/><br/>博物館を始め、あとの品々は――いつも言う通り――どうもレベルが低いんです。<br/><br/>だから仮に、日本人もそうですし、外国人が日本に来て、日本の美術を見たい。<br/><br/>日本じゃ光琳という画家がたいへん偉い。<br/><br/>光琳をぜひ見たいと思ったところで、見る所がないんですね。<br/><br/>それから陶器類ですね。<br/><br/>日本には仁清、乾山、柿右衛門とか、偉い陶芸家がある。<br/><br/>ぜひ見たいと言ったところで、それも見る所がないんです。<br/><br/>日本で博物館以外の美術館と言えば、個人の美術館ですが、そういうものでも――今度できたブリヂストン美術館のような具合に油絵か、あるいは岡山の大原美術館は、西洋の絵はあるけれども、どうも日本の絵はないんです。<br/><br/>それから、私はいつも褒める白鶴美術館でも、支那の陶器と銅器ですからね。<br/><br/>日本のはぜんぜんないんです。<br/><br/>それから、京都の博物館と言えば、京都のお寺の博物館ですからね。<br/><br/>まあ、お寺美術館と言っても良いのです。<br/><br/>立派な大きな仏像なんかがありますが――たいしたものですがね、それから東京の根津美術館、長尾美術館、大倉集古館にしろ、本当の日本美術というものは、わずかなものです。<br/><br/> それですからどうしても、日本の美術品を日本人も見られ、外国人にも見せるというのが、ぜひなければならない。<br/><br/>それがないんですよ。<br/><br/>私は先から、そこを狙っている。<br/><br/>どうしても日本美術は――日本は世界の美術国だとか言っていばっているが、じゃ品物を見ようというと、ないんです。<br/><br/>ですから、アメリカ人でもイギリス人でも、日本美術というのは、おそらく知らないくらいなものです。<br/><br/>あっちの美術館というのは、ほとんど支那美術ですね。<br/><br/>支那美術と言っても、支那の陶器と銅器ばかりで、絵はほとんどないんです。<br/><br/>支那の絵は、やはり日本にたくさんある。<br/><br/>また、アメリカにある日本の絵というのは、ほとんど贋物ばかりで、ひどいです。<br/><br/>そんなわけで、日本人は今まで――良いか悪いか解らないが――国宝だとか言って、日本の美術を海外に出さないように政策を取っていたんです。<br/><br/>これについてもフランスあたりのそうとうな識者は、日本が国宝という制度を作るのは非常に間違っている、ということを言ってますがね。<br/><br/>なんだと言うと、国宝というのは、つまり外国に出さない――日本で占有する意味になるから、美術というと世界的に多くの人の目を楽しませるのが本当だと言うんですね。<br/><br/>ところが、己の国に保存して他国に出さない。<br/><br/>世界の人に見せないと言う、一つの独占ですね。<br/><br/>だから本当でないという話があるんですがね。<br/><br/>そんなような具合で、今まで日本は良い物を持ちながら、まことに――隠して見せないようにしていた。<br/><br/>ですから、どうしても日本の美術を世界的に――世界の人たちに見せるような――そういう機関を作らなければならないですね。<br/><br/>それからもう一つは、日本の美術家というのは、近ごろ非常に堕落と言いますか、なんと言いますか、とにかく日本画にしろ、油絵のまねするのが多くなった。<br/><br/>これは時代の風潮にもありますけれどもね。<br/><br/>もう一つは、日本の美術を見る方法がないんです。<br/><br/>日本でも、昔の名人のにいろいろな良い物があるんですが、それを見ることができないからして――かえって油絵の方がよけいに見られますからね。<br/><br/>だからどうしても美術眼ですね。<br/><br/>そういったものは、西洋の方に偏っている。<br/><br/>ですから、そういう人たちに大いに日本の傑作品を見せなければならない。<br/><br/>要するに眼識を養うんです。<br/><br/>そうすると、日本はすばらしいというんで、それにまねしないまでも、大いにヒントを得て、変わっていくわけですね。<br/><br/>ところがそういう機関がないために、どうしても日本の本当の特色ですね。<br/><br/>そういうものが薄れていくんです。<br/><br/>だからどうしても、そういう日本の芸術家――美術家に大いに見せるという方法をとらなければいけないと思う。<br/><br/>私はそういうつもりで、美術館も日本美術を根本にして、東洋美術、支那、朝鮮――そういう物を参考としておくという順立てにするつもりですがね。<br/><br/>おそらく、できたらば非常に喜ぶだろうと思う。<br/><br/>むしろ日本人が「俺の国の先祖はこんな立派な物を作ったのか。<br/><br/>これは良いな。<br/><br/>それじゃ大いに日本的なそういった良い物を作らなければならん」という意欲が、大いに起こるだろうと思う。<br/><br/>ですから、そのために外国人も、なるほど日本は大した物がある、と言って驚くだろうと思ってます。<br/><br/>そのようなわけで、本当に日本の美術を並べてある美術館は世界中にないんです。<br/><br/>もちろん日本にさえないんですから、外国には、なおさらないんです。<br/><br/>そうしてみると、その意味において世界一だと思ってます。<br/><br/>なにも、規模とか――そういうのでなく、日本の美術を集めたというので、世界一だと思ってます。<br/><br/>世界の美術品をいろいろ検討してみますと、やっぱり美術は日本が一番なんです。<br/><br/>仮に仏像にしても、支那にできた六朝仏といって、仏に関心を持つ人は六朝仏を一番貴んだ。<br/><br/>それが日本に、欽明天皇時代に渡ってきて、それから推古ですね。<br/><br/>最初は支那のまねをした。<br/><br/>ところが不思議なことに、やはり日本的の味を出している。<br/><br/>推古から飛鳥、天平、弘仁。<br/><br/>鎌倉時代になって非常に――木彫ですね。<br/><br/>最初は金銅仏といって、銅で作って金のメッキをした。<br/><br/>それが、藤原時代に木彫のそうとう良い物ができた。<br/><br/>それが鎌倉時代になって俄然発達した。<br/><br/>鎌倉時代の木彫を――私は近ごろ仏を研究してますが、すばらしい物です。<br/><br/>ロダンなんか足下にも及ばない。<br/><br/>これは世界に知られないですね。<br/><br/>すばらしい物です。<br/><br/>それはどこにあると言うとお寺ですね。<br/><br/>京都、奈良、それから関東にもあります。<br/><br/>不思議に、鎌倉でできた物は京都、奈良にある。<br/><br/>国宝になってます。<br/><br/>私は一度仏を見に行こうと思ってますがね。<br/><br/>近ごろはあっちの方のお寺に知り合いができたのでね。<br/><br/>知り合いができたと言ったところで、仏のためにですがね。<br/><br/>ぜひ見にきてくれという所がチョイチョイあるんです。<br/><br/>いずれ行くつもりですがね。<br/><br/> それから日本の陶器ですが、陶器も支那には陶器はすばらしい物があります。<br/><br/>私も感心しているんです。<br/><br/>世界で、陶器は支那が一番ですがね。<br/><br/>ロサンゼルスで、支那の宋時代の展覧会をやるんですがね。<br/><br/>宋時代と言うと、今から八百年前から千年前ですね。<br/><br/>約二百年の間に、できたものです。<br/><br/>たいしたものです。<br/><br/>私も好きで多少はあります。<br/><br/>で、宋時代の展覧会を――やっぱり日本にも勧誘して、二十九点日本から送ることになって、この間発送しました。<br/><br/>で、宋磁展覧会と言って、アメリカとイギリス人が非常に好きですね。<br/><br/>フランスはあんまり――フランスは朝鮮が好きですね。<br/><br/>とにかく、支那の宋の物はたいしたものです。<br/><br/>まるで、美術品を講義しているみたいだね。<br/><br/>それで、支那の宋時代が、日本の平安朝時代になるわけですね。<br/><br/>で、平安朝時代にも良い物ができましたがね。<br/><br/>それから、日本の鎌倉時代に彫刻の良い物ができたのですがね。<br/><br/>支那で言うと、明の時代に入りかけている。<br/><br/>明の初期から中期に良い物ができた。<br/><br/>これは、ぜんぜん宋時代とは違ってね。<br/><br/>それで桃山時代になって、明の次の康煕（こうき）に入って、まあ――そうとうに良い物ができましたがね。<br/><br/>そういった、文化交流時代ですね。<br/><br/>それが、支那と日本と大体符合が合っているんです。<br/><br/>そんなような具合で、日本は支那から学ぶと言いながら、日本独特の物を出した。<br/><br/>日本人の一つの、美術に対する秀れた才能ですね。<br/><br/>そういうものがある。<br/><br/>そういった美術品を見て、研究した結果やはり美術においては、日本人は世界一と言って良いんですね。<br/><br/>非常に秀れた天才ですね――それを持っている。<br/><br/>これが本当に世界的に知られてないから、それをどうしても、私は知らせたいと思いますね。<br/><br/>それには日本人が作った良い物を見せる。<br/><br/>それよりないですからね。<br/><br/>箱根の美術館は小さいですからね。<br/><br/>仏教美術までは見せるわけにはいかないから、将来できる熱海の大きいのは、仏教美術の良い物を――お寺にある国宝級の良い物を集めて、世界的の展覧会をやりたいと思っている。<br/><br/>そのために外国の観光外客が、当てにして見にくるというまでにやってみたいと思っている。<br/><br/>とにかく、平和ということに対する――今言ったような具合に、美術思想なんかを植えつけるということは、非常に良いんです。<br/><br/>そんなことにも、非常に金がいりますがね。<br/><br/>私は、その金を始終心配している。<br/><br/>しかし、今まではどうやら、それだけの金は集まるんです。<br/><br/>箱根の美術館なんかも、始める時は、ほとんど余分な金はないんです。<br/><br/>だからまあ、やって、うまくできるかどうか、実際おっかなびっくりだった。<br/><br/>だけども、神様の方では非常に急がれる。<br/><br/>だから他の方で調子が良くなって、だんだん進んでいくので、これは良いだろうと思って始めると――十一月に始めると、十一、十二、一月とスラスラとそれだけの金は集まった。<br/><br/>現金はまだそれだけありませんが、申し込みだけは大体ね。<br/><br/>で、まあ――ホッと安心したわけです。<br/><br/>それで信者だけ見るという、そんなものじゃ駄目ですから、誰でも一般的に見られる――そういうふうにしようと思う。<br/><br/>ちょうど地勢がそういうふうになっている。<br/><br/>萩の家の後ろに門を作ると、教団の方に関係なく、美術館だけ見られる。<br/><br/>やっぱり神様は地形までされている。<br/><br/>それでまあ、入場料までとる。<br/><br/>二百円くらいね。<br/><br/>二百円と言うと、ちょっと高いようですがこの間ブリヂストン美術館ですが、あれが五十円ですがね。<br/><br/>あれが五十円だとすると、私の方は千円でも安い。<br/><br/>品物を見れば解りますがね。<br/><br/>油絵は、日本でも見られます。<br/><br/>しかし、西洋に行っても見られます。<br/><br/>今度できる箱根の美術館は、どこにも見られない物です。<br/><br/>それが、一品か二品でなく、たくさんあるんだから、どんなに喜ぶか解らないですね。<br/><br/>文士連中でも――ああいうのも非常に待ってます。<br/><br/>作家連中でも、とても好きなんですよ。<br/><br/>去年の暮れあたりに川端康成、吉川英治、大仏次郎、高見順、武者小路実篤、徳川夢声の諸氏など、まだまだいろいろありますが、来るのを止めてあるんです。<br/><br/>美術館ができたら一ぺんに見せるからとね。<br/><br/>今、少しずつ見せてもしようがないからね。<br/><br/>徳川夢声氏なんか、馬鹿に好きですよ。<br/><br/>つい二、三日前に古九谷の良い物を買ったから、一ぺん見てくださいと言ってね。<br/><br/>そういう連中が、期待して待っているんです。<br/><br/>だから、始めたら、随分来るだろうと思います。<br/><br/>本当に良く見れば、半日もかかりますからね、そこで始終来るより、面倒臭いから――一々入場料やってね。<br/><br/>いっそ信者になれば、見たい時に只で見られるからと、そのために信者になる人も、随分あるだろうと思います。<br/><br/>それで、信者になっても良いんです。<br/><br/>なにしろ神様と縁が繋がりますからね。<br/><br/>結局だんだん信仰的なことも解るんです。<br/><br/>大体あそこの空気を吸うだけでも良いんです。<br/><br/>なかなか神様も抜け目なくやられます。<br/><br/>そういうようなわけで、着々としていろいろな設備もできつつあります。<br/><br/>まあ、美術館も大いに役をすると思ってます。<br/><br/> もう少し読むものがありますからね。<br/><br/> （御論文「社会事業と宗教事業」）【栄光 一四六号】 それから、今度また、松井、鈴木、百海、木原、アザブ、秀月の諸氏が山陰地方に宣伝旅行に行きますが、私になにか書いてくれと言いますからね。<br/><br/>急いで昨夜書いたんですが、それを読ませます。<br/><br/> （御論文「舌に代えて」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

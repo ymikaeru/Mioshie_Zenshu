@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>miroku4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 五六七大祭 『救世』53号、昭和25(1950)年3月11日発行 いよいよ本教救世教となって第一回の五六七大祭を例年のごとく三月五日、六日、七日の三日間に執行われる事になったのは、まことに芽出度い限りである。<br><br> この意味によって、今日の祭典の重要なる意味を思う時感慨無量である、私が御神業に身を投じたそもそもの第一歩は昭和三年二月、節分の日であったから、今年でちょうど二十三年目である、この二十三年間に基礎工事が成ったので、いよいよ本格的に発足すべく陣容を整え、世界人類救済の大旆（たいはい）を翳（かざ）して、本格的活動に入らんとするのである、言わば今までは楽屋で扮装していたようなもので、扮装が出来上ったので、ここに舞台へ登るようなものである。<br><br> 大体、メシヤとはキリスト教と深い関連があるので、この解釈は欧米においても諸説紛々として今もって決定はされないようである、というのは人智では深い神秘の奥を探り当る事は困難であるからである。<br><br> 私自身としてもいまだメシヤとは名のらないと共に、キリストの再臨ともいわない、これはある時期までは神様から発表を禁じられているからでもある、もっとも仮にメシヤの降臨などと思われでもしたら大変である、世界中からワーワーとやって来て、到底仕事など出来るものではないからである。<br><br> 今日確実にいえる事は、世を救うべく大経綸を行う事である、これは現に私が行いつつある事実を見れば判る、救世教の名を冠したのもそのためである。<br><br> ここで特に言うべき事がある、それはあらゆるものが世界的になった今日、既成宗教はいまだほとんどが、限られたる地域内救いの業であるに見て、全人類を救うべき使命ではなかった事を知るべきである、ただキリスト教のみは、全人類の救いが使命であるから、今日のごとき大を成したのである、といっても現在のごとき全人類の一大苦悩を救い得らるるかは大いに疑問の余地があろう、何となれば事実が明らかにそれを示しているからである、忌憚なくいえる事はもはや宗教そのものの力ではどうにもならないので、これは識者の等しく唱えるところである、ここにおいて率直にいえる事は、宗教以上の力が出なくてはならない事で、これが超宗教でなくて何であろう。<br><br> 元来、宗教とは読んで字のごとく宗祖の教えである、彼のバイブルといい経文といい、コーランというも畢竟（ひっきょう）文字を介して教え人間の魂を目覚めさせるのであるから、畢竟人間の自力である、ところが今日はもはや人間力では間に合わない事になった、もちろん教えも必要ではあるが、それ以上大神力の発揮がなくてはならない、といっても生神様的個人の力でもむずかしい、どうしても全人類を主宰し給う主の神すなわちエホバの絶対力の発現である、もちろん人類発生以来今日まで、右のような大神力は出なかった、それは地上天国準備だけの力でよかったからである、言わば本教と同様これまでの世界は楽屋であった訳である、ところがいよいよ時期熟して世界はここに一大転換と共に、天国樹立という神の理想実現となったのである。<br><br> この事が根本であって、これを深く認識する事によって初めて大神業に参加され得る資格者となるのである。<br><br> (注) 大旆（たいはい）、日月と昇竜・降竜とを描いた大きな旗。<br><br>昔、中国で、天子または将軍が用いた。<br><br>堂々たる旗印のこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão Messiânica e o Advento da Suprarreligião</h2>
 <p>Com a instituição de nossa Igreja sob o nome de Sekaikyuseikyo, a celebração do primeiro Grande Festival Miroku, a ser realizado como de costume nos dias cinco, seis e sete de março, é motivo de imensa alegria. Nesse sentido, sou tomado por uma emoção indescritível ao ponderar a profunda importância da cerimônia de hoje. O primeiro passo que dei ao me devotar à Obra Divina ocorreu em fevereiro do terceiro ano da era Showa, no dia do Setsubun, completando-se, neste ano, exatos vinte e três anos. Ao longo dessas mais de duas décadas, a obra fundamental foi concluída. E agora, com nossas fileiras organizadas, preparamo-nos para o início efetivo de nossas atividades, içando o grande estandarte da salvação da humanidade. Poderíamos dizer que, até o presente momento, estávamos nos bastidores, preparando nossos trajes. Agora que a preparação está finalizada, é chegada a hora de subirmos ao palco.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Neste ponto, há algo que devo ressaltar. Na atualidade, em que tudo adquiriu uma dimensão global, é preciso reconhecer que as religiões estabelecidas, em sua maioria, ainda se dedicam a uma obra de salvação restrita a âmbitos regionais. Elas não possuíam, em sua origem, a missão de salvar toda a humanidade. O cristianismo, por sua vez, constitui uma exceção, pois sua missão sempre foi a salvação universal, e por isso alcançou a magnitude que hoje ostenta. Contudo, subsiste uma grande dúvida se ele seria capaz de redimir a humanidade de sua presente e imensa agonia. Afinal, os fatos demonstram isso com clareza. Falando sem rodeios, a força da religião, por si só, já não é mais suficiente para solucionar os problemas que nos afligem. Esta é uma constatação compartilhada por todos os pensadores. Diante disso, afirmo sem hesitação: é imprescindível que se manifeste um poder que transcenda a religião. E o que seria isso senão uma suprarreligião?</p>
 <p>Originalmente, a religião, como a própria etimologia do termo sugere, consiste nos ensinamentos de um fundador. A Bíblia, os sutras, o Alcorão, todos, em última análise, buscam despertar a alma humana por meio dos ensinamentos contidos na palavra escrita. Portanto, sua base repousa no esforço humano. Ocorre que, nos dias de hoje, a capacidade humana já não é mais suficiente. Evidentemente, os ensinamentos continuam a ser necessários, mas, para além deles, tornou-se indispensável a manifestação de um grande Poder Divino. Contudo, mesmo o poder de um indivíduo tido como um deus vivo seria insuficiente. É imperativo que se manifeste o poder absoluto do Deus Supremo que governa toda a humanidade — ou seja, Jeová. Naturalmente, desde a origem do ser humano até os dias atuais, um Poder Divino de tal magnitude jamais se manifestou. A razão é que, até então, bastava a força necessária para a preparação do Paraíso Terrestre. Em outras palavras, assim como a nossa Igreja, o mundo até agora esteve nos bastidores. Agora, porém, o tempo amadureceu, e o mundo se encontra em meio a uma grande transição, rumo à concretização do ideal de Deus: o estabelecimento do Paraíso na Terra.</p>
 <p>Este é o ponto fundamental, e somente através de sua profunda compreensão é que uma pessoa se torna qualificada a participar da grandiosa Obra Divina.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 五六七大祭 『救世』53号、昭和25(1950)年3月11日発行 いよいよ本教救世教となって第一回の五六七大祭を例年のごとく三月五日、六日、七日の三日間に執行われる事になったのは、まことに芽出度い限りである。<br/><br/> この意味によって、今日の祭典の重要なる意味を思う時感慨無量である、私が御神業に身を投じたそもそもの第一歩は昭和三年二月、節分の日であったから、今年でちょうど二十三年目である、この二十三年間に基礎工事が成ったので、いよいよ本格的に発足すべく陣容を整え、世界人類救済の大旆（たいはい）を翳（かざ）して、本格的活動に入らんとするのである、言わば今までは楽屋で扮装していたようなもので、扮装が出来上ったので、ここに舞台へ登るようなものである。<br/><br/> 大体、メシヤとはキリスト教と深い関連があるので、この解釈は欧米においても諸説紛々として今もって決定はされないようである、というのは人智では深い神秘の奥を探り当る事は困難であるからである。<br/><br/> 私自身としてもいまだメシヤとは名のらないと共に、キリストの再臨ともいわない、これはある時期までは神様から発表を禁じられているからでもある、もっとも仮にメシヤの降臨などと思われでもしたら大変である、世界中からワーワーとやって来て、到底仕事など出来るものではないからである。<br/><br/> 今日確実にいえる事は、世を救うべく大経綸を行う事である、これは現に私が行いつつある事実を見れば判る、救世教の名を冠したのもそのためである。<br/><br/> ここで特に言うべき事がある、それはあらゆるものが世界的になった今日、既成宗教はいまだほとんどが、限られたる地域内救いの業であるに見て、全人類を救うべき使命ではなかった事を知るべきである、ただキリスト教のみは、全人類の救いが使命であるから、今日のごとき大を成したのである、といっても現在のごとき全人類の一大苦悩を救い得らるるかは大いに疑問の余地があろう、何となれば事実が明らかにそれを示しているからである、忌憚なくいえる事はもはや宗教そのものの力ではどうにもならないので、これは識者の等しく唱えるところである、ここにおいて率直にいえる事は、宗教以上の力が出なくてはならない事で、これが超宗教でなくて何であろう。<br/><br/> 元来、宗教とは読んで字のごとく宗祖の教えである、彼のバイブルといい経文といい、コーランというも畢竟（ひっきょう）文字を介して教え人間の魂を目覚めさせるのであるから、畢竟人間の自力である、ところが今日はもはや人間力では間に合わない事になった、もちろん教えも必要ではあるが、それ以上大神力の発揮がなくてはならない、といっても生神様的個人の力でもむずかしい、どうしても全人類を主宰し給う主の神すなわちエホバの絶対力の発現である、もちろん人類発生以来今日まで、右のような大神力は出なかった、それは地上天国準備だけの力でよかったからである、言わば本教と同様これまでの世界は楽屋であった訳である、ところがいよいよ時期熟して世界はここに一大転換と共に、天国樹立という神の理想実現となったのである。<br/><br/> この事が根本であって、これを深く認識する事によって初めて大神業に参加され得る資格者となるのである。<br/><br/> (注) 大旆（たいはい）、日月と昇竜・降竜とを描いた大きな旗。<br/><br/>昔、中国で、天子または将軍が用いた。<br/><br/>堂々たる旗印のこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

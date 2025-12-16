@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunmei</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 文明の創造 序文 『栄光』170号、昭和27(1952)年8月20日発行 私は目下文明の創造なる大著述をかきつつあるが、その予告として序文をこの欄に載せる事にした。<br><br> 文明の創造 序文 この著は歴史はじまって以来、いまだかつてない大聖著であり、一言にしていえば新文明世界の設計書であり、天国の福音でもあり、二十世紀のバイブルといってもよかろう。<br><br>すなわち現在の文明は真の文明ではなく、新文明が生まれるまでの仮の文明であって、聖書にある世の終りとは、この仮定文明世界の終りを言ったものである。<br><br>また今一つの“あまねく天国の福音を宣べ伝えらるべし、しかる後末期到る”との予言も、この著の事であろう。<br><br>そうしてバイブルはキリストの教えを綴ったものであるが、この著はキリストが繰返しいわれたところの、天の父であるエホバ直接の啓示である。<br><br>そうしてキリストはこうも言われた。<br><br>それは『天国は近づけり、なんじら悔改めよ』との警告である。<br><br>してみればキリスト自身が天国を造るとは言われなかったのである。<br><br> しかし私は天国は近づけりとは言わない。<br><br>天国はすでに来れりというのである。<br><br>何よりも私は目下天国の基礎的準備に取り掛っており、はなはだ小規模ではあるが、日々驚くべき力と奇蹟を顕わしつつあり、人々は驚嘆している。<br><br>そうして右のごとき模型的経綸が漸次発展するに従い、他面世界的には旧文明の清算の幕が切って落される。<br><br>それが最後の審判の開始であって、眼目は善悪の立分けである。<br><br>すなわち悪は亡び善は栄える段階に入るのである。<br><br>これがためいかに多数の犠牲者が出るかは計り知れないものがあろう。<br><br>しかしながら神の大愛はこれら犠牲者を最少限度に喰止めらるべく、救いのその第一声がこの著出版の理由である。<br><br>といっても旧文明世界からも、神は善悪正邪を選り分け善にして役立つ者は残されると共に、悪にして見込なき者は永遠に滅びるの止むなきに至るのである。<br><br> 以上のごとく、最後の審判が済むや、続いて新世界設計の順序となるのはもちろんだが、その転換期におけるあらゆる文化の建直しこそ、空前絶後のものであって、言うまでもなくそれは旧文明の誤謬の是正と共に、新文明の指針を示すのである。<br><br>ところがここに悲しむべき事がある。<br><br>というのは人類が数千年の長い間に堆積されたところの罪穢であって、当然この大浄化作用が発生するのである。<br><br>それをこれから詳しく説いてみるが、幸いこれを読む人々は救いの綱を目の前に出されたのであるから、何らの躊躇（ちゅうちょ）なく掴まれん事である。<br><br>それを前もって人類に知らせ、悔改めを私は神に代って勧告するのである。<br><br>これぞ神の大愛でなくて何であろう、従ってこれを知った以上、一時も早く頭の切替えは固より、心の準備に取掛るべきである。<br><br>そうして審判の最後に到っては、罪深き者は亡び、罪浅き者は救われるのは決定的であるから、これを信ずる者こそ永遠の生命を獲得すると共に、将来における地上天国の住民として残るのである。<br><br>そうして主神の経綸の深くして、そのスケールのいかに大なるものであるか、また現在までの文明がいかに野蛮極まるレベルの低いものであるかを、この著によって充分知らせ確固たる信念を得させるのである。<br><br> 一九五二年八月 箱根の寓居において 著 者 識
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Prefácio de A Criação da Civilização</h2>
 <p>Esta obra é um texto sagrado de magnitude sem precedentes na história da humanidade. Em suma, é o plano fundamental para o mundo da nova civilização, o Evangelho do Paraíso; poderíamos considerá-la a Bíblia do século XX. Com efeito, a civilização atual não é a verdadeira, mas sim uma civilização provisória que precede o nascimento da nova. O fim dos tempos, mencionado na Bíblia, refere-se precisamente ao término deste mundo de civilização transitória. Ademais, a profecia que diz “o Evangelho do Reino será pregado em todo o mundo, e então virá o fim” decerto se refere a esta obra. Ao passo que a Bíblia compila os ensinamentos de Cristo, esta obra constitui a revelação direta de Jeová, o Pai Celestial, a quem o próprio Cristo se referia reiteradamente.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Agosto de 1952
 Em minha residência em Hakone
 O Autor</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 文明の創造 序文 『栄光』170号、昭和27(1952)年8月20日発行 私は目下文明の創造なる大著述をかきつつあるが、その予告として序文をこの欄に載せる事にした。<br/><br/> 文明の創造 序文 この著は歴史はじまって以来、いまだかつてない大聖著であり、一言にしていえば新文明世界の設計書であり、天国の福音でもあり、二十世紀のバイブルといってもよかろう。<br/><br/>すなわち現在の文明は真の文明ではなく、新文明が生まれるまでの仮の文明であって、聖書にある世の終りとは、この仮定文明世界の終りを言ったものである。<br/><br/>また今一つの“あまねく天国の福音を宣べ伝えらるべし、しかる後末期到る”との予言も、この著の事であろう。<br/><br/>そうしてバイブルはキリストの教えを綴ったものであるが、この著はキリストが繰返しいわれたところの、天の父であるエホバ直接の啓示である。<br/><br/>そうしてキリストはこうも言われた。<br/><br/>それは『天国は近づけり、なんじら悔改めよ』との警告である。<br/><br/>してみればキリスト自身が天国を造るとは言われなかったのである。<br/><br/> しかし私は天国は近づけりとは言わない。<br/><br/>天国はすでに来れりというのである。<br/><br/>何よりも私は目下天国の基礎的準備に取り掛っており、はなはだ小規模ではあるが、日々驚くべき力と奇蹟を顕わしつつあり、人々は驚嘆している。<br/><br/>そうして右のごとき模型的経綸が漸次発展するに従い、他面世界的には旧文明の清算の幕が切って落される。<br/><br/>それが最後の審判の開始であって、眼目は善悪の立分けである。<br/><br/>すなわち悪は亡び善は栄える段階に入るのである。<br/><br/>これがためいかに多数の犠牲者が出るかは計り知れないものがあろう。<br/><br/>しかしながら神の大愛はこれら犠牲者を最少限度に喰止めらるべく、救いのその第一声がこの著出版の理由である。<br/><br/>といっても旧文明世界からも、神は善悪正邪を選り分け善にして役立つ者は残されると共に、悪にして見込なき者は永遠に滅びるの止むなきに至るのである。<br/><br/> 以上のごとく、最後の審判が済むや、続いて新世界設計の順序となるのはもちろんだが、その転換期におけるあらゆる文化の建直しこそ、空前絶後のものであって、言うまでもなくそれは旧文明の誤謬の是正と共に、新文明の指針を示すのである。<br/><br/>ところがここに悲しむべき事がある。<br/><br/>というのは人類が数千年の長い間に堆積されたところの罪穢であって、当然この大浄化作用が発生するのである。<br/><br/>それをこれから詳しく説いてみるが、幸いこれを読む人々は救いの綱を目の前に出されたのであるから、何らの躊躇（ちゅうちょ）なく掴まれん事である。<br/><br/>それを前もって人類に知らせ、悔改めを私は神に代って勧告するのである。<br/><br/>これぞ神の大愛でなくて何であろう、従ってこれを知った以上、一時も早く頭の切替えは固より、心の準備に取掛るべきである。<br/><br/>そうして審判の最後に到っては、罪深き者は亡び、罪浅き者は救われるのは決定的であるから、これを信ずる者こそ永遠の生命を獲得すると共に、将来における地上天国の住民として残るのである。<br/><br/>そうして主神の経綸の深くして、そのスケールのいかに大なるものであるか、また現在までの文明がいかに野蛮極まるレベルの低いものであるかを、この著によって充分知らせ確固たる信念を得させるのである。<br/><br/> 一九五二年八月 箱根の寓居において 著 者 識</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

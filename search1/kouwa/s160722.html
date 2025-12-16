@@ -1,172 +1,321 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>s160722</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>s160722</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 江の島片瀬における御講話 昭和16(1941)年7月22日 時局は風雲穏やかならざるあり、今日のお天気もその雛型のごとき気がする。<br><br>ここにお集まりの方は病気の治った方、または病気で困った人を救いたいという気の大いにある方ゆえ、病気というものには、この療法の治るという意味を根本的、徹底的に知っておかなくてはならぬので、できるだけ判るようにしたい。<br><br> なにぶん私の療法は、特に病気についての解釈は前人未発ともいうべく、よほど頭を白紙にしないと判り難い。<br><br>一般の人は西洋医学で教育されているので、私の話とぜんぜん反対なんで、そのつもりで聞かれたい。<br><br>今後迷ったり判らなかったりする、それは根本的認識ができていないからである。<br><br> 私がいま、著している本の序論を読む。<br><br> 『明日の医術』第一篇 序論 以上のごとくイギリス、イタリア、ベルギー、オランダなどもみな同じように、特にフランスは早く一八二三年から増加が止まった。<br><br>これは種痘による。<br><br>先天性黴毒は……天然痘毒素。<br><br>黴毒は遺伝しない。<br><br>万病尿酸説……尿毒というのは一理がある。<br><br>脊髄カリエス……悪性肺結核はよく祖先の罪が多い。<br><br>肺の原因は天然痘。<br><br> いまの医学では肺結核一つでも何百年前から研究してるが判らぬ。<br><br>半分しか判らぬから迷ってる。<br><br>研究は判らぬからするので、われわれは研究はしない。<br><br>喘息など治るから研究せぬ。<br><br> 霊と物質の関係はどうかというと、空間は空気のみだといままで思った。<br><br>空気のほかに別なものがある。<br><br>それは霊である。<br><br>空間に霊が充満している。<br><br>もういっそう判りやすく言うと、空気は物質で、窒素も酸素もとれる。<br><br> 霊は物質ではない。<br><br>霊の存在するため、いま、音楽で音波など言う。<br><br>あれは霊で、霊をはっきり知らぬが、音楽、電気、光など霊の一歩手前へ入ったもので、もっと進めば霊へ入る。<br><br>私のほうはそれを早く知った。<br><br> 霊界という別な世界があり、一つの社会がある。<br><br>私は病気の研究をして霊界の研究をした。<br><br>それから病気の本体を知った。<br><br>死んで霊界へ行き霊界の生活が始まる。<br><br>極楽、天国などもある。<br><br>霊界の世界にはいろいろある。<br><br> 仏界、神界などもある。<br><br>仏界など非常に大きい。<br><br>仏界からいうと、人間の死ぬのは生まれることになる。<br><br>ちょうど裏表になるから現界の死を往生という。<br><br>また生前などという。<br><br>昔からそれは判っていた。<br><br>昔の坊さんなどある程度判ったが、科学文明が入って判らなくなった。<br><br>故に霊と体というものは裏表になっていて、あらゆるものは生き、生まれたり死んだりしてる。<br><br>人間は肉体と霊体とある。<br><br> 魚など霊が抜けるに従って腐る。<br><br>人間も死体はサックで、いずれは骸骨となり、骸骨が何万年経てばなくなる。<br><br> 今日までの科学はまだ霊が発見できない、いずれは発見さるるだろう。<br><br>霊が発見できれば、もっとずっと科学は進歩する。<br><br> 科学のほうでは未だ半分しか判らぬ。<br><br>なぜかというと、科学は非常に研究する。<br><br>例えば、ガラスなど下へ落とすことを十何年やって研究しているものもあり、一つ事を研究してる人がたくさんある。<br><br>これは霊が判らぬからで、霊が判ればなんでもなく判る。<br><br> すべて霊体は主になる。<br><br>霊は消滅しない。<br><br>霊が脱出することは、肉体が使い道にならぬからで、おき去りにして出てしまう。<br><br>そして霊界で浄化作用が行なわれて生まれ代わる。<br><br>故に人間は生まれながらに馬鹿と悧巧（りこう）とある。<br><br>いくども生まれ代わった人は、いろいろな目にあってるから悧巧である、新しい霊は低級である。<br><br>こういうことが判るといろいろ判る。<br><br>私は死人と話したことがたくさんある。<br><br>人間のみならず動物になるのもある。<br><br>これは肉体という邪魔物がなく伸縮自在で、幽霊など戸の隙間からでも出る。<br><br> 仏など仏壇の中にも何十何百といる。<br><br>人間は肉体という物質があるから、思う通りにならぬ。<br><br>人間は霊が主で体が従である。<br><br>霊主物従……これが森羅万象の原則である。<br><br>故に病気というものは霊が主である。<br><br>薬を服むと薬の霊が霊体のほうへ溜まる。<br><br>霊の毒をとれば体の毒がとれる。<br><br>霊の曇りがとれると体の毒もとれる。<br><br>霊の曇りがとれると体の膿は死んでしまう、すると痛みはなくなる。<br><br> 治療によって病気の治るのはどういうわけかいまの話は表で、今度は裏を話す。<br><br>病気の楽屋を話す。<br><br> いっさいのものは霊と体で成り立っている。<br><br>霊と体というと、例えば人間は肉体のほかに霊体あり、霊が抜けると死ぬ。<br><br>霊が入ってるから生きてる。<br><br>万物はすべて霊と体で成り立ってる。<br><br>いっさいのものは霊あり、物体でも霊が抜ければ崩れる。<br><br> 月は水の魂、太陽は火の魂。<br><br>両方の火と水の結合したもの…… 月は太陽の光を受けて光り、太陽は月の水を受けて燃える。<br><br>火は水によって燃える。<br><br>水は火によって動く。<br><br>これは万物の原理。<br><br> 水があるから火は燃える。<br><br>夜の世界は水が主だから火が少ない。<br><br>昼間になると火が多くなる、火のほうが多くなる……これを火素という。<br><br>いままでは水素が多かった。<br><br> 火素を放射すると曇りは解消する。<br><br>すると膿が溶けてゆく。<br><br>霊界はだいたい火素の世界で、熱は霊界にある。<br><br>空気は水の世界、火と水と相まって初めてちょうどいい具合に調和してゆく。<br><br>昼間になると火素が多くなるゆえ、病気は治りいい。<br><br>この治療は以前ならできぬ。<br><br>昼間になったからできる。<br><br>神の指名により私がやらされるわけである。<br><br> 火素が特別に入ってゆく。<br><br>これはどういうわけかというと、も一つ奥になる。<br><br>これは宗教になる。<br><br>悟るよりしかたがない。<br><br>霊界と物質界との関係が判ればいい。<br><br>故に押して力を入れる必要はない。<br><br>奥のほうへ霊を入れるほうが出る。<br><br> 故にこの原理さえはっきりすれば、病気の恐れなく、また必ず治るものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>A Origem Espiritual das Doenças e o Princípio da Cura</h2>
-            <p>A conjuntura mundial se apresenta turbulenta, e o tempo de hoje parece ser um prenúncio, uma miniatura
+<h2>A Origem Espiritual das Doenças e o Princípio da Cura</h2>
+<p>A conjuntura mundial se apresenta turbulenta, e o tempo de hoje parece ser um prenúncio, uma miniatura
                 desses acontecimentos. Os senhores aqui reunidos são pessoas que foram curadas ou que possuem o nobre
                 desejo de salvar aqueles que sofrem com enfermidades. Por essa razão, é imprescindível que compreendam
                 de maneira fundamental e exaustiva o significado da cura proporcionada por este método. Esforçar-me-ei
                 para elucidá-lo da forma mais clara possível.</p>
-            <p>Seja como for, meu método de cura, e especialmente minha interpretação sobre as doenças, pode ser
+<p>Seja como for, meu método de cura, e especialmente minha interpretação sobre as doenças, pode ser
                 considerado algo sem precedentes na história. Por conseguinte, torna-se de difícil compreensão para
                 aqueles que não se dispuserem a ouvir com a mente desprovida de pré-conceitos. A maioria das pessoas foi
                 instruída segundo os preceitos da medicina ocidental, que se encontram em total oposição às minhas
                 palavras. Peço, portanto, que escutem com essa consciência. Qualquer dúvida ou confusão que possa surgir
                 futuramente será um sinal de que o conhecimento fundamental ainda não foi devidamente assimilado.</p>
-            <p>Lerei agora a introdução do livro que estou escrevendo, intitulado 'Ashita no Ijutsu', Primeiro Volume.
+<p>Lerei agora a introdução do livro que estou escrevendo, intitulado 'Ashita no Ijutsu', Primeiro Volume.
             </p>
-            <p>Como podem ver, na Inglaterra, Itália, Bélgica, Holanda e outras nações, ocorreu o mesmo fenômeno. Na
+<p>Como podem ver, na Inglaterra, Itália, Bélgica, Holanda e outras nações, ocorreu o mesmo fenômeno. Na
                 França, em particular, o crescimento populacional cessou já em 1823, um fato atribuível à vacinação
                 contra a varíola. A sífilis congênita está relacionada à toxina da varíola... A sífilis, em si, não é
                 hereditária. Quanto à teoria que atribui todas as doenças ao ácido úrico, a ideia de toxinas na urina
                 possui certa lógica. Já a tuberculose vertebral e a tuberculose pulmonar maligna frequentemente derivam
                 de pecados ancestrais. A causa primordial das afecções pulmonares é a varíola.</p>
-            <p>A medicina atual, por exemplo, investiga a tuberculose pulmonar há centenas de anos sem jamais chegar a
+<p>A medicina atual, por exemplo, investiga a tuberculose pulmonar há centenas de anos sem jamais chegar a
                 uma conclusão. Encontra-se perdida por compreender apenas metade da verdade. A pesquisa existe
                 justamente porque não se sabe; nós, ao contrário, não pesquisamos. Não há necessidade de pesquisar como
                 curar a asma, pois simplesmente a curamos.</p>
-            <p>Qual seria, então, a relação entre o espírito e a matéria? Até hoje, pensava-se que o espaço era
+<p>Qual seria, então, a relação entre o espírito e a matéria? Até hoje, pensava-se que o espaço era
                 preenchido unicamente pelo ar. Contudo, existe algo mais: o espírito. O espaço está plenamente
                 preenchido por espírito. Para tornar a explicação ainda mais acessível, podemos dizer que o ar é
                 matéria, da qual se pode extrair nitrogênio e oxigênio.</p>
-            <p>O espírito, por sua vez, não é matéria. É graças à sua existência que hoje falamos, na música, em ondas
+<p>O espírito, por sua vez, não é matéria. É graças à sua existência que hoje falamos, na música, em ondas
                 sonoras. Tais fenômenos, assim como a eletricidade e a luz, são manifestações que se encontram no limiar
                 do mundo espiritual. Um passo adiante, e adentramos o próprio domínio do espírito. A nossa senda nos
                 permitiu compreender essa verdade antecipadamente.</p>
-            <p>Existe um mundo distinto, o Mundo Espiritual, que constitui uma sociedade própria. Foi ao pesquisar as
+<p>Existe um mundo distinto, o Mundo Espiritual, que constitui uma sociedade própria. Foi ao pesquisar as
                 doenças que me dediquei ao estudo do Mundo Espiritual e, a partir daí, compreendi a verdadeira natureza
                 das enfermidades. Ao morrer, a pessoa segue para o Mundo Espiritual, onde sua vida prossegue. Lá existem
                 lugares como o Paraíso e o Céu; o Mundo Espiritual é multifacetado.</p>
-            <p>Há também o Mundo Búdico e o Mundo Divino, entre outros. O Mundo Búdico, por exemplo, é de uma vastidão
+<p>Há também o Mundo Búdico e o Mundo Divino, entre outros. O Mundo Búdico, por exemplo, é de uma vastidão
                 imensa. De sua perspectiva, a morte de um ser humano corresponde a um nascimento. É uma relação de
                 anverso e reverso, motivo pelo qual a morte no mundo fenomênico é chamada de "partida para a outra vida"
                 e se usam expressões como "antes de nascer". Antigamente, essa verdade era conhecida. Monges do passado
                 a compreendiam até certo ponto, mas a chegada da civilização científica obscureceu esse saber.</p>
-            <p>Dessa forma, o espírito e o corpo são como as duas faces de uma mesma moeda, e tudo o que existe no
+<p>Dessa forma, o espírito e o corpo são como as duas faces de uma mesma moeda, e tudo o que existe no
                 universo — tudo o que vive, nasce e morre — segue esse princípio. O ser humano é constituído por um
                 corpo carnal e um corpo espiritual. Um peixe, por exemplo, apodrece à medida que seu espírito se esvai.
                 O corpo humano, após a morte, não passa de um invólucro que se tornará um esqueleto, e mesmo este, após
                 dezenas de milhares de anos, desaparecerá.</p>
-            <p>A ciência, até o presente momento, ainda não foi capaz de descobrir o espírito, mas um dia,
+<p>A ciência, até o presente momento, ainda não foi capaz de descobrir o espírito, mas um dia,
                 inevitavelmente, o fará. Quando isso ocorrer, o progresso científico avançará de maneira extraordinária.
             </p>
-            <p>Por ora, a ciência compreende apenas metade da realidade. E por que digo isso? Porque a ciência se dedica
+<p>Por ora, a ciência compreende apenas metade da realidade. E por que digo isso? Porque a ciência se dedica
                 a pesquisas extremamente minuciosas. Há casos de pesquisadores que passam mais de uma década estudando a
                 queda de um pedaço de vidro, e muitos outros dedicam a vida a um único tema. Essa fragmentação do saber
                 ocorre porque o espírito ainda não foi compreendido. Uma vez que o seja, tudo se tornará claro, sem
                 esforço.</p>
-            <p>Tudo se origina no corpo espiritual, que é o principal. O espírito é indestrutível. Ele se retira quando
+<p>Tudo se origina no corpo espiritual, que é o principal. O espírito é indestrutível. Ele se retira quando
                 o corpo físico perde sua utilidade, abandonando-o. Em seguida, passa por um processo de purificação no
                 Mundo Espiritual para poder renascer. É por isso que os seres humanos já nascem com diferentes graus de
                 inteligência e discernimento. Uma alma que renasceu muitas vezes já passou por inúmeras experiências e,
@@ -175,42 +324,84 @@ function toggleLang(lang) {
                 espíritos, aliás, reencarnam não apenas como seres humanos, mas também como animais. Liberto do
                 obstáculo que é o corpo carnal, o espírito torna-se livre e flexível, como um fantasma que consegue
                 atravessar a fresta de uma porta.</p>
-            <p>Até mesmo nos oratórios budistas, coexistem dezenas, centenas de espíritos. É a matéria do corpo físico
+<p>Até mesmo nos oratórios budistas, coexistem dezenas, centenas de espíritos. É a matéria do corpo físico
                 que impede o ser humano de agir conforme sua vontade. O princípio é que o espírito é o mestre, e o
                 corpo, o servo. Espírito precede a matéria: esta é a lei fundamental que rege todo o universo. Portanto,
                 a doença é, em sua essência, um fenômeno do espírito. Quando se ingere um medicamento, seu componente
                 espiritual se acumula no corpo espiritual. Ao removermos as toxinas do espírito, as toxinas do corpo
                 também são eliminadas. Quando as máculas do espírito se dissipam, o pus no corpo físico morre, e a dor
                 cessa.</p>
-            <p>Agora que expliquei o aspecto aparente, ou seja, de que modo a cura da doença se manifesta através do
+<p>Agora que expliquei o aspecto aparente, ou seja, de que modo a cura da doença se manifesta através do
                 tratamento, passarei a revelar os bastidores. Falarei sobre a mecânica oculta da enfermidade.</p>
-            <p>Tudo o que existe é constituído de espírito e matéria. No ser humano, por exemplo, além do corpo carnal,
+<p>Tudo o que existe é constituído de espírito e matéria. No ser humano, por exemplo, além do corpo carnal,
                 há o corpo espiritual. Se o espírito se retira, o homem morre; é a presença do espírito que o mantém
                 vivo. Todos os seres e objetos do universo são compostos de espírito e matéria. Tudo possui espírito;
                 até mesmo um objeto material se desintegra quando seu espírito o abandona.</p>
-            <p>A Lua é a alma da água; o Sol, a alma do fogo. O universo resulta da união desses dois elementos, fogo e
+<p>A Lua é a alma da água; o Sol, a alma do fogo. O universo resulta da união desses dois elementos, fogo e
                 água. A Lua brilha ao receber a luz do Sol, e o Sol arde ao receber a água da Lua. O fogo queima por
                 meio da água, e a água se movimenta por meio do fogo. Este é o princípio fundamental de toda a criação.
             </p>
-            <p>É a presença da água que permite ao fogo arder. O mundo da noite é regido pela água, e por isso há pouco
+<p>É a presença da água que permite ao fogo arder. O mundo da noite é regido pela água, e por isso há pouco
                 fogo. Com a chegada do dia, o fogo se torna predominante, e o Elemento Fogo aumenta. Até então, o que
                 prevalecia era o Elemento Água.</p>
-            <p>Ao irradiarmos o Elemento Fogo, as máculas espirituais se dissolvem. Consequentemente, o pus se desfaz. O
+<p>Ao irradiarmos o Elemento Fogo, as máculas espirituais se dissolvem. Consequentemente, o pus se desfaz. O
                 Mundo Espiritual é, em sua maior parte, um mundo do Elemento Fogo; o calor reside nele. O ar, por sua
                 vez, pertence ao mundo da água. Somente quando o fogo e a água se unem é que se atinge a harmonia
                 perfeita. Com a transição para a Era do Dia, o Elemento Fogo se torna mais abundante, e, por isso, a
                 cura das doenças se torna mais fácil. Este método de tratamento não seria possível em épocas passadas.
                 Ele se tornou viável porque adentramos a Era do Dia. É por desígnio de Deus que me foi atribuída esta
                 missão.</p>
-            <p>O Elemento Fogo penetra de uma maneira especial, mas explicar como isso ocorre nos levaria a um nível
+<p>O Elemento Fogo penetra de uma maneira especial, mas explicar como isso ocorre nos levaria a um nível
                 ainda mais profundo, adentrando o campo da religião. Não há outro caminho senão o da iluminação
                 espiritual. O essencial é compreender a relação entre o Mundo Espiritual e o mundo material. Por isso,
                 não há necessidade de aplicar força ou pressão no tratamento; o que importa é fazer com que o espírito
                 alcance as profundezas do ser.</p>
-            <p>Uma vez que este princípio seja assimilado com clareza, o temor das doenças desaparecerá, e a cura se
+<p>Uma vez que este princípio seja assimilado com clareza, o temor das doenças desaparecerá, e a cura se
                 tornará uma certeza.</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 江の島片瀬における御講話 昭和16(1941)年7月22日 時局は風雲穏やかならざるあり、今日のお天気もその雛型のごとき気がする。<br/><br/>ここにお集まりの方は病気の治った方、または病気で困った人を救いたいという気の大いにある方ゆえ、病気というものには、この療法の治るという意味を根本的、徹底的に知っておかなくてはならぬので、できるだけ判るようにしたい。<br/><br/> なにぶん私の療法は、特に病気についての解釈は前人未発ともいうべく、よほど頭を白紙にしないと判り難い。<br/><br/>一般の人は西洋医学で教育されているので、私の話とぜんぜん反対なんで、そのつもりで聞かれたい。<br/><br/>今後迷ったり判らなかったりする、それは根本的認識ができていないからである。<br/><br/> 私がいま、著している本の序論を読む。<br/><br/> 『明日の医術』第一篇 序論 以上のごとくイギリス、イタリア、ベルギー、オランダなどもみな同じように、特にフランスは早く一八二三年から増加が止まった。<br/><br/>これは種痘による。<br/><br/>先天性黴毒は……天然痘毒素。<br/><br/>黴毒は遺伝しない。<br/><br/>万病尿酸説……尿毒というのは一理がある。<br/><br/>脊髄カリエス……悪性肺結核はよく祖先の罪が多い。<br/><br/>肺の原因は天然痘。<br/><br/> いまの医学では肺結核一つでも何百年前から研究してるが判らぬ。<br/><br/>半分しか判らぬから迷ってる。<br/><br/>研究は判らぬからするので、われわれは研究はしない。<br/><br/>喘息など治るから研究せぬ。<br/><br/> 霊と物質の関係はどうかというと、空間は空気のみだといままで思った。<br/><br/>空気のほかに別なものがある。<br/><br/>それは霊である。<br/><br/>空間に霊が充満している。<br/><br/>もういっそう判りやすく言うと、空気は物質で、窒素も酸素もとれる。<br/><br/> 霊は物質ではない。<br/><br/>霊の存在するため、いま、音楽で音波など言う。<br/><br/>あれは霊で、霊をはっきり知らぬが、音楽、電気、光など霊の一歩手前へ入ったもので、もっと進めば霊へ入る。<br/><br/>私のほうはそれを早く知った。<br/><br/> 霊界という別な世界があり、一つの社会がある。<br/><br/>私は病気の研究をして霊界の研究をした。<br/><br/>それから病気の本体を知った。<br/><br/>死んで霊界へ行き霊界の生活が始まる。<br/><br/>極楽、天国などもある。<br/><br/>霊界の世界にはいろいろある。<br/><br/> 仏界、神界などもある。<br/><br/>仏界など非常に大きい。<br/><br/>仏界からいうと、人間の死ぬのは生まれることになる。<br/><br/>ちょうど裏表になるから現界の死を往生という。<br/><br/>また生前などという。<br/><br/>昔からそれは判っていた。<br/><br/>昔の坊さんなどある程度判ったが、科学文明が入って判らなくなった。<br/><br/>故に霊と体というものは裏表になっていて、あらゆるものは生き、生まれたり死んだりしてる。<br/><br/>人間は肉体と霊体とある。<br/><br/> 魚など霊が抜けるに従って腐る。<br/><br/>人間も死体はサックで、いずれは骸骨となり、骸骨が何万年経てばなくなる。<br/><br/> 今日までの科学はまだ霊が発見できない、いずれは発見さるるだろう。<br/><br/>霊が発見できれば、もっとずっと科学は進歩する。<br/><br/> 科学のほうでは未だ半分しか判らぬ。<br/><br/>なぜかというと、科学は非常に研究する。<br/><br/>例えば、ガラスなど下へ落とすことを十何年やって研究しているものもあり、一つ事を研究してる人がたくさんある。<br/><br/>これは霊が判らぬからで、霊が判ればなんでもなく判る。<br/><br/> すべて霊体は主になる。<br/><br/>霊は消滅しない。<br/><br/>霊が脱出することは、肉体が使い道にならぬからで、おき去りにして出てしまう。<br/><br/>そして霊界で浄化作用が行なわれて生まれ代わる。<br/><br/>故に人間は生まれながらに馬鹿と悧巧（りこう）とある。<br/><br/>いくども生まれ代わった人は、いろいろな目にあってるから悧巧である、新しい霊は低級である。<br/><br/>こういうことが判るといろいろ判る。<br/><br/>私は死人と話したことがたくさんある。<br/><br/>人間のみならず動物になるのもある。<br/><br/>これは肉体という邪魔物がなく伸縮自在で、幽霊など戸の隙間からでも出る。<br/><br/> 仏など仏壇の中にも何十何百といる。<br/><br/>人間は肉体という物質があるから、思う通りにならぬ。<br/><br/>人間は霊が主で体が従である。<br/><br/>霊主物従……これが森羅万象の原則である。<br/><br/>故に病気というものは霊が主である。<br/><br/>薬を服むと薬の霊が霊体のほうへ溜まる。<br/><br/>霊の毒をとれば体の毒がとれる。<br/><br/>霊の曇りがとれると体の毒もとれる。<br/><br/>霊の曇りがとれると体の膿は死んでしまう、すると痛みはなくなる。<br/><br/> 治療によって病気の治るのはどういうわけかいまの話は表で、今度は裏を話す。<br/><br/>病気の楽屋を話す。<br/><br/> いっさいのものは霊と体で成り立っている。<br/><br/>霊と体というと、例えば人間は肉体のほかに霊体あり、霊が抜けると死ぬ。<br/><br/>霊が入ってるから生きてる。<br/><br/>万物はすべて霊と体で成り立ってる。<br/><br/>いっさいのものは霊あり、物体でも霊が抜ければ崩れる。<br/><br/> 月は水の魂、太陽は火の魂。<br/><br/>両方の火と水の結合したもの…… 月は太陽の光を受けて光り、太陽は月の水を受けて燃える。<br/><br/>火は水によって燃える。<br/><br/>水は火によって動く。<br/><br/>これは万物の原理。<br/><br/> 水があるから火は燃える。<br/><br/>夜の世界は水が主だから火が少ない。<br/><br/>昼間になると火が多くなる、火のほうが多くなる……これを火素という。<br/><br/>いままでは水素が多かった。<br/><br/> 火素を放射すると曇りは解消する。<br/><br/>すると膿が溶けてゆく。<br/><br/>霊界はだいたい火素の世界で、熱は霊界にある。<br/><br/>空気は水の世界、火と水と相まって初めてちょうどいい具合に調和してゆく。<br/><br/>昼間になると火素が多くなるゆえ、病気は治りいい。<br/><br/>この治療は以前ならできぬ。<br/><br/>昼間になったからできる。<br/><br/>神の指名により私がやらされるわけである。<br/><br/> 火素が特別に入ってゆく。<br/><br/>これはどういうわけかというと、も一つ奥になる。<br/><br/>これは宗教になる。<br/><br/>悟るよりしかたがない。<br/><br/>霊界と物質界との関係が判ればいい。<br/><br/>故に押して力を入れる必要はない。<br/><br/>奥のほうへ霊を入れるほうが出る。<br/><br/> 故にこの原理さえはっきりすれば、病気の恐れなく、また必ず治るものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>minzo116</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民族、国土、迷信篇 ７ 116-129 行事 116 七草粥 七草粥は体に良いと言われておりますが、こちらから考えますと反対のように思われますが、御伺い申し上げます。<br><br> 薬でも、薬でなくもない。<br><br>迷信である。<br><br> 117 亥の子祝いの迷信 十一月の亥の日を亥の子祝いと申し、おはぎなど作ってから炬燵を開ける習慣が御座いますが、これにも意義ある事で御座いましょうか。<br><br> 迷信である。<br><br>（S24.12.23） 118 お守の量と守護 古いお守やお札が俵に十二俵になると御守護を戴き、家内繁昌するとの事で、ある信者の宅で今六俵半ほど出来ておりますが、これをどう処置させて戴けばよろしゅう御座居ましょうか。<br><br> 量でゆく訳で、寧ろ馬鹿げた習慣である。<br><br>これを以てみると、お守やお札はいかに力がないかが判る。<br><br>天理教などでは一生に一つという。<br><br>これも極端だが――。<br><br> 本教は蓄電器か何かの――。<br><br>（S24. 7. 1） 119 弘法様の指輪 左の事につきお伺い致します。<br><br>天保銭にて作った指輪（通称弘法様の指輪）をはめておりますと肩が凝らないと云いますが、いかなる訳でしょうか。<br><br> 一種の迷信である。<br><br>（S24.11.26） 120 六三除け 六三除けは何か霊的意味があるのでしょうか、御伺い申し上げます。<br><br> よく云うが、大した事はない。<br><br>病気の時、やってみて貰った事があるが、三六の逆であるからよくない。<br><br>三＋六＝九という数もよくない。<br><br>三は水、六も水で、火がないから悪い。<br><br>誰かが言い出してこうなったのであろう。<br><br>吾々は何でもない。<br><br>（S24.11.17） 121 六三の障り 六三の障りは在るもので御座居ましょうか。<br><br>また、その意味について御説明下さい。<br><br> 六三の祟りと昔からいう。<br><br>これは神道の方でよくいう。<br><br>別に大した意味はない。<br><br>六三様などという。<br><br> 昔から歯を痛めた時六三の祟りといわれ、日枝神社で拝んでもらったら治ったなどという。<br><br>いくらか祟りがあるんであろう。<br><br>（S24. 1. 2） 122 六三除け、誤った利益 世間良く六三に掛り病気になった場合には医薬では絶対に治らず、六三除けの色々な方法を行いますととても良くなりますが、六三様と云う神様はいかようなる神様なのでしょうか。<br><br> 迷信である。<br><br>六三の日に発病すると薬を服んではいけないという。<br><br>薬で悪くしたものを薬をやめるから御利益のようにみえる。<br><br>（S24. 9.13） 123 六三除け 病気治しに六三除けと言われるものがありますが、いかなるものでしょうか。<br><br>御伺い申し上げます。<br><br> とるに足らぬものである。<br><br>三六の逆になる。<br><br>神道から出ている。<br><br>（S24. 7.17） 124 六三の祟り 昔から六三の祟りとか六三除けとか申しますが、六三とはいかなる意味で御座いましょうか。<br><br> 一種の迷信にすぎぬ。<br><br>六三――別に意味はない。<br><br>（S25. 3.23） 125 新仏二重と死 山形の村山地方では、新しい仏が二つ重なった場合、もう一度不幸が重なるという伝説がありますが、御教示御願い申し上げます。<br><br> （大した事はない。<br><br>よく二度ある事は三度あるというが、そういうリズムになったものがある）（S24. 1.28） 126 あらかじめ仏壇を買うと不幸ありと言う事 昔より新仏の無い時に仏壇を買い入れると不幸があるとか、また仏壇の位置を変えると不幸があるとか申しますが、本当で御座居ましょうか。<br><br> いくらかあるが、五六七教の信者になれば別に何の事もない。<br><br>（S24. 8.15） rattail（注） 〔 御垂示（S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行〕 戦災以来仏壇がないのでございますが、仏壇を買うと、だれか死ぬというのですが 『仏壇がないのはいけない。<br><br>あべこべのことが多い――夜の世界だったからね。<br><br>』 127 隠亡すると丈夫になるという事 体の弱い、特に結核の人が火葬場の「おんぼ」をすると体が丈夫になると申します。<br><br>また、火葬場の近くに済むだけでも身体が丈夫になると申しますが、これには何か訳が御座いましょうか。<br><br>御伺い致します。<br><br> 迷信である。<br><br>以前にこういう人があって、それから起った説であろう。<br><br>（色々迷信あるが、常識で考えて、理屈に合わないのは全部迷信である）（S24. 9.18） 128 閏年の墓石 閏年に墓石を立てますと、翌年にまたその家に死人が出るとの言い伝えがありますが、根拠のあるもので御座いましょうか。<br><br> 迷信である。<br><br> 129 針と針の山 死後四十九日の間にその家にて針を使いますと、霊が針の山へ登るとか申しますが、それは迷信でございましょうか、本当でございましょうか。<br><br>御伺い申し上げます。<br><br> 迷信である。<br><br>針の山と針の関係はない。<br><br>（S24. 7. 3）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Reverendo Okada Jikanshi (岡田自観師) – Povo, Pátria e Superstições, Volume 7: Práticas e Costumes (116-129)</h2>
 <h3>116 Mingau de Arroz com Sete Ervas</h3>
@@ -137,5 +289,48 @@ Resposta: Não ter um oratório é que é ruim. Muitas coisas funcionam de manei
 <h3>129 As Agulhas e a Montanha de Agulhas</h3>
 <p>Diz-se que, se alguém usar agulhas em uma casa durante os quarenta e nove dias que se seguem a um falecimento, o espírito do morto terá de escalar uma montanha de agulhas. Isso é verdade ou apenas uma superstição?</p>
 <p>É uma superstição. Não existe qualquer relação entre a montanha de agulhas e o uso de uma agulha de costura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民族、国土、迷信篇 ７ 116-129 行事 116 七草粥 七草粥は体に良いと言われておりますが、こちらから考えますと反対のように思われますが、御伺い申し上げます。<br/><br/> 薬でも、薬でなくもない。<br/><br/>迷信である。<br/><br/> 117 亥の子祝いの迷信 十一月の亥の日を亥の子祝いと申し、おはぎなど作ってから炬燵を開ける習慣が御座いますが、これにも意義ある事で御座いましょうか。<br/><br/> 迷信である。<br/><br/>（S24.12.23） 118 お守の量と守護 古いお守やお札が俵に十二俵になると御守護を戴き、家内繁昌するとの事で、ある信者の宅で今六俵半ほど出来ておりますが、これをどう処置させて戴けばよろしゅう御座居ましょうか。<br/><br/> 量でゆく訳で、寧ろ馬鹿げた習慣である。<br/><br/>これを以てみると、お守やお札はいかに力がないかが判る。<br/><br/>天理教などでは一生に一つという。<br/><br/>これも極端だが――。<br/><br/> 本教は蓄電器か何かの――。<br/><br/>（S24. 7. 1） 119 弘法様の指輪 左の事につきお伺い致します。<br/><br/>天保銭にて作った指輪（通称弘法様の指輪）をはめておりますと肩が凝らないと云いますが、いかなる訳でしょうか。<br/><br/> 一種の迷信である。<br/><br/>（S24.11.26） 120 六三除け 六三除けは何か霊的意味があるのでしょうか、御伺い申し上げます。<br/><br/> よく云うが、大した事はない。<br/><br/>病気の時、やってみて貰った事があるが、三六の逆であるからよくない。<br/><br/>三＋六＝九という数もよくない。<br/><br/>三は水、六も水で、火がないから悪い。<br/><br/>誰かが言い出してこうなったのであろう。<br/><br/>吾々は何でもない。<br/><br/>（S24.11.17） 121 六三の障り 六三の障りは在るもので御座居ましょうか。<br/><br/>また、その意味について御説明下さい。<br/><br/> 六三の祟りと昔からいう。<br/><br/>これは神道の方でよくいう。<br/><br/>別に大した意味はない。<br/><br/>六三様などという。<br/><br/> 昔から歯を痛めた時六三の祟りといわれ、日枝神社で拝んでもらったら治ったなどという。<br/><br/>いくらか祟りがあるんであろう。<br/><br/>（S24. 1. 2） 122 六三除け、誤った利益 世間良く六三に掛り病気になった場合には医薬では絶対に治らず、六三除けの色々な方法を行いますととても良くなりますが、六三様と云う神様はいかようなる神様なのでしょうか。<br/><br/> 迷信である。<br/><br/>六三の日に発病すると薬を服んではいけないという。<br/><br/>薬で悪くしたものを薬をやめるから御利益のようにみえる。<br/><br/>（S24. 9.13） 123 六三除け 病気治しに六三除けと言われるものがありますが、いかなるものでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> とるに足らぬものである。<br/><br/>三六の逆になる。<br/><br/>神道から出ている。<br/><br/>（S24. 7.17） 124 六三の祟り 昔から六三の祟りとか六三除けとか申しますが、六三とはいかなる意味で御座いましょうか。<br/><br/> 一種の迷信にすぎぬ。<br/><br/>六三――別に意味はない。<br/><br/>（S25. 3.23） 125 新仏二重と死 山形の村山地方では、新しい仏が二つ重なった場合、もう一度不幸が重なるという伝説がありますが、御教示御願い申し上げます。<br/><br/> （大した事はない。<br/><br/>よく二度ある事は三度あるというが、そういうリズムになったものがある）（S24. 1.28） 126 あらかじめ仏壇を買うと不幸ありと言う事 昔より新仏の無い時に仏壇を買い入れると不幸があるとか、また仏壇の位置を変えると不幸があるとか申しますが、本当で御座居ましょうか。<br/><br/> いくらかあるが、五六七教の信者になれば別に何の事もない。<br/><br/>（S24. 8.15） rattail（注） 〔 御垂示（S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行〕 戦災以来仏壇がないのでございますが、仏壇を買うと、だれか死ぬというのですが 『仏壇がないのはいけない。<br/><br/>あべこべのことが多い――夜の世界だったからね。<br/><br/>』 127 隠亡すると丈夫になるという事 体の弱い、特に結核の人が火葬場の「おんぼ」をすると体が丈夫になると申します。<br/><br/>また、火葬場の近くに済むだけでも身体が丈夫になると申しますが、これには何か訳が御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 迷信である。<br/><br/>以前にこういう人があって、それから起った説であろう。<br/><br/>（色々迷信あるが、常識で考えて、理屈に合わないのは全部迷信である）（S24. 9.18） 128 閏年の墓石 閏年に墓石を立てますと、翌年にまたその家に死人が出るとの言い伝えがありますが、根拠のあるもので御座いましょうか。<br/><br/> 迷信である。<br/><br/> 129 針と針の山 死後四十九日の間にその家にて針を使いますと、霊が針の山へ登るとか申しますが、それは迷信でございましょうか、本当でございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 迷信である。<br/><br/>針の山と針の関係はない。<br/><br/>（S24. 7. 3）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

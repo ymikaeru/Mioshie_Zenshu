@@ -6,8 +6,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M261128</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#e9feda">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#e9feda"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -42,56 +243,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年11月28日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月二十八日 （お伺）辰巳芳子（昭和二十三年二月入信。<br><br>二十 七才）昭和二十二年十二月より左肺浸潤のため御浄霊をいただき、大学へ通学できるほどに良くなりました。<br><br>しかるに本年四月ごろより咳（息を吸う時ヒューと 音がいたします）が続いたり良くなったりを繰り返し、八月ごろからは咳が頻繁となり、御浄霊を毎日いただいております。<br><br>医診では、右肺浸潤で熱は夕方六度 七分から七度くらいの程度であり、痰はごく薄いのが出ております。<br><br>咳はヒューヒューというのはなくなりましたが、未だに頻繁で特に夜激しくございます。<br><br>御 浄霊の急所、ならびに一日の回数につき御教示いただきたくお願い申し上げます。<br><br> 〔御垂示〕 これはなんでもないですがね。<br><br>肋間に毒があるんです。<br><br>肋骨の間にね。<br><br>胸から横腹にかけてね。<br><br>押すと痛いですからね――じきに分かります。<br><br>それから出るん ですね。<br><br>肺浸潤というのは、非常に良いんですよ。<br><br>あんな結構なものはないですよ。<br><br>こういう所の毒が溶けて、痰になって出るんですからね。<br><br>この人は、薄い痰 だからじき治りますが、浄霊に力が入るからですよ。<br><br>力を抜けば、こういう所なんか、どんどん溶けますがね。<br><br>それから、ここをやったら良い――顎の下です ね。<br><br>そこに必ず熱がありますよ。<br><br> （お伺）当年六才の男子、昨年七月玩具のラッパ にハンダにて取り付けてありました金具（長さ八分くらい、まわり六分くらいの円筒のもの）これを口の中に入れて弄（もてあそ）んでいるうちに、誤って飲み 込み、その刹那は非常に苦しみ顔色は真っ赤になりましたが、寸時にして収まり、家人もあまり気に留めず、検便もせず過ごし、その後は非常に感冒に罹りやす く、その都度高熱を出し呼吸が荒く、食欲は減退いたし、たびたび嘔吐を催し、医診の結果は、甲は小児結核と診断し、乙は肋膜と言い、種々に診断が異うた め、最後にレントゲン写真の結果、左肺最下部に右の金具があることが分かり医師の言うには、この器物を吸い込み、器管を通り現在肺臓内にあるゆえ、左肋骨 最下部一本を切り取り摘出手術以外に方法なしとのことでしたが、子供の母親は四年前入信しており、手術することを嫌い、ぜひお道にて御救いをいただきたい と熱心におすがりいたしております。<br><br>もっともレントゲン写真は、田舎のこととて医者自身が自信を持てず、もっか東京の専門透視家の鑑定を依頼中とのことで ございます。<br><br>今までものを嚥下（えんか）する場合、ごはん一粒すら気管へ移行の時は咳により吐き出されますのに、かかるブリキ製の危険物がはたして肺に入 るものでございましょうか。<br><br>万一医者の言う通りでも、御浄霊にて御救いいただけますものでございましょうか。<br><br> 〔御垂示〕 肺に入ったというのは嘘ですよ。<br><br>こんなものが肺に入るわけがない。<br><br>第一肺に入るというと、息道の方から吸い込まなければならない。<br><br>食道からで入るわけが ない。<br><br>入って腸に行ってないから、横っちょの方に止まっている。<br><br>たいして心配ないです。<br><br>しばらくすると、少しずつ少しずつ溶けてきます。<br><br>人間の熱はたいし たものです。<br><br>よく、ガラスを食べたり、釘を食べたりするでしょう――見せ物でね。<br><br>なんでも食べるでしょう。<br><br>あれと同じ理屈ですよ。<br><br>これは、だんだん――金 でも溶けてくる。<br><br>それで小さくなってきます。<br><br>ある時期になると軟らかくなって、便になって出ます。<br><br>ほったらかしておくと良い。<br><br>ただ、浄霊するんです。<br><br>金物 が軟らかくなる。<br><br>金物の霊ですね。<br><br>人間の体に異物が入ると――器物なんかは――こう（浄霊）すると、霊が薄くなる。<br><br>希薄になる。<br><br>それで、体の金というの が、しなびたり、溶けたりするものです。<br><br>人間の体は良くできている。<br><br>体の熱というのはたいへんなものなんですよ。<br><br>体温でならば、何度と言うが、腹の中の熱 というのはたいしたものです。<br><br>つまり、熱の霊ですね。<br><br>体の方はたいしたことはないが、霊の方はたいしたものです。<br><br>これ（浄霊）だってそうですよ。<br><br>百度か二 百度はあるでしょう。<br><br> 私のなんかは千度くらいある。<br><br>霊ですからね。<br><br>私がやると、熱い熱いと言いますが、霊も――力があるとそうなるんです。<br><br>人間の体も、そういうことがありま す。<br><br>で、金の霊の方が溶けるから、体の方が溶けて減っていくんです。<br><br>心配しないで、そこの――左の肺の下ですね。<br><br>在る場所を浄霊して――それで良いです。<br><br> やっぱり咳が出たり、いろいろすることはあるでしょうが、それは別に――これのためばかりじゃないです。<br><br>しかしいくらか、この金が溶けたためもあるでしょ うが――そのための浄化と思いやすいんですね。<br><br> （お伺）二十七才の男、二十四年の暮れより、急 に声がかれ食物が通らなくなり、医診では喉頭結核と言われ、それまで胸は、なんの自覚症状もなかったのですが、レントゲンの結果両肺がそうとうに進んでい るとのことで、医療を加えておりましたが、あまり良くないので、二十五年九月より二十六年四月まで約七カ月入院いたし、ストレプトマイシン五十本、他にチ ビオン六カ月服用いたしましたが、右肺が癒着しているから肋骨五本切らなくてはいけないと言われ、手術が厭（いや）で退院いたし、もっぱら食事療法を行 なっております。<br><br>自分では今のところ、なんの苦痛もなく少しくらいの仕事ができますが、血沈も多くレントゲンも完全でないので、勤めることもできませんの で、御浄霊で治したいと申しております。<br><br>チビオンがたいへん腎臓を侵すとのことでございますが、これを浄霊させていただいてよろしいものでございましょう か。<br><br> 〔御垂示〕 浄霊させていただいて――よろしいでしょうかというのは変ですね。<br><br>だって浄霊しなかったら、絶対に治りませんよ。<br><br>他に治す方法はないんですからね。<br><br>させ ていただいて――良いも悪いもない――治りたければ、すれば良い。<br><br>あの世に行きたければ、止すと。<br><br>この人はたいしたことはないですね。<br><br> ただ、薬毒ですね。<br><br>薬毒を入れなかったら簡単に治るものですがね。<br><br>浄霊すると薬毒の浄化作用が起りますから、それを、あらかじめ承知してやれば良いです ね。<br><br>それに、まだ体が衰弱してないから、体を掃除する間はたいしたことはないから、ふつうの浄霊で良いわけですね。<br><br> （お伺）十才の男子。<br><br>四歳の時急性胃腸と脳膜炎 を起し、医者にて絶望状態を救われましたが、同年九月より、引きつけるようになり後天性癲癇と言われ、月一回必ず、夜明け前に発作を起し、症状は、強度に 引きつけ尿を漏らします。<br><br>発作後は無意識に頭痛を訴えます。<br><br>学校の成績は悪く、いたずらっ子で家人を困らせております。<br><br>その家には、別に霊的に関係のある ような死に方をいたしてはいないように思われます。<br><br>祖母は熱心な天理教信者であります。<br><br>家人が言いますには、お腹の具合が悪い時には、必ず発作を起しやす いとのことでございます。<br><br>右はいかなる原因でございましょうか。<br><br>霊的でなく脳膜炎を固めることによっても、このような症状を起すものでございましょうか。<br><br> 御救いいただきますには、いかがいたしましたらよろしゅうございましょうか。<br><br> 〔御垂示〕 これは霊的じゃありませんよ。<br><br>脳膜炎を固めてあるんです。<br><br>それで、前頭部ですね。<br><br>ここに固まっている。<br><br>それで、癲癇のような症状が起るんですね。<br><br>強度に 引きつける――これは前頭部の中の――脳が、非常に神経を使う機能になってますから――それから、尿を漏らします――小便を催すとかいうのは前頭部に神経 があるんですから、ここに浄化が起るために、そういった神経が鈍くなる――ぼーっとして鈍くなる。<br><br>それで、尿を漏らす。<br><br>発作中に無意識に――ここに浄化が 起るから――強く起るので無意識になる。<br><br>それが溶けるためです。<br><br>学校の成績――無論悪いですね。<br><br>今、天理教じゃ治りませんね。<br><br>それだけですからね。<br><br>前頭部 の中を浄霊すると、すっかり治ります。<br><br>これも、力を絶対入れちゃいけません。<br><br>これは、良くなると、目脂やはなみずが出ますから、そうしたら、しめたもので す。<br><br>それから痰が出ることもあります。<br><br>そんな――排泄物で治ってきます。<br><br> それから、お腹の具合が悪い時は発作を――これは、お腹と頭は続いてますから、ここに浄化が起る時は、お腹も浄化する。<br><br>だから、ここ（頭部）を浄霊すると、お腹がグーグーと鳴ることがあります。<br><br>天地になってますからね。<br><br> （お伺）二十四才の男子。<br><br>昨年一月に下腹部の苦 痛と尿の濁りに、驚いて医者にかかり、尿道炎とのことでペニシリン十本、ダイアジン三十本を注射しましたがなんの効果なく、八月には睾丸結核で、右を手術 にて取り去りましたが変化なく、他の医師に診てもらいましたところ、右腎臓結核ゆえ、至急手術せよと言われ、十二月手術しましたが、なおはっきりせず、今 年中月には両肺浸潤と言われ、以後気胸を左肺に行なってまいりましたが、三月ごろより猛烈に尿道が痛み、まったく不眠状態となりましたので、またペニシリ ン四十本を打ち、レントゲンで焼き固めてまいりましたが、依然として痛みは取れず、九月には医者も全快不能と言い、死を待つばかりでしたが、十二月にお道 を知り、九死に一生を念じつつ御浄霊をいただきましたところ、十日目ごろより猛烈な下痢の御浄化をいただき、激痛はほとんどなくなりました。<br><br>しかし、尿は 二十分に一回ずつございますが、完全なる体になるとは思われませんが、今後いかなる方法をさせていただきましたら、よろしゅうございましょうか。<br><br> 〔御垂示〕 全快不能と――これがおかしいんですね。<br><br>全快不能にしたんですからね――御自分がね。<br><br>ほったらかしておけば、ちゃんと治っちゃうのを、一生懸命に病気保 存法をやったわけですね。<br><br>実に――これをどうしても知らしてやらないと、人間はかわいそうですよ。<br><br>いかなる方法って、つまり浄霊ですね。<br><br>これは、睾丸結核 なんて、これは間違いらしいね。<br><br>というのは、手術にて方法なく――と言うんですからね。<br><br>もし、それが病気の原因なら良くならなければならない。<br><br>それが、変 化なく――と言うんだから、誤診だったわけですね。<br><br>右腎臓結核――これも誤診ですね。<br><br>というのは、手術をしても、なおはっきりせず――と言うんだからね。<br><br> 両肺浸潤――これは本当でしょう。<br><br>肺浸潤というのは、さっきも言った通り結構なものですから、ほったらかしておくと良い。<br><br>これは薬毒ですよ。<br><br>小便に薬毒が 混じって尿道を荒らす、そこに小便がしみますから、それで痛む。<br><br>痛みは取れず――見当が違いますからね。<br><br>全快不能――実に罪悪ですね。<br><br>これはなんでもない のを、だんだんやって命まで奪うんですからね。<br><br>実にたいへんな、恐るべきものですね。<br><br>この人のは、たいした病気はないんです。<br><br>これは、医者がつくったんで す。<br><br>つくったというのは、レントゲンが――薬毒が一番ですね。<br><br>まだ、年も若いしするから、まあ――仕事ができるくらいにまでは治るでしょう。<br><br>しかし、その 間浄化がありますから――しかし若いからたいしたことはないです。<br><br>咳だとか下痢だとか、それから濃い小便だとか、そんな程度ですから。<br><br>そう悲観することは ありませんね。<br><br>実際、お医者がさんざん壊したのをこっちで修繕するんだからね。<br><br>うんと金を使って壊してもらうんだから、これほど愚かな、悲惨な話はないで すね。<br><br> （お伺）小島武左衛門（六十二才）昭和十八年ご ろ物を持ち上げるとたんに、下腹がなんとなく力が抜けたような感じがいたしました。<br><br>その時から左太股鼠蹊部の少し上の所に小さな膨れが出ました。<br><br>脱腸と気 づき、脱腸帯を使用し今日に至りましたが、膨れはだんだん大きくなりました。<br><br>しかし痛みは少しもありません。<br><br>仰臥すれば引っ込みます。<br><br>八月ごろ子供が、脱 腸は色が変わるようであれば生命にかかわると、学校の先生に聞き、念のために病院へ行き、診断を受けましたところ、医師にも同じことを言われました。<br><br>な お、この老年になって脱腸とは珍しいことだ。<br><br>手術すれば治るが、また出るかもしれない、とのことでした。<br><br>万一出っ放しになれば、時を移さず手術をしなけれ ば、生命にかかわると言われました。<br><br>私と妻と長男およびその嫁が入信させていただいております。<br><br>御屏風観音様は二十三年、御神体は二十五年十月に御奉斎さ せていただいております。<br><br>御浄霊（約三カ月）は、教会の先生および家でも毎晩いただいております。<br><br>脱腸にはなんら変化ございません。<br><br>農家の関係上、少しは 力仕事もいたしますが差し支えないものでございましょうか。<br><br>また御浄霊の急所につき御垂示お願い申し上げます。<br><br> 〔御垂示〕 しかし、脱腸というのは、年寄りによくありますよ。<br><br>赤ん坊と年寄りに多いですね。<br><br>こういうのは腹膜に毒が溜まって、圧迫するんですからね。<br><br>子供のうちの は――鼠蹊部に穴が開いている――人間はね。<br><br>穴が大きいのは腸が出る。<br><br>年取ったのは穴が開いているということはないから、圧迫です。<br><br>圧迫されるから、どう しても軟らかい所に出るんですね。<br><br>それから、色が変わるようであれば生命に――こんなことはないですね。<br><br>他のわけですね。<br><br>腸は――腹が疵（きず）して脱出 するのは、命にかかわりますが、皮の中で疵しても、まあ――命にかかわることはないですね。<br><br>心配しなくても良いです。<br><br>お腹に固まりがありますから、浄霊し て取ると良い。<br><br>それから、帯を固く締めてはいけない。<br><br>固く締めると、どうしても腸を圧迫して、出るから――帯は固く締めてはいけない。<br><br>それから、腎臓の後 ろも大事ですから背中から尾管の方をやる。<br><br>それから、これも力を絶対に抜くようにしてやる。<br><br>これは心配したことはないですよ。<br><br>しかし、そうとう長くかかる な。<br><br>年取ると、いくらか、そういった――緊張力が弱ってますからね。<br><br>でも、だんだん治るから、今言ったようにしてやってご覧なさい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa Espiritual das Enfermidades e a Salvação pelo Johrei</h2>
 <p><strong>Pergunta de Tatsumi Yoshiko (admitida na fé em fevereiro de 1948, 27 anos):</strong> Desde dezembro de 1947, tenho recebido Johrei por uma infiltração no pulmão esquerdo, o que me permitiu melhorar a ponto de poder frequentar a universidade. Contudo, por volta de abril deste ano, comecei a ter crises de tosse (com um som sibilante ao inspirar) que ora melhoravam, ora pioravam. A partir de agosto, a tosse tornou-se mais frequente, e desde então tenho recebido Johrei diariamente. O diagnóstico médico aponta para uma infiltração no pulmão direito. A febre, ao entardecer, fica entre 36,7 e 37 graus, e o escarro é bastante ralo. Embora o sibilo ao respirar tenha desaparecido, a tosse ainda é constante, especialmente intensa durante a noite. Solicito que me oriente sobre os pontos vitais para o Johrei, bem como sobre a frequência diária.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p><strong>Orientação de Meishu-Sama:</strong> A afirmação de "recuperação impossível" é o que soa absurdo. Ora, foram eles mesmos que o tornaram incurável. Deixado em paz, seu corpo se curaria naturalmente, mas eles se empenharam em aplicar o método de preservação da doença. É verdadeiramente lamentável que as pessoas não compreendam isso. Quanto ao procedimento a ser seguido, é o Johrei, evidentemente. A tuberculose testicular parece ter sido um diagnóstico equivocado, pois a cirurgia não surtiu efeito algum. Se essa fosse a causa da doença, ele teria melhorado. O fato de seu estado não ter se alterado prova o erro. A tuberculose renal direita também foi um erro de diagnóstico, visto que, mesmo após a cirurgia, o quadro permaneceu incerto. A infiltração pulmonar bilateral, por sua vez, deve ser real. Conforme mencionei anteriormente, a infiltração pulmonar é um processo benéfico, e o melhor é não interferir. O problema real são as toxinas medicamentosas. Essas toxinas se misturam à urina e irritam a uretra. A dor que ele sente é a ardência da urina nessa área inflamada. A dor não cessava porque o tratamento estava focado na causa errada. Declarar um caso como este "incurável" é um verdadeiro crime. Eles pegam uma pessoa com um problema simples e, gradualmente, a levam à beira da morte. É algo verdadeiramente espantoso e terrível. Este homem não tem uma doença grave. A doença foi criada pelos médicos. E o que a criou, em primeiro lugar, foram as toxinas dos medicamentos e da radioterapia. Como ele ainda é jovem, certamente se recuperará a ponto de poder trabalhar. No entanto, haverá purificações nesse ínterim, mas, por ser jovem, não serão tão severas: tosse, diarreia, urina concentrada e sintomas do gênero. Não há motivo para tanto pessimismo. Na prática, nosso trabalho é consertar o que os médicos destruíram de forma tão completa. É de fato uma história de suprema insensatez e tragédia: pagar vultosas quantias para ter o próprio corpo arruinado.</p>
 <p><strong>Pergunta de Kojima Takezaemon (62 anos):</strong> Por volta de 1943, ao levantar um objeto, senti uma espécie de perda de força no baixo-ventre. A partir daquele momento, surgiu um pequeno inchaço na coxa esquerda, um pouco acima da virilha. Percebi que era uma hérnia e passei a usar uma cinta, o que faço até hoje. O inchaço aumentou gradualmente, mas não sinto dor alguma. Ele desaparece quando me deito de costas. Por volta de agosto, meu filho ouviu de um professor na escola que, se a hérnia mudasse de cor, poderia ser fatal. Por precaução, fui a um hospital, onde o médico confirmou a mesma informação. Ele também acrescentou que era incomum um homem idoso como eu ter hérnia e que, embora a cirurgia pudesse resolver, havia o risco de ela retornar. Fui alertado de que, se a hérnia ficasse exposta e não voltasse ao lugar, eu deveria ser operado imediatamente, sob risco de vida. Eu, minha esposa, meu filho mais velho e sua esposa somos membros da Igreja. Consagramos a Imagem de Kannon (観音) em 1948 e o Ponto Focal Divino em outubro de 1950. Há cerca de três meses, tenho recebido Johrei do ministro da Igreja e também em casa, todas as noites. Não houve nenhuma alteração na hérnia. Sendo agricultor, realizo algum trabalho que exige força. Isso seria prejudicial? Solicito também orientação sobre os pontos vitais para o Johrei.</p>
 <p><strong>Orientação de Meishu-Sama:</strong> A hérnia é, na verdade, bastante comum em idosos, assim como em bebês. O que ocorre é um acúmulo de toxinas no peritônio, que exerce pressão. Nas crianças, a hérnia pode ocorrer porque o canal inguinal ainda está aberto. Nos idosos, porém, não se trata de uma abertura, mas sim de pressão. A pressão força a saída por um ponto mais frágil. A ideia de que uma mudança de cor representa risco de vida não procede. Isso se aplica a outras condições. Uma perfuração no abdômen com exposição do intestino é perigosa, mas uma lesão sob a pele não costuma ser fatal. Não há necessidade de se preocupar. Existem solidificações em seu abdômen; o ideal é dissolvê-las com Johrei. Outro ponto importante é não apertar a cinta com força. A pressão excessiva sobre o intestino pode forçar a hérnia para fora. Portanto, a cinta não deve ser apertada. A região posterior aos rins também é crucial, de modo que se deve ministrar Johrei das costas até o cóccix. E, neste caso também, o Johrei deve ser ministrado sem aplicar força alguma. Não há motivo para alarme. Contudo, a recuperação levará um tempo considerável. Com a idade, a tonicidade do corpo tende a diminuir. Ainda assim, a melhora virá gradualmente. Siga as orientações que lhe dei e observe os resultados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年11月28日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月二十八日 （お伺）辰巳芳子（昭和二十三年二月入信。<br/><br/>二十 七才）昭和二十二年十二月より左肺浸潤のため御浄霊をいただき、大学へ通学できるほどに良くなりました。<br/><br/>しかるに本年四月ごろより咳（息を吸う時ヒューと 音がいたします）が続いたり良くなったりを繰り返し、八月ごろからは咳が頻繁となり、御浄霊を毎日いただいております。<br/><br/>医診では、右肺浸潤で熱は夕方六度 七分から七度くらいの程度であり、痰はごく薄いのが出ております。<br/><br/>咳はヒューヒューというのはなくなりましたが、未だに頻繁で特に夜激しくございます。<br/><br/>御 浄霊の急所、ならびに一日の回数につき御教示いただきたくお願い申し上げます。<br/><br/> 〔御垂示〕 これはなんでもないですがね。<br/><br/>肋間に毒があるんです。<br/><br/>肋骨の間にね。<br/><br/>胸から横腹にかけてね。<br/><br/>押すと痛いですからね――じきに分かります。<br/><br/>それから出るん ですね。<br/><br/>肺浸潤というのは、非常に良いんですよ。<br/><br/>あんな結構なものはないですよ。<br/><br/>こういう所の毒が溶けて、痰になって出るんですからね。<br/><br/>この人は、薄い痰 だからじき治りますが、浄霊に力が入るからですよ。<br/><br/>力を抜けば、こういう所なんか、どんどん溶けますがね。<br/><br/>それから、ここをやったら良い――顎の下です ね。<br/><br/>そこに必ず熱がありますよ。<br/><br/> （お伺）当年六才の男子、昨年七月玩具のラッパ にハンダにて取り付けてありました金具（長さ八分くらい、まわり六分くらいの円筒のもの）これを口の中に入れて弄（もてあそ）んでいるうちに、誤って飲み 込み、その刹那は非常に苦しみ顔色は真っ赤になりましたが、寸時にして収まり、家人もあまり気に留めず、検便もせず過ごし、その後は非常に感冒に罹りやす く、その都度高熱を出し呼吸が荒く、食欲は減退いたし、たびたび嘔吐を催し、医診の結果は、甲は小児結核と診断し、乙は肋膜と言い、種々に診断が異うた め、最後にレントゲン写真の結果、左肺最下部に右の金具があることが分かり医師の言うには、この器物を吸い込み、器管を通り現在肺臓内にあるゆえ、左肋骨 最下部一本を切り取り摘出手術以外に方法なしとのことでしたが、子供の母親は四年前入信しており、手術することを嫌い、ぜひお道にて御救いをいただきたい と熱心におすがりいたしております。<br/><br/>もっともレントゲン写真は、田舎のこととて医者自身が自信を持てず、もっか東京の専門透視家の鑑定を依頼中とのことで ございます。<br/><br/>今までものを嚥下（えんか）する場合、ごはん一粒すら気管へ移行の時は咳により吐き出されますのに、かかるブリキ製の危険物がはたして肺に入 るものでございましょうか。<br/><br/>万一医者の言う通りでも、御浄霊にて御救いいただけますものでございましょうか。<br/><br/> 〔御垂示〕 肺に入ったというのは嘘ですよ。<br/><br/>こんなものが肺に入るわけがない。<br/><br/>第一肺に入るというと、息道の方から吸い込まなければならない。<br/><br/>食道からで入るわけが ない。<br/><br/>入って腸に行ってないから、横っちょの方に止まっている。<br/><br/>たいして心配ないです。<br/><br/>しばらくすると、少しずつ少しずつ溶けてきます。<br/><br/>人間の熱はたいし たものです。<br/><br/>よく、ガラスを食べたり、釘を食べたりするでしょう――見せ物でね。<br/><br/>なんでも食べるでしょう。<br/><br/>あれと同じ理屈ですよ。<br/><br/>これは、だんだん――金 でも溶けてくる。<br/><br/>それで小さくなってきます。<br/><br/>ある時期になると軟らかくなって、便になって出ます。<br/><br/>ほったらかしておくと良い。<br/><br/>ただ、浄霊するんです。<br/><br/>金物 が軟らかくなる。<br/><br/>金物の霊ですね。<br/><br/>人間の体に異物が入ると――器物なんかは――こう（浄霊）すると、霊が薄くなる。<br/><br/>希薄になる。<br/><br/>それで、体の金というの が、しなびたり、溶けたりするものです。<br/><br/>人間の体は良くできている。<br/><br/>体の熱というのはたいへんなものなんですよ。<br/><br/>体温でならば、何度と言うが、腹の中の熱 というのはたいしたものです。<br/><br/>つまり、熱の霊ですね。<br/><br/>体の方はたいしたことはないが、霊の方はたいしたものです。<br/><br/>これ（浄霊）だってそうですよ。<br/><br/>百度か二 百度はあるでしょう。<br/><br/> 私のなんかは千度くらいある。<br/><br/>霊ですからね。<br/><br/>私がやると、熱い熱いと言いますが、霊も――力があるとそうなるんです。<br/><br/>人間の体も、そういうことがありま す。<br/><br/>で、金の霊の方が溶けるから、体の方が溶けて減っていくんです。<br/><br/>心配しないで、そこの――左の肺の下ですね。<br/><br/>在る場所を浄霊して――それで良いです。<br/><br/> やっぱり咳が出たり、いろいろすることはあるでしょうが、それは別に――これのためばかりじゃないです。<br/><br/>しかしいくらか、この金が溶けたためもあるでしょ うが――そのための浄化と思いやすいんですね。<br/><br/> （お伺）二十七才の男、二十四年の暮れより、急 に声がかれ食物が通らなくなり、医診では喉頭結核と言われ、それまで胸は、なんの自覚症状もなかったのですが、レントゲンの結果両肺がそうとうに進んでい るとのことで、医療を加えておりましたが、あまり良くないので、二十五年九月より二十六年四月まで約七カ月入院いたし、ストレプトマイシン五十本、他にチ ビオン六カ月服用いたしましたが、右肺が癒着しているから肋骨五本切らなくてはいけないと言われ、手術が厭（いや）で退院いたし、もっぱら食事療法を行 なっております。<br/><br/>自分では今のところ、なんの苦痛もなく少しくらいの仕事ができますが、血沈も多くレントゲンも完全でないので、勤めることもできませんの で、御浄霊で治したいと申しております。<br/><br/>チビオンがたいへん腎臓を侵すとのことでございますが、これを浄霊させていただいてよろしいものでございましょう か。<br/><br/> 〔御垂示〕 浄霊させていただいて――よろしいでしょうかというのは変ですね。<br/><br/>だって浄霊しなかったら、絶対に治りませんよ。<br/><br/>他に治す方法はないんですからね。<br/><br/>させ ていただいて――良いも悪いもない――治りたければ、すれば良い。<br/><br/>あの世に行きたければ、止すと。<br/><br/>この人はたいしたことはないですね。<br/><br/> ただ、薬毒ですね。<br/><br/>薬毒を入れなかったら簡単に治るものですがね。<br/><br/>浄霊すると薬毒の浄化作用が起りますから、それを、あらかじめ承知してやれば良いです ね。<br/><br/>それに、まだ体が衰弱してないから、体を掃除する間はたいしたことはないから、ふつうの浄霊で良いわけですね。<br/><br/> （お伺）十才の男子。<br/><br/>四歳の時急性胃腸と脳膜炎 を起し、医者にて絶望状態を救われましたが、同年九月より、引きつけるようになり後天性癲癇と言われ、月一回必ず、夜明け前に発作を起し、症状は、強度に 引きつけ尿を漏らします。<br/><br/>発作後は無意識に頭痛を訴えます。<br/><br/>学校の成績は悪く、いたずらっ子で家人を困らせております。<br/><br/>その家には、別に霊的に関係のある ような死に方をいたしてはいないように思われます。<br/><br/>祖母は熱心な天理教信者であります。<br/><br/>家人が言いますには、お腹の具合が悪い時には、必ず発作を起しやす いとのことでございます。<br/><br/>右はいかなる原因でございましょうか。<br/><br/>霊的でなく脳膜炎を固めることによっても、このような症状を起すものでございましょうか。<br/><br/> 御救いいただきますには、いかがいたしましたらよろしゅうございましょうか。<br/><br/> 〔御垂示〕 これは霊的じゃありませんよ。<br/><br/>脳膜炎を固めてあるんです。<br/><br/>それで、前頭部ですね。<br/><br/>ここに固まっている。<br/><br/>それで、癲癇のような症状が起るんですね。<br/><br/>強度に 引きつける――これは前頭部の中の――脳が、非常に神経を使う機能になってますから――それから、尿を漏らします――小便を催すとかいうのは前頭部に神経 があるんですから、ここに浄化が起るために、そういった神経が鈍くなる――ぼーっとして鈍くなる。<br/><br/>それで、尿を漏らす。<br/><br/>発作中に無意識に――ここに浄化が 起るから――強く起るので無意識になる。<br/><br/>それが溶けるためです。<br/><br/>学校の成績――無論悪いですね。<br/><br/>今、天理教じゃ治りませんね。<br/><br/>それだけですからね。<br/><br/>前頭部 の中を浄霊すると、すっかり治ります。<br/><br/>これも、力を絶対入れちゃいけません。<br/><br/>これは、良くなると、目脂やはなみずが出ますから、そうしたら、しめたもので す。<br/><br/>それから痰が出ることもあります。<br/><br/>そんな――排泄物で治ってきます。<br/><br/> それから、お腹の具合が悪い時は発作を――これは、お腹と頭は続いてますから、ここに浄化が起る時は、お腹も浄化する。<br/><br/>だから、ここ（頭部）を浄霊すると、お腹がグーグーと鳴ることがあります。<br/><br/>天地になってますからね。<br/><br/> （お伺）二十四才の男子。<br/><br/>昨年一月に下腹部の苦 痛と尿の濁りに、驚いて医者にかかり、尿道炎とのことでペニシリン十本、ダイアジン三十本を注射しましたがなんの効果なく、八月には睾丸結核で、右を手術 にて取り去りましたが変化なく、他の医師に診てもらいましたところ、右腎臓結核ゆえ、至急手術せよと言われ、十二月手術しましたが、なおはっきりせず、今 年中月には両肺浸潤と言われ、以後気胸を左肺に行なってまいりましたが、三月ごろより猛烈に尿道が痛み、まったく不眠状態となりましたので、またペニシリ ン四十本を打ち、レントゲンで焼き固めてまいりましたが、依然として痛みは取れず、九月には医者も全快不能と言い、死を待つばかりでしたが、十二月にお道 を知り、九死に一生を念じつつ御浄霊をいただきましたところ、十日目ごろより猛烈な下痢の御浄化をいただき、激痛はほとんどなくなりました。<br/><br/>しかし、尿は 二十分に一回ずつございますが、完全なる体になるとは思われませんが、今後いかなる方法をさせていただきましたら、よろしゅうございましょうか。<br/><br/> 〔御垂示〕 全快不能と――これがおかしいんですね。<br/><br/>全快不能にしたんですからね――御自分がね。<br/><br/>ほったらかしておけば、ちゃんと治っちゃうのを、一生懸命に病気保 存法をやったわけですね。<br/><br/>実に――これをどうしても知らしてやらないと、人間はかわいそうですよ。<br/><br/>いかなる方法って、つまり浄霊ですね。<br/><br/>これは、睾丸結核 なんて、これは間違いらしいね。<br/><br/>というのは、手術にて方法なく――と言うんですからね。<br/><br/>もし、それが病気の原因なら良くならなければならない。<br/><br/>それが、変 化なく――と言うんだから、誤診だったわけですね。<br/><br/>右腎臓結核――これも誤診ですね。<br/><br/>というのは、手術をしても、なおはっきりせず――と言うんだからね。<br/><br/> 両肺浸潤――これは本当でしょう。<br/><br/>肺浸潤というのは、さっきも言った通り結構なものですから、ほったらかしておくと良い。<br/><br/>これは薬毒ですよ。<br/><br/>小便に薬毒が 混じって尿道を荒らす、そこに小便がしみますから、それで痛む。<br/><br/>痛みは取れず――見当が違いますからね。<br/><br/>全快不能――実に罪悪ですね。<br/><br/>これはなんでもない のを、だんだんやって命まで奪うんですからね。<br/><br/>実にたいへんな、恐るべきものですね。<br/><br/>この人のは、たいした病気はないんです。<br/><br/>これは、医者がつくったんで す。<br/><br/>つくったというのは、レントゲンが――薬毒が一番ですね。<br/><br/>まだ、年も若いしするから、まあ――仕事ができるくらいにまでは治るでしょう。<br/><br/>しかし、その 間浄化がありますから――しかし若いからたいしたことはないです。<br/><br/>咳だとか下痢だとか、それから濃い小便だとか、そんな程度ですから。<br/><br/>そう悲観することは ありませんね。<br/><br/>実際、お医者がさんざん壊したのをこっちで修繕するんだからね。<br/><br/>うんと金を使って壊してもらうんだから、これほど愚かな、悲惨な話はないで すね。<br/><br/> （お伺）小島武左衛門（六十二才）昭和十八年ご ろ物を持ち上げるとたんに、下腹がなんとなく力が抜けたような感じがいたしました。<br/><br/>その時から左太股鼠蹊部の少し上の所に小さな膨れが出ました。<br/><br/>脱腸と気 づき、脱腸帯を使用し今日に至りましたが、膨れはだんだん大きくなりました。<br/><br/>しかし痛みは少しもありません。<br/><br/>仰臥すれば引っ込みます。<br/><br/>八月ごろ子供が、脱 腸は色が変わるようであれば生命にかかわると、学校の先生に聞き、念のために病院へ行き、診断を受けましたところ、医師にも同じことを言われました。<br/><br/>な お、この老年になって脱腸とは珍しいことだ。<br/><br/>手術すれば治るが、また出るかもしれない、とのことでした。<br/><br/>万一出っ放しになれば、時を移さず手術をしなけれ ば、生命にかかわると言われました。<br/><br/>私と妻と長男およびその嫁が入信させていただいております。<br/><br/>御屏風観音様は二十三年、御神体は二十五年十月に御奉斎さ せていただいております。<br/><br/>御浄霊（約三カ月）は、教会の先生および家でも毎晩いただいております。<br/><br/>脱腸にはなんら変化ございません。<br/><br/>農家の関係上、少しは 力仕事もいたしますが差し支えないものでございましょうか。<br/><br/>また御浄霊の急所につき御垂示お願い申し上げます。<br/><br/> 〔御垂示〕 しかし、脱腸というのは、年寄りによくありますよ。<br/><br/>赤ん坊と年寄りに多いですね。<br/><br/>こういうのは腹膜に毒が溜まって、圧迫するんですからね。<br/><br/>子供のうちの は――鼠蹊部に穴が開いている――人間はね。<br/><br/>穴が大きいのは腸が出る。<br/><br/>年取ったのは穴が開いているということはないから、圧迫です。<br/><br/>圧迫されるから、どう しても軟らかい所に出るんですね。<br/><br/>それから、色が変わるようであれば生命に――こんなことはないですね。<br/><br/>他のわけですね。<br/><br/>腸は――腹が疵（きず）して脱出 するのは、命にかかわりますが、皮の中で疵しても、まあ――命にかかわることはないですね。<br/><br/>心配しなくても良いです。<br/><br/>お腹に固まりがありますから、浄霊し て取ると良い。<br/><br/>それから、帯を固く締めてはいけない。<br/><br/>固く締めると、どうしても腸を圧迫して、出るから――帯は固く締めてはいけない。<br/><br/>それから、腎臓の後 ろも大事ですから背中から尾管の方をやる。<br/><br/>それから、これも力を絶対に抜くようにしてやる。<br/><br/>これは心配したことはないですよ。<br/><br/>しかし、そうとう長くかかる な。<br/><br/>年取ると、いくらか、そういった――緊張力が弱ってますからね。<br/><br/>でも、だんだん治るから、今言ったようにしてやってご覧なさい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学関係者よ 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 左に掲（かか）げた感謝の報告は、一結核患者の救われるまでの経路と、その心境とを真実ありのままに書き連ねたものであって、この患者と同じ境遇にある人々は、今日何万人を数えられるか判らないであろう。<br><br>これによってみても今更ながら、現代医学が結核に対して、全然無力である事の実際を、遺憾なく示している。<br><br>吾らが常にいうごとく、現代医学は病気を治す力はなく、ただ一定期間あらゆる手段を尽くして、病気を抑えつけ固めるだけのものであって、一時的小康は得らるるも必ず再発して、最初の時よりも悪性となり、ついに絶望状態に陥（おちい）るという事実は、医師も患者も常に目（ま）の辺り見て経験しているところであろう。<br><br> そのような訳でありながら、医師はサモ治るらしく患者に説明しているが、実に不可解である。<br><br>何となれば、貴重な生命に対するこの説明としたら、余程の確信がなくては言えないはずである。<br><br>必ず全快の見込が立たないで、アヤフヤな、だろう式では患者及びその家族に迷惑をかける結果となろう。<br><br>しかもその説明が、反って患者に神経を起させ、不安を与える結果となり病勢は悪化するという事もよく分っているはずである。<br><br> そうして、現在当局においても、ヤレ健康診断とか、巡回診断、早期発見等、あらゆる方法を講じているばかりか、ベッドが足りないとか、何だかんだと巨額の国費を支出している現状は、吾々からみれば何と言っていいか言葉はないのである。<br><br>何よりもこれ程の努力を続けても、何ら効果を挙げ得ない実状をみれば全く結核の本体が全然分っていないからで、それに気が付かないだけの事である。<br><br>全く世紀の悲劇でなくて何であろう。<br><br>見よ、現在日本人中に有為な青壮年級の大多数が、ベッドの上に生ける屍のごとく仰臥（ぎょうが）し、いつ治るか見当もつかない運命に委ねられている悲惨なる実状を見ては、結核の本体を知り抜いている吾々としては、我慢出来ないので、思い切ってこの文をかいたのである。<br><br>しかし当局や専門家がこれを見るとしても、相変らずちょっと首を捻るくらいで、鼻の先で笑って見過してしまうであろう事も想像されるのである。<br><br>ちょうどバスの運転手に、この先に断崖のある事をいくら怒鳴っても、耳にも入れず驀進（ばくしん）しつつある無暴さと、何ら変りはないのである。<br><br> 以上のごとく、随分手厳しい警告と思うであろうが、吾々の意図は、一刻も早く社会大衆を不幸のドン底から救いたい一念で、他意はないのである。<br><br> 結核恐怖症 大阪府 神生中教会 山本嘉男（32） 私は結核患者でした。<br><br>正しくは慢性結核恐怖症とも言えます。<br><br>何故なら私が医師から結核性喘息両肺浸潤との医学的断定を下されたその瞬間から、私の無垢だった頭脳には一つ一つ結核を恐怖する事のみが刻み込まれて参りました。<br><br>それまでは結核というものにさして深い関心が無かった為か、医学に絶大な信頼を寄せていた為か、そんなに恐ろしいものと思ってはおりませんでした。<br><br>ところがさて自分が結核という宣告を受けた後というものは、余りにも総てが悲観的で、期待は次から次へと裏切られ、その都度私の得るものは大なる恐怖でありました。<br><br>そして一つとして理論に反した事は無いに拘らず、予定はいたずらに逆のコースを進みました。<br><br>医師は私に笑い顔で私の健康恢復を約束してくれたはずでしたが、その約束とは反対に、私の肉体はボロボロになってゆく、冷い現実が私を悲嘆のどん底へ追い込んでしまいました。<br><br>その私が結核の正体を教えられる今日までの、真実を知らされない者の悪戦苦闘哀れな恐怖症時代を話してみましょう。<br><br> 古い話ですが、私がまだ十八歳の中学生徒の頃だと覚えます。<br><br>その頃から私は結核と知り合いになったのです。<br><br>忘れもしません私の今は亡き父が、一粒種の私を吾が身以上に心配してくれまして、当時忙しい勤務を捨て、私を伴ない医師から医師へおよそ知る限りの伝を求め、私を結核から守ろうと努力してくれました涙ぐましい悲惨な思い出は、未だ消えもしないで私の脳裡に焼きついております。<br><br>当時の父は社会的にもかなり地歩を有した知識人であったのですから、恐らく結核に対する知識は豊富であったはずです。<br><br>その頃は現在程でもなかったにせよ、やはり結核予防のかなり喧しく言われた時でありましたから父としても結核の恐ろしさというものを充分認識しておったのでしょう。<br><br>だからこそ苦しい生活設計の大部を私の病気の為に割いて私を結核から守ろうと努力してくれたのです。<br><br> そして最新最善の手段が選ばれる可く私の体は各所であらゆる面にわたって余す所無く、繰返し検診されました。<br><br>問診、聴診、打診、ツベルクリン反応、レントゲン透視、撮影、血沈、肺活量等々唯煩わしい許りで私の秘められた肉体は医学の完全暴露する処となり、それからの私は父の指示に従い選ばれた療養所へ通う事を日課と致しました。<br><br>毎日の注射は私には決して愉快な事ではありませんでしたが約一カ年は続けました。<br><br> かくのごとくして結核に関する限りおよそ無智であった私の脳髄には、結核の知識が初歩から否応なく叩きこまれ、同時に結核の恐るべき事も植付けられて参りました。<br><br>そして日一日と私の心身は結核恐怖症に蝕まれてゆきました。<br><br>しかしこの結核恐怖症がどう働いたものか、不思議にもその後の出来得る限りの医療が効を奏し、私の肉体を冒した処女結核は一応退散したかに見え、私は次第に元気になって参りました。<br><br>医師も「大丈夫」と喜びの宣告を発してくれ、父も私も大いにその喜びを分ち合ったものでした。<br><br>これで話が済めばまことに結構な事でありますが後があるのです、聞いて下さい。<br><br> 私はその後追々と体力を回復して参りました。<br><br>そして何事もなかった様に通常の生活を取り戻す事が出来ました。<br><br>月日が経つにつれて悪い夢でも見た様な気持で過去の事は私の脳裡から薄らいでゆきました。<br><br>別に変った事もない様でしたがただ一つ闘病時代の収穫として残ったものがあります。<br><br>つまりそれは結核恐怖症であります。<br><br>「恐るべき結核」「若い肉体を蝕み青春を葬る恐ろしい結核」「いつ、何時何処から襲い来るか判らぬ恐ろしい結核」私はそれからというもの年に似合わぬ神経質な病的な潔癖性へといつか転向して参りました。<br><br>これもみな恐ろしい結核に二度と冒されたくない一念からなのです。<br><br>そうする事が結核を予防する為、罹らぬ為の立派な方法であると習慣づけられ、自身も信じておりました。<br><br> それから約数年、私の肉体は異常なく結核から守られておりました？ 遂に時局は私を応召させましたが、立派？ に合格と言われ、麦飯生活を送る様になっても御国の御役にと張切った奉公が出来たものでした。<br><br>しかし依然として結核恐怖症は健在であり、習慣となったその頃では自信満々、特に留意の必要もなく、無意識にも結核に対する予防的手段はとられていた様であります。<br><br> ところが、私がこれ程注意をしていたに拘らず、突如として私の自信は根底から覆えされてしまう重大事実に直面したのであります。<br><br> 軍隊生活一カ年、何事もなかろう筈の私の肉体に新事実が発生しました。<br><br>厳しい夏のある日私は前夜来の不眠と訓練の辛さとで気分が勝れず、訓練休を申し出て軍医の診断を受けたのであります。<br><br>何事も予知する事のなかった私はただ疲れが出たのだと軽く考えていたのですが、軍医の診断は何か意味あり気な様子で私にレントゲン検査を命じました。<br><br>私はふと何か不吉な予感を感じつつ言われるままに軍病院で検診を受けました。<br><br>結果はやはり予感の通り入院命令となって私を悲観させました。<br><br>思い掛けぬこの結果を考えてもみましたが、私の頭は痺れた様でただもうろう、周囲の人達の世話にまかせきりで訳も判らず、白い着物を着てベッドに横たわる自分をはっきり意識したのは何もかも済んだ後でありました。<br><br> 再発、そうです。<br><br>私の肉体から消滅してしまったと思っていた結核が、何の事はない長い間温存されていて再びチャンスを狙って私を驚かしたのです。<br><br> それからの事は申し上げますまい。<br><br>何度申し上げても同じ事。<br><br>安静、注射、服薬、栄養、検診、もう私にはくどい事の連続。<br><br>青春も、希望もペチャンコです。<br><br>私の身体は憂鬱な薬の臭いが染みついて離れません。<br><br>ただ茫然と天の時至るを待つの境地でした。<br><br>だがしかし不思議な事に私の心の他にもう一つの私の心があって、その心では何かを乞い、願い、何かを求めている矛盾した複雑なものがあった事は否み得ません。<br><br>でも現実は文字通り生ける屍でありました。<br><br> その後二年程一進一退の症状のまま兵役を免除され、退院を命じられて、幽霊の様な姿を自宅へ送られ懐しいはずの我が家の床に入ったのですが、鬱々として気は晴れず悶々の毎日が続きました。<br><br>私はどうなるのだ、私はどうすればいいのか、私の健康はどうなったのか、私は苦悩に喘ぎました。<br><br>かつては共に心配し、心の杖とも頼んだ父は今既に亡く、母は神経過敏の私を迎えてただおろおろする許り、全くの悲劇だったと言えます。<br><br>恐ろしいもので私の結核恐怖症は嫌が上にも募りました。<br><br>生まれもつかぬ病的な依怙地さと、冷血漢的な性格は、みなこの結核恐怖症の基盤の上にでっちあげられたものです。<br><br>医師の指導も、書物の指針も、経験者の忠告も、世間の常識も、新聞ラジオの警告も、薬の宣伝も、異口同音私を結核恐怖へ結核恐怖へと追い立てます。<br><br>そうして進んで行ったのは地獄への道でありました。<br><br>やがて私は大量の喀血を致しました。<br><br>私の心は大きな激動を覚えましたが、ここで初めて私の心の中に大きく表面化して来たものがあります。<br><br>それは本能の目覚めであったのです。<br><br>総てが行詰ってしまった時、たった一つ残されている道、そしていつ誰でも自由に選べる道、為す事が為し果され尽くしてもいずれは行き着かねばならない道、それが私の場合いよいよ最後の切り札として与えられたのです。<br><br> それは真実の道、光への道でありました。<br><br>私は恐る恐る神の御名を口にしてみました。<br><br>変にギコチないものがありました。<br><br>併し私は必死でありました。<br><br>私の十幾年培われた結核恐怖症を解決するものは神の御力に縋る外道はないと痛感しました。<br><br>皮肉。<br><br>余りにも皮肉です。<br><br>結核を一番に解決してくれるはずの医学が私に与えて呉れたものは結核をより以上恐怖する事だけ、結核を治すべきはずの種々の指針、指導警告が更に恐怖のみを植付けるに役立ちて益なく、そうして創造されて来た結核恐怖症が更に結核を生み、恐怖症を育てる何と恐ろしい事なのでしょう。<br><br>そしてその解決の鍵は神が有せられるものであるとは、嗚呼何をかいわん哉…… 神我を見捨て給わず、私は救われました。<br><br>私は救世教の信徒に加えて戴き早五年、今は輝ける真の健康体を与えられました。<br><br>勿論結核恐怖症は既に雲散霧消して残るものそれはただ笑いの種、私はいたずらに苦笑するのみです。<br><br> ここまでの御話で私もほっと一息します。<br><br> 御讃歌 奴羽玉の 闇に杖なく彷へる 人こそ訪ねよ光明の国 幾多の紆余曲折を経て、偽られた世界から真実の世界への行程は、私にとって良き体験でありました。<br><br>明主様の大慈悲に縋って初めて知る神の加護は、私の魂の偽りの垢や穢れを、すっかり洗い浄められました。<br><br>そしてそこに総ての真実を教えられたのであります。<br><br> 私は叫びたい、信仰を土台としてなった医術でなくば結核の恐怖からは絶対に離れる事が出来ない。<br><br>結核を恐怖する限りは絶対結核を治す事は不可能だと、真実を知らされた者のみ真の健康を把握出来るのだと。<br><br> 今日なお幾万幾百万と知れぬ結核患者が偽られた世界を知らで、儚い夢を画いているかと思えば私は断腸の思いがする。<br><br>ああ何時の日か、一日も早く彼等の真実に目覚むる日の早からん事を祈りつつ私の回顧を終る事にします。<br><br> 末筆でありますが明主様に厚く御礼を申し上げます。<br><br>そして私の回想録が同病同憂の士の何等かの役にも立てばと念じこの稿を終ります。<br><br> （昭和二十五年七月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ineficácia da Medicina e a Verdadeira Salvação da Tuberculose</h2>
 <p>O relato de gratidão que apresentamos é a narrativa verídica do percurso de salvação de um paciente com tuberculose, descrevendo fielmente seus sentimentos ao longo do processo. É impossível mensurar quantas dezenas de milhares de pessoas se encontram hoje em situação semelhante. Este testemunho, por si só, demonstra de forma inequívoca a completa ineficácia da medicina moderna frente a essa doença.</p>
@@ -127,5 +279,48 @@ function toggleLang(lang) {
 <p>Quando penso nas dezenas de milhares, ou mesmo milhões, de pacientes de tuberculose que hoje ainda vivem em um mundo de ilusões, acalentando sonhos vãos, sinto o coração se partir. Ah, com que anseio oro para que chegue logo o dia em que eles também despertarão para a verdade. E com esta prece, encerro minhas memórias.</p>
 <p>Em minhas palavras finais, expresso minha mais profunda gratidão a Meishu-Sama. Concluo este relato com o desejo de que minhas reminiscências possam, de alguma forma, ser úteis aos meus companheiros que compartilham da mesma doença e da mesma angústia.</p>
 <p>(1º de julho de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学関係者よ 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 左に掲（かか）げた感謝の報告は、一結核患者の救われるまでの経路と、その心境とを真実ありのままに書き連ねたものであって、この患者と同じ境遇にある人々は、今日何万人を数えられるか判らないであろう。<br/><br/>これによってみても今更ながら、現代医学が結核に対して、全然無力である事の実際を、遺憾なく示している。<br/><br/>吾らが常にいうごとく、現代医学は病気を治す力はなく、ただ一定期間あらゆる手段を尽くして、病気を抑えつけ固めるだけのものであって、一時的小康は得らるるも必ず再発して、最初の時よりも悪性となり、ついに絶望状態に陥（おちい）るという事実は、医師も患者も常に目（ま）の辺り見て経験しているところであろう。<br/><br/> そのような訳でありながら、医師はサモ治るらしく患者に説明しているが、実に不可解である。<br/><br/>何となれば、貴重な生命に対するこの説明としたら、余程の確信がなくては言えないはずである。<br/><br/>必ず全快の見込が立たないで、アヤフヤな、だろう式では患者及びその家族に迷惑をかける結果となろう。<br/><br/>しかもその説明が、反って患者に神経を起させ、不安を与える結果となり病勢は悪化するという事もよく分っているはずである。<br/><br/> そうして、現在当局においても、ヤレ健康診断とか、巡回診断、早期発見等、あらゆる方法を講じているばかりか、ベッドが足りないとか、何だかんだと巨額の国費を支出している現状は、吾々からみれば何と言っていいか言葉はないのである。<br/><br/>何よりもこれ程の努力を続けても、何ら効果を挙げ得ない実状をみれば全く結核の本体が全然分っていないからで、それに気が付かないだけの事である。<br/><br/>全く世紀の悲劇でなくて何であろう。<br/><br/>見よ、現在日本人中に有為な青壮年級の大多数が、ベッドの上に生ける屍のごとく仰臥（ぎょうが）し、いつ治るか見当もつかない運命に委ねられている悲惨なる実状を見ては、結核の本体を知り抜いている吾々としては、我慢出来ないので、思い切ってこの文をかいたのである。<br/><br/>しかし当局や専門家がこれを見るとしても、相変らずちょっと首を捻るくらいで、鼻の先で笑って見過してしまうであろう事も想像されるのである。<br/><br/>ちょうどバスの運転手に、この先に断崖のある事をいくら怒鳴っても、耳にも入れず驀進（ばくしん）しつつある無暴さと、何ら変りはないのである。<br/><br/> 以上のごとく、随分手厳しい警告と思うであろうが、吾々の意図は、一刻も早く社会大衆を不幸のドン底から救いたい一念で、他意はないのである。<br/><br/> 結核恐怖症 大阪府 神生中教会 山本嘉男（32） 私は結核患者でした。<br/><br/>正しくは慢性結核恐怖症とも言えます。<br/><br/>何故なら私が医師から結核性喘息両肺浸潤との医学的断定を下されたその瞬間から、私の無垢だった頭脳には一つ一つ結核を恐怖する事のみが刻み込まれて参りました。<br/><br/>それまでは結核というものにさして深い関心が無かった為か、医学に絶大な信頼を寄せていた為か、そんなに恐ろしいものと思ってはおりませんでした。<br/><br/>ところがさて自分が結核という宣告を受けた後というものは、余りにも総てが悲観的で、期待は次から次へと裏切られ、その都度私の得るものは大なる恐怖でありました。<br/><br/>そして一つとして理論に反した事は無いに拘らず、予定はいたずらに逆のコースを進みました。<br/><br/>医師は私に笑い顔で私の健康恢復を約束してくれたはずでしたが、その約束とは反対に、私の肉体はボロボロになってゆく、冷い現実が私を悲嘆のどん底へ追い込んでしまいました。<br/><br/>その私が結核の正体を教えられる今日までの、真実を知らされない者の悪戦苦闘哀れな恐怖症時代を話してみましょう。<br/><br/> 古い話ですが、私がまだ十八歳の中学生徒の頃だと覚えます。<br/><br/>その頃から私は結核と知り合いになったのです。<br/><br/>忘れもしません私の今は亡き父が、一粒種の私を吾が身以上に心配してくれまして、当時忙しい勤務を捨て、私を伴ない医師から医師へおよそ知る限りの伝を求め、私を結核から守ろうと努力してくれました涙ぐましい悲惨な思い出は、未だ消えもしないで私の脳裡に焼きついております。<br/><br/>当時の父は社会的にもかなり地歩を有した知識人であったのですから、恐らく結核に対する知識は豊富であったはずです。<br/><br/>その頃は現在程でもなかったにせよ、やはり結核予防のかなり喧しく言われた時でありましたから父としても結核の恐ろしさというものを充分認識しておったのでしょう。<br/><br/>だからこそ苦しい生活設計の大部を私の病気の為に割いて私を結核から守ろうと努力してくれたのです。<br/><br/> そして最新最善の手段が選ばれる可く私の体は各所であらゆる面にわたって余す所無く、繰返し検診されました。<br/><br/>問診、聴診、打診、ツベルクリン反応、レントゲン透視、撮影、血沈、肺活量等々唯煩わしい許りで私の秘められた肉体は医学の完全暴露する処となり、それからの私は父の指示に従い選ばれた療養所へ通う事を日課と致しました。<br/><br/>毎日の注射は私には決して愉快な事ではありませんでしたが約一カ年は続けました。<br/><br/> かくのごとくして結核に関する限りおよそ無智であった私の脳髄には、結核の知識が初歩から否応なく叩きこまれ、同時に結核の恐るべき事も植付けられて参りました。<br/><br/>そして日一日と私の心身は結核恐怖症に蝕まれてゆきました。<br/><br/>しかしこの結核恐怖症がどう働いたものか、不思議にもその後の出来得る限りの医療が効を奏し、私の肉体を冒した処女結核は一応退散したかに見え、私は次第に元気になって参りました。<br/><br/>医師も「大丈夫」と喜びの宣告を発してくれ、父も私も大いにその喜びを分ち合ったものでした。<br/><br/>これで話が済めばまことに結構な事でありますが後があるのです、聞いて下さい。<br/><br/> 私はその後追々と体力を回復して参りました。<br/><br/>そして何事もなかった様に通常の生活を取り戻す事が出来ました。<br/><br/>月日が経つにつれて悪い夢でも見た様な気持で過去の事は私の脳裡から薄らいでゆきました。<br/><br/>別に変った事もない様でしたがただ一つ闘病時代の収穫として残ったものがあります。<br/><br/>つまりそれは結核恐怖症であります。<br/><br/>「恐るべき結核」「若い肉体を蝕み青春を葬る恐ろしい結核」「いつ、何時何処から襲い来るか判らぬ恐ろしい結核」私はそれからというもの年に似合わぬ神経質な病的な潔癖性へといつか転向して参りました。<br/><br/>これもみな恐ろしい結核に二度と冒されたくない一念からなのです。<br/><br/>そうする事が結核を予防する為、罹らぬ為の立派な方法であると習慣づけられ、自身も信じておりました。<br/><br/> それから約数年、私の肉体は異常なく結核から守られておりました？ 遂に時局は私を応召させましたが、立派？ に合格と言われ、麦飯生活を送る様になっても御国の御役にと張切った奉公が出来たものでした。<br/><br/>しかし依然として結核恐怖症は健在であり、習慣となったその頃では自信満々、特に留意の必要もなく、無意識にも結核に対する予防的手段はとられていた様であります。<br/><br/> ところが、私がこれ程注意をしていたに拘らず、突如として私の自信は根底から覆えされてしまう重大事実に直面したのであります。<br/><br/> 軍隊生活一カ年、何事もなかろう筈の私の肉体に新事実が発生しました。<br/><br/>厳しい夏のある日私は前夜来の不眠と訓練の辛さとで気分が勝れず、訓練休を申し出て軍医の診断を受けたのであります。<br/><br/>何事も予知する事のなかった私はただ疲れが出たのだと軽く考えていたのですが、軍医の診断は何か意味あり気な様子で私にレントゲン検査を命じました。<br/><br/>私はふと何か不吉な予感を感じつつ言われるままに軍病院で検診を受けました。<br/><br/>結果はやはり予感の通り入院命令となって私を悲観させました。<br/><br/>思い掛けぬこの結果を考えてもみましたが、私の頭は痺れた様でただもうろう、周囲の人達の世話にまかせきりで訳も判らず、白い着物を着てベッドに横たわる自分をはっきり意識したのは何もかも済んだ後でありました。<br/><br/> 再発、そうです。<br/><br/>私の肉体から消滅してしまったと思っていた結核が、何の事はない長い間温存されていて再びチャンスを狙って私を驚かしたのです。<br/><br/> それからの事は申し上げますまい。<br/><br/>何度申し上げても同じ事。<br/><br/>安静、注射、服薬、栄養、検診、もう私にはくどい事の連続。<br/><br/>青春も、希望もペチャンコです。<br/><br/>私の身体は憂鬱な薬の臭いが染みついて離れません。<br/><br/>ただ茫然と天の時至るを待つの境地でした。<br/><br/>だがしかし不思議な事に私の心の他にもう一つの私の心があって、その心では何かを乞い、願い、何かを求めている矛盾した複雑なものがあった事は否み得ません。<br/><br/>でも現実は文字通り生ける屍でありました。<br/><br/> その後二年程一進一退の症状のまま兵役を免除され、退院を命じられて、幽霊の様な姿を自宅へ送られ懐しいはずの我が家の床に入ったのですが、鬱々として気は晴れず悶々の毎日が続きました。<br/><br/>私はどうなるのだ、私はどうすればいいのか、私の健康はどうなったのか、私は苦悩に喘ぎました。<br/><br/>かつては共に心配し、心の杖とも頼んだ父は今既に亡く、母は神経過敏の私を迎えてただおろおろする許り、全くの悲劇だったと言えます。<br/><br/>恐ろしいもので私の結核恐怖症は嫌が上にも募りました。<br/><br/>生まれもつかぬ病的な依怙地さと、冷血漢的な性格は、みなこの結核恐怖症の基盤の上にでっちあげられたものです。<br/><br/>医師の指導も、書物の指針も、経験者の忠告も、世間の常識も、新聞ラジオの警告も、薬の宣伝も、異口同音私を結核恐怖へ結核恐怖へと追い立てます。<br/><br/>そうして進んで行ったのは地獄への道でありました。<br/><br/>やがて私は大量の喀血を致しました。<br/><br/>私の心は大きな激動を覚えましたが、ここで初めて私の心の中に大きく表面化して来たものがあります。<br/><br/>それは本能の目覚めであったのです。<br/><br/>総てが行詰ってしまった時、たった一つ残されている道、そしていつ誰でも自由に選べる道、為す事が為し果され尽くしてもいずれは行き着かねばならない道、それが私の場合いよいよ最後の切り札として与えられたのです。<br/><br/> それは真実の道、光への道でありました。<br/><br/>私は恐る恐る神の御名を口にしてみました。<br/><br/>変にギコチないものがありました。<br/><br/>併し私は必死でありました。<br/><br/>私の十幾年培われた結核恐怖症を解決するものは神の御力に縋る外道はないと痛感しました。<br/><br/>皮肉。<br/><br/>余りにも皮肉です。<br/><br/>結核を一番に解決してくれるはずの医学が私に与えて呉れたものは結核をより以上恐怖する事だけ、結核を治すべきはずの種々の指針、指導警告が更に恐怖のみを植付けるに役立ちて益なく、そうして創造されて来た結核恐怖症が更に結核を生み、恐怖症を育てる何と恐ろしい事なのでしょう。<br/><br/>そしてその解決の鍵は神が有せられるものであるとは、嗚呼何をかいわん哉…… 神我を見捨て給わず、私は救われました。<br/><br/>私は救世教の信徒に加えて戴き早五年、今は輝ける真の健康体を与えられました。<br/><br/>勿論結核恐怖症は既に雲散霧消して残るものそれはただ笑いの種、私はいたずらに苦笑するのみです。<br/><br/> ここまでの御話で私もほっと一息します。<br/><br/> 御讃歌 奴羽玉の 闇に杖なく彷へる 人こそ訪ねよ光明の国 幾多の紆余曲折を経て、偽られた世界から真実の世界への行程は、私にとって良き体験でありました。<br/><br/>明主様の大慈悲に縋って初めて知る神の加護は、私の魂の偽りの垢や穢れを、すっかり洗い浄められました。<br/><br/>そしてそこに総ての真実を教えられたのであります。<br/><br/> 私は叫びたい、信仰を土台としてなった医術でなくば結核の恐怖からは絶対に離れる事が出来ない。<br/><br/>結核を恐怖する限りは絶対結核を治す事は不可能だと、真実を知らされた者のみ真の健康を把握出来るのだと。<br/><br/> 今日なお幾万幾百万と知れぬ結核患者が偽られた世界を知らで、儚い夢を画いているかと思えば私は断腸の思いがする。<br/><br/>ああ何時の日か、一日も早く彼等の真実に目覚むる日の早からん事を祈りつつ私の回顧を終る事にします。<br/><br/> 末筆でありますが明主様に厚く御礼を申し上げます。<br/><br/>そして私の回想録が同病同憂の士の何等かの役にも立てばと念じこの稿を終ります。<br/><br/> （昭和二十五年七月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

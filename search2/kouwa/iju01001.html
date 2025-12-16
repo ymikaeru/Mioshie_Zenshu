@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju01001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（一） １ 001-025 脳溢血 001 脳天熱と転換期 最近の信者の浄霊を致しますと十人が十人とも脳天に熱があり、この現象は今迄に見られませんでしたが、これは現界の夜昼の転換期に現れたものと考えて宜しゅう御座居ましょうか。<br><br> 浄化が強くなって来たためである。<br><br> 今の人は実に頭がわるい。<br><br>（S23.11. 2） 002 頭高熱と体の変調 今年十一歳の男子ですが、二十年四月の空襲の際、火煙に取巻かれ、非常なおどろきの中を母の背におんぶしてその時は無事にすんだのですが、直後発熱四十度に及び、その後次第に体に変調を来し、非常に物事におびえ、恐がるようになりました。<br><br>当時は発音も不能となり、だんだん体に及び坂道などは登る時はよいのですが下る事が出来ず、動作も非常におくれております。<br><br>現在では一日二回程恐怖に襲われ、その顔面は誠に異様です。<br><br>発音はありますが、言葉はほとんどわかりません。<br><br> 右の理由と、御浄霊の方法を御教授御願い申し上げます。<br><br> 頭が非常に熱すると頭に変調を来す、そのためである。<br><br>根気よくやってると治る。<br><br>（S24. 6. 6） 003 脳溢血症状の重軽 六十二歳の女、以前脳溢血をやり、その後睡眠中以外は全身微痙攣が持続し、口及び両手が特にひどいのです。<br><br>当人の主人は酒癖がありまして非常に苦しめられ、なお、子供二人が服毒自殺と轢死を遂げております。<br><br>何の意味で痙攣が続くので御座居ましょうか。<br><br>御教示御願い申し上げます。<br><br> 痙攣のある中風は一番重い。<br><br>痙攣が大きい程重い。<br><br>次に胸へ手をくっつけるのが重い。<br><br>次は、手を握って固くなっているのである。<br><br>治るに従い、手を開く。<br><br>（S24. 6.23） 004 脳溢血再発とは 六十二歳の女、五年ごしの中風で左半身がききませんのですが、昨年九月入信致しまして、御浄霊を頂き、鉄のような足も段々やわらかくなり、歩くのも随分楽になって参りまして、大変喜んでおります。<br><br>所が近頃、目が見えにくくなってきました事と、頭がもう一つはっきり致しませんので、以前の時と同じような気が致します。<br><br>本人はまた脳溢血になるのではないかと案じております。<br><br>一日一回は家族の者の浄霊を受けておりますが、浄霊を頂いておりましても再度脳溢血を起すような事も御座いましょうか。<br><br>お伺い致します。<br><br> この脳溢血は未だ残っていて、毒血が溶けて頭に残っている。<br><br>ある程度溶けて鼻汁や痰などになって出る。<br><br>先に固めて、その上に溜って浄化するから、医者では二度目、三度目の再発は危険だというのである。<br><br>（S25. 1.17） 005 中風症状の浄霊 信者黒須初太郎（六十歳）、昭和二十三年七月より中風状態の御浄化を頂き、医師の手当を受けておりましたが効果なく、翌二十四年十一月入信、同時に光明如来様御軸及び御屏風観音様を御奉斎させて頂き、朝夕御浄霊をさせて頂いておりますので大変精神的にお救い頂けて参りました。<br><br>今後の御浄霊方法を御教示頂きたく存じます。<br><br>右、何卒御垂示を御願い申し上げます。<br><br>なお当人の家は鹿島神宮の鳥居の近くに御座います。<br><br>宜敷く御守護を御願い申し上げます。<br><br> 右か左が利かぬ。<br><br>利かない方の耳下を主に手は腕の付根をする。<br><br>足は足の外部と頭をする。<br><br> 中風、脳溢血は顔が紅く、少し経つと青くなる。<br><br>故に中風などなく、立てない。<br><br>二、三日で治る。<br><br>風邪よりやさしい位である。<br><br>冷すから手間どる。<br><br>決して恐くないものである。<br><br>（S24. 1.28） 006 脳溢血、半身不随 当年五十歳の女、昭和十六年夏京都府下枚方町（ひらかたちょう）川勝家の法要の際、同家にて脳溢血を起し意識不明、三十五日目に余病併発等ありしも一命を取止め、今日に及ぶも右半身不随、頭脳、言語も人並ならず、発病以来八ケ年を経過致しました。<br><br>この人を約一ケ月前より御浄霊致しておりますが、不随部分は逐次温みを増して来ましたが、未だ捗々しくまいりません。<br><br> 右の霊的関係及び御浄霊法を御教示御願い致します。<br><br> 霊的ではない。<br><br>普通の脳溢血である。<br><br>八年間だから一ケ月や二ケ月で判らぬ。<br><br>気長にすれば段々良くなる。<br><br> 一番は頭である。<br><br>両頸部を溶かすと手が動いてくる。<br><br> 不随の反対の方もよく浄霊する。<br><br>（S24. 8.15） 007 中風再浄化の浄霊 私が浄霊させて戴いている中気の病人（五十二歳、男子）歩行困難でありましたが、御浄霊を二十四回程致しましたら一時は軽い仕事は出来るようになりました。<br><br>二ケ月程浄霊を止めましたらまた悪化し、三十四回程浄霊致しましたが効果ありません。<br><br>その妻は入信（本年八月）して毎日浄霊を致しておりますが、病人は大酒家で、遊び事や狩猟等を好み、相当遊んだ事もあります。<br><br>一度良くなって再浄化したのは何か訳がありましょうか。<br><br>今後いかに御導きしたらよいでしょうか。<br><br>御伺い致します。<br><br> 再浄化は大抵ある。<br><br>中風で重いようなのは入ってじきにやった位では治らぬ。<br><br>良くなっても浄霊をやめてはいけない。<br><br>妻君では無理である。<br><br>中風など良くなったり悪くなったり繰返してゆく。<br><br>中風の再浄化は大抵三、四回である。<br><br>それ以上にはわたらぬ。<br><br>（S24.10.27） 008 中風と便秘 中風病に罹った時二日目に便が出れば二年生きる、また三日目に便が出れば三年生きると云いますが、また女は右に男は左に出ると云いますが、霊的に関係が御座居ますか。<br><br>御教えを賜りたく御願い申し上げます。<br><br> 便は何でもない。<br><br>医学では中風と便と関係のあるように言うが、何等の関係もない。<br><br>病気が分らぬから末梢的の事を云々する。<br><br> 便秘は何等差支えはない。<br><br>いくら溜っても何でもないものである。<br><br>中風などは食が少いから便秘する。<br><br> 女は右、男は左――。<br><br>（S24. 5.22） 009 中風と赤ら顔・縮れ毛 本年五十四歳の男子、去年十月頃より中風状態になり、現在左手首が痛み、左手は堅く握っているような状態で御座居ます。<br><br>また、左足も不自由で歩行困難で御座います。<br><br>顔は一見赤ら顔で、頭髪は縮れ、猿のように見えます。<br><br>いかなるわけで御座居ましょうか。<br><br> 普通の中風症状である。<br><br>中風の人は赤ら顔が多い。<br><br> 頭の毒素は毛に影響する。<br><br>（S24. 6.29） 010 卒倒後肩・首・頭重し、シャックリ 六十三歳になる祖母、卒倒後身体不自由となり、シャックリが激しく（三十分位毎）出ます。<br><br>症状は肩、首、頭へかけて非常に重く、痛みを感じます。<br><br>浄霊の要点を御教示下さい。<br><br> 重い、痛い所をやればよい。<br><br>中風である。<br><br>シャックリは後頭部である。<br><br>シャックリは構わぬ。<br><br>早く治る。<br><br> 医者にかかるかからぬかで分れる。<br><br>医者へかからねば中風など治る。<br><br>自然でも治る。<br><br>（S *.11.15） 011 中風と菜食 一、会員（六十三歳の男子）、中風になり最初より御浄霊をさせて頂きましたが、最近右肩が痛み出し、非常に痰が出ておりますが、右手、左足は未だ不自由でございます。<br><br>全快致しましょうか。<br><br>なお御浄霊の急所はどこどこでございましょうか。<br><br> 二、中風患者の食事はやはり菜食が宜しいでしょうか。<br><br> 三、右の人は勿論その一家は皆熱心な信者でございますが、急に中風の御浄化を頂きました。<br><br>今迄熱心であっただけに多少の迷いを生じたかに見られますが、このような場合どのように指導させて頂いたら宜しいでしょうか。<br><br> 右、御教示御願い申し上げます。<br><br> 一、痰になり、出るだけ出ればよい。<br><br>急所は痛い所、または押してみて痛い所。<br><br>逆中気である。<br><br> 二、菜食がよい。<br><br>肉食は血が濃くなるから、中気が起りやすい。<br><br> 三、信者でない場合よりは軽く済む。<br><br>迷わずにやれば中風でも治る。<br><br>（S *.11.23） 012 逆中気（手足痙攣） 四十五歳位の男子、約四年前より右側の腕、脚が痙攣し出しました。<br><br>別に脳溢血になった事はないとの事ですが、現在昼夜共に同じように相当劇しく痙攣し、それと後頭部が重く凝る以外は大して異状はありません。<br><br>これは逆中気でしょうか。<br><br>また、御浄霊はどこを主（おも）にさせて頂いたら宜しいでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 逆中気である。<br><br>関節（肩の奥）の塊のため手が震える。<br><br>（S24.12.23） 013 逆中気の浄霊個所 愚妻、右手足にお浄化を戴き、右手は上げ下ろしは出来ますが、握力が出ませんが、いかが致しましたものでしょうか。<br><br>霊的に原因を御伺い申し上げます。<br><br> （足は普通、言葉はきける――） 逆中気である。<br><br>逆中気は割合い軽い。<br><br>気長にすれば治る。<br><br>多分、右の耳下、頸部をする。<br><br>その元は右の腎臓に塊がある。<br><br> 014 逆中気の浄霊個所の順序 六十三歳の男子、中風症状にて現在迄に約十四、五回浄霊致しました。<br><br>特異と思われる状態は、言語自由なるも、頭部より足先迄左側が悪く、一昨日頃より右腰も痛むようになりました。<br><br>やはり中風でありましょうか。<br><br>また、治るでしょうか。<br><br>本人の言によれば、約三十年前に潜水病にかかり失神し、一時は中風のごとき疾患になった事がありますが、その時は空気調節のみで癒ったとの事であります。<br><br> 逆中気である。<br><br>頭部を廻らずに同じ側に流れたものである。<br><br>気長にやれば治る。<br><br> 左腎臓を第一に、頸腺を第二、足の外側などをする。<br><br> 015 逆中気 三十三歳の男、十月二十日頃より中気に罹り、約一ケ月医療、その後浄霊を受けておりますが、大して変化ありません。<br><br>御浄霊にて足は少し動くようにして頂きましたが、力無く、手は全然動きません。<br><br>医者は梅毒から来たのだと申します。<br><br>どこを浄霊させて頂いたらよろしいでしょうか。<br><br>御教え御願い致します。<br><br>御守護御願い申し上げます。<br><br> 逆中気、脳溢血にならずに中気になった。<br><br>（S24.12.23） 016 逆中気 私の妻（七十二歳）、去年の十一月から神経痛を患い、三月下旬より御浄霊をして頂いております。<br><br>左の手足が全然ぶらぶらで、ききませんでしたのに、御浄霊後手足が動くようになりましたが、ここのところまた動きません。<br><br>腎臓がものすごく硬く、小水がほんの少ししか出ませんし、浣腸も相当にやりましたので大便も少ししか出ません。<br><br>私達一家一生懸命お縋り致しておりますが、なかなか良くして頂けません。<br><br>完全に治させて頂けましょうか。<br><br> 逆中気である。<br><br>（S24. 7.19） 017 高血圧の原因 高血圧を心配致す人がありますが、このお道の上からは問題ではないと存じますが、いかがでしょうか。<br><br> 耳下腺の横。<br><br>ただこれは脳溢血の腺である。<br><br>これを間違えて高血圧は脳溢血の原因という。<br><br>高血圧とはここから腕へ流れる。<br><br> 病原にはまずならぬが、扁桃腺が腫れたりなどして出れば何でもない。<br><br>脳溢血の発作はまず頭部を浄霊する。<br><br>（固まるから） 血圧――脳卒中は頸動脈の塊で、これは手へ流れる。<br><br>脳溢血は後ろである。<br><br> （S24. 9.13） 018 脳溢血と高血圧 四十四歳の女の信者、八月二十八日に入信致しました。<br><br>この信者、本年三月上旬胸が苦しくて医者にかかり、血圧を調べたところ二百八十と聞いて驚き、それ以来フラフラ状態でございます。<br><br>今度光明様におすがりして一心に信仰しております。<br><br>何卒御守護御願い致します。<br><br> これは何でもない。<br><br>顎下部が凝っているから、そこをよく浄霊する。<br><br> 血圧が高くなると脳溢血が起るというが、脳溢血は耳下腺に固結があるので、血圧は頸腺で、関係はない。<br><br>（S24. 9. 9） ―― ここの凝るのは血圧である。<br><br> 019 低能の真因と上流階級 頭脳の働き明瞭ならず、思考力、推理力等に乏しく、数学的に鈍感で、時々常識を欠き、俗に「八重」とか云う人は、 １、霊魂が若いでしょうか、 ２、憑依霊のためでしょうか、 ３、毒素に因り頭脳が回転しないのでしょうか。<br><br> 右のような人は往々に中流以上の家庭に多くみられ、両親は相当な教養のある人によく見受けますが、いかなる因果関係により現れるのでしょうか。<br><br> 頭に欠陥がある。<br><br>生れつき頭に欠陥があるのと、毒素が凝ったのとある。<br><br>大抵は後者で、毒素が多いので頭を触ると暖かい。<br><br>これが冷くなればはっきりする。<br><br>首筋にきっと塊があるからそれを除る。<br><br>上流は大事に育ち過ぎる。<br><br>子供のうちから大事に扱い、女中や乳母任せで、気の入れ方が違う。<br><br> 正月の祭祀――お供えに輪飾り、松と梅か竹を入れる位で、大して変らない。<br><br>（S23.12.22） 020 脳打撲による智能低下の小児 私の孫は昭和十五年八月二十七日生れで桐之と申します。<br><br>本年十歳になりましたが、未だに物がはっきり云えません。<br><br>「ジイチャン」「オバアチャン」「ウマイ」「ママ」等より外言葉が出ないのです。<br><br>それは三歳の時、机の上から落ちてミシン機の金具に頭をぶつけて一寸位切れましたので、医師に治療して戴き、ただ今では傷痕が残っているのみです。<br><br>この子供の父は終戦二十日前に戦死しております。<br><br>この子は耳は良く聞え、私達の云う事は大抵聞き分けます。<br><br>しかし乱暴で、近所の自分より年下の子供を見ると突然倒したり、または川に押し落し等するので困ります。<br><br>このような気質の子供はいかなる原因によるものでしょうか。<br><br>また、二年前より浄霊していますが変化ありません。<br><br>浄霊はどのようにしてやったら良いでしょうか。<br><br>私共夫婦は入信しておりますが、肝心の母は本教に入信していたのですが、中途で人からの中傷により反対するようになって、光明如来様は御祭りしておりますが、御用は思うように出来ません。<br><br>いかにしたら良いでしょうか、御教示願います。<br><br> 打った時、頭の智能的働きのものを破損したのである。<br><br>機能の欠損は年限と共に段々治るが、内出血の固まったのは浄霊で溶かせば治る。<br><br> しかし、母が信仰をやめるようではいけない。<br><br>母が一番熱心に信仰すべきである。<br><br>（S24. 9.25） 021 生来の智能低下の原因と浄霊 謹んで御伺い申し上げます。<br><br> 当年十一歳の男子、生れながら遺伝性の梅毒にて最初から眼に現われ、相当量の注射（白血球を増す注射）を受けまして、現在は丈夫になりましたが、智能減退病と診断せられ、未だ五歳位の智恵しかなく、単語は話せますが綴る事が出来ません。<br><br>身体は今のところ非常に丈夫です。<br><br>最近私が入信致しました。<br><br>浄霊を続けておりますが、この病気は治るでしょうか。<br><br>御伺い致します。<br><br> 治るが、生れつきか注射の毒かである。<br><br>前頭部の奥を出来るだけ浄霊する。<br><br>また後ろの頸筋もする。<br><br>年とるに従い治る。<br><br> 022 低能児の治癒日数 私の長男功（いさお）（十歳）は勉強嫌いで成績悪く、昨年十二月より浄霊を続け、例祭日には必ず連れてお参りもしていますが、未だに変化ありませんが、この「痴呆症」は今後いかようにすれば治るものでしょうか、お尋ね致します。<br><br>因みに、私の家の納屋は裏鬼門に在り、本家の入口の東前方（南東）に古井戸があったのですが、今はつぶれて畑になっています。<br><br> 簡単には治らぬ。<br><br>相当時日がかかる。<br><br>低能的病気をした事はないか。<br><br> 頭に毒がある。<br><br>頭を中心に、頸の周りの塊を浄霊する。<br><br>本人が祝詞を奏げるようにすると、段々よくなる。<br><br>（S24.11. 7） 023 健忘症の原因 過去健忘症とは―― 頭脳中の記憶機能を打撲などで壊すのである。<br><br>浄霊で治る。<br><br> 024 健忘症 私は最近、非常に健忘症になったと云いましょうか、新聞、書籍等を読んでも内容が記憶出来なくなりましたが、これはどういう浄化で御座いましょうか。<br><br>御教示御願い申し上げます。<br><br> 頭へ毒が固まった。<br><br>自分でやればよい。<br><br>（S24. 8.23） 025 思考阻害 本を読んでいて、外の事に気が散って中々頭に入らない時が御座いますが、このような場合、何か邪霊が瞬間的に憑依するためでしょうか。<br><br>またそうした場合どうすれば精神統一が出来ますでしょうか。<br><br> 前頭部に熱のあるためである。<br><br>（S24. 9.13）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Medicina (Parte Um): Hemorragia Cerebral</h2>
 <p><strong>001 Calor na coroa da cabeça e o período de transição</strong></p>
@@ -327,5 +479,48 @@ Ademais, pessoas assim são frequentemente encontradas em famílias de classe m�
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（一） １ 001-025 脳溢血 001 脳天熱と転換期 最近の信者の浄霊を致しますと十人が十人とも脳天に熱があり、この現象は今迄に見られませんでしたが、これは現界の夜昼の転換期に現れたものと考えて宜しゅう御座居ましょうか。<br/><br/> 浄化が強くなって来たためである。<br/><br/> 今の人は実に頭がわるい。<br/><br/>（S23.11. 2） 002 頭高熱と体の変調 今年十一歳の男子ですが、二十年四月の空襲の際、火煙に取巻かれ、非常なおどろきの中を母の背におんぶしてその時は無事にすんだのですが、直後発熱四十度に及び、その後次第に体に変調を来し、非常に物事におびえ、恐がるようになりました。<br/><br/>当時は発音も不能となり、だんだん体に及び坂道などは登る時はよいのですが下る事が出来ず、動作も非常におくれております。<br/><br/>現在では一日二回程恐怖に襲われ、その顔面は誠に異様です。<br/><br/>発音はありますが、言葉はほとんどわかりません。<br/><br/> 右の理由と、御浄霊の方法を御教授御願い申し上げます。<br/><br/> 頭が非常に熱すると頭に変調を来す、そのためである。<br/><br/>根気よくやってると治る。<br/><br/>（S24. 6. 6） 003 脳溢血症状の重軽 六十二歳の女、以前脳溢血をやり、その後睡眠中以外は全身微痙攣が持続し、口及び両手が特にひどいのです。<br/><br/>当人の主人は酒癖がありまして非常に苦しめられ、なお、子供二人が服毒自殺と轢死を遂げております。<br/><br/>何の意味で痙攣が続くので御座居ましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 痙攣のある中風は一番重い。<br/><br/>痙攣が大きい程重い。<br/><br/>次に胸へ手をくっつけるのが重い。<br/><br/>次は、手を握って固くなっているのである。<br/><br/>治るに従い、手を開く。<br/><br/>（S24. 6.23） 004 脳溢血再発とは 六十二歳の女、五年ごしの中風で左半身がききませんのですが、昨年九月入信致しまして、御浄霊を頂き、鉄のような足も段々やわらかくなり、歩くのも随分楽になって参りまして、大変喜んでおります。<br/><br/>所が近頃、目が見えにくくなってきました事と、頭がもう一つはっきり致しませんので、以前の時と同じような気が致します。<br/><br/>本人はまた脳溢血になるのではないかと案じております。<br/><br/>一日一回は家族の者の浄霊を受けておりますが、浄霊を頂いておりましても再度脳溢血を起すような事も御座いましょうか。<br/><br/>お伺い致します。<br/><br/> この脳溢血は未だ残っていて、毒血が溶けて頭に残っている。<br/><br/>ある程度溶けて鼻汁や痰などになって出る。<br/><br/>先に固めて、その上に溜って浄化するから、医者では二度目、三度目の再発は危険だというのである。<br/><br/>（S25. 1.17） 005 中風症状の浄霊 信者黒須初太郎（六十歳）、昭和二十三年七月より中風状態の御浄化を頂き、医師の手当を受けておりましたが効果なく、翌二十四年十一月入信、同時に光明如来様御軸及び御屏風観音様を御奉斎させて頂き、朝夕御浄霊をさせて頂いておりますので大変精神的にお救い頂けて参りました。<br/><br/>今後の御浄霊方法を御教示頂きたく存じます。<br/><br/>右、何卒御垂示を御願い申し上げます。<br/><br/>なお当人の家は鹿島神宮の鳥居の近くに御座います。<br/><br/>宜敷く御守護を御願い申し上げます。<br/><br/> 右か左が利かぬ。<br/><br/>利かない方の耳下を主に手は腕の付根をする。<br/><br/>足は足の外部と頭をする。<br/><br/> 中風、脳溢血は顔が紅く、少し経つと青くなる。<br/><br/>故に中風などなく、立てない。<br/><br/>二、三日で治る。<br/><br/>風邪よりやさしい位である。<br/><br/>冷すから手間どる。<br/><br/>決して恐くないものである。<br/><br/>（S24. 1.28） 006 脳溢血、半身不随 当年五十歳の女、昭和十六年夏京都府下枚方町（ひらかたちょう）川勝家の法要の際、同家にて脳溢血を起し意識不明、三十五日目に余病併発等ありしも一命を取止め、今日に及ぶも右半身不随、頭脳、言語も人並ならず、発病以来八ケ年を経過致しました。<br/><br/>この人を約一ケ月前より御浄霊致しておりますが、不随部分は逐次温みを増して来ましたが、未だ捗々しくまいりません。<br/><br/> 右の霊的関係及び御浄霊法を御教示御願い致します。<br/><br/> 霊的ではない。<br/><br/>普通の脳溢血である。<br/><br/>八年間だから一ケ月や二ケ月で判らぬ。<br/><br/>気長にすれば段々良くなる。<br/><br/> 一番は頭である。<br/><br/>両頸部を溶かすと手が動いてくる。<br/><br/> 不随の反対の方もよく浄霊する。<br/><br/>（S24. 8.15） 007 中風再浄化の浄霊 私が浄霊させて戴いている中気の病人（五十二歳、男子）歩行困難でありましたが、御浄霊を二十四回程致しましたら一時は軽い仕事は出来るようになりました。<br/><br/>二ケ月程浄霊を止めましたらまた悪化し、三十四回程浄霊致しましたが効果ありません。<br/><br/>その妻は入信（本年八月）して毎日浄霊を致しておりますが、病人は大酒家で、遊び事や狩猟等を好み、相当遊んだ事もあります。<br/><br/>一度良くなって再浄化したのは何か訳がありましょうか。<br/><br/>今後いかに御導きしたらよいでしょうか。<br/><br/>御伺い致します。<br/><br/> 再浄化は大抵ある。<br/><br/>中風で重いようなのは入ってじきにやった位では治らぬ。<br/><br/>良くなっても浄霊をやめてはいけない。<br/><br/>妻君では無理である。<br/><br/>中風など良くなったり悪くなったり繰返してゆく。<br/><br/>中風の再浄化は大抵三、四回である。<br/><br/>それ以上にはわたらぬ。<br/><br/>（S24.10.27） 008 中風と便秘 中風病に罹った時二日目に便が出れば二年生きる、また三日目に便が出れば三年生きると云いますが、また女は右に男は左に出ると云いますが、霊的に関係が御座居ますか。<br/><br/>御教えを賜りたく御願い申し上げます。<br/><br/> 便は何でもない。<br/><br/>医学では中風と便と関係のあるように言うが、何等の関係もない。<br/><br/>病気が分らぬから末梢的の事を云々する。<br/><br/> 便秘は何等差支えはない。<br/><br/>いくら溜っても何でもないものである。<br/><br/>中風などは食が少いから便秘する。<br/><br/> 女は右、男は左――。<br/><br/>（S24. 5.22） 009 中風と赤ら顔・縮れ毛 本年五十四歳の男子、去年十月頃より中風状態になり、現在左手首が痛み、左手は堅く握っているような状態で御座居ます。<br/><br/>また、左足も不自由で歩行困難で御座います。<br/><br/>顔は一見赤ら顔で、頭髪は縮れ、猿のように見えます。<br/><br/>いかなるわけで御座居ましょうか。<br/><br/> 普通の中風症状である。<br/><br/>中風の人は赤ら顔が多い。<br/><br/> 頭の毒素は毛に影響する。<br/><br/>（S24. 6.29） 010 卒倒後肩・首・頭重し、シャックリ 六十三歳になる祖母、卒倒後身体不自由となり、シャックリが激しく（三十分位毎）出ます。<br/><br/>症状は肩、首、頭へかけて非常に重く、痛みを感じます。<br/><br/>浄霊の要点を御教示下さい。<br/><br/> 重い、痛い所をやればよい。<br/><br/>中風である。<br/><br/>シャックリは後頭部である。<br/><br/>シャックリは構わぬ。<br/><br/>早く治る。<br/><br/> 医者にかかるかからぬかで分れる。<br/><br/>医者へかからねば中風など治る。<br/><br/>自然でも治る。<br/><br/>（S *.11.15） 011 中風と菜食 一、会員（六十三歳の男子）、中風になり最初より御浄霊をさせて頂きましたが、最近右肩が痛み出し、非常に痰が出ておりますが、右手、左足は未だ不自由でございます。<br/><br/>全快致しましょうか。<br/><br/>なお御浄霊の急所はどこどこでございましょうか。<br/><br/> 二、中風患者の食事はやはり菜食が宜しいでしょうか。<br/><br/> 三、右の人は勿論その一家は皆熱心な信者でございますが、急に中風の御浄化を頂きました。<br/><br/>今迄熱心であっただけに多少の迷いを生じたかに見られますが、このような場合どのように指導させて頂いたら宜しいでしょうか。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 一、痰になり、出るだけ出ればよい。<br/><br/>急所は痛い所、または押してみて痛い所。<br/><br/>逆中気である。<br/><br/> 二、菜食がよい。<br/><br/>肉食は血が濃くなるから、中気が起りやすい。<br/><br/> 三、信者でない場合よりは軽く済む。<br/><br/>迷わずにやれば中風でも治る。<br/><br/>（S *.11.23） 012 逆中気（手足痙攣） 四十五歳位の男子、約四年前より右側の腕、脚が痙攣し出しました。<br/><br/>別に脳溢血になった事はないとの事ですが、現在昼夜共に同じように相当劇しく痙攣し、それと後頭部が重く凝る以外は大して異状はありません。<br/><br/>これは逆中気でしょうか。<br/><br/>また、御浄霊はどこを主（おも）にさせて頂いたら宜しいでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 逆中気である。<br/><br/>関節（肩の奥）の塊のため手が震える。<br/><br/>（S24.12.23） 013 逆中気の浄霊個所 愚妻、右手足にお浄化を戴き、右手は上げ下ろしは出来ますが、握力が出ませんが、いかが致しましたものでしょうか。<br/><br/>霊的に原因を御伺い申し上げます。<br/><br/> （足は普通、言葉はきける――） 逆中気である。<br/><br/>逆中気は割合い軽い。<br/><br/>気長にすれば治る。<br/><br/>多分、右の耳下、頸部をする。<br/><br/>その元は右の腎臓に塊がある。<br/><br/> 014 逆中気の浄霊個所の順序 六十三歳の男子、中風症状にて現在迄に約十四、五回浄霊致しました。<br/><br/>特異と思われる状態は、言語自由なるも、頭部より足先迄左側が悪く、一昨日頃より右腰も痛むようになりました。<br/><br/>やはり中風でありましょうか。<br/><br/>また、治るでしょうか。<br/><br/>本人の言によれば、約三十年前に潜水病にかかり失神し、一時は中風のごとき疾患になった事がありますが、その時は空気調節のみで癒ったとの事であります。<br/><br/> 逆中気である。<br/><br/>頭部を廻らずに同じ側に流れたものである。<br/><br/>気長にやれば治る。<br/><br/> 左腎臓を第一に、頸腺を第二、足の外側などをする。<br/><br/> 015 逆中気 三十三歳の男、十月二十日頃より中気に罹り、約一ケ月医療、その後浄霊を受けておりますが、大して変化ありません。<br/><br/>御浄霊にて足は少し動くようにして頂きましたが、力無く、手は全然動きません。<br/><br/>医者は梅毒から来たのだと申します。<br/><br/>どこを浄霊させて頂いたらよろしいでしょうか。<br/><br/>御教え御願い致します。<br/><br/>御守護御願い申し上げます。<br/><br/> 逆中気、脳溢血にならずに中気になった。<br/><br/>（S24.12.23） 016 逆中気 私の妻（七十二歳）、去年の十一月から神経痛を患い、三月下旬より御浄霊をして頂いております。<br/><br/>左の手足が全然ぶらぶらで、ききませんでしたのに、御浄霊後手足が動くようになりましたが、ここのところまた動きません。<br/><br/>腎臓がものすごく硬く、小水がほんの少ししか出ませんし、浣腸も相当にやりましたので大便も少ししか出ません。<br/><br/>私達一家一生懸命お縋り致しておりますが、なかなか良くして頂けません。<br/><br/>完全に治させて頂けましょうか。<br/><br/> 逆中気である。<br/><br/>（S24. 7.19） 017 高血圧の原因 高血圧を心配致す人がありますが、このお道の上からは問題ではないと存じますが、いかがでしょうか。<br/><br/> 耳下腺の横。<br/><br/>ただこれは脳溢血の腺である。<br/><br/>これを間違えて高血圧は脳溢血の原因という。<br/><br/>高血圧とはここから腕へ流れる。<br/><br/> 病原にはまずならぬが、扁桃腺が腫れたりなどして出れば何でもない。<br/><br/>脳溢血の発作はまず頭部を浄霊する。<br/><br/>（固まるから） 血圧――脳卒中は頸動脈の塊で、これは手へ流れる。<br/><br/>脳溢血は後ろである。<br/><br/> （S24. 9.13） 018 脳溢血と高血圧 四十四歳の女の信者、八月二十八日に入信致しました。<br/><br/>この信者、本年三月上旬胸が苦しくて医者にかかり、血圧を調べたところ二百八十と聞いて驚き、それ以来フラフラ状態でございます。<br/><br/>今度光明様におすがりして一心に信仰しております。<br/><br/>何卒御守護御願い致します。<br/><br/> これは何でもない。<br/><br/>顎下部が凝っているから、そこをよく浄霊する。<br/><br/> 血圧が高くなると脳溢血が起るというが、脳溢血は耳下腺に固結があるので、血圧は頸腺で、関係はない。<br/><br/>（S24. 9. 9） ―― ここの凝るのは血圧である。<br/><br/> 019 低能の真因と上流階級 頭脳の働き明瞭ならず、思考力、推理力等に乏しく、数学的に鈍感で、時々常識を欠き、俗に「八重」とか云う人は、 １、霊魂が若いでしょうか、 ２、憑依霊のためでしょうか、 ３、毒素に因り頭脳が回転しないのでしょうか。<br/><br/> 右のような人は往々に中流以上の家庭に多くみられ、両親は相当な教養のある人によく見受けますが、いかなる因果関係により現れるのでしょうか。<br/><br/> 頭に欠陥がある。<br/><br/>生れつき頭に欠陥があるのと、毒素が凝ったのとある。<br/><br/>大抵は後者で、毒素が多いので頭を触ると暖かい。<br/><br/>これが冷くなればはっきりする。<br/><br/>首筋にきっと塊があるからそれを除る。<br/><br/>上流は大事に育ち過ぎる。<br/><br/>子供のうちから大事に扱い、女中や乳母任せで、気の入れ方が違う。<br/><br/> 正月の祭祀――お供えに輪飾り、松と梅か竹を入れる位で、大して変らない。<br/><br/>（S23.12.22） 020 脳打撲による智能低下の小児 私の孫は昭和十五年八月二十七日生れで桐之と申します。<br/><br/>本年十歳になりましたが、未だに物がはっきり云えません。<br/><br/>「ジイチャン」「オバアチャン」「ウマイ」「ママ」等より外言葉が出ないのです。<br/><br/>それは三歳の時、机の上から落ちてミシン機の金具に頭をぶつけて一寸位切れましたので、医師に治療して戴き、ただ今では傷痕が残っているのみです。<br/><br/>この子供の父は終戦二十日前に戦死しております。<br/><br/>この子は耳は良く聞え、私達の云う事は大抵聞き分けます。<br/><br/>しかし乱暴で、近所の自分より年下の子供を見ると突然倒したり、または川に押し落し等するので困ります。<br/><br/>このような気質の子供はいかなる原因によるものでしょうか。<br/><br/>また、二年前より浄霊していますが変化ありません。<br/><br/>浄霊はどのようにしてやったら良いでしょうか。<br/><br/>私共夫婦は入信しておりますが、肝心の母は本教に入信していたのですが、中途で人からの中傷により反対するようになって、光明如来様は御祭りしておりますが、御用は思うように出来ません。<br/><br/>いかにしたら良いでしょうか、御教示願います。<br/><br/> 打った時、頭の智能的働きのものを破損したのである。<br/><br/>機能の欠損は年限と共に段々治るが、内出血の固まったのは浄霊で溶かせば治る。<br/><br/> しかし、母が信仰をやめるようではいけない。<br/><br/>母が一番熱心に信仰すべきである。<br/><br/>（S24. 9.25） 021 生来の智能低下の原因と浄霊 謹んで御伺い申し上げます。<br/><br/> 当年十一歳の男子、生れながら遺伝性の梅毒にて最初から眼に現われ、相当量の注射（白血球を増す注射）を受けまして、現在は丈夫になりましたが、智能減退病と診断せられ、未だ五歳位の智恵しかなく、単語は話せますが綴る事が出来ません。<br/><br/>身体は今のところ非常に丈夫です。<br/><br/>最近私が入信致しました。<br/><br/>浄霊を続けておりますが、この病気は治るでしょうか。<br/><br/>御伺い致します。<br/><br/> 治るが、生れつきか注射の毒かである。<br/><br/>前頭部の奥を出来るだけ浄霊する。<br/><br/>また後ろの頸筋もする。<br/><br/>年とるに従い治る。<br/><br/> 022 低能児の治癒日数 私の長男功（いさお）（十歳）は勉強嫌いで成績悪く、昨年十二月より浄霊を続け、例祭日には必ず連れてお参りもしていますが、未だに変化ありませんが、この「痴呆症」は今後いかようにすれば治るものでしょうか、お尋ね致します。<br/><br/>因みに、私の家の納屋は裏鬼門に在り、本家の入口の東前方（南東）に古井戸があったのですが、今はつぶれて畑になっています。<br/><br/> 簡単には治らぬ。<br/><br/>相当時日がかかる。<br/><br/>低能的病気をした事はないか。<br/><br/> 頭に毒がある。<br/><br/>頭を中心に、頸の周りの塊を浄霊する。<br/><br/>本人が祝詞を奏げるようにすると、段々よくなる。<br/><br/>（S24.11. 7） 023 健忘症の原因 過去健忘症とは―― 頭脳中の記憶機能を打撲などで壊すのである。<br/><br/>浄霊で治る。<br/><br/> 024 健忘症 私は最近、非常に健忘症になったと云いましょうか、新聞、書籍等を読んでも内容が記憶出来なくなりましたが、これはどういう浄化で御座いましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 頭へ毒が固まった。<br/><br/>自分でやればよい。<br/><br/>（S24. 8.23） 025 思考阻害 本を読んでいて、外の事に気が散って中々頭に入らない時が御座いますが、このような場合、何か邪霊が瞬間的に憑依するためでしょうか。<br/><br/>またそうした場合どうすれば精神統一が出来ますでしょうか。<br/><br/> 前頭部に熱のあるためである。<br/><br/>（S24. 9.13）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

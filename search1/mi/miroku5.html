@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>miroku5</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ミロクの真相 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 前項に述べたごとく、阿弥陀が月の弥勒であって、月光菩薩ともいわれ、釈迦は土の弥勒である。<br><br>この二大尊者が、その仏法を基本としての、伊都能売大神より委任せられたる、救世的活動は、すでに終りを告げている事である。<br><br>釈尊が、仏滅の世を予言せられた事は、今日において瞭（あきら）かになったのである。<br><br> 日の弥勒たる観音が、二千五百年、秘仏として、隠身的救いを垂れ、阿弥陀釈迦の下位に甘んぜられ給うていたのは、なぜであったのか、それは、夜の世界の期間であったからである。<br><br>物的太陽が地球の陰に在って、月に光を与えつつ、黎明期を待たるるのと同一の理である。<br><br>故に、今日まで月の阿弥陀が輝いていたのは、夜の世界であったからである。<br><br>夜の暗さは、悪の活動に便である事を考えたら、今日までの世界の悪者横行の歴史は解るはずである。<br><br> 今や黎明が来たのだ。<br><br>太陽が、日の弥勒が出たのである。<br><br>万界の暗を照破して、世界は、白昼のごとくならんとするのである。<br><br>その光の伝達機関として生れたのが、我観音運動である。<br><br> 五は火であり、日である。<br><br>六は水であり、月である。<br><br>七は土である。<br><br> 今日まで、七の弥勒たる、釈迦が説いた仏法を主とし、六の弥勒たる阿弥陀を次とし、五の弥勒たる、観音を、最下位としたのは、七六五の逆の順序であった。<br><br> 釈迦が予言した、五六七（ミロク）の世は、仏滅後となっている。<br><br>しからば、その仏滅までが、七六五であって仏滅後が五六七である訳である。<br><br>故に、七六五は、五六七の逆である。<br><br>即ち、逆さである。<br><br>言霊学上、釈迦はサカである。<br><br>釈迦の名も、この意味から出たのである。<br><br> 日の国人（くにびと）が土を又月を拝むと言う事は逆である。<br><br>東から西を拝むと言う事も、同じ理である。<br><br>しかしながら、夜の世界であった期間は致し方がない。<br><br>我日の本人が、外国文化を謳歌し、外国の神仏を讃仰したのも、相応の理であって、止むを得なかったのである。<br><br> 何の断りもなく、時が来れば、太陽は、東天静かに昇って行く、それは、物質的太陽であるから、誰人も見得るのである、が、霊的太陽は、悲しい哉、眼には視る事が出来ない、しかしながら、時の力は、世界万民に判らせずにはおかない、誰が否定しようが、遮（さえ）ぎろうが、物質の太陽は大空高く、昇ってゆく（ごと）く、霊的太陽の光は日に輝きを増すのである。<br><br>何と素晴らしい事ではあろう。<br><br>何千年間の夜が明けると言うのだ。<br><br> ここで、今一つ言わして貰おう、仏教の真髄は真如（しんにょ）であると釈尊が言われた、真如とは、真如の月の事である。<br><br>それは、悟りを得た瞬間、心の空は、皎々（こうこう）たる真如の月が照らすごとくだ、と、しかるに、その真如の月は、今や、有明の月となって、西山に舂（うすづ）き初めたのである。<br><br>仏教に力が無くなってゆくのはそれなのである。<br><br> 釈尊は、五六七の世は、五十六億七千万年後だと言ったからとて、呑気に澄ましている仏者がある。<br><br>考えてもみるがいい、その時から、僅（わずか）二千五百年経った今日でさえ、これ程の娑婆の変り方である。<br><br>何ぞ、五十六億七千万年後などという想像だも出来ない、遠い世を予言をする必要が、どこにあろうか、これこそ全く、五六七の謎を秘められたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre Miroku e a Transição para o Mundo do Dia</h2>
 <p>Conforme exposto anteriormente, Amida consubstancia o Miroku da Lua, sendo também conhecido como Bodisatva Gakko, ao passo que Shaka representa o Miroku da Terra. A missão salvífica desses dois grandes veneráveis, fundamentada em seus preceitos búdicos e delegada pela Divindade Izunome, já chegou ao seu término. Com efeito, a profecia de Shakyamuni sobre a era do declínio do budismo tornou-se manifesta em nossos dias.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Quando chega o momento, sem qualquer aviso prévio, o Sol ascende serenamente no céu oriental. Por ser o Sol físico, todos podem vê-lo. Contudo, o Sol espiritual, para nossa tristeza, não pode ser percebido pelos olhos. A força do tempo, no entanto, incumbir-se-á de revelá-lo a toda a humanidade. Por mais que tentem negá-la ou obstruí-la, assim como o Sol físico se eleva imponente no firmamento, a Luz do Sol espiritual aumenta seu brilho dia após dia. Que acontecimento sublime! A noite de milênios está enfim chegando ao seu alvorecer.</p>
 <p>Permitam-me acrescentar mais um ponto. Shakyamuni afirmou que a quintessência do budismo é o <em>shinnyo</em>. <em>Shinnyo</em> refere-se à Lua da Verdade Absoluta. No instante em que se atinge a iluminação, o céu da alma é banhado pelo brilho resplandecente dessa lua. Ocorre que essa mesma Lua da Verdade Absoluta transformou-se agora na pálida lua da alvorada e já começou a declinar sobre as montanhas do poente. Eis a razão pela qual o budismo vem perdendo sua força.</p>
 <p>Existem budistas que se mantêm passivos e despreocupados, apegando-se à ideia de que Shaka teria dito que o mundo de 5-6-7 chegaria somente após cinco bilhões, seiscentos e setenta milhões de anos. Ora, reflitamos. Nos meros dois mil e quinhentos anos que se passaram desde então, este mundo transitório já sofreu transformações profundas. Que necessidade haveria de se profetizar sobre um futuro tão remoto e inimaginável? Nisso reside, precisamente, o enigma oculto nos números cinco, seis e sete.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ミロクの真相 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 前項に述べたごとく、阿弥陀が月の弥勒であって、月光菩薩ともいわれ、釈迦は土の弥勒である。<br/><br/>この二大尊者が、その仏法を基本としての、伊都能売大神より委任せられたる、救世的活動は、すでに終りを告げている事である。<br/><br/>釈尊が、仏滅の世を予言せられた事は、今日において瞭（あきら）かになったのである。<br/><br/> 日の弥勒たる観音が、二千五百年、秘仏として、隠身的救いを垂れ、阿弥陀釈迦の下位に甘んぜられ給うていたのは、なぜであったのか、それは、夜の世界の期間であったからである。<br/><br/>物的太陽が地球の陰に在って、月に光を与えつつ、黎明期を待たるるのと同一の理である。<br/><br/>故に、今日まで月の阿弥陀が輝いていたのは、夜の世界であったからである。<br/><br/>夜の暗さは、悪の活動に便である事を考えたら、今日までの世界の悪者横行の歴史は解るはずである。<br/><br/> 今や黎明が来たのだ。<br/><br/>太陽が、日の弥勒が出たのである。<br/><br/>万界の暗を照破して、世界は、白昼のごとくならんとするのである。<br/><br/>その光の伝達機関として生れたのが、我観音運動である。<br/><br/> 五は火であり、日である。<br/><br/>六は水であり、月である。<br/><br/>七は土である。<br/><br/> 今日まで、七の弥勒たる、釈迦が説いた仏法を主とし、六の弥勒たる阿弥陀を次とし、五の弥勒たる、観音を、最下位としたのは、七六五の逆の順序であった。<br/><br/> 釈迦が予言した、五六七（ミロク）の世は、仏滅後となっている。<br/><br/>しからば、その仏滅までが、七六五であって仏滅後が五六七である訳である。<br/><br/>故に、七六五は、五六七の逆である。<br/><br/>即ち、逆さである。<br/><br/>言霊学上、釈迦はサカである。<br/><br/>釈迦の名も、この意味から出たのである。<br/><br/> 日の国人（くにびと）が土を又月を拝むと言う事は逆である。<br/><br/>東から西を拝むと言う事も、同じ理である。<br/><br/>しかしながら、夜の世界であった期間は致し方がない。<br/><br/>我日の本人が、外国文化を謳歌し、外国の神仏を讃仰したのも、相応の理であって、止むを得なかったのである。<br/><br/> 何の断りもなく、時が来れば、太陽は、東天静かに昇って行く、それは、物質的太陽であるから、誰人も見得るのである、が、霊的太陽は、悲しい哉、眼には視る事が出来ない、しかしながら、時の力は、世界万民に判らせずにはおかない、誰が否定しようが、遮（さえ）ぎろうが、物質の太陽は大空高く、昇ってゆく（ごと）く、霊的太陽の光は日に輝きを増すのである。<br/><br/>何と素晴らしい事ではあろう。<br/><br/>何千年間の夜が明けると言うのだ。<br/><br/> ここで、今一つ言わして貰おう、仏教の真髄は真如（しんにょ）であると釈尊が言われた、真如とは、真如の月の事である。<br/><br/>それは、悟りを得た瞬間、心の空は、皎々（こうこう）たる真如の月が照らすごとくだ、と、しかるに、その真如の月は、今や、有明の月となって、西山に舂（うすづ）き初めたのである。<br/><br/>仏教に力が無くなってゆくのはそれなのである。<br/><br/> 釈尊は、五六七の世は、五十六億七千万年後だと言ったからとて、呑気に澄ましている仏者がある。<br/><br/>考えてもみるがいい、その時から、僅（わずか）二千五百年経った今日でさえ、これ程の娑婆の変り方である。<br/><br/>何ぞ、五十六億七千万年後などという想像だも出来ない、遠い世を予言をする必要が、どこにあろうか、これこそ全く、五六七の謎を秘められたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

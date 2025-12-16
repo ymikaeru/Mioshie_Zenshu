@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei177</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』177号、昭和27(1952)年10月8日発行 某月某日 『今日は…』と入って来た北山のお婆さんの顔を見た途端、チェッと舌打ちしたい気持だった。<br><br>また長がながと愚痴を聞かされ、大事な時間を無駄にさせる辛さ、無念さは、現在の私のような寸暇を惜しむ境遇にある者でなければ解って貰えない。<br><br>もともとお道に入る前から私は子供と年寄りが好きで老人の還えらぬ愚痴話を聞く相手を勤める事も、それ程迷惑だとは思わなかった。<br><br>老人の愚痴はいわば風呂に入って垢を落すようなもので、聞く私の方も耳から耳へと聞き流し、欠伸まじりに、ときどきンンと合槌を打つ。<br><br>これも年寄りへの一つの功徳だ。<br><br>と思っていたからだ、ところが、このお道に入ってから『愚痴をこぼせば、こぼれる』という諺のように言霊の働きの玄妙さを識ってから、自分も愚痴を云わぬかわり、他人から愚痴を聴かされるのも大嫌いになったのであった。<br><br> 『槐安さん。<br><br>うちにはチットモ御利益や奇蹟はないが、どうゆう訳だろうね』お婆さんの質問は、いつも単刀直入だ。<br><br>また始めたな悪い癖だ。<br><br>と私は腹の中で呟やいた。<br><br>この人は信者であるが教会へも滅多に行った事もなく、会員にもなっていず、本部への御参拝はなおさらの事である。<br><br>それでも浄化の時だけは近所の同信の方にお浄霊を願ったり、組し易し、と見てか私の家へ来たりする。<br><br>その度ごとに老いの愚痴である。<br><br>教会の先生も半ば匙を投げた恰好ときいていた。<br><br> 『お婆さん、御利益がない、というのは変だね、私なんか御利益のない日は一日もないがね、お浄化はあるんでしょう。<br><br>それを浄霊で治して戴く、それだけでも大変な御利益だし、それを奇蹟とも云えるでしょう。<br><br>それともお婆さんの願う御利益というのは、毎朝目が覚めると枕元に一万円ずつも神様が運こんで置いてくれる事かね』『なーに、毎日一万円だなんて、そんなにはいらないがね』お婆さんは、今にも私が財布を出すかのように思ったらしく膝を乗り出したのが可笑しかった。<br><br> 『奇蹟や御利益というものは、信じる人の真心に感応して、神様が下さるのが普通の場合で、信のないとこに御利益はない。<br><br>とも云える。<br><br>一体、日本人には妙な信心の仕方があってビタ銭一枚を賽銭箱に投げ込み、家内安全、商売繁昌、天災地変から遁れさせ拾えと注文する欲だけで固った神信心がある。<br><br>出すものは最少限、お願いは最大限の無上を願う。<br><br>実に身勝手な量見だ』日頃の心掛けのほどを知っているだけに、隣みと呆れ、可笑しさと憤りとが織り交り、つい私の悪い癖である、荒っぽい言葉が口を衝いて出る『御利益や奇蹟が、どうして、どうゆう人にあるのか、つい先日その人たちから直接聴いた話があるから、それをお話しよう』私は記憶の糸をたぐりながら話を進めた。<br><br> 将棋の駒で名高い天童の町が温泉地であるというのはつい先日知ったばかりだ。<br><br>ここには十数軒の温泉旅館軒をならべているが、このうちで一番湯量が豊富、客も多いのは、『あづま湯』と云って信者の高橋さんが経営している旅館である。<br><br>高橋さんが経営者となるまでのこの旅館は、客もすくなくて採算がとれず、いわば旅館のうちでも下等の部に属していたそうであった。<br><br>高橋さんはこの旅館の跡とりであったが、家業を手伝わずに県庁に勤め、二十年間奉職しているうちに胸を思いそれが浄霊で全快し、父母も逝くなったので家業を継いだという。<br><br>二階の座敷に光明如来様を奉祀してから入湯の客も漸次ふえ経営も楽になったとき、近所の旅館主五人と共同で新らたに温泉の湯脈を掘りに掛かった。<br><br>充分に調査した上で発掘工事に取りかかったのだが失敗し、二度目のそれもまた失敗に終った。<br><br>三本目に取りかかったがこれも出ない。<br><br>その時、高橋さんは、そうだ…神様にお願いしてと思い一生懸命に浄霊したところ、この人の信の力に呼応するが如くに湯が湧きだした。<br><br>しかもこの湯は神様の御加護で、湯量の豊富なことは天童第一だそうである。<br><br>この豊富な湯量に力を得て大きなローマ風呂を新設し、これがまた評判となって湯治客がふえ、客の多いことも第一になった。<br><br>そして現在、施工中の新館は総二階、百数十坪の立派なもので、式場に使う二階の大広間は、熱海咲見町の御神殿を、やや、小さく摸したもののように思えた。<br><br> この土地のメシヤ教の支部として、高橋さんは一間を教師に提供し、先生に御自由に使って戴きます。<br><br>と、私に語った。<br><br> 信の深さに比例した、無量無辺の大威徳である。<br><br>と感じ入ると共に、この方のように筆を執る事が不得手なために、栄光や地上天国に発表されない、いわば隠れたお蔭語が、全国に沢山あることにも改めて気が付いたのであった。<br><br> 御利益や奇蹟のお蔭話も日常の生活面から拾えば、実に数限りない事は次の信者の一例からでも窺える。<br><br> 秋田県大曲の町で魚屋を営む清水さんも真面目な信者であるが、この人の商売道具の一つである大きな冷蔵庫は、氷の溶け方が少い。<br><br>なぜ同じ目方の氷があんなに長く保つのか？と氷屋が不審に思い、今では近所の話題にさえなっている。<br><br>なかには、氷の溶けない秘訣があるのか？と訊きにくる人もあるが、別に秘訣などはなく、ただ氷を入れる時浄霊するだけです。<br><br>と云うが、信者でない人は『こっそり、何かの薬を使うのだろう』と信じない。<br><br> 氷とは反対に、練炭を燃すとき浄霊すると、三、四時間もなが保ちし、火力も強くなる、という事はたいがいの信者が実験済みだ。<br><br>私のうちは、食べ盛りの男の子が三人いて、毎月一斗近く配給以外の米を買っていたが、炊くとき浄霊するお蔭で炊きぶえして腹もちも良く、今では二、三升も買えばこと足りる。<br><br>これを金銭に替えて計算すれば、長い間では相当な金高にのぼる。<br><br> 高橋さんのように、浄霊で温泉が出たようなことは誰にも望める事ではないが浄霊したら井戸水が湧き出した。<br><br>という御神徳に浴した人は相当いる。<br><br>奇蹟に馴れ、奇蹟を奇蹟とも思わず今ではあたりまえの事とさえ思いがちであるが、信者の生活は日々是奇蹟であろう。<br><br> 『お婆さん。<br><br>奇蹟や御利益は、このように誰でも戴けるという事が解ったでしよう。<br><br>曇りになるばかりの愚痴をこぼしたり、神様に不服を云ったりせず毎日を無事に過させて貰っている事に感謝して、行きさきに希望を持って明るく生きてゆく事が何より大切でしょう。<br><br>一つ一つの御利益や奇蹟を数えて喜ぶより、私が何にも増して有難い。<br><br>と思っていることは、神様を信じ切って生きているこの安心さです。<br><br>安心。<br><br>というこの御利益こそ、幾千万億の金でも買えない大きな値うちで、これがある為にメシヤ教へ入信した有難さが、泌みじみと思われるのです。<br><br>お婆さんも気持ちを替えて教会へ行き、先生のお話しを良く聴いて、信者としての勤めを果すことから先にして御覧なさい』と話を結んだ。<br><br> 『紙上を藉りて』 槐安と名乗って信者さんの家を訪れる者がいて、その被害は九州から東北にまで及んでいます。<br><br>本部へ御参拝のとき、二回に亘って御参拝の方々に御注意下さったにも関わらず、まだ偽者が歩いて居るそうです。<br><br>浄霊日記を読んで下されば解るとおり、本物の槐安は無精者で、よくよくの場合以外、座談会へ出席を求められても、断わって居ります。<br><br>座談会へ出る場合も、中教会、教会の先生に指定された日時に先生と共に出席し、未知の信者の方の家へ行く事などありません。<br><br>まして品物の斡旋など頼まれても出来ず信者に金銭を無心するなど金輪際出来る人間ではありません。<br><br> にせ者に瞞されぬように御注意下さい。<br><br> 本物の槐安 敬白
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência do Milagre Divino</h2>
 <p><em>Kaiansei, Revista Eikô, nº 177, 8 de outubro de 1952</em></p>
@@ -121,5 +273,48 @@ function toggleLang(lang) {
 <p>Rogo a todos que redobrem a atenção para não serem ludibriados por este estelionatário.</p>
 <p>Respeitosamente,
 O verdadeiro Kaiansei</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』177号、昭和27(1952)年10月8日発行 某月某日 『今日は…』と入って来た北山のお婆さんの顔を見た途端、チェッと舌打ちしたい気持だった。<br/><br/>また長がながと愚痴を聞かされ、大事な時間を無駄にさせる辛さ、無念さは、現在の私のような寸暇を惜しむ境遇にある者でなければ解って貰えない。<br/><br/>もともとお道に入る前から私は子供と年寄りが好きで老人の還えらぬ愚痴話を聞く相手を勤める事も、それ程迷惑だとは思わなかった。<br/><br/>老人の愚痴はいわば風呂に入って垢を落すようなもので、聞く私の方も耳から耳へと聞き流し、欠伸まじりに、ときどきンンと合槌を打つ。<br/><br/>これも年寄りへの一つの功徳だ。<br/><br/>と思っていたからだ、ところが、このお道に入ってから『愚痴をこぼせば、こぼれる』という諺のように言霊の働きの玄妙さを識ってから、自分も愚痴を云わぬかわり、他人から愚痴を聴かされるのも大嫌いになったのであった。<br/><br/> 『槐安さん。<br/><br/>うちにはチットモ御利益や奇蹟はないが、どうゆう訳だろうね』お婆さんの質問は、いつも単刀直入だ。<br/><br/>また始めたな悪い癖だ。<br/><br/>と私は腹の中で呟やいた。<br/><br/>この人は信者であるが教会へも滅多に行った事もなく、会員にもなっていず、本部への御参拝はなおさらの事である。<br/><br/>それでも浄化の時だけは近所の同信の方にお浄霊を願ったり、組し易し、と見てか私の家へ来たりする。<br/><br/>その度ごとに老いの愚痴である。<br/><br/>教会の先生も半ば匙を投げた恰好ときいていた。<br/><br/> 『お婆さん、御利益がない、というのは変だね、私なんか御利益のない日は一日もないがね、お浄化はあるんでしょう。<br/><br/>それを浄霊で治して戴く、それだけでも大変な御利益だし、それを奇蹟とも云えるでしょう。<br/><br/>それともお婆さんの願う御利益というのは、毎朝目が覚めると枕元に一万円ずつも神様が運こんで置いてくれる事かね』『なーに、毎日一万円だなんて、そんなにはいらないがね』お婆さんは、今にも私が財布を出すかのように思ったらしく膝を乗り出したのが可笑しかった。<br/><br/> 『奇蹟や御利益というものは、信じる人の真心に感応して、神様が下さるのが普通の場合で、信のないとこに御利益はない。<br/><br/>とも云える。<br/><br/>一体、日本人には妙な信心の仕方があってビタ銭一枚を賽銭箱に投げ込み、家内安全、商売繁昌、天災地変から遁れさせ拾えと注文する欲だけで固った神信心がある。<br/><br/>出すものは最少限、お願いは最大限の無上を願う。<br/><br/>実に身勝手な量見だ』日頃の心掛けのほどを知っているだけに、隣みと呆れ、可笑しさと憤りとが織り交り、つい私の悪い癖である、荒っぽい言葉が口を衝いて出る『御利益や奇蹟が、どうして、どうゆう人にあるのか、つい先日その人たちから直接聴いた話があるから、それをお話しよう』私は記憶の糸をたぐりながら話を進めた。<br/><br/> 将棋の駒で名高い天童の町が温泉地であるというのはつい先日知ったばかりだ。<br/><br/>ここには十数軒の温泉旅館軒をならべているが、このうちで一番湯量が豊富、客も多いのは、『あづま湯』と云って信者の高橋さんが経営している旅館である。<br/><br/>高橋さんが経営者となるまでのこの旅館は、客もすくなくて採算がとれず、いわば旅館のうちでも下等の部に属していたそうであった。<br/><br/>高橋さんはこの旅館の跡とりであったが、家業を手伝わずに県庁に勤め、二十年間奉職しているうちに胸を思いそれが浄霊で全快し、父母も逝くなったので家業を継いだという。<br/><br/>二階の座敷に光明如来様を奉祀してから入湯の客も漸次ふえ経営も楽になったとき、近所の旅館主五人と共同で新らたに温泉の湯脈を掘りに掛かった。<br/><br/>充分に調査した上で発掘工事に取りかかったのだが失敗し、二度目のそれもまた失敗に終った。<br/><br/>三本目に取りかかったがこれも出ない。<br/><br/>その時、高橋さんは、そうだ…神様にお願いしてと思い一生懸命に浄霊したところ、この人の信の力に呼応するが如くに湯が湧きだした。<br/><br/>しかもこの湯は神様の御加護で、湯量の豊富なことは天童第一だそうである。<br/><br/>この豊富な湯量に力を得て大きなローマ風呂を新設し、これがまた評判となって湯治客がふえ、客の多いことも第一になった。<br/><br/>そして現在、施工中の新館は総二階、百数十坪の立派なもので、式場に使う二階の大広間は、熱海咲見町の御神殿を、やや、小さく摸したもののように思えた。<br/><br/> この土地のメシヤ教の支部として、高橋さんは一間を教師に提供し、先生に御自由に使って戴きます。<br/><br/>と、私に語った。<br/><br/> 信の深さに比例した、無量無辺の大威徳である。<br/><br/>と感じ入ると共に、この方のように筆を執る事が不得手なために、栄光や地上天国に発表されない、いわば隠れたお蔭語が、全国に沢山あることにも改めて気が付いたのであった。<br/><br/> 御利益や奇蹟のお蔭話も日常の生活面から拾えば、実に数限りない事は次の信者の一例からでも窺える。<br/><br/> 秋田県大曲の町で魚屋を営む清水さんも真面目な信者であるが、この人の商売道具の一つである大きな冷蔵庫は、氷の溶け方が少い。<br/><br/>なぜ同じ目方の氷があんなに長く保つのか？と氷屋が不審に思い、今では近所の話題にさえなっている。<br/><br/>なかには、氷の溶けない秘訣があるのか？と訊きにくる人もあるが、別に秘訣などはなく、ただ氷を入れる時浄霊するだけです。<br/><br/>と云うが、信者でない人は『こっそり、何かの薬を使うのだろう』と信じない。<br/><br/> 氷とは反対に、練炭を燃すとき浄霊すると、三、四時間もなが保ちし、火力も強くなる、という事はたいがいの信者が実験済みだ。<br/><br/>私のうちは、食べ盛りの男の子が三人いて、毎月一斗近く配給以外の米を買っていたが、炊くとき浄霊するお蔭で炊きぶえして腹もちも良く、今では二、三升も買えばこと足りる。<br/><br/>これを金銭に替えて計算すれば、長い間では相当な金高にのぼる。<br/><br/> 高橋さんのように、浄霊で温泉が出たようなことは誰にも望める事ではないが浄霊したら井戸水が湧き出した。<br/><br/>という御神徳に浴した人は相当いる。<br/><br/>奇蹟に馴れ、奇蹟を奇蹟とも思わず今ではあたりまえの事とさえ思いがちであるが、信者の生活は日々是奇蹟であろう。<br/><br/> 『お婆さん。<br/><br/>奇蹟や御利益は、このように誰でも戴けるという事が解ったでしよう。<br/><br/>曇りになるばかりの愚痴をこぼしたり、神様に不服を云ったりせず毎日を無事に過させて貰っている事に感謝して、行きさきに希望を持って明るく生きてゆく事が何より大切でしょう。<br/><br/>一つ一つの御利益や奇蹟を数えて喜ぶより、私が何にも増して有難い。<br/><br/>と思っていることは、神様を信じ切って生きているこの安心さです。<br/><br/>安心。<br/><br/>というこの御利益こそ、幾千万億の金でも買えない大きな値うちで、これがある為にメシヤ教へ入信した有難さが、泌みじみと思われるのです。<br/><br/>お婆さんも気持ちを替えて教会へ行き、先生のお話しを良く聴いて、信者としての勤めを果すことから先にして御覧なさい』と話を結んだ。<br/><br/> 『紙上を藉りて』 槐安と名乗って信者さんの家を訪れる者がいて、その被害は九州から東北にまで及んでいます。<br/><br/>本部へ御参拝のとき、二回に亘って御参拝の方々に御注意下さったにも関わらず、まだ偽者が歩いて居るそうです。<br/><br/>浄霊日記を読んで下されば解るとおり、本物の槐安は無精者で、よくよくの場合以外、座談会へ出席を求められても、断わって居ります。<br/><br/>座談会へ出る場合も、中教会、教会の先生に指定された日時に先生と共に出席し、未知の信者の方の家へ行く事などありません。<br/><br/>まして品物の斡旋など頼まれても出来ず信者に金銭を無心するなど金輪際出来る人間ではありません。<br/><br/> にせ者に瞞されぬように御注意下さい。<br/><br/> 本物の槐安 敬白</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

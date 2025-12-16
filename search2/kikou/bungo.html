@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bungo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 文豪教主 Ｋ・Ｋ生 自観教祖の妙智力 作家も驚くほどの筆力 『救世』56号、昭和25(1950)年4月1日発行 むかしから一宗の開祖たる人はもちろん文筆において非凡な技能をもっていたことはいうまでもないが、しかしわれわれの知識範囲内では岡田自観教主ほどの筆力とその豊富な文才を有している宗教家を見たことも、また聞いたこともない、こんにち日本人にもよく親しまれているキリストの聖書にしてもマタイ、マルコ、ルカ、ヨハネ、パウロというようなイエス側近の聖者多数によってつくられたものであることは既に承知の通りである、仏教では経文というような概念的なもので用を足しているからそこにむずかしい経綸など必要はない、強いてこれを理論づけているのは「御説教」である、もっとも近来の新宗教のうち一つ二つは非常に宏遠な理想を説いているが、これも結論へゆくとボケてしまう、それはあまりにも哲学的でありすぎ社会の現実相から遊離遁走しているからである、かつて一世を風靡した大本教の所説も最後には世に容れられないものとなった、出口王仁三郎という人もなかなか文才があったようで、相当の文献を残しているが、しかしその文字は後世まで人間社会の機微をとらえるに至らなかったようだ、それに引き換え、いく多の変遷はあったが、ながい道程を歩いてきた本教ほど文運さかんなるものは他に類例をみない、この文運つきないところに本教の著しい特徴があるのだが衰えることなき筆勢はすべて自観教祖の筆一本にかかってきたことを改めて考えてみた人があるだらうか、なんというながいあいだの筆の闘いだったろう、三十八才、天の使命を知って信仰生活に入り、こんにちまでおよそ三十年、一日として筆を擱くことをしなかったこの偉大な業績をたんに神技という言葉だけでは表現できぬものがある。<br><br> 私等のごとき浅学非才なものは自観教主の神秘性の片鱗さえ窺うに足りないが本紙「光」から「救世」への一年有余のホンの短い時間において窺知したことだけでも、悉く驚異の二字につきるのである、いま本紙の編集業務にたずさわっている人達はいずれも東京三大新聞のどれかに育ってきたいわば生粋のジャーナリストであり、それ相当にペンにおいては自信をもっている連中だが、いかにせん、本紙に関してのみはその自信はどうやらおかしくなってきたらしい、というのは、折角、新聞をつくるのだから、それぞれの抱負や経綸を大いに紙面に躍如たらしめたいところであるが、自観教主の原稿が熱海から送られてきて、それを整理しているうちに、じぷん達のかんがえていることが、さらに美しく、そして深く言及され、説きつくされて、全くこちらのかんがえなど寸分も入り込む余地がないのである、いつも「またシテやられた」と勢いこんだペンを机上に抛つより術がない、まことにこの嘆声がもう一年以上もつづけられてきた、大新聞記者の面子も、自惚も、教主の一片の原稿でこなごなになって無残にも「クヅ籠」へ顛落するの悲運を喞（かこ）っておることをはじめて告白する苦衷は若者諸君にはわかって貰えると思う、こんなことを書いたらあとで私が当の本人から叱られるかもしれないが、先般本紙に連載された作家岩崎栄氏のお同いロマンス「二人袴」のお答えを教主にお願いしたところ、ある程度のテーマだけ頂き「あとは作者において然るべき結論を与えた方がおもしろからん」というお話、そこで作者においてそのテーマにもとづき適当にお答えをものして、こちらは自信満々校正刷りを御覧にいれたら、予期に反し、その答えは教主の意図とだいぶ相違し、ついに自ら御答えを原稿にされた、それが例の「教主御答え」である、それはよいとしても、岩崎氏は作家である、面目問題もあるがところが当の岩崎氏が、そのお答え原稿をみて「こりゃ、シテやられた」と嘆声しばし、そして曰く「いや、教主は大なる小説家でもある」 教主の多角牲はいまさら論するに当らないが「信仰雑話」やその他数十篇にわたろうという自観叢書のうちの信仰問題はとうてい最近の宗教家の匹敵するところではないが、しかし政治、経済、芸術、教育、美術等々、人事百般にわたる造けいの深さにはなん人も舌を巻いている、ずいぷん政治家や財界人が教主の門をたたくが、誰一人、その所論に感服せぬものはないときく、それらの該博な感懐が玲瓏泉の如く大文章となって湧き出てくるのであるが、それにしても、この一年間、毎号本紙の大部分のスペースをかざった硬、軟とりどりの言説は近世宗教史上に一エポックを画したものといえよう、むずかしい理論はもちろん必要としないが、しかし理論的な基礎の上に立たねば砂上の楼閣にひとしい、本教の論理は神示による教主の論理で一さいが組み立てられ、推進されてゆく、しかも、架空の論議などに道草などくっていないところに、また幽玄にして、絶対的な本教の性格が顕揚されているのである、わが国でも傑出Lた文豪はないでもなかったが、その多くはたんなる芸術的な雰囲気のなかに生きてきたにすぎない、教主の場合は人類救済の大業か行いつゝ、なおかつ大芸術を創造しつゝある、そしてその芸術のなかには生命が躍動している、救世文豪教主というもけっして過言ではない、それは号をおうこと六十回に近い本紙の大記事、そして雑誌「地上天国」その他の出版物をみただけでも即座に諒解でき得よう、なんぴとも為し得ぬ仕事を成しとげるところに神人同一の教主の特異性があるのであり、こんごともその面目は一だんと光彩を放つであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Genialidade Literária de Meishu-Sama</h2>
 <p>É notório que os fundadores de doutrinas religiosas, desde tempos imemoriais, possuíam habilidades literárias extraordinárias. Contudo, em toda a nossa experiência, jamais testemunhamos ou sequer ouvimos falar de um líder espiritual que se iguale à maestria e à prodigiosa verve literária de Meishu-Sama. A própria Bíblia, tão familiar aos japoneses de hoje, foi compilada por múltiplos discípulos próximos a Jesus, como Mateus, Marcos, Lucas, João e Paulo, um fato amplamente conhecido. No budismo, por sua vez, a transmissão dos ensinamentos contenta-se com os sutras, de natureza conceitual, não havendo, portanto, a necessidade de complexas exposições doutrinárias; quando se busca uma abordagem mais teórica, recorre-se aos sermões. Mesmo entre as novas religiões contemporâneas, embora uma ou duas apresentem ideais de grande envergadura, suas conclusões tendem a ser vagas, pois se perdem em abstrações filosóficas e se distanciam da realidade social. Os escritos da Oomoto-kyo, que em certa época cativaram o país, acabaram por não ser aceitos pela sociedade. Seu líder, Onisaburo Deguchi, era reconhecido por seu talento, legando uma vasta obra escrita; todavia, seus textos não lograram capturar as sutilezas da sociedade humana de forma a perdurar através das gerações.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Talvez eu seja repreendido por revelar isto, mas ilustra bem o que digo. Recentemente, solicitamos a Meishu-Sama que oferecesse uma conclusão para o romance “Futari-bakama” (二人袴), do escritor Iwasaki Sakae, que estava sendo publicado em série no jornal. Ele nos forneceu o tema central, sugerindo: “Seria mais interessante que o próprio autor elaborasse uma conclusão adequada”. Assim, o romancista redigiu o final com base nessa diretriz e, com plena confiança, apresentamos a prova para Sua revisão. Contrariando nossas expectativas, a conclusão divergia consideravelmente da intenção do Mestre, que, por fim, decidiu escrever pessoalmente o desfecho. Este se tornou a famosa “Resposta do Mestre”. Para além da questão profissional — afinal, Iwasaki é um romancista consagrado —, o próprio autor, ao ler o manuscrito, exclamou, após um longo suspiro de admiração: “Fui completamente superado! O Mestre é também um grande romancista”.</p>
 <p>A versatilidade de Meishu-Sama dispensa maiores comentários. Sua profunda erudição abarca não apenas temas da fé, como os abordados na Coletânea Jikan (自観叢書) e em dezenas de outros textos, em um nível inalcançável para os religiosos de hoje, mas se estende por todas as esferas da atividade humana: política, economia, arte, educação, belas-artes, entre outras. Todos ficam maravilhados com sua sabedoria. Ouvimos dizer que, dos inúmeros políticos e empresários que o procuram, não há um sequer que não se curve em admiração diante de seus argumentos. Toda essa vasta sabedoria brota em forma de magníficos textos, como água cristalina de uma fonte inesgotável. Com efeito, os artigos de Meishu-Sama, de teor ora denso, ora leve, que ilustraram a maior parte das páginas deste jornal ao longo do último ano, podem ser considerados um marco na história religiosa moderna.</p>
 <p>Embora dispensando teorias complexas, Sua lógica não é um castelo de areia; ao contrário, fundamenta-se em uma base sólida. A lógica da nossa Igreja é a lógica de Meishu-Sama, estruturada e impulsionada inteiramente pela Revelação Divina. Ademais, ela não se desvia por discussões hipotéticas, o que realça o caráter sublime e absoluto de nossa doutrina. Nosso país já teve literatos notáveis, mas a maioria viveu imersa apenas em uma atmosfera artística. O caso de Meishu-Sama é distinto: ele conduz a magna obra de salvação da humanidade e, simultaneamente, cria uma grande arte. Uma arte na qual a própria vida pulsa. Portanto, a designação “Mestre Literato e Salvador” não é, de forma alguma, um exagero. Basta examinar os artigos que preencheram as páginas de quase sessenta edições deste jornal, ou as revistas <em>Paraíso Terrestre</em> e demais publicações, para que isso se torne imediatamente compreensível. Sua singularidade, como Mestre que personifica a união entre o Divino e o humano, reside precisamente em realizar o que ninguém mais seria capaz. E, daqui em diante, essa faceta de sua identidade brilhará com um esplendor ainda mais intenso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 文豪教主 Ｋ・Ｋ生 自観教祖の妙智力 作家も驚くほどの筆力 『救世』56号、昭和25(1950)年4月1日発行 むかしから一宗の開祖たる人はもちろん文筆において非凡な技能をもっていたことはいうまでもないが、しかしわれわれの知識範囲内では岡田自観教主ほどの筆力とその豊富な文才を有している宗教家を見たことも、また聞いたこともない、こんにち日本人にもよく親しまれているキリストの聖書にしてもマタイ、マルコ、ルカ、ヨハネ、パウロというようなイエス側近の聖者多数によってつくられたものであることは既に承知の通りである、仏教では経文というような概念的なもので用を足しているからそこにむずかしい経綸など必要はない、強いてこれを理論づけているのは「御説教」である、もっとも近来の新宗教のうち一つ二つは非常に宏遠な理想を説いているが、これも結論へゆくとボケてしまう、それはあまりにも哲学的でありすぎ社会の現実相から遊離遁走しているからである、かつて一世を風靡した大本教の所説も最後には世に容れられないものとなった、出口王仁三郎という人もなかなか文才があったようで、相当の文献を残しているが、しかしその文字は後世まで人間社会の機微をとらえるに至らなかったようだ、それに引き換え、いく多の変遷はあったが、ながい道程を歩いてきた本教ほど文運さかんなるものは他に類例をみない、この文運つきないところに本教の著しい特徴があるのだが衰えることなき筆勢はすべて自観教祖の筆一本にかかってきたことを改めて考えてみた人があるだらうか、なんというながいあいだの筆の闘いだったろう、三十八才、天の使命を知って信仰生活に入り、こんにちまでおよそ三十年、一日として筆を擱くことをしなかったこの偉大な業績をたんに神技という言葉だけでは表現できぬものがある。<br/><br/> 私等のごとき浅学非才なものは自観教主の神秘性の片鱗さえ窺うに足りないが本紙「光」から「救世」への一年有余のホンの短い時間において窺知したことだけでも、悉く驚異の二字につきるのである、いま本紙の編集業務にたずさわっている人達はいずれも東京三大新聞のどれかに育ってきたいわば生粋のジャーナリストであり、それ相当にペンにおいては自信をもっている連中だが、いかにせん、本紙に関してのみはその自信はどうやらおかしくなってきたらしい、というのは、折角、新聞をつくるのだから、それぞれの抱負や経綸を大いに紙面に躍如たらしめたいところであるが、自観教主の原稿が熱海から送られてきて、それを整理しているうちに、じぷん達のかんがえていることが、さらに美しく、そして深く言及され、説きつくされて、全くこちらのかんがえなど寸分も入り込む余地がないのである、いつも「またシテやられた」と勢いこんだペンを机上に抛つより術がない、まことにこの嘆声がもう一年以上もつづけられてきた、大新聞記者の面子も、自惚も、教主の一片の原稿でこなごなになって無残にも「クヅ籠」へ顛落するの悲運を喞（かこ）っておることをはじめて告白する苦衷は若者諸君にはわかって貰えると思う、こんなことを書いたらあとで私が当の本人から叱られるかもしれないが、先般本紙に連載された作家岩崎栄氏のお同いロマンス「二人袴」のお答えを教主にお願いしたところ、ある程度のテーマだけ頂き「あとは作者において然るべき結論を与えた方がおもしろからん」というお話、そこで作者においてそのテーマにもとづき適当にお答えをものして、こちらは自信満々校正刷りを御覧にいれたら、予期に反し、その答えは教主の意図とだいぶ相違し、ついに自ら御答えを原稿にされた、それが例の「教主御答え」である、それはよいとしても、岩崎氏は作家である、面目問題もあるがところが当の岩崎氏が、そのお答え原稿をみて「こりゃ、シテやられた」と嘆声しばし、そして曰く「いや、教主は大なる小説家でもある」 教主の多角牲はいまさら論するに当らないが「信仰雑話」やその他数十篇にわたろうという自観叢書のうちの信仰問題はとうてい最近の宗教家の匹敵するところではないが、しかし政治、経済、芸術、教育、美術等々、人事百般にわたる造けいの深さにはなん人も舌を巻いている、ずいぷん政治家や財界人が教主の門をたたくが、誰一人、その所論に感服せぬものはないときく、それらの該博な感懐が玲瓏泉の如く大文章となって湧き出てくるのであるが、それにしても、この一年間、毎号本紙の大部分のスペースをかざった硬、軟とりどりの言説は近世宗教史上に一エポックを画したものといえよう、むずかしい理論はもちろん必要としないが、しかし理論的な基礎の上に立たねば砂上の楼閣にひとしい、本教の論理は神示による教主の論理で一さいが組み立てられ、推進されてゆく、しかも、架空の論議などに道草などくっていないところに、また幽玄にして、絶対的な本教の性格が顕揚されているのである、わが国でも傑出Lた文豪はないでもなかったが、その多くはたんなる芸術的な雰囲気のなかに生きてきたにすぎない、教主の場合は人類救済の大業か行いつゝ、なおかつ大芸術を創造しつゝある、そしてその芸術のなかには生命が躍動している、救世文豪教主というもけっして過言ではない、それは号をおうこと六十回に近い本紙の大記事、そして雑誌「地上天国」その他の出版物をみただけでも即座に諒解でき得よう、なんぴとも為し得ぬ仕事を成しとげるところに神人同一の教主の特異性があるのであり、こんごともその面目は一だんと光彩を放つであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

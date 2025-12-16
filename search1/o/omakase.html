@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>omakase</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御任せする 『栄光』132号、昭和26(1951)年11月28日発行 私はいつも御任せせよと言う事を教えているがつまり神様にお任せし切って、何事があってもクヨクヨ心配しない事である。<br><br>というと実に雑作（ぞうさ）もない訳なく出来そうな話だが、ドッコイ仲々そうはゆかないものである。<br><br>私でさえその境地になった時、随分御任せすべく骨を折るが、ともすれば心配という奴、ニョキニョキ頭をもたげてくる。<br><br>というような訳でしかも今日のような悪い世の中では、ほとんど不可能といってもいいくらいである。<br><br>しかしながら神様を知っている人は大いに異（ちが）う。<br><br>というのはまず心配事があった時、それに早く気が付く以上、ズット楽になるからいいようなものの、ここに誰も気が付かないところに重要な点があるから、それをかいてみよう。<br><br> というのはこれを霊の面から解釈してみると、それは心配するという想念そのものが、一種の執着である。<br><br>つまり心配執着である。<br><br>ところがこの心配執着なるものが曲者（くせもの）であって何事にも悪影響を与えるものである。<br><br>だが普通執着とさえいえば、出世をしたい、金が欲しい、贅沢がしたい、何でも思うようになりたいという希望的執着と、その半面あいつは怪（け）しからん太い奴だ、実に憎い、酷い目に遭わしてやりたい、などという質（たち）の悪い執着等であるが、私の言いたいのはそんな分り切った執着ではなく、ほとんど誰も気が付かないところのそれである。<br><br>では一体それはどんなものかというと、現在の心配や取越苦労、過越苦労等の執着である。<br><br>それらに対し信者の場合、神様の方で御守護下されようとしても、右の執着観念が霊的に邪魔する事になり、強ければ強い程御守護が薄くなるので、そのため思うようにゆかないという訳である。<br><br>この例としても人間がこういうものが欲しいとしきりに望む時には決して手には入らないものであって、もう駄目だと諦めてしまった頃、ヒョッコリ入ってくるのは誰も経験するところであろう。<br><br>またこうなりたいとか、アアしたいとか思う時は、実現しそうで実現しないが、忘れ果てた頃突如として思い通りになるものである。<br><br>浄霊の場合もそうであって、この病人は是非治してやりたいと思う程治りが悪いが、そんな事は念頭におかず、ただ漫然と浄霊する場合や、治るか治らないか分らないが、マアーやってみようと思うような病人は、案外容易に治るものである。<br><br> また重病人などで家族や近しい人達が、みんな揃って治してやりたいと一心になっているのに、反って治りそうで治らず、ついに死ぬ事が往々ある。<br><br>そうかと思うと、その反対に本人は生死など眼中におかず、ところ近親者も余り心配しないような病人は、案外スラスラ治るものである。<br><br>ところでこういう事もある。<br><br>本人も助かりたいと強く思い、近親者も是非助けたいと思っているのに、病状益々悪化し、もう駄目だと諦めてしまうとそれからズンズン快くなって助かるという事もよくある。<br><br>面白いのは俺はこれしきの病気で死んで堪るものか、俺の精神力でも治してみせると頑張っているような人は大抵死ぬもので、これらも生の執着が大いに原因しているのである。<br><br> 右のごとく種々の例によってみても、執着のいかに恐ろしいかが分るであろう。<br><br>従ってもうとても助からないというような病人には、まず見込がない事を暗示し、その代り霊界へ往って必ず救われるようにお願いするからと、納得のゆくようよく言い聞かせてやり、家族の者にもその意味を告げ浄霊をすると、それから好調に向かうものである。<br><br>またこれは別の話だが、男女関係もそういう事がよくある。<br><br>一方が余り熱烈になると相手の方は嫌気がさすというように、まことに皮肉極まるが、これも執着が相手の心を冷すからである。<br><br>このように世の中の事の多くは、まことに皮肉に出来ているもので、実に厄介なようでもあり、面白くもあるものである。<br><br>右によっても分るごとく、物事が巧くゆかない原因には、執着が大部分を占めている事を知らねばならない。<br><br>私がよくいう逆効果を狙えというのもその意味で、つまり皮肉の皮肉であってこれが実は真理である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Entrega a Deus</h2>
 <p>Eu sempre ensino sobre a importância de se entregar integralmente a Deus, o que significa confiar-Lhe tudo e não se afligir nem se preocupar, aconteça o que acontecer. Dito assim, parece algo de simples execução, mas a realidade se revela bem distinta. Até mesmo eu, ao buscar atingir essa condição, esforço-me consideravelmente para me entregar por completo; todavia, a preocupação, essa intrusa, insiste em assomar à mente. Na conturbada sociedade atual, alcançar tal estado de espírito é uma tarefa que beira o impossível.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Tais exemplos demonstram quão temível pode ser o apego. Portanto, ao lidar com um enfermo em estado terminal, é aconselhável sugerir-lhe delicadamente que suas chances são remotas, assegurando-lhe, em contrapartida, que intercederemos por sua salvação no Mundo Espiritual. Se conseguirmos que ele aceite essa realidade e comunicarmos essa mesma compreensão à família antes de ministrar o Johrei, é possível que, a partir de então, a condição do enfermo tome um rumo favorável.</p>
 <p>Mudando de assunto, um fenômeno análogo ocorre com frequência nos relacionamentos afetivos. Quando uma das partes se torna excessivamente apaixonada, a outra tende a se desinteressar. É uma grande ironia, mas o apego de um acaba por esfriar os sentimentos do outro.</p>
 <p>Assim, grande parte dos acontecimentos neste mundo se desenrola de maneira paradoxal, o que pode parecer, ao mesmo tempo, problemático e fascinante. Diante do exposto, é imperativo compreender que o apego constitui a principal causa dos insucessos e dificuldades. É nesse sentido que costumo ensinar a “visar o efeito reverso”. Trata-se da ironia da ironia, que, em sua essência, é a mais pura verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御任せする 『栄光』132号、昭和26(1951)年11月28日発行 私はいつも御任せせよと言う事を教えているがつまり神様にお任せし切って、何事があってもクヨクヨ心配しない事である。<br/><br/>というと実に雑作（ぞうさ）もない訳なく出来そうな話だが、ドッコイ仲々そうはゆかないものである。<br/><br/>私でさえその境地になった時、随分御任せすべく骨を折るが、ともすれば心配という奴、ニョキニョキ頭をもたげてくる。<br/><br/>というような訳でしかも今日のような悪い世の中では、ほとんど不可能といってもいいくらいである。<br/><br/>しかしながら神様を知っている人は大いに異（ちが）う。<br/><br/>というのはまず心配事があった時、それに早く気が付く以上、ズット楽になるからいいようなものの、ここに誰も気が付かないところに重要な点があるから、それをかいてみよう。<br/><br/> というのはこれを霊の面から解釈してみると、それは心配するという想念そのものが、一種の執着である。<br/><br/>つまり心配執着である。<br/><br/>ところがこの心配執着なるものが曲者（くせもの）であって何事にも悪影響を与えるものである。<br/><br/>だが普通執着とさえいえば、出世をしたい、金が欲しい、贅沢がしたい、何でも思うようになりたいという希望的執着と、その半面あいつは怪（け）しからん太い奴だ、実に憎い、酷い目に遭わしてやりたい、などという質（たち）の悪い執着等であるが、私の言いたいのはそんな分り切った執着ではなく、ほとんど誰も気が付かないところのそれである。<br/><br/>では一体それはどんなものかというと、現在の心配や取越苦労、過越苦労等の執着である。<br/><br/>それらに対し信者の場合、神様の方で御守護下されようとしても、右の執着観念が霊的に邪魔する事になり、強ければ強い程御守護が薄くなるので、そのため思うようにゆかないという訳である。<br/><br/>この例としても人間がこういうものが欲しいとしきりに望む時には決して手には入らないものであって、もう駄目だと諦めてしまった頃、ヒョッコリ入ってくるのは誰も経験するところであろう。<br/><br/>またこうなりたいとか、アアしたいとか思う時は、実現しそうで実現しないが、忘れ果てた頃突如として思い通りになるものである。<br/><br/>浄霊の場合もそうであって、この病人は是非治してやりたいと思う程治りが悪いが、そんな事は念頭におかず、ただ漫然と浄霊する場合や、治るか治らないか分らないが、マアーやってみようと思うような病人は、案外容易に治るものである。<br/><br/> また重病人などで家族や近しい人達が、みんな揃って治してやりたいと一心になっているのに、反って治りそうで治らず、ついに死ぬ事が往々ある。<br/><br/>そうかと思うと、その反対に本人は生死など眼中におかず、ところ近親者も余り心配しないような病人は、案外スラスラ治るものである。<br/><br/>ところでこういう事もある。<br/><br/>本人も助かりたいと強く思い、近親者も是非助けたいと思っているのに、病状益々悪化し、もう駄目だと諦めてしまうとそれからズンズン快くなって助かるという事もよくある。<br/><br/>面白いのは俺はこれしきの病気で死んで堪るものか、俺の精神力でも治してみせると頑張っているような人は大抵死ぬもので、これらも生の執着が大いに原因しているのである。<br/><br/> 右のごとく種々の例によってみても、執着のいかに恐ろしいかが分るであろう。<br/><br/>従ってもうとても助からないというような病人には、まず見込がない事を暗示し、その代り霊界へ往って必ず救われるようにお願いするからと、納得のゆくようよく言い聞かせてやり、家族の者にもその意味を告げ浄霊をすると、それから好調に向かうものである。<br/><br/>またこれは別の話だが、男女関係もそういう事がよくある。<br/><br/>一方が余り熱烈になると相手の方は嫌気がさすというように、まことに皮肉極まるが、これも執着が相手の心を冷すからである。<br/><br/>このように世の中の事の多くは、まことに皮肉に出来ているもので、実に厄介なようでもあり、面白くもあるものである。<br/><br/>右によっても分るごとく、物事が巧くゆかない原因には、執着が大部分を占めている事を知らねばならない。<br/><br/>私がよくいう逆効果を狙えというのもその意味で、つまり皮肉の皮肉であってこれが実は真理である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

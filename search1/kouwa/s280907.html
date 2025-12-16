@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280907</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年9月7日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月七日 昨日のラジオを聞いたでしょうが、あれはいつかの鹿児島の問題で、こっちからウンとかけ合ったところが、放送は取り消すことはできないので、詫びる意味でなんとかいたしましょうということになっていて、それが昨日の放送になったのです。<br><br>本当は救世教だけでよいのですが、これはまた妙なもので、救世教だけとすると一つの宗教宣伝になるわけです。<br><br>一つだけの宗教の宣伝になるとそれがいけないので、他の宗教を入れれば一般的の意味になりますから、新宗教とかあるいは昨日の題のように「世直し」というような意味で理屈はつくわけなので、ああしたわけです。<br><br>だからこっちの方はちょうど九分で、他のは三つで五分半くらいでした。<br><br>しまいのは時間がなくなったので、話をしている中途で、気の毒ですが中止するようなわけだったのです。<br><br>とにかくこっちに対しては非常にプラスになったわけです。<br><br>これは、はなはだ下等な言い方ですが、やっと胸がすいたというか、とにかくよかったです。<br><br>本教に対し、とにかく世間はよほど見方が変わってきたということは、確かです。<br><br>ですからこのごろは、新聞や雑誌に時々出ますが、以前のような愚弄したようなことや、悪い感じを抱くようなことはほとんどなくなってきました。<br><br>どっちかというと、いくらか言い方や見方がよくなってきたということは、確かです。<br><br>今度『婦人生活』の十月号に、七頁というのですからそうとう長く出るのでしょうが、これも割合によく書くらしいです。<br><br>それもこれも、美術館などが非常にいい影響を与えていると思うのです。<br><br>私の考えとしては、一般新宗教と同じに見られないように早くなりたいと思います。<br><br>救世教というのは新宗教なみに見ることはできない、むしろ既成宗教でもとてもかなわない、というように見られるようになると、こっちがやりよくなるばかりでなく、私の予定のとおりになるわけです。<br><br>それには結局ハワイとアメリカの発展が一番効果があると思います。<br><br>これだけは他の宗教ではぜんぜん手が出ないのです。<br><br>それも神様がいいあんばいにすることは間違いありませんが、話をしてみればそういうようです。<br><br>昨日のラジオでも医学に対することを一番言ってありましたから、そうとうの成果はあったと思います。<br><br>しかし医学に関すること、他の宗教に関することは、実に話しにくいのです。<br><br>あんまりコキ下ろすようなことを言っては、やっぱり悪感情を持ちますし、また世の中の一般の人でも医学というものを絶対に信じてますから、そういう点も考えてやらないと逆効果になるといけませんから、非常に話しにくいのです。<br><br>ですからほかの美術館とか農業のことの話はスラスラとゆきましたが、医学や既成宗教のことの話をしてくれというのですが、その点は、非常に話しにくいので、録音をとるときも非常に渋滞しました。<br><br>それもやむを得ません。<br><br>それでなんとしても医学について分からせなければしようがないと思って、いずれ『医学革命の書』の本が出ますが、これがそうとう問題になるだろうと思ってます。<br><br>医学に対してできるだけ各面から見て批判しようと思って今書いてますが、これはその中の一つですが読ませます。<br><br> （御論文「 医学封建 」） 【栄光 二二七号】 これほど進歩した医学が封建というのは、随分おかしな話です。<br><br>それで封建時代には人を殺すのはなんとも思わないで、そのために主君のためとかなんとかいって殺された人間はどのくらいあるか分かりません。<br><br>これは内容は医学とは違いますが、しかし結果から言うと医学の方はもっと大量の殺人をしているのですから、これはたいへんな恐ろしい問題です。<br><br>戦争が人を殺すといっても、医学から比べたら鼻クソみたいなものです。<br><br>そういうように世界の人類の大量殺人をドンドンやっているのです。<br><br>それでこれを進歩したと言い、これを進歩させなければならないと言って一生懸命にやっているのですから、無知と言ってよいか野蛮と言うか分かりません。<br><br>もっとも野蛮人のやり方とは違うのですから野蛮とは言えないでしょう。<br><br>しかしそれは文化的にはなってますが、野蛮よりもっと酷いもので、なんと言ってよいか分かりません。<br><br>野蛮というのは虐殺ですが、これは非常に柔らかく、理知的に、形よく、結果において殺してしまうのです。<br><br>ここまで知らせなければならないが、いきなりこういうことを言ってはびっくりして、どういう態度に出るか分からないですから、ここだけの話ですが、だんだん分からしてゆくつもりです。<br><br>それで結局アメリカあたりでアメリカ人の信者がたくさんできて、そうして救世教の勢力というものが認められてゆくようになれば、それからだんだんとこっちは本音を説いてゆこうと思います。<br><br>それこそ原子爆弾どころの騒ぎでなく、世界中の問題になるのです。<br><br>それは無論神様の方ではよい具合にやりますからよいのです。<br><br>私はあの人はいくつで死んだということを聞くとすぐに、また医者に殺されたなと思うのです。<br><br>ところがそれがもっと困ることには、ふつうはいろんな人殺しをするのは、殺そうという意識でやるのですから、かえって罪は軽いのです。<br><br>ところがこの方は助けようとしてやるのですから厄介です。<br><br>要するに善意の殺人です。<br><br>殺人に善意というのはないのですから、善意の殺人というのは変ですが、はっきり言えばそうです。<br><br>しかしそうもはっきり言えないので、このごろは善意の罪悪と言いますが、そういうわけですから、実にこれほど大きな問題はありません。<br><br> それから昨夜ちょっと感じたので書いてみたことがあります。<br><br> （御論文「 本教発展の主因（栄光228号） 」） 【栄光 二二八号】 昨日もアルゼンチンから手紙が来ましたが、これは今年の六月にあっちからの手紙で、ぜひ救われたいというので、御守りを送ったり御神書を送ったりしましたが、昨日の手紙では、その人もだいぶ熱心に働き出したのですが、遠からずアルゼンチンにも始まるだろうと思います。<br><br>これは手紙でやるのが一番よいのです。<br><br>一々遠くに行くのはたいへんですから、手紙だけであっちに信者ができると、いずれはだれかが行くことになりますが、そういった準備をしておけば、あとが楽です。<br><br>神様のやることはなかなか気がきいていると思います。<br><br>とにかく神様というのは気がきいているものです。<br><br>しかし古い昔の神様は気がききません。<br><br>人間を苦しめたりいろいろしますが、救世教の神様はとにかく力があるわけですから、なんでも自由自在です。<br><br>この間も歌でよみましたが「泣くが如く訴ふが如き祈りこそ小乗宗教のしるしなりける」というのです。<br><br>キリスト教なども“泣く如く訴うるが如き祈り”というのはたくさんあります。<br><br>路傍で牧師などが説教しているのも、実に哀れむべき声を出してやってますが、あれは神様に力がないから、自力が加わるため、自力を主にするからです。<br><br>そういうようにして救われるというのは、やっぱり一つの地獄的のものです。<br><br>ニコニコして笑って救われてゆくのでなければ本当の天国的宗教ではありません。<br><br>私は前にキリスト教の婚礼に招かれたことがありますが、婚礼とお通夜と同じです。<br><br>もっともお弔いのときには、このごろはあんまりないが、昔はお菓子をくれます。<br><br>キリスト教の婚礼式にはお菓子をくれます。<br><br>それからこれはキリスト教の一派ですが、笑いは罪悪としてあります。<br><br>ですから前に私が笑冠句をやっているときにクリスチャンの人が来て、キリスト教では笑いを罪悪としているのに、ここは笑いを奨励している、ぜんぜん違うと言ってました。<br><br>そういうわけで、よくも違っているのです。<br><br> ですからそういった宗教が世界的に大いにやっている時は、やっぱり世界は地獄的になるのも、ちょうど合っているわけです。<br><br>もっともそれでも悪い奴に苦しんだりしているよりも、宗教的に苦しんでいる方がずっとよいです。<br><br>しかし神様の方からご覧になれば、やっぱり人間が喜んで歓喜に溢れている世の中にしなければならないのです。<br><br>ですから救世教のようなのは、今までにぜんぜんないのですから、いろいろ誤解されたり、間違った眼で見られたりするわけです。<br><br>昨日のラジオでも、他の宗教は戒律を守らなければならないとか、道徳上から言うと、こうとか、いろいろ言ってましたが、今まではみんなそういう説き方だったからそれでよいのですが、戒律というものはやっぱり一つの自力です。<br><br>ちょうど分かりやすく言うと、だれも人の見てない所に金が落ちている、そうするとこれは拾いたい、欲しいと思うが、これを拾っては罪をつくる。<br><br>だから我慢して押さえるのですが、それは戒律です。<br><br>ところが本当いうと、落ちていても、これは自分のものではないから拾わないに決まっているのだから、それをなんとも思わないで拾わないで行くというのが本当です。<br><br>戒律があるから、したいこともしないということは、本当ではないのです。<br><br>だから我慢しなくてもよいのです。<br><br>自然にやらないことに決まっているのですから、なんとも思わないで通り過ぎて行くというのが救世教のやり方です。<br><br>ですから戒律がないのではなくて、戒律はいらないのです。<br><br>ところがつまり、酒が飲みたい、飲みたいけれども、これは神様に悪いといって一生懸命に我慢するが、それでは本当ではありません。<br><br>だから酒は飲みたくない、飲もうと思わないというのが本当です。<br><br>私は酒を飲むなということは言ったことはありません。<br><br>酒が好きな人には飲みなさいと言うのです。<br><br>それでも飲みたくなくなるのですから、それが本当です。<br><br>ですから自分から自然に悪いことをしない、ずるいことをしない、酒が飲めなくなる、というようにできる宗教が今までになかったのです。<br><br>そこで、なかったということは神様に力がないからして、そういう人間にすることができなかったわけです。<br><br>そこで一生懸命に外部的に押さえつけるというように、すべて外部的のそういったやり方だったのです。<br><br>これも今までの文明は全部そうです。<br><br>だから医学でもそうです。<br><br>苦しみが出るからその苦しみを押さえつける、熱が出るから氷で冷すというのと同じです。<br><br>宗教もそうなっていたのです。<br><br>外部的に押さえ、そうしてよい行いをさせるようにするというのです。<br><br>ですから本当のものではないのです。<br><br>大体ずるいことをするのでも悪いことをするのでも、あれは一つの趣味です。<br><br>とてもおもしろくてしようがないのだそうです。<br><br>巾着切でも、ああしてちょっと人のものをかすめて盗るということが、実になんとも言えないおもしろさがあるのです。<br><br>ですからまじめに稼げば一万円稼げるものを、ああやればもっと少ないのです。<br><br>いつか泥坊が、平均してみるとふつうの労賃よりも少ないというのですから合いません。<br><br>それでその間に懲役に行ったり、いろいろのことを計算に考えると、一日いくらにもつかないというのです。<br><br>それでは止めたらよいだろうというが、止められないというのは趣味があるのです。<br><br>趣味というのはつまり副守護神です。<br><br>副守護神の方が支配して勝っているからです。<br><br>ところが趣味がなくなるということは、副守護神がいじけてしまって、人間を支配するのではなくて支配されてしまう方になる。<br><br>そこで趣味がなくなるのです。<br><br> またよく嘘をつきますが、嘘をつくというのは偽るのですから、一つのずるさですが、これも趣味です。<br><br>それでどうも嘘が止められないという人がたくさんあります。<br><br>それでいつか聞いたことがありますが、君は嘘をつくが、いったいなにがおもしろいかと言うと、嘘を言うと相手が驚いたり、耳を傾けたりするのがおもしろいというのです。<br><br>嘘といってもいろいろありますが、一番始末が悪いのは人を喜ばせる嘘です。<br><br>「今度こういう信者ができて、この人が信者になったら、一度に信者ができる。<br><br>こういう勢力があって、こんなに金がある。<br><br>こんなに仲間を集める」というのです。<br><br>それで私を喜ばせようというのです。<br><br>その時分には私も、それはたいしたものだなと言って喜ぶのです。<br><br>そうするといつかしら煙になってしまうのです。<br><br>そういうことがいくどもありました。<br><br>それは喜ばせる嘘です。<br><br>これは喜ばせる代わりに、嘘ということが分かると、こっちはよけいガッカリします。<br><br>さらにまたびっくりさせる嘘があります。<br><br>「今度はこういう方面で救世教をやっつけようとしている、こういう計画をしているというから、よほど気をつけなければならない。<br><br>しかし私にはこういう手があるから、この方から手をまわせば押さえられないことはないが、とにかくお気をつけになった方がよいです」というようなことを言うのです。<br><br>ですからこっちは言葉どおりにウッカリ信ずることがあるのです。<br><br>それで私がそれに耳を傾けると、それに興味を持っているのです。<br><br>それも一つの大きな罪悪です。<br><br>それらはなにかというと、つまり副守護神がおもしろいのです。<br><br>新聞などにいろんなことが出てますが、みんなそれです。<br><br>ですから詐欺師とか、いろんなインチキでウンと金を集めたりして、おもしろおかしく遊ぶ奴がよく出てますが、みんなそれです。<br><br>ところがそれは副守護神がのさばっているからなのです。<br><br>それをキューッとやってしまえば、そういうことがつまらなくなり馬鹿馬鹿しくなります。<br><br>そうすると頭がはっきりしてくるから、そういうことをしていてはつまらないということになって、それよりか人の信用を得てよい地位になった方がよいという、算盤ということがはっきりしてきます。<br><br>ですからそういう人間に限って算盤をとらないのです。<br><br>ですから私はいつか「算盤をとれ」という論文を書きましたが、算盤を正確にとれる人は、やっぱり曇りが少ないわけです。<br><br> それからこの間あったことですが、地方にある、ある中教会が東京に出張所をつくっていたのです。<br><br>その出張所によく働く熱心な信者があったのです。<br><br>それが事情は言えませんが、ちょっと信者として考えられないほどのことがあったのです。<br><br>あったというよりか、ありそうだったのですが、それは御守護でうまく、なにごともなくすんだのです。<br><br>これはおかしいと思って、中教会長とその人間を呼んで聞いてみたのですが、そこは支部であって支部長がいないのです。<br><br>ただの出張所になっていたのです。<br><br>それがいけなかったのです。<br><br>右につき心得ておかなければならないことは、仮にも支部と名のついたものは、必ず支部長がなければならないのです。<br><br>出張所だけというのはいけません。<br><br>お医者さんなどには出張所ということがあって、何時から何時までは院長が出張するということになってますが、宗教ではそういうことはいけません。<br><br>どんな時に病気が起こるか分かりませんから、支部長がいればすぐに呼ぶことができますが、いないとその支部としての機能を発揮してゆくことができないから、それを神様が教えるためにそういうことがあったのです。<br><br>ですからちょっと気がつかないようなことでも、案外大きなことがあるからして、いつかも言ったとおり、理屈に合わなければいけないということで、つまりその理屈を考えるのです。<br><br>考えれば分かるのです。<br><br>もし分からないとすれば智慧証覚が鈍っているからです。<br><br>鈍っているということは霊に曇りがあるのです。<br><br>だからできるだけ曇りを取らなければいけないのです。<br><br>それにはできるだけ御神書を読むのです。<br><br>そうするとそれだけ曇りが取れて智慧証覚が発達しますから、よく気がついたり、理屈が分かりよくなります。<br><br>それで理屈どおりにゆけばすべてが順調にゆくのです。<br><br>時々いろいろなことの質問がありますが、なにかある時には調べてみると必ずどこかに理屈に外れていることがあります。<br><br>だからこの理屈を知ることです。<br><br>理屈を知ることは、要するに気のつくことです。<br><br>だからお釈迦さんは“悟りを開け”“覚者になれ”と言ったのです。<br><br>“覚者になれ”ということは、今言った智慧証覚がある程度まで発達することです。<br><br>ですから仏教の方ではよく“智慧”ということを言ってます。<br><br>お釈迦さんの説いたことの眼目は、ほとんど“智慧”でしょう。<br><br>そういうようで、“智慧”ということは、今言った智慧証覚、つまり“覚り”です。<br><br>覚りということは、あきらめということばかりでなく、“自覚”“覚者”ということですから、それは大きい小さいにかかわらず、なんでも理屈に合わせなければならないのです。<br><br>そうするとその人のすることが、そう骨折らないですべてがうまくゆくのです。<br><br> それについて一昨々日、前の日活の社長をしていた人で、なかなかやり手ですが、その人が私の意見を聞きに、他の人に連れられてきたのです。<br><br>その連れてきた人もそうとうな人です。<br><br>それで最初言うには“銀座辺りにモナコのようなビルディングをこしらえて経営しようと思う、それに賛成してくれ”と言うので、私は“賛成できない”と言うと、“どういうわけか”と聞きますから、“そういう仕事は罪を作るからいけない”と言ったところが、その一言でハッと思ったらしいのです。<br><br>もっともその人はお寺の生まれで、仏教のこともそうとう知っているので、罪を作るという一言で目が覚めるように分かったのです。<br><br>いろんな話をしましたが、私が一々、急所急所を言ってやったところが、非常に恐縮して、自分も大いに覚りを得たと言って喜んでいました。<br><br>そういうような具合で、急所を見つけるということがやはり智慧証覚ですから、そういうような人間になれば、なにごとでも急所の発見が早いです。<br><br>だから無駄がないわけです。<br><br>それからその時にも言ったのですが、私はこれだけ大きな仕事をしていても、別にそうワサワサと忙しそうにしていない。<br><br>始終割に悠々として、美術を楽しんだり庭を楽しんだりいろいろしている。<br><br>それでいて仕事は十人前くらいやりますが、それはなぜかというと急所をやるので無駄をしないからです。<br><br>それで急所をやるということは、急所を発見するからです。<br><br>この間の論文にも書きましたが、今の人はつまらないことや簡単に分かることを、大勢で毎日会議をして結論が出ないというのは、それはつまり急所の発見ができないからです。<br><br>できないということは曇りきっているからです。<br><br>この間も読んだとおり、今の人は毒塊人間だからして、霊の方もやっぱり曇りの固まりみたいなものですから、そこで今言う急所の発見が少しもできないわけです。<br><br>しかしだんだんそういう人間が増えているのです。<br><br>つまりだんだん薬毒が多くなってくるからして血が濁る、そこで霊が曇る、ということになるからして、たとえてみれば、政治家にしても昔の政治家の偉い人は、一人で随分目覚ましい仕事をしたものですが、今の政治家というのは年中ゴテゴテと始終相談したりしてますが、さっぱり成績が上がらないのです。<br><br>ですからどんな相談でも、まとまりというのがつかないらしいのです。<br><br>鳩山自由党と吉田の方とが、昨日は合同することになるだろうというようなことだったが、私もそうなるべきだと思っていたが、さっきのラジオで聞いてみると、今日は駄目だというのです。<br><br>そういうことが最初から分かっていれば相談もしないのですが、それが分からないのです。<br><br>それで年中、くっつきそうで離れるのです。<br><br>これは改進党と自由党も同じです。<br><br>それから社会党の右派と左派もそうで年中くっつきそうで離れているのです。<br><br>これを見てもいかに智慧証覚がないかということが分かります。<br><br>見込みがあればやり、見込みがなければ最初からやらないというのがよいのです。<br><br>もっとも、そういうことがあって料理屋に行って酒を飲む、その方が、あてかもしれません。<br><br>中には恐妻病かなにかで、うまく口実をつけなければ怖いから、毎日相談とか会議ということを言って、料理屋に行くのもあるかもしれません。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sabedoria Divina como Discernimento para a Salvação</h2>
 <p>Imagino que os senhores tenham ouvido a transmissão de rádio de ontem. Ela se originou daquele problema ocorrido em Kagoshima e, após nossa veemente intervenção, a emissora, impossibilitada de cancelar a transmissão, propôs-se a reparar o ocorrido, o que resultou no programa veiculado. Idealmente, a transmissão deveria ter sido dedicada exclusivamente à nossa Igreja. Contudo, por uma peculiaridade da situação, um programa focado em uma única religião configuraria propaganda religiosa, o que é vedado. Para contornar essa restrição e conferir um caráter de interesse geral, outras religiões foram incluídas sob um tema mais amplo, como “novas religiões” ou, como no título de ontem, “A Reconstrução do Mundo”. Foi por essa razão que o programa se desenrolou daquela forma. Ainda assim, foi-nos concedido um tempo de nove minutos, enquanto as outras três organizações religiosas dividiram cerca de cinco minutos e meio. A última delas, por falta de tempo, teve sua fala interrompida no meio, o que foi lamentável. De todo modo, o resultado foi extremamente positivo para nossa causa. Usando uma expressão bastante coloquial, sinto que um peso foi retirado de meu peito; foi, enfim, muito bom.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>A esse respeito, anteontem, uma pessoa que foi presidente da produtora de cinema Nikkatsu, um homem de grande iniciativa, veio me ver acompanhado de outra pessoa igualmente importante para ouvir minha opinião. Ele me disse: “Pretendo construir um edifício em Ginza, semelhante aos de Mônaco, para explorar negócios de entretenimento. Gostaria de sua aprovação”. Eu respondi: “Não posso aprovar”. Ao me perguntar o porquê, eu disse: “É um empreendimento que gera carma negativo, e por isso não posso apoiá-lo”. Essa única frase pareceu despertá-lo de imediato. Como ele nasceu em uma família ligada a um templo e tinha bom conhecimento do budismo, a menção ao carma negativo o fez compreender instantaneamente. Conversamos sobre muitos outros assuntos, e a cada ponto que eu tocava no cerne da questão, ele se mostrava imensamente grato, dizendo que havia alcançado uma grande compreensão.</p>
 <p>Essa capacidade de identificar o cerne de qualquer assunto é, precisamente, a sabedoria e o discernimento em ação. Quem desenvolve essa capacidade torna-se rápido em descobrir o ponto vital de qualquer questão, eliminando o desperdício. Eu também lhe disse que, apesar de conduzir um trabalho de tamanha magnitude, não aparento estar sempre apressado ou ocupado. Pelo contrário, mantenho uma atitude serena, desfrutando da arte, dos jardins e de outras atividades. E, ainda assim, realizo um volume de trabalho equivalente ao de dez pessoas. A razão para isso é que atuo diretamente no cerne das questões, sem desperdiçar energia. E para atuar no cerne, é preciso primeiro descobri-lo. Como escrevi em um ensaio recente, as pessoas de hoje passam dias em reuniões com muita gente para discutir assuntos triviais ou de fácil solução, e não chegam a nenhuma conclusão. Isso acontece porque são incapazes de encontrar o cerne da questão. E são incapazes porque seus espíritos estão completamente encobertos por máculas. Como já leram, o homem moderno é um ser impregnado de toxinas, e seu espírito é como um aglomerado de máculas. Por isso, ele não consegue, de forma alguma, identificar o ponto vital das coisas.</p>
 <p>E o número de pessoas assim está aumentando. À medida que as toxinas dos medicamentos se acumulam, o sangue se torna impuro e, por conseguinte, o espírito se anuvia. Vejam o caso dos políticos. Antigamente, os grandes estadistas realizavam feitos notáveis agindo sozinhos. Os políticos de hoje, por outro lado, vivem em intermináveis reuniões e debates, mas seus resultados são pífios. Parece que não conseguem chegar a um consenso sobre nada. Ontem mesmo, parecia que as conversas de unificação entre a facção Hatoyama e a facção Yoshida do Partido Liberal chegariam a um bom termo — algo que eu mesmo acreditava ser o correto —, mas o rádio de hoje informou que o acordo fracassou. Se soubessem disso desde o início, nem teriam iniciado as conversas. Mas eles não conseguem enxergar. Estão sempre nesse vaivém, quase se unindo para logo em seguida se separarem. O mesmo acontece entre o Partido Progressista e o Partido Liberal, e entre as alas direita e esquerda do Partido Socialista. Isso demonstra a profunda falta de sabedoria e discernimento. O correto seria avançar quando há perspectiva de sucesso e nem sequer começar quando não há. É claro que, para alguns, talvez seja apenas um pretexto para frequentar restaurantes e beber, quem sabe para escapar de esposas controladoras, usando as constantes reuniões e debates como desculpa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年9月7日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月七日 昨日のラジオを聞いたでしょうが、あれはいつかの鹿児島の問題で、こっちからウンとかけ合ったところが、放送は取り消すことはできないので、詫びる意味でなんとかいたしましょうということになっていて、それが昨日の放送になったのです。<br/><br/>本当は救世教だけでよいのですが、これはまた妙なもので、救世教だけとすると一つの宗教宣伝になるわけです。<br/><br/>一つだけの宗教の宣伝になるとそれがいけないので、他の宗教を入れれば一般的の意味になりますから、新宗教とかあるいは昨日の題のように「世直し」というような意味で理屈はつくわけなので、ああしたわけです。<br/><br/>だからこっちの方はちょうど九分で、他のは三つで五分半くらいでした。<br/><br/>しまいのは時間がなくなったので、話をしている中途で、気の毒ですが中止するようなわけだったのです。<br/><br/>とにかくこっちに対しては非常にプラスになったわけです。<br/><br/>これは、はなはだ下等な言い方ですが、やっと胸がすいたというか、とにかくよかったです。<br/><br/>本教に対し、とにかく世間はよほど見方が変わってきたということは、確かです。<br/><br/>ですからこのごろは、新聞や雑誌に時々出ますが、以前のような愚弄したようなことや、悪い感じを抱くようなことはほとんどなくなってきました。<br/><br/>どっちかというと、いくらか言い方や見方がよくなってきたということは、確かです。<br/><br/>今度『婦人生活』の十月号に、七頁というのですからそうとう長く出るのでしょうが、これも割合によく書くらしいです。<br/><br/>それもこれも、美術館などが非常にいい影響を与えていると思うのです。<br/><br/>私の考えとしては、一般新宗教と同じに見られないように早くなりたいと思います。<br/><br/>救世教というのは新宗教なみに見ることはできない、むしろ既成宗教でもとてもかなわない、というように見られるようになると、こっちがやりよくなるばかりでなく、私の予定のとおりになるわけです。<br/><br/>それには結局ハワイとアメリカの発展が一番効果があると思います。<br/><br/>これだけは他の宗教ではぜんぜん手が出ないのです。<br/><br/>それも神様がいいあんばいにすることは間違いありませんが、話をしてみればそういうようです。<br/><br/>昨日のラジオでも医学に対することを一番言ってありましたから、そうとうの成果はあったと思います。<br/><br/>しかし医学に関すること、他の宗教に関することは、実に話しにくいのです。<br/><br/>あんまりコキ下ろすようなことを言っては、やっぱり悪感情を持ちますし、また世の中の一般の人でも医学というものを絶対に信じてますから、そういう点も考えてやらないと逆効果になるといけませんから、非常に話しにくいのです。<br/><br/>ですからほかの美術館とか農業のことの話はスラスラとゆきましたが、医学や既成宗教のことの話をしてくれというのですが、その点は、非常に話しにくいので、録音をとるときも非常に渋滞しました。<br/><br/>それもやむを得ません。<br/><br/>それでなんとしても医学について分からせなければしようがないと思って、いずれ『医学革命の書』の本が出ますが、これがそうとう問題になるだろうと思ってます。<br/><br/>医学に対してできるだけ各面から見て批判しようと思って今書いてますが、これはその中の一つですが読ませます。<br/><br/> （御論文「 医学封建 」） 【栄光 二二七号】 これほど進歩した医学が封建というのは、随分おかしな話です。<br/><br/>それで封建時代には人を殺すのはなんとも思わないで、そのために主君のためとかなんとかいって殺された人間はどのくらいあるか分かりません。<br/><br/>これは内容は医学とは違いますが、しかし結果から言うと医学の方はもっと大量の殺人をしているのですから、これはたいへんな恐ろしい問題です。<br/><br/>戦争が人を殺すといっても、医学から比べたら鼻クソみたいなものです。<br/><br/>そういうように世界の人類の大量殺人をドンドンやっているのです。<br/><br/>それでこれを進歩したと言い、これを進歩させなければならないと言って一生懸命にやっているのですから、無知と言ってよいか野蛮と言うか分かりません。<br/><br/>もっとも野蛮人のやり方とは違うのですから野蛮とは言えないでしょう。<br/><br/>しかしそれは文化的にはなってますが、野蛮よりもっと酷いもので、なんと言ってよいか分かりません。<br/><br/>野蛮というのは虐殺ですが、これは非常に柔らかく、理知的に、形よく、結果において殺してしまうのです。<br/><br/>ここまで知らせなければならないが、いきなりこういうことを言ってはびっくりして、どういう態度に出るか分からないですから、ここだけの話ですが、だんだん分からしてゆくつもりです。<br/><br/>それで結局アメリカあたりでアメリカ人の信者がたくさんできて、そうして救世教の勢力というものが認められてゆくようになれば、それからだんだんとこっちは本音を説いてゆこうと思います。<br/><br/>それこそ原子爆弾どころの騒ぎでなく、世界中の問題になるのです。<br/><br/>それは無論神様の方ではよい具合にやりますからよいのです。<br/><br/>私はあの人はいくつで死んだということを聞くとすぐに、また医者に殺されたなと思うのです。<br/><br/>ところがそれがもっと困ることには、ふつうはいろんな人殺しをするのは、殺そうという意識でやるのですから、かえって罪は軽いのです。<br/><br/>ところがこの方は助けようとしてやるのですから厄介です。<br/><br/>要するに善意の殺人です。<br/><br/>殺人に善意というのはないのですから、善意の殺人というのは変ですが、はっきり言えばそうです。<br/><br/>しかしそうもはっきり言えないので、このごろは善意の罪悪と言いますが、そういうわけですから、実にこれほど大きな問題はありません。<br/><br/> それから昨夜ちょっと感じたので書いてみたことがあります。<br/><br/> （御論文「 本教発展の主因（栄光228号） 」） 【栄光 二二八号】 昨日もアルゼンチンから手紙が来ましたが、これは今年の六月にあっちからの手紙で、ぜひ救われたいというので、御守りを送ったり御神書を送ったりしましたが、昨日の手紙では、その人もだいぶ熱心に働き出したのですが、遠からずアルゼンチンにも始まるだろうと思います。<br/><br/>これは手紙でやるのが一番よいのです。<br/><br/>一々遠くに行くのはたいへんですから、手紙だけであっちに信者ができると、いずれはだれかが行くことになりますが、そういった準備をしておけば、あとが楽です。<br/><br/>神様のやることはなかなか気がきいていると思います。<br/><br/>とにかく神様というのは気がきいているものです。<br/><br/>しかし古い昔の神様は気がききません。<br/><br/>人間を苦しめたりいろいろしますが、救世教の神様はとにかく力があるわけですから、なんでも自由自在です。<br/><br/>この間も歌でよみましたが「泣くが如く訴ふが如き祈りこそ小乗宗教のしるしなりける」というのです。<br/><br/>キリスト教なども“泣く如く訴うるが如き祈り”というのはたくさんあります。<br/><br/>路傍で牧師などが説教しているのも、実に哀れむべき声を出してやってますが、あれは神様に力がないから、自力が加わるため、自力を主にするからです。<br/><br/>そういうようにして救われるというのは、やっぱり一つの地獄的のものです。<br/><br/>ニコニコして笑って救われてゆくのでなければ本当の天国的宗教ではありません。<br/><br/>私は前にキリスト教の婚礼に招かれたことがありますが、婚礼とお通夜と同じです。<br/><br/>もっともお弔いのときには、このごろはあんまりないが、昔はお菓子をくれます。<br/><br/>キリスト教の婚礼式にはお菓子をくれます。<br/><br/>それからこれはキリスト教の一派ですが、笑いは罪悪としてあります。<br/><br/>ですから前に私が笑冠句をやっているときにクリスチャンの人が来て、キリスト教では笑いを罪悪としているのに、ここは笑いを奨励している、ぜんぜん違うと言ってました。<br/><br/>そういうわけで、よくも違っているのです。<br/><br/> ですからそういった宗教が世界的に大いにやっている時は、やっぱり世界は地獄的になるのも、ちょうど合っているわけです。<br/><br/>もっともそれでも悪い奴に苦しんだりしているよりも、宗教的に苦しんでいる方がずっとよいです。<br/><br/>しかし神様の方からご覧になれば、やっぱり人間が喜んで歓喜に溢れている世の中にしなければならないのです。<br/><br/>ですから救世教のようなのは、今までにぜんぜんないのですから、いろいろ誤解されたり、間違った眼で見られたりするわけです。<br/><br/>昨日のラジオでも、他の宗教は戒律を守らなければならないとか、道徳上から言うと、こうとか、いろいろ言ってましたが、今まではみんなそういう説き方だったからそれでよいのですが、戒律というものはやっぱり一つの自力です。<br/><br/>ちょうど分かりやすく言うと、だれも人の見てない所に金が落ちている、そうするとこれは拾いたい、欲しいと思うが、これを拾っては罪をつくる。<br/><br/>だから我慢して押さえるのですが、それは戒律です。<br/><br/>ところが本当いうと、落ちていても、これは自分のものではないから拾わないに決まっているのだから、それをなんとも思わないで拾わないで行くというのが本当です。<br/><br/>戒律があるから、したいこともしないということは、本当ではないのです。<br/><br/>だから我慢しなくてもよいのです。<br/><br/>自然にやらないことに決まっているのですから、なんとも思わないで通り過ぎて行くというのが救世教のやり方です。<br/><br/>ですから戒律がないのではなくて、戒律はいらないのです。<br/><br/>ところがつまり、酒が飲みたい、飲みたいけれども、これは神様に悪いといって一生懸命に我慢するが、それでは本当ではありません。<br/><br/>だから酒は飲みたくない、飲もうと思わないというのが本当です。<br/><br/>私は酒を飲むなということは言ったことはありません。<br/><br/>酒が好きな人には飲みなさいと言うのです。<br/><br/>それでも飲みたくなくなるのですから、それが本当です。<br/><br/>ですから自分から自然に悪いことをしない、ずるいことをしない、酒が飲めなくなる、というようにできる宗教が今までになかったのです。<br/><br/>そこで、なかったということは神様に力がないからして、そういう人間にすることができなかったわけです。<br/><br/>そこで一生懸命に外部的に押さえつけるというように、すべて外部的のそういったやり方だったのです。<br/><br/>これも今までの文明は全部そうです。<br/><br/>だから医学でもそうです。<br/><br/>苦しみが出るからその苦しみを押さえつける、熱が出るから氷で冷すというのと同じです。<br/><br/>宗教もそうなっていたのです。<br/><br/>外部的に押さえ、そうしてよい行いをさせるようにするというのです。<br/><br/>ですから本当のものではないのです。<br/><br/>大体ずるいことをするのでも悪いことをするのでも、あれは一つの趣味です。<br/><br/>とてもおもしろくてしようがないのだそうです。<br/><br/>巾着切でも、ああしてちょっと人のものをかすめて盗るということが、実になんとも言えないおもしろさがあるのです。<br/><br/>ですからまじめに稼げば一万円稼げるものを、ああやればもっと少ないのです。<br/><br/>いつか泥坊が、平均してみるとふつうの労賃よりも少ないというのですから合いません。<br/><br/>それでその間に懲役に行ったり、いろいろのことを計算に考えると、一日いくらにもつかないというのです。<br/><br/>それでは止めたらよいだろうというが、止められないというのは趣味があるのです。<br/><br/>趣味というのはつまり副守護神です。<br/><br/>副守護神の方が支配して勝っているからです。<br/><br/>ところが趣味がなくなるということは、副守護神がいじけてしまって、人間を支配するのではなくて支配されてしまう方になる。<br/><br/>そこで趣味がなくなるのです。<br/><br/> またよく嘘をつきますが、嘘をつくというのは偽るのですから、一つのずるさですが、これも趣味です。<br/><br/>それでどうも嘘が止められないという人がたくさんあります。<br/><br/>それでいつか聞いたことがありますが、君は嘘をつくが、いったいなにがおもしろいかと言うと、嘘を言うと相手が驚いたり、耳を傾けたりするのがおもしろいというのです。<br/><br/>嘘といってもいろいろありますが、一番始末が悪いのは人を喜ばせる嘘です。<br/><br/>「今度こういう信者ができて、この人が信者になったら、一度に信者ができる。<br/><br/>こういう勢力があって、こんなに金がある。<br/><br/>こんなに仲間を集める」というのです。<br/><br/>それで私を喜ばせようというのです。<br/><br/>その時分には私も、それはたいしたものだなと言って喜ぶのです。<br/><br/>そうするといつかしら煙になってしまうのです。<br/><br/>そういうことがいくどもありました。<br/><br/>それは喜ばせる嘘です。<br/><br/>これは喜ばせる代わりに、嘘ということが分かると、こっちはよけいガッカリします。<br/><br/>さらにまたびっくりさせる嘘があります。<br/><br/>「今度はこういう方面で救世教をやっつけようとしている、こういう計画をしているというから、よほど気をつけなければならない。<br/><br/>しかし私にはこういう手があるから、この方から手をまわせば押さえられないことはないが、とにかくお気をつけになった方がよいです」というようなことを言うのです。<br/><br/>ですからこっちは言葉どおりにウッカリ信ずることがあるのです。<br/><br/>それで私がそれに耳を傾けると、それに興味を持っているのです。<br/><br/>それも一つの大きな罪悪です。<br/><br/>それらはなにかというと、つまり副守護神がおもしろいのです。<br/><br/>新聞などにいろんなことが出てますが、みんなそれです。<br/><br/>ですから詐欺師とか、いろんなインチキでウンと金を集めたりして、おもしろおかしく遊ぶ奴がよく出てますが、みんなそれです。<br/><br/>ところがそれは副守護神がのさばっているからなのです。<br/><br/>それをキューッとやってしまえば、そういうことがつまらなくなり馬鹿馬鹿しくなります。<br/><br/>そうすると頭がはっきりしてくるから、そういうことをしていてはつまらないということになって、それよりか人の信用を得てよい地位になった方がよいという、算盤ということがはっきりしてきます。<br/><br/>ですからそういう人間に限って算盤をとらないのです。<br/><br/>ですから私はいつか「算盤をとれ」という論文を書きましたが、算盤を正確にとれる人は、やっぱり曇りが少ないわけです。<br/><br/> それからこの間あったことですが、地方にある、ある中教会が東京に出張所をつくっていたのです。<br/><br/>その出張所によく働く熱心な信者があったのです。<br/><br/>それが事情は言えませんが、ちょっと信者として考えられないほどのことがあったのです。<br/><br/>あったというよりか、ありそうだったのですが、それは御守護でうまく、なにごともなくすんだのです。<br/><br/>これはおかしいと思って、中教会長とその人間を呼んで聞いてみたのですが、そこは支部であって支部長がいないのです。<br/><br/>ただの出張所になっていたのです。<br/><br/>それがいけなかったのです。<br/><br/>右につき心得ておかなければならないことは、仮にも支部と名のついたものは、必ず支部長がなければならないのです。<br/><br/>出張所だけというのはいけません。<br/><br/>お医者さんなどには出張所ということがあって、何時から何時までは院長が出張するということになってますが、宗教ではそういうことはいけません。<br/><br/>どんな時に病気が起こるか分かりませんから、支部長がいればすぐに呼ぶことができますが、いないとその支部としての機能を発揮してゆくことができないから、それを神様が教えるためにそういうことがあったのです。<br/><br/>ですからちょっと気がつかないようなことでも、案外大きなことがあるからして、いつかも言ったとおり、理屈に合わなければいけないということで、つまりその理屈を考えるのです。<br/><br/>考えれば分かるのです。<br/><br/>もし分からないとすれば智慧証覚が鈍っているからです。<br/><br/>鈍っているということは霊に曇りがあるのです。<br/><br/>だからできるだけ曇りを取らなければいけないのです。<br/><br/>それにはできるだけ御神書を読むのです。<br/><br/>そうするとそれだけ曇りが取れて智慧証覚が発達しますから、よく気がついたり、理屈が分かりよくなります。<br/><br/>それで理屈どおりにゆけばすべてが順調にゆくのです。<br/><br/>時々いろいろなことの質問がありますが、なにかある時には調べてみると必ずどこかに理屈に外れていることがあります。<br/><br/>だからこの理屈を知ることです。<br/><br/>理屈を知ることは、要するに気のつくことです。<br/><br/>だからお釈迦さんは“悟りを開け”“覚者になれ”と言ったのです。<br/><br/>“覚者になれ”ということは、今言った智慧証覚がある程度まで発達することです。<br/><br/>ですから仏教の方ではよく“智慧”ということを言ってます。<br/><br/>お釈迦さんの説いたことの眼目は、ほとんど“智慧”でしょう。<br/><br/>そういうようで、“智慧”ということは、今言った智慧証覚、つまり“覚り”です。<br/><br/>覚りということは、あきらめということばかりでなく、“自覚”“覚者”ということですから、それは大きい小さいにかかわらず、なんでも理屈に合わせなければならないのです。<br/><br/>そうするとその人のすることが、そう骨折らないですべてがうまくゆくのです。<br/><br/> それについて一昨々日、前の日活の社長をしていた人で、なかなかやり手ですが、その人が私の意見を聞きに、他の人に連れられてきたのです。<br/><br/>その連れてきた人もそうとうな人です。<br/><br/>それで最初言うには“銀座辺りにモナコのようなビルディングをこしらえて経営しようと思う、それに賛成してくれ”と言うので、私は“賛成できない”と言うと、“どういうわけか”と聞きますから、“そういう仕事は罪を作るからいけない”と言ったところが、その一言でハッと思ったらしいのです。<br/><br/>もっともその人はお寺の生まれで、仏教のこともそうとう知っているので、罪を作るという一言で目が覚めるように分かったのです。<br/><br/>いろんな話をしましたが、私が一々、急所急所を言ってやったところが、非常に恐縮して、自分も大いに覚りを得たと言って喜んでいました。<br/><br/>そういうような具合で、急所を見つけるということがやはり智慧証覚ですから、そういうような人間になれば、なにごとでも急所の発見が早いです。<br/><br/>だから無駄がないわけです。<br/><br/>それからその時にも言ったのですが、私はこれだけ大きな仕事をしていても、別にそうワサワサと忙しそうにしていない。<br/><br/>始終割に悠々として、美術を楽しんだり庭を楽しんだりいろいろしている。<br/><br/>それでいて仕事は十人前くらいやりますが、それはなぜかというと急所をやるので無駄をしないからです。<br/><br/>それで急所をやるということは、急所を発見するからです。<br/><br/>この間の論文にも書きましたが、今の人はつまらないことや簡単に分かることを、大勢で毎日会議をして結論が出ないというのは、それはつまり急所の発見ができないからです。<br/><br/>できないということは曇りきっているからです。<br/><br/>この間も読んだとおり、今の人は毒塊人間だからして、霊の方もやっぱり曇りの固まりみたいなものですから、そこで今言う急所の発見が少しもできないわけです。<br/><br/>しかしだんだんそういう人間が増えているのです。<br/><br/>つまりだんだん薬毒が多くなってくるからして血が濁る、そこで霊が曇る、ということになるからして、たとえてみれば、政治家にしても昔の政治家の偉い人は、一人で随分目覚ましい仕事をしたものですが、今の政治家というのは年中ゴテゴテと始終相談したりしてますが、さっぱり成績が上がらないのです。<br/><br/>ですからどんな相談でも、まとまりというのがつかないらしいのです。<br/><br/>鳩山自由党と吉田の方とが、昨日は合同することになるだろうというようなことだったが、私もそうなるべきだと思っていたが、さっきのラジオで聞いてみると、今日は駄目だというのです。<br/><br/>そういうことが最初から分かっていれば相談もしないのですが、それが分からないのです。<br/><br/>それで年中、くっつきそうで離れるのです。<br/><br/>これは改進党と自由党も同じです。<br/><br/>それから社会党の右派と左派もそうで年中くっつきそうで離れているのです。<br/><br/>これを見てもいかに智慧証覚がないかということが分かります。<br/><br/>見込みがあればやり、見込みがなければ最初からやらないというのがよいのです。<br/><br/>もっとも、そういうことがあって料理屋に行って酒を飲む、その方が、あてかもしれません。<br/><br/>中には恐妻病かなにかで、うまく口実をつけなければ怖いから、毎日相談とか会議ということを言って、料理屋に行くのもあるかもしれません。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

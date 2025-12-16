@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis4067</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ５ 067-082 死体 067 死体防腐の可否 昔から身分の高い人などの逝去した場合、よく屍体を腐らぬようにして、そのまま埋葬致しますが、霊的に宜しい事でございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 死者の気持にある。<br><br>嫌う人と喜ぶ人とある。<br><br>ピラミッドなど王の死体は腐らぬようおいてある。<br><br>しかしこういう事は本当ではない。<br><br>（S24.10. 3） 068 飲まされんとした人骨粉の処理 私が病気（肺浸潤）の時に、母が妙薬だと言って、墓地から人骨を拾い粉末にして私の妻にあずけ、私に飲ませようとしましたが、全然飲みませんでした。<br><br>母は既に死んで、どこから持って来たかわかりませんが、その骨はどのように処分したらよろしいでしょうか。<br><br> 自分の所の墓地の隅かどっかへ埋めてやる方がよい。<br><br>母の傍でもよい。<br><br>霊によって気にするのとしないのとある。<br><br>埋めて詫びした方がよい。<br><br>風葬なども極間違っている。<br><br>解剖など極悪い。<br><br>（霊の希望ならよい）墓場も綺麗にする。<br><br>霊界にも名誉があるから恥かしい。<br><br>（S23.10.19） 069 切断骨の処置 昭和二十二年十月入信致しました信者、戦傷にて右下腿部を切断致し、その骨を現在そのまま所持しておりますが、どう処置致しましたら宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> どう処置してもよいが、惜しいようだから焼かずにとっておけばよい。<br><br>（記念に）（S24. 8.21） 070 死体硬直の因（死体の浄霊） 肺結核にて死亡致した人ですが、死後硬直致し、納棺致す時非常に困りました。<br><br>この人は教導師で昨年五月入信し、以後毎日浄霊を受けており、死亡一週間前より昼夜浄霊を続けておりました。<br><br>また、死後のりとを上げ、一時間程浄霊致すも一向やわらかくなりませんでした。<br><br>いかなる原因でしょうか。<br><br>このような場合はどうしたら良いでしょうか。<br><br>御伺い致します。<br><br> 珍らしい事である。<br><br>よほど大きな罪があるか、よほど強い薬が固まっているからである。<br><br>こういう場合、頭をよく浄霊する。<br><br> 071 屍体硬直の理 人間屍体の硬直するのは、いかなる理由に拠るのでありましょうか。<br><br> 熱がなくなってるからである。<br><br>飴のようなもので、飴は熱があると柔かい。<br><br> お浄めすると火素を入れるから柔かになる。<br><br> 072 死人の髪伸と雀斑 一、死人を土葬にした場合、暫く経って見ますと頭髪等が伸びていると言う事を度々聞きますが、いかなる訳で御座いましょうか。<br><br> 二、顔のみでなく全身に雀斑があるのはいかなる原因でしょうか、御伺い申し上げます。<br><br> 一、死んでも形のある間は、いくらか働きの惰力がある。<br><br>生きている時の生活力が少し残っている。<br><br>毛は特別のものである。<br><br>カミという。<br><br> 二、血の凝結する痕である。<br><br>死ぬと血が凝結する。<br><br>凝結は方々へするものである。<br><br>（S24.11. 7） 073 死者と睡気、鼻血 変死者の側へ近親者が参りますと、死人が鼻血を出す事が御座いますが、いかなる訳で御座いましょうか。<br><br>また、人が死ぬ直前、側にいる者が眠たくなりますのはいかなる理由によるので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 眠くなるのはおかしい。<br><br>死者の霊が救われるんだと思う。<br><br>一週間も十日も前に脱けるのもある。<br><br>トンチンカンの事を言うのはそうである。<br><br>副守護神だけになり、惰力で生きている。<br><br>脱出するのは、本人が死を覚悟するからである。<br><br> 鼻血が出るのは、近親者が行くと、霊線を伝わって、生きた人の熱が行き、固まった血が溶けるのである。<br><br>（S23.11. 1） 074 死者の鼻血（身内の者接近） 人が死んだ時に、その人の身内の人等が来た場合に、その死人から鼻血が出ると言うことをよく聞きますが、これはいかなるわけで御座居ましょうか。<br><br> よくこういう事がある。<br><br>身内の人は霊線が繋っている。<br><br>あつくなったり、余分な血があり、それが出る。<br><br>出そこなって死んだのであろう。<br><br> 目上の人の霊線は頭へ行く。<br><br> 生きてる人の霊線は火素。<br><br> よけいな血のある場合、その血が霊線によって出る。<br><br>血が出切れずに死んだものである。<br><br>（S24. 6.19） rattail（注） 〔 ご存じですか（実生分会11月号） 、昭和23(1948)年12月10日発行〕 〔 妙智の鍵（光明分会３月号） 、昭和24(1949)年3月23日発行〕 075 死骸より鼻血 私の信者の話で、ある変死者の家人がその変死現場に行き、死骸に向って言葉を掛けると、死後数日を経ているにも拘らず鼻血を出すと申します。<br><br>この訳をお伺い申し上げます。<br><br> 霊線から生きた人間の熱が行って、血が溶けて出るんだと思う。<br><br> 076 火葬の死体起上る理 座棺にて火葬致します際、体に火が廻りますと急に立上るようになるそうで御座いますが、いかなる理由によるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> こんな事はない。<br><br>こんな事があるとすれば霊がいくらか残っている。<br><br>脱出し切れず、霊が完全に脱出していればこんな事はない。<br><br> 霊が脱出して後、執着により暫く霊線で繋っているのもある。<br><br> いくらか神経が残っているのである。<br><br> （死にたくないという執着など）（S24. 6.21） 077 焼死体血による鑑別 交通事故等で焼死した死体が区別出来なくなっている場合、指を切って血をその骨に垂らすと、肉親の者なれば必ず骨に血が泌み込み、他人の場合は泌み込まぬと申しますがいかなる訳でしょうか。<br><br> そんな事はよした方がよい。<br><br> 仮に死体が百人位あるとすると、その人は指を切ったりなどして死ななくてはならぬ理屈になる。<br><br> こういう人は非常に曇った人で仕方がない。<br><br> 078 死人と猫 死人に猫を近よせるのを嫌いますが、霊的に何か意味が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 別に意味はない。<br><br>猫がいると死人が動き出すなどというが、そういう事もあったろうが、大した意味はないから差支えない。<br><br>（S24. 1.21） rattail（注） 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕 079 喉仏と後生 死体を火葬した場合、のどぼとけが残ると極楽往生または後生がよいと申しますが、何か霊的に意味のある事で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 大した意味はない。<br><br>（S24. 8.11） 080 骨壺の水捨てる 信者で御座いますが、御教えにより多摩墓地より高野山の菩提寺へ遺骨を移しました時、骨壺の中の水を捨ててしまいましたが、遺骨の一部が水に化しましたものを捨てますことは、霊が苦しむもので御座いましょうか。<br><br>お伺い申し上げます。<br><br> そんな事はない。<br><br>水は捨てて差支えない。<br><br>（S25. 5.12） 081 骨は水になるか、骨壺移動するか 瓶（かめ）に入れて土葬すれば長年の後には人間の体は全部水になると申します。<br><br>骨も水になるものでしょうか。<br><br> また埋葬した瓶が五十年間に二、三間位は移動すると申します。<br><br>数百年も経てば相当移動していて、その付近を探さねばならぬ事になりますが、「寄せ墓」を作るとすればいかにしたら宜しいでしょうか。<br><br> 骨は水にならぬ。<br><br>他のものは水になる事がある。<br><br>骨は移動するものではない。<br><br>ただ、地殻の移動する所では、そういう事がある。<br><br>（S24. 6. 2） 082 死後二年頭髪伸ぶ 二年程前に土葬にしました死人の頭髪が、二、三寸位長くのびているそうで御座いますが、いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 有り得べき筈はない。<br><br>理屈がつかぬ。<br><br>（S24. 1.21）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Corpo</h2>
 <p><strong>067 Apropriação do Embalsamamento</strong></p>
@@ -143,5 +295,48 @@ Quanto ao sangramento nasal, ele ocorre porque o calor da pessoa viva é transmi
 <p><strong>082 Cabelo Cresce Dois Anos Após a Morte</strong></p>
 <p>O cabelo de uma pessoa que foi sepultada há cerca de dois anos teria crescido de dois a três <em>sun</em> (aproximadamente 6 a 9 centímetros). Qual a explicação para isso? Rogo por vosso esclarecimento.</p>
 <p>Isso não deveria ser possível. Não há uma explicação lógica para tal fato. (21.01.1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ５ 067-082 死体 067 死体防腐の可否 昔から身分の高い人などの逝去した場合、よく屍体を腐らぬようにして、そのまま埋葬致しますが、霊的に宜しい事でございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 死者の気持にある。<br/><br/>嫌う人と喜ぶ人とある。<br/><br/>ピラミッドなど王の死体は腐らぬようおいてある。<br/><br/>しかしこういう事は本当ではない。<br/><br/>（S24.10. 3） 068 飲まされんとした人骨粉の処理 私が病気（肺浸潤）の時に、母が妙薬だと言って、墓地から人骨を拾い粉末にして私の妻にあずけ、私に飲ませようとしましたが、全然飲みませんでした。<br/><br/>母は既に死んで、どこから持って来たかわかりませんが、その骨はどのように処分したらよろしいでしょうか。<br/><br/> 自分の所の墓地の隅かどっかへ埋めてやる方がよい。<br/><br/>母の傍でもよい。<br/><br/>霊によって気にするのとしないのとある。<br/><br/>埋めて詫びした方がよい。<br/><br/>風葬なども極間違っている。<br/><br/>解剖など極悪い。<br/><br/>（霊の希望ならよい）墓場も綺麗にする。<br/><br/>霊界にも名誉があるから恥かしい。<br/><br/>（S23.10.19） 069 切断骨の処置 昭和二十二年十月入信致しました信者、戦傷にて右下腿部を切断致し、その骨を現在そのまま所持しておりますが、どう処置致しましたら宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> どう処置してもよいが、惜しいようだから焼かずにとっておけばよい。<br/><br/>（記念に）（S24. 8.21） 070 死体硬直の因（死体の浄霊） 肺結核にて死亡致した人ですが、死後硬直致し、納棺致す時非常に困りました。<br/><br/>この人は教導師で昨年五月入信し、以後毎日浄霊を受けており、死亡一週間前より昼夜浄霊を続けておりました。<br/><br/>また、死後のりとを上げ、一時間程浄霊致すも一向やわらかくなりませんでした。<br/><br/>いかなる原因でしょうか。<br/><br/>このような場合はどうしたら良いでしょうか。<br/><br/>御伺い致します。<br/><br/> 珍らしい事である。<br/><br/>よほど大きな罪があるか、よほど強い薬が固まっているからである。<br/><br/>こういう場合、頭をよく浄霊する。<br/><br/> 071 屍体硬直の理 人間屍体の硬直するのは、いかなる理由に拠るのでありましょうか。<br/><br/> 熱がなくなってるからである。<br/><br/>飴のようなもので、飴は熱があると柔かい。<br/><br/> お浄めすると火素を入れるから柔かになる。<br/><br/> 072 死人の髪伸と雀斑 一、死人を土葬にした場合、暫く経って見ますと頭髪等が伸びていると言う事を度々聞きますが、いかなる訳で御座いましょうか。<br/><br/> 二、顔のみでなく全身に雀斑があるのはいかなる原因でしょうか、御伺い申し上げます。<br/><br/> 一、死んでも形のある間は、いくらか働きの惰力がある。<br/><br/>生きている時の生活力が少し残っている。<br/><br/>毛は特別のものである。<br/><br/>カミという。<br/><br/> 二、血の凝結する痕である。<br/><br/>死ぬと血が凝結する。<br/><br/>凝結は方々へするものである。<br/><br/>（S24.11. 7） 073 死者と睡気、鼻血 変死者の側へ近親者が参りますと、死人が鼻血を出す事が御座いますが、いかなる訳で御座いましょうか。<br/><br/>また、人が死ぬ直前、側にいる者が眠たくなりますのはいかなる理由によるので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 眠くなるのはおかしい。<br/><br/>死者の霊が救われるんだと思う。<br/><br/>一週間も十日も前に脱けるのもある。<br/><br/>トンチンカンの事を言うのはそうである。<br/><br/>副守護神だけになり、惰力で生きている。<br/><br/>脱出するのは、本人が死を覚悟するからである。<br/><br/> 鼻血が出るのは、近親者が行くと、霊線を伝わって、生きた人の熱が行き、固まった血が溶けるのである。<br/><br/>（S23.11. 1） 074 死者の鼻血（身内の者接近） 人が死んだ時に、その人の身内の人等が来た場合に、その死人から鼻血が出ると言うことをよく聞きますが、これはいかなるわけで御座居ましょうか。<br/><br/> よくこういう事がある。<br/><br/>身内の人は霊線が繋っている。<br/><br/>あつくなったり、余分な血があり、それが出る。<br/><br/>出そこなって死んだのであろう。<br/><br/> 目上の人の霊線は頭へ行く。<br/><br/> 生きてる人の霊線は火素。<br/><br/> よけいな血のある場合、その血が霊線によって出る。<br/><br/>血が出切れずに死んだものである。<br/><br/>（S24. 6.19） rattail（注） 〔 ご存じですか（実生分会11月号） 、昭和23(1948)年12月10日発行〕 〔 妙智の鍵（光明分会３月号） 、昭和24(1949)年3月23日発行〕 075 死骸より鼻血 私の信者の話で、ある変死者の家人がその変死現場に行き、死骸に向って言葉を掛けると、死後数日を経ているにも拘らず鼻血を出すと申します。<br/><br/>この訳をお伺い申し上げます。<br/><br/> 霊線から生きた人間の熱が行って、血が溶けて出るんだと思う。<br/><br/> 076 火葬の死体起上る理 座棺にて火葬致します際、体に火が廻りますと急に立上るようになるそうで御座いますが、いかなる理由によるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> こんな事はない。<br/><br/>こんな事があるとすれば霊がいくらか残っている。<br/><br/>脱出し切れず、霊が完全に脱出していればこんな事はない。<br/><br/> 霊が脱出して後、執着により暫く霊線で繋っているのもある。<br/><br/> いくらか神経が残っているのである。<br/><br/> （死にたくないという執着など）（S24. 6.21） 077 焼死体血による鑑別 交通事故等で焼死した死体が区別出来なくなっている場合、指を切って血をその骨に垂らすと、肉親の者なれば必ず骨に血が泌み込み、他人の場合は泌み込まぬと申しますがいかなる訳でしょうか。<br/><br/> そんな事はよした方がよい。<br/><br/> 仮に死体が百人位あるとすると、その人は指を切ったりなどして死ななくてはならぬ理屈になる。<br/><br/> こういう人は非常に曇った人で仕方がない。<br/><br/> 078 死人と猫 死人に猫を近よせるのを嫌いますが、霊的に何か意味が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 別に意味はない。<br/><br/>猫がいると死人が動き出すなどというが、そういう事もあったろうが、大した意味はないから差支えない。<br/><br/>（S24. 1.21） rattail（注） 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕 079 喉仏と後生 死体を火葬した場合、のどぼとけが残ると極楽往生または後生がよいと申しますが、何か霊的に意味のある事で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 大した意味はない。<br/><br/>（S24. 8.11） 080 骨壺の水捨てる 信者で御座いますが、御教えにより多摩墓地より高野山の菩提寺へ遺骨を移しました時、骨壺の中の水を捨ててしまいましたが、遺骨の一部が水に化しましたものを捨てますことは、霊が苦しむもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> そんな事はない。<br/><br/>水は捨てて差支えない。<br/><br/>（S25. 5.12） 081 骨は水になるか、骨壺移動するか 瓶（かめ）に入れて土葬すれば長年の後には人間の体は全部水になると申します。<br/><br/>骨も水になるものでしょうか。<br/><br/> また埋葬した瓶が五十年間に二、三間位は移動すると申します。<br/><br/>数百年も経てば相当移動していて、その付近を探さねばならぬ事になりますが、「寄せ墓」を作るとすればいかにしたら宜しいでしょうか。<br/><br/> 骨は水にならぬ。<br/><br/>他のものは水になる事がある。<br/><br/>骨は移動するものではない。<br/><br/>ただ、地殻の移動する所では、そういう事がある。<br/><br/>（S24. 6. 2） 082 死後二年頭髪伸ぶ 二年程前に土葬にしました死人の頭髪が、二、三寸位長くのびているそうで御座いますが、いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 有り得べき筈はない。<br/><br/>理屈がつかぬ。<br/><br/>（S24. 1.21）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

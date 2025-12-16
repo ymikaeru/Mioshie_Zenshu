@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zensonme</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 全村メシヤ教信者 『栄光』131号、昭和26(1951)年11月21日発行 左記お蔭話は全村メシヤ教信者というと、ちょっと驚くであろうが実は日本一小さい部落で、五戸で三十人の人口というのである。<br><br>しかし、何しろ千五百米（メートル）も高い山間（やまあい）であるから、病気になっても医師にかかることは大事であったところ、全村本教信者となったため、罹病の都度浄霊だけで簡単に治るので、その喜びと安心は一通りなものではない。<br><br>従って、今後人里遠い山間僻地などこそ、本教が行渡ったとしたら、いかに救われるかは想像出来るであろう。<br><br> 偏平足を救われ御守護の数々 大分県 帰一中教会 岡川 満（36） 医師より足首の手術の診断を受け、悲観のどん底より光明を見いだし、御守護をいただきまして全快致し、毎日感謝の気持ちで日々を過さしていただいております。<br><br>拙文ではありますが御礼をかねて御報告をさせていただきます。<br><br> 昭和二十二年八月頃より歩行すると右足の踵が少しずつ痛みを感ずるようになりました。<br><br>早速有難や（祈祷師）にお詣り致しましたところ「水神様の方がある」と言われ、その方を祈祷してくれましたが次第に歩行困難になり、三日間通いましたが歩行出来ず、毎日家庭において息んでおりましたが、日がたつにつれて病状は悪化し、遂に踵が赤く彩りました。<br><br>歩行せぬと痛みはありませんが歩行すると激しく痛みますので、又有難やを呼んで祈祷していただきました。<br><br>矢張り水神様の方があると御願い致しましたが何ら変りなく、遂に二週間以上となりました。<br><br>このままにしておいても困った事と思い、医師より診断を受けましたところ、病原不明で湿布をしていただきましたが、その結果もよくなく、しかたなく鍼に行く事にし、三カ月間程松葉杖に縋りながら通いました、その間三人の有難やさんにも見ていただきましたが大した効果なく、考えた末、別府国立病院にてレントゲンにて診ていただきましたところ、扁平足との診断がされ、早速義足をこしらえていただきまして、一カ月間程使用して見ましたが何ら変化なく困って思案にくれるばかりでした。<br><br>最後の手段と福岡大学病院に行き、診断を受けました。<br><br>レントゲンの結果骨が高いから手術をして骨を削ると言われました。<br><br>色々と手あてをしても治らず、困ってはいるものの骨を削ればもしかするとビッコになるのではと心配になり、恐ろしくもあり、思案の結果遂に手術を断念しまして帰郷致しました。<br><br>その後も日々悪化するばかりですので、佐伯市の病院にて診断、レントゲンを受けましたところ、扁平足との診断を下され、これで二人の医師の見立てが同じですので半ば安心はしたものの、数十日通いましたが一向に変化なく、毎日毎日淋しい思いで半自暴自棄になって、家内子供にまであたりちらして叱りつけるし、家庭内はまったく地獄そのままでした。<br><br> ある日知人が遊びに来て「手を振って病気をなおす染矢多加子という人のところに大変お詣りが多いそうだがお詣りして見ないか」とのすすめで溺れる者藁をも掴むのたとえの通りお詣りを致しましたところ、手を振るだけでお経も何もあげず、こんな事でと思いながら染矢先生が義足を外ずしてしばらくお詣りするようにと言われましたので、疑いながらも早速実行し、毎日御浄霊を受け、神様のお話しを色々と御伺いし、お守りを受ければ早くよくなるし、だれでも出来るとお伺いし、三日目入信さしていただきました。<br><br>気持のせいか一日、一日痛みが軽くなるような気がしますので、もしやと半喜びながら、又前から四、五人の有難やから診て貰って何ら変化がないので、これ位いな事でと疑いながらも十日間程お詣りする中すっかり痛みもなくなりまして全快致しました。<br><br>骨を削るとまで言われた病気が余り短時日にて全快致しましたので全快しながらも疑って見るのでした。<br><br>その時の私家族の者の喜びはいかばかりでしょう。<br><br>明主様有難う御座居ました。<br><br>厚く厚く御礼申しあげます。<br><br> 私の家族は山間僻地とでも申しますか、谷口という部落より山道を約一、五〇〇米程上った山の中腹にあります。<br><br>全部で五軒あります。<br><br>ちょっと想像も出来ないような僻遠な所です。<br><br>便利の悪いところだけに病人でも出来ると大変です。<br><br>何しろ谷口村より約三十分も登山せねばならぬのですからお医者もすぐの間に合わず、なお医者も余り喜ばず、その割村に病人のたえまなく、いつもだれかが寝ている状態です、村の方々もどれ程困っていたか分りませんでした。<br><br>私の入信以来病人が出来ますと御浄霊をしてあげ、すぐ御利益をいただき全快致しますので、それ以来五軒で三十人入信致し大光明如来様二体、光明如来様三体御奉斎致しまして全家挙って信徒にならしていただきまして、それ以来現在まで一人としてお医者を迎える者なく、数々の御利益をいただきまして日々を楽しく過さしていただいております。<br><br> 先般村で、健康保険でお医者へ一年間掛からぬ家を表彰致しました折、村全家が表彰を受けまして賞状をいただき、感謝しています。<br><br>これもひとえに明主様の御徳に依るものと感謝申し、万分の一の御恩報じと地上天国建設に御手伝いさしていただいております。<br><br>今後共御守護を御願い申しあげます。<br><br>右御礼をかね御報告さしていただきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma aldeia inteiramente messiânica</h2>
 <p>O relato de graças a seguir, que narra a conversão de uma aldeia inteira à fé messiânica, poderá causar certa surpresa. Na realidade, trata-se do menor vilarejo do Japão, com apenas cinco lares e uma população de trinta pessoas. Contudo, por estar localizado em uma região montanhosa a mil e quinhentos metros de altitude, o acesso a cuidados médicos sempre foi um grande desafio. Após a conversão de todos os moradores, sempre que alguém adoece, a simples ministração de Johrei proporciona a cura, o que lhes trouxe uma alegria e tranquilidade indescritíveis. Nesse sentido, podemos imaginar o imenso alcance da salvação que nossos Ensinamentos podem levar a localidades remotas e de difícil acesso.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>A partir de minha conversão, passei a ministrar Johrei aos vizinhos que adoeciam e, para a alegria de todos, eles se recuperavam prontamente. Diante disso, os moradores das cinco casas, um total de trinta pessoas, ingressaram na fé. Em nossos lares, entronizamos duas Imagens da Luz Divina de Daikomyo Nyorai e três de Komyo Nyorai. Desde então, até o presente momento, nenhuma pessoa precisou de um médico, e nossos dias transcorrem felizes, repletos de inúmeras graças.</p>
 <p>Recentemente, durante uma cerimônia do seguro de saúde que premiou as famílias que não necessitaram de assistência médica por um ano, nossa aldeia inteira foi homenageada, e cada lar recebeu um certificado de reconhecimento. Atribuímos esta honra inteiramente à virtude de Meishu-Sama, a quem somos imensamente gratos. Como forma de retribuir, ainda que minimamente, a imensa graça recebida, dedico-me a servir na Obra de construção do Paraíso Terrestre.</p>
 <p>Rogo por Vossa contínua proteção e ofereço este relato como minha mais sincera gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 全村メシヤ教信者 『栄光』131号、昭和26(1951)年11月21日発行 左記お蔭話は全村メシヤ教信者というと、ちょっと驚くであろうが実は日本一小さい部落で、五戸で三十人の人口というのである。<br/><br/>しかし、何しろ千五百米（メートル）も高い山間（やまあい）であるから、病気になっても医師にかかることは大事であったところ、全村本教信者となったため、罹病の都度浄霊だけで簡単に治るので、その喜びと安心は一通りなものではない。<br/><br/>従って、今後人里遠い山間僻地などこそ、本教が行渡ったとしたら、いかに救われるかは想像出来るであろう。<br/><br/> 偏平足を救われ御守護の数々 大分県 帰一中教会 岡川 満（36） 医師より足首の手術の診断を受け、悲観のどん底より光明を見いだし、御守護をいただきまして全快致し、毎日感謝の気持ちで日々を過さしていただいております。<br/><br/>拙文ではありますが御礼をかねて御報告をさせていただきます。<br/><br/> 昭和二十二年八月頃より歩行すると右足の踵が少しずつ痛みを感ずるようになりました。<br/><br/>早速有難や（祈祷師）にお詣り致しましたところ「水神様の方がある」と言われ、その方を祈祷してくれましたが次第に歩行困難になり、三日間通いましたが歩行出来ず、毎日家庭において息んでおりましたが、日がたつにつれて病状は悪化し、遂に踵が赤く彩りました。<br/><br/>歩行せぬと痛みはありませんが歩行すると激しく痛みますので、又有難やを呼んで祈祷していただきました。<br/><br/>矢張り水神様の方があると御願い致しましたが何ら変りなく、遂に二週間以上となりました。<br/><br/>このままにしておいても困った事と思い、医師より診断を受けましたところ、病原不明で湿布をしていただきましたが、その結果もよくなく、しかたなく鍼に行く事にし、三カ月間程松葉杖に縋りながら通いました、その間三人の有難やさんにも見ていただきましたが大した効果なく、考えた末、別府国立病院にてレントゲンにて診ていただきましたところ、扁平足との診断がされ、早速義足をこしらえていただきまして、一カ月間程使用して見ましたが何ら変化なく困って思案にくれるばかりでした。<br/><br/>最後の手段と福岡大学病院に行き、診断を受けました。<br/><br/>レントゲンの結果骨が高いから手術をして骨を削ると言われました。<br/><br/>色々と手あてをしても治らず、困ってはいるものの骨を削ればもしかするとビッコになるのではと心配になり、恐ろしくもあり、思案の結果遂に手術を断念しまして帰郷致しました。<br/><br/>その後も日々悪化するばかりですので、佐伯市の病院にて診断、レントゲンを受けましたところ、扁平足との診断を下され、これで二人の医師の見立てが同じですので半ば安心はしたものの、数十日通いましたが一向に変化なく、毎日毎日淋しい思いで半自暴自棄になって、家内子供にまであたりちらして叱りつけるし、家庭内はまったく地獄そのままでした。<br/><br/> ある日知人が遊びに来て「手を振って病気をなおす染矢多加子という人のところに大変お詣りが多いそうだがお詣りして見ないか」とのすすめで溺れる者藁をも掴むのたとえの通りお詣りを致しましたところ、手を振るだけでお経も何もあげず、こんな事でと思いながら染矢先生が義足を外ずしてしばらくお詣りするようにと言われましたので、疑いながらも早速実行し、毎日御浄霊を受け、神様のお話しを色々と御伺いし、お守りを受ければ早くよくなるし、だれでも出来るとお伺いし、三日目入信さしていただきました。<br/><br/>気持のせいか一日、一日痛みが軽くなるような気がしますので、もしやと半喜びながら、又前から四、五人の有難やから診て貰って何ら変化がないので、これ位いな事でと疑いながらも十日間程お詣りする中すっかり痛みもなくなりまして全快致しました。<br/><br/>骨を削るとまで言われた病気が余り短時日にて全快致しましたので全快しながらも疑って見るのでした。<br/><br/>その時の私家族の者の喜びはいかばかりでしょう。<br/><br/>明主様有難う御座居ました。<br/><br/>厚く厚く御礼申しあげます。<br/><br/> 私の家族は山間僻地とでも申しますか、谷口という部落より山道を約一、五〇〇米程上った山の中腹にあります。<br/><br/>全部で五軒あります。<br/><br/>ちょっと想像も出来ないような僻遠な所です。<br/><br/>便利の悪いところだけに病人でも出来ると大変です。<br/><br/>何しろ谷口村より約三十分も登山せねばならぬのですからお医者もすぐの間に合わず、なお医者も余り喜ばず、その割村に病人のたえまなく、いつもだれかが寝ている状態です、村の方々もどれ程困っていたか分りませんでした。<br/><br/>私の入信以来病人が出来ますと御浄霊をしてあげ、すぐ御利益をいただき全快致しますので、それ以来五軒で三十人入信致し大光明如来様二体、光明如来様三体御奉斎致しまして全家挙って信徒にならしていただきまして、それ以来現在まで一人としてお医者を迎える者なく、数々の御利益をいただきまして日々を楽しく過さしていただいております。<br/><br/> 先般村で、健康保険でお医者へ一年間掛からぬ家を表彰致しました折、村全家が表彰を受けまして賞状をいただき、感謝しています。<br/><br/>これもひとえに明主様の御徳に依るものと感謝申し、万分の一の御恩報じと地上天国建設に御手伝いさしていただいております。<br/><br/>今後共御守護を御願い申しあげます。<br/><br/>右御礼をかね御報告さしていただきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

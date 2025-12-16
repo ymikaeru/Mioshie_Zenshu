@@ -3,56 +3,8 @@
 <html lang="ja"><head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/><title>hakone8</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/></head>
-<body style="background-color: rgb(233, 254, 218);"><blockquote>
-
-
+<body style="background-color: rgb(233, 254, 218);"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content"><blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ――― 人生の再発見 編者のことば 『箱 根美術館特別展パンフレット』、昭和28(1953)年8月26日発行 新聞という世の中で一ばんめまぐるし い仕事におわれているわれわれは日常ともすると芸術心喪失症におちいって空虚な人生の残骸だけをむさぼっている場合が多い。<br><br>人間の生のよろこびというのは あながちぜいたくのみにとどまるものではなく、性来の天性が要求するいろいろな趣味嗜好が年を経るにしたがって大きく人生を左右してゆくものである、そこ はかとなき芸術心がよどみ出づるのもまたそれであろう。<br><br> こんなわかりきったことを書く気持になったのも、じつはお恥しい次第だがこ の小冊子を編集しだしてからである。<br><br>ほんとうは芸術する心などというものはわれわれの世界からは非常に迂遠なものとなっていたのだが、たまたま箱根美術館 を往復する機会を得て『なんだ人生にもこんなヨキものが存在していたのか』とさも大発見でもしたように心ぬくまる思いがこんこんとよみがえってきたのであ る。<br><br> 本書著者両先生の筆を借りるまでもなく箱根美術館は発足、なお日浅いがよくもまあぎょうさんな逸品、名作をあつめたものだと素 人ながらその偉業におどろく、昔ならこっとう漁りは隠居の小遺銭ぐらいでやれたようだが、いまはそうではない、たいへんな財力が要る。<br><br>宗教団体だからと いって無尽蔵に浄財があつまるものでもないからやはりこれを保有維持してゆく主宰者がよほどの見識と決意がなければやれるものではない、われわれでさえ箱 根美術館を見て人生の再発見をしたぐらいだからこういうものに対する世人の関心度というものはきわめて薄く野球や映画のたぐいにとうていひってきするもの ではない、だがいまの世の中でこれほどこうまいな理想と、深遠な意義に富んだ仕事はまたとあろうか、つまりメシヤ教のいう「美の天国」を、夢から現世にう つしたのであるからだ。<br><br> この一本はつとめて専門的な弊を避け、箱根美術館入門の手引きというような調子を出そうとした。<br><br> したがって藤懸先生の原稿も一部分割愛を余儀なくされた、非礼を謝する。<br><br> 谷川先生は外遊直前の繁忙にもかかわらすわざわざ箱根に見 直しに出かけて原稿に補修を加えたほどだ、最近漸く範根美術館の真価が世にわかってきたようだ、遠く外国でも話題に上り出したときく、これが広く普遍され ればされるほどわが国がもっと住みよくなりさらに日本の真のすがたと味わいがより理解されるものと思う。<br><br> 日本という国は武というよ りはほんとうは美の国であったのだ。<br><br> 宗教はつまり人間の美的要素が求めようとする現実のオアシスである、美術館はそこにりょうらん と咲き乱れる花園である。<br><br>すがすがしい情感を人々の心奥におくるであろう。<br><br> 天恵の美におおわれた箱根に美の聖堂がさらに大きく育ぐ まれてゆくことは日本のあすのためにまこと慶賀にたえない。<br><br> 本書刊行の意図もそれを少しでも援助しようという以外なにものもない。<br><br> 最後に本書の体裁はとくに図版のレイアウトなど新形式をとったのであることを一言お断りしておく。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Mestre Okada Jikan – A Redescoberta da Vida</h2>
 <h3>Palavra do Editor</h3>
@@ -87,4 +39,4 @@ function toggleLang(lang) {
 りはほんとうは美の国であったのだ。<br/>　宗教はつまり人間の美的要素が求めようとする現実のオアシスである、美術館はそこにりょうらん
 と咲き乱れる花園である。すがすがしい情感を人々の心奥におくるであろう。<br/>　天恵の美におおわれた箱根に美の聖堂がさらに大きく育ぐ
 まれてゆくことは日本のあすのためにまこと慶賀にたえない。<br/>　本書刊行の意図もそれを少しでも援助しようという以外なにものもない。<br/>　
-最後に本書の体裁はとくに図版のレイアウトなど新形式をとったのであることを一言お断りしておく。<br/><br/><br/><br/></blockquote></body></html>
+最後に本書の体裁はとくに図版のレイアウトなど新形式をとったのであることを一言お断りしておく。<br/><br/><br/><br/></blockquote></div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ――― 人生の再発見 編者のことば 『箱 根美術館特別展パンフレット』、昭和28(1953)年8月26日発行 新聞という世の中で一ばんめまぐるし い仕事におわれているわれわれは日常ともすると芸術心喪失症におちいって空虚な人生の残骸だけをむさぼっている場合が多い。<br/><br/>人間の生のよろこびというのは あながちぜいたくのみにとどまるものではなく、性来の天性が要求するいろいろな趣味嗜好が年を経るにしたがって大きく人生を左右してゆくものである、そこ はかとなき芸術心がよどみ出づるのもまたそれであろう。<br/><br/> こんなわかりきったことを書く気持になったのも、じつはお恥しい次第だがこ の小冊子を編集しだしてからである。<br/><br/>ほんとうは芸術する心などというものはわれわれの世界からは非常に迂遠なものとなっていたのだが、たまたま箱根美術館 を往復する機会を得て『なんだ人生にもこんなヨキものが存在していたのか』とさも大発見でもしたように心ぬくまる思いがこんこんとよみがえってきたのであ る。<br/><br/> 本書著者両先生の筆を借りるまでもなく箱根美術館は発足、なお日浅いがよくもまあぎょうさんな逸品、名作をあつめたものだと素 人ながらその偉業におどろく、昔ならこっとう漁りは隠居の小遺銭ぐらいでやれたようだが、いまはそうではない、たいへんな財力が要る。<br/><br/>宗教団体だからと いって無尽蔵に浄財があつまるものでもないからやはりこれを保有維持してゆく主宰者がよほどの見識と決意がなければやれるものではない、われわれでさえ箱 根美術館を見て人生の再発見をしたぐらいだからこういうものに対する世人の関心度というものはきわめて薄く野球や映画のたぐいにとうていひってきするもの ではない、だがいまの世の中でこれほどこうまいな理想と、深遠な意義に富んだ仕事はまたとあろうか、つまりメシヤ教のいう「美の天国」を、夢から現世にう つしたのであるからだ。<br/><br/> この一本はつとめて専門的な弊を避け、箱根美術館入門の手引きというような調子を出そうとした。<br/><br/> したがって藤懸先生の原稿も一部分割愛を余儀なくされた、非礼を謝する。<br/><br/> 谷川先生は外遊直前の繁忙にもかかわらすわざわざ箱根に見 直しに出かけて原稿に補修を加えたほどだ、最近漸く範根美術館の真価が世にわかってきたようだ、遠く外国でも話題に上り出したときく、これが広く普遍され ればされるほどわが国がもっと住みよくなりさらに日本の真のすがたと味わいがより理解されるものと思う。<br/><br/> 日本という国は武というよ りはほんとうは美の国であったのだ。<br/><br/> 宗教はつまり人間の美的要素が求めようとする現実のオアシスである、美術館はそこにりょうらん と咲き乱れる花園である。<br/><br/>すがすがしい情感を人々の心奥におくるであろう。<br/><br/> 天恵の美におおわれた箱根に美の聖堂がさらに大きく育ぐ まれてゆくことは日本のあすのためにまこと慶賀にたえない。<br/><br/> 本書刊行の意図もそれを少しでも援助しようという以外なにものもない。<br/><br/> 最後に本書の体裁はとくに図版のレイアウトなど新形式をとったのであることを一言お断りしておく。<br/><br/></div><script src="../compare.js"></script></body></html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij1031</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第一篇 ３ 041-059 御尊影 031 御霊写真掲揚 大先生様の「霊写真」を御掛けさせて戴いて宜敷いでしょうか。<br><br>また御掛けさせて頂く場合、御写真との位置はどう致すべきでしょうか。<br><br> 霊写真は未だ掛けてはいけない。<br><br> 032 御霊写真拝受の事 奇蹟物語に御掲載の霊写真及び他の霊写真を何とか頂戴致す訳には参らぬものでございましょうか。<br><br>御伺い申し上げます。<br><br> 上げない事はない。<br><br>功労のあった人にと言っている。<br><br>（S24.12. 1） 033 叢書の御尊影 信徒の中で自観叢書「奇蹟物語」の霊写真を切り取ってお祀りしたいと申す者が御座居ますが、よろしゅう御座居ましょうか。<br><br>御教示願います。<br><br> 差支えないが本当のお写真を別けるから申込めよ。<br><br> 本にあるのを切取るのは嘘である。<br><br>（S25. 4.25） 034 御尊影の御奉斎 御叢書第四篇巻頭の霊写真、御神影を御額に納めまして善く奉斎させて頂きましてよろしゅう御ざいましょうか。<br><br> 差支えないが時期の関係がある。<br><br>（S24.10.19） 035 御尊影をアルバムにする事 新聞、雑誌紙上掲載の御写真をアルバム等に御納めして宜しいでしょうか。<br><br>また最近は御写真を頂けませんため御額にお納めし礼拝してよいでしょうか。<br><br> アルバムはいけない。<br><br>額は構わぬ。<br><br> 036 新聞紙上の御尊影 最近新聞等にて拝見致しました大先生様や御軸の御写真はどう致しましたら宜しゅうございましょうか。<br><br>御教示御願い申し上げます。<br><br> （信者なら）切抜いておけばよい。<br><br>（S24. 1. 8） 037 グラフのお姿額にする 毎日グラフに明主様の和やかな御姿の御写真が御座居ますが、お額にして上げさせて戴いていかがなもので御座居ましょうか。<br><br> 額にしてもよい。<br><br> 038 御尊影の赤色除れる 大先生様の御写真が赤褐色化致します事は化学的変化との御教えを以前戴きましたが、西萩集会所の御写真は本年七月頃より九月頃迄は大変赤くなっており、九月十六日にこの家の持主が死亡致し、十月に入ってからは殆ど赤色がとれてしまいました。<br><br>これは数人の方がはっきり認めて驚いております。<br><br>霊的に何か関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 赤いのはお働きになるため霊が強くあった霊。<br><br>写っていたのである。<br><br>主人が亡くなりその必要がない故、普通の写真になった。<br><br>神仏を拝むのと拝まぬのとは違ってくる。<br><br>拝む程御力は強くなる。<br><br> 褪色的に赤いとすれば、先の人の想念がどっか間違っている。<br><br>それで御写真も主人の気持が写ったのである。<br><br>（S24.11.22） 039 御尊影の褪色とお取替 成城の教導所に御祭りしてあります大先生様の御写真が最近色が褪せて赤っぽくなって参りましたが、御取替させていただいた方がよろしゅうございましょうか。<br><br>なお、御取替した場合、御写真の処置はどうしたらよろしいもので御座いましょうか。<br><br>なお、その場合、まわりの表装はそのままにして、御写真だけお張替させて頂いてもよろしゅう御座いましょうか。<br><br>お伺い申し上げます。<br><br> お写真は赤くなっても色が褪せても御顔が変らなければよい。<br><br> 変えてもよいが、その場合表装も新しくすべきである。<br><br>（S24. 4.21） 040 御尊影の奇瑞 三重県桑名郡の信者高井善一さん宅の大先生様の御写真が、夜電気を消し（隣室の電気は点けたまま）薄暗く致しますと畳に三尺位の大きさにて左記のようにうつります。<br><br> 床の間に向って真中の手前に円光がうつり、それが動きます。<br><br>左角に大先生様の御顔の姿のようにうつります。<br><br>円光の向うに龍体らしい形がうつります。<br><br>最初は淡く最近次第に濃くなって参りましたが、何か霊的に意味が御座いましょうか。<br><br>御教え御願い申し上げます。<br><br> 御光が強くなると、だんだんいろいろな事がある。<br><br>（S24. 7.12）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>031 A Entronização da Fotografia Espiritual</h2>
 <p>Seria permitido entronizar a "Fotografia Espiritual" do Grande Mestre? Em caso afirmativo, qual deveria ser sua posição em relação à outra fotografia?</p>
@@ -121,5 +273,48 @@ function toggleLang(lang) {
 <h2>040 O Portento da Venerável Imagem</h2>
 <p>Na residência do fiel Zenichi Takai, no distrito de Kuwana, província de Mie, ocorre um fenômeno singular. À noite, quando se apaga a luz do cômodo, mantendo acesa apenas a do quarto adjacente, a fotografia do Grande Mestre projeta na penumbra uma imagem sobre o tatame, com cerca de três <em>shaku</em> (aproximadamente 90 cm), que se manifesta da seguinte forma: no centro, em frente ao <em>tokonoma</em>, projeta-se um halo de luz que se move; no canto esquerdo, surge uma forma semelhante ao semblante do Grande Mestre; e, para além do halo, uma figura que se assemelha ao corpo de um dragão. Inicialmente, a projeção era tênue, mas, recentemente, tem se tornado cada vez mais nítida. Há algum significado espiritual nisso?</p>
 <p>À medida que a Luz Divina se intensifica, gradualmente diversos fenômenos ocorrem. (12 de julho de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第一篇 ３ 041-059 御尊影 031 御霊写真掲揚 大先生様の「霊写真」を御掛けさせて戴いて宜敷いでしょうか。<br/><br/>また御掛けさせて頂く場合、御写真との位置はどう致すべきでしょうか。<br/><br/> 霊写真は未だ掛けてはいけない。<br/><br/> 032 御霊写真拝受の事 奇蹟物語に御掲載の霊写真及び他の霊写真を何とか頂戴致す訳には参らぬものでございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 上げない事はない。<br/><br/>功労のあった人にと言っている。<br/><br/>（S24.12. 1） 033 叢書の御尊影 信徒の中で自観叢書「奇蹟物語」の霊写真を切り取ってお祀りしたいと申す者が御座居ますが、よろしゅう御座居ましょうか。<br/><br/>御教示願います。<br/><br/> 差支えないが本当のお写真を別けるから申込めよ。<br/><br/> 本にあるのを切取るのは嘘である。<br/><br/>（S25. 4.25） 034 御尊影の御奉斎 御叢書第四篇巻頭の霊写真、御神影を御額に納めまして善く奉斎させて頂きましてよろしゅう御ざいましょうか。<br/><br/> 差支えないが時期の関係がある。<br/><br/>（S24.10.19） 035 御尊影をアルバムにする事 新聞、雑誌紙上掲載の御写真をアルバム等に御納めして宜しいでしょうか。<br/><br/>また最近は御写真を頂けませんため御額にお納めし礼拝してよいでしょうか。<br/><br/> アルバムはいけない。<br/><br/>額は構わぬ。<br/><br/> 036 新聞紙上の御尊影 最近新聞等にて拝見致しました大先生様や御軸の御写真はどう致しましたら宜しゅうございましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> （信者なら）切抜いておけばよい。<br/><br/>（S24. 1. 8） 037 グラフのお姿額にする 毎日グラフに明主様の和やかな御姿の御写真が御座居ますが、お額にして上げさせて戴いていかがなもので御座居ましょうか。<br/><br/> 額にしてもよい。<br/><br/> 038 御尊影の赤色除れる 大先生様の御写真が赤褐色化致します事は化学的変化との御教えを以前戴きましたが、西萩集会所の御写真は本年七月頃より九月頃迄は大変赤くなっており、九月十六日にこの家の持主が死亡致し、十月に入ってからは殆ど赤色がとれてしまいました。<br/><br/>これは数人の方がはっきり認めて驚いております。<br/><br/>霊的に何か関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 赤いのはお働きになるため霊が強くあった霊。<br/><br/>写っていたのである。<br/><br/>主人が亡くなりその必要がない故、普通の写真になった。<br/><br/>神仏を拝むのと拝まぬのとは違ってくる。<br/><br/>拝む程御力は強くなる。<br/><br/> 褪色的に赤いとすれば、先の人の想念がどっか間違っている。<br/><br/>それで御写真も主人の気持が写ったのである。<br/><br/>（S24.11.22） 039 御尊影の褪色とお取替 成城の教導所に御祭りしてあります大先生様の御写真が最近色が褪せて赤っぽくなって参りましたが、御取替させていただいた方がよろしゅうございましょうか。<br/><br/>なお、御取替した場合、御写真の処置はどうしたらよろしいもので御座いましょうか。<br/><br/>なお、その場合、まわりの表装はそのままにして、御写真だけお張替させて頂いてもよろしゅう御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> お写真は赤くなっても色が褪せても御顔が変らなければよい。<br/><br/> 変えてもよいが、その場合表装も新しくすべきである。<br/><br/>（S24. 4.21） 040 御尊影の奇瑞 三重県桑名郡の信者高井善一さん宅の大先生様の御写真が、夜電気を消し（隣室の電気は点けたまま）薄暗く致しますと畳に三尺位の大きさにて左記のようにうつります。<br/><br/> 床の間に向って真中の手前に円光がうつり、それが動きます。<br/><br/>左角に大先生様の御顔の姿のようにうつります。<br/><br/>円光の向うに龍体らしい形がうつります。<br/><br/>最初は淡く最近次第に濃くなって参りましたが、何か霊的に意味が御座いましょうか。<br/><br/>御教え御願い申し上げます。<br/><br/> 御光が強くなると、だんだんいろいろな事がある。<br/><br/>（S24. 7.12）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

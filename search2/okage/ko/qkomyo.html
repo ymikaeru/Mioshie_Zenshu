@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkomyo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 光明の彼岸へ 『地上天国』4号、昭和24(1949)年5月25日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 神奈川県 日本観音教明成会 教導師 岡田萬次郎（29） 拙き筆をもってここに「光明の彼岸へ」の一文を記念し、お観音様の深き御恵みに御礼の言葉を述べさせて頂きます。<br><br> 生来、病気というものを知らずにいました私が、突然喀血し肺結核を宣せられて医師の門をくぐったのは二十三歳、昭和十八年の夏のことでした。<br><br>病状は悪化の一途、終戦の年の三月三十一日、当時平塚に開業しておられました小林先生（現明成会長）に御浄霊頂くまで、肉体の痛苦と精神的苦悩。<br><br>加えて熾烈（しれつ）極むる戦時下に放浪の生活が続きました。<br><br>喀血の度は数知れず。<br><br>ある時は毎月一週間位は喀血が続き、医師にもさじを投げられた形で家庭療法なども試みましたが、悪くなる一方にてただ生きるという本能だけが痩せおとろえた身体をひきずっていると言った感じでした。<br><br>幸い小林先生のお世話になりまして、その年五月六日に教修を頂き当時は浄霊のみでありましたが、現実に偉大なる御力を頂き自ら体験させて頂き全く救われた気持で一杯でした。<br><br>身体が一日一日と生気を取戻すと共に、前途の光明は既に春日のごとく私の五体を包む感じでありました。<br><br>度々の御浄化も頂きました。<br><br> 平塚の空襲にて郷里へお帰りになられた先生が再び小田原へお出でになり、当地へ教導所を開かれて、引続き三年半の間殆ど毎日のように御浄霊を頂いて参りました。<br><br>その間お蔭様でどんなにひどい浄化にも一日として寝込むようなことなく過しました。<br><br>全くお守様を頂いているお蔭でございます。<br><br>空襲の際には平塚市の余波をうけて、川を隔てた私の家も焼夷弾に見舞われましたが、全部不発にて戦災を免れました。<br><br>硝煙けぶる近隣の様をみ、愕然として頭が下がりただ大先生様の偉大なる御霊徳に感涙に咽びました。<br><br>終戦後二年、輝かしき日本観音教団が発足され、会員として有難きお観音様の御恵を日夜頂きつつも、何一つ神の御心に副うことなき凡夫でございますにも拘わらず、爾来生和会、日月会、明成会と役員の重責を命ぜられ日夜の浄化の身にひたすら神の御守護を念じつつ至らぬながらお仕事をつとめさせて頂きました。<br><br> 世間一般に宗教というと何か人間生活とはかけ離れた仏臭いもののように思われ勝ちですが、私自身信仰というものに一種の用心深さというものを持ち、何か信仰というものが怖かったのでした。<br><br>今迄の放縦な生活から信仰に入ると堅苦しくて身動き出来ないようになるのが堪らないのでした。<br><br>人間の真実というものには絶えずひかれながら未だ信仰の中に真裸でとび込む勇気と決断がなかったのです。<br><br>そうした中に、文学というものが信仰への一過程として果たした役割を今は懐しく思われます。<br><br>当時の句一句記させていただきます。<br><br> 春衣松風かくれなかりけり すべて時期であり浄化であると自分勝手に解釈して、我と執着が絶えずつきまとって離れないのでした。<br><br>会長先生から「御聖業におつきなさい」と言われ、私は沈黙のまま幾度かこの会長先生の有難いお言葉を無量の思いで腹の底にしまい込んでしまうのでした。<br><br>余りにも私は曇りが多過ぎました。<br><br>かりそめな気持では出来ぬ厳粛さがいつも私を沈黙させました。<br><br> 一夜小田原の会長先生のお宅へ伺い晩餐会を給わりました。<br><br>信仰とは個に徹するところから出発するのだろうか、そんな事を漠然と考えていました。<br><br>その夜の先生のお言葉に「神は自由無碍です」ということを言われました。<br><br>又先生から縁談をすすめられて不甲斐なき身ではありますが、やはり自分一個の問題ではない大いなる時期の切迫が感じられて鞭打たるる思いでありました。<br><br>宿を給うその夜は珍らしくびっしょり盗汗をかきました。<br><br>帰途の車中すべてを神様にお任せした時の清々しい気持で、感激と又自責の念にかられながら沁々と信仰の足らなさが嘆かれるのでした。<br><br> 昨年三月縁談も芽出度く信仰の伴侶を得て、七月には教導師の資格をいただき、茅ヶ崎出張所の助手として御聖業につかせていただきました。<br><br>十一日会長先生御夫妻の御媒酌により御神前に結婚式を挙行、本年一月八日自宅にて開業させて頂くまでお観音様のお導きがなかったならとうに滅び去ってなかった命をもって、今日ここに大先生様の大御恵によりまして御言葉に精進させていただいております。<br><br>ただただ感謝の外ありません。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Rumo à Margem da Luz</h2>
 <p>Publicado na revista “Paraíso Terrestre”, volume 4, em 25 de maio de 1949.
@@ -110,5 +265,48 @@ Publicado na coletânea “Jikan Sosho”, volume 1, “A Tuberculose e a Terapi
 <p>No trem, durante a viagem de volta, ao entregar tudo a Deus, experimentei uma sensação de imensa leveza. Fui tomado, ao mesmo tempo, por uma profunda emoção e por um sentimento de autorrecriminação, lamentando sinceramente a insuficiência de minha fé.</p>
 <p>Em março do ano passado, o casamento se concretizou e recebi a bênção de ter uma companheira na fé. Em julho, obtive a qualificação de Ministro e tive a permissão de servir à Obra Divina como assistente na unidade de Chigasaki. No dia 11 de novembro, com o Reverendo Presidente e sua esposa como padrinhos, celebramos nossa cerimônia de casamento perante o Altar Divino. Posteriormente, em 8 de janeiro deste ano, tive a permissão de iniciar as atividades em minha própria residência. Se não fosse pela orientação da Senhora Kannon, minha vida já teria se extinguido há muito tempo. É com essa vida, que me foi concedida, que hoje, pela imensa graça de Meishu-Sama, me empenho em aprofundar nos Ensinamentos.</p>
 <p>Por tudo isso, minha gratidão é simplesmente imensurável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 光明の彼岸へ 『地上天国』4号、昭和24(1949)年5月25日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 神奈川県 日本観音教明成会 教導師 岡田萬次郎（29） 拙き筆をもってここに「光明の彼岸へ」の一文を記念し、お観音様の深き御恵みに御礼の言葉を述べさせて頂きます。<br/><br/> 生来、病気というものを知らずにいました私が、突然喀血し肺結核を宣せられて医師の門をくぐったのは二十三歳、昭和十八年の夏のことでした。<br/><br/>病状は悪化の一途、終戦の年の三月三十一日、当時平塚に開業しておられました小林先生（現明成会長）に御浄霊頂くまで、肉体の痛苦と精神的苦悩。<br/><br/>加えて熾烈（しれつ）極むる戦時下に放浪の生活が続きました。<br/><br/>喀血の度は数知れず。<br/><br/>ある時は毎月一週間位は喀血が続き、医師にもさじを投げられた形で家庭療法なども試みましたが、悪くなる一方にてただ生きるという本能だけが痩せおとろえた身体をひきずっていると言った感じでした。<br/><br/>幸い小林先生のお世話になりまして、その年五月六日に教修を頂き当時は浄霊のみでありましたが、現実に偉大なる御力を頂き自ら体験させて頂き全く救われた気持で一杯でした。<br/><br/>身体が一日一日と生気を取戻すと共に、前途の光明は既に春日のごとく私の五体を包む感じでありました。<br/><br/>度々の御浄化も頂きました。<br/><br/> 平塚の空襲にて郷里へお帰りになられた先生が再び小田原へお出でになり、当地へ教導所を開かれて、引続き三年半の間殆ど毎日のように御浄霊を頂いて参りました。<br/><br/>その間お蔭様でどんなにひどい浄化にも一日として寝込むようなことなく過しました。<br/><br/>全くお守様を頂いているお蔭でございます。<br/><br/>空襲の際には平塚市の余波をうけて、川を隔てた私の家も焼夷弾に見舞われましたが、全部不発にて戦災を免れました。<br/><br/>硝煙けぶる近隣の様をみ、愕然として頭が下がりただ大先生様の偉大なる御霊徳に感涙に咽びました。<br/><br/>終戦後二年、輝かしき日本観音教団が発足され、会員として有難きお観音様の御恵を日夜頂きつつも、何一つ神の御心に副うことなき凡夫でございますにも拘わらず、爾来生和会、日月会、明成会と役員の重責を命ぜられ日夜の浄化の身にひたすら神の御守護を念じつつ至らぬながらお仕事をつとめさせて頂きました。<br/><br/> 世間一般に宗教というと何か人間生活とはかけ離れた仏臭いもののように思われ勝ちですが、私自身信仰というものに一種の用心深さというものを持ち、何か信仰というものが怖かったのでした。<br/><br/>今迄の放縦な生活から信仰に入ると堅苦しくて身動き出来ないようになるのが堪らないのでした。<br/><br/>人間の真実というものには絶えずひかれながら未だ信仰の中に真裸でとび込む勇気と決断がなかったのです。<br/><br/>そうした中に、文学というものが信仰への一過程として果たした役割を今は懐しく思われます。<br/><br/>当時の句一句記させていただきます。<br/><br/> 春衣松風かくれなかりけり すべて時期であり浄化であると自分勝手に解釈して、我と執着が絶えずつきまとって離れないのでした。<br/><br/>会長先生から「御聖業におつきなさい」と言われ、私は沈黙のまま幾度かこの会長先生の有難いお言葉を無量の思いで腹の底にしまい込んでしまうのでした。<br/><br/>余りにも私は曇りが多過ぎました。<br/><br/>かりそめな気持では出来ぬ厳粛さがいつも私を沈黙させました。<br/><br/> 一夜小田原の会長先生のお宅へ伺い晩餐会を給わりました。<br/><br/>信仰とは個に徹するところから出発するのだろうか、そんな事を漠然と考えていました。<br/><br/>その夜の先生のお言葉に「神は自由無碍です」ということを言われました。<br/><br/>又先生から縁談をすすめられて不甲斐なき身ではありますが、やはり自分一個の問題ではない大いなる時期の切迫が感じられて鞭打たるる思いでありました。<br/><br/>宿を給うその夜は珍らしくびっしょり盗汗をかきました。<br/><br/>帰途の車中すべてを神様にお任せした時の清々しい気持で、感激と又自責の念にかられながら沁々と信仰の足らなさが嘆かれるのでした。<br/><br/> 昨年三月縁談も芽出度く信仰の伴侶を得て、七月には教導師の資格をいただき、茅ヶ崎出張所の助手として御聖業につかせていただきました。<br/><br/>十一日会長先生御夫妻の御媒酌により御神前に結婚式を挙行、本年一月八日自宅にて開業させて頂くまでお観音様のお導きがなかったならとうに滅び去ってなかった命をもって、今日ここに大先生様の大御恵によりまして御言葉に精進させていただいております。<br/><br/>ただただ感謝の外ありません。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

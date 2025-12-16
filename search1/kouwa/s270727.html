@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270727</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月27日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月二十七日 【御教え】 お医者が病気を作るということは始終言ってますが、これはあらゆる方面がそうなってます。<br><br>そういったような間違ったこと、そういうことのその根本は悪です。<br><br>ですからどうしても悪というものを、つまりなくしなければならないわけです。<br><br>で、この悪というものは、いろんな方面に現われてますが、今悪の根本を書いたのですが、世の中のいろんな人間の苦しみというものは、およそその因は悪です。<br><br>あんまり悪が多過ぎるために、割合人間は気易くなる。<br><br>ところがよく考えてみると、とにかく薬がいろいろな病気を作るということは、立派な悪です。<br><br>ところがこういうものは、やっている人が善と信じて悪を行なうのですから、これが始末が悪いのです。<br><br>人をやっつけたり、泥棒したり暴力を振るったりするのは、これは実際分かりきった悪ですが、こういった善と信じて行なう悪が一番恐ろしいのです。<br><br>医学は善と信じて行なう悪ですし、今の役人は善の仮面を被って悪を行なう。<br><br>要するに法律を悪用してやるのです。<br><br>ですから法律の目的は善なのですから、つまり善を悪に利用するのです。<br><br>そういう悪です。<br><br>政治でも、破防法案――これは悪を善が取り締まるというわけですが、しかしこれも大いに反対がありました。<br><br>なんだというと、反対の方にも悪いのと良いのとあります。<br><br>共産主義の方の活動の方は、これは悪の方であるし、また善の方は、治安維持法みたいに官憲の方で悪用して、罪なき人民を苦しめるということがあっては困るという反対です。<br><br>ですから反対の方にも善悪があるのです。<br><br>というのは、昔、治安維持法なんかで、大いに悪に利用するということを、人民は大いに経験させられているために、スラスラと行かなかった。<br><br>そういうことは、なにかというと、みんな悪です。<br><br>もし悪というものがなかったら、世の中は簡単な良い世の中になります。<br><br>やれ食い物が足りない。<br><br>不景気だとか、働いても働いても食えないということは、その根本はみんな悪です。<br><br>肥料によって米が穫れないということも、これはつまり悪を善と信じてやっているわけです。<br><br>それを分からせようと思って、われわれは骨を折っているのです。<br><br>そうしていろんな――税金が高いとかなんとか言う。<br><br>政府で、金のいる――歳出なんかでも、悪による歳出の方がずっと多いのです。<br><br>大体、今伝染病が非常にはやる。<br><br>それを防止するために――一人赤痢が出るとかいっても、それに対する係が何人いるか分からないし、で、そのために自動車で行くとか消毒するとか、いろんなことを言って、たいへんなものです。<br><br>ですから結核が増えるというと、療養所を作らなければならない。<br><br>ベッドを作り、いろんな施設から予防とかいろんなことをする。<br><br>これはなんだというと、元は悪を善と信じてやっている結果ですから、やっぱり因は悪です。<br><br>そういった――警察制度とか裁判所、社会施設――そういういろんな――数えあげたらきりがないが、不幸な人間ができる。<br><br>社会事業とか未亡人問題だとかいろいろあります。<br><br>それ相応の結果苦しみが出る。<br><br>そういう――戦争の結果は、その因は悪です。<br><br>人の国を占領するとか掠奪するとか、そういった悪が因でできたものです。<br><br>悪による人間の被害と苦しみは、細かく勘定したらたいへんなものです。<br><br>もし悪というものが、半分に減り三分の一に減るとしたら、税金だってそれ相当に減ります。<br><br>だから悪をなくするということは、どうしても宗教でなければならないのです。<br><br>悪というのは心の問題ですから、心の問題を解決するには、これはやはり信仰より他にないのです。<br><br>これは、理屈はそうだが、ただ力のないところの信仰、お説教のようなものでは――それはないよりはましだが、とても悪の方が力が強くて、それをやっつけることはとうていできない。<br><br>だからいろいろな機関や組織はうまくできているのですが、それを悪が利用するから、どうしても悪というものを減らす――ぜんぜんなくすということより他にないのです。<br><br>ところがそれに気がつきそうなものだが、あんがいそういうことに気がつかない。<br><br>気がつかないはずです。<br><br>その、気がつくべき人の中にやっぱり悪があるから、やっぱり都合が悪い。<br><br>それで悪というものはしようがないと諦めているのです。<br><br>諦めているというのは、なにかというと、あらゆる宗教が諦めている。<br><br>で、今まではどうしても善の方が悪にかなわない。<br><br>そういうことをこれから書いていこうと思って、最初の所をちょっと書いておいた。<br><br> （御論文「天国建設と悪の追放」）【栄光 一六九号】 今読んだ通り、今までは悪が必要だったのです。<br><br>ですから私が、この主なる働きと言いますか、それを長い間に神様から見せられたのです。<br><br>ですから、私は若い時分からあらゆる病気をしたのです。<br><br>それは数えあげたら――身体中の病気をしてます。<br><br>病院にも三度入院しましたし、覚悟をして遺言までしたのが、やっぱり三度くらいあります。<br><br>そうして最後に歯ですが、これは未だにすっかり治っていません。<br><br>今もって浄霊してますが、今年で三十七年になります。<br><br>三十七年前に入れた薬の、そのために頭は悪くなるし、今しゃべるにもはっきりしゃべれないのは、入れ歯の関係ですが、入れ歯を歯医者に診せると、どうしても抜かなければならないと言うのです。<br><br>私は抜かないつもりで浄霊していると、だんだん抜かなくてすむようになってきている。<br><br>もう少しすると、抜かずに入れ歯できるようになる。<br><br>ここの歯医者ですが、女中に言うのです。<br><br>明主様は――もうとうにお入れにならなければならないが――かえってこのごろは具合が良いですと言うと、不思議だなと言っている。<br><br>そんなような具合で、歯がグラグラになっていた。<br><br>私の歯は薬毒が入っているので、それでグラグラしたのです。<br><br>その薬毒が取れるとグッと締まって治ると思っているのです。<br><br>このごろはグッと締まってきてますから、もう一息です。<br><br>そんなような具合に薬毒の経験――病院に行って全身麻薬で手術したこともあります。<br><br>その時分には注射はあまりなかったですから、注射だけはしなかったですが、あらゆることをみんなやりました。<br><br> そうして今度は薬毒の害を知って、さらに神様は司法制度――警察や裁判所、そういう悪をだんだん見せられた。<br><br>豚箱やそういうこともさんざん経験しました。<br><br>それから刑務所に行って、そういう方面の悪は実に良く分かった。<br><br>しかし、こういう悪は私は割に少ない方で、一番酷い目に遭ったのはキリストです。<br><br>キリストなんかは、まるで――あの時代はそうなっていたか知らないが、ユダの讒言（ざんげん）によって、あの時の王様がキリストを陰謀の親方と思って、そうして磔にしたのです。<br><br>日本の宗教家でもたくさんあります。<br><br>ですから私が何百年前にこういうことをやれば、遠島は無論です。<br><br>八丈島辺りに――。<br><br>で、明治近くなってから、天理教の教祖は、警察や牢屋に入ったのが十六回です。<br><br>懲役――そんなようなものが四回ありました。<br><br>一番長かったのが、確か半年だったと思う。<br><br>その時分には信仰の自由はないし、めちゃくちゃです。<br><br>今ではこれでよほど良いです。<br><br>以前ですと、まだ罪の決まらないうちに美術館なんて、とてもそんなことはできない。<br><br>そんなような具合で、神様はいろんな経験をさせられた。<br><br>去年も刑務所に行った時に、すぐ隣が、塀一つですが、懲役人が鍬を持って労役をやってましたが、懲役とはこんなものかと、神様はここまで見せられるのかと、つくづく見せられました。<br><br>そんなような具合で、いろんな見学をさせられました。<br><br>で、結局において悪です。<br><br>その悪のうちで一番深刻なのは薬です。<br><br>ところがどういうわけで薬というものができ、のますようになったのかというと、この薬をのませたのは観音様です。<br><br>観音様が薬師如来になって薬をのむようにしたのです。<br><br>というのは、人間が原始時代には非常に――獣みたいな人間だった。<br><br>獣と闘うのですから獰猛だった。<br><br>人間の進化の最初は、獣との闘いです。<br><br>それを防禦するための闘いが最初で、これで人間はよほど智恵というものが出てきた。<br><br>神様がこしらえられた最初の人間はボーッとしたものですが、だんだん智恵を磨くのです。<br><br>そうして地上天国を造るのです。<br><br>それにはどうしても悪を作って善と闘わすという手段をとったのです。<br><br>獣との闘いがすんだら、今度は人間との闘いです。<br><br>これは歴史にもありますが、野蛮人同士の闘いです。<br><br>よく映画にもありますが、われわれも何千年何万年前はそうだったのです。<br><br>それにはどうしても悪人というものを作らなければならない。<br><br>善人だったらそうはしないから、文化も発達しないし智恵も発達しないのです。<br><br>それからもう一つは、争闘させてある程度人間の智恵ができると、今度は人間を弱らせなければならない。<br><br>弱らせると非常に智恵が発達するのです。<br><br>というのは、人間が健康ですと、どこに行くのにも駈け出しても歩いても平気ですから、交通なんてあんまり関心を持たない。<br><br>人間が弱ってくると、とてもやりきれない、楽をして遠くに行くというようになる。<br><br> それから今読んだように、戦争を作るというのは、どうしても野心家――どんなに悪いことをしても、どんなに大勢の人間を殺しても、そこを掌握するというような野心です。<br><br>だからしてそれをこっちが防ぐために大いに智恵を振るって、そういう方法をとらなければならない。<br><br>そこでいろいろな立派な発明もできるし、智恵もドンドン進むのです。<br><br>その結果原子爆弾のような――それは発明としたら、今でも一番すばらしいものです。<br><br>ですからそういった英雄という者も必要なのです。<br><br>で、人間がそれではあんまりかわいそうだし、それではかえって悪の世界になるから、それで宗教というものをこしらえた。<br><br>それで、それをそれではいかんと因果応報の理由なんか説いて、ある程度悪の膨大を制限する――そういう人が宗教家というのです。<br><br>ここまで人智が発達し、ここまでいろんな物質文化が発達すると、これ以上になると今度は危なくなる。<br><br>人類の破壊になりますから、ここらで止めて、今までの物質文化を良い方に使う。<br><br>そうして神様の最後の目的である理想世界――地上天国を造るという、その時期になったのです。<br><br>そこで今までのいろんな間違ったことを分からせ、そうしてそれをなくさなければならない。<br><br>ですから病気は薬毒だ、間違っていると言ったところで、こうして（御浄霊）治す。<br><br>それを見せなければ人間は信じませんから、こういう治す力を私に与えて、医学や薬の誤りを知らせるという意味で、それが根本の意味です。<br><br>それからもう一つは、今言う悪というものは、これからその説明をやるのですが。<br><br>これは心に働いている悪というのは簡単です。<br><br>これは信者は良く知ってますから、そう精しく説明する必要はないが、つまり人間に憑依している副守護神――動物霊がやるのだから、そこで悪を制限するには動物霊を弱める。<br><br>動物霊を弱めるには霊の曇りの多い少ない――曇りが多ければ、動物霊は根本的の悪のものですから悪をさせる。<br><br>動物霊をある程度抑えるには光です。<br><br>光とは魂の光です。<br><br>それには曇りを取らなければならない。<br><br>だから悪の因というのは、結局霊の病気になる。<br><br>つまり体の病気が毒血で、霊の病気が曇りです。<br><br>ですから曇りを取るということになる。<br><br>浄霊するということは、肉体の病気ばかりでなくて、霊の病気も一緒に取ってくれる。<br><br>浄めるわけです。<br><br>ですから浄霊という。<br><br>霊が浄まると副守護神が弱りますから――副守護神ばかりでなく、臨時に憑く霊もありますから、憑いても弱るから、その霊は悪いことをしない。<br><br>そういうことになる。<br><br>そういうふうに人間が曇りが取れて動物霊の力が弱ると、悪人がなくなったということになる。<br><br>そうすると今でもミロクの世になってしまう。<br><br>それが根本です。<br><br>理屈からいっても良く分かるのです。<br><br>決して難しいことでもなんでもない。<br><br>では、こんな簡単な理屈がどうして分からないかというと、その人の霊が曇っているからです。<br><br>副守護神が邪魔するからです。<br><br>これはお蔭話によく書いてあるが、よく解っているのだ。<br><br>分かっていながら、どうしても信仰に入れないというのがよくある。<br><br>分かっているというのは、その人の本霊が分かっている。<br><br>ところが、分かっていて、なんだかんだささやくように思わせる。<br><br>それが副守護神です。<br><br>だからそういう点で、始終浄霊していると良く分かる。<br><br>そういうような意味を、これからだんだんふつうの人にも分かるように書いていくつもりです。<br><br>ですから結局肉体の病気と心の病気と両方治す。<br><br>そうすると、心の病気を治すと、悪がなくなるから世の中が良くなるに決まっている。<br><br>そう難しいことはない。<br><br>分かってみれば簡単なのです。<br><br> 話はそのくらいにして。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mal como Instrumento do Plano Divino</h2>
 <p>Tenho afirmado incessantemente que os médicos são os próprios criadores de doenças, uma verdade que, na realidade, se estende a todas as esferas da sociedade. A origem fundamental de tais equívocos reside no mal. Portanto, é imperativo que o mal seja erradicado, pois é ele a causa de todos os sofrimentos humanos. Estando a maldade tão disseminada, o ser humano acabou por se habituar a ela. Contudo, uma reflexão mais atenta revela que a criação de inúmeras doenças pelos remédios constitui, inegavelmente, um ato maligno.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Resta, então, a pergunta: por que uma lógica tão simples não é compreendida? A resposta é que o espírito da própria pessoa está repleto de máculas, e seu espírito secundário interfere, impedindo a compreensão. Os relatos de graças que lemos frequentemente ilustram isso: pessoas que entendem a verdade intelectualmente, mas que, ainda assim, não conseguem ingressar na fé. Quem compreende é o espírito primordial da pessoa. Mas é o espírito secundário que sussurra dúvidas e confusão, afastando-a do caminho. Quem recebe Johrei constantemente passa a discernir isso com clareza. Pretendo, daqui em diante, expor esses princípios de forma cada vez mais acessível a todos.</p>
 <p>Em suma, nossa missão é curar tanto a doença do corpo quanto a doença da mente. Ao curar a doença da mente, o mal desaparece, e o mundo, inevitavelmente, se torna um lugar melhor. Não há nada de complicado nisso. Uma vez compreendido, tudo é muito simples.</p>
 <p>Por ora, encerro minhas palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月27日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月二十七日 【御教え】 お医者が病気を作るということは始終言ってますが、これはあらゆる方面がそうなってます。<br/><br/>そういったような間違ったこと、そういうことのその根本は悪です。<br/><br/>ですからどうしても悪というものを、つまりなくしなければならないわけです。<br/><br/>で、この悪というものは、いろんな方面に現われてますが、今悪の根本を書いたのですが、世の中のいろんな人間の苦しみというものは、およそその因は悪です。<br/><br/>あんまり悪が多過ぎるために、割合人間は気易くなる。<br/><br/>ところがよく考えてみると、とにかく薬がいろいろな病気を作るということは、立派な悪です。<br/><br/>ところがこういうものは、やっている人が善と信じて悪を行なうのですから、これが始末が悪いのです。<br/><br/>人をやっつけたり、泥棒したり暴力を振るったりするのは、これは実際分かりきった悪ですが、こういった善と信じて行なう悪が一番恐ろしいのです。<br/><br/>医学は善と信じて行なう悪ですし、今の役人は善の仮面を被って悪を行なう。<br/><br/>要するに法律を悪用してやるのです。<br/><br/>ですから法律の目的は善なのですから、つまり善を悪に利用するのです。<br/><br/>そういう悪です。<br/><br/>政治でも、破防法案――これは悪を善が取り締まるというわけですが、しかしこれも大いに反対がありました。<br/><br/>なんだというと、反対の方にも悪いのと良いのとあります。<br/><br/>共産主義の方の活動の方は、これは悪の方であるし、また善の方は、治安維持法みたいに官憲の方で悪用して、罪なき人民を苦しめるということがあっては困るという反対です。<br/><br/>ですから反対の方にも善悪があるのです。<br/><br/>というのは、昔、治安維持法なんかで、大いに悪に利用するということを、人民は大いに経験させられているために、スラスラと行かなかった。<br/><br/>そういうことは、なにかというと、みんな悪です。<br/><br/>もし悪というものがなかったら、世の中は簡単な良い世の中になります。<br/><br/>やれ食い物が足りない。<br/><br/>不景気だとか、働いても働いても食えないということは、その根本はみんな悪です。<br/><br/>肥料によって米が穫れないということも、これはつまり悪を善と信じてやっているわけです。<br/><br/>それを分からせようと思って、われわれは骨を折っているのです。<br/><br/>そうしていろんな――税金が高いとかなんとか言う。<br/><br/>政府で、金のいる――歳出なんかでも、悪による歳出の方がずっと多いのです。<br/><br/>大体、今伝染病が非常にはやる。<br/><br/>それを防止するために――一人赤痢が出るとかいっても、それに対する係が何人いるか分からないし、で、そのために自動車で行くとか消毒するとか、いろんなことを言って、たいへんなものです。<br/><br/>ですから結核が増えるというと、療養所を作らなければならない。<br/><br/>ベッドを作り、いろんな施設から予防とかいろんなことをする。<br/><br/>これはなんだというと、元は悪を善と信じてやっている結果ですから、やっぱり因は悪です。<br/><br/>そういった――警察制度とか裁判所、社会施設――そういういろんな――数えあげたらきりがないが、不幸な人間ができる。<br/><br/>社会事業とか未亡人問題だとかいろいろあります。<br/><br/>それ相応の結果苦しみが出る。<br/><br/>そういう――戦争の結果は、その因は悪です。<br/><br/>人の国を占領するとか掠奪するとか、そういった悪が因でできたものです。<br/><br/>悪による人間の被害と苦しみは、細かく勘定したらたいへんなものです。<br/><br/>もし悪というものが、半分に減り三分の一に減るとしたら、税金だってそれ相当に減ります。<br/><br/>だから悪をなくするということは、どうしても宗教でなければならないのです。<br/><br/>悪というのは心の問題ですから、心の問題を解決するには、これはやはり信仰より他にないのです。<br/><br/>これは、理屈はそうだが、ただ力のないところの信仰、お説教のようなものでは――それはないよりはましだが、とても悪の方が力が強くて、それをやっつけることはとうていできない。<br/><br/>だからいろいろな機関や組織はうまくできているのですが、それを悪が利用するから、どうしても悪というものを減らす――ぜんぜんなくすということより他にないのです。<br/><br/>ところがそれに気がつきそうなものだが、あんがいそういうことに気がつかない。<br/><br/>気がつかないはずです。<br/><br/>その、気がつくべき人の中にやっぱり悪があるから、やっぱり都合が悪い。<br/><br/>それで悪というものはしようがないと諦めているのです。<br/><br/>諦めているというのは、なにかというと、あらゆる宗教が諦めている。<br/><br/>で、今まではどうしても善の方が悪にかなわない。<br/><br/>そういうことをこれから書いていこうと思って、最初の所をちょっと書いておいた。<br/><br/> （御論文「天国建設と悪の追放」）【栄光 一六九号】 今読んだ通り、今までは悪が必要だったのです。<br/><br/>ですから私が、この主なる働きと言いますか、それを長い間に神様から見せられたのです。<br/><br/>ですから、私は若い時分からあらゆる病気をしたのです。<br/><br/>それは数えあげたら――身体中の病気をしてます。<br/><br/>病院にも三度入院しましたし、覚悟をして遺言までしたのが、やっぱり三度くらいあります。<br/><br/>そうして最後に歯ですが、これは未だにすっかり治っていません。<br/><br/>今もって浄霊してますが、今年で三十七年になります。<br/><br/>三十七年前に入れた薬の、そのために頭は悪くなるし、今しゃべるにもはっきりしゃべれないのは、入れ歯の関係ですが、入れ歯を歯医者に診せると、どうしても抜かなければならないと言うのです。<br/><br/>私は抜かないつもりで浄霊していると、だんだん抜かなくてすむようになってきている。<br/><br/>もう少しすると、抜かずに入れ歯できるようになる。<br/><br/>ここの歯医者ですが、女中に言うのです。<br/><br/>明主様は――もうとうにお入れにならなければならないが――かえってこのごろは具合が良いですと言うと、不思議だなと言っている。<br/><br/>そんなような具合で、歯がグラグラになっていた。<br/><br/>私の歯は薬毒が入っているので、それでグラグラしたのです。<br/><br/>その薬毒が取れるとグッと締まって治ると思っているのです。<br/><br/>このごろはグッと締まってきてますから、もう一息です。<br/><br/>そんなような具合に薬毒の経験――病院に行って全身麻薬で手術したこともあります。<br/><br/>その時分には注射はあまりなかったですから、注射だけはしなかったですが、あらゆることをみんなやりました。<br/><br/> そうして今度は薬毒の害を知って、さらに神様は司法制度――警察や裁判所、そういう悪をだんだん見せられた。<br/><br/>豚箱やそういうこともさんざん経験しました。<br/><br/>それから刑務所に行って、そういう方面の悪は実に良く分かった。<br/><br/>しかし、こういう悪は私は割に少ない方で、一番酷い目に遭ったのはキリストです。<br/><br/>キリストなんかは、まるで――あの時代はそうなっていたか知らないが、ユダの讒言（ざんげん）によって、あの時の王様がキリストを陰謀の親方と思って、そうして磔にしたのです。<br/><br/>日本の宗教家でもたくさんあります。<br/><br/>ですから私が何百年前にこういうことをやれば、遠島は無論です。<br/><br/>八丈島辺りに――。<br/><br/>で、明治近くなってから、天理教の教祖は、警察や牢屋に入ったのが十六回です。<br/><br/>懲役――そんなようなものが四回ありました。<br/><br/>一番長かったのが、確か半年だったと思う。<br/><br/>その時分には信仰の自由はないし、めちゃくちゃです。<br/><br/>今ではこれでよほど良いです。<br/><br/>以前ですと、まだ罪の決まらないうちに美術館なんて、とてもそんなことはできない。<br/><br/>そんなような具合で、神様はいろんな経験をさせられた。<br/><br/>去年も刑務所に行った時に、すぐ隣が、塀一つですが、懲役人が鍬を持って労役をやってましたが、懲役とはこんなものかと、神様はここまで見せられるのかと、つくづく見せられました。<br/><br/>そんなような具合で、いろんな見学をさせられました。<br/><br/>で、結局において悪です。<br/><br/>その悪のうちで一番深刻なのは薬です。<br/><br/>ところがどういうわけで薬というものができ、のますようになったのかというと、この薬をのませたのは観音様です。<br/><br/>観音様が薬師如来になって薬をのむようにしたのです。<br/><br/>というのは、人間が原始時代には非常に――獣みたいな人間だった。<br/><br/>獣と闘うのですから獰猛だった。<br/><br/>人間の進化の最初は、獣との闘いです。<br/><br/>それを防禦するための闘いが最初で、これで人間はよほど智恵というものが出てきた。<br/><br/>神様がこしらえられた最初の人間はボーッとしたものですが、だんだん智恵を磨くのです。<br/><br/>そうして地上天国を造るのです。<br/><br/>それにはどうしても悪を作って善と闘わすという手段をとったのです。<br/><br/>獣との闘いがすんだら、今度は人間との闘いです。<br/><br/>これは歴史にもありますが、野蛮人同士の闘いです。<br/><br/>よく映画にもありますが、われわれも何千年何万年前はそうだったのです。<br/><br/>それにはどうしても悪人というものを作らなければならない。<br/><br/>善人だったらそうはしないから、文化も発達しないし智恵も発達しないのです。<br/><br/>それからもう一つは、争闘させてある程度人間の智恵ができると、今度は人間を弱らせなければならない。<br/><br/>弱らせると非常に智恵が発達するのです。<br/><br/>というのは、人間が健康ですと、どこに行くのにも駈け出しても歩いても平気ですから、交通なんてあんまり関心を持たない。<br/><br/>人間が弱ってくると、とてもやりきれない、楽をして遠くに行くというようになる。<br/><br/> それから今読んだように、戦争を作るというのは、どうしても野心家――どんなに悪いことをしても、どんなに大勢の人間を殺しても、そこを掌握するというような野心です。<br/><br/>だからしてそれをこっちが防ぐために大いに智恵を振るって、そういう方法をとらなければならない。<br/><br/>そこでいろいろな立派な発明もできるし、智恵もドンドン進むのです。<br/><br/>その結果原子爆弾のような――それは発明としたら、今でも一番すばらしいものです。<br/><br/>ですからそういった英雄という者も必要なのです。<br/><br/>で、人間がそれではあんまりかわいそうだし、それではかえって悪の世界になるから、それで宗教というものをこしらえた。<br/><br/>それで、それをそれではいかんと因果応報の理由なんか説いて、ある程度悪の膨大を制限する――そういう人が宗教家というのです。<br/><br/>ここまで人智が発達し、ここまでいろんな物質文化が発達すると、これ以上になると今度は危なくなる。<br/><br/>人類の破壊になりますから、ここらで止めて、今までの物質文化を良い方に使う。<br/><br/>そうして神様の最後の目的である理想世界――地上天国を造るという、その時期になったのです。<br/><br/>そこで今までのいろんな間違ったことを分からせ、そうしてそれをなくさなければならない。<br/><br/>ですから病気は薬毒だ、間違っていると言ったところで、こうして（御浄霊）治す。<br/><br/>それを見せなければ人間は信じませんから、こういう治す力を私に与えて、医学や薬の誤りを知らせるという意味で、それが根本の意味です。<br/><br/>それからもう一つは、今言う悪というものは、これからその説明をやるのですが。<br/><br/>これは心に働いている悪というのは簡単です。<br/><br/>これは信者は良く知ってますから、そう精しく説明する必要はないが、つまり人間に憑依している副守護神――動物霊がやるのだから、そこで悪を制限するには動物霊を弱める。<br/><br/>動物霊を弱めるには霊の曇りの多い少ない――曇りが多ければ、動物霊は根本的の悪のものですから悪をさせる。<br/><br/>動物霊をある程度抑えるには光です。<br/><br/>光とは魂の光です。<br/><br/>それには曇りを取らなければならない。<br/><br/>だから悪の因というのは、結局霊の病気になる。<br/><br/>つまり体の病気が毒血で、霊の病気が曇りです。<br/><br/>ですから曇りを取るということになる。<br/><br/>浄霊するということは、肉体の病気ばかりでなくて、霊の病気も一緒に取ってくれる。<br/><br/>浄めるわけです。<br/><br/>ですから浄霊という。<br/><br/>霊が浄まると副守護神が弱りますから――副守護神ばかりでなく、臨時に憑く霊もありますから、憑いても弱るから、その霊は悪いことをしない。<br/><br/>そういうことになる。<br/><br/>そういうふうに人間が曇りが取れて動物霊の力が弱ると、悪人がなくなったということになる。<br/><br/>そうすると今でもミロクの世になってしまう。<br/><br/>それが根本です。<br/><br/>理屈からいっても良く分かるのです。<br/><br/>決して難しいことでもなんでもない。<br/><br/>では、こんな簡単な理屈がどうして分からないかというと、その人の霊が曇っているからです。<br/><br/>副守護神が邪魔するからです。<br/><br/>これはお蔭話によく書いてあるが、よく解っているのだ。<br/><br/>分かっていながら、どうしても信仰に入れないというのがよくある。<br/><br/>分かっているというのは、その人の本霊が分かっている。<br/><br/>ところが、分かっていて、なんだかんだささやくように思わせる。<br/><br/>それが副守護神です。<br/><br/>だからそういう点で、始終浄霊していると良く分かる。<br/><br/>そういうような意味を、これからだんだんふつうの人にも分かるように書いていくつもりです。<br/><br/>ですから結局肉体の病気と心の病気と両方治す。<br/><br/>そうすると、心の病気を治すと、悪がなくなるから世の中が良くなるに決まっている。<br/><br/>そう難しいことはない。<br/><br/>分かってみれば簡単なのです。<br/><br/> 話はそのくらいにして。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

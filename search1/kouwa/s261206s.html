@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261206s</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月6日S） 『御垂示録』4号、昭和26(1951)年12月10日発行 昭和二十六年十二月六日 今はそこまで行っていないが、神様も一日増しにメシヤ教のために働くということになって、今に総動員になる。<br><br>神様が、メシヤ教でなくちゃ救われないんだからね。<br><br>だから、今度地上天国に出すが、私が京都に行ったとき、方々の神様がご挨拶に来たり――いろいろしたが――そういうようなもので、神様が救われなければね。<br><br>というのは、その神様というが、それを支配している神様があって、その神様が、位が低かったりあるいは邪神のほうの系統になったりしてね。<br><br>だから、罪の裁きを受けなければならないから、早く最高の神様に御用をして救われたいと、こういうわけだからね。<br><br>だけどやっぱり、そういった人間が間違ったことしたり、知らないで――良いことと思って悪いことをやったりするというのも、今まではやはり必要があったんだからね。<br><br>一番おもしろいのは、世界の二大長流としては、アメリカの資本主義と、ソ連の共産主義ですね。<br><br>どっちも反対のものだがね。<br><br>つまり資本主義ができるから共産主義ができるんだね。<br><br>つまり資本主義は、共産主義が作ったものです。<br><br>だから、封建主義が人民の自由を奪うからして自由主義ができる――こういうことになる。<br><br>善というものは、悪が生むようなものなんですね。<br><br>生むというよりも、悪があるから善がある。<br><br>だから、善悪というものは、人類がある限りあるんですよ。<br><br>しかたがないが、今まで悪のほうが力があり過ぎた――勝ち過ぎた。<br><br>善のほうが圧迫されたり、苦しまされた。<br><br>そこで不幸というものが生まれる。<br><br>五六七になると、善のほうが強くなって、悪のほうはある程度以上はできなくなる。<br><br>そこで、幸福の世界になる。<br><br>人間だってそうですよ。<br><br>仏さんのような人なんて、初めからありませんし、もしあるとすれば、何にもならない。<br><br>「沈香（ちんこう）も焚かず屁もひらず」というみたいになる。<br><br>つまり、悪を抑える善の力が強ければ、立派な人間です。<br><br>仏教のほうじゃ、生き物を殺すのは、すべて殺生だからと言うんで、地べたを歩くと蟻を殺すから、地べたも歩くことができないということになっちゃう。<br><br>それから、今でもアジアの――東南アジア辺りは、フイフイ教辺りは、ずいぶんそういうやり方ですね。<br><br>こういうのは、つまり善が無抵抗主義になるんですね。<br><br> 「その場合、ちょっと見は良いように見えますので――」 そうです。<br><br>それは確かに良いですよね。<br><br>良いけれども、結局滅びたり悪が跋扈（ばっこ）したりするからね。<br><br>この頃インドなんか、気がついてきたんで、だいぶやり方が変ってきたがね。<br><br>あくまで、善のほうが勝つという――抑えつける力があるということが本当なんですね。<br><br>そこで、やはり十字になるんですよ。<br><br>経は善ですからね。<br><br>緯のほうが悪ですね。<br><br>どっちに偏ってもいけない。<br><br>つまり経のほうが緯よりかちょっと長ければね。<br><br>それで、同じでも霊のほうが勝つ――霊主体従だからね――原則になっているから、それで良いには良いがね。<br><br>それで、私はいつか男女同権論ではいけない。<br><br>男女合憲論と書いたが、そこで男が五分五厘で、女は四分五厘ですね。<br><br>人間の簡単なことはそれで良いが本当の大きなことから言うと九分九里――神は一厘になっている。<br><br>悪のほうが一厘でも勝つとすれば世界は崩壊している。<br><br>そこで九分九里と一厘――あるいは神は十全とね。<br><br>だから、大本教のお筆先に「大本は一厘の仕組であるから、一厘の御魂が出たら世界は引っ繰り返るぞよ」というのがある。<br><br>一厘で、手の平を返す。<br><br>で、一厘というのは、つまり私なんですよ。<br><br>これは先にも話したことがあるが、ある人から古銭――天保銭を一枚、五十銭銀貨、昔の一厘銭を一枚と、三つもらったことがある。<br><br>天保銭は年号は書いてありませんが――大本教の教祖というのは天保年間に生れた人で、聖師様は明治四年に生れた。<br><br>そうすると、五十銭銀貨というのは、明治四年なんです。<br><br>私は一厘だから一厘をもらった。<br><br>そのとき神様は、おもしろいことを知らされたと思った。<br><br>だから、大本教の教祖は経の御魂――変性男子でね。<br><br>変性女子は聖師様で、聖師様は緯の御魂であるからとね。<br><br>経と緯を結んで、真中のポチだね。<br><br>つまり心棒みたいなものが一厘になるわけです。<br><br>で、一厘で手の平を返すというのは――私がやっていることは、一厘で手の平を返すことになる。<br><br>今までのあらゆる間違った文化ですね。<br><br>――それをはっきりさせるために――ひっくり返っちゃう。<br><br>ただ、理屈だけじゃ駄目だから病気は薬をなくして治して健康にしてしまう。<br><br>それから、食糧でも――作物でも、肥料を使わないで増産する。<br><br>農業をひっくり返しちゃう。<br><br>それから、犯罪は魂さえ神様と繋がれば犯罪はなくなる。<br><br>と、みんな一厘でひっくり返すという意味になるんだね。<br><br>夜の救いが昼の救いになる。<br><br>つまり、暗（くらやみ）が昼間になるというわけですね。<br><br>神様のほうは、そういう風に決まっているんだからね。<br><br>そういうことも「文明の創造」に書いてある。<br><br>今「文明の創造」の天国編というのを書き始めてね。<br><br>最初の所を時間があったら読ませるつもりだったが、これは非常におもしろいんです。<br><br>今日読ませようと思ったのは、国際関係とか議会とかね。<br><br>そういうものの変り方ですね。<br><br>しかし、何しろ非常な大変わりですからね。<br><br>ただこのままで行くなんて、そんな生易しいことじゃ、手の平をひっくり返すなんてできない。<br><br>つまり今までのやり方では、二致も三致も行かなくなるんですね。<br><br>病気なんかも非常に増えて、これは今信者の人でも、古い人でも、幹部の人でも非常に浄化が起こるがね。<br><br>それが世の中に――一般にそうなってくるね。<br><br>医学で――医者が治そうとすると、逆になってくるから、いよいよいけないということになる。<br><br>メシヤ教に縋らなければ助からない――病気は治らないということがだんだん分かってくる。<br><br>そこで、一遍にひっくり返っちゃう。<br><br>浄化を止めよう止めようと努めている。<br><br>浄化が起こると、熱が出て、注射やいろんなことで浄化を止めているので――わずかに肩でフラフラしてね。<br><br>この間新聞にあったでしょう。<br><br>一時病気を止めている、その後が怖い、とね。<br><br>今度出るがＢ・Ｃ・Ｇで一時浄化が止まるから、それで良いと思っているが、今度は、それで止まらなかった悪質な病気がうんと増えると書いてます。<br><br>何しろ、私が書いた通りに、段々出てくるから――大本教のお筆先に「神の申したことは一分一厘も違いはないぞよ。<br><br>髪の毛筋の横幅ほども違いないから――」ということがありました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Mobilização Divina e a Supremacia do Bem</h2>
 <p>Embora ainda não tenhamos chegado a esse ponto, Deus, a cada dia que passa, dedica-se mais à obra da Igreja Messiânica, e em breve haverá uma mobilização total. Isso ocorre porque os próprios deuses compreendem que a salvação só pode ser alcançada por meio de nossa Igreja. Quando estive em Quioto, por exemplo, divindades de diversos locais vieram apresentar-se e saudar-me, o que ilustra essa realidade.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Quando a medicina e os médicos tentarem intervir para curar, obterão o efeito contrário, agravando ainda mais a situação. As pessoas começarão a compreender, gradualmente, que não há salvação sem recorrer à Igreja Messiânica e que suas doenças não encontrarão cura por outros meios. Nesse momento, o mundo se inverterá de uma só vez.</p>
 <p>A medicina se empenha em suprimir as purificações. Quando surge uma purificação, manifestada por febre, recorre-se a injeções e outros métodos para detê-la, deixando as pessoas em um estado de frágil equilíbrio. Recentemente, li em um jornal um artigo que alertava: “A supressão temporária de uma doença torna o que vem depois assustador”. Comentava-se que a vacina BCG, ao interromper momentaneamente a purificação, é vista como algo positivo. Contudo, o artigo previa que, em seguida, haveria um grande aumento de doenças malignas que não foram detidas por esse método.</p>
 <p>Seja como for, tudo o que escrevi vem se manifestando gradualmente. Conforme consta no Ofudesaki da Oomoto-kyo: “Não há o menor desvio naquilo que Deus anunciou, nem mesmo a espessura de um fio de cabelo”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月6日S） 『御垂示録』4号、昭和26(1951)年12月10日発行 昭和二十六年十二月六日 今はそこまで行っていないが、神様も一日増しにメシヤ教のために働くということになって、今に総動員になる。<br/><br/>神様が、メシヤ教でなくちゃ救われないんだからね。<br/><br/>だから、今度地上天国に出すが、私が京都に行ったとき、方々の神様がご挨拶に来たり――いろいろしたが――そういうようなもので、神様が救われなければね。<br/><br/>というのは、その神様というが、それを支配している神様があって、その神様が、位が低かったりあるいは邪神のほうの系統になったりしてね。<br/><br/>だから、罪の裁きを受けなければならないから、早く最高の神様に御用をして救われたいと、こういうわけだからね。<br/><br/>だけどやっぱり、そういった人間が間違ったことしたり、知らないで――良いことと思って悪いことをやったりするというのも、今まではやはり必要があったんだからね。<br/><br/>一番おもしろいのは、世界の二大長流としては、アメリカの資本主義と、ソ連の共産主義ですね。<br/><br/>どっちも反対のものだがね。<br/><br/>つまり資本主義ができるから共産主義ができるんだね。<br/><br/>つまり資本主義は、共産主義が作ったものです。<br/><br/>だから、封建主義が人民の自由を奪うからして自由主義ができる――こういうことになる。<br/><br/>善というものは、悪が生むようなものなんですね。<br/><br/>生むというよりも、悪があるから善がある。<br/><br/>だから、善悪というものは、人類がある限りあるんですよ。<br/><br/>しかたがないが、今まで悪のほうが力があり過ぎた――勝ち過ぎた。<br/><br/>善のほうが圧迫されたり、苦しまされた。<br/><br/>そこで不幸というものが生まれる。<br/><br/>五六七になると、善のほうが強くなって、悪のほうはある程度以上はできなくなる。<br/><br/>そこで、幸福の世界になる。<br/><br/>人間だってそうですよ。<br/><br/>仏さんのような人なんて、初めからありませんし、もしあるとすれば、何にもならない。<br/><br/>「沈香（ちんこう）も焚かず屁もひらず」というみたいになる。<br/><br/>つまり、悪を抑える善の力が強ければ、立派な人間です。<br/><br/>仏教のほうじゃ、生き物を殺すのは、すべて殺生だからと言うんで、地べたを歩くと蟻を殺すから、地べたも歩くことができないということになっちゃう。<br/><br/>それから、今でもアジアの――東南アジア辺りは、フイフイ教辺りは、ずいぶんそういうやり方ですね。<br/><br/>こういうのは、つまり善が無抵抗主義になるんですね。<br/><br/> 「その場合、ちょっと見は良いように見えますので――」 そうです。<br/><br/>それは確かに良いですよね。<br/><br/>良いけれども、結局滅びたり悪が跋扈（ばっこ）したりするからね。<br/><br/>この頃インドなんか、気がついてきたんで、だいぶやり方が変ってきたがね。<br/><br/>あくまで、善のほうが勝つという――抑えつける力があるということが本当なんですね。<br/><br/>そこで、やはり十字になるんですよ。<br/><br/>経は善ですからね。<br/><br/>緯のほうが悪ですね。<br/><br/>どっちに偏ってもいけない。<br/><br/>つまり経のほうが緯よりかちょっと長ければね。<br/><br/>それで、同じでも霊のほうが勝つ――霊主体従だからね――原則になっているから、それで良いには良いがね。<br/><br/>それで、私はいつか男女同権論ではいけない。<br/><br/>男女合憲論と書いたが、そこで男が五分五厘で、女は四分五厘ですね。<br/><br/>人間の簡単なことはそれで良いが本当の大きなことから言うと九分九里――神は一厘になっている。<br/><br/>悪のほうが一厘でも勝つとすれば世界は崩壊している。<br/><br/>そこで九分九里と一厘――あるいは神は十全とね。<br/><br/>だから、大本教のお筆先に「大本は一厘の仕組であるから、一厘の御魂が出たら世界は引っ繰り返るぞよ」というのがある。<br/><br/>一厘で、手の平を返す。<br/><br/>で、一厘というのは、つまり私なんですよ。<br/><br/>これは先にも話したことがあるが、ある人から古銭――天保銭を一枚、五十銭銀貨、昔の一厘銭を一枚と、三つもらったことがある。<br/><br/>天保銭は年号は書いてありませんが――大本教の教祖というのは天保年間に生れた人で、聖師様は明治四年に生れた。<br/><br/>そうすると、五十銭銀貨というのは、明治四年なんです。<br/><br/>私は一厘だから一厘をもらった。<br/><br/>そのとき神様は、おもしろいことを知らされたと思った。<br/><br/>だから、大本教の教祖は経の御魂――変性男子でね。<br/><br/>変性女子は聖師様で、聖師様は緯の御魂であるからとね。<br/><br/>経と緯を結んで、真中のポチだね。<br/><br/>つまり心棒みたいなものが一厘になるわけです。<br/><br/>で、一厘で手の平を返すというのは――私がやっていることは、一厘で手の平を返すことになる。<br/><br/>今までのあらゆる間違った文化ですね。<br/><br/>――それをはっきりさせるために――ひっくり返っちゃう。<br/><br/>ただ、理屈だけじゃ駄目だから病気は薬をなくして治して健康にしてしまう。<br/><br/>それから、食糧でも――作物でも、肥料を使わないで増産する。<br/><br/>農業をひっくり返しちゃう。<br/><br/>それから、犯罪は魂さえ神様と繋がれば犯罪はなくなる。<br/><br/>と、みんな一厘でひっくり返すという意味になるんだね。<br/><br/>夜の救いが昼の救いになる。<br/><br/>つまり、暗（くらやみ）が昼間になるというわけですね。<br/><br/>神様のほうは、そういう風に決まっているんだからね。<br/><br/>そういうことも「文明の創造」に書いてある。<br/><br/>今「文明の創造」の天国編というのを書き始めてね。<br/><br/>最初の所を時間があったら読ませるつもりだったが、これは非常におもしろいんです。<br/><br/>今日読ませようと思ったのは、国際関係とか議会とかね。<br/><br/>そういうものの変り方ですね。<br/><br/>しかし、何しろ非常な大変わりですからね。<br/><br/>ただこのままで行くなんて、そんな生易しいことじゃ、手の平をひっくり返すなんてできない。<br/><br/>つまり今までのやり方では、二致も三致も行かなくなるんですね。<br/><br/>病気なんかも非常に増えて、これは今信者の人でも、古い人でも、幹部の人でも非常に浄化が起こるがね。<br/><br/>それが世の中に――一般にそうなってくるね。<br/><br/>医学で――医者が治そうとすると、逆になってくるから、いよいよいけないということになる。<br/><br/>メシヤ教に縋らなければ助からない――病気は治らないということがだんだん分かってくる。<br/><br/>そこで、一遍にひっくり返っちゃう。<br/><br/>浄化を止めよう止めようと努めている。<br/><br/>浄化が起こると、熱が出て、注射やいろんなことで浄化を止めているので――わずかに肩でフラフラしてね。<br/><br/>この間新聞にあったでしょう。<br/><br/>一時病気を止めている、その後が怖い、とね。<br/><br/>今度出るがＢ・Ｃ・Ｇで一時浄化が止まるから、それで良いと思っているが、今度は、それで止まらなかった悪質な病気がうんと増えると書いてます。<br/><br/>何しろ、私が書いた通りに、段々出てくるから――大本教のお筆先に「神の申したことは一分一厘も違いはないぞよ。<br/><br/>髪の毛筋の横幅ほども違いないから――」ということがありました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

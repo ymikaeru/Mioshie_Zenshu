@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 私の思い出 瓢箪 『地上天国』61号、昭和29(1954)年8月15日発行 応 身 明主様は、お若い頃から社会悪減消を主なる御念願とせられ、そのため新聞事業を企図せられた事もあったが、大本教御入信を動機として、悪を滅するには、まず何よりも神霊に目覚めさせ、人間の魂を揺り動かす事より外ないという結論に到達せられ、神霊の有無、神と人との関係、信仰の妙諦等について専ら御研鑚になった。<br><br>そして御年四十五歳にして、古来の聖人腎人達の誰人も到達した事のない最高の見真実の頂点を極められ、人類救済と地上天国御建設の大使命をお知りになって、昭和三年二月四日節分の日を期して、その御仕事にお入りになった経緯は、すでに御著書にお述べになっているところである。<br><br> しかしながら明主様は、古来の聖賢がある高さの真実を見た時、蹶然（けつぜん）起って熱烈な革新的主張を世に叫んだように、直ちに一派を立て独自の新宗教活動をお始めになったのではなかった。<br><br>むしろ大本の神として応身せられ、世界の型としての大本教をも第一に御救い給うべく御心を砕かせられていたもののように拝された。<br><br>勿論、神に在す御身としての神秘極まる御経綸は当初から誰にも判らぬうちに進められていた訳であるが、それも一面大本におけるそれまでの御教職であった一支部長、一宣伝使としての有り方、あるいは大本における経緯の教えを結び調和された真の信仰の有り方の、どんな人物にも出来ぬ理想の最高水準を御身をもって示現せられつつも進められた。<br><br>出口教主にはあつく師の礼をとられたは勿論、朝夕大本の神を礼拝せられ、大本的お話をお説きになり、盛んに大本の信徒をおつくりになったし、尊い御浄霊さえも大本の神の力による御利益と思わるる形式をおとりになっていた。<br><br>このように偉大さを全くおかくしになった明主様の御態度から、信徒は単なる大本の先生という以上の認識はもてなかったし、ある程度の真実をお知らせ給っている幹部とても、何か常人にまさぬ御威徳を感じながらも、慈母にも勝る温かい人間味に抱かれて歓喜に浸り、先生々々とお慕い申し上げるだけで、史上未顕の大神人に在すとは、恐らく夢にも思わなかったであろう。<br><br> 私なども、大森へお伺いする前から明主様へのほのかな信仰を抱いており、その後友人の話により観音様に在す事も信じ奉ったが、御側近にお伺い出来るようになってからは、もっと偉い神様かと思ったり、又申訳なくも「来てみれば石塊ばかりの富士の山」式疑念も起る事もあって、見当がつかなかった。<br><br>というのは、明主様の御日常はあまりにも平和的常識的であられ、出口先生にみられるような華々しいゼスチュアや、極度に奔放な言動、もしくは神憑的異常を神人の要件として期待していた私には物足らなく感ぜられたからである。<br><br>出口先生は長髪を蓄え、華やかな衣服を纏い、常に数名の近習を侍らし、威風堂々人眼を驚かすような風采は、実に異様で怪物的であったが、一農民から身を起し、霊界を探検し、古今の学に通じ、短歌、文筆、絵画、書道、陶芸、建築等極めて多角的に才能を発揮し、海外にまで信徒を作るほどの隆盛をなした手腕から推しても、むしろ近世の英傑とみられやすかったし、信徒は真の救世主と信じ、「日月地合わせて作る串団子 星の胡麻かけ喰う王仁口」など豪語さるるごときゼスチュアからも、人間には批判は出来ぬ大神人とした。<br><br>勿論私もその一人であった。<br><br>それに比し明主様は、神様らしく見せらるるような風は微塵もおわさぬのみか、偉くみせぬようお努めになってるごとくながらも、自から何か計り知れぬ権威を発せられているのを感ぜられたが、実に平々凡々どんな人にも応身せられて心から安心と喜びを与えらるる――堪らなく慕わしく有難い御方とのみ思われた。<br><br>そしてお秘めになっている御力、御神智の高さ深さ巾もどれほどのものか、我々盲の眼にはつゆほども窺知する事は出来なかった。<br><br>いわんや第三者的信徒間においては、最初はただ変ったお方という評判だったが、それはいつしか異端者の名と変って全信徒の間に拡がった。<br><br>そして同教のためお示しになった偉大なる御事蹟が、人間の限界では行い得ぬ世にも美わしい神の御徳とみるべき常識も失った。<br><br>否、事実によって検討する態度は全くなかった。<br><br> 知性の低い日本人特に信仰者には、外面的華やかさや異様さに、反って神の如く思い、かざりない真実は、いかに素晴しいものであろうと顧みようとはしない。<br><br> 明主様のあまりにも偉大なる、正なるが故に、群盲から逆解さるる現象はこの時代から始ったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Manifestação Divina</h2>
 <p>Desde Sua juventude, Meishu-Sama nutria como principal anseio a eliminação dos males sociais. Chegou, inclusive, a planejar um empreendimento jornalístico para tal fim. Contudo, impulsionado por Sua afiliação à Oomoto, chegou à conclusão de que, para erradicar o mal, não haveria outro caminho senão o de despertar o espírito humano para a dimensão divina, abalando-o em seus fundamentos. A partir de então, devotou-Se ao profundo estudo da existência do espírito, da relação entre Deus e o ser humano e dos sublimes mistérios da fé.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Meishu-Sama, em contrapartida, não demonstrava o menor traço de artificialismo para parecer divino. Na verdade, parecia esforçar-Se para não aparentar grandeza, embora emanasse, naturalmente, uma autoridade incomensurável. Sua natureza era de uma simplicidade e normalidade admiráveis, adaptando-se a qualquer pessoa e proporcionando-lhe, do fundo do coração, paz e alegria. Era visto apenas como alguém profundamente amável e valioso. O poder que mantinha oculto, bem como a altura, a profundidade e a vastidão de Sua sabedoria divina, eram-nos completamente imperceptíveis aos nossos olhos cegos.</p>
 <p>Quanto aos demais fiéis, a princípio, Sua reputação era apenas a de "uma pessoa excêntrica", mas com o tempo, essa fama transformou-se na pecha de herege, que se espalhou por toda a comunidade. Perdeu-se até mesmo o bom-senso de reconhecer que os grandiosos feitos por Ele realizados em prol daquela religião eram, na verdade, a mais sublime virtude de Deus em ação, algo impossível de ser executado nos limites da capacidade humana. A atitude de analisar os fatos era simplesmente inexistente.</p>
 <p>Os japoneses de baixo discernimento, especialmente os religiosos, tendem a venerar a suntuosidade e a excentricidade exteriores como se fossem divinas, ao passo que ignoram a verdade sem adornos, por mais esplêndida que seja. Foi a partir dessa época que teve início o fenômeno de Meishu-Sama ser inversamente compreendido pelas massas cegas, precisamente por ser demasiado grandioso e justo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 私の思い出 瓢箪 『地上天国』61号、昭和29(1954)年8月15日発行 応 身 明主様は、お若い頃から社会悪減消を主なる御念願とせられ、そのため新聞事業を企図せられた事もあったが、大本教御入信を動機として、悪を滅するには、まず何よりも神霊に目覚めさせ、人間の魂を揺り動かす事より外ないという結論に到達せられ、神霊の有無、神と人との関係、信仰の妙諦等について専ら御研鑚になった。<br/><br/>そして御年四十五歳にして、古来の聖人腎人達の誰人も到達した事のない最高の見真実の頂点を極められ、人類救済と地上天国御建設の大使命をお知りになって、昭和三年二月四日節分の日を期して、その御仕事にお入りになった経緯は、すでに御著書にお述べになっているところである。<br/><br/> しかしながら明主様は、古来の聖賢がある高さの真実を見た時、蹶然（けつぜん）起って熱烈な革新的主張を世に叫んだように、直ちに一派を立て独自の新宗教活動をお始めになったのではなかった。<br/><br/>むしろ大本の神として応身せられ、世界の型としての大本教をも第一に御救い給うべく御心を砕かせられていたもののように拝された。<br/><br/>勿論、神に在す御身としての神秘極まる御経綸は当初から誰にも判らぬうちに進められていた訳であるが、それも一面大本におけるそれまでの御教職であった一支部長、一宣伝使としての有り方、あるいは大本における経緯の教えを結び調和された真の信仰の有り方の、どんな人物にも出来ぬ理想の最高水準を御身をもって示現せられつつも進められた。<br/><br/>出口教主にはあつく師の礼をとられたは勿論、朝夕大本の神を礼拝せられ、大本的お話をお説きになり、盛んに大本の信徒をおつくりになったし、尊い御浄霊さえも大本の神の力による御利益と思わるる形式をおとりになっていた。<br/><br/>このように偉大さを全くおかくしになった明主様の御態度から、信徒は単なる大本の先生という以上の認識はもてなかったし、ある程度の真実をお知らせ給っている幹部とても、何か常人にまさぬ御威徳を感じながらも、慈母にも勝る温かい人間味に抱かれて歓喜に浸り、先生々々とお慕い申し上げるだけで、史上未顕の大神人に在すとは、恐らく夢にも思わなかったであろう。<br/><br/> 私なども、大森へお伺いする前から明主様へのほのかな信仰を抱いており、その後友人の話により観音様に在す事も信じ奉ったが、御側近にお伺い出来るようになってからは、もっと偉い神様かと思ったり、又申訳なくも「来てみれば石塊ばかりの富士の山」式疑念も起る事もあって、見当がつかなかった。<br/><br/>というのは、明主様の御日常はあまりにも平和的常識的であられ、出口先生にみられるような華々しいゼスチュアや、極度に奔放な言動、もしくは神憑的異常を神人の要件として期待していた私には物足らなく感ぜられたからである。<br/><br/>出口先生は長髪を蓄え、華やかな衣服を纏い、常に数名の近習を侍らし、威風堂々人眼を驚かすような風采は、実に異様で怪物的であったが、一農民から身を起し、霊界を探検し、古今の学に通じ、短歌、文筆、絵画、書道、陶芸、建築等極めて多角的に才能を発揮し、海外にまで信徒を作るほどの隆盛をなした手腕から推しても、むしろ近世の英傑とみられやすかったし、信徒は真の救世主と信じ、「日月地合わせて作る串団子 星の胡麻かけ喰う王仁口」など豪語さるるごときゼスチュアからも、人間には批判は出来ぬ大神人とした。<br/><br/>勿論私もその一人であった。<br/><br/>それに比し明主様は、神様らしく見せらるるような風は微塵もおわさぬのみか、偉くみせぬようお努めになってるごとくながらも、自から何か計り知れぬ権威を発せられているのを感ぜられたが、実に平々凡々どんな人にも応身せられて心から安心と喜びを与えらるる――堪らなく慕わしく有難い御方とのみ思われた。<br/><br/>そしてお秘めになっている御力、御神智の高さ深さ巾もどれほどのものか、我々盲の眼にはつゆほども窺知する事は出来なかった。<br/><br/>いわんや第三者的信徒間においては、最初はただ変ったお方という評判だったが、それはいつしか異端者の名と変って全信徒の間に拡がった。<br/><br/>そして同教のためお示しになった偉大なる御事蹟が、人間の限界では行い得ぬ世にも美わしい神の御徳とみるべき常識も失った。<br/><br/>否、事実によって検討する態度は全くなかった。<br/><br/> 知性の低い日本人特に信仰者には、外面的華やかさや異様さに、反って神の如く思い、かざりない真実は、いかに素晴しいものであろうと顧みようとはしない。<br/><br/> 明主様のあまりにも偉大なる、正なるが故に、群盲から逆解さるる現象はこの時代から始ったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

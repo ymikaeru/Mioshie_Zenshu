@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271015</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月15日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月十五日 つい四、五日前信者の小川菊蔵という有名な人で、自動車の方では一方の存在とされている人ですが、世界中を三カ月ばかりまわってきたのです。<br><br>その人に会って、あっちの事情を良く聞いてみますと、日本で想像していたのとはよほど違う点があるのです。<br><br>その違う点だけをちょっと話しておいても参考になると思います。<br><br>最初英国の方からドイツにまわって、それからフランスに行ったのですが、フランスは美術的にはあらゆる点において、確かに値打ちがあるそうです。<br><br>確かにヨーロッパの美術国だ、ということが分かったそうです。<br><br>それからイタリアに行ったそうですが、イタリアに行くとフランスどころではないのです。<br><br>イタリアの方はフランスより、まだずっと上だというのです。<br><br>それはイタリアの方が古いためもあると思いますが、絵画、彫刻は想像してもイタリアの方が上かもしれないと思われます。<br><br>日本でいうと、イタリアの美術は奈良朝時代の美術のようなもの……奈良朝から藤原時代のようなものでしょう。<br><br>フランスの方は桃山から元禄といったようなふうでしょう。<br><br>ちょっと見たところは非常に絢爛たるものですが、やはりイタリアの方が古いのと、もう一つはイタリアは宗教関係が多いです。<br><br>ですからやはりフランスより上になるわけです。<br><br>ちょうど京都がフランスとすると、イタリアは奈良といったような意味かもしれません。<br><br>だからイタリアの美術を大いに研究する必要がある、というようなことを言ってました。<br><br>そうしてしかも最近に至って非常にイタリアが復興してきたのです。<br><br>私は世界の建築は、毎月新しい建築雑誌をとってますが、今までで一番感心したのはローマの停車場です。<br><br>これは去年できたのです。<br><br>今までのコルビュジエ式は世界中のいろいろな写真で見ましたが、たいして感心したことはないが、去年できたローマのステーションは感心しました。<br><br>私がこしらえればちょうどそういうものをこしらえると思って、ピッタリしたのです。<br><br>私がそれを褒めたところが小川さんも、自分もヨーロッパからアメリカの方を見たが、やはりローマのステーションが一番印象に残っていると言われてました。<br><br>そんなようでイタリアは非常に変わってきたそうです。<br><br>先にはイタリアというと、乞食の多い国のように思っていたのです。<br><br>よく町を歩いたりすると、非常に汚い服装をしたり、憐れみを乞うようなものがたくさんあったということを書物で読みましたが、今度行ってみるとそういうことはないそうです。<br><br>それで町も清潔になって、新しい建築もドンドンできている。<br><br>それで国民も非常に文化的で、一種の溌剌たる意気があるそうです。<br><br>私もこのごろイタリアを注目しているのですが、とにかく今の総理大臣がよほど偉いのかなにか、だいぶ変わってきました。<br><br> それから西ドイツですが、あれがたいへんでドイツ再建の意気込みは凄いそうです。<br><br>電車やなんかに乗っても、切符のほかに決まって五円ずつ、切符代とともに一つの奉仕金といったようなものを出すそうです。<br><br>それはなんだというと、ドイツ復興のためのいろいろな資金だそうです。<br><br>国民が自発的にそういう寄付をしているのです。<br><br>ですから日本と較べると、とても日本はしようがないのです。<br><br>そういったような意気は日本には見られないと言うのです。<br><br>ただみんなずるいことをしたり、ごまかしたり、そういうことをしてうまくやっていこうという気風が漲っている。<br><br>だから今のドイツ、イタリアなどを見てくると、とても歯痒い、なんとかしなければならない、というようなことを言ってました。<br><br>それからイタリアはファッショがだいぶ興ってきたそうです。<br><br>今ではムッソリーニを神様のように崇拝しているそうです。<br><br>それでムッソリーニの家族がいるそうですが、そういうのは非常に人民が優遇して、たいへん世話をしているそうです。<br><br>ムッソリーニは偉いのだ、ただ戦争をしたから間違っている、という意味で日本が東条を怨むような、そういうものは少しもないそうです。<br><br>それからドイツでも、やっぱりヒトラーを非常に崇拝しているそうです。<br><br>ヒトラーは偉いのとドイツのために非常に功績を残した。<br><br>やっぱり戦争をしたためにああなった。<br><br>というので、良い悪いは実にはっきり見ているそうです。<br><br>ただ、ヒトラーを崇めるようなことを言うと、米国や英国がうるさいから表面には現わさないそうですが、国民の腹の中は……そういう国民感情になっているそうです。<br><br>私なんかも、当時非常に感心したことは、最初ヒトラーがドイツから偉く仰がれたのは、失業救済です。<br><br>第一回の欧州戦争の後、非常にドイツが疲弊して失業者が多いので、それを救済するためにヒトラー道路というのを作りました。<br><br>ドイツを縦貫して一直線に作ったのですが、あの道路を作るには失業者をみんな使って、それによって失業者は救われるし、道路が良くなった。<br><br>今道路が一番良いのはドイツだそうです。<br><br>アメリカより良いそうです。<br><br>なにしろヒトラー道路は一時間百五〇キロで走れるそうです。<br><br>アメリカにもそれだけの道路はないそうです。<br><br>私は先から思っていたのは、日本でも真ん中にそういう道路を作ってやると日本の交通はすばらしいものになります。<br><br>私が総理大臣ならそうやります。<br><br>それから私が総理大臣だとすると、日本くらい無駄な役人というのはないですから、これを半分にしてしまいます。<br><br>つまり官吏が多過ぎるために仕事に果がいかないのです。<br><br>あれは人間が多いと果がいかないのです。<br><br>むしろ少ないと能率が上がるものです。<br><br>そうして救済事業をたくさんこしらえて日本の道路を良くする。<br><br>そうすると日本の交通はすばらしくなります。<br><br>とにかく日本くらい道路の悪い国は、世界で一番です。<br><br>殊にこのごろバスがさかんになりまして、観光バスが熱海、小田原間を通る道などというのは、まことに狭いです。<br><br>一昨日私は鎌倉に行って小田原と熱海間のそれを通った時に、なにしろ日曜の夕方でしたから、熱海から帰る人がたくさんあるので、そのバスが後から後から来て、そのたびに止まったり後退するのです。<br><br>そのためにちょうどかれこれ二十分か三十分以上よけいかかりました。<br><br>ですからふつう小田原から熱海までは一時間ですが、約一時間半くらいかかり、驚いてしまいました。<br><br>道路も、有料道路を作るという計画があってチビチビ始めてますが、とにかく日本はしみったれなやり方ですから、予算がどうだとかいって思いきったことをやらないのです。<br><br>道路さえ良くすれば小田原、熱海間は三十分で行きます。<br><br>そうするとふつう一時間かかるのが半分ですみます。<br><br>それが日曜などというと、あべこべにもう三十分よけいかかるということになる。<br><br>実に野蛮きわまるのです。<br><br>そういう点なんかも、今のヨーロッパの話を聞くと情けないような気がします。<br><br>それから最近のアメリカの話を聞きましたが、それはなるほど大きな建物や機械的には便利だそうですが、おもしろくないそうです。<br><br>楽しむとか、そういう気分は起らないそうです。<br><br>ただ仕事本位というような具合で、さっぱりおもしろくないというようなことを言ってました。<br><br> それから英国はある点は非常に良いそうです。<br><br>というのは、古いですから非常に伝統を重んじてますが、しかし今はあらゆるものが非常に不足してますから、そこで経済的方策を採っている。<br><br>ですからロンドンなどには、あまり流線型の自動車は走ってないそうです。<br><br>十年も二十年も前の古い自動車が多いそうです。<br><br>それで調べてみると機械は良いそうです。<br><br>機械はアメリカ、イギリスでもできますし、アメリカの最新式のもありますから、それを使ってますが、箱は経済的に扱っている。<br><br>だから日本なんかの方がずっと新しいそうです。<br><br>とにかく日本は見栄坊で虚栄心が強いから、そういう点は思いきってすばしこく、体裁を作るのです。<br><br>それで英国は非常に疲弊している。<br><br>疲弊しているということは、私は先から言っているのです。<br><br>労働党内閣が出て社会主義政策をやったのですが、社会主義政策をやったら国はおとろえるに決まっているのです。<br><br>優勝劣敗というものをなくして、怠ける者も働く者も同じように扱うという、要するに公平にして不公平です。<br><br>だから不公平が公平で、公平が不公平ということは世の中にはたくさんあります。<br><br>社会主義政策もある程度はしかたがないが、社会主義的にしたら国はおとろえるばかりです。<br><br>で、英国の労働党の政策は、すべてを官営にしたのです。<br><br>私営を非常に少なくして、大きな産業はみんな官営にしたのです。<br><br>あれをうっちゃらかしておくと、もっとあらゆるもの――製鉄も官営にしたのです。<br><br>チャーチルが出て止めたのですが、あれで英国は助かったのです。<br><br>それでそういうことが明らかです。<br><br>日本も社会党が今度の選挙で、先よりか投票が増えましたが、日本人はまるっきりそういうことは無関心です。<br><br>ただつまらない宣伝に乗ったりして、それに乗って社会党の左派やああいうのに投票を入れたりするが、実に情けないものです。<br><br>社会党左派というのは共産党です。<br><br>共産党と内通してやっているのですから、要するに合法的共産党です。<br><br>こういう話をすると政治論のようになりますから、このくらいにしておきます。<br><br> 今度の『アメリカを救う』という本はできましたが、翻訳の関係上どうしても今日までに仕上げなければならないというので、半月ばかりでこしらえてしまったのです。<br><br>だから随分骨が折れました。<br><br>翻訳する人は一番上手いのだそうですが、どうしても今日までにやって後半月で翻訳しようという予定で、今日までに書き上げたのです。<br><br>最初は理論的に書いて、それからアメリカの報告の統計を書いて、それから一つ一つの病気を説明して、それから病気に対する実例、つまりお蔭話を多いのは六例、それは多い病気にです。<br><br>そうでない病気は三例のお蔭話をつけて、それを一冊にしたのです。<br><br>今最初の理論だけを読ませますが、これは急いでやりましたが、なにしろアメリカの大統領始め識者や医者、そういう方面に出すのですから、よほど考えて入念にやらなければならないから、心血をそそいで書いたのです。<br><br> （御論文『アメリカを救う』「序論」「病気とは何ぞや」）【栄光 一七九号】 今米国で一番困っているのは癌ですが、癌は非常に簡単なものです。<br><br>その説明をちょっと読ませます。<br><br> （御論文「癌」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Observações sobre o Mundo Pós-Guerra e a Condição do Japão</h2>
 <p>Há apenas quatro ou cinco dias, recebi a visita do senhor Ogawa Kikuzo, um fiel de grande renome e uma figura proeminente no setor automobilístico, que acabara de regressar de uma viagem de três meses pelo mundo. Ao conversar com ele e ouvir seus pormenorizados relatos sobre a situação no exterior, percebi que a realidade difere consideravelmente do que imaginávamos aqui no Japão. Acredito que compartilhar apenas alguns desses pontos de divergência será de grande valia para vossa referência.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>(Leitura do trecho da tese "A Salvação da América", capítulos "Introdução" e "O que é a Doença?")</p>
 <p>Atualmente, o câncer é uma das maiores aflições nos Estados Unidos, mas sua natureza é extremamente simples. Permitam-me ler uma breve explicação sobre o assunto.</p>
 <p>(Leitura do trecho da tese sobre o "Câncer")</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月15日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月十五日 つい四、五日前信者の小川菊蔵という有名な人で、自動車の方では一方の存在とされている人ですが、世界中を三カ月ばかりまわってきたのです。<br/><br/>その人に会って、あっちの事情を良く聞いてみますと、日本で想像していたのとはよほど違う点があるのです。<br/><br/>その違う点だけをちょっと話しておいても参考になると思います。<br/><br/>最初英国の方からドイツにまわって、それからフランスに行ったのですが、フランスは美術的にはあらゆる点において、確かに値打ちがあるそうです。<br/><br/>確かにヨーロッパの美術国だ、ということが分かったそうです。<br/><br/>それからイタリアに行ったそうですが、イタリアに行くとフランスどころではないのです。<br/><br/>イタリアの方はフランスより、まだずっと上だというのです。<br/><br/>それはイタリアの方が古いためもあると思いますが、絵画、彫刻は想像してもイタリアの方が上かもしれないと思われます。<br/><br/>日本でいうと、イタリアの美術は奈良朝時代の美術のようなもの……奈良朝から藤原時代のようなものでしょう。<br/><br/>フランスの方は桃山から元禄といったようなふうでしょう。<br/><br/>ちょっと見たところは非常に絢爛たるものですが、やはりイタリアの方が古いのと、もう一つはイタリアは宗教関係が多いです。<br/><br/>ですからやはりフランスより上になるわけです。<br/><br/>ちょうど京都がフランスとすると、イタリアは奈良といったような意味かもしれません。<br/><br/>だからイタリアの美術を大いに研究する必要がある、というようなことを言ってました。<br/><br/>そうしてしかも最近に至って非常にイタリアが復興してきたのです。<br/><br/>私は世界の建築は、毎月新しい建築雑誌をとってますが、今までで一番感心したのはローマの停車場です。<br/><br/>これは去年できたのです。<br/><br/>今までのコルビュジエ式は世界中のいろいろな写真で見ましたが、たいして感心したことはないが、去年できたローマのステーションは感心しました。<br/><br/>私がこしらえればちょうどそういうものをこしらえると思って、ピッタリしたのです。<br/><br/>私がそれを褒めたところが小川さんも、自分もヨーロッパからアメリカの方を見たが、やはりローマのステーションが一番印象に残っていると言われてました。<br/><br/>そんなようでイタリアは非常に変わってきたそうです。<br/><br/>先にはイタリアというと、乞食の多い国のように思っていたのです。<br/><br/>よく町を歩いたりすると、非常に汚い服装をしたり、憐れみを乞うようなものがたくさんあったということを書物で読みましたが、今度行ってみるとそういうことはないそうです。<br/><br/>それで町も清潔になって、新しい建築もドンドンできている。<br/><br/>それで国民も非常に文化的で、一種の溌剌たる意気があるそうです。<br/><br/>私もこのごろイタリアを注目しているのですが、とにかく今の総理大臣がよほど偉いのかなにか、だいぶ変わってきました。<br/><br/> それから西ドイツですが、あれがたいへんでドイツ再建の意気込みは凄いそうです。<br/><br/>電車やなんかに乗っても、切符のほかに決まって五円ずつ、切符代とともに一つの奉仕金といったようなものを出すそうです。<br/><br/>それはなんだというと、ドイツ復興のためのいろいろな資金だそうです。<br/><br/>国民が自発的にそういう寄付をしているのです。<br/><br/>ですから日本と較べると、とても日本はしようがないのです。<br/><br/>そういったような意気は日本には見られないと言うのです。<br/><br/>ただみんなずるいことをしたり、ごまかしたり、そういうことをしてうまくやっていこうという気風が漲っている。<br/><br/>だから今のドイツ、イタリアなどを見てくると、とても歯痒い、なんとかしなければならない、というようなことを言ってました。<br/><br/>それからイタリアはファッショがだいぶ興ってきたそうです。<br/><br/>今ではムッソリーニを神様のように崇拝しているそうです。<br/><br/>それでムッソリーニの家族がいるそうですが、そういうのは非常に人民が優遇して、たいへん世話をしているそうです。<br/><br/>ムッソリーニは偉いのだ、ただ戦争をしたから間違っている、という意味で日本が東条を怨むような、そういうものは少しもないそうです。<br/><br/>それからドイツでも、やっぱりヒトラーを非常に崇拝しているそうです。<br/><br/>ヒトラーは偉いのとドイツのために非常に功績を残した。<br/><br/>やっぱり戦争をしたためにああなった。<br/><br/>というので、良い悪いは実にはっきり見ているそうです。<br/><br/>ただ、ヒトラーを崇めるようなことを言うと、米国や英国がうるさいから表面には現わさないそうですが、国民の腹の中は……そういう国民感情になっているそうです。<br/><br/>私なんかも、当時非常に感心したことは、最初ヒトラーがドイツから偉く仰がれたのは、失業救済です。<br/><br/>第一回の欧州戦争の後、非常にドイツが疲弊して失業者が多いので、それを救済するためにヒトラー道路というのを作りました。<br/><br/>ドイツを縦貫して一直線に作ったのですが、あの道路を作るには失業者をみんな使って、それによって失業者は救われるし、道路が良くなった。<br/><br/>今道路が一番良いのはドイツだそうです。<br/><br/>アメリカより良いそうです。<br/><br/>なにしろヒトラー道路は一時間百五〇キロで走れるそうです。<br/><br/>アメリカにもそれだけの道路はないそうです。<br/><br/>私は先から思っていたのは、日本でも真ん中にそういう道路を作ってやると日本の交通はすばらしいものになります。<br/><br/>私が総理大臣ならそうやります。<br/><br/>それから私が総理大臣だとすると、日本くらい無駄な役人というのはないですから、これを半分にしてしまいます。<br/><br/>つまり官吏が多過ぎるために仕事に果がいかないのです。<br/><br/>あれは人間が多いと果がいかないのです。<br/><br/>むしろ少ないと能率が上がるものです。<br/><br/>そうして救済事業をたくさんこしらえて日本の道路を良くする。<br/><br/>そうすると日本の交通はすばらしくなります。<br/><br/>とにかく日本くらい道路の悪い国は、世界で一番です。<br/><br/>殊にこのごろバスがさかんになりまして、観光バスが熱海、小田原間を通る道などというのは、まことに狭いです。<br/><br/>一昨日私は鎌倉に行って小田原と熱海間のそれを通った時に、なにしろ日曜の夕方でしたから、熱海から帰る人がたくさんあるので、そのバスが後から後から来て、そのたびに止まったり後退するのです。<br/><br/>そのためにちょうどかれこれ二十分か三十分以上よけいかかりました。<br/><br/>ですからふつう小田原から熱海までは一時間ですが、約一時間半くらいかかり、驚いてしまいました。<br/><br/>道路も、有料道路を作るという計画があってチビチビ始めてますが、とにかく日本はしみったれなやり方ですから、予算がどうだとかいって思いきったことをやらないのです。<br/><br/>道路さえ良くすれば小田原、熱海間は三十分で行きます。<br/><br/>そうするとふつう一時間かかるのが半分ですみます。<br/><br/>それが日曜などというと、あべこべにもう三十分よけいかかるということになる。<br/><br/>実に野蛮きわまるのです。<br/><br/>そういう点なんかも、今のヨーロッパの話を聞くと情けないような気がします。<br/><br/>それから最近のアメリカの話を聞きましたが、それはなるほど大きな建物や機械的には便利だそうですが、おもしろくないそうです。<br/><br/>楽しむとか、そういう気分は起らないそうです。<br/><br/>ただ仕事本位というような具合で、さっぱりおもしろくないというようなことを言ってました。<br/><br/> それから英国はある点は非常に良いそうです。<br/><br/>というのは、古いですから非常に伝統を重んじてますが、しかし今はあらゆるものが非常に不足してますから、そこで経済的方策を採っている。<br/><br/>ですからロンドンなどには、あまり流線型の自動車は走ってないそうです。<br/><br/>十年も二十年も前の古い自動車が多いそうです。<br/><br/>それで調べてみると機械は良いそうです。<br/><br/>機械はアメリカ、イギリスでもできますし、アメリカの最新式のもありますから、それを使ってますが、箱は経済的に扱っている。<br/><br/>だから日本なんかの方がずっと新しいそうです。<br/><br/>とにかく日本は見栄坊で虚栄心が強いから、そういう点は思いきってすばしこく、体裁を作るのです。<br/><br/>それで英国は非常に疲弊している。<br/><br/>疲弊しているということは、私は先から言っているのです。<br/><br/>労働党内閣が出て社会主義政策をやったのですが、社会主義政策をやったら国はおとろえるに決まっているのです。<br/><br/>優勝劣敗というものをなくして、怠ける者も働く者も同じように扱うという、要するに公平にして不公平です。<br/><br/>だから不公平が公平で、公平が不公平ということは世の中にはたくさんあります。<br/><br/>社会主義政策もある程度はしかたがないが、社会主義的にしたら国はおとろえるばかりです。<br/><br/>で、英国の労働党の政策は、すべてを官営にしたのです。<br/><br/>私営を非常に少なくして、大きな産業はみんな官営にしたのです。<br/><br/>あれをうっちゃらかしておくと、もっとあらゆるもの――製鉄も官営にしたのです。<br/><br/>チャーチルが出て止めたのですが、あれで英国は助かったのです。<br/><br/>それでそういうことが明らかです。<br/><br/>日本も社会党が今度の選挙で、先よりか投票が増えましたが、日本人はまるっきりそういうことは無関心です。<br/><br/>ただつまらない宣伝に乗ったりして、それに乗って社会党の左派やああいうのに投票を入れたりするが、実に情けないものです。<br/><br/>社会党左派というのは共産党です。<br/><br/>共産党と内通してやっているのですから、要するに合法的共産党です。<br/><br/>こういう話をすると政治論のようになりますから、このくらいにしておきます。<br/><br/> 今度の『アメリカを救う』という本はできましたが、翻訳の関係上どうしても今日までに仕上げなければならないというので、半月ばかりでこしらえてしまったのです。<br/><br/>だから随分骨が折れました。<br/><br/>翻訳する人は一番上手いのだそうですが、どうしても今日までにやって後半月で翻訳しようという予定で、今日までに書き上げたのです。<br/><br/>最初は理論的に書いて、それからアメリカの報告の統計を書いて、それから一つ一つの病気を説明して、それから病気に対する実例、つまりお蔭話を多いのは六例、それは多い病気にです。<br/><br/>そうでない病気は三例のお蔭話をつけて、それを一冊にしたのです。<br/><br/>今最初の理論だけを読ませますが、これは急いでやりましたが、なにしろアメリカの大統領始め識者や医者、そういう方面に出すのですから、よほど考えて入念にやらなければならないから、心血をそそいで書いたのです。<br/><br/> （御論文『アメリカを救う』「序論」「病気とは何ぞや」）【栄光 一七九号】 今米国で一番困っているのは癌ですが、癌は非常に簡単なものです。<br/><br/>その説明をちょっと読ませます。<br/><br/> （御論文「癌」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

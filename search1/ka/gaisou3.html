@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gaisou3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 咳嗽と喀痰 『結核の正体』昭和18(1943)年11月23日発行 喀痰とは、溜結毒素が発熱のために溶解した液体毒素であり、それを吸出するポンプ作用としての咳嗽である事はさきに述べた通りである。<br><br>これについて今一層詳しく述べてみよう。<br><br> そもそも溜結毒素なるものは、人体いかなる局部に成立するやというに、その原則としては神経を集注する個所である。<br><br>すなわち左右の淋巴腺、扁桃腺及び耳下腺付近、前後頭部、左右の延髄部、肩部、肩胛骨部、背面腎臓部、腕の付根、腋窩（わきのした）、肋骨部、横隔膜付近、胃及び肝臓部、腹膜部、鼠蹊部淋巴腺等であって、ほとんど全身にわたるといってもいいのである。<br><br>それら毒結が、一度第二浄化作用が起こり、溶解し喀痰となるや、瞬時に肺臓内に移行する。<br><br>その速やかなる事間髪を容れぬ程である。<br><br>これをもってみれば、喀痰は一定の通過路がないに係わらず、あらゆる臓器を突破するのであるからその神秘なる事、想像に絶するものがある。<br><br>これについて私の実験した例をかいてみよう。<br><br> 私は過ぐる日、某医博に右の喀痰移行の速やかなる話をしたが、どうしても信じられないというのである。<br><br>私は、それでは実験をしようといい、医博の全身を診査した所、幸いにも右側鼠蹊部に、著るしい毒素溜結が数個あったので、それに対し私は溶解法を行うや、その都度、瞬時に咳嗽をなし吐痰するので、ついに右の説を信ぜざるを得なくなったのである。<br><br> 右のごとくであるから、喀痰も咳嗽も喜ぶべき浄化作用である。<br><br>しかるに医学においては喀痰や咳嗽を、病気悪化作用と誤解し、極力これを停止させようとするのであるから、いかに誤っているかが判るであろう。<br><br>しかも咳嗽は咽喉部の支障として吸入法のごとき方法を行い、または咳嗽止め薬等を使用するが、見当違いであるから、いか程治療するといえども、その効果のないのは当然である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Significado da Tosse e da Expectoração</h2>
 <p>Como já elucidei anteriormente, o escarro nada mais é que a toxina líquida resultante da dissolução de toxinas solidificadas pelo calor da febre. A tosse, por sua vez, atua como um mecanismo de bombeamento para expelir essa substância. Aprofundemos, agora, essa explanação.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Uma vez que se inicia a segunda fase da purificação, essas toxinas solidificadas se dissolvem, transformando-se em escarro e deslocando-se instantaneamente para os pulmões. A velocidade desse processo é tão impressionante que ocorre num piscar de olhos. Diante disso, compreende-se que o escarro, mesmo sem possuir um canal predefinido, atravessa todos os órgãos, o que revela um mistério que transcende a imaginação humana.</p>
 <p>Permitam-me relatar um caso que ilustra este fenômeno, proveniente de minha própria experiência. Certa vez, ao expor a um doutor em medicina a celeridade com que o escarro se desloca, ele se mostrou completamente incrédulo. Propus, então, que realizássemos um experimento. Ao examinar seu corpo, constatei, fortuitamente, a presença de diversos nódulos de toxinas solidificadas em sua região inguinal direita. Apliquei sobre eles o procedimento de dissolução e, a cada aplicação, o médico tossia e expectorava de forma imediata. Ao final, não lhe restou alternativa senão aceitar a veracidade de minha tese.</p>
 <p>Portanto, como exposto, tanto o escarro quanto a tosse constituem um abençoado processo de purificação. A medicina, todavia, incorre no equívoco de interpretá-los como um agravamento da doença e, consequentemente, empenha-se ao máximo para suprimi-los, o que demonstra a profundidade de seu engano. Ademais, a tosse é tratada como um distúrbio da garganta, recorrendo-se a métodos como a inalação ou ao uso de medicamentos antitussígenos. Contudo, por ser uma abordagem equivocada, é natural que tais tratamentos, por mais que sejam aplicados, se mostrem completamente ineficazes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 咳嗽と喀痰 『結核の正体』昭和18(1943)年11月23日発行 喀痰とは、溜結毒素が発熱のために溶解した液体毒素であり、それを吸出するポンプ作用としての咳嗽である事はさきに述べた通りである。<br/><br/>これについて今一層詳しく述べてみよう。<br/><br/> そもそも溜結毒素なるものは、人体いかなる局部に成立するやというに、その原則としては神経を集注する個所である。<br/><br/>すなわち左右の淋巴腺、扁桃腺及び耳下腺付近、前後頭部、左右の延髄部、肩部、肩胛骨部、背面腎臓部、腕の付根、腋窩（わきのした）、肋骨部、横隔膜付近、胃及び肝臓部、腹膜部、鼠蹊部淋巴腺等であって、ほとんど全身にわたるといってもいいのである。<br/><br/>それら毒結が、一度第二浄化作用が起こり、溶解し喀痰となるや、瞬時に肺臓内に移行する。<br/><br/>その速やかなる事間髪を容れぬ程である。<br/><br/>これをもってみれば、喀痰は一定の通過路がないに係わらず、あらゆる臓器を突破するのであるからその神秘なる事、想像に絶するものがある。<br/><br/>これについて私の実験した例をかいてみよう。<br/><br/> 私は過ぐる日、某医博に右の喀痰移行の速やかなる話をしたが、どうしても信じられないというのである。<br/><br/>私は、それでは実験をしようといい、医博の全身を診査した所、幸いにも右側鼠蹊部に、著るしい毒素溜結が数個あったので、それに対し私は溶解法を行うや、その都度、瞬時に咳嗽をなし吐痰するので、ついに右の説を信ぜざるを得なくなったのである。<br/><br/> 右のごとくであるから、喀痰も咳嗽も喜ぶべき浄化作用である。<br/><br/>しかるに医学においては喀痰や咳嗽を、病気悪化作用と誤解し、極力これを停止させようとするのであるから、いかに誤っているかが判るであろう。<br/><br/>しかも咳嗽は咽喉部の支障として吸入法のごとき方法を行い、または咳嗽止め薬等を使用するが、見当違いであるから、いか程治療するといえども、その効果のないのは当然である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

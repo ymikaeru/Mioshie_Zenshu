@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkyoui1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 驚異！！自然栽培三年四倍の増収 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 山口県 明輪中教会 鬼頭 明（40） 明主様、謹んで本年度の自然栽培の実績を御報告申し上げます。<br><br>一昨年は自然栽培の第二年度として、初年度に比べ六割もの増収を戴き、御神徳の広大無辺に感泣いたしましたが、昨年は更に御守護を戴き、自然栽培三年にして、有肥時代の実に四倍強という驚異的なお恵みを戴き御礼の言葉もございません。<br><br> 顧みますれば、当地に自然農法の「一粒の種子」が播かれて、ここに満三年を迎えましたが、最初のうちは何と申しても頑迷な農民の心の扉はとざされ、「作物を作るには、絶対に肥料をやらねば穫れない」と言う、幾百千年の伝統の殻にとじ籠り、肥料迷信のコチコチでございましたが、この蒙を啓き、有難い明主様の御救いを戴くには、実際に見せてあげるより他に方法はないと思い、信者の大野さんの、元蓮田を耕地に転換したものを五畝歩程借り受けて、実施に移しましたのが昭和二十五年でございました。<br><br>有肥時代は反当五斗という実収で、供出にも足りなかったのが、御守護により一石という成績を戴き、更に二十六年度には、反当一石八斗という素晴らしい御守護を戴き、ために頑迷なる人達も逐次自然農法の偉大さに頭を下げ、一人二人と実施する人も増え、昨年度には実施者も、実に三十一戸、四町一段九畝と飛躍させて戴き御守護を戴き、厚く御礼申し上げます。<br><br> さて過去三年の実施成蹟を顧みまするに、絶大なる御守護を戴き、着々その成果をあげているとは申せ、意に満たないところもあり、種々反省させて頂きましたところ、次の件に気をつかせて戴きました。<br><br>と申しますのは、実施水田は勿論自然栽培田ではございますが、水利が悪く、苗代田を作るのに不便なため、別な所に有肥栽培のあとを借り受け、苗代田を設置しておりましたが、毎年雀が入り、その被害も少なからずあり、何か神様の御気付けではないかと思っておりましたが、いかに苗代を作るに自然栽培とは申せ、有肥のあと、ということがいけないということに気を付かせて戴き、思い切って水利悪く付近の人達が親切に「そこは水利悪く、苗代田には適しない」と御注意を頂きました言葉を排し、自然栽培の水田に苗代を設置いたしました。<br><br>長年その付近に住んでいる人が言われるのだから間違いなく、苗代田の管理は難かしかろうと思っておりましたが、御守護を戴き順調に水を頂き、苗もすくすくと育ち、既に苗代で二、三本多いのは五本にも分蘖させて戴くという好成績を戴き、田植の時など専門のお百姓さんも吃驚している様な状態でございました。<br><br>自然栽培三年ともなれば、その成績は断然群を抜き、付近の人達の羨望を尻目に、グングン成長をとげ、昨年度は特に害虫の発生が多く、消毒に、害虫駆除に大童になっている中をすくすくと生長させて戴き、実に豊かな実りの秋を迎えることができました。<br><br>信者の皆さんも時々見においでになり、「さすが自然栽培の稲は違う」とて、益々自信を持ってお帰りを頂いた様な現況でございました。<br><br> その成績は、 昭和二十四年度 有肥の時 五斗（反当） 昭和二十五年度 自然栽培一年目 一石（〃） 昭和二十六年度 〃 二年目 一石八斗（〃） 昭和二十七年度 〃 三年目 二石四斗（〃） となり、有肥時代の実に四倍強という成績でございました。<br><br>今後益々御守護を戴き、一人でも多くの人に自然農法の普及に努め、地上天国建設のため御使い戴けます様お願い申し上げます。<br><br> 明主様有難うございました。<br><br> （昭和二十八年二月十六日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Colheita Quadruplicada em Três Anos de Agricultura Natural: um Feito Surpreendente</h2>
 <p><em>Glória, nº 198, 4 de março de 1953</em>
@@ -107,5 +262,48 @@ function toggleLang(lang) {
 <p>Este resultado representa um aumento de mais de quatro vezes em relação à era dos fertilizantes. De agora em diante, com ainda mais afinco, dedicarei meus esforços para difundir a Agricultura Natural ao maior número possível de pessoas, rogando para que eu possa ser útil na construção do Paraíso Terrestre.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p><em>(Relatório enviado em 16 de fevereiro de 1953)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 驚異！！自然栽培三年四倍の増収 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 山口県 明輪中教会 鬼頭 明（40） 明主様、謹んで本年度の自然栽培の実績を御報告申し上げます。<br/><br/>一昨年は自然栽培の第二年度として、初年度に比べ六割もの増収を戴き、御神徳の広大無辺に感泣いたしましたが、昨年は更に御守護を戴き、自然栽培三年にして、有肥時代の実に四倍強という驚異的なお恵みを戴き御礼の言葉もございません。<br/><br/> 顧みますれば、当地に自然農法の「一粒の種子」が播かれて、ここに満三年を迎えましたが、最初のうちは何と申しても頑迷な農民の心の扉はとざされ、「作物を作るには、絶対に肥料をやらねば穫れない」と言う、幾百千年の伝統の殻にとじ籠り、肥料迷信のコチコチでございましたが、この蒙を啓き、有難い明主様の御救いを戴くには、実際に見せてあげるより他に方法はないと思い、信者の大野さんの、元蓮田を耕地に転換したものを五畝歩程借り受けて、実施に移しましたのが昭和二十五年でございました。<br/><br/>有肥時代は反当五斗という実収で、供出にも足りなかったのが、御守護により一石という成績を戴き、更に二十六年度には、反当一石八斗という素晴らしい御守護を戴き、ために頑迷なる人達も逐次自然農法の偉大さに頭を下げ、一人二人と実施する人も増え、昨年度には実施者も、実に三十一戸、四町一段九畝と飛躍させて戴き御守護を戴き、厚く御礼申し上げます。<br/><br/> さて過去三年の実施成蹟を顧みまするに、絶大なる御守護を戴き、着々その成果をあげているとは申せ、意に満たないところもあり、種々反省させて頂きましたところ、次の件に気をつかせて戴きました。<br/><br/>と申しますのは、実施水田は勿論自然栽培田ではございますが、水利が悪く、苗代田を作るのに不便なため、別な所に有肥栽培のあとを借り受け、苗代田を設置しておりましたが、毎年雀が入り、その被害も少なからずあり、何か神様の御気付けではないかと思っておりましたが、いかに苗代を作るに自然栽培とは申せ、有肥のあと、ということがいけないということに気を付かせて戴き、思い切って水利悪く付近の人達が親切に「そこは水利悪く、苗代田には適しない」と御注意を頂きました言葉を排し、自然栽培の水田に苗代を設置いたしました。<br/><br/>長年その付近に住んでいる人が言われるのだから間違いなく、苗代田の管理は難かしかろうと思っておりましたが、御守護を戴き順調に水を頂き、苗もすくすくと育ち、既に苗代で二、三本多いのは五本にも分蘖させて戴くという好成績を戴き、田植の時など専門のお百姓さんも吃驚している様な状態でございました。<br/><br/>自然栽培三年ともなれば、その成績は断然群を抜き、付近の人達の羨望を尻目に、グングン成長をとげ、昨年度は特に害虫の発生が多く、消毒に、害虫駆除に大童になっている中をすくすくと生長させて戴き、実に豊かな実りの秋を迎えることができました。<br/><br/>信者の皆さんも時々見においでになり、「さすが自然栽培の稲は違う」とて、益々自信を持ってお帰りを頂いた様な現況でございました。<br/><br/> その成績は、 昭和二十四年度 有肥の時 五斗（反当） 昭和二十五年度 自然栽培一年目 一石（〃） 昭和二十六年度 〃 二年目 一石八斗（〃） 昭和二十七年度 〃 三年目 二石四斗（〃） となり、有肥時代の実に四倍強という成績でございました。<br/><br/>今後益々御守護を戴き、一人でも多くの人に自然農法の普及に努め、地上天国建設のため御使い戴けます様お願い申し上げます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十八年二月十六日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本再建の指針 『光』号外、昭和24(1949)年5月30日発行 私は今日本今後の国策を論じてみようと思うが、その前にまず日本という国の使命を語らなくてはならない、そもそもこの世界において数多くの国があるが、いずれの国といえども神が世界経論の必要上、それぞれ本来の使命を与えてある、元より日本といえどもそれに漏るるはずはなく、特殊の使命のある事も当然である、しかるにその使命が今日まで判然としていなかったため、人間の勝手な解釈の下にはなはだしい間違いを行いその結果現在見るごとき惨澹たる国家となった事は今更言うまでもない、日本歴史を繙（ひもと）いてみれば明らかなるごとく、昔から英雄や豪傑が輩出し、そのほとんどは戦争と言う暴力を振って権力を掌握し、人民を塗炭の苦しみに遇わせ、国土を荒廃に帰せしめた罪悪は随所に見らるるのである、これを一言にして云えば、日本歴史は権力者の権力奪い合いの記録でしかなかったと言ってもいい、そうしてその最後の大詰が今次の太平洋戦争であった事は疑う余地のない事実である、それがため、建国以来人民は権力争奪のためにいかに大なる犠牲を払わせられたであろう、全く日本には人民の歴史というものが無かったにみても明らかである。<br><br> しかし右のごとき長い期間中に間歇的に平和時代もあった、飛鳥、白鳳、天平、平安、鎌倉、足利、桃山、元禄享保、文化文政、明治等でその間短いながらも平和文化の発達があり、その遺産として今日僅かに残っているものもあるが、それはその時代を語る絵画、彫刻、美術、工芸品等であるが、この僅かな平和期間にしてなおかつ今日見るがごとき素晴しい美術品が製作されたという事は、日本人がいかに卓越せる美的要素を有しているかが知らるるのである。<br><br> 次に日本の風土である、日本くらい風光明媚なる国は他にないという事は外客の絶讃措かないところである、また草木、花卉類の種類の多い事も世界に冠たるものがあり、四季の変化も他国にその比を見ないそうである、それが山川草木の変化に現われ、春の花、夏の青葉、秋の紅葉、冬枯れ等それぞれの季節美を発揮している、また建築においての木材その他の自然美を活用する技術も特有のものであり、美術および美術工芸品においての淡白と気品に富んだ香り高い日本画や独特の蒔絵、陶磁器等に至るまで、外人の垂涎（すいぜん）措く能わざるところのものである、戦争中、京都奈良の美を保存すべく彼のウォーナー博士の努力によって空襲を免れたという事も外人としての日本美術の理解によるためであった事はもちろんである、その他食物においても魚介野菜の種類の多い事と、調理法のその一つ一つが自然の味を生かす技術も独特の文化であろう。<br><br> 以上によって考える時、日本本来の使命が那辺（なへん）にあるかを窺（うかが）い知らるるのである、それはいうまでもなく、自然と人工の美をもって世界人類の情操を養い、慰安を与え平和を楽しむ思想を豊かならしむべき大使命のある事である、これを具体的にいえば日本全土を挙げて世界の公園たらしめ、あらゆる美の源泉地たらしむる事である。<br><br> しかるに何ぞや、本来の使命とおよそ反対であるところの軍国主義をモットーとし、長い間それに没頭他を顧みなかった事で以上の意味に目醒めて深く考える時いかに誤っていたかを知るであろう、見よ、敗戦の結果、軍備撤廃という空前の事態も、全く日本の真の使命を悟らしむべき神の意図でなくて何であろう、そうして軍備廃止について、日本人中無防備国家として憂慮する向も相当あるであろうが、それは杞憂に過ぎないと思うのである、何となれば日本が世界の公園として、善美を尽くし、地上楽園の形態を備える事になるとすれば万一戦争の場合、敵も味方もこれを破壊する勇気は恐らくあるまいと思うからである。<br><br> 本教団においても、ここに見るところあり、すでに着手しまたは準備中のものに、箱根熱海の風光明媚なる地点を撰（えら）み、庭園美、建築美の粋を尽くした小規模ながら将来における地上天国の模型を建造製作し、それに付随して美術及び美術工芸品の海外紹介所ともいうべきものを設置し、また花卉栽培とその輸出を目的とする一大花苑を企画し、熱海の隣接地に目下三万坪の土地を勤労奉仕隊の手によって開発中である、これについて特に言いたい事は、日本の多くの輸出品中最も特色ある繊維品はある限度を越える事は困難であり、機械類、造船、汽車、電車、自動車、自転車や雑貨等も、高度の文化国へは大衆向の普通品に限られ、民度の低い国の需要をようやく満すくらいである、高級機械類、雑貨、文化資材等に至っては米国初め他の先進国に追つく事は前途遼遠であろう。<br><br> 以上の意味によって、今後日本のとるべき国策としては観光事業と美術及び美術工芸品、花卉類の輸出を措いて、将来性のあるものはほとんど無いと言っても過言ではなかろう。<br><br> しかしながら最も関心事であるものとして日本人の健康問題がある、いかに観光施設が完備し、外客憧憬の的となったとしても、伝染病や結核が瀰漫（びまん）していては、せっかく招待しようとしても美邸の門を閉しているようなものであろう、また今一つは日本産の野菜である、日本古来の人肥のごとき寄生虫伝播の恐れあるものを使用する一事は、外客誘致上少なからぬ障害となろうから、本教の主唱する無肥料浄霊栽培法を実施すべきでこの点実に理想的である、これによって右いずれもの障害は除去され得るのである。<br><br> 大体以上の説明によって略（ほ）ぼ認識されたと思うが、日本の国土にこれら計画や施設が完成された暁、吾らが唱える地上天国は如実に出現さるるのであっていかなる国といえどもこの事を歓迎しないはずはあるまいと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diretrizes para a Reconstrução do Japão</h2>
 <p>Pretendo discorrer sobre as futuras diretrizes nacionais do Japão, mas, antes disso, é imprescindível que eu aborde a missão de nosso país. Neste mundo, embora existam inúmeras nações, a cada uma delas Deus conferiu uma missão original, em conformidade com as necessidades de Seu Plano Divino para o mundo. Naturalmente, o Japão não é exceção a essa regra e, como tal, possui uma missão singular. Contudo, por essa missão não ter sido claramente compreendida até hoje, interpretações arbitrárias conduziram a equívocos crassos, cujo resultado é o estado lastimável em que nossa nação hoje se encontra, como é notório a todos.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Em vista do que foi exposto, não seria exagero afirmar que, para o futuro do Japão, as únicas diretrizes nacionais com real potencial são aquelas voltadas para o turismo e a exportação de obras de arte, de artesanato e de flores.</p>
 <p>Contudo, a questão de maior relevância é a saúde do povo japonês. Por mais que as instalações turísticas sejam impecáveis e se tornem objeto de admiração dos estrangeiros, se doenças infecciosas como a tuberculose forem endêmicas, será como fechar os portões de uma esplêndida mansão aos visitantes. Outro ponto de atenção são os vegetais produzidos no país. A prática tradicional de utilizar dejetos humanos como fertilizantes, com o risco de disseminação de parasitas, representa um obstáculo considerável à vinda de estrangeiros. Nesse sentido, o método de Cultivo Natural preconizado por nossa Igreja, que não utiliza fertilizantes, apresenta-se como a solução ideal. Por meio dele, ambos os entraves podem ser superados.</p>
 <p>Creio que, com esta explanação, a essência do meu pensamento foi compreendida. No dia em que esses planos e empreendimentos se concretizarem em solo japonês, o Reino dos Céus na Terra que nós preconizamos manifestar-se-á em sua plenitude. E não tenho dúvidas de que nação alguma deixará de saudar com alegria tal acontecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本再建の指針 『光』号外、昭和24(1949)年5月30日発行 私は今日本今後の国策を論じてみようと思うが、その前にまず日本という国の使命を語らなくてはならない、そもそもこの世界において数多くの国があるが、いずれの国といえども神が世界経論の必要上、それぞれ本来の使命を与えてある、元より日本といえどもそれに漏るるはずはなく、特殊の使命のある事も当然である、しかるにその使命が今日まで判然としていなかったため、人間の勝手な解釈の下にはなはだしい間違いを行いその結果現在見るごとき惨澹たる国家となった事は今更言うまでもない、日本歴史を繙（ひもと）いてみれば明らかなるごとく、昔から英雄や豪傑が輩出し、そのほとんどは戦争と言う暴力を振って権力を掌握し、人民を塗炭の苦しみに遇わせ、国土を荒廃に帰せしめた罪悪は随所に見らるるのである、これを一言にして云えば、日本歴史は権力者の権力奪い合いの記録でしかなかったと言ってもいい、そうしてその最後の大詰が今次の太平洋戦争であった事は疑う余地のない事実である、それがため、建国以来人民は権力争奪のためにいかに大なる犠牲を払わせられたであろう、全く日本には人民の歴史というものが無かったにみても明らかである。<br/><br/> しかし右のごとき長い期間中に間歇的に平和時代もあった、飛鳥、白鳳、天平、平安、鎌倉、足利、桃山、元禄享保、文化文政、明治等でその間短いながらも平和文化の発達があり、その遺産として今日僅かに残っているものもあるが、それはその時代を語る絵画、彫刻、美術、工芸品等であるが、この僅かな平和期間にしてなおかつ今日見るがごとき素晴しい美術品が製作されたという事は、日本人がいかに卓越せる美的要素を有しているかが知らるるのである。<br/><br/> 次に日本の風土である、日本くらい風光明媚なる国は他にないという事は外客の絶讃措かないところである、また草木、花卉類の種類の多い事も世界に冠たるものがあり、四季の変化も他国にその比を見ないそうである、それが山川草木の変化に現われ、春の花、夏の青葉、秋の紅葉、冬枯れ等それぞれの季節美を発揮している、また建築においての木材その他の自然美を活用する技術も特有のものであり、美術および美術工芸品においての淡白と気品に富んだ香り高い日本画や独特の蒔絵、陶磁器等に至るまで、外人の垂涎（すいぜん）措く能わざるところのものである、戦争中、京都奈良の美を保存すべく彼のウォーナー博士の努力によって空襲を免れたという事も外人としての日本美術の理解によるためであった事はもちろんである、その他食物においても魚介野菜の種類の多い事と、調理法のその一つ一つが自然の味を生かす技術も独特の文化であろう。<br/><br/> 以上によって考える時、日本本来の使命が那辺（なへん）にあるかを窺（うかが）い知らるるのである、それはいうまでもなく、自然と人工の美をもって世界人類の情操を養い、慰安を与え平和を楽しむ思想を豊かならしむべき大使命のある事である、これを具体的にいえば日本全土を挙げて世界の公園たらしめ、あらゆる美の源泉地たらしむる事である。<br/><br/> しかるに何ぞや、本来の使命とおよそ反対であるところの軍国主義をモットーとし、長い間それに没頭他を顧みなかった事で以上の意味に目醒めて深く考える時いかに誤っていたかを知るであろう、見よ、敗戦の結果、軍備撤廃という空前の事態も、全く日本の真の使命を悟らしむべき神の意図でなくて何であろう、そうして軍備廃止について、日本人中無防備国家として憂慮する向も相当あるであろうが、それは杞憂に過ぎないと思うのである、何となれば日本が世界の公園として、善美を尽くし、地上楽園の形態を備える事になるとすれば万一戦争の場合、敵も味方もこれを破壊する勇気は恐らくあるまいと思うからである。<br/><br/> 本教団においても、ここに見るところあり、すでに着手しまたは準備中のものに、箱根熱海の風光明媚なる地点を撰（えら）み、庭園美、建築美の粋を尽くした小規模ながら将来における地上天国の模型を建造製作し、それに付随して美術及び美術工芸品の海外紹介所ともいうべきものを設置し、また花卉栽培とその輸出を目的とする一大花苑を企画し、熱海の隣接地に目下三万坪の土地を勤労奉仕隊の手によって開発中である、これについて特に言いたい事は、日本の多くの輸出品中最も特色ある繊維品はある限度を越える事は困難であり、機械類、造船、汽車、電車、自動車、自転車や雑貨等も、高度の文化国へは大衆向の普通品に限られ、民度の低い国の需要をようやく満すくらいである、高級機械類、雑貨、文化資材等に至っては米国初め他の先進国に追つく事は前途遼遠であろう。<br/><br/> 以上の意味によって、今後日本のとるべき国策としては観光事業と美術及び美術工芸品、花卉類の輸出を措いて、将来性のあるものはほとんど無いと言っても過言ではなかろう。<br/><br/> しかしながら最も関心事であるものとして日本人の健康問題がある、いかに観光施設が完備し、外客憧憬の的となったとしても、伝染病や結核が瀰漫（びまん）していては、せっかく招待しようとしても美邸の門を閉しているようなものであろう、また今一つは日本産の野菜である、日本古来の人肥のごとき寄生虫伝播の恐れあるものを使用する一事は、外客誘致上少なからぬ障害となろうから、本教の主唱する無肥料浄霊栽培法を実施すべきでこの点実に理想的である、これによって右いずれもの障害は除去され得るのである。<br/><br/> 大体以上の説明によって略（ほ）ぼ認識されたと思うが、日本の国土にこれら計画や施設が完成された暁、吾らが唱える地上天国は如実に出現さるるのであっていかなる国といえどもこの事を歓迎しないはずはあるまいと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

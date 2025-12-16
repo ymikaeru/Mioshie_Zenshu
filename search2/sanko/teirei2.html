@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>teirei2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 布教定例座談会 （第二回） 『栄光』179号、昭和27(1952)年10月22日 日 時 昭和二十七年十月四日午後七時 場 所 箱根強羅晴山荘（木原理事自宅） 出席者 本 部 理 事 木 原 義 彦 光宝大教会長 坂 井 多 賀 男 メシヤ中教会長 藤 枝 茂 長生中教会長 長 村 卯 太 郎 鶴明中教会長 湯 本 栄 作 更生中教会長 大 槻 恭 嗣 光陽中教会長 小 川 栄 太 郎 （速記者） 木原道治、谷川清通 小川 私が話の皮切りをさせて戴く事になりましたが、先月この座談会を開かせて戴きまして何となく確信を得た様に思われ、布教の面にも力強さを増した感じが致しております。<br><br>なおこれを定例とお願い致しまして、今回開かせて戴く事になりましたが、本日もまた布教の面とか色々な事でお話させて戴きたいと思います。<br><br>宣しく御願い申し上げます。<br><br> 坂井 この度の救霊祭の問題では色々と御心配戴き、解決は付きましたのですがこの際全信徒の方々にもはっきりさせて戴いた方が宜しいかと思います。<br><br>一般から見て何か拝み屋等と誤解される事は、救霊祭などと言う事をするからではないでしょうか。<br><br>あれがメシヤ教の線に外れたやり方である事ははっきりしているのですが……。<br><br> 木原 あれはこう言うところにあるのです。<br><br>先祖と言うものは我々とどういう繋がりにあるかと言う事を考えれば分ります。<br><br>つまり先祖というのは、十代の先祖があって自分は十一代目とすると、一プラス一、プラス一プラス一…イクオール十、即ち自分なのです。<br><br>これが分れば何んでもないのです。<br><br>そうすれば先祖を縮めたものが自分だと思えば良いのです。<br><br>このメシヤ教のあり方というのは、明主様がこの現界を主として御救いになるのですが、なぜ現界を主に救われるかという事は、神様が現界に降臨されたからです。<br><br>分り易く言えばこういう事になります。<br><br>空なるものを神様として拝む時代が夜の世界で、現界に御肉体を御持ちになられた神様が本当の神様と思えば良いのです。<br><br>そうしますと、明主様の御力によって私なら私というものが御光を戴きますと、それによって十代の先祖の各々が浄まって行きます。<br><br>救霊祭というのは十代のこれを個々別々に浄めるということです。<br><br>これは夜のやり方であって、つまり今までのやり方です。<br><br> 湯本 それは特別のやり方なのでしようか。<br><br>一体どういう事なのでしようか。<br><br> 木原 そういう事をやっていた人があるのです。<br><br> 大槻 救霊、慰霊という事は良いわけでしようか。<br><br> 木原 救霊という事はありますが、救霊「祭」という事はないのです。<br><br>すべて御教えを戴いた通りにすれは良いのです。<br><br>先組のお祀りという事はありますが、しかしそれが主になっては駄目です。<br><br>最後の救霊祭などと言って、メシヤ教の行事の一つかのごとくにしているという事は、主客転倒、ちょうど羽織を逆様に着ているのと同じだと思います。<br><br>それは、無いとは言いません。<br><br>あるにはありますが、それを引繰返して着ている姿にするからいけないのです。<br><br>それでは台無しになります。<br><br>ただそれだけの問題です。<br><br>否定するのではないのです。<br><br>しかし救霊祭がメシヤ教の本当のあり方ではないのです。<br><br>救霊祭を主にして、先組を救わなければ幸福になれないという事ですが、それでは先組の祭をして行けば家はつぶれないかという事になりますが、今までの大名とか、旧家というのは、そういう事は欠かさずにやっていますが、幸福にはなっていないという事を見ても分ります。<br><br>ところが、メシヤ教では先祖をないがしろにするかというと、決してそうではないのです。<br><br>そこの異（ちが）いさです。<br><br>しかも一々祖霊を呼出すという事に至っては明主様より、その様な御言葉は一度もないのです。<br><br> 坂井 それから、よく御神体の御奉斎の事を御霊鎮めという事を言う人がある様ですが、あれは――。<br><br> 木原 よく、そう言う新語を聞くのですが、御神体御奉斎の事を御霊鎮めと言うそうですが、御霊鎮めと言うと、これは己の方でやる事になるのですから、この言葉はぜひ改めて戴きたいと思いますね。<br><br>私は今まで発明はするなという事を言っても来、又私自身も発明はしない様に注意しているのです。<br><br>それからこういう事があります。<br><br>色んな事で問題を起しますと、明主様が問題が起きると発展するという事をおっしゃいますが、これは言霊で宣直（のりなお）して戴いているのです。<br><br>だから、本当は何もなくて行くのが一番良いがとおっしゃってます。<br><br>それによってマイナスになる様な事をプラスにして下さるわけです。<br><br>その大慈大悲の御心を逆解してはいけないのです。<br><br>そうすると、問題を起す方が発展するかの様に思う点があるのです。<br><br> 藤枝 あるどころではなくてそれが多いのではないのでしょうか。<br><br>考え方の取違いですね。<br><br> 木原 どんな場合にでも明主様は大慈大悲であらせられるという事が分ります。<br><br>何かあると、それに対して言霊でそれを宜直して助けて下さるのです。<br><br>そこで、図に乗ってはいけないのです。<br><br> 湯本 この間の御面会の時に、明主様のおっしゃられる通りにしていれば良いが、脱線して行くから、どっちが本当か分らない横になるという御言葉が御座いましたが、全く我々は深く考えなければならないと思いました。<br><br> 小川 言った通りやれる人は英雄だというお言葉が御座いましたが、本当におっしゃられる通りにやる事は中々の事だとつくづく思いました。<br><br> 木原 おっしゃられる通りにやれば、本当に何でもない事なのですがね。<br><br> 長村 それにはやはり自己というものを主にするといけないと思いますが――。<br><br> 木原 明主様の御教えのどれか一つでも実行するならば、すべてのゴタゴタは一つも起らないはずなのです。<br><br>例えば「床しきは己の事を後にして人の良かれと願う心の」という御歌がありますが、これを実行の面に表わすならば、状態は非常に良くなっていくのです。<br><br>例えば、あなた方会長さんが信者さんを本当に間違いなくお導きさせて戴かなければ申し訳ないという気特になったら、会長さんと信者さんの間はシックリといき、すべてが非常にうまくいくと思います。<br><br> ちょっとした事で御守護のない様にしているのですが、御守護を戴ける様にしさえすれは幾らでも戴ける様になっているのです。<br><br>そこで一番大事なことは明主様に対する想念です。<br><br>これが根本です。<br><br>それには己を無くすれば良いのです。<br><br>態度だけは「明主様明主様」と申し上げてはいますが、する事になるとどうもそうなっていないのです。<br><br>これが智慧証覚の高くなる一番の基だと思います。<br><br>それから、どこにいても明主様という気持になれば、霊線によって通じますから御守護はあるわけです。<br><br>従って神様はいつでも御出になられるのですから何も恐れる事はないのです。<br><br>御任かせしておけば良いわけで、この御任せした姿というものは一番強いです。<br><br>こうなれば行詰りというものは絶対に来ません。<br><br>又あせる事もないわけです。<br><br> ここで言いたい事は、人を頼りには出来ませんが、そうかと言って馬鹿にはしません。<br><br>ただ本当に頼らせて戴けるのは神様だけなのです。<br><br> 明主様にお縋りさせて戴き、目的を一つとする我々であるとすれば、みんなが手をつないで行けない事はないと思うのです。<br><br>お互いが愛情を持って当れば良いのですが、それが欠けては駄目なのです。<br><br> 坂井 御浄霊の御礼の問題ですが、色々な事がある様ですけれども、御礼を御取次するのが教師の使命でもあるとすれば、御奉仕する様に取次がなければならないかと思います。<br><br>想念をきれいにして取次ぐと言う様な……。<br><br> 木原 それは取次ぐ事が出来れぼそれで良いのです。<br><br>綺麗、汚いは取次ぐ事によって決るのです。<br><br>私も前には良くそう言う風に考えたものですが、実際上そう緊張ばかりして続くものではありません。<br><br>矢張り小乗的な影がさします。<br><br>明主様がいつもおっしゃる様に、極くスムースに良く出来る事だと思うのです。<br><br>根本から言って御浄霊と言う事について考えて見るならば、霊は明主様からで私達は体を使って頂いているのです。<br><br>従って霊と体とを数理的に考えれば、霊が五、体が五で十の物が出来ているのです。<br><br>御浄霊は十によって行われていると言う事になりますと、吾々は体ですから、その内の半分と言う事になります。<br><br>従って御浄霊の御礼と言う事もそう言う様に考えるのが本当ではないかと思います。<br><br>又ある意味からいくと明主様は五六七の経済と言う事について御話になりましたが、それからいくと三分の一と言うものは必ず明主様に差上げる、と言う事が本当です。<br><br>なお言えば自分が労しない事に対しては報酬を望まないと言う事になります。<br><br>それでなければ労せずして利益を計る事は泥棒と言う事になります。<br><br>その意味から言って、これも霊主体従の法則と言うか、大体その人個人に対して神様から頂く分は決っているのです。<br><br> 一同 今夜の様な会は大変有意義ですね、毎月やらせて戴きましょう。<br><br> × × （註）本定例座談会はメンバーに限定はありませんので有志の中教会長先生はふるって御参加の程を…次回は十一月四日夜熱海での予定でございますので、当日までに本部編集係まで御申込み下さい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Jikan Okada</h2>
 <p>Busca de Ensinamentos: help | Busca de Documentos:</p>
@@ -139,5 +291,48 @@ function toggleLang(lang) {
 <p><strong>Todos:</strong> Reuniões como a de hoje são de grande valia. Vamos realizá-las mensalmente.</p>
 <p>× ×</p>
 <p>(Nota) A participação nesta reunião periódica não é restrita. Convidamos cordialmente os diretores de Igrejas Tyu Kyokai que desejarem a participar. A próxima reunião está prevista para a noite de 4 de novembro, em Atami. Os interessados devem se inscrever no Departamento de Edição da Sede Central até a data do evento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 布教定例座談会 （第二回） 『栄光』179号、昭和27(1952)年10月22日 日 時 昭和二十七年十月四日午後七時 場 所 箱根強羅晴山荘（木原理事自宅） 出席者 本 部 理 事 木 原 義 彦 光宝大教会長 坂 井 多 賀 男 メシヤ中教会長 藤 枝 茂 長生中教会長 長 村 卯 太 郎 鶴明中教会長 湯 本 栄 作 更生中教会長 大 槻 恭 嗣 光陽中教会長 小 川 栄 太 郎 （速記者） 木原道治、谷川清通 小川 私が話の皮切りをさせて戴く事になりましたが、先月この座談会を開かせて戴きまして何となく確信を得た様に思われ、布教の面にも力強さを増した感じが致しております。<br/><br/>なおこれを定例とお願い致しまして、今回開かせて戴く事になりましたが、本日もまた布教の面とか色々な事でお話させて戴きたいと思います。<br/><br/>宣しく御願い申し上げます。<br/><br/> 坂井 この度の救霊祭の問題では色々と御心配戴き、解決は付きましたのですがこの際全信徒の方々にもはっきりさせて戴いた方が宜しいかと思います。<br/><br/>一般から見て何か拝み屋等と誤解される事は、救霊祭などと言う事をするからではないでしょうか。<br/><br/>あれがメシヤ教の線に外れたやり方である事ははっきりしているのですが……。<br/><br/> 木原 あれはこう言うところにあるのです。<br/><br/>先祖と言うものは我々とどういう繋がりにあるかと言う事を考えれば分ります。<br/><br/>つまり先祖というのは、十代の先祖があって自分は十一代目とすると、一プラス一、プラス一プラス一…イクオール十、即ち自分なのです。<br/><br/>これが分れば何んでもないのです。<br/><br/>そうすれば先祖を縮めたものが自分だと思えば良いのです。<br/><br/>このメシヤ教のあり方というのは、明主様がこの現界を主として御救いになるのですが、なぜ現界を主に救われるかという事は、神様が現界に降臨されたからです。<br/><br/>分り易く言えばこういう事になります。<br/><br/>空なるものを神様として拝む時代が夜の世界で、現界に御肉体を御持ちになられた神様が本当の神様と思えば良いのです。<br/><br/>そうしますと、明主様の御力によって私なら私というものが御光を戴きますと、それによって十代の先祖の各々が浄まって行きます。<br/><br/>救霊祭というのは十代のこれを個々別々に浄めるということです。<br/><br/>これは夜のやり方であって、つまり今までのやり方です。<br/><br/> 湯本 それは特別のやり方なのでしようか。<br/><br/>一体どういう事なのでしようか。<br/><br/> 木原 そういう事をやっていた人があるのです。<br/><br/> 大槻 救霊、慰霊という事は良いわけでしようか。<br/><br/> 木原 救霊という事はありますが、救霊「祭」という事はないのです。<br/><br/>すべて御教えを戴いた通りにすれは良いのです。<br/><br/>先組のお祀りという事はありますが、しかしそれが主になっては駄目です。<br/><br/>最後の救霊祭などと言って、メシヤ教の行事の一つかのごとくにしているという事は、主客転倒、ちょうど羽織を逆様に着ているのと同じだと思います。<br/><br/>それは、無いとは言いません。<br/><br/>あるにはありますが、それを引繰返して着ている姿にするからいけないのです。<br/><br/>それでは台無しになります。<br/><br/>ただそれだけの問題です。<br/><br/>否定するのではないのです。<br/><br/>しかし救霊祭がメシヤ教の本当のあり方ではないのです。<br/><br/>救霊祭を主にして、先組を救わなければ幸福になれないという事ですが、それでは先組の祭をして行けば家はつぶれないかという事になりますが、今までの大名とか、旧家というのは、そういう事は欠かさずにやっていますが、幸福にはなっていないという事を見ても分ります。<br/><br/>ところが、メシヤ教では先祖をないがしろにするかというと、決してそうではないのです。<br/><br/>そこの異（ちが）いさです。<br/><br/>しかも一々祖霊を呼出すという事に至っては明主様より、その様な御言葉は一度もないのです。<br/><br/> 坂井 それから、よく御神体の御奉斎の事を御霊鎮めという事を言う人がある様ですが、あれは――。<br/><br/> 木原 よく、そう言う新語を聞くのですが、御神体御奉斎の事を御霊鎮めと言うそうですが、御霊鎮めと言うと、これは己の方でやる事になるのですから、この言葉はぜひ改めて戴きたいと思いますね。<br/><br/>私は今まで発明はするなという事を言っても来、又私自身も発明はしない様に注意しているのです。<br/><br/>それからこういう事があります。<br/><br/>色んな事で問題を起しますと、明主様が問題が起きると発展するという事をおっしゃいますが、これは言霊で宣直（のりなお）して戴いているのです。<br/><br/>だから、本当は何もなくて行くのが一番良いがとおっしゃってます。<br/><br/>それによってマイナスになる様な事をプラスにして下さるわけです。<br/><br/>その大慈大悲の御心を逆解してはいけないのです。<br/><br/>そうすると、問題を起す方が発展するかの様に思う点があるのです。<br/><br/> 藤枝 あるどころではなくてそれが多いのではないのでしょうか。<br/><br/>考え方の取違いですね。<br/><br/> 木原 どんな場合にでも明主様は大慈大悲であらせられるという事が分ります。<br/><br/>何かあると、それに対して言霊でそれを宜直して助けて下さるのです。<br/><br/>そこで、図に乗ってはいけないのです。<br/><br/> 湯本 この間の御面会の時に、明主様のおっしゃられる通りにしていれば良いが、脱線して行くから、どっちが本当か分らない横になるという御言葉が御座いましたが、全く我々は深く考えなければならないと思いました。<br/><br/> 小川 言った通りやれる人は英雄だというお言葉が御座いましたが、本当におっしゃられる通りにやる事は中々の事だとつくづく思いました。<br/><br/> 木原 おっしゃられる通りにやれば、本当に何でもない事なのですがね。<br/><br/> 長村 それにはやはり自己というものを主にするといけないと思いますが――。<br/><br/> 木原 明主様の御教えのどれか一つでも実行するならば、すべてのゴタゴタは一つも起らないはずなのです。<br/><br/>例えば「床しきは己の事を後にして人の良かれと願う心の」という御歌がありますが、これを実行の面に表わすならば、状態は非常に良くなっていくのです。<br/><br/>例えば、あなた方会長さんが信者さんを本当に間違いなくお導きさせて戴かなければ申し訳ないという気特になったら、会長さんと信者さんの間はシックリといき、すべてが非常にうまくいくと思います。<br/><br/> ちょっとした事で御守護のない様にしているのですが、御守護を戴ける様にしさえすれは幾らでも戴ける様になっているのです。<br/><br/>そこで一番大事なことは明主様に対する想念です。<br/><br/>これが根本です。<br/><br/>それには己を無くすれば良いのです。<br/><br/>態度だけは「明主様明主様」と申し上げてはいますが、する事になるとどうもそうなっていないのです。<br/><br/>これが智慧証覚の高くなる一番の基だと思います。<br/><br/>それから、どこにいても明主様という気持になれば、霊線によって通じますから御守護はあるわけです。<br/><br/>従って神様はいつでも御出になられるのですから何も恐れる事はないのです。<br/><br/>御任かせしておけば良いわけで、この御任せした姿というものは一番強いです。<br/><br/>こうなれば行詰りというものは絶対に来ません。<br/><br/>又あせる事もないわけです。<br/><br/> ここで言いたい事は、人を頼りには出来ませんが、そうかと言って馬鹿にはしません。<br/><br/>ただ本当に頼らせて戴けるのは神様だけなのです。<br/><br/> 明主様にお縋りさせて戴き、目的を一つとする我々であるとすれば、みんなが手をつないで行けない事はないと思うのです。<br/><br/>お互いが愛情を持って当れば良いのですが、それが欠けては駄目なのです。<br/><br/> 坂井 御浄霊の御礼の問題ですが、色々な事がある様ですけれども、御礼を御取次するのが教師の使命でもあるとすれば、御奉仕する様に取次がなければならないかと思います。<br/><br/>想念をきれいにして取次ぐと言う様な……。<br/><br/> 木原 それは取次ぐ事が出来れぼそれで良いのです。<br/><br/>綺麗、汚いは取次ぐ事によって決るのです。<br/><br/>私も前には良くそう言う風に考えたものですが、実際上そう緊張ばかりして続くものではありません。<br/><br/>矢張り小乗的な影がさします。<br/><br/>明主様がいつもおっしゃる様に、極くスムースに良く出来る事だと思うのです。<br/><br/>根本から言って御浄霊と言う事について考えて見るならば、霊は明主様からで私達は体を使って頂いているのです。<br/><br/>従って霊と体とを数理的に考えれば、霊が五、体が五で十の物が出来ているのです。<br/><br/>御浄霊は十によって行われていると言う事になりますと、吾々は体ですから、その内の半分と言う事になります。<br/><br/>従って御浄霊の御礼と言う事もそう言う様に考えるのが本当ではないかと思います。<br/><br/>又ある意味からいくと明主様は五六七の経済と言う事について御話になりましたが、それからいくと三分の一と言うものは必ず明主様に差上げる、と言う事が本当です。<br/><br/>なお言えば自分が労しない事に対しては報酬を望まないと言う事になります。<br/><br/>それでなければ労せずして利益を計る事は泥棒と言う事になります。<br/><br/>その意味から言って、これも霊主体従の法則と言うか、大体その人個人に対して神様から頂く分は決っているのです。<br/><br/> 一同 今夜の様な会は大変有意義ですね、毎月やらせて戴きましょう。<br/><br/> × × （註）本定例座談会はメンバーに限定はありませんので有志の中教会長先生はふるって御参加の程を…次回は十一月四日夜熱海での予定でございますので、当日までに本部編集係まで御申込み下さい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

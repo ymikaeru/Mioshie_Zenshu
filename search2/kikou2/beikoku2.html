@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>beikoku2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 米国通信（二） （画信も加えて） 晴風中教会 嵐 知重 外つ国に御神徳至る ロサンゼルスおかげばなし集 『栄光』209号、昭和28(1953)年5月20日発行 二十二名入信 明主様には益々御気嫌麗わしく亘らせられ、大慶この事に存じ上げます。<br><br>私事渡米後既に四カ月となりました。<br><br>ハワイ滞在四十一日再び空路当地へ渡りまして二カ月と二十日になりますロサアンゼルス市長との約束がありました為、樋口先生のハワイ御到着をお迎え出来ず、誠に残念でございました。<br><br> さて、渡米後数ならぬ身を、御布教の露払いとして少しでもお役に立てばと、機会あるごとに手をかざさせて頂きましたところ、当地におきましても、驚くべき奇蹟が続々と生じて参りました。<br><br>その中二、三のおかげ話を取纏めまして本日同封御送付申し上げましたれば、何卒御査閲の程願上げます。<br><br> 御守護を頂かれました方々の内、たってとの希望者のちにそれぞれ仮教修の上、御守様をお下げ渡しさせて頂きまして、ハワイにて五名当地にて今日まで十七名の方々をお導き申し上げました。<br><br>当ロサンゼルスでの御守様御渡しの折はその都度ハワイの樋口先生に詳細御報告の上御指示をまって行動するように努めました。<br><br> 御詠を拝謁 当市には御信者として、晴風中教会長長谷川先生の御両親の他、渡部、関の両ミセスとにて四名の方がおられました上に、今回の十七名を加え二十一名の方々が一致協力、尊い御教えを体しアメリカを救うの気慨の下に、ほこらかに新生第一歩を踏み出されました。<br><br> 長谷川先生の御両親は、御導きに御奔走されるは勿論、あるいは私のために御多忙を割かれて、遠く七百哩のコロラド高原の、グランド・キャニオン国立公園へ四日がかりのスケッチ旅行に、自動車で御案内下さるなど、公私にわたり大変御協力と御高情を賜わり、又両ミセスにも御神業に私交上に、多大の御尽力と御好意を頂きまして、誠に有難く存じて居ります。<br><br>いずれ樋口先生御来羅の暁は、本教修をお願い申し上げ、信者御一同は教線の拡大に、一層御奮起されるでありましょう事を楽しみに、近日次の展覧会予定地たるシヤトルへ向う心組でおります。<br><br> 留守宅より謹送されました春季大祭御詠を恐懼拝誦。<br><br> 嬉しくも 救ひの御業はやうやくに 海の外まで 拡ごりにける アメリカ大陸に如上の御信者を得ましたとはいえ、大御経綸より見ますれば、いまだ大御心の万分一にも添い得ません事を痛感され殊に白人方面に力の及びませんことは、まことに身の浅学の致す所でございまして、心より申訳なく存じております。<br><br> 難聴の全快 次に、私事にわたり恐縮でございますが、画業の方先便の如く渡米途上既に御神徳を頂くやら、ハワイにおいては予想外の好評を以って迎えられましたことなど長谷川先生を通じ、既に上聞に達しました由にて、当地においても愛好者の要望に応え、個展の会期を延長する程の成績を収め、また米国フイナニー画会（Huinani Artists Association of America）より会員に推挙されるなど、全く御守護によるものと、深く深く感謝申し上げております。<br><br> 私の体的にも、徒来耳に御浄化を頂き、電話の難聴に悩まされていましたが、到着第、一日より楽に聴き取れまして、引続き御神業に画業に、一日として電話交渉のない日とてはなく、何れもスムースに用件が運べます事、これまた偏に御神力によるものと感激の他はございません。<br><br> 今回の渡米に際し、心ひそかに帰途をヨーロッパ経由に求め、世界を一周、東南アジア、近東諸国に勉学の重点を置きたいと考えていたのですが、経費の関係上実現は困難ならんと半ば諦めつつも、ひたすらお念じ一途に心魂をこめておりましたところ、渡米後僅か二回の個展のみにて、早くも一二年間の外遊には充分なものをおさずかり得ました次第でございます。<br><br>この上は各国の入国許可を得る事の難関が残されていますが、神様を甘く見ることのお咎めも万々熟知の上、何やらの一つ覚えとか、これもただただ御縋り一途に終始いたしますより他に術を知りません。<br><br>御憫笑願上げます。<br><br> 新木大使と款談 当市の美術館（Art Museum of the City）へも一二回見学に参りました。<br><br>立派な室に拙作「黎明富士」が各国大家の作品に伍して堂々？と永久陳列の栄に浴して居ります。<br><br>左右に立てられた米国旗とカリブォルニヤ州旗は、最近の陳列のしるしだそうです。<br><br>いとし子の一人、潮路はるけくも来つるものよ。<br><br>遠く高貴に嫁した吾が子に逢う親の気特もかくやと、まことにもって面はゆい心地でした。<br><br> 五日程前、新木駐米大使が当地へ見えました折、総領事館に盛大な歓迎会が開かれました。<br><br>招待された名士日系人二十名、外人六十名の中へ邦人芸術家代表として私と日下来羅中のＮＨＫの松田としさんが選ばれ、親しく大使と款談する機会を得ました。<br><br>大使は日米親善の上に、拙作の今回の栄誉を「個人外交の妙諦」と賞揚され、何ものにも拘束されない私の自由な旅行に、羨望を禁じ得ない旨を語られ、是非ワシントンヘも立寄って欲しいと鄭重なお言葉でした。<br><br>謹直温厚な紳士であられる大使の、一般的な社交辞令とは受取れませんでしたが、私の自惚れでしょうか。<br><br> どうも第一信も本信も、お聞き苦しい自画自讃が過ぎたようです。<br><br>何卒御諒怒願い上げます。<br><br> 次回は、アメリカへ参りまして、時に依り折に触れての珍らしい見聞をお伝えさせて頂きたいと存じます。<br><br> 明主様、数々の御守護の程まことに有難うございました。<br><br> （ロサンゼルスにて）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Graça Divina Alcança Terras Estrangeiras</h2>
 <p>Elevo a Meishu-Sama minhas mais sinceras congratulações por Sua excelente e contínua disposição, o que me enche de profunda alegria. No que me concerne, já se passaram quatro meses desde minha chegada aos Estados Unidos. Após uma permanência de quarenta e um dias no Havaí, desloquei-me por via aérea para esta cidade, onde me encontro há dois meses e vinte dias. Lamento profundamente não ter podido recepcionar o Reverendo Higuchi em sua chegada ao Havaí, pois tinha um compromisso inadiável com o prefeito de Los Angeles.</p>
@@ -112,5 +264,48 @@ Além-mar se expandiu.</p>
 <p>Na próxima correspondência, gostaria de relatar as interessantes observações e experiências que venho acumulando em minhas andanças pela América.</p>
 <p>Meishu-Sama, muito obrigado por Suas inúmeras e constantes proteções Divinas.</p>
 <p>(De Los Angeles)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 米国通信（二） （画信も加えて） 晴風中教会 嵐 知重 外つ国に御神徳至る ロサンゼルスおかげばなし集 『栄光』209号、昭和28(1953)年5月20日発行 二十二名入信 明主様には益々御気嫌麗わしく亘らせられ、大慶この事に存じ上げます。<br/><br/>私事渡米後既に四カ月となりました。<br/><br/>ハワイ滞在四十一日再び空路当地へ渡りまして二カ月と二十日になりますロサアンゼルス市長との約束がありました為、樋口先生のハワイ御到着をお迎え出来ず、誠に残念でございました。<br/><br/> さて、渡米後数ならぬ身を、御布教の露払いとして少しでもお役に立てばと、機会あるごとに手をかざさせて頂きましたところ、当地におきましても、驚くべき奇蹟が続々と生じて参りました。<br/><br/>その中二、三のおかげ話を取纏めまして本日同封御送付申し上げましたれば、何卒御査閲の程願上げます。<br/><br/> 御守護を頂かれました方々の内、たってとの希望者のちにそれぞれ仮教修の上、御守様をお下げ渡しさせて頂きまして、ハワイにて五名当地にて今日まで十七名の方々をお導き申し上げました。<br/><br/>当ロサンゼルスでの御守様御渡しの折はその都度ハワイの樋口先生に詳細御報告の上御指示をまって行動するように努めました。<br/><br/> 御詠を拝謁 当市には御信者として、晴風中教会長長谷川先生の御両親の他、渡部、関の両ミセスとにて四名の方がおられました上に、今回の十七名を加え二十一名の方々が一致協力、尊い御教えを体しアメリカを救うの気慨の下に、ほこらかに新生第一歩を踏み出されました。<br/><br/> 長谷川先生の御両親は、御導きに御奔走されるは勿論、あるいは私のために御多忙を割かれて、遠く七百哩のコロラド高原の、グランド・キャニオン国立公園へ四日がかりのスケッチ旅行に、自動車で御案内下さるなど、公私にわたり大変御協力と御高情を賜わり、又両ミセスにも御神業に私交上に、多大の御尽力と御好意を頂きまして、誠に有難く存じて居ります。<br/><br/>いずれ樋口先生御来羅の暁は、本教修をお願い申し上げ、信者御一同は教線の拡大に、一層御奮起されるでありましょう事を楽しみに、近日次の展覧会予定地たるシヤトルへ向う心組でおります。<br/><br/> 留守宅より謹送されました春季大祭御詠を恐懼拝誦。<br/><br/> 嬉しくも 救ひの御業はやうやくに 海の外まで 拡ごりにける アメリカ大陸に如上の御信者を得ましたとはいえ、大御経綸より見ますれば、いまだ大御心の万分一にも添い得ません事を痛感され殊に白人方面に力の及びませんことは、まことに身の浅学の致す所でございまして、心より申訳なく存じております。<br/><br/> 難聴の全快 次に、私事にわたり恐縮でございますが、画業の方先便の如く渡米途上既に御神徳を頂くやら、ハワイにおいては予想外の好評を以って迎えられましたことなど長谷川先生を通じ、既に上聞に達しました由にて、当地においても愛好者の要望に応え、個展の会期を延長する程の成績を収め、また米国フイナニー画会（Huinani Artists Association of America）より会員に推挙されるなど、全く御守護によるものと、深く深く感謝申し上げております。<br/><br/> 私の体的にも、徒来耳に御浄化を頂き、電話の難聴に悩まされていましたが、到着第、一日より楽に聴き取れまして、引続き御神業に画業に、一日として電話交渉のない日とてはなく、何れもスムースに用件が運べます事、これまた偏に御神力によるものと感激の他はございません。<br/><br/> 今回の渡米に際し、心ひそかに帰途をヨーロッパ経由に求め、世界を一周、東南アジア、近東諸国に勉学の重点を置きたいと考えていたのですが、経費の関係上実現は困難ならんと半ば諦めつつも、ひたすらお念じ一途に心魂をこめておりましたところ、渡米後僅か二回の個展のみにて、早くも一二年間の外遊には充分なものをおさずかり得ました次第でございます。<br/><br/>この上は各国の入国許可を得る事の難関が残されていますが、神様を甘く見ることのお咎めも万々熟知の上、何やらの一つ覚えとか、これもただただ御縋り一途に終始いたしますより他に術を知りません。<br/><br/>御憫笑願上げます。<br/><br/> 新木大使と款談 当市の美術館（Art Museum of the City）へも一二回見学に参りました。<br/><br/>立派な室に拙作「黎明富士」が各国大家の作品に伍して堂々？と永久陳列の栄に浴して居ります。<br/><br/>左右に立てられた米国旗とカリブォルニヤ州旗は、最近の陳列のしるしだそうです。<br/><br/>いとし子の一人、潮路はるけくも来つるものよ。<br/><br/>遠く高貴に嫁した吾が子に逢う親の気特もかくやと、まことにもって面はゆい心地でした。<br/><br/> 五日程前、新木駐米大使が当地へ見えました折、総領事館に盛大な歓迎会が開かれました。<br/><br/>招待された名士日系人二十名、外人六十名の中へ邦人芸術家代表として私と日下来羅中のＮＨＫの松田としさんが選ばれ、親しく大使と款談する機会を得ました。<br/><br/>大使は日米親善の上に、拙作の今回の栄誉を「個人外交の妙諦」と賞揚され、何ものにも拘束されない私の自由な旅行に、羨望を禁じ得ない旨を語られ、是非ワシントンヘも立寄って欲しいと鄭重なお言葉でした。<br/><br/>謹直温厚な紳士であられる大使の、一般的な社交辞令とは受取れませんでしたが、私の自惚れでしょうか。<br/><br/> どうも第一信も本信も、お聞き苦しい自画自讃が過ぎたようです。<br/><br/>何卒御諒怒願い上げます。<br/><br/> 次回は、アメリカへ参りまして、時に依り折に触れての珍らしい見聞をお伝えさせて頂きたいと存じます。<br/><br/> 明主様、数々の御守護の程まことに有難うございました。<br/><br/> （ロサンゼルスにて）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

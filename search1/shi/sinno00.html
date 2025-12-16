@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinno00</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の医学とは 『栄光』210号、昭和28(1953)年5月27日発行 『薬害の実例』と 改題して世界救世教奇蹟集に集録 浄霊によって人間の健康がいかに完全になるかという事の実例として、左の御蔭話は遺憾なく証明しているので、この文を添えたのである。<br><br>これを現代医学の健康法と比べてみて貰いたいと思う。<br><br>というのは医学の健康法で、このような理想的健康体になった子供は世界広しといえども一人もない事を断言する。<br><br>この例の最も重点としては薬を全然体へ入れなかった事は言う迄もない。<br><br>この事実によってみても本教のモットーである病無き世界を作るという事は、一点の疑いないであろう。<br><br> この栄光紙は厚生省始め、各新聞社、その他知識階級方面にも、毎号郵送しているので、読まないはずはないであろうが、これを読んでも何ら頭脳を刺戟しないとしたら、実に不可解千万というべきである．考えるまでもなく宗教なるが故にという理由の防壁が妨げているのであろうが、吾々はこの防壁を神力をもって打破り、世の中に苦しんでいる不幸な人々を救うのであるから、容易な業ではない。<br><br>これについてこういう事が浮んで来る。<br><br>それは地獄で呻いている大衆に向って手を差伸べて助けようとしても、その手を振り払ったり見まいとして目を瞑るのであるから、その蒙昧なる何といっていいか言葉はないのである。<br><br>嗚呼哀れなる者よ、汝の名は科学迷信者也と言いたいのである。<br><br> 七カ月の早産児で医師に見及された私がこんな健康に 静岡県 神成大教会 市川紀子（14） 御明主様にお救いして戴きました御礼を御報告申し上げます。<br><br>私は、七カ月で生まれて、六十二日目より二年四カ月病気で苦しんで医者に三、四回も見捨てられたところを御救い頂きました。<br><br>五歳の時御守様を戴き、それより毎日御守護によりまして今まで一度もお医者にかかったことはありません。<br><br>どんな病気をした時も、直ぐお母さんより御浄霊を戴いて癒ってしまいます。<br><br> 今年は風邪も引かず咳一つ出ません。<br><br>学校でレントゲン検査がありましたが、胸がきれい過ぎると、私ばかり二度も検査を致しました。<br><br>二度共きれいで先生方が驚いておりました。<br><br>検便もありましたが、蛔虫の卵一つも無く、いやな海人草を飲まなくてすみました。<br><br>二月の末に目か悪くなってお魚の刺身のように真赤になり、毎日涙と鼻汁が沢山出ました。<br><br>一カ月位経った先日鼻血が沢山出まして、前より澄んだきれいな目になりまして本当に嬉しゅう御座います。<br><br> 昨年秋の運動会に二百米の徒競走に出まして、心の中で御明主様に頑張らして下さい、賞品を取らせて下さいとお念じしましたら、二等になって賞品を頂きましたので、大光明如来様にお供えして御礼申し上げました。<br><br>山彦学校の映画の会の時にも、友達からいやな事を言われないよう、御神前にお願いして学校へ行きましたら、誰も何んとも言わずほっと致しました。<br><br>数数の御守護有難う御座いました。<br><br>お父さんは、救世会館御建設中の熱海に御奉仕をさせて戴き、お母さんは毎日病気や悩んでいる人々の御浄霊に出掛け夜遅くなりますが、私は御神体の前で休ませて戴きますので少しも淋しくありません。<br><br>お母さんは私の事を、神様より生命を延ばして戴いた子供だ、と云って毎夜寝る前に御浄霊をして下さいます。<br><br>紀子も早く大きくなって御浄霊の先生にさせて頂きたいと思っております。<br><br> 御明主様有難う御座います。<br><br>厚く御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prova da Saúde Perfeita</h2>
 <p>Este relato de graça constitui uma prova irrefutável de como a saúde humana pode atingir a perfeição por meio do Johrei. É por essa razão que decidi acrescentar este texto. Desejo que o comparem com os métodos de saúde da medicina moderna, pois assevero que não existe, em todo o mundo, uma única criança que tenha alcançado um estado de saúde tão ideal por meio de tais métodos. O ponto nevrálgico deste exemplo, nem é preciso dizer, é o fato de que nenhum medicamento foi introduzido em seu organismo. Somente esta realidade já deveria ser suficiente para dissipar qualquer dúvida a respeito do lema de nossa Igreja: a construção de um mundo isento de doenças.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Meu pai dedica na construção do Kyusei Kaikan em Atami, e minha mãe sai todos os dias para ministrar Johrei a pessoas doentes e aflitas, retornando tarde da noite. Contudo, como descanso diante do Altar Sagrado, não me sinto nem um pouco solitária.</p>
 <p>Minha mãe costuma dizer que sou "uma filha cuja vida foi prolongada por Deus" e, todas as noites, ministra-me Johrei antes de eu dormir. Eu, Kiko, também desejo crescer logo para poder me tornar uma ministrante de Johrei.</p>
 <p>Meishu-Sama, muito obrigada. Expresso minha mais profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の医学とは 『栄光』210号、昭和28(1953)年5月27日発行 『薬害の実例』と 改題して世界救世教奇蹟集に集録 浄霊によって人間の健康がいかに完全になるかという事の実例として、左の御蔭話は遺憾なく証明しているので、この文を添えたのである。<br/><br/>これを現代医学の健康法と比べてみて貰いたいと思う。<br/><br/>というのは医学の健康法で、このような理想的健康体になった子供は世界広しといえども一人もない事を断言する。<br/><br/>この例の最も重点としては薬を全然体へ入れなかった事は言う迄もない。<br/><br/>この事実によってみても本教のモットーである病無き世界を作るという事は、一点の疑いないであろう。<br/><br/> この栄光紙は厚生省始め、各新聞社、その他知識階級方面にも、毎号郵送しているので、読まないはずはないであろうが、これを読んでも何ら頭脳を刺戟しないとしたら、実に不可解千万というべきである．考えるまでもなく宗教なるが故にという理由の防壁が妨げているのであろうが、吾々はこの防壁を神力をもって打破り、世の中に苦しんでいる不幸な人々を救うのであるから、容易な業ではない。<br/><br/>これについてこういう事が浮んで来る。<br/><br/>それは地獄で呻いている大衆に向って手を差伸べて助けようとしても、その手を振り払ったり見まいとして目を瞑るのであるから、その蒙昧なる何といっていいか言葉はないのである。<br/><br/>嗚呼哀れなる者よ、汝の名は科学迷信者也と言いたいのである。<br/><br/> 七カ月の早産児で医師に見及された私がこんな健康に 静岡県 神成大教会 市川紀子（14） 御明主様にお救いして戴きました御礼を御報告申し上げます。<br/><br/>私は、七カ月で生まれて、六十二日目より二年四カ月病気で苦しんで医者に三、四回も見捨てられたところを御救い頂きました。<br/><br/>五歳の時御守様を戴き、それより毎日御守護によりまして今まで一度もお医者にかかったことはありません。<br/><br/>どんな病気をした時も、直ぐお母さんより御浄霊を戴いて癒ってしまいます。<br/><br/> 今年は風邪も引かず咳一つ出ません。<br/><br/>学校でレントゲン検査がありましたが、胸がきれい過ぎると、私ばかり二度も検査を致しました。<br/><br/>二度共きれいで先生方が驚いておりました。<br/><br/>検便もありましたが、蛔虫の卵一つも無く、いやな海人草を飲まなくてすみました。<br/><br/>二月の末に目か悪くなってお魚の刺身のように真赤になり、毎日涙と鼻汁が沢山出ました。<br/><br/>一カ月位経った先日鼻血が沢山出まして、前より澄んだきれいな目になりまして本当に嬉しゅう御座います。<br/><br/> 昨年秋の運動会に二百米の徒競走に出まして、心の中で御明主様に頑張らして下さい、賞品を取らせて下さいとお念じしましたら、二等になって賞品を頂きましたので、大光明如来様にお供えして御礼申し上げました。<br/><br/>山彦学校の映画の会の時にも、友達からいやな事を言われないよう、御神前にお願いして学校へ行きましたら、誰も何んとも言わずほっと致しました。<br/><br/>数数の御守護有難う御座いました。<br/><br/>お父さんは、救世会館御建設中の熱海に御奉仕をさせて戴き、お母さんは毎日病気や悩んでいる人々の御浄霊に出掛け夜遅くなりますが、私は御神体の前で休ませて戴きますので少しも淋しくありません。<br/><br/>お母さんは私の事を、神様より生命を延ばして戴いた子供だ、と云って毎夜寝る前に御浄霊をして下さいます。<br/><br/>紀子も早く大きくなって御浄霊の先生にさせて頂きたいと思っております。<br/><br/> 御明主様有難う御座います。<br/><br/>厚く御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

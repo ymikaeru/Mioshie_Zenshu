@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>haien02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺炎と結核 『結核の革命的療法』昭和26(1951)年8月15日発行 寒冒と最も密接な関係ある病気としては、言うまでもなく肺炎と結核であろう。<br><br>特に現在日本において、最も悩みとされているものはこれであるから、充分解説する必要があろう。<br><br>そもそも肺炎と結核という病気の初因は、もちろん寒冒からである。<br><br>というのは前項に述べたごとく、せっかく寒冒という浄化作用が発生するや、医療は極力停止させようとして、種々の手段を行う。<br><br>これも既に述べた通りであるが、その中の最も不可であるのは、薬剤と氷冷である。<br><br>元来薬剤とはいかなるものであるかというと、ことごとく毒物である。<br><br>にもかかわらずなぜ毒物を薬剤として、用いるようになったかというと、今までに説いたごとき、浄化作用停止に最も効果があるからである。<br><br> ここで、浄化作用なるものの本質を説いてみるが、さきに述べたごとく、体内の毒素を排除すべく、生まれながらに保有している自然良能力である。<br><br>従ってこの力の強弱によって、浄化力にも強弱が出来る。<br><br>何よりも結核が青少年に多いという事は、浄化力が旺盛であるからで、壮年から老年に及ぶにしたがい、減少するのもその理由であり、また各種の伝染病が、青少年や小児に多いのも同様の理である。<br><br>そこで病気すなわち浄化発生の場合、医学は浄化を極力止めようとする、それには何よりも体力を弱らせる事である。<br><br>その唯一の方法として考えられたのが、毒物を体内に入れる事で、それによって体力が弱るから、浄化も弱り、病気症状も軽減するという訳である。<br><br> また氷冷はなぜ不可かというと、毒素を溶解すべき熱を冷すから浄化が弱り、元通り固まり、それだけ苦痛も減る事となる。<br><br>もちろん、湿布も同様であって、ただいささか異（ちが）う点は、人体は不断に皮膚の毛細管からも呼吸しているのでそれを窒息させるから、その部の浄化は停止され、症状は緩和するのである。<br><br>特に近来注射が流行するが、これも毒分の強い薬は、服んでは中毒の危険があるから皮膚から注入するのである。<br><br> 寒冒に罹った場合、右のごとく薬毒やその他の方法で、浄化停止を行う以上、保有毒素の幾分は減るが、大部分は残存し、再び固まってしまうと共に、新しい薬毒も追加されるので、寒冒に罹る毎に毒素は累加し、ある程度に達するや、一時に浄化活動が起る。<br><br>それが彼の肺炎である。<br><br>何よりも肺炎の特異性は、喀痰が肺臓内に多量に溜る事で、そのため喘音（ぜんおん）がはなはだしいのである。<br><br>喘音とは呼吸の度に肺胞が動くにつれての喀痰の響きである。<br><br>また呼吸困難は喀痰多量のため、肺臓内の容積が縮小するから必要量の空気を吸うには、頻繁に呼吸しなければならないからである。<br><br>この理によって肺炎の場合、何らの療法もせず、自然にしておけば痰は出るだけ出て順調に治るのである。<br><br>ところが医療はあらゆる手段によって浄化を停止させようとする。<br><br>何よりも肺炎に対しては医療は特に強い薬を用いる。<br><br>強いとは毒が強いという訳で、浄化停止に強力だからである。<br><br>そんな訳で強い浄化と強い浄化停止とで、猛烈な摩擦が生じ、非常な苦痛が伴う。<br><br>そのため食欲減退、高熱による体力消耗と相まって、衰弱死に至るのであるから、医学の誤謬たるや言うべき言葉を知らないのである。<br><br> 右のごとく肺炎は強烈な浄化である事は体力が旺盛であるからで、体力の弱っている人は浄化が緩慢（かんまん）に発（おこ）る。<br><br>それが結核である。<br><br>そうして医師が初めての患者を診断する場合、種々な方法の中、今日最も決定的とされているものはレントゲン写真である。<br><br>これは肺臓内の雲翳（うんえい）または空洞が写るからで、これを見て結核と断定するが、医学はこれは何が原因であるかを知らない。<br><br>次にその原因をかいてみるが、寒冒の説明にもある通り、最初液体となった毒素が、一旦肺臓内に侵入停滞した時、極力浄化停止を行う結果、喀痰は排泄されず肺臓内に残存してしまい、日を経るに従って固結となる。<br><br>それが雲翳であってみれば、これは全く人為的所産と言えよう。<br><br>ゆえに最初の液体侵入の際は、肺臓は何ら異状〔常〕はないのである。<br><br>そうして固痰の位置が比較的上部の場合は、肺尖カタルまたは肺門淋巴腺というのである。<br><br>それと似たものに肺浸潤がある。<br><br>これは軽微な肋膜炎または肋骨付近に溜結せる毒素が浄化溶解し、肺臓内に浸潤吐痰となろうとするので、この場合も医療は固めようとするから容易に治らない。<br><br>もちろん右はいずれも放任しておけば、順調に治癒するのである。<br><br> そうして一度結核と断定するや、寒冒と同様医療は極力浄化停止を行うが、それに最も効果ありとされているのが、近来熱心に推奨されている彼の安静法である。<br><br>ところがこの安静法が曲者である。<br><br>何となれば仮に健康者が一ケ月も安静にすれば、運動不足で食欲は減退し、体力は減り、外出しないため顔色は悪くなり、目に見えて衰弱する。<br><br>ちょっと動いても息切れをするようになるとしたら、言わんや病人においてをやである。<br><br>なおその上薬毒を入れられ、栄養と称して動物性蛋白を多く摂（と）らせるが、右はことごとく衰弱を増させる方法であるから、結核患者ならずとも衰弱するに決っている。<br><br> このように衰弱法を行う結果、予期通り浄化力は極度に減退し、症状は減りついに無熱となり、咳も吐痰も無くなるので、これで恢復したと思って喜ぶが、何ぞ知らん実は浄化以前の状態に還元させたまでで、結果は反って薬毒は増し、体力は弱り、消極的小康を得たまでで、真に治ったのではないから、何かの機会に触れるや、俄然悪化し重態に陥り、ついに死に至る事が往々ある。<br><br>こういう経路は医家もよく経験するところであろう。<br><br>ゆえに医学では決して治るとは言わない。<br><br>固めるというにみても明らかである。<br><br>また経過中に患者がたまたま少し運動でもすると直に発熱する。<br><br>すると医師はあわてて戒めるが、これは運動によって鎮静していた浄化が頭をもたげるからで、本当はいいのである。<br><br>よく長い間掛ってようやく治ったといわれ、ヤレ安心と普通の生活を始めるや、間もなく再発、元の木阿弥（もくあみ）となる事もよくあるが、これらも何年掛りでようやく固めた毒素が、俄（にわ）かに溶け始めたためである。<br><br>以上によって明らかなごとく、今日の医療がいかに誤っているかで、忌憚なく言えば医療が結核を増やしていると言っても過言ではなかろう。<br><br> ここで、結核菌について大いに注意したい事がある。<br><br>医学では結核菌は伝染するとして恐れるが、それもない事はないが、大部分は自然発生である。<br><br>前述のごとく最初喀痰が肺臓内に侵入するや、医療は固めて出なくするので時日の経過につれて腐敗し、微生物が発生する。<br><br>これが結核菌である。<br><br>そうなった痰は悪臭があり、粘着力が強いものである。<br><br>考えてみるがいい、いかなる物質でも古くなれば腐敗する、腐敗すれば微生物が湧くのは物質の原則である。<br><br>ましてや体温という好条件も手伝うからである。<br><br>これによってみても最初の寒冒時、肺臓内に喀痰が滞溜した時、極力出してしまえばそれで済んでしまう。<br><br>それを一生懸命出ないようにして腐敗させ、菌まで湧かせ、菌の蚕食（さんしょく）によって空洞さえ作るのであるから、結果からいえば善意の加害的行為とも言えるであろう。<br><br>この理に目醒めない限り、今後いかに多くの犠牲者が出るか測り知れないものがあろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem da Pneumonia e da Tuberculose e o Equívoco da Medicina</h2>
 <p>Dentre as enfermidades mais intimamente relacionadas ao resfriado, destacam-se, sem dúvida, a pneumonia e a tuberculose. Considerando que estas representam um dos maiores tormentos no Japão atual, faz-se necessária uma explanação aprofundada. A causa primária de ambas, pneumonia e tuberculose, reside, fundamentalmente, no resfriado. Isso ocorre porque, conforme exposto anteriormente, tão logo se manifesta o processo purificador do resfriado, a medicina emprega uma variedade de métodos com o objetivo de interrompê-lo a todo custo.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Como resultado desse método de enfraquecimento, a força purificadora diminui drasticamente, como esperado. Os sintomas se atenuam, a febre cede, e a tosse e a expectoração desaparecem. O paciente, então, se alegra, acreditando ter se recuperado. Mal sabe ele que apenas retornou ao estado anterior à purificação. Na realidade, a quantidade de toxinas medicamentosas em seu corpo aumentou, sua força vital diminuiu, e o que ele obteve foi apenas uma calma precária e ilusória. Não se trata de uma cura verdadeira. Por essa razão, diante de qualquer estímulo, a doença pode recrudescer subitamente, levando o paciente a um estado grave e, não raro, à morte. Os próprios médicos certamente conhecem bem esse tipo de desfecho. É por isso que a medicina jamais fala em "cura", mas sim em "solidificação" da doença, o que revela a verdade por trás do processo.</p>
 <p>Adicionalmente, se durante o tratamento o paciente faz um leve exercício, a febre retorna de imediato. O médico, alarmado, o repreende, mas o que ocorre é que o movimento faz com que a purificação, antes adormecida, volte a se manifestar — o que, na verdade, é um bom sinal. Também é comum o caso de pacientes que, após um longo tratamento, são considerados curados. Contudo, ao retomarem suas vidas normais, sofrem uma recaída e retornam à estaca zero. Isso acontece porque as toxinas, que levaram anos para serem solidificadas, começam a se dissolver abruptamente. O exposto até aqui demonstra claramente o quão equivocada é a medicina atual. Falando sem rodeios, não seria exagero afirmar que é a própria medicina que está aumentando os casos de tuberculose.</p>
 <p>Gostaria, neste ponto, de chamar a atenção para uma questão crucial a respeito do bacilo da tuberculose. A medicina o teme, tratando-o como um agente contagioso. Embora a transmissão possa ocorrer, a grande maioria dos casos se dá por geração espontânea. Como explicado, quando a expectoração penetra nos pulmões, a intervenção médica a solidifica, impedindo sua saída. Com o passar do tempo, essa matéria retida entra em putrefação, dando origem a micro-organismos. Eis o bacilo da tuberculose. Essa expectoração putrefata possui odor fétido e é bastante viscosa. Pensemos com clareza: qualquer substância orgânica, ao envelhecer, se decompõe. E da decomposição, surgem micro-organismos — é um princípio fundamental da matéria. O processo é ainda acelerado pela condição favorável da temperatura corporal. Fica evidente, portanto, que se a expectoração tivesse sido completamente expelida quando ainda estava nos pulmões, durante o resfriado inicial, o problema estaria resolvido. Em vez disso, a medicina se empenha em retê-la, permitindo que apodreça, que gere bacilos e que a ação corrosiva destes chegue a criar cavidades. Em suma, trata-se de um ato de agressão bem-intencionado. Enquanto a humanidade não despertar para esta verdade, é impossível prever o número de vítimas que ainda surgirão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺炎と結核 『結核の革命的療法』昭和26(1951)年8月15日発行 寒冒と最も密接な関係ある病気としては、言うまでもなく肺炎と結核であろう。<br/><br/>特に現在日本において、最も悩みとされているものはこれであるから、充分解説する必要があろう。<br/><br/>そもそも肺炎と結核という病気の初因は、もちろん寒冒からである。<br/><br/>というのは前項に述べたごとく、せっかく寒冒という浄化作用が発生するや、医療は極力停止させようとして、種々の手段を行う。<br/><br/>これも既に述べた通りであるが、その中の最も不可であるのは、薬剤と氷冷である。<br/><br/>元来薬剤とはいかなるものであるかというと、ことごとく毒物である。<br/><br/>にもかかわらずなぜ毒物を薬剤として、用いるようになったかというと、今までに説いたごとき、浄化作用停止に最も効果があるからである。<br/><br/> ここで、浄化作用なるものの本質を説いてみるが、さきに述べたごとく、体内の毒素を排除すべく、生まれながらに保有している自然良能力である。<br/><br/>従ってこの力の強弱によって、浄化力にも強弱が出来る。<br/><br/>何よりも結核が青少年に多いという事は、浄化力が旺盛であるからで、壮年から老年に及ぶにしたがい、減少するのもその理由であり、また各種の伝染病が、青少年や小児に多いのも同様の理である。<br/><br/>そこで病気すなわち浄化発生の場合、医学は浄化を極力止めようとする、それには何よりも体力を弱らせる事である。<br/><br/>その唯一の方法として考えられたのが、毒物を体内に入れる事で、それによって体力が弱るから、浄化も弱り、病気症状も軽減するという訳である。<br/><br/> また氷冷はなぜ不可かというと、毒素を溶解すべき熱を冷すから浄化が弱り、元通り固まり、それだけ苦痛も減る事となる。<br/><br/>もちろん、湿布も同様であって、ただいささか異（ちが）う点は、人体は不断に皮膚の毛細管からも呼吸しているのでそれを窒息させるから、その部の浄化は停止され、症状は緩和するのである。<br/><br/>特に近来注射が流行するが、これも毒分の強い薬は、服んでは中毒の危険があるから皮膚から注入するのである。<br/><br/> 寒冒に罹った場合、右のごとく薬毒やその他の方法で、浄化停止を行う以上、保有毒素の幾分は減るが、大部分は残存し、再び固まってしまうと共に、新しい薬毒も追加されるので、寒冒に罹る毎に毒素は累加し、ある程度に達するや、一時に浄化活動が起る。<br/><br/>それが彼の肺炎である。<br/><br/>何よりも肺炎の特異性は、喀痰が肺臓内に多量に溜る事で、そのため喘音（ぜんおん）がはなはだしいのである。<br/><br/>喘音とは呼吸の度に肺胞が動くにつれての喀痰の響きである。<br/><br/>また呼吸困難は喀痰多量のため、肺臓内の容積が縮小するから必要量の空気を吸うには、頻繁に呼吸しなければならないからである。<br/><br/>この理によって肺炎の場合、何らの療法もせず、自然にしておけば痰は出るだけ出て順調に治るのである。<br/><br/>ところが医療はあらゆる手段によって浄化を停止させようとする。<br/><br/>何よりも肺炎に対しては医療は特に強い薬を用いる。<br/><br/>強いとは毒が強いという訳で、浄化停止に強力だからである。<br/><br/>そんな訳で強い浄化と強い浄化停止とで、猛烈な摩擦が生じ、非常な苦痛が伴う。<br/><br/>そのため食欲減退、高熱による体力消耗と相まって、衰弱死に至るのであるから、医学の誤謬たるや言うべき言葉を知らないのである。<br/><br/> 右のごとく肺炎は強烈な浄化である事は体力が旺盛であるからで、体力の弱っている人は浄化が緩慢（かんまん）に発（おこ）る。<br/><br/>それが結核である。<br/><br/>そうして医師が初めての患者を診断する場合、種々な方法の中、今日最も決定的とされているものはレントゲン写真である。<br/><br/>これは肺臓内の雲翳（うんえい）または空洞が写るからで、これを見て結核と断定するが、医学はこれは何が原因であるかを知らない。<br/><br/>次にその原因をかいてみるが、寒冒の説明にもある通り、最初液体となった毒素が、一旦肺臓内に侵入停滞した時、極力浄化停止を行う結果、喀痰は排泄されず肺臓内に残存してしまい、日を経るに従って固結となる。<br/><br/>それが雲翳であってみれば、これは全く人為的所産と言えよう。<br/><br/>ゆえに最初の液体侵入の際は、肺臓は何ら異状〔常〕はないのである。<br/><br/>そうして固痰の位置が比較的上部の場合は、肺尖カタルまたは肺門淋巴腺というのである。<br/><br/>それと似たものに肺浸潤がある。<br/><br/>これは軽微な肋膜炎または肋骨付近に溜結せる毒素が浄化溶解し、肺臓内に浸潤吐痰となろうとするので、この場合も医療は固めようとするから容易に治らない。<br/><br/>もちろん右はいずれも放任しておけば、順調に治癒するのである。<br/><br/> そうして一度結核と断定するや、寒冒と同様医療は極力浄化停止を行うが、それに最も効果ありとされているのが、近来熱心に推奨されている彼の安静法である。<br/><br/>ところがこの安静法が曲者である。<br/><br/>何となれば仮に健康者が一ケ月も安静にすれば、運動不足で食欲は減退し、体力は減り、外出しないため顔色は悪くなり、目に見えて衰弱する。<br/><br/>ちょっと動いても息切れをするようになるとしたら、言わんや病人においてをやである。<br/><br/>なおその上薬毒を入れられ、栄養と称して動物性蛋白を多く摂（と）らせるが、右はことごとく衰弱を増させる方法であるから、結核患者ならずとも衰弱するに決っている。<br/><br/> このように衰弱法を行う結果、予期通り浄化力は極度に減退し、症状は減りついに無熱となり、咳も吐痰も無くなるので、これで恢復したと思って喜ぶが、何ぞ知らん実は浄化以前の状態に還元させたまでで、結果は反って薬毒は増し、体力は弱り、消極的小康を得たまでで、真に治ったのではないから、何かの機会に触れるや、俄然悪化し重態に陥り、ついに死に至る事が往々ある。<br/><br/>こういう経路は医家もよく経験するところであろう。<br/><br/>ゆえに医学では決して治るとは言わない。<br/><br/>固めるというにみても明らかである。<br/><br/>また経過中に患者がたまたま少し運動でもすると直に発熱する。<br/><br/>すると医師はあわてて戒めるが、これは運動によって鎮静していた浄化が頭をもたげるからで、本当はいいのである。<br/><br/>よく長い間掛ってようやく治ったといわれ、ヤレ安心と普通の生活を始めるや、間もなく再発、元の木阿弥（もくあみ）となる事もよくあるが、これらも何年掛りでようやく固めた毒素が、俄（にわ）かに溶け始めたためである。<br/><br/>以上によって明らかなごとく、今日の医療がいかに誤っているかで、忌憚なく言えば医療が結核を増やしていると言っても過言ではなかろう。<br/><br/> ここで、結核菌について大いに注意したい事がある。<br/><br/>医学では結核菌は伝染するとして恐れるが、それもない事はないが、大部分は自然発生である。<br/><br/>前述のごとく最初喀痰が肺臓内に侵入するや、医療は固めて出なくするので時日の経過につれて腐敗し、微生物が発生する。<br/><br/>これが結核菌である。<br/><br/>そうなった痰は悪臭があり、粘着力が強いものである。<br/><br/>考えてみるがいい、いかなる物質でも古くなれば腐敗する、腐敗すれば微生物が湧くのは物質の原則である。<br/><br/>ましてや体温という好条件も手伝うからである。<br/><br/>これによってみても最初の寒冒時、肺臓内に喀痰が滞溜した時、極力出してしまえばそれで済んでしまう。<br/><br/>それを一生懸命出ないようにして腐敗させ、菌まで湧かせ、菌の蚕食（さんしょく）によって空洞さえ作るのであるから、結果からいえば善意の加害的行為とも言えるであろう。<br/><br/>この理に目醒めない限り、今後いかに多くの犠牲者が出るか測り知れないものがあろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

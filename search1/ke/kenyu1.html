@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kenyu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 顕幽の関係 『明日の医術 第三編』昭和18(1943)年10月23日発行 そもそも人間が死と共に霊界に往くや、天国、極楽、中有界、地獄のいずれかに帰属する事は既に説いた通りである。<br><br>それについていずれに往くべきやは、死の直前の状態そのままが持続するのであるから、それによって自ら行先の見当はつく訳である。<br><br>それは死に際会し何らの苦痛がなく大往生を遂ぐるにおいて、無論天国へ往くのであるが、軽苦は中有界、重苦は地獄に堕つるのは勿論である。<br><br>この意味において現界に居る間、徳望高く、多人数から敬い慕われた人は、そのまま霊界においても有徳の長者となり、これに引換え現界において、他人との交際が薄く、淋しき生活や孤独の状態であったものは、霊界に往くもそのまま淋しき薄倖者となるのである。<br><br>従って死に際会して病苦又は精神的苦悩のあるものは、そのまま霊界に往くも持続するのであるから、勿論地獄に落つるのである。<br><br> 右についての一の実例を挙げてみよう。<br><br>以前私の部下に山田某という青年がいた。<br><br>ある日彼は私に向って「急に大阪へ行かなければならない事が出来たので、暇をくれ」と云うのである。<br><br>しかるに、その時の彼の顔色、挙動等普通でないので、私は彼にその理由を質（ただ）したが、その言葉に不透明な点があるので、私は霊的に査（しら）べてみようと思った。<br><br>勿論その当時私は霊的研究に没頭していたからでもあった。<br><br> まず彼を端座瞑目さして、霊査法を施すや彼は非常に苦悶の形相を表わしノタ打つのである。<br><br>私の訊問に応じて霊の答えた所は、次のごときものである。<br><br> 「自分は、山田の友人の某というもので、大阪の某会社に勤務中、その社の専務が良からぬ者の奸言を信じ、自分を馘にしたので、無念遣方（やるかた）なく世を悲観の結果、毒薬を仰いで自殺したのである。<br><br>しかるに自分は、自殺をすれば無に帰すると思っていたところ、無になるどころか死の刹那の苦悩がいつまでも持続しているのであまりの予想外に悔いているのである。<br><br>どうかこの苦悩を幾分なりとも軽くして戴きたい」とあえぎ喘ぎ漸（ようや）くにして語るのである。<br><br>又山田の大阪行の件に関してはこういうのである。<br><br>「右の専務へ対しての復讐の念止み難く、山田をして殺害させようと、自分が憑依して想わしたのである。<br><br>」と言うのである。<br><br>私はその不心得を懇々（こんこん）と誡（いまし）め、苦悩の軽減法を行ってやったので、霊は楽になったと非常に喜び、厚く謝して去ったのである。<br><br> 右終って山田に話をしたところ、彼は愕（おどろ）くと共に、全く大阪行は霊の云う通りという事が分った。<br><br>これらによってみるも死の刹那の苦悩が飽くまで持続すべきものであるという事が判るのである。<br><br> 右によってみるも、人間はいかなる苦悩に遇うも、自殺はなすべからざるものである事を知るべきである。<br><br> 次に、霊界においては、神界、仏界の外、天狗界、龍神界、兇党界なるものがあり、まず天狗界から書いてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Relação entre o Mundo Visível e o Invisível</h2>
 <p>Conforme já elucidei anteriormente, quando o ser humano falece, ele ingressa no Mundo Espiritual, sendo destinado a um de quatro reinos: o Céu, o Paraíso, o Mundo Intermediário ou o Inferno. O destino da alma é determinado pelo estado em que se encontra no instante derradeiro da vida, pois essa condição perdura. Desse modo, é possível antever para onde cada um se dirigirá. Aquele que tem uma transição pacífica, livre de quaisquer padecimentos, certamente ascenderá ao Céu. Contudo, quem experimenta um sofrimento leve é encaminhado ao Mundo Intermediário, ao passo que um grande suplício o conduz, inevitavelmente, ao Inferno.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Encerrado o episódio, conversei com Yamada. O jovem ficou atônito e confirmou que a intenção de sua viagem era exatamente a que o espírito descrevera. Este caso demonstra, inequivocamente, que o sofrimento vivenciado no momento da morte é algo que, de fato, se prolonga indefinidamente.</p>
 <p>Por meio de exemplos como este, fica evidente que o ser humano, por maiores que sejam as tribulações que enfrente, jamais deve recorrer ao suicídio.</p>
 <p>A seguir, abordarei outros reinos que compõem o Mundo Espiritual. Além dos Reinos Divino e Búdico, existem também o Reino dos Tengu, o Reino dos Dragões e o Reino das Hostes Malignas. Iniciarei minha explanação pelo Reino dos Tengu.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 顕幽の関係 『明日の医術 第三編』昭和18(1943)年10月23日発行 そもそも人間が死と共に霊界に往くや、天国、極楽、中有界、地獄のいずれかに帰属する事は既に説いた通りである。<br/><br/>それについていずれに往くべきやは、死の直前の状態そのままが持続するのであるから、それによって自ら行先の見当はつく訳である。<br/><br/>それは死に際会し何らの苦痛がなく大往生を遂ぐるにおいて、無論天国へ往くのであるが、軽苦は中有界、重苦は地獄に堕つるのは勿論である。<br/><br/>この意味において現界に居る間、徳望高く、多人数から敬い慕われた人は、そのまま霊界においても有徳の長者となり、これに引換え現界において、他人との交際が薄く、淋しき生活や孤独の状態であったものは、霊界に往くもそのまま淋しき薄倖者となるのである。<br/><br/>従って死に際会して病苦又は精神的苦悩のあるものは、そのまま霊界に往くも持続するのであるから、勿論地獄に落つるのである。<br/><br/> 右についての一の実例を挙げてみよう。<br/><br/>以前私の部下に山田某という青年がいた。<br/><br/>ある日彼は私に向って「急に大阪へ行かなければならない事が出来たので、暇をくれ」と云うのである。<br/><br/>しかるに、その時の彼の顔色、挙動等普通でないので、私は彼にその理由を質（ただ）したが、その言葉に不透明な点があるので、私は霊的に査（しら）べてみようと思った。<br/><br/>勿論その当時私は霊的研究に没頭していたからでもあった。<br/><br/> まず彼を端座瞑目さして、霊査法を施すや彼は非常に苦悶の形相を表わしノタ打つのである。<br/><br/>私の訊問に応じて霊の答えた所は、次のごときものである。<br/><br/> 「自分は、山田の友人の某というもので、大阪の某会社に勤務中、その社の専務が良からぬ者の奸言を信じ、自分を馘にしたので、無念遣方（やるかた）なく世を悲観の結果、毒薬を仰いで自殺したのである。<br/><br/>しかるに自分は、自殺をすれば無に帰すると思っていたところ、無になるどころか死の刹那の苦悩がいつまでも持続しているのであまりの予想外に悔いているのである。<br/><br/>どうかこの苦悩を幾分なりとも軽くして戴きたい」とあえぎ喘ぎ漸（ようや）くにして語るのである。<br/><br/>又山田の大阪行の件に関してはこういうのである。<br/><br/>「右の専務へ対しての復讐の念止み難く、山田をして殺害させようと、自分が憑依して想わしたのである。<br/><br/>」と言うのである。<br/><br/>私はその不心得を懇々（こんこん）と誡（いまし）め、苦悩の軽減法を行ってやったので、霊は楽になったと非常に喜び、厚く謝して去ったのである。<br/><br/> 右終って山田に話をしたところ、彼は愕（おどろ）くと共に、全く大阪行は霊の云う通りという事が分った。<br/><br/>これらによってみるも死の刹那の苦悩が飽くまで持続すべきものであるという事が判るのである。<br/><br/> 右によってみるも、人間はいかなる苦悩に遇うも、自殺はなすべからざるものである事を知るべきである。<br/><br/> 次に、霊界においては、神界、仏界の外、天狗界、龍神界、兇党界なるものがあり、まず天狗界から書いてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

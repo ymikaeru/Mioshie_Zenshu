@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>karou</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 過労及び倦怠感 『結核の正体』昭和18(1943)年11月23日発行 人間が運動する結果として疲労する事は誰もが知る所である。<br><br>これはなぜであるかというと、激しい運動やまたは普通運動にても持続する場合浄化作用が発生するからである。<br><br>それが微熱であるから、疲労時を診査する場合、腎臓部、腰部または脚部に必ず微熱をみるのである。<br><br>この理によって、運動をすれば浄化熱が発生する。<br><br>それによって毒素が軽減するのであるから、疲労する程の運動は、健康増進に対し最も良いのである。<br><br>しかるに医学においては右の理を逆に解して、過労を恐れるという訳である。<br><br>もちろん浄化作用の熱の意味を知らない医学としては無理もないであろう。<br><br> ゆえに、私は常に思うのである。<br><br>それは医学は過労は結核の原因でありとする、そのためこれを避けようとするゆえに、産業戦士の能率にすくなからず影響するであろう事を憂うるのである。<br><br>しかるに私の説のごとく、過労はむしろ健康上最善なる方法である事を知れば、能率の上にいかに大なる効果を及ぼすかを想うのである。<br><br> 右によって考うるも、医学は外部的、一時的の症状のみに捉われ、根本的永久的を考えない所に欠陥があるのではないか。<br><br>ちょうど日光によって草木の葉が垂れ、花がしぼむのでそれを恐れて日蔭へ持ってゆくという意味と異ならないであろう。<br><br>一時的なえた草木が、一夜を経て再び生気溌剌たる事に思い及ばないという訳である。<br><br> 次に倦怠感とは、大した運動もせぬに常に微熱が発生するのであるから、これらを治癒せんとするには、大いに運動して高熱を出さしめる方が速く治癒するのである。<br><br>それは微弱である浄化を強烈にする事によって、毒素の排泄が速やかとなるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio da Purificação através do Esforço</h2>
 <p>É de conhecimento geral que o ser humano se cansa em consequência do esforço físico. A razão para tal reside no fato de que, durante um exercício intenso ou mesmo moderado, porém contínuo, desencadeia-se um processo de purificação. Este se manifesta como um leve estado febril, que pode ser constatado nos rins, na região lombar ou nas pernas em momentos de fadiga. Por este princípio, a atividade física gera o que podemos chamar de febre purificadora. Como esta febre contribui para a diminuição das toxinas, o exercício praticado até o ponto de causar cansaço é, na verdade, o método mais salutar para a promoção da saúde.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Todavia, se as pessoas compreendessem que, segundo minha teoria, o excesso de trabalho representa, na verdade, o mais sublime método para a saúde, podemos apenas imaginar o imenso efeito que tal conhecimento exerceria sobre a eficiência produtiva.</p>
 <p>Ao refletirmos sobre o exposto, não residiria a falha da medicina justamente em seu apego aos sintomas externos e transitórios, em detrimento da causa fundamental e do bem-estar permanente? Tal atitude não difere daquela de alguém que, temendo o sol por fazer pender as folhas e murchar as flores de uma planta, a transporta para a sombra. Essa pessoa é incapaz de perceber que a planta, temporariamente abatida, readquirirá todo o seu vigor e exuberância após o repouso de uma noite.</p>
 <p>Por fim, no que tange à sensação de lassitude, ela ocorre quando uma febre branda se manifesta de forma constante, mesmo sem que haja grande esforço físico. Para se obter a cura de tal condição, o caminho mais rápido é praticar exercícios vigorosos a fim de induzir uma febre mais elevada. Isso ocorre porque, ao se intensificar um processo de purificação que antes era débil, a eliminação das toxinas é consideravelmente acelerada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 過労及び倦怠感 『結核の正体』昭和18(1943)年11月23日発行 人間が運動する結果として疲労する事は誰もが知る所である。<br/><br/>これはなぜであるかというと、激しい運動やまたは普通運動にても持続する場合浄化作用が発生するからである。<br/><br/>それが微熱であるから、疲労時を診査する場合、腎臓部、腰部または脚部に必ず微熱をみるのである。<br/><br/>この理によって、運動をすれば浄化熱が発生する。<br/><br/>それによって毒素が軽減するのであるから、疲労する程の運動は、健康増進に対し最も良いのである。<br/><br/>しかるに医学においては右の理を逆に解して、過労を恐れるという訳である。<br/><br/>もちろん浄化作用の熱の意味を知らない医学としては無理もないであろう。<br/><br/> ゆえに、私は常に思うのである。<br/><br/>それは医学は過労は結核の原因でありとする、そのためこれを避けようとするゆえに、産業戦士の能率にすくなからず影響するであろう事を憂うるのである。<br/><br/>しかるに私の説のごとく、過労はむしろ健康上最善なる方法である事を知れば、能率の上にいかに大なる効果を及ぼすかを想うのである。<br/><br/> 右によって考うるも、医学は外部的、一時的の症状のみに捉われ、根本的永久的を考えない所に欠陥があるのではないか。<br/><br/>ちょうど日光によって草木の葉が垂れ、花がしぼむのでそれを恐れて日蔭へ持ってゆくという意味と異ならないであろう。<br/><br/>一時的なえた草木が、一夜を経て再び生気溌剌たる事に思い及ばないという訳である。<br/><br/> 次に倦怠感とは、大した運動もせぬに常に微熱が発生するのであるから、これらを治癒せんとするには、大いに運動して高熱を出さしめる方が速く治癒するのである。<br/><br/>それは微弱である浄化を強烈にする事によって、毒素の排泄が速やかとなるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

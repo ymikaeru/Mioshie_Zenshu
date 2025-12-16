@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo37</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』36号、昭和27(1952)年5月25日発行 （お伺） 芸術家や芸術鑑賞力のある人は、一般的にいって曇りが少ないわけでありますから、本教へ導きやすいわけでございましょうか。<br><br> （御垂示） そういう意味もたしかにあるが、生まれつきそういう素質のためもある。<br><br>こういう人は霊統的に上魂の持ち主である。<br><br>しかし芸術的に導くことによって、下魂の人も漸次向上するものである。<br><br>私が芸術を奨励するのはそういう理由のためである。<br><br> （お伺） 去る二月十八日の「ジャパン・ニュース」紙上に要旨左の通りの記事が出ています。<br><br> 北極専門家でありまたヴァーモント大学総長兼ニューヨーク州立大学総長であるウィリアム・カールソン博士は火曜日夜、クリーブランド医学図書協会における講演ならびに記者会見において、左記の通り語った。<br><br> 「北極の氷の頭が驚くべきかつ解明し難き速度を以て溶けつつあり、ために海岸水位を上昇せしめ、海港を水浸しにせんとする恐れがある。<br><br>この溶解のために大結果を生ずるには何百年かかるであろうが、今半世紀間における溶解速度は非常に速い。<br><br>またノルウェーとアラスカの氷河は、五十年前に較べるとわずか半分の大きさになった。<br><br>スピッツベルゲン近辺の気温は大いに変化したために、年間における航行可能期間は三カ月であったものが、八カ月に延長されている」と。<br><br> ところがかねて明主様より 「今後科学者が解明できないでマゴツクところの天文現象、自然現象が起ってくるかもしれない」というお示しをいただいています。<br><br> この報道記事について御垂示を賜りたくお願い申し上げます。<br><br> （御垂示） 地球上、北極南極の氷は、だんだん溶けて、将来は人類の住む土地が殖えてゆくのである。<br><br>この理由としては、地殻が収縮するので海面が低くなるから、各河川が浅くなって干いてしまう虞（おそ）れがあるので、その水を供給するためである。<br><br> （お伺） 朝夕御神前ならびに御仏壇に礼拝の場合、御仏壇には、命日以外善言讃詞を奏上しないように再三御注意をいただいておりますが、入信日浅くして御神体ならびに御屏風観音様の御奉斎のお許しを得ていない場合、朝夕御仏前へ善言讃詞を奏げてはいけないのでございましょうか。<br><br>また御屏風観音様のみ御奉斎させていただいている場合はいかがでございましょうか。<br><br> 右謹んでお伺い申し上げます。<br><br> （御垂示） 光明如来様をお祭りして、規定通りすべきである。<br><br>御屏風観音様だけで短期間ならいいが、長くそのままにしておくと、祖霊が気に入らないから、お気づけをされるから、一日も早くしなさい。<br><br> （お伺） 謹んでお伺い申し上げます。<br><br> 昭和二十一年一月十八日、初めて明主様より御浄霊をいただきました節、私儀には「傍系にあたる先祖で胃癌で死んだ祖霊が憑依しておる」とのお言葉をいただきましたが、そのお言葉通り間もなく、その霊が出まして「自分は執着のため龍神になっているからぜひ祀ってもらいたい」とのこと、さっそくお伺いいたしましたところ「三休明神と命名してお祀りせよ」とのことでございまして、御指示の通りにお祀りいたしておりました。<br><br>ところがその後父が帰幽いたしました関係で、山口県萩市の寺院（天台宗にて南明寺と申します。<br><br>右の祖霊はこの寺の中興の祖と言われている三休和尚の霊でございます）を後任住職に譲ることになりましたので、現在の住所、島根県出雲市大津町に転居いたしたのでございます。<br><br> 三休明神のほこらは南明寺にそのまま置いてあるのでございますが、その後、地理的にもまた時間的にも、なかなか南明寺まで行って三休明神の月並祭をすることができかねておりまして、どうもそれが最近気にかかってなりません。<br><br> 右三休明神は現住所のほうへ、おうつりを願ってお祀りすべきでございましょうか、なにとぞ御教示のほどお願い申し上げます。<br><br> （御垂示） 勿論そうしなさい。<br><br>それでなくては龍神さんは救われないからで、急いでるから一日も早いほうがよろしい。<br><br>現在の仏界では、もはや救われないためである。<br><br> （お伺） 私ども一家全部入信いたしまして、光明如来様は昭和二十五年二月御奉斎、同年五月に屏風観音様御奉斎、同年九月大光明如来様御奉斎いたしましてお道の御用をさせていただいている者でございますが、入信前お祭りしてありました御神体は、いかが処置いたしましたらよろしゅうございましょうか。<br><br>お伺い申し上げます。<br><br>御神体は宇佐八幡宮、朝見神社（氏神）早吸日女大神、車折神社の四体を一つのホコラに入れて、神棚にそのままにしております。<br><br>また、応召中、親戚、知人などより寄せられた御守り（清水観音、石鉄山、朝見神社、観音寺、明治神宮、宇佐八幡宮、熱田神宮、阿蘇神社、広瀬神社、春日神社、鵜戸神社、八坂神社、杵原八幡、諏訪神社、尺間神社、成田不動など）も、妻が入信前持っていた御守り（千手観音、法華経の巻物、生目神社など）とともに神棚に置いてありますが、この御守りの処分方は、いかがいたしましたらよろしゅうございましょうか、お伺い申し上げます。<br><br> （御垂示） 御神体も御守りも全部一カ所へまとめてお祭りをし、勿論饌供もし、いままでの御礼とともに光明如来様をお祭りいたしましたから、元の御座へお還りください、とていねいに言上して焼き捨てればよろしい。<br><br> （お伺） 私は田村家を相続せねばならぬ身分でありながら、大正二年（四十年前）二十六歳のとき、家を妹に譲って郷里を出て親方の仕事（鍛冶屋）を引きつぎました（親戚一同承諾の上です）。<br><br> 当時寄留がやかましい時代であったために、辺見庄蔵（母の妹婿）の弟として仮に入籍をして五年目に分家いたし、辺見を名乗って三十五年間現在の所に住んでおります（庄蔵氏の宅を本家と言って今なお続いています。<br><br>） 最近、実家田村家のほうがほんとうの姓であり、両親を始め御先祖様がなつかしく、妹に家を譲って立派にやってくれておりますが、先祖代々之霊位としてお祀りするとき、やはり辺見家を主といたすべきか、実家の田村家を主に祀らせていただけばよいものでございましょうか。<br><br> 御垂示のほど、謹んでお願い申し上げます。<br><br> （御垂示） 辺見家を主とすべきであって、田村家を祀っても差し支えない。<br><br> （お伺） 私は昭和二十一年秋入信させていただき、御屏風観音様は二十二年の春、御神体は同年秋御奉斎させていただいている者でございます。<br><br> 二十四年の春、わずか三日の腹痛で母親（信者）が死去いたし、そのふた七日夜、突然腹痛をいただきました。<br><br>（死亡した母と同様の症状）十日間ほど苦しみ、とうとう周用が気をもみますので注射を打ちました。<br><br>それ以後毎月一回くらいの割合で、腹痛の御浄化をいただき、四カ年間続いております。<br><br>胃部の激痛で一週間か十日くらい痛み続けます。<br><br>痛みがやむと、まことにあっさり平常の元気にかえります。<br><br>初め三、四回医師の診断を受け注射を打ちました。<br><br>しかし、腹痛にはなんの反応もなく、申し訳なさにやっと気づかせていただき、お詫び申し上げて、以後いっさいやめております。<br><br>腹痛が始まりますと、右肩がたいへん凝ったようになり、多少の痛みを感じます。<br><br> 私たちが至らぬためか、私の妻がたびたび母の夢を見ます。<br><br>本年一月十三日には、母の体一面紫色にはれて「これでもか、これでも解らんか、薬毒だよ、薬毒だよ」と言うような、きつい夢を見せられました。<br><br> 御守護により、最初のような猛烈な痛みはございませんが、四年間という、かなり長い間、ほとんど同じような腹痛を繰り返しておりますので、なにか霊的ではございませんでしょうか。<br><br>もし霊的ならば、いかがさせていただけばよろしゅうございましょうか。<br><br>また他になにか間違いでもございましょうか。<br><br>御教えのほど謹んでお願い申し上げます。<br><br> （御垂示） 薬毒である。<br><br>この人は肩から背中に固まりがあるから、そこを気長に浄霊すれば必ず治る。<br><br> （お伺） 一、昭和十八年十月、鼻茸手術。<br><br>大出血後衰弱はなはだしく、約八カ月発狂状態になりました。<br><br> 一、同十九年七月、脳病院にて半年治療し、約四年間はだいたい良くなっておりました。<br><br> 一、同二十三年三月、狂暴性になり「カッカッ」と奇声を発し、水を吐くような状態はなはだしく、家人他人の見境なく暴行を加えます。<br><br>このころより本人は少し気分が良いと、お大師さんや種々の神様に一人でお詣りいたしますので、本人の希望と思い、親も種々の信仰をいたしました。<br><br> 一、同二十六年七月、本教のお道を知り、母が御守り様をいただき、同時に屏風観音様を御奉斎、他家に嫁ぎし姉もともに入信させました。<br><br> 一、同二十六年九月、本人入信し、お蔭をいただきましてだいぶ良くなりました。<br><br> 一、同二十七年二月、光明如来様を御奉斎。<br><br> 約一カ月後またもや狂暴性になり、家人に暴行を加える（特に母）。<br><br> 一、同二十七年三月二十七日、もったいなくも、光明如来様に手を掛けて引き破り、仏壇をも覆し、その後も相次いで仏壇を覆し、最後に祖母の位牌をばらばらに壊しましたので、仏壇を階下に降ろしました。<br><br>四月十四日ごろまでは引き続いて母に暴行を加えておりましたが、その後はだいぶおちつき、寝るときが多くなりました。<br><br> 一、家は元真言宗を信仰いたしておりましたが、いまより六十年前、曾祖父が黒住教に転向し、二十六年三月より（本教入信前）病床の祖父承知の上、御仏壇には断りなしに元の真言宗に復帰しました。<br><br> 一、昭和七年ごろまでは、家運とても良かったのですが、家の裏の榎の古木を切り、そこに炊事場を建ててより、だんだん家運が傾いてきました。<br><br> 一、十八年十月、兄が輸送船沈没により水死しました。<br><br>その兄が炊事場より入ってくる夢を、家人が三人とも見、このときより家人が相次いで二人死亡しました。<br><br>なお遠い親戚にも古木を切ってより後に発狂して死亡した者がございます。<br><br> 一、父および兄夫婦はお道のことが判らず未入信で、兄夫婦および子供らは危険につき別居させています。<br><br>現在では御守護によりおちついております。<br><br> イ、本人の発狂は、なにが主因となっておりましょうか（古木となにか関係がございましょうか）。<br><br> ロ、もったいなくも光明如来様を破り、また仏壇を覆すのはどういうわけでしょうか。<br><br> ハ、今後いかようにさせていただいたらよろしゅうございましょうか。<br><br> 右謹みて御垂示のほどお願い申し上げます。<br><br> （御垂示） 直接の原因は鼻茸手術のためである。<br><br>鼻茸手術は非常に恐ろしいもので、酷いのは気が狂って死ぬ人もある。<br><br>榎伐採のため木に住まっていた木龍の祟りもある。<br><br>しかし手術のほうはいまさらしかたがないが、木龍のほうは、庭のなるべく清い所へ小さくともよいから榎を植えて、光明如来様に木龍がそれへ移るようにお願いすればよろしい。<br><br> （お伺） 昭和二十一年以来家族全員入信させていただき喜んでおります一家でございます。<br><br>昨年十二月末、父が下痢の御浄化をいただき、九十日余り続きました。<br><br>その間三、四日下痢の止まったことが二回ございました。<br><br>そのうち、胃の下部が時折高くふくれて、なんとも言いようのない苦痛を感じます。<br><br>御浄化をいただくと、グズグズと低くなり、また高くふくれてまいります。<br><br> そのころから食欲がおとろえ、やせてきました。<br><br> 三月三日、中教会にお詣りさせていただき、会長先生の御浄霊をいただきました。<br><br>五日ほどお詣りさせていただき、たいへん気分が楽になり、少々仕事もできるようになりましたが、食欲は進まず、胃部の高くなるのが日一日と回数を増し、モゴモゴ動くようになり、気持ちがたいそう悪く、食事がいよいよ進まなくなりました。<br><br>胃部のふくれはそのままで移動いたしますし、右のほうもたいへん高くふくれてまいりました。<br><br>ごはんなどはほとんど食べられず、おかゆの汁、卵、ミルクなどを少しずつ食べております。<br><br> 腹のすいたときは、ふくれた高いものが割合低くなり、モゴモゴもいたしません。<br><br>また横に寝るとモゴモゴ動くのが少なく、食後と上向きに寝るとモゴモゴが強く、苦しみも大きゅうございます。<br><br> 四月十四日ごろから便秘いたし、ますます食事が進まず、胸がムカムカつかえておりましたところ、二十日の夕方、洗面器（直径六寸、探さ四寸くらい）にほとんど一杯一度に嘔吐いたしました。<br><br>その後しばらく胸も腹もともに楽になりましたが、またすぐ元の通りに苦痛が増し、食事もいただけません。<br><br> しかし御守護によりまして用便も一人ですませ、入浴も毎晩のようにやっております。<br><br>また食べる味も、煙草の味も少しも悪くございません。<br><br>従って気力もなかなか元気でございます。<br><br> いかなる御浄化か、いかがさせていただけばよろしゅうございましょうか、謹みてお伺い申し上げます。<br><br> （御垂示） 原因は薬毒で、それに悪霊が邪魔しているのであるから、割合長くはかかるが、治るから心配しないでよい。<br><br>よく神様にお願いし、御神書を読むようにしなさい。<br><br> （お伺） 信者羽床正利二十二歳（最近入信）は五、六歳ごろより左足大腿部より足首までの後側に卵大の固結二個、小指ほどの固結四、五個でき、なんら変化なく、今日にいたっております。<br><br>労働後若干痛みを感ずる程度ですので放任しておりましたが、四、五年前より種々の治療をいたしました。<br><br>足首の小さい固結一個を手術除去いたしましたが、またもと通りになってしまいました。<br><br> 浄霊を始めましてよりまだ一週間でございます。<br><br>特別に変化はございません。<br><br>固結のできる以前には薬はいっさい使ったことがないそうです。<br><br>原因はなんでございましょうか。<br><br>謹んでお伺い申し上げます。<br><br> なお浄霊は熱心な信者綱川敬国（35）がさせていただいております。<br><br> （御垂示） 親の薬毒である。<br><br>根気よく浄霊すれば長くはかかるが必ず治る。<br><br>できるだけ運動するほうがよい。<br><br> （お伺） 昨年十月ごろより左耳後ろより少しずつ脱髪しだし、昨年四月ごろまでにすっかり全頭脱髪してしまいました。<br><br>その間に早くぬけた所は先を切ったような荒い毛が生えてきておりましたが、それも四月ごろまでにはすっかりぬけ、夏ごろより色のない、うぶ毛が全頭に生えてきましたが、いっこうに伸びず、色も出ないので困っておりました。<br><br> 御浄霊は昨年十月中ごろよりいただき、御守り様は十二月の初めにお受けして毎日御浄霊をいただいておりますが、四月現在いくぶん手ざわりが荒くなり、かすかに色が出だしたかしらと思う程度でございます。<br><br> 脱髪し始めました一昨年の十月には、前の年から婚約も整い、挙式を待つばかりになっておりましたところへ側から邪魔が入り、無理に婚約を解消させられ、とても苦しんでおりましたので、それがショックになったのではないかとも思っているのでございますが、いかがでございましょうか。<br><br> 御浄霊は主にどこをさせていただきましたらよろしゅうございましょうか。<br><br> なお、お道に入るまでの治療として殺菌消毒に重きを置いてまいりましたのでございます。<br><br> （御垂示） これは俗に台湾坊主という病気で、浄霊は頭を主としてすればよい。<br><br> ふつうは二、三カ月で治るものであるが、殺菌消毒をしたため治りが遅くなったのである。<br><br>しかし、一、二年かかると思えばよろしい。<br><br> （お伺） 昨年十月十六日、私儀子供英敏（四歳）が高さ二尺くらいの座敷から庭に転落いたしまして、その際左額面に長さ三センチ幅五ミリくらいの裂傷を負いました。<br><br>ただちに私が御浄霊をさしていただき、痛みも出血も止まりましたが、なお念のため錦織万一教師の御浄霊もお願いしました。<br><br> 四、五日経ちますと膿が出まして、ちょっと御浄化がありましたが、それも間もなく治り、現在では完全に癒えておりますが、傷痕が少し低く、薄皮にて赤くなっております。<br><br>御浄霊は毎日続けております。<br><br>今後も気長に続けておりますと傷痕はすっかり消えるでございましょうか。<br><br> 右謹んでお伺い申し上げます。<br><br> なお私儀お蔭様で御屏風様、大光明如来様御奉斎させていただいております。<br><br> （御垂示） 勿論元通りに治るから安心しなさい。<br><br> （お伺） 加藤一重三十五歳。<br><br>昭和二十一年入信。<br><br>本年一月二日より痔出血が始まり約五十日くらい続きました。<br><br>だいたい出血が納まった二月二十四日ごろより震いが来て心臓の動悸をおぼゆるようになり、御浄霊も現在まで毎日続けております。<br><br>心臓部の周りの毒素も漸次取れてまいり、今日ではだいたい楽になってまいりました。<br><br> 現在、夜中（三、四時ごろ）に目が覚めますと、動悸が始まりますが、これはなんでしょうか。<br><br> なお、三月十五日に霊媒に見ていただいたところによりますと、父の親戚関係の者で戦死した霊が憑依しているとのことです。<br><br>その霊を取っていただいてより、一時急に楽になりましたが、その後またもとのような状態に変わり、それ以後、御浄霊の御守護により快復に向かっております。<br><br> 本人は二十歳前後に胸部の打撲や風邪などにて湿布や薬剤を多量に使用いたしております。<br><br>このような場合には主として御浄霊はどこをさせていただいたらよろしいのでございましょうか。<br><br>なお、離脱した霊には、その霊の言う通りにしてやりましたが救われているものでしょうか。<br><br>憑依した霊の実家ではまだ入信いたしておりませんが、このようなときにはどのような方法を取ったらよろしいのでしょうか。<br><br> なお、四月三日の夜、足部より震いが来て全身に及び十分くらい続きましたが、これは霊的でしょうか。<br><br>本人の家では大光明如来様と御屏風観音様を御奉斎させていただいております。<br><br> 右御垂示のほどお願い申し上げます。<br><br> （御垂示） これは貧血による霊の憑依であるから、血液が充実するに従って、憑依されなくなる。<br><br>しかしこの死霊は救われたいためであるから、常に祝詞、善言讃詞、御讃歌を聴かせるようにすれば、それだけ早く治る。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Orientações</h2>
 <p><strong>Pergunta:</strong> Considerando que os artistas e aqueles com sensibilidade para apreciar a arte geralmente possuem o espírito menos obscurecido, seria correto afirmar que são mais receptivos aos nossos Ensinamentos?</p>
@@ -135,5 +287,48 @@ Respeitosamente, solicito sua orientação.</p>
 <p><strong>Orientação:</strong> Certamente, a pele voltará ao seu estado original. Fique tranquilo.</p>
 <p><strong>Pergunta:</strong> Sou Kato Kazue, de trinta e cinco anos, membro desde 1946. Em 2 de janeiro deste ano, comecei a ter sangramento hemorroidário, que durou cerca de cinquenta dias. Por volta de 24 de fevereiro, quando o sangramento havia praticamente cessado, comecei a sentir tremores e palpitações cardíacas. Tenho recebido Johrei diariamente até hoje. As toxinas ao redor do coração têm sido gradualmente eliminadas e hoje me sinto consideravelmente melhor. Atualmente, quando acordo no meio da noite (por volta das três ou quatro da manhã), as palpitações começam. Qual seria a causa? Em 15 de março, consultei uma médium, que disse que um espírito de um parente de meu pai, morto em combate, estava encostado. Após a remoção do espírito, senti um alívio súbito e temporário, mas depois retornei ao estado anterior. Desde então, com a proteção do Johrei, venho me recuperando. Em minha juventude, por volta dos vinte anos, usei grande quantidade de compressas e medicamentos para contusões no peito e resfriados. Em um caso como este, onde o Johrei deve ser focado principalmente? Além disso, o espírito que foi removido, para o qual fizemos o que ele pediu, está salvo? A família desse espírito ainda não ingressou na Fé; qual seria o procedimento adequado nessa situação? Na noite de 3 de abril, senti um tremor que começou nos pés, espalhou-se por todo o corpo e durou cerca de dez minutos. Seria um fenômeno espiritual? Em minha casa, temos entronizadas a Imagem de Dai-Komyoh Nyorai e a Imagem de Kannon em biombo. Rogo por sua orientação.</p>
 <p><strong>Orientação:</strong> Trata-se de um encosto espiritual facilitado pela anemia. À medida que o sangue se fortalecer, você se tornará imune a essa influência. Contudo, esse espírito deseja a salvação. Portanto, se você o fizer ouvir constantemente as orações Norito, Zenguen Sanji e os Poemas de Meishu-Sama, a cura será mais rápida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』36号、昭和27(1952)年5月25日発行 （お伺） 芸術家や芸術鑑賞力のある人は、一般的にいって曇りが少ないわけでありますから、本教へ導きやすいわけでございましょうか。<br/><br/> （御垂示） そういう意味もたしかにあるが、生まれつきそういう素質のためもある。<br/><br/>こういう人は霊統的に上魂の持ち主である。<br/><br/>しかし芸術的に導くことによって、下魂の人も漸次向上するものである。<br/><br/>私が芸術を奨励するのはそういう理由のためである。<br/><br/> （お伺） 去る二月十八日の「ジャパン・ニュース」紙上に要旨左の通りの記事が出ています。<br/><br/> 北極専門家でありまたヴァーモント大学総長兼ニューヨーク州立大学総長であるウィリアム・カールソン博士は火曜日夜、クリーブランド医学図書協会における講演ならびに記者会見において、左記の通り語った。<br/><br/> 「北極の氷の頭が驚くべきかつ解明し難き速度を以て溶けつつあり、ために海岸水位を上昇せしめ、海港を水浸しにせんとする恐れがある。<br/><br/>この溶解のために大結果を生ずるには何百年かかるであろうが、今半世紀間における溶解速度は非常に速い。<br/><br/>またノルウェーとアラスカの氷河は、五十年前に較べるとわずか半分の大きさになった。<br/><br/>スピッツベルゲン近辺の気温は大いに変化したために、年間における航行可能期間は三カ月であったものが、八カ月に延長されている」と。<br/><br/> ところがかねて明主様より 「今後科学者が解明できないでマゴツクところの天文現象、自然現象が起ってくるかもしれない」というお示しをいただいています。<br/><br/> この報道記事について御垂示を賜りたくお願い申し上げます。<br/><br/> （御垂示） 地球上、北極南極の氷は、だんだん溶けて、将来は人類の住む土地が殖えてゆくのである。<br/><br/>この理由としては、地殻が収縮するので海面が低くなるから、各河川が浅くなって干いてしまう虞（おそ）れがあるので、その水を供給するためである。<br/><br/> （お伺） 朝夕御神前ならびに御仏壇に礼拝の場合、御仏壇には、命日以外善言讃詞を奏上しないように再三御注意をいただいておりますが、入信日浅くして御神体ならびに御屏風観音様の御奉斎のお許しを得ていない場合、朝夕御仏前へ善言讃詞を奏げてはいけないのでございましょうか。<br/><br/>また御屏風観音様のみ御奉斎させていただいている場合はいかがでございましょうか。<br/><br/> 右謹んでお伺い申し上げます。<br/><br/> （御垂示） 光明如来様をお祭りして、規定通りすべきである。<br/><br/>御屏風観音様だけで短期間ならいいが、長くそのままにしておくと、祖霊が気に入らないから、お気づけをされるから、一日も早くしなさい。<br/><br/> （お伺） 謹んでお伺い申し上げます。<br/><br/> 昭和二十一年一月十八日、初めて明主様より御浄霊をいただきました節、私儀には「傍系にあたる先祖で胃癌で死んだ祖霊が憑依しておる」とのお言葉をいただきましたが、そのお言葉通り間もなく、その霊が出まして「自分は執着のため龍神になっているからぜひ祀ってもらいたい」とのこと、さっそくお伺いいたしましたところ「三休明神と命名してお祀りせよ」とのことでございまして、御指示の通りにお祀りいたしておりました。<br/><br/>ところがその後父が帰幽いたしました関係で、山口県萩市の寺院（天台宗にて南明寺と申します。<br/><br/>右の祖霊はこの寺の中興の祖と言われている三休和尚の霊でございます）を後任住職に譲ることになりましたので、現在の住所、島根県出雲市大津町に転居いたしたのでございます。<br/><br/> 三休明神のほこらは南明寺にそのまま置いてあるのでございますが、その後、地理的にもまた時間的にも、なかなか南明寺まで行って三休明神の月並祭をすることができかねておりまして、どうもそれが最近気にかかってなりません。<br/><br/> 右三休明神は現住所のほうへ、おうつりを願ってお祀りすべきでございましょうか、なにとぞ御教示のほどお願い申し上げます。<br/><br/> （御垂示） 勿論そうしなさい。<br/><br/>それでなくては龍神さんは救われないからで、急いでるから一日も早いほうがよろしい。<br/><br/>現在の仏界では、もはや救われないためである。<br/><br/> （お伺） 私ども一家全部入信いたしまして、光明如来様は昭和二十五年二月御奉斎、同年五月に屏風観音様御奉斎、同年九月大光明如来様御奉斎いたしましてお道の御用をさせていただいている者でございますが、入信前お祭りしてありました御神体は、いかが処置いたしましたらよろしゅうございましょうか。<br/><br/>お伺い申し上げます。<br/><br/>御神体は宇佐八幡宮、朝見神社（氏神）早吸日女大神、車折神社の四体を一つのホコラに入れて、神棚にそのままにしております。<br/><br/>また、応召中、親戚、知人などより寄せられた御守り（清水観音、石鉄山、朝見神社、観音寺、明治神宮、宇佐八幡宮、熱田神宮、阿蘇神社、広瀬神社、春日神社、鵜戸神社、八坂神社、杵原八幡、諏訪神社、尺間神社、成田不動など）も、妻が入信前持っていた御守り（千手観音、法華経の巻物、生目神社など）とともに神棚に置いてありますが、この御守りの処分方は、いかがいたしましたらよろしゅうございましょうか、お伺い申し上げます。<br/><br/> （御垂示） 御神体も御守りも全部一カ所へまとめてお祭りをし、勿論饌供もし、いままでの御礼とともに光明如来様をお祭りいたしましたから、元の御座へお還りください、とていねいに言上して焼き捨てればよろしい。<br/><br/> （お伺） 私は田村家を相続せねばならぬ身分でありながら、大正二年（四十年前）二十六歳のとき、家を妹に譲って郷里を出て親方の仕事（鍛冶屋）を引きつぎました（親戚一同承諾の上です）。<br/><br/> 当時寄留がやかましい時代であったために、辺見庄蔵（母の妹婿）の弟として仮に入籍をして五年目に分家いたし、辺見を名乗って三十五年間現在の所に住んでおります（庄蔵氏の宅を本家と言って今なお続いています。<br/><br/>） 最近、実家田村家のほうがほんとうの姓であり、両親を始め御先祖様がなつかしく、妹に家を譲って立派にやってくれておりますが、先祖代々之霊位としてお祀りするとき、やはり辺見家を主といたすべきか、実家の田村家を主に祀らせていただけばよいものでございましょうか。<br/><br/> 御垂示のほど、謹んでお願い申し上げます。<br/><br/> （御垂示） 辺見家を主とすべきであって、田村家を祀っても差し支えない。<br/><br/> （お伺） 私は昭和二十一年秋入信させていただき、御屏風観音様は二十二年の春、御神体は同年秋御奉斎させていただいている者でございます。<br/><br/> 二十四年の春、わずか三日の腹痛で母親（信者）が死去いたし、そのふた七日夜、突然腹痛をいただきました。<br/><br/>（死亡した母と同様の症状）十日間ほど苦しみ、とうとう周用が気をもみますので注射を打ちました。<br/><br/>それ以後毎月一回くらいの割合で、腹痛の御浄化をいただき、四カ年間続いております。<br/><br/>胃部の激痛で一週間か十日くらい痛み続けます。<br/><br/>痛みがやむと、まことにあっさり平常の元気にかえります。<br/><br/>初め三、四回医師の診断を受け注射を打ちました。<br/><br/>しかし、腹痛にはなんの反応もなく、申し訳なさにやっと気づかせていただき、お詫び申し上げて、以後いっさいやめております。<br/><br/>腹痛が始まりますと、右肩がたいへん凝ったようになり、多少の痛みを感じます。<br/><br/> 私たちが至らぬためか、私の妻がたびたび母の夢を見ます。<br/><br/>本年一月十三日には、母の体一面紫色にはれて「これでもか、これでも解らんか、薬毒だよ、薬毒だよ」と言うような、きつい夢を見せられました。<br/><br/> 御守護により、最初のような猛烈な痛みはございませんが、四年間という、かなり長い間、ほとんど同じような腹痛を繰り返しておりますので、なにか霊的ではございませんでしょうか。<br/><br/>もし霊的ならば、いかがさせていただけばよろしゅうございましょうか。<br/><br/>また他になにか間違いでもございましょうか。<br/><br/>御教えのほど謹んでお願い申し上げます。<br/><br/> （御垂示） 薬毒である。<br/><br/>この人は肩から背中に固まりがあるから、そこを気長に浄霊すれば必ず治る。<br/><br/> （お伺） 一、昭和十八年十月、鼻茸手術。<br/><br/>大出血後衰弱はなはだしく、約八カ月発狂状態になりました。<br/><br/> 一、同十九年七月、脳病院にて半年治療し、約四年間はだいたい良くなっておりました。<br/><br/> 一、同二十三年三月、狂暴性になり「カッカッ」と奇声を発し、水を吐くような状態はなはだしく、家人他人の見境なく暴行を加えます。<br/><br/>このころより本人は少し気分が良いと、お大師さんや種々の神様に一人でお詣りいたしますので、本人の希望と思い、親も種々の信仰をいたしました。<br/><br/> 一、同二十六年七月、本教のお道を知り、母が御守り様をいただき、同時に屏風観音様を御奉斎、他家に嫁ぎし姉もともに入信させました。<br/><br/> 一、同二十六年九月、本人入信し、お蔭をいただきましてだいぶ良くなりました。<br/><br/> 一、同二十七年二月、光明如来様を御奉斎。<br/><br/> 約一カ月後またもや狂暴性になり、家人に暴行を加える（特に母）。<br/><br/> 一、同二十七年三月二十七日、もったいなくも、光明如来様に手を掛けて引き破り、仏壇をも覆し、その後も相次いで仏壇を覆し、最後に祖母の位牌をばらばらに壊しましたので、仏壇を階下に降ろしました。<br/><br/>四月十四日ごろまでは引き続いて母に暴行を加えておりましたが、その後はだいぶおちつき、寝るときが多くなりました。<br/><br/> 一、家は元真言宗を信仰いたしておりましたが、いまより六十年前、曾祖父が黒住教に転向し、二十六年三月より（本教入信前）病床の祖父承知の上、御仏壇には断りなしに元の真言宗に復帰しました。<br/><br/> 一、昭和七年ごろまでは、家運とても良かったのですが、家の裏の榎の古木を切り、そこに炊事場を建ててより、だんだん家運が傾いてきました。<br/><br/> 一、十八年十月、兄が輸送船沈没により水死しました。<br/><br/>その兄が炊事場より入ってくる夢を、家人が三人とも見、このときより家人が相次いで二人死亡しました。<br/><br/>なお遠い親戚にも古木を切ってより後に発狂して死亡した者がございます。<br/><br/> 一、父および兄夫婦はお道のことが判らず未入信で、兄夫婦および子供らは危険につき別居させています。<br/><br/>現在では御守護によりおちついております。<br/><br/> イ、本人の発狂は、なにが主因となっておりましょうか（古木となにか関係がございましょうか）。<br/><br/> ロ、もったいなくも光明如来様を破り、また仏壇を覆すのはどういうわけでしょうか。<br/><br/> ハ、今後いかようにさせていただいたらよろしゅうございましょうか。<br/><br/> 右謹みて御垂示のほどお願い申し上げます。<br/><br/> （御垂示） 直接の原因は鼻茸手術のためである。<br/><br/>鼻茸手術は非常に恐ろしいもので、酷いのは気が狂って死ぬ人もある。<br/><br/>榎伐採のため木に住まっていた木龍の祟りもある。<br/><br/>しかし手術のほうはいまさらしかたがないが、木龍のほうは、庭のなるべく清い所へ小さくともよいから榎を植えて、光明如来様に木龍がそれへ移るようにお願いすればよろしい。<br/><br/> （お伺） 昭和二十一年以来家族全員入信させていただき喜んでおります一家でございます。<br/><br/>昨年十二月末、父が下痢の御浄化をいただき、九十日余り続きました。<br/><br/>その間三、四日下痢の止まったことが二回ございました。<br/><br/>そのうち、胃の下部が時折高くふくれて、なんとも言いようのない苦痛を感じます。<br/><br/>御浄化をいただくと、グズグズと低くなり、また高くふくれてまいります。<br/><br/> そのころから食欲がおとろえ、やせてきました。<br/><br/> 三月三日、中教会にお詣りさせていただき、会長先生の御浄霊をいただきました。<br/><br/>五日ほどお詣りさせていただき、たいへん気分が楽になり、少々仕事もできるようになりましたが、食欲は進まず、胃部の高くなるのが日一日と回数を増し、モゴモゴ動くようになり、気持ちがたいそう悪く、食事がいよいよ進まなくなりました。<br/><br/>胃部のふくれはそのままで移動いたしますし、右のほうもたいへん高くふくれてまいりました。<br/><br/>ごはんなどはほとんど食べられず、おかゆの汁、卵、ミルクなどを少しずつ食べております。<br/><br/> 腹のすいたときは、ふくれた高いものが割合低くなり、モゴモゴもいたしません。<br/><br/>また横に寝るとモゴモゴ動くのが少なく、食後と上向きに寝るとモゴモゴが強く、苦しみも大きゅうございます。<br/><br/> 四月十四日ごろから便秘いたし、ますます食事が進まず、胸がムカムカつかえておりましたところ、二十日の夕方、洗面器（直径六寸、探さ四寸くらい）にほとんど一杯一度に嘔吐いたしました。<br/><br/>その後しばらく胸も腹もともに楽になりましたが、またすぐ元の通りに苦痛が増し、食事もいただけません。<br/><br/> しかし御守護によりまして用便も一人ですませ、入浴も毎晩のようにやっております。<br/><br/>また食べる味も、煙草の味も少しも悪くございません。<br/><br/>従って気力もなかなか元気でございます。<br/><br/> いかなる御浄化か、いかがさせていただけばよろしゅうございましょうか、謹みてお伺い申し上げます。<br/><br/> （御垂示） 原因は薬毒で、それに悪霊が邪魔しているのであるから、割合長くはかかるが、治るから心配しないでよい。<br/><br/>よく神様にお願いし、御神書を読むようにしなさい。<br/><br/> （お伺） 信者羽床正利二十二歳（最近入信）は五、六歳ごろより左足大腿部より足首までの後側に卵大の固結二個、小指ほどの固結四、五個でき、なんら変化なく、今日にいたっております。<br/><br/>労働後若干痛みを感ずる程度ですので放任しておりましたが、四、五年前より種々の治療をいたしました。<br/><br/>足首の小さい固結一個を手術除去いたしましたが、またもと通りになってしまいました。<br/><br/> 浄霊を始めましてよりまだ一週間でございます。<br/><br/>特別に変化はございません。<br/><br/>固結のできる以前には薬はいっさい使ったことがないそうです。<br/><br/>原因はなんでございましょうか。<br/><br/>謹んでお伺い申し上げます。<br/><br/> なお浄霊は熱心な信者綱川敬国（35）がさせていただいております。<br/><br/> （御垂示） 親の薬毒である。<br/><br/>根気よく浄霊すれば長くはかかるが必ず治る。<br/><br/>できるだけ運動するほうがよい。<br/><br/> （お伺） 昨年十月ごろより左耳後ろより少しずつ脱髪しだし、昨年四月ごろまでにすっかり全頭脱髪してしまいました。<br/><br/>その間に早くぬけた所は先を切ったような荒い毛が生えてきておりましたが、それも四月ごろまでにはすっかりぬけ、夏ごろより色のない、うぶ毛が全頭に生えてきましたが、いっこうに伸びず、色も出ないので困っておりました。<br/><br/> 御浄霊は昨年十月中ごろよりいただき、御守り様は十二月の初めにお受けして毎日御浄霊をいただいておりますが、四月現在いくぶん手ざわりが荒くなり、かすかに色が出だしたかしらと思う程度でございます。<br/><br/> 脱髪し始めました一昨年の十月には、前の年から婚約も整い、挙式を待つばかりになっておりましたところへ側から邪魔が入り、無理に婚約を解消させられ、とても苦しんでおりましたので、それがショックになったのではないかとも思っているのでございますが、いかがでございましょうか。<br/><br/> 御浄霊は主にどこをさせていただきましたらよろしゅうございましょうか。<br/><br/> なお、お道に入るまでの治療として殺菌消毒に重きを置いてまいりましたのでございます。<br/><br/> （御垂示） これは俗に台湾坊主という病気で、浄霊は頭を主としてすればよい。<br/><br/> ふつうは二、三カ月で治るものであるが、殺菌消毒をしたため治りが遅くなったのである。<br/><br/>しかし、一、二年かかると思えばよろしい。<br/><br/> （お伺） 昨年十月十六日、私儀子供英敏（四歳）が高さ二尺くらいの座敷から庭に転落いたしまして、その際左額面に長さ三センチ幅五ミリくらいの裂傷を負いました。<br/><br/>ただちに私が御浄霊をさしていただき、痛みも出血も止まりましたが、なお念のため錦織万一教師の御浄霊もお願いしました。<br/><br/> 四、五日経ちますと膿が出まして、ちょっと御浄化がありましたが、それも間もなく治り、現在では完全に癒えておりますが、傷痕が少し低く、薄皮にて赤くなっております。<br/><br/>御浄霊は毎日続けております。<br/><br/>今後も気長に続けておりますと傷痕はすっかり消えるでございましょうか。<br/><br/> 右謹んでお伺い申し上げます。<br/><br/> なお私儀お蔭様で御屏風様、大光明如来様御奉斎させていただいております。<br/><br/> （御垂示） 勿論元通りに治るから安心しなさい。<br/><br/> （お伺） 加藤一重三十五歳。<br/><br/>昭和二十一年入信。<br/><br/>本年一月二日より痔出血が始まり約五十日くらい続きました。<br/><br/>だいたい出血が納まった二月二十四日ごろより震いが来て心臓の動悸をおぼゆるようになり、御浄霊も現在まで毎日続けております。<br/><br/>心臓部の周りの毒素も漸次取れてまいり、今日ではだいたい楽になってまいりました。<br/><br/> 現在、夜中（三、四時ごろ）に目が覚めますと、動悸が始まりますが、これはなんでしょうか。<br/><br/> なお、三月十五日に霊媒に見ていただいたところによりますと、父の親戚関係の者で戦死した霊が憑依しているとのことです。<br/><br/>その霊を取っていただいてより、一時急に楽になりましたが、その後またもとのような状態に変わり、それ以後、御浄霊の御守護により快復に向かっております。<br/><br/> 本人は二十歳前後に胸部の打撲や風邪などにて湿布や薬剤を多量に使用いたしております。<br/><br/>このような場合には主として御浄霊はどこをさせていただいたらよろしいのでございましょうか。<br/><br/>なお、離脱した霊には、その霊の言う通りにしてやりましたが救われているものでしょうか。<br/><br/>憑依した霊の実家ではまだ入信いたしておりませんが、このようなときにはどのような方法を取ったらよろしいのでしょうか。<br/><br/> なお、四月三日の夜、足部より震いが来て全身に及び十分くらい続きましたが、これは霊的でしょうか。<br/><br/>本人の家では大光明如来様と御屏風観音様を御奉斎させていただいております。<br/><br/> 右御垂示のほどお願い申し上げます。<br/><br/> （御垂示） これは貧血による霊の憑依であるから、血液が充実するに従って、憑依されなくなる。<br/><br/>しかしこの死霊は救われたいためであるから、常に祝詞、善言讃詞、御讃歌を聴かせるようにすれば、それだけ早く治る。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

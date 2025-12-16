@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学で病気は防げる乎 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 現代医学とは、一言にして、これを言えば、あらゆる疾患を、科学で治そうと、否、科学のみで治るものと信じて、熱心に、研究を続けている学問である。<br><br>そうして、その事を一般社会へ信じさせようと、熱心に、努力しつゝあるものである。<br><br>故に、一般世人は、科学的療法に依らなければ、病気は治らないものであると、決めてしまっている。<br><br>その結果、たとえ、病気は、予期のごとく治らなくとも、科学的なるが故に、安心だと言うのである、それが今日は、社会的常識とさえなってしまって、何らそれへ対して、疑点を挿（さしはさ）まないまでに、なってしまった事である。<br><br>そうして又、海外諸国もそうであるから、なおさら、安心し切ってしまっているのも、無理はないのである。<br><br> 現在医学を進歩させようとして、研究しつつある、その方法と、言えば、黴菌学と、試験管と、動物試験が、その重なるものである。<br><br>そうして、黴菌を発見したと言う事は、病原を発見し得たとしているのである。<br><br>それ故、病原が不明という事は、その黴菌を、発見し得ないという事である。<br><br>であるから、黴菌を発見し得ないのは、その黴菌が、余りに微小であるが為に、現在の検〔顕〕微鏡では、視野に入らないからであるとなし、それらの黴菌を名付けて濾過性黴菌と言っている。<br><br> それ故に、まず、その黴菌を発見すれば、病原を発見し得たとして、今度は、その黴菌を殺滅する方法を、研究するのである。<br><br>それは、人体に無害にして、病菌を殺そうとする、薬剤や、光線や、器械力を発見しようとする。<br><br>そうして、それを発見するや、その実験をモルモットや二十日鼠などに試み、その結果によって、今度は、人体へ実験するのであるが、その成績の統計が、良好であれば始めて、一般的に施行するのである。<br><br>しかし、実は、この統計程不正確なものは無いのである。<br><br>否、正確な統計を作る事が、非常に困難なのである。<br><br>それは、その統計は、割合、短期間の成績を、基準とするが故に、一時は奏効せるがごときも年月の経過と共に、反動的に悪化する場合が、多いのである。<br><br>その点非常に、不正確で、完全とはいい得ないようである。<br><br> 現代医学は、大体として、右の順序なのであるから、病気に侵されないのは、病菌に侵されない事になるのであって、随って、病菌の予防さえ出来れば、健康は保てるものと、なっているのである。<br><br> 黴菌侵犯さえ、予防出来れば、病気に罹らないと、仮に、保証し得たとして、果して絶対に、黴菌の侵犯を予防し得るであろうか、これが実に問題である。<br><br>恐らくこれ程不可能な事はないであろう。<br><br>絶対に、黴菌に侵されまいとするには、まず、人間の来訪不可能な山奥に、一軒家を建てゝ住むより外に、方法は無いであろう、現在、この社会に呼吸しつゝ電車汽車に乗り、劇場へ行き、日々貨幣を手に触れ、濁った空気を吸い、人と接触し、人と談話する、これらの動作は悉（ことごと）く、黴菌侵入に無関係であり得ないのである。<br><br>これにおいてか、現代人は、いか程黴菌侵入を予防せんとするも、ある程度以上は、絶対不可能である。<br><br>今日食事の前に手を洗うとか、外出して帰宅後、直に含嗽（うがい）するなどは、全く末梢的である。<br><br> 故に、真の健康法としては、あらゆる病菌が絶えず侵入するものであると仮定し、それにも係わらず、感染も発病もしないという方法があれば、それこそ、真の衛生学であり、理想的健康法である。<br><br> しからば、病菌が侵入しても、感染も発病もしないという、その完全なる方法とは、いかなるものであるか、それを、これから、説明してみよう。<br><br> それは、黴菌が皮膚面又は、粘膜から侵入した場合、まず、血液を侵すのであるから、血液に殺菌力さえあれば、必ず防げるのである。<br><br>感染するという事は、病菌に、血液の方が敗北するからである。<br><br>しからば、殺菌血液とは、いかなるものであるかと言うに、それは、濁らない浄血である。<br><br>浄血程殺菌力が強いのである。<br><br>この事は、西洋医学の説明も誤ってはいないのである。<br><br> 故に、浄血保有者こそ、一切の病菌に抗し得て、完全健康者なのであるから、血液を浄化する方法、これより外にはないのである。<br><br>この事さえが可能であれば、問題は解決するのである。<br><br>しからば科学によって、血液を浄化し得るやと言うに、それは到底不可能である、ラジュウムでも、レントゲンでも、あらゆる注射服薬でも、それは、不可能である事は、医家も知悉（ちしつ）して居るであろう。<br><br>しかるに、本療法によれば、血液は一回毎に浄化してゆくのである。<br><br>それは例外なく受療者の血色が驚く程迅速に良くなってゆく事である。<br><br>又我健康法によれば、漸次、病気に罹らなくなるという、大事実が、これを証明して、余りあるのである。<br><br> これを要するに、科学での絶対健康法は未解決であるという事であって、世人はまず、この事を、認識しなければならないのである。<br><br> （一一、三、四）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ciência é Capaz de Prevenir as Doenças?</h2>
 <p>A medicina moderna, em síntese, é a disciplina que busca curar todas as enfermidades por meio da ciência, ou melhor, que deposita sua fé exclusivamente no método científico para tal fim. Esforça-se diligentemente para convencer a sociedade dessa premissa. Consequentemente, o público em geral resignou-se à ideia de que as doenças só podem ser sanadas por terapias científicas. O resultado é que, mesmo quando a cura esperada não se concretiza, as pessoas se sentem seguras pelo simples fato de o tratamento ser “científico”. Essa mentalidade se arraigou a tal ponto no senso comum que já não se admite qualquer questionamento a seu respeito. O fato de essa ser a norma em outras nações apenas reforça essa cômoda certeza, o que, de certa forma, é compreensível.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Quando um micróbio penetra o corpo através da pele ou das mucosas, ele primeiramente ataca o sangue. Portanto, se o sangue possuir poder bactericida, a infecção será, com certeza, evitada. A infecção ocorre precisamente quando o sangue é subjugado pelos agentes patogênicos. Mas, em que consiste um sangue com essa capacidade? Consiste em um sangue puro, sem impurezas. Quanto mais puro o sangue, maior seu poder bactericida. Nesse ponto específico, nem mesmo as explicações da medicina ocidental estão equivocadas.</p>
 <p>Por conseguinte, o indivíduo que possui sangue puro é aquele capaz de resistir a todos os micróbios e de gozar de perfeita saúde. Assim, não há outro caminho senão o método que purifica o sangue. Se isso for viável, o problema estará resolvido. Resta, então, a pergunta: a ciência é capaz de purificar o sangue? A resposta é que tal feito é categoricamente impossível. Nem o rádio, nem os raios X, nem quaisquer injeções ou medicamentos orais podem realizá-lo, fato que os próprios médicos conhecem muito bem. Em contrapartida, por meio da nossa terapia, o sangue se purifica a cada aplicação. A prova irrefutável disso é a melhora na coloração da pele dos que a recebem, que ocorre com uma rapidez surpreendente e sem exceções. Ademais, nosso método de saúde leva, gradualmente, a uma condição em que a pessoa deixa de adoecer — um fato monumental que comprova sobejamente nossa tese.</p>
 <p>Em suma, o que se conclui é que a ciência ainda não encontrou um método absoluto para a manutenção da saúde. É fundamental que as pessoas, antes de mais nada, reconheçam essa realidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学で病気は防げる乎 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 現代医学とは、一言にして、これを言えば、あらゆる疾患を、科学で治そうと、否、科学のみで治るものと信じて、熱心に、研究を続けている学問である。<br/><br/>そうして、その事を一般社会へ信じさせようと、熱心に、努力しつゝあるものである。<br/><br/>故に、一般世人は、科学的療法に依らなければ、病気は治らないものであると、決めてしまっている。<br/><br/>その結果、たとえ、病気は、予期のごとく治らなくとも、科学的なるが故に、安心だと言うのである、それが今日は、社会的常識とさえなってしまって、何らそれへ対して、疑点を挿（さしはさ）まないまでに、なってしまった事である。<br/><br/>そうして又、海外諸国もそうであるから、なおさら、安心し切ってしまっているのも、無理はないのである。<br/><br/> 現在医学を進歩させようとして、研究しつつある、その方法と、言えば、黴菌学と、試験管と、動物試験が、その重なるものである。<br/><br/>そうして、黴菌を発見したと言う事は、病原を発見し得たとしているのである。<br/><br/>それ故、病原が不明という事は、その黴菌を、発見し得ないという事である。<br/><br/>であるから、黴菌を発見し得ないのは、その黴菌が、余りに微小であるが為に、現在の検〔顕〕微鏡では、視野に入らないからであるとなし、それらの黴菌を名付けて濾過性黴菌と言っている。<br/><br/> それ故に、まず、その黴菌を発見すれば、病原を発見し得たとして、今度は、その黴菌を殺滅する方法を、研究するのである。<br/><br/>それは、人体に無害にして、病菌を殺そうとする、薬剤や、光線や、器械力を発見しようとする。<br/><br/>そうして、それを発見するや、その実験をモルモットや二十日鼠などに試み、その結果によって、今度は、人体へ実験するのであるが、その成績の統計が、良好であれば始めて、一般的に施行するのである。<br/><br/>しかし、実は、この統計程不正確なものは無いのである。<br/><br/>否、正確な統計を作る事が、非常に困難なのである。<br/><br/>それは、その統計は、割合、短期間の成績を、基準とするが故に、一時は奏効せるがごときも年月の経過と共に、反動的に悪化する場合が、多いのである。<br/><br/>その点非常に、不正確で、完全とはいい得ないようである。<br/><br/> 現代医学は、大体として、右の順序なのであるから、病気に侵されないのは、病菌に侵されない事になるのであって、随って、病菌の予防さえ出来れば、健康は保てるものと、なっているのである。<br/><br/> 黴菌侵犯さえ、予防出来れば、病気に罹らないと、仮に、保証し得たとして、果して絶対に、黴菌の侵犯を予防し得るであろうか、これが実に問題である。<br/><br/>恐らくこれ程不可能な事はないであろう。<br/><br/>絶対に、黴菌に侵されまいとするには、まず、人間の来訪不可能な山奥に、一軒家を建てゝ住むより外に、方法は無いであろう、現在、この社会に呼吸しつゝ電車汽車に乗り、劇場へ行き、日々貨幣を手に触れ、濁った空気を吸い、人と接触し、人と談話する、これらの動作は悉（ことごと）く、黴菌侵入に無関係であり得ないのである。<br/><br/>これにおいてか、現代人は、いか程黴菌侵入を予防せんとするも、ある程度以上は、絶対不可能である。<br/><br/>今日食事の前に手を洗うとか、外出して帰宅後、直に含嗽（うがい）するなどは、全く末梢的である。<br/><br/> 故に、真の健康法としては、あらゆる病菌が絶えず侵入するものであると仮定し、それにも係わらず、感染も発病もしないという方法があれば、それこそ、真の衛生学であり、理想的健康法である。<br/><br/> しからば、病菌が侵入しても、感染も発病もしないという、その完全なる方法とは、いかなるものであるか、それを、これから、説明してみよう。<br/><br/> それは、黴菌が皮膚面又は、粘膜から侵入した場合、まず、血液を侵すのであるから、血液に殺菌力さえあれば、必ず防げるのである。<br/><br/>感染するという事は、病菌に、血液の方が敗北するからである。<br/><br/>しからば、殺菌血液とは、いかなるものであるかと言うに、それは、濁らない浄血である。<br/><br/>浄血程殺菌力が強いのである。<br/><br/>この事は、西洋医学の説明も誤ってはいないのである。<br/><br/> 故に、浄血保有者こそ、一切の病菌に抗し得て、完全健康者なのであるから、血液を浄化する方法、これより外にはないのである。<br/><br/>この事さえが可能であれば、問題は解決するのである。<br/><br/>しからば科学によって、血液を浄化し得るやと言うに、それは到底不可能である、ラジュウムでも、レントゲンでも、あらゆる注射服薬でも、それは、不可能である事は、医家も知悉（ちしつ）して居るであろう。<br/><br/>しかるに、本療法によれば、血液は一回毎に浄化してゆくのである。<br/><br/>それは例外なく受療者の血色が驚く程迅速に良くなってゆく事である。<br/><br/>又我健康法によれば、漸次、病気に罹らなくなるという、大事実が、これを証明して、余りあるのである。<br/><br/> これを要するに、科学での絶対健康法は未解決であるという事であって、世人はまず、この事を、認識しなければならないのである。<br/><br/> （一一、三、四）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinniho1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新日本医術と既存医学の誤謬 『新日本医術書』昭和11(1936)年4月21日執筆 そもそも、病気とは何ぞやと言えば、人体の浄化作用である。<br><br>人間の健康は、病気有るが為に保っている、と言ってもよいのである。<br><br> 人間が生を営みつつ諸々の行為による罪穢や、食物の毒素、その他近代生活における、種痘の為の陰性化天然痘毒素及薬剤中毒等、あらゆる可避不可避、又は意識と無意識とによって、知らず識らず堆積する毒素は、ある程度免るる事の出来ないものである。<br><br>そうして、その堆積の量が、ある程度を超ゆる時、それはどうしても排除されなければ、人体の健康は保ってゆけないのである。<br><br> それが人体における自然浄化作用であって、その排除されなければならない余剰毒素は、身体のいずれかの部分に集中し、そこから排出されようとするのである。<br><br>病気とは、右の排除されようとして、ある部分に集中した毒素が、なおも外部へ排出されようとするその道程の苦痛である。<br><br> 故に、自然浄化による血液中の毒素が、膿汁となって排泄する場合、排泄に有利ならしめん為、その膿を溶解する必要がある。<br><br>元来、膿汁は人間の体温及び、それより低い温度では、凝結する性質があるので、それを溶解せんとするには、どうしても体温以上の温度を要するのである。<br><br>それが為の発熱である。<br><br>又、膿の排除作用の工作が、痛みであるから痛みと熱に因って、毒素排出の目的が達せられ、健康は持続されるのである。<br><br>又、肺結核痔疾等にて、喀血や出血するという理由もそうである。<br><br>排除されなければならない余剰毒血が、その排除器能である肺又は肛門を利用する訳である。<br><br>故に、肺からの喀血は、多量であればある程、浄化作用が良く行われるのであるから、何ら恐るる事なく、むしろ喜んで、放置しておけばよいのである。<br><br>それの後は非常に、健康は増進される事実を、断言するのである。<br><br>この理を知らない医学は、出血や発熱を以て病気悪化と誤解し、非常に恐れて、それを停止させようとする。<br><br>その為に、折角の浄化作用が完全に行われないから、病気は長引き、健康は容易に恢復し難くなるのである。<br><br>なおその上に、薬剤服用の為の毒血増加が、病気悪化に拍車を掛けるのである。<br><br> これらの理によって、病気現象は決して健康を損ねるものでなく、反って浄化作用であるから、これを知ったならば、病気は恐るる所か、大いに喜んでいい訳である。<br><br> 故に、今日までの病気治療は、病気を治癒させるのではなく、治癒を遅延させ、病気を悪化させる結果に外ならなかったのである。<br><br> （昭和十一年四月二十一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Doença e o Equívoco da Medicina</h2>
 <p>Em sua essência, o que é a doença? É, fundamentalmente, o processo de purificação do corpo humano. Poderíamos até mesmo afirmar que a saúde é preservada justamente pela existência da doença.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>A medicina, por desconhecer este princípio, interpreta erroneamente o sangramento e a febre como um agravamento da doença e, tomada por grande temor, busca suprimi-los a todo custo. Em consequência, o valioso processo de purificação é interrompido antes de se completar, o que prolonga a enfermidade e dificulta a recuperação da saúde. Ademais, a ingestão de medicamentos, ao aumentar a quantidade de sangue tóxico, acaba por acelerar ainda mais o agravamento do quadro.</p>
 <p>Com base nestes princípios, compreende-se que os fenômenos da doença, longe de prejudicarem a saúde, constituem o próprio processo de purificação. Uma vez ciente desta verdade, não há por que temer a doença; ao contrário, há razões de sobra para regozijar-se.</p>
 <p>Conclui-se, portanto, que os tratamentos médicos praticados até hoje não promoveram a cura das enfermidades, mas, invariavelmente, apenas retardaram a recuperação e agravaram o estado do doente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新日本医術と既存医学の誤謬 『新日本医術書』昭和11(1936)年4月21日執筆 そもそも、病気とは何ぞやと言えば、人体の浄化作用である。<br/><br/>人間の健康は、病気有るが為に保っている、と言ってもよいのである。<br/><br/> 人間が生を営みつつ諸々の行為による罪穢や、食物の毒素、その他近代生活における、種痘の為の陰性化天然痘毒素及薬剤中毒等、あらゆる可避不可避、又は意識と無意識とによって、知らず識らず堆積する毒素は、ある程度免るる事の出来ないものである。<br/><br/>そうして、その堆積の量が、ある程度を超ゆる時、それはどうしても排除されなければ、人体の健康は保ってゆけないのである。<br/><br/> それが人体における自然浄化作用であって、その排除されなければならない余剰毒素は、身体のいずれかの部分に集中し、そこから排出されようとするのである。<br/><br/>病気とは、右の排除されようとして、ある部分に集中した毒素が、なおも外部へ排出されようとするその道程の苦痛である。<br/><br/> 故に、自然浄化による血液中の毒素が、膿汁となって排泄する場合、排泄に有利ならしめん為、その膿を溶解する必要がある。<br/><br/>元来、膿汁は人間の体温及び、それより低い温度では、凝結する性質があるので、それを溶解せんとするには、どうしても体温以上の温度を要するのである。<br/><br/>それが為の発熱である。<br/><br/>又、膿の排除作用の工作が、痛みであるから痛みと熱に因って、毒素排出の目的が達せられ、健康は持続されるのである。<br/><br/>又、肺結核痔疾等にて、喀血や出血するという理由もそうである。<br/><br/>排除されなければならない余剰毒血が、その排除器能である肺又は肛門を利用する訳である。<br/><br/>故に、肺からの喀血は、多量であればある程、浄化作用が良く行われるのであるから、何ら恐るる事なく、むしろ喜んで、放置しておけばよいのである。<br/><br/>それの後は非常に、健康は増進される事実を、断言するのである。<br/><br/>この理を知らない医学は、出血や発熱を以て病気悪化と誤解し、非常に恐れて、それを停止させようとする。<br/><br/>その為に、折角の浄化作用が完全に行われないから、病気は長引き、健康は容易に恢復し難くなるのである。<br/><br/>なおその上に、薬剤服用の為の毒血増加が、病気悪化に拍車を掛けるのである。<br/><br/> これらの理によって、病気現象は決して健康を損ねるものでなく、反って浄化作用であるから、これを知ったならば、病気は恐るる所か、大いに喜んでいい訳である。<br/><br/> 故に、今日までの病気治療は、病気を治癒させるのではなく、治癒を遅延させ、病気を悪化させる結果に外ならなかったのである。<br/><br/> （昭和十一年四月二十一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

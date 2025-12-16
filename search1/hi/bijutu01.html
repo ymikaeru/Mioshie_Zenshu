@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bijutu01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館建設の趣旨 チラシ、昭和27(1952)年 私はメシヤ教教主でありますが、私の美術館開館の趣旨を申し上げ、かつ美術に対する大方の御批判及び御指導を得たいと存じておるのであります。<br><br> 世界救世教本来の理想としては、真善美の世界を造るにあるのでありまして、真と善とは精神的なものでありますが、美の方は形で現し、目から人間の魂を向上させるのであります。<br><br>御承知の通り西洋でもギリシャ、ローマの昔から中世紀頃まではもちろん、日本においても聖徳太子以来鎌倉時代までは、宗教芸術がいかに旺んであったかは御存知の通りであります。<br><br>従って絵画、彫刻、音楽等あらゆる芸術は宗教が母体であった事は否み得ない事実であります。<br><br>ところが現代に至っては、それが段々薄れてゆき、宗教と芸術とは離れ離れになってしまい、そこへ近代科学の影響も手伝って、宗教不振の声は常に聞くところであります。<br><br>そのような訳でどうしても宗教と芸術とは、車の両輪のごとく進まなければならないと思うのであります。<br><br> ところでそれはそれとして日本という国柄について一言申したい事は、本来地球上の国と云う国は、人間と同様それぞれその国独自の思想文化をもっている事であります。<br><br>では日本のそれは何かと申しますと、美によって世界人類を楽しませながら、文化の向上に資する事であります。<br><br>日本の山水美が特に秀でている事や、花卉、草木の種類の多い事、日本人の鋭い美の感覚、手技の優れている点等を見ただけでもよく解るはずであります。<br><br>ところがそのような根本を知らないがため、戦争などという無謀極まる野望を起した結果は、アノような敗戦の憂き目を見るに至ったのであります。<br><br>しかも神は再び戦争などを起さないように武器まで取上げられてしまったという事は、全く日本人の真の使命を覚らしむべくなされたのは言うまでもありますまい。<br><br> もっとも最近再軍備などと喧ましく言われていますが、これは単なる防衛手段であって、それ以上の意味はないのはもちろんであります。<br><br> 以上によってみても、今後日本の進むべき道は自ら明らかであります。<br><br>すなわちそれを目標とする以上、永遠なる平和と繁栄は必ず招来するものと信じ、かねてこの事を知った私は、微力ながらその考え方をもって進んで参ったのであります。<br><br>そうしてその具体的方法としては、まず美の小天国を造って天下に示すべく企図し、その条件に適うところとしては何といっても箱根と熱海で、交通の至便と山水の美はもちろん温泉あり、気候、空気も好く、申分ないところであります。<br><br>そこでこの両地の特に景勝な地点を選び、天然の美と人工の美をタイアップさせた理想的芸術境を造るべく、漸く出来上ったものがこの地上天国と、そうして美術館であります。<br><br>それについては御承知のごとく日本には、今日まで日本的の美術館は一つもなかった事であります。<br><br>従来のものは支那美術館、西洋美術館と博物館の宗教美術等で、日本人でありながら日本美術を観賞する事は出来ないという有様で、今仮に外国の人が日本へ来て、日本独特のものを観たいと思っても、その希望を満す事は不可能でありました。<br><br>つまりそう言ったような機関なり方法がほとんどなかったのであります。<br><br>としたら美術国日本としての一大欠陥ではありますまいか。<br><br>と言う訳で今度の美術館が、幾分でもその欠陥を補うに足るとしたら、私は望外の幸いと思うのであります。<br><br>私は外国に行ったわけではありませんが、色々な事で出来るだけ調べてみましたところが、外国にある日本美術としては版画が一番多く、肉筆で良いものはほとんどないと言うのが現状であるようであります。<br><br>また支那美術に着眼して、陶器とか銅器とか仲々良く蒐（あつ）めてはありますが肝腎の支那の絵画の方は外国にはほとんど渡っていないようであります。<br><br>支那の絵画で優秀なものは、宋、元時代のものでありますが、これらは支那が度々兵火に見舞われたために焼けてしまって御本元の支那にはほとんどない有様であります。<br><br>今残っているものとしては日本の足利義満、義政の時代に蒐めたのが大半で、その後、信長秀吉が継承して今日に及んでいると言うような訳であります。<br><br> ここで一言支那の陶器、銅器について申しますと、兵火の乱を免れるために土地の中に埋めて逃げたため、今日存在するものの多くは土から掘り出したもので、何千年何百年経ているためと、掘り出す時に傷がついたため完全無欠なのは極く少ないのであります。<br><br>なお当美術館には四千年以前に作られたというアンダーソンの壷があります。<br><br>その時代によくもこのようなものが出来たものだと驚く程であります。<br><br>大体において支那陶器は六朝から唐時代に出来たのは仲々優秀なのがあります。<br><br>そして御承知の青磁が出来始めた宋時代のにも良いのがあります。<br><br>銅器類は周時代の前後に良いのが出来ています。<br><br>そう言ったものが日本に入って来たのは奈良朝時代からですから土中物（どちゅうもの）と言っても非常に綺麗なのであります。<br><br>そう言う点からは支那美術は日本が保存しておったと言っても過言ではないと思います。<br><br> それからこう言う事も知って貰いたいのです。<br><br>それは昔から日本には世界に誇り得る程の、立派な美術品が豊富にありながら、終戦までは華族富豪等の奥深く死蔵されており、ほとんど大衆の眼には触れさせなかった事であります。<br><br>つまり独占的封建的思想のためでもあったからでありましょう。<br><br>それが民主的国家となった今日、昔の夢となった事はもちろんであります。<br><br>そうして元来美術品なるものは、出来るだけ大衆に見せて、楽しませ、知らず識らずの内に人間の心性を高める事こそ、その存在理由と言えましょう。<br><br>とすればまず独占思想を打破して美術の解放であります。<br><br>この意味で私はこれら世界的美術品の数々を外国の人々に見せ度いと共に、膝元の日本の一般の人々にも見せて楽しませ度いと念願致しておりました。<br><br>また一つには、美術家で日本美術を鑑賞し度くともその機関がないために参考にする事が出来ない現状でありましたので、そう言う点からも美術家に参考品を見せ度いと言う気持もあったがらであります。<br><br>ところが幸いなるかな戦後の国家的大変革に際して秘蔵されていた多数の文化財が市場に放出されたので、これが我美術館建設にいかに役立ったかはもちろんであります。<br><br> そうして今度の美術館は、規模は小さいが今後次々出来るであろう内外の美術館に対し模範的のものを造りたい方針で、一から十まで私の苦心になったもので、もちろん庭園も一切私の企画で、一木一草といえどもことごとくそうでありますから、素人の作品として欠点は多々ありましょうが、いささかでも御参考になるとしたら私は満足に思うのであります。<br><br>なおかつ将来あるかも知れない空襲や火災、盗難等についても環境、設備等充分考慮を払ったつもりでありますから、国宝保存上からも、お役に立つでありましょう。<br><br> 以上で大体お分りの事と思いますが、つまり日本本来の美の国、世界のパラダイスとしての実現を念願する以外他意はないのであります。<br><br>なお近き将来熱海にも、京都にも地上天国とそれに付随する美術館を作る計画でありますから、何卒今後共宜敷く御支援あらん事をお願いする次第であります。<br><br> （箱根美術館館長岡田茂吉） (注) アンダーソン（JohanGunnarAndersson、1874～1960） スウェーデンの地質学者。<br><br>考古学者。<br><br>中国で調査中、北京原人の出土地周口店洞窟遺跡を発見。<br><br>また、新石器時代の彩色陶器を検出し、オリエント文化とのつながりを指摘した。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Propósito da Construção do Museu de Arte</h2>
 <p>Na condição de Líder Espiritual da Igreja Messiânica, apresento o propósito que norteia a inauguração de nosso Museu de Arte. Almejo, com esta exposição, solicitar a valiosa apreciação e orientação do público em geral no que tange à arte.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Creio que, com esta explanação, meu propósito se tornou claro. Não tenho outra intenção senão a de concretizar o Japão como a nação do Belo, sua vocação original, e como um paraíso para o mundo. Em um futuro próximo, planejo construir outros Paraísos Terrestres e seus respectivos museus de arte em Atami e em Quioto. Rogo, do fundo de meu coração, que continuem a nos honrar com seu valioso apoio.</p>
 <p>(Mokichi Okada, Diretor do Museu de Arte de Hakone)</p>
 <p>(Nota) Andersson (Johan Gunnar Andersson, 1874–1960): Geólogo e arqueólogo sueco. Durante pesquisas na China, descobriu o sítio arqueológico da caverna de Zhoukoudian, onde foram encontrados os fósseis do Homem de Pequim. Também identificou cerâmicas pintadas do período Neolítico, apontando conexões com a cultura do Oriente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館建設の趣旨 チラシ、昭和27(1952)年 私はメシヤ教教主でありますが、私の美術館開館の趣旨を申し上げ、かつ美術に対する大方の御批判及び御指導を得たいと存じておるのであります。<br/><br/> 世界救世教本来の理想としては、真善美の世界を造るにあるのでありまして、真と善とは精神的なものでありますが、美の方は形で現し、目から人間の魂を向上させるのであります。<br/><br/>御承知の通り西洋でもギリシャ、ローマの昔から中世紀頃まではもちろん、日本においても聖徳太子以来鎌倉時代までは、宗教芸術がいかに旺んであったかは御存知の通りであります。<br/><br/>従って絵画、彫刻、音楽等あらゆる芸術は宗教が母体であった事は否み得ない事実であります。<br/><br/>ところが現代に至っては、それが段々薄れてゆき、宗教と芸術とは離れ離れになってしまい、そこへ近代科学の影響も手伝って、宗教不振の声は常に聞くところであります。<br/><br/>そのような訳でどうしても宗教と芸術とは、車の両輪のごとく進まなければならないと思うのであります。<br/><br/> ところでそれはそれとして日本という国柄について一言申したい事は、本来地球上の国と云う国は、人間と同様それぞれその国独自の思想文化をもっている事であります。<br/><br/>では日本のそれは何かと申しますと、美によって世界人類を楽しませながら、文化の向上に資する事であります。<br/><br/>日本の山水美が特に秀でている事や、花卉、草木の種類の多い事、日本人の鋭い美の感覚、手技の優れている点等を見ただけでもよく解るはずであります。<br/><br/>ところがそのような根本を知らないがため、戦争などという無謀極まる野望を起した結果は、アノような敗戦の憂き目を見るに至ったのであります。<br/><br/>しかも神は再び戦争などを起さないように武器まで取上げられてしまったという事は、全く日本人の真の使命を覚らしむべくなされたのは言うまでもありますまい。<br/><br/> もっとも最近再軍備などと喧ましく言われていますが、これは単なる防衛手段であって、それ以上の意味はないのはもちろんであります。<br/><br/> 以上によってみても、今後日本の進むべき道は自ら明らかであります。<br/><br/>すなわちそれを目標とする以上、永遠なる平和と繁栄は必ず招来するものと信じ、かねてこの事を知った私は、微力ながらその考え方をもって進んで参ったのであります。<br/><br/>そうしてその具体的方法としては、まず美の小天国を造って天下に示すべく企図し、その条件に適うところとしては何といっても箱根と熱海で、交通の至便と山水の美はもちろん温泉あり、気候、空気も好く、申分ないところであります。<br/><br/>そこでこの両地の特に景勝な地点を選び、天然の美と人工の美をタイアップさせた理想的芸術境を造るべく、漸く出来上ったものがこの地上天国と、そうして美術館であります。<br/><br/>それについては御承知のごとく日本には、今日まで日本的の美術館は一つもなかった事であります。<br/><br/>従来のものは支那美術館、西洋美術館と博物館の宗教美術等で、日本人でありながら日本美術を観賞する事は出来ないという有様で、今仮に外国の人が日本へ来て、日本独特のものを観たいと思っても、その希望を満す事は不可能でありました。<br/><br/>つまりそう言ったような機関なり方法がほとんどなかったのであります。<br/><br/>としたら美術国日本としての一大欠陥ではありますまいか。<br/><br/>と言う訳で今度の美術館が、幾分でもその欠陥を補うに足るとしたら、私は望外の幸いと思うのであります。<br/><br/>私は外国に行ったわけではありませんが、色々な事で出来るだけ調べてみましたところが、外国にある日本美術としては版画が一番多く、肉筆で良いものはほとんどないと言うのが現状であるようであります。<br/><br/>また支那美術に着眼して、陶器とか銅器とか仲々良く蒐（あつ）めてはありますが肝腎の支那の絵画の方は外国にはほとんど渡っていないようであります。<br/><br/>支那の絵画で優秀なものは、宋、元時代のものでありますが、これらは支那が度々兵火に見舞われたために焼けてしまって御本元の支那にはほとんどない有様であります。<br/><br/>今残っているものとしては日本の足利義満、義政の時代に蒐めたのが大半で、その後、信長秀吉が継承して今日に及んでいると言うような訳であります。<br/><br/> ここで一言支那の陶器、銅器について申しますと、兵火の乱を免れるために土地の中に埋めて逃げたため、今日存在するものの多くは土から掘り出したもので、何千年何百年経ているためと、掘り出す時に傷がついたため完全無欠なのは極く少ないのであります。<br/><br/>なお当美術館には四千年以前に作られたというアンダーソンの壷があります。<br/><br/>その時代によくもこのようなものが出来たものだと驚く程であります。<br/><br/>大体において支那陶器は六朝から唐時代に出来たのは仲々優秀なのがあります。<br/><br/>そして御承知の青磁が出来始めた宋時代のにも良いのがあります。<br/><br/>銅器類は周時代の前後に良いのが出来ています。<br/><br/>そう言ったものが日本に入って来たのは奈良朝時代からですから土中物（どちゅうもの）と言っても非常に綺麗なのであります。<br/><br/>そう言う点からは支那美術は日本が保存しておったと言っても過言ではないと思います。<br/><br/> それからこう言う事も知って貰いたいのです。<br/><br/>それは昔から日本には世界に誇り得る程の、立派な美術品が豊富にありながら、終戦までは華族富豪等の奥深く死蔵されており、ほとんど大衆の眼には触れさせなかった事であります。<br/><br/>つまり独占的封建的思想のためでもあったからでありましょう。<br/><br/>それが民主的国家となった今日、昔の夢となった事はもちろんであります。<br/><br/>そうして元来美術品なるものは、出来るだけ大衆に見せて、楽しませ、知らず識らずの内に人間の心性を高める事こそ、その存在理由と言えましょう。<br/><br/>とすればまず独占思想を打破して美術の解放であります。<br/><br/>この意味で私はこれら世界的美術品の数々を外国の人々に見せ度いと共に、膝元の日本の一般の人々にも見せて楽しませ度いと念願致しておりました。<br/><br/>また一つには、美術家で日本美術を鑑賞し度くともその機関がないために参考にする事が出来ない現状でありましたので、そう言う点からも美術家に参考品を見せ度いと言う気持もあったがらであります。<br/><br/>ところが幸いなるかな戦後の国家的大変革に際して秘蔵されていた多数の文化財が市場に放出されたので、これが我美術館建設にいかに役立ったかはもちろんであります。<br/><br/> そうして今度の美術館は、規模は小さいが今後次々出来るであろう内外の美術館に対し模範的のものを造りたい方針で、一から十まで私の苦心になったもので、もちろん庭園も一切私の企画で、一木一草といえどもことごとくそうでありますから、素人の作品として欠点は多々ありましょうが、いささかでも御参考になるとしたら私は満足に思うのであります。<br/><br/>なおかつ将来あるかも知れない空襲や火災、盗難等についても環境、設備等充分考慮を払ったつもりでありますから、国宝保存上からも、お役に立つでありましょう。<br/><br/> 以上で大体お分りの事と思いますが、つまり日本本来の美の国、世界のパラダイスとしての実現を念願する以外他意はないのであります。<br/><br/>なお近き将来熱海にも、京都にも地上天国とそれに付随する美術館を作る計画でありますから、何卒今後共宜敷く御支援あらん事をお願いする次第であります。<br/><br/> （箱根美術館館長岡田茂吉） (注) アンダーソン（JohanGunnarAndersson、1874～1960） スウェーデンの地質学者。<br/><br/>考古学者。<br/><br/>中国で調査中、北京原人の出土地周口店洞窟遺跡を発見。<br/><br/>また、新石器時代の彩色陶器を検出し、オリエント文化とのつながりを指摘した。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

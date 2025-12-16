@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju01026</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（一） ２ 026-048 脳炎 026 脳膜炎の特徴と浄霊、氷冷 すっかり治る。<br><br>脳膜炎は前頭部が熱いのと、割れる程痛いので判る。<br><br>今一つ非常に眩しく、目が開かぬ。<br><br>氷で冷すと神経が動かなくなる。<br><br>働かなくなる。<br><br>頭中の毒を固める。<br><br>（後不随になる） 前頸部の中を一番よくやる。<br><br> 脳膜炎の後は頭がよくなる。<br><br> 固めたために眼が見えぬ。<br><br>（S23. 8. 7） 027 脳膜炎より唖 五歳の女児、唖者で御座います。<br><br>生後五ケ月で脳膜炎にかかり、注射と氷枕で治療を致しました。<br><br>記憶力もあり、利口そうに見え、五音ぐらいの音を発しますが、舌がつれるようです。<br><br>浄霊五回目で耳から汁が出るようになり、後頭部も初めは冷たくなっておりましたが、ただ今は少々熱があるようになりました。<br><br>これは霊的でしょうか、体的の病で御座いましょうか。<br><br> 体的である。<br><br>脳膜炎を固めたものである。<br><br>治る。<br><br>気長に浄霊する。<br><br>耳からの排液は非常によい。<br><br>冷すのは、氷の温度は零度または零度以下である。<br><br>（S23） 028 秀才と脳炎 急性脳膜炎に罹る人は秀才が多いように思われますが、いかなる理由で御座いましょうか。<br><br>御伺い致します。<br><br> 頭を使うから毒が寄ってくる。<br><br>（S24. 6. 8） 029 脳脊髄の特徴 私は四十四歳の女ですが、三歳の時に脳膜炎を、また十九歳の時脳脊髄を患い、その時には頭を上下にするにも困難な位でした。<br><br>医者は死ぬか片輪になると申しましたが、お灸で治りました。<br><br>次に三十一歳の時脳脊髄が再発し、それからは頭がいつも痛いような、重たいような具合でしたが、昨年の三月二十八日より中本教導所の先生に浄霊をして頂いております。<br><br>御蔭様で大分よくなりましたが未だ頭が重たくて、背から首にかけて張ったような気持です。<br><br>どこを主に浄霊したらよいのでしょうか。<br><br> 脳脊髄の特徴は、延髄が張り、首が曲らない。<br><br>これが溶けて頭へ入るのが日本脳炎。<br><br>（S24. 2.16） 030 脊髄脳炎 私の三男、三年前四歳の時脊髄脳膜炎を患い、耳が全然聞こえなくなり、半年前より入信致し、毎日御浄霊致しておりますが、現在のところ変化が御座居ません。<br><br>今年四月より学会により盲学校に入学させねばなりませんが、このまま御浄霊を続けて御浄化を戴く迄待った方がよろしいでしょうか。<br><br>また、入学させると寮生活のため御浄霊が困難になります。<br><br>いかが致したら宜しいでしょうか。<br><br> 脊髄脳炎は後頭部へ来て固まる。<br><br>きっと治る。<br><br>耳朶の後ろの凹所へよく固まる。<br><br>よく運動さすとよい。<br><br>時々やればよい。<br><br>それで治る。<br><br>（S25. 1.16） 031 脊髄脳炎と日本脳炎、背毒について 日本脳炎はいかなる浄化でしょうか。<br><br>また、これに対する浄霊上の注意―― 昔の眠り病――即ち、嗜眠性脳炎であるが、進駐軍が日本脳炎と名付けた。<br><br>静岡にあるお灸はすべて背中へ据えるが、人間の背中は一番毒が多い。<br><br>少くとも前の五倍以上で、いかなる病気も背中を浄霊すればよい。<br><br>仮に胃病にしても、背中の両側をやらなくては決してよくならぬ。<br><br>これさえ心得ておけば、どんなに痛い腹でも治る。<br><br>これは根本的に治る。<br><br>何となれば、人間は背中を下にして寝るために服んだ薬が背中に行って溜る。<br><br>痛みは全部薬であるからであるし、痛みは全部自分で作ったものである。<br><br> 日本脳炎の特徴は、延髄部が棒のようになり、かがめない。<br><br>治ると身体は軽くなり、頭がよくなる。<br><br>医療では氷で冷すから固まる。<br><br>そのために脳膜炎の痕のようなものが残る。<br><br>であるから生命の危険は少しもない。<br><br>夏だけに多く、北海道には少い。<br><br>これは日が弱いからである。<br><br>日本脳炎の予防は日向（ひなた）に長くいない事、日光に照らされる時は帽子をかぶる事である。<br><br>冬起る事があるが、それは頭へ入らず脊髄脳炎で止る。<br><br>日が弱いからで、これは日本脳炎よりは日数が掛る。<br><br>一週間ないし二週間である。<br><br>全部首が硬直して、動くまで日数がかかる。<br><br> 032 日本脳炎の死因と脊髄脳炎 日本脳炎について―― 日本脳炎は眠っているから食物を全然食わない。<br><br>物を食わず熱が高いから衰弱して死ぬのである。<br><br>秋に発病するのは、日射が弱いから毒膿が日本脳炎の個所まで昇らず、脊髄の個所で止まる。<br><br>これが脊髄脳炎である。<br><br>（S23） 033 日本脳炎 今大分流行しております日本脳炎の原因はいかなるものでしょうか。<br><br> 日向へ出て頭へ日が当ると身体にある毒素が脊髄を通って頭へ上る。<br><br>それで子供に多い。<br><br>脊髄脳炎は延髄へ集まる。<br><br>本当はそうして毒を出した方がよい。<br><br>小脳へ入ると眠くなる。<br><br>肩頸の毒が多い。<br><br>血膿が眼鼻等から出る。<br><br>次から次へ昇るから、根よく三十分位間をおいては日に十回位する。<br><br> 馬は非常に日に弱い。<br><br>それでゴザなどかぶせる。<br><br>（S23. 8. 8） rattail（注） 〔 御光話（S23年 8月 8日） 『御光話録』発行年月日不明、推定昭和26年〕に掲載 034 日本脳炎の予防 日本脳炎について御伺い致します。<br><br>また医学にては蚊の媒介と云いますが、蚊の少い都会に多く、蚊の多い農村に殆どありませんが、この浄化についてお伺い致します。<br><br> 蚊の媒介ではない。<br><br>脳炎の予防は帽子を被るのが一番いい。<br><br>また、北海道には脳炎がないのも寒冷地であるからである。<br><br> 濾過性というのは、空財布の事を無銭性財布というようなものである。<br><br>（S23. 8.12） rattail（注） 濾過性＝濾過性黴菌、ウィルスのこと。<br><br> 035 日本脳炎の治癒 日本脳炎の「御浄め」の個所をお尋ね致します。<br><br> 背中の毒が暑さの刺戟で上昇し、延髄へ膿が固まる。<br><br>何でも刺戟すれば、そこへ膿が集まるもので、お灸と同じ原理である。<br><br>そのために延髄部は棒のように固くなる。<br><br>浄霊をすると溶けて柔かくなる。<br><br>三十分か一時間おきにやれば段々寄るのが少なくなる。<br><br>すると鼻孔から血膿が出て治る。<br><br>ひどいのは眼からも出る。<br><br>実に簡単に治るんで、死ぬなどという事は絶対にない。<br><br>「元気な子に多い」と医学で言うが、元気な子ほど外へ出るし浄化力も強い。<br><br> 濾過性黴菌というが、これは空財布を無銭性財布というようなものである。<br><br> 無熱性肺炎は霊が憑っている。<br><br>（S23. 8.12） 036 日本脳炎より黒内障 一昨年九月、日本脳炎にかかり、医療により恢復し、昨年十一月頃より黒内障になりました二十九歳の婦人、約一ケ月前より浄霊を始めましたが、腹部がやや大きくなり、下痢を一回やりましたが、目の方は変化ありません。<br><br>浄霊の要点と治癒の見込みの有無を御伺い申し上げます。<br><br> 医学で固めたものがとけて眼へ出て来た。<br><br>治るには治る。<br><br>（S25. 5.15） 037 不眠症 信者の人、二ケ月余り夜眠られず、教導所にてお浄めが入りますと、昼一時間位は眠れますが、自家では眠れず、その割にさほど疲れずいますが、霊的の病でしょうか。<br><br>その家では御祝詞をあげますと声が出なくなります。<br><br> 眠れぬのは霊的体的両方の原因があるが、これは体的原因である。<br><br>右の延髄に塊があり、頭へ行く血管を抑えられる。<br><br>そのためである。<br><br>頭の血液の少ない場合起るのであって、霊的でもこれをやれば治る。<br><br> 038 重症患者は延髄（右延髄） 重症患者の場合、よく右の延髄をするようにと云うお言葉を頂きますが、どういう訳で御座いましょうか。<br><br> 言った筈はない。<br><br>右延髄は脳貧血か何かである。<br><br>（S24. 9.13） 039 拝礼時の落盤感（脳貧血） 御神体を拝んだ瞬間畳が一丈も下に落ちたような気がして、頭を上げた瞬間また元に戻ったような気がしたと云う信者があります。<br><br>この現象を霊的事象より見る時、いかに説明すべきでこざいましょうか。<br><br>御教示お願い申し上げます。<br><br> 一種の軽い脳貧血で、病的現象である。<br><br>延髄に毒がある。<br><br>（S23.11. 8） 040 祝詞で頭痛 満十八歳の女子、昨年七月十九日より御浄化（状態は高熱、発汗、頭痛、脈八十内外）にて約四ケ月寝みましたが、御守護を頂き、お蔭様にて以前より丈夫になりましたが、不思議な事にその間「祝詞」「善言讃詞」「御讃歌」を奏げさせて頂きますと頭痛がして参ります。<br><br>そのうちにいつとはなしに良くさせて戴きましたが、今年の一月十一日からまた御浄化が前と同じ状態となり、腹痛も致します。<br><br>右は単なる毒素の御浄化でございますのでしょうか。<br><br>御伺い申し上げます。<br><br> 毒素の浄化である。<br><br>もう一ぺんやると大体治る。<br><br>（S25. 2. 8） 041 脳梅毒 北海道の林久子（三十七歳）と言う信者、昭和十九年二月八日午前三時頃床の中で涎が出て口がきけなくなり、足は痛み一週間位寝たままで、発病以来六ケ年医療を受け、サルバルサン注射を四十本位致しましたが依然病気は良くなりません。<br><br>但し精神には異状ありません。<br><br>札幌医大で膿軟性と診断されましたそうですが、昭和二十四年七月十四日入信以来毎日のように御浄霊を戴いたら、ただ今では少し口をきけるようになりましたが、涎はよく出ます。<br><br>この場合、主としてどこを御浄霊させて戴いたら宜しゅう御座いましょうか。<br><br>また、何か霊的のものが御座いましょうか。<br><br>御伺い致します。<br><br> 脳梅毒と診断したものである。<br><br>涎が出るだけは治ってゆく。<br><br>前頭部を主とし首周り、背中等する。<br><br>治る。<br><br>（S25. 2.28） 042 全身黒痣生ず、脳梅毒、（六○六号注射） 我満（がまん）静子（十九歳）、昨年秋より浄霊を続けておりますが、本年五月末右腕に大豆程の黒痣が三つ表われ、六月三十日私が浄霊させて戴いた翌日、顔、手足を除き身体一面に大きいのは二寸四方、小さいのは大豆程のが無数に出て来ました。<br><br>いかなる理由でしょうか。<br><br>因みに同人の祖父、伯父は脳梅毒で死亡、父も現在同病に罹っております。<br><br>いかなる因縁でしょうか。<br><br>御伺い申し上げます。<br><br> 毒血で、浄霊したため身体中にあった毒血が出た。<br><br>いずれは出るべきものが出たので結構である。<br><br>治る。<br><br> 脳梅毒は一代限りで、二代続く事はない。<br><br>治りいい。<br><br>梅毒とすれば結構で、早く治る。<br><br>弱毒である。<br><br>梅毒を治そうとする薬、その方が大きいし、強い。<br><br>精神病になるのは殆ど六○六号のためである。<br><br>（S24. 7. 8） 043 脳神経衰弱、半身震う 私は約二十年前脳神経衰弱にかかり医薬、灸、温泉等にて治病に努めましたけれども、効無く、尺八行脚に出てから次第に快方に向い、後頭部に重みを感ずる位となり、その後異状も無く過しましたが、三年前より右手が震うようになり、藤井式鍼療法、灸等を行いましたが効果もなく、昨年六月、市内に光の道教会のあるを聞き、二十四日教会本部を訪れ御浄霊を頂き、七月入信、十二月には光明如来様を平本先生にお祭り込みして頂き、今年一月には千手観音様をお迎えさせて頂き、家族も皆入信させて頂いております。<br><br>六月以来毎日のごとく本部にお詣りさせて頂き、御浄霊を受け、最近後頭部は軽くなったように思いますが、全身、特に右半身の震えは次第にひどくなって参ります。<br><br>これはいかなる因縁でございましょうか。<br><br> 治るための浄化である。<br><br>浄化にも固まるのと溶けるのとある。<br><br>固まるのを通り越すとよくなる。<br><br>（S25. 5. 3） 044 頭脳被覆感 今年三十歳の女、女学生時代より神経衰弱になり、頭の上がかぶさったように思え、ものの判断力がつきません。<br><br>電機ショック、インシュリン注射等、治療後二、三時間気絶状態になるようなことを百日やり、三年半前より御浄霊をいただき、お軸、御屏風もまつらせていただき、御面会も出来るかぎり参り、御光をいただいております。<br><br>祖母が精神病で亡くなっております。<br><br>今後なおお縋り致しますにつけ、どのような努力を致したらよいか、大先生様の御指導のお言葉をいただきたいと思います。<br><br> これは薬毒が頭へ固まっているから 根気よく浄霊をするとよい。<br><br>相当年限がかかる。<br><br>気の持ち方は関係ない。<br><br>私なども歯へ一年以上薬を用いたから、長時間話をしていると前頭部が抑えつけられるような感じがした。<br><br>これが薬毒の発見となった。<br><br> 045 よろけ病（鉱山）、（眩暈の原因） よろけ病についてお伺い申し上げます。<br><br> 先年頃より鉱山等において坑内夫達がよろけ病にかかり苦しんでおります事を新聞や外の事にて聞きました。<br><br>この病気をよく見ますと、坑内に入って働いております時は立派に重労働に耐えられるのですが、一度表へ出て日光の光線を受けるや忽ちにして身体に異常をきたし、立っている事も出来ず、よろよろしながら歩いているそうで御座います。<br><br>医学では絶対に治らないとされているそうですが、浄霊にて全治致しますでしょうか。<br><br> 治る。<br><br>日光に当ると頭が充血する。<br><br>それで眩暈するので、前頭部を熱すると眩暈する。<br><br>また右延髄に毒が固結しても眩暈する。<br><br>日光の直射で前頭部の浄化が起る。<br><br>その元は延髄である。<br><br>故に毒血の充血か圧迫による貧血である。<br><br>塊があるから浄霊する。<br><br>（S24. 2.15） 046 頭大人大の嬰児（脳水腫） 生後六ケ月になる男の子、二ケ月程前、少々熱が出ましたので薬を飲ませておりましたら、約半月程前から頭が日に日に大きくなり、ただ今では大人程になりました。<br><br>体的で御座いましょうか、または霊的で御座いましょうか。<br><br>母親は十一月に入信しております。<br><br> 後天的であるから頭をやればよい。<br><br>脳水腫とかいう。<br><br>治り易い。<br><br>（S24.11.26） 047 脳膜炎手術 二歳の男児ですが、一年程以前脳膜炎のような状態となり、医者にて後頭部手術をなし、脳膜炎の方は治りましたが、目が少しも見えません。<br><br>御浄霊にて治りましょうか。<br><br>御教示下さいませ。<br><br> 脳膜炎は前頭部である。<br><br> 手術によって筋を切ったとすれば請合えぬ。<br><br>出血は薬毒の固まらぬ場合（ある。<br><br>）（S24.10. 8） 048 精神病手術と稲荷 二十七歳の女、二年前より精神病となり本年五月手術、頭蓋骨を開き、脳の悪い所を除去、以後二、三ケ月は経過が良かったそうですが、現在ではまた元の通りになりました。<br><br>浄霊を始めてからは良く眠れるようになりましたが、その他は何等変化はありません。<br><br>この家では三代前より稲荷様を祭っています。<br><br>何か関係がありましょうか。<br><br> 手術除去など、歯糞の掃除と同じ事である。<br><br>稲荷の関係があるから、月に一ぺん光明如来様のお祭りする時にお祭りしてやるとよい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Encefalite</h2>
 <p><strong>026 Características da Meningite, o Johrei e o Resfriamento com Gelo</strong></p>
@@ -167,5 +319,48 @@ function toggleLang(lang) {
 <p><strong>048 Cirurgia para Doença Mental e o Espírito da Raposa</strong></p>
 <p>Uma mulher de vinte e sete anos desenvolveu uma doença mental há dois anos. Em maio deste ano, foi submetida a uma cirurgia na qual abriram seu crânio para remover a parte doente do cérebro. A evolução foi boa por dois ou três meses, mas atualmente ela voltou ao estado original. Desde que começou a receber Johrei, ela passou a dormir melhor, mas não há outras mudanças. A família cultua um espírito da raposa há três gerações. Haveria alguma relação?</p>
 <p>Remover algo por cirurgia é como limpar o tártaro dos dentes. Há relação com o espírito da raposa. Uma vez por mês, quando realizarem o culto a Komyô Nyorai, devem cultuá-lo também.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（一） ２ 026-048 脳炎 026 脳膜炎の特徴と浄霊、氷冷 すっかり治る。<br/><br/>脳膜炎は前頭部が熱いのと、割れる程痛いので判る。<br/><br/>今一つ非常に眩しく、目が開かぬ。<br/><br/>氷で冷すと神経が動かなくなる。<br/><br/>働かなくなる。<br/><br/>頭中の毒を固める。<br/><br/>（後不随になる） 前頸部の中を一番よくやる。<br/><br/> 脳膜炎の後は頭がよくなる。<br/><br/> 固めたために眼が見えぬ。<br/><br/>（S23. 8. 7） 027 脳膜炎より唖 五歳の女児、唖者で御座います。<br/><br/>生後五ケ月で脳膜炎にかかり、注射と氷枕で治療を致しました。<br/><br/>記憶力もあり、利口そうに見え、五音ぐらいの音を発しますが、舌がつれるようです。<br/><br/>浄霊五回目で耳から汁が出るようになり、後頭部も初めは冷たくなっておりましたが、ただ今は少々熱があるようになりました。<br/><br/>これは霊的でしょうか、体的の病で御座いましょうか。<br/><br/> 体的である。<br/><br/>脳膜炎を固めたものである。<br/><br/>治る。<br/><br/>気長に浄霊する。<br/><br/>耳からの排液は非常によい。<br/><br/>冷すのは、氷の温度は零度または零度以下である。<br/><br/>（S23） 028 秀才と脳炎 急性脳膜炎に罹る人は秀才が多いように思われますが、いかなる理由で御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 頭を使うから毒が寄ってくる。<br/><br/>（S24. 6. 8） 029 脳脊髄の特徴 私は四十四歳の女ですが、三歳の時に脳膜炎を、また十九歳の時脳脊髄を患い、その時には頭を上下にするにも困難な位でした。<br/><br/>医者は死ぬか片輪になると申しましたが、お灸で治りました。<br/><br/>次に三十一歳の時脳脊髄が再発し、それからは頭がいつも痛いような、重たいような具合でしたが、昨年の三月二十八日より中本教導所の先生に浄霊をして頂いております。<br/><br/>御蔭様で大分よくなりましたが未だ頭が重たくて、背から首にかけて張ったような気持です。<br/><br/>どこを主に浄霊したらよいのでしょうか。<br/><br/> 脳脊髄の特徴は、延髄が張り、首が曲らない。<br/><br/>これが溶けて頭へ入るのが日本脳炎。<br/><br/>（S24. 2.16） 030 脊髄脳炎 私の三男、三年前四歳の時脊髄脳膜炎を患い、耳が全然聞こえなくなり、半年前より入信致し、毎日御浄霊致しておりますが、現在のところ変化が御座居ません。<br/><br/>今年四月より学会により盲学校に入学させねばなりませんが、このまま御浄霊を続けて御浄化を戴く迄待った方がよろしいでしょうか。<br/><br/>また、入学させると寮生活のため御浄霊が困難になります。<br/><br/>いかが致したら宜しいでしょうか。<br/><br/> 脊髄脳炎は後頭部へ来て固まる。<br/><br/>きっと治る。<br/><br/>耳朶の後ろの凹所へよく固まる。<br/><br/>よく運動さすとよい。<br/><br/>時々やればよい。<br/><br/>それで治る。<br/><br/>（S25. 1.16） 031 脊髄脳炎と日本脳炎、背毒について 日本脳炎はいかなる浄化でしょうか。<br/><br/>また、これに対する浄霊上の注意―― 昔の眠り病――即ち、嗜眠性脳炎であるが、進駐軍が日本脳炎と名付けた。<br/><br/>静岡にあるお灸はすべて背中へ据えるが、人間の背中は一番毒が多い。<br/><br/>少くとも前の五倍以上で、いかなる病気も背中を浄霊すればよい。<br/><br/>仮に胃病にしても、背中の両側をやらなくては決してよくならぬ。<br/><br/>これさえ心得ておけば、どんなに痛い腹でも治る。<br/><br/>これは根本的に治る。<br/><br/>何となれば、人間は背中を下にして寝るために服んだ薬が背中に行って溜る。<br/><br/>痛みは全部薬であるからであるし、痛みは全部自分で作ったものである。<br/><br/> 日本脳炎の特徴は、延髄部が棒のようになり、かがめない。<br/><br/>治ると身体は軽くなり、頭がよくなる。<br/><br/>医療では氷で冷すから固まる。<br/><br/>そのために脳膜炎の痕のようなものが残る。<br/><br/>であるから生命の危険は少しもない。<br/><br/>夏だけに多く、北海道には少い。<br/><br/>これは日が弱いからである。<br/><br/>日本脳炎の予防は日向（ひなた）に長くいない事、日光に照らされる時は帽子をかぶる事である。<br/><br/>冬起る事があるが、それは頭へ入らず脊髄脳炎で止る。<br/><br/>日が弱いからで、これは日本脳炎よりは日数が掛る。<br/><br/>一週間ないし二週間である。<br/><br/>全部首が硬直して、動くまで日数がかかる。<br/><br/> 032 日本脳炎の死因と脊髄脳炎 日本脳炎について―― 日本脳炎は眠っているから食物を全然食わない。<br/><br/>物を食わず熱が高いから衰弱して死ぬのである。<br/><br/>秋に発病するのは、日射が弱いから毒膿が日本脳炎の個所まで昇らず、脊髄の個所で止まる。<br/><br/>これが脊髄脳炎である。<br/><br/>（S23） 033 日本脳炎 今大分流行しております日本脳炎の原因はいかなるものでしょうか。<br/><br/> 日向へ出て頭へ日が当ると身体にある毒素が脊髄を通って頭へ上る。<br/><br/>それで子供に多い。<br/><br/>脊髄脳炎は延髄へ集まる。<br/><br/>本当はそうして毒を出した方がよい。<br/><br/>小脳へ入ると眠くなる。<br/><br/>肩頸の毒が多い。<br/><br/>血膿が眼鼻等から出る。<br/><br/>次から次へ昇るから、根よく三十分位間をおいては日に十回位する。<br/><br/> 馬は非常に日に弱い。<br/><br/>それでゴザなどかぶせる。<br/><br/>（S23. 8. 8） rattail（注） 〔 御光話（S23年 8月 8日） 『御光話録』発行年月日不明、推定昭和26年〕に掲載 034 日本脳炎の予防 日本脳炎について御伺い致します。<br/><br/>また医学にては蚊の媒介と云いますが、蚊の少い都会に多く、蚊の多い農村に殆どありませんが、この浄化についてお伺い致します。<br/><br/> 蚊の媒介ではない。<br/><br/>脳炎の予防は帽子を被るのが一番いい。<br/><br/>また、北海道には脳炎がないのも寒冷地であるからである。<br/><br/> 濾過性というのは、空財布の事を無銭性財布というようなものである。<br/><br/>（S23. 8.12） rattail（注） 濾過性＝濾過性黴菌、ウィルスのこと。<br/><br/> 035 日本脳炎の治癒 日本脳炎の「御浄め」の個所をお尋ね致します。<br/><br/> 背中の毒が暑さの刺戟で上昇し、延髄へ膿が固まる。<br/><br/>何でも刺戟すれば、そこへ膿が集まるもので、お灸と同じ原理である。<br/><br/>そのために延髄部は棒のように固くなる。<br/><br/>浄霊をすると溶けて柔かくなる。<br/><br/>三十分か一時間おきにやれば段々寄るのが少なくなる。<br/><br/>すると鼻孔から血膿が出て治る。<br/><br/>ひどいのは眼からも出る。<br/><br/>実に簡単に治るんで、死ぬなどという事は絶対にない。<br/><br/>「元気な子に多い」と医学で言うが、元気な子ほど外へ出るし浄化力も強い。<br/><br/> 濾過性黴菌というが、これは空財布を無銭性財布というようなものである。<br/><br/> 無熱性肺炎は霊が憑っている。<br/><br/>（S23. 8.12） 036 日本脳炎より黒内障 一昨年九月、日本脳炎にかかり、医療により恢復し、昨年十一月頃より黒内障になりました二十九歳の婦人、約一ケ月前より浄霊を始めましたが、腹部がやや大きくなり、下痢を一回やりましたが、目の方は変化ありません。<br/><br/>浄霊の要点と治癒の見込みの有無を御伺い申し上げます。<br/><br/> 医学で固めたものがとけて眼へ出て来た。<br/><br/>治るには治る。<br/><br/>（S25. 5.15） 037 不眠症 信者の人、二ケ月余り夜眠られず、教導所にてお浄めが入りますと、昼一時間位は眠れますが、自家では眠れず、その割にさほど疲れずいますが、霊的の病でしょうか。<br/><br/>その家では御祝詞をあげますと声が出なくなります。<br/><br/> 眠れぬのは霊的体的両方の原因があるが、これは体的原因である。<br/><br/>右の延髄に塊があり、頭へ行く血管を抑えられる。<br/><br/>そのためである。<br/><br/>頭の血液の少ない場合起るのであって、霊的でもこれをやれば治る。<br/><br/> 038 重症患者は延髄（右延髄） 重症患者の場合、よく右の延髄をするようにと云うお言葉を頂きますが、どういう訳で御座いましょうか。<br/><br/> 言った筈はない。<br/><br/>右延髄は脳貧血か何かである。<br/><br/>（S24. 9.13） 039 拝礼時の落盤感（脳貧血） 御神体を拝んだ瞬間畳が一丈も下に落ちたような気がして、頭を上げた瞬間また元に戻ったような気がしたと云う信者があります。<br/><br/>この現象を霊的事象より見る時、いかに説明すべきでこざいましょうか。<br/><br/>御教示お願い申し上げます。<br/><br/> 一種の軽い脳貧血で、病的現象である。<br/><br/>延髄に毒がある。<br/><br/>（S23.11. 8） 040 祝詞で頭痛 満十八歳の女子、昨年七月十九日より御浄化（状態は高熱、発汗、頭痛、脈八十内外）にて約四ケ月寝みましたが、御守護を頂き、お蔭様にて以前より丈夫になりましたが、不思議な事にその間「祝詞」「善言讃詞」「御讃歌」を奏げさせて頂きますと頭痛がして参ります。<br/><br/>そのうちにいつとはなしに良くさせて戴きましたが、今年の一月十一日からまた御浄化が前と同じ状態となり、腹痛も致します。<br/><br/>右は単なる毒素の御浄化でございますのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 毒素の浄化である。<br/><br/>もう一ぺんやると大体治る。<br/><br/>（S25. 2. 8） 041 脳梅毒 北海道の林久子（三十七歳）と言う信者、昭和十九年二月八日午前三時頃床の中で涎が出て口がきけなくなり、足は痛み一週間位寝たままで、発病以来六ケ年医療を受け、サルバルサン注射を四十本位致しましたが依然病気は良くなりません。<br/><br/>但し精神には異状ありません。<br/><br/>札幌医大で膿軟性と診断されましたそうですが、昭和二十四年七月十四日入信以来毎日のように御浄霊を戴いたら、ただ今では少し口をきけるようになりましたが、涎はよく出ます。<br/><br/>この場合、主としてどこを御浄霊させて戴いたら宜しゅう御座いましょうか。<br/><br/>また、何か霊的のものが御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 脳梅毒と診断したものである。<br/><br/>涎が出るだけは治ってゆく。<br/><br/>前頭部を主とし首周り、背中等する。<br/><br/>治る。<br/><br/>（S25. 2.28） 042 全身黒痣生ず、脳梅毒、（六○六号注射） 我満（がまん）静子（十九歳）、昨年秋より浄霊を続けておりますが、本年五月末右腕に大豆程の黒痣が三つ表われ、六月三十日私が浄霊させて戴いた翌日、顔、手足を除き身体一面に大きいのは二寸四方、小さいのは大豆程のが無数に出て来ました。<br/><br/>いかなる理由でしょうか。<br/><br/>因みに同人の祖父、伯父は脳梅毒で死亡、父も現在同病に罹っております。<br/><br/>いかなる因縁でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 毒血で、浄霊したため身体中にあった毒血が出た。<br/><br/>いずれは出るべきものが出たので結構である。<br/><br/>治る。<br/><br/> 脳梅毒は一代限りで、二代続く事はない。<br/><br/>治りいい。<br/><br/>梅毒とすれば結構で、早く治る。<br/><br/>弱毒である。<br/><br/>梅毒を治そうとする薬、その方が大きいし、強い。<br/><br/>精神病になるのは殆ど六○六号のためである。<br/><br/>（S24. 7. 8） 043 脳神経衰弱、半身震う 私は約二十年前脳神経衰弱にかかり医薬、灸、温泉等にて治病に努めましたけれども、効無く、尺八行脚に出てから次第に快方に向い、後頭部に重みを感ずる位となり、その後異状も無く過しましたが、三年前より右手が震うようになり、藤井式鍼療法、灸等を行いましたが効果もなく、昨年六月、市内に光の道教会のあるを聞き、二十四日教会本部を訪れ御浄霊を頂き、七月入信、十二月には光明如来様を平本先生にお祭り込みして頂き、今年一月には千手観音様をお迎えさせて頂き、家族も皆入信させて頂いております。<br/><br/>六月以来毎日のごとく本部にお詣りさせて頂き、御浄霊を受け、最近後頭部は軽くなったように思いますが、全身、特に右半身の震えは次第にひどくなって参ります。<br/><br/>これはいかなる因縁でございましょうか。<br/><br/> 治るための浄化である。<br/><br/>浄化にも固まるのと溶けるのとある。<br/><br/>固まるのを通り越すとよくなる。<br/><br/>（S25. 5. 3） 044 頭脳被覆感 今年三十歳の女、女学生時代より神経衰弱になり、頭の上がかぶさったように思え、ものの判断力がつきません。<br/><br/>電機ショック、インシュリン注射等、治療後二、三時間気絶状態になるようなことを百日やり、三年半前より御浄霊をいただき、お軸、御屏風もまつらせていただき、御面会も出来るかぎり参り、御光をいただいております。<br/><br/>祖母が精神病で亡くなっております。<br/><br/>今後なおお縋り致しますにつけ、どのような努力を致したらよいか、大先生様の御指導のお言葉をいただきたいと思います。<br/><br/> これは薬毒が頭へ固まっているから 根気よく浄霊をするとよい。<br/><br/>相当年限がかかる。<br/><br/>気の持ち方は関係ない。<br/><br/>私なども歯へ一年以上薬を用いたから、長時間話をしていると前頭部が抑えつけられるような感じがした。<br/><br/>これが薬毒の発見となった。<br/><br/> 045 よろけ病（鉱山）、（眩暈の原因） よろけ病についてお伺い申し上げます。<br/><br/> 先年頃より鉱山等において坑内夫達がよろけ病にかかり苦しんでおります事を新聞や外の事にて聞きました。<br/><br/>この病気をよく見ますと、坑内に入って働いております時は立派に重労働に耐えられるのですが、一度表へ出て日光の光線を受けるや忽ちにして身体に異常をきたし、立っている事も出来ず、よろよろしながら歩いているそうで御座います。<br/><br/>医学では絶対に治らないとされているそうですが、浄霊にて全治致しますでしょうか。<br/><br/> 治る。<br/><br/>日光に当ると頭が充血する。<br/><br/>それで眩暈するので、前頭部を熱すると眩暈する。<br/><br/>また右延髄に毒が固結しても眩暈する。<br/><br/>日光の直射で前頭部の浄化が起る。<br/><br/>その元は延髄である。<br/><br/>故に毒血の充血か圧迫による貧血である。<br/><br/>塊があるから浄霊する。<br/><br/>（S24. 2.15） 046 頭大人大の嬰児（脳水腫） 生後六ケ月になる男の子、二ケ月程前、少々熱が出ましたので薬を飲ませておりましたら、約半月程前から頭が日に日に大きくなり、ただ今では大人程になりました。<br/><br/>体的で御座いましょうか、または霊的で御座いましょうか。<br/><br/>母親は十一月に入信しております。<br/><br/> 後天的であるから頭をやればよい。<br/><br/>脳水腫とかいう。<br/><br/>治り易い。<br/><br/>（S24.11.26） 047 脳膜炎手術 二歳の男児ですが、一年程以前脳膜炎のような状態となり、医者にて後頭部手術をなし、脳膜炎の方は治りましたが、目が少しも見えません。<br/><br/>御浄霊にて治りましょうか。<br/><br/>御教示下さいませ。<br/><br/> 脳膜炎は前頭部である。<br/><br/> 手術によって筋を切ったとすれば請合えぬ。<br/><br/>出血は薬毒の固まらぬ場合（ある。<br/><br/>）（S24.10. 8） 048 精神病手術と稲荷 二十七歳の女、二年前より精神病となり本年五月手術、頭蓋骨を開き、脳の悪い所を除去、以後二、三ケ月は経過が良かったそうですが、現在ではまた元の通りになりました。<br/><br/>浄霊を始めてからは良く眠れるようになりましたが、その他は何等変化はありません。<br/><br/>この家では三代前より稲荷様を祭っています。<br/><br/>何か関係がありましょうか。<br/><br/> 手術除去など、歯糞の掃除と同じ事である。<br/><br/>稲荷の関係があるから、月に一ぺん光明如来様のお祭りする時にお祭りしてやるとよい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kise019</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 ２ 019-026 御浄霊 019 御光はっきり見ゆ 最近資格者、信者の別を問わず誰が御浄霊致しても「お光」がはっきり見えるようになりました。<br><br>今迄はごく僅かの人にしか「お光」が拝見出来ませんでしたのに、最近のこのような状態はいかなる原因によるもので御座いましょうか。<br><br>何卒御教示をお願い申し上げます。<br><br> 霊界の火素が強くなるからである。<br><br>（S24. 1.28） 020 浄霊中御姿の色変化す 信者の家において主人が夜二時半頃妻女に御浄霊を受けている最中、御屏風観音様の御姿の色が初め赤で次に黄色となり、また次は黒っぽい紫色となりました。<br><br>いかなる訳で御座いましょうか。<br><br>なお、当主人は現在ひどい喘息で病んでおります。<br><br> 観音様の霊がうつった。<br><br> 病気に対し御守護の必要上そういうお働きをされた。<br><br> 観音様の化身は沢山ある。<br><br>そして必要の場合、そういう働きをされる。<br><br>（が生れる）（S24.11.28） 021 死時鶴迎へに来る 浄霊をうけて死亡した信者の最後の言葉に、鶴が沢山遊んでいて、その鶴が迎えているからそこへ参りますと言って息を引取りました。<br><br>いかなるところへ行ったのでしょうか。<br><br>また霊は救われていましょうか。<br><br>御伺い申し上げます。<br><br> 天国へ行ったのである。<br><br>天国から鶴が迎えに来た。<br><br>浄霊のために、霊が向上したのである。<br><br>（S24.12.25） 022 霊の争闘子の病に表わる 去る三十日、二女裕子が背中が痛むとの事で、光明如来様御神前で御浄霊中悪感を覚え、ふるえ出しましたので天津祝詞を唱えました。<br><br>その時傍にいた長男達也が見た所によりますと、金色と赤色の経一寸五分位の玉が二個頭上より飛び上り、天井で暫くもつれ合っていたがまた下降し、頭中に入りました。<br><br>間もなく合掌した手がふくらみ、掌中より金色と白色の二個の玉が飛び出し天井で消えましたところ、寒さが益々ひどくなり、大きくがたがた震えるので、次の間の仏壇の炬燵に入れて御浄霊を続け、天津祝詞三回、善言讃詞一回唱え、御讃歌「大慈大悲」を唱えさせて頂きましたら先祖代々の位牌より白い玉が出て裕子の頭の中に入り、続いて長女の位牌よりまた白い玉が飛び出して頭の中に入りましたので、まだ何か出るかと思っていましたら、千手観音様の頭上にある御尊体が浮んで離れ、薄い金色の図形になられ、静かに進んでまた頭の中に入られてすぐまた頭より出られ、仏壇の先手観音様の前に着かれたと思ったら観音様の体より金色の光が出て御屏風より静かに離れられ、裕子の頭の上に進ませられ後より頭上の尊体が従って進まれました。<br><br>そして裕子の頭上にちょっとお止まりになって、静かに頭の中に入られました。<br><br>続いて頭上の御尊体もお入りになったら裕子の寒さが止み、背中の痛みが止まりました。<br><br> 翌三十一日の朝、裕子がまた次のごとき現象を見ました。<br><br>仏間へ障子を突き破って十個ばかりの白と黄の玉が入り、部屋中を飛び廻り、仏壇に入り次に反対側の障子を破って外へ出ました。<br><br>後で見たらどちらの障子にも十ケ所程箸で突いた程の穴が入ったり出たりした方向に向ってあいていました。<br><br>この現象は一体何を意味するもので御座いましょうか。<br><br> ない事はないが珍しい。<br><br>霊が物質の行動をした。<br><br>霊界でいろんな事があった。<br><br>子供を病気にして害せんとするのを助けようとするのとの闘争である。<br><br>（S25. 2. 3） 023 額より白衣姿出づ 光明如来と御屏風をお祭りしたその翌日、信徒が御浄霊を受けている折、額より抜け出た霊あり。<br><br>白衣の姿と覚ゆ。<br><br>また、その翌日同様にして牛三頭目に映ず。<br><br>これは祖霊でしょうか。<br><br> 白衣―これは祖霊である。<br><br>牛は祖霊とは限らぬ。<br><br>ただその人とかあるいは祖先に関係はあるものに違いない。<br><br>（その仲間であろう） 光を放射されるようなもので、苦しくて出るのと、安心して出る場合がある。<br><br>それで子孫を思って憑いており、光明如来様を祭ると子孫が栄える見極めがついた安心で出たのであろう。<br><br>（S24.10.23） 024 二病児より黒白雲状のもの出づ 相当ひどい痙攣を伴う百日咳の二人の子供を御浄霊すると、いずれも右肩辺りから白色と黒色の雲状様のものが尾を引くように出て行くのを見ましたが、白色であった子供は一度の御浄霊で治り、黒色であった子供は益々痙攣が多くなり、激化するように思われましたが、この雲状様のものは、御浄化及び治癒と何か霊的に関係ありましょうか。<br><br> 白色は良い霊、黒いのは悪い霊である。<br><br> 黒いのが出る所をみると、そこにいたものである。<br><br>これは治りが悪い――浄化激発する故。<br><br>治るには治る。<br><br>体に曇りがあり、その曇り相応の霊が憑いていた訳である。<br><br> 025 煙のごとく人霊脱出（動物霊の脱出個所） 先日父親（七十一歳）を御浄霊致しておりますと、突然全身に震えが来て身体が動かなくなりました。<br><br>驚いて一生懸命御浄霊を続けておりますと、額の辺りから煙のようなものが出たかと思うと暫くして旧に戻りました。<br><br>その後何事もありませんが、いかなる理由でありましょうか。<br><br> 人霊である。<br><br>救われて出たのである。<br><br>動物霊は大抵手の指から出る。<br><br>（S24.11.27） 026 浄霊中臍より白線出ず 浦和集会所の小山教導師が大浄化を戴いている時のことで御座います。<br><br>私が御浄霊をさせて戴いている時、臍の所より約一尺位の白線が七、八本ハッキリ出て上りましたのを見ましたので、アーッもう死ぬのかなと思っておりました所、その後二ケ月の間にだんだん軽くなり、今日では元気に近所の御布教位出来るようにして戴いておりますが、私の見たその白線は何か霊的意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 白蛇の霊が憑いていたのであろう。<br><br>よく火事で、蛇も一緒に焼死する事がある。<br><br>（S25. 1.12）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Milagres e Fenômenos (Volume 2)</h2>
 <h3>Johrei</h3>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p><strong>026 Durante o Johrei, linhas brancas emergem do umbigo</strong></p>
 <p><em>Pergunta:</em> O fato que passo a relatar ocorreu quando o Ministro Koyama, da Casa de Oração de Urawa, passava por uma grande purificação. Enquanto eu lhe ministrava Johrei, vi nitidamente sete ou oito linhas brancas, com cerca de trinta centímetros de comprimento, emergirem de seu umbigo e se elevarem. Naquele momento, pensei que ele estivesse prestes a falecer. Contudo, nos dois meses que se seguiram, seu estado melhorou gradualmente e, hoje, ele se encontra recuperado a ponto de poder se dedicar à difusão na vizinhança. As linhas brancas que vi possuem algum significado espiritual? Rogo que me esclareça.</p>
 <p><em>Meishu-Sama:</em> Provavelmente, tratava-se do espírito de uma serpente branca que estava encostado nele. É comum que, em incêndios, serpentes também pereçam carbonizadas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 ２ 019-026 御浄霊 019 御光はっきり見ゆ 最近資格者、信者の別を問わず誰が御浄霊致しても「お光」がはっきり見えるようになりました。<br/><br/>今迄はごく僅かの人にしか「お光」が拝見出来ませんでしたのに、最近のこのような状態はいかなる原因によるもので御座いましょうか。<br/><br/>何卒御教示をお願い申し上げます。<br/><br/> 霊界の火素が強くなるからである。<br/><br/>（S24. 1.28） 020 浄霊中御姿の色変化す 信者の家において主人が夜二時半頃妻女に御浄霊を受けている最中、御屏風観音様の御姿の色が初め赤で次に黄色となり、また次は黒っぽい紫色となりました。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>なお、当主人は現在ひどい喘息で病んでおります。<br/><br/> 観音様の霊がうつった。<br/><br/> 病気に対し御守護の必要上そういうお働きをされた。<br/><br/> 観音様の化身は沢山ある。<br/><br/>そして必要の場合、そういう働きをされる。<br/><br/>（が生れる）（S24.11.28） 021 死時鶴迎へに来る 浄霊をうけて死亡した信者の最後の言葉に、鶴が沢山遊んでいて、その鶴が迎えているからそこへ参りますと言って息を引取りました。<br/><br/>いかなるところへ行ったのでしょうか。<br/><br/>また霊は救われていましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 天国へ行ったのである。<br/><br/>天国から鶴が迎えに来た。<br/><br/>浄霊のために、霊が向上したのである。<br/><br/>（S24.12.25） 022 霊の争闘子の病に表わる 去る三十日、二女裕子が背中が痛むとの事で、光明如来様御神前で御浄霊中悪感を覚え、ふるえ出しましたので天津祝詞を唱えました。<br/><br/>その時傍にいた長男達也が見た所によりますと、金色と赤色の経一寸五分位の玉が二個頭上より飛び上り、天井で暫くもつれ合っていたがまた下降し、頭中に入りました。<br/><br/>間もなく合掌した手がふくらみ、掌中より金色と白色の二個の玉が飛び出し天井で消えましたところ、寒さが益々ひどくなり、大きくがたがた震えるので、次の間の仏壇の炬燵に入れて御浄霊を続け、天津祝詞三回、善言讃詞一回唱え、御讃歌「大慈大悲」を唱えさせて頂きましたら先祖代々の位牌より白い玉が出て裕子の頭の中に入り、続いて長女の位牌よりまた白い玉が飛び出して頭の中に入りましたので、まだ何か出るかと思っていましたら、千手観音様の頭上にある御尊体が浮んで離れ、薄い金色の図形になられ、静かに進んでまた頭の中に入られてすぐまた頭より出られ、仏壇の先手観音様の前に着かれたと思ったら観音様の体より金色の光が出て御屏風より静かに離れられ、裕子の頭の上に進ませられ後より頭上の尊体が従って進まれました。<br/><br/>そして裕子の頭上にちょっとお止まりになって、静かに頭の中に入られました。<br/><br/>続いて頭上の御尊体もお入りになったら裕子の寒さが止み、背中の痛みが止まりました。<br/><br/> 翌三十一日の朝、裕子がまた次のごとき現象を見ました。<br/><br/>仏間へ障子を突き破って十個ばかりの白と黄の玉が入り、部屋中を飛び廻り、仏壇に入り次に反対側の障子を破って外へ出ました。<br/><br/>後で見たらどちらの障子にも十ケ所程箸で突いた程の穴が入ったり出たりした方向に向ってあいていました。<br/><br/>この現象は一体何を意味するもので御座いましょうか。<br/><br/> ない事はないが珍しい。<br/><br/>霊が物質の行動をした。<br/><br/>霊界でいろんな事があった。<br/><br/>子供を病気にして害せんとするのを助けようとするのとの闘争である。<br/><br/>（S25. 2. 3） 023 額より白衣姿出づ 光明如来と御屏風をお祭りしたその翌日、信徒が御浄霊を受けている折、額より抜け出た霊あり。<br/><br/>白衣の姿と覚ゆ。<br/><br/>また、その翌日同様にして牛三頭目に映ず。<br/><br/>これは祖霊でしょうか。<br/><br/> 白衣―これは祖霊である。<br/><br/>牛は祖霊とは限らぬ。<br/><br/>ただその人とかあるいは祖先に関係はあるものに違いない。<br/><br/>（その仲間であろう） 光を放射されるようなもので、苦しくて出るのと、安心して出る場合がある。<br/><br/>それで子孫を思って憑いており、光明如来様を祭ると子孫が栄える見極めがついた安心で出たのであろう。<br/><br/>（S24.10.23） 024 二病児より黒白雲状のもの出づ 相当ひどい痙攣を伴う百日咳の二人の子供を御浄霊すると、いずれも右肩辺りから白色と黒色の雲状様のものが尾を引くように出て行くのを見ましたが、白色であった子供は一度の御浄霊で治り、黒色であった子供は益々痙攣が多くなり、激化するように思われましたが、この雲状様のものは、御浄化及び治癒と何か霊的に関係ありましょうか。<br/><br/> 白色は良い霊、黒いのは悪い霊である。<br/><br/> 黒いのが出る所をみると、そこにいたものである。<br/><br/>これは治りが悪い――浄化激発する故。<br/><br/>治るには治る。<br/><br/>体に曇りがあり、その曇り相応の霊が憑いていた訳である。<br/><br/> 025 煙のごとく人霊脱出（動物霊の脱出個所） 先日父親（七十一歳）を御浄霊致しておりますと、突然全身に震えが来て身体が動かなくなりました。<br/><br/>驚いて一生懸命御浄霊を続けておりますと、額の辺りから煙のようなものが出たかと思うと暫くして旧に戻りました。<br/><br/>その後何事もありませんが、いかなる理由でありましょうか。<br/><br/> 人霊である。<br/><br/>救われて出たのである。<br/><br/>動物霊は大抵手の指から出る。<br/><br/>（S24.11.27） 026 浄霊中臍より白線出ず 浦和集会所の小山教導師が大浄化を戴いている時のことで御座います。<br/><br/>私が御浄霊をさせて戴いている時、臍の所より約一尺位の白線が七、八本ハッキリ出て上りましたのを見ましたので、アーッもう死ぬのかなと思っておりました所、その後二ケ月の間にだんだん軽くなり、今日では元気に近所の御布教位出来るようにして戴いておりますが、私の見たその白線は何か霊的意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 白蛇の霊が憑いていたのであろう。<br/><br/>よく火事で、蛇も一緒に焼死する事がある。<br/><br/>（S25. 1.12）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

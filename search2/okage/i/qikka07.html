@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qikka07</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 一家断絶寸前の境地より救われし喜び 『栄光』133号、昭和26(1951)年12月5日発行 北海道 旭光中教会 椛本登志ゑ（26） 拙き文筆に託しまして今日この天国の世界に救って戴きました喜びを御報告させて戴きます。<br><br>私達は農家にて、明けても暮れても明るい生活を致しておりましたが、可愛いい妹が胃腸病を致し二歳にてこの世を去りました。<br><br>妹が亡くなってからも幸福な日々を過しておりましたが昭和四年九月光子三女が二歳にして又もこの世から去って行き、一家悲しい一週間を過ごし、妹の事もどうやら思いが消えたのも束の間、次は長男喜作がカン虫にて同年十月二日に死亡致しました。<br><br>両親もどうして次から次へと我が子が死んで行くのだろうと心配致し、一時は仕事も手につかず、毎日何も致す事なく日々を暗い思いで送っておりました。<br><br>一年に二度葬式を出すそれも二カ月間に二人死す家も珍しい事でしょう。<br><br>そうこうしている間に一年は過ぎ去り、昭和六年になり正月も無事に過し、二月を迎えましたところ、次に稚子が病魔に取つかれ、二十一日を最期とし又々世を去って行きました。<br><br>両親は我が子のいたましさに身をさかれる思いにて、昼間は仕事に追われておりますが、夜ともなれば仏の前に座し泣を流す。<br><br>それが日課のごとくくり返されました。<br><br>それ迄は虻田郡の京極におりましたがある人に見てもらいましたら家が悪いとの事、早速私達は十勝の現在の所へ移り変りました。<br><br>あまり心配と無理を致したせいか、母親が腹膜病にて床につく身となりました。<br><br>父親もこうなれば必死になり、医者よ薬よと到る所へと通わせましたが一向に治らず、神におすがりする身となり、天理教に母親が昭和七年に入信致す事となり、神の御守護にて母親も無事全治致しました。<br><br> 天理教に入信させて戴いてこの方迄は無事に明るき生活が出来るようになりました。<br><br> 月日の流れるのは矢のごとくとやら、昭和二十三年に入り楽しい正月を迎えました。<br><br> 至って母親は身体弱いので農業もあまりせず天理教教会にいつも通い、お詣りさせて戴いておりましたが、ついに今度は母親が同年五月坐骨神経痛にて死亡致し天理教にて御葬式をして戴き、それからは父、私二人の生活となり、一生懸命神におすがり致していました。<br><br>母親が亡くなってから一週間目に今度私が脳膜炎の状態となり、早速医者に行き手あてをして戴きました。<br><br>御蔭をもって脳膜炎も無事に良くなりましたが心臓、痔、脚気と次から次へと病み、私もこれでこの世とお別れ致さなければならない身となり、毎月の十五日より二十五日の十日間はきまって頭痛が致し、病のどん底におとされて毎日父にお世話になり、天井とにらめっこを致しているのが日々の仕事でした。<br><br>父は仕事も出来ず今日はこの医者へ、昨日はあの医者へ、明日は祈祷屋へと毎日四里の道を我が子可愛いさの為に通って下さいましたが、一向に私の体は良くなりませんでした。<br><br>私も九分九厘あきらめておりました。<br><br>それからが私達一家に光明が差込んで来たのです。<br><br> 忘れも致しません、昭和二十六年一月十三日、豊頃より来られた助川先生が、私が床についているのを見て神のお話をされ、又神の力にて病を治して戴ける事もお話し下さいましたので、早速御浄霊をして戴く事に致しました（天理教に入信致しておりましたので何のうたがいもありませんでした）。<br><br>一日一日と体が良くなって来ます。<br><br>助川先生も遠い道（六里）を通い、あるいは泊られ、一生懸命に御浄霊をして下さいました。<br><br>お蔭にて今迄の病魔はすっかり私の家より離れてしまいました。<br><br>三月三十日帯広へ行き、御守様を戴いて来ましょうと言われました時、まだ帯広迄汽車に乗って行くには無理だと思いましたが、助川先生の言われるままに帯広教会へと行きました。<br><br>何と喜しい事、行合う人々は十人中十人共びっくりした顔を致しております。<br><br>私が今頃生きて道を歩くとは一人も思っていないからです。<br><br>一歩一歩歩く嬉しさ何にたとえようありません。<br><br>帯広教会へ着いたのは十一時半でした。<br><br>色々と宗宮先生よりお話を聞き御守を戴き、神に堅く誓い、喜び勇み吾が家へ帰りました。<br><br>その翌日からは救いの御用に御手伝いさせて戴く身となり、今では毎日十五名位の方は御浄霊させて戴いております。<br><br> 去る六月の十一日に光明如来様を迎える事となり、宗宮先生に来て戴き、御霊祭をして戴きました。<br><br>ちょうど祝詞をお唱え致している時（私はその後解りません）全身にふるえが来て手は合掌致し、口を開き始めました。<br><br> 「私は先祖の何々である」と一人一人名を言い「今日光明如来様をお祭りして戴いたので私達はこのように苦しい所より救われて皆今は喜びの世界に行ける事となった」「しかし一ツだけお願いしたい事がある。<br><br>それは今迄私達は天理教に祭って戴いていたが今日より昔の禅宗に切替えてほしい。<br><br>これだけ御願い致す」と言って先祖は帰りました。<br><br>天理教をお祭りする前は私の家は禅宗でしたが母親が入信致してから天理教に切替え神を祭っていたのです。<br><br>天理教に入ってから七名の方々が天理教に祭っていたのです。<br><br>早速霊の言うがままに切替えをさせて戴き、今は淋しいながらも天国の生活を致し、私が苦しい病床についていた頃の事も夢と消え今は人々を救わさせて戴く身となりました。<br><br> どの社会にこのような偉大な力があるでしょうか、私達信者は今後神示のままに人類救済に奮闘致さなければならぬ時が近づいて来ております。<br><br>互に協力し合い、一日も早く地上天国を作り上げましよう。<br><br> 明主様始め諸先生方誠に有難う御座いました。<br><br>読みづらい文を御許し下さい。<br><br>有難う御座いました。<br><br>謹んで御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Alegria de Ser Salva de um Destino de Extinção Familiar</h2>
 <p><em>Revista Eikou, nº 133, publicada em 5 de dezembro de 1951 (Showa 26)</em>
@@ -109,5 +264,48 @@ function toggleLang(lang) {
 <p>Em que outro lugar deste mundo se pode encontrar um poder tão grandioso? A nós, membros, aproxima-se o tempo em que devemos nos empenhar na salvação da humanidade, em conformidade com a Vontade Divina. Unindo-nos em cooperação mútua, construiremos, o mais breve possível, o Paraíso Terrestre.</p>
 <p>A Meishu-Sama e a todos os reverendos e ministros, minha mais profunda gratidão. Peço perdão por este texto de difícil leitura. Muito obrigada.</p>
 <p>Respeitosamente, expresso meus agradecimentos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 一家断絶寸前の境地より救われし喜び 『栄光』133号、昭和26(1951)年12月5日発行 北海道 旭光中教会 椛本登志ゑ（26） 拙き文筆に託しまして今日この天国の世界に救って戴きました喜びを御報告させて戴きます。<br/><br/>私達は農家にて、明けても暮れても明るい生活を致しておりましたが、可愛いい妹が胃腸病を致し二歳にてこの世を去りました。<br/><br/>妹が亡くなってからも幸福な日々を過しておりましたが昭和四年九月光子三女が二歳にして又もこの世から去って行き、一家悲しい一週間を過ごし、妹の事もどうやら思いが消えたのも束の間、次は長男喜作がカン虫にて同年十月二日に死亡致しました。<br/><br/>両親もどうして次から次へと我が子が死んで行くのだろうと心配致し、一時は仕事も手につかず、毎日何も致す事なく日々を暗い思いで送っておりました。<br/><br/>一年に二度葬式を出すそれも二カ月間に二人死す家も珍しい事でしょう。<br/><br/>そうこうしている間に一年は過ぎ去り、昭和六年になり正月も無事に過し、二月を迎えましたところ、次に稚子が病魔に取つかれ、二十一日を最期とし又々世を去って行きました。<br/><br/>両親は我が子のいたましさに身をさかれる思いにて、昼間は仕事に追われておりますが、夜ともなれば仏の前に座し泣を流す。<br/><br/>それが日課のごとくくり返されました。<br/><br/>それ迄は虻田郡の京極におりましたがある人に見てもらいましたら家が悪いとの事、早速私達は十勝の現在の所へ移り変りました。<br/><br/>あまり心配と無理を致したせいか、母親が腹膜病にて床につく身となりました。<br/><br/>父親もこうなれば必死になり、医者よ薬よと到る所へと通わせましたが一向に治らず、神におすがりする身となり、天理教に母親が昭和七年に入信致す事となり、神の御守護にて母親も無事全治致しました。<br/><br/> 天理教に入信させて戴いてこの方迄は無事に明るき生活が出来るようになりました。<br/><br/> 月日の流れるのは矢のごとくとやら、昭和二十三年に入り楽しい正月を迎えました。<br/><br/> 至って母親は身体弱いので農業もあまりせず天理教教会にいつも通い、お詣りさせて戴いておりましたが、ついに今度は母親が同年五月坐骨神経痛にて死亡致し天理教にて御葬式をして戴き、それからは父、私二人の生活となり、一生懸命神におすがり致していました。<br/><br/>母親が亡くなってから一週間目に今度私が脳膜炎の状態となり、早速医者に行き手あてをして戴きました。<br/><br/>御蔭をもって脳膜炎も無事に良くなりましたが心臓、痔、脚気と次から次へと病み、私もこれでこの世とお別れ致さなければならない身となり、毎月の十五日より二十五日の十日間はきまって頭痛が致し、病のどん底におとされて毎日父にお世話になり、天井とにらめっこを致しているのが日々の仕事でした。<br/><br/>父は仕事も出来ず今日はこの医者へ、昨日はあの医者へ、明日は祈祷屋へと毎日四里の道を我が子可愛いさの為に通って下さいましたが、一向に私の体は良くなりませんでした。<br/><br/>私も九分九厘あきらめておりました。<br/><br/>それからが私達一家に光明が差込んで来たのです。<br/><br/> 忘れも致しません、昭和二十六年一月十三日、豊頃より来られた助川先生が、私が床についているのを見て神のお話をされ、又神の力にて病を治して戴ける事もお話し下さいましたので、早速御浄霊をして戴く事に致しました（天理教に入信致しておりましたので何のうたがいもありませんでした）。<br/><br/>一日一日と体が良くなって来ます。<br/><br/>助川先生も遠い道（六里）を通い、あるいは泊られ、一生懸命に御浄霊をして下さいました。<br/><br/>お蔭にて今迄の病魔はすっかり私の家より離れてしまいました。<br/><br/>三月三十日帯広へ行き、御守様を戴いて来ましょうと言われました時、まだ帯広迄汽車に乗って行くには無理だと思いましたが、助川先生の言われるままに帯広教会へと行きました。<br/><br/>何と喜しい事、行合う人々は十人中十人共びっくりした顔を致しております。<br/><br/>私が今頃生きて道を歩くとは一人も思っていないからです。<br/><br/>一歩一歩歩く嬉しさ何にたとえようありません。<br/><br/>帯広教会へ着いたのは十一時半でした。<br/><br/>色々と宗宮先生よりお話を聞き御守を戴き、神に堅く誓い、喜び勇み吾が家へ帰りました。<br/><br/>その翌日からは救いの御用に御手伝いさせて戴く身となり、今では毎日十五名位の方は御浄霊させて戴いております。<br/><br/> 去る六月の十一日に光明如来様を迎える事となり、宗宮先生に来て戴き、御霊祭をして戴きました。<br/><br/>ちょうど祝詞をお唱え致している時（私はその後解りません）全身にふるえが来て手は合掌致し、口を開き始めました。<br/><br/> 「私は先祖の何々である」と一人一人名を言い「今日光明如来様をお祭りして戴いたので私達はこのように苦しい所より救われて皆今は喜びの世界に行ける事となった」「しかし一ツだけお願いしたい事がある。<br/><br/>それは今迄私達は天理教に祭って戴いていたが今日より昔の禅宗に切替えてほしい。<br/><br/>これだけ御願い致す」と言って先祖は帰りました。<br/><br/>天理教をお祭りする前は私の家は禅宗でしたが母親が入信致してから天理教に切替え神を祭っていたのです。<br/><br/>天理教に入ってから七名の方々が天理教に祭っていたのです。<br/><br/>早速霊の言うがままに切替えをさせて戴き、今は淋しいながらも天国の生活を致し、私が苦しい病床についていた頃の事も夢と消え今は人々を救わさせて戴く身となりました。<br/><br/> どの社会にこのような偉大な力があるでしょうか、私達信者は今後神示のままに人類救済に奮闘致さなければならぬ時が近づいて来ております。<br/><br/>互に協力し合い、一日も早く地上天国を作り上げましよう。<br/><br/> 明主様始め諸先生方誠に有難う御座いました。<br/><br/>読みづらい文を御許し下さい。<br/><br/>有難う御座いました。<br/><br/>謹んで御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

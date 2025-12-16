@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jinteki9</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人的資源の危機 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 最近私の所へ、○○市の○○工場から工員の健康問題に就て、西洋医学は余りに無力であるとなし本療法を求めに来たので、私は開業中の弟子四人を出張させ治療に従事せしめたのである。<br><br>それに就て右の弟子に“工員の最も多い病気”を質ねたのである。<br><br>その答によれば、右の工場は工員七千人あり、その症状は、労務中疲労し易く、従而、持続性が乏しいのが患（なや）みといふ事であつた。<br><br>それは微熱の為である事はいふ迄もないので、結核の一歩手前であり、何れ結核は免れ得ないであらう。<br><br> 次に私は、今一つ驚くべき事実を耳にした。<br><br>それは、日本有数の大工場で、何万の工員が従事してゐるのであるが、欠勤率が最近に至つて益々増加しつつあるといふ事である。<br><br>即ち欠勤率は一昨年は一○パーセント、昨年は一五パーセントであつたのが、本年に入つて非常に悪く、最近に至つては二五パーセントになつてゐるといふのである。<br><br>従而その会社ではやむを得ず二週間以上の欠勤者は全部退社と見做し欠勤率から控除し、辛くも十パーセントに近い数字を出して繕つてゐるといふ状態であるといふ事で、その会社の幹部は非常に憂慮してゐるとの事である。<br><br>勿論、欠勤者の大部分は結核的症状である。<br><br> 故に、右の状態を以てみれば、昭和十五年が一○パーセント、十六年は五パーセント増して一五パーセントとなり十七年に至つては前年より十パーセント増して二五パーセントになつたのであるから此割合を以て進むとすれば十八年は少くとも十パーセント以上を増して三五パーセント以上となり十九年は五○パーセント前後とみなければならないのであらう。<br><br>又之も最近の事実であるが、○○の○○○○の○○工場では、厳密なる健康診断の結果、軽重はあらうが結核患者として扱はなければならないものが三二パーセントあつたといふのである。<br><br>実に大問題である。<br><br>而も労務者と雖も体位低下し疲労の為其能率の減退は免れ得まいから其結果としての生産力減退は想像するさへ慄然として肌に粟を生ずるのである。<br><br> 又近来工場によつては作業能率が減退する傾向があるとの事である。<br><br>それ故其監督者は怠業の疑を抱くのであるが、此重大時局に際し、日本人中斯の如き者のある筈はないと思ひ調査した所それは疲労が原因である事が判つた。<br><br>又或大工場の古参工員の話によれば「以前三人位で動かした機械が今日では五六人の手を煩（わずら）はさなければ動かないので全く工員の体力が低下した事は疑ない」といふのである。<br><br> 右は想像や観念の問題ではない。<br><br>今現在顕はれつつある生々しい事実である。<br><br>之等によつて政府に於ても最近健民運動を起し体位向上や結核撲滅に躍起となつてゐるのも無理からぬ事である。<br><br> 最近当局の発表によれば、敵米国の計画は我本土の大空襲にあるといふ事である。<br><br>それが為、航空母艦及び飛行機の大増産に全力を傾注してゐる事は勿論である。<br><br>米国の工業生産力の如何に尨大なるかは、事変前既に吾々の熟知する所であつて、彼のルーズベルトが天文学的数字の予定計画を樹てた事によつても知らるるが、之等も決して軽視する事は出来ないのである。<br><br>従而吾国としても、如何なる犠牲や困難を克服しても、軍需の大増産を強行しなければならない事は言ふ迄もない。<br><br>然るにその根幹ともいふべき人的資源が、右の如き実情であるに於て、到底晏如（あんじょ）たり得る事は出来ないのである。<br><br> 結核も疲労も解決なし得る方法として、本医術を措いて他に無い事を私は信ずると共に申（かさ）ねて茲に警告するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Crise dos Recursos Humanos</h2>
 <p>Recentemente, recebi um representante de uma fábrica da cidade de (...), que, expondo a impotência da medicina ocidental diante dos problemas de saúde de seus operários, veio solicitar que aplicássemos nossa Terapia. Para esse fim, designei quatro de meus discípulos, já atuantes como profissionais, para que se dedicassem ao tratamento. Na ocasião, indaguei-lhes sobre as enfermidades mais prevalentes entre os operários.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Os fatos aqui expostos não são meras suposições ou abstrações; são a crua e vibrante realidade que se desdobra diante de nossos olhos. Nesse sentido, é perfeitamente compreensível que o governo tenha lançado recentemente campanhas de saúde popular, empenhando-se com afinco na melhoria da condição física da população e na erradicação da tuberculose.</p>
 <p>De acordo com um recente comunicado das autoridades, o plano dos Estados Unidos, nossos adversários, consiste em realizar ataques aéreos de grande envergadura contra nosso território. Para tal fim, é evidente que estão a devotar todos os seus esforços na produção massiva de porta-aviões e aeronaves. A pujança da capacidade industrial norte-americana já era de nosso conhecimento mesmo antes do conflito, e os planos de produção com cifras astronômicas anunciados por Roosevelt apenas o confirmam. Não podemos, de forma alguma, subestimar essa realidade. Portanto, é imperativo que nossa nação, superando quaisquer sacrifícios e dificuldades, impulsione um aumento maciço na produção de material bélico. Todavia, como podemos permanecer tranquilos quando a própria base desse esforço – nossos recursos humanos – se encontra na aflitiva situação descrita?</p>
 <p>Estou convicto de que, para solucionar o problema da tuberculose e da fadiga, não existe outro método senão esta Arte Médica que preconizamos. E, com a mesma certeza, renovo aqui meu mais sério alerta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人的資源の危機 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 最近私の所へ、○○市の○○工場から工員の健康問題に就て、西洋医学は余りに無力であるとなし本療法を求めに来たので、私は開業中の弟子四人を出張させ治療に従事せしめたのである。<br/><br/>それに就て右の弟子に“工員の最も多い病気”を質ねたのである。<br/><br/>その答によれば、右の工場は工員七千人あり、その症状は、労務中疲労し易く、従而、持続性が乏しいのが患（なや）みといふ事であつた。<br/><br/>それは微熱の為である事はいふ迄もないので、結核の一歩手前であり、何れ結核は免れ得ないであらう。<br/><br/> 次に私は、今一つ驚くべき事実を耳にした。<br/><br/>それは、日本有数の大工場で、何万の工員が従事してゐるのであるが、欠勤率が最近に至つて益々増加しつつあるといふ事である。<br/><br/>即ち欠勤率は一昨年は一○パーセント、昨年は一五パーセントであつたのが、本年に入つて非常に悪く、最近に至つては二五パーセントになつてゐるといふのである。<br/><br/>従而その会社ではやむを得ず二週間以上の欠勤者は全部退社と見做し欠勤率から控除し、辛くも十パーセントに近い数字を出して繕つてゐるといふ状態であるといふ事で、その会社の幹部は非常に憂慮してゐるとの事である。<br/><br/>勿論、欠勤者の大部分は結核的症状である。<br/><br/> 故に、右の状態を以てみれば、昭和十五年が一○パーセント、十六年は五パーセント増して一五パーセントとなり十七年に至つては前年より十パーセント増して二五パーセントになつたのであるから此割合を以て進むとすれば十八年は少くとも十パーセント以上を増して三五パーセント以上となり十九年は五○パーセント前後とみなければならないのであらう。<br/><br/>又之も最近の事実であるが、○○の○○○○の○○工場では、厳密なる健康診断の結果、軽重はあらうが結核患者として扱はなければならないものが三二パーセントあつたといふのである。<br/><br/>実に大問題である。<br/><br/>而も労務者と雖も体位低下し疲労の為其能率の減退は免れ得まいから其結果としての生産力減退は想像するさへ慄然として肌に粟を生ずるのである。<br/><br/> 又近来工場によつては作業能率が減退する傾向があるとの事である。<br/><br/>それ故其監督者は怠業の疑を抱くのであるが、此重大時局に際し、日本人中斯の如き者のある筈はないと思ひ調査した所それは疲労が原因である事が判つた。<br/><br/>又或大工場の古参工員の話によれば「以前三人位で動かした機械が今日では五六人の手を煩（わずら）はさなければ動かないので全く工員の体力が低下した事は疑ない」といふのである。<br/><br/> 右は想像や観念の問題ではない。<br/><br/>今現在顕はれつつある生々しい事実である。<br/><br/>之等によつて政府に於ても最近健民運動を起し体位向上や結核撲滅に躍起となつてゐるのも無理からぬ事である。<br/><br/> 最近当局の発表によれば、敵米国の計画は我本土の大空襲にあるといふ事である。<br/><br/>それが為、航空母艦及び飛行機の大増産に全力を傾注してゐる事は勿論である。<br/><br/>米国の工業生産力の如何に尨大なるかは、事変前既に吾々の熟知する所であつて、彼のルーズベルトが天文学的数字の予定計画を樹てた事によつても知らるるが、之等も決して軽視する事は出来ないのである。<br/><br/>従而吾国としても、如何なる犠牲や困難を克服しても、軍需の大増産を強行しなければならない事は言ふ迄もない。<br/><br/>然るにその根幹ともいふべき人的資源が、右の如き実情であるに於て、到底晏如（あんじょ）たり得る事は出来ないのである。<br/><br/> 結核も疲労も解決なし得る方法として、本医術を措いて他に無い事を私は信ずると共に申（かさ）ねて茲に警告するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>musin07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無神迷信 『栄光』134号、昭和26(1951)年12月12日発行 最近新聞紙上を賑わしているものに、公務員の汚職問題がある。<br><br>しかも御承知のごとく次から次への続出で、ほとんど底知れぬ観がある。<br><br>これによって想像してみると官界方面はどこもかしこも腐敗し切っており、ちょうど第三期梅毒患者のように、どこを圧しても膿汁が出るのと何ら変りはない。<br><br>恐らく今までにこんなにまで腐敗した事は聞かなかった。<br><br>そこで当局も何とかせねばならぬと、対策に腐心しているようだが、それとても知れた事で、例のごとく官紀粛正（かんきしゅくせい）の一途あるのみであろうが、これも致し方がないとしても、これらも一時的手段で、根本には触れていない以上、いずれは再び同様な問題が起るのは知れ切った話である。<br><br> そうしてこの問題に関連して、近頃喧（やかま）しく言われているものに彼の社用族の暗躍がある。<br><br>彼らはそれぞれの役人を料理屋、待合等に招待しては、ウンと饗応し骨抜きにしてしまって、旨い金儲けをするのだそうだが、これらに要する費用も莫大な額に上るであろう。<br><br>言うまでもなくそれらの金も物価や税金に掛けられて、その負担は国民が負うのであるから、考えれば国民こそいい面の皮である。<br><br>このような訳でこの問題は一日も早く、徹底的に解決しなければならないが、遺憾ながら当局も有識者も、その根本原因が分っていないから、どうしようもないのが実状である。<br><br>そこで私はコレについて、必ず解決出来る方法を教えたいと思うのである。<br><br> まず何よりも理屈に合わない事は、この問題を起すところの連中は、残らずと言いたい程、高等教育または相当の教育を受けた者ばかりであるから、教育と犯罪とは余り関係がない事になろう。<br><br>ところが世間一般は高等教育を受けた程の人間なら、犯罪を冒すような馬鹿な事はするはずがないと信じ切っている。<br><br>それが今日の社会通念であろう。<br><br>なるほど智識人に限って、暴力的犯罪は行わないから、そう思えるのも無理はないが事実は暴力を揮わないだけの話で、それに代るに智能的に行うのであるから、結果においてはむしろ深刻さがある訳で、しかも彼ら社会的地位ある人間であるから、一般に与えるその影響も少なくないであろう。<br><br>そこではなぜ智識人でありながら、彼らはそのような忌わしい犯罪を冒すかというと、そこには重大な理由があるので、私はまずこの点にメスを入れてみよう。<br><br> その根本理由というのは、彼らの心理に一大欠陥がある事である。<br><br>それはどんな不正な事でも巧妙にやり、人の眼にさえ触れなければ旨く済んでしまうという唯物観念である。<br><br>ところが意外にも予想もしないところなどから暴（ば）れてしまうので、大いに驚くと共に首を捻（ひね）るであろうが、その場合の彼らの心境を想像してみると、こんなところであろう。<br><br>俺はアンナに巧くやったんだが、とうとう暴れてしまった、俺だって法律上の事くらい相当知っているから、間違っても法の網に引っ掛かるような間抜けな事はしてないつもりだがそれがこんな結果になるとはどうも分らない、しかし出来た事は仕方ないから、なるべく速かに軽くなるようにすると共に、もし今度再び役人になった節は、もっと巧くやってやろうと思うのがそのほとんどであろう。<br><br>中には殊勝な公務員もあるだろうが、そういう人は今度のような汚職事件を起したのは全く間違っていた、俺が悪かった、この上は潔く罪に服し、これを契機として立派な人間に更生しようと決心するであろうが、なるほど一時はそう思っても日の経つに従い、その決心は段々緩んでしまい、元の木阿弥（もくあみ）となるであろう。<br><br>というのはその原因がいずれも無神論者であるからである。<br><br> ではこの問題を根本から解決するにはどうすればいいかと言うと、言わずと知れた信仰である。<br><br>信仰によって神の実在を認識させる事である。<br><br>それ以外効果ある方法は、絶対あり得ない事を断言するのである。<br><br>それというのは彼らの犯罪心理は前述のごとく、この世に神仏などは絶対ないと信じ切っており、この地球の上は空気だけで、外には何にもありはしないという、至極単純な観念である。<br><br>ところが、吾々の方は眼には見えないが、神は必ず在ると言うと、それは迷信に囚われているからだと決めてしまうのである。<br><br>ところが真に実在しているから実在していると言ってもそう思われないところに、恐るべき無神迷信が伏在しているのである。<br><br>とすれば実に憐れむべき彼らであって、この考え方が犯罪心理の温床となっているのであるから、この迷信を打破する事こそ、問題解決の鍵である事は余りにも明白である。<br><br>ではなぜ彼らはそのような迷信に陥っているかというと、言うまでもなく子供の時から唯物教育を散々叩き込まれた結果、唯物主義至上の迷信に囚われているからで、この啓蒙こそ吾々の仕事である。<br><br>つまり彼らの再教育であって、事実これによってのみ犯罪を犯さない人間が作られるのであるから、為政者も智識人もこの事に目醒めない限り、他のいかなる方法も一時的膏薬張りに過ぎないのである。<br><br>つまり人の眼は誤魔化し得ても、神の眼は誤魔化し得ないというただその一点だけを、彼らの肚の底へ叩き込む事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superstição do Ateísmo e a Corrupção Social</h2>
 <p>Recentemente, a imprensa tem sido inundada por notícias sobre a corrupção no serviço público. Como é de vosso conhecimento, os casos se sucedem incessantemente, a ponto de parecerem não ter fim. Ao observarmos tal cenário, podemos inferir que a esfera governamental se encontra inteiramente putrefata. Assemelha-se, com efeito, a um paciente no estágio terminal da sífilis, de cujo corpo, em qualquer ponto que se pressione, brota o pus. Creio que jamais na história se ouviu falar de uma decadência moral tão profunda.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Qual seria, então, a solução definitiva para esta questão? A resposta, inequívoca, é a fé. É preciso fazer com que esses indivíduos reconheçam a existência de Deus. Afirmo categoricamente que não há, em absoluto, outro método eficaz. A psicologia criminosa que os move, como já mencionei, tem por alicerce a crença inabalável de que deuses ou budas não existem e que, sobre a Terra, há apenas ar e nada mais — um conceito de uma simplicidade atroz. Quando nós afirmamos que Deus, embora invisível aos olhos, indubitavelmente existe, eles imediatamente nos acusam de estarmos aprisionados pela superstição. Contudo, é justamente na sua incapacidade de aceitar o que é real pelo simples fato de ser real que reside a terrível superstição do ateísmo.</p>
 <p>São, portanto, dignos de compaixão, pois essa mentalidade é o solo fértil onde viceja a psicologia do crime. Torna-se, assim, demasiado evidente que a chave para a resolução do problema é a desconstrução dessa superstição.</p>
 <p>Resta-nos questionar por que eles caíram em tal equívoco. A resposta é clara: é o resultado de terem sido incessantemente doutrinados, desde a infância, com uma educação materialista, que os aprisionou na superstição da supremacia da matéria. Nossa missão é, portanto, a reeducação desses indivíduos. Na verdade, somente por meio dela será possível formar seres humanos incapazes de cometer crimes. Enquanto os governantes e os intelectuais não despertarem para esta verdade, qualquer outro método não passará de um mero paliativo. Em suma, é preciso inculcar-lhes no mais profundo de seu ser uma única e fundamental verdade: é possível iludir os olhos dos homens, mas jamais os olhos de Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無神迷信 『栄光』134号、昭和26(1951)年12月12日発行 最近新聞紙上を賑わしているものに、公務員の汚職問題がある。<br/><br/>しかも御承知のごとく次から次への続出で、ほとんど底知れぬ観がある。<br/><br/>これによって想像してみると官界方面はどこもかしこも腐敗し切っており、ちょうど第三期梅毒患者のように、どこを圧しても膿汁が出るのと何ら変りはない。<br/><br/>恐らく今までにこんなにまで腐敗した事は聞かなかった。<br/><br/>そこで当局も何とかせねばならぬと、対策に腐心しているようだが、それとても知れた事で、例のごとく官紀粛正（かんきしゅくせい）の一途あるのみであろうが、これも致し方がないとしても、これらも一時的手段で、根本には触れていない以上、いずれは再び同様な問題が起るのは知れ切った話である。<br/><br/> そうしてこの問題に関連して、近頃喧（やかま）しく言われているものに彼の社用族の暗躍がある。<br/><br/>彼らはそれぞれの役人を料理屋、待合等に招待しては、ウンと饗応し骨抜きにしてしまって、旨い金儲けをするのだそうだが、これらに要する費用も莫大な額に上るであろう。<br/><br/>言うまでもなくそれらの金も物価や税金に掛けられて、その負担は国民が負うのであるから、考えれば国民こそいい面の皮である。<br/><br/>このような訳でこの問題は一日も早く、徹底的に解決しなければならないが、遺憾ながら当局も有識者も、その根本原因が分っていないから、どうしようもないのが実状である。<br/><br/>そこで私はコレについて、必ず解決出来る方法を教えたいと思うのである。<br/><br/> まず何よりも理屈に合わない事は、この問題を起すところの連中は、残らずと言いたい程、高等教育または相当の教育を受けた者ばかりであるから、教育と犯罪とは余り関係がない事になろう。<br/><br/>ところが世間一般は高等教育を受けた程の人間なら、犯罪を冒すような馬鹿な事はするはずがないと信じ切っている。<br/><br/>それが今日の社会通念であろう。<br/><br/>なるほど智識人に限って、暴力的犯罪は行わないから、そう思えるのも無理はないが事実は暴力を揮わないだけの話で、それに代るに智能的に行うのであるから、結果においてはむしろ深刻さがある訳で、しかも彼ら社会的地位ある人間であるから、一般に与えるその影響も少なくないであろう。<br/><br/>そこではなぜ智識人でありながら、彼らはそのような忌わしい犯罪を冒すかというと、そこには重大な理由があるので、私はまずこの点にメスを入れてみよう。<br/><br/> その根本理由というのは、彼らの心理に一大欠陥がある事である。<br/><br/>それはどんな不正な事でも巧妙にやり、人の眼にさえ触れなければ旨く済んでしまうという唯物観念である。<br/><br/>ところが意外にも予想もしないところなどから暴（ば）れてしまうので、大いに驚くと共に首を捻（ひね）るであろうが、その場合の彼らの心境を想像してみると、こんなところであろう。<br/><br/>俺はアンナに巧くやったんだが、とうとう暴れてしまった、俺だって法律上の事くらい相当知っているから、間違っても法の網に引っ掛かるような間抜けな事はしてないつもりだがそれがこんな結果になるとはどうも分らない、しかし出来た事は仕方ないから、なるべく速かに軽くなるようにすると共に、もし今度再び役人になった節は、もっと巧くやってやろうと思うのがそのほとんどであろう。<br/><br/>中には殊勝な公務員もあるだろうが、そういう人は今度のような汚職事件を起したのは全く間違っていた、俺が悪かった、この上は潔く罪に服し、これを契機として立派な人間に更生しようと決心するであろうが、なるほど一時はそう思っても日の経つに従い、その決心は段々緩んでしまい、元の木阿弥（もくあみ）となるであろう。<br/><br/>というのはその原因がいずれも無神論者であるからである。<br/><br/> ではこの問題を根本から解決するにはどうすればいいかと言うと、言わずと知れた信仰である。<br/><br/>信仰によって神の実在を認識させる事である。<br/><br/>それ以外効果ある方法は、絶対あり得ない事を断言するのである。<br/><br/>それというのは彼らの犯罪心理は前述のごとく、この世に神仏などは絶対ないと信じ切っており、この地球の上は空気だけで、外には何にもありはしないという、至極単純な観念である。<br/><br/>ところが、吾々の方は眼には見えないが、神は必ず在ると言うと、それは迷信に囚われているからだと決めてしまうのである。<br/><br/>ところが真に実在しているから実在していると言ってもそう思われないところに、恐るべき無神迷信が伏在しているのである。<br/><br/>とすれば実に憐れむべき彼らであって、この考え方が犯罪心理の温床となっているのであるから、この迷信を打破する事こそ、問題解決の鍵である事は余りにも明白である。<br/><br/>ではなぜ彼らはそのような迷信に陥っているかというと、言うまでもなく子供の時から唯物教育を散々叩き込まれた結果、唯物主義至上の迷信に囚われているからで、この啓蒙こそ吾々の仕事である。<br/><br/>つまり彼らの再教育であって、事実これによってのみ犯罪を犯さない人間が作られるのであるから、為政者も智識人もこの事に目醒めない限り、他のいかなる方法も一時的膏薬張りに過ぎないのである。<br/><br/>つまり人の眼は誤魔化し得ても、神の眼は誤魔化し得ないというただその一点だけを、彼らの肚の底へ叩き込む事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

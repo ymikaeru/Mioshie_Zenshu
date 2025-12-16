@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281101</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年11月1日） 『御垂示録』26号、昭和28(1953)年11月15日発行 昭和二十八年十一月一日 今年の自然農法は馬鹿に成績が良いです。<br><br>特に岐阜県が良いです。<br><br>早くも成績が分かりました。<br><br>いつもは佐渡方面が成績が良いのですが、もっとも、はっきり分かるのは春になってからでしょう。<br><br> 「昨日見ました所で、まだ稔っていないので、延ばさせるように交渉いたしました」 できるだけ長く置いておくほうがよいです。<br><br>稲というものは充分に稔らしたほうが本当なのです。<br><br>つまり育つだけは育たせたほうがよいのです。<br><br>だから子供でも、教育を早くするのはいけないのです。<br><br>今の人間が馬鹿になるのは、学校教育を早くしすぎるためです。<br><br>幼稚園などでも、まだ六つか七つですが、それで学校に上げるというのですから、脳はまだ発達しないのに教育するために、今の人間は上面（うわつら）は利口だが中は馬鹿というわけで、育ってから超愚になってしまうのです。<br><br>今の人間は、稲で言えば早稲（わせ）なのです。<br><br> 「今年のように悪いようですと、稲の名前も変えなけばならないことになりまして、「イイネ」というのは一つもないことになります」 悪いね（悪い稲）になります。<br><br>しかしよくもここまで迷信を叩き込んだと思います。<br><br>何でもなく分かることですが、実際、間違ったことや悪いことを、よくも信じさせたもので、その腕前というか、それには感心します。<br><br> 「最近肥料会社の宣伝のようでございますが、三俵か五俵しかない田に、刈った稲を持った人を入れて、写真をとって、十何俵穫ったということで、たいへんにお祝をくれるそうでございます」 やっぱり超愚のほうです。<br><br>今に病気がこのとおりになります。<br><br>片端（かたはし）から病人が出て来てバタバタと死んでしまいます。<br><br>それが恐怖時代です。<br><br>農作物のほうが先になったのです。<br><br> 「やっぱり御浄霊が霊で農作物が体という、霊体の関係がありますのでしょうか」 そうでもありません。<br><br> 「人間のほうは月（にくづき）の入りました膿作物で、膿の固まりでございますから」 そうです。<br><br> 「いろいろと御教えをいただいておりますので、こう言って笑えますが、もしこのことを教えていただいていなかったらたいへんなことと思います」 たいへんなことです。<br><br>つまり人間は薬をのみ、農作物に肥料をやるというその理屈は同じなのです。<br><br>今年は外米の輸入やいろいろなことで誤魔化しておくが、来年のことを考えたら、実にいても立ってもいられないと思います。<br><br>この間気象台の藤原博士が“今年から三年間は凶作型だ”と言っていますが、これほどでなくも、来年、再来年がまた不作としたら農家はもうやって行けません。<br><br>それで国としても、輸入すればそれだけの金を払わなければならないから、金がないから、どうしてもなんかかんかと金を借りる算段をしなければならないのです。<br><br>そうしてだんだん条件が悪くなると利息も高くなります。<br><br>そうすると結局インフレの因になります。<br><br>ですからこれ以上貿易が悪いとインフレの可能〔性〕が非常に濃厚になります。<br><br>それで日本の経済界でおかしいのは、借金すると成功したと喜んでますが、借金したら必ず返すので、そうして利息が出るのですから、悲しむべきことですが、いよいよ外資導入をするとか言って喜んでます。<br><br>今の金詰りとか中小工業家が苦境に陥っているというが、原因は結局借金です。<br><br>また日本ぐらい借金の好きな国はありません。<br><br>日本人というのは、ただ目先だけを考えているのです。<br><br>十年、二十年先のことは考えないで、その場限りのわずかの時間、良い思いをすればよいというのです。<br><br>ですから薬もそのとおりで、先はどうなろうが一時良ければよいというのです。<br><br> 「人造米の松浦というのが特許をとりましたが、全部の米をつぶして人造米にすれば助かるだろうと言っております」 情けないです。<br><br>本当の目先だけだから苦しいのです。<br><br>借金して一時良い、その先の考えはないのです。<br><br>この一番極端になったのが泥坊して一時の間女を買ったり酒を飲んだりして享楽するという心理状態と同じです。<br><br>つまり人間が三年か五年で命がなければ、それは確かによいでしょう。<br><br>しかし六十、七十までも生きるとすると、それはどうもピッタリしないわけです。<br><br>つまり目先ばかりを考えるという、こういう日本人の考え方が治らなければ駄目です。<br><br>だから借金しても、一時楽になることばかりを考えて、先の苦しみと言うことを頭に入れていないから、金詰まりとか、いろいろと苦しむということは、自分で作っているようなものです。<br><br>政府のいろんな政策にしても、みんなその場限りのことであって、ちょっと良いことだと喜び、少し悪いことだと悲観しますが、だいたい日本のすべての考え方というものがフワフワしていて、つまり超愚になってしまうのです。<br><br>それで一時気持が良いからというので麻薬が流行るのでしょう。<br><br> 今私が書いているのは、普通の薬と麻薬との違いは、時間の遅い早いがあるだけで、結局同じだということを書いていますが、一切が麻薬中毒になってます。<br><br>それで至急特集号をこしらえます。<br><br>「 日本農業の大革命、無肥料で初年度から五割増産 」という題です。<br><br>これを農家に一枚売りをするのです。<br><br>これが一番良いと思います。<br><br>私は前に大本教にいるときに愛善新聞というのを、私が東京で一番主になって売らせたのですが、なかなか売れるものです。<br><br>それから観音会になってから「東方之光」という新聞を出して売らせましたが、これも割合に売れるものです。<br><br>それで今度のこの表題だけで飛びつくだろうと思います。<br><br>これも妙なもので、ただで配布してもよさそうなものだが、ただというのは読まないのです。<br><br>それでいくらかでも金を出したものは読むのです。<br><br>これも前の愛善新聞、東方の光で経験がありますが、ただでくれてやったのは読まないが、いくらかでも出したものは読むのです。<br><br>これは人間の人情で、そういうものなのです。<br><br>今の日本の農家は約六百万だそうですが、一枚売りと方々での座談会のときに、聴衆が喜んで買わないわけにはゆかないから買うというわけで、相当数出ると思います。<br><br>それで私は百万出したいと思います。<br><br>そうすると六分の一ですが、普通の新聞でもたいてい五人は読むとしてありますが、五人が読むとすると五百万で、たちまち全国的に知られるだろうと思います。<br><br>おまけに今農村で一番苦しんでいるところに、これをやったら一番の魅力です。<br><br>腹の減っているところにごちそうを口に入れてやるようなものですから、飛びついて喜ぶだろうと思います。<br><br>百万を目標にして大いに活動してもらいたいと思います。<br><br>やり方のいろいろはみんなで相談してしかるべき方法をとるでしょうが、だいたい今年の凶作というのは、神様は実にうまくやられたわけです。<br><br>しかもこっちのほうは深掘りを発見したために初年度からすばらしい成績なのです。<br><br>昨日伊野さんの最初からのことを見ましたが、大沼さんが書いたのですか、なかなか文章が上手です。<br><br>あれなら小説ぐらい書けます。<br><br>たいしたものです。<br><br>小説を読むぐらいの興味があります。<br><br>今度単行本を作りますから、栄光では長過ぎますし、あれだけの本では魅力がないから、もっとしっかりした本を作って大々的に新聞広告をして、一般が読むようにしたいと思ってます。<br><br>その中の記事としては非常に良いと思います。<br><br>なかなか苦労してあれまでやったということは、つまり伊野さんという人の経路は非常によいです。<br><br>あれで見ても反二十俵というのはそう困難ではありません。<br><br>普通になると見てよいです。<br><br>そうすれば今日の四倍ですからたいへんなものです。<br><br> 「本当に日本は救われたと思いました。<br><br>“アメリカを救う”などのように、ポスターに“日本は救われた”と標語してやってはと思います」 よいです。<br><br>“アメリカを救う”は救うだけで、今度は“日本は救われた”のだから、序幕と終幕との違いさです。<br><br>それでどんなことをしても二、三年中には日本人全部は頭を下げます。<br><br>下げないわけにはゆかなくなります。<br><br>そうするとこれが浄霊のほうに良い影響が行きます。<br><br>救世教の奴は医学であんなことを言っているが、自然農法を見ると夢のようなことが実現した、そうしてみると医学のほうも本当かもしれない、ということになりますから、そのほうに対する一つのよい影響も見逃せないことです。<br><br>とにかく信用ですから、全般的に救世教を見る目がぜんぜん違ってくるわけです。<br><br>それがこっちの一番狙うところなのです。<br><br>そこにちょうど、二、三日前の読売に「救世教奇跡集」の広告が出るし、同じ日の新聞に霊友会事件が出たが、あれも偶然ではないので意味があります。<br><br>あれは日蓮上人が、静岡問題のときに私が留置場にいるとき私に憑かって来て、非常に謝って「自分がたいへん間違ったことをしたために、許してもらいたい。<br><br>それでこれからは日蓮宗を、日蓮宗は自分のほうで、できるだけ早く分からせるようにして、大いに救世教のために尽くす」というようなことを言って約束したのです。<br><br>あれもその一つの現れです。<br><br>日蓮上人が日蓮宗をつぶしてしまうということになるのです。<br><br>もっとも日蓮上人が地獄で苦しんでいるのを私が救ってやったのだから、そのお礼がてらです。<br><br>いつか栄光に出しましたが、天理教の教祖も憑かって来ましたから、今に天理教にもそれが現れます。<br><br>人間と違って、神様の約束というものは決して間違いがありません。<br><br> 「最近の立正交成会のお蔭話は、医者にかかり手術をしたが、信仰しているので、お蔭様で良くなった、というのでございます」 滑稽なものです。<br><br>既成宗教というのはあんまり低級で、テンデ問題になりません。<br><br> 自然栽培で日本人全部に頭を下げさせて、それからハワイが今に全島が救世教になってしまうでしょう。<br><br>そうしたらアメリカはじっとしていられません。<br><br>どうしても自分のほうに来てくれということになります。<br><br>そうなればアメリカは割合に楽ですから、案外早く行くでしょう。<br><br>ただ、カトリックが控えているからそう簡単にはゆかないでしょうが、そうとうな勢力は植えつけられます。<br><br>だからこっちが地上天国を世界的に造るということも、以前ですと、いつどうしてできるか、ちょっと見当がつかないが、今ではともかく見通しだけがつきかかってきました。<br><br>大本教のお筆先に「三千世界のびっくり箱を開けると、あまり大きな取り違いで、アフンとして開いた口がすぼまらぬぞよ」というのがあります。<br><br>自然農法などもやっぱりびっくり箱です。<br><br>それで中京方面から始ったということは、これは神様のほうはそういうふうになっているので、当時観音教団と言って玉川でやっていたときは、それまではホンの東京都内ぐらいを目標にしてやっていたのですが、あのときに渋井さんが、地方をやってみたいと言うので、それもよかろうというのでやって、一番先が中京、名古屋方面です。<br><br>渡辺さんもその時分の人でしょう。<br><br>そうして馬鹿に急激に発展しました。<br><br>それで今度の自然農法と同じ経路です。<br><br>つまり伊都能売（いづのめ）で、真中ですから、そういうふうな形になるわけです。<br><br>それでいつも言うとおり、経と緯が結ばるのですから、緯がアメリカで経が日本で、どうしても経と緯を結ばなければならないので、それが救世教だといいうわけで、それがだんだん近寄っているのです。<br><br>救世教がアメリカと日本を結ぶというような形をとりつつあるのです。<br><br>ですから「アメリカを救う」という本はその最初の第一歩です。<br><br>それで、まずアメリカにゆくにはあんまり遠いから、間の飛び石がハワイなのです。<br><br>まずハワイに足をつけて、そうしてアメリカに行くというわけで、神様のほうはチャンとそう言う具合にできているのです。<br><br>お筆先に「神は水も漏らさぬ仕組をいたしてあるぞよ」というのがあります。<br><br> この三日にアメリカの有力な新聞の通信員か何かが来ることになって、救世教に関するいろいろなことを聞きたいというのです。<br><br>それで自分の所の新聞に一番先に出すからして、もし他の新聞が来ても、そのつもりで、なるべく話をしないでくれ、自分の新聞が先鞭をつけるというのです。<br><br>また、広告は出してくれるなというのです。<br><br>広告を出すと、広告を出したからそのお礼に記事を出したと見られるのは面白くないからと言うのです。<br><br>あっちはそういうふうになっているのでしょう。<br><br>今年は二十八年ですから、つまり五、六、七とこれが済んで八年から開けるというわけで、今年から八、九、十と行って、十は結びですから、ちょうど昭和三十年になるとすばらしい世界的地盤ができるわけです。<br><br>それから世界的宗教としてだんだん発足してゆくわけです。<br><br>ですから時節です。<br><br>お筆先にも「時節には神も敵わぬぞよ」「時節ほど有難い怖いものはないぞよ」とありますが、お筆先というのは実に簡単にはっきりと言ってあります。<br><br>この怖いというのは悪いものには怖いので、ありがたいというのは善のほうにはありがたいのです。<br><br> 「明主様は八日にお立ちになられますが、皇太子殿下は八日にお帰りになりますが」 皇太子殿下は霊的には私と非常に関係があります。<br><br>将来私がいろんなことを教えるようになるでしょう。<br><br>そういう時期が来ます。<br><br>やっぱり誕生日が同じで十二月二十三日ですから。<br><br> 農業の話ばかりになりましたが、質問があったらどうぞ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Revolução da Agricultura Natural e o Plano Divino</h2>
 <p>Os resultados da Agricultura Natural este ano são excepcionalmente bons. A província de Gifu, em particular, apresenta um desempenho notável, cujos frutos já se tornaram evidentes. Embora a região de Sado costume se destacar, os resultados definitivos só serão conhecidos na primavera.</p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p>“O Senhor se ausentará no dia oito, e o Príncipe Herdeiro retornará no mesmo dia, não é?”</p>
 <p>O Príncipe Herdeiro possui uma forte conexão espiritual comigo. Chegará o tempo em que lhe ensinarei muitas coisas. Esse momento virá. Afinal, compartilhamos a mesma data de nascimento, 23 de dezembro.</p>
 <p>Acabamos falando apenas sobre agricultura, mas se houver alguma pergunta, por favor, fiquem à vontade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年11月1日） 『御垂示録』26号、昭和28(1953)年11月15日発行 昭和二十八年十一月一日 今年の自然農法は馬鹿に成績が良いです。<br/><br/>特に岐阜県が良いです。<br/><br/>早くも成績が分かりました。<br/><br/>いつもは佐渡方面が成績が良いのですが、もっとも、はっきり分かるのは春になってからでしょう。<br/><br/> 「昨日見ました所で、まだ稔っていないので、延ばさせるように交渉いたしました」 できるだけ長く置いておくほうがよいです。<br/><br/>稲というものは充分に稔らしたほうが本当なのです。<br/><br/>つまり育つだけは育たせたほうがよいのです。<br/><br/>だから子供でも、教育を早くするのはいけないのです。<br/><br/>今の人間が馬鹿になるのは、学校教育を早くしすぎるためです。<br/><br/>幼稚園などでも、まだ六つか七つですが、それで学校に上げるというのですから、脳はまだ発達しないのに教育するために、今の人間は上面（うわつら）は利口だが中は馬鹿というわけで、育ってから超愚になってしまうのです。<br/><br/>今の人間は、稲で言えば早稲（わせ）なのです。<br/><br/> 「今年のように悪いようですと、稲の名前も変えなけばならないことになりまして、「イイネ」というのは一つもないことになります」 悪いね（悪い稲）になります。<br/><br/>しかしよくもここまで迷信を叩き込んだと思います。<br/><br/>何でもなく分かることですが、実際、間違ったことや悪いことを、よくも信じさせたもので、その腕前というか、それには感心します。<br/><br/> 「最近肥料会社の宣伝のようでございますが、三俵か五俵しかない田に、刈った稲を持った人を入れて、写真をとって、十何俵穫ったということで、たいへんにお祝をくれるそうでございます」 やっぱり超愚のほうです。<br/><br/>今に病気がこのとおりになります。<br/><br/>片端（かたはし）から病人が出て来てバタバタと死んでしまいます。<br/><br/>それが恐怖時代です。<br/><br/>農作物のほうが先になったのです。<br/><br/> 「やっぱり御浄霊が霊で農作物が体という、霊体の関係がありますのでしょうか」 そうでもありません。<br/><br/> 「人間のほうは月（にくづき）の入りました膿作物で、膿の固まりでございますから」 そうです。<br/><br/> 「いろいろと御教えをいただいておりますので、こう言って笑えますが、もしこのことを教えていただいていなかったらたいへんなことと思います」 たいへんなことです。<br/><br/>つまり人間は薬をのみ、農作物に肥料をやるというその理屈は同じなのです。<br/><br/>今年は外米の輸入やいろいろなことで誤魔化しておくが、来年のことを考えたら、実にいても立ってもいられないと思います。<br/><br/>この間気象台の藤原博士が“今年から三年間は凶作型だ”と言っていますが、これほどでなくも、来年、再来年がまた不作としたら農家はもうやって行けません。<br/><br/>それで国としても、輸入すればそれだけの金を払わなければならないから、金がないから、どうしてもなんかかんかと金を借りる算段をしなければならないのです。<br/><br/>そうしてだんだん条件が悪くなると利息も高くなります。<br/><br/>そうすると結局インフレの因になります。<br/><br/>ですからこれ以上貿易が悪いとインフレの可能〔性〕が非常に濃厚になります。<br/><br/>それで日本の経済界でおかしいのは、借金すると成功したと喜んでますが、借金したら必ず返すので、そうして利息が出るのですから、悲しむべきことですが、いよいよ外資導入をするとか言って喜んでます。<br/><br/>今の金詰りとか中小工業家が苦境に陥っているというが、原因は結局借金です。<br/><br/>また日本ぐらい借金の好きな国はありません。<br/><br/>日本人というのは、ただ目先だけを考えているのです。<br/><br/>十年、二十年先のことは考えないで、その場限りのわずかの時間、良い思いをすればよいというのです。<br/><br/>ですから薬もそのとおりで、先はどうなろうが一時良ければよいというのです。<br/><br/> 「人造米の松浦というのが特許をとりましたが、全部の米をつぶして人造米にすれば助かるだろうと言っております」 情けないです。<br/><br/>本当の目先だけだから苦しいのです。<br/><br/>借金して一時良い、その先の考えはないのです。<br/><br/>この一番極端になったのが泥坊して一時の間女を買ったり酒を飲んだりして享楽するという心理状態と同じです。<br/><br/>つまり人間が三年か五年で命がなければ、それは確かによいでしょう。<br/><br/>しかし六十、七十までも生きるとすると、それはどうもピッタリしないわけです。<br/><br/>つまり目先ばかりを考えるという、こういう日本人の考え方が治らなければ駄目です。<br/><br/>だから借金しても、一時楽になることばかりを考えて、先の苦しみと言うことを頭に入れていないから、金詰まりとか、いろいろと苦しむということは、自分で作っているようなものです。<br/><br/>政府のいろんな政策にしても、みんなその場限りのことであって、ちょっと良いことだと喜び、少し悪いことだと悲観しますが、だいたい日本のすべての考え方というものがフワフワしていて、つまり超愚になってしまうのです。<br/><br/>それで一時気持が良いからというので麻薬が流行るのでしょう。<br/><br/> 今私が書いているのは、普通の薬と麻薬との違いは、時間の遅い早いがあるだけで、結局同じだということを書いていますが、一切が麻薬中毒になってます。<br/><br/>それで至急特集号をこしらえます。<br/><br/>「 日本農業の大革命、無肥料で初年度から五割増産 」という題です。<br/><br/>これを農家に一枚売りをするのです。<br/><br/>これが一番良いと思います。<br/><br/>私は前に大本教にいるときに愛善新聞というのを、私が東京で一番主になって売らせたのですが、なかなか売れるものです。<br/><br/>それから観音会になってから「東方之光」という新聞を出して売らせましたが、これも割合に売れるものです。<br/><br/>それで今度のこの表題だけで飛びつくだろうと思います。<br/><br/>これも妙なもので、ただで配布してもよさそうなものだが、ただというのは読まないのです。<br/><br/>それでいくらかでも金を出したものは読むのです。<br/><br/>これも前の愛善新聞、東方の光で経験がありますが、ただでくれてやったのは読まないが、いくらかでも出したものは読むのです。<br/><br/>これは人間の人情で、そういうものなのです。<br/><br/>今の日本の農家は約六百万だそうですが、一枚売りと方々での座談会のときに、聴衆が喜んで買わないわけにはゆかないから買うというわけで、相当数出ると思います。<br/><br/>それで私は百万出したいと思います。<br/><br/>そうすると六分の一ですが、普通の新聞でもたいてい五人は読むとしてありますが、五人が読むとすると五百万で、たちまち全国的に知られるだろうと思います。<br/><br/>おまけに今農村で一番苦しんでいるところに、これをやったら一番の魅力です。<br/><br/>腹の減っているところにごちそうを口に入れてやるようなものですから、飛びついて喜ぶだろうと思います。<br/><br/>百万を目標にして大いに活動してもらいたいと思います。<br/><br/>やり方のいろいろはみんなで相談してしかるべき方法をとるでしょうが、だいたい今年の凶作というのは、神様は実にうまくやられたわけです。<br/><br/>しかもこっちのほうは深掘りを発見したために初年度からすばらしい成績なのです。<br/><br/>昨日伊野さんの最初からのことを見ましたが、大沼さんが書いたのですか、なかなか文章が上手です。<br/><br/>あれなら小説ぐらい書けます。<br/><br/>たいしたものです。<br/><br/>小説を読むぐらいの興味があります。<br/><br/>今度単行本を作りますから、栄光では長過ぎますし、あれだけの本では魅力がないから、もっとしっかりした本を作って大々的に新聞広告をして、一般が読むようにしたいと思ってます。<br/><br/>その中の記事としては非常に良いと思います。<br/><br/>なかなか苦労してあれまでやったということは、つまり伊野さんという人の経路は非常によいです。<br/><br/>あれで見ても反二十俵というのはそう困難ではありません。<br/><br/>普通になると見てよいです。<br/><br/>そうすれば今日の四倍ですからたいへんなものです。<br/><br/> 「本当に日本は救われたと思いました。<br/><br/>“アメリカを救う”などのように、ポスターに“日本は救われた”と標語してやってはと思います」 よいです。<br/><br/>“アメリカを救う”は救うだけで、今度は“日本は救われた”のだから、序幕と終幕との違いさです。<br/><br/>それでどんなことをしても二、三年中には日本人全部は頭を下げます。<br/><br/>下げないわけにはゆかなくなります。<br/><br/>そうするとこれが浄霊のほうに良い影響が行きます。<br/><br/>救世教の奴は医学であんなことを言っているが、自然農法を見ると夢のようなことが実現した、そうしてみると医学のほうも本当かもしれない、ということになりますから、そのほうに対する一つのよい影響も見逃せないことです。<br/><br/>とにかく信用ですから、全般的に救世教を見る目がぜんぜん違ってくるわけです。<br/><br/>それがこっちの一番狙うところなのです。<br/><br/>そこにちょうど、二、三日前の読売に「救世教奇跡集」の広告が出るし、同じ日の新聞に霊友会事件が出たが、あれも偶然ではないので意味があります。<br/><br/>あれは日蓮上人が、静岡問題のときに私が留置場にいるとき私に憑かって来て、非常に謝って「自分がたいへん間違ったことをしたために、許してもらいたい。<br/><br/>それでこれからは日蓮宗を、日蓮宗は自分のほうで、できるだけ早く分からせるようにして、大いに救世教のために尽くす」というようなことを言って約束したのです。<br/><br/>あれもその一つの現れです。<br/><br/>日蓮上人が日蓮宗をつぶしてしまうということになるのです。<br/><br/>もっとも日蓮上人が地獄で苦しんでいるのを私が救ってやったのだから、そのお礼がてらです。<br/><br/>いつか栄光に出しましたが、天理教の教祖も憑かって来ましたから、今に天理教にもそれが現れます。<br/><br/>人間と違って、神様の約束というものは決して間違いがありません。<br/><br/> 「最近の立正交成会のお蔭話は、医者にかかり手術をしたが、信仰しているので、お蔭様で良くなった、というのでございます」 滑稽なものです。<br/><br/>既成宗教というのはあんまり低級で、テンデ問題になりません。<br/><br/> 自然栽培で日本人全部に頭を下げさせて、それからハワイが今に全島が救世教になってしまうでしょう。<br/><br/>そうしたらアメリカはじっとしていられません。<br/><br/>どうしても自分のほうに来てくれということになります。<br/><br/>そうなればアメリカは割合に楽ですから、案外早く行くでしょう。<br/><br/>ただ、カトリックが控えているからそう簡単にはゆかないでしょうが、そうとうな勢力は植えつけられます。<br/><br/>だからこっちが地上天国を世界的に造るということも、以前ですと、いつどうしてできるか、ちょっと見当がつかないが、今ではともかく見通しだけがつきかかってきました。<br/><br/>大本教のお筆先に「三千世界のびっくり箱を開けると、あまり大きな取り違いで、アフンとして開いた口がすぼまらぬぞよ」というのがあります。<br/><br/>自然農法などもやっぱりびっくり箱です。<br/><br/>それで中京方面から始ったということは、これは神様のほうはそういうふうになっているので、当時観音教団と言って玉川でやっていたときは、それまではホンの東京都内ぐらいを目標にしてやっていたのですが、あのときに渋井さんが、地方をやってみたいと言うので、それもよかろうというのでやって、一番先が中京、名古屋方面です。<br/><br/>渡辺さんもその時分の人でしょう。<br/><br/>そうして馬鹿に急激に発展しました。<br/><br/>それで今度の自然農法と同じ経路です。<br/><br/>つまり伊都能売（いづのめ）で、真中ですから、そういうふうな形になるわけです。<br/><br/>それでいつも言うとおり、経と緯が結ばるのですから、緯がアメリカで経が日本で、どうしても経と緯を結ばなければならないので、それが救世教だといいうわけで、それがだんだん近寄っているのです。<br/><br/>救世教がアメリカと日本を結ぶというような形をとりつつあるのです。<br/><br/>ですから「アメリカを救う」という本はその最初の第一歩です。<br/><br/>それで、まずアメリカにゆくにはあんまり遠いから、間の飛び石がハワイなのです。<br/><br/>まずハワイに足をつけて、そうしてアメリカに行くというわけで、神様のほうはチャンとそう言う具合にできているのです。<br/><br/>お筆先に「神は水も漏らさぬ仕組をいたしてあるぞよ」というのがあります。<br/><br/> この三日にアメリカの有力な新聞の通信員か何かが来ることになって、救世教に関するいろいろなことを聞きたいというのです。<br/><br/>それで自分の所の新聞に一番先に出すからして、もし他の新聞が来ても、そのつもりで、なるべく話をしないでくれ、自分の新聞が先鞭をつけるというのです。<br/><br/>また、広告は出してくれるなというのです。<br/><br/>広告を出すと、広告を出したからそのお礼に記事を出したと見られるのは面白くないからと言うのです。<br/><br/>あっちはそういうふうになっているのでしょう。<br/><br/>今年は二十八年ですから、つまり五、六、七とこれが済んで八年から開けるというわけで、今年から八、九、十と行って、十は結びですから、ちょうど昭和三十年になるとすばらしい世界的地盤ができるわけです。<br/><br/>それから世界的宗教としてだんだん発足してゆくわけです。<br/><br/>ですから時節です。<br/><br/>お筆先にも「時節には神も敵わぬぞよ」「時節ほど有難い怖いものはないぞよ」とありますが、お筆先というのは実に簡単にはっきりと言ってあります。<br/><br/>この怖いというのは悪いものには怖いので、ありがたいというのは善のほうにはありがたいのです。<br/><br/> 「明主様は八日にお立ちになられますが、皇太子殿下は八日にお帰りになりますが」 皇太子殿下は霊的には私と非常に関係があります。<br/><br/>将来私がいろんなことを教えるようになるでしょう。<br/><br/>そういう時期が来ます。<br/><br/>やっぱり誕生日が同じで十二月二十三日ですから。<br/><br/> 農業の話ばかりになりましたが、質問があったらどうぞ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

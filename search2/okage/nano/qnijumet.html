@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnijumet</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 二十米の崖より落ちし瀕死の吾子救わる 『栄光』169号、昭和27(1952)年8月13日発行 北海道 みのり中教会 犬上俊子（35） 二十六年十月十三日、この日私が外出致すべく用意しておりますと、 「小母さん、小母さん、犬上君が崖から落ちたよ」と驚きに満ちた声で呼びに来ました。<br><br> その時の私の驚き、まあまあ悪くすると腕か足でも折ったのではないか、と思いながら急いでついて行きました。<br><br>その場所はいつの日にも子供等がターザン遊びをしている所です。<br><br> そこに（高さ約二十米位）来た瞬間、「しまった」と思いました。<br><br>初めて事の重大なる事を知り二度びっくり致しました。<br><br>無我夢中で二十米位の坂を下って行きました。<br><br>子供達は、早く降りていて「小母さん犬上君はまだ時々息をしています」と言うのです。<br><br>それを聞いて私は顛倒せんばかりに、驚きました。<br><br>夢中になって石の上に上向けに倒れている吾子を抱き起して見ました。<br><br>「慶和慶和」と呼べど吾子の返事は有りません。<br><br>ただ有るのは真青な顔の油汗と、何時出したか知れない吐血のみです。<br><br>「慶和慶和」ああ吾子は早や帰りません。<br><br>ふと気がついてこのままではどうにも出来ないと知り、付近の人に御願い申して近くの内科医に次に外科医に次に市の専門外科医に連れて行きました。<br><br>一度、二度、三度、その度毎に医師からは、「この子供はもう私等の手のほどこしようがない」との宣言です。<br><br>絶望！ 絶望！ 刻々と子供は重態になって行きます。<br><br>その頃より、後頭部の内出血の為か吐血もはげしくなって来ました。<br><br>医師は「後頭部打撲のためです。<br><br>この位ひどく強打致しますと、どんな者でも助かる事は、不可能です」との事です。<br><br>頭は見る見る内に二ツ位に大きくなって来ました。<br><br>そして朝食の時に食べたものを一緒に吐潟したのです。<br><br>医師に「今夜中には、なんとしても駄目です」と、はっきり宣告された時の私達親子の心持は……子供は親の注意を無にしての死です。<br><br>でも矢張り可哀相で、何んとかしてやりたいと思い、泣く泣く無理にお願いして、入院させて頂きました。<br><br>やがて死ぬ迄出来るだけの事をしてやりたいと思ったからです。<br><br> でも、それは当然この傷に対する処置方のない死を待つぱかりだったのです。<br><br>処置とは名ばかりで、言い訳的に打つカンフルだけです（浄霊を頂くまで三本注射しました）。<br><br>子供は益々前より強く吐血致します。<br><br>皆様お赦し下さいませ。<br><br> この時の私は「百人に一人治っても馬鹿になる」と言うこの傷に対して死を願いました。<br><br>そして更に信じ切れない奇蹟を願いました。<br><br>あきらめながらも奇蹟だけが心の願いでした。<br><br> 皆様、この大それた私の気持をお赦し下さい。<br><br>私はこの気持は親として無理がないと思います。<br><br>皆様、私はただ今余りの幸福さに、喜びにただこうしてつたないペンを執っております。<br><br> 皆様この奇蹟は終に御座居ました。<br><br> メシヤの神様にお救いを頂きました。<br><br>何日の日だったのかお光様の事を御伺い致しておりました事を思い出したのです。<br><br> それぞれの医師に見はなされた我が子のために、その奇蹟の御恵を何んとか戴けますように、と直ぐ私の友人の許に御願いしたのです。<br><br> 小樽教会の小松先生に直ぐ来て頂きました。<br><br> そして何の事はない、ただ手を空間にかざして御浄霊をして下さいました。<br><br>その内に奇蹟は次々に起って来ました。<br><br>医師の言葉で夕刻熱の出るはずの子供に大した熱もなくただ吐血は前と同じです。<br><br>私達はただただ神様にお願い致しました。<br><br>御浄霊二十分頃より心臓の鼓動もはっきりして来ました。<br><br>小松先生はこの時迄何にも言われなかったがただ「犬上さん、大光明如来様に御願い致して思い切って御縋り致すのですね。<br><br>偉大なるメシヤの神様は御縋りした者は見捨になりませんよ」ただそれのみです。<br><br>ああ！ その一言、地獄にて仏とか、人を見てこんなに神々しく感じた事は未だかつて有りません。<br><br>一瞬にして悲嘆のドン底より安心立命の境地へ…… 明主様有難う御座居ます。<br><br> 大光明如来様有難う御座居ます。<br><br>一時間二時間次々と奇蹟の連続です。<br><br>全然意識のない子供ですのに何回かのお小水もはっきり致すようになり、一度もよごしませんでした。<br><br>徹夜の御浄霊により吾子は死期を脱したようです。<br><br>小松先生は朝礼拝の為五時頃帰られました。<br><br> その後で信者が四、五名程御浄霊に来て下さいました。<br><br>その頃は、子供は静かなる寝息の下で安らかに寝ておりました。<br><br>私共は余りの有難さにただただ先生の後姿に合掌致しました。<br><br> やがて九時頃先生は御出下さいまして、そして色々の御話や教えを頂き、意を決して退院しました。<br><br>退院の時は先生自ら信徒と共にタンカをかついで遠い遠い道を吾が家まで運んで下さいました。<br><br>先生有難う御座居ました。<br><br>そして、私が二十三日入信致すまで毎日先生や信者さんから御浄霊を戴きました。<br><br>退院致しましてからの子供の様子は、毎日毎日驚く程の治りようでした。<br><br>これが本当の奇蹟です。<br><br> 折角御出で下さいます先生や、信者さん方に対して「小松先生は小樽で一番の悪魔だ、ナイフで切殺してやる」とか「先生の手は熱くて焼けそうだから俺は嫌だ」とか「手から光が出て俺の体が焼ける」とか「先生はいくら嚇かしても平気でいるから、俺は負けて帰る」とか次々と変な事を叫んでいた子供も、十九日を最後にとても静かになり、二十一日から忘れていた学校の事も気が付いて、思い出しては珍らしそうに御話をし始めました。<br><br>二十三日私が御教修頂きましてから益々治り方も早くなり、朝から起きて弟と遊び廻っております。<br><br>昨今では、登校の準備に大童致しております。<br><br>その上有難い事には以前に増して大変温和になった事で御座居ます。<br><br>全快まで後数日と思います。<br><br>奇蹟の連続と申しましょうか、その有難い御護りを賜わりました事を私達はこの上なく幸福と深く深く思っております。<br><br> 先生のお話で有りますと私達だけでなく、御先祖様方も御救いして頂けますとの事、益々有難く思っております。<br><br>この上は一人でも多くの不幸なる方々に御伝え致し、御恵を頂かせたく思っております。<br><br> 子供の頭のこぶもなくなり、食事も普通以上に進んでおります。<br><br>もう本当に大丈夫で御座居ます。<br><br> 明主様有難う御座居ました。<br><br>御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Artigos do Reverendo Jikan Okada – Relatos de Graça: Meu filho, em estado terminal após cair de um penhasco de vinte metros, é salvo</h2>
 <p><em>Revista Eikou, nº 169, publicada em 13 de agosto de 1952</em></p>
@@ -110,5 +265,48 @@ Muito obrigada, Dai-Komyo-Nyorai-Sama.</p>
 <p>Esta sucessão de milagres, esta sublime proteção divina que recebemos, nos enche de uma felicidade e uma gratidão que mal podemos expressar. Conforme nos ensinou o reverendo, não apenas nós fomos salvos, mas também nossos antepassados, o que torna nossa gratidão ainda mais profunda. De agora em diante, desejo ardentemente transmitir este Ensinamento ao maior número possível de pessoas que sofrem, para que também possam receber esta graça.</p>
 <p>O inchaço na cabeça de meu filho desapareceu completamente, e ele se alimenta mais do que o normal. Ele está, de fato, totalmente recuperado.</p>
 <p>Muito obrigada, Meishu-Sama. Expresso aqui minha mais profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 二十米の崖より落ちし瀕死の吾子救わる 『栄光』169号、昭和27(1952)年8月13日発行 北海道 みのり中教会 犬上俊子（35） 二十六年十月十三日、この日私が外出致すべく用意しておりますと、 「小母さん、小母さん、犬上君が崖から落ちたよ」と驚きに満ちた声で呼びに来ました。<br/><br/> その時の私の驚き、まあまあ悪くすると腕か足でも折ったのではないか、と思いながら急いでついて行きました。<br/><br/>その場所はいつの日にも子供等がターザン遊びをしている所です。<br/><br/> そこに（高さ約二十米位）来た瞬間、「しまった」と思いました。<br/><br/>初めて事の重大なる事を知り二度びっくり致しました。<br/><br/>無我夢中で二十米位の坂を下って行きました。<br/><br/>子供達は、早く降りていて「小母さん犬上君はまだ時々息をしています」と言うのです。<br/><br/>それを聞いて私は顛倒せんばかりに、驚きました。<br/><br/>夢中になって石の上に上向けに倒れている吾子を抱き起して見ました。<br/><br/>「慶和慶和」と呼べど吾子の返事は有りません。<br/><br/>ただ有るのは真青な顔の油汗と、何時出したか知れない吐血のみです。<br/><br/>「慶和慶和」ああ吾子は早や帰りません。<br/><br/>ふと気がついてこのままではどうにも出来ないと知り、付近の人に御願い申して近くの内科医に次に外科医に次に市の専門外科医に連れて行きました。<br/><br/>一度、二度、三度、その度毎に医師からは、「この子供はもう私等の手のほどこしようがない」との宣言です。<br/><br/>絶望！ 絶望！ 刻々と子供は重態になって行きます。<br/><br/>その頃より、後頭部の内出血の為か吐血もはげしくなって来ました。<br/><br/>医師は「後頭部打撲のためです。<br/><br/>この位ひどく強打致しますと、どんな者でも助かる事は、不可能です」との事です。<br/><br/>頭は見る見る内に二ツ位に大きくなって来ました。<br/><br/>そして朝食の時に食べたものを一緒に吐潟したのです。<br/><br/>医師に「今夜中には、なんとしても駄目です」と、はっきり宣告された時の私達親子の心持は……子供は親の注意を無にしての死です。<br/><br/>でも矢張り可哀相で、何んとかしてやりたいと思い、泣く泣く無理にお願いして、入院させて頂きました。<br/><br/>やがて死ぬ迄出来るだけの事をしてやりたいと思ったからです。<br/><br/> でも、それは当然この傷に対する処置方のない死を待つぱかりだったのです。<br/><br/>処置とは名ばかりで、言い訳的に打つカンフルだけです（浄霊を頂くまで三本注射しました）。<br/><br/>子供は益々前より強く吐血致します。<br/><br/>皆様お赦し下さいませ。<br/><br/> この時の私は「百人に一人治っても馬鹿になる」と言うこの傷に対して死を願いました。<br/><br/>そして更に信じ切れない奇蹟を願いました。<br/><br/>あきらめながらも奇蹟だけが心の願いでした。<br/><br/> 皆様、この大それた私の気持をお赦し下さい。<br/><br/>私はこの気持は親として無理がないと思います。<br/><br/>皆様、私はただ今余りの幸福さに、喜びにただこうしてつたないペンを執っております。<br/><br/> 皆様この奇蹟は終に御座居ました。<br/><br/> メシヤの神様にお救いを頂きました。<br/><br/>何日の日だったのかお光様の事を御伺い致しておりました事を思い出したのです。<br/><br/> それぞれの医師に見はなされた我が子のために、その奇蹟の御恵を何んとか戴けますように、と直ぐ私の友人の許に御願いしたのです。<br/><br/> 小樽教会の小松先生に直ぐ来て頂きました。<br/><br/> そして何の事はない、ただ手を空間にかざして御浄霊をして下さいました。<br/><br/>その内に奇蹟は次々に起って来ました。<br/><br/>医師の言葉で夕刻熱の出るはずの子供に大した熱もなくただ吐血は前と同じです。<br/><br/>私達はただただ神様にお願い致しました。<br/><br/>御浄霊二十分頃より心臓の鼓動もはっきりして来ました。<br/><br/>小松先生はこの時迄何にも言われなかったがただ「犬上さん、大光明如来様に御願い致して思い切って御縋り致すのですね。<br/><br/>偉大なるメシヤの神様は御縋りした者は見捨になりませんよ」ただそれのみです。<br/><br/>ああ！ その一言、地獄にて仏とか、人を見てこんなに神々しく感じた事は未だかつて有りません。<br/><br/>一瞬にして悲嘆のドン底より安心立命の境地へ…… 明主様有難う御座居ます。<br/><br/> 大光明如来様有難う御座居ます。<br/><br/>一時間二時間次々と奇蹟の連続です。<br/><br/>全然意識のない子供ですのに何回かのお小水もはっきり致すようになり、一度もよごしませんでした。<br/><br/>徹夜の御浄霊により吾子は死期を脱したようです。<br/><br/>小松先生は朝礼拝の為五時頃帰られました。<br/><br/> その後で信者が四、五名程御浄霊に来て下さいました。<br/><br/>その頃は、子供は静かなる寝息の下で安らかに寝ておりました。<br/><br/>私共は余りの有難さにただただ先生の後姿に合掌致しました。<br/><br/> やがて九時頃先生は御出下さいまして、そして色々の御話や教えを頂き、意を決して退院しました。<br/><br/>退院の時は先生自ら信徒と共にタンカをかついで遠い遠い道を吾が家まで運んで下さいました。<br/><br/>先生有難う御座居ました。<br/><br/>そして、私が二十三日入信致すまで毎日先生や信者さんから御浄霊を戴きました。<br/><br/>退院致しましてからの子供の様子は、毎日毎日驚く程の治りようでした。<br/><br/>これが本当の奇蹟です。<br/><br/> 折角御出で下さいます先生や、信者さん方に対して「小松先生は小樽で一番の悪魔だ、ナイフで切殺してやる」とか「先生の手は熱くて焼けそうだから俺は嫌だ」とか「手から光が出て俺の体が焼ける」とか「先生はいくら嚇かしても平気でいるから、俺は負けて帰る」とか次々と変な事を叫んでいた子供も、十九日を最後にとても静かになり、二十一日から忘れていた学校の事も気が付いて、思い出しては珍らしそうに御話をし始めました。<br/><br/>二十三日私が御教修頂きましてから益々治り方も早くなり、朝から起きて弟と遊び廻っております。<br/><br/>昨今では、登校の準備に大童致しております。<br/><br/>その上有難い事には以前に増して大変温和になった事で御座居ます。<br/><br/>全快まで後数日と思います。<br/><br/>奇蹟の連続と申しましょうか、その有難い御護りを賜わりました事を私達はこの上なく幸福と深く深く思っております。<br/><br/> 先生のお話で有りますと私達だけでなく、御先祖様方も御救いして頂けますとの事、益々有難く思っております。<br/><br/>この上は一人でも多くの不幸なる方々に御伝え致し、御恵を頂かせたく思っております。<br/><br/> 子供の頭のこぶもなくなり、食事も普通以上に進んでおります。<br/><br/>もう本当に大丈夫で御座居ます。<br/><br/> 明主様有難う御座居ました。<br/><br/>御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

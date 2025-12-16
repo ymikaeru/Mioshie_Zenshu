@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本医学の建設 （三） 『光明世界』4号、昭和10(1935)年7月25日発行 脳 疾 患 脳病には、大体数種あるが、まず、脳貧血から説明する。<br><br> 脳貧血とはその名のごとく、脳の貧血であっていかなる原因かというに、元来、人間の血液は、心臓に依って浄化される事は、今日までの医学上の解釈であるが、実は、心臓ばかりで浄化するのではない、血液自体が循環運動をする、その運動そのものによっても自然浄化をするのである。<br><br>浄化の結果は、循環の速度を増すのであって、それが健康を増す事は、医学で説明の通りである。<br><br> しかるに、血液浄化に因ってその不純物が、自然滞溜する場所があるのである。<br><br>その場所は主に頸部の周囲及び肩胛部なのである。<br><br>頸部一帯特に、延髄に、汚血滞溜する時は、身体より頭脳に送るべき血液通路である血管が圧迫さるるを以て、頭脳が要すべき、血液の量を送る能わず、従って血液に不足を来すのである。<br><br>これが即ち、脳貧血であって、症状としては頭痛及び、頭脳の圧迫感、眩暈（めまい）、耳鳴り、蓄膿症、眼の翳（かす）み等の外、反射作用による胃の不快と嘔吐感、陰欝、世に、神経衰弱と称する症状である。<br><br> 大体以上のごとくであるが、これは、余が浄血療法に依る時は容易に快癒するのであって、その治療日数も、普通は一週間位、重症にて二三週間もあれば、確実に全癒するのである。<br><br>長年の神経衰弱が二面の治療にて、全癒せし事も屡々（しばしば）ある。<br><br> 脳溢血及び脳充血 この病気は、近年益々増加の傾向があって、高血圧の人などは、非常に恐怖を抱いて居るが、これは少しも驚くに足りない。<br><br>余のところへ来れば、雑作なく治癒して、絶対脳溢血は起らない事を保証出来るのである。<br><br>この病気がなぜ多くなったかと言うと、現代日本人は、肉食を多く採り、無暗に薬剤を服用するから、血液は混濁する計りである。<br><br>その上、頭脳を過度に使用するから、ちょうど脳溢血を製造して居るようなものである。<br><br>前述のごとく、この病気は、血液混濁が原因であって、動脈硬化と同じ訳である。<br><br> 血液中の混濁は、不断の浄化作用に依り、その残渣（ざんさ）とも言うべき毒血は、主に後頸部、延髄付近に集中溜結するものである。<br><br>そして、これは必ず、右か左か一方に限られており、診断の場合、左右いずれかを指圧すれば、はっきり別〔分〕るのである。<br><br>しかるに、この毒血の溜結が益々増量して、ある程度を超ゆる時、毛細管を破って、小脳部へ溢出するのである。<br><br>これを称して脳溢血というのである。<br><br>そしてこの溢血が多量による悪性を脳充血というのである。<br><br> この病気の特長として、一時、人事不省に陥り、軽症は一昼夜位、重症に到っては二週間位を、そのまま持続するのである。<br><br>幸いに覚醒するや必ず、左右いずれかの腕、及び脚部麻痺してブラブラとなり、一時は、全然、知覚を失うもので、特に重症においては、覚醒するや舌の自由を失い、言語不能となるのである。<br><br>又病気発生の場合、鼻血、涎（よだれ）、嘔吐等を伴うものである。<br><br> この病気は、前兆としては、血圧の昂騰（こうとう）、頸部及び肩の凝り、手足の一部的麻痺、言語の不明晰等で、かくのごとき症状のある場合、余の療法を施せば、普通二三回ないし五六回にて全く治癒するのである。<br><br> 不幸にして、発病するとても、直に浄血療法を施せば、一週間ないし二週間位にて、大体快癒し、言語は、大略（たいりゃく）平常のごとく、腕は自由となり、歩行も可能となるのである。<br><br>しかし、何分一時ながらも、麻痺したる後なるを以て、全く平常通りになるには、一箇月位を要するのである。<br><br> しかるに一般世人は、医療に依って回復せんとするのは止むを得ないが、医療によっての治癒は、なかなか困難で、医学的には療法がないとさえされている。<br><br>しかし、症状に依っては二三年にして自然に治癒するものもあるが、悪性のものは十数年に渉っても離床する能わずして、ついに死に到る者もあって、この病気位、人により、重軽のはなはだしいのはないのである。<br><br>従って、治癒の時日を予定する事の困難なのは勿論である。<br><br>中には悪性でなくも、誤れる療法を持続せられし為の障害によって早く治るべき症状も、長日月を費さねばならなくなった患者も、すくなくはないのである。<br><br>そして、痛みのある症状ほど治癒し易いのは、経験によって瞭（あきら）かなところである。<br><br> （岡田仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Afecções Cerebrais</h2>
 <p>Dentre as diversas afecções cerebrais existentes, elucidarei primeiramente a anemia cerebral.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>É compreensível, todavia, que a maioria das pessoas recorra à medicina convencional na esperança de se recuperar. No entanto, a cura por meio de tratamentos médicos é extremamente difícil; de fato, a própria medicina considera que não existe uma terapia eficaz. Ainda que alguns casos mais brandos possam apresentar recuperação natural ao longo de dois ou três anos, as formas mais graves da doença podem manter o paciente acamado por mais de uma década, culminando, por fim, na morte. Nenhuma outra enfermidade apresenta uma variação tão drástica de gravidade entre os pacientes. Consequentemente, é impossível prever com exatidão o tempo necessário para a recuperação.</p>
 <p>Ademais, não são poucos os pacientes cujos quadros, embora não fossem graves, tornaram-se prolongados devido a obstáculos gerados pela insistência em tratamentos equivocados, retardando uma recuperação que poderia ter sido rápida. A experiência, por fim, nos ensina que os quadros que envolvem dor tendem a ser os de mais fácil e rápida resolução.</p>
 <p>(Okada Jinsai)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本医学の建設 （三） 『光明世界』4号、昭和10(1935)年7月25日発行 脳 疾 患 脳病には、大体数種あるが、まず、脳貧血から説明する。<br/><br/> 脳貧血とはその名のごとく、脳の貧血であっていかなる原因かというに、元来、人間の血液は、心臓に依って浄化される事は、今日までの医学上の解釈であるが、実は、心臓ばかりで浄化するのではない、血液自体が循環運動をする、その運動そのものによっても自然浄化をするのである。<br/><br/>浄化の結果は、循環の速度を増すのであって、それが健康を増す事は、医学で説明の通りである。<br/><br/> しかるに、血液浄化に因ってその不純物が、自然滞溜する場所があるのである。<br/><br/>その場所は主に頸部の周囲及び肩胛部なのである。<br/><br/>頸部一帯特に、延髄に、汚血滞溜する時は、身体より頭脳に送るべき血液通路である血管が圧迫さるるを以て、頭脳が要すべき、血液の量を送る能わず、従って血液に不足を来すのである。<br/><br/>これが即ち、脳貧血であって、症状としては頭痛及び、頭脳の圧迫感、眩暈（めまい）、耳鳴り、蓄膿症、眼の翳（かす）み等の外、反射作用による胃の不快と嘔吐感、陰欝、世に、神経衰弱と称する症状である。<br/><br/> 大体以上のごとくであるが、これは、余が浄血療法に依る時は容易に快癒するのであって、その治療日数も、普通は一週間位、重症にて二三週間もあれば、確実に全癒するのである。<br/><br/>長年の神経衰弱が二面の治療にて、全癒せし事も屡々（しばしば）ある。<br/><br/> 脳溢血及び脳充血 この病気は、近年益々増加の傾向があって、高血圧の人などは、非常に恐怖を抱いて居るが、これは少しも驚くに足りない。<br/><br/>余のところへ来れば、雑作なく治癒して、絶対脳溢血は起らない事を保証出来るのである。<br/><br/>この病気がなぜ多くなったかと言うと、現代日本人は、肉食を多く採り、無暗に薬剤を服用するから、血液は混濁する計りである。<br/><br/>その上、頭脳を過度に使用するから、ちょうど脳溢血を製造して居るようなものである。<br/><br/>前述のごとく、この病気は、血液混濁が原因であって、動脈硬化と同じ訳である。<br/><br/> 血液中の混濁は、不断の浄化作用に依り、その残渣（ざんさ）とも言うべき毒血は、主に後頸部、延髄付近に集中溜結するものである。<br/><br/>そして、これは必ず、右か左か一方に限られており、診断の場合、左右いずれかを指圧すれば、はっきり別〔分〕るのである。<br/><br/>しかるに、この毒血の溜結が益々増量して、ある程度を超ゆる時、毛細管を破って、小脳部へ溢出するのである。<br/><br/>これを称して脳溢血というのである。<br/><br/>そしてこの溢血が多量による悪性を脳充血というのである。<br/><br/> この病気の特長として、一時、人事不省に陥り、軽症は一昼夜位、重症に到っては二週間位を、そのまま持続するのである。<br/><br/>幸いに覚醒するや必ず、左右いずれかの腕、及び脚部麻痺してブラブラとなり、一時は、全然、知覚を失うもので、特に重症においては、覚醒するや舌の自由を失い、言語不能となるのである。<br/><br/>又病気発生の場合、鼻血、涎（よだれ）、嘔吐等を伴うものである。<br/><br/> この病気は、前兆としては、血圧の昂騰（こうとう）、頸部及び肩の凝り、手足の一部的麻痺、言語の不明晰等で、かくのごとき症状のある場合、余の療法を施せば、普通二三回ないし五六回にて全く治癒するのである。<br/><br/> 不幸にして、発病するとても、直に浄血療法を施せば、一週間ないし二週間位にて、大体快癒し、言語は、大略（たいりゃく）平常のごとく、腕は自由となり、歩行も可能となるのである。<br/><br/>しかし、何分一時ながらも、麻痺したる後なるを以て、全く平常通りになるには、一箇月位を要するのである。<br/><br/> しかるに一般世人は、医療に依って回復せんとするのは止むを得ないが、医療によっての治癒は、なかなか困難で、医学的には療法がないとさえされている。<br/><br/>しかし、症状に依っては二三年にして自然に治癒するものもあるが、悪性のものは十数年に渉っても離床する能わずして、ついに死に到る者もあって、この病気位、人により、重軽のはなはだしいのはないのである。<br/><br/>従って、治癒の時日を予定する事の困難なのは勿論である。<br/><br/>中には悪性でなくも、誤れる療法を持続せられし為の障害によって早く治るべき症状も、長日月を費さねばならなくなった患者も、すくなくはないのである。<br/><br/>そして、痛みのある症状ほど治癒し易いのは、経験によって瞭（あきら）かなところである。<br/><br/> （岡田仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

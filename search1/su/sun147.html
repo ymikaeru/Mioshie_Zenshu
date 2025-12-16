@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sun147</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光147号) 『栄光』147号、昭和27(1952)年3月12日発行 ◇今は喧嘩時代だ。<br><br>いわくソ連と米国、中共と国府軍、英国とイラン、エジプト、自由党と社会共産党、保安隊と共産党、警察と大学、亭主と女房、あいつとこいつ、メシヤ教と○○、○○と○○、アア何が何だか分らなくなって来たからよそう ◇改進党を首無し政党というが、それどころか無いものだらけだ。<br><br>いわく金無し、腕無し、碌でなし、力も目も無し、肚も無し、甲斐性なしの意気地なし、ヅクなし智慧なし元気なしと来ちゃ、到底見込なしだから、芽の出るはずもなし、頭の出来る訳もなし、もちろん内閣造る見込も、天下を取る当もなしの、ないないづくしの情なし。<br><br>ただあるものは愚痴と涙と溜息ばかり、まだあるある、山のような借金と、嬶（かかあ）のヒスに伜の結核、娘の家出にお妾の愛想づかし、執達吏の御入来とは、何とマアー、御気の毒で、お可哀想で、御同情をして上げた…くはありませんよ、ハックショイ ◇改進党は首無し政党とすりゃ、社会党は胴なし政党だよ。<br><br>見給え右と左の二本足ばかり、しかもイザリとあって、アッチヘフラリ、コッチヘフラリで、暗中茂三苦とはイヤハヤ、ムニャムニャムニャ ◇よく考えてみると、薬で病人をドシドシ作って呉れるのだから、メシヤ教は大繁昌なんだよ。<br><br>全く薬の御蔭だから、薬を神棚へ上げて、朝晩南無薬大明神様、有難や嬉しや、クシャクシヤクシャと、拝み奉るのが本当だと、チットモ思わないよ (注) ヅク、銑銭（ずくせん）江戸時代、銑鉄（せんてつ）で鋳造した粗悪な銭。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Aforismos Pungentes</h2>
 <p>Vivemos, presentemente, a era das contendas. Em toda parte, observa-se o confronto: a União Soviética versus os Estados Unidos; a China Comunista versus as forças nacionalistas; o Reino Unido versus o Irã e o Egito. No plano doméstico, o Partido Liberal digladia-se com a aliança social-comunista; as forças de segurança, com o partido comunista; a polícia, com as universidades. A discórdia se estende à vida privada: o marido contra a esposa, fulano contra sicrano, a Igreja Messiânica contra certas facções, estas contra aquelas... Ah, já não se distingue quem é quem nesse emaranhado, portanto, paremos por aqui.</p>
 <p>Afirma-se que o Partido Progressista Reformador é um partido acéfalo, mas a verdade é que lhe falta muito mais que uma liderança; é uma agremiação de ausências. Falta-lhe tudo: não tem fundos, não tem competência, não tem serventia. Não possui força nem visão, coragem nem fibra, ânimo nem perseverança, sabedoria nem vigor. Diante de tal quadro, não há a menor perspectiva de que possa germinar, de que um líder possa emergir e, por conseguinte, de que venha a formar um gabinete ou a governar a nação. É um partido desprovido de qualquer substância. As únicas coisas que possui em abundância são lamentos, lágrimas e suspiros. E a lista de infortúnios continua: uma montanha de dívidas, a esposa em crise de histeria, o filho com tuberculose, a filha que fugiu de casa, a amante que o abandonou e, para culminar, a visita do oficial de justiça. Que situação verdadeiramente lastimável, que desdita! Sinto-me compelido a expressar minha solidariedade... Só que não! Atchim!</p>
 <p>Se o Partido Progressista Reformador é acéfalo, o Partido Socialista é um partido sem tronco. Observem: não passa de duas pernas, a direita e a esquerda. E, para agravar, são pernas aleijadas, que cambaleiam desajeitadamente, ora para um lado, ora para o outro. Vê-los tatear na escuridão é, francamente... algo indescritível.</p>
 <p>Refletindo a fundo, constatamos que a Igreja Messiânica prospera enormemente porque a medicina não cessa de criar doentes. O mérito é inteiramente dos remédios. Portanto, o mais sensato seria entronizar os medicamentos no altar e, manhã e noite, reverenciá-los com a prece: "Salvai-nos, ó Grande Divindade da Medicina! Quão gratos somos, quão felizes estamos!". Eis o que se deveria fazer, embora eu não concorde com uma única palavra disso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光147号) 『栄光』147号、昭和27(1952)年3月12日発行 ◇今は喧嘩時代だ。<br/><br/>いわくソ連と米国、中共と国府軍、英国とイラン、エジプト、自由党と社会共産党、保安隊と共産党、警察と大学、亭主と女房、あいつとこいつ、メシヤ教と○○、○○と○○、アア何が何だか分らなくなって来たからよそう ◇改進党を首無し政党というが、それどころか無いものだらけだ。<br/><br/>いわく金無し、腕無し、碌でなし、力も目も無し、肚も無し、甲斐性なしの意気地なし、ヅクなし智慧なし元気なしと来ちゃ、到底見込なしだから、芽の出るはずもなし、頭の出来る訳もなし、もちろん内閣造る見込も、天下を取る当もなしの、ないないづくしの情なし。<br/><br/>ただあるものは愚痴と涙と溜息ばかり、まだあるある、山のような借金と、嬶（かかあ）のヒスに伜の結核、娘の家出にお妾の愛想づかし、執達吏の御入来とは、何とマアー、御気の毒で、お可哀想で、御同情をして上げた…くはありませんよ、ハックショイ ◇改進党は首無し政党とすりゃ、社会党は胴なし政党だよ。<br/><br/>見給え右と左の二本足ばかり、しかもイザリとあって、アッチヘフラリ、コッチヘフラリで、暗中茂三苦とはイヤハヤ、ムニャムニャムニャ ◇よく考えてみると、薬で病人をドシドシ作って呉れるのだから、メシヤ教は大繁昌なんだよ。<br/><br/>全く薬の御蔭だから、薬を神棚へ上げて、朝晩南無薬大明神様、有難や嬉しや、クシャクシヤクシャと、拝み奉るのが本当だと、チットモ思わないよ (注) ヅク、銑銭（ずくせん）江戸時代、銑鉄（せんてつ）で鋳造した粗悪な銭。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

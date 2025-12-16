@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seiyo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学に由る健康診断の疑問 『観音の光』10号、昭和11(1936)年4月11日発行 西洋医学における健康診断は、未だ以て不完全であるという事を最近の事実が示したのである。<br><br>それは松山文相の死である。<br><br>新聞紙の報道によれば、医学界の権威として帝大の古参教授として、令名の高い真鍋国手が死の三時間前に健康診断をしたという事である。<br><br>これは軽々に看過出来ない、重大問題である。<br><br>三時間後に死ぬという事を、予知出来得ない、健康診断なるものは、果して何の価値があるであろうか。<br><br>健康診断を受けようとする目的は、病気の前兆を知る事であり、病気の前兆を知ろうとする事は、万一の事態を免れんとする意図であることは、言うまでもない。<br><br> しかるにその最後の目的である、死そのものが、三時間前に予知出来ないとしたら、それは、健康診断などをしないのと同じ結果である。<br><br>これによって見れば、西洋医学は、もっともっと進歩しない限り、その健康診断は、未だ信頼するに足りないと言う事が出来る。<br><br> 又これらの問題に対して、当局も世人も余りに冷淡ではなかろうか、他方面における割合小さい問題にも、必要以上に神経を尖らす、現在の社会が、事医学上に関する一切は不思議な程寛大であるのはどうした事であろうか、この余りの寛大さに蔽（おお）われての為かは知らないが、赦すべからざる程の誤診誤療が頗（すこぶ）る多いという事は、想像され得るのである。<br><br>帝大の権威でさえが、今回のごとき不明である以上一般医師の診断の、いかなる程度であるかは、予想し得るであろう。<br><br>しかしこれは、医師を責むるのは当らないかも知れない、実は、罪は西洋医学にあるので、それは世人が想像する程に、進歩していないと見るのが、本当ではなかろうか、要するに、西洋医学過信の弊（へい）が、種々の形となって現れ、それをどうする事も出来ないというのが、現状ではあるまいか。<br><br> 注射の誤りや、手術の誤りによる急死、その他の確に医師の過失と認むべき事実に対し死者の家族の憤慨談や又、訴訟事件等の新聞記事を、よく見るのであるが、この場合なぜか医師の方が有利な結果となるようで、その為かは知ら無（ない）が、大抵泣寝入りとなる場合が、多いようである、もっとも医療に干渉し過ぎる事は、医師の治療における、支障ともなるのであるから、一概には言われ無が何事も程度があり程度を越えれば、弊害を醸（かも）すのは当然である。<br><br>しかも事は、人命に関するという、重大事においておやである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falibilidade dos Diagnósticos da Medicina Ocidental</h2>
 <p>Um acontecimento recente veio demonstrar a flagrante imperfeição dos exames de saúde realizados pela medicina ocidental: a morte do Ministro da Educação, o senhor Matsuyama. Conforme noticiado pela imprensa, o Dr. Manabe, uma sumidade do mundo médico e renomado professor da Universidade Imperial, realizou um exame de saúde no ministro apenas três horas antes de seu falecimento.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Com efeito, se uma sumidade da Universidade Imperial demonstra tamanha imprecisão, pode-se facilmente antever qual não será o grau de acerto dos diagnósticos realizados por médicos comuns. Contudo, talvez não seja justo culpar os médicos individualmente. Na realidade, a falha reside na própria medicina ocidental, e a verdade é que seu progresso não corresponde ao que o público em geral imagina. Em suma, o cenário atual não é outro senão aquele em que os malefícios decorrentes da confiança excessiva na medicina ocidental se manifestam de múltiplas formas, sem que se possa fazer algo a respeito.</p>
 <p>Frequentemente, deparamo-nos com notícias em jornais sobre a indignação de familiares e até mesmo processos judiciais decorrentes de mortes súbitas por erros em injeções, cirurgias ou outras falhas que deveriam ser inequivocamente reconhecidas como negligência médica. Contudo, por alguma razão, o resultado desses litígios parece pender favoravelmente para o lado do médico. Desconhece-se o motivo, mas o fato é que, na maioria das vezes, os familiares acabam por se resignar e sofrer em silêncio.</p>
 <p>É certo que uma interferência excessiva nos procedimentos médicos pode se tornar um obstáculo ao tratamento, de modo que não se pode generalizar. Todavia, tudo tem seu devido limite, e é natural que, uma vez ultrapassado, surjam malefícios. Tal ponderação se torna ainda mais premente quando se trata de um assunto da mais absoluta gravidade: a vida humana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学に由る健康診断の疑問 『観音の光』10号、昭和11(1936)年4月11日発行 西洋医学における健康診断は、未だ以て不完全であるという事を最近の事実が示したのである。<br/><br/>それは松山文相の死である。<br/><br/>新聞紙の報道によれば、医学界の権威として帝大の古参教授として、令名の高い真鍋国手が死の三時間前に健康診断をしたという事である。<br/><br/>これは軽々に看過出来ない、重大問題である。<br/><br/>三時間後に死ぬという事を、予知出来得ない、健康診断なるものは、果して何の価値があるであろうか。<br/><br/>健康診断を受けようとする目的は、病気の前兆を知る事であり、病気の前兆を知ろうとする事は、万一の事態を免れんとする意図であることは、言うまでもない。<br/><br/> しかるにその最後の目的である、死そのものが、三時間前に予知出来ないとしたら、それは、健康診断などをしないのと同じ結果である。<br/><br/>これによって見れば、西洋医学は、もっともっと進歩しない限り、その健康診断は、未だ信頼するに足りないと言う事が出来る。<br/><br/> 又これらの問題に対して、当局も世人も余りに冷淡ではなかろうか、他方面における割合小さい問題にも、必要以上に神経を尖らす、現在の社会が、事医学上に関する一切は不思議な程寛大であるのはどうした事であろうか、この余りの寛大さに蔽（おお）われての為かは知らないが、赦すべからざる程の誤診誤療が頗（すこぶ）る多いという事は、想像され得るのである。<br/><br/>帝大の権威でさえが、今回のごとき不明である以上一般医師の診断の、いかなる程度であるかは、予想し得るであろう。<br/><br/>しかしこれは、医師を責むるのは当らないかも知れない、実は、罪は西洋医学にあるので、それは世人が想像する程に、進歩していないと見るのが、本当ではなかろうか、要するに、西洋医学過信の弊（へい）が、種々の形となって現れ、それをどうする事も出来ないというのが、現状ではあるまいか。<br/><br/> 注射の誤りや、手術の誤りによる急死、その他の確に医師の過失と認むべき事実に対し死者の家族の憤慨談や又、訴訟事件等の新聞記事を、よく見るのであるが、この場合なぜか医師の方が有利な結果となるようで、その為かは知ら無（ない）が、大抵泣寝入りとなる場合が、多いようである、もっとも医療に干渉し過ぎる事は、医師の治療における、支障ともなるのであるから、一概には言われ無が何事も程度があり程度を越えれば、弊害を醸（かも）すのは当然である。<br/><br/>しかも事は、人命に関するという、重大事においておやである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmeosyu2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 明主様のクリームに就いての御教えを頂いて 『栄光』230号、昭和28(1953)年10月14日発行 東京都 照明中教会 千葉寿英子（26） 明主様日々御守護の程謹んで御礼申し上げます。<br><br>昭和二十年入信させて戴いた者でございます。<br><br>この度は八年間も悩んでおりました顔の「ハタケ」が治りましたお蔭を発表させていただきたいと存じ、拙文も省みませず御報告させて戴きます。<br><br> 思い出しますと私が十八歳の秋頃でした。<br><br>初めてつけるお化粧に興味を持ちつつ種々なお化粧品を集めて顔をつくるのに夢中でした。<br><br>ところがその後気もつかずにいましたのですが、翌年の春頃からひどいハタケになりました。<br><br>しかし気にもとめず相変らずお化粧しておりましたが、一年たった秋どうしてもハタケの工合がよくなりませんので、石鹸で顔を洗ってみました。<br><br> 今までガサガサした肌が一変でツルツルになりましたので、よくなったものと喜んでおりました。<br><br>翌朝目が覚めてあまり顔がつっぱりますので鏡を見ますと驚いたことにはハタケが以前よりひどくなって地腫がし、肌全体が大きくヒビ割になっているのには全く驚きました。<br><br>その悲観は今もって忘れることができません。<br><br>たった一夜でこんなにひどくなったのかと思いますと出勤前を控えて泣きたくなりました。<br><br>顔故に、ベッタリと薬も塗ることができずクリームをつけて出勤しましたが、その痛みといったらヤケドに遭ったようにとリヒリと痛みました。<br><br>ひどいところからは針でもさしたように穴から血が滲みでていました。<br><br> 当時私は会社関係に勤務致しておりました。<br><br>それから当分様子をみておりましたがお友達が綺麗にお化粧して来るのを見ますと心から羨しく思ってもどうすることもできませんでした。<br><br>女性故にその苦痛は私にとって大変なものでした。<br><br>しまいには手当り次第ドンドン色々なクリームをつけてみましたが、依然として治りませんでした。<br><br> 二十六年秋頃から外出以外はほとんど止めるように致し、二十七年五月に務めを辞めて教会に御奉仕に伺い月末には御山の御奉仕隊に参加させて戴き、それ以来お化粧のことなど忘れてしまい、有難い感謝の日々を過させて頂きました。<br><br>八カ月目に本部に帰りました時は、さしものハタケもいつとはなしに跡形もなく治っておりました。<br><br> 七月二十七日御参拝させて戴きました折明主様の御教えにクリームの害の御教えを戴き、それにつけない方がお化粧したよりも肌が綺麗になるとの嬉しい御教えを戴き、かつてはハタケ故に止むなく止めたあらゆるお化粧も、今日となれば神様の有難い御守護であった事と分り心から感謝の御礼を申し述べさせていただきます。<br><br>お化粧しなくなってからの方が人様から綺麗になったといわれるわけも分らせて戴き、神様の大きな御守護の感激に帰宅後すぐ筆をとらせて戴きました。<br><br>若い者にとりましての、こよなき福音！ 私の体験をありのままに述べさせて戴きました。<br><br> 明主様誠に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Recebendo o Ensinamento de Meishu-Sama sobre os Cremes</h2>
 <p>Revista Eikou, nº 230, publicada em 14 de outubro de 1953
@@ -99,5 +254,48 @@ Toshieko Chiba (26 anos), Igreja Johrei Center Shomei Naka – Tóquio</p>
 <p>No dia 27 de julho, durante uma peregrinação ao Solo Sagrado, tive a oportunidade de receber o ensinamento de Meishu-Sama sobre os malefícios dos cremes. Ele nos ensinou, ademais, a feliz verdade de que a pele, ao natural, torna-se mais bonita do que quando maquiada. Naquele instante, compreendi que ter abandonado a maquiagem — algo que, no passado, fui forçada a fazer por causa da minha afecção — fora, na verdade, uma imensa Proteção Divina. Do fundo do meu coração, desejo expressar minha mais sincera gratidão.</p>
 <p>Compreendi também por que as pessoas passaram a elogiar minha pele justamente depois que parei de me maquiar. Tomada pela emoção diante da grandiosa Proteção de Deus, senti a necessidade de tomar o pincel e escrever assim que retornei para casa. Para nós, jovens, este ensinamento é uma verdadeira boa-nova! Relatei minha experiência exatamente como ela aconteceu.</p>
 <p>A Meishu-Sama, minha mais profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 明主様のクリームに就いての御教えを頂いて 『栄光』230号、昭和28(1953)年10月14日発行 東京都 照明中教会 千葉寿英子（26） 明主様日々御守護の程謹んで御礼申し上げます。<br/><br/>昭和二十年入信させて戴いた者でございます。<br/><br/>この度は八年間も悩んでおりました顔の「ハタケ」が治りましたお蔭を発表させていただきたいと存じ、拙文も省みませず御報告させて戴きます。<br/><br/> 思い出しますと私が十八歳の秋頃でした。<br/><br/>初めてつけるお化粧に興味を持ちつつ種々なお化粧品を集めて顔をつくるのに夢中でした。<br/><br/>ところがその後気もつかずにいましたのですが、翌年の春頃からひどいハタケになりました。<br/><br/>しかし気にもとめず相変らずお化粧しておりましたが、一年たった秋どうしてもハタケの工合がよくなりませんので、石鹸で顔を洗ってみました。<br/><br/> 今までガサガサした肌が一変でツルツルになりましたので、よくなったものと喜んでおりました。<br/><br/>翌朝目が覚めてあまり顔がつっぱりますので鏡を見ますと驚いたことにはハタケが以前よりひどくなって地腫がし、肌全体が大きくヒビ割になっているのには全く驚きました。<br/><br/>その悲観は今もって忘れることができません。<br/><br/>たった一夜でこんなにひどくなったのかと思いますと出勤前を控えて泣きたくなりました。<br/><br/>顔故に、ベッタリと薬も塗ることができずクリームをつけて出勤しましたが、その痛みといったらヤケドに遭ったようにとリヒリと痛みました。<br/><br/>ひどいところからは針でもさしたように穴から血が滲みでていました。<br/><br/> 当時私は会社関係に勤務致しておりました。<br/><br/>それから当分様子をみておりましたがお友達が綺麗にお化粧して来るのを見ますと心から羨しく思ってもどうすることもできませんでした。<br/><br/>女性故にその苦痛は私にとって大変なものでした。<br/><br/>しまいには手当り次第ドンドン色々なクリームをつけてみましたが、依然として治りませんでした。<br/><br/> 二十六年秋頃から外出以外はほとんど止めるように致し、二十七年五月に務めを辞めて教会に御奉仕に伺い月末には御山の御奉仕隊に参加させて戴き、それ以来お化粧のことなど忘れてしまい、有難い感謝の日々を過させて頂きました。<br/><br/>八カ月目に本部に帰りました時は、さしものハタケもいつとはなしに跡形もなく治っておりました。<br/><br/> 七月二十七日御参拝させて戴きました折明主様の御教えにクリームの害の御教えを戴き、それにつけない方がお化粧したよりも肌が綺麗になるとの嬉しい御教えを戴き、かつてはハタケ故に止むなく止めたあらゆるお化粧も、今日となれば神様の有難い御守護であった事と分り心から感謝の御礼を申し述べさせていただきます。<br/><br/>お化粧しなくなってからの方が人様から綺麗になったといわれるわけも分らせて戴き、神様の大きな御守護の感激に帰宅後すぐ筆をとらせて戴きました。<br/><br/>若い者にとりましての、こよなき福音！ 私の体験をありのままに述べさせて戴きました。<br/><br/> 明主様誠に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

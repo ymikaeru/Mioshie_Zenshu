@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qinotiar</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 生命ある日 愚かなる者の手記 『結核の革命的療法』昭和26(1951)年8月15日発行 兵庫県 実生中教会 和泉龍於（36） 母の顔を血しぶきに紅く彩って、先立つであろう不幸をわびた大喀血の夜の憶出、一語毎に噴き出す血液、涙が出たか出なかったか、今も覚えがないが動顛もせず、冷静に処置をしてくれた母の姿は、今もなお私の網膜に灼けついて忘れ得ない。<br><br>昭和十六年九月九日、青蚊帳が初秋の風にゆれる夜の事であった。<br><br> これが以後八年間、絶対安静の床に、私をして膠着せしめ、結核病にあらず喀血病なりと嘆じさせた発端である。<br><br> 発病はそれよりまだ早い。<br><br>昭和十三年二月、山東省にて戦傷後、肺浸潤を宣せられていた。<br><br>一年余の病院生活後、家に帰ってきて、そして九日目、小量の血を吐いたが、喀血とは夢思わず、止血と共に、魚釣り、水泳、山登と、真夏の炎天下真黒になっていた。<br><br>十月再度の喀血が有ったが、これも間もなく止血して、元の職場に帰るべく上京した。<br><br> これが人生運命の転機であろうか、村の医師のいう、単なる咽喉出血と信じ、止血と共に起上り元気になって行ったのだから、あのままで一年も家郷にとどまっていたら、私の人生行路も、もっと違ったもので有ったかも知れない。<br><br> 京都へ戻って来た私を待っていたものは、いわゆる社会の恩恵と称せられる種々の健康診断であった。<br><br>レントゲン線上の極微の陰影を捉らえては、誇大的に恐怖を吹き込まれた。<br><br>不安にかられて、僅かな微熱の出没にも神経を尖らし、人目をさけて秘かに職場の便所に隠れては検温するようになった。<br><br>栄養剤と称するものを漁り、あるいは注射薬に絶大の期待をかけ、そして次々と裏切られていった。<br><br> 以前二回の出血もはっきりと肺出血と知った。<br><br>それ以後は兢々として血を怖れた。<br><br>事後恐怖だから考えれば、おかしな話ではある。<br><br> 青葉咲く五月、孤影情然と故郷に戻ってきてそしてこの血の大洗礼である。<br><br>喀血は前後七日続いた。<br><br>大小の喀血、よくも血があるものだと思う。<br><br>体験者の話として、よく一度に二升も三升も吐いたというが、それは誇張がある。<br><br>色彩が鮮かだけに、気持が動顛して幻惑されてしまい、少しの量でも大仰に感じるからであろう。<br><br>私は意識が朦朧として、四、五日は正気がなかったからどの程度だったか知らない。<br><br>家人も語るを欲しなかった。<br><br>最後の喀血は、魚腸の腐ったごとき臭気が有ったという。<br><br>この折は、医師がまだ生きていたのかと、首をかしげた話があり、今でも村人の話題となって残っている。<br><br> 秋深まると共に衰えた身にも力が整ってきた。<br><br>そして今度は、頻々たる小喀血と血痰の襲来である。<br><br>起座に移ろうとすると喀血、安静によってやっと自にして、堵（と）となると又赤、精神沈滞させることおびただしい。<br><br>幾度泣き幾度嘆じたことか、実に八年間の連続、私をして喀血病と嘆ぜしめるのも無理からぬと思うのである。<br><br> プレーメル、トルードーの唱導する安静、栄養、空気の三大原則による自然療法の忠実なる実行も、遂にこの出血は止め得なかった。<br><br>某通信療養者の会員だった私は精しく病状を記して、額田博士の指導を仰いだが、安静を忠実に実行することのみに返事は終始していた。<br><br> 遂に病苦に沈滴する私から、運命は最上の看護者の母を奪い去った。<br><br>昭和十七年十二月、「せめて一足なり庭先位歩ける迄にして死にたかった」の一語を最後に、苦悩多き七十の生涯を閉じた。<br><br>逆境に立っても、決して動じた事のなかった母だけに、この言葉は断腸の思いできいた。<br><br>階上と階下に分れて、遂に死顔すら見る事も出来ぬままに、納棺の釘音が、母と子の別れの曲となった。<br><br>それからは、七十二の老父に看られての生活、学者型の父だけに細々とした水仕事は辛らかったに相違ない。<br><br>逆境は更に逆境を生む。<br><br>十八、十九、二十と三年に四度の大洪水に遭って、家財一切水浸しにも遭った。<br><br> 戦況の不利は、いつしか療養生活の上にも変化を来たし、米粒すら見ぬ日も幾日か続いた。<br><br>肉も、魚も、卵もとうの昔に食膳から姿を消していた。<br><br>信奉していた栄養説も根底から崩れていった。<br><br>野菜に、野草、それで生きている以上変らざるを得ないのである。<br><br> 当時、厚生省予防局長、高野六郎博士の「人間が徹底的に栄養が不足すると結核は進行しない。<br><br>という説が有る。<br><br>先天性虚弱児童をみても分るごとく、これら児童は決して結核にかからない。<br><br>体力のないものは、かからないのだ。<br><br>結核患者で、こうした食事情を機に、実験台になる人はないか、結核は籤（くじ）と同じだ。<br><br>どこまで行って治るか分らない。<br><br>重いといって悲観も出来ないし、軽いとて楽観も出来ない。<br><br>とすればこの方法で救われるかも知れないのだ」との随筆を読んだ時、完全に私は分らなくなった。<br><br>そしてどうせ現代医学から見限られた自分なら、今度はこちらで医学を見限ろうと決心した。<br><br> しかし人間の弱さだろうか、効のないと知りつつ、兄弟、知人の親切にくれる民間薬に、もしやと望みを継いで呑む度、反応は直に現われて、異様な喀血を誘発させるだけであった。<br><br>疲労困憑なすところを知らず、天井に向って長溜息をもらすよりなかった。<br><br> 小酒井不木の「闘病術」に失敗し、自然療法に信頼出来なくなった身は、いかにすべきか、思考はただ一ところを空廻りするだけであった。<br><br>下根の徒と感じないではいられなかった。<br><br>それも機縁の熟する迄の過程であったのだろう。<br><br> 私の村にも、メシヤ教の教が入ってきた。<br><br>救いの道は知らぬ間につけられていたのである。<br><br>しかし容易に迷わずその大道に出るは難しい。<br><br>様々の神の道を教えられて、そして総てに失望し、中でも霊験いやちこと称するある祈祷師は、後一年の命と託宣を下したが、それから六年死にもせずいただけに、神にも心傾ける事もうとましかった。<br><br> しかし、神の大愛は、いかなる小さき者をも見捨て給わぬのである。<br><br>昭和二十四年夏、まず兄の入信に依り、暗黒の世界に光はさし初めた。<br><br>けれども猜疑深くなっている私は、その手を振る仕種が馬鹿らしく、そんな事でとニヒルな目でみつめていた。<br><br>その反面、人間心理の面白さ、なんでもいい救われたかった。<br><br>一度、二度と浄霊うける度、五体に生気の溢れるは覚えたが、自ら起上る気力は欠けていた。<br><br> 「病気は浄化作用、喀血を怖れるな、せめて一足と望んだ母の墓に、這ってでも詣ってから死ね、それ丈でも、心配かけて心残して逝った母への孝養だと思わんか、汚い病気で朽ちるよりどれだけ立派か知れない」励まされ、ようやく起上る気になった。<br><br>怖れた喀血も有った。<br><br>血痰もあった、しかしその都度浄霊によって切抜けて行った。<br><br> 奇蹟は有るのである。<br><br>この脆い喀血性は、アレルギー性だといい、欝血性だともいわれるが、どちらにしても要するに癒ればいいのである。<br><br>月のほとんどを埋めた赤い痰も、やがて白が多くなる日に変って急速に元気になって行った。<br><br> はじめて大地を踏んだ感激は今もって忘れ得ない。<br><br>人目につくところに出た時、記憶の中から喪失されかけていた人間だった私は、声もなく驚きの目で迎えられるだけであった。<br><br>私にとっては、むしろ子供達の成長が驚きだった。<br><br>八年の歳月をまざまざとそこに見たのである。<br><br> 檪（くぬぎ）林の木立から、バラバラと音を立てて、黄葉が墓標に降りかかる秋の昼下り、今は一本の墓標と化した母の墓に私は静かに額ずいた。<br><br>墓標の文字さえ、もう風化しかけて、額ずけば様々の想出が去来して嗚咽がひとりでに洩れるのだった。<br><br>どの位いたであろうか、私の前後左右に、しきりなしに黄葉が散りかかっていた。<br><br>一つの責は、今果したのである。<br><br>これから先、私の行くべき道は何であろうか、深い感慨に打たれて、静かに丘を下ってきた。<br><br> その年の十二月、森山先生から、親しく教修を受けて、御守を頂いた。<br><br>諸先生から、信者から、浄霊をうけつつ、浄化もあったが、益々元気になって行った。<br><br> 元気になればなる程、一人でも多くの人に、この喜びの世界を知らせ、導いて上げたいと感じ、無理ながら森山先生に、実生中教会での御手伝をさせて頂きたく御願した。<br><br>快く許して頂いた折の喜びは、たとえようもなかった。<br><br>島根県の西から、西宮への長旅も御守護により無事に教会に着かせて頂いた。<br><br> 間もなく熱海へも参拝させて頂き、そして今日に及んでいる。<br><br>様々の消長はあったが、益々元気にさせて頂いている。<br><br>御参り毎に、明主様の御光、直接に浴びさせて頂き、生きる喜びを知り、己が倖せを沁々と味う今日この頃である。<br><br>ただ願うは、現世地上天国建設にいささかなりと誠捧げて、一日も早きその日の到来のために、粉骨砕身したい念願である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Revolucionária da Tuberculose (15 de agosto de 1951)</h2>
 <p>Um relato de Tatsuo Izumi (36 anos), da Igreja Miochu, em Hyogo.</p>
@@ -113,5 +268,48 @@ function toggleLang(lang) {
 <p>Em dezembro daquele ano, recebi o Curso de Iniciação diretamente do Reverendo Moriyama e fui outorgado com o Ohikari. Recebendo Johrei de reverendos e membros, passei por purificações, mas minha saúde se fortalecia cada vez mais.</p>
 <p>Quanto mais vigoroso eu me tornava, mais sentia o desejo de levar a notícia deste mundo de alegria ao maior número de pessoas possível. Assim, tomei a liberdade de pedir ao Reverendo Moriyama que me permitisse auxiliar na Igreja Miochu. A alegria que senti quando ele prontamente me autorizou foi indescritível. Com a proteção divina, fiz a longa viagem do oeste da província de Shimane até Nishinomiya e cheguei em segurança à igreja.</p>
 <p>Pouco tempo depois, tive a permissão de peregrinar a Atami, e assim tenho vivido até hoje. Passei por altos e baixos, mas minha saúde continua a melhorar. A cada peregrinação, banho-me diretamente na Luz de Meishu-Sama, conheço a alegria de viver e saboreio profundamente a felicidade que me foi concedida. Agora, meu único anseio é devotar-me com toda a sinceridade à construção do Paraíso Terrestre, dedicando-me de corpo e alma para que a chegada desse dia seja antecipada o máximo possível.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 生命ある日 愚かなる者の手記 『結核の革命的療法』昭和26(1951)年8月15日発行 兵庫県 実生中教会 和泉龍於（36） 母の顔を血しぶきに紅く彩って、先立つであろう不幸をわびた大喀血の夜の憶出、一語毎に噴き出す血液、涙が出たか出なかったか、今も覚えがないが動顛もせず、冷静に処置をしてくれた母の姿は、今もなお私の網膜に灼けついて忘れ得ない。<br/><br/>昭和十六年九月九日、青蚊帳が初秋の風にゆれる夜の事であった。<br/><br/> これが以後八年間、絶対安静の床に、私をして膠着せしめ、結核病にあらず喀血病なりと嘆じさせた発端である。<br/><br/> 発病はそれよりまだ早い。<br/><br/>昭和十三年二月、山東省にて戦傷後、肺浸潤を宣せられていた。<br/><br/>一年余の病院生活後、家に帰ってきて、そして九日目、小量の血を吐いたが、喀血とは夢思わず、止血と共に、魚釣り、水泳、山登と、真夏の炎天下真黒になっていた。<br/><br/>十月再度の喀血が有ったが、これも間もなく止血して、元の職場に帰るべく上京した。<br/><br/> これが人生運命の転機であろうか、村の医師のいう、単なる咽喉出血と信じ、止血と共に起上り元気になって行ったのだから、あのままで一年も家郷にとどまっていたら、私の人生行路も、もっと違ったもので有ったかも知れない。<br/><br/> 京都へ戻って来た私を待っていたものは、いわゆる社会の恩恵と称せられる種々の健康診断であった。<br/><br/>レントゲン線上の極微の陰影を捉らえては、誇大的に恐怖を吹き込まれた。<br/><br/>不安にかられて、僅かな微熱の出没にも神経を尖らし、人目をさけて秘かに職場の便所に隠れては検温するようになった。<br/><br/>栄養剤と称するものを漁り、あるいは注射薬に絶大の期待をかけ、そして次々と裏切られていった。<br/><br/> 以前二回の出血もはっきりと肺出血と知った。<br/><br/>それ以後は兢々として血を怖れた。<br/><br/>事後恐怖だから考えれば、おかしな話ではある。<br/><br/> 青葉咲く五月、孤影情然と故郷に戻ってきてそしてこの血の大洗礼である。<br/><br/>喀血は前後七日続いた。<br/><br/>大小の喀血、よくも血があるものだと思う。<br/><br/>体験者の話として、よく一度に二升も三升も吐いたというが、それは誇張がある。<br/><br/>色彩が鮮かだけに、気持が動顛して幻惑されてしまい、少しの量でも大仰に感じるからであろう。<br/><br/>私は意識が朦朧として、四、五日は正気がなかったからどの程度だったか知らない。<br/><br/>家人も語るを欲しなかった。<br/><br/>最後の喀血は、魚腸の腐ったごとき臭気が有ったという。<br/><br/>この折は、医師がまだ生きていたのかと、首をかしげた話があり、今でも村人の話題となって残っている。<br/><br/> 秋深まると共に衰えた身にも力が整ってきた。<br/><br/>そして今度は、頻々たる小喀血と血痰の襲来である。<br/><br/>起座に移ろうとすると喀血、安静によってやっと自にして、堵（と）となると又赤、精神沈滞させることおびただしい。<br/><br/>幾度泣き幾度嘆じたことか、実に八年間の連続、私をして喀血病と嘆ぜしめるのも無理からぬと思うのである。<br/><br/> プレーメル、トルードーの唱導する安静、栄養、空気の三大原則による自然療法の忠実なる実行も、遂にこの出血は止め得なかった。<br/><br/>某通信療養者の会員だった私は精しく病状を記して、額田博士の指導を仰いだが、安静を忠実に実行することのみに返事は終始していた。<br/><br/> 遂に病苦に沈滴する私から、運命は最上の看護者の母を奪い去った。<br/><br/>昭和十七年十二月、「せめて一足なり庭先位歩ける迄にして死にたかった」の一語を最後に、苦悩多き七十の生涯を閉じた。<br/><br/>逆境に立っても、決して動じた事のなかった母だけに、この言葉は断腸の思いできいた。<br/><br/>階上と階下に分れて、遂に死顔すら見る事も出来ぬままに、納棺の釘音が、母と子の別れの曲となった。<br/><br/>それからは、七十二の老父に看られての生活、学者型の父だけに細々とした水仕事は辛らかったに相違ない。<br/><br/>逆境は更に逆境を生む。<br/><br/>十八、十九、二十と三年に四度の大洪水に遭って、家財一切水浸しにも遭った。<br/><br/> 戦況の不利は、いつしか療養生活の上にも変化を来たし、米粒すら見ぬ日も幾日か続いた。<br/><br/>肉も、魚も、卵もとうの昔に食膳から姿を消していた。<br/><br/>信奉していた栄養説も根底から崩れていった。<br/><br/>野菜に、野草、それで生きている以上変らざるを得ないのである。<br/><br/> 当時、厚生省予防局長、高野六郎博士の「人間が徹底的に栄養が不足すると結核は進行しない。<br/><br/>という説が有る。<br/><br/>先天性虚弱児童をみても分るごとく、これら児童は決して結核にかからない。<br/><br/>体力のないものは、かからないのだ。<br/><br/>結核患者で、こうした食事情を機に、実験台になる人はないか、結核は籤（くじ）と同じだ。<br/><br/>どこまで行って治るか分らない。<br/><br/>重いといって悲観も出来ないし、軽いとて楽観も出来ない。<br/><br/>とすればこの方法で救われるかも知れないのだ」との随筆を読んだ時、完全に私は分らなくなった。<br/><br/>そしてどうせ現代医学から見限られた自分なら、今度はこちらで医学を見限ろうと決心した。<br/><br/> しかし人間の弱さだろうか、効のないと知りつつ、兄弟、知人の親切にくれる民間薬に、もしやと望みを継いで呑む度、反応は直に現われて、異様な喀血を誘発させるだけであった。<br/><br/>疲労困憑なすところを知らず、天井に向って長溜息をもらすよりなかった。<br/><br/> 小酒井不木の「闘病術」に失敗し、自然療法に信頼出来なくなった身は、いかにすべきか、思考はただ一ところを空廻りするだけであった。<br/><br/>下根の徒と感じないではいられなかった。<br/><br/>それも機縁の熟する迄の過程であったのだろう。<br/><br/> 私の村にも、メシヤ教の教が入ってきた。<br/><br/>救いの道は知らぬ間につけられていたのである。<br/><br/>しかし容易に迷わずその大道に出るは難しい。<br/><br/>様々の神の道を教えられて、そして総てに失望し、中でも霊験いやちこと称するある祈祷師は、後一年の命と託宣を下したが、それから六年死にもせずいただけに、神にも心傾ける事もうとましかった。<br/><br/> しかし、神の大愛は、いかなる小さき者をも見捨て給わぬのである。<br/><br/>昭和二十四年夏、まず兄の入信に依り、暗黒の世界に光はさし初めた。<br/><br/>けれども猜疑深くなっている私は、その手を振る仕種が馬鹿らしく、そんな事でとニヒルな目でみつめていた。<br/><br/>その反面、人間心理の面白さ、なんでもいい救われたかった。<br/><br/>一度、二度と浄霊うける度、五体に生気の溢れるは覚えたが、自ら起上る気力は欠けていた。<br/><br/> 「病気は浄化作用、喀血を怖れるな、せめて一足と望んだ母の墓に、這ってでも詣ってから死ね、それ丈でも、心配かけて心残して逝った母への孝養だと思わんか、汚い病気で朽ちるよりどれだけ立派か知れない」励まされ、ようやく起上る気になった。<br/><br/>怖れた喀血も有った。<br/><br/>血痰もあった、しかしその都度浄霊によって切抜けて行った。<br/><br/> 奇蹟は有るのである。<br/><br/>この脆い喀血性は、アレルギー性だといい、欝血性だともいわれるが、どちらにしても要するに癒ればいいのである。<br/><br/>月のほとんどを埋めた赤い痰も、やがて白が多くなる日に変って急速に元気になって行った。<br/><br/> はじめて大地を踏んだ感激は今もって忘れ得ない。<br/><br/>人目につくところに出た時、記憶の中から喪失されかけていた人間だった私は、声もなく驚きの目で迎えられるだけであった。<br/><br/>私にとっては、むしろ子供達の成長が驚きだった。<br/><br/>八年の歳月をまざまざとそこに見たのである。<br/><br/> 檪（くぬぎ）林の木立から、バラバラと音を立てて、黄葉が墓標に降りかかる秋の昼下り、今は一本の墓標と化した母の墓に私は静かに額ずいた。<br/><br/>墓標の文字さえ、もう風化しかけて、額ずけば様々の想出が去来して嗚咽がひとりでに洩れるのだった。<br/><br/>どの位いたであろうか、私の前後左右に、しきりなしに黄葉が散りかかっていた。<br/><br/>一つの責は、今果したのである。<br/><br/>これから先、私の行くべき道は何であろうか、深い感慨に打たれて、静かに丘を下ってきた。<br/><br/> その年の十二月、森山先生から、親しく教修を受けて、御守を頂いた。<br/><br/>諸先生から、信者から、浄霊をうけつつ、浄化もあったが、益々元気になって行った。<br/><br/> 元気になればなる程、一人でも多くの人に、この喜びの世界を知らせ、導いて上げたいと感じ、無理ながら森山先生に、実生中教会での御手伝をさせて頂きたく御願した。<br/><br/>快く許して頂いた折の喜びは、たとえようもなかった。<br/><br/>島根県の西から、西宮への長旅も御守護により無事に教会に着かせて頂いた。<br/><br/> 間もなく熱海へも参拝させて頂き、そして今日に及んでいる。<br/><br/>様々の消長はあったが、益々元気にさせて頂いている。<br/><br/>御参り毎に、明主様の御光、直接に浴びさせて頂き、生きる喜びを知り、己が倖せを沁々と味う今日この頃である。<br/><br/>ただ願うは、現世地上天国建設にいささかなりと誠捧げて、一日も早きその日の到来のために、粉骨砕身したい念願である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

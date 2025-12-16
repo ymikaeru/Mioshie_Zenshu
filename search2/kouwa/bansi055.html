@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bansi055</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ４ 055-067 諸神仏 055 皇紀前の神 日本における皇紀以前の宗教、文化につき御開示お願い申し上げます。<br><br> 皇紀前は素盞嗚尊、その前は天照大御神。<br><br>これは明主様の御教えと同じである。<br><br> （S25. 3. 3） 056 西洋、支那に古代仏はなかったか 西洋歴史においてエジプト七千年、東洋史において支那五千年という事を学びましたが、三千年前において神界と仏界が変化したとすれば、それ以前に支那、エジプトには現然と文化が栄えていたのですが、支那エジプトには神仏界は存在したのですか。<br><br>また、日本における神仏界の転換はいかなる形態で行なわれたのですか。<br><br>御教示お願い申し上げます。<br><br> 支那でもエジプトでも仏はなかった。<br><br>神であった。<br><br>（エジプトではアラーの神）支那では盤古神王が一番最初統治した。<br><br>これが支那の先祖になり、天照大神になる。<br><br> 日本は古神道であったが、欽明十三年仏教が渡来し、発達してから、神道の勢力を侵蝕した。<br><br>（S24. 9. 8） 057 聖徳太子が職人の守護神 聖徳太子を職人の守護神としてよく祀っておりますが、特別のお働きがあるので御座居ますか。<br><br> 聖徳太子は種々の物をこしらえた人であるから、職人が神として御守護願うのは立派に意味がある。<br><br>法隆寺なども聖徳太子が造られた最古の建造物である。<br><br>偉い人である。<br><br>戦時中の荒廃で、頭痛鉢巻の状態である。<br><br> 弁天様は芸能の神で、音楽を好む。<br><br>白蛇。<br><br>蛇は笛が好きで、コブラが笛に合わして首を振って踊るのは知られている。<br><br>（S24. 1.23） 058 国造神 阿蘇神宮に御祭りしてある御神体は 国造の神と言われておりますが、宇佐八幡宮といかなる関係にありますか、また、観音様との関係―― 国造神は方々に沢山ある。<br><br>国造る時のお手伝いをした神で、国を造った神様が国常立尊である。<br><br> 観音様との関係は、彦火々出見尊の方が濃い。<br><br>（S24. 4.28） 059 稚姫君尊の親神 稚姫君命はいつ頃お現れになった神様でしょうか、御伺い申し上げます。<br><br> 天照大神の三番目の娘である。<br><br>そう古い時代ではない。<br><br>約三千年前、天照天皇は素盞嗚尊に征められた時追われて逃げられ、皇后様だけ残られた。<br><br>婦人の故に尊は赦（ゆる）した訳である。<br><br> いずれすっかり発表するが、時期が未だ早い。<br><br>（S24. 6.27） 060 神孫瓊々杵尊 神孫瓊々杵尊について、御開示戴きとう御座います。<br><br> 瓊々杵尊は支那漢族中の英雄である。<br><br>猶太人らしい。<br><br>ユダヤの十二種族の一種族で東方へ行ったきり消息が絶えた。<br><br>これは十二の流れがあったが、今は十一種族になっている。<br><br>その一が前漢の時代に支那へ行ったが、種族の違うため好遇されず日本へ行った。<br><br>それが瓊々杵尊であると思う。<br><br>鵜茅葺不合、神武等の時代の中に、ユダヤの文化が非常に入っている。<br><br>博物館などにあるが、菊の紋はユダヤの紋である。<br><br>また西洋の輿論のようなものが入っている。<br><br>なぜこれが瓊々杵尊か神秘がある。<br><br> 本当は瓊々杵尊は天照大神の系統で、支那から渡来した瓊々杵尊はユダヤ系というのは、これは違うのである。<br><br>これは大いに神秘がある。<br><br>（S23. 7. 4） 061 七の神仏 七は盤古神王で、土の系統の神である。<br><br>今迄日本を支配していた。<br><br> 七五三というのは、土の時代であるからである。<br><br> 釈迦は観音の母である。<br><br>（S23） 062 神と善悪、伊都能売、大乗の見方 神様でも、戦犯者で追放になった神もあり、心ならずも戦に加わった神もある。<br><br>これらは末端の神である。<br><br> 正神と邪神とあり、最高の神は善悪はない。<br><br>悪人も必要である。<br><br>悪人からみると善人は悪人、善人など邪魔気のものとなる。<br><br>主神は悪人も善人も御自分で造られた。<br><br>但し、これは想像である。<br><br>故に善悪無差別である。<br><br>これは大乗の説き方で、下根の者にこれを説くと弊害があるから一般に説く事は出来ぬ。<br><br> 大乗、他力＝キリスト 水。<br><br>小乗、仏教 本来は経で、自力。<br><br>本当はどっちも間違いである。<br><br>今迄は大乗小乗は別々になっていた。<br><br>これはどちらも間違いで、これが結ばれたものを伊都能売といい、その十の字の真中に人間は立ち、善にも悪にも、経にも緯にもなる。<br><br>これが自由無碍の観音の働きである。<br><br>経緯結ぶと力が出る。<br><br> 力――霊の力は左進右退であり、物質の力・体の力は右進左退である。<br><br> 米国は水、日本は火、共産主義は火であるから、米ソ戦えばソ連は負ける。<br><br> 十に結んで開けるのは十八。<br><br>これは五六七であり、三六九である。<br><br>富士山をハチスの山という、八の字とスという事である。<br><br> 日本を善い国にするのはアメリカで、日本は日、アメリカは星になる。<br><br>（S23. 6.24） 063 軍神という事、今迄の宗教、（今後の浄化） 軍神などという馬鹿な事はない。<br><br>戦いをするのは悪魔で、集団殺人など神様はなさらぬ。<br><br>戦犯者に対する認識がはっきりせぬ。<br><br>それを本当に説く宗教がない。<br><br>アメリカがみれば、宗教を撲滅しようとするのは本当である。<br><br>日本の道徳など全部間違いである。<br><br>全く新しくした方がよい。<br><br>新しい道義を建てなくてはならぬ。<br><br>キリスト教にも欠点がある。<br><br>それよりもっと欠点のないものを作る。<br><br>今迄ではキリスト教が一番いい。<br><br>どこかというと病気が治せぬ。<br><br>善い事を言ってるが力がない。<br><br>それにこちらで力によって病気を解決し、神はもっと大きい救いを垂れようとしておられる。<br><br>今迄は注射を打つと、浄化力が弱いので全身に廻るが、今は非常に強くなっており、入ったらすぐに排除しようとする。<br><br>そのために斑点が出来る。<br><br>内出血のようにみえる。<br><br>（S23.11.25） 064 戦神などの整理（拝むべからざるを拝む罪） 拝むべからざるものを拝んだ罪、拝ませた罪という点から見て、獣の神、戦争の神等の産土神と氏子は現在どういう関係になっているので御座いましょうか。<br><br> 拝むべからざるものを拝むのは、自分は良いと信じていたのだから大した罪にはならぬ。<br><br>しかし全然いいとはいえぬ。<br><br>いくらかの罪はある。<br><br>産土神とすれば別で、これは仕方がない。<br><br>その時の必要からあるんで、区役所のようなもので、神様でいえば行政官であるから、善い悪いよりはなくては困る。<br><br> 戦犯者など、拝むべからざるものを何代も拝んだ。<br><br>上の地位にあるべからざるものが上位にいた。<br><br> 戦争の神など拝ましたのは乱れの固で、今度はすっかり整理される。<br><br> 時所位の間違ってあったものを整理される。<br><br>今は古い家を壊し、新しい家を建てる時である。<br><br> 065 神々を語る事 いろんな神々の名には触れぬようにしている。<br><br>神は日本だけ救うような事はない。<br><br>全世界人類を救われる。<br><br>日本だけというと面白くない。<br><br>神様がどうのこうのというのは言葉の遊戯に過ぎぬ。<br><br>一種の神話に過ぎぬ。<br><br>それでは現代の人間は納得出来ぬ。<br><br>既成宗教の衰えたのなどは、現代人と合わぬからである。<br><br>今既成宗教に頼る事は自動車をすてて駕籠に乗るような事になる。<br><br> 宗教は現代人を救うのみでなく、一歩先へ行って指導すべきである。<br><br>すべて霊界が先であるから神の経綸が先にならなくてはならぬ。<br><br>故に私は宗教の型破りで、説き方もやり方も違う。<br><br>世を指導して行くのでなくてはならぬ。<br><br>（皆が納得するよう） 何の神がどうだこうだといっても、日常の生活に織込めぬ。<br><br>それは釈迦時代の生活難のない時代の事である。<br><br>いくら稼いでも食えない。<br><br>半日瞑想したら、食う事に追われる。<br><br>そこで善言讃詞を造った。<br><br> 婦人が綺麗な恰好して踊るなど、神様はお喜びになる。<br><br>（S23） 066 天照大神と国常立尊、神話的な知識について 天照皇大神様と国常立尊様との御関係は―― こういう事は答弁はせぬつもりである。<br><br>神道でいう事である。<br><br> 本教は進歩的宗教であるから、今後の時代の世界人類を救うので、それには関係のない事である。<br><br>そういう事が判っても現代思想や社会生活に関係はない。<br><br>一つのお道楽にすぎない。<br><br>これらは神国思想を養うために利用されたものである。<br><br>日本の軍部などが利用した。<br><br>外国へ知れるとよくない。<br><br>そういう自惚思想がまだあるかと疑念をもたれる。<br><br> たとえミロクの世になっても、知っても知らなくても同じ事である。<br><br>それより外の痛切な問題を知った方がよい。<br><br> すべて世界主義でなくてはいけない。<br><br> 067 日本国名と国旗 神様から御覧になられて、日本国という名前は意義のある事でしょうか。<br><br> また、日の丸の旗は征服を意味するとの説もありますが、国旗の意義は何でございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 日本は極東にあるから、太陽は東から出るから（日の本という）日本から太陽が出るように解（と）れるから日の本と言った。<br><br>従って日の丸の旗もそういう意味で出来た。<br><br>（あまり古いものではなく）薩摩の島津家で最初造った。<br><br>明治ちょっと前に出来た。<br><br>よく天照大神の伝説で（天祖出生地のごとく宣伝した）日本は日の本であるから尊いと言ったが、そんな事はない。<br><br>それでは日本だけ日が照らして世界中照らさぬ訳になる。<br><br>これは理屈づけて独りよがりに軍部が使ったのである。<br><br>（S24. 1.18）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Divindades e Budas</h2>
 <h3>055 As Divindades no Período Pré-Imperial</h3>
@@ -159,5 +311,48 @@ function toggleLang(lang) {
 <p>Aos olhos de Deus, o nome "Japão" (Nihon) possui algum significado especial? Há também a teoria de que a bandeira Hinomaru simboliza a conquista. Qual é o verdadeiro significado da bandeira nacional? Solicito vossa orientação.</p>
 <p>O Japão se localiza no Extremo Oriente, e como o Sol nasce no leste, o nome "Nihon" (日の本) pode ser interpretado como "a origem do Sol". Consequentemente, a bandeira Hinomaru foi criada com esse mesmo significado. Ela não é tão antiga; foi concebida inicialmente pelo clã Shimazu de Satsuma, um pouco antes da Era Meiji. Frequentemente, a lenda de Amaterasu-Oomikami foi usada para propagar a ideia de que o Japão, sendo a origem do Sol, era uma nação sagrada. Contudo, isso não procede, pois implicaria que o Sol ilumina apenas o Japão e não o resto do mundo. Foi uma lógica forçada, usada de forma egoísta pelos militares.
 (18/01/1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ４ 055-067 諸神仏 055 皇紀前の神 日本における皇紀以前の宗教、文化につき御開示お願い申し上げます。<br/><br/> 皇紀前は素盞嗚尊、その前は天照大御神。<br/><br/>これは明主様の御教えと同じである。<br/><br/> （S25. 3. 3） 056 西洋、支那に古代仏はなかったか 西洋歴史においてエジプト七千年、東洋史において支那五千年という事を学びましたが、三千年前において神界と仏界が変化したとすれば、それ以前に支那、エジプトには現然と文化が栄えていたのですが、支那エジプトには神仏界は存在したのですか。<br/><br/>また、日本における神仏界の転換はいかなる形態で行なわれたのですか。<br/><br/>御教示お願い申し上げます。<br/><br/> 支那でもエジプトでも仏はなかった。<br/><br/>神であった。<br/><br/>（エジプトではアラーの神）支那では盤古神王が一番最初統治した。<br/><br/>これが支那の先祖になり、天照大神になる。<br/><br/> 日本は古神道であったが、欽明十三年仏教が渡来し、発達してから、神道の勢力を侵蝕した。<br/><br/>（S24. 9. 8） 057 聖徳太子が職人の守護神 聖徳太子を職人の守護神としてよく祀っておりますが、特別のお働きがあるので御座居ますか。<br/><br/> 聖徳太子は種々の物をこしらえた人であるから、職人が神として御守護願うのは立派に意味がある。<br/><br/>法隆寺なども聖徳太子が造られた最古の建造物である。<br/><br/>偉い人である。<br/><br/>戦時中の荒廃で、頭痛鉢巻の状態である。<br/><br/> 弁天様は芸能の神で、音楽を好む。<br/><br/>白蛇。<br/><br/>蛇は笛が好きで、コブラが笛に合わして首を振って踊るのは知られている。<br/><br/>（S24. 1.23） 058 国造神 阿蘇神宮に御祭りしてある御神体は 国造の神と言われておりますが、宇佐八幡宮といかなる関係にありますか、また、観音様との関係―― 国造神は方々に沢山ある。<br/><br/>国造る時のお手伝いをした神で、国を造った神様が国常立尊である。<br/><br/> 観音様との関係は、彦火々出見尊の方が濃い。<br/><br/>（S24. 4.28） 059 稚姫君尊の親神 稚姫君命はいつ頃お現れになった神様でしょうか、御伺い申し上げます。<br/><br/> 天照大神の三番目の娘である。<br/><br/>そう古い時代ではない。<br/><br/>約三千年前、天照天皇は素盞嗚尊に征められた時追われて逃げられ、皇后様だけ残られた。<br/><br/>婦人の故に尊は赦（ゆる）した訳である。<br/><br/> いずれすっかり発表するが、時期が未だ早い。<br/><br/>（S24. 6.27） 060 神孫瓊々杵尊 神孫瓊々杵尊について、御開示戴きとう御座います。<br/><br/> 瓊々杵尊は支那漢族中の英雄である。<br/><br/>猶太人らしい。<br/><br/>ユダヤの十二種族の一種族で東方へ行ったきり消息が絶えた。<br/><br/>これは十二の流れがあったが、今は十一種族になっている。<br/><br/>その一が前漢の時代に支那へ行ったが、種族の違うため好遇されず日本へ行った。<br/><br/>それが瓊々杵尊であると思う。<br/><br/>鵜茅葺不合、神武等の時代の中に、ユダヤの文化が非常に入っている。<br/><br/>博物館などにあるが、菊の紋はユダヤの紋である。<br/><br/>また西洋の輿論のようなものが入っている。<br/><br/>なぜこれが瓊々杵尊か神秘がある。<br/><br/> 本当は瓊々杵尊は天照大神の系統で、支那から渡来した瓊々杵尊はユダヤ系というのは、これは違うのである。<br/><br/>これは大いに神秘がある。<br/><br/>（S23. 7. 4） 061 七の神仏 七は盤古神王で、土の系統の神である。<br/><br/>今迄日本を支配していた。<br/><br/> 七五三というのは、土の時代であるからである。<br/><br/> 釈迦は観音の母である。<br/><br/>（S23） 062 神と善悪、伊都能売、大乗の見方 神様でも、戦犯者で追放になった神もあり、心ならずも戦に加わった神もある。<br/><br/>これらは末端の神である。<br/><br/> 正神と邪神とあり、最高の神は善悪はない。<br/><br/>悪人も必要である。<br/><br/>悪人からみると善人は悪人、善人など邪魔気のものとなる。<br/><br/>主神は悪人も善人も御自分で造られた。<br/><br/>但し、これは想像である。<br/><br/>故に善悪無差別である。<br/><br/>これは大乗の説き方で、下根の者にこれを説くと弊害があるから一般に説く事は出来ぬ。<br/><br/> 大乗、他力＝キリスト 水。<br/><br/>小乗、仏教 本来は経で、自力。<br/><br/>本当はどっちも間違いである。<br/><br/>今迄は大乗小乗は別々になっていた。<br/><br/>これはどちらも間違いで、これが結ばれたものを伊都能売といい、その十の字の真中に人間は立ち、善にも悪にも、経にも緯にもなる。<br/><br/>これが自由無碍の観音の働きである。<br/><br/>経緯結ぶと力が出る。<br/><br/> 力――霊の力は左進右退であり、物質の力・体の力は右進左退である。<br/><br/> 米国は水、日本は火、共産主義は火であるから、米ソ戦えばソ連は負ける。<br/><br/> 十に結んで開けるのは十八。<br/><br/>これは五六七であり、三六九である。<br/><br/>富士山をハチスの山という、八の字とスという事である。<br/><br/> 日本を善い国にするのはアメリカで、日本は日、アメリカは星になる。<br/><br/>（S23. 6.24） 063 軍神という事、今迄の宗教、（今後の浄化） 軍神などという馬鹿な事はない。<br/><br/>戦いをするのは悪魔で、集団殺人など神様はなさらぬ。<br/><br/>戦犯者に対する認識がはっきりせぬ。<br/><br/>それを本当に説く宗教がない。<br/><br/>アメリカがみれば、宗教を撲滅しようとするのは本当である。<br/><br/>日本の道徳など全部間違いである。<br/><br/>全く新しくした方がよい。<br/><br/>新しい道義を建てなくてはならぬ。<br/><br/>キリスト教にも欠点がある。<br/><br/>それよりもっと欠点のないものを作る。<br/><br/>今迄ではキリスト教が一番いい。<br/><br/>どこかというと病気が治せぬ。<br/><br/>善い事を言ってるが力がない。<br/><br/>それにこちらで力によって病気を解決し、神はもっと大きい救いを垂れようとしておられる。<br/><br/>今迄は注射を打つと、浄化力が弱いので全身に廻るが、今は非常に強くなっており、入ったらすぐに排除しようとする。<br/><br/>そのために斑点が出来る。<br/><br/>内出血のようにみえる。<br/><br/>（S23.11.25） 064 戦神などの整理（拝むべからざるを拝む罪） 拝むべからざるものを拝んだ罪、拝ませた罪という点から見て、獣の神、戦争の神等の産土神と氏子は現在どういう関係になっているので御座いましょうか。<br/><br/> 拝むべからざるものを拝むのは、自分は良いと信じていたのだから大した罪にはならぬ。<br/><br/>しかし全然いいとはいえぬ。<br/><br/>いくらかの罪はある。<br/><br/>産土神とすれば別で、これは仕方がない。<br/><br/>その時の必要からあるんで、区役所のようなもので、神様でいえば行政官であるから、善い悪いよりはなくては困る。<br/><br/> 戦犯者など、拝むべからざるものを何代も拝んだ。<br/><br/>上の地位にあるべからざるものが上位にいた。<br/><br/> 戦争の神など拝ましたのは乱れの固で、今度はすっかり整理される。<br/><br/> 時所位の間違ってあったものを整理される。<br/><br/>今は古い家を壊し、新しい家を建てる時である。<br/><br/> 065 神々を語る事 いろんな神々の名には触れぬようにしている。<br/><br/>神は日本だけ救うような事はない。<br/><br/>全世界人類を救われる。<br/><br/>日本だけというと面白くない。<br/><br/>神様がどうのこうのというのは言葉の遊戯に過ぎぬ。<br/><br/>一種の神話に過ぎぬ。<br/><br/>それでは現代の人間は納得出来ぬ。<br/><br/>既成宗教の衰えたのなどは、現代人と合わぬからである。<br/><br/>今既成宗教に頼る事は自動車をすてて駕籠に乗るような事になる。<br/><br/> 宗教は現代人を救うのみでなく、一歩先へ行って指導すべきである。<br/><br/>すべて霊界が先であるから神の経綸が先にならなくてはならぬ。<br/><br/>故に私は宗教の型破りで、説き方もやり方も違う。<br/><br/>世を指導して行くのでなくてはならぬ。<br/><br/>（皆が納得するよう） 何の神がどうだこうだといっても、日常の生活に織込めぬ。<br/><br/>それは釈迦時代の生活難のない時代の事である。<br/><br/>いくら稼いでも食えない。<br/><br/>半日瞑想したら、食う事に追われる。<br/><br/>そこで善言讃詞を造った。<br/><br/> 婦人が綺麗な恰好して踊るなど、神様はお喜びになる。<br/><br/>（S23） 066 天照大神と国常立尊、神話的な知識について 天照皇大神様と国常立尊様との御関係は―― こういう事は答弁はせぬつもりである。<br/><br/>神道でいう事である。<br/><br/> 本教は進歩的宗教であるから、今後の時代の世界人類を救うので、それには関係のない事である。<br/><br/>そういう事が判っても現代思想や社会生活に関係はない。<br/><br/>一つのお道楽にすぎない。<br/><br/>これらは神国思想を養うために利用されたものである。<br/><br/>日本の軍部などが利用した。<br/><br/>外国へ知れるとよくない。<br/><br/>そういう自惚思想がまだあるかと疑念をもたれる。<br/><br/> たとえミロクの世になっても、知っても知らなくても同じ事である。<br/><br/>それより外の痛切な問題を知った方がよい。<br/><br/> すべて世界主義でなくてはいけない。<br/><br/> 067 日本国名と国旗 神様から御覧になられて、日本国という名前は意義のある事でしょうか。<br/><br/> また、日の丸の旗は征服を意味するとの説もありますが、国旗の意義は何でございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 日本は極東にあるから、太陽は東から出るから（日の本という）日本から太陽が出るように解（と）れるから日の本と言った。<br/><br/>従って日の丸の旗もそういう意味で出来た。<br/><br/>（あまり古いものではなく）薩摩の島津家で最初造った。<br/><br/>明治ちょっと前に出来た。<br/><br/>よく天照大神の伝説で（天祖出生地のごとく宣伝した）日本は日の本であるから尊いと言ったが、そんな事はない。<br/><br/>それでは日本だけ日が照らして世界中照らさぬ訳になる。<br/><br/>これは理屈づけて独りよがりに軍部が使ったのである。<br/><br/>（S24. 1.18）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M260808</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年8月8日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月八日 （お伺）昭和二十二年九月入信いたしました四十歳の女でございますが、カリエスのため腰骨の屈伸が不自由で、カリエス特有の青白い皮膚をいたし全身やや腫みで浮いているようでございます。<br><br> 入信前数回の御浄霊でちょっと軽快になられ、入信後しばらく床も払って元気になっておられましたが、一昨年の春ふたたび御浄化が激しくなり、床に臥しておられましたが夜中突然右下腹部、鼠蹊部のすぐ上の辺に親指頭大の穴があき、ついで人差し指頭大の穴があき、現在に至るも間断なく粘い膿が吹き出しております。<br><br>なお一昨年の御浄化より霊が浮くようになり、祖霊を始め他家の祖霊死霊に至るまで動物霊なども際限なく無数に御浄霊のたびに出てまいります。<br><br>昨年ごろよりは祈祷者のごとく浄霊者の注文通りの人霊がいつでも浄霊を始めれば簡単に出てまいります。<br><br>しかしこれは邪道とうけたまわっておりますので、今では本人ならびに家族に一切この種の要求には応じないようにと注意して止めております。<br><br> 昨年までに本人夫婦ならびに舅（しゅうと）夫婦の家族全部入信いたし別に十三歳と八歳の娘があります。<br><br> 御神体も一昨年より光明如来様をお祭りし、去る六月初め大光明如来様をお祭りさせていただきました。<br><br>御屏風観音様もお祀りせられ御仏壇の方にもお粗末はないように存じます。<br><br> 昭和二十三年一月より翌年九月まで離れ座敷を教会として提供いたされ、現在まで熱心におすがりせられております。<br><br>本人の罪は勿論、家の罪もそうとうあることとは存じますが、まれにみる大浄化でありますので、いつ果てるとも知れぬごとく見える現在、いかにすればよろしいでしょうか、お伺い申し上げます。<br><br> 〔御垂示〕 やっぱり、その通り一家の罪がたくさんある。<br><br>特にカリエスは――本にも書いてある通り――祖先の罪ですからね。<br><br>罪があるから膿が出るので、一生涯出るわけではない。<br><br>出るだけ出れば止まるから結構で、二年でも三年でも、ひどい人は五年くらい出る人がある。<br><br>一樽一杯ではきかない。<br><br>それから憑霊ですけれど、みんないけないわけではないのです。<br><br>良いのもある。<br><br>その見別けが難しいので、――だからしないだけが良いのではなく、するのが良いのでもない。<br><br>理想は必要なだけが良いが、そうも行かない。<br><br>ただ、あんまりしゃべりたい時は聞いてやっても良い。<br><br>本物ばかりではなく、贋物があるからね。<br><br>どうしても口をきいて出る場合は聞いてやると良い。<br><br>それを贋物と思ってはいけない。<br><br>本物と思って聞いてやる。<br><br>仮に狐が出ると――「先祖の何々」と言うから、そのまま聞いてやる。<br><br>それで後で「先祖の何々」と言うのは「誰の時代か」「その時代の年号は」「なんで死んだ」「いくつで」「その時分はなんて名前ですか」――と聞いているときっとボロを出す。<br><br>すると「それは判らない」「判らないはずはない。<br><br>あなたは祖霊で、さっき、死んだ病気の名前を知っているくらいだから、判らないはずはない」と言い出す。<br><br>すると、尻尾を出し、「ああいけない」とか言い出す。<br><br>なんでも信じてやるとかえって相手は暴露してくる。<br><br>騙されたら騙されて結構。<br><br>これはひとり憑霊ばかりではない。<br><br>世の中のことでも騙したりするが騙されて結構です。<br><br>騙されている中に気を許してはいけない。<br><br>また騙しているやつはどこかに一貫していない。<br><br>私の所へ来るやつも聞いているんです。<br><br>その言葉の中に、なにか一つ嘘があるんです。<br><br>憑霊のことでも、世の中のことでも、その時、こっちが先方を利用したりするようにする。<br><br> （お伺）私は十七歳ごろより胃酸過多性でしたが、昭和二十三年の春より胃に痛みを憶え、逐次痛みが加わり、同年九月入信いたしましたが、病状意のごとくならず、最近宮津支部にて毎日御浄霊をいただいておりますが、相変わらず痛みがとれず、医師の診断によれば十二指腸潰瘍兼胃アトニー兼胃下垂とのことで、ほとんど一日中胃および胃の後ろ一面が痛みます。<br><br>昨年六月より仕事（会社の会計事務）もできず、毎日遊んでおりますので、家計的にも行き詰まり状態となり、身心ともに苦しんでおります。<br><br> 一日も早く御用のでき得る体にしていただくには、いかがいたしましたらいいものでございましょうか、お伺い申し上げます。<br><br> 母は熱心な日蓮宗の信者で、このお道に対する理解なく、父は昭和十五年十二指腸潰瘍で死亡、同十八年弟が結核性脳脊髄膜炎で、同十九年妹が結核で各々死亡いたしております。<br><br> 浄霊をする場所を御教えくださいませ。<br><br> 〔御垂示〕 これは誰がやっているんです。<br><br>こういうのはそんなに長くかかるわけはないんだが、痛みというのは治り良いんですからね。<br><br>あれは浄化だから、浄化が起っているんだから。<br><br>胃の痛みなんてたいしたもんじゃない。<br><br>浄霊に力が入るんじゃないかな。<br><br>それから、こういうのはぜんぜん背中ですよ。<br><br>前なんかやる必要はない。<br><br>前が痛いようですが、背中で溶けた薬毒が溶けてきて胃に来るんだから、背中にあるんです。<br><br> 「お腹に石みたいなものができております。<br><br>」 その石みたいなものが病原と思っていると違う。<br><br>その後ろのちょっと上の方に痛みがありますから、そこをやるとじきに治る。<br><br>胃痙攣でも、前でなくて、背中をやるとじき治る。<br><br>これは全部薬毒ですからね。<br><br> （お伺）私は昭和二十一年十二月御守りをいただき、二十三年四月光明如来様を奉斎。<br><br>種々の御守護をいただき信仰をさせていただいている者でございます。<br><br> 長女しげ子（二十五歳）が先に柄澤家へ嫁ぎまして、婚家先の姑、夫とともに二十三年五月入信させていただき、信仰の生活をしておりましたが、その後主人が解らなくなり猛烈に反対するので、二年ほど中絶しておりましたところ、去る三月しげ子の子供が御浄化をいただきまして隣村田原先生方で御浄霊をいただき、二週間にてよくなり、その後主人には内密で信仰をいたしておりました。<br><br> 去る四日午前十時ごろしげ子が田原先生方で御浄霊をいただいておりました時、突然「俺の腹には、大狸がいる」とか「狐が一匹出た」とか、その他いろいろ取るに足らぬことを連続的にしゃべり続けるようになりましたので、やむなく主人にも来てもらい、私も招かれて行ってともに御浄霊を続けさせていただきましたが、なかなか癒らず、また主人に対しては俺と一緒に信仰しろとか、御神体を奉斉してくれとか、なお先々代の人が信仰した南無妙法蓮華経の御軸を返せとか、失礼な言葉で申して、このおしゃべりは十二時間くらい続いて少し鎮まりましたので、いったん家に連れて帰りました。<br><br>そして翌日よりはだいぶ静かになりましたが、時々変なことを言っております。<br><br> 今後御浄霊をさせていただくにも主人が反対なので困りますが、御救いをいただくにはいかがいたしましたらよろしゅうございますか、御教示くださいませ。<br><br> 〔御垂示〕 困りますね。<br><br>これは、御主人が反対しているうちはすっかり治らないでしょうね。<br><br>なにしろ一家の主人というものは、そこの家族なり家の全部の全権を握っているんですからね。<br><br>ですから、風邪ひいたとか鼻の痛いとかは内緒で治りますが、これは霊的にもいろいろあり、祖先のうち――狐ですね。<br><br>これは日蓮宗の狐ですよ。<br><br>これがそうとう執着を持ってやっているから、こういうのはしかたがないから、そうとう行く所まで行かなければ駄目ですね。<br><br>しかし信仰をやめるというわけにも行かないし困るのですよ。<br><br>一家にそれだけのものがあるので、――メグリですね。<br><br>これは、御主人は信仰しなくても良いから、時々教会に行くだけの許し――家の仕事に差し支えのない限り、教会に行く許しを得て、そうして神様にお願いしていると、御主人が信仰しなければならないようなことが起りますよ。<br><br>御神体を奉斎していないね。<br><br>やっぱり祖霊が、つまり狐や狸になって救われたいという点がありますね。<br><br>それで、気をつけたいと言うので、困らせようと言う、――それがありますね。<br><br>だから、内緒は――立派なことをするのに内緒はおもしろくない。<br><br>ですから、それだけを許してもらい、よくお願いすると、きっと良くなりますよ。<br><br>御主人も判りますよ。<br><br> （お伺）潮文一と申す信者でございますが、昭和二十二年に心臓肥大症および弁膜症にて入院数カ月ついに原因不明処置なしとて退院後浄霊を受け、最初はさしたる変化もありませんでしたが、入信後、頭部に微熱あるを発見、後めきめきと御守護をいただき、爾来今日まで健康に過ごさしていただきました。<br><br> ところが七月二十八日より非常な高熱にて、猛烈な頭痛に苦しみ頸部硬直し、意識も不明瞭になることもありましたが、数日後いくぶん解熱し、意識も戻りましたが依然として三十九度五分前後の熱にて午前午後もさしたる変化はございません。<br><br>頸部も左右には楽に振れますが、前後はまだいくぶん痛みを感じ、言語応答も少し意味不明のこともございます。<br><br>両眼充血し特に左眼よりは涙と目脂が出ております。<br><br>鼻汁は出ませぬ。<br><br> 御浄霊いたしますと、その局部（特に頸部、前頭部）に熱が出始め、やがて多量の汗とともに解熱いたしますが、しばらくして、また高熱が出てまいります。<br><br>日本脳炎のようにも存ぜられます。<br><br>六十歳を越したる老人でございますが心臓病以外さしたる病歴はございませぬ。<br><br> 御守護お願い申し上げますとともに御浄霊の箇所、その他注意事項御垂示のほどお願い申し上げます。<br><br> 〔御垂示〕 これは日本脳炎的のものですね。<br><br>ここ（後頭部）に固まってくる。<br><br>根気良くやるとね。<br><br>これは治りかけてきている。<br><br>これは溶けかかってきているから良くなります。<br><br>いくらか治り方が遅いくらいです。<br><br>固いですからね。<br><br>いったん柔らかになりますが、また固くなる。<br><br>だから、それをやるのに、一日に十回くらいやる。<br><br>二、三十分おきにやる。<br><br>すると二、三日で治ります。<br><br>それをふつうの病気の時と同じと思い、一日一回くらいやったんでしょうね。<br><br> 「毎日つづけてやっておりました。<br><br>」 まあー結構ですがね。<br><br>大浄化ですから、非常に結構ですがね。<br><br>始終やっていたと言うのは。<br><br> 「私はやっておりませんが、家の人が、やっております。<br><br>」 だが、やり方に力が入るから、溶け方が遅い。<br><br> （お伺）昭和二十五年五月入信させていただきましたが、昭和二十四年三月梅毒の感染にて医師の勧めにより六〇六号二十五本打ちました。<br><br>一年後血液検査の結果、強陽性でありましたが、身体に異常ありませんので結婚いたしました。<br><br>二十五年五月お道のありがたいお話しをうけたまわり、夫婦揃って入信させていただき、その後感謝の日を送らせていただいておりますが、夫婦とも時折腰が痛み身体のだるい時がありますので、本年五月夫婦で血液検査を受けましたところ、二人とも強陽性（三プラス）とのことにて医師は治療を勧めます。<br><br>放任しておけば恐ろしいことになるといろいろ申します。<br><br>医師の言葉は別に気にはいたしておりませんが、現在では二人とも時折腰が痛く身体がだるい時がありますが、別に仕事には差し支えない程度でございます。<br><br> 毎日御浄霊をいただいた方がよろしいでしょうか。<br><br>もっと浄化の起きた時に御浄霊をいただけばよろしゅうございましょうか。<br><br>毎日御浄霊をいただいていれば強陽性が陰性に変わるものでございましょうか。<br><br> 右いかががいたしましたらよろしゅうございましょうか。<br><br>御教え賜わりたくお願い申し上げます。<br><br> 〔御垂示〕 これは陽性も陰性もないですよ。<br><br>梅毒なんてじきに治ります。<br><br>梅毒なんて一週間で治ります。<br><br>この六〇六号が悪い。<br><br>腰が痛いのは絶対に六〇六号です。<br><br>梅毒は痛みもかゆみもない、無感覚のものが梅毒ですがね。<br><br>しかし六百六号でも、昔は強いのをやりましたが、今はお医者さんの方で判ったのか、気がきいているのか、昔ほど強いのはしないが――二十五本というのだから水みたいなものだね。<br><br>中には金儲けのために六〇六号するのも随分聞いた。<br><br>自分の近所の薬局に遊びに行って――用でなくて――ちょっと寄って話した。<br><br>「六〇六号打っております」と言うと、「どこで」「あそこで」と言うと「道理で私の所から持って行くよ。<br><br>いくらで」――「いくら」と言うと、「そんなら随分儲けている」と言っていた。<br><br>浄霊は腰の痛い時そこだけ浄霊する。<br><br>だるいというのはそこから熱が出ている。<br><br>六〇六号が垂れてそこに浄化が起って、その熱で体がだるいのですからそこだけやれば良い。<br><br> （お伺）先日お伺い申し上げました森初子こと、その後松本先生（昭太博士御子息）がたびたびお見舞いくださり、しきりにストレプトマイシンをお勧めになり、御主人も毎日おせめになりましたが、御本人がどうしてもお受けにならず、連日の高熱にもかかわらず「明主様が治るとおっしゃった以上必ず治ります」と、十五日間とうとう頑張られましたところ、昨日昭太博士が「初子さんは決して医薬は用いないだろう。<br><br>ここに明主様からいただいた観音様を包んだ綿があるからよく祈念して少し飲ませなさい。<br><br>自分も一心にお祈りしてあげるから」とのことで御主人様がそれをお持ちになりました。<br><br>その通りにいたしてもよろしゅうございましょうか。<br><br> 本人も御主人様もたいへん感謝してそれを望んでおります。<br><br>熱は少し降り始めましたが、まだ八度五分くらいございます。<br><br>尿は一日十二回くらいあり、苦しみはございません。<br><br>食欲もございます。<br><br> 重ねて御守護のほどお願い申し上げます。<br><br> 〔御垂示〕 その通りしちゃいけませんね。<br><br>あの人の病気は私が治してやったんですがね。<br><br>二度治してやったんですが、もっともそれじゃ商売にならないからしかたがないが、綿をもらうなら、もらって飲んだふりしておけば良い。<br><br>決してそんなことをしてはいけない。<br><br>病気は松本さんが治すんじゃない。<br><br>私が治すんだから、松本さんに治してもらうなら、そっちだけにしなければ――両方ということはない。<br><br>どっちかです。<br><br>医学と神様と両方ではザルに水を汲むようなもので、どっちかにしなければならない。<br><br>これは治ります。<br><br>経過は良いです。<br><br>ただ、熱の急所ですね。<br><br>これは早く治さなければ。<br><br>たいていここ（頸部）ですね。<br><br>きっと熱いですから、腫れていますから。<br><br>頭ですね。<br><br> （お伺）五十二歳の子宮脱出せる者。<br><br>御守護をいただき、子宮に付着せし毒素が取れ、鶏卵大に縮少いたしました。<br><br>排便はふつうより数回多く出ておりますが、大腿部より上部全体が浮腫し、そうとうの水分が含まれ歩行にも困難の程度でございます。<br><br>食事は半膳ほどいただいております。<br><br>腎臓を特に浄霊いたしておりますが、浮腫について注意事項を御教示お願い申し上げます。<br><br> 〔御垂示〕 この浮腫ですね。<br><br>腎臓の浮腫と薬毒の浮腫と両方ありますから、例えてみれば、片方の股っ玉 (ﾏﾏ) だけとかあるいは腰のまわりだとか、お腹だとか、そういう局部的の浮腫は、そこに固まっていた薬毒が溶けてきて出きらないで、しばらく溜まるのです。<br><br>それから腎臓の浮腫はもっと大きな――全身的ですね。<br><br>中には半身の場合もありますが、つまり顔がむくんで瞼が重いとか、体全体が重いとかですね。<br><br>そういうふうに心得ておけば良い。<br><br>これは局部的のようですからね。<br><br>勿論腎臓も大事ですが浮腫のある所を浄霊すれば良い。<br><br> （お伺）私の夫五十歳は以前より胃病にて困っておりましたが、昭和二十四年四月多量の血液を嘔吐してからいっそう悪化したので、その後医者や薬と手当てをやったが効果なく、今年の一月ごろよりいっそう悪化して床につくようになりました。<br><br> 今年の三月救世教のありがたいことをお聞きして、私が御守りをお受けして毎日浄霊をさせていただいております。<br><br>家の都合で御神体はお祭りしておりません。<br><br> 三月以来激しい痛みが続きましたが、お蔭様で痛みは少し楽にさせていただきましたが、毎日二回は食べたものを嘔吐いたしますので、そのためか便通は少なく、身体は日に増し衰弱してたいへん痩せました。<br><br>四月ごろの痛み激しかった時より、よほど元気づいておりましたが、近ごろの暑さのためか急に弱ってきました。<br><br>また毎日二回嘔吐することは、なにか霊的の関係がありましょうか。<br><br>また薬毒の浄化でしょうか。<br><br> 浄霊する主な所を御教示願います。<br><br> 〔御垂示〕 これはたいへんな薬毒ですね。<br><br>胃の悪い人は薬毒が多いものですがね。<br><br>衰弱が増すんですね。<br><br>それから食物を吐くということも良くないな。<br><br>それから光明如来様をお祭りしないということも困りますね。<br><br>なんとかしてお祭りして、浄霊は背中ですよ。<br><br>さっき言った通り、胃の後ろ辺りですね。<br><br>そこを主にする。<br><br>次は腎臓ですね。<br><br>浄霊はそれだけです。<br><br>それから光明如来様をお祭りして、 「引き揚げ者で、アパートで二階の下に住んでおり、主人がずっと病気で赤貧洗うがごとくでありまして。<br><br>」 そうかといって、二階の下にいたのでは、絶対祭ることもできないし――難しいな。<br><br>嘔吐は非常な薬毒ですからね。<br><br>薬毒にもいろいろありますからね。<br><br>これは強い悪い薬の毒ですね。<br><br>やはり薬毒があるために嘔吐するんですからね。<br><br>ちょっと難しいんじゃないかと思いますがね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre Purificações e Fenômenos Espirituais</h2>
 <p><strong>Consulta</strong></p>
@@ -164,5 +316,48 @@ function toggleLang(lang) {
 <p>O Johrei deve ser ministrado nas costas. Como eu disse anteriormente, na região posterior correspondente ao estômago. Esse é o ponto principal. Em seguida, nos rins. O Johrei se concentra nesses locais. E é fundamental entronizar a imagem de Komyo Nyorai.</p>
 <p>"Somos repatriados e vivemos no andar de baixo de um apartamento. Meu marido está doente há muito tempo, e nossa pobreza é extrema."</p>
 <p>Entendo, mas vivendo no andar de baixo, é absolutamente impossível entronizar o Altar. É uma situação muito difícil. O vômito é causado por uma quantidade enorme de toxinas, provenientes de medicamentos muito fortes e nocivos. É a presença dessas toxinas que provoca o vômito. Creio que se trata de um caso bastante delicado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年8月8日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月八日 （お伺）昭和二十二年九月入信いたしました四十歳の女でございますが、カリエスのため腰骨の屈伸が不自由で、カリエス特有の青白い皮膚をいたし全身やや腫みで浮いているようでございます。<br/><br/> 入信前数回の御浄霊でちょっと軽快になられ、入信後しばらく床も払って元気になっておられましたが、一昨年の春ふたたび御浄化が激しくなり、床に臥しておられましたが夜中突然右下腹部、鼠蹊部のすぐ上の辺に親指頭大の穴があき、ついで人差し指頭大の穴があき、現在に至るも間断なく粘い膿が吹き出しております。<br/><br/>なお一昨年の御浄化より霊が浮くようになり、祖霊を始め他家の祖霊死霊に至るまで動物霊なども際限なく無数に御浄霊のたびに出てまいります。<br/><br/>昨年ごろよりは祈祷者のごとく浄霊者の注文通りの人霊がいつでも浄霊を始めれば簡単に出てまいります。<br/><br/>しかしこれは邪道とうけたまわっておりますので、今では本人ならびに家族に一切この種の要求には応じないようにと注意して止めております。<br/><br/> 昨年までに本人夫婦ならびに舅（しゅうと）夫婦の家族全部入信いたし別に十三歳と八歳の娘があります。<br/><br/> 御神体も一昨年より光明如来様をお祭りし、去る六月初め大光明如来様をお祭りさせていただきました。<br/><br/>御屏風観音様もお祀りせられ御仏壇の方にもお粗末はないように存じます。<br/><br/> 昭和二十三年一月より翌年九月まで離れ座敷を教会として提供いたされ、現在まで熱心におすがりせられております。<br/><br/>本人の罪は勿論、家の罪もそうとうあることとは存じますが、まれにみる大浄化でありますので、いつ果てるとも知れぬごとく見える現在、いかにすればよろしいでしょうか、お伺い申し上げます。<br/><br/> 〔御垂示〕 やっぱり、その通り一家の罪がたくさんある。<br/><br/>特にカリエスは――本にも書いてある通り――祖先の罪ですからね。<br/><br/>罪があるから膿が出るので、一生涯出るわけではない。<br/><br/>出るだけ出れば止まるから結構で、二年でも三年でも、ひどい人は五年くらい出る人がある。<br/><br/>一樽一杯ではきかない。<br/><br/>それから憑霊ですけれど、みんないけないわけではないのです。<br/><br/>良いのもある。<br/><br/>その見別けが難しいので、――だからしないだけが良いのではなく、するのが良いのでもない。<br/><br/>理想は必要なだけが良いが、そうも行かない。<br/><br/>ただ、あんまりしゃべりたい時は聞いてやっても良い。<br/><br/>本物ばかりではなく、贋物があるからね。<br/><br/>どうしても口をきいて出る場合は聞いてやると良い。<br/><br/>それを贋物と思ってはいけない。<br/><br/>本物と思って聞いてやる。<br/><br/>仮に狐が出ると――「先祖の何々」と言うから、そのまま聞いてやる。<br/><br/>それで後で「先祖の何々」と言うのは「誰の時代か」「その時代の年号は」「なんで死んだ」「いくつで」「その時分はなんて名前ですか」――と聞いているときっとボロを出す。<br/><br/>すると「それは判らない」「判らないはずはない。<br/><br/>あなたは祖霊で、さっき、死んだ病気の名前を知っているくらいだから、判らないはずはない」と言い出す。<br/><br/>すると、尻尾を出し、「ああいけない」とか言い出す。<br/><br/>なんでも信じてやるとかえって相手は暴露してくる。<br/><br/>騙されたら騙されて結構。<br/><br/>これはひとり憑霊ばかりではない。<br/><br/>世の中のことでも騙したりするが騙されて結構です。<br/><br/>騙されている中に気を許してはいけない。<br/><br/>また騙しているやつはどこかに一貫していない。<br/><br/>私の所へ来るやつも聞いているんです。<br/><br/>その言葉の中に、なにか一つ嘘があるんです。<br/><br/>憑霊のことでも、世の中のことでも、その時、こっちが先方を利用したりするようにする。<br/><br/> （お伺）私は十七歳ごろより胃酸過多性でしたが、昭和二十三年の春より胃に痛みを憶え、逐次痛みが加わり、同年九月入信いたしましたが、病状意のごとくならず、最近宮津支部にて毎日御浄霊をいただいておりますが、相変わらず痛みがとれず、医師の診断によれば十二指腸潰瘍兼胃アトニー兼胃下垂とのことで、ほとんど一日中胃および胃の後ろ一面が痛みます。<br/><br/>昨年六月より仕事（会社の会計事務）もできず、毎日遊んでおりますので、家計的にも行き詰まり状態となり、身心ともに苦しんでおります。<br/><br/> 一日も早く御用のでき得る体にしていただくには、いかがいたしましたらいいものでございましょうか、お伺い申し上げます。<br/><br/> 母は熱心な日蓮宗の信者で、このお道に対する理解なく、父は昭和十五年十二指腸潰瘍で死亡、同十八年弟が結核性脳脊髄膜炎で、同十九年妹が結核で各々死亡いたしております。<br/><br/> 浄霊をする場所を御教えくださいませ。<br/><br/> 〔御垂示〕 これは誰がやっているんです。<br/><br/>こういうのはそんなに長くかかるわけはないんだが、痛みというのは治り良いんですからね。<br/><br/>あれは浄化だから、浄化が起っているんだから。<br/><br/>胃の痛みなんてたいしたもんじゃない。<br/><br/>浄霊に力が入るんじゃないかな。<br/><br/>それから、こういうのはぜんぜん背中ですよ。<br/><br/>前なんかやる必要はない。<br/><br/>前が痛いようですが、背中で溶けた薬毒が溶けてきて胃に来るんだから、背中にあるんです。<br/><br/> 「お腹に石みたいなものができております。<br/><br/>」 その石みたいなものが病原と思っていると違う。<br/><br/>その後ろのちょっと上の方に痛みがありますから、そこをやるとじきに治る。<br/><br/>胃痙攣でも、前でなくて、背中をやるとじき治る。<br/><br/>これは全部薬毒ですからね。<br/><br/> （お伺）私は昭和二十一年十二月御守りをいただき、二十三年四月光明如来様を奉斎。<br/><br/>種々の御守護をいただき信仰をさせていただいている者でございます。<br/><br/> 長女しげ子（二十五歳）が先に柄澤家へ嫁ぎまして、婚家先の姑、夫とともに二十三年五月入信させていただき、信仰の生活をしておりましたが、その後主人が解らなくなり猛烈に反対するので、二年ほど中絶しておりましたところ、去る三月しげ子の子供が御浄化をいただきまして隣村田原先生方で御浄霊をいただき、二週間にてよくなり、その後主人には内密で信仰をいたしておりました。<br/><br/> 去る四日午前十時ごろしげ子が田原先生方で御浄霊をいただいておりました時、突然「俺の腹には、大狸がいる」とか「狐が一匹出た」とか、その他いろいろ取るに足らぬことを連続的にしゃべり続けるようになりましたので、やむなく主人にも来てもらい、私も招かれて行ってともに御浄霊を続けさせていただきましたが、なかなか癒らず、また主人に対しては俺と一緒に信仰しろとか、御神体を奉斉してくれとか、なお先々代の人が信仰した南無妙法蓮華経の御軸を返せとか、失礼な言葉で申して、このおしゃべりは十二時間くらい続いて少し鎮まりましたので、いったん家に連れて帰りました。<br/><br/>そして翌日よりはだいぶ静かになりましたが、時々変なことを言っております。<br/><br/> 今後御浄霊をさせていただくにも主人が反対なので困りますが、御救いをいただくにはいかがいたしましたらよろしゅうございますか、御教示くださいませ。<br/><br/> 〔御垂示〕 困りますね。<br/><br/>これは、御主人が反対しているうちはすっかり治らないでしょうね。<br/><br/>なにしろ一家の主人というものは、そこの家族なり家の全部の全権を握っているんですからね。<br/><br/>ですから、風邪ひいたとか鼻の痛いとかは内緒で治りますが、これは霊的にもいろいろあり、祖先のうち――狐ですね。<br/><br/>これは日蓮宗の狐ですよ。<br/><br/>これがそうとう執着を持ってやっているから、こういうのはしかたがないから、そうとう行く所まで行かなければ駄目ですね。<br/><br/>しかし信仰をやめるというわけにも行かないし困るのですよ。<br/><br/>一家にそれだけのものがあるので、――メグリですね。<br/><br/>これは、御主人は信仰しなくても良いから、時々教会に行くだけの許し――家の仕事に差し支えのない限り、教会に行く許しを得て、そうして神様にお願いしていると、御主人が信仰しなければならないようなことが起りますよ。<br/><br/>御神体を奉斎していないね。<br/><br/>やっぱり祖霊が、つまり狐や狸になって救われたいという点がありますね。<br/><br/>それで、気をつけたいと言うので、困らせようと言う、――それがありますね。<br/><br/>だから、内緒は――立派なことをするのに内緒はおもしろくない。<br/><br/>ですから、それだけを許してもらい、よくお願いすると、きっと良くなりますよ。<br/><br/>御主人も判りますよ。<br/><br/> （お伺）潮文一と申す信者でございますが、昭和二十二年に心臓肥大症および弁膜症にて入院数カ月ついに原因不明処置なしとて退院後浄霊を受け、最初はさしたる変化もありませんでしたが、入信後、頭部に微熱あるを発見、後めきめきと御守護をいただき、爾来今日まで健康に過ごさしていただきました。<br/><br/> ところが七月二十八日より非常な高熱にて、猛烈な頭痛に苦しみ頸部硬直し、意識も不明瞭になることもありましたが、数日後いくぶん解熱し、意識も戻りましたが依然として三十九度五分前後の熱にて午前午後もさしたる変化はございません。<br/><br/>頸部も左右には楽に振れますが、前後はまだいくぶん痛みを感じ、言語応答も少し意味不明のこともございます。<br/><br/>両眼充血し特に左眼よりは涙と目脂が出ております。<br/><br/>鼻汁は出ませぬ。<br/><br/> 御浄霊いたしますと、その局部（特に頸部、前頭部）に熱が出始め、やがて多量の汗とともに解熱いたしますが、しばらくして、また高熱が出てまいります。<br/><br/>日本脳炎のようにも存ぜられます。<br/><br/>六十歳を越したる老人でございますが心臓病以外さしたる病歴はございませぬ。<br/><br/> 御守護お願い申し上げますとともに御浄霊の箇所、その他注意事項御垂示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 これは日本脳炎的のものですね。<br/><br/>ここ（後頭部）に固まってくる。<br/><br/>根気良くやるとね。<br/><br/>これは治りかけてきている。<br/><br/>これは溶けかかってきているから良くなります。<br/><br/>いくらか治り方が遅いくらいです。<br/><br/>固いですからね。<br/><br/>いったん柔らかになりますが、また固くなる。<br/><br/>だから、それをやるのに、一日に十回くらいやる。<br/><br/>二、三十分おきにやる。<br/><br/>すると二、三日で治ります。<br/><br/>それをふつうの病気の時と同じと思い、一日一回くらいやったんでしょうね。<br/><br/> 「毎日つづけてやっておりました。<br/><br/>」 まあー結構ですがね。<br/><br/>大浄化ですから、非常に結構ですがね。<br/><br/>始終やっていたと言うのは。<br/><br/> 「私はやっておりませんが、家の人が、やっております。<br/><br/>」 だが、やり方に力が入るから、溶け方が遅い。<br/><br/> （お伺）昭和二十五年五月入信させていただきましたが、昭和二十四年三月梅毒の感染にて医師の勧めにより六〇六号二十五本打ちました。<br/><br/>一年後血液検査の結果、強陽性でありましたが、身体に異常ありませんので結婚いたしました。<br/><br/>二十五年五月お道のありがたいお話しをうけたまわり、夫婦揃って入信させていただき、その後感謝の日を送らせていただいておりますが、夫婦とも時折腰が痛み身体のだるい時がありますので、本年五月夫婦で血液検査を受けましたところ、二人とも強陽性（三プラス）とのことにて医師は治療を勧めます。<br/><br/>放任しておけば恐ろしいことになるといろいろ申します。<br/><br/>医師の言葉は別に気にはいたしておりませんが、現在では二人とも時折腰が痛く身体がだるい時がありますが、別に仕事には差し支えない程度でございます。<br/><br/> 毎日御浄霊をいただいた方がよろしいでしょうか。<br/><br/>もっと浄化の起きた時に御浄霊をいただけばよろしゅうございましょうか。<br/><br/>毎日御浄霊をいただいていれば強陽性が陰性に変わるものでございましょうか。<br/><br/> 右いかががいたしましたらよろしゅうございましょうか。<br/><br/>御教え賜わりたくお願い申し上げます。<br/><br/> 〔御垂示〕 これは陽性も陰性もないですよ。<br/><br/>梅毒なんてじきに治ります。<br/><br/>梅毒なんて一週間で治ります。<br/><br/>この六〇六号が悪い。<br/><br/>腰が痛いのは絶対に六〇六号です。<br/><br/>梅毒は痛みもかゆみもない、無感覚のものが梅毒ですがね。<br/><br/>しかし六百六号でも、昔は強いのをやりましたが、今はお医者さんの方で判ったのか、気がきいているのか、昔ほど強いのはしないが――二十五本というのだから水みたいなものだね。<br/><br/>中には金儲けのために六〇六号するのも随分聞いた。<br/><br/>自分の近所の薬局に遊びに行って――用でなくて――ちょっと寄って話した。<br/><br/>「六〇六号打っております」と言うと、「どこで」「あそこで」と言うと「道理で私の所から持って行くよ。<br/><br/>いくらで」――「いくら」と言うと、「そんなら随分儲けている」と言っていた。<br/><br/>浄霊は腰の痛い時そこだけ浄霊する。<br/><br/>だるいというのはそこから熱が出ている。<br/><br/>六〇六号が垂れてそこに浄化が起って、その熱で体がだるいのですからそこだけやれば良い。<br/><br/> （お伺）先日お伺い申し上げました森初子こと、その後松本先生（昭太博士御子息）がたびたびお見舞いくださり、しきりにストレプトマイシンをお勧めになり、御主人も毎日おせめになりましたが、御本人がどうしてもお受けにならず、連日の高熱にもかかわらず「明主様が治るとおっしゃった以上必ず治ります」と、十五日間とうとう頑張られましたところ、昨日昭太博士が「初子さんは決して医薬は用いないだろう。<br/><br/>ここに明主様からいただいた観音様を包んだ綿があるからよく祈念して少し飲ませなさい。<br/><br/>自分も一心にお祈りしてあげるから」とのことで御主人様がそれをお持ちになりました。<br/><br/>その通りにいたしてもよろしゅうございましょうか。<br/><br/> 本人も御主人様もたいへん感謝してそれを望んでおります。<br/><br/>熱は少し降り始めましたが、まだ八度五分くらいございます。<br/><br/>尿は一日十二回くらいあり、苦しみはございません。<br/><br/>食欲もございます。<br/><br/> 重ねて御守護のほどお願い申し上げます。<br/><br/> 〔御垂示〕 その通りしちゃいけませんね。<br/><br/>あの人の病気は私が治してやったんですがね。<br/><br/>二度治してやったんですが、もっともそれじゃ商売にならないからしかたがないが、綿をもらうなら、もらって飲んだふりしておけば良い。<br/><br/>決してそんなことをしてはいけない。<br/><br/>病気は松本さんが治すんじゃない。<br/><br/>私が治すんだから、松本さんに治してもらうなら、そっちだけにしなければ――両方ということはない。<br/><br/>どっちかです。<br/><br/>医学と神様と両方ではザルに水を汲むようなもので、どっちかにしなければならない。<br/><br/>これは治ります。<br/><br/>経過は良いです。<br/><br/>ただ、熱の急所ですね。<br/><br/>これは早く治さなければ。<br/><br/>たいていここ（頸部）ですね。<br/><br/>きっと熱いですから、腫れていますから。<br/><br/>頭ですね。<br/><br/> （お伺）五十二歳の子宮脱出せる者。<br/><br/>御守護をいただき、子宮に付着せし毒素が取れ、鶏卵大に縮少いたしました。<br/><br/>排便はふつうより数回多く出ておりますが、大腿部より上部全体が浮腫し、そうとうの水分が含まれ歩行にも困難の程度でございます。<br/><br/>食事は半膳ほどいただいております。<br/><br/>腎臓を特に浄霊いたしておりますが、浮腫について注意事項を御教示お願い申し上げます。<br/><br/> 〔御垂示〕 この浮腫ですね。<br/><br/>腎臓の浮腫と薬毒の浮腫と両方ありますから、例えてみれば、片方の股っ玉 (ﾏﾏ) だけとかあるいは腰のまわりだとか、お腹だとか、そういう局部的の浮腫は、そこに固まっていた薬毒が溶けてきて出きらないで、しばらく溜まるのです。<br/><br/>それから腎臓の浮腫はもっと大きな――全身的ですね。<br/><br/>中には半身の場合もありますが、つまり顔がむくんで瞼が重いとか、体全体が重いとかですね。<br/><br/>そういうふうに心得ておけば良い。<br/><br/>これは局部的のようですからね。<br/><br/>勿論腎臓も大事ですが浮腫のある所を浄霊すれば良い。<br/><br/> （お伺）私の夫五十歳は以前より胃病にて困っておりましたが、昭和二十四年四月多量の血液を嘔吐してからいっそう悪化したので、その後医者や薬と手当てをやったが効果なく、今年の一月ごろよりいっそう悪化して床につくようになりました。<br/><br/> 今年の三月救世教のありがたいことをお聞きして、私が御守りをお受けして毎日浄霊をさせていただいております。<br/><br/>家の都合で御神体はお祭りしておりません。<br/><br/> 三月以来激しい痛みが続きましたが、お蔭様で痛みは少し楽にさせていただきましたが、毎日二回は食べたものを嘔吐いたしますので、そのためか便通は少なく、身体は日に増し衰弱してたいへん痩せました。<br/><br/>四月ごろの痛み激しかった時より、よほど元気づいておりましたが、近ごろの暑さのためか急に弱ってきました。<br/><br/>また毎日二回嘔吐することは、なにか霊的の関係がありましょうか。<br/><br/>また薬毒の浄化でしょうか。<br/><br/> 浄霊する主な所を御教示願います。<br/><br/> 〔御垂示〕 これはたいへんな薬毒ですね。<br/><br/>胃の悪い人は薬毒が多いものですがね。<br/><br/>衰弱が増すんですね。<br/><br/>それから食物を吐くということも良くないな。<br/><br/>それから光明如来様をお祭りしないということも困りますね。<br/><br/>なんとかしてお祭りして、浄霊は背中ですよ。<br/><br/>さっき言った通り、胃の後ろ辺りですね。<br/><br/>そこを主にする。<br/><br/>次は腎臓ですね。<br/><br/>浄霊はそれだけです。<br/><br/>それから光明如来様をお祭りして、 「引き揚げ者で、アパートで二階の下に住んでおり、主人がずっと病気で赤貧洗うがごとくでありまして。<br/><br/>」 そうかといって、二階の下にいたのでは、絶対祭ることもできないし――難しいな。<br/><br/>嘔吐は非常な薬毒ですからね。<br/><br/>薬毒にもいろいろありますからね。<br/><br/>これは強い悪い薬の毒ですね。<br/><br/>やはり薬毒があるために嘔吐するんですからね。<br/><br/>ちょっと難しいんじゃないかと思いますがね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

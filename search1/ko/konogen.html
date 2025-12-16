@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>konogen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此現実 『栄光』150号、昭和27(1952)年4月2日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 掌（てのひら）を翳（かざ）しただけで病気が治るといっても、知らない人は本気に出来ないのは無理はないが、左の実例は掌から治病光波が放射されるという事実をよく示しているので、この文を添えたのであるが、この素晴しい光波こそ、御守から施術者の掌を通じて出るのである事が分るであろう。<br><br>この事実を唯物科学で固（かたま）った頭の人が聞いても分らないであろうから、実に気の毒なものである。<br><br> トラホームで五回目の手術寸前に救わる 神奈川県 光祥中教会 坂上作次（39） 私は日本内燃機寒川工場に働く者ですが子供の頃より眼が悪く、その為今は亡き母が私の眼病を治さんと大変苦心致しました事を忘れません。<br><br>トラホーム第一回手術を小学校三年の時、第二回を十八歳の時、第三回二十五歳、第四回三十四歳の時、共に両眼手術致しました。<br><br>この私の持病とも言うべきトラホームが浄霊にて救われました報告をさせて戴きます。<br><br> 私はトラホームに冒される度に、何故自分はトラホームで苦しむのかと疑問に思い、手術の度毎に医者に原因を尋ねましたが確答を与えてくれず「家族の者にトラホームの人は無いか」「食物に気をつける様」「伝染病故洗面器、手拭を別にする様」等言われるのみでした。<br><br>私は医者の言う通り実行致しましたが昭和二十五年二月、五回目の痛苦が始りました。<br><br>機械工として眼の悪い事は致命的で、少し仕事を続けると眼は痛み、気分はクシャクシャし仕事は思う様に出来ず、その上夜中になると痛みは一層激しくなり、このまま眼が潰れるのではないかと心配致しました。<br><br>しかし私の様な者にも神様の救いの御手がさしのべられました。<br><br>忘れも致しません。<br><br>昭和二十五年二月十五日の大雪の日、妻の妹が熱海へ御参拝に釆たのですが、二、三日泊めて貰いたいと新潟より突然訪れました。<br><br>その時私がトラホームの手術をする事を話しましたら「兄さん神の力で治りますよ」と早速御浄霊の話を致しましたが、「神でもないあなたが手を翳しただけで病気が治る等と馬鹿な話をするのも程がある」と笑って相手に致しませんでしたが、余り熱心に勧めるので、今考えますと恐れ多い事ですが、腹の中で笑いながら妹の前に坐ったのです。<br><br> 最初頭より浄霊して戴き、最後に眼の浄霊となりました。<br><br>眼を指で開き、手を翳された時何とも言えぬ感じが致しました。<br><br>鋭い針の様なもので刺す様な異様な痛みが、間断なくスーッと眼に入って来ました。<br><br>私は眼の手術の痛みや目薬の痛みは充分体験しておりますが、それとは異った痛みで、涙が出ると共に余りの痛さに「ウーン」と呻き声を出しましたが、浄霊後五分位過ぎますと眼はさっぱりし、頭も軽くなりましたので再度驚きました。<br><br>浄霊すると何故異様な痛みが、眼に入るのかと疑問に思い、手を翳すいわゆる浄霊なるものに就いて種々質問し、妹より明主様の話、病気及び浄霊の説明を聞きましたが、今迄考えた事もない別世界の話を聞かされた感じでした。<br><br>それでもその日より一層話に耳を傾けると共に、持参して来た『地上天国』と新聞を熱心に読みました。<br><br>毎日浄霊を受けますと眼の疲れは一回毎に減じ、一週間目の朝床の中で眼を開けた瞬間バッチリ開き、頭も軽くなっていた時の嬉しさは何とも申し様ありませんでした。<br><br>眼病に悩んだ人は誰も体験された事と思いますが、朝起きて眼が開かない程不愉快な事はありません。<br><br>トラホームが治り、毎朝の不愉快より救われた時嬉し涙が流れ、明主様有難うございましたと御礼申し上げました。<br><br>日中の仕事中にも疲れを感じなくなり、又夜中の激痛も殆んどなく楽になりましたが、毎日浄霊をして頂いていますと二週間過ぎました頃会社で仕事中腹が痛み出し、夕方帰宅と同時に便所へ行きますと真黒な多量の下痢の浄化を戴きました時は再度驚きましたが、頭が一層はっきりし、身体全体が軽くなり、薬毒と病気の事、浄霊と浄化の事が分る様になりました。<br><br>三週間目頃トラホーム特有の内瞼内のブツブツはいかがと鏡に向い調べますと見当りませんので、子供の様に思わず大声で「トラホームが治った」と叫びました。<br><br>長年悩んだ眼病を浄霊にて救われました私は、早速三月七日中教会長先生より妻と共に尊い御守を拝受させて戴きました。<br><br> そして入信後未だ日の浅い私に試練の機会を与えて下さいました。<br><br>入信一カ月後夜十時頃寝ていた長男一男（六歳）が突然「耳が痛い」と大声で泣き出しましたので、妻と共に飛起きましたが、妹は既に新潟へ帰った後であり、どうしたらよいかと迷いましたが、ハッと気を取り戻し一心に神様に御願いしながら十分間程浄霊致しますと泣くのを止めて、「治った」「治った」と言いますので、何気なく子供の耳を見ますと耳の穴より木綿糸より一寸太い虫が顔を出していますので早速引出しますと、長さ五粍の赤味を帯びた虫でした。<br><br>取出した虫を子供に見せますと「お父さんの御浄めも効くんだね」と言われ、妻と顔を見合せ嬉し涙が出ました。<br><br>私のごとき者にも病を癒す力が許され、入信一カ月にして病を治す機会を与えて下さいました事を、神様に感謝致しました。<br><br>昭和二十五年五月十七日、大光明如来様を御奉斎、六月屏風観音様をお迎えし、七月特別な御書体まで戴き、今まで妻子と私は薬と医者と親類の様な間柄でしたが、入信以後は完全に縁が切れ、一家明るく毎日を暮しておりますと共に近所の人を浄霊しお救いさせて戴いております。<br><br>世の人々はこの有難い御力を容易に信じ様としませんが、私もその一人でありましたので、自分の過去を顧みれば無理もない事と思いますが、私の様に眼病に苦しんでいる人始め、病で悩む人は先ず浄霊して戴く事が健康人になり得る唯一の道と信じます。<br><br>人智をもって知る事の出来ない神力に感謝するのみです。<br><br> 今後は一層御用に役立ち得る様祈り、そして努めます。<br><br> 限りない感謝感激を拙い筆にて御礼申し上げます。<br><br>明主様誠に有難うございました。<br><br> （昭和二十七年三月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luz que Cura pela Palma da Mão</h2>
 <p>Ainda que a afirmação de que as doenças podem ser curadas pelo simples ato de impor as mãos possa, compreensivelmente, ser recebida com ceticismo por aqueles que desconhecem este princípio, é natural que assim o seja. Contudo, o relato a seguir demonstra de forma inequívoca a realidade de que uma luz com poder de cura é, de fato, irradiada da palma da mão. Anexamos este testemunho com o propósito de ilustrar essa verdade. Através dele, será possível compreender que essa luz maravilhosa provém da Medalha da Luz Divina e é transmitida pela mão do ministrante. Aqueles cuja mentalidade está petrificada pela ciência materialista certamente não conseguirão apreender tal realidade, o que é, de fato, lastimável.</p>
@@ -109,5 +261,48 @@ Igreja Kooshoo Naka, Kanagawa</p>
 <p>Com estas palavras singelas, expresso minha infinita gratidão e emoção.
 Meishu-Sama, muito, muito obrigado.</p>
 <p>(1 de março de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此現実 『栄光』150号、昭和27(1952)年4月2日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 掌（てのひら）を翳（かざ）しただけで病気が治るといっても、知らない人は本気に出来ないのは無理はないが、左の実例は掌から治病光波が放射されるという事実をよく示しているので、この文を添えたのであるが、この素晴しい光波こそ、御守から施術者の掌を通じて出るのである事が分るであろう。<br/><br/>この事実を唯物科学で固（かたま）った頭の人が聞いても分らないであろうから、実に気の毒なものである。<br/><br/> トラホームで五回目の手術寸前に救わる 神奈川県 光祥中教会 坂上作次（39） 私は日本内燃機寒川工場に働く者ですが子供の頃より眼が悪く、その為今は亡き母が私の眼病を治さんと大変苦心致しました事を忘れません。<br/><br/>トラホーム第一回手術を小学校三年の時、第二回を十八歳の時、第三回二十五歳、第四回三十四歳の時、共に両眼手術致しました。<br/><br/>この私の持病とも言うべきトラホームが浄霊にて救われました報告をさせて戴きます。<br/><br/> 私はトラホームに冒される度に、何故自分はトラホームで苦しむのかと疑問に思い、手術の度毎に医者に原因を尋ねましたが確答を与えてくれず「家族の者にトラホームの人は無いか」「食物に気をつける様」「伝染病故洗面器、手拭を別にする様」等言われるのみでした。<br/><br/>私は医者の言う通り実行致しましたが昭和二十五年二月、五回目の痛苦が始りました。<br/><br/>機械工として眼の悪い事は致命的で、少し仕事を続けると眼は痛み、気分はクシャクシャし仕事は思う様に出来ず、その上夜中になると痛みは一層激しくなり、このまま眼が潰れるのではないかと心配致しました。<br/><br/>しかし私の様な者にも神様の救いの御手がさしのべられました。<br/><br/>忘れも致しません。<br/><br/>昭和二十五年二月十五日の大雪の日、妻の妹が熱海へ御参拝に釆たのですが、二、三日泊めて貰いたいと新潟より突然訪れました。<br/><br/>その時私がトラホームの手術をする事を話しましたら「兄さん神の力で治りますよ」と早速御浄霊の話を致しましたが、「神でもないあなたが手を翳しただけで病気が治る等と馬鹿な話をするのも程がある」と笑って相手に致しませんでしたが、余り熱心に勧めるので、今考えますと恐れ多い事ですが、腹の中で笑いながら妹の前に坐ったのです。<br/><br/> 最初頭より浄霊して戴き、最後に眼の浄霊となりました。<br/><br/>眼を指で開き、手を翳された時何とも言えぬ感じが致しました。<br/><br/>鋭い針の様なもので刺す様な異様な痛みが、間断なくスーッと眼に入って来ました。<br/><br/>私は眼の手術の痛みや目薬の痛みは充分体験しておりますが、それとは異った痛みで、涙が出ると共に余りの痛さに「ウーン」と呻き声を出しましたが、浄霊後五分位過ぎますと眼はさっぱりし、頭も軽くなりましたので再度驚きました。<br/><br/>浄霊すると何故異様な痛みが、眼に入るのかと疑問に思い、手を翳すいわゆる浄霊なるものに就いて種々質問し、妹より明主様の話、病気及び浄霊の説明を聞きましたが、今迄考えた事もない別世界の話を聞かされた感じでした。<br/><br/>それでもその日より一層話に耳を傾けると共に、持参して来た『地上天国』と新聞を熱心に読みました。<br/><br/>毎日浄霊を受けますと眼の疲れは一回毎に減じ、一週間目の朝床の中で眼を開けた瞬間バッチリ開き、頭も軽くなっていた時の嬉しさは何とも申し様ありませんでした。<br/><br/>眼病に悩んだ人は誰も体験された事と思いますが、朝起きて眼が開かない程不愉快な事はありません。<br/><br/>トラホームが治り、毎朝の不愉快より救われた時嬉し涙が流れ、明主様有難うございましたと御礼申し上げました。<br/><br/>日中の仕事中にも疲れを感じなくなり、又夜中の激痛も殆んどなく楽になりましたが、毎日浄霊をして頂いていますと二週間過ぎました頃会社で仕事中腹が痛み出し、夕方帰宅と同時に便所へ行きますと真黒な多量の下痢の浄化を戴きました時は再度驚きましたが、頭が一層はっきりし、身体全体が軽くなり、薬毒と病気の事、浄霊と浄化の事が分る様になりました。<br/><br/>三週間目頃トラホーム特有の内瞼内のブツブツはいかがと鏡に向い調べますと見当りませんので、子供の様に思わず大声で「トラホームが治った」と叫びました。<br/><br/>長年悩んだ眼病を浄霊にて救われました私は、早速三月七日中教会長先生より妻と共に尊い御守を拝受させて戴きました。<br/><br/> そして入信後未だ日の浅い私に試練の機会を与えて下さいました。<br/><br/>入信一カ月後夜十時頃寝ていた長男一男（六歳）が突然「耳が痛い」と大声で泣き出しましたので、妻と共に飛起きましたが、妹は既に新潟へ帰った後であり、どうしたらよいかと迷いましたが、ハッと気を取り戻し一心に神様に御願いしながら十分間程浄霊致しますと泣くのを止めて、「治った」「治った」と言いますので、何気なく子供の耳を見ますと耳の穴より木綿糸より一寸太い虫が顔を出していますので早速引出しますと、長さ五粍の赤味を帯びた虫でした。<br/><br/>取出した虫を子供に見せますと「お父さんの御浄めも効くんだね」と言われ、妻と顔を見合せ嬉し涙が出ました。<br/><br/>私のごとき者にも病を癒す力が許され、入信一カ月にして病を治す機会を与えて下さいました事を、神様に感謝致しました。<br/><br/>昭和二十五年五月十七日、大光明如来様を御奉斎、六月屏風観音様をお迎えし、七月特別な御書体まで戴き、今まで妻子と私は薬と医者と親類の様な間柄でしたが、入信以後は完全に縁が切れ、一家明るく毎日を暮しておりますと共に近所の人を浄霊しお救いさせて戴いております。<br/><br/>世の人々はこの有難い御力を容易に信じ様としませんが、私もその一人でありましたので、自分の過去を顧みれば無理もない事と思いますが、私の様に眼病に苦しんでいる人始め、病で悩む人は先ず浄霊して戴く事が健康人になり得る唯一の道と信じます。<br/><br/>人智をもって知る事の出来ない神力に感謝するのみです。<br/><br/> 今後は一層御用に役立ち得る様祈り、そして努めます。<br/><br/> 限りない感謝感激を拙い筆にて御礼申し上げます。<br/><br/>明主様誠に有難うございました。<br/><br/> （昭和二十七年三月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

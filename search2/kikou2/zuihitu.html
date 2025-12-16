@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zuihitu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 随筆 中胆生 『栄光』261号、昭和29(1954)年6月16日発行 最近教団信者の一部の人達の間に「信仰のあり方」「宗教本来の意義」「神秘観」と言った点につき、明主様の御教えと異（ちが）ったものが考えられているのではないかと思われるのは、私一人だけであろうか。<br><br>社会的に相当地位もあり、教養もありと思われる人達の中に、その考え方をしているのは意外にも感じ、我が教団の人達と思うと失望を禁じ得ないのである。<br><br> それは普通世間的にもよく見らるるような、透視とか霊視とか天耳通とかいうような事に興味を抱き、これが非常に価値あるもののごとく神秘なものと考え世界救世教の信仰のあり方のように思い込んでいるらしいのである。<br><br> 明主様は、「神憑り」「霊憑り」について色々と詳しくお説きになっておらるるのであり、正神といえども人間に憑り給うこともあるが、その場合は何等異様な挙動などなく憑依せる本人さえ意識しない位平静にして、しかも正神の憑依は常住的または普通人に憑る事はなく、国家の重大事又は特殊使命の人間に対し、ある場合に限られるとせられておるのである。<br><br> この事について私はまた何かの本で、大本教の出口三代様が「自分にだっていわゆる憑霊現象なら二、三に止まらずあるのであるが大抵底が見え透いているものである。<br><br>教祖様の場合は、高い神様の神憑りであったが、終始神憑り状態であったのではなく、筆先を書かれる場合のような、神様が必要として憑られる以外の時には、香りの高い凛とした人柄の普通人であった」と書かれてあるのを読んだことを記憶している。<br><br> 私は教団における現在の神憑りについて、これを否定するものでもないし、これを総て虚偽なりと排斥するものではないが、そのあり方が、この状態を奇蹟として神秘的に考え込み、信仰の真髄なるかのごとく思うその信仰の尺度を、もう一度考え直して貰いたいと思うのである。<br><br> 明主様は「救世教とは卒直にいって宗教以上の宗教、即ち超宗教であり空前の救いの業と思えばよく」「真の文明世界を創造されんとする使命の下に生まれたものであるから、既成宗教とはすべてに渉って比べものにならぬ程の相違があり、これが実証として奇蹟による神の実在を確認せしむるのである」と仰せらる。<br><br> 今の神憑りが、明主様の仰せらるるような「超宗教にあるべき奇蹟の具現」であろうか。<br><br>普通宗教にあり勝ちなことに没頭するとせばその愚や嗤うべきである。<br><br> 「神憑り」を全然迷信として片つける現在の識者でなくとも、常識ある第三者として見た場合、相当態度に軽蔑さるることなきかを平静に判断して貰いたいものであり、世間一般人はいかに批評しているかを考えた時、果して教団に被害を与えておらぬかを一顧する必要ありと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Correta Perspectiva sobre a Possessão Divina</h2>
 <p>Serei o único a perceber que, entre alguns membros de nossa Igreja, parece estar se formando uma divergência em relação aos ensinamentos de Meishu-Sama? Refiro-me a pontos cruciais como a natureza da fé, o significado primordial da religião e a visão sobre o misticismo. Causa-me espanto e, devo admitir, profunda decepção que tal mentalidade se manifeste justamente entre pessoas que, presumivelmente, possuem elevada posição social e esmerada cultura.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Meishu-Sama afirmou: “Para sermos diretos, a Kyuseikyou é uma religião para além da religião, ou seja, uma super-religião, e deve ser compreendida como uma obra de salvação sem precedentes. Ela nasceu sob a missão de criar um mundo de verdadeira civilização e, por isso, difere das religiões estabelecidas em um grau incomparável e em todos os aspectos. Como prova factual disso, ela nos permite confirmar a existência de Deus por meio dos milagres”.</p>
 <p>Será que os fenômenos de possessão divina que hoje observamos representam verdadeiramente “a materialização dos milagres” que deveriam caracterizar uma super-religião, conforme as palavras de Meishu-Sama? Se nos deixarmos absorver por práticas que são comuns às religiões ordinárias, nossa insensatez será digna de escárnio.</p>
 <p>Gostaria que fizessem um julgamento sereno: abstraindo-se da visão dos intelectuais modernos, que descartam a possessão divina como mera superstição, como um observador externo, dotado de bom-senso, enxergaria tais atitudes? Não seriam elas alvo de um considerável desprezo? Ademais, quando refletimos sobre as críticas do público em geral, torna-se imperativo ponderar se, no fim das contas, tal comportamento não está causando prejuízo à nossa Igreja.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 随筆 中胆生 『栄光』261号、昭和29(1954)年6月16日発行 最近教団信者の一部の人達の間に「信仰のあり方」「宗教本来の意義」「神秘観」と言った点につき、明主様の御教えと異（ちが）ったものが考えられているのではないかと思われるのは、私一人だけであろうか。<br/><br/>社会的に相当地位もあり、教養もありと思われる人達の中に、その考え方をしているのは意外にも感じ、我が教団の人達と思うと失望を禁じ得ないのである。<br/><br/> それは普通世間的にもよく見らるるような、透視とか霊視とか天耳通とかいうような事に興味を抱き、これが非常に価値あるもののごとく神秘なものと考え世界救世教の信仰のあり方のように思い込んでいるらしいのである。<br/><br/> 明主様は、「神憑り」「霊憑り」について色々と詳しくお説きになっておらるるのであり、正神といえども人間に憑り給うこともあるが、その場合は何等異様な挙動などなく憑依せる本人さえ意識しない位平静にして、しかも正神の憑依は常住的または普通人に憑る事はなく、国家の重大事又は特殊使命の人間に対し、ある場合に限られるとせられておるのである。<br/><br/> この事について私はまた何かの本で、大本教の出口三代様が「自分にだっていわゆる憑霊現象なら二、三に止まらずあるのであるが大抵底が見え透いているものである。<br/><br/>教祖様の場合は、高い神様の神憑りであったが、終始神憑り状態であったのではなく、筆先を書かれる場合のような、神様が必要として憑られる以外の時には、香りの高い凛とした人柄の普通人であった」と書かれてあるのを読んだことを記憶している。<br/><br/> 私は教団における現在の神憑りについて、これを否定するものでもないし、これを総て虚偽なりと排斥するものではないが、そのあり方が、この状態を奇蹟として神秘的に考え込み、信仰の真髄なるかのごとく思うその信仰の尺度を、もう一度考え直して貰いたいと思うのである。<br/><br/> 明主様は「救世教とは卒直にいって宗教以上の宗教、即ち超宗教であり空前の救いの業と思えばよく」「真の文明世界を創造されんとする使命の下に生まれたものであるから、既成宗教とはすべてに渉って比べものにならぬ程の相違があり、これが実証として奇蹟による神の実在を確認せしむるのである」と仰せらる。<br/><br/> 今の神憑りが、明主様の仰せらるるような「超宗教にあるべき奇蹟の具現」であろうか。<br/><br/>普通宗教にあり勝ちなことに没頭するとせばその愚や嗤うべきである。<br/><br/> 「神憑り」を全然迷信として片つける現在の識者でなくとも、常識ある第三者として見た場合、相当態度に軽蔑さるることなきかを平静に判断して貰いたいものであり、世間一般人はいかに批評しているかを考えた時、果して教団に被害を与えておらぬかを一顧する必要ありと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

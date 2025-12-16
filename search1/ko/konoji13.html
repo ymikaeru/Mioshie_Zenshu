@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>konoji13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 私は、本医術が現在如何に国家に貢献しつつあるかといふ事を書いてみたいのである。<br><br>勿論私は現在直接治療に従事してはゐないのであるが、各方面に於て、私が養成した処の多くの治療士及治療士以外の弟子達が治病報国に如何に専念努力しつつあるかといふ事である。<br><br>大病院に於て見離され、大国手や医学博士に匙を投げられたるもの即ち死に直面した際、本医術によつて忽ち起死回生の歓びに浸つたり、一生不治と諦めてゐた永年の痼疾（こしつ）、不具者等が完全人と復活したり、子女を失はんとして悲歓のドン底に沈みゐる際、短時日にして生命を取止め、新しく子女を恵まれたと喜ぶ親達等、斯様な実例は実に枚挙に遑ないのである。<br><br>特に私は此重大時局に対して、皇恩の万分の一なりとも御報恩の誠を尽すべく念願しつつあるのであるが、その現はれとしての一端をかいてみようと思ふのである。<br><br> 現在国家の枢要任務に鞅掌（おうしょう）しつつある陸海軍人、将官級佐官級尉官級等の将士、傷痍軍人諸君の重難病及び右の御家族の病患を全治させ、健康を全たからしめ、安心して軍務に尽しつつある幾多の実例や、国務大臣又は大臣級の諸賢、其御家庭、各重要産業会社の重役技師、産業戦士諸君等、社会各層の枢要部門に携はりつつある人士にして、本治療によつて健康を恢復し、又はされつつある方々は無数に上るのである。<br><br>之を言ひ換へれば、本医術によつて国家の枢要部門に当る人士を新しく産みつつあるといふ事を言ひ得るのである。<br><br>何となればもし本医術を知らず、受療の機会に恵まれなかつたとすれば、無論生命を失はれたであらうからである。<br><br>勿論、嬰児を出生する事も肝要ではあるが、それよりも今現実に此重大時局に当つてゐる処の成人者を産む事の如何に重要であるかは贅言を要しないであらう。<br><br>私は、此事実を当局が一日も早く認識さるる事ほど、今日の緊迫せる時局に対し重要事は他にないとさへ思ふのである。<br><br> 然るに当局は現在に於て、民間療法を極度に圧迫してゐる事実であつて、洵に遺憾の極みであるが、それ等は全く右の如き実際的効果を知らないからであらうと思ふのである。<br><br>言ふ迄もなく現在の保健機構が西洋医学を基本として作られたる法規によつて取締る以上民間療法は第二義的のものとして扱はるるのも致方ないのであるが、兎もすれば医療妨害といふ法規を楯に、些かの過誤にも眼を光らせ罰則を課するので、民間治療士は実に戦々兢々としてゐる実状である。<br><br>嗚呼、国家の為右の如き功績を挙げつつあるに拘はらず、恵まれざる事斯の如しとすれば、罪何れにありや、識者の考慮を求めたいのである。<br><br>従而、此際何とか当局の覚醒を促さなければならない事を痛切に思ふのである。<br><br> 私は、利己的小乗観念を捨て、大乗的見地に立つて観る時、当局者は固より医師諸君に於ても、あらゆる民間療法と共に本治療の効果を実験されるべきであると思ふのである。<br><br>それが一日早ければ早いだけ、国家の利益である事は断じて疑はないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Apelo à Consciência Nacional</h2>
 <p>Gostaria de discorrer sobre a forma como a nossa terapêutica vem atualmente contribuindo para a Nação. Embora eu não me dedique mais diretamente aos tratamentos, os inúmeros terapeutas e discípulos por mim formados em todo o país dedicam-se com afinco e esmero à nobre missão de curar as enfermidades e, assim, servir à Pátria.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Ah, a despeito de prestarmos tão assinalados serviços à Pátria, eis a lamentável condição a que somos submetidos. Onde, então, reside a culpa? Gostaria de submeter esta questão à reflexão dos homens de discernimento. Diante disso, sinto ser meu dever inadiável instar as autoridades a um despertar.</p>
 <p>Creio firmemente que, ao abandonar as concepções egoístas e limitadas e adotar uma perspectiva ampla e altruísta, tanto as autoridades quanto os próprios médicos deveriam se dispor a experimentar os efeitos de nossa terapêutica e de todas as outras práticas congêneres.</p>
 <p>Quanto antes o fizerem, maior será o benefício para a Nação. Disso não tenho a menor dúvida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 私は、本医術が現在如何に国家に貢献しつつあるかといふ事を書いてみたいのである。<br/><br/>勿論私は現在直接治療に従事してはゐないのであるが、各方面に於て、私が養成した処の多くの治療士及治療士以外の弟子達が治病報国に如何に専念努力しつつあるかといふ事である。<br/><br/>大病院に於て見離され、大国手や医学博士に匙を投げられたるもの即ち死に直面した際、本医術によつて忽ち起死回生の歓びに浸つたり、一生不治と諦めてゐた永年の痼疾（こしつ）、不具者等が完全人と復活したり、子女を失はんとして悲歓のドン底に沈みゐる際、短時日にして生命を取止め、新しく子女を恵まれたと喜ぶ親達等、斯様な実例は実に枚挙に遑ないのである。<br/><br/>特に私は此重大時局に対して、皇恩の万分の一なりとも御報恩の誠を尽すべく念願しつつあるのであるが、その現はれとしての一端をかいてみようと思ふのである。<br/><br/> 現在国家の枢要任務に鞅掌（おうしょう）しつつある陸海軍人、将官級佐官級尉官級等の将士、傷痍軍人諸君の重難病及び右の御家族の病患を全治させ、健康を全たからしめ、安心して軍務に尽しつつある幾多の実例や、国務大臣又は大臣級の諸賢、其御家庭、各重要産業会社の重役技師、産業戦士諸君等、社会各層の枢要部門に携はりつつある人士にして、本治療によつて健康を恢復し、又はされつつある方々は無数に上るのである。<br/><br/>之を言ひ換へれば、本医術によつて国家の枢要部門に当る人士を新しく産みつつあるといふ事を言ひ得るのである。<br/><br/>何となればもし本医術を知らず、受療の機会に恵まれなかつたとすれば、無論生命を失はれたであらうからである。<br/><br/>勿論、嬰児を出生する事も肝要ではあるが、それよりも今現実に此重大時局に当つてゐる処の成人者を産む事の如何に重要であるかは贅言を要しないであらう。<br/><br/>私は、此事実を当局が一日も早く認識さるる事ほど、今日の緊迫せる時局に対し重要事は他にないとさへ思ふのである。<br/><br/> 然るに当局は現在に於て、民間療法を極度に圧迫してゐる事実であつて、洵に遺憾の極みであるが、それ等は全く右の如き実際的効果を知らないからであらうと思ふのである。<br/><br/>言ふ迄もなく現在の保健機構が西洋医学を基本として作られたる法規によつて取締る以上民間療法は第二義的のものとして扱はるるのも致方ないのであるが、兎もすれば医療妨害といふ法規を楯に、些かの過誤にも眼を光らせ罰則を課するので、民間治療士は実に戦々兢々としてゐる実状である。<br/><br/>嗚呼、国家の為右の如き功績を挙げつつあるに拘はらず、恵まれざる事斯の如しとすれば、罪何れにありや、識者の考慮を求めたいのである。<br/><br/>従而、此際何とか当局の覚醒を促さなければならない事を痛切に思ふのである。<br/><br/> 私は、利己的小乗観念を捨て、大乗的見地に立つて観る時、当局者は固より医師諸君に於ても、あらゆる民間療法と共に本治療の効果を実験されるべきであると思ふのである。<br/><br/>それが一日早ければ早いだけ、国家の利益である事は断じて疑はないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

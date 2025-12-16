@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsyujutu</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 手術を拒んだ盲腸炎浄霊一夜にして全快 『栄光』170号、昭和27(1952)年8月20日発行 東京都 照明中教会 川角晃子（19） 七月七日正午会社にて昼食後何となく胃部の気持が悪く自分で御浄霊致しましたが、なかなか痛みが去らず周囲の人の勧めに仕方なく医務室へ参りましたところ、注射するとの事にて逃げ帰りなお自分で御浄霊しつつ我慢しておりましたが、ますます痛みが激しくなるばかりで、とうとう一同に連れられ又医務室に行きましたところ「どうも盲腸らしいからすぐ入院するように」と言われました。<br><br> 私は是非帰宅させてくれるよう頼みましたが許されず看護婦付添いにて、いすず病院へ入院させられました。<br><br>白血球検査の結果最悪の状態にて、一時も猶予ならずただちに手術とのこと、けれど家族の立会が無くてはと家へ電話しましたが、神様はこんな時にもお守り下され、何回の電話も不通、やっと連絡がついても母は不在にて立会人がなく、時間は刻々と過ぎて行きます。<br><br>そのうちやっと母に連路がつきすぐに伯母に知らせて貰いました。<br><br>その間どうぞ手術などされませんようにと念じつつ私は飽迄手術を拒みつづけましたが病院側ではもう立会人を待つ余裕が無いからと、手術台に乗せられ腹部にカミソリを当てています。<br><br>ああもう駄目かそれでも死んでもいいから手術はいやだと頑張りましたので流石の医者も呆れはてたらしく、ペニシリンと他に化膿止の注射をして、「夜中に必ず猛しい痛みが来るからもうその時は否も応も無いからね」と言い残して帰られました。<br><br>ああお救い頂けると思わず手を合せました。<br><br>丁度そこへ伯母が駈けつけてくれました。<br><br>しかしすぐ御浄霊をして下さいません。<br><br>今迄の間違っていたことやら今後のことなどコンコンとお話をされ「とにかくあなたの場合は私一存では御浄霊をさせて頂く訳にはいきません。<br><br>今日は御面会日で会長先生御帰宅かどうか分らないがとにかく電話でお伺いしてから」と室を出て行かれました。<br><br>その間母やら叔父達（皆未入信）その他の人々も「医者はあんなに言うのに大丈夫だろうか。<br><br>手術せんで済むものなら」とか「でも入院料も手術費も全部会社側の負担だから」等々コソコソと話合っています。<br><br>しかし先程の伯母の、「お救い頂けるとか、頂けないとかは、私には分りません。<br><br>しかし今迄に盲腸などはどなたも容易に御守護頂いています。<br><br>皆様が最後までお願い致しますと心からおっしゃるならきっと御守護頂けると信じます」とキッパリ言って行かれたその信じきった様子に圧されてお願いする事にして叔父二人残って皆引取りました。<br><br>その時はもう八時を過ぎていました。<br><br>私の方は徐々に痛みが加って来るし、看護婦は時々見に来ては極力冷すよう言います。<br><br>看護婦が行ってしまうと氷袋を除去するという有様で早く伯母が来ないかと千秋の思いでした。<br><br>やっと会長先生との連絡がつき、十時近く伯母が来てくれました。<br><br>叔父達も帰り病室には神経痛で入院しているという中年の女の方と同室ですので伯母は蚊帳を釣った狭い私のベッドに窮屈そうに坐り「今会長先生から御浄霊させて頂いてよいから晃子さん御自身今迄の御無礼をよくよくお詫び申し上げ、改めて御浄霊お願い致しますと真心こめて明主様にお縋りするようとの御伝言ですから」と言われ、何かしらカーッと胸が熱くなり、遥かにお詫びやらお願いやら申し上げ約一年振りで伯母の御浄霊を頂きましところ、いつかかよい気持になり深い眠りに就きました。<br><br>翌朝目が覚めた時ベッドに坐って御浄霊していて下さる伯母の姿が目に入った瞬間アアお救い頂けたんだと思った時の嬉しさ、ただただ御明主様有難う存じますの気持で一杯でした。<br><br>前夜十時頃から翌朝迄腹部の疼痛と共に頭痛の御浄化も頂きました。<br><br>何回位御浄霊頂いたか自分では覚えていません。<br><br>しかし目が覚めると伯母の尊き御浄霊の姿が目に入り又安らかに眠らせて頂き、さしたる苦痛も無く、過させて頂きました。<br><br>同室の方も昨夜の状態と、今朝の様子を見て「不思議ですね」とも、又「羨しい」などとも言って伯母にお道のお話を聞き、又御浄霊もして頂いた様子でした。<br><br>お腹の痛みが無くなると、急にたまらない空腹を感じ、伯母に笑われた程でした。<br><br>九時頃内科部長の診療がありましたが、昨夕と異いどこを押されてもさしたる痛みもなく、又固い場所もないので何かしら不思議そうな、又とても不機嫌な顔をして一言も話さずチラと伯母の方を見たきり行ってしまいました。<br><br>暫くして婦長が来て「もう退院されてもよいそうです」とのことに本当に嬉しく、すぐ帰宅致しました。<br><br>母も近所の方々も「何だか拍子抜けしたようだ」と、喜んでくれました。<br><br>ただちに身を潔め、伯母に連れられ中教会へお詣りさせて頂き、改めて会長先生の御浄霊を頂き、その上有難きお守り様も頂きました。<br><br>それより一週間程伯母の家に泊り朝夕皆と一緒にお詣りさせて頂きつつ支部長先生の御浄霊を頂き月曜には出社致しております。<br><br>思えば二十五年二月伯父夫婦のお導きにより入信させて頂き、数々の御守護を頂きながらフトした事から周囲の反対を押しきれず伯父伯母の忠告も聞かず脱会致しました私の罪をお咎めもなく、かくも絶大なるお恵みを賜わりしかも再度入信のお許を得ました事を深く深くお詫び申し上げますと共に、又再び過を犯しませんよう大光明如来様にお縋りして会長先生始め支部の先生方の御指導をお願いしつつ思い出るままに御報告させて頂きました。<br><br> 明主様大光明如来様誠に有難う存じました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Apendicite Curada em Uma Noite por Meio do Johrei, Após Recusa da Cirurgia (Relato de Graça)</h2>
 <p><em>Revista Glória, nº 170, 20 de agosto de 1952</em>
@@ -106,5 +261,48 @@ function toggleLang(lang) {
 <p>Passei a semana seguinte na casa de minha tia, participando das orações da manhã e da noite com a família e recebendo Johrei do ministro de Johrei da unidade. Na segunda-feira, retornei ao trabalho.</p>
 <p>Refletindo sobre minha jornada, recordo-me de que ingressei na Fé em fevereiro de 1950, por intermédio de meu tio e de minha tia. Apesar de ter recebido inúmeras graças, por um motivo trivial, cedi à oposição das pessoas ao meu redor e, ignorando os conselhos deles, abandonei a Igreja. Sem me recriminar por essa grave falta, Deus me concedeu esta imensa graça e a permissão de reingressar em Seu caminho. Por isso, peço perdão do mais fundo de minha alma. Apegando-me a Dai-Komyo-Nyorai-Sama, rogo para não cometer novamente o mesmo erro e peço a orientação contínua do ministro responsável e dos demais ministros de Johrei. Com este sentimento, relato o que se passou, tal como me recordo.</p>
 <p>Meishu-Sama, Dai-Komyo-Nyorai-Sama, muito, muito obrigada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 手術を拒んだ盲腸炎浄霊一夜にして全快 『栄光』170号、昭和27(1952)年8月20日発行 東京都 照明中教会 川角晃子（19） 七月七日正午会社にて昼食後何となく胃部の気持が悪く自分で御浄霊致しましたが、なかなか痛みが去らず周囲の人の勧めに仕方なく医務室へ参りましたところ、注射するとの事にて逃げ帰りなお自分で御浄霊しつつ我慢しておりましたが、ますます痛みが激しくなるばかりで、とうとう一同に連れられ又医務室に行きましたところ「どうも盲腸らしいからすぐ入院するように」と言われました。<br/><br/> 私は是非帰宅させてくれるよう頼みましたが許されず看護婦付添いにて、いすず病院へ入院させられました。<br/><br/>白血球検査の結果最悪の状態にて、一時も猶予ならずただちに手術とのこと、けれど家族の立会が無くてはと家へ電話しましたが、神様はこんな時にもお守り下され、何回の電話も不通、やっと連絡がついても母は不在にて立会人がなく、時間は刻々と過ぎて行きます。<br/><br/>そのうちやっと母に連路がつきすぐに伯母に知らせて貰いました。<br/><br/>その間どうぞ手術などされませんようにと念じつつ私は飽迄手術を拒みつづけましたが病院側ではもう立会人を待つ余裕が無いからと、手術台に乗せられ腹部にカミソリを当てています。<br/><br/>ああもう駄目かそれでも死んでもいいから手術はいやだと頑張りましたので流石の医者も呆れはてたらしく、ペニシリンと他に化膿止の注射をして、「夜中に必ず猛しい痛みが来るからもうその時は否も応も無いからね」と言い残して帰られました。<br/><br/>ああお救い頂けると思わず手を合せました。<br/><br/>丁度そこへ伯母が駈けつけてくれました。<br/><br/>しかしすぐ御浄霊をして下さいません。<br/><br/>今迄の間違っていたことやら今後のことなどコンコンとお話をされ「とにかくあなたの場合は私一存では御浄霊をさせて頂く訳にはいきません。<br/><br/>今日は御面会日で会長先生御帰宅かどうか分らないがとにかく電話でお伺いしてから」と室を出て行かれました。<br/><br/>その間母やら叔父達（皆未入信）その他の人々も「医者はあんなに言うのに大丈夫だろうか。<br/><br/>手術せんで済むものなら」とか「でも入院料も手術費も全部会社側の負担だから」等々コソコソと話合っています。<br/><br/>しかし先程の伯母の、「お救い頂けるとか、頂けないとかは、私には分りません。<br/><br/>しかし今迄に盲腸などはどなたも容易に御守護頂いています。<br/><br/>皆様が最後までお願い致しますと心からおっしゃるならきっと御守護頂けると信じます」とキッパリ言って行かれたその信じきった様子に圧されてお願いする事にして叔父二人残って皆引取りました。<br/><br/>その時はもう八時を過ぎていました。<br/><br/>私の方は徐々に痛みが加って来るし、看護婦は時々見に来ては極力冷すよう言います。<br/><br/>看護婦が行ってしまうと氷袋を除去するという有様で早く伯母が来ないかと千秋の思いでした。<br/><br/>やっと会長先生との連絡がつき、十時近く伯母が来てくれました。<br/><br/>叔父達も帰り病室には神経痛で入院しているという中年の女の方と同室ですので伯母は蚊帳を釣った狭い私のベッドに窮屈そうに坐り「今会長先生から御浄霊させて頂いてよいから晃子さん御自身今迄の御無礼をよくよくお詫び申し上げ、改めて御浄霊お願い致しますと真心こめて明主様にお縋りするようとの御伝言ですから」と言われ、何かしらカーッと胸が熱くなり、遥かにお詫びやらお願いやら申し上げ約一年振りで伯母の御浄霊を頂きましところ、いつかかよい気持になり深い眠りに就きました。<br/><br/>翌朝目が覚めた時ベッドに坐って御浄霊していて下さる伯母の姿が目に入った瞬間アアお救い頂けたんだと思った時の嬉しさ、ただただ御明主様有難う存じますの気持で一杯でした。<br/><br/>前夜十時頃から翌朝迄腹部の疼痛と共に頭痛の御浄化も頂きました。<br/><br/>何回位御浄霊頂いたか自分では覚えていません。<br/><br/>しかし目が覚めると伯母の尊き御浄霊の姿が目に入り又安らかに眠らせて頂き、さしたる苦痛も無く、過させて頂きました。<br/><br/>同室の方も昨夜の状態と、今朝の様子を見て「不思議ですね」とも、又「羨しい」などとも言って伯母にお道のお話を聞き、又御浄霊もして頂いた様子でした。<br/><br/>お腹の痛みが無くなると、急にたまらない空腹を感じ、伯母に笑われた程でした。<br/><br/>九時頃内科部長の診療がありましたが、昨夕と異いどこを押されてもさしたる痛みもなく、又固い場所もないので何かしら不思議そうな、又とても不機嫌な顔をして一言も話さずチラと伯母の方を見たきり行ってしまいました。<br/><br/>暫くして婦長が来て「もう退院されてもよいそうです」とのことに本当に嬉しく、すぐ帰宅致しました。<br/><br/>母も近所の方々も「何だか拍子抜けしたようだ」と、喜んでくれました。<br/><br/>ただちに身を潔め、伯母に連れられ中教会へお詣りさせて頂き、改めて会長先生の御浄霊を頂き、その上有難きお守り様も頂きました。<br/><br/>それより一週間程伯母の家に泊り朝夕皆と一緒にお詣りさせて頂きつつ支部長先生の御浄霊を頂き月曜には出社致しております。<br/><br/>思えば二十五年二月伯父夫婦のお導きにより入信させて頂き、数々の御守護を頂きながらフトした事から周囲の反対を押しきれず伯父伯母の忠告も聞かず脱会致しました私の罪をお咎めもなく、かくも絶大なるお恵みを賜わりしかも再度入信のお許を得ました事を深く深くお詫び申し上げますと共に、又再び過を犯しませんよう大光明如来様にお縋りして会長先生始め支部の先生方の御指導をお願いしつつ思い出るままに御報告させて頂きました。<br/><br/> 明主様大光明如来様誠に有難う存じました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

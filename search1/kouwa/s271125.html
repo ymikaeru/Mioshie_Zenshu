@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271125</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月25日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月二十五日 今度いよいよ準備ができたので、樋口さんがハワイに行くことになりました。<br><br>もう一人嵐さんという人がロサンゼルスに行くことになって、無論どっちも支部を作るつもりですが、ちょうど『アメリカを救う』という本がもうじきできるので、ちょうど良いと思ったのです。<br><br>それでボツボツあっちの方面を開拓しようと思ってますが、そういう時期が来たわけです。<br><br>アメリカの方で大いに分かってくると、日本は一遍に分かってきます。<br><br>なにしろ日本人の頭というものは、美術などはそうでもないが、ほかのものは全部アメリカに負けている、大体西洋人の方が上だと思い込んでますから、日本でいくら良い物を作っても、どうも駄目なのです。<br><br>それほどの物でなくても、アメリカあたりで大騒ぎをやれば一遍にありがたがってしまうのです。<br><br>これはやっぱり昔支那文化の時分にそんなようでした。<br><br>ですから漢方医薬というのは、支那の薬だから効くというように思ったのです。<br><br>ちょうど今アメリカでいろいろな薬ができると、ありがたがって採り入れるというような具合です。<br><br>ですから日本を救うにはやっぱりアメリカを救う方を先にしなくてはいけないわけです。<br><br>日本人というのは厄介なものです。<br><br>これは日本人の雷同性というものが大いにあるのです。<br><br>信念のない国民はどうも雷同性が多いのです。<br><br>アメリカで良いと言うからしてきっと良いのだろう、と。<br><br>それは自動車とか映画というものは、確かにアメリカのは良いです。<br><br>どうせ日本はかないません。<br><br>それから戦争の道具というのは良いから、それだからほかの物も良いというわけにはいかない。<br><br>日本人にはその区別がつかないのです。<br><br>だから要するに劣等感というやつが昔から日本人の伝統になっているのです。<br><br>このごろフランスの話などをよく聞きますと、フランスあたりは経済上その他いろんな点やなにかはアメリカに負けてますが、フランス人は一つの誇りを持っているのです。<br><br>なにかというと、アメリカ人は田舎者だと言っているそうです。<br><br>だからアメリカの流行物というのはあんまり刺激をしないそうです。<br><br>英国あたりもそうだそうです。<br><br>そのためにある程度は進歩が遅れるということもありますが、その国の誇りというものを持っているのです。<br><br>特に日本人は終戦前は誇りもありましたが、その誇りということが見当違いの誇りで、例の大和魂とか武士道というような誇りだった。<br><br>これはむしろ誇りではなく、恥辱のようなものを誇りと思っていたのです。<br><br>それが壊れてしまったので、よけい自信を失ったのです。<br><br>これからアメリカに医学の間違いをだんだん分からせて、医学においては日本にかなわないということになると、日本人自身も大いに誇りが出るだろうと思ってます。<br><br>そういうわけでいよいよ第一歩を歩き始めるということが、今度のハワイ行きです。<br><br>ハワイはアメリカに行く飛び石ですから、順序としてハワイに手をつけるのです。<br><br>ハワイには信者が五、六十人できてますから、それを足掛かりにして、それからロサンゼルスもいくらか信者ができてます。<br><br>あそこで日本人の持っている家で適当な所を使ってくれと言っているようですから、神様がちゃんと準備されているわけです。<br><br>そういうわけで、その一番の武器としては『アメリカを救う』という本ですが、これは来月できますから、それを持っていくと非常に良いわけです。<br><br>そういうようで、そうとうおもしろくなると思ってます。<br><br>『アメリカを救う』という本には、医学に対して随分遠慮なく言ってありますから、日本向きでやるとちょっと反感を持たれる点もありますが、アメリカに向かってやるという意味ですから、その点は大いに刺激が強くなくいくと思ってます。<br><br> それからラジオ、新聞でも分かっているでしょうが、日本人の愛国心が非常にまごついているのです。<br><br>以前は忠君愛国で、的というものはまず天皇陛下です。<br><br>天皇を的として愛国心というのは、なかなか根強くできていたのですが、その愛国心がちょっと宙に迷っているような具合です。<br><br>だからいろんな説がありますが、それについてちょっと書いてみた。<br><br> （御論文「新しい愛国心」）【栄光 一八五号】 これは信者の人は分かっていることですが、ただ説き方をできるだけ分かりやすく書こうと思って書いたのです。<br><br> （御論文「医療とは」）【栄光 一八五号】 それから宗教で病気が治るということは精神的に影響して治るのだ、というように今のインテリなどが考えているのですが、これがたいへんな間違いで、どうしてもこの迷盲を打破しなければしようがない。<br><br>ですからそれに対して分からせるようにしようと思ってます。<br><br>ほかの信仰は、確かにそういうことはあるかもしれないが、メシヤ教だけはぜんぜんそういうことはないのですから、その点を大いに強調して分からせるようにしなければいけないと思ってます。<br><br>昨日かの『日日新聞』の宗教欄に出てましたが、これからは、宗教は精神的に治すし、医学は肉体的に治す、というように平行していくのが理想的だ、と書いてありましたが、われわれからみると驚いてしまうのです。<br><br>しかしふつう常識的にみるとそう思うのも無理はありません。<br><br>医学は病気を肉体的に治すものだし、宗教は病気を精神的に治すものだ。<br><br>だから肉体と精神と両方でやれば一番良いと思うのは、もっともあたりまえで、誰もそう思うに違いないのですが、それがたいへんな間違いであるということは、メシヤ教でなくては分からないのですが、その点を書いてみたのです。<br><br> （御論文「医学療法と信仰療法」）【栄光 一八六号】 このごろラジオ、雑誌、新聞などでお医者さんの意見を聞きますが、よほどわれわれの方に近い説を唱える人が時々あります。<br><br>薬はあんまり服むなとか、注射は一時的であんまりやっていると、かえって結果に悪い影響があるというようなことを時々聞きますが、ああいうお医者さんは、こっそりとこちらの本を見ているのではないかと思います。<br><br>もっともこれだけ始終言っていれば、見る人もあるでしょうし、話を聞く人もあるでしょう。<br><br>一つの空気ができつつあるようなのです。<br><br>それでやっぱり本当のものは一時誤解されても、結局時の推移に従って、どうしても分からないわけにはいかないのです。<br><br> これはお医者さんの方ですが、もう一つはっきりしてきたのは、近ごろ新宗教というものの社会の見方がよほど違ってきたのです。<br><br>これは新聞などの書き方を見ても、新聞がなかなか新宗教を取り上げてきたのです。<br><br>新宗教に対するいろいろの批判的の記事などもありますが、前とはまるっきり違ってきました。<br><br>前は大体軽蔑的な目をもって見てましたが、近ごろは新宗教というものも、そうとう存在の意味がある。<br><br>だから大いに認めなければならないというような傾向が非常にはっきりしてきました。<br><br>これは大いに喜ぶべきことだと思ってます。<br><br>それでそういった見方はやっぱりメシヤ教を中心にしているように思われます。<br><br>そこで病気治しなども、新宗教の病気治しとか奇蹟というものも、まんざらいい加減なものではない。<br><br>そうとう根拠があるというように見てますが、これも本当のものはどうしても埋もれているはずはないです。<br><br>そこで医学の方もジリジリと分かってくるに違いないと思ってます。<br><br> それに対して今度の『アメリカを救う』は来月あたりできますが、そうしたら新聞広告を思いきって継続的に出そうと思ってます。<br><br>そうして社会の問題にしたいと思ってます。<br><br>問題にするということは、医者とか薬屋とかの方面が、けしからん、とんでもないことをやりやがったと言って、憤慨したり怒ったりすればしめたものなのです。<br><br>そうして問題になれば本は売れるに決まってます。<br><br>ちょっと違うけれども、チャタレー夫人みたいにああなる。<br><br>そうすると、この岡田という奴の説が本当とすれば大問題だ、医学はなんとかしなければならない。<br><br>しかしこれがもし医学の方の説が本当で、岡田の説が間違っているとしたら、これはけしからんということになりますが、ところがそうなると結構なのです。<br><br>そうなるとどうせ医学の方は間違ってますから、こっちの方に旗が上がるに決まってます。<br><br>そうすると医学の間違っているということが早く分かりますから、たいへんに大きな救いの現われになります。<br><br>だからできるだけ問題になるようにしたいのです。<br><br>これは各大臣から国会議員、新聞社、病院、著名なお医者と、そういう方面にみんな配るつもりです。<br><br>喧嘩といっては変ですが、喧嘩を吹っかけるようなやり方ですが、戦端を開くというわけです。<br><br>そんなことはしたくないが、どうしてもそうしなければ医学迷信を打破することができないのです。<br><br>なにしろ一口に言えば医学迷信打破運動です。<br><br>今読んだ通りです。<br><br>そうすると一番困るのは、お医者も困りますが、薬屋が困ります。<br><br>この反対運動が出るでしょう。<br><br>ぜんぜん商売は上がったりになるのですから。<br><br>今日でも薬の事業というものは、なかなか大きなものです。<br><br>この間ちょっと見ましたが、現在日本の薬の売れ高は一年間に七十億とか出てました。<br><br>実際はそれではきかないでしょう。<br><br>公のがそれだけで、まだ公でない風邪の薬とか富山の薬売りとかあります。<br><br>富山の薬売りだけでもたいへんです。<br><br>一年間に十億とか七億とか書いてありました。<br><br>紺絣の着物を着て脚絆を巻いて黄色い声を出してやってますが、それがあんななのです。<br><br>日本における薬剤の売れ高というのはたいへんなものです。<br><br>ところがこっちの説をもし信ずる人が増えるとしたら、だんだん薬屋の方が上がったりになりますから、この方の反対もなかなかたいへんです。<br><br>しかしそういうようなことがなかったら、こっちの目的は達せられないのです。<br><br>その点は神様がうまい具合にやられると思ってます。<br><br>とにかく結局において、どうしても問題になると思います。<br><br>そうすると政府もどうしたら良いかということになる。<br><br>医学の方に旗を上げるか、それともメシヤ教の方に旗を上げるか、というドン詰まりまでどうしても来なければならないのです。<br><br>そうなるとおもしろいのです。<br><br>またそうならなければいけないのです。<br><br>こっちの方は実際に病気が治るところを見せるのですが、医学の方は実際において駄目なのですから、こっちが勝つに決まってます。<br><br>そこにおいて初めて医学迷信ということが分かって、多くの人が救われるということになります。<br><br>そこまでいくということは覚悟しておかなければなりません。<br><br>おそらく世界始まって以来ない仕事です。<br><br>とにかく最初の出発点は医学の革命ですから、今までいろんな革命はありましたが、これほど大きな革命はないと思います。<br><br>無血革命と言いますが、無血革命でなく無病革命です。<br><br>ですから随分変わった革命です。<br><br>お医者や薬屋はその革命の犠牲になるわけです。<br><br>けれども大の虫を助けて小の虫を殺すので、これはどうもやむを得ないのです。<br><br>そういう点も考えて、なかなか大きな仕事です。<br><br>しかしまた一方大の虫の方は助けられたら、これはたいへんな喜びですから良いのですが、なにしろだんだんそういった仕事が大きくなり、いろんなそういった問題にされますから、私らもその覚悟でやりますが、最初の『アメリカを救う』という本、それから『結核信仰療法』も来年の春あたりに出るでしょうが、今度は本当に腰を据えて乗り出して戦うというわけです。<br><br>そのつもりで大いにやってもらいたいと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Expansão da Fé e a Revolução da Medicina</h2>
 <p>Com as preparações finalmente concluídas, foi decidido que o senhor Higuchi partirá para o Havaí. Simultaneamente, o senhor Arashi seguirá para Los Angeles. O propósito, em ambos os casos, é naturalmente o de estabelecer Johrei Centers. O momento se revela particularmente propício, pois o livro <em>Salvar a América</em> está prestes a ser finalizado, o que considerei uma excelente coincidência. Pretendemos, assim, desbravar gradualmente aquela região, pois a hora para tal empreitada chegou.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Conforme mais pessoas aderirem à nossa visão, a indústria farmacêutica declinará, e a oposição será feroz. Contudo, sem esse confronto, nosso objetivo não poderá ser alcançado. Confio que Deus conduzirá tudo da melhor maneira. Ao final, a questão se tornará inevitável, e o governo se encontrará em um impasse: apoiar a medicina ou a Igreja Messiânica? É preciso que cheguemos a esse ponto crucial. Quando chegarmos lá, a situação se tornará extremamente interessante; aliás, é necessário que se torne. De nosso lado, apresentaremos a cura real das doenças, enquanto a medicina, na prática, se mostrará ineficaz. A vitória, portanto, é certa.</p>
 <p>Somente então a superstição médica será finalmente compreendida, e inúmeras pessoas serão salvas. Devemos estar preparados para chegar a esse ponto. Trata-se de uma obra provavelmente sem precedentes desde o início do mundo. Nosso ponto de partida é a revolução da medicina. Houve muitas revoluções ao longo da história, mas acredito que nenhuma foi tão grandiosa quanto esta. Fala-se em revolução sem derramamento de sangue, mas a nossa é uma Revolução sem Doenças, o que a torna verdadeiramente singular.</p>
 <p>Médicos e farmacêuticos serão os sacrifícios dessa revolução. No entanto, é preciso, por vezes, sacrificar o pequeno para salvar o grande; é um mal necessário. Considerando também este aspecto, a tarefa que temos pela frente é monumental. Por outro lado, para aqueles que serão salvos, a alegria será imensa. À medida que nossa obra cresce e tais questões vêm à tona, nós também nos preparamos com a devida resolução. Com o lançamento do livro <em>Salvar a América</em> e, posteriormente, do livro <em>A Cura da Tuberculose pela Fé</em>, que deverá ser publicado na próxima primavera, estaremos verdadeiramente prontos para entrar na batalha de forma decisiva. É com este espírito que peço que todos se empenhem ao máximo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月25日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月二十五日 今度いよいよ準備ができたので、樋口さんがハワイに行くことになりました。<br/><br/>もう一人嵐さんという人がロサンゼルスに行くことになって、無論どっちも支部を作るつもりですが、ちょうど『アメリカを救う』という本がもうじきできるので、ちょうど良いと思ったのです。<br/><br/>それでボツボツあっちの方面を開拓しようと思ってますが、そういう時期が来たわけです。<br/><br/>アメリカの方で大いに分かってくると、日本は一遍に分かってきます。<br/><br/>なにしろ日本人の頭というものは、美術などはそうでもないが、ほかのものは全部アメリカに負けている、大体西洋人の方が上だと思い込んでますから、日本でいくら良い物を作っても、どうも駄目なのです。<br/><br/>それほどの物でなくても、アメリカあたりで大騒ぎをやれば一遍にありがたがってしまうのです。<br/><br/>これはやっぱり昔支那文化の時分にそんなようでした。<br/><br/>ですから漢方医薬というのは、支那の薬だから効くというように思ったのです。<br/><br/>ちょうど今アメリカでいろいろな薬ができると、ありがたがって採り入れるというような具合です。<br/><br/>ですから日本を救うにはやっぱりアメリカを救う方を先にしなくてはいけないわけです。<br/><br/>日本人というのは厄介なものです。<br/><br/>これは日本人の雷同性というものが大いにあるのです。<br/><br/>信念のない国民はどうも雷同性が多いのです。<br/><br/>アメリカで良いと言うからしてきっと良いのだろう、と。<br/><br/>それは自動車とか映画というものは、確かにアメリカのは良いです。<br/><br/>どうせ日本はかないません。<br/><br/>それから戦争の道具というのは良いから、それだからほかの物も良いというわけにはいかない。<br/><br/>日本人にはその区別がつかないのです。<br/><br/>だから要するに劣等感というやつが昔から日本人の伝統になっているのです。<br/><br/>このごろフランスの話などをよく聞きますと、フランスあたりは経済上その他いろんな点やなにかはアメリカに負けてますが、フランス人は一つの誇りを持っているのです。<br/><br/>なにかというと、アメリカ人は田舎者だと言っているそうです。<br/><br/>だからアメリカの流行物というのはあんまり刺激をしないそうです。<br/><br/>英国あたりもそうだそうです。<br/><br/>そのためにある程度は進歩が遅れるということもありますが、その国の誇りというものを持っているのです。<br/><br/>特に日本人は終戦前は誇りもありましたが、その誇りということが見当違いの誇りで、例の大和魂とか武士道というような誇りだった。<br/><br/>これはむしろ誇りではなく、恥辱のようなものを誇りと思っていたのです。<br/><br/>それが壊れてしまったので、よけい自信を失ったのです。<br/><br/>これからアメリカに医学の間違いをだんだん分からせて、医学においては日本にかなわないということになると、日本人自身も大いに誇りが出るだろうと思ってます。<br/><br/>そういうわけでいよいよ第一歩を歩き始めるということが、今度のハワイ行きです。<br/><br/>ハワイはアメリカに行く飛び石ですから、順序としてハワイに手をつけるのです。<br/><br/>ハワイには信者が五、六十人できてますから、それを足掛かりにして、それからロサンゼルスもいくらか信者ができてます。<br/><br/>あそこで日本人の持っている家で適当な所を使ってくれと言っているようですから、神様がちゃんと準備されているわけです。<br/><br/>そういうわけで、その一番の武器としては『アメリカを救う』という本ですが、これは来月できますから、それを持っていくと非常に良いわけです。<br/><br/>そういうようで、そうとうおもしろくなると思ってます。<br/><br/>『アメリカを救う』という本には、医学に対して随分遠慮なく言ってありますから、日本向きでやるとちょっと反感を持たれる点もありますが、アメリカに向かってやるという意味ですから、その点は大いに刺激が強くなくいくと思ってます。<br/><br/> それからラジオ、新聞でも分かっているでしょうが、日本人の愛国心が非常にまごついているのです。<br/><br/>以前は忠君愛国で、的というものはまず天皇陛下です。<br/><br/>天皇を的として愛国心というのは、なかなか根強くできていたのですが、その愛国心がちょっと宙に迷っているような具合です。<br/><br/>だからいろんな説がありますが、それについてちょっと書いてみた。<br/><br/> （御論文「新しい愛国心」）【栄光 一八五号】 これは信者の人は分かっていることですが、ただ説き方をできるだけ分かりやすく書こうと思って書いたのです。<br/><br/> （御論文「医療とは」）【栄光 一八五号】 それから宗教で病気が治るということは精神的に影響して治るのだ、というように今のインテリなどが考えているのですが、これがたいへんな間違いで、どうしてもこの迷盲を打破しなければしようがない。<br/><br/>ですからそれに対して分からせるようにしようと思ってます。<br/><br/>ほかの信仰は、確かにそういうことはあるかもしれないが、メシヤ教だけはぜんぜんそういうことはないのですから、その点を大いに強調して分からせるようにしなければいけないと思ってます。<br/><br/>昨日かの『日日新聞』の宗教欄に出てましたが、これからは、宗教は精神的に治すし、医学は肉体的に治す、というように平行していくのが理想的だ、と書いてありましたが、われわれからみると驚いてしまうのです。<br/><br/>しかしふつう常識的にみるとそう思うのも無理はありません。<br/><br/>医学は病気を肉体的に治すものだし、宗教は病気を精神的に治すものだ。<br/><br/>だから肉体と精神と両方でやれば一番良いと思うのは、もっともあたりまえで、誰もそう思うに違いないのですが、それがたいへんな間違いであるということは、メシヤ教でなくては分からないのですが、その点を書いてみたのです。<br/><br/> （御論文「医学療法と信仰療法」）【栄光 一八六号】 このごろラジオ、雑誌、新聞などでお医者さんの意見を聞きますが、よほどわれわれの方に近い説を唱える人が時々あります。<br/><br/>薬はあんまり服むなとか、注射は一時的であんまりやっていると、かえって結果に悪い影響があるというようなことを時々聞きますが、ああいうお医者さんは、こっそりとこちらの本を見ているのではないかと思います。<br/><br/>もっともこれだけ始終言っていれば、見る人もあるでしょうし、話を聞く人もあるでしょう。<br/><br/>一つの空気ができつつあるようなのです。<br/><br/>それでやっぱり本当のものは一時誤解されても、結局時の推移に従って、どうしても分からないわけにはいかないのです。<br/><br/> これはお医者さんの方ですが、もう一つはっきりしてきたのは、近ごろ新宗教というものの社会の見方がよほど違ってきたのです。<br/><br/>これは新聞などの書き方を見ても、新聞がなかなか新宗教を取り上げてきたのです。<br/><br/>新宗教に対するいろいろの批判的の記事などもありますが、前とはまるっきり違ってきました。<br/><br/>前は大体軽蔑的な目をもって見てましたが、近ごろは新宗教というものも、そうとう存在の意味がある。<br/><br/>だから大いに認めなければならないというような傾向が非常にはっきりしてきました。<br/><br/>これは大いに喜ぶべきことだと思ってます。<br/><br/>それでそういった見方はやっぱりメシヤ教を中心にしているように思われます。<br/><br/>そこで病気治しなども、新宗教の病気治しとか奇蹟というものも、まんざらいい加減なものではない。<br/><br/>そうとう根拠があるというように見てますが、これも本当のものはどうしても埋もれているはずはないです。<br/><br/>そこで医学の方もジリジリと分かってくるに違いないと思ってます。<br/><br/> それに対して今度の『アメリカを救う』は来月あたりできますが、そうしたら新聞広告を思いきって継続的に出そうと思ってます。<br/><br/>そうして社会の問題にしたいと思ってます。<br/><br/>問題にするということは、医者とか薬屋とかの方面が、けしからん、とんでもないことをやりやがったと言って、憤慨したり怒ったりすればしめたものなのです。<br/><br/>そうして問題になれば本は売れるに決まってます。<br/><br/>ちょっと違うけれども、チャタレー夫人みたいにああなる。<br/><br/>そうすると、この岡田という奴の説が本当とすれば大問題だ、医学はなんとかしなければならない。<br/><br/>しかしこれがもし医学の方の説が本当で、岡田の説が間違っているとしたら、これはけしからんということになりますが、ところがそうなると結構なのです。<br/><br/>そうなるとどうせ医学の方は間違ってますから、こっちの方に旗が上がるに決まってます。<br/><br/>そうすると医学の間違っているということが早く分かりますから、たいへんに大きな救いの現われになります。<br/><br/>だからできるだけ問題になるようにしたいのです。<br/><br/>これは各大臣から国会議員、新聞社、病院、著名なお医者と、そういう方面にみんな配るつもりです。<br/><br/>喧嘩といっては変ですが、喧嘩を吹っかけるようなやり方ですが、戦端を開くというわけです。<br/><br/>そんなことはしたくないが、どうしてもそうしなければ医学迷信を打破することができないのです。<br/><br/>なにしろ一口に言えば医学迷信打破運動です。<br/><br/>今読んだ通りです。<br/><br/>そうすると一番困るのは、お医者も困りますが、薬屋が困ります。<br/><br/>この反対運動が出るでしょう。<br/><br/>ぜんぜん商売は上がったりになるのですから。<br/><br/>今日でも薬の事業というものは、なかなか大きなものです。<br/><br/>この間ちょっと見ましたが、現在日本の薬の売れ高は一年間に七十億とか出てました。<br/><br/>実際はそれではきかないでしょう。<br/><br/>公のがそれだけで、まだ公でない風邪の薬とか富山の薬売りとかあります。<br/><br/>富山の薬売りだけでもたいへんです。<br/><br/>一年間に十億とか七億とか書いてありました。<br/><br/>紺絣の着物を着て脚絆を巻いて黄色い声を出してやってますが、それがあんななのです。<br/><br/>日本における薬剤の売れ高というのはたいへんなものです。<br/><br/>ところがこっちの説をもし信ずる人が増えるとしたら、だんだん薬屋の方が上がったりになりますから、この方の反対もなかなかたいへんです。<br/><br/>しかしそういうようなことがなかったら、こっちの目的は達せられないのです。<br/><br/>その点は神様がうまい具合にやられると思ってます。<br/><br/>とにかく結局において、どうしても問題になると思います。<br/><br/>そうすると政府もどうしたら良いかということになる。<br/><br/>医学の方に旗を上げるか、それともメシヤ教の方に旗を上げるか、というドン詰まりまでどうしても来なければならないのです。<br/><br/>そうなるとおもしろいのです。<br/><br/>またそうならなければいけないのです。<br/><br/>こっちの方は実際に病気が治るところを見せるのですが、医学の方は実際において駄目なのですから、こっちが勝つに決まってます。<br/><br/>そこにおいて初めて医学迷信ということが分かって、多くの人が救われるということになります。<br/><br/>そこまでいくということは覚悟しておかなければなりません。<br/><br/>おそらく世界始まって以来ない仕事です。<br/><br/>とにかく最初の出発点は医学の革命ですから、今までいろんな革命はありましたが、これほど大きな革命はないと思います。<br/><br/>無血革命と言いますが、無血革命でなく無病革命です。<br/><br/>ですから随分変わった革命です。<br/><br/>お医者や薬屋はその革命の犠牲になるわけです。<br/><br/>けれども大の虫を助けて小の虫を殺すので、これはどうもやむを得ないのです。<br/><br/>そういう点も考えて、なかなか大きな仕事です。<br/><br/>しかしまた一方大の虫の方は助けられたら、これはたいへんな喜びですから良いのですが、なにしろだんだんそういった仕事が大きくなり、いろんなそういった問題にされますから、私らもその覚悟でやりますが、最初の『アメリカを救う』という本、それから『結核信仰療法』も来年の春あたりに出るでしょうが、今度は本当に腰を据えて乗り出して戦うというわけです。<br/><br/>そのつもりで大いにやってもらいたいと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kise124</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 ８ 124-136 動植物 124 鶯飛び込む（応神堂御開設の頃の現象） 私の妹の家において、最近鶯が部屋の中へ飛び込んでまいりましたので、外へ放ちましたが、数日後再び飛び込んで逃げようといたしません。<br><br>何か意味がございましょうか。<br><br> 大変良い事だ。<br><br>霊界では天国になった訳である。<br><br>先に、何にもいないのに、鶯の声だけ聞こえたという事もあった。<br><br> 大先生が麹町で一番初めに教導所をおつくりになった時、そうであった。<br><br>大変縁起のいい事である。<br><br>（S24.11.19） 125 白雉と吉兆 昭和二十四年十二月二十四日、日本経済新聞によりますと、山梨県西八代郡共和村一色地内の山林に雄、雌、三羽の白雉が仲良く住んでいるのを村民が発見致しました。<br><br>村民は三羽一緒に住んでいるのは「何かきっといい事がある」とすっかり気をよくし、その昔孝徳天皇が白雉を見て改元した故事に倣い、“昭和”の年号も替えたらどうだろうと土地の物知りが言っているそうで御座いますが、白雉と吉兆と何か霊的に関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br>（因みに八代郡は十二月大火が御座いました。<br><br>） あらゆるものは白いのがいい。<br><br>であるから白雉などもいい。<br><br>蛇でも狐でも、白馬でも、白はいい。<br><br>白はすべて吉い事である。<br><br>（S25. 1.22） 126 鶏が放火して焼く祠 上袴田シズ（四十七歳）さんの家（昔は大農家）では代々祭っていた氏神の祠に鶏が火のついた木をくわえて行き、そのために祠を焼失しました。<br><br>その家は六人の子供が御座いましたが、現在は末子のシズさん一人になり、シズさんは主人に死別、子供はなく、養子は逃げてしまうと言う訳で、非常に不幸でございます。<br><br>この場合火をつけた鶏と氏神とはどのような関係が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 祖先の霊が鶏に生れて来た。<br><br>罪を消さなくてはならぬためにやった事であるから、結構である。<br><br>一家断絶するだけの罪があった。<br><br>（S24. 9.22） 127 供えた柿落ち兎死ぬ、家族腹痛、（兎の怪死） ある信者の家で御座いますが、御盆に柿や栗を飾る風習になっており、それを飾っておきました所、柿の実が二ケ落ち、少し間を置いてまた一ケ落ちました。<br><br>その時、供物の皿にあたり創の入った所からポロリと割れて終いました。<br><br>柿の実が二ケ落ちた時に兎の子が二匹死に、一ケ落ちた後また一匹死にました。<br><br>その日家族の者が三人次々に腹痛を催し、二人は大した事もなく癒りましたが、十四歳の女児だけは執拗にて、時々痛み浄霊致しますと楽になり、また痛むという具合で、一週間程になりますが、食欲はあまりありません。<br><br>（仏壇は御屏風観音様を御祭りし、祀るべき人は皆祀って御座居ますが、金属で出来た観音像と祖父が諸国を廻って集めた観音様の御札を綴った本を両側に置いて御座います。<br><br>主人を始め五人教修を戴いておられます）これはいかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 柿の実と兎と関係がある。<br><br>祖先が兎になったもので、普通の兎ではない事を柿の実によって知らせたのである。<br><br>それに気付かぬため、腹痛にした。<br><br>十四歳の女児の腹痛は、執着の強い人が憑ったのである。<br><br> 金属の観音様は仏壇へ入れてはいけない。<br><br>外へ祀る。<br><br> 祖先が皆人間に生れ代った。<br><br>救われた。<br><br>その有難さを知らせたのである。<br><br> 観音様のお札は、向って右の方へ置いておく。<br><br>（S24. 8.12） 128 野兎と月光 野兎が箱に鍵をかけ出られないようにして置きましても、月夜に月光が少しでも入れば、いつかいなくなるのはいかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br>（但し野兎だけで、飼兎は変化ないそうで御座います） 初めて聞く。<br><br>判らない。<br><br>蛇はある。<br><br>これは伸縮自在だからで、これは私が子供の頃に経験がある。<br><br>狐もそうで、物質の霊化、霊の物質化が自由である。<br><br> 月は兎と関係あるように言うが、本当である。<br><br>事実あるのかないのか確実な事はない。<br><br>あり得べき事でない。<br><br> 蛇は伸縮自在で、霊化する事も出来る。<br><br>（S23.12.11） rattail（注） 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕掲載 129 飼猫育たず 私の家では猫が好きで、いつも猫を拾って育てるのですが、半年位経ちますと死んだり、行方不明になります。<br><br>いかなるわけでございましょうか。<br><br> 元、畜生道へ堕ち、猫の場合があった。<br><br>面白くない所があるか、猫を可愛がるに対し嫉妬する霊がある。<br><br>また猫の嫌いな霊があって追出すかである。<br><br>猫に反対の霊である。<br><br>そういう霊的に複雑した事情があろう。<br><br>（S24. 1.19） 130 除草すると腫物生ずる場所（虫の霊） ある場所の草をとる時、必ず腫物が出来て苦しみますが、いかなる訳でしょう。<br><br> これはその場所の草をとられるのを嫌う虫のような霊がいて、害するものと思う。<br><br>草をとる前に天津祝詞を上げるようにすれば解決はつく。<br><br> 131 病床、墓、赤飯になめくじ（転生） ある家の夫人が病気の時大きいナメクジが枕許にいました。<br><br>その夫人が亡くなりましてからお墓へ行きましたら、お墓に枕許にいたのと同様のナメクジがいました。<br><br>そしてまた赤飯を炊きまして神様にお供え致しましたらナメクジが赤飯を埋めてしまいました。<br><br>少したって見ましたら一匹もいませんでした。<br><br>何か意味が御ざいましょうか。<br><br>御伺い申し上げます。<br><br> ナメクジと亡くなった婦人と関係がある。<br><br>婦人の子供か何かがナメクジになっている。<br><br>身内の者の霊がナメクジに憑依したものである。<br><br>子供の霊のナメクジは、自分の部下などにナメクジがいるので、それを連れて来て赤飯を食わしたものである。<br><br>要するに、子供がナメクジに生れ代ったものか、子供に生れても、ナメクジの因縁が離れず、ナメクジに憑依したものである。<br><br>（S24. 5.2） 132 歯を治す鯰 ある神社に鯰が飼ってあり、鯰を捕えて殺しますと祟ると申します。<br><br>その神社に詣りますと歯痛が癒ると評判になっております。<br><br>また、ある所では、死んだ蛇を埋けてやると歯痛が起らぬと申し、実際その通りになって喜んでいる方が御座います。<br><br>蛇、鯰と歯痛とは何か関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 死んだ蛇を見付ける事は不可能であるから、効果があっても仕様がない。<br><br>人間が鯰に生れて祀られたものである。<br><br>官吏か何かであろう。<br><br>人助けをするその徳で人間に生れ更ってくるのである。<br><br>それで功徳を施す。<br><br>この鯰は歯を治すのがお得意である。<br><br>しかしこういう事は長く続かぬ。<br><br>東京、巣鴨の刺抜地蔵のようなものである。<br><br>（S24.10.11） 133 鯉入り鮒住まずなる 本年五月二十一日、私宅庭の松の根元で何かはねていましたので、よく見ましたら鯉で御座いました。<br><br>早速井戸へ放しました所、その井戸へいました鮒が最近までに殆ど死んでしまいました。<br><br>今では鯉だけが元気にはねていますが、これは何か意味がある事で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 鮒は鯉にやられた。<br><br>鯉は普通の魚と違う。<br><br>魚の龍である。<br><br>よほどいい事である。<br><br>祖先がそういう事をした。<br><br> 登龍観音というのがある。<br><br>鯉は魚の観音である。<br><br>（S24.10. 3） 134 葬用製の籠を好む鰻 山梨県南巨摩郡睦合村の地方では鰻をとるためにヤナと称する道具を用います。<br><br>これは下り鰻を捕る方法でございます。<br><br>この籠の中に塔婆が流れ込みますと、必ず鰻が捕れると申します。<br><br>また葬式に使用した竹を用い籠を作りますと実によく捕れると申します。<br><br>また捕りに行く途中にて祝い事に出合った場合はとれないと申しますが、霊的にいかなる関係がありましょうか。<br><br> うなぎは死臭が好きで集ってくるとみえる。<br><br> 135 十八日に梅開く（入信後） 昨年十一月十六日に入信させて戴きました信者でございますが、その動機は本人が半年程、医者ももて余す程の種々の病気にて苦しんでおりましたが、御浄霊にて目に見えて良くなりました故でございます。<br><br>所が入信後、二日目の十八日に庭の梅に紅梅が一輪咲き、なお十二月十八日に他の梅の木に白梅が一輪咲きました。<br><br>観音様の日に二回、しかもたった一輪の花が咲くと言う事は何を意味しておりますのでございましょうか。<br><br>お伺い申し上げます。<br><br> 霊界で祖先が喜んでお祝いする。<br><br>それをいろいろ考えて、梅の花を咲かせたのである。<br><br>何にもなくて鶯の声を聞く事もある。<br><br>赤が先に十一月一輪咲いたのは不思議である。<br><br>赤色の順序――。<br><br>大いに祝った。<br><br>今に吉い事がある。<br><br>（S25. 1.15） 136 梅の二度咲き 私の家の右前に梅の木が植っておりますが、二月の中旬に一度花が咲いて散ったので御座いますが、また最近になり白色の八重の花が二ツ三ツ咲いております。<br><br>普通は桃色の花が咲くので御座います。<br><br>また、裏の桃の木も一度咲いて散りましたのにまた、最近立派な花が一ツぽつんと咲いております。<br><br>桃の花は遅れ咲きと思われますが、梅の花は全然種類が違います。<br><br>これは何か意味が御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 吉い事である。<br><br>梅は霊的の木で、吉い時はきっと知らせる。<br><br>木はすべて生きている。<br><br>（S25. 5.21）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compêndio de Milagres e Fenômenos Singulares: Animais e Plantas</h2>
 <p><strong>124. O rouxinol que adentrou o recinto (Um fenômeno ocorrido à época da inauguração do Templo Oujin-dou)</strong></p>
@@ -136,5 +288,48 @@ function toggleLang(lang) {
 <p><strong>136. A segunda floração da ameixeira</strong></p>
 <p><em>Pergunta:</em> Tenho uma ameixeira plantada à direita, na frente de casa. Ela floresceu em meados de fevereiro, e as flores caíram. Recentemente, contudo, dois ou três botões de flores brancas e de pétalas duplas desabrocharam. Normalmente, as flores dessa árvore são cor-de-rosa. Além disso, um pessegueiro nos fundos, que também já havia florescido e perdido suas flores, ostenta agora uma única e magnífica flor solitária. A flor do pessegueiro parece ser tardia, mas as da ameixeira são de um tipo completamente diferente. Haveria algum significado nisso?</p>
 <p><em>Resposta:</em> Trata-se de um bom presságio. A ameixeira é uma árvore de natureza espiritual e, quando algo auspicioso está para ocorrer, ela sempre o anuncia. Todas as árvores são seres vivos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 ８ 124-136 動植物 124 鶯飛び込む（応神堂御開設の頃の現象） 私の妹の家において、最近鶯が部屋の中へ飛び込んでまいりましたので、外へ放ちましたが、数日後再び飛び込んで逃げようといたしません。<br/><br/>何か意味がございましょうか。<br/><br/> 大変良い事だ。<br/><br/>霊界では天国になった訳である。<br/><br/>先に、何にもいないのに、鶯の声だけ聞こえたという事もあった。<br/><br/> 大先生が麹町で一番初めに教導所をおつくりになった時、そうであった。<br/><br/>大変縁起のいい事である。<br/><br/>（S24.11.19） 125 白雉と吉兆 昭和二十四年十二月二十四日、日本経済新聞によりますと、山梨県西八代郡共和村一色地内の山林に雄、雌、三羽の白雉が仲良く住んでいるのを村民が発見致しました。<br/><br/>村民は三羽一緒に住んでいるのは「何かきっといい事がある」とすっかり気をよくし、その昔孝徳天皇が白雉を見て改元した故事に倣い、“昭和”の年号も替えたらどうだろうと土地の物知りが言っているそうで御座いますが、白雉と吉兆と何か霊的に関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/>（因みに八代郡は十二月大火が御座いました。<br/><br/>） あらゆるものは白いのがいい。<br/><br/>であるから白雉などもいい。<br/><br/>蛇でも狐でも、白馬でも、白はいい。<br/><br/>白はすべて吉い事である。<br/><br/>（S25. 1.22） 126 鶏が放火して焼く祠 上袴田シズ（四十七歳）さんの家（昔は大農家）では代々祭っていた氏神の祠に鶏が火のついた木をくわえて行き、そのために祠を焼失しました。<br/><br/>その家は六人の子供が御座いましたが、現在は末子のシズさん一人になり、シズさんは主人に死別、子供はなく、養子は逃げてしまうと言う訳で、非常に不幸でございます。<br/><br/>この場合火をつけた鶏と氏神とはどのような関係が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 祖先の霊が鶏に生れて来た。<br/><br/>罪を消さなくてはならぬためにやった事であるから、結構である。<br/><br/>一家断絶するだけの罪があった。<br/><br/>（S24. 9.22） 127 供えた柿落ち兎死ぬ、家族腹痛、（兎の怪死） ある信者の家で御座いますが、御盆に柿や栗を飾る風習になっており、それを飾っておきました所、柿の実が二ケ落ち、少し間を置いてまた一ケ落ちました。<br/><br/>その時、供物の皿にあたり創の入った所からポロリと割れて終いました。<br/><br/>柿の実が二ケ落ちた時に兎の子が二匹死に、一ケ落ちた後また一匹死にました。<br/><br/>その日家族の者が三人次々に腹痛を催し、二人は大した事もなく癒りましたが、十四歳の女児だけは執拗にて、時々痛み浄霊致しますと楽になり、また痛むという具合で、一週間程になりますが、食欲はあまりありません。<br/><br/>（仏壇は御屏風観音様を御祭りし、祀るべき人は皆祀って御座居ますが、金属で出来た観音像と祖父が諸国を廻って集めた観音様の御札を綴った本を両側に置いて御座います。<br/><br/>主人を始め五人教修を戴いておられます）これはいかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 柿の実と兎と関係がある。<br/><br/>祖先が兎になったもので、普通の兎ではない事を柿の実によって知らせたのである。<br/><br/>それに気付かぬため、腹痛にした。<br/><br/>十四歳の女児の腹痛は、執着の強い人が憑ったのである。<br/><br/> 金属の観音様は仏壇へ入れてはいけない。<br/><br/>外へ祀る。<br/><br/> 祖先が皆人間に生れ代った。<br/><br/>救われた。<br/><br/>その有難さを知らせたのである。<br/><br/> 観音様のお札は、向って右の方へ置いておく。<br/><br/>（S24. 8.12） 128 野兎と月光 野兎が箱に鍵をかけ出られないようにして置きましても、月夜に月光が少しでも入れば、いつかいなくなるのはいかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/>（但し野兎だけで、飼兎は変化ないそうで御座います） 初めて聞く。<br/><br/>判らない。<br/><br/>蛇はある。<br/><br/>これは伸縮自在だからで、これは私が子供の頃に経験がある。<br/><br/>狐もそうで、物質の霊化、霊の物質化が自由である。<br/><br/> 月は兎と関係あるように言うが、本当である。<br/><br/>事実あるのかないのか確実な事はない。<br/><br/>あり得べき事でない。<br/><br/> 蛇は伸縮自在で、霊化する事も出来る。<br/><br/>（S23.12.11） rattail（注） 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕掲載 129 飼猫育たず 私の家では猫が好きで、いつも猫を拾って育てるのですが、半年位経ちますと死んだり、行方不明になります。<br/><br/>いかなるわけでございましょうか。<br/><br/> 元、畜生道へ堕ち、猫の場合があった。<br/><br/>面白くない所があるか、猫を可愛がるに対し嫉妬する霊がある。<br/><br/>また猫の嫌いな霊があって追出すかである。<br/><br/>猫に反対の霊である。<br/><br/>そういう霊的に複雑した事情があろう。<br/><br/>（S24. 1.19） 130 除草すると腫物生ずる場所（虫の霊） ある場所の草をとる時、必ず腫物が出来て苦しみますが、いかなる訳でしょう。<br/><br/> これはその場所の草をとられるのを嫌う虫のような霊がいて、害するものと思う。<br/><br/>草をとる前に天津祝詞を上げるようにすれば解決はつく。<br/><br/> 131 病床、墓、赤飯になめくじ（転生） ある家の夫人が病気の時大きいナメクジが枕許にいました。<br/><br/>その夫人が亡くなりましてからお墓へ行きましたら、お墓に枕許にいたのと同様のナメクジがいました。<br/><br/>そしてまた赤飯を炊きまして神様にお供え致しましたらナメクジが赤飯を埋めてしまいました。<br/><br/>少したって見ましたら一匹もいませんでした。<br/><br/>何か意味が御ざいましょうか。<br/><br/>御伺い申し上げます。<br/><br/> ナメクジと亡くなった婦人と関係がある。<br/><br/>婦人の子供か何かがナメクジになっている。<br/><br/>身内の者の霊がナメクジに憑依したものである。<br/><br/>子供の霊のナメクジは、自分の部下などにナメクジがいるので、それを連れて来て赤飯を食わしたものである。<br/><br/>要するに、子供がナメクジに生れ代ったものか、子供に生れても、ナメクジの因縁が離れず、ナメクジに憑依したものである。<br/><br/>（S24. 5.2） 132 歯を治す鯰 ある神社に鯰が飼ってあり、鯰を捕えて殺しますと祟ると申します。<br/><br/>その神社に詣りますと歯痛が癒ると評判になっております。<br/><br/>また、ある所では、死んだ蛇を埋けてやると歯痛が起らぬと申し、実際その通りになって喜んでいる方が御座います。<br/><br/>蛇、鯰と歯痛とは何か関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 死んだ蛇を見付ける事は不可能であるから、効果があっても仕様がない。<br/><br/>人間が鯰に生れて祀られたものである。<br/><br/>官吏か何かであろう。<br/><br/>人助けをするその徳で人間に生れ更ってくるのである。<br/><br/>それで功徳を施す。<br/><br/>この鯰は歯を治すのがお得意である。<br/><br/>しかしこういう事は長く続かぬ。<br/><br/>東京、巣鴨の刺抜地蔵のようなものである。<br/><br/>（S24.10.11） 133 鯉入り鮒住まずなる 本年五月二十一日、私宅庭の松の根元で何かはねていましたので、よく見ましたら鯉で御座いました。<br/><br/>早速井戸へ放しました所、その井戸へいました鮒が最近までに殆ど死んでしまいました。<br/><br/>今では鯉だけが元気にはねていますが、これは何か意味がある事で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 鮒は鯉にやられた。<br/><br/>鯉は普通の魚と違う。<br/><br/>魚の龍である。<br/><br/>よほどいい事である。<br/><br/>祖先がそういう事をした。<br/><br/> 登龍観音というのがある。<br/><br/>鯉は魚の観音である。<br/><br/>（S24.10. 3） 134 葬用製の籠を好む鰻 山梨県南巨摩郡睦合村の地方では鰻をとるためにヤナと称する道具を用います。<br/><br/>これは下り鰻を捕る方法でございます。<br/><br/>この籠の中に塔婆が流れ込みますと、必ず鰻が捕れると申します。<br/><br/>また葬式に使用した竹を用い籠を作りますと実によく捕れると申します。<br/><br/>また捕りに行く途中にて祝い事に出合った場合はとれないと申しますが、霊的にいかなる関係がありましょうか。<br/><br/> うなぎは死臭が好きで集ってくるとみえる。<br/><br/> 135 十八日に梅開く（入信後） 昨年十一月十六日に入信させて戴きました信者でございますが、その動機は本人が半年程、医者ももて余す程の種々の病気にて苦しんでおりましたが、御浄霊にて目に見えて良くなりました故でございます。<br/><br/>所が入信後、二日目の十八日に庭の梅に紅梅が一輪咲き、なお十二月十八日に他の梅の木に白梅が一輪咲きました。<br/><br/>観音様の日に二回、しかもたった一輪の花が咲くと言う事は何を意味しておりますのでございましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 霊界で祖先が喜んでお祝いする。<br/><br/>それをいろいろ考えて、梅の花を咲かせたのである。<br/><br/>何にもなくて鶯の声を聞く事もある。<br/><br/>赤が先に十一月一輪咲いたのは不思議である。<br/><br/>赤色の順序――。<br/><br/>大いに祝った。<br/><br/>今に吉い事がある。<br/><br/>（S25. 1.15） 136 梅の二度咲き 私の家の右前に梅の木が植っておりますが、二月の中旬に一度花が咲いて散ったので御座いますが、また最近になり白色の八重の花が二ツ三ツ咲いております。<br/><br/>普通は桃色の花が咲くので御座います。<br/><br/>また、裏の桃の木も一度咲いて散りましたのにまた、最近立派な花が一ツぽつんと咲いております。<br/><br/>桃の花は遅れ咲きと思われますが、梅の花は全然種類が違います。<br/><br/>これは何か意味が御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 吉い事である。<br/><br/>梅は霊的の木で、吉い時はきっと知らせる。<br/><br/>木はすべて生きている。<br/><br/>（S25. 5.21）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

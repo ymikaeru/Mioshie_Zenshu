@@ -4,56 +4,211 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hihan2</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 関 連 出 版 物 ――― 白 書 徳川夢声 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 ありのままを記す。<br><br> 私はメシヤ教の信者ではない。<br><br> が、頭から迷信邪教として、全面的に否定するものでもない。<br><br> 世間には、どうもモノゴトを、右か左か、善か悪か、正か邪か、なんでもハッキリきめないと承知出来ない人が多い。<br><br>それも、自分で判別して、そうきめるなら、まだしも結構だが、中には、人の云ったことで、そのままそう定めこんでる人がある。<br><br>こんなのこそ、迷信家と同病の運命であろう。<br><br> 然し、現実としては、モノゴトはそうハッキリ二通りに分けられるものでない。<br><br>右と左の中間が、無数にある。<br><br>更に、これが立体的に、前後あり上下あり、またその中間があり、実に複雑極まる。<br><br>善悪、正邪、美醜、やっぱりその通りだ。<br><br> 私が、正直にありのままを記すとしても、これを読んで、 Ａ 夢声はメシヤ教信者なり Ｂ 夢声はメシヤ教不信者なり Ｃ 夢声は邪教を信ずるものなり Ｄ 夢声は正教を疑うものなり Ｅ 夢声は真相を伝うるものなり Ｆ 夢声は歪文曲筆せるものなり Ｇ 夢声は買収されて書きたり Ｈ 夢声は良心に従って書きたり という風に、いろいろと判定されるであろう。<br><br>判定なさる方は各々、至極アッサリと判定なさるが、判定される方は、右のように複雑なる結果を受けるわけだ。<br><br> でもとにかく一応、私の書いたところを読んでから、判定を下すのは、それがどんな判定でも、やむを得ないが、てんで読みもしないで、上下の話など用いて、頭から迷信的に私を判定されるのに一番困る。<br><br> まず、私とメシヤ教の関係を記す。<br><br> 昨年の夏、箱根でメシヤ教のお祭りがあり、某興行会社がその余興番組を引き受け、私にも出演を依頼して来た。<br><br> その時、体の都合がつかなかったので、私はお断りした。<br><br>少し無理をすれば、一日ぐらい、なんとかなったのだが、実を云うと私は、 ――インチキ宗教の祭典なんか御免だ。<br><br> という心もちがあったのである。<br><br>勿論、まず、メシヤ教なんて名前も知らず、ただオヒカリ様とか、オヒカリ教とかで心得ていた。<br><br> ――オヒカリ様なんて、大した詐欺師に違いない。<br><br> そんな風にも思っていた。<br><br> ところが、その祭典に、私たちの芸能人団体の一員である、Ａ君が出演した。<br><br>Ａ君はメシヤ教信者に、青年層が沢山居るのを奇妙に思った。<br><br>オヒカり様なんか、有難がるのは老人連ばかりと、思っていたらしい。<br><br>しかもその青年層には、見たところインテリが多い。<br><br> ――はて、これはどうしたわけだろう？ どちらかというと、無神論者であり、従って宗教などには関心なく、況んや邪教の類は人一倍オカシがっていたＡ君であったが、その後、数回出演のため出かける度に、少しずつ惹きつけられて行った。<br><br> そして実に自分自身も入信して、例のメシヤ教独得のオマモリを受けるに到ったのである。<br><br>もっとも、入信したと云っても、Ａ君としては、百パーセント信仰しての上ではなく、幾分は好奇心も手伝い、幾分は稼業意識も動いていたのだろう。<br><br>教団は、Ａ君にとっては好いお得意様でもあったわけ。<br><br> さて、Ａ君が講習を受け、オマモリを授けられて、帰宅してみると、彼の愛児がジフテリアで、二本目の血清注射を、これから受けようというところだった。<br><br> Ａ君は、早速、講習を受けたばかりの方法で、御浄霊を試みた。<br><br>が、実は、あんまり自信はなかった。<br><br>こんなことで、病気が治るのだろうか、そう疑いながら、愛児の患部に、手をかざしてると、咽喉のゼーゼーいう音が、少しずつ静まって行くようである。<br><br> ――おや、俺がやっても効くらしいぞ！ と、益々勢を得て、なおも御浄霊もやり続けた。<br><br>苦しんでいた愛児は、眠りに落ち、咽喉の喘鳴も全く聞えなくなった。<br><br> そして、翌日はもう元気よく、遊び廻るようになったと云う。<br><br>これでＡ君はすっかり自信がついたのである。<br><br> その後、家族の者や、近所の人々やに、試みて見るに、百発百中、いずれも見事に奏効して、果てはあちらからも、こちらからも依頼されるので、肝腎の稼業の方が妨げられるようなことになった。<br><br> このＡ君から、是非と頼まれて、私は今年（昭和二十六年）の春の祭典に、物語を一席演るべく熱海に出かけた。<br><br>それは、別にメシヤ教を有難がって出かけたわけでなく、Ａ君は私の準門弟みたいな人であるし、その頼みをムゲには断れない。<br><br>それから、芸能人として稼業のため出入するのは、これも当り前の話。<br><br> もう一ツ、大きな理由があった。<br><br>それは、丁度そのころ、週刊朝日の「問答有用」という連載対談を始めていたので、教祖岡田氏との対談が欲しかったのである。<br><br>編集部も大乗り気で、是非ともそういう段取に願いたいと云う。<br><br>それにはどうしても、一応先方様の仰せに従っておいて、それからこちらの頼みを持ち出す必要がある。<br><br> で、私は三月二十一日、熱海に行き、祭典の大広間で、宮本武蔵を一席喋った。<br><br>明主岡田氏は最前列で聞いていた。<br><br>その後で、私は岡田明主夫妻と、別室で語り合った。<br><br> 「ひと目見た時に、これはクセ者だなと思づた」 と、明主は私を評した。<br><br> 「クセ者は驚いたなア、然し、そんなことを云えば、あなたこそクセ者ですな」 と、私が云った。<br><br>一座、爆笑である。<br><br> この時私は、対談のことを申し入れ、快諾を得て、四月十二日、速記者と写真班と、それから横山泰三君をつれて、熱海の碧雲荘に出かけ、面白い記事をとることが出来たのであった。<br><br> 明主の語るところ、私は全面的に信ずるわけには行かなかった。<br><br>どうも、私の常識から判断して、うなづけない点も相当ある。<br><br>が、大いにまた共鳴する点もある。<br><br>殊に、病気というものに対する一家言は傾聴に値するところ多々ある。<br><br> 談たまたま美術に及んで、宗達筆の竜虎の双幅を見せてもらったり、梅原竜三郎筆の力作二面を見せてもらったりして、その美術論を聞くに及び、 ――これは、少くとも従来の教祖たちとは、大分趣きの変った人種である。<br><br> と、見直したのであった。<br><br>（この夜、辞するにあたり、小林一茶筆の茶掛けを贈られたのは、非常に嬉しかった） 病気というのには、大抵は、放っとけば治るものも、いろいろ間違った手当をしたり、無理な薬を用いたりするから、反って悪くして了う。<br><br>多くの場合、たしかにその通りだと私も信ずる。<br><br>私が信ずるだけでなく、多くの名医たちがそう信じて、そう云ってる。<br><br> ここまでは問題はない。<br><br> どんな病気でも、クスリは絶対に用いない方がよろしい。<br><br>医者の必要は全然ない。<br><br> さあ、こうなると話は難かしくなる。<br><br>時と場合によっては、クスリも好かろうし、医者も必要だろう、と現在の私は考えてる。<br><br> だから、風邪ぐらいでは、切論医者にかからない。<br><br>ちょっと胃が痛い、頭が痛いぐらいは放っておく。<br><br>けれども、ひどく血便が出たり、多量に血を吐いたりすると、私は医者にかかるのである。<br><br> ところで、メシヤ教の機関紙を読むと、毎号、沢山の所謂オカゲ話が載せてある。<br><br>それらの記事を読んでると、如何なる病気も、御浄霊で治癒しないのは無いみたいだ。<br><br> 勿論、これらの話はウソでないのだろう。<br><br>ウソ話を麗々しく載せたようなら、メシヤ教はインチキである。<br><br>が、考えてみると、これは治癒した場合だけの報告集であるかもしれない。<br><br>恐らくそうであろうし、またそれが当然のことでもある。<br><br> 問題とすべきは、御浄霊によつて、治癒した場合と、治癒しなかった場合との比率が、どうであるかということだ。<br><br> あらゆる点が完備した病院でも、治癒する場合と、治癒しない場合がある。<br><br>だから御浄霊で治癒しない病人があったって一向に不思議はない。<br><br>御浄霊でよくならなかった病人があるからと云うので、御浄霊そのものを否定するのは粗忽である。<br><br> 然らば、その御浄霊なるものが、本当に病気を治す力ありやなしや、ということが重大な点であろう。<br><br> 人間の掌から、或る種の放射線が出ることは、今日既に科学的に測定されている。<br><br>私自身が、それを測定したわけではない。<br><br>が、科学者の報告を信じて、私はそう云う。<br><br> 御浄霊の際、施術者の掌から、或る種の放射能が出て、それが患部に作用するなり、身体全部の生活力を旺盛にするなりして、病気を治療するということは、これは少くともアリ得ルことである。<br><br> ――絶対にそんなことはアリ得ナイさ。<br><br> と云う人があれば、その人は甚だ非科学的で、確信的であると云える。<br><br>そんなら、アリ得ナイということを科学的に証明してもらいたい。<br><br> もっとも、現在、渕定機によって計られる放射線が、病気を治す放射線かどうかは、まだ分らない。<br><br>病気を治す放射線は、別のものであって、それはまだ現在の測定機には、現われてこないものかもしれない。<br><br> そこで、この問題は、御浄霊なるものによって、病気がどうなったか、或いはどうにもならなかったか、それらの実例を出来るだけ沢山に調査して、帰納的に結論をつける、――これが最も穏当な方法だろう。<br><br> とは云うものの、私自身には、その調査をしている時間もなければ、用意もない。<br><br>よろしくメシヤ教の信者なり、撲滅論者なりが、そうした研究をなすべきだと思う。<br><br> 御参考のため私の周囲から、Ａ君の実例を少しくあげて見ることにする。<br><br> 私の妻が、肩がこって困っていた。<br><br>Ａ君が簡単に、手をヒラヒラさせて御浄霊をすると翌日コリがすつかり除れていた。<br><br>一回きりでは根治というわけには行かない。<br><br>またコルのである。<br><br> また一回やってもらう。<br><br>また治るのである。<br><br> 最近私は、吐血したり、タール便が出たりしたので、入院したが、Ｂ君が五回ばかり来てれて、浄霊をしてれた。<br><br>Ｂ君は、元、新東宝の助監督であって、ふとした機縁で入信し、ついに映画の仕事を止めて了って、今では専門に浄霊業をやってるんだ。<br><br>こちらから頼んだわけでなくＢ君の方から好意で病院にやって来たのである。<br><br>病気は案外に軽く、予定よりもズッと早く退院したが、これは御浄霊のお蔭かどうか分らない。<br><br> 然し、Ｂ君の話を聞くと、奇蹟的に大病の治った例が、実に沢山あるのである。<br><br>Ｂ君は映して、ツクリ話を私に聞かせるような人でない。<br><br>信用の出来る人格の人だ。<br><br> 退院後は、Ａ君が毎日のようにやって来て、私の患部に浄霊してくれた。<br><br>私はグングン快方に向った。<br><br>然し、これは浄霊のためかどうか分らない。<br><br>一向、効かなかったのかもしれないし、大いに効いて、それがため忽ち元気になれたのかもしれない。<br><br> 私の家に、元海軍の兵曹だったＣ君が、遊びに来る。<br><br>Ｃ君は、背中にブツブツと掻ゆいものが出来て困っていた。<br><br>Ａ君が或る夜、浄霊のヒラヒラをやったら、ただ一回でそれきり掻ゆくなくなった。<br><br> 私の家に一匹の猫が居る。<br><br>何が原因か分らないが、片方の眼が腫れて、まるで四谷怪談のお岩さまみたいになった。<br><br>Ａ君が一回、浄霊をすると、翌日、眼の下にクチがあいて、夥だしい膿が流れ出し、忽ち、腫れが退いて了った。<br><br>腫れは退いたが、眼のふちは相変らす赤く爛れて、ひどく眼ヤニが出る。<br><br>その後、また一回ヒラヒラやってもらったが、眼ヤニの方は相変らす酷い。<br><br>引き続いてやったわけでないから、治らなくても不思議はない。<br><br>が最初の唯一回で、一遍に膿が出た時は、家内中アッと驚いた。<br><br> 私の家の近所に運送店がある。<br><br>そこの赤ン坊が小児喘息で困っていた。<br><br>病院に通って、クスリを四通りももらって治療するんだが、どうも思わしくない。<br><br>そこで試みにＡ君を見舞わせて見た。<br><br>一週間ほど見舞ったら、すっかり快方に向った。<br><br> Ａ君の施術が、最も奇蹟的に現われたのは、或る漫才師に於てである。<br><br>この男は結核で寝こんでいた。<br><br>漫才というものは一人では出来ない。<br><br>そこで寝ている当人も大弱りだが、相棒の漫才君はピンピン健康なだけに、なお更閉口していた。<br><br> 仙台放迭局が、開局二十五週年だったかの記念番組で、この漫才に出演方を申込んで来た。<br><br>コンビが寝こんでいるので、それを引き受けるわけに行かない。<br><br> Ａ君が同情して、病気はなんとかなるだろうから、とにかく仙台を引き受け給え、僕が御浄霊してあげよう、と云った。<br><br> 「え？ 引きうけても大丈夫ですか？ もう日はいくらもありよせんぞ。<br><br>もしも、これで仙台に行けたら、それこそ奇蹟ですわ」 とピンピン氏の方が云った。<br><br> なんと、仙台にはちゃんと間に合ったのである。<br><br>私も、二人の放送を聞いたが、立流なものであった。<br><br> 仙台の放送が間に合ったばかりでなく、その重態氏は、それきり起き上って了い、北海道の旅に出かける元気だ。<br><br>彼は、まったく蘇生の想い、大いに感激して、Ａ君を通じて入信するに到った。<br><br> かくの如く、半信半疑で始めたＡ君が、到る所で、奇蹟の連続である。<br><br>もっとも、唯一人だけダメなのがあった。<br><br>それは疫痢であって、その子は助からなかったそうだ。<br><br> 元映画助監督Ｂ君は、死後三時間ぐらいの屍体に御浄霊をして、破裂せんばかりに膨れ上っていた複部を、小さくしたそうだ。<br><br>夥だしい排尿があって、縮まったのである。<br><br> 私は、猫に効いたり、屍体に効いたりするところが、甚だ面白いと思う。<br><br>つまり、御浄霊というのは、神霊的な作用というより、物理的な作用ではないかと思うのだ。<br><br> 大人よりも、子供の方が、浄霊の効果顕著であると、Ａ君もそう云ってる。<br><br>子供の方が、暗示にかかり易いとも考えられるが、また子供の方が素直に物理現象を感ずるとも考えられる。<br><br> いずれにしても、科学が現在より数段の進歩をしたら、浄霊の謎は解かれるのであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Crítica à Igreja Messiânica</h2>
 <p>Um relato de Tokugawa Musei
@@ -116,5 +271,48 @@ H. Musei escreveu segundo sua consciência.</p>
 <p>Quanto a B, o ex-assistente de direção, ele relata ter ministrado Johrei em um cadáver cerca de três horas após o óbito, fazendo com que o abdômen, que estava prestes a romper de tão inchado, diminuísse de tamanho. Isso ocorreu porque houve uma copiosa eliminação de urina, que fez o inchaço ceder.</p>
 <p>Considero particularmente fascinante que o método funcione em gatos e até mesmo em cadáveres. Isso me leva a ponderar se o Johrei não seria um fenômeno de natureza mais física do que espiritual. O próprio A afirma que os efeitos do Johrei são mais notáveis em crianças do que em adultos. Poderíamos atribuir isso ao fato de as crianças serem mais sugestionáveis, mas também é possível que elas simplesmente percebam os fenômenos físicos de maneira mais direta e sem filtros.</p>
 <p>Seja como for, acredito que, quando a ciência avançar mais alguns degraus, o enigma do Johrei será finalmente desvendado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 関 連 出 版 物 ――― 白 書 徳川夢声 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 ありのままを記す。<br/><br/> 私はメシヤ教の信者ではない。<br/><br/> が、頭から迷信邪教として、全面的に否定するものでもない。<br/><br/> 世間には、どうもモノゴトを、右か左か、善か悪か、正か邪か、なんでもハッキリきめないと承知出来ない人が多い。<br/><br/>それも、自分で判別して、そうきめるなら、まだしも結構だが、中には、人の云ったことで、そのままそう定めこんでる人がある。<br/><br/>こんなのこそ、迷信家と同病の運命であろう。<br/><br/> 然し、現実としては、モノゴトはそうハッキリ二通りに分けられるものでない。<br/><br/>右と左の中間が、無数にある。<br/><br/>更に、これが立体的に、前後あり上下あり、またその中間があり、実に複雑極まる。<br/><br/>善悪、正邪、美醜、やっぱりその通りだ。<br/><br/> 私が、正直にありのままを記すとしても、これを読んで、 Ａ 夢声はメシヤ教信者なり Ｂ 夢声はメシヤ教不信者なり Ｃ 夢声は邪教を信ずるものなり Ｄ 夢声は正教を疑うものなり Ｅ 夢声は真相を伝うるものなり Ｆ 夢声は歪文曲筆せるものなり Ｇ 夢声は買収されて書きたり Ｈ 夢声は良心に従って書きたり という風に、いろいろと判定されるであろう。<br/><br/>判定なさる方は各々、至極アッサリと判定なさるが、判定される方は、右のように複雑なる結果を受けるわけだ。<br/><br/> でもとにかく一応、私の書いたところを読んでから、判定を下すのは、それがどんな判定でも、やむを得ないが、てんで読みもしないで、上下の話など用いて、頭から迷信的に私を判定されるのに一番困る。<br/><br/> まず、私とメシヤ教の関係を記す。<br/><br/> 昨年の夏、箱根でメシヤ教のお祭りがあり、某興行会社がその余興番組を引き受け、私にも出演を依頼して来た。<br/><br/> その時、体の都合がつかなかったので、私はお断りした。<br/><br/>少し無理をすれば、一日ぐらい、なんとかなったのだが、実を云うと私は、 ――インチキ宗教の祭典なんか御免だ。<br/><br/> という心もちがあったのである。<br/><br/>勿論、まず、メシヤ教なんて名前も知らず、ただオヒカリ様とか、オヒカリ教とかで心得ていた。<br/><br/> ――オヒカリ様なんて、大した詐欺師に違いない。<br/><br/> そんな風にも思っていた。<br/><br/> ところが、その祭典に、私たちの芸能人団体の一員である、Ａ君が出演した。<br/><br/>Ａ君はメシヤ教信者に、青年層が沢山居るのを奇妙に思った。<br/><br/>オヒカり様なんか、有難がるのは老人連ばかりと、思っていたらしい。<br/><br/>しかもその青年層には、見たところインテリが多い。<br/><br/> ――はて、これはどうしたわけだろう？ どちらかというと、無神論者であり、従って宗教などには関心なく、況んや邪教の類は人一倍オカシがっていたＡ君であったが、その後、数回出演のため出かける度に、少しずつ惹きつけられて行った。<br/><br/> そして実に自分自身も入信して、例のメシヤ教独得のオマモリを受けるに到ったのである。<br/><br/>もっとも、入信したと云っても、Ａ君としては、百パーセント信仰しての上ではなく、幾分は好奇心も手伝い、幾分は稼業意識も動いていたのだろう。<br/><br/>教団は、Ａ君にとっては好いお得意様でもあったわけ。<br/><br/> さて、Ａ君が講習を受け、オマモリを授けられて、帰宅してみると、彼の愛児がジフテリアで、二本目の血清注射を、これから受けようというところだった。<br/><br/> Ａ君は、早速、講習を受けたばかりの方法で、御浄霊を試みた。<br/><br/>が、実は、あんまり自信はなかった。<br/><br/>こんなことで、病気が治るのだろうか、そう疑いながら、愛児の患部に、手をかざしてると、咽喉のゼーゼーいう音が、少しずつ静まって行くようである。<br/><br/> ――おや、俺がやっても効くらしいぞ！ と、益々勢を得て、なおも御浄霊もやり続けた。<br/><br/>苦しんでいた愛児は、眠りに落ち、咽喉の喘鳴も全く聞えなくなった。<br/><br/> そして、翌日はもう元気よく、遊び廻るようになったと云う。<br/><br/>これでＡ君はすっかり自信がついたのである。<br/><br/> その後、家族の者や、近所の人々やに、試みて見るに、百発百中、いずれも見事に奏効して、果てはあちらからも、こちらからも依頼されるので、肝腎の稼業の方が妨げられるようなことになった。<br/><br/> このＡ君から、是非と頼まれて、私は今年（昭和二十六年）の春の祭典に、物語を一席演るべく熱海に出かけた。<br/><br/>それは、別にメシヤ教を有難がって出かけたわけでなく、Ａ君は私の準門弟みたいな人であるし、その頼みをムゲには断れない。<br/><br/>それから、芸能人として稼業のため出入するのは、これも当り前の話。<br/><br/> もう一ツ、大きな理由があった。<br/><br/>それは、丁度そのころ、週刊朝日の「問答有用」という連載対談を始めていたので、教祖岡田氏との対談が欲しかったのである。<br/><br/>編集部も大乗り気で、是非ともそういう段取に願いたいと云う。<br/><br/>それにはどうしても、一応先方様の仰せに従っておいて、それからこちらの頼みを持ち出す必要がある。<br/><br/> で、私は三月二十一日、熱海に行き、祭典の大広間で、宮本武蔵を一席喋った。<br/><br/>明主岡田氏は最前列で聞いていた。<br/><br/>その後で、私は岡田明主夫妻と、別室で語り合った。<br/><br/> 「ひと目見た時に、これはクセ者だなと思づた」 と、明主は私を評した。<br/><br/> 「クセ者は驚いたなア、然し、そんなことを云えば、あなたこそクセ者ですな」 と、私が云った。<br/><br/>一座、爆笑である。<br/><br/> この時私は、対談のことを申し入れ、快諾を得て、四月十二日、速記者と写真班と、それから横山泰三君をつれて、熱海の碧雲荘に出かけ、面白い記事をとることが出来たのであった。<br/><br/> 明主の語るところ、私は全面的に信ずるわけには行かなかった。<br/><br/>どうも、私の常識から判断して、うなづけない点も相当ある。<br/><br/>が、大いにまた共鳴する点もある。<br/><br/>殊に、病気というものに対する一家言は傾聴に値するところ多々ある。<br/><br/> 談たまたま美術に及んで、宗達筆の竜虎の双幅を見せてもらったり、梅原竜三郎筆の力作二面を見せてもらったりして、その美術論を聞くに及び、 ――これは、少くとも従来の教祖たちとは、大分趣きの変った人種である。<br/><br/> と、見直したのであった。<br/><br/>（この夜、辞するにあたり、小林一茶筆の茶掛けを贈られたのは、非常に嬉しかった） 病気というのには、大抵は、放っとけば治るものも、いろいろ間違った手当をしたり、無理な薬を用いたりするから、反って悪くして了う。<br/><br/>多くの場合、たしかにその通りだと私も信ずる。<br/><br/>私が信ずるだけでなく、多くの名医たちがそう信じて、そう云ってる。<br/><br/> ここまでは問題はない。<br/><br/> どんな病気でも、クスリは絶対に用いない方がよろしい。<br/><br/>医者の必要は全然ない。<br/><br/> さあ、こうなると話は難かしくなる。<br/><br/>時と場合によっては、クスリも好かろうし、医者も必要だろう、と現在の私は考えてる。<br/><br/> だから、風邪ぐらいでは、切論医者にかからない。<br/><br/>ちょっと胃が痛い、頭が痛いぐらいは放っておく。<br/><br/>けれども、ひどく血便が出たり、多量に血を吐いたりすると、私は医者にかかるのである。<br/><br/> ところで、メシヤ教の機関紙を読むと、毎号、沢山の所謂オカゲ話が載せてある。<br/><br/>それらの記事を読んでると、如何なる病気も、御浄霊で治癒しないのは無いみたいだ。<br/><br/> 勿論、これらの話はウソでないのだろう。<br/><br/>ウソ話を麗々しく載せたようなら、メシヤ教はインチキである。<br/><br/>が、考えてみると、これは治癒した場合だけの報告集であるかもしれない。<br/><br/>恐らくそうであろうし、またそれが当然のことでもある。<br/><br/> 問題とすべきは、御浄霊によつて、治癒した場合と、治癒しなかった場合との比率が、どうであるかということだ。<br/><br/> あらゆる点が完備した病院でも、治癒する場合と、治癒しない場合がある。<br/><br/>だから御浄霊で治癒しない病人があったって一向に不思議はない。<br/><br/>御浄霊でよくならなかった病人があるからと云うので、御浄霊そのものを否定するのは粗忽である。<br/><br/> 然らば、その御浄霊なるものが、本当に病気を治す力ありやなしや、ということが重大な点であろう。<br/><br/> 人間の掌から、或る種の放射線が出ることは、今日既に科学的に測定されている。<br/><br/>私自身が、それを測定したわけではない。<br/><br/>が、科学者の報告を信じて、私はそう云う。<br/><br/> 御浄霊の際、施術者の掌から、或る種の放射能が出て、それが患部に作用するなり、身体全部の生活力を旺盛にするなりして、病気を治療するということは、これは少くともアリ得ルことである。<br/><br/> ――絶対にそんなことはアリ得ナイさ。<br/><br/> と云う人があれば、その人は甚だ非科学的で、確信的であると云える。<br/><br/>そんなら、アリ得ナイということを科学的に証明してもらいたい。<br/><br/> もっとも、現在、渕定機によって計られる放射線が、病気を治す放射線かどうかは、まだ分らない。<br/><br/>病気を治す放射線は、別のものであって、それはまだ現在の測定機には、現われてこないものかもしれない。<br/><br/> そこで、この問題は、御浄霊なるものによって、病気がどうなったか、或いはどうにもならなかったか、それらの実例を出来るだけ沢山に調査して、帰納的に結論をつける、――これが最も穏当な方法だろう。<br/><br/> とは云うものの、私自身には、その調査をしている時間もなければ、用意もない。<br/><br/>よろしくメシヤ教の信者なり、撲滅論者なりが、そうした研究をなすべきだと思う。<br/><br/> 御参考のため私の周囲から、Ａ君の実例を少しくあげて見ることにする。<br/><br/> 私の妻が、肩がこって困っていた。<br/><br/>Ａ君が簡単に、手をヒラヒラさせて御浄霊をすると翌日コリがすつかり除れていた。<br/><br/>一回きりでは根治というわけには行かない。<br/><br/>またコルのである。<br/><br/> また一回やってもらう。<br/><br/>また治るのである。<br/><br/> 最近私は、吐血したり、タール便が出たりしたので、入院したが、Ｂ君が五回ばかり来てれて、浄霊をしてれた。<br/><br/>Ｂ君は、元、新東宝の助監督であって、ふとした機縁で入信し、ついに映画の仕事を止めて了って、今では専門に浄霊業をやってるんだ。<br/><br/>こちらから頼んだわけでなくＢ君の方から好意で病院にやって来たのである。<br/><br/>病気は案外に軽く、予定よりもズッと早く退院したが、これは御浄霊のお蔭かどうか分らない。<br/><br/> 然し、Ｂ君の話を聞くと、奇蹟的に大病の治った例が、実に沢山あるのである。<br/><br/>Ｂ君は映して、ツクリ話を私に聞かせるような人でない。<br/><br/>信用の出来る人格の人だ。<br/><br/> 退院後は、Ａ君が毎日のようにやって来て、私の患部に浄霊してくれた。<br/><br/>私はグングン快方に向った。<br/><br/>然し、これは浄霊のためかどうか分らない。<br/><br/>一向、効かなかったのかもしれないし、大いに効いて、それがため忽ち元気になれたのかもしれない。<br/><br/> 私の家に、元海軍の兵曹だったＣ君が、遊びに来る。<br/><br/>Ｃ君は、背中にブツブツと掻ゆいものが出来て困っていた。<br/><br/>Ａ君が或る夜、浄霊のヒラヒラをやったら、ただ一回でそれきり掻ゆくなくなった。<br/><br/> 私の家に一匹の猫が居る。<br/><br/>何が原因か分らないが、片方の眼が腫れて、まるで四谷怪談のお岩さまみたいになった。<br/><br/>Ａ君が一回、浄霊をすると、翌日、眼の下にクチがあいて、夥だしい膿が流れ出し、忽ち、腫れが退いて了った。<br/><br/>腫れは退いたが、眼のふちは相変らす赤く爛れて、ひどく眼ヤニが出る。<br/><br/>その後、また一回ヒラヒラやってもらったが、眼ヤニの方は相変らす酷い。<br/><br/>引き続いてやったわけでないから、治らなくても不思議はない。<br/><br/>が最初の唯一回で、一遍に膿が出た時は、家内中アッと驚いた。<br/><br/> 私の家の近所に運送店がある。<br/><br/>そこの赤ン坊が小児喘息で困っていた。<br/><br/>病院に通って、クスリを四通りももらって治療するんだが、どうも思わしくない。<br/><br/>そこで試みにＡ君を見舞わせて見た。<br/><br/>一週間ほど見舞ったら、すっかり快方に向った。<br/><br/> Ａ君の施術が、最も奇蹟的に現われたのは、或る漫才師に於てである。<br/><br/>この男は結核で寝こんでいた。<br/><br/>漫才というものは一人では出来ない。<br/><br/>そこで寝ている当人も大弱りだが、相棒の漫才君はピンピン健康なだけに、なお更閉口していた。<br/><br/> 仙台放迭局が、開局二十五週年だったかの記念番組で、この漫才に出演方を申込んで来た。<br/><br/>コンビが寝こんでいるので、それを引き受けるわけに行かない。<br/><br/> Ａ君が同情して、病気はなんとかなるだろうから、とにかく仙台を引き受け給え、僕が御浄霊してあげよう、と云った。<br/><br/> 「え？ 引きうけても大丈夫ですか？ もう日はいくらもありよせんぞ。<br/><br/>もしも、これで仙台に行けたら、それこそ奇蹟ですわ」 とピンピン氏の方が云った。<br/><br/> なんと、仙台にはちゃんと間に合ったのである。<br/><br/>私も、二人の放送を聞いたが、立流なものであった。<br/><br/> 仙台の放送が間に合ったばかりでなく、その重態氏は、それきり起き上って了い、北海道の旅に出かける元気だ。<br/><br/>彼は、まったく蘇生の想い、大いに感激して、Ａ君を通じて入信するに到った。<br/><br/> かくの如く、半信半疑で始めたＡ君が、到る所で、奇蹟の連続である。<br/><br/>もっとも、唯一人だけダメなのがあった。<br/><br/>それは疫痢であって、その子は助からなかったそうだ。<br/><br/> 元映画助監督Ｂ君は、死後三時間ぐらいの屍体に御浄霊をして、破裂せんばかりに膨れ上っていた複部を、小さくしたそうだ。<br/><br/>夥だしい排尿があって、縮まったのである。<br/><br/> 私は、猫に効いたり、屍体に効いたりするところが、甚だ面白いと思う。<br/><br/>つまり、御浄霊というのは、神霊的な作用というより、物理的な作用ではないかと思うのだ。<br/><br/> 大人よりも、子供の方が、浄霊の効果顕著であると、Ａ君もそう云ってる。<br/><br/>子供の方が、暗示にかかり易いとも考えられるが、また子供の方が素直に物理現象を感ずるとも考えられる。<br/><br/> いずれにしても、科学が現在より数段の進歩をしたら、浄霊の謎は解かれるのであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

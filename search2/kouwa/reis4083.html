@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis4083</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ６ 083-099 墓所１ 083 墓標建立に関する常識 墓碑建立につきて、常識的に留意すべき事項、例えば方向、形状、盛土の高さ、石の種類、植樹の可否等につき――。<br><br> 方向はどちらでもよい。<br><br>その土地の地形により勝手な事も出来ないが、本当からいうと北向が一番良いが、これは大した留意する要もない。<br><br>北向は神道でいう事だが、霊の救われる意味からいうと北向がいい。<br><br>仏教に限らず大抵の宗旨は、西向がよいとしている。<br><br>今迄の宗教は、大抵西の方から出ているから、西の方が本当かもしれない。<br><br> 石の種類は白い石ほどよい。<br><br>ただ黒っぽいのは不可である。<br><br>極上等の墓は白大理石を用いる。<br><br> 植樹は、墓に植えるような常磐木がある。<br><br>あまり高いのは不可で、花の落ちない木がよい。<br><br>即ち、栂、槇、モチ、棗で、特にシキミがよい。<br><br>檜は神社に用いるが、墓でもよい。<br><br>しかし伸びるから適当でない。<br><br>（S23.12.21） ―――――――――――――― 方向はどちらでもよい。<br><br>その土地の地形によればよいが、本当からいうと「北の隅で南向」が一番よい。<br><br> 形状は普通の形でよい。<br><br>自然石はいけない。<br><br>形状は石屋の作る形でよい。<br><br> 盛土の高さは丁度よい高さでよい。<br><br>即ち一尺五寸位である。<br><br> 石の種類は白い色ほどよい。<br><br>黒っぽいのは不可である。<br><br>極上等の墓は白大理石を用いる。<br><br> 植樹は墓に植えるような常磐木ならよい。<br><br>余り高くなるのは不可で、花の落ちない木がよい。<br><br>即ち槇、もち、かなめで、特にシキミがよい。<br><br> rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕掲載 084 墓場・墓石の清潔（印相） 墓場は霊の別荘であるから、綺麗にしておかなくてはいけない。<br><br>人間の住む所を綺麗にして――。<br><br> 戒名の沢山ある墓は「先祖代々之墓」とし、横へ戒名をつける。<br><br> 他人の御堂や墓など綺麗にすると、祖先が感謝される。<br><br> 今迄霊の事を徹底的に教え、信頼し得る宗教はない。<br><br> 墓石は親より良い物を建ててはいけない。<br><br>子がいい物を建てるには、親のをズーッとよくし、それから子のをよくする。<br><br>向って右が上である。<br><br>（先祖代々真中） 墓石、白は天国、黒は地獄である。<br><br> （印鑑で運命をみる人がある）水晶の判は滅びるなどいい、円い判を好む。<br><br>栂はいい。<br><br>（S23.11.25） 085 堂中の墓、墓門を閉む（相応） 御堂の中に墓（石碑）を入れたりすると、その家は亡びるとか、あるいは墓に門を作りその門を閉めておくとその家は亡びたり、家人が監獄に入ったりすると申しますが、どうでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 墓は雨曝しでいい。<br><br>御堂は神仏を祭るべき所で、格のある神仏でなくてはならぬ。<br><br>人間の霊を祀るべきでない。<br><br>反って苦しむ。<br><br>よく祀るといいように思うが、取扱いがよく相応しないと非常に苦しむ。<br><br>地獄の霊を天国に上げると苦しむようなものである。<br><br>特に一ぺんに上げる事は不可である。<br><br> 墓石は雨曝しでいい。<br><br>墓詣りの時に開け、ふだんは閉めておく。<br><br>いたずらされる。<br><br>お軸と同じ部屋に祀ってよい。<br><br>（S24. 4.13） 086 墓標 私達夫婦は四年前に入信させて頂きました。<br><br>微力ながら救世の業にお手伝いさせて頂いております。<br><br>私の養父は十二年前に没し、最近墓地が落ち込みましたから修理致したいと思いますが、いかがで御座居ましょうか。<br><br> また現在墓標のみにて石碑がありませんから、石碑は立てるべきか否か御伺い申し上げます。<br><br> 墓標は一時的のものである。<br><br>早く建てよ。<br><br>（S24.10.26） 087 回忌に塔婆を建てる事 お盆や年回忌に、お寺あるいは墓地に卒塔婆を立てるのは、いかなる訳で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 大体は一回でいい。<br><br>丁寧にやる意味である。<br><br>地獄で早く救われる霊はそれでいいが、さもない霊は何回もやるという意味である。<br><br>（S24. 8.11） 088 墓標別の習慣 丹波地方のある一部にては、死者を埋葬した場所には墓碑を建てず、お寺の境内に建立しておりますが、その敷地が一杯となりましたので、新に敷地を購入すべきか、普通のように埋葬地に建てるべきか迷っておりますが、どう致しますのが宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 死後は墓所とか、決った所へ埋めるべきである。<br><br>古老の死後そうせよ。<br><br>（S24. 3.11） 089 墓標を作る事 墓標がこわれて未だ石碑も建てていませんが、自分で墓標を作って自分で書いて、勝手にいつでも建てて差支えありませんでしょうか。<br><br> 差支えない。<br><br>早く建てた方がよい。<br><br>でないと墓詣りしても、霊が来る所がない。<br><br>（S24. 4.28） 090 無縁墓標の移動 自分の屋敷内に無縁仏の墓標（二代位前の居住者で一家断絶の者）が御座いますが、離れている墓地へ移してもよろしいもので御座いましょうか。<br><br> 後祀ってやれば構わない。<br><br> 091 経済上墓石建てず 葬式後何年間も、経済的な理由から墓標だけにして石碑を建てられない方もありますが、これはどうでございましょうか。<br><br> よくない。<br><br>経済的理由という馬鹿な事はない。<br><br>祖霊は必ず入るようにしてくれる。<br><br>（S24.12. 3） 092 遺言の墓石と遺骨 亡父（昭和十三年死亡）が生前中、亡兄（長男満洲鏡泊学園生徒にて昭和九年戦死）の石碑を後日建立するため、墓地に先祖代々の墓及び祖父母の墓の隣りに、自然石をたてて場所をとってあります。<br><br>こう言う場合、亡父の遺志をついで、亡兄の石碑を建てた方がよろしいでしょうか。<br><br>それ共先祖代々の墓に合祀した方がよろしいでしょうか。<br><br>なお遺骨は未だ仏壇に祭ってあります。<br><br> 亡父の遺志を伝えよ。<br><br> 遺骨は早く埋けよ。<br><br>（S24.11. 6） 093 墓石建てるべき時期 私の地方では墓石は七年忌、十三年忌の時に建てまして、それ迄は毎年塔婆を建てる習慣になっております。<br><br>私の家は父の代に分家致しまして十二年前から五人の者が次々と死亡致し、未だ建てていないので御座いますが、いつ建てるのが本当で御座いましょうか。<br><br> また先祖代々の墓石も造るべきで御座いましょうか。<br><br>なお経済的に余裕の無い場合でも一人一人墓石は建てなければならぬもので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> なお現在家族全員入信致し、集会所として御用をさせて戴いております。<br><br> 塔婆は一周忌経てば処分してよい。<br><br>まず一年経てば造らなくてはいけない。<br><br>余裕があるなしに限らず一人々々したら大変である。<br><br>（S25. 1.12） 094 墓石直す時機 昨年九月二十日養子が肺結核で亡くなりました。<br><br>そして私の養父と実母が葬ってある墓石の西脇にほうむりましたが、その後、墓石が西北に傾いてまいりましたが、これをなおしたいと思いますが、時機と方法をお教示下さい。<br><br> 時機はお彼岸がよい。<br><br>彼岸は節になっている。<br><br>（S25. 1.16） 095 石碑立てる事 石碑を立てたいと思いますが、先祖代々のを一基立てれば各霊別に立てなくてもよろしいでしょうか。<br><br>御教示お願い致します。<br><br>七年忌に当る新仏が二霊、最近の新仏が一霊あります。<br><br> 普通の墓の形を立てる。<br><br> 先祖代々―を真中にして、面識ある人は横へつける。<br><br>面識ある人は先祖代々へ入れてはいけない。<br><br> 096 墓石の色 一、墓石の黒色は子孫に罪人が出るから悪いと申しますが真実でありましょうか。<br><br> 二、また人像の墓碑を建てると家が絶えるとも申す人がありますがどうでありましょうか。<br><br> 三、霊を慰める意味で墓石につき型、色、方向等に特別な関係があるのでありましょうか。<br><br>御教示願います。<br><br> 一、黒石はいけない。<br><br>白いのはいい。<br><br>白か鼠色に是非替える。<br><br>地獄は黒である。<br><br>（S24） 097 墓標の石 私の家の墓石は天然石で出来ておりますが、そのままで宜しいでしょうか。<br><br> 自然石はいけない。<br><br>（S25. 2.17） rattail（注） 〔 妙智之光（地上天国２号） 、昭和24(1949)年3月1日発行〕 「墓石に自然石を用いるのは墓相学上よくないと聞いておりますが、墓相というものはあるものでしょうか。<br><br>」 『人間に人相があるように墓相の可否も多少はある。<br><br>自然石を墓石にするのはあまりよくない。<br><br>自然石は本来庭石などに使うべきもので、こういうことに使うのは理屈に合わぬからである。<br><br> やはり墓には墓石の形にするのが本当である。<br><br>霊によってはこういうことを非常に嫌うのがある。<br><br>墓参に行くと、祖霊が墓へ挨拶に来る。<br><br>そのとき墓が法にかなっていないと嫌がるのである。<br><br>霊界人はすべて法則通りを好むので実に几帳面なものである。<br><br> また黒石をたいへん嫌うが元来黒色は地獄とか悪魔を表徴するからで、天国は白色または紫色で表わすものである。<br><br>』 098 墓石に神道名 神式の場合、お位牌は俗名でなく戒名の方がよろしゅう御座居ましょうか。<br><br>例えば墓石などにも何々の命となっておりますが、いかがなもので御座居ましょうか。<br><br> 墓石は戒名でなくてはいけない。<br><br>神界と仏界と違うから。<br><br> 今迄の神界もあまり余命はない。<br><br>（S24. 7.23） 099 新墓石の書き方 新規に墓地に石碑を立てる場合、左のいずれが宜しいでしょうか。<br><br>御教え下さい。<br><br> 一、何々家の墓 一、何々家先祖代々之霊 一、右石碑に何人かの戒名を書いても宜しいでしょうか。<br><br> 先祖代々の霊が本当である。<br><br>戒名は書いてもよい。<br><br>正面に先祖代々とかく。<br><br>後、霊の位に応じ、順序正しくする。<br><br>（S24. 5. 4） rattail（注） 〔 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行〕 ――新規に墓を作る場合、墓碑には左のいずれを記入すべきでしょうか。<br><br> 何 々 家 之 墓 何々家先祖代々之霊 また、墓碑に戒名を刻むのはいかがでしょうか。<br><br> 『「何々家先祖代々之霊」が本当ですね、それから戒名は刻んでいいんですがね、墓の正面はいまのようにして、横か裏に戒名を書くんです。<br><br>その場合、霊の位に応じて正しく書かなければいけません。<br><br>例えば、ひいおじいさんを一番先にするとすれば、次にはおじいさんそれからお父さんっていった具合にね。<br><br>順序さえ正しくすればいいんです。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Preceitos de Bom Senso para a Edificação de Monumentos Funerários</h2>
 <p>Indagação acerca de preceitos de bom senso para a edificação de um monumento funerário, tais como a direção, o formato, a altura do montículo de terra, o tipo de pedra e a pertinência do plantio de árvores.</p>
@@ -159,5 +311,48 @@ function toggleLang(lang) {
 2. Espíritos dos Antepassados da Família...
 3. Seria lícito inscrever vários nomes póstumos neste mesmo monumento?</p>
 <p>A inscrição "Espíritos dos Antepassados da Família..." é a forma correta. Os nomes póstumos podem, de fato, ser gravados, porém na lateral ou no verso do monumento, não na face principal. Nesse caso, é fundamental que sejam dispostos em ordem hierárquica correta, de acordo com a posição de cada espírito. Por exemplo, iniciando-se pelo bisavô, seguir-se-ia o avô, e depois o pai. Contanto que a ordem seja respeitada, o procedimento está correto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ６ 083-099 墓所１ 083 墓標建立に関する常識 墓碑建立につきて、常識的に留意すべき事項、例えば方向、形状、盛土の高さ、石の種類、植樹の可否等につき――。<br/><br/> 方向はどちらでもよい。<br/><br/>その土地の地形により勝手な事も出来ないが、本当からいうと北向が一番良いが、これは大した留意する要もない。<br/><br/>北向は神道でいう事だが、霊の救われる意味からいうと北向がいい。<br/><br/>仏教に限らず大抵の宗旨は、西向がよいとしている。<br/><br/>今迄の宗教は、大抵西の方から出ているから、西の方が本当かもしれない。<br/><br/> 石の種類は白い石ほどよい。<br/><br/>ただ黒っぽいのは不可である。<br/><br/>極上等の墓は白大理石を用いる。<br/><br/> 植樹は、墓に植えるような常磐木がある。<br/><br/>あまり高いのは不可で、花の落ちない木がよい。<br/><br/>即ち、栂、槇、モチ、棗で、特にシキミがよい。<br/><br/>檜は神社に用いるが、墓でもよい。<br/><br/>しかし伸びるから適当でない。<br/><br/>（S23.12.21） ―――――――――――――― 方向はどちらでもよい。<br/><br/>その土地の地形によればよいが、本当からいうと「北の隅で南向」が一番よい。<br/><br/> 形状は普通の形でよい。<br/><br/>自然石はいけない。<br/><br/>形状は石屋の作る形でよい。<br/><br/> 盛土の高さは丁度よい高さでよい。<br/><br/>即ち一尺五寸位である。<br/><br/> 石の種類は白い色ほどよい。<br/><br/>黒っぽいのは不可である。<br/><br/>極上等の墓は白大理石を用いる。<br/><br/> 植樹は墓に植えるような常磐木ならよい。<br/><br/>余り高くなるのは不可で、花の落ちない木がよい。<br/><br/>即ち槇、もち、かなめで、特にシキミがよい。<br/><br/> rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕掲載 084 墓場・墓石の清潔（印相） 墓場は霊の別荘であるから、綺麗にしておかなくてはいけない。<br/><br/>人間の住む所を綺麗にして――。<br/><br/> 戒名の沢山ある墓は「先祖代々之墓」とし、横へ戒名をつける。<br/><br/> 他人の御堂や墓など綺麗にすると、祖先が感謝される。<br/><br/> 今迄霊の事を徹底的に教え、信頼し得る宗教はない。<br/><br/> 墓石は親より良い物を建ててはいけない。<br/><br/>子がいい物を建てるには、親のをズーッとよくし、それから子のをよくする。<br/><br/>向って右が上である。<br/><br/>（先祖代々真中） 墓石、白は天国、黒は地獄である。<br/><br/> （印鑑で運命をみる人がある）水晶の判は滅びるなどいい、円い判を好む。<br/><br/>栂はいい。<br/><br/>（S23.11.25） 085 堂中の墓、墓門を閉む（相応） 御堂の中に墓（石碑）を入れたりすると、その家は亡びるとか、あるいは墓に門を作りその門を閉めておくとその家は亡びたり、家人が監獄に入ったりすると申しますが、どうでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 墓は雨曝しでいい。<br/><br/>御堂は神仏を祭るべき所で、格のある神仏でなくてはならぬ。<br/><br/>人間の霊を祀るべきでない。<br/><br/>反って苦しむ。<br/><br/>よく祀るといいように思うが、取扱いがよく相応しないと非常に苦しむ。<br/><br/>地獄の霊を天国に上げると苦しむようなものである。<br/><br/>特に一ぺんに上げる事は不可である。<br/><br/> 墓石は雨曝しでいい。<br/><br/>墓詣りの時に開け、ふだんは閉めておく。<br/><br/>いたずらされる。<br/><br/>お軸と同じ部屋に祀ってよい。<br/><br/>（S24. 4.13） 086 墓標 私達夫婦は四年前に入信させて頂きました。<br/><br/>微力ながら救世の業にお手伝いさせて頂いております。<br/><br/>私の養父は十二年前に没し、最近墓地が落ち込みましたから修理致したいと思いますが、いかがで御座居ましょうか。<br/><br/> また現在墓標のみにて石碑がありませんから、石碑は立てるべきか否か御伺い申し上げます。<br/><br/> 墓標は一時的のものである。<br/><br/>早く建てよ。<br/><br/>（S24.10.26） 087 回忌に塔婆を建てる事 お盆や年回忌に、お寺あるいは墓地に卒塔婆を立てるのは、いかなる訳で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 大体は一回でいい。<br/><br/>丁寧にやる意味である。<br/><br/>地獄で早く救われる霊はそれでいいが、さもない霊は何回もやるという意味である。<br/><br/>（S24. 8.11） 088 墓標別の習慣 丹波地方のある一部にては、死者を埋葬した場所には墓碑を建てず、お寺の境内に建立しておりますが、その敷地が一杯となりましたので、新に敷地を購入すべきか、普通のように埋葬地に建てるべきか迷っておりますが、どう致しますのが宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 死後は墓所とか、決った所へ埋めるべきである。<br/><br/>古老の死後そうせよ。<br/><br/>（S24. 3.11） 089 墓標を作る事 墓標がこわれて未だ石碑も建てていませんが、自分で墓標を作って自分で書いて、勝手にいつでも建てて差支えありませんでしょうか。<br/><br/> 差支えない。<br/><br/>早く建てた方がよい。<br/><br/>でないと墓詣りしても、霊が来る所がない。<br/><br/>（S24. 4.28） 090 無縁墓標の移動 自分の屋敷内に無縁仏の墓標（二代位前の居住者で一家断絶の者）が御座いますが、離れている墓地へ移してもよろしいもので御座いましょうか。<br/><br/> 後祀ってやれば構わない。<br/><br/> 091 経済上墓石建てず 葬式後何年間も、経済的な理由から墓標だけにして石碑を建てられない方もありますが、これはどうでございましょうか。<br/><br/> よくない。<br/><br/>経済的理由という馬鹿な事はない。<br/><br/>祖霊は必ず入るようにしてくれる。<br/><br/>（S24.12. 3） 092 遺言の墓石と遺骨 亡父（昭和十三年死亡）が生前中、亡兄（長男満洲鏡泊学園生徒にて昭和九年戦死）の石碑を後日建立するため、墓地に先祖代々の墓及び祖父母の墓の隣りに、自然石をたてて場所をとってあります。<br/><br/>こう言う場合、亡父の遺志をついで、亡兄の石碑を建てた方がよろしいでしょうか。<br/><br/>それ共先祖代々の墓に合祀した方がよろしいでしょうか。<br/><br/>なお遺骨は未だ仏壇に祭ってあります。<br/><br/> 亡父の遺志を伝えよ。<br/><br/> 遺骨は早く埋けよ。<br/><br/>（S24.11. 6） 093 墓石建てるべき時期 私の地方では墓石は七年忌、十三年忌の時に建てまして、それ迄は毎年塔婆を建てる習慣になっております。<br/><br/>私の家は父の代に分家致しまして十二年前から五人の者が次々と死亡致し、未だ建てていないので御座いますが、いつ建てるのが本当で御座いましょうか。<br/><br/> また先祖代々の墓石も造るべきで御座いましょうか。<br/><br/>なお経済的に余裕の無い場合でも一人一人墓石は建てなければならぬもので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> なお現在家族全員入信致し、集会所として御用をさせて戴いております。<br/><br/> 塔婆は一周忌経てば処分してよい。<br/><br/>まず一年経てば造らなくてはいけない。<br/><br/>余裕があるなしに限らず一人々々したら大変である。<br/><br/>（S25. 1.12） 094 墓石直す時機 昨年九月二十日養子が肺結核で亡くなりました。<br/><br/>そして私の養父と実母が葬ってある墓石の西脇にほうむりましたが、その後、墓石が西北に傾いてまいりましたが、これをなおしたいと思いますが、時機と方法をお教示下さい。<br/><br/> 時機はお彼岸がよい。<br/><br/>彼岸は節になっている。<br/><br/>（S25. 1.16） 095 石碑立てる事 石碑を立てたいと思いますが、先祖代々のを一基立てれば各霊別に立てなくてもよろしいでしょうか。<br/><br/>御教示お願い致します。<br/><br/>七年忌に当る新仏が二霊、最近の新仏が一霊あります。<br/><br/> 普通の墓の形を立てる。<br/><br/> 先祖代々―を真中にして、面識ある人は横へつける。<br/><br/>面識ある人は先祖代々へ入れてはいけない。<br/><br/> 096 墓石の色 一、墓石の黒色は子孫に罪人が出るから悪いと申しますが真実でありましょうか。<br/><br/> 二、また人像の墓碑を建てると家が絶えるとも申す人がありますがどうでありましょうか。<br/><br/> 三、霊を慰める意味で墓石につき型、色、方向等に特別な関係があるのでありましょうか。<br/><br/>御教示願います。<br/><br/> 一、黒石はいけない。<br/><br/>白いのはいい。<br/><br/>白か鼠色に是非替える。<br/><br/>地獄は黒である。<br/><br/>（S24） 097 墓標の石 私の家の墓石は天然石で出来ておりますが、そのままで宜しいでしょうか。<br/><br/> 自然石はいけない。<br/><br/>（S25. 2.17） rattail（注） 〔 妙智之光（地上天国２号） 、昭和24(1949)年3月1日発行〕 「墓石に自然石を用いるのは墓相学上よくないと聞いておりますが、墓相というものはあるものでしょうか。<br/><br/>」 『人間に人相があるように墓相の可否も多少はある。<br/><br/>自然石を墓石にするのはあまりよくない。<br/><br/>自然石は本来庭石などに使うべきもので、こういうことに使うのは理屈に合わぬからである。<br/><br/> やはり墓には墓石の形にするのが本当である。<br/><br/>霊によってはこういうことを非常に嫌うのがある。<br/><br/>墓参に行くと、祖霊が墓へ挨拶に来る。<br/><br/>そのとき墓が法にかなっていないと嫌がるのである。<br/><br/>霊界人はすべて法則通りを好むので実に几帳面なものである。<br/><br/> また黒石をたいへん嫌うが元来黒色は地獄とか悪魔を表徴するからで、天国は白色または紫色で表わすものである。<br/><br/>』 098 墓石に神道名 神式の場合、お位牌は俗名でなく戒名の方がよろしゅう御座居ましょうか。<br/><br/>例えば墓石などにも何々の命となっておりますが、いかがなもので御座居ましょうか。<br/><br/> 墓石は戒名でなくてはいけない。<br/><br/>神界と仏界と違うから。<br/><br/> 今迄の神界もあまり余命はない。<br/><br/>（S24. 7.23） 099 新墓石の書き方 新規に墓地に石碑を立てる場合、左のいずれが宜しいでしょうか。<br/><br/>御教え下さい。<br/><br/> 一、何々家の墓 一、何々家先祖代々之霊 一、右石碑に何人かの戒名を書いても宜しいでしょうか。<br/><br/> 先祖代々の霊が本当である。<br/><br/>戒名は書いてもよい。<br/><br/>正面に先祖代々とかく。<br/><br/>後、霊の位に応じ、順序正しくする。<br/><br/>（S24. 5. 4） rattail（注） 〔 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行〕 ――新規に墓を作る場合、墓碑には左のいずれを記入すべきでしょうか。<br/><br/> 何 々 家 之 墓 何々家先祖代々之霊 また、墓碑に戒名を刻むのはいかがでしょうか。<br/><br/> 『「何々家先祖代々之霊」が本当ですね、それから戒名は刻んでいいんですがね、墓の正面はいまのようにして、横か裏に戒名を書くんです。<br/><br/>その場合、霊の位に応じて正しく書かなければいけません。<br/><br/>例えば、ひいおじいさんを一番先にするとすれば、次にはおじいさんそれからお父さんっていった具合にね。<br/><br/>順序さえ正しくすればいいんです。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

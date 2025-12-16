@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhaimon2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺門淋巴腺十日で全快 正反対な養生法で 『救世』51号、昭和25(1950)年2月25日発行 岡山県 百ノ実中教会 松枝江子（22） ちょっとの風邪が仲々治らず、体がだるく胸の痛みがとれませんのでお医者様に診て頂きましたら、肺門淋巴腺と聞かされ驚きました。<br><br>その後半年お医者の言葉を守り、食養生も充分にグラブラ致しておりましてもよくなる見込もなく困っておりますと救世教の熱心な信者の方にすすめられ、百ノ実中教会へお参りさせて頂きましたが、何の事かわかりませんが、人様が段々よくなっていられる事を聞いておりますので、先生の言われる事は食物並に養生法もお医者様とは正反対で、少々不安ながらその通り実行し浄霊を受けております内に、体は軽く、青黒かった血色もよくなり、食物は美味しく、三日目には自転車に乗る事をゆるされ一日一日とよくなりますに一同驚き、十日目にはすっかりよく、早速に入信させて頂き、今では人様をお助けさせて頂いております。<br><br> 私の患部は左肺門だったのでございます。<br><br>病気中の自分を思いますと恐ろしくなって参ります。<br><br>その私が僅か十日で麦刈も出来る体にして頂き何とも申上げる言葉もありません。<br><br>教導所へお参りさせて頂きます都度光明如来様にお礼を申上げております。<br><br>世の人が一日も早く薬と絶対安静と栄養が揃わねば肺病は治らぬと思い込まされている悪夢に目ざめ、神霊医術でなければ完全に解決つかぬ事を知って頂きたいと思います。<br><br>迷信とは薬を頭からよしと思い込む事こそ迷信ではないかと思います。<br><br>どんな薬でも服めば好いと思った私の失敗をどうぞ皆様の資料として頂きたく存じます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Cura Total de Linfadenopatia Hilar em Dez Dias com um Tratamento Diametralmente Oposto</h2>
 <p>Publicado em <em>O Salvador do Mundo</em>, n.º 51, de 25 de fevereiro de 1950
@@ -96,5 +251,48 @@ Igreja Hyakunomi, Província de Okayama</p>
 <p>Embora não compreendesse plenamente do que se tratava, os relatos de pessoas que se recuperavam gradualmente eram constantes. As orientações do ministro, tanto sobre a alimentação quanto sobre os cuidados com a saúde, eram diametralmente opostas às do médico. Apesar de uma certa apreensão, decidi seguir suas palavras à risca e comecei a receber Johrei. Com o tempo, meu corpo tornou-se mais leve, minha compleição, antes pálida e escura, adquiriu um tom saudável, e o apetite retornou, fazendo com que os alimentos se tornassem saborosos. Já no terceiro dia, obtive permissão para andar de bicicleta, e minha melhora diária surpreendia a todos. Ao cabo de dez dias, estava plenamente recuperada. Imediatamente, pedi meu ingresso na fé e, hoje, dedico-me a auxiliar outras pessoas.</p>
 <p>A área afetada em meu caso era o hilo pulmonar esquerdo. Recordar-me de meu estado durante a enfermidade ainda me causa arrepios. E pensar que, em apenas dez dias, eu, aquela mesma pessoa, recebi um corpo tão fortalecido a ponto de poder trabalhar na colheita do trigo! Faltam-me palavras para expressar minha gratidão. A cada visita que faço à Casa de Johrei, elevo minhas preces de gratidão a Komyō Nyorai (光明如来).</p>
 <p>Desejo ardentemente que as pessoas do mundo despertem o quanto antes do pesadelo em que vivem, iludidas pela crença de que as doenças pulmonares não podem ser curadas sem a combinação de medicamentos, repouso absoluto e nutrição. É meu anseio que compreendam que a solução definitiva para tais males só pode ser alcançada por meio da medicina espiritual de Deus. A verdadeira superstição, a meu ver, não reside justamente na convicção cega de que os remédios são invariavelmente benéficos? Rogo, portanto, que meu erro — o de acreditar que qualquer medicamento seria eficaz — sirva de lição para todos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺門淋巴腺十日で全快 正反対な養生法で 『救世』51号、昭和25(1950)年2月25日発行 岡山県 百ノ実中教会 松枝江子（22） ちょっとの風邪が仲々治らず、体がだるく胸の痛みがとれませんのでお医者様に診て頂きましたら、肺門淋巴腺と聞かされ驚きました。<br/><br/>その後半年お医者の言葉を守り、食養生も充分にグラブラ致しておりましてもよくなる見込もなく困っておりますと救世教の熱心な信者の方にすすめられ、百ノ実中教会へお参りさせて頂きましたが、何の事かわかりませんが、人様が段々よくなっていられる事を聞いておりますので、先生の言われる事は食物並に養生法もお医者様とは正反対で、少々不安ながらその通り実行し浄霊を受けております内に、体は軽く、青黒かった血色もよくなり、食物は美味しく、三日目には自転車に乗る事をゆるされ一日一日とよくなりますに一同驚き、十日目にはすっかりよく、早速に入信させて頂き、今では人様をお助けさせて頂いております。<br/><br/> 私の患部は左肺門だったのでございます。<br/><br/>病気中の自分を思いますと恐ろしくなって参ります。<br/><br/>その私が僅か十日で麦刈も出来る体にして頂き何とも申上げる言葉もありません。<br/><br/>教導所へお参りさせて頂きます都度光明如来様にお礼を申上げております。<br/><br/>世の人が一日も早く薬と絶対安静と栄養が揃わねば肺病は治らぬと思い込まされている悪夢に目ざめ、神霊医術でなければ完全に解決つかぬ事を知って頂きたいと思います。<br/><br/>迷信とは薬を頭からよしと思い込む事こそ迷信ではないかと思います。<br/><br/>どんな薬でも服めば好いと思った私の失敗をどうぞ皆様の資料として頂きたく存じます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

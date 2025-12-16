@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270307</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月7日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月七日 【御教え】 （御論文『結核信仰療法』「肺炎と肋膜炎」「結核付随病」のあとの御教え） 今日の新聞を見ますと、アメリカで、肺病に馬鹿に効く薬が発明されたとか出てますがね。<br><br>なんだと言うと、たちまち黴菌は死んじゃうというんですね――その薬を服むとね。<br><br>だから結核なんて、じき治っちゃうと言う。<br><br>私は良く読みませんが、この間ラジオで言ってましたがね。<br><br>たちまち結核は治ると言うんですがね。<br><br>これが、ぜんぜん間違っているんです。<br><br>結核菌を殺すなんてことはできるものじゃないです。<br><br>というのは、結核菌を殺す力のある――まあ毒ですからね。<br><br>結核菌を毒殺するんですからね、それが、肺なら肺に行くとして、口から飲み、注射し、これが身体中グルグルまわっている間に、薬の――毒殺するだけの力はなくなっちゃいます。<br><br>だから、殺すなんてできやしない。<br><br>もしかして殺すだけの強い力だったら、人間の方がやられちゃいます。<br><br>まず、針を肺にズブッと入れて、チュウとやったらその付近のものだけは死にますよ。<br><br>仮に、全部殺すことができるとしても、私の説いてある通り、霊の曇りから結核菌は湧くんですからね。<br><br>あとあと湧いてきます。<br><br>やっぱり、戦争みたいなものですよ。<br><br>戦争で敵を殺したと言っても、そこの国民全部を殺せるものではない。<br><br>一部を殺すんですからね。<br><br>戦争で死んでも、たいてい二、三年くらいで回復していますね。<br><br>だから、いずれあれも駄目だということは、薬を売り出さないうちに分かってますよ。<br><br>これだけは絶対にはずれないからね。<br><br>だから医学者なんていうのは、頭の悪いものだと――こっちが頭が良過ぎるのかもしれないが。<br><br> これは科学封建という、ちょっとおもしろい書き方です。<br><br> （御論文「科学封建」） 再軍備について書いたけれども、まだ書き足らない所があったので、それを加えたから、もう一遍読ませます。<br><br> （御論文「再軍備に就て」） この間、今評判の三越の興福寺の展覧会ですね。<br><br>あれに行ってみましたが、阿修羅という、あれが評判で、あの仏像ですがね。<br><br>仏像のような恰好じゃないんですがね。<br><br>つまり阿修羅が――阿修羅というのは、まるで鬼のような凄い顔だと思ったんです。<br><br>ところがさにあらずで、十七、八の処女の顔ですね。<br><br>優しい、実に惚々するような顔です。<br><br>良く考えてみると、阿修羅が改心して、仏様の顔になって、その姿を現わしているんですね。<br><br>それが、今から千二百年前ですね。<br><br>天平ですからね。<br><br>その時代に、そんなすばらしい彫刻ができたというのは、実に驚くべきものですね。<br><br>いかに日本人の美術に対する感覚が秀れているかが分かるんですね。<br><br>新聞に時価一億円とありますが、客引きに――宣伝になってます。<br><br>前に教団のことを『読売』が一日千万円の収入と書いたが、これは十倍より、もっとですね。<br><br>それから今のも等身大ですが、もう一つやっぱり等身大で烏天狗と子供――童子ですね。<br><br>童子の菩薩ですね。<br><br>そういうのが三つありまして、実に立派なものです。<br><br>実に良いですね。<br><br>やはり、その時代の作品です。<br><br>あとは見るべき物はないです。<br><br>一番おかしいのは鎧ですね。<br><br>兜、刀が随分ありました。<br><br>それで、仏像は一つもないですよ。<br><br>私は、せめて観音か阿弥陀か、釈迦、薬師如来、弥勒菩薩があると思ったら、そういうのは一つもないんです。<br><br>だから、今の阿修羅と四体の童子を除いたら、あとは見るべき物はないですね。<br><br>ただ、泥細工みたいな、釈迦の十大弟子というのが十体並んでましたが、乾漆という漆を固めた物ですがね。<br><br>上等のは漆が薄いんですね。<br><br>泥細工のようになる。<br><br>おまけに釈迦の十大弟子というんですから、異様な顔で、現代離れした顔で、気持ちの悪いようなもので、ちょっと見ると泥人形というようです。<br><br>そんなようで、お寺の展覧会に出て、仏像がないんですかちね。<br><br>良く考えてみると、今までに売っちゃったんでしょう。<br><br>今並んでいるような物は、道具屋が買わないですからね。<br><br>仏像でないからね。<br><br> 阿修羅はいろんな働きをするというそれを表徴しているんですが、その作を見るとロダンよりか上です。<br><br>日本の仏像の彫刻というのは、実にたいしたものです。<br><br>私は、この間も、国宝と奈良の仏像を――写真の何冊もある本を、すっかり調べてみたが、実にすばらしいものですね。<br><br>断然世界一ですね。<br><br>ですから、これは世界で知られないから、注目をされていませんが、いずれ私はそういうふうな彫刻の大展覧会をやろうと思っている。<br><br>そうして世界的に知らせようと思っている。<br><br>できないことはないんです。<br><br>この間、サンフランシスコの展覧会で、仏像も七、八体くらい出ましたが、それは国宝以外の民間の物です。<br><br>それでも、アメリカでは非常に驚いたんです。<br><br>そのくらいのもので、この間アメリカから美術展について行った人が、あっちの――アメリカの美術館を調べて帰ってきましたが、その人はふだん日本の骨董品の貿易をしてますから、よく事情を知っているんです。<br><br>日本人の美術における優秀性ですね。<br><br>それは確かに世界一だと言ってますね。<br><br>この間美術館をまわってカタログを集めて持ってきて、二、三日前に私は見ましたが、品物はなかなか良い物があります。<br><br>支那の周時代の銅ですね。<br><br>周銅からそれから宋時代の陶器ですね。<br><br>そういうのは、なかなか日本にないような良い物があります。<br><br>日本美術時たら、多少ありますが――絵なんかありましたが、ほとんど贋物です。<br><br>それから絵だけで、他の――蒔絵とか、陶器はぜんぜんないと言ってよい。<br><br>そうしてみると、大いに日本の美術品を海外に紹介する必要があると思う。<br><br>ちょうど箱根の美術館はそれに当てはまるわけですから、おもしろいと思ってます。<br><br>そんなわけで、今までなくてはならないもの――日本美術を紹介する――そういう機関がなかったんです。<br><br>そうでしょう――終戦前までは、みんな財閥とか、旧大名の土蔵の奥深く納めて、人に見せないですからね。<br><br>たまたま見せる場合は、親戚知人とか、そういう者の少数の人に、御自慢で見せるだけですね。<br><br>大衆の目には見せないですね。<br><br>またできるだけ見せない――秘密にしているのが良いとしている。<br><br>茶器ですが、お茶の会をする時に、今まで人の目に触れないようにしておいた物を出す。<br><br>アッと言わせるんです。<br><br>おもしろいことには、今でも――有名な茶人ですが、一品良い物が入ると、そのために茶会をやるんですからね。<br><br>そのくらい珍重されているから、大衆の目に触れることは絶対にしない。<br><br>私はそれは、嘘だ。<br><br>そういう物こそよけいに大衆の目に触れさせなければならないと、型破りをやるんですがね。<br><br>私はふだん見ることができないような物を出します。<br><br>琳派展覧会でも―博物館で光悦の有名な不二の茶碗を借りに行って、あれは酒井忠正という人が持っているんです。<br><br>博物館で借りに行って、二日間貸す――皇太后陛下がおみえになるというので、それなら二日間貸すというのを、また三日間に延びましたが、二日間というのを一日延ばしてもらったんです。<br><br>これは光悦の茶碗では第一等の物ですがね。<br><br>それを博物館では人民には見せないですからね。<br><br>皇太后陛下のために出したんですから、それほどたいへんなものです。<br><br>私は不二の茶碗を大衆に出します。<br><br>神様からは、それを独占するというのはいけないんです。<br><br>できるだけ多くに見せるというのが本当のやり方ですから、そういう点も大いに型破りをしようと思ってます。<br><br>大体その茶碗なんかも、了解はされてます。<br><br>最初からというわけにはいかないが、いずれ時期が来たら、琳派展覧会をやろうと思っている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Cura e a Salvação pela Arte</h2>
 <p>Nos jornais de hoje, noticia-se a invenção, nos Estados Unidos, de um medicamento com notável eficácia contra a tuberculose. Afirma-se que, ao ser ingerido, ele elimina instantaneamente os bacilos. Dizem, portanto, que a tuberculose será curada de imediato. Tive notícia disso recentemente também pelo rádio.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Havia o costume de manter as peças em segredo para, em uma cerimônia do chá, revelá-las e causar assombro nos convidados. É interessante notar que, ainda hoje, um mestre do chá de renome, ao adquirir uma única peça de excelência, chega a organizar uma cerimônia exclusivamente para apresentá-la. Devido a esse apego, as obras jamais eram expostas às massas. Eu, porém, afirmo que isso é um equívoco. Acredito que, precisamente por seu valor, tais obras devem ser apreciadas pelo maior número possível de pessoas. É por isso que adoto uma postura iconoclasta.</p>
 <p>Costumo exibir peças que o público normalmente não tem a oportunidade de ver. Na exposição da Escola Rinpa, por exemplo, o museu tentou tomar emprestada a famosa tigela de chá "Fuji", de Koetsu, que pertence ao Sr. Tadamasa Sakai. A permissão foi concedida por apenas dois dias, em virtude da visita de Sua Majestade a Imperatriz Viúva, mas conseguimos estender o empréstimo por mais um dia. Trata-se da principal obra entre as tigelas de Koetsu. O museu, contudo, não a exibe ao povo; ela foi disponibilizada apenas em honra à Imperatriz, o que demonstra o quão restrito é seu acesso.</p>
 <p>Pois eu irei expor a tigela "Fuji" ao grande público. Perante Deus, monopolizar a beleza é um erro. O caminho verdadeiro consiste em compartilhá-la com o maior número de pessoas. Portanto, também nesse aspecto, pretendo romper com as convenções. Já obtivemos um entendimento preliminar para a cessão de peças como essa. Embora não seja possível realizar tudo de imediato, quando o momento certo chegar, realizarei a exposição da Escola Rinpa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月7日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月七日 【御教え】 （御論文『結核信仰療法』「肺炎と肋膜炎」「結核付随病」のあとの御教え） 今日の新聞を見ますと、アメリカで、肺病に馬鹿に効く薬が発明されたとか出てますがね。<br/><br/>なんだと言うと、たちまち黴菌は死んじゃうというんですね――その薬を服むとね。<br/><br/>だから結核なんて、じき治っちゃうと言う。<br/><br/>私は良く読みませんが、この間ラジオで言ってましたがね。<br/><br/>たちまち結核は治ると言うんですがね。<br/><br/>これが、ぜんぜん間違っているんです。<br/><br/>結核菌を殺すなんてことはできるものじゃないです。<br/><br/>というのは、結核菌を殺す力のある――まあ毒ですからね。<br/><br/>結核菌を毒殺するんですからね、それが、肺なら肺に行くとして、口から飲み、注射し、これが身体中グルグルまわっている間に、薬の――毒殺するだけの力はなくなっちゃいます。<br/><br/>だから、殺すなんてできやしない。<br/><br/>もしかして殺すだけの強い力だったら、人間の方がやられちゃいます。<br/><br/>まず、針を肺にズブッと入れて、チュウとやったらその付近のものだけは死にますよ。<br/><br/>仮に、全部殺すことができるとしても、私の説いてある通り、霊の曇りから結核菌は湧くんですからね。<br/><br/>あとあと湧いてきます。<br/><br/>やっぱり、戦争みたいなものですよ。<br/><br/>戦争で敵を殺したと言っても、そこの国民全部を殺せるものではない。<br/><br/>一部を殺すんですからね。<br/><br/>戦争で死んでも、たいてい二、三年くらいで回復していますね。<br/><br/>だから、いずれあれも駄目だということは、薬を売り出さないうちに分かってますよ。<br/><br/>これだけは絶対にはずれないからね。<br/><br/>だから医学者なんていうのは、頭の悪いものだと――こっちが頭が良過ぎるのかもしれないが。<br/><br/> これは科学封建という、ちょっとおもしろい書き方です。<br/><br/> （御論文「科学封建」） 再軍備について書いたけれども、まだ書き足らない所があったので、それを加えたから、もう一遍読ませます。<br/><br/> （御論文「再軍備に就て」） この間、今評判の三越の興福寺の展覧会ですね。<br/><br/>あれに行ってみましたが、阿修羅という、あれが評判で、あの仏像ですがね。<br/><br/>仏像のような恰好じゃないんですがね。<br/><br/>つまり阿修羅が――阿修羅というのは、まるで鬼のような凄い顔だと思ったんです。<br/><br/>ところがさにあらずで、十七、八の処女の顔ですね。<br/><br/>優しい、実に惚々するような顔です。<br/><br/>良く考えてみると、阿修羅が改心して、仏様の顔になって、その姿を現わしているんですね。<br/><br/>それが、今から千二百年前ですね。<br/><br/>天平ですからね。<br/><br/>その時代に、そんなすばらしい彫刻ができたというのは、実に驚くべきものですね。<br/><br/>いかに日本人の美術に対する感覚が秀れているかが分かるんですね。<br/><br/>新聞に時価一億円とありますが、客引きに――宣伝になってます。<br/><br/>前に教団のことを『読売』が一日千万円の収入と書いたが、これは十倍より、もっとですね。<br/><br/>それから今のも等身大ですが、もう一つやっぱり等身大で烏天狗と子供――童子ですね。<br/><br/>童子の菩薩ですね。<br/><br/>そういうのが三つありまして、実に立派なものです。<br/><br/>実に良いですね。<br/><br/>やはり、その時代の作品です。<br/><br/>あとは見るべき物はないです。<br/><br/>一番おかしいのは鎧ですね。<br/><br/>兜、刀が随分ありました。<br/><br/>それで、仏像は一つもないですよ。<br/><br/>私は、せめて観音か阿弥陀か、釈迦、薬師如来、弥勒菩薩があると思ったら、そういうのは一つもないんです。<br/><br/>だから、今の阿修羅と四体の童子を除いたら、あとは見るべき物はないですね。<br/><br/>ただ、泥細工みたいな、釈迦の十大弟子というのが十体並んでましたが、乾漆という漆を固めた物ですがね。<br/><br/>上等のは漆が薄いんですね。<br/><br/>泥細工のようになる。<br/><br/>おまけに釈迦の十大弟子というんですから、異様な顔で、現代離れした顔で、気持ちの悪いようなもので、ちょっと見ると泥人形というようです。<br/><br/>そんなようで、お寺の展覧会に出て、仏像がないんですかちね。<br/><br/>良く考えてみると、今までに売っちゃったんでしょう。<br/><br/>今並んでいるような物は、道具屋が買わないですからね。<br/><br/>仏像でないからね。<br/><br/> 阿修羅はいろんな働きをするというそれを表徴しているんですが、その作を見るとロダンよりか上です。<br/><br/>日本の仏像の彫刻というのは、実にたいしたものです。<br/><br/>私は、この間も、国宝と奈良の仏像を――写真の何冊もある本を、すっかり調べてみたが、実にすばらしいものですね。<br/><br/>断然世界一ですね。<br/><br/>ですから、これは世界で知られないから、注目をされていませんが、いずれ私はそういうふうな彫刻の大展覧会をやろうと思っている。<br/><br/>そうして世界的に知らせようと思っている。<br/><br/>できないことはないんです。<br/><br/>この間、サンフランシスコの展覧会で、仏像も七、八体くらい出ましたが、それは国宝以外の民間の物です。<br/><br/>それでも、アメリカでは非常に驚いたんです。<br/><br/>そのくらいのもので、この間アメリカから美術展について行った人が、あっちの――アメリカの美術館を調べて帰ってきましたが、その人はふだん日本の骨董品の貿易をしてますから、よく事情を知っているんです。<br/><br/>日本人の美術における優秀性ですね。<br/><br/>それは確かに世界一だと言ってますね。<br/><br/>この間美術館をまわってカタログを集めて持ってきて、二、三日前に私は見ましたが、品物はなかなか良い物があります。<br/><br/>支那の周時代の銅ですね。<br/><br/>周銅からそれから宋時代の陶器ですね。<br/><br/>そういうのは、なかなか日本にないような良い物があります。<br/><br/>日本美術時たら、多少ありますが――絵なんかありましたが、ほとんど贋物です。<br/><br/>それから絵だけで、他の――蒔絵とか、陶器はぜんぜんないと言ってよい。<br/><br/>そうしてみると、大いに日本の美術品を海外に紹介する必要があると思う。<br/><br/>ちょうど箱根の美術館はそれに当てはまるわけですから、おもしろいと思ってます。<br/><br/>そんなわけで、今までなくてはならないもの――日本美術を紹介する――そういう機関がなかったんです。<br/><br/>そうでしょう――終戦前までは、みんな財閥とか、旧大名の土蔵の奥深く納めて、人に見せないですからね。<br/><br/>たまたま見せる場合は、親戚知人とか、そういう者の少数の人に、御自慢で見せるだけですね。<br/><br/>大衆の目には見せないですね。<br/><br/>またできるだけ見せない――秘密にしているのが良いとしている。<br/><br/>茶器ですが、お茶の会をする時に、今まで人の目に触れないようにしておいた物を出す。<br/><br/>アッと言わせるんです。<br/><br/>おもしろいことには、今でも――有名な茶人ですが、一品良い物が入ると、そのために茶会をやるんですからね。<br/><br/>そのくらい珍重されているから、大衆の目に触れることは絶対にしない。<br/><br/>私はそれは、嘘だ。<br/><br/>そういう物こそよけいに大衆の目に触れさせなければならないと、型破りをやるんですがね。<br/><br/>私はふだん見ることができないような物を出します。<br/><br/>琳派展覧会でも―博物館で光悦の有名な不二の茶碗を借りに行って、あれは酒井忠正という人が持っているんです。<br/><br/>博物館で借りに行って、二日間貸す――皇太后陛下がおみえになるというので、それなら二日間貸すというのを、また三日間に延びましたが、二日間というのを一日延ばしてもらったんです。<br/><br/>これは光悦の茶碗では第一等の物ですがね。<br/><br/>それを博物館では人民には見せないですからね。<br/><br/>皇太后陛下のために出したんですから、それほどたいへんなものです。<br/><br/>私は不二の茶碗を大衆に出します。<br/><br/>神様からは、それを独占するというのはいけないんです。<br/><br/>できるだけ多くに見せるというのが本当のやり方ですから、そういう点も大いに型破りをしようと思ってます。<br/><br/>大体その茶碗なんかも、了解はされてます。<br/><br/>最初からというわけにはいかないが、いずれ時期が来たら、琳派展覧会をやろうと思っている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

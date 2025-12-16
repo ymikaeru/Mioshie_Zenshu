@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270315</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月15日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月十五日 【御教え】 『結核信仰療法』の続きを読ませます。<br><br> （御論文「結核付随病」「栄養」） （御論文「結核新薬を嗤う」） この間も話した、興福寺の宝物展ですが、書いてみたら、なかなか日本の彫刻について、知っておく必要があると思いますから、あわせて書いてみたんです。<br><br> （御論文「三越の春日興福寺宝物展を観て」） 今お話したようなわけで、近ごろ私は仏教美術を研究しているんですが、私の今まであまり知らなかった古い時代の仏教彫刻ですね。<br><br>実にたいした物があるんです。<br><br>これは、たいていお寺の宝物になっているんで、まあ写真だけは見られますが、実物を見るというのは――京都の博物館に行くと少しはありますが、なにしろお寺の宝物になっているのと、大きいですから場所がないというのと、今まではそういうことができなかったですね。<br><br>だから、どうしても一堂に並べて見せようというには、よほど大きな場所ですね。<br><br>場所と言ったところで、野天じゃ駄目ですからね。<br><br>やはり室内でなければならない。<br><br>そういう所があって、そうしてまず国宝級の物ですね。<br><br>そういう物をたくさん並べたら、実にすばらしいものだ。<br><br>それにはどうしても京都に将来美術館を作って、京都の寺から、みんな出品させて、仏教美術大展覧会ですね。<br><br>そういうことをやってみたいと思っているんです。<br><br>そうして世界中に宣伝をして、半年か一年くらいの会期にして、これは外国人ばかりでない、日本人もそうですが、そういう展覧会をやれば、どんなに人が喜ぶか分からないです。<br><br>この間の三越の展覧会にしろ、そう言っちゃなんだが、しみったれな、あんなやり方でさえ、人が来るんですからね。<br><br>だからそういったやり方だと、日本中から来ますね。<br><br>それには、少し大きな彫刻は、四畳半一間くらい、いっぱいになりますからね。<br><br>だから、よほど大きなのがなければならない。<br><br>そういう大きな美術館を、いずれ京都に造ろうと思っている。<br><br>そればかりでない。<br><br>京都に、やっぱり地上天国的な物を造りたいと思ってます。<br><br>平らな所ですね。<br><br>平地で三万坪以上のものですね。<br><br>そういうものがあったら、知らせてもらいたいと思ってますがね。<br><br>神様の方では、ちゃんと決めてあるんです。<br><br>それと時期ですね。<br><br>私がそういう気が起るということは、時期が近寄ってきたと、こう思って良いですね。<br><br>そんなわけで箱根、熱海、京都とこの三カ所がもっとも適当ですね。<br><br>で、箱根の方も美術館は大体輪廓と館の中の仕切りができて、あと塗りだけになっている。<br><br>塗りは、なにしろ今まで寒かったですから、三月半ばというから、今ごろから塗りにかかるわけです。<br><br>塗りは割合早くできると思いますがね。<br><br>そうしてケースなんかも準備しましたがね。<br><br>陳列の仕方やなにかも、できるだけ理想的に、今まで他にないような進歩したものを作るつもりでね。<br><br>今見本だけこしらえてますけれどもね。<br><br>で、なにしろこっちの美術館は、あらゆる種類を網羅しますからね。<br><br>だからよほど広い会場でなければ、思うように並べられない。<br><br>なにしろ今の予定では、入口を入ると、左の方が徳川時代の屏風、巻物、陶器類ですね。<br><br>そういう物です。<br><br>右の方が現代美術ですね。<br><br>右の方は二部屋になってますが、現代の彫刻、絵画、蒔絵、陶器ですね。<br><br>そういう物が主になっている。<br><br>それから二階の上がって右手の――これは一番広い会場ですが、ここは掛物、絵画ですね。<br><br>昔からのをずっと掛けたいですが、これはいくらも掛からないです。<br><br>なにしろ種類が――日本としては一番古いのが藤原。<br><br>鎌倉、足利時代の絵と、桃山、徳川のふつうの絵画――ところが、その他に推古風の物だとか光琳風な物、それから浮世絵。<br><br>そんなふうな物だが、いくらも掛けることができないですね。<br><br>それから蒔絵、日本の銅〔陶〕器―そういう物でいっぱいになっちゃうと思います。<br><br>それから左手の方、これは二部屋あります。<br><br>一部屋の広い方を支那美術。<br><br>これも並びきれないですね。<br><br>やはり絵画、陶器、銅器ですね。<br><br>その隣の少し小さい部屋で、少し古い、天平時代の仏教美術に関する仏画、木彫、乾漆、銅器――銅の仏体ですね。<br><br>それから仏器ですね――仏の道具ですね。<br><br>そういう物です。<br><br>それから古い巻物、経文だとか並べたいと思うが、なかなかこれも並べきれないですね。<br><br>だから、いずれは箱根にもう一つ造るつもりで、大体予定してますがね。<br><br>それほど大きくなくても――これは二階がなくて下だけのを、どうしても造らなければならない。<br><br>そのようなわけで、他の美術館といいますと、たいてい種類が少ないですからね。<br><br>支那陶器とか油絵とか、そういうような物ですからね。<br><br>こっちは支那、朝鮮の物もありますしね。<br><br>日本のもいろいろな物ですからね。<br><br>少しずつでも、そうとう場所がいるんです。<br><br>もっとも、箱根のは見本として造ったんですから、しかたがないですが、いずれ熱海はもっと大きな理想的なものをこしらえます。<br><br> そうして箱根も考えてみると、すいぶん評判になるに違いないから、大勢来るに違いない。<br><br>そういった設備や、いろいろな方法をしなければならない。<br><br>で、大勢来る時には――そうかと言ってああいうのは、ゾロゾロ入るままにしておいたら、落ちついて見られないですから、人を計らなければならない。<br><br>ですから二、三百人くらい入るような待合室を作らなければならない。<br><br>それから信者さんと一般との区別をしなければならない。<br><br>なかなかいろいろあるんですね。<br><br>しかし、神様はちゃんと準備してありますから、楽は楽ですね。<br><br>この間も、自動車の置き場がないですね。<br><br>あそこにちょうどあいている所があるから――萩の家の方に行こうという角ですね。<br><br>あそこに低い地所がある。<br><br>四百坪くらいで、登山会社が持っているんですね。<br><br>それから、安く買いたいと思って、「美術館ができるとお客が来るから、日に千人以上来るとしても登山会社はたいへんな儲けになる。<br><br>あの土地を寄付してくれ」と言った。<br><br>そうすると、寄付ということはできないが、お貸ししようと言う。<br><br>こっちは、貸せば一円も出さずになお結構です。<br><br>借りることにしましたがね。<br><br>箱根は神仙郷が今年の夏までにはできるつもりです。<br><br>その次には、知らない人もあるでしょうが、反対の方の――神仙郷の方はケーブルを左側に降りるんですが、右側の反対の方に半町ほど行くと、大きな家がありますが、あそこに本山を造るんです。<br><br>神仙郷というのは地上天国の模型です。<br><br>だから仮にあそこを本山としてますが、結局宗教的の本山を作らなければならない。<br><br>それが今言ったケーブルを右に降りて半町ほど行った所です。<br><br>これは二、三年前に買ってあるんです。<br><br>これがかれこれ一万坪近くあるんです。<br><br>ここに行くには、どうしてもケーブルが邪魔なんですよ。<br><br>あれを取るわけにはいかないので、ケーブルに地下道を作ってね。<br><br>地下道を作ろうと思っている。<br><br>会社のものだが、むしろ会社は喜んで許すと言うので、さっそく掘ることにしますがね。<br><br>その掘った土で、今言った低い所を埋めようと思っている。<br><br>神様はうまく準備してある。<br><br>話はそのくらいにして。<br><br> これは、ちょっとおもしろいのですが。<br><br> （御論文「力」）【栄光 一五一号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Construção dos Museus e o Plano Divino</h2>
 <p>Conforme mencionei em outra ocasião, ao escrever sobre a exposição de tesouros do Templo Kofuku-ji, compreendi a necessidade de aprofundar o conhecimento sobre a escultura japonesa. Por essa razão, decidi abordar também este assunto.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>O Shinsenkyo (神仙郷) de Hakone deverá ser concluído até o verão deste ano. É preciso compreender que o Shinsenkyo é um protótipo, um modelo do Paraíso Terrestre. Embora o estejamos utilizando provisoriamente como Sede, torna-se imprescindível edificar a Sede principal, de natureza eminentemente religiosa. Essa nova Sede será construída em um terreno que adquirimos há dois ou três anos, com quase trinta e três mil metros quadrados, localizado à direita da estação do funicular, a uma curta distância.</p>
 <p>O único obstáculo é que os trilhos do funicular atravessam o caminho. Como não é viável removê-los, a solução será construir uma passagem subterrânea. Embora a estrutura pertença à companhia, eles receberam a ideia com entusiasmo e nos deram permissão, de modo que iniciaremos a escavação em breve. E a terra retirada da escavação será utilizada para aterrar aquele terreno baixo que mencionei, preparando-o para o estacionamento. Deus prepara tudo com uma perfeição admirável.</p>
 <p>Mas, por ora, encerremos este assunto. Tenho agora algo bastante interessante a compartilhar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年3月15日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月十五日 【御教え】 『結核信仰療法』の続きを読ませます。<br/><br/> （御論文「結核付随病」「栄養」） （御論文「結核新薬を嗤う」） この間も話した、興福寺の宝物展ですが、書いてみたら、なかなか日本の彫刻について、知っておく必要があると思いますから、あわせて書いてみたんです。<br/><br/> （御論文「三越の春日興福寺宝物展を観て」） 今お話したようなわけで、近ごろ私は仏教美術を研究しているんですが、私の今まであまり知らなかった古い時代の仏教彫刻ですね。<br/><br/>実にたいした物があるんです。<br/><br/>これは、たいていお寺の宝物になっているんで、まあ写真だけは見られますが、実物を見るというのは――京都の博物館に行くと少しはありますが、なにしろお寺の宝物になっているのと、大きいですから場所がないというのと、今まではそういうことができなかったですね。<br/><br/>だから、どうしても一堂に並べて見せようというには、よほど大きな場所ですね。<br/><br/>場所と言ったところで、野天じゃ駄目ですからね。<br/><br/>やはり室内でなければならない。<br/><br/>そういう所があって、そうしてまず国宝級の物ですね。<br/><br/>そういう物をたくさん並べたら、実にすばらしいものだ。<br/><br/>それにはどうしても京都に将来美術館を作って、京都の寺から、みんな出品させて、仏教美術大展覧会ですね。<br/><br/>そういうことをやってみたいと思っているんです。<br/><br/>そうして世界中に宣伝をして、半年か一年くらいの会期にして、これは外国人ばかりでない、日本人もそうですが、そういう展覧会をやれば、どんなに人が喜ぶか分からないです。<br/><br/>この間の三越の展覧会にしろ、そう言っちゃなんだが、しみったれな、あんなやり方でさえ、人が来るんですからね。<br/><br/>だからそういったやり方だと、日本中から来ますね。<br/><br/>それには、少し大きな彫刻は、四畳半一間くらい、いっぱいになりますからね。<br/><br/>だから、よほど大きなのがなければならない。<br/><br/>そういう大きな美術館を、いずれ京都に造ろうと思っている。<br/><br/>そればかりでない。<br/><br/>京都に、やっぱり地上天国的な物を造りたいと思ってます。<br/><br/>平らな所ですね。<br/><br/>平地で三万坪以上のものですね。<br/><br/>そういうものがあったら、知らせてもらいたいと思ってますがね。<br/><br/>神様の方では、ちゃんと決めてあるんです。<br/><br/>それと時期ですね。<br/><br/>私がそういう気が起るということは、時期が近寄ってきたと、こう思って良いですね。<br/><br/>そんなわけで箱根、熱海、京都とこの三カ所がもっとも適当ですね。<br/><br/>で、箱根の方も美術館は大体輪廓と館の中の仕切りができて、あと塗りだけになっている。<br/><br/>塗りは、なにしろ今まで寒かったですから、三月半ばというから、今ごろから塗りにかかるわけです。<br/><br/>塗りは割合早くできると思いますがね。<br/><br/>そうしてケースなんかも準備しましたがね。<br/><br/>陳列の仕方やなにかも、できるだけ理想的に、今まで他にないような進歩したものを作るつもりでね。<br/><br/>今見本だけこしらえてますけれどもね。<br/><br/>で、なにしろこっちの美術館は、あらゆる種類を網羅しますからね。<br/><br/>だからよほど広い会場でなければ、思うように並べられない。<br/><br/>なにしろ今の予定では、入口を入ると、左の方が徳川時代の屏風、巻物、陶器類ですね。<br/><br/>そういう物です。<br/><br/>右の方が現代美術ですね。<br/><br/>右の方は二部屋になってますが、現代の彫刻、絵画、蒔絵、陶器ですね。<br/><br/>そういう物が主になっている。<br/><br/>それから二階の上がって右手の――これは一番広い会場ですが、ここは掛物、絵画ですね。<br/><br/>昔からのをずっと掛けたいですが、これはいくらも掛からないです。<br/><br/>なにしろ種類が――日本としては一番古いのが藤原。<br/><br/>鎌倉、足利時代の絵と、桃山、徳川のふつうの絵画――ところが、その他に推古風の物だとか光琳風な物、それから浮世絵。<br/><br/>そんなふうな物だが、いくらも掛けることができないですね。<br/><br/>それから蒔絵、日本の銅〔陶〕器―そういう物でいっぱいになっちゃうと思います。<br/><br/>それから左手の方、これは二部屋あります。<br/><br/>一部屋の広い方を支那美術。<br/><br/>これも並びきれないですね。<br/><br/>やはり絵画、陶器、銅器ですね。<br/><br/>その隣の少し小さい部屋で、少し古い、天平時代の仏教美術に関する仏画、木彫、乾漆、銅器――銅の仏体ですね。<br/><br/>それから仏器ですね――仏の道具ですね。<br/><br/>そういう物です。<br/><br/>それから古い巻物、経文だとか並べたいと思うが、なかなかこれも並べきれないですね。<br/><br/>だから、いずれは箱根にもう一つ造るつもりで、大体予定してますがね。<br/><br/>それほど大きくなくても――これは二階がなくて下だけのを、どうしても造らなければならない。<br/><br/>そのようなわけで、他の美術館といいますと、たいてい種類が少ないですからね。<br/><br/>支那陶器とか油絵とか、そういうような物ですからね。<br/><br/>こっちは支那、朝鮮の物もありますしね。<br/><br/>日本のもいろいろな物ですからね。<br/><br/>少しずつでも、そうとう場所がいるんです。<br/><br/>もっとも、箱根のは見本として造ったんですから、しかたがないですが、いずれ熱海はもっと大きな理想的なものをこしらえます。<br/><br/> そうして箱根も考えてみると、すいぶん評判になるに違いないから、大勢来るに違いない。<br/><br/>そういった設備や、いろいろな方法をしなければならない。<br/><br/>で、大勢来る時には――そうかと言ってああいうのは、ゾロゾロ入るままにしておいたら、落ちついて見られないですから、人を計らなければならない。<br/><br/>ですから二、三百人くらい入るような待合室を作らなければならない。<br/><br/>それから信者さんと一般との区別をしなければならない。<br/><br/>なかなかいろいろあるんですね。<br/><br/>しかし、神様はちゃんと準備してありますから、楽は楽ですね。<br/><br/>この間も、自動車の置き場がないですね。<br/><br/>あそこにちょうどあいている所があるから――萩の家の方に行こうという角ですね。<br/><br/>あそこに低い地所がある。<br/><br/>四百坪くらいで、登山会社が持っているんですね。<br/><br/>それから、安く買いたいと思って、「美術館ができるとお客が来るから、日に千人以上来るとしても登山会社はたいへんな儲けになる。<br/><br/>あの土地を寄付してくれ」と言った。<br/><br/>そうすると、寄付ということはできないが、お貸ししようと言う。<br/><br/>こっちは、貸せば一円も出さずになお結構です。<br/><br/>借りることにしましたがね。<br/><br/>箱根は神仙郷が今年の夏までにはできるつもりです。<br/><br/>その次には、知らない人もあるでしょうが、反対の方の――神仙郷の方はケーブルを左側に降りるんですが、右側の反対の方に半町ほど行くと、大きな家がありますが、あそこに本山を造るんです。<br/><br/>神仙郷というのは地上天国の模型です。<br/><br/>だから仮にあそこを本山としてますが、結局宗教的の本山を作らなければならない。<br/><br/>それが今言ったケーブルを右に降りて半町ほど行った所です。<br/><br/>これは二、三年前に買ってあるんです。<br/><br/>これがかれこれ一万坪近くあるんです。<br/><br/>ここに行くには、どうしてもケーブルが邪魔なんですよ。<br/><br/>あれを取るわけにはいかないので、ケーブルに地下道を作ってね。<br/><br/>地下道を作ろうと思っている。<br/><br/>会社のものだが、むしろ会社は喜んで許すと言うので、さっそく掘ることにしますがね。<br/><br/>その掘った土で、今言った低い所を埋めようと思っている。<br/><br/>神様はうまく準備してある。<br/><br/>話はそのくらいにして。<br/><br/> これは、ちょっとおもしろいのですが。<br/><br/> （御論文「力」）【栄光 一五一号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

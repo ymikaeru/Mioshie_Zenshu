@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教なるが故に 『栄光』104号、昭和26(1951)年5月16日発行 私は、いつも不思議に思っている事だが、私が創成した病療法によれば、どんな病気でも実によく治る。<br><br>自分としてははなはだ言い難い話だが、恐らく人類史上かつてない素晴しい医術であろう。<br><br>何となればこの医術によって、医師が匙（さじ）を抛（な）げた病人も助かり、一生涯無病息災の人間となる事も出来、百歳以上の長寿を保つ事も、あえて不可能ではないからである。<br><br>また今最も恐れられている結核なども、薬を余り沢山身体へ入れない内なら、十人が十人全治させる事が出来るのであるから、結核菌など、いささかも恐れる必要はない。<br><br>なぜなれば、よしんば感染しても、雑作なく治るからである。<br><br>また各種の伝染病なども、健康上必要な浄化作用という事を知るから、むしろ喜ぶくらいである。<br><br>赤痢も、疫痢も、チフスも、脳炎も、ジフテリヤも、天然痘も、麻疹（はしか）も、何ら手当を加えない内なら数日間で、必ず全治するのである。<br><br> 持に言いたい事は、感冒を歓迎するというと現代人は驚くであろうが、吾々からいえば、感冒は体内の清浄作用だから罹る程浄血者となり、健康が増すからである。<br><br>従って、近来結核始め、種々の病気の多いという事も、その主なる原因は感冒を恐れ、感冒に罹らないようにするのが原因である。<br><br>だから我療法を知ったなら、病気は浄化作用であるから結構という事も判り、必ず治るに決っているという事も判るのである。<br><br>もちろん黴菌なども問題ではなくなる。<br><br>ヤレ消毒、ヤレ含嗽（うがい）、手を洗えなどという面倒臭い事は、一切必要がないから、生活は実に気安くなる。<br><br>このように大なる幸福と安心感は、到底筆舌では表わせない。<br><br>ところがこのような有難い話をしても、病気に対しビクビクしている現代人には想像すらつかず、全く別世界の話を聞くような感がするであろう。<br><br> しかも、これ程の驚異的新療法を聞いても見ても、現代人特に智識人などには、ほとんど通じないらしい。<br><br>素通りして頭の中に止まらないのであろう。<br><br>吾らから見れば実に解するに苦しむが、つまり宗教なるがゆえと思うより考えようがないのである。<br><br> ところが、犬の心臓を人間に移植が出来たとか、死人の眼玉をクリ抜いて、その網膜を生きた人間に移植すると、盲者が見えるようになったとか、ヤレこういう新薬を発見したとか、こういう療法が成功したとか言って、時々新聞にデカデカと発表するが、吾々から言えば、まるで子供が何か出来だといって喜んでいるようなものとしか思われない。<br><br>こういう事をいうと、自観という奴、また例の脱線的大言壮語と思うかも知れないどころか、反って逆に吾々の頭脳を疑うかも知れないが、それ程彼らの頭脳は、既成文化の虜（とりこ）となり、化石となり切っているのであろう。<br><br>何よりも吾々の言いたいのは、果して脱線か、気狂か、法螺（ほら）かを充分検討して貰いたいのである。<br><br>否、そういう意欲が彼らに起らなければならないと思うが、今日までそういう事はない。<br><br>もちろん吾らの方はいつでも、心から納得のゆくまで実証を、いくらでもお目にかけるつもりである。<br><br>ところが彼らはいつまでも沈黙してそういう態度に出ないのは、全く宗教なるがゆえであろう。<br><br> 今一つ言いたい事は、我新医術の論文中から、一項目を抜いただけでも、ノーベル賞くらいの価値は、充分ありと信ずるし、またもし、全部の理論と実証とを知ったなら、ノーベル賞どころか審査員は驚嘆して、判定を下す事は不可能であろう。<br><br>何となれば、暗夜（やみよ）に電灯を有難がっていた人達に、夜が明けて太陽の光りに合うようなものだからである。<br><br>従って、これほどの大発見としたら、人類破滅の力をもつ原子爆弾とは反対に、人類甦生（そせい）の力をもつ原子爆弾といっても過言ではなかろう。<br><br>しかしながら恐らくこの文をみても、まだ仲々心を動かすまい、相変らず智識人の大部分は眼を外（そら）し、関心を持たないであろう。<br><br>言うまでもなく宗教なるがゆえである。<br><br> 噫々（ああ）、余りに偉大な発見であるがため反って、啓蒙の至難なる事を痛感するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Por se tratar de uma Religião</h2>
 <p>Há algo que sempre me causa profunda admiração: o método terapêutico por mim concebido permite a cura de qualquer enfermidade, com notável eficácia. Ainda que me seja difícil tecer tal comentário sobre minha própria obra, trata-se provavelmente da mais esplêndida arte de curar que já existiu na história da humanidade. Digo isso porque, por meio dela, é possível não apenas salvar pacientes desenganados pelos médicos, mas também transformar o ser humano em alguém que desfrutará de uma vida inteiramente livre de doenças, de modo que preservar uma longevidade superior a cem anos não se afigura, de modo algum, impossível. Mesmo a tuberculose, hoje tão temida, pode ser completamente curada em dez de cada dez pessoas, desde que o organismo não esteja excessivamente saturado de medicamentos. Assim, não há a menor necessidade de temer o bacilo da tuberculose, pois, mesmo que ocorra a infecção, a cura é alcançada sem dificuldade. Da mesma forma, ao compreendermos que as diversas doenças contagiosas são, na verdade, processos de purificação necessários à saúde, passamos a recebê-las quase com alegria. Disenteria, disenteria infantil, febre tifoide, encefalite, difteria, varíola ou sarampo, todas alcançam a cura completa em poucos dias, desde que não se submetam a nenhuma intervenção médica.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Por outro lado, os jornais periodicamente publicam, com grande alarde, notícias sobre o transplante do coração de um cão para um ser humano; sobre a retina extraída do olho de um cadáver que, ao ser transplantada para uma pessoa viva, devolve a visão a um cego; ou sobre a descoberta de um novo medicamento e o sucesso de determinada terapia. Para nós, tudo isso se assemelha à alegria de uma criança que celebra uma pequena façanha. Ao me expressar dessa forma, é provável que pensem que este, Jikan, recorre uma vez mais à sua conhecida magniloquência e desvario; poderão até mesmo duvidar da nossa sanidade. A razão para tal reside no fato de que suas mentes se tornaram cativas dos paradigmas culturais vigentes, completamente fossilizadas. O que mais desejamos é que investiguem a fundo se nossas palavras são delírio, loucura ou mera fanfarronice. Contudo, essa iniciativa jamais parte deles. De nossa parte, estamos sempre dispostos a apresentar, de bom grado, quantas provas forem necessárias até que alcancem uma compreensão plena e sincera. O fato de permanecerem em silêncio, sem jamais adotar tal postura, deve-se unicamente à natureza religiosa da nossa obra.</p>
 <p>Outro ponto que desejo salientar é a minha convicção de que um único tópico extraído dos meus ensaios sobre esta nova arte de curar já possui mérito mais do que suficiente para um Prêmio Nobel. Se, porventura, conhecessem a totalidade da teoria e de suas comprovações, o comitê julgador ficaria tão atônito que seria incapaz de emitir um veredito. Seria como para aqueles que, na escuridão da noite, se maravilhavam com a luz de uma lâmpada elétrica e, subitamente, se deparassem com o esplendor do sol ao raiar do dia. Portanto, não seria exagero afirmar que uma descoberta de tamanha magnitude, em contraponto à bomba atômica, que detém o poder de aniquilar a humanidade, representa uma espécie de “bomba atômica” com o poder de promover a sua ressurreição. Apesar disso, é provável que mesmo este texto não consiga comover os corações; a maioria dos intelectuais, como de costume, desviará o olhar e se manterá indiferente. A razão, desnecessário dizer, é por se tratar de uma religião.</p>
 <p>Ah, sinto dolorosamente que, precisamente por ser uma descoberta tão extraordinariamente grandiosa, sua difusão se torna uma tarefa das mais árduas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教なるが故に 『栄光』104号、昭和26(1951)年5月16日発行 私は、いつも不思議に思っている事だが、私が創成した病療法によれば、どんな病気でも実によく治る。<br/><br/>自分としてははなはだ言い難い話だが、恐らく人類史上かつてない素晴しい医術であろう。<br/><br/>何となればこの医術によって、医師が匙（さじ）を抛（な）げた病人も助かり、一生涯無病息災の人間となる事も出来、百歳以上の長寿を保つ事も、あえて不可能ではないからである。<br/><br/>また今最も恐れられている結核なども、薬を余り沢山身体へ入れない内なら、十人が十人全治させる事が出来るのであるから、結核菌など、いささかも恐れる必要はない。<br/><br/>なぜなれば、よしんば感染しても、雑作なく治るからである。<br/><br/>また各種の伝染病なども、健康上必要な浄化作用という事を知るから、むしろ喜ぶくらいである。<br/><br/>赤痢も、疫痢も、チフスも、脳炎も、ジフテリヤも、天然痘も、麻疹（はしか）も、何ら手当を加えない内なら数日間で、必ず全治するのである。<br/><br/> 持に言いたい事は、感冒を歓迎するというと現代人は驚くであろうが、吾々からいえば、感冒は体内の清浄作用だから罹る程浄血者となり、健康が増すからである。<br/><br/>従って、近来結核始め、種々の病気の多いという事も、その主なる原因は感冒を恐れ、感冒に罹らないようにするのが原因である。<br/><br/>だから我療法を知ったなら、病気は浄化作用であるから結構という事も判り、必ず治るに決っているという事も判るのである。<br/><br/>もちろん黴菌なども問題ではなくなる。<br/><br/>ヤレ消毒、ヤレ含嗽（うがい）、手を洗えなどという面倒臭い事は、一切必要がないから、生活は実に気安くなる。<br/><br/>このように大なる幸福と安心感は、到底筆舌では表わせない。<br/><br/>ところがこのような有難い話をしても、病気に対しビクビクしている現代人には想像すらつかず、全く別世界の話を聞くような感がするであろう。<br/><br/> しかも、これ程の驚異的新療法を聞いても見ても、現代人特に智識人などには、ほとんど通じないらしい。<br/><br/>素通りして頭の中に止まらないのであろう。<br/><br/>吾らから見れば実に解するに苦しむが、つまり宗教なるがゆえと思うより考えようがないのである。<br/><br/> ところが、犬の心臓を人間に移植が出来たとか、死人の眼玉をクリ抜いて、その網膜を生きた人間に移植すると、盲者が見えるようになったとか、ヤレこういう新薬を発見したとか、こういう療法が成功したとか言って、時々新聞にデカデカと発表するが、吾々から言えば、まるで子供が何か出来だといって喜んでいるようなものとしか思われない。<br/><br/>こういう事をいうと、自観という奴、また例の脱線的大言壮語と思うかも知れないどころか、反って逆に吾々の頭脳を疑うかも知れないが、それ程彼らの頭脳は、既成文化の虜（とりこ）となり、化石となり切っているのであろう。<br/><br/>何よりも吾々の言いたいのは、果して脱線か、気狂か、法螺（ほら）かを充分検討して貰いたいのである。<br/><br/>否、そういう意欲が彼らに起らなければならないと思うが、今日までそういう事はない。<br/><br/>もちろん吾らの方はいつでも、心から納得のゆくまで実証を、いくらでもお目にかけるつもりである。<br/><br/>ところが彼らはいつまでも沈黙してそういう態度に出ないのは、全く宗教なるがゆえであろう。<br/><br/> 今一つ言いたい事は、我新医術の論文中から、一項目を抜いただけでも、ノーベル賞くらいの価値は、充分ありと信ずるし、またもし、全部の理論と実証とを知ったなら、ノーベル賞どころか審査員は驚嘆して、判定を下す事は不可能であろう。<br/><br/>何となれば、暗夜（やみよ）に電灯を有難がっていた人達に、夜が明けて太陽の光りに合うようなものだからである。<br/><br/>従って、これほどの大発見としたら、人類破滅の力をもつ原子爆弾とは反対に、人類甦生（そせい）の力をもつ原子爆弾といっても過言ではなかろう。<br/><br/>しかしながら恐らくこの文をみても、まだ仲々心を動かすまい、相変らず智識人の大部分は眼を外（そら）し、関心を持たないであろう。<br/><br/>言うまでもなく宗教なるがゆえである。<br/><br/> 噫々（ああ）、余りに偉大な発見であるがため反って、啓蒙の至難なる事を痛感するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270924</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>s270924<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>秋季大祭御講話（S27年9月24日）<br>『御教え集』14号、昭和27(1952)年10月15日発行<br>昭和二十七年九月二十四日（２日目）<br>ちょうどお祭りに際して、報告するのに非常に良いことがありました。それは、今度京都にちょうど思ったような土地が手に入ることになったのです。今年の春に、京都の嵯峨――広沢の他のある所ですが――あそこに土地を見に行ったことがありました。その時分に気には入りましたが、高いことを言っているので、とても手が出せないので、まあ時期を待つよりしようがないと思って、神様がなんとかされるだろうと思っていましたが、最近割合に安く手に入ることになったのです。それについて神秘なことがあるのです。それは、嵯峨に釈迦堂がありますが――嵯峨のお釈迦様といって昔から有名なものです。これは今から四十年くらい前ですか、私が三十になるかならない時――二十七、八の時ですが、京都の人に連れられて京都見物に行って、そうして釈迦堂の天井に栖鳳（せいほう）が画いたばかりの龍の絵を見に行ったことがあるので、非常に印象に残っているのです。それが去年の春――一番最初京都に行った時に、釈迦堂にお参りして、それから帰りに法然院で講演する時でしたか、その時に自動車で左手に広沢の池があったのです。私はこの辺は良いなと思ったのですが、それから、どうしても京都に地上天国を造らなければならない、それにはあの辺が良いと思うので、聞いてみると、あの辺が一番京都的感じが出ているのです。手に入れるならあの辺だと思っていたところが、ちょうど今年の春、京都へ行く前に、あの辺に売りものがある、見てくれというので見たわけです。ちょうど一年目です。そんなような具合で――坪数は一万八千坪あるのです。私はもっと大きい、三万坪以上のを注文したのです。しかしいずれまだ拡がるわけですから、それ以上にはなりましょう。<br>ところがそこでおもしろいのは、釈迦堂と法然院の間になっているのです。法然院というのは、法然上人のいた寺なので法然院というのですが、あそこに大きな立派な阿弥陀さんがある。国宝ですから実に良くできてます。この種の彫刻としては最高かもしれません。大体阿弥陀さんの教え――南無阿弥陀仏を一番弘めたのは法然上人ですから、法然上人が南無阿弥陀仏――六字の称名を弘め出したのです。その弟子の親鸞上人が大いに活動して教えを説かれた。それから六代目の蓮如上人に至って全国的に方々に寺を作った。ですから真宗の根本は法然上人です。だからして法然院が阿弥陀さんの中心です。で、釈迦と阿弥陀さんの真ん中が観音さんになるわけです。で、観音さんは真ん中で右がお釈迦さんで左が阿弥陀さんです。で、阿弥陀さんが男でお釈迦さんは女になるのです。で、今度の土地がちょうどそういう形になるのです。それで京都は仏界の型なのですから、観音、阿弥陀、釈迦と、この仏界の中心がつまり嵯峨になるわけです。「サガ」という言霊も、やっぱり釈迦ということです。ですから仏界が開けるという始まりになるわけです。で、仏界が開けるということは、つまり仏滅になるのです。ですから京都にあれができますと、そういった仏教的のいろいろな変化があるでしょう。それでこれを大きく言いますと、箱根が「五」です。これは山で火ですから五です。で、熱海は「六」です。これは、山も低くて海があるからです。それから京都は「七」になるから土です。で、こういうことになるのです。五は神様です――まあ神界になるわけです。それから六が物質界になるのです。要するに科学文化です。ですから今までの世界は六の世界になるのです。つまり水の世界です。それから七が仏界です。そういうふうに考えても良いのです。ですから京都はどこまでも七で、七というのは「地」で、平らな所でなければならない。ですから京都という所はそういう意味になってます。ですからこれで京都に地上天国ができると、箱根、熱海、京都で五、六、七になって、つまり三位一体でミロクの形になるわけです。ですから時期に応じて神様の方はちゃんとご計画通りキチキチと行っているわけです。そんなわけでおもしろいのは、そのために来月行く予定ではなかったのですが、京都美術館が今まで接収されていたのが解除になったために、記念として浮世絵展覧会をやろうというので、私の所に画を借りに来たのです。東京の国立博物館と京都新聞――そこの編集長かなにかが浮世絵を借りに来たので、四、五点貸すことになりましたが、そうするとぜひ行ってみたくなって行くことに決めたのです。すると意外にも、いよいよ土地がこっちの手に入ったから一日も早く見たいですから――。そういうところなんかは神様はなかなか気が利いています。で、名前は、そこの土地は「平安郷」と名づけました。京都は昔から平安の都といって、大体平安朝時代に一番開けたのです。それと、どうしても「平」という字が入らなければおもしろくないのです。七ですから、どこまでも平らでなければいけない。それですから平安郷という、これが一番適当しているのです。またそこにそうとうな家があるので「春秋庵」という名前をつけました。春秋――つまり箱根、熱海が夏と冬、あっちに行けば春と秋ですから、そこで春秋庵とつけたのです。ですから気候も、春夏秋冬がこれで揃ったわけです。で、今度はそこの庭にしろ建物にしろ純日本的なものを造るつもりです。西洋臭いものは抜きにしてやります。熱海の方は純西洋式にやろうと思っています。熱海は日本臭いものは抜きにする。今も言った通り、六は物質文化ですから、西洋の文明だから、熱海はどうしても西洋風にするのが合っているわけです。それで箱根は両方の中心になるわけです。ここは一番の元になるのです。ですからさっき詠んだ大祭の歌にもあるでしょう。ここ（箱根）が東西文化の要だということがあるでしょう。ここは両方を採り入れてあるのです。それで熱海は、今度の会館にしろ展望台にしろ美術館にしろ、全部西洋風です。<br>京都はそういうわけで全部日本式でやるのですが、しかし京都は実に日本のあらゆる文化が揃っているように見えますが、私から言うと、本当の日本の良さは部分的にバラバラになっていて、総合されたものは一つもないのです。というのは、古い奈良朝時代の美術というと、宗教美術――仏教美術です。ですから特殊なものであって、一般人が楽しむということにはならないわけです。その時代のメッカだったのですから、宗教的に拝むという意味が中心です。その後、藤原時代の平安文化にしろ、これは貴族文化で非常に上品で良いですが、これは一般人が楽しむという、そういったような美術はなかったのです。それからその後、鎌倉時代には鎌倉の方が文化が発展しました。それで足利になって仏教文化と平安朝文化を両方総合したような形式ができた。これが東山文化です。そこに支那文化の影響を多分に受けて、金閣寺とか銀閣寺とか、いろいろな建物ができました。金閣寺、銀閣寺にはそれが良く現われてます。大体形式は支那です。それに対して奈良朝から弘仁にかけての仏教――そういったような形式と、それから藤原期の貴族的の御殿風のそういうものを採り入れて、それをよく総合された感じが出ているのです。それから絵なんかも足利時代に、東山水墨といって、支那から生まれたのです。支那の絵を学んで、そうして狩野派なんていう日本画ができたのですが、そんなような具合で一般的の、つまり庶民が楽しめるという美術はなかったのです。そこで桃山期に入って、秀吉がああいう偉い人で、それで桃山芸術が生まれたわけです。しかし桃山芸術といったところで、ただ豪華で立派なものというのが作られたのです。そのうちの代表的なものは二条城でしょう。二条城は非常に立派ではあるが、大体本当にできあがったのは二代将軍の時です。立派ですが、あのくらい金をかけた割に効果が――品格がないのです。ただ田舎のという――。それから本願寺の、太閤殿下がいろいろ会議に使ったとかいう、それも立派ですが、金ピカで極彩色の絵を画いただけで、品位というものがないのです。露骨に言えば下品な所があります。その部屋に入って、おちつきとか奥床しさとか、そういったものが少しもないのです。桃山時代のそういった絢爛たる文化の中に、もう一つはそれと逆の茶の趣味が生まれたのです。これはたいした功績です。利休というたいへんな傑出した人が、秀吉の援助によって茶道というものを作って、華美なものと逆に侘（わび）のものを作ったのです。これは結構ですが、極端から極端のそういった文化です。それからその後元禄に至って――それまではすべて将軍やその当時の主権者が楽しむためにできた美術、文化が、初めて庶民的になってきたのです。当時の金持ち――そういう人たちが楽しむために、ああいった琳派の絵だとか、あるいは浮世絵、それから織物――西陣織などが、非常に発達したのです。蒔絵なんかもここの美術館にありますが、あれはたいてい元禄前後が多いです。ところが元禄ごろは、庭園と建築は人民にはできなかったのです。庶民にはできなかった。なにしろ織物なんかも少し立派な物を作ったために、贅沢すぎるというので蟄居になったり島流しになったのですから、わずかにそういった調度、織物、装身具――そんな物に贅沢な物ができただけで、あと建築や庭園は相変わらず当時の主権者、大名――それが占有していたものです。だからその当時の建築といえば豪華な――あれはやっぱり寺院建築から出た物ですが、太い柱を使って、何十畳何百畳という広い部屋を作って、決まりきった――床の間とか違い棚を作って、少しも進歩というのがない。去年も本願寺を見ましたが、代表的といえば本願寺式の建物です。それで庭園といえば、決まりきって真ん中に大きな池をとって、両側に石と木を配したという、どこまでも決まりきったものです。まことに進歩がなかったのです。そんなわけで、今度私は、今の平安郷は日本の庭園と建築を、今までのいろいろな部分的の良い所を採り入れて、総合的に一つの本当の日本の美術の感覚を出したようなものを作ろうと思ってます。で、京都にはそういうものがありそうでいて、良くみるとないのです。部分的のものしかないのです。それは、いろんな――政治その他のものの変化が多過ぎたために、おちついた太平の時代というのは少なかった。ようやく徳川時代になってから太平が続いたのですが、それまではおちついた時代がなかったのでできなかったのですが、そんなわけで今度は日本美術の新しい感覚を出そうと思ってます。ですから美術館もいずれ造りますが、箱根、熱海の美術館とはぜんぜん異ったものを造ろうと思っています。それにはいろんな計画がありますが、今はまだ発表するのは早過ぎるので、いずれ追々発表していきます。<br>現在ちょっと不思議に思われるのは、新宗教がいろいろできましたが、なんといってもさかんなのは、大本教系統――これはメシヤ教と生長の家です。それから近ごろ三五（あなない）教というのができて、これもなかなかやってます。あとは日蓮宗の一派の活動はたいしたものです。立正佼成会なんかもなかなかさかんなものです。日蓮宗の中の特に霊友会から分かれたのが、みんなさかんなのです。この間立正佼成会で、江ノ島に竜口寺というお寺がありますが、竜の口と書いた――竜口寺に記念参拝に行きましたが、今年は日蓮宗の開教七百年祭です。で、たいへんな参拝者ですが、立正佼成会がこの間信者が三万二千人行ったのです。竜口寺が始まって以来初めてだとか言ってます。バスが五十何台とかだそうです。なにしろ日蓮宗の一派というのがたいへんな活躍をしている。これがたいへんな意味がある。今日蓮宗の一派で活躍している主なものを書いてきたのです。<br>日蓮宗、法華宗、中山妙宗、本化妙宗連盟、本門仏立宗、顕本法華宗、国柱会、霊友会教団、思親会、立正佼成会、久遠妙宗、大日本獅子吼会、仏子道場、霊山会、妙智会、仏所護念会、本門法華宗、立正観光協会、唱和本宗、浄風会、本門経王宗、孝道教団、観音閣教団、立正安国会、その他。<br>主なものだけでこうなのですが、まだいろいろあるようですが、なぜこんなに日蓮宗が活躍しているかと言いますと、こういうわけなのです。法華経二十八品のうち二十五番目が観音普門品ですが、大体日蓮宗というのは、私の著書に書いてある通り、つまり法華といって、法の華を咲かせて実を生らせるというために生まれたものなのです。そこでいわば観音を生むためです。ですからこういうことも言えるのです。釈迦、阿弥陀というのは、観音さんに対して親になるわけです。父と母によって、つまり観音という子を生むのです。そうしてミロクの世というのは、一名実相世界です。「実」というのは、実という字です。ですから今までは、観音さんという実が生まれるまでは、仮の娑婆といって仮だったのです。そこでつまりお釈迦さんの時代に観音さんを生んだのですが、これは仏教的だったのです。ところが今度は最後の現界に世界的に観音さんが生まれなければならない。それには法の華――法華経を大いに弘めて、パッと華を咲かせなければならないということで、今パッと華が咲いている形なのです。ですからやがて――これはここだけでしか言えませんが――散るのです。それから観音さんが生まれる。そういう形をとりますから見ていれば分かります。そうすると仏界に生まれるのですから、まずメシヤ教はこれから――仏界といえば、日本ですから――大いに日本中に発展するというわけです。で、もう一つは日蓮宗というのは、仏教のうちで――仏教は全部月の教えだったのです。寂光の浄土というのは月です。南無阿弥陀仏というのも月です。それが今から七百年前に日蓮上人が生まれたということは、初めて仏界に日が生まれたわけです。ですからその時に霊界のごく奥の方では黎明になったわけです。で、メシヤ教は昼間の世界を作る、あるいは昼の文化を造るということで、メシヤ教が初めて昼間の宗教です。ところが仏教の方でも、日蓮宗が初めて日が出たのですから、つまりあれは昼の仏教です。で、仏教全体としては、夜の宗教ですから月の教えですが、その月のうちの日が出たのです。日蓮宗が今非常に活躍しているというのは、そういう意味からも言えるのです。<br>それについてもう一つおもしろいのは、これは昨日の新聞に出てました。『読売』か『朝日』か『毎日』に出てました。新聞に良く書いてありましたが、英国が非常におとろえてきたのです。英国が、財政からあらゆる点において、びっくりするほどおとろえてきたのです。むしろ日本よりか悪いようです。ですから英国をなんとかしなければならない。他の世界の各国まで非常に影響すると書いてありましたが、これはあたりまえなのです。なんとなれば英国はいつも言う通り月ですから、月がだんだん西の海に沈むからして月の光というものはなくなって、そこで英国がそういうふうになるに従って、米国が世界的に非常に目立ってきたということは、月が蔭に隠れると、夜の世界では星しか見えません。そこで今度は星の世界になるわけです。今米国が世界に覇をなしているのはそういうわけです。今度は日が出てくると、日本文化がどうしても世界的になる。そこで「星」という字は、「日を生む」と書くのです。で、米国が日本を援助して――これは徳川末期からそうですが、とにかく日本を援助して、世界に出したのが米国ですから、今度もまた米国が日本を大いに援助して、だんだん昔の一等国のように復活するように米国がしてます。日本も最近はだんだん良くなってきつつありますが、そういう大きな意味なのです。ですから、どうしても昼間の世界になるという、そういう形が世界的に――静かに見ればちゃんと良く分かるのです。では、今日はこれくらいにしておきましょう。大勢だから浄霊も少し時間をかけてやります。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Palestra do Culto de Outono (24 de setembro de 1952)</h2>
 <p>Aproximando-se este Grande Culto, tenho uma excelente notícia a compartilhar: conseguimos adquirir em Quioto um terreno exatamente como o que havíamos idealizado. Na primavera deste ano, cheguei a visitar um local em Saga, Quioto — em um ponto distinto de Hirosawa. Naquela ocasião, o lugar me agradou, mas o preço era tão elevado que a aquisição se mostrava inviável. Pensei que não haveria outra solução senão aguardar o momento oportuno, confiando que Deus, de alguma forma, providenciaria o necessário. Recentemente, contudo, a oportunidade surgiu, e o terreno pôde ser adquirido por um valor bastante razoável. Há, nesse desfecho, um profundo mistério.</p>
@@ -112,5 +462,48 @@ function toggleLang(lang) {
 <p>A esse respeito, há outro fato interessante que li no jornal de ontem — no <em>Yomiuri</em>, no <em>Asahi</em> ou no <em>Mainichi</em>. A notícia, bem detalhada, falava sobre o acentuado declínio da Grã-Bretanha. Em todos os aspectos, desde as finanças, o país enfraqueceu de forma alarmante, talvez até mais que o Japão. O artigo dizia que algo precisa ser feito, pois isso afetará gravemente as outras nações. Para nós, isso é natural. Como sempre digo, a Grã-Bretanha representa a Lua. À medida que a Lua se põe no mar a oeste, sua luz desaparece. Conforme a Grã-Bretanha declina, os Estados Unidos ganham proeminência mundial. Isso porque, quando a Lua se oculta, no mundo da noite, apenas as estrelas são visíveis. O mundo passa a ser, então, o mundo da estrela. É por isso que os Estados Unidos hoje dominam o cenário mundial.</p>
 <p>Quando o Sol nascer, a cultura japonesa inevitavelmente se tornará mundial. E o ideograma para "estrela" (星) é composto pelos caracteres de "Sol" (日) e "nascer" (生). São os Estados Unidos que, desde o final do Período Tokugawa, têm ajudado o Japão a se projetar no mundo. E, novamente, são os Estados Unidos que hoje auxiliam o Japão a se reerguer e a recuperar sua posição de nação de primeira grandeza. Recentemente, o Japão tem melhorado gradualmente, e isso se insere nesse grande plano. A transição para o Mundo do Dia está se manifestando de forma clara em escala global. Se observarmos com serenidade, podemos compreender perfeitamente.</p>
 <p>Por hoje, encerraremos aqui. Como somos muitos, dedicarei um pouco mais de tempo ao Johrei.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>s270924<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>秋季大祭御講話（S27年9月24日）<br/>『御教え集』14号、昭和27(1952)年10月15日発行<br/>昭和二十七年九月二十四日（２日目）<br/>ちょうどお祭りに際して、報告するのに非常に良いことがありました。それは、今度京都にちょうど思ったような土地が手に入ることになったのです。今年の春に、京都の嵯峨――広沢の他のある所ですが――あそこに土地を見に行ったことがありました。その時分に気には入りましたが、高いことを言っているので、とても手が出せないので、まあ時期を待つよりしようがないと思って、神様がなんとかされるだろうと思っていましたが、最近割合に安く手に入ることになったのです。それについて神秘なことがあるのです。それは、嵯峨に釈迦堂がありますが――嵯峨のお釈迦様といって昔から有名なものです。これは今から四十年くらい前ですか、私が三十になるかならない時――二十七、八の時ですが、京都の人に連れられて京都見物に行って、そうして釈迦堂の天井に栖鳳（せいほう）が画いたばかりの龍の絵を見に行ったことがあるので、非常に印象に残っているのです。それが去年の春――一番最初京都に行った時に、釈迦堂にお参りして、それから帰りに法然院で講演する時でしたか、その時に自動車で左手に広沢の池があったのです。私はこの辺は良いなと思ったのですが、それから、どうしても京都に地上天国を造らなければならない、それにはあの辺が良いと思うので、聞いてみると、あの辺が一番京都的感じが出ているのです。手に入れるならあの辺だと思っていたところが、ちょうど今年の春、京都へ行く前に、あの辺に売りものがある、見てくれというので見たわけです。ちょうど一年目です。そんなような具合で――坪数は一万八千坪あるのです。私はもっと大きい、三万坪以上のを注文したのです。しかしいずれまだ拡がるわけですから、それ以上にはなりましょう。<br/>ところがそこでおもしろいのは、釈迦堂と法然院の間になっているのです。法然院というのは、法然上人のいた寺なので法然院というのですが、あそこに大きな立派な阿弥陀さんがある。国宝ですから実に良くできてます。この種の彫刻としては最高かもしれません。大体阿弥陀さんの教え――南無阿弥陀仏を一番弘めたのは法然上人ですから、法然上人が南無阿弥陀仏――六字の称名を弘め出したのです。その弟子の親鸞上人が大いに活動して教えを説かれた。それから六代目の蓮如上人に至って全国的に方々に寺を作った。ですから真宗の根本は法然上人です。だからして法然院が阿弥陀さんの中心です。で、釈迦と阿弥陀さんの真ん中が観音さんになるわけです。で、観音さんは真ん中で右がお釈迦さんで左が阿弥陀さんです。で、阿弥陀さんが男でお釈迦さんは女になるのです。で、今度の土地がちょうどそういう形になるのです。それで京都は仏界の型なのですから、観音、阿弥陀、釈迦と、この仏界の中心がつまり嵯峨になるわけです。「サガ」という言霊も、やっぱり釈迦ということです。ですから仏界が開けるという始まりになるわけです。で、仏界が開けるということは、つまり仏滅になるのです。ですから京都にあれができますと、そういった仏教的のいろいろな変化があるでしょう。それでこれを大きく言いますと、箱根が「五」です。これは山で火ですから五です。で、熱海は「六」です。これは、山も低くて海があるからです。それから京都は「七」になるから土です。で、こういうことになるのです。五は神様です――まあ神界になるわけです。それから六が物質界になるのです。要するに科学文化です。ですから今までの世界は六の世界になるのです。つまり水の世界です。それから七が仏界です。そういうふうに考えても良いのです。ですから京都はどこまでも七で、七というのは「地」で、平らな所でなければならない。ですから京都という所はそういう意味になってます。ですからこれで京都に地上天国ができると、箱根、熱海、京都で五、六、七になって、つまり三位一体でミロクの形になるわけです。ですから時期に応じて神様の方はちゃんとご計画通りキチキチと行っているわけです。そんなわけでおもしろいのは、そのために来月行く予定ではなかったのですが、京都美術館が今まで接収されていたのが解除になったために、記念として浮世絵展覧会をやろうというので、私の所に画を借りに来たのです。東京の国立博物館と京都新聞――そこの編集長かなにかが浮世絵を借りに来たので、四、五点貸すことになりましたが、そうするとぜひ行ってみたくなって行くことに決めたのです。すると意外にも、いよいよ土地がこっちの手に入ったから一日も早く見たいですから――。そういうところなんかは神様はなかなか気が利いています。で、名前は、そこの土地は「平安郷」と名づけました。京都は昔から平安の都といって、大体平安朝時代に一番開けたのです。それと、どうしても「平」という字が入らなければおもしろくないのです。七ですから、どこまでも平らでなければいけない。それですから平安郷という、これが一番適当しているのです。またそこにそうとうな家があるので「春秋庵」という名前をつけました。春秋――つまり箱根、熱海が夏と冬、あっちに行けば春と秋ですから、そこで春秋庵とつけたのです。ですから気候も、春夏秋冬がこれで揃ったわけです。で、今度はそこの庭にしろ建物にしろ純日本的なものを造るつもりです。西洋臭いものは抜きにしてやります。熱海の方は純西洋式にやろうと思っています。熱海は日本臭いものは抜きにする。今も言った通り、六は物質文化ですから、西洋の文明だから、熱海はどうしても西洋風にするのが合っているわけです。それで箱根は両方の中心になるわけです。ここは一番の元になるのです。ですからさっき詠んだ大祭の歌にもあるでしょう。ここ（箱根）が東西文化の要だということがあるでしょう。ここは両方を採り入れてあるのです。それで熱海は、今度の会館にしろ展望台にしろ美術館にしろ、全部西洋風です。<br/>京都はそういうわけで全部日本式でやるのですが、しかし京都は実に日本のあらゆる文化が揃っているように見えますが、私から言うと、本当の日本の良さは部分的にバラバラになっていて、総合されたものは一つもないのです。というのは、古い奈良朝時代の美術というと、宗教美術――仏教美術です。ですから特殊なものであって、一般人が楽しむということにはならないわけです。その時代のメッカだったのですから、宗教的に拝むという意味が中心です。その後、藤原時代の平安文化にしろ、これは貴族文化で非常に上品で良いですが、これは一般人が楽しむという、そういったような美術はなかったのです。それからその後、鎌倉時代には鎌倉の方が文化が発展しました。それで足利になって仏教文化と平安朝文化を両方総合したような形式ができた。これが東山文化です。そこに支那文化の影響を多分に受けて、金閣寺とか銀閣寺とか、いろいろな建物ができました。金閣寺、銀閣寺にはそれが良く現われてます。大体形式は支那です。それに対して奈良朝から弘仁にかけての仏教――そういったような形式と、それから藤原期の貴族的の御殿風のそういうものを採り入れて、それをよく総合された感じが出ているのです。それから絵なんかも足利時代に、東山水墨といって、支那から生まれたのです。支那の絵を学んで、そうして狩野派なんていう日本画ができたのですが、そんなような具合で一般的の、つまり庶民が楽しめるという美術はなかったのです。そこで桃山期に入って、秀吉がああいう偉い人で、それで桃山芸術が生まれたわけです。しかし桃山芸術といったところで、ただ豪華で立派なものというのが作られたのです。そのうちの代表的なものは二条城でしょう。二条城は非常に立派ではあるが、大体本当にできあがったのは二代将軍の時です。立派ですが、あのくらい金をかけた割に効果が――品格がないのです。ただ田舎のという――。それから本願寺の、太閤殿下がいろいろ会議に使ったとかいう、それも立派ですが、金ピカで極彩色の絵を画いただけで、品位というものがないのです。露骨に言えば下品な所があります。その部屋に入って、おちつきとか奥床しさとか、そういったものが少しもないのです。桃山時代のそういった絢爛たる文化の中に、もう一つはそれと逆の茶の趣味が生まれたのです。これはたいした功績です。利休というたいへんな傑出した人が、秀吉の援助によって茶道というものを作って、華美なものと逆に侘（わび）のものを作ったのです。これは結構ですが、極端から極端のそういった文化です。それからその後元禄に至って――それまではすべて将軍やその当時の主権者が楽しむためにできた美術、文化が、初めて庶民的になってきたのです。当時の金持ち――そういう人たちが楽しむために、ああいった琳派の絵だとか、あるいは浮世絵、それから織物――西陣織などが、非常に発達したのです。蒔絵なんかもここの美術館にありますが、あれはたいてい元禄前後が多いです。ところが元禄ごろは、庭園と建築は人民にはできなかったのです。庶民にはできなかった。なにしろ織物なんかも少し立派な物を作ったために、贅沢すぎるというので蟄居になったり島流しになったのですから、わずかにそういった調度、織物、装身具――そんな物に贅沢な物ができただけで、あと建築や庭園は相変わらず当時の主権者、大名――それが占有していたものです。だからその当時の建築といえば豪華な――あれはやっぱり寺院建築から出た物ですが、太い柱を使って、何十畳何百畳という広い部屋を作って、決まりきった――床の間とか違い棚を作って、少しも進歩というのがない。去年も本願寺を見ましたが、代表的といえば本願寺式の建物です。それで庭園といえば、決まりきって真ん中に大きな池をとって、両側に石と木を配したという、どこまでも決まりきったものです。まことに進歩がなかったのです。そんなわけで、今度私は、今の平安郷は日本の庭園と建築を、今までのいろいろな部分的の良い所を採り入れて、総合的に一つの本当の日本の美術の感覚を出したようなものを作ろうと思ってます。で、京都にはそういうものがありそうでいて、良くみるとないのです。部分的のものしかないのです。それは、いろんな――政治その他のものの変化が多過ぎたために、おちついた太平の時代というのは少なかった。ようやく徳川時代になってから太平が続いたのですが、それまではおちついた時代がなかったのでできなかったのですが、そんなわけで今度は日本美術の新しい感覚を出そうと思ってます。ですから美術館もいずれ造りますが、箱根、熱海の美術館とはぜんぜん異ったものを造ろうと思っています。それにはいろんな計画がありますが、今はまだ発表するのは早過ぎるので、いずれ追々発表していきます。<br/>現在ちょっと不思議に思われるのは、新宗教がいろいろできましたが、なんといってもさかんなのは、大本教系統――これはメシヤ教と生長の家です。それから近ごろ三五（あなない）教というのができて、これもなかなかやってます。あとは日蓮宗の一派の活動はたいしたものです。立正佼成会なんかもなかなかさかんなものです。日蓮宗の中の特に霊友会から分かれたのが、みんなさかんなのです。この間立正佼成会で、江ノ島に竜口寺というお寺がありますが、竜の口と書いた――竜口寺に記念参拝に行きましたが、今年は日蓮宗の開教七百年祭です。で、たいへんな参拝者ですが、立正佼成会がこの間信者が三万二千人行ったのです。竜口寺が始まって以来初めてだとか言ってます。バスが五十何台とかだそうです。なにしろ日蓮宗の一派というのがたいへんな活躍をしている。これがたいへんな意味がある。今日蓮宗の一派で活躍している主なものを書いてきたのです。<br/>日蓮宗、法華宗、中山妙宗、本化妙宗連盟、本門仏立宗、顕本法華宗、国柱会、霊友会教団、思親会、立正佼成会、久遠妙宗、大日本獅子吼会、仏子道場、霊山会、妙智会、仏所護念会、本門法華宗、立正観光協会、唱和本宗、浄風会、本門経王宗、孝道教団、観音閣教団、立正安国会、その他。<br/>主なものだけでこうなのですが、まだいろいろあるようですが、なぜこんなに日蓮宗が活躍しているかと言いますと、こういうわけなのです。法華経二十八品のうち二十五番目が観音普門品ですが、大体日蓮宗というのは、私の著書に書いてある通り、つまり法華といって、法の華を咲かせて実を生らせるというために生まれたものなのです。そこでいわば観音を生むためです。ですからこういうことも言えるのです。釈迦、阿弥陀というのは、観音さんに対して親になるわけです。父と母によって、つまり観音という子を生むのです。そうしてミロクの世というのは、一名実相世界です。「実」というのは、実という字です。ですから今までは、観音さんという実が生まれるまでは、仮の娑婆といって仮だったのです。そこでつまりお釈迦さんの時代に観音さんを生んだのですが、これは仏教的だったのです。ところが今度は最後の現界に世界的に観音さんが生まれなければならない。それには法の華――法華経を大いに弘めて、パッと華を咲かせなければならないということで、今パッと華が咲いている形なのです。ですからやがて――これはここだけでしか言えませんが――散るのです。それから観音さんが生まれる。そういう形をとりますから見ていれば分かります。そうすると仏界に生まれるのですから、まずメシヤ教はこれから――仏界といえば、日本ですから――大いに日本中に発展するというわけです。で、もう一つは日蓮宗というのは、仏教のうちで――仏教は全部月の教えだったのです。寂光の浄土というのは月です。南無阿弥陀仏というのも月です。それが今から七百年前に日蓮上人が生まれたということは、初めて仏界に日が生まれたわけです。ですからその時に霊界のごく奥の方では黎明になったわけです。で、メシヤ教は昼間の世界を作る、あるいは昼の文化を造るということで、メシヤ教が初めて昼間の宗教です。ところが仏教の方でも、日蓮宗が初めて日が出たのですから、つまりあれは昼の仏教です。で、仏教全体としては、夜の宗教ですから月の教えですが、その月のうちの日が出たのです。日蓮宗が今非常に活躍しているというのは、そういう意味からも言えるのです。<br/>それについてもう一つおもしろいのは、これは昨日の新聞に出てました。『読売』か『朝日』か『毎日』に出てました。新聞に良く書いてありましたが、英国が非常におとろえてきたのです。英国が、財政からあらゆる点において、びっくりするほどおとろえてきたのです。むしろ日本よりか悪いようです。ですから英国をなんとかしなければならない。他の世界の各国まで非常に影響すると書いてありましたが、これはあたりまえなのです。なんとなれば英国はいつも言う通り月ですから、月がだんだん西の海に沈むからして月の光というものはなくなって、そこで英国がそういうふうになるに従って、米国が世界的に非常に目立ってきたということは、月が蔭に隠れると、夜の世界では星しか見えません。そこで今度は星の世界になるわけです。今米国が世界に覇をなしているのはそういうわけです。今度は日が出てくると、日本文化がどうしても世界的になる。そこで「星」という字は、「日を生む」と書くのです。で、米国が日本を援助して――これは徳川末期からそうですが、とにかく日本を援助して、世界に出したのが米国ですから、今度もまた米国が日本を大いに援助して、だんだん昔の一等国のように復活するように米国がしてます。日本も最近はだんだん良くなってきつつありますが、そういう大きな意味なのです。ですから、どうしても昼間の世界になるという、そういう形が世界的に――静かに見ればちゃんと良く分かるのです。では、今日はこれくらいにしておきましょう。大勢だから浄霊も少し時間をかけてやります。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

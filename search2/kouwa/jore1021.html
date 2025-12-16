@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jore1021</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （上） ２ 021-035 御守２ 021 被浄霊者の御守 御浄霊の場合、御浄霊を御受けする者は観音力を外して御浄霊を御受けすべきで御座いましょうか。<br><br>私が入信後間もなく妹の頭を御浄霊させて頂きましたところ、その部分から白い煙のような「カゲロウ」のようなものが上るのを見ました。<br><br>そして直ぐ妹の観音力を外させまして御浄霊致しましたところ、今度はそのような事は御座いませんでした。<br><br>御浄霊の場合、御浄霊を戴く者は観音力を外して御願いするのが本当で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 御守は掛けたままでよい。<br><br>（S24. 2.21） rattail（注） 〔 御光話（S25年 4月 3日） 『御光話録』19号、昭和25(1950)年6月13日発行〕 ――御浄霊をいただくときに御守り様をいただいたままでよろしいでしょうか。<br><br> 『御浄霊を受ける受けないに関係なく、御守り様を外しちゃいけませんよ。<br><br>御守りは湯に入るときだけ外して、あとは一分も外しちゃいけません。<br><br>』 〔 御光話（S23年 7月 8日） 『御光話録』発行年月日不明、推定昭和26年頃〕に掲載 ――弟子が先生を、またふつうの御守りの人が「大光明」の御守りの人を御浄めしてもよろしいでしょうか。<br><br> 『差し支えありません。<br><br>されるほうが霊的に変わってしまう。<br><br>御浄めするほうが御守護が上になるのです。<br><br>それからいかなる場合でも御守りを外してはいけませんよ。<br><br>』 022 被浄霊時の御守 浄霊を受ける場合、御守様を持っていてもよろしゅう御座居ましょうか。<br><br> 差支えない。<br><br>御守様を持っていた方がよい。<br><br> 023 御守と祖霊戒告 番やす（五十七歳）女、本年一月入信、家の都合にて御守様を先生宅に預かって頂きました。<br><br>その後本人は気管支炎にて大変苦しくなりましたが、この浄化は御守様を先生にお預けしました事に関係があるのでしょうか。<br><br>御教え下さい。<br><br> 大いに関係がある。<br><br>祖霊が気づかすためにやったのである。<br><br> 御守は決して放してはいけない。<br><br>（S24.11. 7） 024 水泳中の御守 子供が近くの海や川へ泳ぎに行きます場合、また、電車で遠くの海へ出掛けます場合、御守様はいかが致したらよろしゅう御座いましょうか。<br><br> 泳ぐ所のどこかへ掛けかえればよい。<br><br>家へ置くのはいけない。<br><br>電車事故等の頻繁な今は特にそうである。<br><br>（S24. 7.19） 025 出漁時の御守 漁師の信者、仕事の関係上濡れてはとの考えから御守様を戴かずに出漁致しますが、沖で御浄霊させて戴けません。<br><br>このような場合、いかが致しましたら宜しゅう御座居ますでしょうか。<br><br> これは間違っている。<br><br>油紙で蔽えばよい。<br><br>これはゴム引でもよい。<br><br>出漁の時こそ肝腎である。<br><br>（S24. 3. 4） 026 水泳の際の御守 水泳の時の御守はいかが致したらよろしいでしょうか。<br><br> 水泳に行く場所によるが、釘掛けのある場所ならお掛けする。<br><br>海など行く時は、家へ置いてお断りする。<br><br>人間が誠意を以て出来るだけの事をする。<br><br>（S24. 2.10） 027 御守紛失と心得、（御守は不消の火） 首にお掛けしていました御守様が時々無くなったと云う事を聞きますが、いかなる訳でしょうか。<br><br> これは不注意である。<br><br>そういう事はないとは言えぬが、御守が無くなるとか、汚すなどは置き所が徹底しないからである。<br><br>尊いと言う信念が薄いという関係もある。<br><br>良く反省して、お詫びして心を入替えるようにすべきである。<br><br>御守は火素の塊のようなもので、消えない火であるから水によって浸す事は出来ない。<br><br> 028 御守焼ける神意 昭和二十二年に入信致しました岩尾ナミエ（四十二歳）と云う信者で御座いますが、（日頃あまり熱心にやっておりません）先月外出先より帰って、御光を箪笥の横にちょっと掛けておきましたところ、風か鼠のために落ちました。<br><br>丁度その下に火鉢があって火が少々残っておりましたため、御光が焼けてしまいました。<br><br>改めて御光を受けさせて戴く考えで御座いますが、霊的に何か意味があるのでしょうか。<br><br>御伺い致します。<br><br> 大いに意味がある。<br><br>大変意味がある。<br><br>御光を箪笥の横へ掛ける想念は全然判っていない。<br><br>故に必要がない。<br><br>必要のないものを与える要はないというので神様が焼かれた。<br><br>御光を粗末にするとこういう事がよくある。<br><br>間違っている事をお詫びして再教修受けるか、その気持になれなければ信仰をやめるべきである。<br><br>中途半端ではいけない。<br><br>信仰するならそのような行動をとるべきである。<br><br>（S24. 8.28） 029 原因不明の御守のシミ 三十四歳の男子、七月十三日山桃を取るため木に登りました。<br><br>その際知らぬ間に二粒程ポケットに入り、遂に御光様に染の付いたのに気がつき吃驚しました。<br><br> 何か因縁があるので御座いますのでしょうか。<br><br>また、今後いかように致したら宜敷いでしょうか。<br><br>御伺い申し上げます。<br><br> （御守様の内側は汚れる筈がない）自分自身考えてみよ。<br><br>何かある。<br><br>こんな事はあるべき筈がない。<br><br>本人が考えよ。<br><br>考えて判ったらお詫びして戴き治せばよい。<br><br>（S24. 7.28） 030 御光を焼いた罪 昭和二十二年の暮娘が入信し、母親が理解出来ないで昨年九月に御光を焼きました。<br><br>その罪はいかなる罪になるでしょうか。<br><br>最近母親が入信致したいと改心しているのですが、いかが致したら宜しいでしょうか。<br><br>御教示御願い致します。<br><br> 改心すればそれでよい。<br><br>（全然罪は消えるのではないが、十分の一位になる）ズーッと罪が減る。<br><br>（S24. 9. 8） 031 御守濡れる、（シミの有無） 恐れ多い事ですが、夏は汗や夕立などで御光を濡らしてしまう事があります。<br><br>充分注意はしているつもりでも粗相してしまったような場合はいかにしたらよろしいので御座いましょうか。<br><br>また御光の力に変りはないものでしょうか。<br><br>謹んで御伺い申し上げます。<br><br> 濡れた場合開けてみて、紙へシミか汚れがつかねばいい。<br><br> 油紙か水の滲みぬ紙で包むといい。<br><br>シミの着いたのはいけない。<br><br>新しく理由を話して受ける。<br><br> 032 御守濡らす 私の妹が田植の際大雨にて御光を濡らしてしまいました。<br><br>臨時祭の時平良先生に調べて頂きましたら、染が入っておりましたので、大先生に御伺いしてみなさい、と言われましたが、いかに致しましたら宜敷いでしょうか。<br><br>御教示を御願い申し上げます。<br><br> 普段、油紙とかパラフィンのようなもので包んでおく。<br><br>一般へのそういう御注意である。<br><br>差支えないから包むとよい。<br><br>（S24. 8.28） 033 御守紛失 五歳の男の子がいつの間にか御光をなくして参りました。<br><br>本人に聞きましても知らないと申します。<br><br>誠に申し訳ない事を致しまして、深く御詫び申し上げます。<br><br>これは何かのお気付けで御座いましょうか。<br><br>御教授願います。<br><br> お気付けとは限らぬ。<br><br>外に理由のある事もある。<br><br>穿鑿は別として、お詫びして新規に戴く事である。<br><br>（S25. 4.17） 034 御光紛失（子供の場合） 先月左記第一項につき御伺い致しましたところ「余程大きな罪があるか、神様に対する何かの間違いがあるかも知れぬから今一度調べるように」との御指示で御座居ましたので、改めて御伺い申し上げます。<br><br> 一、中谷かつ子と申します熱心な教導師ですが、その夫は、昨秋十月肺病で死去し、お道に熱心だった元気な長女が本年一月発病し、八月死去し、その後、末の子供を二人他家にやるようになりましたところ、御光を二人ともどこかに紛失し、袋だけが戻って参りました。<br><br>右中谷家は、戦時中空襲で近所は殆ど助かりましたが、主人が一代で作りあげたその家と三軒だけが焼けました。<br><br> 二、以上の件に付き、因縁を御伺い致しました者でありますが、右につき調べましたところ、この家は神戸市にて、観音山と云う山の頂上にあり、西国を型どりまして、六百年前より麓より頂上にかけて、三十三相の観音様を石に刻み、お祭りし、常福寺という寺にて管理しております。<br><br>中谷家の宗旨は不明なので、夫人（中谷かつ子）の実家の宗旨（真宗）で夫と子供をお祭りしてあります。<br><br>また、空襲の際、爆弾落下のため弱った地盤がその後雨にてくずれ、下の天理教の教会が埋もれ、十七人生き埋めとなり、十二人が即死致しております。<br><br> 以上のような次第で御座居ます。<br><br>何卒よろしく御指示を御願い申し上げます。<br><br> 御守を紛失したのは変である。<br><br>子供なら仕方ない。<br><br>お咎めはない。<br><br>財産は怨みの財産で、これを潰さなければ救われぬ。<br><br>（S24. 9.15） 035 御守の余白を損す 腫物にはるために御霊紙と間違えて御守様の御神体の余白の処を少し破った人がありますが、どうしたらいいでしょうか。<br><br> お詫びすればよい。<br><br>（S24.11.18）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>021 O Ohikari daquele que recebe Johrei</h2>
 <p><strong>Pergunta:</strong> Ao receber Johrei, a pessoa deve retirar seu Ohikari? Pergunto pois, logo após ingressar na Fé, tive a permissão de ministrar Johrei na cabeça de minha irmã e, nesse momento, vi algo semelhante a uma fumaça branca, como uma bruma tremeluzente, elevar-se daquela região. Imediatamente, pedi que ela retirasse seu Ohikari e, ao ministrar Johrei novamente, tal fenômeno não ocorreu. Portanto, ao se submeter ao Johrei, é realmente correto que a pessoa o faça sem o seu Ohikari? Rogo por vosso Ensinamento.</p>
@@ -152,5 +304,48 @@ function toggleLang(lang) {
 <h2>035 Danificar a margem branca do Ohikari</h2>
 <p><strong>Pergunta:</strong> Uma pessoa, na intenção de aplicar uma folha de papel sagrado sobre um furúnculo, confundiu-se e rasgou um pequeno pedaço da margem branca do Papel Sagrado que fica dentro do Ohikari. O que ela deve fazer?</p>
 <p><strong>Meishu-Sama:</strong> Basta que ela peça perdão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （上） ２ 021-035 御守２ 021 被浄霊者の御守 御浄霊の場合、御浄霊を御受けする者は観音力を外して御浄霊を御受けすべきで御座いましょうか。<br/><br/>私が入信後間もなく妹の頭を御浄霊させて頂きましたところ、その部分から白い煙のような「カゲロウ」のようなものが上るのを見ました。<br/><br/>そして直ぐ妹の観音力を外させまして御浄霊致しましたところ、今度はそのような事は御座いませんでした。<br/><br/>御浄霊の場合、御浄霊を戴く者は観音力を外して御願いするのが本当で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 御守は掛けたままでよい。<br/><br/>（S24. 2.21） rattail（注） 〔 御光話（S25年 4月 3日） 『御光話録』19号、昭和25(1950)年6月13日発行〕 ――御浄霊をいただくときに御守り様をいただいたままでよろしいでしょうか。<br/><br/> 『御浄霊を受ける受けないに関係なく、御守り様を外しちゃいけませんよ。<br/><br/>御守りは湯に入るときだけ外して、あとは一分も外しちゃいけません。<br/><br/>』 〔 御光話（S23年 7月 8日） 『御光話録』発行年月日不明、推定昭和26年頃〕に掲載 ――弟子が先生を、またふつうの御守りの人が「大光明」の御守りの人を御浄めしてもよろしいでしょうか。<br/><br/> 『差し支えありません。<br/><br/>されるほうが霊的に変わってしまう。<br/><br/>御浄めするほうが御守護が上になるのです。<br/><br/>それからいかなる場合でも御守りを外してはいけませんよ。<br/><br/>』 022 被浄霊時の御守 浄霊を受ける場合、御守様を持っていてもよろしゅう御座居ましょうか。<br/><br/> 差支えない。<br/><br/>御守様を持っていた方がよい。<br/><br/> 023 御守と祖霊戒告 番やす（五十七歳）女、本年一月入信、家の都合にて御守様を先生宅に預かって頂きました。<br/><br/>その後本人は気管支炎にて大変苦しくなりましたが、この浄化は御守様を先生にお預けしました事に関係があるのでしょうか。<br/><br/>御教え下さい。<br/><br/> 大いに関係がある。<br/><br/>祖霊が気づかすためにやったのである。<br/><br/> 御守は決して放してはいけない。<br/><br/>（S24.11. 7） 024 水泳中の御守 子供が近くの海や川へ泳ぎに行きます場合、また、電車で遠くの海へ出掛けます場合、御守様はいかが致したらよろしゅう御座いましょうか。<br/><br/> 泳ぐ所のどこかへ掛けかえればよい。<br/><br/>家へ置くのはいけない。<br/><br/>電車事故等の頻繁な今は特にそうである。<br/><br/>（S24. 7.19） 025 出漁時の御守 漁師の信者、仕事の関係上濡れてはとの考えから御守様を戴かずに出漁致しますが、沖で御浄霊させて戴けません。<br/><br/>このような場合、いかが致しましたら宜しゅう御座居ますでしょうか。<br/><br/> これは間違っている。<br/><br/>油紙で蔽えばよい。<br/><br/>これはゴム引でもよい。<br/><br/>出漁の時こそ肝腎である。<br/><br/>（S24. 3. 4） 026 水泳の際の御守 水泳の時の御守はいかが致したらよろしいでしょうか。<br/><br/> 水泳に行く場所によるが、釘掛けのある場所ならお掛けする。<br/><br/>海など行く時は、家へ置いてお断りする。<br/><br/>人間が誠意を以て出来るだけの事をする。<br/><br/>（S24. 2.10） 027 御守紛失と心得、（御守は不消の火） 首にお掛けしていました御守様が時々無くなったと云う事を聞きますが、いかなる訳でしょうか。<br/><br/> これは不注意である。<br/><br/>そういう事はないとは言えぬが、御守が無くなるとか、汚すなどは置き所が徹底しないからである。<br/><br/>尊いと言う信念が薄いという関係もある。<br/><br/>良く反省して、お詫びして心を入替えるようにすべきである。<br/><br/>御守は火素の塊のようなもので、消えない火であるから水によって浸す事は出来ない。<br/><br/> 028 御守焼ける神意 昭和二十二年に入信致しました岩尾ナミエ（四十二歳）と云う信者で御座いますが、（日頃あまり熱心にやっておりません）先月外出先より帰って、御光を箪笥の横にちょっと掛けておきましたところ、風か鼠のために落ちました。<br/><br/>丁度その下に火鉢があって火が少々残っておりましたため、御光が焼けてしまいました。<br/><br/>改めて御光を受けさせて戴く考えで御座いますが、霊的に何か意味があるのでしょうか。<br/><br/>御伺い致します。<br/><br/> 大いに意味がある。<br/><br/>大変意味がある。<br/><br/>御光を箪笥の横へ掛ける想念は全然判っていない。<br/><br/>故に必要がない。<br/><br/>必要のないものを与える要はないというので神様が焼かれた。<br/><br/>御光を粗末にするとこういう事がよくある。<br/><br/>間違っている事をお詫びして再教修受けるか、その気持になれなければ信仰をやめるべきである。<br/><br/>中途半端ではいけない。<br/><br/>信仰するならそのような行動をとるべきである。<br/><br/>（S24. 8.28） 029 原因不明の御守のシミ 三十四歳の男子、七月十三日山桃を取るため木に登りました。<br/><br/>その際知らぬ間に二粒程ポケットに入り、遂に御光様に染の付いたのに気がつき吃驚しました。<br/><br/> 何か因縁があるので御座いますのでしょうか。<br/><br/>また、今後いかように致したら宜敷いでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> （御守様の内側は汚れる筈がない）自分自身考えてみよ。<br/><br/>何かある。<br/><br/>こんな事はあるべき筈がない。<br/><br/>本人が考えよ。<br/><br/>考えて判ったらお詫びして戴き治せばよい。<br/><br/>（S24. 7.28） 030 御光を焼いた罪 昭和二十二年の暮娘が入信し、母親が理解出来ないで昨年九月に御光を焼きました。<br/><br/>その罪はいかなる罪になるでしょうか。<br/><br/>最近母親が入信致したいと改心しているのですが、いかが致したら宜しいでしょうか。<br/><br/>御教示御願い致します。<br/><br/> 改心すればそれでよい。<br/><br/>（全然罪は消えるのではないが、十分の一位になる）ズーッと罪が減る。<br/><br/>（S24. 9. 8） 031 御守濡れる、（シミの有無） 恐れ多い事ですが、夏は汗や夕立などで御光を濡らしてしまう事があります。<br/><br/>充分注意はしているつもりでも粗相してしまったような場合はいかにしたらよろしいので御座いましょうか。<br/><br/>また御光の力に変りはないものでしょうか。<br/><br/>謹んで御伺い申し上げます。<br/><br/> 濡れた場合開けてみて、紙へシミか汚れがつかねばいい。<br/><br/> 油紙か水の滲みぬ紙で包むといい。<br/><br/>シミの着いたのはいけない。<br/><br/>新しく理由を話して受ける。<br/><br/> 032 御守濡らす 私の妹が田植の際大雨にて御光を濡らしてしまいました。<br/><br/>臨時祭の時平良先生に調べて頂きましたら、染が入っておりましたので、大先生に御伺いしてみなさい、と言われましたが、いかに致しましたら宜敷いでしょうか。<br/><br/>御教示を御願い申し上げます。<br/><br/> 普段、油紙とかパラフィンのようなもので包んでおく。<br/><br/>一般へのそういう御注意である。<br/><br/>差支えないから包むとよい。<br/><br/>（S24. 8.28） 033 御守紛失 五歳の男の子がいつの間にか御光をなくして参りました。<br/><br/>本人に聞きましても知らないと申します。<br/><br/>誠に申し訳ない事を致しまして、深く御詫び申し上げます。<br/><br/>これは何かのお気付けで御座いましょうか。<br/><br/>御教授願います。<br/><br/> お気付けとは限らぬ。<br/><br/>外に理由のある事もある。<br/><br/>穿鑿は別として、お詫びして新規に戴く事である。<br/><br/>（S25. 4.17） 034 御光紛失（子供の場合） 先月左記第一項につき御伺い致しましたところ「余程大きな罪があるか、神様に対する何かの間違いがあるかも知れぬから今一度調べるように」との御指示で御座居ましたので、改めて御伺い申し上げます。<br/><br/> 一、中谷かつ子と申します熱心な教導師ですが、その夫は、昨秋十月肺病で死去し、お道に熱心だった元気な長女が本年一月発病し、八月死去し、その後、末の子供を二人他家にやるようになりましたところ、御光を二人ともどこかに紛失し、袋だけが戻って参りました。<br/><br/>右中谷家は、戦時中空襲で近所は殆ど助かりましたが、主人が一代で作りあげたその家と三軒だけが焼けました。<br/><br/> 二、以上の件に付き、因縁を御伺い致しました者でありますが、右につき調べましたところ、この家は神戸市にて、観音山と云う山の頂上にあり、西国を型どりまして、六百年前より麓より頂上にかけて、三十三相の観音様を石に刻み、お祭りし、常福寺という寺にて管理しております。<br/><br/>中谷家の宗旨は不明なので、夫人（中谷かつ子）の実家の宗旨（真宗）で夫と子供をお祭りしてあります。<br/><br/>また、空襲の際、爆弾落下のため弱った地盤がその後雨にてくずれ、下の天理教の教会が埋もれ、十七人生き埋めとなり、十二人が即死致しております。<br/><br/> 以上のような次第で御座居ます。<br/><br/>何卒よろしく御指示を御願い申し上げます。<br/><br/> 御守を紛失したのは変である。<br/><br/>子供なら仕方ない。<br/><br/>お咎めはない。<br/><br/>財産は怨みの財産で、これを潰さなければ救われぬ。<br/><br/>（S24. 9.15） 035 御守の余白を損す 腫物にはるために御霊紙と間違えて御守様の御神体の余白の処を少し破った人がありますが、どうしたらいいでしょうか。<br/><br/> お詫びすればよい。<br/><br/>（S24.11.18）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

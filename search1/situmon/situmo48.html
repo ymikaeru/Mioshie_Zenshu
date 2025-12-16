@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo48</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』51号、昭和28(1953)年8月25日発行 （お伺） 弟春夫儀（二十九歳、二十三年十二月入信）。<br><br>入信当初は腰椎カリエスを固めた痕に浄化をいただき動けなくなりましたが、お蔭様にて楽にしていただき、仕事もできるようになりました。<br><br> 一昨年八月下旬に再浄化をいただき、リウマチのように痛みましたが、徐々に薄らぎ松葉杖に頼って歩行できるようにしていただきました。<br><br> 去年五月から右大腿部に膿が溜まり始め、歩行もできなくなりました。<br><br> 八月中旬には化膿し、多量の排膿がありましてより穴は順に増えて三カ所十穴くらいになり、今も出続けております。<br><br> ところが十二月ごろより膿の出が少なくなって疲労が酷くなり、起きてはおれなくなりました。<br><br>そのころより排尿量も少なくなり、二月上旬より腫れ始め、四月上旬には全身的に浮腫み、同月中旬にはもうだめかと思われるくらいでありましたが、御守護をいただきまして徐々によくなり、六月上旬には排尿量も増えて下痢もしばしばあるようになりました。<br><br> 当然死より他にないと思われますようなところをお救いいただきまして、ありがとうございました。<br><br>伏して御礼申し上げます。<br><br> なお現在はまだ寝たままでありまして、頭痛と目まいに悩んでおり、額の中心一寸くらいが白くなり（数日前より）、そこは特に熱が高く、そこを浄霊いたしますと頭の気持ちがよくなります。<br><br> また大小便は起き上がれませんゆえ、取っております。<br><br>食欲はふつうで衰弱はあまりいたしておりません。<br><br> 右様の状態はいかなる理由によるものでございましょうか、その原因ならびに浄霊箇所を御教え賜りたく、伏してお願い申し上げます。<br><br> （御垂示） このくらいの質問は中京教会の会長に聞けば分かる。<br><br> （お伺） 最近結婚いたしまして分家いたしましたので、新たに先祖の位牌をお祀りしたいと思いますが、私の家も妻の家も代々神道でございますが、やはり神道にてお祀りすべきでございましょうか、あるいは仏壇に黒塗りの位牌でよろしゅうございましょうか。<br><br>また黒塗りの位牌でお許しいただける場合、神道では、戒名をつけませんが、位牌に記す名前は、神道の仕来り通り、何々之命之霊位でよろしゅうございましょうか。<br><br> 右御垂示賜りたく、謹んでお伺い申し上げます。<br><br> （御垂示） 神道でお祀りすればいい、従って御屏風観音様はお祀りしなくてもよろしい。<br><br> （お伺） 二十六年九月、大黒様をお祀りさせていただきました。<br><br>過日はたきをかけておりますと、槌が落ちましたので初めて折れているのを発見いたしました。<br><br>まことに申し訳なく深くお詫び申し上げます。<br><br>今後いかがさせていただきましたらよろしゅうございましょうか。<br><br>謹んでお伺い申し上げます。<br><br> （御垂示） 元通りに直せばいい。<br><br> （お伺） 未信者藤沢フミ（三十四歳）の長女道子（十歳）は、出産時仮死状態にて産姿が人工呼吸や、振り動かして一時間ほどにてようやく息を始めたような状態でありまして、生後三年は病弱にて医薬に頼っておりましたが、手足が不自由にてとうとう歩行できないことが分かり、医科大学やらいろいろ方法をやりましたが、ついに治らず今日に及んだのでございます。<br><br> 医者は小児麻揮とも言い、また頭が悪く頭からくる麻痺だから治らないと言われたとのことでございます。<br><br> 手足は曲げることも物を持つこともできるのでございますが、立つことができず蛙のようなかっこうでいざり動くのでございます。<br><br> ただいまは三歳程度の頭脳で口もよくきけません。<br><br> 五月三十日から御浄霊をいただくようになりましてから立つこともできるようになり、ただいまでは物につかまり歩くようになり、腰も伸びるようにしていただく御守護をいただき、たいへん喜んでおります。<br><br> 右は霊的でございましょうか、また御浄霊の急所御教えくださいますようお願いいたします。<br><br> （御垂示） 短時日にそれだけ快くなれば、それでいいはずである。<br><br> （お伺） 謹んでお伺い申し上げます。<br><br> （一）本年四月十四日渡米いたしました資格者、田中秀明（二十八歳、二世）より、大黒様を送っていただきたいとのことでございますが、いかがいたしましたらよろしゅうございましょうか、お伺い申し上げます。<br><br>御神体は在日中に拝受、現在カリフォルニア州にて御奉斎させていただいております。<br><br> （二）私事支部の御用をさせていただいている者でございますが、去る六月下旬の大雨に床の間に雨漏りがし、大黒様の槌を濡らし、まことに申し訳ございません。<br><br>いかがお詫びさせていただいたらよろしゅうございましょうか、謹んでお伺い申し上げます。<br><br> （御垂示） （一）送るのは結構だ。<br><br> （二）大黒様にお詫びすればいい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre a Fé e a Prática</h2>
 <p><strong>(Consulta)</strong>
@@ -133,5 +285,48 @@ Submeto, respeitosamente, duas questões.</p>
 <ol>
 <li>Basta que se desculpe diretamente com Daikoku-sama.</li>
 </ol></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』51号、昭和28(1953)年8月25日発行 （お伺） 弟春夫儀（二十九歳、二十三年十二月入信）。<br/><br/>入信当初は腰椎カリエスを固めた痕に浄化をいただき動けなくなりましたが、お蔭様にて楽にしていただき、仕事もできるようになりました。<br/><br/> 一昨年八月下旬に再浄化をいただき、リウマチのように痛みましたが、徐々に薄らぎ松葉杖に頼って歩行できるようにしていただきました。<br/><br/> 去年五月から右大腿部に膿が溜まり始め、歩行もできなくなりました。<br/><br/> 八月中旬には化膿し、多量の排膿がありましてより穴は順に増えて三カ所十穴くらいになり、今も出続けております。<br/><br/> ところが十二月ごろより膿の出が少なくなって疲労が酷くなり、起きてはおれなくなりました。<br/><br/>そのころより排尿量も少なくなり、二月上旬より腫れ始め、四月上旬には全身的に浮腫み、同月中旬にはもうだめかと思われるくらいでありましたが、御守護をいただきまして徐々によくなり、六月上旬には排尿量も増えて下痢もしばしばあるようになりました。<br/><br/> 当然死より他にないと思われますようなところをお救いいただきまして、ありがとうございました。<br/><br/>伏して御礼申し上げます。<br/><br/> なお現在はまだ寝たままでありまして、頭痛と目まいに悩んでおり、額の中心一寸くらいが白くなり（数日前より）、そこは特に熱が高く、そこを浄霊いたしますと頭の気持ちがよくなります。<br/><br/> また大小便は起き上がれませんゆえ、取っております。<br/><br/>食欲はふつうで衰弱はあまりいたしておりません。<br/><br/> 右様の状態はいかなる理由によるものでございましょうか、その原因ならびに浄霊箇所を御教え賜りたく、伏してお願い申し上げます。<br/><br/> （御垂示） このくらいの質問は中京教会の会長に聞けば分かる。<br/><br/> （お伺） 最近結婚いたしまして分家いたしましたので、新たに先祖の位牌をお祀りしたいと思いますが、私の家も妻の家も代々神道でございますが、やはり神道にてお祀りすべきでございましょうか、あるいは仏壇に黒塗りの位牌でよろしゅうございましょうか。<br/><br/>また黒塗りの位牌でお許しいただける場合、神道では、戒名をつけませんが、位牌に記す名前は、神道の仕来り通り、何々之命之霊位でよろしゅうございましょうか。<br/><br/> 右御垂示賜りたく、謹んでお伺い申し上げます。<br/><br/> （御垂示） 神道でお祀りすればいい、従って御屏風観音様はお祀りしなくてもよろしい。<br/><br/> （お伺） 二十六年九月、大黒様をお祀りさせていただきました。<br/><br/>過日はたきをかけておりますと、槌が落ちましたので初めて折れているのを発見いたしました。<br/><br/>まことに申し訳なく深くお詫び申し上げます。<br/><br/>今後いかがさせていただきましたらよろしゅうございましょうか。<br/><br/>謹んでお伺い申し上げます。<br/><br/> （御垂示） 元通りに直せばいい。<br/><br/> （お伺） 未信者藤沢フミ（三十四歳）の長女道子（十歳）は、出産時仮死状態にて産姿が人工呼吸や、振り動かして一時間ほどにてようやく息を始めたような状態でありまして、生後三年は病弱にて医薬に頼っておりましたが、手足が不自由にてとうとう歩行できないことが分かり、医科大学やらいろいろ方法をやりましたが、ついに治らず今日に及んだのでございます。<br/><br/> 医者は小児麻揮とも言い、また頭が悪く頭からくる麻痺だから治らないと言われたとのことでございます。<br/><br/> 手足は曲げることも物を持つこともできるのでございますが、立つことができず蛙のようなかっこうでいざり動くのでございます。<br/><br/> ただいまは三歳程度の頭脳で口もよくきけません。<br/><br/> 五月三十日から御浄霊をいただくようになりましてから立つこともできるようになり、ただいまでは物につかまり歩くようになり、腰も伸びるようにしていただく御守護をいただき、たいへん喜んでおります。<br/><br/> 右は霊的でございましょうか、また御浄霊の急所御教えくださいますようお願いいたします。<br/><br/> （御垂示） 短時日にそれだけ快くなれば、それでいいはずである。<br/><br/> （お伺） 謹んでお伺い申し上げます。<br/><br/> （一）本年四月十四日渡米いたしました資格者、田中秀明（二十八歳、二世）より、大黒様を送っていただきたいとのことでございますが、いかがいたしましたらよろしゅうございましょうか、お伺い申し上げます。<br/><br/>御神体は在日中に拝受、現在カリフォルニア州にて御奉斎させていただいております。<br/><br/> （二）私事支部の御用をさせていただいている者でございますが、去る六月下旬の大雨に床の間に雨漏りがし、大黒様の槌を濡らし、まことに申し訳ございません。<br/><br/>いかがお詫びさせていただいたらよろしゅうございましょうか、謹んでお伺い申し上げます。<br/><br/> （御垂示） （一）送るのは結構だ。<br/><br/> （二）大黒様にお詫びすればいい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

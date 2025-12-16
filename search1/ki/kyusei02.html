@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyusei02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世主は誰だ 未発表、昭和23(1948)年10月20日 この標題は随分変っていると思う。<br><br>無論読者もそう思うであろう。<br><br>この問題について、以下私というものの心裡描写をかいてみようと思うのである。<br><br>ここで前もって断っておきたい事は、私自身の内面的心の動きを客観的にみ、いささかの虚構のない事を主眼としたのであるから、読者もそのつもりで読まれん事である。<br><br> 救世主すなわちメシヤなる言葉は、洋の東西を問わず、時の古今を問わず、いかに言い古された事であろう。<br><br>全人類待望の救世主なる超人間的力の持主が、現実にこの世の中に生れるべきものであろうかという事であるが、一部の宗教信者を除き、世界の大多数者は、単なる理想的希望でしかない、大きな夢でしかないと思っていると見るのが間違いない事であろう。<br><br>もっとも俺は救世主だと誇称する人も稀にはあったが、時の推移と共にいずれも消えてしまうにみても、いまだ真の救世主は表われない事は明らかな事実である。<br><br> 私は自分から救世主と名乗る事は好まないのである、といって救世主ではないと断定する事も出来得ないというのが偽らざる告白である。<br><br>実に救世主出現という事程重大なる問題は、人類史上かつてない事は今更いうまでもない。<br><br>この意味において決して軽々に論議すべきではない事ももちろんである。<br><br>ひるがえって考うるに、救世主出現は単なる人類の理想と極（き）める事も出来得まい。<br><br>何となればキリストの再臨もメシヤの降臨も、ミロク下生も、往昔（おうせき）の聖者が予言しているにおいてをやである。<br><br>故に、いつかは出現の可能性がある事を信じない訳にはゆかないのである。<br><br> これから私の心理描写にとりかかるのであるが、私は救世主の第一条件として以前から考えていた事は、何よりもまず人間の病気を解決する事であって、人間の健康を完（まっと）うし天寿を得させるという事の絶対的方法を授けると共に、それへ具体化する力を有する――その資格こそ救世主としての最大要素であらねばならない。<br><br>もちろん肉体の健康とあいまって、精神の健康が伴わなくてはならないのである。<br><br> ナザレの聖者キリストのいった、「汝世界を得るとも、生命を失えば何の利かあらん」という有名な言葉によってみても明らかである。<br><br>この意味において、人類から病気を滅消し得る力のない宗教も、宗教家も、その価値は限定的のものしかないといえるであろう。<br><br>私はこの理論を常に抱懐していたのである。<br><br>しかるに、私が信仰生活に入って十数年を経た頃のある日、病気の根本原理と、その解決法とを知り得たのである。<br><br>嗚呼、その時の私の驚きと喜びは、何人も想像はなし得ないであろう。<br><br>何となれば今日までの世界の人間のうち、これ程大きな発見をしたものは絶無であったからである。<br><br>いかなる大発見も大発明も、この事に比較すれば問題にはならない。<br><br>実に私というものは何たる不思議な運命を持って生れたものであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Quem é o Salvador</h2>
 <p>O presente título pode soar, decerto, peculiar. Assim, imagino, pensarão os leitores. Sobre esta questão, proponho-me a descrever, a seguir, o meu estado de espírito. Desejo, de antemão, ressaltar que o meu principal objetivo é contemplar com objetividade os movimentos de minha própria alma, sem o mínimo artifício. Peço, pois, que o leitor o aprecie sob essa perspectiva.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Passo agora à descrição de meu estado de espírito. A primeira condição para ser o Salvador, algo sobre o qual venho refletindo há muito, é, acima de tudo, solucionar o problema da doença humana. Trata-se de outorgar o método absoluto que permita ao ser humano gozar de plena saúde e alcançar a longevidade que lhe foi destinada, possuindo, ao mesmo tempo, o poder de concretizá-lo. Este requisito constitui, pois, o elemento primordial que qualifica o Salvador. Naturalmente, a saúde do corpo deve vir acompanhada da saúde do espírito.</p>
 <p>A célebre passagem do santo de Nazaré, Cristo, torna essa verdade manifesta: “Pois que aproveita ao homem ganhar o mundo inteiro, se perder a sua vida?”. Nesse sentido, pode-se afirmar que as religiões e os religiosos desprovidos do poder de erradicar a doença da humanidade possuem apenas um valor limitado. Sempre nutri essa convicção. Eis que, transcorridos mais de dez anos de minha jornada na fé, em um determinado dia, foi-me dado conhecer o princípio fundamental da doença e o seu método de solução.</p>
 <p>Ah, minha surpresa e alegria naquele momento foram tais que ninguém poderia jamais imaginar. Isso porque, em toda a história, jamais existiu alguém que tivesse feito uma descoberta de tamanha magnitude. Qualquer outra grande descoberta ou invenção, em comparação a esta, perde toda a sua relevância. Verdadeiramente, com que misterioso destino eu não teria nascido neste mundo?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世主は誰だ 未発表、昭和23(1948)年10月20日 この標題は随分変っていると思う。<br/><br/>無論読者もそう思うであろう。<br/><br/>この問題について、以下私というものの心裡描写をかいてみようと思うのである。<br/><br/>ここで前もって断っておきたい事は、私自身の内面的心の動きを客観的にみ、いささかの虚構のない事を主眼としたのであるから、読者もそのつもりで読まれん事である。<br/><br/> 救世主すなわちメシヤなる言葉は、洋の東西を問わず、時の古今を問わず、いかに言い古された事であろう。<br/><br/>全人類待望の救世主なる超人間的力の持主が、現実にこの世の中に生れるべきものであろうかという事であるが、一部の宗教信者を除き、世界の大多数者は、単なる理想的希望でしかない、大きな夢でしかないと思っていると見るのが間違いない事であろう。<br/><br/>もっとも俺は救世主だと誇称する人も稀にはあったが、時の推移と共にいずれも消えてしまうにみても、いまだ真の救世主は表われない事は明らかな事実である。<br/><br/> 私は自分から救世主と名乗る事は好まないのである、といって救世主ではないと断定する事も出来得ないというのが偽らざる告白である。<br/><br/>実に救世主出現という事程重大なる問題は、人類史上かつてない事は今更いうまでもない。<br/><br/>この意味において決して軽々に論議すべきではない事ももちろんである。<br/><br/>ひるがえって考うるに、救世主出現は単なる人類の理想と極（き）める事も出来得まい。<br/><br/>何となればキリストの再臨もメシヤの降臨も、ミロク下生も、往昔（おうせき）の聖者が予言しているにおいてをやである。<br/><br/>故に、いつかは出現の可能性がある事を信じない訳にはゆかないのである。<br/><br/> これから私の心理描写にとりかかるのであるが、私は救世主の第一条件として以前から考えていた事は、何よりもまず人間の病気を解決する事であって、人間の健康を完（まっと）うし天寿を得させるという事の絶対的方法を授けると共に、それへ具体化する力を有する――その資格こそ救世主としての最大要素であらねばならない。<br/><br/>もちろん肉体の健康とあいまって、精神の健康が伴わなくてはならないのである。<br/><br/> ナザレの聖者キリストのいった、「汝世界を得るとも、生命を失えば何の利かあらん」という有名な言葉によってみても明らかである。<br/><br/>この意味において、人類から病気を滅消し得る力のない宗教も、宗教家も、その価値は限定的のものしかないといえるであろう。<br/><br/>私はこの理論を常に抱懐していたのである。<br/><br/>しかるに、私が信仰生活に入って十数年を経た頃のある日、病気の根本原理と、その解決法とを知り得たのである。<br/><br/>嗚呼、その時の私の驚きと喜びは、何人も想像はなし得ないであろう。<br/><br/>何となれば今日までの世界の人間のうち、これ程大きな発見をしたものは絶無であったからである。<br/><br/>いかなる大発見も大発明も、この事に比較すれば問題にはならない。<br/><br/>実に私というものは何たる不思議な運命を持って生れたものであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku22</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と薬剤の批判 『栄光』247号、昭和29(1954)年2月10日発行 現代医学とそうしておびただしい次から次へと出る薬剤に対しての体験上からの実例を挙げている左の一文は、大いに参考になると思うからここに載せたのである。<br><br> 或る日の便り 岐阜県 専信中教会 伊藤洋一 親愛なるＨ君「光陰矢の如し」とか、月日のたつのは全く早いもの、暑い暑いと愚痴を言っていた夏もいつかしら過ぎ去り、この頃は寒い寒いという愚痴ばかり、人間という代物は一体どうしてこんなに愚痴許りこぼすのでしょう。<br><br> 過日の便りでは「現代科学が素晴しい発展を示している現代に於て、そんな気違いじみた宗教に入って、然もそれに没頭しているなど愚の骨頂である」というきついお説法を戴いたのですが、今日は君の唯一無二と信奉する現代医学について、この頃見たり聞いたりして感じたことを書いてみたいと思います。<br><br> 二月の毎日新聞紙上に大きく発表されました、モリニヤ病のその後の研究成果はどうなっているのでしょう。<br><br>研究すればする程迷路に陥り「不可解」なる怪物につきまとわれているのではないでしようか。<br><br>救世教の明主様はすでに抗生物質誕生の時、必ずかかる症候の現われることを喝破されておられるのです。<br><br>僕も嘗て結核の刻印を捺され、病院のベッドの上にて不安と焦躁の念に苦悩し呻吟していた時には、治療方法が生温いと怒り幾度か医師と論争した挙句とび出すようにして又追出されるようにして退院したのですが、この道のお話をお聞きし、救世教特別仕立の天国行列車にまがりなりにもとにかく席を得てから、微温湯的療法を受けていた吾が身の幸を喜んだものでした。<br><br> 以来月移り年変り、医学界の趨勢も、新薬の進捗、画期的なる術式の発達と相まって、一路向上への途を辿っているかのようです。<br><br>少くとも一般の目にはそう見えているでしょう。<br><br>しかしその進歩発達を余所目に病名不明の患者が増え、病気が悪質になって行くのはどうした訳なのでしょう。<br><br>十月ですか、労働衛生週間というのがありましたね。<br><br>この週間に私が布教に行かせて戴いている三重県の某紡績会社で、三重県に於ける結核の泰斗と言われるＫ博士を招いて衛生講話を行ったのですが、この時Ｋ博士が何と言われたと思います。<br><br>「結核はいかなる新薬が出ても治るものではなく、大気安静療法に依る外はない、恐らく数年後には悪質の結核患者が続出するであろう」と、この言葉は一体何を意味するのでしょう。<br><br>確か去年でしたね。<br><br>結核死亡者半減記念のお祝いをしたのは。<br><br>併し現状はどうでしょうか、死亡者が半減し果してベッドを減らすことができ、結核患者は救われたでしょうか……？ たとえ死亡者が半減したとしても患者が減少せぬ限り、現代医学に関する一切の学説は砂上の楼閣であり、現代医学を以て絶対の救世主と断定することは恐ろしいような気が致します。<br><br>嘗てあれ程喧伝された、新薬ヒドラジドこの頃の凋落ぶりはどうでしょう。<br><br>先日のラジオで「アメリカに於てヒドラジドを作った製薬会社が、臨床実験が完全に済んでいない内に誇大な宣伝をした為に、医師に対して謝罪料を払った」と伝えていたではありませんか。<br><br>しかし医師に対して謝罪料を支払うというのは誤りで、ヒドラジドを使用した患者に対してこそ支払うべきだと思いますが如何……？ このヒドラジドの三倍の効力を有する、ソ連の結核新薬フティバジッドが入って来るようですが、これについて東大伝染病研究所のＫ教授は「医学者としてはあくまで現物を使って臨床実験を行い、その結果を分析した上でないと何とも言えない」と語っておられますが至言と思います。<br><br>君達医学者に限らず、専門家は往々袋小路に入り、反って何も知らない第三者に教えられる事がある、と言われておりますが、独善的断定に依ってヒドラジドの轍を踏まないように祈りましょうか。<br><br> それから十二月五日の夕刊毎日の記事に次のようなのがありましたね。<br><br>「風邪はクシャミと水っ洟の頃に、近頃流行の抗ヒスタミン剤をのめば確かに効果はある。<br><br>しかし問題はその時期である。<br><br>手後れと思ったらいっそ思い切ってダイアジンをのんだ方が良い。<br><br>だがまる一日このようなことをしてもどぅにもならぬ時は薬をやめ、安静と保温と栄養の三原則を守って寝ることである」と、又「時々問題になるワクチンなどは鳴物程期待のできるものではない。<br><br>これは作っている人がそう言うのだから間違いない」と、どうにもならなくなったら薬をやめて寝る――では初めから薬をのまずに寝ておったら良いのではありませんか……？ ワクチンが効かない――ではなぜ半強制的に予防注射をするのでしょう。<br><br>余りにも大きな矛盾、この矛盾を矛盾とも思わずに、お説ごもっともとしてこの記事を書いた人、この記事を読む人の麻痺した頭脳に憤怒というより寧ろ哀憐の情を禁じ得ません。<br><br> 君はこの道で進む僕の盲信的頭脳を憐れんでおりますが、僕は又君達のモヒ中的頭脳を燐れみましょう。<br><br> 君の脳にある小さな皺が僕にはなく、反対に、僕の脳にある小さな皺が君にはないのかも知れません。<br><br>しかし真理はただ一ついつの日か、いずれが是、いずれが非かの審判の鐘は鳴り渡るでしょう。<br><br>その日まで精々御精進をお祈りします。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falácia da Medicina Contemporânea</h2>
 <p>O artigo a seguir, que apresenta exemplos concretos advindos da experiência a respeito da medicina contemporânea e da profusão de novos fármacos que surgem incessantemente, constitui, a nosso ver, uma referência de grande valia, razão pela qual decidimos publicá-lo.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>O amigo se compadece de minha mente, que julga ser guiada por uma fé cega. Eu, por minha vez, lamento por sua mentalidade, que me parece intoxicada pela ciência.</p>
 <p>Talvez me falte uma pequena dobra em meu cérebro que o amigo possui; e talvez ao amigo falte uma que eu possuo. Contudo, a Verdade é una e absoluta. Um dia, o sino do Juízo soará, revelando o que é certo e o que é errado.</p>
 <p>Até esse dia, oro para que o amigo se empenhe ao máximo em sua jornada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と薬剤の批判 『栄光』247号、昭和29(1954)年2月10日発行 現代医学とそうしておびただしい次から次へと出る薬剤に対しての体験上からの実例を挙げている左の一文は、大いに参考になると思うからここに載せたのである。<br/><br/> 或る日の便り 岐阜県 専信中教会 伊藤洋一 親愛なるＨ君「光陰矢の如し」とか、月日のたつのは全く早いもの、暑い暑いと愚痴を言っていた夏もいつかしら過ぎ去り、この頃は寒い寒いという愚痴ばかり、人間という代物は一体どうしてこんなに愚痴許りこぼすのでしょう。<br/><br/> 過日の便りでは「現代科学が素晴しい発展を示している現代に於て、そんな気違いじみた宗教に入って、然もそれに没頭しているなど愚の骨頂である」というきついお説法を戴いたのですが、今日は君の唯一無二と信奉する現代医学について、この頃見たり聞いたりして感じたことを書いてみたいと思います。<br/><br/> 二月の毎日新聞紙上に大きく発表されました、モリニヤ病のその後の研究成果はどうなっているのでしょう。<br/><br/>研究すればする程迷路に陥り「不可解」なる怪物につきまとわれているのではないでしようか。<br/><br/>救世教の明主様はすでに抗生物質誕生の時、必ずかかる症候の現われることを喝破されておられるのです。<br/><br/>僕も嘗て結核の刻印を捺され、病院のベッドの上にて不安と焦躁の念に苦悩し呻吟していた時には、治療方法が生温いと怒り幾度か医師と論争した挙句とび出すようにして又追出されるようにして退院したのですが、この道のお話をお聞きし、救世教特別仕立の天国行列車にまがりなりにもとにかく席を得てから、微温湯的療法を受けていた吾が身の幸を喜んだものでした。<br/><br/> 以来月移り年変り、医学界の趨勢も、新薬の進捗、画期的なる術式の発達と相まって、一路向上への途を辿っているかのようです。<br/><br/>少くとも一般の目にはそう見えているでしょう。<br/><br/>しかしその進歩発達を余所目に病名不明の患者が増え、病気が悪質になって行くのはどうした訳なのでしょう。<br/><br/>十月ですか、労働衛生週間というのがありましたね。<br/><br/>この週間に私が布教に行かせて戴いている三重県の某紡績会社で、三重県に於ける結核の泰斗と言われるＫ博士を招いて衛生講話を行ったのですが、この時Ｋ博士が何と言われたと思います。<br/><br/>「結核はいかなる新薬が出ても治るものではなく、大気安静療法に依る外はない、恐らく数年後には悪質の結核患者が続出するであろう」と、この言葉は一体何を意味するのでしょう。<br/><br/>確か去年でしたね。<br/><br/>結核死亡者半減記念のお祝いをしたのは。<br/><br/>併し現状はどうでしょうか、死亡者が半減し果してベッドを減らすことができ、結核患者は救われたでしょうか……？ たとえ死亡者が半減したとしても患者が減少せぬ限り、現代医学に関する一切の学説は砂上の楼閣であり、現代医学を以て絶対の救世主と断定することは恐ろしいような気が致します。<br/><br/>嘗てあれ程喧伝された、新薬ヒドラジドこの頃の凋落ぶりはどうでしょう。<br/><br/>先日のラジオで「アメリカに於てヒドラジドを作った製薬会社が、臨床実験が完全に済んでいない内に誇大な宣伝をした為に、医師に対して謝罪料を払った」と伝えていたではありませんか。<br/><br/>しかし医師に対して謝罪料を支払うというのは誤りで、ヒドラジドを使用した患者に対してこそ支払うべきだと思いますが如何……？ このヒドラジドの三倍の効力を有する、ソ連の結核新薬フティバジッドが入って来るようですが、これについて東大伝染病研究所のＫ教授は「医学者としてはあくまで現物を使って臨床実験を行い、その結果を分析した上でないと何とも言えない」と語っておられますが至言と思います。<br/><br/>君達医学者に限らず、専門家は往々袋小路に入り、反って何も知らない第三者に教えられる事がある、と言われておりますが、独善的断定に依ってヒドラジドの轍を踏まないように祈りましょうか。<br/><br/> それから十二月五日の夕刊毎日の記事に次のようなのがありましたね。<br/><br/>「風邪はクシャミと水っ洟の頃に、近頃流行の抗ヒスタミン剤をのめば確かに効果はある。<br/><br/>しかし問題はその時期である。<br/><br/>手後れと思ったらいっそ思い切ってダイアジンをのんだ方が良い。<br/><br/>だがまる一日このようなことをしてもどぅにもならぬ時は薬をやめ、安静と保温と栄養の三原則を守って寝ることである」と、又「時々問題になるワクチンなどは鳴物程期待のできるものではない。<br/><br/>これは作っている人がそう言うのだから間違いない」と、どうにもならなくなったら薬をやめて寝る――では初めから薬をのまずに寝ておったら良いのではありませんか……？ ワクチンが効かない――ではなぜ半強制的に予防注射をするのでしょう。<br/><br/>余りにも大きな矛盾、この矛盾を矛盾とも思わずに、お説ごもっともとしてこの記事を書いた人、この記事を読む人の麻痺した頭脳に憤怒というより寧ろ哀憐の情を禁じ得ません。<br/><br/> 君はこの道で進む僕の盲信的頭脳を憐れんでおりますが、僕は又君達のモヒ中的頭脳を燐れみましょう。<br/><br/> 君の脳にある小さな皺が僕にはなく、反対に、僕の脳にある小さな皺が君にはないのかも知れません。<br/><br/>しかし真理はただ一ついつの日か、いずれが是、いずれが非かの審判の鐘は鳴り渡るでしょう。<br/><br/>その日まで精々御精進をお祈りします。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

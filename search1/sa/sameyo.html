@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sameyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 醒めよ既成宗教家と現代医学者 『内外公論』15巻新年号、昭和11(1936)年1月1日発行 近時宗教復興の喧（かまび）すしい声に逐（お）い立てられるように躍り出たのは、主に仏教側で仏教学者等である。<br><br>彼らは得々として口に筆に、昔からの諸々の賢哲によって言い尽された説話や理論を、丹念に焼き直して大いに売りつけようと、大衆に対（むか）って怒号し続けて居る。<br><br>それにも拘わらず大衆は縁日を素見（すけん）するように、通り一片〔遍〕の一顧を与えるに過ぎないのである。<br><br>中にはインテリに属する人で、科学にあきたらない結果、文献等を漁って研究的に手を染める者もあるが、これらはいつまで経っても、信仰の境地までは進めない人々で、最後まで第三者の立場を出られないのである。<br><br>これが今日笛を吹いてる仏教家の一群と、踊らない大衆の態度との有のままのスケッチである。<br><br> 他方新興宗教と名づけられ、邪教インチキとしてあらゆる漫罵（まんば）を浴びつゝある一群がある。<br><br>この一群は治病を第一の看板として活躍し、ともかく既成宗教群から眼の仇にされるだけの勢力を獲て終って居るのである。<br><br>邪教かインチキかそれは今ここでは言わないが、ただ何故に既成宗教が信徒獲得に無力であり、新興宗教がそれに成功しつゝあるかを言って見たいのである。<br><br> 今日の世相の行詰りと困惑裡に喘いで居る大衆は、一体何を求めて居るのであろうか？ 彼らは切実に何物かに縋らなければ、一日として過ごされないまでに、切迫して居るのは事実である。<br><br>しかるにこの大衆が要望して居るそのある物をハッキリと既成宗教家等は掴んで居ない。<br><br>否掴んでもそのある物を与え得られないのかも知れないが、畢竟（ひっきょう）問題はこの点に存するのである。<br><br> 既成宗教家群が大童（おおわらわ）になって怒鳴って居る事と、書いて居る事とを一瞥（いちべつ）して見るがよい。<br><br>それは緊迫せる実生活と何ら交渉の無い仏教理論である。<br><br>三体〔諦〕円融がどうの、大乗仏教がどうのと云う様な、食うに困らない有閑人か、学究の徒輩が弄（もてあそ）ぶに相応の代物である。<br><br>故に幾何（いくら）怒鳴っても笛を吹いても、気の毒ながら効果の無いのは当然の話である。<br><br>宗教復興の声の大きさの割合に対して、それが為めに仏教信徒が増加すると云う傾向は、恐らくどこにも見出せないであろう。<br><br>これに反して新興宗教があらゆる罵詈（ばり）讒謗（ざんぼう）を浴せられながらも、素晴らしい発展性を現わし、急速度に信徒が増加して往くことであり、しかも信〔新〕興宗教は既成宗教の罵詈に酬いようとはしない。<br><br>あるいは酬いる時間が無い為めかも知れないが、ただ真向に教線拡張にのみ専念して居るのである。<br><br> 外面は頗（すこぶ）る進歩して居るように見えて、その実績の余り挙らない西洋医学にも罪はあるのである。<br><br>西洋医学でその誇張するごとくに病気が治り、健康を全うし得らるゝならば新興宗教に趨（はし）る者は恐らくほとんど有り得ないであろう。<br><br>故に私は既成宗教家及び現代医学者に警告したいのである。<br><br>それは新興宗教に発展性を与えて居るそれ自身は、実は既成宗教と医学者であると云うことである。<br><br>それ故既成宗教家及び医学者等は、新興宗教へ対して漫罵を浴せる前に、まず充分に自己省察をなして、その根本理由であるところの、大衆の悩める病気をして、新興宗教へ趨らないまでに、速かに治してやることである。<br><br>それ以外には新興宗教を衰滅せしむべき方法は、断じて無い事を認識すべきである。<br><br>もしこの重点を認識出来ないで、相変らず低劣なる独断的漫罵を能事とする限り、既成宗教に在る信徒は、日に月に新興宗教に転向者の数を増すであろう。<br><br>又病院及び医院は、ついには門前雀羅（じゃくら）を張ると云うまでに、到らないとも限らないであろうことを戒告したいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Despertai, religiosos e médicos da atualidade</h2>
 <p>Impelidos pelo recente clamor por um reavivamento religioso, emergiram principalmente os eruditos do budismo. Ufanamente, por meio da palavra e da escrita, eles se empenham em reeditar com esmero as parábolas e teorias já exaustivamente expostas pelos sábios do passado, bradando-as às multidões na esperança de lhes impingir tais conceitos. A despeito de todo esse esforço, o povo não lhes concede mais do que uma atenção fugaz, observando-os com a mesma displicência de quem passeia por uma feira. Existem, por certo, alguns intelectuais que, insatisfeitos com a ciência, aventuram-se em pesquisas e estudos de escrituras. Contudo, são indivíduos que, por mais que o tempo passe, jamais logram alcançar o verdadeiro estado de fé, mantendo-se sempre na posição de meros espectadores. Este é um retrato fidedigno do cenário atual: de um lado, um grupo de religiosos budistas que toca sua flauta; de outro, as massas que se recusam a dançar.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>A medicina ocidental, que se mostra tão avançada na aparência, também carrega sua parcela de culpa por seus resultados pouco expressivos. Se a medicina, conforme sua própria propaganda, fosse de fato capaz de curar as doenças e assegurar a plenitude da saúde, é quase certo que ninguém buscaria amparo nas novas religiões.</p>
 <p>É por essa razão que desejo fazer uma advertência tanto aos religiosos das instituições tradicionais quanto aos médicos da atualidade. A força que impulsiona o crescimento das novas religiões são, na verdade, as próprias religiões estabelecidas e os médicos. Portanto, antes de lançarem calúnias contra os novos movimentos, deveriam, primeiramente, promover uma profunda autorreflexão e se apressar em curar as enfermidades que afligem as massas, de modo que estas não sintam a necessidade de recorrer a outras doutrinas. É preciso que reconheçam que não existe, em absoluto, outro método para conter a expansão das novas religiões.</p>
 <p>Se não forem capazes de compreender este ponto crucial e persistirem em suas calúnias mesquinhas e dogmáticas, o número de fiéis que abandonarão as religiões tradicionais aumentará dia após dia, mês após mês. Da mesma forma, alerto para o fato de que hospitais e clínicas poderão, eventualmente, ver suas portas tão vazias que nelas se tecerão teias de aranha.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 醒めよ既成宗教家と現代医学者 『内外公論』15巻新年号、昭和11(1936)年1月1日発行 近時宗教復興の喧（かまび）すしい声に逐（お）い立てられるように躍り出たのは、主に仏教側で仏教学者等である。<br/><br/>彼らは得々として口に筆に、昔からの諸々の賢哲によって言い尽された説話や理論を、丹念に焼き直して大いに売りつけようと、大衆に対（むか）って怒号し続けて居る。<br/><br/>それにも拘わらず大衆は縁日を素見（すけん）するように、通り一片〔遍〕の一顧を与えるに過ぎないのである。<br/><br/>中にはインテリに属する人で、科学にあきたらない結果、文献等を漁って研究的に手を染める者もあるが、これらはいつまで経っても、信仰の境地までは進めない人々で、最後まで第三者の立場を出られないのである。<br/><br/>これが今日笛を吹いてる仏教家の一群と、踊らない大衆の態度との有のままのスケッチである。<br/><br/> 他方新興宗教と名づけられ、邪教インチキとしてあらゆる漫罵（まんば）を浴びつゝある一群がある。<br/><br/>この一群は治病を第一の看板として活躍し、ともかく既成宗教群から眼の仇にされるだけの勢力を獲て終って居るのである。<br/><br/>邪教かインチキかそれは今ここでは言わないが、ただ何故に既成宗教が信徒獲得に無力であり、新興宗教がそれに成功しつゝあるかを言って見たいのである。<br/><br/> 今日の世相の行詰りと困惑裡に喘いで居る大衆は、一体何を求めて居るのであろうか？ 彼らは切実に何物かに縋らなければ、一日として過ごされないまでに、切迫して居るのは事実である。<br/><br/>しかるにこの大衆が要望して居るそのある物をハッキリと既成宗教家等は掴んで居ない。<br/><br/>否掴んでもそのある物を与え得られないのかも知れないが、畢竟（ひっきょう）問題はこの点に存するのである。<br/><br/> 既成宗教家群が大童（おおわらわ）になって怒鳴って居る事と、書いて居る事とを一瞥（いちべつ）して見るがよい。<br/><br/>それは緊迫せる実生活と何ら交渉の無い仏教理論である。<br/><br/>三体〔諦〕円融がどうの、大乗仏教がどうのと云う様な、食うに困らない有閑人か、学究の徒輩が弄（もてあそ）ぶに相応の代物である。<br/><br/>故に幾何（いくら）怒鳴っても笛を吹いても、気の毒ながら効果の無いのは当然の話である。<br/><br/>宗教復興の声の大きさの割合に対して、それが為めに仏教信徒が増加すると云う傾向は、恐らくどこにも見出せないであろう。<br/><br/>これに反して新興宗教があらゆる罵詈（ばり）讒謗（ざんぼう）を浴せられながらも、素晴らしい発展性を現わし、急速度に信徒が増加して往くことであり、しかも信〔新〕興宗教は既成宗教の罵詈に酬いようとはしない。<br/><br/>あるいは酬いる時間が無い為めかも知れないが、ただ真向に教線拡張にのみ専念して居るのである。<br/><br/> 外面は頗（すこぶ）る進歩して居るように見えて、その実績の余り挙らない西洋医学にも罪はあるのである。<br/><br/>西洋医学でその誇張するごとくに病気が治り、健康を全うし得らるゝならば新興宗教に趨（はし）る者は恐らくほとんど有り得ないであろう。<br/><br/>故に私は既成宗教家及び現代医学者に警告したいのである。<br/><br/>それは新興宗教に発展性を与えて居るそれ自身は、実は既成宗教と医学者であると云うことである。<br/><br/>それ故既成宗教家及び医学者等は、新興宗教へ対して漫罵を浴せる前に、まず充分に自己省察をなして、その根本理由であるところの、大衆の悩める病気をして、新興宗教へ趨らないまでに、速かに治してやることである。<br/><br/>それ以外には新興宗教を衰滅せしむべき方法は、断じて無い事を認識すべきである。<br/><br/>もしこの重点を認識出来ないで、相変らず低劣なる独断的漫罵を能事とする限り、既成宗教に在る信徒は、日に月に新興宗教に転向者の数を増すであろう。<br/><br/>又病院及び医院は、ついには門前雀羅（じゃくら）を張ると云うまでに、到らないとも限らないであろうことを戒告したいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon23</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音心と観音行 『観音の光』10号、昭和11(1936)年4月11日発行 観音心とは観世音の御心の具現であり、観音行とはその具現の実行である。<br><br> しからば観音心とはいかなるものであるか、これを出来るだけ判り易く説いて見よう。<br><br>ついでに言うがこの観音心は、思想として未だ嘗（か）つて人類の経験にも、哲学にも無いのであって、端的に言えば現在の思想が精〔清〕算されての後に来るもの、即ち明日の思想である。<br><br> この観音心とは一言にして言えば、応変自在融通無碍の心的活動である。<br><br>今日までのあらゆる思想宗教哲学等は、一定の法則主義主張又は戒律を造りそれを実践せんとして飽くまで固着する結果、限られたる一定期の成果は在るが、時所位に依る変化物象の流転に応化する能（あた）わずして、ついにその生命力を失墜してしまうのは、余りにも瞭（あきら）かな事実である。<br><br>たとえて言えば、国と国とは国是国策を遂行せんとする固執によって一歩も枉（ま）げずついに戦をも起し、又政治団体は主義に依って党派を生じ、階級はその利益の固執によって軋轢（あつれき）し、宗教は解釈意識の相違によって、派を立てゝ相争う結果を生ずるのである。<br><br>これが実に人類社会闘争の根源であって、優勝劣敗も、弱肉強食も悉（ことごと）くがこの産物と云ってもよいのである。<br><br> この根本に気が付かなければならない。<br><br>仏陀は慈悲を説き諭した、因果の法則を示した、基督（キリスト）は愛と犠牲を、孔子は人倫の道を、モーゼは戒律をそれぞれ人類の為めに説いたことはすくなからず役立って居るのは否定すべくもない。<br><br>しかしこれら各々が持つ特殊性は、人類向上の為めの一分野であったに過ぎなかった。<br><br>何となればそのいずれもが、教理を立て戒律を造って居る。<br><br>それはそれ自身が既に限度を示して居る。<br><br>この故に完全ではない、教の無い教、戒律の無い戒律、主義の無い主義でなければならない。<br><br>即ち応対変通である。<br><br>それこそ宇宙の運行と倶（とも）なる真理の具現である。<br><br>これを卑近な例にとって見よう。<br><br>人間の不正を矯（た）めるに法律がある。<br><br>この法律はかくすべからずの項目が何百何千もあるが、いかに努力するとも所期の目的を達し得ないのである。<br><br>それは法規の文字によって範囲と限度とを示して居るからである。<br><br>不正な人間はこの限られたる法文以外に不正な手段を発見しようとするのが、何よりの実証である。<br><br>法網粗であった時代より、法網益々密になって、犯罪は減少しなければならないはずであるのに、事実はその反対の結果をさえ示すと云う皮肉は、私の説を裏書して居る。<br><br> 彼の釈尊の八万四千もある経文は、法網の密なる理と、全く等しいと、思うのである。<br><br> この故に人間悪を絶対に匡正（きょうせい）する方法それは人間内面に在る魂の工作でなくては根本的ではない。<br><br>その魂さえ浄化清澄であったなら、例えば法律の無い世界に住して居ても不正をやらないのは自明の理であるが、この状態の魂こそは、法規や道徳や戒律に何ら束縛をされて居ないところの、実に自由無礙（むげ）自主的活現であるからである。<br><br>天地と共なる真理そのままの姿であるからである。<br><br>これ即ち観音心である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Coração e a Prática de Kannon</h2>
 <p>O Coração de Kannon (観音心) é a própria manifestação do Sagrado Coração de Kanzeon, e a Prática de Kannon (観音行) é a sua concretização por meio de ações.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Tomemos um exemplo do cotidiano para ilustrar esse ponto. Existem leis para coibir a má conduta humana. Essas leis contêm centenas, milhares de artigos proibitivos, mas, por mais que se esforcem, jamais conseguem atingir seu objetivo primordial. Isso ocorre porque as normas, ao serem expressas em texto, estabelecem um escopo e um limite. A maior prova disso é que indivíduos de má índole buscam justamente as brechas que a letra da lei não prevê para cometer seus atos ilícitos. A ironia que corrobora minha tese é que, embora a malha da lei se torne cada vez mais cerrada em comparação a épocas passadas, o que deveria levar a uma diminuição da criminalidade, a realidade nos mostra, por vezes, o resultado oposto. Creio que os oitenta e quatro mil sutras de Shakyamuni equivalem precisamente a essa densa malha legal.</p>
 <p>Portanto, o único método verdadeiramente capaz de corrigir a maldade humana não pode ser senão o trabalho interior da alma, pois ele atua na raiz do problema. Se a alma for purificada e límpida, é evidente que, mesmo vivendo em um mundo sem leis, o ser humano não praticará o mal. Isso acontece porque uma alma nesse estado é verdadeiramente livre, irrestrita e se manifesta de forma autônoma, sem estar subjugada por quaisquer regulamentos, morais ou preceitos. Ela é a própria imagem da Verdade em uníssono com o Céu e a Terra.</p>
 <p>E a isso, precisamente, chamamos de Coração de Kannon (観音心).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音心と観音行 『観音の光』10号、昭和11(1936)年4月11日発行 観音心とは観世音の御心の具現であり、観音行とはその具現の実行である。<br/><br/> しからば観音心とはいかなるものであるか、これを出来るだけ判り易く説いて見よう。<br/><br/>ついでに言うがこの観音心は、思想として未だ嘗（か）つて人類の経験にも、哲学にも無いのであって、端的に言えば現在の思想が精〔清〕算されての後に来るもの、即ち明日の思想である。<br/><br/> この観音心とは一言にして言えば、応変自在融通無碍の心的活動である。<br/><br/>今日までのあらゆる思想宗教哲学等は、一定の法則主義主張又は戒律を造りそれを実践せんとして飽くまで固着する結果、限られたる一定期の成果は在るが、時所位に依る変化物象の流転に応化する能（あた）わずして、ついにその生命力を失墜してしまうのは、余りにも瞭（あきら）かな事実である。<br/><br/>たとえて言えば、国と国とは国是国策を遂行せんとする固執によって一歩も枉（ま）げずついに戦をも起し、又政治団体は主義に依って党派を生じ、階級はその利益の固執によって軋轢（あつれき）し、宗教は解釈意識の相違によって、派を立てゝ相争う結果を生ずるのである。<br/><br/>これが実に人類社会闘争の根源であって、優勝劣敗も、弱肉強食も悉（ことごと）くがこの産物と云ってもよいのである。<br/><br/> この根本に気が付かなければならない。<br/><br/>仏陀は慈悲を説き諭した、因果の法則を示した、基督（キリスト）は愛と犠牲を、孔子は人倫の道を、モーゼは戒律をそれぞれ人類の為めに説いたことはすくなからず役立って居るのは否定すべくもない。<br/><br/>しかしこれら各々が持つ特殊性は、人類向上の為めの一分野であったに過ぎなかった。<br/><br/>何となればそのいずれもが、教理を立て戒律を造って居る。<br/><br/>それはそれ自身が既に限度を示して居る。<br/><br/>この故に完全ではない、教の無い教、戒律の無い戒律、主義の無い主義でなければならない。<br/><br/>即ち応対変通である。<br/><br/>それこそ宇宙の運行と倶（とも）なる真理の具現である。<br/><br/>これを卑近な例にとって見よう。<br/><br/>人間の不正を矯（た）めるに法律がある。<br/><br/>この法律はかくすべからずの項目が何百何千もあるが、いかに努力するとも所期の目的を達し得ないのである。<br/><br/>それは法規の文字によって範囲と限度とを示して居るからである。<br/><br/>不正な人間はこの限られたる法文以外に不正な手段を発見しようとするのが、何よりの実証である。<br/><br/>法網粗であった時代より、法網益々密になって、犯罪は減少しなければならないはずであるのに、事実はその反対の結果をさえ示すと云う皮肉は、私の説を裏書して居る。<br/><br/> 彼の釈尊の八万四千もある経文は、法網の密なる理と、全く等しいと、思うのである。<br/><br/> この故に人間悪を絶対に匡正（きょうせい）する方法それは人間内面に在る魂の工作でなくては根本的ではない。<br/><br/>その魂さえ浄化清澄であったなら、例えば法律の無い世界に住して居ても不正をやらないのは自明の理であるが、この状態の魂こそは、法規や道徳や戒律に何ら束縛をされて居ないところの、実に自由無礙（むげ）自主的活現であるからである。<br/><br/>天地と共なる真理そのままの姿であるからである。<br/><br/>これ即ち観音心である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

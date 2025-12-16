@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jiyumuge</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自由無礙 『光明世界』5号、昭和11(1936)年1月25日発行 私はいつも、自動車に乗ってる時に、よく思うんですが、観音行はちょうど、自動車の運転のようなものである。<br><br>途（みち）を真直に行くにはハンドルを絶えず、右とか左とか動かしておる。<br><br>そこが非常に面白い所で、真直と決めれば、必ず障害物に突当ります。<br><br>それと同じで今までは物を決めたがったので、それで失敗するのであります。<br><br>例を政治家に採って見ましょう。<br><br>政友会は、積極政策で行き、民政党は消極政策であるといいますが、そういう風に決めるからいけないんであります。<br><br>これが決めない様になれば、政治もうまく行くんであります。<br><br>政治もそういう風に、お互いに決めなくなれば、政友会とか民政党とかいう、党派も無くなって、一つになるんであります。<br><br>いずれは政治もそうなりましょう。<br><br>社会は生きている。<br><br>あらゆる物は生きて動いているんでありますから、生物に対して、決めてかゝるから、違って来るんであります。<br><br> 例えば、剣術を使うにしても、主義で決めたら大変です。<br><br>打って来る時に、突きを防ぐ主義でやるとすれば、打たれるのは当り前であります。<br><br>こういう風に決めると、言う事が違うんであります。<br><br>今まで種々ありました。<br><br>募債主義とか、非募債主義とか、あるいは、金輸出解禁とか、禁止とか、最初から主義を立てるから違うんで、主義を立てると、その物は死んでしまうんであります。<br><br>要するに政治は、積極にも非ず、消極にも非ず時と場合に依って応変するのがよいのであります。<br><br>何事でもそうなのであります。<br><br>今日は、積極、明日は消極という風でもよく、あるいはこの月は積極、来月は消極でゆくという風でもよいのであります。<br><br>時処位に応じて千変万化するのが、本当なのであります。<br><br>観音行は何事も決めないで、自由自在なのであります。<br><br>観音様の事を、一名無礙光如来というのは、そういう訳であります。<br><br> 将来の政治は、そういう行（や）り方でなくてはならない。<br><br>すべて決めてかゝるというところに、間違いがあるんで、その点から言っても、今までの行り方は間違っていたんであります、モーゼの十戒とか、仏教の五戒とかいうのは、非常な間違いであります。<br><br>五戒とか十戒とか決めると、それ以外は何をやってもいゝ事になってしまうんで、戒律のないというのが真理であります。<br><br>たゞ一つの教に帰依すればいゝので、それによって自然に戒律が守れるんであります。<br><br>それが観音の行り方で、観音様は一の位一の数であります。<br><br> 一という数は、数の元であり、拡げれば、無限の多い数にもなる。<br><br>一にして無数であり無数にして一であり、随って、いかなる数も、一なら割れるんであります。<br><br>二以上になるとそうは行かない、限られてしまう、観音様は一であり、無数であるが故に、自由無礙なのであります。<br><br>今までの宗教はいずれもが二以上の数ツマリ枝であります。<br><br>枝は限られているので、全世界の宗教を帰一する事が出来ないのであります。<br><br>それ故今までは根本である一を隠して居った。<br><br>二までしか出ていなかったんであります。<br><br>この一こそ、最高の教で、絶対の救いであります。<br><br>言葉では言えぬ、力、これが即ち、真理であります。<br><br> 話は一寸違いますが、総理大臣、即ち政治の主脳者が、観音力を与えられたならば、米の不作などゝ言う事はない。<br><br>必ず豊作になり各地に、風水害などいうものは、全然起らないのであり、貿易なんかも能（よ）く調和がとれるんであります。<br><br> （岡田仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Liberdade Absoluta e sem Impedimentos</h2>
 <p>Sempre que viajo de automóvel, ocorre-me um pensamento: a prática de Kannon é muito semelhante a dirigir um veículo. Para se manter em linha reta, o condutor precisa mover o volante constantemente, ora para a direita, ora para a esquerda. E aqui reside um ponto de profundo interesse: se alguém decidisse fixar o volante em uma única posição, a colisão com um obstáculo seria inevitável. De modo análogo, a humanidade sempre tendeu a estabelecer preceitos rígidos e, precisamente por essa razão, acumulou fracassos.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Até hoje, todas as religiões representavam números a partir do dois, ou seja, eram apenas galhos. Como os galhos são limitados, jamais puderam unificar todas as religiões do mundo. Por essa razão, o Um, a raiz fundamental, permaneceu oculto até o presente momento; manifestava-se apenas até o nível do dois. Este Um é, em si, o Ensinamento supremo e a salvação absoluta. É uma força inexprimível em palavras. Nisto consiste a Verdade.</p>
 <p>Embora pareça um desvio do tema, se o Primeiro-Ministro, o cérebro da nação, fosse imbuído do Poder de Kannon, as quebras de safra deixariam de existir. As colheitas seriam invariavelmente abundantes, e desastres naturais, como tufões e inundações, simplesmente não ocorreriam em parte alguma. Até mesmo o comércio internacional se desenvolveria em perfeita harmonia.</p>
 <p>(Okada Jinsai)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自由無礙 『光明世界』5号、昭和11(1936)年1月25日発行 私はいつも、自動車に乗ってる時に、よく思うんですが、観音行はちょうど、自動車の運転のようなものである。<br/><br/>途（みち）を真直に行くにはハンドルを絶えず、右とか左とか動かしておる。<br/><br/>そこが非常に面白い所で、真直と決めれば、必ず障害物に突当ります。<br/><br/>それと同じで今までは物を決めたがったので、それで失敗するのであります。<br/><br/>例を政治家に採って見ましょう。<br/><br/>政友会は、積極政策で行き、民政党は消極政策であるといいますが、そういう風に決めるからいけないんであります。<br/><br/>これが決めない様になれば、政治もうまく行くんであります。<br/><br/>政治もそういう風に、お互いに決めなくなれば、政友会とか民政党とかいう、党派も無くなって、一つになるんであります。<br/><br/>いずれは政治もそうなりましょう。<br/><br/>社会は生きている。<br/><br/>あらゆる物は生きて動いているんでありますから、生物に対して、決めてかゝるから、違って来るんであります。<br/><br/> 例えば、剣術を使うにしても、主義で決めたら大変です。<br/><br/>打って来る時に、突きを防ぐ主義でやるとすれば、打たれるのは当り前であります。<br/><br/>こういう風に決めると、言う事が違うんであります。<br/><br/>今まで種々ありました。<br/><br/>募債主義とか、非募債主義とか、あるいは、金輸出解禁とか、禁止とか、最初から主義を立てるから違うんで、主義を立てると、その物は死んでしまうんであります。<br/><br/>要するに政治は、積極にも非ず、消極にも非ず時と場合に依って応変するのがよいのであります。<br/><br/>何事でもそうなのであります。<br/><br/>今日は、積極、明日は消極という風でもよく、あるいはこの月は積極、来月は消極でゆくという風でもよいのであります。<br/><br/>時処位に応じて千変万化するのが、本当なのであります。<br/><br/>観音行は何事も決めないで、自由自在なのであります。<br/><br/>観音様の事を、一名無礙光如来というのは、そういう訳であります。<br/><br/> 将来の政治は、そういう行（や）り方でなくてはならない。<br/><br/>すべて決めてかゝるというところに、間違いがあるんで、その点から言っても、今までの行り方は間違っていたんであります、モーゼの十戒とか、仏教の五戒とかいうのは、非常な間違いであります。<br/><br/>五戒とか十戒とか決めると、それ以外は何をやってもいゝ事になってしまうんで、戒律のないというのが真理であります。<br/><br/>たゞ一つの教に帰依すればいゝので、それによって自然に戒律が守れるんであります。<br/><br/>それが観音の行り方で、観音様は一の位一の数であります。<br/><br/> 一という数は、数の元であり、拡げれば、無限の多い数にもなる。<br/><br/>一にして無数であり無数にして一であり、随って、いかなる数も、一なら割れるんであります。<br/><br/>二以上になるとそうは行かない、限られてしまう、観音様は一であり、無数であるが故に、自由無礙なのであります。<br/><br/>今までの宗教はいずれもが二以上の数ツマリ枝であります。<br/><br/>枝は限られているので、全世界の宗教を帰一する事が出来ないのであります。<br/><br/>それ故今までは根本である一を隠して居った。<br/><br/>二までしか出ていなかったんであります。<br/><br/>この一こそ、最高の教で、絶対の救いであります。<br/><br/>言葉では言えぬ、力、これが即ち、真理であります。<br/><br/> 話は一寸違いますが、総理大臣、即ち政治の主脳者が、観音力を与えられたならば、米の不作などゝ言う事はない。<br/><br/>必ず豊作になり各地に、風水害などいうものは、全然起らないのであり、貿易なんかも能（よ）く調和がとれるんであります。<br/><br/> （岡田仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

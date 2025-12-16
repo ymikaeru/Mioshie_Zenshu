@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280326</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S28年3月26日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月二十六日（４日目） 『アメリカを救う』『結核信仰療法』と次々に出ましたが、つまりこれから、言葉は弱いが、いろいろな文化的のものを根本的に壊してしまうのです。<br><br>そうして本当のものを知らせるということです。<br><br>これを一口に言うと、今までの文明は夜の文明です。<br><br>つまり医学にしろ、農業にしろ、一切のものが電気とか行灯、それからガス、蛍光灯というものだったのです。<br><br>ところが太陽が出て昼間になると、そういう物はいらなくなるのです。<br><br>それでだいぶ明るくなったにかかわらず、そういう物をありがたがっているから「そういう物はいらない」「かえって物によっては邪魔になる物がある」というようなことを知らせるわけです。<br><br>だから今まで長い間それで間にあったり、あるいはそれあるために便利を得ていたというのが、ぜんぜん駄目だと言われるので、びっくりして反対したりいろいろするのです。<br><br>ですから呑み込ませるのになかなか骨が折れるわけです。<br><br>それで今日、結核について、どれほど人間が苦しんでいるかということは、みんなよく知ってますから今さら説明の要はありませんが、そういうようで『結核信仰療法』はなかなか売れるらしいです。<br><br>これで困っている人はたくさんありますから……。<br><br>そしてあれはただ本人が苦しむだけではなくて、家族の者でも知り合いの人でも、伝染するとおどかされてビクビクしている、その哀れな状態などは見ていられないくらいです。<br><br>ですからそれを大いに知らせなければならないというわけです。<br><br>それで今までの文明というものは間違っている点がたくさんあるのです。<br><br>今病気に関して一生懸命にやってますが、これが一番の根本です。<br><br> それから病気のない世界という基礎的の仕事をしながら、今度はほかのいろいろなこともだんだんにやって行きます。<br><br>二十三日、二十四日は教育のことについて話し、昨日は政治のことを話しましたが、そのほかに経済とか社会問題とかもだんだんに知らせるつもりです。<br><br> この教育については、いずれ救世教でも学校を作るつもりです。<br><br>ところが文部省令と抵触するのです。<br><br>というのは、十二歳から教育をさせるということです。<br><br>今までは早く教育をさせるために頭の良い人間が減るのです。<br><br>おそらく今の人間くらい頭の悪いのはありません。<br><br>その代わり上面はばかに利巧になってしまったのです。<br><br>というのは、頭が発育しないうちに使い過ぎるわけです。<br><br>まあ頭脳の酷使です。<br><br>なにしろ人間、生まれて七つや八つでは、まだ頭ができあがらないのです。<br><br>中途半端なのです。<br><br>ちょうど十ぐらいの人間に労働させるようなもので、あんまり子供のうちから労働させると背が伸びなくなるのです。<br><br>頭もそれと同じで、頭ができあがらないうちに使ってしまうから、それで発育が止まってしまうのです。<br><br>本当の働きというものができないのです。<br><br>ですから十二になってから学校を受けさせて、小学三年、中学三年、大学三年の九年で卒業できるのです。<br><br>それから学問も、今はよけいな学問を半分くらいやってます。<br><br>医科大学とかやってますが、それは間違ったことです。<br><br>その間違ったことに十年も十五年も無駄な努力をしているわけです。<br><br>そういうことはなくなります。<br><br>それは今こっちでやっている浄霊ですが、そういう医学というものは十年もたてば覚えられます。<br><br>あなた方はそういうことを規則的に学校教育で教えられなくても、二、三年で分かりますから、実に簡単なものです。<br><br>それから法律も今のようなややこしい、第何百何十何条ということもなくなります。<br><br>しかし聖徳太子の十七カ条ではあんまり簡単すぎます。<br><br>それはあの時代とは時代が違いますから、もう少しよけいになりますが、今の法律の十分の一くらいですみます。<br><br>それから農科大学というものも必要ないのです。<br><br>なにもしないで、土に種さえまけば良いのですから、農科大学ということもなにもいりません。<br><br>ですからまず学問の分量からいって、今の半分くらいですみます。<br><br>それから経済学もいりませんし、税法というようなややこしいこともいりません。<br><br>そうすると半分以上学問は減ります。<br><br>ですから九年でも多過ぎるくらいのものです。<br><br>そうなったら、学校教育は半日くらいで良いのです。<br><br>半日学校に行けば、午後は遊んでいて良いのです。<br><br>午後はスポーツをやれば良いのです。<br><br>そういうこともだんだんに書きます。<br><br> そういうようで、救世教がやることは宗教ではないのです。<br><br>一口に言えば世界の文化革命です。<br><br>それをやるについては宗教的にやるのが一番良いのです。<br><br>一番やり良いのと、結果が良いのです。<br><br>というのは、根本である霊があるということを知らせるのは、それは宗教的にもってゆくよりほかにしようがないのです。<br><br>ですから宗教は、一つの宗教形式と言いますか、それを利用するわけです。<br><br>だから救世教の中心は宗教的で、それを分からせるというのに浄霊で病気をなおすという奇蹟です。<br><br>これが霊の実在を知らせるのに一番良いのです。<br><br>ということは、もうこれよりほかにしようがないのです。<br><br>それで病気がなおるということが今の人の頭でいったら奇蹟ですから、それで今度は『救世教奇蹟集』というのを、今編集してますが、これは霊の実在を教える手段なのです。<br><br>そういうようで、だんだんそういうことを知るについて、文化革命になるわけです。<br><br>そのうちでも根本は医学ですから、医学革命というこれが一番大きな問題です。<br><br>だから今度売り出した『結核信仰療法』は問題になるべきものです。<br><br>けれども問題になるというが、その形がどう出るかということはちょうど戦争と同じようなもので、平和の戦争です。<br><br>武器を使用しない戦争ですから、先方はどう出るかということです。<br><br>なにしろ「医学が結核を作る」「結核は感染しない」「黴菌というものは根本原因ではない、結果だ」というようなことを書いてありますから、もしあれを見て医学が黙っていたら、あれを認めることになります。<br><br>容認することになるから、どうしても先方はなんとか言わなければならないのです。<br><br>そうかといって実例が百つけてありますから、それを読むと、自分の方はあれほどの結果は得られないのですから、先がこっちに攻勢に出るということはできないわけです。<br><br>そこでいずれ医師会やなにかでみんなが相談したりし、それから当局の厚生省あたりでも、なんとかしなければならないというところまで、だんだん追いつめられてきます。<br><br>これはどうしても医学より救世教の浄霊の方が確かになおる、効果がある、そうすれば浄霊の方を一般に行なわなければならない。<br><br>そうすると医学を廃止しなければならないということになります。<br><br>そうかといって、理論とか科学とか言ったところで、実際になおる方が良いのですから、向こうでもだんだん研究し調査をすることになるでしょう。<br><br>そうすると医学よりもずっとなおるということが分かります。<br><br>いつも言うとおり、百対一でも足りないのです。<br><br>そうすると浄霊を採用するか、医学を採用するか、というところまで行きますから、政府でも徹底的に調査しなければならないことになります。<br><br>そうしたら私はまず大病院に行って病人を片端から浄霊してなおしてきます。<br><br>その場合でも、薬をたくさん使ってある者はなおりが悪く、薬が少ない者はこのとおり早くなおるということを見せますから、そうすると薬毒ということも分かります。<br><br>これは私が行くまでもなく、私の弟子でたくさんだと思います。<br><br>それだけの効果を上げることができると思います。<br><br>そうなるとどうしても浄霊を採用しなければならないのです。<br><br>そうして医学の方を廃止しなければならないということにまで行くわけです。<br><br>また行かなければならないのです。<br><br>それでもグズグズしていると、病人の方で医者の方に行かないで、みんなこっちに来るようになります。<br><br>ですからもしか先方が執着が取れないで頑張っていたら、自然に亡びるということになります。<br><br>そうなると浄霊をする人が何万人できても足りないことになります。<br><br>今医者は全国で七万人ありますが、そうするとまず信者で浄霊を専門にする人が七万人は必要になります。<br><br>しかしこっちは何年もかかって学校で教育するのではないからわけはありません。<br><br>そうなると浄霊医者になり手がたくさんあります。<br><br>それで一カ月卒業くらいでドンドン卒業させてやっていると、しまいにはそれが外国の方に知れてぜひ来てくれというので、浄霊教師を招聘（しょうへい）することになります。<br><br>そうなると外国人がみんな生徒になりますから、みんな頭を下げます。<br><br>それだけでも、とにかく日本が世界を救い、日本人というものは一番優秀な国民だということになりますから、日本人に全部頭を下げるに違いありません。<br><br>いずれはそうなりますが、もっと手っ取り早いのは自然栽培です。<br><br>数年くらいたつうちにはドンドン増えて行きますから、そこで米の輸入をしなくてもすむというので、救世教のお蔭だということになって、みんな頭を下げます。<br><br>そうなってから今度は政治とかいろいろな仕事をするのです。<br><br>さもなければなかなか信用しないのです。<br><br> 政治も、今の政治界の有様を見ると、しようがないのです。<br><br>悪く言えばみんなお神楽でも踊っているようなもので、みんな馬鹿踊りを踊っているのです。<br><br>事実、吉田さんは「馬鹿野郎」と言ったのだから、馬鹿踊りに違いありません。<br><br>ところが「馬鹿野郎、良く考えりゃオレのこと」で、吉田さん自身がやっぱり、「オレのこと」だったのです。<br><br>今度の総選挙にしろ、不信任案が因ですが、不信任案の可決というものは、馬鹿野郎問題によって起ったのです。<br><br>あれまではそうなかったが、あれからがうんと騒がしくなったのです。<br><br>そうすると、それも前の総選挙から半年たつか、たたないうちにやるのですから、国民の迷惑から国家経済から言っても、その費用も何百億というのですからたいへんなものです。<br><br>少なくとも三百億はいるだろうと言われてます。<br><br>その三百億というものは、みんな国民の税金です。<br><br>その税金は楽に出せるものではないのです。<br><br>その負担もたいへんなものです。<br><br>だからどっちが良いかは分からないです。<br><br>そういうようですから政治も改革しなければならないのです。<br><br>この間、衆議院議員が三人、参議院議員が一人と、幹部の人がいましたが、その時言ったことですが、信者で代議士が三十人以上できれば、私は政党を作ると言ったのです。<br><br>三十人以上なら交渉団体になりますから、発言権があります。<br><br>その代わりこっちの方針は本当の公明選挙です。<br><br>看板だけではなく、やることも公明選挙です。<br><br>爪の垢ほども不正はやりません。<br><br>本当にやるのです。<br><br>そして今のようなだらしのないことはしません。<br><br>それでちゃんとこっちの政党の方針なり、候補者の意見なりを詳しく印刷した物を選挙人に配ります。<br><br>それでもし場合によれば、大新聞でなくも中新聞をこっちの機関紙とするのです。<br><br>昔は機関新聞というものがありましたが、今の政党ではぜんぜんないのです。<br><br>それはいろんな事情があって経営できなかったりするのですが、本当は新聞に出さなければいけないのです。<br><br>それで今新聞を機関紙としてやれないのは、本当のことをやってないから、思いきって新聞に書けないのです。<br><br>人のアラを探してやったところで、御自分の方も同じなのだから、堂々と意見を書くことができないのです。<br><br>それでどうしても新聞で政治教育もしなければならないのです。<br><br> 日本で一番困るのは個人個人になっていることです。<br><br>人物本位で投票しろというが、これが一番いけないのです。<br><br>第一、人物本位にしろと言っても、どの人が一番偉い人かということは分かりません。<br><br>道路で自動車の中から「岡田茂吉、岡田茂吉」というように言うが、そういうように数多く広告する人が偉いかというと、むしろそういうことをするのは偉くないでしょう。<br><br>そうすると誰が立派な人物かということは分かりません。<br><br>また分かるはずがありません。<br><br>そこでアメリカのように政党第一主義で、政党に投票するとなると、「わが党はこういう政見である」ということを言いますから、そこでその党の誰に投票しても良いのです。<br><br>日本のように人物本位というと、国民に対する罪です。<br><br>そうかといって、政見発表といっても、この忙しいのに聞きに行くのはたいへんです。<br><br>それなら政見発表を文章に書いて出せば良いのです。<br><br>私は前にこのことを書いたことがあります。<br><br>ですから誰がどんな意見を持っているか、誰が偉いかということは見当もつかないのです。<br><br>そこで名前をたくさん呼ぶというやり方になるのです。<br><br>またそういうのが効果があるのです。<br><br>名前をたくさん言った人は票数がたくさんはいって、たいてい当選するのです。<br><br>しかしこんな馬鹿馬鹿しいことはありません。<br><br>そういうことも、大いに政治の革命をしなければならないところです。<br><br>だからいくら宗教が良いことを言って、国家社会に良いことをしようとしても、権力は政府にあるのだから……。<br><br>このごろは民主的になったためにだいぶ良くはなったが、それでも宗教は政治に干与すべからずという不文律があるのです。<br><br>前に注意されたことがあります。<br><br>政治的のことを『光』新聞のころに書いたことがありますが、「にらまれますから、これはやらない方が良いです」というのです。<br><br>それで私は寸鉄に書いたのです。<br><br>論文ではいけないが寸鉄なら一種のユーモラスでごまかせますから……。<br><br>そういうようで政治というものは世の中を良くし人類を救うには肝腎なのです。<br><br>しかしこれはローマ時代からずっと宗教の方が権威を持っていたために、たいへんな弊害があったので、それに懲りて政教分離という政策をとったのですが、日本などにはそういうことをする必要はありません。<br><br>それはローマ法王というような人がいばった時代には、コペルニクスやガリレオの地動説は、宗教のためにやられてしまったのです。<br><br>そしてその時分には宗教裁判といって、裁判も宗教の方でやったのです。<br><br>そこで憲法政治になってから、宗教はくちばしを入れられないようになったのです。<br><br>しかし今日はそういう心配はないのだから、そうとうに宗教家に口を出させるのが良いのです。<br><br>また宗教家は間違った変なことをしたり、変なことを言ったりすることはありません。<br><br>ところで今宗教家に干与させないのは、宗教家は正しいことをやるのに、自分の方は正しくないことをするからという意味ではないかと思います。<br><br>政界演説のようになりましたが、信仰するうえにおいて、そういうことも知っておかなければなりません。<br><br>今にだんだん信者が増えるうちに、代議士や参議院議員の希望者が増えるようになりますから、そうなったらその人に投票すれば結構です。<br><br>早くそうなれば良いと思います。<br><br> その話はこのくらいにして、美術館についてちょっと話します。<br><br>美術館は別館があらかたできて、ふつうは去年と一同じに六月から開館するつもりだったのですが、箱根の旅館や電鉄の方で、早くやってくれと頼むし、そのほかにもそういう要求を時々耳にしますから、四月二十一日から開館します。<br><br>それでこの特筆すべきことは外国の古美術です。<br><br>エジプト、ギリシア、ペルシア、インドなどの物がだいぶ集まったので、一室だけはそれを並べようと思ってます。<br><br>こういう展覧会というのは今まで日本にはないのです。<br><br>というのは、博物館は手を出さなかったのです。<br><br>それで今は後悔しているようです。<br><br>前には帝室博物館というので、要するに宮内省の管轄でしたから、どこまでも日本的で、国粋主義が旺盛ですから、美術は日本に限るというので、あんまり外国の方に目をつけなかったのです。<br><br>そのために外国の古美術という物は日本人の目に触れる機会がなかったのです。<br><br>また個人も手を触れなかったのです。<br><br>ところが日本には割合にあるのです。<br><br>それは不思議ですが、いろんな妙なことで、はいってきたようですが、またその古美術になかなか良い物があるのです。<br><br>ところが不思議にも今年になってからドカドカはいってきたのです。<br><br>それは神様がやられているのですが、そこで神様がやれということと思ったので、それを特別展覧会として陳列するわけです。<br><br>そうして六月からは浮世絵展ですが、これもすっかり品物が集まって、私の方にない分だけは博物館で貸してくれるそうです。<br><br>この間博物館から来て、すっかり調べてくれました。<br><br>そういうようにこの浮世絵展は、今までに何回もありましたが、今までにない傑出した展覧会になります。<br><br>ですから外国のそういった鑑賞家も日本にそうとういますから、そういう人は非常に期待を持ってます。<br><br>この間、英国大使館の参事官で、ブルームという米国人で、その方ではたいへんな識者ですが、見たいと言って私の方に来たので見せてやりましたが、非常に驚き、また褒めてました。<br><br>そして自分が外国のそういった人に大いに宣伝するからと言って、自分は一週間に一回来て見せてもらうというようなことを言ってました。<br><br>その人はいったんアメリカに帰って六月とかにまた出てくるというのです。<br><br>この人は美術館について将来大いに働くのではないかと思ってます。<br><br>そういうようで六月からの浮世絵展はそうとう評判になるだろうと思ってます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Alvorada da Nova Civilização</h2>
 <p>Recentemente, publiquei as obras <em>Como Salvar a América</em> e <em>Terapia da Fé para a Tuberculose</em>. Embora possa parecer uma afirmação modesta, o propósito dessas obras é, em essência, demolir os alicerces de diversos aspectos da cultura vigente para, então, revelar a verdade. Em suma, a civilização que conhecemos até hoje é uma civilização noturna. Isso significa que tudo, da medicina à agricultura, dependia de fontes artificiais de luz, como a eletricidade, os lampiões, o gás e as lâmpadas fluorescentes. Todavia, quando o Sol se eleva e o dia amanhece, tais artefatos perdem sua utilidade. Apesar de o mundo já se encontrar consideravelmente mais iluminado, as pessoas continuam a valorizar essas velhas ferramentas. Minha missão é esclarecer que não apenas elas se tornaram desnecessárias, como, em certas circunstâncias, podem até mesmo se transformar em obstáculos. Por essa razão, quando afirmo que aquilo que por tanto tempo foi útil ou conveniente se tornou completamente obsoleto, a reação natural de muitos é de espanto e oposição. Fazer com que compreendam essa transição é, portanto, uma tarefa árdua.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Este discurso acabou se tornando um comício político, mas, como fiéis, é importante que compreendam também esses assuntos. Com o crescimento do número de membros, surgirão cada vez mais candidatos a deputados e senadores. Quando isso acontecer, votem neles. Espero que esse dia chegue em breve.</p>
 <p>Deixando este assunto de lado, falarei brevemente sobre o Museu de Arte. O anexo está quase concluído. O plano original era inaugurá-lo em junho, como no ano anterior, mas recebemos insistentes pedidos de hotéis e da companhia de trens de Hakone para antecipar a abertura. Como essa solicitação tem se repetido, decidimos inaugurar no dia 21 de abril. O grande destaque será a exibição de arte antiga de outras nações. Reunimos um acervo considerável de peças do Egito, Grécia, Pérsia e Índia, e dedicaremos uma sala exclusivamente a elas. Uma exposição como essa é inédita no Japão. Os museus nacionais nunca se interessaram por esse campo e, ao que parece, agora se arrependem. O antigo Museu da Casa Imperial, sob jurisdição do Ministério da Casa Imperial, era estritamente japonês. Guiados por um nacionalismo exacerbado, defendiam que a arte se restringia ao Japão e, por isso, não deram atenção à arte estrangeira. Como resultado, o povo japonês nunca teve a oportunidade de apreciar a arte antiga de outras culturas. Colecionadores particulares também não se dedicaram a isso. Surpreendentemente, porém, existem muitas dessas peças no Japão, que chegaram ao país por vias curiosas, e entre elas há obras de grande valor. E, de forma ainda mais misteriosa, neste ano, essas obras começaram a chegar até mim em grande quantidade. Isso, sem dúvida, é obra de Deus, e interpretei esse movimento como uma determinação Divina para que eu as exibisse em uma exposição especial.</p>
 <p>A partir de junho, teremos a exposição de Ukiyo-e. Todas as obras já foram reunidas, e o que falta em meu acervo será emprestado pelo museu nacional. Recentemente, representantes do museu vieram inspecionar e catalogar tudo. Embora já tenham ocorrido muitas exposições de Ukiyo-e, esta será a mais extraordinária de todas. Há muitos apreciadores estrangeiros no Japão, e a expectativa deles é imensa. Dias atrás, recebi a visita de um conselheiro da embaixada britânica, um americano chamado Bloom, que é um grande conhecedor do assunto. Mostrei-lhe as obras, e ele ficou extremamente admirado e teceu muitos elogios. Prometeu divulgar amplamente a exposição entre os especialistas estrangeiros e disse que viria uma vez por semana para apreciá-la. Ele retornará aos Estados Unidos, mas estará de volta por volta de junho. Acredito que ele terá um papel importante no futuro do museu. Tenho certeza de que a exposição de Ukiyo-e, a partir de junho, alcançará grande notoriedade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S28年3月26日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月二十六日（４日目） 『アメリカを救う』『結核信仰療法』と次々に出ましたが、つまりこれから、言葉は弱いが、いろいろな文化的のものを根本的に壊してしまうのです。<br/><br/>そうして本当のものを知らせるということです。<br/><br/>これを一口に言うと、今までの文明は夜の文明です。<br/><br/>つまり医学にしろ、農業にしろ、一切のものが電気とか行灯、それからガス、蛍光灯というものだったのです。<br/><br/>ところが太陽が出て昼間になると、そういう物はいらなくなるのです。<br/><br/>それでだいぶ明るくなったにかかわらず、そういう物をありがたがっているから「そういう物はいらない」「かえって物によっては邪魔になる物がある」というようなことを知らせるわけです。<br/><br/>だから今まで長い間それで間にあったり、あるいはそれあるために便利を得ていたというのが、ぜんぜん駄目だと言われるので、びっくりして反対したりいろいろするのです。<br/><br/>ですから呑み込ませるのになかなか骨が折れるわけです。<br/><br/>それで今日、結核について、どれほど人間が苦しんでいるかということは、みんなよく知ってますから今さら説明の要はありませんが、そういうようで『結核信仰療法』はなかなか売れるらしいです。<br/><br/>これで困っている人はたくさんありますから……。<br/><br/>そしてあれはただ本人が苦しむだけではなくて、家族の者でも知り合いの人でも、伝染するとおどかされてビクビクしている、その哀れな状態などは見ていられないくらいです。<br/><br/>ですからそれを大いに知らせなければならないというわけです。<br/><br/>それで今までの文明というものは間違っている点がたくさんあるのです。<br/><br/>今病気に関して一生懸命にやってますが、これが一番の根本です。<br/><br/> それから病気のない世界という基礎的の仕事をしながら、今度はほかのいろいろなこともだんだんにやって行きます。<br/><br/>二十三日、二十四日は教育のことについて話し、昨日は政治のことを話しましたが、そのほかに経済とか社会問題とかもだんだんに知らせるつもりです。<br/><br/> この教育については、いずれ救世教でも学校を作るつもりです。<br/><br/>ところが文部省令と抵触するのです。<br/><br/>というのは、十二歳から教育をさせるということです。<br/><br/>今までは早く教育をさせるために頭の良い人間が減るのです。<br/><br/>おそらく今の人間くらい頭の悪いのはありません。<br/><br/>その代わり上面はばかに利巧になってしまったのです。<br/><br/>というのは、頭が発育しないうちに使い過ぎるわけです。<br/><br/>まあ頭脳の酷使です。<br/><br/>なにしろ人間、生まれて七つや八つでは、まだ頭ができあがらないのです。<br/><br/>中途半端なのです。<br/><br/>ちょうど十ぐらいの人間に労働させるようなもので、あんまり子供のうちから労働させると背が伸びなくなるのです。<br/><br/>頭もそれと同じで、頭ができあがらないうちに使ってしまうから、それで発育が止まってしまうのです。<br/><br/>本当の働きというものができないのです。<br/><br/>ですから十二になってから学校を受けさせて、小学三年、中学三年、大学三年の九年で卒業できるのです。<br/><br/>それから学問も、今はよけいな学問を半分くらいやってます。<br/><br/>医科大学とかやってますが、それは間違ったことです。<br/><br/>その間違ったことに十年も十五年も無駄な努力をしているわけです。<br/><br/>そういうことはなくなります。<br/><br/>それは今こっちでやっている浄霊ですが、そういう医学というものは十年もたてば覚えられます。<br/><br/>あなた方はそういうことを規則的に学校教育で教えられなくても、二、三年で分かりますから、実に簡単なものです。<br/><br/>それから法律も今のようなややこしい、第何百何十何条ということもなくなります。<br/><br/>しかし聖徳太子の十七カ条ではあんまり簡単すぎます。<br/><br/>それはあの時代とは時代が違いますから、もう少しよけいになりますが、今の法律の十分の一くらいですみます。<br/><br/>それから農科大学というものも必要ないのです。<br/><br/>なにもしないで、土に種さえまけば良いのですから、農科大学ということもなにもいりません。<br/><br/>ですからまず学問の分量からいって、今の半分くらいですみます。<br/><br/>それから経済学もいりませんし、税法というようなややこしいこともいりません。<br/><br/>そうすると半分以上学問は減ります。<br/><br/>ですから九年でも多過ぎるくらいのものです。<br/><br/>そうなったら、学校教育は半日くらいで良いのです。<br/><br/>半日学校に行けば、午後は遊んでいて良いのです。<br/><br/>午後はスポーツをやれば良いのです。<br/><br/>そういうこともだんだんに書きます。<br/><br/> そういうようで、救世教がやることは宗教ではないのです。<br/><br/>一口に言えば世界の文化革命です。<br/><br/>それをやるについては宗教的にやるのが一番良いのです。<br/><br/>一番やり良いのと、結果が良いのです。<br/><br/>というのは、根本である霊があるということを知らせるのは、それは宗教的にもってゆくよりほかにしようがないのです。<br/><br/>ですから宗教は、一つの宗教形式と言いますか、それを利用するわけです。<br/><br/>だから救世教の中心は宗教的で、それを分からせるというのに浄霊で病気をなおすという奇蹟です。<br/><br/>これが霊の実在を知らせるのに一番良いのです。<br/><br/>ということは、もうこれよりほかにしようがないのです。<br/><br/>それで病気がなおるということが今の人の頭でいったら奇蹟ですから、それで今度は『救世教奇蹟集』というのを、今編集してますが、これは霊の実在を教える手段なのです。<br/><br/>そういうようで、だんだんそういうことを知るについて、文化革命になるわけです。<br/><br/>そのうちでも根本は医学ですから、医学革命というこれが一番大きな問題です。<br/><br/>だから今度売り出した『結核信仰療法』は問題になるべきものです。<br/><br/>けれども問題になるというが、その形がどう出るかということはちょうど戦争と同じようなもので、平和の戦争です。<br/><br/>武器を使用しない戦争ですから、先方はどう出るかということです。<br/><br/>なにしろ「医学が結核を作る」「結核は感染しない」「黴菌というものは根本原因ではない、結果だ」というようなことを書いてありますから、もしあれを見て医学が黙っていたら、あれを認めることになります。<br/><br/>容認することになるから、どうしても先方はなんとか言わなければならないのです。<br/><br/>そうかといって実例が百つけてありますから、それを読むと、自分の方はあれほどの結果は得られないのですから、先がこっちに攻勢に出るということはできないわけです。<br/><br/>そこでいずれ医師会やなにかでみんなが相談したりし、それから当局の厚生省あたりでも、なんとかしなければならないというところまで、だんだん追いつめられてきます。<br/><br/>これはどうしても医学より救世教の浄霊の方が確かになおる、効果がある、そうすれば浄霊の方を一般に行なわなければならない。<br/><br/>そうすると医学を廃止しなければならないということになります。<br/><br/>そうかといって、理論とか科学とか言ったところで、実際になおる方が良いのですから、向こうでもだんだん研究し調査をすることになるでしょう。<br/><br/>そうすると医学よりもずっとなおるということが分かります。<br/><br/>いつも言うとおり、百対一でも足りないのです。<br/><br/>そうすると浄霊を採用するか、医学を採用するか、というところまで行きますから、政府でも徹底的に調査しなければならないことになります。<br/><br/>そうしたら私はまず大病院に行って病人を片端から浄霊してなおしてきます。<br/><br/>その場合でも、薬をたくさん使ってある者はなおりが悪く、薬が少ない者はこのとおり早くなおるということを見せますから、そうすると薬毒ということも分かります。<br/><br/>これは私が行くまでもなく、私の弟子でたくさんだと思います。<br/><br/>それだけの効果を上げることができると思います。<br/><br/>そうなるとどうしても浄霊を採用しなければならないのです。<br/><br/>そうして医学の方を廃止しなければならないということにまで行くわけです。<br/><br/>また行かなければならないのです。<br/><br/>それでもグズグズしていると、病人の方で医者の方に行かないで、みんなこっちに来るようになります。<br/><br/>ですからもしか先方が執着が取れないで頑張っていたら、自然に亡びるということになります。<br/><br/>そうなると浄霊をする人が何万人できても足りないことになります。<br/><br/>今医者は全国で七万人ありますが、そうするとまず信者で浄霊を専門にする人が七万人は必要になります。<br/><br/>しかしこっちは何年もかかって学校で教育するのではないからわけはありません。<br/><br/>そうなると浄霊医者になり手がたくさんあります。<br/><br/>それで一カ月卒業くらいでドンドン卒業させてやっていると、しまいにはそれが外国の方に知れてぜひ来てくれというので、浄霊教師を招聘（しょうへい）することになります。<br/><br/>そうなると外国人がみんな生徒になりますから、みんな頭を下げます。<br/><br/>それだけでも、とにかく日本が世界を救い、日本人というものは一番優秀な国民だということになりますから、日本人に全部頭を下げるに違いありません。<br/><br/>いずれはそうなりますが、もっと手っ取り早いのは自然栽培です。<br/><br/>数年くらいたつうちにはドンドン増えて行きますから、そこで米の輸入をしなくてもすむというので、救世教のお蔭だということになって、みんな頭を下げます。<br/><br/>そうなってから今度は政治とかいろいろな仕事をするのです。<br/><br/>さもなければなかなか信用しないのです。<br/><br/> 政治も、今の政治界の有様を見ると、しようがないのです。<br/><br/>悪く言えばみんなお神楽でも踊っているようなもので、みんな馬鹿踊りを踊っているのです。<br/><br/>事実、吉田さんは「馬鹿野郎」と言ったのだから、馬鹿踊りに違いありません。<br/><br/>ところが「馬鹿野郎、良く考えりゃオレのこと」で、吉田さん自身がやっぱり、「オレのこと」だったのです。<br/><br/>今度の総選挙にしろ、不信任案が因ですが、不信任案の可決というものは、馬鹿野郎問題によって起ったのです。<br/><br/>あれまではそうなかったが、あれからがうんと騒がしくなったのです。<br/><br/>そうすると、それも前の総選挙から半年たつか、たたないうちにやるのですから、国民の迷惑から国家経済から言っても、その費用も何百億というのですからたいへんなものです。<br/><br/>少なくとも三百億はいるだろうと言われてます。<br/><br/>その三百億というものは、みんな国民の税金です。<br/><br/>その税金は楽に出せるものではないのです。<br/><br/>その負担もたいへんなものです。<br/><br/>だからどっちが良いかは分からないです。<br/><br/>そういうようですから政治も改革しなければならないのです。<br/><br/>この間、衆議院議員が三人、参議院議員が一人と、幹部の人がいましたが、その時言ったことですが、信者で代議士が三十人以上できれば、私は政党を作ると言ったのです。<br/><br/>三十人以上なら交渉団体になりますから、発言権があります。<br/><br/>その代わりこっちの方針は本当の公明選挙です。<br/><br/>看板だけではなく、やることも公明選挙です。<br/><br/>爪の垢ほども不正はやりません。<br/><br/>本当にやるのです。<br/><br/>そして今のようなだらしのないことはしません。<br/><br/>それでちゃんとこっちの政党の方針なり、候補者の意見なりを詳しく印刷した物を選挙人に配ります。<br/><br/>それでもし場合によれば、大新聞でなくも中新聞をこっちの機関紙とするのです。<br/><br/>昔は機関新聞というものがありましたが、今の政党ではぜんぜんないのです。<br/><br/>それはいろんな事情があって経営できなかったりするのですが、本当は新聞に出さなければいけないのです。<br/><br/>それで今新聞を機関紙としてやれないのは、本当のことをやってないから、思いきって新聞に書けないのです。<br/><br/>人のアラを探してやったところで、御自分の方も同じなのだから、堂々と意見を書くことができないのです。<br/><br/>それでどうしても新聞で政治教育もしなければならないのです。<br/><br/> 日本で一番困るのは個人個人になっていることです。<br/><br/>人物本位で投票しろというが、これが一番いけないのです。<br/><br/>第一、人物本位にしろと言っても、どの人が一番偉い人かということは分かりません。<br/><br/>道路で自動車の中から「岡田茂吉、岡田茂吉」というように言うが、そういうように数多く広告する人が偉いかというと、むしろそういうことをするのは偉くないでしょう。<br/><br/>そうすると誰が立派な人物かということは分かりません。<br/><br/>また分かるはずがありません。<br/><br/>そこでアメリカのように政党第一主義で、政党に投票するとなると、「わが党はこういう政見である」ということを言いますから、そこでその党の誰に投票しても良いのです。<br/><br/>日本のように人物本位というと、国民に対する罪です。<br/><br/>そうかといって、政見発表といっても、この忙しいのに聞きに行くのはたいへんです。<br/><br/>それなら政見発表を文章に書いて出せば良いのです。<br/><br/>私は前にこのことを書いたことがあります。<br/><br/>ですから誰がどんな意見を持っているか、誰が偉いかということは見当もつかないのです。<br/><br/>そこで名前をたくさん呼ぶというやり方になるのです。<br/><br/>またそういうのが効果があるのです。<br/><br/>名前をたくさん言った人は票数がたくさんはいって、たいてい当選するのです。<br/><br/>しかしこんな馬鹿馬鹿しいことはありません。<br/><br/>そういうことも、大いに政治の革命をしなければならないところです。<br/><br/>だからいくら宗教が良いことを言って、国家社会に良いことをしようとしても、権力は政府にあるのだから……。<br/><br/>このごろは民主的になったためにだいぶ良くはなったが、それでも宗教は政治に干与すべからずという不文律があるのです。<br/><br/>前に注意されたことがあります。<br/><br/>政治的のことを『光』新聞のころに書いたことがありますが、「にらまれますから、これはやらない方が良いです」というのです。<br/><br/>それで私は寸鉄に書いたのです。<br/><br/>論文ではいけないが寸鉄なら一種のユーモラスでごまかせますから……。<br/><br/>そういうようで政治というものは世の中を良くし人類を救うには肝腎なのです。<br/><br/>しかしこれはローマ時代からずっと宗教の方が権威を持っていたために、たいへんな弊害があったので、それに懲りて政教分離という政策をとったのですが、日本などにはそういうことをする必要はありません。<br/><br/>それはローマ法王というような人がいばった時代には、コペルニクスやガリレオの地動説は、宗教のためにやられてしまったのです。<br/><br/>そしてその時分には宗教裁判といって、裁判も宗教の方でやったのです。<br/><br/>そこで憲法政治になってから、宗教はくちばしを入れられないようになったのです。<br/><br/>しかし今日はそういう心配はないのだから、そうとうに宗教家に口を出させるのが良いのです。<br/><br/>また宗教家は間違った変なことをしたり、変なことを言ったりすることはありません。<br/><br/>ところで今宗教家に干与させないのは、宗教家は正しいことをやるのに、自分の方は正しくないことをするからという意味ではないかと思います。<br/><br/>政界演説のようになりましたが、信仰するうえにおいて、そういうことも知っておかなければなりません。<br/><br/>今にだんだん信者が増えるうちに、代議士や参議院議員の希望者が増えるようになりますから、そうなったらその人に投票すれば結構です。<br/><br/>早くそうなれば良いと思います。<br/><br/> その話はこのくらいにして、美術館についてちょっと話します。<br/><br/>美術館は別館があらかたできて、ふつうは去年と一同じに六月から開館するつもりだったのですが、箱根の旅館や電鉄の方で、早くやってくれと頼むし、そのほかにもそういう要求を時々耳にしますから、四月二十一日から開館します。<br/><br/>それでこの特筆すべきことは外国の古美術です。<br/><br/>エジプト、ギリシア、ペルシア、インドなどの物がだいぶ集まったので、一室だけはそれを並べようと思ってます。<br/><br/>こういう展覧会というのは今まで日本にはないのです。<br/><br/>というのは、博物館は手を出さなかったのです。<br/><br/>それで今は後悔しているようです。<br/><br/>前には帝室博物館というので、要するに宮内省の管轄でしたから、どこまでも日本的で、国粋主義が旺盛ですから、美術は日本に限るというので、あんまり外国の方に目をつけなかったのです。<br/><br/>そのために外国の古美術という物は日本人の目に触れる機会がなかったのです。<br/><br/>また個人も手を触れなかったのです。<br/><br/>ところが日本には割合にあるのです。<br/><br/>それは不思議ですが、いろんな妙なことで、はいってきたようですが、またその古美術になかなか良い物があるのです。<br/><br/>ところが不思議にも今年になってからドカドカはいってきたのです。<br/><br/>それは神様がやられているのですが、そこで神様がやれということと思ったので、それを特別展覧会として陳列するわけです。<br/><br/>そうして六月からは浮世絵展ですが、これもすっかり品物が集まって、私の方にない分だけは博物館で貸してくれるそうです。<br/><br/>この間博物館から来て、すっかり調べてくれました。<br/><br/>そういうようにこの浮世絵展は、今までに何回もありましたが、今までにない傑出した展覧会になります。<br/><br/>ですから外国のそういった鑑賞家も日本にそうとういますから、そういう人は非常に期待を持ってます。<br/><br/>この間、英国大使館の参事官で、ブルームという米国人で、その方ではたいへんな識者ですが、見たいと言って私の方に来たので見せてやりましたが、非常に驚き、また褒めてました。<br/><br/>そして自分が外国のそういった人に大いに宣伝するからと言って、自分は一週間に一回来て見せてもらうというようなことを言ってました。<br/><br/>その人はいったんアメリカに帰って六月とかにまた出てくるというのです。<br/><br/>この人は美術館について将来大いに働くのではないかと思ってます。<br/><br/>そういうようで六月からの浮世絵展はそうとう評判になるだろうと思ってます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

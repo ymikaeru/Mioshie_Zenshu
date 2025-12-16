@@ -4,56 +4,211 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>12kagetu</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 関 連 出 版 物 ――― 稲作十二カ月 『稲作十二カ月』昭和30年1月1日発行 序 自然農法普及会副会長 渡辺 勝 自然農法の原理とは、土の偉力を発揮させることである。<br><br>大自然の万物は「火、水、土」の三元素によって生成化育するものである。<br><br>そこで農作物にもこの三元素を豊富にするため、日当りをよくし、水分を十分に吸収させ、土を清くすれば、あらゆる作物は自らの生命力と、大自然の恵みによって、完全豊実（ほうじつ）するという極めて明白な条理につきるのである。<br><br>ところが既存農法は、大自然の力を無視して、作物の母体である土本来の働きを軽視している。<br><br>特に、肥料を作物の栄養源であるかの如く、錯覚しているところに根本的誤りがある。<br><br>この事実は、永年にわたり、金肥や人糞を多量に施こし、土に対し一片の愛情すら与えず乱用する結果、作物収量の限界点に達していることによって十分証明されるであろう。<br><br>有肥農法の根本的誤謬がここに指摘されるわけである。<br><br>既存農法の欠陥はさらに深刻なものがある。<br><br>即ち金肥、人糞等の施肥による悪循環は、農作物の成長期にこれを弱体化し、風水等や寒冷に耐ゆる抵抗力を弱め、病虫等にも犯され易くなり、これがため年々歳々減収の悲境に陥っている。<br><br>自然農法は、創始者が、行詰った日本農法を革新し、人類の福祉をこれによって増進せんとする発意から提唱したもので、既に十年の歴史をもち、全国到るところに耕作実施者は普及している。<br><br>自然農法の強味は、その原理をわきまえ、これを実施すれば必ず初年度より増産確実となり、その実証が全国各地で裏づけされていることである。<br><br> 本書は、これら実施者のために、より一層の増産に資し、未経験者のためには親切な手引きとなり、一面、自然農法の原埋を理解せず、あるいは、自然農法による増収の実証に懸念を抱く人々を啓蒙するため、特に米作に主力を置き「稲作十二カ月」をとりあげたのである。<br><br>ただ注意を要することは、米作技術について、土地の状況により多少の工夫を要する点がある。<br><br>その点をよく研究考慮し、本書を熟読玩味して忠実に実施されたい。<br><br> 昭和三十年一月 自然農法三原則 一、肥料 農薬 １、金肥等各種化学肥料は使用せぬこと。<br><br> ２、堆肥、厩肥、人糞尿、鶏糞その他、一切の糞尿は使用せぬこと。<br><br> ３、れんげ、草等、木灰、藁灰、焼土等は使用せぬこと。<br><br> ４、その他人為肥料として用いるものは一切使用せぬこと。<br><br> ５、消毒その他の農薬は一切使用せぬこと。<br><br> 二、土 １、自然農法とは大自然の法則「火、水、土」の耕作法である。<br><br> ２、土は肥料そのものであるから、土を清浄にすればよい。<br><br> ３、土の分量（耕作土）をふやすこと。<br><br> ４、初めて深耕する時は必ず客土をすること。<br><br> 三、種子 苗 １、種子は過去に肥毒を吸収していない清浄なものを用いること。<br><br> 無肥の種子の入手出来ない場合は、同じ圃場（ほじょう）で毎年繰り返して連作して無肥化すること。<br><br> ２、種子は何品種でもよいが、遠隔地のものは使用せぬほうがよい。<br><br> ３、苗作りは太くて、短く、堅い健全なるものを作ること。<br><br> 自然農法は右の三原則を堅く守ること。<br><br> 十 二 月 行 事 一、土作り １、自然農法は土が生命だから、土作りが一番重要である。<br><br> ２、時期は稲の刈取後、速かに耕起準備をする。<br><br>原則としては、藁は使用してはいけない。<br><br> ３、粘りのない土、また締り易い砂壌土（さじょうど）の場合、藁を少量使用するとよい。<br><br> ４、新開地、寒冷地帯等必要な揚合は、成るべく短く切った藁をこの月中に一面に撒布する。<br><br>その場合でも反当五十貫位を適量とする。<br><br> ５、藁を使用する場合は風化作用がよく行われるように熱を持たせて使うと、なおよい。<br><br> （注意）田植間際に藁を使用すると必ず失敗する。<br><br> ６、一度深耕客土した田は、そのままで六寸ないし七寸耕起、砕土すればよい。<br><br> ７、田に客土用の土や藁等を積んで置くと、土の呼吸を止めたり、病虫がつきやすいから、絶対に積まないこと。<br><br>また藁等の焚火を田でしてはいけない。<br><br> ８、培土の必要な田。<br><br> （１） 新しく作った水田。<br><br> （２） 耕土の極く浅い田の耕土を一度に増した場合。<br><br> （３） 分蘖（ぶんけつ）が非常に困難な田。<br><br> （註）培土の作り方l 〇三四カ月後掻混ぜて使う。<br><br> ○藁は五分位に切る。<br><br> ９、新しく畑を水田に作り換えた揚合は山土（表土より三尺下の土）を五千貫位、入れること。<br><br> （注意）三月以降（寒中を経た後）は深掘り天地返しをすると失敗する。<br><br> 二、深 耕 １、深耕に際しては、床（肥毒の層一寸五分二、三寸位）は全部起すように努めたい。<br><br>―― （既耕土の五割増位まで） ２、起す場合、必ず底土は耕土の上部に置くように耕起する。<br><br> ３、冬期中に底士を砕土風化させ、肥毒の浄化に努める。<br><br> ４、決して一度に深耕せず、耕土が浅い場合は、その耕土を一尺程度にするのに二、三年かかるもよし。<br><br> ５、水田の深耕のための水持ちについて、冠水をかければ水持ちは心配いらない。<br><br> （注意） （１） 実施初年度の場合、新土を上部に出し過ぎると失敗することがある。<br><br> （２） 深耕した時、砕土を怠ると肥毒が残り失敗する。<br><br> 三、客 土 １、客土の目的は、肥毒中和のためであるから、反当三千貫位を適当とする。<br><br> ２、深耕の遅れた場合、また間に合わぬ時は、一千貫二千貫行えば、初年度にても秋落――ち、病虫害は解消する。<br><br> ３、初年度に深耕を実施した場合は、必ず三千貫位の客土を実施する。<br><br> ４、客土の場合は、肥毒のない土、すなわち山土なれば表土を除き、その下の土を客土する。<br><br>出来れば赤土を可とする。<br><br> ５、時期は、春の耕作まで何時でもよいが、前年度美しく十分結実しなかった田は、必ず客土すれば失敗はない。<br><br> ６、七、八寸以上ある沼田または泥炭地は深耕せず、四千貫五千貫客土するのが最もよ――い。<br><br> 一 月 行 事 一、不整地苗代の準備 １、苗代田の乾いた時期を見て、前年度刈取ったままで耕起せず、稲株は田面すれすれに切り取り実施する。<br><br> ２、四尺の畝に一尺の溝を作る。<br><br>畝を作る場合に、古い鎌で印を付けるとよい。<br><br> ３、四尺の畝には、一分切の藁を重ならないように一面に撒布する。<br><br> ４、一尺の溝から四寸までの土を、四尺畝の藁の上にのせる。<br><br>（表土は清浄であるから） ５、一尺の溝から上げた土が乾いた時期を見て、細かく砕いておく。<br><br>播種期まで草の生えないように時々手入れをする。<br><br> 二、覆土の準備 １、苗代用（種子播き付け）後の覆土として坪当り六貫程度の肥毒のない土（山土を可とす）を準備する。<br><br>そして播種期頃までに、細かく砕けるように注意する。<br><br> ２、覆土は前年度七、八月頃より取入れ準備をするとよい。<br><br> ３、雨に合わせると固まる土と砕ける土があることにもよく留意する必要がある。<br><br> （注意） （１） 不整地苗代は深耕して行うと失敗する。<br><br> （２） 固まりのある土を覆土に使用すると、分蘖をさまたげて失敗する。<br><br> 二、三 月 行 事 一、土の清浄化 １、耕起後、なお土の清浄化を徹底するために、耕し返しを行うとよい。<br><br>肥毒の多量の田は特に実行したい。<br><br> ２、耕起の遅れているところでも、二月未までには必ず耕起してしまうよう努める。<br><br>初年度深耕の場合は、凍りつく中に耕し返しをし、風化作用に努めるとよい。<br><br> ３、深耕を実施した水田にして特に水持ちの悪いと思われる土地は、前もって雪または雨水を受け、土に十分水を配すように注意する。<br><br> ４、乾いた時期を見はからって、囲った土を細かく砕き、風化作用と雑草の生えないように手入れする。<br><br> ５、肥毒の層が強い場合は、この期間中に二、三度耕起砕土すると最もよい。<br><br> ６、深耕した場合、出来れば流し水（人為洪水）をすればなおよい。<br><br> ７、遅れて本農法を実施する者は、特に客土、風化を必要とする。<br><br> （注意） 深耕した場合風化砕土を怠ると失敗する。<br><br> 四 月 行 事 一、播種期の決定 １、品種の特長を知り、早生品種は少し早目に、苗代期間五十日ないし六十日。<br><br>植付後六十日後に出穂という耕作法が良いと思われる。<br><br> ２、植付後、出穂までに六十日ないと茎数（分蘖）が少いので、その点に留意して、播種期の決定をすると良い。<br><br> 二、苗代の完備 苗代の準備してあるところ（表土の砕いてある）を、水平に直し、苗代の面積を調べる。<br><br>……四尺畝に九尺が一坪である。<br><br>一反に対し十坪の苗代を準備する。<br><br> 三、籾種浸水 籾種（もみだね）はきれいな流れ水（川の水）にすかして見える迄浸種する。<br><br> 四、播付け １、四月下旬五月上旬、播付けを行うが、条播機あるいは手播きの場合にも、急ぐこと――なく確実に播種する。<br><br> ２、播種量は反当り三合（坪当り三勺）が適量だが、不足の心配ある時は面積を少し増せばよい。<br><br> 不整地苗代は上図のように実施するを理想とする。<br><br> ３、播種後、前以って用意した山土（坪当り六、七貫目）を覆う。<br><br> ４、覆土の目的は草を防ぐためと鳥に拾われないため。<br><br> ５、不整地苗代の効果は、苗が健全にして病気にならない。<br><br> 五、普通苗代 １、不整地苗代困難の揚合は、従来の方法を取る場合、極力薄播にし日時を一日でも多く苗代に置くようにすれば強い苗が出来る。<br><br> ２、普通苗代の揚合も坪当り五勺、薄いくらいをよしとする。<br><br> ３、地方によりどうしても保温苗代をする時は、発芽後は逐次寒風に当て、長く保温せず、寒さに負けない苗を作ることが大切である。<br><br> （注意）発芽期に雀に拾われぬよう、覆土の表面に籾殻を少量撒くとよい。<br><br> 五、六 月 行 事 １、播き付け後は深水にして発芽し鳥等が拾わないようになれば、水は溝にあるようにし、苗場にはつかない程度でよい。<br><br> ２、不整地苗代の時、苗の発育が遅れたと思う時は、板切れに一寸釘を三本位打ち付けて、苗の株間を一度かき起せば分蘖するようになる。<br><br> ３、苗の発育が、五、六本以上に成育しそうな時は、植付けの十五日前頃、鎌（かま）で株間を一筋だけ切れば分蘖はピタリ止まる。<br><br> ４、苗を取る時は、深水にして取る。<br><br>土はあまり洗い落さない方がよい。<br><br> 二、本田準備 １、水漏れをよく調べ、悪い個所があれば畦をつき直し、修理すること。<br><br> ２、植付けをする四、五日前までに山や池を作らぬよう平面にかきならすことに忠実なること。<br><br> ３、水をつけてから土をねらない程よい。<br><br>ねると水の乾いた時、割れやすい。<br><br> ４、水持の悪い田は、床粘（とこね）りをするとよい。<br><br> ５、粘りのない土（泥になっていない土）は少しは粘った方がよい。<br><br> 三、植付け １、苗は強いのを一本植えにされたい。<br><br>苗代期間の長い苗は、力があるから必ず分蘖する。<br><br> ２、坪当りの最大分蘖数は、六、七百本から千本以内を最もよしとす。<br><br> （注意）千本以上に分蘖する場合は減収しやすい。<br><br> ３、耕土四寸以下の浅いところ、また日照時間の少い土地等は、株間は適宜でよいが、本数は必ず一本植が良好である。<br><br> ４、株間は普涌一尺一尺二寸位を適当とする。<br><br>耕土が五寸以上あれば土の活動が容易であ×り、温暖寒冷の影響も少いので、なるべく株間を広くされたい。<br><br> ５、根を傷めぬよう苗に愛情を持って、浅植にするとよい。<br><br> ６、苗は三本――六本に分蘖したのを良しとする。<br><br> （注意）六本以上分蘖した苗を使用すると、失敗する。<br><br> ◎（直播は目下指導部で研究中） 四、植付後の潅水 植付後は常時浅水で潅水するとよい。<br><br> 七、八、九 月 行 事 一、除草及び潅漑 １、一番除草は植付後十日までにガンヅメで深く中耕する。<br><br>二番除草は反対側から二寸位行うとよい。<br><br> ２、二番除草は一番除草後、一週間位で根本の草取り、土かきをする。<br><br> ３、七月末日までに三番除草を行う。<br><br>三番除草は根本の土を除き、小さい草も取れるようにする。<br><br> ４、分蘖不十分の時は、四番除草もするとよい。<br><br> ５、土用干も不要。<br><br>土用中は特に潅水に注意し、土割のしないよう努めること。<br><br> ６、八月下旬、九月上旬には出穂期（でほき）と成るので、その時期には水田に入ってはいけない。<br><br> ７、一般に水枯れのため乾くのは止むを得ない。<br><br>（ただし落水後、旱（ひでり）の時は一週間目位に刈取るまで、水のかけ流しをすると、一回毎に反当八升位青実が無く結実する） 二、落水の時期 １、乳熟期を過ぎ、籾がやや硬化するときを待ち、排水するを最適とする。<br><br> ２、照り込みの場合、地割のするような場合は、浸水するを良しとする。<br><br> 三、来年の準備 ◎不整地苗代を実施する者は、覆土をこの月に確保する。<br><br> 十、十一 月 行 事 一、採種 １、肥毒の無い土地で、稲が健康に育った自然年度の古いもの程よい。<br><br>なお美しくそろって結実したものなれば申分がない。<br><br> ２、病虫害または秋落ちした種子は使用しないこと。<br><br> ３、品種は、付近で獲れたものならなんでもよい。<br><br> ４、籾種は、同一田の種子を使用するを最も可とする。<br><br> ５、塩水田のところは、成るべく同地方の種子を選ぶと良い。<br><br> ６、親穂を除いた次に長い穂を、三本位選ぶのが最良である。<br><br> ７、一株中、穂先がそろったその穂先半分を採取するとよい。<br><br> ８、十分稔実（ねんじつ）しない七分色付いた時、取るのを最良の時期とする。<br><br>（胴割しない物） ９、採種した種子は日蔭で乾し、保管する。<br><br> 二、籾種の保管方法 【参考】 １、籾の入れ物は小さな俵を作って入れる。<br><br> ２、俵と箱の間隔は三寸程がよい。<br><br> ３、箱は隙のあるよう、雑な箱でよい。<br><br> ４、日光の当らぬ蔭に置くこと。<br><br> 本農法の研究希望者は自然農法普及会総本部へ問合せ下さい。<br><br> 『稲作十二カ月』 昭和30年1月1日発行 熱海市咲見町 自然農法普及会総本部 著者 自然農法普及会副会長 渡 辺 勝 発行者 自 然 農 法 社 藤 井 陽 堂 東京都江東区森下町一ノ九 印刷所 小山印刷工業株式会社 電話本所（63）五八六八 発行所 東京都江東区森下町一ノ九 自 然 農 法 社
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Rizicultura em Doze Meses</h2>
 <p>Publicado em 1º de janeiro de 1955</p>
@@ -271,5 +426,48 @@ Telefone: Honjo (63) 5868</p>
 <p>Casa Editora:
 Editora Shizen Nouhou
 1-9 Morishita-cho, Koto-ku, Tóquio</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 関 連 出 版 物 ――― 稲作十二カ月 『稲作十二カ月』昭和30年1月1日発行 序 自然農法普及会副会長 渡辺 勝 自然農法の原理とは、土の偉力を発揮させることである。<br/><br/>大自然の万物は「火、水、土」の三元素によって生成化育するものである。<br/><br/>そこで農作物にもこの三元素を豊富にするため、日当りをよくし、水分を十分に吸収させ、土を清くすれば、あらゆる作物は自らの生命力と、大自然の恵みによって、完全豊実（ほうじつ）するという極めて明白な条理につきるのである。<br/><br/>ところが既存農法は、大自然の力を無視して、作物の母体である土本来の働きを軽視している。<br/><br/>特に、肥料を作物の栄養源であるかの如く、錯覚しているところに根本的誤りがある。<br/><br/>この事実は、永年にわたり、金肥や人糞を多量に施こし、土に対し一片の愛情すら与えず乱用する結果、作物収量の限界点に達していることによって十分証明されるであろう。<br/><br/>有肥農法の根本的誤謬がここに指摘されるわけである。<br/><br/>既存農法の欠陥はさらに深刻なものがある。<br/><br/>即ち金肥、人糞等の施肥による悪循環は、農作物の成長期にこれを弱体化し、風水等や寒冷に耐ゆる抵抗力を弱め、病虫等にも犯され易くなり、これがため年々歳々減収の悲境に陥っている。<br/><br/>自然農法は、創始者が、行詰った日本農法を革新し、人類の福祉をこれによって増進せんとする発意から提唱したもので、既に十年の歴史をもち、全国到るところに耕作実施者は普及している。<br/><br/>自然農法の強味は、その原理をわきまえ、これを実施すれば必ず初年度より増産確実となり、その実証が全国各地で裏づけされていることである。<br/><br/> 本書は、これら実施者のために、より一層の増産に資し、未経験者のためには親切な手引きとなり、一面、自然農法の原埋を理解せず、あるいは、自然農法による増収の実証に懸念を抱く人々を啓蒙するため、特に米作に主力を置き「稲作十二カ月」をとりあげたのである。<br/><br/>ただ注意を要することは、米作技術について、土地の状況により多少の工夫を要する点がある。<br/><br/>その点をよく研究考慮し、本書を熟読玩味して忠実に実施されたい。<br/><br/> 昭和三十年一月 自然農法三原則 一、肥料 農薬 １、金肥等各種化学肥料は使用せぬこと。<br/><br/> ２、堆肥、厩肥、人糞尿、鶏糞その他、一切の糞尿は使用せぬこと。<br/><br/> ３、れんげ、草等、木灰、藁灰、焼土等は使用せぬこと。<br/><br/> ４、その他人為肥料として用いるものは一切使用せぬこと。<br/><br/> ５、消毒その他の農薬は一切使用せぬこと。<br/><br/> 二、土 １、自然農法とは大自然の法則「火、水、土」の耕作法である。<br/><br/> ２、土は肥料そのものであるから、土を清浄にすればよい。<br/><br/> ３、土の分量（耕作土）をふやすこと。<br/><br/> ４、初めて深耕する時は必ず客土をすること。<br/><br/> 三、種子 苗 １、種子は過去に肥毒を吸収していない清浄なものを用いること。<br/><br/> 無肥の種子の入手出来ない場合は、同じ圃場（ほじょう）で毎年繰り返して連作して無肥化すること。<br/><br/> ２、種子は何品種でもよいが、遠隔地のものは使用せぬほうがよい。<br/><br/> ３、苗作りは太くて、短く、堅い健全なるものを作ること。<br/><br/> 自然農法は右の三原則を堅く守ること。<br/><br/> 十 二 月 行 事 一、土作り １、自然農法は土が生命だから、土作りが一番重要である。<br/><br/> ２、時期は稲の刈取後、速かに耕起準備をする。<br/><br/>原則としては、藁は使用してはいけない。<br/><br/> ３、粘りのない土、また締り易い砂壌土（さじょうど）の場合、藁を少量使用するとよい。<br/><br/> ４、新開地、寒冷地帯等必要な揚合は、成るべく短く切った藁をこの月中に一面に撒布する。<br/><br/>その場合でも反当五十貫位を適量とする。<br/><br/> ５、藁を使用する場合は風化作用がよく行われるように熱を持たせて使うと、なおよい。<br/><br/> （注意）田植間際に藁を使用すると必ず失敗する。<br/><br/> ６、一度深耕客土した田は、そのままで六寸ないし七寸耕起、砕土すればよい。<br/><br/> ７、田に客土用の土や藁等を積んで置くと、土の呼吸を止めたり、病虫がつきやすいから、絶対に積まないこと。<br/><br/>また藁等の焚火を田でしてはいけない。<br/><br/> ８、培土の必要な田。<br/><br/> （１） 新しく作った水田。<br/><br/> （２） 耕土の極く浅い田の耕土を一度に増した場合。<br/><br/> （３） 分蘖（ぶんけつ）が非常に困難な田。<br/><br/> （註）培土の作り方l 〇三四カ月後掻混ぜて使う。<br/><br/> ○藁は五分位に切る。<br/><br/> ９、新しく畑を水田に作り換えた揚合は山土（表土より三尺下の土）を五千貫位、入れること。<br/><br/> （注意）三月以降（寒中を経た後）は深掘り天地返しをすると失敗する。<br/><br/> 二、深 耕 １、深耕に際しては、床（肥毒の層一寸五分二、三寸位）は全部起すように努めたい。<br/><br/>―― （既耕土の五割増位まで） ２、起す場合、必ず底土は耕土の上部に置くように耕起する。<br/><br/> ３、冬期中に底士を砕土風化させ、肥毒の浄化に努める。<br/><br/> ４、決して一度に深耕せず、耕土が浅い場合は、その耕土を一尺程度にするのに二、三年かかるもよし。<br/><br/> ５、水田の深耕のための水持ちについて、冠水をかければ水持ちは心配いらない。<br/><br/> （注意） （１） 実施初年度の場合、新土を上部に出し過ぎると失敗することがある。<br/><br/> （２） 深耕した時、砕土を怠ると肥毒が残り失敗する。<br/><br/> 三、客 土 １、客土の目的は、肥毒中和のためであるから、反当三千貫位を適当とする。<br/><br/> ２、深耕の遅れた場合、また間に合わぬ時は、一千貫二千貫行えば、初年度にても秋落――ち、病虫害は解消する。<br/><br/> ３、初年度に深耕を実施した場合は、必ず三千貫位の客土を実施する。<br/><br/> ４、客土の場合は、肥毒のない土、すなわち山土なれば表土を除き、その下の土を客土する。<br/><br/>出来れば赤土を可とする。<br/><br/> ５、時期は、春の耕作まで何時でもよいが、前年度美しく十分結実しなかった田は、必ず客土すれば失敗はない。<br/><br/> ６、七、八寸以上ある沼田または泥炭地は深耕せず、四千貫五千貫客土するのが最もよ――い。<br/><br/> 一 月 行 事 一、不整地苗代の準備 １、苗代田の乾いた時期を見て、前年度刈取ったままで耕起せず、稲株は田面すれすれに切り取り実施する。<br/><br/> ２、四尺の畝に一尺の溝を作る。<br/><br/>畝を作る場合に、古い鎌で印を付けるとよい。<br/><br/> ３、四尺の畝には、一分切の藁を重ならないように一面に撒布する。<br/><br/> ４、一尺の溝から四寸までの土を、四尺畝の藁の上にのせる。<br/><br/>（表土は清浄であるから） ５、一尺の溝から上げた土が乾いた時期を見て、細かく砕いておく。<br/><br/>播種期まで草の生えないように時々手入れをする。<br/><br/> 二、覆土の準備 １、苗代用（種子播き付け）後の覆土として坪当り六貫程度の肥毒のない土（山土を可とす）を準備する。<br/><br/>そして播種期頃までに、細かく砕けるように注意する。<br/><br/> ２、覆土は前年度七、八月頃より取入れ準備をするとよい。<br/><br/> ３、雨に合わせると固まる土と砕ける土があることにもよく留意する必要がある。<br/><br/> （注意） （１） 不整地苗代は深耕して行うと失敗する。<br/><br/> （２） 固まりのある土を覆土に使用すると、分蘖をさまたげて失敗する。<br/><br/> 二、三 月 行 事 一、土の清浄化 １、耕起後、なお土の清浄化を徹底するために、耕し返しを行うとよい。<br/><br/>肥毒の多量の田は特に実行したい。<br/><br/> ２、耕起の遅れているところでも、二月未までには必ず耕起してしまうよう努める。<br/><br/>初年度深耕の場合は、凍りつく中に耕し返しをし、風化作用に努めるとよい。<br/><br/> ３、深耕を実施した水田にして特に水持ちの悪いと思われる土地は、前もって雪または雨水を受け、土に十分水を配すように注意する。<br/><br/> ４、乾いた時期を見はからって、囲った土を細かく砕き、風化作用と雑草の生えないように手入れする。<br/><br/> ５、肥毒の層が強い場合は、この期間中に二、三度耕起砕土すると最もよい。<br/><br/> ６、深耕した場合、出来れば流し水（人為洪水）をすればなおよい。<br/><br/> ７、遅れて本農法を実施する者は、特に客土、風化を必要とする。<br/><br/> （注意） 深耕した場合風化砕土を怠ると失敗する。<br/><br/> 四 月 行 事 一、播種期の決定 １、品種の特長を知り、早生品種は少し早目に、苗代期間五十日ないし六十日。<br/><br/>植付後六十日後に出穂という耕作法が良いと思われる。<br/><br/> ２、植付後、出穂までに六十日ないと茎数（分蘖）が少いので、その点に留意して、播種期の決定をすると良い。<br/><br/> 二、苗代の完備 苗代の準備してあるところ（表土の砕いてある）を、水平に直し、苗代の面積を調べる。<br/><br/>……四尺畝に九尺が一坪である。<br/><br/>一反に対し十坪の苗代を準備する。<br/><br/> 三、籾種浸水 籾種（もみだね）はきれいな流れ水（川の水）にすかして見える迄浸種する。<br/><br/> 四、播付け １、四月下旬五月上旬、播付けを行うが、条播機あるいは手播きの場合にも、急ぐこと――なく確実に播種する。<br/><br/> ２、播種量は反当り三合（坪当り三勺）が適量だが、不足の心配ある時は面積を少し増せばよい。<br/><br/> 不整地苗代は上図のように実施するを理想とする。<br/><br/> ３、播種後、前以って用意した山土（坪当り六、七貫目）を覆う。<br/><br/> ４、覆土の目的は草を防ぐためと鳥に拾われないため。<br/><br/> ５、不整地苗代の効果は、苗が健全にして病気にならない。<br/><br/> 五、普通苗代 １、不整地苗代困難の揚合は、従来の方法を取る場合、極力薄播にし日時を一日でも多く苗代に置くようにすれば強い苗が出来る。<br/><br/> ２、普通苗代の揚合も坪当り五勺、薄いくらいをよしとする。<br/><br/> ３、地方によりどうしても保温苗代をする時は、発芽後は逐次寒風に当て、長く保温せず、寒さに負けない苗を作ることが大切である。<br/><br/> （注意）発芽期に雀に拾われぬよう、覆土の表面に籾殻を少量撒くとよい。<br/><br/> 五、六 月 行 事 １、播き付け後は深水にして発芽し鳥等が拾わないようになれば、水は溝にあるようにし、苗場にはつかない程度でよい。<br/><br/> ２、不整地苗代の時、苗の発育が遅れたと思う時は、板切れに一寸釘を三本位打ち付けて、苗の株間を一度かき起せば分蘖するようになる。<br/><br/> ３、苗の発育が、五、六本以上に成育しそうな時は、植付けの十五日前頃、鎌（かま）で株間を一筋だけ切れば分蘖はピタリ止まる。<br/><br/> ４、苗を取る時は、深水にして取る。<br/><br/>土はあまり洗い落さない方がよい。<br/><br/> 二、本田準備 １、水漏れをよく調べ、悪い個所があれば畦をつき直し、修理すること。<br/><br/> ２、植付けをする四、五日前までに山や池を作らぬよう平面にかきならすことに忠実なること。<br/><br/> ３、水をつけてから土をねらない程よい。<br/><br/>ねると水の乾いた時、割れやすい。<br/><br/> ４、水持の悪い田は、床粘（とこね）りをするとよい。<br/><br/> ５、粘りのない土（泥になっていない土）は少しは粘った方がよい。<br/><br/> 三、植付け １、苗は強いのを一本植えにされたい。<br/><br/>苗代期間の長い苗は、力があるから必ず分蘖する。<br/><br/> ２、坪当りの最大分蘖数は、六、七百本から千本以内を最もよしとす。<br/><br/> （注意）千本以上に分蘖する場合は減収しやすい。<br/><br/> ３、耕土四寸以下の浅いところ、また日照時間の少い土地等は、株間は適宜でよいが、本数は必ず一本植が良好である。<br/><br/> ４、株間は普涌一尺一尺二寸位を適当とする。<br/><br/>耕土が五寸以上あれば土の活動が容易であ×り、温暖寒冷の影響も少いので、なるべく株間を広くされたい。<br/><br/> ５、根を傷めぬよう苗に愛情を持って、浅植にするとよい。<br/><br/> ６、苗は三本――六本に分蘖したのを良しとする。<br/><br/> （注意）六本以上分蘖した苗を使用すると、失敗する。<br/><br/> ◎（直播は目下指導部で研究中） 四、植付後の潅水 植付後は常時浅水で潅水するとよい。<br/><br/> 七、八、九 月 行 事 一、除草及び潅漑 １、一番除草は植付後十日までにガンヅメで深く中耕する。<br/><br/>二番除草は反対側から二寸位行うとよい。<br/><br/> ２、二番除草は一番除草後、一週間位で根本の草取り、土かきをする。<br/><br/> ３、七月末日までに三番除草を行う。<br/><br/>三番除草は根本の土を除き、小さい草も取れるようにする。<br/><br/> ４、分蘖不十分の時は、四番除草もするとよい。<br/><br/> ５、土用干も不要。<br/><br/>土用中は特に潅水に注意し、土割のしないよう努めること。<br/><br/> ６、八月下旬、九月上旬には出穂期（でほき）と成るので、その時期には水田に入ってはいけない。<br/><br/> ７、一般に水枯れのため乾くのは止むを得ない。<br/><br/>（ただし落水後、旱（ひでり）の時は一週間目位に刈取るまで、水のかけ流しをすると、一回毎に反当八升位青実が無く結実する） 二、落水の時期 １、乳熟期を過ぎ、籾がやや硬化するときを待ち、排水するを最適とする。<br/><br/> ２、照り込みの場合、地割のするような場合は、浸水するを良しとする。<br/><br/> 三、来年の準備 ◎不整地苗代を実施する者は、覆土をこの月に確保する。<br/><br/> 十、十一 月 行 事 一、採種 １、肥毒の無い土地で、稲が健康に育った自然年度の古いもの程よい。<br/><br/>なお美しくそろって結実したものなれば申分がない。<br/><br/> ２、病虫害または秋落ちした種子は使用しないこと。<br/><br/> ３、品種は、付近で獲れたものならなんでもよい。<br/><br/> ４、籾種は、同一田の種子を使用するを最も可とする。<br/><br/> ５、塩水田のところは、成るべく同地方の種子を選ぶと良い。<br/><br/> ６、親穂を除いた次に長い穂を、三本位選ぶのが最良である。<br/><br/> ７、一株中、穂先がそろったその穂先半分を採取するとよい。<br/><br/> ８、十分稔実（ねんじつ）しない七分色付いた時、取るのを最良の時期とする。<br/><br/>（胴割しない物） ９、採種した種子は日蔭で乾し、保管する。<br/><br/> 二、籾種の保管方法 【参考】 １、籾の入れ物は小さな俵を作って入れる。<br/><br/> ２、俵と箱の間隔は三寸程がよい。<br/><br/> ３、箱は隙のあるよう、雑な箱でよい。<br/><br/> ４、日光の当らぬ蔭に置くこと。<br/><br/> 本農法の研究希望者は自然農法普及会総本部へ問合せ下さい。<br/><br/> 『稲作十二カ月』 昭和30年1月1日発行 熱海市咲見町 自然農法普及会総本部 著者 自然農法普及会副会長 渡 辺 勝 発行者 自 然 農 法 社 藤 井 陽 堂 東京都江東区森下町一ノ九 印刷所 小山印刷工業株式会社 電話本所（63）五八六八 発行所 東京都江東区森下町一ノ九 自 然 農 法 社</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

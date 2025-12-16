@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>soroban1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 算盤と能率 『栄光』136号、昭和26(1951)年12月26日発行 私は今日の日本人をみると、どうも算盤（そろばん）を無視する事と、能率についての余りに無関心である事で、それを今警告したいのである。<br><br>もちろん右の二つは大いに関連があるから一緒にかくのだが、単に算盤と言っても、金銭上に関するもののみではなく、他の面にもそれが大いにあるからである。<br><br>しかもこれは案外重要なものであって、この事に注意したなら、処世上大いに益する事は言うまでもない。<br><br>この点に関しては、どうも日本人は案外無頓着（むとんちゃく）であって、時間の観念が薄く、計画性がなく、行き当りバッタリ式の人が、ほとんどといっていいくらいである。<br><br>という訳で算盤を無視する結果無駄が多く、それがまた能率にも影響するので、案外損する事が多い。<br><br>そのため仕事も面白くないから焦り勝ちになり、この不愉快がまた能率に影響するという具合で、気付かないで大きなマイナスをしている。<br><br> そこへゆくと彼のアメリカである。<br><br>恐らくアメリカ人くらい算盤をとる国民はあるまい。<br><br>例えば戦争にしろ、極度に機械力を利用して、人命を損じないようにするやり方である。<br><br>今度の朝鮮戦争にしろ、敵と味方との人的損害を比べてみると驚く程で、敵の損害百数十万に対し、味方の方は僅々（きんきん）十万に足りないという事である。<br><br>またこの間の太平洋戦争にしろ、日本人は肉弾を敵の軍艦に、飛行機諸共打（ぶ）っつけたり、竹槍の練習したりする等、人命を粗末にする事はなはだしいに反し、米国の方はどうであろう。<br><br>たった数人の技師が飛行機一機を飛ばし、原子爆弾一個で、一都市を全滅するというのだからお話にならないのである。<br><br>これも全く算盤を採る採らないの異（ちが）いさであるから、大いに考えるべきである。<br><br>それというのも日本人は今もって昔の武士的根性の粕が残っているとみえて、算盤を蔑視する傾向がまだ大いにあるようだ。<br><br>これが今日及び今日以後の時代に即して、いかに不利であるかは考えるまでもない。<br><br>しかも日本人中には今もって面目とか、痩我慢、御体裁などという空虚なものに囚われ過ぎる傾向がある。<br><br>これが国家及び個人にとっての不利益は、割合大きいものがあろう。<br><br>そうしてここで私の事を少しかいてみるが、私は宗教家に似合わぬ算盤を忘れない主義で、何よりも私のやり方をみればよく判るであろう。<br><br>教修にしろ、御守にしろ、色々な会費にしろ、一定額を決めるようにしている。<br><br>それで出す方も宗教にあり勝ちの思召などの面倒臭さがないから気楽であり、ただ除外例として任意の献金は受けるが、これも強請（ごうせい）はしない方針になっている。<br><br>このようなやり方は恐らく今までの宗教には余り見られないところであろうが、これがいかに本教発展の有力なる要素となっているかは言うまでもない。<br><br> 右のような訳としても、もちろん細かい算盤は面倒であるから、大局的に見ての利害得失を忘れないようにしている。<br><br>よく私の仕事振りをみて、アメリカ式などと言うが、私もそう思っている。<br><br>全く算盤と能率に最も重きを置いているからである。<br><br>そうして私は日常生活の上でも、その日一日の大体のプランを立てておき、予期しない事などある場合は、次の仕事で埋合せるようにしていて、出来るだけ予定を狂わせないよう気をつけている。<br><br>そんな訳で普通の人が一日掛りでやるような仕事でも、私は一時間くらいで片付けてしまう。<br><br>私の仕事が余りに速いので手伝う部下などいつも面喰い、悲鳴を挙（あ）げている始末で、彼らは、明主様は特別な御方だから、到底真似は出来ないと弱音を吐くが、この考え方が大いに間違っている。<br><br>もちろん私のようにはゆかないまでも、その人の心掛次第では、案外成績を挙げる事が出来るもので、断じて行えば鬼神も避けるという意気込をもって、ウンとやるべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Ábaco e a Eficiência</h2>
 <p>Ao observar os japoneses de hoje, desejo, no momento, dirigir-lhes uma advertência sobre o descaso para com o ábaco e a notória indiferença em relação à eficiência. Naturalmente, ambos os temas estão intimamente interligados, razão pela qual os abordo em conjunto. E quando me refiro ao ábaco, não aludo apenas ao seu uso em questões financeiras, mas a uma aplicação muito mais ampla. Trata-se de um ponto de importância insuspeitada, e atentar para ele trará, sem dúvida, imensos benefícios à condução da própria vida. Nesse aspecto, os japoneses demonstram uma surpreendente displicência: possuem uma vaga noção do tempo, carecem de planejamento e, em sua maioria, agem de forma impulsiva e ao sabor das circunstâncias.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Apesar de tudo o que foi dito, devo esclarecer que não me refiro a cálculos mesquinhos e detalhistas, que seriam apenas maçantes. O que busco manter em mente é uma perspectiva ampla, que avalia os prós e os contras de cada situação. Muitos, ao observarem meu modo de trabalhar, comentam que ele é “americanizado”, e eu mesmo concordo com essa avaliação. A razão é que atribuo o mais alto valor ao cálculo e à eficiência.</p>
 <p>No meu cotidiano, por exemplo, estabeleço um plano geral para cada dia. Se surge algum imprevisto, procuro compensá-lo na tarefa seguinte, cuidando para que a programação original seja alterada o mínimo possível. É por essa razão que consigo concluir em cerca de uma hora tarefas que uma pessoa comum levaria um dia inteiro para realizar. A velocidade com que trabalho é tamanha que meus subordinados, que me auxiliam, ficam constantemente atônitos e chegam a clamar em desespero. Eles se lamentam, dizendo: “Meishu-Sama é um ser especial; é impossível sequer tentarmos imitá-lo”.</p>
 <p>Contudo, essa forma de pensar está fundamentalmente equivocada. Evidentemente, talvez não consigam agir exatamente como eu, mas dependendo da determinação de cada um, é possível alcançar resultados surpreendentes. É preciso empenhar-se ao máximo, com o espírito de que “a ação resoluta faz até os deuses e demônios se afastarem”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 算盤と能率 『栄光』136号、昭和26(1951)年12月26日発行 私は今日の日本人をみると、どうも算盤（そろばん）を無視する事と、能率についての余りに無関心である事で、それを今警告したいのである。<br/><br/>もちろん右の二つは大いに関連があるから一緒にかくのだが、単に算盤と言っても、金銭上に関するもののみではなく、他の面にもそれが大いにあるからである。<br/><br/>しかもこれは案外重要なものであって、この事に注意したなら、処世上大いに益する事は言うまでもない。<br/><br/>この点に関しては、どうも日本人は案外無頓着（むとんちゃく）であって、時間の観念が薄く、計画性がなく、行き当りバッタリ式の人が、ほとんどといっていいくらいである。<br/><br/>という訳で算盤を無視する結果無駄が多く、それがまた能率にも影響するので、案外損する事が多い。<br/><br/>そのため仕事も面白くないから焦り勝ちになり、この不愉快がまた能率に影響するという具合で、気付かないで大きなマイナスをしている。<br/><br/> そこへゆくと彼のアメリカである。<br/><br/>恐らくアメリカ人くらい算盤をとる国民はあるまい。<br/><br/>例えば戦争にしろ、極度に機械力を利用して、人命を損じないようにするやり方である。<br/><br/>今度の朝鮮戦争にしろ、敵と味方との人的損害を比べてみると驚く程で、敵の損害百数十万に対し、味方の方は僅々（きんきん）十万に足りないという事である。<br/><br/>またこの間の太平洋戦争にしろ、日本人は肉弾を敵の軍艦に、飛行機諸共打（ぶ）っつけたり、竹槍の練習したりする等、人命を粗末にする事はなはだしいに反し、米国の方はどうであろう。<br/><br/>たった数人の技師が飛行機一機を飛ばし、原子爆弾一個で、一都市を全滅するというのだからお話にならないのである。<br/><br/>これも全く算盤を採る採らないの異（ちが）いさであるから、大いに考えるべきである。<br/><br/>それというのも日本人は今もって昔の武士的根性の粕が残っているとみえて、算盤を蔑視する傾向がまだ大いにあるようだ。<br/><br/>これが今日及び今日以後の時代に即して、いかに不利であるかは考えるまでもない。<br/><br/>しかも日本人中には今もって面目とか、痩我慢、御体裁などという空虚なものに囚われ過ぎる傾向がある。<br/><br/>これが国家及び個人にとっての不利益は、割合大きいものがあろう。<br/><br/>そうしてここで私の事を少しかいてみるが、私は宗教家に似合わぬ算盤を忘れない主義で、何よりも私のやり方をみればよく判るであろう。<br/><br/>教修にしろ、御守にしろ、色々な会費にしろ、一定額を決めるようにしている。<br/><br/>それで出す方も宗教にあり勝ちの思召などの面倒臭さがないから気楽であり、ただ除外例として任意の献金は受けるが、これも強請（ごうせい）はしない方針になっている。<br/><br/>このようなやり方は恐らく今までの宗教には余り見られないところであろうが、これがいかに本教発展の有力なる要素となっているかは言うまでもない。<br/><br/> 右のような訳としても、もちろん細かい算盤は面倒であるから、大局的に見ての利害得失を忘れないようにしている。<br/><br/>よく私の仕事振りをみて、アメリカ式などと言うが、私もそう思っている。<br/><br/>全く算盤と能率に最も重きを置いているからである。<br/><br/>そうして私は日常生活の上でも、その日一日の大体のプランを立てておき、予期しない事などある場合は、次の仕事で埋合せるようにしていて、出来るだけ予定を狂わせないよう気をつけている。<br/><br/>そんな訳で普通の人が一日掛りでやるような仕事でも、私は一時間くらいで片付けてしまう。<br/><br/>私の仕事が余りに速いので手伝う部下などいつも面喰い、悲鳴を挙（あ）げている始末で、彼らは、明主様は特別な御方だから、到底真似は出来ないと弱音を吐くが、この考え方が大いに間違っている。<br/><br/>もちろん私のようにはゆかないまでも、その人の心掛次第では、案外成績を挙げる事が出来るもので、断じて行えば鬼神も避けるという意気込をもって、ウンとやるべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

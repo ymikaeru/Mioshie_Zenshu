@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yumeni</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夢に就て 『信仰雑話』P.83、昭和23(1948)年9月5日発行 私は夢についてよく人からきかれるので、ここに語ってみよう。<br><br>およそ人間と生まれて夢を見ない人はあるまい。<br><br>しかし、単に夢といってもいろいろある。<br><br>ざっと種類を並べてみれば、神夢、霊夢、雑夢、正夢、逆夢等であって、神夢とは神のお告げであり、霊夢とは守護神の警告であり、雑夢とは他愛もない何人も常にみる夢である。<br><br>正夢とは読んで字のごとく、夢の通りが事実に表れ、逆夢とはその反対である。<br><br>元来夢というのは幽冥という言葉を詰めたもので、その人の霊が睡眠と共に離脱し、幽冥界に往くのである。<br><br>そうして、その場合潜在意識や、常に希望している事などが種々の形となって表れ、連続的でとりとめもないもので、これは人間の作為である。<br><br>神夢は信仰者に限るのであって、その信仰する神霊が、何等かの必要によって夢をもってお告げをされるのである。<br><br>霊夢は守護神が夢をもって知らせるのであるから、大抵は守護神の創作により寓意（ぐうい）的や、比喩的なものが多く、夢判断を要するものが多いのである。<br><br>さきに述べたごとく、現界は霊界の移写であり、種々の事象は先に霊界に起こるから、霊界にいる守護神には前もって判るので、右の手段をとるのである。<br><br>よく虫が知らせるというのは、守護神の知らせである。<br><br> 霊が幽冥界に脱出する時、霊と肉体とは霊線によってつながっており、目がさめるや一瞬にして肉体に戻るのである。<br><br> ここに注意すべき事がある。<br><br>それは熟睡をすれば夢をみないという説であるが、これは間違っている。<br><br>もっとも非常に疲れた時などは夢をみないが、浅い眠りは夢をみる。<br><br>これは気にする事は少しもない。<br><br>浅い眠りでも夢をみるという事は、確実なる睡眠に違いないからである。<br><br>私などは人と談話をしながら薄ら眠い事があり、一分か二分夢をみる事がある。<br><br>電車の吊革へブラ下がりながら夢を見る事もあるが、別に何ともない。<br><br>夢を見る人は頭が悪いように心配するが、そんな事は決してない。<br><br>私などは若い時は余り夢を見なかったが、その頃の方がかえって頭が悪かったように思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Considerações sobre os Sonhos</h2>
 <p>Frequentemente me indagam a respeito dos sonhos, motivo pelo qual decidi discorrer sobre o assunto. Creio não existir ser humano que jamais tenha sonhado. Todavia, embora os designemos por um único nome, eles se manifestam de diversas naturezas. Em uma classificação geral, podemos citar o Sonho Divino, o Sonho Espiritual, o Sonho Comum, o Sonho Premonitório e o Sonho Invertido. O Sonho Divino é uma revelação de Deus; o Sonho Espiritual, uma advertência do espírito protetor; já o Sonho Comum é aquele de caráter trivial, que todos experimentam constantemente. Por sua vez, o Sonho Premonitório, como a própria designação sugere, é aquele cujo conteúdo se manifesta na realidade, ao passo que no Sonho Invertido ocorre exatamente o oposto.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Quando o espírito se desloca para o Mundo Oculto, ele permanece conectado ao corpo físico por meio de um cordão espiritual e, no momento do despertar, retorna instantaneamente.</p>
 <p>Nesse ponto, há uma questão que merece atenção. Refiro-me à teoria de que não sonhamos quando dormimos profundamente, o que constitui um equívoco. É verdade que, em momentos de extrema exaustão, podemos não sonhar, mas o sono leve é, sim, acompanhado de sonhos. Não há, contudo, motivo algum para preocupação. O fato de sonhar, mesmo em sono leve, é a prova de que o descanso está de fato ocorrendo.</p>
 <p>Eu mesmo, por vezes, sinto um leve torpor enquanto converso e chego a sonhar por um ou dois minutos. Também me ocorre sonhar enquanto seguro nas alças de um trem, sem que isso represente qualquer problema. Algumas pessoas se afligem, supondo que sonhar muito seja um sinal de debilidade mental, mas isso não corresponde à verdade. Em minha juventude, eu raramente sonhava, e considero que, naquela época, minha mente era, na verdade, menos perspicaz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夢に就て 『信仰雑話』P.83、昭和23(1948)年9月5日発行 私は夢についてよく人からきかれるので、ここに語ってみよう。<br/><br/>およそ人間と生まれて夢を見ない人はあるまい。<br/><br/>しかし、単に夢といってもいろいろある。<br/><br/>ざっと種類を並べてみれば、神夢、霊夢、雑夢、正夢、逆夢等であって、神夢とは神のお告げであり、霊夢とは守護神の警告であり、雑夢とは他愛もない何人も常にみる夢である。<br/><br/>正夢とは読んで字のごとく、夢の通りが事実に表れ、逆夢とはその反対である。<br/><br/>元来夢というのは幽冥という言葉を詰めたもので、その人の霊が睡眠と共に離脱し、幽冥界に往くのである。<br/><br/>そうして、その場合潜在意識や、常に希望している事などが種々の形となって表れ、連続的でとりとめもないもので、これは人間の作為である。<br/><br/>神夢は信仰者に限るのであって、その信仰する神霊が、何等かの必要によって夢をもってお告げをされるのである。<br/><br/>霊夢は守護神が夢をもって知らせるのであるから、大抵は守護神の創作により寓意（ぐうい）的や、比喩的なものが多く、夢判断を要するものが多いのである。<br/><br/>さきに述べたごとく、現界は霊界の移写であり、種々の事象は先に霊界に起こるから、霊界にいる守護神には前もって判るので、右の手段をとるのである。<br/><br/>よく虫が知らせるというのは、守護神の知らせである。<br/><br/> 霊が幽冥界に脱出する時、霊と肉体とは霊線によってつながっており、目がさめるや一瞬にして肉体に戻るのである。<br/><br/> ここに注意すべき事がある。<br/><br/>それは熟睡をすれば夢をみないという説であるが、これは間違っている。<br/><br/>もっとも非常に疲れた時などは夢をみないが、浅い眠りは夢をみる。<br/><br/>これは気にする事は少しもない。<br/><br/>浅い眠りでも夢をみるという事は、確実なる睡眠に違いないからである。<br/><br/>私などは人と談話をしながら薄ら眠い事があり、一分か二分夢をみる事がある。<br/><br/>電車の吊革へブラ下がりながら夢を見る事もあるが、別に何ともない。<br/><br/>夢を見る人は頭が悪いように心配するが、そんな事は決してない。<br/><br/>私などは若い時は余り夢を見なかったが、その頃の方がかえって頭が悪かったように思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

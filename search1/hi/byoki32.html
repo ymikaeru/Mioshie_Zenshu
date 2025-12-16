@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki32</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気を治す方法 未発表『医学革命の書』昭和28(1953)年執筆 以上によって病気なるものの実体は大体分ったであろうが、ではそれを治すにはどうすればいいかという事である。<br><br>前項のごとく放置しておけば治るのは間違いないが、それでは非常に時日がかかる。<br><br>というのは毒素が少量であれば速かに治るが、そういう人は極（ご）く稀（まれ）で、大抵な人は薬毒が充満している。<br><br>もっとも政府も医師も小学校時代から薬を服めと教育し、奨励し、これが文化のあり方としているのだからたまらない。<br><br>今日薬剤特に新薬がいかに売れるかは、新聞広告欄を見ても分る通り、第一位を占めている。<br><br>かてて加えて先天性薬毒も保有している以上、今日の人間は人間の形をした毒の塊であるから、ともすれば病気に罹り易く、その都度（つど）薬と来る。<br><br>という訳で戦々兢々として日を送っている。<br><br>しかもそういう人に限って矢鱈（やたら）に薬を服み、衛生にも充分注意していながら弱々しいのは、昔から養生家程弱いと言われている通りである。<br><br>また当局は当局で医学の説を金科玉条と信奉している。<br><br>そのためヤレ帰宅したら手を洗え、含嗽（うがい）をしろ、風邪を引くな、暴飲暴食を慎め、無理をするな、睡眠を充分採れ、黴菌を恐れよなどと注意怠らず、結核検診、各種の予防注射は固より、子供は寝冷をするな、生水を飲むな、食物をよく噛め、よく睡れなどと、ザッとかいただけでこのくらいだから、現在生活の煩雑さは生きているのが嫌になるくらいである。<br><br>これが文化的生活としたら、一種の牢獄であろう。<br><br>この最大原因こそ病なるものは、健康のための神の恩恵である事を知らず、逆に病気を病魔と言い、闘病などといって敵視しているのを、吾々からみれば迷信地獄に陥ちて苦しんでいる人々としか思えない。<br><br>それに引換え吾々の方では病を大いに歓迎している。<br><br>例えばお陰様でやっと風邪を引きました。<br><br>先日は酷い下痢と嘔吐があって、それからとてもからだの工合が好くなりましたとか、やっと熱が出たからもう大丈夫だと、仕事に取掛るというような有様を見たら腰を抜かすであろう。<br><br>これこそ病の根本が分っているためと、必ず治るという自信があるからで、この境地こそ文字通りの安心立命を得た幸福者である。<br><br>ゆえにこの世界から薬剤全部を海へ投げ棄てるとしたら、その時を限りとして病は漸次この世界から消滅するのは、断言して憚（はばか）らないのである。<br><br> 以上は現代医学に対し、大胆率直にその真相を暴露したのであるが、ではこの誤謬を是正するにはどうしたらいいかというと、それははなはだ簡単である。<br><br>すなわち私の説に従い、病気に罹った場合自然療法か、または浄霊療法を行えばそれで解決するのである。<br><br>これについて今までの統計によるも、最も治り難いとされている結核の治癒率が九十三パーセント、他の病気は九十七パーセントという好成績を挙げている。<br><br>しかも右の少数失敗者の原因は、薬毒が余りに多量のためであるから、そうでないとしたら百パーセントは確実である。<br><br>また浄霊法の最も誇るべき特長は、施術の場合医療と異（ちが）って、肉体に一手も触れない事である。<br><br>そうして浄霊の主眼は薬毒解消法であり、薬毒が減っただけは治るからよく分る。<br><br>といっても医学迷信に固まっている現代人は、容易に信じられまいから、充分納得のゆくよう詳説すると共に、本人手記の百の実例〔略〕をも添えてある以上、理解されないはずはないと思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Método para a Cura das Doenças</h2>
 <p>A partir do exposto, a verdadeira natureza da doença deve ter sido compreendida em suas linhas gerais. Resta, contudo, a questão de como curá-la. Conforme abordado anteriormente, é inegável que a doença se cura por si só quando deixada à sua própria evolução; todavia, tal processo demanda um tempo considerável. Isso ocorre porque, embora a cura seja célere quando a quantidade de toxinas é pequena, pessoas nessa condição são extremamente raras. A maioria, na verdade, encontra-se saturada de toxinas medicamentosas.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Até aqui, expus de maneira audaciosa e direta a verdadeira face da medicina moderna. A questão que se impõe, então, é como corrigir esse equívoco. A resposta é surpreendentemente simples. Basta que, ao adoecer, a pessoa siga meus ensinamentos, optando pela terapia natural ou pelo Johrei. Com isso, o problema estará solucionado.</p>
 <p>As estatísticas que compilamos até o momento corroboram essa afirmação, apresentando resultados notáveis: uma taxa de cura de noventa e três por cento para a tuberculose, considerada uma das enfermidades mais refratárias, e de noventa e sete por cento para as demais doenças. Ressalte-se que os poucos casos de insucesso deveram-se unicamente à quantidade excessiva de toxinas medicamentosas acumuladas no organismo do paciente. Se não fosse por esse fator, a taxa de sucesso seria, com toda certeza, de cem por cento.</p>
 <p>Outra característica do Johrei, e da qual muito nos orgulhamos, é que, diferentemente dos tratamentos médicos, a ministração é realizada sem qualquer contato físico com o paciente. Seu objetivo primordial é a eliminação das toxinas medicamentosas, e o processo de cura torna-se evidente à medida que essas toxinas diminuem. Contudo, cientes de que o homem moderno, arraigado às superstições da medicina, dificilmente acreditará nessas palavras, procuramos não apenas detalhar os fundamentos de nossa tese para que sejam plenamente compreendidos, mas também anexamos cem relatos verídicos, de próprio punho, como prova [resumido]. Diante de tais evidências, acreditamos ser impossível que a verdade não seja assimilada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気を治す方法 未発表『医学革命の書』昭和28(1953)年執筆 以上によって病気なるものの実体は大体分ったであろうが、ではそれを治すにはどうすればいいかという事である。<br/><br/>前項のごとく放置しておけば治るのは間違いないが、それでは非常に時日がかかる。<br/><br/>というのは毒素が少量であれば速かに治るが、そういう人は極（ご）く稀（まれ）で、大抵な人は薬毒が充満している。<br/><br/>もっとも政府も医師も小学校時代から薬を服めと教育し、奨励し、これが文化のあり方としているのだからたまらない。<br/><br/>今日薬剤特に新薬がいかに売れるかは、新聞広告欄を見ても分る通り、第一位を占めている。<br/><br/>かてて加えて先天性薬毒も保有している以上、今日の人間は人間の形をした毒の塊であるから、ともすれば病気に罹り易く、その都度（つど）薬と来る。<br/><br/>という訳で戦々兢々として日を送っている。<br/><br/>しかもそういう人に限って矢鱈（やたら）に薬を服み、衛生にも充分注意していながら弱々しいのは、昔から養生家程弱いと言われている通りである。<br/><br/>また当局は当局で医学の説を金科玉条と信奉している。<br/><br/>そのためヤレ帰宅したら手を洗え、含嗽（うがい）をしろ、風邪を引くな、暴飲暴食を慎め、無理をするな、睡眠を充分採れ、黴菌を恐れよなどと注意怠らず、結核検診、各種の予防注射は固より、子供は寝冷をするな、生水を飲むな、食物をよく噛め、よく睡れなどと、ザッとかいただけでこのくらいだから、現在生活の煩雑さは生きているのが嫌になるくらいである。<br/><br/>これが文化的生活としたら、一種の牢獄であろう。<br/><br/>この最大原因こそ病なるものは、健康のための神の恩恵である事を知らず、逆に病気を病魔と言い、闘病などといって敵視しているのを、吾々からみれば迷信地獄に陥ちて苦しんでいる人々としか思えない。<br/><br/>それに引換え吾々の方では病を大いに歓迎している。<br/><br/>例えばお陰様でやっと風邪を引きました。<br/><br/>先日は酷い下痢と嘔吐があって、それからとてもからだの工合が好くなりましたとか、やっと熱が出たからもう大丈夫だと、仕事に取掛るというような有様を見たら腰を抜かすであろう。<br/><br/>これこそ病の根本が分っているためと、必ず治るという自信があるからで、この境地こそ文字通りの安心立命を得た幸福者である。<br/><br/>ゆえにこの世界から薬剤全部を海へ投げ棄てるとしたら、その時を限りとして病は漸次この世界から消滅するのは、断言して憚（はばか）らないのである。<br/><br/> 以上は現代医学に対し、大胆率直にその真相を暴露したのであるが、ではこの誤謬を是正するにはどうしたらいいかというと、それははなはだ簡単である。<br/><br/>すなわち私の説に従い、病気に罹った場合自然療法か、または浄霊療法を行えばそれで解決するのである。<br/><br/>これについて今までの統計によるも、最も治り難いとされている結核の治癒率が九十三パーセント、他の病気は九十七パーセントという好成績を挙げている。<br/><br/>しかも右の少数失敗者の原因は、薬毒が余りに多量のためであるから、そうでないとしたら百パーセントは確実である。<br/><br/>また浄霊法の最も誇るべき特長は、施術の場合医療と異（ちが）って、肉体に一手も触れない事である。<br/><br/>そうして浄霊の主眼は薬毒解消法であり、薬毒が減っただけは治るからよく分る。<br/><br/>といっても医学迷信に固まっている現代人は、容易に信じられまいから、充分納得のゆくよう詳説すると共に、本人手記の百の実例〔略〕をも添えてある以上、理解されないはずはないと思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

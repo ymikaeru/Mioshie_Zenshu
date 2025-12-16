@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsukuwa3</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 救われて行く日赤病院の患者達 『救世』56号、昭和25(1950)年4月1日発行 『結核信仰療法』昭和27(1952)年12月1日発行 広島県 陽光中教会 垰崎美知枝（24） 私が御浄霊さして戴き九月中旬より十月上旬に教修を戴かれた日赤病院の患者さんたちのことを御報告させていただき、御礼を述べさせていただきます。<br><br>最初友達のお母さんが胆石で入院されたのが日赤へ行く動機となりました。<br><br>その友達の家はお稲荷信者ですので御道の話は現在は難しいのですが気の毒で時々御見舞に行っておりました。<br><br>その中に同室の患者さん達とも親しくなり銀行でいっしょに勤めていた貞宗操子さん（後九月中旬受講）が同室に入院して来られる等で皆さんとお友達のように話し合うようになりました。<br><br>私もいろんなお話しから光明如来様を信仰させていただき病気は勿論、いろんな御蔭を戴いていることをお話しするようになり、内心で一人でもお救いさせて戴きたいと思っておりました。<br><br> ある日ある患者が気胸をしたあとが苦しみ困っていましたので「すこし御浄霊させて戴きましようか」と申しましたら、余程苦しかったと見え、すぐ御願い致しますと申されますので私も喜んで浄霊させて戴きました。<br><br>三十分位しましたらとても楽になりましたと大変喜ばれました。<br><br> それを向いの部屋から見ていた吉野みす恵さん（後九月中旬受講、肺病）もしていただきたいとおっしゃり、それから吉野さんを一日置きに御浄霊させていただきました。<br><br> その中に吉野さんと同室の山崎時和さん（後九月中旬受講、肺病）が吉野さんを通じ頼んで来られ、その時は山崎さんは医者からはっきり治る見込みがないと宣告され、悲観のどん底にある人でした。<br><br>見るからにやせ細り目には力なく御飯が一度に一口か二口しか食べられず、痰は切れず夜は眠れず、その上心臓の動悸が激しく正に死の一歩手前にある人のようでした。<br><br> 私は医者に見放されたのですからもう神様に御すがりするより道がございません。<br><br>神様のおっしゃる通りに致しますと御すがりになりました。<br><br>八月十六日に退院されてそれからはお家の方へ行かせていただきました。<br><br>御浄霊一日目に夜ぐっすり眠れましたと申され、本人は勿論私もたとえようもなく嬉しゅうございました。<br><br>それから日一日と目に見えて元気になられ毎日御浄霊に行くのが楽しみでございました。<br><br>時に大浄化もありましたが御守護にて次第に元気になり、十日目位から朝起きてご飯仕度もさせて戴けるようになり絶対安静の死を宣告された方が二十日目位には配給品を取りに行かれるようになりました。<br><br>そのうち日赤の患者さんの中から御浄霊を戴き度いとおっしゃる人も段々ふえて参りました。<br><br>皆山崎さんの元気になられた姿に驚いておられました。<br><br> 矢張り日赤の患者で湊照彦さん（後九月中旬受講）は心臓弁膜症で入院中でしたが、御浄霊を受けられてとても調子が良いとて退院しますから家の方へ来て下さいと頼まれ、八月下旬に退院され九月九日からもう出勤出来る体にして戴かれました。<br><br>その頃は日赤で四人、山崎さんの宅で二人御浄霊させて戴いておりました。<br><br> ある日山崎さんの御主人（大工）が足の骨に大工道具の何かを誤って打ちこまれ、足が立たず部屋をいざっていましたのを丁度その時来て戴いておりました住広先生が御浄霊されましたらすぐ立って歩けるようになられました。<br><br>この奇蹟で御主人はびっくりなさって「病院では落付いて御浄霊も受けられないでしょうからよかったら私の家へ来て貰って下さい」とおっしゃって戴き日赤の患者さん達も大変に喜ばれました。<br><br>九月上旬に山崎さんの宅で西垣先生に来て戴き座談会を開かせて戴きました。<br><br> この時に上林光子、中井正子さんは入院して一年半あまり病院から一歩も出たことなく百米と歩いたことの無い人でしたが一生懸命な気持で出席され、かえられた後も何ともなかった、これで自信がつきました、と涙を出して喜ばれる姿など理屈からではなくどうにかして生きたい救われたいと求める人の真剣さに、私も何とか御救いさせて戴き度いと一生懸命でございました。<br><br>上林、中井さんのお二人は下痢の御浄化を戴かれ食事も美味しくなりました。<br><br>九人の御浄霊させて戴きました方が八人まで教修を受け、現在七人まで退院出来たのでございます。<br><br>このように私ごときただの会員のしかも年若い者の手によって日赤病院に呻吟せる患者さん達が救われて行っております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação dos Pacientes do Hospital da Cruz Vermelha</h2>
 <p>Publicado na revista “Salvação do Mundo” nº 56, em 1º de abril de 1950
@@ -107,5 +262,48 @@ Michie Taozaki (24 anos)</p>
 <p>Nessa ocasião, as Sras. Mitsuko Kamibayashi e Masako Nakai, que haviam passado mais de um ano e meio internadas, sem jamais dar um passo fora do hospital ou conseguir caminhar sequer cem metros, compareceram. Movidas por um anseio fervoroso, fizeram um esforço sobre-humano para estar presentes. Ao retornarem, não sentiram qualquer mal-estar. As lágrimas que derramavam ao expressar sua felicidade, dizendo "Isto nos devolveu a confiança", revelavam uma busca que transcende a lógica. A sinceridade daqueles que, para além de qualquer teoria, buscam desesperadamente viver e ser salvos, tocou-me profundamente e fortaleceu minha determinação em auxiliá-los. As Sras. Kamibayashi e Nakai passaram por uma purificação por meio de diarreia, e seu apetite melhorou consideravelmente.</p>
 <p>Das nove pessoas às quais tive a permissão de ministrar, oito receberam o Curso de Iniciação e, até o presente momento, sete já puderam retornar aos seus lares.</p>
 <p>Assim, pelas mãos de uma simples e jovem membra como eu, os pacientes que gemiam em sofrimento no Hospital da Cruz Vermelha vêm encontrando a salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 救われて行く日赤病院の患者達 『救世』56号、昭和25(1950)年4月1日発行 『結核信仰療法』昭和27(1952)年12月1日発行 広島県 陽光中教会 垰崎美知枝（24） 私が御浄霊さして戴き九月中旬より十月上旬に教修を戴かれた日赤病院の患者さんたちのことを御報告させていただき、御礼を述べさせていただきます。<br/><br/>最初友達のお母さんが胆石で入院されたのが日赤へ行く動機となりました。<br/><br/>その友達の家はお稲荷信者ですので御道の話は現在は難しいのですが気の毒で時々御見舞に行っておりました。<br/><br/>その中に同室の患者さん達とも親しくなり銀行でいっしょに勤めていた貞宗操子さん（後九月中旬受講）が同室に入院して来られる等で皆さんとお友達のように話し合うようになりました。<br/><br/>私もいろんなお話しから光明如来様を信仰させていただき病気は勿論、いろんな御蔭を戴いていることをお話しするようになり、内心で一人でもお救いさせて戴きたいと思っておりました。<br/><br/> ある日ある患者が気胸をしたあとが苦しみ困っていましたので「すこし御浄霊させて戴きましようか」と申しましたら、余程苦しかったと見え、すぐ御願い致しますと申されますので私も喜んで浄霊させて戴きました。<br/><br/>三十分位しましたらとても楽になりましたと大変喜ばれました。<br/><br/> それを向いの部屋から見ていた吉野みす恵さん（後九月中旬受講、肺病）もしていただきたいとおっしゃり、それから吉野さんを一日置きに御浄霊させていただきました。<br/><br/> その中に吉野さんと同室の山崎時和さん（後九月中旬受講、肺病）が吉野さんを通じ頼んで来られ、その時は山崎さんは医者からはっきり治る見込みがないと宣告され、悲観のどん底にある人でした。<br/><br/>見るからにやせ細り目には力なく御飯が一度に一口か二口しか食べられず、痰は切れず夜は眠れず、その上心臓の動悸が激しく正に死の一歩手前にある人のようでした。<br/><br/> 私は医者に見放されたのですからもう神様に御すがりするより道がございません。<br/><br/>神様のおっしゃる通りに致しますと御すがりになりました。<br/><br/>八月十六日に退院されてそれからはお家の方へ行かせていただきました。<br/><br/>御浄霊一日目に夜ぐっすり眠れましたと申され、本人は勿論私もたとえようもなく嬉しゅうございました。<br/><br/>それから日一日と目に見えて元気になられ毎日御浄霊に行くのが楽しみでございました。<br/><br/>時に大浄化もありましたが御守護にて次第に元気になり、十日目位から朝起きてご飯仕度もさせて戴けるようになり絶対安静の死を宣告された方が二十日目位には配給品を取りに行かれるようになりました。<br/><br/>そのうち日赤の患者さんの中から御浄霊を戴き度いとおっしゃる人も段々ふえて参りました。<br/><br/>皆山崎さんの元気になられた姿に驚いておられました。<br/><br/> 矢張り日赤の患者で湊照彦さん（後九月中旬受講）は心臓弁膜症で入院中でしたが、御浄霊を受けられてとても調子が良いとて退院しますから家の方へ来て下さいと頼まれ、八月下旬に退院され九月九日からもう出勤出来る体にして戴かれました。<br/><br/>その頃は日赤で四人、山崎さんの宅で二人御浄霊させて戴いておりました。<br/><br/> ある日山崎さんの御主人（大工）が足の骨に大工道具の何かを誤って打ちこまれ、足が立たず部屋をいざっていましたのを丁度その時来て戴いておりました住広先生が御浄霊されましたらすぐ立って歩けるようになられました。<br/><br/>この奇蹟で御主人はびっくりなさって「病院では落付いて御浄霊も受けられないでしょうからよかったら私の家へ来て貰って下さい」とおっしゃって戴き日赤の患者さん達も大変に喜ばれました。<br/><br/>九月上旬に山崎さんの宅で西垣先生に来て戴き座談会を開かせて戴きました。<br/><br/> この時に上林光子、中井正子さんは入院して一年半あまり病院から一歩も出たことなく百米と歩いたことの無い人でしたが一生懸命な気持で出席され、かえられた後も何ともなかった、これで自信がつきました、と涙を出して喜ばれる姿など理屈からではなくどうにかして生きたい救われたいと求める人の真剣さに、私も何とか御救いさせて戴き度いと一生懸命でございました。<br/><br/>上林、中井さんのお二人は下痢の御浄化を戴かれ食事も美味しくなりました。<br/><br/>九人の御浄霊させて戴きました方が八人まで教修を受け、現在七人まで退院出来たのでございます。<br/><br/>このように私ごときただの会員のしかも年若い者の手によって日赤病院に呻吟せる患者さん達が救われて行っております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

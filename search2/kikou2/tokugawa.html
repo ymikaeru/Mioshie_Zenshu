@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tokugawa</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 徳川夢声氏講演要旨 五月二十二日 日比谷公会堂に於て 『地上天国』25号、昭和26(1951)年6月25日発行 私がただ今御紹介を頂きました夢声で御座居ます。<br><br>私は未だ信者ではありませんが、明主の御考えには非常に共鳴する所が多いのであります。<br><br>行く行くは、信者になるかもしれません。<br><br>先程伊藤先生が「平和は霊性の秩序によって保たれる大いなる和である」と申されましたが、まことにその通りだと信ずるのであります。<br><br> さて今日のお話は、私がどうして霊の存在を考えるようになったか、一種の広告のような話であります。<br><br>私は生れてから今日、子供の時は霊があると思っておりましたが、それが長するに従っていろいろな智識というようなものが頭に入ってまいりますと、霊なんかないものと考えるに至ったのであります。<br><br>私は最近まで、死んじまえば何も彼もすべておじゃんになり、喜びも悲しみも生きている間だけの事で、最後に死が待っていて一切が空になると思っていました。<br><br>ところがそれが空にはならないので少々慌てたんですな。<br><br> ところがどうして私が魂とか、霊がありそうだとはっきり感じたかというのは、田中河内介という勤皇の医者の事です。<br><br>英人が薩摩に護送される途中、幡磨灘にさしかかった時、船のデッキでその養子と共に斬殺されて、死骸は海に放り込まれたのですが、かく田中河内介の私自身の経験が、こりゃ魂がなくてはこういうことにならぬという結論に到達せしめたのです。<br><br>その名に出っくわしたのは、昔私は怪談趣味をもち色々怪談の話も聞いております。<br><br>そのうちもと新派の喜多村縁郎氏が主宰していた怪談会で、ある時一人の学生が来て「会員にしてくれ」というので「会費さえ納めれば誰でも歓迎する」というと、その人が会費を納めてその学生の番になると、話は実に下手なのですが、何だか凄味があり、彼がどうして田中河内介を知っているかというと「河内介を殺した方が次々と不思議な死方をして、自分は矢張りその怨を受けている一家の一人で、家でも田中河内介の名を云う事さえ禁じられている。<br><br>その名を云うさえ恐いが、言うときっと不吉な事があるが今日は思い切って話す」という、丁度田中河内介が殺されるところまで来ると、その学生の話がもつれ、前にある台にこごんでしまう。<br><br>居睡りをしているんだと思って、そばの人が起すと話が前にもどってしまう。<br><br>又さっきのところに来ると居睡をし出す。<br><br>そういう事が三度ばかりあって、そして最後に起した時には死んでいた。<br><br>来ていた皆は、何かゾーッとしたというのですが、それが元で「怪談会はよそうよ」という事になりましたが、その話をその席に列席していた人から聞いたので田中河内介の名が私の頭に残っていた。<br><br> ところが私が最初の映画で、昭和十八年頃だったか、鶏という映画に、疎開した御隠居の役で、ロケを小田急の伊勢カ原というところでやりました。<br><br>そこの学校を借りてやる事になり、駅前通りの右側の料理屋兼旅館で休憩した時でした。<br><br>それは暑い時でしたがロケーションマネージァの実に物識りな大阪弁の爺さんが庭にいて語る事には相当歴史にもくわしくて「何ですな、先生人を殺す様な人はどうも晩年は皆ようない。<br><br>明治維新の人で口を噤（つぐ）んでいても決して良うありまへんな。<br><br>大久保利通は人を投した事のない様な人だったが、若い時田中河内介を殺させたが、自分もそれで清水谷公園の上で殺された」と申しますので、私は「あっ、オッサン田中河内介についてこういう話がある」と云って、例の話をすると、吃驚して彼はみるみる真蒼になって震い出し「フア…」と云ったかと思うとどこかにいってしまった。<br><br>暫くすると水だらけになって出て来たので「どうしたんだ」と聞くと「どうも先生の御話を聞いていると何やらゾーッとして身震いがして、あたりが暗くなって倒れそうになったので、今頭を水で冷して来た所です」と言うので、それで水にぬれているのが判った。<br><br>又私が河内介の話をしようとすると「ウハア……、もうその話は止めて下さい」と云うのでそのまま寝ましたが、その事があってから二日目だったと思いますが、御殿場に行って用が一段落して東京に帰るべく汽車を待っている間に町を散歩していると、半分本屋で、半分菓子を売っている店がありましたので、私はどこへ行っても本屋があると一応よってみる癖がありまして、店に入って、フト本棚をみるとどうでしょう。<br><br>「田中河内介」とかいた本が四冊も並んでいるではありませんか、これを見た瞬間、私は河内介の亡霊が私によめというのかもしれぬと思い、何か本屋が大衆小説と間違えて買い込んだものとみえ、ルビーなしの難しい本で、その奥付を見ると「田中河内介顕彰会、大久保某」となっている。<br><br>田中河内介の徳を讃えた本で大久保家で彼の霊をともらうために出したのでありましょう。<br><br>私がそれを買って汽車の中で読みましたが、幡磨灘で殺される場面など凄いもんです。<br><br>私は新松田駅で乗換えて小田急に乗り、窓際によりかかってよんでいた。<br><br>その中で「河内介の死骸が漂着したところで村人が憐れに思い、そこに祀ったのが座間神社という」とあり八幡とか氷川神社という名は多いんですが、座間なんていう名の神杜はそうありません。<br><br>私が今はどこだろうとひょいと駅を見ると、座間なんですね。<br><br>私はあまりの事に吃驚しました。<br><br>三百頁からある本ですから、三三〇分の一つの名と、日本中何万かの駅の中にも稀な一つの名が同じなんです。<br><br>座間神社の所を読んだ時、座間というのはどうゆう訳でしよう。<br><br>これは単なる偶然ではない。<br><br>何か霊界からの演出によって私はやらされたとその時に考えました。<br><br> 又こうゆう事がありました。<br><br>戦争中は弁当を持て通う事になったので、丁度私が日比谷映画劇場に出ていまして、その前にアルマイト専門店がありました。<br><br>私が生れて始めて二食分の弁当箱を買って帰り「オーイ弁当箱を買って来たよ」と云うと「アレ私も」と家内が吃驚しましたが、弁当箱を二重に買ちまったんですが、これも偶然と片付けられないものがあります。<br><br>又ある時、台湾坊主が原子爆弾で治るという小説を書こうと思いましたが、どうしてもモデルになる人物が要るので誰にしようかと考えている中に、フト以前私の弟子をして家にいた松浪という男がいい、松浪君を台湾坊主にしてモデル小説を書こうと思ったのが、丁度夜中の二時頃でした。<br><br>すると翌朝、娘が唐紙を開けて「お客様」「エー誰」「松浪さん」「オイ本当かい、何年にも来た事がない男だがな、しかし世間には松浪という名は沢山ある」と思って玄関に出てみると、私が台湾坊主にした松浪君がニヤニヤ笑って立っているので吃驚りしました「何しに来た」と聞くと「昨夜泥棒に入られて煙草を盗まれたが、専売局へ納める金がどうしても要るので借りに来た」というんです。<br><br>「いくらだ」「二千円位」しかし現在の二千円でなく戦争中の二千円なので「そんなまとまった金が私の家にあろう筈がないじゃないか、そんな事位君も知っているだろう。<br><br>どういう訳で、私の家へ見当をつけた」と訊くと、松浪君が「それが不思議なんですよ先生、私も思いもよらなかったんですが、夜中の二時頃だったか、ひょいと先生のところへ行きたくなったんですよ」丁度私が松浪君を台湾坊主にしようと思っていた時なんですな、結局私の考えによると、霊というか、魂というか、あるものが働いていると思わざるを得なくなったのです。<br><br>早くいうと色々な放射能があつまると霊が出来自意識が出来ると思うんですが、結局霊とか魂というのは、一種の放射線の組合せになってて、水素と酸素で水が出来るようなものでありましょう。<br><br> 彼の湯川博士の中間子論は仮説であって、それを実証したわけではない。<br><br>そうなる筈であり、そうゆう物がなくては理屈がつかないからという推測からその存在を理論的に設定したので、それが証明されてノーベル賞を貰ったのである。<br><br>私の霊魂放射能組合せ説はこれだと何でも説明がつく、丁度私が弁当箱をと思っている思いが家内に通じてアルマイトの弁当箱となり、日比谷と杉並位直きですわ、松浪君も、松浪々々と思っていた心が届いたわけで杉並から千駄カ谷までわけはない。<br><br>それで徳川さんとこへ行こうと思う。<br><br>今までの幽霊現象もそうである。<br><br>息子が戦地で死ぬ時お母さんが幽霊を見るのは「アーお母さん」と思うとき見えるんですな。<br><br> もう少し科学が進歩すれば、私のこの説が証明されて、その時はノーベル賞を貰わなければならなくなる。<br><br>どうせ貰うなら税が安くなってからがいいと思ってます。<br><br> 明主の御話を伺っていますと、いよいよその確信を強めました。<br><br> 皆さんも御存知の今警視庁で使っている嘘発見器も、心臓から一種の電波が出て、普通ならなんでもないが、嘘を言うとその電波が乱れて機械の目盛に表われるのでそれを応用したのである。<br><br> 心臓から出る位だから、頭からも手からも電波が出る以上その元たる霊の放射もある訳であり、そこでいろいろな放射能が集まると霊が出来、私という意識を造るという事は科学的にもあり得る事である。<br><br> どうも今日の科学者の大多数は、霊魂の存在は科学的に証明されておらないから、そんなものはないと言うが、それは論理の飛躍で、又霊魂が存在しないという事も、科学的に証明されていない。<br><br>今日人間の頭でこさえた科学位で森羅万象悉くわかるといい、迷信だと他の事を言いたがるが、そうゆう連中こそ、つまらぬ科学を絶対だと信じている。<br><br>偉大なる迷信家だと思います。<br><br> ええ、丁度私に与えられた時間が参りましたので、私は正確に時間を守るのでこれにて失礼さして頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Despertar para a Existência do Espírito</h2>
 <p>Sou Musei, a quem acabam de apresentar. Embora ainda não seja membro, sinto profunda afinidade com muitos aspectos do pensamento de Meishu-Sama. É possível que, no futuro, venha a me tornar um. Há pouco, o professor Ito afirmou que “a paz é a grandiosa harmonia mantida pela ordem da espiritualidade”, e creio ser esta uma verdade irrefutável.</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>Ora, se o coração emite ondas, é lógico supor que o cérebro e até as mãos também o façam. Sendo assim, é perfeitamente plausível que o espírito, a fonte primordial de nosso ser, também irradie sua própria energia. A confluência dessas diversas radiações daria origem ao espírito, criando o que chamamos de “eu”. Essa é uma possibilidade cientificamente defensável.</p>
 <p>A maioria dos cientistas de hoje afirma que a alma não existe por não ter sido cientificamente comprovada. Trata-se, no entanto, de um salto lógico falacioso, pois a sua inexistência tampouco foi demonstrada pela ciência. Eles creem que o conhecimento humano atual é capaz de decifrar todos os mistérios do universo e apressam-se em rotular de “superstição” tudo o que transcende sua compreensão. Na verdade, são eles os grandes supersticiosos, por depositarem uma fé cega e absoluta em uma ciência ainda tão limitada.</p>
 <p>Bem, o tempo que me foi concedido chegou ao fim. Como prezo pela pontualidade, despeço-me aqui. Muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 徳川夢声氏講演要旨 五月二十二日 日比谷公会堂に於て 『地上天国』25号、昭和26(1951)年6月25日発行 私がただ今御紹介を頂きました夢声で御座居ます。<br/><br/>私は未だ信者ではありませんが、明主の御考えには非常に共鳴する所が多いのであります。<br/><br/>行く行くは、信者になるかもしれません。<br/><br/>先程伊藤先生が「平和は霊性の秩序によって保たれる大いなる和である」と申されましたが、まことにその通りだと信ずるのであります。<br/><br/> さて今日のお話は、私がどうして霊の存在を考えるようになったか、一種の広告のような話であります。<br/><br/>私は生れてから今日、子供の時は霊があると思っておりましたが、それが長するに従っていろいろな智識というようなものが頭に入ってまいりますと、霊なんかないものと考えるに至ったのであります。<br/><br/>私は最近まで、死んじまえば何も彼もすべておじゃんになり、喜びも悲しみも生きている間だけの事で、最後に死が待っていて一切が空になると思っていました。<br/><br/>ところがそれが空にはならないので少々慌てたんですな。<br/><br/> ところがどうして私が魂とか、霊がありそうだとはっきり感じたかというのは、田中河内介という勤皇の医者の事です。<br/><br/>英人が薩摩に護送される途中、幡磨灘にさしかかった時、船のデッキでその養子と共に斬殺されて、死骸は海に放り込まれたのですが、かく田中河内介の私自身の経験が、こりゃ魂がなくてはこういうことにならぬという結論に到達せしめたのです。<br/><br/>その名に出っくわしたのは、昔私は怪談趣味をもち色々怪談の話も聞いております。<br/><br/>そのうちもと新派の喜多村縁郎氏が主宰していた怪談会で、ある時一人の学生が来て「会員にしてくれ」というので「会費さえ納めれば誰でも歓迎する」というと、その人が会費を納めてその学生の番になると、話は実に下手なのですが、何だか凄味があり、彼がどうして田中河内介を知っているかというと「河内介を殺した方が次々と不思議な死方をして、自分は矢張りその怨を受けている一家の一人で、家でも田中河内介の名を云う事さえ禁じられている。<br/><br/>その名を云うさえ恐いが、言うときっと不吉な事があるが今日は思い切って話す」という、丁度田中河内介が殺されるところまで来ると、その学生の話がもつれ、前にある台にこごんでしまう。<br/><br/>居睡りをしているんだと思って、そばの人が起すと話が前にもどってしまう。<br/><br/>又さっきのところに来ると居睡をし出す。<br/><br/>そういう事が三度ばかりあって、そして最後に起した時には死んでいた。<br/><br/>来ていた皆は、何かゾーッとしたというのですが、それが元で「怪談会はよそうよ」という事になりましたが、その話をその席に列席していた人から聞いたので田中河内介の名が私の頭に残っていた。<br/><br/> ところが私が最初の映画で、昭和十八年頃だったか、鶏という映画に、疎開した御隠居の役で、ロケを小田急の伊勢カ原というところでやりました。<br/><br/>そこの学校を借りてやる事になり、駅前通りの右側の料理屋兼旅館で休憩した時でした。<br/><br/>それは暑い時でしたがロケーションマネージァの実に物識りな大阪弁の爺さんが庭にいて語る事には相当歴史にもくわしくて「何ですな、先生人を殺す様な人はどうも晩年は皆ようない。<br/><br/>明治維新の人で口を噤（つぐ）んでいても決して良うありまへんな。<br/><br/>大久保利通は人を投した事のない様な人だったが、若い時田中河内介を殺させたが、自分もそれで清水谷公園の上で殺された」と申しますので、私は「あっ、オッサン田中河内介についてこういう話がある」と云って、例の話をすると、吃驚して彼はみるみる真蒼になって震い出し「フア…」と云ったかと思うとどこかにいってしまった。<br/><br/>暫くすると水だらけになって出て来たので「どうしたんだ」と聞くと「どうも先生の御話を聞いていると何やらゾーッとして身震いがして、あたりが暗くなって倒れそうになったので、今頭を水で冷して来た所です」と言うので、それで水にぬれているのが判った。<br/><br/>又私が河内介の話をしようとすると「ウハア……、もうその話は止めて下さい」と云うのでそのまま寝ましたが、その事があってから二日目だったと思いますが、御殿場に行って用が一段落して東京に帰るべく汽車を待っている間に町を散歩していると、半分本屋で、半分菓子を売っている店がありましたので、私はどこへ行っても本屋があると一応よってみる癖がありまして、店に入って、フト本棚をみるとどうでしょう。<br/><br/>「田中河内介」とかいた本が四冊も並んでいるではありませんか、これを見た瞬間、私は河内介の亡霊が私によめというのかもしれぬと思い、何か本屋が大衆小説と間違えて買い込んだものとみえ、ルビーなしの難しい本で、その奥付を見ると「田中河内介顕彰会、大久保某」となっている。<br/><br/>田中河内介の徳を讃えた本で大久保家で彼の霊をともらうために出したのでありましょう。<br/><br/>私がそれを買って汽車の中で読みましたが、幡磨灘で殺される場面など凄いもんです。<br/><br/>私は新松田駅で乗換えて小田急に乗り、窓際によりかかってよんでいた。<br/><br/>その中で「河内介の死骸が漂着したところで村人が憐れに思い、そこに祀ったのが座間神社という」とあり八幡とか氷川神社という名は多いんですが、座間なんていう名の神杜はそうありません。<br/><br/>私が今はどこだろうとひょいと駅を見ると、座間なんですね。<br/><br/>私はあまりの事に吃驚しました。<br/><br/>三百頁からある本ですから、三三〇分の一つの名と、日本中何万かの駅の中にも稀な一つの名が同じなんです。<br/><br/>座間神社の所を読んだ時、座間というのはどうゆう訳でしよう。<br/><br/>これは単なる偶然ではない。<br/><br/>何か霊界からの演出によって私はやらされたとその時に考えました。<br/><br/> 又こうゆう事がありました。<br/><br/>戦争中は弁当を持て通う事になったので、丁度私が日比谷映画劇場に出ていまして、その前にアルマイト専門店がありました。<br/><br/>私が生れて始めて二食分の弁当箱を買って帰り「オーイ弁当箱を買って来たよ」と云うと「アレ私も」と家内が吃驚しましたが、弁当箱を二重に買ちまったんですが、これも偶然と片付けられないものがあります。<br/><br/>又ある時、台湾坊主が原子爆弾で治るという小説を書こうと思いましたが、どうしてもモデルになる人物が要るので誰にしようかと考えている中に、フト以前私の弟子をして家にいた松浪という男がいい、松浪君を台湾坊主にしてモデル小説を書こうと思ったのが、丁度夜中の二時頃でした。<br/><br/>すると翌朝、娘が唐紙を開けて「お客様」「エー誰」「松浪さん」「オイ本当かい、何年にも来た事がない男だがな、しかし世間には松浪という名は沢山ある」と思って玄関に出てみると、私が台湾坊主にした松浪君がニヤニヤ笑って立っているので吃驚りしました「何しに来た」と聞くと「昨夜泥棒に入られて煙草を盗まれたが、専売局へ納める金がどうしても要るので借りに来た」というんです。<br/><br/>「いくらだ」「二千円位」しかし現在の二千円でなく戦争中の二千円なので「そんなまとまった金が私の家にあろう筈がないじゃないか、そんな事位君も知っているだろう。<br/><br/>どういう訳で、私の家へ見当をつけた」と訊くと、松浪君が「それが不思議なんですよ先生、私も思いもよらなかったんですが、夜中の二時頃だったか、ひょいと先生のところへ行きたくなったんですよ」丁度私が松浪君を台湾坊主にしようと思っていた時なんですな、結局私の考えによると、霊というか、魂というか、あるものが働いていると思わざるを得なくなったのです。<br/><br/>早くいうと色々な放射能があつまると霊が出来自意識が出来ると思うんですが、結局霊とか魂というのは、一種の放射線の組合せになってて、水素と酸素で水が出来るようなものでありましょう。<br/><br/> 彼の湯川博士の中間子論は仮説であって、それを実証したわけではない。<br/><br/>そうなる筈であり、そうゆう物がなくては理屈がつかないからという推測からその存在を理論的に設定したので、それが証明されてノーベル賞を貰ったのである。<br/><br/>私の霊魂放射能組合せ説はこれだと何でも説明がつく、丁度私が弁当箱をと思っている思いが家内に通じてアルマイトの弁当箱となり、日比谷と杉並位直きですわ、松浪君も、松浪々々と思っていた心が届いたわけで杉並から千駄カ谷までわけはない。<br/><br/>それで徳川さんとこへ行こうと思う。<br/><br/>今までの幽霊現象もそうである。<br/><br/>息子が戦地で死ぬ時お母さんが幽霊を見るのは「アーお母さん」と思うとき見えるんですな。<br/><br/> もう少し科学が進歩すれば、私のこの説が証明されて、その時はノーベル賞を貰わなければならなくなる。<br/><br/>どうせ貰うなら税が安くなってからがいいと思ってます。<br/><br/> 明主の御話を伺っていますと、いよいよその確信を強めました。<br/><br/> 皆さんも御存知の今警視庁で使っている嘘発見器も、心臓から一種の電波が出て、普通ならなんでもないが、嘘を言うとその電波が乱れて機械の目盛に表われるのでそれを応用したのである。<br/><br/> 心臓から出る位だから、頭からも手からも電波が出る以上その元たる霊の放射もある訳であり、そこでいろいろな放射能が集まると霊が出来、私という意識を造るという事は科学的にもあり得る事である。<br/><br/> どうも今日の科学者の大多数は、霊魂の存在は科学的に証明されておらないから、そんなものはないと言うが、それは論理の飛躍で、又霊魂が存在しないという事も、科学的に証明されていない。<br/><br/>今日人間の頭でこさえた科学位で森羅万象悉くわかるといい、迷信だと他の事を言いたがるが、そうゆう連中こそ、つまらぬ科学を絶対だと信じている。<br/><br/>偉大なる迷信家だと思います。<br/><br/> ええ、丁度私に与えられた時間が参りましたので、私は正確に時間を守るのでこれにて失礼さして頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

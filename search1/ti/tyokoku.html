@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyokoku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 彫刻 ･日本美術とその将来（2） 自観叢書第5編『自観隨談』P.64、昭和24(1949)年8月30日発行 次に彫刻の事を少しかいてみよう。<br><br>昔の運慶や左甚五郎等はあまりにも有名であるが、彫刻は絵画と違い、昔から名手は非常に少かった。<br><br>〔ここ〕に現代のみをかく事にするが明治以後今までに見られない隆盛となった事は、展覧会等の刺戟が与（あずか）って力あった事はもちろんである。<br><br>まず有名人としては木彫では石川光明（こうめい）、米原雲海、山崎朝雲の故人及び老大家を初め、平櫛田中（ひらくしでんちゅう）、佐藤朝山改め同清蔵氏等がおもなる人であろう。<br><br>以上の中私は田中が好きだが、近来は往年のような活気が乏しいようである。<br><br>ひとり清蔵氏のみは今膏（あぶら）がのりきっていて、なかなか名作を出している。<br><br>氏に望むらくは満々たる野心は長所に価するが、今一段の洗練と円熟とを期待したいのである。<br><br>洵（まこと）に人なき彫刻界にあって、君こそは近代の名人たり得るであろう。<br><br> 銅像や塑像においては何といっても、浅倉文夫氏に指を屈せざるを得まい。<br><br>しかしながら同氏の技術は行く所まで行った感があるのは私のみの見解ではなかろう。<br><br> ここで特筆すべきは、古代においての仏像彫刻である。<br><br>彼の法隆寺、夢殿における幾多の仏像の洗練せる技術は、千二百年以前、天平時代の作とはどうしても考えられないのである。<br><br>これを凌（しの）ぐべき彫刻芸術はいつの日か生れるであろうかを思う時、多くの期待は望み得べくもないと思わざるを得ないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Arte da Escultura</h2>
 <p>Gostaria de abordar, a seguir, o campo da escultura. Nomes como Unkei e Hidari Jingoro são, por certo, sobejamente conhecidos. Contudo, diferentemente do que ocorre na pintura, os grandes mestres escultores sempre foram extremamente raros ao longo da História.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Dentre os artistas citados, tenho especial apreço por Hirakushi Denchu, embora me pareça que suas obras recentes carecem do vigor de outrora. Seizo, por sua vez, encontra-se no auge de sua maturidade artística, presenteando-nos com notáveis obras-primas. Sua transbordante ambição é, sem dúvida, um mérito; todavia, anseio por vê-lo alcançar um patamar ainda mais elevado de refinamento e maturidade. Em um cenário de escassos talentos como o da escultura, ele é quem reúne as qualidades para se tornar o grande mestre de nossa era.</p>
 <p>No domínio das estátuas de bronze e das esculturas em argila, é imperativo reconhecer Asakura Fumio como a principal referência. Creio, contudo, não ser o único a partilhar da impressão de que sua técnica já atingiu seu apogeu, não havendo mais para onde evoluir.</p>
 <p>Neste ponto, merece menção especial a estatuária budista da Antiguidade. O requinte técnico das inúmeras esculturas do Templo Horyu-ji e do Pavilhão Yumedono é de tal magnitude que se torna inconcebível que sejam obras do Período Tenpyo, produzidas há mais de mil e duzentos anos. Ao ponderar se algum dia surgirá uma arte escultórica capaz de suplantar tamanha grandeza, sou forçado a concluir que tal expectativa se afigura, infelizmente, remota.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 彫刻 ･日本美術とその将来（2） 自観叢書第5編『自観隨談』P.64、昭和24(1949)年8月30日発行 次に彫刻の事を少しかいてみよう。<br/><br/>昔の運慶や左甚五郎等はあまりにも有名であるが、彫刻は絵画と違い、昔から名手は非常に少かった。<br/><br/>〔ここ〕に現代のみをかく事にするが明治以後今までに見られない隆盛となった事は、展覧会等の刺戟が与（あずか）って力あった事はもちろんである。<br/><br/>まず有名人としては木彫では石川光明（こうめい）、米原雲海、山崎朝雲の故人及び老大家を初め、平櫛田中（ひらくしでんちゅう）、佐藤朝山改め同清蔵氏等がおもなる人であろう。<br/><br/>以上の中私は田中が好きだが、近来は往年のような活気が乏しいようである。<br/><br/>ひとり清蔵氏のみは今膏（あぶら）がのりきっていて、なかなか名作を出している。<br/><br/>氏に望むらくは満々たる野心は長所に価するが、今一段の洗練と円熟とを期待したいのである。<br/><br/>洵（まこと）に人なき彫刻界にあって、君こそは近代の名人たり得るであろう。<br/><br/> 銅像や塑像においては何といっても、浅倉文夫氏に指を屈せざるを得まい。<br/><br/>しかしながら同氏の技術は行く所まで行った感があるのは私のみの見解ではなかろう。<br/><br/> ここで特筆すべきは、古代においての仏像彫刻である。<br/><br/>彼の法隆寺、夢殿における幾多の仏像の洗練せる技術は、千二百年以前、天平時代の作とはどうしても考えられないのである。<br/><br/>これを凌（しの）ぐべき彫刻芸術はいつの日か生れるであろうかを思う時、多くの期待は望み得べくもないと思わざるを得ないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

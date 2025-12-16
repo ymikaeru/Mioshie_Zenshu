@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon21</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音様に御願する態度 未発表、昭和10(1935)年頃に執筆と思われる 今までの何か信仰してる、信者の信仰の仕方は、私から見れば大変間違っているのである。<br><br> 特に神前において御祈願をする場合、そうである。<br><br>例えば、何か願事をするのに、まことに諄々（くどくど）し過ぎるのである。<br><br>泣くがごとく、訴うるがごとく、肩を震わし、哀憐（あいれん）を、強いてこうごとき態度は、むしろ醜（みぐる）しい位のものであって、それを数分も、数十分も掛るものさえあるのである。<br><br> これは大変な間違いである。<br><br>たとえて言えば、神様は親様であり、人民は子のようなものであるから、子が親に対し、希望を乞うのに、泣かんばかりに、執拗に訴えるのは、親として決して、気持の好いものではないであろう。<br><br>この理によって、観音様へ御祈願する場合、なるべく、非礼に渉らぬよう心掛くると共に、言葉は簡単が良いのである。<br><br>故に、一つ事を繰返すのは、大変善くないのである。<br><br>なぜなれば、観音様は、人間の心の底まで見透して被在（あらせ）らるるから、御祈願する前から判って居られるのは勿論である。<br><br>故に、御祈願しなくとも、常に乞い願っていた事が、奇蹟的に実現する事が、能くあるのはそういう訳である。<br><br>又人間でさえ、一つ事を繰返されるのは、嫌なものであるから、況（ま）して御神霊へ対し奉っては、その点を呉々（くれぐれ）も、心掛くべきである。<br><br> 序（ついで）であるから、今一つ注意しておきたいが、今までの習慣上、観音会の祝詞の外に、観音経を奏げる人がよくあるが、これも大変間違っているのである。<br><br>元々観音経は、釈尊の時代梵語（ぼんご）で出来たものである。<br><br>それはその時代の印度人に読ませる為である。<br><br>それを又漢訳したものであるから、本当から言えば、日本人が読むのは間違っているが、今までは、代るべきものが無かったから致し方なかったのである。<br><br> 又時間も、観音経は三十分以上を要するのであるから、二千五百年以前の印度人ならイザ知らず、現代文化生活者の日本人としては余りに時代錯誤である。<br><br>これも悉（みな）、応身弥勒であらせらるる観音様の応身、否（いな）応世の御経綸の一端であると、察するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Atitude nas Preces a Kannon</h2>
 <p>Do meu ponto de vista, a maneira como os fiéis têm praticado sua fé até hoje é profundamente equivocada, sobretudo no que tange à atitude ao orar perante o Altar. Quando fazem uma prece, por exemplo, suas súplicas são excessivamente prolixas e insistentes. Há aqueles que, como se chorassem ou implorassem, chegam a tremer os ombros, forçando uma cena de compaixão que beira o deplorável, e nisso despendem vários minutos, por vezes dezenas.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>A razão para tal é que Kannon (観音) perscruta o âmago do coração humano, de modo que, naturalmente, já tem ciência do pedido antes mesmo que ele seja formulado. É por essa razão que, com frequência, anseios profundos se materializam milagrosamente, mesmo sem que tenham sido objeto de uma oração formal. Ademais, se até mesmo os seres humanos se aborrecem com a repetição, quanto mais uma Divindade. É imperativo, pois, ter o máximo de atenção a esse ponto ao se dirigir ao Mundo Espiritual.</p>
 <p>Aproveitando o ensejo, gostaria de salientar outro ponto. Pelo costume arraigado, muitas pessoas entoam o Sutra Kannon após a Oração Amatsu-Norito nas cerimônias, o que também constitui um grande erro. Originalmente, o Sutra Kannon foi composto em sânscrito, na época de Shakyamuni, com o propósito de ser lido pelos indianos daquele tempo. Posteriormente, foi traduzido para o chinês. A rigor, portanto, é incorreto que os japoneses o leiam, mas, até o presente momento, essa era uma prática inevitável, por não haver algo que o substituísse.</p>
 <p>Ademais, a leitura do Sutra Kannon demanda mais de trinta minutos. Talvez fosse aceitável para os indianos de dois mil e quinhentos anos atrás, mas para o japonês moderno, inserido na vida cultural contemporânea, constitui um anacronismo flagrante. Compreendo que todos esses fatos são parte do Plano Divino de Kannon (観音), que é a manifestação de Miroku, um plano que visa não apenas à manifestação, mas, sobretudo, à adequação aos tempos atuais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音様に御願する態度 未発表、昭和10(1935)年頃に執筆と思われる 今までの何か信仰してる、信者の信仰の仕方は、私から見れば大変間違っているのである。<br/><br/> 特に神前において御祈願をする場合、そうである。<br/><br/>例えば、何か願事をするのに、まことに諄々（くどくど）し過ぎるのである。<br/><br/>泣くがごとく、訴うるがごとく、肩を震わし、哀憐（あいれん）を、強いてこうごとき態度は、むしろ醜（みぐる）しい位のものであって、それを数分も、数十分も掛るものさえあるのである。<br/><br/> これは大変な間違いである。<br/><br/>たとえて言えば、神様は親様であり、人民は子のようなものであるから、子が親に対し、希望を乞うのに、泣かんばかりに、執拗に訴えるのは、親として決して、気持の好いものではないであろう。<br/><br/>この理によって、観音様へ御祈願する場合、なるべく、非礼に渉らぬよう心掛くると共に、言葉は簡単が良いのである。<br/><br/>故に、一つ事を繰返すのは、大変善くないのである。<br/><br/>なぜなれば、観音様は、人間の心の底まで見透して被在（あらせ）らるるから、御祈願する前から判って居られるのは勿論である。<br/><br/>故に、御祈願しなくとも、常に乞い願っていた事が、奇蹟的に実現する事が、能くあるのはそういう訳である。<br/><br/>又人間でさえ、一つ事を繰返されるのは、嫌なものであるから、況（ま）して御神霊へ対し奉っては、その点を呉々（くれぐれ）も、心掛くべきである。<br/><br/> 序（ついで）であるから、今一つ注意しておきたいが、今までの習慣上、観音会の祝詞の外に、観音経を奏げる人がよくあるが、これも大変間違っているのである。<br/><br/>元々観音経は、釈尊の時代梵語（ぼんご）で出来たものである。<br/><br/>それはその時代の印度人に読ませる為である。<br/><br/>それを又漢訳したものであるから、本当から言えば、日本人が読むのは間違っているが、今までは、代るべきものが無かったから致し方なかったのである。<br/><br/> 又時間も、観音経は三十分以上を要するのであるから、二千五百年以前の印度人ならイザ知らず、現代文化生活者の日本人としては余りに時代錯誤である。<br/><br/>これも悉（みな）、応身弥勒であらせらるる観音様の応身、否（いな）応世の御経綸の一端であると、察するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

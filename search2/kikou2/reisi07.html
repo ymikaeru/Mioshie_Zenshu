@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 （七） 五三中教会 茨木よし子 『地上天国』51号、昭和28(1953)年8月25日発行 四月一日、今日は待ちに待っていた願がかない特別御面会に参加させていただきました。<br><br> 本部御神前の霊界も驚く程に変化しているだろうと私の胸は、どきどきいたしました。<br><br>本部御神前に御参拝申し上げますと、メシヤ観音様の乗っていらっしゃる雲の辺には、大勢の男神女神がお揃でお待ち兼ねの御様子でありました。<br><br>そしてあたり一面数限りもない霊界人は、見る見る間にぎっしり集り、その整列の厳たる事は、現界人とは比べものにならない様であります。<br><br>午後一時半頃予定の参加者は、ほとんど参拝していらっしゃる。<br><br>あちらでもこちらでも御神前に御参拝されておられましたが、御神前にお出ましになっていらっしゃる神々様が、一斉に視線をおむけになられるのでその方を見ますと、それもそのはず多賀先生御夫婦が、うやうやしく御参拝になっていらっしゃるところでした。<br><br>真心こめての御参拝は神の目にはこのように大きく届くのでありましょうか。<br><br>神々様は、現界人の行動を一々御覧になっておられ御守護下さるようは明主様の御教えの通りでありました。<br><br>神々様の中には、ずっと大柄の神様で荒神様のように見える神様は、もっとも御神前の前方にお出ましになられ一瞬の隙も無く見張をしていらっしゃる様を拝しますと、場内の方々の周囲にいるものは喜び、又恐怖にて縮みあがりそれぞれ見えなくなってしまう様が目に映りました。<br><br>この様が写真にとれれば素晴しい傑作ができ上るであろうと心で満足していました。<br><br>霊界では次から次から、ぞろぞろと参拝しその数は何百万でありましょうか。<br><br>やがて御参拝が始まりました。<br><br>御神前の真中には日月土大神様らしき神様がお立ちになられ沢山の神々様がお出ましになられ、お指図をお受けなされていらっしゃる様が拝されます。<br><br>中には皓々と放射される白光に眼くらみ、すっかりお姿が見えなくなられる神々様も見受けられました。<br><br>色々様々の神様方の御様子を手にとる如く霊視させていただきました。<br><br>これはそれぞれ神様方の御担当があるとの明主様の御教の通りの事をお見せ下さったように有難く思いました。<br><br>次は神々様の下にお働きなさる方々でありましょうか、色々お指図をお拝受なされていましたが、お光が強いので浄化されてしまう方々も見受けられました。<br><br>やがて善言讃詞も終り大光明如来様もさっとお出ましになられました。<br><br>（大祭後は大光明如来様の衣装もおかわりになられ御顔もとても峻巌なように拝されます）。<br><br>次に木原先生先達の下に御讃歌「観音の……」を声高らかに奏上致しますと、黄金の御光を浴びられた良い服装のお召物を召された御姿の立派な観音様がお出ましになられました。<br><br> 次に刀を持たれた神様がお出ましになり、勢よく刀を抜きかけられましたが、放射されるお光にて、その御元気がなくなられ、手をつき、うなだれていらっしゃるような態が拝されました。<br><br>次に白色のふわふわんたそれはそれは立派な布のようなものが、何丈あるかわからない吹き流しの様な物にして、神様のふるいにかけられる様が見えて来ました。<br><br>その布が沢山の偉人達の頭上に振りかかったかと思うと、残される者、さばかれる者の区別がついてしまい着物の色が変化してしまいます。<br><br>白い着物でも黒と変化し薄黒色になるものもあり、そのまま白の着物にもなり、善悪のたて別けの様子でありました。<br><br>再び前の吹き流しのようなものが現われ」それが白の流れ川とかわり、蛙、龍神、とかげ、あらゆる動物がはって、我先とそこへ行き、それぞれ形を変えてもらい救っていただく様が拝されました。<br><br>中にはどうしたことでありましょうか消えて見えなくなってしまう様も目に映りました。<br><br>場面が一変して、立派な宝石、曲玉のちりばめてある御殿のようなお部屋の中に神様がお入りになられる様が拝され、その辺をうろついている大勢の人々、大きな洋館建の家々の上から火を運ぶ龍神等沢山あり見る見る間に、火の海と変してしまい、それをなめつくしてしまいました。<br><br>その苦しむ人々の様等とても悲惨にして眼をおおいたくなり、身体はがたがた頭髪はぴんと立ってしまう様な一瞬の恐怖におそわれました。<br><br>御讃歌をおあげになる木原先生の背後頭上に見えた○○が目からぽろぽろ涙を流し口からは白いお光を放射している様が目に映り実に尊いようでありました。<br><br>お互信仰者は御神前にいる時の心を絶えず持続したきものと痛感いたします。<br><br>御神前にいらっしゃった神々様は列をつくられ明主様のお出ましをお待ち兼ねの態でありました。<br><br>明主様お出ましまでに暫くの間がありました。<br><br>本部の幹部の先生方や、中教会長の先生方の後の守護神らしきものを霊視させていただきました。<br><br>種々様々の龍神が見えて来ました。<br><br>隣近所に居並ぶ一般の信者さん方の背後にも見えて来ました。<br><br>その主なるものば、黄龍、白龍、青龍、黒龍で色には濃淡があり、形態も違い幾種類と云う様にそれぞれ異っています。<br><br> 一つ一つくわしく御報告いたしましたら人間様もちょっと恥ずかしくなって来る事でありましょう。<br><br>龍神ならばまだよいにして狐、狸、とかげ、カマキリ虫、黒猫、鶏等々大変なものが見えて来ます。<br><br>人々がお話をされていますと、それぞれそうしたものが後でしゃべっています。<br><br>中には神様らしいお方の見える方もありました。<br><br>明主様が何時かの寸鉄におうたい下さいました中に、どこを見ても動物園とおっしゃった事を思い出して今更ながら驚いています。<br><br>間もなく明主様がお出ましになられますと、神々様は皆々座してとてもとても丁寧に頭をおさげになられる様は現界の私達と同じようでありましたが、現界人よりは一層礼儀正しく、明主様が、お椅子にお掛けになられまして、暫くしてからやっと頭をおあげになられました。<br><br>それから明主様の周囲にお集りになられ御拝聴になられていました。<br><br>明主様の御腹中には自宅にて時々霊視させて頂いております直径一尺位もある黄金の光の玉（白光の玉の時もある）を拝し、暫くいたしますと、明主様の全身からは、すごいお光が放射されました。<br><br>明主様お出まし下さいますと急に場内は暖かくなり、汗だくだくとなりました。<br><br>間もなく、明主様が御教えを下さいました。<br><br> 明主様の後には金龍が拝されます。<br><br>御教えを拝聴していますと、鉄筋コンクリートの建物の大破壊の様が拝されました。<br><br>間もなく信者が明主様にお伺いをされはじめました。<br><br>お伺いする方の御守護神らしきものが質問をしている様や、明主様の後には金龍がじっと見はりをして、眼はとても厳たるものでありました。<br><br>御伺いされたお方の守護神らしきものは、ほとんど○○でした。<br><br>今は随分この○○が活躍しているなと思い、神様の深い仕組にはおどろくばかりで御座いました。<br><br>俄かに強烈なお光が放射されはじめたなと思い、明主様のお出まし下さるあたりを霊視いたしますと、主神様らしき神様を中心に両側に二柱ずつ白い服装の神様がお立ちになられ、それぞれ何か御手に持っていらっしゃる神様であり、四柱の神様の後には黄色の龍神が見えて来ました。<br><br>祓戸の大神四柱の神様でありましょうか。<br><br>森山先生の後には○○に似た○○が明主様にお答えしていましたし朝日新聞に云々のお話の時の金龍の姿は、とても優しい顔をしていました。<br><br>明主様も御満足そうになさっていました。<br><br>明主様の周囲には何段階もの段階にて沢山の人々が救われている様が拝されます。<br><br> 上の方にいられる方でもお光が強烈に放射されるので、席を入れ替ってしまわれる様も見えました。<br><br>一瞬にして想念の世界は変ると御教え下さる御言葉もこの様を拝しますとよく解らせていただくように思われました。<br><br>ずっと霊界の下の方では、現界では見られない面白い車に（黒ぬりで縦横二間位高さ五尺位）約百人位乗せていただき、送られて来る一族が見えて来ました。<br><br>御垂示もおおかた終りをとげんとしている頃の事故、早く間にあえばとはらはらしましたが、やっと間にあいお光を拝し御拝聴の様子でありました。<br><br>明主様の御慈悲にて御浄霊をいただけば場内は邪気にてもうもうしている。<br><br>皆それぞれ薄い濃いはありますが、すごい邪気でありました。<br><br>信者の腹中の狐や狸等々は皆々縮みあがり萎縮する様かくれる様等も霊視できました。<br><br>明主様のお出ましになられているあたりの霊界は、まるで絵で見る王様が王座にいらっしやる様と同じような見事な霊界の様でした。<br><br>明主様の奥様の周囲には、美しい服装の女神達が見張をされたり、肩をさすったり、お側に坐していらっしゃったりそれぞれ分担して御守護なさっていらっしゃる様も拝されました。<br><br>御面会終って汽車を待つべく熱海駅にいた時にも信者の方々、幹部の方々教師の方々、それぞれお帰りになられる時にも、次から次と色々様々の守護神らしきものが霊視できました。<br><br>何カ月振りに本部に御参拝させていただき、以前にお目にかかった時の先生方のお顔と格段の相違のあるのには驚きました。<br><br>凄くおそろしい顔になっておられる方、同じようで変ってない方、優しく柔和な変り方、色々様々でした。<br><br>守護神らしきものもその顔付、態度に正比例しているようでした。<br><br>ちょっと接すれば、霊視しなくても、ああこの方は○○型だなと感度がよくなって来るように勉強させて頂けたように思われました。<br><br>明主様日々の御守護有難う御座います。<br><br>今後共よろしく御守護御願い申し上げます。<br><br> 以上を御報告申し上げさせて頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Visões do Mundo Espiritual na Presença de Meishu-Sama</h2>
 <p>No dia primeiro de abril, concretizou-se meu mais profundo anseio ao ser-me concedida a graça de participar da Audiência Especial. Meu coração palpitava de expectativa, pois imaginava que o Mundo Espiritual diante do Altar da Sede Central deveria ter sofrido uma transformação assombrosa.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Fazia meses que eu não visitava a Sede Central, e fiquei surpresa ao notar a grande diferença no semblante dos reverendos em comparação com a última vez. Alguns haviam adquirido uma fisionomia terrivelmente assustadora; outros permaneciam inalterados; e havia aqueles cujo rosto se tornara mais suave e sereno. Seus espíritos guardiães pareciam refletir perfeitamente suas feições e atitudes. Sinto que este dia me serviu de aprendizado para aprimorar minha sensibilidade, a ponto de, com um breve contato, poder intuir: “Ah, esta pessoa é do tipo ○○”, mesmo sem recorrer à visão espiritual.</p>
 <p>Agradeço, Meishu-Sama, por Vossa proteção diária. Rogo que continueis a me guardar e proteger.</p>
 <p>Este é o meu relato.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 （七） 五三中教会 茨木よし子 『地上天国』51号、昭和28(1953)年8月25日発行 四月一日、今日は待ちに待っていた願がかない特別御面会に参加させていただきました。<br/><br/> 本部御神前の霊界も驚く程に変化しているだろうと私の胸は、どきどきいたしました。<br/><br/>本部御神前に御参拝申し上げますと、メシヤ観音様の乗っていらっしゃる雲の辺には、大勢の男神女神がお揃でお待ち兼ねの御様子でありました。<br/><br/>そしてあたり一面数限りもない霊界人は、見る見る間にぎっしり集り、その整列の厳たる事は、現界人とは比べものにならない様であります。<br/><br/>午後一時半頃予定の参加者は、ほとんど参拝していらっしゃる。<br/><br/>あちらでもこちらでも御神前に御参拝されておられましたが、御神前にお出ましになっていらっしゃる神々様が、一斉に視線をおむけになられるのでその方を見ますと、それもそのはず多賀先生御夫婦が、うやうやしく御参拝になっていらっしゃるところでした。<br/><br/>真心こめての御参拝は神の目にはこのように大きく届くのでありましょうか。<br/><br/>神々様は、現界人の行動を一々御覧になっておられ御守護下さるようは明主様の御教えの通りでありました。<br/><br/>神々様の中には、ずっと大柄の神様で荒神様のように見える神様は、もっとも御神前の前方にお出ましになられ一瞬の隙も無く見張をしていらっしゃる様を拝しますと、場内の方々の周囲にいるものは喜び、又恐怖にて縮みあがりそれぞれ見えなくなってしまう様が目に映りました。<br/><br/>この様が写真にとれれば素晴しい傑作ができ上るであろうと心で満足していました。<br/><br/>霊界では次から次から、ぞろぞろと参拝しその数は何百万でありましょうか。<br/><br/>やがて御参拝が始まりました。<br/><br/>御神前の真中には日月土大神様らしき神様がお立ちになられ沢山の神々様がお出ましになられ、お指図をお受けなされていらっしゃる様が拝されます。<br/><br/>中には皓々と放射される白光に眼くらみ、すっかりお姿が見えなくなられる神々様も見受けられました。<br/><br/>色々様々の神様方の御様子を手にとる如く霊視させていただきました。<br/><br/>これはそれぞれ神様方の御担当があるとの明主様の御教の通りの事をお見せ下さったように有難く思いました。<br/><br/>次は神々様の下にお働きなさる方々でありましょうか、色々お指図をお拝受なされていましたが、お光が強いので浄化されてしまう方々も見受けられました。<br/><br/>やがて善言讃詞も終り大光明如来様もさっとお出ましになられました。<br/><br/>（大祭後は大光明如来様の衣装もおかわりになられ御顔もとても峻巌なように拝されます）。<br/><br/>次に木原先生先達の下に御讃歌「観音の……」を声高らかに奏上致しますと、黄金の御光を浴びられた良い服装のお召物を召された御姿の立派な観音様がお出ましになられました。<br/><br/> 次に刀を持たれた神様がお出ましになり、勢よく刀を抜きかけられましたが、放射されるお光にて、その御元気がなくなられ、手をつき、うなだれていらっしゃるような態が拝されました。<br/><br/>次に白色のふわふわんたそれはそれは立派な布のようなものが、何丈あるかわからない吹き流しの様な物にして、神様のふるいにかけられる様が見えて来ました。<br/><br/>その布が沢山の偉人達の頭上に振りかかったかと思うと、残される者、さばかれる者の区別がついてしまい着物の色が変化してしまいます。<br/><br/>白い着物でも黒と変化し薄黒色になるものもあり、そのまま白の着物にもなり、善悪のたて別けの様子でありました。<br/><br/>再び前の吹き流しのようなものが現われ」それが白の流れ川とかわり、蛙、龍神、とかげ、あらゆる動物がはって、我先とそこへ行き、それぞれ形を変えてもらい救っていただく様が拝されました。<br/><br/>中にはどうしたことでありましょうか消えて見えなくなってしまう様も目に映りました。<br/><br/>場面が一変して、立派な宝石、曲玉のちりばめてある御殿のようなお部屋の中に神様がお入りになられる様が拝され、その辺をうろついている大勢の人々、大きな洋館建の家々の上から火を運ぶ龍神等沢山あり見る見る間に、火の海と変してしまい、それをなめつくしてしまいました。<br/><br/>その苦しむ人々の様等とても悲惨にして眼をおおいたくなり、身体はがたがた頭髪はぴんと立ってしまう様な一瞬の恐怖におそわれました。<br/><br/>御讃歌をおあげになる木原先生の背後頭上に見えた○○が目からぽろぽろ涙を流し口からは白いお光を放射している様が目に映り実に尊いようでありました。<br/><br/>お互信仰者は御神前にいる時の心を絶えず持続したきものと痛感いたします。<br/><br/>御神前にいらっしゃった神々様は列をつくられ明主様のお出ましをお待ち兼ねの態でありました。<br/><br/>明主様お出ましまでに暫くの間がありました。<br/><br/>本部の幹部の先生方や、中教会長の先生方の後の守護神らしきものを霊視させていただきました。<br/><br/>種々様々の龍神が見えて来ました。<br/><br/>隣近所に居並ぶ一般の信者さん方の背後にも見えて来ました。<br/><br/>その主なるものば、黄龍、白龍、青龍、黒龍で色には濃淡があり、形態も違い幾種類と云う様にそれぞれ異っています。<br/><br/> 一つ一つくわしく御報告いたしましたら人間様もちょっと恥ずかしくなって来る事でありましょう。<br/><br/>龍神ならばまだよいにして狐、狸、とかげ、カマキリ虫、黒猫、鶏等々大変なものが見えて来ます。<br/><br/>人々がお話をされていますと、それぞれそうしたものが後でしゃべっています。<br/><br/>中には神様らしいお方の見える方もありました。<br/><br/>明主様が何時かの寸鉄におうたい下さいました中に、どこを見ても動物園とおっしゃった事を思い出して今更ながら驚いています。<br/><br/>間もなく明主様がお出ましになられますと、神々様は皆々座してとてもとても丁寧に頭をおさげになられる様は現界の私達と同じようでありましたが、現界人よりは一層礼儀正しく、明主様が、お椅子にお掛けになられまして、暫くしてからやっと頭をおあげになられました。<br/><br/>それから明主様の周囲にお集りになられ御拝聴になられていました。<br/><br/>明主様の御腹中には自宅にて時々霊視させて頂いております直径一尺位もある黄金の光の玉（白光の玉の時もある）を拝し、暫くいたしますと、明主様の全身からは、すごいお光が放射されました。<br/><br/>明主様お出まし下さいますと急に場内は暖かくなり、汗だくだくとなりました。<br/><br/>間もなく、明主様が御教えを下さいました。<br/><br/> 明主様の後には金龍が拝されます。<br/><br/>御教えを拝聴していますと、鉄筋コンクリートの建物の大破壊の様が拝されました。<br/><br/>間もなく信者が明主様にお伺いをされはじめました。<br/><br/>お伺いする方の御守護神らしきものが質問をしている様や、明主様の後には金龍がじっと見はりをして、眼はとても厳たるものでありました。<br/><br/>御伺いされたお方の守護神らしきものは、ほとんど○○でした。<br/><br/>今は随分この○○が活躍しているなと思い、神様の深い仕組にはおどろくばかりで御座いました。<br/><br/>俄かに強烈なお光が放射されはじめたなと思い、明主様のお出まし下さるあたりを霊視いたしますと、主神様らしき神様を中心に両側に二柱ずつ白い服装の神様がお立ちになられ、それぞれ何か御手に持っていらっしゃる神様であり、四柱の神様の後には黄色の龍神が見えて来ました。<br/><br/>祓戸の大神四柱の神様でありましょうか。<br/><br/>森山先生の後には○○に似た○○が明主様にお答えしていましたし朝日新聞に云々のお話の時の金龍の姿は、とても優しい顔をしていました。<br/><br/>明主様も御満足そうになさっていました。<br/><br/>明主様の周囲には何段階もの段階にて沢山の人々が救われている様が拝されます。<br/><br/> 上の方にいられる方でもお光が強烈に放射されるので、席を入れ替ってしまわれる様も見えました。<br/><br/>一瞬にして想念の世界は変ると御教え下さる御言葉もこの様を拝しますとよく解らせていただくように思われました。<br/><br/>ずっと霊界の下の方では、現界では見られない面白い車に（黒ぬりで縦横二間位高さ五尺位）約百人位乗せていただき、送られて来る一族が見えて来ました。<br/><br/>御垂示もおおかた終りをとげんとしている頃の事故、早く間にあえばとはらはらしましたが、やっと間にあいお光を拝し御拝聴の様子でありました。<br/><br/>明主様の御慈悲にて御浄霊をいただけば場内は邪気にてもうもうしている。<br/><br/>皆それぞれ薄い濃いはありますが、すごい邪気でありました。<br/><br/>信者の腹中の狐や狸等々は皆々縮みあがり萎縮する様かくれる様等も霊視できました。<br/><br/>明主様のお出ましになられているあたりの霊界は、まるで絵で見る王様が王座にいらっしやる様と同じような見事な霊界の様でした。<br/><br/>明主様の奥様の周囲には、美しい服装の女神達が見張をされたり、肩をさすったり、お側に坐していらっしゃったりそれぞれ分担して御守護なさっていらっしゃる様も拝されました。<br/><br/>御面会終って汽車を待つべく熱海駅にいた時にも信者の方々、幹部の方々教師の方々、それぞれお帰りになられる時にも、次から次と色々様々の守護神らしきものが霊視できました。<br/><br/>何カ月振りに本部に御参拝させていただき、以前にお目にかかった時の先生方のお顔と格段の相違のあるのには驚きました。<br/><br/>凄くおそろしい顔になっておられる方、同じようで変ってない方、優しく柔和な変り方、色々様々でした。<br/><br/>守護神らしきものもその顔付、態度に正比例しているようでした。<br/><br/>ちょっと接すれば、霊視しなくても、ああこの方は○○型だなと感度がよくなって来るように勉強させて頂けたように思われました。<br/><br/>明主様日々の御守護有難う御座います。<br/><br/>今後共よろしく御守護御願い申し上げます。<br/><br/> 以上を御報告申し上げさせて頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

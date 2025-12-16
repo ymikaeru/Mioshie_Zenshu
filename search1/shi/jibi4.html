@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jibi4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 耳鼻疾患 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 耳の病気としては、中耳炎、耳鳴、耳垂、聾耳等であらう。<br><br>中耳炎は曩に説いたから省くが、耳鳴は医学上原因不明で、治療の方法は無いとされてゐるが、本療法では、如何なる耳鳴も必ず治癒したのである。<br><br>そうして、原因としては、内耳又は内耳に近い頭脳部、顳■（こめかみ）部及び延髄部、耳下腺等に毒素溜結し、それが緩慢な浄化作用によつて溶解する。<br><br>その音響がひびくのである。<br><br>そうして耳下腺部に於ける毒素溜結が最も多く、殊に面白いのは延髄部の原因も多いので、一見、耳に関係のないと思ふ局所であるが、そこを治療するに於て能く治癒するものであるが、患者も施術者も意外に思ふ事がある。<br><br>然し乍ら、耳鳴は放任しておけば大抵は治癒するものであるが、但だ長年月かかるので、患者は煩悶し迷つて種々の療法を試みるが、殆んど効果はないやうである。<br><br> 次に耳垂は、浄化作用による淋巴腺部の毒素が、耳下腺を通じて排泄せらるるのであるから、放任しておけば自然に出るだけ出て、必ず全治するものである。<br><br>然るに医療は、薬液にて洗滌するが、実に誤れるも甚しいので排除さるべき毒液が外耳に滞溜した場合、それは洗滌してもしなくても同じ事である。<br><br>丁度、歯糞を掃除しても食事をすれば、直ぐに元通りになると同じ様なものである。<br><br>然し、唯だ洗滌だけならいいが、その薬液が粘膜から浸潤して毒液に変化し、排泄されるのである。<br><br>即ち、排泄した毒素を洗ひながら新しく毒素の原料を追加するといふ訳であるから毎日洗滌に病院へ通ひ、三年も五年に経つても治らないといふ患者がよくあるが、それは右の理によるからである。<br><br>そういふ患者に対し、医療を停止させ、放任させるに於て、数ケ月にして自然に治癒した例を、私は屡々経験したのである。<br><br> 次に聾耳は、先天的と後天的とあり、又、病的と霊的との区別がある。<br><br>霊的の方は後に説く事とするが、病的だけを説いてみよう。<br><br>之は然毒が耳下腺から内耳へかけ、聴感神経部に固結して、その神経機能を抑圧し、無力にするので、これは非常に治り難いのである。<br><br>然し、固結の強弱と、固結部の位置によつて治り易いのと治り難いとの差別がある。<br><br>ここに注意すべきは、医療に於ては欧氏管通風をよく行ふが、これは非常に危険である。<br><br>此方法で、軽微の聾耳が全聾になつた例を、稀にみるのである。<br><br>そうして之は、如何に治療しても聊かの効果もなかつたのである。<br><br> 次に、精神病患者に、よく幻聴といつて、附近に人が居ないのに、種々の声が聴える事がある。<br><br>之は、耳の病気ではなく霊的であるから後に説く事とする。<br><br> 次に、鼻の病気としては、蓄膿症、肥厚性鼻炎、鼻茸、無嗅覚等あるが、原因は何れも同一であつて、鼻の両側に溜結した毒素及び後頭部特に延髄附近に溜結した毒素及び前頭部より前額部にかけて溜結せる毒素が、浄化作用によつて鼻孔から鼻汁となつて排泄せらるるのである。<br><br>即ち、蓄膿症は、鼻の両側の皮下に於ける毒素の溜結が原因であつて、これは指頭で圧すれば痛みがあり、この痛みの強弱によつて、重軽の差が判るのである。<br><br>これを放任しておけば、この毒結は溶解、鼻汁となつて出て治癒するのであるが、医療は薬液で洗滌するから、耳垂の際の洗滌と同じく薬毒が浸潤、追増することになり、慢性になるのである。<br><br>又、肥厚性鼻炎は鼻汁に含まれてゐる毒素が、粘膜を刺戟するので加答児を起し、微熱を生じ、小腫物、痛み、痒み、涸（かわ）き等の症状をおこすのであるが、これ等も気永に自然療法によれば治癒するのである。<br><br>次に鼻茸は、私は医者でないから、手術をしたことがないのでよく判らないが、膿の固結したものではないかと惟ふ。<br><br>兎に角私の治療によつて鼻茸が発生しなくなるにみても、そうであると想ふのである。<br><br> そうして、蓄膿でも鼻茸でも手術をするが手術によつて一旦治癒したやうでも、遅きは二三年、速きは半年位で再発するので、此事実は真の治癒ではなく一時的効果に過ぎない事が判るのである。<br><br>特に蓄膿症に於ては、鼻側に集溜する毒素を手術によつて排除するが一時排除しても再び集溜するのである。<br><br>故に完全に治癒させるには、集溜すべき毒素発生の根源を衝かなければならないが、医学ではそれが不可能の為、末梢的方法を執るのやむを得ない訳であらう。<br><br> 又、近来蓄膿の手術によつてよく生命を失ふ事を聞くが之は如何なる訳であらうか。<br><br>実に危険千万である。<br><br>全く手術の過誤による事は勿論であるが、専門家に於ても大いに研究されん事を望むのである。<br><br> 次に無嗅覚の原因は、鼻の尖端に毒素溜結し、それが嗅覚神経への刺戟を遮断する為と後頭部下辺の凹所に毒素溜結の場合とある。<br><br>そうして後者に於ては痳酔剤使用の結果又は瓦斯中毒等によつて鼻孔から吸収したその毒素が、右の局所に溜結する為による事も稀にはある。<br><br>そうして前者は非常に治り易く多くは二三回の治療で大抵は治癒するが、後者の場合は、相当日数を要するのである。<br><br> 次にコカイン中毒であるが、之は最初鼻孔閉塞に対してコカインを吸収すると、鼻孔が開き爽快を感ずるので、終に一種の癖となり中毒となるのであるが、之は慢性の結果、究極は頭脳を害し、死に迄到る事があるから注意すべきである。<br><br> 次に咽喉疾患であるが、感冒の際の咽喉疾患は感冒治癒と共に解消し、説く必要がないから咽喉結核を説く事にする。<br><br>之は最初淋巴腺結核が漸次拡充移行し、遂に喉頭部から発声機能に迄及ぶのである。<br><br>之は私の治療の頃確実に全治したのであるが、医療に於ては不治とされてゐる。<br><br>そうして重症になるに従ひ口腔閉塞し水さえ通らぬやうになつて衰弱死に到るのである。<br><br>然乍ら何故に淋巴腺結核が喉頭結核にまで発展するかといふと、それは初め淋巴腺附近に固結を生じ浄化作用が起るや極力浄化抑止を行ふので還元固結するから、淋巴腺へ集溜すべき後続毒素が集溜し得ないで其隣接部へ集溜し、漸次移行して喉頭部迄犯す事になるのである。<br><br>然るに最初淋巴腺部に固結発生し浄化の発つた場合、放置しておく時は漸次膨大し終にそれが発熱と共に倍々腫脹膨大し紅潮を呈し、丁度トマトの如くなるのである。<br><br>此際医師は大抵手術を行ふが、其手術は非常に悪いのであつて手術の為に折角集溜しつつあつた深部の毒素の集溜が停止されるので、手術によつて排泄されたと思ふ毒素は全部ではなく必ず若干は残存するのである。<br><br>其證左として手術によつて一旦治癒しても其局所に永く痛みが残り、又は隣接部に間もなく亦腫脹が出来るにみても明かである。<br><br> 斯ういふ誤謬によつて生命を失つた患者の実例を書いてみよう。<br><br>それは四拾歳位の男子であつたが、最初、淋巴腺部に固結が出来、それが発熱と同時に腫脹し始めた。<br><br>それで早速、専門の病院で手術を受けた。<br><br>手術の疵が治癒しない中、隣へ腫脹が出来、それを復手術した。<br><br>復隣へ出来た。<br><br>また手術した。<br><br>そうする中、最初右だけであつたのが、今度は左へ出来た。<br><br>又手術し、また出来るといふ具合で、そんな事をしてゐるうちに段々衰弱した。<br><br>そうして右の如く、極力浄化作用の抑止をするので、毒素が外部への排泄作用を止めて、畢に内部へ集溜膨大するやうになつた。<br><br>それは口腔内から咽喉へかけて腫脹甚しく終に咽喉部は腫れ塞がり、呼吸不能となつて生命を失つたのである。<br><br> 然るに、如何に腫脹が膨大しても、猶放任しておく時は、漸次赤き球状となつてブラ下るのである。<br><br>丁度此際は赤き風船が下つてゐるやうである。<br><br>斯うなると間もなく自然に穿孔され、膿汁は驚く程多量に排泄されて、非常に速かに治癒するのである。<br><br>そうして斯様にして治癒すれば、何等痕跡が残る事がないのみか、全部排毒されるから再発はないのである。<br><br>然るに手術で治癒した場合、必ず痕跡即ち、生涯醜い引吊りが残るのである。<br><br>之によつてみても、自然療法が真理である事を知るであらう。<br><br> 又肺結核の末期に、よく喉頭結核が起る事があるが、之は悪性で治癒し難いのである。<br><br>それはその頃は衰弱が極度に達してゐるからであつて、医家に於ても、右の如き場合、最後の宣告を下すのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Enfermidades do Ouvido, Nariz e Garganta</h2>
 <p>As afecções do ouvido compreendem, de modo geral, a otite média, o zumbido, a supuração e a surdez. Visto que a otite média já foi abordada em outra ocasião, omitirei sua explanação neste momento. O zumbido, por sua vez, é considerado pela ciência médica uma condição de causa desconhecida e para a qual não existe tratamento. Todavia, por meio desta terapêutica, demonstrou-se que qualquer tipo de zumbido pode ser infalivelmente sanado.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Permitam-me ilustrar tais equívocos com o caso real de um paciente que, por causa deles, perdeu a vida. Tratava-se de um homem de aproximadamente quarenta anos. Inicialmente, um nódulo surgiu em seus gânglios linfáticos e, com a febre, começou a inchar. Ele procurou imediatamente um hospital especializado e foi submetido a uma cirurgia. Antes mesmo que a cicatriz cicatrizasse, um novo inchaço apareceu ao lado, e ele foi operado novamente. Outro surgiu, e mais uma cirurgia foi realizada. O processo, que começara do lado direito, passou a ocorrer também do esquerdo. Entre uma cirurgia e outra, o homem foi se debilitando progressivamente. Como resultado dessa contínua supressão do processo purificador, as toxinas, impedidas de serem expelidas para o exterior, começaram a se acumular e a se expandir internamente. O inchaço na cavidade oral e na garganta tornou-se tão severo que, por fim, a passagem de ar foi bloqueada, e ele veio a falecer por asfixia.</p>
 <p>Se, no entanto, por maior que seja o inchaço, nos abstivermos de intervir, ele se transformará em uma esfera avermelhada que pende, como se fosse um balão vermelho. Nesse estágio, não tardará a romper-se espontaneamente, expelindo uma quantidade surpreendente de pus. A cicatrização ocorre de forma extremamente rápida e, por ter sido um processo natural, não deixa qualquer vestígio. Além disso, como todas as toxinas foram eliminadas, não há reincidência. Já o tratamento cirúrgico, invariavelmente, deixa uma cicatriz – uma marca disforme e permanente. Este exemplo, por si só, revela a verdade contida na terapia natural.</p>
 <p>É comum, também, que a tuberculose laríngea se manifeste no estágio final da tuberculose pulmonar. Nesses casos, a condição é de natureza maligna e dificilmente curável, pois o paciente já se encontra em um estado de extrema debilidade. É diante de um quadro como este que os médicos costumam proferir sua sentença final.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 耳鼻疾患 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 耳の病気としては、中耳炎、耳鳴、耳垂、聾耳等であらう。<br/><br/>中耳炎は曩に説いたから省くが、耳鳴は医学上原因不明で、治療の方法は無いとされてゐるが、本療法では、如何なる耳鳴も必ず治癒したのである。<br/><br/>そうして、原因としては、内耳又は内耳に近い頭脳部、顳■（こめかみ）部及び延髄部、耳下腺等に毒素溜結し、それが緩慢な浄化作用によつて溶解する。<br/><br/>その音響がひびくのである。<br/><br/>そうして耳下腺部に於ける毒素溜結が最も多く、殊に面白いのは延髄部の原因も多いので、一見、耳に関係のないと思ふ局所であるが、そこを治療するに於て能く治癒するものであるが、患者も施術者も意外に思ふ事がある。<br/><br/>然し乍ら、耳鳴は放任しておけば大抵は治癒するものであるが、但だ長年月かかるので、患者は煩悶し迷つて種々の療法を試みるが、殆んど効果はないやうである。<br/><br/> 次に耳垂は、浄化作用による淋巴腺部の毒素が、耳下腺を通じて排泄せらるるのであるから、放任しておけば自然に出るだけ出て、必ず全治するものである。<br/><br/>然るに医療は、薬液にて洗滌するが、実に誤れるも甚しいので排除さるべき毒液が外耳に滞溜した場合、それは洗滌してもしなくても同じ事である。<br/><br/>丁度、歯糞を掃除しても食事をすれば、直ぐに元通りになると同じ様なものである。<br/><br/>然し、唯だ洗滌だけならいいが、その薬液が粘膜から浸潤して毒液に変化し、排泄されるのである。<br/><br/>即ち、排泄した毒素を洗ひながら新しく毒素の原料を追加するといふ訳であるから毎日洗滌に病院へ通ひ、三年も五年に経つても治らないといふ患者がよくあるが、それは右の理によるからである。<br/><br/>そういふ患者に対し、医療を停止させ、放任させるに於て、数ケ月にして自然に治癒した例を、私は屡々経験したのである。<br/><br/> 次に聾耳は、先天的と後天的とあり、又、病的と霊的との区別がある。<br/><br/>霊的の方は後に説く事とするが、病的だけを説いてみよう。<br/><br/>之は然毒が耳下腺から内耳へかけ、聴感神経部に固結して、その神経機能を抑圧し、無力にするので、これは非常に治り難いのである。<br/><br/>然し、固結の強弱と、固結部の位置によつて治り易いのと治り難いとの差別がある。<br/><br/>ここに注意すべきは、医療に於ては欧氏管通風をよく行ふが、これは非常に危険である。<br/><br/>此方法で、軽微の聾耳が全聾になつた例を、稀にみるのである。<br/><br/>そうして之は、如何に治療しても聊かの効果もなかつたのである。<br/><br/> 次に、精神病患者に、よく幻聴といつて、附近に人が居ないのに、種々の声が聴える事がある。<br/><br/>之は、耳の病気ではなく霊的であるから後に説く事とする。<br/><br/> 次に、鼻の病気としては、蓄膿症、肥厚性鼻炎、鼻茸、無嗅覚等あるが、原因は何れも同一であつて、鼻の両側に溜結した毒素及び後頭部特に延髄附近に溜結した毒素及び前頭部より前額部にかけて溜結せる毒素が、浄化作用によつて鼻孔から鼻汁となつて排泄せらるるのである。<br/><br/>即ち、蓄膿症は、鼻の両側の皮下に於ける毒素の溜結が原因であつて、これは指頭で圧すれば痛みがあり、この痛みの強弱によつて、重軽の差が判るのである。<br/><br/>これを放任しておけば、この毒結は溶解、鼻汁となつて出て治癒するのであるが、医療は薬液で洗滌するから、耳垂の際の洗滌と同じく薬毒が浸潤、追増することになり、慢性になるのである。<br/><br/>又、肥厚性鼻炎は鼻汁に含まれてゐる毒素が、粘膜を刺戟するので加答児を起し、微熱を生じ、小腫物、痛み、痒み、涸（かわ）き等の症状をおこすのであるが、これ等も気永に自然療法によれば治癒するのである。<br/><br/>次に鼻茸は、私は医者でないから、手術をしたことがないのでよく判らないが、膿の固結したものではないかと惟ふ。<br/><br/>兎に角私の治療によつて鼻茸が発生しなくなるにみても、そうであると想ふのである。<br/><br/> そうして、蓄膿でも鼻茸でも手術をするが手術によつて一旦治癒したやうでも、遅きは二三年、速きは半年位で再発するので、此事実は真の治癒ではなく一時的効果に過ぎない事が判るのである。<br/><br/>特に蓄膿症に於ては、鼻側に集溜する毒素を手術によつて排除するが一時排除しても再び集溜するのである。<br/><br/>故に完全に治癒させるには、集溜すべき毒素発生の根源を衝かなければならないが、医学ではそれが不可能の為、末梢的方法を執るのやむを得ない訳であらう。<br/><br/> 又、近来蓄膿の手術によつてよく生命を失ふ事を聞くが之は如何なる訳であらうか。<br/><br/>実に危険千万である。<br/><br/>全く手術の過誤による事は勿論であるが、専門家に於ても大いに研究されん事を望むのである。<br/><br/> 次に無嗅覚の原因は、鼻の尖端に毒素溜結し、それが嗅覚神経への刺戟を遮断する為と後頭部下辺の凹所に毒素溜結の場合とある。<br/><br/>そうして後者に於ては痳酔剤使用の結果又は瓦斯中毒等によつて鼻孔から吸収したその毒素が、右の局所に溜結する為による事も稀にはある。<br/><br/>そうして前者は非常に治り易く多くは二三回の治療で大抵は治癒するが、後者の場合は、相当日数を要するのである。<br/><br/> 次にコカイン中毒であるが、之は最初鼻孔閉塞に対してコカインを吸収すると、鼻孔が開き爽快を感ずるので、終に一種の癖となり中毒となるのであるが、之は慢性の結果、究極は頭脳を害し、死に迄到る事があるから注意すべきである。<br/><br/> 次に咽喉疾患であるが、感冒の際の咽喉疾患は感冒治癒と共に解消し、説く必要がないから咽喉結核を説く事にする。<br/><br/>之は最初淋巴腺結核が漸次拡充移行し、遂に喉頭部から発声機能に迄及ぶのである。<br/><br/>之は私の治療の頃確実に全治したのであるが、医療に於ては不治とされてゐる。<br/><br/>そうして重症になるに従ひ口腔閉塞し水さえ通らぬやうになつて衰弱死に到るのである。<br/><br/>然乍ら何故に淋巴腺結核が喉頭結核にまで発展するかといふと、それは初め淋巴腺附近に固結を生じ浄化作用が起るや極力浄化抑止を行ふので還元固結するから、淋巴腺へ集溜すべき後続毒素が集溜し得ないで其隣接部へ集溜し、漸次移行して喉頭部迄犯す事になるのである。<br/><br/>然るに最初淋巴腺部に固結発生し浄化の発つた場合、放置しておく時は漸次膨大し終にそれが発熱と共に倍々腫脹膨大し紅潮を呈し、丁度トマトの如くなるのである。<br/><br/>此際医師は大抵手術を行ふが、其手術は非常に悪いのであつて手術の為に折角集溜しつつあつた深部の毒素の集溜が停止されるので、手術によつて排泄されたと思ふ毒素は全部ではなく必ず若干は残存するのである。<br/><br/>其證左として手術によつて一旦治癒しても其局所に永く痛みが残り、又は隣接部に間もなく亦腫脹が出来るにみても明かである。<br/><br/> 斯ういふ誤謬によつて生命を失つた患者の実例を書いてみよう。<br/><br/>それは四拾歳位の男子であつたが、最初、淋巴腺部に固結が出来、それが発熱と同時に腫脹し始めた。<br/><br/>それで早速、専門の病院で手術を受けた。<br/><br/>手術の疵が治癒しない中、隣へ腫脹が出来、それを復手術した。<br/><br/>復隣へ出来た。<br/><br/>また手術した。<br/><br/>そうする中、最初右だけであつたのが、今度は左へ出来た。<br/><br/>又手術し、また出来るといふ具合で、そんな事をしてゐるうちに段々衰弱した。<br/><br/>そうして右の如く、極力浄化作用の抑止をするので、毒素が外部への排泄作用を止めて、畢に内部へ集溜膨大するやうになつた。<br/><br/>それは口腔内から咽喉へかけて腫脹甚しく終に咽喉部は腫れ塞がり、呼吸不能となつて生命を失つたのである。<br/><br/> 然るに、如何に腫脹が膨大しても、猶放任しておく時は、漸次赤き球状となつてブラ下るのである。<br/><br/>丁度此際は赤き風船が下つてゐるやうである。<br/><br/>斯うなると間もなく自然に穿孔され、膿汁は驚く程多量に排泄されて、非常に速かに治癒するのである。<br/><br/>そうして斯様にして治癒すれば、何等痕跡が残る事がないのみか、全部排毒されるから再発はないのである。<br/><br/>然るに手術で治癒した場合、必ず痕跡即ち、生涯醜い引吊りが残るのである。<br/><br/>之によつてみても、自然療法が真理である事を知るであらう。<br/><br/> 又肺結核の末期に、よく喉頭結核が起る事があるが、之は悪性で治癒し難いのである。<br/><br/>それはその頃は衰弱が極度に達してゐるからであつて、医家に於ても、右の如き場合、最後の宣告を下すのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

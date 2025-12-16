@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinsyu4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教に正信はないか 『救世』50号、昭和25(1950)年2月18日発行 今日、雨後の筍（たけのこ）のごとく新宗教が現れ、現在約四百くらいあるとの話である、ところが中にはいかがわしいものも少なくない事実は誰も知っているが、これに対しジャーナリストは新聞雑誌に書く場合全部が全部迷信邪教と片づけてしまうのも無理はないが、実をいえば全く玉石混淆（ぎょくせきこんこう）で、無論本教などもその仲間へ入れられているのだからやり切れない。<br><br> しかしこの事実は今始まった事ではない、古くはキリスト、マホメットをはじめ日本でさえ法然、親鸞、日蓮、天理教祖中山ミキ女等、今日大を成している宗教ほど最初の中は迷信とされ迫害を蒙り、法難に苦しんだ事は歴史の示すところである、ただ釈尊のみがそういう事がなかったのは皇太子出身であったからでもあろう、とすれば吾々は誤解を受ける事は当然で、むしろ罪が軽いと思うべきで、現代文化特に民主主義の恩恵によるとして満足すべきであるかもしれない。<br><br> といっていつまでも本教に対し真の認識を得られないはずはないのである、したがって近き将来において、世の中に急激に認められる事になろう、何となれば本教出現の基本としては、最高の神霊が世の終末に際し、絶対力を揮われ給うからである、今回世界救世教会の名に改められた事もそのためである。<br><br> ここで特に言いたい事は、ひとり新宗教に限らず、既成宗教をも全部含めて本教と対比する時、本教が発揮する神霊の力のいかに画期的なものであるかを知り得るのである、もちろんその時期も迫りつつある今日、信者諸士においても最後の大活動を期待するので、それには何よりも神書を出来るだけ拝読し、身魂を磨かなければならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Haverá Fé Verdadeira nas Novas Religiões?</h2>
 <p>Atualmente, as novas religiões proliferam, e comenta-se que já somam cerca de quatrocentas. É fato notório, contudo, que entre elas não poucas são de índole suspeita. Diante desse quadro, é até compreensível que os jornalistas, em seus artigos, as rotulem indiscriminadamente como meras superstições e seitas malignas. Na realidade, porém, o cenário é uma autêntica mescla onde o joio e o trigo se confundem, e causa-nos profundo pesar que nossa Igreja, naturalmente, seja incluída nesse mesmo grupo.</p>
 <p>Todavia, tal fato não é um fenômeno recente. A História nos revela que as religiões de maior proeminência na atualidade, como as fundadas por Cristo e Maomé, e mesmo no Japão, as de Honen, Shinran, Nichiren e da Sra. Nakayama Miki, fundadora da Tenrikyo, foram todas, em seus primórdios, rechaçadas como superstição, tendo seus fundadores sofrido duras perseguições e tribulações. A única exceção notável talvez seja Sakyamuni, o que se pode atribuir à sua condição de príncipe herdeiro. Sendo assim, é natural que também nós sejamos alvo de incompreensões. Na verdade, deveríamos considerar nosso fardo relativamente leve e nos sentir gratos pelas bênçãos da cultura moderna, em particular, da democracia.</p>
 <p>Contudo, é inconcebível que a verdadeira natureza de nossa Igreja permaneça para sempre velada pelo desconhecimento. Portanto, em um futuro próximo, ela obterá um rápido e amplo reconhecimento da sociedade. Isso se dará porque o alicerce para o advento de nossa Igreja é a manifestação do poder absoluto do Espírito Divino Supremo por ocasião do Fim dos Tempos. A recente mudança de nosso nome para Igreja Messiânica Mundial ocorreu precisamente por essa razão.</p>
 <p>Desejo ressaltar, neste ponto, um aspecto de suma importância: ao compararmos nossa Igreja não somente com as novas correntes religiosas, mas com a totalidade das crenças já estabelecidas, torna-se possível compreender o caráter verdadeiramente revolucionário do poder do Espírito Divino que por ela se manifesta. Esse tempo, evidentemente, está cada vez mais próximo. Por essa razão, espero de todos os senhores, nossos fiéis, um último e grandioso empenho. Para tanto, é imprescindível que se dediquem, acima de tudo, à atenta leitura dos Ensinamentos Divinos, a fim de aprimorarem seu espírito.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教に正信はないか 『救世』50号、昭和25(1950)年2月18日発行 今日、雨後の筍（たけのこ）のごとく新宗教が現れ、現在約四百くらいあるとの話である、ところが中にはいかがわしいものも少なくない事実は誰も知っているが、これに対しジャーナリストは新聞雑誌に書く場合全部が全部迷信邪教と片づけてしまうのも無理はないが、実をいえば全く玉石混淆（ぎょくせきこんこう）で、無論本教などもその仲間へ入れられているのだからやり切れない。<br/><br/> しかしこの事実は今始まった事ではない、古くはキリスト、マホメットをはじめ日本でさえ法然、親鸞、日蓮、天理教祖中山ミキ女等、今日大を成している宗教ほど最初の中は迷信とされ迫害を蒙り、法難に苦しんだ事は歴史の示すところである、ただ釈尊のみがそういう事がなかったのは皇太子出身であったからでもあろう、とすれば吾々は誤解を受ける事は当然で、むしろ罪が軽いと思うべきで、現代文化特に民主主義の恩恵によるとして満足すべきであるかもしれない。<br/><br/> といっていつまでも本教に対し真の認識を得られないはずはないのである、したがって近き将来において、世の中に急激に認められる事になろう、何となれば本教出現の基本としては、最高の神霊が世の終末に際し、絶対力を揮われ給うからである、今回世界救世教会の名に改められた事もそのためである。<br/><br/> ここで特に言いたい事は、ひとり新宗教に限らず、既成宗教をも全部含めて本教と対比する時、本教が発揮する神霊の力のいかに画期的なものであるかを知り得るのである、もちろんその時期も迫りつつある今日、信者諸士においても最後の大活動を期待するので、それには何よりも神書を出来るだけ拝読し、身魂を磨かなければならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

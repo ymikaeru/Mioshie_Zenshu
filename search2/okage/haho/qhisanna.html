@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhisanna</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 悲惨な結核の一家御力に救わる 『結核信仰療法』昭和27(1952)年12月1日発行 東京都 宝生教会 村井 芳（37） 運動選手としては体力を誇りとしておりました兄が突然病魔に侵され、取りあえず県病院へ入院する身となりました。<br><br>病気は急性で、しかも猛毒性の結核でちょっとむずかしいとの知らせに、何か先が暗くなったような不安におののいておりました。<br><br>そのうち生命だけはどうやら取止め一同安堵の胸をなで下し、一時も早く快方に向うよう神仏に御加護を願い、一族挙って看護につとめましたところ、意外な事には、県立高女を最優秀の成績で卒業した兄嫁が結核の宣告を受けますと同時に、結核ではもう駄目だ、この上は自分や子供への感染をさけ、願わくば財産を使い切らない内にしまつして頂いた方が両方のためだとはっきり言える人となりましてほとんど病院へも姿を見せず、時たま来ても家計の報告をすませたらすぐ帰るという有様に、妹が憤慨して姉上が看病して下さらなければ私が致しますと言って、病院へ泊り込み一生懸命看病致しますうち、身体の調子が悪いといって診察を受けますと、これ又意外な事には既に左半分やられているとの事で、計らずも壁を隔てて兄妹二人病床に臥す身となりました。<br><br>この二人の姿を眺めて私の心の中はどうでしょう。<br><br>いよいよ私達の運命の行手には既に大きな黒幕が下されてしまったと同じではありませんか。<br><br>申し遅れましたが、私の父は熱心な仏教信者で、町でも寺の坊さんを集めて仏教研究会を開いている程の人でございましたので、私はこの父が今の姿を眺めて、信仰の力が絶対なら病院へ入る必要はないはずだのに、さっさと医者にまかせてしまうのなら、人間にとっては仏の力よりも医学の力の方が尊いと思わなくてはならないのかと思いました。<br><br>それまで私も親にすすめられ一生懸命信仰していましたが、罪障消滅の修養も結構だが、現実の問題として極力医学と結核の予防に努めなくてはと益々栄養に休養に薬物にと一生懸命につとめました。<br><br> そのうち早くも四、五年の月日は流れて、妹が駄目らしいから見舞に来るようにと言って参りました。<br><br>果して自分が重病人のところへ行ってもいいかどうかと不安に思いまして近くの病院へ参り、よくよく結核についてたずねてみましたところ、先生の言わるるには、実は御病人に対しては最後まで治るものとして養生を御指導しますが、実は全快は不可能です。<br><br>極力新しい人のふえないよう感染をさけるより仕方ないと申されて、現在ではセファランチンの予防注射が一番有効のように思いますと言われまして、早速十本打って頂きました。<br><br>現代の最高医学にても不可能で、尊い仏の功徳をもっても不可能だと言う、世にも恐ろしい業病の因縁を受けついで、今更はかない自分の運命に悩まないではいられませんでした。<br><br>丁度その頃東京は空襲空襲の大混乱でいよいよ家の近くまで焼けてしまいましたので、六月五日四歳の子供を一人抱えて郷里へ疎開致しましたが、既に二日目には兄を亡くし二十六日には妹を亡くしてしまいました。<br><br>そして兄の亡くなります当時の兄の心境を聞き又兄嫁の態度等聞きまして、妹として兄のため心から泣かないでおられませんでした。<br><br>ところがその月の二十六日妹の亡くなります時にはやっぱり伝染という事がこわくてどうしても側へ行って慰めてやる事が出来ませんでした。<br><br>四年間の安静生活のため衰弱は極点に達し骨と皮ばかり、真白なミイラにも等しい姿になって、親姉妹に手をとられる事も出来ないで、寂しくあの世へと旅立って参りました。<br><br>この二人の兄妹の姿を眺めてつくづくと結核という病気の恐ろしさを嘆かないではおられませんでした。<br><br>ところが疎開先で身体を無理をしたため、突然に大熱を出し、二、三日はフルイと熱のため苦しみましたが、四日目頃から大部熱は落つきましたがそっと起きてみますとすぐ熱が出ますし、毎日熱をしらべてみますと午後には多少上りますので、動く事が出来なくなってしまいました。<br><br>医者は初めは風邪だと言っていましたが一月もたちますと肺尖カタルのようだから、安静にしているように言われますので、私は勿論実家の人達も六月に二人の葬式をすませたばかりなのに、又私が寝込むという事は誠に困った事になったものだと思いました。<br><br> 丁度その頃父が外から帰って申しますのに、「今日奥の町の友達が寺町さんに『胃が悪いというお話ですが、今奥の町に変った治療が流行って来てどんな病気でも治るという話ですがちょっとやって貰ってはどうですか』と言われたので行ってみたが、立派な呉服屋さんの奥座敷で、床の間に光明という御軸をかけその前でやって頂いたが、『随分胃の中にお薬が入っていますね。<br><br>おへその下まで下っておりますね』と言われたが、よく分るものだね。<br><br>芳も明日一つ行ってみるか」と言われましたので、私は床の中でこんなに安静にしていなくてはならない身体で、そんな遠くまで行っていいかしらと恐ろしく思いましたが、しかしこんな病気になった以上、妹達のように悲しくも恐ろしい病床生活をする位なら生か死かどちらになるか分らないが、明日一つ無理をして出掛けた方がいいかもしれないと思いました。<br><br>当日は駒下駄ではとてもフラついて歩けませんので藁草履をはいて足がちょっとも宙に浮かないようソロソロと蟻のはうように半道の道を駅へたどりつきました。<br><br>電車の中では土間へ膜を下ろして目をつむってやっと奥の町へ無事つく事が出来ました。<br><br>お座敷にギッシリ一ぱい人が待ってみえました。<br><br>私も後の方に座ってから、父のいるのも妹のいるのも忘れて一生懸命先生のお話や治療を眺めていました。<br><br>先生は人間は身体に毒があるから病気をするのだから、こうして毒をとかして小便にしてみんな出てしまえば毒はなくなり、病気は治ってしまうのだというように色々とお話をしておられます。<br><br>私はお話を聞いて、そんなうまい事が出来るものなら結構な事だが一体どういう訳なのかと非常に不思議に思い、多勢の人々の後から思わず声を出して「先生、お話は誠に結構に存じますが、そのお話となさっている事と、どういう関係がございますか」と伺いました。<br><br>その頃岐阜奥の町の教会で布教しておられた長尾先生は大きな目をクルクルさせて「ああこれですか、これは火素といって人間は心臓を通して太陽の火素を吸収しておりまして、その火素を掌を通して相手の身体へ打ち込むと、身体の中の毒がとけて小便となって出るのです」と申されますので、何だかよく分らないが、早く自分もやって頂きたいと待遠しくてなりません。<br><br>やっと番が来て御願しますと、手を額にかざされると同時に、頭の中がとてもすごい音をしてうなり出しましたのでビックリ、ああこれは大した事だ、これだけ反応があれば大丈夫、医者も仏も頼りない現在、これこそ天の助けと思い、これで自分は救われた。<br><br>もう大丈夫という気がしてしまいました。<br><br>すっかりこの治療をして頂いて帰ろうとしますと、何だか身体がすっかり軽くなったようで、シャンとして来ました。<br><br>もう来る時のように今にも倒れるか倒れるかとフラフラ歩く事はありません、すっかり安心してしまいました。<br><br> お蔭様で下痢も頂き、一週間もしますと妹が「今だから言うが、初めて一緒に行く時のこわかった事、顔をみれば土色に血の気は失せ今にも倒れるような足取りでソロソロと歩いているので、いまにも倒れやしないかとハラハラしていたのだけれど、帰りにはエライ元気が出たし、それから毎日毎日行って来る度に見違えるように変ってゆくので、家中でまるで幽霊のようで何だか恐ろしいようだと言って話していたが、本当に丈夫になれてよかったね」と申しますので、今更のように有難く、思えばこんなに簡単に治して頂けてしかも伝染の心配もなく、栄養、休養の心配もなく、ただ御浄化の一言のみで安心して喜んでこの肺病が根本から治して頂けるのだからその他一切の病気がこの簡単な手を翳す事、御浄霊の一言で解決ついてゆくとは何と偉大な事でしょう。<br><br> その後日の経つにつれて、この偉大な御力が尊くも光明如来様のお力であります事の分りました時の私達信者の喜びと誇りは如何でございましたでしょう。<br><br>誠に筆にも口にも言表わす事の出来ない喜びでございました。<br><br>思えば兄妹も今三月待っていてくれたら私がこの尊いお力をいただいてそばへよってやさしく慰めて浄霊してあげたものをと、ついかえらぬ愚痴が出そうでございますが、亡くなったものは仕方ございません。<br><br> 今現に生きながら、しかばねにも等しい私の過去のような悩みに苦しんで居られる人々に一日も早く、一人も多くお知らせしたい心で一ぱいでございます。<br><br> 終わりにのぞみまして罪深き身でございますのに尊い生命を頂きました事を一族に代って深く深く御礼申し上げます。<br><br> （二十六年二月八日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salva pelo Poder Divino: A trágica história de uma família acometida pela tuberculose</h2>
 <p><strong>Terapia da Fé para a Tuberculose, publicado em 1º de dezembro de 1952</strong>
@@ -115,5 +270,48 @@ function toggleLang(lang) {
 <p>Hoje, meu coração transborda com o desejo de levar esta mensagem, o mais rápido possível e ao maior número de pessoas, a todos que, ainda em vida, sofrem em agonia, como um dia eu sofri, em um corpo que já se assemelhava a um cadáver.</p>
 <p>Para concluir, em nome de toda a minha família, expresso minha mais profunda e sincera gratidão por ter recebido o sublime presente da vida, mesmo sendo uma pessoa tão repleta de máculas.</p>
 <p>(Enviado em 8 de fevereiro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 悲惨な結核の一家御力に救わる 『結核信仰療法』昭和27(1952)年12月1日発行 東京都 宝生教会 村井 芳（37） 運動選手としては体力を誇りとしておりました兄が突然病魔に侵され、取りあえず県病院へ入院する身となりました。<br/><br/>病気は急性で、しかも猛毒性の結核でちょっとむずかしいとの知らせに、何か先が暗くなったような不安におののいておりました。<br/><br/>そのうち生命だけはどうやら取止め一同安堵の胸をなで下し、一時も早く快方に向うよう神仏に御加護を願い、一族挙って看護につとめましたところ、意外な事には、県立高女を最優秀の成績で卒業した兄嫁が結核の宣告を受けますと同時に、結核ではもう駄目だ、この上は自分や子供への感染をさけ、願わくば財産を使い切らない内にしまつして頂いた方が両方のためだとはっきり言える人となりましてほとんど病院へも姿を見せず、時たま来ても家計の報告をすませたらすぐ帰るという有様に、妹が憤慨して姉上が看病して下さらなければ私が致しますと言って、病院へ泊り込み一生懸命看病致しますうち、身体の調子が悪いといって診察を受けますと、これ又意外な事には既に左半分やられているとの事で、計らずも壁を隔てて兄妹二人病床に臥す身となりました。<br/><br/>この二人の姿を眺めて私の心の中はどうでしょう。<br/><br/>いよいよ私達の運命の行手には既に大きな黒幕が下されてしまったと同じではありませんか。<br/><br/>申し遅れましたが、私の父は熱心な仏教信者で、町でも寺の坊さんを集めて仏教研究会を開いている程の人でございましたので、私はこの父が今の姿を眺めて、信仰の力が絶対なら病院へ入る必要はないはずだのに、さっさと医者にまかせてしまうのなら、人間にとっては仏の力よりも医学の力の方が尊いと思わなくてはならないのかと思いました。<br/><br/>それまで私も親にすすめられ一生懸命信仰していましたが、罪障消滅の修養も結構だが、現実の問題として極力医学と結核の予防に努めなくてはと益々栄養に休養に薬物にと一生懸命につとめました。<br/><br/> そのうち早くも四、五年の月日は流れて、妹が駄目らしいから見舞に来るようにと言って参りました。<br/><br/>果して自分が重病人のところへ行ってもいいかどうかと不安に思いまして近くの病院へ参り、よくよく結核についてたずねてみましたところ、先生の言わるるには、実は御病人に対しては最後まで治るものとして養生を御指導しますが、実は全快は不可能です。<br/><br/>極力新しい人のふえないよう感染をさけるより仕方ないと申されて、現在ではセファランチンの予防注射が一番有効のように思いますと言われまして、早速十本打って頂きました。<br/><br/>現代の最高医学にても不可能で、尊い仏の功徳をもっても不可能だと言う、世にも恐ろしい業病の因縁を受けついで、今更はかない自分の運命に悩まないではいられませんでした。<br/><br/>丁度その頃東京は空襲空襲の大混乱でいよいよ家の近くまで焼けてしまいましたので、六月五日四歳の子供を一人抱えて郷里へ疎開致しましたが、既に二日目には兄を亡くし二十六日には妹を亡くしてしまいました。<br/><br/>そして兄の亡くなります当時の兄の心境を聞き又兄嫁の態度等聞きまして、妹として兄のため心から泣かないでおられませんでした。<br/><br/>ところがその月の二十六日妹の亡くなります時にはやっぱり伝染という事がこわくてどうしても側へ行って慰めてやる事が出来ませんでした。<br/><br/>四年間の安静生活のため衰弱は極点に達し骨と皮ばかり、真白なミイラにも等しい姿になって、親姉妹に手をとられる事も出来ないで、寂しくあの世へと旅立って参りました。<br/><br/>この二人の兄妹の姿を眺めてつくづくと結核という病気の恐ろしさを嘆かないではおられませんでした。<br/><br/>ところが疎開先で身体を無理をしたため、突然に大熱を出し、二、三日はフルイと熱のため苦しみましたが、四日目頃から大部熱は落つきましたがそっと起きてみますとすぐ熱が出ますし、毎日熱をしらべてみますと午後には多少上りますので、動く事が出来なくなってしまいました。<br/><br/>医者は初めは風邪だと言っていましたが一月もたちますと肺尖カタルのようだから、安静にしているように言われますので、私は勿論実家の人達も六月に二人の葬式をすませたばかりなのに、又私が寝込むという事は誠に困った事になったものだと思いました。<br/><br/> 丁度その頃父が外から帰って申しますのに、「今日奥の町の友達が寺町さんに『胃が悪いというお話ですが、今奥の町に変った治療が流行って来てどんな病気でも治るという話ですがちょっとやって貰ってはどうですか』と言われたので行ってみたが、立派な呉服屋さんの奥座敷で、床の間に光明という御軸をかけその前でやって頂いたが、『随分胃の中にお薬が入っていますね。<br/><br/>おへその下まで下っておりますね』と言われたが、よく分るものだね。<br/><br/>芳も明日一つ行ってみるか」と言われましたので、私は床の中でこんなに安静にしていなくてはならない身体で、そんな遠くまで行っていいかしらと恐ろしく思いましたが、しかしこんな病気になった以上、妹達のように悲しくも恐ろしい病床生活をする位なら生か死かどちらになるか分らないが、明日一つ無理をして出掛けた方がいいかもしれないと思いました。<br/><br/>当日は駒下駄ではとてもフラついて歩けませんので藁草履をはいて足がちょっとも宙に浮かないようソロソロと蟻のはうように半道の道を駅へたどりつきました。<br/><br/>電車の中では土間へ膜を下ろして目をつむってやっと奥の町へ無事つく事が出来ました。<br/><br/>お座敷にギッシリ一ぱい人が待ってみえました。<br/><br/>私も後の方に座ってから、父のいるのも妹のいるのも忘れて一生懸命先生のお話や治療を眺めていました。<br/><br/>先生は人間は身体に毒があるから病気をするのだから、こうして毒をとかして小便にしてみんな出てしまえば毒はなくなり、病気は治ってしまうのだというように色々とお話をしておられます。<br/><br/>私はお話を聞いて、そんなうまい事が出来るものなら結構な事だが一体どういう訳なのかと非常に不思議に思い、多勢の人々の後から思わず声を出して「先生、お話は誠に結構に存じますが、そのお話となさっている事と、どういう関係がございますか」と伺いました。<br/><br/>その頃岐阜奥の町の教会で布教しておられた長尾先生は大きな目をクルクルさせて「ああこれですか、これは火素といって人間は心臓を通して太陽の火素を吸収しておりまして、その火素を掌を通して相手の身体へ打ち込むと、身体の中の毒がとけて小便となって出るのです」と申されますので、何だかよく分らないが、早く自分もやって頂きたいと待遠しくてなりません。<br/><br/>やっと番が来て御願しますと、手を額にかざされると同時に、頭の中がとてもすごい音をしてうなり出しましたのでビックリ、ああこれは大した事だ、これだけ反応があれば大丈夫、医者も仏も頼りない現在、これこそ天の助けと思い、これで自分は救われた。<br/><br/>もう大丈夫という気がしてしまいました。<br/><br/>すっかりこの治療をして頂いて帰ろうとしますと、何だか身体がすっかり軽くなったようで、シャンとして来ました。<br/><br/>もう来る時のように今にも倒れるか倒れるかとフラフラ歩く事はありません、すっかり安心してしまいました。<br/><br/> お蔭様で下痢も頂き、一週間もしますと妹が「今だから言うが、初めて一緒に行く時のこわかった事、顔をみれば土色に血の気は失せ今にも倒れるような足取りでソロソロと歩いているので、いまにも倒れやしないかとハラハラしていたのだけれど、帰りにはエライ元気が出たし、それから毎日毎日行って来る度に見違えるように変ってゆくので、家中でまるで幽霊のようで何だか恐ろしいようだと言って話していたが、本当に丈夫になれてよかったね」と申しますので、今更のように有難く、思えばこんなに簡単に治して頂けてしかも伝染の心配もなく、栄養、休養の心配もなく、ただ御浄化の一言のみで安心して喜んでこの肺病が根本から治して頂けるのだからその他一切の病気がこの簡単な手を翳す事、御浄霊の一言で解決ついてゆくとは何と偉大な事でしょう。<br/><br/> その後日の経つにつれて、この偉大な御力が尊くも光明如来様のお力であります事の分りました時の私達信者の喜びと誇りは如何でございましたでしょう。<br/><br/>誠に筆にも口にも言表わす事の出来ない喜びでございました。<br/><br/>思えば兄妹も今三月待っていてくれたら私がこの尊いお力をいただいてそばへよってやさしく慰めて浄霊してあげたものをと、ついかえらぬ愚痴が出そうでございますが、亡くなったものは仕方ございません。<br/><br/> 今現に生きながら、しかばねにも等しい私の過去のような悩みに苦しんで居られる人々に一日も早く、一人も多くお知らせしたい心で一ぱいでございます。<br/><br/> 終わりにのぞみまして罪深き身でございますのに尊い生命を頂きました事を一族に代って深く深く御礼申し上げます。<br/><br/> （二十六年二月八日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

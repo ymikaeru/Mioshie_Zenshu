@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju02085</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（二）上体及び中体 ６ 085-104 結核１ 085 結核と愛と頭脳 結核患者に限り臨終まで意識が明瞭で御座いますのはいかなる訳で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 結核は頭の病気でないのと、結核患者は愛の熱が足りぬ。<br><br>冷やかだから理性が勝つ。<br><br>結核患者になった人はあまり愛の人はない。<br><br>感じも冷やかである。<br><br>肺を治すには愛の行をするといい。<br><br>（S24. 8.21） 086 結核の痰 肺結核は観音教団でも非常に治りにくいといわれますが、いかがでしょうか。<br><br> 肺の痰は黄色い痰が一番古い。<br><br>次に白色、次に青、次に透明でこれが一番新しい。<br><br>痰は喉から上の分が出る。<br><br>どんなに部屋を密閉しても黴菌は発生する。<br><br>伝染しないものを伝染するとして宣伝して弱らす。<br><br>（S24.11.26） 087 結核再浄化、衰弱して浄化強い理由 結核等の末期によくありますが、相当衰弱、死に瀕しているにかかわらず、強い御浄化が続き死んでゆく人がありますが、この一見矛盾した最後的御浄化は、例えば霊界へ行く用意として神様より特に御浄化を賜わるような訳があるのでしょうか。<br><br> 結核は強い薬を沢山入れているから再浄化するのが多い。<br><br>浄霊により体に力が出てくると、体的の薬毒の排泄作用が起る。<br><br>強い浄化するのもそのためである。<br><br>そういうのは必ず肩に大きい塊がある。<br><br>急所へ触れてやるとズンズンよくなる。<br><br>故に急所を発見する事と塊を溶かすだけの霊力の強さを要するが、大抵そこまで行くと駄目になる。<br><br>要するに浄化が強いと思えばよい。<br><br> 088 良質再浄化―結核 三人家族の信者、兄は満二十二歳で一昨年の十月に空洞まである結核と診断され、絶対安静を申し渡されて以来御浄霊を受け、七月頃より約四ケ月にわたる下痢、痔、続いて寝汗と次々と御浄化いただき、大変楽になり、深く感謝しております。<br><br>それで一時はそのまま起きられるかと思われました。<br><br>一ケ月程前より再び寝汗をかくようになり、今迄と違って昼間はかかず夜寝てから、特に夜明け頃にだけ流れる程の汗をかくようになり、その上咽喉が赤く腫れて苦痛がりますが、いかなる経過でしょうか。<br><br> 性（たち）のよい再浄化である。<br><br>下痢、痔などで浄化されたのである。<br><br>痔は腫れて開孔する。<br><br> 089 結核にて衰弱 夫清三（五十二歳）、二年前より結核にて、本年六月一日川合先生の浄霊を受け、咳、痰は殆どなくなり、下痢も止り、食欲が出て順調に良くなりつつ見えました。<br><br>九月十一日私が教修を頂き、同時に再浄化が起り、昨今は腸結核が悪化、胃腸が痛み、下痢が始まり、足の甲がむくみ、心臓が弱り、身心共に衰弱致しました。<br><br>六月一日より医薬を止めておりましたが、一昨日医師に診察して貰いましたところ、今年一杯持たぬと申されました。<br><br>日夜浄霊を続けておりますが、治癒に向いつつある浄化でございましょうか。<br><br>また、浄化に対する御浄霊方法を御教示御願い申し上げます。<br><br> 結核の再浄化はなかなか面倒である。<br><br>（S24.11.19） 090 結核再発の扱い 結核再発の患者で、病院で治らないで半月程前より私が浄霊を致しております。<br><br>最初は粥を茶碗に八分目位頂けるだけでしたが、段々食欲が増して来ますが、段々衰弱して来ました。<br><br>どうしたらよろしいでしょうか。<br><br> これは難しい。<br><br>浄化によって毒を出さねばならぬが、それには熱、咳等が出て衰弱を増す。<br><br>病気がよくなり、衰弱するという訳である。<br><br>安静にせず浄霊すると浄化が強まる。<br><br>病気が治りつつ衰弱する結核患者はよほど長い間薬を服んでいる。<br><br>見込みなしと思っていい。<br><br>恐らく駄目と思う。<br><br>受合わないでやる外ない。<br><br>止めた薬毒の浄化が大変である。<br><br>しかし浄霊すると苦痛は緩和される。<br><br>霊界の事を説いて、霊になって救われる事を話す外ない。<br><br>浄霊すると健康は回復する。<br><br>すると衰弱する訳で始末が悪い。<br><br> 疥癬の次に来る症状は他の症状となる。<br><br>今後強くなると一時に発するから大熱起り、吐き下し、頭痛、身体中ブチ壊れたようになる。<br><br> 091 肺結核難症と入信 四十四歳の男子、四年前より肺結核、昨年十一月頃より床につき、三十八、九度の熱が持続しております。<br><br>本年四月入信以来毎日浄霊を受けていますが、全然熱が取れず、なお、四月末分会長先生の浄霊を頂いた翌日、もの凄く浄化を頂き、脂汗を流して苦しみました。<br><br>なお、食欲はありますが大分衰弱しています。<br><br>右、浄霊法―― 難しい。<br><br>肺結核は殆どこれである。<br><br>約四年間に薬飲んでいるから、浄霊をすると薬が溶けて出る。<br><br>それで咳、痰、熱が出るので衰弱する。<br><br> 病気は治るが、衰弱するのでもたない懸念がある。<br><br>塊が溶けねば熱が冷めぬ。<br><br>非常な霊力が要る。<br><br>徐々としてやる外はない。<br><br>一週間に一回か二回やって安静にする。<br><br>病気と浄霊を睨み合わしてやる。<br><br> 生命に関係した病気は治ってから入信するようにせよ。<br><br> 092 気胸より減食・喉痛・ヌラ吐く（浄霊の急所） 長男（三十八歳）、昨年一月、胸を病み、気胸療法十回後、御浄霊で快方に向いましたが、本年一月頃より段々食欲がなくなり、咽喉が痛み、現在では唾を呑み込むのさえ痛み、辛うじて毎日玉子一個を食する程で、毎日一升位のヌラのようなものを吐きましたが、二月中旬より床につき、元気ありません。<br><br>いかなる事でありましょうか。<br><br> これは再浄化である。<br><br>医療は固め療法であるから、ある程度毒が除れると良くなる。<br><br>薬毒が浮いていて、それの浄化が起る。<br><br>再浄化は一番厄介で、そのために衰弱する。<br><br>病気が快くなりつつ衰弱する。<br><br> これは一番の急所をやらなくてはいけない。<br><br>首筋に塊のある所がある。<br><br>肩――こういう人は実に固い。<br><br>背中と腎臓の下、太股等一番熱の出る所をまず浄霊する。<br><br> ヌラや咳は毒が溶けて出るのである。<br><br>衰弱増さぬよう注意してする。<br><br>早く峠を越さす事だ。<br><br>早く首筋の熱い所を発見して、そこをやる。<br><br>熱下ればその急所をやる。<br><br>急所は第二、第三とある。<br><br> 093 肺再浄化の浄霊 肺病は他の病気と違い一時小康を得ましても再浄化にて斃れる人がよくありますが、これは薬毒多量の関係で御座いましょうか。<br><br>それとも肺病には特別な意味の罪穢があるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 再浄化の方が重い。<br><br>最初はドンドン治る。<br><br>最初は浄化力の弱いのが、強く浄化が起って上面だけ除れる。<br><br>すると浄化力が強くなる。<br><br>長い間溜めたのが根本的浄化が起るから、その方が重い。<br><br>再浄化は一週間に一ぺん位の浄霊にして気長にやるのが一番よい。<br><br>（S24.11.21） 094 結核の浄霊法 結核患者、医者にて少しも効果が無く、浄霊すると非常によくなり全快するように見えますが、半月程過ぎて来ますと体力が出来て浄化し始め、どんどん浄化し、浄化最終まで体力が続かない人が多いのですが、しかし家族の数人が結核で死亡しています。<br><br>私が入信以後扱った結核患者は右のような人が多いのですが、いかにすればよろしいでしょうか。<br><br> 身体がよくなってくると浄化が起り、弱る。<br><br>それを浄霊してよくなる。<br><br>これを繰返す。<br><br>体力が続けばいいが、病気が治りつつ衰弱する結果になる。<br><br>一週に一度づつ浄霊して気長にやる方法と、一日に五回も六回も滅茶々々にやる、そして早く浄化する――この二つの方法だが、前者は普通の人でよいが、後者は霊力の相当強い人である事を要する。<br><br>（S24. 2.26） 095 結核の浄霊心得 肺結核患者を御浄めしても治らぬ人が多いのは私の「御力」が未だ弱いからであり、よく治らぬ間は私の信仰が薄いと判断してよろしいでしょうか。<br><br> これはそうではない。<br><br>結核は一番薬毒が多いのである。<br><br>医学は固める、吾々は溶かす、そこに大変な違いがある。<br><br> 肋膜の間へ空気を入れ、呼吸を止める。<br><br>すると中にある毒が固まる。<br><br>それで熱も痰もなくなる。<br><br>故に治ったんではないから暫くするとまた再発する。<br><br> これは相当弱っている。<br><br>溶かすと衰弱する。<br><br>一番いい事は徐々にやった方がよい。<br><br>病気がよくなりつつ身体が衰弱する。<br><br>それが難しい。<br><br>故に極く衰弱したのは引受けない方がよい。<br><br>あまり衰弱しなければ、まず信仰に入れゆっくりやる。<br><br>二、三年経つとすっかり治る。<br><br>これは肺結核に限るので、他の病はドシドシ浄めた方がよい。<br><br>（S *. 8. 8） 痰もなくなる。<br><br>故に治ったんでない。<br><br>暫く経つとまた再発する。<br><br>相当弱ってる。<br><br>溶かすと衰弱する。<br><br>故に一番いい事は、徐々にやった方がよい。<br><br>病気がよくなりいい。<br><br> 身体が衰弱する。<br><br>これが難しい。<br><br>故に極く衰弱したのは引受けない方がいい。<br><br> あまり衰弱しないのは、まず信仰に入れ、ゆっくりやる。<br><br>二、三年経つとすっかり治る。<br><br>（S23） 096 結核と肺壊疽 結核と肺壊疽の原因はどのような相違がありましょうか。<br><br>結核は大旨霊的であるように伺っておりますが、肺壊疽は霊的でしょうか、あるいは薬毒で御座いましょうか。<br><br> 右、御教示御願い申し上げます。<br><br> 壊疽は背中が多い。<br><br>（血膿） 結核は出すべき痰を出さぬようにするからで――。<br><br> 外部が多い。<br><br>内部のは古くなっているから非常に臭い。<br><br> 肺壊疽は、治りいい。<br><br>（S23.12.18） 097 結核は難治か、粟粒結核、肺壊疽 結核の再浄化は医学でいう粟粒結核でしょうか。<br><br> 粟粒結核とは違う。<br><br>粟粒は、痰が腐ってそうなる場合もある。<br><br>身体の毒素が疥癬みたいに出る場合もある。<br><br> 医学では絶対治らぬとしているがそんな事はない。<br><br>治さぬようにしているだけである。<br><br>割によく治る。<br><br> 壊疽は一番治りやすい。<br><br>肺の中へおデキが出来、血膿になって出る。<br><br> 普通、結核は治り易いが、衰弱で駄目になる。<br><br>熱と排痰の苦痛によって衰弱する。<br><br>再発は固めたのが溶けてくる。<br><br>（S24.10.23） 098 肺で吐血 二十一年十二月お産後、体の具合が悪く、医者に見てもらいましたら肺が悪いと云われ、二十二年十月吐血が一度あり、その間種々注射等手を施し、二十三年三月から十月迄に気胸を十回程致しましたが変りなく、十一月二十日観音様を知り浄霊を戴くようになって今日に至りました。<br><br>治りましょうか。<br><br>浄霊方法を御教え下さい。<br><br> 衰弱さえ甚しくなければ治る。<br><br>それを考えてすればよい。<br><br>体力があれば大丈夫で、肺は大抵首か肩が多い。<br><br>薬毒等が沢山入ってるから早くは治らぬ。<br><br>（S24.10.16） 099 結核―胸痛・喀血 二十六歳の男、肺結核で一年半ばかり苦しんでおります。<br><br>数回御浄霊致しましたら大変良くなって参りました。<br><br>しかし胸が時々痛むと訴えます。<br><br>御浄霊以前に三回位喀血をした事も御座います。<br><br>相当疲労しておりますが元気はよく、散歩も出来るようになりました。<br><br>何卒御守護の程御願い申し上げます。<br><br> 衰弱さえなければきっと治る。<br><br>それと食欲である。<br><br>（S24. 8.19） 100 喀血と菜食 十日位喀血が続いている患者、日に二回の御浄霊を致しておりますが、回数が多過ぎはしないでしょうか。<br><br>御伺い申し上げます。<br><br> 血痰が出るうちは菜食する事でよい。<br><br>血痰の出るのは反って成績がよい。<br><br>（S23.10. 2） 101 肺浸潤予後、（喀血） 私は十七歳の頃肺浸潤を患い、二十二歳の六月多量の喀血をなし、その後も数回喀血致しました。<br><br>昨年十月より御浄霊を戴き、現在は健康人と同様元気で働いておりますが、このままでよいのでしょうか。<br><br>私の身体の御浄霊はいかにさせて戴いたら、よいでしょうか。<br><br>御伺い致します。<br><br> このままでいい。<br><br>浄化作用として、喀血は大変に良い。<br><br>（S24.10. 8） 102 母子三人結核となる 昭和二十三年三月十八日、光明如来様を御祭りさせて戴きました。<br><br>私が御光を戴きましたのは昭和二十一年十二月です。<br><br>御光を戴く前より、私は肺結核患者で、御浄霊を戴いておりましたが、だんだん結果が悪く、ただ今では寝付いています。<br><br>勿論、御不浄に行く事も出来ません。<br><br>御飯は一膳位で、おいしいのですが、食べれば直ぐ出てしまいます。<br><br>また弟が同じ肺結核で病院に入院しております。<br><br>弟の世話に行っていた母親がこれまた肺結核となり入院しております。<br><br>ただ今では家の生活も苦しくなり、全く途方に暮れています。<br><br>どうしたらよいのでしょうか。<br><br>御伺い致します。<br><br> これはちょっとおかしい。<br><br>何か訳がある。<br><br>大体結核は医学が作るので、入院した時相当薬を使用したのであろう。<br><br> 浄霊だけでよくなる訳である。<br><br>（S24. 2.25） 103 結核と下痢 私の弟（三十二歳）、十年程前より肺結核にて困っておりましたところ、一昨年八月本教に入信し、昨年光明如来様もお迎えし浄霊を続けておりますが、本年三、四月頃から毎日下痢が続いておりますが、大して食欲もなく、幾分微熱が続いております。<br><br>衰弱も大した事もなく、毎日仕事（事務）もしております。<br><br>今日迄朝夕二回浄霊致しておりますが宜敷いでしょうか。<br><br>毎日一回位が適当でしょうか。<br><br>お伺い致します。<br><br> 一回でも二回でも構わぬ。<br><br>下痢によって治る。<br><br>（S24. 6. 8） 104 結核と食欲（息切れ、悪寒） 妻由紀子（三十歳）、去る昭和二十年七月結核となりました。<br><br>自家が内科医のため色々と手当を致しましたが思わしくなく、現在三期の状態でございまして、息切れ甚だしく食欲も漸く一杯位で、固形食ですと全然食欲がなくなり、柔らかい物ですと戴けます。<br><br>なお、日に一度位三十九度位発熱致し、その折悪寒が致します。<br><br>私の目から見ますと、殆ど再起不能と思われます。<br><br>去る一月二十七日より御浄霊を戴き、二月十四日私が鎌倉教導所にて竹内先生より御守様を拝受致し、以後は私も一日に一度は御浄霊させて頂いておりますが、なかなかはかばかしく御座いません。<br><br>何卒宜敷く、御守護をお願い申し上げます。<br><br>なお、私は現在医師の方は殆ど致しませず、自動車修理会社を立て経営しております。<br><br> 問題は食欲で、舌の荒れるのは薬毒である。<br><br>（S25. 3.28）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Medicina (II) Parte Superior e Média do Corpo</h2>
 <p><strong>6. Tuberculose 1</strong></p>
@@ -155,5 +307,48 @@ function toggleLang(lang) {
 <p><strong>104. Tuberculose e Apetite (Falta de Ar, Calafrios)</strong></p>
 <p>Minha esposa, Yukiko, de trinta anos, contraiu tuberculose em julho de 1945. Sendo eu médico internista, apliquei-lhe diversos tratamentos, mas sua condição não melhorou e, atualmente, encontra-se no terceiro estágio da doença. A falta de ar é intensa, e seu apetite permite apenas cerca de uma tigela de alimento, e somente se for de consistência mole; com alimentos sólidos, ela perde totalmente a vontade de comer. Além disso, uma vez por dia, a febre sobe para cerca de 39 graus, ocasião em que sente calafrios. A meu ver, ela parece estar em um estado do qual não poderá se recuperar. Ela começou a receber Johrei em 27 de janeiro, e em 14 de fevereiro eu mesmo recebi a Medalha da Luz no Johrei Center de Kamakura, através do reverendo Takeuchi. Desde então, também tenho lhe ministrado Johrei uma vez ao dia, mas não vemos um progresso satisfatório. Rogo por sua proteção e orientação. Informo ainda que, atualmente, praticamente não exerço mais a medicina, tendo fundado e passado a administrar uma empresa de reparos automotivos.</p>
 <p>A questão central é o apetite. A aspereza da língua é resultado das toxinas dos medicamentos. (28 de março de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（二）上体及び中体 ６ 085-104 結核１ 085 結核と愛と頭脳 結核患者に限り臨終まで意識が明瞭で御座いますのはいかなる訳で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 結核は頭の病気でないのと、結核患者は愛の熱が足りぬ。<br/><br/>冷やかだから理性が勝つ。<br/><br/>結核患者になった人はあまり愛の人はない。<br/><br/>感じも冷やかである。<br/><br/>肺を治すには愛の行をするといい。<br/><br/>（S24. 8.21） 086 結核の痰 肺結核は観音教団でも非常に治りにくいといわれますが、いかがでしょうか。<br/><br/> 肺の痰は黄色い痰が一番古い。<br/><br/>次に白色、次に青、次に透明でこれが一番新しい。<br/><br/>痰は喉から上の分が出る。<br/><br/>どんなに部屋を密閉しても黴菌は発生する。<br/><br/>伝染しないものを伝染するとして宣伝して弱らす。<br/><br/>（S24.11.26） 087 結核再浄化、衰弱して浄化強い理由 結核等の末期によくありますが、相当衰弱、死に瀕しているにかかわらず、強い御浄化が続き死んでゆく人がありますが、この一見矛盾した最後的御浄化は、例えば霊界へ行く用意として神様より特に御浄化を賜わるような訳があるのでしょうか。<br/><br/> 結核は強い薬を沢山入れているから再浄化するのが多い。<br/><br/>浄霊により体に力が出てくると、体的の薬毒の排泄作用が起る。<br/><br/>強い浄化するのもそのためである。<br/><br/>そういうのは必ず肩に大きい塊がある。<br/><br/>急所へ触れてやるとズンズンよくなる。<br/><br/>故に急所を発見する事と塊を溶かすだけの霊力の強さを要するが、大抵そこまで行くと駄目になる。<br/><br/>要するに浄化が強いと思えばよい。<br/><br/> 088 良質再浄化―結核 三人家族の信者、兄は満二十二歳で一昨年の十月に空洞まである結核と診断され、絶対安静を申し渡されて以来御浄霊を受け、七月頃より約四ケ月にわたる下痢、痔、続いて寝汗と次々と御浄化いただき、大変楽になり、深く感謝しております。<br/><br/>それで一時はそのまま起きられるかと思われました。<br/><br/>一ケ月程前より再び寝汗をかくようになり、今迄と違って昼間はかかず夜寝てから、特に夜明け頃にだけ流れる程の汗をかくようになり、その上咽喉が赤く腫れて苦痛がりますが、いかなる経過でしょうか。<br/><br/> 性（たち）のよい再浄化である。<br/><br/>下痢、痔などで浄化されたのである。<br/><br/>痔は腫れて開孔する。<br/><br/> 089 結核にて衰弱 夫清三（五十二歳）、二年前より結核にて、本年六月一日川合先生の浄霊を受け、咳、痰は殆どなくなり、下痢も止り、食欲が出て順調に良くなりつつ見えました。<br/><br/>九月十一日私が教修を頂き、同時に再浄化が起り、昨今は腸結核が悪化、胃腸が痛み、下痢が始まり、足の甲がむくみ、心臓が弱り、身心共に衰弱致しました。<br/><br/>六月一日より医薬を止めておりましたが、一昨日医師に診察して貰いましたところ、今年一杯持たぬと申されました。<br/><br/>日夜浄霊を続けておりますが、治癒に向いつつある浄化でございましょうか。<br/><br/>また、浄化に対する御浄霊方法を御教示御願い申し上げます。<br/><br/> 結核の再浄化はなかなか面倒である。<br/><br/>（S24.11.19） 090 結核再発の扱い 結核再発の患者で、病院で治らないで半月程前より私が浄霊を致しております。<br/><br/>最初は粥を茶碗に八分目位頂けるだけでしたが、段々食欲が増して来ますが、段々衰弱して来ました。<br/><br/>どうしたらよろしいでしょうか。<br/><br/> これは難しい。<br/><br/>浄化によって毒を出さねばならぬが、それには熱、咳等が出て衰弱を増す。<br/><br/>病気がよくなり、衰弱するという訳である。<br/><br/>安静にせず浄霊すると浄化が強まる。<br/><br/>病気が治りつつ衰弱する結核患者はよほど長い間薬を服んでいる。<br/><br/>見込みなしと思っていい。<br/><br/>恐らく駄目と思う。<br/><br/>受合わないでやる外ない。<br/><br/>止めた薬毒の浄化が大変である。<br/><br/>しかし浄霊すると苦痛は緩和される。<br/><br/>霊界の事を説いて、霊になって救われる事を話す外ない。<br/><br/>浄霊すると健康は回復する。<br/><br/>すると衰弱する訳で始末が悪い。<br/><br/> 疥癬の次に来る症状は他の症状となる。<br/><br/>今後強くなると一時に発するから大熱起り、吐き下し、頭痛、身体中ブチ壊れたようになる。<br/><br/> 091 肺結核難症と入信 四十四歳の男子、四年前より肺結核、昨年十一月頃より床につき、三十八、九度の熱が持続しております。<br/><br/>本年四月入信以来毎日浄霊を受けていますが、全然熱が取れず、なお、四月末分会長先生の浄霊を頂いた翌日、もの凄く浄化を頂き、脂汗を流して苦しみました。<br/><br/>なお、食欲はありますが大分衰弱しています。<br/><br/>右、浄霊法―― 難しい。<br/><br/>肺結核は殆どこれである。<br/><br/>約四年間に薬飲んでいるから、浄霊をすると薬が溶けて出る。<br/><br/>それで咳、痰、熱が出るので衰弱する。<br/><br/> 病気は治るが、衰弱するのでもたない懸念がある。<br/><br/>塊が溶けねば熱が冷めぬ。<br/><br/>非常な霊力が要る。<br/><br/>徐々としてやる外はない。<br/><br/>一週間に一回か二回やって安静にする。<br/><br/>病気と浄霊を睨み合わしてやる。<br/><br/> 生命に関係した病気は治ってから入信するようにせよ。<br/><br/> 092 気胸より減食・喉痛・ヌラ吐く（浄霊の急所） 長男（三十八歳）、昨年一月、胸を病み、気胸療法十回後、御浄霊で快方に向いましたが、本年一月頃より段々食欲がなくなり、咽喉が痛み、現在では唾を呑み込むのさえ痛み、辛うじて毎日玉子一個を食する程で、毎日一升位のヌラのようなものを吐きましたが、二月中旬より床につき、元気ありません。<br/><br/>いかなる事でありましょうか。<br/><br/> これは再浄化である。<br/><br/>医療は固め療法であるから、ある程度毒が除れると良くなる。<br/><br/>薬毒が浮いていて、それの浄化が起る。<br/><br/>再浄化は一番厄介で、そのために衰弱する。<br/><br/>病気が快くなりつつ衰弱する。<br/><br/> これは一番の急所をやらなくてはいけない。<br/><br/>首筋に塊のある所がある。<br/><br/>肩――こういう人は実に固い。<br/><br/>背中と腎臓の下、太股等一番熱の出る所をまず浄霊する。<br/><br/> ヌラや咳は毒が溶けて出るのである。<br/><br/>衰弱増さぬよう注意してする。<br/><br/>早く峠を越さす事だ。<br/><br/>早く首筋の熱い所を発見して、そこをやる。<br/><br/>熱下ればその急所をやる。<br/><br/>急所は第二、第三とある。<br/><br/> 093 肺再浄化の浄霊 肺病は他の病気と違い一時小康を得ましても再浄化にて斃れる人がよくありますが、これは薬毒多量の関係で御座いましょうか。<br/><br/>それとも肺病には特別な意味の罪穢があるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 再浄化の方が重い。<br/><br/>最初はドンドン治る。<br/><br/>最初は浄化力の弱いのが、強く浄化が起って上面だけ除れる。<br/><br/>すると浄化力が強くなる。<br/><br/>長い間溜めたのが根本的浄化が起るから、その方が重い。<br/><br/>再浄化は一週間に一ぺん位の浄霊にして気長にやるのが一番よい。<br/><br/>（S24.11.21） 094 結核の浄霊法 結核患者、医者にて少しも効果が無く、浄霊すると非常によくなり全快するように見えますが、半月程過ぎて来ますと体力が出来て浄化し始め、どんどん浄化し、浄化最終まで体力が続かない人が多いのですが、しかし家族の数人が結核で死亡しています。<br/><br/>私が入信以後扱った結核患者は右のような人が多いのですが、いかにすればよろしいでしょうか。<br/><br/> 身体がよくなってくると浄化が起り、弱る。<br/><br/>それを浄霊してよくなる。<br/><br/>これを繰返す。<br/><br/>体力が続けばいいが、病気が治りつつ衰弱する結果になる。<br/><br/>一週に一度づつ浄霊して気長にやる方法と、一日に五回も六回も滅茶々々にやる、そして早く浄化する――この二つの方法だが、前者は普通の人でよいが、後者は霊力の相当強い人である事を要する。<br/><br/>（S24. 2.26） 095 結核の浄霊心得 肺結核患者を御浄めしても治らぬ人が多いのは私の「御力」が未だ弱いからであり、よく治らぬ間は私の信仰が薄いと判断してよろしいでしょうか。<br/><br/> これはそうではない。<br/><br/>結核は一番薬毒が多いのである。<br/><br/>医学は固める、吾々は溶かす、そこに大変な違いがある。<br/><br/> 肋膜の間へ空気を入れ、呼吸を止める。<br/><br/>すると中にある毒が固まる。<br/><br/>それで熱も痰もなくなる。<br/><br/>故に治ったんではないから暫くするとまた再発する。<br/><br/> これは相当弱っている。<br/><br/>溶かすと衰弱する。<br/><br/>一番いい事は徐々にやった方がよい。<br/><br/>病気がよくなりつつ身体が衰弱する。<br/><br/>それが難しい。<br/><br/>故に極く衰弱したのは引受けない方がよい。<br/><br/>あまり衰弱しなければ、まず信仰に入れゆっくりやる。<br/><br/>二、三年経つとすっかり治る。<br/><br/>これは肺結核に限るので、他の病はドシドシ浄めた方がよい。<br/><br/>（S *. 8. 8） 痰もなくなる。<br/><br/>故に治ったんでない。<br/><br/>暫く経つとまた再発する。<br/><br/>相当弱ってる。<br/><br/>溶かすと衰弱する。<br/><br/>故に一番いい事は、徐々にやった方がよい。<br/><br/>病気がよくなりいい。<br/><br/> 身体が衰弱する。<br/><br/>これが難しい。<br/><br/>故に極く衰弱したのは引受けない方がいい。<br/><br/> あまり衰弱しないのは、まず信仰に入れ、ゆっくりやる。<br/><br/>二、三年経つとすっかり治る。<br/><br/>（S23） 096 結核と肺壊疽 結核と肺壊疽の原因はどのような相違がありましょうか。<br/><br/>結核は大旨霊的であるように伺っておりますが、肺壊疽は霊的でしょうか、あるいは薬毒で御座いましょうか。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 壊疽は背中が多い。<br/><br/>（血膿） 結核は出すべき痰を出さぬようにするからで――。<br/><br/> 外部が多い。<br/><br/>内部のは古くなっているから非常に臭い。<br/><br/> 肺壊疽は、治りいい。<br/><br/>（S23.12.18） 097 結核は難治か、粟粒結核、肺壊疽 結核の再浄化は医学でいう粟粒結核でしょうか。<br/><br/> 粟粒結核とは違う。<br/><br/>粟粒は、痰が腐ってそうなる場合もある。<br/><br/>身体の毒素が疥癬みたいに出る場合もある。<br/><br/> 医学では絶対治らぬとしているがそんな事はない。<br/><br/>治さぬようにしているだけである。<br/><br/>割によく治る。<br/><br/> 壊疽は一番治りやすい。<br/><br/>肺の中へおデキが出来、血膿になって出る。<br/><br/> 普通、結核は治り易いが、衰弱で駄目になる。<br/><br/>熱と排痰の苦痛によって衰弱する。<br/><br/>再発は固めたのが溶けてくる。<br/><br/>（S24.10.23） 098 肺で吐血 二十一年十二月お産後、体の具合が悪く、医者に見てもらいましたら肺が悪いと云われ、二十二年十月吐血が一度あり、その間種々注射等手を施し、二十三年三月から十月迄に気胸を十回程致しましたが変りなく、十一月二十日観音様を知り浄霊を戴くようになって今日に至りました。<br/><br/>治りましょうか。<br/><br/>浄霊方法を御教え下さい。<br/><br/> 衰弱さえ甚しくなければ治る。<br/><br/>それを考えてすればよい。<br/><br/>体力があれば大丈夫で、肺は大抵首か肩が多い。<br/><br/>薬毒等が沢山入ってるから早くは治らぬ。<br/><br/>（S24.10.16） 099 結核―胸痛・喀血 二十六歳の男、肺結核で一年半ばかり苦しんでおります。<br/><br/>数回御浄霊致しましたら大変良くなって参りました。<br/><br/>しかし胸が時々痛むと訴えます。<br/><br/>御浄霊以前に三回位喀血をした事も御座います。<br/><br/>相当疲労しておりますが元気はよく、散歩も出来るようになりました。<br/><br/>何卒御守護の程御願い申し上げます。<br/><br/> 衰弱さえなければきっと治る。<br/><br/>それと食欲である。<br/><br/>（S24. 8.19） 100 喀血と菜食 十日位喀血が続いている患者、日に二回の御浄霊を致しておりますが、回数が多過ぎはしないでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 血痰が出るうちは菜食する事でよい。<br/><br/>血痰の出るのは反って成績がよい。<br/><br/>（S23.10. 2） 101 肺浸潤予後、（喀血） 私は十七歳の頃肺浸潤を患い、二十二歳の六月多量の喀血をなし、その後も数回喀血致しました。<br/><br/>昨年十月より御浄霊を戴き、現在は健康人と同様元気で働いておりますが、このままでよいのでしょうか。<br/><br/>私の身体の御浄霊はいかにさせて戴いたら、よいでしょうか。<br/><br/>御伺い致します。<br/><br/> このままでいい。<br/><br/>浄化作用として、喀血は大変に良い。<br/><br/>（S24.10. 8） 102 母子三人結核となる 昭和二十三年三月十八日、光明如来様を御祭りさせて戴きました。<br/><br/>私が御光を戴きましたのは昭和二十一年十二月です。<br/><br/>御光を戴く前より、私は肺結核患者で、御浄霊を戴いておりましたが、だんだん結果が悪く、ただ今では寝付いています。<br/><br/>勿論、御不浄に行く事も出来ません。<br/><br/>御飯は一膳位で、おいしいのですが、食べれば直ぐ出てしまいます。<br/><br/>また弟が同じ肺結核で病院に入院しております。<br/><br/>弟の世話に行っていた母親がこれまた肺結核となり入院しております。<br/><br/>ただ今では家の生活も苦しくなり、全く途方に暮れています。<br/><br/>どうしたらよいのでしょうか。<br/><br/>御伺い致します。<br/><br/> これはちょっとおかしい。<br/><br/>何か訳がある。<br/><br/>大体結核は医学が作るので、入院した時相当薬を使用したのであろう。<br/><br/> 浄霊だけでよくなる訳である。<br/><br/>（S24. 2.25） 103 結核と下痢 私の弟（三十二歳）、十年程前より肺結核にて困っておりましたところ、一昨年八月本教に入信し、昨年光明如来様もお迎えし浄霊を続けておりますが、本年三、四月頃から毎日下痢が続いておりますが、大して食欲もなく、幾分微熱が続いております。<br/><br/>衰弱も大した事もなく、毎日仕事（事務）もしております。<br/><br/>今日迄朝夕二回浄霊致しておりますが宜敷いでしょうか。<br/><br/>毎日一回位が適当でしょうか。<br/><br/>お伺い致します。<br/><br/> 一回でも二回でも構わぬ。<br/><br/>下痢によって治る。<br/><br/>（S24. 6. 8） 104 結核と食欲（息切れ、悪寒） 妻由紀子（三十歳）、去る昭和二十年七月結核となりました。<br/><br/>自家が内科医のため色々と手当を致しましたが思わしくなく、現在三期の状態でございまして、息切れ甚だしく食欲も漸く一杯位で、固形食ですと全然食欲がなくなり、柔らかい物ですと戴けます。<br/><br/>なお、日に一度位三十九度位発熱致し、その折悪寒が致します。<br/><br/>私の目から見ますと、殆ど再起不能と思われます。<br/><br/>去る一月二十七日より御浄霊を戴き、二月十四日私が鎌倉教導所にて竹内先生より御守様を拝受致し、以後は私も一日に一度は御浄霊させて頂いておりますが、なかなかはかばかしく御座いません。<br/><br/>何卒宜敷く、御守護をお願い申し上げます。<br/><br/>なお、私は現在医師の方は殆ど致しませず、自動車修理会社を立て経営しております。<br/><br/> 問題は食欲で、舌の荒れるのは薬毒である。<br/><br/>（S25. 3.28）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

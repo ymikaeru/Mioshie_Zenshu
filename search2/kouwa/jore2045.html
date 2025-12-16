@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jore2045</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ３ 045-054 癌、肉腫 045 肉腫の両原因と治癒 肉腫は霊的な病気で御座いましょうか。<br><br>霊的で御座いましたらその理由を御教えの程御願い申し上げます。<br><br> 霊的体的両方ある。<br><br>体的肉腫はじきに治る。<br><br>毒が固まったものである。<br><br> 046 淋巴腺肉腫 中隊長として部下三百二十二名と共に戦闘、沖縄島戦場にて三百八名戦死、十四名生存、戦死者の遺髪の代りとして戦場附近の土、砂、小石を拾い遺族に届けましたが、内六名は家族行方不明で渡せず、非常に気にしている淋巴腺肉腫患者、霊的でしょうか。<br><br> 関係はない。<br><br>淋巴腺肉腫などという病気がある訳はない。<br><br>ただ毒が溜ったのである。<br><br>浄霊で治る。<br><br>固いのと大きいので医者が間違えるのである。<br><br>肉腫はおなかだけである。<br><br> 047 結核者の透明膚と癌の皮膚色 重症の結核患者の身体は非常に透き通って見えますが、これはいかなる訳でございましょうか。<br><br>御教えをお願い申し上げます。<br><br> 貧血しているからである。<br><br>癌と結核の貧血は違う。<br><br>癌は油っ気がなくなり、結核は油っ気があるから透き通って綺麗に見える。<br><br>（S24.12. 1） 048 顔面蒼白と胃癌（癌の診査） 本年四十五歳の女、今年一月以来顔面蒼白となり、一カ月前に医診を受けたところ胃癌の初期との事にて手術を奨められましたが、御浄霊を知り一週間程になりますが、本人は何の苦痛もなくまた御浄霊により食欲も普通以上にあり、体力も充分にあります。<br><br>しかしまだ顔色が良くありません。<br><br>今迄に薬及び医療を受けた事はないとの事です。<br><br>御浄霊いたしますと生唾が出、吐気を催すとのことですが、霊的でしょうか。<br><br> 顔面蒼白は貧血で、真症癌の場合もある。<br><br>癌は触って固まりがあるからすぐ分る。<br><br>顔面蒼白が特徴で、全然血の気はない。<br><br>慣れぬとはっきり判らぬ。<br><br>癌らしい点はあるが、塊が問題である。<br><br>（S25. 5. 3） 049 （子宮癌と言わる）、癌の見分け方 真性癌と疑似癌の見分け方に付き御教示をお願い致します。<br><br>三十九歳の女、本年七月医師より子宮癌と診断され、以後脊柱矯正療法並びに食餌療法等を行い、一ケ月前より臥床今日に至り、一週間前より浄霊を致しておりますが、拇指大の固結を始め大小種々の固形物が出血と共に下っております。<br><br>食欲は一回一杯半、脈搏九十四、五、皮膚の色は黄黒色、掻痒苦、痛苦を局部に訴え、腰部も痛みます、以前「ほうずき」の根で人工流産をした事があるとの事です。<br><br>真性癌で御座居ますか、疑似で御座居ますか。<br><br>右、御伺い致します。<br><br> 脊柱は子宮癌とは関係ない。<br><br>食餌も関係ない。<br><br>これは古血が溜ったもので、子宮癌ではない。<br><br>食欲や脈搏は関係がある。<br><br> 癌を見分けるには、血の気がなくなり、青黄色く、赤い所がなくなる。<br><br>また非常に痩せるのが特徴である。<br><br> 掻痒苦や痛苦は毒血が溜っている訳で、これは割合い早く治る。<br><br>ホーズキは関係がある。<br><br>（S24.11.28） 050 （卵巣水腫）、癌の成分と本質 本年五十五歳、四年前入信、光明様も御祭りし、多くの人を助け非常に信仰に厚い人です。<br><br>この四月頃、突然喉が浄化し声がたたなくなり、四、五日御浄霊を頂くうち、元通りになりましたが、そのうち次第に腹部が膨張し、現在では胸から腰にかけ太鼓のような太さになってまいりました。<br><br>それでも余り苦しがらず、食事も二杯位ずつ美味しく頂け、日に何回か起きては小便にも行き、風呂へも二、三回入ります。<br><br>これという痛みの個所はありません。<br><br>最近、以前手術した脱腸が時々痛むと申します。<br><br>腹部は張り返すような固さでしたが現在では柔かになっております。<br><br>小便は昼間は五、六回、夜間は四、五回位の回数はあっても少量しか出ません。<br><br> 最近、憑依霊と思われるような言動が度々ありました。<br><br>色々調べてみましたところ、稲荷を御粗末にした事など分りましたので、元通り御詫びしお祭り致しました。<br><br>御先祖様の御供養も致しました。<br><br>しかしまだ自分の腹には何かの霊がかけ廻るような気がすると申します。<br><br>小便か下痢がどんどん出て来ればよくなるのではないかと存じますが、果して何かの霊が邪魔しているもので御座いましょうか。<br><br>あるいは癌が浄化して来たのでしょうか。<br><br>それとも卵巣水腫等という病気なので御座いましょうか。<br><br>御救い戴けるもので御座いましょうか。<br><br>御伺い致します。<br><br> 癌では絶対ない。<br><br>癌は膿ではない。<br><br>革の重なった踵のようなものである。<br><br>故に少しずつ溶けるが、溶けて拡がる事はない。<br><br>医学では癌は黴菌なりといっている。<br><br> 卵巣水腫で、何かの罪であろう。<br><br> 危い。<br><br>癌は霊――蛇の霊。<br><br>毒血と膏が癌になっている。<br><br>脂肪の塊である。<br><br> ヌラは蛇毒である。<br><br>（S24. 7.23） 051 真症子宮癌と肛門、（癌の進行性） 先日御教示頂きました子宮癌の女、腰部の痛みは大変楽にして戴きましたが、局部の痛みと共に肛門が脱肛、痔のため激しく痛みます。<br><br>癌との関係が御座いますでしょうか。<br><br>御教示御願い申し上げます。<br><br> 本当の癌なら関係がある。<br><br>癌は進行してゆく。<br><br>真症癌なら局部から肛門へ移行してゆく。<br><br>薬毒と癌と混合しているものである。<br><br>（S24.12. 8） 052 直腸癌（特色、原因と食餌） 入信前、祖父母が直腸癌にて、それぞれ手術後半年程にて他界致し、今また、父が同病にて就床致し、入信後母は排便無し、腹部がつかえ食欲なく、現在危篤の状態にあり、家族三名入信、光明如来様は御奉斎致し、父母共にただ浄霊には御縋り致しておりますが、何か霊的起因と、御浄霊法御教示御願い申します。<br><br> 直腸癌は腸へ固まりが出来て圧迫する。<br><br>真症癌は少ない。<br><br>排便不可能にしてしまう。<br><br>手術は絶対やってはいけない。<br><br>半年や一ケ年出なくとも心配はない。<br><br>元は腎臓である。<br><br> 私のしたので二年近く排便のないのがあった。<br><br>流動物、お茶漬がよい。<br><br>流動物は便秘し易いから茶漬がよい。<br><br>（S25. 5.25） 053 胃癌腹部膨満、（癌毒溶解による症状）、黄疸を伴う 十五年位の胃癌、三ケ月位前より御浄霊を致しまして、現在大変小さくなったように思われますが、腹部膨満してまいりました。<br><br>ヌラを含んだ嘔吐が一日一升五合位御座居ます。<br><br>排尿は僅少、排便は少量ですが日に三度御座居ます。<br><br>食欲旺盛、御守護戴けましょうか。<br><br>御伺い申し上げます。<br><br> 食欲旺盛なら必ず治る。<br><br>普通、癌毒が溶けると腹が膨満する。<br><br>大抵胆嚢が浄化し黄疸になる。<br><br>ヌラは癌の症状である。<br><br>入院してるならやめよ。<br><br>（S24. 8.23） 054 胃癌と下腹膨満 胃癌と下腹膨満について――。<br><br>胃癌と言われた四十七歳の男子、当方にまいり御浄霊を続ける内、六日目になり胃痙攣を起しました。<br><br>それから胃の固まりが小さくなり、十二日目に御浄霊を致しておりますと掌に何か二度ばかり突上るような感じを受けました。<br><br>その後は大変宜しいのですが、ただ下腹が張っておりますが、仲々浄化致しません。<br><br>いかがな訳で御座居ましょうか。<br><br> 胃癌などを浄霊すると必ず腹が膨れるもので、溶けたものが濃いので、溶けてお腹へ溜る。<br><br>（S24. 6. 3）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>045 As duas causas do sarcoma e sua cura</h2>
 <p>O sarcoma é uma doença de origem espiritual? Caso seja, peço que nos esclareça o motivo.</p>
@@ -127,5 +279,48 @@ function toggleLang(lang) {
 <h2>054 O câncer de estômago e a distensão do baixo-ventre</h2>
 <p>Gostaria de perguntar sobre o câncer de estômago e a distensão do baixo-ventre. Um homem de quarenta e sete anos, diagnosticado com câncer de estômago, veio até nós. No sexto dia de Johrei contínuo, ele teve uma crise de espasmos gástricos. Depois disso, o nódulo no estômago diminuiu. No décimo segundo dia, enquanto eu ministrava Johrei, senti como se algo empurrasse minha palma por duas vezes. Desde então, ele tem passado muito bem, mas seu baixo-ventre permanece inchado e não melhora. Qual seria a razão?</p>
 <p>Quando se ministra Johrei em casos como o câncer de estômago, é inevitável que o abdômen se dilate. Isso ocorre porque as toxinas dissolvidas são densas e, ao se liquefazerem, acumulam-se no abdômen.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ３ 045-054 癌、肉腫 045 肉腫の両原因と治癒 肉腫は霊的な病気で御座いましょうか。<br/><br/>霊的で御座いましたらその理由を御教えの程御願い申し上げます。<br/><br/> 霊的体的両方ある。<br/><br/>体的肉腫はじきに治る。<br/><br/>毒が固まったものである。<br/><br/> 046 淋巴腺肉腫 中隊長として部下三百二十二名と共に戦闘、沖縄島戦場にて三百八名戦死、十四名生存、戦死者の遺髪の代りとして戦場附近の土、砂、小石を拾い遺族に届けましたが、内六名は家族行方不明で渡せず、非常に気にしている淋巴腺肉腫患者、霊的でしょうか。<br/><br/> 関係はない。<br/><br/>淋巴腺肉腫などという病気がある訳はない。<br/><br/>ただ毒が溜ったのである。<br/><br/>浄霊で治る。<br/><br/>固いのと大きいので医者が間違えるのである。<br/><br/>肉腫はおなかだけである。<br/><br/> 047 結核者の透明膚と癌の皮膚色 重症の結核患者の身体は非常に透き通って見えますが、これはいかなる訳でございましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 貧血しているからである。<br/><br/>癌と結核の貧血は違う。<br/><br/>癌は油っ気がなくなり、結核は油っ気があるから透き通って綺麗に見える。<br/><br/>（S24.12. 1） 048 顔面蒼白と胃癌（癌の診査） 本年四十五歳の女、今年一月以来顔面蒼白となり、一カ月前に医診を受けたところ胃癌の初期との事にて手術を奨められましたが、御浄霊を知り一週間程になりますが、本人は何の苦痛もなくまた御浄霊により食欲も普通以上にあり、体力も充分にあります。<br/><br/>しかしまだ顔色が良くありません。<br/><br/>今迄に薬及び医療を受けた事はないとの事です。<br/><br/>御浄霊いたしますと生唾が出、吐気を催すとのことですが、霊的でしょうか。<br/><br/> 顔面蒼白は貧血で、真症癌の場合もある。<br/><br/>癌は触って固まりがあるからすぐ分る。<br/><br/>顔面蒼白が特徴で、全然血の気はない。<br/><br/>慣れぬとはっきり判らぬ。<br/><br/>癌らしい点はあるが、塊が問題である。<br/><br/>（S25. 5. 3） 049 （子宮癌と言わる）、癌の見分け方 真性癌と疑似癌の見分け方に付き御教示をお願い致します。<br/><br/>三十九歳の女、本年七月医師より子宮癌と診断され、以後脊柱矯正療法並びに食餌療法等を行い、一ケ月前より臥床今日に至り、一週間前より浄霊を致しておりますが、拇指大の固結を始め大小種々の固形物が出血と共に下っております。<br/><br/>食欲は一回一杯半、脈搏九十四、五、皮膚の色は黄黒色、掻痒苦、痛苦を局部に訴え、腰部も痛みます、以前「ほうずき」の根で人工流産をした事があるとの事です。<br/><br/>真性癌で御座居ますか、疑似で御座居ますか。<br/><br/>右、御伺い致します。<br/><br/> 脊柱は子宮癌とは関係ない。<br/><br/>食餌も関係ない。<br/><br/>これは古血が溜ったもので、子宮癌ではない。<br/><br/>食欲や脈搏は関係がある。<br/><br/> 癌を見分けるには、血の気がなくなり、青黄色く、赤い所がなくなる。<br/><br/>また非常に痩せるのが特徴である。<br/><br/> 掻痒苦や痛苦は毒血が溜っている訳で、これは割合い早く治る。<br/><br/>ホーズキは関係がある。<br/><br/>（S24.11.28） 050 （卵巣水腫）、癌の成分と本質 本年五十五歳、四年前入信、光明様も御祭りし、多くの人を助け非常に信仰に厚い人です。<br/><br/>この四月頃、突然喉が浄化し声がたたなくなり、四、五日御浄霊を頂くうち、元通りになりましたが、そのうち次第に腹部が膨張し、現在では胸から腰にかけ太鼓のような太さになってまいりました。<br/><br/>それでも余り苦しがらず、食事も二杯位ずつ美味しく頂け、日に何回か起きては小便にも行き、風呂へも二、三回入ります。<br/><br/>これという痛みの個所はありません。<br/><br/>最近、以前手術した脱腸が時々痛むと申します。<br/><br/>腹部は張り返すような固さでしたが現在では柔かになっております。<br/><br/>小便は昼間は五、六回、夜間は四、五回位の回数はあっても少量しか出ません。<br/><br/> 最近、憑依霊と思われるような言動が度々ありました。<br/><br/>色々調べてみましたところ、稲荷を御粗末にした事など分りましたので、元通り御詫びしお祭り致しました。<br/><br/>御先祖様の御供養も致しました。<br/><br/>しかしまだ自分の腹には何かの霊がかけ廻るような気がすると申します。<br/><br/>小便か下痢がどんどん出て来ればよくなるのではないかと存じますが、果して何かの霊が邪魔しているもので御座いましょうか。<br/><br/>あるいは癌が浄化して来たのでしょうか。<br/><br/>それとも卵巣水腫等という病気なので御座いましょうか。<br/><br/>御救い戴けるもので御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 癌では絶対ない。<br/><br/>癌は膿ではない。<br/><br/>革の重なった踵のようなものである。<br/><br/>故に少しずつ溶けるが、溶けて拡がる事はない。<br/><br/>医学では癌は黴菌なりといっている。<br/><br/> 卵巣水腫で、何かの罪であろう。<br/><br/> 危い。<br/><br/>癌は霊――蛇の霊。<br/><br/>毒血と膏が癌になっている。<br/><br/>脂肪の塊である。<br/><br/> ヌラは蛇毒である。<br/><br/>（S24. 7.23） 051 真症子宮癌と肛門、（癌の進行性） 先日御教示頂きました子宮癌の女、腰部の痛みは大変楽にして戴きましたが、局部の痛みと共に肛門が脱肛、痔のため激しく痛みます。<br/><br/>癌との関係が御座いますでしょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 本当の癌なら関係がある。<br/><br/>癌は進行してゆく。<br/><br/>真症癌なら局部から肛門へ移行してゆく。<br/><br/>薬毒と癌と混合しているものである。<br/><br/>（S24.12. 8） 052 直腸癌（特色、原因と食餌） 入信前、祖父母が直腸癌にて、それぞれ手術後半年程にて他界致し、今また、父が同病にて就床致し、入信後母は排便無し、腹部がつかえ食欲なく、現在危篤の状態にあり、家族三名入信、光明如来様は御奉斎致し、父母共にただ浄霊には御縋り致しておりますが、何か霊的起因と、御浄霊法御教示御願い申します。<br/><br/> 直腸癌は腸へ固まりが出来て圧迫する。<br/><br/>真症癌は少ない。<br/><br/>排便不可能にしてしまう。<br/><br/>手術は絶対やってはいけない。<br/><br/>半年や一ケ年出なくとも心配はない。<br/><br/>元は腎臓である。<br/><br/> 私のしたので二年近く排便のないのがあった。<br/><br/>流動物、お茶漬がよい。<br/><br/>流動物は便秘し易いから茶漬がよい。<br/><br/>（S25. 5.25） 053 胃癌腹部膨満、（癌毒溶解による症状）、黄疸を伴う 十五年位の胃癌、三ケ月位前より御浄霊を致しまして、現在大変小さくなったように思われますが、腹部膨満してまいりました。<br/><br/>ヌラを含んだ嘔吐が一日一升五合位御座居ます。<br/><br/>排尿は僅少、排便は少量ですが日に三度御座居ます。<br/><br/>食欲旺盛、御守護戴けましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 食欲旺盛なら必ず治る。<br/><br/>普通、癌毒が溶けると腹が膨満する。<br/><br/>大抵胆嚢が浄化し黄疸になる。<br/><br/>ヌラは癌の症状である。<br/><br/>入院してるならやめよ。<br/><br/>（S24. 8.23） 054 胃癌と下腹膨満 胃癌と下腹膨満について――。<br/><br/>胃癌と言われた四十七歳の男子、当方にまいり御浄霊を続ける内、六日目になり胃痙攣を起しました。<br/><br/>それから胃の固まりが小さくなり、十二日目に御浄霊を致しておりますと掌に何か二度ばかり突上るような感じを受けました。<br/><br/>その後は大変宜しいのですが、ただ下腹が張っておりますが、仲々浄化致しません。<br/><br/>いかがな訳で御座居ましょうか。<br/><br/> 胃癌などを浄霊すると必ず腹が膨れるもので、溶けたものが濃いので、溶けてお腹へ溜る。<br/><br/>（S24. 6. 3）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

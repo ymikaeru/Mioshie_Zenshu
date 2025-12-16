@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>konoji07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実を何とみる 『光』11号、昭和24(1949)年5月31日発行 本教においては、光新聞及び雑誌地上天国に毎号出来るだけのおかげ話を満載している、もちろんこれは、事実ありのままに書くよう厳重に注意を与えている以上いささかの誇張もない事は言うまでもない、このおかげばなしの感謝、感激の報告は日に月に漸増しつつあり、最近は一ケ月数百通にも及び、全部の掲載は困難になったので、目下方法を講じているという実状であるにみて、いかに救われる人の殖えつつあるかが知らるるのである、読者も見らるる通りその感謝に溢るる文章を見ては眼頭が熱くなり、滲み出る涙を幾度拭うか分らない程である。<br><br>しかしこれは感情に関してであるが、重大である事は驚くべき治病成績で、これについて種々の角度から検討しようと思うのである。<br><br> 総ての実例に徴し、正直に言えば、医療その他現在行われつつあるあらゆる療法についてみる時大雑把ではあるが大体三分の二は効果なしという事、三分の一は反って悪化したという事実であるが、これは大問題である、この報告を見た専門家はもちろんの事、一般人においてもあまりの意外に撞着（どうちゃく）しないものは一人もあるまい。<br><br> 今日全世界の文化民族といわれるそのことごとくは、現代医学の進歩を信じ、これに生命を托（たく）す事をもって何らの疑念もなく、正当の方法と心得、それがほとんど常識となっている事である、しかるに、私は既成医学を是正せんとして十数年以前から、この事を徹底的に世に知らしめ、人類最大の悩みである病苦を除去せんとして三種の著書を著わしたが三種とも発禁となったので諦めざるを得なかったのである、今はそうでもないが、その頃は医学の医の字を言う事すら許されない、例えば患者に対し医療でなくも、私の方で治るといったその言葉だけで医師法違反に問われ、私は三日間留置場に容れられた事もあり、またパンフレットに、現代医学は病気の患部を除去する方法として肉を切り血液を消耗し、病苦を与える以上、野蛮的方法であるに比し、吾らの療法はいささかの苦痛も与えず、肉体を傷つける事なくして、いかに深部の病根をも除去し得るという事を書いたため忌諱に触れ、警察へ召喚され、永々と御説教の末、罰金を取られた事さえあったくらいであるから、その他は推して知るべきである。<br><br>かような時代であったため、止むを得ず一切沈黙を守り、ただ事実によって天下に示すより外に方法がなかったのである。<br><br> そんな訳で、宗教となった今日といえども沈黙的救済を続けては来たものの、最早積極的に大いに知らさなければならない時期となったのである、もちろんこの事は私の考えではない、神の意図が私をしてそうさせるのである。<br><br> 事実、現在の世界人類の苦悩は最早打切られなければならない時期が来たのである、もちろん苦悩の根本は人間の病患にある事は、私が常に繰返し言うところであって、人間が霊肉共に健康になったとしたら、他のあらゆる苦難の大半は消滅する事は火をみるよりも燎〔瞭〕（あきら）かである、その暁こそ、吾らの目標たる地上天国の出現でなくて何であろう。<br><br> キリストの唱えた、「天国は近づけり」の一大予言も、釈尊が予言された弥勒の世もこの事に外ならないのである、私は医学者でもなく、医学を学んだ事もないに係わらず、病気に関する一切は神示によって根本的に知り得たのである、それによれば現代医学はいかに邪道に陥っているかが洵（まこと）に明らかである以上その事の是正こそ人類救済の第一義でなくてはならない、この意味において私というものは、病無き世界を造るべき大使命の実行者として神から選ばれたものである以上、その力を十分発揮し、地上天国建設の大理想を実現せんとするのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Evidência dos Milagres e a Missão Divina</h2>
 <p>Em nossa Igreja, tanto no jornal Hikari quanto na revista Paraíso Terrestre, procuramos preencher cada edição com o maior número possível de relatos de graças. Naturalmente, como orientamos rigorosamente para que sejam escritos com total fidelidade aos fatos, é desnecessário dizer que não contêm o menor exagero. Os relatos de gratidão e emoção vêm aumentando dia após dia, mês após mês. Recentemente, o volume de correspondência atingiu centenas de cartas mensais, tornando inviável a publicação de todas, motivo pelo qual estudamos atualmente uma solução para essa questão. Tal fato, por si só, demonstra o crescente número de pessoas que estão sendo salvas. Como os leitores podem constatar, a leitura desses textos transbordantes de gratidão comove-nos a ponto de aquecer o coração e nos fazer enxugar as lágrimas por incontáveis vezes. Contudo, para além do aspecto emocional, o ponto de maior relevância reside nos impressionantes resultados na cura de doenças, e é sobre isso que desejo discorrer, analisando-o sob diversas perspectivas.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Por essa razão, mesmo após nossa instituição como religião, prosseguimos com uma salvação silenciosa. Todavia, chegou o momento de agirmos de forma mais assertiva, divulgando amplamente a verdade. Evidentemente, essa mudança não parte de minha própria deliberação; é a Vontade de Deus que me impele a agir dessa maneira.</p>
 <p>De fato, o tempo de pôr fim ao sofrimento da humanidade chegou. A origem de todo o sofrimento, como tenho repetidamente afirmado, reside na doença. Se os seres humanos se tornarem saudáveis de espírito e corpo, é mais claro que a luz do dia que a maior parte das outras adversidades desaparecerá. Esse alvorecer será, pois, a concretização do Paraíso Terrestre, nosso objetivo maior.</p>
 <p>A grande profecia de Cristo, “O Reino dos Céus está próximo”, e a Era de Miroku, anunciada por Shakyamuni, referem-se precisamente a este momento. Não sou médico nem jamais estudei medicina; não obstante, por meio de Revelações Divinas, pude compreender em sua essência tudo o que concerne às doenças. Segundo essas revelações, torna-se absolutamente evidente o quão desviada se encontra a medicina moderna. Portanto, a correção de seus rumos deve ser a prioridade máxima para a salvação da humanidade. Nesse sentido, fui escolhido por Deus como o executor de uma magna missão: criar um mundo sem doenças. E, como tal, empregarei plenamente o poder que me foi concedido para concretizar o grandioso ideal da construção do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実を何とみる 『光』11号、昭和24(1949)年5月31日発行 本教においては、光新聞及び雑誌地上天国に毎号出来るだけのおかげ話を満載している、もちろんこれは、事実ありのままに書くよう厳重に注意を与えている以上いささかの誇張もない事は言うまでもない、このおかげばなしの感謝、感激の報告は日に月に漸増しつつあり、最近は一ケ月数百通にも及び、全部の掲載は困難になったので、目下方法を講じているという実状であるにみて、いかに救われる人の殖えつつあるかが知らるるのである、読者も見らるる通りその感謝に溢るる文章を見ては眼頭が熱くなり、滲み出る涙を幾度拭うか分らない程である。<br/><br/>しかしこれは感情に関してであるが、重大である事は驚くべき治病成績で、これについて種々の角度から検討しようと思うのである。<br/><br/> 総ての実例に徴し、正直に言えば、医療その他現在行われつつあるあらゆる療法についてみる時大雑把ではあるが大体三分の二は効果なしという事、三分の一は反って悪化したという事実であるが、これは大問題である、この報告を見た専門家はもちろんの事、一般人においてもあまりの意外に撞着（どうちゃく）しないものは一人もあるまい。<br/><br/> 今日全世界の文化民族といわれるそのことごとくは、現代医学の進歩を信じ、これに生命を托（たく）す事をもって何らの疑念もなく、正当の方法と心得、それがほとんど常識となっている事である、しかるに、私は既成医学を是正せんとして十数年以前から、この事を徹底的に世に知らしめ、人類最大の悩みである病苦を除去せんとして三種の著書を著わしたが三種とも発禁となったので諦めざるを得なかったのである、今はそうでもないが、その頃は医学の医の字を言う事すら許されない、例えば患者に対し医療でなくも、私の方で治るといったその言葉だけで医師法違反に問われ、私は三日間留置場に容れられた事もあり、またパンフレットに、現代医学は病気の患部を除去する方法として肉を切り血液を消耗し、病苦を与える以上、野蛮的方法であるに比し、吾らの療法はいささかの苦痛も与えず、肉体を傷つける事なくして、いかに深部の病根をも除去し得るという事を書いたため忌諱に触れ、警察へ召喚され、永々と御説教の末、罰金を取られた事さえあったくらいであるから、その他は推して知るべきである。<br/><br/>かような時代であったため、止むを得ず一切沈黙を守り、ただ事実によって天下に示すより外に方法がなかったのである。<br/><br/> そんな訳で、宗教となった今日といえども沈黙的救済を続けては来たものの、最早積極的に大いに知らさなければならない時期となったのである、もちろんこの事は私の考えではない、神の意図が私をしてそうさせるのである。<br/><br/> 事実、現在の世界人類の苦悩は最早打切られなければならない時期が来たのである、もちろん苦悩の根本は人間の病患にある事は、私が常に繰返し言うところであって、人間が霊肉共に健康になったとしたら、他のあらゆる苦難の大半は消滅する事は火をみるよりも燎〔瞭〕（あきら）かである、その暁こそ、吾らの目標たる地上天国の出現でなくて何であろう。<br/><br/> キリストの唱えた、「天国は近づけり」の一大予言も、釈尊が予言された弥勒の世もこの事に外ならないのである、私は医学者でもなく、医学を学んだ事もないに係わらず、病気に関する一切は神示によって根本的に知り得たのである、それによれば現代医学はいかに邪道に陥っているかが洵（まこと）に明らかである以上その事の是正こそ人類救済の第一義でなくてはならない、この意味において私というものは、病無き世界を造るべき大使命の実行者として神から選ばれたものである以上、その力を十分発揮し、地上天国建設の大理想を実現せんとするのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

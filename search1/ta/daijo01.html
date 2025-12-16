@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>daijo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大乗愛 『救世』166号、昭和27(1952)年7月23日発行 単に愛といっても、小乗愛と大乗愛の区別のある事を、充分知らねばならない。<br><br>そうして小乗愛の最も極端なのが、言うまでもなく自己愛で、次が血族愛、友人愛、団体愛、階級愛、国家愛、民族愛という順序になるが、ここまでの愛はことごとく小乗愛で、これは何ほど熱烈な愛でも、結局において悪である。<br><br>というのはそれが強ければ強い程、争いを生ずるからである。<br><br>では大乗愛とは何かというと、これこそ人類愛であり、世界愛であり、神の愛である。<br><br>以上の理によって何ほど立派な理屈を唱えても、小乗愛は限られたる愛であるから危険である。<br><br>何よりも戦争の原因もこれにあるのであるから、人類から戦争を絶無にするとしたら、この世界愛が全人類に行きわたり、一般的思想にならなければならないので、それ以外戦争絶滅の方法はあり得ないのである。<br><br> 右の理によって、争いという争いは、ことごとくその根本は小乗愛からである事を知るべきである。<br><br>ところが不可解な事には愛を唱える宗教にも必ずといいたいほど宗団内の争いがある。<br><br>もっとも今日はそれほど大きな宗教的争いはないが、古くはヨーロッパにおける十字軍や、その他にも宗教戦争があった事や、日本においても昔は僧兵などといって、僧侶が武器を執って戦った事も史実に明らかである。<br><br>としたら争いのある宗教は、もはや宗教人としての資格を喪失した訳である。<br><br>この意味においてもしその宗教が本当のものであるとすれば、世界愛を説かねばならないと共に、それが実行に移されていなくてはならないはずで、それが大乗宗教のあり方である。<br><br>我メシヤ教はこの大乗愛を建前として人類を救うのであるから、世界の名を冠してあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Amor Universal</h2>
 <p>É preciso compreender plenamente que, embora falemos simplesmente de amor, existe uma distinção fundamental entre o amor egoísta e o amor altruísta. Nesse sentido, a manifestação mais extrema do amor egoísta é, sem dúvida, o amor-próprio, seguido, nesta ordem, pelo amor aos laços de sangue, aos amigos, a grupos, a classes sociais, à pátria e à etnia. Todas essas formas de afeto, por mais fervorosas que sejam, enquadram-se na categoria do amor egoísta e, em última análise, constituem um mal. Isso se deve ao fato de que, quanto mais intensas se tornam, mais conflitos elas geram.</p>
 <p>O que seria, então, o amor altruísta? Este é, precisamente, o amor pela humanidade, o amor pelo mundo, o amor de Deus. Com base nesse princípio, por mais nobres que sejam os argumentos apresentados em sua defesa, o amor egoísta permanece perigoso, pois é, por natureza, um amor limitado. Ademais, a própria causa das guerras reside nesse tipo de amor. Portanto, para que a guerra seja erradicada da face da Terra, é imprescindível que o amor universal se dissemine por toda a humanidade, tornando-se um pensamento generalizado. Não existe outro caminho para a extinção definitiva dos conflitos.</p>
 <p>Pelo exposto, deve-se compreender que a raiz de todo e qualquer conflito se encontra no amor egoísta. Contudo, e de forma incompreensível, até mesmo as religiões que pregam o amor são palco de disputas internas, em uma frequência que beira a regra. Embora em nossos dias não se observem conflitos religiosos de grande envergadura, a história evidencia o contrário. Basta recordar as Cruzadas na Europa e outras guerras santas, bem como, no Japão, a existência dos monges-guerreiros, clérigos que empunhavam armas e combatiam, fatos devidamente registrados nos anais históricos. Diante disso, uma religião que abriga conflitos já perdeu, em essência, sua qualificação como tal, assim como seus adeptos, a de religiosos.</p>
 <p>Nesse sentido, para que uma religião seja considerada verdadeira, ela não deve apenas pregar o amor universal, mas também, e fundamentalmente, colocá-lo em prática. Essa é a essência de uma religião alicerçada no amor altruísta. Nossa Igreja Messiânica, por ter como princípio fundamental a salvação da humanidade por meio desse amor altruísta, ostenta em seu nome a designação "Mundial".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大乗愛 『救世』166号、昭和27(1952)年7月23日発行 単に愛といっても、小乗愛と大乗愛の区別のある事を、充分知らねばならない。<br/><br/>そうして小乗愛の最も極端なのが、言うまでもなく自己愛で、次が血族愛、友人愛、団体愛、階級愛、国家愛、民族愛という順序になるが、ここまでの愛はことごとく小乗愛で、これは何ほど熱烈な愛でも、結局において悪である。<br/><br/>というのはそれが強ければ強い程、争いを生ずるからである。<br/><br/>では大乗愛とは何かというと、これこそ人類愛であり、世界愛であり、神の愛である。<br/><br/>以上の理によって何ほど立派な理屈を唱えても、小乗愛は限られたる愛であるから危険である。<br/><br/>何よりも戦争の原因もこれにあるのであるから、人類から戦争を絶無にするとしたら、この世界愛が全人類に行きわたり、一般的思想にならなければならないので、それ以外戦争絶滅の方法はあり得ないのである。<br/><br/> 右の理によって、争いという争いは、ことごとくその根本は小乗愛からである事を知るべきである。<br/><br/>ところが不可解な事には愛を唱える宗教にも必ずといいたいほど宗団内の争いがある。<br/><br/>もっとも今日はそれほど大きな宗教的争いはないが、古くはヨーロッパにおける十字軍や、その他にも宗教戦争があった事や、日本においても昔は僧兵などといって、僧侶が武器を執って戦った事も史実に明らかである。<br/><br/>としたら争いのある宗教は、もはや宗教人としての資格を喪失した訳である。<br/><br/>この意味においてもしその宗教が本当のものであるとすれば、世界愛を説かねばならないと共に、それが実行に移されていなくてはならないはずで、それが大乗宗教のあり方である。<br/><br/>我メシヤ教はこの大乗愛を建前として人類を救うのであるから、世界の名を冠してあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

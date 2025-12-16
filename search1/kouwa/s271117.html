@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271117</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月17日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月十七日 よく御守護電報が来ますが、たいてい熱の病気が多いです。<br><br>これは良く分かっているでしょうが、近ごろはよけいそれが多いです。<br><br>その熱の原因はほとんど頸のまわりです。<br><br>頸のこの辺が一番多いです。<br><br>つまり延髄の少し横の方です。<br><br>ですからこのゴリゴリをみるとすぐ分かります。<br><br>これをこのくらい（少し）離して、くたびれますから小指を当ててぜんぜん力を抜いて、ただ気だけをこっち（反対側）に通るようにするのです。<br><br>そうすると良く治ります。<br><br>熱がある時は、ここ（ ）をみるとたいてい熱があります。<br><br>頭が重いとかボーッとするというのはたいていこれです。<br><br>それから人によっては頸のこの辺（ ）まである人があります。<br><br>この辺だったら、こうやれば良いです。<br><br>それから前頭部、額です。<br><br>ここを触ってみればたいてい熱がありますから、ここは遠くからやるのです。<br><br>そうするとたいていの熱はそれで冷めます。<br><br>で、よく肺病で胸が悪くて肺から熱が出たというが肺から熱が出るわけはありません。<br><br>あれはお医者が分からないからです。<br><br>もし肺から熱が出れば肋間神経痛の場合です。<br><br>これは圧すと痛いのです。<br><br>息をしても痛いのです。<br><br>肋間神経痛か肋膜です。<br><br>肺自身から出ているのは肺炎です。<br><br>肺炎はいったん毒が溶けて肺に入って行くからで、結核は肺から熱が出ることはまずないとみて良い。<br><br>ところが、信者の古い人はそうでもないが、新しい人は、肺病というと胸の病気のように思って、胸ばかりやっているから、それで治らないのです。<br><br>肺病というのはたいてい肩からです。<br><br>頸のまわりの病気が肺病と思って良いです。<br><br>というのは、ここから熱によって溶けたものが肺に入るからです。<br><br>それでお医者さんはラッセルやレントゲンで診て胸が悪いと言うのですが、そんなことはありません。<br><br>頭からここ（頸のまわり）の毒が溶けて肺に入るのです。<br><br>肺病という場合は胸は問題ではないのです。<br><br>ただし肋間神経痛はここに熱があるのです。<br><br>これは痛いから分かります。<br><br>それから肋膜の方は息をすると痛いのです。<br><br>肋間神経痛は身体を動かしたり、またじっとしていても痛いのです。<br><br>それで、骨をちょっと圧してみると痛いからじき分かります。<br><br>それからよく喘息などで非常に強い咳が出ます。<br><br>発作もそうですが、あれは肋膜の場合が多いのです。<br><br>ですから喘息からの場合は骨を圧してみて痛ければ、骨に絡んだ毒が溶けてそれを引き上げるために強い咳が出ると思っていれば良いです。<br><br>そのほかに熱が出るのは腰ですが、これは微熱でそんなに強い熱は出ません。<br><br>それから股から出る熱もありますがこれも局部的で、全体に出るのはよほど強い……横根〔痃〕かなにかでなければ出ません。<br><br>熱は大体今言ったようで、それから頭の中心から肩と、そのくらい知っていればまず熱は冷めます。<br><br>私は時々家族の者などをしますが、かなり酷い熱でもやっているうちに冷たくなって熱がなくなります。<br><br>実に早いです。<br><br>それから後ろ向きにして、こっちから浄霊しても良いです。<br><br>とにかくここ（ ）が一番急所ですから。<br><br> それからいろいろな平和運動がありますが、それについて書いてみました。<br><br>この間も仏教徒大会があったり、それから広島ではキリスト教の人たちの平和会議がありました。<br><br>あの平和会議というのはたいへん結構のようですが、実はあれは共産主義のお手伝いをしているのです。<br><br>ですから平和運動をする人は共産党と逆のように思いますが、なんぞ知らんソ連の片棒を担いでいるのと同じことになります。<br><br>それを書いてあります。<br><br> （御論文「平和主義を考えてみる」）【栄光 一八四号】 ですから世界の平和というものは、まずスターリンが改心しなければ駄目です。<br><br>第一番はスターリンがメシヤ教の信者になるということです。<br><br>そうすれば世界は一遍に平和になってしまいます。<br><br>それ以外はなにをやっても駄目です。<br><br>それ以外としたら、まず連合国の方がうんと軍備を強化して戦争でやっつけてしまい、敗北させてしまうという、これなら良いですが、しかしこれをやるにはたいへんな犠牲を出さなければならない。<br><br>それは原子爆弾の戦争になりますから、人間の死ぬのはどのくらいだか分からない。<br><br>いろんな物はみんな壊れてしまい、地球は墓場のようになりますから、そうしたくはないのです。<br><br>メシヤ教信者にしたいけれども簡単にはいきそうもないですが、しかしぜんぜんないとも言えません。<br><br>なぜと言えばメシヤ教が世界的に拡がって、そうしてソ連が戦争でなく、ほかのことで窮境に陥るのです。<br><br>そうしてスターリンが手も足も出なくなった時、病気でもそうですが、神様にすがるとかというように心境が一変してこないとも言えません。<br><br>そうすると信者にならないとも限らない。<br><br>これは神様の経綸ですからどっちにしろ病貧争絶無の世界ができるのだから、どっちかで本当の平和が生まれるわけです。<br><br> これはちょっとおもしろい論文です。<br><br> （御論文「一人が百人」） これもちょっとおもしろいものです。<br><br>太陽にたとえたのです。<br><br> （御論文「太陽の救い」）【栄光 一八三号】 それからよく祈願する場合に「光明如来様」と「明主様」と両方にお願いしたり御挨拶しますが、あれは「明主様」だけで良いのですから、そういった場合はそういうふうにすると良いです。<br><br>これは本当のことを言ってなかったから無理はないのですが、つまり光明如来様は私の代理をやっているのです。<br><br>一々私が信者の所に行っていてはたいへんですから、それで光明如来様を私の代理として、派遣すると言ってはおかしいが、祀らせてあるのです。<br><br>そのつもりで……。<br><br>ですからふつうは光明如来にお願いすれば良いのです。<br><br>それで場合によっては、酷い苦しみとか危急の場合は、それは明主様にじかにお願いするとそれで良いのです。<br><br>私の方はつまり製造元ですから、製造元に直接言ってもらうという意味と思えば一番分かりやすいです。<br><br> それからもう一つは、今私がやっている仕事は伊邪諾尊の仕事をしているのです。<br><br>というのは『古事記』にありますが「天の御柱を廻り合う」といって、柱をまわり合ったのです。<br><br>そうすると伊那冊尊は右まわりをしたのです。<br><br>それは右進左退です。<br><br>右が進み左が退くのです。<br><br>ところがそのためにうまくなかった。<br><br>世の中が治まらなかったというので、とうとう伊邪冊尊様は、つまり夫神に助けを求められたのです。<br><br>そこで伊邪諾尊様が「そうらみろ、オレが最初右まわりではいかんと言うのを、お前があんまり言うからオレは許したのだが、やっぱり左まわりでなければいけないのだ。<br><br>それではこれからオレがやってやろう」と、左まわりをしたのです。<br><br>やっぱり霊主体従です。<br><br>つまり医学が機械やなにかで治すというのは右進左退です。<br><br>それで浄霊で治すというのは左進右退ですから、伊邪諾尊様のやり方です。<br><br>それで伊邪諾尊が主神の代表神です。<br><br>ですから非常に力が強いのです。<br><br>それでこの間多賀さんの奥さんに伊邪冊尊様が懸って「自分は非常に間違っていた。<br><br>だからこれから大いにお手伝いする」というようなことを言われてました。<br><br> それから今世の中では天照大御神が一番尊い神様としてありますが、天照大御神がこの間出られて私のことを「主神様」と言ってましたが、「主神様がいよいよお出になってお慶び申し上げたい」と言って「これからせいぜい御守護をお願いしたい」ということを言われてましたが、これは本当のことです。<br><br>これは神代史にある通り、天照大御神は伊邪諾、伊邪冊尊から生まれたとなってます。<br><br>ですからつまり天照大御神は私の子になるわけです。<br><br>つまり長女です。<br><br>それからその次に生まれたのが素盞嗚尊です。<br><br>素盞嗚尊という神様は、私の本にも書いてありますが、物質文化つまりユダヤの祖先になるということにもなってますが、本当はそうではないのです。<br><br>そういっても良いのですが、とにかくイスラエルの民族というものは素盞嗚尊の子供ですが、それがユダヤになるのです。<br><br>そこで今日の物質文化というものはユダヤ文化です。<br><br>要するに素盞嗚尊が造られたものです。<br><br>そこでつまりキリストは素盞嗚尊の子孫です。<br><br>だからキリストは伊邪諾尊より生まれた神を祖先として、その後に生まれたのがキリストですから、私の弟子がキリストと同じくらいの奇蹟ができるというのは当然なのです。<br><br>そういうことも細かく話しするとなかなかおもしろいのですが、だんだん書くつもりです。<br><br> これはちょっとおもしろい論文ですから読ませてみます。<br><br> （御論文「活字の浄霊」）【栄光 一八四号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Febre, a Paz Mundial e a Hierarquia Divina</h2>
 <p>Recebo com frequência relatos de graças alcançadas por meio do Johrei, e a maioria se refere a enfermidades febris. Como os senhores já devem saber, ultimamente esses casos têm sido ainda mais recorrentes. A causa da febre, em quase todas as situações, reside na região do pescoço, mais especificamente nas áreas laterais próximas à medula oblonga. Portanto, ao se deparar com nódulos ou endurecimentos nesse local, o diagnóstico se torna evidente.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Atualmente, Amaterasu-Omikami (天照大御神) é tida como a divindade mais venerável do mundo. Contudo, há pouco tempo, ela se manifestou e, referindo-se a mim como "Deus Supremo", disse: "Gostaria de expressar minha mais profunda alegria pelo advento do Deus Supremo e rogar por Sua proteção". E isso corresponde à verdade. A mitologia relata que Amaterasu-Omikami nasceu de Izanagi e Izanami, o que faz dela, portanto, minha filha, a primogênita. O filho seguinte foi Susanoo-no-Mikoto (素盞嗚尊).</p>
 <p>Como já escrevi em meus livros, Susanoo-no-Mikoto tornou-se o ancestral da civilização material, ou seja, dos judeus. Embora se possa dizer isso, a verdade é que o povo de Israel descende de Susanoo-no-Mikoto, dando origem ao povo judeu. A civilização material de hoje é, em essência, a civilização judaica, criada por ele. Consequentemente, Cristo é um descendente de Susanoo-no-Mikoto. Sendo Cristo descendente de um deus nascido de Izanagi, é natural que meus discípulos consigam realizar milagres de magnitude semelhante aos de Cristo. Há muitos outros detalhes fascinantes sobre esse assunto que pretendo expor gradualmente em meus escritos.</p>
 <p>Agora, gostaria que lessem este artigo, que também considero bastante interessante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月17日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月十七日 よく御守護電報が来ますが、たいてい熱の病気が多いです。<br/><br/>これは良く分かっているでしょうが、近ごろはよけいそれが多いです。<br/><br/>その熱の原因はほとんど頸のまわりです。<br/><br/>頸のこの辺が一番多いです。<br/><br/>つまり延髄の少し横の方です。<br/><br/>ですからこのゴリゴリをみるとすぐ分かります。<br/><br/>これをこのくらい（少し）離して、くたびれますから小指を当ててぜんぜん力を抜いて、ただ気だけをこっち（反対側）に通るようにするのです。<br/><br/>そうすると良く治ります。<br/><br/>熱がある時は、ここ（ ）をみるとたいてい熱があります。<br/><br/>頭が重いとかボーッとするというのはたいていこれです。<br/><br/>それから人によっては頸のこの辺（ ）まである人があります。<br/><br/>この辺だったら、こうやれば良いです。<br/><br/>それから前頭部、額です。<br/><br/>ここを触ってみればたいてい熱がありますから、ここは遠くからやるのです。<br/><br/>そうするとたいていの熱はそれで冷めます。<br/><br/>で、よく肺病で胸が悪くて肺から熱が出たというが肺から熱が出るわけはありません。<br/><br/>あれはお医者が分からないからです。<br/><br/>もし肺から熱が出れば肋間神経痛の場合です。<br/><br/>これは圧すと痛いのです。<br/><br/>息をしても痛いのです。<br/><br/>肋間神経痛か肋膜です。<br/><br/>肺自身から出ているのは肺炎です。<br/><br/>肺炎はいったん毒が溶けて肺に入って行くからで、結核は肺から熱が出ることはまずないとみて良い。<br/><br/>ところが、信者の古い人はそうでもないが、新しい人は、肺病というと胸の病気のように思って、胸ばかりやっているから、それで治らないのです。<br/><br/>肺病というのはたいてい肩からです。<br/><br/>頸のまわりの病気が肺病と思って良いです。<br/><br/>というのは、ここから熱によって溶けたものが肺に入るからです。<br/><br/>それでお医者さんはラッセルやレントゲンで診て胸が悪いと言うのですが、そんなことはありません。<br/><br/>頭からここ（頸のまわり）の毒が溶けて肺に入るのです。<br/><br/>肺病という場合は胸は問題ではないのです。<br/><br/>ただし肋間神経痛はここに熱があるのです。<br/><br/>これは痛いから分かります。<br/><br/>それから肋膜の方は息をすると痛いのです。<br/><br/>肋間神経痛は身体を動かしたり、またじっとしていても痛いのです。<br/><br/>それで、骨をちょっと圧してみると痛いからじき分かります。<br/><br/>それからよく喘息などで非常に強い咳が出ます。<br/><br/>発作もそうですが、あれは肋膜の場合が多いのです。<br/><br/>ですから喘息からの場合は骨を圧してみて痛ければ、骨に絡んだ毒が溶けてそれを引き上げるために強い咳が出ると思っていれば良いです。<br/><br/>そのほかに熱が出るのは腰ですが、これは微熱でそんなに強い熱は出ません。<br/><br/>それから股から出る熱もありますがこれも局部的で、全体に出るのはよほど強い……横根〔痃〕かなにかでなければ出ません。<br/><br/>熱は大体今言ったようで、それから頭の中心から肩と、そのくらい知っていればまず熱は冷めます。<br/><br/>私は時々家族の者などをしますが、かなり酷い熱でもやっているうちに冷たくなって熱がなくなります。<br/><br/>実に早いです。<br/><br/>それから後ろ向きにして、こっちから浄霊しても良いです。<br/><br/>とにかくここ（ ）が一番急所ですから。<br/><br/> それからいろいろな平和運動がありますが、それについて書いてみました。<br/><br/>この間も仏教徒大会があったり、それから広島ではキリスト教の人たちの平和会議がありました。<br/><br/>あの平和会議というのはたいへん結構のようですが、実はあれは共産主義のお手伝いをしているのです。<br/><br/>ですから平和運動をする人は共産党と逆のように思いますが、なんぞ知らんソ連の片棒を担いでいるのと同じことになります。<br/><br/>それを書いてあります。<br/><br/> （御論文「平和主義を考えてみる」）【栄光 一八四号】 ですから世界の平和というものは、まずスターリンが改心しなければ駄目です。<br/><br/>第一番はスターリンがメシヤ教の信者になるということです。<br/><br/>そうすれば世界は一遍に平和になってしまいます。<br/><br/>それ以外はなにをやっても駄目です。<br/><br/>それ以外としたら、まず連合国の方がうんと軍備を強化して戦争でやっつけてしまい、敗北させてしまうという、これなら良いですが、しかしこれをやるにはたいへんな犠牲を出さなければならない。<br/><br/>それは原子爆弾の戦争になりますから、人間の死ぬのはどのくらいだか分からない。<br/><br/>いろんな物はみんな壊れてしまい、地球は墓場のようになりますから、そうしたくはないのです。<br/><br/>メシヤ教信者にしたいけれども簡単にはいきそうもないですが、しかしぜんぜんないとも言えません。<br/><br/>なぜと言えばメシヤ教が世界的に拡がって、そうしてソ連が戦争でなく、ほかのことで窮境に陥るのです。<br/><br/>そうしてスターリンが手も足も出なくなった時、病気でもそうですが、神様にすがるとかというように心境が一変してこないとも言えません。<br/><br/>そうすると信者にならないとも限らない。<br/><br/>これは神様の経綸ですからどっちにしろ病貧争絶無の世界ができるのだから、どっちかで本当の平和が生まれるわけです。<br/><br/> これはちょっとおもしろい論文です。<br/><br/> （御論文「一人が百人」） これもちょっとおもしろいものです。<br/><br/>太陽にたとえたのです。<br/><br/> （御論文「太陽の救い」）【栄光 一八三号】 それからよく祈願する場合に「光明如来様」と「明主様」と両方にお願いしたり御挨拶しますが、あれは「明主様」だけで良いのですから、そういった場合はそういうふうにすると良いです。<br/><br/>これは本当のことを言ってなかったから無理はないのですが、つまり光明如来様は私の代理をやっているのです。<br/><br/>一々私が信者の所に行っていてはたいへんですから、それで光明如来様を私の代理として、派遣すると言ってはおかしいが、祀らせてあるのです。<br/><br/>そのつもりで……。<br/><br/>ですからふつうは光明如来にお願いすれば良いのです。<br/><br/>それで場合によっては、酷い苦しみとか危急の場合は、それは明主様にじかにお願いするとそれで良いのです。<br/><br/>私の方はつまり製造元ですから、製造元に直接言ってもらうという意味と思えば一番分かりやすいです。<br/><br/> それからもう一つは、今私がやっている仕事は伊邪諾尊の仕事をしているのです。<br/><br/>というのは『古事記』にありますが「天の御柱を廻り合う」といって、柱をまわり合ったのです。<br/><br/>そうすると伊那冊尊は右まわりをしたのです。<br/><br/>それは右進左退です。<br/><br/>右が進み左が退くのです。<br/><br/>ところがそのためにうまくなかった。<br/><br/>世の中が治まらなかったというので、とうとう伊邪冊尊様は、つまり夫神に助けを求められたのです。<br/><br/>そこで伊邪諾尊様が「そうらみろ、オレが最初右まわりではいかんと言うのを、お前があんまり言うからオレは許したのだが、やっぱり左まわりでなければいけないのだ。<br/><br/>それではこれからオレがやってやろう」と、左まわりをしたのです。<br/><br/>やっぱり霊主体従です。<br/><br/>つまり医学が機械やなにかで治すというのは右進左退です。<br/><br/>それで浄霊で治すというのは左進右退ですから、伊邪諾尊様のやり方です。<br/><br/>それで伊邪諾尊が主神の代表神です。<br/><br/>ですから非常に力が強いのです。<br/><br/>それでこの間多賀さんの奥さんに伊邪冊尊様が懸って「自分は非常に間違っていた。<br/><br/>だからこれから大いにお手伝いする」というようなことを言われてました。<br/><br/> それから今世の中では天照大御神が一番尊い神様としてありますが、天照大御神がこの間出られて私のことを「主神様」と言ってましたが、「主神様がいよいよお出になってお慶び申し上げたい」と言って「これからせいぜい御守護をお願いしたい」ということを言われてましたが、これは本当のことです。<br/><br/>これは神代史にある通り、天照大御神は伊邪諾、伊邪冊尊から生まれたとなってます。<br/><br/>ですからつまり天照大御神は私の子になるわけです。<br/><br/>つまり長女です。<br/><br/>それからその次に生まれたのが素盞嗚尊です。<br/><br/>素盞嗚尊という神様は、私の本にも書いてありますが、物質文化つまりユダヤの祖先になるということにもなってますが、本当はそうではないのです。<br/><br/>そういっても良いのですが、とにかくイスラエルの民族というものは素盞嗚尊の子供ですが、それがユダヤになるのです。<br/><br/>そこで今日の物質文化というものはユダヤ文化です。<br/><br/>要するに素盞嗚尊が造られたものです。<br/><br/>そこでつまりキリストは素盞嗚尊の子孫です。<br/><br/>だからキリストは伊邪諾尊より生まれた神を祖先として、その後に生まれたのがキリストですから、私の弟子がキリストと同じくらいの奇蹟ができるというのは当然なのです。<br/><br/>そういうことも細かく話しするとなかなかおもしろいのですが、だんだん書くつもりです。<br/><br/> これはちょっとおもしろい論文ですから読ませてみます。<br/><br/> （御論文「活字の浄霊」）【栄光 一八四号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

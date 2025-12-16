@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（四） 安食晴彦 『栄光』210号、昭和28(1953)年5月27日発行 浄霊と教修にてんやわんやのハワイ 拝啓永らく御無沙汰致しましてまことに申訳ございません。<br><br> 先日御報告申し上げましたのが四月九日、それ以来御手紙も出さずにおり、心にかかりつつも筆を執る寸暇もない忙しさです。<br><br> 樋口先生が他島布教に参られたのが三月二十八日ですか四月十日に帰布される迄一日に五十名から、多い時は八十名の浄霊にて、全く驚くばかりです。<br><br>帰られてからすぐ月並祭教修会となり、八十名の方がホノルルで入信。<br><br>私もお道に入って初めて体験する大教修会でありました。<br><br>会場に集まった方は百三十名位はあると思います。<br><br>教修会中三名の方がお光を拝まれました。<br><br>一名は天上から雨のように金色の光がふりそそぎ、会場の方全員がその御光に浄められているところです。<br><br>一人は太陽のコロナのような光、一人は御浄霊の時の手指先から出る光でありました。<br><br>入信者全員皆非常に熱心にて、始まる一時間以上前から、会場へつめかけて来ます。<br><br>入信後一人一人が非常にお蔭をいただき、全く喜びの坩堝であります。<br><br>救世教の話はぐんぐん、ホノルル市に広まり、浄霊者は毎日ふえております。<br><br> 十九年間のテンカンが七回の浄霊で全治、三十年間首をはげしく振る病人が四回の浄霊で半分位になる、手術を宣告された腎臓結石が一晩で白い小便を大量に出して完全に治る、中風がよくなりかける、精神病が治りつつある、七年間のメクラが光が見え始める等々数えきれぬ奇蹟であります。<br><br>今は「ワヒアワ」と云うホノルルより、自動車で一時間位の所で教修会が開かれております。<br><br>樋口先生がしておられますが、三十四、五名位は入信者があると思います。<br><br>その教修が終り、二十八日よりハワイ島コナと云う所で教修があります。<br><br>私が参りますが二十名の入信希望者があるそうです。<br><br>その教修の後五月四日―八日迄の間にホノルルで教修会と云った予定です。<br><br>先生がお出掛けの時は私だけで御浄霊十数時間ブッ続けで浄霊する日が度々あります。<br><br>夜は殆んど五時間から三時間程しか休みません。<br><br>私もこのように忙しくなるとは全く夢のようです。<br><br>先生と二人で嬉しい悲鳴をあげております。<br><br>細かく書けば殆んど無限に報告がありますが今日はこれまでに、皆様お元気で。<br><br>さようなら。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Turbilhão da Salvação no Havaí</h2>
 <p>Prezados senhores, peço sinceras desculpas pela longa ausência de notícias. Meu último relato foi enviado em nove de abril e, desde então, embora a intenção de escrever estivesse sempre presente em meu coração, a intensidade dos afazeres não me concedeu um único momento para tomar a pena.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Atualmente, está em andamento um Curso de Iniciação em Wahiawa, localidade a cerca de uma hora de automóvel de Honolulu. O curso está sendo conduzido pelo Reverendo Higuchi, e estimamos que entre trinta e quatro a trinta e cinco pessoas ingressem na Fé. Ao término deste, a partir do dia vinte e oito, haverá um novo curso em Kona, na ilha do Havaí, o qual estará sob minha responsabilidade. Fui informado de que já há vinte candidatos ao ingresso. Posteriormente, nossa programação prevê mais um Curso de Iniciação em Honolulu, a ser realizado entre os dias quatro e oito de maio.</p>
 <p>Quando o Reverendo Higuchi se ausenta, frequentemente sou eu quem assume a ministração do Johrei, em jornadas que se estendem por mais de dez horas ininterruptas. Nossas noites de descanso raramente ultrapassam de três a cinco horas. Jamais imaginei que me encontraria em meio a um turbilhão de atividades tão abençoado. O Reverendo Higuchi e eu compartilhamos o que chamamos de “gritos de alegria” diante de tamanha demanda.</p>
 <p>Haveria um número quase infinito de relatos a serem feitos, mas por hoje, encerro por aqui. Desejo que todos estejam bem. Com minhas despedidas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（四） 安食晴彦 『栄光』210号、昭和28(1953)年5月27日発行 浄霊と教修にてんやわんやのハワイ 拝啓永らく御無沙汰致しましてまことに申訳ございません。<br/><br/> 先日御報告申し上げましたのが四月九日、それ以来御手紙も出さずにおり、心にかかりつつも筆を執る寸暇もない忙しさです。<br/><br/> 樋口先生が他島布教に参られたのが三月二十八日ですか四月十日に帰布される迄一日に五十名から、多い時は八十名の浄霊にて、全く驚くばかりです。<br/><br/>帰られてからすぐ月並祭教修会となり、八十名の方がホノルルで入信。<br/><br/>私もお道に入って初めて体験する大教修会でありました。<br/><br/>会場に集まった方は百三十名位はあると思います。<br/><br/>教修会中三名の方がお光を拝まれました。<br/><br/>一名は天上から雨のように金色の光がふりそそぎ、会場の方全員がその御光に浄められているところです。<br/><br/>一人は太陽のコロナのような光、一人は御浄霊の時の手指先から出る光でありました。<br/><br/>入信者全員皆非常に熱心にて、始まる一時間以上前から、会場へつめかけて来ます。<br/><br/>入信後一人一人が非常にお蔭をいただき、全く喜びの坩堝であります。<br/><br/>救世教の話はぐんぐん、ホノルル市に広まり、浄霊者は毎日ふえております。<br/><br/> 十九年間のテンカンが七回の浄霊で全治、三十年間首をはげしく振る病人が四回の浄霊で半分位になる、手術を宣告された腎臓結石が一晩で白い小便を大量に出して完全に治る、中風がよくなりかける、精神病が治りつつある、七年間のメクラが光が見え始める等々数えきれぬ奇蹟であります。<br/><br/>今は「ワヒアワ」と云うホノルルより、自動車で一時間位の所で教修会が開かれております。<br/><br/>樋口先生がしておられますが、三十四、五名位は入信者があると思います。<br/><br/>その教修が終り、二十八日よりハワイ島コナと云う所で教修があります。<br/><br/>私が参りますが二十名の入信希望者があるそうです。<br/><br/>その教修の後五月四日―八日迄の間にホノルルで教修会と云った予定です。<br/><br/>先生がお出掛けの時は私だけで御浄霊十数時間ブッ続けで浄霊する日が度々あります。<br/><br/>夜は殆んど五時間から三時間程しか休みません。<br/><br/>私もこのように忙しくなるとは全く夢のようです。<br/><br/>先生と二人で嬉しい悲鳴をあげております。<br/><br/>細かく書けば殆んど無限に報告がありますが今日はこれまでに、皆様お元気で。<br/><br/>さようなら。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

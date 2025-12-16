@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qaabunai</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： あっ！！危い、生か死か 炭鉱内に輝く奇蹟 『栄光』151号、昭和27(1952)年4月9日発行 秋田県 十光中教会 安保仁三郎（28） 明主様お助け頂きまして有難うございました。<br><br> 私は半年は雪に埋もれた田舎町の鉱山に勤務致しております。<br><br> 昭和二十五年一月入信させて頂き、いろいろ御守護の数々に安心した毎日を送らせて頂いております。<br><br> 朝の出勤がこの世の別れで、夕方の帰宅が再会の喜びという常に生死の境に生活する私共でございますが、おかげ様とその心配もなく働かせて頂いております。<br><br>又鉱山特有の珪肺と言う恐ろしい不治の病の心配さえもないのでございます。<br><br> 昨年もたしかに春でした。<br><br>ある日出勤が五分後れたために落盤の下敷きから救われました。<br><br>私が後れたために私の代りに行った人を始め、そこへ行った人々は全部やられてしまいました。<br><br>その日に限ってなぜ後れたか考えてもわかりません。<br><br>自分でも不思議に思っております。<br><br>これこそ御守護にほかならぬと思います。<br><br> 「知らぬ間に救われにけり……」何と申しましょうか、御神力の偉大さを讃える言葉を知りません。<br><br> この度又大変な御守護を頂きましたが、どうも気持の万分の一も現わせないのが残念でございます。<br><br>ありのままを申し上げさせて頂きます。<br><br> 去る一月二十九日午前十時頃でした。<br><br>坑内作業中でした。<br><br>下図（略）のごとく丸太が落ちているのを修理しようとして、若い助手一名をつれて上りました。<br><br>助手が落ちた丸太の上の鉱石のクズを自分の足元へ掻き寄せたために私の足元が崩れ「アッ」という間に落ちてしまいました。<br><br>「アッ落ちた」と思う次の瞬間「助かった」と思いました。<br><br>それは二十尺下にたった一本横に入れてある丸太に左手がひっかかってぶらさがっているのです。<br><br>が次の瞬間、一難去って又一難で、丸太が太いためにせっかくひっかかった左の手がだんだん体の重味ではずれてゆくではありませんか。<br><br>「アッ又落ちるのか竪坑はまだ七、八十尺ある、だめだ」真暗な中で何もわかりません。<br><br>一秒の何分の一の時間です。<br><br>夢中で足を泳がせましたところ、何やらに足がひっかかりました時、既に手がはずれてしまいましたが足をひっかけ、手がはずれると同時にようやく何やらにかじり付きました。<br><br>それは通路へ通じる梯子でした。<br><br>すべては一瞬の出来事でした。<br><br>やっと横ばいに通路に出ました。<br><br>それまでは何も考える事が出来ませんでした。<br><br>動悸は物凄く早鐘のようでした。<br><br>ああ御守護だ、お助け頂いたのだと思えば、何とも言えない気持に打たれ、ただただ有難いばかりでした。<br><br>救われた喜びに世の一切を忘れて感激にひたりました。<br><br> 暫くして頭に付けておりましたライトをはずして見ますと、めったに割れる事のないライトのベータライトに大きな穴があいておりました。<br><br>これを見てぞっとしました。<br><br>考えて見ますとぶら下っておりましたわずかの時間ですが、鉱石クズが雨のごとく落ちて頭や体にあたったのでありました。<br><br>ライトには相当大きいのが当ったかと思います。<br><br>もしこれが二、三寸の差で頭へ当ったらどうなったかわかりません。<br><br> 巾三十尺の間にたった一本あった丸太に左手がどうしてひっかかったでしょう。<br><br>どう考えてもわからないのです。<br><br>この時もしそのまま落ちれば命は絶対になかったと思います。<br><br>一秒の何分の一の速さでお助け下さいました。<br><br>なんと書いたらよいでしょうか、ペンが走りません。<br><br> 明主様どうかお許し下さい、有難うございました。<br><br>早速教会へ御守護の御礼にお参りさせて頂きました。<br><br>有難うございました。<br><br> 二度までも命の危機を救って頂きまして信仰の有難さをしみじみと感じさせられました。<br><br>信仰の尊さは名誉、地位、財産では得られないものであり、ただ一つ一つ御教え通り体験してゆく以外に幸福になる道はないと思います。<br><br>私は本当に世界一の宝物を神様から頂いております事を唯一の誇りとして乱筆乱文も省みず、嬉しさのあまり一筆御礼と御報告をかねましてペンを執らせて頂きました。<br><br> （昭和二十七年三月二十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um instante de perigo: entre a vida e a morte — O milagre que resplandeceu no interior da mina</h2>
 <p>Revista Glória, nº 151, 9 de abril de 1952
@@ -103,5 +258,48 @@ Anbo Ninzaburo (28 anos), Igreja Jukko-Naka, Província de Akita</p>
 <p>Como pôde minha mão esquerda, em uma queda num vão de nove metros de largura, prender-se justamente na única viga que ali havia? Por mais que eu reflita, não encontro explicação. Estou convicto de que, se eu tivesse continuado a cair, a morte seria certa. Fui salvo na velocidade de uma fração de segundo. Como posso descrever tal graça? A pena hesita em meu papel. Perdoe-me, Meishu-Sama, por minha incapacidade de expressar-me. Sou-Lhe imensamente grato. Imediatamente, dirigi-me à igreja para orar em agradecimento por essa proteção. Muito obrigado.</p>
 <p>Ao ter minha vida salva de perigos mortais por duas vezes, pude sentir, de forma profunda e genuína, o quão valiosa é a fé. A nobreza da fé é um tesouro que não se pode adquirir com honra, posição social ou bens materiais. Creio firmemente que o único caminho para a verdadeira felicidade consiste em vivenciar, uma a uma, as verdades contidas nos Ensinamentos. Meu único orgulho é a certeza de ter recebido de Deus o maior tesouro do mundo. E é com essa alegria transbordante, sem me preocupar com minha caligrafia tosca ou com a simplicidade de minhas palavras, que ouso tomar a pena para registrar este relato, como forma de gratidão e testemunho.</p>
 <p>(25 de março de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： あっ！！危い、生か死か 炭鉱内に輝く奇蹟 『栄光』151号、昭和27(1952)年4月9日発行 秋田県 十光中教会 安保仁三郎（28） 明主様お助け頂きまして有難うございました。<br/><br/> 私は半年は雪に埋もれた田舎町の鉱山に勤務致しております。<br/><br/> 昭和二十五年一月入信させて頂き、いろいろ御守護の数々に安心した毎日を送らせて頂いております。<br/><br/> 朝の出勤がこの世の別れで、夕方の帰宅が再会の喜びという常に生死の境に生活する私共でございますが、おかげ様とその心配もなく働かせて頂いております。<br/><br/>又鉱山特有の珪肺と言う恐ろしい不治の病の心配さえもないのでございます。<br/><br/> 昨年もたしかに春でした。<br/><br/>ある日出勤が五分後れたために落盤の下敷きから救われました。<br/><br/>私が後れたために私の代りに行った人を始め、そこへ行った人々は全部やられてしまいました。<br/><br/>その日に限ってなぜ後れたか考えてもわかりません。<br/><br/>自分でも不思議に思っております。<br/><br/>これこそ御守護にほかならぬと思います。<br/><br/> 「知らぬ間に救われにけり……」何と申しましょうか、御神力の偉大さを讃える言葉を知りません。<br/><br/> この度又大変な御守護を頂きましたが、どうも気持の万分の一も現わせないのが残念でございます。<br/><br/>ありのままを申し上げさせて頂きます。<br/><br/> 去る一月二十九日午前十時頃でした。<br/><br/>坑内作業中でした。<br/><br/>下図（略）のごとく丸太が落ちているのを修理しようとして、若い助手一名をつれて上りました。<br/><br/>助手が落ちた丸太の上の鉱石のクズを自分の足元へ掻き寄せたために私の足元が崩れ「アッ」という間に落ちてしまいました。<br/><br/>「アッ落ちた」と思う次の瞬間「助かった」と思いました。<br/><br/>それは二十尺下にたった一本横に入れてある丸太に左手がひっかかってぶらさがっているのです。<br/><br/>が次の瞬間、一難去って又一難で、丸太が太いためにせっかくひっかかった左の手がだんだん体の重味ではずれてゆくではありませんか。<br/><br/>「アッ又落ちるのか竪坑はまだ七、八十尺ある、だめだ」真暗な中で何もわかりません。<br/><br/>一秒の何分の一の時間です。<br/><br/>夢中で足を泳がせましたところ、何やらに足がひっかかりました時、既に手がはずれてしまいましたが足をひっかけ、手がはずれると同時にようやく何やらにかじり付きました。<br/><br/>それは通路へ通じる梯子でした。<br/><br/>すべては一瞬の出来事でした。<br/><br/>やっと横ばいに通路に出ました。<br/><br/>それまでは何も考える事が出来ませんでした。<br/><br/>動悸は物凄く早鐘のようでした。<br/><br/>ああ御守護だ、お助け頂いたのだと思えば、何とも言えない気持に打たれ、ただただ有難いばかりでした。<br/><br/>救われた喜びに世の一切を忘れて感激にひたりました。<br/><br/> 暫くして頭に付けておりましたライトをはずして見ますと、めったに割れる事のないライトのベータライトに大きな穴があいておりました。<br/><br/>これを見てぞっとしました。<br/><br/>考えて見ますとぶら下っておりましたわずかの時間ですが、鉱石クズが雨のごとく落ちて頭や体にあたったのでありました。<br/><br/>ライトには相当大きいのが当ったかと思います。<br/><br/>もしこれが二、三寸の差で頭へ当ったらどうなったかわかりません。<br/><br/> 巾三十尺の間にたった一本あった丸太に左手がどうしてひっかかったでしょう。<br/><br/>どう考えてもわからないのです。<br/><br/>この時もしそのまま落ちれば命は絶対になかったと思います。<br/><br/>一秒の何分の一の速さでお助け下さいました。<br/><br/>なんと書いたらよいでしょうか、ペンが走りません。<br/><br/> 明主様どうかお許し下さい、有難うございました。<br/><br/>早速教会へ御守護の御礼にお参りさせて頂きました。<br/><br/>有難うございました。<br/><br/> 二度までも命の危機を救って頂きまして信仰の有難さをしみじみと感じさせられました。<br/><br/>信仰の尊さは名誉、地位、財産では得られないものであり、ただ一つ一つ御教え通り体験してゆく以外に幸福になる道はないと思います。<br/><br/>私は本当に世界一の宝物を神様から頂いております事を唯一の誇りとして乱筆乱文も省みず、嬉しさのあまり一筆御礼と御報告をかねましてペンを執らせて頂きました。<br/><br/> （昭和二十七年三月二十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

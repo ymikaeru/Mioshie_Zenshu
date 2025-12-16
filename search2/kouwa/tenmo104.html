@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenmo104</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ７ 104-125 気象２ 104 梅雨の必要―理想世界の天候 将来五風十雨となった時、季節的な梅雨などはどうなるので御座いましょうか。<br><br> 梅雨、これはある。<br><br>田植には大いに水が必要である。<br><br>木なども大きくなりかけ、春の芽吹きして、花咲いて、実成る時で、水分が必要であるからである。<br><br>五風十雨とキチンと決る訳ではない。<br><br>大体これのように決る事である。<br><br>（S23） 105 季節と風 春は東風、夏は南風、秋は西風、冬は北風というように吹きますが、季節と風の関係を御教え下さい。<br><br> 地球上の万物は、科学的にどうのこうのという事でなく、そのように造られている。<br><br>そして人間に必要なものが育ったりなどする。<br><br>人間にこういう風が必要であるから、神様が造られた。<br><br>春は東、夏は南、秋は西、冬は北と相応の理により、そういう風に造られてあるものである。<br><br>春は初める。<br><br>東から太陽が出ると同じ意味で、秋は凋落で西へ日が沈む。<br><br>北は寒いが、寒くないといけないからで、南は赤道から渡ってくるから、特にはっきりしているのは日本だけで、西洋にはこれだけ四季がはっきりせぬ。<br><br>（S24. 4.13） 106 二百十日の訳 二百十日に暴風雨がありますのは、いかなる訳でありましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 造物主が知っている。<br><br>冬寒く夏熱いのはどういう訳かというようなもの。<br><br>その時分に暴風雨を起すように造った。<br><br>想像していえば言える。<br><br>その時分に、そういう風が吹かなくてはいけない。<br><br>しかし、この間のような大きい台風は、人間が作ったもの（曇らせて）である。<br><br>（S24. 9. 3） rattail（注） 〔 御光話（S24年5月特輯号） 『御光話録』8号、昭和24(1949)年5月30日発行〕 ――人間の想念が天候に異変を起すとのお言葉でございますが、二百十日や二百二十日は厄日とされ、毎年特にその時期に暴風雨があるのはなぜでしょうか。<br><br> 『こういう天候の異変は、結局それが必要なんですね。<br><br>二百十日、二百二十日ごろに起きると、ある程度稲を倒す被害があるにはあるが、その反面、根を固めるっていう力はたいしたもんですからね。<br><br>木でもそうですよ、ゆすぶられると倒れないように根を張って、木に力が出てくるんですよ。<br><br>そうでないと木は倒れやすくなってしまいます。<br><br>だから強い風が吹くと根が張っていいんです。<br><br>風で倒れるようなのは肥料をやってるからです。<br><br>無肥料にすれば倒れることなんてありませんよ。<br><br>』 107 台風の北進、低気圧とその針路 台風等は南に発生、北進します。<br><br>今迄気圧の関係のみによるものと知らされておりますが、詳細を教示下さい。<br><br> 台風は南も北もない。<br><br>地球は火の線が経に行っており、真中が一番濃い。<br><br>地球の中心を経に貫いている。<br><br>火は狭く細い。<br><br>広くは及ばぬ。<br><br>南北極は流通してるが、温かい方が南極になっている。<br><br>陸の方は北の方に多い。<br><br> 台風等は、すべて浄化作用で、丁度洗濯して乾かすようなものである。<br><br>低気圧は廻りつつ進行する。<br><br>針路は出鱈目のようだがそうではない。<br><br>地球の空間に汚れが溜る。<br><br>その部分を低気圧がゆく。<br><br>曇ったものは一個所へ集ってゆくものである。<br><br>判り易くいえば、はたきをかけるようなものである。<br><br>雨は水洗い、雷火でやく。<br><br>丁度濃い毒素の塊のようなもので、それが方々へ溜ったものを焼く。<br><br>旋風もそうである。<br><br> 108 台風海上発生の理と季節 台風は海上に発生するように聞きますが、なぜ陸地に発生しないでしょうか。<br><br>また厄日、二百十日、二百二十日には、昔から天候が荒れ、暴風雨がよくありますが、いかなる訳で御座居ましょうか。<br><br>御伺い致します。<br><br> これをするのは龍神で、陸地では大きい龍神は住めない。<br><br>地龍、山龍等はあるが、大きい龍神は皆海上にいる。<br><br> 地上の汚れは皆海へ流れるので、どうしても海に溜る。<br><br>それが鳴戸で海底へゆく。<br><br>そして地上にもいくらか残る。<br><br>台風は季節で起る事になっている。<br><br>人間でも草木でも季節がある。<br><br>木の根が張るのは風のためでそれ故に風の必要がある。<br><br>木質を固くするには根を強くする。<br><br>そのためには風である。<br><br>それは二百十日か二十日頃が丁度いい訳である。<br><br>しかしその上人間が汚すので、ついでに余計強く吹く事になる。<br><br>（S24. 9. 7） 109 低気圧多く南発す 台風及び低気圧は南方に発生し、本土を浄化し北方に去り、太陽は東より西への道を通りますが、霊的に何か意味が御座いますのでしょうか。<br><br> 低気圧は多くそうであるが、そうは決ったものではない。<br><br>北方からゆく場合もある。<br><br> 低気圧は、熱を必要とするものであるから、南方は熱が多いので、そっちへ行く。<br><br>天地間の浄化作用であり、掃除である。<br><br>先には、浄霊の時は吹いたものである。<br><br>これは風の自然作用をとったものである。<br><br>しかしこれは嫌われる。<br><br>医学的の頭があると、治療する人の梅毒などを考える。<br><br>風の浄化は、普通は左進右退だが、右進左退の場合もある。<br><br>低気圧はグルグル廻って進むが、その中心―渦巻の真中、ここが一番強い。<br><br>中心は大抵海か島である。<br><br>渦巻の中が低気圧の圏内である。<br><br>龍神が働く。<br><br>蛇は人間に働く場合など真直でなく渦巻いて働く。<br><br>でないと一部の浄化しか出来ない。<br><br>（S *. 1.14） 110 台風南洋上発生の理由 先日来の台風を見ておりますと、殆どが南洋上にて発生し、日本本土に上陸しております。<br><br>信仰雑話を拝読しまして風、水、火すべて神が行われる浄化と伺っております。<br><br>今回の台風を霊的に御教示お願い致します。<br><br> 南洋で発生するというのは、掃除する龍神の住居があるのである。<br><br>（S24. 9. 8） 111 台風頻発 日本本土に襲来する台風が多く、旦近年は季節外れの場合が多くなり、今年は例年より早く、昨年は非常に遅く迄度々襲来しましたが、いかなる理由でありましょうか。<br><br>御教え願います。<br><br> 浄化力が強くなったのである。<br><br>霊界が昼間になり、火素が多くなったためである。<br><br>（あらゆる面の浄化が強くなった）（S24. 6.25） 112 台風の眼 最近新聞に出ておりました、台風の中心（暴風の目といい、レーダーで捉えました水蒸気の渦巻を写真版にしたもの）は、無風帯であると申しますが、霊的にいかなるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 廻っているものの中心は、風避けしてるようなもので、無風帯である。<br><br> 中心―真中は、龍神がいない。<br><br> 龍神は大した大きいんでない。<br><br>巻いてる外はその余波である。<br><br> （S24. 9. 2） 113 台風と日本 日本に台風が多く、外国に少いのは、いかなる理由からで御座いましょうか。<br><br> そうと決ってはいない。<br><br>米国など日本の何倍という台風が吹く。<br><br>日本は山があるから小さくなる。<br><br>アメリカは大平原だから大きい。<br><br>映画のハリケーンなどは物凄い。<br><br>これは私のみた映画中一番素晴しかった。<br><br> 光明世界になれば台風もなくなる。<br><br>（S23.11.22） 114 龍巻 龍巻について――。<br><br> 霊界で曇りのひどい所に対し、その曇りの堆積を龍巻でとってしまうか、または火でやくか、いろんな方法で清掃するのである。<br><br> 龍巻は龍神の特性を実に良く出している。<br><br>即ち風を蛇行形に巻くのである。<br><br>龍巻は局部的のものである。<br><br>暴風なども渦を巻くが、これらはすべて龍神の形になっている。<br><br>（S23） 115 龍巻（龍の昇天） 龍巻について御伺い申します。<br><br> 霊界の曇の強い所は、普通の暴風ではとれぬ。<br><br>しかし浄化しなくてはならぬ。<br><br>するとその掛りの龍神がいて曇がとれる。<br><br>また、龍の天上する時も龍巻が起るという。<br><br>水底にいて修行が済んで、雲をよんで、雲に乗ったり、雲に蔽われたりして昇る。<br><br> 龍神は水がなければ活動出来ない。<br><br>（S23） 116 旋風減収の原因 昨夕の新聞によりますれば、印度マドラス洲東海岸地方は、十月二十七日の大旋風について、十七日発表されたインド政府の推計によれば、損害五億ルピー、米作の減収三十万トン、八百万人近くの住民が餓えにひんしていると報ぜられておりますが、右は霊的にいかなる御浄化で御座居ましょうか。<br><br>御伺い申し上げます。<br><br> その地方の霊界に、曇が多量に出来たための浄化で、やむを得ぬ事である。<br><br>（S24.11.19） 117 雷の原因（道真） 雷はいかなる現象ですか。<br><br> 雷は霊界の曇りを焼き払うのである。<br><br>これに伴う雨風はその上、水で洗って風で吹き払う浄めの業である。<br><br>また、他の理由もある。<br><br>菅原道真が霊界へ行って火龍となり、彼を陥れた者を雷火によって悩ました例もあるが、こういう事は相当偉い人でなくては出来ぬことである。<br><br> 118 落雷の理由 落雷の理由について――。<br><br> 火の働きで、曇のひどい所を焼いてしまう。<br><br>火の浄化作用である。<br><br> 119 雹と龍と雷雨 二十一日の夕方、中京地方に季節外れの烈しい雹と雷雨がありましたが、いかなる原因でしょうか。<br><br>ある人がどこかの池の龍が昇天したとか言われますが、雹と龍の昇天と何か関係があるのでしょうか。<br><br> 雹とは関係はない。<br><br>龍が昇天する時は、龍巻や大雨を起す。<br><br>水気がないと天へ昇れない。<br><br> 雹は急に中界に寒波が行く時に、雲が分散して凍る。<br><br>雷雨は浄化作用で、霊界の曇を火で焼くのである。<br><br> 120 雨火浄化に風を伴う理 雨または火事の浄化の際、風が伴いますけれども、水または火を司どる神と風を司どる神の御働きは、いつも同時同所に在るものなのでしょうか。<br><br> 龍神がやる。<br><br> 別の場合もあり、一方が手伝う事もある。<br><br>（S24. 7.23） 121 朝焼、夕焼 朝やけ、夕やけが天候急変の兆とされたり、暴風雨の前兆とされているのは、いかなる訳でしょう。<br><br> 大した意味はない。<br><br>霊的意味とはいえぬ。<br><br>天候が変る兆しである。<br><br> 霊的というより天文である。<br><br> すべてのものに兆しはある、長い経験でよく当る。<br><br> 122 朝陽夕陽の光の差 一、太陽が朝上る時と、夕方沈む時には、大きく見え光が弱いのは、いかなる訳でしょうか。<br><br> 一、北極と南極より見た場合、太陽の出る位置はどうなりましょうか。<br><br> 一、空気の関係である。<br><br>地球に近い空気の層を通すから、光が弱るのである。<br><br>また地熱が非常に関係がある。<br><br> 一、北極と南極では、ちがいはない。<br><br> 南北は――。<br><br>（S24.11. 9） 123 虹の七色と丸味 時雨の時、虹が七色になり丸くなってでるのは、どういう訳でしょうか。<br><br> 虹が七色になるのは、学説のごとく、太陽の光線が分光されたものである。<br><br> 丸くなるのは、宇宙にある一切のものは丸い形をしているので、また太陽でも月でもそうであるが、遠くからみると、凸凹のものでも何でも皆丸く見えるものである。<br><br>大体あらゆるものは丸い形になっている。<br><br> 神様でも人間霊でも、遠くへ行く時は丸くなってゆく。<br><br> 明主様のお身体の中にも大きい丸い光の玉がある。<br><br>それから光が出て、お守を通して働くのである。<br><br> 124 蜃気楼 蜃気楼の原因――。<br><br> 霧の濃い所が壁のようになって、映像が写るのである。<br><br>（S24.11.19） rattail（注） 〔 御光話（S24年 8月 3日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 ――蜃気楼は光線の彎曲によって起きると言われますが、この原因について御教示をお願い申し上げます。<br><br> 『これは光線の彎曲じゃありませんね。<br><br>よく新潟付近の日本海側で見えるそうですが、あれは朝鮮の景色が虹みたいに映り合ってくるわけなんです。<br><br>だから彎曲じゃなくて反射ですね。<br><br>いまはないでしょうが、昔は朝鮮には城があったので、それが映ってあの龍宮城のような景色が見えたんですよ。<br><br>』 125 昼夜は呼吸か 一昼夜で一つの呼吸になっているとお伺い申し上げましたが、それはどういう意味の呼吸なので御座いましょうか。<br><br> 何かの間違いであろう。<br><br>（S24. 9.13）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>104. A Necessidade da Estação Chuvosa — O Clima do Mundo Ideal</h2>
 <p><strong>Pergunta:</strong> No futuro, quando o clima se tornar ideal, com ventos e chuvas regulares, o que acontecerá com a estação chuvosa?</p>
@@ -171,5 +323,48 @@ function toggleLang(lang) {
 <h2>125. O Dia e a Noite São uma Respiração?</h2>
 <p><strong>Pergunta:</strong> Ouvi dizer que um ciclo de dia e noite corresponde a uma respiração. Que tipo de respiração seria essa?</p>
 <p>Deve haver algum engano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ７ 104-125 気象２ 104 梅雨の必要―理想世界の天候 将来五風十雨となった時、季節的な梅雨などはどうなるので御座いましょうか。<br/><br/> 梅雨、これはある。<br/><br/>田植には大いに水が必要である。<br/><br/>木なども大きくなりかけ、春の芽吹きして、花咲いて、実成る時で、水分が必要であるからである。<br/><br/>五風十雨とキチンと決る訳ではない。<br/><br/>大体これのように決る事である。<br/><br/>（S23） 105 季節と風 春は東風、夏は南風、秋は西風、冬は北風というように吹きますが、季節と風の関係を御教え下さい。<br/><br/> 地球上の万物は、科学的にどうのこうのという事でなく、そのように造られている。<br/><br/>そして人間に必要なものが育ったりなどする。<br/><br/>人間にこういう風が必要であるから、神様が造られた。<br/><br/>春は東、夏は南、秋は西、冬は北と相応の理により、そういう風に造られてあるものである。<br/><br/>春は初める。<br/><br/>東から太陽が出ると同じ意味で、秋は凋落で西へ日が沈む。<br/><br/>北は寒いが、寒くないといけないからで、南は赤道から渡ってくるから、特にはっきりしているのは日本だけで、西洋にはこれだけ四季がはっきりせぬ。<br/><br/>（S24. 4.13） 106 二百十日の訳 二百十日に暴風雨がありますのは、いかなる訳でありましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 造物主が知っている。<br/><br/>冬寒く夏熱いのはどういう訳かというようなもの。<br/><br/>その時分に暴風雨を起すように造った。<br/><br/>想像していえば言える。<br/><br/>その時分に、そういう風が吹かなくてはいけない。<br/><br/>しかし、この間のような大きい台風は、人間が作ったもの（曇らせて）である。<br/><br/>（S24. 9. 3） rattail（注） 〔 御光話（S24年5月特輯号） 『御光話録』8号、昭和24(1949)年5月30日発行〕 ――人間の想念が天候に異変を起すとのお言葉でございますが、二百十日や二百二十日は厄日とされ、毎年特にその時期に暴風雨があるのはなぜでしょうか。<br/><br/> 『こういう天候の異変は、結局それが必要なんですね。<br/><br/>二百十日、二百二十日ごろに起きると、ある程度稲を倒す被害があるにはあるが、その反面、根を固めるっていう力はたいしたもんですからね。<br/><br/>木でもそうですよ、ゆすぶられると倒れないように根を張って、木に力が出てくるんですよ。<br/><br/>そうでないと木は倒れやすくなってしまいます。<br/><br/>だから強い風が吹くと根が張っていいんです。<br/><br/>風で倒れるようなのは肥料をやってるからです。<br/><br/>無肥料にすれば倒れることなんてありませんよ。<br/><br/>』 107 台風の北進、低気圧とその針路 台風等は南に発生、北進します。<br/><br/>今迄気圧の関係のみによるものと知らされておりますが、詳細を教示下さい。<br/><br/> 台風は南も北もない。<br/><br/>地球は火の線が経に行っており、真中が一番濃い。<br/><br/>地球の中心を経に貫いている。<br/><br/>火は狭く細い。<br/><br/>広くは及ばぬ。<br/><br/>南北極は流通してるが、温かい方が南極になっている。<br/><br/>陸の方は北の方に多い。<br/><br/> 台風等は、すべて浄化作用で、丁度洗濯して乾かすようなものである。<br/><br/>低気圧は廻りつつ進行する。<br/><br/>針路は出鱈目のようだがそうではない。<br/><br/>地球の空間に汚れが溜る。<br/><br/>その部分を低気圧がゆく。<br/><br/>曇ったものは一個所へ集ってゆくものである。<br/><br/>判り易くいえば、はたきをかけるようなものである。<br/><br/>雨は水洗い、雷火でやく。<br/><br/>丁度濃い毒素の塊のようなもので、それが方々へ溜ったものを焼く。<br/><br/>旋風もそうである。<br/><br/> 108 台風海上発生の理と季節 台風は海上に発生するように聞きますが、なぜ陸地に発生しないでしょうか。<br/><br/>また厄日、二百十日、二百二十日には、昔から天候が荒れ、暴風雨がよくありますが、いかなる訳で御座居ましょうか。<br/><br/>御伺い致します。<br/><br/> これをするのは龍神で、陸地では大きい龍神は住めない。<br/><br/>地龍、山龍等はあるが、大きい龍神は皆海上にいる。<br/><br/> 地上の汚れは皆海へ流れるので、どうしても海に溜る。<br/><br/>それが鳴戸で海底へゆく。<br/><br/>そして地上にもいくらか残る。<br/><br/>台風は季節で起る事になっている。<br/><br/>人間でも草木でも季節がある。<br/><br/>木の根が張るのは風のためでそれ故に風の必要がある。<br/><br/>木質を固くするには根を強くする。<br/><br/>そのためには風である。<br/><br/>それは二百十日か二十日頃が丁度いい訳である。<br/><br/>しかしその上人間が汚すので、ついでに余計強く吹く事になる。<br/><br/>（S24. 9. 7） 109 低気圧多く南発す 台風及び低気圧は南方に発生し、本土を浄化し北方に去り、太陽は東より西への道を通りますが、霊的に何か意味が御座いますのでしょうか。<br/><br/> 低気圧は多くそうであるが、そうは決ったものではない。<br/><br/>北方からゆく場合もある。<br/><br/> 低気圧は、熱を必要とするものであるから、南方は熱が多いので、そっちへ行く。<br/><br/>天地間の浄化作用であり、掃除である。<br/><br/>先には、浄霊の時は吹いたものである。<br/><br/>これは風の自然作用をとったものである。<br/><br/>しかしこれは嫌われる。<br/><br/>医学的の頭があると、治療する人の梅毒などを考える。<br/><br/>風の浄化は、普通は左進右退だが、右進左退の場合もある。<br/><br/>低気圧はグルグル廻って進むが、その中心―渦巻の真中、ここが一番強い。<br/><br/>中心は大抵海か島である。<br/><br/>渦巻の中が低気圧の圏内である。<br/><br/>龍神が働く。<br/><br/>蛇は人間に働く場合など真直でなく渦巻いて働く。<br/><br/>でないと一部の浄化しか出来ない。<br/><br/>（S *. 1.14） 110 台風南洋上発生の理由 先日来の台風を見ておりますと、殆どが南洋上にて発生し、日本本土に上陸しております。<br/><br/>信仰雑話を拝読しまして風、水、火すべて神が行われる浄化と伺っております。<br/><br/>今回の台風を霊的に御教示お願い致します。<br/><br/> 南洋で発生するというのは、掃除する龍神の住居があるのである。<br/><br/>（S24. 9. 8） 111 台風頻発 日本本土に襲来する台風が多く、旦近年は季節外れの場合が多くなり、今年は例年より早く、昨年は非常に遅く迄度々襲来しましたが、いかなる理由でありましょうか。<br/><br/>御教え願います。<br/><br/> 浄化力が強くなったのである。<br/><br/>霊界が昼間になり、火素が多くなったためである。<br/><br/>（あらゆる面の浄化が強くなった）（S24. 6.25） 112 台風の眼 最近新聞に出ておりました、台風の中心（暴風の目といい、レーダーで捉えました水蒸気の渦巻を写真版にしたもの）は、無風帯であると申しますが、霊的にいかなるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 廻っているものの中心は、風避けしてるようなもので、無風帯である。<br/><br/> 中心―真中は、龍神がいない。<br/><br/> 龍神は大した大きいんでない。<br/><br/>巻いてる外はその余波である。<br/><br/> （S24. 9. 2） 113 台風と日本 日本に台風が多く、外国に少いのは、いかなる理由からで御座いましょうか。<br/><br/> そうと決ってはいない。<br/><br/>米国など日本の何倍という台風が吹く。<br/><br/>日本は山があるから小さくなる。<br/><br/>アメリカは大平原だから大きい。<br/><br/>映画のハリケーンなどは物凄い。<br/><br/>これは私のみた映画中一番素晴しかった。<br/><br/> 光明世界になれば台風もなくなる。<br/><br/>（S23.11.22） 114 龍巻 龍巻について――。<br/><br/> 霊界で曇りのひどい所に対し、その曇りの堆積を龍巻でとってしまうか、または火でやくか、いろんな方法で清掃するのである。<br/><br/> 龍巻は龍神の特性を実に良く出している。<br/><br/>即ち風を蛇行形に巻くのである。<br/><br/>龍巻は局部的のものである。<br/><br/>暴風なども渦を巻くが、これらはすべて龍神の形になっている。<br/><br/>（S23） 115 龍巻（龍の昇天） 龍巻について御伺い申します。<br/><br/> 霊界の曇の強い所は、普通の暴風ではとれぬ。<br/><br/>しかし浄化しなくてはならぬ。<br/><br/>するとその掛りの龍神がいて曇がとれる。<br/><br/>また、龍の天上する時も龍巻が起るという。<br/><br/>水底にいて修行が済んで、雲をよんで、雲に乗ったり、雲に蔽われたりして昇る。<br/><br/> 龍神は水がなければ活動出来ない。<br/><br/>（S23） 116 旋風減収の原因 昨夕の新聞によりますれば、印度マドラス洲東海岸地方は、十月二十七日の大旋風について、十七日発表されたインド政府の推計によれば、損害五億ルピー、米作の減収三十万トン、八百万人近くの住民が餓えにひんしていると報ぜられておりますが、右は霊的にいかなる御浄化で御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> その地方の霊界に、曇が多量に出来たための浄化で、やむを得ぬ事である。<br/><br/>（S24.11.19） 117 雷の原因（道真） 雷はいかなる現象ですか。<br/><br/> 雷は霊界の曇りを焼き払うのである。<br/><br/>これに伴う雨風はその上、水で洗って風で吹き払う浄めの業である。<br/><br/>また、他の理由もある。<br/><br/>菅原道真が霊界へ行って火龍となり、彼を陥れた者を雷火によって悩ました例もあるが、こういう事は相当偉い人でなくては出来ぬことである。<br/><br/> 118 落雷の理由 落雷の理由について――。<br/><br/> 火の働きで、曇のひどい所を焼いてしまう。<br/><br/>火の浄化作用である。<br/><br/> 119 雹と龍と雷雨 二十一日の夕方、中京地方に季節外れの烈しい雹と雷雨がありましたが、いかなる原因でしょうか。<br/><br/>ある人がどこかの池の龍が昇天したとか言われますが、雹と龍の昇天と何か関係があるのでしょうか。<br/><br/> 雹とは関係はない。<br/><br/>龍が昇天する時は、龍巻や大雨を起す。<br/><br/>水気がないと天へ昇れない。<br/><br/> 雹は急に中界に寒波が行く時に、雲が分散して凍る。<br/><br/>雷雨は浄化作用で、霊界の曇を火で焼くのである。<br/><br/> 120 雨火浄化に風を伴う理 雨または火事の浄化の際、風が伴いますけれども、水または火を司どる神と風を司どる神の御働きは、いつも同時同所に在るものなのでしょうか。<br/><br/> 龍神がやる。<br/><br/> 別の場合もあり、一方が手伝う事もある。<br/><br/>（S24. 7.23） 121 朝焼、夕焼 朝やけ、夕やけが天候急変の兆とされたり、暴風雨の前兆とされているのは、いかなる訳でしょう。<br/><br/> 大した意味はない。<br/><br/>霊的意味とはいえぬ。<br/><br/>天候が変る兆しである。<br/><br/> 霊的というより天文である。<br/><br/> すべてのものに兆しはある、長い経験でよく当る。<br/><br/> 122 朝陽夕陽の光の差 一、太陽が朝上る時と、夕方沈む時には、大きく見え光が弱いのは、いかなる訳でしょうか。<br/><br/> 一、北極と南極より見た場合、太陽の出る位置はどうなりましょうか。<br/><br/> 一、空気の関係である。<br/><br/>地球に近い空気の層を通すから、光が弱るのである。<br/><br/>また地熱が非常に関係がある。<br/><br/> 一、北極と南極では、ちがいはない。<br/><br/> 南北は――。<br/><br/>（S24.11. 9） 123 虹の七色と丸味 時雨の時、虹が七色になり丸くなってでるのは、どういう訳でしょうか。<br/><br/> 虹が七色になるのは、学説のごとく、太陽の光線が分光されたものである。<br/><br/> 丸くなるのは、宇宙にある一切のものは丸い形をしているので、また太陽でも月でもそうであるが、遠くからみると、凸凹のものでも何でも皆丸く見えるものである。<br/><br/>大体あらゆるものは丸い形になっている。<br/><br/> 神様でも人間霊でも、遠くへ行く時は丸くなってゆく。<br/><br/> 明主様のお身体の中にも大きい丸い光の玉がある。<br/><br/>それから光が出て、お守を通して働くのである。<br/><br/> 124 蜃気楼 蜃気楼の原因――。<br/><br/> 霧の濃い所が壁のようになって、映像が写るのである。<br/><br/>（S24.11.19） rattail（注） 〔 御光話（S24年 8月 3日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 ――蜃気楼は光線の彎曲によって起きると言われますが、この原因について御教示をお願い申し上げます。<br/><br/> 『これは光線の彎曲じゃありませんね。<br/><br/>よく新潟付近の日本海側で見えるそうですが、あれは朝鮮の景色が虹みたいに映り合ってくるわけなんです。<br/><br/>だから彎曲じゃなくて反射ですね。<br/><br/>いまはないでしょうが、昔は朝鮮には城があったので、それが映ってあの龍宮城のような景色が見えたんですよ。<br/><br/>』 125 昼夜は呼吸か 一昼夜で一つの呼吸になっているとお伺い申し上げましたが、それはどういう意味の呼吸なので御座いましょうか。<br/><br/> 何かの間違いであろう。<br/><br/>（S24. 9.13）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

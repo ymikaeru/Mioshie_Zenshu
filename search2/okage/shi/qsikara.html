@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsikara</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 死から光明へ 『栄光』131号、昭和26(1951)年11月21日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 福岡県 南光中教会 尾園ハツノ（43） おくれながら今日ある喜びを御報告させて頂きます。<br><br>私は昭和四年ソコヒにて、両眼共一時は失明状態で、土地の専門医に入院しまして、治療を受ける事四十日余り過ぎましたが変った事もなく色々と迷い、人様より地蔵尊が御利益が大きいとの事を聞き、早速お地蔵様へ十四日間こもらせて頂きましたところ、五日目頃より右眼が少々見える様になりましたが、それ以後は良くならず、帰宅致しました。<br><br>その後は右眼だけにて、左眼は失明のまま今日に及んでおりました。<br><br>その間二十二年、それがこのたび開眼の御慈悲を頂いたのです。<br><br>又昭和七年四月二十五日と思いますが、非常に胃が痛み苦しみ、のた打つ様なので、医者の診断を受けると、胃潰瘍並びに盲腸炎と診断され、その手当として「イスウルクス」の注射を毎日やって貰い、約五十日余りも病床にあり前後二、三カ月にして少し働ける様になりましたが、毎年春秋二回は再発し、痛む時は十日も連続する有様、痛む時はモヒ注射にて痛みを止め、薬は薬でのみ、その様にして一、二カ月位にて又良くなるので別に気にもかけずにいる内、年々病気は悪化し、内臓部は全般的に悪い模様なので、主治医より「大学病院に行け」と申され大学病院で診断を受けますと、「胃の外に腹膜炎、肝臓等も悪いから当分入院せよ」と申されたが、何様何年も土地の医者にかかりたる後とて経済が許しませず、止むなく又帰りて地方医に手当を願いました。<br><br>以来十五年、発病より二十年過ぎるも、快方どころか益々悪化し、米食は食べられず、粉麺類を常食にするの止むなきに至りましたが、益々腹部一面が悪くなり、主治医からは又、大学病院へ行く様勧められ、九大病院にて診断を受けた結果は、何と腹部切開手術をするというのですが、親兄妹の反対で「どうせ死ぬ病人なれば手術せずに家で死なせた方が」とて中止となり帰宅致しました。<br><br>私はいかなる事を申されても決して気を落すことなく、悲観したりしませんので、これだけの重病に打ち勝って働いておりました。<br><br>そして痛む時は注射で一時しのぎをし、その日その日を暮して来ました。<br><br>ある時は既に冷くなり、丸一昼夜死の世界をさまよい、納棺一歩前で生きかえる等、又ある時は意識不明のまま、十日間も山中をさ迷い、気が付いて位置すらわからず、全く生けるしかばねでした。<br><br>病勢は益々強まり、思うように働けなくなりました。<br><br>その様な年月が過ぎ、二十五年十一月、稲の刈入れ時とて手伝に行きましたところ、寒さの為、右足に凍傷を受け、紫色に変り、日々注射をうっておりましたが、ある日、足首より切断するとの事でありました。<br><br>この右足は二十年前より強度の神経痛の為、一時は松葉杖をつくあり様で、以来歩行にちんばを引きつつ動いておりました。<br><br>さていよいよ右足切断を申し渡された翌日、友人が佐藤先生を御案内してくれ、御話を聞き疑いつつ御浄霊を受ける様になり、足部切断は一週間で快くなり、又強度の神経痛も、近々二週間で全快しました。<br><br>今まで米粒一つ食べられなかったのが、一カ月にして何食に限らず食べられる様になりました。<br><br>胃や腹部の痛みは御浄霊に依り止り、その都度口からや下から虫がでて、日毎に全快の一歩をたどって居ります。<br><br>この間佐藤先生には毎日自転車で二里余の道を雨の日も又冬の雪の日もお通い願い、時には千々和先生にも御足労を願い、お蔭様で毎日の注射も不用になり、御浄霊のあまりにも有難い事がはっきりしましたので四月十八日入信させて頂きました。<br><br>今では先生方から「お守かけて病人に浄霊せよ。<br><br>そうすれば御先祖の霊も浄まるから」とお話を聞きましたので、御恩の万分一なりとも存じ、御手伝いを願っている次第でございます。<br><br>全く死から光明へお導き下さいました御明主様の御守護の有難さに感泣致しております。<br><br>右の次第つたなき筆もて御報告させて頂きます。<br><br> 腹部切開、右足首切断、絶望の左眼立派に開眼。<br><br>なお虫は既に大小千匹以上出ていると存ぜられます。<br><br> 御明主様有難うございました。<br><br> （昭和二十六年九月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Da Morte para a Luz</h2>
 <p>Publicado na revista Eikō nº 131, em 21 de novembro de 1951
@@ -104,5 +259,48 @@ Igreja Nanko-Tyu, Província de Fukuoka</p>
 <p>A cirurgia no abdômen, a amputação do tornozelo, a desesperança do olho esquerdo... tudo foi superado, e a visão, magnificamente restaurada. Adicionalmente, acredito que mais de mil vermes, de diversos tamanhos, já foram expelidos.</p>
 <p>Muito obrigada, Meishu-Sama.</p>
 <p>(1º de setembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 死から光明へ 『栄光』131号、昭和26(1951)年11月21日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 福岡県 南光中教会 尾園ハツノ（43） おくれながら今日ある喜びを御報告させて頂きます。<br/><br/>私は昭和四年ソコヒにて、両眼共一時は失明状態で、土地の専門医に入院しまして、治療を受ける事四十日余り過ぎましたが変った事もなく色々と迷い、人様より地蔵尊が御利益が大きいとの事を聞き、早速お地蔵様へ十四日間こもらせて頂きましたところ、五日目頃より右眼が少々見える様になりましたが、それ以後は良くならず、帰宅致しました。<br/><br/>その後は右眼だけにて、左眼は失明のまま今日に及んでおりました。<br/><br/>その間二十二年、それがこのたび開眼の御慈悲を頂いたのです。<br/><br/>又昭和七年四月二十五日と思いますが、非常に胃が痛み苦しみ、のた打つ様なので、医者の診断を受けると、胃潰瘍並びに盲腸炎と診断され、その手当として「イスウルクス」の注射を毎日やって貰い、約五十日余りも病床にあり前後二、三カ月にして少し働ける様になりましたが、毎年春秋二回は再発し、痛む時は十日も連続する有様、痛む時はモヒ注射にて痛みを止め、薬は薬でのみ、その様にして一、二カ月位にて又良くなるので別に気にもかけずにいる内、年々病気は悪化し、内臓部は全般的に悪い模様なので、主治医より「大学病院に行け」と申され大学病院で診断を受けますと、「胃の外に腹膜炎、肝臓等も悪いから当分入院せよ」と申されたが、何様何年も土地の医者にかかりたる後とて経済が許しませず、止むなく又帰りて地方医に手当を願いました。<br/><br/>以来十五年、発病より二十年過ぎるも、快方どころか益々悪化し、米食は食べられず、粉麺類を常食にするの止むなきに至りましたが、益々腹部一面が悪くなり、主治医からは又、大学病院へ行く様勧められ、九大病院にて診断を受けた結果は、何と腹部切開手術をするというのですが、親兄妹の反対で「どうせ死ぬ病人なれば手術せずに家で死なせた方が」とて中止となり帰宅致しました。<br/><br/>私はいかなる事を申されても決して気を落すことなく、悲観したりしませんので、これだけの重病に打ち勝って働いておりました。<br/><br/>そして痛む時は注射で一時しのぎをし、その日その日を暮して来ました。<br/><br/>ある時は既に冷くなり、丸一昼夜死の世界をさまよい、納棺一歩前で生きかえる等、又ある時は意識不明のまま、十日間も山中をさ迷い、気が付いて位置すらわからず、全く生けるしかばねでした。<br/><br/>病勢は益々強まり、思うように働けなくなりました。<br/><br/>その様な年月が過ぎ、二十五年十一月、稲の刈入れ時とて手伝に行きましたところ、寒さの為、右足に凍傷を受け、紫色に変り、日々注射をうっておりましたが、ある日、足首より切断するとの事でありました。<br/><br/>この右足は二十年前より強度の神経痛の為、一時は松葉杖をつくあり様で、以来歩行にちんばを引きつつ動いておりました。<br/><br/>さていよいよ右足切断を申し渡された翌日、友人が佐藤先生を御案内してくれ、御話を聞き疑いつつ御浄霊を受ける様になり、足部切断は一週間で快くなり、又強度の神経痛も、近々二週間で全快しました。<br/><br/>今まで米粒一つ食べられなかったのが、一カ月にして何食に限らず食べられる様になりました。<br/><br/>胃や腹部の痛みは御浄霊に依り止り、その都度口からや下から虫がでて、日毎に全快の一歩をたどって居ります。<br/><br/>この間佐藤先生には毎日自転車で二里余の道を雨の日も又冬の雪の日もお通い願い、時には千々和先生にも御足労を願い、お蔭様で毎日の注射も不用になり、御浄霊のあまりにも有難い事がはっきりしましたので四月十八日入信させて頂きました。<br/><br/>今では先生方から「お守かけて病人に浄霊せよ。<br/><br/>そうすれば御先祖の霊も浄まるから」とお話を聞きましたので、御恩の万分一なりとも存じ、御手伝いを願っている次第でございます。<br/><br/>全く死から光明へお導き下さいました御明主様の御守護の有難さに感泣致しております。<br/><br/>右の次第つたなき筆もて御報告させて頂きます。<br/><br/> 腹部切開、右足首切断、絶望の左眼立派に開眼。<br/><br/>なお虫は既に大小千匹以上出ていると存ぜられます。<br/><br/> 御明主様有難うございました。<br/><br/> （昭和二十六年九月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

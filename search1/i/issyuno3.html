@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>issyuno3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一種の自殺未遂者 未発表、年代不詳 この題は少し酷（こく）すぎるかも知れないが、こう言わざるを得ないのである。<br><br>というのは病気は医薬で治るものと信じ、信頼し安心して委（まか）せるのであるが、いつもいうごとく薬という薬は全部毒であるから、これを体内へ入れるだけ弱るに決っている。<br><br>医師にかかりつつ段々悪化したり、次から次へ余病が発（おこ）るのは、医師も常に経験するところであろうし、長く苦しんだ病人は、それを知ったら初めて目が醒めたように、分って後悔するのは、御蔭話中に絶えず記録してあるから、読む人はよく分るであろう。<br><br> というようにそれらの患者に対し、私は以前病人を直接扱っていた頃はよくいったものである。<br><br>貴方（あなた）の今までやっていた事は、色々な方法で病気を治すのではなく、病気を益々悪くさせ、結局命までフイにするのだから、実に危い瀬戸際にまで来たので、幸い浄霊で助かったからいいようなものの、結果からいえば自肚（じばら）を切りながら、緩慢な自殺行為をしていた訳である。<br><br>だからここへ来る限りの人は、皆自殺未遂者なのである。<br><br>というと誰でも苦笑と微笑を混ぜこぜの表情であるが、極端な言い方かも知れないが、これが真実だと私は思っている。<br><br> とはいうものの医師諸君は、そんな事は夢にも思わず、今日の進歩した医学によって、何とかして助けたいと思い、日夜苦労しているのはもちろんであるから、その心情はまことに仁慈極まるもので、尊敬に値いするが、私は根本を知っている以上、よく分るからそういわざるを得ないのである。<br><br>こうみてくるとおよそ人間世界は、まだ間違った事が色々あるが、恐らくこの医学の間違いこそ摩訶（まか）不思議で、解するに苦しむのである。<br><br>誰も知るごとく現在の世界は、科学が進歩し、随分驚くべき発見や発明が次々現われる今日、医学に関する限り、その余りの迷蒙（めいもう）さに日々驚嘆しているのである。<br><br>ところが有難い事には、医学の迷蒙を知ると共に、病を癒す力をも私は神から与えられたのであるから、悲痛の中にも歓喜ありで、日夜救いの業に励しんでいるのである。<br><br>これによってみても観世音菩薩の大慈大悲の意味もよく分るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Modalidade de Tentativa de Suicídio</h2>
 <p>Este título pode parecer excessivamente severo, contudo, vejo-me na obrigação de empregá-lo. As pessoas, em geral, creem que as doenças são curadas por medicamentos e, com base nessa crença, entregam-se aos cuidados médicos com total confiança e tranquilidade. Todavia, conforme sempre elucido, todo e qualquer remédio é, em sua essência, um veneno, e sua ingestão, portanto, inevitavelmente debilita o organismo. Os próprios médicos certamente experienciam com frequência quadros em que seus pacientes pioram gradualmente ou desenvolvem enfermidades secundárias sob seus cuidados. Quanto aos doentes que padecem por longos períodos, ao se darem conta dessa realidade, é como se despertassem de um profundo sono, compreendendo a verdade e lamentando o caminho percorrido — fato este constantemente registrado nos testemunhos de fé, como bem sabem seus leitores.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Não obstante, os médicos, evidentemente, nem sequer sonham com tal realidade. Eles se devotam dia e noite, com o genuíno desejo de salvar vidas por meio da avançada medicina de hoje. Sua motivação é, decerto, de uma benevolência extrema e digna de reverência. Contudo, por conhecer a verdade fundamental, compreendo a situação com clareza e sinto-me compelido a me expressar desta forma.</p>
 <p>Ao observarmos sob essa perspectiva, percebemos que o mundo dos homens ainda está repleto de equívocos, mas, dentre eles, o erro da medicina é, porventura, o mais espantoso e de difícil compreensão. Como todos sabem, vivemos em uma era de notável avanço científico, na qual surgem, uma após a outra, descobertas e invenções surpreendentes. No que tange à medicina, todavia, sua persistente obscuridade é algo que me assombra diariamente.</p>
 <p>Contudo, por uma imensa graça, ao mesmo tempo em que me foi concedido o conhecimento sobre a obscuridade da medicina, recebi de Deus o poder de curar as enfermidades. Dessa forma, em meio à dor de testemunhar o sofrimento, reside também uma imensa alegria, e é com esse sentimento que me dedico dia e noite à obra da salvação. É também por meio dessa experiência que compreendo profundamente o significado da grande misericórdia e compaixão de Kannon (観世音菩薩).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一種の自殺未遂者 未発表、年代不詳 この題は少し酷（こく）すぎるかも知れないが、こう言わざるを得ないのである。<br/><br/>というのは病気は医薬で治るものと信じ、信頼し安心して委（まか）せるのであるが、いつもいうごとく薬という薬は全部毒であるから、これを体内へ入れるだけ弱るに決っている。<br/><br/>医師にかかりつつ段々悪化したり、次から次へ余病が発（おこ）るのは、医師も常に経験するところであろうし、長く苦しんだ病人は、それを知ったら初めて目が醒めたように、分って後悔するのは、御蔭話中に絶えず記録してあるから、読む人はよく分るであろう。<br/><br/> というようにそれらの患者に対し、私は以前病人を直接扱っていた頃はよくいったものである。<br/><br/>貴方（あなた）の今までやっていた事は、色々な方法で病気を治すのではなく、病気を益々悪くさせ、結局命までフイにするのだから、実に危い瀬戸際にまで来たので、幸い浄霊で助かったからいいようなものの、結果からいえば自肚（じばら）を切りながら、緩慢な自殺行為をしていた訳である。<br/><br/>だからここへ来る限りの人は、皆自殺未遂者なのである。<br/><br/>というと誰でも苦笑と微笑を混ぜこぜの表情であるが、極端な言い方かも知れないが、これが真実だと私は思っている。<br/><br/> とはいうものの医師諸君は、そんな事は夢にも思わず、今日の進歩した医学によって、何とかして助けたいと思い、日夜苦労しているのはもちろんであるから、その心情はまことに仁慈極まるもので、尊敬に値いするが、私は根本を知っている以上、よく分るからそういわざるを得ないのである。<br/><br/>こうみてくるとおよそ人間世界は、まだ間違った事が色々あるが、恐らくこの医学の間違いこそ摩訶（まか）不思議で、解するに苦しむのである。<br/><br/>誰も知るごとく現在の世界は、科学が進歩し、随分驚くべき発見や発明が次々現われる今日、医学に関する限り、その余りの迷蒙（めいもう）さに日々驚嘆しているのである。<br/><br/>ところが有難い事には、医学の迷蒙を知ると共に、病を癒す力をも私は神から与えられたのであるから、悲痛の中にも歓喜ありで、日夜救いの業に励しんでいるのである。<br/><br/>これによってみても観世音菩薩の大慈大悲の意味もよく分るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M231108</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年11月8日） 『御光話録』1号、昭和23(1948)年12月8日発行 十一月八日（月） ――夢をみているとき霊は脱けていると伺いましたが、眠っている間の御浄霊はある程度効果は少ないのでしょうか？ そんなことはありません。<br><br>霊と霊体は違うんですから。<br><br>霊体のほうは夢をみていたって同じ状態です。<br><br>抜けて出るのはだいたい副霊です。<br><br> ――御浄霊のとき「この病人が一日も早く治りますように……」と観音様にお願いする気持ちになりますが、やはりこれも抑えたほうがよろしいでしょうか？ 抑えなくて結構ですよ。<br><br>抑えたほうがよいと言いましたか？ それはなにか間違ったのでしょう。<br><br>観音様にお祈りしお願いするという気持ちが本当です。<br><br>特に危急の場合は、「大先生、御守護をお願い申し上げます」と言ったらよろしい。<br><br>そのときは私が神様の代理になりますから。<br><br>しかし、ふだんなんでもないのにやられてはこっちは困りますがね。<br><br> ――お地蔵様をいままで祀っていた人が、それをそのままにしてどこかへ引っ越してしまったあとへ移り住む場合、お地蔵様はいかがいたしたらよろしいでしょうか？ やはり祀って上げたほうがいいですね。<br><br>たいへんな功徳です。<br><br>祀ると言ってもお花を絶やさぬように上げ、またときどきごはんを上げるくらいでよろしい。<br><br>……その人が祀るのを嫌がったらあなたの所へ持ってきて祀ったらいいじゃありませんか。<br><br>その人が納得すれば勿論その家のほうがいいですが。<br><br> ――よく頭の落ちたりしているのも見うけますが？ ええ、あまりひどく痛んでいるのなら直したらいいですね。<br><br>無理に鼻を削ったりしたら罰があたるかもしれませんが直すのなら結構です。<br><br>やはりいままで祀られていたのなら祀るぺきであって、祀らないとなにか祀ってもらいたいための知らせをするかもしれません。<br><br>祀る位置は多少変わってもかまいません。<br><br> ――前々回「救いと裁き」についてありがたいお言葉をいただきましたが重ねてお伺い申し上げます。<br><br>私どもは日常しばしば他人を批評いたしますが、これも人間には僭越なことでしょうか。<br><br>他人の批判により向上を期し得られるとも考えますが、この点いかがでございましょうか。<br><br> 批判したってかまわない、そんなに固苦しく考えなくてもいいのです。<br><br>けれどもね、あの人はいいとか悪いとか決めることはいけないのです。<br><br>いいとか悪いとかいうことは人間には判らないことだから。<br><br>殊にこっちが明るい気持ちで言うのならいいが、悪意をもってあの人はいいとか悪いとか言うのはいけないのです。<br><br>憎悪の心をもって言うのは罪になります。<br><br>それから自分が悪口を言われてそれを気にかけるようではまだ駄目です。<br><br>自分は天地に俯仰（ふぎょう）して愧（は）じざる行動をとっていればそれでよい。<br><br>……他の人からよく思われたいとか感謝されたいとか思うのは間違いです。<br><br>人の気に入ったり愛されたりするよりも、神様の気に入り神様から愛されたいとの気持ちでするのが本当です。<br><br>そうする場合、他の人々には悪くとられるかもしれません、しかしそれは気にする必要はないのです。<br><br>……私も以前はさんざん人から悪口を言われたものです。<br><br>大本時代にも、人々を信者にして大本の本部の亀岡へ送るとそれっきりなんとも言ってこない。<br><br>でよく調べたら、亀岡へ行くと「岡田は邪神だから近寄ってはいけない」と言われるのでみんな離れてしまったのです。<br><br>こんな理屈に合わぬことはないですよ。<br><br>向こうはこっちが邪神だと思ったかもしれないが、こっちは向こうが邪神だと判ったので大本を離れたのです。<br><br>……人から悪口を言われるのは、霊的にはこっちの罪をその人がとってくれるのです。<br><br>だからむしろありがたいのです。<br><br>その代わり悪口を言うほうは罪を着るのです。<br><br> ――お弟子方につき「ああなればよい」とか、「こうなればよいのだが……」というふうにいろいろ考えがちですが、これも執着でございましょうか？ それは信仰がないからだ。<br><br>神様を信用してないからです。<br><br>すべて神様がやっておられるんですからね。<br><br>……神様にお任せするという気持ちになるにはよほど修行がいるんですね。<br><br>どうも世間の人々は人間的に考えては苦しんでいるんですよ。<br><br>私は問題に直面して適当な案がないときは神様にお任せするのです。<br><br>……また他の人がしたいということは間違っていてもやらせてしまうのです。<br><br>それはやりたいと思っているとき注意してもなかなか悟れない。<br><br>行き詰まって初めて気がつくのです…… ――行き詰まったか否かはどうして判断すべきでしょうか？ それはすぐ判りますよ、行き詰まったときは気がついて自分で苦しみますから。<br><br>……神様のほうだって「俺にそんなに任せるんならちゃんとしてやろう」ということになるのです。<br><br>だからすべてお任せしたらいいのです。<br><br> ――よくどっちをとってよいか選択に迷うことがありますが、ある所では、なにか「こより」のようなものを観音様にお供えし、それを「オミクジ」を引くように頑是（がんぜ）ない子供にとらせて迷っていることを決めるそうですが、だいたいうまく行くとのことでした。<br><br> ええ、それはいいですよ。<br><br> ――『信仰雑話』中に「夏暑いのは地球が息を吐くためである」と拝見いたしますが、 （一）赤道の南北で夏冬が反対になること、 （二）赤道地帯が常に暑いこと、についてお伺い申し上げます。<br><br> 反対になるのは上下になるからで、地球の息、すなわち地霊は縦に上下するから、従ってそれから遠い南北の極は寒いのです。<br><br> ――ふつうは南北の極を結んで地軸と申しますが……？ それは考え方の違いですが、南北の極は両横と考え、また霊気は赤道の面を上下していると考えたらよい。<br><br>……地霊が出るときは晴で吸うときは雨です。<br><br>これを気象上は高気圧、低気圧といっているのです。<br><br>……日が長いとか短いとかいうがこれは太陽が地球の中心、赤道の面に沿ってまわる時日が長く、端になると短くなるのです。<br><br>……いまは学者は地動説を唱えてますが、これは嘘で不動説が本当です。<br><br>天動説はキリスト教から出ているのですが、初めてガリレオが地動説を唱えたとき異端として獄に投ぜられ拷問にかけられようとしたが、もう七十いくつの年なのでそれは免れたということです。<br><br>このころは封建的だったのですね。<br><br> ――不動説ということは、大先生様のみご存じのことでしょうか？ ええ、まあ一人だけでしょうね。<br><br> ――『聖書』の中には七の数字がよく出てまいりますが、いかなる意味でしょうか？ 七は完成の意味です。<br><br>言霊でも「ナリナル」などと、できあがることです。<br><br>だいたい『聖書』に限らず、一は初め、独一真神、二は陰陽、そこへ子が生まれて三、四は四方へ拡がる。<br><br>そこへ熱、火ができる……五、火によって氷が溶け水になる……六、今度は土ができて完成するのです……七、だからキリスト教では七日目に創成されたというわけで、七日目を安息日としているのです。<br><br>これは本当です。<br><br>それから八は開ける、九は「つくし」といって極点です。<br><br>十は経緯結ぶことでこれが本当の完成です。<br><br>いまは九の世でありこれから経緯すなわち東西文化を融合するのが観音教団の仕事なのです。<br><br>みんながつけているバッジの○に十はそれを表わしているのです。<br><br>十一は結んで始まる、二十一世紀というのは経緯が結んで始まる世紀というわけです。<br><br>二十で王となり、その上に最高の神様がお乗りになって世界を御経綸になるのです。<br><br>また、七は土が本当で片仮名の「ナ」も土になるのです。<br><br>……「ア行」は基音といって基本でありまた霊になるのです。<br><br>従って「ア行」には物質的な働きはないが、音としては最高です。<br><br>例えば「タカアマハラ」、「アタマ」などです。<br><br> ――片仮名、平仮名、漢字の起原とその働き、および漢字制限が行なわれたり、小学校で片仮名を教えませんが、これはいかに考えるべきでしょうか？ 漢字は一番古く、次は片仮名、一番新しいのは平仮名です。<br><br>また漢字は体で仮名が霊だからぜんぜん漢字をなくして仮名だけにしてしまうのはいけない。<br><br>言霊を表わすのは仮名ですから。<br><br>姓名判断でもいままでのは言霊の音は研究されてない。<br><br>字を見た感じとか、画数、陰陽、または五行で判断するがこれはその先生によってもいろいろ違う。<br><br>例えば大森の熊崎ケイゴという人は六を六画、五を五画としていました。<br><br>……絵なんかでは墨絵は霊で彩色画は体であり、また書は霊で絵は体になります。<br><br>漢字制限はいいですよ、必要ない字まで憶えることはいりません。<br><br>しかし片仮名はいりますね、英語なんか書くのはやはり片仮名でなければ、「とるーまん」では感じが出ません。<br><br>片仮名は霊であり男、火、直ですが、平仮名は体であり女、水、曲です。<br><br> ――平仮名の名前は画数をどのように数えるべきでしょうか？ 平仮名の画は「い」は二画、「ろ」は一画です。<br><br> ――御軸を初めて拝んだとたん一丈ほど落ちた感じがし、また頭を上げたら元の高さまで上がった感じがしたという信者がありましたがなぜでしょうか？ それは少し頭が悪いのでしょう。<br><br>一種の軽い脳貧血ですよ。<br><br>後頭部に毒がある。<br><br> ――以前治療時代に、治療士は髭を生やさぬようにと外の方から聞きましたがこれはいかがでしょうか？ 髭は男には威厳が必要だから神様がくださったのです。<br><br>生やしたって差し支えありませんよ。<br><br>……頭の毛は伸ばしたほうがいいですね。<br><br>頭を短くするのは坊主の型でもあり、また外国では懲役人だし、軍国主義的にも見えますからね。<br><br>国際的になってきた今日、やはり伸ばしたほうがいいですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e o Universo</h2>
 <p><strong>Pergunta:</strong> Foi-nos ensinado que o espírito se desprende do corpo durante os sonhos. Nesse caso, o Johrei ministrado a alguém que dorme teria sua eficácia diminuída?</p>
@@ -126,5 +278,48 @@ function toggleLang(lang) {
 <p><strong>Meishu-Sama:</strong> Isso provavelmente se deve a uma certa debilidade da pessoa. É uma espécie de leve anemia cerebral, causada por toxinas acumuladas na região occipital.</p>
 <p><strong>Pergunta:</strong> Ouvi de terceiros que, na época em que nossa prática era chamada de terapia, os ministrantes eram aconselhados a não usar barba. Isso procede?</p>
 <p><strong>Meishu-Sama:</strong> A barba foi concedida por Deus ao homem porque ele necessita de dignidade. Não há problema algum em usá-la. Quanto ao cabelo, é melhor que seja longo. O cabelo curto é o estilo dos monges e, em outros países, dos presidiários; além disso, transmite uma aparência militarista. Nos dias de hoje, em que nos tornamos mais internacionalizados, o cabelo comprido é mais apropriado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年11月8日） 『御光話録』1号、昭和23(1948)年12月8日発行 十一月八日（月） ――夢をみているとき霊は脱けていると伺いましたが、眠っている間の御浄霊はある程度効果は少ないのでしょうか？ そんなことはありません。<br/><br/>霊と霊体は違うんですから。<br/><br/>霊体のほうは夢をみていたって同じ状態です。<br/><br/>抜けて出るのはだいたい副霊です。<br/><br/> ――御浄霊のとき「この病人が一日も早く治りますように……」と観音様にお願いする気持ちになりますが、やはりこれも抑えたほうがよろしいでしょうか？ 抑えなくて結構ですよ。<br/><br/>抑えたほうがよいと言いましたか？ それはなにか間違ったのでしょう。<br/><br/>観音様にお祈りしお願いするという気持ちが本当です。<br/><br/>特に危急の場合は、「大先生、御守護をお願い申し上げます」と言ったらよろしい。<br/><br/>そのときは私が神様の代理になりますから。<br/><br/>しかし、ふだんなんでもないのにやられてはこっちは困りますがね。<br/><br/> ――お地蔵様をいままで祀っていた人が、それをそのままにしてどこかへ引っ越してしまったあとへ移り住む場合、お地蔵様はいかがいたしたらよろしいでしょうか？ やはり祀って上げたほうがいいですね。<br/><br/>たいへんな功徳です。<br/><br/>祀ると言ってもお花を絶やさぬように上げ、またときどきごはんを上げるくらいでよろしい。<br/><br/>……その人が祀るのを嫌がったらあなたの所へ持ってきて祀ったらいいじゃありませんか。<br/><br/>その人が納得すれば勿論その家のほうがいいですが。<br/><br/> ――よく頭の落ちたりしているのも見うけますが？ ええ、あまりひどく痛んでいるのなら直したらいいですね。<br/><br/>無理に鼻を削ったりしたら罰があたるかもしれませんが直すのなら結構です。<br/><br/>やはりいままで祀られていたのなら祀るぺきであって、祀らないとなにか祀ってもらいたいための知らせをするかもしれません。<br/><br/>祀る位置は多少変わってもかまいません。<br/><br/> ――前々回「救いと裁き」についてありがたいお言葉をいただきましたが重ねてお伺い申し上げます。<br/><br/>私どもは日常しばしば他人を批評いたしますが、これも人間には僭越なことでしょうか。<br/><br/>他人の批判により向上を期し得られるとも考えますが、この点いかがでございましょうか。<br/><br/> 批判したってかまわない、そんなに固苦しく考えなくてもいいのです。<br/><br/>けれどもね、あの人はいいとか悪いとか決めることはいけないのです。<br/><br/>いいとか悪いとかいうことは人間には判らないことだから。<br/><br/>殊にこっちが明るい気持ちで言うのならいいが、悪意をもってあの人はいいとか悪いとか言うのはいけないのです。<br/><br/>憎悪の心をもって言うのは罪になります。<br/><br/>それから自分が悪口を言われてそれを気にかけるようではまだ駄目です。<br/><br/>自分は天地に俯仰（ふぎょう）して愧（は）じざる行動をとっていればそれでよい。<br/><br/>……他の人からよく思われたいとか感謝されたいとか思うのは間違いです。<br/><br/>人の気に入ったり愛されたりするよりも、神様の気に入り神様から愛されたいとの気持ちでするのが本当です。<br/><br/>そうする場合、他の人々には悪くとられるかもしれません、しかしそれは気にする必要はないのです。<br/><br/>……私も以前はさんざん人から悪口を言われたものです。<br/><br/>大本時代にも、人々を信者にして大本の本部の亀岡へ送るとそれっきりなんとも言ってこない。<br/><br/>でよく調べたら、亀岡へ行くと「岡田は邪神だから近寄ってはいけない」と言われるのでみんな離れてしまったのです。<br/><br/>こんな理屈に合わぬことはないですよ。<br/><br/>向こうはこっちが邪神だと思ったかもしれないが、こっちは向こうが邪神だと判ったので大本を離れたのです。<br/><br/>……人から悪口を言われるのは、霊的にはこっちの罪をその人がとってくれるのです。<br/><br/>だからむしろありがたいのです。<br/><br/>その代わり悪口を言うほうは罪を着るのです。<br/><br/> ――お弟子方につき「ああなればよい」とか、「こうなればよいのだが……」というふうにいろいろ考えがちですが、これも執着でございましょうか？ それは信仰がないからだ。<br/><br/>神様を信用してないからです。<br/><br/>すべて神様がやっておられるんですからね。<br/><br/>……神様にお任せするという気持ちになるにはよほど修行がいるんですね。<br/><br/>どうも世間の人々は人間的に考えては苦しんでいるんですよ。<br/><br/>私は問題に直面して適当な案がないときは神様にお任せするのです。<br/><br/>……また他の人がしたいということは間違っていてもやらせてしまうのです。<br/><br/>それはやりたいと思っているとき注意してもなかなか悟れない。<br/><br/>行き詰まって初めて気がつくのです…… ――行き詰まったか否かはどうして判断すべきでしょうか？ それはすぐ判りますよ、行き詰まったときは気がついて自分で苦しみますから。<br/><br/>……神様のほうだって「俺にそんなに任せるんならちゃんとしてやろう」ということになるのです。<br/><br/>だからすべてお任せしたらいいのです。<br/><br/> ――よくどっちをとってよいか選択に迷うことがありますが、ある所では、なにか「こより」のようなものを観音様にお供えし、それを「オミクジ」を引くように頑是（がんぜ）ない子供にとらせて迷っていることを決めるそうですが、だいたいうまく行くとのことでした。<br/><br/> ええ、それはいいですよ。<br/><br/> ――『信仰雑話』中に「夏暑いのは地球が息を吐くためである」と拝見いたしますが、 （一）赤道の南北で夏冬が反対になること、 （二）赤道地帯が常に暑いこと、についてお伺い申し上げます。<br/><br/> 反対になるのは上下になるからで、地球の息、すなわち地霊は縦に上下するから、従ってそれから遠い南北の極は寒いのです。<br/><br/> ――ふつうは南北の極を結んで地軸と申しますが……？ それは考え方の違いですが、南北の極は両横と考え、また霊気は赤道の面を上下していると考えたらよい。<br/><br/>……地霊が出るときは晴で吸うときは雨です。<br/><br/>これを気象上は高気圧、低気圧といっているのです。<br/><br/>……日が長いとか短いとかいうがこれは太陽が地球の中心、赤道の面に沿ってまわる時日が長く、端になると短くなるのです。<br/><br/>……いまは学者は地動説を唱えてますが、これは嘘で不動説が本当です。<br/><br/>天動説はキリスト教から出ているのですが、初めてガリレオが地動説を唱えたとき異端として獄に投ぜられ拷問にかけられようとしたが、もう七十いくつの年なのでそれは免れたということです。<br/><br/>このころは封建的だったのですね。<br/><br/> ――不動説ということは、大先生様のみご存じのことでしょうか？ ええ、まあ一人だけでしょうね。<br/><br/> ――『聖書』の中には七の数字がよく出てまいりますが、いかなる意味でしょうか？ 七は完成の意味です。<br/><br/>言霊でも「ナリナル」などと、できあがることです。<br/><br/>だいたい『聖書』に限らず、一は初め、独一真神、二は陰陽、そこへ子が生まれて三、四は四方へ拡がる。<br/><br/>そこへ熱、火ができる……五、火によって氷が溶け水になる……六、今度は土ができて完成するのです……七、だからキリスト教では七日目に創成されたというわけで、七日目を安息日としているのです。<br/><br/>これは本当です。<br/><br/>それから八は開ける、九は「つくし」といって極点です。<br/><br/>十は経緯結ぶことでこれが本当の完成です。<br/><br/>いまは九の世でありこれから経緯すなわち東西文化を融合するのが観音教団の仕事なのです。<br/><br/>みんながつけているバッジの○に十はそれを表わしているのです。<br/><br/>十一は結んで始まる、二十一世紀というのは経緯が結んで始まる世紀というわけです。<br/><br/>二十で王となり、その上に最高の神様がお乗りになって世界を御経綸になるのです。<br/><br/>また、七は土が本当で片仮名の「ナ」も土になるのです。<br/><br/>……「ア行」は基音といって基本でありまた霊になるのです。<br/><br/>従って「ア行」には物質的な働きはないが、音としては最高です。<br/><br/>例えば「タカアマハラ」、「アタマ」などです。<br/><br/> ――片仮名、平仮名、漢字の起原とその働き、および漢字制限が行なわれたり、小学校で片仮名を教えませんが、これはいかに考えるべきでしょうか？ 漢字は一番古く、次は片仮名、一番新しいのは平仮名です。<br/><br/>また漢字は体で仮名が霊だからぜんぜん漢字をなくして仮名だけにしてしまうのはいけない。<br/><br/>言霊を表わすのは仮名ですから。<br/><br/>姓名判断でもいままでのは言霊の音は研究されてない。<br/><br/>字を見た感じとか、画数、陰陽、または五行で判断するがこれはその先生によってもいろいろ違う。<br/><br/>例えば大森の熊崎ケイゴという人は六を六画、五を五画としていました。<br/><br/>……絵なんかでは墨絵は霊で彩色画は体であり、また書は霊で絵は体になります。<br/><br/>漢字制限はいいですよ、必要ない字まで憶えることはいりません。<br/><br/>しかし片仮名はいりますね、英語なんか書くのはやはり片仮名でなければ、「とるーまん」では感じが出ません。<br/><br/>片仮名は霊であり男、火、直ですが、平仮名は体であり女、水、曲です。<br/><br/> ――平仮名の名前は画数をどのように数えるべきでしょうか？ 平仮名の画は「い」は二画、「ろ」は一画です。<br/><br/> ――御軸を初めて拝んだとたん一丈ほど落ちた感じがし、また頭を上げたら元の高さまで上がった感じがしたという信者がありましたがなぜでしょうか？ それは少し頭が悪いのでしょう。<br/><br/>一種の軽い脳貧血ですよ。<br/><br/>後頭部に毒がある。<br/><br/> ――以前治療時代に、治療士は髭を生やさぬようにと外の方から聞きましたがこれはいかがでしょうか？ 髭は男には威厳が必要だから神様がくださったのです。<br/><br/>生やしたって差し支えありませんよ。<br/><br/>……頭の毛は伸ばしたほうがいいですね。<br/><br/>頭を短くするのは坊主の型でもあり、また外国では懲役人だし、軍国主義的にも見えますからね。<br/><br/>国際的になってきた今日、やはり伸ばしたほうがいいですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

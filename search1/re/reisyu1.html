@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisyu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊主体従 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 そうして現代科学といえばもちろん唯物科学であり、唯物科学とは目に見え、手に触るる形あるものを対象として研究し進歩したものであるから、あらゆる物象の表面だけがある程度判ったに過ぎないのであって、その内面に存在する重要なある物に気付かなかったのである。<br><br>このある物とは何かというと、これこそ無に等しいもので、名付けて霊という。<br><br>この霊なるものこそあらゆる物象の主体であって、この事の認識が出来ない限り、何程科学が進歩したといっても、それは半分の進歩であり、跛行的でしかない以上、正しい文化の生まれるはずはないのであるから、この事が明らかになって初めて今まで不可解とされていたあらゆる問題も、容易に解決されるのである。<br><br>何となれば一切は霊が主で体が従であり、霊主体従が万有の法則であるからである。<br><br>一例を挙げれば人間が四肢五体を動かすのも、眼に見えざる意志の命によるので、決して五体が勝手に動くのではないと同様である。<br><br>ゆえに奇蹟といえども本原は霊に起り、体に移写するのであるから、この理をまず確認する事である。<br><br>それには病気が最も分り易いから、これによって説明してみよう。<br><br> 元来病気とは肉体に現われた現象であり、結果であって、もちろん本原は霊にある。<br><br>すなわち最初霊の一部または数個所に曇りが発生し、それが体に映って病気となるのであるから、この曇りさえ払拭（ふっしょく）すれば治るのは明らかである。<br><br>このように病原は霊にある以上、体のみを対象とする医学で治らないのも当然であり、対症療法の名がそれである。<br><br>これにみても現代医学は全く見当違いである以上、一日も早くこれに目覚めて、再出発されなければならないのである。<br><br>しかもこの無智の結果、いかに多くの犠牲者が作られ、悲惨な運命に泣いている現状は、到底黙止出来ないのである。<br><br>ところが喜ぶべし、ここに神の救いは現われたのである。<br><br>すなわちこの誤れる医学を革正すべき大任を、神は私に委ねられたのみか、この過誤はひとり医学のみではない。<br><br>あらゆる文化面に亘（わた）っているのであって、今一つの例を挙げてみよう。<br><br>それは多くの犯罪である。<br><br>これも病気と同様表面に現われた結果であり、その病原は霊すなわち魂にあるにかかわらず、それに気がつかないため、これも医学と等しく対症療法すなわち刑罰をもって解決しようとしているが、これも一時的膏薬（こうやく）張りでしかないから、何程骨を折っても犯罪は依然として浜の真砂（まさご）である。<br><br>ゆえにこの魂の改造こそ、宗教以外にはあり得ないのであるから、この事も早急に気付かねばならない。<br><br>以上のごとき二大事実によっても明らかなごとく原因は霊を無視するところにあるので、これを徹底的に知らせる手段としての奇蹟である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Primazia do Espírito sobre a Matéria</h2>
 <p>A ciência moderna é, inegavelmente, uma ciência materialista. Como tal, seu progresso se deu pela pesquisa de objetos visíveis e tangíveis. Consequentemente, ela logrou compreender, até certo ponto, apenas a superfície de todos os fenômenos, sem jamais perceber a existência de um elemento crucial em seu interior. E que elemento seria esse? Trata-se de algo que se assemelha ao imaterial, ao qual damos o nome de espírito.</p>
@@ -100,5 +450,48 @@ function toggleLang(lang) {
 <p>Para elucidar essa questão, a doença se apresenta como o exemplo mais claro, e por meio dele farei minha explanação. Em sua essência, a doença é um fenômeno que se manifesta no corpo físico, sendo, portanto, um resultado. Sua causa primordial, contudo, reside no espírito. Isto é, primeiramente, surgem máculas em uma ou mais partes do espírito, as quais, ao se refletirem no corpo, dão origem à enfermidade. Fica evidente, pois, que a cura se alcança pela purificação dessas máculas. Nesse sentido, visto que a causa da doença se encontra no espírito, é natural que a medicina, ao se ater exclusivamente ao corpo, seja incapaz de curá-la. O próprio nome “terapia sintomática” corrobora essa afirmação. Isso demonstra que a medicina moderna está fundamentalmente equivocada e precisa despertar para essa realidade o quanto antes, a fim de trilhar um novo caminho. Ademais, é impossível permanecer em silêncio diante da realidade atual, em que, como resultado dessa ignorância, inúmeras vítimas são produzidas e lamentam seu trágico destino.</p>
 <p>Entretanto, regozijemo-nos, pois a salvação de Deus manifestou-se. Ele não apenas me confiou a grandiosa missão de corrigir essa medicina equivocada, como também revelou que tal equívoco não se restringe unicamente a ela; ele se estende a todos os âmbitos da cultura. Apresentarei mais um exemplo: a criminalidade. Assim como a doença, o crime é um resultado que se manifesta na superfície. Embora sua causa resida no espírito, ou seja, na alma, a sociedade não se dá conta disso. Por essa razão, tenta-se solucioná-lo por meio de uma terapia sintomática análoga à da medicina: a punição. Contudo, tal medida não passa de um paliativo temporário. Por mais que se envidem esforços, a criminalidade permanece tão numerosa quanto os grãos de areia na praia. Por conseguinte, a reforma da alma humana só pode ser alcançada por meio da religião, e é imperativo que a humanidade se conscientize disso com a máxima urgência.</p>
 <p>Como fica evidente por esses dois grandes fatos, a causa fundamental de tais problemas reside na ignorância em relação ao espírito. Nesse contexto, os milagres representam o meio pelo qual essa verdade será plenamente revelada a todos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊主体従 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 そうして現代科学といえばもちろん唯物科学であり、唯物科学とは目に見え、手に触るる形あるものを対象として研究し進歩したものであるから、あらゆる物象の表面だけがある程度判ったに過ぎないのであって、その内面に存在する重要なある物に気付かなかったのである。<br/><br/>このある物とは何かというと、これこそ無に等しいもので、名付けて霊という。<br/><br/>この霊なるものこそあらゆる物象の主体であって、この事の認識が出来ない限り、何程科学が進歩したといっても、それは半分の進歩であり、跛行的でしかない以上、正しい文化の生まれるはずはないのであるから、この事が明らかになって初めて今まで不可解とされていたあらゆる問題も、容易に解決されるのである。<br/><br/>何となれば一切は霊が主で体が従であり、霊主体従が万有の法則であるからである。<br/><br/>一例を挙げれば人間が四肢五体を動かすのも、眼に見えざる意志の命によるので、決して五体が勝手に動くのではないと同様である。<br/><br/>ゆえに奇蹟といえども本原は霊に起り、体に移写するのであるから、この理をまず確認する事である。<br/><br/>それには病気が最も分り易いから、これによって説明してみよう。<br/><br/> 元来病気とは肉体に現われた現象であり、結果であって、もちろん本原は霊にある。<br/><br/>すなわち最初霊の一部または数個所に曇りが発生し、それが体に映って病気となるのであるから、この曇りさえ払拭（ふっしょく）すれば治るのは明らかである。<br/><br/>このように病原は霊にある以上、体のみを対象とする医学で治らないのも当然であり、対症療法の名がそれである。<br/><br/>これにみても現代医学は全く見当違いである以上、一日も早くこれに目覚めて、再出発されなければならないのである。<br/><br/>しかもこの無智の結果、いかに多くの犠牲者が作られ、悲惨な運命に泣いている現状は、到底黙止出来ないのである。<br/><br/>ところが喜ぶべし、ここに神の救いは現われたのである。<br/><br/>すなわちこの誤れる医学を革正すべき大任を、神は私に委ねられたのみか、この過誤はひとり医学のみではない。<br/><br/>あらゆる文化面に亘（わた）っているのであって、今一つの例を挙げてみよう。<br/><br/>それは多くの犯罪である。<br/><br/>これも病気と同様表面に現われた結果であり、その病原は霊すなわち魂にあるにかかわらず、それに気がつかないため、これも医学と等しく対症療法すなわち刑罰をもって解決しようとしているが、これも一時的膏薬（こうやく）張りでしかないから、何程骨を折っても犯罪は依然として浜の真砂（まさご）である。<br/><br/>ゆえにこの魂の改造こそ、宗教以外にはあり得ないのであるから、この事も早急に気付かねばならない。<br/><br/>以上のごとき二大事実によっても明らかなごとく原因は霊を無視するところにあるので、これを徹底的に知らせる手段としての奇蹟である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

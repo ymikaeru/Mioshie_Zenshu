@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 所感 私の特技 瓢箪 『地上天国』53号、昭和28(1953)年10月25日発行 私が明主様の御側において戴くようになってから間もなくのことである。<br><br>勿論明主様の御傘下に参じた以上、人類救済の大業の為どんなことでもさしていただくべく、大いに喜び勇んで何かと御用をさして戴いてはいたが、そのような大きい夢と自分の無能盲目や虫の如き小心との間に恐ろしくギャップがあって、常に大きい疑念や空虚に襲われた。<br><br>そうして将来に望みをかける時誰でもそうであろうようにまず何よりも自分の使命を知りたくなったので、「私は一体どういう役目で、差当り何を致したら宜しゅうございましょうか」と明主様にお伺いした。<br><br>すると忘れもしない、明主様は即座に「お前は内務のことをする役目だから家にじっとしていればいい。<br><br>当分短歌や俳句を作ったり絵をかいたり芸術的なことをして遊んでおればいいよ」と実に含蓄ふかいお言葉を下された。<br><br>当時の財政的御苦難も何等御介意なく私を極高級な居候にして下さる訳である。<br><br>それは何という測り難い思召なのであろう。<br><br>困難を厭わぬ御用を期した私は度胆を抜かれたような拍子抜けを感じたと共に、温かく偉大な御度量に抱かれたような明るさ力強さに胸開くる感がした。<br><br>そして又時として外部的活躍を望む心にもギクリと釘を打たれた訳でもあった。<br><br>私は当然有難い御言葉通り素直に直進さして戴くべきだったが、現実はそこまで信仰も至らぬし、芸術に専念し絵や歌を身につけるほどの意力も能力もなく、特に明主様が日夜御神務に御勤しみになられているを拝しては自分だけただ茫然として遊んでいるのも楽ではなかった。<br><br>そしてついあらぬ方へ働こうとするが同僚達のように一人前のことは何もできなかった。<br><br>その内宗教の新聞の戸別売が始められ、私も大いに張切って参加し、岡庭通明君と毎日出かけたが、身心共に忍耐力のない私はすぐに挫けてどうしても成績が上らず誰にもおとる我身を悲観していると、明主様から「お前は家にいて御用せよ」との御言葉を賜わりホッとした。<br><br>それから暫くして文芸の会をお始めになり、前記の如く筆と声との御用を仰せ付け給わって、誰も追随せぬ独自の境地が開け私の存在価値も大いに高まったと共に、初めてお役に立ち得ると心足ろう歓喜が訪れた。<br><br>思えば薬毒特に多く、誰の眼にも無能者とみられたレベル以下の怪物だった私の特殊技能を最初から御観破になり、御使い給わる時来るまで遊んでいるよう御指示給わったのであった。<br><br> それから二十数年間、果して御言葉通り内務的御用をさしていただいたが、大御徳の御力によって順調に進まして戴くにつれいつしか華々しい外部的活動にも魅惑を感じ、夢想のまつわりに苦しみ、それが一つの執着ともなり更に自己の能力を錯覚過信するに至って大失敗をし、正に自滅せんとするのを明主様にお救い戴いた。<br><br>そして私は自己の過責を償うべく種々焦慮努力したが、すべて開展する兆さえみえなかった。<br><br>そして失意の心底に千鈞の重味を以てひそんでいたもの、それは二十数年前に賜わった「芸術的の事をして遊んでおれ」との御言葉であったのには愕然とした。<br><br>千辛万苦して到達し得たものは、自分は明主様の御言葉以外のことは何一つなし得る能力はないということで、そして最近再び「したいことして遊んでおれ」の御言葉賜わるに及び昔の御言葉を思い出して今更ながら御神眼の素晴らしさと、御言葉の絶対権威に低頭讃歎息止る思いであると共に、今漸く自己の愚を悟りかけた愚につくずく愛想つきる思いである。<br><br> まことに明主様よりの御下命こそ人間の使命であり、主の大神から直接賜う受命である。<br><br>吾々はその御命に進む外、生くる道も幸福の道もない。<br><br>これ故に、今こそすべての人々は明主様の示される御言葉を守る外救われる道は絶対にないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Vocação Especial</h2>
 <p>Pouco tempo após receber a honra de servir ao lado de Meishu-Sama, vivi uma experiência marcante. Embora eu tivesse me juntado à Obra Divina com o grande anseio de me dedicar de todas as formas à salvação da humanidade, existia um abismo aterrador entre esse nobre ideal e a minha própria incapacidade, minha cegueira e minha natureza tímida, quase insignificante. Por essa razão, eu era constantemente assaltado por profundas dúvidas e por um sentimento de vazio.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>E assim, ao longo de mais de duas décadas, servi nos assuntos internos, exatamente como Ele havia orientado. Contudo, à medida que a Obra Divina prosperava sob Sua imensa virtude, deixei-me seduzir pelo fascínio das atividades externas, mais vistosas. Fui atormentado por fantasias que se transformaram em apego, levando-me a superestimar minhas próprias capacidades de forma ilusória. O resultado foi um erro colossal que quase me conduziu à autodestruição, da qual fui salvo por Meishu-Sama. Na tentativa de redimir minha falta, esforcei-me de diversas maneiras, movido pela ansiedade, mas nenhum dos meus esforços demonstrou o menor sinal de êxito.</p>
 <p>Foi então, no fundo da minha desolação, que uma lembrança emergiu com um peso esmagador: as palavras que me foram concedidas mais de vinte anos antes – “Dedique-se a atividades artísticas como passatempo”. A constatação foi avassaladora. Após inúmeras provações e sofrimentos, a única verdade à qual cheguei foi a de que sou incapaz de realizar qualquer coisa que não esteja em conformidade com as palavras de Meishu-Sama. Recentemente, ao receber novamente as palavras “Faça o que gosta e divirta-se”, a lembrança do passado retornou com força total. Sinto-me sem fôlego, curvando-me em admiração e louvor diante da perfeição de Sua visão divina e da autoridade absoluta de Suas palavras. Ao mesmo tempo, sinto um profundo fastio por minha própria estupidez, por só agora começar a vislumbrar a dimensão da minha insensatez.</p>
 <p>Em verdade, a ordem vinda de Meishu-Sama é a própria missão do ser humano, o desígnio recebido diretamente do Deus Supremo. Fora do caminho traçado por essa ordem, não há vida nem felicidade para nós. Portanto, hoje e sempre, a única e absoluta senda para a salvação da humanidade consiste em seguir fielmente as palavras que nos são reveladas por Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 所感 私の特技 瓢箪 『地上天国』53号、昭和28(1953)年10月25日発行 私が明主様の御側において戴くようになってから間もなくのことである。<br/><br/>勿論明主様の御傘下に参じた以上、人類救済の大業の為どんなことでもさしていただくべく、大いに喜び勇んで何かと御用をさして戴いてはいたが、そのような大きい夢と自分の無能盲目や虫の如き小心との間に恐ろしくギャップがあって、常に大きい疑念や空虚に襲われた。<br/><br/>そうして将来に望みをかける時誰でもそうであろうようにまず何よりも自分の使命を知りたくなったので、「私は一体どういう役目で、差当り何を致したら宜しゅうございましょうか」と明主様にお伺いした。<br/><br/>すると忘れもしない、明主様は即座に「お前は内務のことをする役目だから家にじっとしていればいい。<br/><br/>当分短歌や俳句を作ったり絵をかいたり芸術的なことをして遊んでおればいいよ」と実に含蓄ふかいお言葉を下された。<br/><br/>当時の財政的御苦難も何等御介意なく私を極高級な居候にして下さる訳である。<br/><br/>それは何という測り難い思召なのであろう。<br/><br/>困難を厭わぬ御用を期した私は度胆を抜かれたような拍子抜けを感じたと共に、温かく偉大な御度量に抱かれたような明るさ力強さに胸開くる感がした。<br/><br/>そして又時として外部的活躍を望む心にもギクリと釘を打たれた訳でもあった。<br/><br/>私は当然有難い御言葉通り素直に直進さして戴くべきだったが、現実はそこまで信仰も至らぬし、芸術に専念し絵や歌を身につけるほどの意力も能力もなく、特に明主様が日夜御神務に御勤しみになられているを拝しては自分だけただ茫然として遊んでいるのも楽ではなかった。<br/><br/>そしてついあらぬ方へ働こうとするが同僚達のように一人前のことは何もできなかった。<br/><br/>その内宗教の新聞の戸別売が始められ、私も大いに張切って参加し、岡庭通明君と毎日出かけたが、身心共に忍耐力のない私はすぐに挫けてどうしても成績が上らず誰にもおとる我身を悲観していると、明主様から「お前は家にいて御用せよ」との御言葉を賜わりホッとした。<br/><br/>それから暫くして文芸の会をお始めになり、前記の如く筆と声との御用を仰せ付け給わって、誰も追随せぬ独自の境地が開け私の存在価値も大いに高まったと共に、初めてお役に立ち得ると心足ろう歓喜が訪れた。<br/><br/>思えば薬毒特に多く、誰の眼にも無能者とみられたレベル以下の怪物だった私の特殊技能を最初から御観破になり、御使い給わる時来るまで遊んでいるよう御指示給わったのであった。<br/><br/> それから二十数年間、果して御言葉通り内務的御用をさしていただいたが、大御徳の御力によって順調に進まして戴くにつれいつしか華々しい外部的活動にも魅惑を感じ、夢想のまつわりに苦しみ、それが一つの執着ともなり更に自己の能力を錯覚過信するに至って大失敗をし、正に自滅せんとするのを明主様にお救い戴いた。<br/><br/>そして私は自己の過責を償うべく種々焦慮努力したが、すべて開展する兆さえみえなかった。<br/><br/>そして失意の心底に千鈞の重味を以てひそんでいたもの、それは二十数年前に賜わった「芸術的の事をして遊んでおれ」との御言葉であったのには愕然とした。<br/><br/>千辛万苦して到達し得たものは、自分は明主様の御言葉以外のことは何一つなし得る能力はないということで、そして最近再び「したいことして遊んでおれ」の御言葉賜わるに及び昔の御言葉を思い出して今更ながら御神眼の素晴らしさと、御言葉の絶対権威に低頭讃歎息止る思いであると共に、今漸く自己の愚を悟りかけた愚につくずく愛想つきる思いである。<br/><br/> まことに明主様よりの御下命こそ人間の使命であり、主の大神から直接賜う受命である。<br/><br/>吾々はその御命に進む外、生くる道も幸福の道もない。<br/><br/>これ故に、今こそすべての人々は明主様の示される御言葉を守る外救われる道は絶対にないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

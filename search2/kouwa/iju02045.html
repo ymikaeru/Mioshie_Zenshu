@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju02045</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（二）上体及び中体 ４ 045-065 頸部、咽喉 045 喉頭癌、（危険性病人による御奉斎） 喉頭癌の人で五十七歳（男）、教修も受け光明如来の御霊鎮もしていただきましたが、楽にならないので御守護願いを致しましたが、あまり変化がありませんが、いかがいたしたらよいでしょうか。<br><br> 喉頭癌は声出ず、食少い。<br><br>固形物とれぬ。<br><br>レントゲン放射しなければ治る。<br><br> 患部と後ろに塊がある。<br><br>指で溶かす。<br><br>霊力が強くないと溶けない。<br><br>ラジウムまたはレントゲンで固めたのは駄目である。<br><br>絶対に溶けぬ。<br><br>ラジウムは組織を破壊する。<br><br> 生命にかかわる病人は教修を受けたり光明如来様をお迎えしてはいけない。<br><br> 急所を外れ、見当違いすると苦痛をよけい増す。<br><br>（S24.11.26） 046 喉頭結核、喀血、痰切れわるし 昨年八月喉頭結核をやり、三ケ月程にて医療で治ったある男子（三十一歳）、本年二月頃再発し四月頃より本教の御浄霊を受けております。<br><br>最初は三十九度位の熱がありまして、毎日非常に沢山の汗が出ました。<br><br>近頃は大変楽になったようでした。<br><br>先月末御光を頂きましたら翌日初めて二合位の喀血をし、少々進んでいた食欲が減退し、痰の切れが悪く、苦しいと申しております。<br><br>また、左耳下腺付近の所にグリグリが七ツ八ツ出来ており、頭がフラフラして起き上る事は出来ません。<br><br>御浄霊はどういうようにすべきでしょうか。<br><br>御伺い致します。<br><br>また、家の真北より少し東寄りに床の間の後ろに便所がありますが、右の病気と関係がありましょうか。<br><br>御教示願います。<br><br> 耳下腺付近のグリグリは大変結構で、喀血も結構である。<br><br>痰の切れのわるいのは奥の固まったのが出る古い痰であるためで、その熱のため食欲不振となる。<br><br>止めた薬の浄化が恐い。<br><br>浄霊は悪い所だけでいい。<br><br>肩の次は腎臓である。<br><br>便所は関係ない。<br><br>（S24. 6. 6） 047 喉頭結核、淋巴腺と腹膜（難症） 本年二十七歳の男子、一月末頃より両淋巴腺部に固結を生じ、食物が不進になり、音声には変化なく、医師の診断により喉頭結核とされ、二月初めストレプトマイシンを五本致しましたが何等効果もなく、段々固結が多く腫脹し苦痛を感じるようになり、二月十九日に教修を戴き、三月八日、大先生様の御面会を戴き、後非常に元気になりましたが、三月二十二日より急に発熱し四十度の高熱と下痢を伴い、三十七日間続き、漸次衰弱、親類の人達が心配し医師に見せましたところ、今度は腸結核と診断、手当の致しようも無いとの事で御座いますが、御浄霊は毎日致しておりますが、現在三十八度程度の熱、食事は二杯ずつ三度戴いておりますが、いかがで御座いましょうか。<br><br>御教示御願い致します。<br><br> 喉頭結核ではない。<br><br>淋巴腺を固めたのであろう。<br><br>声が嗄れるのは喉頭結核である。<br><br>食欲不振は熱のためで、淋巴腺の腫れる人は必ず腹膜がある。<br><br>固まる腹膜である。<br><br> 熱が出て治りつつあり、ただその熱で衰弱する恐れがある。<br><br>浄霊をドシドシして熱を除るといいが、こうなった以上は固めても生命に係わる。<br><br>実に厄介である。<br><br>どっちとも言えぬ。<br><br> 048 盲腸除去より喉頭結核（難症） 謹んで御伺い申し上げます。<br><br>本年二十四歳の女子ですが、昭和十六年に盲腸炎を切取り、その後十八年頃結核になり、色々と手当しましたがだんだん衰え、今日では喉頭結核になりました。<br><br>今後どうなりましょうか。<br><br> まだ肋骨付近に毒があるので、横になると圧迫する。<br><br>横隔膜付近にもある。<br><br>痰に毒があり、息切れがある。<br><br>急いで治さぬようにする。<br><br>衰弱せぬよう注意するのが肝腎である。<br><br>（S24. 1.26） 049 甲状腺腫（バセドー氏病） 未入信の十一歳の女子、最近甲状腺腫に罹り、医師の診断で子供の事ゆえ手術も出来ないから手当の方法なしと云われ、浄霊を受けにこられ、二、三回の御浄霊にて大変血色もよくなり、食欲も増し元気になって参りましたが、以前より少し腫れて来ましたので心配し現在また医者にかかっております。<br><br>なお二年前、頸部淋巴腺腫脹した時電気で固めた事があります。<br><br>また、同人の兄弟二人疫痢で死亡しましたが、その霊を家に祀らず本家でお祀りしております。<br><br>いかなる因縁によるのでしょうか。<br><br>御伺い申し上げます。<br><br> バセドー氏病である。<br><br>腫れたのは大変結構で、半分治ったものである。<br><br>孔が開いて膿が出て治る。<br><br>赤くなって終にはブラ下る。<br><br>そして小さい穴が開いて出る。<br><br>医者へ行ってまた元通り戻した。<br><br>腫れるのはどんなに大きくなっても結構である。<br><br>（S24. 7.16） 050 バセドー氏病 八年前よりのバセドー氏病、咽喉の脹れは大した事はありませんが御浄霊を致しますと眼が激痛を起します。<br><br>どこを主に御浄霊したら宜しいでしょうか。<br><br> 眼と喉の腫れた所である。<br><br>割合い早く治る。<br><br>眼に一番関係がある。<br><br>（S24. 2. 2） 051 麻疹予後の咳、喉腫 麻疹の後咽喉が腫れたりジフテリアのような咳をしますが、どこを浄霊すればよろしいでしょうか。<br><br>御教示御願い申します。<br><br> 喉にある。<br><br>麻疹の毒が手当したために発疹し切れず、残したものである。<br><br>（S24. 6. 8） 052 喉腫物・呼吸困難（喉頭結核進行の特性） 私の母（四十六歳）が二週間程前より舌の奥（喉仏と称しています）に小豆大の疣のような物が出来、呼吸困難なため本人は咽喉結核のように思い込み、助からぬと申しております。<br><br>いかがなものでしょうか。<br><br>御教示願います。<br><br> 浄霊すれば必ず治る。<br><br>治らぬとしたら霊が通らぬのである。<br><br>これは腫れであるから簡単に治る。<br><br>喉頭結核は少しずつ悪くなるものである。<br><br>結核ならば古くやっている教導師に頼む。<br><br>（S24. 6.28） 053 咽喉腫で呼吸困難 当年五十五歳の男、昨年三月より咽喉より気管にかけて腫れ（特に左側）、呼吸時苦痛を感じ、医師に診断を受けしが病名不明、治療困難との事、他の医師は黴菌作用に依るものとし、六百六号を十五本、ペニシリン十本を注射せるも何の効果なく、現在は益々呼吸困難及び苦痛と同時に舌廻りが悪くなって来たとの事ですが、右はいかなる原因によるもので御座いましょうか。<br><br>背部脊柱左側及び咽喉左側に微熱あり、固結も認められます。<br><br> こんなのは何でもない。<br><br>放任しておけば腫れて破れて治る。<br><br>中へ腫れて呼吸困難になって死ぬのがある。<br><br>打遣らかしておけばトマト大に腫れて治る。<br><br>根気よく、一日四回五回とやれば直に治る。<br><br>（S25. 5.23） 054 代用食以外の主食閊える 六十六歳になる母が白飯を頂く度毎に初めか終り頃に必ず一度は喉に詰り、暫くして治るまで胸が痛みますが、芋その他代用食ならば固形物でも決して詰りません。<br><br>その原因と浄霊法を御教示下さい。<br><br> 喉のどこかに脹れてる所とか疣などがある。<br><br>前横からする。<br><br> 055 咽喉痛の原因 昭和二十四年六月医者の診断を受け、急性気管支炎という病名にて暫く医者の施療をうけておりましたが効果なく、レントゲンで見ると右肺に曇りがあるとの注意を受け、心配しているうち入信させて頂き付近の人に浄霊を受けておりましたが、数ケ月後喉が痛み、声が嗄れてまいり、ただ今平良先生の御浄霊を三月十一日より通って受けております。<br><br>その結果顔色は良くなりましたが、喉の痛みは浄霊するととれますが十分間位後また痛みます。<br><br>食事は喉の痛みのため一膳位しか戴けず、心配しております。<br><br>私の家の者は浄霊は好まず、私は喉頭結核と存じます。<br><br>謹んで浄霊方法を御教え願います。<br><br> 原因は薬である。<br><br>薬が喉（両方へ）を通る時滲みる。<br><br>薬の分量によって長短がある。<br><br>浄霊をしなければ必ず死ぬ。<br><br>（S25. 4.27） 056 声出でず（吸入と塗布薬） 五十三歳の女の人ですが、昨年九月の初め頃より風邪を引き何ケ月も咳をしました。<br><br>その間二十日ばかり病院通いをして薬をつけたり吸入をかけたり致しまして、痛みはとれましたが声が出なくなりました。<br><br>一ケ月半程御浄霊を受けましたが、何となく咽喉に痰がふさがっているような気がすると申します。<br><br>声もやはり出るようになりませぬ。<br><br>御浄霊法を御教え下さい。<br><br> 浄霊者の力が足りない。<br><br>痰に毒素があり、声帯に毒がくっ着くため、弁の運転が悪く、声が出難いのである。<br><br> 後ろを多く浄霊せよ。<br><br>頸部の毒なども肝腎である。<br><br>（S24. 9. 8） 057 風邪より発声異常 三十九歳の女子、十六歳の時風邪に犯されてより音声が微かにしか出なくなりました。<br><br>最近御浄霊を約半月程続けますと発病当時の状態のように発熱し、痛みが出て参りました。<br><br>そのまま浄霊を続けさせていれば快くなって参りましょうか。<br><br> 良くならんがための浄化作用である。<br><br>声が出ぬのは弁の振動であるから、それが弁の所へ塊が出来て動きが悪くなっているのである。<br><br> 058 声嗄れの浄霊個所 私の父は一昨年暮より感冒のため声嗄れを致し、病状は進み、今年八月より右後頭部また右耳下腺に苦痛を覚え、咳や嚥下する度に苦痛を感じ、種々の療法を致しましたが何の効もありませんでした。<br><br>金沢医大の医師によれば声帯に腫脹が出来、切開しなければ全快しないとの事です。<br><br>十一月中旬より御浄霊を戴いています。<br><br>咳をする度に以前にも増して吐痰するようになりました。<br><br>右側面一帯に熱が増して来ました。<br><br>どこを重点に御浄霊したら良いかお教え下さい。<br><br> 一番熱のある所を浄霊すればよい。<br><br>いろんな療法をしたために治らなくしている。<br><br>（痰が出るのは結構で）気長にやれば治る。<br><br>耳下腺に毒が固まっているから、そこをやる。<br><br>喉はその延長である。<br><br>（S24.12.27） 059 嗄声患者（肺浸潤、ストマイ） 三十六歳の男子（信徒）、昭和二十二年七月下旬赤痢を患い約二十日間入院しました。<br><br>次に昭和二十三年八月より二ケ月肺浸潤にて通院しましたが嗄声になりかかり、本年二月には咽喉部が非常に痛み十日間入院、ストレプトマイシン八本注射、痛みはなくなるも少しも嗄声は治りません。<br><br>八月二十八日入信、浄霊を受けております。<br><br>浄霊を受けて一週間目頃より咽喉部が痛み出しました。<br><br>浄霊を続けていればよくなるでしょうか。<br><br>お伺い申し上げます。<br><br> よくなる。<br><br>中に毒が固まっていて溶ける。<br><br>（S24. 9.16） 060 眼球移植 先日、毎日新聞に死人の眼の角膜を盲人に移植することによって眼が見えるようになったと発表されておりましたが、いかなる理由によるものでございましょうか。<br><br>御伺い申し上げます。<br><br> 一時的のものである。<br><br>医学は一時的の事を大変な効果のあるように騒ぐ。<br><br>一時いいのでやる。<br><br>一時よくするのと根本的に良くするのと違う。<br><br>（S *.11.23） 061 蓄膿手術、（頬癌） 蓄膿症で浄霊により良い方に向っておりますが、医師は癌になるから今手術せよと申し、本人は迷っております。<br><br>浄霊で治って行く状態をお教え下さい。<br><br>また、手術した場合いかなりましょうか、あわせて御教示下さい。<br><br> 手術するとまた元通りになり、先より余計溜る。<br><br> 頬癌というのがある。<br><br>今迄たった一人あったが治った。<br><br> もし医学がなければ肺結核はなくなる。<br><br>結核は医学が作る。<br><br>身体中の毒は一旦肺へ行く。<br><br>それを柔かく溶かし、水のようにする。<br><br>そしてそれを痰にして排出する。<br><br>その時ラ音があると肺浸潤という。<br><br>そして咳など止める。<br><br>古くなると痰へ微生物が湧く。<br><br>これが結核菌である。<br><br>肺など決して悪くなるものでない。<br><br>（S23.10.25） rattail（注）ラ音＝ラッセル音 062 右頬手術激痛・顔腫（頸部） ある信者の未入信の妻（四十二歳）、昨年三月五日右頬下少し前の方が膨れて来ました。<br><br>何の苦痛も御座いませんでしたが、四月中頃より痛み出しましたので医師に診察を受けました所、結核性肉腫との事で手術、七月頃から再び激痛を感じだし、今度は額が腫れ、目も次第に開けなくなり、デコボコで、一見牛の顔のようで御座います。<br><br>痛み出しました時は御浄霊致しますと二、三十分で止りますが、御浄霊を致しませぬと痛みは中々止りません。<br><br>ただ今は胃のところに塊があり、時々臍の横まで上下致します。<br><br>主人が入信致しましてから一生懸命御浄霊致しておりますが、右の眼は見えなくなりまして、ただ今は左の頬から額が腫れ出して来ましてやはりデコボコになりつつあります。<br><br>また、右の眼球から肉の塊のような物が吹き出して来まして、時々眼球が大変痛みます。<br><br>この家は印材屋で、これまで水牛の角を使っておりましたが、二十二年秋から内地の牛の角を使用しております。<br><br>主人は十五、六歳の頃、蛇を殺した事があるそうで御座いますが、当人の症状と牛または蛇と何か霊的に関係が御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 関係はない。<br><br>単なる浄化である。<br><br>手術のためである。<br><br>気長に浄霊するうち腫れ切って孔が開き、血膿が出て治る。<br><br>眼球も治る。<br><br>元は左頸部の固結である。<br><br>（S25. 3.21） 063 バセドー氏病手術 一、当年四十一歳の婦人、数年前バセドー氏病にて手術をしてより今年になってまた咽喉が腫れてまいりました。<br><br>八月二十日より浄霊を受けております。<br><br>九月二十二日頃より発熱四十度前後にて、咳が激しく胸と背が痛み、我慢する事が出来ないと湿布を致しました。<br><br>幾分右の目が出たように感じます。<br><br>浄霊をどう致したら宜敷いでしょうか。<br><br> 二、今後どのような浄化が起りますでしょうか。<br><br>御指導お願い申します。<br><br> 手術したために溜 〔治〕 り方が悪くなった。<br><br>浄霊をウンとするといい。<br><br>（S24.10. 8） 064 淋巴腺手術 一、私の浄霊している患者で、昭和十六年頃より首の淋巴腺が度々腫れて、医者に通っておりましたところ、たまたまその人が下宿しておりました新宿の家の前に、楓の木の上に蛇がいたのを杖で叩き殺しました。<br><br>それからはその淋巴腺が物凄く腫れてきまして、数ケ所切って固結状のものを取りましたが、増々腫れる一方です。<br><br>一週間程前より御浄霊を始めておりますが、身体中がだるくなったと云います。<br><br>御浄霊で治りますでしょうか。<br><br> 二、また、いかなる因縁で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 手術すると悪い。<br><br>ウンと熱が出ると治る。<br><br>腫れた時手術すると腫れたのが止る。<br><br>そしてそこへ膿が寄らなくなる。<br><br>膿は中々敏感なものである。<br><br>（S24.10. 8） 065 耳下腺部の腫物を手術 二十四歳の女、十歳頃より右耳下腺部及び咽喉部に瘤が出来、手術すること三回、手術毎に大きくなり、現在の症状は左の通りであります。<br><br>（一）右側耳下腺右頬が腫れ、直径四寸位、高さ七、八分位の瘤があり、真赤にして凹凸あり、このところより膿が排出しております。<br><br>（二）咽喉部は丁度乳の張った乳房様のものが出来、下に垂れ、大きな乳房と同じ位で、上部に乳首様の形のものあり、下部はザクロのようにハジケており、そのところより膿が出ております。<br><br>（三）顔面並びに全身蒼白で、黄色味を帯びており、艶はありません。<br><br>（四）脊髄の彎曲はありません。<br><br>（五）歩行並びに動作は、直ぐ動悸を打ち苦しみます。<br><br> 昨年十一月より浄霊を続行しておりますが、十二月中旬頃より血色よく、以前は血の排出でしたが膿の排出となり経過良好でしたが、正月に餅を食べたためか多量の出血あり、爾来、貧血続き、右記のような状態であります。<br><br>この病気は何で御座いましょうか。<br><br>完全に治癒しますでしょうか。<br><br>特に必要な治療個所を御教示下さいませ。<br><br> 医者が作った病気である。<br><br>最初右耳下腺部に出来た時、真赤になり、孔が開き、膿が出て治る。<br><br>（構ったために毒の排泄が止まった。<br><br>私も経験があるが、腫物は決して突いたりしてはいけない）ちょっとでも孔を開けると集注する膿が止ってしまう。<br><br>これは膿の集溜が止ったのである。<br><br> 集溜止り、内側へ腫れたため、呼吸が詰り死んだ。<br><br>全く医学は野蛮人より無知である。<br><br> 浄霊していれば必ず治る。<br><br>（S24. 8. 8）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de ensaios do reverendo Jikanshi Okada — Sistema de busca dos Ensinamentos: help; busca de materiais: Tratado sobre a Arte de Curar (II), Parte superior e central do corpo</h2>
 <h3><strong>4. Região do pescoço e da garganta (045-065)</strong></h3>
@@ -184,5 +336,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（二）上体及び中体 ４ 045-065 頸部、咽喉 045 喉頭癌、（危険性病人による御奉斎） 喉頭癌の人で五十七歳（男）、教修も受け光明如来の御霊鎮もしていただきましたが、楽にならないので御守護願いを致しましたが、あまり変化がありませんが、いかがいたしたらよいでしょうか。<br/><br/> 喉頭癌は声出ず、食少い。<br/><br/>固形物とれぬ。<br/><br/>レントゲン放射しなければ治る。<br/><br/> 患部と後ろに塊がある。<br/><br/>指で溶かす。<br/><br/>霊力が強くないと溶けない。<br/><br/>ラジウムまたはレントゲンで固めたのは駄目である。<br/><br/>絶対に溶けぬ。<br/><br/>ラジウムは組織を破壊する。<br/><br/> 生命にかかわる病人は教修を受けたり光明如来様をお迎えしてはいけない。<br/><br/> 急所を外れ、見当違いすると苦痛をよけい増す。<br/><br/>（S24.11.26） 046 喉頭結核、喀血、痰切れわるし 昨年八月喉頭結核をやり、三ケ月程にて医療で治ったある男子（三十一歳）、本年二月頃再発し四月頃より本教の御浄霊を受けております。<br/><br/>最初は三十九度位の熱がありまして、毎日非常に沢山の汗が出ました。<br/><br/>近頃は大変楽になったようでした。<br/><br/>先月末御光を頂きましたら翌日初めて二合位の喀血をし、少々進んでいた食欲が減退し、痰の切れが悪く、苦しいと申しております。<br/><br/>また、左耳下腺付近の所にグリグリが七ツ八ツ出来ており、頭がフラフラして起き上る事は出来ません。<br/><br/>御浄霊はどういうようにすべきでしょうか。<br/><br/>御伺い致します。<br/><br/>また、家の真北より少し東寄りに床の間の後ろに便所がありますが、右の病気と関係がありましょうか。<br/><br/>御教示願います。<br/><br/> 耳下腺付近のグリグリは大変結構で、喀血も結構である。<br/><br/>痰の切れのわるいのは奥の固まったのが出る古い痰であるためで、その熱のため食欲不振となる。<br/><br/>止めた薬の浄化が恐い。<br/><br/>浄霊は悪い所だけでいい。<br/><br/>肩の次は腎臓である。<br/><br/>便所は関係ない。<br/><br/>（S24. 6. 6） 047 喉頭結核、淋巴腺と腹膜（難症） 本年二十七歳の男子、一月末頃より両淋巴腺部に固結を生じ、食物が不進になり、音声には変化なく、医師の診断により喉頭結核とされ、二月初めストレプトマイシンを五本致しましたが何等効果もなく、段々固結が多く腫脹し苦痛を感じるようになり、二月十九日に教修を戴き、三月八日、大先生様の御面会を戴き、後非常に元気になりましたが、三月二十二日より急に発熱し四十度の高熱と下痢を伴い、三十七日間続き、漸次衰弱、親類の人達が心配し医師に見せましたところ、今度は腸結核と診断、手当の致しようも無いとの事で御座いますが、御浄霊は毎日致しておりますが、現在三十八度程度の熱、食事は二杯ずつ三度戴いておりますが、いかがで御座いましょうか。<br/><br/>御教示御願い致します。<br/><br/> 喉頭結核ではない。<br/><br/>淋巴腺を固めたのであろう。<br/><br/>声が嗄れるのは喉頭結核である。<br/><br/>食欲不振は熱のためで、淋巴腺の腫れる人は必ず腹膜がある。<br/><br/>固まる腹膜である。<br/><br/> 熱が出て治りつつあり、ただその熱で衰弱する恐れがある。<br/><br/>浄霊をドシドシして熱を除るといいが、こうなった以上は固めても生命に係わる。<br/><br/>実に厄介である。<br/><br/>どっちとも言えぬ。<br/><br/> 048 盲腸除去より喉頭結核（難症） 謹んで御伺い申し上げます。<br/><br/>本年二十四歳の女子ですが、昭和十六年に盲腸炎を切取り、その後十八年頃結核になり、色々と手当しましたがだんだん衰え、今日では喉頭結核になりました。<br/><br/>今後どうなりましょうか。<br/><br/> まだ肋骨付近に毒があるので、横になると圧迫する。<br/><br/>横隔膜付近にもある。<br/><br/>痰に毒があり、息切れがある。<br/><br/>急いで治さぬようにする。<br/><br/>衰弱せぬよう注意するのが肝腎である。<br/><br/>（S24. 1.26） 049 甲状腺腫（バセドー氏病） 未入信の十一歳の女子、最近甲状腺腫に罹り、医師の診断で子供の事ゆえ手術も出来ないから手当の方法なしと云われ、浄霊を受けにこられ、二、三回の御浄霊にて大変血色もよくなり、食欲も増し元気になって参りましたが、以前より少し腫れて来ましたので心配し現在また医者にかかっております。<br/><br/>なお二年前、頸部淋巴腺腫脹した時電気で固めた事があります。<br/><br/>また、同人の兄弟二人疫痢で死亡しましたが、その霊を家に祀らず本家でお祀りしております。<br/><br/>いかなる因縁によるのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> バセドー氏病である。<br/><br/>腫れたのは大変結構で、半分治ったものである。<br/><br/>孔が開いて膿が出て治る。<br/><br/>赤くなって終にはブラ下る。<br/><br/>そして小さい穴が開いて出る。<br/><br/>医者へ行ってまた元通り戻した。<br/><br/>腫れるのはどんなに大きくなっても結構である。<br/><br/>（S24. 7.16） 050 バセドー氏病 八年前よりのバセドー氏病、咽喉の脹れは大した事はありませんが御浄霊を致しますと眼が激痛を起します。<br/><br/>どこを主に御浄霊したら宜しいでしょうか。<br/><br/> 眼と喉の腫れた所である。<br/><br/>割合い早く治る。<br/><br/>眼に一番関係がある。<br/><br/>（S24. 2. 2） 051 麻疹予後の咳、喉腫 麻疹の後咽喉が腫れたりジフテリアのような咳をしますが、どこを浄霊すればよろしいでしょうか。<br/><br/>御教示御願い申します。<br/><br/> 喉にある。<br/><br/>麻疹の毒が手当したために発疹し切れず、残したものである。<br/><br/>（S24. 6. 8） 052 喉腫物・呼吸困難（喉頭結核進行の特性） 私の母（四十六歳）が二週間程前より舌の奥（喉仏と称しています）に小豆大の疣のような物が出来、呼吸困難なため本人は咽喉結核のように思い込み、助からぬと申しております。<br/><br/>いかがなものでしょうか。<br/><br/>御教示願います。<br/><br/> 浄霊すれば必ず治る。<br/><br/>治らぬとしたら霊が通らぬのである。<br/><br/>これは腫れであるから簡単に治る。<br/><br/>喉頭結核は少しずつ悪くなるものである。<br/><br/>結核ならば古くやっている教導師に頼む。<br/><br/>（S24. 6.28） 053 咽喉腫で呼吸困難 当年五十五歳の男、昨年三月より咽喉より気管にかけて腫れ（特に左側）、呼吸時苦痛を感じ、医師に診断を受けしが病名不明、治療困難との事、他の医師は黴菌作用に依るものとし、六百六号を十五本、ペニシリン十本を注射せるも何の効果なく、現在は益々呼吸困難及び苦痛と同時に舌廻りが悪くなって来たとの事ですが、右はいかなる原因によるもので御座いましょうか。<br/><br/>背部脊柱左側及び咽喉左側に微熱あり、固結も認められます。<br/><br/> こんなのは何でもない。<br/><br/>放任しておけば腫れて破れて治る。<br/><br/>中へ腫れて呼吸困難になって死ぬのがある。<br/><br/>打遣らかしておけばトマト大に腫れて治る。<br/><br/>根気よく、一日四回五回とやれば直に治る。<br/><br/>（S25. 5.23） 054 代用食以外の主食閊える 六十六歳になる母が白飯を頂く度毎に初めか終り頃に必ず一度は喉に詰り、暫くして治るまで胸が痛みますが、芋その他代用食ならば固形物でも決して詰りません。<br/><br/>その原因と浄霊法を御教示下さい。<br/><br/> 喉のどこかに脹れてる所とか疣などがある。<br/><br/>前横からする。<br/><br/> 055 咽喉痛の原因 昭和二十四年六月医者の診断を受け、急性気管支炎という病名にて暫く医者の施療をうけておりましたが効果なく、レントゲンで見ると右肺に曇りがあるとの注意を受け、心配しているうち入信させて頂き付近の人に浄霊を受けておりましたが、数ケ月後喉が痛み、声が嗄れてまいり、ただ今平良先生の御浄霊を三月十一日より通って受けております。<br/><br/>その結果顔色は良くなりましたが、喉の痛みは浄霊するととれますが十分間位後また痛みます。<br/><br/>食事は喉の痛みのため一膳位しか戴けず、心配しております。<br/><br/>私の家の者は浄霊は好まず、私は喉頭結核と存じます。<br/><br/>謹んで浄霊方法を御教え願います。<br/><br/> 原因は薬である。<br/><br/>薬が喉（両方へ）を通る時滲みる。<br/><br/>薬の分量によって長短がある。<br/><br/>浄霊をしなければ必ず死ぬ。<br/><br/>（S25. 4.27） 056 声出でず（吸入と塗布薬） 五十三歳の女の人ですが、昨年九月の初め頃より風邪を引き何ケ月も咳をしました。<br/><br/>その間二十日ばかり病院通いをして薬をつけたり吸入をかけたり致しまして、痛みはとれましたが声が出なくなりました。<br/><br/>一ケ月半程御浄霊を受けましたが、何となく咽喉に痰がふさがっているような気がすると申します。<br/><br/>声もやはり出るようになりませぬ。<br/><br/>御浄霊法を御教え下さい。<br/><br/> 浄霊者の力が足りない。<br/><br/>痰に毒素があり、声帯に毒がくっ着くため、弁の運転が悪く、声が出難いのである。<br/><br/> 後ろを多く浄霊せよ。<br/><br/>頸部の毒なども肝腎である。<br/><br/>（S24. 9. 8） 057 風邪より発声異常 三十九歳の女子、十六歳の時風邪に犯されてより音声が微かにしか出なくなりました。<br/><br/>最近御浄霊を約半月程続けますと発病当時の状態のように発熱し、痛みが出て参りました。<br/><br/>そのまま浄霊を続けさせていれば快くなって参りましょうか。<br/><br/> 良くならんがための浄化作用である。<br/><br/>声が出ぬのは弁の振動であるから、それが弁の所へ塊が出来て動きが悪くなっているのである。<br/><br/> 058 声嗄れの浄霊個所 私の父は一昨年暮より感冒のため声嗄れを致し、病状は進み、今年八月より右後頭部また右耳下腺に苦痛を覚え、咳や嚥下する度に苦痛を感じ、種々の療法を致しましたが何の効もありませんでした。<br/><br/>金沢医大の医師によれば声帯に腫脹が出来、切開しなければ全快しないとの事です。<br/><br/>十一月中旬より御浄霊を戴いています。<br/><br/>咳をする度に以前にも増して吐痰するようになりました。<br/><br/>右側面一帯に熱が増して来ました。<br/><br/>どこを重点に御浄霊したら良いかお教え下さい。<br/><br/> 一番熱のある所を浄霊すればよい。<br/><br/>いろんな療法をしたために治らなくしている。<br/><br/>（痰が出るのは結構で）気長にやれば治る。<br/><br/>耳下腺に毒が固まっているから、そこをやる。<br/><br/>喉はその延長である。<br/><br/>（S24.12.27） 059 嗄声患者（肺浸潤、ストマイ） 三十六歳の男子（信徒）、昭和二十二年七月下旬赤痢を患い約二十日間入院しました。<br/><br/>次に昭和二十三年八月より二ケ月肺浸潤にて通院しましたが嗄声になりかかり、本年二月には咽喉部が非常に痛み十日間入院、ストレプトマイシン八本注射、痛みはなくなるも少しも嗄声は治りません。<br/><br/>八月二十八日入信、浄霊を受けております。<br/><br/>浄霊を受けて一週間目頃より咽喉部が痛み出しました。<br/><br/>浄霊を続けていればよくなるでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> よくなる。<br/><br/>中に毒が固まっていて溶ける。<br/><br/>（S24. 9.16） 060 眼球移植 先日、毎日新聞に死人の眼の角膜を盲人に移植することによって眼が見えるようになったと発表されておりましたが、いかなる理由によるものでございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 一時的のものである。<br/><br/>医学は一時的の事を大変な効果のあるように騒ぐ。<br/><br/>一時いいのでやる。<br/><br/>一時よくするのと根本的に良くするのと違う。<br/><br/>（S *.11.23） 061 蓄膿手術、（頬癌） 蓄膿症で浄霊により良い方に向っておりますが、医師は癌になるから今手術せよと申し、本人は迷っております。<br/><br/>浄霊で治って行く状態をお教え下さい。<br/><br/>また、手術した場合いかなりましょうか、あわせて御教示下さい。<br/><br/> 手術するとまた元通りになり、先より余計溜る。<br/><br/> 頬癌というのがある。<br/><br/>今迄たった一人あったが治った。<br/><br/> もし医学がなければ肺結核はなくなる。<br/><br/>結核は医学が作る。<br/><br/>身体中の毒は一旦肺へ行く。<br/><br/>それを柔かく溶かし、水のようにする。<br/><br/>そしてそれを痰にして排出する。<br/><br/>その時ラ音があると肺浸潤という。<br/><br/>そして咳など止める。<br/><br/>古くなると痰へ微生物が湧く。<br/><br/>これが結核菌である。<br/><br/>肺など決して悪くなるものでない。<br/><br/>（S23.10.25） rattail（注）ラ音＝ラッセル音 062 右頬手術激痛・顔腫（頸部） ある信者の未入信の妻（四十二歳）、昨年三月五日右頬下少し前の方が膨れて来ました。<br/><br/>何の苦痛も御座いませんでしたが、四月中頃より痛み出しましたので医師に診察を受けました所、結核性肉腫との事で手術、七月頃から再び激痛を感じだし、今度は額が腫れ、目も次第に開けなくなり、デコボコで、一見牛の顔のようで御座います。<br/><br/>痛み出しました時は御浄霊致しますと二、三十分で止りますが、御浄霊を致しませぬと痛みは中々止りません。<br/><br/>ただ今は胃のところに塊があり、時々臍の横まで上下致します。<br/><br/>主人が入信致しましてから一生懸命御浄霊致しておりますが、右の眼は見えなくなりまして、ただ今は左の頬から額が腫れ出して来ましてやはりデコボコになりつつあります。<br/><br/>また、右の眼球から肉の塊のような物が吹き出して来まして、時々眼球が大変痛みます。<br/><br/>この家は印材屋で、これまで水牛の角を使っておりましたが、二十二年秋から内地の牛の角を使用しております。<br/><br/>主人は十五、六歳の頃、蛇を殺した事があるそうで御座いますが、当人の症状と牛または蛇と何か霊的に関係が御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 関係はない。<br/><br/>単なる浄化である。<br/><br/>手術のためである。<br/><br/>気長に浄霊するうち腫れ切って孔が開き、血膿が出て治る。<br/><br/>眼球も治る。<br/><br/>元は左頸部の固結である。<br/><br/>（S25. 3.21） 063 バセドー氏病手術 一、当年四十一歳の婦人、数年前バセドー氏病にて手術をしてより今年になってまた咽喉が腫れてまいりました。<br/><br/>八月二十日より浄霊を受けております。<br/><br/>九月二十二日頃より発熱四十度前後にて、咳が激しく胸と背が痛み、我慢する事が出来ないと湿布を致しました。<br/><br/>幾分右の目が出たように感じます。<br/><br/>浄霊をどう致したら宜敷いでしょうか。<br/><br/> 二、今後どのような浄化が起りますでしょうか。<br/><br/>御指導お願い申します。<br/><br/> 手術したために溜 〔治〕 り方が悪くなった。<br/><br/>浄霊をウンとするといい。<br/><br/>（S24.10. 8） 064 淋巴腺手術 一、私の浄霊している患者で、昭和十六年頃より首の淋巴腺が度々腫れて、医者に通っておりましたところ、たまたまその人が下宿しておりました新宿の家の前に、楓の木の上に蛇がいたのを杖で叩き殺しました。<br/><br/>それからはその淋巴腺が物凄く腫れてきまして、数ケ所切って固結状のものを取りましたが、増々腫れる一方です。<br/><br/>一週間程前より御浄霊を始めておりますが、身体中がだるくなったと云います。<br/><br/>御浄霊で治りますでしょうか。<br/><br/> 二、また、いかなる因縁で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 手術すると悪い。<br/><br/>ウンと熱が出ると治る。<br/><br/>腫れた時手術すると腫れたのが止る。<br/><br/>そしてそこへ膿が寄らなくなる。<br/><br/>膿は中々敏感なものである。<br/><br/>（S24.10. 8） 065 耳下腺部の腫物を手術 二十四歳の女、十歳頃より右耳下腺部及び咽喉部に瘤が出来、手術すること三回、手術毎に大きくなり、現在の症状は左の通りであります。<br/><br/>（一）右側耳下腺右頬が腫れ、直径四寸位、高さ七、八分位の瘤があり、真赤にして凹凸あり、このところより膿が排出しております。<br/><br/>（二）咽喉部は丁度乳の張った乳房様のものが出来、下に垂れ、大きな乳房と同じ位で、上部に乳首様の形のものあり、下部はザクロのようにハジケており、そのところより膿が出ております。<br/><br/>（三）顔面並びに全身蒼白で、黄色味を帯びており、艶はありません。<br/><br/>（四）脊髄の彎曲はありません。<br/><br/>（五）歩行並びに動作は、直ぐ動悸を打ち苦しみます。<br/><br/> 昨年十一月より浄霊を続行しておりますが、十二月中旬頃より血色よく、以前は血の排出でしたが膿の排出となり経過良好でしたが、正月に餅を食べたためか多量の出血あり、爾来、貧血続き、右記のような状態であります。<br/><br/>この病気は何で御座いましょうか。<br/><br/>完全に治癒しますでしょうか。<br/><br/>特に必要な治療個所を御教示下さいませ。<br/><br/> 医者が作った病気である。<br/><br/>最初右耳下腺部に出来た時、真赤になり、孔が開き、膿が出て治る。<br/><br/>（構ったために毒の排泄が止まった。<br/><br/>私も経験があるが、腫物は決して突いたりしてはいけない）ちょっとでも孔を開けると集注する膿が止ってしまう。<br/><br/>これは膿の集溜が止ったのである。<br/><br/> 集溜止り、内側へ腫れたため、呼吸が詰り死んだ。<br/><br/>全く医学は野蛮人より無知である。<br/><br/> 浄霊していれば必ず治る。<br/><br/>（S24. 8. 8）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

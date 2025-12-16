@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo17</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と信仰 『明日の医術 第二編』昭和18(1943)年10月5日発行 本医術を以て宗教的と見たり、信仰的と思ったりする人もたまたまあるようである。<br><br>これについて私は、宗教でも信仰でもない事を述べようとするのである。<br><br>まず宗教であるが、宗教とは、読んで字のごとく、何々宗という一個の団体を作り、教義を樹立し、その教を説き、その教の主旨に従って行動しなければならないのである。<br><br>又何々如来とか何々菩薩、何の神、何の尊（みこと）、キリスト又はその宗派の開祖の像を朝夕礼拝しなければならない事になっている。<br><br>勿論宗教によっては種々の形式や行事等の差別はあるが大観すれば右のごときものであろう。<br><br>次に信仰とは文字の通りで一言にしていえば、私は信用と信頼が、時日を経るに従って漸次強度となり、それがついに極点に達するに及んで崇敬の念を生じ、信仰という観念にまで育成さるると思うのである。<br><br>故にこの意味によって考うる時信仰とは神仏に限らず、あらゆるものに通暁（つうぎょう）するのである。<br><br>暁に日の出を拝むのも信仰であり、武士道も科学も一種の信仰である。<br><br>従って、さきに述べたごとく西洋医学といえども、一種の信仰に外ならないであろう。<br><br>特に医学における信仰は、実に絶対ともいうべきものである。<br><br>何となれば貴重なる生命を委ね、効果いかんに係わらず安心しているにみてもそう言えるであろう。<br><br> しかるに、以上のごとき宗教的分子や信仰的観念が、本医術においては異なる事である。<br><br>それは本医術においては宗教的分子は勿論ない。<br><br>ただ信仰的からいえばないとはいえない。<br><br>医師から死の宣告を受けた者や、絶望的な難病が起死回生の喜びを生むという以上、その感激が信仰にまでも及ぶのは当然な帰結であろう。<br><br>しかし、それは効果に対する自然の観念であるから、迷信ではない事である。<br><br> ここで私は医家に言いたい事がある。<br><br>それは医学はともすれば、医学以外の療法が効果のあった場合、必ず信ずるから治ったというのである。<br><br>しかしながら、その様な観方には理由がある。<br><br>それは西洋医学においての多くの経験から生れた解釈であろうが、例えていえば、患者の信頼する医家の薬剤は特に効く事である。<br><br>即ち同一の薬剤であっても、有名な博士の処方は卓越せる効果を挙げ、無名な医家の処方は効果が薄いというような実例が多くある事も医家がよくいうところである。<br><br>これらは全く観念の作用であって、薬剤そのものの効果ではないという事を立証している。<br><br>従って、医家が信ずるから治るという既成観念に支配されるのもやむを得ないであろう。<br><br> しかるに、本医術に限り、再三述べたごとく、いか程疑う人といえども、信ずる人と効果は同一である。<br><br>その証左として特に幼児は偉効を奏する事である。<br><br>例えば、医家が最も恐れる彼の疫痢が、医学においては治病率は恐らく十パーセント以内であるに対し、本医術においては九十パーセント以上というにみても明かである。<br><br> 私は常に言うのである。<br><br>「戦争は勝てばいい。<br><br>病気は治ればいい」――ただそれだけである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza desta Arte Médica</h2>
 <p>Há quem considere esta Arte Médica uma prática religiosa ou uma questão de fé. Todavia, desejo esclarecer que ela não se enquadra em nenhuma dessas categorias. Primeiramente, analisemos a religião. Como o próprio termo sugere, ela pressupõe a formação de uma organização sectária, o estabelecimento de uma doutrina, a pregação de seus preceitos e a exigência de que seus seguidores ajam em conformidade com eles. Ademais, implica a reverência diária a imagens, seja de um Nyorai, de um Bodhisattva, de uma deidade, de um Mikoto, de Cristo ou do fundador da respectiva escola. Embora existam, naturalmente, diversas formas e rituais que variam entre as religiões, em uma perspectiva ampla, essa é a sua essência.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Neste ponto, tenho algo a dizer à classe médica. É comum que, diante da eficácia de uma terapia não convencional, os médicos a atribuam unicamente à fé do paciente, com a justificativa: “Curou porque acreditou”. Sem dúvida, há uma razão para tal perspectiva, que emana de inúmeras experiências no campo da medicina ocidental. Sabe-se, por exemplo, que o medicamento prescrito por um médico de confiança do paciente surte um efeito notavelmente superior. Ou seja, um mesmo fármaco, quando receitado por um renomado especialista, produz resultados excelentes, ao passo que, se prescrito por um profissional desconhecido, sua eficácia é reduzida. Os próprios médicos frequentemente relatam tais ocorrências. Esses exemplos comprovam que a melhora se deve à ação da mente, e não à substância do medicamento em si. Diante disso, é compreensível que os médicos sejam influenciados pela ideia preconcebida de que a cura provém da crença.</p>
 <p>No entanto, no que concerne a esta Arte Médica, como tenho reiterado, tanto aquele que duvida quanto aquele que crê obtêm resultados idênticos. A prova irrefutável disso reside na extraordinária eficácia observada em crianças de tenra idade. Tomemos como exemplo a disenteria infantil, tão temida pelos médicos. Enquanto na medicina convencional a taxa de cura talvez não ultrapasse os dez por cento, com esta Arte Médica ela supera os noventa por cento, o que torna a questão evidente.</p>
 <p>Costumo sempre dizer: “Na guerra, o que importa é a vitória. Na doença, o que importa é a cura”. A isso se resume toda a questão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と信仰 『明日の医術 第二編』昭和18(1943)年10月5日発行 本医術を以て宗教的と見たり、信仰的と思ったりする人もたまたまあるようである。<br/><br/>これについて私は、宗教でも信仰でもない事を述べようとするのである。<br/><br/>まず宗教であるが、宗教とは、読んで字のごとく、何々宗という一個の団体を作り、教義を樹立し、その教を説き、その教の主旨に従って行動しなければならないのである。<br/><br/>又何々如来とか何々菩薩、何の神、何の尊（みこと）、キリスト又はその宗派の開祖の像を朝夕礼拝しなければならない事になっている。<br/><br/>勿論宗教によっては種々の形式や行事等の差別はあるが大観すれば右のごときものであろう。<br/><br/>次に信仰とは文字の通りで一言にしていえば、私は信用と信頼が、時日を経るに従って漸次強度となり、それがついに極点に達するに及んで崇敬の念を生じ、信仰という観念にまで育成さるると思うのである。<br/><br/>故にこの意味によって考うる時信仰とは神仏に限らず、あらゆるものに通暁（つうぎょう）するのである。<br/><br/>暁に日の出を拝むのも信仰であり、武士道も科学も一種の信仰である。<br/><br/>従って、さきに述べたごとく西洋医学といえども、一種の信仰に外ならないであろう。<br/><br/>特に医学における信仰は、実に絶対ともいうべきものである。<br/><br/>何となれば貴重なる生命を委ね、効果いかんに係わらず安心しているにみてもそう言えるであろう。<br/><br/> しかるに、以上のごとき宗教的分子や信仰的観念が、本医術においては異なる事である。<br/><br/>それは本医術においては宗教的分子は勿論ない。<br/><br/>ただ信仰的からいえばないとはいえない。<br/><br/>医師から死の宣告を受けた者や、絶望的な難病が起死回生の喜びを生むという以上、その感激が信仰にまでも及ぶのは当然な帰結であろう。<br/><br/>しかし、それは効果に対する自然の観念であるから、迷信ではない事である。<br/><br/> ここで私は医家に言いたい事がある。<br/><br/>それは医学はともすれば、医学以外の療法が効果のあった場合、必ず信ずるから治ったというのである。<br/><br/>しかしながら、その様な観方には理由がある。<br/><br/>それは西洋医学においての多くの経験から生れた解釈であろうが、例えていえば、患者の信頼する医家の薬剤は特に効く事である。<br/><br/>即ち同一の薬剤であっても、有名な博士の処方は卓越せる効果を挙げ、無名な医家の処方は効果が薄いというような実例が多くある事も医家がよくいうところである。<br/><br/>これらは全く観念の作用であって、薬剤そのものの効果ではないという事を立証している。<br/><br/>従って、医家が信ずるから治るという既成観念に支配されるのもやむを得ないであろう。<br/><br/> しかるに、本医術に限り、再三述べたごとく、いか程疑う人といえども、信ずる人と効果は同一である。<br/><br/>その証左として特に幼児は偉効を奏する事である。<br/><br/>例えば、医家が最も恐れる彼の疫痢が、医学においては治病率は恐らく十パーセント以内であるに対し、本医術においては九十パーセント以上というにみても明かである。<br/><br/> 私は常に言うのである。<br/><br/>「戦争は勝てばいい。<br/><br/>病気は治ればいい」――ただそれだけである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju10078</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ６ 078-088 育児 078 母乳・牛乳の影響（国土と食物） 母乳、他人のもらい乳、牛乳、ミルク等は乳児に対し霊的関係がありますか。<br><br>御教えお願い致します。<br><br> いくらかあるが大してない。<br><br>母乳は普通、他人の乳はその授乳の人の影響を受ける。<br><br>（その人の性格を受ける）私も近所の寺の妻君の乳を受けた。<br><br>兄弟中（三人兄弟）私だけが全然違う。<br><br>その乳が影響しているんだと思う。<br><br>牛乳やミルクは特に日本人は影響する。<br><br>先祖代々牛の乳などやらなかったから、大いに影響する。<br><br>どう言う影響かというと、こうとははっきり言えない。<br><br>はっきり言うと面白くない。<br><br>（肉体的に変る） 必ずしも悪いという事はない。<br><br>霊統があるから体的の事では中心は変らぬ。<br><br>他国に長くいると、その土地の人に同化するもので、これは果物、野菜のごときもそうで、昔は白菜は真白だった。<br><br>この頃は青いのがある。<br><br>西洋のと日本のとも違う。<br><br>これは地霊によるので、地霊は国によって違う。<br><br>国々によって皆違う。<br><br>日本人でも白人くさい人がある。<br><br>地霊は濃い薄いがあり、日本は一番濃い。<br><br>野菜など日本のが一番栄養がある。<br><br>ジャガ芋と薩摩芋――。<br><br> 所が、多くの人は知らず、逆に考えている。<br><br>であるから西洋式のもののみ良いように思い、食べさせようとする。<br><br>医者などは飴をなめさせぬ。<br><br>（チョコレートやオート・ミールなどを与えようとする）先に治療に来た六歳の子に羊羹をやると、生れて初めて食べるという。<br><br>飴を食べさすと疫痢になるという。<br><br>前には納豆や味噌汁を医者は嫌った。<br><br>特に胃の弱い人は嫌う。<br><br> 本当に霊気を知らぬのである。<br><br>（S23.11. 3） 079 牛乳哺育の影響 一、この頃母乳がなく、牛乳にて育てており、子供の体は太りますが、動物の乳と母乳との霊の差は甚だしいと思いますが、いかようで御座居ますか。<br><br> 二、また、その子供の副霊の作用にて、不幸を招く事はありますでしょうか。<br><br>お伺い致します。<br><br> 一、大した影響はない。<br><br>大きくなるまでに抜けてゆく。<br><br>明主様が二十八の御時チブスで入院せられた際、二ケ月牛乳ばかりでやられた事があった。<br><br>（S24.10. 8） 080 離乳について 私の長男茂富（もとむ）は、昨年三月二日出生致し、母乳が充分なためか御飯は一日に一口程しか戴かず、果物や御菓子は戴きます。<br><br>なお時々御浄化を戴いておりますが、元気はとても宜敷いのですが、御飯を普通に食べるようになる迄、無理に母乳を止めさせる必要はありませんでしょうか。<br><br>御教示願います。<br><br> 乳を無理に停めてもいい。<br><br>誕生を過ぎているから乳はやめた方がよい。<br><br>乳を長く飲ますと、体が弱い。<br><br>体力がない。<br><br>誕生か誕生前にやめるといい。<br><br> 辛いものや、塩などを乳に塗るといい。<br><br>先に、健康な子供の家があった。<br><br>査べると生後半年経つと御飯粒をやるようにしていた。<br><br>（S24. 6.28） 081 宮詣りの日数 赤子出生後御宮詣りをする風習でございますが、男女の御宮詣りの日数は幾日目が本当で御座いましょうか。<br><br>御伺い致します。<br><br> 男は三十二日目、三十二は五になる。<br><br> 女は三十三日に詣る。<br><br>三三＝六。<br><br>（S24. 4. 9） 082 浄霊して悪化した母乳 猟師をやっているある教導師の妻、昭和二十二年八月に三人目の子を生み、母乳で充分育ちました。<br><br>本年五月二十六日男子を産み、三日間は充分乳房も張り、乳もありましたが、四日目より漸次不足しだしました。<br><br>産前より乳房の付近にしこりが少しありましたので、それを毎日浄霊を続けておりますが、だんだん不足し、現在では母乳と人工乳と半々位ずつやり育てております。<br><br>今迄あった乳が急に出なくなった原因と、御浄霊法を御教え願います。<br><br>因みにこの人の夫は猟師ですが、海の上の漁師もやっております。<br><br>今度の事については殺生を商売としている事を心配しておりますが、いかがなものでしょうか。<br><br> 浄霊したんで固まったのが溶けて（拡がり）乳腺を圧迫する。<br><br>固まったのが脹れたのである。<br><br>（それで出なくなった。<br><br>今度の子供だけは我慢する） 霊力が不足していると長くかかる。<br><br> 浄霊は峠がある。<br><br>（病気の）峠へ来た場合、浄霊したため悪くなったというような事はある。<br><br>（浄霊で苦しくなる人は峠へ行くからで、霊力の強い人は峠を越さす力がある訳である） 狩人などのごとく、営業のためやったのはズーッと罪が少い。<br><br>故に年一回位供養する。<br><br>（S24. 6.25） 083 母乳不足の因 母乳の出方について――、 右、御教示御願い申し上げます。<br><br> 胃の圧迫と乳腺の圧迫とある。<br><br>乳の周りに固まって塞いでる。<br><br>胃が小さくなってると、子供の分と一・五人分食べられぬ。<br><br>（S24. 2.18） 084 細乳 本月二十五日に教修を戴きました青野華子、二月十五日に四人目の子供を安産致しました。<br><br>二十二日より御浄霊させて戴いておりますが、乳が三分の一以下の細さで御座いますが、どう御浄霊させて戴きましたら宜しゅう御座いましょうか。<br><br> 乳の出の悪いのは乳腺の周りに毒があり、細くなってるためである。<br><br>乳腺は十二本あるとしている。<br><br> また、胃の小さいのが原因のとある。<br><br> 乳の所を押して、痛い所の圧迫を除る。<br><br>または胃部に固い所がある。<br><br>胃の裏表と、乳部を浄霊する。<br><br> 085 乳切れ 本年三月頃より乳首が乳切れし、膿を持っております。<br><br>六月より浄霊を受けておりますが余りよくなりません。<br><br>どういうことでしょうか。<br><br>右、お伺い申し上げます。<br><br> 乳へ毒が寄っている。<br><br>治りいい。<br><br>自分で浄霊するといい。<br><br>霊が通らぬのであろう。<br><br>病気は奥の方から出てるものである。<br><br>（S24. 8.28） 086 脚気乳（乳児色便の原因） 脚気乳の原因―― 乳児脚気などというが、これは間違っている。<br><br>薬毒である。<br><br>母乳の薬毒が多い。<br><br>青便や泡便など、みなそうである。<br><br> 087 母乳搾る事 御産をしましてから御乳が出過ぎて大変困っております。<br><br>朝から晩まで搾りっきりにしていないと直ぐ張切って固くなってしまいます。<br><br>勿論赤ちゃんは普通です。<br><br>霊的に何か原因がありましょうか。<br><br>私は子供が生れるたびにそうなるのですが、いかにしたらよいでしょう。<br><br>御伺い申し上げます。<br><br> 搾るから殖える。<br><br>搾るのをやめよ。<br><br>すると張ったり出すぎたりするが、それは一時的で、段々治る。<br><br>搾るのがいけない。<br><br>（S24. 5. 4） 088 母乳の捨て場所と神経作用 産後母乳があり余ります場合、その母乳を人の踏む所か「流し」に捨てますと乳が出なくなると申しまして、人家の人の踏まない荒壁に吸い込ませる習慣のある所が御座いまして、事実、人の踏む所に捨てまして以後乳が出なくなった人が御座いますが、そのようなことがあるもので御座いましょうか。<br><br>もしありと致しますといかなる訳で御座いましょうか。<br><br>お伺い申し上げます。<br><br> 荒壁へ吸い込ませるなどというのは迷信である。<br><br>本当はどこへ捨てても同じだが、人を育てる母乳であるから、清い所へ捨てるのは良い事である。<br><br> 悪い所へ捨ててはいけないと思うと、その神経作用で、悪い事が起る事がある。<br><br>（S25. 2. 2）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Influência do Leite Materno e do Leite de Vaca (Terra e Alimento)</h2>
 <p><strong>Pergunta:</strong> Gostaríamos de saber se o leite materno, o leite de outra mulher, o leite de vaca e o leite em pó possuem alguma relação espiritual com o lactente. Por favor, conceda-nos seu Ensinamento.</p>
@@ -132,5 +284,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> Em alguns lugares, há o costume de descartar o excesso de leite materno em paredes rústicas, onde as pessoas não pisam. Dizem que, se o leite for jogado em um local de passagem ou em uma pia, a produção secará. De fato, conheço um caso em que isso ocorreu. Tal crença tem algum fundamento? Se sim, qual seria a explicação?</p>
 <p><strong>Meishu-Sama:</strong> A prática de fazer com que o leite seja absorvido por uma parede rústica não passa de superstição. Na verdade, o local do descarte é indiferente. Contudo, por se tratar do leite materno, que nutre um ser humano, é louvável descartá-lo em um local limpo.</p>
 <p>Se a pessoa acredita firmemente que não deve descartar o leite em um lugar impuro, essa própria convicção, por um efeito psicossomático, pode acabar por gerar um resultado negativo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ６ 078-088 育児 078 母乳・牛乳の影響（国土と食物） 母乳、他人のもらい乳、牛乳、ミルク等は乳児に対し霊的関係がありますか。<br/><br/>御教えお願い致します。<br/><br/> いくらかあるが大してない。<br/><br/>母乳は普通、他人の乳はその授乳の人の影響を受ける。<br/><br/>（その人の性格を受ける）私も近所の寺の妻君の乳を受けた。<br/><br/>兄弟中（三人兄弟）私だけが全然違う。<br/><br/>その乳が影響しているんだと思う。<br/><br/>牛乳やミルクは特に日本人は影響する。<br/><br/>先祖代々牛の乳などやらなかったから、大いに影響する。<br/><br/>どう言う影響かというと、こうとははっきり言えない。<br/><br/>はっきり言うと面白くない。<br/><br/>（肉体的に変る） 必ずしも悪いという事はない。<br/><br/>霊統があるから体的の事では中心は変らぬ。<br/><br/>他国に長くいると、その土地の人に同化するもので、これは果物、野菜のごときもそうで、昔は白菜は真白だった。<br/><br/>この頃は青いのがある。<br/><br/>西洋のと日本のとも違う。<br/><br/>これは地霊によるので、地霊は国によって違う。<br/><br/>国々によって皆違う。<br/><br/>日本人でも白人くさい人がある。<br/><br/>地霊は濃い薄いがあり、日本は一番濃い。<br/><br/>野菜など日本のが一番栄養がある。<br/><br/>ジャガ芋と薩摩芋――。<br/><br/> 所が、多くの人は知らず、逆に考えている。<br/><br/>であるから西洋式のもののみ良いように思い、食べさせようとする。<br/><br/>医者などは飴をなめさせぬ。<br/><br/>（チョコレートやオート・ミールなどを与えようとする）先に治療に来た六歳の子に羊羹をやると、生れて初めて食べるという。<br/><br/>飴を食べさすと疫痢になるという。<br/><br/>前には納豆や味噌汁を医者は嫌った。<br/><br/>特に胃の弱い人は嫌う。<br/><br/> 本当に霊気を知らぬのである。<br/><br/>（S23.11. 3） 079 牛乳哺育の影響 一、この頃母乳がなく、牛乳にて育てており、子供の体は太りますが、動物の乳と母乳との霊の差は甚だしいと思いますが、いかようで御座居ますか。<br/><br/> 二、また、その子供の副霊の作用にて、不幸を招く事はありますでしょうか。<br/><br/>お伺い致します。<br/><br/> 一、大した影響はない。<br/><br/>大きくなるまでに抜けてゆく。<br/><br/>明主様が二十八の御時チブスで入院せられた際、二ケ月牛乳ばかりでやられた事があった。<br/><br/>（S24.10. 8） 080 離乳について 私の長男茂富（もとむ）は、昨年三月二日出生致し、母乳が充分なためか御飯は一日に一口程しか戴かず、果物や御菓子は戴きます。<br/><br/>なお時々御浄化を戴いておりますが、元気はとても宜敷いのですが、御飯を普通に食べるようになる迄、無理に母乳を止めさせる必要はありませんでしょうか。<br/><br/>御教示願います。<br/><br/> 乳を無理に停めてもいい。<br/><br/>誕生を過ぎているから乳はやめた方がよい。<br/><br/>乳を長く飲ますと、体が弱い。<br/><br/>体力がない。<br/><br/>誕生か誕生前にやめるといい。<br/><br/> 辛いものや、塩などを乳に塗るといい。<br/><br/>先に、健康な子供の家があった。<br/><br/>査べると生後半年経つと御飯粒をやるようにしていた。<br/><br/>（S24. 6.28） 081 宮詣りの日数 赤子出生後御宮詣りをする風習でございますが、男女の御宮詣りの日数は幾日目が本当で御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 男は三十二日目、三十二は五になる。<br/><br/> 女は三十三日に詣る。<br/><br/>三三＝六。<br/><br/>（S24. 4. 9） 082 浄霊して悪化した母乳 猟師をやっているある教導師の妻、昭和二十二年八月に三人目の子を生み、母乳で充分育ちました。<br/><br/>本年五月二十六日男子を産み、三日間は充分乳房も張り、乳もありましたが、四日目より漸次不足しだしました。<br/><br/>産前より乳房の付近にしこりが少しありましたので、それを毎日浄霊を続けておりますが、だんだん不足し、現在では母乳と人工乳と半々位ずつやり育てております。<br/><br/>今迄あった乳が急に出なくなった原因と、御浄霊法を御教え願います。<br/><br/>因みにこの人の夫は猟師ですが、海の上の漁師もやっております。<br/><br/>今度の事については殺生を商売としている事を心配しておりますが、いかがなものでしょうか。<br/><br/> 浄霊したんで固まったのが溶けて（拡がり）乳腺を圧迫する。<br/><br/>固まったのが脹れたのである。<br/><br/>（それで出なくなった。<br/><br/>今度の子供だけは我慢する） 霊力が不足していると長くかかる。<br/><br/> 浄霊は峠がある。<br/><br/>（病気の）峠へ来た場合、浄霊したため悪くなったというような事はある。<br/><br/>（浄霊で苦しくなる人は峠へ行くからで、霊力の強い人は峠を越さす力がある訳である） 狩人などのごとく、営業のためやったのはズーッと罪が少い。<br/><br/>故に年一回位供養する。<br/><br/>（S24. 6.25） 083 母乳不足の因 母乳の出方について――、 右、御教示御願い申し上げます。<br/><br/> 胃の圧迫と乳腺の圧迫とある。<br/><br/>乳の周りに固まって塞いでる。<br/><br/>胃が小さくなってると、子供の分と一・五人分食べられぬ。<br/><br/>（S24. 2.18） 084 細乳 本月二十五日に教修を戴きました青野華子、二月十五日に四人目の子供を安産致しました。<br/><br/>二十二日より御浄霊させて戴いておりますが、乳が三分の一以下の細さで御座いますが、どう御浄霊させて戴きましたら宜しゅう御座いましょうか。<br/><br/> 乳の出の悪いのは乳腺の周りに毒があり、細くなってるためである。<br/><br/>乳腺は十二本あるとしている。<br/><br/> また、胃の小さいのが原因のとある。<br/><br/> 乳の所を押して、痛い所の圧迫を除る。<br/><br/>または胃部に固い所がある。<br/><br/>胃の裏表と、乳部を浄霊する。<br/><br/> 085 乳切れ 本年三月頃より乳首が乳切れし、膿を持っております。<br/><br/>六月より浄霊を受けておりますが余りよくなりません。<br/><br/>どういうことでしょうか。<br/><br/>右、お伺い申し上げます。<br/><br/> 乳へ毒が寄っている。<br/><br/>治りいい。<br/><br/>自分で浄霊するといい。<br/><br/>霊が通らぬのであろう。<br/><br/>病気は奥の方から出てるものである。<br/><br/>（S24. 8.28） 086 脚気乳（乳児色便の原因） 脚気乳の原因―― 乳児脚気などというが、これは間違っている。<br/><br/>薬毒である。<br/><br/>母乳の薬毒が多い。<br/><br/>青便や泡便など、みなそうである。<br/><br/> 087 母乳搾る事 御産をしましてから御乳が出過ぎて大変困っております。<br/><br/>朝から晩まで搾りっきりにしていないと直ぐ張切って固くなってしまいます。<br/><br/>勿論赤ちゃんは普通です。<br/><br/>霊的に何か原因がありましょうか。<br/><br/>私は子供が生れるたびにそうなるのですが、いかにしたらよいでしょう。<br/><br/>御伺い申し上げます。<br/><br/> 搾るから殖える。<br/><br/>搾るのをやめよ。<br/><br/>すると張ったり出すぎたりするが、それは一時的で、段々治る。<br/><br/>搾るのがいけない。<br/><br/>（S24. 5. 4） 088 母乳の捨て場所と神経作用 産後母乳があり余ります場合、その母乳を人の踏む所か「流し」に捨てますと乳が出なくなると申しまして、人家の人の踏まない荒壁に吸い込ませる習慣のある所が御座いまして、事実、人の踏む所に捨てまして以後乳が出なくなった人が御座いますが、そのようなことがあるもので御座いましょうか。<br/><br/>もしありと致しますといかなる訳で御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 荒壁へ吸い込ませるなどというのは迷信である。<br/><br/>本当はどこへ捨てても同じだが、人を育てる母乳であるから、清い所へ捨てるのは良い事である。<br/><br/> 悪い所へ捨ててはいけないと思うと、その神経作用で、悪い事が起る事がある。<br/><br/>（S25. 2. 2）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

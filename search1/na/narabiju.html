@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>narabiju</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奈良美術行脚 『栄光』156号、昭和27(1952)年5月14日発行 今度私は、日本仏教美術調査研究のため、奈良地方へ赴き、著名な寺院を次々観て廻り、大いに得るところがあったから、今その感想をいささか書いてみよう。<br><br>何しろ今から千二、三百年以前、推古（すいこ）、飛鳥（あすか）、白鳳（はくほう）、天平（てんぴょう）時代から、弘仁、藤原等の時代に至るまでの作品であるが、観る物ことごとくと言いたい程、素晴しいものばかりなので、面喰ったくらいだ。<br><br>よくもこんな古い時代に、今日の美術家でも到底出来まいと思う程の物が沢山あるので、驚くの外なかったのである。<br><br>その中で何といっても法隆寺の品物であろう。<br><br>何しろ数多くの金銅仏や、木彫、乾漆、塑像(そぞう)等はもちろん、厨子(ずし)や仏器に至るまで、他の寺院にあるそれらのものを断然切り離しているといってもいい程の優秀な物ばかりなのである。<br><br>特に有名な百済（くだら）観音などは、いつ観ても頭の下る思いがする。<br><br>また最近出来上ったという例の壁画は、まだ一般には観せるところまではいっていないようだが、以前私は観た事があるので想像は出来ると共に、今飾ってある写真だけを観ても、偲（しの）ばれるのである。<br><br> なお、右、法隆寺のほか、私の最も感嘆に堪えなかったのは、彼の薬師寺の本尊仏であろう。<br><br>これは幾千万言費すよりも、実物を観た方がいい、実に言語に絶する神技である。<br><br>恐らく現代のどんな名人でも、到底この何分の一も難しいであろう。<br><br>その他各寺にある物ことごとくと言いたい程名作ばかりであるから一々は略すとして、今さらながら木彫における日本の地位は、世界一といっても過言ではなかろう。<br><br>今回私が廻って見た寺は、東大寺、薬師寺、法華寺、法隆寺、奈良博物館と、少し離れた宇治平等院の鳳凰堂、石山寺等であったが、右の鳳凰堂にある仏体は、藤原期の代表作で立派なものであった。<br><br>そこで私が思った事は、このように数ある古代仏教芸術を一堂に集めて、日本人にも外国人にも手軽に観られるようにしたら、どんなにか歓ぶであろうし、益するところ大きいかを想像してみた事である。<br><br>それと共に日本人がいかに古代から文化的に卓越せる民族であるかが充分認識されるであろう。<br><br>その意味において私はいずれ京都に一大美術館を建て、それを如実に現したいと今から期待しているのである。<br><br> 以上は今回の紀行をザットかいたのであるが、このほかに鎌倉時代の仏教彫刻についても一言いいたい事は、何しろ奈良朝以後暫く落着き状態であった仏教彫刻は、この頃に至って俄然盛り返し、絢爛たる様相を呈したのである。<br><br>もちろん巨匠名人続出し、彼の運慶と快慶等もこの時の名人であった。<br><br>そうして奈良時代のそれと異うところは、ほとんど木彫ばかりで、特に彩色が大いに進歩すると共に、模様に切金（きりかね）を使い始めた事で、これが大いに流行し、その作品は今も相当残っているが、その巧みな技術は感嘆に価するものがある。<br><br>よくもこの時代にこのような巧緻（こうち）な物が出来たものかと、私は常に感嘆している。<br><br>この切金模様の極致ともいうべき名作が箱根美術館に出陳されるから、観れば誰しも驚くであろう。<br><br> これで大体、今度の仏教美術の見聞記は終ったが、元来日本の彫刻は仏教に関する以外の名作は余りなかったようである。<br><br>ただ有名なのは左甚五郎であるが、この人に関する興味ある伝説も随分あるが、その作品に至っては一般人の目に触れる物はほとんどないといっていい。<br><br>ただあるのは日光東照宮の眠りの猫くらいのものであろう。<br><br>だが私はここに推賞したい一人がある。<br><br>それは今生きている人で、佐藤玄々という彫刻家である。<br><br>この人は初めは朝山、次は清蔵といい、玄々は三度目の名であるが、その点珍しい人である。<br><br>この人は今年確か八十三か四と思うが、古来稀にみる名人と思っている。<br><br>私はこの人の作品を好み傑作品と思う数点を美術館に出すつもりだから、観たら分るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Peregrinação pela Arte Budista em Nara</h2>
 <p>Recentemente, empreendi uma viagem à região de Nara com o propósito de pesquisar a arte budista japonesa. Visitei, um a um, seus mais renomados templos, e o que presenciei trouxe-me um proveito imensurável. Por essa razão, gostaria de registrar aqui algumas de minhas impressões.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>As linhas acima descrevem, em linhas gerais, meu périplo. Contudo, gostaria de acrescentar algumas palavras sobre a escultura budista do período Kamakura. Após um período de relativa estagnação que sucedeu a era Nara, a escultura budista ressurgiu subitamente nessa época, assumindo uma feição de esplendor exuberante. Surgiram, em sucessão, grandes mestres, como os célebres Unkei e Kaikei. O que distingue suas obras das do período Nara é o predomínio quase absoluto da madeira e, principalmente, o notável avanço na policromia e o advento da técnica <em>kirikane</em>, que consiste na aplicação de finíssimas folhas de ouro para criar padrões decorativos. Essa técnica tornou-se extremamente popular, e os exemplares remanescentes demonstram um virtuosismo digno de admiração. Sempre me maravilho ao pensar como foi possível criar algo de tamanha fineza e complexidade naquela era. Uma obra-prima que representa o ápice dessa técnica será exibida no Museu de Arte de Hakone, e tenho certeza de que surpreenderá a todos que a virem.</p>
 <p>Com isso, concluo meu relato sobre a arte budista. Originalmente, a escultura japonesa não parece ter produzido muitas obras de renome fora do âmbito religioso. A grande exceção é o famoso Hidari Jingoro, sobre quem existem muitas lendas fascinantes, mas cujas obras raramente são vistas pelo público em geral. Talvez a mais conhecida seja o "Gato Adormecido" do Santuário Toshogu, em Nikko.</p>
 <p>Gostaria, no entanto, de enaltecer um artista de nosso tempo: o escultor Sato Gengen. Ele já utilizou os nomes Chozan e Seizo, sendo Gengen sua terceira alcunha, o que o torna uma figura singular. Acredito que ele tenha oitenta e três ou oitenta e quatro anos, e o considero um mestre de um talento raramente visto ao longo da história. Aprecio imensamente seu trabalho e pretendo expor em meu museu diversas de suas criações que considero obras-primas. Ao vê-las, todos compreenderão o porquê de minha admiração.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奈良美術行脚 『栄光』156号、昭和27(1952)年5月14日発行 今度私は、日本仏教美術調査研究のため、奈良地方へ赴き、著名な寺院を次々観て廻り、大いに得るところがあったから、今その感想をいささか書いてみよう。<br/><br/>何しろ今から千二、三百年以前、推古（すいこ）、飛鳥（あすか）、白鳳（はくほう）、天平（てんぴょう）時代から、弘仁、藤原等の時代に至るまでの作品であるが、観る物ことごとくと言いたい程、素晴しいものばかりなので、面喰ったくらいだ。<br/><br/>よくもこんな古い時代に、今日の美術家でも到底出来まいと思う程の物が沢山あるので、驚くの外なかったのである。<br/><br/>その中で何といっても法隆寺の品物であろう。<br/><br/>何しろ数多くの金銅仏や、木彫、乾漆、塑像(そぞう)等はもちろん、厨子(ずし)や仏器に至るまで、他の寺院にあるそれらのものを断然切り離しているといってもいい程の優秀な物ばかりなのである。<br/><br/>特に有名な百済（くだら）観音などは、いつ観ても頭の下る思いがする。<br/><br/>また最近出来上ったという例の壁画は、まだ一般には観せるところまではいっていないようだが、以前私は観た事があるので想像は出来ると共に、今飾ってある写真だけを観ても、偲（しの）ばれるのである。<br/><br/> なお、右、法隆寺のほか、私の最も感嘆に堪えなかったのは、彼の薬師寺の本尊仏であろう。<br/><br/>これは幾千万言費すよりも、実物を観た方がいい、実に言語に絶する神技である。<br/><br/>恐らく現代のどんな名人でも、到底この何分の一も難しいであろう。<br/><br/>その他各寺にある物ことごとくと言いたい程名作ばかりであるから一々は略すとして、今さらながら木彫における日本の地位は、世界一といっても過言ではなかろう。<br/><br/>今回私が廻って見た寺は、東大寺、薬師寺、法華寺、法隆寺、奈良博物館と、少し離れた宇治平等院の鳳凰堂、石山寺等であったが、右の鳳凰堂にある仏体は、藤原期の代表作で立派なものであった。<br/><br/>そこで私が思った事は、このように数ある古代仏教芸術を一堂に集めて、日本人にも外国人にも手軽に観られるようにしたら、どんなにか歓ぶであろうし、益するところ大きいかを想像してみた事である。<br/><br/>それと共に日本人がいかに古代から文化的に卓越せる民族であるかが充分認識されるであろう。<br/><br/>その意味において私はいずれ京都に一大美術館を建て、それを如実に現したいと今から期待しているのである。<br/><br/> 以上は今回の紀行をザットかいたのであるが、このほかに鎌倉時代の仏教彫刻についても一言いいたい事は、何しろ奈良朝以後暫く落着き状態であった仏教彫刻は、この頃に至って俄然盛り返し、絢爛たる様相を呈したのである。<br/><br/>もちろん巨匠名人続出し、彼の運慶と快慶等もこの時の名人であった。<br/><br/>そうして奈良時代のそれと異うところは、ほとんど木彫ばかりで、特に彩色が大いに進歩すると共に、模様に切金（きりかね）を使い始めた事で、これが大いに流行し、その作品は今も相当残っているが、その巧みな技術は感嘆に価するものがある。<br/><br/>よくもこの時代にこのような巧緻（こうち）な物が出来たものかと、私は常に感嘆している。<br/><br/>この切金模様の極致ともいうべき名作が箱根美術館に出陳されるから、観れば誰しも驚くであろう。<br/><br/> これで大体、今度の仏教美術の見聞記は終ったが、元来日本の彫刻は仏教に関する以外の名作は余りなかったようである。<br/><br/>ただ有名なのは左甚五郎であるが、この人に関する興味ある伝説も随分あるが、その作品に至っては一般人の目に触れる物はほとんどないといっていい。<br/><br/>ただあるのは日光東照宮の眠りの猫くらいのものであろう。<br/><br/>だが私はここに推賞したい一人がある。<br/><br/>それは今生きている人で、佐藤玄々という彫刻家である。<br/><br/>この人は初めは朝山、次は清蔵といい、玄々は三度目の名であるが、その点珍しい人である。<br/><br/>この人は今年確か八十三か四と思うが、古来稀にみる名人と思っている。<br/><br/>私はこの人の作品を好み傑作品と思う数点を美術館に出すつもりだから、観たら分るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

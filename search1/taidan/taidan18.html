@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan18</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様 夢声氏対談記 （上） 『栄光』98号、昭和26(1951)年4月4日発行 春季大祭四日目の二十一日、明主様は吉川英治氏原作、徳川夢声氏解説の「宮本武蔵、宝蔵院道場のくだり」を約一時間に渉って御熱心に御傾聴あそばされ、閉幕後、奥様御同席にて、ただちに夢声氏の希望により、親しく御対談あそばされた。<br><br>以下はその要旨である。<br><br> 夢声氏 「初めまして……」 明主様 「いや、いいですね、あなたのは講談などと違った味がある」 夢声氏 「私のは女の方にどうかと思いますが……」 奥様 「いいえ、とてもよく分かって……」 明主様 「吉川さんも古い信者でして、あんたと、よく気が合って、実にいいですね」 夢声氏 「これは、原作者との試合のようなものでしてね。<br><br>原作と演者と互角ならよいですが、原作に及ばなければ負けです」 明主様 「あなたのほうが優ってますよ。<br><br>吉川さんも喜ばれるでしょう」 夢声氏 「先日、吉川さんが奥多摩に会館を建てたので、ぜひ一度話をしてくれ、実はいままで直接君の解説を聴いたことがないんだ、と言うので、よろしい、それでは行きましょう、ということになり、三越の名人会でやった。<br><br>落語の文楽さん、小唄の二三吉（ふみきち）さんが行けないので小梅さん、漫才では馴染みのリーガル千太、万吉さん、それに私という顔ぶれで、吉川さんも非常に喜んでくれまして、「武蔵」をやる場合は一々ことわらずに勝手にやってくれということでした 三越の名人会というのは、ちゃんと伝統的な芸をもった、いわば立派な修業をして、名人の域に達した人たちばかりなんです。<br><br>私だけです、インチキ性のあるのは……」 明主様 「そこが、いいんですよ。<br><br>商売人になったら駄目です。<br><br>私はみんな素人流でいろんなことをやっているんで、ぜんぜん専門家と違ってますね。<br><br>箱根においでになって石の庭を観れば分かるんですが。<br><br>専門家がこれを見ると嫌になって職を投げたくなったんだそうです。<br><br>というのは、そこに使ってある石が裏だったり逆さだったりして、とてもふつうじゃ使えないと言うんです。<br><br>それがまた、素敵にいいんですよ」 夢声氏 「一つ一つ型にはまってないからなんですね。<br><br>世の中は型が全部ではありませんから……型にはまらないで、いいものもありましょう」 明主様 「なんでも型にはまると死んでしまいます。<br><br>わたしは書をやっていますが、私がいつか書を習おうと言ったとき、書家があんたは字を習うのを止めなさい。<br><br>われわれは型がついて、どうしてこれを破るかに苦労している。<br><br>多少字が違っていても、点や棒が多くても足りなくともいい。<br><br>個性を生かす、それが尊いものだ、と言われたが、まあ理屈では分からぬ点がありますね」 夢声氏 「例えば、今日文楽さんのやった落語の「寝床」などは、何遍となく繰り返し繰り返しして切磋琢磨（せっさたくま）されて、完成品にしてありますが、わたしの話は、粗雑な未完成品でしてね。<br><br>話の根本問題を考えていますが……」 明主様 「非常にうまい。<br><br>結局魂の問題です。<br><br>つまり武蔵の魂を伝えるんですね。<br><br>いくらうまくやっても商売人の講釈師のは形だけで魂がないから受ける感じがちがう。<br><br>わたしは武蔵を、ただの武芸者だとは思ってません。<br><br>というのは、あの人は絵を書くでしょう。<br><br>それが実にうまいのですよ」 夢声氏 「ただではありませんね。<br><br>この間吉川さんが、武蔵の「叭々（はは）鳥」の軸を一本くれましたが、あの人も最初は、自分の書いたものを、講釈されるのを、いくぶん嫌がっていた傾向があったが、原作をいくぶん崩されやしないかの憂いをもったんでしょう。<br><br>近ごろでは自分の書いたものなら、どんどんやってほしいなどと言ったりしてます。<br><br>武蔵の書いた絵なども、僕一人のものでない。<br><br>君も持つべき品だ、と言って、わざわざ持ってきてくれましたが、さすが立派に画けてます。<br><br>品格がありますね」 明主様 「ええ、私もこの間見たが、非常にうまいですね、ものは、あるレベルに達すると同じことです」 夢声氏 「それも本職が見ると、おかしいんだそうですが、本職には画けない画だということです」 明主様 「偽物も多いんじゃないですか？」 夢声氏 「ええ、多いようです」 明主様 「でも、名画は偽が多いですからねえ。<br><br>それに本物より偽のほうがうまい場合もありますねえ」 奥様 「三越で、印刷でうまくできてましたね」 夢声氏 「墨絵など見ても、格調が高いですね」 奥様 「印刷してあって、巧芸社版でしたかしら」 夢声氏 「そうですね。<br><br>あの墨絵などは偽物か本物か分かりませんね。<br><br>先ごろも一茶の手紙をもらったんですが。<br><br>まあ、ただではあるし、どうせ偽物だと思ってたところ、一茶ものを扱いなれている骨董尾に見せたら本物だと言うんです。<br><br>本物をただでくれるはずがないし、よく見たら印刷なんで……このときは昼間見て分かったのですよ」 明主様 「家にも、一茶なら二本あります。<br><br>たしか鵜かなにかだったと思いますが、秋に箱根でお見せしましょう」 夢声氏 「ぜひ拝見したいものです」 明主様 「武蔵は沢庵（たくあん）から、よほど教えられていたようですね」 夢声氏 「ええ、時代は同じですが。<br><br>あーそうですねえ。<br><br>書いておかしくはないけど、沢庵と交渉のあった伝説はありません。<br><br>しかし沢庵ならずとも偉くなったと思いますね」 （文責在記者）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Diálogo sobre a Alma na Arte</h2>
 <p>No dia 21, quarto dia do Grande Culto da Primavera, Meishu-Sama devotou aproximadamente uma hora à atenta apreciação da obra "Miyamoto Musashi", no trecho referente ao Dojo Hozoin, com narração do senhor Tokugawa Musei e texto original do senhor Yoshikawa Eiji. Após o encerramento, na presença de sua esposa, Okusama, Meishu-Sama atendeu prontamente ao desejo do senhor Musei e concedeu-lhe um diálogo particular. O que se segue é uma síntese desse encontro.</p>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p><strong>Senhor Musei:</strong> Seria uma honra poder apreciá-las.</p>
 <p><strong>Meishu-Sama:</strong> Musashi parece ter sido profundamente instruído pelo monge Takuan, não é mesmo?</p>
 <p><strong>Senhor Musei:</strong> Sim, eles foram contemporâneos. Ah, de fato... Embora não seja absurdo imaginar tal interação, não existem lendas que confirmem um contato entre eles. Contudo, acredito que Musashi teria se tornado um grande homem mesmo sem a influência de Takuan.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様 夢声氏対談記 （上） 『栄光』98号、昭和26(1951)年4月4日発行 春季大祭四日目の二十一日、明主様は吉川英治氏原作、徳川夢声氏解説の「宮本武蔵、宝蔵院道場のくだり」を約一時間に渉って御熱心に御傾聴あそばされ、閉幕後、奥様御同席にて、ただちに夢声氏の希望により、親しく御対談あそばされた。<br/><br/>以下はその要旨である。<br/><br/> 夢声氏 「初めまして……」 明主様 「いや、いいですね、あなたのは講談などと違った味がある」 夢声氏 「私のは女の方にどうかと思いますが……」 奥様 「いいえ、とてもよく分かって……」 明主様 「吉川さんも古い信者でして、あんたと、よく気が合って、実にいいですね」 夢声氏 「これは、原作者との試合のようなものでしてね。<br/><br/>原作と演者と互角ならよいですが、原作に及ばなければ負けです」 明主様 「あなたのほうが優ってますよ。<br/><br/>吉川さんも喜ばれるでしょう」 夢声氏 「先日、吉川さんが奥多摩に会館を建てたので、ぜひ一度話をしてくれ、実はいままで直接君の解説を聴いたことがないんだ、と言うので、よろしい、それでは行きましょう、ということになり、三越の名人会でやった。<br/><br/>落語の文楽さん、小唄の二三吉（ふみきち）さんが行けないので小梅さん、漫才では馴染みのリーガル千太、万吉さん、それに私という顔ぶれで、吉川さんも非常に喜んでくれまして、「武蔵」をやる場合は一々ことわらずに勝手にやってくれということでした 三越の名人会というのは、ちゃんと伝統的な芸をもった、いわば立派な修業をして、名人の域に達した人たちばかりなんです。<br/><br/>私だけです、インチキ性のあるのは……」 明主様 「そこが、いいんですよ。<br/><br/>商売人になったら駄目です。<br/><br/>私はみんな素人流でいろんなことをやっているんで、ぜんぜん専門家と違ってますね。<br/><br/>箱根においでになって石の庭を観れば分かるんですが。<br/><br/>専門家がこれを見ると嫌になって職を投げたくなったんだそうです。<br/><br/>というのは、そこに使ってある石が裏だったり逆さだったりして、とてもふつうじゃ使えないと言うんです。<br/><br/>それがまた、素敵にいいんですよ」 夢声氏 「一つ一つ型にはまってないからなんですね。<br/><br/>世の中は型が全部ではありませんから……型にはまらないで、いいものもありましょう」 明主様 「なんでも型にはまると死んでしまいます。<br/><br/>わたしは書をやっていますが、私がいつか書を習おうと言ったとき、書家があんたは字を習うのを止めなさい。<br/><br/>われわれは型がついて、どうしてこれを破るかに苦労している。<br/><br/>多少字が違っていても、点や棒が多くても足りなくともいい。<br/><br/>個性を生かす、それが尊いものだ、と言われたが、まあ理屈では分からぬ点がありますね」 夢声氏 「例えば、今日文楽さんのやった落語の「寝床」などは、何遍となく繰り返し繰り返しして切磋琢磨（せっさたくま）されて、完成品にしてありますが、わたしの話は、粗雑な未完成品でしてね。<br/><br/>話の根本問題を考えていますが……」 明主様 「非常にうまい。<br/><br/>結局魂の問題です。<br/><br/>つまり武蔵の魂を伝えるんですね。<br/><br/>いくらうまくやっても商売人の講釈師のは形だけで魂がないから受ける感じがちがう。<br/><br/>わたしは武蔵を、ただの武芸者だとは思ってません。<br/><br/>というのは、あの人は絵を書くでしょう。<br/><br/>それが実にうまいのですよ」 夢声氏 「ただではありませんね。<br/><br/>この間吉川さんが、武蔵の「叭々（はは）鳥」の軸を一本くれましたが、あの人も最初は、自分の書いたものを、講釈されるのを、いくぶん嫌がっていた傾向があったが、原作をいくぶん崩されやしないかの憂いをもったんでしょう。<br/><br/>近ごろでは自分の書いたものなら、どんどんやってほしいなどと言ったりしてます。<br/><br/>武蔵の書いた絵なども、僕一人のものでない。<br/><br/>君も持つべき品だ、と言って、わざわざ持ってきてくれましたが、さすが立派に画けてます。<br/><br/>品格がありますね」 明主様 「ええ、私もこの間見たが、非常にうまいですね、ものは、あるレベルに達すると同じことです」 夢声氏 「それも本職が見ると、おかしいんだそうですが、本職には画けない画だということです」 明主様 「偽物も多いんじゃないですか？」 夢声氏 「ええ、多いようです」 明主様 「でも、名画は偽が多いですからねえ。<br/><br/>それに本物より偽のほうがうまい場合もありますねえ」 奥様 「三越で、印刷でうまくできてましたね」 夢声氏 「墨絵など見ても、格調が高いですね」 奥様 「印刷してあって、巧芸社版でしたかしら」 夢声氏 「そうですね。<br/><br/>あの墨絵などは偽物か本物か分かりませんね。<br/><br/>先ごろも一茶の手紙をもらったんですが。<br/><br/>まあ、ただではあるし、どうせ偽物だと思ってたところ、一茶ものを扱いなれている骨董尾に見せたら本物だと言うんです。<br/><br/>本物をただでくれるはずがないし、よく見たら印刷なんで……このときは昼間見て分かったのですよ」 明主様 「家にも、一茶なら二本あります。<br/><br/>たしか鵜かなにかだったと思いますが、秋に箱根でお見せしましょう」 夢声氏 「ぜひ拝見したいものです」 明主様 「武蔵は沢庵（たくあん）から、よほど教えられていたようですね」 夢声氏 「ええ、時代は同じですが。<br/><br/>あーそうですねえ。<br/><br/>書いておかしくはないけど、沢庵と交渉のあった伝説はありません。<br/><br/>しかし沢庵ならずとも偉くなったと思いますね」 （文責在記者）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

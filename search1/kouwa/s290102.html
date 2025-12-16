@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290102</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年1月2日） 『御教え集』30号、昭和29(1954)年2月15日発行 昭和二十九年一月二日 去年の『栄光』の「新年号」に「世界夢物語」というのを出しました。<br><br>最初は「これからの世界」という題で書いたのです。<br><br>そうすると「夢物語」とつけなければいけないというように思われて、仕方がなくなったのでそう書いたのです。<br><br>というのは最初書いたのは、スターリンが生きていて、ああいう強硬な決意がある、一方アイゼンハウアーが断乎としてやっつけるという、そういう計画が私に分かるから、それで書いたのです。<br><br>そうするとスターリンが死んで、死ぬと同時にぜんぜん変わってしまったのです。<br><br>あの直後、ちょうど名古屋に行って“ソ連のやり方はずっと力が弱って、共産主義というものはヒョロヒョロになる”ということを私は言いましたが、そういうことを考えると、まったく夢物語になったわけです。<br><br>そこでアイゼンハウアーも、彼がそうなった以上、最初の方針を固執するわけにはゆかないということになって、この間も原子爆弾について、アメリカとしては今までにない穏やかな論法になったわけです。<br><br>また昨日あたりのマレンコフのあれに対する応酬も、いつもに似合わない平和的の、あまり不気味なことを言わないで、ごく平凡なことを言っていたということは、世界の情勢――動きがだいぶ変わってきたです。<br><br>ですから本当から言えばよいのですが、ただ、日本が今経済的に苦しんでいるその因は、特需がなくなったということです。<br><br>ぜんぜんなくなりはしないが、よほど減ったわけです。<br><br>それは、朝鮮問題がああいったような情勢になってきたということは、平和色が濃くなったそれが原因で、貿易が去年あたりより非常に悪くなったのです。<br><br>それで今年からは政府は緊縮政策をかなり強くやるでしょうから、そういった経済的関係のある人はそうとう苦しむでしょう。<br><br>そういうわけで、去年の正月の考え方と今年の正月の考え方とは大いに違ったわけですが、その原因はスターリンの死です。<br><br>だいたいいつの時代でも、戦争を起こすのは英雄です。<br><br>近くはヒトラー、古くはナポレオンとかシーザーという英雄です。<br><br>ところがこれから突如として出るかも分かりませんが、さし当たって、今のところはまずスターリン死後に戦争を起こすような英雄は見当たらないのです。<br><br>ですから世界はよほど平和色が濃くなるわけです。<br><br>けれどもそう決めることもできないです。<br><br>というのはマレンコフという人物は、とにかく今の平和的のやり方が本当に心からの平和か、あるいは一つの芝居か、それは分からないのです。<br><br>彼の目的は、だいたい欧州の軍備をよほど緩和しようということと、それから大いにアジア方面の、今までソ連を恐れていた、そういった疑心を大いに緩和して、アジア方面を経済的に頭を撫でるというようなことをして、ソ連の国民に対しても最近は非常に緩和政策をとって、生活水準を高めるように努力してますが、とにかく周囲をすっかりいいことにして、経済的にウンと充実させて、そうして腰をすえてアメリカとやるというのかも分からないです。<br><br>だからそういうふうに見れば、第三次戦争はないとは言えないです。<br><br>ただ、延びるということと、戦争がもっと大きくなるということを頭に入れておかなければならないです。<br><br>ここしばらくはまず戦争の危機はずっと薄くなるわけです。<br><br>ただ難しいのは朝鮮の休戦問題ですが、あれもとにかく、中共が以前強硬だったのは、やはりスターリンの生きているためと見なければならないですから、よほどその考え方は変わってきていますから、たいしたことはないと見てよいです。<br><br>世界の情勢を簡単に話してみればそういうところだろうと思います。<br><br> 救世教の方はいよいよ大いに世界的に認められるという時期が非常に近寄ってきているのです。<br><br>というのは、熱海の地上天国は会館と水晶殿はこの秋にできます。<br><br>そうして美術館の方は来年秋になりましょうが、来年はぜひできるつもりです。<br><br>そうするとだいたい完成することになります。<br><br>しかしそれでおしまいではないのです。<br><br>熱海の方も、後まだまだだいぶ広くなりそうです。<br><br>なにしろ神様の計画はドエラク大きいのです。<br><br>奥が知れないと言ってもよいくらいです。<br><br>そうすると熱海の地上天国というものは、日本は勿論そうですが、世界的にも大きな話題になると思います。<br><br>おそらくまず世界始まって以来ないものなのです。<br><br>それでこの間のアメリカの人――婦人ですが、『ニホン・タイムズ』の記者で美術評論家でそうとう有名だそうです。<br><br>その人が世界的の美術館を見て歩いて、イタリアのヴァチカン、フランスのルーヴル、それと箱根美術館を見た感じが、ちょうど同じだ、その他の美術館は大きいばかりで、一種の美に打たれると言うか、なんとも言われない気持ちはない。<br><br>世界でこの三つだと言うのです。<br><br>そしてもう一つの箱根美術館の特長は、美術品を見て、遠くを見れば自然の山々が見える。<br><br>これは世界の美術館で他にはない。<br><br>また庭園の人工の美を合わせてあるということは特殊な美術館だ、ということを言ってました。<br><br>その時は夫人のみだったのですが、その後主人公と一緒に来ました。<br><br>箱根はしまっていたので熱海だけを見せましたが、主人が言うには、熱海の地上天国のことを書こうと思ってきたが書けない。<br><br>だから自分は実地に見ろということを書くつもりだ。<br><br>批評ということはとてもできないと言うのです。<br><br>それほど雄大な、アッとするようなもので、たいしたものなのです。<br><br>この間も言ったとおり、日本の西は奈良、京都という文化都市で、それから東は箱根、熱海の地上天国ができてからの文化都市と同じ意味だということを言ってました。<br><br>そういう意味で、だいたいアメリカに大いに紹介するということを言ってました。<br><br>奥さんは『ニホン・タイムズ』の社員で、主人公はＮＨＫの英語放送を担任している人です。<br><br>それから“ＮＨＫの会長の古垣という人はここに来ましたか、どうですか。<br><br>来ないのはどうもけしからん。<br><br>これだけのものを紹介しないということはない、行って話しましょう”と言ってましたが、話したそうです。<br><br>会長は“今度ぜひ見に行く”と言っていたそうですから、いずれ来るでしょう。<br><br>それから“外務大臣はどうですか”と言うから、“外務大臣はまるっきりそういうことはありません”と言うと“これだけのことをして、将来たいしたものをしている。<br><br>それを外務大臣が知らないということは実に不思議だ”と言ってましたが、実際アメリカのああいった人はすばらしいものです。<br><br>ですから私とよく話が合うのです。<br><br> ところが日本の新聞記者ときたらぜんぜん違うのです。<br><br>それで、その人が“日本の新聞記者はどうだ”と言うから、“日本の新聞記者はここを見て、救世教のやつはなかなか金儲けがうまいなと考えるくらいだ”と言ったのです。<br><br>それで、金儲けがうまいというその奥は、とにかく戦後の人心の混乱にうまく乗じて、迷信を巧みに押し売りして金をあげさせるというその手腕は実にたいしたものだという、そういう感心の仕方です。<br><br>“アメリカのあなた方は、これだけの丸いものとしたら、大きな目をもって見るが、日本のジャーナリストは小さな目で見るから、部分的にしか見えないので正確な批判はできないのだ”と言ったのです。<br><br>その点においてジャーナリストに限らず、日本の多くの人は、まだまだ島国根性と言いますか、封建性が残っていると言いますか、見方が小乗的で小さいのです。<br><br>これが今もって分かるのは、『忠臣蔵』を芝居でもラジオでもやってますが、十二月十四日が討入りの日ですから特にやってましたが、それは聞いたり見たりする人が多いからです。<br><br>そうすると日本人の思想がだいたい分かるわけです。<br><br>私はお祭りの余興のときにも、すべて『忠臣蔵』をやってはいけないと言ってますが、あのくらい間違っていることはないです。<br><br>話は横道にゆきましたが、とにかく四十七人の人間が一生涯の生命を犠牲にして仇討ちをやるのですが、そうすると、それを非常に讃美するのです。<br><br>あの時代ならそれでよいかもしれませんが、今そういうことが行なわれるとしたら、いったい人間はなんのために生まれてきたかということです。<br><br>そうしたからといって、国民や社会に幸福のためにどれだけ役にたつかということです。<br><br>それで日本人の思想の中から一番に抜かなければならないのは仇討ち思想です。<br><br>仮に親が殺されると、伜（せがれ）が親の仇討ちのために一生を犠牲にして仇を討つ。<br><br>そうすると討たれた親の伜がまた仇討ちをする。<br><br>そのまた伜が仇討ちをする……ということになり、せっかく人間として生まれたその命を、親の仇討ちのために犠牲にしてしまうのです。<br><br>それが少ないならまだよいが、それがだんだん多くなると、人間は仇討ちのために殺し合い、生命を犠牲にするということになります。<br><br>そのことを考えてみると、非常に悪いことが分かります。<br><br>ただ、あの時代はよかったのですが、それも本当によかったのではないので、小乗的善です。<br><br>その時代の大名とか将軍という主権者が、政権を維持するためですが、大名は自分の勢力と、そういったそうとうな地位、権力を維持するために忠義という道徳を作ったのです。<br><br>そうして命を犠牲にするまでに、大名の不利益をやろうという者をやっつけて、政権を維持するそのための精神を作る、その手段としての武士道ですから、武士道というのはけしからんものです。<br><br>それからまた大和魂というものはとんでもないものです。<br><br>だいたい日本があれだけの敗戦になったのも、大和魂のためです。<br><br>つまり大和魂を看板にして、それを利用して国民をあれほどの目に遭わせたのですから、とんでもない代物です。<br><br>というのは、やっぱり小乗的精神だからです。<br><br>そういう意味において仇討ち思想というものはとんでもないものです。<br><br> そこで、地上天国は熱海が完成すると大変な評判になります。<br><br>今はまだ中途だからあんなものですが、できあがったらずっとびっくりするほどのすばらしいものになります。<br><br>そういうようなわけで、世界的の注目の的になります。<br><br>外国で“日本に大変なものができた”“いったいそれはなんだ”“なにものだ”ということになり、“それは一宗教の教祖だ”ということになり、また日本でも、“救世教はドエライことをやった”“岡田茂吉も、馬鹿にしていたが、そうでもないな”となります。<br><br>それに早いです。<br><br>なにしろヨーロッパではヴァチカン、支那では北京〔紫禁〕城、日本では奈良、京都、日光という所ですが、それはみんなとにかく千年以上たってます。<br><br>日光だけは三百年そこそこですが、ところが私がやったのは十年たつかたたないうちです。<br><br>それでしかもあっちの方は何千人か何万人か分からないくらいの大勢の人間が千年以上もかかって造ったものです。<br><br>こっちは私一人で、十年そこそこでそれに匹敵するものを造るということは、人類史上にも大いに研究する必要があるというので、私の研究熱と言いますか、そういうものがきっと出ます。<br><br>そうすると、“まず研究するには、なによりも彼の著書を見るのが一番よい”というので、私の本を大いに読み出すということになります。<br><br>そこで、農業は実地でもう二、三年で分かりますが、一番肝腎なのは医学です。<br><br>医学が分からざるを得なくなります。<br><br>ですからこれが一番早いです。<br><br>病人を治してだんだんゆくということもよいですが、これは遅くて暇がかかります。<br><br>そこで神様は一度に分からせようとして、つまりその方法が、地上天国という美術的のことを、そういう方法でやるわけですが、考えてみると、実に抜け目がないと言うか、さすがは神様と感心してます。<br><br>そういうわけで、“これほど立派なものが十年そこそこでできたというが、いったい金はどうするか”ということになります。<br><br>それは、どんな病院でも博士でも治らない病気が簡単に治って、その感謝のためにみんなが自発的に金をあげる。<br><br>それが集まってこういうものができた、ということを分からせるようにします。<br><br>“それでは救世教の病気治しというものは、よほどすばらしいものに違いない”ということを考えるわけです。<br><br>ですから地上天国というものがそういうような大きな役目をすると思います。<br><br> それから御神業のスピード……早さがすばらしいものです。<br><br>一例として、今年の三月に三越で浮世絵展覧会をやります。<br><br>これを企画したのは毎日新聞社ですから、毎日新聞社が大いに骨折るわけです。<br><br>それは三越の七階の大ホールで、昔の特別食堂です。<br><br>そこは百五十坪あって、そこを提供することになったのです。<br><br>今までお寺の美術展は随分やりましたが、他の美術館で出張してやるということはないから、どうだろうと思っていたが、最近になって決まったようです。<br><br>ところが、それだけに知られたということです。<br><br>浮世絵では日本で一番なのです。<br><br>特に肉筆を主にしてやるつもりです。<br><br>版画の方は、今まで方々で展覧会をやりましたが、肉筆の方はなかったです。<br><br>ところが私は将来、肉筆が大いに認められるときが来ると思って、その時分……と言っても、つい二、三年このかたですが、他の人は肉筆に重きをおかないために良い物を安く買えたのです。<br><br>そこで私はできるだけ買ったのです。<br><br>その期間は一年とはかかりませんでした。<br><br>もっともこれは神様がやっているのですから、バタバタと集まってしまったのです。<br><br>博物館の人に聞いてみると、今は私のは日本一だそうです。<br><br>半年ぐらいで日本一と言われるぐらいに蒐集するということは実に早いです。<br><br>まったく人間業ではないです。<br><br>最近の話ですが、支那陶器の方は道具屋がさっぱり持ってこないので、“どうした”と聞いたら、“みんなこちらに来てしまった”と言うのです。<br><br>実際世の中は小さなものです。<br><br>おまけに支那陶器というのは英、米でかなり買いましたから、日本にあるのは、今まで大名や財閥の倉に蔵い込んであったのが、終戦のために一時バタバタと出てきた、そこを私の方で買ってしまったので、後はないというわけです。<br><br>これらも実際神様の手際のよい、うまいところに感心させられます。<br><br>他にもそういうことはいろいろありますが、今言ったような外国、日本も奈良朝は千年以上前ですが、京都の文化でも、平安朝が多いですから八百年くらい前です。<br><br>それがこっちはわずか十年でできてしまうというスピードです。<br><br>それから美術品が集まったスピードです。<br><br> それから御守りですが、「光」の文字を書くスピードが近ごろは早くなって、六秒で一枚書きます。<br><br>それを懐に入れて、何千人何万人という人の病気を治せるのですから、このスピードもぜんぜん想像もつかないくらいです。<br><br> それからもう一つは、昨日ハワイの樋口さんからの通信が来ましたが、この間ハワイで生誕祭をやりました――本部は八、九分どおりでき、すっかりできるのはもう一月くらい延びるということですから、今月あたりできるわけです――参拝者が千百名だそうです。<br><br>とにかく去年の三月から、なにも準備もない所に突如として始めて、九カ月で参拝者が千百人あったのです。<br><br>ですからこれも実に早いです。<br><br>ふつうの新しい宗教で千人からのお参りというと、どうしても五年や八年はかかります。<br><br>それもみんなそうとう熱心な信者で、その中に支部長などもそうとうできているのです。<br><br>早さという一つの例ですが、そういうようで、このスピードというものは大変なものです。<br><br> そこで、救世教のモットーである「病貧争絶無の世界」「地上天国を造る」ということは、とにかく私の生きているうちに基礎だけは造るつもりです。<br><br>そうすれば後は自然にできるのです。<br><br>そんなドエライ、世界をまるで自分の……というとおかしいが、神様の計画どおりにできるということは、これもすばらしいスピードです。<br><br>そういうようなわけだから、地上天国を造るということは、それは理想であって、現実的にそんな早くできるものではないとは、誰でもそう思います。<br><br>なにしろ今までのような宗教のやり方や発展の仕方から想像しても、そんな早く実現しようとは、とても思えないのです。<br><br>思えないが、今言ったことを考えてみても、あながちできないとも言いきれない感じがします。<br><br>私が自分の思うとおりのことを言うと、かえって信じ難いから、よほど割り引きして緩和して言っているのです。<br><br>これでも世間の初めての人は、まるでわけが分からない……ということをよくお蔭話に書いてありますが、そういうようなわけで、今までの考え方と馬鹿馬鹿しく外れてしまってますから、またそこに大いにおもしろみと言いますか、そういうものがあります。<br><br>だからやはり開闢（かいびゃく）以来ない大きなことであり、喜びであり、大変な事業です。<br><br>日本でも、秀吉が大阪城を造ったとか、日光は三代将軍が造ったのですが、それを造る動機というのは、私のやっていることとは大変に違うのです。<br><br>あれらはみんな自己の権勢を誇るためと、自己の権力を維持するための、つまり戦争の防備です。<br><br>戦いによって取り返されないようにというためと、自己の勢力を維持し、権勢を誇るという一種の虚栄です。<br><br>それから東京の二重橋でも、太田道灌（どうかん）が造って徳川を大いに充実させたものですが、やっぱり目的は今言ったとおりで、決して大衆を楽しませる、日本の国民なら国民全体を喜ばせるという、そういった公共性はまことに少ないのです。<br><br>結局、自己中心で、自己の利益のために造ったものです。<br><br>それからまたイタリアのヴァチカンにしても、宗教的ではありますが、つまりキリスト教発展のための本山です。<br><br>なにしろキリスト教はローマ時代には非常にさかんだったのです。<br><br>ですから品物を献げたり、金を献げたりして、自然にああいう美術館などもできてしまったようなものです。<br><br>ですからほとんど宗教的です。<br><br>私は去年ヴァチカンの油絵を天然色写真にとった物をもらい、いろいろ見ましたが、実にすばらしいものです。<br><br>写真で見てもあのくらいですから、現場を見たらどんなに良いかと驚きました。<br><br>といったところで、結局一つの宗教によって自然にできたものです。<br><br>アメリカ文化なども立派ですが、あれは機械文明を誇るものであり、また金儲けに利用するためとの両方で、ああいう立派なものができたのです。<br><br>ですから美術的ではないのです。<br><br>ところが今度できる地上天国は、そういったような、一つの戦争、武力をもって自己を擁護するという意味とか、一つの宗教を弘めるというのでなくて、ただ多くの人＝世界中の人が、美を楽しみ、美によって魂を向上させるという、純粋の平和的のものです。<br><br>ですからそういうようなものは、今まで世界中にできたものはないのです。<br><br>これが初めてでしょう。<br><br>そういう意味において、いずれ世界中に理解されます。<br><br>アメリカの新聞記者もそういうことを言ってます。<br><br>世界でも立派な物を造っているが、それらは自分の利益を主眼としているが、あなたはそうでなく、本当に平和的の、大衆のための仕事をするのだから、日本人としては実に珍しい。<br><br>日本にこういう人物がいるということは知らなかったと言ってましたが、知らなかったはずです。<br><br>やっとこのごろですから……。<br><br>おそろしい自慢話になりましたが、しかしこれは私がやっているのでなく、神様が私を使ってやっているのですから、神様の自慢の取り次ぎと言えばよいわけです。<br><br>手っ取り早く言えば、熱海の地上天国ができてから、救世教というものがぜんぜん面目一新して、一つの、世界的の偉大なものとして見られるということになります。<br><br>ですから救世教を見る目が、日本は勿論、外国にも知れてきます。<br><br>今でさえ『シカゴ・トリビューン』では続いて紹介するということを言ってます。<br><br>それで熱海地上天国ができればいっそうやるだろうと思ってます。<br><br>それでこれは霊的にも、熱海の地上天国は世界の型になっているのだから、これが拡がれば世界的になるのです。<br><br>霊的から言っても、そうなるのがあたりまえです。<br><br> もう一つ変わった話をしますが、原子爆弾というものはつまり火力です。<br><br>太陽熱です。<br><br>太陽熱をとったものだ、吸収したものだということを学者は言ってますが、実際そうです。<br><br>太陽熱を一遍に集めるのです。<br><br>だから火力というものは、ちょっと計れないです。<br><br>二万度とか三万度とか言ってますが、そんなものではないので、もっと熱いです。<br><br>水素爆弾などというと、ぜんぜん計れないです。<br><br>計れないと言っても、ぜんぜん計れないというわけではないので、寒暖計の方が進歩すれば計れます。<br><br>ところで、浄霊の火素が原子爆弾と同じことです。<br><br>原子爆弾と浄霊が時期も同じにできたわけです。<br><br>原子爆弾の原理というものは約十数年前にできたのです。<br><br>そういうわけで、時期が同じです。<br><br>それで、ただ浄霊の方は霊的の熱です。<br><br>そこでそんなに熱くもないし光も見えないのです。<br><br>では力はどうだというと、これは原子爆弾よりずっと強いのです。<br><br>私は今書いてますが、未信者が浄霊で治ったときに、どういうわけで治ったのかという説明を求められた場合に、はっきりと説明する必要がありますから、そこではっきり書きましたが、これならだいたい分かるわけです。<br><br>それで、病原は人間の霊の曇りです。<br><br>曇りというのは水素中にある不純粒子で、つまり毒粒子で、これは計算のできない細かいものです。<br><br>それが火素の放射によって毒粒子が焼けるのです。<br><br>ですから、毒粒子を焼く光線ですから、その強さというのは大変なものです。<br><br>これ（浄霊）が物質だとしたら、やはり物質を焼いてしまいますが、これは物質ではないから霊を焼くのです。<br><br>それで霊のうちの毒粒子というのは霊の物質なのです。<br><br>それでこの光によって霊の物質を焼いてしまって純水素が残るのです。<br><br>それが漿液（しょうえき）に混ってしまい、そうして毒粒子だけが焼けてしまうのです。<br><br>ですからその焼けるということは、ちょうど原子爆弾と似ているということは、火力が強いことで、その点が似ているわけです。<br><br>それがちょうど二十世紀の同じころに現われたということがおもしろいです。<br><br>私はそれを、原爆は殺人光線、浄霊は活人光線というふうに名前をつけたのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões Sobre a Nova Era e a Vontade Divina</h2>
 <p>Na edição de Ano-Novo da revista Eikoh do ano passado, publiquei um artigo intitulado "Uma Fantástica História Mundial". Originalmente, eu o havia escrito sob o título "O Mundo de Amanhã". Fui compelido, entretanto, a acrescentar a expressão "fantástica história", pois as circunstâncias se alteraram drasticamente. A primeira versão do texto se baseava em um cenário no qual Stalin ainda vivia, com sua inabalável e rígida determinação, enquanto, do outro lado, Eisenhower arquitetava planos para confrontá-lo de maneira decisiva — planos esses que chegaram ao meu conhecimento. Contudo, Stalin faleceu, e com sua morte, o cenário alterou-se por completo. Logo após esse acontecimento, em uma visita a Nagoya, afirmei que o poderio soviético esmaeceria consideravelmente e que o comunismo se tornaria exangue. Diante de tais desdobramentos, meu artigo inicial transformou-se, de fato, em uma história fantástica.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>Este discurso acabou se tornando um terrível autoelogio, mas como não sou eu quem realiza a Obra, e sim Deus que me utiliza como instrumento, posso dizer que estou apenas transmitindo os louvores de Deus. Em suma, com a conclusão do Protótipo do Paraíso Terrestre de Atami, a Sekaikyuseikyou terá sua imagem completamente renovada e passará a ser vista como algo grandioso e de relevância mundial. A forma de enxergar a Sekaikyuseikyou mudará, não só no Japão, como também no exterior. O jornal <em>Chicago Tribune</em>, por exemplo, já manifestou a intenção de continuar nos apresentando. Acredito que, com a conclusão do Protótipo de Atami, a divulgação será ainda maior. Espiritualmente, o Protótipo de Atami é o modelo do mundo; portanto, à medida que ele se expande, o mundo também se expandirá. Do ponto de vista espiritual, é natural que assim seja.</p>
 <p>Gostaria de abordar agora um tema distinto. A bomba atômica é, em essência, energia ígnea. É calor solar. Os cientistas dizem que ela captura e absorve o calor do sol, e isso é verdade. Ela concentra o calor solar de uma só vez. Sua energia ígnea é, portanto, quase imensurável. Falam em vinte ou trinta mil graus, mas é muito mais do que isso. A bomba de hidrogênio, então, tem uma temperatura que simplesmente não pode ser medida. Digo isso, mas não é que seja absolutamente impossível; com o avanço dos termômetros, será possível medi-la.</p>
 <p>Pois bem, o elemento fogo do Johrei é o mesmo princípio da bomba atômica. A bomba atômica e o Johrei surgiram na mesma época. O princípio da bomba atômica foi descoberto há pouco mais de dez anos. Portanto, o momento é o mesmo. A diferença é que o Johrei é calor espiritual. Por isso, não é tão quente ao toque, e sua luz não é visível. Mas e quanto ao seu poder? Seu poder é imensamente superior ao da bomba atômica. Estou escrevendo sobre isso agora, pois é necessário explicar claramente aos não-membros como a cura pelo Johrei ocorre. Com a explicação que preparei, acredito que a compreensão será possível. A causa das doenças são as máculas no espírito do ser humano. As máculas são partículas impuras presentes no hidrogênio espiritual, ou seja, partículas de toxinas de uma finura incalculável. A irradiação do elemento fogo queima essas partículas tóxicas. Sendo um raio de luz que queima tais partículas, sua força é tremenda. Se o Johrei fosse matéria, queimaria também a matéria física, mas como não o é, ele queima o espírito. As partículas de toxina no espírito são a matéria do mundo espiritual. Assim, essa luz queima a matéria espiritual, e o que resta é o hidrogênio puro, que se mescla ao soro, enquanto as partículas de toxina são incineradas. O processo de queima, portanto, assemelha-se ao da bomba atômica em sua intensa força ígnea. É interessante que ambos tenham surgido na mesma época, no século XX. Eu os denominei, respectivamente, de "raio assassino" e "raio vivificador".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年1月2日） 『御教え集』30号、昭和29(1954)年2月15日発行 昭和二十九年一月二日 去年の『栄光』の「新年号」に「世界夢物語」というのを出しました。<br/><br/>最初は「これからの世界」という題で書いたのです。<br/><br/>そうすると「夢物語」とつけなければいけないというように思われて、仕方がなくなったのでそう書いたのです。<br/><br/>というのは最初書いたのは、スターリンが生きていて、ああいう強硬な決意がある、一方アイゼンハウアーが断乎としてやっつけるという、そういう計画が私に分かるから、それで書いたのです。<br/><br/>そうするとスターリンが死んで、死ぬと同時にぜんぜん変わってしまったのです。<br/><br/>あの直後、ちょうど名古屋に行って“ソ連のやり方はずっと力が弱って、共産主義というものはヒョロヒョロになる”ということを私は言いましたが、そういうことを考えると、まったく夢物語になったわけです。<br/><br/>そこでアイゼンハウアーも、彼がそうなった以上、最初の方針を固執するわけにはゆかないということになって、この間も原子爆弾について、アメリカとしては今までにない穏やかな論法になったわけです。<br/><br/>また昨日あたりのマレンコフのあれに対する応酬も、いつもに似合わない平和的の、あまり不気味なことを言わないで、ごく平凡なことを言っていたということは、世界の情勢――動きがだいぶ変わってきたです。<br/><br/>ですから本当から言えばよいのですが、ただ、日本が今経済的に苦しんでいるその因は、特需がなくなったということです。<br/><br/>ぜんぜんなくなりはしないが、よほど減ったわけです。<br/><br/>それは、朝鮮問題がああいったような情勢になってきたということは、平和色が濃くなったそれが原因で、貿易が去年あたりより非常に悪くなったのです。<br/><br/>それで今年からは政府は緊縮政策をかなり強くやるでしょうから、そういった経済的関係のある人はそうとう苦しむでしょう。<br/><br/>そういうわけで、去年の正月の考え方と今年の正月の考え方とは大いに違ったわけですが、その原因はスターリンの死です。<br/><br/>だいたいいつの時代でも、戦争を起こすのは英雄です。<br/><br/>近くはヒトラー、古くはナポレオンとかシーザーという英雄です。<br/><br/>ところがこれから突如として出るかも分かりませんが、さし当たって、今のところはまずスターリン死後に戦争を起こすような英雄は見当たらないのです。<br/><br/>ですから世界はよほど平和色が濃くなるわけです。<br/><br/>けれどもそう決めることもできないです。<br/><br/>というのはマレンコフという人物は、とにかく今の平和的のやり方が本当に心からの平和か、あるいは一つの芝居か、それは分からないのです。<br/><br/>彼の目的は、だいたい欧州の軍備をよほど緩和しようということと、それから大いにアジア方面の、今までソ連を恐れていた、そういった疑心を大いに緩和して、アジア方面を経済的に頭を撫でるというようなことをして、ソ連の国民に対しても最近は非常に緩和政策をとって、生活水準を高めるように努力してますが、とにかく周囲をすっかりいいことにして、経済的にウンと充実させて、そうして腰をすえてアメリカとやるというのかも分からないです。<br/><br/>だからそういうふうに見れば、第三次戦争はないとは言えないです。<br/><br/>ただ、延びるということと、戦争がもっと大きくなるということを頭に入れておかなければならないです。<br/><br/>ここしばらくはまず戦争の危機はずっと薄くなるわけです。<br/><br/>ただ難しいのは朝鮮の休戦問題ですが、あれもとにかく、中共が以前強硬だったのは、やはりスターリンの生きているためと見なければならないですから、よほどその考え方は変わってきていますから、たいしたことはないと見てよいです。<br/><br/>世界の情勢を簡単に話してみればそういうところだろうと思います。<br/><br/> 救世教の方はいよいよ大いに世界的に認められるという時期が非常に近寄ってきているのです。<br/><br/>というのは、熱海の地上天国は会館と水晶殿はこの秋にできます。<br/><br/>そうして美術館の方は来年秋になりましょうが、来年はぜひできるつもりです。<br/><br/>そうするとだいたい完成することになります。<br/><br/>しかしそれでおしまいではないのです。<br/><br/>熱海の方も、後まだまだだいぶ広くなりそうです。<br/><br/>なにしろ神様の計画はドエラク大きいのです。<br/><br/>奥が知れないと言ってもよいくらいです。<br/><br/>そうすると熱海の地上天国というものは、日本は勿論そうですが、世界的にも大きな話題になると思います。<br/><br/>おそらくまず世界始まって以来ないものなのです。<br/><br/>それでこの間のアメリカの人――婦人ですが、『ニホン・タイムズ』の記者で美術評論家でそうとう有名だそうです。<br/><br/>その人が世界的の美術館を見て歩いて、イタリアのヴァチカン、フランスのルーヴル、それと箱根美術館を見た感じが、ちょうど同じだ、その他の美術館は大きいばかりで、一種の美に打たれると言うか、なんとも言われない気持ちはない。<br/><br/>世界でこの三つだと言うのです。<br/><br/>そしてもう一つの箱根美術館の特長は、美術品を見て、遠くを見れば自然の山々が見える。<br/><br/>これは世界の美術館で他にはない。<br/><br/>また庭園の人工の美を合わせてあるということは特殊な美術館だ、ということを言ってました。<br/><br/>その時は夫人のみだったのですが、その後主人公と一緒に来ました。<br/><br/>箱根はしまっていたので熱海だけを見せましたが、主人が言うには、熱海の地上天国のことを書こうと思ってきたが書けない。<br/><br/>だから自分は実地に見ろということを書くつもりだ。<br/><br/>批評ということはとてもできないと言うのです。<br/><br/>それほど雄大な、アッとするようなもので、たいしたものなのです。<br/><br/>この間も言ったとおり、日本の西は奈良、京都という文化都市で、それから東は箱根、熱海の地上天国ができてからの文化都市と同じ意味だということを言ってました。<br/><br/>そういう意味で、だいたいアメリカに大いに紹介するということを言ってました。<br/><br/>奥さんは『ニホン・タイムズ』の社員で、主人公はＮＨＫの英語放送を担任している人です。<br/><br/>それから“ＮＨＫの会長の古垣という人はここに来ましたか、どうですか。<br/><br/>来ないのはどうもけしからん。<br/><br/>これだけのものを紹介しないということはない、行って話しましょう”と言ってましたが、話したそうです。<br/><br/>会長は“今度ぜひ見に行く”と言っていたそうですから、いずれ来るでしょう。<br/><br/>それから“外務大臣はどうですか”と言うから、“外務大臣はまるっきりそういうことはありません”と言うと“これだけのことをして、将来たいしたものをしている。<br/><br/>それを外務大臣が知らないということは実に不思議だ”と言ってましたが、実際アメリカのああいった人はすばらしいものです。<br/><br/>ですから私とよく話が合うのです。<br/><br/> ところが日本の新聞記者ときたらぜんぜん違うのです。<br/><br/>それで、その人が“日本の新聞記者はどうだ”と言うから、“日本の新聞記者はここを見て、救世教のやつはなかなか金儲けがうまいなと考えるくらいだ”と言ったのです。<br/><br/>それで、金儲けがうまいというその奥は、とにかく戦後の人心の混乱にうまく乗じて、迷信を巧みに押し売りして金をあげさせるというその手腕は実にたいしたものだという、そういう感心の仕方です。<br/><br/>“アメリカのあなた方は、これだけの丸いものとしたら、大きな目をもって見るが、日本のジャーナリストは小さな目で見るから、部分的にしか見えないので正確な批判はできないのだ”と言ったのです。<br/><br/>その点においてジャーナリストに限らず、日本の多くの人は、まだまだ島国根性と言いますか、封建性が残っていると言いますか、見方が小乗的で小さいのです。<br/><br/>これが今もって分かるのは、『忠臣蔵』を芝居でもラジオでもやってますが、十二月十四日が討入りの日ですから特にやってましたが、それは聞いたり見たりする人が多いからです。<br/><br/>そうすると日本人の思想がだいたい分かるわけです。<br/><br/>私はお祭りの余興のときにも、すべて『忠臣蔵』をやってはいけないと言ってますが、あのくらい間違っていることはないです。<br/><br/>話は横道にゆきましたが、とにかく四十七人の人間が一生涯の生命を犠牲にして仇討ちをやるのですが、そうすると、それを非常に讃美するのです。<br/><br/>あの時代ならそれでよいかもしれませんが、今そういうことが行なわれるとしたら、いったい人間はなんのために生まれてきたかということです。<br/><br/>そうしたからといって、国民や社会に幸福のためにどれだけ役にたつかということです。<br/><br/>それで日本人の思想の中から一番に抜かなければならないのは仇討ち思想です。<br/><br/>仮に親が殺されると、伜（せがれ）が親の仇討ちのために一生を犠牲にして仇を討つ。<br/><br/>そうすると討たれた親の伜がまた仇討ちをする。<br/><br/>そのまた伜が仇討ちをする……ということになり、せっかく人間として生まれたその命を、親の仇討ちのために犠牲にしてしまうのです。<br/><br/>それが少ないならまだよいが、それがだんだん多くなると、人間は仇討ちのために殺し合い、生命を犠牲にするということになります。<br/><br/>そのことを考えてみると、非常に悪いことが分かります。<br/><br/>ただ、あの時代はよかったのですが、それも本当によかったのではないので、小乗的善です。<br/><br/>その時代の大名とか将軍という主権者が、政権を維持するためですが、大名は自分の勢力と、そういったそうとうな地位、権力を維持するために忠義という道徳を作ったのです。<br/><br/>そうして命を犠牲にするまでに、大名の不利益をやろうという者をやっつけて、政権を維持するそのための精神を作る、その手段としての武士道ですから、武士道というのはけしからんものです。<br/><br/>それからまた大和魂というものはとんでもないものです。<br/><br/>だいたい日本があれだけの敗戦になったのも、大和魂のためです。<br/><br/>つまり大和魂を看板にして、それを利用して国民をあれほどの目に遭わせたのですから、とんでもない代物です。<br/><br/>というのは、やっぱり小乗的精神だからです。<br/><br/>そういう意味において仇討ち思想というものはとんでもないものです。<br/><br/> そこで、地上天国は熱海が完成すると大変な評判になります。<br/><br/>今はまだ中途だからあんなものですが、できあがったらずっとびっくりするほどのすばらしいものになります。<br/><br/>そういうようなわけで、世界的の注目の的になります。<br/><br/>外国で“日本に大変なものができた”“いったいそれはなんだ”“なにものだ”ということになり、“それは一宗教の教祖だ”ということになり、また日本でも、“救世教はドエライことをやった”“岡田茂吉も、馬鹿にしていたが、そうでもないな”となります。<br/><br/>それに早いです。<br/><br/>なにしろヨーロッパではヴァチカン、支那では北京〔紫禁〕城、日本では奈良、京都、日光という所ですが、それはみんなとにかく千年以上たってます。<br/><br/>日光だけは三百年そこそこですが、ところが私がやったのは十年たつかたたないうちです。<br/><br/>それでしかもあっちの方は何千人か何万人か分からないくらいの大勢の人間が千年以上もかかって造ったものです。<br/><br/>こっちは私一人で、十年そこそこでそれに匹敵するものを造るということは、人類史上にも大いに研究する必要があるというので、私の研究熱と言いますか、そういうものがきっと出ます。<br/><br/>そうすると、“まず研究するには、なによりも彼の著書を見るのが一番よい”というので、私の本を大いに読み出すということになります。<br/><br/>そこで、農業は実地でもう二、三年で分かりますが、一番肝腎なのは医学です。<br/><br/>医学が分からざるを得なくなります。<br/><br/>ですからこれが一番早いです。<br/><br/>病人を治してだんだんゆくということもよいですが、これは遅くて暇がかかります。<br/><br/>そこで神様は一度に分からせようとして、つまりその方法が、地上天国という美術的のことを、そういう方法でやるわけですが、考えてみると、実に抜け目がないと言うか、さすがは神様と感心してます。<br/><br/>そういうわけで、“これほど立派なものが十年そこそこでできたというが、いったい金はどうするか”ということになります。<br/><br/>それは、どんな病院でも博士でも治らない病気が簡単に治って、その感謝のためにみんなが自発的に金をあげる。<br/><br/>それが集まってこういうものができた、ということを分からせるようにします。<br/><br/>“それでは救世教の病気治しというものは、よほどすばらしいものに違いない”ということを考えるわけです。<br/><br/>ですから地上天国というものがそういうような大きな役目をすると思います。<br/><br/> それから御神業のスピード……早さがすばらしいものです。<br/><br/>一例として、今年の三月に三越で浮世絵展覧会をやります。<br/><br/>これを企画したのは毎日新聞社ですから、毎日新聞社が大いに骨折るわけです。<br/><br/>それは三越の七階の大ホールで、昔の特別食堂です。<br/><br/>そこは百五十坪あって、そこを提供することになったのです。<br/><br/>今までお寺の美術展は随分やりましたが、他の美術館で出張してやるということはないから、どうだろうと思っていたが、最近になって決まったようです。<br/><br/>ところが、それだけに知られたということです。<br/><br/>浮世絵では日本で一番なのです。<br/><br/>特に肉筆を主にしてやるつもりです。<br/><br/>版画の方は、今まで方々で展覧会をやりましたが、肉筆の方はなかったです。<br/><br/>ところが私は将来、肉筆が大いに認められるときが来ると思って、その時分……と言っても、つい二、三年このかたですが、他の人は肉筆に重きをおかないために良い物を安く買えたのです。<br/><br/>そこで私はできるだけ買ったのです。<br/><br/>その期間は一年とはかかりませんでした。<br/><br/>もっともこれは神様がやっているのですから、バタバタと集まってしまったのです。<br/><br/>博物館の人に聞いてみると、今は私のは日本一だそうです。<br/><br/>半年ぐらいで日本一と言われるぐらいに蒐集するということは実に早いです。<br/><br/>まったく人間業ではないです。<br/><br/>最近の話ですが、支那陶器の方は道具屋がさっぱり持ってこないので、“どうした”と聞いたら、“みんなこちらに来てしまった”と言うのです。<br/><br/>実際世の中は小さなものです。<br/><br/>おまけに支那陶器というのは英、米でかなり買いましたから、日本にあるのは、今まで大名や財閥の倉に蔵い込んであったのが、終戦のために一時バタバタと出てきた、そこを私の方で買ってしまったので、後はないというわけです。<br/><br/>これらも実際神様の手際のよい、うまいところに感心させられます。<br/><br/>他にもそういうことはいろいろありますが、今言ったような外国、日本も奈良朝は千年以上前ですが、京都の文化でも、平安朝が多いですから八百年くらい前です。<br/><br/>それがこっちはわずか十年でできてしまうというスピードです。<br/><br/>それから美術品が集まったスピードです。<br/><br/> それから御守りですが、「光」の文字を書くスピードが近ごろは早くなって、六秒で一枚書きます。<br/><br/>それを懐に入れて、何千人何万人という人の病気を治せるのですから、このスピードもぜんぜん想像もつかないくらいです。<br/><br/> それからもう一つは、昨日ハワイの樋口さんからの通信が来ましたが、この間ハワイで生誕祭をやりました――本部は八、九分どおりでき、すっかりできるのはもう一月くらい延びるということですから、今月あたりできるわけです――参拝者が千百名だそうです。<br/><br/>とにかく去年の三月から、なにも準備もない所に突如として始めて、九カ月で参拝者が千百人あったのです。<br/><br/>ですからこれも実に早いです。<br/><br/>ふつうの新しい宗教で千人からのお参りというと、どうしても五年や八年はかかります。<br/><br/>それもみんなそうとう熱心な信者で、その中に支部長などもそうとうできているのです。<br/><br/>早さという一つの例ですが、そういうようで、このスピードというものは大変なものです。<br/><br/> そこで、救世教のモットーである「病貧争絶無の世界」「地上天国を造る」ということは、とにかく私の生きているうちに基礎だけは造るつもりです。<br/><br/>そうすれば後は自然にできるのです。<br/><br/>そんなドエライ、世界をまるで自分の……というとおかしいが、神様の計画どおりにできるということは、これもすばらしいスピードです。<br/><br/>そういうようなわけだから、地上天国を造るということは、それは理想であって、現実的にそんな早くできるものではないとは、誰でもそう思います。<br/><br/>なにしろ今までのような宗教のやり方や発展の仕方から想像しても、そんな早く実現しようとは、とても思えないのです。<br/><br/>思えないが、今言ったことを考えてみても、あながちできないとも言いきれない感じがします。<br/><br/>私が自分の思うとおりのことを言うと、かえって信じ難いから、よほど割り引きして緩和して言っているのです。<br/><br/>これでも世間の初めての人は、まるでわけが分からない……ということをよくお蔭話に書いてありますが、そういうようなわけで、今までの考え方と馬鹿馬鹿しく外れてしまってますから、またそこに大いにおもしろみと言いますか、そういうものがあります。<br/><br/>だからやはり開闢（かいびゃく）以来ない大きなことであり、喜びであり、大変な事業です。<br/><br/>日本でも、秀吉が大阪城を造ったとか、日光は三代将軍が造ったのですが、それを造る動機というのは、私のやっていることとは大変に違うのです。<br/><br/>あれらはみんな自己の権勢を誇るためと、自己の権力を維持するための、つまり戦争の防備です。<br/><br/>戦いによって取り返されないようにというためと、自己の勢力を維持し、権勢を誇るという一種の虚栄です。<br/><br/>それから東京の二重橋でも、太田道灌（どうかん）が造って徳川を大いに充実させたものですが、やっぱり目的は今言ったとおりで、決して大衆を楽しませる、日本の国民なら国民全体を喜ばせるという、そういった公共性はまことに少ないのです。<br/><br/>結局、自己中心で、自己の利益のために造ったものです。<br/><br/>それからまたイタリアのヴァチカンにしても、宗教的ではありますが、つまりキリスト教発展のための本山です。<br/><br/>なにしろキリスト教はローマ時代には非常にさかんだったのです。<br/><br/>ですから品物を献げたり、金を献げたりして、自然にああいう美術館などもできてしまったようなものです。<br/><br/>ですからほとんど宗教的です。<br/><br/>私は去年ヴァチカンの油絵を天然色写真にとった物をもらい、いろいろ見ましたが、実にすばらしいものです。<br/><br/>写真で見てもあのくらいですから、現場を見たらどんなに良いかと驚きました。<br/><br/>といったところで、結局一つの宗教によって自然にできたものです。<br/><br/>アメリカ文化なども立派ですが、あれは機械文明を誇るものであり、また金儲けに利用するためとの両方で、ああいう立派なものができたのです。<br/><br/>ですから美術的ではないのです。<br/><br/>ところが今度できる地上天国は、そういったような、一つの戦争、武力をもって自己を擁護するという意味とか、一つの宗教を弘めるというのでなくて、ただ多くの人＝世界中の人が、美を楽しみ、美によって魂を向上させるという、純粋の平和的のものです。<br/><br/>ですからそういうようなものは、今まで世界中にできたものはないのです。<br/><br/>これが初めてでしょう。<br/><br/>そういう意味において、いずれ世界中に理解されます。<br/><br/>アメリカの新聞記者もそういうことを言ってます。<br/><br/>世界でも立派な物を造っているが、それらは自分の利益を主眼としているが、あなたはそうでなく、本当に平和的の、大衆のための仕事をするのだから、日本人としては実に珍しい。<br/><br/>日本にこういう人物がいるということは知らなかったと言ってましたが、知らなかったはずです。<br/><br/>やっとこのごろですから……。<br/><br/>おそろしい自慢話になりましたが、しかしこれは私がやっているのでなく、神様が私を使ってやっているのですから、神様の自慢の取り次ぎと言えばよいわけです。<br/><br/>手っ取り早く言えば、熱海の地上天国ができてから、救世教というものがぜんぜん面目一新して、一つの、世界的の偉大なものとして見られるということになります。<br/><br/>ですから救世教を見る目が、日本は勿論、外国にも知れてきます。<br/><br/>今でさえ『シカゴ・トリビューン』では続いて紹介するということを言ってます。<br/><br/>それで熱海地上天国ができればいっそうやるだろうと思ってます。<br/><br/>それでこれは霊的にも、熱海の地上天国は世界の型になっているのだから、これが拡がれば世界的になるのです。<br/><br/>霊的から言っても、そうなるのがあたりまえです。<br/><br/> もう一つ変わった話をしますが、原子爆弾というものはつまり火力です。<br/><br/>太陽熱です。<br/><br/>太陽熱をとったものだ、吸収したものだということを学者は言ってますが、実際そうです。<br/><br/>太陽熱を一遍に集めるのです。<br/><br/>だから火力というものは、ちょっと計れないです。<br/><br/>二万度とか三万度とか言ってますが、そんなものではないので、もっと熱いです。<br/><br/>水素爆弾などというと、ぜんぜん計れないです。<br/><br/>計れないと言っても、ぜんぜん計れないというわけではないので、寒暖計の方が進歩すれば計れます。<br/><br/>ところで、浄霊の火素が原子爆弾と同じことです。<br/><br/>原子爆弾と浄霊が時期も同じにできたわけです。<br/><br/>原子爆弾の原理というものは約十数年前にできたのです。<br/><br/>そういうわけで、時期が同じです。<br/><br/>それで、ただ浄霊の方は霊的の熱です。<br/><br/>そこでそんなに熱くもないし光も見えないのです。<br/><br/>では力はどうだというと、これは原子爆弾よりずっと強いのです。<br/><br/>私は今書いてますが、未信者が浄霊で治ったときに、どういうわけで治ったのかという説明を求められた場合に、はっきりと説明する必要がありますから、そこではっきり書きましたが、これならだいたい分かるわけです。<br/><br/>それで、病原は人間の霊の曇りです。<br/><br/>曇りというのは水素中にある不純粒子で、つまり毒粒子で、これは計算のできない細かいものです。<br/><br/>それが火素の放射によって毒粒子が焼けるのです。<br/><br/>ですから、毒粒子を焼く光線ですから、その強さというのは大変なものです。<br/><br/>これ（浄霊）が物質だとしたら、やはり物質を焼いてしまいますが、これは物質ではないから霊を焼くのです。<br/><br/>それで霊のうちの毒粒子というのは霊の物質なのです。<br/><br/>それでこの光によって霊の物質を焼いてしまって純水素が残るのです。<br/><br/>それが漿液（しょうえき）に混ってしまい、そうして毒粒子だけが焼けてしまうのです。<br/><br/>ですからその焼けるということは、ちょうど原子爆弾と似ているということは、火力が強いことで、その点が似ているわけです。<br/><br/>それがちょうど二十世紀の同じころに現われたということがおもしろいです。<br/><br/>私はそれを、原爆は殺人光線、浄霊は活人光線というふうに名前をつけたのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hihanha</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 批判は公平であれ 『光』46号、昭和25(1950)年1月21日発行 現在の世相について吾らの最も納得し兼ねる点は、本教浄霊の場合いかに効果ありとしても偶（たま）には予期に反する事もある、すると世間はソレッとばかり非難攻撃を浴せるが、それに反し医師が同様失敗した場合よほど顕著でない限り、当然の事のようにいささかもとがめようとはしない、という事実にみて、宗教による治病がいかに冷酷に取扱われているかが判るのである、この例はひとり右のような場合のみではない、よくこういう事がある、医師と浄霊と併せて行う場合、失敗した時は医療をとがめないで本教にのみ罪を被せ、成功すれば本教浄霊のためではなく治る時節が来たからとか、医療によるためと解釈するのである、その都度吾らの感ずる事は、病気は医療や薬によらなければ絶対治らないと決めているその確信の強い事である、またサンザ医療で治らないのみか悪化一方なのでやむにやまれず本教に縋る場合、ほとんど例外なく周囲の者は、信仰療法などは迷信であるから止めよと言い、医療を続ける事を奨めるのであるからいかに医療を信ずるかはほとんど迷信邪宗の信者と何ら変りはない程である、ところが事実は医療で治らないから止むに止まれず、邪教迷信といわれるものに走るので、こんな、判り切った事が判らない程に科学迷信に陥っているのである、もちろんその場合患者は、最初は疑念に満ち恐る恐る浄霊を受けると共に、周囲からの反対はいよいよ激しいにかかわらず浄霊の効果は素晴しく病勢一転治癒に向かうので、これはおかげばなし中に無数に出ているのでも分る、以上によってみても世間よくいう信ずるから治るとか、暗示によるからとかいう点はいささかもないばかりか、むしろ反対でさえあるにみて、自力でなく他力効果である事を認めない訳にはゆくまい、右によって吾らが常に遺憾に想う事は、全く治るべき病を治さず、助かるべき生命を落したり、救わるべき運命を放棄する等、実に悲劇を自分から作る人のあまりにも多い事である、これらの原因はもちろん事実を見ないからである。<br><br> 右は全く伝統的観念に捕虜となっているからで、不幸これよりはなはだしいものはあるまい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Necessidade de um Julgamento Imparcial</h2>
 <p>Uma das facetas mais difíceis de aceitar na sociedade atual é o padrão duplo com que se julgam os métodos de cura. No caso do Johrei ministrado por nossa Igreja, ainda que sua eficácia seja notável, ocasionalmente pode ocorrer um resultado diverso do esperado. Nesses momentos, a sociedade prontamente desfere um turbilhão de críticas e ataques. Em contrapartida, quando um médico comete uma falha similar, a menos que as consequências sejam extraordinariamente graves, o fato é encarado com naturalidade, sem que se levante o menor questionamento. Essa realidade demonstra a severidade com que a cura por meio da fé é tratada.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Nesses casos, o paciente costuma iniciar o recebimento de Johrei repleto de dúvidas e com certa apreensão, ao mesmo tempo que a oposição de seu círculo social se intensifica. Apesar disso, os efeitos do Johrei se revelam extraordinários, revertendo o curso da doença e iniciando o caminho para a cura, conforme comprovam os inúmeros testemunhos de graças recebidas. Isso demonstra que os argumentos mundanos de que a cura ocorre “porque a pessoa crê” ou “por efeito de sugestão” são totalmente infundados. Na verdade, a realidade é o oposto, tornando-se impossível não reconhecer que o resultado não provém do poder do indivíduo, mas de um poder superior.</p>
 <p>Diante do exposto, o que sempre nos causa profundo pesar é o número excessivo de pessoas que constroem as próprias tragédias: deixando de curar doenças perfeitamente curáveis, perdendo vidas que poderiam ser salvas e renunciando a destinos que poderiam ser redimidos. A causa de tudo isso é, evidentemente, a recusa em encarar os fatos.</p>
 <p>Essas pessoas permanecem prisioneiras de conceitos tradicionais. Verdadeiramente, não pode haver infortúnio maior do que este.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 批判は公平であれ 『光』46号、昭和25(1950)年1月21日発行 現在の世相について吾らの最も納得し兼ねる点は、本教浄霊の場合いかに効果ありとしても偶（たま）には予期に反する事もある、すると世間はソレッとばかり非難攻撃を浴せるが、それに反し医師が同様失敗した場合よほど顕著でない限り、当然の事のようにいささかもとがめようとはしない、という事実にみて、宗教による治病がいかに冷酷に取扱われているかが判るのである、この例はひとり右のような場合のみではない、よくこういう事がある、医師と浄霊と併せて行う場合、失敗した時は医療をとがめないで本教にのみ罪を被せ、成功すれば本教浄霊のためではなく治る時節が来たからとか、医療によるためと解釈するのである、その都度吾らの感ずる事は、病気は医療や薬によらなければ絶対治らないと決めているその確信の強い事である、またサンザ医療で治らないのみか悪化一方なのでやむにやまれず本教に縋る場合、ほとんど例外なく周囲の者は、信仰療法などは迷信であるから止めよと言い、医療を続ける事を奨めるのであるからいかに医療を信ずるかはほとんど迷信邪宗の信者と何ら変りはない程である、ところが事実は医療で治らないから止むに止まれず、邪教迷信といわれるものに走るので、こんな、判り切った事が判らない程に科学迷信に陥っているのである、もちろんその場合患者は、最初は疑念に満ち恐る恐る浄霊を受けると共に、周囲からの反対はいよいよ激しいにかかわらず浄霊の効果は素晴しく病勢一転治癒に向かうので、これはおかげばなし中に無数に出ているのでも分る、以上によってみても世間よくいう信ずるから治るとか、暗示によるからとかいう点はいささかもないばかりか、むしろ反対でさえあるにみて、自力でなく他力効果である事を認めない訳にはゆくまい、右によって吾らが常に遺憾に想う事は、全く治るべき病を治さず、助かるべき生命を落したり、救わるべき運命を放棄する等、実に悲劇を自分から作る人のあまりにも多い事である、これらの原因はもちろん事実を見ないからである。<br/><br/> 右は全く伝統的観念に捕虜となっているからで、不幸これよりはなはだしいものはあるまい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

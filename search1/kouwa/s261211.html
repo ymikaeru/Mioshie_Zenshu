@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261211</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月11日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月十一日 農業特集号ですね。<br><br>あれを出して、そうして出来るだけ日本中の農会とか新聞社ですね。<br><br>国会議員だとか、そう言う方面に配ろうと思う。<br><br>そして出来るだけ早く目を醒まさせなかったら、下手にまごつくと米が減産してきます。<br><br>ちょうど、薬毒と同じように、肥料毒という奴が、今後霊界が明るくなるに従って、余計強く影響しますからね。<br><br>何しろ早く知らせなければならない。<br><br>その論文です。<br><br> （御論文「農業の大革命、五ヵ年にして米の五割増産は確実」） まだ、農業の方の――大体米ですが、成績の報告は充分集まりませんから、集まり次第、これは発行しようと思っている。<br><br>どうしても春になるだろうと思いますね。<br><br> 次に汚職問題ので――この間のは「無神迷信」ですね。<br><br>あれを、もう一杯深い所を書いたものです。<br><br> （御論文「悪は何故暴露するか」） それから、最近のお蔭話の中で、医療のために随分ひどい目にあった経路が実に良く書いてある。<br><br>これを読んでいると、実際涙がこぼれてきますね。<br><br> （「医学が悲劇を作る」のあとの講話） つまり、この人なんかは、最初は鼠蹊（そけい）腺が腫れただけですね。<br><br>なぜ鼠蹊腺が腫れたかというと、戦争に行く人は注射を受けますからね。<br><br>この注射は、大抵ここ（頭部）に腫れる。<br><br>前にうんと腫れた人がありましたが、それでもそこに穴が開いて膿が出て治ります。<br><br>これもそれなんです。<br><br>医学は解らないから、色々つついて、いろんな病気を作っていったんです。<br><br>今読んだように、あっちもこっちも次々悪くなる。<br><br>一家心中しなければならないようなことになった。<br><br>一体、こんな不幸せな目に誰があわせたかと言うと、戦争はもちろんですが、現代医学がこんな目に遭わせた。<br><br>それを誰も知らないで、良いと錯覚しているんですから、実に大問題です。<br><br>こう言う人が、今何十万人あるか、分からないですね。<br><br>だからまず、これを救おうという事が第一番ですね。<br><br> それから、話は違うけれど、一昨日――日曜の日に、ラジオの放送討論会ですね。<br><br>この間、朝日講堂で三日の日に、汚職官吏は何故後を絶たないかというような題で――演説した人は、岡崎官房長官と阿部真之介、臘山（ろうやま）政道――この三人が担任者になって喋りましたが、色々な――根本はどうだ。<br><br>何だかんだ――色々な事を話し合って――質問も相当ありましたがね。<br><br>それで、結局において、つまり道義の低下と言う結論になったんですね。<br><br>道義の低下――道義心の低下、それはどうすれば良いかと言うと、法律――法規をもっと厳重にしろとか、刑罰をきびしくしろというようなことを話し合っていたですね。<br><br>ところが、法規を厳重にしろなんて事は、今までに幾度となくやっているんですからね。<br><br>また、法規と言うのは、出した当座だけは馬鹿にきびしくても、段々時が経つに従って、グラグラになっちゃうですね。<br><br>また、それを狙って、また悪い事をする。<br><br>それは、何よりも――熱海は忘年会の申し込みは一つもないですね。<br><br>東京の花柳界なんかも、昨今非常にさびしいのだそうですが、と言うのは何しろ、今は問題がやかましくなって煩わしいから、当分慎んでいた方が良い、と言うので行かなくなったんですね。<br><br>ところが、ほとぼりの冷めるまでは、行かない方が良いと言うわけで、ほとぼりが冷めれば、段々元の木阿弥になっちゃう。<br><br>だから、道義心の低下はどこに原因があるという事は、全然――宗教とか神とかに結びつけるのは、一人もないですからね。<br><br>だから問題なんです。<br><br>さっき読んだように――この間の「無神迷信」と今日の「悪はなぜ暴露するか」という事を書いたんですがね。<br><br>中々、こういう事を読ましたって――それでも、幾らかは――人によっては、これも理屈だなと言う人も、無論あるに違いないと思いますからね。<br><br>出来るだけ読ませようと思っている。<br><br>この論文なんかでも、最高裁判所、特審局、法務庁――そういう所にも送るつもりですがね。<br><br>何しろ今言う犯罪と言い、医学と言い、農業と言い、実に間違った事をやっているんですよ。<br><br>それで世の中が悪いとか、何だかんだ皆苦しんだりやっているんですが、実に我々から見れば滑稽なような、可哀想なような――悲喜劇ですね。<br><br>いたる所に悲喜劇が出ている。<br><br>だから、これを救うには、どうしても宗教よりない。<br><br>そうかと言って、ただ宗教でやればよいかと言うと、恐らく他の宗教で本当にそれを解決する力のあるものは、恐らくないだろうと思うね。<br><br>だから、どうしてもメシヤ教がやらなければならない。<br><br>そのために神様が私に力を与えられ、色々な事を知らされるんですからね。<br><br>結局解決はつくんですが、そこでつまり、神は在るかないか、神が在るという事を知らせれば良い。<br><br>神が在るという事を知らせるには、神が在る事を見せれば良い。<br><br>見せると言う宗教が何しろないからね。<br><br>私の方では――「神を見せる宗教」と言うのを書いたんですがね。<br><br> （御論文「神を見せる宗教」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Raiz dos Grandes Males da Sociedade</h2>
 <p>Trata-se da edição especial sobre agricultura. Pretendemos publicá-la e distribuí-la o mais amplamente possível às associações agrícolas, aos jornais de todo o Japão, aos parlamentares e a outras personalidades influentes. Se não os despertarmos o mais breve possível, a produção de arroz decairá por conta de um equívoco fatal. Tal como ocorre com o <em>yakudoku</em> (薬毒), o veneno dos fertilizantes manifestará sua influência com intensidade ainda maior à medida que o Mundo Espiritual se torna mais luminoso. É imperativo, pois, que os alertemos sem demora. O ensinamento a seguir aborda justamente essa questão.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>O ponto crucial, entretanto, é que ninguém — absolutamente ninguém — associou a causa do declínio moral à ausência de Deus ou da religião na vida das pessoas. Aí reside o problema. Foi por essa razão que escrevi os ensinamentos “Ateísmo e Superstição” e, o de hoje, “Por que o Mal é Exposto?”. Certamente, muitos os lerão e dirão que não passam de teoria. Ainda assim, pretendo que o maior número possível de pessoas os leia. Inclusive, enviaremos cópias desses textos à Suprema Corte, ao Gabinete Especial de Investigações e ao Ministério da Justiça.</p>
 <p>Seja no âmbito da criminalidade, da medicina ou da agricultura, as práticas vigentes estão fundamentalmente equivocadas. As pessoas sofrem, lamentam-se da má sorte do mundo, mas, de nossa perspectiva, tudo isso se assemelha a uma tragicomédia. Há tragicomédias se desenrolando por toda parte. Para redimir a humanidade dessa condição, não há outro caminho senão o da religião. Contudo, bastaria uma religião qualquer? Creio que não. As demais religiões provavelmente não detêm o poder necessário para apresentar uma solução definitiva. Portanto, essa missão cabe, impreterivelmente, à nossa Igreja. É para este fim que Deus me concedeu poder e me revela as verdades do Universo.</p>
 <p>Em suma, a solução virá. Para tanto, basta que as pessoas saibam que Deus existe. E para que saibam, é preciso mostrar-lhes Sua existência. Contudo, uma religião que “mostra” Deus é algo que simplesmente não existia até agora. A nossa é, precisamente, a “religião que mostra Deus”.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月11日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月十一日 農業特集号ですね。<br/><br/>あれを出して、そうして出来るだけ日本中の農会とか新聞社ですね。<br/><br/>国会議員だとか、そう言う方面に配ろうと思う。<br/><br/>そして出来るだけ早く目を醒まさせなかったら、下手にまごつくと米が減産してきます。<br/><br/>ちょうど、薬毒と同じように、肥料毒という奴が、今後霊界が明るくなるに従って、余計強く影響しますからね。<br/><br/>何しろ早く知らせなければならない。<br/><br/>その論文です。<br/><br/> （御論文「農業の大革命、五ヵ年にして米の五割増産は確実」） まだ、農業の方の――大体米ですが、成績の報告は充分集まりませんから、集まり次第、これは発行しようと思っている。<br/><br/>どうしても春になるだろうと思いますね。<br/><br/> 次に汚職問題ので――この間のは「無神迷信」ですね。<br/><br/>あれを、もう一杯深い所を書いたものです。<br/><br/> （御論文「悪は何故暴露するか」） それから、最近のお蔭話の中で、医療のために随分ひどい目にあった経路が実に良く書いてある。<br/><br/>これを読んでいると、実際涙がこぼれてきますね。<br/><br/> （「医学が悲劇を作る」のあとの講話） つまり、この人なんかは、最初は鼠蹊（そけい）腺が腫れただけですね。<br/><br/>なぜ鼠蹊腺が腫れたかというと、戦争に行く人は注射を受けますからね。<br/><br/>この注射は、大抵ここ（頭部）に腫れる。<br/><br/>前にうんと腫れた人がありましたが、それでもそこに穴が開いて膿が出て治ります。<br/><br/>これもそれなんです。<br/><br/>医学は解らないから、色々つついて、いろんな病気を作っていったんです。<br/><br/>今読んだように、あっちもこっちも次々悪くなる。<br/><br/>一家心中しなければならないようなことになった。<br/><br/>一体、こんな不幸せな目に誰があわせたかと言うと、戦争はもちろんですが、現代医学がこんな目に遭わせた。<br/><br/>それを誰も知らないで、良いと錯覚しているんですから、実に大問題です。<br/><br/>こう言う人が、今何十万人あるか、分からないですね。<br/><br/>だからまず、これを救おうという事が第一番ですね。<br/><br/> それから、話は違うけれど、一昨日――日曜の日に、ラジオの放送討論会ですね。<br/><br/>この間、朝日講堂で三日の日に、汚職官吏は何故後を絶たないかというような題で――演説した人は、岡崎官房長官と阿部真之介、臘山（ろうやま）政道――この三人が担任者になって喋りましたが、色々な――根本はどうだ。<br/><br/>何だかんだ――色々な事を話し合って――質問も相当ありましたがね。<br/><br/>それで、結局において、つまり道義の低下と言う結論になったんですね。<br/><br/>道義の低下――道義心の低下、それはどうすれば良いかと言うと、法律――法規をもっと厳重にしろとか、刑罰をきびしくしろというようなことを話し合っていたですね。<br/><br/>ところが、法規を厳重にしろなんて事は、今までに幾度となくやっているんですからね。<br/><br/>また、法規と言うのは、出した当座だけは馬鹿にきびしくても、段々時が経つに従って、グラグラになっちゃうですね。<br/><br/>また、それを狙って、また悪い事をする。<br/><br/>それは、何よりも――熱海は忘年会の申し込みは一つもないですね。<br/><br/>東京の花柳界なんかも、昨今非常にさびしいのだそうですが、と言うのは何しろ、今は問題がやかましくなって煩わしいから、当分慎んでいた方が良い、と言うので行かなくなったんですね。<br/><br/>ところが、ほとぼりの冷めるまでは、行かない方が良いと言うわけで、ほとぼりが冷めれば、段々元の木阿弥になっちゃう。<br/><br/>だから、道義心の低下はどこに原因があるという事は、全然――宗教とか神とかに結びつけるのは、一人もないですからね。<br/><br/>だから問題なんです。<br/><br/>さっき読んだように――この間の「無神迷信」と今日の「悪はなぜ暴露するか」という事を書いたんですがね。<br/><br/>中々、こういう事を読ましたって――それでも、幾らかは――人によっては、これも理屈だなと言う人も、無論あるに違いないと思いますからね。<br/><br/>出来るだけ読ませようと思っている。<br/><br/>この論文なんかでも、最高裁判所、特審局、法務庁――そういう所にも送るつもりですがね。<br/><br/>何しろ今言う犯罪と言い、医学と言い、農業と言い、実に間違った事をやっているんですよ。<br/><br/>それで世の中が悪いとか、何だかんだ皆苦しんだりやっているんですが、実に我々から見れば滑稽なような、可哀想なような――悲喜劇ですね。<br/><br/>いたる所に悲喜劇が出ている。<br/><br/>だから、これを救うには、どうしても宗教よりない。<br/><br/>そうかと言って、ただ宗教でやればよいかと言うと、恐らく他の宗教で本当にそれを解決する力のあるものは、恐らくないだろうと思うね。<br/><br/>だから、どうしてもメシヤ教がやらなければならない。<br/><br/>そのために神様が私に力を与えられ、色々な事を知らされるんですからね。<br/><br/>結局解決はつくんですが、そこでつまり、神は在るかないか、神が在るという事を知らせれば良い。<br/><br/>神が在るという事を知らせるには、神が在る事を見せれば良い。<br/><br/>見せると言う宗教が何しろないからね。<br/><br/>私の方では――「神を見せる宗教」と言うのを書いたんですがね。<br/><br/> （御論文「神を見せる宗教」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

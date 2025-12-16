@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280915</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年9月15日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月十五日 今理論物理学の研究があって世界中から偉い学者が寄って、日本でも非常に喜んでますが、これは私からみると、ちょうど東京に行くのに、やっと北海道を出て津軽海峡を渡ろうというくらいの所でしょう。<br><br>だからまだ東京は見ないから、東京の話をしたところで分からないのです。<br><br>そうかといって、宗教家がそんなことを言っても、テンデ振り向きもしないから、いくらそう思ってもなんにもなりません。<br><br>今物性論というのをさかんに唱えてますが、これはこの間も話したとおり、ちょうど宗教の方に入るちょっと手前なのです。<br><br>だからまだ内地には入れないのです。<br><br>北海道の函館辺りで切符を買っているようなものです。<br><br>それがちょうど物性論の所なのです。<br><br>馬鹿馬鹿しいものです。<br><br>私は昨夜ちょっと書いたのですが、間に合わなかったので、ただ出たままを書いたのです。<br><br>題を「超愚」としようと思います。<br><br>「馬鹿以上」と書こうと思ったが、どうもそれではあんまり酷いので「超愚」という題にしました。<br><br>愚かを「超越」しているというわけです。<br><br>つまり、考えてみても、馬鹿というのは割合にそう困るほどではないのです。<br><br>よく“馬鹿の一つ覚え”ということを言います。<br><br>でも、一つでも覚えるということは、たいしたものです。<br><br>だからそう馬鹿にできません。<br><br>ところがそれどころではないので、とにかくそれに合う言葉は日本語にはありません。<br><br>英語にもないだろうと思いますが、それほどの馬鹿は今までにないからです。<br><br>ではいったいそれほどの超越した馬鹿はどこにいるかというと、無論世界中にいます。<br><br>日本でも、とにかく学校教育を受けた者ほど超馬鹿なのです。<br><br>そうなるといよいよ分からなくなりますが、これに気がつかないのです。<br><br>それはどの点にあるかというと、そのことについて書きましたから読ませます。<br><br> （御論文「超愚」） 【栄光 二二九号】 病気によって薬をのむということは、つまり始終薬をのんで健康だった、それがたまたま薬を止したために病気になったというのです。<br><br>ちょうどふだんメシを食っているのでピンピンしているが、ついメシを一度か二度抜いた、だから弱って働けない、それで早くメシを食って腹をくちくしろ。<br><br>それで食うと、くちくなって働けるという理屈です。<br><br>だから薬をのんでいたために達者でいたのだ、ところが薬が切れたので弱ってしまった、要するに病気になった。<br><br>だから薬を入れればまた達者になる、という理屈と同じことです。<br><br>ここをよく考えてみると分かります。<br><br>浄化作用ということを知らないで、ごく常識的に平凡な理屈で考えてみても分かります。<br><br>“あなたはこのごろたいへん体が弱ったようですね”“ええどうも薬が切れたのでこんなになりました”“では薬をたくさんなるだけ強い薬をのみなさい”というので強い薬をたくさんのんだら快復した、というのが今の人です。<br><br>ところでごく山奥の人や、下層階級の人や、またぜんぜんなにも知らない人は、薬をのまないから、そういう人は体が弱くなっていなければならないのです。<br><br>それから昔は弁慶とか、いろいろ強い人がいましたが、そういうのは薬をウンとのんでいなければならないのです。<br><br>ところが文明時代と言われるようになってからだんだん弱ってきているのです。<br><br>それで今は世界中が大騒ぎになって薬をのませようとしているのですから、これはどうも変な話です。<br><br>それで薬をのまないから丈夫で、丈夫だから薬をのまないという人がたくさんあります。<br><br>ところがどうも不思議なのです。<br><br>“大体薬をのむから丈夫なのではないですか。<br><br>あなたみたいに薬をのまないで丈夫ということはおかしいではないですか”ということになったら、これはたいへんにおかしいことになります。<br><br>だからそれだけの簡単な理屈が分からないのです。<br><br> そうして今度は浄化作用が分かってからの話ですが、そうすると、その薬をのむと、近ごろのように新薬などがドシドシ出て――新聞広告などは薬の広告で埋まってます――そうしてのんで、結局命までなくするのですが、平凡に考えてさえその馬鹿さ加減が分かります。<br><br>今度はそれ以上にマイナスになるとしたら、まったく馬鹿を通り越しているわけです。<br><br>そういうことの理屈が分からないだけは馬鹿ですみますが、今度はそうして苦しんで命を縮めるということは、馬鹿よりか以上です。<br><br>そこで「超愚」という題をつけるよりしようがないのです。<br><br> これは独り医学ばかりではなく、なんにでも言えます。<br><br>今年などの米は、今日の新聞では五千九百八十万石といってます。<br><br>それでいろんな対策を講じてます。<br><br>特に人造米というのを作ってますが、人造米は栄養がどうとか味がどうとかいっても駄目に決まってます。<br><br>これが米だからいいようなものの、ほかの物だったらおかしなものになります。<br><br>菜っ葉や沢庵とかを人造にしても、そういうのは……。<br><br>たとえ食えるとしても手数がかかってしようがありません。<br><br>それよりか土から自然にとれるのがどれだけよいか分かりません。<br><br>なるほど今年は水害がありましたが、しかしこれは全体からみれば一部です。<br><br>今年の不作の原因は、なんといっても虫害です。<br><br>だから虫害をなくしさえすればたいへんな増産になるわけです。<br><br>それをいくら言っても――「農業特集号」などを全国の農家などに一万部以上配っても――ほとんど反響がないのです。<br><br>もっとも今までの迷信が急には抜けないから、首をひねらせるだけの効果はありますが、それがだんだん育っていって、だんだん分かるような時期が来ることにはなります。<br><br>そういうわけで「超馬鹿」は農業の方にもあるわけです。<br><br>そういった原因というのは、やはり科学迷信です。<br><br>それを破るのが根本です。<br><br>とすれば、有神思想を養うことで、というのは、神様が在るということを見せるよりないのです。<br><br>ところが神様を見せるということは救世教よりないのです。<br><br>それには奇蹟よりないのですが、奇蹟というのは、ほかの宗教にしてもぜんぜんないのですから、どうしても救世教が救わなければしようがないのです。<br><br>それについて書いてみました。<br><br> （御論文「理屈で人を救えるか」） “救世教が非常にわずかの間に大きくなったということは不思議だ”と、そういうことを思っている人もだいぶあるようですし、ときどき聞かれもします。<br><br>それで私は“それは病気が治るからだ。<br><br>それでその感謝感激が献金となるので、それで金が集まる。<br><br>それが急激に発展する一番の動機だ”と言って話してやりますが、あなた方もそういうことは始終聞かれるでしょうが、それについて書いてみました。<br><br> （御論文「本教発展の主因」） 【栄光 二二八号】 さっきの「超愚」の中でもう一つ、気がつかないことでこういうことがあります。<br><br>新聞などを見ると売薬の広告が目につきますが、これは昔と違ってよほど書き方がうまくなりました。<br><br>昔は“なんでも治る”というようなことを書きましたが、今は“特種な病気に”というように書いてあります。<br><br>ところがその薬は一つとして本当に治るものはありません。<br><br>これは売薬に限らず、信者は知ってますが、どんなに立派な医者が、高価な薬とか進歩した世界で有名な薬とか言ったところで、結局病気は治らないのです。<br><br>もしそれで治れば、救世教の信者は一人もできません。<br><br>治らないからこうして信者が増えるのです。<br><br>そうしてみると売薬の広告は全部詐欺です。<br><br>ですから高い薬を買って治らなかったり悪くしている人は詐欺にかかった被害者です。<br><br>あなた方はみんなそうです。<br><br>薬の詐欺にかかったのです。<br><br>しかしこれにはだれも気がつかないでしょう。<br><br>信者の人でも、そう言われなければ気がつかないでしょう。<br><br>そうしてみると、ああしてデカデカと詐欺行為を許しているというのは、これは当局も知らないからでしょうが、当局も詐欺の被害者なのです。<br><br>そう考えてみると、これも「超馬鹿」の中に入ります。<br><br>私は前に“たいていな宗教は詐欺だ”ということを言ったことがあります。<br><br>宗教の詐欺というのは珍しい言い方なので、初めて聞いた人はびっくりします。<br><br>というのは、病気の時にどうしても治らない、お医者でも治らないというので、信仰を求めるというと、まずどんな宗教でも“信心すれば治ります”と言うのです。<br><br>よくこういうことがあります。<br><br>すなわち随分一生懸命に信心しても良くならないといってこぼすのです。<br><br>そうしてその宗教の先生に言うと“それはあなたの信仰が足りないのだ、もっと信仰をしなければいけない”と言うのです。<br><br>この“信仰が足りない”ということは、結局金の上げ方が足りないということなのです。<br><br>それは信者をつくるという手もありますが、それはそうとうの先生格にならなければ、なかなかそうはゆかないです。<br><br>救世教では、じきに信者をつくれますが、ほかの宗教ではなかなかそうはゆきません。<br><br>だから手っ取り早いのは、なんといっても金を上げることです。<br><br>この方の親玉は天理教です。<br><br>その金の上げ方のひどいのになると、前によくこういうことがありました。<br><br>“あなたはいくらいくら金を上げなさい。<br><br>そうすればきっと治る”と言うので、その人はひどく工面して、借金したり質に入れたりして、先生の言う額を上げたのです。<br><br>そうしても治るわけがないから結局死んでしまったのですが、そこでどうせ死んでしまうのなら金を上げなければよかった、と言うのです。<br><br>“それは神様の詐欺にかかったのだ”と言ったら、“神様が詐欺をしますか”と言うから、“神様は詐欺はしないが、神様を取り次ぐ者が詐欺をするのだ”と言ったら“へえ、恐ろしいものですね”と言ってました。<br><br>これは売薬の詐欺よりもっと上のものでしょう。<br><br>ですから世の中には大中小さまざまの詐欺があるのです。<br><br>それを見分けるだけの目がないわけです。<br><br>だからとにかく今の世の中というのは、ほとんど詐欺の世の中と言ってもよいのです。<br><br> 話は違いますが、道具屋はいろんな物を持って始終来ますが、私は道具屋に“道具屋というのは、うまく法律にかからない詐欺だ”と言っているのです。<br><br>というのは、持ってくる物はほとんど贋物なのです。<br><br>十品持ってきて、本当の物は一品くらいなものでしょう。<br><br>あとは怪しげな物です。<br><br>品物だけが詐欺ならまだよいが、値段が詐欺です。<br><br>仮に品物を百万円と言って持ってくるので、こっちは驚いて突き返すと、早いので数日、遅いので数カ月後に、他の道具屋がそれを持ってきて、百万円と言った物を二十万円とか言いますが、それでも買わないと、今度はまた他の道具屋が持ってきて、八万円とか言ってきます。<br><br>そうすると最初の百万円というのは、たいへんな詐欺です。<br><br>――それからこういうことを聞きます。<br><br>そうとうに力のある人が美術館を造ろうとしているのですが、それができないのです。<br><br>というのは、本物ばかりでなければ公衆の観覧物とはできないのです。<br><br>この間も小林一三氏が来て、四時間ここにいて非常に喜んでいました。<br><br>あの人はよそでは、たいてい五分か十分しかいないそうで、こういうことは例がないと、随行の人が言ってました。<br><br>それで美術館以外の物も見せてやりましたが、よくもこんなに集まった、と言ってました。<br><br>あの人は古くから買ってますから、数はあるので、量においては私なども負けます――。<br><br>道具屋が知らないで持ってくるのならよいですが、それを知っていて持ってくるのです。<br><br>長年来ている者が、いっぱい食わせようと思って持ってくるのですから、実に恐ろしいものです。<br><br>今の売薬の詐欺は命にかかわることですから悪質ですが、詐欺の点においてはポチポチです。<br><br>お医者さんはもっとはっきりした詐欺をしてます。<br><br>“あなたは入院すれば治る”“この薬をのめば治る”と言っていて、そのとおりになったことはおそらくありません。<br><br>これはお蔭話にも始終あります。<br><br>それは医者は長年経験しているのだから、治るか治らないかは、はっきり分かるに違いないのですが、そうしてみると“試しにやってみよう”“うまくゆけば治るだろう”というわけですから、これは立派な詐欺です。<br><br>ですから今の世の中の人で、少し懐の温かい人はほとんど詐欺の被害者です。<br><br>それがはっきり分かるのは救世教信者だけです。<br><br>ほとんどの人は詐欺を見破ることができないで、詐欺のために命までにかかわっている人がたくさんあります。<br><br>そこで神様はそういうことをはっきり暴露するのです。<br><br>その詐欺の本元は邪神ですが、霊界では邪神は救世教というのが随分怖いのです。<br><br>しかしだんだん邪神の方が力が弱ってきつつありますから、別にたいして心配はありませんが、話をすればそういうことになるわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Super-Estultícia da Sociedade Moderna</h2>
 <p>Atualmente, a pesquisa em física teórica tem reunido renomados acadêmicos de todo o mundo, gerando grande entusiasmo no Japão. Contudo, a meu ver, tal avanço equivale a iniciar uma jornada rumo a Tóquio, tendo apenas partido de Hokkaido e estando prestes a cruzar o Estreito de Tsugaru. Portanto, como ainda não avistaram a capital, qualquer discussão sobre ela lhes seria incompreensível. Mesmo que um líder religioso lhes aponte essa limitação, eles sequer lhe dariam atenção; assim, por mais que eu o pense, de nada adianta.</p>
@@ -123,5 +275,48 @@ function toggleLang(lang) {
 <p>O estelionato dos medicamentos é especialmente perverso por atentar contra a vida, mas, como fraude, está no mesmo patamar. Os médicos, por sua vez, praticam um estelionato ainda mais explícito. Dizem: “Se for internado, será curado” ou “Tome este remédio, e melhorará”, mas suas promessas raramente se cumprem, como vemos constantemente nos relatos de graças recebidas. Com sua longa experiência, os médicos deveriam saber com clareza se um paciente tem ou não chances de cura. Logo, ao agirem assim, estão apenas fazendo uma tentativa, na esperança de que “talvez dê certo”, o que configura um autêntico estelionato.</p>
 <p>Dessa forma, na sociedade atual, quase todas as pessoas com algum recurso financeiro são vítimas de fraudes. Os únicos capazes de discernir essa realidade com clareza são os membros da Sekaikyuseikyou. A maioria das pessoas não consegue enxergar o engano e, por causa dele, muitos arriscam a própria vida. É por isso que Deus está agora expondo abertamente toda essa farsa.</p>
 <p>A origem de todo esse estelionato reside nos espíritos malignos. No Mundo Espiritual, esses espíritos temem imensamente a Sekaikyuseikyou. Contudo, seu poder está gradualmente diminuindo, de modo que não há motivo para grande preocupação. Em suma, esta é a realidade dos fatos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年9月15日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月十五日 今理論物理学の研究があって世界中から偉い学者が寄って、日本でも非常に喜んでますが、これは私からみると、ちょうど東京に行くのに、やっと北海道を出て津軽海峡を渡ろうというくらいの所でしょう。<br/><br/>だからまだ東京は見ないから、東京の話をしたところで分からないのです。<br/><br/>そうかといって、宗教家がそんなことを言っても、テンデ振り向きもしないから、いくらそう思ってもなんにもなりません。<br/><br/>今物性論というのをさかんに唱えてますが、これはこの間も話したとおり、ちょうど宗教の方に入るちょっと手前なのです。<br/><br/>だからまだ内地には入れないのです。<br/><br/>北海道の函館辺りで切符を買っているようなものです。<br/><br/>それがちょうど物性論の所なのです。<br/><br/>馬鹿馬鹿しいものです。<br/><br/>私は昨夜ちょっと書いたのですが、間に合わなかったので、ただ出たままを書いたのです。<br/><br/>題を「超愚」としようと思います。<br/><br/>「馬鹿以上」と書こうと思ったが、どうもそれではあんまり酷いので「超愚」という題にしました。<br/><br/>愚かを「超越」しているというわけです。<br/><br/>つまり、考えてみても、馬鹿というのは割合にそう困るほどではないのです。<br/><br/>よく“馬鹿の一つ覚え”ということを言います。<br/><br/>でも、一つでも覚えるということは、たいしたものです。<br/><br/>だからそう馬鹿にできません。<br/><br/>ところがそれどころではないので、とにかくそれに合う言葉は日本語にはありません。<br/><br/>英語にもないだろうと思いますが、それほどの馬鹿は今までにないからです。<br/><br/>ではいったいそれほどの超越した馬鹿はどこにいるかというと、無論世界中にいます。<br/><br/>日本でも、とにかく学校教育を受けた者ほど超馬鹿なのです。<br/><br/>そうなるといよいよ分からなくなりますが、これに気がつかないのです。<br/><br/>それはどの点にあるかというと、そのことについて書きましたから読ませます。<br/><br/> （御論文「超愚」） 【栄光 二二九号】 病気によって薬をのむということは、つまり始終薬をのんで健康だった、それがたまたま薬を止したために病気になったというのです。<br/><br/>ちょうどふだんメシを食っているのでピンピンしているが、ついメシを一度か二度抜いた、だから弱って働けない、それで早くメシを食って腹をくちくしろ。<br/><br/>それで食うと、くちくなって働けるという理屈です。<br/><br/>だから薬をのんでいたために達者でいたのだ、ところが薬が切れたので弱ってしまった、要するに病気になった。<br/><br/>だから薬を入れればまた達者になる、という理屈と同じことです。<br/><br/>ここをよく考えてみると分かります。<br/><br/>浄化作用ということを知らないで、ごく常識的に平凡な理屈で考えてみても分かります。<br/><br/>“あなたはこのごろたいへん体が弱ったようですね”“ええどうも薬が切れたのでこんなになりました”“では薬をたくさんなるだけ強い薬をのみなさい”というので強い薬をたくさんのんだら快復した、というのが今の人です。<br/><br/>ところでごく山奥の人や、下層階級の人や、またぜんぜんなにも知らない人は、薬をのまないから、そういう人は体が弱くなっていなければならないのです。<br/><br/>それから昔は弁慶とか、いろいろ強い人がいましたが、そういうのは薬をウンとのんでいなければならないのです。<br/><br/>ところが文明時代と言われるようになってからだんだん弱ってきているのです。<br/><br/>それで今は世界中が大騒ぎになって薬をのませようとしているのですから、これはどうも変な話です。<br/><br/>それで薬をのまないから丈夫で、丈夫だから薬をのまないという人がたくさんあります。<br/><br/>ところがどうも不思議なのです。<br/><br/>“大体薬をのむから丈夫なのではないですか。<br/><br/>あなたみたいに薬をのまないで丈夫ということはおかしいではないですか”ということになったら、これはたいへんにおかしいことになります。<br/><br/>だからそれだけの簡単な理屈が分からないのです。<br/><br/> そうして今度は浄化作用が分かってからの話ですが、そうすると、その薬をのむと、近ごろのように新薬などがドシドシ出て――新聞広告などは薬の広告で埋まってます――そうしてのんで、結局命までなくするのですが、平凡に考えてさえその馬鹿さ加減が分かります。<br/><br/>今度はそれ以上にマイナスになるとしたら、まったく馬鹿を通り越しているわけです。<br/><br/>そういうことの理屈が分からないだけは馬鹿ですみますが、今度はそうして苦しんで命を縮めるということは、馬鹿よりか以上です。<br/><br/>そこで「超愚」という題をつけるよりしようがないのです。<br/><br/> これは独り医学ばかりではなく、なんにでも言えます。<br/><br/>今年などの米は、今日の新聞では五千九百八十万石といってます。<br/><br/>それでいろんな対策を講じてます。<br/><br/>特に人造米というのを作ってますが、人造米は栄養がどうとか味がどうとかいっても駄目に決まってます。<br/><br/>これが米だからいいようなものの、ほかの物だったらおかしなものになります。<br/><br/>菜っ葉や沢庵とかを人造にしても、そういうのは……。<br/><br/>たとえ食えるとしても手数がかかってしようがありません。<br/><br/>それよりか土から自然にとれるのがどれだけよいか分かりません。<br/><br/>なるほど今年は水害がありましたが、しかしこれは全体からみれば一部です。<br/><br/>今年の不作の原因は、なんといっても虫害です。<br/><br/>だから虫害をなくしさえすればたいへんな増産になるわけです。<br/><br/>それをいくら言っても――「農業特集号」などを全国の農家などに一万部以上配っても――ほとんど反響がないのです。<br/><br/>もっとも今までの迷信が急には抜けないから、首をひねらせるだけの効果はありますが、それがだんだん育っていって、だんだん分かるような時期が来ることにはなります。<br/><br/>そういうわけで「超馬鹿」は農業の方にもあるわけです。<br/><br/>そういった原因というのは、やはり科学迷信です。<br/><br/>それを破るのが根本です。<br/><br/>とすれば、有神思想を養うことで、というのは、神様が在るということを見せるよりないのです。<br/><br/>ところが神様を見せるということは救世教よりないのです。<br/><br/>それには奇蹟よりないのですが、奇蹟というのは、ほかの宗教にしてもぜんぜんないのですから、どうしても救世教が救わなければしようがないのです。<br/><br/>それについて書いてみました。<br/><br/> （御論文「理屈で人を救えるか」） “救世教が非常にわずかの間に大きくなったということは不思議だ”と、そういうことを思っている人もだいぶあるようですし、ときどき聞かれもします。<br/><br/>それで私は“それは病気が治るからだ。<br/><br/>それでその感謝感激が献金となるので、それで金が集まる。<br/><br/>それが急激に発展する一番の動機だ”と言って話してやりますが、あなた方もそういうことは始終聞かれるでしょうが、それについて書いてみました。<br/><br/> （御論文「本教発展の主因」） 【栄光 二二八号】 さっきの「超愚」の中でもう一つ、気がつかないことでこういうことがあります。<br/><br/>新聞などを見ると売薬の広告が目につきますが、これは昔と違ってよほど書き方がうまくなりました。<br/><br/>昔は“なんでも治る”というようなことを書きましたが、今は“特種な病気に”というように書いてあります。<br/><br/>ところがその薬は一つとして本当に治るものはありません。<br/><br/>これは売薬に限らず、信者は知ってますが、どんなに立派な医者が、高価な薬とか進歩した世界で有名な薬とか言ったところで、結局病気は治らないのです。<br/><br/>もしそれで治れば、救世教の信者は一人もできません。<br/><br/>治らないからこうして信者が増えるのです。<br/><br/>そうしてみると売薬の広告は全部詐欺です。<br/><br/>ですから高い薬を買って治らなかったり悪くしている人は詐欺にかかった被害者です。<br/><br/>あなた方はみんなそうです。<br/><br/>薬の詐欺にかかったのです。<br/><br/>しかしこれにはだれも気がつかないでしょう。<br/><br/>信者の人でも、そう言われなければ気がつかないでしょう。<br/><br/>そうしてみると、ああしてデカデカと詐欺行為を許しているというのは、これは当局も知らないからでしょうが、当局も詐欺の被害者なのです。<br/><br/>そう考えてみると、これも「超馬鹿」の中に入ります。<br/><br/>私は前に“たいていな宗教は詐欺だ”ということを言ったことがあります。<br/><br/>宗教の詐欺というのは珍しい言い方なので、初めて聞いた人はびっくりします。<br/><br/>というのは、病気の時にどうしても治らない、お医者でも治らないというので、信仰を求めるというと、まずどんな宗教でも“信心すれば治ります”と言うのです。<br/><br/>よくこういうことがあります。<br/><br/>すなわち随分一生懸命に信心しても良くならないといってこぼすのです。<br/><br/>そうしてその宗教の先生に言うと“それはあなたの信仰が足りないのだ、もっと信仰をしなければいけない”と言うのです。<br/><br/>この“信仰が足りない”ということは、結局金の上げ方が足りないということなのです。<br/><br/>それは信者をつくるという手もありますが、それはそうとうの先生格にならなければ、なかなかそうはゆかないです。<br/><br/>救世教では、じきに信者をつくれますが、ほかの宗教ではなかなかそうはゆきません。<br/><br/>だから手っ取り早いのは、なんといっても金を上げることです。<br/><br/>この方の親玉は天理教です。<br/><br/>その金の上げ方のひどいのになると、前によくこういうことがありました。<br/><br/>“あなたはいくらいくら金を上げなさい。<br/><br/>そうすればきっと治る”と言うので、その人はひどく工面して、借金したり質に入れたりして、先生の言う額を上げたのです。<br/><br/>そうしても治るわけがないから結局死んでしまったのですが、そこでどうせ死んでしまうのなら金を上げなければよかった、と言うのです。<br/><br/>“それは神様の詐欺にかかったのだ”と言ったら、“神様が詐欺をしますか”と言うから、“神様は詐欺はしないが、神様を取り次ぐ者が詐欺をするのだ”と言ったら“へえ、恐ろしいものですね”と言ってました。<br/><br/>これは売薬の詐欺よりもっと上のものでしょう。<br/><br/>ですから世の中には大中小さまざまの詐欺があるのです。<br/><br/>それを見分けるだけの目がないわけです。<br/><br/>だからとにかく今の世の中というのは、ほとんど詐欺の世の中と言ってもよいのです。<br/><br/> 話は違いますが、道具屋はいろんな物を持って始終来ますが、私は道具屋に“道具屋というのは、うまく法律にかからない詐欺だ”と言っているのです。<br/><br/>というのは、持ってくる物はほとんど贋物なのです。<br/><br/>十品持ってきて、本当の物は一品くらいなものでしょう。<br/><br/>あとは怪しげな物です。<br/><br/>品物だけが詐欺ならまだよいが、値段が詐欺です。<br/><br/>仮に品物を百万円と言って持ってくるので、こっちは驚いて突き返すと、早いので数日、遅いので数カ月後に、他の道具屋がそれを持ってきて、百万円と言った物を二十万円とか言いますが、それでも買わないと、今度はまた他の道具屋が持ってきて、八万円とか言ってきます。<br/><br/>そうすると最初の百万円というのは、たいへんな詐欺です。<br/><br/>――それからこういうことを聞きます。<br/><br/>そうとうに力のある人が美術館を造ろうとしているのですが、それができないのです。<br/><br/>というのは、本物ばかりでなければ公衆の観覧物とはできないのです。<br/><br/>この間も小林一三氏が来て、四時間ここにいて非常に喜んでいました。<br/><br/>あの人はよそでは、たいてい五分か十分しかいないそうで、こういうことは例がないと、随行の人が言ってました。<br/><br/>それで美術館以外の物も見せてやりましたが、よくもこんなに集まった、と言ってました。<br/><br/>あの人は古くから買ってますから、数はあるので、量においては私なども負けます――。<br/><br/>道具屋が知らないで持ってくるのならよいですが、それを知っていて持ってくるのです。<br/><br/>長年来ている者が、いっぱい食わせようと思って持ってくるのですから、実に恐ろしいものです。<br/><br/>今の売薬の詐欺は命にかかわることですから悪質ですが、詐欺の点においてはポチポチです。<br/><br/>お医者さんはもっとはっきりした詐欺をしてます。<br/><br/>“あなたは入院すれば治る”“この薬をのめば治る”と言っていて、そのとおりになったことはおそらくありません。<br/><br/>これはお蔭話にも始終あります。<br/><br/>それは医者は長年経験しているのだから、治るか治らないかは、はっきり分かるに違いないのですが、そうしてみると“試しにやってみよう”“うまくゆけば治るだろう”というわけですから、これは立派な詐欺です。<br/><br/>ですから今の世の中の人で、少し懐の温かい人はほとんど詐欺の被害者です。<br/><br/>それがはっきり分かるのは救世教信者だけです。<br/><br/>ほとんどの人は詐欺を見破ることができないで、詐欺のために命までにかかわっている人がたくさんあります。<br/><br/>そこで神様はそういうことをはっきり暴露するのです。<br/><br/>その詐欺の本元は邪神ですが、霊界では邪神は救世教というのが随分怖いのです。<br/><br/>しかしだんだん邪神の方が力が弱ってきつつありますから、別にたいして心配はありませんが、話をすればそういうことになるわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

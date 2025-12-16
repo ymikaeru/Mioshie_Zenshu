@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（12） 五三中教会 茨木よし子 『地上天国』56号、昭和29(1954)年1月25日発行 某月某日 今日は支部の例祭日である。<br><br>洋服を着替えて学校へ行けば「先生今日はなんで、ええ（よい）服を着てきんちゃった？（着て来たか）」と袖にすがりつく我が教え子の可愛いらしさ。<br><br>午前中の授業も楽しく終り「先生さようなら」の元気な声にてお別れをする。<br><br>午後は早退にて支部の例祭に参拝のお許しを頂きました。<br><br> 例祭が始りますと御神前の真正面より真赤な太陽がさし昇って来ると同時に明主様がお出ましになられる。<br><br>明主様はずらりと並んで出ていらっしゃる神々様に何かお指図でもされていらっしゃるような様が拝されて来ました。<br><br>場面は一変致し、辺り一面大洪水となり、うろたえる人々の群が見え、中には子供を肩馬して逃げる人々も見受けられます。<br><br>濁水はごうごうと流れ来、見る間にあたりは水に浸って何も見えなくなってしまいました。<br><br>次には大きな黒塗の木製の船が現われる。<br><br>船上からは、もがき苦しむ水中の人々を必死で救い上げる情景が見えて来ます。<br><br>船上の救いにあたる人の頭上のあたりには白光を放射する龍神が現われ、それが見守っていてくれるように見受けられました。<br><br>場面は一変いたし明主様が拝される。<br><br>明主様は巻紙のような紙を御手に持たれ」さらさらと御文字を書き終られ、それを御覧になられているような光景が拝されました。<br><br>「大光明如来」と金色の文字が空間に拝され、ぱっと見えなくなると大光明如来様の御姿が神々しく拝されました。<br><br>大光明如来様の御前には救われた方々でありましょうか、きちんとした身なりにて、集る一群に、大光明如来様は柄杓にて水のようなものをおふりかけになられている様が拝されました。<br><br>善言讃詞が終りますとメシヤ観音様が白光まばゆく光々とお出ましになられる様が拝されます。<br><br>御讃歌「伊都能売神」を奏上いたしていますと雲間より真赤な太陽を光々と凄まじい勢にて光を放射しだしますと、地上のものは皆焼きつきてしまうような場面が見えて来る。<br><br>男神二柱が現われ、弓矢を持たれその光のさす方向に向われ力んでいられる様な処が見え、遠方には黒龍の黒山が見えて来る。<br><br>手向って来るもの、横に逃げるもの、それはそれは大騒動にして黒玉をなしていましたが、暫くするとすっかり見えなくなりました。<br><br>正面より真赤な太陽が昇り後光がさしそめて来る。<br><br>その光の端は赤龍に連がって見えました。<br><br>じりじりじりじり活動を続けていましたが、すっかり見えなくなってしまいました。<br><br>次には黒龍の凄く大きなのが現われその口はグランドピアノの蓋を開けた位の大きさで、その口の中に大きな包みがうんとほうり込まれる。<br><br>のむはのむは見る見る間に長い胴体は、ぽんぽんにふくらんでしまいました。<br><br>急にあたりは真暗と化し、真赤な雲の様なもので一面おおわれてしまう。<br><br>真赤な光の玉からは後光がさす。<br><br>場面がぱっと変り明主様がお出ましになられる。<br><br>「暗黒時代はかくして過ぎ光明世界と建てなおさん」と金色文字にて空間に書けてくる。<br><br>下の方一カ所に、すしづめのように救われた者のような一群が見え、又一カ所には火の海に包まれる一群が現われて来ました。<br><br>御讃歌の奏上が終りますと大光明如来様がお出ましになられ、又柄杓にて水のようなものをおまきになられる様が拝されて来ました。<br><br> 大黒様のお勤めをしていますと大黒様は肩がお痛いのか肩をさすってもらわれる様が見えて来、間もなくお楽になられたようでありました。<br><br>お暑いのか団扇をお使いになっていらっしゃいました。<br><br>お供の方々が大勢見えて来る。<br><br>大黒様は風呂敷包みを次々にお出し下さり、色々様々なものが入っていました。<br><br>「人の人たる行のものに一番沢山つかわす」とお書きになられ、後に身体をそらせ御満足そうにその文字を御覧になっていらっしゃる情景が見えて来ました。<br><br>今日目に映る大黒様のお召物の色は薄あい色にして二つとも絵のような白の模様でありました。<br><br>ぐっと肩をいからせ、大きな肥ったお腹を出され御満足そうな御様子のように見受けられました。<br><br> お祈り終り会長先生が御論文を拝読されますと御神前には明主様がお出ましになられ、御手にて山の形をされ、下を見おろされ、何か御説明をなさっていらっしゃるように拝され御手をお上げになられますと、御手から白光がぴゅうぴゅうと放射され忽ち白光の道が出来てしまいました。<br><br>その白光の下の方では、龍神、狐、いもり、とかげ等々が上を下への大騒動をしている様が見えてきました。<br><br>次に白い上衣を着た研究員達のような人々が耳に機械のようなものをはさみ勉強でもしているようなところが見えてきました。<br><br>「大神様の命ぜらるるがままに、昨日今日と夢見るように大神業の御手伝いをさせていただいています。<br><br>鉄之助喜んでここに参上いたしました」と文字を書き姿を見せる某氏がありました。<br><br> 次に信仰の種類の御論文を拝読されますと、次々に面白い霊視ができました。<br><br> （一）お蔭信心 黒い狼のようなものがいる。<br><br>狐のようでもある。<br><br>これらのものが白光を浴しているところが見えてきました。<br><br> （二）景場信心 めじろのような小鳥が出てきて枝にとまり、からだを前後いたし白光を浴びている。<br><br> （三）有難信心 鷲のような羽根のぼうぼうしているものが、大きな口をあけ目玉をぐるぐるしながら白光に浴している。<br><br> （四）利用信心 狐がお光に浴している。<br><br> （五）神憑信心 キリギリスの様な大きな虫が、長い脚で後すざりしながら白光に浴している。<br><br> （六）身欲信心 黒い龍と獣と見分けのつかぬようなものがお光を浴している。<br><br> （七）たがる信心 いのししのようなもの、針ねずみのようなものが白光に浴する。<br><br> （八）御無沙汰信心 カマキリ虫がふらりふらり出てきてお光を浴びる。<br><br> （九）浮気信心 リスの様な四つ足のあるものが、しっぽをふりふりやってきてお光を浴する。<br><br> （十）気紛れ信心 亀やねずみがふらふら現われて来てお光を浴している。<br><br> （十一）鰹節信心 猫、狐がそっと顔を出してやってくる。<br><br> （十二）贋信心 何物かわからぬが大きな口をあけて後すざりする様が見えてきました。<br><br> 明主様謹んで御報告申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diário de Visões Espirituais (12)</h2>
 <p><strong>Ibaraki Yoshiko, Johrei Center de Gosanaka</strong>
@@ -118,5 +270,48 @@ function toggleLang(lang) {
 <p>(11) Fé que se esvai: Um gato e uma raposa aproximaram-se de forma sorrateira.</p>
 <p>(12) Fé simulada: Uma criatura irreconhecível, de boca enorme, recuava diante da Luz.</p>
 <p>Respeitosamente, apresento este relatório a Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（12） 五三中教会 茨木よし子 『地上天国』56号、昭和29(1954)年1月25日発行 某月某日 今日は支部の例祭日である。<br/><br/>洋服を着替えて学校へ行けば「先生今日はなんで、ええ（よい）服を着てきんちゃった？（着て来たか）」と袖にすがりつく我が教え子の可愛いらしさ。<br/><br/>午前中の授業も楽しく終り「先生さようなら」の元気な声にてお別れをする。<br/><br/>午後は早退にて支部の例祭に参拝のお許しを頂きました。<br/><br/> 例祭が始りますと御神前の真正面より真赤な太陽がさし昇って来ると同時に明主様がお出ましになられる。<br/><br/>明主様はずらりと並んで出ていらっしゃる神々様に何かお指図でもされていらっしゃるような様が拝されて来ました。<br/><br/>場面は一変致し、辺り一面大洪水となり、うろたえる人々の群が見え、中には子供を肩馬して逃げる人々も見受けられます。<br/><br/>濁水はごうごうと流れ来、見る間にあたりは水に浸って何も見えなくなってしまいました。<br/><br/>次には大きな黒塗の木製の船が現われる。<br/><br/>船上からは、もがき苦しむ水中の人々を必死で救い上げる情景が見えて来ます。<br/><br/>船上の救いにあたる人の頭上のあたりには白光を放射する龍神が現われ、それが見守っていてくれるように見受けられました。<br/><br/>場面は一変いたし明主様が拝される。<br/><br/>明主様は巻紙のような紙を御手に持たれ」さらさらと御文字を書き終られ、それを御覧になられているような光景が拝されました。<br/><br/>「大光明如来」と金色の文字が空間に拝され、ぱっと見えなくなると大光明如来様の御姿が神々しく拝されました。<br/><br/>大光明如来様の御前には救われた方々でありましょうか、きちんとした身なりにて、集る一群に、大光明如来様は柄杓にて水のようなものをおふりかけになられている様が拝されました。<br/><br/>善言讃詞が終りますとメシヤ観音様が白光まばゆく光々とお出ましになられる様が拝されます。<br/><br/>御讃歌「伊都能売神」を奏上いたしていますと雲間より真赤な太陽を光々と凄まじい勢にて光を放射しだしますと、地上のものは皆焼きつきてしまうような場面が見えて来る。<br/><br/>男神二柱が現われ、弓矢を持たれその光のさす方向に向われ力んでいられる様な処が見え、遠方には黒龍の黒山が見えて来る。<br/><br/>手向って来るもの、横に逃げるもの、それはそれは大騒動にして黒玉をなしていましたが、暫くするとすっかり見えなくなりました。<br/><br/>正面より真赤な太陽が昇り後光がさしそめて来る。<br/><br/>その光の端は赤龍に連がって見えました。<br/><br/>じりじりじりじり活動を続けていましたが、すっかり見えなくなってしまいました。<br/><br/>次には黒龍の凄く大きなのが現われその口はグランドピアノの蓋を開けた位の大きさで、その口の中に大きな包みがうんとほうり込まれる。<br/><br/>のむはのむは見る見る間に長い胴体は、ぽんぽんにふくらんでしまいました。<br/><br/>急にあたりは真暗と化し、真赤な雲の様なもので一面おおわれてしまう。<br/><br/>真赤な光の玉からは後光がさす。<br/><br/>場面がぱっと変り明主様がお出ましになられる。<br/><br/>「暗黒時代はかくして過ぎ光明世界と建てなおさん」と金色文字にて空間に書けてくる。<br/><br/>下の方一カ所に、すしづめのように救われた者のような一群が見え、又一カ所には火の海に包まれる一群が現われて来ました。<br/><br/>御讃歌の奏上が終りますと大光明如来様がお出ましになられ、又柄杓にて水のようなものをおまきになられる様が拝されて来ました。<br/><br/> 大黒様のお勤めをしていますと大黒様は肩がお痛いのか肩をさすってもらわれる様が見えて来、間もなくお楽になられたようでありました。<br/><br/>お暑いのか団扇をお使いになっていらっしゃいました。<br/><br/>お供の方々が大勢見えて来る。<br/><br/>大黒様は風呂敷包みを次々にお出し下さり、色々様々なものが入っていました。<br/><br/>「人の人たる行のものに一番沢山つかわす」とお書きになられ、後に身体をそらせ御満足そうにその文字を御覧になっていらっしゃる情景が見えて来ました。<br/><br/>今日目に映る大黒様のお召物の色は薄あい色にして二つとも絵のような白の模様でありました。<br/><br/>ぐっと肩をいからせ、大きな肥ったお腹を出され御満足そうな御様子のように見受けられました。<br/><br/> お祈り終り会長先生が御論文を拝読されますと御神前には明主様がお出ましになられ、御手にて山の形をされ、下を見おろされ、何か御説明をなさっていらっしゃるように拝され御手をお上げになられますと、御手から白光がぴゅうぴゅうと放射され忽ち白光の道が出来てしまいました。<br/><br/>その白光の下の方では、龍神、狐、いもり、とかげ等々が上を下への大騒動をしている様が見えてきました。<br/><br/>次に白い上衣を着た研究員達のような人々が耳に機械のようなものをはさみ勉強でもしているようなところが見えてきました。<br/><br/>「大神様の命ぜらるるがままに、昨日今日と夢見るように大神業の御手伝いをさせていただいています。<br/><br/>鉄之助喜んでここに参上いたしました」と文字を書き姿を見せる某氏がありました。<br/><br/> 次に信仰の種類の御論文を拝読されますと、次々に面白い霊視ができました。<br/><br/> （一）お蔭信心 黒い狼のようなものがいる。<br/><br/>狐のようでもある。<br/><br/>これらのものが白光を浴しているところが見えてきました。<br/><br/> （二）景場信心 めじろのような小鳥が出てきて枝にとまり、からだを前後いたし白光を浴びている。<br/><br/> （三）有難信心 鷲のような羽根のぼうぼうしているものが、大きな口をあけ目玉をぐるぐるしながら白光に浴している。<br/><br/> （四）利用信心 狐がお光に浴している。<br/><br/> （五）神憑信心 キリギリスの様な大きな虫が、長い脚で後すざりしながら白光に浴している。<br/><br/> （六）身欲信心 黒い龍と獣と見分けのつかぬようなものがお光を浴している。<br/><br/> （七）たがる信心 いのししのようなもの、針ねずみのようなものが白光に浴する。<br/><br/> （八）御無沙汰信心 カマキリ虫がふらりふらり出てきてお光を浴びる。<br/><br/> （九）浮気信心 リスの様な四つ足のあるものが、しっぽをふりふりやってきてお光を浴する。<br/><br/> （十）気紛れ信心 亀やねずみがふらふら現われて来てお光を浴している。<br/><br/> （十一）鰹節信心 猫、狐がそっと顔を出してやってくる。<br/><br/> （十二）贋信心 何物かわからぬが大きな口をあけて後すざりする様が見えてきました。<br/><br/> 明主様謹んで御報告申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

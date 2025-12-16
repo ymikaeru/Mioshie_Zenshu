@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qzensok1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 喘息と高血圧より救われて 『アメリカを救う』昭和28(1953)年1月1日発行 島根県 神和中教会 井上幸之助（49） この度拙文を顧みず数多き御神徳の中より一端を御報告させて戴きます。<br><br>私は去る昭和二十三年より喘息と高血圧症で苦しみ続けて来ました。<br><br>医師の診断により「血圧は二百三十もあり、脳溢血の憂が多分にあるから、服薬と注射及び採血により血圧の降下を計らねば危険この上もない」との事にて、血液を採って頂きましたら喘息が非常に苦しくなり、その苦痛は何にもたとえようもありませんでした。<br><br>医師に話して採血はやめて服薬と注射を続けました。<br><br>その後喘息の発作は益々激しくなり、医師に相談しても「注射で発作を止めれば血圧が上るから、なるべくその注射は控えよ」と脳溢血の注意を受け、年中喘ぎ悶えており、灸は背中に大きな穴があく程すえ、漢方薬その他民間療法、植皮手術二回等、ありとあらゆる治療を施しましたが一向に効果はなく、発作の激しい時は二、三昼夜続いても止らず、今にも息が切れるかと思う様な苦痛にて、今は脳溢血も致方なしと意を決しエフェドリン、ボスミン等をうち、その苦痛より脱する事も再三ありました。<br><br>その頃より一層頭痛、肩痛が苦しくなり、医者の門をたたき血圧を計ってもらえば二十位上昇しております。<br><br>故に薬で下げては注射で上げ、又下げては上げるを繰返しつつ、今より考えれば全く馬鹿げた話です。<br><br>毎月一回医師に血圧を計ってもらい、毎日服薬と注射を一年四カ月も続けました。<br><br>一時は百六十位まで下って頭痛も楽になりましたが、追々又元のごとくなり、医師も最早「薬は効かぬから血液を採るより仕方ない」と言われましたが喘息の余りの苦しさに断って、もうこれまでと覚悟をきめておりました。<br><br>その上力と頼む妻が二十五年十一月頃より坐骨神経痛で寝込んでしまいました。<br><br>これも注射薬、灸と治療を加えましたが、一進一退にて効果は見えませんでした。<br><br>ところが二十六年三月、ふと救世教の信者の方より有難い教があると聞かされ、三月十五日その方に連れられて島田教会へ夫婦連れにて喘ぎ乍ら参詣致しました。<br><br>そして白岩先生より御話を伺い、また有難き御浄霊を頂き、その折「明日よりここにて教修会があり、二人受けられる」との事でしたが、教修なるものがいかなるものや知りませず、上の空で聞き流しておりましたが、連れて参って下さった方より「それは好都合です。<br><br>ぜひ貴方方も入信してお蔭を受けなさい」と奨められ、早速御願いして頂き、翌日より夫婦揃って三日間の教修を受け、御守様を拝受致しました。<br><br>不思議にも二回の御浄霊にてさしも悪性の喘息も以後発作が楽になり、日一日と快方に向い、その後二、三回浄化戴きましたが、その度毎に快くなり、五月頃には発作も止り仕事も出来るようになりました。<br><br>妻も有難き御神徳により快くなり、これもその頃より仕事をさせて頂けるようになりました。<br><br>今までの暗黒の我家に一大光明が差込み、家も心も急に明るくなりました。<br><br>これもひとえに明主様の偉大な御霊徳の賜物と深く御礼申し上げます。<br><br>昨年五月十五日松江の月並祭に参詣した際の御話に「明主様関西に御旅行なされ、京都にて御面会が許される」と聞き、早速御願い申し上げ参加させて頂き、二十八日出発致し翌三十日私の不在中の出来事であります。<br><br>息子が農耕に本年初めて牝牛を使っておりましたところ、何に驚いたか俄に飛び出し、使手も初心者であり、又牛も不馴れにて制止も利かずあばれ廻って、遂に河（幅五尺深さ六尺位、底は岩盤）に落ち込んで倒れてしまったそうであります。<br><br>「しまった牛を殺した」と生きた心地もなく飛込んでクラを外せば、牛も一生懸命に河より飛び上り「フウフウ」言っていたとの事で、不思議にもかすり傷一つ無く、歩かせて見てもなんの異常もありません。<br><br>しかし妊娠中のため、体内の仔牛に異常なきやと案じ、隣村の獣医の宅へ連れて行き診察を受けましたが「何の異常もない」と言われ安心したとの事を帰宅後聞かされ実に冷汗の出る思いを致しました。<br><br>嗚呼これが奇蹟でなくて何でありましょう。<br><br>早速御神前に家内一同御守護の御礼申し上げました。<br><br>大光明如来様、御屏風観音様を御奉斎頂き日夜絶大なる御守護を給わっております。<br><br>私は今では喘息の苦痛は物忘れしたごとく快くなり、血圧は今まで多量な薬毒のためか未だ下らず、頭痛は多少致しますが「脳溢血来らば来れ、何を恐れんや、我には大光明如来様の御守護あり」と固き信念にて、何もかも御任せした安心の境地にて、日夜農耕にいそしませて頂いております。<br><br>顧みるに一昨年、昨年、又本年と年毎に苦痛は去り、ただただ「有難や有難や」と絶叫するの外はありません。<br><br>これもひとえに明主様の御高恩の賜物と深く深く感謝するのみでございます。<br><br>ここに謹みて御礼申し上げますと共に、御恩の万分の一なり共お酬い致すべく、御聖業の御手伝に邁進させて頂く覚悟で御座います。<br><br> 明主様有難う御座いました。<br><br>拙文乱筆をもって御礼と御報告をさせて戴く次第で御座います。<br><br> （昭和二十七年三月十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo da Asma e da Hipertensão (Publicado na Coletânea ‘Salvar a América’)</h2>
 <p><strong>Igreja Kanwanaka, Província de Shimane</strong>
@@ -104,5 +259,48 @@ function toggleLang(lang) {
 <p>Com o mais profundo respeito, expresso aqui minha gratidão e firmo o compromisso de me empenhar na Obra Divina, como forma de retribuir, ainda que minimamente, a imensa graça que recebi.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(10 de março de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 喘息と高血圧より救われて 『アメリカを救う』昭和28(1953)年1月1日発行 島根県 神和中教会 井上幸之助（49） この度拙文を顧みず数多き御神徳の中より一端を御報告させて戴きます。<br/><br/>私は去る昭和二十三年より喘息と高血圧症で苦しみ続けて来ました。<br/><br/>医師の診断により「血圧は二百三十もあり、脳溢血の憂が多分にあるから、服薬と注射及び採血により血圧の降下を計らねば危険この上もない」との事にて、血液を採って頂きましたら喘息が非常に苦しくなり、その苦痛は何にもたとえようもありませんでした。<br/><br/>医師に話して採血はやめて服薬と注射を続けました。<br/><br/>その後喘息の発作は益々激しくなり、医師に相談しても「注射で発作を止めれば血圧が上るから、なるべくその注射は控えよ」と脳溢血の注意を受け、年中喘ぎ悶えており、灸は背中に大きな穴があく程すえ、漢方薬その他民間療法、植皮手術二回等、ありとあらゆる治療を施しましたが一向に効果はなく、発作の激しい時は二、三昼夜続いても止らず、今にも息が切れるかと思う様な苦痛にて、今は脳溢血も致方なしと意を決しエフェドリン、ボスミン等をうち、その苦痛より脱する事も再三ありました。<br/><br/>その頃より一層頭痛、肩痛が苦しくなり、医者の門をたたき血圧を計ってもらえば二十位上昇しております。<br/><br/>故に薬で下げては注射で上げ、又下げては上げるを繰返しつつ、今より考えれば全く馬鹿げた話です。<br/><br/>毎月一回医師に血圧を計ってもらい、毎日服薬と注射を一年四カ月も続けました。<br/><br/>一時は百六十位まで下って頭痛も楽になりましたが、追々又元のごとくなり、医師も最早「薬は効かぬから血液を採るより仕方ない」と言われましたが喘息の余りの苦しさに断って、もうこれまでと覚悟をきめておりました。<br/><br/>その上力と頼む妻が二十五年十一月頃より坐骨神経痛で寝込んでしまいました。<br/><br/>これも注射薬、灸と治療を加えましたが、一進一退にて効果は見えませんでした。<br/><br/>ところが二十六年三月、ふと救世教の信者の方より有難い教があると聞かされ、三月十五日その方に連れられて島田教会へ夫婦連れにて喘ぎ乍ら参詣致しました。<br/><br/>そして白岩先生より御話を伺い、また有難き御浄霊を頂き、その折「明日よりここにて教修会があり、二人受けられる」との事でしたが、教修なるものがいかなるものや知りませず、上の空で聞き流しておりましたが、連れて参って下さった方より「それは好都合です。<br/><br/>ぜひ貴方方も入信してお蔭を受けなさい」と奨められ、早速御願いして頂き、翌日より夫婦揃って三日間の教修を受け、御守様を拝受致しました。<br/><br/>不思議にも二回の御浄霊にてさしも悪性の喘息も以後発作が楽になり、日一日と快方に向い、その後二、三回浄化戴きましたが、その度毎に快くなり、五月頃には発作も止り仕事も出来るようになりました。<br/><br/>妻も有難き御神徳により快くなり、これもその頃より仕事をさせて頂けるようになりました。<br/><br/>今までの暗黒の我家に一大光明が差込み、家も心も急に明るくなりました。<br/><br/>これもひとえに明主様の偉大な御霊徳の賜物と深く御礼申し上げます。<br/><br/>昨年五月十五日松江の月並祭に参詣した際の御話に「明主様関西に御旅行なされ、京都にて御面会が許される」と聞き、早速御願い申し上げ参加させて頂き、二十八日出発致し翌三十日私の不在中の出来事であります。<br/><br/>息子が農耕に本年初めて牝牛を使っておりましたところ、何に驚いたか俄に飛び出し、使手も初心者であり、又牛も不馴れにて制止も利かずあばれ廻って、遂に河（幅五尺深さ六尺位、底は岩盤）に落ち込んで倒れてしまったそうであります。<br/><br/>「しまった牛を殺した」と生きた心地もなく飛込んでクラを外せば、牛も一生懸命に河より飛び上り「フウフウ」言っていたとの事で、不思議にもかすり傷一つ無く、歩かせて見てもなんの異常もありません。<br/><br/>しかし妊娠中のため、体内の仔牛に異常なきやと案じ、隣村の獣医の宅へ連れて行き診察を受けましたが「何の異常もない」と言われ安心したとの事を帰宅後聞かされ実に冷汗の出る思いを致しました。<br/><br/>嗚呼これが奇蹟でなくて何でありましょう。<br/><br/>早速御神前に家内一同御守護の御礼申し上げました。<br/><br/>大光明如来様、御屏風観音様を御奉斎頂き日夜絶大なる御守護を給わっております。<br/><br/>私は今では喘息の苦痛は物忘れしたごとく快くなり、血圧は今まで多量な薬毒のためか未だ下らず、頭痛は多少致しますが「脳溢血来らば来れ、何を恐れんや、我には大光明如来様の御守護あり」と固き信念にて、何もかも御任せした安心の境地にて、日夜農耕にいそしませて頂いております。<br/><br/>顧みるに一昨年、昨年、又本年と年毎に苦痛は去り、ただただ「有難や有難や」と絶叫するの外はありません。<br/><br/>これもひとえに明主様の御高恩の賜物と深く深く感謝するのみでございます。<br/><br/>ここに謹みて御礼申し上げますと共に、御恩の万分の一なり共お酬い致すべく、御聖業の御手伝に邁進させて頂く覚悟で御座います。<br/><br/> 明主様有難う御座いました。<br/><br/>拙文乱筆をもって御礼と御報告をさせて戴く次第で御座います。<br/><br/> （昭和二十七年三月十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

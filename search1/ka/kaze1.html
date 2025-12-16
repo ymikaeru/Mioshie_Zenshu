@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kaze1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風邪は唯一の浄化法 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 いかなる健康人といえども、遁（のが）るる事の出来ない病気は、まず風邪であろう、しかるに昔から、感冒は万病の因、と言って、非常に恐れるのであるが、これは大変な誤りである。<br><br>ここにまず、風邪の原因を開明して、風邪は決して恐るべきものではないばかりかこの病気あるが為に、いかに人間は、恩恵に預かっているかという、私の研究の成果を発表したいのである。<br><br> 元来人体は、その高等生活器能が、頸部以上即ち脳及び顔面に、集注されている関係上、その器能の活動に要する、エネルギーとしての血液は、常に上部に向って、昇騰し勝ちである。<br><br>しかるに、現代人の大部分は、汚濁せる血液の所有者であるから、その汚血も共に昇騰するので、その場合、頸部以上の高等器能を活動させるには、ある程度の浄血でなくてはならないので、その血液輸送門にあたる肩凹（けんおう）部及び頸部において、濾化浄清の自然作用による、残渣（ざんさ）即ち血液中の汚素が、絶えずその部に滞溜するのである。<br><br>今一つは、肺臓の呼吸運動による空気中の塵挨吸入に因る残渣、それが上昇しては、肩胛部に滞溜するのである。<br><br>今一つは、病的でない位の、軽度の脊髄〔椎〕カリエスに因る膿汁が脊〔背〕部の皮下を、通過上昇して、肩凹部及び頸部に集溜するのである。<br><br>随って、頸部付近は人体における、汚物堆積所とも、言うべき場所である。<br><br> これら、種々の汚物の滞溜は、ある程度の量を越ゆる時、必然に重患が発生する順序になっている、それを回避せんが為、自然は巧妙にも風邪なる、簡単にして奏効する、浄化作用を行う事になっているのである。<br><br>それは、風邪に依って、汚物は溶解し、鼻汁となり、喀痰となって、排泄さるるのである。<br><br>発熱作用は右の汚物溶解の為である。<br><br>この理を知れば、風邪は、何ら療法をせず放任しておけば、順調に治癒してしまうのである。<br><br>この事を知らない世人は、不安の結果、種々の療法や、手当を為すのであるが、それらは悉（ことごと）く、療法ではなく、反対に浄化妨害となるのであるから、療法や手当をする程、治り難くなり、長びく事になるのである。<br><br>例えば、解熱剤を用いるごときはそれである、何となれば、汚物を解溶せんが為の役目をする。<br><br>その発熱を退散させんとするのであるからである。<br><br>又、無理に汗を取る方法も同一の理で、これも、人為的解熱法であるから不可である。<br><br>要するに、自然療法が、最も可いのである。<br><br>この理を教えられて、それを信じた人達は、一文の金も要らず手数も要せずして、医療の時よりも、より速く順調に治癒するので、その意外に驚くと共に、大いに喜んでおり、風邪に対する恐怖から、解放された幸福に、感謝しているのである。<br><br> 又世人は風邪は万病の因と思い、風邪によって、各種の重患を喚び起すと信じているが、これも、非常な誤りである。<br><br>又、医家もそう信じて、風邪に罹らないよう、実に努力しているのであるが、全く真相を知らないからである。<br><br>そうして、重患に罹るという事は重患に罹るべき条件が具備して居って、いつ勃発するや知れないという時、たまたま風邪がそのチャンスを作るまでである。<br><br>病気は一切汚物即ち膿汁滞溜の排泄作用であるから、一日も早く発生した方が、それだけ軽く済む訳である。<br><br>随って、風邪によって発病する事は、むしろ歓迎すべきであって風邪に罹らなければ、幾分遅延して、発病するまでである。<br><br>故に、発病が遅れれば、後れるだけ、より重症であるから反って不利であるのは、勿論である。<br><br> もし仮りに、風邪を予防し得たとしたら、いかん、それこそ恐るべきである。<br><br>それは滞溜せる汚物の浄化が行われないから、肺臓及び肋膜炎等の疾患を起し易く、なお、頸部付近の汚物滞溜は、送血器能を圧迫するから、上部の高等器関〔官〕活動のエネルギーに、不足を生ずるので、その結果、脳貧血、眼、耳、鼻等の疾患が起り易くなるのである。<br><br>近来激増せる、近眼、肺結核、神経衰弱等これが原因が多いのである。<br><br> この真相が知識されたなら風邪こそ、実に重患予防としての、大浄化作用であるから少しも恐るるに足りないのである。<br><br>これ故に近来流行するマスクは、誤れるのはなはだしいものである。<br><br>又、年々増加の傾向ある、自殺は勿論多くの犯罪は、神経衰弱者が多いという事である。<br><br>又、肺結核患者は現在、全国に百二十万人ありとせられ、死亡率も、一ケ年十万人を下らないと言うに到って、この病患の撲滅には、官民倶（とも）に、頭脳を悩ましているのであるから、この私の説のごとく、風邪を予防しない事によってこれらの疾患の、激減する事は、断じて、疑ないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Resfriado como Único Método de Purificação</h2>
 <p>Por mais saudável que um indivíduo seja, a enfermidade inevitável é, por excelência, o resfriado. Contudo, desde a antiguidade, teme-se o resfriado sob o adágio de que “é a origem de todas as doenças”, o que constitui um gravíssimo equívoco. Neste ensejo, desejo elucidar as verdadeiras causas do resfriado e apresentar os frutos de minha pesquisa, que revelam não apenas a ausência de motivos para temê-lo, mas também o imenso benefício que ele confere à humanidade.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Outro equívoco generalizado é a crença de que o resfriado seja a causa de todas as doenças, capaz de desencadear enfermidades graves. Até mesmo os médicos, por desconhecerem a verdade, partilham dessa crença e se esforçam para que as pessoas não se resfriem. A realidade, porém, é que uma doença grave só se manifesta quando as condições para seu surgimento já estão plenamente estabelecidas no organismo, aguardando o momento de eclodir. O resfriado, nesse contexto, apenas cria a oportunidade para que essa erupção ocorra. Toda doença nada mais é que um processo de eliminação de impurezas — ou seja, de pus acumulado. Logo, quanto antes ela se manifestar, mais branda será a sua forma. Nesse sentido, o surgimento de uma doença em decorrência de um resfriado deveria ser, na verdade, bem-vindo. Se a pessoa não se resfriasse, a manifestação da doença seria apenas adiada. E, evidentemente, quanto mais tarde uma enfermidade se declara, mais grave ela se torna, o que é, sem dúvida, desvantajoso para o indivíduo.</p>
 <p>Suponhamos, hipoteticamente, que fosse possível prevenir os resfriados. O resultado seria verdadeiramente temível. Sem o resfriado, a purificação das impurezas acumuladas não ocorreria, o que facilitaria o surgimento de doenças como a pneumonia e a pleurisia. Ademais, o acúmulo de toxinas na região cervical comprimiria os vasos sanguíneos, prejudicando o suprimento de energia para as funções superiores. Como consequência, haveria maior propensão a doenças como a anemia cerebral e afecções dos olhos, ouvidos e nariz. Essa é a causa primordial do aumento drástico, em tempos recentes, de casos de miopia, tuberculose e neurastenia.</p>
 <p>Uma vez compreendida esta verdade, o resfriado revela-se como uma grandiosa ação purificadora que previne doenças graves, não havendo, portanto, o menor motivo para temê-lo. Por essa razão, o uso de máscaras, tão difundido atualmente, constitui um erro crasso. Ademais, sabe-se que muitos dos suicídios e crimes, cujos índices aumentam ano a ano, são cometidos por indivíduos que sofrem de neurastenia. Somando-se a isso o fato de que, atualmente, estima-se haver no Japão um milhão e duzentos mil portadores de tuberculose, com uma taxa de mortalidade anual que não baixa de cem mil pessoas, percebe-se a angústia com que governantes e cidadãos buscam erradicar essa doença. Diante desse quadro, afirmo, sem a menor sombra de dúvida, que a simples atitude de não mais prevenir os resfriados, conforme minha tese, levaria a uma drástica redução de todas essas enfermidades.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風邪は唯一の浄化法 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 いかなる健康人といえども、遁（のが）るる事の出来ない病気は、まず風邪であろう、しかるに昔から、感冒は万病の因、と言って、非常に恐れるのであるが、これは大変な誤りである。<br/><br/>ここにまず、風邪の原因を開明して、風邪は決して恐るべきものではないばかりかこの病気あるが為に、いかに人間は、恩恵に預かっているかという、私の研究の成果を発表したいのである。<br/><br/> 元来人体は、その高等生活器能が、頸部以上即ち脳及び顔面に、集注されている関係上、その器能の活動に要する、エネルギーとしての血液は、常に上部に向って、昇騰し勝ちである。<br/><br/>しかるに、現代人の大部分は、汚濁せる血液の所有者であるから、その汚血も共に昇騰するので、その場合、頸部以上の高等器能を活動させるには、ある程度の浄血でなくてはならないので、その血液輸送門にあたる肩凹（けんおう）部及び頸部において、濾化浄清の自然作用による、残渣（ざんさ）即ち血液中の汚素が、絶えずその部に滞溜するのである。<br/><br/>今一つは、肺臓の呼吸運動による空気中の塵挨吸入に因る残渣、それが上昇しては、肩胛部に滞溜するのである。<br/><br/>今一つは、病的でない位の、軽度の脊髄〔椎〕カリエスに因る膿汁が脊〔背〕部の皮下を、通過上昇して、肩凹部及び頸部に集溜するのである。<br/><br/>随って、頸部付近は人体における、汚物堆積所とも、言うべき場所である。<br/><br/> これら、種々の汚物の滞溜は、ある程度の量を越ゆる時、必然に重患が発生する順序になっている、それを回避せんが為、自然は巧妙にも風邪なる、簡単にして奏効する、浄化作用を行う事になっているのである。<br/><br/>それは、風邪に依って、汚物は溶解し、鼻汁となり、喀痰となって、排泄さるるのである。<br/><br/>発熱作用は右の汚物溶解の為である。<br/><br/>この理を知れば、風邪は、何ら療法をせず放任しておけば、順調に治癒してしまうのである。<br/><br/>この事を知らない世人は、不安の結果、種々の療法や、手当を為すのであるが、それらは悉（ことごと）く、療法ではなく、反対に浄化妨害となるのであるから、療法や手当をする程、治り難くなり、長びく事になるのである。<br/><br/>例えば、解熱剤を用いるごときはそれである、何となれば、汚物を解溶せんが為の役目をする。<br/><br/>その発熱を退散させんとするのであるからである。<br/><br/>又、無理に汗を取る方法も同一の理で、これも、人為的解熱法であるから不可である。<br/><br/>要するに、自然療法が、最も可いのである。<br/><br/>この理を教えられて、それを信じた人達は、一文の金も要らず手数も要せずして、医療の時よりも、より速く順調に治癒するので、その意外に驚くと共に、大いに喜んでおり、風邪に対する恐怖から、解放された幸福に、感謝しているのである。<br/><br/> 又世人は風邪は万病の因と思い、風邪によって、各種の重患を喚び起すと信じているが、これも、非常な誤りである。<br/><br/>又、医家もそう信じて、風邪に罹らないよう、実に努力しているのであるが、全く真相を知らないからである。<br/><br/>そうして、重患に罹るという事は重患に罹るべき条件が具備して居って、いつ勃発するや知れないという時、たまたま風邪がそのチャンスを作るまでである。<br/><br/>病気は一切汚物即ち膿汁滞溜の排泄作用であるから、一日も早く発生した方が、それだけ軽く済む訳である。<br/><br/>随って、風邪によって発病する事は、むしろ歓迎すべきであって風邪に罹らなければ、幾分遅延して、発病するまでである。<br/><br/>故に、発病が遅れれば、後れるだけ、より重症であるから反って不利であるのは、勿論である。<br/><br/> もし仮りに、風邪を予防し得たとしたら、いかん、それこそ恐るべきである。<br/><br/>それは滞溜せる汚物の浄化が行われないから、肺臓及び肋膜炎等の疾患を起し易く、なお、頸部付近の汚物滞溜は、送血器能を圧迫するから、上部の高等器関〔官〕活動のエネルギーに、不足を生ずるので、その結果、脳貧血、眼、耳、鼻等の疾患が起り易くなるのである。<br/><br/>近来激増せる、近眼、肺結核、神経衰弱等これが原因が多いのである。<br/><br/> この真相が知識されたなら風邪こそ、実に重患予防としての、大浄化作用であるから少しも恐るるに足りないのである。<br/><br/>これ故に近来流行するマスクは、誤れるのはなはだしいものである。<br/><br/>又、年々増加の傾向ある、自殺は勿論多くの犯罪は、神経衰弱者が多いという事である。<br/><br/>又、肺結核患者は現在、全国に百二十万人ありとせられ、死亡率も、一ケ年十万人を下らないと言うに到って、この病患の撲滅には、官民倶（とも）に、頭脳を悩ましているのであるから、この私の説のごとく、風邪を予防しない事によってこれらの疾患の、激減する事は、断じて、疑ないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

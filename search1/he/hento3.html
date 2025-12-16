@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hento3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 扁桃腺炎及び盲腸炎の手術 『天国の福音』昭和22(1947)年2月5日発行 近来最も多い病気に扁桃腺炎がある。<br><br>この病気は大抵の人は経験しているであろう。<br><br>医学においては扁桃腺なる機能は未だ判っていないのである。<br><br>何となれば不用として手術によって除去するからである。<br><br>考えてもみるがいい。<br><br>人体に不必要なるものを造物主が造る筈がないではないか、医学者も人間である。<br><br>造物主に造られた人間である。<br><br>しかるに、造物主が必要として造られた物を人間が不必要として除去するのは何たる暴逆であろう。<br><br>この意味において、医学で扁桃腺が不必要というのは実はその存在理由が未だ不明であるからで、それを判明したように錯覚するとは、まことに危険千万というべきである。<br><br> 扁桃腺は、私の発見によれば、非常に重要な役目を果している。<br><br>それは人体の上半身中最も毒素集溜する個所は頚部淋巴腺付近である。<br><br>それが浄化によって排泄される場合、一旦扁桃腺に凝結し、発熱溶解、液体となって排泄せられるのである。<br><br>その溶解時、紅く腫脹し痛むのであるが、放置しておけば簡単に治癒するのである。<br><br>医療はルゴール等の塗布薬または氷冷湿布等の浄化停止を行うので、治癒に時日を要し一旦治癒しても再発しやすいのである。<br><br>右のごとき事を繰返すにおいて、ついに慢性となり、固結は漸次膨大、扁桃腺肥大症となる。<br><br>かようになると、発病の場合、激痛高熱苦悩はなはだしく、食物嚥下（えんか）も困難となるので、手術のやむなきに至るのである。<br><br> また扁桃腺除去は他に悪影響を及ぼすのである。<br><br>それは淋巴腺付近の集溜毒素が排泄されんとしても、出口である扁桃腺がないため、反対の方向――すなわち中耳に向かって移行し、耳骨に穿孔、激痛高熱が発生する、それが中耳炎である。<br><br>また中耳炎発病の場合、液体膿が多量なる時は、中耳から頭脳にまで移行する。<br><br>それが中耳炎と脳膜炎の合併症であって、これは生命に危険を及ぼすのである。<br><br>これによってこれを見れば、医学の誤療は最初扁桃腺炎という軽病から中耳炎に発展させ、ついに脳膜炎にまで進行させ生命をまで危うくするのである。<br><br> 盲腸炎は、周知のごとく下腹部右側（極稀に左側もある）の一局部の激痛である。<br><br>そうして医学においてはその原因を食物に置いているようであるが、これは誤りで、真の原因は上半身における扁桃腺と同様、下半身における毒素排泄機能である。<br><br>発病するや、医療は速かに手術を奨めるが、実は放置しておけば速かに完全に治癒するのである。<br><br>自然療法の場合激痛は一日位、二日三日は中痛、四日目位から歩行時痛む位で必ず下痢あり、一週間位で全治し再発の憂（うれい）は決してないのである。<br><br>医学では生命の危険を伴うといい、寸刻を争って手術を奨めるが、これは非常の誤りで、手術の結果往々死を招く事があるが自然療法なれば、毫も危険はないのである。<br><br> 次に医学においては、発病によって盲腸炎を知るのであるが、本医術の診断においては、未発生すなわち潜伏期といえどもよく診断し得る。<br><br>それは熟練によって盲腸部の毒素固結が判り得るのである。<br><br> ここで、手術について一言を挿（さしはさ）むが、今日医学の進歩を言う時必ず手術の進歩を賞（たた）えるのである。<br><br>これはちょっと聞くともっとものようであるが、実は大いなる誤りである。<br><br>何となれば病患以外患部の機能をも除去するので、人体における重要機能を消失する以上、他に悪影響を及ぼさない訳にはゆかない。<br><br>なる程手術後一時的ある期間は健康であるが、数年後徐々として健康に支障を及ぼす事は確実である。<br><br>それは浄化機能の喪失によって、毒素は他のあらゆる機能を侵す事になる。<br><br>事実、扁桃腺除去後、首より上方の病気に罹りやすくなり、また虫様突起除去は腎臓、腹膜、胃腸等に障碍を来し、婦人は月経不順勝ちになり、頭痛、肩の凝り等に悩み、全身的にも活力減退は争えない事実である。<br><br>常識で考えても判る筈である。<br><br>最も高級で微妙極まる人体組織の一部なりとも毀損する以上、なんらかの影響がない訳はない。<br><br>たとえば、いかなる名画といえども、画面の一部に毀損があれば、それは全体の毀損であり、価値は大いに低下する。<br><br>また家屋の場合、一本の柱一石の土台、一枚の瓦といえども除去されたとしたら、その家屋の安全性はそれだけ減殺される訳である。<br><br>かくのごとく手術は病気のみの除去ではなく、あわせて機能の除去でもあるから、いかに理由づけるとしても医術の進歩とはならない。<br><br>医術の真の進歩とは病気だけを除去して機能はそのまま元通りであらねばならないのである。<br><br>しかしながら、内科的手術は、外面に痕跡をのこさないから、直接不自由と外観に影響がないのでさほど恐れられないのであろう。<br><br>従って私は思う、手術の進歩とは医術の進歩ではなく、技術の進歩に過ぎないのである。<br><br>また思う、メスを揮い、痛苦を与え、血液を消耗させ、人体の一部を不具者たらしむる事は、全く野蛮的行為でなくて何であろう。<br><br> 医博越智真逸氏は、ある著書に左のごとき記事を載せている。<br><br> 「虫様垂をもって全然無用の長物で、既に退化しつつある機関であると考えるのは果して自然を正しく理解せる賢き考えであろうか。<br><br>恐らくは吾人の知識が未だ浅薄で、神秘の宝庫を開き得ぬためと信ずる。<br><br>余は自然は断じて無用有害の機関を吾人に与えないと確信する。<br><br>」 かような理解ある説を唱うる医学者のある事を私は心強く感ずるものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Cirurgias de Amigdalite e Apendicite</h2>
 <p>A amigdalite figura entre as enfermidades mais comuns da atualidade, e a maioria das pessoas por certo já a vivenciou. A ciência médica, todavia, ainda não logrou decifrar a função das amígdalas, e prova disso é que as considera desnecessárias, recomendando sua remoção cirúrgica. Reflitamos, contudo: porventura o Criador teria concebido algo supérfluo no corpo humano? Os médicos também são seres humanos, criaturas de Deus. Nesse sentido, que ato de desmedida violência é o ser humano remover algo que o Criador instituiu como necessário? Nesta perspectiva, a alegação médica de que as amígdalas são inúteis revela, em verdade, apenas o desconhecimento de sua razão de ser. Apresentar tal desconhecimento como um fato elucidado constitui um equívoco de imensa periculosidade.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O doutor em medicina Ochi Shin'itsu publicou, em uma de suas obras, o seguinte trecho:</p>
 <p>“Será que considerar o apêndice vermiforme um órgão inteiramente inútil, já em processo de degeneração, representa uma compreensão sábia e correta da Natureza? Acredito que isso se deva, provavelmente, à superficialidade de nosso conhecimento, que ainda não nos permitiu desvendar o tesouro de seus mistérios. Tenho a firme convicção de que a Natureza jamais nos concederia órgãos inúteis ou prejudiciais.”</p>
 <p>Sinto-me imensamente encorajado pela existência de médicos capazes de professar uma visão de tamanha lucidez.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 扁桃腺炎及び盲腸炎の手術 『天国の福音』昭和22(1947)年2月5日発行 近来最も多い病気に扁桃腺炎がある。<br/><br/>この病気は大抵の人は経験しているであろう。<br/><br/>医学においては扁桃腺なる機能は未だ判っていないのである。<br/><br/>何となれば不用として手術によって除去するからである。<br/><br/>考えてもみるがいい。<br/><br/>人体に不必要なるものを造物主が造る筈がないではないか、医学者も人間である。<br/><br/>造物主に造られた人間である。<br/><br/>しかるに、造物主が必要として造られた物を人間が不必要として除去するのは何たる暴逆であろう。<br/><br/>この意味において、医学で扁桃腺が不必要というのは実はその存在理由が未だ不明であるからで、それを判明したように錯覚するとは、まことに危険千万というべきである。<br/><br/> 扁桃腺は、私の発見によれば、非常に重要な役目を果している。<br/><br/>それは人体の上半身中最も毒素集溜する個所は頚部淋巴腺付近である。<br/><br/>それが浄化によって排泄される場合、一旦扁桃腺に凝結し、発熱溶解、液体となって排泄せられるのである。<br/><br/>その溶解時、紅く腫脹し痛むのであるが、放置しておけば簡単に治癒するのである。<br/><br/>医療はルゴール等の塗布薬または氷冷湿布等の浄化停止を行うので、治癒に時日を要し一旦治癒しても再発しやすいのである。<br/><br/>右のごとき事を繰返すにおいて、ついに慢性となり、固結は漸次膨大、扁桃腺肥大症となる。<br/><br/>かようになると、発病の場合、激痛高熱苦悩はなはだしく、食物嚥下（えんか）も困難となるので、手術のやむなきに至るのである。<br/><br/> また扁桃腺除去は他に悪影響を及ぼすのである。<br/><br/>それは淋巴腺付近の集溜毒素が排泄されんとしても、出口である扁桃腺がないため、反対の方向――すなわち中耳に向かって移行し、耳骨に穿孔、激痛高熱が発生する、それが中耳炎である。<br/><br/>また中耳炎発病の場合、液体膿が多量なる時は、中耳から頭脳にまで移行する。<br/><br/>それが中耳炎と脳膜炎の合併症であって、これは生命に危険を及ぼすのである。<br/><br/>これによってこれを見れば、医学の誤療は最初扁桃腺炎という軽病から中耳炎に発展させ、ついに脳膜炎にまで進行させ生命をまで危うくするのである。<br/><br/> 盲腸炎は、周知のごとく下腹部右側（極稀に左側もある）の一局部の激痛である。<br/><br/>そうして医学においてはその原因を食物に置いているようであるが、これは誤りで、真の原因は上半身における扁桃腺と同様、下半身における毒素排泄機能である。<br/><br/>発病するや、医療は速かに手術を奨めるが、実は放置しておけば速かに完全に治癒するのである。<br/><br/>自然療法の場合激痛は一日位、二日三日は中痛、四日目位から歩行時痛む位で必ず下痢あり、一週間位で全治し再発の憂（うれい）は決してないのである。<br/><br/>医学では生命の危険を伴うといい、寸刻を争って手術を奨めるが、これは非常の誤りで、手術の結果往々死を招く事があるが自然療法なれば、毫も危険はないのである。<br/><br/> 次に医学においては、発病によって盲腸炎を知るのであるが、本医術の診断においては、未発生すなわち潜伏期といえどもよく診断し得る。<br/><br/>それは熟練によって盲腸部の毒素固結が判り得るのである。<br/><br/> ここで、手術について一言を挿（さしはさ）むが、今日医学の進歩を言う時必ず手術の進歩を賞（たた）えるのである。<br/><br/>これはちょっと聞くともっとものようであるが、実は大いなる誤りである。<br/><br/>何となれば病患以外患部の機能をも除去するので、人体における重要機能を消失する以上、他に悪影響を及ぼさない訳にはゆかない。<br/><br/>なる程手術後一時的ある期間は健康であるが、数年後徐々として健康に支障を及ぼす事は確実である。<br/><br/>それは浄化機能の喪失によって、毒素は他のあらゆる機能を侵す事になる。<br/><br/>事実、扁桃腺除去後、首より上方の病気に罹りやすくなり、また虫様突起除去は腎臓、腹膜、胃腸等に障碍を来し、婦人は月経不順勝ちになり、頭痛、肩の凝り等に悩み、全身的にも活力減退は争えない事実である。<br/><br/>常識で考えても判る筈である。<br/><br/>最も高級で微妙極まる人体組織の一部なりとも毀損する以上、なんらかの影響がない訳はない。<br/><br/>たとえば、いかなる名画といえども、画面の一部に毀損があれば、それは全体の毀損であり、価値は大いに低下する。<br/><br/>また家屋の場合、一本の柱一石の土台、一枚の瓦といえども除去されたとしたら、その家屋の安全性はそれだけ減殺される訳である。<br/><br/>かくのごとく手術は病気のみの除去ではなく、あわせて機能の除去でもあるから、いかに理由づけるとしても医術の進歩とはならない。<br/><br/>医術の真の進歩とは病気だけを除去して機能はそのまま元通りであらねばならないのである。<br/><br/>しかしながら、内科的手術は、外面に痕跡をのこさないから、直接不自由と外観に影響がないのでさほど恐れられないのであろう。<br/><br/>従って私は思う、手術の進歩とは医術の進歩ではなく、技術の進歩に過ぎないのである。<br/><br/>また思う、メスを揮い、痛苦を与え、血液を消耗させ、人体の一部を不具者たらしむる事は、全く野蛮的行為でなくて何であろう。<br/><br/> 医博越智真逸氏は、ある著書に左のごとき記事を載せている。<br/><br/> 「虫様垂をもって全然無用の長物で、既に退化しつつある機関であると考えるのは果して自然を正しく理解せる賢き考えであろうか。<br/><br/>恐らくは吾人の知識が未だ浅薄で、神秘の宝庫を開き得ぬためと信ずる。<br/><br/>余は自然は断じて無用有害の機関を吾人に与えないと確信する。<br/><br/>」 かような理解ある説を唱うる医学者のある事を私は心強く感ずるものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

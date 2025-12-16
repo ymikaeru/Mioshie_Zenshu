@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>murasaki</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 紫の焔 『瑞光』第1巻第5号、昭和6(1931)年10月1日発行 歌壇のフォード会社出口王仁三郎氏と、月に一首しか作らぬ斎藤茂吉氏とは好コントラストだ 前田夕暮氏の眼疾はお気の毒に思ふがさる姓名学者の談に依れば夕暮の名が悪い夕暮の光線は半眼位の明りだから其通りになつたのだと、此際朝明としたら治る事請合だと 生田媒介氏に依れば歌は二三年は手習で十年やらねば歌といふものが解らぬと言ふ、してみれば十年で一人前、二十年で巧者、三十年で大家となる順序だとすると、ツマリ恩給法と同じわけか、二十八で逝つた啄木などは特別天才でけりをつけるか 余り私事に関する歌は第三者が見て何の興味がないばかりか寧ろ迷惑な事と思ふ 自然のケンカは自然にアヽなつたのだから自然に任しておいたら自然に解決するだらう 自然が二つ出来ると言ふがどうして区別するかな一号と二号では妻君と妾のやうだし、東と西では相撲のやうだし、ハテ何とするかな 自然が分離の因は僅か五百円の金からだと尾山氏は言ふ。<br><br>いづこも同じ秋の夕暮か 新感覚派の歌といふ奴始末におへぬ、例へば夫婦喧嘩の後で物を視た感じなどはコチラでも夫婦喧嘩をして見なければ実感が映らぬと言ふわけだ 土岐善麿氏俺は歌人ぢやないと仰有る、すると歌人ならぬ歌詠み 歌を詠むのは事実だから 即ち軍人ではないが戦争はする、銭を儲けぬ商人、作家でない小説家、アヽうるさい 近頃はワンタンを金蒔絵のお椀に入れ、錦出〔手〕の皿へビフテキを盛り、味噌汁で飯を食ふやうな歌が多い、之れも時代か、イヤ歌も世界的になつたのだよ 歌は理屈で作ると思ふ人がある、分析的で科学的で幾何学的に斯うなると今に短歌科学なんて事になるかな 針金を曲げたやうな歌を読むと神経が痛い 金槌でドヤして、靴で蹴つ飛ばして頭から水をぶつかける体のプロ作家の短歌 騒々しいジャズのやうな歌、麻雀的なシナの歌、アジプロの歌、流行は静かな歌壇を動（ゆる）がす 歌碑の流行が続くと仮定する、五十年後の千九百八十一年には 勿驚（おどろくなかれ）全国に歌碑が十万何千本になるだらう 斯うチヤチな短歌雑誌が増えては困ると言ふ人がある。<br><br>イツソ合同して百貨店式に大資本経営をやつて細かいのをつぶしてしまへ 歌の朗詠の節はモチトどうにかならぬものかな 詩吟の如きあり、琵琶の如きあり、その哀調御詠歌の如きあり、中には右や左のお旦那さまのやうなのがあるとはチト悪口が過ぎる
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Observações sobre o Mundo Poético</h2>
 <p>Onisaburo Deguchi, uma verdadeira indústria Ford no campo da poesia, e Mokichi Saito, que compõe apenas um único poema por mês, constituem um fascinante contraponto.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Suponhamos que a atual tendência de erguer monumentos com poemas inscritos continue. Daqui a cinquenta anos, em 1981, não nos surpreendamos se o país estiver repleto de mais de cem mil dessas estelas.</p>
 <p>Alguns se queixam do aumento de revistas de <em>tanka</em> de qualidade duvidosa. Talvez a solução fosse consolidar todas em um grande empreendimento capitalista, ao estilo de uma loja de departamentos, e assim aniquilar as menores.</p>
 <p>E quanto à maneira de recitar os poemas? Não se poderia aprimorá-la? Algumas declamações se assemelham ao canto de poesia chinesa; outras, ao som do <em>biwa</em>; e há aquelas cujo tom plangente recorda os hinos budistas. Dizer que certas performances soam como um patrão dando ordens aos seus subordinados seria, talvez, uma maldade excessiva.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 紫の焔 『瑞光』第1巻第5号、昭和6(1931)年10月1日発行 歌壇のフォード会社出口王仁三郎氏と、月に一首しか作らぬ斎藤茂吉氏とは好コントラストだ 前田夕暮氏の眼疾はお気の毒に思ふがさる姓名学者の談に依れば夕暮の名が悪い夕暮の光線は半眼位の明りだから其通りになつたのだと、此際朝明としたら治る事請合だと 生田媒介氏に依れば歌は二三年は手習で十年やらねば歌といふものが解らぬと言ふ、してみれば十年で一人前、二十年で巧者、三十年で大家となる順序だとすると、ツマリ恩給法と同じわけか、二十八で逝つた啄木などは特別天才でけりをつけるか 余り私事に関する歌は第三者が見て何の興味がないばかりか寧ろ迷惑な事と思ふ 自然のケンカは自然にアヽなつたのだから自然に任しておいたら自然に解決するだらう 自然が二つ出来ると言ふがどうして区別するかな一号と二号では妻君と妾のやうだし、東と西では相撲のやうだし、ハテ何とするかな 自然が分離の因は僅か五百円の金からだと尾山氏は言ふ。<br/><br/>いづこも同じ秋の夕暮か 新感覚派の歌といふ奴始末におへぬ、例へば夫婦喧嘩の後で物を視た感じなどはコチラでも夫婦喧嘩をして見なければ実感が映らぬと言ふわけだ 土岐善麿氏俺は歌人ぢやないと仰有る、すると歌人ならぬ歌詠み 歌を詠むのは事実だから 即ち軍人ではないが戦争はする、銭を儲けぬ商人、作家でない小説家、アヽうるさい 近頃はワンタンを金蒔絵のお椀に入れ、錦出〔手〕の皿へビフテキを盛り、味噌汁で飯を食ふやうな歌が多い、之れも時代か、イヤ歌も世界的になつたのだよ 歌は理屈で作ると思ふ人がある、分析的で科学的で幾何学的に斯うなると今に短歌科学なんて事になるかな 針金を曲げたやうな歌を読むと神経が痛い 金槌でドヤして、靴で蹴つ飛ばして頭から水をぶつかける体のプロ作家の短歌 騒々しいジャズのやうな歌、麻雀的なシナの歌、アジプロの歌、流行は静かな歌壇を動（ゆる）がす 歌碑の流行が続くと仮定する、五十年後の千九百八十一年には 勿驚（おどろくなかれ）全国に歌碑が十万何千本になるだらう 斯うチヤチな短歌雑誌が増えては困ると言ふ人がある。<br/><br/>イツソ合同して百貨店式に大資本経営をやつて細かいのをつぶしてしまへ 歌の朗詠の節はモチトどうにかならぬものかな 詩吟の如きあり、琵琶の如きあり、その哀調御詠歌の如きあり、中には右や左のお旦那さまのやうなのがあるとはチト悪口が過ぎる</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

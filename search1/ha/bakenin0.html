@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bakenin0</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 化人形 『明日の医術 第三編』昭和18(1943)年10月23日発行 この化人形の話は、頗（すこぶ）る面白い霊的研究であったと今でも思っている。<br><br>私はある時友人から「化ける人形があるんだが、解決してくれないか」と云うのである。<br><br>それはどういう事かと聞いてみると、等身大の阿亀（おかめ）の人形で、それを手に入れた家の主人は必ず悩まされるのだという。<br><br>それは決って夜中で、四隣寝静まって寂（じゃく）として声なき頃、その阿亀が、寝ている主人の上へ跨（またが）って首を絞めるというのである。<br><br>時にはその人形を見ていると、ニヤニヤと笑う事さえあるという――まことに気味の悪い話である。<br><br>従って、転々と持主が代り、現在の持主は恐ろしがってある家に預けてあるから、そこへ来てくれ――というのである。<br><br>私の好奇心は勃然（ぼつぜん）と起った。<br><br>早速行ってみようと、深川の某所へ行った。<br><br>二階の一間に安置してあったが見るとなるほど、等身大の阿亀が十二単衣を着、檜扇（ひおうぎ）を片手に差上げての舞姿である。<br><br>勿論明治以前の作らしく相当古びているが、実に傑作で生けるがごとくである。<br><br>私はその前に端座し人形に憑依している霊に向って「私に憑ってくれろ」と言ったので、早速私に憑ったらしく、私は急に悲しい気持がしてならなかった。<br><br>帰宅後も悲しさが込み上げて泪さえ出るのである。<br><br>翌日Ｍ夫人を招んで、その憑霊に『Ｍ夫人に憑って、何故化けるのか、その事情をＭ夫人の口を借りて詳細語れ』と言ったのである。<br><br>早速Ｍ夫人は口を切った。<br><br>霊の物語は次のごときものである。<br><br> 「妾（わたし）は本名荒井サクと申し、今から四十年位前、京都にあったある妓楼の女郎をして居った者ですが、ついそこで主人との不純関係が出来たので、その妻君が非常に嫉妬を起し、私を苦しめたが、ついには主人も妾を嫌い出し、果は共々苦しめるようになり、私を虐待するので、妾もいっそ死のうと思い、近くの川に身を投げて自殺したのであります。<br><br>その後暫く地獄に居りましたが、地獄から抜け出し、どうかして怨みを晴らそうと意（おも）い元の妓楼へ行ってみると、夫妻共死歿して居ないので、妾は無念を晴らすに由なく悶々として居ったのです。<br><br>私も祀られては居ず、居る所が無いので、生前愛して居った阿亀の人形を、自分の居所として憑いていたので、人形は元、客から貰ったものであります。<br><br>そうして生前私は、京都の妻恋稲荷を信仰して居りましたので、怨みを晴らすのに手伝ってくれと頼みましたところ、稲荷の御本尊の弟狐と、その情婦である女狐が共同して、妾を援けてくれる事になりました。<br><br>しかし困る事には、当の仇の主人夫妻が居りませんので、つい人形の持主になる主人を目がけては怨みを晴らそうと、首を締めるような事をしたのです。<br><br>」――と泣きながら語るのである。<br><br>そこで私も大いに同情して祀ってやる事にしたが、狐が相当長くサクの霊に憑依しているので、それを離すのは仲々困難であった。<br><br>たとえていえば、私が荒井サクと問答をしているといつしか狐となり、又サクの霊となると言ように人獣同化霊の初期の状態をよく表わしているのであった。<br><br>しかし、私が根気よく狐霊を説得したので、遂に分離する事になったが、それについて狐霊は条件を付けたのである。<br><br>それは毎日私の家の軒下に、茶碗に半分位飯を入れて毎朝一ケ月の間置いてくれ――というのである。<br><br>私はその通りしてやり、荒井サクの霊を私の家へ祀ってやったので今でも祀り続けている。<br><br> 荒井サクの霊が憑る前は、Ｍ夫人の眼には見えるのである。<br><br>その時は 「今、サクさんが来ましたよ」というので 『どんな姿か』ときくと 「鼈甲（べっこう）の笄（こうがい）を沢山扠（さ）し、裲襠（うちかけ）を着て、隣へ座りました。<br><br>」と云うのである。<br><br> 又、こういう事があった。<br><br>私は友人に右の話をしたところ、自分も一度霊査をしてみたいというので、十人位の人を集めて心霊研究会のような事をした。<br><br>その時右の友人がＭ夫人に対し霊査法を行ったが、狐霊を侮辱するような言葉があったので狐霊は立腹した。<br><br>狐霊いわく 「へン、馬鹿にしなさんな。<br><br>これでも妾は元京都の紙園で、何々屋の何子といった売れっ子の姐さんでしたからね、その時の妾の粋な姿を見せて上げよう。<br><br>」 と云いながら、いきなり起って褄（つま）をとり、娜（しな）を作りながら、座敷中あちらこちらを歩くのである。<br><br>私は 『もうよい、判ったから座りなさい』と言って座らせ、覚醒さしたのである。<br><br>Ｍ夫人は霊憑中は、かような事まで全然知らないのであるから、実に良霊媒である。<br><br>覚醒するや私に向って―― 「今ここに狐が二匹居りますが、先生にお見えになりますか。<br><br>」 というのであるが、私は見えないといい、 『どんな狐か』と質（き）くと 「一方は黄色で、一方は白で、本当の狐位の大きさだ」――「ここに座っている」と云うかと思うと、「アッ狐は今人形の中へ入りました。<br><br>」と言う。<br><br>『人形のどこか』と質くと 「腹の中に二人キチンと座っていて、こちらを向いて笑っている」――というのである。<br><br>実に霊の作用なるものは、不思議とも何とも言えないものであると、つくづく私は思ったのである。<br><br> かくして、化人形は解決を告げたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Boneca Assombrada</h2>
 <p>Até hoje, considero o caso desta boneca assombrada uma das mais fascinantes investigações espirituais que já realizei. Certa vez, um amigo me procurou com um pedido singular: “Há uma boneca que se transforma e assombra as pessoas. Você poderia solucionar o mistério que a envolve?”. Intrigado, pedi-lhe mais detalhes. Tratava-se de uma boneca Okame em tamanho natural, cujo dono era invariavelmente atormentado. Segundo ele, o fenômeno ocorria sempre de madrugada, no silêncio profundo da noite, quando a vizinhança já dormia. A boneca Okame se erguia, sentava-se sobre o peito do mestre da casa e tentava estrangulá-lo. Havia relatos, inclusive, de que, ao ser observada, ela por vezes exibia um sorriso zombeteiro — uma história verdadeiramente sinistra.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>“Estão as duas sentadas, bem-comportadas, dentro da barriga dela. Olham para mim e sorriem.”</p>
 <p>Naquele momento, refleti profundamente sobre quão verdadeiramente inescrutáveis são as manifestações do Mundo Espiritual.</p>
 <p>E assim, o caso da boneca assombrada chegou à sua resolução.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 化人形 『明日の医術 第三編』昭和18(1943)年10月23日発行 この化人形の話は、頗（すこぶ）る面白い霊的研究であったと今でも思っている。<br/><br/>私はある時友人から「化ける人形があるんだが、解決してくれないか」と云うのである。<br/><br/>それはどういう事かと聞いてみると、等身大の阿亀（おかめ）の人形で、それを手に入れた家の主人は必ず悩まされるのだという。<br/><br/>それは決って夜中で、四隣寝静まって寂（じゃく）として声なき頃、その阿亀が、寝ている主人の上へ跨（またが）って首を絞めるというのである。<br/><br/>時にはその人形を見ていると、ニヤニヤと笑う事さえあるという――まことに気味の悪い話である。<br/><br/>従って、転々と持主が代り、現在の持主は恐ろしがってある家に預けてあるから、そこへ来てくれ――というのである。<br/><br/>私の好奇心は勃然（ぼつぜん）と起った。<br/><br/>早速行ってみようと、深川の某所へ行った。<br/><br/>二階の一間に安置してあったが見るとなるほど、等身大の阿亀が十二単衣を着、檜扇（ひおうぎ）を片手に差上げての舞姿である。<br/><br/>勿論明治以前の作らしく相当古びているが、実に傑作で生けるがごとくである。<br/><br/>私はその前に端座し人形に憑依している霊に向って「私に憑ってくれろ」と言ったので、早速私に憑ったらしく、私は急に悲しい気持がしてならなかった。<br/><br/>帰宅後も悲しさが込み上げて泪さえ出るのである。<br/><br/>翌日Ｍ夫人を招んで、その憑霊に『Ｍ夫人に憑って、何故化けるのか、その事情をＭ夫人の口を借りて詳細語れ』と言ったのである。<br/><br/>早速Ｍ夫人は口を切った。<br/><br/>霊の物語は次のごときものである。<br/><br/> 「妾（わたし）は本名荒井サクと申し、今から四十年位前、京都にあったある妓楼の女郎をして居った者ですが、ついそこで主人との不純関係が出来たので、その妻君が非常に嫉妬を起し、私を苦しめたが、ついには主人も妾を嫌い出し、果は共々苦しめるようになり、私を虐待するので、妾もいっそ死のうと思い、近くの川に身を投げて自殺したのであります。<br/><br/>その後暫く地獄に居りましたが、地獄から抜け出し、どうかして怨みを晴らそうと意（おも）い元の妓楼へ行ってみると、夫妻共死歿して居ないので、妾は無念を晴らすに由なく悶々として居ったのです。<br/><br/>私も祀られては居ず、居る所が無いので、生前愛して居った阿亀の人形を、自分の居所として憑いていたので、人形は元、客から貰ったものであります。<br/><br/>そうして生前私は、京都の妻恋稲荷を信仰して居りましたので、怨みを晴らすのに手伝ってくれと頼みましたところ、稲荷の御本尊の弟狐と、その情婦である女狐が共同して、妾を援けてくれる事になりました。<br/><br/>しかし困る事には、当の仇の主人夫妻が居りませんので、つい人形の持主になる主人を目がけては怨みを晴らそうと、首を締めるような事をしたのです。<br/><br/>」――と泣きながら語るのである。<br/><br/>そこで私も大いに同情して祀ってやる事にしたが、狐が相当長くサクの霊に憑依しているので、それを離すのは仲々困難であった。<br/><br/>たとえていえば、私が荒井サクと問答をしているといつしか狐となり、又サクの霊となると言ように人獣同化霊の初期の状態をよく表わしているのであった。<br/><br/>しかし、私が根気よく狐霊を説得したので、遂に分離する事になったが、それについて狐霊は条件を付けたのである。<br/><br/>それは毎日私の家の軒下に、茶碗に半分位飯を入れて毎朝一ケ月の間置いてくれ――というのである。<br/><br/>私はその通りしてやり、荒井サクの霊を私の家へ祀ってやったので今でも祀り続けている。<br/><br/> 荒井サクの霊が憑る前は、Ｍ夫人の眼には見えるのである。<br/><br/>その時は 「今、サクさんが来ましたよ」というので 『どんな姿か』ときくと 「鼈甲（べっこう）の笄（こうがい）を沢山扠（さ）し、裲襠（うちかけ）を着て、隣へ座りました。<br/><br/>」と云うのである。<br/><br/> 又、こういう事があった。<br/><br/>私は友人に右の話をしたところ、自分も一度霊査をしてみたいというので、十人位の人を集めて心霊研究会のような事をした。<br/><br/>その時右の友人がＭ夫人に対し霊査法を行ったが、狐霊を侮辱するような言葉があったので狐霊は立腹した。<br/><br/>狐霊いわく 「へン、馬鹿にしなさんな。<br/><br/>これでも妾は元京都の紙園で、何々屋の何子といった売れっ子の姐さんでしたからね、その時の妾の粋な姿を見せて上げよう。<br/><br/>」 と云いながら、いきなり起って褄（つま）をとり、娜（しな）を作りながら、座敷中あちらこちらを歩くのである。<br/><br/>私は 『もうよい、判ったから座りなさい』と言って座らせ、覚醒さしたのである。<br/><br/>Ｍ夫人は霊憑中は、かような事まで全然知らないのであるから、実に良霊媒である。<br/><br/>覚醒するや私に向って―― 「今ここに狐が二匹居りますが、先生にお見えになりますか。<br/><br/>」 というのであるが、私は見えないといい、 『どんな狐か』と質（き）くと 「一方は黄色で、一方は白で、本当の狐位の大きさだ」――「ここに座っている」と云うかと思うと、「アッ狐は今人形の中へ入りました。<br/><br/>」と言う。<br/><br/>『人形のどこか』と質くと 「腹の中に二人キチンと座っていて、こちらを向いて笑っている」――というのである。<br/><br/>実に霊の作用なるものは、不思議とも何とも言えないものであると、つくづく私は思ったのである。<br/><br/> かくして、化人形は解決を告げたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

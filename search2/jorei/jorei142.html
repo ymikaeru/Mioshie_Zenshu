@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei142</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』142号、昭和27(1952)年2月6日発行 某月某日 今月に入ってから、産児調節の相談は、今日で三度うけたわけである。<br><br>その内訳は、信者になってから、まだ間のない人が二人。<br><br>一人は知りあいのお内儀さんである。<br><br> 何も私が、避妊や、産児調節という、変なことがらに通暁している訳でもないのに、何故、こんな事の意見を、求められるのだろう。<br><br> 私が相当な年輩で、人生の辛酸をつぶさに嘗め、浮世の苦労を、厭になる程、味わってきた上、少しお芽出度く出来ているのが、付け目で、こんな、つまらない話を持ち込むのには、丁度、手頃の男と、思われているに違いない。<br><br>つまらない話というのは、私の方のことで、さき様にしてみれば生涯の一大事であろうから、他人の私に相談しに来た、という事は、よくせき、思案に余ってであろう。<br><br>調節したい。<br><br>という信者の相談は「断じて相成らぬ」と、いう返事を予想して来ているふしがあるので、従って返答も楽だ。<br><br>即ち、宗教的な大義名分を説き、己れの欲望を慎しまずして、その結果に心を労する事の不可なることを云えば、それでこと足りる。<br><br> もともと、そうした不自然な行為が、良くない事を知っている人だけに、妊娠中絶は元より、避妊も不可なることは、贅言を要せずして、了解してくれる。<br><br>正に、一刀両断のおもむきであるが、家庭の事情を聞くと「気の毒だなあー」と、同情の念に駆られる。<br><br>同情の念が湧いてくると、私は大乗。<br><br>大乗と、呪文のように心の中で唱える。<br><br> 気の毒な、家庭の事情で中絶すれば、この一ときだけは、本人も、家人もホッとするであろうが、それが又宿業を生み、罪穢が積もり、無限の苦しみを重ねなければならないからだ。<br><br> 私が、生命の尊さを教えてくれた、世界救世教を知らず、まして、人間がこの世に誕生した。<br><br>という事は、両親の欲望の結果に依る偶然である。<br><br>などと、哀れむべき、浅はかな思想の虜になっていた時代なら、否も応もなく、賛成したであろう。<br><br>危い事である。<br><br>その当時の事を回想すると、正に冷汗ものである。<br><br> それにしても、日本の国に、産児制限の声が、公然と聞かれるように成ったのは、いつ頃の事であっただろうか。<br><br> サンガー夫人が来朝して産児制限を説き、当時石本男爵夫人であった、現在の社会党の加藤勘十氏の細君が、積極的にその運動を始めてからだった、と思うが、徳川時代には、間びくと称して、武家の二男、三男は生れると同時に圧殺した。<br><br>という。<br><br>禄高の少い足軽級の層では、生活が困難になるからであったろう。<br><br> そのような、惨酷な行いをした本人たちにも、必ず罪を犯した。<br><br>という意識はあったろう。<br><br>それが、今日では罪悪観を伴うことなく行われているだけに、恐ろしい事だ。<br><br>と思う。<br><br>新聞や雑誌に、産制の広告が無い日はなく、薬屋の店さきには、憶面もなく、薬や器具のポスターが帖られていていやでも応でも、それが目にふれる。<br><br>かくして、尊属殺人の大罪も、罪の観念を持つことなく、日常の茶飯事として、行われているのである。<br><br> 山羊髯生やした道学者ならずとも、見るに耐えない風潮である。<br><br> 戦時中は、生めよ、ふやせよの掛声で、実子殺しも表面的には声を潜めたようであったが、考えて見ればこれも随分、おかしな話である。<br><br>生れた許りの赤ん坊が、戦争に協力出来る筈もなく、軍閥政府が気合をかけたからとて、子宝に恵まれる訳でもなく、生れるのも、生れないのも、皆、因縁にある事なのだ。<br><br>この因縁を説き、生命の尊ぶべきを知らさなければ人類の真の幸福は招き得ない。<br><br>これを知らせるのは、宗教、それも霊の実在を教える、メシヤ教以外にはない。<br><br>と思うと私たちの任務は重く、責任は大きい。<br><br> 今日、相談に来たお内儀さんは、相談するまでもなく、掻爬するという決心を堅く持っていて、その決心は、もはや動かす事が出来ないように、見うけられた。<br><br>私に訊きに来たのは、その可否を問うのではなく手術の予後が思わしくなかったら、浄霊してくれるかとの虫のいい注文をし「浄霊で、おなかの子がおろせたら、宗教さまさまだけど」と笑って見せた。<br><br> この女の亭主は、人はいいが、大酒飲みで怠け者という、約束通りの職人で五人の子供があり「この上、生れたら親子もろ共、飢え死にだよ。<br><br>」と、窮状を訴えた。<br><br>もとより、神仏に手を合せた事のない夫婦。<br><br>御先祖の仏壇さえ無い有様である。<br><br>半年程まえに、子供の病気を治してやった事があったが、その時、神仏を敬うことを知らなければ、仕合せになれない。<br><br>と話をしたが、身を入れて、話をきこうともしない「死んだ仏様より、生きてる仏様の口の方が、先きでさぁー、旦那。<br><br>」と、傍から亭主が、口を入れたのを覚えている。<br><br> こう言う、低級な人種に授かった。<br><br>としかいえない懐胎の神秘や、現に、暗闇に葬られようとしている、おなかの胎児には、神の分霊が宿っている事や、それ故に尊い、生命の意義を説明しても、掻爬を思いとどまる相手ではない。<br><br>そう思いながらも、一応、話をした。<br><br>相手は、案の定、予期した通り、欠伸を噛み殺している。<br><br>「にんを見て法を説け」か、自分のお芽出度さに気が付いて、今度は、掻爬したために、つんぼになった人があった。<br><br>と話した。<br><br>この話は、てきめんに効き目があった。<br><br>その効き目の程は、手術のあと、具合が悪くも、浄霊はしてやらない、と答えたのと相俟って「もう一度、おとっさん。<br><br>と相談してみようかしら」と帰えって行った。<br><br> 後で思い当った事だが、こういう事をする人たちは女性に生れた宿命を、正しく理解している人が多 （ママ） い。<br><br>まして、子が授かる。<br><br>ということが、神意である。<br><br>なぞとは、思いもつかない。<br><br>そのほかに、罪悪観は勿論のこと、恥かしい。<br><br>という基本的な観念さえ、持っていなかったように思えた。<br><br> 羞恥の観念は、人間以外の動物にはなく、神様が、人間にだけ与えられたものだ。<br><br>恥を知ることによってはじめて道徳も、社会の秩序も保たれる。<br><br>羞恥心のない人間はただの動物でしかない。<br><br>羞恥を忘れた人間共を見て、もう、これまでだと、神様は仰せられているかも知れない。<br><br> 今の世の中は、何もかも滅茶苦茶である。<br><br>滅茶苦茶である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei</h2>
 <p><em>Por Kaiansei, extraído da revista Eikou nº 142, publicada em 6 de fevereiro de 1952.</em></p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Refletindo mais tarde, ocorreu-me que muitas pessoas que praticam tais atos não compreendem verdadeiramente o destino de ter nascido mulher. Nem sequer lhes passa pela cabeça que ser agraciada com um filho é a vontade de Deus. Além disso, parecia-me que lhes faltava não apenas o senso de pecado, mas até mesmo o sentimento fundamental de vergonha.</p>
 <p>O sentimento de vergonha não existe nos animais; é algo que Deus concedeu exclusivamente aos seres humanos. É somente pelo conhecimento da vergonha que a moral e a ordem social podem ser mantidas. Um ser humano sem vergonha não passa de um animal. Vendo essa humanidade que esqueceu o pudor, talvez Deus já esteja a dizer: "Até aqui, e não mais".</p>
 <p>O mundo de hoje está em completa desordem. Em completa desordem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』142号、昭和27(1952)年2月6日発行 某月某日 今月に入ってから、産児調節の相談は、今日で三度うけたわけである。<br/><br/>その内訳は、信者になってから、まだ間のない人が二人。<br/><br/>一人は知りあいのお内儀さんである。<br/><br/> 何も私が、避妊や、産児調節という、変なことがらに通暁している訳でもないのに、何故、こんな事の意見を、求められるのだろう。<br/><br/> 私が相当な年輩で、人生の辛酸をつぶさに嘗め、浮世の苦労を、厭になる程、味わってきた上、少しお芽出度く出来ているのが、付け目で、こんな、つまらない話を持ち込むのには、丁度、手頃の男と、思われているに違いない。<br/><br/>つまらない話というのは、私の方のことで、さき様にしてみれば生涯の一大事であろうから、他人の私に相談しに来た、という事は、よくせき、思案に余ってであろう。<br/><br/>調節したい。<br/><br/>という信者の相談は「断じて相成らぬ」と、いう返事を予想して来ているふしがあるので、従って返答も楽だ。<br/><br/>即ち、宗教的な大義名分を説き、己れの欲望を慎しまずして、その結果に心を労する事の不可なることを云えば、それでこと足りる。<br/><br/> もともと、そうした不自然な行為が、良くない事を知っている人だけに、妊娠中絶は元より、避妊も不可なることは、贅言を要せずして、了解してくれる。<br/><br/>正に、一刀両断のおもむきであるが、家庭の事情を聞くと「気の毒だなあー」と、同情の念に駆られる。<br/><br/>同情の念が湧いてくると、私は大乗。<br/><br/>大乗と、呪文のように心の中で唱える。<br/><br/> 気の毒な、家庭の事情で中絶すれば、この一ときだけは、本人も、家人もホッとするであろうが、それが又宿業を生み、罪穢が積もり、無限の苦しみを重ねなければならないからだ。<br/><br/> 私が、生命の尊さを教えてくれた、世界救世教を知らず、まして、人間がこの世に誕生した。<br/><br/>という事は、両親の欲望の結果に依る偶然である。<br/><br/>などと、哀れむべき、浅はかな思想の虜になっていた時代なら、否も応もなく、賛成したであろう。<br/><br/>危い事である。<br/><br/>その当時の事を回想すると、正に冷汗ものである。<br/><br/> それにしても、日本の国に、産児制限の声が、公然と聞かれるように成ったのは、いつ頃の事であっただろうか。<br/><br/> サンガー夫人が来朝して産児制限を説き、当時石本男爵夫人であった、現在の社会党の加藤勘十氏の細君が、積極的にその運動を始めてからだった、と思うが、徳川時代には、間びくと称して、武家の二男、三男は生れると同時に圧殺した。<br/><br/>という。<br/><br/>禄高の少い足軽級の層では、生活が困難になるからであったろう。<br/><br/> そのような、惨酷な行いをした本人たちにも、必ず罪を犯した。<br/><br/>という意識はあったろう。<br/><br/>それが、今日では罪悪観を伴うことなく行われているだけに、恐ろしい事だ。<br/><br/>と思う。<br/><br/>新聞や雑誌に、産制の広告が無い日はなく、薬屋の店さきには、憶面もなく、薬や器具のポスターが帖られていていやでも応でも、それが目にふれる。<br/><br/>かくして、尊属殺人の大罪も、罪の観念を持つことなく、日常の茶飯事として、行われているのである。<br/><br/> 山羊髯生やした道学者ならずとも、見るに耐えない風潮である。<br/><br/> 戦時中は、生めよ、ふやせよの掛声で、実子殺しも表面的には声を潜めたようであったが、考えて見ればこれも随分、おかしな話である。<br/><br/>生れた許りの赤ん坊が、戦争に協力出来る筈もなく、軍閥政府が気合をかけたからとて、子宝に恵まれる訳でもなく、生れるのも、生れないのも、皆、因縁にある事なのだ。<br/><br/>この因縁を説き、生命の尊ぶべきを知らさなければ人類の真の幸福は招き得ない。<br/><br/>これを知らせるのは、宗教、それも霊の実在を教える、メシヤ教以外にはない。<br/><br/>と思うと私たちの任務は重く、責任は大きい。<br/><br/> 今日、相談に来たお内儀さんは、相談するまでもなく、掻爬するという決心を堅く持っていて、その決心は、もはや動かす事が出来ないように、見うけられた。<br/><br/>私に訊きに来たのは、その可否を問うのではなく手術の予後が思わしくなかったら、浄霊してくれるかとの虫のいい注文をし「浄霊で、おなかの子がおろせたら、宗教さまさまだけど」と笑って見せた。<br/><br/> この女の亭主は、人はいいが、大酒飲みで怠け者という、約束通りの職人で五人の子供があり「この上、生れたら親子もろ共、飢え死にだよ。<br/><br/>」と、窮状を訴えた。<br/><br/>もとより、神仏に手を合せた事のない夫婦。<br/><br/>御先祖の仏壇さえ無い有様である。<br/><br/>半年程まえに、子供の病気を治してやった事があったが、その時、神仏を敬うことを知らなければ、仕合せになれない。<br/><br/>と話をしたが、身を入れて、話をきこうともしない「死んだ仏様より、生きてる仏様の口の方が、先きでさぁー、旦那。<br/><br/>」と、傍から亭主が、口を入れたのを覚えている。<br/><br/> こう言う、低級な人種に授かった。<br/><br/>としかいえない懐胎の神秘や、現に、暗闇に葬られようとしている、おなかの胎児には、神の分霊が宿っている事や、それ故に尊い、生命の意義を説明しても、掻爬を思いとどまる相手ではない。<br/><br/>そう思いながらも、一応、話をした。<br/><br/>相手は、案の定、予期した通り、欠伸を噛み殺している。<br/><br/>「にんを見て法を説け」か、自分のお芽出度さに気が付いて、今度は、掻爬したために、つんぼになった人があった。<br/><br/>と話した。<br/><br/>この話は、てきめんに効き目があった。<br/><br/>その効き目の程は、手術のあと、具合が悪くも、浄霊はしてやらない、と答えたのと相俟って「もう一度、おとっさん。<br/><br/>と相談してみようかしら」と帰えって行った。<br/><br/> 後で思い当った事だが、こういう事をする人たちは女性に生れた宿命を、正しく理解している人が多 （ママ） い。<br/><br/>まして、子が授かる。<br/><br/>ということが、神意である。<br/><br/>なぞとは、思いもつかない。<br/><br/>そのほかに、罪悪観は勿論のこと、恥かしい。<br/><br/>という基本的な観念さえ、持っていなかったように思えた。<br/><br/> 羞恥の観念は、人間以外の動物にはなく、神様が、人間にだけ与えられたものだ。<br/><br/>恥を知ることによってはじめて道徳も、社会の秩序も保たれる。<br/><br/>羞恥心のない人間はただの動物でしかない。<br/><br/>羞恥を忘れた人間共を見て、もう、これまでだと、神様は仰せられているかも知れない。<br/><br/> 今の世の中は、何もかも滅茶苦茶である。<br/><br/>滅茶苦茶である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

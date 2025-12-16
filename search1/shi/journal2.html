@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>journal2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ジャーナリストに愬（うった）う 『栄光』215号、昭和28(1953)年7月1日発行 去る六月四日の晩、ＮＨＫの社会の窓の放送を聴いて私は驚いた。<br><br>それは本教九州在住の信者に関した事であって、事実を歪（ゆが）めた捏造（ねつぞう）的放送で、今までにこんな例はなかったと思う程のもので、私は耳を疑ったくらいであった。<br><br>どう考えてもこの放送の企画は不可解であり、公平な見地からみて許さるべきではないと思うのである。<br><br>もちろんその放送振りたるやどう考えてみても本教を迷信邪教と思わせ、一般的注意を引こうとするとしか受取れない。<br><br>その内容は主人公である信者を狂信者と見て近所の付合いもせず、立派な船大工の腕をもちながら職業も放擲（ほうてき）し、信仰に夢中になっている結果生活も楽でないばかりか、今度のような災難に遭いながらも、未（いま）だ目が醒めないというのである。<br><br>その上ごていねいにも現地の警察署長に面会し、法規に触れる点はなきやをくどくどしく質問したのは、問題化そうとする肚（はら）としか思えない。<br><br>これに対し署長の答はまことに公平で、一つ一つ法規に触れる点のない事を納得させたような訳で、聴いていて快（ここちよ）かったのは私ばかりではあるまい。<br><br>このように厳正な司直の言に徴（ちょう）しても、何ら取上げる程の問題でないにかかわらず、全国放送にまで持ち上げたのは、解するに苦しむのである。<br><br>それがため真相を知らない一般聴取者を誤らせ、本教の信用を傷つけたのは実に遺憾で、全く放送犠牲者にされた訳である。<br><br> 言うまでもなく放送事業なるものは、公共的性質のもので、公平な上にも公平を期さねばならないにもかかわらず、問題の真相を碌々（ろくろく）調べもせずして放送に取上げるという無責任は、断じて赦（ゆる）さるべきではない。<br><br>もしこれが赦されるとしたら、吾々は到底安んずる事は出来ないと共に、今日多くの新興宗教に対しても、不安、恐怖、憤怒を与えるのは必然であるから、私はそれらを代表して、放送局の責任を問うのである。<br><br> ところが調査の結果事実は全然反対である。<br><br>元々本教の主旨とするところは常識を重んじ、世間的には交際を広くし、家業を励み、安心立命を得させるので、これを見聞した人々は大いに共鳴し、進んで信者となるので、このような家庭は日に月に増えつつある現状である。<br><br>何よりも本教信者となるや、今まで病人の絶えない家庭も全家族揃って健康となり、医薬との縁も切れ、勤務も仕事も休まなくなるから経済的には恵まれ、一歩一歩幸運に向うのである。<br><br>それらの感謝感激の礼状は常に机上（きじょう）山をなし、本教発行の週刊栄光紙上に載せきれない程で、嬉しい悲鳴を上げているのである。<br><br>また衆知のごとく本教は各地に大規模な地上天国、美術館、宗教的建造物等次々造営しつつあり、それに要する巨額な支出も必要だけは必ず集まるのである。<br><br>しかも本教は搾取（さくしゅ）を厳禁し、全部自発的献金であるから、信者の懐（ふところ）工合のいい事は想像出来ると共に、その原因こそ救われた人々の感謝感激の誠と収入の多いためであって、この事実にみても放送の誤りは分るであろう。<br><br> ここで科学と宗教についても少しかかして貰うが、現代は科学万能時代であるのは分り切った話で、科学が人類に寄与しつつある恩恵は、いかに高く評価しても差支えないが、さらばといって科学のみでは解決出来ない問題も多々ある事である。<br><br>それはもちろん精神面であるが、この精神面を救うのが宗教の役目である以上、昔から現代に至るまで、精神的喜びを与えた宗教の功績もまた見逃し得ないところである。<br><br>ところがこの方を閑却（かんきゃく）した現代人は余りに科学を信じすぎ、科学さえ進歩させれば何事も解決出来るとする観念が支配的となってしまったのである。<br><br>例えば病気にしても科学で治るものとしているが、事実は皮肉にも至るところ病人の氾濫に悩み、人間は病気の不安から解放されないのである。<br><br>右は一例だがこれでも分るごとく、現在文明のあり方は科学でも宗教でも解決出来ないというジレンマに陥った結果、懐疑に包まれているのが大部分であろう。<br><br> 次に新宗教に関していいたい事は、既成宗教は別とし、近来雨後の筍（たけのこ）のごとく簇出（ぞくしゅつ）する新宗教であるが、その中には随分感心出来ないものもある。<br><br>従ってこれを見る知識人は新宗教とさえいえば、玉石混淆（ぎょくせきこんこう）頭から蔑視する嫌いがある。<br><br>なるほど宗教によっては常識外れな狂言的非科学的で、吾々宗教人としても眉をひそめる事もしばしばあるくらいで、ジャーナリスト諸君がともすれば嘲弄（ちょうろう）的筆致を加えるのも当然である。<br><br>それがためたまたま本教のごとき真面目なものをも同一視し、文化の進歩を阻害する迷信として、これに打撃を与える事が文化の進歩に寄与すると思っているらしい。<br><br>しかも本教は現代医学の欠陥を暴露し、排斥し、宗教治病を建前としている以上、こんな非科学的迷信を鼓吹（こすい）する宗教は怪（け）しからんとし、機会あればやっつけてやろうとしている矢先、たまたま今回のごとき事に出会ったので、ソレッとばかり特種的大袈裟（おおげさ）に扱ったのであろう。<br><br>としたら本教こそ実にいい面（つら）の皮である。<br><br>それかあらぬか言葉の中にも、一種妙な感情が含まれていたのは誰も気付いたであろう。<br><br> ここで私の方の言い分をかいてみるが、まず一つの例として人間苦悩の根本は病である事は言うまでもないが、この病は現代科学では苦痛緩和は出来ても、病は治し得ないのである。<br><br>これは事実が示しているから言わないが、これに対し我救世教の治病力は医学の一に対し百といっても過言ではない程で、到底信ずる事は出来まいが、これこそ歴史にも文献にもない素晴しい力で、事実本教は現在あらゆる病を医（いや）し、健全なる家庭を大量に作りつつあるのである。<br><br>万一疑わしくば一度本教を調査検討してみれば直に判明するであろう。<br><br>本教が開教六年にして現在見るがごとく数十万の信徒を擁（よう）し、日に月に驚くべき発展と共に、海外においては布哇（ハワイ）を始め、米国にまでも教線の拡がりつつある現状をみれば分るであろう。<br><br> 以上のごとく本教は科学で治らぬ病気をドシドシ治すので、人は奇蹟として舌を捲（ま）くが、本教発展の理由もここにあるのである。<br><br>本教のモットーである病貧争絶無の世界を造るという大言壮語も、単なる御題目でない事が分るはずである。<br><br> 以上のごとき本教の真相を知らないがため、世間並の新宗教と同一に扱われ、今回のごとき放送禍を受けたのは、まことに遺憾といっていい。<br><br>以上によって世のジャーナリスト諸君に希（ねが）う事は、本教の真相を充分研究されん事で、それが一日早ければ早いだけ、多数の悩める人々が救われるからである。<br><br> (注) 簇出（そうしゅつ）、群がりでること。<br><br>（ぞくしゅつ）は（そうしゅつ）の慣用読み。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Apelo aos Jornalistas</h2>
 <p>Na noite do último dia 4 de junho, ao ouvir a transmissão do programa “A Janela da Sociedade”, da emissora NHK, fiquei estarrecido. O programa versava sobre um de nossos fiéis residente na região de Kyushu, mas o fez por meio de uma reportagem caluniosa e eivada de falsidades, que distorcia completamente os fatos. Creio que jamais presenciei algo semelhante; a tal ponto que cheguei a duvidar do que meus próprios ouvidos escutavam. Sob qualquer perspectiva, a concepção de tal programa é indecifrável e, de um ponto de vista imparcial, absolutamente intolerável.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Permitam-me agora expor nosso ponto de vista. Para citar um exemplo, a raiz do sofrimento humano é, inegavelmente, a doença. A ciência moderna, embora capaz de mitigar a dor, é incapaz de curar a doença em sua origem. Os fatos o demonstram. Em contrapartida, o poder de cura de nossa Igreja é, sem exagero, cem vezes superior ao da medicina. Talvez pareça inacreditável, mas trata-se de um poder magnífico, sem precedentes nos anais da história ou da literatura. Atualmente, nossa Igreja está curando toda sorte de enfermidades e formando, em grande escala, famílias plenamente saudáveis. Se porventura duvidam, convido-os a investigar nossa instituição, e a verdade se revelará prontamente. Basta observar que, em apenas seis anos desde sua fundação, nossa Igreja já congrega centenas de milhares de fiéis, experimenta um desenvolvimento assombroso e expande sua linha missionária para o exterior, chegando ao Havaí e aos Estados Unidos.</p>
 <p>Como exposto, nossa Igreja cura enfermidades que a ciência considera incuráveis, e as pessoas, maravilhadas, referem-se a tais feitos como milagres. Reside aí o segredo de nossa expansão. O nosso lema de construir um mundo isento de doença, pobreza e conflito, que poderia soar como uma grandiloquente declaração, não é, como se pode ver, uma mera palavra de ordem.</p>
 <p>É verdadeiramente deplorável que, pelo desconhecimento da verdade sobre nossa Igreja, tenhamos sido tratados como uma nova religião qualquer e, por isso, vítimas desta calamidade radiofônica. Nesse sentido, o que rogo aos jornalistas de todo o mundo é que se dediquem a pesquisar a fundo a realidade de nossa Igreja. Quanto mais cedo o fizerem, mais rapidamente um número incontável de pessoas em sofrimento poderá encontrar a salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ジャーナリストに愬（うった）う 『栄光』215号、昭和28(1953)年7月1日発行 去る六月四日の晩、ＮＨＫの社会の窓の放送を聴いて私は驚いた。<br/><br/>それは本教九州在住の信者に関した事であって、事実を歪（ゆが）めた捏造（ねつぞう）的放送で、今までにこんな例はなかったと思う程のもので、私は耳を疑ったくらいであった。<br/><br/>どう考えてもこの放送の企画は不可解であり、公平な見地からみて許さるべきではないと思うのである。<br/><br/>もちろんその放送振りたるやどう考えてみても本教を迷信邪教と思わせ、一般的注意を引こうとするとしか受取れない。<br/><br/>その内容は主人公である信者を狂信者と見て近所の付合いもせず、立派な船大工の腕をもちながら職業も放擲（ほうてき）し、信仰に夢中になっている結果生活も楽でないばかりか、今度のような災難に遭いながらも、未（いま）だ目が醒めないというのである。<br/><br/>その上ごていねいにも現地の警察署長に面会し、法規に触れる点はなきやをくどくどしく質問したのは、問題化そうとする肚（はら）としか思えない。<br/><br/>これに対し署長の答はまことに公平で、一つ一つ法規に触れる点のない事を納得させたような訳で、聴いていて快（ここちよ）かったのは私ばかりではあるまい。<br/><br/>このように厳正な司直の言に徴（ちょう）しても、何ら取上げる程の問題でないにかかわらず、全国放送にまで持ち上げたのは、解するに苦しむのである。<br/><br/>それがため真相を知らない一般聴取者を誤らせ、本教の信用を傷つけたのは実に遺憾で、全く放送犠牲者にされた訳である。<br/><br/> 言うまでもなく放送事業なるものは、公共的性質のもので、公平な上にも公平を期さねばならないにもかかわらず、問題の真相を碌々（ろくろく）調べもせずして放送に取上げるという無責任は、断じて赦（ゆる）さるべきではない。<br/><br/>もしこれが赦されるとしたら、吾々は到底安んずる事は出来ないと共に、今日多くの新興宗教に対しても、不安、恐怖、憤怒を与えるのは必然であるから、私はそれらを代表して、放送局の責任を問うのである。<br/><br/> ところが調査の結果事実は全然反対である。<br/><br/>元々本教の主旨とするところは常識を重んじ、世間的には交際を広くし、家業を励み、安心立命を得させるので、これを見聞した人々は大いに共鳴し、進んで信者となるので、このような家庭は日に月に増えつつある現状である。<br/><br/>何よりも本教信者となるや、今まで病人の絶えない家庭も全家族揃って健康となり、医薬との縁も切れ、勤務も仕事も休まなくなるから経済的には恵まれ、一歩一歩幸運に向うのである。<br/><br/>それらの感謝感激の礼状は常に机上（きじょう）山をなし、本教発行の週刊栄光紙上に載せきれない程で、嬉しい悲鳴を上げているのである。<br/><br/>また衆知のごとく本教は各地に大規模な地上天国、美術館、宗教的建造物等次々造営しつつあり、それに要する巨額な支出も必要だけは必ず集まるのである。<br/><br/>しかも本教は搾取（さくしゅ）を厳禁し、全部自発的献金であるから、信者の懐（ふところ）工合のいい事は想像出来ると共に、その原因こそ救われた人々の感謝感激の誠と収入の多いためであって、この事実にみても放送の誤りは分るであろう。<br/><br/> ここで科学と宗教についても少しかかして貰うが、現代は科学万能時代であるのは分り切った話で、科学が人類に寄与しつつある恩恵は、いかに高く評価しても差支えないが、さらばといって科学のみでは解決出来ない問題も多々ある事である。<br/><br/>それはもちろん精神面であるが、この精神面を救うのが宗教の役目である以上、昔から現代に至るまで、精神的喜びを与えた宗教の功績もまた見逃し得ないところである。<br/><br/>ところがこの方を閑却（かんきゃく）した現代人は余りに科学を信じすぎ、科学さえ進歩させれば何事も解決出来るとする観念が支配的となってしまったのである。<br/><br/>例えば病気にしても科学で治るものとしているが、事実は皮肉にも至るところ病人の氾濫に悩み、人間は病気の不安から解放されないのである。<br/><br/>右は一例だがこれでも分るごとく、現在文明のあり方は科学でも宗教でも解決出来ないというジレンマに陥った結果、懐疑に包まれているのが大部分であろう。<br/><br/> 次に新宗教に関していいたい事は、既成宗教は別とし、近来雨後の筍（たけのこ）のごとく簇出（ぞくしゅつ）する新宗教であるが、その中には随分感心出来ないものもある。<br/><br/>従ってこれを見る知識人は新宗教とさえいえば、玉石混淆（ぎょくせきこんこう）頭から蔑視する嫌いがある。<br/><br/>なるほど宗教によっては常識外れな狂言的非科学的で、吾々宗教人としても眉をひそめる事もしばしばあるくらいで、ジャーナリスト諸君がともすれば嘲弄（ちょうろう）的筆致を加えるのも当然である。<br/><br/>それがためたまたま本教のごとき真面目なものをも同一視し、文化の進歩を阻害する迷信として、これに打撃を与える事が文化の進歩に寄与すると思っているらしい。<br/><br/>しかも本教は現代医学の欠陥を暴露し、排斥し、宗教治病を建前としている以上、こんな非科学的迷信を鼓吹（こすい）する宗教は怪（け）しからんとし、機会あればやっつけてやろうとしている矢先、たまたま今回のごとき事に出会ったので、ソレッとばかり特種的大袈裟（おおげさ）に扱ったのであろう。<br/><br/>としたら本教こそ実にいい面（つら）の皮である。<br/><br/>それかあらぬか言葉の中にも、一種妙な感情が含まれていたのは誰も気付いたであろう。<br/><br/> ここで私の方の言い分をかいてみるが、まず一つの例として人間苦悩の根本は病である事は言うまでもないが、この病は現代科学では苦痛緩和は出来ても、病は治し得ないのである。<br/><br/>これは事実が示しているから言わないが、これに対し我救世教の治病力は医学の一に対し百といっても過言ではない程で、到底信ずる事は出来まいが、これこそ歴史にも文献にもない素晴しい力で、事実本教は現在あらゆる病を医（いや）し、健全なる家庭を大量に作りつつあるのである。<br/><br/>万一疑わしくば一度本教を調査検討してみれば直に判明するであろう。<br/><br/>本教が開教六年にして現在見るがごとく数十万の信徒を擁（よう）し、日に月に驚くべき発展と共に、海外においては布哇（ハワイ）を始め、米国にまでも教線の拡がりつつある現状をみれば分るであろう。<br/><br/> 以上のごとく本教は科学で治らぬ病気をドシドシ治すので、人は奇蹟として舌を捲（ま）くが、本教発展の理由もここにあるのである。<br/><br/>本教のモットーである病貧争絶無の世界を造るという大言壮語も、単なる御題目でない事が分るはずである。<br/><br/> 以上のごとき本教の真相を知らないがため、世間並の新宗教と同一に扱われ、今回のごとき放送禍を受けたのは、まことに遺憾といっていい。<br/><br/>以上によって世のジャーナリスト諸君に希（ねが）う事は、本教の真相を充分研究されん事で、それが一日早ければ早いだけ、多数の悩める人々が救われるからである。<br/><br/> (注) 簇出（そうしゅつ）、群がりでること。<br/><br/>（ぞくしゅつ）は（そうしゅつ）の慣用読み。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gyakukou</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 逆効果の説 『栄光』124号、昭和26(1951)年10月3日発行 どうも世の中の人をみると、骨折ってやったり、いいとしてやった事が、思うような結果が得られないのは、全く逆効果という事を知らないからで、言い換えれば理外の理を弁（わきま）えないからでもある、今これを説明してみるが、これを読んでこの理屈が分るとしたら、案外に得をする場合があろう、まずそれについての例を挙げてみるが、信者中の先生格になっている人達などによくある事だが、自分の値打をより高く見せようとし、偉く思われようとする考えがあると、人から見て肚の中が見え透き、反って偉く見えなくなるものである、だからどこまでも控え目な態度で、下座に満足するような人は、反って偉く見えるものである、また自分の手柄話をしたがる人もあるが、これも聞きいいものではなく、聴く人は苦々（にがにが）しく思うもので、また衒（てら）う事もいけない、ただ事実ありのままを言うのが、一番好感を持たれるし、何事も内輪に話をする方が、奥床しく見られるものである、また人を世話する場合なども、恩に着せるような言い方は慎むべきで、反って有難味が薄くなるものである。<br><br> 右はホンの一部分の話であるが、何事にも逆効果があるから、よくその点を考えてやると案外結果がよいものである、いつかも私は会いたくない人が、度々人を介して言って来るので、仕方なし会ってやったところ、その人はいわく「メシヤ教とはどういう神様ですか」と訊（き）くから、私は一向分らないというと、今度は「明主様は世の中の先の事は、何でもお判りになるでしょう」というから、私は神様でないから、サッパリ判らないと言ったところ、失望したとみえ、それっきり来なくなった、またこちらは買いたいし、先方は売りたい土地などあった場合、訊いてみるとつけ込んで高い事をいうので、しばらく放っとくと、先方が気を揉（も）んで訊きに来る、すると私の方は、もう要らなくなったというと、先方は本当にして、非常に安くするのである、以前私を騙して金を出させようとする人が随分来たものだが、そういう時先方が言わない先に私の方から金に苦しんでいるので、どこか金を貸すところはないかと訊いてやると、先方は黙って帰ってしまったものだ、またこの人は将来役に立つと思うと、私はワザと冷淡にする事がある、するとその人は反って一生懸命に、いい仕事をするので、こういう人こそ立派な人として、重く用いるようにする、まだまだ色々あるが、この逆効果という事を心得ておくと、大いに役立つものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio do Efeito Contrário</h2>
 <p>Ao observar o comportamento humano, percebo que, frequentemente, os maiores esforços não produzem os resultados almejados. Isso ocorre porque as pessoas desconhecem por completo o princípio do efeito contrário; em outras palavras, elas não compreendem a lógica que transcende a lógica convencional. Explicarei este princípio, e aqueles que o assimilarem poderão, surpreendentemente, obter grandes benefícios em suas vidas.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O que mencionei é apenas uma pequena faceta da questão. O princípio do efeito contrário manifesta-se em todas as áreas, e compreendê-lo pode trazer resultados notáveis. Certa vez, uma pessoa que eu preferia não encontrar insistiu tanto, por meio de intermediários, que me vi obrigado a recebê-la. Durante a conversa, ela me questionou: "Que tipo de Deus a Igreja Messiânica cultua?". Respondi-lhe que não fazia a menor ideia. Em seguida, inquiriu: "Mas Meishu-Sama, o senhor certamente conhece tudo sobre o futuro, não é?". Retruquei que, não sendo Deus, nada sabia a respeito. A pessoa, visivelmente desapontada, retirou-se e nunca mais retornou.</p>
 <p>Em outra ocasião, havia um terreno que desejávamos adquirir e cujo proprietário também tinha interesse em vender. Ao sondarmos o preço, contudo, ele tentou se aproveitar da situação e pediu um valor exorbitante. Decidi, então, deixar o assunto de lado por um tempo. Não demorou para que o próprio vendedor, ansioso, viesse nos procurar. Nesse momento, afirmei que já não tinha mais interesse no terreno. Crendo em minhas palavras, ele prontamente nos ofereceu a propriedade por um preço extremamente baixo. Antigamente, fui procurado por muitos indivíduos que intentavam aplicar-me golpes e extrair dinheiro. Em tais situações, antes mesmo que pudessem expor seus estratagemas, eu me adiantava e lhes perguntava se, por acaso, conheceriam alguém que pudesse me conceder um empréstimo, pois eu mesmo estava em grandes dificuldades financeiras. Diante disso, eles simplesmente se calavam e iam embora.</p>
 <p>Há casos, ainda, em que reconheço o potencial de uma pessoa para se tornar útil no futuro. Nesses momentos, eu propositalmente a trato com certa frieza. Em resposta, ela se dedica ainda mais e realiza um trabalho excelente. É precisamente esse tipo de pessoa, de caráter notável, que eu valorizo e a quem confio posições de grande responsabilidade. Existem inúmeros outros exemplos, mas o ponto central é que compreender e saber aplicar o princípio do efeito contrário é uma ferramenta de grande valia na vida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 逆効果の説 『栄光』124号、昭和26(1951)年10月3日発行 どうも世の中の人をみると、骨折ってやったり、いいとしてやった事が、思うような結果が得られないのは、全く逆効果という事を知らないからで、言い換えれば理外の理を弁（わきま）えないからでもある、今これを説明してみるが、これを読んでこの理屈が分るとしたら、案外に得をする場合があろう、まずそれについての例を挙げてみるが、信者中の先生格になっている人達などによくある事だが、自分の値打をより高く見せようとし、偉く思われようとする考えがあると、人から見て肚の中が見え透き、反って偉く見えなくなるものである、だからどこまでも控え目な態度で、下座に満足するような人は、反って偉く見えるものである、また自分の手柄話をしたがる人もあるが、これも聞きいいものではなく、聴く人は苦々（にがにが）しく思うもので、また衒（てら）う事もいけない、ただ事実ありのままを言うのが、一番好感を持たれるし、何事も内輪に話をする方が、奥床しく見られるものである、また人を世話する場合なども、恩に着せるような言い方は慎むべきで、反って有難味が薄くなるものである。<br/><br/> 右はホンの一部分の話であるが、何事にも逆効果があるから、よくその点を考えてやると案外結果がよいものである、いつかも私は会いたくない人が、度々人を介して言って来るので、仕方なし会ってやったところ、その人はいわく「メシヤ教とはどういう神様ですか」と訊（き）くから、私は一向分らないというと、今度は「明主様は世の中の先の事は、何でもお判りになるでしょう」というから、私は神様でないから、サッパリ判らないと言ったところ、失望したとみえ、それっきり来なくなった、またこちらは買いたいし、先方は売りたい土地などあった場合、訊いてみるとつけ込んで高い事をいうので、しばらく放っとくと、先方が気を揉（も）んで訊きに来る、すると私の方は、もう要らなくなったというと、先方は本当にして、非常に安くするのである、以前私を騙して金を出させようとする人が随分来たものだが、そういう時先方が言わない先に私の方から金に苦しんでいるので、どこか金を貸すところはないかと訊いてやると、先方は黙って帰ってしまったものだ、またこの人は将来役に立つと思うと、私はワザと冷淡にする事がある、するとその人は反って一生懸命に、いい仕事をするので、こういう人こそ立派な人として、重く用いるようにする、まだまだ色々あるが、この逆効果という事を心得ておくと、大いに役立つものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

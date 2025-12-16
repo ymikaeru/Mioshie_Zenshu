@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhujito2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治とされている動脈硬化症を救われて 『アメリカを救う』昭和28(1953)年1月1日発行 静岡県 英祥中教会 中村勘一郎 救われた喜びに拙筆も顧みず明主様に御礼申し上げます。<br><br>私は○○楽器会社に長年勤務しておりましたが、昨年仕事最中急に眼が廻り、それから次第にその回数が増え会社の経営しております病院に参りましたところ「動脈硬化症」の由にて安静を旨とし休暇療養に努め、毎日が通院治療に変ってしまいました。<br><br>その間注射、服薬を随分続けておりましたが一向よくなりませんでした。<br><br>そして、三、四カ月は瞬く間に過ぎてしまいましたが、会社経営の病院の事とて経済的には直接何の苦痛もありませんが働けない淋しさと毎夜不眠が続き、次第に不眠症となって参りました。<br><br>その苦悩は言い知れないもので、何とかして早く治り出勤したいと思い、それは医師の言を忠実に守る事と考え、言われるままに実行専念致しました。<br><br> しかし結果はその逆で、日毎に不眠症はつのり、ちょっとの仕事をしても目眩がして来るのでした。<br><br>このようにしておりましても会社では給料を下さり、毎月それだけは通院帰りに戴いておりました。<br><br>けれども働かない者を、そして世に何等の貢献なき者を神様はいつまでもそのままには許されなかったのでしょう。<br><br>この時会社は医者に私の病状を聞き、医者いわく「動脈硬化症で治る見込はないが、今しばらく様子を見よう」と言われたため整理予定者となって一時はそのままになっていた様子でした。<br><br> それを知ってか知らずか有難いものである月の給料を戴き、帰りに同じ会社の鈴木康友様が「長く休んでおるようだがいかがです……そういう状態でしたら……私は救世教に入信しておるのですが何とかなると思います」と親切に申して下さいましたので、私もその心に感謝し御願いして帰りましたところ、翌日私宅を訪れ種々御話し下さいまして御浄霊戴き、翌々日教会に連れて行って戴き、教会の先生に御願いしたところ、先生は延髄、首、肩、背中と悪いところを一々指摘され、御浄霊を終ってから精しく御話し下さいまして「この分でしたら必ず治りましょう」と力強く申され、何かと気強く感じました。<br><br> しかし帰ってから、あんな事をして果して治るのだろうか？ 薬の悪い事が大体分り、思い切ってやめてしまったものの、大丈夫だろうか？ と不安が生じて来ました。<br><br> 翌日は教会に行くのをやめてしまい二、三日茫然としておりましたところ、又も親切な鈴木様が見えられ、 鈴木「教会で御浄霊して戴いた時どんな気持でした、大変気持がよかったんですか」 私「気持はとてもよくて今までにない気分でした」 鈴木「でしたらなぜ続けてやって戴かなかったんです。<br><br>今まで医者に何回も治療を受けながら、この間のような気分になれた事がなかったという事と比較して、浄霊すればよくなるという事が解るでしょう」 私「それはそうですが、掌をこうしてやっただけで果して治りますかねー。<br><br>それに会社にも病院に通っておらないと工合が悪いし、毎月診断書を提出しないと給料の方がうまくないので、その方の関係もあって考え、あれから未だ教会にも行っておらないのです」 鈴木「そうですか、そういう訳でしたか。<br><br>無理もありません。<br><br> そう思われるのも当然ですね。<br><br>私にしても会社に勤務している以上、会社の言う事も聞かなくてはならないしねー」 私「大丈夫でしょうか、両道かけたような工合でそれで神様から御守護戴けましょうか」 鈴木「だって今としてはそれだけはどうする事も出来ないのですから、神様はある期間その状態を許されるかも分りません。<br><br>とにかく今一回先生に相談して見ようではないですか」 私「それが心配だったものでしてねー。<br><br>つい教会に行く事が心苦しく感じたので嘘を言ってしまった様な結果でした。<br><br>では今から又行って聞いて戴けましょうか、ハハハハ……」 鈴木「そうでしたか、それでねー。<br><br>何だ案外気が小さいんだね。<br><br>私より年は多くても、ハハハハ」 と会話は非常にほぐれたものに変って行きました。<br><br>そして又早速教会に行き、先生に伺いましたところ、神様は自由無碍のお働きをなされる事等を話され、「それが悪いと人間で決める事も出来ないので、ある事柄を決定づけてやる事は危険である」と話され、「それは神様に御願いし、もし許されるなら御守護戴くし、間違っていれば御守護は無いと思いますから、人間としてこれでよいと思った時はとにかく御願いして御浄霊を続けてみる事です」と申されましたので、現在はそれによるの外ないので、それから毎日御浄霊を御願い致しましたところ、その度毎に眼から涙が多量に流れ出し、ハンカチで何回も拭わなければならない程でした。<br><br> 毒結が延髄に多量固結していたために不眠症となり、また目眩が起った事を聞かされ、日毎に快方に向いました時はほんとに嬉しくなりました。<br><br>それから一週間程してからと思います。<br><br>先生が「中村さん何か病気して医者にかかった事があるでしょう。<br><br>こんなに多くあるようですから」と言われましたが、その時は思い出しませんでしたが、ずっと以前梯子から落ちてひどく後頭部と背中を打ち死にかけた事がありましたが、その時は医者にちょっとかかっただけでした事を話しましたところ「その打撲個所に内出血したのが固っていたのと、体の毒が集溜固結していたのが浄化作用が起ったのかも知れない」と申されましたが、考えて見ればその打った個所が悪い個所と一致しておりました。<br><br> これより次第に私の不眠症は解消し、この頃は仕事を致しましても何ともございません。<br><br>あの時鈴木様が二回目に訪ねて下さらなかったら、まだまだ苦しんでいなければならなかったのに……御浄霊頂けなかったらどんなになったかと考えます時、明主様の御救いを感謝せずにはいられません。<br><br>又御導き下さった鈴木様に御礼の言葉もありません。<br><br>その後すっきりして自分では何ともありませんので例のように医者に行き、自分の状態を話し、仕事が出来ますからそのよう診断書を出して戴くべく依頼致しましたところ「動脈硬化症は治らない事になっているから、たとえそのようであっても治ったのでは無いから出す訳に行かない。<br><br>もし出勤して起った時は私の責任になるし、会社としても困るから」と診断書を書いてくれませんでした。<br><br>現に私はどんな仕事も出来るのですが、実に情なく、この時から医学に対し憤激を感じました。<br><br>私は、よし自分と同じ苦しみを味わっているものがあるであろうから、その人達を救ってあげなければならない、と御守様を戴き、入信さして戴いた次第でございます。<br><br> そして二カ月後会社から話があり、行って見ますと、「貴方は動脈硬化症で医者は絶対治らないと言っているし、それに停年もあと一年というところだから、この年度末に整理の中に入ったらどうでしょう。<br><br>それに入れば普通の場合より退職金も率がよいから」と申されたのでした。<br><br> しかし私は「現在何をしても何ともないのですから働かして戴きたい」と申しますと、「でも医者が治る見込が無いと言うから出て戴いてもしもの事があった時困るから」と遂にそれを理由として整理者の中に入れられてしまいました。<br><br> しかし私は生命を救われ、今までの大変な誤りを知り、人を救う道に精進せよとの大神様の御教えと考え、むしろ自由の身をもって新な希望に燃え、新な人生の転換を計って戴きました事を想います時、ひたすら感謝感激に満つるのでございます。<br><br>何卒この上は一人でも多くお救いさして戴けますよう、御守護の程御願い申し上げますと共に、厚く御礼申し上げる次第で御座います。<br><br> （昭和二十七年五月十六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura da Arteriosclerose, Considerada Incurável</h2>
 <p><strong>Publicado na Coletânea “Salvar a América” – 1º de janeiro de 1953</strong>
@@ -120,5 +275,48 @@ function toggleLang(lang) {
 <p>Todavia, minha vida foi salva, compreendi os graves erros que cometia no passado e interpretei o ocorrido como um Ensinamento do Supremo Deus para que eu me dedicasse ao caminho da salvação do próximo. Ao pensar que me foi concedida a oportunidade de uma nova vida, sinto-me, ao contrário, um homem livre, ardendo em nova esperança. Meu coração transborda de pura gratidão e emoção.</p>
 <p>Rogo que, de agora em diante, eu receba Sua proteção para poder salvar o maior número possível de pessoas e, mais uma vez, expresso meu mais profundo agradecimento.</p>
 <p>(16 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治とされている動脈硬化症を救われて 『アメリカを救う』昭和28(1953)年1月1日発行 静岡県 英祥中教会 中村勘一郎 救われた喜びに拙筆も顧みず明主様に御礼申し上げます。<br/><br/>私は○○楽器会社に長年勤務しておりましたが、昨年仕事最中急に眼が廻り、それから次第にその回数が増え会社の経営しております病院に参りましたところ「動脈硬化症」の由にて安静を旨とし休暇療養に努め、毎日が通院治療に変ってしまいました。<br/><br/>その間注射、服薬を随分続けておりましたが一向よくなりませんでした。<br/><br/>そして、三、四カ月は瞬く間に過ぎてしまいましたが、会社経営の病院の事とて経済的には直接何の苦痛もありませんが働けない淋しさと毎夜不眠が続き、次第に不眠症となって参りました。<br/><br/>その苦悩は言い知れないもので、何とかして早く治り出勤したいと思い、それは医師の言を忠実に守る事と考え、言われるままに実行専念致しました。<br/><br/> しかし結果はその逆で、日毎に不眠症はつのり、ちょっとの仕事をしても目眩がして来るのでした。<br/><br/>このようにしておりましても会社では給料を下さり、毎月それだけは通院帰りに戴いておりました。<br/><br/>けれども働かない者を、そして世に何等の貢献なき者を神様はいつまでもそのままには許されなかったのでしょう。<br/><br/>この時会社は医者に私の病状を聞き、医者いわく「動脈硬化症で治る見込はないが、今しばらく様子を見よう」と言われたため整理予定者となって一時はそのままになっていた様子でした。<br/><br/> それを知ってか知らずか有難いものである月の給料を戴き、帰りに同じ会社の鈴木康友様が「長く休んでおるようだがいかがです……そういう状態でしたら……私は救世教に入信しておるのですが何とかなると思います」と親切に申して下さいましたので、私もその心に感謝し御願いして帰りましたところ、翌日私宅を訪れ種々御話し下さいまして御浄霊戴き、翌々日教会に連れて行って戴き、教会の先生に御願いしたところ、先生は延髄、首、肩、背中と悪いところを一々指摘され、御浄霊を終ってから精しく御話し下さいまして「この分でしたら必ず治りましょう」と力強く申され、何かと気強く感じました。<br/><br/> しかし帰ってから、あんな事をして果して治るのだろうか？ 薬の悪い事が大体分り、思い切ってやめてしまったものの、大丈夫だろうか？ と不安が生じて来ました。<br/><br/> 翌日は教会に行くのをやめてしまい二、三日茫然としておりましたところ、又も親切な鈴木様が見えられ、 鈴木「教会で御浄霊して戴いた時どんな気持でした、大変気持がよかったんですか」 私「気持はとてもよくて今までにない気分でした」 鈴木「でしたらなぜ続けてやって戴かなかったんです。<br/><br/>今まで医者に何回も治療を受けながら、この間のような気分になれた事がなかったという事と比較して、浄霊すればよくなるという事が解るでしょう」 私「それはそうですが、掌をこうしてやっただけで果して治りますかねー。<br/><br/>それに会社にも病院に通っておらないと工合が悪いし、毎月診断書を提出しないと給料の方がうまくないので、その方の関係もあって考え、あれから未だ教会にも行っておらないのです」 鈴木「そうですか、そういう訳でしたか。<br/><br/>無理もありません。<br/><br/> そう思われるのも当然ですね。<br/><br/>私にしても会社に勤務している以上、会社の言う事も聞かなくてはならないしねー」 私「大丈夫でしょうか、両道かけたような工合でそれで神様から御守護戴けましょうか」 鈴木「だって今としてはそれだけはどうする事も出来ないのですから、神様はある期間その状態を許されるかも分りません。<br/><br/>とにかく今一回先生に相談して見ようではないですか」 私「それが心配だったものでしてねー。<br/><br/>つい教会に行く事が心苦しく感じたので嘘を言ってしまった様な結果でした。<br/><br/>では今から又行って聞いて戴けましょうか、ハハハハ……」 鈴木「そうでしたか、それでねー。<br/><br/>何だ案外気が小さいんだね。<br/><br/>私より年は多くても、ハハハハ」 と会話は非常にほぐれたものに変って行きました。<br/><br/>そして又早速教会に行き、先生に伺いましたところ、神様は自由無碍のお働きをなされる事等を話され、「それが悪いと人間で決める事も出来ないので、ある事柄を決定づけてやる事は危険である」と話され、「それは神様に御願いし、もし許されるなら御守護戴くし、間違っていれば御守護は無いと思いますから、人間としてこれでよいと思った時はとにかく御願いして御浄霊を続けてみる事です」と申されましたので、現在はそれによるの外ないので、それから毎日御浄霊を御願い致しましたところ、その度毎に眼から涙が多量に流れ出し、ハンカチで何回も拭わなければならない程でした。<br/><br/> 毒結が延髄に多量固結していたために不眠症となり、また目眩が起った事を聞かされ、日毎に快方に向いました時はほんとに嬉しくなりました。<br/><br/>それから一週間程してからと思います。<br/><br/>先生が「中村さん何か病気して医者にかかった事があるでしょう。<br/><br/>こんなに多くあるようですから」と言われましたが、その時は思い出しませんでしたが、ずっと以前梯子から落ちてひどく後頭部と背中を打ち死にかけた事がありましたが、その時は医者にちょっとかかっただけでした事を話しましたところ「その打撲個所に内出血したのが固っていたのと、体の毒が集溜固結していたのが浄化作用が起ったのかも知れない」と申されましたが、考えて見ればその打った個所が悪い個所と一致しておりました。<br/><br/> これより次第に私の不眠症は解消し、この頃は仕事を致しましても何ともございません。<br/><br/>あの時鈴木様が二回目に訪ねて下さらなかったら、まだまだ苦しんでいなければならなかったのに……御浄霊頂けなかったらどんなになったかと考えます時、明主様の御救いを感謝せずにはいられません。<br/><br/>又御導き下さった鈴木様に御礼の言葉もありません。<br/><br/>その後すっきりして自分では何ともありませんので例のように医者に行き、自分の状態を話し、仕事が出来ますからそのよう診断書を出して戴くべく依頼致しましたところ「動脈硬化症は治らない事になっているから、たとえそのようであっても治ったのでは無いから出す訳に行かない。<br/><br/>もし出勤して起った時は私の責任になるし、会社としても困るから」と診断書を書いてくれませんでした。<br/><br/>現に私はどんな仕事も出来るのですが、実に情なく、この時から医学に対し憤激を感じました。<br/><br/>私は、よし自分と同じ苦しみを味わっているものがあるであろうから、その人達を救ってあげなければならない、と御守様を戴き、入信さして戴いた次第でございます。<br/><br/> そして二カ月後会社から話があり、行って見ますと、「貴方は動脈硬化症で医者は絶対治らないと言っているし、それに停年もあと一年というところだから、この年度末に整理の中に入ったらどうでしょう。<br/><br/>それに入れば普通の場合より退職金も率がよいから」と申されたのでした。<br/><br/> しかし私は「現在何をしても何ともないのですから働かして戴きたい」と申しますと、「でも医者が治る見込が無いと言うから出て戴いてもしもの事があった時困るから」と遂にそれを理由として整理者の中に入れられてしまいました。<br/><br/> しかし私は生命を救われ、今までの大変な誤りを知り、人を救う道に精進せよとの大神様の御教えと考え、むしろ自由の身をもって新な希望に燃え、新な人生の転換を計って戴きました事を想います時、ひたすら感謝感激に満つるのでございます。<br/><br/>何卒この上は一人でも多くお救いさして戴けますよう、御守護の程御願い申し上げますと共に、厚く御礼申し上げる次第で御座います。<br/><br/> （昭和二十七年五月十六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qidai02</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 偉大なる御力 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 福岡県 日本五六七教南光会小谷教導所 村上スミ子（27） 昭和二十一年十月以来、三井社厚生課に勤務して多忙な生活を続けて参りました。<br><br>賃金が安いので残業等で生活を補っておりましたがそんな無理が長く続く訳はありません、遂に私は身体にも行詰りを生じて参りました。<br><br> 昭和二十二年十月終り頃風邪を引き、「なに風邪位」と放っておきましたがどうしてもよくならず、翌月母が観音様の有難いお話を承わり熱心に勧めるので平岡町の小谷先生の所まで行き浄霊を受けますと身体の苦痛が軽くなるを感じて未だ悪いながらもなお出勤を続けました。<br><br> 母も小谷先生のお勧めにてお光を受けさせて頂き毎日浄霊をして下さいましたがその翌月の十二月七日よりとても悪くなり出勤出来なくなりました。<br><br>感冒からついに肺結核という世にも恐ろしい病に侵されました。<br><br>月末より私の乳部がはれ上り浄霊を受ける度に段々大きくなるばかりです。<br><br>その上四十二度以上の高熱におかされました。<br><br>この結核が私の肉体にひそんでいたのでした。<br><br> 予期していた大浄化が始まり床につき、翌年の一月五日より身動き一つ出来ぬようになりました。<br><br>私は浄化であるという事を知りつつも身体が悪くなるばかりなので母が御光を頂き信仰しているが御利益一つもなく、反って悪くなるばかりではないかとさえ思い、遂には死んだ方がましだとさえ思った事もありましたが、母の熱心なる信仰により薬一服使わず床ずれ一つ出来ず、二月頃には乳部に数個の穴が開き浄霊して頂く度にそれより膿がむくむくと出て参り、結核の毒が浄化により腫物となって排出される。<br><br>三月の初め頃には何の苦もなく良くなりました。<br><br>熱は三十八度に下りましたがそれからというものはどうしても熱が下らず、夜十一時過ぎますといつもうなされていました。<br><br> ある日の昼時私一人寝んでいますと、仏壇の中の阿弥陀如来様の掛軸ががたがたと大きく動きましたので、早速母にその事を告げますと「そんなことがあるものか」と言っていましたが矢張り「仏の障り」とか四代前のおばあさんが頼っているとか私は初めてその時霊というものに気付きました。<br><br> それからというものは浄霊を受ける度にぐんぐん熱が下りました。<br><br>私はこの時本当に観音様の偉大なる御力に心から感謝致しましたと共に今迄半信半疑でいた事を深く恥入る次第です。<br><br>本当に観音様の御力を身をもって体験し、これより一層信仰の念が深まり疑心の雲は残りなく払拭され、強い信念の力を得感謝報恩の気持で五月二十七日お光を受けさせて頂きました。<br><br> 私身体のあらゆる所の浄化を項きましたが観音様の偉大の御力にて普通人も変らぬ健康人となり、本年二月二十三日別府より尾崎先生が平岡の小谷教導所に御出になられました時、一年振りでお参りさせて頂きました。<br><br>その時の私達親子の喜びは何物にもたとえようがありませんでした。<br><br> 今日迄色々な目で他から見られ又知人より猛烈な反対迄された事もありましたが、信仰の力に打勝つものなく輝かしい希望にみちた今日となりました。<br><br>そして私の元気な姿に驚異の眼を輝かせながら喜んで下さいました。<br><br>これも全く御守護のお蔭と存じます。<br><br>今では光明如来様も御奉斎させて頂き母も教導師の資格を頂き楽しい日々を過させて頂いています。<br><br> しかし五六七教の目的は飽く迄も地上天国を出現することにあるので御座います。<br><br>地上に天国的幸福者ばかりの世界を出現するのでありますから病気快復の御礼にこの五六七教の目的である人類の最大理想に向ってつくさせて頂くために一人でも多く不幸な人々を入信させて御守護の万分の一にも足らない御礼心ではありますが、大先生の世にも尊い御業の一端に御奉仕させて頂くことが出来ましたらこの上もなく幸福の至りと存じます。<br><br> 筆舌につくし得ぬ御守護を厚く御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Do Grande Poder Divino: Coletânea Jikan, Volume I (Tuberculose e a Terapia Espiritual Divina)</h2>
 <p>Publicado em 25 de junho de 1949</p>
@@ -103,5 +258,48 @@ Casa de Difusão Kotani, Associação Nanko da Nippon Miroku Kyo, Província de 
 <p>Até chegar a este dia, sofri com os olhares de desconfiança alheios e cheguei a enfrentar a oposição veemente de conhecidos. Contudo, nada pode sobrepujar o poder da fé, e hoje vivo dias plenos de uma esperança radiante. As pessoas que me conheceram doente agora se alegram e me fitam com um brilho de assombro nos olhos ao ver minha saúde restaurada. Atribuo tudo isso inteiramente à divina proteção. Atualmente, já temos a imagem de Komyō Nyorai-sama entronizada em nosso lar, e minha mãe obteve a qualificação de Ministra Assistente. Vivemos, assim, dias de grande felicidade.</p>
 <p>Todavia, o objetivo da Miroku Kyo é, em última instância, a concretização do Paraíso na Terra. Trata-se de manifestar neste mundo uma sociedade composta unicamente por pessoas que desfrutem de felicidade celestial. Como forma de gratidão pela minha cura, desejo dedicar-me ao sublime ideal da humanidade, que é o propósito desta fé. Para tanto, empenhar-me-ei em conduzir o maior número possível de pessoas infelizes a esta crença. Minha gratidão, ainda que não corresponda nem a uma ínfima parcela da proteção recebida, me impulsiona. Poder servir, ainda que minimamente, a um fragmento da nobilíssima Obra Divina do Grande Mestre seria para mim a suprema felicidade.</p>
 <p>Expresso minha mais profunda gratidão pela divina proteção, que transcende qualquer descrição em palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 偉大なる御力 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 福岡県 日本五六七教南光会小谷教導所 村上スミ子（27） 昭和二十一年十月以来、三井社厚生課に勤務して多忙な生活を続けて参りました。<br/><br/>賃金が安いので残業等で生活を補っておりましたがそんな無理が長く続く訳はありません、遂に私は身体にも行詰りを生じて参りました。<br/><br/> 昭和二十二年十月終り頃風邪を引き、「なに風邪位」と放っておきましたがどうしてもよくならず、翌月母が観音様の有難いお話を承わり熱心に勧めるので平岡町の小谷先生の所まで行き浄霊を受けますと身体の苦痛が軽くなるを感じて未だ悪いながらもなお出勤を続けました。<br/><br/> 母も小谷先生のお勧めにてお光を受けさせて頂き毎日浄霊をして下さいましたがその翌月の十二月七日よりとても悪くなり出勤出来なくなりました。<br/><br/>感冒からついに肺結核という世にも恐ろしい病に侵されました。<br/><br/>月末より私の乳部がはれ上り浄霊を受ける度に段々大きくなるばかりです。<br/><br/>その上四十二度以上の高熱におかされました。<br/><br/>この結核が私の肉体にひそんでいたのでした。<br/><br/> 予期していた大浄化が始まり床につき、翌年の一月五日より身動き一つ出来ぬようになりました。<br/><br/>私は浄化であるという事を知りつつも身体が悪くなるばかりなので母が御光を頂き信仰しているが御利益一つもなく、反って悪くなるばかりではないかとさえ思い、遂には死んだ方がましだとさえ思った事もありましたが、母の熱心なる信仰により薬一服使わず床ずれ一つ出来ず、二月頃には乳部に数個の穴が開き浄霊して頂く度にそれより膿がむくむくと出て参り、結核の毒が浄化により腫物となって排出される。<br/><br/>三月の初め頃には何の苦もなく良くなりました。<br/><br/>熱は三十八度に下りましたがそれからというものはどうしても熱が下らず、夜十一時過ぎますといつもうなされていました。<br/><br/> ある日の昼時私一人寝んでいますと、仏壇の中の阿弥陀如来様の掛軸ががたがたと大きく動きましたので、早速母にその事を告げますと「そんなことがあるものか」と言っていましたが矢張り「仏の障り」とか四代前のおばあさんが頼っているとか私は初めてその時霊というものに気付きました。<br/><br/> それからというものは浄霊を受ける度にぐんぐん熱が下りました。<br/><br/>私はこの時本当に観音様の偉大なる御力に心から感謝致しましたと共に今迄半信半疑でいた事を深く恥入る次第です。<br/><br/>本当に観音様の御力を身をもって体験し、これより一層信仰の念が深まり疑心の雲は残りなく払拭され、強い信念の力を得感謝報恩の気持で五月二十七日お光を受けさせて頂きました。<br/><br/> 私身体のあらゆる所の浄化を項きましたが観音様の偉大の御力にて普通人も変らぬ健康人となり、本年二月二十三日別府より尾崎先生が平岡の小谷教導所に御出になられました時、一年振りでお参りさせて頂きました。<br/><br/>その時の私達親子の喜びは何物にもたとえようがありませんでした。<br/><br/> 今日迄色々な目で他から見られ又知人より猛烈な反対迄された事もありましたが、信仰の力に打勝つものなく輝かしい希望にみちた今日となりました。<br/><br/>そして私の元気な姿に驚異の眼を輝かせながら喜んで下さいました。<br/><br/>これも全く御守護のお蔭と存じます。<br/><br/>今では光明如来様も御奉斎させて頂き母も教導師の資格を頂き楽しい日々を過させて頂いています。<br/><br/> しかし五六七教の目的は飽く迄も地上天国を出現することにあるので御座います。<br/><br/>地上に天国的幸福者ばかりの世界を出現するのでありますから病気快復の御礼にこの五六七教の目的である人類の最大理想に向ってつくさせて頂くために一人でも多く不幸な人々を入信させて御守護の万分の一にも足らない御礼心ではありますが、大先生の世にも尊い御業の一端に御奉仕させて頂くことが出来ましたらこの上もなく幸福の至りと存じます。<br/><br/> 筆舌につくし得ぬ御守護を厚く御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

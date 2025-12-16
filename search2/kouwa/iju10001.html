@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju10001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） １ 001-011 懐妊 001 産制と衛生（優秀児） 一、人工流産の結果、または産児調節の身体に及ぼす影響につき御教示下さい。<br><br> 産児調節の仕方によって異（ちが）う。<br><br> 陰陽の霊気交換で非常にいい。<br><br> 器具を使うと霊気の交流を妨げられ、活気がなくなる。<br><br>半分自涜行為的になる。<br><br>長くやるとよくない。<br><br>故に今にやめるようになる。<br><br>産児制限すると多産者がなくなる。<br><br> 優秀な人間は多産者中より出る。<br><br>多産児は優秀である。<br><br>大切にすると偉いのは出来ぬ。<br><br>（一人や二人では可愛がられるから独立性に欠ける）産制すると坊ちゃん嬢ちゃんばかりとなり、その国が衰える事になる。<br><br>今、急に子供が殖えたのは、戦争に行っていたのが帰ったためで、夫婦別居したのが暫くぶりで一緒になり、精力旺盛で受胎し易い。<br><br>船員や海軍々人など子供が多い。<br><br>外地引揚者などもそうである。<br><br> （今の政府は目先だけに捉われている）（S24. 6.25） 002 精虫の根源 人間の精虫はいかなる作用によって製出されるものでしょうか。<br><br>また、霊界とはどんな関係があるものでしょうか。<br><br> 人間の精虫は、霊子といって、つまり生れ代ったのと、霊界から新生したのと二つある。<br><br> 人間の元で、神の意志によって出来たもので、その物質化したものが精虫で、極く小さいものである。<br><br>製出は、神様が造ったもので、造る過程は人間には分らぬ。<br><br>科学的にいえば精虫だが虫というのは変である。<br><br>霊子というのが本当である。<br><br>（S24.11.19） 003 想像妊娠 想像妊娠という事が御座いますが、いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 子供が欲しい欲しいと思いつめていると、たまたま月経不順の時、出来たと思い、ある程度までお腹が大きくなるが、違う。<br><br>（S23.12. 1） 004 想像妊娠と流産 最近妊娠して流産、または月経が中絶し妊娠したようだと思ったらまた月経があります。<br><br>以上の場合は霊が体内に残って早くまた妊娠すると言う事を言われますが、いかがでしょうか。<br><br>御伺い致します。<br><br> これは妊娠ではない。<br><br>想像妊娠はよくある。<br><br>出来るだろう出来るだろうと思うと月経が止る。<br><br>人間の神経作用でお腹が膨れるが、四、五ケ月経って月経が一度に出て治る。<br><br>であるから、想像妊娠が強いと思う。<br><br>本当の流産は必ず血の塊が出る。<br><br> 005 子宮外妊娠 最近私の取扱っている患者の中で、医師の診断によれば子宮外妊娠八ケ月だと言われましたが、御浄霊をしていればいかになるもので御座いましょうか。<br><br> これは間違いで、子宮外妊娠は喇叭管へ妊娠するのであるから、喇叭管に八ケ月いるなどという事はない。<br><br>育つ。<br><br>二、三ケ月経てば痛くて堪えられない。<br><br>また、そんなに拡がるものではない。<br><br>（S24. 7.26） 006 子宮外妊娠と浄霊 子宮外妊娠の御浄霊による治癒迄の道程及び現代医学の解釈の誤謬を御教え下さい。<br><br> 喇叭管に妊娠するのは事実である。<br><br>痛いから手術するが、浄霊は二、三日で下って治る。<br><br> 霊が浄霊によって正しくなる。<br><br>（S24. 8. 9） 007 出血多量と外妊娠 私宅は教導所として開放し、また、教導師として御手伝いさせて頂いております協力者（野々山きん、四十歳）、御手伝い中、先日急激に出血致しました。<br><br>その状態が約二十五日間続きました。<br><br>その後十日間程経過せるも気分悪く、現在白帯下（こしけ）があります。<br><br>家族の者心配の余り医師の診断を受けましたところ、子宮外妊娠との事、急ぎ手術せよとの話ですが、本人は毎日浄霊も続け、どこ迄もお縋りしております。<br><br>御浄霊の方法を御教示下さい。<br><br> 子宮外妊娠は非常に痛む。<br><br>外妊娠なら浄霊でじきに治る。<br><br>出血が二十五日間続くのはおかしい。<br><br>外妊娠ではない。<br><br> 腰、腎臓部を浄霊する。<br><br>（S24. 8.27） 008 子宮外妊娠手術す 私は昭和十四年子宮外妊娠にて手術を行い、昨年九月ラジウムにて癌を焼き取りました。<br><br>本年二月再発して、医者は手術を奨めますが、私は医者の手を離れ、御浄霊を受けております。<br><br>経過は大変良好で御座いますが、今後順調に御浄化を戴けましょうか。<br><br>御教え下さい。<br><br> 癌ではない。<br><br> 子宮癌は殆ど誤りである。<br><br>子宮外妊娠など何でもない。<br><br> 009 前置胎盤の原因 出産の際、前置胎盤といって、一命にも関する事が御座いますが、霊的に関係が御座いましょうか。<br><br>また、御浄霊により完全出産が出来るもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 人間は裏表になっているのがある。<br><br>前置は後方に毒多く、毒の少い方へ胎盤がゆく。<br><br>浄霊で治る。<br><br> 逆子など浄霊で治るから――。<br><br>（S24. 5.11） 010 前置胎盤の妊娠 前置胎盤で手術した後、妊娠しても差支えないでしょうか。<br><br>そして前置胎盤はいかなる原因によるものですか。<br><br> これは差支えないと思う。<br><br> 霊的にも体的にも原因はあるが、お浄めすれば治る。<br><br> 逆さ子でもお浄めすると正常になる。<br><br> 011 前置胎盤と逆子 妻（三十八歳）が三年前に「異状妊娠、前置胎盤」と言う事で開腹手術を致し、現在母子とも健全ですが、再度妊娠致しております。<br><br>医者は前回のごとく異状妊娠の憂いがあると申しますがいかがで御座いましょうか。<br><br>普通今迄は放任すると出血すれば生命を失うと申されます。<br><br>私は御浄霊の体験が少いのですがいかにしたら御救い戴けるでしょうか。<br><br>また、前置胎盤とはどういう状態なのでしょうか。<br><br>御教示願います。<br><br> そのような事はない。<br><br>前置胎盤とは、胎盤が子宮の後ろへ付いてるものであるが、それが前へ付いてるものである。<br><br>心配する程のものでない。<br><br>逆子でも治る。<br><br>（S24. 6. 5）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Cura (Parte Dez)</h2>
 <h3>Gravidez</h3>
@@ -129,5 +281,48 @@ function toggleLang(lang) {
 <p><strong>011. Placenta Prévia e Feto em Posição Pélvica</strong></p>
 <p><em>Minha esposa, de trinta e oito anos, passou por uma cesariana há três anos devido a uma "gestação anormal, placenta prévia". Mãe e filho estão saudáveis, mas ela está grávida novamente. O médico afirma haver o risco de a mesma anormalidade ocorrer. Como devemos proceder? Dizem que, se não houver intervenção, uma hemorragia pode ser fatal. Tenho pouca experiência com o Johrei; como podemos alcançar a salvação? E o que é exatamente a placenta prévia?</em></p>
 <p>Tal preocupação é infundada. A placenta prévia ocorre quando a placenta, que normalmente se fixa na parede posterior do útero, adere à parede anterior. Não é uma condição que deva causar grande apreensão. Como já mencionei, até mesmo um feto em apresentação pélvica é corrigido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） １ 001-011 懐妊 001 産制と衛生（優秀児） 一、人工流産の結果、または産児調節の身体に及ぼす影響につき御教示下さい。<br/><br/> 産児調節の仕方によって異（ちが）う。<br/><br/> 陰陽の霊気交換で非常にいい。<br/><br/> 器具を使うと霊気の交流を妨げられ、活気がなくなる。<br/><br/>半分自涜行為的になる。<br/><br/>長くやるとよくない。<br/><br/>故に今にやめるようになる。<br/><br/>産児制限すると多産者がなくなる。<br/><br/> 優秀な人間は多産者中より出る。<br/><br/>多産児は優秀である。<br/><br/>大切にすると偉いのは出来ぬ。<br/><br/>（一人や二人では可愛がられるから独立性に欠ける）産制すると坊ちゃん嬢ちゃんばかりとなり、その国が衰える事になる。<br/><br/>今、急に子供が殖えたのは、戦争に行っていたのが帰ったためで、夫婦別居したのが暫くぶりで一緒になり、精力旺盛で受胎し易い。<br/><br/>船員や海軍々人など子供が多い。<br/><br/>外地引揚者などもそうである。<br/><br/> （今の政府は目先だけに捉われている）（S24. 6.25） 002 精虫の根源 人間の精虫はいかなる作用によって製出されるものでしょうか。<br/><br/>また、霊界とはどんな関係があるものでしょうか。<br/><br/> 人間の精虫は、霊子といって、つまり生れ代ったのと、霊界から新生したのと二つある。<br/><br/> 人間の元で、神の意志によって出来たもので、その物質化したものが精虫で、極く小さいものである。<br/><br/>製出は、神様が造ったもので、造る過程は人間には分らぬ。<br/><br/>科学的にいえば精虫だが虫というのは変である。<br/><br/>霊子というのが本当である。<br/><br/>（S24.11.19） 003 想像妊娠 想像妊娠という事が御座いますが、いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 子供が欲しい欲しいと思いつめていると、たまたま月経不順の時、出来たと思い、ある程度までお腹が大きくなるが、違う。<br/><br/>（S23.12. 1） 004 想像妊娠と流産 最近妊娠して流産、または月経が中絶し妊娠したようだと思ったらまた月経があります。<br/><br/>以上の場合は霊が体内に残って早くまた妊娠すると言う事を言われますが、いかがでしょうか。<br/><br/>御伺い致します。<br/><br/> これは妊娠ではない。<br/><br/>想像妊娠はよくある。<br/><br/>出来るだろう出来るだろうと思うと月経が止る。<br/><br/>人間の神経作用でお腹が膨れるが、四、五ケ月経って月経が一度に出て治る。<br/><br/>であるから、想像妊娠が強いと思う。<br/><br/>本当の流産は必ず血の塊が出る。<br/><br/> 005 子宮外妊娠 最近私の取扱っている患者の中で、医師の診断によれば子宮外妊娠八ケ月だと言われましたが、御浄霊をしていればいかになるもので御座いましょうか。<br/><br/> これは間違いで、子宮外妊娠は喇叭管へ妊娠するのであるから、喇叭管に八ケ月いるなどという事はない。<br/><br/>育つ。<br/><br/>二、三ケ月経てば痛くて堪えられない。<br/><br/>また、そんなに拡がるものではない。<br/><br/>（S24. 7.26） 006 子宮外妊娠と浄霊 子宮外妊娠の御浄霊による治癒迄の道程及び現代医学の解釈の誤謬を御教え下さい。<br/><br/> 喇叭管に妊娠するのは事実である。<br/><br/>痛いから手術するが、浄霊は二、三日で下って治る。<br/><br/> 霊が浄霊によって正しくなる。<br/><br/>（S24. 8. 9） 007 出血多量と外妊娠 私宅は教導所として開放し、また、教導師として御手伝いさせて頂いております協力者（野々山きん、四十歳）、御手伝い中、先日急激に出血致しました。<br/><br/>その状態が約二十五日間続きました。<br/><br/>その後十日間程経過せるも気分悪く、現在白帯下（こしけ）があります。<br/><br/>家族の者心配の余り医師の診断を受けましたところ、子宮外妊娠との事、急ぎ手術せよとの話ですが、本人は毎日浄霊も続け、どこ迄もお縋りしております。<br/><br/>御浄霊の方法を御教示下さい。<br/><br/> 子宮外妊娠は非常に痛む。<br/><br/>外妊娠なら浄霊でじきに治る。<br/><br/>出血が二十五日間続くのはおかしい。<br/><br/>外妊娠ではない。<br/><br/> 腰、腎臓部を浄霊する。<br/><br/>（S24. 8.27） 008 子宮外妊娠手術す 私は昭和十四年子宮外妊娠にて手術を行い、昨年九月ラジウムにて癌を焼き取りました。<br/><br/>本年二月再発して、医者は手術を奨めますが、私は医者の手を離れ、御浄霊を受けております。<br/><br/>経過は大変良好で御座いますが、今後順調に御浄化を戴けましょうか。<br/><br/>御教え下さい。<br/><br/> 癌ではない。<br/><br/> 子宮癌は殆ど誤りである。<br/><br/>子宮外妊娠など何でもない。<br/><br/> 009 前置胎盤の原因 出産の際、前置胎盤といって、一命にも関する事が御座いますが、霊的に関係が御座いましょうか。<br/><br/>また、御浄霊により完全出産が出来るもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 人間は裏表になっているのがある。<br/><br/>前置は後方に毒多く、毒の少い方へ胎盤がゆく。<br/><br/>浄霊で治る。<br/><br/> 逆子など浄霊で治るから――。<br/><br/>（S24. 5.11） 010 前置胎盤の妊娠 前置胎盤で手術した後、妊娠しても差支えないでしょうか。<br/><br/>そして前置胎盤はいかなる原因によるものですか。<br/><br/> これは差支えないと思う。<br/><br/> 霊的にも体的にも原因はあるが、お浄めすれば治る。<br/><br/> 逆さ子でもお浄めすると正常になる。<br/><br/> 011 前置胎盤と逆子 妻（三十八歳）が三年前に「異状妊娠、前置胎盤」と言う事で開腹手術を致し、現在母子とも健全ですが、再度妊娠致しております。<br/><br/>医者は前回のごとく異状妊娠の憂いがあると申しますがいかがで御座いましょうか。<br/><br/>普通今迄は放任すると出血すれば生命を失うと申されます。<br/><br/>私は御浄霊の体験が少いのですがいかにしたら御救い戴けるでしょうか。<br/><br/>また、前置胎盤とはどういう状態なのでしょうか。<br/><br/>御教示願います。<br/><br/> そのような事はない。<br/><br/>前置胎盤とは、胎盤が子宮の後ろへ付いてるものであるが、それが前へ付いてるものである。<br/><br/>心配する程のものでない。<br/><br/>逆子でも治る。<br/><br/>（S24. 6. 5）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

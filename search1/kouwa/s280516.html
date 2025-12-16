@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280516</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月16日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月十六日 信仰について一番肝腎なことは、今まで宗教ではあんまり徹底してなかったのです。<br><br>仏教にしても、仏教の「教」の字が間違っているのです。<br><br>お釈迦さんが作った時には仏法と言って「法」なのです。<br><br>それをどう間違えたものか、仏教という「教」になってしまったのです。<br><br>ですから、佛という字は人偏に弓という字を書いて棒を入れるので、弗（ふつ）という字ですが、弓というのは月の形になるのです。<br><br>弓をしぼった時、あるいはしぼらない時、これは月の形なのです。<br><br>佛という字は、人間の法なのです。<br><br>ですから人偏に弓を書いて霊体二本で貫くのです。<br><br>それが法になるわけです。<br><br>それで法というのはなにかというと、文字の解釈から言うとサンズイに去（さる）というのです。<br><br>ですから水を去るのです。<br><br>それで法というのは火で経（たて）なのです。<br><br>ですから法は曲げられないと言います。<br><br>つまり法はまっすぐでなければならないのです。<br><br>そこで仏の「法」は月ですから水になるわけです。<br><br>そうして下の「法」が火になるわけです。<br><br>ですから水火ですが、これは逆になるわけです。<br><br>火水が本当だが、つまり夜の世界は水が上になって火が下になるわけで、逆になっているわけです。<br><br>ですからどこまでも「法」というものが根本になるわけです。<br><br>それを「教」の字にしてしまったということは、一つの間違いだったのです。<br><br>だからだんだん仏教がくずれてきたというのは、これは「法」の力がないからです。<br><br>それで「法」というのはなにかというと、つまり乱れさせないことです。<br><br>ということは、間違いはさせないということです。<br><br>ですからなにごとにも法があるのです。<br><br>日常生活にもチャンと法があります。<br><br>これは前によく言いましたが、人間の行でも言葉でも、小さい法があるのです。<br><br>ですからそれに合わなければいけないのです。<br><br>要するに理屈に合うことです。<br><br>神様のことは理屈に合えば良いのです。<br><br>ちょっとおかしく思っても、根本が理屈に合っていればそれでよいのです。<br><br>理屈に合わない点が一つの間違いになるわけです。<br><br>今話をしたのは再浄化についての一つの前提です。<br><br>再浄化というのは、いったんなおったのがふたたび悪くなるというのですが、これをよく考えてみると、どんな重難病でもなおったとしますと、今まで寝たきりだったり、なにもできなかったりした人が、普通人のような行動ができるのですから、確かになおったのです。<br><br>それで再浄化というのは残りの毒素が排除されるための浄化作用ですが、そうすると最初の時よりもっと軽いのは決まってます。<br><br>ところが最初の時よりも重くなって死ぬことさえあるのは、これは理屈に合いません。<br><br>ではそれはどういうわけでそうなるかということを書きましたから、今読ませます。<br><br> （御論文「信仰の合理性と再浄化」）【栄光 二一〇号】 それからハワイの方は非常な勢いで発展しつつあります。<br><br>なにしろアメリカ式ですから、やたらに手術をし、盲腸をとる、扁桃腺をとる、子宮をとる、という具合で、ハワイの人のほとんどは手術しており、それを固めてあるから、みんなビクビクしているのです。<br><br>それで救世教のことが分かるにつれて、とてもたいへんなのです。<br><br>ですから今樋口さんも安食さんも寝る間もないくらいなのです。<br><br>最近来た報告を今読ませますが、その前にその批評を書いたので、それを読ませます。<br><br> （御論文「病人氾濫の布哇」）【栄光 二一一号】 （「ハワイ通信」その四）【栄光 二一〇号】 大本教のお筆先に「遅れただけは二度になるぞよ」というのがありますが、ちょうどハワイがそういう具合です。<br><br>つまり遅れていたわけです。<br><br>その遅れていた原因はやはり日本の官憲やジャーナリストの誤解のためにこっちの準備が遅れたわけです。<br><br>それからお筆先に「灯台下は真暗がり、遠国から解りて来るぞよ」というのがあります。<br><br>日本の方が遅れているのは灯台下だからで、お筆先どおりなわけです。<br><br>それでアメリカの方はなかなか厄介なのです。<br><br>というのは『アメリカを救う』の本もできてますが、まだ向こうに発表しないのです。<br><br>というのは、宗教で医学に関与するということはいけない、というような建前になっていることと、それから向こうはカトリックがさかんで、ほとんどカトリックですから、これがまた新しい宗教を非常に嫌うのです。<br><br>キリスト教以外は全部邪教という具合に信じ込ませているために、救世教のように非常にすばらしい宗教とすると非常な脅威ですから、どんな妨害的行為に出るか分かりません。<br><br>アメリカの偉方のほとんどはカトリックですから、なかなか慎重にやらないと、かえって後がやりにくくなりますから、ゆっくり発表しようと思ってます。<br><br>とにかくその点においてハワイは非常によいです。<br><br>ですからハワイにおいて救世教というものは、非常にたいへんなものです。<br><br>今のところはアメリカ人はまだないので、教修者はハワイ在住の日本人、それからアメリカインディアンというような黒人、それから支那人、朝鮮人というような人たちです。<br><br>それで非常に素直で、実際の効果さえ見ればすぐ安心してすがってくるのです。<br><br>この点が日本と非常に違います。<br><br>日本はどんなにお蔭があろうと、どんなに奇蹟があろうと、よほどのことがない限り、疑いが解けないのです。<br><br>それこそお蔭話にありますが、重難病が助かってありがたがっているが、再浄化とか家族の者が病気になると、やっぱりお医者に行ってしまうのです。<br><br>実にわけが分かりません。<br><br>それでお医者に行って悪くなって、やっぱり救世教でなければならないというので、またこっちに来て、それから信仰にはいるというのが非常に多いです。<br><br> こういうような点はハワイは断然違います。<br><br>そこにもっていって日本は官憲が宗教を嫌いです。<br><br>信仰が嫌いなのです。<br><br>私は時々書きましたが、アメリカの偉い人、アイゼンハウアー、トルーマン、マッカーサーという人たちは必ず「神」ということを言ってます。<br><br>ところが日本の大臣や政治家にしても「神」ということは決して言いません。<br><br>「神」と言うことは恥になるかのように思っているように見えます。<br><br>そのくせ「馬鹿野郎」とは平気で言います。<br><br>どうも「神」とか「信仰」というようなことを、ああいう偉い人が言うと安っぽくなるように思うらしいのです。<br><br>日本という国はそのくらい信仰嫌いです。<br><br>それでまたジャーナリストというのはなにか書くにしても、宗教をけなした方が偉く見られるのです。<br><br>信仰ということを書くと時世遅れというのです。<br><br>そういうことを無自覚に思われているのです。<br><br>彼らの心境というのは安易なものです。<br><br>それも無理がないところもあります。<br><br>というのは、日本の新宗教には実に馬鹿馬鹿しいのがあります。<br><br>踊る宗教とか璽光尊とか、近ごろさかんになった立正佼成会も、妙法蓮華経を唸っている格好を見たらわれわれでも嫌になります。<br><br>妙法蓮華経もよいですが、それを何時間も唱えていったいなんになるかということです。<br><br>一つ事をそんなに唱えていてなんになるかです。<br><br>実際時間の空費にしかなりません。<br><br>ですから新宗教というのはくだらないものだということになるのです。<br><br>他教を悪く言うのは嫌ですが、悪く言うのではなくて、ありのままを言っているのですが、救世教の人ばかりですから差し支えないでしょう。<br><br>ＰＬ教団はダンスが非常に御自慢になってますが、ダンスというのは、とにかく常識から考えても、神様の前で男女が手を組んで踊るということは、どういう意味か分かりません。<br><br>それであそこの根本は「宗教は芸術なり」と言うが、それはそれに違いないが、「宗教は芸術なり」ということをどういうように具体化するかというと、それはお題目ばかりで実行はありません。<br><br>それでこっちの方も「宗教は芸術なり」と言いますが、実際においてそれを現わしているのです。<br><br>ですから理論と実際とが合っているわけです。<br><br>もっともＰＬ教団でもそれは知っているに違いないですが、芸術ということを具体的に現わすということは、非常に金がいりますから、できないのでやらないというのですから、これはやむを得ません。<br><br>だから「宗教は芸術なり」ということは非常に結構なので、それはべつに非難することはありませんが、「宗教は芸術なり」と言ってダンス専門にすれば、ダンスが芸術ということになります。<br><br>もっともこれも舞踏の芸術と言えば言えますが、どうもピッタリきません。<br><br>それで新宗教のうちで一番多いのは日蓮宗です。<br><br>ところが日蓮宗をやるのは結構ですが、しかし新宗教とは言えません。<br><br>生長の家なども、私は前に『生命の実相』なども読んだことがあります。<br><br>うまいことを書いてありますが、それも結局、キリスト教と仏教です。<br><br>お釈迦さんの言ったことをうまく取り入れて、一つの説を作ってあるのです。<br><br>ですからこれはふつうの宗教学としてなら立派なものですが、新宗教という新しい点はありません。<br><br>つまり総合したということが新しいと言えば言えますが、それでは根本が新しいのではなくて、説き方を新しくしたというにすぎないのです。<br><br>どうも新宗教と認めるということはちょっと難しいわけです。<br><br>これはいつも書いてますから信者の人はよく知っているでしょうが、とにかく日本のそういうようなものを見ていると、インテリやジャーナリストが新宗教を軽蔑するのも無理はありません。<br><br>もし私が、救世教教祖でなく普通人としたら、やはりそういうように新宗教を軽蔑するに違いないです。<br><br>だから救世教の真髄が世間に知られていないから、こっちも十把一絡（じゅっぱひとから）げに見られるので、これもしかたがないが、しかしやっぱり良いものは良い、悪いものは悪いのですから、これも時の問題です。<br><br>その時の問題として一番良いのは、アメリカに救世教が広まって行く時期になれば、それによって日本の知識人が分かるということになり、これが一番効果的です。<br><br>そうなると日本人は、アメリカで騒ぐなら、これはもう良いものに違いない、と丸のみになってしまいます。<br><br>それよりか、しようがありません。<br><br>もっとも神様がなさることですから、すばらしい方法をやられるに違いないから、べつに気をもむ必要はないが、大体そういうような経綸になって行くわけです。<br><br> 話は変わりますが、救世会館の晴々台の横の所に土を捨ててますが、その土がだんだん溜まって、最近行って見ると、とても広い良い地所ができているのです。<br><br>ああいう土というものも、なかなか捨て場がいるのです。<br><br>ところがあそこを捨て場にしてやったところが、とんでもない良い地所ができて、千坪くらいはあります。<br><br>ちょうど晴々台の敷地くらいの広さになります。<br><br>それで私は、これは神様の方でなにかあるに違いないと思って考えてみると、やっぱりたいへんな必要があったのです。<br><br>というのは会館ができて、椅子席が千七、八百で二千は難しいのです。<br><br>それでまわりに立つとしても、会館の中だけで三千です。<br><br>それから会館の廂（ひさし）のある所に二千として、結局五千でいっぱいです。<br><br>ところが今お祭りになると一万よりもっと来ることになるでしょうから、それでは困ると思っていたのですが、そうなると今言った地所が千坪になりますから、ここにテントを張れば、優に五千や一万ははいれる場所ができますから、そこに簡単な椅子でもおけば、まずそうとうに増えても心配ないというわけです。<br><br>その時の私の話はマイクをつければみんな聞けますから、その点において大いに安心できたわけです。<br><br>そうしてみると、やはり神様はそういったように、チャンと準備をされたことがよく分かります。<br><br>そういうようで、いつもながらのことですが、神様の用意周到なのには、ただ驚くばかりです。<br><br>それに良い風景で、実にたいしたものなのです。<br><br>ですから経済的に言っても、そんな良い所をただもらったようなものです。<br><br>土の捨て場が自然に立派なものになってしまったのです。<br><br>あの辺は価格としてはどうしても坪五千円の地価でしょうから、千坪として五百万円のものが、ただでできてしまったのです。<br><br>そういうようで驚いたのです。<br><br>それで会館と展望台は一緒にできてしまいます。<br><br>それができるとともに、そういった足場がある時にやるとよほど安くできるというので、場合によっては美術館もやってしまおうと思ってます。<br><br>それはまだ決まったわけではないので、その時の模様でやるつもりです。<br><br> 箱根の美術館はたいてい見たでしょうが、今月の二十五、六、七日に信者さんに先に見せようと思って、今準備してます。<br><br>やっぱり神様がやっているから、浮世絵のいろいろな良い物でもチャンとうまい具合に出すだけの物が充分集まりつつあります。<br><br>なかなか良い物が集まってきました。<br><br>それも桃山時代から現代までの物です。<br><br>私は知らなかったが、現代と言っても、戦後はあまりないが、昭和の初めごろにも版画で良い物があるのです。<br><br>伊東深水の物で、実に良い物があります。<br><br>そういう物を見ると、最近でもこんな良い物ができるかと、実にびっくりします。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Fé e a Lei Divina</h2>
 <p>A respeito da fé, existe um ponto crucial que, até hoje, as religiões não abordaram com a devida profundidade. Tomemos o Budismo como exemplo. A própria denominação “Budismo”, em japonês <em>Bukkyō</em> (仏教), encerra um equívoco no ideograma <em>kyō</em> (教), que significa “ensinamento”. Originalmente, na época de Shakyamuni, utilizava-se o termo <em>Buppō</em> (仏法), cuja partícula <em>hō</em> (法) significa “Lei”. Por algum desvio histórico, a designação foi alterada para <em>Bukkyō</em>.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>Isso nos mostra, de forma inequívoca, que Deus já havia preparado tudo. Como sempre, a minuciosa preparação de Deus se revela de uma forma que só nos resta admirar. Além disso, a paisagem do local é belíssima. Do ponto de vista econômico, é como se tivéssemos ganhado um terreno de grande valor. Uma simples área de descarte transformou-se em algo magnífico. O valor do metro quadrado naquela região é de, no mínimo, cinco mil ienes por <em>tsubo</em>. Assim, um terreno avaliado em cinco milhões de ienes surgiu do nada. Foi uma surpresa extraordinária.</p>
 <p>O Salão de Convenções e o mirante serão construídos simultaneamente. Aproveitando a estrutura já montada, a construção se torna muito mais econômica. Dependendo das circunstâncias, talvez possamos construir o museu de arte ao mesmo tempo. Isso ainda não está decidido e dependerá da situação no momento.</p>
 <p>A maioria de vocês já deve ter visitado o Museu de Arte de Hakone. Estamos nos preparando para uma pré-inauguração exclusiva para os membros nos dias 25, 26 e 27 deste mês. Sendo uma obra de Deus, estamos reunindo um acervo suficiente das melhores gravuras <em>ukiyo-e</em> para a exposição. Obras de excelente qualidade, do período Momoyama até a era moderna, têm chegado até nós. Fiquei particularmente surpreso ao descobrir que mesmo no início da era Showa, em um período que eu não conhecia bem, foram produzidas xilogravuras de qualidade excepcional. Há obras de Itō Shinsui que são simplesmente maravilhosas. Ao contemplá-las, fico impressionado que trabalhos tão primorosos pudessem ser criados em tempos recentes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月16日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月十六日 信仰について一番肝腎なことは、今まで宗教ではあんまり徹底してなかったのです。<br/><br/>仏教にしても、仏教の「教」の字が間違っているのです。<br/><br/>お釈迦さんが作った時には仏法と言って「法」なのです。<br/><br/>それをどう間違えたものか、仏教という「教」になってしまったのです。<br/><br/>ですから、佛という字は人偏に弓という字を書いて棒を入れるので、弗（ふつ）という字ですが、弓というのは月の形になるのです。<br/><br/>弓をしぼった時、あるいはしぼらない時、これは月の形なのです。<br/><br/>佛という字は、人間の法なのです。<br/><br/>ですから人偏に弓を書いて霊体二本で貫くのです。<br/><br/>それが法になるわけです。<br/><br/>それで法というのはなにかというと、文字の解釈から言うとサンズイに去（さる）というのです。<br/><br/>ですから水を去るのです。<br/><br/>それで法というのは火で経（たて）なのです。<br/><br/>ですから法は曲げられないと言います。<br/><br/>つまり法はまっすぐでなければならないのです。<br/><br/>そこで仏の「法」は月ですから水になるわけです。<br/><br/>そうして下の「法」が火になるわけです。<br/><br/>ですから水火ですが、これは逆になるわけです。<br/><br/>火水が本当だが、つまり夜の世界は水が上になって火が下になるわけで、逆になっているわけです。<br/><br/>ですからどこまでも「法」というものが根本になるわけです。<br/><br/>それを「教」の字にしてしまったということは、一つの間違いだったのです。<br/><br/>だからだんだん仏教がくずれてきたというのは、これは「法」の力がないからです。<br/><br/>それで「法」というのはなにかというと、つまり乱れさせないことです。<br/><br/>ということは、間違いはさせないということです。<br/><br/>ですからなにごとにも法があるのです。<br/><br/>日常生活にもチャンと法があります。<br/><br/>これは前によく言いましたが、人間の行でも言葉でも、小さい法があるのです。<br/><br/>ですからそれに合わなければいけないのです。<br/><br/>要するに理屈に合うことです。<br/><br/>神様のことは理屈に合えば良いのです。<br/><br/>ちょっとおかしく思っても、根本が理屈に合っていればそれでよいのです。<br/><br/>理屈に合わない点が一つの間違いになるわけです。<br/><br/>今話をしたのは再浄化についての一つの前提です。<br/><br/>再浄化というのは、いったんなおったのがふたたび悪くなるというのですが、これをよく考えてみると、どんな重難病でもなおったとしますと、今まで寝たきりだったり、なにもできなかったりした人が、普通人のような行動ができるのですから、確かになおったのです。<br/><br/>それで再浄化というのは残りの毒素が排除されるための浄化作用ですが、そうすると最初の時よりもっと軽いのは決まってます。<br/><br/>ところが最初の時よりも重くなって死ぬことさえあるのは、これは理屈に合いません。<br/><br/>ではそれはどういうわけでそうなるかということを書きましたから、今読ませます。<br/><br/> （御論文「信仰の合理性と再浄化」）【栄光 二一〇号】 それからハワイの方は非常な勢いで発展しつつあります。<br/><br/>なにしろアメリカ式ですから、やたらに手術をし、盲腸をとる、扁桃腺をとる、子宮をとる、という具合で、ハワイの人のほとんどは手術しており、それを固めてあるから、みんなビクビクしているのです。<br/><br/>それで救世教のことが分かるにつれて、とてもたいへんなのです。<br/><br/>ですから今樋口さんも安食さんも寝る間もないくらいなのです。<br/><br/>最近来た報告を今読ませますが、その前にその批評を書いたので、それを読ませます。<br/><br/> （御論文「病人氾濫の布哇」）【栄光 二一一号】 （「ハワイ通信」その四）【栄光 二一〇号】 大本教のお筆先に「遅れただけは二度になるぞよ」というのがありますが、ちょうどハワイがそういう具合です。<br/><br/>つまり遅れていたわけです。<br/><br/>その遅れていた原因はやはり日本の官憲やジャーナリストの誤解のためにこっちの準備が遅れたわけです。<br/><br/>それからお筆先に「灯台下は真暗がり、遠国から解りて来るぞよ」というのがあります。<br/><br/>日本の方が遅れているのは灯台下だからで、お筆先どおりなわけです。<br/><br/>それでアメリカの方はなかなか厄介なのです。<br/><br/>というのは『アメリカを救う』の本もできてますが、まだ向こうに発表しないのです。<br/><br/>というのは、宗教で医学に関与するということはいけない、というような建前になっていることと、それから向こうはカトリックがさかんで、ほとんどカトリックですから、これがまた新しい宗教を非常に嫌うのです。<br/><br/>キリスト教以外は全部邪教という具合に信じ込ませているために、救世教のように非常にすばらしい宗教とすると非常な脅威ですから、どんな妨害的行為に出るか分かりません。<br/><br/>アメリカの偉方のほとんどはカトリックですから、なかなか慎重にやらないと、かえって後がやりにくくなりますから、ゆっくり発表しようと思ってます。<br/><br/>とにかくその点においてハワイは非常によいです。<br/><br/>ですからハワイにおいて救世教というものは、非常にたいへんなものです。<br/><br/>今のところはアメリカ人はまだないので、教修者はハワイ在住の日本人、それからアメリカインディアンというような黒人、それから支那人、朝鮮人というような人たちです。<br/><br/>それで非常に素直で、実際の効果さえ見ればすぐ安心してすがってくるのです。<br/><br/>この点が日本と非常に違います。<br/><br/>日本はどんなにお蔭があろうと、どんなに奇蹟があろうと、よほどのことがない限り、疑いが解けないのです。<br/><br/>それこそお蔭話にありますが、重難病が助かってありがたがっているが、再浄化とか家族の者が病気になると、やっぱりお医者に行ってしまうのです。<br/><br/>実にわけが分かりません。<br/><br/>それでお医者に行って悪くなって、やっぱり救世教でなければならないというので、またこっちに来て、それから信仰にはいるというのが非常に多いです。<br/><br/> こういうような点はハワイは断然違います。<br/><br/>そこにもっていって日本は官憲が宗教を嫌いです。<br/><br/>信仰が嫌いなのです。<br/><br/>私は時々書きましたが、アメリカの偉い人、アイゼンハウアー、トルーマン、マッカーサーという人たちは必ず「神」ということを言ってます。<br/><br/>ところが日本の大臣や政治家にしても「神」ということは決して言いません。<br/><br/>「神」と言うことは恥になるかのように思っているように見えます。<br/><br/>そのくせ「馬鹿野郎」とは平気で言います。<br/><br/>どうも「神」とか「信仰」というようなことを、ああいう偉い人が言うと安っぽくなるように思うらしいのです。<br/><br/>日本という国はそのくらい信仰嫌いです。<br/><br/>それでまたジャーナリストというのはなにか書くにしても、宗教をけなした方が偉く見られるのです。<br/><br/>信仰ということを書くと時世遅れというのです。<br/><br/>そういうことを無自覚に思われているのです。<br/><br/>彼らの心境というのは安易なものです。<br/><br/>それも無理がないところもあります。<br/><br/>というのは、日本の新宗教には実に馬鹿馬鹿しいのがあります。<br/><br/>踊る宗教とか璽光尊とか、近ごろさかんになった立正佼成会も、妙法蓮華経を唸っている格好を見たらわれわれでも嫌になります。<br/><br/>妙法蓮華経もよいですが、それを何時間も唱えていったいなんになるかということです。<br/><br/>一つ事をそんなに唱えていてなんになるかです。<br/><br/>実際時間の空費にしかなりません。<br/><br/>ですから新宗教というのはくだらないものだということになるのです。<br/><br/>他教を悪く言うのは嫌ですが、悪く言うのではなくて、ありのままを言っているのですが、救世教の人ばかりですから差し支えないでしょう。<br/><br/>ＰＬ教団はダンスが非常に御自慢になってますが、ダンスというのは、とにかく常識から考えても、神様の前で男女が手を組んで踊るということは、どういう意味か分かりません。<br/><br/>それであそこの根本は「宗教は芸術なり」と言うが、それはそれに違いないが、「宗教は芸術なり」ということをどういうように具体化するかというと、それはお題目ばかりで実行はありません。<br/><br/>それでこっちの方も「宗教は芸術なり」と言いますが、実際においてそれを現わしているのです。<br/><br/>ですから理論と実際とが合っているわけです。<br/><br/>もっともＰＬ教団でもそれは知っているに違いないですが、芸術ということを具体的に現わすということは、非常に金がいりますから、できないのでやらないというのですから、これはやむを得ません。<br/><br/>だから「宗教は芸術なり」ということは非常に結構なので、それはべつに非難することはありませんが、「宗教は芸術なり」と言ってダンス専門にすれば、ダンスが芸術ということになります。<br/><br/>もっともこれも舞踏の芸術と言えば言えますが、どうもピッタリきません。<br/><br/>それで新宗教のうちで一番多いのは日蓮宗です。<br/><br/>ところが日蓮宗をやるのは結構ですが、しかし新宗教とは言えません。<br/><br/>生長の家なども、私は前に『生命の実相』なども読んだことがあります。<br/><br/>うまいことを書いてありますが、それも結局、キリスト教と仏教です。<br/><br/>お釈迦さんの言ったことをうまく取り入れて、一つの説を作ってあるのです。<br/><br/>ですからこれはふつうの宗教学としてなら立派なものですが、新宗教という新しい点はありません。<br/><br/>つまり総合したということが新しいと言えば言えますが、それでは根本が新しいのではなくて、説き方を新しくしたというにすぎないのです。<br/><br/>どうも新宗教と認めるということはちょっと難しいわけです。<br/><br/>これはいつも書いてますから信者の人はよく知っているでしょうが、とにかく日本のそういうようなものを見ていると、インテリやジャーナリストが新宗教を軽蔑するのも無理はありません。<br/><br/>もし私が、救世教教祖でなく普通人としたら、やはりそういうように新宗教を軽蔑するに違いないです。<br/><br/>だから救世教の真髄が世間に知られていないから、こっちも十把一絡（じゅっぱひとから）げに見られるので、これもしかたがないが、しかしやっぱり良いものは良い、悪いものは悪いのですから、これも時の問題です。<br/><br/>その時の問題として一番良いのは、アメリカに救世教が広まって行く時期になれば、それによって日本の知識人が分かるということになり、これが一番効果的です。<br/><br/>そうなると日本人は、アメリカで騒ぐなら、これはもう良いものに違いない、と丸のみになってしまいます。<br/><br/>それよりか、しようがありません。<br/><br/>もっとも神様がなさることですから、すばらしい方法をやられるに違いないから、べつに気をもむ必要はないが、大体そういうような経綸になって行くわけです。<br/><br/> 話は変わりますが、救世会館の晴々台の横の所に土を捨ててますが、その土がだんだん溜まって、最近行って見ると、とても広い良い地所ができているのです。<br/><br/>ああいう土というものも、なかなか捨て場がいるのです。<br/><br/>ところがあそこを捨て場にしてやったところが、とんでもない良い地所ができて、千坪くらいはあります。<br/><br/>ちょうど晴々台の敷地くらいの広さになります。<br/><br/>それで私は、これは神様の方でなにかあるに違いないと思って考えてみると、やっぱりたいへんな必要があったのです。<br/><br/>というのは会館ができて、椅子席が千七、八百で二千は難しいのです。<br/><br/>それでまわりに立つとしても、会館の中だけで三千です。<br/><br/>それから会館の廂（ひさし）のある所に二千として、結局五千でいっぱいです。<br/><br/>ところが今お祭りになると一万よりもっと来ることになるでしょうから、それでは困ると思っていたのですが、そうなると今言った地所が千坪になりますから、ここにテントを張れば、優に五千や一万ははいれる場所ができますから、そこに簡単な椅子でもおけば、まずそうとうに増えても心配ないというわけです。<br/><br/>その時の私の話はマイクをつければみんな聞けますから、その点において大いに安心できたわけです。<br/><br/>そうしてみると、やはり神様はそういったように、チャンと準備をされたことがよく分かります。<br/><br/>そういうようで、いつもながらのことですが、神様の用意周到なのには、ただ驚くばかりです。<br/><br/>それに良い風景で、実にたいしたものなのです。<br/><br/>ですから経済的に言っても、そんな良い所をただもらったようなものです。<br/><br/>土の捨て場が自然に立派なものになってしまったのです。<br/><br/>あの辺は価格としてはどうしても坪五千円の地価でしょうから、千坪として五百万円のものが、ただでできてしまったのです。<br/><br/>そういうようで驚いたのです。<br/><br/>それで会館と展望台は一緒にできてしまいます。<br/><br/>それができるとともに、そういった足場がある時にやるとよほど安くできるというので、場合によっては美術館もやってしまおうと思ってます。<br/><br/>それはまだ決まったわけではないので、その時の模様でやるつもりです。<br/><br/> 箱根の美術館はたいてい見たでしょうが、今月の二十五、六、七日に信者さんに先に見せようと思って、今準備してます。<br/><br/>やっぱり神様がやっているから、浮世絵のいろいろな良い物でもチャンとうまい具合に出すだけの物が充分集まりつつあります。<br/><br/>なかなか良い物が集まってきました。<br/><br/>それも桃山時代から現代までの物です。<br/><br/>私は知らなかったが、現代と言っても、戦後はあまりないが、昭和の初めごろにも版画で良い物があるのです。<br/><br/>伊東深水の物で、実に良い物があります。<br/><br/>そういう物を見ると、最近でもこんな良い物ができるかと、実にびっくりします。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

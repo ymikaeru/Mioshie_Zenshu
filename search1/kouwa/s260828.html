@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260828</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年8月28日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月二十八日 文明の創造も医学だけは大体できあがったんですがね。<br><br>医学と言っても体的の方面ですね。<br><br>それだけは書きあがったようですけれども、これから霊的の方を書こうと思って書き始めたんですが、霊的を書くにはどうしても宗教と別に離すことができない。<br><br>それでだんだん宗教の説明になってくるわけです。<br><br> 今医学の欠点をいろいろ説明しているんですが、これは一種の最後の審判なんです。<br><br> 昨日の「読売」と今日の「毎日」に「 新しき暴力 」という本の広告がありました。<br><br>あれには 付録 がつくんです。<br><br>それは、この間公判の時に私を調べた警察官が証人になり、嘘や作り事、でたらめを言いすぎるから、それをウンと書いて、それに繋がって去年からの、つまり彼らがない罪をつくったやり方やいろんなことをそうとう書いてありますから、それを付録にした。<br><br>ですからおもしろいと思うんです。<br><br>宗教の本来のやり方はこうだと言うことも書いた。<br><br>宗教の意味でやるんだから、別に先方を非難するというような意味はないんです。<br><br>そういう方面について、とにかくきれいにしなければならないというように書いた。<br><br>それでいろんな著名人がよく書いてます。<br><br>昨日の広告にも中島健蔵の評が書いてある。<br><br>非常に良いことを載せてあるので感心した。<br><br> それから、もう一つは美術館ですね。<br><br>あれも建築の方にかかり始めた。<br><br>どうしても神様は急ぐんですね。<br><br>来年の夏までにしなければならないというので、そのつもりで始めたんですが、中に陳列に使うケースだけを備えつければいいんですから、割合簡単です。<br><br>あそこに模型もできてますが、大体あの通りで、三階は日本間になる。<br><br>これは外人が来た時――ゆっくり良いものを見せるという時――日本的の気分を出すには必要だと思ってこしらえた。<br><br>で、おそらく美術館としては日本一になるだろうと思う。<br><br>こっちの美術館が立派というより、他にある美術館が貧弱なんです。<br><br>私はたいしたものじゃないと思っていたが、他の美術館はもっとたいしたものじゃない。<br><br> 博物館ならばですね。<br><br>これは建築も立派ですし、品物も多い。<br><br>博物館の根本的観念は、つまり学問的――考古学的――とかに重きをおいて、美術ということが薄いんですね。<br><br>そこで、博物館には古いいろんなものはありますが、美術的というものは物足りない点があると思います。<br><br>それで、私は審美眼で見て、良いものをという方針にした。<br><br>というのは、仮に正倉院の宝物なんて――時々やりますが、みんなたいへん大騒ぎをやって――去年だったか、たいへんな大入り満員だった。<br><br>新聞のせいもあったが――ところが私も好きで研究しましたが、さて正倉院のを見ても感心するのはないんです。<br><br>古ぼけたのがありますが、なるほど千年前にこんなものがよくできたというのは感じますが、これを部屋に飾って楽しんでみたいとは思えないんです。<br><br>ですからアメリカの美術展に百何十点か行きましたが、これを理解できるのはないと思います。<br><br>三分の一くらいでしょう。<br><br>ただ、古いというのですね。<br><br>古いというのは美術的より、よく保存されてきた。<br><br>というそれを感心するわけですね。<br><br>だから私はよく言う。<br><br>これは「保存の美術だ」とね。<br><br>そんなわけだから、私はあえて古いものにこだわらない。<br><br>現代のものでも美術的の高いもの、それは陳列するつもりです。<br><br>だから、ただ古いものに捉われるという――一つの妙な癖をみんな持っているんですね。<br><br>それで、そういう点も大いに直したいと思っているんです。<br><br>まあーできて陳列したら分かりますがね。<br><br> 誰が見ても理解できるということを主眼にした。<br><br>大体美術の目的というのは、人間が美術を楽しんで、知らず知らずに霊的に高くなる。<br><br>趣味を高めるんですね。<br><br>その人の魂を清めるには非常に良いわけですね。<br><br>それでないと、今のようにパチンコ屋だとか、ストリップだとかたくさんありますからね。<br><br>いけないとは言いません。<br><br>少しは良いですが、もっと高いものを見せなければならないというわけです。<br><br>一般人が見て理解ができなければならないですから――考え込んだり、うなったりしては、やっぱり駄目ですからね。<br><br>目のきいた人でも、そうでない人も楽しめる――それに引きつけられる、というようなのでなくては本当の意味はないと思います。<br><br>そういう方針でやろうと思っている。<br><br> それから、今やり始めているが、裏手の方ですね。<br><br>あっちもウンとおもしろいものを造る――あっと言うものを造るつもりですが、あんまり精しく言えないが。<br><br>それで大体ここが完成するわけです。<br><br> 信仰には限らず、あらゆるものがそうですが、ここが完成しなければ本当の発展がないんです。<br><br>ちょうど人間で言えば、立派な洋服を着たんだが、まだ靴下をはいてない。<br><br>跣（はだし）では歩けないから靴をはかなければならない。<br><br>ネクタイもしなければならない。<br><br>そういうわけで――揃ってはじめて人の前にいばって出られるというわけで、完成しなければ、そこに欠点がありますから発展がしない。<br><br>ですからこのくらいの本山がこれだけ拡がれば、それだけ教線も拡がるものです。<br><br>ですから、相応の理と言って神様の方は特にそういうことはやかましい。<br><br>それから、熱海は体で箱根は霊です。<br><br>熱海は緯（よこ）、箱根は経（たて）になる。<br><br>ですからここがすまないと熱海はできない。<br><br>こっちの建築がすまないと熱海の建築ができない。<br><br>実にはっきりしている。<br><br>瑞雲郷の少し先に欲しいのがあるが、それを先に手に入れることはできない。<br><br>実に順序良く、隣から隣へと次々いっている。<br><br>ああいうのにも非常に順序がある。<br><br> 「神は順序なり」と言ってね。<br><br>順序を乱したりしているから、今の世の中は非常に乱れている。<br><br>そういうことを知らないんですね。<br><br>そういうわけで、ここができなければ熱海はできない。<br><br>それから、ここも将来大きな本山にする所を買ってありますが、それも順序があります。<br><br>ここができて、熱海ができて、それからまたここが（本山）それからは小田原にできるか、京都が先になるかもしれないが、そういう順序になる。<br><br>これは大きい順序です。<br><br> 人間の個人としてもやはり順序がある。<br><br>だから私は、順序だけはやかましく言いますが、浄霊の時もそうです。<br><br>一番先に重病人をやり、それから軽い人にいくか。<br><br>来た順序にするか。<br><br>来ている人の年とった人からやる。<br><br>それから、男と女だと、男を先にする。<br><br>そうすると治りも良い。<br><br> 現界で順序をはずすと、霊界がはずれてしまう。<br><br>そうすると、それが現界に写るから、どうしても滑らかにいかない。<br><br>だから、なにかやるとかという時は順序を注意するようにする。<br><br> いつも言う通り、その時の目的によって、神様に対する物事は一番先にしなければならない。<br><br>神様の所に行く時に、他の用事をしてから行くといけない。<br><br>そうすると人間の用事が先になり、神様の方を下にみることになる。<br><br>そういう時は、むしろ神様の方に行かない方が良い。<br><br>そういうことについてつまらないことですが――いつか、私が玄関から出ようとすると、叔母が横切った。<br><br>それで車に乗ったが、叔母も乗ったが、車が走り出すと、それがとても気持ちが悪い。<br><br>それで、伊豆山から水口まで後戻りして一度家に入り、それから改めて東京へ出直した。<br><br>そういう時にそのまま行くと、自動車に故障がある。<br><br>それは霊界が違っちゃうからです。<br><br>しかし、あんまりうるさくするといけないが、肝腎なことだけは心得ておくと良い。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Ordem Divina e a Construção do Belo</h2>
 <p>No que tange à criação da civilização, o campo da medicina já está, em grande parte, consolidado. Refiro-me, especificamente, ao seu aspecto físico. Essa parte, ao que parece, já foi concluída em meus escritos. Agora, pretendo discorrer sobre a dimensão espiritual, e ao fazê-lo, é inevitável adentrar o domínio da religião. Por conseguinte, minha exposição se desdobrará, naturalmente, em uma explanação sobre a própria natureza da fé.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Esse mesmo princípio se aplica à vida de cada indivíduo. É por isso que sou tão rigoroso com a questão da ordem. Vejamos o caso do Johrei. Devemos ministrá-lo primeiro aos doentes em estado mais grave ou àqueles que chegaram antes? A resposta correta é: começar pelos mais idosos. Entre homens e mulheres, os homens têm a precedência. Seguir essa sequência potencializa a eficácia da cura.</p>
 <p>Quando a ordem é violada no Mundo Material, ocorre uma perturbação análoga no Mundo Espiritual. Essa desarmonia, por sua vez, reflete-se novamente no plano físico, impedindo que as coisas fluam com suavidade. Por conseguinte, ao realizar qualquer atividade, é preciso estar sempre atento à ordem correta.</p>
 <p>Como sempre ensino, em qualquer atividade, aquilo que se refere a Deus deve ter prioridade absoluta. É um erro tratar de assuntos pessoais antes de se dirigir ao serviço Divino, pois isso significa colocar as necessidades humanas acima de Deus, menosprezando o sagrado. Em tal caso, seria preferível nem mesmo ir. A esse respeito, embora pareça um detalhe insignificante, lembro-me de que, certa vez, quando eu estava para sair pela porta da frente, minha tia passou diante de mim. Entrei no carro e ela também, mas assim que o veículo começou a se mover, senti um profundo mal-estar. Retornei de Izusan até Minakuchi, entrei novamente em casa e só então retomei a viagem para Tóquio. Se eu tivesse prosseguido, certamente o automóvel teria apresentado algum problema, pois o Mundo Espiritual se encontrava em desalinho. Naturalmente, não se deve ser excessivamente escrupuloso, mas é fundamental ter sempre em mente os pontos essenciais desse princípio.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年8月28日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月二十八日 文明の創造も医学だけは大体できあがったんですがね。<br/><br/>医学と言っても体的の方面ですね。<br/><br/>それだけは書きあがったようですけれども、これから霊的の方を書こうと思って書き始めたんですが、霊的を書くにはどうしても宗教と別に離すことができない。<br/><br/>それでだんだん宗教の説明になってくるわけです。<br/><br/> 今医学の欠点をいろいろ説明しているんですが、これは一種の最後の審判なんです。<br/><br/> 昨日の「読売」と今日の「毎日」に「 新しき暴力 」という本の広告がありました。<br/><br/>あれには 付録 がつくんです。<br/><br/>それは、この間公判の時に私を調べた警察官が証人になり、嘘や作り事、でたらめを言いすぎるから、それをウンと書いて、それに繋がって去年からの、つまり彼らがない罪をつくったやり方やいろんなことをそうとう書いてありますから、それを付録にした。<br/><br/>ですからおもしろいと思うんです。<br/><br/>宗教の本来のやり方はこうだと言うことも書いた。<br/><br/>宗教の意味でやるんだから、別に先方を非難するというような意味はないんです。<br/><br/>そういう方面について、とにかくきれいにしなければならないというように書いた。<br/><br/>それでいろんな著名人がよく書いてます。<br/><br/>昨日の広告にも中島健蔵の評が書いてある。<br/><br/>非常に良いことを載せてあるので感心した。<br/><br/> それから、もう一つは美術館ですね。<br/><br/>あれも建築の方にかかり始めた。<br/><br/>どうしても神様は急ぐんですね。<br/><br/>来年の夏までにしなければならないというので、そのつもりで始めたんですが、中に陳列に使うケースだけを備えつければいいんですから、割合簡単です。<br/><br/>あそこに模型もできてますが、大体あの通りで、三階は日本間になる。<br/><br/>これは外人が来た時――ゆっくり良いものを見せるという時――日本的の気分を出すには必要だと思ってこしらえた。<br/><br/>で、おそらく美術館としては日本一になるだろうと思う。<br/><br/>こっちの美術館が立派というより、他にある美術館が貧弱なんです。<br/><br/>私はたいしたものじゃないと思っていたが、他の美術館はもっとたいしたものじゃない。<br/><br/> 博物館ならばですね。<br/><br/>これは建築も立派ですし、品物も多い。<br/><br/>博物館の根本的観念は、つまり学問的――考古学的――とかに重きをおいて、美術ということが薄いんですね。<br/><br/>そこで、博物館には古いいろんなものはありますが、美術的というものは物足りない点があると思います。<br/><br/>それで、私は審美眼で見て、良いものをという方針にした。<br/><br/>というのは、仮に正倉院の宝物なんて――時々やりますが、みんなたいへん大騒ぎをやって――去年だったか、たいへんな大入り満員だった。<br/><br/>新聞のせいもあったが――ところが私も好きで研究しましたが、さて正倉院のを見ても感心するのはないんです。<br/><br/>古ぼけたのがありますが、なるほど千年前にこんなものがよくできたというのは感じますが、これを部屋に飾って楽しんでみたいとは思えないんです。<br/><br/>ですからアメリカの美術展に百何十点か行きましたが、これを理解できるのはないと思います。<br/><br/>三分の一くらいでしょう。<br/><br/>ただ、古いというのですね。<br/><br/>古いというのは美術的より、よく保存されてきた。<br/><br/>というそれを感心するわけですね。<br/><br/>だから私はよく言う。<br/><br/>これは「保存の美術だ」とね。<br/><br/>そんなわけだから、私はあえて古いものにこだわらない。<br/><br/>現代のものでも美術的の高いもの、それは陳列するつもりです。<br/><br/>だから、ただ古いものに捉われるという――一つの妙な癖をみんな持っているんですね。<br/><br/>それで、そういう点も大いに直したいと思っているんです。<br/><br/>まあーできて陳列したら分かりますがね。<br/><br/> 誰が見ても理解できるということを主眼にした。<br/><br/>大体美術の目的というのは、人間が美術を楽しんで、知らず知らずに霊的に高くなる。<br/><br/>趣味を高めるんですね。<br/><br/>その人の魂を清めるには非常に良いわけですね。<br/><br/>それでないと、今のようにパチンコ屋だとか、ストリップだとかたくさんありますからね。<br/><br/>いけないとは言いません。<br/><br/>少しは良いですが、もっと高いものを見せなければならないというわけです。<br/><br/>一般人が見て理解ができなければならないですから――考え込んだり、うなったりしては、やっぱり駄目ですからね。<br/><br/>目のきいた人でも、そうでない人も楽しめる――それに引きつけられる、というようなのでなくては本当の意味はないと思います。<br/><br/>そういう方針でやろうと思っている。<br/><br/> それから、今やり始めているが、裏手の方ですね。<br/><br/>あっちもウンとおもしろいものを造る――あっと言うものを造るつもりですが、あんまり精しく言えないが。<br/><br/>それで大体ここが完成するわけです。<br/><br/> 信仰には限らず、あらゆるものがそうですが、ここが完成しなければ本当の発展がないんです。<br/><br/>ちょうど人間で言えば、立派な洋服を着たんだが、まだ靴下をはいてない。<br/><br/>跣（はだし）では歩けないから靴をはかなければならない。<br/><br/>ネクタイもしなければならない。<br/><br/>そういうわけで――揃ってはじめて人の前にいばって出られるというわけで、完成しなければ、そこに欠点がありますから発展がしない。<br/><br/>ですからこのくらいの本山がこれだけ拡がれば、それだけ教線も拡がるものです。<br/><br/>ですから、相応の理と言って神様の方は特にそういうことはやかましい。<br/><br/>それから、熱海は体で箱根は霊です。<br/><br/>熱海は緯（よこ）、箱根は経（たて）になる。<br/><br/>ですからここがすまないと熱海はできない。<br/><br/>こっちの建築がすまないと熱海の建築ができない。<br/><br/>実にはっきりしている。<br/><br/>瑞雲郷の少し先に欲しいのがあるが、それを先に手に入れることはできない。<br/><br/>実に順序良く、隣から隣へと次々いっている。<br/><br/>ああいうのにも非常に順序がある。<br/><br/> 「神は順序なり」と言ってね。<br/><br/>順序を乱したりしているから、今の世の中は非常に乱れている。<br/><br/>そういうことを知らないんですね。<br/><br/>そういうわけで、ここができなければ熱海はできない。<br/><br/>それから、ここも将来大きな本山にする所を買ってありますが、それも順序があります。<br/><br/>ここができて、熱海ができて、それからまたここが（本山）それからは小田原にできるか、京都が先になるかもしれないが、そういう順序になる。<br/><br/>これは大きい順序です。<br/><br/> 人間の個人としてもやはり順序がある。<br/><br/>だから私は、順序だけはやかましく言いますが、浄霊の時もそうです。<br/><br/>一番先に重病人をやり、それから軽い人にいくか。<br/><br/>来た順序にするか。<br/><br/>来ている人の年とった人からやる。<br/><br/>それから、男と女だと、男を先にする。<br/><br/>そうすると治りも良い。<br/><br/> 現界で順序をはずすと、霊界がはずれてしまう。<br/><br/>そうすると、それが現界に写るから、どうしても滑らかにいかない。<br/><br/>だから、なにかやるとかという時は順序を注意するようにする。<br/><br/> いつも言う通り、その時の目的によって、神様に対する物事は一番先にしなければならない。<br/><br/>神様の所に行く時に、他の用事をしてから行くといけない。<br/><br/>そうすると人間の用事が先になり、神様の方を下にみることになる。<br/><br/>そういう時は、むしろ神様の方に行かない方が良い。<br/><br/>そういうことについてつまらないことですが――いつか、私が玄関から出ようとすると、叔母が横切った。<br/><br/>それで車に乗ったが、叔母も乗ったが、車が走り出すと、それがとても気持ちが悪い。<br/><br/>それで、伊豆山から水口まで後戻りして一度家に入り、それから改めて東京へ出直した。<br/><br/>そういう時にそのまま行くと、自動車に故障がある。<br/><br/>それは霊界が違っちゃうからです。<br/><br/>しかし、あんまりうるさくするといけないが、肝腎なことだけは心得ておくと良い。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

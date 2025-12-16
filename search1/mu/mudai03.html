@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mudai03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 『栄光』123号、昭和26(1951)年9月26日発行 私は今日の放送中「近頃の世相」なる街頭録音を聴いたが、それぞれ現在の世相に対する不満や希望等を言い、こういうところに原因があるとか、こういう社会的欠陥が困るとか言い、誰も彼も一致する点は、政治が悪い、教育が悪い、社会悪のためなどと言うのであったが、一人として信仰が無いため、と言った者はなかったので、私はガッカリしてしまった。<br><br>これをもってみても、今日の人間は信仰に無関心であるかが、ハッキリ分ったのである。<br><br> ところがみんなが言っている色々の苦しみは、その根本はことごとくといいたい程無信仰のためであって、信仰者になりさえすれば、雑作（ぞうさ）もなく解決が出来る性質のものであるが、それに気が付かないのだから、可哀想な世の中であり、いつになっても苦しみから脱却出来ないのである。<br><br>このように無信仰者が多いという原因は、全く既成宗教を信じ得ないからで、それは余りに無力であるからであろう、としたら人民ばかりを咎（とが）める訳にはゆくまいであろう。<br><br> 従って、何としても宗教の信用を快復し高める事で、それ以外決して方法はあり得ないのである。<br><br>といってもこれはまた大変な仕事である。<br><br>何となればその条件こそは、信仰をしてる人は、してない人よりも沢山の御利益（ごりやく）があり、大いに幸福に恵まれるという現実を見せなければならないが、それによって神様のある事が信じられるのである。<br><br>ところが厄介な事には、今日偉い人程、現当利益を蔑視し、低級宗教的に扱うのだから、自然信仰者が出来ないという訳で、彼らの唯物迷信のため、いかに多くの不幸者を作り、人民の幸福を妨げているか分らない程である。<br><br>そうして現当利益こそ尊いものはないが、これこそ奇蹟を見せる事であって、これより外に最良の方法はないのである。<br><br>この意味において本教くらい奇蹟の多い宗教はないにみて、多くをいう必要はあるまい。<br><br>放送を聴いて、思いついたままをかいてみたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa Primordial dos Sofrimentos Sociais</h2>
 <p>Hoje, durante uma transmissão radiofônica, ouvi um quadro com gravações de rua intitulado “O Cenário do Mundo Atual”. Nele, as pessoas externavam suas insatisfações e esperanças sobre a sociedade contemporânea. As queixas eram variadas, apontando para as mais diversas causas e falhas estruturais. Contudo, um ponto convergia em todas as falas: a culpa recaía sobre a má política, as deficiências da educação ou os males da sociedade. Fiquei profundamente desolado, pois nem um único indivíduo mencionou a ausência de fé como a raiz dos problemas. Tal fato apenas me evidenciou, com absoluta clareza, o quão indiferente o ser humano de hoje se tornou à fé.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O obstáculo, entretanto, reside em um fato lamentável: nos dias de hoje, quanto mais proeminentes são os indivíduos, mais eles desprezam as graças imediatas e palpáveis, tratando-as como práticas de uma religiosidade inferior. Com essa atitude, eles próprios se tornam um empecilho ao surgimento de novos fiéis. É incalculável o número de pessoas que eles condenam à infelicidade, obstruindo o bem-estar do povo com sua superstição materialista.</p>
 <p>Na verdade, não há nada mais sublime do que as graças concretas, pois elas constituem a própria manifestação de milagres, e não existe método mais eficaz para despertar a fé. Nesse aspecto, ao constatar que não há religião que se iguale à nossa no tocante à profusão de milagres, creio que maiores explanações se tornam desnecessárias.</p>
 <p>Apenas externei os pensamentos que me ocorreram ao ouvir a referida transmissão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 『栄光』123号、昭和26(1951)年9月26日発行 私は今日の放送中「近頃の世相」なる街頭録音を聴いたが、それぞれ現在の世相に対する不満や希望等を言い、こういうところに原因があるとか、こういう社会的欠陥が困るとか言い、誰も彼も一致する点は、政治が悪い、教育が悪い、社会悪のためなどと言うのであったが、一人として信仰が無いため、と言った者はなかったので、私はガッカリしてしまった。<br/><br/>これをもってみても、今日の人間は信仰に無関心であるかが、ハッキリ分ったのである。<br/><br/> ところがみんなが言っている色々の苦しみは、その根本はことごとくといいたい程無信仰のためであって、信仰者になりさえすれば、雑作（ぞうさ）もなく解決が出来る性質のものであるが、それに気が付かないのだから、可哀想な世の中であり、いつになっても苦しみから脱却出来ないのである。<br/><br/>このように無信仰者が多いという原因は、全く既成宗教を信じ得ないからで、それは余りに無力であるからであろう、としたら人民ばかりを咎（とが）める訳にはゆくまいであろう。<br/><br/> 従って、何としても宗教の信用を快復し高める事で、それ以外決して方法はあり得ないのである。<br/><br/>といってもこれはまた大変な仕事である。<br/><br/>何となればその条件こそは、信仰をしてる人は、してない人よりも沢山の御利益（ごりやく）があり、大いに幸福に恵まれるという現実を見せなければならないが、それによって神様のある事が信じられるのである。<br/><br/>ところが厄介な事には、今日偉い人程、現当利益を蔑視し、低級宗教的に扱うのだから、自然信仰者が出来ないという訳で、彼らの唯物迷信のため、いかに多くの不幸者を作り、人民の幸福を妨げているか分らない程である。<br/><br/>そうして現当利益こそ尊いものはないが、これこそ奇蹟を見せる事であって、これより外に最良の方法はないのである。<br/><br/>この意味において本教くらい奇蹟の多い宗教はないにみて、多くをいう必要はあるまい。<br/><br/>放送を聴いて、思いついたままをかいてみたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

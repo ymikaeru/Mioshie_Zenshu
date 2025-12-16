@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinno13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の大乗宗教 『栄光』242号、昭和29(1954)年1月6日発行 宗教には大乗と小乗とあるのは一般に知られているが、これについて今までの宗教家や宗教学者が説く説は、はなはだ曖昧杜撰（あいまいずさん）極まるものであって、真諦（しんたい）に触れているものはほとんどないといってよかろう。<br><br>従って私はここに徹底的にかいてみようと思うのである。<br><br>その前にまず知っておかねばならない事は、世界におけるあらゆる宗教のあり方である。<br><br>それは昔から開祖、教祖の説いたところを基本とし、その宗教独特の教化方法形式などもそれぞれそなわっており、言わば色分けになっている。<br><br> 早い話が世界的宗教としての仏教、キリスト教は固（もと）より、日本における神道、仏教にしてもそうであり、しかもその一宗一派の中にも分派があり、それぞれの色分けになっているので、これらを考えてみると、どうも根本的不合理を感ずる。<br><br>というのは宗教なるものの本来である。<br><br>言うまでもなく人間相互の親愛、平和協調精神が生命である以上、目標は一つであらねばならない。<br><br>従ってその手段方法にしても色分け等ないのが本当ではなかろうか。<br><br>それが別れ別れになっているとしたら、人類の思想もそれに伴うのはもちろんで、これがまた社会混乱の原因ともなるであろう。<br><br>しかも宗教という善の側にある人の力は分散されるから、邪神の力に対抗する事も出来なくなる。<br><br>これは事実を見ても分るごとく、宗教よりもその反対側である邪悪の方の力が勝つ事が常にある。<br><br>もっとも神は十全、邪神は九分九厘であるから最後は神が勝つのはもちろんだが、それだけ善の方の苦しみは並大抵ではない。<br><br>これについて私の経験上そういう事がよくあった。<br><br>それは邪神の勢力が旺盛でほとんど支配権を握っており、絶えず吾々に対し眼を光らし、隙あらばか切り込んで来る、彼（か）のキリストにサタン、釈迦に提婆（だいば）の言い伝えは今も変りはないとさえ思われる。<br><br> こうみてくると宗教は邪神以上の力をもたねばならない。<br><br>それでなくては善の勝つ幸福な世にはなり得ないのである。<br><br>そうなってこそ万教は帰一し、世界は打って一丸となり、ここに不安なき幸福な世界が実現するのである。<br><br>しかしそれは容易な業ではないが、不可能ではない。<br><br>なぜなれば主神の御目的たる地上天国はすでに近寄りつつあるからである。<br><br>その根本はもちろん小乗を棄て、大乗精神が基本的条件となる事である。<br><br>すなわち地球上一切のもの、宗教、科学、政治、経済、芸術等ことごとくを包含されたところの超文化運動であり、その指導的役割こそ超人的力と智慧とを有する巨人が出なければならない事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Religião do Grande Veículo</h2>
 <p>É de conhecimento geral que nas religiões existem o Grande Veículo e o Pequeno Veículo. Todavia, as explanações oferecidas até hoje por religiosos e acadêmicos a esse respeito são de uma vagueza e displicência extremas, sendo raras aquelas que sequer tangenciam a verdade suprema. Proponho-me, portanto, a elucidar este tema de forma definitiva.</p>
 <p>Antes, porém, é imprescindível compreender a condição de todas as religiões no mundo. Desde tempos imemoriais, elas se fundamentam nos preceitos de seus fundadores e possuem métodos e formalidades de proselitismo que lhes são peculiares, o que resultou em uma nítida segmentação. Isso se aplica não apenas a religiões de alcance mundial, como o Budismo e o Cristianismo, mas também ao Xintoísmo e às diversas escolas budistas no Japão. Ademais, no seio de cada uma dessas denominações, existem ainda outras subdivisões, cada qual com sua identidade particular. Ao contemplar esse panorama, percebe-se uma profunda e fundamental irracionalidade.</p>
 <p>Essa percepção advém da própria natureza da religião. Sendo sua essência, como é evidente, o amor fraternal, a paz e o espírito de cooperação entre os seres humanos, seu objetivo deveria ser um só. Consequentemente, não seria lógico que seus métodos e caminhos também fossem unificados, livres de tais segmentações? Se as religiões se encontram divididas, é natural que o pensamento humano siga o mesmo padrão, o que, por sua vez, se converte em uma das causas da desordem social. Além disso, a força daqueles que se alinham ao bem, por meio da religião, torna-se dispersa, incapacitando-os de se opor eficazmente ao poder dos Espíritos Malignos. A realidade demonstra que, com frequência, a força do mal prevalece sobre a da religião. Evidentemente, como Deus é a perfeição absoluta e os Espíritos Malignos detêm um poder que, embora grande, é incompleto, a vitória final pertence a Deus. Contudo, até que esse momento chegue, o sofrimento daqueles que trilham o caminho do bem é incomensurável. Minha própria experiência tem confirmado essa verdade repetidas vezes. A influência dos Espíritos Malignos é tão avassaladora que eles praticamente detêm o domínio, vigiando-nos incessantemente e esperando a menor brecha para desferir seus ataques. As antigas narrativas de Satanás tentando Cristo e de Devadatta se opondo a Buda parecem ressoar com a mesma veracidade em nossos dias.</p>
 <p>Diante desse quadro, torna-se evidente que a religião precisa manifestar um poder superior ao dos Espíritos Malignos. Sem essa condição, jamais será possível construir um mundo de felicidade em que o bem prevaleça. Somente quando isso ocorrer, todas as religiões convergirão para a unidade, o mundo se tornará um só corpo e, finalmente, será concretizado um paraíso de felicidade isento de toda e qualquer apreensão. Essa, contudo, não é uma tarefa fácil, mas tampouco é impossível, pois o Paraíso Terrestre, objetivo primordial do Deus Supremo, já se aproxima de nós. A condição fundamental para tal realização é, inquestionavelmente, o abandono da mentalidade do Pequeno Veículo em prol do espírito do Grande Veículo. Trata-se, em essência, de um movimento supracultural que abarca a totalidade das atividades humanas — religião, ciência, política, economia, artes, entre outras. Para liderar tal movimento, é indispensável o advento de um gigante, dotado de poder e sabedoria sobre-humanos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の大乗宗教 『栄光』242号、昭和29(1954)年1月6日発行 宗教には大乗と小乗とあるのは一般に知られているが、これについて今までの宗教家や宗教学者が説く説は、はなはだ曖昧杜撰（あいまいずさん）極まるものであって、真諦（しんたい）に触れているものはほとんどないといってよかろう。<br/><br/>従って私はここに徹底的にかいてみようと思うのである。<br/><br/>その前にまず知っておかねばならない事は、世界におけるあらゆる宗教のあり方である。<br/><br/>それは昔から開祖、教祖の説いたところを基本とし、その宗教独特の教化方法形式などもそれぞれそなわっており、言わば色分けになっている。<br/><br/> 早い話が世界的宗教としての仏教、キリスト教は固（もと）より、日本における神道、仏教にしてもそうであり、しかもその一宗一派の中にも分派があり、それぞれの色分けになっているので、これらを考えてみると、どうも根本的不合理を感ずる。<br/><br/>というのは宗教なるものの本来である。<br/><br/>言うまでもなく人間相互の親愛、平和協調精神が生命である以上、目標は一つであらねばならない。<br/><br/>従ってその手段方法にしても色分け等ないのが本当ではなかろうか。<br/><br/>それが別れ別れになっているとしたら、人類の思想もそれに伴うのはもちろんで、これがまた社会混乱の原因ともなるであろう。<br/><br/>しかも宗教という善の側にある人の力は分散されるから、邪神の力に対抗する事も出来なくなる。<br/><br/>これは事実を見ても分るごとく、宗教よりもその反対側である邪悪の方の力が勝つ事が常にある。<br/><br/>もっとも神は十全、邪神は九分九厘であるから最後は神が勝つのはもちろんだが、それだけ善の方の苦しみは並大抵ではない。<br/><br/>これについて私の経験上そういう事がよくあった。<br/><br/>それは邪神の勢力が旺盛でほとんど支配権を握っており、絶えず吾々に対し眼を光らし、隙あらばか切り込んで来る、彼（か）のキリストにサタン、釈迦に提婆（だいば）の言い伝えは今も変りはないとさえ思われる。<br/><br/> こうみてくると宗教は邪神以上の力をもたねばならない。<br/><br/>それでなくては善の勝つ幸福な世にはなり得ないのである。<br/><br/>そうなってこそ万教は帰一し、世界は打って一丸となり、ここに不安なき幸福な世界が実現するのである。<br/><br/>しかしそれは容易な業ではないが、不可能ではない。<br/><br/>なぜなれば主神の御目的たる地上天国はすでに近寄りつつあるからである。<br/><br/>その根本はもちろん小乗を棄て、大乗精神が基本的条件となる事である。<br/><br/>すなわち地球上一切のもの、宗教、科学、政治、経済、芸術等ことごとくを包含されたところの超文化運動であり、その指導的役割こそ超人的力と智慧とを有する巨人が出なければならない事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

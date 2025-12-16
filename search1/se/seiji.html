@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seiji</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 政治は正義 未発表、年代不詳 現在日本の政治家について、吾々の思う通り言わして貰えば、何といっても余りに正義感の足りないように見える事である。<br><br>例えば政府にしても与党や反対党にしても、何らかの問題にといて、論議し意見を戦わす場合といえども、閣僚の意見は国民の利害は第二とし、政府自体の利害を先にするように見える。<br><br>つまり失敗のないよう、反対党から斬込（きりこ）まれないよう、言論機関から非難を受けないようというように、そのことごとくが利己的観念から出発している。<br><br>また反対党にしても政府のやり方のいい悪いはどうでもいい。<br><br>とにかく何かの欠点を見出し、抜差しならないように虐（いじ）めてやり、あわよくば内閣をブチ壊して、自党の側で政権を奪（と）ろうとするような事のみに懸命になっているのであるから、どちらも忌憚（きたん）なくいえば、政府は常に保身術のみに営々としており、野党は内閣ブチ壊しが目的の第一としているのは、争う余地のない事実であろう。<br><br> 以上の様相を国民から見る時、政府及び与党も反対党も、国利民福などは二の次で、封建時代と同様、天下の実権を把握するのが、全部の目的としか思われない。<br><br>それが昔は武器によって雌雄（しゆう）を決したのだが、それに代るに今は舌の剣で、議会という戦場で闘っている訳だから、国民こそいい面の皮である。<br><br>こうみてくると国民は彼らの利益のために、道具にしかなっていないように思われるのであるから、何と情ない話ではあるまいか。<br><br>とすれば今日といえども、封建時代の社会を思わせる。<br><br>ただ形式が文化的になっただけの話でしかあるまい。<br><br> このような訳であるから、何よりも国民が政治に対する信頼感は、極めて薄弱である。<br><br>例えば今度の選挙にしても、それがよく現われている。<br><br>というのは国家の利害よりも、自己の利害によって投票をする。<br><br>というのは結果を見ても分る。<br><br>つまり意外な番狂わせである。<br><br>その中で最も景気のよかったのは社会党左派であるが、これは左派の政策によったのではない。<br><br>ただ再軍備反対の看板によったのである。<br><br>言うまでもなく戦争に懲（こ）り懲（ご）りしたのはもちろんだが、本人は固（もと）より、自分の亭主や息子で年頃であるとすると、戦争で引張られる憂いがあるからで、多分婦人投票が多かったからであろう。<br><br>また改進党や鳩山派の成績が悪かったのも、右と反対であったからであるのはもちろんである。<br><br> ところが自由党が割合成績がよかったのは、再軍備に対し、どこまでもボヤかしており、保安隊を作り、吉田首相はどこまでも再軍備はやらないという、その意見に安心して投票したためであろう。<br><br>また社会党右派が左派よりも悪かったのは、幾分再軍備の匂いがあるからであるに違いない。<br><br>とすればこのような国民の考え方は国家本位よりも、自己本位という考え方が実によく現われているとしか見ねばなるまい。<br><br>以上によってみても、政治家の利己的思想が根幹となって、国民全部の思想を濁らしているのは明かであるから政治家たる者はこの点大いに考えて貰いたいのである。<br><br> これを一言にしていえば、自己的観念よりも、国家的観念を第一にする事である。<br><br>つまりどうすれば国家が繁栄し、人民の幸福が増進するかという事を、常に考えて意見を立てて行動に移すべきである。<br><br>この根本こそ正義感の多少による事は言うまでもない。<br><br>これは何事もそうだが、政治の善い悪い程国民全体の福祉に影響するものはないからで、日本の再建も将来の繁栄も、ただこの一点にある事を強調したいのである。<br><br>これについて言いたい事は、この正義感を培（つちか）う手段としては、信仰より外にあり得ない事を断言するのである。<br><br>ところが不思議な事には、我国も多種多様の宗教があり、古い宗教も新しい宗教も、日本くらい多い国はないとされている。<br><br>にもかかわらず民衆の方は相当信仰者の数もあるが、政治家始め学者やジャーナリストの指導階級にある人は、その点零（ゼロ）といってもいいくらいであるから、日本が病気、貧乏、犯罪等、社会悪が多いのも、根本は右の理由にある事が明かである。<br><br>従ってこの点に気が付き、信仰を政治の基本としない限り、日本の繁栄は望み得べくもない事を銘記すべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Justiça como Alicerce da Política</h2>
 <p>Ao nos permitirmos tecer considerações sobre os políticos do Japão contemporâneo, o que se percebe, acima de tudo, é uma notória carência de senso de justiça. Tomemos como exemplo o governo, os partidos da situação ou mesmo os da oposição: sempre que um tema é levado a debate e as opiniões se confrontam, os interesses da nação parecem ser relegados a um segundo plano, priorizando-se a conveniência da própria máquina governamental. Com efeito, todas as suas ações partem de uma concepção egoísta, pautada em evitar falhas, em não ser atacado pela oposição e em não receber críticas da imprensa. Por outro lado, para os partidos de oposição, pouco importa se a conduta do governo é acertada ou não. Seu empenho se concentra em encontrar qualquer falha que seja, em atormentar o governo até uma situação insustentável e, na primeira oportunidade, em derrubar o gabinete para usurpar o poder. Sendo assim, falando sem rodeios, o governo se ocupa incessantemente de sua autopreservação, enquanto a oposição tem como objetivo primordial a queda do gabinete. Esta é uma realidade incontestável.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A relativa vitória do Partido Liberal, por sua vez, pode ser atribuída à sua postura ambígua em relação ao rearmamento. Ao mesmo tempo em que criava as Forças de Autodefesa, o primeiro-ministro Yoshida assegurava que não promoveria o rearmamento, e essa declaração tranquilizou os eleitores e os levou a votar em seu partido. Já o fato de o Partido Socialista de Direita ter tido um resultado pior que o de Esquerda se deve, sem dúvida, a um certo aceno favorável ao rearmamento. Tal conjuntura revela, de forma inequívoca, que o pensamento do povo é mais egocêntrico do que nacionalista. Fica evidente, portanto, que a mentalidade egoísta dos políticos constitui a raiz que contamina o pensamento de toda a nação. É imperativo que os homens públicos reflitam profundamente sobre este ponto.</p>
 <p>Em suma, é preciso colocar a consciência nacional acima dos interesses individuais. A ação política deve ser precedida por uma reflexão constante sobre como promover a prosperidade da nação e ampliar a felicidade do povo. O alicerce para tanto reside, inegavelmente, na maior ou menor presença do senso de justiça. Embora isso se aplique a todas as áreas, nenhuma exerce influência tão profunda no bem-estar coletivo quanto a boa ou a má política. Desejo enfatizar que a reconstrução do Japão e sua prosperidade futura dependem unicamente deste ponto.</p>
 <p>A este respeito, afirmo, categoricamente, que o único meio de cultivar tal senso de justiça é a fé. É curioso notar que, embora nosso país abrigue uma multiplicidade de religiões, antigas e novas, em uma profusão talvez inigualada no mundo, e embora haja um número considerável de fiéis entre o povo, a classe dirigente — composta por políticos, acadêmicos e jornalistas — permanece praticamente alheia à fé. Esta é, fundamentalmente, a razão pela qual o Japão se vê assolado por tantos males sociais, como a doença, a pobreza e o crime. Portanto, enquanto não se derem conta desta realidade e não fizerem da fé o alicerce da política, a prosperidade do Japão será uma esperança inalcançável. É crucial que isso fique gravado em suas mentes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 政治は正義 未発表、年代不詳 現在日本の政治家について、吾々の思う通り言わして貰えば、何といっても余りに正義感の足りないように見える事である。<br/><br/>例えば政府にしても与党や反対党にしても、何らかの問題にといて、論議し意見を戦わす場合といえども、閣僚の意見は国民の利害は第二とし、政府自体の利害を先にするように見える。<br/><br/>つまり失敗のないよう、反対党から斬込（きりこ）まれないよう、言論機関から非難を受けないようというように、そのことごとくが利己的観念から出発している。<br/><br/>また反対党にしても政府のやり方のいい悪いはどうでもいい。<br/><br/>とにかく何かの欠点を見出し、抜差しならないように虐（いじ）めてやり、あわよくば内閣をブチ壊して、自党の側で政権を奪（と）ろうとするような事のみに懸命になっているのであるから、どちらも忌憚（きたん）なくいえば、政府は常に保身術のみに営々としており、野党は内閣ブチ壊しが目的の第一としているのは、争う余地のない事実であろう。<br/><br/> 以上の様相を国民から見る時、政府及び与党も反対党も、国利民福などは二の次で、封建時代と同様、天下の実権を把握するのが、全部の目的としか思われない。<br/><br/>それが昔は武器によって雌雄（しゆう）を決したのだが、それに代るに今は舌の剣で、議会という戦場で闘っている訳だから、国民こそいい面の皮である。<br/><br/>こうみてくると国民は彼らの利益のために、道具にしかなっていないように思われるのであるから、何と情ない話ではあるまいか。<br/><br/>とすれば今日といえども、封建時代の社会を思わせる。<br/><br/>ただ形式が文化的になっただけの話でしかあるまい。<br/><br/> このような訳であるから、何よりも国民が政治に対する信頼感は、極めて薄弱である。<br/><br/>例えば今度の選挙にしても、それがよく現われている。<br/><br/>というのは国家の利害よりも、自己の利害によって投票をする。<br/><br/>というのは結果を見ても分る。<br/><br/>つまり意外な番狂わせである。<br/><br/>その中で最も景気のよかったのは社会党左派であるが、これは左派の政策によったのではない。<br/><br/>ただ再軍備反対の看板によったのである。<br/><br/>言うまでもなく戦争に懲（こ）り懲（ご）りしたのはもちろんだが、本人は固（もと）より、自分の亭主や息子で年頃であるとすると、戦争で引張られる憂いがあるからで、多分婦人投票が多かったからであろう。<br/><br/>また改進党や鳩山派の成績が悪かったのも、右と反対であったからであるのはもちろんである。<br/><br/> ところが自由党が割合成績がよかったのは、再軍備に対し、どこまでもボヤかしており、保安隊を作り、吉田首相はどこまでも再軍備はやらないという、その意見に安心して投票したためであろう。<br/><br/>また社会党右派が左派よりも悪かったのは、幾分再軍備の匂いがあるからであるに違いない。<br/><br/>とすればこのような国民の考え方は国家本位よりも、自己本位という考え方が実によく現われているとしか見ねばなるまい。<br/><br/>以上によってみても、政治家の利己的思想が根幹となって、国民全部の思想を濁らしているのは明かであるから政治家たる者はこの点大いに考えて貰いたいのである。<br/><br/> これを一言にしていえば、自己的観念よりも、国家的観念を第一にする事である。<br/><br/>つまりどうすれば国家が繁栄し、人民の幸福が増進するかという事を、常に考えて意見を立てて行動に移すべきである。<br/><br/>この根本こそ正義感の多少による事は言うまでもない。<br/><br/>これは何事もそうだが、政治の善い悪い程国民全体の福祉に影響するものはないからで、日本の再建も将来の繁栄も、ただこの一点にある事を強調したいのである。<br/><br/>これについて言いたい事は、この正義感を培（つちか）う手段としては、信仰より外にあり得ない事を断言するのである。<br/><br/>ところが不思議な事には、我国も多種多様の宗教があり、古い宗教も新しい宗教も、日本くらい多い国はないとされている。<br/><br/>にもかかわらず民衆の方は相当信仰者の数もあるが、政治家始め学者やジャーナリストの指導階級にある人は、その点零（ゼロ）といってもいいくらいであるから、日本が病気、貧乏、犯罪等、社会悪が多いのも、根本は右の理由にある事が明かである。<br/><br/>従ってこの点に気が付き、信仰を政治の基本としない限り、日本の繁栄は望み得べくもない事を銘記すべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

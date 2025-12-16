@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qyonjugo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 四十五年間の頭痛を御救い戴いて 『栄光』257号、昭和29(1954)年4月21日発行 兵庫県 喜光中教会 中島芳吉（50） 明主様日々の御守護厚く御礼申し上げます。<br><br>謹んで御守護の一端を御報告申し上げます。<br><br> 省みますれば子供の時より身体が弱く、ろくろく学校も行けない程でございました。<br><br>それに一番肝心の頭が痛むのです。<br><br>とうとう中退し療養に努めましたが効もなく、顔色は悪く、人からいつも死んでしまうように言われていましたが、どうやら死なずに青年期に達しました。<br><br>その時友達よりノーシンが頭痛によく効くと知らされ服用しましたら成程頚の痛みがとれ今までになく気分がよくなりましたので、それからというものはただノーシンの一点張りに進みましたが、初めは一服で済んだのが日が経つにつれだんだんと量が増し、遂に中毒にかかってしまいノーシンがなくては日がすごされなくなってしまいましたが、それにノーシンを服用してからだんだんと胃が悪くなり、裸になると胃が突出しているのが分るようになり、食事は味がなく決ったように月二回は胃痙攣で苦しむ有様で、片時も気分がよい日がなく辛い日が今日まで続いておりました。<br><br> それでも医学や薬は絶対的のものと信じ、ノーシンだけは離さずいつもポケットに持っておりました。<br><br>ところが昨年九月に元気な妻が中風になり、医者や薬に頼りましたが効もなく困っておりましたが、心安い森様や小村様（信者）が明石の支部の月並祭の帰りに見舞に寄って下さって、初めてこのお道の話をいろいろと聞かせて下さいましたが妻は早速理解し御浄霊を戴きましたが、今から考えると申訳ありませんが、無信仰で疑い深い私は「そんな事で治るものか、この世の中に神も仏もあるものではない、皆人間が作り上げるものだ」と内心思っておりましたが、それから毎日二人が御浄霊に来て下さるようになってから、妻が日一日と御蔭を戴いてよくなって参りました。<br><br> 疑い深い私も事実の前には頭が下り、初めて御願い致し御浄霊を御受け致しました。<br><br>その時肩にはサロンパスをはり矢張りノーシンも持っておりましたが、森様より「薬が毒でそれが又余病の因になるから、サロンパスもノーシンもやめてみなさい」と言われ、その日から二十三年間愛用して来たノーシンをきっぱりやめることに致しました。<br><br>そうして御浄霊を戴きましたところ、不思議に身体全身が暖かくなって、気分が非常によくなりました。<br><br>それから妻と共に毎日御浄霊を戴き日々に御蔭を戴き、四十五年間の頭痛もとって戴き、胃の方も丈夫にして戴き、突出している部分も徐々に小さくなって来ており、今日では自分の体が別人のように思われる程健康にして戴きました。<br><br> 過去の私を知っている人達は、最近青かった顔が血色がよく若返って来たといってくれるようになりました。<br><br>今日では御守様も拝受させて戴き、私のように子供の時より弱かったため学問も充分できなかったのも今から考えると薬毒のためであったことを分らせて戴き、薬の恐ろしさをしみじみと教え戴き、世の悩める人達や弱き子を持つ人々にこの福音を伝えたく思っております。<br><br> 誠に至らぬ私でございますが、何卒地上天国建設の一員として御神業に御使い下さいますよう御願い申し上げます。<br><br> 明主様誠に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A salvação de uma cefaleia de quarenta e cinco anos</h2>
 <p>Publicado na revista Glória, nº 257, em 21 de abril de 1954</p>
@@ -100,5 +255,48 @@ Yoshikichi Nakajima (50 anos)</p>
 <p>As pessoas que conheciam minha condição passada agora comentam que meu rosto, antes pálido, adquiriu uma cor saudável e que pareço ter rejuvenescido. Hoje, já tive a honra de receber o Ohikari. Compreendi que a saúde debilitada que me acompanhou desde a infância, impedindo-me de prosseguir com os estudos, foi, na verdade, consequência do envenenamento por medicamentos. Fui profundamente conscientizado sobre a natureza aterradora dos fármacos. Desejo ardentemente transmitir este evangelho às pessoas que sofrem no mundo e àquelas que têm filhos de saúde frágil.</p>
 <p>Embora eu seja uma pessoa de poucas virtudes, rogo para que me permita ser útil na Obra Divina, como um membro na construção do Paraíso Terrestre.</p>
 <p>Muito obrigado, Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 四十五年間の頭痛を御救い戴いて 『栄光』257号、昭和29(1954)年4月21日発行 兵庫県 喜光中教会 中島芳吉（50） 明主様日々の御守護厚く御礼申し上げます。<br/><br/>謹んで御守護の一端を御報告申し上げます。<br/><br/> 省みますれば子供の時より身体が弱く、ろくろく学校も行けない程でございました。<br/><br/>それに一番肝心の頭が痛むのです。<br/><br/>とうとう中退し療養に努めましたが効もなく、顔色は悪く、人からいつも死んでしまうように言われていましたが、どうやら死なずに青年期に達しました。<br/><br/>その時友達よりノーシンが頭痛によく効くと知らされ服用しましたら成程頚の痛みがとれ今までになく気分がよくなりましたので、それからというものはただノーシンの一点張りに進みましたが、初めは一服で済んだのが日が経つにつれだんだんと量が増し、遂に中毒にかかってしまいノーシンがなくては日がすごされなくなってしまいましたが、それにノーシンを服用してからだんだんと胃が悪くなり、裸になると胃が突出しているのが分るようになり、食事は味がなく決ったように月二回は胃痙攣で苦しむ有様で、片時も気分がよい日がなく辛い日が今日まで続いておりました。<br/><br/> それでも医学や薬は絶対的のものと信じ、ノーシンだけは離さずいつもポケットに持っておりました。<br/><br/>ところが昨年九月に元気な妻が中風になり、医者や薬に頼りましたが効もなく困っておりましたが、心安い森様や小村様（信者）が明石の支部の月並祭の帰りに見舞に寄って下さって、初めてこのお道の話をいろいろと聞かせて下さいましたが妻は早速理解し御浄霊を戴きましたが、今から考えると申訳ありませんが、無信仰で疑い深い私は「そんな事で治るものか、この世の中に神も仏もあるものではない、皆人間が作り上げるものだ」と内心思っておりましたが、それから毎日二人が御浄霊に来て下さるようになってから、妻が日一日と御蔭を戴いてよくなって参りました。<br/><br/> 疑い深い私も事実の前には頭が下り、初めて御願い致し御浄霊を御受け致しました。<br/><br/>その時肩にはサロンパスをはり矢張りノーシンも持っておりましたが、森様より「薬が毒でそれが又余病の因になるから、サロンパスもノーシンもやめてみなさい」と言われ、その日から二十三年間愛用して来たノーシンをきっぱりやめることに致しました。<br/><br/>そうして御浄霊を戴きましたところ、不思議に身体全身が暖かくなって、気分が非常によくなりました。<br/><br/>それから妻と共に毎日御浄霊を戴き日々に御蔭を戴き、四十五年間の頭痛もとって戴き、胃の方も丈夫にして戴き、突出している部分も徐々に小さくなって来ており、今日では自分の体が別人のように思われる程健康にして戴きました。<br/><br/> 過去の私を知っている人達は、最近青かった顔が血色がよく若返って来たといってくれるようになりました。<br/><br/>今日では御守様も拝受させて戴き、私のように子供の時より弱かったため学問も充分できなかったのも今から考えると薬毒のためであったことを分らせて戴き、薬の恐ろしさをしみじみと教え戴き、世の悩める人達や弱き子を持つ人々にこの福音を伝えたく思っております。<br/><br/> 誠に至らぬ私でございますが、何卒地上天国建設の一員として御神業に御使い下さいますよう御願い申し上げます。<br/><br/> 明主様誠に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

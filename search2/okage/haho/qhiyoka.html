@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhiyoka</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 費用かけず一分の増収 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 静岡県 日本五六七教真善会 大石文一（25） 私は無肥料耕作にて御利益を戴き喜びに満たされています。<br><br>私の村は山に包まれ耕作が少なく耕作労力を多く必要とする不便な地です。<br><br> 私は二十二年二月入信。<br><br>当時、無肥料耕作法を聞かされても信じる事は出来ませんでしたが、度々の御面会を戴くようになってから何となくやって見たくなり、二十三年度の稲にと思いつき種籾を分会長先生に御浄霊をして戴き早稲の苗田を作り、三月三十日に籾種を蒔き数回浄霊をしました。<br><br>苗が五分程のびた頃、烏が芽をくって困りました。<br><br>先生に御伺いしたら烏がつつかない事も出来ると言われましたので、早速お願いして四隅に御浄霊した立札を立てたところ、烏が少なくなり、二日目には一羽も来ないようになりました。<br><br>観音様の御力のお蔭と有難く感謝し、五月五日に本田に植付けました。<br><br> 六月十五日頃一番除草終りました。<br><br>稲は黄色くてひょろひょろしていましたが、七月十五日前後二番除草を行う頃には大分大きくなり、十二、三本に分重しこれで稲らしくなりました。<br><br>八月に入り他の稲より伸びてはいませんけれど、見るからに丈夫そうです。<br><br>八月中旬の出穂期になると他家のものよりは分蘖は少なかったけれど穂はずっと大きく、九月に入り稲穂はずっと大きく、十月に入り稲穂は重々と頭を下げて日増しに色付いて行きました。<br><br> 九月上旬ごろより全般的に「ウンカ」が発生し、他では毎日「ウンカ」取りに大騒ぎです。<br><br>私は一匹の「ウンカ」も付くものかと思っていたが心配になるので行って見ると大変です。<br><br>「ウンカ」は田の中程より発生、外へ向っています。<br><br>さあ大変と私も焦りました。<br><br>先生に御伺いしたらよく浄霊をしなさいといわれましたので、懸命に浄霊しましたがなかなかとれません。<br><br>他家のは白く枯れたところが数カ所ありましたが、私は二カ所で喰止める事が出来ました。<br><br>私の方は反当り二俵半から四俵というところです。<br><br>他家では今年は平年作にいかないだろうと嘆いています。<br><br>私のは少くとも昨年の七分はあると思って稲刈りも終り、籾すりをしてみて八分という上成績を得ました。<br><br>私は肥料代と手間代だけ他より少なくて一年目にこの成績を得たのです。<br><br>一家中、神の恵の偉大さを今更ながら有難く、一層努力すべく心に誓い少しでも参考になればと御報告をさして戴きます。<br><br>厚く御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Aumento de dez por cento na colheita sem nenhum custo</h2>
 <p><em>Coletânea Jikan, Volume 2: “O Método da Agricultura sem Adubos” — 1º de julho de 1949</em></p>
@@ -100,5 +255,48 @@ Província de Shizuoka</p>
 <p>No início de setembro, uma praga de cigarrinhas disseminou-se por toda a região, causando grande alvoroço nas outras propriedades, onde os agricultores lutavam diariamente para controlar a infestação. Eu, por minha vez, estava convicto de que nem um único inseto tocaria em minha lavoura, mas a preocupação me levou a inspecioná-la. Para minha surpresa, o cenário era alarmante: a praga havia começado no centro do arrozal e se espalhava para as bordas. Um sentimento de apreensão tomou conta de mim. Consultei novamente o ministro, que me orientou a ministrar Johrei intensamente. Assim o fiz, com toda a minha dedicação, mas a praga resistia. Enquanto as lavouras vizinhas apresentavam diversas áreas esbranquiçadas e secas pela ação dos insetos, em minha plantação consegui conter os danos a apenas dois pontos.</p>
 <p>A produção em minha região costuma variar de dois e meio a quatro fardos de arroz por tan. Naquele ano, os outros agricultores lamentavam que a colheita não atingiria a média. Eu, por outro lado, estimava obter ao menos setenta por cento da produção do ano anterior. Contudo, finalizada a colheita e a debulha, obtive o excelente resultado de oitenta por cento.</p>
 <p>Alcancei este êxito logo no primeiro ano, com a vantagem de ter economizado os custos de fertilizantes e mão de obra. Diante da grandiosidade da graça Divina, toda a minha família sentiu uma gratidão renovada e juramos em nosso coração nos empenhar ainda mais. Apresento este relato com a esperança de que possa servir de referência e expresso meu mais profundo agradecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 費用かけず一分の増収 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 静岡県 日本五六七教真善会 大石文一（25） 私は無肥料耕作にて御利益を戴き喜びに満たされています。<br/><br/>私の村は山に包まれ耕作が少なく耕作労力を多く必要とする不便な地です。<br/><br/> 私は二十二年二月入信。<br/><br/>当時、無肥料耕作法を聞かされても信じる事は出来ませんでしたが、度々の御面会を戴くようになってから何となくやって見たくなり、二十三年度の稲にと思いつき種籾を分会長先生に御浄霊をして戴き早稲の苗田を作り、三月三十日に籾種を蒔き数回浄霊をしました。<br/><br/>苗が五分程のびた頃、烏が芽をくって困りました。<br/><br/>先生に御伺いしたら烏がつつかない事も出来ると言われましたので、早速お願いして四隅に御浄霊した立札を立てたところ、烏が少なくなり、二日目には一羽も来ないようになりました。<br/><br/>観音様の御力のお蔭と有難く感謝し、五月五日に本田に植付けました。<br/><br/> 六月十五日頃一番除草終りました。<br/><br/>稲は黄色くてひょろひょろしていましたが、七月十五日前後二番除草を行う頃には大分大きくなり、十二、三本に分重しこれで稲らしくなりました。<br/><br/>八月に入り他の稲より伸びてはいませんけれど、見るからに丈夫そうです。<br/><br/>八月中旬の出穂期になると他家のものよりは分蘖は少なかったけれど穂はずっと大きく、九月に入り稲穂はずっと大きく、十月に入り稲穂は重々と頭を下げて日増しに色付いて行きました。<br/><br/> 九月上旬ごろより全般的に「ウンカ」が発生し、他では毎日「ウンカ」取りに大騒ぎです。<br/><br/>私は一匹の「ウンカ」も付くものかと思っていたが心配になるので行って見ると大変です。<br/><br/>「ウンカ」は田の中程より発生、外へ向っています。<br/><br/>さあ大変と私も焦りました。<br/><br/>先生に御伺いしたらよく浄霊をしなさいといわれましたので、懸命に浄霊しましたがなかなかとれません。<br/><br/>他家のは白く枯れたところが数カ所ありましたが、私は二カ所で喰止める事が出来ました。<br/><br/>私の方は反当り二俵半から四俵というところです。<br/><br/>他家では今年は平年作にいかないだろうと嘆いています。<br/><br/>私のは少くとも昨年の七分はあると思って稲刈りも終り、籾すりをしてみて八分という上成績を得ました。<br/><br/>私は肥料代と手間代だけ他より少なくて一年目にこの成績を得たのです。<br/><br/>一家中、神の恵の偉大さを今更ながら有難く、一層努力すべく心に誓い少しでも参考になればと御報告をさして戴きます。<br/><br/>厚く御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

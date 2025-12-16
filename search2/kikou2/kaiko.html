@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kaiko</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 回顧 本部 阿部晴三 『栄光』264号、昭和29(1954)年7月7日発行 五月二十三日夜九時年頃御屋敷碧雲荘の隣家に火災が発生した。<br><br>「火事」と聞いて場所を訊ねると、坂の中腹にある温泉モーターの小屋であるという。<br><br>私は最初はさ程驚きもしなかった。<br><br>というのは、モーター小屋の場所も知っているし、その家屋の構造程度も分っているからでもあった。<br><br>加うるに隣家とは細いながらも通路があり、御屋敷にはコンクリートの塀もあって、椎の木が鬱蒼と並んであるため少しばかりの火は防止される。<br><br>いわんや、メシヤ様の御屋敷である。<br><br>類焼等のことはあるまじと思いつつもとにかく外に出た。<br><br> 見ると火焔天に冲し、火の粉が盛んに降って来る。<br><br>火災を起しているすぐ下には相当大きい旅館がある。<br><br>これに火が移りそうに見えた途端に、これは大変と大いにあわてた。<br><br>御屋敷の塀の内側には塀に沿って木造の建物もあり、火を被るので、まず水をかけて類焼を免かれんと工夫をしたのであった。<br><br> 旅館には日曜のこととて来宿の客も多く、浴衣のままで各自それぞれの荷物を持参してお屋敷にどんどん逃げ込んで来るのである。<br><br> 急に家の中が心配になった。<br><br>いざという場合も考えて荷物の整理をせねばならぬと思った。<br><br>殊にメシヤ様は御浄化中であらせられる、どんなゴダゴタがはじまらぬとも限らぬ。<br><br>家に戻ったところで何から手をつけて整理して行けばよいのかと実際に当って少し慌てた。<br><br> 間もなく電気は消えて周囲は真暗となった。<br><br>懐中電灯を探し、右往左往する。<br><br>と何時御座敷に入ったのか二カ所位で戸締りをしてある戸を叩いて「開けろ開けろ」と怒鳴っている。<br><br>「誰方ですか」と問うてみたが返事がない。<br><br>付近から手伝いに来てくれたのか、あるいは消防の人達でもあろうかと思った。<br><br>暫く経って返事を待ったが声がない。<br><br>手伝いに来た人であってもこの暗い家の中で荷物の所在も知らずして何等手の出しようもあるまいし、消防の人なら火もついていないのに戸を開けろとは変だと考えついた。<br><br>もう一度「誰方」と声をかけると、返事をせずに砂利路を門の方に去るのである。<br><br>それでこれはいわゆる火事場泥坊かなと考え浮かんだ。<br><br>とすれば随分と早くお見舞を頂いたものである。<br><br> とかくする内、自動車の用意ができたので、一まず暗闇の中をメシヤ様に御乗車願ったのであるが、門の外には既に消防ポンプが並んで自動車は通れなくなった。<br><br>御乗車のままで車庫でお待ち願った。<br><br>御浄化中の御身体を何んとも御申訳のないことであった。<br><br> 門の外を見ると早や相当の群集がわめき合っている。<br><br>夜とはいえ時間も早かったので、見物の野次馬の多いことに驚いた。<br><br>これがため避難者の邪魔にもなり、消防夫の活動の妨害にもなることおびただしい。<br><br> 水利に不便のところではあったが、御守護の下、消防夫の努力と幸い当夜は無風状態であったので、短時間にして鎮火することを得、かつ大勢の奉仕隊員が馳け付けてくれ、それぞれ要所々々に配置して手伝って貰えたので、すっかり安心感に浸され、ホッとしたのであった。<br><br> メシヤ様には車庫よりお出まし願って御部屋に落着かれたので、私はもう一度門に引返して見ると、未だ大勢の群集がおってワイワイいっている。<br><br>火事場の群集心理とは一体どんなものであろうか、本当に罹災者の手伝いをする人は別として、殆んどが人の不幸をジット傍観しているのであり、中には火事がもっと大きくなることを願うが如き言葉を発し、興味を持っている事を知ったとき、私は驚いた。<br><br>人の不幸を喜ぶという何んと残忍な動物性ではあるまいかと。<br><br> 過般の戦争中、空襲に遭って焼夷弾のお見舞を受けたとき、その場所に行って火事場泥棒をやったり火事を見ていた人は何人あったであろうか。<br><br>今ここに集って見ている人達は火災に関して自分のところには何等心配はないからでもあろうが、火事が起ったら、およそ罷災避難に関係のない人は火事場近く立寄らぬことにしたら、どれ程罹災者は避難し易く、消防夫は鎮火活動に便利であろうかと思われたのである。<br><br> と同時にその時、ふと私の脳裡をかすめたものがあった。<br><br>それは、私がお道に入らして頂いて、メシヤ様の御教えを頂き、病気は浄化作用なることを随分と他人にも説明したつもりであったが、なかなかこの原理が理解されないのであった。<br><br>親戚知人等にも説いて容れられず、しかもそれ等の内若くして生命を失ったものも相当あったのである。<br><br>その都度、メシヤ様の御言葉通りではないかといったような気持で、内心喜びに似たものを感じたのであった。<br><br>自分があれほど説明してやったり、出版物を届けてやったりしたのにも拘らず、それを聞き入れないのだから等と、その人達の不幸な出来事であるのに、同情よりも先に自分の信じていたことに間違いないのである、という喜びの方が強いのであった。<br><br> メシヤ様が人類救済のため、いろいろな方法で真理を御説き頂いても、一般にはなかなかこれを認めようとはせず、知人等からは迷信と笑われ、排斥されて、十何年の間には相当強い浄化をお救いを頂いた私としては、メシヤ様の仰せの通りのことが現実にあらわれたという気持であったのであるが、しかしそのようなよろこびよりも、その人達に対する悲しみの心が湧いて来なかったことを回顧して、今立って火事場を眺めている人々の心との間に幾何（いくばく）の差異のあるかを思い出し、何んともいいようのない慙愧（ざんき）に堪えない淋しさを感じたのであった。<br><br> 宗教の根本は、人を喜ばせ、人を幸福にすることであることの御教えを頂いている。<br><br>とすれば、人を不幸にさせない迄も、他人の不幸を悲しみとせざる心に、果して信仰に入れさせて頂いていたと言えるであろうかである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Retrospectiva de 1950</h2>
 <p>Hongo Kyuji. Revista Eikou, nº 84, 27 de dezembro de 1950.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>A perseguição fez com que as flores falsas caíssem e murchassem, mas permitiu que os verdadeiros frutos amadurecessem. Este ensinamento ficou evidente no significado do Grande Festival da Sekaikyuseikyou, realizado durante uma semana a partir de 21 de setembro, que também celebrou a conclusão do Shinsenkyo (神仙郷) de Hakone, protótipo do Paraíso Terrestre.</p>
 <p>A realização desse festival superou todas as expectativas ao renovar por completo a atmosfera de estagnação que pairava sobre a Igreja desde o início da perseguição. É inegável que a tempestade inesperada da perseguição religiosa, que se abateu sobre uma organização até então em franca expansão, obstruiu o nosso avanço. Contudo, é igualmente inegável que o poder de salvação se fortaleceu ainda mais em decorrência disso. Prova disso são os inúmeros relatos de graças que se acumulam incessantemente e o aumento extraordinário das colheitas obtidas pelo método da Agricultura Natural, fatos que nos amparam e nos incentivam a prosseguir.</p>
 <p>De uma vida medíocre, desprovida de alegrias e tristezas, não pode nascer o verdadeiro júbilo da existência. O mesmo se aplica tanto à jornada de um ser humano quanto à história de uma religião: quanto mais profunda a tristeza, maior a alegria que se pode experimentar. Os acontecimentos deste único ano, um misto de júbilo e aflição para a Sekaikyuseikyou, serão, certamente, devidamente valorizados pelos historiadores das religiões das futuras gerações.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 回顧 本部 阿部晴三 『栄光』264号、昭和29(1954)年7月7日発行 五月二十三日夜九時年頃御屋敷碧雲荘の隣家に火災が発生した。<br/><br/>「火事」と聞いて場所を訊ねると、坂の中腹にある温泉モーターの小屋であるという。<br/><br/>私は最初はさ程驚きもしなかった。<br/><br/>というのは、モーター小屋の場所も知っているし、その家屋の構造程度も分っているからでもあった。<br/><br/>加うるに隣家とは細いながらも通路があり、御屋敷にはコンクリートの塀もあって、椎の木が鬱蒼と並んであるため少しばかりの火は防止される。<br/><br/>いわんや、メシヤ様の御屋敷である。<br/><br/>類焼等のことはあるまじと思いつつもとにかく外に出た。<br/><br/> 見ると火焔天に冲し、火の粉が盛んに降って来る。<br/><br/>火災を起しているすぐ下には相当大きい旅館がある。<br/><br/>これに火が移りそうに見えた途端に、これは大変と大いにあわてた。<br/><br/>御屋敷の塀の内側には塀に沿って木造の建物もあり、火を被るので、まず水をかけて類焼を免かれんと工夫をしたのであった。<br/><br/> 旅館には日曜のこととて来宿の客も多く、浴衣のままで各自それぞれの荷物を持参してお屋敷にどんどん逃げ込んで来るのである。<br/><br/> 急に家の中が心配になった。<br/><br/>いざという場合も考えて荷物の整理をせねばならぬと思った。<br/><br/>殊にメシヤ様は御浄化中であらせられる、どんなゴダゴタがはじまらぬとも限らぬ。<br/><br/>家に戻ったところで何から手をつけて整理して行けばよいのかと実際に当って少し慌てた。<br/><br/> 間もなく電気は消えて周囲は真暗となった。<br/><br/>懐中電灯を探し、右往左往する。<br/><br/>と何時御座敷に入ったのか二カ所位で戸締りをしてある戸を叩いて「開けろ開けろ」と怒鳴っている。<br/><br/>「誰方ですか」と問うてみたが返事がない。<br/><br/>付近から手伝いに来てくれたのか、あるいは消防の人達でもあろうかと思った。<br/><br/>暫く経って返事を待ったが声がない。<br/><br/>手伝いに来た人であってもこの暗い家の中で荷物の所在も知らずして何等手の出しようもあるまいし、消防の人なら火もついていないのに戸を開けろとは変だと考えついた。<br/><br/>もう一度「誰方」と声をかけると、返事をせずに砂利路を門の方に去るのである。<br/><br/>それでこれはいわゆる火事場泥坊かなと考え浮かんだ。<br/><br/>とすれば随分と早くお見舞を頂いたものである。<br/><br/> とかくする内、自動車の用意ができたので、一まず暗闇の中をメシヤ様に御乗車願ったのであるが、門の外には既に消防ポンプが並んで自動車は通れなくなった。<br/><br/>御乗車のままで車庫でお待ち願った。<br/><br/>御浄化中の御身体を何んとも御申訳のないことであった。<br/><br/> 門の外を見ると早や相当の群集がわめき合っている。<br/><br/>夜とはいえ時間も早かったので、見物の野次馬の多いことに驚いた。<br/><br/>これがため避難者の邪魔にもなり、消防夫の活動の妨害にもなることおびただしい。<br/><br/> 水利に不便のところではあったが、御守護の下、消防夫の努力と幸い当夜は無風状態であったので、短時間にして鎮火することを得、かつ大勢の奉仕隊員が馳け付けてくれ、それぞれ要所々々に配置して手伝って貰えたので、すっかり安心感に浸され、ホッとしたのであった。<br/><br/> メシヤ様には車庫よりお出まし願って御部屋に落着かれたので、私はもう一度門に引返して見ると、未だ大勢の群集がおってワイワイいっている。<br/><br/>火事場の群集心理とは一体どんなものであろうか、本当に罹災者の手伝いをする人は別として、殆んどが人の不幸をジット傍観しているのであり、中には火事がもっと大きくなることを願うが如き言葉を発し、興味を持っている事を知ったとき、私は驚いた。<br/><br/>人の不幸を喜ぶという何んと残忍な動物性ではあるまいかと。<br/><br/> 過般の戦争中、空襲に遭って焼夷弾のお見舞を受けたとき、その場所に行って火事場泥棒をやったり火事を見ていた人は何人あったであろうか。<br/><br/>今ここに集って見ている人達は火災に関して自分のところには何等心配はないからでもあろうが、火事が起ったら、およそ罷災避難に関係のない人は火事場近く立寄らぬことにしたら、どれ程罹災者は避難し易く、消防夫は鎮火活動に便利であろうかと思われたのである。<br/><br/> と同時にその時、ふと私の脳裡をかすめたものがあった。<br/><br/>それは、私がお道に入らして頂いて、メシヤ様の御教えを頂き、病気は浄化作用なることを随分と他人にも説明したつもりであったが、なかなかこの原理が理解されないのであった。<br/><br/>親戚知人等にも説いて容れられず、しかもそれ等の内若くして生命を失ったものも相当あったのである。<br/><br/>その都度、メシヤ様の御言葉通りではないかといったような気持で、内心喜びに似たものを感じたのであった。<br/><br/>自分があれほど説明してやったり、出版物を届けてやったりしたのにも拘らず、それを聞き入れないのだから等と、その人達の不幸な出来事であるのに、同情よりも先に自分の信じていたことに間違いないのである、という喜びの方が強いのであった。<br/><br/> メシヤ様が人類救済のため、いろいろな方法で真理を御説き頂いても、一般にはなかなかこれを認めようとはせず、知人等からは迷信と笑われ、排斥されて、十何年の間には相当強い浄化をお救いを頂いた私としては、メシヤ様の仰せの通りのことが現実にあらわれたという気持であったのであるが、しかしそのようなよろこびよりも、その人達に対する悲しみの心が湧いて来なかったことを回顧して、今立って火事場を眺めている人々の心との間に幾何（いくばく）の差異のあるかを思い出し、何んともいいようのない慙愧（ざんき）に堪えない淋しさを感じたのであった。<br/><br/> 宗教の根本は、人を喜ばせ、人を幸福にすることであることの御教えを頂いている。<br/><br/>とすれば、人を不幸にさせない迄も、他人の不幸を悲しみとせざる心に、果して信仰に入れさせて頂いていたと言えるであろうかである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

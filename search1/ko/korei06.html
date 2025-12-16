@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>korei06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狐霊と老婆 『天国の福音』昭和22(1947)年2月5日発行 私が実験した多くの中での傑作を一つ書いてみよう。<br><br>これは五十余歳の老婆で、狐霊が二、三十匹憑依しており、狐霊は常に種々の方法をもって老婆を苦しめる。<br><br>それで私の家へ逗留させて霊的治療を施したのである。<br><br>その間五、六ケ月位であったが、この老婆は狐の喋舌（しゃべ）る事が判ると共にまた狐の喋舌るそのままが老婆の口から出るのである。<br><br>ある日老婆いわく、 「先生、狐の奴が『今日はこの婆を殺すからそう思え、今心臓を止めてしまう』というと、私の心臓の下へ入り掻き廻しているので、痛くて息が止まりそうで直に死ぬから、その前に家族に遇いたいから呼んで貰いたい」 と苦しみながら言うので、私も驚いて、急ぎ電話で招び寄せた。<br><br>老婆の夫君初め五、六人の家族が、老婆を取り巻いて、死の直前のごとき愁歎場が現出した。<br><br>しかるに時間の経つに従い、漸次苦痛は薄らぎ、二、三時間後には全く平常通りとなったので、家族も安心して引揚げた――という訳で、マンマと一杯食わされたのである。<br><br>その後二、三回同様の事があったが、私も懲りて騙されなかった。<br><br> ある日の夕方老婆いわく「先生、今朝狐の奴が『今日はこの婆の小便を止めてしまう』といった所、それきり小便が出ない」というので、私は膀胱の辺りへ霊の放射をした所、間もなく尿が出平常のごとくになった。<br><br>またある日老婆いわく「この頃食事中狐が『モウ飯を食わせない』というと、胸の辺りでつかえて、どうしても食物が人らない」というので、私は「それじゃ私と一緒に喰べなさい」といって一緒に膳に向かい、共に食事をした所、果して「今狐が喰わせないといいます。<br><br>アアもう飯が通りません」という。<br><br>早速私は飯に霊を入れ、また老婆の食道のあたりへ霊射をすると、すぐに喰べられるようになったがその後はそういう事は無かった。<br><br>また私が治療を行う時、首の付根、腋の下等を指頭をもって探ると、豆粒大の塊が幾つもあるので、それを一々指頭をあて霊射すると、その一つ一つが狐霊で、その度毎に狐霊は悲鳴を上げ、老婆の口をかりていわく「アッいけねえ、見つかっちゃった。<br><br>アア苦しい、痛いッ、助けてくれ――今出る今出る」というような具合で、一つ一つ出てゆく、その数およそ二、三十位はあったであろう。<br><br> ある朝早く、私の寝ている部屋の方へ向かって廊下伝いに血相変えて老婆が来るので、家人は私を起こし、注意を与えてくれた。<br><br>私は飛起きてみると、今しも老婆は異様な眼付をし片手を後へ廻し何か持っているらしく、私にジリジリ迫って来る、私は飛付いて隠している手を握ると煙管を持っているので、 「何をするか」と言うと 「先生を殴りに来たんだ」――という。<br><br>私は抱えるようにして老婆の部屋へ連れ行き、そこへ坐らせ、前頭部に向かって霊射すると、前頭部には多くの狐霊がいたとみえ、狐霊等声を揃えて「サァー大変だ大変だみんな逃げろ逃げろ、アア堪らねえ、痛てえ、苦しい」というので、私は可笑しさを堪え、数十分治療すると、平常のごとくなったのである。<br><br>またある日老婆は私に向かって「先生姜（わたし）には頭がありますか」と質（き）く、私は頭へ触りながら「この通りチャントあるじゃないか」というと、老婆は「実は狐の奴が『今日は婆の頭を溶かしてしまう』というので、妾は心配でならないのです」という。<br><br>この事以来常に手鏡を持って、映る自分の頭をみつめている。<br><br>訊ねると「狐に溶されるのが心配で、鏡が放せない」という。<br><br>「そんな馬鹿な事はない」と私は何回言っても信じないので困ったのであった。<br><br>以上のごとき種々の症状はあっても、他は別に変っていない。<br><br>もちろん精神病者でもない。<br><br>従って「貴女は正気の気狂だ」と私はよく言ってやった。<br><br>しからばこの原因は何であるかというと、この老婆は前生において女郎屋の主婦のごときもので、多くの若い女を使って稼がしたが、それ等若い女の職業が客を騙す狐のごとき事をさせたため、霊界に往って畜生道に墜ち狐霊となったもので、その原因が老婆にあるから怨んだ揚句、老婆に憑依し悩ましつつ復讐を行っている訳である。<br><br>この意味によって現世における職業、たとえば遊女は狐、芸妓は猫、刑事やスパイは犬というように、相応の運命に墜ちるのである。<br><br>従って人間はどうしても人間としてはずかしからぬ行為をなすべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato sobre uma Anciã e os Espíritos de Raposa</h2>
 <p>Dentre os muitos casos que vivenciei, desejo relatar um dos mais notáveis. Trata-se de uma anciã com pouco mais de cinquenta anos, possuída por vinte a trinta espíritos de raposa que a atormentavam incessantemente através de diversos métodos. Por esse motivo, acolhi-a em minha residência para lhe ministrar um tratamento espiritual, que se estendeu por aproximadamente cinco a seis meses. Durante esse período, a anciã não apenas passou a compreender a linguagem das raposas, como também começou a proferir, com sua própria boca, as exatas palavras que elas diziam.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Apesar de todos esses sintomas, no restante do tempo, o comportamento da anciã era perfeitamente normal; ela não sofria de nenhuma doença mental. Por isso, eu costumava lhe dizer: "A senhora é uma louca em seu juízo perfeito".</p>
 <p>Qual seria, então, a causa de tudo isso? Em uma vida anterior, essa senhora havia sido proprietária de uma casa de prostituição, onde explorava o trabalho de muitas jovens. Como a profissão dessas mulheres consistia em enganar os clientes, de maneira análoga à astúcia das raposas, ao partirem para o Mundo Espiritual, elas caíram no caminho da bestialidade, tornando-se espíritos de raposa. Tomadas pelo ressentimento, já que a causa de seu destino era aquela senhora, elas se apossaram de seu corpo para atormentá-la e executar sua vingança.</p>
 <p>Nesse sentido, as profissões que exercemos no Mundo Material determinam nosso destino espiritual: as prostitutas, por exemplo, podem se tornar raposas; as gueixas, gatos; detetives e espiões, cães. Portanto, é imperativo que o ser humano paute sua conduta por atos que dignifiquem sua condição humana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狐霊と老婆 『天国の福音』昭和22(1947)年2月5日発行 私が実験した多くの中での傑作を一つ書いてみよう。<br/><br/>これは五十余歳の老婆で、狐霊が二、三十匹憑依しており、狐霊は常に種々の方法をもって老婆を苦しめる。<br/><br/>それで私の家へ逗留させて霊的治療を施したのである。<br/><br/>その間五、六ケ月位であったが、この老婆は狐の喋舌（しゃべ）る事が判ると共にまた狐の喋舌るそのままが老婆の口から出るのである。<br/><br/>ある日老婆いわく、 「先生、狐の奴が『今日はこの婆を殺すからそう思え、今心臓を止めてしまう』というと、私の心臓の下へ入り掻き廻しているので、痛くて息が止まりそうで直に死ぬから、その前に家族に遇いたいから呼んで貰いたい」 と苦しみながら言うので、私も驚いて、急ぎ電話で招び寄せた。<br/><br/>老婆の夫君初め五、六人の家族が、老婆を取り巻いて、死の直前のごとき愁歎場が現出した。<br/><br/>しかるに時間の経つに従い、漸次苦痛は薄らぎ、二、三時間後には全く平常通りとなったので、家族も安心して引揚げた――という訳で、マンマと一杯食わされたのである。<br/><br/>その後二、三回同様の事があったが、私も懲りて騙されなかった。<br/><br/> ある日の夕方老婆いわく「先生、今朝狐の奴が『今日はこの婆の小便を止めてしまう』といった所、それきり小便が出ない」というので、私は膀胱の辺りへ霊の放射をした所、間もなく尿が出平常のごとくになった。<br/><br/>またある日老婆いわく「この頃食事中狐が『モウ飯を食わせない』というと、胸の辺りでつかえて、どうしても食物が人らない」というので、私は「それじゃ私と一緒に喰べなさい」といって一緒に膳に向かい、共に食事をした所、果して「今狐が喰わせないといいます。<br/><br/>アアもう飯が通りません」という。<br/><br/>早速私は飯に霊を入れ、また老婆の食道のあたりへ霊射をすると、すぐに喰べられるようになったがその後はそういう事は無かった。<br/><br/>また私が治療を行う時、首の付根、腋の下等を指頭をもって探ると、豆粒大の塊が幾つもあるので、それを一々指頭をあて霊射すると、その一つ一つが狐霊で、その度毎に狐霊は悲鳴を上げ、老婆の口をかりていわく「アッいけねえ、見つかっちゃった。<br/><br/>アア苦しい、痛いッ、助けてくれ――今出る今出る」というような具合で、一つ一つ出てゆく、その数およそ二、三十位はあったであろう。<br/><br/> ある朝早く、私の寝ている部屋の方へ向かって廊下伝いに血相変えて老婆が来るので、家人は私を起こし、注意を与えてくれた。<br/><br/>私は飛起きてみると、今しも老婆は異様な眼付をし片手を後へ廻し何か持っているらしく、私にジリジリ迫って来る、私は飛付いて隠している手を握ると煙管を持っているので、 「何をするか」と言うと 「先生を殴りに来たんだ」――という。<br/><br/>私は抱えるようにして老婆の部屋へ連れ行き、そこへ坐らせ、前頭部に向かって霊射すると、前頭部には多くの狐霊がいたとみえ、狐霊等声を揃えて「サァー大変だ大変だみんな逃げろ逃げろ、アア堪らねえ、痛てえ、苦しい」というので、私は可笑しさを堪え、数十分治療すると、平常のごとくなったのである。<br/><br/>またある日老婆は私に向かって「先生姜（わたし）には頭がありますか」と質（き）く、私は頭へ触りながら「この通りチャントあるじゃないか」というと、老婆は「実は狐の奴が『今日は婆の頭を溶かしてしまう』というので、妾は心配でならないのです」という。<br/><br/>この事以来常に手鏡を持って、映る自分の頭をみつめている。<br/><br/>訊ねると「狐に溶されるのが心配で、鏡が放せない」という。<br/><br/>「そんな馬鹿な事はない」と私は何回言っても信じないので困ったのであった。<br/><br/>以上のごとき種々の症状はあっても、他は別に変っていない。<br/><br/>もちろん精神病者でもない。<br/><br/>従って「貴女は正気の気狂だ」と私はよく言ってやった。<br/><br/>しからばこの原因は何であるかというと、この老婆は前生において女郎屋の主婦のごときもので、多くの若い女を使って稼がしたが、それ等若い女の職業が客を騙す狐のごとき事をさせたため、霊界に往って畜生道に墜ち狐霊となったもので、その原因が老婆にあるから怨んだ揚句、老婆に憑依し悩ましつつ復讐を行っている訳である。<br/><br/>この意味によって現世における職業、たとえば遊女は狐、芸妓は猫、刑事やスパイは犬というように、相応の運命に墜ちるのである。<br/><br/>従って人間はどうしても人間としてはずかしからぬ行為をなすべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

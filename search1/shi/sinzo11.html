@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinzo11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓医術 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 腎臓に次いで重要なる機能は、何といつても心臓であらう。<br><br>従而、本療法によつて心臓が健全になつた場合、疾患及び全身機能、精神的方面等に対し、如何なる好影響を及ぼすかといふ事を説いてみよう。<br><br> 先づ、腎臓の余剰尿が集溜する局所としては、肩胛骨と脊柱との間が多い事は曩に説いた通りであるが、それは丁度心臓の裏面に当る所である。<br><br>故に、此毒結が心臓を圧迫してゐる為、心臓の活動が妨げられるのは当然である。<br><br>そうして心臓の活動の強弱は如何なる影響を与へるかといふに、曩に説いた如く、人体に於て心臓は火であり、肺臓は水であり胃は土であるといふ原理によつて、それは次の如きものである。<br><br> 先づ初め、心臓圧迫の毒素を溶解するに於て、心臓の活動が旺盛となり、其結果として火素の吸収が増加するから、水である肺臓の活動が強化されるのは勿論である。<br><br>丁度水を温める火力が強くなるやうなものである。<br><br>従而、肺臓の活動が旺盛になれば、結核患者の肺臓内に固結してゐる毒素は、溶解排泄が速かとなるので、治癒が促進される訳である。<br><br>又、肺臓の活動は胃の活動を促進するから、食欲は増進するので、両々相俟つて非常な効果を挙げる事になるのである。<br><br> そればかりではない、ここに見逃す事の出来ない事は、性格的に好変化が表はれて来るのである。<br><br>元来、心臓なる機能は、熱の本源である関係上、性格的には愛の湧出する機能である。<br><br>故に、心臓の活動力旺盛は、愛の情動が盛んになる事で、性格が一変する訳である。<br><br>その例として、肺患者の性格を押並べて愛の熱が淡く、理性の方が勝つといふ事で、私が幾多の肺患者を扱つた経験によつても、争ふ事の出来ない事実である。<br><br>それは心臓が弱い時は愛の熱が不足する。<br><br>その為、水が温くならないといふ訳である。<br><br> 此意味に於て、此心臓医術によれば、肺結核の治癒は促進され、罹病者は減少するのであるから、結核問題解決に効果のある事は贅言（ぜいげん）を要しないのである。<br><br>否結核問題解決は、之以外にない事を、私は強調するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Importância Primordial da Terapia Cardíaca</h2>
 <p>Após os rins, a função mais primordial do corpo humano é, sem dúvida, a do coração. Portanto, discorrerei sobre os efeitos benéficos que o restabelecimento da saúde cardíaca, por meio desta Terapia, exerce sobre as enfermidades, sobre as funções do organismo como um todo e, igualmente, sobre o campo espiritual.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Ao dissolvermos as toxinas que comprimem o coração, sua atividade se intensifica. Como resultado, a absorção do elemento Fogo aumenta, o que, por sua vez, fortalece naturalmente a função dos pulmões, que correspondem ao elemento Água. Trata-se de um processo análogo ao aumento da chama para aquecer a água com mais vigor. Portanto, com a dinamização da atividade pulmonar, as toxinas solidificadas nos pulmões de pacientes com tuberculose se dissolvem e são expelidas mais rapidamente, o que acelera o processo de cura. Ademais, a atividade pulmonar estimula a função gástrica, resultando no aumento do apetite. A combinação desses dois fatores produz, assim, um efeito notável.</p>
 <p>Contudo, os benefícios não se limitam a esses aspectos. Um ponto fundamental, que não pode ser negligenciado, é a notável transformação positiva que ocorre na personalidade do indivíduo. Essencialmente, por ser a origem do calor, o coração é o órgão de onde emana o amor. Desse modo, a intensificação de sua atividade fomenta o florescimento dos sentimentos amorosos, o que acarreta uma completa mudança de caráter. Como exemplo, podemos observar que pacientes com enfermidades pulmonares tendem a apresentar um ‘calor do amor’ tênue, sendo dominados pela razão. Esta é uma verdade incontestável, comprovada por minha vasta experiência no tratamento de inúmeros casos. Isso ocorre porque, quando o coração está debilitado, o calor do amor se torna insuficiente e, por essa razão, a ‘água’ não se aquece devidamente.</p>
 <p>Nesse sentido, por meio desta Terapia Cardíaca, a cura da tuberculose é acelerada e o número de doentes diminui, sendo supérfluo discorrer sobre sua eficácia na resolução desse grave problema de saúde. Na verdade, ouso enfatizar que não existe outra solução para a erradicação dessa enfermidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓医術 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 腎臓に次いで重要なる機能は、何といつても心臓であらう。<br/><br/>従而、本療法によつて心臓が健全になつた場合、疾患及び全身機能、精神的方面等に対し、如何なる好影響を及ぼすかといふ事を説いてみよう。<br/><br/> 先づ、腎臓の余剰尿が集溜する局所としては、肩胛骨と脊柱との間が多い事は曩に説いた通りであるが、それは丁度心臓の裏面に当る所である。<br/><br/>故に、此毒結が心臓を圧迫してゐる為、心臓の活動が妨げられるのは当然である。<br/><br/>そうして心臓の活動の強弱は如何なる影響を与へるかといふに、曩に説いた如く、人体に於て心臓は火であり、肺臓は水であり胃は土であるといふ原理によつて、それは次の如きものである。<br/><br/> 先づ初め、心臓圧迫の毒素を溶解するに於て、心臓の活動が旺盛となり、其結果として火素の吸収が増加するから、水である肺臓の活動が強化されるのは勿論である。<br/><br/>丁度水を温める火力が強くなるやうなものである。<br/><br/>従而、肺臓の活動が旺盛になれば、結核患者の肺臓内に固結してゐる毒素は、溶解排泄が速かとなるので、治癒が促進される訳である。<br/><br/>又、肺臓の活動は胃の活動を促進するから、食欲は増進するので、両々相俟つて非常な効果を挙げる事になるのである。<br/><br/> そればかりではない、ここに見逃す事の出来ない事は、性格的に好変化が表はれて来るのである。<br/><br/>元来、心臓なる機能は、熱の本源である関係上、性格的には愛の湧出する機能である。<br/><br/>故に、心臓の活動力旺盛は、愛の情動が盛んになる事で、性格が一変する訳である。<br/><br/>その例として、肺患者の性格を押並べて愛の熱が淡く、理性の方が勝つといふ事で、私が幾多の肺患者を扱つた経験によつても、争ふ事の出来ない事実である。<br/><br/>それは心臓が弱い時は愛の熱が不足する。<br/><br/>その為、水が温くならないといふ訳である。<br/><br/> 此意味に於て、此心臓医術によれば、肺結核の治癒は促進され、罹病者は減少するのであるから、結核問題解決に効果のある事は贅言（ぜいげん）を要しないのである。<br/><br/>否結核問題解決は、之以外にない事を、私は強調するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

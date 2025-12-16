@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo34</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教プラグマチズム 『栄光』106号、昭和26(1951)年5月30日発行 アメリカの有名な哲学者バースが、最初唱え出したプラグマチズムは、ウィリアム・ジェームスに至って世界的哲学思想となったので、今日はジェームスが本家のようになってしまったという事である。<br><br>このプラグマチズムの言葉を訳すと、実利主義とか、実行主義とかいうのだそうだが、私は「行為主義」と言った方が、どうもピッタリするように思う。<br><br>これは哲学に関心を持つ程の人は、誰もが知っているから多くをいう必要はないが、今私が言いたいのは、宗教プラグマチズムである、これは以前も一度かいた事があるが、今一度徹底したいと思うので、再びかくのである。<br><br> 単に、宗教行為主義というと、既成宗教のいずれもは実行しているように見えるが、なるほど文書による宣伝や、言葉の説教、祷（いの）り、宗教的行事、禁欲、難行苦行といったような事は、誰も知っているが肝腎な実生活にまで及んでいないのが遺憾である。<br><br>だから忌憚なく言えば、実生活と離れた一種の精神的修養でしかないと言えよう。<br><br>ところが哲学プラグマチズムは、実生活に哲学を採り入れ、役立つものにしようとするものでこの点実にアメリカ式である。<br><br>それと同様私は宗教を実生活に取入れるというよりも、宗教と実生活と密接不離な関係にまで、溶け込ませようとするのである、だから今までの既成信仰者のように、独善的、孤立的、観念的ではなく、超世間的な点を最も嫌い、飽くまで一般人と同様であるのはもちろん、極力信仰の臭味を無くするようにし、万事常識的で、信仰があるのかないのか人の目には映らないくらいにするところまで、信仰が身に着いてしまわなければならないと思う、つまり応身の働きである。<br><br> 宗教行為主義とは、以上によってほぼ納得されたであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Pragmatismo Religioso</h2>
 <p>O pragmatismo, corrente filosófica inicialmente proposta pelo célebre pensador americano Barth, tornou-se uma tese de alcance mundial com William James, a quem hoje se atribui, por assim dizer, a sua paternidade. A tradução do termo remete a noções como “utilitarismo” ou “prática”, mas, a meu ver, a expressão que melhor capta sua essência é “pragmatismo da conduta”.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>À primeira vista, ao se falar em um pragmatismo de conduta religiosa, poder-se-ia pensar que as religiões estabelecidas já o praticam. De fato, todos conhecem suas atividades, como o proselitismo por meio de publicações, os sermões, as orações, as cerimônias, o ascetismo e as penitências. É lamentável, contudo, que tais práticas não se estendam à vida cotidiana, que é o aspecto crucial. Portanto, falando sem rodeios, pode-se afirmar que não passam de uma forma de aprimoramento espiritual desvinculada da realidade prática.</p>
 <p>Em contrapartida, o pragmatismo filosófico busca incorporar a filosofia à vida diária, tornando-a útil — um traço marcadamente americano. De modo análogo, meu propósito vai além de simplesmente aplicar a religião à vida cotidiana; almejo fundi-las em uma relação tão íntima que se tornem indissociáveis. Nesse sentido, o fiel deve se afastar da postura dogmática, isolada e puramente idealista, tão comuns nas crenças convencionais. Deve, acima de tudo, abominar qualquer traço de transcendentalismo que o distancie do mundo. É preciso que ele se assemelhe em tudo a uma pessoa comum, esforçando-se ao máximo para eliminar qualquer vestígio de proselitismo ou “ar de religiosidade”. Sua conduta deve pautar-se inteiramente pelo bom senso, a ponto de a fé se incorporar de tal forma em seu ser que se torne imperceptível aos olhos alheios se ele a possui ou não. Trata-se, em suma, da fé em sua dimensão prática e manifesta.</p>
 <p>Creio que, com o exposto, o conceito de um pragmatismo de conduta religiosa tornou-se suficientemente claro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教プラグマチズム 『栄光』106号、昭和26(1951)年5月30日発行 アメリカの有名な哲学者バースが、最初唱え出したプラグマチズムは、ウィリアム・ジェームスに至って世界的哲学思想となったので、今日はジェームスが本家のようになってしまったという事である。<br/><br/>このプラグマチズムの言葉を訳すと、実利主義とか、実行主義とかいうのだそうだが、私は「行為主義」と言った方が、どうもピッタリするように思う。<br/><br/>これは哲学に関心を持つ程の人は、誰もが知っているから多くをいう必要はないが、今私が言いたいのは、宗教プラグマチズムである、これは以前も一度かいた事があるが、今一度徹底したいと思うので、再びかくのである。<br/><br/> 単に、宗教行為主義というと、既成宗教のいずれもは実行しているように見えるが、なるほど文書による宣伝や、言葉の説教、祷（いの）り、宗教的行事、禁欲、難行苦行といったような事は、誰も知っているが肝腎な実生活にまで及んでいないのが遺憾である。<br/><br/>だから忌憚なく言えば、実生活と離れた一種の精神的修養でしかないと言えよう。<br/><br/>ところが哲学プラグマチズムは、実生活に哲学を採り入れ、役立つものにしようとするものでこの点実にアメリカ式である。<br/><br/>それと同様私は宗教を実生活に取入れるというよりも、宗教と実生活と密接不離な関係にまで、溶け込ませようとするのである、だから今までの既成信仰者のように、独善的、孤立的、観念的ではなく、超世間的な点を最も嫌い、飽くまで一般人と同様であるのはもちろん、極力信仰の臭味を無くするようにし、万事常識的で、信仰があるのかないのか人の目には映らないくらいにするところまで、信仰が身に着いてしまわなければならないと思う、つまり応身の働きである。<br/><br/> 宗教行為主義とは、以上によってほぼ納得されたであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

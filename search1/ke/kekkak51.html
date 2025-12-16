@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak51</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核撲滅の大方策と健康日本の建設 『健康』1号、昭和11(1936)年6月15日発行 東京市衛生課が、去る昭和九年から二ケ年に亙（わた）って大々的調査を行った。<br><br>その結果によると東京市内の小学生七十二万に対し、結核感染児童は実に二十七万人、三十八パーセントに当るという事である。<br><br>これを知って誰か驚かない者があろうか。<br><br>そうして何故にかくも恐るべき結核児童が激増するかというその真因が、医学上不明であるというその点が又懼（おそ）るべき事である。<br><br> 最近、某紙掲載になる――長谷川如是閑氏の「片輪の文明」という論文があったが、その中にこういう事が書いてある。<br><br>以下その論文、 『私はある結核専門家から―― 我国に結核患者が非常に多く――しかも数字に現われているのはむしろ顕著なものだけで、実際の患者数は恐らく驚くべき高率であろう。<br><br>元来気候その他の自然条件においても、家屋その他の社会条件においても、欧州の文明国に比べてそう悪いとは思えないのに、こうも結核の多い理由が、科学的に充分研究されていないために、専門家の間にも往々精神的に病気を克服するという――擬似宗教のそれに似た考えを抱くものがだんだん殖える。<br><br>専門家以外の立場から、我国に結核患者の多い理由について何か考えるところはないかという質問をうけた。<br><br> 専門家の研究の及ばぬ事を、素人が考える余地もないが、私は平常そうした現象を片輪の文明という事で説明している』 右のごとく、如是閑氏のこの論文は、頗（すこぶ）る面白いと思うと共に、専門家である医家が、いかに困憊（こんばい）して悲鳴を挙げているかという事が如実に表われている。<br><br> 科学の分野において、特に進歩したという医学の実際が、右のごとくであるというのは誰しも不可解と思うであろうが、実は大いにその原因としての誤謬が伏在して居る事である。<br><br>それは何かというと、その根本が末梢的分析研究にのみ固執しているという事である。<br><br> 私はいう、結核激増の原因と治療法の発見は、現在の科学のみでは絶対解決が出来ない事である。<br><br> しかるに――私はこの大問題に対（むか）って、その根本原因の発見と、その解決策に成功した事を発表したいのである。<br><br>まず、結核初期患者を診査する時、その微熱の発生所とも言うべき場所を見出すであろう。<br><br>それは淋巴腺及び頸部の付根、即ち肺尖の上表部に数個のグリグリを発見する。<br><br>その部所を指頭で圧する時、必ず痛みがあるがこれは膿の溜結である。<br><br>そうしてそれに軽重のある事は勿論であって、それは悪性ほど高熱とより痛みとがある事によってよく判別出来得るのである。<br><br> しからば、この膿はいかなる原因によって作為され溜結されたかという――それを識る事が根本である。<br><br>これに対し、第一に挙ぐべきは彼の種痘である。<br><br>人間が生れながらにして保有する天然痘毒素は、天然痘発病によって排泄せられるのである。<br><br>それが種痘によって病気発生を停止せられるのであって決して免疫されたのではない。<br><br>即ちその毒素は排泄すべき力を失ったまでで、言わば毒素は陰性化して体内に残存するのである。<br><br>第二に挙ぐべきは肉食と薬剤の余毒である。<br><br>輓近（ばんきん）――急激なる欧化主義の結果、肉食と牛乳飲用による血液の汚濁に気が付かない事である。<br><br>又、薬剤の服用及び注射は副作用に依って血液を汚濁させる事である。<br><br>即ち、ある病気を治癒する以上に健康上不利な薬毒の害を残すのである。<br><br> 前述のごとき、天然痘の陰性化毒素と肉食薬剤による毒素とそれらが相集まって、淋巴腺及び肺尖部上表に溜結するのである。<br><br> 元来日本人は西洋人に比して、肉体の浄化力は非常に旺盛である事である。<br><br>それは西洋人より天賦的に優秀であるからである。<br><br>西洋人が獣肉多食をしても害が少いという事は浄化力が少い為である。<br><br>西洋人は肩が凝らないというのもそれが為である。<br><br> 種痘と肉食と薬剤の毒素は、父母からその子供に遺伝するのは当然である。<br><br>しかもそれに気が付かない結果は、又してもその児童へその毒素を増加する方法を執るから堪らない。<br><br>滔々（とうとう）として弱体児童増加の勢いは停止する事を知らないのである。<br><br> しかしながら淋巴腺と肺尖部の膿結は、医家も承知しているであろうが、それを解消する方法が発見されないのである――と言って、今更種痘を罷（や）める事は出来ない――又、肉食牛乳を全然廃止する事も不可能であろう。<br><br> しかるに私が創成した「岡田式指圧療法」によれば、これら結核初期症状は完全に解消されるのである。<br><br>しかも短時日である事と無医薬であるが故に、費用の僅少なる点と相まって真に理想的である事である。<br><br>そうしてこの療法は、何人といえども六ケ月以内にて習得されるのである。<br><br>これによって全国の弱体児童及び学生の体格改善は、数年にして成功され得る事はあえて難事でないと言う事を断言して憚（はばか）らないのである。<br><br> この空前にして驚歎すべき療病術が、最近発現されて日々実績を挙げつゝある事を、一日も早く天下に告知して「健康日本」を造るべく本誌が誕生されたのである。<br><br> 又、医家諸彦（しょげん）においても速かにこの療法を研究され習得されん事を望んでやまないものである。<br><br> （注） 諸彦（しょげん） 男性が手紙などで人々に呼びかけるときに用いる言葉。<br><br>みなさん。<br><br>諸賢。<br><br> 体内殺菌の根本的研究 西洋医学における、病気の原因はそのほとんどが黴菌作用であるとしている。<br><br>故に病気を治す事は、体内に活躍している黴菌を殺滅する事であり――又――病気に罹らないという事は、病菌に侵されない事、もしくは侵されても発病しないという事である。<br><br> しかるに体内に繁殖し、病患を起しつゝある病菌を死滅させる事は到底不可能である。<br><br>よしんば試験管内では成功しても、それが人体で奏効するとはいえない。<br><br>試験管と人体内との異りは、試験管内に菌培養の条件は具備していてもそれは単に物質のみである。<br><br>しかし、人体には生物としての精霊がある。<br><br>この点未だ科学では認識して居ないのである。<br><br>故に科学者は、患部の組識を破壊しない程度で病菌を死滅させようと――それのみの研究に没頭しているのであるが、これらは全然錯誤である。<br><br>向後（こうご）何百年努力するといえども効果の無い事はまことに明かである。<br><br>それはいかなる理由に基くのであるか――それを詳説してみよう。<br><br> そもそも黴菌が血管又は組織に侵入して発病するという事は、その病菌の生命を保持し得る菌の栄養分が、血液に在るからである。<br><br>もしその養分が無いとすれば病菌は餓死するより外はないのである。<br><br>しからば何故に病菌を生活さすべき要素を血液が保有しているかと言う事であるが、それは血液に混入している不純物その物であって、それは汚濁した血液のそれである。<br><br>故に血液の浄不浄こそは病菌その物が、死滅するか又は繁殖するかのそのいずれかである。<br><br>即ち浄血程抗毒素即ち殺菌力があるので、それはその血液中に病菌を生育すべき養素即ち不純物が無いからである。<br><br> この理によって、不純血液の中にのみ旺盛な生活力を有（も）つ黴菌を死滅させようとする事は無理である。<br><br>しかし、たとえ組織を破壊しないで黴菌死滅に成功し得たとしても、不純血液の保有者である限り第二第三の病菌繁殖の危険がある事は勿論である。<br><br>又、何億かの病菌全部を殺滅しなくては意義を成さないが、それは恐らく不可能であろう。<br><br>何となれば病菌は患部とは限らず身体全部の血液中に散生しつゝあるからである。<br><br> しかしながら今日までの実験に徴して必ず成功する方法がここに在る。<br><br>その方法とは何か、それは病菌を餓死させる事である。<br><br>餓死させるとは、菌に栄養の一滴も与えない事である。<br><br>菌の栄養とは血液中の汚素であるからその汚素を消滅せしむる方法――それより外に徹底した殺菌法は無い訳である。<br><br> この方法こそ、全然組織破壊の憂いなく根本的である。<br><br>それは身体全部の殺菌が行われると共に、いかなる種類の菌でも殺滅し得る事で、私が創成した「浄血療病法」である。<br><br> この療法に依って完全に浄血された以上――病菌に侵される憂いは絶対無い事であって、よしんば侵されたとしても至極軽微に済むのであるから病菌に対する恐怖は、全然解消されるのである。<br><br> これを以ってみるも、困難にして、成否不確実なる現在の体内殺菌研究のいかに徒労であるかを痛感するのである。<br><br>吾人は一日も速く本療法の普（あまね）く行わるゝ事を翹望（ぎょうぼう）してやまないものである。<br><br> （一一、四、一八） （注）翹望（ぎょうぼう）、首を長くして望み待つこと。<br><br>渇望。<br><br>切望。<br><br> 神経作用という事 吾人が、いつも多くの患者の口から聞く、医師の言葉にはなはだ当を得ない点がある。<br><br>それはこうである『貴方の病気は神経である。<br><br>痛みも、不快も、恐怖も悉（ことごと）く神経作用であるから、神経さえ起さなければ治るのである』というのである。<br><br>これは、一寸聞くともっともなようであるが、よく考えるとおかしな話である。<br><br>患者がヨシンば神経で病気を起すとしたら、その病気を起す神経が病気なのであるから、その病的神経を治すべきが本当ではあるまいか。<br><br> ところがなおよく考えれば、そこに不可解な点が含まれている。<br><br>何となればこういう訳になる。<br><br>それは『貴方の病気は私では治らない。<br><br>私には貴方を治す医術は持っていない、因って止むを得ないから、貴方自身の力で治すより外に仕方がない。<br><br>自身の力で神経を起さないように一生懸命努力するのである』というのである。<br><br> これについて最近、こういう例がある。<br><br>それは○○医大の○○科医長で、日本屈指の某博士が匙（さじ）を抛（な）げた患者が某治療士の所へ来たのである。<br><br>その患者は約一ケ年その病院へ通い続け、注射その他あらゆる療法を受けたに係わらず何らの効果もなかった、そうして、その患者の病症は頭脳の中で、自分の正当な思慮以外、今一つ他に何者かがいて、それが絶えず一種の妄想的思念を起させその妄想が本来の思念を打消そうとするのである。<br><br>しかし、肉体的健康は頗（すこぶ）る可良であるから、外観は病人とは思えないに係わらず患者は非常に苦痛なので、それを紛らわす為に絶えず大きな声で、喋舌（しゃべ）り続けようとしているに見てもその苦悩は想像されるのである。<br><br> そうして最後に、その博士が言うたそうである「貴方の病気はもう治っている。<br><br>しかし、妄想が邪魔する時は何か忙しい仕事をして紛らわせればいいでしょう」との宣告であった。<br><br> しかるに患者自身はそれまであらゆる手段でいかに紛らわそうとしても、効果が無いのをよく知っているので、反す言葉もなく悲観のドン底に墜ちてしまったのである。<br><br>随って、日本有数の大家でさえ治らないものが、外に治すべき医師も方法も、あるはずが無いと諦めて懊悩（おうのう）の日を送っていた所、その患者の親戚の紹介によって治療所へ来たのであった。<br><br>そうして、一ケ月余にして全治し今日は非常に喜んでいる。<br><br> 繰返して私は言う、神経作用という事も確にあるにはあるが、いかに神経を起そうとしても起らないまでになるのが真の治癒である。<br><br>根本的全治した場合は、いかに神経を起そうとしても、起り得るはずが無いのである。<br><br>故に前述のごとき、○○の患者に対する○○に不可解な点が無いとは言えないと思うのである。<br><br> （一一、四、五） 霊的療法の不可 そもそも我療病法は、今日までのあらゆる療病法と異り――霊に偏せず――体に偏せずして、霊を治し――又――体を治す療法であって、全く古今に絶している療法である。<br><br> ここに、従来の療法たる霊的及び体的療法について解説してみよう。<br><br>まず霊的療法とは、ある種の宗教――祈祷者――行者等が行いつつある一種の祈念的療治とも言うべきもので、それらは人も知るごとくヤレ死霊の祟りとか、亡霊が憑いているとか、狐霊――天狗――龍神が悩めているとか、祖先の霊が病気にしてるとかいう類（たぐい）であって、これを法力祈祷力にて退散又は、得度（とくど）改心さす等の手段を執（と）るのであるが、これも全然迷信として片付る事は出来ない。<br><br> 確に前述のごとき霊的原因によって、起る病気は多々ある事も事実である。<br><br> しかしながらこれは非常に困難な事であって、よく祈祷者達が言うごとく――果して祖先の霊であるか、祖先の霊ともあるものが、何が故に子孫へ憑依して病気を起させ――苦しめているのか、又――死霊生霊――狐狸――龍神が、何が故に憑依せしか、又は果して人霊であるか動物霊であるか、正確に見別ける事が可能なりや否や――事実――それが正確なりとするも現代の一般人が、それを承服し得るであろうかという事である。<br><br>又――各種の霊を見別くるまでの霊眼や霊覚者たるには、どれだけの修行を積まなくてはならないか、それら霊能を得るには職業を抛（なげう）って、何年も山へ籠り断食等をなし難行苦行をしなければ、中々得られないものである。<br><br>従って――世界人類は愚〔疎〕か日本「一国」どころか一都会を、救うだけの人間を養成する事も実際上出来ないであろう。<br><br> 又――仮に悪霊退散に依って、治病の目的を達し得たとしてもその追払われた悪霊は、一体どうなるんであるかという事である。<br><br>悪霊は常に人間を苦しめんと、絶え間無く狙いつめているし――現代のごとき汚れの多い人間が充満しているから、悪霊が入ろうとする人間は随所に転がっているのである。<br><br>故に――一時立退きを食って、宿無しになった悪霊は、沢山ある空店を選んで憑依するのは当然である。<br><br> かように――一方を助けても直ぐにお代りが出来る様な救いでは、何にもならないのである。<br><br>故に「本療法」の治療は悪霊などに係わりなく霊的浄化法を行うのであるから、憑依せる悪霊も倶（とも）に浄化されて、悪霊は善霊に変化してしまうのである。<br><br> 又――悩める患者に憑依せる悪霊を、一時退散さして小康を得るとも、依然として精霊の浄化作用が行われなければ、再び相応の悪霊が憑依するのは知れ切った事である。<br><br>故に邪霊退散などの方法は、ホンの一時的であって完全な病気治療とはならないのである。<br><br> （仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Estratégia Abrangente para a Erradicação da Tuberculose e a Construção de um Japão Saudável</h2>
 <p>O Departamento de Higiene da Cidade de Tóquio realizou, a partir de 1934, uma investigação em larga escala que se estendeu por dois anos. Os resultados revelaram que, de um universo de setecentos e vinte mil alunos do ensino primário, duzentos e setenta mil estavam infectados pela tuberculose, o que corresponde à assombrosa marca de trinta e oito por cento. Diante de tal número, quem não se sentiria alarmado? E o que se torna ainda mais aterrador é o fato de que a verdadeira causa desse aumento vertiginoso no número de crianças tuberculosas permanece, para a medicina, uma incógnita.</p>
@@ -130,5 +282,48 @@ function toggleLang(lang) {
 <p>Além disso, suponhamos que se consiga curar uma doença pela expulsão de um espírito maligno. O que acontece com esse espírito que foi expulso? Os espíritos malignos estão sempre à espreita, buscando incessantemente atormentar os seres humanos. E no mundo de hoje, repleto de pessoas com tantas impurezas, há indivíduos por toda parte prontos para serem possuídos. Portanto, é natural que um espírito maligno, desalojado e sem morada, escolha uma das muitas “lojas vazias” disponíveis para se instalar.</p>
 <p>Desse modo, um tipo de salvação que, ao ajudar uma pessoa, imediatamente permite que outra seja vitimada, não tem valor algum. Por essa razão, o tratamento de nosso método não se ocupa com espíritos malignos, mas realiza uma purificação no nível espiritual. Com isso, o espírito maligno que está apossado também é purificado e se transforma em um espírito bom.</p>
 <p>Ademais, mesmo que se obtenha uma melhora temporária ao expulsar o espírito maligno que atormenta o paciente, se a purificação de seu próprio espírito não for realizada, é certo que outro espírito maligno de nível correspondente virá apossar-se dele novamente. Conclui-se, portanto, que métodos como a expulsão de espíritos malignos são apenas paliativos e não constituem uma cura completa para as doenças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核撲滅の大方策と健康日本の建設 『健康』1号、昭和11(1936)年6月15日発行 東京市衛生課が、去る昭和九年から二ケ年に亙（わた）って大々的調査を行った。<br/><br/>その結果によると東京市内の小学生七十二万に対し、結核感染児童は実に二十七万人、三十八パーセントに当るという事である。<br/><br/>これを知って誰か驚かない者があろうか。<br/><br/>そうして何故にかくも恐るべき結核児童が激増するかというその真因が、医学上不明であるというその点が又懼（おそ）るべき事である。<br/><br/> 最近、某紙掲載になる――長谷川如是閑氏の「片輪の文明」という論文があったが、その中にこういう事が書いてある。<br/><br/>以下その論文、 『私はある結核専門家から―― 我国に結核患者が非常に多く――しかも数字に現われているのはむしろ顕著なものだけで、実際の患者数は恐らく驚くべき高率であろう。<br/><br/>元来気候その他の自然条件においても、家屋その他の社会条件においても、欧州の文明国に比べてそう悪いとは思えないのに、こうも結核の多い理由が、科学的に充分研究されていないために、専門家の間にも往々精神的に病気を克服するという――擬似宗教のそれに似た考えを抱くものがだんだん殖える。<br/><br/>専門家以外の立場から、我国に結核患者の多い理由について何か考えるところはないかという質問をうけた。<br/><br/> 専門家の研究の及ばぬ事を、素人が考える余地もないが、私は平常そうした現象を片輪の文明という事で説明している』 右のごとく、如是閑氏のこの論文は、頗（すこぶ）る面白いと思うと共に、専門家である医家が、いかに困憊（こんばい）して悲鳴を挙げているかという事が如実に表われている。<br/><br/> 科学の分野において、特に進歩したという医学の実際が、右のごとくであるというのは誰しも不可解と思うであろうが、実は大いにその原因としての誤謬が伏在して居る事である。<br/><br/>それは何かというと、その根本が末梢的分析研究にのみ固執しているという事である。<br/><br/> 私はいう、結核激増の原因と治療法の発見は、現在の科学のみでは絶対解決が出来ない事である。<br/><br/> しかるに――私はこの大問題に対（むか）って、その根本原因の発見と、その解決策に成功した事を発表したいのである。<br/><br/>まず、結核初期患者を診査する時、その微熱の発生所とも言うべき場所を見出すであろう。<br/><br/>それは淋巴腺及び頸部の付根、即ち肺尖の上表部に数個のグリグリを発見する。<br/><br/>その部所を指頭で圧する時、必ず痛みがあるがこれは膿の溜結である。<br/><br/>そうしてそれに軽重のある事は勿論であって、それは悪性ほど高熱とより痛みとがある事によってよく判別出来得るのである。<br/><br/> しからば、この膿はいかなる原因によって作為され溜結されたかという――それを識る事が根本である。<br/><br/>これに対し、第一に挙ぐべきは彼の種痘である。<br/><br/>人間が生れながらにして保有する天然痘毒素は、天然痘発病によって排泄せられるのである。<br/><br/>それが種痘によって病気発生を停止せられるのであって決して免疫されたのではない。<br/><br/>即ちその毒素は排泄すべき力を失ったまでで、言わば毒素は陰性化して体内に残存するのである。<br/><br/>第二に挙ぐべきは肉食と薬剤の余毒である。<br/><br/>輓近（ばんきん）――急激なる欧化主義の結果、肉食と牛乳飲用による血液の汚濁に気が付かない事である。<br/><br/>又、薬剤の服用及び注射は副作用に依って血液を汚濁させる事である。<br/><br/>即ち、ある病気を治癒する以上に健康上不利な薬毒の害を残すのである。<br/><br/> 前述のごとき、天然痘の陰性化毒素と肉食薬剤による毒素とそれらが相集まって、淋巴腺及び肺尖部上表に溜結するのである。<br/><br/> 元来日本人は西洋人に比して、肉体の浄化力は非常に旺盛である事である。<br/><br/>それは西洋人より天賦的に優秀であるからである。<br/><br/>西洋人が獣肉多食をしても害が少いという事は浄化力が少い為である。<br/><br/>西洋人は肩が凝らないというのもそれが為である。<br/><br/> 種痘と肉食と薬剤の毒素は、父母からその子供に遺伝するのは当然である。<br/><br/>しかもそれに気が付かない結果は、又してもその児童へその毒素を増加する方法を執るから堪らない。<br/><br/>滔々（とうとう）として弱体児童増加の勢いは停止する事を知らないのである。<br/><br/> しかしながら淋巴腺と肺尖部の膿結は、医家も承知しているであろうが、それを解消する方法が発見されないのである――と言って、今更種痘を罷（や）める事は出来ない――又、肉食牛乳を全然廃止する事も不可能であろう。<br/><br/> しかるに私が創成した「岡田式指圧療法」によれば、これら結核初期症状は完全に解消されるのである。<br/><br/>しかも短時日である事と無医薬であるが故に、費用の僅少なる点と相まって真に理想的である事である。<br/><br/>そうしてこの療法は、何人といえども六ケ月以内にて習得されるのである。<br/><br/>これによって全国の弱体児童及び学生の体格改善は、数年にして成功され得る事はあえて難事でないと言う事を断言して憚（はばか）らないのである。<br/><br/> この空前にして驚歎すべき療病術が、最近発現されて日々実績を挙げつゝある事を、一日も早く天下に告知して「健康日本」を造るべく本誌が誕生されたのである。<br/><br/> 又、医家諸彦（しょげん）においても速かにこの療法を研究され習得されん事を望んでやまないものである。<br/><br/> （注） 諸彦（しょげん） 男性が手紙などで人々に呼びかけるときに用いる言葉。<br/><br/>みなさん。<br/><br/>諸賢。<br/><br/> 体内殺菌の根本的研究 西洋医学における、病気の原因はそのほとんどが黴菌作用であるとしている。<br/><br/>故に病気を治す事は、体内に活躍している黴菌を殺滅する事であり――又――病気に罹らないという事は、病菌に侵されない事、もしくは侵されても発病しないという事である。<br/><br/> しかるに体内に繁殖し、病患を起しつゝある病菌を死滅させる事は到底不可能である。<br/><br/>よしんば試験管内では成功しても、それが人体で奏効するとはいえない。<br/><br/>試験管と人体内との異りは、試験管内に菌培養の条件は具備していてもそれは単に物質のみである。<br/><br/>しかし、人体には生物としての精霊がある。<br/><br/>この点未だ科学では認識して居ないのである。<br/><br/>故に科学者は、患部の組識を破壊しない程度で病菌を死滅させようと――それのみの研究に没頭しているのであるが、これらは全然錯誤である。<br/><br/>向後（こうご）何百年努力するといえども効果の無い事はまことに明かである。<br/><br/>それはいかなる理由に基くのであるか――それを詳説してみよう。<br/><br/> そもそも黴菌が血管又は組織に侵入して発病するという事は、その病菌の生命を保持し得る菌の栄養分が、血液に在るからである。<br/><br/>もしその養分が無いとすれば病菌は餓死するより外はないのである。<br/><br/>しからば何故に病菌を生活さすべき要素を血液が保有しているかと言う事であるが、それは血液に混入している不純物その物であって、それは汚濁した血液のそれである。<br/><br/>故に血液の浄不浄こそは病菌その物が、死滅するか又は繁殖するかのそのいずれかである。<br/><br/>即ち浄血程抗毒素即ち殺菌力があるので、それはその血液中に病菌を生育すべき養素即ち不純物が無いからである。<br/><br/> この理によって、不純血液の中にのみ旺盛な生活力を有（も）つ黴菌を死滅させようとする事は無理である。<br/><br/>しかし、たとえ組織を破壊しないで黴菌死滅に成功し得たとしても、不純血液の保有者である限り第二第三の病菌繁殖の危険がある事は勿論である。<br/><br/>又、何億かの病菌全部を殺滅しなくては意義を成さないが、それは恐らく不可能であろう。<br/><br/>何となれば病菌は患部とは限らず身体全部の血液中に散生しつゝあるからである。<br/><br/> しかしながら今日までの実験に徴して必ず成功する方法がここに在る。<br/><br/>その方法とは何か、それは病菌を餓死させる事である。<br/><br/>餓死させるとは、菌に栄養の一滴も与えない事である。<br/><br/>菌の栄養とは血液中の汚素であるからその汚素を消滅せしむる方法――それより外に徹底した殺菌法は無い訳である。<br/><br/> この方法こそ、全然組織破壊の憂いなく根本的である。<br/><br/>それは身体全部の殺菌が行われると共に、いかなる種類の菌でも殺滅し得る事で、私が創成した「浄血療病法」である。<br/><br/> この療法に依って完全に浄血された以上――病菌に侵される憂いは絶対無い事であって、よしんば侵されたとしても至極軽微に済むのであるから病菌に対する恐怖は、全然解消されるのである。<br/><br/> これを以ってみるも、困難にして、成否不確実なる現在の体内殺菌研究のいかに徒労であるかを痛感するのである。<br/><br/>吾人は一日も速く本療法の普（あまね）く行わるゝ事を翹望（ぎょうぼう）してやまないものである。<br/><br/> （一一、四、一八） （注）翹望（ぎょうぼう）、首を長くして望み待つこと。<br/><br/>渇望。<br/><br/>切望。<br/><br/> 神経作用という事 吾人が、いつも多くの患者の口から聞く、医師の言葉にはなはだ当を得ない点がある。<br/><br/>それはこうである『貴方の病気は神経である。<br/><br/>痛みも、不快も、恐怖も悉（ことごと）く神経作用であるから、神経さえ起さなければ治るのである』というのである。<br/><br/>これは、一寸聞くともっともなようであるが、よく考えるとおかしな話である。<br/><br/>患者がヨシンば神経で病気を起すとしたら、その病気を起す神経が病気なのであるから、その病的神経を治すべきが本当ではあるまいか。<br/><br/> ところがなおよく考えれば、そこに不可解な点が含まれている。<br/><br/>何となればこういう訳になる。<br/><br/>それは『貴方の病気は私では治らない。<br/><br/>私には貴方を治す医術は持っていない、因って止むを得ないから、貴方自身の力で治すより外に仕方がない。<br/><br/>自身の力で神経を起さないように一生懸命努力するのである』というのである。<br/><br/> これについて最近、こういう例がある。<br/><br/>それは○○医大の○○科医長で、日本屈指の某博士が匙（さじ）を抛（な）げた患者が某治療士の所へ来たのである。<br/><br/>その患者は約一ケ年その病院へ通い続け、注射その他あらゆる療法を受けたに係わらず何らの効果もなかった、そうして、その患者の病症は頭脳の中で、自分の正当な思慮以外、今一つ他に何者かがいて、それが絶えず一種の妄想的思念を起させその妄想が本来の思念を打消そうとするのである。<br/><br/>しかし、肉体的健康は頗（すこぶ）る可良であるから、外観は病人とは思えないに係わらず患者は非常に苦痛なので、それを紛らわす為に絶えず大きな声で、喋舌（しゃべ）り続けようとしているに見てもその苦悩は想像されるのである。<br/><br/> そうして最後に、その博士が言うたそうである「貴方の病気はもう治っている。<br/><br/>しかし、妄想が邪魔する時は何か忙しい仕事をして紛らわせればいいでしょう」との宣告であった。<br/><br/> しかるに患者自身はそれまであらゆる手段でいかに紛らわそうとしても、効果が無いのをよく知っているので、反す言葉もなく悲観のドン底に墜ちてしまったのである。<br/><br/>随って、日本有数の大家でさえ治らないものが、外に治すべき医師も方法も、あるはずが無いと諦めて懊悩（おうのう）の日を送っていた所、その患者の親戚の紹介によって治療所へ来たのであった。<br/><br/>そうして、一ケ月余にして全治し今日は非常に喜んでいる。<br/><br/> 繰返して私は言う、神経作用という事も確にあるにはあるが、いかに神経を起そうとしても起らないまでになるのが真の治癒である。<br/><br/>根本的全治した場合は、いかに神経を起そうとしても、起り得るはずが無いのである。<br/><br/>故に前述のごとき、○○の患者に対する○○に不可解な点が無いとは言えないと思うのである。<br/><br/> （一一、四、五） 霊的療法の不可 そもそも我療病法は、今日までのあらゆる療病法と異り――霊に偏せず――体に偏せずして、霊を治し――又――体を治す療法であって、全く古今に絶している療法である。<br/><br/> ここに、従来の療法たる霊的及び体的療法について解説してみよう。<br/><br/>まず霊的療法とは、ある種の宗教――祈祷者――行者等が行いつつある一種の祈念的療治とも言うべきもので、それらは人も知るごとくヤレ死霊の祟りとか、亡霊が憑いているとか、狐霊――天狗――龍神が悩めているとか、祖先の霊が病気にしてるとかいう類（たぐい）であって、これを法力祈祷力にて退散又は、得度（とくど）改心さす等の手段を執（と）るのであるが、これも全然迷信として片付る事は出来ない。<br/><br/> 確に前述のごとき霊的原因によって、起る病気は多々ある事も事実である。<br/><br/> しかしながらこれは非常に困難な事であって、よく祈祷者達が言うごとく――果して祖先の霊であるか、祖先の霊ともあるものが、何が故に子孫へ憑依して病気を起させ――苦しめているのか、又――死霊生霊――狐狸――龍神が、何が故に憑依せしか、又は果して人霊であるか動物霊であるか、正確に見別ける事が可能なりや否や――事実――それが正確なりとするも現代の一般人が、それを承服し得るであろうかという事である。<br/><br/>又――各種の霊を見別くるまでの霊眼や霊覚者たるには、どれだけの修行を積まなくてはならないか、それら霊能を得るには職業を抛（なげう）って、何年も山へ籠り断食等をなし難行苦行をしなければ、中々得られないものである。<br/><br/>従って――世界人類は愚〔疎〕か日本「一国」どころか一都会を、救うだけの人間を養成する事も実際上出来ないであろう。<br/><br/> 又――仮に悪霊退散に依って、治病の目的を達し得たとしてもその追払われた悪霊は、一体どうなるんであるかという事である。<br/><br/>悪霊は常に人間を苦しめんと、絶え間無く狙いつめているし――現代のごとき汚れの多い人間が充満しているから、悪霊が入ろうとする人間は随所に転がっているのである。<br/><br/>故に――一時立退きを食って、宿無しになった悪霊は、沢山ある空店を選んで憑依するのは当然である。<br/><br/> かように――一方を助けても直ぐにお代りが出来る様な救いでは、何にもならないのである。<br/><br/>故に「本療法」の治療は悪霊などに係わりなく霊的浄化法を行うのであるから、憑依せる悪霊も倶（とも）に浄化されて、悪霊は善霊に変化してしまうのである。<br/><br/> 又――悩める患者に憑依せる悪霊を、一時退散さして小康を得るとも、依然として精霊の浄化作用が行われなければ、再び相応の悪霊が憑依するのは知れ切った事である。<br/><br/>故に邪霊退散などの方法は、ホンの一時的であって完全な病気治療とはならないのである。<br/><br/> （仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

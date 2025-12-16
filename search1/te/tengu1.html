@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tengu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天狗界 『明日の医術 第三編』昭和18(1943)年10月23日発行 天狗界は大体、各地の山嶽地帯の霊界であって、天狗なるものは、それぞれの山の守護としての役を司っているのである。<br><br>又名山などで、高級な神霊を鎮祭する所では、その神霊の下にあって、山に関する種々の業を司っている。<br><br>天狗界にも上中下の各階級があるのは勿論であり、総主宰神は鞍馬山に鎮座まします猿田彦命である。<br><br> 天狗には、人天及び鳥天の二種がある、人天とは人霊であって、現世において学者、文士、弁護士、教育家、神官、僧侶、昔は武士等の天狗的職業の者が、死後天狗界に入るのである。<br><br>そうして鳥天とは、鳥の霊であって、鳥は死後ことごとく天狗界に入るのである。<br><br>鳥天の中鷲や鷹の類は、現界と同様の威力を発揮して居る。<br><br>以前私は小田原の道了権現の本尊が、ある婦人に憑依したのを審神（さにわ）した事があったがそれは何千年前の巨大なる鷲であって、これは確実と思える根拠があったのである。<br><br>又烏天狗は烏の霊であって、これは天狗界では神的行事を司り、特に神聖なる階級とされている。<br><br>戦争等の場合、産土神（うぶすながみ）の出陣の時、烏の霊が扈従（こじゅう）し、非常な働きをするそうである。<br><br>又、木葉天狗というのは小鳥の霊であって、これは伝令等の使者の役をしている。<br><br> 昔から、天狗を鼻高と称え、絵画や面など非常に鼻を高くしているが、これは事実である。<br><br>又赤い顔になっているが、天狗には酒豪が多いので、それを表徴したものであろう。<br><br> ここで、霊界における面貌についてかいてみよう。<br><br>霊界はさきに説いたごとく想念の世界であるから、人間の面貌は想念通りに現出するのである。<br><br>故に、天狗のごときは高慢にして人に屈する事を嫌う人士の想念がそのままの形となって表われたものである。<br><br>従って、醜悪なる想念の持主は醜悪なる面貌となり、善美な心の持主は、善美な容貌となるので、実に霊界における事象は、すべて欺瞞は許されないのである。<br><br>そうして死後想念が面貌へ表われるには数ケ月ないし一年位までとされている。<br><br> 次に、天狗の生活をかいてみよう。<br><br>彼らが最も好み、しかも専門的仕事としては議論を戦わす事である。<br><br>それは議論弁舌が優越し、論戦に勝てば地位が向上するのであるから、彼らが無上のものとするのも当然である。<br><br>故に現世においても代議士、弁護士等が論戦を好みそういう職業に従事するのは、天狗の再生又は天狗の霊が憑依しているからである。<br><br>又、議論の次に好むものは、碁、将棋である。<br><br>私は天狗界の将棋を教わった事があったが、現界のそれとは余程異（ちが）うのである。<br><br>又書画や詩文等も好むのである。<br><br>そうして天狗界の言葉であるが、これも現界の人語とは余程異ってほとんどサシスセソの音が主で、その変化によって意志を交換するのである。<br><br>天狗が語る時は、上顎と口唇と舌端と三者合致してサシスセソの音声を出しながら、上下の口唇のみの動きによって言語の変化を表わすのである。<br><br> 又、天狗の空中飛翔は特に優れていて、よく子供などを拉（らつ）し、空中飛翔によって遠方へ連れ去る話などがあるが、これらは事実であろう。<br><br>彼（か）の平田篤胤のかいた「寅吉物語」は天狗の飛翔術が主なるものである。<br><br>又、天狗の霊は人に憑依する事を好み、人を驚かす事を得意とするのである。<br><br>彼の牛若丸が五条の橋上で弁慶を飜弄（ほんろう）したり、義経となってから壇浦（だんのうら）の合戦の時、舟から舟へ飛鳥のごとく乗り移ったという事なども、全く天狗の霊が憑依したものであって、彼が鞍馬山において修行の際、猿田彦命より優秀の天狗を守護神として差遣わされたものであろう。<br><br>その他武芸者などが山嶽修業の結果、天狗飛切の術などと称し、転身の早業を会得するごときは、天狗の憑依に外ならないのである。<br><br> 次に、修験者等が深山へ入り、断食や水行等の荒行をなし、一種の神通力又は治病力など、種々の霊力を得るという話がよくあるが、それらも天狗が憑依するのである。<br><br>こういう天狗は一種の野心をもち、その人間を傀儡（かいらい）とし、現世において名誉又は物質等を得て、大いに時めく事を望んでかかるのであるが、これらは正しい意味における神憑りではないので、一時は相当の通力を表わし、社会に喧伝（けんでん）せらるる事もあるが、時を経るに従い、通力が薄くなったり、その人が滅びたりして大成する者はないのである。<br><br>彼の一時時めいた○○○○や○○○○及び○○○○○のごときも、この例に漏れないのである。<br><br>そうして人間は断食や病気等によって心身共に衰弱する時、霊が憑依し易くなるものである。<br><br> 又、眼に一丁字（いっていじ）もないような者が、突如として神憑りとなり、詩文や書などを達筆に書くという例なども、天狗の憑依に外ならないのである。<br><br> 又、理屈や議論を好み、横車を押したり、酒に酔うと理屈を言い出す人などよくあるがこれらも天狗の憑依者である。<br><br> ここで、飲酒癖について解説してみよう。<br><br>酒豪などが、何升もの酒を短時間で飲んでしまう事は全く不思議と思わずにはいられないのである。<br><br>古（いにしえ）から酒なら一升飲めるが水は一升飲めないという事をいうが、これは理由があるのであって、この事を私は世人に知らしたいのである。<br><br> 酒癖の原因は、酒を好む霊が憑依し、常に腹部に蟠居（ばんきょ）して居るのである。<br><br>故に酒が腹中に入るや、その霊が酒の精を吸収するのであって、その結果、酒の体は非常に減量するので、たとえていえば一升の酒が一合以下になるという訳であるから驚くほど多量に飲めるのである。<br><br>ちょうど、腹中に酒を吸う海綿があるようなものである。<br><br> そうして右の霊とは、天狗及び狸が重（おも）なるもので、稀には龍神もあるのである。<br><br> 酒を飲むと理屈を云い、盛んに議論をしたがるのは天狗の霊であり、又愉快になり笑ったり眠がったりするのは狸の霊である――と識るべきである。<br><br> 右の理によって、酒癖の人に対し、腹中に向って本療法を施すにおいて、いかなる人といえども酒量が減ずるのである。<br><br>それは少量にて酔うようになるからで、以前五合飲んだ時の酔の程度が一合で同じようになるのである。<br><br>それは酒を吸収する霊が畏縮するからである。<br><br>これらも霊医術の特異的効果であろう。<br><br>故に、本医術の修得者は、いかに酒癖のある人といえども漸次それが治り、一二合以上は飲めないという普通人の程度になるのである。<br><br>従って、本医術の治療士には酒癖の人は一人もないのである。<br><br> 天狗の憑依について、私の経験をかいてみよう。<br><br>以前私は、武州の三峯山へ登った事がある。<br><br>その夜山頂の寺院に一泊したが、翌朝祝詞を奏上した際、私に憑った霊があるので訊いてみると「二百年位以前天狗界に入った霊であって、駿河国三保神社の神官であった」そうである。<br><br>なぜ私に憑依したかというと「ある宗教書を読んで貰いたい」というのである。<br><br>それで帰宅後私はその宗教書を出来るだけ読んでやったが、約半年位経って、彼は厚く礼を舒（の）べて帰山したのであった。<br><br> ここで面白い事は、天狗の再生又は天狗霊の憑依者の面貌は鼻が高いのが特徴であり、理屈っぽく自慢を言いたがるものである。<br><br>そうして下座が嫌いで人より上へ立ちたがり、又人の話を聞くよりも話を聞かせたがる事を好むのである。<br><br> 又鳥天の憑依者は、鳥の特色を表わして居るから口が尖り、声は鳥のごとき単調音にて、性質は柔順で争いを好まないから人に好かれるのである。<br><br>特に鳥霊の憑依者は空中飛翔の夢をよく見るものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Esfera dos Tengu</h2>
 <p>A Esfera dos Tengu corresponde, de modo geral, ao Mundo Espiritual das regiões montanhosas de diversos locais. Os Tengu, por sua vez, são incumbidos da função de guardiões de suas respectivas montanhas. Ademais, em montanhas célebres onde são reverenciadas divindades de alta hierarquia, os Tengu atuam sob a autoridade desses deuses, encarregando-se das diversas tarefas relacionadas ao local. Naturalmente, a Esfera dos Tengu também se divide em classes superior, média e inferior, e seu deus regente supremo é Sarutahiko-no-Mikoto (猿田彦命), que reside no Monte Kurama.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Relatarei agora uma experiência pessoal sobre a possessão por Tengu. Certa vez, subi o Monte Mitsumine, na província de Musashi. Passei a noite no templo localizado no cume e, na manhã seguinte, enquanto entoava uma oração, percebi que um espírito havia se apossado de mim. Ao inquiri-lo, ele revelou ser um espírito que ingressara na Esfera dos Tengu havia cerca de duzentos anos e que, em vida, fora um sacerdote do santuário Miho, na província de Suruga. O motivo de sua possessão era um pedido: que eu lesse um determinado livro religioso para ele. Após retornar para casa, dediquei-me à leitura da obra. Cerca de seis meses depois, ele manifestou sua profunda gratidão e retornou à sua montanha.</p>
 <p>Um fato curioso é que as reencarnações de Tengu ou as pessoas possuídas por seus espíritos têm como traço distintivo o nariz de dorso alto. Ademais, são argumentativos e propensos à jactância. Detestam posições de subalternidade e anseiam por estar acima dos outros, preferindo discursar a ter de ouvir o que os outros dizem.</p>
 <p>Por outro lado, os possuídos por Tengu-pássaros manifestam as características de uma ave: sua boca é proeminente, sua voz é monotônica e sua índole é dócil. Por não apreciarem conflitos, são geralmente queridos por todos. Uma particularidade é que os possuídos por espíritos de aves costumam ter sonhos recorrentes em que estão voando.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天狗界 『明日の医術 第三編』昭和18(1943)年10月23日発行 天狗界は大体、各地の山嶽地帯の霊界であって、天狗なるものは、それぞれの山の守護としての役を司っているのである。<br/><br/>又名山などで、高級な神霊を鎮祭する所では、その神霊の下にあって、山に関する種々の業を司っている。<br/><br/>天狗界にも上中下の各階級があるのは勿論であり、総主宰神は鞍馬山に鎮座まします猿田彦命である。<br/><br/> 天狗には、人天及び鳥天の二種がある、人天とは人霊であって、現世において学者、文士、弁護士、教育家、神官、僧侶、昔は武士等の天狗的職業の者が、死後天狗界に入るのである。<br/><br/>そうして鳥天とは、鳥の霊であって、鳥は死後ことごとく天狗界に入るのである。<br/><br/>鳥天の中鷲や鷹の類は、現界と同様の威力を発揮して居る。<br/><br/>以前私は小田原の道了権現の本尊が、ある婦人に憑依したのを審神（さにわ）した事があったがそれは何千年前の巨大なる鷲であって、これは確実と思える根拠があったのである。<br/><br/>又烏天狗は烏の霊であって、これは天狗界では神的行事を司り、特に神聖なる階級とされている。<br/><br/>戦争等の場合、産土神（うぶすながみ）の出陣の時、烏の霊が扈従（こじゅう）し、非常な働きをするそうである。<br/><br/>又、木葉天狗というのは小鳥の霊であって、これは伝令等の使者の役をしている。<br/><br/> 昔から、天狗を鼻高と称え、絵画や面など非常に鼻を高くしているが、これは事実である。<br/><br/>又赤い顔になっているが、天狗には酒豪が多いので、それを表徴したものであろう。<br/><br/> ここで、霊界における面貌についてかいてみよう。<br/><br/>霊界はさきに説いたごとく想念の世界であるから、人間の面貌は想念通りに現出するのである。<br/><br/>故に、天狗のごときは高慢にして人に屈する事を嫌う人士の想念がそのままの形となって表われたものである。<br/><br/>従って、醜悪なる想念の持主は醜悪なる面貌となり、善美な心の持主は、善美な容貌となるので、実に霊界における事象は、すべて欺瞞は許されないのである。<br/><br/>そうして死後想念が面貌へ表われるには数ケ月ないし一年位までとされている。<br/><br/> 次に、天狗の生活をかいてみよう。<br/><br/>彼らが最も好み、しかも専門的仕事としては議論を戦わす事である。<br/><br/>それは議論弁舌が優越し、論戦に勝てば地位が向上するのであるから、彼らが無上のものとするのも当然である。<br/><br/>故に現世においても代議士、弁護士等が論戦を好みそういう職業に従事するのは、天狗の再生又は天狗の霊が憑依しているからである。<br/><br/>又、議論の次に好むものは、碁、将棋である。<br/><br/>私は天狗界の将棋を教わった事があったが、現界のそれとは余程異（ちが）うのである。<br/><br/>又書画や詩文等も好むのである。<br/><br/>そうして天狗界の言葉であるが、これも現界の人語とは余程異ってほとんどサシスセソの音が主で、その変化によって意志を交換するのである。<br/><br/>天狗が語る時は、上顎と口唇と舌端と三者合致してサシスセソの音声を出しながら、上下の口唇のみの動きによって言語の変化を表わすのである。<br/><br/> 又、天狗の空中飛翔は特に優れていて、よく子供などを拉（らつ）し、空中飛翔によって遠方へ連れ去る話などがあるが、これらは事実であろう。<br/><br/>彼（か）の平田篤胤のかいた「寅吉物語」は天狗の飛翔術が主なるものである。<br/><br/>又、天狗の霊は人に憑依する事を好み、人を驚かす事を得意とするのである。<br/><br/>彼の牛若丸が五条の橋上で弁慶を飜弄（ほんろう）したり、義経となってから壇浦（だんのうら）の合戦の時、舟から舟へ飛鳥のごとく乗り移ったという事なども、全く天狗の霊が憑依したものであって、彼が鞍馬山において修行の際、猿田彦命より優秀の天狗を守護神として差遣わされたものであろう。<br/><br/>その他武芸者などが山嶽修業の結果、天狗飛切の術などと称し、転身の早業を会得するごときは、天狗の憑依に外ならないのである。<br/><br/> 次に、修験者等が深山へ入り、断食や水行等の荒行をなし、一種の神通力又は治病力など、種々の霊力を得るという話がよくあるが、それらも天狗が憑依するのである。<br/><br/>こういう天狗は一種の野心をもち、その人間を傀儡（かいらい）とし、現世において名誉又は物質等を得て、大いに時めく事を望んでかかるのであるが、これらは正しい意味における神憑りではないので、一時は相当の通力を表わし、社会に喧伝（けんでん）せらるる事もあるが、時を経るに従い、通力が薄くなったり、その人が滅びたりして大成する者はないのである。<br/><br/>彼の一時時めいた○○○○や○○○○及び○○○○○のごときも、この例に漏れないのである。<br/><br/>そうして人間は断食や病気等によって心身共に衰弱する時、霊が憑依し易くなるものである。<br/><br/> 又、眼に一丁字（いっていじ）もないような者が、突如として神憑りとなり、詩文や書などを達筆に書くという例なども、天狗の憑依に外ならないのである。<br/><br/> 又、理屈や議論を好み、横車を押したり、酒に酔うと理屈を言い出す人などよくあるがこれらも天狗の憑依者である。<br/><br/> ここで、飲酒癖について解説してみよう。<br/><br/>酒豪などが、何升もの酒を短時間で飲んでしまう事は全く不思議と思わずにはいられないのである。<br/><br/>古（いにしえ）から酒なら一升飲めるが水は一升飲めないという事をいうが、これは理由があるのであって、この事を私は世人に知らしたいのである。<br/><br/> 酒癖の原因は、酒を好む霊が憑依し、常に腹部に蟠居（ばんきょ）して居るのである。<br/><br/>故に酒が腹中に入るや、その霊が酒の精を吸収するのであって、その結果、酒の体は非常に減量するので、たとえていえば一升の酒が一合以下になるという訳であるから驚くほど多量に飲めるのである。<br/><br/>ちょうど、腹中に酒を吸う海綿があるようなものである。<br/><br/> そうして右の霊とは、天狗及び狸が重（おも）なるもので、稀には龍神もあるのである。<br/><br/> 酒を飲むと理屈を云い、盛んに議論をしたがるのは天狗の霊であり、又愉快になり笑ったり眠がったりするのは狸の霊である――と識るべきである。<br/><br/> 右の理によって、酒癖の人に対し、腹中に向って本療法を施すにおいて、いかなる人といえども酒量が減ずるのである。<br/><br/>それは少量にて酔うようになるからで、以前五合飲んだ時の酔の程度が一合で同じようになるのである。<br/><br/>それは酒を吸収する霊が畏縮するからである。<br/><br/>これらも霊医術の特異的効果であろう。<br/><br/>故に、本医術の修得者は、いかに酒癖のある人といえども漸次それが治り、一二合以上は飲めないという普通人の程度になるのである。<br/><br/>従って、本医術の治療士には酒癖の人は一人もないのである。<br/><br/> 天狗の憑依について、私の経験をかいてみよう。<br/><br/>以前私は、武州の三峯山へ登った事がある。<br/><br/>その夜山頂の寺院に一泊したが、翌朝祝詞を奏上した際、私に憑った霊があるので訊いてみると「二百年位以前天狗界に入った霊であって、駿河国三保神社の神官であった」そうである。<br/><br/>なぜ私に憑依したかというと「ある宗教書を読んで貰いたい」というのである。<br/><br/>それで帰宅後私はその宗教書を出来るだけ読んでやったが、約半年位経って、彼は厚く礼を舒（の）べて帰山したのであった。<br/><br/> ここで面白い事は、天狗の再生又は天狗霊の憑依者の面貌は鼻が高いのが特徴であり、理屈っぽく自慢を言いたがるものである。<br/><br/>そうして下座が嫌いで人より上へ立ちたがり、又人の話を聞くよりも話を聞かせたがる事を好むのである。<br/><br/> 又鳥天の憑依者は、鳥の特色を表わして居るから口が尖り、声は鳥のごとき単調音にて、性質は柔順で争いを好まないから人に好かれるのである。<br/><br/>特に鳥霊の憑依者は空中飛翔の夢をよく見るものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

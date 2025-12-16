@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280407</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月7日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月七日 明日京都に行くことになりましたが、その目的は、嵯峨の今度の家に泊まって、これからのあそこの地上天国と美術館の土地やいろいろのことの、大体の指図をしようと思ってます。<br><br>あそこの美術館は、前にも言ったとおり仏教美術館を造るつもりです。<br><br>これは箱根の美術館とはぜんぜん違って、もっと大きながらんとしたものです。<br><br>あんまり細かいケースなどはいりません。<br><br>ですから簡単にできます。<br><br>そういう話を文化財の役員などに話すると非常に賛成してます。<br><br>なにしろ京都の仏教美術、特に彫刻では、日本の仏教彫刻が世界で一番なのです。<br><br>彫刻ではギリシアの彫刻というものは世界的に有名なもので、彫刻の元祖でありまた非常に名品ができました。<br><br>西暦紀元前四、五百年くらいがもっとも良い物ができたのです。<br><br>それで今度、箱根美術館にもギリシアの彫刻がいくらか出ますが、やはり二千年くらい前の物で、なかなかおもしろい物ができてます。<br><br>それからローマ時代にかなりできましたが、日本の仏教彫刻から見ればずっと低いのです。<br><br>高さがありません。<br><br>つまり写生ですから、ふつうの人間のいろいろな形をうまく表現したわけです。<br><br>ところが日本の仏教彫刻というものは、理想つまり人間以上の仏を現わしたわけです。<br><br>だから高さにおいて非常に高いのです。<br><br>そこで技巧の点から言っても非常に巧妙なのです。<br><br>巧みです。<br><br>ですから外人でも一部の人は非常に憧憬しているのですが、まだ大部分は知らないのです。<br><br>なぜと言って、見ようとしても、一々お寺に頼んで、靴をぬいで薄暗い所で見なければならないのです。<br><br>どうやら見られるのは法隆寺です。<br><br>法隆寺だけは奈良に行けば、たいていな人はきっと見られますが、しかしほかの所を何軒も見るということは、日数は幾日もかかるし、おまけにある所が、法隆寺にしても薄暗い所で、それからまた遠くの方から見るとか厨子の中にはいっているのを見るというように、どうもややこしくて、美術館的に簡単に良く見られません。<br><br>ですからそういう弊害をなくして、一目で良く見られるというのが今度の美術館の狙い所です。<br><br>そういう建物を建てて、各寺に了解させて、本尊様はそうはゆかないでしょうが、本尊様以外の良い物を一堂に集めて、一度に見られるというようにするのです。<br><br>ですから観光外客などは、時間の制限や一日しか京都に滞在できないという人が一目で見られるし、そうして日本の彫刻の秀れたことを世界に紹介するということは、国家的にも非常に必要なのです。<br><br>これは京都市あたりでやらなければならないことだが、なかなかそうはゆかないので、それをこっちでやってやるのですから、本当に分かると、京都市としてもよほどありがたいことになります。<br><br> 今説明したことは表面と言いますか、外郭的の話ですが、霊的に言うともっとすばらしい意味があるのです。<br><br>明日はお釈迦さんの誕生日ですが、特にそうしたわけではないので自然にそういう都合になってしまったのです。<br><br>というのは、これから嵯峨の経綸にかかるわけですが、それはお釈迦さんの経綸になるわけです。<br><br>それで私が今度行くのはお釈迦さんの仕事をするわけです。<br><br>そこで四月八日ということになったのです。<br><br>それで嵯峨という土地は、大体仏教の本源地として非常に意味があるのです。<br><br>それで仏教は五、六、七の七になるのです。<br><br>火水土の土になるのです。<br><br>だからいつかも言ったとおり京都の経綸は土の経綸ですから、あそこは平らで広い所なのです。<br><br>それで土地の面積が一万八千坪というのは五六七で、あそこでミロクが完成するのです。<br><br>箱根、熱海、京都で五、六、七が完成するのです。<br><br>そこで土地も一万八千坪というわけです。<br><br>私は最初に聞いた時にハハアと思いました。<br><br>それで嵯峨という言霊は、「サガ」の濁りを取ると、「サカ」ということになりますが、「サカ」というのは「シャカ」ということになります。<br><br>「シャ」をつめると「サ」になります。<br><br>そこであそこに釈迦のお堂があって、嵯峨の釈迦さんといって、昔から有名なものです。<br><br>そういう経綸になるわけです。<br><br>そうしてもう仏滅の世にはいってきたわけです。<br><br>そうすると仏滅の時になり、つまり仏教は亡びるわけです。<br><br>それを救うわけです。<br><br>救うということは、仏になっていた神様の霊を、神に救い上げるわけです。<br><br>その経綸がこれから始まるわけです。<br><br>それでそういう仏様が京都、奈良に集まっているのですから、ここはその仏たちを救うべき道場というわけになります。<br><br>それで各寺にある仏像にその仏様の霊が憑るのです。<br><br>だから仏像というものは、ただ表面的に見れば美術的の物ですが、霊的に見ればその仏像に仏様の霊が憑るのです。<br><br>霊といっても、弘法大師、親鸞、法然、道元というような人たちが仏像に憑って、私がこれから造る美術館に集まってくるのです。<br><br>それでそういう仏様はいろんな罪穢れをうんと背負っているのですから、それを私が浄めてやるのです。<br><br>大体元はそうとう神格を持っていたのですから、浄められると今度はその神格をもって救世教のために働くという経綸になるわけです。<br><br>ですから霊的に言えばたいへんな経綸になるわけです。<br><br>それで神様がやられることは二つも三つも仕事ができてしまうのです。<br><br>そういう点などは、神様だからあたりまえですが、実にうまいものだと、私はいつも感心してます。<br><br>そつがありません。<br><br>それについては、仏というものはお釈迦さんが始めたのですから、そこでどうしても仏を大いに救わなければならないのです。<br><br>というのは、仏というものもやはりたいへんな必要があって出たのですが、しかしながら今まで夜の世界であったために、知らず知らずいろんな間違ったことを仏様がしたのです。<br><br>ですからここでどうしても浄まらなければならないのです。<br><br>偉い開祖とか教祖でも地獄に落ちたのもあるのです。<br><br>そこで今度の嵯峨がやっぱり天国になって、そういう仏様が集まってくるのです。<br><br>救世教の経綸というものは、今言ったように非常に深いものなのです。<br><br> それから『結核信仰療法』の本はだいぶ売れるようですが、それについてちょっと論文を書いてみました。<br><br> （御論文「結核信仰療法に就いて」）【栄光 二〇四号】 それから今言われている公明選挙ということについて書きましたが、これは『東京日日新聞』に今日から二回か三回にわたって出ます。<br><br>ちょっとおもしろい書き方です。<br><br> （御論文「公明選挙を嗤う」） それから近ごろ精神病が非常に増えてきたのです。<br><br>これはみんな知っているでしょう。<br><br>そこで精神病の浄霊の仕方を詳しく話そうと思います。<br><br>とにかく精神病の一番の急所は延髄です。<br><br>延髄に必ず固まりがあって、この固まりが血管を圧迫し、前頭部が貧血して、そこに霊が蟠踞（ばんきょ）して自由に操るのです。<br><br>それでこの貧血をなおすには、延髄の固まりを溶かすということが第一番です。<br><br>それから淋巴腺ですが、この固まりも影響します。<br><br>この固まりは貧血でなく浄化熱が出るのです。<br><br>それでこの浄化熱が前頭部に及ぼすのです。<br><br>ですから頭の熱い人は必ずここ（前頭部）にあります。<br><br>ここを触って冷たいというのは、おそらく百人に一人も難しいです。<br><br>私は前に書きましたが「日本人は全部精神病だ、ただ軽い重いの違いだ」というのです。<br><br>それで吉田さんが「馬鹿野郎」と言ったのは発作的の精神病です。<br><br>それは後で後悔しているに違いないですが、その時はやっこさんがここ（前頭部）に飛んできたのです。<br><br>しかしああいう人はたびたびはありません。<br><br>一年に一度か二度くらいでしょう。<br><br>それでふつうの人はよほど偉い人で、月に二、三回くらいはやはり発作的に来るのです。<br><br>それからごく下っ端の方は一日に三、四度あるのです。<br><br>それで精神病について、動物霊ですが、お酒を飲むとやり良いのです。<br><br>それで酒を飲ませて酔わせていろんな間違いをやらせるのです。<br><br>酒を飲むのはやっぱりお腹にいる先生ですが、それがここ（前頭部）に蟠踞して、いろんなことをやろうというのです。<br><br>酒乱はそのごく酷いのです。<br><br>それで酒乱は人間の霊と動物の霊が共同でやるのです。<br><br>そういうようでだんだん精神病が多くなってくるのです。<br><br>特にアメリカは精神病が一番多いそうです。<br><br>それは霊界の浄化がだんだん強くなるに従って、そういった動物霊は落ちついていられないので浮いてくるのです。<br><br>ですから元からいるやつはここ（前頭部）に上がるし、それからつまり宿無しですが、霊界にいるそういった宿無しというのはたいへんなもので、人間より多いのです。<br><br>ですから人間に憑りたがってウズウズしているのです。<br><br>しかし信仰があると憑りたくても憑れないし、憑っても自由にできないのです。<br><br>しかし信仰のない人や曇りがある人には憑りやすいのです。<br><br>それから薬をのむと曇るから、やはり憑りやすいのです。<br><br>ですから精神病の起った原因も薬です。<br><br>そこで霊界にいる宿無しは、始終迷って憑ろう憑ろうとしているのです。<br><br>それでちょっとよけい曇っている者には一匹でなく何匹も憑るのです。<br><br>ですから発作の状態でも一々違います。<br><br>そこで今言ったとおり延髄を第一、淋巴腺を第二とするのです。<br><br>それから鳩尾も肝腎です。<br><br>鳩尾の奥の方を浄霊すると良いのです。<br><br>これは怒った場合には必ず鳩尾に固まりがあります。<br><br>だから怒った時に落ちついて考えたら、必ず鳩尾に固まりがあります。<br><br>ここがなんとも言えない気持ちになるのです。<br><br>それでそういう気持ちになると、頭にいる先生が非常にやり良くなるのです。<br><br>ですから延髄と淋巴腺と鳩尾の中心です。<br><br>鳩尾は前からやって良いのです。<br><br>自分でも腹の立つ時にやればきっとなおります。<br><br>さっき私が懐に手を入れてやっていたでしょう。<br><br>それはそういうわけなのです。<br><br>ここに来る前にちょっとおもしろくないことがあったので、それがどうも腹が立ってしようがないので、しゃべろうとしてもなんだか気になってしようがないので、懐に手を入れていたのです。<br><br>もうなおりましたが……。<br><br>だから今言ったことは人の精神病ばかりでなく、自分の精神病もそうです。<br><br>精神病ほどでなくても、ちょっとしたことでもそうです。<br><br>しかしこれはよほど修行を積んでないと、変なことを言ったり、怒ったまぎれに脱線しがちですから、やはり怒ったことを消すということは肝腎なのです。<br><br> そういう順序でやれば必ずなおります。<br><br>しかし延髄を見ようと思っても、人が来るのを怒ったりするのは見れませんから、そういうのは遠くからでも良いですから、後頭部のちょっと下の辺をやるとおとなしくなりますから、それからいよいよ浄霊にはいるのです。<br><br>そうするときっとなおります。<br><br>それから結核と精神病は周囲の者が一番困るのです。<br><br>精神病は二人も三人もついていなければならないし、結核は消毒だなんだと、その手数がたいへんです。<br><br>病人だけが苦しむのでなくて、家族の者が大いに苦しむのです。<br><br>それで結核というのは家族の恐怖心というものがたいへんです。<br><br>精神病は暴れたりいろいろするので、それを押さえつけたりして、周囲の者は外出もできないのです。<br><br>ですからこれだけは絶対になおさなければならないのです。<br><br>とにかく悲劇の一番の大きなものです。<br><br>それで今話したのです。<br><br> 結核の方は『信仰療法』などに詳しく書いてありますが、精神病の方はあんまり書いてありませんから、これも今度はもっと徹底して書こうと思ってます。<br><br>なにしろ増えます。<br><br>最近信者のうちにも三人ばかりありました。<br><br>それで非常に多くなって精神病院が満員で、とても収容しきれなくて弱っているということを聞いたので、特に話したのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação do Budismo e a Cura das Doenças da Alma</h2>
 <p>Amanhã, partirei para Quioto com o propósito de me hospedar na nova residência em Saga e, a partir de lá, traçar as diretrizes gerais para o futuro Paraíso Terrestre e o Museu de Arte que ali serão estabelecidos. Conforme já anunciei, o museu em questão será dedicado à arte budista. Sua concepção será radicalmente distinta da do Museu de Hakone, apresentando-se como uma estrutura vasta e de amplos espaços, desprovida de vitrines e compartimentos menores, o que simplificará consideravelmente sua construção. Ao compartilhar essa ideia com os membros do comitê de bens culturais, recebi seu mais entusiástico apoio.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Seguindo essa sequência, a cura é certa. Contudo, se a pessoa se irrita com a aproximação de outros, torna-se impossível examinar a medula oblonga. Nesses casos, pode-se ministrar Johrei à distância, focando a região logo abaixo da nuca. A pessoa se acalmará, permitindo, então, o início do Johrei direto. O resultado será infalível.</p>
 <p>Tanto a tuberculose quanto os transtornos mentais são enfermidades que impõem um fardo imenso aos familiares. O doente mental requer a vigilância constante de duas ou três pessoas, enquanto a tuberculose envolve a angústia da desinfecção e inúmeros outros cuidados. O sofrimento não se limita ao paciente; a família é profundamente afligida. No caso da tuberculose, o pavor do contágio é avassalador. No transtorno mental, a agressividade e os surtos exigem contenção, privando os familiares de sua liberdade. São doenças que precisam ser erradicadas a todo custo, pois representam as maiores tragédias humanas. Foi por essa razão que decidi abordar o tema.</p>
 <p>O tratamento da tuberculose está detalhado no livro "Terapia pela Fé", mas ainda não escrevi o suficiente sobre os transtornos mentais. Pretendo abordar o assunto de forma mais aprofundada, pois os casos estão em franca ascensão. Recentemente, tivemos três casos entre os membros. Ouvi dizer que os hospitais psiquiátricos estão lotados, sem capacidade para novas internações, o que me motivou a lhes transmitir estas palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月7日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月七日 明日京都に行くことになりましたが、その目的は、嵯峨の今度の家に泊まって、これからのあそこの地上天国と美術館の土地やいろいろのことの、大体の指図をしようと思ってます。<br/><br/>あそこの美術館は、前にも言ったとおり仏教美術館を造るつもりです。<br/><br/>これは箱根の美術館とはぜんぜん違って、もっと大きながらんとしたものです。<br/><br/>あんまり細かいケースなどはいりません。<br/><br/>ですから簡単にできます。<br/><br/>そういう話を文化財の役員などに話すると非常に賛成してます。<br/><br/>なにしろ京都の仏教美術、特に彫刻では、日本の仏教彫刻が世界で一番なのです。<br/><br/>彫刻ではギリシアの彫刻というものは世界的に有名なもので、彫刻の元祖でありまた非常に名品ができました。<br/><br/>西暦紀元前四、五百年くらいがもっとも良い物ができたのです。<br/><br/>それで今度、箱根美術館にもギリシアの彫刻がいくらか出ますが、やはり二千年くらい前の物で、なかなかおもしろい物ができてます。<br/><br/>それからローマ時代にかなりできましたが、日本の仏教彫刻から見ればずっと低いのです。<br/><br/>高さがありません。<br/><br/>つまり写生ですから、ふつうの人間のいろいろな形をうまく表現したわけです。<br/><br/>ところが日本の仏教彫刻というものは、理想つまり人間以上の仏を現わしたわけです。<br/><br/>だから高さにおいて非常に高いのです。<br/><br/>そこで技巧の点から言っても非常に巧妙なのです。<br/><br/>巧みです。<br/><br/>ですから外人でも一部の人は非常に憧憬しているのですが、まだ大部分は知らないのです。<br/><br/>なぜと言って、見ようとしても、一々お寺に頼んで、靴をぬいで薄暗い所で見なければならないのです。<br/><br/>どうやら見られるのは法隆寺です。<br/><br/>法隆寺だけは奈良に行けば、たいていな人はきっと見られますが、しかしほかの所を何軒も見るということは、日数は幾日もかかるし、おまけにある所が、法隆寺にしても薄暗い所で、それからまた遠くの方から見るとか厨子の中にはいっているのを見るというように、どうもややこしくて、美術館的に簡単に良く見られません。<br/><br/>ですからそういう弊害をなくして、一目で良く見られるというのが今度の美術館の狙い所です。<br/><br/>そういう建物を建てて、各寺に了解させて、本尊様はそうはゆかないでしょうが、本尊様以外の良い物を一堂に集めて、一度に見られるというようにするのです。<br/><br/>ですから観光外客などは、時間の制限や一日しか京都に滞在できないという人が一目で見られるし、そうして日本の彫刻の秀れたことを世界に紹介するということは、国家的にも非常に必要なのです。<br/><br/>これは京都市あたりでやらなければならないことだが、なかなかそうはゆかないので、それをこっちでやってやるのですから、本当に分かると、京都市としてもよほどありがたいことになります。<br/><br/> 今説明したことは表面と言いますか、外郭的の話ですが、霊的に言うともっとすばらしい意味があるのです。<br/><br/>明日はお釈迦さんの誕生日ですが、特にそうしたわけではないので自然にそういう都合になってしまったのです。<br/><br/>というのは、これから嵯峨の経綸にかかるわけですが、それはお釈迦さんの経綸になるわけです。<br/><br/>それで私が今度行くのはお釈迦さんの仕事をするわけです。<br/><br/>そこで四月八日ということになったのです。<br/><br/>それで嵯峨という土地は、大体仏教の本源地として非常に意味があるのです。<br/><br/>それで仏教は五、六、七の七になるのです。<br/><br/>火水土の土になるのです。<br/><br/>だからいつかも言ったとおり京都の経綸は土の経綸ですから、あそこは平らで広い所なのです。<br/><br/>それで土地の面積が一万八千坪というのは五六七で、あそこでミロクが完成するのです。<br/><br/>箱根、熱海、京都で五、六、七が完成するのです。<br/><br/>そこで土地も一万八千坪というわけです。<br/><br/>私は最初に聞いた時にハハアと思いました。<br/><br/>それで嵯峨という言霊は、「サガ」の濁りを取ると、「サカ」ということになりますが、「サカ」というのは「シャカ」ということになります。<br/><br/>「シャ」をつめると「サ」になります。<br/><br/>そこであそこに釈迦のお堂があって、嵯峨の釈迦さんといって、昔から有名なものです。<br/><br/>そういう経綸になるわけです。<br/><br/>そうしてもう仏滅の世にはいってきたわけです。<br/><br/>そうすると仏滅の時になり、つまり仏教は亡びるわけです。<br/><br/>それを救うわけです。<br/><br/>救うということは、仏になっていた神様の霊を、神に救い上げるわけです。<br/><br/>その経綸がこれから始まるわけです。<br/><br/>それでそういう仏様が京都、奈良に集まっているのですから、ここはその仏たちを救うべき道場というわけになります。<br/><br/>それで各寺にある仏像にその仏様の霊が憑るのです。<br/><br/>だから仏像というものは、ただ表面的に見れば美術的の物ですが、霊的に見ればその仏像に仏様の霊が憑るのです。<br/><br/>霊といっても、弘法大師、親鸞、法然、道元というような人たちが仏像に憑って、私がこれから造る美術館に集まってくるのです。<br/><br/>それでそういう仏様はいろんな罪穢れをうんと背負っているのですから、それを私が浄めてやるのです。<br/><br/>大体元はそうとう神格を持っていたのですから、浄められると今度はその神格をもって救世教のために働くという経綸になるわけです。<br/><br/>ですから霊的に言えばたいへんな経綸になるわけです。<br/><br/>それで神様がやられることは二つも三つも仕事ができてしまうのです。<br/><br/>そういう点などは、神様だからあたりまえですが、実にうまいものだと、私はいつも感心してます。<br/><br/>そつがありません。<br/><br/>それについては、仏というものはお釈迦さんが始めたのですから、そこでどうしても仏を大いに救わなければならないのです。<br/><br/>というのは、仏というものもやはりたいへんな必要があって出たのですが、しかしながら今まで夜の世界であったために、知らず知らずいろんな間違ったことを仏様がしたのです。<br/><br/>ですからここでどうしても浄まらなければならないのです。<br/><br/>偉い開祖とか教祖でも地獄に落ちたのもあるのです。<br/><br/>そこで今度の嵯峨がやっぱり天国になって、そういう仏様が集まってくるのです。<br/><br/>救世教の経綸というものは、今言ったように非常に深いものなのです。<br/><br/> それから『結核信仰療法』の本はだいぶ売れるようですが、それについてちょっと論文を書いてみました。<br/><br/> （御論文「結核信仰療法に就いて」）【栄光 二〇四号】 それから今言われている公明選挙ということについて書きましたが、これは『東京日日新聞』に今日から二回か三回にわたって出ます。<br/><br/>ちょっとおもしろい書き方です。<br/><br/> （御論文「公明選挙を嗤う」） それから近ごろ精神病が非常に増えてきたのです。<br/><br/>これはみんな知っているでしょう。<br/><br/>そこで精神病の浄霊の仕方を詳しく話そうと思います。<br/><br/>とにかく精神病の一番の急所は延髄です。<br/><br/>延髄に必ず固まりがあって、この固まりが血管を圧迫し、前頭部が貧血して、そこに霊が蟠踞（ばんきょ）して自由に操るのです。<br/><br/>それでこの貧血をなおすには、延髄の固まりを溶かすということが第一番です。<br/><br/>それから淋巴腺ですが、この固まりも影響します。<br/><br/>この固まりは貧血でなく浄化熱が出るのです。<br/><br/>それでこの浄化熱が前頭部に及ぼすのです。<br/><br/>ですから頭の熱い人は必ずここ（前頭部）にあります。<br/><br/>ここを触って冷たいというのは、おそらく百人に一人も難しいです。<br/><br/>私は前に書きましたが「日本人は全部精神病だ、ただ軽い重いの違いだ」というのです。<br/><br/>それで吉田さんが「馬鹿野郎」と言ったのは発作的の精神病です。<br/><br/>それは後で後悔しているに違いないですが、その時はやっこさんがここ（前頭部）に飛んできたのです。<br/><br/>しかしああいう人はたびたびはありません。<br/><br/>一年に一度か二度くらいでしょう。<br/><br/>それでふつうの人はよほど偉い人で、月に二、三回くらいはやはり発作的に来るのです。<br/><br/>それからごく下っ端の方は一日に三、四度あるのです。<br/><br/>それで精神病について、動物霊ですが、お酒を飲むとやり良いのです。<br/><br/>それで酒を飲ませて酔わせていろんな間違いをやらせるのです。<br/><br/>酒を飲むのはやっぱりお腹にいる先生ですが、それがここ（前頭部）に蟠踞して、いろんなことをやろうというのです。<br/><br/>酒乱はそのごく酷いのです。<br/><br/>それで酒乱は人間の霊と動物の霊が共同でやるのです。<br/><br/>そういうようでだんだん精神病が多くなってくるのです。<br/><br/>特にアメリカは精神病が一番多いそうです。<br/><br/>それは霊界の浄化がだんだん強くなるに従って、そういった動物霊は落ちついていられないので浮いてくるのです。<br/><br/>ですから元からいるやつはここ（前頭部）に上がるし、それからつまり宿無しですが、霊界にいるそういった宿無しというのはたいへんなもので、人間より多いのです。<br/><br/>ですから人間に憑りたがってウズウズしているのです。<br/><br/>しかし信仰があると憑りたくても憑れないし、憑っても自由にできないのです。<br/><br/>しかし信仰のない人や曇りがある人には憑りやすいのです。<br/><br/>それから薬をのむと曇るから、やはり憑りやすいのです。<br/><br/>ですから精神病の起った原因も薬です。<br/><br/>そこで霊界にいる宿無しは、始終迷って憑ろう憑ろうとしているのです。<br/><br/>それでちょっとよけい曇っている者には一匹でなく何匹も憑るのです。<br/><br/>ですから発作の状態でも一々違います。<br/><br/>そこで今言ったとおり延髄を第一、淋巴腺を第二とするのです。<br/><br/>それから鳩尾も肝腎です。<br/><br/>鳩尾の奥の方を浄霊すると良いのです。<br/><br/>これは怒った場合には必ず鳩尾に固まりがあります。<br/><br/>だから怒った時に落ちついて考えたら、必ず鳩尾に固まりがあります。<br/><br/>ここがなんとも言えない気持ちになるのです。<br/><br/>それでそういう気持ちになると、頭にいる先生が非常にやり良くなるのです。<br/><br/>ですから延髄と淋巴腺と鳩尾の中心です。<br/><br/>鳩尾は前からやって良いのです。<br/><br/>自分でも腹の立つ時にやればきっとなおります。<br/><br/>さっき私が懐に手を入れてやっていたでしょう。<br/><br/>それはそういうわけなのです。<br/><br/>ここに来る前にちょっとおもしろくないことがあったので、それがどうも腹が立ってしようがないので、しゃべろうとしてもなんだか気になってしようがないので、懐に手を入れていたのです。<br/><br/>もうなおりましたが……。<br/><br/>だから今言ったことは人の精神病ばかりでなく、自分の精神病もそうです。<br/><br/>精神病ほどでなくても、ちょっとしたことでもそうです。<br/><br/>しかしこれはよほど修行を積んでないと、変なことを言ったり、怒ったまぎれに脱線しがちですから、やはり怒ったことを消すということは肝腎なのです。<br/><br/> そういう順序でやれば必ずなおります。<br/><br/>しかし延髄を見ようと思っても、人が来るのを怒ったりするのは見れませんから、そういうのは遠くからでも良いですから、後頭部のちょっと下の辺をやるとおとなしくなりますから、それからいよいよ浄霊にはいるのです。<br/><br/>そうするときっとなおります。<br/><br/>それから結核と精神病は周囲の者が一番困るのです。<br/><br/>精神病は二人も三人もついていなければならないし、結核は消毒だなんだと、その手数がたいへんです。<br/><br/>病人だけが苦しむのでなくて、家族の者が大いに苦しむのです。<br/><br/>それで結核というのは家族の恐怖心というものがたいへんです。<br/><br/>精神病は暴れたりいろいろするので、それを押さえつけたりして、周囲の者は外出もできないのです。<br/><br/>ですからこれだけは絶対になおさなければならないのです。<br/><br/>とにかく悲劇の一番の大きなものです。<br/><br/>それで今話したのです。<br/><br/> 結核の方は『信仰療法』などに詳しく書いてありますが、精神病の方はあんまり書いてありませんから、これも今度はもっと徹底して書こうと思ってます。<br/><br/>なにしろ増えます。<br/><br/>最近信者のうちにも三人ばかりありました。<br/><br/>それで非常に多くなって精神病院が満員で、とても収容しきれなくて弱っているということを聞いたので、特に話したのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

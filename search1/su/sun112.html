@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sun112</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光112号) 白光生 『栄光』112号、昭和26(1951)年7月11日発行 ▽…チャタレー問題は、要するに神経の問題だよ、検事はワイセツといい、文士はワイセツでないというのは、検事はワイセツに敏感だからであり、文士はワイセツに鈍感だからであるという訳なんだね、だから問題は読者にあるんだから、本を買っだ読者を全部呼出して犯人にすればいいんだ、それが公平な裁判じゃないか、どうじゃ拙者の頭はいいだろう ▽…赤痢流行（ばや）りで、当局は外出から帰ったら、必ず手を洗えという、とすると赤痢菌という奴は、随分巨（で）っかいもんに違いないね、いっそ指で撮（つま）んだ方がいいんじゃないかと思うよ、これを当局へ献言するさ ▽…赤は共産党ばかりかと思ったら左に非ずだね、見給え、火事流行り、赤痢流行り、人を殺して血を見るのが流行る、だから僕はそんなものは、赤んベーだよ ▽…近頃は僅かな金を奪りたいために、人間一匹を訳なく殺してしまうのは、実に呆れた話だ、ところがもっと恐ろしいのは、舌の剣で人を殺す奴だ、この舌の剣には猛毒があるから突かれたが最後、その毒のために頭が悪くなってしまい、罪を犯す事になるんだが、実は殺す奴も、殺される奴もこの中毒者なんだから厄介だよ、つまり無神論中毒という奴さ、何と恐ろしい毒ではないか、ところがこの中毒をたちまち消してしまう神薬を売る店があるんだから大したもんだよ、この店こそ皆さん御存知のメシヤ教なんだから、メシヤ教はいわば解毒剤販売の大問屋という訳さ、サァーサァー皆さん、イラッシャイイラッシャイ、これが評判の毒消しやで御座イー
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>A questão Chatterley, em suma, resume-se a uma questão de percepção. O promotor a considera obscena, enquanto o literato afirma que não o é. Isso ocorre porque o primeiro é sensível à obscenidade, ao passo que o segundo é insensível a ela. Portanto, o problema fundamental reside no leitor. A solução seria convocar todos que adquiriram a obra e declará-los réus. Não seria este um julgamento verdadeiramente equânime? Digam-me, minha mente não é perspicaz?</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Julgava que o vermelho pertencia unicamente ao Partido Comunista, mas estava redondamente enganado. Reparem: proliferam os incêndios, alastra-se a disenteria e banaliza-se o ato de matar para ver o sangue jorrar. Para tais coisas, pois, minha única resposta é o mais profundo desdém.</p>
 <p>É verdadeiramente assombroso que, em nossos dias, se tire a vida de um ser humano por uma quantia irrisória. Contudo, existe algo ainda mais aterrador: aquele que mata com a espada da língua. Essa lâmina verbal contém uma peçonha tão virulenta que, uma vez atingida, a vítima tem sua mente corrompida pelo veneno, sendo compelida a cometer pecados. A grande complicação é que tanto o agressor quanto a vítima são, na verdade, dependentes desse veneno. Refiro-me à intoxicação pelo ateísmo. Haverá veneno mais temível?</p>
 <p>Todavia, é notável que exista um estabelecimento que comercializa o divino remédio capaz de anular instantaneamente essa intoxicação. Esse lugar, como todos sabem, é a Igreja Messiânica. A Igreja Messiânica é, por assim dizer, a grande distribuidora atacadista de antídotos. Aproximem-se, aproximem-se todos! Chegou o famoso e infalível antídoto</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光112号) 白光生 『栄光』112号、昭和26(1951)年7月11日発行 ▽…チャタレー問題は、要するに神経の問題だよ、検事はワイセツといい、文士はワイセツでないというのは、検事はワイセツに敏感だからであり、文士はワイセツに鈍感だからであるという訳なんだね、だから問題は読者にあるんだから、本を買っだ読者を全部呼出して犯人にすればいいんだ、それが公平な裁判じゃないか、どうじゃ拙者の頭はいいだろう ▽…赤痢流行（ばや）りで、当局は外出から帰ったら、必ず手を洗えという、とすると赤痢菌という奴は、随分巨（で）っかいもんに違いないね、いっそ指で撮（つま）んだ方がいいんじゃないかと思うよ、これを当局へ献言するさ ▽…赤は共産党ばかりかと思ったら左に非ずだね、見給え、火事流行り、赤痢流行り、人を殺して血を見るのが流行る、だから僕はそんなものは、赤んベーだよ ▽…近頃は僅かな金を奪りたいために、人間一匹を訳なく殺してしまうのは、実に呆れた話だ、ところがもっと恐ろしいのは、舌の剣で人を殺す奴だ、この舌の剣には猛毒があるから突かれたが最後、その毒のために頭が悪くなってしまい、罪を犯す事になるんだが、実は殺す奴も、殺される奴もこの中毒者なんだから厄介だよ、つまり無神論中毒という奴さ、何と恐ろしい毒ではないか、ところがこの中毒をたちまち消してしまう神薬を売る店があるんだから大したもんだよ、この店こそ皆さん御存知のメシヤ教なんだから、メシヤ教はいわば解毒剤販売の大問屋という訳さ、サァーサァー皆さん、イラッシャイイラッシャイ、これが評判の毒消しやで御座イー</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

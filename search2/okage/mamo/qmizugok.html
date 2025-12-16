@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmizugok</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水苔でつまったパイプも十分の御浄霊で 『栄光』97号、昭和26(1951)年3月28日発行 大分県 如意輪中教会 津田 勇（39） 私は昭和二十四年十二月十一日入信を許されしよりこの方数々の御利益を頂きましたがその内で特に驚異に値いするものをここに御礼と共に御報告さして頂きます。<br><br> 私は理髪の傍ら副業として銭湯業を経営しているものでございますが、農村の関係上料金安にて水道は引けず、これがため二カ所に井戸を持ち、モーターにて水揚げをしております。<br><br>ところが大量に水を使用致しますと次第に水質は悪化致し、パイプの内経は小さくなり、遂に浴槽のウメ水のパイプは多年の水苔硬着し、一滴の水も出なくなり、お湯の熱くなるに従って顧客から頻りと騒がれ、遂に喊声さえ上げるようになりました。<br><br>サービスをモットーとする我々業者としては大なる黒星にて、頭は早鐘を乱打するがごとき焦燥にかられ、急拠して家族を叱咤しバケツ注水に大童です。<br><br>今思い出しても苦笑せざるを得ません。<br><br>されどこのパイプはタンク（水槽）より隔る事約二間、それを片仮名のコの字を上に向けた凵のように地下に埋め、コンクリートにて塗装してある関係上、そう軽々と掘り上げて清掃の出来るものではありません。<br><br>随分と思案を廻らし、地面に露出せるパイプを金鎚にて叩く等致しましたが、よく熟考してみると、水のつまるという事は地下に埋めてある屈曲パイプの障害であるべき事に思いを致し、遂に掘り下げを決意致しましたところ、去る二月頃『救世』新聞四十九号にて「四十数日も開かぬ金庫がたった二分の浄霊で開いた」おかげ話を読み「そうだ」と我を覚えず膝を叩きました。<br><br>「そうだ」自分は久しく新聞等の御利益集を手にする事を等閑に付していたが、何か心の赴くままに読まして頂く内フト眼にとまりましたのがこの記事でした。<br><br>この記事も神よりの御神示であると解し、拝む気持にて夫婦して一心にお願いする事に致しました。<br><br>まずパイプを又金鎚にて叩き「天津祝詞」と「善言讃詞」を奉唱する事数回、その間地下のパイプに御浄霊を入念に致しましたが、もしもこのパイプの貫通を見ない時には、結局自分等に対する御加護の薄きものか、又我々の信仰の至らざるものかと、何か恐ろしいものに触れるような気持で震えながら、最後の手段としてパイプに口を当てがい、プーッと吹き出したらこはいかに、出るは出るは、長い三十日間に固着せし水垢が、続々と吹き出て後より続いて清水の流出せるを見た時は、夫婦共に目頭が熱くなり上気の余り顔は紅潮し、手足の水浸りも拭いもやらず、光明如来様に御礼をと階上に駈け上りし程の嬉しさでございました。<br><br>光明如来様の御前に額ずき身心を改め、礼拝せし時はただただ心の底より感謝の気持一杯にて、頭を上げ得ざる思いでございました。<br><br> お縋りする気持において、救われる人の病気の形以外に、かかる物体にまで御浄霊の力の有難さを見せつけられ、ここに万物の霊長としての人間たる者が真剣にこの神様に御縋りせば、いかなる難病も即座に平癒する事疑いなき事を深く強く知らされました。<br><br> 拙筆をもって御礼と共に御報告させて頂きます。<br><br> （昭和二十五年十一月六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Até mesmo um cano obstruído por limo desobstruiu-se com a ministração plena de Johrei (Revista Eikou, nº 97, 28 de março de 1951)</h2>
 <p>Província de Oita, Igreja Nyoirin Tyu-Kyokai
@@ -98,5 +253,48 @@ Tsuda Isamu (39 anos)</p>
 <p>Essa experiência demonstrou que o poder do Johrei se manifesta não apenas na cura de enfermidades humanas, mas se estende a objetos inanimados quando nos entregamos a Deus com fé absoluta. Fui levado a compreender, de forma profunda e inequívoca, que se o ser humano, a coroa da Criação, suplicar com sinceridade a este Deus, não haverá doença, por mais grave que seja, que não possa ser curada instantaneamente.</p>
 <p>É com estas palavras singelas que apresento meu relato e meu mais profundo agradecimento.</p>
 <p>(6 de novembro de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水苔でつまったパイプも十分の御浄霊で 『栄光』97号、昭和26(1951)年3月28日発行 大分県 如意輪中教会 津田 勇（39） 私は昭和二十四年十二月十一日入信を許されしよりこの方数々の御利益を頂きましたがその内で特に驚異に値いするものをここに御礼と共に御報告さして頂きます。<br/><br/> 私は理髪の傍ら副業として銭湯業を経営しているものでございますが、農村の関係上料金安にて水道は引けず、これがため二カ所に井戸を持ち、モーターにて水揚げをしております。<br/><br/>ところが大量に水を使用致しますと次第に水質は悪化致し、パイプの内経は小さくなり、遂に浴槽のウメ水のパイプは多年の水苔硬着し、一滴の水も出なくなり、お湯の熱くなるに従って顧客から頻りと騒がれ、遂に喊声さえ上げるようになりました。<br/><br/>サービスをモットーとする我々業者としては大なる黒星にて、頭は早鐘を乱打するがごとき焦燥にかられ、急拠して家族を叱咤しバケツ注水に大童です。<br/><br/>今思い出しても苦笑せざるを得ません。<br/><br/>されどこのパイプはタンク（水槽）より隔る事約二間、それを片仮名のコの字を上に向けた凵のように地下に埋め、コンクリートにて塗装してある関係上、そう軽々と掘り上げて清掃の出来るものではありません。<br/><br/>随分と思案を廻らし、地面に露出せるパイプを金鎚にて叩く等致しましたが、よく熟考してみると、水のつまるという事は地下に埋めてある屈曲パイプの障害であるべき事に思いを致し、遂に掘り下げを決意致しましたところ、去る二月頃『救世』新聞四十九号にて「四十数日も開かぬ金庫がたった二分の浄霊で開いた」おかげ話を読み「そうだ」と我を覚えず膝を叩きました。<br/><br/>「そうだ」自分は久しく新聞等の御利益集を手にする事を等閑に付していたが、何か心の赴くままに読まして頂く内フト眼にとまりましたのがこの記事でした。<br/><br/>この記事も神よりの御神示であると解し、拝む気持にて夫婦して一心にお願いする事に致しました。<br/><br/>まずパイプを又金鎚にて叩き「天津祝詞」と「善言讃詞」を奉唱する事数回、その間地下のパイプに御浄霊を入念に致しましたが、もしもこのパイプの貫通を見ない時には、結局自分等に対する御加護の薄きものか、又我々の信仰の至らざるものかと、何か恐ろしいものに触れるような気持で震えながら、最後の手段としてパイプに口を当てがい、プーッと吹き出したらこはいかに、出るは出るは、長い三十日間に固着せし水垢が、続々と吹き出て後より続いて清水の流出せるを見た時は、夫婦共に目頭が熱くなり上気の余り顔は紅潮し、手足の水浸りも拭いもやらず、光明如来様に御礼をと階上に駈け上りし程の嬉しさでございました。<br/><br/>光明如来様の御前に額ずき身心を改め、礼拝せし時はただただ心の底より感謝の気持一杯にて、頭を上げ得ざる思いでございました。<br/><br/> お縋りする気持において、救われる人の病気の形以外に、かかる物体にまで御浄霊の力の有難さを見せつけられ、ここに万物の霊長としての人間たる者が真剣にこの神様に御縋りせば、いかなる難病も即座に平癒する事疑いなき事を深く強く知らされました。<br/><br/> 拙筆をもって御礼と共に御報告させて頂きます。<br/><br/> （昭和二十五年十一月六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

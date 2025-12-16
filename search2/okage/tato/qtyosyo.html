@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtyosyo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 嘲笑に堪え努力の二年間 ついに凱歌を挙げ得た自然農法の体験 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 長野県 神成中教会（報告者）唐沢康隆（25） （実施者）木下良平（25） 昭和二十六年十二月九日、この日こそ私達にとって意義深い運命を決する日であった。<br><br>それは待ちに待った、年に一度の農芸品評会である。<br><br>会場正門に立て掛けられたその立看板に私達の胸はいやが上に高鳴る思いで一杯です。<br><br> 真に私達信者は苦しくも長かった病床より尊い御力に救われた上、又重ねて自然農法の偉大さを覚り得て、今日ここにその成果を郷土の人々の前に実証する喜びと、そして誇りに思わず同志の人々の顔も共に輝く様子です。<br><br> 顧みれば、三年前より小さいながら次第に実成績を挙げつつある同志の者と相計り、郷土の人々に金肥農法の余りにも労多くして効すくなきを覚って頂くべく、誠意をもって当るならきっと村人も沢山共鳴してくれるものとまず言葉による宣伝と計画し、その第一声を昨年の春三月、大下條村公民館に多数の参会者を得て開催致してより、各村において幾度かの研究会を重ねましたが、村人達は意外にも殆んどが、「金肥をやらずに獲れるなんて信じられんなー」とのささやきが起り始めた。<br><br>「理論的には信じられるがどうか」との声「要は実行です。<br><br>一坪たりとも実行して見て下さい」と力説した。<br><br>しかしその結果は誰一人として試作して見る者さえもなかったのです。<br><br>私達の勇気も希望も失いそうで毎週集るその研究会にも会員の顔色は全くなかったのです。<br><br>そこで、「良いことでも言葉だけで納得させることは中々至難です。<br><br>お互に協力実行して事実に依って証明し、村人に理解して頂く以外に道はない。<br><br>皆様もっと頑張って下さい」と力強く諭して下さった原先生の声に一同は顔見合せ無言の誓いに頷きあった。<br><br>そしていよいよ昭和二十四年春の来るのを待って新発足をしたのでした。<br><br>信者の中にも家の人の理解が得られず、全員とはいかぬが、木下さんと小林さんは耕地全部を切替えてその準備に取りかかりました。<br><br>「我々少数なり共一体になって行こう」と誓い合い、自然肥の準備に整地に自他の別なく手伝い、先生も御浄霊の合間合間に、草刈りや馬耕に、又田植等に協力致しました。<br><br> しかしその稲の生育中の状態のみじめさに自分達が度々溜息する始末で、全く六、七月の生育状況は村民の嘲笑の的となり、果ては村農業協同組合の心配の種とまでなり、木下さん宅に詰めかける技術員は、「こんな稲では半作もむずかしい。<br><br>早く肥料をやり給え。<br><br>君達は食べる物さえなくなるぞ」といっておりました。<br><br>村民達は「可哀相に、邪教の狂信とはあんなものだ」と嘲弄しました。<br><br> 明主様には申訳無いが、私達もいささか不安で、毎日眺める稲面も一向に良くならず、お互に悲観しておりました。<br><br>この上はひたすら神様にお縋り申し上げる外無し、と唱え始める善言讃詞の声は寂しく夏空に流れて行きました。<br><br> 色は黄色く草丈は短かく分蘖は少く稲は一入哀れに見えました。<br><br>「しかし私達には神様の御守護が必ずある」そう思って見直すと小さな稲にも何と一種の輝きを増した感じがします。<br><br>「人事を尽して天命を待つ」これで良いのだ。<br><br>との先生の声に皆も元気を取戻すのでした。<br><br> そんな皆の一喜一憂を余所に、日を経て八月に入るや次第に色も出、丈も伸び、欲目なのかどうやらちょっと小さい恰好が世間並の稲らしくなって来ました。<br><br>今更ながら神様の御守護には誰の胸にもほの温い喜びが湧き出る思いで、秋を迎えました。<br><br> その穫入れは信者達平均一割の減収では有りましたが、立派な成績となって現われたのでした。<br><br> あの可憐な茎の一本一本が、恐ろしい肥毒と闘いながら、その生命力を半ば失った土よりかかる偉大なる収穫を挙げ得て一同喜びに浸ったのでしたが、この事実も村民達には「普通作より減収」の言葉に葬り去られて仕舞いました。<br><br> しかし私達はよし「もう疑うことはなし」来年こそは「素晴しい成果を挙げて見せよう」と誓い合ったのでした。<br><br> かくして二年目を迎えた自然農法の結果は明主様の御教え通りとなって現われ、「十二月九日」今日こそ大衆の前にその成果を知らす時となったのでした。<br><br> 場内は村全体より出された収穫物に見入る人々で一杯でした。<br><br>しかるにその中に、輝く様に目にとまった金紙の「一等賞」の三字でした。<br><br>凝っと眺める私達の背を叩く村人の一人「お光様が一等だね」「大したものだ」等の声を背に眺めれば、村全体にただ一つただ一人のみが金賞を獲得したのでした。<br><br>最終日に村民代表として、「褒賞」を受け、答辞を述べることを命ぜられた木下さんは、救世教を代表するかのごとき感激をもってその責を立派に果したのです。<br><br> 長野県農業協同組合下伊那支部長より送られた数々の賞品を前にした私達は感無量でした。<br><br>そして教会の大光明如来様の前にその賞品をお供え申し上げ、今こそ声高らかに善言讃詞を奉唱致したのでありました。<br><br> この事実の前には村人達も遠からず目覚める時が必ず来ることと信じております。<br><br> 今冬はこの実績を持って布教の御手伝いをさせて頂くべく大いに張切っております。<br><br> 明主様この様な尊い御蔭を頂きました事を、一同謹んで御礼申し上げます。<br><br> （昭和二十七年一月七日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Dois anos de esforço e perseverança em meio ao escárnio: A experiência da Agricultura Natural que, enfim, pôde bradar seu hino de vitória</h2>
 <p>Revista Eikou (栄光), nº 141, 30 de janeiro de 1952
@@ -113,5 +268,48 @@ function toggleLang(lang) {
 <p>Neste inverno, com essa conquista em mãos, estamos imensamente motivados a nos dedicar ainda mais à expansão da Obra Divina.</p>
 <p>Meishu-Sama, em nome de todos, expressamos nossa mais profunda e sincera gratidão por termos recebido uma graça tão sublime.</p>
 <p>(Relato apresentado em 7 de janeiro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 嘲笑に堪え努力の二年間 ついに凱歌を挙げ得た自然農法の体験 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 長野県 神成中教会（報告者）唐沢康隆（25） （実施者）木下良平（25） 昭和二十六年十二月九日、この日こそ私達にとって意義深い運命を決する日であった。<br/><br/>それは待ちに待った、年に一度の農芸品評会である。<br/><br/>会場正門に立て掛けられたその立看板に私達の胸はいやが上に高鳴る思いで一杯です。<br/><br/> 真に私達信者は苦しくも長かった病床より尊い御力に救われた上、又重ねて自然農法の偉大さを覚り得て、今日ここにその成果を郷土の人々の前に実証する喜びと、そして誇りに思わず同志の人々の顔も共に輝く様子です。<br/><br/> 顧みれば、三年前より小さいながら次第に実成績を挙げつつある同志の者と相計り、郷土の人々に金肥農法の余りにも労多くして効すくなきを覚って頂くべく、誠意をもって当るならきっと村人も沢山共鳴してくれるものとまず言葉による宣伝と計画し、その第一声を昨年の春三月、大下條村公民館に多数の参会者を得て開催致してより、各村において幾度かの研究会を重ねましたが、村人達は意外にも殆んどが、「金肥をやらずに獲れるなんて信じられんなー」とのささやきが起り始めた。<br/><br/>「理論的には信じられるがどうか」との声「要は実行です。<br/><br/>一坪たりとも実行して見て下さい」と力説した。<br/><br/>しかしその結果は誰一人として試作して見る者さえもなかったのです。<br/><br/>私達の勇気も希望も失いそうで毎週集るその研究会にも会員の顔色は全くなかったのです。<br/><br/>そこで、「良いことでも言葉だけで納得させることは中々至難です。<br/><br/>お互に協力実行して事実に依って証明し、村人に理解して頂く以外に道はない。<br/><br/>皆様もっと頑張って下さい」と力強く諭して下さった原先生の声に一同は顔見合せ無言の誓いに頷きあった。<br/><br/>そしていよいよ昭和二十四年春の来るのを待って新発足をしたのでした。<br/><br/>信者の中にも家の人の理解が得られず、全員とはいかぬが、木下さんと小林さんは耕地全部を切替えてその準備に取りかかりました。<br/><br/>「我々少数なり共一体になって行こう」と誓い合い、自然肥の準備に整地に自他の別なく手伝い、先生も御浄霊の合間合間に、草刈りや馬耕に、又田植等に協力致しました。<br/><br/> しかしその稲の生育中の状態のみじめさに自分達が度々溜息する始末で、全く六、七月の生育状況は村民の嘲笑の的となり、果ては村農業協同組合の心配の種とまでなり、木下さん宅に詰めかける技術員は、「こんな稲では半作もむずかしい。<br/><br/>早く肥料をやり給え。<br/><br/>君達は食べる物さえなくなるぞ」といっておりました。<br/><br/>村民達は「可哀相に、邪教の狂信とはあんなものだ」と嘲弄しました。<br/><br/> 明主様には申訳無いが、私達もいささか不安で、毎日眺める稲面も一向に良くならず、お互に悲観しておりました。<br/><br/>この上はひたすら神様にお縋り申し上げる外無し、と唱え始める善言讃詞の声は寂しく夏空に流れて行きました。<br/><br/> 色は黄色く草丈は短かく分蘖は少く稲は一入哀れに見えました。<br/><br/>「しかし私達には神様の御守護が必ずある」そう思って見直すと小さな稲にも何と一種の輝きを増した感じがします。<br/><br/>「人事を尽して天命を待つ」これで良いのだ。<br/><br/>との先生の声に皆も元気を取戻すのでした。<br/><br/> そんな皆の一喜一憂を余所に、日を経て八月に入るや次第に色も出、丈も伸び、欲目なのかどうやらちょっと小さい恰好が世間並の稲らしくなって来ました。<br/><br/>今更ながら神様の御守護には誰の胸にもほの温い喜びが湧き出る思いで、秋を迎えました。<br/><br/> その穫入れは信者達平均一割の減収では有りましたが、立派な成績となって現われたのでした。<br/><br/> あの可憐な茎の一本一本が、恐ろしい肥毒と闘いながら、その生命力を半ば失った土よりかかる偉大なる収穫を挙げ得て一同喜びに浸ったのでしたが、この事実も村民達には「普通作より減収」の言葉に葬り去られて仕舞いました。<br/><br/> しかし私達はよし「もう疑うことはなし」来年こそは「素晴しい成果を挙げて見せよう」と誓い合ったのでした。<br/><br/> かくして二年目を迎えた自然農法の結果は明主様の御教え通りとなって現われ、「十二月九日」今日こそ大衆の前にその成果を知らす時となったのでした。<br/><br/> 場内は村全体より出された収穫物に見入る人々で一杯でした。<br/><br/>しかるにその中に、輝く様に目にとまった金紙の「一等賞」の三字でした。<br/><br/>凝っと眺める私達の背を叩く村人の一人「お光様が一等だね」「大したものだ」等の声を背に眺めれば、村全体にただ一つただ一人のみが金賞を獲得したのでした。<br/><br/>最終日に村民代表として、「褒賞」を受け、答辞を述べることを命ぜられた木下さんは、救世教を代表するかのごとき感激をもってその責を立派に果したのです。<br/><br/> 長野県農業協同組合下伊那支部長より送られた数々の賞品を前にした私達は感無量でした。<br/><br/>そして教会の大光明如来様の前にその賞品をお供え申し上げ、今こそ声高らかに善言讃詞を奉唱致したのでありました。<br/><br/> この事実の前には村人達も遠からず目覚める時が必ず来ることと信じております。<br/><br/> 今冬はこの実績を持って布教の御手伝いをさせて頂くべく大いに張切っております。<br/><br/> 明主様この様な尊い御蔭を頂きました事を、一同謹んで御礼申し上げます。<br/><br/> （昭和二十七年一月七日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

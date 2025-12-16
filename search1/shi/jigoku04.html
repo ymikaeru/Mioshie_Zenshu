@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jigoku04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地獄と天国 未発表、年代不詳 今の世の中を地獄そのままといっても、否という人は一人もあるまい。<br><br>どこを見ても不幸不運な人ばかりで、この人こそ本当に幸福に恵まれていると思うような人は、薬にしたくもないのが娑婆（しゃば）の姿である。<br><br>そのような世の中が続いたため、人間はこれが常態と心得、諦めてしまったのである。<br><br>彼（か）の釈尊がいわれた生病老死の四苦にしても、どうにもならない人間の宿命とされ、この悟りが仏教の真髄とさえなっていたのである。<br><br>ところがこれははなはだ間違いてあるから、これを打破るべしというのが我救世教の本領である。<br><br>というのは本教によれば人間のいかなる不幸でも容易に解決されるから、宿命などと諦める必要はないのである。<br><br>といったら余りに意外な説に唖然（あぜん）とするであろうが、何よりも事実が雄弁に物語っている。<br><br>何人（なんぴと）といえども一度本教に入るや、たちまちにして病難を始めあらゆる苦悩は火で焼き、水で流すごとく解決されるからで、もちろん不幸も幸福に転化するのである。<br><br> このような一大福音は人類史上嘗（かつ）て夢想だもしなかったところのもので、むしろ余りに棚牡丹（たなぼた）式で反って信じ難いくらいである。<br><br>それを今理論的に説いてみるが、いつもいう通り人間は見える肉体と見えざる霊体との両面から成立っており、肉体は現界に属し、霊体は霊界に属しているのである。<br><br>ところがこの霊界なるものは特殊の人を除いて、大部分の人は今日まで全然分らなかった。<br><br>何しろ目に見えず、手にも掴めない以上無理はないが、それというのも科学万能主義になりきっているからである。<br><br>というのは科学が進歩さえすれば、幸福は増進すると思っているからである。<br><br>ところが実は進歩すればする程、逆に幸福とは遠ざかり、地獄社会となるのである。<br><br>つまり根本は霊の有無すなわち唯心か唯物かである。<br><br>その証拠としてもし霊が無いとしたらどうなるかというと、科学といえども行詰って進めないのは、今日までの有能な科学者のほとんどが一致した考え方である。<br><br>彼のパスツール始め有名な科学者達のほとんどは、クリスチャンであるにみても分るであろう。<br><br> ところが私は神示によってこれを知った以上、絶対間違いはないので、これを詳しく説明してみよう。<br><br>そもそも霊界なるものは地上の空間にあり、天国界、中有界（ちゅううかい）、地獄界というように上中下の三段階百八十段に分れている。<br><br>それが霊主体従の経（たて）の法則によって、霊界に起った事象そのまま現界に移写される。<br><br>人間でいえば霊が体に移写するのである。<br><br>そうして人間の霊体は右の段階のいずれかに属しており、それぞれの籍があって籍の地位通りの運命となる。<br><br>すなわち地獄界に籍があれば不幸となり、天国に近づくに従い幸福者となるのであるから、出来るだけ籍を上段に昇らせる事である。<br><br>地獄とはもちろん病気、貧乏、争いはじめ、あらゆる苦悩が渦巻いている以上、その通りになるので、私はこれらを救うべく一人一人を天国に引上げているのである。<br><br> ではなぜ地獄に堕（お）ちるかというと、それは霊を曇らせるからである。<br><br>では曇りとは何かというと、これには二種類あって、一は薬剤、二は罪の行為である。<br><br>すなわち薬剤は血液を濁すから、霊体一致の緯（よこ）の法則によって曇るのである。<br><br>また二の罪とは恨み、憎み、妬（ねた）み等々で人間の法則と神の律法とを犯すからである。<br><br>ところがこれを知らない人間は、苦悩から免（まぬが）れようとして人為的物質的手段にのみ頼るので、全然見当違いであるから、何程骨を折っても無効果であるのは当然である。<br><br> しかもこの理を知らすべき機関が宗教でありながら、宗教家もそれを充分弁（わきま）えないばかりか、事実を以って示す力もないのである。<br><br>ところが喜ぶべし、その絶対解決法が生まれたので、それが我救世教であるから、ここに人類待望の幸福世界、すなわち地上天国実現の運びとなったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Do Inferno ao Paraíso</h2>
 <p>Ninguém poderá negar que o mundo de hoje é a mais fiel representação do inferno. Para onde quer que olhemos, deparamo-nos com pessoas mergulhadas na infelicidade e no infortúnio; tal é a desoladora paisagem do mundo em que vivemos que é praticamente impossível encontrar alguém que possamos considerar verdadeiramente abençoado pela felicidade. Diante da persistência desse cenário, o ser humano acabou por resignar-se, crendo tratar-se de uma condição normal e imutável. Mesmo os quatro sofrimentos — nascimento, doença, velhice e morte — pregados pelo Buda Sakyamuni passaram a ser vistos como um destino inescapável, e a compreensão dessa fatalidade tornou-se a própria essência do budismo.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Eu, no entanto, recebi este conhecimento por meio de revelação divina, de modo que não há margem para erro. Explicarei em detalhes. O Mundo Espiritual existe no espaço que envolve a Terra e está dividido em três planos principais — o Mundo Celestial, o Mundo Intermediário e o Mundo Infernal —, subdivididos em cento e oitenta níveis. Pela lei vertical da primazia do espírito sobre a matéria, os acontecimentos do Mundo Espiritual refletem-se fielmente no mundo material. No ser humano, o estado do espírito projeta-se no corpo físico. Assim, o corpo espiritual de cada indivíduo pertence a um desses níveis, e seu destino corresponde à posição de seu registro espiritual. Se este se encontra no Mundo Infernal, a pessoa será infeliz; à medida que se aproxima do Mundo Celestial, torna-se mais feliz. O objetivo, portanto, é elevar ao máximo o nível do registro espiritual de cada um. O inferno, como se sabe, é um vórtice de doenças, pobreza, conflitos e toda sorte de angústias, e a vida da pessoa refletirá essa realidade. Minha missão consiste em salvar os seres humanos desse sofrimento, elevando, um a um, ao Paraíso.</p>
 <p>Mas por que alguém decai ao inferno? A causa reside nas máculas que obscurecem o espírito. E o que são essas máculas? Existem dois tipos. A primeira são os medicamentos; a segunda, a prática do pecado. Os medicamentos, ao turvarem o sangue, maculam o espírito em virtude da lei horizontal da indissociabilidade entre espírito e matéria. O pecado, por sua vez, engloba sentimentos como o rancor, o ódio, a inveja e outros que violam tanto as leis humanas quanto as leis divinas. Ignorando esse princípio, as pessoas tentam escapar do sofrimento recorrendo unicamente a meios artificiais e materialistas. Essa abordagem é completamente equivocada e, por isso, todo o esforço empreendido se mostra, naturalmente, ineficaz.</p>
 <p>Ademais, embora a religião devesse ser a instituição responsável por ensinar este princípio, seus líderes não apenas falham em compreendê-lo plenamente, como também carecem do poder para demonstrá-lo por meio de fatos concretos. Regozijai-vos, porém, pois o método para a solução definitiva nasceu: é a nossa Sekaikyuseikyou. Inicia-se, assim, a concretização do tão almejado mundo de felicidade para a humanidade: o Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地獄と天国 未発表、年代不詳 今の世の中を地獄そのままといっても、否という人は一人もあるまい。<br/><br/>どこを見ても不幸不運な人ばかりで、この人こそ本当に幸福に恵まれていると思うような人は、薬にしたくもないのが娑婆（しゃば）の姿である。<br/><br/>そのような世の中が続いたため、人間はこれが常態と心得、諦めてしまったのである。<br/><br/>彼（か）の釈尊がいわれた生病老死の四苦にしても、どうにもならない人間の宿命とされ、この悟りが仏教の真髄とさえなっていたのである。<br/><br/>ところがこれははなはだ間違いてあるから、これを打破るべしというのが我救世教の本領である。<br/><br/>というのは本教によれば人間のいかなる不幸でも容易に解決されるから、宿命などと諦める必要はないのである。<br/><br/>といったら余りに意外な説に唖然（あぜん）とするであろうが、何よりも事実が雄弁に物語っている。<br/><br/>何人（なんぴと）といえども一度本教に入るや、たちまちにして病難を始めあらゆる苦悩は火で焼き、水で流すごとく解決されるからで、もちろん不幸も幸福に転化するのである。<br/><br/> このような一大福音は人類史上嘗（かつ）て夢想だもしなかったところのもので、むしろ余りに棚牡丹（たなぼた）式で反って信じ難いくらいである。<br/><br/>それを今理論的に説いてみるが、いつもいう通り人間は見える肉体と見えざる霊体との両面から成立っており、肉体は現界に属し、霊体は霊界に属しているのである。<br/><br/>ところがこの霊界なるものは特殊の人を除いて、大部分の人は今日まで全然分らなかった。<br/><br/>何しろ目に見えず、手にも掴めない以上無理はないが、それというのも科学万能主義になりきっているからである。<br/><br/>というのは科学が進歩さえすれば、幸福は増進すると思っているからである。<br/><br/>ところが実は進歩すればする程、逆に幸福とは遠ざかり、地獄社会となるのである。<br/><br/>つまり根本は霊の有無すなわち唯心か唯物かである。<br/><br/>その証拠としてもし霊が無いとしたらどうなるかというと、科学といえども行詰って進めないのは、今日までの有能な科学者のほとんどが一致した考え方である。<br/><br/>彼のパスツール始め有名な科学者達のほとんどは、クリスチャンであるにみても分るであろう。<br/><br/> ところが私は神示によってこれを知った以上、絶対間違いはないので、これを詳しく説明してみよう。<br/><br/>そもそも霊界なるものは地上の空間にあり、天国界、中有界（ちゅううかい）、地獄界というように上中下の三段階百八十段に分れている。<br/><br/>それが霊主体従の経（たて）の法則によって、霊界に起った事象そのまま現界に移写される。<br/><br/>人間でいえば霊が体に移写するのである。<br/><br/>そうして人間の霊体は右の段階のいずれかに属しており、それぞれの籍があって籍の地位通りの運命となる。<br/><br/>すなわち地獄界に籍があれば不幸となり、天国に近づくに従い幸福者となるのであるから、出来るだけ籍を上段に昇らせる事である。<br/><br/>地獄とはもちろん病気、貧乏、争いはじめ、あらゆる苦悩が渦巻いている以上、その通りになるので、私はこれらを救うべく一人一人を天国に引上げているのである。<br/><br/> ではなぜ地獄に堕（お）ちるかというと、それは霊を曇らせるからである。<br/><br/>では曇りとは何かというと、これには二種類あって、一は薬剤、二は罪の行為である。<br/><br/>すなわち薬剤は血液を濁すから、霊体一致の緯（よこ）の法則によって曇るのである。<br/><br/>また二の罪とは恨み、憎み、妬（ねた）み等々で人間の法則と神の律法とを犯すからである。<br/><br/>ところがこれを知らない人間は、苦悩から免（まぬが）れようとして人為的物質的手段にのみ頼るので、全然見当違いであるから、何程骨を折っても無効果であるのは当然である。<br/><br/> しかもこの理を知らすべき機関が宗教でありながら、宗教家もそれを充分弁（わきま）えないばかりか、事実を以って示す力もないのである。<br/><br/>ところが喜ぶべし、その絶対解決法が生まれたので、それが我救世教であるから、ここに人類待望の幸福世界、すなわち地上天国実現の運びとなったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

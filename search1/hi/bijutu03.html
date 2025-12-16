@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bijutu03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館出来るまで 『栄光』160号、昭和27(1952)年6月11日発行 かねてから建造中の神仙郷も、いよいよ完成の運びになったので、私は慶賀に堪えないのである。<br><br>と共に断然異彩を放っているものとしては、何といっても美術館であろうが、これも見らるる通り、想ったより早く出来、後は内部の設備だけとなり、そこへ品物を並べさえすれば、それで落成した訳である。<br><br>また神仙郷全体も同時に完成となるので、いよいよ来る六月十五日を卜（ぼく）し、美術館の開館式を兼ね、神仙郷落成の祭典を挙行する事となったのである。<br><br>そこで美術館について色々かいてみるが、元来日本における今までの美術館は、一般人に対して常時開催するものは一つもなく、僅かに春秋二回の短期間だけ、特殊の人に観せるだけなので、社会的文化価値としての意義は、まことに薄かったのである。<br><br>また陳列の品物も支那美術、仏教美術、茶道に関したもの、西洋の絵画等に偏っているので、狭い意味でしかなかったが、今度の箱根美術館に至っては、規模は小さいが東洋美術全般に亘ったもので、しかも出来るだけ各時代における優秀作品を選んだつもりであるから、自画自讃ではないが、まず世界に二つとない美術館と言えよう。<br><br>としたら国家的にみても、日本の文化的地位を高めるに、すくなからぬ貢献となるであろう。<br><br>という訳で本当を言うなら、こういう公共的事業は、個人や宗教団体などでは無理であって、国家が行うべきものではあるが、何しろ現在のごとき経済事情の下であってみれば、それも不可能であろうから、私の美術館企画は時機を得たものと言えよう。<br><br>そうして今仮に美術館と名の付くだけのものを造るとしても、建築費及び陳列する美術品を蒐集するその苦心と資金は容易なものではない。<br><br>それに開教後間のない新しい本教の事とて、人も知るごとく今まで何だ彼んだ官憲の無理解や、社会の誤解等による妨害圧迫もはなはだしかったため、その困難は一通りではなかった。<br><br>それらを切抜けてともかく予定通り造り上げる事が出来たのであるから、考えてみれば到底人間業とは思われない。<br><br>これを思えば神様の御守護のいかに厚いかという事で、全く感謝感激に堪えないのである。<br><br> そうしてこの美術館は、建築も設備もことごとく私の設計に成ったもので、専門家の力は全然借りなかったのである。<br><br>というのは私は自信もあったのと、将来日本はもちろん世界各地に、新しく出来るであろう美術館の、模範としての新企画のものを造りたいからである。<br><br>そういう意味において私は微細な点にまで特に意を用いた事はもちろんで、この意味においても是非大方の批判を仰ぎたく思うのである。<br><br>また美術品についても日本独特の物を蒐めるべく努力を払い、標準についても時代時代の名人の傑作品を主としたのである。<br><br>このように日本美術を主眼とした美術館は、お膝元の日本は愚か、外国にもまだないので、現在としたら世界一と言っても過言であるまい。<br><br>ここで最初からの経緯を一通りかいてみるが、それは何から何まで奇蹟づくめで、到底人間業ではない事は余りに明らかである。<br><br> 次にそもそもこの計画であるが、終戦後二、三年を経る頃までは、美術愛好の私の事とて、経済の許す限り見当ったものを、ボツボツ買い集めて楽しんでいたのである。<br><br>ところが幸いなる事には、その頃は終戦後のドサクサ紛れで、割合好い物が安く手に入った。<br><br>今考えてみればこれも御神意であった事がよく分るのである。<br><br>そうこうする内、ちょうど一昨二十五年の暮れであった。<br><br>彼の神仙郷の片隅にあった鳥の家を移築する事となり（当時大成会本部に宛てた家屋）その跡に百五、六十坪の空地が出来たので、何か適当なものを建てたいと思っていたところ、ふと頭に浮んだのが美術館の建設であった。<br><br>そうだ美術館には少し狭いが、位置も環境も申分ないので、まず心の中では決めたが、何しろ小さく共仮にも美術館としたら、生易しい金では出来ないし、そうかといってそんな多額の金は当分見込はないから、せめて敷地だけでも造っておけば、いずれは建てられる時期も来るだろうと、まず敷地を作るべく取掛ったのである。<br><br>それが昨年夏頃ほぼ出来たので、こうなると美術館を早く建てたいと思う心が、矢も楯も堪らないので、早速阿部君に相談したところ「それでは早速調べてみましょう」と、調べたところ満更見込がないでもないという話で、万事は神様が何とかして下さるに違いないと思い、取敢ず準備に掛かったのがその年の十月であった。<br><br>すると翌十一月に入るや、思いも掛けない程の金がドシドシ入って来るし、献金の申込も続々あるので、いつもながら神様の御守護の素晴しさには、ただただ驚くの外なかったのである。<br><br>という訳で今日までにちょうど入用だけの金は、過不足ないくらいに集まり、予期以上順調に出来上った。<br><br>という次第で計画を立てた時から、僅々八力月半で完成したのであるから、このような性質の建物で、このようにスピードで出来上ったものは、これも日本はもちろん世界にもまだ例はなかったであろう。<br><br> それというのも最初から奇蹟の連続で、欲しいと思う物は黙っていても手に入るし、必要だけの金は信者の熱と誠でキチンと集って来る。<br><br>というように常識から言っても、これ程の美術館としたら相当の歳月と苦心努力は当然だが、右のように左程の苦労もせず、面白いくらいにスラスラと出来上ったのである。<br><br>全く神様のおやりになる事は、想像もつかないのである。<br><br>それについては世間知らるるごとく、今まで出来た幾多の美術館にしろ、例外なく孤手奮闘一代にして、巨万の富を重ねた立志伝中の偉い人達が、数十年に亘って蒐めた美術品を財産保護のためと、名誉心を満足させるなどで造ると共に、一部の限られた人達に観せるだけだから、私の意志とは根本的に異（ちが）っている。<br><br>私は天下の美術品は決して独占すべきものではなく、一人でも多くの人に見せ、娯しませ、人間の品性を向上させる事こそ、文化の発展に大いに寄与され、それが芸術としての真の生命である事を痛感していたからである。<br><br> ここで神秘な面を少しかいてみるが、先日私は奈良へ行ってつくづく思われた事は、彼の聖徳太子の不朽不滅の鴻業（こうぎょう）である。<br><br>そもそも日本における仏教渡来は、衆知のごとく欽明天皇の十三年であるが、最初の頃は今日の新宗教と同様当時の官憲の無理解や、神道の圧迫等によって教線振わず、遅々としていたが、敏達（びだつ）三年太子生誕され、長ずるに及ぶや何しろ稀世の偉人で、慈悲の権化ともいうべき聖者であられたので、一度仏教を知るや、これこそ仏陀が自分に与え給うた救世の使命と感じ、ここに仏教弘通の一大本願を起されたのである。<br><br>そうして方法としては仏教美術によるこそ最も有力であると思惟（しい）され、ここに奈良の地を選んで聖地とされ、七堂伽藍を建立されたので、それが法隆寺であるから、言わば当時としての地上天国の模型であった訳である。<br><br>そればかりではない。<br><br>太子の大智識は独り仏教のみではなく、政治、経済、教育等、あらゆる面にわたって、往くところ可ならざるなき自由無碍な叡智は、当時の人民をして畏敬の的とされ、太子を千手観音の化身とさえ崇め称えたので、ここに仏教は天下を風靡するに到ったのである。<br><br>これによってこれをみれば、日本における仏教の開祖こそ、全く太子その人であられた事は間違いないのである。<br><br> そうしてこの時から数百年間が、いわゆる原始仏教時代であったが、その後伝教、空海、法然、親鸞、日蓮等の名僧智識相次いで輩出し、それぞれの派閥を作って今日に到った事は誰も知る通りである。<br><br>右のごとくであって、奈良朝期がいかに仏教華やかであったかは、彼の東大寺における大仏建立の一事によってみても知らるるのである。<br><br>何しろ文化のまだ幼稚な時代に、アノような巨大な名作を造り上げたという事は、全く信仰の熱がいかに高かったかを物語って余りあるのである。<br><br> ここで私の事を記かねばならないが、私が早くから美術を愛好し、今度の美術館を造るまでに到った事も、宗教発展には何より適切なものと思ったからでもある。<br><br>それと共に私は医事、農業は固より、政治、経済、教育、芸術等、全般にわたって真理を説き、迷蒙を打破し、新文化創造の指導原理を示しつつあるにみて、私のすべては太子の業を、世界的に押拡げたものとみればよく分るであろう。<br><br>ただ異うところは太子は高貴の階級から出たに反し、私は下賎から出た点で、これも弥勒下生の意味と思えば肯けるはずである。<br><br>また今一つ言いたい事は太子は釈尊に帰依して、仏教弘通に当られたのであるが、私は釈尊を私より下にみている、というのは釈尊は二千六百年以前、すでに今度の私の救世の大業に対する準備的役割をされたからである。<br><br>以上によって私と太子との関係も、美術に力を注いでいる事も大体分ったであろうが、今一つの重要な事は、主神の御目的である病貧争絶無の地上天国ともなれば芸術至上の世界となるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Significado da Construção do Museu de Arte</h2>
 <p>É com imensa alegria que testemunho a iminente conclusão do Shinsenkyo, erigido ao longo de tanto tempo. Dentre suas realizações, o Museu de Arte destaca-se com brilho singular e, felizmente, sua construção avançou mais rápido que o previsto. Restando apenas a instalação interna e a disposição das obras, sua finalização coincidirá com a de todo o complexo do Shinsenkyo. Nesse sentido, designamos o próximo dia 15 de junho para, em uma só cerimônia, celebrarmos a inauguração do museu e a conclusão de todo o Shinsenkyo.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Retornando à minha própria jornada, o fato de eu nutrir um profundo amor pela arte desde cedo e de ter chegado ao ponto de construir este museu também se deve à convicção de que ela é um instrumento de inestimável valor para o desenvolvimento religioso. Paralelamente, assim como o Príncipe, não me restrinjo à religião, mas venho revelando a Verdade e rompendo com a ignorância em todas as áreas, como medicina, agricultura, política, economia, educação e arte, apresentando os princípios norteadores para a criação de uma nova cultura. Sob essa perspectiva, minha obra pode ser compreendida como uma expansão, em escala mundial, da missão do Príncipe Shotoku.</p>
 <p>A distinção reside em nossa origem: enquanto ele nasceu na mais alta nobreza, eu vim de um estrato humilde, o que pode ser compreendido à luz do significado do advento de Miroku. Há ainda outra diferença fundamental: enquanto o Príncipe reverenciava Shakyamuni e se dedicava a propagar o budismo, eu vejo Shakyamuni em uma posição inferior à minha, pois sua função, há dois mil e seiscentos anos, foi preparar o caminho para a grande Obra de Salvação que agora realizo.</p>
 <p>Com base no exposto, creio que a relação entre minha missão e a do Príncipe Shotoku, bem como a importância que atribuo à arte, tornaram-se mais claras. Há, contudo, um ponto crucial a acrescentar: o Paraíso Terrestre — um mundo livre da doença, da miséria e do conflito, que é o objetivo supremo de Deus — será, em sua essência, um mundo onde a arte reinará soberana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館出来るまで 『栄光』160号、昭和27(1952)年6月11日発行 かねてから建造中の神仙郷も、いよいよ完成の運びになったので、私は慶賀に堪えないのである。<br/><br/>と共に断然異彩を放っているものとしては、何といっても美術館であろうが、これも見らるる通り、想ったより早く出来、後は内部の設備だけとなり、そこへ品物を並べさえすれば、それで落成した訳である。<br/><br/>また神仙郷全体も同時に完成となるので、いよいよ来る六月十五日を卜（ぼく）し、美術館の開館式を兼ね、神仙郷落成の祭典を挙行する事となったのである。<br/><br/>そこで美術館について色々かいてみるが、元来日本における今までの美術館は、一般人に対して常時開催するものは一つもなく、僅かに春秋二回の短期間だけ、特殊の人に観せるだけなので、社会的文化価値としての意義は、まことに薄かったのである。<br/><br/>また陳列の品物も支那美術、仏教美術、茶道に関したもの、西洋の絵画等に偏っているので、狭い意味でしかなかったが、今度の箱根美術館に至っては、規模は小さいが東洋美術全般に亘ったもので、しかも出来るだけ各時代における優秀作品を選んだつもりであるから、自画自讃ではないが、まず世界に二つとない美術館と言えよう。<br/><br/>としたら国家的にみても、日本の文化的地位を高めるに、すくなからぬ貢献となるであろう。<br/><br/>という訳で本当を言うなら、こういう公共的事業は、個人や宗教団体などでは無理であって、国家が行うべきものではあるが、何しろ現在のごとき経済事情の下であってみれば、それも不可能であろうから、私の美術館企画は時機を得たものと言えよう。<br/><br/>そうして今仮に美術館と名の付くだけのものを造るとしても、建築費及び陳列する美術品を蒐集するその苦心と資金は容易なものではない。<br/><br/>それに開教後間のない新しい本教の事とて、人も知るごとく今まで何だ彼んだ官憲の無理解や、社会の誤解等による妨害圧迫もはなはだしかったため、その困難は一通りではなかった。<br/><br/>それらを切抜けてともかく予定通り造り上げる事が出来たのであるから、考えてみれば到底人間業とは思われない。<br/><br/>これを思えば神様の御守護のいかに厚いかという事で、全く感謝感激に堪えないのである。<br/><br/> そうしてこの美術館は、建築も設備もことごとく私の設計に成ったもので、専門家の力は全然借りなかったのである。<br/><br/>というのは私は自信もあったのと、将来日本はもちろん世界各地に、新しく出来るであろう美術館の、模範としての新企画のものを造りたいからである。<br/><br/>そういう意味において私は微細な点にまで特に意を用いた事はもちろんで、この意味においても是非大方の批判を仰ぎたく思うのである。<br/><br/>また美術品についても日本独特の物を蒐めるべく努力を払い、標準についても時代時代の名人の傑作品を主としたのである。<br/><br/>このように日本美術を主眼とした美術館は、お膝元の日本は愚か、外国にもまだないので、現在としたら世界一と言っても過言であるまい。<br/><br/>ここで最初からの経緯を一通りかいてみるが、それは何から何まで奇蹟づくめで、到底人間業ではない事は余りに明らかである。<br/><br/> 次にそもそもこの計画であるが、終戦後二、三年を経る頃までは、美術愛好の私の事とて、経済の許す限り見当ったものを、ボツボツ買い集めて楽しんでいたのである。<br/><br/>ところが幸いなる事には、その頃は終戦後のドサクサ紛れで、割合好い物が安く手に入った。<br/><br/>今考えてみればこれも御神意であった事がよく分るのである。<br/><br/>そうこうする内、ちょうど一昨二十五年の暮れであった。<br/><br/>彼の神仙郷の片隅にあった鳥の家を移築する事となり（当時大成会本部に宛てた家屋）その跡に百五、六十坪の空地が出来たので、何か適当なものを建てたいと思っていたところ、ふと頭に浮んだのが美術館の建設であった。<br/><br/>そうだ美術館には少し狭いが、位置も環境も申分ないので、まず心の中では決めたが、何しろ小さく共仮にも美術館としたら、生易しい金では出来ないし、そうかといってそんな多額の金は当分見込はないから、せめて敷地だけでも造っておけば、いずれは建てられる時期も来るだろうと、まず敷地を作るべく取掛ったのである。<br/><br/>それが昨年夏頃ほぼ出来たので、こうなると美術館を早く建てたいと思う心が、矢も楯も堪らないので、早速阿部君に相談したところ「それでは早速調べてみましょう」と、調べたところ満更見込がないでもないという話で、万事は神様が何とかして下さるに違いないと思い、取敢ず準備に掛かったのがその年の十月であった。<br/><br/>すると翌十一月に入るや、思いも掛けない程の金がドシドシ入って来るし、献金の申込も続々あるので、いつもながら神様の御守護の素晴しさには、ただただ驚くの外なかったのである。<br/><br/>という訳で今日までにちょうど入用だけの金は、過不足ないくらいに集まり、予期以上順調に出来上った。<br/><br/>という次第で計画を立てた時から、僅々八力月半で完成したのであるから、このような性質の建物で、このようにスピードで出来上ったものは、これも日本はもちろん世界にもまだ例はなかったであろう。<br/><br/> それというのも最初から奇蹟の連続で、欲しいと思う物は黙っていても手に入るし、必要だけの金は信者の熱と誠でキチンと集って来る。<br/><br/>というように常識から言っても、これ程の美術館としたら相当の歳月と苦心努力は当然だが、右のように左程の苦労もせず、面白いくらいにスラスラと出来上ったのである。<br/><br/>全く神様のおやりになる事は、想像もつかないのである。<br/><br/>それについては世間知らるるごとく、今まで出来た幾多の美術館にしろ、例外なく孤手奮闘一代にして、巨万の富を重ねた立志伝中の偉い人達が、数十年に亘って蒐めた美術品を財産保護のためと、名誉心を満足させるなどで造ると共に、一部の限られた人達に観せるだけだから、私の意志とは根本的に異（ちが）っている。<br/><br/>私は天下の美術品は決して独占すべきものではなく、一人でも多くの人に見せ、娯しませ、人間の品性を向上させる事こそ、文化の発展に大いに寄与され、それが芸術としての真の生命である事を痛感していたからである。<br/><br/> ここで神秘な面を少しかいてみるが、先日私は奈良へ行ってつくづく思われた事は、彼の聖徳太子の不朽不滅の鴻業（こうぎょう）である。<br/><br/>そもそも日本における仏教渡来は、衆知のごとく欽明天皇の十三年であるが、最初の頃は今日の新宗教と同様当時の官憲の無理解や、神道の圧迫等によって教線振わず、遅々としていたが、敏達（びだつ）三年太子生誕され、長ずるに及ぶや何しろ稀世の偉人で、慈悲の権化ともいうべき聖者であられたので、一度仏教を知るや、これこそ仏陀が自分に与え給うた救世の使命と感じ、ここに仏教弘通の一大本願を起されたのである。<br/><br/>そうして方法としては仏教美術によるこそ最も有力であると思惟（しい）され、ここに奈良の地を選んで聖地とされ、七堂伽藍を建立されたので、それが法隆寺であるから、言わば当時としての地上天国の模型であった訳である。<br/><br/>そればかりではない。<br/><br/>太子の大智識は独り仏教のみではなく、政治、経済、教育等、あらゆる面にわたって、往くところ可ならざるなき自由無碍な叡智は、当時の人民をして畏敬の的とされ、太子を千手観音の化身とさえ崇め称えたので、ここに仏教は天下を風靡するに到ったのである。<br/><br/>これによってこれをみれば、日本における仏教の開祖こそ、全く太子その人であられた事は間違いないのである。<br/><br/> そうしてこの時から数百年間が、いわゆる原始仏教時代であったが、その後伝教、空海、法然、親鸞、日蓮等の名僧智識相次いで輩出し、それぞれの派閥を作って今日に到った事は誰も知る通りである。<br/><br/>右のごとくであって、奈良朝期がいかに仏教華やかであったかは、彼の東大寺における大仏建立の一事によってみても知らるるのである。<br/><br/>何しろ文化のまだ幼稚な時代に、アノような巨大な名作を造り上げたという事は、全く信仰の熱がいかに高かったかを物語って余りあるのである。<br/><br/> ここで私の事を記かねばならないが、私が早くから美術を愛好し、今度の美術館を造るまでに到った事も、宗教発展には何より適切なものと思ったからでもある。<br/><br/>それと共に私は医事、農業は固より、政治、経済、教育、芸術等、全般にわたって真理を説き、迷蒙を打破し、新文化創造の指導原理を示しつつあるにみて、私のすべては太子の業を、世界的に押拡げたものとみればよく分るであろう。<br/><br/>ただ異うところは太子は高貴の階級から出たに反し、私は下賎から出た点で、これも弥勒下生の意味と思えば肯けるはずである。<br/><br/>また今一つ言いたい事は太子は釈尊に帰依して、仏教弘通に当られたのであるが、私は釈尊を私より下にみている、というのは釈尊は二千六百年以前、すでに今度の私の救世の大業に対する準備的役割をされたからである。<br/><br/>以上によって私と太子との関係も、美術に力を注いでいる事も大体分ったであろうが、今一つの重要な事は、主神の御目的である病貧争絶無の地上天国ともなれば芸術至上の世界となるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jikyoku2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時局雑感 『栄光』248号、昭和29(1954)年2月17日発行 私はいつも宗教的の事ばかりかいているから、たまには方面を変えてみようと思い、これをかいたのである。<br><br>すなわち宗教家から見た時局観であって、最初まず世界の情勢から取上げてみよう。<br><br>知らるるごとく昨年の今頃は、北鮮方面は休戦段階に入ってはいたが、まだまだ血腥（ちなまぐさ）い空気が漂（ただよ）い、海のものとも山のものとも分らない情勢であった。<br><br>しかもアメリカはアイゼンハワー大統領の公約もあって、中共及び北鮮打倒の目的のため、大仕掛な準備を進めているという訳で、いつ第三次戦争の口火が切られるか分らないという空気であった。<br><br>ところが新春早々晴天の霹靂（へきれき）のごとく、巨星スターリンが地に堕ちた事であって、ここに世界の情勢は一変してしまったのである。<br><br> その時彼のマレンコフが後継者となったについては、世界の眼は一様にこう見ていた事は確かである。<br><br>すなわち彼はスターリンの方策をそのまま持続するか、それとも全然方向を転換するかのどちらかであった。<br><br>それが漸次ハッキリして来たのは後者の方であったので、それ以来というものどこまでも平和攻勢の方針を採りつつ、今日に至ったのである。<br><br>それがためさすが米国の強硬政策も漸次緩和され、アイゼンハワー大統領の原爆に対する協定会議開催となったのは知らるる通りである。<br><br>そんな訳で世界の情勢は余程明るくはなったようで、当分大戦争の危険は解消しないまでも、延期されたのはもちろんである。<br><br>故にこれについてスターリン時代を一応検討してみるのも無駄ではあるまい。<br><br>すなわち当時彼スターリンの大芝居が当り、中共援助によって厖大（ぼうだい）なる中国をわずかの間に片付けてしまい、毛沢東をして全権を掌握させると共に、蒋政権をも一孤島である台湾に封じ込めてしまったアノ手際は、彼をして有頂天にならしめたのも無理はないといえよう。<br><br>そのため勢いに乗じて中共援助と同様の手段を以って、今度は北鮮を躍らして南朝鮮を席巻（せっけん）せしめ、朝鮮全土を統一するのみか、あわよくば日本にまでも触手を伸ばし、巧くゆけば東亜全部を鉄のカーテン内に治めてしまうという遠大なる意図のあった事は想像に難からないのである。<br><br> ところがこれを洞察したアメリカは、急遽国際連盟を作り、非常手段を以って食止めたばかりか、将来をおもんばかりまず中共軍を激破し、南北朝鮮を旧に復せしめると共に、蒋政権をも昔通りに復活させるべく、ここに大々的戦備に着手したのはア大統領の深謀遠慮であった事は窺（うかが）われるのである。<br><br>そこでこれを知った中共もソ連も事態容易ならずとして、急遽平和攻勢に出でたのは誰も知る通りである。<br><br>というのはグズグズしていて、もし国連から戦争を仕掛られたらそれこそ大変な事になる。<br><br>何しろ中共といえども長い戦争のため疲弊（ひへい）しきっており、到底勝目のないのは分っているからである。<br><br>一昨々年六月国連総会におけるソ連代表マリク大使の休戦提案がその皮切りであった事は言うまでもない。<br><br>そんな訳でソ連側は決して心からの平和ではなく、戦いを避けんがための一時的方便にすぎないのは、その後の情勢によっても明らかである。<br><br>それは停戦会談を故意に長引かせたり、目下の休戦会議の遅々たる歩み等にみても頷（うなず）かれるのである。<br><br>つまりソ連の肚は出来るだけ長引かせておいて、その間に充分準備を整え、絶対負けないとみいう見極めがついてから、積極的態度に出るのは火をみるよりも明らかである。<br><br> 以上によって結果から言えば、朝鮮戦争はソ連側の失敗であったのである。<br><br>しかもその後米の準備は欧州も日本も米の陣営内に入れ、着々軍備を整えつつある事で、全く壮観といってもよかろう。<br><br>この形勢によってみても当分はソ連の方から仕掛ける公算はないと見てよかろう。<br><br>従って冷たい戦争はまだまだ続くとみてよかろう。<br><br>この意味においてソ連が根本から世界平和の方針にならない限り、世界の空の晴れ渡る日はまだまだ前途遼遠であろう。<br><br> 次は日本の時局批判に移るが、まず吉田内閣の運命である。<br><br>これも随分長く続いたもので珍しい内閣といえよう。<br><br>その原因は吉田首相が偉いというよりも、現在のところ首相級の人物が見当らないからで、つまり首相の運がいい訳である。<br><br>これについて私の言いたい事は、今日の政治家の最も欠点とするところは、視野の小さい事と正義感の乏しいこの二点であろう。<br><br>そこへゆくと吉田首相はその点まず優れている政治家といっていいと思う。<br><br>なるほど他に吉田以上の叡知、鋭さ、強さのある人は幾人かはいるが、遺憾ながら大きさが足りない事と、正義を貫く勇気と信念に乏しい事で、どうもコセコセして利巧すぎると思うのである。<br><br>それについても思い出されるのは、彼の明治から大正にかけての頃の政治家であって、そういう特長のある政治家も随分あったものである。<br><br>どことなくボリュームがあって、信頼が出来る人が多かったのは、古い人は知っているであろう。<br><br>という訳で今日のように薄っペラでオッチョコチョイ式の人物は余り顧みられなかったようであった。<br><br>そうして今日吾々国民として最も要望する政治家は、重厚かつ太ッ肚で、大物型の人物であって、これは私ばかりではあるまい。<br><br>そこで最後に言いたい事は、以上のような訳で現在の政治家は小事に拘泥（こうでい）しすぎ、つまらないと思う事柄に対しても直に問題にしたがり、会議の場合喧々囂々（けんけんごうごう）、容易に結末がつかないため、いつも問題山積している有様は、議会の会期延長のお定りがそれをよく物語っているので、これを国民からみると昔のヤクザと同様、喧嘩（けんか）と縄張争いがお道楽のようになっている事実をみれば分る通り、まことに情ない今日の政界ではあるまいか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise da Conjuntura Mundial e do Japão</h2>
 <p>Sempre escrevo sobre temas religiosos; por isso, decidi, para variar, mudar de assunto e redigir este texto. Trata-se de uma análise da conjuntura atual sob a ótica de um religioso, e começarei abordando, primeiramente, o cenário mundial.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Isso me faz recordar os políticos das eras Meiji e Taisho, entre os quais havia muitos com essas qualidades notáveis. Os mais velhos hão de se lembrar que muitos deles possuíam mais substância e eram dignos de confiança. Figuras superficiais e levianas, como as que vemos hoje, não recebiam grande consideração.</p>
 <p>O tipo de político que nós, o povo, mais ansiamos hoje é uma figura de grande envergadura, que seja ao mesmo tempo ponderada e magnânima. E creio não ser o único a pensar assim.</p>
 <p>Para concluir, gostaria de dizer o seguinte: pelos motivos expostos, os políticos atuais se apegam em demasia a questões triviais. Eles têm o hábito de transformar assuntos irrelevantes em grandes problemas. Nas reuniões do parlamento, as discussões são acaloradas e ruidosas, e raramente se chega a uma conclusão, o que faz com que os problemas se acumulem. A constante necessidade de estender os períodos de sessões legislativas é um claro testemunho disso. Do ponto de vista do povo, assim como os yakuza de outrora, eles parecem deleitar-se em disputas e lutas por território. O cenário político de hoje é, de fato, lastimável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時局雑感 『栄光』248号、昭和29(1954)年2月17日発行 私はいつも宗教的の事ばかりかいているから、たまには方面を変えてみようと思い、これをかいたのである。<br/><br/>すなわち宗教家から見た時局観であって、最初まず世界の情勢から取上げてみよう。<br/><br/>知らるるごとく昨年の今頃は、北鮮方面は休戦段階に入ってはいたが、まだまだ血腥（ちなまぐさ）い空気が漂（ただよ）い、海のものとも山のものとも分らない情勢であった。<br/><br/>しかもアメリカはアイゼンハワー大統領の公約もあって、中共及び北鮮打倒の目的のため、大仕掛な準備を進めているという訳で、いつ第三次戦争の口火が切られるか分らないという空気であった。<br/><br/>ところが新春早々晴天の霹靂（へきれき）のごとく、巨星スターリンが地に堕ちた事であって、ここに世界の情勢は一変してしまったのである。<br/><br/> その時彼のマレンコフが後継者となったについては、世界の眼は一様にこう見ていた事は確かである。<br/><br/>すなわち彼はスターリンの方策をそのまま持続するか、それとも全然方向を転換するかのどちらかであった。<br/><br/>それが漸次ハッキリして来たのは後者の方であったので、それ以来というものどこまでも平和攻勢の方針を採りつつ、今日に至ったのである。<br/><br/>それがためさすが米国の強硬政策も漸次緩和され、アイゼンハワー大統領の原爆に対する協定会議開催となったのは知らるる通りである。<br/><br/>そんな訳で世界の情勢は余程明るくはなったようで、当分大戦争の危険は解消しないまでも、延期されたのはもちろんである。<br/><br/>故にこれについてスターリン時代を一応検討してみるのも無駄ではあるまい。<br/><br/>すなわち当時彼スターリンの大芝居が当り、中共援助によって厖大（ぼうだい）なる中国をわずかの間に片付けてしまい、毛沢東をして全権を掌握させると共に、蒋政権をも一孤島である台湾に封じ込めてしまったアノ手際は、彼をして有頂天にならしめたのも無理はないといえよう。<br/><br/>そのため勢いに乗じて中共援助と同様の手段を以って、今度は北鮮を躍らして南朝鮮を席巻（せっけん）せしめ、朝鮮全土を統一するのみか、あわよくば日本にまでも触手を伸ばし、巧くゆけば東亜全部を鉄のカーテン内に治めてしまうという遠大なる意図のあった事は想像に難からないのである。<br/><br/> ところがこれを洞察したアメリカは、急遽国際連盟を作り、非常手段を以って食止めたばかりか、将来をおもんばかりまず中共軍を激破し、南北朝鮮を旧に復せしめると共に、蒋政権をも昔通りに復活させるべく、ここに大々的戦備に着手したのはア大統領の深謀遠慮であった事は窺（うかが）われるのである。<br/><br/>そこでこれを知った中共もソ連も事態容易ならずとして、急遽平和攻勢に出でたのは誰も知る通りである。<br/><br/>というのはグズグズしていて、もし国連から戦争を仕掛られたらそれこそ大変な事になる。<br/><br/>何しろ中共といえども長い戦争のため疲弊（ひへい）しきっており、到底勝目のないのは分っているからである。<br/><br/>一昨々年六月国連総会におけるソ連代表マリク大使の休戦提案がその皮切りであった事は言うまでもない。<br/><br/>そんな訳でソ連側は決して心からの平和ではなく、戦いを避けんがための一時的方便にすぎないのは、その後の情勢によっても明らかである。<br/><br/>それは停戦会談を故意に長引かせたり、目下の休戦会議の遅々たる歩み等にみても頷（うなず）かれるのである。<br/><br/>つまりソ連の肚は出来るだけ長引かせておいて、その間に充分準備を整え、絶対負けないとみいう見極めがついてから、積極的態度に出るのは火をみるよりも明らかである。<br/><br/> 以上によって結果から言えば、朝鮮戦争はソ連側の失敗であったのである。<br/><br/>しかもその後米の準備は欧州も日本も米の陣営内に入れ、着々軍備を整えつつある事で、全く壮観といってもよかろう。<br/><br/>この形勢によってみても当分はソ連の方から仕掛ける公算はないと見てよかろう。<br/><br/>従って冷たい戦争はまだまだ続くとみてよかろう。<br/><br/>この意味においてソ連が根本から世界平和の方針にならない限り、世界の空の晴れ渡る日はまだまだ前途遼遠であろう。<br/><br/> 次は日本の時局批判に移るが、まず吉田内閣の運命である。<br/><br/>これも随分長く続いたもので珍しい内閣といえよう。<br/><br/>その原因は吉田首相が偉いというよりも、現在のところ首相級の人物が見当らないからで、つまり首相の運がいい訳である。<br/><br/>これについて私の言いたい事は、今日の政治家の最も欠点とするところは、視野の小さい事と正義感の乏しいこの二点であろう。<br/><br/>そこへゆくと吉田首相はその点まず優れている政治家といっていいと思う。<br/><br/>なるほど他に吉田以上の叡知、鋭さ、強さのある人は幾人かはいるが、遺憾ながら大きさが足りない事と、正義を貫く勇気と信念に乏しい事で、どうもコセコセして利巧すぎると思うのである。<br/><br/>それについても思い出されるのは、彼の明治から大正にかけての頃の政治家であって、そういう特長のある政治家も随分あったものである。<br/><br/>どことなくボリュームがあって、信頼が出来る人が多かったのは、古い人は知っているであろう。<br/><br/>という訳で今日のように薄っペラでオッチョコチョイ式の人物は余り顧みられなかったようであった。<br/><br/>そうして今日吾々国民として最も要望する政治家は、重厚かつ太ッ肚で、大物型の人物であって、これは私ばかりではあるまい。<br/><br/>そこで最後に言いたい事は、以上のような訳で現在の政治家は小事に拘泥（こうでい）しすぎ、つまらないと思う事柄に対しても直に問題にしたがり、会議の場合喧々囂々（けんけんごうごう）、容易に結末がつかないため、いつも問題山積している有様は、議会の会期延長のお定りがそれをよく物語っているので、これを国民からみると昔のヤクザと同様、喧嘩（けんか）と縄張争いがお道楽のようになっている事実をみれば分る通り、まことに情ない今日の政界ではあるまいか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

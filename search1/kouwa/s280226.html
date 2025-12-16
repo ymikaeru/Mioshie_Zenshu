@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280226</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年2月26日） 『御教え集』19号、昭和28(1953)年3月15日発行 昭和二十八年二月二十六日 自然栽培の報告が集まりましたが、やっぱりだんだん良くなってきて、今年の成績をすっかり集めてみると、もうなにも心配のない成績が確実に現われたわけです。<br><br>特に昨日来た佐渡の報告ですが、それはまた非常に良いのです。<br><br>最初の年からみんないくらかずつ増えているのです。<br><br>おまけにあんまり浄霊しないのです。<br><br>ですからただ肥料をやらないで良くできるというので、未信者の百姓がどんどんまねしているのです。<br><br>大きな村でしょうが、今度村長もきり換えることになりましたが、その状態をみますと、まず数年で佐渡の島全部が自然栽培になりそうな形勢なのです。<br><br>それについていろいろ総括して書きました。<br><br> それから「自然農法普及会」という会もつくることになりましたが、そういうことを詳しく書きましたから今読ませます。<br><br> （御論文「自然栽培に就いて」）【栄光 一九八号】 最後にも書いたとおり、ちょっと考え違いをしている点があるようです。<br><br>それは、信者にならなければ良くできないということを知らせようと思っていることがたいへんな間違いです。<br><br>「信者にならなければならないとすると、面倒臭い。<br><br>だからもう少し見合わせよう」と躊躇しますから、そうするとそれだけ普及が遅れますから、日本の増産を妨げることになります。<br><br>それで佐渡では浄霊しないのですが、一番良くとれるのです。<br><br>それは神様の御趣旨に合っているからです。<br><br>その点が大事です。<br><br>だから浄霊すれば、肥毒を消すから良いには違いないが、しかしそのために未信者の農民が見て「あんなことをしなくては良くとれないなら、面倒臭いからよそう」ということになって拡まらないことになる。<br><br>そうすると「日本が現在困っている食糧問題を解決して、食糧増産をしよう」という神様の御趣旨に反することになる。<br><br>そこで佐渡では浄霊しないで、最初の年から良くとれたということは、神様の御趣旨に合うからです。<br><br>だから根本的の考えでなければならないのです。<br><br>上っ面でなくて、この目的はどこにあるかという、つまり大乗的考えです。<br><br>ところが中には、大いに信者をつくる一つの手段にしようと考えている人があるようですが、それは考えなければならない。<br><br>日本の大勢の人が困っているのを救うには、どうすればみんなが一番実行するようになるかということが肝腎ですから、それに合うようにしなければならない。<br><br>だから浄霊してもいいから、人に見えないように、夜にでも浄霊するのです。<br><br>つまりできるだけ人に見られないようにやるのです。<br><br>それで浄霊も日に二、三度でたくさんです。<br><br>あんまり浄霊にこだわってはいけないのです。<br><br>と言っても、病気の場合にその考えを起されると、それは困ります。<br><br>病気の場合は浄霊するに限るのです。<br><br>ですから自然栽培の場合と一緒にしないようにすることです。<br><br>別々に考えなければならない。<br><br>病気をなおす場合はできるだけ信者にした方が早くなおります。<br><br>そういうように別々に考えるということにするのです。<br><br> 一昨日、熱海から出たこの前の代議士で小松勇次という人が来て、今度自分の友達で茨城県かどこかにいる人でたいへんな肥料を発見した、と言うので聞いてみると、薩摩芋を腐らして、それを肥料にすると非常に良くできるというので、ぜひ賛成して力を貸してくれと言ってきたのですが、私は頭から「それはよしなさい。<br><br>それは一時的には何割か増産するが、しかし何年かやっているうちに元のとおりになる、あるいは元より悪くなるから」と言ってやりました。<br><br>それはどういうわけかと言うと、芋というものは、神様は人間の食物としてこしらえてあるのだから、それを腐らして肥料にするということは神様の御意志にぜんぜん反することになり、良いわけがないのです。<br><br>だからすべて、これは神様の御趣旨、目的はどの点にあるか、どういう御意志かということをはっきり分からなければならないのです。<br><br>それですべて一時的に良くなるものはいけないのです。<br><br>薬でも、今言う肥料でも、一時的ですからいけないのです。<br><br>それは硫安などをやると一時うんとできます。<br><br>そこで「これはいい」ということになって、反対に悪くなってもそれに気がつかないのです。<br><br>ちょうど猫が屋根の日の当たる所で日向ボッコをしてますが、ところが日の当たらない時にも、日が当たると思ってやってます。<br><br>それと同じことです。<br><br>その時だけ良いと、ずっと良いと思って続けるのですから、猫を笑うことはできません。<br><br>それも、猫ぐらいならなにも損はいかないからいいが、人間の方はたいへんなことになります。<br><br> 今米の輸入で払う金が一千億以上です。<br><br>ところがビルマ、タイ、インドという所でもだんだん米が足りなくなってきたのです。<br><br>それは人口が増えるためもありますが、あっちの方もやはり硫安を使い始めたからです。<br><br>日本からもだいぶ輸出してます。<br><br>それで一時良くなるから、それに迷わされてやっているうちに悪くなってきたのです。<br><br>だから最近は向こうから輸入するのもなかなか骨が折れるのです。<br><br>それで、向こうでも苦しまぎれに黄変米などを出してますが、それを食べたらみんなあてられましたが、この損も二億何千万というのですからたいへんなものです。<br><br>それは虫を防ぐためかなにかで、薬をつけたのでなくて、蒸すか、煙でやったのではないかと思いますが、なにしろあの毒というものは薬毒です。<br><br> そういうようで自然栽培というものは、ひとり日本ばかりでなく、他国の間違ったことも救うことになるのです。<br><br>そういうようなわけで、今度はできるだけ早く日本を救わなければならないというので、「自然農法普及会」という会を作ろうと思っているのです。<br><br>それは大体一村一支部という目標です。<br><br>調べてみると、日本の村の数は一万いくらあるのです。<br><br>その中でいろんな事情から、支部を作ってもいい村が一万はあるわけです。<br><br>それで大体一万を目標にして、これから支部を作るべく運動をするつもりです。<br><br>細かいことは教団の幹部会でいろいろ案を練って作るわけですが、支部長というのはぜんぜん信仰と関係のない人で、信者でなくていいのです。<br><br>なるべく村の篤農家とか村長というような信用のある人が一番いいです。<br><br>そうしてそこで毎週座談会をやるとか、指導者がいて指導するとかして、急速に日本全国を自然耕作にしてしまうということです。<br><br>これは割合に早く行きます。<br><br>なにしろ佐渡などの状態をみると、十年かからないうちに佐渡は全部自然農法になってしまいます。<br><br>それで今度の報告の中にこういうのがありました。<br><br>その人は一番早くからやっていて六年目です。<br><br>それで六年目に、まわりの田からみると六割以上増産になってます。<br><br>これは今度の「特集号」に出てますが、それは毎年だんだん増えて行って、ちょうど六年目に六割以上増産の数字が出てます。<br><br>それから今年のお蔭話にはなかなか優良なのがたくさんあります。<br><br>質でも、一等賞、特等賞の賞状を県の農協や知事からもらった人があります。<br><br>そういうようにいよいよ安心して大々的普及宣伝をしていい時期が来たわけです。<br><br>ですからこれが本当に拡まったらたいへんなものです。<br><br>まず肥料代でも何百億というのですから、それがなくなると一千億以上の輸入代がいらなくなるし、そのほかに労力も軽減するし、いろいろな虫害がなくなるから、一カ年間何千億の得ということになります。<br><br>それだけ税金が減ったら、税金地獄からもぬけられることになります。<br><br>ですからこれは一つ大々的にやりたいと思ってます。<br><br>病気の方を分からせるのはなかなかたいへんですが、この自然栽培の方はとても楽ですから、これを早くやった方がいいと思ってます。<br><br> 農業のことはそのくらいにしておいて、ちょっとおもしろい論文を書きましたから読ませます。<br><br> （御論文「天国的宗教と地獄的宗教」）【地上天国 四十六号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Urgência e o Propósito Divino da Agricultura Natural</h2>
 <p>Temos recebido diversos relatos sobre a Agricultura Natural e, como era de se esperar, os resultados são cada vez mais promissores. Ao compilarmos os dados deste ano, constatamos um desempenho irrefutável, que dissipa quaisquer preocupações. Destaco, em particular, o relatório que recebi ontem da Ilha de Sado, cujas notícias são excepcionalmente animadoras. Desde o primeiro ano de prática, todos obtiveram algum aumento na colheita. Ademais, é interessante notar que o Johrei não é praticado com grande intensidade por lá. Por essa razão, ao testemunharem o sucesso obtido apenas com a abstenção de fertilizantes, os agricultores não membros estão aderindo ao método em grande número. Trata-se, ao que parece, de uma grande vila, onde até mesmo o prefeito será substituído em breve. Diante desse cenário, a tendência é que toda a Ilha de Sado adote a Agricultura Natural em poucos anos. Sintetizei minhas observações sobre o assunto em um artigo.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>No último relatório que recebemos, havia o caso de um agricultor que pratica o método há seis anos, sendo um dos pioneiros. Em seu sexto ano, sua produção foi 60% superior à das lavouras vizinhas. Esse relato, que será publicado na próxima edição especial da nossa revista, mostra como sua produção aumentou gradualmente até atingir esse expressivo índice. Aliás, os testemunhos deste ano são repletos de resultados excelentes. Muitos receberam prêmios de primeiro lugar e menções honrosas das cooperativas agrícolas e dos governos provinciais pela qualidade de seus produtos. Chegou, enfim, o momento de podermos, com total segurança, promover a divulgação em larga escala.</p>
 <p>Quando este método se difundir de fato, seus efeitos serão grandiosos. A economia com fertilizantes chegará à casa das dezenas de bilhões de ienes, e os mais de cem bilhões gastos com importação deixarão de ser necessários. Além disso, haverá redução da mão de obra e eliminação das pragas, o que representará um ganho de centenas de bilhões de ienes por ano para o país. Com uma economia dessa magnitude, os impostos poderão ser reduzidos, e o povo poderá finalmente escapar do inferno fiscal. Por todas essas razões, pretendo me dedicar a este projeto com o máximo empenho. Esclarecer as pessoas sobre a questão da doença é uma tarefa complexa, mas a Agricultura Natural é de fácil compreensão. Creio, portanto, que devemos priorizar sua disseminação.</p>
 <p>Encerrando por ora o assunto da agricultura, escrevi um artigo interessante que gostaria que ouvissem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年2月26日） 『御教え集』19号、昭和28(1953)年3月15日発行 昭和二十八年二月二十六日 自然栽培の報告が集まりましたが、やっぱりだんだん良くなってきて、今年の成績をすっかり集めてみると、もうなにも心配のない成績が確実に現われたわけです。<br/><br/>特に昨日来た佐渡の報告ですが、それはまた非常に良いのです。<br/><br/>最初の年からみんないくらかずつ増えているのです。<br/><br/>おまけにあんまり浄霊しないのです。<br/><br/>ですからただ肥料をやらないで良くできるというので、未信者の百姓がどんどんまねしているのです。<br/><br/>大きな村でしょうが、今度村長もきり換えることになりましたが、その状態をみますと、まず数年で佐渡の島全部が自然栽培になりそうな形勢なのです。<br/><br/>それについていろいろ総括して書きました。<br/><br/> それから「自然農法普及会」という会もつくることになりましたが、そういうことを詳しく書きましたから今読ませます。<br/><br/> （御論文「自然栽培に就いて」）【栄光 一九八号】 最後にも書いたとおり、ちょっと考え違いをしている点があるようです。<br/><br/>それは、信者にならなければ良くできないということを知らせようと思っていることがたいへんな間違いです。<br/><br/>「信者にならなければならないとすると、面倒臭い。<br/><br/>だからもう少し見合わせよう」と躊躇しますから、そうするとそれだけ普及が遅れますから、日本の増産を妨げることになります。<br/><br/>それで佐渡では浄霊しないのですが、一番良くとれるのです。<br/><br/>それは神様の御趣旨に合っているからです。<br/><br/>その点が大事です。<br/><br/>だから浄霊すれば、肥毒を消すから良いには違いないが、しかしそのために未信者の農民が見て「あんなことをしなくては良くとれないなら、面倒臭いからよそう」ということになって拡まらないことになる。<br/><br/>そうすると「日本が現在困っている食糧問題を解決して、食糧増産をしよう」という神様の御趣旨に反することになる。<br/><br/>そこで佐渡では浄霊しないで、最初の年から良くとれたということは、神様の御趣旨に合うからです。<br/><br/>だから根本的の考えでなければならないのです。<br/><br/>上っ面でなくて、この目的はどこにあるかという、つまり大乗的考えです。<br/><br/>ところが中には、大いに信者をつくる一つの手段にしようと考えている人があるようですが、それは考えなければならない。<br/><br/>日本の大勢の人が困っているのを救うには、どうすればみんなが一番実行するようになるかということが肝腎ですから、それに合うようにしなければならない。<br/><br/>だから浄霊してもいいから、人に見えないように、夜にでも浄霊するのです。<br/><br/>つまりできるだけ人に見られないようにやるのです。<br/><br/>それで浄霊も日に二、三度でたくさんです。<br/><br/>あんまり浄霊にこだわってはいけないのです。<br/><br/>と言っても、病気の場合にその考えを起されると、それは困ります。<br/><br/>病気の場合は浄霊するに限るのです。<br/><br/>ですから自然栽培の場合と一緒にしないようにすることです。<br/><br/>別々に考えなければならない。<br/><br/>病気をなおす場合はできるだけ信者にした方が早くなおります。<br/><br/>そういうように別々に考えるということにするのです。<br/><br/> 一昨日、熱海から出たこの前の代議士で小松勇次という人が来て、今度自分の友達で茨城県かどこかにいる人でたいへんな肥料を発見した、と言うので聞いてみると、薩摩芋を腐らして、それを肥料にすると非常に良くできるというので、ぜひ賛成して力を貸してくれと言ってきたのですが、私は頭から「それはよしなさい。<br/><br/>それは一時的には何割か増産するが、しかし何年かやっているうちに元のとおりになる、あるいは元より悪くなるから」と言ってやりました。<br/><br/>それはどういうわけかと言うと、芋というものは、神様は人間の食物としてこしらえてあるのだから、それを腐らして肥料にするということは神様の御意志にぜんぜん反することになり、良いわけがないのです。<br/><br/>だからすべて、これは神様の御趣旨、目的はどの点にあるか、どういう御意志かということをはっきり分からなければならないのです。<br/><br/>それですべて一時的に良くなるものはいけないのです。<br/><br/>薬でも、今言う肥料でも、一時的ですからいけないのです。<br/><br/>それは硫安などをやると一時うんとできます。<br/><br/>そこで「これはいい」ということになって、反対に悪くなってもそれに気がつかないのです。<br/><br/>ちょうど猫が屋根の日の当たる所で日向ボッコをしてますが、ところが日の当たらない時にも、日が当たると思ってやってます。<br/><br/>それと同じことです。<br/><br/>その時だけ良いと、ずっと良いと思って続けるのですから、猫を笑うことはできません。<br/><br/>それも、猫ぐらいならなにも損はいかないからいいが、人間の方はたいへんなことになります。<br/><br/> 今米の輸入で払う金が一千億以上です。<br/><br/>ところがビルマ、タイ、インドという所でもだんだん米が足りなくなってきたのです。<br/><br/>それは人口が増えるためもありますが、あっちの方もやはり硫安を使い始めたからです。<br/><br/>日本からもだいぶ輸出してます。<br/><br/>それで一時良くなるから、それに迷わされてやっているうちに悪くなってきたのです。<br/><br/>だから最近は向こうから輸入するのもなかなか骨が折れるのです。<br/><br/>それで、向こうでも苦しまぎれに黄変米などを出してますが、それを食べたらみんなあてられましたが、この損も二億何千万というのですからたいへんなものです。<br/><br/>それは虫を防ぐためかなにかで、薬をつけたのでなくて、蒸すか、煙でやったのではないかと思いますが、なにしろあの毒というものは薬毒です。<br/><br/> そういうようで自然栽培というものは、ひとり日本ばかりでなく、他国の間違ったことも救うことになるのです。<br/><br/>そういうようなわけで、今度はできるだけ早く日本を救わなければならないというので、「自然農法普及会」という会を作ろうと思っているのです。<br/><br/>それは大体一村一支部という目標です。<br/><br/>調べてみると、日本の村の数は一万いくらあるのです。<br/><br/>その中でいろんな事情から、支部を作ってもいい村が一万はあるわけです。<br/><br/>それで大体一万を目標にして、これから支部を作るべく運動をするつもりです。<br/><br/>細かいことは教団の幹部会でいろいろ案を練って作るわけですが、支部長というのはぜんぜん信仰と関係のない人で、信者でなくていいのです。<br/><br/>なるべく村の篤農家とか村長というような信用のある人が一番いいです。<br/><br/>そうしてそこで毎週座談会をやるとか、指導者がいて指導するとかして、急速に日本全国を自然耕作にしてしまうということです。<br/><br/>これは割合に早く行きます。<br/><br/>なにしろ佐渡などの状態をみると、十年かからないうちに佐渡は全部自然農法になってしまいます。<br/><br/>それで今度の報告の中にこういうのがありました。<br/><br/>その人は一番早くからやっていて六年目です。<br/><br/>それで六年目に、まわりの田からみると六割以上増産になってます。<br/><br/>これは今度の「特集号」に出てますが、それは毎年だんだん増えて行って、ちょうど六年目に六割以上増産の数字が出てます。<br/><br/>それから今年のお蔭話にはなかなか優良なのがたくさんあります。<br/><br/>質でも、一等賞、特等賞の賞状を県の農協や知事からもらった人があります。<br/><br/>そういうようにいよいよ安心して大々的普及宣伝をしていい時期が来たわけです。<br/><br/>ですからこれが本当に拡まったらたいへんなものです。<br/><br/>まず肥料代でも何百億というのですから、それがなくなると一千億以上の輸入代がいらなくなるし、そのほかに労力も軽減するし、いろいろな虫害がなくなるから、一カ年間何千億の得ということになります。<br/><br/>それだけ税金が減ったら、税金地獄からもぬけられることになります。<br/><br/>ですからこれは一つ大々的にやりたいと思ってます。<br/><br/>病気の方を分からせるのはなかなかたいへんですが、この自然栽培の方はとても楽ですから、これを早くやった方がいいと思ってます。<br/><br/> 農業のことはそのくらいにしておいて、ちょっとおもしろい論文を書きましたから読ませます。<br/><br/> （御論文「天国的宗教と地獄的宗教」）【地上天国 四十六号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

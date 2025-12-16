@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jijits2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 事実は雄弁なり 『結核信仰療法』昭和27(1952)年12月1日発行 私は結核医学について、あらゆる角度から検討して来た事によって、読者は大体判ったであろうが、言うまでもなく医療を受ければ受ける程、病気は悪化するという驚くべき事実である。<br><br>何よりも本著付録〔略〕の百例中、残らずと言いたい程そうかいてあるから、全部を読んだなら、いかに疑い深い人といえども、信ぜざるを得ないであろう。<br><br>としたらこれほどの医学の誤謬を、なぜ今日まで気が付かなかったかという事である。<br><br>幸いにも私によって発見されたからいいが、そうでないとしたら、人類の前途や実に暗澹（あんたん）たるものがあろう。<br><br>ここで私の事を少しかいてみるが、元来私は医学的知識などほとんどなく、ただ少年時代から多病のため、一般人の読む程度の医書を多く読んだだけであるが、しかし今考えてみればそれがよかったのである。<br><br>何となれば医学の潜入観念が専門家的にあるとしたら、素直に神意を受け入れ難いからである。<br><br>しかも病に対する治病霊力をも与えられたので、多数実験の結果と相まって、真の医学の発見が出来たのである。<br><br>それについて左記三例は、医学の盲点をよく表わしているから、ここに挿入したのである。<br><br> 気胸二カ年の肺結核より救わる 『栄光』157号、昭和27(1952)年5月21日発行 『アメリカを救う』昭和28(1953)年1月1日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 東京都北区王子 博愛中教会 中島武雄（24） 肺結核の苦悩のどん底より歓喜に満ちた生活に転換さして頂いた私の喜びを、嬉しさの余り結核に苦しむ人のために乱文では御座いますが御報告させて頂きます。<br><br> 私は血気盛んな折、風邪気味ながら東京貯金支局に勤務致しておりました。<br><br>昭和二十一年二月の事、年一回の集団検診がありまして、レントゲン検査で曇りがあると申し渡されました。<br><br>小さい時より病気一つしなかったもので、その時の落胆は言いようがありませんでした。<br><br>役所の医師に休むように言い渡され、仕方なしに休むようになり、その後宮内省病院へ行き再診して左肺浸潤との事、三カ月天井ばかり見ている安静生活が始りました。<br><br>昔から不治と言われる病気ながら、医師の言う通り安静、栄養を忠実に守り、結果は一進一退、早く治そうと焦りました。<br><br>三カ月経ちレントゲン検査の結果「空洞が出来ている」との事で、気胸をするよう勧められ、私は反対でしたのですが、親も奨めますので仕方なしにやりました。<br><br>その気胸をやるのが痛いのでその日が来るのがいやでした。<br><br>空気三〇〇ＣＣ位入れ空洞をつぶすとの事です。<br><br>胸は苦しくて困りましたが、それでも根気よく続けました。<br><br>その結果空洞はつぶれましたが、今度はあまり空気を入れすぎ副作用により水が溜り、遂に肋膜炎を起してしまいました。<br><br>その後も水を取りながら気胸を続けました。<br><br>気胸は根気よく二年間約七十回続けました。<br><br>その中「心臓は右に移動し、滞った水は化膿した」との事で、一週間許り入院を致しまして調べましたが、外科では「化膿していない」と申されましたので一時退院を致しましたら、気胸のあとが腫れて化膿し始め、オデキのようになり、腫れては膿が出、又腫れるという風に幾個所も化膿して参りました。<br><br>その内皮が破れ胸一杯潰瘍になってしまい、実に困りまして病院へ行きましたところ、外科へ廻され治療を受ける事になりました。<br><br>しかし余り酷くて治らないので終には面倒になり「手術をした方がよい」と申されました。<br><br>その時の外科医との対談中私が「手術をすれば治りますか」と訊けば、「それは分らん、君道路を歩いていて自動車に轢かれるという事もある。<br><br>それは突発事故だ。<br><br>手術も同じである」と言われます。<br><br>人間の生命を扱うのにあっさりした解答で、ただ茫然となりました。<br><br>内科医は 「反って手術しない方が良い結果になる時もある」と言われますし、私自身も気が進まぬまま手術を中止して家庭療法に入る事にしました。<br><br>その時、私はもう医学にも見放された者と悲観し、ほとんど自暴自棄的な気持で運を天に委せていたのです。<br><br> ちょうどその頃昭和二十四年一月十六日、フトした動機で隣の柄沢さんという信者さんの家に行くようになり、そこで神の大愛の御手は差伸べられたのであります。<br><br>色々とお道の話をお聞きし、私も驚いて浄霊を受けてみる気になり、それより赤羽の浅野さんと言う信者さんの家へ通い浄霊をして頂きました。<br><br>色々有難い奇蹟の話もきかされますし、浄霊の原理も話して貰いましたが、その頃は勿論半信半疑でただ無我夢中でした。<br><br>初めの中は別に変化もありませんでしたが、五月に御浄化を頂き、血便の下痢がはじまり一週間ばかり続きました。<br><br>それからは身体は軽くなり、肋膜の水が出たのではないかと思いました。<br><br>その後は日増に良くなり、潰瘍もすっかり乾いて来たのです。<br><br>お蔭様で二年目には気胸の後の傷口もくっつき、外科医師の絶対にくっつかないと言った傷口が塞がり、大変嬉しく感激致しました。<br><br> 医療をやめてから二年目の二十六年六月二十八日に久し振りでレントゲンで診てみたく思い、宮内省の病院に行きますと、両側の椅子には病人が一杯おりました。<br><br>その中には二年前に知っている患者さんもおり、まだ身体が悪くて、青い顔をして続けて通っているのに驚きました。<br><br>前にお世話になった○○医師に会いましたところ、先生は私があまり変りましたので、暫くは私と分らない様子でした。<br><br>それもそのはずです、二年前には死の一歩手前、実に見るも憐れな状態で病院を去ったのですから。<br><br>やがて診察室に入り診察を受けました時○○医師は「君、幽霊かと思ったよ」とか「もう三回忌のはずじゃないか」などと言ってしきりに驚かれます。<br><br>私は「幽霊が話をしますか」と冗談を申しましたが、本当に自分は大きなお救にあずかったのだという事を改めて深く心に感じ、感謝の思いに満されました。<br><br>診察の結果とにかく余りに良好なので驚き「一体どうしてこのように丈夫になったのか」ときかれましたので、救世教に入信、御浄霊を受けて治して頂いた一切を話しました。<br><br>医師は「水もないらしい。<br><br>ラッセルの範囲も小さくなった」と診察しつつ、ただただウーンと唸った切りで首を傾げております。<br><br> 更にレントゲンの透視で調べて「水もなく大変肺もきれいだ」との事で、又々驚いておられるではありませんか。<br><br>この時程医学の力と浄霊の御神力の違いさの大きい事を感じた事はなく、鳴呼、こうして自分は救われたのだ、これも皆明主様のお蔭と深く深く感謝申し上げました。<br><br>早く御礼申し上ぐべきところ、延引致しました事をお詫び申し上げます。<br><br> 明主様本当に有難うございました。<br><br> （昭和二十七年四月二十五日） 私の結核克服記 『結核の革命的療法』昭和26(1951)年8月15日発行 宮崎県宮崎郡清武町船引七五五 光宝大教会 長友義治（38） 「駄目だ」「むずかしい」と言う感じが強く私の頭を去来したのは、昭和十八年七月スラバヤの病院ででした。<br><br>肺浸潤という病名で入院していた私はある日今までにない倦怠感を覚えた。<br><br>ちょうどその日軍医の喀痰検査があり、二日後に「三号菌」と銘打たれてＴＢ病棟へと移された。<br><br>安静、禁煙、看護婦の監視は厳重である。<br><br>しかし私は考えました。<br><br> 「どうせ駄目ならば、好きな莨（たばこ）位は吸ってよさそうなものだ」と、風呂も水浴も駄目、一人裏側の病舎に移されて淋しくてたまらない。<br><br>夜中に起出て汗ばんだ体を拭いたり、隠した莨を吸ったりしました。<br><br>内地還送とは廉恥心の強い当時の軍人は極力きらったものである。<br><br>今にして思えば幸を不幸らしく見せかけて、自己を価値づけんとした人間動物の見難しい一場面でしかありますまい。<br><br>ジャカルタの病院に後送されたとき二名の軍医将校がＴＢに侵されて入院していた。<br><br>「軍医でも手当が遅れるとＴＢになるかね」「そりゃあんた医者でも病気をせんとは言えないですよ」「肺は一体治るのかね」「治りませんね、内地へ帰って静養した方がましですよ」「治らんのを知っていてカルシウムだ、何んだと注射するのですか」「投法子（メイファーズ）よ（しょうがない）」と支那語で語った軍医さんは広島の人でした。<br><br>「美味しいものをうんと食べて体力をつけるより他に方法はないですね」という軍医のＴＢ患者から聞かされてより、自暴自棄の病気生活が始まった。<br><br>ゴツンコする位入っている兵舎の方は毎日死んでゆく、やがてあんなになるよりは存分に遊んだ方がましだ。<br><br>変な気持が頭をかすめた。<br><br>注射器を持って看護婦さんが来て毛布をめくると、人は寝ておらずに柳行李に毛布をかぶせ「看護婦の馬鹿」と書いてある。<br><br>「長友さんは？」と尋ねれば豚追い羊追いは優しい方で、軍服と白衣と脱ぎかえて柵を乗り越えて街に遊びに行っている。<br><br>こんな具合で手のつけられない病院生活を始めました。<br><br>その悪徳が今の私の生命を繋いでいるとも言える訳です。<br><br>シンガポール、マニラ、小倉、熊本と次々と病院を経て自宅に帰りましたが、どこまでも哀れな目に遭いました。<br><br>なかんずく輸送船等は土蔵の中みたいなところであるし、どこの病院でもＴＢ病棟だけは、自然の恩恵を少しでも受けられないように造ってあります。<br><br>余り待遇がよろしくないので、どこでも軍医と口論した。<br><br>拳銃と軍刀を医務室へ預けてないのは私一人でしたので、それが恐ろしかったのか地獄の一丁目にいた私の言い分は他の人たちよりも通った。<br><br>「注射なんかはやらねえよ」一点張である。<br><br>面倒がって熊本を早目に退院させて自宅へ帰した。<br><br>「絶対医学に頼らない」と決心していた私は、遂にそれから三年目、子供の疫痢で、はたまた家内の胃病で有難い「神力」を知らされたのであります。<br><br> おびただしい吐痰は腐敗した毒素でありましたろう、出た出た位の話ではなく今もなお菌の住家がどんどん吐き出されています。<br><br>「結核菌の住家がどんどんと覆滅して行く」なる程という具合に合理的に説かれた明主様の御言葉が御一言御一言身にしみて有難く感ぜられます。<br><br>そして今日数多くの結核患者にあたらして貰いましたが、どれもこれも暗黒の中に希望を失い青菜に塩みたいに萎れています。<br><br> 「神力」という原子爆弾に驚いたり喜んだりで御座います。<br><br> 救はれし幸を思へば身を竭（つく）し 心砕きて酬はでおかめや そのまま感激を持続してお縋りをし、一家揃って熱心にお縋りした者は百パーセント救われましたし、一時的なものや全然疑って初めから御浄霊を頂かない人は、多額の金額を使い一路地獄へとストレプト邁進で可哀想なものです。<br><br>お縋りすべきです。<br><br>お縋りなさいと結核恐怖学校の卒業生たる私は叫びたいのであります。<br><br> 救われて行く日赤病院の患者達 『救世』56号、昭和25(1950)年4月1日発行 広島県安佐郡祇園町 陽光中教会 垰崎美知枝（24） 私が御浄霊さして戴き九月中旬より十月上旬に教修を戴かれた日赤病院の患者さんたちのことを御報告させていただき、御礼を述べさせていただきます。<br><br>最初友達のお母さんが胆石で入院されたのが日赤へ行く動機となりました。<br><br>その友達の家はお稲荷信者ですので御道の話は現在は難しいのですが気の毒で時々御見舞に行っておりました。<br><br>その中に同室の患者さん達とも親しくなり銀行でいっしょに勤めていた貞宗操子さん（後九月中旬受講）が同室に入院して来られる等で皆さんとお友達のように話し合うようになりました。<br><br>私もいろんなお話しから光明如来様を信仰させていただき病気は勿論、いろんな御蔭を戴いていることをお話しするようになり、内心で一人でもお救いさせて戴きたいと思っておりました。<br><br> ある日ある患者が気胸をしたあとが苦しみ困っていましたので「すこし御浄霊させて戴きましようか」と申しましたら、余程苦しかったと見え、すぐ御願い致しますと申されますので私も喜んで浄霊させて戴きました。<br><br>三十分位しましたらとても楽になりましたと大変喜ばれました。<br><br> それを向いの部屋から見ていた吉野みす恵さん（後九月中旬受講、肺病）もしていただきたいとおっしゃり、それから吉野さんを一日置きに御浄霊させていただきました。<br><br> その中に吉野さんと同室の山崎時和さん（後九月中旬受講、肺病）が吉野さんを通じ頼んで来られ、その時は山崎さんは医者からはっきり治る見込みがないと宣告され、悲観のどん底にある人でした。<br><br>見るからにやせ細り目には力なく御飯が一度に一口か二口しか食べられず、痰は切れず夜は眠れず、その上心臓の動悸が激しく正に死の一歩手前にある人のようでした。<br><br> 私は医者に見放されたのですからもう神様に御すがりするより道がございません。<br><br>神様のおっしゃる通りに致しますと御すがりになりました。<br><br>八月十六日に退院されてそれからはお家の方へ行かせていただきました。<br><br>御浄霊一日目に夜ぐっすり眠れましたと申され、本人は勿論私もたとえようもなく嬉しゅうございました。<br><br>それから日一日と目に見えて元気になられ毎日御浄霊に行くのが楽しみでございました。<br><br>時に大浄化もありましたが御守護にて次第に元気になり、十日目位から朝起きてご飯仕度もさせて戴けるようになり絶対安静の死を宣告された方が二十日目位には配給品を取りに行かれるようになりました。<br><br>そのうち日赤の患者さんの中から御浄霊を戴き度いとおっしゃる人も段々ふえて参りました。<br><br>皆山崎さんの元気になられた姿に驚いておられました。<br><br> 矢張り日赤の患者で湊照彦さん（後九月中旬受講）は心臓弁膜症で入院中でしたが、御浄霊を受けられてとても調子が良いとて退院しますから家の方へ来て下さいと頼まれ、八月下旬に退院され九月九日からもう出勤出来る体にして戴かれました。<br><br>その頃は日赤で四人、山崎さんの宅で二人御浄霊させて戴いておりました。<br><br> ある日山崎さんの御主人（大工）が足の骨に大工道具の何かを誤って打ちこまれ、足が立たず部屋をいざっていましたのを丁度その時来て戴いておりました住広先生が御浄霊されましたらすぐ立って歩けるようになられました。<br><br>この奇蹟で御主人はびっくりなさって「病院では落付いて御浄霊も受けられないでしょうからよかったら私の家へ来て貰って下さい」とおっしゃって戴き日赤の患者さん達も大変に喜ばれました。<br><br>九月上旬に山崎さんの宅で西垣先生に来て戴き座談会を開かせて戴きました。<br><br> この時に上林光子、中井正子さんは入院して一年半あまり病院から一歩も出たことなく百米と歩いたことの無い人でしたが一生懸命な気持で出席され、かえられた後も何ともなかった、これで自信がつきました、と涙を出して喜ばれる姿など理屈からではなくどうにかして生きたい救われたいと求める人の真剣さに、私も何とか御救いさせて戴き度いと一生懸命でございました。<br><br>上林、中井さんのお二人は下痢の御浄化を戴かれ食事も美味しくなりました。<br><br>九人の御浄霊させて戴きました方が八人まで教修を受け、現在七人まで退院出来たのでございます。<br><br>このように私ごときただの会員のしかも年若い者の手によって日赤病院に呻吟せる患者さん達が救われて行っております。<br><br> 右の第一の例について言いたい事があるが、それは二年前に医師が診療して治らなかった患者が、健康体になったのを目の前に見て「君、幽霊かと思ったよ」とか「もう三回忌のはずじゃないか」などといって頻（しき）りに驚かれ、「一体どうしてこのように丈夫になったのか」と訊くので「私はメシヤ教に入信、御浄霊を受けて治った」と一切を話しても、ただウーンと唸ったきりで、それ以上深くも訊かないで、済ましてしまったという一事である。<br><br>こういう例は常に聞くのであるが、もし真に良心があり医学の真目的を認識しているとすれば、進んで研究の態度に出なければならないはずだが、今日までそういう医師は一人もなかった、という不思議な事実である。<br><br>これを考えてみると、全く科学的でないからという理由だけであろうが、そうとすれば結果の善悪はどうでもいい、ただ科学的でありさえすれば、絶対に信ずるというのであるから、恐るべき科学迷信に陥っているためというより外に言葉はないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Tuberculose e a Falácia da Medicina</h2>
 <p>Ao longo de minhas explanações, nas quais examinei a medicina da tuberculose sob todos os ângulos, creio que o leitor já pôde compreender o ponto central: a surpreendente verdade de que, quanto mais uma pessoa se submete a tratamentos médicos, mais a sua enfermidade se agrava. Essa constatação é corroborada por praticamente todos os cem relatos contidos no apêndice desta obra. Diante de tais evidências, até mesmo o mais cético dos indivíduos será forçado a render-se aos fatos.</p>
@@ -139,5 +291,48 @@ function toggleLang(lang) {
 <p>Das nove pessoas a quem ministrei Johrei, oito fizeram o Curso de Formação, e sete já receberam alta. E assim, pelas mãos de uma pessoa como eu, uma simples e jovem membro, os pacientes que gemiam de dor no Hospital da Cruz Vermelha estão sendo salvos.</p>
 <p>Gostaria de tecer um comentário a respeito do primeiro relato. O ponto central é a reação do médico que, dois anos antes, não conseguira curar o paciente. Ao vê-lo saudável diante de si, espanta-se com exclamações como “Pensei que fosse um fantasma!” e “Não era para ser o seu terceiro aniversário de falecimento?”. Ao perguntar “Como você ficou tão forte assim?” e ouvir como resposta “Ingressei na Sekai Kyusei Kyo e fui curado pelo Johrei”, o médico limita-se a um murmúrio, sem aprofundar a questão.</p>
 <p>Casos como este são recorrentes. Se houvesse nesses profissionais uma consciência genuína e uma real compreensão do verdadeiro propósito da medicina, seria natural que adotassem uma postura de investigação. Contudo, o fato surpreendente é que, até hoje, não encontrei um único médico que assim o fizesse. Refletindo sobre isso, a única razão plausível é a de que nosso método não é considerado “científico”. Se assim for, significa que o resultado, seja bom ou mau, é irrelevante; o que importa é que seja científico. Acreditar cegamente nisso é a prova de que estão presos a uma terrível superstição. Não há outra forma de descrever tal atitude senão como o resultado de uma imersão em uma deplorável superstição científica.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 事実は雄弁なり 『結核信仰療法』昭和27(1952)年12月1日発行 私は結核医学について、あらゆる角度から検討して来た事によって、読者は大体判ったであろうが、言うまでもなく医療を受ければ受ける程、病気は悪化するという驚くべき事実である。<br/><br/>何よりも本著付録〔略〕の百例中、残らずと言いたい程そうかいてあるから、全部を読んだなら、いかに疑い深い人といえども、信ぜざるを得ないであろう。<br/><br/>としたらこれほどの医学の誤謬を、なぜ今日まで気が付かなかったかという事である。<br/><br/>幸いにも私によって発見されたからいいが、そうでないとしたら、人類の前途や実に暗澹（あんたん）たるものがあろう。<br/><br/>ここで私の事を少しかいてみるが、元来私は医学的知識などほとんどなく、ただ少年時代から多病のため、一般人の読む程度の医書を多く読んだだけであるが、しかし今考えてみればそれがよかったのである。<br/><br/>何となれば医学の潜入観念が専門家的にあるとしたら、素直に神意を受け入れ難いからである。<br/><br/>しかも病に対する治病霊力をも与えられたので、多数実験の結果と相まって、真の医学の発見が出来たのである。<br/><br/>それについて左記三例は、医学の盲点をよく表わしているから、ここに挿入したのである。<br/><br/> 気胸二カ年の肺結核より救わる 『栄光』157号、昭和27(1952)年5月21日発行 『アメリカを救う』昭和28(1953)年1月1日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 東京都北区王子 博愛中教会 中島武雄（24） 肺結核の苦悩のどん底より歓喜に満ちた生活に転換さして頂いた私の喜びを、嬉しさの余り結核に苦しむ人のために乱文では御座いますが御報告させて頂きます。<br/><br/> 私は血気盛んな折、風邪気味ながら東京貯金支局に勤務致しておりました。<br/><br/>昭和二十一年二月の事、年一回の集団検診がありまして、レントゲン検査で曇りがあると申し渡されました。<br/><br/>小さい時より病気一つしなかったもので、その時の落胆は言いようがありませんでした。<br/><br/>役所の医師に休むように言い渡され、仕方なしに休むようになり、その後宮内省病院へ行き再診して左肺浸潤との事、三カ月天井ばかり見ている安静生活が始りました。<br/><br/>昔から不治と言われる病気ながら、医師の言う通り安静、栄養を忠実に守り、結果は一進一退、早く治そうと焦りました。<br/><br/>三カ月経ちレントゲン検査の結果「空洞が出来ている」との事で、気胸をするよう勧められ、私は反対でしたのですが、親も奨めますので仕方なしにやりました。<br/><br/>その気胸をやるのが痛いのでその日が来るのがいやでした。<br/><br/>空気三〇〇ＣＣ位入れ空洞をつぶすとの事です。<br/><br/>胸は苦しくて困りましたが、それでも根気よく続けました。<br/><br/>その結果空洞はつぶれましたが、今度はあまり空気を入れすぎ副作用により水が溜り、遂に肋膜炎を起してしまいました。<br/><br/>その後も水を取りながら気胸を続けました。<br/><br/>気胸は根気よく二年間約七十回続けました。<br/><br/>その中「心臓は右に移動し、滞った水は化膿した」との事で、一週間許り入院を致しまして調べましたが、外科では「化膿していない」と申されましたので一時退院を致しましたら、気胸のあとが腫れて化膿し始め、オデキのようになり、腫れては膿が出、又腫れるという風に幾個所も化膿して参りました。<br/><br/>その内皮が破れ胸一杯潰瘍になってしまい、実に困りまして病院へ行きましたところ、外科へ廻され治療を受ける事になりました。<br/><br/>しかし余り酷くて治らないので終には面倒になり「手術をした方がよい」と申されました。<br/><br/>その時の外科医との対談中私が「手術をすれば治りますか」と訊けば、「それは分らん、君道路を歩いていて自動車に轢かれるという事もある。<br/><br/>それは突発事故だ。<br/><br/>手術も同じである」と言われます。<br/><br/>人間の生命を扱うのにあっさりした解答で、ただ茫然となりました。<br/><br/>内科医は 「反って手術しない方が良い結果になる時もある」と言われますし、私自身も気が進まぬまま手術を中止して家庭療法に入る事にしました。<br/><br/>その時、私はもう医学にも見放された者と悲観し、ほとんど自暴自棄的な気持で運を天に委せていたのです。<br/><br/> ちょうどその頃昭和二十四年一月十六日、フトした動機で隣の柄沢さんという信者さんの家に行くようになり、そこで神の大愛の御手は差伸べられたのであります。<br/><br/>色々とお道の話をお聞きし、私も驚いて浄霊を受けてみる気になり、それより赤羽の浅野さんと言う信者さんの家へ通い浄霊をして頂きました。<br/><br/>色々有難い奇蹟の話もきかされますし、浄霊の原理も話して貰いましたが、その頃は勿論半信半疑でただ無我夢中でした。<br/><br/>初めの中は別に変化もありませんでしたが、五月に御浄化を頂き、血便の下痢がはじまり一週間ばかり続きました。<br/><br/>それからは身体は軽くなり、肋膜の水が出たのではないかと思いました。<br/><br/>その後は日増に良くなり、潰瘍もすっかり乾いて来たのです。<br/><br/>お蔭様で二年目には気胸の後の傷口もくっつき、外科医師の絶対にくっつかないと言った傷口が塞がり、大変嬉しく感激致しました。<br/><br/> 医療をやめてから二年目の二十六年六月二十八日に久し振りでレントゲンで診てみたく思い、宮内省の病院に行きますと、両側の椅子には病人が一杯おりました。<br/><br/>その中には二年前に知っている患者さんもおり、まだ身体が悪くて、青い顔をして続けて通っているのに驚きました。<br/><br/>前にお世話になった○○医師に会いましたところ、先生は私があまり変りましたので、暫くは私と分らない様子でした。<br/><br/>それもそのはずです、二年前には死の一歩手前、実に見るも憐れな状態で病院を去ったのですから。<br/><br/>やがて診察室に入り診察を受けました時○○医師は「君、幽霊かと思ったよ」とか「もう三回忌のはずじゃないか」などと言ってしきりに驚かれます。<br/><br/>私は「幽霊が話をしますか」と冗談を申しましたが、本当に自分は大きなお救にあずかったのだという事を改めて深く心に感じ、感謝の思いに満されました。<br/><br/>診察の結果とにかく余りに良好なので驚き「一体どうしてこのように丈夫になったのか」ときかれましたので、救世教に入信、御浄霊を受けて治して頂いた一切を話しました。<br/><br/>医師は「水もないらしい。<br/><br/>ラッセルの範囲も小さくなった」と診察しつつ、ただただウーンと唸った切りで首を傾げております。<br/><br/> 更にレントゲンの透視で調べて「水もなく大変肺もきれいだ」との事で、又々驚いておられるではありませんか。<br/><br/>この時程医学の力と浄霊の御神力の違いさの大きい事を感じた事はなく、鳴呼、こうして自分は救われたのだ、これも皆明主様のお蔭と深く深く感謝申し上げました。<br/><br/>早く御礼申し上ぐべきところ、延引致しました事をお詫び申し上げます。<br/><br/> 明主様本当に有難うございました。<br/><br/> （昭和二十七年四月二十五日） 私の結核克服記 『結核の革命的療法』昭和26(1951)年8月15日発行 宮崎県宮崎郡清武町船引七五五 光宝大教会 長友義治（38） 「駄目だ」「むずかしい」と言う感じが強く私の頭を去来したのは、昭和十八年七月スラバヤの病院ででした。<br/><br/>肺浸潤という病名で入院していた私はある日今までにない倦怠感を覚えた。<br/><br/>ちょうどその日軍医の喀痰検査があり、二日後に「三号菌」と銘打たれてＴＢ病棟へと移された。<br/><br/>安静、禁煙、看護婦の監視は厳重である。<br/><br/>しかし私は考えました。<br/><br/> 「どうせ駄目ならば、好きな莨（たばこ）位は吸ってよさそうなものだ」と、風呂も水浴も駄目、一人裏側の病舎に移されて淋しくてたまらない。<br/><br/>夜中に起出て汗ばんだ体を拭いたり、隠した莨を吸ったりしました。<br/><br/>内地還送とは廉恥心の強い当時の軍人は極力きらったものである。<br/><br/>今にして思えば幸を不幸らしく見せかけて、自己を価値づけんとした人間動物の見難しい一場面でしかありますまい。<br/><br/>ジャカルタの病院に後送されたとき二名の軍医将校がＴＢに侵されて入院していた。<br/><br/>「軍医でも手当が遅れるとＴＢになるかね」「そりゃあんた医者でも病気をせんとは言えないですよ」「肺は一体治るのかね」「治りませんね、内地へ帰って静養した方がましですよ」「治らんのを知っていてカルシウムだ、何んだと注射するのですか」「投法子（メイファーズ）よ（しょうがない）」と支那語で語った軍医さんは広島の人でした。<br/><br/>「美味しいものをうんと食べて体力をつけるより他に方法はないですね」という軍医のＴＢ患者から聞かされてより、自暴自棄の病気生活が始まった。<br/><br/>ゴツンコする位入っている兵舎の方は毎日死んでゆく、やがてあんなになるよりは存分に遊んだ方がましだ。<br/><br/>変な気持が頭をかすめた。<br/><br/>注射器を持って看護婦さんが来て毛布をめくると、人は寝ておらずに柳行李に毛布をかぶせ「看護婦の馬鹿」と書いてある。<br/><br/>「長友さんは？」と尋ねれば豚追い羊追いは優しい方で、軍服と白衣と脱ぎかえて柵を乗り越えて街に遊びに行っている。<br/><br/>こんな具合で手のつけられない病院生活を始めました。<br/><br/>その悪徳が今の私の生命を繋いでいるとも言える訳です。<br/><br/>シンガポール、マニラ、小倉、熊本と次々と病院を経て自宅に帰りましたが、どこまでも哀れな目に遭いました。<br/><br/>なかんずく輸送船等は土蔵の中みたいなところであるし、どこの病院でもＴＢ病棟だけは、自然の恩恵を少しでも受けられないように造ってあります。<br/><br/>余り待遇がよろしくないので、どこでも軍医と口論した。<br/><br/>拳銃と軍刀を医務室へ預けてないのは私一人でしたので、それが恐ろしかったのか地獄の一丁目にいた私の言い分は他の人たちよりも通った。<br/><br/>「注射なんかはやらねえよ」一点張である。<br/><br/>面倒がって熊本を早目に退院させて自宅へ帰した。<br/><br/>「絶対医学に頼らない」と決心していた私は、遂にそれから三年目、子供の疫痢で、はたまた家内の胃病で有難い「神力」を知らされたのであります。<br/><br/> おびただしい吐痰は腐敗した毒素でありましたろう、出た出た位の話ではなく今もなお菌の住家がどんどん吐き出されています。<br/><br/>「結核菌の住家がどんどんと覆滅して行く」なる程という具合に合理的に説かれた明主様の御言葉が御一言御一言身にしみて有難く感ぜられます。<br/><br/>そして今日数多くの結核患者にあたらして貰いましたが、どれもこれも暗黒の中に希望を失い青菜に塩みたいに萎れています。<br/><br/> 「神力」という原子爆弾に驚いたり喜んだりで御座います。<br/><br/> 救はれし幸を思へば身を竭（つく）し 心砕きて酬はでおかめや そのまま感激を持続してお縋りをし、一家揃って熱心にお縋りした者は百パーセント救われましたし、一時的なものや全然疑って初めから御浄霊を頂かない人は、多額の金額を使い一路地獄へとストレプト邁進で可哀想なものです。<br/><br/>お縋りすべきです。<br/><br/>お縋りなさいと結核恐怖学校の卒業生たる私は叫びたいのであります。<br/><br/> 救われて行く日赤病院の患者達 『救世』56号、昭和25(1950)年4月1日発行 広島県安佐郡祇園町 陽光中教会 垰崎美知枝（24） 私が御浄霊さして戴き九月中旬より十月上旬に教修を戴かれた日赤病院の患者さんたちのことを御報告させていただき、御礼を述べさせていただきます。<br/><br/>最初友達のお母さんが胆石で入院されたのが日赤へ行く動機となりました。<br/><br/>その友達の家はお稲荷信者ですので御道の話は現在は難しいのですが気の毒で時々御見舞に行っておりました。<br/><br/>その中に同室の患者さん達とも親しくなり銀行でいっしょに勤めていた貞宗操子さん（後九月中旬受講）が同室に入院して来られる等で皆さんとお友達のように話し合うようになりました。<br/><br/>私もいろんなお話しから光明如来様を信仰させていただき病気は勿論、いろんな御蔭を戴いていることをお話しするようになり、内心で一人でもお救いさせて戴きたいと思っておりました。<br/><br/> ある日ある患者が気胸をしたあとが苦しみ困っていましたので「すこし御浄霊させて戴きましようか」と申しましたら、余程苦しかったと見え、すぐ御願い致しますと申されますので私も喜んで浄霊させて戴きました。<br/><br/>三十分位しましたらとても楽になりましたと大変喜ばれました。<br/><br/> それを向いの部屋から見ていた吉野みす恵さん（後九月中旬受講、肺病）もしていただきたいとおっしゃり、それから吉野さんを一日置きに御浄霊させていただきました。<br/><br/> その中に吉野さんと同室の山崎時和さん（後九月中旬受講、肺病）が吉野さんを通じ頼んで来られ、その時は山崎さんは医者からはっきり治る見込みがないと宣告され、悲観のどん底にある人でした。<br/><br/>見るからにやせ細り目には力なく御飯が一度に一口か二口しか食べられず、痰は切れず夜は眠れず、その上心臓の動悸が激しく正に死の一歩手前にある人のようでした。<br/><br/> 私は医者に見放されたのですからもう神様に御すがりするより道がございません。<br/><br/>神様のおっしゃる通りに致しますと御すがりになりました。<br/><br/>八月十六日に退院されてそれからはお家の方へ行かせていただきました。<br/><br/>御浄霊一日目に夜ぐっすり眠れましたと申され、本人は勿論私もたとえようもなく嬉しゅうございました。<br/><br/>それから日一日と目に見えて元気になられ毎日御浄霊に行くのが楽しみでございました。<br/><br/>時に大浄化もありましたが御守護にて次第に元気になり、十日目位から朝起きてご飯仕度もさせて戴けるようになり絶対安静の死を宣告された方が二十日目位には配給品を取りに行かれるようになりました。<br/><br/>そのうち日赤の患者さんの中から御浄霊を戴き度いとおっしゃる人も段々ふえて参りました。<br/><br/>皆山崎さんの元気になられた姿に驚いておられました。<br/><br/> 矢張り日赤の患者で湊照彦さん（後九月中旬受講）は心臓弁膜症で入院中でしたが、御浄霊を受けられてとても調子が良いとて退院しますから家の方へ来て下さいと頼まれ、八月下旬に退院され九月九日からもう出勤出来る体にして戴かれました。<br/><br/>その頃は日赤で四人、山崎さんの宅で二人御浄霊させて戴いておりました。<br/><br/> ある日山崎さんの御主人（大工）が足の骨に大工道具の何かを誤って打ちこまれ、足が立たず部屋をいざっていましたのを丁度その時来て戴いておりました住広先生が御浄霊されましたらすぐ立って歩けるようになられました。<br/><br/>この奇蹟で御主人はびっくりなさって「病院では落付いて御浄霊も受けられないでしょうからよかったら私の家へ来て貰って下さい」とおっしゃって戴き日赤の患者さん達も大変に喜ばれました。<br/><br/>九月上旬に山崎さんの宅で西垣先生に来て戴き座談会を開かせて戴きました。<br/><br/> この時に上林光子、中井正子さんは入院して一年半あまり病院から一歩も出たことなく百米と歩いたことの無い人でしたが一生懸命な気持で出席され、かえられた後も何ともなかった、これで自信がつきました、と涙を出して喜ばれる姿など理屈からではなくどうにかして生きたい救われたいと求める人の真剣さに、私も何とか御救いさせて戴き度いと一生懸命でございました。<br/><br/>上林、中井さんのお二人は下痢の御浄化を戴かれ食事も美味しくなりました。<br/><br/>九人の御浄霊させて戴きました方が八人まで教修を受け、現在七人まで退院出来たのでございます。<br/><br/>このように私ごときただの会員のしかも年若い者の手によって日赤病院に呻吟せる患者さん達が救われて行っております。<br/><br/> 右の第一の例について言いたい事があるが、それは二年前に医師が診療して治らなかった患者が、健康体になったのを目の前に見て「君、幽霊かと思ったよ」とか「もう三回忌のはずじゃないか」などといって頻（しき）りに驚かれ、「一体どうしてこのように丈夫になったのか」と訊くので「私はメシヤ教に入信、御浄霊を受けて治った」と一切を話しても、ただウーンと唸ったきりで、それ以上深くも訊かないで、済ましてしまったという一事である。<br/><br/>こういう例は常に聞くのであるが、もし真に良心があり医学の真目的を認識しているとすれば、進んで研究の態度に出なければならないはずだが、今日までそういう医師は一人もなかった、という不思議な事実である。<br/><br/>これを考えてみると、全く科学的でないからという理由だけであろうが、そうとすれば結果の善悪はどうでもいい、ただ科学的でありさえすれば、絶対に信ずるというのであるから、恐るべき科学迷信に陥っているためというより外に言葉はないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

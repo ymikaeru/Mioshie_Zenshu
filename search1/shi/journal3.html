@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>journal3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ジャーナリストには言論の自由なし 『栄光』148号、昭和27(1952)年3月19日発行 この標題を見たら、恐らく何人も首を傾げるだろうが、これが本当だから次を読んで貰いたい。<br><br>それは政治上の党派とか宗教とかいうものは、賞めてはいけないというのが、言論機関の建前となっているそうだから、少しでも賞めようものなら“あいつは何かあるに違いない。<br><br>きっと貰ったんだろう”という疑念を抱かれるそうである。<br><br>なるほどそう思ってみると分かるが、本教の記事などが時々新聞や雑誌に出る場合、ほとんどそういうかき方である。<br><br> だから早く言えば、たとえ吾々の方にどんなに善い事があっても、有りのまま賞める事はない訳である。<br><br>としたらなるほど悪い事だけは悪いと言えるが善い事は善いとは言えないんだから厄介だ。<br><br>つまり悪いことは悪く言い、善い事も悪く言えば差し支えないんだから、変なもので、悪口だけは天下御免である。<br><br>このように善い事を善いと言えないとしたら、全く言論の自由はない訳である。<br><br>だから仮に本教を賞めでもすると“奴はきっと貰ったんだな”と睨（にら）まれるのでウッカリ出来ない。<br><br>そうでないとしても駄目だ“奴はメシヤ教にカブレやがったからもう駄目だ、仕方がないから馘（くび）だね”という事になり、たちまち失業者となってしまうので、実に気の毒な職業である。<br><br>だから悪口の好きな人はいいが公平に見る人は勤まらない事になるのはもちろんである。<br><br>よく宗教記事を見ると、必ず軽蔑的冷かし半分、人を小馬鹿にしたようなかき方であるが、これが社会的通念となっており、かなり酷くかかれてもあえて気にする者も、とがめる者もないので、いい気になって脱線したのが彼の○○氏で、名誉毀損の告訴をされたのである。<br><br>このような訳だから本教の内容も知らず、新聞記事の内幕なども知らないので新聞雑誌の記事を見て、本教をインチキ邪教と思い込むのも無理はないのである。<br><br>とはいうものの事実新宗教の中には、随分いかがわしいものも沢山あるから、それらと同列に視られるのも致し方ないとも言えよう。<br><br> ここでついでだから、これに関連のある今一つの事をかいてみるが、それは社会的地位のある人程用心深く、本教信者にも大臣級や博士、有名作家などもいるが、どうも秘密にしたがるので、吾々の方でも秘密を守るようにしているが、時には信仰を止めたのかと思っていると意外にも蔭で熱心にやってる例などもよく聞くが先日も元国務大臣を何回もやった人で、現在政界でも噂に上る程の著名人であるが、この人などはちょっと変わっている。<br><br>それは数年前一家族全部入信した程の熱心家であったのがしばらくするとピタリと来なくなってしまった。<br><br>ところが最近分かった事は、この人は本教が、以前浄化療法時代に入った人で、その後宗教団体になったからやめたというのである。<br><br>それで分かった事は、政界人としては新宗教の信者になるなどは、大いに名声に影響を及ぼすからであろう。<br><br>右は一例であるが、そういう人も随分あるようだ。<br><br>これにみても新宗教はいかに社会的信用が薄いかが分かるのである。<br><br> 以上の様な種々な障害がありながら、日に月に見らるるごとく、発展を遂げつつある事実をみれば、本教の力のいかに偉大なるかが分かるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Inexistente Liberdade de Expressão do Jornalista</h2>
 <p>Ao se depararem com este título, muitos por certo estranharão; contudo, a verdade que ele encerra será revelada nas linhas que se seguem. Acontece que, ao que parece, os órgãos da imprensa estabeleceram como premissa a proibição de elogiar facções políticas ou movimentos religiosos. Caso ousem tecer o menor louvor, imediatamente recai sobre eles a suspeita: “Certamente há algo por trás disso. Com certeza foi subornado”. De fato, ao analisarmos a questão sob essa ótica, compreendemos por que os artigos sobre nossa Igreja, publicados esporadicamente em jornais e revistas, adotam quase invariavelmente tal abordagem.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Aproveitando o ensejo, gostaria de abordar outro ponto correlato: a cautela adotada por pessoas de elevada posição social. Em nosso meio, contamos com membros que são ministros de Estado, doutores e escritores de renome; todavia, muitos preferem manter a fé em sigilo, um desejo que nos empenhamos em respeitar. Ocasionalmente, quando julgamos que um fiel se afastou, somos surpreendidos ao saber que, na verdade, ele continua a praticar os ensinamentos com grande fervor, ainda que discretamente.</p>
 <p>Recentemente, tivemos notícia de um caso ilustrativo envolvendo uma figura proeminente da política, que já ocupou diversas vezes o cargo de Ministro de Estado. Sua situação, porém, é peculiar. Há alguns anos, ele e toda a sua família tornaram-se membros entusiastas. Passado algum tempo, contudo, cessaram abruptamente sua participação. Descobrimos há pouco o motivo: sua adesão ocorreu na época em que nossa principal atividade era a Terapia Johrei e, segundo ele, abandonou a fé quando nos tornamos uma organização religiosa formal. A conclusão é clara: para um político, ser membro de uma nova religião pode comprometer gravemente sua reputação. Este é apenas um exemplo, mas há muitos outros casos semelhantes. Tudo isso revela quão frágil é o crédito social concedido às novas religiões.</p>
 <p>Não obstante os inúmeros entraves aqui descritos, o fato de nossa Igreja prosseguir em seu desenvolvimento, numa expansão visível a cada dia e a cada mês, demonstra a magnitude de sua força.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ジャーナリストには言論の自由なし 『栄光』148号、昭和27(1952)年3月19日発行 この標題を見たら、恐らく何人も首を傾げるだろうが、これが本当だから次を読んで貰いたい。<br/><br/>それは政治上の党派とか宗教とかいうものは、賞めてはいけないというのが、言論機関の建前となっているそうだから、少しでも賞めようものなら“あいつは何かあるに違いない。<br/><br/>きっと貰ったんだろう”という疑念を抱かれるそうである。<br/><br/>なるほどそう思ってみると分かるが、本教の記事などが時々新聞や雑誌に出る場合、ほとんどそういうかき方である。<br/><br/> だから早く言えば、たとえ吾々の方にどんなに善い事があっても、有りのまま賞める事はない訳である。<br/><br/>としたらなるほど悪い事だけは悪いと言えるが善い事は善いとは言えないんだから厄介だ。<br/><br/>つまり悪いことは悪く言い、善い事も悪く言えば差し支えないんだから、変なもので、悪口だけは天下御免である。<br/><br/>このように善い事を善いと言えないとしたら、全く言論の自由はない訳である。<br/><br/>だから仮に本教を賞めでもすると“奴はきっと貰ったんだな”と睨（にら）まれるのでウッカリ出来ない。<br/><br/>そうでないとしても駄目だ“奴はメシヤ教にカブレやがったからもう駄目だ、仕方がないから馘（くび）だね”という事になり、たちまち失業者となってしまうので、実に気の毒な職業である。<br/><br/>だから悪口の好きな人はいいが公平に見る人は勤まらない事になるのはもちろんである。<br/><br/>よく宗教記事を見ると、必ず軽蔑的冷かし半分、人を小馬鹿にしたようなかき方であるが、これが社会的通念となっており、かなり酷くかかれてもあえて気にする者も、とがめる者もないので、いい気になって脱線したのが彼の○○氏で、名誉毀損の告訴をされたのである。<br/><br/>このような訳だから本教の内容も知らず、新聞記事の内幕なども知らないので新聞雑誌の記事を見て、本教をインチキ邪教と思い込むのも無理はないのである。<br/><br/>とはいうものの事実新宗教の中には、随分いかがわしいものも沢山あるから、それらと同列に視られるのも致し方ないとも言えよう。<br/><br/> ここでついでだから、これに関連のある今一つの事をかいてみるが、それは社会的地位のある人程用心深く、本教信者にも大臣級や博士、有名作家などもいるが、どうも秘密にしたがるので、吾々の方でも秘密を守るようにしているが、時には信仰を止めたのかと思っていると意外にも蔭で熱心にやってる例などもよく聞くが先日も元国務大臣を何回もやった人で、現在政界でも噂に上る程の著名人であるが、この人などはちょっと変わっている。<br/><br/>それは数年前一家族全部入信した程の熱心家であったのがしばらくするとピタリと来なくなってしまった。<br/><br/>ところが最近分かった事は、この人は本教が、以前浄化療法時代に入った人で、その後宗教団体になったからやめたというのである。<br/><br/>それで分かった事は、政界人としては新宗教の信者になるなどは、大いに名声に影響を及ぼすからであろう。<br/><br/>右は一例であるが、そういう人も随分あるようだ。<br/><br/>これにみても新宗教はいかに社会的信用が薄いかが分かるのである。<br/><br/> 以上の様な種々な障害がありながら、日に月に見らるるごとく、発展を遂げつつある事実をみれば、本教の力のいかに偉大なるかが分かるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

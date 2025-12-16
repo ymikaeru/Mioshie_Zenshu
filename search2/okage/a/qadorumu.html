@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qadorumu</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： アドルム服用の青年死より救われる 『栄光』98号、昭和26(1951)年4月4日発行 宮崎県 光宝大教会 永友明三（42） 本年十月二十九日午後七時頃の出来事で、支部から帰宅の途中、若いアベックと行合い、その会話の端が聞くともなく耳に残り、どうも心配になり、その足で市内都島公園に行き、草原を見ますと、黒服学生風の青年が俯（うつふ）し苦しんでいる様子なのでございます。<br><br> 最初は酔倒れかと思い、日暮の事で早く帰宅するように話しましたが、黙っていますから、触れてみますと、既に冷たくなっていますが、上半身はひどい痙攣を起しています。<br><br>抱き起そうとしますと、クタクタになっていて私一人ではどうする事も出来ない状態でした。<br><br>服のポケットから二冊の本がのぞいていますから、何気なく見ますと、『思想』と『死に到る病』という題字でした。<br><br>アッ服毒だ！ と直感しましたので、上向きに転じて上頭部と腹部を御浄霊さして戴きあわせて祝詞を奏上さして戴きました。<br><br>間もなく嘔吐を始め大量に二回吐き出し上半身を少し動かし、手足も少し動かせるようになり、上衣のポケットからアドルム一箱とカルモチン二箱を出しました。<br><br>空箱です。<br><br>確にこれをのんでいます。<br><br>再びガクリと力抜けた様子なので、御守護を念じつつ、一心に御浄霊さして戴きますと、約十五分位でまた大量に吐き出しました。<br><br>声も出るようになったらしい。<br><br>市内東町○○○と言う□□高等学校二年生であることが聞き取れました。<br><br> アドルム十粒とカルモチン六十粒をのんでいるのです。<br><br>一応、支部に連れて行こうと思いますが、体は大きくグニャグニャなので支部に走り帰り、山下さんを呼んで来て二人で支部に漸く連れ込み、約二時間御浄霊をさして戴きますと、続け様に黄色の液を吐き続け、洗面器に半分位になり、話も少々出来るようになって参りました。<br><br> 事件が事件なので警察署に届け市内の日赤病院から医師が来て、御浄霊の結果であることは知らずに、吐いたようですから大丈夫助かりますと、内服薬を置いてかえりました。<br><br>その中に母親と受持の先生とが駆けつけました。<br><br>もう何でも話せます。<br><br>母親は薬をのんだらと医者の置いて行ったのを勧め、手に持ったままオドオドしております。<br><br>私は「もうのまなくてもよいでしよう、これまでになったから見合せたら」と申しますと「そう致しましょう」とそのままに済みました。<br><br> 翌三十日には元気になり一人で歩いて帰宅しました。<br><br>母親の喜びに私もつり込まれました。<br><br>十一月三日には学校の文化祭に、演劇部員として自分も出演するなど大元気になりました。<br><br>本人もその家族も大喜びなのは勿論ですが、私には殊更感銘深いものがございます。<br><br>偉大なる御救の力を現実に見せて戴き、一層信仰を深めさして戴くことが出来ました。<br><br> この上は明主様の恩恵に浴し、なお一層この御道に進まさせて頂く覚悟でございます。<br><br> 明主様、誠に有難うございます。<br><br> （昭和二十六年三月二十一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Jovem que ingeriu Adorm é salvo da morte</h2>
 <p><em>Revista Eikou, n.º 98, 4 de abril de 1951</em>
@@ -103,5 +258,48 @@ function toggleLang(lang) {
 <p>Banhado por essa imensa graça de Meishu-Sama, renovo minha determinação de seguir e me aprimorar cada vez mais neste sagrado Caminho.</p>
 <p>Minha mais profunda gratidão a Meishu-Sama.</p>
 <p>(21 de março de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： アドルム服用の青年死より救われる 『栄光』98号、昭和26(1951)年4月4日発行 宮崎県 光宝大教会 永友明三（42） 本年十月二十九日午後七時頃の出来事で、支部から帰宅の途中、若いアベックと行合い、その会話の端が聞くともなく耳に残り、どうも心配になり、その足で市内都島公園に行き、草原を見ますと、黒服学生風の青年が俯（うつふ）し苦しんでいる様子なのでございます。<br/><br/> 最初は酔倒れかと思い、日暮の事で早く帰宅するように話しましたが、黙っていますから、触れてみますと、既に冷たくなっていますが、上半身はひどい痙攣を起しています。<br/><br/>抱き起そうとしますと、クタクタになっていて私一人ではどうする事も出来ない状態でした。<br/><br/>服のポケットから二冊の本がのぞいていますから、何気なく見ますと、『思想』と『死に到る病』という題字でした。<br/><br/>アッ服毒だ！ と直感しましたので、上向きに転じて上頭部と腹部を御浄霊さして戴きあわせて祝詞を奏上さして戴きました。<br/><br/>間もなく嘔吐を始め大量に二回吐き出し上半身を少し動かし、手足も少し動かせるようになり、上衣のポケットからアドルム一箱とカルモチン二箱を出しました。<br/><br/>空箱です。<br/><br/>確にこれをのんでいます。<br/><br/>再びガクリと力抜けた様子なので、御守護を念じつつ、一心に御浄霊さして戴きますと、約十五分位でまた大量に吐き出しました。<br/><br/>声も出るようになったらしい。<br/><br/>市内東町○○○と言う□□高等学校二年生であることが聞き取れました。<br/><br/> アドルム十粒とカルモチン六十粒をのんでいるのです。<br/><br/>一応、支部に連れて行こうと思いますが、体は大きくグニャグニャなので支部に走り帰り、山下さんを呼んで来て二人で支部に漸く連れ込み、約二時間御浄霊をさして戴きますと、続け様に黄色の液を吐き続け、洗面器に半分位になり、話も少々出来るようになって参りました。<br/><br/> 事件が事件なので警察署に届け市内の日赤病院から医師が来て、御浄霊の結果であることは知らずに、吐いたようですから大丈夫助かりますと、内服薬を置いてかえりました。<br/><br/>その中に母親と受持の先生とが駆けつけました。<br/><br/>もう何でも話せます。<br/><br/>母親は薬をのんだらと医者の置いて行ったのを勧め、手に持ったままオドオドしております。<br/><br/>私は「もうのまなくてもよいでしよう、これまでになったから見合せたら」と申しますと「そう致しましょう」とそのままに済みました。<br/><br/> 翌三十日には元気になり一人で歩いて帰宅しました。<br/><br/>母親の喜びに私もつり込まれました。<br/><br/>十一月三日には学校の文化祭に、演劇部員として自分も出演するなど大元気になりました。<br/><br/>本人もその家族も大喜びなのは勿論ですが、私には殊更感銘深いものがございます。<br/><br/>偉大なる御救の力を現実に見せて戴き、一層信仰を深めさして戴くことが出来ました。<br/><br/> この上は明主様の恩恵に浴し、なお一層この御道に進まさせて頂く覚悟でございます。<br/><br/> 明主様、誠に有難うございます。<br/><br/> （昭和二十六年三月二十一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

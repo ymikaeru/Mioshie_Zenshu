@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>horitu01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,61 +239,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 法律精神と法律技術 『栄光』122号、昭和26(1951)年9月19日発行 現代社会においては、法律と刑罰によって犯罪者を取締り、再び繰返えさないようにする事を建前としているが、宗教を全然度外するとしたら、これより外に方法はあるまいから止むを得ないとしても、さらばといってそれだけでは、目的達成は不可能である事も、事実がよく証明している、なるほど単に犯罪と言っても、それは表面に現われた結果でしかないので、その根本である心の動機にメスを入れなければならないのである、つまり罪を犯そうとするその意志であり、魂であるから、法的犯罪防止の外に、他の方法によって犯罪動機を根絶しなければ、いつになっても犯罪者なき社会は、実現されないのである。<br><br> 右のごとくであるから、現在悪人はただ法に引っ掛らないようにする事のみに苦心している、それが独り下級の人間や無頼の徒のみではない、相当教育ある者や、中流以上の人間であってもそうである、ただ法の網に引っ掛りさえしなければいいとして、不正不義を平気で行っている、としたらこの考え方こそ全く恐るべきものであって、これを何とかしなければならないが、これについて私の経験上から、それらに関した事をかいてみようと思うのである。<br><br> 私は数十年来、今日まで随分多くの裁判をして来た、今も数件裁判中のものもあるくらいだが、私の相手になる人間は、ことごとく悪であるから、私の主義として、悪には負けられない以上、どこまでもやり通すので、今まで一度も負けた事はない、そんな訳で幾多の経験によって分った事だが、彼らは例外なく法律の技術面のみを主にして挑んで来る、ところが私の方は法律精神を旨として相手になるので、大抵は一審では負けるが、二審後になると必ず勝つのである、そうでなければ先方から屈伏して示談を申込んで来る、しかし困る事には、裁判官によっては、この技術面に重きを置く人が多く、こういう人は、若い経験の浅い人にあるようだが、それに引換え精神面の方は、老巧な人に多いようである。<br><br> ここで検察当局者に、大いに考えて貰いたい事は技術面を主とするとしたら、どうしても巧妙に法を潜（くぐ）る事のみ考えるから、犯罪は減らないのである、これに反し精神を主にすれば、法律技術は第二となるから、精神面を重視する事になるので、自然罪を犯さない方が有利である事に気が付くとしたらこれこそ法律の真の目的に叶う訳であるから、社会悪は当然減る事になろう、あえてこの一文を当局者に提供するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Espírito da Lei e a Técnica Jurídica</h2>
 <p>A sociedade contemporânea estabeleceu como premissa o controle dos criminosos por meio de leis e punições, visando impedir a reincidência. Se a religião for inteiramente desconsiderada, talvez não haja outro método disponível, o que torna tal abordagem inevitável. Todavia, os fatos demonstram com clareza que apenas esses recursos são insuficientes para que o objetivo seja alcançado. Com efeito, o que chamamos de crime é meramente o resultado que se manifesta na superfície; para uma solução verdadeira, é imprescindível aplicar o bisturi em sua origem: a motivação do coração. Trata-se da vontade, da alma que delibera cometer o delito. Portanto, enquanto não houver um meio complementar à prevenção legal, capaz de extirpar a motivação para o crime, a concretização de uma sociedade livre de criminosos permanecerá uma utopia.</p>
 <p>Diante do exposto, os indivíduos de má índole, no presente, empenham-se unicamente em não serem apanhados pela lei. Esse comportamento não se restringe às classes mais baixas ou aos desordeiros; observa-se o mesmo entre pessoas com instrução considerável e pertencentes às camadas médias e altas da sociedade. Desde que não caiam nas malhas da lei, perpetram injustiças e iniquidades sem qualquer pudor. Tal mentalidade é verdadeiramente aterradora e requer uma intervenção urgente. A esse respeito, gostaria de relatar alguns fatos relacionados, extraídos de minha própria vivência.</p>
 <p>Ao longo de muitas décadas, estive envolvido em inúmeros processos judiciais, e ainda hoje alguns se encontram em andamento. Como meus adversários são, invariavelmente, representantes do mal, e tendo por princípio jamais ser derrotado pela maldade, persevero até o fim e, por essa razão, nunca perdi uma única causa. Por meio dessas inúmeras experiências, compreendi que eles, sem exceção, me desafiam atendo-se unicamente aos aspectos técnicos da lei. Eu, por outro lado, enfrento-os fundamentado no espírito da lei. Em geral, costumo perder na primeira instância; contudo, a partir da segunda, a vitória é sempre certa, ou então a parte contrária se submete e propõe um acordo. O que se revela um problema, entretanto, é que muitos juízes dão excessiva importância a essa dimensão técnica – uma tendência que parece mais comum entre os magistrados jovens e com pouca experiência. Em contrapartida, a valorização do espírito da lei parece ser mais frequente entre os mais experientes e maduros.</p>
 <p>Nesse sentido, gostaria que as autoridades do Ministério Público refletissem profundamente sobre uma questão: se a prioridade for concedida ao aspecto técnico, as pessoas se concentrarão em encontrar maneiras engenhosas de contornar a lei, e a criminalidade jamais diminuirá. Se, ao contrário, o foco principal recair sobre o espírito, a técnica jurídica se tornará secundária. Com a devida valorização do aspecto espiritual, os indivíduos naturalmente perceberão que a maior vantagem reside em não cometer o crime. Isso, sim, corresponde ao verdadeiro propósito da lei, e, como consequência, os males sociais certamente haverão de decrescer. Ofereço este artigo como uma contribuição às autoridades competentes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 法律精神と法律技術 『栄光』122号、昭和26(1951)年9月19日発行 現代社会においては、法律と刑罰によって犯罪者を取締り、再び繰返えさないようにする事を建前としているが、宗教を全然度外するとしたら、これより外に方法はあるまいから止むを得ないとしても、さらばといってそれだけでは、目的達成は不可能である事も、事実がよく証明している、なるほど単に犯罪と言っても、それは表面に現われた結果でしかないので、その根本である心の動機にメスを入れなければならないのである、つまり罪を犯そうとするその意志であり、魂であるから、法的犯罪防止の外に、他の方法によって犯罪動機を根絶しなければ、いつになっても犯罪者なき社会は、実現されないのである。<br/><br/> 右のごとくであるから、現在悪人はただ法に引っ掛らないようにする事のみに苦心している、それが独り下級の人間や無頼の徒のみではない、相当教育ある者や、中流以上の人間であってもそうである、ただ法の網に引っ掛りさえしなければいいとして、不正不義を平気で行っている、としたらこの考え方こそ全く恐るべきものであって、これを何とかしなければならないが、これについて私の経験上から、それらに関した事をかいてみようと思うのである。<br/><br/> 私は数十年来、今日まで随分多くの裁判をして来た、今も数件裁判中のものもあるくらいだが、私の相手になる人間は、ことごとく悪であるから、私の主義として、悪には負けられない以上、どこまでもやり通すので、今まで一度も負けた事はない、そんな訳で幾多の経験によって分った事だが、彼らは例外なく法律の技術面のみを主にして挑んで来る、ところが私の方は法律精神を旨として相手になるので、大抵は一審では負けるが、二審後になると必ず勝つのである、そうでなければ先方から屈伏して示談を申込んで来る、しかし困る事には、裁判官によっては、この技術面に重きを置く人が多く、こういう人は、若い経験の浅い人にあるようだが、それに引換え精神面の方は、老巧な人に多いようである。<br/><br/> ここで検察当局者に、大いに考えて貰いたい事は技術面を主とするとしたら、どうしても巧妙に法を潜（くぐ）る事のみ考えるから、犯罪は減らないのである、これに反し精神を主にすれば、法律技術は第二となるから、精神面を重視する事になるので、自然罪を犯さない方が有利である事に気が付くとしたらこれこそ法律の真の目的に叶う訳であるから、社会悪は当然減る事になろう、あえてこの一文を当局者に提供するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

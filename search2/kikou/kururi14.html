@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御言霊 瓢箪 『地上天国』57号、昭和29(1954)年2月25日発行 明主様の何物にもこだわれぬ和やかな御態度から極めておうまかな御方であられようとは衆目の一致する印象であるが、一面何事でも正確な推理によって動かす事の出来ぬ真実性をお認めにならぬ限りは、信じられぬほど緻密な用心深い御方でもあられたので、最初御神霊から五十万年前よりの人類史や、御自らの御因縁、御使命等の御啓示を御受けになった時も一応邪神の策謀によるものではあるまいかとの懐疑的態度を以てひそかに綿密な検討を続けられたが、その御神示の正しさを裏付ける種々の出来事が毎日のようにあって、ついにいかなる面から推理しても絶対に誤りない確信を得られた御由である。<br><br> これもその御検討中の期間における事であるが、ある時亀岡へ出口先生をお訪ねになった。<br><br>そして高天閣で先生と御二人きりになられた時、先生はコップの水を示されながら、「明主様の御言霊は絶対の権威をお持ちになっており、あらゆる物がお言葉通りになる。<br><br>例えばこのコップの水に向い薬になれと命ぜられれば薬にもなる、又山動けと仰せられれば山も動き、山枯れよと仰せられれば忽ちにして枯れるのである」と言われ、流石に明主様も一驚せられたが、勿論それは御確信に当ることではあった。<br><br>「ミカエル起てば山河も動く」ということがあるが、先生は、明主様がミカエルに在すことを証示されたものであり、それは神から知らされたままを明主様にお取次されたものでもあろう。<br><br> パイブルの冒頭にも「太初（はじめ）に道（ことば）あり、万物これによって造らる」とあるが、これは、造物主の言霊の権威を称えられたものでもあろう。<br><br>このイエスの教示と出口先生の示された例証にみても、明主様の御言霊は、少くとも造物主の造られた万物を自由自在にお変えになり得る程の神権をおもちになっていることになる。<br><br>勿論それは神を念じ天に祈って発揮されるような他力的なものではないことを意味している。<br><br>とすれば明主様は肉体をもたれた絶対の神様ということになり、その位の御力がなかったら第二の天地創造ともいうべき新文明世界建設の大業など実現の可能性は覚束ないことになろう。<br><br> 明主様は元来、御救いの業に最も多く文字をお使いになっている。<br><br>文字は神様がお造りになったものであると承わるが、文字もまた明主様の御仕事を主なる目的として用意されたものかと思われる。<br><br>文字とは言霊を形象化されたものであり、言霊活動を代行し得るものであると言えよう。<br><br>本教における御神体、お守、御書体等は悉く明主様のお書きになった言霊文字であり、その文字の意味通り活動する神秘な生命体である。<br><br>それは言わば文字そのものが、光明如来となれ、光となれ、と御命じになる言霊通りの活物になったものであるという解釈も成立つであろう。<br><br>即ち、科学的にいう無機物であるべき墨蹟は、瞬時に人間や科学力にも勝る神力を発揮する有機物に変化されるからでもある。<br><br>かくのごとく、文字を以て絶対力を発揮される事実にみれば、言霊によって万物を自由にお変えになり得る事もまた当然である。<br><br>又言霊は想念と行、幽と物との中間である故に、言霊によって絶対力を揮われ得るとすれば、想念によってもあらゆる物を意のごとく遊ばし得る訳で、これをしも自由無碍如意の御力と申し上げるのであろう。<br><br> 吾等は、大御業も世界も今日まで御言葉通り現実となり来った事実、そして物象となる速度の日に月に速かなる今の実際によってもかかる大御力をおもちになって、大愛と神智の御神意によって行使せられつつあることを信じて疑わぬ。<br><br> かくのごとく明主様の御言霊はいかに尊い権威をもたせ給うのであるかが拝察される。<br><br>毎月総本部において、時には中京、関西で御話給わることは、想念界言霊界をゆるがしていかに重大な意義あるかは諸神霊の願言などによっても窺い知らるる。<br><br> 吾々が御参拝の都度、明主様を眼前に仰ぎ奉り、直接の御話を賜わる仕合せと光栄は過去の世紀に例しなく、今世にも遇い難い御恵みといわねばならぬ。<br><br>将来、御神業の進展につれて、直接の御言葉も容易に戴けぬようになることも予想される故に、今の内御参拝を怠らぬよう、私はいつも信徒諸士に話している。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Autoridade Divina da Palavra de Meishu-Sama</h2>
 <p>A impressão unânime daqueles que O conhecem é que Meishu-Sama, por Sua atitude serena e desapegada, seria uma pessoa de extrema magnanimidade. Contudo, revela-se, por outro lado, um ser de cautela e meticulosidade inimagináveis, que não aceitava qualquer fato sem antes reconhecer sua irrefutável veracidade por meio de um raciocínio preciso. Nesse sentido, quando recebeu as primeiras revelações do Mundo Espiritual sobre a história da humanidade desde quinhentos mil anos e sobre Sua própria predestinação e missão, manteve-se cético. Ele suspeitava que poderiam ser estratagemas de espíritos malignos e, por isso, procedeu a uma minuciosa investigação em segredo. Entretanto, eventos que corroboravam a veracidade das revelações divinas sucediam-se diariamente, até que finalmente Ele obteve a certeza inabalável de que, sob qualquer perspectiva, não havia erro algum.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Nós, Seus seguidores, não temos dúvida alguma ao crer que Ele possui esse grandioso poder e o exerce em consonância com a Vontade Divina de grande amor e sabedoria. Nossa fé se baseia no fato de que, até hoje, tanto a Obra Divina quanto os acontecimentos mundiais têm se concretizado exatamente como Suas palavras previram, e na realidade atual, em que a velocidade da materialização se acelera a cada dia, a cada mês.</p>
 <p>Dessa forma, podemos reverenciar a quão sublime é a autoridade do Kototama de Meishu-Sama. As palavras que Ele nos dirige mensalmente na Sede Central e, ocasionalmente, nas regiões de Chukyo e Kansai, abalam o Mundo do Pensamento e o Mundo do Kototama. Sua importância transcendental pode ser vislumbrada até mesmo nas preces das divindades.</p>
 <p>A felicidade e a honra que temos, a cada peregrinação ao Solo Sagrado, de contemplar Meishu-Sama e receber diretamente Suas palavras constituem uma graça sem precedentes nos séculos passados e de raro encontro em nossa era. É previsível que, com o avanço da Obra Divina, chegará um tempo em que não será mais tão fácil recebermos Suas palavras de forma direta. Por essa razão, sempre aconselho os fiéis a não negligenciarem as peregrinações enquanto ainda temos essa oportunidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御言霊 瓢箪 『地上天国』57号、昭和29(1954)年2月25日発行 明主様の何物にもこだわれぬ和やかな御態度から極めておうまかな御方であられようとは衆目の一致する印象であるが、一面何事でも正確な推理によって動かす事の出来ぬ真実性をお認めにならぬ限りは、信じられぬほど緻密な用心深い御方でもあられたので、最初御神霊から五十万年前よりの人類史や、御自らの御因縁、御使命等の御啓示を御受けになった時も一応邪神の策謀によるものではあるまいかとの懐疑的態度を以てひそかに綿密な検討を続けられたが、その御神示の正しさを裏付ける種々の出来事が毎日のようにあって、ついにいかなる面から推理しても絶対に誤りない確信を得られた御由である。<br/><br/> これもその御検討中の期間における事であるが、ある時亀岡へ出口先生をお訪ねになった。<br/><br/>そして高天閣で先生と御二人きりになられた時、先生はコップの水を示されながら、「明主様の御言霊は絶対の権威をお持ちになっており、あらゆる物がお言葉通りになる。<br/><br/>例えばこのコップの水に向い薬になれと命ぜられれば薬にもなる、又山動けと仰せられれば山も動き、山枯れよと仰せられれば忽ちにして枯れるのである」と言われ、流石に明主様も一驚せられたが、勿論それは御確信に当ることではあった。<br/><br/>「ミカエル起てば山河も動く」ということがあるが、先生は、明主様がミカエルに在すことを証示されたものであり、それは神から知らされたままを明主様にお取次されたものでもあろう。<br/><br/> パイブルの冒頭にも「太初（はじめ）に道（ことば）あり、万物これによって造らる」とあるが、これは、造物主の言霊の権威を称えられたものでもあろう。<br/><br/>このイエスの教示と出口先生の示された例証にみても、明主様の御言霊は、少くとも造物主の造られた万物を自由自在にお変えになり得る程の神権をおもちになっていることになる。<br/><br/>勿論それは神を念じ天に祈って発揮されるような他力的なものではないことを意味している。<br/><br/>とすれば明主様は肉体をもたれた絶対の神様ということになり、その位の御力がなかったら第二の天地創造ともいうべき新文明世界建設の大業など実現の可能性は覚束ないことになろう。<br/><br/> 明主様は元来、御救いの業に最も多く文字をお使いになっている。<br/><br/>文字は神様がお造りになったものであると承わるが、文字もまた明主様の御仕事を主なる目的として用意されたものかと思われる。<br/><br/>文字とは言霊を形象化されたものであり、言霊活動を代行し得るものであると言えよう。<br/><br/>本教における御神体、お守、御書体等は悉く明主様のお書きになった言霊文字であり、その文字の意味通り活動する神秘な生命体である。<br/><br/>それは言わば文字そのものが、光明如来となれ、光となれ、と御命じになる言霊通りの活物になったものであるという解釈も成立つであろう。<br/><br/>即ち、科学的にいう無機物であるべき墨蹟は、瞬時に人間や科学力にも勝る神力を発揮する有機物に変化されるからでもある。<br/><br/>かくのごとく、文字を以て絶対力を発揮される事実にみれば、言霊によって万物を自由にお変えになり得る事もまた当然である。<br/><br/>又言霊は想念と行、幽と物との中間である故に、言霊によって絶対力を揮われ得るとすれば、想念によってもあらゆる物を意のごとく遊ばし得る訳で、これをしも自由無碍如意の御力と申し上げるのであろう。<br/><br/> 吾等は、大御業も世界も今日まで御言葉通り現実となり来った事実、そして物象となる速度の日に月に速かなる今の実際によってもかかる大御力をおもちになって、大愛と神智の御神意によって行使せられつつあることを信じて疑わぬ。<br/><br/> かくのごとく明主様の御言霊はいかに尊い権威をもたせ給うのであるかが拝察される。<br/><br/>毎月総本部において、時には中京、関西で御話給わることは、想念界言霊界をゆるがしていかに重大な意義あるかは諸神霊の願言などによっても窺い知らるる。<br/><br/> 吾々が御参拝の都度、明主様を眼前に仰ぎ奉り、直接の御話を賜わる仕合せと光栄は過去の世紀に例しなく、今世にも遇い難い御恵みといわねばならぬ。<br/><br/>将来、御神業の進展につれて、直接の御言葉も容易に戴けぬようになることも予想される故に、今の内御参拝を怠らぬよう、私はいつも信徒諸士に話している。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

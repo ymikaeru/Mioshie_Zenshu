@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju04016</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（四） 下体及び婦人・小児病 ２ 016-035 婦人病１ 016 子宮と頭と眼の関係 ある婦人で、十年前子宮外妊娠の大手術を受け、翌年妊娠致したところ出産一ケ月前より左眼が見えなくなり、出産と同時に治りました。<br><br>その三年後の妊娠の時は出産三ケ月前より、六年後の時は六ケ月前より、八年後は妊娠一ケ月で見えなくなり、人工流産しましたが治らず、益々悪化し、脳も悪くなって参りました。<br><br>いかなる訳でしょう。<br><br> 妊娠と関係がある。<br><br>子宮は頭でも眼でも関係がある。<br><br>特に、前頭部に関係がある。<br><br> 子宮で今悪い所がある。<br><br>手術の時傷めたのが、前頭部に影響して眼が痛むのである。<br><br> 人工流産の時、また前の傷をどうかしたものである。<br><br>脳はやはり前頭。<br><br> すべて子宮の浄霊で治る。<br><br> 017 卵巣と眼の関係 三十歳の女、本年一月より敗血症に罹り、二ケ月程にてよくなり、続いて肺浸潤を患い、小康を得て四月下旬に左卵巣膿腫のため剔出手術をし、ついでに盲腸を切りました。<br><br>十一月十日頃より突然左眼が二重に見えるようになり、一週間後にひどく痛み出し、瞳孔が開きました。<br><br>十日程前より浄霊を受けております。<br><br>どうで御座いましょうか。<br><br> 卵巣を剔出してからの眼の悪くなる人はよくある。<br><br>ひどいのは潰れる。<br><br>卵巣と眼とは関係がある。<br><br>体中の器能を除るのは野蛮である。<br><br>除らずに治るのでなくては医術でない。<br><br> 先に「西洋医学の野蛮性」と言った所、中野の交番巡査が告発した。<br><br>そのため玉川署で半日以上衛生係に説教を食った事がある。<br><br> 盲腸を除るのは慶応大学がうまい。<br><br>手術の進歩とは職人的技能がうまくなった事である。<br><br> 左眼が二重に見えるのは剔出手術のためである。<br><br>痛むのは浄化であるから治る事になる。<br><br>根よく浄霊する。<br><br>左卵巣、右盲腸。<br><br> 浄霊すれば治る。<br><br>致命的のものではない。<br><br>浄霊を知らぬと腎臓が悪くなる。<br><br>心配した事はない。<br><br>卵巣が元であるから、腹の痛い所をやればよい。<br><br>肩、首が悪い。<br><br>目もやる。<br><br>（S23.12.16） 018 頭と卵巣、（胸苦し、手痺れ） 五十五歳の女、昨年の十一月頃に風邪を引きましてより頭がザクザク痛み、右手が痺れて、夜床について後二時間程胸が苦しくなります。<br><br>この痺れが一時間程経つと治ります。<br><br>昨年五月御光をいただき、毎日浄霊をしておりますが、何の変化もありません。<br><br>右の原因と浄霊法を御教え下さい。<br><br> 薬毒である。<br><br>浄霊で治る訳である。<br><br> 卵巣を除ると頭へ影響する。<br><br> 淋巴腺に塊があるからそれを除る。<br><br> 手の麻痺は頭部である。<br><br> 019 スバコ（腹膜と白帯下） スバコの原因―― スバコは今でいう「子宮病」等下の病を総称していう。<br><br>一般に白帯下（こしけ）が降りたり、冷え易い事をいうようである。<br><br>漢方薬が下へ下りてくる。<br><br>それが前とか後ろとかへ溜る。<br><br>溜って固まったのは冷えやすい。<br><br>その浄化が起るのが子宮病で、熱が出る前に局部的悪寒になる。<br><br>腹膜の薬毒が溶けて下りるのが白帯下である。<br><br>女は知っていた方がよい。<br><br>腹膜のない人はない。<br><br>腹には必ず毒が溜っている。<br><br>薬を服んだ人は必ず腹膜がわるい。<br><br>それが原因で卵巣とか子宮癌、痔、足痙（つ）り、脚気等になる。<br><br>下半身は浄霊すると治りいい。<br><br>固まるのが少い。<br><br>ハケ口に近いせいである。<br><br>一番集るのは腎臓で、薬毒が腎臓附近に凝っている。<br><br>飲み薬は腎臓へ来、外へ滲（し）み出て固まる。<br><br>そのため小便の処理が出来ず、幾分溶けて下へ下りる尿毒が溜り、漸次背中の方へ溜る。<br><br>スバコなど、腎と腰の間をやれば根治する。<br><br>（S24.11.19） 020 婦人病の治癒 私は三十八歳の女で、自分達は先祖より四代目です。<br><br>先祖も十八日に亡くなり、私の義母も十八日に亡くなりまして、義母は遺言に、観音様の信仰をしてはならない、と云ってなくなりました。<br><br>三代目まで四十歳前後になると、どちらかが死別しております。<br><br>私は今、婦人病で医師に見放されました。<br><br>信仰によって救われるでしょうか。<br><br>御導き下さいませ。<br><br> 婦人病は殆ど治る。<br><br>手術によって治らぬのが出来る。<br><br>でなければ治る。<br><br>自分でやってもよい。<br><br> 観音様に対して御無礼を言った事（観音様に対する義母の罪）を、代ってよくお詫びせよ。<br><br>（S24. 9.17） 021 無月経の病原 私の養女マスミ、十九歳、御浄霊を頂いておりますが、未だに月経が御座いません。<br><br>特に御守護御願い申し上げます。<br><br>なお、主人芳亀、右眼の視力が弱う御座います。<br><br>何卒御守護御願い申し上げます。<br><br> 喇叭（ラッパ）管が塞がっているから臍の下、右か左かに塊があるから溶かす。<br><br>（S24. 9.29） 022 無月経とホルモン 現在二十四歳の主婦、十五歳の折一回の月経ありたるのみにて現在まで皆無、その間医療としてはホルモン注射その他致しました。<br><br>最近より御浄霊を致しておりますが、回復致しますでしょうか。<br><br> 喇叭管の周りに毒があって、詰っている。<br><br>元は腎臓であるから、腎臓をすれば治る。<br><br>ホルモンは精液である。<br><br>若い者の尿に精液が混るのである。<br><br>（S24. 2.12） 023 長期微月経（血の濃淡） 十八歳の女子、十四歳より月経始まり、月経期間は約一ケ月続き殆ど毎日と云ってもよい位あり、平常は顔色蒼白の他に別状なし。<br><br>右原因―― 月経の出がわるく、出方が少いので――喇叭管が細いから手間がかかるのである。<br><br>お腹に毒があって喇叭管を圧迫しているのであるから、それを溶かせばいい訳である。<br><br>毒血が多いために濃いのである。<br><br>良い血は稀薄で、循環がいい。<br><br>濃い血は粘りがある。<br><br>信仰へ入って浄霊を受けるといい。<br><br> 024 月経不順 二十三歳の婦人、二年前に結婚しましたが、結婚前より月経不順でありました。<br><br>結婚後三ケ月にて月経停止となり、後一ケ年位して三、四回ありましたが、再び停止しましたので医師にかかっておりましたが治らず、昨年十月より浄霊を受け十二月より三回程ありましたが、今年三月よりありません。<br><br>労働致しますと腰が突っ張ったり、少し痛みます。<br><br>そのためか子供も出来ませんが、御浄霊で治るでしょうか。<br><br>この人は本年二月入信しました。<br><br> お腹の塊である。<br><br>喇叭管を圧迫している。<br><br>（S24.10.26） 025 月経痛と尿意頻繁 本年二十五歳の女子、二十二歳の四月から月経不順と共に激痛を覚え、それ以後時々尿意に異状があり、七月より頻繁なる尿意を催し、排泄前後の痛みに堪えかねるようになり、医薬その他の療法にても苦痛去らず、薬を離れて一年余りにて辛抱出来るようになりましたが、尿量少く排泄後直ちに催し、一時間以上もこらえると腹部殊に膀胱著しく張り、心落ち着かず、尿量は極めて少く、その不快感はたとえようもありません。<br><br>月経後二、三日は回数も少く全身苦痛も薄らぎますが、漸次元通りになり、婦人病が伴います。<br><br>また、昨年十月より左背部腎臓の方に痛みを感じ、十一月には左瞼裏に豆粒小の腫物が出来ました。<br><br>同十一月に入信して以来御浄霊を引続き頂いていますが、未だ明確な効果が見えません。<br><br>この病気の原因及び浄霊はどこを主にしたら良いですか。<br><br>御伺いします。<br><br> 喇叭管が狭いのである。<br><br>下腹部に塊があり、月経が通り難いために痛む。<br><br>頻繁なる尿意は尿道が脹れているのである。<br><br>尿道の周囲に毒が溜って狭くなる訳で、圧迫ではない。<br><br>そのために痛む。<br><br>また、毒が尿道へいくらか滲み出て来る。<br><br>それで尿の出る時痛む。<br><br>医薬や療法のために苦しんだので、それをやめればよい訳である。<br><br>膀胱から尿道へ接近している所から尿道まで狭くなってるから、尿が出切らぬ。<br><br>また、膀胱の周りに毒があるから、溜ると張る感じがする。<br><br> 悪い所と腎臓を根よくやる。<br><br> 瞼の裏は何でもない。<br><br>じきに治る。<br><br>足が痙（つ）ったりなどする。<br><br>溜る度に自分で浄霊すればよい。<br><br> 背中と腎臓を気長にすれば必ず治る。<br><br>（S25. 2.27） 026 月経前の長腹痛 私の扱っている患者足立文子（三十五歳）、毎月生理日十五日前より約半月間午前十時半頃より約六時頃迄規則的に腹痛が起り、臍から下、左から痙（つ）るようにしぼります。<br><br>病気の起る前に眠くなります。<br><br>霊的原因で御座いましょうか。<br><br>また、浄霊方法を御教え願います。<br><br>なお、当人は入信して一年余りになり、以前二回堕胎をしたそうで御座います。<br><br> 下腹部に塊がある。<br><br>堕胎の影響もある。<br><br>半月間の腹痛は長すぎる。<br><br>喇叭管が狭くなっているのである。<br><br>腎臓をよくすれば治る。<br><br>（S25. 4.17） 027 月経前夜尿症となる 十九歳の未婚の母、月経前夜必ず寝小便が出、それ以外の日は出ないそうです。<br><br>非常によく肥っています。<br><br> 月経が膀胱に近い所へ溜るのである。<br><br> 028 月経の喀血 二十五歳の女、本年二月頃痔を病み御浄霊にて全快しました。<br><br>それが月のめぐりの時で赤黒い、汚い血でした。<br><br>月経が終ると共に止り、その後ぶらぶらしておりましたが、また十一月中頃に再び喀血しました。<br><br>今度のは薄くて、ちょっと体を動かすと咳き込み、ごぼごぼと小さい椀一杯位一回に出ます。<br><br>今日では御浄霊によりずっと楽になり、時々血痰になりました。<br><br>熱は無しでほとんど平熱です。<br><br>本人は胸が何となく息苦しくて、あまり体を動かせぬと申しております。<br><br>そして、教修頂きたいと申しておりますが、いかがなものでしょうか、御伺い申し上げます。<br><br> 月経の喀血である。<br><br>毒血の多い人である。<br><br>教修を受けさせた方がよい。<br><br>（S24.12.23） 029 逆月経 私は月経中には歯茎から血が出て、痛みも何も感じませんが、二日位でこれも止ります。<br><br>他の日には何ともございません。<br><br>これはいかがなもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 人により逆に月経する人がある。<br><br>鼻血や喀血などそれである。<br><br>下から出るのが出切れず上へ戻るのである。<br><br>そういう人は喇叭管が細い。<br><br>この人もこの一種である。<br><br> 腹部に塊があって圧迫している。<br><br>それを除れば治る。<br><br>（S24.11.22） 030 月経閉止期、出血の場合 月経について（胃潰瘍と誤診さる）―― 胃潰瘍なら胃痛があるべき筈である。<br><br>よく婦人で月経を吐く事があって、これが胃潰瘍と間違えられる事がある。<br><br>この場合月経と思われる。<br><br>もし腸出血ならば生命がないからである。<br><br> 出血（胃）の場合、血の出る間は流動物をとる。<br><br>血が止まってから粥にするといい。<br><br> 一般に出血の場合は野菜を食うとすぐ止る。<br><br>肺病なども野菜食にすると喀血はすぐ止る。<br><br>そして肉食するとまた喀血するのである。<br><br>固まって溶けてくる時は痛む。<br><br> 日本人は、芝居でみるごとく腹を切りながら喋っている。<br><br>日本人の身体は締りがあるので、身体にくっつくから、そう出血はしない。<br><br>これは野菜食のためである。<br><br> 月経の止まるのは初経より三十三年目に止まる。<br><br>四十七、八歳より五十歳位で止まるものもある。<br><br>（S23. 7.25） 031 更年期障害 中年の婦人によく更年期障害というのがありますが、あれはいかなるものでしょうか。<br><br>右、御伺い申し上げます。<br><br> 障害のあるのはその人に毒素があるからで、毒素がなければそんな事はない。<br><br>浄霊で治る。<br><br>（S24. 5.23） 032 更年期の古血 私は若い頃より体が弱く、医薬と離れる事なくおりましたところ、昨年八月観音様の有難い事を知り入信させて戴きましたが、今年一月より月経出血甚だしく、耳も遠くなってまいりました。<br><br>何卒御守護の程御願い申し上げます。<br><br> 出るだけ出れば治る。<br><br>更年期で、古血が溜ったものである。<br><br> 033 肋膜と月経 私の姉吉田よし子（二十八歳）は十九歳の頃（月経初期）より肋膜炎を病み、医師により固めましたが、それより後に今日に至るまで月経が止まりました。<br><br>但し毎年お盆の十五日より一ケ月間は毎日多量に出血がございます。<br><br>出血の御浄化後は一ケ月位は相当に衰弱致します。<br><br>いかなるわけで御座いましょうか。<br><br>霊的関係につき御垂示御願い申し上げます。<br><br> 肋膜と月経は関係はない。<br><br>（S24. 9.19） 034 子宮出血 昨年二月に子宮に出血があり、一時回復、八月十六日大光明如来の御奉斎をして戴きました。<br><br>一週間後再び出血し始め、下腹部、右横腹、また腰から肛門部に引痙（つ）るような痛みがあり、十一月頃小康を得ましたが、起き上る気力はありませんでした。<br><br>十二月の末に再度出血が始まり、一月の末に肛門部にかけて痛みが増し、（引痙るような痛み）便通時には苦痛を訴えます。<br><br>一月の中頃から腹膜の状態になり、二月六日また出血、顔面蒼白、脈微弱、浄霊を施しても血色は出ず、食欲は大して減らず、食事の変化はあまりありません。<br><br>何の浄化でしょうか。<br><br> 下腹から腰にかけて薬毒がある。<br><br>非常に血が濁っている。<br><br>出血のため一時貧血状態になるが、これは止むを得ぬ。<br><br>出るのは濁血で、出なくては治らぬ。<br><br>腎盂に血の塊がある。<br><br>浄霊して溶かさなくてはならぬ。<br><br>これを浄霊すれば治る。<br><br>これが急所で、治り難いものではない。<br><br>（S24. 2.16） 035 出血と浮腫 信者井手もえ（六十四歳）、以前子宮後屈になった事が御座います。<br><br>昨年十月頃より三度ほど相当出血が御座いました。<br><br>本月十七日朝四時頃より同十時頃迄相当多量（約三升位）な出血があり、貧血を起し意識不明となり、全身に浮腫が出ました。<br><br>御浄霊にて直ぐ快方に向いました。<br><br>ただ今心臓が弱り、脚部に浮腫が御座います。<br><br>右の出血により起る浮腫はいかなる原因によるもので御座いましょうか。<br><br>また、この年齢にてこのような多量な出血はいかがなもので御座いましょうか。<br><br>御教示お願い申し上げます。<br><br> 月経の溜ったのが出たのである。<br><br>非常に毒血が多いので、月経の血が出ると同時に外の毒血も付近へ集（よ）っているから出た。<br><br>一ぺんに出ると良い血が急に出来る訳でないから、貧血する。<br><br>そのために腎臓の活動が鈍るので小便の処理が出来ぬ。<br><br>血が殖えるに従って治る。<br><br>日が経つに従って治る。<br><br>毒血の方は薬さえ服まなければ治る。<br><br>今に丈夫になる。<br><br>（S25. 4.28）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Okada Jikanshi</h2>
 <p>Busca de Ensinamentos: Ajuda | Busca de Materiais: Arte da Cura (IV) | Doenças da Parte Inferior do Corpo, da Mulher e da Criança</p>
@@ -171,5 +323,48 @@ function toggleLang(lang) {
 <p><strong>035 Hemorragia e Edema</strong></p>
 <p><strong>Pergunta:</strong> A fiel Moe Ide, de sessenta e quatro anos, teve um histórico de retroversão uterina. Desde outubro do ano passado, ela teve cerca de três episódios de sangramento considerável. No dia dezessete deste mês, das quatro às dez da manhã, ocorreu uma hemorragia muito volumosa (aproximadamente 5,4 litros), que a levou a um quadro de anemia, perda de consciência e edema generalizado. Com o Johrei, ela começou a se recuperar imediatamente. Atualmente, seu coração está enfraquecido e há edema nas pernas. Qual a causa do edema decorrente dessa hemorragia? Ademais, é normal um sangramento tão volumoso nessa idade? Rogo Vossos esclarecimentos.</p>
 <p><strong>Resposta:</strong> O que foi expelido era sangue menstrual acumulado. Como a quantidade de sangue impuro era muito grande, no momento em que o sangue menstrual saiu, outras impurezas sanguíneas das proximidades também foram eliminadas. Uma eliminação tão súbita causa anemia, pois o corpo não consegue produzir sangue novo na mesma velocidade. Isso, por sua vez, diminui a atividade dos rins, que não conseguem processar a urina adequadamente. À medida que o volume de sangue aumentar, ela se recuperará. Com o passar dos dias, a cura virá. Quanto ao sangue impuro, desde que ela não tome mais remédios, o problema será resolvido. Em breve, ela se tornará uma pessoa forte e saudável. (28 de abril de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（四） 下体及び婦人・小児病 ２ 016-035 婦人病１ 016 子宮と頭と眼の関係 ある婦人で、十年前子宮外妊娠の大手術を受け、翌年妊娠致したところ出産一ケ月前より左眼が見えなくなり、出産と同時に治りました。<br/><br/>その三年後の妊娠の時は出産三ケ月前より、六年後の時は六ケ月前より、八年後は妊娠一ケ月で見えなくなり、人工流産しましたが治らず、益々悪化し、脳も悪くなって参りました。<br/><br/>いかなる訳でしょう。<br/><br/> 妊娠と関係がある。<br/><br/>子宮は頭でも眼でも関係がある。<br/><br/>特に、前頭部に関係がある。<br/><br/> 子宮で今悪い所がある。<br/><br/>手術の時傷めたのが、前頭部に影響して眼が痛むのである。<br/><br/> 人工流産の時、また前の傷をどうかしたものである。<br/><br/>脳はやはり前頭。<br/><br/> すべて子宮の浄霊で治る。<br/><br/> 017 卵巣と眼の関係 三十歳の女、本年一月より敗血症に罹り、二ケ月程にてよくなり、続いて肺浸潤を患い、小康を得て四月下旬に左卵巣膿腫のため剔出手術をし、ついでに盲腸を切りました。<br/><br/>十一月十日頃より突然左眼が二重に見えるようになり、一週間後にひどく痛み出し、瞳孔が開きました。<br/><br/>十日程前より浄霊を受けております。<br/><br/>どうで御座いましょうか。<br/><br/> 卵巣を剔出してからの眼の悪くなる人はよくある。<br/><br/>ひどいのは潰れる。<br/><br/>卵巣と眼とは関係がある。<br/><br/>体中の器能を除るのは野蛮である。<br/><br/>除らずに治るのでなくては医術でない。<br/><br/> 先に「西洋医学の野蛮性」と言った所、中野の交番巡査が告発した。<br/><br/>そのため玉川署で半日以上衛生係に説教を食った事がある。<br/><br/> 盲腸を除るのは慶応大学がうまい。<br/><br/>手術の進歩とは職人的技能がうまくなった事である。<br/><br/> 左眼が二重に見えるのは剔出手術のためである。<br/><br/>痛むのは浄化であるから治る事になる。<br/><br/>根よく浄霊する。<br/><br/>左卵巣、右盲腸。<br/><br/> 浄霊すれば治る。<br/><br/>致命的のものではない。<br/><br/>浄霊を知らぬと腎臓が悪くなる。<br/><br/>心配した事はない。<br/><br/>卵巣が元であるから、腹の痛い所をやればよい。<br/><br/>肩、首が悪い。<br/><br/>目もやる。<br/><br/>（S23.12.16） 018 頭と卵巣、（胸苦し、手痺れ） 五十五歳の女、昨年の十一月頃に風邪を引きましてより頭がザクザク痛み、右手が痺れて、夜床について後二時間程胸が苦しくなります。<br/><br/>この痺れが一時間程経つと治ります。<br/><br/>昨年五月御光をいただき、毎日浄霊をしておりますが、何の変化もありません。<br/><br/>右の原因と浄霊法を御教え下さい。<br/><br/> 薬毒である。<br/><br/>浄霊で治る訳である。<br/><br/> 卵巣を除ると頭へ影響する。<br/><br/> 淋巴腺に塊があるからそれを除る。<br/><br/> 手の麻痺は頭部である。<br/><br/> 019 スバコ（腹膜と白帯下） スバコの原因―― スバコは今でいう「子宮病」等下の病を総称していう。<br/><br/>一般に白帯下（こしけ）が降りたり、冷え易い事をいうようである。<br/><br/>漢方薬が下へ下りてくる。<br/><br/>それが前とか後ろとかへ溜る。<br/><br/>溜って固まったのは冷えやすい。<br/><br/>その浄化が起るのが子宮病で、熱が出る前に局部的悪寒になる。<br/><br/>腹膜の薬毒が溶けて下りるのが白帯下である。<br/><br/>女は知っていた方がよい。<br/><br/>腹膜のない人はない。<br/><br/>腹には必ず毒が溜っている。<br/><br/>薬を服んだ人は必ず腹膜がわるい。<br/><br/>それが原因で卵巣とか子宮癌、痔、足痙（つ）り、脚気等になる。<br/><br/>下半身は浄霊すると治りいい。<br/><br/>固まるのが少い。<br/><br/>ハケ口に近いせいである。<br/><br/>一番集るのは腎臓で、薬毒が腎臓附近に凝っている。<br/><br/>飲み薬は腎臓へ来、外へ滲（し）み出て固まる。<br/><br/>そのため小便の処理が出来ず、幾分溶けて下へ下りる尿毒が溜り、漸次背中の方へ溜る。<br/><br/>スバコなど、腎と腰の間をやれば根治する。<br/><br/>（S24.11.19） 020 婦人病の治癒 私は三十八歳の女で、自分達は先祖より四代目です。<br/><br/>先祖も十八日に亡くなり、私の義母も十八日に亡くなりまして、義母は遺言に、観音様の信仰をしてはならない、と云ってなくなりました。<br/><br/>三代目まで四十歳前後になると、どちらかが死別しております。<br/><br/>私は今、婦人病で医師に見放されました。<br/><br/>信仰によって救われるでしょうか。<br/><br/>御導き下さいませ。<br/><br/> 婦人病は殆ど治る。<br/><br/>手術によって治らぬのが出来る。<br/><br/>でなければ治る。<br/><br/>自分でやってもよい。<br/><br/> 観音様に対して御無礼を言った事（観音様に対する義母の罪）を、代ってよくお詫びせよ。<br/><br/>（S24. 9.17） 021 無月経の病原 私の養女マスミ、十九歳、御浄霊を頂いておりますが、未だに月経が御座いません。<br/><br/>特に御守護御願い申し上げます。<br/><br/>なお、主人芳亀、右眼の視力が弱う御座います。<br/><br/>何卒御守護御願い申し上げます。<br/><br/> 喇叭（ラッパ）管が塞がっているから臍の下、右か左かに塊があるから溶かす。<br/><br/>（S24. 9.29） 022 無月経とホルモン 現在二十四歳の主婦、十五歳の折一回の月経ありたるのみにて現在まで皆無、その間医療としてはホルモン注射その他致しました。<br/><br/>最近より御浄霊を致しておりますが、回復致しますでしょうか。<br/><br/> 喇叭管の周りに毒があって、詰っている。<br/><br/>元は腎臓であるから、腎臓をすれば治る。<br/><br/>ホルモンは精液である。<br/><br/>若い者の尿に精液が混るのである。<br/><br/>（S24. 2.12） 023 長期微月経（血の濃淡） 十八歳の女子、十四歳より月経始まり、月経期間は約一ケ月続き殆ど毎日と云ってもよい位あり、平常は顔色蒼白の他に別状なし。<br/><br/>右原因―― 月経の出がわるく、出方が少いので――喇叭管が細いから手間がかかるのである。<br/><br/>お腹に毒があって喇叭管を圧迫しているのであるから、それを溶かせばいい訳である。<br/><br/>毒血が多いために濃いのである。<br/><br/>良い血は稀薄で、循環がいい。<br/><br/>濃い血は粘りがある。<br/><br/>信仰へ入って浄霊を受けるといい。<br/><br/> 024 月経不順 二十三歳の婦人、二年前に結婚しましたが、結婚前より月経不順でありました。<br/><br/>結婚後三ケ月にて月経停止となり、後一ケ年位して三、四回ありましたが、再び停止しましたので医師にかかっておりましたが治らず、昨年十月より浄霊を受け十二月より三回程ありましたが、今年三月よりありません。<br/><br/>労働致しますと腰が突っ張ったり、少し痛みます。<br/><br/>そのためか子供も出来ませんが、御浄霊で治るでしょうか。<br/><br/>この人は本年二月入信しました。<br/><br/> お腹の塊である。<br/><br/>喇叭管を圧迫している。<br/><br/>（S24.10.26） 025 月経痛と尿意頻繁 本年二十五歳の女子、二十二歳の四月から月経不順と共に激痛を覚え、それ以後時々尿意に異状があり、七月より頻繁なる尿意を催し、排泄前後の痛みに堪えかねるようになり、医薬その他の療法にても苦痛去らず、薬を離れて一年余りにて辛抱出来るようになりましたが、尿量少く排泄後直ちに催し、一時間以上もこらえると腹部殊に膀胱著しく張り、心落ち着かず、尿量は極めて少く、その不快感はたとえようもありません。<br/><br/>月経後二、三日は回数も少く全身苦痛も薄らぎますが、漸次元通りになり、婦人病が伴います。<br/><br/>また、昨年十月より左背部腎臓の方に痛みを感じ、十一月には左瞼裏に豆粒小の腫物が出来ました。<br/><br/>同十一月に入信して以来御浄霊を引続き頂いていますが、未だ明確な効果が見えません。<br/><br/>この病気の原因及び浄霊はどこを主にしたら良いですか。<br/><br/>御伺いします。<br/><br/> 喇叭管が狭いのである。<br/><br/>下腹部に塊があり、月経が通り難いために痛む。<br/><br/>頻繁なる尿意は尿道が脹れているのである。<br/><br/>尿道の周囲に毒が溜って狭くなる訳で、圧迫ではない。<br/><br/>そのために痛む。<br/><br/>また、毒が尿道へいくらか滲み出て来る。<br/><br/>それで尿の出る時痛む。<br/><br/>医薬や療法のために苦しんだので、それをやめればよい訳である。<br/><br/>膀胱から尿道へ接近している所から尿道まで狭くなってるから、尿が出切らぬ。<br/><br/>また、膀胱の周りに毒があるから、溜ると張る感じがする。<br/><br/> 悪い所と腎臓を根よくやる。<br/><br/> 瞼の裏は何でもない。<br/><br/>じきに治る。<br/><br/>足が痙（つ）ったりなどする。<br/><br/>溜る度に自分で浄霊すればよい。<br/><br/> 背中と腎臓を気長にすれば必ず治る。<br/><br/>（S25. 2.27） 026 月経前の長腹痛 私の扱っている患者足立文子（三十五歳）、毎月生理日十五日前より約半月間午前十時半頃より約六時頃迄規則的に腹痛が起り、臍から下、左から痙（つ）るようにしぼります。<br/><br/>病気の起る前に眠くなります。<br/><br/>霊的原因で御座いましょうか。<br/><br/>また、浄霊方法を御教え願います。<br/><br/>なお、当人は入信して一年余りになり、以前二回堕胎をしたそうで御座います。<br/><br/> 下腹部に塊がある。<br/><br/>堕胎の影響もある。<br/><br/>半月間の腹痛は長すぎる。<br/><br/>喇叭管が狭くなっているのである。<br/><br/>腎臓をよくすれば治る。<br/><br/>（S25. 4.17） 027 月経前夜尿症となる 十九歳の未婚の母、月経前夜必ず寝小便が出、それ以外の日は出ないそうです。<br/><br/>非常によく肥っています。<br/><br/> 月経が膀胱に近い所へ溜るのである。<br/><br/> 028 月経の喀血 二十五歳の女、本年二月頃痔を病み御浄霊にて全快しました。<br/><br/>それが月のめぐりの時で赤黒い、汚い血でした。<br/><br/>月経が終ると共に止り、その後ぶらぶらしておりましたが、また十一月中頃に再び喀血しました。<br/><br/>今度のは薄くて、ちょっと体を動かすと咳き込み、ごぼごぼと小さい椀一杯位一回に出ます。<br/><br/>今日では御浄霊によりずっと楽になり、時々血痰になりました。<br/><br/>熱は無しでほとんど平熱です。<br/><br/>本人は胸が何となく息苦しくて、あまり体を動かせぬと申しております。<br/><br/>そして、教修頂きたいと申しておりますが、いかがなものでしょうか、御伺い申し上げます。<br/><br/> 月経の喀血である。<br/><br/>毒血の多い人である。<br/><br/>教修を受けさせた方がよい。<br/><br/>（S24.12.23） 029 逆月経 私は月経中には歯茎から血が出て、痛みも何も感じませんが、二日位でこれも止ります。<br/><br/>他の日には何ともございません。<br/><br/>これはいかがなもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 人により逆に月経する人がある。<br/><br/>鼻血や喀血などそれである。<br/><br/>下から出るのが出切れず上へ戻るのである。<br/><br/>そういう人は喇叭管が細い。<br/><br/>この人もこの一種である。<br/><br/> 腹部に塊があって圧迫している。<br/><br/>それを除れば治る。<br/><br/>（S24.11.22） 030 月経閉止期、出血の場合 月経について（胃潰瘍と誤診さる）―― 胃潰瘍なら胃痛があるべき筈である。<br/><br/>よく婦人で月経を吐く事があって、これが胃潰瘍と間違えられる事がある。<br/><br/>この場合月経と思われる。<br/><br/>もし腸出血ならば生命がないからである。<br/><br/> 出血（胃）の場合、血の出る間は流動物をとる。<br/><br/>血が止まってから粥にするといい。<br/><br/> 一般に出血の場合は野菜を食うとすぐ止る。<br/><br/>肺病なども野菜食にすると喀血はすぐ止る。<br/><br/>そして肉食するとまた喀血するのである。<br/><br/>固まって溶けてくる時は痛む。<br/><br/> 日本人は、芝居でみるごとく腹を切りながら喋っている。<br/><br/>日本人の身体は締りがあるので、身体にくっつくから、そう出血はしない。<br/><br/>これは野菜食のためである。<br/><br/> 月経の止まるのは初経より三十三年目に止まる。<br/><br/>四十七、八歳より五十歳位で止まるものもある。<br/><br/>（S23. 7.25） 031 更年期障害 中年の婦人によく更年期障害というのがありますが、あれはいかなるものでしょうか。<br/><br/>右、御伺い申し上げます。<br/><br/> 障害のあるのはその人に毒素があるからで、毒素がなければそんな事はない。<br/><br/>浄霊で治る。<br/><br/>（S24. 5.23） 032 更年期の古血 私は若い頃より体が弱く、医薬と離れる事なくおりましたところ、昨年八月観音様の有難い事を知り入信させて戴きましたが、今年一月より月経出血甚だしく、耳も遠くなってまいりました。<br/><br/>何卒御守護の程御願い申し上げます。<br/><br/> 出るだけ出れば治る。<br/><br/>更年期で、古血が溜ったものである。<br/><br/> 033 肋膜と月経 私の姉吉田よし子（二十八歳）は十九歳の頃（月経初期）より肋膜炎を病み、医師により固めましたが、それより後に今日に至るまで月経が止まりました。<br/><br/>但し毎年お盆の十五日より一ケ月間は毎日多量に出血がございます。<br/><br/>出血の御浄化後は一ケ月位は相当に衰弱致します。<br/><br/>いかなるわけで御座いましょうか。<br/><br/>霊的関係につき御垂示御願い申し上げます。<br/><br/> 肋膜と月経は関係はない。<br/><br/>（S24. 9.19） 034 子宮出血 昨年二月に子宮に出血があり、一時回復、八月十六日大光明如来の御奉斎をして戴きました。<br/><br/>一週間後再び出血し始め、下腹部、右横腹、また腰から肛門部に引痙（つ）るような痛みがあり、十一月頃小康を得ましたが、起き上る気力はありませんでした。<br/><br/>十二月の末に再度出血が始まり、一月の末に肛門部にかけて痛みが増し、（引痙るような痛み）便通時には苦痛を訴えます。<br/><br/>一月の中頃から腹膜の状態になり、二月六日また出血、顔面蒼白、脈微弱、浄霊を施しても血色は出ず、食欲は大して減らず、食事の変化はあまりありません。<br/><br/>何の浄化でしょうか。<br/><br/> 下腹から腰にかけて薬毒がある。<br/><br/>非常に血が濁っている。<br/><br/>出血のため一時貧血状態になるが、これは止むを得ぬ。<br/><br/>出るのは濁血で、出なくては治らぬ。<br/><br/>腎盂に血の塊がある。<br/><br/>浄霊して溶かさなくてはならぬ。<br/><br/>これを浄霊すれば治る。<br/><br/>これが急所で、治り難いものではない。<br/><br/>（S24. 2.16） 035 出血と浮腫 信者井手もえ（六十四歳）、以前子宮後屈になった事が御座います。<br/><br/>昨年十月頃より三度ほど相当出血が御座いました。<br/><br/>本月十七日朝四時頃より同十時頃迄相当多量（約三升位）な出血があり、貧血を起し意識不明となり、全身に浮腫が出ました。<br/><br/>御浄霊にて直ぐ快方に向いました。<br/><br/>ただ今心臓が弱り、脚部に浮腫が御座います。<br/><br/>右の出血により起る浮腫はいかなる原因によるもので御座いましょうか。<br/><br/>また、この年齢にてこのような多量な出血はいかがなもので御座いましょうか。<br/><br/>御教示お願い申し上げます。<br/><br/> 月経の溜ったのが出たのである。<br/><br/>非常に毒血が多いので、月経の血が出ると同時に外の毒血も付近へ集（よ）っているから出た。<br/><br/>一ぺんに出ると良い血が急に出来る訳でないから、貧血する。<br/><br/>そのために腎臓の活動が鈍るので小便の処理が出来ぬ。<br/><br/>血が殖えるに従って治る。<br/><br/>日が経つに従って治る。<br/><br/>毒血の方は薬さえ服まなければ治る。<br/><br/>今に丈夫になる。<br/><br/>（S25. 4.28）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

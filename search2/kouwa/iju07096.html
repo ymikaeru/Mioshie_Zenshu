@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju07096</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （七） ７ 080-114 寄生虫 096 寄生虫の発生と活動 寄生虫（回虫）の発生及びその活動について御垂示御願い申し上げます。<br><br> 寄生虫は野菜に着いてる卵がなる。<br><br>糞をかけるとその卵がつく。<br><br>無肥料でやればそれがない。<br><br>赤ン坊は――、親の身体の体中で卵を生む、その卵が入ったものと思う。<br><br> 回中にはいろんな身体の器官に入るのがある。<br><br>心臓、肝臓等人間の身体のどこへでも入る。<br><br> （以下、二十三年五月二十六日） 回虫は心窩部、心臓、腹を往来している。<br><br>五、六匹となると激痛あり。<br><br>根気よくお浄めをする。<br><br> 097 寄生虫と毒素の関係、（回虫の複数性） 回虫などの寄生虫と毒素との関係―― これは関係がある。<br><br>虫が湧いたり育ったりするのは毒があるからで、回虫はその毒を食って生きてるのである。<br><br>浄霊をすれば早く出る。<br><br> 回虫は殆ど二匹いるもので、これは夫婦である。<br><br>中には五、六匹いるのもあるが、これは病気である。<br><br>（S23） 098 回虫の害と増殖 回虫は健康上いかがな利害が御座居ましょうか。<br><br> 何も害はない。<br><br>回虫は普通二匹である。<br><br>夫婦であろう。<br><br>ただ殖えると害がある。<br><br>四、五匹以上になると痛む。<br><br>沢山になるとうどんの塊のようになってるのがある。<br><br>心臓でもどこでも、身体中どこでも入るので苦しむ。<br><br>背中に固まってるのもある。<br><br>こういう人は余程霊体が曇っているためである。<br><br> 子供の癇の虫は無い。<br><br>これは首から肩に塊があり、そのため癇を起しやすい。<br><br>顳■（こめかみ）に熱があると必ずイライラする。<br><br>（S23.11.12） 099 回虫の増殖数 御浄霊により回虫が出ました場合、その卵は腹中に残るものでしょうか。<br><br>もし残りますならば孵化して回虫になり、また一方食物からも卵が入り成長するものでしょうか。<br><br>蟯虫は何百匹もあとからあとから出ますが、これはどのような訳でしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 回虫は、あるだけ出る訳で、前の卵の残ってるのは大きくなる。<br><br>幾百でも出る。<br><br>食物から卵が入っても浄霊すれば大丈夫である。<br><br>汚物を食って生きている故、きれいになれば餓死する。<br><br>（S24. 8.23） 100 回虫の原因、（条虫） 最近ピンピン虫（長さ二～三分の白い細かい虫）が肛門部に出て痒くて辛抱出来ない程の時もありますが、いかにしたらよいでしょうか。<br><br>また、その原因は何でありましょうか。<br><br>御教え願います。<br><br> 条虫である。<br><br>腹中へ湧く。<br><br>ゴミ溜へ虫が湧くのと同じである。<br><br>お腹が汚いのである。<br><br>霊的に汚くなると、霊的に虫が湧くのである。<br><br>（S24. 7. 7） 101 十二指腸虫 本教の信徒で同じように御浄霊をしていても、回虫の患者は割合い早く虫が下って治るのですが、十二指腸虫は中々しつこいのか捗々しくゆきませんが、この訳を御伺い申し上げます。<br><br> 浄霊すれば割合い早い。<br><br>十二指腸等は痛む。<br><br>医診は決して信じてはいけない。<br><br>十中八、九まで誤診である。<br><br>頭の痛いのは関係ない。<br><br>（S24. 9.18） 102 十二指腸虫発生の因 十二指腸というものは何が原因で起るもので御座いましょうか。<br><br>また、早くそれを知る徴候はどこで見分けたら宜敷いので御座いましょうか。<br><br>また、その場合いずれを主に御浄霊させて戴きましたら宜敷いのでしょうか。<br><br>御教授御願い申し上げます。<br><br> 腹が汚いから虫が湧く。<br><br>その部を浄霊すると、すぐ出てしまう。<br><br> 103 回虫か ゴミ溜へ蛆虫が湧くようなものである。<br><br>霊的にも体的にも汚い。<br><br>（S23.11.16） 104 回虫と肥料 最近回虫保持者が極端に増えて参りましたが、これは浄霊によりて絶滅出来るでしょうか。<br><br>出来得るとしたら、どこを最も良く浄霊致したらよろしいでしょうか。<br><br>なお、何回位にて効果が表われますか。<br><br> 霊が曇ってると体が汚れる。<br><br>汚れると虫がよく育つ。<br><br>だから汚いのである。<br><br> 原因は肥料である。<br><br>野菜に糞尿をやるが、その中に虫の卵が入っている。<br><br>であるから、無肥料にすれば回虫もなくなる。<br><br> 信仰により浄化してゆくと、汚れの古いのは出るし、新しいのはなくなる。<br><br>であるから、回虫をなくするには入信する外はないという結論になる。<br><br> 回数は言えない。<br><br> 多いのは百匹や二百匹いるのがある。<br><br>（S24.11. 5） 105 回虫で腹痛 今年七歳になる長女、回虫が湧き浄霊にて虫が百匹位出ました。<br><br>その後二ケ月ないし三ケ月に一回位腹痛にて苦しみますが、何か霊的の関係がありましょうか。<br><br> ゴミ溜へ蛆虫が湧くようなものである。<br><br>霊的にも体的にも汚いのである。<br><br>（S24. 5.16） 106 胸虫 私の家では先祖の代から代々胸虫（むなむし）に害されて、胸虫が原因で死んでいます。<br><br>また、現在健在の者も時々その浄化を起します。<br><br>何か霊的に原因がございましょうか。<br><br>御浄霊法は虫のいるところを主に致しましたら宜しゅうございますのでしょうか。<br><br> これは回虫であろう。<br><br>胸からといっても元は背中である。<br><br>（S25. 2.18） 107 回虫（咽喉辺の感じ） 私の関係信徒の婦人ですが、七年前より回虫のため腹痛も度々あり、あらゆる医療にても治らなかったのが、本年八月入信後その苦痛は除かれ、喜んでおりますが、まだその虫が出ず、毎日咽喉の辺りまで出て来てさわぐようだと訴えます。<br><br>これは本当の虫でしょうか。<br><br>精神的のような気もするのですが、何か霊的関係でもあるのでしょうか。<br><br>御教示願います。<br><br> 本当の虫の場合と精神的即ち神経の故と両方ある。<br><br> 自然に任せば出るものは出るし、引っ込むのは引っ込む。<br><br>（S24.10. 8） 108 元気で衰弱・下腹の褐色 私は入信前腹膜及び腎臓結核を患いましたが、一ケ月程前より腹膜にて床についており、時々腹部に激痛あり、一日、三、四回の御浄霊により、回虫三匹下り、一時は重態でしたが、その後腹水も取れましたが、腹部一帯は固く、臍より下方が褐色を呈し、手を下腹に当てるとプツプツと手に当ります。<br><br>まだ時々痛みがあり、虫のためのように思います。<br><br>元気ですが衰弱しており、食事は一日卵黄二個、水餅三、四切れ、野菜スープ等です。<br><br>下腹の褐色を呈するのはなぜでしょうか。<br><br>また、御浄霊はどう致すべきでしょうか。<br><br> 褐色は薬毒である。<br><br>未だ回虫がいる。<br><br>（S24. 6. 3） 109 回虫の痛み 回虫による痛みは執拗で御座いまして、浄霊しても中々止りません。<br><br>いかなるわけで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 薬を服んだ人程痛みが出る。<br><br>痒いのは天然痘である。<br><br>執拗な痛みは強い薬で、すべての痛みは全部薬である。<br><br>（S24. 7.21） 110 虫で引付け 私の二男は昭和十七年生れ、本年八歳ですが、虫で、引付けで困っております。<br><br>どう致したら宜敷いでしょうか。<br><br> 世間よく虫というが、虫でどうこうという事はない。<br><br>回虫でどうという事はあるが、恐れる事はない。<br><br>多い場合は痛む。<br><br>一匹二匹なら何でもない。<br><br>引付けるのは一種の癲癇で、霊である。<br><br>気長に浄霊すれば治る。<br><br>（S24. 2.15） 111 回虫と痛み・浄霊急所 六歳になる女子、回虫のため腹が痛み、周期的に苦しみます。<br><br>本年の春より浄霊も続けております。<br><br>最良の方法を御教え下さい。<br><br> 浄霊で出る。<br><br>腎臓と背中をよくすると効果がある。<br><br>回虫で痛むのはどうしてかというと、五、六匹になると痛む。<br><br>ひどいのは十匹位のがある。<br><br>また生命に関わるような事もある。<br><br>そんな虫が繁殖するのも曇ってるからである。<br><br> 112 浄霊と回虫 浄霊をすれば生魚等を食しても回虫は発生致しませんでしょうか。<br><br> 回虫は発生するが、沢山殖える事はなく、またいても早く出る。<br><br>（S24.11.26） 113 短波と回虫 阪大附属病院にて超短波の電波を使用して回虫の駆除に成功し、回虫の卵まで死滅すると発表しておりますが、電波が体内の機能に及ぼす影響について御垂示を御願い致します。<br><br> 回虫はゴミ溜へ蛆が湧くようなもので、ゴミが入っている限りは湧く。<br><br>また、有肥栽培の野菜を食ってればそれが溜る。<br><br> 短波は身体に何か影響はある。<br><br>不自然であるから、また、虫が死ぬ位であるから、度々やるうちに何か病気が起る。<br><br>ゴミを除る事が肝腎である。<br><br>（S24.12.18） 114 回虫薬の力 私の妻は二ケ月程前より十二指腸にかかり、医薬で虫はいなくなりましたが、鳩尾（みぞおち）の辺りが痛み、食事が進まず、体が段々衰弱して参り、医者も原因が不明と申します。<br><br>いかように御浄霊致したら宜敷いでしょうか。<br><br>原因もあわせて御教示を御願い致します。<br><br> 虫を追出す位の薬であるから強い。<br><br>しかし、虫を殺すと共に結局人間も殺す事になる。<br><br> 出来るだけ背中を浄霊する。<br><br>（S24.11.17）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses de Jikan Okada – Pesquisa de Ensinamentos: Ajuda – Pesquisa de Materiais: Volume sobre a Arte da Cura (VII)</h2>
 <h2>096 - A Origem e a Atividade dos Parasitas</h2>
@@ -157,5 +309,48 @@ function toggleLang(lang) {
 <h2>114 - A Potência dos Vermífugos</h2>
 <p><strong>Pergunta:</strong> Há cerca de dois meses, minha esposa foi diagnosticada com vermes no duodeno. Com o uso de medicamentos, os vermes foram eliminados, mas ela passou a sentir dores na região do plexo solar, perdeu o apetite e está definhando progressivamente. O médico afirma não saber a causa. Como devo ministrar o Johrei? Peço que me esclareça também a causa do problema.</p>
 <p><strong>Meishu-Sama:</strong> Um medicamento com força para expelir vermes é, por natureza, potente. Contudo, ao matar os vermes, ele acaba por matar também o ser humano. Ministre Johrei o máximo possível na região das costas. (17 de novembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （七） ７ 080-114 寄生虫 096 寄生虫の発生と活動 寄生虫（回虫）の発生及びその活動について御垂示御願い申し上げます。<br/><br/> 寄生虫は野菜に着いてる卵がなる。<br/><br/>糞をかけるとその卵がつく。<br/><br/>無肥料でやればそれがない。<br/><br/>赤ン坊は――、親の身体の体中で卵を生む、その卵が入ったものと思う。<br/><br/> 回中にはいろんな身体の器官に入るのがある。<br/><br/>心臓、肝臓等人間の身体のどこへでも入る。<br/><br/> （以下、二十三年五月二十六日） 回虫は心窩部、心臓、腹を往来している。<br/><br/>五、六匹となると激痛あり。<br/><br/>根気よくお浄めをする。<br/><br/> 097 寄生虫と毒素の関係、（回虫の複数性） 回虫などの寄生虫と毒素との関係―― これは関係がある。<br/><br/>虫が湧いたり育ったりするのは毒があるからで、回虫はその毒を食って生きてるのである。<br/><br/>浄霊をすれば早く出る。<br/><br/> 回虫は殆ど二匹いるもので、これは夫婦である。<br/><br/>中には五、六匹いるのもあるが、これは病気である。<br/><br/>（S23） 098 回虫の害と増殖 回虫は健康上いかがな利害が御座居ましょうか。<br/><br/> 何も害はない。<br/><br/>回虫は普通二匹である。<br/><br/>夫婦であろう。<br/><br/>ただ殖えると害がある。<br/><br/>四、五匹以上になると痛む。<br/><br/>沢山になるとうどんの塊のようになってるのがある。<br/><br/>心臓でもどこでも、身体中どこでも入るので苦しむ。<br/><br/>背中に固まってるのもある。<br/><br/>こういう人は余程霊体が曇っているためである。<br/><br/> 子供の癇の虫は無い。<br/><br/>これは首から肩に塊があり、そのため癇を起しやすい。<br/><br/>顳■（こめかみ）に熱があると必ずイライラする。<br/><br/>（S23.11.12） 099 回虫の増殖数 御浄霊により回虫が出ました場合、その卵は腹中に残るものでしょうか。<br/><br/>もし残りますならば孵化して回虫になり、また一方食物からも卵が入り成長するものでしょうか。<br/><br/>蟯虫は何百匹もあとからあとから出ますが、これはどのような訳でしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 回虫は、あるだけ出る訳で、前の卵の残ってるのは大きくなる。<br/><br/>幾百でも出る。<br/><br/>食物から卵が入っても浄霊すれば大丈夫である。<br/><br/>汚物を食って生きている故、きれいになれば餓死する。<br/><br/>（S24. 8.23） 100 回虫の原因、（条虫） 最近ピンピン虫（長さ二～三分の白い細かい虫）が肛門部に出て痒くて辛抱出来ない程の時もありますが、いかにしたらよいでしょうか。<br/><br/>また、その原因は何でありましょうか。<br/><br/>御教え願います。<br/><br/> 条虫である。<br/><br/>腹中へ湧く。<br/><br/>ゴミ溜へ虫が湧くのと同じである。<br/><br/>お腹が汚いのである。<br/><br/>霊的に汚くなると、霊的に虫が湧くのである。<br/><br/>（S24. 7. 7） 101 十二指腸虫 本教の信徒で同じように御浄霊をしていても、回虫の患者は割合い早く虫が下って治るのですが、十二指腸虫は中々しつこいのか捗々しくゆきませんが、この訳を御伺い申し上げます。<br/><br/> 浄霊すれば割合い早い。<br/><br/>十二指腸等は痛む。<br/><br/>医診は決して信じてはいけない。<br/><br/>十中八、九まで誤診である。<br/><br/>頭の痛いのは関係ない。<br/><br/>（S24. 9.18） 102 十二指腸虫発生の因 十二指腸というものは何が原因で起るもので御座いましょうか。<br/><br/>また、早くそれを知る徴候はどこで見分けたら宜敷いので御座いましょうか。<br/><br/>また、その場合いずれを主に御浄霊させて戴きましたら宜敷いのでしょうか。<br/><br/>御教授御願い申し上げます。<br/><br/> 腹が汚いから虫が湧く。<br/><br/>その部を浄霊すると、すぐ出てしまう。<br/><br/> 103 回虫か ゴミ溜へ蛆虫が湧くようなものである。<br/><br/>霊的にも体的にも汚い。<br/><br/>（S23.11.16） 104 回虫と肥料 最近回虫保持者が極端に増えて参りましたが、これは浄霊によりて絶滅出来るでしょうか。<br/><br/>出来得るとしたら、どこを最も良く浄霊致したらよろしいでしょうか。<br/><br/>なお、何回位にて効果が表われますか。<br/><br/> 霊が曇ってると体が汚れる。<br/><br/>汚れると虫がよく育つ。<br/><br/>だから汚いのである。<br/><br/> 原因は肥料である。<br/><br/>野菜に糞尿をやるが、その中に虫の卵が入っている。<br/><br/>であるから、無肥料にすれば回虫もなくなる。<br/><br/> 信仰により浄化してゆくと、汚れの古いのは出るし、新しいのはなくなる。<br/><br/>であるから、回虫をなくするには入信する外はないという結論になる。<br/><br/> 回数は言えない。<br/><br/> 多いのは百匹や二百匹いるのがある。<br/><br/>（S24.11. 5） 105 回虫で腹痛 今年七歳になる長女、回虫が湧き浄霊にて虫が百匹位出ました。<br/><br/>その後二ケ月ないし三ケ月に一回位腹痛にて苦しみますが、何か霊的の関係がありましょうか。<br/><br/> ゴミ溜へ蛆虫が湧くようなものである。<br/><br/>霊的にも体的にも汚いのである。<br/><br/>（S24. 5.16） 106 胸虫 私の家では先祖の代から代々胸虫（むなむし）に害されて、胸虫が原因で死んでいます。<br/><br/>また、現在健在の者も時々その浄化を起します。<br/><br/>何か霊的に原因がございましょうか。<br/><br/>御浄霊法は虫のいるところを主に致しましたら宜しゅうございますのでしょうか。<br/><br/> これは回虫であろう。<br/><br/>胸からといっても元は背中である。<br/><br/>（S25. 2.18） 107 回虫（咽喉辺の感じ） 私の関係信徒の婦人ですが、七年前より回虫のため腹痛も度々あり、あらゆる医療にても治らなかったのが、本年八月入信後その苦痛は除かれ、喜んでおりますが、まだその虫が出ず、毎日咽喉の辺りまで出て来てさわぐようだと訴えます。<br/><br/>これは本当の虫でしょうか。<br/><br/>精神的のような気もするのですが、何か霊的関係でもあるのでしょうか。<br/><br/>御教示願います。<br/><br/> 本当の虫の場合と精神的即ち神経の故と両方ある。<br/><br/> 自然に任せば出るものは出るし、引っ込むのは引っ込む。<br/><br/>（S24.10. 8） 108 元気で衰弱・下腹の褐色 私は入信前腹膜及び腎臓結核を患いましたが、一ケ月程前より腹膜にて床についており、時々腹部に激痛あり、一日、三、四回の御浄霊により、回虫三匹下り、一時は重態でしたが、その後腹水も取れましたが、腹部一帯は固く、臍より下方が褐色を呈し、手を下腹に当てるとプツプツと手に当ります。<br/><br/>まだ時々痛みがあり、虫のためのように思います。<br/><br/>元気ですが衰弱しており、食事は一日卵黄二個、水餅三、四切れ、野菜スープ等です。<br/><br/>下腹の褐色を呈するのはなぜでしょうか。<br/><br/>また、御浄霊はどう致すべきでしょうか。<br/><br/> 褐色は薬毒である。<br/><br/>未だ回虫がいる。<br/><br/>（S24. 6. 3） 109 回虫の痛み 回虫による痛みは執拗で御座いまして、浄霊しても中々止りません。<br/><br/>いかなるわけで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 薬を服んだ人程痛みが出る。<br/><br/>痒いのは天然痘である。<br/><br/>執拗な痛みは強い薬で、すべての痛みは全部薬である。<br/><br/>（S24. 7.21） 110 虫で引付け 私の二男は昭和十七年生れ、本年八歳ですが、虫で、引付けで困っております。<br/><br/>どう致したら宜敷いでしょうか。<br/><br/> 世間よく虫というが、虫でどうこうという事はない。<br/><br/>回虫でどうという事はあるが、恐れる事はない。<br/><br/>多い場合は痛む。<br/><br/>一匹二匹なら何でもない。<br/><br/>引付けるのは一種の癲癇で、霊である。<br/><br/>気長に浄霊すれば治る。<br/><br/>（S24. 2.15） 111 回虫と痛み・浄霊急所 六歳になる女子、回虫のため腹が痛み、周期的に苦しみます。<br/><br/>本年の春より浄霊も続けております。<br/><br/>最良の方法を御教え下さい。<br/><br/> 浄霊で出る。<br/><br/>腎臓と背中をよくすると効果がある。<br/><br/>回虫で痛むのはどうしてかというと、五、六匹になると痛む。<br/><br/>ひどいのは十匹位のがある。<br/><br/>また生命に関わるような事もある。<br/><br/>そんな虫が繁殖するのも曇ってるからである。<br/><br/> 112 浄霊と回虫 浄霊をすれば生魚等を食しても回虫は発生致しませんでしょうか。<br/><br/> 回虫は発生するが、沢山殖える事はなく、またいても早く出る。<br/><br/>（S24.11.26） 113 短波と回虫 阪大附属病院にて超短波の電波を使用して回虫の駆除に成功し、回虫の卵まで死滅すると発表しておりますが、電波が体内の機能に及ぼす影響について御垂示を御願い致します。<br/><br/> 回虫はゴミ溜へ蛆が湧くようなもので、ゴミが入っている限りは湧く。<br/><br/>また、有肥栽培の野菜を食ってればそれが溜る。<br/><br/> 短波は身体に何か影響はある。<br/><br/>不自然であるから、また、虫が死ぬ位であるから、度々やるうちに何か病気が起る。<br/><br/>ゴミを除る事が肝腎である。<br/><br/>（S24.12.18） 114 回虫薬の力 私の妻は二ケ月程前より十二指腸にかかり、医薬で虫はいなくなりましたが、鳩尾（みぞおち）の辺りが痛み、食事が進まず、体が段々衰弱して参り、医者も原因が不明と申します。<br/><br/>いかように御浄霊致したら宜敷いでしょうか。<br/><br/>原因もあわせて御教示を御願い致します。<br/><br/> 虫を追出す位の薬であるから強い。<br/><br/>しかし、虫を殺すと共に結局人間も殺す事になる。<br/><br/> 出来るだけ背中を浄霊する。<br/><br/>（S24.11.17）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

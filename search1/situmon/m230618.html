@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230618</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年6月18日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年六月十八日（金） ――日月地大神と経文の弥勒菩薩とは関係ありましょうか。<br><br> 弥勒菩薩は釈迦の弟子でこちらとはあまり関係はない。<br><br>まあいくらか因縁はあるでしょう。<br><br>目蓮とか阿難とかいう十弟子の中の一人です。<br><br> ――趣味として釣りをするとか、害虫……蚊や蝿を殺すことは差し支えないでしょうか。<br><br> 差し支えありません。<br><br>魚釣りもあまり熱中しなければよい。<br><br>私も若いころ釣りをやりましたが餌を針につけるので指が紫色になり痛んだのでやめてしまいました。<br><br>ときどきやるのならいいですよ。<br><br>これは殺生よりむしろ怠けの罪が大きいのです。<br><br>人間は働くのが本当です。<br><br>五体殊に頭をよく使うほうがよい。<br><br>頭をよく使うほうが永生きします。<br><br>昔から坊さんや学者に永生きが多いのはそのためです。<br><br>犬や猫、野蛮人は早死にです。<br><br> ――日蓮や親鸞が地獄に堕ちておるやに聞きおよんでおりますが、この真相はいかがでしょう。<br><br> 私の弟子で日蓮信者があり、身延へ行って日蓮が住まっていた建物で拝んでいたら日蓮が淋しい青い顔で現われたと言ってました。<br><br>これより前から私には判ってましたが……彼の肝腎な点は法華経を弘通した点ですが、法華経とは法の華です。<br><br>日蓮以前は南無阿弥陀仏でありこれは月の教え、陰なのです。<br><br>川なぞへ飛び込んで自殺するときは「ナムアミダブツ」と言うように、これは陰気なものです。<br><br>それに対して日蓮は法華経こそ本当の教えであり、釈迦七十二歳にして見真実となり説いたものだということを発見したのです。<br><br>法華経とは仏教の華を咲かせることであり、その中の普門品二十五は実の髄なのです。<br><br>また華は咲いてすぐ枯れるから昔から一代法華と言って一代限りがよいとされてるのです。<br><br>日蓮は仏教の陰を陽に変えたのです。<br><br>だから日蓮宗は威勢がいいのです。<br><br>それから四ケ格言と言って念仏無間、禅天魔、真言亡国、律国賊として他宗をみな排斥したが、あの排他性はいけない。<br><br>あの態度はおもしろくない。<br><br>法の華が散りその実が育って実相真如になると言われている。<br><br>しかしこれは逆で真如実相が本当です。<br><br>真如とは月のことで、釈迦は仏法を一言で言えば真如だと言ったが、これは夜の世界のことで、昼の世界は実相世界です。<br><br>またすべては空に帰すとか仮の物だとか言ったのも夜の世界のことです。<br><br>実の髄の仕事を私がするわけです。<br><br>だから私が実相世界を作るわけです。<br><br>親鸞が地獄だとは私の師匠の出口王仁三郎先生から聞いたのです。<br><br>あの人はそうとう霊覚のある人だったが、あるとき親鸞が乞食坊主の姿をして現われたそうです。<br><br>弘法大師や法然上人は極楽に任しているそうです。<br><br>釈迦は勿論さらに一段高い所にいてとてもふつうは行けぬそうです。<br><br> ――日蓮はあの排他性がいけないのでしょうか。<br><br> ええそうですね。<br><br> ――自分が上行菩薩であると言ったことは…… それは死ぬ前に誤りだと悟り、あと六百五十年して本当に上行菩薩が世に出ると言ったのです。<br><br>日蓮のいい点はたいへん自信のあったことと、仏教の陰気になり隠遁的になったのを救ったことですね。<br><br> ――親鸞の罪はなんでございましょうか、 親鸞のはあの時代の一種の共産的思想のためです。<br><br>師匠も弟子もなく、だれでもみな「御同行」と言ったのですがこれは間違いです。<br><br>よく言えば民主的だったんですが…… 日本の民主主義と米国のとは違うはずなんです。<br><br>それは日本の霊界は縦で西洋は横ですから。<br><br>いままでの日本は縦が強すぎたのです。<br><br>これは隣人愛がないことです。<br><br>もし隣人愛があれば支那へ遠征なんかしないはずです。<br><br>日本は神国であり他国なんかどうなってもいいという考えが悪くてついに逆の結果になったわけです。<br><br> ――日月地大神のお働きは国常立尊と観世音菩薩との御一体のお働きでしょうか。<br><br> 国常立尊も観音様も日月地の御世出現を助けておられるのです。<br><br>が、これをはっきりと説くことは時機が早い。<br><br> ――天照皇大神と伊都能売大神とは関係ありましょうか。<br><br> 重大関係がありますがこれもまだ言えない。<br><br> ――神は浄化を与えて御救いくださる反面、苦痛をも与えられるのは罪業の許しでしょうか、またはその刑罰でしょうか。<br><br> 苦痛も浄化です。<br><br>……ある人に信仰をすすめても入らず、この救いの綱に捉れと言ってもついて来ないのは、その人が綱までまだ距離があってすぐには来られないのです。<br><br>そんな場合その人が自力で苦痛をなめると罪が少し消え従って距離が短くなって綱まで来れるのです。<br><br>いくらいい教えを説いても手の届かない人が多いのです。<br><br>これは時を待つほかない。<br><br>苦痛はすべて浄化です。<br><br>自力の浄化です。<br><br>ところが御浄めの浄化は他力だから楽なんです。<br><br>しかし他力でも罪により苦しみますがね。<br><br>また死ぬ人もある。<br><br>が、死ぬ人は多くの場合、心から神にすがることもない人だと見ていい。<br><br>全生命をすてて神にすがればまア助かります。<br><br>一度死んでも助かります。<br><br>周囲の人々が忠告がましく医者にかかれとか言うと、信仰のない人はじきに迷ってしまうが、迷うとたん神とのつながりが切れてしまうんです。<br><br>もっとも周囲が判らないとき徹底して言うと、警察問題にもなるからあまり強くも言えない場合がある。<br><br>それはしかたがない。<br><br>ずいぶん気の毒な人がありますよ。<br><br>某はこの春疥癬をやった。<br><br>これで死ぬ人はないのですが、私の所へ相談に来て、周囲がうるさいから医者にかかりたいと言うので、まアかかんなさいと言った。<br><br>信仰のない人は周りの人の邪魔――邪霊がたくさん来ますからね――で、駄目になってしまう。<br><br>この人も入院して死んでしまいました。<br><br>ちょうどこの人と同じように疥癬をやった人も御浄めでいまはすっかり治っている。<br><br>おもしろいのは死んだ方は教育がなく治った方は大学出なのです。<br><br> 人が一度信仰に入ると神は御恵みをくださろうとするが汚れたものがある場合、それを浄めてくださる。<br><br>それは幸せになる資格を与えてくださるのです。<br><br>信仰に入ると必ずいきなり幸せになるとは言えない。<br><br>まず汚れを取り除かねばならない。<br><br>よく教導師になり専門に御浄めをし出すと疥癬にかかるのはこの理です。<br><br>それは魂がまず浄められるから従って肉体も浄められるのです。<br><br>……前の世で罪穢れをためて霊界へ行き、浄化が不充分でまた現界に出てくるとき、浄化の続きをせねばならない。<br><br>善人であって不幸な人というのはだいたいこれです。<br><br> 葬式や法事に善言讃詞や祝詞を上げるのは結構です。<br><br>結婚式には両方あげる。<br><br>南無という言葉は称えてもかまいません。<br><br>なにか妙なことからよけいなことまで言う人がありますね。<br><br>リンゴだってそうです。<br><br>私はただ水気の多い果物が好きだと言うだけで別にリンゴがいけないとは言いません。<br><br> ――いろいろと精神的御浄化をいただき、ありがたく御礼申し上げます。<br><br> 苦しいでしょうがもうしばらく我慢しなさい。<br><br>観音様はいっぽうで奇蹟を与えてくださるんです。<br><br>結局良くなるための苦しみです。<br><br>そうなるとむしろ苦しみが楽しみです。<br><br>その人の使命の大きいほど苦しみも大きいのです。<br><br>私の浄化もかなり苦しかったが寿命は約二十年のびましたね。<br><br>以前は健康でいててもどうも調子が変だった。<br><br>スーとしなかった。<br><br>しかし近ごろはせいせいしています。<br><br> 外国人と結婚した場合霊界は主人のほうに属します。<br><br> ――私宅は鰻屋で鰻やドジョウを殺しますが、いかに祀ったらよろしいでしょうか。<br><br> 鰻は龍神の変わったものでふつうの魚と違います。<br><br>殊に耳のある鰻は「蟠竜（はんりょう）」と言って、これを殺して食えば必ず祟ります。<br><br>少しずつ殺しても長い間にはそうとう怨みが溜まるから祀ったらいい。<br><br>なにか鰻の霊の憑きやすいようなもの、位牌のようなものへ龍神として、あんたの名前は？ 折原？ そんなら「折原明神」として高い所へ上げ、酒、米、水、魚……魚は共食いになるからやめたほうがいいですね。<br><br>まあそんなものをお供えして祝詞を上げればいい。<br><br>あなた、じゃ変だし、鰻さんかな、「お蔭で商売させていただいてありがとうございます。<br><br>今度御供養しますからそのつもりでいてもらいたい」というふうなことを言葉で言ってから祝詞を上げなさい。<br><br>月一度日を定めて祀ったらいい。<br><br>龍神だから必ず水を大きな容器に入れてお供えする。<br><br>御軸をお祀りしている床の間に祀ってもいいですよ。<br><br>多少鰻は苦しいかもしれませんがね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Verdade e o Mundo Espiritual</h2>
 <p><strong>Pergunta: Haveria alguma relação entre a Deidade Jitsugetsuchi-no-Oomikami e o Bodhisattva Miroku das escrituras budistas?</strong></p>
@@ -131,5 +283,48 @@ function toggleLang(lang) {
 <p>Providencie um objeto que possa servir como repositório para o espírito da enguia, como uma tabuleta memorial, e consagre-a como um espírito de dragão. Qual é o seu nome? Orihara? Então, pode consagrá-la como "Orihara Myojin", colocando-a em um lugar elevado. Faça oferendas de saquê, arroz e água. Peixe não é uma boa ideia, pois seria canibalismo. Com essas oferendas, recite a oração.</p>
 <p>Ao se dirigir à deidade, seria estranho chamá-la de "você" ou "senhora enguia". Diga algo como: "Graças a vós, podemos prosperar em nosso negócio. Em gratidão, realizaremos esta cerimônia para vosso conforto espiritual, e esperamos que aceiteis nossa oferenda." Após proferir essas palavras, recite a oração.</p>
 <p>Seria bom estabelecer um dia fixo, uma vez por mês, para realizar a cerimônia. Sendo um espírito de dragão, é imprescindível oferecer água em um recipiente grande. Você pode instalar o altar no <em>tokonoma</em> onde o Eixo Sagrado está entronizado, ainda que isso possa ser um tanto desconfortável para as enguias.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年6月18日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年六月十八日（金） ――日月地大神と経文の弥勒菩薩とは関係ありましょうか。<br/><br/> 弥勒菩薩は釈迦の弟子でこちらとはあまり関係はない。<br/><br/>まあいくらか因縁はあるでしょう。<br/><br/>目蓮とか阿難とかいう十弟子の中の一人です。<br/><br/> ――趣味として釣りをするとか、害虫……蚊や蝿を殺すことは差し支えないでしょうか。<br/><br/> 差し支えありません。<br/><br/>魚釣りもあまり熱中しなければよい。<br/><br/>私も若いころ釣りをやりましたが餌を針につけるので指が紫色になり痛んだのでやめてしまいました。<br/><br/>ときどきやるのならいいですよ。<br/><br/>これは殺生よりむしろ怠けの罪が大きいのです。<br/><br/>人間は働くのが本当です。<br/><br/>五体殊に頭をよく使うほうがよい。<br/><br/>頭をよく使うほうが永生きします。<br/><br/>昔から坊さんや学者に永生きが多いのはそのためです。<br/><br/>犬や猫、野蛮人は早死にです。<br/><br/> ――日蓮や親鸞が地獄に堕ちておるやに聞きおよんでおりますが、この真相はいかがでしょう。<br/><br/> 私の弟子で日蓮信者があり、身延へ行って日蓮が住まっていた建物で拝んでいたら日蓮が淋しい青い顔で現われたと言ってました。<br/><br/>これより前から私には判ってましたが……彼の肝腎な点は法華経を弘通した点ですが、法華経とは法の華です。<br/><br/>日蓮以前は南無阿弥陀仏でありこれは月の教え、陰なのです。<br/><br/>川なぞへ飛び込んで自殺するときは「ナムアミダブツ」と言うように、これは陰気なものです。<br/><br/>それに対して日蓮は法華経こそ本当の教えであり、釈迦七十二歳にして見真実となり説いたものだということを発見したのです。<br/><br/>法華経とは仏教の華を咲かせることであり、その中の普門品二十五は実の髄なのです。<br/><br/>また華は咲いてすぐ枯れるから昔から一代法華と言って一代限りがよいとされてるのです。<br/><br/>日蓮は仏教の陰を陽に変えたのです。<br/><br/>だから日蓮宗は威勢がいいのです。<br/><br/>それから四ケ格言と言って念仏無間、禅天魔、真言亡国、律国賊として他宗をみな排斥したが、あの排他性はいけない。<br/><br/>あの態度はおもしろくない。<br/><br/>法の華が散りその実が育って実相真如になると言われている。<br/><br/>しかしこれは逆で真如実相が本当です。<br/><br/>真如とは月のことで、釈迦は仏法を一言で言えば真如だと言ったが、これは夜の世界のことで、昼の世界は実相世界です。<br/><br/>またすべては空に帰すとか仮の物だとか言ったのも夜の世界のことです。<br/><br/>実の髄の仕事を私がするわけです。<br/><br/>だから私が実相世界を作るわけです。<br/><br/>親鸞が地獄だとは私の師匠の出口王仁三郎先生から聞いたのです。<br/><br/>あの人はそうとう霊覚のある人だったが、あるとき親鸞が乞食坊主の姿をして現われたそうです。<br/><br/>弘法大師や法然上人は極楽に任しているそうです。<br/><br/>釈迦は勿論さらに一段高い所にいてとてもふつうは行けぬそうです。<br/><br/> ――日蓮はあの排他性がいけないのでしょうか。<br/><br/> ええそうですね。<br/><br/> ――自分が上行菩薩であると言ったことは…… それは死ぬ前に誤りだと悟り、あと六百五十年して本当に上行菩薩が世に出ると言ったのです。<br/><br/>日蓮のいい点はたいへん自信のあったことと、仏教の陰気になり隠遁的になったのを救ったことですね。<br/><br/> ――親鸞の罪はなんでございましょうか、 親鸞のはあの時代の一種の共産的思想のためです。<br/><br/>師匠も弟子もなく、だれでもみな「御同行」と言ったのですがこれは間違いです。<br/><br/>よく言えば民主的だったんですが…… 日本の民主主義と米国のとは違うはずなんです。<br/><br/>それは日本の霊界は縦で西洋は横ですから。<br/><br/>いままでの日本は縦が強すぎたのです。<br/><br/>これは隣人愛がないことです。<br/><br/>もし隣人愛があれば支那へ遠征なんかしないはずです。<br/><br/>日本は神国であり他国なんかどうなってもいいという考えが悪くてついに逆の結果になったわけです。<br/><br/> ――日月地大神のお働きは国常立尊と観世音菩薩との御一体のお働きでしょうか。<br/><br/> 国常立尊も観音様も日月地の御世出現を助けておられるのです。<br/><br/>が、これをはっきりと説くことは時機が早い。<br/><br/> ――天照皇大神と伊都能売大神とは関係ありましょうか。<br/><br/> 重大関係がありますがこれもまだ言えない。<br/><br/> ――神は浄化を与えて御救いくださる反面、苦痛をも与えられるのは罪業の許しでしょうか、またはその刑罰でしょうか。<br/><br/> 苦痛も浄化です。<br/><br/>……ある人に信仰をすすめても入らず、この救いの綱に捉れと言ってもついて来ないのは、その人が綱までまだ距離があってすぐには来られないのです。<br/><br/>そんな場合その人が自力で苦痛をなめると罪が少し消え従って距離が短くなって綱まで来れるのです。<br/><br/>いくらいい教えを説いても手の届かない人が多いのです。<br/><br/>これは時を待つほかない。<br/><br/>苦痛はすべて浄化です。<br/><br/>自力の浄化です。<br/><br/>ところが御浄めの浄化は他力だから楽なんです。<br/><br/>しかし他力でも罪により苦しみますがね。<br/><br/>また死ぬ人もある。<br/><br/>が、死ぬ人は多くの場合、心から神にすがることもない人だと見ていい。<br/><br/>全生命をすてて神にすがればまア助かります。<br/><br/>一度死んでも助かります。<br/><br/>周囲の人々が忠告がましく医者にかかれとか言うと、信仰のない人はじきに迷ってしまうが、迷うとたん神とのつながりが切れてしまうんです。<br/><br/>もっとも周囲が判らないとき徹底して言うと、警察問題にもなるからあまり強くも言えない場合がある。<br/><br/>それはしかたがない。<br/><br/>ずいぶん気の毒な人がありますよ。<br/><br/>某はこの春疥癬をやった。<br/><br/>これで死ぬ人はないのですが、私の所へ相談に来て、周囲がうるさいから医者にかかりたいと言うので、まアかかんなさいと言った。<br/><br/>信仰のない人は周りの人の邪魔――邪霊がたくさん来ますからね――で、駄目になってしまう。<br/><br/>この人も入院して死んでしまいました。<br/><br/>ちょうどこの人と同じように疥癬をやった人も御浄めでいまはすっかり治っている。<br/><br/>おもしろいのは死んだ方は教育がなく治った方は大学出なのです。<br/><br/> 人が一度信仰に入ると神は御恵みをくださろうとするが汚れたものがある場合、それを浄めてくださる。<br/><br/>それは幸せになる資格を与えてくださるのです。<br/><br/>信仰に入ると必ずいきなり幸せになるとは言えない。<br/><br/>まず汚れを取り除かねばならない。<br/><br/>よく教導師になり専門に御浄めをし出すと疥癬にかかるのはこの理です。<br/><br/>それは魂がまず浄められるから従って肉体も浄められるのです。<br/><br/>……前の世で罪穢れをためて霊界へ行き、浄化が不充分でまた現界に出てくるとき、浄化の続きをせねばならない。<br/><br/>善人であって不幸な人というのはだいたいこれです。<br/><br/> 葬式や法事に善言讃詞や祝詞を上げるのは結構です。<br/><br/>結婚式には両方あげる。<br/><br/>南無という言葉は称えてもかまいません。<br/><br/>なにか妙なことからよけいなことまで言う人がありますね。<br/><br/>リンゴだってそうです。<br/><br/>私はただ水気の多い果物が好きだと言うだけで別にリンゴがいけないとは言いません。<br/><br/> ――いろいろと精神的御浄化をいただき、ありがたく御礼申し上げます。<br/><br/> 苦しいでしょうがもうしばらく我慢しなさい。<br/><br/>観音様はいっぽうで奇蹟を与えてくださるんです。<br/><br/>結局良くなるための苦しみです。<br/><br/>そうなるとむしろ苦しみが楽しみです。<br/><br/>その人の使命の大きいほど苦しみも大きいのです。<br/><br/>私の浄化もかなり苦しかったが寿命は約二十年のびましたね。<br/><br/>以前は健康でいててもどうも調子が変だった。<br/><br/>スーとしなかった。<br/><br/>しかし近ごろはせいせいしています。<br/><br/> 外国人と結婚した場合霊界は主人のほうに属します。<br/><br/> ――私宅は鰻屋で鰻やドジョウを殺しますが、いかに祀ったらよろしいでしょうか。<br/><br/> 鰻は龍神の変わったものでふつうの魚と違います。<br/><br/>殊に耳のある鰻は「蟠竜（はんりょう）」と言って、これを殺して食えば必ず祟ります。<br/><br/>少しずつ殺しても長い間にはそうとう怨みが溜まるから祀ったらいい。<br/><br/>なにか鰻の霊の憑きやすいようなもの、位牌のようなものへ龍神として、あんたの名前は？ 折原？ そんなら「折原明神」として高い所へ上げ、酒、米、水、魚……魚は共食いになるからやめたほうがいいですね。<br/><br/>まあそんなものをお供えして祝詞を上げればいい。<br/><br/>あなた、じゃ変だし、鰻さんかな、「お蔭で商売させていただいてありがとうございます。<br/><br/>今度御供養しますからそのつもりでいてもらいたい」というふうなことを言葉で言ってから祝詞を上げなさい。<br/><br/>月一度日を定めて祀ったらいい。<br/><br/>龍神だから必ず水を大きな容器に入れてお供えする。<br/><br/>御軸をお祀りしている床の間に祀ってもいいですよ。<br/><br/>多少鰻は苦しいかもしれませんがね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

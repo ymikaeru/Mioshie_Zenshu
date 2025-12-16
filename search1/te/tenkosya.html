@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenkosya</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 転向者の悩みに応う 『地上天国』11号、昭和24(1949)年12月20日発行 ある宗教信者から他の宗教に転向する場合、人により大小それぞれの悩みのあるのは致し方ないとしても、ここに発表する左記の投書〔略〕のごときは、偽らざる心境の変化と転向の悩みをつぶさに書き連ねており、切々として真に胸に迫るものがある。<br><br>今後転向者がたどるであろうこの悩みの解決も、重要なる救いの一面であるからかいたのである。<br><br>そうして仔細に検討する時、その焦点は左記のごときものである。<br><br> その人はキリスト教プロテスタント派の有力な信者との事であるが、もちろんこのような人の場合はひとりキリスト教徒に限らず、他の宗教信者にも相当ある例である。<br><br>もちろん他宗に触るるべからずという厳重な戒律の枠によるためであるが、これは何が原因であるかを説いてみよう。<br><br> そもそもいかなる宗教にも大乗門と小乗門とあり、常に吾らの説くごとく小乗とは火であり経であるに対し、大乗とは水であり緯（よこ）である。<br><br>従って小乗は戒律を旨とし、大乗は自由無碍を本義とする。<br><br>この理によって転向の悩みは小乗的戒律のためで、大乗的においては転向の悩みなど全然ないのである。<br><br>という事はいかなる宗教といえども、その本源は主神すなわちエホバ、ゴッド、天帝、仏陀等からであって、全世界あらゆる民族、地域、時代によって、神の代行者としてキリスト、釈迦、マホメット等を初めその他の聖者、賢哲を輩出され給うたのであるから、もちろん大小の優劣はあるにはあるが、その本源は同根である。<br><br>また人間にあっても上根中根下根の差別があるから、その魂相応に受入れらるべき宗教を必要とするのである。<br><br>例えば深遠なる教理でなければ満足出来ない者もあり、鉦（かね）、大鼓や種々の楽器、読経、舞踊等によらなければ、納得しない大衆的信仰もある事によってみても明らかである。<br><br> また別の例をいえば世界各民族間にもその伝統、慣習、趣味、文化の高下等の差別が自らあるにみてもよく判るのである。<br><br> これによってこれをみれば、小乗信仰は人間が限界を作り、それに捉われて苦しむので、これは非常な誤りである。<br><br>神の大愛とはそんな極限された小さなものではないにかかわらず、現在あるところの宗教のほとんどは、小乗的で、大乗的完全無欠なものは、ほとんどないといっていい程である。<br><br>もしありとすれば、今日のごとき苦悩の世界は既に消滅し、地上天国は生れていなければならないはずである。<br><br>従って、既成宗教は、多かれ少なかれ欠陥をもっている。<br><br>その欠陥の一つが、前述のごとき小乗的見解であって、それがために主神の大愛に帰一する能わず、宗教同士の醜い争いも絶えないのである。<br><br>一宗一派の中にさえ派を立て、鎬（しのぎ）を削り軋轢（あつれき）の絶間ないという事もそれであり、古き時代ヨーロッパにおける宗教争いが終りには大戦争さえ起したにみても、小乗信仰のいかに恐るべきかを知るのである。<br><br> 右の点に鑑（かんが）み、本教においては大乗を主とし小乗を従とする以上、厳しい戒律はなく実に自由解〔開〕放的である。<br><br>一言にしていえば全人類を抱擁し世界主義的構想である。<br><br> 従って、本教においては他信仰に触れる事はいささかもとがめない。<br><br>絶対自由である。<br><br>例えば本教信者であって他の宗教を研究しても何ら差支えないのみならず、万一本教よりも優れたる宗教があれば、それに転向する事も自由である。<br><br>と共に、一旦他宗教に転向した者が、再び本教に戻る事あるも、これまた差支えないのである。<br><br> 元来信仰というものは、人間の魂の底から自ら湧き出で、止むに止まれず信仰する態度こそ本当のものである。<br><br>しかるに転向そのものを罪悪のごとく教えられ、それに従わねばならぬ事は、全く一種の脅迫によって信仰を持続させようとするのであるから、自由意識を圧迫し、自己欺瞞である。<br><br>このような信仰こそ神の御旨に適うはずはないのである。<br><br>真の信仰とは、飽くまで自湧的で、何ら拘束のない事を忘れてはならないので本教が大乗を主とするゆえんもここにあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Resposta à Angústia dos Conversos</h2>
 <p>É natural que a transição de um fiel de uma crença para outra seja acompanhada por angústias, de maior ou menor intensidade. A carta que recentemente recebemos, no entanto, expõe com minúcia a sinceridade de uma transformação espiritual e os dilemas que a acompanham, constituindo um relato comovente que nos toca profundamente. A resolução das angústias que inevitavelmente acometem os conversos constitui uma importante faceta da salvação, e foi por essa razão que decidi abordar o tema. Ao analisar a questão em detalhe, percebe-se que seu ponto central é o que se segue.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Portanto, em nossa fé, não há a menor recriminação quanto ao estudo de outras crenças. A liberdade é absoluta. Nossos membros não apenas podem pesquisar outras religiões sem qualquer objeção, como também são livres para se converterem, caso encontrem uma doutrina que considerem superior. Da mesma forma, se alguém que se converteu a outra fé desejar retornar, será sempre bem-vindo.</p>
 <p>A fé autêntica é aquela que brota espontaneamente do fundo da alma, um impulso genuíno que não pode ser contido. Ensinar que a conversão é um pecado e exigir obediência a esse dogma nada mais é do que uma forma de coação, uma tentativa de manter o fiel por meio da intimidação. Tal prática oprime a livre consciência e constitui um autoengano. Uma fé assim jamais poderia estar em harmonia com a Vontade Divina.</p>
 <p>É fundamental não esquecer que a verdadeira fé é, acima de tudo, espontânea e livre de quaisquer amarras. Eis a razão pela qual nossa Igreja se pauta, primordialmente, na perspectiva ampla.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 転向者の悩みに応う 『地上天国』11号、昭和24(1949)年12月20日発行 ある宗教信者から他の宗教に転向する場合、人により大小それぞれの悩みのあるのは致し方ないとしても、ここに発表する左記の投書〔略〕のごときは、偽らざる心境の変化と転向の悩みをつぶさに書き連ねており、切々として真に胸に迫るものがある。<br/><br/>今後転向者がたどるであろうこの悩みの解決も、重要なる救いの一面であるからかいたのである。<br/><br/>そうして仔細に検討する時、その焦点は左記のごときものである。<br/><br/> その人はキリスト教プロテスタント派の有力な信者との事であるが、もちろんこのような人の場合はひとりキリスト教徒に限らず、他の宗教信者にも相当ある例である。<br/><br/>もちろん他宗に触るるべからずという厳重な戒律の枠によるためであるが、これは何が原因であるかを説いてみよう。<br/><br/> そもそもいかなる宗教にも大乗門と小乗門とあり、常に吾らの説くごとく小乗とは火であり経であるに対し、大乗とは水であり緯（よこ）である。<br/><br/>従って小乗は戒律を旨とし、大乗は自由無碍を本義とする。<br/><br/>この理によって転向の悩みは小乗的戒律のためで、大乗的においては転向の悩みなど全然ないのである。<br/><br/>という事はいかなる宗教といえども、その本源は主神すなわちエホバ、ゴッド、天帝、仏陀等からであって、全世界あらゆる民族、地域、時代によって、神の代行者としてキリスト、釈迦、マホメット等を初めその他の聖者、賢哲を輩出され給うたのであるから、もちろん大小の優劣はあるにはあるが、その本源は同根である。<br/><br/>また人間にあっても上根中根下根の差別があるから、その魂相応に受入れらるべき宗教を必要とするのである。<br/><br/>例えば深遠なる教理でなければ満足出来ない者もあり、鉦（かね）、大鼓や種々の楽器、読経、舞踊等によらなければ、納得しない大衆的信仰もある事によってみても明らかである。<br/><br/> また別の例をいえば世界各民族間にもその伝統、慣習、趣味、文化の高下等の差別が自らあるにみてもよく判るのである。<br/><br/> これによってこれをみれば、小乗信仰は人間が限界を作り、それに捉われて苦しむので、これは非常な誤りである。<br/><br/>神の大愛とはそんな極限された小さなものではないにかかわらず、現在あるところの宗教のほとんどは、小乗的で、大乗的完全無欠なものは、ほとんどないといっていい程である。<br/><br/>もしありとすれば、今日のごとき苦悩の世界は既に消滅し、地上天国は生れていなければならないはずである。<br/><br/>従って、既成宗教は、多かれ少なかれ欠陥をもっている。<br/><br/>その欠陥の一つが、前述のごとき小乗的見解であって、それがために主神の大愛に帰一する能わず、宗教同士の醜い争いも絶えないのである。<br/><br/>一宗一派の中にさえ派を立て、鎬（しのぎ）を削り軋轢（あつれき）の絶間ないという事もそれであり、古き時代ヨーロッパにおける宗教争いが終りには大戦争さえ起したにみても、小乗信仰のいかに恐るべきかを知るのである。<br/><br/> 右の点に鑑（かんが）み、本教においては大乗を主とし小乗を従とする以上、厳しい戒律はなく実に自由解〔開〕放的である。<br/><br/>一言にしていえば全人類を抱擁し世界主義的構想である。<br/><br/> 従って、本教においては他信仰に触れる事はいささかもとがめない。<br/><br/>絶対自由である。<br/><br/>例えば本教信者であって他の宗教を研究しても何ら差支えないのみならず、万一本教よりも優れたる宗教があれば、それに転向する事も自由である。<br/><br/>と共に、一旦他宗教に転向した者が、再び本教に戻る事あるも、これまた差支えないのである。<br/><br/> 元来信仰というものは、人間の魂の底から自ら湧き出で、止むに止まれず信仰する態度こそ本当のものである。<br/><br/>しかるに転向そのものを罪悪のごとく教えられ、それに従わねばならぬ事は、全く一種の脅迫によって信仰を持続させようとするのであるから、自由意識を圧迫し、自己欺瞞である。<br/><br/>このような信仰こそ神の御旨に適うはずはないのである。<br/><br/>真の信仰とは、飽くまで自湧的で、何ら拘束のない事を忘れてはならないので本教が大乗を主とするゆえんもここにあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinpi02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神秘の扉は開かれたり 『地上天国』7号、昭和24(1949)年8月30日発行 私が解くところの多くの説は、そのほとんどが前人未踏のものばかりといってもよかろう。<br><br>これについて、良い意味の疑念を起す人が数多くあろうと思うから、その訳を簡単にかいてみる。<br><br> 私は常に地上天国建設を唱えているが、これは私が考え出したのではない。<br><br>天の時到って神が私をして実現すべき計画と様相を示すと共に、目的を遂行し得る絶大なる力を与え給うたのである。<br><br>その力の中、物を識る力の発揮が私の解く説となり、今日まで暗幕に鎖されていた謎や、霧に覆われ朦朧（もうろう）としていたものなどがはっきりと霊覚に映り、そのままをかくのであるから、一切が開明せられる時となったのである。<br><br> ちょうど今日まで夜の世界であって、暗の夜の不可視はもちろんであるが、月明といえども、鮮明に物を見得る程ではない。<br><br>それが現在までの世界の実相であった。<br><br> ところが、昭和六年の半（なかば）頃から黎明（れいめい）期に入ったのである。<br><br>その時を契期として、漸次太陽は上昇しつつ昼の世界に入った訳で、今や光明世界は来らんとし、地上天国は出現せんとするのである。<br><br>この意味においてあらゆる謎も秘密も社会悪も光明に晒される事になった。<br><br>いわば不透明が透明となり、悪の隠れ場がなくなる事となったのである。<br><br> 人間の三大苦である病貧争の原因が、悪から発生したとすれば、悪の追放によって病貧争絶無の世界が生れるのはあえて不思議ではない。<br><br>そうして右の三大苦の中の主たるものはもちろん人間の病苦である以上、病患の根源といえども明らかとなるのは当然で、ここに病無き世界が実現するのである。<br><br> そうして今日までの宗教を初め、哲学、教育、思想等あらゆるものは一切万有に対しある程度以上の解釈は不可能とされ、深奥なる核心に触れる事は出来なかった。<br><br>彼の釈尊は七十二歳にして吾見真実となったといい、日蓮は五十余歳にして見真実となったと言う事であるが、見真実とは、前述の核心に触れた事を言うのである。<br><br>それによって明らかとなったのが、釈尊においては法滅尽（ほうめつじん）と弥勒下生（みろくげしょう）であり、日蓮においては六百五十年後浄行菩薩が出現し、義農（ぎのう）の世となるという事であった。<br><br>キリストは見真実の言は発せられなかったが「天国は近づけり」という事と「キリスト再臨」の予言は、見真実によらなければ判るはずがないのである。<br><br>その他昔から見真実でないまでも、それに近い聖者の幾人かは現われた事は想像され得るのである。<br><br>そうして見真実を判りやすくいえば、ピラミッドの頂点の位置に上ったと思えばいい、ピラミッドの高き尖端に立って俯瞰（ふかん）する時、高い程視野が広くなり、多くを見得ると同様である。<br><br> ここで私の事を言わない訳にはゆかないが、私は四十五歳にして見真実になったのである。<br><br>見真実の境地に入ってみれば、過現未にわたって一切が明らかに知り得る。<br><br>もちろん過去の一切の誤りは浮び上って来ると共に、未来の世界もその時の人間の在り方も、判然と見通し得るのである。<br><br>といって知り得た総てを今は語る訳にはゆかない。<br><br>何となればサタンも提婆（だいば）もパリサイ人もいまだ妨害を続けつつあるからである。<br><br>ゆえにある範囲だけを発表するの余儀ない訳であるから、今一歩というところで、徹底しない悩みのなきにしも非ずであるが、これも経綸上止むを得ないのである。<br><br>しかし、今までだけの発表でも前人のそれとは格段の相違のある事は、私の文章を読む限りの人は認識されたであろう。<br><br> 以上標題のごとく、すでに神秘の扉は開かれたのである。<br><br> (注) 法滅尽（ほうめつじん）、仏法が滅びること。<br><br> 弥勒下生（みろくげしょう）、釈迦が入滅して56億7千万年後、弥勒菩薩がこの世に下生（生まれる）して、釈迦の教えで救われなかった人々を悉く救済するという教え。<br><br> 義農の世（ぎのうのよ）、中国古代神話の統治者である伏羲・神農が治めていたような理想世界。<br><br>羲農。<br><br> 提婆、提婆達多（だいばだった）、釈迦の従弟。<br><br>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br><br> パリサイ人（びと）、ユダヤ教ファリサイ派といわれる。<br><br>キリストを敵視し迫害の主動的役割を果たした。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Portas do Mistério Foram Abertas</h2>
 <p>Pode-se afirmar que a maioria dos ensinamentos que exponho é inédita na história da humanidade. Como imagino que tal fato suscite questionamentos legítimos em muitas pessoas, passarei a elucidar brevemente a sua razão de ser.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Até hoje, campos do saber como a religião, a filosofia, a educação e as correntes de pensamento, ao lidarem com a totalidade da existência, não conseguiam ultrapassar um certo nível de interpretação, sendo-lhes impossível tocar o núcleo essencial da Verdade. O notável Shakyamuni, aos setenta e dois anos, afirmou ter atingido o "Ken-shinjitsu" (見真実), a contemplação da Realidade Essencial. Da mesma forma, Nichiren declarou tê-lo alcançado após os cinquenta anos. Atingir o Ken-shinjitsu (見真実) significa, precisamente, tocar esse núcleo. Para Shakyamuni, o que se tornou claro por meio dessa percepção foi a extinção da lei búdica, Houmetsujin (法滅尽), e a vinda de Maitreya, Miroku Gueshou (弥勒下生). Para Nichiren, foi a revelação de que, após seiscentos e cinquenta anos, o Bodhisattva Jogyo surgiria para instaurar o mundo de Guino (義農の世), uma era de paz e prosperidade. Embora Cristo não tenha empregado essa terminologia, suas profecias — "O Reino dos Céus está próximo" e a "Segunda Vinda" — seriam impossíveis de se conhecer sem ter atingido tal estado de consciência. Ademais, é lícito supor que, ao longo da história, outros santos, ainda que não tenham alcançado plenamente o Ken-shinjitsu (見真実), dele se aproximaram. Para facilitar a compreensão, podemos comparar o Ken-shinjitsu (見真実) a estar no topo de uma pirâmide. Do seu ápice, ao se contemplar a paisagem, quanto maior a altitude, mais vasto o campo de visão e mais se pode enxergar.</p>
 <p>Neste ponto, torna-se inevitável falar sobre minha própria experiência: eu atingi o Ken-shinjitsu (見真実) aos quarenta e cinco anos. Uma vez nesse estado de consciência, é possível conhecer com clareza a totalidade dos fatos que permeiam o passado, o presente e o futuro. Naturalmente, todos os erros pretéritos tornam-se evidentes, ao mesmo tempo em que se pode antever com nitidez o mundo vindouro e a condição da humanidade nesse tempo. Todavia, não me é permitido, no momento, revelar tudo o que conheço, pois forças como Satã, Devadatta (提婆) e os fariseus ainda persistem em suas tentativas de obstrução. Por essa razão, vejo-me na contingência de divulgar os ensinamentos apenas até certo ponto. Embora disto decorra uma certa angústia por não poder ser exaustivo, trata-se de uma necessidade inelutável do Plano Divino. Contudo, creio que mesmo as revelações feitas até agora permitiram àqueles que leem meus escritos reconhecer a abissal diferença em relação a tudo o que foi exposto por meus predecessores.</p>
 <p>Conforme o título deste artigo, as portas do mistério já foram abertas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神秘の扉は開かれたり 『地上天国』7号、昭和24(1949)年8月30日発行 私が解くところの多くの説は、そのほとんどが前人未踏のものばかりといってもよかろう。<br/><br/>これについて、良い意味の疑念を起す人が数多くあろうと思うから、その訳を簡単にかいてみる。<br/><br/> 私は常に地上天国建設を唱えているが、これは私が考え出したのではない。<br/><br/>天の時到って神が私をして実現すべき計画と様相を示すと共に、目的を遂行し得る絶大なる力を与え給うたのである。<br/><br/>その力の中、物を識る力の発揮が私の解く説となり、今日まで暗幕に鎖されていた謎や、霧に覆われ朦朧（もうろう）としていたものなどがはっきりと霊覚に映り、そのままをかくのであるから、一切が開明せられる時となったのである。<br/><br/> ちょうど今日まで夜の世界であって、暗の夜の不可視はもちろんであるが、月明といえども、鮮明に物を見得る程ではない。<br/><br/>それが現在までの世界の実相であった。<br/><br/> ところが、昭和六年の半（なかば）頃から黎明（れいめい）期に入ったのである。<br/><br/>その時を契期として、漸次太陽は上昇しつつ昼の世界に入った訳で、今や光明世界は来らんとし、地上天国は出現せんとするのである。<br/><br/>この意味においてあらゆる謎も秘密も社会悪も光明に晒される事になった。<br/><br/>いわば不透明が透明となり、悪の隠れ場がなくなる事となったのである。<br/><br/> 人間の三大苦である病貧争の原因が、悪から発生したとすれば、悪の追放によって病貧争絶無の世界が生れるのはあえて不思議ではない。<br/><br/>そうして右の三大苦の中の主たるものはもちろん人間の病苦である以上、病患の根源といえども明らかとなるのは当然で、ここに病無き世界が実現するのである。<br/><br/> そうして今日までの宗教を初め、哲学、教育、思想等あらゆるものは一切万有に対しある程度以上の解釈は不可能とされ、深奥なる核心に触れる事は出来なかった。<br/><br/>彼の釈尊は七十二歳にして吾見真実となったといい、日蓮は五十余歳にして見真実となったと言う事であるが、見真実とは、前述の核心に触れた事を言うのである。<br/><br/>それによって明らかとなったのが、釈尊においては法滅尽（ほうめつじん）と弥勒下生（みろくげしょう）であり、日蓮においては六百五十年後浄行菩薩が出現し、義農（ぎのう）の世となるという事であった。<br/><br/>キリストは見真実の言は発せられなかったが「天国は近づけり」という事と「キリスト再臨」の予言は、見真実によらなければ判るはずがないのである。<br/><br/>その他昔から見真実でないまでも、それに近い聖者の幾人かは現われた事は想像され得るのである。<br/><br/>そうして見真実を判りやすくいえば、ピラミッドの頂点の位置に上ったと思えばいい、ピラミッドの高き尖端に立って俯瞰（ふかん）する時、高い程視野が広くなり、多くを見得ると同様である。<br/><br/> ここで私の事を言わない訳にはゆかないが、私は四十五歳にして見真実になったのである。<br/><br/>見真実の境地に入ってみれば、過現未にわたって一切が明らかに知り得る。<br/><br/>もちろん過去の一切の誤りは浮び上って来ると共に、未来の世界もその時の人間の在り方も、判然と見通し得るのである。<br/><br/>といって知り得た総てを今は語る訳にはゆかない。<br/><br/>何となればサタンも提婆（だいば）もパリサイ人もいまだ妨害を続けつつあるからである。<br/><br/>ゆえにある範囲だけを発表するの余儀ない訳であるから、今一歩というところで、徹底しない悩みのなきにしも非ずであるが、これも経綸上止むを得ないのである。<br/><br/>しかし、今までだけの発表でも前人のそれとは格段の相違のある事は、私の文章を読む限りの人は認識されたであろう。<br/><br/> 以上標題のごとく、すでに神秘の扉は開かれたのである。<br/><br/> (注) 法滅尽（ほうめつじん）、仏法が滅びること。<br/><br/> 弥勒下生（みろくげしょう）、釈迦が入滅して56億7千万年後、弥勒菩薩がこの世に下生（生まれる）して、釈迦の教えで救われなかった人々を悉く救済するという教え。<br/><br/> 義農の世（ぎのうのよ）、中国古代神話の統治者である伏羲・神農が治めていたような理想世界。<br/><br/>羲農。<br/><br/> 提婆、提婆達多（だいばだった）、釈迦の従弟。<br/><br/>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br/><br/> パリサイ人（びと）、ユダヤ教ファリサイ派といわれる。<br/><br/>キリストを敵視し迫害の主動的役割を果たした。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

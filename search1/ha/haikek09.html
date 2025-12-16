@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>haikek09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺結核を作る医療 未発表、昭和11(1936)年5月25日執筆 近来、肺結核激増の趨勢は実に驚くべき程であって、官民共に甚大な努力を払いつつあり、又、進歩せりと誇称せる現代医学の最善を以てしても、なおかつ防遏（ぼうあつ）出来ないという事はいかなる訳であろうか。<br><br>ここに疑問を起さなくてはならない。<br><br>それは根本において一大誤謬があるからであって、その誤謬とは実に現代医学の治療法が、反って肺患を作りつつあるという驚くべき奇怪事である。<br><br>それを今詳細に述べてみよう。<br><br> まず肺結核と称する疾患の症状から説明してみる。<br><br>患者の症状としてはこの病に特異なる点は微熱と咳嗽とである。<br><br>勿論食欲不振、疲労、下痢、盗汗等もあるが、順序として最初の特異症状から説いてみる。<br><br> 微熱の原因としては例外ないという程、各患者に共通点の症状がある。<br><br>それは淋巴腺及び肺尖上部即ち頸部の付根、肩胛部、背部及び両胸部、主に乳の付近の肋骨膜に、膿の溜結と汚血の滞溜を見るので、これは容易に診断が出来るのである。<br><br>それは前述の部に掌を触るれば、必ず発熱がある事を知る（稀には無熱のもある。<br><br>それは長時日絶対安静をさせ、自然治癒力即ち浄化力を衰退さした結果であるから、これらは浄化力恢復に従って再び発熱するものである）。<br><br>それは膿結の為であるから、指頭で圧すれば必ず痛みがあると共に、大中小のグリグリがあるのである。<br><br>それが石のごとく固結したものもあるが、これは昔から言う瘰癧（るいれき）である。<br><br> これらの症状の原因は何であるかというと、それは実に、医療が作ったとも言えるのである。<br><br>そうして最初の発病は、ほとんど風邪が第一歩である事である。<br><br> そもそも、風邪とはいかなるものであるか、それから説いてみよう。<br><br>前述のごとき各部における膿の溜結を最も簡単に排除する為の自然治癒力の発動が風邪である事を知らねばならない。<br><br>故に、その際の発熱はこの膿の溜結を溶解せんが為である。<br><br>それは溶解して稀薄にし、鼻汁及び喀痰として排泄するのである。<br><br>その際の血痰及び喀血は、膿の溜結の外に汚血の排除が加わるからである。<br><br>故に、風邪なる浄化法によって重症を避けるべく、早期において自然に確実に治癒されるよう人体は作られてあるのである。<br><br> しかるに、それら真因に盲目である医学は、この発熱を非常に怖れるのである。<br><br>病患治癒に対し最も重要なる役目を行う発熱を、反って病患悪化と思い、何よりもまず解熱療法をする。<br><br>これがそもそもの一大誤療の出発点である。<br><br>そうして、解熱法として薬剤と氷冷法を行う為、その結果として膿の溜結は溶解するどころか、反対にいよいよ固結してしまうのは、理の当然である。<br><br> これからがいわゆる肺結核の症状となるのである。<br><br>それは自然の方では飽くまで治癒しようと、膿結を解溶すべく発熱の工作をするのに対し、錯覚してる医療は、この発熱を防止しようとするから、事実は治癒しないように努力している事になるので、実に恐るべきである。<br><br> 次に咳嗽であるが、多くの場合その原因はさのみ重症でない、喘息と耳下腺の膿の溜結が気管を圧迫する為とである。<br><br>そうして、医学では喘息の真因は未だ不明であって、現在は気管の故障とされているが、実は気管の苦痛は結果であって、その根本は臍部両側から胃及び肝臓部へかけての膿の溜結であって、これが溶解して喀痰となり、その喀痰排除の為の咳嗽である。<br><br>故に、咳嗽に因って膿が排除さるるのであるに拘わらず、医学は咳嗽を止めようとする。<br><br>又、この際も発熱に因っての膿の溶解を、医療の解熱が固結させるから治癒困難となるので、この点においても医療が治癒を妨害する事となるのである。<br><br> 次に胃の外廓に右のごとく膿溜が固結すればする程、胃は圧迫されるから、消化不良になるのは当然である。<br><br>加うるに愚かなる現代医学は消化不良を治さんとして、反って悪化の方法を行うのである。<br><br>それは消化薬の服用と絶対安静とである。<br><br>元来、胃は胃自身の活動によって食物が消化されるのが本当である。<br><br>しかるに、消化薬によって胃は活動の必要が無くなるから自然衰退する。<br><br>なる程、消化薬服用によって一時は食欲を増進させるが、時日の経過によって胃が退化するから、ついに食欲不振になるのは当然である。<br><br>この場合食欲不振を治癒しようと益々消化薬を用いる。<br><br>益々不振になる、という循環作用によって、ついに睡眠状態の胃にまでなる例は頗（すこぶ）る多いのである。<br><br>それへ拍車をかけるのが絶対安静であるから、全体的衰弱は倍々（ますます）病勢を悪化さす事になるのは当然である。<br><br> 次に、胸部の肋骨の一本一本に膿が溜結する症状である。<br><br>これを大抵の医家は肺患と誤診するのである。<br><br>何となれば、その部に微熱とラッセルとあり、又、レントゲン写真に暗雲のごとく顕出するからである。<br><br>しかし、この際肺には何ら異常がないのが事実である。<br><br> 次に、盗汗は浄化作用の一つであるから、大いに好いのである。<br><br>これは膿結が熱によって溶解し漿液となり、それが汗に変化して排除されるのであるから、実験上盗汗のある患者程恢復し易いのが実際である。<br><br>その事を知らない医学は、又してもこれを止めようとするから、矢張り治癒妨害である。<br><br> 次に下痢症であるが、これは末期の患者に多いのである。<br><br>この原因は、まず第一は胃部の膿の溜結が、腸部にまで移行蔓延して腸を圧迫する為と、滋養物と称して牛乳、肝油、肉食等、脂肪多量の食餌が、衰弱せる腸の負担加重となる為であるから、これらも治癒妨害の方法でしかないのである。<br><br> 大体部分的としては右のごとくであるが、広汎的にいって他に大誤謬がある事を告げなくてはならないので、それは病気軽快と治癒とを混同して居る事であって、真相はむしろ反対でさえあるのである。<br><br> 本来、病気現象としての苦痛即ち発熱、咳嗽、痛み等は自然治癒としての浄化活動であるから、それがはなはだしければはなはだしい程、浄化活動が旺盛である事である。<br><br>浄化活動が旺盛とは活力が旺盛であり、活動が旺盛であるのは血液の循環が旺盛であるからである。<br><br>それは血液が清浄であるという、その為である。<br><br> この理によって、血液を汚濁させる事と、運動不足であるほど血液循環の衰退する事になるのであるから、浄化力は薄弱になるのは当然である。<br><br>浄化力薄弱になれば病症は還元し、それによって苦痛は緩和される訳である。<br><br>医学はこの緩和を軽快と信ずる結果、治癒に向うものと解釈している。<br><br> であるから、現在の医療は、薬剤の注射と服用によって血液を溷濁（こんだく）させ、絶対安静に因って血液の循環を衰退さすのであるから、実際を観れば能（よ）く判るのである。<br><br>それは、一旦ある程度の軽快に至ったまま、それ以上の進展をみせないで、二年も三年も、中には数年もの同一経過を辿（たど）って、決して全治しないという例は随所に見るのであるが、これは前述の理由によるからである。<br><br> 次に、今一つの重大事がある。<br><br>それは肺結核は絶対に感染しない事である。<br><br>元来、結核とは膿の溜結が時日の経過によって頑固性になった為であって、こうなった膿はついに腐敗状になるのである。<br><br>その腐敗膿に黴菌が自然発生するのである。<br><br>たとえて言えば、あらゆるものが腐敗をすれば、蛆が湧くのと等しい理である。<br><br>これについてよく経験する事は、新しい膿は臭気がなく、古くなるに従って臭気が増すので、その最もはなはだしいのが肺壊疽の膿である。<br><br> 又この事の実証として、本会で養成された百数十人の治療士である。<br><br>彼らはこの真髄を知っているから、肺患者に対しても何ら恐怖はない。<br><br>患者の口唇と二三寸位まで接近する事が常にあるが、一人の感染者も無いのである。<br><br>又、私の子供数人は十年位以前から、結核患者と伍して常に食事をさしているが、何ら異常がないのにみても明かである。<br><br>故に、この真相が社会へ知れ亙（わた）ったなら、世人は結核菌恐怖の不安から解放され、その幸福は蓋（けだ）しすくなからざるものがあるであろう。<br><br> これを要するに、現代医学はいかに錯覚と誤謬の巷（ちまた）に昏迷しているかであり、一切の方法が実に姑息と不徹底極まる事である。<br><br>その結果結核を防止せんと努力しつつ、事実はその反対の結果を招来し、煩悶懊悩（おうのう）しつつあるのである。<br><br>この事を知悉（ちしつ）する吾人は、この重大危険事に対して、一時も晏如（あんじょ）たる能（あた）わず、一大警鐘を鳴らして社会を覚醒せしむべく、この文を草したのである。<br><br> 最後に、今一つ述べたい事がある。<br><br>それは最近の結核防止運動に対してである。<br><br>それによれば、早期診断をすれば大抵は治癒するという宣伝であるが、これは事実に当はまらない虚偽と思うのである。<br><br>何となれば、中流以上の子弟、医師の家族、看護婦等は、早期診断の絶対可能性があるに拘わらず、罹病者が一般人と何ら変りがない事実である。<br><br>又、時々健康診断を受けろというが、吾人はこれは実際において、反対の結果になると思うのである。<br><br>何となれば、病気を悪化させる誤れる医療であるからである。<br><br>反って医療を受けずして無意識的自然治癒される方が、より安全であると思うからである。<br><br> この文を書き終った時、新聞紙を見ればこういう事が書いてある。<br><br>最近、徴兵検査の結果、壮丁の胸患者が百人中二十人という恐るべき数字である。<br><br>しかるに、明治三十二年にはそれが百人中二人であったという事である。<br><br>その頃よりも医学は非常に進歩したと言うに拘わらず、右の結果から見れば、私の説の誤りでない事を事実が示しているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Medicina que Produz a Tuberculose Pulmonar</h2>
 <p>O avanço da tuberculose pulmonar nos últimos tempos assumiu proporções verdadeiramente alarmantes. A despeito dos vultosos esforços empreendidos tanto pela esfera governamental quanto pela sociedade civil, e mesmo com o emprego do que a medicina moderna orgulhosamente proclama como seus mais sofisticados recursos, a enfermidade segue sem poder ser contida. Por qual motivo isso ocorre? É imperativo que nos debrucemos sobre esta questão. A razão reside em um equívoco primordial e profundo: o próprio método de tratamento da medicina moderna, paradoxalmente, está a produzir os casos de tuberculose. Este é um fato desconcertante e singular, que passarei a expor detalhadamente.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Em suma, a medicina moderna se encontra perdida em um labirinto de equívocos e ilusões, e todos os seus métodos são paliativos e extremamente incompletos. Como resultado, enquanto se esforça para prevenir a tuberculose, na realidade, colhe o resultado oposto, vivendo em angústia e aflição. Cônscios desta grave e perigosa situação, não podemos permanecer impassíveis um só momento. Foi para lançar um grande alerta e despertar a sociedade que redigi este texto.</p>
 <p>Para concluir, gostaria de abordar um último ponto: a recente campanha de prevenção da tuberculose. Segundo a propaganda, o diagnóstico precoce levaria à cura na maioria dos casos. Creio, porém, que se trata de uma falácia desprovida de correspondência com a realidade. Prova disso é que os filhos das classes média e alta, os familiares de médicos e os enfermeiros, que têm todas as condições para um diagnóstico precoce, apresentam índices de adoecimento idênticos aos da população em geral. Ademais, a recomendação de exames de saúde periódicos, em minha opinião, produz, na prática, o resultado inverso, pois o tratamento em si é que agrava a doença. Julgo ser mais seguro não receber tratamento médico e permitir que a cura natural ocorra de forma inconsciente.</p>
 <p>Ao terminar de escrever este artigo, deparei-me com a seguinte notícia em um jornal: os recentes resultados do exame de alistamento militar revelaram um número alarmante de jovens com problemas torácicos — vinte em cada cem. No ano 32 da Era Meiji (1899), essa proporção era de apenas dois em cada cem. A despeito do alardeado avanço da medicina desde aquela época, o resultado supracitado demonstra que minha tese não está equivocada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺結核を作る医療 未発表、昭和11(1936)年5月25日執筆 近来、肺結核激増の趨勢は実に驚くべき程であって、官民共に甚大な努力を払いつつあり、又、進歩せりと誇称せる現代医学の最善を以てしても、なおかつ防遏（ぼうあつ）出来ないという事はいかなる訳であろうか。<br/><br/>ここに疑問を起さなくてはならない。<br/><br/>それは根本において一大誤謬があるからであって、その誤謬とは実に現代医学の治療法が、反って肺患を作りつつあるという驚くべき奇怪事である。<br/><br/>それを今詳細に述べてみよう。<br/><br/> まず肺結核と称する疾患の症状から説明してみる。<br/><br/>患者の症状としてはこの病に特異なる点は微熱と咳嗽とである。<br/><br/>勿論食欲不振、疲労、下痢、盗汗等もあるが、順序として最初の特異症状から説いてみる。<br/><br/> 微熱の原因としては例外ないという程、各患者に共通点の症状がある。<br/><br/>それは淋巴腺及び肺尖上部即ち頸部の付根、肩胛部、背部及び両胸部、主に乳の付近の肋骨膜に、膿の溜結と汚血の滞溜を見るので、これは容易に診断が出来るのである。<br/><br/>それは前述の部に掌を触るれば、必ず発熱がある事を知る（稀には無熱のもある。<br/><br/>それは長時日絶対安静をさせ、自然治癒力即ち浄化力を衰退さした結果であるから、これらは浄化力恢復に従って再び発熱するものである）。<br/><br/>それは膿結の為であるから、指頭で圧すれば必ず痛みがあると共に、大中小のグリグリがあるのである。<br/><br/>それが石のごとく固結したものもあるが、これは昔から言う瘰癧（るいれき）である。<br/><br/> これらの症状の原因は何であるかというと、それは実に、医療が作ったとも言えるのである。<br/><br/>そうして最初の発病は、ほとんど風邪が第一歩である事である。<br/><br/> そもそも、風邪とはいかなるものであるか、それから説いてみよう。<br/><br/>前述のごとき各部における膿の溜結を最も簡単に排除する為の自然治癒力の発動が風邪である事を知らねばならない。<br/><br/>故に、その際の発熱はこの膿の溜結を溶解せんが為である。<br/><br/>それは溶解して稀薄にし、鼻汁及び喀痰として排泄するのである。<br/><br/>その際の血痰及び喀血は、膿の溜結の外に汚血の排除が加わるからである。<br/><br/>故に、風邪なる浄化法によって重症を避けるべく、早期において自然に確実に治癒されるよう人体は作られてあるのである。<br/><br/> しかるに、それら真因に盲目である医学は、この発熱を非常に怖れるのである。<br/><br/>病患治癒に対し最も重要なる役目を行う発熱を、反って病患悪化と思い、何よりもまず解熱療法をする。<br/><br/>これがそもそもの一大誤療の出発点である。<br/><br/>そうして、解熱法として薬剤と氷冷法を行う為、その結果として膿の溜結は溶解するどころか、反対にいよいよ固結してしまうのは、理の当然である。<br/><br/> これからがいわゆる肺結核の症状となるのである。<br/><br/>それは自然の方では飽くまで治癒しようと、膿結を解溶すべく発熱の工作をするのに対し、錯覚してる医療は、この発熱を防止しようとするから、事実は治癒しないように努力している事になるので、実に恐るべきである。<br/><br/> 次に咳嗽であるが、多くの場合その原因はさのみ重症でない、喘息と耳下腺の膿の溜結が気管を圧迫する為とである。<br/><br/>そうして、医学では喘息の真因は未だ不明であって、現在は気管の故障とされているが、実は気管の苦痛は結果であって、その根本は臍部両側から胃及び肝臓部へかけての膿の溜結であって、これが溶解して喀痰となり、その喀痰排除の為の咳嗽である。<br/><br/>故に、咳嗽に因って膿が排除さるるのであるに拘わらず、医学は咳嗽を止めようとする。<br/><br/>又、この際も発熱に因っての膿の溶解を、医療の解熱が固結させるから治癒困難となるので、この点においても医療が治癒を妨害する事となるのである。<br/><br/> 次に胃の外廓に右のごとく膿溜が固結すればする程、胃は圧迫されるから、消化不良になるのは当然である。<br/><br/>加うるに愚かなる現代医学は消化不良を治さんとして、反って悪化の方法を行うのである。<br/><br/>それは消化薬の服用と絶対安静とである。<br/><br/>元来、胃は胃自身の活動によって食物が消化されるのが本当である。<br/><br/>しかるに、消化薬によって胃は活動の必要が無くなるから自然衰退する。<br/><br/>なる程、消化薬服用によって一時は食欲を増進させるが、時日の経過によって胃が退化するから、ついに食欲不振になるのは当然である。<br/><br/>この場合食欲不振を治癒しようと益々消化薬を用いる。<br/><br/>益々不振になる、という循環作用によって、ついに睡眠状態の胃にまでなる例は頗（すこぶ）る多いのである。<br/><br/>それへ拍車をかけるのが絶対安静であるから、全体的衰弱は倍々（ますます）病勢を悪化さす事になるのは当然である。<br/><br/> 次に、胸部の肋骨の一本一本に膿が溜結する症状である。<br/><br/>これを大抵の医家は肺患と誤診するのである。<br/><br/>何となれば、その部に微熱とラッセルとあり、又、レントゲン写真に暗雲のごとく顕出するからである。<br/><br/>しかし、この際肺には何ら異常がないのが事実である。<br/><br/> 次に、盗汗は浄化作用の一つであるから、大いに好いのである。<br/><br/>これは膿結が熱によって溶解し漿液となり、それが汗に変化して排除されるのであるから、実験上盗汗のある患者程恢復し易いのが実際である。<br/><br/>その事を知らない医学は、又してもこれを止めようとするから、矢張り治癒妨害である。<br/><br/> 次に下痢症であるが、これは末期の患者に多いのである。<br/><br/>この原因は、まず第一は胃部の膿の溜結が、腸部にまで移行蔓延して腸を圧迫する為と、滋養物と称して牛乳、肝油、肉食等、脂肪多量の食餌が、衰弱せる腸の負担加重となる為であるから、これらも治癒妨害の方法でしかないのである。<br/><br/> 大体部分的としては右のごとくであるが、広汎的にいって他に大誤謬がある事を告げなくてはならないので、それは病気軽快と治癒とを混同して居る事であって、真相はむしろ反対でさえあるのである。<br/><br/> 本来、病気現象としての苦痛即ち発熱、咳嗽、痛み等は自然治癒としての浄化活動であるから、それがはなはだしければはなはだしい程、浄化活動が旺盛である事である。<br/><br/>浄化活動が旺盛とは活力が旺盛であり、活動が旺盛であるのは血液の循環が旺盛であるからである。<br/><br/>それは血液が清浄であるという、その為である。<br/><br/> この理によって、血液を汚濁させる事と、運動不足であるほど血液循環の衰退する事になるのであるから、浄化力は薄弱になるのは当然である。<br/><br/>浄化力薄弱になれば病症は還元し、それによって苦痛は緩和される訳である。<br/><br/>医学はこの緩和を軽快と信ずる結果、治癒に向うものと解釈している。<br/><br/> であるから、現在の医療は、薬剤の注射と服用によって血液を溷濁（こんだく）させ、絶対安静に因って血液の循環を衰退さすのであるから、実際を観れば能（よ）く判るのである。<br/><br/>それは、一旦ある程度の軽快に至ったまま、それ以上の進展をみせないで、二年も三年も、中には数年もの同一経過を辿（たど）って、決して全治しないという例は随所に見るのであるが、これは前述の理由によるからである。<br/><br/> 次に、今一つの重大事がある。<br/><br/>それは肺結核は絶対に感染しない事である。<br/><br/>元来、結核とは膿の溜結が時日の経過によって頑固性になった為であって、こうなった膿はついに腐敗状になるのである。<br/><br/>その腐敗膿に黴菌が自然発生するのである。<br/><br/>たとえて言えば、あらゆるものが腐敗をすれば、蛆が湧くのと等しい理である。<br/><br/>これについてよく経験する事は、新しい膿は臭気がなく、古くなるに従って臭気が増すので、その最もはなはだしいのが肺壊疽の膿である。<br/><br/> 又この事の実証として、本会で養成された百数十人の治療士である。<br/><br/>彼らはこの真髄を知っているから、肺患者に対しても何ら恐怖はない。<br/><br/>患者の口唇と二三寸位まで接近する事が常にあるが、一人の感染者も無いのである。<br/><br/>又、私の子供数人は十年位以前から、結核患者と伍して常に食事をさしているが、何ら異常がないのにみても明かである。<br/><br/>故に、この真相が社会へ知れ亙（わた）ったなら、世人は結核菌恐怖の不安から解放され、その幸福は蓋（けだ）しすくなからざるものがあるであろう。<br/><br/> これを要するに、現代医学はいかに錯覚と誤謬の巷（ちまた）に昏迷しているかであり、一切の方法が実に姑息と不徹底極まる事である。<br/><br/>その結果結核を防止せんと努力しつつ、事実はその反対の結果を招来し、煩悶懊悩（おうのう）しつつあるのである。<br/><br/>この事を知悉（ちしつ）する吾人は、この重大危険事に対して、一時も晏如（あんじょ）たる能（あた）わず、一大警鐘を鳴らして社会を覚醒せしむべく、この文を草したのである。<br/><br/> 最後に、今一つ述べたい事がある。<br/><br/>それは最近の結核防止運動に対してである。<br/><br/>それによれば、早期診断をすれば大抵は治癒するという宣伝であるが、これは事実に当はまらない虚偽と思うのである。<br/><br/>何となれば、中流以上の子弟、医師の家族、看護婦等は、早期診断の絶対可能性があるに拘わらず、罹病者が一般人と何ら変りがない事実である。<br/><br/>又、時々健康診断を受けろというが、吾人はこれは実際において、反対の結果になると思うのである。<br/><br/>何となれば、病気を悪化させる誤れる医療であるからである。<br/><br/>反って医療を受けずして無意識的自然治癒される方が、より安全であると思うからである。<br/><br/> この文を書き終った時、新聞紙を見ればこういう事が書いてある。<br/><br/>最近、徴兵検査の結果、壮丁の胸患者が百人中二十人という恐るべき数字である。<br/><br/>しかるに、明治三十二年にはそれが百人中二人であったという事である。<br/><br/>その頃よりも医学は非常に進歩したと言うに拘わらず、右の結果から見れば、私の説の誤りでない事を事実が示しているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

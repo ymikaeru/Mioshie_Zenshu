@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qjokawo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 浄化を知れ 医学で手のつかぬ全身麻痺救わる 『救世』64号、昭和25(1950)年5月27日発行 愛知県 五六七大教会神元中教会 片桐辨次（26） 昭和二十三年十一月某日仕事を終えて帰宅致しましたら何となしに足の踏ン張りに身体がこわく、痛いのかと思うとそうでもなく重々しい訳も判らない変な気持ですから明日の仕事（トラック運転）を予測して足でも不自由になったら大変だと感じ、懇意な医師のもとに行き症状を訴えて注射をしてもらい家に帰って床につきました。<br><br>翌朝妻に起されて目ざめ慌てて立上ろうとしてバッタリ倒れたままどうしても立上る事が出来ないのです。<br><br>別に痛みもなく何等身体に障りはないのにも拘わらず手も足もきかない。<br><br>暫時呆然としておりましたが知らず識らずの内に達磨になってしまってと不覚の涙がボロボロと頬に伝り落ちました。<br><br>それと察してベッタリ力抜けして座っている妻を怒って医師を迎え注射をして貰いましたが、何の手応えもなく三日間涙に暮れました。<br><br> 伝言を聞いて妻の母が驚いて夕刻とんで参り光明如来様の浄霊をと言ってくれましたが、自由の利かない身でありながらなおその気持を無視してただそんな迷信めいた事でと腹立たしさで一杯でしたが強引に母は一時間位手を振ってくれました。<br><br>その結果不思議に指先に感覚を得て少しだが動くようになりました。<br><br>それでも翌日医師を断る気にもなれず続けて注射を受けておりました。<br><br>母は大丈夫だから薬を止めよと言うのですが素直に聞けませんでした。<br><br>それでもわがままな私をいとわず根気よく翌日から朝夕浄霊を続けてくれました。<br><br>身体も少しずつ軽くなっていたが六日目医師のすすめで病状が判明しないため大学病院で血液検査をして来い、その結果が何よりの頼りと言われトラックに乗せられて名古屋に出向き検査を受け病状を尋ねましたら博士は頭をひねって小児麻痺と同様で手当はしっかりしなさい気長く土地の医者にみてもらいなさいとの言葉で帰って来ました。<br><br> その時に至って初めて母の真心の観音行を身にしみ判って来て自ずと頭を下げ、これ以外に救われる道はない、誠に申訳なかったとしっかりと光明如来様にお縋りする気持になり心から母を頼りました。<br><br>その夜から身体はグングン力がついて来て翌日からは部屋を這えるし、その翌日からは杖に縋って部屋を歩け、その翌朝からは手ばなしで歩け、午後からは何の故障もなく歩けるようになり、その翌日の発病十日目から車に乗れるようになりました。<br><br>母はその快癒の早いのに益々熱心に善言讃詞を奏げると共に一回一回楽しみに顔を綻ばして笑みつつ浄霊を続け、妻は喜びと尊い母の精進に両手を合せて伏し拝む程でした。<br><br>ああ偉なる哉妙智力、ただただああ有難しの一語につきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo de uma Paralisia Geral Desenganada pela Medicina</h2>
 <p>Revista "A Salvação", nº 64, publicada em 27 de maio de 1950</p>
@@ -100,5 +255,48 @@ Igreja Kamimoto, da Grande Igreja Miroku, Província de Aichi</p>
 <p>A partir daquela mesma noite, meu corpo começou a readquirir as forças vigorosamente. No dia seguinte, já conseguia me arrastar pelo quarto. No outro, já caminhava pelo cômodo apoiado em uma bengala. Na manhã posterior, andava sem nenhum apoio e, à tarde, locomovia-me sem qualquer dificuldade. Por fim, no décimo dia desde o início da doença, eu já era capaz de dirigir novamente.</p>
 <p>Minha sogra, diante de tão rápida recuperação, entoava a oração Zengon Sanshi (善言讃詞) com fervor ainda maior e continuava a ministrar-me Johrei com um sorriso radiante no rosto. Minha esposa, por sua vez, transbordava de alegria e, em reverência à nobre devoção de sua mãe, chegava a juntar as mãos em prece e a se curvar.</p>
 <p>Oh, quão grandioso é o Myo-Chiriki (妙智力)! Tudo se resume a uma única e profunda palavra: gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 浄化を知れ 医学で手のつかぬ全身麻痺救わる 『救世』64号、昭和25(1950)年5月27日発行 愛知県 五六七大教会神元中教会 片桐辨次（26） 昭和二十三年十一月某日仕事を終えて帰宅致しましたら何となしに足の踏ン張りに身体がこわく、痛いのかと思うとそうでもなく重々しい訳も判らない変な気持ですから明日の仕事（トラック運転）を予測して足でも不自由になったら大変だと感じ、懇意な医師のもとに行き症状を訴えて注射をしてもらい家に帰って床につきました。<br/><br/>翌朝妻に起されて目ざめ慌てて立上ろうとしてバッタリ倒れたままどうしても立上る事が出来ないのです。<br/><br/>別に痛みもなく何等身体に障りはないのにも拘わらず手も足もきかない。<br/><br/>暫時呆然としておりましたが知らず識らずの内に達磨になってしまってと不覚の涙がボロボロと頬に伝り落ちました。<br/><br/>それと察してベッタリ力抜けして座っている妻を怒って医師を迎え注射をして貰いましたが、何の手応えもなく三日間涙に暮れました。<br/><br/> 伝言を聞いて妻の母が驚いて夕刻とんで参り光明如来様の浄霊をと言ってくれましたが、自由の利かない身でありながらなおその気持を無視してただそんな迷信めいた事でと腹立たしさで一杯でしたが強引に母は一時間位手を振ってくれました。<br/><br/>その結果不思議に指先に感覚を得て少しだが動くようになりました。<br/><br/>それでも翌日医師を断る気にもなれず続けて注射を受けておりました。<br/><br/>母は大丈夫だから薬を止めよと言うのですが素直に聞けませんでした。<br/><br/>それでもわがままな私をいとわず根気よく翌日から朝夕浄霊を続けてくれました。<br/><br/>身体も少しずつ軽くなっていたが六日目医師のすすめで病状が判明しないため大学病院で血液検査をして来い、その結果が何よりの頼りと言われトラックに乗せられて名古屋に出向き検査を受け病状を尋ねましたら博士は頭をひねって小児麻痺と同様で手当はしっかりしなさい気長く土地の医者にみてもらいなさいとの言葉で帰って来ました。<br/><br/> その時に至って初めて母の真心の観音行を身にしみ判って来て自ずと頭を下げ、これ以外に救われる道はない、誠に申訳なかったとしっかりと光明如来様にお縋りする気持になり心から母を頼りました。<br/><br/>その夜から身体はグングン力がついて来て翌日からは部屋を這えるし、その翌日からは杖に縋って部屋を歩け、その翌朝からは手ばなしで歩け、午後からは何の故障もなく歩けるようになり、その翌日の発病十日目から車に乗れるようになりました。<br/><br/>母はその快癒の早いのに益々熱心に善言讃詞を奏げると共に一回一回楽しみに顔を綻ばして笑みつつ浄霊を続け、妻は喜びと尊い母の精進に両手を合せて伏し拝む程でした。<br/><br/>ああ偉なる哉妙智力、ただただああ有難しの一語につきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>aku11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪の発生と病 未発表『文明の創造』昭和27(1952)年執筆 前項のごとく悪の九分九厘に対して、善の一厘が現れ、絶対神力を揮って既成文化を是正すると共に、新文化を打ち樹てる。<br><br>早くいえば掌を返すのである。<br><br>これが今後における神の経綸の骨子であって、その破天荒的企図は想像に絶するといってよかろう。<br><br>これについては彼の『旧約聖書』創生記中にある禁断の木の実の寓話である。<br><br>もちろんこれは比喩であって、エデンの園にいたアダムとイブの物語は、実に深遠なる神の謎が秘められている。<br><br>それを追々と説いてゆくが、これを読むについては全然白紙にならなければ、到底分りようがないのである。<br><br>言うまでもなく木の実を食う事によって悪の発生である。<br><br>というのは木の実とは薬の事であって、薬によって病気が作られ、病気によって悪が発生する。<br><br>ところが人類は紀元以前から、病気を治す目的として使い始めたのが彼の薬剤であって、禁断の木の実とは何ぞ知らんこの薬剤を言ったものである。<br><br>という訳を知ったなら何人も愕然として驚かない者はあるまい。<br><br>ではそのような到底想像もつかない程の理由は何かというと、これを説くとしたら理論と実際から徹底的に説かねばならないから充分活眼を開いて見られん事である。<br><br> ここでさきに説いたごとく、人間は霊と体とから成立っており、霊が主で体が従であるという原則もすでに判ったであろうが、そのように悪の発生原は霊に発生した曇りであり、この曇りに元から憑依していた動物霊と、後から憑依した動物霊と相まって、人間は動物的行為をさせられる。<br><br>それが悪の行為である。<br><br>早く言えば霊の曇り即悪である以上、悪を撲滅するには霊の曇りの解消である事は言うまでもない。<br><br>ところが曇りの因こそ薬剤であるからここに大きな問題がある。<br><br>もちろん霊の曇りは濁血の移写で、濁血は薬剤が造るのであるから、人間薬剤さえ用いなくなれば悪は発生しないのである。<br><br>こう判ってくると禁断の木の実、すなわち薬剤こそ悪発生の根本である事が分るであろう。<br><br> ここで今一つの重要な事を書かねばならないが、これもさきに説いたごとく文化の進歩促進のための悪を作った薬は、他にも大きな役目をして来た事である。<br><br>というのは血液の濁りを排除すべき自然浄化作用である。<br><br>もちろん曇りが溜ると健康に影響し、人間本来の活動に支障を及ぼすからである。<br><br>ところが人智未発達のため、右の浄化作用による苦痛をマイナスに解してしまい病気の苦痛を免れようとし、薬を用いはじめたのである。<br><br>というのは浄化作用停止には身体を弱らせる事であって、弱れば浄化作用も弱るから、それだけ苦痛は緩和される、それを病気が治る作用と錯覚したのである。<br><br>という訳でいよいよこの誤りこそ、今日のごとき苦悩に満ちた地獄世界を作った根本原因である。<br><br> 右によってみても、薬というものはその毒によって単に痛苦を軽減するだけのもので、治す力はいささかもないどころか、その毒が病気の原因となるのであるから、その無智なる、言うべき言葉はないのである。<br><br>ところが驚くべしこの病気に対する盲目は、実は深い神の意図があったのである。<br><br>それをこれから詳しくかいてみるが、まず文化を発展させる上には二つの方法があった。<br><br>その一はさきに説いたごとく悪を作って善と闘わす事と、今一つは人間の健康を弱らす事である。<br><br>前者はすでに説いたから省くとして後者について説明してみれば、まず原始時代からの人間の歴史を見れば分るごとく、最初はありのままの自然生活であって、衣食住に対してもほとんど獣と同様で、健康も体力もそうであったから常に山野を馳駆し、猛獣毒蛇やあらゆる動物と闘ったのはもちろんで、これがその時代における人間生活全部といってもいいのである。<br><br>そのように獣的暴力的であった行動は漸次その必要がなくなるに従い、今度は人間と人間との闘争が始まったと共に、漸次激しくなったのであるが、それらによって人智は大いに発達すると共に、長い年代を経てついに文化を作り出すまでになったのである。<br><br>このような訳でもし最初から闘争がなく平穏無事な生活としたら、人類は原始時代のままか幾分進歩した程度で、智識の発達は少なく、相変らず未開人的生活に甘んじていたであろう事は想像されるのである。<br><br> ところが前記のごとく禁断の木の実を食った事によって病が作られ悪が作られたのである。<br><br>ところが今日まで全然それに気が付かないため、今日のごとく根強い薬迷信に陥ったのであるから、最も大きな過誤を続けて来たのである。<br><br>しかも一面原始人的健康であった人間は、前記のごとく動物を征服し、生活の安全を得るに従い体力も弱ったと共に、智識は進んだのでここに平坦な道を作り、馬や牛に車を牽（ひ）かせて歩行せずとも移動出来るようになったのである。<br><br>右は日本であるが、外国においては石炭を焚き、レールの上を走る汽車を考え出し、一層進んで現在のごとき自動車、飛行機のごとき素晴らしい便利な交通機関を作り出すと共に、他面電気ラジオ等の機械を作る事になったのである。<br><br>なおまた人間の不幸をより減らすべく社会の組織機構は固より、政治、経済、教育、道徳、芸術等、あらゆる文化面に亘って学問を進歩させ巧妙な機関施設等を作り、それが進歩発達して、現在のごとき文明社会を作ったのであるから、帰するところ来るべき地上天国樹立のための準備に外ならなかったのである。<br><br> 以上のごとく医学の根本は、人間の悪を作り健康を弱らす目的にあるので、予期のごとく現在のごとき世界が出来たのである。<br><br>ところがこれ以上進むとしたら、逆に人類破滅の危険にまで晒されるので、最早これ以上の進歩は不可とし、ここに神は文明の大転換を行わんがため、私に対し真理を開示されたのであるから、これによって悪をある程度制約し、善主悪従の文明世界樹立の時となったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese do Mal e a Doença</h2>
 <p>Conforme exposto anteriormente, em face dos noventa e nove por cento de mal, a parcela ínfima de um por cento de bem manifestar-se-á, empunhando o poder divino absoluto para não apenas corrigir a cultura estabelecida, mas também para erigir uma nova. Em suma, trata-se de uma completa inversão de valores. Esta é a essência do Plano Divino para o futuro, cujo desígnio sem precedentes transcende a imaginação. A esse respeito, podemos evocar a alegoria do fruto proibido, narrada no livro do Gênesis do Antigo Testamento. Trata-se, evidentemente, de uma metáfora, pois a história de Adão e Eva no Jardim do Éden oculta um mistério divino de extrema profundidade. Procederei a desvendá-lo paulatinamente, mas advirto que, para compreendê-lo, é imperativo que o leitor se despoje de todas as ideias preconcebidas; do contrário, sua apreensão será impossível.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>À medida que a necessidade desse comportamento animalesco e violento diminuía, iniciaram-se e intensificaram-se gradualmente as lutas entre os próprios seres humanos. Por meio desses conflitos, a inteligência humana desenvolveu-se sobremaneira, e, ao longo de eras, finalmente deu origem à cultura. Por essa razão, podemos imaginar que, se, desde o princípio, a vida transcorresse em paz e harmonia, a humanidade permaneceria no estágio primitivo, ou com um progresso mínimo. O desenvolvimento do conhecimento seria escasso, e os homens se contentariam em viver como selvagens.</p>
 <p>Entretanto, como mencionei, ao comer o fruto proibido, a doença e o mal foram criados. Pelo fato de a humanidade jamais ter se dado conta disso, ela mergulhou na profunda superstição do remédio que perdura até hoje, perpetuando o mais grave dos equívocos. A par disso, o ser humano, que outrora possuía uma saúde primitiva, foi enfraquecendo à medida que conquistava os animais e obtinha segurança para sua vida. Em contrapartida, seu conhecimento avançou. Passou então a construir estradas planas e a utilizar cavalos e bois para puxar carroças, deslocando-se sem precisar caminhar. Isso no Japão. No exterior, idealizou-se o trem, que corria sobre trilhos movido a carvão, e, em um estágio mais avançado, criaram-se meios de transporte maravilhosos e práticos como o automóvel e o avião. Paralelamente, desenvolveram-se máquinas como as que utilizam eletricidade e o rádio. Ademais, para reduzir o infortúnio humano, o conhecimento progrediu em todas as esferas da cultura – política, economia, educação, moral, arte, etc. –, dando origem a engenhosos sistemas e instituições que, com seu avanço e desenvolvimento, construíram a sociedade civilizada atual. Em última análise, tudo isso não passou de uma preparação para o estabelecimento do vindouro Reino do Céu na Terra.</p>
 <p>Pelo exposto, o propósito fundamental da medicina era criar o mal e debilitar a saúde do ser humano, e, conforme o esperado, o mundo tal como o conhecemos foi edificado. Contudo, avançar para além deste ponto exporia a humanidade ao risco de sua própria aniquilação. Por essa razão, Deus determinou que o progresso não deveria prosseguir, e, para efetuar a grande transição da civilização, revelou-me a Verdade. Chegou, portanto, o tempo de restringir o mal até certo ponto e erigir uma civilização na qual o bem é o principal e o mal, o secundário.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪の発生と病 未発表『文明の創造』昭和27(1952)年執筆 前項のごとく悪の九分九厘に対して、善の一厘が現れ、絶対神力を揮って既成文化を是正すると共に、新文化を打ち樹てる。<br/><br/>早くいえば掌を返すのである。<br/><br/>これが今後における神の経綸の骨子であって、その破天荒的企図は想像に絶するといってよかろう。<br/><br/>これについては彼の『旧約聖書』創生記中にある禁断の木の実の寓話である。<br/><br/>もちろんこれは比喩であって、エデンの園にいたアダムとイブの物語は、実に深遠なる神の謎が秘められている。<br/><br/>それを追々と説いてゆくが、これを読むについては全然白紙にならなければ、到底分りようがないのである。<br/><br/>言うまでもなく木の実を食う事によって悪の発生である。<br/><br/>というのは木の実とは薬の事であって、薬によって病気が作られ、病気によって悪が発生する。<br/><br/>ところが人類は紀元以前から、病気を治す目的として使い始めたのが彼の薬剤であって、禁断の木の実とは何ぞ知らんこの薬剤を言ったものである。<br/><br/>という訳を知ったなら何人も愕然として驚かない者はあるまい。<br/><br/>ではそのような到底想像もつかない程の理由は何かというと、これを説くとしたら理論と実際から徹底的に説かねばならないから充分活眼を開いて見られん事である。<br/><br/> ここでさきに説いたごとく、人間は霊と体とから成立っており、霊が主で体が従であるという原則もすでに判ったであろうが、そのように悪の発生原は霊に発生した曇りであり、この曇りに元から憑依していた動物霊と、後から憑依した動物霊と相まって、人間は動物的行為をさせられる。<br/><br/>それが悪の行為である。<br/><br/>早く言えば霊の曇り即悪である以上、悪を撲滅するには霊の曇りの解消である事は言うまでもない。<br/><br/>ところが曇りの因こそ薬剤であるからここに大きな問題がある。<br/><br/>もちろん霊の曇りは濁血の移写で、濁血は薬剤が造るのであるから、人間薬剤さえ用いなくなれば悪は発生しないのである。<br/><br/>こう判ってくると禁断の木の実、すなわち薬剤こそ悪発生の根本である事が分るであろう。<br/><br/> ここで今一つの重要な事を書かねばならないが、これもさきに説いたごとく文化の進歩促進のための悪を作った薬は、他にも大きな役目をして来た事である。<br/><br/>というのは血液の濁りを排除すべき自然浄化作用である。<br/><br/>もちろん曇りが溜ると健康に影響し、人間本来の活動に支障を及ぼすからである。<br/><br/>ところが人智未発達のため、右の浄化作用による苦痛をマイナスに解してしまい病気の苦痛を免れようとし、薬を用いはじめたのである。<br/><br/>というのは浄化作用停止には身体を弱らせる事であって、弱れば浄化作用も弱るから、それだけ苦痛は緩和される、それを病気が治る作用と錯覚したのである。<br/><br/>という訳でいよいよこの誤りこそ、今日のごとき苦悩に満ちた地獄世界を作った根本原因である。<br/><br/> 右によってみても、薬というものはその毒によって単に痛苦を軽減するだけのもので、治す力はいささかもないどころか、その毒が病気の原因となるのであるから、その無智なる、言うべき言葉はないのである。<br/><br/>ところが驚くべしこの病気に対する盲目は、実は深い神の意図があったのである。<br/><br/>それをこれから詳しくかいてみるが、まず文化を発展させる上には二つの方法があった。<br/><br/>その一はさきに説いたごとく悪を作って善と闘わす事と、今一つは人間の健康を弱らす事である。<br/><br/>前者はすでに説いたから省くとして後者について説明してみれば、まず原始時代からの人間の歴史を見れば分るごとく、最初はありのままの自然生活であって、衣食住に対してもほとんど獣と同様で、健康も体力もそうであったから常に山野を馳駆し、猛獣毒蛇やあらゆる動物と闘ったのはもちろんで、これがその時代における人間生活全部といってもいいのである。<br/><br/>そのように獣的暴力的であった行動は漸次その必要がなくなるに従い、今度は人間と人間との闘争が始まったと共に、漸次激しくなったのであるが、それらによって人智は大いに発達すると共に、長い年代を経てついに文化を作り出すまでになったのである。<br/><br/>このような訳でもし最初から闘争がなく平穏無事な生活としたら、人類は原始時代のままか幾分進歩した程度で、智識の発達は少なく、相変らず未開人的生活に甘んじていたであろう事は想像されるのである。<br/><br/> ところが前記のごとく禁断の木の実を食った事によって病が作られ悪が作られたのである。<br/><br/>ところが今日まで全然それに気が付かないため、今日のごとく根強い薬迷信に陥ったのであるから、最も大きな過誤を続けて来たのである。<br/><br/>しかも一面原始人的健康であった人間は、前記のごとく動物を征服し、生活の安全を得るに従い体力も弱ったと共に、智識は進んだのでここに平坦な道を作り、馬や牛に車を牽（ひ）かせて歩行せずとも移動出来るようになったのである。<br/><br/>右は日本であるが、外国においては石炭を焚き、レールの上を走る汽車を考え出し、一層進んで現在のごとき自動車、飛行機のごとき素晴らしい便利な交通機関を作り出すと共に、他面電気ラジオ等の機械を作る事になったのである。<br/><br/>なおまた人間の不幸をより減らすべく社会の組織機構は固より、政治、経済、教育、道徳、芸術等、あらゆる文化面に亘って学問を進歩させ巧妙な機関施設等を作り、それが進歩発達して、現在のごとき文明社会を作ったのであるから、帰するところ来るべき地上天国樹立のための準備に外ならなかったのである。<br/><br/> 以上のごとく医学の根本は、人間の悪を作り健康を弱らす目的にあるので、予期のごとく現在のごとき世界が出来たのである。<br/><br/>ところがこれ以上進むとしたら、逆に人類破滅の危険にまで晒されるので、最早これ以上の進歩は不可とし、ここに神は文明の大転換を行わんがため、私に対し真理を開示されたのであるから、これによって悪をある程度制約し、善主悪従の文明世界樹立の時となったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

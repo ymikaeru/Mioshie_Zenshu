@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bukkyo05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏教は復興するか 『東方の光』5号、昭和10(1935)年4月8日発行 近頃、仏教復興の声が旺んになって、毎朝の新聞紙を見ても、仏書の新刊が一つや二つ、広告欄に見ない日は無い位である、しからば、何が故にかかる傾向を生じたかを検討してみる時、どうしても、満州事変を想い起さない訳にはゆかない。<br><br>彼の満州事変と同時に日本の国策は、方向転換をなし、次には彼の、連盟脱退という我国外交史上、空前の英断的事実が、それまでの追随外交を、見事に打棄ててしまった。<br><br>彼の松岡氏が思い切って、言いたいだけの事を言い退（の）けたあの態度は、痛快であった。<br><br>しかも、彼は、碧眼紅毛人の真直中（まっただなか）において、日本精神を充分高揚した事である。<br><br>それは、長い間、日本人一般に深くも刻まれておった、洋崇思想を揺り動かしたからであった。<br><br>糧〔糅〕（か）てて加えて、次々起った、五、一五、及び血盟団等の事件は、さしも、青年に喰い入っておった、マルクス主義の牙城に、大亀裂を生じさせてしまった。<br><br>しかも、時は恐ろしいもので我国産業の海外躍進という空前の事実が、日本人上下の洋崇者を覚醒さした事は何としても愉快であった。<br><br>メイド・イン・ジャパンのマークが、欧米人の日常必需品にも、アフリカの土人の使用品にも貼られてあるではないか、この事実は白人の驚歎よりも、日本人自身の方が、より大きい驚歎であった、それまで、日本は戦争には強いが、他の文化は白人を凌（しの）げないと思っておった、それが見事破られたから、ここに洋崇の衣を脱いで、躍進の輝かしい新衣を着、世界を横行闊歩（かっぽ）せん気配を示すようになって来た。<br><br>ここにおいて日本は、日本の卓越せる民族性に、飜然（ほんぜん）自覚せざるを得なくなった。<br><br>僅六十余年に、欧米の文化を吸収し今度は逆に、彼らへ対しての、指導的立場に変って来た。<br><br> そこでこれはたしかに何物かが無くてはならないと言う見地から、日本自身の探求に取掛ったのである。<br><br>そのよって来たる日本人の、思想の根元であるそれはどこから来たんだ、という結論が、仏教研究熱になって、それが仏典の刊行となり、新聞紙の宗教欄となり、ラジオの放送となったんである。<br><br> 蓋（けだ）し、日本人の病癖たる、一時的流行に終りはしまいかと思う。<br><br>例えば、古葛籠（つづら）を掻き廻して、祖先の遺品を検（しら）べてみるのと同じで、彼の空海、親鸞、日蓮等が、血の出る様な苦難に依って得たる珠玉は、すでに発表し尽されている、今日の仏教学者や流行僧等が、牛肉を食いながら、暖い着物を着て、畳の上で研究したところで、古えの聖者以上の何物が得らるるであろう。<br><br>故に今日の仏教復興とは、機を視るに敏な出版屋が際物（きわもの）的の利益を夢み、学者流行僧等は、傑僧の伝記遺文等を蒐集（しゅうしゅう）して編み、原稿を稼ぐ位なところで、そんな事をしたり、講演をやったりしてる裡（うち）に、段々民衆に飽かれて火が消えるようになるのではないかと思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Restauração do Budismo</h2>
 <p>Recentemente, o clamor pela restauração do budismo tem se intensificado. Basta observar os jornais matutinos, nos quais raramente passa um dia sem que se anuncie o lançamento de um ou dois livros sobre o tema. Ao investigarmos a origem dessa tendência, é impossível não nos remetermos ao Incidente da Manchúria.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Diante disso, partiu-se do princípio de que deveria existir algo essencial e insubstituível em nossa identidade, dando início a uma busca pela alma do próprio Japão. A busca pela origem do pensamento japonês, pela raiz de nosso ser, levou à conclusão de que essa fonte primordial era o budismo. Desse entendimento nasceu o fervor pelo seu estudo, que se manifestou na publicação de escrituras, na criação de colunas religiosas nos jornais e em programas de rádio.</p>
 <p>Contudo, receio que tudo isso não passe de um modismo passageiro, uma tendência crônica do povo japonês. É como remexer um velho baú em busca de relíquias dos antepassados. As joias da sabedoria, obtidas por figuras como Kukai, Shinran e Nichiren em meio a sofrimentos atrozes, já foram inteiramente reveladas. O que poderiam os acadêmicos e os monges da moda de hoje, que estudam sobre o tatame, comem carne e vestem roupas quentes, acrescentar ao que esses santos do passado já nos legaram?</p>
 <p>Portanto, a dita restauração do budismo em nossos dias parece ser pouco mais que uma manobra de editores astutos, ávidos por lucros sazonais, e de eruditos e religiosos populares que compilam biografias e textos antigos para faturar com seus manuscritos. Tenho a impressão de que, enquanto se ocuparem com tais atividades e palestras, o interesse do povo gradualmente se esvairá, e essa chama se extinguirá.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏教は復興するか 『東方の光』5号、昭和10(1935)年4月8日発行 近頃、仏教復興の声が旺んになって、毎朝の新聞紙を見ても、仏書の新刊が一つや二つ、広告欄に見ない日は無い位である、しからば、何が故にかかる傾向を生じたかを検討してみる時、どうしても、満州事変を想い起さない訳にはゆかない。<br/><br/>彼の満州事変と同時に日本の国策は、方向転換をなし、次には彼の、連盟脱退という我国外交史上、空前の英断的事実が、それまでの追随外交を、見事に打棄ててしまった。<br/><br/>彼の松岡氏が思い切って、言いたいだけの事を言い退（の）けたあの態度は、痛快であった。<br/><br/>しかも、彼は、碧眼紅毛人の真直中（まっただなか）において、日本精神を充分高揚した事である。<br/><br/>それは、長い間、日本人一般に深くも刻まれておった、洋崇思想を揺り動かしたからであった。<br/><br/>糧〔糅〕（か）てて加えて、次々起った、五、一五、及び血盟団等の事件は、さしも、青年に喰い入っておった、マルクス主義の牙城に、大亀裂を生じさせてしまった。<br/><br/>しかも、時は恐ろしいもので我国産業の海外躍進という空前の事実が、日本人上下の洋崇者を覚醒さした事は何としても愉快であった。<br/><br/>メイド・イン・ジャパンのマークが、欧米人の日常必需品にも、アフリカの土人の使用品にも貼られてあるではないか、この事実は白人の驚歎よりも、日本人自身の方が、より大きい驚歎であった、それまで、日本は戦争には強いが、他の文化は白人を凌（しの）げないと思っておった、それが見事破られたから、ここに洋崇の衣を脱いで、躍進の輝かしい新衣を着、世界を横行闊歩（かっぽ）せん気配を示すようになって来た。<br/><br/>ここにおいて日本は、日本の卓越せる民族性に、飜然（ほんぜん）自覚せざるを得なくなった。<br/><br/>僅六十余年に、欧米の文化を吸収し今度は逆に、彼らへ対しての、指導的立場に変って来た。<br/><br/> そこでこれはたしかに何物かが無くてはならないと言う見地から、日本自身の探求に取掛ったのである。<br/><br/>そのよって来たる日本人の、思想の根元であるそれはどこから来たんだ、という結論が、仏教研究熱になって、それが仏典の刊行となり、新聞紙の宗教欄となり、ラジオの放送となったんである。<br/><br/> 蓋（けだ）し、日本人の病癖たる、一時的流行に終りはしまいかと思う。<br/><br/>例えば、古葛籠（つづら）を掻き廻して、祖先の遺品を検（しら）べてみるのと同じで、彼の空海、親鸞、日蓮等が、血の出る様な苦難に依って得たる珠玉は、すでに発表し尽されている、今日の仏教学者や流行僧等が、牛肉を食いながら、暖い着物を着て、畳の上で研究したところで、古えの聖者以上の何物が得らるるであろう。<br/><br/>故に今日の仏教復興とは、機を視るに敏な出版屋が際物（きわもの）的の利益を夢み、学者流行僧等は、傑僧の伝記遺文等を蒐集（しゅうしゅう）して編み、原稿を稼ぐ位なところで、そんな事をしたり、講演をやったりしてる裡（うち）に、段々民衆に飽かれて火が消えるようになるのではないかと思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

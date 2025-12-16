@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281006</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月6日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月六日 自然農法について今度大発見をしました。<br><br>もっとも私は自然農法の原理だけを教えたので、技術面の方はみんなの方で工夫するということになったのですが、今度発見したのは技術面の方です。<br><br>つまり無肥料を技術の工夫によって、より生かしたものです。<br><br>生かしたということは早めたわけです。<br><br>今まで最初の年は非常に成績が悪かったのです。<br><br>それを我慢して二年三年とたつに従って、肥毒が抜けるに準じて作柄も良くなるというわけだったのですが、今度は初年度から無肥料の成績がはっきりと現われるというやり方が分かったのです。<br><br>というのは、今までの長い間肥毒が下に溜まって、田の底がまるで壁みたいになっていたのです。<br><br>よく考えてみると、それもそのはずです。<br><br>石灰窒素をよくやりますが、石灰窒素というのは鉱石で、いわばセメントみたいなものですから、今まではセメントを田の底にやっていたのだからして、田の土がまるでコンクリートみたいになっていたのです。<br><br>それですから初年度はどうも具合が悪いのです。<br><br>それで今度は深く耕す……天地返しというのをやるのです。<br><br>そうするとその壁を破ってしまいますから、そこで稲の根の方の肥毒がよほど緩和されるわけです。<br><br>混じってしまうからわずかになるのです。<br><br>そこで成績が良いのです。<br><br>それで今度、初年度から五割増産の所があったのです。<br><br>来年から増産になるわけですからすばらしいものです。<br><br>この深耕の深さは一尺から一尺二寸くらいのところがごく良いそうです。<br><br>それから株間は一尺から一尺一寸くらいが良いそうです。<br><br>今までの株間が狭いのは成績が悪いそうです。<br><br>というのは、無肥料ですと非常に分蘖（ぶんけつ）が多いのです。<br><br>それから今まででもそうですが、日当たりが悪いと根の方まで日が当たらないことになるし、従って田の水も日が当たらないことになるのです。<br><br>ですからあんまり繁ってしまうと、稲同士で日が当たらないようにし、水にも日が当たらないようにしてしまうのです。<br><br>そこで株間が広いと、第一、水が温まることと、蔭がなくなりますから、そこで非常に育ちがよいわけです。<br><br>そこで分蘖も多いし幹も太るということになるからして、肥毒もなくなるわけです。<br><br>そういうわけですから実りもよいし粒数が非常に多いのです。<br><br>ですからそういう稲の茎などは随分太いそうです。<br><br>まるで葦の茎みたいだそうです。<br><br>そうなれば台風なども受けつけません。<br><br>これがとにかく無肥料栽培の一大改良です。<br><br>そこで去年十八俵とった伊野という人は、無論今年も十八俵かそれ以上になるでしょうが、結局は反二十五俵まではとってみせると豪語しているそうですから、たいへんなことです。<br><br> それに反して一般の今年の稲というのは、算盤をとってみるとますます減っていってます。<br><br>今分かっただけで政府の発表が五千八百五十万石ですから、去年からみると七百五十万石減っているわけです。<br><br>この差額はますますはなはだしく現在は全国的に減りつつあります。<br><br>とにかく政府でいろんな政策をとったり、また耕地も増してますが、それにもかかわらず、どっちかというと減る傾向にあります。<br><br>そうして人口の方は増えてゆきますから、このままで行ったら、どうしても日本は大悲観です。<br><br>前途暗憺（あんたん）たるものです。<br><br>これを一刻も早く救わなければならないので、焦眉（しょうび）の急です。<br><br>要するに日本の食糧危機といってもよいです。<br><br>それで一面、今人造米とかをやっても、あんなまずい物は食い手がないでしょう。<br><br>それで結局政府も工夫して、麦をやってパンを食べるようにしてますが、豊葦原（とよあしはら）瑞穂の国という言葉は消さなければなりません。<br><br>そこでこれをどうしても全国的に一度に分からせなければならないと思うので、今度大新聞の一頁広告を出そうと思ってます。<br><br>自然栽培の理論と、今度の報告ですが、渡辺さんの報告と事務所の三浦さんの報告は非常によいですから、この二つを実例として出します。<br><br>それでいろんな原理の解説を書いて、それらをひとまとめにして出します。<br><br>なにしろグズグズしてはいられません。<br><br>全国民に原子爆弾をぶっつけ、そうして愕然とさせるというような手を打たなければ、早く知らせるわけにはゆきません。<br><br>これは信仰に入れというのではなく、これこそ読んだ人がだれでも実験できるのだから、分かりさえすればたいへんなものです。<br><br>ですからこれはどうしてもこのくらいのことをしなければ、追いつかないと思います。<br><br>今書いてますが、なるべくだれにも分かり、なるほどと思うように念を入れて書くつもりです。<br><br>そうして一挙に日本人全部に分からせようと思ってます。<br><br>題は“全国民諸君よ”という肩書で“日本は救われた”という大きな見出しにするつもりです。<br><br>それでいままで、初年度は減る例がある、ということがちょっとおもしろくないために、取り掛からせるに困難だったが、今度は初年度からすばらしい成績を上げれるとしたら、本当にそれを見たら、これは誰もがやらないわけにはゆきませんから、そこで神様はそういうふうな手を打たれたに違いありません。<br><br>そこで今年の非常な不作ということは、要するに一大チャンスが来たわけです。<br><br>この機を逃さず大々的にこれを分からせようというわけです。<br><br>普及会の方でも、これから講演会やいろいろなことを大いにやるでしょうが、そういう方針でやるつもりです。<br><br> それから『救世教奇蹟集』ができあがったので発行しようと思ってますが、新聞に広告を出すつもりです。<br><br>なにしろ初めてできた本ですから、広告文も、だいたいが理解できるとともに、どうしても読みたいという購読欲が出るような書き方でなければおもしろくないから、そういうように書いたつもりですが、その広告文を今度初めて書いてみました。<br><br> （『世界救世教奇蹟集』（広告文）） それからもう一つ、自然栽培が非常に良くできるということは、霊的のわけがあるのです。<br><br>それは信者になって光明如来様をお祀りしますと、無論光が出ますが、その光がその人の田地内に漲（みなぎ）るのです。<br><br>光が充満するのです。<br><br>そこで光は熱ですから温かくなるのです。<br><br>温かくなるといっても、ふつうの火のようにはっきりはしないが、なんとなく温かくなるのです。<br><br>前に試験した人が、他人の田より二度温かいと言われましたが、とにかく温かいのです。<br><br>その光がだんだん強くなってきました。<br><br>私はいつも注意してますが、今日のここの温度は十六度です。<br><br>東京が十六度、鹿児島と福岡が十四度ですから、鹿児島より高いのです。<br><br>今日の全国で一番高いのが東京とここです。<br><br>それで平均してみるとここは東京よりいくらか高いでしょう。<br><br>高い日の方が多いです。<br><br>というのは、私の光が強くなってきたので温かくなったので、それが体的にも温かさが現われるわけです。<br><br>そういうわけですから、御神体から出る光も強いからして、どうしてもそこの田が温かくなり、そのために良くできるということも大いにあります。<br><br>しかしそれをあんまり言うと、どうも信者にならないと良い成績が上がらない、というように思われると普及が遅れますから、それを未信者には言わない方がよいです。<br><br>信者の人だけ心得ていればよいのです。<br><br>そうして信者になったらその説明をしてやればよいので、そうでなければ入りにくいのです。<br><br>そういうわけで、そこの囲いなら囲いのそこだけの霊界が違ってくるのです。<br><br>それで隣が信者でないと、そこにはっきりと境界されるのです。<br><br>ですからよく信者の田は良くできて、お隣はまるっきり違う、ということがあるのはそういうわけです。<br><br> それからもう一言話しておきますが、私は五カ年で五割増産ということをモットーにしてましたが、これはよほど遠慮して言ったので、本当は十割、十五割なので、十割以上は増産できるのです。<br><br>ところがそれではあんまり良過ぎるので疑いを起こすため、疑いを起こさない程度として五カ年にして五割増産としたのです。<br><br>ところが今年は十割以上はなんでもありません。<br><br>さっき言ったとおりＩさんなどは二十五俵とってみせると言っているくらいですから、十割以上はなんでもありません。<br><br>それを私は前に言ったことがあるような気がしましたが、三年前に書いてありました。<br><br> （御論文「農業の大革命 飯米十割増産は易々たり」） それから今年の問題としては台風ですが、今年ぐらい台風の多かったことと、その被害の大きかったことはないでしょう。<br><br>それについて、たいてい今までに書いてはありますが、いくらか違ったことも書いてみました。<br><br> （御論文「台風禍」） 【栄光 二三〇号】 霊体を説明するには掌が一番よいです。<br><br>手の平はいろんな役をし手の甲はあんまり役をしません。<br><br>手の平は体の方です。<br><br>ですから霊というのは目で見てはあんまり動いてないのです。<br><br>その代わり主にはなってます。<br><br>人間の体で言えば、背中は霊です。<br><br>それで背中の方に病原があるということは、背中の方が因だからです。<br><br>だから本当に仕事の急所をやる人ほど動きません。<br><br>下のほうのことをやる人ほど動くのです。<br><br>ところが霊を知らないで体だけで見るから、そこで労働者がいばり、労働者が肝腎だということを言い出し、それが共産主義です。<br><br>ですから共産主義というのは、霊を認めなければ共産主義の理屈は本当です。<br><br>それはうまくできてます。<br><br>ところが霊を認めれば共産主義というのは、屁のカッパみたいなものです。<br><br>ですからよく前から共産主義について私に意見を聞く人がありますが、あんなものはなんでもない、今になくなってしまうと言ってました。<br><br>それは体だけであって、主なる霊ということを無視しているために永久性がないから、共産主義というのは長く続くものではないといっても、外れません。<br><br>そういうわけで働いているのが目に見えない者ほど、かえって大きな働きをしているわけです。<br><br>だから主人公や首脳者というものは動いてはいけないということを、私は前から言っているのはそういうわけです。<br><br>よく、明主様は地方の方にはお出かけになりませんか、と言われますが、それには車の心棒のたとえで、心棒は動いてはいけないというのですが、それで分かるはずです。<br><br>そういうようで、よく先に立ってやらなければいけない、つまり首脳者とか長という人が先に立って采配を振れということを言いますが、それは嘘なのです。<br><br>昔から、戦争で大将などが先に立って采配を振ったらきっと負けます。<br><br>やっぱり大将は幕の内に引っ込んで、姿を見せないというやり方のほうが勝ちます。<br><br>それはやっぱり霊主体従の法則に合っているからです。<br><br>東条首相が戦争のときに南洋まで飛行機に乗って行きましたが、その時私は、これは駄目だと言ったのです。<br><br>首相が官邸にいて碁でも打っているようなら勝つが、ああいうようではきっと駄目だと言ったのです。<br><br>それから話は違うが、あの時代の実業界で社会にそうとう有名になった、浅野セメントを作った浅野総一郎という人がいましたが、この人は朝早くから起きて、方々を駆けまわっているのです。<br><br>それで一時パッとゆきましたが駄目になりました。<br><br>そういうことも、私は不思議だなと思っていましたが、霊主体従の法則を知ってから、なるほどと思いました。<br><br>そういうように、目に見えて働いたり動くことを良いと思うことは逆なのです。<br><br>だから教団の支部などでも、支部長があんまり先に立ってやるよりか、部下とか、あるいは新しい信者といった人にできるだけやらせるというようにした方がよいです。<br><br>戦争が始まったころに陣頭指揮ということを言いましたが、軍部は軍需会社の社長が陣頭指揮をやらなければ駄目だ、引っ込んでいては駄目だと言ってましたが、陣頭指揮をやるようでは駄目です。<br><br>もっとも昔時は戦争のときには、山賊などは親分がやらないと子分が動かないからやったのですが、そうでなく平和的のことをやるには、今言った法則を守らなければいけないわけです。<br><br>だからただ活動する、あせったりいろいろする、ということがよいわけではなく、やはり自分の地位と境遇に準じて理屈にあったやり方でなければいけないのです。<br><br>だから骨折ってうまくゆかないということがよく世間にありますが、そういう点をよく見ると分かるわけです。<br><br>昔からよく言いますが、あんなに働くのにどうして年中貧乏をしているのだろう、またあの人は年中ブラブラしているのに割合に懐が温かいと言うが、そのことを知ればよく分かります。<br><br>そうかといって怠けるのと、今言う霊的働きとは、外観はちょっと同じように見えるので間違えるのでしょうが、そこにおもしろいところがあります。<br><br>結局頭を働かせるということです。<br><br>それから体を働かせるということも、人間生まれながらにして、おのずから決まっているのです。<br><br>だから頭を働かせるべく生まれた人と、体を働かせるようにできている人と、しゃべるために生まれてきた人もあります。<br><br>あいつは口から先に生まれてきたと言いますが、やっぱりそういう人が政治家なら始終演説をするとか、宗教家なら講義をするとかで、そういう人も肝腎だから、その役目でよいのです。<br><br> それから時間がないから短く話しておきます。<br><br>講和以前にはあまり話さなかったが、日本民族の優秀性ということです。<br><br>この間科学者の会議がありましたが、外国でもいろいろな発見や意見がありますが、今に日本が一番になります。<br><br>今に湯川博士のような人がたくさんできてきます。<br><br>これは霊的に優秀だからです。<br><br>それで日本人は機械を動かすとか、そういうことは下手なのです。<br><br>これも日本民族の根本を知ると分かります。<br><br>それを知らないからして、やたらに西洋のまねをしたらよいと思っているのです。<br><br>この間も油絵のことで、そういった方面の人と話したのですが、日本は油絵がとてもフランスに負けていると言うから“それは駄目だ、日本人は油絵がうまくなるような人種ではない。<br><br>そういうことは外国人に任せておけばよい、日本人は東洋画をやればよいのだ”と言ったのです。<br><br>それは国民性があるので、日本人は墨絵をやればよいのです。<br><br>一筆スーッと画いて現わすというやり方ですが、あっちはそういう天分がないので一生懸命に絵の具をこするのです。<br><br>それで効果は同じなのです。<br><br>あるいは効果は日本人の方が上かもしれません。<br><br>医者は機械や薬で病気を治そうとするが、こっちはこうやって浄霊で治すということを日本人は知らないから、骨折って結果がうまくないというわけなのです。<br><br>私はそういうこともだんだん分からせようと思ってますが、アメリカの目玉が光っているうちは、そういうことを言うと妙に見られますので、ウッカリ言えないが、そういうこともだんだん日本人に知らせなければならないのです。<br><br>ところが今はなんでもかんでもアメリカ崇拝です。<br><br>頭はみんなやってますが、酷いのになると服装から顔からまねて、日本人放れにする方がよいと思っているのです。<br><br>これもある程度まではよいですが、行き過ぎるとまた妙なことになります。<br><br>この間のように信者で髪を縮らせるために強い薬を使って、それが因で死んだ人があります。<br><br>そういったような悲喜劇があります。<br><br>今銀座あたりでは、西洋人だか日本人だか分からないような、みずから、二世のような格好をしたがっているのがあります。<br><br>こういうのも、今言う西洋崇拝の被害です。<br><br>というのは民族の違いを知らないからです。<br><br>それは日本人は霊的にすばらしい優秀性を持っているのです。<br><br>それを知らないから日本人は世界を相手にして戦争をするという太い了簡を起こしたのです。<br><br>つまりいつも言うとおり、日本人はどこまでも平和の国民なのです。<br><br>つまり床の間に坐っているようなのが日本人です。<br><br>そうしてあと座敷で働いているのは他国の人間です。<br><br>だから日本人はどこまでも美術、芸術を主にすれば本当に合っているからうまくゆくのです。<br><br>だいたい服装でもそうです。<br><br>和服というのは働く服装ではないのです。<br><br>懐手をしてアグラをかくほうです。<br><br>そうして下駄をぬいで上がるということは、すばらしいものです。<br><br>靴をはいて床の間に上がるということは獣と同じです。<br><br>寝室に土足のままで上がって行くのですから、犬小屋と同じことになります。<br><br>それは、よく見るといろんな面にあります。<br><br>ですから日本人と外人、また東洋人でも、朝鮮人、支那人、インド人と違いますが、そういう区別もチャンとあるのです。<br><br>つまり日本人は頭なのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Descoberta da Agricultura Natural e o Princípio Espiritual</h2>
 <p>Recentemente, fiz uma extraordinária descoberta acerca da Agricultura Natural. Até o momento, eu havia me dedicado a ensinar apenas seus princípios, delegando o aprimoramento técnico aos membros. A descoberta a que me refiro, contudo, reside precisamente no campo da técnica. Trata-se de um método que, por meio de um manejo engenhoso do solo, potencializa e acelera os resultados do cultivo sem adubos.</p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p>A verdade é que os japoneses possuem uma sublime superioridade espiritual. Foi por não compreenderem isso que cometeram a audácia de iniciar uma guerra contra o mundo. Como sempre digo, somos, em essência, um povo de paz. O lugar do japonês é no <em>tokonoma</em> (床の間), por assim dizer, enquanto as outras nações trabalham nos demais aposentos da casa. Se nos concentrarmos na beleza e na arte, estaremos em nossa verdadeira vocação e tudo prosperará.</p>
 <p>Observemos nosso vestuário. O quimono não é uma roupa de trabalho; é para se sentar de pernas cruzadas com as mãos nas mangas. O costume de tirar os calçados para entrar em casa é um ato de grande civilidade. Entrar em um recinto nobre com sapatos é um comportamento animal. Pisar no quarto de dormir com os sapatos sujos da rua equivale a viver em um canil. Essas diferenças se manifestam em inúmeros aspectos. Existem distinções claras entre japoneses e ocidentais, e mesmo entre os povos orientais, como coreanos, chineses e indianos.</p>
 <p>Os japoneses são, em suma, a cabeça do mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月6日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月六日 自然農法について今度大発見をしました。<br/><br/>もっとも私は自然農法の原理だけを教えたので、技術面の方はみんなの方で工夫するということになったのですが、今度発見したのは技術面の方です。<br/><br/>つまり無肥料を技術の工夫によって、より生かしたものです。<br/><br/>生かしたということは早めたわけです。<br/><br/>今まで最初の年は非常に成績が悪かったのです。<br/><br/>それを我慢して二年三年とたつに従って、肥毒が抜けるに準じて作柄も良くなるというわけだったのですが、今度は初年度から無肥料の成績がはっきりと現われるというやり方が分かったのです。<br/><br/>というのは、今までの長い間肥毒が下に溜まって、田の底がまるで壁みたいになっていたのです。<br/><br/>よく考えてみると、それもそのはずです。<br/><br/>石灰窒素をよくやりますが、石灰窒素というのは鉱石で、いわばセメントみたいなものですから、今まではセメントを田の底にやっていたのだからして、田の土がまるでコンクリートみたいになっていたのです。<br/><br/>それですから初年度はどうも具合が悪いのです。<br/><br/>それで今度は深く耕す……天地返しというのをやるのです。<br/><br/>そうするとその壁を破ってしまいますから、そこで稲の根の方の肥毒がよほど緩和されるわけです。<br/><br/>混じってしまうからわずかになるのです。<br/><br/>そこで成績が良いのです。<br/><br/>それで今度、初年度から五割増産の所があったのです。<br/><br/>来年から増産になるわけですからすばらしいものです。<br/><br/>この深耕の深さは一尺から一尺二寸くらいのところがごく良いそうです。<br/><br/>それから株間は一尺から一尺一寸くらいが良いそうです。<br/><br/>今までの株間が狭いのは成績が悪いそうです。<br/><br/>というのは、無肥料ですと非常に分蘖（ぶんけつ）が多いのです。<br/><br/>それから今まででもそうですが、日当たりが悪いと根の方まで日が当たらないことになるし、従って田の水も日が当たらないことになるのです。<br/><br/>ですからあんまり繁ってしまうと、稲同士で日が当たらないようにし、水にも日が当たらないようにしてしまうのです。<br/><br/>そこで株間が広いと、第一、水が温まることと、蔭がなくなりますから、そこで非常に育ちがよいわけです。<br/><br/>そこで分蘖も多いし幹も太るということになるからして、肥毒もなくなるわけです。<br/><br/>そういうわけですから実りもよいし粒数が非常に多いのです。<br/><br/>ですからそういう稲の茎などは随分太いそうです。<br/><br/>まるで葦の茎みたいだそうです。<br/><br/>そうなれば台風なども受けつけません。<br/><br/>これがとにかく無肥料栽培の一大改良です。<br/><br/>そこで去年十八俵とった伊野という人は、無論今年も十八俵かそれ以上になるでしょうが、結局は反二十五俵まではとってみせると豪語しているそうですから、たいへんなことです。<br/><br/> それに反して一般の今年の稲というのは、算盤をとってみるとますます減っていってます。<br/><br/>今分かっただけで政府の発表が五千八百五十万石ですから、去年からみると七百五十万石減っているわけです。<br/><br/>この差額はますますはなはだしく現在は全国的に減りつつあります。<br/><br/>とにかく政府でいろんな政策をとったり、また耕地も増してますが、それにもかかわらず、どっちかというと減る傾向にあります。<br/><br/>そうして人口の方は増えてゆきますから、このままで行ったら、どうしても日本は大悲観です。<br/><br/>前途暗憺（あんたん）たるものです。<br/><br/>これを一刻も早く救わなければならないので、焦眉（しょうび）の急です。<br/><br/>要するに日本の食糧危機といってもよいです。<br/><br/>それで一面、今人造米とかをやっても、あんなまずい物は食い手がないでしょう。<br/><br/>それで結局政府も工夫して、麦をやってパンを食べるようにしてますが、豊葦原（とよあしはら）瑞穂の国という言葉は消さなければなりません。<br/><br/>そこでこれをどうしても全国的に一度に分からせなければならないと思うので、今度大新聞の一頁広告を出そうと思ってます。<br/><br/>自然栽培の理論と、今度の報告ですが、渡辺さんの報告と事務所の三浦さんの報告は非常によいですから、この二つを実例として出します。<br/><br/>それでいろんな原理の解説を書いて、それらをひとまとめにして出します。<br/><br/>なにしろグズグズしてはいられません。<br/><br/>全国民に原子爆弾をぶっつけ、そうして愕然とさせるというような手を打たなければ、早く知らせるわけにはゆきません。<br/><br/>これは信仰に入れというのではなく、これこそ読んだ人がだれでも実験できるのだから、分かりさえすればたいへんなものです。<br/><br/>ですからこれはどうしてもこのくらいのことをしなければ、追いつかないと思います。<br/><br/>今書いてますが、なるべくだれにも分かり、なるほどと思うように念を入れて書くつもりです。<br/><br/>そうして一挙に日本人全部に分からせようと思ってます。<br/><br/>題は“全国民諸君よ”という肩書で“日本は救われた”という大きな見出しにするつもりです。<br/><br/>それでいままで、初年度は減る例がある、ということがちょっとおもしろくないために、取り掛からせるに困難だったが、今度は初年度からすばらしい成績を上げれるとしたら、本当にそれを見たら、これは誰もがやらないわけにはゆきませんから、そこで神様はそういうふうな手を打たれたに違いありません。<br/><br/>そこで今年の非常な不作ということは、要するに一大チャンスが来たわけです。<br/><br/>この機を逃さず大々的にこれを分からせようというわけです。<br/><br/>普及会の方でも、これから講演会やいろいろなことを大いにやるでしょうが、そういう方針でやるつもりです。<br/><br/> それから『救世教奇蹟集』ができあがったので発行しようと思ってますが、新聞に広告を出すつもりです。<br/><br/>なにしろ初めてできた本ですから、広告文も、だいたいが理解できるとともに、どうしても読みたいという購読欲が出るような書き方でなければおもしろくないから、そういうように書いたつもりですが、その広告文を今度初めて書いてみました。<br/><br/> （『世界救世教奇蹟集』（広告文）） それからもう一つ、自然栽培が非常に良くできるということは、霊的のわけがあるのです。<br/><br/>それは信者になって光明如来様をお祀りしますと、無論光が出ますが、その光がその人の田地内に漲（みなぎ）るのです。<br/><br/>光が充満するのです。<br/><br/>そこで光は熱ですから温かくなるのです。<br/><br/>温かくなるといっても、ふつうの火のようにはっきりはしないが、なんとなく温かくなるのです。<br/><br/>前に試験した人が、他人の田より二度温かいと言われましたが、とにかく温かいのです。<br/><br/>その光がだんだん強くなってきました。<br/><br/>私はいつも注意してますが、今日のここの温度は十六度です。<br/><br/>東京が十六度、鹿児島と福岡が十四度ですから、鹿児島より高いのです。<br/><br/>今日の全国で一番高いのが東京とここです。<br/><br/>それで平均してみるとここは東京よりいくらか高いでしょう。<br/><br/>高い日の方が多いです。<br/><br/>というのは、私の光が強くなってきたので温かくなったので、それが体的にも温かさが現われるわけです。<br/><br/>そういうわけですから、御神体から出る光も強いからして、どうしてもそこの田が温かくなり、そのために良くできるということも大いにあります。<br/><br/>しかしそれをあんまり言うと、どうも信者にならないと良い成績が上がらない、というように思われると普及が遅れますから、それを未信者には言わない方がよいです。<br/><br/>信者の人だけ心得ていればよいのです。<br/><br/>そうして信者になったらその説明をしてやればよいので、そうでなければ入りにくいのです。<br/><br/>そういうわけで、そこの囲いなら囲いのそこだけの霊界が違ってくるのです。<br/><br/>それで隣が信者でないと、そこにはっきりと境界されるのです。<br/><br/>ですからよく信者の田は良くできて、お隣はまるっきり違う、ということがあるのはそういうわけです。<br/><br/> それからもう一言話しておきますが、私は五カ年で五割増産ということをモットーにしてましたが、これはよほど遠慮して言ったので、本当は十割、十五割なので、十割以上は増産できるのです。<br/><br/>ところがそれではあんまり良過ぎるので疑いを起こすため、疑いを起こさない程度として五カ年にして五割増産としたのです。<br/><br/>ところが今年は十割以上はなんでもありません。<br/><br/>さっき言ったとおりＩさんなどは二十五俵とってみせると言っているくらいですから、十割以上はなんでもありません。<br/><br/>それを私は前に言ったことがあるような気がしましたが、三年前に書いてありました。<br/><br/> （御論文「農業の大革命 飯米十割増産は易々たり」） それから今年の問題としては台風ですが、今年ぐらい台風の多かったことと、その被害の大きかったことはないでしょう。<br/><br/>それについて、たいてい今までに書いてはありますが、いくらか違ったことも書いてみました。<br/><br/> （御論文「台風禍」） 【栄光 二三〇号】 霊体を説明するには掌が一番よいです。<br/><br/>手の平はいろんな役をし手の甲はあんまり役をしません。<br/><br/>手の平は体の方です。<br/><br/>ですから霊というのは目で見てはあんまり動いてないのです。<br/><br/>その代わり主にはなってます。<br/><br/>人間の体で言えば、背中は霊です。<br/><br/>それで背中の方に病原があるということは、背中の方が因だからです。<br/><br/>だから本当に仕事の急所をやる人ほど動きません。<br/><br/>下のほうのことをやる人ほど動くのです。<br/><br/>ところが霊を知らないで体だけで見るから、そこで労働者がいばり、労働者が肝腎だということを言い出し、それが共産主義です。<br/><br/>ですから共産主義というのは、霊を認めなければ共産主義の理屈は本当です。<br/><br/>それはうまくできてます。<br/><br/>ところが霊を認めれば共産主義というのは、屁のカッパみたいなものです。<br/><br/>ですからよく前から共産主義について私に意見を聞く人がありますが、あんなものはなんでもない、今になくなってしまうと言ってました。<br/><br/>それは体だけであって、主なる霊ということを無視しているために永久性がないから、共産主義というのは長く続くものではないといっても、外れません。<br/><br/>そういうわけで働いているのが目に見えない者ほど、かえって大きな働きをしているわけです。<br/><br/>だから主人公や首脳者というものは動いてはいけないということを、私は前から言っているのはそういうわけです。<br/><br/>よく、明主様は地方の方にはお出かけになりませんか、と言われますが、それには車の心棒のたとえで、心棒は動いてはいけないというのですが、それで分かるはずです。<br/><br/>そういうようで、よく先に立ってやらなければいけない、つまり首脳者とか長という人が先に立って采配を振れということを言いますが、それは嘘なのです。<br/><br/>昔から、戦争で大将などが先に立って采配を振ったらきっと負けます。<br/><br/>やっぱり大将は幕の内に引っ込んで、姿を見せないというやり方のほうが勝ちます。<br/><br/>それはやっぱり霊主体従の法則に合っているからです。<br/><br/>東条首相が戦争のときに南洋まで飛行機に乗って行きましたが、その時私は、これは駄目だと言ったのです。<br/><br/>首相が官邸にいて碁でも打っているようなら勝つが、ああいうようではきっと駄目だと言ったのです。<br/><br/>それから話は違うが、あの時代の実業界で社会にそうとう有名になった、浅野セメントを作った浅野総一郎という人がいましたが、この人は朝早くから起きて、方々を駆けまわっているのです。<br/><br/>それで一時パッとゆきましたが駄目になりました。<br/><br/>そういうことも、私は不思議だなと思っていましたが、霊主体従の法則を知ってから、なるほどと思いました。<br/><br/>そういうように、目に見えて働いたり動くことを良いと思うことは逆なのです。<br/><br/>だから教団の支部などでも、支部長があんまり先に立ってやるよりか、部下とか、あるいは新しい信者といった人にできるだけやらせるというようにした方がよいです。<br/><br/>戦争が始まったころに陣頭指揮ということを言いましたが、軍部は軍需会社の社長が陣頭指揮をやらなければ駄目だ、引っ込んでいては駄目だと言ってましたが、陣頭指揮をやるようでは駄目です。<br/><br/>もっとも昔時は戦争のときには、山賊などは親分がやらないと子分が動かないからやったのですが、そうでなく平和的のことをやるには、今言った法則を守らなければいけないわけです。<br/><br/>だからただ活動する、あせったりいろいろする、ということがよいわけではなく、やはり自分の地位と境遇に準じて理屈にあったやり方でなければいけないのです。<br/><br/>だから骨折ってうまくゆかないということがよく世間にありますが、そういう点をよく見ると分かるわけです。<br/><br/>昔からよく言いますが、あんなに働くのにどうして年中貧乏をしているのだろう、またあの人は年中ブラブラしているのに割合に懐が温かいと言うが、そのことを知ればよく分かります。<br/><br/>そうかといって怠けるのと、今言う霊的働きとは、外観はちょっと同じように見えるので間違えるのでしょうが、そこにおもしろいところがあります。<br/><br/>結局頭を働かせるということです。<br/><br/>それから体を働かせるということも、人間生まれながらにして、おのずから決まっているのです。<br/><br/>だから頭を働かせるべく生まれた人と、体を働かせるようにできている人と、しゃべるために生まれてきた人もあります。<br/><br/>あいつは口から先に生まれてきたと言いますが、やっぱりそういう人が政治家なら始終演説をするとか、宗教家なら講義をするとかで、そういう人も肝腎だから、その役目でよいのです。<br/><br/> それから時間がないから短く話しておきます。<br/><br/>講和以前にはあまり話さなかったが、日本民族の優秀性ということです。<br/><br/>この間科学者の会議がありましたが、外国でもいろいろな発見や意見がありますが、今に日本が一番になります。<br/><br/>今に湯川博士のような人がたくさんできてきます。<br/><br/>これは霊的に優秀だからです。<br/><br/>それで日本人は機械を動かすとか、そういうことは下手なのです。<br/><br/>これも日本民族の根本を知ると分かります。<br/><br/>それを知らないからして、やたらに西洋のまねをしたらよいと思っているのです。<br/><br/>この間も油絵のことで、そういった方面の人と話したのですが、日本は油絵がとてもフランスに負けていると言うから“それは駄目だ、日本人は油絵がうまくなるような人種ではない。<br/><br/>そういうことは外国人に任せておけばよい、日本人は東洋画をやればよいのだ”と言ったのです。<br/><br/>それは国民性があるので、日本人は墨絵をやればよいのです。<br/><br/>一筆スーッと画いて現わすというやり方ですが、あっちはそういう天分がないので一生懸命に絵の具をこするのです。<br/><br/>それで効果は同じなのです。<br/><br/>あるいは効果は日本人の方が上かもしれません。<br/><br/>医者は機械や薬で病気を治そうとするが、こっちはこうやって浄霊で治すということを日本人は知らないから、骨折って結果がうまくないというわけなのです。<br/><br/>私はそういうこともだんだん分からせようと思ってますが、アメリカの目玉が光っているうちは、そういうことを言うと妙に見られますので、ウッカリ言えないが、そういうこともだんだん日本人に知らせなければならないのです。<br/><br/>ところが今はなんでもかんでもアメリカ崇拝です。<br/><br/>頭はみんなやってますが、酷いのになると服装から顔からまねて、日本人放れにする方がよいと思っているのです。<br/><br/>これもある程度まではよいですが、行き過ぎるとまた妙なことになります。<br/><br/>この間のように信者で髪を縮らせるために強い薬を使って、それが因で死んだ人があります。<br/><br/>そういったような悲喜劇があります。<br/><br/>今銀座あたりでは、西洋人だか日本人だか分からないような、みずから、二世のような格好をしたがっているのがあります。<br/><br/>こういうのも、今言う西洋崇拝の被害です。<br/><br/>というのは民族の違いを知らないからです。<br/><br/>それは日本人は霊的にすばらしい優秀性を持っているのです。<br/><br/>それを知らないから日本人は世界を相手にして戦争をするという太い了簡を起こしたのです。<br/><br/>つまりいつも言うとおり、日本人はどこまでも平和の国民なのです。<br/><br/>つまり床の間に坐っているようなのが日本人です。<br/><br/>そうしてあと座敷で働いているのは他国の人間です。<br/><br/>だから日本人はどこまでも美術、芸術を主にすれば本当に合っているからうまくゆくのです。<br/><br/>だいたい服装でもそうです。<br/><br/>和服というのは働く服装ではないのです。<br/><br/>懐手をしてアグラをかくほうです。<br/><br/>そうして下駄をぬいで上がるということは、すばらしいものです。<br/><br/>靴をはいて床の間に上がるということは獣と同じです。<br/><br/>寝室に土足のままで上がって行くのですから、犬小屋と同じことになります。<br/><br/>それは、よく見るといろんな面にあります。<br/><br/>ですから日本人と外人、また東洋人でも、朝鮮人、支那人、インド人と違いますが、そういう区別もチャンとあるのです。<br/><br/>つまり日本人は頭なのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281226</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月26日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十六日 メシヤ会館の建築について、これをやっている椎野という人に、事務所の酒見という人が対談して、椎野の言うことにおもしろいことがあるので読ませます。<br><br>そうしてその説明をします。<br><br> （寄書「メシヤ会館現場責任者椎野氏を訪ねて」） 【栄光 二四二号】 これについて思い出したことは、法隆寺の五重の塔の寸法が実にピッタリしていることです。<br><br>これは聖徳太子が造ったのですが、やはり聖徳太子が、寸法でもなんでも感じたままを“こうしろ、ああしろ”としてできたのが、あの五重の塔ですが、これが、今の建築家でもあんなにうまく合っている寸法はできないのだそうです。<br><br>私も去年行ったときに五重の塔を一番よく見ましたが、実によく合っています。<br><br>高さといい、一階一階の寸法といい、屋根の形といい、言うところがないのです。<br><br>というのは、聖徳太子は私が生まれたのです。<br><br>ですから私のやっていることが聖徳太子とよく似ているのです。<br><br>あそこに夢殿があり、そこに救世（グセ）観音というのがありますが、あれは「自分は今にこうなる、こういうふうに生まれる」ということを暗示したものです。<br><br>夢殿というのは聖徳太子の居間だったのです。<br><br>それで記念にこしらえて、救世観音を作って、これはふだん開けてはいけないという御秘仏になっているのです。<br><br>今のメシヤ会館の寸法がピッタリ合っているということは、それによく似通っているわけです。<br><br>聖徳太子がとにかく日本に仏教を弘めたのは、奈良を中心として奈良に仏教美術を、自分が作って始めたわけです。<br><br>私は、聖徳太子が日本的だったのを、世界的にするわけです。<br><br>そこであの時代には仏教というのは、新しい宗教だったのです。<br><br>それまでの日本は神道だったのです。<br><br>だから救世教という新しい宗教を開くには、美術を応用したわけです。<br><br>ただ、時代が違うから、あの時代にはだいたい支那の仏教美術を基本として、聖徳太子の草案によって作ったものです。<br><br>それから仏教が日本に拡がったわけです。<br><br>ですから本当の原始仏教の基本＝基礎です。<br><br>一番分かりやすく言えば、聖徳太子が世界的にやるということが救世教ですが、けれども聖徳太子は仏教ですから、教えだけで、病気を治すとか自然栽培とか、そういうことはやらなかったのです。<br><br>だいたい仏教というのは、つまり教えですから、これを弘めるには御説教で弘めたのです。<br><br>経文が本で、お経を解釈して、お経を本にして精神的に救ったわけです。<br><br>それで私の方はそういった御説教的のやり方は、今までに充分できてしまってますから、そんな必要がないとともに、御説教だけでは本当に救えないというわけで、他の病気治しなどもやったわけです。<br><br>ですから今言った建築がよく似ているわけです。<br><br>つまり学問――科学の方は計算とか方程式とか、それによっていろいろ割り出してゆくのですが、私の方は感じです。<br><br>天井の高さも、見たときに、大きさと、宗教建築ですから劇場やなにかと違って一階であって、大勢が敬虔（けいけん）な気持ちで、あの部屋の中に入ったときの感じとかで、どのくらいの高さがちょうどよいかと、そういうような条件を考えると、自然にこのくらいの高さがよいということが浮かぶのです。<br><br>ですから感じでこの高さにしろと言ったわけです。<br><br>それから形も、カマボコ型の天井にしたのですが、それもやはりあそこに入ると、そういう形がよいように感じるのです。<br><br>それから柱の太さにしても、見本をざっと作ったのを見ると、全体から割り出してちょうどこのくらいの太さがよい、ということでやったのですが、それが学問上からも合っているわけです。<br><br>それで学問というのはこういうわけです。<br><br>いろんなことで理詰めにしてゆくわけですが、それは何年も何十年もかかってだんだんやってゆくわけです。<br><br>それが、私がやるのは早いのです。<br><br>それだけの手数をその場でやるわけです。<br><br>結果の方が先に分かってしまうのです。<br><br>ですから熱海にしろ、京都や奈良が千年以上もかかったのが、わずか十年の、百分の一でできてしまうのですから、ちょうど医者が何年もかかって治らなかったのが、これ（浄霊）でわずかの間に治ってしまうということと同じような理屈です。<br><br>ですからして、これからも非常に早く世界中に知れるというようになるわけです。<br><br> それで建築ばかりでなく、あそこに行って、みんな見て分かるでしょうが、今道路を作ったり木を植えたり、いろいろやってますが、それは二、三度行って、三十分か一時間まごつけばすっかり分かるのです。<br><br>だから考えたり迷ったりすることは、ほとんどないです。<br><br>歩くうちにチャンと分かるのです。<br><br>これは自分でも始終不思議に思ってますが、それがまたおもしろいのは、時期時期に応ずるのです。<br><br>必要な時期が来るとすぐに分かるのです。<br><br>時期が来ないうちは、なかなか分からないのです。<br><br>ヒョッと見て分からない時は、これはまだ時期が来ないからだと止してしまうのです。<br><br>時期が来ているとすぐ分かるのです。<br><br>ですから、随分難しい所があって、どうしたらよいかなと分からないことがあります。<br><br>そういう時は止して時期を待つのです。<br><br>そうして時期がいま決めなければいけないという時になると、はっきり分かるのです。<br><br>今やっている美術館の所から展望台に行く道路ですが、そこのところがふつうはちょっと分からないのです。<br><br>非常に急勾配になっているし、どの辺からどういうようにゆくかということが、ちょっと見当がつかないのですが、それがちょうどその時期になってきたので、この間二度ばかり行きましたが、実によく分かりました。<br><br>その道ができると自然に無理がなくゆくのです。<br><br>そういうようですから、神様の仕事というのは実に不思議なような、おもしろいような、変なものです。<br><br>なにからなにまでそういう具合で、美術品にしても、こういう物があればよいな、こういう物が来ればよいなと簡単に思ってますが、それも、あれはとても手に入る物ではないと思っているうちに、時期が来るとスラスラと入るのです。<br><br>それで入ってから、これはこういう展覧会をやらなければいけないのだ、ということが分かるのです。<br><br>そういうことを話しているときりがないが、それはおもしろいものです。<br><br>来年は会館と展望台の上の水晶殿ができますが、これがまた評判になるだろうと思ってます。<br><br>おそらく世界にないです。<br><br>私は前に写真でアメリカでのガラスの家を見たことがありますが、これは円形というわけではないので、ただ凸凹したガラスの家なのです。<br><br>最近できた建築で作ったのを見ましたが、三尺幅の平らなガラスで、太い木の縁がついて丸くなっているのです。<br><br>これはたいして珍しいやり方ではないのです。<br><br>今度できる水晶殿は六尺幅のガラスを曲線にして接ぎ合わせるのです。<br><br>接ぐのもなるだけ目立たないように工夫するつもりです。<br><br>もし間に入れるとすればジュラルミンかなにかを入れるつもりです。<br><br>それでガラスでは日が当たるとチカチカして景色が見にくいですから、プラスチックの透明なのを使うつもりです。<br><br>それで、今度は美術館もガラスでなくプラスチックでやるつもりです。<br><br>ガラスですと、光線が当たるとチカチカして、少し離れて見ると中の品物が消されてしまうのです。<br><br>近代美術館ですが、ガラスを立てるとチカチカするから斜めにしてあります。<br><br>見た感じが、なんだか安ッポイような、地震のときにガラスが外れそうな感じがします。<br><br>もっともアメリカあたりの美術館はガラスは使わないそうですから、できるだけ幅広くしてプラスチックでやろうと思ってます。<br><br>またその方が壊れる憂いがないです。<br><br>水晶殿も、下からの高さから、屋根の具合も、全部私が設計しました。<br><br>これはなかなか難しいのです。<br><br>屋根は円形で平らです。<br><br>最初の設計よりもできるだけ広くしました。<br><br>なぜといって、随分人が来るでしょうから、百人ぐらい入ってゆったり見れるぐらいの大きさです。<br><br>道も後戻りをしないで見られるように工夫したのですが、いろいろな道の具合も、なるほどと思うようにつけたつもりです。<br><br>まだいろんな細かいこともありますが、それはできてから見るよりしようがないです。<br><br> この間ＮＨＫの英語放送の主任をしているグリリという人が来て、書くつもりで見に来たのですが、あまりに規模が大きいのとすばらしいので書けない、だから批評を書くのを止めた、ただ現場を見ろということだけは書く、と言ってました。<br><br>それで放送協会の会長の古垣という人が熱海にいるそうですが、始終親しくしているので、この間行って、熱海に岡田という日本では珍しい立派な人がいるのをあなたは知っているかと言うと、知っている。<br><br>ではなぜラジオで紹介しないか、変なアラばかり見つけて、なぜこういうことを放送しないかと言ったところが、なんとか考えるから待ってくれと言っていたそうです。<br><br>だから来るかもしれないと言ってました。<br><br>それから、外務大臣が会いに来ていろいろ感謝の意を表して、今後のいろいろな計画とかを聞き、とにかく外務大臣が大いに関心を持つものだが、そういうことはありませんかと言うから、ぜんぜんそういうことはないと言ったのですが、そういう話がありました。<br><br>またその人の奥さんというのが偉いのです。<br><br>奥さんは『ニホン・タイムズ』の記者をしているのですが、実に観察が鋭いのです。<br><br>私がアメリカの人はすばらしいと言って褒めたところが、日本の新聞記者はどうかという話が出て、日本の新聞記者とすれば“救世教のやつは新宗教で新しいくせに、よくこれだけ儲けやがったな”“実に金儲けがうまい”と、そのくらいなものだと言ったら驚いてました。<br><br>つまりアメリカの人は、大きなものを大きな目で見るからよく分かるのです。<br><br>ところが日本の新聞記者は、大きなものを小さな目で見るから――一部分で見るから分からないので、これはまったくそうです。<br><br>日本の新聞記者を非常に悪く言ったが、ここにはいないでしょうが、いるとすれば気持ちを悪くするでしょうが……。<br><br>ですから、大きい中には欠点もあるでしょうし、気にくわない点もあるでしょうが、気にくわない点だけを見つけて、これを新聞に書くというわけです。<br><br>そういうようなわけで、日本人には島国根性というものが多分にあるのです。<br><br>だから政治でも経済でも、どうも大局を見ないで小さい所を見るから、そこで争いということになるのです。<br><br>両方でアラを見ているのです。<br><br>私はよく言うのですが、新聞記者に“日本の政治家というのはヤクザと同じだ。<br><br>ナワ張り争いとか、ともすれば腕を振るうということは、それと少しも違わない”と言うと、これにはみんな感心してます。<br><br>だから吉田とか重光とかいっても、親分と言ってますが、これはヤクザ気分が多分にあります。<br><br>よくナワ張り争いと言いますが、これは昔ヤクザ連中がやったことです。<br><br>だからヤクザというのは喧嘩が商売ですから、今の政治家はそれによく似てます。<br><br> 無神論についてちょっとおもしろく書いてみました。<br><br> （御論文「無神論について」） 【栄光 二四二号】 話はいろいろになりますが、今年もわずか数日でおしまいになります。<br><br>ちょうど去年の一昨日の二十四日が私の裁判の確定した日です。<br><br>それからやっと気分的に明るくなって、思いきって仕事でもなんでも気がはいるようになったのです。<br><br>ですからわずか一年で、随分発展……でなく、発展の気構えになり、そういった動きが強くなってきたようです。<br><br>それで来年はいよいよ脂が乗って、メシヤ会館もできますし、それから箱根の美術館もすばらしい計画があるのです。<br><br>それについて、来年三月に三越七階の昔の特別食堂で、浮世絵大展覧会をやることになってます。<br><br>ここの面積が百五十坪ありますが、箱根美術館は平らにして百坪だから、五割広くなるわけです。<br><br>そこに箱根美術館出張展覧会というか、そういうことをやることになってます。<br><br>だいたい決定しました。<br><br>だから箱根美術館の非常な宣伝になるだろうと思います。<br><br>無論大阪、九州にも続いてやるでしょうから、救世教の非常に特異な存在ということが世の中によく知れるわけです。<br><br>それでなんとしても、新宗教がいろいろあるそれが、いかにも、はっきり言えば低級なのです。<br><br>今度問題になった霊友会とか、踊る宗教とか、璽光尊とか、いかにもレベルが低いのです。<br><br>そこで“救世教というやつは近ごろできて、少しは違うようだが、結局あれも新宗教の一つなのだから、たいしたことはない”と言って軽蔑するという、そういう点が大いにあるのです。<br><br>それが救世教の発展の一番の邪魔をしているわけです。<br><br>それで、入ってみて本当に食べてみると“これはうまい、今までなぜ知らなかったか”ということになるのですが、そういう点を分からせるには美術館が一番よいです。<br><br>ですから救世教は他の新宗教とは違う、それどころではない、既成宗教もひっくるめて、断然すばらしいというところまで認識させなければならないのです。<br><br>そこまで分かれば後は楽で、すばらしい発展をするに違いないのですから、そういう点において美術館が非常に大きな役をしているのです。<br><br>このごろ日本中にはかなり知れ渡ってきました。<br><br>それから外人間にもだいぶ知れてきてます。<br><br>二、三日前もポルトガルの公使とフランスの大使が、ぜひ浮世絵や屏風を見せてもらいたいと言ってきたが、閉館中は無理だからと言って断りましたが、来年開館すれば外人の観客もずいぶんあるだろうと思います。<br><br>そうして外人間に評判されるようになって、それを日本人が知ると、大いに信用するわけです。<br><br>そういう点から見ても、来年は非常におもしろいだろうと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte, Arquitetura e o Plano Divino</h2>
 <p>Gostaria de compartilhar convosco a transcrição de um diálogo interessante entre o Sr. Sakemi, de nosso escritório, e o Sr. Shiino, responsável pela construção do Salão Messiânico. Após a leitura do relato, que considero relevante, tecerei algumas considerações.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>É inegável que, dentre as várias novas religiões existentes, a maioria é, para dizer com franqueza, de natureza bastante inferior. Reiyukai, que recentemente esteve envolvida em problemas, a “religião dançante”, Jikokyo — todas operam em um nível muito baixo. Por causa delas, a percepção geral é: “Essa tal de Sekaikyuseikyo surgiu há pouco e parece um pouco diferente, mas, no fim, é só mais uma dessas novas religiões, nada de especial”. Esse desprezo é o maior obstáculo ao nosso desenvolvimento.</p>
 <p>No entanto, aqueles que adentram e experimentam de fato o que oferecemos, acabam por reconhecer seu valor e se perguntam por que não o conheceram antes. Para transmitir essa verdade, o Museu de Arte é o instrumento mais eficaz. É imperativo que as pessoas compreendam que a Sekaikyuseikyo não apenas difere das outras novas religiões, mas as transcende, sendo categoricamente superior a todas, inclusive às religiões já estabelecidas. Uma vez que essa percepção seja alcançada, o caminho se tornará mais fácil, e nossa expansão será, sem dúvida, formidável. Nesse aspecto, o Museu de Arte desempenha um papel de suma importância.</p>
 <p>Recentemente, nosso nome tem se tornado bastante conhecido em todo o Japão, e também entre os estrangeiros. Há alguns dias, o embaixador de Portugal e o da França manifestaram grande desejo de ver nossa coleção de ukiyo-e e biombos. Tive de recusar, pois o museu está fechado para visitação, mas imagino que, após a reabertura no próximo ano, receberemos um número considerável de visitantes estrangeiros. Quando a reputação de nossa Obra se firmar no exterior e essa notícia chegar ao Japão, a confiança do povo japonês aumentará significativamente. Sob essa perspectiva, o próximo ano promete ser verdadeiramente fascinante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月26日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十六日 メシヤ会館の建築について、これをやっている椎野という人に、事務所の酒見という人が対談して、椎野の言うことにおもしろいことがあるので読ませます。<br/><br/>そうしてその説明をします。<br/><br/> （寄書「メシヤ会館現場責任者椎野氏を訪ねて」） 【栄光 二四二号】 これについて思い出したことは、法隆寺の五重の塔の寸法が実にピッタリしていることです。<br/><br/>これは聖徳太子が造ったのですが、やはり聖徳太子が、寸法でもなんでも感じたままを“こうしろ、ああしろ”としてできたのが、あの五重の塔ですが、これが、今の建築家でもあんなにうまく合っている寸法はできないのだそうです。<br/><br/>私も去年行ったときに五重の塔を一番よく見ましたが、実によく合っています。<br/><br/>高さといい、一階一階の寸法といい、屋根の形といい、言うところがないのです。<br/><br/>というのは、聖徳太子は私が生まれたのです。<br/><br/>ですから私のやっていることが聖徳太子とよく似ているのです。<br/><br/>あそこに夢殿があり、そこに救世（グセ）観音というのがありますが、あれは「自分は今にこうなる、こういうふうに生まれる」ということを暗示したものです。<br/><br/>夢殿というのは聖徳太子の居間だったのです。<br/><br/>それで記念にこしらえて、救世観音を作って、これはふだん開けてはいけないという御秘仏になっているのです。<br/><br/>今のメシヤ会館の寸法がピッタリ合っているということは、それによく似通っているわけです。<br/><br/>聖徳太子がとにかく日本に仏教を弘めたのは、奈良を中心として奈良に仏教美術を、自分が作って始めたわけです。<br/><br/>私は、聖徳太子が日本的だったのを、世界的にするわけです。<br/><br/>そこであの時代には仏教というのは、新しい宗教だったのです。<br/><br/>それまでの日本は神道だったのです。<br/><br/>だから救世教という新しい宗教を開くには、美術を応用したわけです。<br/><br/>ただ、時代が違うから、あの時代にはだいたい支那の仏教美術を基本として、聖徳太子の草案によって作ったものです。<br/><br/>それから仏教が日本に拡がったわけです。<br/><br/>ですから本当の原始仏教の基本＝基礎です。<br/><br/>一番分かりやすく言えば、聖徳太子が世界的にやるということが救世教ですが、けれども聖徳太子は仏教ですから、教えだけで、病気を治すとか自然栽培とか、そういうことはやらなかったのです。<br/><br/>だいたい仏教というのは、つまり教えですから、これを弘めるには御説教で弘めたのです。<br/><br/>経文が本で、お経を解釈して、お経を本にして精神的に救ったわけです。<br/><br/>それで私の方はそういった御説教的のやり方は、今までに充分できてしまってますから、そんな必要がないとともに、御説教だけでは本当に救えないというわけで、他の病気治しなどもやったわけです。<br/><br/>ですから今言った建築がよく似ているわけです。<br/><br/>つまり学問――科学の方は計算とか方程式とか、それによっていろいろ割り出してゆくのですが、私の方は感じです。<br/><br/>天井の高さも、見たときに、大きさと、宗教建築ですから劇場やなにかと違って一階であって、大勢が敬虔（けいけん）な気持ちで、あの部屋の中に入ったときの感じとかで、どのくらいの高さがちょうどよいかと、そういうような条件を考えると、自然にこのくらいの高さがよいということが浮かぶのです。<br/><br/>ですから感じでこの高さにしろと言ったわけです。<br/><br/>それから形も、カマボコ型の天井にしたのですが、それもやはりあそこに入ると、そういう形がよいように感じるのです。<br/><br/>それから柱の太さにしても、見本をざっと作ったのを見ると、全体から割り出してちょうどこのくらいの太さがよい、ということでやったのですが、それが学問上からも合っているわけです。<br/><br/>それで学問というのはこういうわけです。<br/><br/>いろんなことで理詰めにしてゆくわけですが、それは何年も何十年もかかってだんだんやってゆくわけです。<br/><br/>それが、私がやるのは早いのです。<br/><br/>それだけの手数をその場でやるわけです。<br/><br/>結果の方が先に分かってしまうのです。<br/><br/>ですから熱海にしろ、京都や奈良が千年以上もかかったのが、わずか十年の、百分の一でできてしまうのですから、ちょうど医者が何年もかかって治らなかったのが、これ（浄霊）でわずかの間に治ってしまうということと同じような理屈です。<br/><br/>ですからして、これからも非常に早く世界中に知れるというようになるわけです。<br/><br/> それで建築ばかりでなく、あそこに行って、みんな見て分かるでしょうが、今道路を作ったり木を植えたり、いろいろやってますが、それは二、三度行って、三十分か一時間まごつけばすっかり分かるのです。<br/><br/>だから考えたり迷ったりすることは、ほとんどないです。<br/><br/>歩くうちにチャンと分かるのです。<br/><br/>これは自分でも始終不思議に思ってますが、それがまたおもしろいのは、時期時期に応ずるのです。<br/><br/>必要な時期が来るとすぐに分かるのです。<br/><br/>時期が来ないうちは、なかなか分からないのです。<br/><br/>ヒョッと見て分からない時は、これはまだ時期が来ないからだと止してしまうのです。<br/><br/>時期が来ているとすぐ分かるのです。<br/><br/>ですから、随分難しい所があって、どうしたらよいかなと分からないことがあります。<br/><br/>そういう時は止して時期を待つのです。<br/><br/>そうして時期がいま決めなければいけないという時になると、はっきり分かるのです。<br/><br/>今やっている美術館の所から展望台に行く道路ですが、そこのところがふつうはちょっと分からないのです。<br/><br/>非常に急勾配になっているし、どの辺からどういうようにゆくかということが、ちょっと見当がつかないのですが、それがちょうどその時期になってきたので、この間二度ばかり行きましたが、実によく分かりました。<br/><br/>その道ができると自然に無理がなくゆくのです。<br/><br/>そういうようですから、神様の仕事というのは実に不思議なような、おもしろいような、変なものです。<br/><br/>なにからなにまでそういう具合で、美術品にしても、こういう物があればよいな、こういう物が来ればよいなと簡単に思ってますが、それも、あれはとても手に入る物ではないと思っているうちに、時期が来るとスラスラと入るのです。<br/><br/>それで入ってから、これはこういう展覧会をやらなければいけないのだ、ということが分かるのです。<br/><br/>そういうことを話しているときりがないが、それはおもしろいものです。<br/><br/>来年は会館と展望台の上の水晶殿ができますが、これがまた評判になるだろうと思ってます。<br/><br/>おそらく世界にないです。<br/><br/>私は前に写真でアメリカでのガラスの家を見たことがありますが、これは円形というわけではないので、ただ凸凹したガラスの家なのです。<br/><br/>最近できた建築で作ったのを見ましたが、三尺幅の平らなガラスで、太い木の縁がついて丸くなっているのです。<br/><br/>これはたいして珍しいやり方ではないのです。<br/><br/>今度できる水晶殿は六尺幅のガラスを曲線にして接ぎ合わせるのです。<br/><br/>接ぐのもなるだけ目立たないように工夫するつもりです。<br/><br/>もし間に入れるとすればジュラルミンかなにかを入れるつもりです。<br/><br/>それでガラスでは日が当たるとチカチカして景色が見にくいですから、プラスチックの透明なのを使うつもりです。<br/><br/>それで、今度は美術館もガラスでなくプラスチックでやるつもりです。<br/><br/>ガラスですと、光線が当たるとチカチカして、少し離れて見ると中の品物が消されてしまうのです。<br/><br/>近代美術館ですが、ガラスを立てるとチカチカするから斜めにしてあります。<br/><br/>見た感じが、なんだか安ッポイような、地震のときにガラスが外れそうな感じがします。<br/><br/>もっともアメリカあたりの美術館はガラスは使わないそうですから、できるだけ幅広くしてプラスチックでやろうと思ってます。<br/><br/>またその方が壊れる憂いがないです。<br/><br/>水晶殿も、下からの高さから、屋根の具合も、全部私が設計しました。<br/><br/>これはなかなか難しいのです。<br/><br/>屋根は円形で平らです。<br/><br/>最初の設計よりもできるだけ広くしました。<br/><br/>なぜといって、随分人が来るでしょうから、百人ぐらい入ってゆったり見れるぐらいの大きさです。<br/><br/>道も後戻りをしないで見られるように工夫したのですが、いろいろな道の具合も、なるほどと思うようにつけたつもりです。<br/><br/>まだいろんな細かいこともありますが、それはできてから見るよりしようがないです。<br/><br/> この間ＮＨＫの英語放送の主任をしているグリリという人が来て、書くつもりで見に来たのですが、あまりに規模が大きいのとすばらしいので書けない、だから批評を書くのを止めた、ただ現場を見ろということだけは書く、と言ってました。<br/><br/>それで放送協会の会長の古垣という人が熱海にいるそうですが、始終親しくしているので、この間行って、熱海に岡田という日本では珍しい立派な人がいるのをあなたは知っているかと言うと、知っている。<br/><br/>ではなぜラジオで紹介しないか、変なアラばかり見つけて、なぜこういうことを放送しないかと言ったところが、なんとか考えるから待ってくれと言っていたそうです。<br/><br/>だから来るかもしれないと言ってました。<br/><br/>それから、外務大臣が会いに来ていろいろ感謝の意を表して、今後のいろいろな計画とかを聞き、とにかく外務大臣が大いに関心を持つものだが、そういうことはありませんかと言うから、ぜんぜんそういうことはないと言ったのですが、そういう話がありました。<br/><br/>またその人の奥さんというのが偉いのです。<br/><br/>奥さんは『ニホン・タイムズ』の記者をしているのですが、実に観察が鋭いのです。<br/><br/>私がアメリカの人はすばらしいと言って褒めたところが、日本の新聞記者はどうかという話が出て、日本の新聞記者とすれば“救世教のやつは新宗教で新しいくせに、よくこれだけ儲けやがったな”“実に金儲けがうまい”と、そのくらいなものだと言ったら驚いてました。<br/><br/>つまりアメリカの人は、大きなものを大きな目で見るからよく分かるのです。<br/><br/>ところが日本の新聞記者は、大きなものを小さな目で見るから――一部分で見るから分からないので、これはまったくそうです。<br/><br/>日本の新聞記者を非常に悪く言ったが、ここにはいないでしょうが、いるとすれば気持ちを悪くするでしょうが……。<br/><br/>ですから、大きい中には欠点もあるでしょうし、気にくわない点もあるでしょうが、気にくわない点だけを見つけて、これを新聞に書くというわけです。<br/><br/>そういうようなわけで、日本人には島国根性というものが多分にあるのです。<br/><br/>だから政治でも経済でも、どうも大局を見ないで小さい所を見るから、そこで争いということになるのです。<br/><br/>両方でアラを見ているのです。<br/><br/>私はよく言うのですが、新聞記者に“日本の政治家というのはヤクザと同じだ。<br/><br/>ナワ張り争いとか、ともすれば腕を振るうということは、それと少しも違わない”と言うと、これにはみんな感心してます。<br/><br/>だから吉田とか重光とかいっても、親分と言ってますが、これはヤクザ気分が多分にあります。<br/><br/>よくナワ張り争いと言いますが、これは昔ヤクザ連中がやったことです。<br/><br/>だからヤクザというのは喧嘩が商売ですから、今の政治家はそれによく似てます。<br/><br/> 無神論についてちょっとおもしろく書いてみました。<br/><br/> （御論文「無神論について」） 【栄光 二四二号】 話はいろいろになりますが、今年もわずか数日でおしまいになります。<br/><br/>ちょうど去年の一昨日の二十四日が私の裁判の確定した日です。<br/><br/>それからやっと気分的に明るくなって、思いきって仕事でもなんでも気がはいるようになったのです。<br/><br/>ですからわずか一年で、随分発展……でなく、発展の気構えになり、そういった動きが強くなってきたようです。<br/><br/>それで来年はいよいよ脂が乗って、メシヤ会館もできますし、それから箱根の美術館もすばらしい計画があるのです。<br/><br/>それについて、来年三月に三越七階の昔の特別食堂で、浮世絵大展覧会をやることになってます。<br/><br/>ここの面積が百五十坪ありますが、箱根美術館は平らにして百坪だから、五割広くなるわけです。<br/><br/>そこに箱根美術館出張展覧会というか、そういうことをやることになってます。<br/><br/>だいたい決定しました。<br/><br/>だから箱根美術館の非常な宣伝になるだろうと思います。<br/><br/>無論大阪、九州にも続いてやるでしょうから、救世教の非常に特異な存在ということが世の中によく知れるわけです。<br/><br/>それでなんとしても、新宗教がいろいろあるそれが、いかにも、はっきり言えば低級なのです。<br/><br/>今度問題になった霊友会とか、踊る宗教とか、璽光尊とか、いかにもレベルが低いのです。<br/><br/>そこで“救世教というやつは近ごろできて、少しは違うようだが、結局あれも新宗教の一つなのだから、たいしたことはない”と言って軽蔑するという、そういう点が大いにあるのです。<br/><br/>それが救世教の発展の一番の邪魔をしているわけです。<br/><br/>それで、入ってみて本当に食べてみると“これはうまい、今までなぜ知らなかったか”ということになるのですが、そういう点を分からせるには美術館が一番よいです。<br/><br/>ですから救世教は他の新宗教とは違う、それどころではない、既成宗教もひっくるめて、断然すばらしいというところまで認識させなければならないのです。<br/><br/>そこまで分かれば後は楽で、すばらしい発展をするに違いないのですから、そういう点において美術館が非常に大きな役をしているのです。<br/><br/>このごろ日本中にはかなり知れ渡ってきました。<br/><br/>それから外人間にもだいぶ知れてきてます。<br/><br/>二、三日前もポルトガルの公使とフランスの大使が、ぜひ浮世絵や屏風を見せてもらいたいと言ってきたが、閉館中は無理だからと言って断りましたが、来年開館すれば外人の観客もずいぶんあるだろうと思います。<br/><br/>そうして外人間に評判されるようになって、それを日本人が知ると、大いに信用するわけです。<br/><br/>そういう点から見ても、来年は非常におもしろいだろうと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

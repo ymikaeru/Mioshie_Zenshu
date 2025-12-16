@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私と病気 『栄光』80号、昭和25(1950)年11月29日発行 私は十月二十九日の朝、眼が醒めるや身体中が懈（だる）く、どうしても起きる気にはなれない。<br><br>手で身体中を触ってみると熱も相当あり、特に下腹の辺りが一番熱い。<br><br>もっとも前の晩寝る時、少し変だなと思ったが、さてはその時から始まったに違いない。<br><br>別段他に異常もないが便は水便で、相当赤色を帯びている。<br><br>ハハアー軽い赤痢だなと思った。<br><br>赤痢なら半日か一日で治るのだから安心だ。<br><br>という訳で、蒲団（ふとん）を敷きっ放しにしてゴロゴロしていた。<br><br>昼頃になると大分いいのでいつもの半分くらいの昼飯を食った。<br><br>元気をつけるため、小さい台コップに葡萄酒をついで一杯だけ飲んだ、ところが一、二時間経った頃から、再び工合が悪くなり、軽い腹痛さえある。<br><br>夕方から夜にかけて益々面白くない。<br><br>自分でも何回となく浄霊したのはもちろんで、夜は映画が見られたくらいだから大した事はないが、赤痢ならもう大方快くなっているはずだのに、余り捗々（はかばか）しくないのは、いささか変だと思うと、ハッと気が付いたのは、何と葡萄酒の中毒だという事が判った。<br><br>これは古くからある和製だが、有名な葡萄酒で、気の毒だから名は書かずにおくが、赤色甘味のもので、便が赤いのはそのためである。<br><br>それでよく考えてみると、前の晩いつもの倍も飲んだのでそれが原因である。<br><br>というのは前述のごとく、発病の朝から自己浄霊でやや軽快に赴いたところ、昼の一杯で再び悪くなったのもそれで判った。<br><br>妙なもので原因が判ると半分以上苦痛が減るもので、全く神経が手伝うのである。<br><br>そうして翌三十日東京に行ったが、大儀で仕方がない。<br><br>我慢して杖に縋りながら上野の日展などを見たが、それで反って快くなり、翌日からは大体平常通りになった。<br><br> これは平凡な軽い病気でかく程の事もないが、実は書くべき二つの理由がある。<br><br>一は葡萄酒の中毒である。<br><br>世間いかなる人でも薬用として飲むくらいの葡萄酒に、中毒などありよう訳がないと思うであろうが、事実は右の通りであるから、大いに注意すべきである。<br><br>原因は防腐剤の量が多すぎるためかそうでなければ何らか外の毒性が含まれていたのであろう。<br><br>この葡萄酒は二十数年以前も私は一度中毒した事があるので、長い間飲まない事にしていたが、昨年頃から少しずつ飲んでみたところ、別段何ともないので、安心し段々量を多くしたのが、今度の中毒となったのである。<br><br> 今一つは、前述のごとく、赤痢なら安心だと思った事だ。<br><br>これを普通人が見たら、大いに驚くであろう。<br><br>世人は赤痢などというと大騒ぎするからである。<br><br>ところが病気というものの本体が判れば、恐ろしくも何ともない。<br><br>誰でもそうなれるのである。<br><br>また私も偶（たま）には発熱する事もあるが、その場合発熱するやもう安心だと言って、飛び起きて平常通り仕事にかかる。<br><br>もちろん、下痢でも、頭痛でも、寒冒でもどんな病気でも、すべて浄化作用であるから、全快するに決まっているからで、少しも心配はない。<br><br>しかも毒素がそれだけ減るのだから、後を楽しみに喜ぶくらいである。<br><br>従って黴菌なども一向頓着しない、たとえ伝染しても血液を清浄にしてくれるのだから有難い訳だ、皮肉なもので、この原理を知ってから一回も感染した事がない。<br><br> 右は、私だけではない。<br><br>家族や部下、近親の者など合計すると、私の周囲にいる者だけで数十人に及ぶが、一人残らず私と同じようなやり方をしているが、病気で寝る者などほとんどない。<br><br>偶（たま）に風邪引きか、腹下しくらいの場合、自分で浄霊するか、友達にして貰うかで、一日か二日くらい寝れば治ってしまう。<br><br> 以上は理屈ではなく、事実のままを書いたのであるが、病気の本体を知り、健康の原理を覚り、神を信じていれば、誰でもそうなれるのであるから、吾らはいかに大安心を得て日々を楽しく暮しているかで、それを知らしたいため、この文をかいたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Eu e a Doença</h2>
 <p>Na manhã de vinte e nove de outubro, ao despertar, senti o corpo inteiramente prostrado, sem qualquer ânimo para me levantar. Ao apalpar-me, constatei uma febre considerável, especialmente intensa na região do baixo-ventre. Na verdade, já na noite anterior, ao me deitar, pressentira uma leve indisposição, de modo que o mal certamente se iniciara naquele momento. Não havia outra anormalidade, a não ser as evacuações, que eram líquidas e de uma forte coloração avermelhada. Deduzi, então, tratar-se de uma disenteria branda. Sendo disenteria, a cura viria em meio dia ou, no máximo, em um dia, o que me deixou tranquilo. Por essa razão, permaneci deitado, simplesmente repousando.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>O segundo motivo, como mencionei, é o fato de eu ter me sentido tranquilo ao pensar que se tratava de disenteria. Uma pessoa comum certamente ficaria espantada com tal afirmação, pois a sociedade costuma se alarmar diante dessa doença. Todavia, quando se compreende a verdadeira natureza da enfermidade, o medo desaparece por completo, e qualquer um pode alcançar esse estado de espírito. Eu mesmo, nas raras ocasiões em que apresento febre, considero-a um sinal de alívio e retomo minhas atividades normalmente. Isso porque qualquer doença – seja diarreia, dor de cabeça ou resfriado – representa, invariavelmente, uma manifestação da ação purificadora e, portanto, conduz à recuperação plena. Não há motivo para a menor preocupação. Pelo contrário, como sei que as toxinas do corpo estão sendo eliminadas, chego a me alegrar com a perspectiva da saúde renovada que se seguirá. Nesse sentido, não me preocupo minimamente com germes; mesmo que ocorra um contágio, ele servirá para purificar o sangue e, por isso, deve ser recebido com gratidão. Paradoxalmente, desde que compreendi este princípio, jamais contraí uma doença infecciosa.</p>
 <p>Este modo de pensar e agir não se restringe a mim. Dezenas de pessoas em meu convívio, entre familiares, discípulos e pessoas próximas, adotam esta mesma postura, e raramente alguém precisa se acamar por doença. Nas ocasiões esporádicas de um resfriado ou de um distúrbio intestinal, a pessoa ministra Johrei a si mesma ou o recebe de um companheiro, e a recuperação ocorre em um ou dois dias.</p>
 <p>O que acabo de expor não são meras teorias, mas fatos concretos. Ao compreender a verdadeira natureza da doença, ao assimilar o princípio da saúde e ao crer em Deus, qualquer pessoa pode alcançar essa condição. Escrevi este artigo para que saibam a imensa paz de espírito com que nós vivemos e a alegria que desfrutamos em nosso dia a dia.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私と病気 『栄光』80号、昭和25(1950)年11月29日発行 私は十月二十九日の朝、眼が醒めるや身体中が懈（だる）く、どうしても起きる気にはなれない。<br/><br/>手で身体中を触ってみると熱も相当あり、特に下腹の辺りが一番熱い。<br/><br/>もっとも前の晩寝る時、少し変だなと思ったが、さてはその時から始まったに違いない。<br/><br/>別段他に異常もないが便は水便で、相当赤色を帯びている。<br/><br/>ハハアー軽い赤痢だなと思った。<br/><br/>赤痢なら半日か一日で治るのだから安心だ。<br/><br/>という訳で、蒲団（ふとん）を敷きっ放しにしてゴロゴロしていた。<br/><br/>昼頃になると大分いいのでいつもの半分くらいの昼飯を食った。<br/><br/>元気をつけるため、小さい台コップに葡萄酒をついで一杯だけ飲んだ、ところが一、二時間経った頃から、再び工合が悪くなり、軽い腹痛さえある。<br/><br/>夕方から夜にかけて益々面白くない。<br/><br/>自分でも何回となく浄霊したのはもちろんで、夜は映画が見られたくらいだから大した事はないが、赤痢ならもう大方快くなっているはずだのに、余り捗々（はかばか）しくないのは、いささか変だと思うと、ハッと気が付いたのは、何と葡萄酒の中毒だという事が判った。<br/><br/>これは古くからある和製だが、有名な葡萄酒で、気の毒だから名は書かずにおくが、赤色甘味のもので、便が赤いのはそのためである。<br/><br/>それでよく考えてみると、前の晩いつもの倍も飲んだのでそれが原因である。<br/><br/>というのは前述のごとく、発病の朝から自己浄霊でやや軽快に赴いたところ、昼の一杯で再び悪くなったのもそれで判った。<br/><br/>妙なもので原因が判ると半分以上苦痛が減るもので、全く神経が手伝うのである。<br/><br/>そうして翌三十日東京に行ったが、大儀で仕方がない。<br/><br/>我慢して杖に縋りながら上野の日展などを見たが、それで反って快くなり、翌日からは大体平常通りになった。<br/><br/> これは平凡な軽い病気でかく程の事もないが、実は書くべき二つの理由がある。<br/><br/>一は葡萄酒の中毒である。<br/><br/>世間いかなる人でも薬用として飲むくらいの葡萄酒に、中毒などありよう訳がないと思うであろうが、事実は右の通りであるから、大いに注意すべきである。<br/><br/>原因は防腐剤の量が多すぎるためかそうでなければ何らか外の毒性が含まれていたのであろう。<br/><br/>この葡萄酒は二十数年以前も私は一度中毒した事があるので、長い間飲まない事にしていたが、昨年頃から少しずつ飲んでみたところ、別段何ともないので、安心し段々量を多くしたのが、今度の中毒となったのである。<br/><br/> 今一つは、前述のごとく、赤痢なら安心だと思った事だ。<br/><br/>これを普通人が見たら、大いに驚くであろう。<br/><br/>世人は赤痢などというと大騒ぎするからである。<br/><br/>ところが病気というものの本体が判れば、恐ろしくも何ともない。<br/><br/>誰でもそうなれるのである。<br/><br/>また私も偶（たま）には発熱する事もあるが、その場合発熱するやもう安心だと言って、飛び起きて平常通り仕事にかかる。<br/><br/>もちろん、下痢でも、頭痛でも、寒冒でもどんな病気でも、すべて浄化作用であるから、全快するに決まっているからで、少しも心配はない。<br/><br/>しかも毒素がそれだけ減るのだから、後を楽しみに喜ぶくらいである。<br/><br/>従って黴菌なども一向頓着しない、たとえ伝染しても血液を清浄にしてくれるのだから有難い訳だ、皮肉なもので、この原理を知ってから一回も感染した事がない。<br/><br/> 右は、私だけではない。<br/><br/>家族や部下、近親の者など合計すると、私の周囲にいる者だけで数十人に及ぶが、一人残らず私と同じようなやり方をしているが、病気で寝る者などほとんどない。<br/><br/>偶（たま）に風邪引きか、腹下しくらいの場合、自分で浄霊するか、友達にして貰うかで、一日か二日くらい寝れば治ってしまう。<br/><br/> 以上は理屈ではなく、事実のままを書いたのであるが、病気の本体を知り、健康の原理を覚り、神を信じていれば、誰でもそうなれるのであるから、吾らはいかに大安心を得て日々を楽しく暮しているかで、それを知らしたいため、この文をかいたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

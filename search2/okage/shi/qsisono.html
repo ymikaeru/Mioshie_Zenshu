@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsisono</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 歯槽膿漏より胃潰瘍になった 父の生命を継ぎ足して戴く 『栄光』202号、昭和28(1953)年4月1日発行 静岡県 神山中教会 亥角香世子（29） 生命程尊きものは世にあらじ ひたに縋りて齢延ばさむ 命さへ危ふき程の病きも 癒えて恵みに浸る嬉しさ （御讃歌） 至って健康に恵まれ、病気で寝込むような日は一日もなかった父でございましたが、時折、歯槽膿漏に悩まされました為、当時、化膿止めとして盛んに売り出されておりましたジセプタールや、アルバジル等を服用致しましたところ、強健を誇っておりました胃腸に変調を来し、空腹時に胃痛を覚える、いわゆる、胃酸過多症状を起して参りました。<br><br>その為、トモサン、ノルモザン等種々胃の薬を連続服用し始めましたところ、執拗な下痢が始まりました。<br><br>そこで今度は下痢止めによく効くと申される「げんのしょうこ」を服用致しました。<br><br> それまでは、食物に殆んど好き嫌いもなく何でも美味しく戴けた父が、非常に食事がむずかしくなり、又食欲もぐんと減り、顔色衰え、以前の元気さは消え失せてしまいました。<br><br> 既に私は明主様の尊い「健康への真理」を、御教え戴いておりましたので、父の辿っております経路が正に御教え通りにて、薬毒の為、折角の健康体がどんどん傷めつけられ、やがては命を縮めてしまう恐ろしい結果がありありとわかりますので、必死になって服薬をとめ、最高の治療法たる御浄霊を勧め、絶対神の御救いに御縋り申し上げ、健康をとり戻されますよう、入信させて戴くように勧めましたが、最初の内は唯物教育に邪魔されてなかなか理解されず、もはや父は救われぬか……と悲嘆にくれましたが、血涙を絞って頼みます私の真心が神様に通じましたか、遂に父も御守様を戴き、最高神との霊線を繋いで戴き現代医学の誤り、薬毒の害等にも気付かせて戴きまして、ほっと一安心致しました。<br><br> 併しそれまでに服用して仕舞いました薬毒は、明主様より「ジセプタール、アルバジル、げんのしょうこ等の服用は自殺行為で、これをあまり多量に服用してある場合は、生命も請合われぬ」と御教え戴いてございますので、少しも油断が出来ませず、毎日御浄霊に努めました。<br><br>案の定、服用致しました薬毒が次から次から執拗に溶けては苦しめ、遂に昨秋は大浄化となり、茶褐色泥状のものを嘔吐致し食欲は皆無となり、胃腸の痛みに昼夜うめき通し、看護に当った私もふらふらになってしまいました。<br><br> 盛んに吐気を催し、水を飲んでもガブガブと吐いてしまい、遂に絶体絶命の窮地に追い込まれてしまいました。<br><br>しかし、この時には父も母も皆御浄霊に勝る治療法は他に無い事を確信致しておりましたので、少しの迷いも出ず、一服の薬も一本の注射も致さず、教会から先生方にも御浄霊の応援を御願い致しまして、ひたすらに御縋り申し上げました。<br><br> 御浄霊は医療等とは比較にならない絶大な御力ではございますが、強い薬毒の浄化ではもはや肉体が保てぬ、とみまして最後の望みをかけまして、明主様に御面会、熱誠こめて御守護を御願い申し上げ、かつ尊き救世主と仰ぎ奉る明主様に我を忘れて御質問申し上げました。<br><br>矢張り、「最も悪い薬毒服用の為、生命は請合われないが、肩が非常に軟いようだから、もとが強い故峠を越せるかもしれない。<br><br>手の力を抜いて胃の後と鳩尾をよく御浄霊するように……」と御教え賜わりました。<br><br> 将来全世界から救世主と仰がれます尊き明主様が、賤（しず）が女の悩みにも深く御心を御とどめ下さり、御顔を曇らせられ、いろいろと御指示賜わりました御慈愛溢るる御眼ざし……実に恐れ多く有難き極みにて生涯忘れる事は出来ません。<br><br> 私は不幸な結婚に破れ、夫無き後、二人の幼児と共に父の世話になっており、又一人の兄姉弟妹も無い身故に、今父に集れられたら……と子供達の行末も思われまして不安の絶頂にかりたてられ、又もしここで父が死にましたなら、未だ救世教に対する真の認識の無い親戚、知人、近隣の人々からは「大切な親の重病に薬も与えず、医者にもかけず、邪教を盲信して死なせてしまった」と、さぞ非難攻撃されましょうと察せられましたが、いかに非難されましょうとも、最善の方法と、努力を傾け尽くしましての結果なれば、心に悔ゆるところはないはず、未だ霊的知識の無い方には理解して戴けなくとも、ここで、たとえ、父が死んでも医療を受けつつ死んだ場合と、御浄霊を充分に受けて帰幽した場合とは比較にならない霊界生活の仕合せさを思います時、誰に何と言われましようとも、いずれこの御道の真価が世間一般にわかる時期までの辛抱と思えば恐ろしくもなく、ただ最高の御道も、曇り多き我家の為に知人に誤解され、御救いの妨げになりましようかと何よりも辛い事に存じましたが、何事も大乗道で進まねばと思い返し、父の身を案じつつ、帰途につきました。<br><br> 途中、父の死骸の前で泣き悲しんでいる母の姿がちらつき、又今日まで、父の庇護の下に世間の波風に当らず育った私が、小さな子供達を抱えて急に荒波の社会に突き落されて、悲境に揉まれる悲惨な姿が浮び、さまざまに暗い思いが襲いかかって参りますのを払い除け払い除け、明主様の御教え中の「執着は非常に御救いの妨げになる。<br><br>御任せする事によって神力は無限に戴ける」事を自らの心に言い含め、親の命を御救い戴きたい心切なる事は善なれども、あまりにこれに執する事によって反って逆結果を招く事、人の生死は神の御手にあるもの。<br><br>全力を尽くしたら後はお任せしなくてはならない。<br><br>と心に繰返し、案じて同道して下さる友に励まされつつ我が家に辿りつけば、思いもかけず、にこやかに出迎えて下さった母より、私が明主様の御面会戴き、御言葉を賜わっておりました時刻より、吐気も治り、お豆腐やお煎餅、卵黄等が戴けたとの事に、「救われた！ 大峠を越させて戴けた……」と嬉し涙がこみ上げ御神前に鰭伏して御礼申し上げました。<br><br>その後は薬毒も大変溶けやすい状態になりましたようで、殆んど毎晩のように下痢、嘔吐致しました。<br><br>その悪臭には辟易致し、薬毒の恐ろしさを痛感致しました。<br><br> こうして毎晩のように薬毒を出させて戴くごとに苦痛は軽くなり、食欲も出て参りまして、快方へ快方へと向わせて戴きここに一カ年、誰からも「顔色もよく、肥った」と言われるようにならせて戴き、無事にお勤めさせて戴いて、毎日明るく感謝の日を送っております。<br><br> 実にこの間は、薬毒との闘いの如き日々でございました。<br><br>しかし偉大な御力を戴いております故にこそ、いかに痛み苦しみが起きましても、御浄霊致せば必ず治りますので安心してこの大浄化を乗り越す事も出来、深夜といえども医者を呼ぶ騒ぎもせずに落着いて苦痛を除いてあげることの出来る有難さ……もしこの御力を知らなかったら……医者や薬に頼るのみでおろおろしていなければなりませんのに……。<br><br>しみじみと偉大な御道に入れて戴けた仕合せを感謝致します。<br><br>又夜中に激痛、嘔吐で随分苦しみましても、薬毒を出しました後は非常に工合がよく、翌朝は又お勤めに出かけるという状態で、相当強い浄化を繰返しつつも、その割合に衰弱致しませんで、今更ながら御浄霊の偉大さに一同感嘆致しております。<br><br>そして最も浄化激しく、寝込むような時には何時も休暇中でございましたので、お勤めの方にも差支える事もなく、その為、勤務先では、この父の大病も皆知らない程にて、御守護のほど一同感泣致しております。<br><br>父と同じ様な症状で、手術を受けた方は大概命を無くしておりますし、ラジウムや薬、あるいは手術等によって、病状が軽減していても、真から病原を取除いたのではなく一時的に固め押えられているに過ぎず、根本からの治療ではない為、近き将来さまざまの故障を生じて、以前に増した苦しみにさいなまれねばならない事に気付いておられぬ御気の毒な方々を思います時、ああ一日も早く世の人々が、健康の真理に目覚められ、何物にも勝る命の宝を護られて、真の幸福を得られますよう祈っております。<br><br> この御道を知らずば薬毒に蝕まれて、既に無き父の生命、そして一家の柱を失って悲惨な私達になってしまう処を御救い戴いて、これからの父の生命は明主様により継足して戴いたものである事を思います時、限り無き感謝の明け暮れにて一同微力ながらも「病や貧乏、争いの根絶された芸術の香り豊かな美わしき天国」を地上に顕現されます明主様の大聖業の一端に、役立たせて戴けますようひたすら努めております。<br><br> （昭和二十七年十月六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A vida de meu pai, que adoeceu com úlcera gástrica em consequência de piorreia alveolar, foi acrescida por graça divina</h2>
 <p><strong>Revista Eikou, nº 202, 1º de abril de 1953</strong>
@@ -116,5 +271,48 @@ function toggleLang(lang) {
 <p>Quando penso naqueles que, com sintomas semelhantes aos de meu pai, submeteram-se a cirurgias e, na maioria dos casos, perderam a vida; ou naqueles que, através de radioterapia, medicamentos ou intervenções cirúrgicas, obtiveram uma melhora aparente, sem perceber que a origem da doença não foi removida, mas apenas temporariamente solidificada e suprimida; e que, por não ser um tratamento fundamental, enfrentarão no futuro próximo diversos outros problemas e sofrimentos ainda maiores que os anteriores... Sinto uma imensa compaixão. Ah, como oro para que, o mais breve possível, as pessoas do mundo despertem para a Verdade sobre a Saúde, protejam o tesouro da vida, que é mais valioso que qualquer outra coisa, e alcancem a verdadeira felicidade.</p>
 <p>Se não conhecêssemos este Caminho, a vida de meu pai já teria sido consumida pelos venenos dos medicamentos, e nós teríamos nos tornado uma família desamparada, privada de seu pilar. Ao pensar que fomos salvos dessa tragédia e que a vida que meu pai tem agora é um acréscimo concedido por Meishu-Sama, nossos dias e noites se enchem de uma gratidão sem limites. Por isso, todos nós, embora com nossas forças diminutas, nos empenhamos de corpo e alma para sermos úteis, ainda que minimamente, na Grande Obra Divina de Meishu-Sama de manifestar na Terra um Paraíso belo e rico no perfume da arte, onde a doença, a miséria e o conflito sejam erradicados.</p>
 <p>(6 de outubro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 歯槽膿漏より胃潰瘍になった 父の生命を継ぎ足して戴く 『栄光』202号、昭和28(1953)年4月1日発行 静岡県 神山中教会 亥角香世子（29） 生命程尊きものは世にあらじ ひたに縋りて齢延ばさむ 命さへ危ふき程の病きも 癒えて恵みに浸る嬉しさ （御讃歌） 至って健康に恵まれ、病気で寝込むような日は一日もなかった父でございましたが、時折、歯槽膿漏に悩まされました為、当時、化膿止めとして盛んに売り出されておりましたジセプタールや、アルバジル等を服用致しましたところ、強健を誇っておりました胃腸に変調を来し、空腹時に胃痛を覚える、いわゆる、胃酸過多症状を起して参りました。<br/><br/>その為、トモサン、ノルモザン等種々胃の薬を連続服用し始めましたところ、執拗な下痢が始まりました。<br/><br/>そこで今度は下痢止めによく効くと申される「げんのしょうこ」を服用致しました。<br/><br/> それまでは、食物に殆んど好き嫌いもなく何でも美味しく戴けた父が、非常に食事がむずかしくなり、又食欲もぐんと減り、顔色衰え、以前の元気さは消え失せてしまいました。<br/><br/> 既に私は明主様の尊い「健康への真理」を、御教え戴いておりましたので、父の辿っております経路が正に御教え通りにて、薬毒の為、折角の健康体がどんどん傷めつけられ、やがては命を縮めてしまう恐ろしい結果がありありとわかりますので、必死になって服薬をとめ、最高の治療法たる御浄霊を勧め、絶対神の御救いに御縋り申し上げ、健康をとり戻されますよう、入信させて戴くように勧めましたが、最初の内は唯物教育に邪魔されてなかなか理解されず、もはや父は救われぬか……と悲嘆にくれましたが、血涙を絞って頼みます私の真心が神様に通じましたか、遂に父も御守様を戴き、最高神との霊線を繋いで戴き現代医学の誤り、薬毒の害等にも気付かせて戴きまして、ほっと一安心致しました。<br/><br/> 併しそれまでに服用して仕舞いました薬毒は、明主様より「ジセプタール、アルバジル、げんのしょうこ等の服用は自殺行為で、これをあまり多量に服用してある場合は、生命も請合われぬ」と御教え戴いてございますので、少しも油断が出来ませず、毎日御浄霊に努めました。<br/><br/>案の定、服用致しました薬毒が次から次から執拗に溶けては苦しめ、遂に昨秋は大浄化となり、茶褐色泥状のものを嘔吐致し食欲は皆無となり、胃腸の痛みに昼夜うめき通し、看護に当った私もふらふらになってしまいました。<br/><br/> 盛んに吐気を催し、水を飲んでもガブガブと吐いてしまい、遂に絶体絶命の窮地に追い込まれてしまいました。<br/><br/>しかし、この時には父も母も皆御浄霊に勝る治療法は他に無い事を確信致しておりましたので、少しの迷いも出ず、一服の薬も一本の注射も致さず、教会から先生方にも御浄霊の応援を御願い致しまして、ひたすらに御縋り申し上げました。<br/><br/> 御浄霊は医療等とは比較にならない絶大な御力ではございますが、強い薬毒の浄化ではもはや肉体が保てぬ、とみまして最後の望みをかけまして、明主様に御面会、熱誠こめて御守護を御願い申し上げ、かつ尊き救世主と仰ぎ奉る明主様に我を忘れて御質問申し上げました。<br/><br/>矢張り、「最も悪い薬毒服用の為、生命は請合われないが、肩が非常に軟いようだから、もとが強い故峠を越せるかもしれない。<br/><br/>手の力を抜いて胃の後と鳩尾をよく御浄霊するように……」と御教え賜わりました。<br/><br/> 将来全世界から救世主と仰がれます尊き明主様が、賤（しず）が女の悩みにも深く御心を御とどめ下さり、御顔を曇らせられ、いろいろと御指示賜わりました御慈愛溢るる御眼ざし……実に恐れ多く有難き極みにて生涯忘れる事は出来ません。<br/><br/> 私は不幸な結婚に破れ、夫無き後、二人の幼児と共に父の世話になっており、又一人の兄姉弟妹も無い身故に、今父に集れられたら……と子供達の行末も思われまして不安の絶頂にかりたてられ、又もしここで父が死にましたなら、未だ救世教に対する真の認識の無い親戚、知人、近隣の人々からは「大切な親の重病に薬も与えず、医者にもかけず、邪教を盲信して死なせてしまった」と、さぞ非難攻撃されましょうと察せられましたが、いかに非難されましょうとも、最善の方法と、努力を傾け尽くしましての結果なれば、心に悔ゆるところはないはず、未だ霊的知識の無い方には理解して戴けなくとも、ここで、たとえ、父が死んでも医療を受けつつ死んだ場合と、御浄霊を充分に受けて帰幽した場合とは比較にならない霊界生活の仕合せさを思います時、誰に何と言われましようとも、いずれこの御道の真価が世間一般にわかる時期までの辛抱と思えば恐ろしくもなく、ただ最高の御道も、曇り多き我家の為に知人に誤解され、御救いの妨げになりましようかと何よりも辛い事に存じましたが、何事も大乗道で進まねばと思い返し、父の身を案じつつ、帰途につきました。<br/><br/> 途中、父の死骸の前で泣き悲しんでいる母の姿がちらつき、又今日まで、父の庇護の下に世間の波風に当らず育った私が、小さな子供達を抱えて急に荒波の社会に突き落されて、悲境に揉まれる悲惨な姿が浮び、さまざまに暗い思いが襲いかかって参りますのを払い除け払い除け、明主様の御教え中の「執着は非常に御救いの妨げになる。<br/><br/>御任せする事によって神力は無限に戴ける」事を自らの心に言い含め、親の命を御救い戴きたい心切なる事は善なれども、あまりにこれに執する事によって反って逆結果を招く事、人の生死は神の御手にあるもの。<br/><br/>全力を尽くしたら後はお任せしなくてはならない。<br/><br/>と心に繰返し、案じて同道して下さる友に励まされつつ我が家に辿りつけば、思いもかけず、にこやかに出迎えて下さった母より、私が明主様の御面会戴き、御言葉を賜わっておりました時刻より、吐気も治り、お豆腐やお煎餅、卵黄等が戴けたとの事に、「救われた！ 大峠を越させて戴けた……」と嬉し涙がこみ上げ御神前に鰭伏して御礼申し上げました。<br/><br/>その後は薬毒も大変溶けやすい状態になりましたようで、殆んど毎晩のように下痢、嘔吐致しました。<br/><br/>その悪臭には辟易致し、薬毒の恐ろしさを痛感致しました。<br/><br/> こうして毎晩のように薬毒を出させて戴くごとに苦痛は軽くなり、食欲も出て参りまして、快方へ快方へと向わせて戴きここに一カ年、誰からも「顔色もよく、肥った」と言われるようにならせて戴き、無事にお勤めさせて戴いて、毎日明るく感謝の日を送っております。<br/><br/> 実にこの間は、薬毒との闘いの如き日々でございました。<br/><br/>しかし偉大な御力を戴いております故にこそ、いかに痛み苦しみが起きましても、御浄霊致せば必ず治りますので安心してこの大浄化を乗り越す事も出来、深夜といえども医者を呼ぶ騒ぎもせずに落着いて苦痛を除いてあげることの出来る有難さ……もしこの御力を知らなかったら……医者や薬に頼るのみでおろおろしていなければなりませんのに……。<br/><br/>しみじみと偉大な御道に入れて戴けた仕合せを感謝致します。<br/><br/>又夜中に激痛、嘔吐で随分苦しみましても、薬毒を出しました後は非常に工合がよく、翌朝は又お勤めに出かけるという状態で、相当強い浄化を繰返しつつも、その割合に衰弱致しませんで、今更ながら御浄霊の偉大さに一同感嘆致しております。<br/><br/>そして最も浄化激しく、寝込むような時には何時も休暇中でございましたので、お勤めの方にも差支える事もなく、その為、勤務先では、この父の大病も皆知らない程にて、御守護のほど一同感泣致しております。<br/><br/>父と同じ様な症状で、手術を受けた方は大概命を無くしておりますし、ラジウムや薬、あるいは手術等によって、病状が軽減していても、真から病原を取除いたのではなく一時的に固め押えられているに過ぎず、根本からの治療ではない為、近き将来さまざまの故障を生じて、以前に増した苦しみにさいなまれねばならない事に気付いておられぬ御気の毒な方々を思います時、ああ一日も早く世の人々が、健康の真理に目覚められ、何物にも勝る命の宝を護られて、真の幸福を得られますよう祈っております。<br/><br/> この御道を知らずば薬毒に蝕まれて、既に無き父の生命、そして一家の柱を失って悲惨な私達になってしまう処を御救い戴いて、これからの父の生命は明主様により継足して戴いたものである事を思います時、限り無き感謝の明け暮れにて一同微力ながらも「病や貧乏、争いの根絶された芸術の香り豊かな美わしき天国」を地上に顕現されます明主様の大聖業の一端に、役立たせて戴けますようひたすら努めております。<br/><br/> （昭和二十七年十月六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

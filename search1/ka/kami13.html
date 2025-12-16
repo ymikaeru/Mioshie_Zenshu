@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の芸術 『地上天国』11号、昭和24(1949)年12月20日発行 そもそも現代人として今はいかなる時代であるかという事を認識しなければならない――という前提をもって何を私は言おうとするのであろうか？ 外でもない、ラジオやテレビジョンの発明によって、全世界に起りつつあるあらゆる出来事を一瞬にして知り得るという事程、それほど物質文化は夢の間に進歩したのである。<br><br>一体全体これは何を意味するのであるかというこの点がすこぶる重要事であって、何よりもこれに気付かないとすれば、現代文化を語る資格はないというべきである。<br><br> 彼の米国において、数年前より唱え始められて来た世界国家、世界政府という言葉こそ、近き将来呱々の声を挙ぐべき理想世界を暗示している事でなくて何であろう。<br><br>実に一大問題である。<br><br>そうなる暁はもちろん世界大統領も選出されるであろう、いかなる国家といえどもその国民中から大統領候補者を出し得る事となろう。<br><br>この新世界が生れるについてはあらゆる部門にわたって大変革が行わるべきはもちろんでその中にあって根幹をなすべきものは人類思想の革命であろう。<br><br>もちろんあらゆる主義は一掃されると共に思想の統一が行われるであろう。<br><br> これを判りやすくするため一の例証を示してみるがまずここに大画伯が世界という一大絵画を描くとする。<br><br>その場合各種の線と色彩とをもって最高の美を表現し、欠点のない神技を表現するであろう。<br><br>もちろん世界的絵画を描く準備としては、数千年か数万年を要したであろう事は想像に難からないであろう。<br><br>そうして最も重要事であるのは最初の線で、すなわちこれが長い歳月を費やして作り上げた国境線で、この線が出来上れば今度は色彩である。<br><br>その場合赤も青も黄色も白も紫やその他すこぶる多彩な絵具が要る。<br><br>仮にこれを民族や国に当はめてみよう。<br><br>仮定的であるからその積りで読まれたい。<br><br>その他の国々もそれぞれ特有の色彩の役目を果すのである。<br><br>この巧みな線と多彩な色によって世界的名画は出来上るのであって、これこそ万能の神の一大芸術でなくて何であろう、ところが今日までの人類は自国特有の色彩をもって無上のものとなし、その一色のみで世界名画を描こうとするのであるから成功するはずはなかったのである。<br><br>もちろん時を無視した点もある。<br><br>日本や独逸（ドイツ）の敗戦がこれを雄弁に物語っている。<br><br>この理によって主義や思想というものは、自分の作った一種類の絵具であるから、線の外まで塗り潰そうとしても不可能であるばかりか、他の同目的のものと摩擦を生ずる事になり、これが闘争の原因となり、結局人類愛を基本として、神が描く世界名画の邪魔になる以上一時は成功しても永くは持続しなかったのである、見よ古来から幾多の英雄が輩出したが、そのほとんどが神の芸術妨害の咎（とが）によってついに成敗されたではないか。<br><br>これによってこれをみれば、今後の強大国家は他国を自国色に塗るのではなく、その国特有の色をより鮮やかに美しくしてやる事である。<br><br>かような政策をとってこそ神意に添う事となり理想世界は実現するであろう。<br><br> 以上の意味によって宗教を考えてみる必要がある。<br><br>宗教といえども各宗各派が色の塗り合いをしていた現在までのやり方では、時代の進歩に伴わないのみか、神の経綸と食違う事になろう。<br><br>ゆえに文化の進歩の奥にある神の深意を認識し、今や新しく生れんとする理想世界建設のため、全宗教を挙げて一丸となり、吾らと共に手を携えて邁進しようではないか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Obra de Arte de Deus e o Mundo Ideal</h2>
 <p>Para iniciarmos nossa reflexão, é imperativo que o homem moderno reconheça a natureza da era em que vive. Com base nessa premissa, o que pretendo elucidar? Trata-se do fato de que, por meio de invenções como o rádio e a televisão, a cultura material progrediu de maneira vertiginosa, permitindo-nos tomar conhecimento instantâneo dos acontecimentos em todo o globo. O verdadeiro significado desse fenômeno é de suma importância. Com efeito, aquele que não atenta para essa realidade carece da qualificação necessária para discorrer sobre a cultura de nosso tempo.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Seguindo esse raciocínio, compreendemos que os “ismos” e as ideologias são como um pigmento de cor única, criado pelo próprio homem. A tentativa de impor essa única cor para além de seus devidos contornos não é apenas impraticável, mas inevitavelmente gera atrito com outras cores que buscam o mesmo. Esse atrito é a semente dos conflitos. Em última análise, por obstruírem a obra-prima que Deus pinta com o alicerce do amor universal, tais esforços, ainda que alcancem um sucesso temporário, jamais se mostraram duradouros. Observem a História: quantos heróis surgiram desde a Antiguidade? A vasta maioria não foi, ao fim, subjugada pela transgressão de interferir na arte de Deus?</p>
 <p>À luz do que foi exposto, a missão das futuras nações proeminentes não será a de impor sua própria cor sobre as demais, mas sim a de auxiliar cada país a realçar a beleza e a vivacidade de sua tonalidade única. Somente através da adoção de tal política será possível alinhar-se à Vontade Divina e, assim, concretizar a vinda do mundo ideal.</p>
 <p>É com base nessa mesma compreensão que devemos refletir sobre o papel da religião. O método empregado até hoje, no qual cada denominação e seita religiosa tenta sobrepor sua cor à das outras, não apenas se tornou obsoleto diante do progresso de nossa era, como também se desvia fundamentalmente do Plano Divino. Portanto, é tempo de reconhecer a profunda Vontade de Deus que subjaz ao avanço da cultura. Em prol da construção do mundo ideal que agora se anuncia, conclamo todas as religiões a se unirem como um só corpo para que, de mãos dadas conosco, possamos marchar avante rumo a esse nobre objetivo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の芸術 『地上天国』11号、昭和24(1949)年12月20日発行 そもそも現代人として今はいかなる時代であるかという事を認識しなければならない――という前提をもって何を私は言おうとするのであろうか？ 外でもない、ラジオやテレビジョンの発明によって、全世界に起りつつあるあらゆる出来事を一瞬にして知り得るという事程、それほど物質文化は夢の間に進歩したのである。<br/><br/>一体全体これは何を意味するのであるかというこの点がすこぶる重要事であって、何よりもこれに気付かないとすれば、現代文化を語る資格はないというべきである。<br/><br/> 彼の米国において、数年前より唱え始められて来た世界国家、世界政府という言葉こそ、近き将来呱々の声を挙ぐべき理想世界を暗示している事でなくて何であろう。<br/><br/>実に一大問題である。<br/><br/>そうなる暁はもちろん世界大統領も選出されるであろう、いかなる国家といえどもその国民中から大統領候補者を出し得る事となろう。<br/><br/>この新世界が生れるについてはあらゆる部門にわたって大変革が行わるべきはもちろんでその中にあって根幹をなすべきものは人類思想の革命であろう。<br/><br/>もちろんあらゆる主義は一掃されると共に思想の統一が行われるであろう。<br/><br/> これを判りやすくするため一の例証を示してみるがまずここに大画伯が世界という一大絵画を描くとする。<br/><br/>その場合各種の線と色彩とをもって最高の美を表現し、欠点のない神技を表現するであろう。<br/><br/>もちろん世界的絵画を描く準備としては、数千年か数万年を要したであろう事は想像に難からないであろう。<br/><br/>そうして最も重要事であるのは最初の線で、すなわちこれが長い歳月を費やして作り上げた国境線で、この線が出来上れば今度は色彩である。<br/><br/>その場合赤も青も黄色も白も紫やその他すこぶる多彩な絵具が要る。<br/><br/>仮にこれを民族や国に当はめてみよう。<br/><br/>仮定的であるからその積りで読まれたい。<br/><br/>その他の国々もそれぞれ特有の色彩の役目を果すのである。<br/><br/>この巧みな線と多彩な色によって世界的名画は出来上るのであって、これこそ万能の神の一大芸術でなくて何であろう、ところが今日までの人類は自国特有の色彩をもって無上のものとなし、その一色のみで世界名画を描こうとするのであるから成功するはずはなかったのである。<br/><br/>もちろん時を無視した点もある。<br/><br/>日本や独逸（ドイツ）の敗戦がこれを雄弁に物語っている。<br/><br/>この理によって主義や思想というものは、自分の作った一種類の絵具であるから、線の外まで塗り潰そうとしても不可能であるばかりか、他の同目的のものと摩擦を生ずる事になり、これが闘争の原因となり、結局人類愛を基本として、神が描く世界名画の邪魔になる以上一時は成功しても永くは持続しなかったのである、見よ古来から幾多の英雄が輩出したが、そのほとんどが神の芸術妨害の咎（とが）によってついに成敗されたではないか。<br/><br/>これによってこれをみれば、今後の強大国家は他国を自国色に塗るのではなく、その国特有の色をより鮮やかに美しくしてやる事である。<br/><br/>かような政策をとってこそ神意に添う事となり理想世界は実現するであろう。<br/><br/> 以上の意味によって宗教を考えてみる必要がある。<br/><br/>宗教といえども各宗各派が色の塗り合いをしていた現在までのやり方では、時代の進歩に伴わないのみか、神の経綸と食違う事になろう。<br/><br/>ゆえに文化の進歩の奥にある神の深意を認識し、今や新しく生れんとする理想世界建設のため、全宗教を挙げて一丸となり、吾らと共に手を携えて邁進しようではないか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

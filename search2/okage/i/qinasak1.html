@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qinasak1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 稲作自然栽培三年の体験 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 岡山県 十全中教会 本松嘉作（60） 稲作自然栽培第三年目の報告をさせて頂きます。<br><br> 私は昭和二十四年二月に初めて熱海の本部に御参りさせて頂き、その帰りに旧天国会へも御参りいたしまして中島先生の御話を伺いました。<br><br>その時に自然栽培につき懇々と御説明下さいましたのでいよいよ実行する気持になって帰りました。<br><br>私は当時五十八歳でしたが一人暮しで私は田を二反六畝、畑を四畝歩合計三反歩を耕作しておりました。<br><br>自然農法の話をききまして熟考の末、とにかく本年の稲作は全部自然栽培に切替えることにいたしました。<br><br>当時一部の田に麦作をしておりまして、元肥には少量の硫安を施用しておりましたが、以後は全く中止して追肥として準備しておりましたのは全部他人に譲りました。<br><br>水稲第一年目は水田や苗代にも堆肥を別に多量施用することもできませず、これまでと同様で反当約百四、五十貫であります。<br><br>苗代は在来の様式で種子は御浄霊をして浸水したものを四月末に苗代に水を溜めて播きました。<br><br>苗代田の浄霊は仕事の都合でしておりません。<br><br>苗は何時も黄色で、苗取りの時は握ってコブシの上へ少々出るくらいの長さで、松葉のように細い貧弱なものでした。<br><br>苗を取って移植する際に浄霊をして本田に運びました。<br><br>本田に移植してから少し遠くから見ますと、植えてあるのか無いのか分らぬようでありました。<br><br>それでありますから移植後の生育が非常に遅れますので一時ちょっと悲観いたしましたが、八月頃になり見良くなり、穂孕時期には稲らしくなりましたので多少安心した気持になりましたが、とにかく有肥の稲に比較して草丈が短いので貧弱に見えました。<br><br> いよいよ成熟して刈り取って見ますと藁は固く、穂先が案外重いのでこれなら米があるであろうと思われますので、初めて自然栽培の有難味を痛感いたしました。<br><br>いよいよ収穫の結果は案外に有りました。<br><br>草出来を見た時にはいずれ二割位は減収と覚悟しておりましたが、平均反収五俵の成績でありました。<br><br>有肥の人のも余り大差は無いようでありました。<br><br>当地方の平年作は反収五俵位であります。<br><br>下等の田地の多い人は五俵以下であります。<br><br>私のは三分の一は湿田や、山蔭の下等地でありますから大きな成績であったと感謝いたしました。<br><br> 二年目には自信も出来ましたので少しも心配はいたしませんでした。<br><br>初年度よりは草出来は良好のように思いましたが、収穫の結果は同様程度でありました。<br><br>昨年度は三年目で苗の色も初年度より少し青味が多く、移植後も有肥の稲に比べて初年度程の差が無いようでありました。<br><br>大体を通じての成育状況は昨年度は有肥の稲に対抗する位でありました。<br><br> 上田の分の（四畝歩の田）坪刈を参考の為に農協の技術員に依頼してやって貰いましたが二石七斗（反収）という数字が出ました。<br><br>又別の田では糯稲は二石一斗でありました。<br><br>尚私の耕作地は三分の一は耕地整理地区で畑を田に変換して溜池を築造し、それを唯一の水源として他には水利の方法は絶対に無いのでありますが、本年は七月二十日より本格的に照り続きまして降雨は少しもなく、八月十五日頃は用水欠乏し黒割れとなり、引続き照り続け、九月二十六日にちょっと降り、その後十月十四日の台風迄降雨らしきものは無かったので干害が甚しく、それが為に平均反収は五俵半という結果でありまして一割の増収でありました。<br><br>もしこの干害がなかったといたしますれば、平均二割以上の増収は確実だったと思います。<br><br>なお御浄霊は三カ年を通じて苗代田は仕事の都合で止むを得ずいたしておりません。<br><br>移植後は降雨の日や不在の日を除き殆んど毎日実行いたしましたが、八月中旬頃からは時々で次第に中止するようになりました。<br><br>又土質は花崗岩の出る土地で、荒い砂土であります。<br><br>前記の坪刈りをいたしました糯稲の田は、表土の底はガラ石混りの砂地でありますから、深く起す様なことは出来ません。<br><br> 以上三カ年を通じて考えて見ますとき、漸次肥毒が浄化されて年々収穫が増して来る事はいよいよ間違い無いと思います。<br><br>なお四年五年目の結果を楽しんでおります。<br><br>品種は農林二十二号ばかりであります。<br><br>ただ今ではまだ周囲の人も金肥を使わずに栽培して増収等は信じられないようでありますが、事実はどうする事も出来ません。<br><br> 右は三カ年を通じて概要の報告をさせて頂きました。<br><br> 明主様誠に有難うございました。<br><br>何卒今後も宜しく御願い申し上げます。<br><br> （昭和二十七年一月十七日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Experiência de Três Anos no Cultivo Natural de Arroz</h2>
 <p><strong>Revista <em>Eikou</em>, nº 141, 30 de janeiro de 1952</strong>
@@ -108,5 +263,48 @@ function toggleLang(lang) {
 <p>Agradeço-lhe do fundo do coração, Meishu-Sama.
 Rogo que continue a me guiar e a me proteger.</p>
 <p>(Relato enviado em 17 de janeiro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 稲作自然栽培三年の体験 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 岡山県 十全中教会 本松嘉作（60） 稲作自然栽培第三年目の報告をさせて頂きます。<br/><br/> 私は昭和二十四年二月に初めて熱海の本部に御参りさせて頂き、その帰りに旧天国会へも御参りいたしまして中島先生の御話を伺いました。<br/><br/>その時に自然栽培につき懇々と御説明下さいましたのでいよいよ実行する気持になって帰りました。<br/><br/>私は当時五十八歳でしたが一人暮しで私は田を二反六畝、畑を四畝歩合計三反歩を耕作しておりました。<br/><br/>自然農法の話をききまして熟考の末、とにかく本年の稲作は全部自然栽培に切替えることにいたしました。<br/><br/>当時一部の田に麦作をしておりまして、元肥には少量の硫安を施用しておりましたが、以後は全く中止して追肥として準備しておりましたのは全部他人に譲りました。<br/><br/>水稲第一年目は水田や苗代にも堆肥を別に多量施用することもできませず、これまでと同様で反当約百四、五十貫であります。<br/><br/>苗代は在来の様式で種子は御浄霊をして浸水したものを四月末に苗代に水を溜めて播きました。<br/><br/>苗代田の浄霊は仕事の都合でしておりません。<br/><br/>苗は何時も黄色で、苗取りの時は握ってコブシの上へ少々出るくらいの長さで、松葉のように細い貧弱なものでした。<br/><br/>苗を取って移植する際に浄霊をして本田に運びました。<br/><br/>本田に移植してから少し遠くから見ますと、植えてあるのか無いのか分らぬようでありました。<br/><br/>それでありますから移植後の生育が非常に遅れますので一時ちょっと悲観いたしましたが、八月頃になり見良くなり、穂孕時期には稲らしくなりましたので多少安心した気持になりましたが、とにかく有肥の稲に比較して草丈が短いので貧弱に見えました。<br/><br/> いよいよ成熟して刈り取って見ますと藁は固く、穂先が案外重いのでこれなら米があるであろうと思われますので、初めて自然栽培の有難味を痛感いたしました。<br/><br/>いよいよ収穫の結果は案外に有りました。<br/><br/>草出来を見た時にはいずれ二割位は減収と覚悟しておりましたが、平均反収五俵の成績でありました。<br/><br/>有肥の人のも余り大差は無いようでありました。<br/><br/>当地方の平年作は反収五俵位であります。<br/><br/>下等の田地の多い人は五俵以下であります。<br/><br/>私のは三分の一は湿田や、山蔭の下等地でありますから大きな成績であったと感謝いたしました。<br/><br/> 二年目には自信も出来ましたので少しも心配はいたしませんでした。<br/><br/>初年度よりは草出来は良好のように思いましたが、収穫の結果は同様程度でありました。<br/><br/>昨年度は三年目で苗の色も初年度より少し青味が多く、移植後も有肥の稲に比べて初年度程の差が無いようでありました。<br/><br/>大体を通じての成育状況は昨年度は有肥の稲に対抗する位でありました。<br/><br/> 上田の分の（四畝歩の田）坪刈を参考の為に農協の技術員に依頼してやって貰いましたが二石七斗（反収）という数字が出ました。<br/><br/>又別の田では糯稲は二石一斗でありました。<br/><br/>尚私の耕作地は三分の一は耕地整理地区で畑を田に変換して溜池を築造し、それを唯一の水源として他には水利の方法は絶対に無いのでありますが、本年は七月二十日より本格的に照り続きまして降雨は少しもなく、八月十五日頃は用水欠乏し黒割れとなり、引続き照り続け、九月二十六日にちょっと降り、その後十月十四日の台風迄降雨らしきものは無かったので干害が甚しく、それが為に平均反収は五俵半という結果でありまして一割の増収でありました。<br/><br/>もしこの干害がなかったといたしますれば、平均二割以上の増収は確実だったと思います。<br/><br/>なお御浄霊は三カ年を通じて苗代田は仕事の都合で止むを得ずいたしておりません。<br/><br/>移植後は降雨の日や不在の日を除き殆んど毎日実行いたしましたが、八月中旬頃からは時々で次第に中止するようになりました。<br/><br/>又土質は花崗岩の出る土地で、荒い砂土であります。<br/><br/>前記の坪刈りをいたしました糯稲の田は、表土の底はガラ石混りの砂地でありますから、深く起す様なことは出来ません。<br/><br/> 以上三カ年を通じて考えて見ますとき、漸次肥毒が浄化されて年々収穫が増して来る事はいよいよ間違い無いと思います。<br/><br/>なお四年五年目の結果を楽しんでおります。<br/><br/>品種は農林二十二号ばかりであります。<br/><br/>ただ今ではまだ周囲の人も金肥を使わずに栽培して増収等は信じられないようでありますが、事実はどうする事も出来ません。<br/><br/> 右は三カ年を通じて概要の報告をさせて頂きました。<br/><br/> 明主様誠に有難うございました。<br/><br/>何卒今後も宜しく御願い申し上げます。<br/><br/> （昭和二十七年一月十七日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

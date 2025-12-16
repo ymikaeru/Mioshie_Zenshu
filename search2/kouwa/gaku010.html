@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gaku010</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ２ 010-026 学問思想 010 人智の限度 人智の発達には限度が御座居ますか。<br><br> 人智に限度はない。<br><br>限度のない所に無限の発展がある。<br><br>（限度があったら滅亡する） 無限絶対無始無終で――。<br><br>（S24. 2.23） 011 記憶について 物事を記憶したり忘れたりするのは霊的にいかなる意味になりましょうか。<br><br> 霊的よりも、必要である。<br><br>全部覚えていても具合がわるい。<br><br>忘れてしまっても具合がわるい。<br><br>（S25. 2.23） 012 一つおきの法則 高知県においての伝説でありますが、一家に男子が三人いる場合、長男が病気、災難等で順調に相続が出来ず、終には三男が後を取るような事になると言うのであります。<br><br>事実その実例もあるようですが、あるとしたならば右の事柄はいかなる原因でありましょうか、御教え願います。<br><br> すべて物は一つおきで、これが宇宙の法則である。<br><br>病苦も苦しみも一日おきである。<br><br>（S24. 7. 6） 013 メンデルの法則 メンデル遺伝の法則は、霊的にいかなる意味があるでしょうか。<br><br> メンデルの法則はあるにはあるが、唯物的解釈で、学者は人間も動物とし、物質的に考えるから間違っている。<br><br>兄弟が多いと頭がわるいというが、偉人は兄弟が多い所から生れる。<br><br>西洋の統計にある。<br><br>兄弟が多いと可愛いがられぬ。<br><br>独立心が起る。<br><br>それで偉くなる。<br><br>故に産児制限などすると偉い人間もなくなる。<br><br>一人など可愛がられるから偉い人は出ぬ。<br><br>遺伝は一代おきにするようになっており、この点は合っている。<br><br>癩病など病気も一代おきである。<br><br>（S24. 6.19） 014 性善説、性悪説 孟子の性善説と荀子の性悪説は、大先生様の本、副守護神の一つの表し方と存じますが、どうでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> まあそうである。<br><br>性善説の方が本当である。<br><br>悪は一時的のもので、性は善である。<br><br>（S24. 1. 8） 015 進化論 ダーウィンの進化論は正しいものでしょうか。<br><br> ダーウィンは間違っている。<br><br>人間の先祖はアミーバで、それからトカゲ―象―猿―人間となっているが、これは彼の想像したものに過ぎぬ。<br><br>猿や類人猿の進化したものではない。<br><br>初めから人間は造られたものである。<br><br>ただ人間を造る場合、最初に虫などあらゆる生物を造られ、最後に人間を造られた。<br><br>それ故に、それぞれの生物の特色が入っている。<br><br>それで飛行機は鳥、戦争は猛獣の噛合い、歌うのは鳥の真似である。<br><br>（S23.10.17） 016 音響と夢 音響に依て、夢を攪乱することが出来ると心理学者は申しますが、それは可能でしょうか。<br><br>また夢と霊との関係を御教え下さい。<br><br> 音響は、夢を攪乱でなく、影響する。<br><br>夢へ影響する事がある。<br><br>（S24.10.28） 017 ニーチェの永劫輪廻 ニーチェの永劫輪廻の思想は誤れるものでしょうか。<br><br> ニーチェの基本の思想は本能主義で、これは危険である。<br><br>いい所もあるが、制限するものがないと奔放になる。<br><br>飛躍的自由主義である。<br><br>哲学や文学などは、民主自由主義などを作り出された基礎になった。<br><br>ニーチェのそれも自由主義を生む基礎になったが、それがそのまま本当のものではない。<br><br> 輪廻は仏語である。<br><br>（S24.10.28） 018 羞恥心と人間 羞恥心は霊魂にどのように反映しますか。<br><br>例えば不具者が大衆の中で自己の肉体的欠陥を羞じる場合です。<br><br> 訳はない。<br><br>人間の羞恥の感情は神の与えた感情である。<br><br>人間は羞恥心がなければ、動物みたいになる。<br><br>羞恥心のあるのは高等である。<br><br> 悪人でも羞恥のないのがある。<br><br>不具のための羞恥は諦める外はない。<br><br>執着を絶つ事である。<br><br>（S24. 9. 5） 019 哲学の真相 現在の哲学が唯物主観的立場にある以上、迷学というべきではないでしょうか。<br><br> 哲学は本来唯物主観であって、その一歩上が宗教である。<br><br>ツマリ科学と宗教の中間が哲学で、どちらかといえば唯物の方に近いものである。<br><br>だから哲学には疑問が多く結論がない。<br><br>それで哲学へ入ると迷いが深くなる。<br><br>要するに哲学は疑問を並べたものである。<br><br>故に哲学は一種の参考としてみるのはよいが、それによって万事解決しようとしても駄目である。<br><br>そうでないと懐疑に陥り易い。<br><br> 020 直感 直感というものは、尊重してよいものでしょうか。<br><br> これは尊重してよい。<br><br>初一念とか直感とかは正確である。<br><br>変えると後は迷いになる。<br><br> ベルグソンの直感の哲学というのがある。<br><br>人間は今迄の教育や習慣などがあって直感出来ない。<br><br>今迄のいろんなものを通して観るため種々考え、乱れたり、迷ったりする。<br><br>いろんな問題に遇った時、刹那の吾で見た事が一番正しいという。<br><br>よく赤ン坊や子供など非常に巧い事をいう事がある。<br><br> 本教をみるにも、今迄の教などが棒のように入っていて、それが障っている。<br><br> 浄霊なども、その効果によって結構と思うならいいが、いろんな理屈をつけると、すでに真理でない。<br><br> 故に直感は非常に尊いものである。<br><br>（S24.10.28） 021 ユダとマルクス―資本家と労働者（霊界と思想事件） ユダとマルクスとは霊的な関係があるでしょうか。<br><br> ある。<br><br>すべて大きな思想や事件は霊界から来ている。<br><br>これは善い事も悪い事もある。<br><br> 世界の資本主義が行われると段々偏りすぎる。<br><br>そして大多数が苦しみ金持だけ良くなる。<br><br>それはいけない。<br><br>それを調節するためにマルクスが出た。<br><br>しかしマルクスが行われ過ぎると、労働者階級が権力を持ち過ぎ、今では資本家が苦しむ時代になった。<br><br>これはまた治ってゆき、真中へ来る。<br><br>丁度ブランコのようなものである。<br><br>どっちかへ行き過ぎ――。<br><br> 共産主義も必要だったが、行過ぎたために資本家が倒れ生産が衰えた。<br><br>その結果として、労働者もたおれる事になる。<br><br>少し我慢して資本家も太るようにして――。<br><br> 唯物的の考え方は、自分自身を省みない。<br><br>苦しみやいろんな原因は他にあるとする。<br><br>そして他人を怨み、社会を呪う。<br><br>日本人はその気持が強い。<br><br>酒呑みや怠け者は困る。<br><br>それを社会の機構が悪いからなどと、責任を他に転嫁する。<br><br>日本などでは、少し偉いのが出来ると倒そうとする。<br><br>出来ないうちにたおそうとするのがある。<br><br>これは非常に悪い。<br><br>（S23.11. 3） 022 敗戦と現社会思想への考え方 道徳はある程度時代と社会状勢に応ずるものと存じますが、過去の戦時中に国家に尽した政治家、将兵、戦時産業家等は、それが最善の道であると信じ、また個人の意志に係らずそうせざるを得なかったという事も、神様から御覧になった場合、やはり罪になるものでしょうか。<br><br>また他面、日本を敗戦に導き、その結果日本を本来の姿に帰した事は却って功徳とも考えられますが、この功罪はいずれをとるべきでしょうか。<br><br> 将来起るべき世界大戦及びそれに伴う内乱の危惧は個人の意志に係りなく、社会状勢も左右いずれかに決定される事と存じますし、世界が、国家が大試練、大浄化を受ける時、ただ要領のみで安易な道を行く事は許されないと存じますが、この場合、左右いずれかに属さねばならぬ時、いかなる態度をとるべきでしょうか。<br><br>あるいはまた宗教人として内村鑑三氏等が取ったような反戦運動等を起こす事は正しいのでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 小乗的、大乗的と両方の考え方がある。<br><br>戦時中一生懸命やった人は小乗の見方であった。<br><br>敗戦で救われたというのは大乗の見方である。<br><br>敗戦の時、本当は祝うべきだと言った事がある。<br><br>これは大乗的見方である。<br><br>その時代の政治家の考え方は、日本さえよければ他国は不幸になってもよしとする。<br><br>要するに日本的考え方で（これが大変な間違いで）世界的でなくてはならぬ。<br><br>日本の皇道をロシヤへ持って行ったらどう思うと言った事がある。<br><br>（通用しない）世界人類みんなが喜んで賛成する思想でなくてはならぬ。<br><br>故に、皇道思想のごとき、よろしく滅ぶべきであった。<br><br>その頃（軍人は）集団的に殺人を練習した。<br><br>（産業家は）戦争で勝って金持が大いに儲けようとした。<br><br>故にああなるのは当りまえである。<br><br>（泥棒的である。<br><br>敗戦によって目覚めたのは大いに結構である） 左右いずれかに決定しない。<br><br>（寸鉄にある）ブランコの両端のごとしといった。<br><br>両方で成功出来ぬ事を成功するように思って一生懸命やっているんでいい。<br><br>吾等のごとく、傍観者的に見ているのは、その上を行っている訳である。<br><br> 内乱がどうこうの心配はない。<br><br>極左の方は暴力革命などといっている。<br><br>中国も蒋介石のやり方は悪い。<br><br>軍国主義でファッショ的な点があったし農民を搾取した。<br><br>毛沢東の方がよい。<br><br>中共は百姓を苛めぬ。<br><br>それが勝った原因である。<br><br> 安易な道の方が許される。<br><br>霊に曇（罪）が少なければ、安易の道を行く。<br><br>罪穢があれば苦しい道を行く。<br><br>相応の理で行く。<br><br>苦しんでいて、安易な道も行けぬ。<br><br>好んで苦しんだ道を行く訳でない。<br><br>（皆自分に原因がある） 触れる必要はない。<br><br>酔払いが喧嘩しているようなものである。<br><br>故に仲裁に入る要はない。<br><br>傍観していればよい。<br><br>彼等は破壊の役、壊し屋であり、吾等は建設者で、建てる方の仕事で、今から木を削ったり、柱を作ったりして準備している。<br><br>ヒットラーは、壊し屋の親方と先に言った。<br><br>（S24. 6.23） rattail（注） 〔 寸鉄(地上天国１号) 、昭和23(1948)年12月1日発行〕参照 『右へ傾くのも左へ傾くのもいけない、中道を行くべしというのは、民主党とそうして自動車の運転手だ』 023 引揚者の共産思想 最近ソ連より多数引揚て参り、共産思想が熾烈となって来て、今後日本の思想の動向が心配されます。<br><br>いかようになり行くでしょうか。<br><br>御伺い申し上げます。<br><br> 共産主義の信用を落すために、反っていい。<br><br>八割転向したという。<br><br>そんな心配した事ない。<br><br>（S *. 7. 8） 024 日本歴史の疑問 （イ）出雲大社へは昔から勅使の参拝は一度もないとの事で御座いますが、皇室との間に何か理由があるのでしょうか。<br><br>御伺い申し上げます。<br><br> （ロ）九州の島津家にその時の当主でなければ見る事の出来ない書物があるとの事ですが、その内容を世の中へ発表すれば、今迄の歴史は根底から覆えされるとの事で御座います。<br><br>かような物が実際に存在するでしょうか。<br><br>もしあるとすれば、私達が今日迄学んで来た歴史の真偽はどの程度で御座いましょうか。<br><br>またいつの時代が一番疑わしいので御座いましょうか。<br><br>具体的に御教示を御伺い申し上げます。<br><br> （イ）大いに理由がある。<br><br>神武天皇が東夷征伐の時、それまでは出雲朝が統治したのを、統治権を返せというので、天照大神の子孫として名乗り交渉した。<br><br>最初はうまくゆかず、武甕槌、経津主によって勝った。<br><br>それで勅使が参拝せぬのである。<br><br>朝鮮は日本を征服した。<br><br>十月は神無月というのは出雲朝で言出した。<br><br>十月に日之御崎から神がお帰りになるという。<br><br>一月間。<br><br>これは朝鮮の神である証拠で、統治した時そういう事になる。<br><br> （ロ）国土奉還の時と、瓊々杵尊の時が疑わしい。<br><br>これは根本的の訳がある。<br><br>これを知ると歴史は、根底から覆える。<br><br>発表したいが未だ早い。<br><br>その現われは終戦後日本の戦争はああなり、特権階級は落ちた。<br><br>こうなるべき深い理由がある。<br><br>これは見真実の一部である。<br><br>信仰が進めば判る。<br><br>世は変りつつあり、世界がどうなるかも分る。<br><br>プログラムは出来ている。<br><br>霊界では相当出来つつあり、五六七世は霊界の中心では出来ている。<br><br>（いくら邪神が足掻いてももう駄目である）今後は暗示的にいう。<br><br>（その人の智慧証覚で知るべきである。<br><br>智慧の啓発が肝要で、そうすれば日本の歴史は分る。<br><br>日本の歴史は大きな勢力が天下を奪り合った。<br><br>それが敗戦によってなくなった。<br><br>それは、敗戦は祝わなくてはならぬと皆に言った）徳川と天朝―皇室は最後に相争った。<br><br>源平、保元、平治等そうである。<br><br>大国主命の娘は綏靖天皇の妃となった。<br><br>こういう点はなかなか偉い。<br><br>徳川家康は大国主命の人間に表われたもので、皇室と別の系統で、徳川は皇室をなくすつもりだった。<br><br>計画的にやろうとし段々段々皇室は衰え、徳川が実権を握り、終には皇室は十万石にした。<br><br>生活出来ないようした。<br><br>終には公方、禁裏様などといって――。<br><br>二・二六事件は天皇を退位せしめ、秩父宮を立てようとした。<br><br>秩父宮は大国主系統で、それにより取ろうとした。<br><br>松平恒雄の先祖は徳川秀忠の小間使で、秩父家は徳川一門で固めた。<br><br>天皇の方はそれを見抜いて、秩父を病気として、戦時中顔を出さぬようにした。<br><br>このように今迄は、二大勢力で争ったのである。<br><br>（S24. 8. 5） 025 竹内文書と裏十誡 茨城県磯原の竹内巨麿氏方に竹内文書という古文書と共に古代天皇の御神骨にモーゼの十戒が彫ってあるそうですが、旧教と日本とに何か関係があったのでしょうか、またこのモーゼの十戒につき――。<br><br> これは神骨でなく石である。<br><br>また裏十誡である。<br><br>神武以前の歴史である。<br><br>十誡はキリスト以前に尊ばれたもので、裏十誡はちがう。<br><br> 026 義経と成吉思汗 義経と成吉思汗とは、霊的関係が御座居ましょうか。<br><br> 義経は蒙古へ行った事蹟はある。<br><br>成吉思汗との関係はないと思う。<br><br>（S25. 2. 8）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compêndio de Ensinamentos – Volume Acadêmico II</h2>
 <h2>010 - O Limite da Inteligência Humana</h2>
@@ -159,5 +311,48 @@ function toggleLang(lang) {
 <h2>026 - Yoshitsune e Gengis Khan</h2>
 <p><em>Pergunta: Existe alguma relação espiritual entre Minamoto no Yoshitsune e Gengis Khan?</em></p>
 <p>Há registros de que Yoshitsune foi à Mongólia. Contudo, não creio que haja qualquer relação com Gengis Khan.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ２ 010-026 学問思想 010 人智の限度 人智の発達には限度が御座居ますか。<br/><br/> 人智に限度はない。<br/><br/>限度のない所に無限の発展がある。<br/><br/>（限度があったら滅亡する） 無限絶対無始無終で――。<br/><br/>（S24. 2.23） 011 記憶について 物事を記憶したり忘れたりするのは霊的にいかなる意味になりましょうか。<br/><br/> 霊的よりも、必要である。<br/><br/>全部覚えていても具合がわるい。<br/><br/>忘れてしまっても具合がわるい。<br/><br/>（S25. 2.23） 012 一つおきの法則 高知県においての伝説でありますが、一家に男子が三人いる場合、長男が病気、災難等で順調に相続が出来ず、終には三男が後を取るような事になると言うのであります。<br/><br/>事実その実例もあるようですが、あるとしたならば右の事柄はいかなる原因でありましょうか、御教え願います。<br/><br/> すべて物は一つおきで、これが宇宙の法則である。<br/><br/>病苦も苦しみも一日おきである。<br/><br/>（S24. 7. 6） 013 メンデルの法則 メンデル遺伝の法則は、霊的にいかなる意味があるでしょうか。<br/><br/> メンデルの法則はあるにはあるが、唯物的解釈で、学者は人間も動物とし、物質的に考えるから間違っている。<br/><br/>兄弟が多いと頭がわるいというが、偉人は兄弟が多い所から生れる。<br/><br/>西洋の統計にある。<br/><br/>兄弟が多いと可愛いがられぬ。<br/><br/>独立心が起る。<br/><br/>それで偉くなる。<br/><br/>故に産児制限などすると偉い人間もなくなる。<br/><br/>一人など可愛がられるから偉い人は出ぬ。<br/><br/>遺伝は一代おきにするようになっており、この点は合っている。<br/><br/>癩病など病気も一代おきである。<br/><br/>（S24. 6.19） 014 性善説、性悪説 孟子の性善説と荀子の性悪説は、大先生様の本、副守護神の一つの表し方と存じますが、どうでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> まあそうである。<br/><br/>性善説の方が本当である。<br/><br/>悪は一時的のもので、性は善である。<br/><br/>（S24. 1. 8） 015 進化論 ダーウィンの進化論は正しいものでしょうか。<br/><br/> ダーウィンは間違っている。<br/><br/>人間の先祖はアミーバで、それからトカゲ―象―猿―人間となっているが、これは彼の想像したものに過ぎぬ。<br/><br/>猿や類人猿の進化したものではない。<br/><br/>初めから人間は造られたものである。<br/><br/>ただ人間を造る場合、最初に虫などあらゆる生物を造られ、最後に人間を造られた。<br/><br/>それ故に、それぞれの生物の特色が入っている。<br/><br/>それで飛行機は鳥、戦争は猛獣の噛合い、歌うのは鳥の真似である。<br/><br/>（S23.10.17） 016 音響と夢 音響に依て、夢を攪乱することが出来ると心理学者は申しますが、それは可能でしょうか。<br/><br/>また夢と霊との関係を御教え下さい。<br/><br/> 音響は、夢を攪乱でなく、影響する。<br/><br/>夢へ影響する事がある。<br/><br/>（S24.10.28） 017 ニーチェの永劫輪廻 ニーチェの永劫輪廻の思想は誤れるものでしょうか。<br/><br/> ニーチェの基本の思想は本能主義で、これは危険である。<br/><br/>いい所もあるが、制限するものがないと奔放になる。<br/><br/>飛躍的自由主義である。<br/><br/>哲学や文学などは、民主自由主義などを作り出された基礎になった。<br/><br/>ニーチェのそれも自由主義を生む基礎になったが、それがそのまま本当のものではない。<br/><br/> 輪廻は仏語である。<br/><br/>（S24.10.28） 018 羞恥心と人間 羞恥心は霊魂にどのように反映しますか。<br/><br/>例えば不具者が大衆の中で自己の肉体的欠陥を羞じる場合です。<br/><br/> 訳はない。<br/><br/>人間の羞恥の感情は神の与えた感情である。<br/><br/>人間は羞恥心がなければ、動物みたいになる。<br/><br/>羞恥心のあるのは高等である。<br/><br/> 悪人でも羞恥のないのがある。<br/><br/>不具のための羞恥は諦める外はない。<br/><br/>執着を絶つ事である。<br/><br/>（S24. 9. 5） 019 哲学の真相 現在の哲学が唯物主観的立場にある以上、迷学というべきではないでしょうか。<br/><br/> 哲学は本来唯物主観であって、その一歩上が宗教である。<br/><br/>ツマリ科学と宗教の中間が哲学で、どちらかといえば唯物の方に近いものである。<br/><br/>だから哲学には疑問が多く結論がない。<br/><br/>それで哲学へ入ると迷いが深くなる。<br/><br/>要するに哲学は疑問を並べたものである。<br/><br/>故に哲学は一種の参考としてみるのはよいが、それによって万事解決しようとしても駄目である。<br/><br/>そうでないと懐疑に陥り易い。<br/><br/> 020 直感 直感というものは、尊重してよいものでしょうか。<br/><br/> これは尊重してよい。<br/><br/>初一念とか直感とかは正確である。<br/><br/>変えると後は迷いになる。<br/><br/> ベルグソンの直感の哲学というのがある。<br/><br/>人間は今迄の教育や習慣などがあって直感出来ない。<br/><br/>今迄のいろんなものを通して観るため種々考え、乱れたり、迷ったりする。<br/><br/>いろんな問題に遇った時、刹那の吾で見た事が一番正しいという。<br/><br/>よく赤ン坊や子供など非常に巧い事をいう事がある。<br/><br/> 本教をみるにも、今迄の教などが棒のように入っていて、それが障っている。<br/><br/> 浄霊なども、その効果によって結構と思うならいいが、いろんな理屈をつけると、すでに真理でない。<br/><br/> 故に直感は非常に尊いものである。<br/><br/>（S24.10.28） 021 ユダとマルクス―資本家と労働者（霊界と思想事件） ユダとマルクスとは霊的な関係があるでしょうか。<br/><br/> ある。<br/><br/>すべて大きな思想や事件は霊界から来ている。<br/><br/>これは善い事も悪い事もある。<br/><br/> 世界の資本主義が行われると段々偏りすぎる。<br/><br/>そして大多数が苦しみ金持だけ良くなる。<br/><br/>それはいけない。<br/><br/>それを調節するためにマルクスが出た。<br/><br/>しかしマルクスが行われ過ぎると、労働者階級が権力を持ち過ぎ、今では資本家が苦しむ時代になった。<br/><br/>これはまた治ってゆき、真中へ来る。<br/><br/>丁度ブランコのようなものである。<br/><br/>どっちかへ行き過ぎ――。<br/><br/> 共産主義も必要だったが、行過ぎたために資本家が倒れ生産が衰えた。<br/><br/>その結果として、労働者もたおれる事になる。<br/><br/>少し我慢して資本家も太るようにして――。<br/><br/> 唯物的の考え方は、自分自身を省みない。<br/><br/>苦しみやいろんな原因は他にあるとする。<br/><br/>そして他人を怨み、社会を呪う。<br/><br/>日本人はその気持が強い。<br/><br/>酒呑みや怠け者は困る。<br/><br/>それを社会の機構が悪いからなどと、責任を他に転嫁する。<br/><br/>日本などでは、少し偉いのが出来ると倒そうとする。<br/><br/>出来ないうちにたおそうとするのがある。<br/><br/>これは非常に悪い。<br/><br/>（S23.11. 3） 022 敗戦と現社会思想への考え方 道徳はある程度時代と社会状勢に応ずるものと存じますが、過去の戦時中に国家に尽した政治家、将兵、戦時産業家等は、それが最善の道であると信じ、また個人の意志に係らずそうせざるを得なかったという事も、神様から御覧になった場合、やはり罪になるものでしょうか。<br/><br/>また他面、日本を敗戦に導き、その結果日本を本来の姿に帰した事は却って功徳とも考えられますが、この功罪はいずれをとるべきでしょうか。<br/><br/> 将来起るべき世界大戦及びそれに伴う内乱の危惧は個人の意志に係りなく、社会状勢も左右いずれかに決定される事と存じますし、世界が、国家が大試練、大浄化を受ける時、ただ要領のみで安易な道を行く事は許されないと存じますが、この場合、左右いずれかに属さねばならぬ時、いかなる態度をとるべきでしょうか。<br/><br/>あるいはまた宗教人として内村鑑三氏等が取ったような反戦運動等を起こす事は正しいのでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 小乗的、大乗的と両方の考え方がある。<br/><br/>戦時中一生懸命やった人は小乗の見方であった。<br/><br/>敗戦で救われたというのは大乗の見方である。<br/><br/>敗戦の時、本当は祝うべきだと言った事がある。<br/><br/>これは大乗的見方である。<br/><br/>その時代の政治家の考え方は、日本さえよければ他国は不幸になってもよしとする。<br/><br/>要するに日本的考え方で（これが大変な間違いで）世界的でなくてはならぬ。<br/><br/>日本の皇道をロシヤへ持って行ったらどう思うと言った事がある。<br/><br/>（通用しない）世界人類みんなが喜んで賛成する思想でなくてはならぬ。<br/><br/>故に、皇道思想のごとき、よろしく滅ぶべきであった。<br/><br/>その頃（軍人は）集団的に殺人を練習した。<br/><br/>（産業家は）戦争で勝って金持が大いに儲けようとした。<br/><br/>故にああなるのは当りまえである。<br/><br/>（泥棒的である。<br/><br/>敗戦によって目覚めたのは大いに結構である） 左右いずれかに決定しない。<br/><br/>（寸鉄にある）ブランコの両端のごとしといった。<br/><br/>両方で成功出来ぬ事を成功するように思って一生懸命やっているんでいい。<br/><br/>吾等のごとく、傍観者的に見ているのは、その上を行っている訳である。<br/><br/> 内乱がどうこうの心配はない。<br/><br/>極左の方は暴力革命などといっている。<br/><br/>中国も蒋介石のやり方は悪い。<br/><br/>軍国主義でファッショ的な点があったし農民を搾取した。<br/><br/>毛沢東の方がよい。<br/><br/>中共は百姓を苛めぬ。<br/><br/>それが勝った原因である。<br/><br/> 安易な道の方が許される。<br/><br/>霊に曇（罪）が少なければ、安易の道を行く。<br/><br/>罪穢があれば苦しい道を行く。<br/><br/>相応の理で行く。<br/><br/>苦しんでいて、安易な道も行けぬ。<br/><br/>好んで苦しんだ道を行く訳でない。<br/><br/>（皆自分に原因がある） 触れる必要はない。<br/><br/>酔払いが喧嘩しているようなものである。<br/><br/>故に仲裁に入る要はない。<br/><br/>傍観していればよい。<br/><br/>彼等は破壊の役、壊し屋であり、吾等は建設者で、建てる方の仕事で、今から木を削ったり、柱を作ったりして準備している。<br/><br/>ヒットラーは、壊し屋の親方と先に言った。<br/><br/>（S24. 6.23） rattail（注） 〔 寸鉄(地上天国１号) 、昭和23(1948)年12月1日発行〕参照 『右へ傾くのも左へ傾くのもいけない、中道を行くべしというのは、民主党とそうして自動車の運転手だ』 023 引揚者の共産思想 最近ソ連より多数引揚て参り、共産思想が熾烈となって来て、今後日本の思想の動向が心配されます。<br/><br/>いかようになり行くでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 共産主義の信用を落すために、反っていい。<br/><br/>八割転向したという。<br/><br/>そんな心配した事ない。<br/><br/>（S *. 7. 8） 024 日本歴史の疑問 （イ）出雲大社へは昔から勅使の参拝は一度もないとの事で御座いますが、皇室との間に何か理由があるのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> （ロ）九州の島津家にその時の当主でなければ見る事の出来ない書物があるとの事ですが、その内容を世の中へ発表すれば、今迄の歴史は根底から覆えされるとの事で御座います。<br/><br/>かような物が実際に存在するでしょうか。<br/><br/>もしあるとすれば、私達が今日迄学んで来た歴史の真偽はどの程度で御座いましょうか。<br/><br/>またいつの時代が一番疑わしいので御座いましょうか。<br/><br/>具体的に御教示を御伺い申し上げます。<br/><br/> （イ）大いに理由がある。<br/><br/>神武天皇が東夷征伐の時、それまでは出雲朝が統治したのを、統治権を返せというので、天照大神の子孫として名乗り交渉した。<br/><br/>最初はうまくゆかず、武甕槌、経津主によって勝った。<br/><br/>それで勅使が参拝せぬのである。<br/><br/>朝鮮は日本を征服した。<br/><br/>十月は神無月というのは出雲朝で言出した。<br/><br/>十月に日之御崎から神がお帰りになるという。<br/><br/>一月間。<br/><br/>これは朝鮮の神である証拠で、統治した時そういう事になる。<br/><br/> （ロ）国土奉還の時と、瓊々杵尊の時が疑わしい。<br/><br/>これは根本的の訳がある。<br/><br/>これを知ると歴史は、根底から覆える。<br/><br/>発表したいが未だ早い。<br/><br/>その現われは終戦後日本の戦争はああなり、特権階級は落ちた。<br/><br/>こうなるべき深い理由がある。<br/><br/>これは見真実の一部である。<br/><br/>信仰が進めば判る。<br/><br/>世は変りつつあり、世界がどうなるかも分る。<br/><br/>プログラムは出来ている。<br/><br/>霊界では相当出来つつあり、五六七世は霊界の中心では出来ている。<br/><br/>（いくら邪神が足掻いてももう駄目である）今後は暗示的にいう。<br/><br/>（その人の智慧証覚で知るべきである。<br/><br/>智慧の啓発が肝要で、そうすれば日本の歴史は分る。<br/><br/>日本の歴史は大きな勢力が天下を奪り合った。<br/><br/>それが敗戦によってなくなった。<br/><br/>それは、敗戦は祝わなくてはならぬと皆に言った）徳川と天朝―皇室は最後に相争った。<br/><br/>源平、保元、平治等そうである。<br/><br/>大国主命の娘は綏靖天皇の妃となった。<br/><br/>こういう点はなかなか偉い。<br/><br/>徳川家康は大国主命の人間に表われたもので、皇室と別の系統で、徳川は皇室をなくすつもりだった。<br/><br/>計画的にやろうとし段々段々皇室は衰え、徳川が実権を握り、終には皇室は十万石にした。<br/><br/>生活出来ないようした。<br/><br/>終には公方、禁裏様などといって――。<br/><br/>二・二六事件は天皇を退位せしめ、秩父宮を立てようとした。<br/><br/>秩父宮は大国主系統で、それにより取ろうとした。<br/><br/>松平恒雄の先祖は徳川秀忠の小間使で、秩父家は徳川一門で固めた。<br/><br/>天皇の方はそれを見抜いて、秩父を病気として、戦時中顔を出さぬようにした。<br/><br/>このように今迄は、二大勢力で争ったのである。<br/><br/>（S24. 8. 5） 025 竹内文書と裏十誡 茨城県磯原の竹内巨麿氏方に竹内文書という古文書と共に古代天皇の御神骨にモーゼの十戒が彫ってあるそうですが、旧教と日本とに何か関係があったのでしょうか、またこのモーゼの十戒につき――。<br/><br/> これは神骨でなく石である。<br/><br/>また裏十誡である。<br/><br/>神武以前の歴史である。<br/><br/>十誡はキリスト以前に尊ばれたもので、裏十誡はちがう。<br/><br/> 026 義経と成吉思汗 義経と成吉思汗とは、霊的関係が御座居ましょうか。<br/><br/> 義経は蒙古へ行った事蹟はある。<br/><br/>成吉思汗との関係はないと思う。<br/><br/>（S25. 2. 8）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

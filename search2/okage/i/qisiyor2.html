@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qisiyor2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医師より死の宣告をされた 高血圧､心臓病癒えて 『栄光』191号、昭和28(1953)年1月14日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 北海道 みのり中教会 小松義五郎（28） 謹みてこの身に賜わりました御守護の御礼を申し上げます。<br><br> 顧みれば昭和二十五年二月中旬突然心臓が苦しくなり倒れましたので、当時勤務しておりました会社の病院で診察の結果心臓弁膜症と言われました。<br><br>それからは一意専心病気を治そぅと特効薬を漁り服用しました。<br><br>不安と焦躁の中に一週間は瞬く間に過ぎ、以前にもまして体の調子が悪くなり、改めて医師に診て貰いました。<br><br>その結果心臓の病名が前回の時より二つも増えております。<br><br>この上は入院して徹底的な医療を受ける外術なしと判断し、医師にその旨申し出ますと無条件で入院することが出来ました。<br><br>勇躍再起の出来る日を楽しみに医師の言われる事を忠実に守り、本格的に安静療法を行いました。<br><br> 入院時最初に医師が予想した治るはずの一週間が来たので詳しく診て貰いますと、今度は「血圧が三〇〇以上あるから食物の方も制限して摂らなければいけない」との事、私は早速実行しました。<br><br>その内に三月になりました．。<br><br>三月に入ってからは脈樽が常時一〇〇ないし一二〇位打つ様になり、次第に体の調子の悪い日が続く様になりました。<br><br>三月十二日（兄の命日）に発病当時と同じく突然脈持が悪く（一五〇－一六〇）なり、医師が言うには「血圧が余り高いからこんな事になるんだから、血液を二〇〇―三〇〇ＣＣ位とったらよい」との事なので医師の言うがままに取って貰いました。<br><br>ところが非常に苦しくなり、私は苦しさのあまりこの儀死ぬのではないかと思いました。<br><br>この時医師も予想していた結果とは大分違うので大慌てに慌て、一時間位の間に強心剤十八本を私の体にうち込みました。<br><br>その為かどうやら一時小康を得て楽になりましたが、そのあとが悪く、益々体の工合が変になり、脈縛一三〇－一四〇、体温三十四度五分位となりました。<br><br>体力もかなり衰弱して室内の歩行も困難となりました。<br><br> この頃になりますと医師も時々首を傾げる様になり、医師に尋ねても「今暫く様子を見ないと何とも言えない」という頼りない返答です。<br><br>三月下旬また尋ねますと「あなたには心臓病の薬という薬のうち一番強いのばかりやっているのですがどうも」との返事です。<br><br>病める私にとってこの言葉は「君の病気は治らない……いずれ死ななければならない……その準備をせよ」と聞えました。<br><br>この頃から医師の顔を見ると腹が立って体の工合まで悪くなりました。<br><br>それでも何とかもう一度元気になりたい、治りたい一心で医師の言われる事を忠実に、服薬と注射を続けました。<br><br>四月に入ってからは自分の現在の病気の治る見通しについて不安になり、医師にＸ線の診断を申し入れやって貰いました。<br><br>その結果は私の生命力に益々暗い影を投げました。<br><br>今まで夢にも思っていなかった肺も腎臓も肝臓も脊髄も悪くなっているとの事です。<br><br>それにも増して心臓に八つもの病名を付けられました。<br><br>今まで医師の言う事に何一つ反した事のないのにこの始末です。<br><br>こうなると自分自身が腹が立つやら口惜しいやらなさけないやらで医師に「私の病気を治せんのか」とつめよりますと、医師も腹が立ったと見え「まあ親類の人達でも呼んで後々の事でも相談するんですね」との返答です。<br><br>この一言を聞いて私はカッとなり、腹が立ってどうすることも出来ませんでした。<br><br>そして生への執着をもちながらも「もうどうにでもなれ」という捨鉢の気持になって行きました。<br><br>次第に衰弱がはげしくなり、体温三十四度、脈持一四〇－一五〇位となり、食事も全く口に入れる事が出来ず、ただ死を待っている状態となりました。<br><br> 五月上旬医師の口よりはっきりと「死の宣告」を受け、近親者は最期の別れに来てくれましたが、その人達の顔も視力が衰えてはっきり見る事が出来ず、私自身もいよいよ駄目だと死の覚悟をきめました。<br><br> 医師の言うことを本当に忠実に守って来た私は死の間際になり医師をこの上なく怨みました。<br><br>後で聞いたのですが、家の人達にはあと二日位と申していたそうです。<br><br> 嗚呼思い出深い日、それは昭和二十五年五月十日でした。<br><br>私の友人の大久孝寿（入信者）君が突然見舞に来て下さいました。<br><br>そして「小松さんこういう事をしてあなたは変に思うかも知れないが」と手を翳し、前置きして「私の結核がこれで治ったのです」と一時間ばかり、手を翳しながら（御浄霊）有難い救世教の話をしてくれました。<br><br>気の故か体が軽くなりました。<br><br>そして当時美唄方面へ布教においでの吉田先生を明日御一緒しましょうとの御話に、早速御願い致しました。<br><br>明けて十一日病院へ吉田先生の出張を頂き、御浄霊をして戴きました。<br><br>吉田先生の力強い親切な数々の御話を御聞き致しております内に、今まで私のやっていた何から何まで全部体を悪くする為だった事がおぼろげながらも分らせて戴きましたので、即日薬を止し、御浄霊一本に御願いすることに致しました。<br><br>それにもまして驚いた事は、一度の御浄霊で今まで何一つ口に入れる事の出来なかったのが病院から配られる丼一杯の普通食を久し振りにベロリと平げた事でした。<br><br>もう治ったも同様の気分になりまして、入院以来幾十日振りで晴れやかな気持になる事が出来ました。<br><br> 医師の無責任極まる暴言に比し吉田先生の肉親にも勝る親切丁寧なる御浄霊の御蔭により流石の難病も一日一日快方に向って来ました。<br><br>御浄霊を賜わる様になってからは医師と毎日の様に争いをしました。<br><br>「薬をのめ」「そんなものをのんだら殺される」「どうしても薬をのめ」「第一あなたは私の病気を治せなかったじゃないか」こんな工合だったので病院生活は極度に嫌になり五月下旬医師の反対を押切って退院致しました。<br><br>当時まだ歩行が出来なかったので担架にて家に帰り早速教会へ御礼を申し上げ、尊い御守を拝受させて戴きました。<br><br>退院後は体温も平熱となり、昼間は一度も蒲団の上に寝ることがなく、頑張ることが出来ました。<br><br>六月下旬頃から教会へ歩いて通う様になりました。<br><br>途中路上にて倒れる様な事は毎日一、二回ありましたが絶対の御守護を信じる私は自分で心臓を御浄霊し、声高らかに善言讃詞を奉唱しながら無我夢中でした。<br><br> 教会へ歩いて通う様になりましてからは体の方は段々調子が付いて来ました。<br><br>そして人様の御浄霊も土、三十分位ですと出来る様になり、この時の嬉しさは生涯の最高の嬉しさと記憶されました。<br><br> 明主様の御神徳にただただ感謝申し上げるばかりであります。<br><br> 七月に入りましてから体力が出て来た為でしよう、時々四十度以上の熱と一日数回の猛烈な下痢（この熱と下痢は九月頃まで続きました）の御浄化を頂きました。<br><br>今までですととんでもなく驚くのですが、これで私も人並の御浄化を神様より賜わったと感謝の日々を過させて頂いておりました。<br><br> 九月上旬、時折布教の為来道下さる山口先生より布教に立つ様言われましたが、体力に自信がないので躊躇しておりましたところ、吉田先生からも御忠告を頂きました。<br><br>丁度その朝御先祖様より夢にて御諭しをいただきましたので意を決して御神業に参加させて戴く覚悟を決めました。<br><br> 十二月下旬、病気で十カ月も休んでいた会社を退職しまして布教への諸準備を整え、二十六年一月から現在の地に開拓に来ております。<br><br>布教に出ましてからは案じておりました体も御守護によりまして本格的調子がつき、現在では尊い救世教の教師の末席に名を連ねさせて頂いております。<br><br>明主様誠に有難うございました。<br><br> 当然ない命を御救い戴きました私、この身枯れるまで御救いの業に尽くさせて頂きとうございます。<br><br>何卒今後共御守護の程御願い申し上げます。<br><br> （昭和二十七年八月十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Recebendo a Sentença de Morte dos Médicos: A Cura da Hipertensão e da Cardiopatia</h2>
 <p>Publicado na revista Eikou nº 191, em 14 de janeiro de 1953
@@ -110,5 +265,48 @@ Sr. Gigorou Komatsu (28 anos)</p>
 <p>No final de dezembro, pedi demissão da empresa onde estive afastado por dez meses e fiz os preparativos para iniciar minha dedicação. Em janeiro de 1951, fui enviado como pioneiro para a localidade onde sirvo atualmente. Contrariando minhas apreensões, desde que iniciei a missão, meu corpo, sob a proteção divina, recuperou-se plenamente. Hoje, tenho a honra de ocupar um modesto lugar entre os ministros da sagrada Sekaikyuseikyou. Meishu-Sama, muito, muito obrigado.</p>
 <p>A mim, que tive a vida salva quando já não havia esperança, rogo que me permita servir a esta Obra de Salvação até o último suspiro. E peço, humildemente, que Vossa proteção continue a me amparar.</p>
 <p>(17 de agosto de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医師より死の宣告をされた 高血圧､心臓病癒えて 『栄光』191号、昭和28(1953)年1月14日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 北海道 みのり中教会 小松義五郎（28） 謹みてこの身に賜わりました御守護の御礼を申し上げます。<br/><br/> 顧みれば昭和二十五年二月中旬突然心臓が苦しくなり倒れましたので、当時勤務しておりました会社の病院で診察の結果心臓弁膜症と言われました。<br/><br/>それからは一意専心病気を治そぅと特効薬を漁り服用しました。<br/><br/>不安と焦躁の中に一週間は瞬く間に過ぎ、以前にもまして体の調子が悪くなり、改めて医師に診て貰いました。<br/><br/>その結果心臓の病名が前回の時より二つも増えております。<br/><br/>この上は入院して徹底的な医療を受ける外術なしと判断し、医師にその旨申し出ますと無条件で入院することが出来ました。<br/><br/>勇躍再起の出来る日を楽しみに医師の言われる事を忠実に守り、本格的に安静療法を行いました。<br/><br/> 入院時最初に医師が予想した治るはずの一週間が来たので詳しく診て貰いますと、今度は「血圧が三〇〇以上あるから食物の方も制限して摂らなければいけない」との事、私は早速実行しました。<br/><br/>その内に三月になりました．。<br/><br/>三月に入ってからは脈樽が常時一〇〇ないし一二〇位打つ様になり、次第に体の調子の悪い日が続く様になりました。<br/><br/>三月十二日（兄の命日）に発病当時と同じく突然脈持が悪く（一五〇－一六〇）なり、医師が言うには「血圧が余り高いからこんな事になるんだから、血液を二〇〇―三〇〇ＣＣ位とったらよい」との事なので医師の言うがままに取って貰いました。<br/><br/>ところが非常に苦しくなり、私は苦しさのあまりこの儀死ぬのではないかと思いました。<br/><br/>この時医師も予想していた結果とは大分違うので大慌てに慌て、一時間位の間に強心剤十八本を私の体にうち込みました。<br/><br/>その為かどうやら一時小康を得て楽になりましたが、そのあとが悪く、益々体の工合が変になり、脈縛一三〇－一四〇、体温三十四度五分位となりました。<br/><br/>体力もかなり衰弱して室内の歩行も困難となりました。<br/><br/> この頃になりますと医師も時々首を傾げる様になり、医師に尋ねても「今暫く様子を見ないと何とも言えない」という頼りない返答です。<br/><br/>三月下旬また尋ねますと「あなたには心臓病の薬という薬のうち一番強いのばかりやっているのですがどうも」との返事です。<br/><br/>病める私にとってこの言葉は「君の病気は治らない……いずれ死ななければならない……その準備をせよ」と聞えました。<br/><br/>この頃から医師の顔を見ると腹が立って体の工合まで悪くなりました。<br/><br/>それでも何とかもう一度元気になりたい、治りたい一心で医師の言われる事を忠実に、服薬と注射を続けました。<br/><br/>四月に入ってからは自分の現在の病気の治る見通しについて不安になり、医師にＸ線の診断を申し入れやって貰いました。<br/><br/>その結果は私の生命力に益々暗い影を投げました。<br/><br/>今まで夢にも思っていなかった肺も腎臓も肝臓も脊髄も悪くなっているとの事です。<br/><br/>それにも増して心臓に八つもの病名を付けられました。<br/><br/>今まで医師の言う事に何一つ反した事のないのにこの始末です。<br/><br/>こうなると自分自身が腹が立つやら口惜しいやらなさけないやらで医師に「私の病気を治せんのか」とつめよりますと、医師も腹が立ったと見え「まあ親類の人達でも呼んで後々の事でも相談するんですね」との返答です。<br/><br/>この一言を聞いて私はカッとなり、腹が立ってどうすることも出来ませんでした。<br/><br/>そして生への執着をもちながらも「もうどうにでもなれ」という捨鉢の気持になって行きました。<br/><br/>次第に衰弱がはげしくなり、体温三十四度、脈持一四〇－一五〇位となり、食事も全く口に入れる事が出来ず、ただ死を待っている状態となりました。<br/><br/> 五月上旬医師の口よりはっきりと「死の宣告」を受け、近親者は最期の別れに来てくれましたが、その人達の顔も視力が衰えてはっきり見る事が出来ず、私自身もいよいよ駄目だと死の覚悟をきめました。<br/><br/> 医師の言うことを本当に忠実に守って来た私は死の間際になり医師をこの上なく怨みました。<br/><br/>後で聞いたのですが、家の人達にはあと二日位と申していたそうです。<br/><br/> 嗚呼思い出深い日、それは昭和二十五年五月十日でした。<br/><br/>私の友人の大久孝寿（入信者）君が突然見舞に来て下さいました。<br/><br/>そして「小松さんこういう事をしてあなたは変に思うかも知れないが」と手を翳し、前置きして「私の結核がこれで治ったのです」と一時間ばかり、手を翳しながら（御浄霊）有難い救世教の話をしてくれました。<br/><br/>気の故か体が軽くなりました。<br/><br/>そして当時美唄方面へ布教においでの吉田先生を明日御一緒しましょうとの御話に、早速御願い致しました。<br/><br/>明けて十一日病院へ吉田先生の出張を頂き、御浄霊をして戴きました。<br/><br/>吉田先生の力強い親切な数々の御話を御聞き致しております内に、今まで私のやっていた何から何まで全部体を悪くする為だった事がおぼろげながらも分らせて戴きましたので、即日薬を止し、御浄霊一本に御願いすることに致しました。<br/><br/>それにもまして驚いた事は、一度の御浄霊で今まで何一つ口に入れる事の出来なかったのが病院から配られる丼一杯の普通食を久し振りにベロリと平げた事でした。<br/><br/>もう治ったも同様の気分になりまして、入院以来幾十日振りで晴れやかな気持になる事が出来ました。<br/><br/> 医師の無責任極まる暴言に比し吉田先生の肉親にも勝る親切丁寧なる御浄霊の御蔭により流石の難病も一日一日快方に向って来ました。<br/><br/>御浄霊を賜わる様になってからは医師と毎日の様に争いをしました。<br/><br/>「薬をのめ」「そんなものをのんだら殺される」「どうしても薬をのめ」「第一あなたは私の病気を治せなかったじゃないか」こんな工合だったので病院生活は極度に嫌になり五月下旬医師の反対を押切って退院致しました。<br/><br/>当時まだ歩行が出来なかったので担架にて家に帰り早速教会へ御礼を申し上げ、尊い御守を拝受させて戴きました。<br/><br/>退院後は体温も平熱となり、昼間は一度も蒲団の上に寝ることがなく、頑張ることが出来ました。<br/><br/>六月下旬頃から教会へ歩いて通う様になりました。<br/><br/>途中路上にて倒れる様な事は毎日一、二回ありましたが絶対の御守護を信じる私は自分で心臓を御浄霊し、声高らかに善言讃詞を奉唱しながら無我夢中でした。<br/><br/> 教会へ歩いて通う様になりましてからは体の方は段々調子が付いて来ました。<br/><br/>そして人様の御浄霊も土、三十分位ですと出来る様になり、この時の嬉しさは生涯の最高の嬉しさと記憶されました。<br/><br/> 明主様の御神徳にただただ感謝申し上げるばかりであります。<br/><br/> 七月に入りましてから体力が出て来た為でしよう、時々四十度以上の熱と一日数回の猛烈な下痢（この熱と下痢は九月頃まで続きました）の御浄化を頂きました。<br/><br/>今までですととんでもなく驚くのですが、これで私も人並の御浄化を神様より賜わったと感謝の日々を過させて頂いておりました。<br/><br/> 九月上旬、時折布教の為来道下さる山口先生より布教に立つ様言われましたが、体力に自信がないので躊躇しておりましたところ、吉田先生からも御忠告を頂きました。<br/><br/>丁度その朝御先祖様より夢にて御諭しをいただきましたので意を決して御神業に参加させて戴く覚悟を決めました。<br/><br/> 十二月下旬、病気で十カ月も休んでいた会社を退職しまして布教への諸準備を整え、二十六年一月から現在の地に開拓に来ております。<br/><br/>布教に出ましてからは案じておりました体も御守護によりまして本格的調子がつき、現在では尊い救世教の教師の末席に名を連ねさせて頂いております。<br/><br/>明主様誠に有難うございました。<br/><br/> 当然ない命を御救い戴きました私、この身枯れるまで御救いの業に尽くさせて頂きとうございます。<br/><br/>何卒今後共御守護の程御願い申し上げます。<br/><br/> （昭和二十七年八月十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

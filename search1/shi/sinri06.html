@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinri06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理を説く 『救世』58号、昭和25(1950)年4月15日発行 私の唱える説のほとんどは、どこかに今までと異（ちが）った意味が含まれている事を認めない訳にはゆくまい、というのは今迄唱えられて来たあらゆる説は世に知れ亘り、今更新しく書く必要はないからである、今日何程巧妙に説いてみても、それは畢竟（ひっきょう）同じ説の焼直しに過ぎない以上、徒労以外の何物でもあるまい。<br><br> なるほど、古くから幾多の聖賢や偉人が輩出しては立派な教や説を唱え、人類に稗益した功績はいかに高く評価しても差支えないが、さらばといって世界の進歩につれてその有用価値が薄れてゆくのもまた止むを得ない現実であろう、とすれば今日以後の時代に役立つべき新しい説が生まれなければならない、言うまでもなく現代人が切実に要望するところのものはこれである。<br><br> なるほど既成宗教の教説なども、その当時の民族には極めて大きい価値があった事はもちろんであり、その内容においてもその時の人間の文化程度に適応したものには違いなかったであろうが、長い年月を経た今日、大衆にアッピールする力のありようはずがないのは事実がよく物語っている、しかも大抵の宗教は中途において、幾人かの学者や賢哲がその時代に適応すべく改竄（かいざん）し歪（ゆが）められた点も相当あるにはある、かような訳で、現存せる宗教自体、現世を救うべき力の大半は失われてしまったといってもよかろう、しかも問題は古典や文献の難解な点である、宗教とさえいえば一人の開祖の説でありながら各宗各派に分れ、中には宗教争いさえ絶えないものもあるのであるから、真に大衆に安心立命を与える力などは、木によって魚を求むるの感なくんば非ずである。<br><br> 元来宗教の本質は真理の具現であってみれば、真理を解く事によって人間の精神的改造が何よりも重要事である、従って他の事業例えば社会事業のごときは派生的のものであるに極わらず、それが宗教本来であるように思われて来たのは全く宗教認識に欠陥があるのである、しからば真理とは何ぞやという事でこの徹底がなければならないが実をいうと真理ほど簡単で判りやすいものはないのである、ゆえに難解なややこしいものほど実は真理に遠ざかっていると見るべきである、たとえば真理とは東から太陽が出て西へ沈み、人間が空気を吸って飯を食い糞を垂れるというのと同じである、それをどう間違えたのか昔から真理を非常に難しく考えられて来たがそれは理由がある、すなわちその見真実者が現れなかったからで、それというのも根本は夜の世界であったからである。<br><br> 私は四十幾歳の時、重大使命を神から命ぜられると共に、何人も到達し得なかった見真実の境地にまで上ったのである、もちろんその境地にあって一切を眺める時、現代文化の余りに誤謬の多い事に気が付く、従って一切を明々白々に晒（さら）け出し全人類の一大啓蒙こそ救いの根本であらねばならない、この意味において私の唱える事も行う事も、今までのそれとは余りに異っており、万事型破り的なものばかりである、見らるる通りいかに深遠微妙なる真理といえども、いとも平易簡単に解明する、いかなる学者にも非学者にも理解され得るように説くのである、しかしここに困る事は、私が説くところの真理は長い間非真理を真理と錯覚し、固く守られて来た人達の眼には非真理に誤解されやすい事であるが、これも過渡期の一時的現象としてまたやむを得ないところであろう、しかし真理はどこまでも真理である以上、時の進むに従って漸次理解されるのは当然で、それが真理の真理たるゆえんでもある、何よりも本教教線が、前例を見ない程の発展ぶりが、それをよく物語っているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Elucidação da Verdade</h2>
 <p>É imperativo reconhecer que a quase totalidade de minhas teses encerra um significado distinto de tudo o que foi postulado até hoje. Afinal, as doutrinas já existentes são amplamente conhecidas, e não haveria propósito em reiterá-las. Por mais eloquente que fosse a exposição, se se limitasse a reformular os mesmos conceitos, não passaria de um labor infrutífero.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Os preceitos das religiões estabelecidas, por exemplo, possuíram sem dúvida um valor imenso para os povos de suas respectivas épocas, e seu conteúdo era certamente adequado ao nível cultural de então. Contudo, transcorridos tantos séculos, os fatos demonstram que elas já não possuem força para causar ressonância junto às massas. Ademais, muitas dessas religiões, em seu percurso histórico, foram consideravelmente adulteradas e desvirtuadas por eruditos e filósofos que tentaram adaptá-las aos seus tempos. Por tais razões, pode-se afirmar que as religiões existentes perderam a maior parte de seu poder para salvar o mundo atual. O problema agrava-se com a complexidade de seus textos clássicos e escrituras. Embora se originem dos ensinamentos de um único fundador, dividem-se em inúmeras escolas e seitas, algumas das quais vivem em perpétuo conflito. Diante desse quadro, a capacidade de verdadeiramente conferir às pessoas paz de espírito e um propósito de vida se assemelha a uma busca por peixes em árvores.</p>
 <p>Em sua essência, a religião deveria ser a materialização da Verdade, tendo como principal desígnio a reforma do espírito humano por meio de sua elucidação. Outras atividades, como as obras sociais, por exemplo, são meramente secundárias. A percepção de que estas constituem a atividade precípua da religião revela uma falha fundamental em sua compreensão. Sendo assim, é crucial investigar a fundo o que é a Verdade. Na realidade, não existe nada mais simples e de fácil compreensão. Portanto, quanto mais intrincado e hermético for um ensinamento, mais distante ele estará da Verdade. A Verdade é tão evidente quanto o Sol que nasce no leste e se põe no oeste, ou como o ser humano que respira, alimenta-se e expele seus dejetos. Por algum equívoco histórico, contudo, a Verdade passou a ser considerada algo extremamente complexo. Existe uma razão para isso: a ausência de alguém que a enxergasse em sua plenitude. E a causa primordial dessa ausência é que o mundo vivia na Era da Noite.</p>
 <p>Aos quarenta e poucos anos, recebi de Deus uma missão de suma importância e, com ela, ascendi a um estado de percepção da Verdade que ninguém jamais havia alcançado. Naturalmente, ao observar todas as coisas a partir dessa perspectiva, percebi quão repleta de equívocos está a cultura moderna. Portanto, a base da salvação consiste em desvelar tudo com absoluta clareza, promovendo a grande iluminação de toda a humanidade. É por essa razão que tanto minhas palavras quanto minhas ações divergem radicalmente de tudo o que existiu até hoje, rompendo com todos os moldes. Como se pode constatar, eu elucido a Verdade, por mais profunda e sutil que seja, de maneira extremamente simples e acessível. Meus ensinamentos são expostos de forma que possam ser compreendidos tanto por eruditos quanto por leigos. Surge aqui, contudo, uma dificuldade: para aqueles que, por longo tempo, se apegaram à não-verdade, confundindo-a com a Verdade, meus postulados podem ser facilmente mal interpretados como falsos. Este, porém, é um fenômeno transitório, característico de um período de transição, e, como tal, inevitável. Todavia, a Verdade será sempre a Verdade. É natural, pois, que ela seja gradualmente compreendida com o passar do tempo – nisso reside a sua própria natureza. Acima de tudo, a prova mais eloquente disso é o crescimento sem precedentes de nossa Igreja, um fato que fala por si.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理を説く 『救世』58号、昭和25(1950)年4月15日発行 私の唱える説のほとんどは、どこかに今までと異（ちが）った意味が含まれている事を認めない訳にはゆくまい、というのは今迄唱えられて来たあらゆる説は世に知れ亘り、今更新しく書く必要はないからである、今日何程巧妙に説いてみても、それは畢竟（ひっきょう）同じ説の焼直しに過ぎない以上、徒労以外の何物でもあるまい。<br/><br/> なるほど、古くから幾多の聖賢や偉人が輩出しては立派な教や説を唱え、人類に稗益した功績はいかに高く評価しても差支えないが、さらばといって世界の進歩につれてその有用価値が薄れてゆくのもまた止むを得ない現実であろう、とすれば今日以後の時代に役立つべき新しい説が生まれなければならない、言うまでもなく現代人が切実に要望するところのものはこれである。<br/><br/> なるほど既成宗教の教説なども、その当時の民族には極めて大きい価値があった事はもちろんであり、その内容においてもその時の人間の文化程度に適応したものには違いなかったであろうが、長い年月を経た今日、大衆にアッピールする力のありようはずがないのは事実がよく物語っている、しかも大抵の宗教は中途において、幾人かの学者や賢哲がその時代に適応すべく改竄（かいざん）し歪（ゆが）められた点も相当あるにはある、かような訳で、現存せる宗教自体、現世を救うべき力の大半は失われてしまったといってもよかろう、しかも問題は古典や文献の難解な点である、宗教とさえいえば一人の開祖の説でありながら各宗各派に分れ、中には宗教争いさえ絶えないものもあるのであるから、真に大衆に安心立命を与える力などは、木によって魚を求むるの感なくんば非ずである。<br/><br/> 元来宗教の本質は真理の具現であってみれば、真理を解く事によって人間の精神的改造が何よりも重要事である、従って他の事業例えば社会事業のごときは派生的のものであるに極わらず、それが宗教本来であるように思われて来たのは全く宗教認識に欠陥があるのである、しからば真理とは何ぞやという事でこの徹底がなければならないが実をいうと真理ほど簡単で判りやすいものはないのである、ゆえに難解なややこしいものほど実は真理に遠ざかっていると見るべきである、たとえば真理とは東から太陽が出て西へ沈み、人間が空気を吸って飯を食い糞を垂れるというのと同じである、それをどう間違えたのか昔から真理を非常に難しく考えられて来たがそれは理由がある、すなわちその見真実者が現れなかったからで、それというのも根本は夜の世界であったからである。<br/><br/> 私は四十幾歳の時、重大使命を神から命ぜられると共に、何人も到達し得なかった見真実の境地にまで上ったのである、もちろんその境地にあって一切を眺める時、現代文化の余りに誤謬の多い事に気が付く、従って一切を明々白々に晒（さら）け出し全人類の一大啓蒙こそ救いの根本であらねばならない、この意味において私の唱える事も行う事も、今までのそれとは余りに異っており、万事型破り的なものばかりである、見らるる通りいかに深遠微妙なる真理といえども、いとも平易簡単に解明する、いかなる学者にも非学者にも理解され得るように説くのである、しかしここに困る事は、私が説くところの真理は長い間非真理を真理と錯覚し、固く守られて来た人達の眼には非真理に誤解されやすい事であるが、これも過渡期の一時的現象としてまたやむを得ないところであろう、しかし真理はどこまでも真理である以上、時の進むに従って漸次理解されるのは当然で、それが真理の真理たるゆえんでもある、何よりも本教教線が、前例を見ない程の発展ぶりが、それをよく物語っているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

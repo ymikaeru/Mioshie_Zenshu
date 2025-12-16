@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（六） 安食晴彦 『栄光』221号、昭和28(1953)年8月12日発行 次第に社会的に問題化される救世教 長らく御無音に打過ぎ誠に申訳ありません。<br><br>前の御報告をお出ししてよりはや一カ月あまりになると存じます。<br><br> 御聞き及びのことと存じますが、支部移転の問題や当布哇（ハワイ）教会設立問題等の諸問題に、この一カ月は多忙を極め御報告が遅延致しました次第です。<br><br>当地よりの報告、明主様は勿体なきことながら、皆様も御待ちかねのことと存じましたが、何とぞお許しのほどお願い申し上げます。<br><br> この一週間のうちに、なんとか、組織のことも目鼻がついて参りました。<br><br> 布哇に賛否両論 ◎布哇の人心、又指導階級の救世教に対する目は『今まで当地に「オドル神様」はじめ幾多のインチキ宗教並びに治療が来て、一時ははやり物の様にはやり、しばらくしてはコッソリと蔭をひそめて行く』前例と同様に救世教を目しているため、諸論ヒンピンと耳にはいり一刻も早く組織をと、それのみに頭をつかって参った次第です。<br><br>樋口先生の御苦心は全く通り一遍のものではなく、人類救済の成否を荷負う大任にひたすら明主様に念じられつつ今日に至りました。<br><br>しかしやはりお任せする心境になり切っておられる先生に私も安心して従って行く事ができることは本当の喜びです。<br><br> 新聞の社説に悪口（後記）ラジオでは救世教の実体を知らせてほしいとか、又は巷の賛否両論の声を聞くにつけ、一つの大きなウズが、今にも龍巻になって立ちのぼらんとする感があります。<br><br>その中にあってともかくも法律的に又社会的にしっかりとした、非の打所のない組織と地盤を持ったものを築き上げるベく地道に石橋をたたくように、そしてコッソリと布教に専念いたしております。<br><br>大きな問題として社会の取り上げる時期を待ちつつ、とにかく基礎確立をと念じております。<br><br> 神慮の深遠さ ＠樋口先生よりも御報告のことと存じますが、計理士の方も大変うまく行き（計理士の妻が長年の病が先生の一度の浄霊にてなおる）心から積極的な協力をしてくれる人が与えられ、神慮の深遠さにただ驚嘆しております。<br><br>ただ今先生は書類を持って弁護士の所へ具体的な組織を依頼に出かけられました。<br><br>組織の認可は最後に検事局で決定するそうですが、如何なりますか、世論に大分問題されて来た今日、ひたすら順調な進行を念ずるのみであります。<br><br> 救世教「ピクニック」に五三二名集る ◎五月三十一日の日曜日は救世教の「ピクニック」をいたしました。<br><br>これはハワイ独特のもので、政府が、一面の広い芝生と、小さな林、叢（くさむら）を持った公園をかしてくれ、そこで老若男女、童心にかえって、運動会、遊戯、福引等に一日を楽しく過します。<br><br>六十歳のおばあさんまでが歌をうたい、競走をして全くたのしい一日でした。<br><br> 信者がたがいに近所知人を誘い合わせて集ります。<br><br>しかし信者が主で後は殆んど浄霊を受けた者が多く、全部で五三二名の方々が集まられました。<br><br>三カ月でこれだけの方々が集まられるようになりましたことは驚嘆いたしましたが、一つに明主様の御光のおかげと喜びの一日を楽しく過しました。<br><br> 順調なる発展 ◎樋口先生が七月半ロスヘ行かれるまでに、オアフ島のワヒアワ、ホノルル、アイニアと各地で教修会が開かれます。<br><br>御浄霊は日に日に増えるばかりにて、このたび熱心な方が出張所を開かれるようになり、六月十五日の大きな変り目を境にして開所なさる事となりました。<br><br>いろいろと当地の布教状況、感想もお書きいたしたいのですが時間がなきためこれにて終らせて頂きます。<br><br>参考のために「ハワイ・タイムズ社」並びに「ハワイ報知社」掲載の救世教に関する記事を抜粋いたします。<br><br> ◇ハワイ・タイ厶ズ社◇ （二八・六・六） ホノルルには今日本で問題となっている世界救世教なるものの仮支部があり、去る三月以来その宣伝者男女二人が来ており、余り目立たぬように、市内及び各島に働きかけている。<br><br> 病気治療と生霊、死霊への浄霊を名義として、前者は一回一弗（ドル）、後者は二十五弗を徴しているが、なかなか繁昌しているとのことである。<br><br>こういうものの存在が、当地の日系人社会はもとより一般米人社会にも、如何なる影響を与えつつあるかは少しく心ある者の何人でも想像し得ることである。<br><br> 不思議なことは、そういう事実に直面し、その内状に通じている筈の当地日系人社会に余り問題視せられていないことである。<br><br>その中には憎まれ者とならぬよう沈黙している者、大分磁石にかかってフラついてる者、事勿れ主義で頬冠りしている者がいる。<br><br>丁度勝った組華やかなりし当時と同じことで困ったことだと思う。<br><br> いつかも書いたことであるが、一体わが外務省は、何故こういう連中に旅券を許可するのだろう。<br><br>スポンサーの保証さえあれば、どんな者にも旅券を発給せねばならぬということは、ない筈である。<br><br>もしあるとすればそれはよろしく改正すべきである。<br><br>今度サンフランシスコに開催される北米領事官会議などには、当然こういう問題が提議さるべきであると信ずる。<br><br> 以上 ◇ハワイ報知社◇ （二八・六・六） ▲何とか彼とか悪口をいわれながらも救世教はお盛んなようだ。<br><br>デート街の布教所？には朝七時前から信者がおしかけてヤードで待っている。<br><br>信じられるには信じられるだけの理由があるに違いない。<br><br>無碍にケナスのは考え物だ。<br><br> （食わず嫌い生）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatório da Missão no Havaí: Entre Provações e Milagres</h2>
 <p>Peço-lhes as mais sinceras desculpas por este longo período sem notícias, pois já transcorreu mais de um mês desde meu último comunicado. Como é de vosso conhecimento, o mês que passou foi de uma atividade intensa, absorvido que estive por diversas questões prementes, como a transferência de nossa Sede e o processo de estabelecimento da Igreja aqui no Havaí, o que ocasionou o atraso deste relatório. Ciente de que os senhores, e com o mais profundo sentimento de reverência, o próprio Meishu-Sama, aguardavam ansiosamente por notícias de nossa missão, rogo-lhes que me perdoem por esta demora.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>◇ <strong>Jornal Hawaii Hochi</strong> (06/06/1953)</p>
 <p>Apesar de todas as críticas, a Sekaikyuseikyou parece prosperar. Em seu local de difusão na Rua Date, os fiéis se aglomeram no pátio desde antes das sete da manhã. Se as pessoas acreditam, deve haver uma razão para tal. Criticá-los sem conhecer é, no mínimo, precipitado.</p>
 <p><em>(Assinado: um cético curioso)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（六） 安食晴彦 『栄光』221号、昭和28(1953)年8月12日発行 次第に社会的に問題化される救世教 長らく御無音に打過ぎ誠に申訳ありません。<br/><br/>前の御報告をお出ししてよりはや一カ月あまりになると存じます。<br/><br/> 御聞き及びのことと存じますが、支部移転の問題や当布哇（ハワイ）教会設立問題等の諸問題に、この一カ月は多忙を極め御報告が遅延致しました次第です。<br/><br/>当地よりの報告、明主様は勿体なきことながら、皆様も御待ちかねのことと存じましたが、何とぞお許しのほどお願い申し上げます。<br/><br/> この一週間のうちに、なんとか、組織のことも目鼻がついて参りました。<br/><br/> 布哇に賛否両論 ◎布哇の人心、又指導階級の救世教に対する目は『今まで当地に「オドル神様」はじめ幾多のインチキ宗教並びに治療が来て、一時ははやり物の様にはやり、しばらくしてはコッソリと蔭をひそめて行く』前例と同様に救世教を目しているため、諸論ヒンピンと耳にはいり一刻も早く組織をと、それのみに頭をつかって参った次第です。<br/><br/>樋口先生の御苦心は全く通り一遍のものではなく、人類救済の成否を荷負う大任にひたすら明主様に念じられつつ今日に至りました。<br/><br/>しかしやはりお任せする心境になり切っておられる先生に私も安心して従って行く事ができることは本当の喜びです。<br/><br/> 新聞の社説に悪口（後記）ラジオでは救世教の実体を知らせてほしいとか、又は巷の賛否両論の声を聞くにつけ、一つの大きなウズが、今にも龍巻になって立ちのぼらんとする感があります。<br/><br/>その中にあってともかくも法律的に又社会的にしっかりとした、非の打所のない組織と地盤を持ったものを築き上げるベく地道に石橋をたたくように、そしてコッソリと布教に専念いたしております。<br/><br/>大きな問題として社会の取り上げる時期を待ちつつ、とにかく基礎確立をと念じております。<br/><br/> 神慮の深遠さ ＠樋口先生よりも御報告のことと存じますが、計理士の方も大変うまく行き（計理士の妻が長年の病が先生の一度の浄霊にてなおる）心から積極的な協力をしてくれる人が与えられ、神慮の深遠さにただ驚嘆しております。<br/><br/>ただ今先生は書類を持って弁護士の所へ具体的な組織を依頼に出かけられました。<br/><br/>組織の認可は最後に検事局で決定するそうですが、如何なりますか、世論に大分問題されて来た今日、ひたすら順調な進行を念ずるのみであります。<br/><br/> 救世教「ピクニック」に五三二名集る ◎五月三十一日の日曜日は救世教の「ピクニック」をいたしました。<br/><br/>これはハワイ独特のもので、政府が、一面の広い芝生と、小さな林、叢（くさむら）を持った公園をかしてくれ、そこで老若男女、童心にかえって、運動会、遊戯、福引等に一日を楽しく過します。<br/><br/>六十歳のおばあさんまでが歌をうたい、競走をして全くたのしい一日でした。<br/><br/> 信者がたがいに近所知人を誘い合わせて集ります。<br/><br/>しかし信者が主で後は殆んど浄霊を受けた者が多く、全部で五三二名の方々が集まられました。<br/><br/>三カ月でこれだけの方々が集まられるようになりましたことは驚嘆いたしましたが、一つに明主様の御光のおかげと喜びの一日を楽しく過しました。<br/><br/> 順調なる発展 ◎樋口先生が七月半ロスヘ行かれるまでに、オアフ島のワヒアワ、ホノルル、アイニアと各地で教修会が開かれます。<br/><br/>御浄霊は日に日に増えるばかりにて、このたび熱心な方が出張所を開かれるようになり、六月十五日の大きな変り目を境にして開所なさる事となりました。<br/><br/>いろいろと当地の布教状況、感想もお書きいたしたいのですが時間がなきためこれにて終らせて頂きます。<br/><br/>参考のために「ハワイ・タイムズ社」並びに「ハワイ報知社」掲載の救世教に関する記事を抜粋いたします。<br/><br/> ◇ハワイ・タイ厶ズ社◇ （二八・六・六） ホノルルには今日本で問題となっている世界救世教なるものの仮支部があり、去る三月以来その宣伝者男女二人が来ており、余り目立たぬように、市内及び各島に働きかけている。<br/><br/> 病気治療と生霊、死霊への浄霊を名義として、前者は一回一弗（ドル）、後者は二十五弗を徴しているが、なかなか繁昌しているとのことである。<br/><br/>こういうものの存在が、当地の日系人社会はもとより一般米人社会にも、如何なる影響を与えつつあるかは少しく心ある者の何人でも想像し得ることである。<br/><br/> 不思議なことは、そういう事実に直面し、その内状に通じている筈の当地日系人社会に余り問題視せられていないことである。<br/><br/>その中には憎まれ者とならぬよう沈黙している者、大分磁石にかかってフラついてる者、事勿れ主義で頬冠りしている者がいる。<br/><br/>丁度勝った組華やかなりし当時と同じことで困ったことだと思う。<br/><br/> いつかも書いたことであるが、一体わが外務省は、何故こういう連中に旅券を許可するのだろう。<br/><br/>スポンサーの保証さえあれば、どんな者にも旅券を発給せねばならぬということは、ない筈である。<br/><br/>もしあるとすればそれはよろしく改正すべきである。<br/><br/>今度サンフランシスコに開催される北米領事官会議などには、当然こういう問題が提議さるべきであると信ずる。<br/><br/> 以上 ◇ハワイ報知社◇ （二八・六・六） ▲何とか彼とか悪口をいわれながらも救世教はお盛んなようだ。<br/><br/>デート街の布教所？には朝七時前から信者がおしかけてヤードで待っている。<br/><br/>信じられるには信じられるだけの理由があるに違いない。<br/><br/>無碍にケナスのは考え物だ。<br/><br/> （食わず嫌い生）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

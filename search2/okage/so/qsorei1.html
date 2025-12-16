@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsorei1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 祖霊の戒告 お守り様のお箱の上の位牌に立腹 『栄光』156号、昭和27(1952)年5月14日発行 大分県 如意輪中教会 古村信子（29） 私は昭和二十五年十二月に入信した者でございます。<br><br>この度戴きました御守護の一端を御報告さして頂きます。<br><br>昭和二十六年二月二十二日家の例祭を済ませた翌朝の事でございました。<br><br>中教会からちょっとお寄り下さった池辺先生に、胸の辺りが苦しいので御浄霊を御願いし、十分程で汽車が来ましたので私も左程の事もありませず、すぐ御帰りになりました。<br><br>帰られまして三十分位すると突如吐気を催し、沢山の生つばのようなものが出ました。<br><br>それから全身がだるくなり、腹部が猛烈に痛くなり、居ても立ってもいられなくなりました。<br><br>五分か十分毎に出産の際の陣痛のような痛みがおそって来ました。<br><br>初めは食当りでもしたのではないかと軽々しく考えていましたが、翌日になっても依然として痛み続け、堪えられなくなりましたので、中教会へ自動車にて連れて行って貰い、牧先生奥様より御浄霊を戴きました。<br><br> 丁度長女治子（五歳）も麻疹がはっきりせず、肺炎になりかけていましたので非常に苦しがり御浄霊を戴き楽にして頂きました。<br><br>四日目に会長先生の奥様が態々お出で下さいまして私の浄化につき「何か霊的な事があるのでしょう、あなたが人工流産された水子の位牌をお造りなさい」とおっしゃられまして、私もその日便所に行ってのかえり、廊下で急に頭から引張られるような感じがしてクラクラと目まいがして倒れ、意識不明となりましたので、不図あの子供が知らしているのかも知れないと思っていた矢先でしたので、早速位牌を造る事を心に決めました。<br><br>すると不思議にも四日間痛み通した腹痛と全身のけだるさはスーッと軽くなり、四日目に初めて夕食を頂きました。<br><br>奥様より治子と共に御浄霊を戴きましてその晩はよく眠りましたが、翌日になりますと前にも増して痛み出し、四、五分問おきに下腹をえぐるように痛み、全身がフラフラとしてだるく、今迄に味わった事のない苦しみでございました。<br><br>仰向いていると腹痛がひどく、うつ伏していると腰が痛く頭が重くて起きれないのでした。<br><br>お産の時以上の苦しみでございました。<br><br> お見舞に来て下さる方々には何とかして医者に連れて行こうとして下さる方もあり「もしもの事があったら」と主人に忠告をして下さる方も沢山ありましたそうですが、ただ光明如来様にお縋りする私達は最後迄お縋りすればきっとお守護頂ける事を信じていました。<br><br>毎日の激痛に心身共に疲れました。<br><br>丁度一週間目の二十八日中教会の奥様にお出で下さるようお隣りの阿部さんの奥様（信者）に電話をお願いしました。<br><br>その間主人が床を片付けるからと掃除をしている間別の部屋で座っていますと、何かしら気分がよくなり、阿部さんが帰って来て下さった時には笑声も立てて話せるようになり、奥様が来て下さいまして「今来る途中何かしら胸が苦しくなり、何か霊的に知らせて来たのではないかと思います」とおっしゃって、すぐ光明如来様に天津祝詞を奏げられてお願いして下さいました。<br><br>そして仏壇の方を御覧になり「ああこれで分りました。<br><br>もう楽になりますよ」とおっしゃって下さり、吃驚しました。<br><br> それは仏壇のお位牌の下に、最初私が戴きましたお守様を桐箱に入れて置いてあったのでございます。<br><br>それから嘘のように元気になり、一週間痛み続けた腹痛もよくなり、食事も沢山頂け、本当に生れ変ったように元気にして頂きました。<br><br>後で分ったのですが、よくなる朝の二時頃に急に胸が苦しくなり、沢山の青いにがい薬のようなものを下腹からつき上げて吐きました。<br><br>それから下腹が楽になったようでございました。<br><br>奥様からお聞きして分らせて頂いたのですが、私の下腹にある薬毒に祖霊が憑って来たのだろうとの事でございました。<br><br>お隣りの奥様に電話をお願いすると同時に私の体が楽になったのでございました。<br><br>再度の祖霊の知らせにいかに霊の偉大なるかを分らせて頂きました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Admoestação dos Espíritos Ancestrais: A ira pelo ihai (位牌) colocado sobre a caixa do Sagrado Ponto de Luz</h2>
 <p><em>Revista Eiko, nº 156, publicado em 14 de maio de 1952</em></p>
@@ -100,5 +255,48 @@ function toggleLang(lang) {
 <p>No dia 28, completada exatamente uma semana de sofrimento, pedi à minha vizinha, a senhora Abe, que também é membro, que telefonasse à esposa do ministro e lhe rogasse que viesse à minha casa. Enquanto meu marido arrumava o quarto, sentei-me em outro cômodo e, inexplicavelmente, comecei a me sentir melhor. Quando a senhora Abe retornou, eu já conseguia conversar e até mesmo sorrir. Logo em seguida, a esposa do ministro chegou e disse: "No caminho para cá, senti um aperto súbito no peito. Creio que foi um aviso do Mundo Espiritual". Imediatamente, ela se dirigiu a Komyô Nyorai-Sama, entoou a oração Amatsu-Norito e intercedeu por mim. Depois, ao volver seu olhar para o oratório da família, exclamou, para minha surpresa: "Ah, agora compreendi a causa. Fique tranquila, pois o alívio virá".</p>
 <p>A razão de tudo era que, sob o ihai (位牌) de nossos ancestrais no oratório, eu havia colocado a caixa de madeira que continha o Sagrado Ponto de Luz que recebera ao ingressar na fé. A partir daquele momento, como por milagre, recuperei minhas forças. A dor abdominal que me atormentara por uma semana cessou, meu apetite retornou e senti-me verdadeiramente renascida. Posteriormente, recordei-me de que, por volta das duas horas da madrugada daquele mesmo dia, senti uma forte opressão no peito e vomitei uma grande quantidade de uma substância azulada e amarga, como um remédio, que parecia subir do fundo do meu abdômen. Após esse evento, a dor na região diminuiu consideravelmente.</p>
 <p>A esposa do ministro esclareceu-me que, provavelmente, um espírito ancestral havia se manifestado através do yakudoku (薬毒) acumulado em meu baixo-ventre para me alertar. O alívio em meu corpo coincidiu exatamente com o momento em que pedi à minha vizinha que fizesse a ligação. Essa segunda advertência dos antepassados fez-me compreender a grandiosidade do Mundo Espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 祖霊の戒告 お守り様のお箱の上の位牌に立腹 『栄光』156号、昭和27(1952)年5月14日発行 大分県 如意輪中教会 古村信子（29） 私は昭和二十五年十二月に入信した者でございます。<br/><br/>この度戴きました御守護の一端を御報告さして頂きます。<br/><br/>昭和二十六年二月二十二日家の例祭を済ませた翌朝の事でございました。<br/><br/>中教会からちょっとお寄り下さった池辺先生に、胸の辺りが苦しいので御浄霊を御願いし、十分程で汽車が来ましたので私も左程の事もありませず、すぐ御帰りになりました。<br/><br/>帰られまして三十分位すると突如吐気を催し、沢山の生つばのようなものが出ました。<br/><br/>それから全身がだるくなり、腹部が猛烈に痛くなり、居ても立ってもいられなくなりました。<br/><br/>五分か十分毎に出産の際の陣痛のような痛みがおそって来ました。<br/><br/>初めは食当りでもしたのではないかと軽々しく考えていましたが、翌日になっても依然として痛み続け、堪えられなくなりましたので、中教会へ自動車にて連れて行って貰い、牧先生奥様より御浄霊を戴きました。<br/><br/> 丁度長女治子（五歳）も麻疹がはっきりせず、肺炎になりかけていましたので非常に苦しがり御浄霊を戴き楽にして頂きました。<br/><br/>四日目に会長先生の奥様が態々お出で下さいまして私の浄化につき「何か霊的な事があるのでしょう、あなたが人工流産された水子の位牌をお造りなさい」とおっしゃられまして、私もその日便所に行ってのかえり、廊下で急に頭から引張られるような感じがしてクラクラと目まいがして倒れ、意識不明となりましたので、不図あの子供が知らしているのかも知れないと思っていた矢先でしたので、早速位牌を造る事を心に決めました。<br/><br/>すると不思議にも四日間痛み通した腹痛と全身のけだるさはスーッと軽くなり、四日目に初めて夕食を頂きました。<br/><br/>奥様より治子と共に御浄霊を戴きましてその晩はよく眠りましたが、翌日になりますと前にも増して痛み出し、四、五分問おきに下腹をえぐるように痛み、全身がフラフラとしてだるく、今迄に味わった事のない苦しみでございました。<br/><br/>仰向いていると腹痛がひどく、うつ伏していると腰が痛く頭が重くて起きれないのでした。<br/><br/>お産の時以上の苦しみでございました。<br/><br/> お見舞に来て下さる方々には何とかして医者に連れて行こうとして下さる方もあり「もしもの事があったら」と主人に忠告をして下さる方も沢山ありましたそうですが、ただ光明如来様にお縋りする私達は最後迄お縋りすればきっとお守護頂ける事を信じていました。<br/><br/>毎日の激痛に心身共に疲れました。<br/><br/>丁度一週間目の二十八日中教会の奥様にお出で下さるようお隣りの阿部さんの奥様（信者）に電話をお願いしました。<br/><br/>その間主人が床を片付けるからと掃除をしている間別の部屋で座っていますと、何かしら気分がよくなり、阿部さんが帰って来て下さった時には笑声も立てて話せるようになり、奥様が来て下さいまして「今来る途中何かしら胸が苦しくなり、何か霊的に知らせて来たのではないかと思います」とおっしゃって、すぐ光明如来様に天津祝詞を奏げられてお願いして下さいました。<br/><br/>そして仏壇の方を御覧になり「ああこれで分りました。<br/><br/>もう楽になりますよ」とおっしゃって下さり、吃驚しました。<br/><br/> それは仏壇のお位牌の下に、最初私が戴きましたお守様を桐箱に入れて置いてあったのでございます。<br/><br/>それから嘘のように元気になり、一週間痛み続けた腹痛もよくなり、食事も沢山頂け、本当に生れ変ったように元気にして頂きました。<br/><br/>後で分ったのですが、よくなる朝の二時頃に急に胸が苦しくなり、沢山の青いにがい薬のようなものを下腹からつき上げて吐きました。<br/><br/>それから下腹が楽になったようでございました。<br/><br/>奥様からお聞きして分らせて頂いたのですが、私の下腹にある薬毒に祖霊が憑って来たのだろうとの事でございました。<br/><br/>お隣りの奥様に電話をお願いすると同時に私の体が楽になったのでございました。<br/><br/>再度の祖霊の知らせにいかに霊の偉大なるかを分らせて頂きました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

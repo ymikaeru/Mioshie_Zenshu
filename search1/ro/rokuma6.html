@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rokuma6</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肋膜炎及び腹膜炎 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 肋膜炎及び腹膜炎も相当多い病気である。<br><br>先づ肋膜炎から説いてみよう。<br><br>此病気は医学では三種に別けられてゐる。<br><br>湿性肋膜炎、化膿性肋膜炎、乾性肋膜炎である。<br><br>元来肋膜炎は、肺臓を包んでゐる膜と膜との間隙に空虚が出来、そこへ水即ち尿が溜るのを湿性肋膜炎といひ、膿が溜るのを化膿性肋膜炎といひ、間隙だけで、水も膿も溜らないのを乾性肋膜炎といふのである。<br><br>此病気の原因は自発的と他発的とあつて、他発的とは例へば胸部又は背部の打撲又は力業、器械体操の如き労作等によつて多く起るのである。<br><br>自発的には何等の原因もなしに発生するのである。<br><br> そうして、湿性の原因は、他発的にせよ、自発的にせよ腎臓萎縮による余剰尿が集溜する為である。<br><br>そうして湿性は医療に於ては利尿剤の服用、及び穿孔によつて排水するのであるが、利尿剤は逆作用が起つて、多くは経過不良である。<br><br>何れかといへば、穿孔排水の方が経過が良好である。<br><br>然し、一旦治癒しても残存尿結のため再発し易いのである。<br><br> 次に、化膿性の原因は、脊髄カリヱスと殆んど同様であつて、脊髄から膿が肋膜へ浸潤滞溜するので、その膿量は割合多量であつて悪性に至つては、医療は穿孔排膿を行ひ、数ケ月又はそれ以上に亘つて、毎日相当量の排膿があるのである。<br><br>然し乍ら、最初からの化膿性もあるが、湿性が長時日を経て化膿し、化膿性肋膜炎になる事もある。<br><br>そうして無穿孔にて安静療法を行ふ医師もあるが、其場合時日を経るに従つて化膿は漸次固結し、胸部は板を張りたる如くになり、此症状を診て医家によつては、肺が腐敗して無くなつたといふが、之は誤りも甚だしいのである。<br><br>そうして斯ういふ症状は、大抵は左右いづれかの肺部であつて、膿結した方の肺は、呼吸が不能で静止してゐるから、健全肺の方が二倍の活動をせねばならぬので、自然呼吸が大きく、困難である。<br><br>此際背部から視る時、一方の肺は不動で、一方は強動であるからよく判るのである。<br><br>然るに不動の方の膿結溶解を行ふや膿は喀痰となつて、旺んに排泄し始め、徐々として呼吸を営み始めるのである。<br><br>之によつてみても肺が腐敗して無くなつたのではない事を知るであらう。<br><br>以前、両肺が腐つて駄目だといはれた患者を、私の弟子が治療し、今は全治し、健康で活動しつつあるといふ事実もある。<br><br>そうして化膿性は、医療では殆んど不治のやうである。<br><br> 然るに、湿性にしろ、化膿性にしろ、発病するや、医療を受けず放任するに於ては、自然浄化によつて溜尿及び膿は喀痰となつて排泄され、大抵は根治するのである。<br><br> 次に、湿性は最も多く、化膿性は次で、乾性肋膜は極稀で、普通乾性肋膜炎と診断された患者は、私の経験によれば殆んど肋間神経痛を誤診されたのである。<br><br> 爰で、肋間神経痛に就て説く必要があるが此病気は非常に軽重があるのである。<br><br>そうして肋膜炎と誤られ易いのも特徴である。<br><br>重症は呼吸すらも痛みに堪えかねる位である。<br><br>これも放任しておけば、発熱と喀痰によつて、全治するのであるが、医療は湿布、氷冷、注射等の凡ゆる固め療法を行ふから、一時治癒しても必ず再発するのである。<br><br> そうして、右に述べた三種の肋膜炎及び肋間神経痛の症状としては、深呼吸をすれば、痛みのある事と、息苦しいのが特徴で、其他盗汗、多睡眠、眩暈等がある。<br><br> 次に腹膜炎は肋膜炎とよく似てゐる病気で、やはり湿性と、化膿性の二種あるが、乾性はないのである。<br><br>湿性は、腹膜に尿が溜るのであるが、之も利尿剤を用ふる時は、既存療法中にある如く、漸次悪性となり、而も穿孔排水療法を行ふに至つては、その逆効果が甚だしく、一回、一回より悪性となり、且つ膨満は弥々甚だしく、遂には、臨月の腹部よりも膨大するものである。<br><br>無論斯うなれば生命は失いのである。<br><br> 次に、化膿性は腹部が余り膨大せず、寧ろ固結性であるから、一見普通の腹部と思はれるので、医診に於ては、相当重症であつても発見出来得ない事がある。<br><br>故に化膿性腹膜を肺結核と誤診さるる事さへあり、全く、事実とは思はれない程であるが、私は屡々経験して、愕（おどろ）いてゐるのである。<br><br>尤も、化膿性腹膜に浄化作用が起つた場合、其症状が、発熱、咳嗽、吐痰、食欲不振、衰弱、羸痩（るいそう）等であるから、肺結核と誤るのも或は無理はないかも知れないが、患者は不幸なものであると共に、医学の診断法を改善したいものである。<br><br>従而、斯ういふ患者を私は、腹膜と腎臓のみを治療するに於て、肺結核が全治した例を、屡々経験したのである。<br><br> そうして、此化膿性腹膜は、誰もが多少とも必ずといひたい程あるのである。<br><br>恐らく無い人はない位であらう。<br><br>之は、指頭で診断すればよく判るので、それは臍の附近にグリグリがあるので、之は膿の固結であるのである。<br><br>そうして時々中毒するやうな、食事も摂らないのに腹痛があつたり、下痢するのは、此固結の浄化作用である事を知るべきである。<br><br>又、人により、何等の苦痛がないのもある。<br><br>之等の人に対し指摘すると、驚く事がよくあるのである。<br><br>そうして腹膜に膿結のある人は必ず顔色が悪いので、私は、経験上、顔色によつて、化膿性腹膜の有無軽重を識る事がある。<br><br>そうして腹膜炎の原因は勿論、腎臓萎縮であるから、腎臓が治癒されない限り、絶対に治らないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Pleurisia e Peritonite</h2>
 <p>A pleurisia e a peritonite são enfermidades relativamente comuns. Principiemos, pois, pela pleurisia. A medicina a classifica em três tipos distintos: úmida, purulenta e seca. Em sua essência, a pleurisia úmida ocorre quando se forma um vácuo no espaço entre as membranas que envolvem os pulmões, onde se acumula líquido – isto é, urina. Quando o acúmulo é de pus, denomina-se pleurisia purulenta; e quando há apenas o espaço, sem a presença de líquido ou pus, trata-se da pleurisia seca.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>A peritonite, por sua vez, é uma doença muito semelhante à pleurisia. Ela também se apresenta em duas formas, úmida e purulenta, mas não existe a forma seca. Na peritonite úmida, ocorre o acúmulo de urina na cavidade abdominal. O uso de diuréticos, como já mencionado nas terapias convencionais, agrava progressivamente o quadro. Se for empregado o método de drenagem por punção, o efeito adverso é ainda mais acentuado: a cada procedimento, a condição do paciente piora, o inchaço se torna mais severo, e o abdômen pode atingir proporções maiores que as de uma mulher em final de gestação. Em tal estágio, a perda da vida é inevitável.</p>
 <p>Já na peritonite purulenta, o abdômen não se expande muito; ao contrário, tende a enrijecer. Por essa razão, à primeira vista, pode parecer um abdômen normal, o que leva a falhas no diagnóstico médico, mesmo em casos de considerável gravidade. Chega-se ao ponto de a peritonite purulenta ser diagnosticada erroneamente como tuberculose pulmonar. Embora pareça inacreditável, vivenciei essa situação diversas vezes, para meu grande espanto. É verdade que, quando o processo de purificação da peritonite purulenta se inicia, os sintomas – febre, tosse, expectoração, perda de apetite, fraqueza, emagrecimento acentuado – podem justificar a confusão com a tuberculose. Contudo, tal erro é uma grande infelicidade para o paciente e evidencia a necessidade de aprimorar os métodos de diagnóstico da medicina. Tive, portanto, inúmeras experiências em que, ao tratar apenas a peritonite e os rins de pacientes com esse quadro, obtive a cura completa do que fora diagnosticado como tuberculose pulmonar.</p>
 <p>Na realidade, posso afirmar que a peritonite purulenta é uma condição que, em maior ou menor grau, acomete praticamente todas as pessoas. É provável que não haja quem não a possua. O diagnóstico pode ser feito com a ponta dos dedos: na região ao redor do umbigo, sentem-se nódulos endurecidos, que são o pus solidificado. Deve-se compreender que dores abdominais ou diarreias que surgem sem motivo aparente, como uma intoxicação alimentar, são, na verdade, o processo de purificação desses nódulos. Há também pessoas que não sentem qualquer desconforto, e costumam se surpreender quando lhes aponto a existência do problema. Uma característica universal é que indivíduos com pus solidificado no peritônio invariavelmente apresentam uma má coloração na pele do rosto. Pela experiência, consigo identificar a presença e a gravidade da peritonite purulenta apenas pela tez da pessoa. A causa da peritonite é, evidentemente, a atrofia renal. Portanto, enquanto os rins não forem curados, a cura absoluta desta enfermidade é impossível.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肋膜炎及び腹膜炎 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 肋膜炎及び腹膜炎も相当多い病気である。<br/><br/>先づ肋膜炎から説いてみよう。<br/><br/>此病気は医学では三種に別けられてゐる。<br/><br/>湿性肋膜炎、化膿性肋膜炎、乾性肋膜炎である。<br/><br/>元来肋膜炎は、肺臓を包んでゐる膜と膜との間隙に空虚が出来、そこへ水即ち尿が溜るのを湿性肋膜炎といひ、膿が溜るのを化膿性肋膜炎といひ、間隙だけで、水も膿も溜らないのを乾性肋膜炎といふのである。<br/><br/>此病気の原因は自発的と他発的とあつて、他発的とは例へば胸部又は背部の打撲又は力業、器械体操の如き労作等によつて多く起るのである。<br/><br/>自発的には何等の原因もなしに発生するのである。<br/><br/> そうして、湿性の原因は、他発的にせよ、自発的にせよ腎臓萎縮による余剰尿が集溜する為である。<br/><br/>そうして湿性は医療に於ては利尿剤の服用、及び穿孔によつて排水するのであるが、利尿剤は逆作用が起つて、多くは経過不良である。<br/><br/>何れかといへば、穿孔排水の方が経過が良好である。<br/><br/>然し、一旦治癒しても残存尿結のため再発し易いのである。<br/><br/> 次に、化膿性の原因は、脊髄カリヱスと殆んど同様であつて、脊髄から膿が肋膜へ浸潤滞溜するので、その膿量は割合多量であつて悪性に至つては、医療は穿孔排膿を行ひ、数ケ月又はそれ以上に亘つて、毎日相当量の排膿があるのである。<br/><br/>然し乍ら、最初からの化膿性もあるが、湿性が長時日を経て化膿し、化膿性肋膜炎になる事もある。<br/><br/>そうして無穿孔にて安静療法を行ふ医師もあるが、其場合時日を経るに従つて化膿は漸次固結し、胸部は板を張りたる如くになり、此症状を診て医家によつては、肺が腐敗して無くなつたといふが、之は誤りも甚だしいのである。<br/><br/>そうして斯ういふ症状は、大抵は左右いづれかの肺部であつて、膿結した方の肺は、呼吸が不能で静止してゐるから、健全肺の方が二倍の活動をせねばならぬので、自然呼吸が大きく、困難である。<br/><br/>此際背部から視る時、一方の肺は不動で、一方は強動であるからよく判るのである。<br/><br/>然るに不動の方の膿結溶解を行ふや膿は喀痰となつて、旺んに排泄し始め、徐々として呼吸を営み始めるのである。<br/><br/>之によつてみても肺が腐敗して無くなつたのではない事を知るであらう。<br/><br/>以前、両肺が腐つて駄目だといはれた患者を、私の弟子が治療し、今は全治し、健康で活動しつつあるといふ事実もある。<br/><br/>そうして化膿性は、医療では殆んど不治のやうである。<br/><br/> 然るに、湿性にしろ、化膿性にしろ、発病するや、医療を受けず放任するに於ては、自然浄化によつて溜尿及び膿は喀痰となつて排泄され、大抵は根治するのである。<br/><br/> 次に、湿性は最も多く、化膿性は次で、乾性肋膜は極稀で、普通乾性肋膜炎と診断された患者は、私の経験によれば殆んど肋間神経痛を誤診されたのである。<br/><br/> 爰で、肋間神経痛に就て説く必要があるが此病気は非常に軽重があるのである。<br/><br/>そうして肋膜炎と誤られ易いのも特徴である。<br/><br/>重症は呼吸すらも痛みに堪えかねる位である。<br/><br/>これも放任しておけば、発熱と喀痰によつて、全治するのであるが、医療は湿布、氷冷、注射等の凡ゆる固め療法を行ふから、一時治癒しても必ず再発するのである。<br/><br/> そうして、右に述べた三種の肋膜炎及び肋間神経痛の症状としては、深呼吸をすれば、痛みのある事と、息苦しいのが特徴で、其他盗汗、多睡眠、眩暈等がある。<br/><br/> 次に腹膜炎は肋膜炎とよく似てゐる病気で、やはり湿性と、化膿性の二種あるが、乾性はないのである。<br/><br/>湿性は、腹膜に尿が溜るのであるが、之も利尿剤を用ふる時は、既存療法中にある如く、漸次悪性となり、而も穿孔排水療法を行ふに至つては、その逆効果が甚だしく、一回、一回より悪性となり、且つ膨満は弥々甚だしく、遂には、臨月の腹部よりも膨大するものである。<br/><br/>無論斯うなれば生命は失いのである。<br/><br/> 次に、化膿性は腹部が余り膨大せず、寧ろ固結性であるから、一見普通の腹部と思はれるので、医診に於ては、相当重症であつても発見出来得ない事がある。<br/><br/>故に化膿性腹膜を肺結核と誤診さるる事さへあり、全く、事実とは思はれない程であるが、私は屡々経験して、愕（おどろ）いてゐるのである。<br/><br/>尤も、化膿性腹膜に浄化作用が起つた場合、其症状が、発熱、咳嗽、吐痰、食欲不振、衰弱、羸痩（るいそう）等であるから、肺結核と誤るのも或は無理はないかも知れないが、患者は不幸なものであると共に、医学の診断法を改善したいものである。<br/><br/>従而、斯ういふ患者を私は、腹膜と腎臓のみを治療するに於て、肺結核が全治した例を、屡々経験したのである。<br/><br/> そうして、此化膿性腹膜は、誰もが多少とも必ずといひたい程あるのである。<br/><br/>恐らく無い人はない位であらう。<br/><br/>之は、指頭で診断すればよく判るので、それは臍の附近にグリグリがあるので、之は膿の固結であるのである。<br/><br/>そうして時々中毒するやうな、食事も摂らないのに腹痛があつたり、下痢するのは、此固結の浄化作用である事を知るべきである。<br/><br/>又、人により、何等の苦痛がないのもある。<br/><br/>之等の人に対し指摘すると、驚く事がよくあるのである。<br/><br/>そうして腹膜に膿結のある人は必ず顔色が悪いので、私は、経験上、顔色によつて、化膿性腹膜の有無軽重を識る事がある。<br/><br/>そうして腹膜炎の原因は勿論、腎臓萎縮であるから、腎臓が治癒されない限り、絶対に治らないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

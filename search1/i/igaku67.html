@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku67</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,59 +440,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>igaku67<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>医学封建<br>『栄光』227号、昭和28(1953)年9月23日発行<br>◇この文は医学革命の書中の一項目である◇<br>医学封建<br>医学封建といったら全然耳新しい言葉なのでちょっと見当はつくまいが、これを読んだらなるほどと思わない人はあるまい。それというのも今日知らるるごとく、実に病気の種類は固（もと）より病人の数も多い事である。そうして病気の場合十中八、九は持病または重難症であって、根治する者のほとんどないのは、医師もよく知っているであろう。そうして常に患者に対してはより速かによりよく治そうとし、最新の療法をもって出来る限りの努力を払うにかかわらず、思うように治らない。最初診察の際何週間、何カ月なら治ると予定し、患者にもそれを聞かせるが恐らく見込通りに治った例（ため）しはほとんどあるまい。それというのもこの薬なら、この方法なら学理上では治るようになっているので、その通り実行するが中々治らないのは、患者も医師も常に経験しているはずである。<br>そのような訳で一時的には確かに学理通りに治ったように見えるが、それが長くは続かない。時日の長短こそあれ必ず再発するかさもなくば他の病気に転化する。これも医師なら数知れず経験しているので分っているであろう。従ってこの事実に対しては医師も常に疑惑を抱き、不思議に思っているのは想像に難（かた）からない。それこそ全く医師が信じている程に医学は進歩していないからであって、進歩していると思うのは、錯覚以外の何物でもないのである。そのため絶えず学理と実際との矛盾の板挟みになっており、それを知らない世の中からは尊敬され、確固たる社会的地位を占めているのであるが、胸中の煩悶（はんもん）苦悩は並大抵ではあるまい。しかしいつかは医学の進歩によって、解決の日も来ると思う一種の自慰観念によって、淡い希望を繋（つな）いでいるに過ぎないと私は思っている。従ってこの説を読み、今までの疑惑のべールが剥（は）ぎ除られるとしたら、ここに白日のごとき真理の光に誤謬が浮かび出され、愕然（がくぜん）として目覚むるのはもちろんである。ところがこの迷盲こそ文明の進歩に対する一大障礙（しょうげ）となっているため、これ程科学が進歩しても人類の幸福は増進しないにかかわらず気がつかないのである。これがためこの私の説に対しても全然検討もせず、宗教家の説なるがゆえに非科学的であり、日進月歩の今日進歩した科学の理論を裏切るものと決め、採り上げようとはしないのである。つまり科学迷信の黒眼鏡をかけているから、正確には見えないはずである。<br>ではその黒眼鏡とは何かというと、医学者の根本的考え方が最初から人間の生命を、他の物と同一レベルにおいており、病気も科学によって解決出来るものと信じている事である。ところが私は神示によって知った事は、なるほど人間以外の他のことごとくはそれに違いないが、独り人間のみは根本的に異（ちが）っていて、これだけは科学の分野ではないからである。例えば人間の趣味嗜好、喜怒哀楽、恋愛等は固（もと）より、智性、芸術、神秘性、人類愛等高度の思想など、他の動物には全然ない事で、これだけにみても他の動物との異いさが分るであろう。というように科学は人間の特殊性を無視し、動物並に扱っている事が大いなる欠陥である。しかもそれが医学の根本理念となっている以上、科学の枠の中に立籠り、他の世界が見えなかったのである。これを別の面から見ても、仮に人間のレベルが地平線とすれば、それ以下が物象であり、以上が人間であって、これが宇宙の法則である。この理によって地平線以下のことごとくは人間の自由になるが、以上はその反対である。ゆえに人間が造った科学をもって人間生命を自由にする事の不可能なのは当然であって、何よりも無病である事も長命も意のごとくならないに見て明らかである。とすれば人間が人間の病気を治そうとするのは下剋上（げこくじょう）で逆であり、神位の侵犯である。この理によって人間の生命のみは世界中の学者がいかに努力しても、徒労以外の何物でもないのである。それに気付かず、見当違いの横道をひた走りに走っているのが現在の医学であるから、その無智なる実に哀れむべきである。私は思う、今日の医学者こそ科学の亡者であり、邪教迷信者と同様の心理である。また彼（か）の封建時代武士道をもって最高道徳とし、主君のためなら殺人行為も敢（あ）えて差支えないばかりか、団体的大量殺人者程賞讃され、栄誉を得たのであるから、今日から見れば野蛮というより外はない。つまり公然罪悪が奨励されたのである。この事を医学に当嵌（は）めればなおよく分る。<br>以上によって科学をもって最高の治病方法としていた事は、狭い封建の殻から脱け切れない盲目であった。ところが実は未知の素晴しい世界があり、そこに真の医術があって完全に病を治し得る事を私は知ったので、この一大福音を普（あまね）く世界万民に知らせるべくその前提としてこの説を全世界の医学者に向かって発表するのである。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Feudalismo Médico</h2>
 <p>Este artigo constitui um capítulo da obra <em>A Revolução da Medicina</em>.</p>
@@ -106,5 +456,48 @@ function toggleLang(lang) {
 <p>Sendo assim, a tentativa do homem de curar as doenças de outro homem é um ato de insubordinação, uma subversão da ordem natural e uma transgressão ao domínio divino. Por essa razão, por mais que os maiores sábios do mundo se esforcem, seus intentos no que tange à vida humana não passam de labor inútil. A medicina atual, sem se dar conta disso, corre obstinadamente por um caminho equivocado, e sua ignorância é, de fato, digna de compaixão.</p>
 <p>Em minha opinião, os médicos de hoje são escravos da ciência, com uma mentalidade análoga à dos adeptos de uma heresia supersticiosa. Recordemos a era feudal, quando o Bushido era tido como a moral suprema. Naquela época, o ato de matar em nome de um senhor feudal não apenas era tolerado, como os responsáveis por massacres em larga escala eram louvados e recebiam honrarias. Visto de hoje, tal conduta não pode ser classificada senão como bárbara. Em outras palavras, o mal era abertamente incentivado.</p>
 <p>Se aplicarmos essa analogia à medicina, o quadro se torna ainda mais nítido. A convicção de que a ciência é o método supremo para a cura das doenças era uma forma de cegueira, uma mentalidade aprisionada em uma estreita carapaça feudal. Ocorre que eu descobri a existência de um mundo maravilhoso e desconhecido, onde reside a verdadeira arte médica, capaz de curar as enfermidades por completo. É com o propósito de difundir este grande evangelho a todos os povos que apresento esta tese, como preâmbulo, aos médicos do mundo inteiro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>igaku67<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>医学封建<br/>『栄光』227号、昭和28(1953)年9月23日発行<br/>◇この文は医学革命の書中の一項目である◇<br/>医学封建<br/>医学封建といったら全然耳新しい言葉なのでちょっと見当はつくまいが、これを読んだらなるほどと思わない人はあるまい。それというのも今日知らるるごとく、実に病気の種類は固（もと）より病人の数も多い事である。そうして病気の場合十中八、九は持病または重難症であって、根治する者のほとんどないのは、医師もよく知っているであろう。そうして常に患者に対してはより速かによりよく治そうとし、最新の療法をもって出来る限りの努力を払うにかかわらず、思うように治らない。最初診察の際何週間、何カ月なら治ると予定し、患者にもそれを聞かせるが恐らく見込通りに治った例（ため）しはほとんどあるまい。それというのもこの薬なら、この方法なら学理上では治るようになっているので、その通り実行するが中々治らないのは、患者も医師も常に経験しているはずである。<br/>そのような訳で一時的には確かに学理通りに治ったように見えるが、それが長くは続かない。時日の長短こそあれ必ず再発するかさもなくば他の病気に転化する。これも医師なら数知れず経験しているので分っているであろう。従ってこの事実に対しては医師も常に疑惑を抱き、不思議に思っているのは想像に難（かた）からない。それこそ全く医師が信じている程に医学は進歩していないからであって、進歩していると思うのは、錯覚以外の何物でもないのである。そのため絶えず学理と実際との矛盾の板挟みになっており、それを知らない世の中からは尊敬され、確固たる社会的地位を占めているのであるが、胸中の煩悶（はんもん）苦悩は並大抵ではあるまい。しかしいつかは医学の進歩によって、解決の日も来ると思う一種の自慰観念によって、淡い希望を繋（つな）いでいるに過ぎないと私は思っている。従ってこの説を読み、今までの疑惑のべールが剥（は）ぎ除られるとしたら、ここに白日のごとき真理の光に誤謬が浮かび出され、愕然（がくぜん）として目覚むるのはもちろんである。ところがこの迷盲こそ文明の進歩に対する一大障礙（しょうげ）となっているため、これ程科学が進歩しても人類の幸福は増進しないにかかわらず気がつかないのである。これがためこの私の説に対しても全然検討もせず、宗教家の説なるがゆえに非科学的であり、日進月歩の今日進歩した科学の理論を裏切るものと決め、採り上げようとはしないのである。つまり科学迷信の黒眼鏡をかけているから、正確には見えないはずである。<br/>ではその黒眼鏡とは何かというと、医学者の根本的考え方が最初から人間の生命を、他の物と同一レベルにおいており、病気も科学によって解決出来るものと信じている事である。ところが私は神示によって知った事は、なるほど人間以外の他のことごとくはそれに違いないが、独り人間のみは根本的に異（ちが）っていて、これだけは科学の分野ではないからである。例えば人間の趣味嗜好、喜怒哀楽、恋愛等は固（もと）より、智性、芸術、神秘性、人類愛等高度の思想など、他の動物には全然ない事で、これだけにみても他の動物との異いさが分るであろう。というように科学は人間の特殊性を無視し、動物並に扱っている事が大いなる欠陥である。しかもそれが医学の根本理念となっている以上、科学の枠の中に立籠り、他の世界が見えなかったのである。これを別の面から見ても、仮に人間のレベルが地平線とすれば、それ以下が物象であり、以上が人間であって、これが宇宙の法則である。この理によって地平線以下のことごとくは人間の自由になるが、以上はその反対である。ゆえに人間が造った科学をもって人間生命を自由にする事の不可能なのは当然であって、何よりも無病である事も長命も意のごとくならないに見て明らかである。とすれば人間が人間の病気を治そうとするのは下剋上（げこくじょう）で逆であり、神位の侵犯である。この理によって人間の生命のみは世界中の学者がいかに努力しても、徒労以外の何物でもないのである。それに気付かず、見当違いの横道をひた走りに走っているのが現在の医学であるから、その無智なる実に哀れむべきである。私は思う、今日の医学者こそ科学の亡者であり、邪教迷信者と同様の心理である。また彼（か）の封建時代武士道をもって最高道徳とし、主君のためなら殺人行為も敢（あ）えて差支えないばかりか、団体的大量殺人者程賞讃され、栄誉を得たのであるから、今日から見れば野蛮というより外はない。つまり公然罪悪が奨励されたのである。この事を医学に当嵌（は）めればなおよく分る。<br/>以上によって科学をもって最高の治病方法としていた事は、狭い封建の殻から脱け切れない盲目であった。ところが実は未知の素晴しい世界があり、そこに真の医術があって完全に病を治し得る事を私は知ったので、この一大福音を普（あまね）く世界万民に知らせるべくその前提としてこの説を全世界の医学者に向かって発表するのである。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

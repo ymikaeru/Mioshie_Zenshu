@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>joreiT24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『地上天国』24号、昭和26(1951)年5月25日発行 其月某日 大家さんの家でお産があった。<br><br>「又女だ」と大家さんは落胆ぶりを幾分誇張して見せたが、無事に生れた安心さは顔から隠せない。<br><br>「上の二人が女の子だから、三人目には男の子が欲しい」とかねがね云っていたので、それが又女であってみれば、気を落すのも無理ではない。<br><br> 「授かりものだから、どちらが良いか悪いかは、幾十年も経ってその結果でなければ云えない」と慰める。<br><br> 五日目にお祝いを持ってゆくと、お医者さんが来ている。<br><br> 「生れた時から心臓だけ動いていて胃賜が働かないので、母乳は勿論、砂糖水を含ませても吸わない」 と云う。<br><br> 赤ん坊は、どの児も例外なく猿に似た貌をしているが、その児はヒカラビ、黒ずんで、何とも形容出来ない貌付である。<br><br>お医者さんも、「外に手当の方法がないから、栄養剤を一本注射してみよう。<br><br>」と云う。<br><br>太い注射筒、痛そうな針、見ただけで桑原桑原だ。<br><br> 「注射をすればこの児が助かりますか、こう尋ねると「それは受け合えなとと云う返事だ。<br><br>「それではその前に、私が神様にお願いしてみますからと断わって赤ん坊の頭、胃腸、腎臓を十分位ずつ浄霊した。<br><br> どんな結果に成るか勿論私には判らない。<br><br>一心籠めて、神様を祈りつつの浄霊だった。<br><br> 嗚呼、奇蹟、まざまざと見せられた奇蹟。<br><br> お浄めを済ませて、「一寸、乳房をあてがって御覧なさい」と母親に云った。<br><br> 母親が乳首を咬えさせると、赤ん坊は咽喉を鳴らして乳を吸い出した。<br><br>「ア、乳を吸った」母親の驚き、驚きが先に立って喜びの声が出ない。<br><br>大家さんも、「ほう」と吃驚しているだけだ。<br><br>浄霊をしたこちらも、この素晴らしい奇蹟に驚くと同時に、神様の有難さに、ただただ有難う御座いました。<br><br>と手を合せる外、何も思わず、何も考えない。<br><br>ただ厳粛な瞬間があっただけであった。<br><br> （この児もあれから八カ月経った。<br><br>同じ位の児と比べて顔色も良く、太って元気がいい。<br><br>人見知りをすると云うが、私の髯面は恐がらす、ニコニコ笑って見せる。<br><br>純真な、汚れの無い魂は、私を介して神が見えるのであろう。<br><br>） 某月某日 今日は朝から訪問客が絶えない。<br><br>不平を云いに来る人、愚痴をこぼしに来る人、用事はないが、久振りだから、と云う人。<br><br>最後にＥ市で名誉職をしている古い信者の方が来た。<br><br>一ぺんあんたと話をしてみたくて、と云う紳士を伴なって来たのだ。<br><br> 名刺を見ると、中学校校長、県教員組合副委員長と云う、いかめしい肩書がある。<br><br> 今迄にも、話が聞きたいと云ってくる人は沢山あったが、同じお道の信者であって見れば、ただ顔を見て、信仰の話をしたと云うだけで満足して帰る。<br><br> 同じ道を信じ、共に歩む信仰者同志の語り合う歓びは、親兄弟とも、又違った楽しさである。<br><br>話好きな二人の客は、談じ来り論じ去って倦む事を知らない。<br><br>話のうちに、メシヤ教小受難記とも云うべきものがあったので書いて置く。<br><br> 信者である校長さんは、学校の校長室に地上天国の額を懸けて置いた。<br><br>これをある地方新聞の記者が見付け、「校長は宗教教育をしている。<br><br>」とメシヤ教誹謗の曲筆舞文をものしたので物議をかもし、ある筋から告発されて、近く公判があると云う。<br><br>本人は生徒に宗教を説いた事は勿論ないが、今どきの教育家としては稀に見る硬骨の人で「地上天国を作る事は一宗一派の主張ではなく、全人類の宿望である」と云って譲らない。<br><br>「一体告発された罪名は何ですか」と訊くと、憲法違反だそうである。<br><br>変なことが法律に引かかるものだと改めて感歎した。<br><br>今どき珍らしい教育家と云う言葉を裏書きするエピソードがある。<br><br>学校の生徒が煙草を吸っているのを見付けたので、その六名を校長室に呼び訓戒したが、「校長も煙草を吸っている。<br><br>だから自分達が吸って悪い事はない」と抗弁した。<br><br>「よし、それでは校長も煙草を止めるから、お前たちも止めろ」と云い、それ以来全く禁煙した。<br><br>この正月、その六名が校長の家へ来て、自分達は悪い事をした。<br><br>自分達のために校長さんの好きな煙草を止めさせて申訳なかった。<br><br>これからどうぞ吸って下さい。<br><br>と前非を悔い謝罪に来たそうである。<br><br>禁煙したお蔭で校長は煙草銭が倹約出来た。<br><br>一生これで通すと云い、今日も煙草に手を出さない。<br><br>こう云う骨のある人に自分の子供の教育を頼みたいものだ。<br><br>と思った。<br><br> 好漢、惜しむらくは、療法時代の入信者で、その後教会へも行っておらず、出版物もあまり読んでいない。<br><br>メシヤ教は絶えず進展して一カ所に止まってはいない。<br><br>教会に行かぬ事はそれだけ遅れる事であることを知らしめたい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Testemunhos da Fé e da Convicção</h2>
 <p>Certo dia, houve um nascimento na casa do meu senhorio. “Outra menina!”, exclamou ele, com um desapontamento um tanto teatral. Contudo, em seu rosto era impossível ocultar o alívio pelo parto ter ocorrido em segurança. Como já nos confidenciara seu desejo de ter um menino, sendo as duas primeiras filhas mulheres, era natural que se sentisse um tanto abatido.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>Neste último Ano-Novo, os mesmos seis rapazes foram à sua casa para se desculpar. Arrependidos, disseram: “Nós erramos. Sentimos muito por tê-lo feito abandonar o cigarro, do qual tanto gostava. Por favor, volte a fumar”. Graças à sua decisão, o diretor pôde economizar o dinheiro que gastava com o vício. Ele afirma que manterá essa resolução por toda a vida e, de fato, naquele dia, não tocou em um cigarro sequer.</p>
 <p>Pensei comigo mesmo: a um homem com tamanha fibra moral, eu confiaria de bom grado a educação de meus próprios filhos.</p>
 <p>É um homem admirável. Lamento, contudo, que ele tenha ingressado na fé durante a chamada “fase terapêutica” e, desde então, não tenha frequentado a Igreja nem se dedicado à leitura de nossas publicações mais recentes. A Igreja Messiânica está em constante avanço; ela não permanece estagnada. É fundamental que ele compreenda que não frequentar a Igreja significa, inevitavelmente, ficar para trás nesse progresso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『地上天国』24号、昭和26(1951)年5月25日発行 其月某日 大家さんの家でお産があった。<br/><br/>「又女だ」と大家さんは落胆ぶりを幾分誇張して見せたが、無事に生れた安心さは顔から隠せない。<br/><br/>「上の二人が女の子だから、三人目には男の子が欲しい」とかねがね云っていたので、それが又女であってみれば、気を落すのも無理ではない。<br/><br/> 「授かりものだから、どちらが良いか悪いかは、幾十年も経ってその結果でなければ云えない」と慰める。<br/><br/> 五日目にお祝いを持ってゆくと、お医者さんが来ている。<br/><br/> 「生れた時から心臓だけ動いていて胃賜が働かないので、母乳は勿論、砂糖水を含ませても吸わない」 と云う。<br/><br/> 赤ん坊は、どの児も例外なく猿に似た貌をしているが、その児はヒカラビ、黒ずんで、何とも形容出来ない貌付である。<br/><br/>お医者さんも、「外に手当の方法がないから、栄養剤を一本注射してみよう。<br/><br/>」と云う。<br/><br/>太い注射筒、痛そうな針、見ただけで桑原桑原だ。<br/><br/> 「注射をすればこの児が助かりますか、こう尋ねると「それは受け合えなとと云う返事だ。<br/><br/>「それではその前に、私が神様にお願いしてみますからと断わって赤ん坊の頭、胃腸、腎臓を十分位ずつ浄霊した。<br/><br/> どんな結果に成るか勿論私には判らない。<br/><br/>一心籠めて、神様を祈りつつの浄霊だった。<br/><br/> 嗚呼、奇蹟、まざまざと見せられた奇蹟。<br/><br/> お浄めを済ませて、「一寸、乳房をあてがって御覧なさい」と母親に云った。<br/><br/> 母親が乳首を咬えさせると、赤ん坊は咽喉を鳴らして乳を吸い出した。<br/><br/>「ア、乳を吸った」母親の驚き、驚きが先に立って喜びの声が出ない。<br/><br/>大家さんも、「ほう」と吃驚しているだけだ。<br/><br/>浄霊をしたこちらも、この素晴らしい奇蹟に驚くと同時に、神様の有難さに、ただただ有難う御座いました。<br/><br/>と手を合せる外、何も思わず、何も考えない。<br/><br/>ただ厳粛な瞬間があっただけであった。<br/><br/> （この児もあれから八カ月経った。<br/><br/>同じ位の児と比べて顔色も良く、太って元気がいい。<br/><br/>人見知りをすると云うが、私の髯面は恐がらす、ニコニコ笑って見せる。<br/><br/>純真な、汚れの無い魂は、私を介して神が見えるのであろう。<br/><br/>） 某月某日 今日は朝から訪問客が絶えない。<br/><br/>不平を云いに来る人、愚痴をこぼしに来る人、用事はないが、久振りだから、と云う人。<br/><br/>最後にＥ市で名誉職をしている古い信者の方が来た。<br/><br/>一ぺんあんたと話をしてみたくて、と云う紳士を伴なって来たのだ。<br/><br/> 名刺を見ると、中学校校長、県教員組合副委員長と云う、いかめしい肩書がある。<br/><br/> 今迄にも、話が聞きたいと云ってくる人は沢山あったが、同じお道の信者であって見れば、ただ顔を見て、信仰の話をしたと云うだけで満足して帰る。<br/><br/> 同じ道を信じ、共に歩む信仰者同志の語り合う歓びは、親兄弟とも、又違った楽しさである。<br/><br/>話好きな二人の客は、談じ来り論じ去って倦む事を知らない。<br/><br/>話のうちに、メシヤ教小受難記とも云うべきものがあったので書いて置く。<br/><br/> 信者である校長さんは、学校の校長室に地上天国の額を懸けて置いた。<br/><br/>これをある地方新聞の記者が見付け、「校長は宗教教育をしている。<br/><br/>」とメシヤ教誹謗の曲筆舞文をものしたので物議をかもし、ある筋から告発されて、近く公判があると云う。<br/><br/>本人は生徒に宗教を説いた事は勿論ないが、今どきの教育家としては稀に見る硬骨の人で「地上天国を作る事は一宗一派の主張ではなく、全人類の宿望である」と云って譲らない。<br/><br/>「一体告発された罪名は何ですか」と訊くと、憲法違反だそうである。<br/><br/>変なことが法律に引かかるものだと改めて感歎した。<br/><br/>今どき珍らしい教育家と云う言葉を裏書きするエピソードがある。<br/><br/>学校の生徒が煙草を吸っているのを見付けたので、その六名を校長室に呼び訓戒したが、「校長も煙草を吸っている。<br/><br/>だから自分達が吸って悪い事はない」と抗弁した。<br/><br/>「よし、それでは校長も煙草を止めるから、お前たちも止めろ」と云い、それ以来全く禁煙した。<br/><br/>この正月、その六名が校長の家へ来て、自分達は悪い事をした。<br/><br/>自分達のために校長さんの好きな煙草を止めさせて申訳なかった。<br/><br/>これからどうぞ吸って下さい。<br/><br/>と前非を悔い謝罪に来たそうである。<br/><br/>禁煙したお蔭で校長は煙草銭が倹約出来た。<br/><br/>一生これで通すと云い、今日も煙草に手を出さない。<br/><br/>こう云う骨のある人に自分の子供の教育を頼みたいものだ。<br/><br/>と思った。<br/><br/> 好漢、惜しむらくは、療法時代の入信者で、その後教会へも行っておらず、出版物もあまり読んでいない。<br/><br/>メシヤ教は絶えず進展して一カ所に止まってはいない。<br/><br/>教会に行かぬ事はそれだけ遅れる事であることを知らしめたい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

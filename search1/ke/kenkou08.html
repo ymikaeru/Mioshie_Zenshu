@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kenkou08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康は一切なり 『栄光』182号、昭和27(1952)年11月12日発行 健康とはもちろん病なき人間をいうのであるが、これについて不思議に思う事は宗教学者やジャーナリストなどは、病気治しなどに力を入れている宗教は現当利益が本位であるから、高級宗教ではないとの説を唱えるが、これ程間違った話はあるまい。<br><br>言うまでもなく人間と生まれ、社会生活を営む上において病程邪魔をし、苦しみを与えるものは外にないのは言うまでもない。<br><br>そうして今社会を通覧する時、不幸や悲劇が起る原因をよく調べてみると、必ず根本は病気である。<br><br>ちょうど犯罪の裏には女ありというように、悲劇の裏には病ありと言ってもいい。<br><br>このように病のない健康人間が増えるのと正比例して不幸な人間が減ってゆくのは絶対間違いないのである。<br><br>これは個人の話だが実は国家社会から言っても、これ程マイナスはあるまい。<br><br>結局は病気が因である。<br><br> 本教モットーである病貧争絶無の世界といっても、病気さえ解決出来れば、食も争も解決されるのはもちろんである。<br><br>これは多く説明の要のない程明らかであるが、ただ病気といっても肉体のみではない。<br><br>精神的病気が今日の世界としては、最も大きな問題である。<br><br>彼の戦争であるが、これとても戦争を起す者と、防止する者とは全然反対であるし、また戦争を起す発頭人と、駆り立てられる人民とも違っているのはもちろんだから、要するに戦争を起そうとする偉い奴が一番悪いのである。<br><br>そういう偉い奴の本心を晒け出してみるとこうであろう。<br><br>つまり欲望の強すぎるため、普通人なら満足出来るくらいの成功をしても、並外れて手腕があり、自信があるので我慢が出来ずトテツもない野心を起すのである。<br><br>これは史上幾多の英雄、豪傑の事績を見ても分るごとく一時は思い通りに行くが、最後は必ず失敗に終っている。<br><br> 以上のように、おのれの野心を遂げようとする反面、多数の人間を犠牲にするので、実に無慈悲である。<br><br>普通人としたら多数の命を犠牲にし、数限りない不幸な人を作るのであるから、その罪悪におののきそうなものだが、平気である彼らとしたら、いかに英雄でも精神に欠陥があるからであって、一種の精神病者である。<br><br>また自分さえよければ人はどうでもいいという愛も慈悲もない利己一点張の人間も、ヤハリ精神のどこかに欠陥があるからである。<br><br>面白い事には私が長い間の経験によって分った事だが、精神に欠陥のある人は必ず肉体的にも欠陥がある。<br><br>ところが英雄でも悪人でも、非常に健康な人があるのは、多量の毒素がありながら、非常に強く固まっているためである。<br><br> 以上によってみても、宗教でも、科学でも、哲学でも、教育でも何でもいい、ただ人間から病を無くす事が出来ればいいが本当に病を治す力としては私がもっている○ヽ（ス）の霊光以外絶対ないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Saúde como Alicerce de Tudo</h2>
 <p>É evidente que a saúde consiste na ausência de doenças. A esse respeito, causa-me estranheza a tese defendida por certos estudiosos da religião e jornalistas, os quais afirmam que as crenças focadas na cura de enfermidades não podem ser consideradas religiões elevadas, por se concentrarem em benefícios mundanos. Poucas ideias são tão fundamentalmente equivocadas.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Ao buscarem a concretização de suas ambições pessoais, eles sacrificam um sem-número de vidas, revelando uma profunda falta de misericórdia. Uma pessoa comum sentiria um profundo horror ante a magnitude de tal pecado — o de ceifar inúmeras vidas e gerar sofrimento ilimitado —, mas eles permanecem impassíveis. A indiferença desses líderes, por mais que sejam aclamados como heróis, demonstra a existência de uma falha em seu espírito. São, em essência, portadores de uma enfermidade espiritual. Da mesma forma, o indivíduo puramente egoísta, que age sem amor ou compaixão, preocupado apenas consigo mesmo, também padece de uma deficiência em seu espírito.</p>
 <p>Um fato interessante que minha longa experiência me permitiu constatar é que aqueles que possuem deficiências espirituais invariavelmente apresentam também falhas em seu corpo físico. Poder-se-ia questionar, contudo, a existência de heróis e malfeitores que aparentam gozar de excelente saúde. Isso ocorre porque, embora acumulem grande quantidade de toxinas, estas se encontram em um estado de intensa solidificação.</p>
 <p>Diante do exposto, torna-se claro que qualquer campo do saber – seja a religião, a ciência, a filosofia ou a educação – seria bem-vindo se pudesse erradicar a doença da humanidade. Todavia, a única força verdadeiramente capaz de curar as enfermidades, sem qualquer exceção, é a Luz Espiritual de Su (ス) que me foi concedida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康は一切なり 『栄光』182号、昭和27(1952)年11月12日発行 健康とはもちろん病なき人間をいうのであるが、これについて不思議に思う事は宗教学者やジャーナリストなどは、病気治しなどに力を入れている宗教は現当利益が本位であるから、高級宗教ではないとの説を唱えるが、これ程間違った話はあるまい。<br/><br/>言うまでもなく人間と生まれ、社会生活を営む上において病程邪魔をし、苦しみを与えるものは外にないのは言うまでもない。<br/><br/>そうして今社会を通覧する時、不幸や悲劇が起る原因をよく調べてみると、必ず根本は病気である。<br/><br/>ちょうど犯罪の裏には女ありというように、悲劇の裏には病ありと言ってもいい。<br/><br/>このように病のない健康人間が増えるのと正比例して不幸な人間が減ってゆくのは絶対間違いないのである。<br/><br/>これは個人の話だが実は国家社会から言っても、これ程マイナスはあるまい。<br/><br/>結局は病気が因である。<br/><br/> 本教モットーである病貧争絶無の世界といっても、病気さえ解決出来れば、食も争も解決されるのはもちろんである。<br/><br/>これは多く説明の要のない程明らかであるが、ただ病気といっても肉体のみではない。<br/><br/>精神的病気が今日の世界としては、最も大きな問題である。<br/><br/>彼の戦争であるが、これとても戦争を起す者と、防止する者とは全然反対であるし、また戦争を起す発頭人と、駆り立てられる人民とも違っているのはもちろんだから、要するに戦争を起そうとする偉い奴が一番悪いのである。<br/><br/>そういう偉い奴の本心を晒け出してみるとこうであろう。<br/><br/>つまり欲望の強すぎるため、普通人なら満足出来るくらいの成功をしても、並外れて手腕があり、自信があるので我慢が出来ずトテツもない野心を起すのである。<br/><br/>これは史上幾多の英雄、豪傑の事績を見ても分るごとく一時は思い通りに行くが、最後は必ず失敗に終っている。<br/><br/> 以上のように、おのれの野心を遂げようとする反面、多数の人間を犠牲にするので、実に無慈悲である。<br/><br/>普通人としたら多数の命を犠牲にし、数限りない不幸な人を作るのであるから、その罪悪におののきそうなものだが、平気である彼らとしたら、いかに英雄でも精神に欠陥があるからであって、一種の精神病者である。<br/><br/>また自分さえよければ人はどうでもいいという愛も慈悲もない利己一点張の人間も、ヤハリ精神のどこかに欠陥があるからである。<br/><br/>面白い事には私が長い間の経験によって分った事だが、精神に欠陥のある人は必ず肉体的にも欠陥がある。<br/><br/>ところが英雄でも悪人でも、非常に健康な人があるのは、多量の毒素がありながら、非常に強く固まっているためである。<br/><br/> 以上によってみても、宗教でも、科学でも、哲学でも、教育でも何でもいい、ただ人間から病を無くす事が出来ればいいが本当に病を治す力としては私がもっている○ヽ（ス）の霊光以外絶対ないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280126</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月26日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月二十六日 風邪がはやってますが、私も流行の仲間はずれにはなれないので、十二日から風邪を引いてまだすっかりなおりません。<br><br>しかしもうあらかたよくなってます。<br><br>今度の風邪のしつこいのには驚いてしまいました。<br><br>しかし私は風邪を引いても、仕事や生活の方はべつに変わりませんが、一晩だけ仕事ができなくて寝たきりでしたが、あとはふつうにしてます。<br><br>しかし風邪はなおるに決まったものですから、苦しくない限りはいくら仕事をしても差し支えありません。<br><br>ところが約半分くらいは風邪を引いているような話ですが、この時期に風邪を引かない人はどういう人かというと、うんと固まっているのです。<br><br>固まり方が強いのです。<br><br>ですからこういう人が溶け始めたら一遍ですからたいへんです。<br><br>無論肺炎のような、ごく重いわけです。<br><br>ですから今風邪を引く人はいくらか溶けやすい方ですから、非常に結構なのです。<br><br>大事なくすむわけです。<br><br>ところがせっかく溶けかかったものをワクチンとか、いろんなもので固めますから、それだけは始末が悪いのです。<br><br>要するに今風邪を引かない人は、ごく頑固な人なのです。<br><br>素直でない人なのです。<br><br>だから一番頑固であって非常に危険性があるわけです。<br><br>だから今度風邪を引かない人は大いに注意しなければなりません。<br><br>では、これはいったいどこの浄化かというと、私のは、最初はめちゃめちゃに水洟（みずっぱな）が出たのです。<br><br>鼻紙が山のようになるくらいでした。<br><br>それはどこの毒かというと、頭全体の毒が溶けたのです。<br><br>それが二、三日出ましたが、それがすむと頭が非常に軽くなりました。<br><br>それから歯が痛くなりましたが、歯を浄霊すると水洟が出ました。<br><br>ですから水洟は歯からも出るのですからおもしろいです。<br><br>それがいったんなおってヤレヤレと思っていると、腰から足がだるいのです。<br><br>それで「おかしいな、これはいったいどこの浄化かな」と思ってましたが、熱があって寒気がするのです。<br><br>ですからちょっと仕事をして、十分か二十分寝ないと、どうも足が変なのです。<br><br>ところが見ると、下腹の方に浄化を起しているのです。<br><br>それでやっぱり、ここから咳と痰が出るのです。<br><br>ですから風邪というと、肩か胸か首のまわりと思ってますが、とんでもないことです。<br><br>下腹が風邪の原因ということになります。<br><br>そこを浄霊すると熱が冷めて、寒気がするのがとれました。<br><br>今度の私の風邪は、頭全体に歯茎に下腹です。<br><br>だからふつうの人が、風邪を引いても分からないわけです。<br><br>それからほかの風邪引きでは、家の者はみんなほとんど風邪を引きましたが、調べてみると首のまわりです。<br><br>腹などは少ないのです。<br><br>ですから、頭、首のまわり、肩というような所を浄霊すれば間違いありません。<br><br>女中の一人でばかに咳をするので、見ると、ここ（延髄）に固まりがあるのです。<br><br>それを溶かしたら止まりました。<br><br>それで、ここならここが溶けて、それはどこへ行くかというと、いったん肺にはいって咳と痰になって出るのです。<br><br>ところがそこで一生懸命に手当てをしたり薬をのんだりしていると、肺にはいった痰が固まってしまって、これが結核の因になります。<br><br>そこで結核の原因というものは体中にあるわけです。<br><br>それは肋間神経痛で咳が出る者もありますし、背中から出るのもありますし、股から出たりします。<br><br>それがみんないったん肺にはいってくるのです。<br><br>腰の辺から出る咳もありますし、それが因で肺病にされる者があります。<br><br>だから胸の病というのはおかしいのです。<br><br>ですから胸の病というのは医者がつくったものです。<br><br>中には額から咳が出る人があります。<br><br>額を浄霊すると咳が出るのです。<br><br>だから肺病などで青い顔をしている人は、額の病、股の病、といっていいです。<br><br>胸の病というのは本当ではありません。<br><br>中間をいっているのです。<br><br>それについて「風邪引結構」という論文を書きました。<br><br> （御論文「風邪引結構」）【栄光 一九三号】 今は浄化がだんだん強くなって、溶けかかるというと、今度はまた反対派の方では、溶けないようにできるだけ固めるという工夫を大いにやっているわけです。<br><br>その一番の現われが、近ごろの肺病の薬です。<br><br>そこでその浄化を止める薬の毒が進歩したわけです。<br><br>だから肺病が減ったとか、寿命が延びたとか言っているわけですが、これは最後のあがきみたいなものです。<br><br>とにかくここまでは医学が進歩したように見えるわけです。<br><br>それでますます薬に大騒ぎをやってます。<br><br>近ごろの新聞広告を見れば分かりますが、とにかく薬の広告が増えました。<br><br>無論アメリカあたりもそういうわけです。<br><br>そこで『アメリカを救う』の本は「結局薬は毒だ、のむものではない」ということが骨子になってます。<br><br>そういうわけで、医学というものの根本、奥の奥は邪神がやっているのです。<br><br>邪神は、人間の体を弱らせてだんだんフラフラにしてしまって、最後に武力をもって全人類をやっつけようというのです。<br><br>その見本が英国、仏国です。<br><br>最近フランスから帰ってきた人の話を聞いてみると、フランスの国民というのは、ぜんぜん戦争はできないのだそうです。<br><br>以前は百二十個師団あった軍隊が、現在では七個師団しかないそうです。<br><br>それに徴兵ができないそうです。<br><br>それでみんな逃げてしまうそうです。<br><br>ですから今度第三次戦争が始まると、ヨーロッパ方面は問題ありません。<br><br>英国は英国で社会主義が随分徹底したために国民の体力が弱ってしまったのです。<br><br>それで日本も体力が弱ってますが、それは邪神がやっているのです。<br><br>それで、なにしろ英国の食物の不足することはたいへんなものです。<br><br>卵一つでもたいへんなのです。<br><br>というのは、なにかというと、英国の農民が農業をするのが嫌なのです。<br><br>それで怠けるのです。<br><br>英国にも農業する土地はあるのですが、以前には外国から輸入してましたから、そういう農地はたいていゴルフ場だったそうです。<br><br>それで農作物には冷淡だったのです。<br><br>日本などでは今は農地にしてしまいますが、英国はそれだけの労力を厭うのです。<br><br>それで食物が不足するのです。<br><br>戦勝国の方が食糧に困って、戦敗国の日本とは比べものにならないほどになってます。<br><br>ただ日本は米だけが足りませんが、これはいつも言うとおり、肥料のためにそうなっているので、これもたいへんな問題ですが、とにかく日本人の労働力はまだ大いにあります。<br><br>そこで、労働者には栄養が必要だとか言って、政府でもいろいろやってますが、これは農民の体を弱らせるうまい方法なのです。<br><br>農民の労働力というのは、まずいものを食べているから強いので、それを動物性のものを食べたら弱ります。<br><br>あべこべになるのです。<br><br>そういうように英国は弱ってしまったのです。<br><br>そこにもっていって種痘をやりますからよけい弱ってくるのです。<br><br>アメリカもだんだんそういう傾向になってきてます。<br><br>アメリカでも病人が増えてきて、労働力を厭うようになるのです。<br><br>それで労働時間を少なくするとか賃金を上げるとか社会福祉制度をよくするというので、それが社会主義です。<br><br>だから社会主義というのは人間を弱らせるというよりか、弱った人間に非常に喜ばれるのです。<br><br>それを知らない政治家というのは実に困ったものです。<br><br>それをわれわれの方で教育しなければならないのです。<br><br>そこでアメリカが英、仏のようになったら、世界は共産主義になってしまいますから、それで私は『アメリカを救う』という本を書いたのです。<br><br>このくらいでアメリカ国民の弱るのをくい止めないと恐ろしいことになります。<br><br>それで一番の根本は種痘ですが、ソ連は種痘は一番遅いので、わりあいに国民の労働力はあるのです。<br><br>とにかく共産主義というものの狙い所というものは、これは邪神ですから、文明国の人間をできるだけ弱らせて、最後にたたいて、そうして世界を制覇してしまおう、というのが根本の狙い所です。<br><br>それについてちょっと書きました。<br><br> （御論文「スターリンの肚」） 今読んだとおりですが、ソ連の方ではヨーロッパなどわけはないのです。<br><br>スターリンはちゃんと知っているのです。<br><br>ただアメリカが怖いのです。<br><br>そこでヨーロッパ方面を油断させるべく、そこで今は東洋の方に活動しているのです。<br><br>ですから朝鮮問題にしろ、中共を援助したり、中央アジアに対して中共にいろんなことをやらしているのは、実はアジアをどうしようということではなくて、アメリカの力をできるだけ消耗させるという手段なのです。<br><br>また最近樺太や北海道の上空をソ連の飛行機がだいぶ飛んでいるということも、まだ日本に対して手をつけるという腹はないので、やはりアメリカに日本を援助させるべく、そうしてアメリカの力を東洋に集めているのです。<br><br>そうしておいてヨーロッパを大いにやっつけようというのです。<br><br>そうしてヨーロッパでも、英国をやっつけるのがスターリンの肚なのです。<br><br>まだほかにもありますが、差し当たってのスターリンの肚というのはそこにあるのです。<br><br>だからヨーロッパの方がうんと防備をしないと短期間にやられてしまうのです。<br><br>それをここに書いたのです。<br><br>その防備するのに肝腎な英、仏の国民がフラフラなのですが、それは西洋医学というもので体を弱らせようという邪神の目的なのです。<br><br>なにしろ世界を制覇しようという目的をたてたのは、キリスト以前の二千年前からです。<br><br>これはマッソン秘密結社で、これが根本になっているのです。<br><br>それが邪神です。<br><br>大体赤龍は共産主義で活動しているのです。<br><br>それで一方黒龍は違う方の活動をしているのです。<br><br>そこで私を裁判でやっつけようとしたのは黒龍です。<br><br>ですから私は黒龍と戦っているのです。<br><br>赤龍はわりあいに強くはないのです。<br><br>私の方は金龍ですからかなわないのです。<br><br>ですから私に対してはたいして活動してません。<br><br>しかし黒龍の力はたいしたもので、なかなかのものです。<br><br>ですから裁判の時は検察官に黒龍の眷族がみんなついていたのです。<br><br>だから神と悪魔の戦いというものは、なかなかたいへんなものです。<br><br>それはいずれ書きますが、そういうようで西洋医学というものの根本にはそういう計画があるのです。<br><br>医学の根本は黒龍なのです。<br><br>そこで人類を救うにはそれをぶち壊さなければならないのです。<br><br>それで私がこれからやる一番の狙い所は、医学の革命です。<br><br>そして黒龍の大目的をぶち壊すのです。<br><br>だから仕事の大きさというものは、まず世界的というよりか、むしろ世界始まって以来ないものです。<br><br>もっとも今までにもいろいろな革命はありましたが、たいていは一国とか、一民族というようなものです。<br><br>共産主義も革命のように見えますが、あれは革命でなくて野望です。<br><br>世界制覇の野望の一つの手段に使われているので、これはぜんぜん違います。<br><br>そこでこの医学革命こそ、大きさからいっても本当に人類を救う目的からいっても、実に大きなたいしたものです。<br><br>これは信者の人はよく知ってますから、そう詳しく言う必要はありませんが、それは薬が根本ですから神様は薬をなくするのです。<br><br>それで薬でなくて、浄霊でなおるというので、その術を与えられたのです。<br><br>それで薬は一時押さえだ、浄霊が本当になおるのだ。<br><br>薬は固めるもので、こっちは溶かして出そうとするのです。<br><br>それで人間の体は溶かして出そうとするのを、出さないようにするのですから、そうすると人間の体は弱りますから、一生涯病気のなおるわけはないので、それは敵ながら実にうまいやり方です。<br><br>そこで注射をすると固まるから一時なおるように見えるので「これはいい」と、病人よりかお医者さんが乗っているのです。<br><br>それで一時は良いがまた駄目になるから、新しい薬ができるというわけです。<br><br>ところがこっちの方は溶かして出すから本当になおるので、そこで「そんな本当のことをやる救世教というのはけしからん」と黒龍の方は思いますから、いろんな邪魔をするのです。<br><br>ところが、いいことには霊界がだんだん明るくなるので、これがこっちの味方をしてしまうのです。<br><br>それで先方の方は明るくなると固め方が追いつかなくなるのです。<br><br>固められなくなるからして、そこで負けてしまうのです。<br><br>それを書いてあります。<br><br> （御論文「大恐怖時代来らん」）【栄光 一九四号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Purificação da Gripe e a Batalha Espiritual contra a Medicina</h2>
 <p>Uma onda de gripe tem se alastrado, e eu mesmo, para não fugir à regra, fui acometido por ela no dia doze e ainda não me recuperei por completo, embora já me sinta substancialmente melhor. A persistência desta gripe é, de fato, surpreendente. Contudo, mesmo enfermo, minhas atividades e rotina pouco se alteraram. Apenas uma noite precisei me recolher, mas, fora isso, mantive meu ritmo normal. Afinal, a gripe é um processo com um fim determinado; portanto, desde que o mal-estar não seja excessivo, continuar com as tarefas não representa impedimento algum.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Para salvar a humanidade, é preciso desmantelar essa estrutura. Meu principal objetivo, de agora em diante, é promover a revolução da medicina e, com isso, destruir o grande propósito do Dragão Negro. A magnitude deste trabalho não é meramente mundial; é algo sem precedentes desde o início dos tempos. Houve outras revoluções na história, mas geralmente limitadas a um país ou a um povo. O comunismo, embora pareça uma revolução, não o é; trata-se de pura ambição. É apenas um dos meios utilizados para concretizar a ambição da conquista mundial, algo totalmente distinto.</p>
 <p>Esta revolução da medicina, tanto por sua escala quanto por seu nobre objetivo de salvar a humanidade, é uma obra verdadeiramente grandiosa. Os membros já compreendem bem isso, dispensando explicações pormenorizadas. A raiz do mal é o medicamento; por isso, Deus está abolindo os remédios. Em seu lugar, Ele nos concedeu a arte do Johrei, que cura verdadeiramente. O remédio é uma supressão temporária; o Johrei é a cura definitiva. O primeiro solidifica; o segundo dissolve e expulsa. O corpo humano esforça-se para dissolver e expurgar as toxinas, mas a medicina impede esse processo. Com isso, o corpo se enfraquece, e a doença jamais é curada. Do ponto de vista do inimigo, é um método brilhante. A injeção solidifica a toxina, gerando uma aparente melhora momentânea. As pessoas pensam: "Isto é ótimo!", e os médicos se convencem ainda mais que os pacientes. A melhora dura pouco, a doença retorna, e então um novo medicamento é criado.</p>
 <p>Nosso método, ao contrário, dissolve e expulsa, promovendo a cura real. Por essa razão, o Dragão Negro considera a Sekaikyuseikyou uma entidade "ultrajante" e nos impõe toda sorte de obstáculos. Felizmente, para nós, o Mundo Espiritual se torna cada vez mais claro e luminoso, e essa Luz está a nosso favor. Com o aumento da Luz, a capacidade do inimigo de solidificar as toxinas não consegue mais acompanhar o ritmo da purificação. Incapazes de continuar seu trabalho de endurecimento, eles serão derrotados. É sobre isso que tratei no artigo "A Chegada da Era do Grande Terror".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月26日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月二十六日 風邪がはやってますが、私も流行の仲間はずれにはなれないので、十二日から風邪を引いてまだすっかりなおりません。<br/><br/>しかしもうあらかたよくなってます。<br/><br/>今度の風邪のしつこいのには驚いてしまいました。<br/><br/>しかし私は風邪を引いても、仕事や生活の方はべつに変わりませんが、一晩だけ仕事ができなくて寝たきりでしたが、あとはふつうにしてます。<br/><br/>しかし風邪はなおるに決まったものですから、苦しくない限りはいくら仕事をしても差し支えありません。<br/><br/>ところが約半分くらいは風邪を引いているような話ですが、この時期に風邪を引かない人はどういう人かというと、うんと固まっているのです。<br/><br/>固まり方が強いのです。<br/><br/>ですからこういう人が溶け始めたら一遍ですからたいへんです。<br/><br/>無論肺炎のような、ごく重いわけです。<br/><br/>ですから今風邪を引く人はいくらか溶けやすい方ですから、非常に結構なのです。<br/><br/>大事なくすむわけです。<br/><br/>ところがせっかく溶けかかったものをワクチンとか、いろんなもので固めますから、それだけは始末が悪いのです。<br/><br/>要するに今風邪を引かない人は、ごく頑固な人なのです。<br/><br/>素直でない人なのです。<br/><br/>だから一番頑固であって非常に危険性があるわけです。<br/><br/>だから今度風邪を引かない人は大いに注意しなければなりません。<br/><br/>では、これはいったいどこの浄化かというと、私のは、最初はめちゃめちゃに水洟（みずっぱな）が出たのです。<br/><br/>鼻紙が山のようになるくらいでした。<br/><br/>それはどこの毒かというと、頭全体の毒が溶けたのです。<br/><br/>それが二、三日出ましたが、それがすむと頭が非常に軽くなりました。<br/><br/>それから歯が痛くなりましたが、歯を浄霊すると水洟が出ました。<br/><br/>ですから水洟は歯からも出るのですからおもしろいです。<br/><br/>それがいったんなおってヤレヤレと思っていると、腰から足がだるいのです。<br/><br/>それで「おかしいな、これはいったいどこの浄化かな」と思ってましたが、熱があって寒気がするのです。<br/><br/>ですからちょっと仕事をして、十分か二十分寝ないと、どうも足が変なのです。<br/><br/>ところが見ると、下腹の方に浄化を起しているのです。<br/><br/>それでやっぱり、ここから咳と痰が出るのです。<br/><br/>ですから風邪というと、肩か胸か首のまわりと思ってますが、とんでもないことです。<br/><br/>下腹が風邪の原因ということになります。<br/><br/>そこを浄霊すると熱が冷めて、寒気がするのがとれました。<br/><br/>今度の私の風邪は、頭全体に歯茎に下腹です。<br/><br/>だからふつうの人が、風邪を引いても分からないわけです。<br/><br/>それからほかの風邪引きでは、家の者はみんなほとんど風邪を引きましたが、調べてみると首のまわりです。<br/><br/>腹などは少ないのです。<br/><br/>ですから、頭、首のまわり、肩というような所を浄霊すれば間違いありません。<br/><br/>女中の一人でばかに咳をするので、見ると、ここ（延髄）に固まりがあるのです。<br/><br/>それを溶かしたら止まりました。<br/><br/>それで、ここならここが溶けて、それはどこへ行くかというと、いったん肺にはいって咳と痰になって出るのです。<br/><br/>ところがそこで一生懸命に手当てをしたり薬をのんだりしていると、肺にはいった痰が固まってしまって、これが結核の因になります。<br/><br/>そこで結核の原因というものは体中にあるわけです。<br/><br/>それは肋間神経痛で咳が出る者もありますし、背中から出るのもありますし、股から出たりします。<br/><br/>それがみんないったん肺にはいってくるのです。<br/><br/>腰の辺から出る咳もありますし、それが因で肺病にされる者があります。<br/><br/>だから胸の病というのはおかしいのです。<br/><br/>ですから胸の病というのは医者がつくったものです。<br/><br/>中には額から咳が出る人があります。<br/><br/>額を浄霊すると咳が出るのです。<br/><br/>だから肺病などで青い顔をしている人は、額の病、股の病、といっていいです。<br/><br/>胸の病というのは本当ではありません。<br/><br/>中間をいっているのです。<br/><br/>それについて「風邪引結構」という論文を書きました。<br/><br/> （御論文「風邪引結構」）【栄光 一九三号】 今は浄化がだんだん強くなって、溶けかかるというと、今度はまた反対派の方では、溶けないようにできるだけ固めるという工夫を大いにやっているわけです。<br/><br/>その一番の現われが、近ごろの肺病の薬です。<br/><br/>そこでその浄化を止める薬の毒が進歩したわけです。<br/><br/>だから肺病が減ったとか、寿命が延びたとか言っているわけですが、これは最後のあがきみたいなものです。<br/><br/>とにかくここまでは医学が進歩したように見えるわけです。<br/><br/>それでますます薬に大騒ぎをやってます。<br/><br/>近ごろの新聞広告を見れば分かりますが、とにかく薬の広告が増えました。<br/><br/>無論アメリカあたりもそういうわけです。<br/><br/>そこで『アメリカを救う』の本は「結局薬は毒だ、のむものではない」ということが骨子になってます。<br/><br/>そういうわけで、医学というものの根本、奥の奥は邪神がやっているのです。<br/><br/>邪神は、人間の体を弱らせてだんだんフラフラにしてしまって、最後に武力をもって全人類をやっつけようというのです。<br/><br/>その見本が英国、仏国です。<br/><br/>最近フランスから帰ってきた人の話を聞いてみると、フランスの国民というのは、ぜんぜん戦争はできないのだそうです。<br/><br/>以前は百二十個師団あった軍隊が、現在では七個師団しかないそうです。<br/><br/>それに徴兵ができないそうです。<br/><br/>それでみんな逃げてしまうそうです。<br/><br/>ですから今度第三次戦争が始まると、ヨーロッパ方面は問題ありません。<br/><br/>英国は英国で社会主義が随分徹底したために国民の体力が弱ってしまったのです。<br/><br/>それで日本も体力が弱ってますが、それは邪神がやっているのです。<br/><br/>それで、なにしろ英国の食物の不足することはたいへんなものです。<br/><br/>卵一つでもたいへんなのです。<br/><br/>というのは、なにかというと、英国の農民が農業をするのが嫌なのです。<br/><br/>それで怠けるのです。<br/><br/>英国にも農業する土地はあるのですが、以前には外国から輸入してましたから、そういう農地はたいていゴルフ場だったそうです。<br/><br/>それで農作物には冷淡だったのです。<br/><br/>日本などでは今は農地にしてしまいますが、英国はそれだけの労力を厭うのです。<br/><br/>それで食物が不足するのです。<br/><br/>戦勝国の方が食糧に困って、戦敗国の日本とは比べものにならないほどになってます。<br/><br/>ただ日本は米だけが足りませんが、これはいつも言うとおり、肥料のためにそうなっているので、これもたいへんな問題ですが、とにかく日本人の労働力はまだ大いにあります。<br/><br/>そこで、労働者には栄養が必要だとか言って、政府でもいろいろやってますが、これは農民の体を弱らせるうまい方法なのです。<br/><br/>農民の労働力というのは、まずいものを食べているから強いので、それを動物性のものを食べたら弱ります。<br/><br/>あべこべになるのです。<br/><br/>そういうように英国は弱ってしまったのです。<br/><br/>そこにもっていって種痘をやりますからよけい弱ってくるのです。<br/><br/>アメリカもだんだんそういう傾向になってきてます。<br/><br/>アメリカでも病人が増えてきて、労働力を厭うようになるのです。<br/><br/>それで労働時間を少なくするとか賃金を上げるとか社会福祉制度をよくするというので、それが社会主義です。<br/><br/>だから社会主義というのは人間を弱らせるというよりか、弱った人間に非常に喜ばれるのです。<br/><br/>それを知らない政治家というのは実に困ったものです。<br/><br/>それをわれわれの方で教育しなければならないのです。<br/><br/>そこでアメリカが英、仏のようになったら、世界は共産主義になってしまいますから、それで私は『アメリカを救う』という本を書いたのです。<br/><br/>このくらいでアメリカ国民の弱るのをくい止めないと恐ろしいことになります。<br/><br/>それで一番の根本は種痘ですが、ソ連は種痘は一番遅いので、わりあいに国民の労働力はあるのです。<br/><br/>とにかく共産主義というものの狙い所というものは、これは邪神ですから、文明国の人間をできるだけ弱らせて、最後にたたいて、そうして世界を制覇してしまおう、というのが根本の狙い所です。<br/><br/>それについてちょっと書きました。<br/><br/> （御論文「スターリンの肚」） 今読んだとおりですが、ソ連の方ではヨーロッパなどわけはないのです。<br/><br/>スターリンはちゃんと知っているのです。<br/><br/>ただアメリカが怖いのです。<br/><br/>そこでヨーロッパ方面を油断させるべく、そこで今は東洋の方に活動しているのです。<br/><br/>ですから朝鮮問題にしろ、中共を援助したり、中央アジアに対して中共にいろんなことをやらしているのは、実はアジアをどうしようということではなくて、アメリカの力をできるだけ消耗させるという手段なのです。<br/><br/>また最近樺太や北海道の上空をソ連の飛行機がだいぶ飛んでいるということも、まだ日本に対して手をつけるという腹はないので、やはりアメリカに日本を援助させるべく、そうしてアメリカの力を東洋に集めているのです。<br/><br/>そうしておいてヨーロッパを大いにやっつけようというのです。<br/><br/>そうしてヨーロッパでも、英国をやっつけるのがスターリンの肚なのです。<br/><br/>まだほかにもありますが、差し当たってのスターリンの肚というのはそこにあるのです。<br/><br/>だからヨーロッパの方がうんと防備をしないと短期間にやられてしまうのです。<br/><br/>それをここに書いたのです。<br/><br/>その防備するのに肝腎な英、仏の国民がフラフラなのですが、それは西洋医学というもので体を弱らせようという邪神の目的なのです。<br/><br/>なにしろ世界を制覇しようという目的をたてたのは、キリスト以前の二千年前からです。<br/><br/>これはマッソン秘密結社で、これが根本になっているのです。<br/><br/>それが邪神です。<br/><br/>大体赤龍は共産主義で活動しているのです。<br/><br/>それで一方黒龍は違う方の活動をしているのです。<br/><br/>そこで私を裁判でやっつけようとしたのは黒龍です。<br/><br/>ですから私は黒龍と戦っているのです。<br/><br/>赤龍はわりあいに強くはないのです。<br/><br/>私の方は金龍ですからかなわないのです。<br/><br/>ですから私に対してはたいして活動してません。<br/><br/>しかし黒龍の力はたいしたもので、なかなかのものです。<br/><br/>ですから裁判の時は検察官に黒龍の眷族がみんなついていたのです。<br/><br/>だから神と悪魔の戦いというものは、なかなかたいへんなものです。<br/><br/>それはいずれ書きますが、そういうようで西洋医学というものの根本にはそういう計画があるのです。<br/><br/>医学の根本は黒龍なのです。<br/><br/>そこで人類を救うにはそれをぶち壊さなければならないのです。<br/><br/>それで私がこれからやる一番の狙い所は、医学の革命です。<br/><br/>そして黒龍の大目的をぶち壊すのです。<br/><br/>だから仕事の大きさというものは、まず世界的というよりか、むしろ世界始まって以来ないものです。<br/><br/>もっとも今までにもいろいろな革命はありましたが、たいていは一国とか、一民族というようなものです。<br/><br/>共産主義も革命のように見えますが、あれは革命でなくて野望です。<br/><br/>世界制覇の野望の一つの手段に使われているので、これはぜんぜん違います。<br/><br/>そこでこの医学革命こそ、大きさからいっても本当に人類を救う目的からいっても、実に大きなたいしたものです。<br/><br/>これは信者の人はよく知ってますから、そう詳しく言う必要はありませんが、それは薬が根本ですから神様は薬をなくするのです。<br/><br/>それで薬でなくて、浄霊でなおるというので、その術を与えられたのです。<br/><br/>それで薬は一時押さえだ、浄霊が本当になおるのだ。<br/><br/>薬は固めるもので、こっちは溶かして出そうとするのです。<br/><br/>それで人間の体は溶かして出そうとするのを、出さないようにするのですから、そうすると人間の体は弱りますから、一生涯病気のなおるわけはないので、それは敵ながら実にうまいやり方です。<br/><br/>そこで注射をすると固まるから一時なおるように見えるので「これはいい」と、病人よりかお医者さんが乗っているのです。<br/><br/>それで一時は良いがまた駄目になるから、新しい薬ができるというわけです。<br/><br/>ところがこっちの方は溶かして出すから本当になおるので、そこで「そんな本当のことをやる救世教というのはけしからん」と黒龍の方は思いますから、いろんな邪魔をするのです。<br/><br/>ところが、いいことには霊界がだんだん明るくなるので、これがこっちの味方をしてしまうのです。<br/><br/>それで先方の方は明るくなると固め方が追いつかなくなるのです。<br/><br/>固められなくなるからして、そこで負けてしまうのです。<br/><br/>それを書いてあります。<br/><br/> （御論文「大恐怖時代来らん」）【栄光 一九四号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

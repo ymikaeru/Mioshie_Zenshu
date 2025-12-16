@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280206</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年2月6日） 『御教え集』19号、昭和28(1953)年3月15日発行 昭和二十八年二月六日 毎年『朝日新聞』で米の成績を募集してますが、今年の一番は一日の新聞に出てましたが、香川県の大川義則という人で、反当り六石三斗三升二合というのです。<br><br>これは俵にすれば十五俵三斗三升二合になります。<br><br>ところが救世教の方の今までの報告で一番多いのは、細かい数字は出ていませんが、約十八俵くらいだろうというのです。<br><br>そうすると断然日本一です。<br><br>無論来年は『朝日新聞』に出すように言いました。<br><br>なにしろそんなに穫れるということは予想しなかったから、こういう所に出すということにならなかったわけです。<br><br>そういうような具合で自然栽培は、最初から私の言うとおりにした人はすばらしい成績をあげているのです。<br><br>昨夜来ただけの報告はみんな見ましたが、なにしろ薬迷信と同じように肥料迷信がしみついているので、私の言うとおりに思いきってしない人が非常に多いのです。<br><br>最初はオッカナビックリ廐肥（きゅうひ）を混ぜてみたり、ほかの物を混ぜてみたりして、思いきってできないのです。<br><br>それで年々減らしていって四年目にようやくぜんぜん無肥料にしたという人もあります。<br><br>それも無理はありませんが、つまりそういう不徹底さでは本当の成績はあがらないのです。<br><br>やっぱりたいへんな迷信にかかっているわけです。<br><br>しかしだんだん方々の成績を見て、最初から信ずるという人もだいぶ出てきたようです。<br><br>それでもう二、三年たてば、これはたいへんな問題になります。<br><br> それからつまり指導者の人などで、まだ徹底してない人がだいぶあるようです。<br><br>説明の仕方がまだ弱いのです。<br><br>これは断乎として、土を清浄にしなければいかんということを根本にして言わなければならないのです。<br><br>しかし地方によっては、信者以外の人で自然栽培に切り替えるという農民などもだいぶ出てきたようですから、年々拡がって行きますが、要するに時の問題です。<br><br>ですから最初は随分笑われたり非難されたりしたその苦しみをこらえるのが、なかなかたいへんなような話です。<br><br>随分涙ぐましいようなことを書いてありますが、それもたいして長いことはないのです。<br><br>一時的のものですから、そこで迷わず屈せず、たて貫くという、しっかりした決心を腹に固めなければいけないのです。<br><br>それで私は前に五割増産ということを書きましたが、あれはよほど加減して書いたのです。<br><br>本当は現在でも倍くらいは大丈夫です。<br><br>反十俵くらいの増収はなんでもありません。<br><br>最初にあんまり思いきって書くと、かえって信じないのです。<br><br>これで加減して、信ずる程度として五割としたのです。<br><br>ですからそのつもりでやるといいです。<br><br>そうして近ごろはだんだん肥料の毒、つまり肥料によって虫が湧くとか、根張りが悪い、ということがだんだんはっきりしてきました。<br><br>これはやっぱり霊界の火素が増えるということがたいへんに関係があるのです。<br><br>つまり火素が増えると土自体の力が増すのです。<br><br>そこで自然栽培なら良くできるということになるのです。<br><br>そこで肥料は土自体の力を弱らせるからよけい駄目だということになります。<br><br>米の問題はそのくらいにしておきます。<br><br> 四、五日前に洋画家の佐野繁次郎という人で、そう派手ではないからあんまり有名にはなってませんが、あの社会ではそうとう嘱目（しょくもく）されてます。<br><br>この人がフランスに二年行って帰ってきて、四、五日前に来たのです。<br><br>私は絵が好きな関係上、フランスに行く二、三年前からちょいちょい会って始終議論を戦わしていたのです。<br><br>それで今度も、とにかくフランスを中心にヨーロッパの事情をいろいろ聞いてみたのです。<br><br>その中の珍しい話が二、三ありますから、それを話してみようと思います。<br><br>宗教は無論キリスト教ですが、その中でもカトリックがたいへんな勢力だそうです。<br><br>ヨーロッパはほとんどカトリックで押さえているようなものだそうです。<br><br>貧民はそうでもありませんが、中流以上の家は、食事をする時まわりに椅子を並べますが、その中に立派な椅子を一つおいてあるのです。<br><br>その椅子というのは、カトリックの坊さんで、長老とか神父とか言いますが、懺悔（ざんげ）僧と言って、その一家族の懺悔を聞く人だそうです。<br><br>自分が悪いと思うことはなんでも、翌日懺悔するのだそうです。<br><br>「昨日はどこに行ってこういう間違ったことをした」あるいは妻ある人が「こういうほかの婦人とこういうことをした」というように残らず懺悔をするのです。<br><br>ですから夫婦同士で、夫や妻に言わないことでも懺悔僧には言うのだそうです。<br><br>そういう癖がついているので、溜めておくと気持ちが悪くてしようがないので、懺悔をするとさっぱりするのだそうです。<br><br>ですから一家の秘密のどんなことでも知っているわけです。<br><br>カトリックの坊さんは、ちょうど一軒の家の支配者です。<br><br>大部分がそういう家ばかりだそうです。<br><br>ちょうどカトリックで支配されている、つまり精神的に握っているということになるのです。<br><br>実にたいしたものです。<br><br>アメリカなどはそれほどでなくても、やはり非常に勢力を持っているのです。<br><br>そのために各地からあがってくるお賽銭がローマの法王（ピウス十二世）にはいってくるのはたいへんな額で、何億になるか分からないそうです。<br><br>そこで芸術家……偉い音楽家とか学者、画家というのを非常にかかえて、各地で演奏会をするというようなことは、ほとんどローマ法王がやっているのだそうです。<br><br>それに対してスターリンが負けずになって引っ張るのだそうですが、ローマ法王にはとてもかなわないそうです。<br><br>というのは、ローマ法王の方はいくらでも金を出すのだそうです。<br><br>そこであっちの油絵などは随分高くなったそうです。<br><br>今一番高いのは、日本の金にして一枚三千万円から四千万円だそうです。<br><br>ところがスターリンがそれを買いたくても、金ではとてもかなわないのだそうです。<br><br>それで今スターリンの目標というのはカトリック征服だそうです。<br><br>ほかのものは、いざとなればどうにでもなる、という考えですが、カトリックだけはどうしても共産主義はかなわないということになっているそうです。<br><br>これは前にスターリンが政権を握った最初のうちは、各教会をつぶしてキリスト教をぜんぜん追放してしまうという政策をとりましたが、教会堂を閉めさせても、どんなことをしてもお参りにくる人が集まってきてどうにもしようがないので、とうとう許すということにしましたが、そのくらい信仰というものには共産主義もかなわないということになっているのです。<br><br>ですからドイツだとかイタリアとか、フランスもそうですが、キリスト教民主主義とか、キリスト教社会党とか、いろいろありますが、それが非常に勢力があるのです。<br><br>票数は一番多いことがあります。<br><br>あれはやはりカトリックなのです。<br><br>それで坊さんが「こうこういう人に投票しろ」と言うと絶対だそうです。<br><br>だからヨーロッパの全権はほとんどキリスト教が握っているということになります。<br><br>それがスターリンの大敵になっているのです。<br><br>これは非常におもしろいと思います。<br><br>それではアメリカはどうかというと、アメリカもほとんどは支配的です。<br><br>そこでそのために新宗教を非常に嫌うのです。<br><br>新宗教というのは外国のです。<br><br>ですから私の方で今度アメリカの方に樋口さんが行くについても、なかなか困難だったのです。<br><br>ところがこっちの神様……と言うと変ですが、まあカトリックの親分みたいな神様ですから、やはり奇蹟的にちゃんと行けるようになったのです。<br><br>だから結局カトリックが救世教になれば世界はそれで万教帰一で、帰一されてしまいます。<br><br>しかしそれほどの勢力をこっちに入れるということは、なかなかむずかしそうですが、これはわけはありません。<br><br>時期が来ると簡単にさっといきます。<br><br>それはカトリックを支配しているのはやはり救世教の神様ですから、時期が来ればちょっとねじを巻けばそれでいいのです。<br><br>しかし今はこっちに準備ができていないから、今はそうされても困りますが、それは神様がちゃんとやられます。<br><br> 話はいろんなことになりますが、近ごろは浄化が強くなってくるに従って、いろんな変化がありますが、二、三日前の新聞にペニシリンはもう効かないということが出てましたが、これに関しては今度の『栄光』に出します。<br><br>ペニシリンはもう確実でないということは分かったのです。<br><br>ですからもう駄目になったのです。<br><br>それで最初からいけないものなら、今日のように、はやるわけはないのですが、最初は効いたのです。<br><br>そこで、医学の方で言う効いたということは固まったのです。<br><br>固める力はあったのです。<br><br>まあ固まっただけは効いたのです。<br><br>ところが十年前に効いたのが今日効かなくなるということはおかしいのです。<br><br>人間は十年前と変わったわけではないので同じです。<br><br>ただ薬の効き方が変わったのです。<br><br>それでいろんな医者の弁明がありましたが、苦しまぎれにこじつけのようなことを言ってました。<br><br>それは、前より黴菌が強くなったというのです。<br><br>というのは、つまりペニシリンをのんで黴菌を弱らすという作用が、今度は黴菌の方が抗毒性になったというので、つまり反抗の力が強くなったから効かなくなったということを書いてます。<br><br>ところが昨日聞いた話ですが、ペニシリンを始終のんでいる人なら確かにそうかもしれませんが、そうでなくて一回ものんだことがない人にのましても同じで、ぜんぜん効かないそうです。<br><br>そうしてみると今の理屈は合いません。<br><br>だから医学では分からないので、なにかしら理屈をつけなければ、自分の権威にかかわるとか、あるいは学問の信用にかかわるというような具合で、なにかしらひねり出すのです。<br><br>そういうようなことを新聞やラジオなどでよく聞きますが、つまり医学を信じなければならないように理屈をつけるわけなのですが、われわれからみると、見えすいています。<br><br>それでも世の中の人は本当のことを知らないから瞞されているわけです。<br><br>ですから結局瞞し瞞しやっているわけです。<br><br>ところが今はペニシリンだけですが、ストレプトマイシンが怪しくなってきました。<br><br>ですからこれももうじき駄目だということになります。<br><br>そうすると今度はオーレオマイシンとかテラマイシン、パスというものもやっぱり駄目ということになってきます。<br><br>昨日ある人が、最後はテラマイシン（寺邁進）だというのです。<br><br>なるほど確かにそうだろうというわけです。<br><br>そうすると今度はまた肺病だとか、そういういろんな薬がなくなってしまうのです。<br><br>それでだんだん医学では病気はなおすことができない、駄目だというところまで行きますから、それからがいよいよこっちの役目ということになりますが、もう長いことはないので、わりに早くなってきてます。<br><br> 医学の方はそのくらいにして、戦争の方ですが、これも重大問題ですからお話しします。<br><br>台湾の封鎖を解くとか、中国の沿岸封鎖とか、いろいろなことが出てきましたが、やっぱり「新年号」に出した「世界夢物語」のとおりに出てきたわけです。<br><br>それでこれからいよいよおもしろくなってきます。<br><br>と言っては、はなはだどうもおもしろくないように聞こえますが、ところがどうせ破壊と建設ですから、戦争の方は破壊でこっちの方は建設ですから、建設の方から破壊を見ると、いよいよこっちの方の仕事が予定どおりに進んできたと言えます。<br><br>それはいつも言うとおり、箱根は霊で熱海は体ですから、メシヤ会館ができるに従って、世界の方は破壊作用が起ってくるのです。<br><br>それは東から始まるのです。<br><br>ですから東の方から掃除をされて行くわけです。<br><br>これはいつも言うとおり東方の光ですから、昔は西が先だったのですが、今度の地上天国は東が先ですから、どうしても朝鮮問題から中国、それから中央アジアからヨーロッパ方面に行くわけです。<br><br>それで『栄光』の「世界夢物語」は東洋の方を書いて、ヨーロッパの方は書いてありませんが、今度はヨーロッパの方を書いてみたのです。<br><br>これは時局に応じて時々書いて行こうと思いますが、これは第二として書いたのです。<br><br>それを今読ませます。<br><br> （御論文「世界夢物語(二)」）【地上天国 四十五号】 それから今『医学革命の書』を書いてますが、この前の次のを読ませます。<br><br>これはなかなかおもしろく書いてあります。<br><br> （御論文『医学革命の書』「四、固め方法と溶かす方法」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Avanço do Plano Divino na Terra</h2>
 <p>Todos os anos, o jornal <em>Asahi Shimbun</em> promove um concurso para premiar os melhores resultados na colheita de arroz. A edição de primeiro de janeiro anunciou o grande vencedor deste ano: um senhor chamado Yoshinori Okawa, da província de Kagawa, que alcançou a marca de seis <em>koku</em>, três <em>to</em>, três <em>shō</em> e dois <em>gō</em> por <em>tan</em> de terra. Essa quantidade equivale a quinze fardos, três <em>to</em>, três <em>shō</em> e dois <em>gō</em>.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Como sempre ensino, Hakone representa o espírito e Atami, a matéria. Assim, à medida que o Salão Messiânico se materializa, a ação destrutiva se manifesta no mundo, começando pelo Oriente. A purificação avança a partir do Leste, pois esta é a era da Luz do Oriente. Antigamente, o Ocidente tinha a primazia, mas na construção do Paraíso Terrestre, o Oriente vem primeiro. Por isso, tudo se inicia com a questão da Coreia, avança para a China e, de lá, para a Ásia Central e a Europa.</p>
 <p>Na versão de "Um Sonho sobre o Futuro do Mundo" publicada na revista <em>Eikō</em>, abordei a situação no Oriente, mas não na Europa. Agora, escrevi um novo texto sobre o continente europeu. Pretendo continuar a escrever sobre esses temas conforme a situação mundial evoluir. Este é o segundo artigo da série. Farei agora a leitura desse texto.</p>
 <p>A seguir, darei continuidade à leitura do meu manuscrito, "O Livro da Revolução Médica", que também está em andamento. O trecho que leremos é bastante interessante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年2月6日） 『御教え集』19号、昭和28(1953)年3月15日発行 昭和二十八年二月六日 毎年『朝日新聞』で米の成績を募集してますが、今年の一番は一日の新聞に出てましたが、香川県の大川義則という人で、反当り六石三斗三升二合というのです。<br/><br/>これは俵にすれば十五俵三斗三升二合になります。<br/><br/>ところが救世教の方の今までの報告で一番多いのは、細かい数字は出ていませんが、約十八俵くらいだろうというのです。<br/><br/>そうすると断然日本一です。<br/><br/>無論来年は『朝日新聞』に出すように言いました。<br/><br/>なにしろそんなに穫れるということは予想しなかったから、こういう所に出すということにならなかったわけです。<br/><br/>そういうような具合で自然栽培は、最初から私の言うとおりにした人はすばらしい成績をあげているのです。<br/><br/>昨夜来ただけの報告はみんな見ましたが、なにしろ薬迷信と同じように肥料迷信がしみついているので、私の言うとおりに思いきってしない人が非常に多いのです。<br/><br/>最初はオッカナビックリ廐肥（きゅうひ）を混ぜてみたり、ほかの物を混ぜてみたりして、思いきってできないのです。<br/><br/>それで年々減らしていって四年目にようやくぜんぜん無肥料にしたという人もあります。<br/><br/>それも無理はありませんが、つまりそういう不徹底さでは本当の成績はあがらないのです。<br/><br/>やっぱりたいへんな迷信にかかっているわけです。<br/><br/>しかしだんだん方々の成績を見て、最初から信ずるという人もだいぶ出てきたようです。<br/><br/>それでもう二、三年たてば、これはたいへんな問題になります。<br/><br/> それからつまり指導者の人などで、まだ徹底してない人がだいぶあるようです。<br/><br/>説明の仕方がまだ弱いのです。<br/><br/>これは断乎として、土を清浄にしなければいかんということを根本にして言わなければならないのです。<br/><br/>しかし地方によっては、信者以外の人で自然栽培に切り替えるという農民などもだいぶ出てきたようですから、年々拡がって行きますが、要するに時の問題です。<br/><br/>ですから最初は随分笑われたり非難されたりしたその苦しみをこらえるのが、なかなかたいへんなような話です。<br/><br/>随分涙ぐましいようなことを書いてありますが、それもたいして長いことはないのです。<br/><br/>一時的のものですから、そこで迷わず屈せず、たて貫くという、しっかりした決心を腹に固めなければいけないのです。<br/><br/>それで私は前に五割増産ということを書きましたが、あれはよほど加減して書いたのです。<br/><br/>本当は現在でも倍くらいは大丈夫です。<br/><br/>反十俵くらいの増収はなんでもありません。<br/><br/>最初にあんまり思いきって書くと、かえって信じないのです。<br/><br/>これで加減して、信ずる程度として五割としたのです。<br/><br/>ですからそのつもりでやるといいです。<br/><br/>そうして近ごろはだんだん肥料の毒、つまり肥料によって虫が湧くとか、根張りが悪い、ということがだんだんはっきりしてきました。<br/><br/>これはやっぱり霊界の火素が増えるということがたいへんに関係があるのです。<br/><br/>つまり火素が増えると土自体の力が増すのです。<br/><br/>そこで自然栽培なら良くできるということになるのです。<br/><br/>そこで肥料は土自体の力を弱らせるからよけい駄目だということになります。<br/><br/>米の問題はそのくらいにしておきます。<br/><br/> 四、五日前に洋画家の佐野繁次郎という人で、そう派手ではないからあんまり有名にはなってませんが、あの社会ではそうとう嘱目（しょくもく）されてます。<br/><br/>この人がフランスに二年行って帰ってきて、四、五日前に来たのです。<br/><br/>私は絵が好きな関係上、フランスに行く二、三年前からちょいちょい会って始終議論を戦わしていたのです。<br/><br/>それで今度も、とにかくフランスを中心にヨーロッパの事情をいろいろ聞いてみたのです。<br/><br/>その中の珍しい話が二、三ありますから、それを話してみようと思います。<br/><br/>宗教は無論キリスト教ですが、その中でもカトリックがたいへんな勢力だそうです。<br/><br/>ヨーロッパはほとんどカトリックで押さえているようなものだそうです。<br/><br/>貧民はそうでもありませんが、中流以上の家は、食事をする時まわりに椅子を並べますが、その中に立派な椅子を一つおいてあるのです。<br/><br/>その椅子というのは、カトリックの坊さんで、長老とか神父とか言いますが、懺悔（ざんげ）僧と言って、その一家族の懺悔を聞く人だそうです。<br/><br/>自分が悪いと思うことはなんでも、翌日懺悔するのだそうです。<br/><br/>「昨日はどこに行ってこういう間違ったことをした」あるいは妻ある人が「こういうほかの婦人とこういうことをした」というように残らず懺悔をするのです。<br/><br/>ですから夫婦同士で、夫や妻に言わないことでも懺悔僧には言うのだそうです。<br/><br/>そういう癖がついているので、溜めておくと気持ちが悪くてしようがないので、懺悔をするとさっぱりするのだそうです。<br/><br/>ですから一家の秘密のどんなことでも知っているわけです。<br/><br/>カトリックの坊さんは、ちょうど一軒の家の支配者です。<br/><br/>大部分がそういう家ばかりだそうです。<br/><br/>ちょうどカトリックで支配されている、つまり精神的に握っているということになるのです。<br/><br/>実にたいしたものです。<br/><br/>アメリカなどはそれほどでなくても、やはり非常に勢力を持っているのです。<br/><br/>そのために各地からあがってくるお賽銭がローマの法王（ピウス十二世）にはいってくるのはたいへんな額で、何億になるか分からないそうです。<br/><br/>そこで芸術家……偉い音楽家とか学者、画家というのを非常にかかえて、各地で演奏会をするというようなことは、ほとんどローマ法王がやっているのだそうです。<br/><br/>それに対してスターリンが負けずになって引っ張るのだそうですが、ローマ法王にはとてもかなわないそうです。<br/><br/>というのは、ローマ法王の方はいくらでも金を出すのだそうです。<br/><br/>そこであっちの油絵などは随分高くなったそうです。<br/><br/>今一番高いのは、日本の金にして一枚三千万円から四千万円だそうです。<br/><br/>ところがスターリンがそれを買いたくても、金ではとてもかなわないのだそうです。<br/><br/>それで今スターリンの目標というのはカトリック征服だそうです。<br/><br/>ほかのものは、いざとなればどうにでもなる、という考えですが、カトリックだけはどうしても共産主義はかなわないということになっているそうです。<br/><br/>これは前にスターリンが政権を握った最初のうちは、各教会をつぶしてキリスト教をぜんぜん追放してしまうという政策をとりましたが、教会堂を閉めさせても、どんなことをしてもお参りにくる人が集まってきてどうにもしようがないので、とうとう許すということにしましたが、そのくらい信仰というものには共産主義もかなわないということになっているのです。<br/><br/>ですからドイツだとかイタリアとか、フランスもそうですが、キリスト教民主主義とか、キリスト教社会党とか、いろいろありますが、それが非常に勢力があるのです。<br/><br/>票数は一番多いことがあります。<br/><br/>あれはやはりカトリックなのです。<br/><br/>それで坊さんが「こうこういう人に投票しろ」と言うと絶対だそうです。<br/><br/>だからヨーロッパの全権はほとんどキリスト教が握っているということになります。<br/><br/>それがスターリンの大敵になっているのです。<br/><br/>これは非常におもしろいと思います。<br/><br/>それではアメリカはどうかというと、アメリカもほとんどは支配的です。<br/><br/>そこでそのために新宗教を非常に嫌うのです。<br/><br/>新宗教というのは外国のです。<br/><br/>ですから私の方で今度アメリカの方に樋口さんが行くについても、なかなか困難だったのです。<br/><br/>ところがこっちの神様……と言うと変ですが、まあカトリックの親分みたいな神様ですから、やはり奇蹟的にちゃんと行けるようになったのです。<br/><br/>だから結局カトリックが救世教になれば世界はそれで万教帰一で、帰一されてしまいます。<br/><br/>しかしそれほどの勢力をこっちに入れるということは、なかなかむずかしそうですが、これはわけはありません。<br/><br/>時期が来ると簡単にさっといきます。<br/><br/>それはカトリックを支配しているのはやはり救世教の神様ですから、時期が来ればちょっとねじを巻けばそれでいいのです。<br/><br/>しかし今はこっちに準備ができていないから、今はそうされても困りますが、それは神様がちゃんとやられます。<br/><br/> 話はいろんなことになりますが、近ごろは浄化が強くなってくるに従って、いろんな変化がありますが、二、三日前の新聞にペニシリンはもう効かないということが出てましたが、これに関しては今度の『栄光』に出します。<br/><br/>ペニシリンはもう確実でないということは分かったのです。<br/><br/>ですからもう駄目になったのです。<br/><br/>それで最初からいけないものなら、今日のように、はやるわけはないのですが、最初は効いたのです。<br/><br/>そこで、医学の方で言う効いたということは固まったのです。<br/><br/>固める力はあったのです。<br/><br/>まあ固まっただけは効いたのです。<br/><br/>ところが十年前に効いたのが今日効かなくなるということはおかしいのです。<br/><br/>人間は十年前と変わったわけではないので同じです。<br/><br/>ただ薬の効き方が変わったのです。<br/><br/>それでいろんな医者の弁明がありましたが、苦しまぎれにこじつけのようなことを言ってました。<br/><br/>それは、前より黴菌が強くなったというのです。<br/><br/>というのは、つまりペニシリンをのんで黴菌を弱らすという作用が、今度は黴菌の方が抗毒性になったというので、つまり反抗の力が強くなったから効かなくなったということを書いてます。<br/><br/>ところが昨日聞いた話ですが、ペニシリンを始終のんでいる人なら確かにそうかもしれませんが、そうでなくて一回ものんだことがない人にのましても同じで、ぜんぜん効かないそうです。<br/><br/>そうしてみると今の理屈は合いません。<br/><br/>だから医学では分からないので、なにかしら理屈をつけなければ、自分の権威にかかわるとか、あるいは学問の信用にかかわるというような具合で、なにかしらひねり出すのです。<br/><br/>そういうようなことを新聞やラジオなどでよく聞きますが、つまり医学を信じなければならないように理屈をつけるわけなのですが、われわれからみると、見えすいています。<br/><br/>それでも世の中の人は本当のことを知らないから瞞されているわけです。<br/><br/>ですから結局瞞し瞞しやっているわけです。<br/><br/>ところが今はペニシリンだけですが、ストレプトマイシンが怪しくなってきました。<br/><br/>ですからこれももうじき駄目だということになります。<br/><br/>そうすると今度はオーレオマイシンとかテラマイシン、パスというものもやっぱり駄目ということになってきます。<br/><br/>昨日ある人が、最後はテラマイシン（寺邁進）だというのです。<br/><br/>なるほど確かにそうだろうというわけです。<br/><br/>そうすると今度はまた肺病だとか、そういういろんな薬がなくなってしまうのです。<br/><br/>それでだんだん医学では病気はなおすことができない、駄目だというところまで行きますから、それからがいよいよこっちの役目ということになりますが、もう長いことはないので、わりに早くなってきてます。<br/><br/> 医学の方はそのくらいにして、戦争の方ですが、これも重大問題ですからお話しします。<br/><br/>台湾の封鎖を解くとか、中国の沿岸封鎖とか、いろいろなことが出てきましたが、やっぱり「新年号」に出した「世界夢物語」のとおりに出てきたわけです。<br/><br/>それでこれからいよいよおもしろくなってきます。<br/><br/>と言っては、はなはだどうもおもしろくないように聞こえますが、ところがどうせ破壊と建設ですから、戦争の方は破壊でこっちの方は建設ですから、建設の方から破壊を見ると、いよいよこっちの方の仕事が予定どおりに進んできたと言えます。<br/><br/>それはいつも言うとおり、箱根は霊で熱海は体ですから、メシヤ会館ができるに従って、世界の方は破壊作用が起ってくるのです。<br/><br/>それは東から始まるのです。<br/><br/>ですから東の方から掃除をされて行くわけです。<br/><br/>これはいつも言うとおり東方の光ですから、昔は西が先だったのですが、今度の地上天国は東が先ですから、どうしても朝鮮問題から中国、それから中央アジアからヨーロッパ方面に行くわけです。<br/><br/>それで『栄光』の「世界夢物語」は東洋の方を書いて、ヨーロッパの方は書いてありませんが、今度はヨーロッパの方を書いてみたのです。<br/><br/>これは時局に応じて時々書いて行こうと思いますが、これは第二として書いたのです。<br/><br/>それを今読ませます。<br/><br/> （御論文「世界夢物語(二)」）【地上天国 四十五号】 それから今『医学革命の書』を書いてますが、この前の次のを読ませます。<br/><br/>これはなかなかおもしろく書いてあります。<br/><br/> （御論文『医学革命の書』「四、固め方法と溶かす方法」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsuityu</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水中での感電死より甦る奇蹟の記録 『栄光』156号、昭和27(1952)年5月14日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 島根県 隆光中教会 西尾恭市（34） 電撃の魔力にアッという間に地獄行きとなった人は恐らく数字にも表わせない程多数でありましようが、私達夫婦も遂にこの魔の手に一旦死の世界に引きずりこまれてしまったのです。<br><br>しかし何という有難い事でありましよう。<br><br> 救世主様の御手は、私達を感電死の淵よりお救い下さったのでございます。<br><br> 事実妻美江が兄より助け起された時には、全然脈拍は感じられなかったそうであります。<br><br> 以下ありのままの御報告をさせて頂きます。<br><br> ◎感電時の有様 昨年五月二十九日十二時半頃裏のつうじ松（風除けのための松の生垣、出雲地方独特のもの）を調整したその枝木を取り片付けるべく妻が裏の田圃へ這入って枝をつかんだ際、その下に切れて落ちていた電線に触れ、「アッ」という声もろともぶっ倒れてしまいました。<br><br> それと知った私は吾を忘れて素足のまま水田に飛び込み妻の手から電線を離そうとして、それを握ったから堪りません。<br><br>一瞬全身は飛行機にでもしばりつけられ何千里も無理無体に引ずり廻されるごとき感がし、耳は轟々とわれんばかり、全身の神経は締め木にでも掛けて縛り上げられるような、それは何とも彼ともたとえようもない苦しさが暫く続き、だんだん意識はうすれて行きました。<br><br> 後で目撃者にその時の模様を聞きますと、目の玉はひっくりかえって、つり上ってしまい、両手は電線を握ったまま胸の上に引寄せ仰向けにふんぞりかえり、両足はピンと硬直して、見るも無慚なかっこうだったそうです。<br><br> この日ちょうど折悪しく近所に葬式があり、隣保の人はほとんど出掛けており、私達が発見されるまでには、意外に時間がかかり、前後の事情から推定し少くとも四十分間は完全に水中で感電したままで経過したのでございます。<br><br> 妻の倒れている有様は水田に半身以上体を埋め、全身硬直し、口からは泡を吹き舌は牛のそれ程に長く力なくダラリと垂下り、眼は私同様つり上っていたそうでまさに化物のごとき怪奇なかっこうだったわけであります。<br><br>私共を取りまいていた人々は「もうとてもダメだ。<br><br>特に水の中で感電して助かったものは無いそうだし、あんなかっこうをしているようでは二人とも死んでしまったに違いない」と、もう気の早い連中は葬式の段取りまで口々に話し合い、人の知らせでこの大事を聞かされた兄（未入信）は、飛んで帰りつつ「ヤレヤレ、たった今葬式を済ませたばかりだのに又二人も自分の家で死ぬなんて、金がなんぼあっても足りたもんではないわい」と思ったそうです。<br><br>それでも肉身の有難さ帰るや否やゴム長靴をはき竹の棒を取るより早く、電線をたたいて私の手からたたき落し、まず私を助け起してくれました。<br><br>無論私はこの時の状況は知りません、仮死の状態であったのですから。<br><br>兄としては、まあ、死骸でも片付けるような気持だったらしいんですが、ああ何という有難いことでしょう。<br><br>兄に助け起されたトタンに私は意識を回復したのです。<br><br>生命の活動が再び始ったのです。<br><br> この時の私は死人というか幽霊といおうか、生きた者とは思えない青白い不気味な形相だったそうです。<br><br>私を起した兄は次に妻をだき起したわけですが、その時妻は四十五度位しか体が曲らず、すっかり硬直してしまい、「脈はッ？」とみると誰の手にも全然感じられなかったそうです。<br><br> ◎お念じして妻甦る 私は妻を御浄霊しなければ、とは思いましたが何しろ意識もぼんやりしているし、身体の自由もままならず、ただただ、心の中に「明主様！ 明主様！」とお念じするのみで、ございました。<br><br>そして近所まわりに誰一人の入信者もいない事が死よりもなお淋しく感じられました。<br><br> しかし神様の大愛は絶対でございました。<br><br> 如何ならむ 病きとても 念ずれば 疾く癒します 観世音かも （御讃歌） 明主様をお念じする力、お念じする事によって頂ける力は、遂に、死者の心臓を甦らせて下さいました。<br><br> 「アッ、心臓が動き出したッ！」という皆の驚歎の歓喜の声を、私はあふれる涙と共に聞きました。<br><br> ◎薬毒に妻発狂す 「明主様有難うございます！」と思った瞬間、ああ何という事でしょう、誰が呼びに行ったものか、お医者さんがやって来られたのです。<br><br>「アッ、今注射されては二人とも大変だーッ」と思った私は必死にお断りしました。<br><br>しかし多勢に無勢私は口も体も意のごとくならず、とうとう妻の方は注射をうたれてしまいました。<br><br> 「もう、こうなったらお任せだッ」と私は悲しくあきらめました。<br><br> 最初の一本は田圃でやり今度は戸板で土間まで運びもう一本うとうとした時、無意識の内にも妻は拒もうとしてもがいたため針が折れたので、二、三人が手足をおさえ都合五本もうたれてしまいました。<br><br>ところがその薬毒が脳を刺戟したものか、妻は狂人のごとく立ったり坐ったり、わけの判らぬ事をわめいたり、七転八倒の苦しみにもだえ、約五時間この状態が続き、やがて深い眠りに落ちて行きました。<br><br> ◎感電後八時間にして乳が出る 一昨年六月二十五日御神徳により御恵み頂きました生後十一カ月の長男（映信）が乳を求めて泣き叫ぶ声が生死の境をさまよう妻の魂にひびいたものか、つっと意識を取りもどしました。<br><br>実にこの時感電後八時間でありました。<br><br>妻は早速乳房をふくませました。<br><br>ところが乳が出るのです。<br><br>それはあたかも神様の愛の泉がこんこんとつきせぬごとく、何等平常と変りなく乳は出るのです。<br><br>八時間前水中で感電し、すでに脈も途絶えたその人体から…… 二人は思わず顔を見合せて泣きました。<br><br>うれしくて嬉しくて、有難くて有難くてたまらなかったのです。<br><br> 感電すれば体内の水分は全部吸い取られて仕舞うと言われています。<br><br>しかも左の肘の上には電流の抜けた穴まであり、まだまだ硬直個所がある体なのです。<br><br> これが神業でなく、奇蹟でなくて何でありましょう。<br><br>私共の地方は土地が非常に不便なため、御浄霊を御願いするにも早急には連絡つかず、大社支部の作中先生へ連絡出来た時はちょうど明主様の京都御面会へ出発された後にて、出東村出張所の田中教師へ電報しましたが、これ又留守中で、やっと三十日夜十一時頃かけつけて下され、御浄霊を頂く事が出来ました。<br><br> ◎中国配電の所長さんビックリ この日昼間中国配電の所長さんがお見舞に来られましたので、私が応対に出ますと、「アノー、どなたが感電されたのですか」と問われますので、私は「ハー私とこの家内ですが」と申しますと「エッあなた方が、ヘエー本当ですか？ ヘエー」とあり得べからざる事が目の前で行われているような驚き方でありました。<br><br>その時の所長さんの話によりますと、「電力は水中に入ると三倍以上になる事になっている。<br><br>だからあなた方には三百ボルトが四十分間通じたわけです。<br><br>家庭線でも水中に垂れると電線にふれなくて水にふれただけで死ぬ人は沢山あるのに全く不思議だッ」と言われ、又、工夫さんの話では「人体内は五十ボルト以上入ると絶対ダメなのに、あなた方の場合はいろいろ計算してみるのに六十ボルトは完全に入っている。<br><br>それで助かったとは全く不思議だ」と、これ又不思議不思議の連発でありました。<br><br> ◎感電傷害の治療過程 五月二十九日（感電した日）何しろ両手で電線を握ったのだから、触れた個所は大火傷を受けていた。<br><br> 右手拇指、くすり指、小指は七分位の深さまで電線が食い込み、骨も侵されていた。<br><br> 左手は拇指以外四本やられ、電線は指の半分まで焼け込み、骨が白く見えた。<br><br>こんなにひどいケガにもかかわらず、痛みはあまり感じなかった。<br><br>妻の場合は右の人差指と中指の二本のみであったが、中指の第二関節は半分位焼け、骨が露出していた。<br><br> 電流の抜けた穴が左の肘の一寸上に二つあった。<br><br> 五月三十日、午後から腫れだした。<br><br> 両腕に赤い紡が教本現われ掌から腋の下の淋巴腺部まで続いた。<br><br>医者は「パイキンのため化膿したのだから早く消毒してペニシリンをうたないと腕を切断する様になる」と言ったがお断りする。<br><br>夜田中教師より御浄霊を頂く。<br><br> 五月三十一日、前日と大差なし。<br><br> 六月一日、夜十一時、作中先生京都よりお帰りになり御浄霊を頂く。<br><br>先生はつぶさに全身的にお調べ下され、主として感電の個所、淋巴腺部、硬直のある場所、熱のある個所等をされた。<br><br>非常におかげを頂き、体の工合はとても楽になった。<br><br>特に妻は、初めて別人のように楽になったとよろこんだ。<br><br>御浄霊の一刻一刻が甦りゆく一刻一刻のように感じられ、何ともいえず有難かった。<br><br> 六月二日 昨日に引き続き御浄霊を頂く。<br><br> 六月三日 指の腫れは引いた。<br><br>赤い筋も消えた。<br><br> 六月六日 指は今日まで曲って硬直したままであったが、膿が出はじめ、曲ったままの関節がやわらかくなり出した。<br><br>そして火傷の個所から一種異様な臭気が出るようになった。<br><br> 六月八日 中教会本部の月並祭、一里ばかり自転車に乗り、電車の停留所まで出て参拝する。<br><br>御参拝の皆様に先日項いた御守護のお話をさせて頂く、実際の感電個所を見て皆驚歎される。<br><br>「あなたの方が奥さんより沢山感電しながら、早く意識を回復したのは、全く大浄力の御守のおかげですよ！」と石坂先生がおっしゃった。<br><br>そして御浄霊も頂いた。<br><br>先生は主として、指、掌の火傷個所、肩胛骨部、腎臓部等をされた。<br><br>同日から特に御浄化はなはだしく、血膿は間断なく流れ出し、特に臭気がひどくなり「死人を焼くような臭気だッ」とみんなに言われたが、全く鼻毛がかれるようで、大勢の人に気の毒であった。<br><br> 六月十七日 中教会の連絡会にお参りする。<br><br>火傷でくさった患部には、そろそろ新しい肉が盛り始めて来た。<br><br>臭気も大分少くなって来たが、膿の出きった後へ白糸のような神経が何本も露出し、その痛みに悩まされた。<br><br> 六月二十八日 蓮絡会参拝、左の小指、くすり指はほとんど癒え、あまり癒え方が早くキレイなので、皆驚歎された。<br><br> ちょうど今日で一カ月になるが、この間御霊紙は毎日はりかえ、御浄霊もだれかからか毎日して頂いた。<br><br> 七月三日 この五日間自然栽培田の集団御浄霊を無事勤めさせて頂く事が出来、体力回復にすっかり自信が出来た。<br><br> 七月四日 初めて妻への御浄霊をさせて頂く。<br><br> 七月八日 中教会月並祭、この日あたりからお箸が使えるようになった。<br><br>一番酷くやられていた右の拇指付根も八分通りは良くなった。<br><br>他もどんどん良くなってゆき、毎日肉の盛ってくるのがわかるようであった。<br><br> 七月十七日 もうほとんど全快した。<br><br>鉛筆も初めて使えた。<br><br>すべてに不自由は感じなくなった。<br><br>どの指も新しい肉と皮否骨も神経までも神様はお造り下さった。<br><br> 明主様の御力は、全く造物主の御力だ。<br><br>もうひどかった当時のおもかげすらないまでに良くなった。<br><br> 毎日毎日が感謝と新生のよろこびである。<br><br> 妻もほぼ同じ経過で良くして頂き、今日から炊事をするようになった。<br><br> ◎むすびのことば もっともっと御報告申し上げ、感謝申し上げたいと思うのでございますが、もう大分規定の枚数をすぎておりますので、終らして頂きます。<br><br> 感謝の気持と涙のみがあふれてその万分の一も書けませず、まことに申訳ございません。<br><br>これからますます誠心を強く持ち、新しく明主様より頂いたこの生命、この手で、大いに御役に立たして頂く考えでございます。<br><br> 明主様当然死すべきところを親子三人お救い頂きましてまことにまことに有難うございました。<br><br> （昭和二十七年五月十四日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato milagroso da ressurreição após morte por eletrocussão na água</h2>
 <p>Publicado na revista "Glória", edição nº 156, de 14 de maio de 1952
@@ -150,5 +305,48 @@ E Kannon (観音) prontamente a curará.
 <p>Gostaria de relatar muito mais e expressar ainda mais minha gratidão, mas já ultrapassei em muito o espaço destinado a este texto, por isso, encerro por aqui. Peço sinceras desculpas, pois as lágrimas e a emoção transbordam, impedindo-me de expressar sequer uma ínfima parte do que sinto. De agora em diante, com a fé ainda mais fortalecida, devotarei esta vida e estas mãos, que recebi de volta de Meishu-Sama, para servir intensamente à Sua Obra.</p>
 <p>Meishu-Sama, por ter salvado a nós três — pai, mãe e filho —, que certamente deveríamos ter morrido, nossa gratidão é infinita. Muito, muito obrigado.</p>
 <p>(14 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水中での感電死より甦る奇蹟の記録 『栄光』156号、昭和27(1952)年5月14日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 島根県 隆光中教会 西尾恭市（34） 電撃の魔力にアッという間に地獄行きとなった人は恐らく数字にも表わせない程多数でありましようが、私達夫婦も遂にこの魔の手に一旦死の世界に引きずりこまれてしまったのです。<br/><br/>しかし何という有難い事でありましよう。<br/><br/> 救世主様の御手は、私達を感電死の淵よりお救い下さったのでございます。<br/><br/> 事実妻美江が兄より助け起された時には、全然脈拍は感じられなかったそうであります。<br/><br/> 以下ありのままの御報告をさせて頂きます。<br/><br/> ◎感電時の有様 昨年五月二十九日十二時半頃裏のつうじ松（風除けのための松の生垣、出雲地方独特のもの）を調整したその枝木を取り片付けるべく妻が裏の田圃へ這入って枝をつかんだ際、その下に切れて落ちていた電線に触れ、「アッ」という声もろともぶっ倒れてしまいました。<br/><br/> それと知った私は吾を忘れて素足のまま水田に飛び込み妻の手から電線を離そうとして、それを握ったから堪りません。<br/><br/>一瞬全身は飛行機にでもしばりつけられ何千里も無理無体に引ずり廻されるごとき感がし、耳は轟々とわれんばかり、全身の神経は締め木にでも掛けて縛り上げられるような、それは何とも彼ともたとえようもない苦しさが暫く続き、だんだん意識はうすれて行きました。<br/><br/> 後で目撃者にその時の模様を聞きますと、目の玉はひっくりかえって、つり上ってしまい、両手は電線を握ったまま胸の上に引寄せ仰向けにふんぞりかえり、両足はピンと硬直して、見るも無慚なかっこうだったそうです。<br/><br/> この日ちょうど折悪しく近所に葬式があり、隣保の人はほとんど出掛けており、私達が発見されるまでには、意外に時間がかかり、前後の事情から推定し少くとも四十分間は完全に水中で感電したままで経過したのでございます。<br/><br/> 妻の倒れている有様は水田に半身以上体を埋め、全身硬直し、口からは泡を吹き舌は牛のそれ程に長く力なくダラリと垂下り、眼は私同様つり上っていたそうでまさに化物のごとき怪奇なかっこうだったわけであります。<br/><br/>私共を取りまいていた人々は「もうとてもダメだ。<br/><br/>特に水の中で感電して助かったものは無いそうだし、あんなかっこうをしているようでは二人とも死んでしまったに違いない」と、もう気の早い連中は葬式の段取りまで口々に話し合い、人の知らせでこの大事を聞かされた兄（未入信）は、飛んで帰りつつ「ヤレヤレ、たった今葬式を済ませたばかりだのに又二人も自分の家で死ぬなんて、金がなんぼあっても足りたもんではないわい」と思ったそうです。<br/><br/>それでも肉身の有難さ帰るや否やゴム長靴をはき竹の棒を取るより早く、電線をたたいて私の手からたたき落し、まず私を助け起してくれました。<br/><br/>無論私はこの時の状況は知りません、仮死の状態であったのですから。<br/><br/>兄としては、まあ、死骸でも片付けるような気持だったらしいんですが、ああ何という有難いことでしょう。<br/><br/>兄に助け起されたトタンに私は意識を回復したのです。<br/><br/>生命の活動が再び始ったのです。<br/><br/> この時の私は死人というか幽霊といおうか、生きた者とは思えない青白い不気味な形相だったそうです。<br/><br/>私を起した兄は次に妻をだき起したわけですが、その時妻は四十五度位しか体が曲らず、すっかり硬直してしまい、「脈はッ？」とみると誰の手にも全然感じられなかったそうです。<br/><br/> ◎お念じして妻甦る 私は妻を御浄霊しなければ、とは思いましたが何しろ意識もぼんやりしているし、身体の自由もままならず、ただただ、心の中に「明主様！ 明主様！」とお念じするのみで、ございました。<br/><br/>そして近所まわりに誰一人の入信者もいない事が死よりもなお淋しく感じられました。<br/><br/> しかし神様の大愛は絶対でございました。<br/><br/> 如何ならむ 病きとても 念ずれば 疾く癒します 観世音かも （御讃歌） 明主様をお念じする力、お念じする事によって頂ける力は、遂に、死者の心臓を甦らせて下さいました。<br/><br/> 「アッ、心臓が動き出したッ！」という皆の驚歎の歓喜の声を、私はあふれる涙と共に聞きました。<br/><br/> ◎薬毒に妻発狂す 「明主様有難うございます！」と思った瞬間、ああ何という事でしょう、誰が呼びに行ったものか、お医者さんがやって来られたのです。<br/><br/>「アッ、今注射されては二人とも大変だーッ」と思った私は必死にお断りしました。<br/><br/>しかし多勢に無勢私は口も体も意のごとくならず、とうとう妻の方は注射をうたれてしまいました。<br/><br/> 「もう、こうなったらお任せだッ」と私は悲しくあきらめました。<br/><br/> 最初の一本は田圃でやり今度は戸板で土間まで運びもう一本うとうとした時、無意識の内にも妻は拒もうとしてもがいたため針が折れたので、二、三人が手足をおさえ都合五本もうたれてしまいました。<br/><br/>ところがその薬毒が脳を刺戟したものか、妻は狂人のごとく立ったり坐ったり、わけの判らぬ事をわめいたり、七転八倒の苦しみにもだえ、約五時間この状態が続き、やがて深い眠りに落ちて行きました。<br/><br/> ◎感電後八時間にして乳が出る 一昨年六月二十五日御神徳により御恵み頂きました生後十一カ月の長男（映信）が乳を求めて泣き叫ぶ声が生死の境をさまよう妻の魂にひびいたものか、つっと意識を取りもどしました。<br/><br/>実にこの時感電後八時間でありました。<br/><br/>妻は早速乳房をふくませました。<br/><br/>ところが乳が出るのです。<br/><br/>それはあたかも神様の愛の泉がこんこんとつきせぬごとく、何等平常と変りなく乳は出るのです。<br/><br/>八時間前水中で感電し、すでに脈も途絶えたその人体から…… 二人は思わず顔を見合せて泣きました。<br/><br/>うれしくて嬉しくて、有難くて有難くてたまらなかったのです。<br/><br/> 感電すれば体内の水分は全部吸い取られて仕舞うと言われています。<br/><br/>しかも左の肘の上には電流の抜けた穴まであり、まだまだ硬直個所がある体なのです。<br/><br/> これが神業でなく、奇蹟でなくて何でありましょう。<br/><br/>私共の地方は土地が非常に不便なため、御浄霊を御願いするにも早急には連絡つかず、大社支部の作中先生へ連絡出来た時はちょうど明主様の京都御面会へ出発された後にて、出東村出張所の田中教師へ電報しましたが、これ又留守中で、やっと三十日夜十一時頃かけつけて下され、御浄霊を頂く事が出来ました。<br/><br/> ◎中国配電の所長さんビックリ この日昼間中国配電の所長さんがお見舞に来られましたので、私が応対に出ますと、「アノー、どなたが感電されたのですか」と問われますので、私は「ハー私とこの家内ですが」と申しますと「エッあなた方が、ヘエー本当ですか？ ヘエー」とあり得べからざる事が目の前で行われているような驚き方でありました。<br/><br/>その時の所長さんの話によりますと、「電力は水中に入ると三倍以上になる事になっている。<br/><br/>だからあなた方には三百ボルトが四十分間通じたわけです。<br/><br/>家庭線でも水中に垂れると電線にふれなくて水にふれただけで死ぬ人は沢山あるのに全く不思議だッ」と言われ、又、工夫さんの話では「人体内は五十ボルト以上入ると絶対ダメなのに、あなた方の場合はいろいろ計算してみるのに六十ボルトは完全に入っている。<br/><br/>それで助かったとは全く不思議だ」と、これ又不思議不思議の連発でありました。<br/><br/> ◎感電傷害の治療過程 五月二十九日（感電した日）何しろ両手で電線を握ったのだから、触れた個所は大火傷を受けていた。<br/><br/> 右手拇指、くすり指、小指は七分位の深さまで電線が食い込み、骨も侵されていた。<br/><br/> 左手は拇指以外四本やられ、電線は指の半分まで焼け込み、骨が白く見えた。<br/><br/>こんなにひどいケガにもかかわらず、痛みはあまり感じなかった。<br/><br/>妻の場合は右の人差指と中指の二本のみであったが、中指の第二関節は半分位焼け、骨が露出していた。<br/><br/> 電流の抜けた穴が左の肘の一寸上に二つあった。<br/><br/> 五月三十日、午後から腫れだした。<br/><br/> 両腕に赤い紡が教本現われ掌から腋の下の淋巴腺部まで続いた。<br/><br/>医者は「パイキンのため化膿したのだから早く消毒してペニシリンをうたないと腕を切断する様になる」と言ったがお断りする。<br/><br/>夜田中教師より御浄霊を頂く。<br/><br/> 五月三十一日、前日と大差なし。<br/><br/> 六月一日、夜十一時、作中先生京都よりお帰りになり御浄霊を頂く。<br/><br/>先生はつぶさに全身的にお調べ下され、主として感電の個所、淋巴腺部、硬直のある場所、熱のある個所等をされた。<br/><br/>非常におかげを頂き、体の工合はとても楽になった。<br/><br/>特に妻は、初めて別人のように楽になったとよろこんだ。<br/><br/>御浄霊の一刻一刻が甦りゆく一刻一刻のように感じられ、何ともいえず有難かった。<br/><br/> 六月二日 昨日に引き続き御浄霊を頂く。<br/><br/> 六月三日 指の腫れは引いた。<br/><br/>赤い筋も消えた。<br/><br/> 六月六日 指は今日まで曲って硬直したままであったが、膿が出はじめ、曲ったままの関節がやわらかくなり出した。<br/><br/>そして火傷の個所から一種異様な臭気が出るようになった。<br/><br/> 六月八日 中教会本部の月並祭、一里ばかり自転車に乗り、電車の停留所まで出て参拝する。<br/><br/>御参拝の皆様に先日項いた御守護のお話をさせて頂く、実際の感電個所を見て皆驚歎される。<br/><br/>「あなたの方が奥さんより沢山感電しながら、早く意識を回復したのは、全く大浄力の御守のおかげですよ！」と石坂先生がおっしゃった。<br/><br/>そして御浄霊も頂いた。<br/><br/>先生は主として、指、掌の火傷個所、肩胛骨部、腎臓部等をされた。<br/><br/>同日から特に御浄化はなはだしく、血膿は間断なく流れ出し、特に臭気がひどくなり「死人を焼くような臭気だッ」とみんなに言われたが、全く鼻毛がかれるようで、大勢の人に気の毒であった。<br/><br/> 六月十七日 中教会の連絡会にお参りする。<br/><br/>火傷でくさった患部には、そろそろ新しい肉が盛り始めて来た。<br/><br/>臭気も大分少くなって来たが、膿の出きった後へ白糸のような神経が何本も露出し、その痛みに悩まされた。<br/><br/> 六月二十八日 蓮絡会参拝、左の小指、くすり指はほとんど癒え、あまり癒え方が早くキレイなので、皆驚歎された。<br/><br/> ちょうど今日で一カ月になるが、この間御霊紙は毎日はりかえ、御浄霊もだれかからか毎日して頂いた。<br/><br/> 七月三日 この五日間自然栽培田の集団御浄霊を無事勤めさせて頂く事が出来、体力回復にすっかり自信が出来た。<br/><br/> 七月四日 初めて妻への御浄霊をさせて頂く。<br/><br/> 七月八日 中教会月並祭、この日あたりからお箸が使えるようになった。<br/><br/>一番酷くやられていた右の拇指付根も八分通りは良くなった。<br/><br/>他もどんどん良くなってゆき、毎日肉の盛ってくるのがわかるようであった。<br/><br/> 七月十七日 もうほとんど全快した。<br/><br/>鉛筆も初めて使えた。<br/><br/>すべてに不自由は感じなくなった。<br/><br/>どの指も新しい肉と皮否骨も神経までも神様はお造り下さった。<br/><br/> 明主様の御力は、全く造物主の御力だ。<br/><br/>もうひどかった当時のおもかげすらないまでに良くなった。<br/><br/> 毎日毎日が感謝と新生のよろこびである。<br/><br/> 妻もほぼ同じ経過で良くして頂き、今日から炊事をするようになった。<br/><br/> ◎むすびのことば もっともっと御報告申し上げ、感謝申し上げたいと思うのでございますが、もう大分規定の枚数をすぎておりますので、終らして頂きます。<br/><br/> 感謝の気持と涙のみがあふれてその万分の一も書けませず、まことに申訳ございません。<br/><br/>これからますます誠心を強く持ち、新しく明主様より頂いたこの生命、この手で、大いに御役に立たして頂く考えでございます。<br/><br/> 明主様当然死すべきところを親子三人お救い頂きましてまことにまことに有難うございました。<br/><br/> （昭和二十七年五月十四日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

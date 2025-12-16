@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seisin03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病 自観叢書第9篇『光への道』P.65、昭和24(1949)年12月30日発行 十七歳の女学生の精神病を扱った事がある。<br><br>これは非常に暴れ、ある時は裸体となって乱暴する。<br><br>その際三人くらいの男子でなくては制えられない程の力である。<br><br>また大いに威張り母親を叱りつける事がある。<br><br>しかるにこの原因は左のごときものである事が判った。<br><br>すなわち娘の父は数年前没し、現在は母親のみであったがその母親は、数ケ月前ある宗派神道の信者となったので、祖霊を祀り替え、仏壇や位牌を処分した。<br><br>それがため父の死霊が立腹したのが動機となった。<br><br>ところが父のまだ生きている頃、その家は仙台から東京へ移転したが、元の邸宅を売却し邸内に古くから祀ってあった稲荷をそのまま残したので、買主は稲荷の祠を処分してしまったため、その狐霊が立腹し、上京した父に憑依し父は精神病となりついに死亡した。<br><br>このような訳で、父親の霊と稲荷の霊との二つが娘に憑依したためであった。<br><br>故に発作時父親の霊は母親を叱り、狐霊は常軌を失わせるといったような具合であったが、私の治療によって全快し、その後結婚し、今日は二児の母となり、なんら普通人と異ならないのである。<br><br> 右のごとく古くからある稲荷を処分した事によって、精神病になる場合が非常に多いのである。<br><br>今一つおもしろい例をかいてみよう。<br><br>これは、二十歳の青年で、大方治癒した頃私の家で使用した。<br><br>いつも庭の仕事などやらしていたが、私の命令に対し狐霊が邪魔するのである。<br><br>例えばある場所の草を全部刈れと命じ、暫くして行ってみると一部だけが残っている。<br><br>私は、「なぜ全部刈らないか」と訊くと、「先生が「そこだけ残せ」と言われました」という。<br><br>私は、「そんな筈はない。<br><br>それでは「一部残せ」と言った時、私の姿が見えたか」と訊くと、「見えないで、声だけ聞こえました」と言うので、私は、「それは狐が私の声色を使うのだから、以後注意せよ」と言ったが、直に忘れて右のような事がしばしばあった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Raízes Espirituais dos Distúrbios Psíquicos</h2>
 <p>Certa vez, tratei do caso de uma estudante de dezessete anos que sofria de um grave distúrbio psíquico. Ela apresentava um comportamento extremamente violento, chegando, em certas ocasiões, a despir-se e a agir com fúria. Nessas crises, sua força era tamanha que eram necessários cerca de três homens para contê-la. Ademais, assumia uma postura arrogante, repreendendo severamente sua própria mãe. A investigação da causa revelou o seguinte.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>O caso supracitado ilustra uma verdade recorrente: a remoção inadequada de santuários de Inari, venerados há longo tempo, é uma causa extremamente comum de distúrbios psíquicos.</p>
 <p>Permitam-me relatar outro exemplo interessante. Trata-se de um jovem de vinte anos que, já em fase final de recuperação, passou a trabalhar em minha residência. Eu o encarregava de tarefas no jardim, mas o espírito da raposa que o influenciava constantemente interferia em minhas instruções. Certa vez, ordenei-lhe que capinasse toda a relva de uma determinada área. Passado algum tempo, ao verificar o trabalho, notei que uma parte havia sido intencionalmente deixada intacta. Ao questioná-lo: "Por que não capinou tudo?", ele respondeu: "Foi o senhor quem me disse para deixar esta parte".</p>
 <p>Intrigado, perguntei: "Isso é impossível. Diga-me, quando ouviu essa ordem, você pôde me ver?". A resposta foi: "Não o vi, apenas ouvi a sua voz". Esclareci-lhe então: "Preste atenção, pois esse é o espírito da raposa imitando o meu timbre de voz. Fique atento daqui em diante". Contudo, ele logo se esquecia da advertência, e incidentes semelhantes a este se repetiram com frequência.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病 自観叢書第9篇『光への道』P.65、昭和24(1949)年12月30日発行 十七歳の女学生の精神病を扱った事がある。<br/><br/>これは非常に暴れ、ある時は裸体となって乱暴する。<br/><br/>その際三人くらいの男子でなくては制えられない程の力である。<br/><br/>また大いに威張り母親を叱りつける事がある。<br/><br/>しかるにこの原因は左のごときものである事が判った。<br/><br/>すなわち娘の父は数年前没し、現在は母親のみであったがその母親は、数ケ月前ある宗派神道の信者となったので、祖霊を祀り替え、仏壇や位牌を処分した。<br/><br/>それがため父の死霊が立腹したのが動機となった。<br/><br/>ところが父のまだ生きている頃、その家は仙台から東京へ移転したが、元の邸宅を売却し邸内に古くから祀ってあった稲荷をそのまま残したので、買主は稲荷の祠を処分してしまったため、その狐霊が立腹し、上京した父に憑依し父は精神病となりついに死亡した。<br/><br/>このような訳で、父親の霊と稲荷の霊との二つが娘に憑依したためであった。<br/><br/>故に発作時父親の霊は母親を叱り、狐霊は常軌を失わせるといったような具合であったが、私の治療によって全快し、その後結婚し、今日は二児の母となり、なんら普通人と異ならないのである。<br/><br/> 右のごとく古くからある稲荷を処分した事によって、精神病になる場合が非常に多いのである。<br/><br/>今一つおもしろい例をかいてみよう。<br/><br/>これは、二十歳の青年で、大方治癒した頃私の家で使用した。<br/><br/>いつも庭の仕事などやらしていたが、私の命令に対し狐霊が邪魔するのである。<br/><br/>例えばある場所の草を全部刈れと命じ、暫くして行ってみると一部だけが残っている。<br/><br/>私は、「なぜ全部刈らないか」と訊くと、「先生が「そこだけ残せ」と言われました」という。<br/><br/>私は、「そんな筈はない。<br/><br/>それでは「一部残せ」と言った時、私の姿が見えたか」と訊くと、「見えないで、声だけ聞こえました」と言うので、私は、「それは狐が私の声色を使うのだから、以後注意せよ」と言ったが、直に忘れて右のような事がしばしばあった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

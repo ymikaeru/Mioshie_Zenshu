@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230308</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年3月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年三月八日（月） （二、三の人々それぞれ御浄化をいただいたことを御報告） 後頭部の毒血はふつう痔で出ますよ。<br><br>だいぶ浄化が強くなりましたね。<br><br> ――地所を移転するため約三百年来の墓所を移したいのですが、そのお祀りはどうしたらよろしいでしょうか。<br><br> むやみにやってはいけない。<br><br>ちゃんと霊に承知してもらうんです。<br><br>埋めた骨も出すんでしょう？ すっかりていねいに移さなければいけない。<br><br>そのとき御酒御饌（みきみけ）を上げて善言讃詞を称え、「今度かくかくの事情で墓所をお移しいたしますから、いままでここに鎮まっておられた御霊様御一同、新しい所へお移りくださいますようお願い申し上げます」と断ればよい。<br><br>酒を上げるのは、先祖には酒呑みもいますからね。<br><br> ――仏壇へ生臭いものを上げるのは？ かまわない。<br><br>酒だっていいですよ。<br><br>それからふだんも善言讃詞を全部上げるのが本当はいいんだが、時間もかかることだから簡単に最後の二句だけでよい。<br><br> ――こんなことがございました。<br><br>別府で先日御光をいただいた女の人、以来心から先祖をお祀りしていましたところ、一月ほどしたある日、お経を上げていますと霊が憑った。<br><br>ちょうどそこへ階下から主人が上ってまいりさっそくお伺いしますと、それは母親で、言うことには「自分達はいままでろくに祀ってもらえず霊界でルンペン同様で実に苦しかった。<br><br>今度ありがたい御守りをいただきよく祀りをしてくれて実に嬉しい。<br><br>今後ともこの道を離れることなく祀ってほしい」と言って去ったそうです。<br><br> 祖霊がいままで求めていたものにぶつかったんですよ。<br><br>それは喜んだでしょう。<br><br>このくらい嬉しいことはないんですから。<br><br> ――ある家の仏壇に常に一尺くらいの蛇がおりましたが、たまたま子供のパンツの中へ入ったまま疎開荷物として運ばれたため、パンツの中で死んでしまいました。<br><br>後、その子供は病気で危かったですが、いまはすっかり元気になりましたところ、今度は母親の夢に出て「おれを元のようにしろ」と言って首にまきついたのですが…… それは祖霊ですね。<br><br>観音様をお祀りしてますか。<br><br> ――まだです。<br><br> お祀りすればよろしい、蛇も救われます。<br><br> ――大黒様の由来を御教え願いたいのですが。<br><br> これにはいろんな伝説がある。<br><br>が、その中で割合信じられるのは、最初日本で天照大神が生きてられたとき、インドから一人の偉い人が渡って来て家来にしてくれと言ったとき、大神はもっと柔和な顔になったら家来にしてやると言われたので、笑顔をしてお仕えするようになった。<br><br>そしていまでいう財政を司ったという説がある。<br><br>これが伝説の中では一番いいでしょう。<br><br> 私が大黒様をお祀りし出したのは大森時代、ちょうど不景気な時代でもあり、毎月赤字であった。<br><br>こっちは懐も淋しくてやりきれなかった。<br><br>ところがある銀行員が大黒様を持ってきていらないかと言うので、私も気に入って祀り出した。<br><br>その像の裏には文久何年とか書いてあった。<br><br>するとその月から赤字がなくなってしまった。<br><br>これはいいというわけで、それからは大黒様を何種類も集めましたよ。<br><br>上野毛の大きな大黒様には神秘がある。<br><br>四、五百年経ったもので、麻布の古道具屋から手に入れたんです。<br><br>これをくれというと主人が、これは自分自身で拝んでいるんだから上げられないとて断られたが、後でその主人が夢をみて、大黒様が紫の雲にのって出ていかれる姿を見たそうですが、その年の大晦日に自動車で私の所へ持ってきたんです。<br><br>そのとき主人は別れを惜しんで大黒様に抱きついて泣いてましたよ。<br><br>たしかそのときは三百円包んでやりました。<br><br>そのときから金がよく入るようになった。<br><br>大黒様をお祀りするといいですね。<br><br>大きなのほどいいですよ。<br><br>この前渋井が大きなのを作って開眼してくれと言ってトラックで持ってきました。<br><br>男四人でやっとかつぐんですよ。<br><br>そのためか渋井の所はバカに金が入る。<br><br>一月二月なんかたいしたもので、人に話しても信じられないくらいです。<br><br>いくらかそんなこともあるんでしょう。<br><br>不動銀行の牧野という人はたいへんこれを集めてます。<br><br>大黒様の夢知らせで、関東大震災のちょっと前、日本銀行の公債一千万円を不動に預け入れた。<br><br>行員は変に思ったが、間もなく震災でほかの銀行が支払わないのに不動だけは支払ったので一度に信用を博したそうです。<br><br>たしかに大黒様はいいですね。<br><br>いろいろ神秘がありますよ。<br><br>治療所も患者が大勢来て金がたくさん入ればいいんだから祀ったらよい。<br><br>大黒様はいわれよりも御利益があればよい。<br><br> 大黒と恵比寿と対でもいいが大黒だけでもいい。<br><br>あの木槌は土からの財、恵比寿のは海からの宝を意味してるんです。<br><br> ――三十五、六歳の米国婦人、十年来の偏頭痛なのですが…… 原因は薬毒ですよ。<br><br>治療は患部をすればよい。<br><br> （『紫雲』所載「現代医学とマルキシズム」を朗読） おもしろいですね。<br><br>その説き方はおもしろいです。<br><br>医学の誤りを人類にわからせることはたいへんいいことですよ。<br><br> ――食養生の桜沢如一（さくらざわゆきかず）さんも東洋に大偉人が出ると言っています。<br><br> まア一部の人に一部分わかっている。<br><br>マルクスも一部の真理がある。<br><br>絵でも種々な色を塗っていい絵ができる。<br><br>しかし赤い色がいいからといって全部赤く塗ってしまったんではなんだか判らなくなってしまう。<br><br>マルクスもエンゲルスもとても貧乏で苦しんだんです。<br><br>いまの人々はそれを見てありがたがっている。<br><br>共産主義もいまが一番さかんでしょう。<br><br>いまに煙のように消えてしまう。<br><br>こんなバカバカしいことが世界の人々をだましているというのはたいしたことですよ。<br><br>私はその点大いに感心しています。<br><br>野口英世なんかも黄熱病研究のため途中で死んでしまったんですが、世界の人々は彼のことを立派だといって賞めている。<br><br>そういう人は自分では満足でしょうがね。<br><br>実際よくもいろんなバカバカしいことが世界的に拡がり、また人々がよくもだまされているもんですね。<br><br>これこそまったく世界の謎ですよ。<br><br> rattail（注） 桜沢如一（さくらざわゆきかず）1893－1966 明治２６年、京都生まれ。<br><br>食養指導家・思想家として世界的に活躍。<br><br>その思想は正食協会に引き継がれる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e o Mundo Espiritual</h2>
 <p>O sangue impuro acumulado na nuca costuma ser eliminado por meio de hemorroidas. É um sinal de que a purificação se intensificou consideravelmente.</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p>Bem, há pessoas que compreendem fragmentos da Verdade. O próprio Marxismo contém uma parcela dela. Uma bela pintura se compõe de diversas cores. Se, por apreciarmos o vermelho, pintarmos a tela inteira com essa única cor, o resultado será um borrão ininteligível.</p>
 <p>Tanto Marx quanto Engels sofreram com a mais extrema pobreza. As pessoas hoje, ao olharem para isso, sentem-se gratas. O comunismo talvez esteja em seu apogeu, mas, em breve, se dissipará como fumaça. O fato de uma ideologia tão absurda ludibriar o mundo inteiro é, em si, um feito notável. Sob esse aspecto, sinto uma grande admiração. Veja o caso de Hideo Noguchi, que morreu enquanto pesquisava a febre amarela; o mundo o aclama como um herói, e ele próprio deve ter encontrado satisfação em seu sacrifício.</p>
 <p>É verdadeiramente espantoso como ideias tão insensatas se propagam globalmente e como as pessoas se deixam enganar com tanta facilidade. Isso constitui, de fato, um dos grandes enigmas do mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年3月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年三月八日（月） （二、三の人々それぞれ御浄化をいただいたことを御報告） 後頭部の毒血はふつう痔で出ますよ。<br/><br/>だいぶ浄化が強くなりましたね。<br/><br/> ――地所を移転するため約三百年来の墓所を移したいのですが、そのお祀りはどうしたらよろしいでしょうか。<br/><br/> むやみにやってはいけない。<br/><br/>ちゃんと霊に承知してもらうんです。<br/><br/>埋めた骨も出すんでしょう？ すっかりていねいに移さなければいけない。<br/><br/>そのとき御酒御饌（みきみけ）を上げて善言讃詞を称え、「今度かくかくの事情で墓所をお移しいたしますから、いままでここに鎮まっておられた御霊様御一同、新しい所へお移りくださいますようお願い申し上げます」と断ればよい。<br/><br/>酒を上げるのは、先祖には酒呑みもいますからね。<br/><br/> ――仏壇へ生臭いものを上げるのは？ かまわない。<br/><br/>酒だっていいですよ。<br/><br/>それからふだんも善言讃詞を全部上げるのが本当はいいんだが、時間もかかることだから簡単に最後の二句だけでよい。<br/><br/> ――こんなことがございました。<br/><br/>別府で先日御光をいただいた女の人、以来心から先祖をお祀りしていましたところ、一月ほどしたある日、お経を上げていますと霊が憑った。<br/><br/>ちょうどそこへ階下から主人が上ってまいりさっそくお伺いしますと、それは母親で、言うことには「自分達はいままでろくに祀ってもらえず霊界でルンペン同様で実に苦しかった。<br/><br/>今度ありがたい御守りをいただきよく祀りをしてくれて実に嬉しい。<br/><br/>今後ともこの道を離れることなく祀ってほしい」と言って去ったそうです。<br/><br/> 祖霊がいままで求めていたものにぶつかったんですよ。<br/><br/>それは喜んだでしょう。<br/><br/>このくらい嬉しいことはないんですから。<br/><br/> ――ある家の仏壇に常に一尺くらいの蛇がおりましたが、たまたま子供のパンツの中へ入ったまま疎開荷物として運ばれたため、パンツの中で死んでしまいました。<br/><br/>後、その子供は病気で危かったですが、いまはすっかり元気になりましたところ、今度は母親の夢に出て「おれを元のようにしろ」と言って首にまきついたのですが…… それは祖霊ですね。<br/><br/>観音様をお祀りしてますか。<br/><br/> ――まだです。<br/><br/> お祀りすればよろしい、蛇も救われます。<br/><br/> ――大黒様の由来を御教え願いたいのですが。<br/><br/> これにはいろんな伝説がある。<br/><br/>が、その中で割合信じられるのは、最初日本で天照大神が生きてられたとき、インドから一人の偉い人が渡って来て家来にしてくれと言ったとき、大神はもっと柔和な顔になったら家来にしてやると言われたので、笑顔をしてお仕えするようになった。<br/><br/>そしていまでいう財政を司ったという説がある。<br/><br/>これが伝説の中では一番いいでしょう。<br/><br/> 私が大黒様をお祀りし出したのは大森時代、ちょうど不景気な時代でもあり、毎月赤字であった。<br/><br/>こっちは懐も淋しくてやりきれなかった。<br/><br/>ところがある銀行員が大黒様を持ってきていらないかと言うので、私も気に入って祀り出した。<br/><br/>その像の裏には文久何年とか書いてあった。<br/><br/>するとその月から赤字がなくなってしまった。<br/><br/>これはいいというわけで、それからは大黒様を何種類も集めましたよ。<br/><br/>上野毛の大きな大黒様には神秘がある。<br/><br/>四、五百年経ったもので、麻布の古道具屋から手に入れたんです。<br/><br/>これをくれというと主人が、これは自分自身で拝んでいるんだから上げられないとて断られたが、後でその主人が夢をみて、大黒様が紫の雲にのって出ていかれる姿を見たそうですが、その年の大晦日に自動車で私の所へ持ってきたんです。<br/><br/>そのとき主人は別れを惜しんで大黒様に抱きついて泣いてましたよ。<br/><br/>たしかそのときは三百円包んでやりました。<br/><br/>そのときから金がよく入るようになった。<br/><br/>大黒様をお祀りするといいですね。<br/><br/>大きなのほどいいですよ。<br/><br/>この前渋井が大きなのを作って開眼してくれと言ってトラックで持ってきました。<br/><br/>男四人でやっとかつぐんですよ。<br/><br/>そのためか渋井の所はバカに金が入る。<br/><br/>一月二月なんかたいしたもので、人に話しても信じられないくらいです。<br/><br/>いくらかそんなこともあるんでしょう。<br/><br/>不動銀行の牧野という人はたいへんこれを集めてます。<br/><br/>大黒様の夢知らせで、関東大震災のちょっと前、日本銀行の公債一千万円を不動に預け入れた。<br/><br/>行員は変に思ったが、間もなく震災でほかの銀行が支払わないのに不動だけは支払ったので一度に信用を博したそうです。<br/><br/>たしかに大黒様はいいですね。<br/><br/>いろいろ神秘がありますよ。<br/><br/>治療所も患者が大勢来て金がたくさん入ればいいんだから祀ったらよい。<br/><br/>大黒様はいわれよりも御利益があればよい。<br/><br/> 大黒と恵比寿と対でもいいが大黒だけでもいい。<br/><br/>あの木槌は土からの財、恵比寿のは海からの宝を意味してるんです。<br/><br/> ――三十五、六歳の米国婦人、十年来の偏頭痛なのですが…… 原因は薬毒ですよ。<br/><br/>治療は患部をすればよい。<br/><br/> （『紫雲』所載「現代医学とマルキシズム」を朗読） おもしろいですね。<br/><br/>その説き方はおもしろいです。<br/><br/>医学の誤りを人類にわからせることはたいへんいいことですよ。<br/><br/> ――食養生の桜沢如一（さくらざわゆきかず）さんも東洋に大偉人が出ると言っています。<br/><br/> まア一部の人に一部分わかっている。<br/><br/>マルクスも一部の真理がある。<br/><br/>絵でも種々な色を塗っていい絵ができる。<br/><br/>しかし赤い色がいいからといって全部赤く塗ってしまったんではなんだか判らなくなってしまう。<br/><br/>マルクスもエンゲルスもとても貧乏で苦しんだんです。<br/><br/>いまの人々はそれを見てありがたがっている。<br/><br/>共産主義もいまが一番さかんでしょう。<br/><br/>いまに煙のように消えてしまう。<br/><br/>こんなバカバカしいことが世界の人々をだましているというのはたいしたことですよ。<br/><br/>私はその点大いに感心しています。<br/><br/>野口英世なんかも黄熱病研究のため途中で死んでしまったんですが、世界の人々は彼のことを立派だといって賞めている。<br/><br/>そういう人は自分では満足でしょうがね。<br/><br/>実際よくもいろんなバカバカしいことが世界的に拡がり、また人々がよくもだまされているもんですね。<br/><br/>これこそまったく世界の謎ですよ。<br/><br/> rattail（注） 桜沢如一（さくらざわゆきかず）1893－1966 明治２６年、京都生まれ。<br/><br/>食養指導家・思想家として世界的に活躍。<br/><br/>その思想は正食協会に引き継がれる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

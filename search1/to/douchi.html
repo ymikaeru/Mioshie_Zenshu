@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>douchi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 道治国 『栄光』90号、昭和26(1951)年2月7日発行 今更言うまでもないが、我日本は法治国である。<br><br>もっとも世界中文明国と名の付くものは、ことごとく法治国で、一の例外もないが、実をいうと法治国すなわち憲法で治めるというやり方は、理想的とは言えない。<br><br>何よりも事実がよく証明している。<br><br>見よ法律の力のみでは、犯罪を無くす事のいかに困難であるかは歴史がよく示している。<br><br>もちろん人間から全く悪を除り去る事は不可能であってみれば、右の事実も止むを得ないであろう。<br><br> これらの点に鑑（かんが）み、もちろん宗教によらなければ真の解決は出来ないがしかし宗教のみでは急の間に合わない、としたらその他の方法として、まず何よりも道を知らせる事である。<br><br>すなわち道とは道理であり合理である。<br><br>もっともこれも古くからある東洋道徳的であるが今私が唱えようとするのは、より進歩的の新しい道徳である。<br><br> 吾々がこのような事を言い出すのは、近来社会的道義観念の頽廃（たいはい）が余りに酷いからである。<br><br>青少年の不良化はもちろん各種犯罪の激増等は目に余るものがある。<br><br>最近、識者間においてもようやくこれに気が付き、修身を復活せよとか、教育勅語に代るべきものを作れとか、種々の議論が出ているのは、この方面に気が付き始めた事で、喜ぶべき現象である。<br><br>そうしてこの事の依って来るところは、言うまでもなく終戦後国民一般が拠（よ）りどころを失い、帰趨（きすう）に迷った結果、ついに今日のごとき無軌道的人間が多くなったのであろう。<br><br>終戦までは各学校においても、修身教育や教育勅語を基本とし、それに古来からの忠孝等の思想も心の底に植付けられていたためもあって、今日からみれば当時の社会は、余程真面目であった事は否み得ない、と言って、今更右のような旧道徳を復活する訳にもゆかない。<br><br>と、したら何とかして新しい時代精神を作らなければなるまい。<br><br> ただ終戦後我国民に与えられたものとして、民主主義があるが、これによっていかに封建思想の束縛から解放されたかで大いに多とするに足るが、遺憾ながらその行過ぎが、現在のごとき社会混乱の温床となった事も否めないであろう。<br><br>とすれば、新旧の時代思潮から悪を捨て、善の面だけ採上げて、時代に即した新しい道義観念すなわち英国の紳士道のごとき新しい大和魂を作るこそ、何より必要であろう。<br><br>それが前述のごとき、道という基本的観念であって、これを教育上にも社会上にも大いに鼓吹するのである。<br><br>かくして社会悪を幾分でも減少出来たとしたら大いに喜ぶべきであろう、ところで道すなわち、道理を解り易く云ってみれば、道とは一切に通ずるもので、言わば人間処世上の絶対指針である。<br><br>何となれば人間道に従えば、災いも失敗もなく、すべては順調にゆく、信用は高まり、人からは敬愛せられ、平和円満な境遇となるのはもちろんである。<br><br>こういう個人や家庭が殖えるに従い、その感化によって社会悪漸減に役立つ事は、言うまでもない。<br><br> この意味において、今日のごとく法のみに頼るとしたら、法に引っ掛らなければいいと云う、いわゆる利口者が増え、不逞（ふてい）の徒（やから）が横行するのである。<br><br>私は常に言うのであるが、神とは言換えれば道理である。<br><br>すなわち神を拝むという事は、道理を拝む事である。<br><br>ゆえに道理に従い、道理に支配される人間こそ、真の文明人である。<br><br>この文を世の識者に提言するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Governança pelo Caminho da Razão</h2>
 <p>É fato notório que o nosso Japão é um Estado de Direito. Aliás, todas as nações do mundo que se intitulam civilizadas são, sem exceção, regidas por leis. Todavia, em verdade, este método de governança, fundamentado unicamente em uma constituição, está longe de ser o ideal.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Isto porque, ao seguir o Caminho do ser humano, a vida se torna isenta de calamidades e fracassos, e tudo transcorre de forma harmoniosa. A credibilidade se fortalece, conquista-se o respeito e o afeto dos semelhantes e, naturalmente, alcança-se uma existência de paz e plenitude. É evidente que, à medida que indivíduos e famílias com essa consciência se multiplicarem, sua influência contribuirá para a gradual diminuição dos males sociais.</p>
 <p>Nesse sentido, se continuarmos a confiar unicamente na lei, como fazemos hoje, aumentarão os chamados "espertos", que julgam que tudo é permitido, desde que não sejam apanhados pela lei, e os insolentes malfeitores agirão com total liberdade.</p>
 <p>Sempre afirmo que Deus, em outras palavras, é a própria Razão. Portanto, reverenciar a Deus é o mesmo que reverenciar a Razão. Logo, o ser humano que segue a Razão e por ela se deixa governar é o verdadeiro homem civilizado. Apresento, pois, este ensaio à reflexão dos intelectuais de nosso tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 道治国 『栄光』90号、昭和26(1951)年2月7日発行 今更言うまでもないが、我日本は法治国である。<br/><br/>もっとも世界中文明国と名の付くものは、ことごとく法治国で、一の例外もないが、実をいうと法治国すなわち憲法で治めるというやり方は、理想的とは言えない。<br/><br/>何よりも事実がよく証明している。<br/><br/>見よ法律の力のみでは、犯罪を無くす事のいかに困難であるかは歴史がよく示している。<br/><br/>もちろん人間から全く悪を除り去る事は不可能であってみれば、右の事実も止むを得ないであろう。<br/><br/> これらの点に鑑（かんが）み、もちろん宗教によらなければ真の解決は出来ないがしかし宗教のみでは急の間に合わない、としたらその他の方法として、まず何よりも道を知らせる事である。<br/><br/>すなわち道とは道理であり合理である。<br/><br/>もっともこれも古くからある東洋道徳的であるが今私が唱えようとするのは、より進歩的の新しい道徳である。<br/><br/> 吾々がこのような事を言い出すのは、近来社会的道義観念の頽廃（たいはい）が余りに酷いからである。<br/><br/>青少年の不良化はもちろん各種犯罪の激増等は目に余るものがある。<br/><br/>最近、識者間においてもようやくこれに気が付き、修身を復活せよとか、教育勅語に代るべきものを作れとか、種々の議論が出ているのは、この方面に気が付き始めた事で、喜ぶべき現象である。<br/><br/>そうしてこの事の依って来るところは、言うまでもなく終戦後国民一般が拠（よ）りどころを失い、帰趨（きすう）に迷った結果、ついに今日のごとき無軌道的人間が多くなったのであろう。<br/><br/>終戦までは各学校においても、修身教育や教育勅語を基本とし、それに古来からの忠孝等の思想も心の底に植付けられていたためもあって、今日からみれば当時の社会は、余程真面目であった事は否み得ない、と言って、今更右のような旧道徳を復活する訳にもゆかない。<br/><br/>と、したら何とかして新しい時代精神を作らなければなるまい。<br/><br/> ただ終戦後我国民に与えられたものとして、民主主義があるが、これによっていかに封建思想の束縛から解放されたかで大いに多とするに足るが、遺憾ながらその行過ぎが、現在のごとき社会混乱の温床となった事も否めないであろう。<br/><br/>とすれば、新旧の時代思潮から悪を捨て、善の面だけ採上げて、時代に即した新しい道義観念すなわち英国の紳士道のごとき新しい大和魂を作るこそ、何より必要であろう。<br/><br/>それが前述のごとき、道という基本的観念であって、これを教育上にも社会上にも大いに鼓吹するのである。<br/><br/>かくして社会悪を幾分でも減少出来たとしたら大いに喜ぶべきであろう、ところで道すなわち、道理を解り易く云ってみれば、道とは一切に通ずるもので、言わば人間処世上の絶対指針である。<br/><br/>何となれば人間道に従えば、災いも失敗もなく、すべては順調にゆく、信用は高まり、人からは敬愛せられ、平和円満な境遇となるのはもちろんである。<br/><br/>こういう個人や家庭が殖えるに従い、その感化によって社会悪漸減に役立つ事は、言うまでもない。<br/><br/> この意味において、今日のごとく法のみに頼るとしたら、法に引っ掛らなければいいと云う、いわゆる利口者が増え、不逞（ふてい）の徒（やから）が横行するのである。<br/><br/>私は常に言うのであるが、神とは言換えれば道理である。<br/><br/>すなわち神を拝むという事は、道理を拝む事である。<br/><br/>ゆえに道理に従い、道理に支配される人間こそ、真の文明人である。<br/><br/>この文を世の識者に提言するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230518</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年5月18日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年五月十八日 ――三毒五濁とはどんな意味でございましょうか。<br><br> 仏教にある言葉です。<br><br>三毒は貪（どん）、瞋（しん）、痴（ち）、これは字の通りです。<br><br>五濁のほうはまあいろいろな罪穢れです。<br><br>たいした意味はありません。<br><br>私は必要のないことは忘れてしまっています。<br><br>あまりよく記憶しているのも骨が折れますよ。<br><br>記憶のよかったのは大隈重信で、物忘れする人は羨ましいと言ってます。<br><br>むしろ忘れてしまいたいようなことまでも憶えている。<br><br>例えば庭で働く植木屋の賃金、いまはいくらいくらで何年前はいくらいくらだったとか、こういう木はこういうふうに植えるといいとかいったことまで憶えていた人です。<br><br>英国の元首相のバルフォアは数字がどうしても憶えられず、議会の演説で数字を読む場合には秘書が代わってやった。<br><br>自民党の吉田さんも頭が悪いですね、演説なんか聞いても下手です。<br><br>馬鹿とか利口とか言うことと記憶とはまったく関係ないとは言えなくても、そうたいして関係ない。<br><br>学校なんかも記憶のよい者が成績がよい。<br><br>だからそれが偉くなるとは限らない。<br><br>アインシュタインも学生のころ頭が悪くて落第したそうですね。<br><br>落第したってそう悲観する必要はありませんよ。<br><br> ――稲荷のお祀り、午と狐の関係は…… 毎月午の日、だいたい月初めにきめてやればよい。<br><br>お祀りを午の日にやるのもなにかあるんでしょう。<br><br>これも必要ないせいか憶えてません。<br><br>いわれはたしか聞いたことがあります。<br><br>初午だけはなるだけ盛大にしたほうがよい。<br><br> ――いままでお祀りしていた神様の御処分の方法は…… 祝詞を奉唱してこう言ったらよい。<br><br>「いままでいろいろ御守護ありがとうございました。<br><br>今度観音様をお祀りするようになりました。<br><br>つきましては今日限り元の御座にお帰りくださるようお願い申し上げます」と言ってから社は焼いてしまったらよい。<br><br>こう言えば神様はお帰りになって社はカラッポになるから。<br><br> ――家が狭いために床の間へ仏壇を置くのはいかがでしょうか。<br><br> 結構です。<br><br>先祖が光明如来の光を浴びるから霊界での向上が早い。<br><br> ――夕方のお祀りのとき御軸に善言讃詞をお上げいたしますが、仏壇にもやはり善言讃詞をお上げしたほうが……と存じますが…… 法事やお祀りのときは仏壇に善言讃詞を上げるが、ふだんは上げないほうがよい。<br><br>ただ最後の二句だけでよい。<br><br>もし上げるならば、観音様の御軸に祝詞と善言讃詞をお上げし、仏壇には善言讃詞だけ上げる。<br><br>こうしないと御軸と仏壇と格が一緒になってしまいますから。<br><br> ――今度の新しい大光明如来の御軸は…… 特別に書いたんです。<br><br>教導師には上げてもいいが、階級的ですから。<br><br>一般会員はいけません。<br><br>神様のことには民主的でない点がある。<br><br> 以前ある家に行ったら、神棚があり、どうも気にかかるので家人に訊ねたら、金光教の神様だがいまはあまりお祀りしてはいないというので神様にきいてみると、早く帰りたいのだが手続きしてくれないので帰れないと言ったことがあります。<br><br>やっぱり言霊で称えてもらわねば帰れないんです。<br><br>そういうものですよ。<br><br>言霊を称えずに社を焼いたりすると神様の居所がなくなるので宙ぶらりんになってしまう。<br><br>ですから言霊は大切なんです。<br><br>また階級が厳然たるものだから低い地位に観音様をお祀りしても観音様は来られない。<br><br> なにか神様をお祀りしたくなくなったら、それはやはり知らせなんだからよくお祀りしてお帰りになってもらったほうがよい。<br><br> ――天照皇大神と伊都能売大神の御経綸について……伊都能売大神につきましては『古事記』にも出ておりませんが…… 伊都能売大神のことは昔は言えなかった。<br><br>いい加減にボカしてあったんです。<br><br>天照皇大神は太陽神で、位は上だがお働きは限られる。<br><br>伊都能売大神は火と水で、仏界では観音様になる。<br><br>これに土のお働きが加わって弥勒になるのです。<br><br>天照皇大神は一つの力であり、伊都能売大神は二つ、弥勒大神は三つの御力となり、これが三位一体で完全になる。<br><br> ――弥勒大神は土の御力すなわち肉体をお持ちになって御出現と存じますが…… ええそう、そうです。<br><br> ――毎月十八日のお観音様の日にお祀りできない場合は―― 十七日にしたらよい。<br><br>神仏のお祀りや法事なぞは早くするのはよいが遅れるのはいけない。<br><br> ――国常立尊と天照皇大神の押し込められ給うたことの相違は…… 天照皇大神のことは割に近い。<br><br>近いと言ってもいまからだいぶ昔だが、ところが国常立尊のはそれよりずっと前で別個のことです。<br><br>国常立尊は天若彦命らにより艮に押し込められたが、天照皇大神は素盞嗚尊に攻められ御身が危くなって逃げられ、信州水上山へお逃げになり、その地でおかくれになった。<br><br>そして御髪の毛を切って御神体としてほうぼうへお祀りしたんです。<br><br>日枝神社なんかはそれです。<br><br> ――現在会員の会費の一部をもって積立金として積立て、将来会員のための福祉、例えば旅館のごとき宿泊設備、教会、農場、学校、治療所等々の建設を考えておりますが、大きな分会にはいろいろ福祉がありますが、私どもの分会はまだ小さく、従ってまだ見るべきものなく、会員に淋しい暗い気持ちを抱かせております。<br><br>この点につきまして大先生のお導きをお願いいたしとう存じます。<br><br> そういう問題は管長がやるべきです。<br><br>渋井さんと相談してみなさい。<br><br>経営はすべて本部管長がやることになっている。<br><br>分会長もいるんだからみんなで相談してやったらよい。<br><br> ――先日も管長に会ってお話ししたところ、管長とは名ばかりで実際は五六七会の会長であるからそのほうのことをしていると言われてました。<br><br> いままでは私がやってきた、で、その習慣が残っている。<br><br>宗教の形を整えたうえは管長が全部やるべきです。<br><br>が、そこまでまだ行ってないのです。<br><br>もうしばらく自然の動きに任せておけば定まることは定まる。<br><br>神様がやってられるんだから。<br><br>私はこうすればよいと自分で考えても神様のお考えと違うことは始終ある。<br><br>この家は狭いので去年広い家を買うことになったが、どうもその後うまく行かない。<br><br>こいつはおかしいと思ったのでよく調べたら、箱根のほうを先にやらねばならないんです。<br><br>それは箱根は五で熱海が六で小田原が七ですから、箱根の寮ができあがり使ってからでなくては駄目です。<br><br>こういうふうに人間の計画と神様の御計画とはちょいちょい違うんです。<br><br>神にお任せして時を待つんですね。<br><br>この間も中島の所へ二百万円の税金を納めろと言ってきた。<br><br>中島はびっくりして「そんな金はない」と言うと「この家はだれのだ」「自分のだ」「ではこの家を売って納めろ。<br><br>君の所はたいへんな収入がある、駅を降りて人々がみんな来るではないか」と言われ、中島は青くなってボーとしていた。<br><br>で、私は「いったいあんたはなにを信仰してるのか、なにも信仰してやしないじゃないか。<br><br>くよくよ心配するのは神を信じてないからだ。<br><br>人間のほうでそんな態度をとれば神様としてもおもしろくないですよ。<br><br>そんなに気をもむのは」そう言ったんで中島も判り、いままでのは形だけの信仰だということを悟ったんです。<br><br>ところが税金のほうもちゃんとうまく行って運動してくれる人が出て十分の一くらいですんでしまった。<br><br>私も思うように行かんなと思うときは神様にお任せする。<br><br>始終ありますよ。<br><br>私の所の税も五百万円だったが運動してくれる人が出て何分の一ですむことになってます。<br><br>霊的に言うと心配したりくよくよしたりすると霊が地獄へ落ちる。<br><br>始終自分の霊は天国にいなければ駄目だ。<br><br>どんなことがあっても気をもんだりしないならば霊は天国に行き、そこで神様はうまくやってくださる。<br><br>分会も文部省の命令で八つにした。<br><br>物を分ければ最初はうまく行かぬに決まっている。<br><br>滑らかに行かぬだろうとは思っていた。<br><br>しかし神様がやっておられるんだから日時が経てば円満になって行く。<br><br>ですからゆっくりと時を待つことです。<br><br>私は以前、治療士三訓を作り治療所へ貼らせた。<br><br>「いばるな、怒るな、早まるな」です。<br><br>三つのうちいずれか一つにでも該当したら治療士の資格がない。<br><br>結局こういうことにより自分が磨かれるんです。<br><br>神様の修行の中で一番大切なのはこっちを怒らせることです。<br><br>昔は私も神様からよく言われました。<br><br>以前は私も神様のことはよく判らず、はらわたが煮えくり返るように思ったこともあり、あまり癪（しゃく）に触って頭がボーとしてきたこともある。<br><br>私は二十年間借金で苦しみ、差し押さえも七、八回、破産したこともあります。<br><br>差し押さえられると箪笥の引き出しに封印しますが、その紙をそっとはいで引き出しを開けたこともあります。<br><br>あいつをはがすと刑事問題になるんですから怖いですよ。<br><br>上野毛の家には木札にこの家は仮処分の家だと書いてある。<br><br>あまり人目につかぬ所に立ててますが、実際借金には苦しみました。<br><br>また五島慶太もひどいことをしました。<br><br>離れを作ろうとして土台を作りすっかり準備したら建築停止をくわせた。<br><br>そのときも腹が立ちました。<br><br>ところがおもしろいのはね、箱根の観山亭を作るとき、その離れの材料をそっくりそのまま持って来たんで、観山亭はできたんです。<br><br>いまから考えればむしろお礼を言っていいくらいです。<br><br>計画を立ててやろうとしてもうまくできないときは、神様になにか思し召しがあるんだと考えることです。<br><br>熱海の家のことではいま両方とも困っている。<br><br>売ったほうでも困っている。<br><br>税務署は時価で評価するから二千万くらいになる。<br><br>それから税百六十万円を引くと千八百四十万円、それを双方で負担すると、先方は家を売ったうえに九百二十万円納めねばならない。<br><br>私のほうは法律的にはできるんですが、しかし人情としてそんなことはとてもできない。<br><br>それでいまはそのままにほおっているんです。<br><br>そこで私はこれはきっと神様がなにか御計画になっておられるなと考えている。<br><br>ある時期にはっきり判ってきます。<br><br>ついそこの畑地もやっぱり山下が持っているんですが、先だって「買わないか」と言ってきた。<br><br>私は「いらない」と言うと家内が「あすこに変なものでも建てると困るから買ってしまったら……」と言うので買うことにしたらもう売れてしまった。<br><br>私の所へ来たときは三十万円ほどだったが、後で聞いたら競り売りでだいぶ高くなったそうです。<br><br>ところがその買い手の人は熱海の請負師で渋井が仕事をさせてる人で「大先生が御入用ならいつでもお使いください」というわけです。<br><br>やっぱり必要なんですね。<br><br>必要なものはとんでもない所から入ってきますよ。<br><br>宗教になることだって私がしようと考えてしたんではない。<br><br>進駐軍の中佐の牧師がある程度この道を了解して、これが将来発展すると必ず医者と衝突して禁止される、それには宗教になってなければ……というわけで宗教になったんです。<br><br>まったくなってよかったんです。<br><br>これで全国の医師会との間に起っていたいろいろな問題もなくなってしまったんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diretrizes Divinas para a Fé e a Vida Cotidiana</h2>
 <p><strong>Pergunta: Qual o significado dos termos “Três Venenos” e “Cinco Impurezas”?</strong></p>
@@ -132,5 +284,48 @@ function toggleLang(lang) {
 <p>Quando traçamos um plano e ele não se concretiza, devemos pensar que Deus tem algum propósito maior. A questão da casa de Atami, por exemplo, está num impasse que prejudica ambas as partes. A parte vendedora também está em apuros. A receita federal avalia o imóvel pelo valor de mercado, cerca de vinte milhões de ienes. Descontado o imposto de 1,6 milhão, sobram 18,4 milhões. Se esse valor for dividido, a outra parte terá que, além de vender a casa, pagar 9,2 milhões. Legalmente, eu poderia resolver a situação a meu favor, mas, por uma questão de humanidade, jamais faria tal coisa. Por isso, deixei o assunto em suspenso. E agora, penso que Deus certamente tem um plano para tudo isso. Em algum momento, tudo ficará claro.</p>
 <p>O terreno vizinho também pertencia ao Sr. Yamashita, que um dia me procurou para oferecê-lo. Eu disse que não tinha interesse, mas minha esposa insistiu: “Seria um problema se construíssem algo inadequado aí. Por que não compramos?”. Quando me decidi, já havia sido vendido. A oferta inicial era de trezentos mil ienes, mas soube depois que foi a leilão e o preço subiu consideravelmente. O comprador, porém, era um empreiteiro de Atami que trabalha com o Sr. Shibui e que me disse: “Grande Mestre, se precisar do terreno, pode usá-lo quando quiser”. Vê-se que ele era, de fato, necessário. Aquilo de que necessitamos chega até nós das formas mais inesperadas.</p>
 <p>Até mesmo a decisão de nos tornarmos uma organização religiosa não partiu de mim. Foi um capelão do exército de ocupação, um tenente-coronel, que, compreendendo até certo ponto o nosso caminho, alertou-me: “Se esta prática continuar a se expandir, inevitavelmente entrará em conflito com a classe médica e será proibida. Para evitar isso, é preciso que se constituam como uma religião”. E assim o fizemos. Foi a melhor decisão possível. Com isso, todos os problemas que vínhamos enfrentando com as associações médicas de todo o país desapareceram.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年5月18日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年五月十八日 ――三毒五濁とはどんな意味でございましょうか。<br/><br/> 仏教にある言葉です。<br/><br/>三毒は貪（どん）、瞋（しん）、痴（ち）、これは字の通りです。<br/><br/>五濁のほうはまあいろいろな罪穢れです。<br/><br/>たいした意味はありません。<br/><br/>私は必要のないことは忘れてしまっています。<br/><br/>あまりよく記憶しているのも骨が折れますよ。<br/><br/>記憶のよかったのは大隈重信で、物忘れする人は羨ましいと言ってます。<br/><br/>むしろ忘れてしまいたいようなことまでも憶えている。<br/><br/>例えば庭で働く植木屋の賃金、いまはいくらいくらで何年前はいくらいくらだったとか、こういう木はこういうふうに植えるといいとかいったことまで憶えていた人です。<br/><br/>英国の元首相のバルフォアは数字がどうしても憶えられず、議会の演説で数字を読む場合には秘書が代わってやった。<br/><br/>自民党の吉田さんも頭が悪いですね、演説なんか聞いても下手です。<br/><br/>馬鹿とか利口とか言うことと記憶とはまったく関係ないとは言えなくても、そうたいして関係ない。<br/><br/>学校なんかも記憶のよい者が成績がよい。<br/><br/>だからそれが偉くなるとは限らない。<br/><br/>アインシュタインも学生のころ頭が悪くて落第したそうですね。<br/><br/>落第したってそう悲観する必要はありませんよ。<br/><br/> ――稲荷のお祀り、午と狐の関係は…… 毎月午の日、だいたい月初めにきめてやればよい。<br/><br/>お祀りを午の日にやるのもなにかあるんでしょう。<br/><br/>これも必要ないせいか憶えてません。<br/><br/>いわれはたしか聞いたことがあります。<br/><br/>初午だけはなるだけ盛大にしたほうがよい。<br/><br/> ――いままでお祀りしていた神様の御処分の方法は…… 祝詞を奉唱してこう言ったらよい。<br/><br/>「いままでいろいろ御守護ありがとうございました。<br/><br/>今度観音様をお祀りするようになりました。<br/><br/>つきましては今日限り元の御座にお帰りくださるようお願い申し上げます」と言ってから社は焼いてしまったらよい。<br/><br/>こう言えば神様はお帰りになって社はカラッポになるから。<br/><br/> ――家が狭いために床の間へ仏壇を置くのはいかがでしょうか。<br/><br/> 結構です。<br/><br/>先祖が光明如来の光を浴びるから霊界での向上が早い。<br/><br/> ――夕方のお祀りのとき御軸に善言讃詞をお上げいたしますが、仏壇にもやはり善言讃詞をお上げしたほうが……と存じますが…… 法事やお祀りのときは仏壇に善言讃詞を上げるが、ふだんは上げないほうがよい。<br/><br/>ただ最後の二句だけでよい。<br/><br/>もし上げるならば、観音様の御軸に祝詞と善言讃詞をお上げし、仏壇には善言讃詞だけ上げる。<br/><br/>こうしないと御軸と仏壇と格が一緒になってしまいますから。<br/><br/> ――今度の新しい大光明如来の御軸は…… 特別に書いたんです。<br/><br/>教導師には上げてもいいが、階級的ですから。<br/><br/>一般会員はいけません。<br/><br/>神様のことには民主的でない点がある。<br/><br/> 以前ある家に行ったら、神棚があり、どうも気にかかるので家人に訊ねたら、金光教の神様だがいまはあまりお祀りしてはいないというので神様にきいてみると、早く帰りたいのだが手続きしてくれないので帰れないと言ったことがあります。<br/><br/>やっぱり言霊で称えてもらわねば帰れないんです。<br/><br/>そういうものですよ。<br/><br/>言霊を称えずに社を焼いたりすると神様の居所がなくなるので宙ぶらりんになってしまう。<br/><br/>ですから言霊は大切なんです。<br/><br/>また階級が厳然たるものだから低い地位に観音様をお祀りしても観音様は来られない。<br/><br/> なにか神様をお祀りしたくなくなったら、それはやはり知らせなんだからよくお祀りしてお帰りになってもらったほうがよい。<br/><br/> ――天照皇大神と伊都能売大神の御経綸について……伊都能売大神につきましては『古事記』にも出ておりませんが…… 伊都能売大神のことは昔は言えなかった。<br/><br/>いい加減にボカしてあったんです。<br/><br/>天照皇大神は太陽神で、位は上だがお働きは限られる。<br/><br/>伊都能売大神は火と水で、仏界では観音様になる。<br/><br/>これに土のお働きが加わって弥勒になるのです。<br/><br/>天照皇大神は一つの力であり、伊都能売大神は二つ、弥勒大神は三つの御力となり、これが三位一体で完全になる。<br/><br/> ――弥勒大神は土の御力すなわち肉体をお持ちになって御出現と存じますが…… ええそう、そうです。<br/><br/> ――毎月十八日のお観音様の日にお祀りできない場合は―― 十七日にしたらよい。<br/><br/>神仏のお祀りや法事なぞは早くするのはよいが遅れるのはいけない。<br/><br/> ――国常立尊と天照皇大神の押し込められ給うたことの相違は…… 天照皇大神のことは割に近い。<br/><br/>近いと言ってもいまからだいぶ昔だが、ところが国常立尊のはそれよりずっと前で別個のことです。<br/><br/>国常立尊は天若彦命らにより艮に押し込められたが、天照皇大神は素盞嗚尊に攻められ御身が危くなって逃げられ、信州水上山へお逃げになり、その地でおかくれになった。<br/><br/>そして御髪の毛を切って御神体としてほうぼうへお祀りしたんです。<br/><br/>日枝神社なんかはそれです。<br/><br/> ――現在会員の会費の一部をもって積立金として積立て、将来会員のための福祉、例えば旅館のごとき宿泊設備、教会、農場、学校、治療所等々の建設を考えておりますが、大きな分会にはいろいろ福祉がありますが、私どもの分会はまだ小さく、従ってまだ見るべきものなく、会員に淋しい暗い気持ちを抱かせております。<br/><br/>この点につきまして大先生のお導きをお願いいたしとう存じます。<br/><br/> そういう問題は管長がやるべきです。<br/><br/>渋井さんと相談してみなさい。<br/><br/>経営はすべて本部管長がやることになっている。<br/><br/>分会長もいるんだからみんなで相談してやったらよい。<br/><br/> ――先日も管長に会ってお話ししたところ、管長とは名ばかりで実際は五六七会の会長であるからそのほうのことをしていると言われてました。<br/><br/> いままでは私がやってきた、で、その習慣が残っている。<br/><br/>宗教の形を整えたうえは管長が全部やるべきです。<br/><br/>が、そこまでまだ行ってないのです。<br/><br/>もうしばらく自然の動きに任せておけば定まることは定まる。<br/><br/>神様がやってられるんだから。<br/><br/>私はこうすればよいと自分で考えても神様のお考えと違うことは始終ある。<br/><br/>この家は狭いので去年広い家を買うことになったが、どうもその後うまく行かない。<br/><br/>こいつはおかしいと思ったのでよく調べたら、箱根のほうを先にやらねばならないんです。<br/><br/>それは箱根は五で熱海が六で小田原が七ですから、箱根の寮ができあがり使ってからでなくては駄目です。<br/><br/>こういうふうに人間の計画と神様の御計画とはちょいちょい違うんです。<br/><br/>神にお任せして時を待つんですね。<br/><br/>この間も中島の所へ二百万円の税金を納めろと言ってきた。<br/><br/>中島はびっくりして「そんな金はない」と言うと「この家はだれのだ」「自分のだ」「ではこの家を売って納めろ。<br/><br/>君の所はたいへんな収入がある、駅を降りて人々がみんな来るではないか」と言われ、中島は青くなってボーとしていた。<br/><br/>で、私は「いったいあんたはなにを信仰してるのか、なにも信仰してやしないじゃないか。<br/><br/>くよくよ心配するのは神を信じてないからだ。<br/><br/>人間のほうでそんな態度をとれば神様としてもおもしろくないですよ。<br/><br/>そんなに気をもむのは」そう言ったんで中島も判り、いままでのは形だけの信仰だということを悟ったんです。<br/><br/>ところが税金のほうもちゃんとうまく行って運動してくれる人が出て十分の一くらいですんでしまった。<br/><br/>私も思うように行かんなと思うときは神様にお任せする。<br/><br/>始終ありますよ。<br/><br/>私の所の税も五百万円だったが運動してくれる人が出て何分の一ですむことになってます。<br/><br/>霊的に言うと心配したりくよくよしたりすると霊が地獄へ落ちる。<br/><br/>始終自分の霊は天国にいなければ駄目だ。<br/><br/>どんなことがあっても気をもんだりしないならば霊は天国に行き、そこで神様はうまくやってくださる。<br/><br/>分会も文部省の命令で八つにした。<br/><br/>物を分ければ最初はうまく行かぬに決まっている。<br/><br/>滑らかに行かぬだろうとは思っていた。<br/><br/>しかし神様がやっておられるんだから日時が経てば円満になって行く。<br/><br/>ですからゆっくりと時を待つことです。<br/><br/>私は以前、治療士三訓を作り治療所へ貼らせた。<br/><br/>「いばるな、怒るな、早まるな」です。<br/><br/>三つのうちいずれか一つにでも該当したら治療士の資格がない。<br/><br/>結局こういうことにより自分が磨かれるんです。<br/><br/>神様の修行の中で一番大切なのはこっちを怒らせることです。<br/><br/>昔は私も神様からよく言われました。<br/><br/>以前は私も神様のことはよく判らず、はらわたが煮えくり返るように思ったこともあり、あまり癪（しゃく）に触って頭がボーとしてきたこともある。<br/><br/>私は二十年間借金で苦しみ、差し押さえも七、八回、破産したこともあります。<br/><br/>差し押さえられると箪笥の引き出しに封印しますが、その紙をそっとはいで引き出しを開けたこともあります。<br/><br/>あいつをはがすと刑事問題になるんですから怖いですよ。<br/><br/>上野毛の家には木札にこの家は仮処分の家だと書いてある。<br/><br/>あまり人目につかぬ所に立ててますが、実際借金には苦しみました。<br/><br/>また五島慶太もひどいことをしました。<br/><br/>離れを作ろうとして土台を作りすっかり準備したら建築停止をくわせた。<br/><br/>そのときも腹が立ちました。<br/><br/>ところがおもしろいのはね、箱根の観山亭を作るとき、その離れの材料をそっくりそのまま持って来たんで、観山亭はできたんです。<br/><br/>いまから考えればむしろお礼を言っていいくらいです。<br/><br/>計画を立ててやろうとしてもうまくできないときは、神様になにか思し召しがあるんだと考えることです。<br/><br/>熱海の家のことではいま両方とも困っている。<br/><br/>売ったほうでも困っている。<br/><br/>税務署は時価で評価するから二千万くらいになる。<br/><br/>それから税百六十万円を引くと千八百四十万円、それを双方で負担すると、先方は家を売ったうえに九百二十万円納めねばならない。<br/><br/>私のほうは法律的にはできるんですが、しかし人情としてそんなことはとてもできない。<br/><br/>それでいまはそのままにほおっているんです。<br/><br/>そこで私はこれはきっと神様がなにか御計画になっておられるなと考えている。<br/><br/>ある時期にはっきり判ってきます。<br/><br/>ついそこの畑地もやっぱり山下が持っているんですが、先だって「買わないか」と言ってきた。<br/><br/>私は「いらない」と言うと家内が「あすこに変なものでも建てると困るから買ってしまったら……」と言うので買うことにしたらもう売れてしまった。<br/><br/>私の所へ来たときは三十万円ほどだったが、後で聞いたら競り売りでだいぶ高くなったそうです。<br/><br/>ところがその買い手の人は熱海の請負師で渋井が仕事をさせてる人で「大先生が御入用ならいつでもお使いください」というわけです。<br/><br/>やっぱり必要なんですね。<br/><br/>必要なものはとんでもない所から入ってきますよ。<br/><br/>宗教になることだって私がしようと考えてしたんではない。<br/><br/>進駐軍の中佐の牧師がある程度この道を了解して、これが将来発展すると必ず医者と衝突して禁止される、それには宗教になってなければ……というわけで宗教になったんです。<br/><br/>まったくなってよかったんです。<br/><br/>これで全国の医師会との間に起っていたいろいろな問題もなくなってしまったんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

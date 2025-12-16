@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohikari</title>
 <link href="../style1.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <p align="center">
 <font face="HG正楷書体-PRO" size="3">―――　岡
                         田 自 観 師 の 論 文 集　――</font>
@@ -98,52 +299,6 @@
 <td align="center" colspan="2" width="50%">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 御光話録 （１号～１９号） （補） 画像はありません 御光話録 （１号～１９号） 昭和23年12月8日第１号発行 昭和25年6月13日発行の19号まで発刊。<br><br> Ｂ５版手書き謄写版、Ｂ６版手書き謄写版等数種類あり内容も異同がある。<br><br> 昭和23年10月28日から 昭和25年4月28日までの御面会記録。<br><br> 発行 日本観音教大成会本部 画像はありません 御光話録 発行年月日不明、推定昭和26年頃。<br><br> 和綴じカーボン複写手書き、138Ｐ。<br><br> 昭和23年1月1日より10月18日までの御面会記録。<br><br> 作成 日本観音教大成会本部 御光話録 （再版） 第１号 昭和30年 4月30日発行 Ｂ６版 100P 編集人 大沼光彦 印刷所 熱海商事株式会社 発行所 世界救世教出版部 明主様御昇天後記念再発行 序文 本冊子は､昭和廿三年十月より廿五年一月までの御参拝日に賜った、明主様の御教えを記録に取り、御光話録として、第一号より第八号までに編輯させて頂いたものでこゝに、明主様を御敬慕申上げて記念発行と致したものであります。<br><br> 御光話録 通称 「御光話録補」 昭和30年頃、初版（昭和23年1月1日より10月18日まで）に御光話録１号２号（10月28日から12月28日まで）を加え、昭和23年中の御面会記録としてハードカバーで出版。<br><br> Ａ５版 217Ｐ 活版印刷 奥付がないため正確な発行日時、発行者不明 ※大阪市に拠点を置いた教会が出版（全集より） ＮＯ． 発行年月日 収 録 内 容 岡田茂吉全集 （補） S26頃不詳 明主様との面会記録。<br><br>Ｓ23年 講話篇 1-356 第１号 S23.12. 8 明主様との面会記録。<br><br>Ｓ23年11月 講話篇 1-295 第２号 S24. 1. 8 明主様との面会記録。<br><br>Ｓ23年12月 講話篇 1-317 第３号 S24. 2. 8 明主様との面会記録。<br><br>Ｓ24年1月 講話篇 2- 7 第４号 S24.<b>.</b> 明主様との面会記録。<br><br>Ｓ24年2月 講話篇 2- 40 第５号 S24.<b>.</b> 明主様との面会記録。<br><br>Ｓ24年3月 講話篇 2- 74 第６号 S24. 4.23 明主様との面会記録。<br><br>特輯号 講話篇 2-102 第７号 S24. 5.13 明主様との面会記録。<br><br>Ｓ24年4月 講話篇 2-123 第８号 S24. 5.30 明主様との面会記録。<br><br>特輯号 講話篇 2-154 第９号 S24. 7.10 明主様との面会記録。<br><br>Ｓ24年5月 講話篇 2-219 第10号 S24. 7.30 明主様との面会記録。<br><br>特輯号 講話篇 2-184 第11号 S24. 8.21 明主様との面会記録。<br><br>特輯号 講話篇 2-256 第12号 S24. 9.21 明主様との面会記録。<br><br>Ｓ24年6月 講話篇 2-296 第13号 S24.10.21 明主様との面会記録。<br><br>Ｓ24年7月 講話篇 2-340 第14号 S24.11.20 明主様との面会記録。<br><br>Ｓ24年8月 講話篇 2-387 第15号 S24.12.10 明主様との面会記録。<br><br>Ｓ24年9.10月 講話篇 2-425 第16号 S25. 1.20 明主様との面会記録。<br><br>Ｓ24年11.12月 講話篇 2-465 第17号 S25. 2.28 明主様との面会記録。<br><br>Ｓ24.12・25.1月 講話篇 2-505 3-363 第18号 S25. 4.23 明主様との面会記録。<br><br>Ｓ25年2月 講話篇 3-374 第19号 S25. 6.13 明主様との面会記録。<br><br>Ｓ25年2.3.4月 講話篇 3-412
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Okada Jikan Shi Ronbunshushi</h2>
 <h2>Registro dos Diálogos com Meishu-Sama (Volumes 1 a 19 e Suplemento), Organizado por Publicação</h2>
@@ -524,5 +679,48 @@ Editora: Departamento de Publicações da Sekai Kyusei Kyo</p>
 </div>
 <p align="left">　</p>
 <p align="left">　</p>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 御光話録 （１号～１９号） （補） 画像はありません 御光話録 （１号～１９号） 昭和23年12月8日第１号発行 昭和25年6月13日発行の19号まで発刊。<br/><br/> Ｂ５版手書き謄写版、Ｂ６版手書き謄写版等数種類あり内容も異同がある。<br/><br/> 昭和23年10月28日から 昭和25年4月28日までの御面会記録。<br/><br/> 発行 日本観音教大成会本部 画像はありません 御光話録 発行年月日不明、推定昭和26年頃。<br/><br/> 和綴じカーボン複写手書き、138Ｐ。<br/><br/> 昭和23年1月1日より10月18日までの御面会記録。<br/><br/> 作成 日本観音教大成会本部 御光話録 （再版） 第１号 昭和30年 4月30日発行 Ｂ６版 100P 編集人 大沼光彦 印刷所 熱海商事株式会社 発行所 世界救世教出版部 明主様御昇天後記念再発行 序文 本冊子は､昭和廿三年十月より廿五年一月までの御参拝日に賜った、明主様の御教えを記録に取り、御光話録として、第一号より第八号までに編輯させて頂いたものでこゝに、明主様を御敬慕申上げて記念発行と致したものであります。<br/><br/> 御光話録 通称 「御光話録補」 昭和30年頃、初版（昭和23年1月1日より10月18日まで）に御光話録１号２号（10月28日から12月28日まで）を加え、昭和23年中の御面会記録としてハードカバーで出版。<br/><br/> Ａ５版 217Ｐ 活版印刷 奥付がないため正確な発行日時、発行者不明 ※大阪市に拠点を置いた教会が出版（全集より） ＮＯ． 発行年月日 収 録 内 容 岡田茂吉全集 （補） S26頃不詳 明主様との面会記録。<br/><br/>Ｓ23年 講話篇 1-356 第１号 S23.12. 8 明主様との面会記録。<br/><br/>Ｓ23年11月 講話篇 1-295 第２号 S24. 1. 8 明主様との面会記録。<br/><br/>Ｓ23年12月 講話篇 1-317 第３号 S24. 2. 8 明主様との面会記録。<br/><br/>Ｓ24年1月 講話篇 2- 7 第４号 S24.**.** 明主様との面会記録。<br/><br/>Ｓ24年2月 講話篇 2- 40 第５号 S24.**.** 明主様との面会記録。<br/><br/>Ｓ24年3月 講話篇 2- 74 第６号 S24. 4.23 明主様との面会記録。<br/><br/>特輯号 講話篇 2-102 第７号 S24. 5.13 明主様との面会記録。<br/><br/>Ｓ24年4月 講話篇 2-123 第８号 S24. 5.30 明主様との面会記録。<br/><br/>特輯号 講話篇 2-154 第９号 S24. 7.10 明主様との面会記録。<br/><br/>Ｓ24年5月 講話篇 2-219 第10号 S24. 7.30 明主様との面会記録。<br/><br/>特輯号 講話篇 2-184 第11号 S24. 8.21 明主様との面会記録。<br/><br/>特輯号 講話篇 2-256 第12号 S24. 9.21 明主様との面会記録。<br/><br/>Ｓ24年6月 講話篇 2-296 第13号 S24.10.21 明主様との面会記録。<br/><br/>Ｓ24年7月 講話篇 2-340 第14号 S24.11.20 明主様との面会記録。<br/><br/>Ｓ24年8月 講話篇 2-387 第15号 S24.12.10 明主様との面会記録。<br/><br/>Ｓ24年9.10月 講話篇 2-425 第16号 S25. 1.20 明主様との面会記録。<br/><br/>Ｓ24年11.12月 講話篇 2-465 第17号 S25. 2.28 明主様との面会記録。<br/><br/>Ｓ24.12・25.1月 講話篇 2-505 3-363 第18号 S25. 4.23 明主様との面会記録。<br/><br/>Ｓ25年2月 講話篇 3-374 第19号 S25. 6.13 明主様との面会記録。<br/><br/>Ｓ25年2.3.4月 講話篇 3-412</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

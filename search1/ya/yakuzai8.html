@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakuzai8</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬剤亡国論 薬毒怖るべし 『光』26号、昭和24(1949)年9月10日発行 八月十六日付朝日新聞「大人の社会科」欄にヒロポンとアドルムと題し左のごとき記事があった。<br><br> 織田作之助、太宰治、ミス・ワカナいずれもヒロポン、アドルムと心中したみたいなものだが近くは坂口安吾狂乱？のもとはこの興奮剤と催眠剤の中毒だという。<br><br> ヒロポンを五○粍（ミリグラム）ものみ下してカン馬のごとく原稿を書きなぐり、さて眠れぬからとアドルムを六○粍（ミリグラム）もかんで、酒と共に酔い倒れるこの反覆では、まるで中毒量と致死量の実験をしているようなもの、ヒロウをポンと吹きとばすからのヒロポンではない、実はギリシア語のフィロポノス（仕事を愛する）から発しているのだそうだ、科学的には１フェニル・２メチル・アミノ・プロパンという構造エフェドリンやアドレナリンと同族、長井博士がエフェドリン発見の途中漢薬麻黄（まおう）からすでに明治二十年代に作り出しているが、一九三五年アメリカのベンゼドリン一九三八年ドイツのベルヴィチンが出て、その興奮作用が再発見され昭和十六年からヒロポンとしてデビューした、戦後、引っぱりダコになったのは出版インフレの作家と徹夜ロケの芸能人のおかげである。<br><br> ヒロポンは、コーヒーのように大脳を刺激して興奮させ、一方、エフェドリンのように血圧をあげる、だからネムケやユウウツ感をふっとばし、動作は活発意想はほとばしり出て、多弁となる、ミス・ワカナの愛好したところだが、それはなけなしのエネルギーを一時に切って落したようなものだから、後ではガッカリ疲れ、相当の養生がいる、しかし小手術でもすぐ虚脱する人や、麻酔が切れたあとの興奮や、急性伝染病など血圧の異常降下にはもってこいだ、同類の市販品にはゼドリンホスピタンなどがある。<br><br> アドルムはかつてのカルモチン、ベロナール、アダリンに代って登場した催眠剤、化学的には１・２チクロヘキセナイル・エチル・バルビツール酸カルシウムという舌をかみそうな構造、カルモチンなどよりよく効く、興奮剤、催眠剤ともに濫用すれば、量がすすみ中毒症を呈するのは常識だが、麻薬と違って普通の人なら、ちょっとした自制心で回復できる、ヒロポン、アドルムで松沢〔病院〕ゆきにまでなるのは、恐らく素質のある場合だろうと東大神経科ではいっている。<br><br> 以上の記事は私の説を裏書している、各界の有名人が近頃のように次々死ぬのは全くこの薬剤中毒が最大原因である事は一点の疑いない事実である、右の記事にもあるように、薬剤の効果は一方に良ければ、他方に悪いという訳で、それがついに中毒化し薬剤が放せなくなる、ところがそれだけならいいが、強烈なる効目がある以上、薬毒が多分に含まれているからその薬毒のため、頭脳が変質したり、異常な衰弱を来したり、心臓に故障を及ばすので遂に死を招く事になろう。<br><br> 嗚呼、薬毒のいかにおそるべきかを一般に認識させたいのである。<br><br> (注) 松沢病院、東京都世田谷区にある都立精神病院。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Terrível Veneno dos Medicamentos</h2>
 <p>O jornal Asahi Shimbun, em sua edição de 16 de agosto, na coluna “Estudos Sociais para Adultos”, publicou um artigo intitulado “Philopon e Adorm”, com o seguinte teor:</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Conforme o próprio artigo sugere, os efeitos dos medicamentos, quando benéficos por um lado, são prejudiciais por outro. Essa dualidade acaba por gerar a dependência, tornando impossível abandonar seu uso. Contudo, o problema não se detém aí. Por possuírem uma ação tão intensa, tais substâncias contêm grande quantidade de yakudoku. É precisamente por causa desse yakudoku que o cérebro sofre alterações, o corpo padece de uma debilidade anormal e o coração é acometido por disfunções, o que, em última instância, acarreta a morte.</p>
 <p>Ah, como anseio que a sociedade em geral reconheça quão pavoroso é o yakudoku!</p>
 <p>(Nota) O Hospital Matsuzawa é um hospital psiquiátrico metropolitano localizado no distrito de Setagaya, em Tóquio.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬剤亡国論 薬毒怖るべし 『光』26号、昭和24(1949)年9月10日発行 八月十六日付朝日新聞「大人の社会科」欄にヒロポンとアドルムと題し左のごとき記事があった。<br/><br/> 織田作之助、太宰治、ミス・ワカナいずれもヒロポン、アドルムと心中したみたいなものだが近くは坂口安吾狂乱？のもとはこの興奮剤と催眠剤の中毒だという。<br/><br/> ヒロポンを五○粍（ミリグラム）ものみ下してカン馬のごとく原稿を書きなぐり、さて眠れぬからとアドルムを六○粍（ミリグラム）もかんで、酒と共に酔い倒れるこの反覆では、まるで中毒量と致死量の実験をしているようなもの、ヒロウをポンと吹きとばすからのヒロポンではない、実はギリシア語のフィロポノス（仕事を愛する）から発しているのだそうだ、科学的には１フェニル・２メチル・アミノ・プロパンという構造エフェドリンやアドレナリンと同族、長井博士がエフェドリン発見の途中漢薬麻黄（まおう）からすでに明治二十年代に作り出しているが、一九三五年アメリカのベンゼドリン一九三八年ドイツのベルヴィチンが出て、その興奮作用が再発見され昭和十六年からヒロポンとしてデビューした、戦後、引っぱりダコになったのは出版インフレの作家と徹夜ロケの芸能人のおかげである。<br/><br/> ヒロポンは、コーヒーのように大脳を刺激して興奮させ、一方、エフェドリンのように血圧をあげる、だからネムケやユウウツ感をふっとばし、動作は活発意想はほとばしり出て、多弁となる、ミス・ワカナの愛好したところだが、それはなけなしのエネルギーを一時に切って落したようなものだから、後ではガッカリ疲れ、相当の養生がいる、しかし小手術でもすぐ虚脱する人や、麻酔が切れたあとの興奮や、急性伝染病など血圧の異常降下にはもってこいだ、同類の市販品にはゼドリンホスピタンなどがある。<br/><br/> アドルムはかつてのカルモチン、ベロナール、アダリンに代って登場した催眠剤、化学的には１・２チクロヘキセナイル・エチル・バルビツール酸カルシウムという舌をかみそうな構造、カルモチンなどよりよく効く、興奮剤、催眠剤ともに濫用すれば、量がすすみ中毒症を呈するのは常識だが、麻薬と違って普通の人なら、ちょっとした自制心で回復できる、ヒロポン、アドルムで松沢〔病院〕ゆきにまでなるのは、恐らく素質のある場合だろうと東大神経科ではいっている。<br/><br/> 以上の記事は私の説を裏書している、各界の有名人が近頃のように次々死ぬのは全くこの薬剤中毒が最大原因である事は一点の疑いない事実である、右の記事にもあるように、薬剤の効果は一方に良ければ、他方に悪いという訳で、それがついに中毒化し薬剤が放せなくなる、ところがそれだけならいいが、強烈なる効目がある以上、薬毒が多分に含まれているからその薬毒のため、頭脳が変質したり、異常な衰弱を来したり、心臓に故障を及ばすので遂に死を招く事になろう。<br/><br/> 嗚呼、薬毒のいかにおそるべきかを一般に認識させたいのである。<br/><br/> (注) 松沢病院、東京都世田谷区にある都立精神病院。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

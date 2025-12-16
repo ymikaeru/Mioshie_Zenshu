@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教の収入に就て 『救世』56号、昭和25(1950)年4月1日発行 世の中は実に面白いものである、それは時々各有力方面の人が、本教の収入を調査しようと、あの手この手で苦心しているという事をよく耳にするが、これらは何のためかは知らないがまことに御苦労様である、これについて言いたい事は本教は真面目な宗教であって闇屋でも高利貸でもない、ただ神命のままに世を救い、人類の幸福を念願する以外何物もないのであるから、本教に対し疑念を持つ人達は他愛のない連中で、インチキ新聞や雑誌の興味的記事や、商売仇きのような手合が作ったデマなどを信じて、早呑込をしての結果であろう、したがって何よりも本教内部へ入って充分調査すれば真相を掴み得るにかかわらず全然触れようともしないで、ただデマを丸呑みにするのだから厄介千万であるからこういう事も一度かいても無駄でもあるまいと思って、この一文をかいたのである。<br><br> 問題は本教の収入が、他の宗教に比べて多過ぎるというのであるが、これは確かに認めるがさらばといってどうしようもないであろう、本教が特に収入が多いという原因であるが、この世智辛い世の中に何ら意味のないものに金を上げるような奇特の人はそうあるはずがない、なるほど世の中にはインチキや邪教もあり、それに騙される人もない事はないがそういう不純宗教は決して長く続くものではない、一時は多少世の中に騷がれるが、いつかは忘れられてしまう、そういう例も今までに数多くあるので吾々を目しても一応はそういう観方も無理はないと思うのである。<br><br> 話は本論に戻るが、本教の収入が多いという事は、本教の御利益が素晴しい事を物語っている、また御利益の多いという事は、神様の救いの力が強いからで、それは最高神が主宰され給うからである、そうして本教の方針として決して搾取手段は用いない、献金はすべて自発的で自由である、ところが医師から死の宣告を受けた者が助かったり、数十年来の難症が短期間に全治したり、病人の絶えない家庭が健康家庭になったりする以上、その絶大な感謝感激は止むに止まれないその結晶が献金となるのである、これら体験者の涙の滲むような報告はおかげばなしとして本紙に載せ切れない程来るので、この記事を一読しただけでも右の言のいささかも偽りのない事を知るであろう。<br><br> 右おかげばなしを読めば、その感謝の気持は例外なく自分と同じような病苦に悩んでいる者に知らしたいという熱意が泌み出ている、また本教が病無き世界、現世に地上天国を出現すべき一大経綸を現実に行っている以上、その援助こそこれ程生甲斐（いきがい）ある聖業はないと信ずるから、余裕ある人はその報恩の誠をこめて献金したいのはむしろ当然というべきである、恐らく濁世の世にこのような精神美は実に賞讃に価するものがあろう、しかるにこれを目して迷信とか邪教に溺るるとかいう非難を浴せる人達は、知らぬ事とは言いながら全く盲目であり、むしろ哀れむべき人間としか思えないのである、ところがこういう人々こそ救う必要があり、信徒が一団となって日夜奮励しつつあるのである、現在本教が地上天国模型を造るべく、箱根熱海の景勝地にすこぶる大規模な造営をしつつあるのもそれがためで、大部分は信徒の勤労奉仕で、皆人から何らの援助も受けず、手銭手弁当で、朝から晩までえいえい汗して働いているその崇高なる態度を見れば、何人といえども感激胸に迫るものがあろう、それも無理はない、何しろ死ぬべき生命を助けられたのであるから、その生命こそ神から与えられたものである事を、深く肝に銘じている以上、その熱誠も並々ならぬものがあるのである。<br><br> 以上によってみても、本教の収入が多ければ多い程救われる者が多い結果になり、それによって天国的善美の世界が作られるのであるから、この実状を知ったなら何人といえども大いに祝福すべく思うであろう、もし知ってなお反対の人は、気の毒ながらいつかは滅ぶべく運命づけられたる人というより外はないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimento sobre as Receitas de Nossa Igreja</h2>
 <p>O mundo é, de fato, um lugar curioso. Frequentemente, chegam aos meus ouvidos notícias de que pessoas influentes, de diversos setores, empenham-se com afinco, por todos os meios, para investigar as finanças de nossa Igreja. Ainda que suas razões nos escapem, é certamente um esforço digno de nota. A esse respeito, gostaria de afirmar que nossa instituição é uma religião de conduta ilibada, e não uma associação de mercadores do mercado negro ou de agiotas. Nosso único propósito é cumprir a Vontade Divina de salvar o mundo e ansiar pela felicidade da humanidade.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Ao ler essas histórias de graças, percebe-se que, sem exceção, emana delas um fervoroso anseio de compartilhar essa alegria com outras pessoas que sofrem de padecimentos semelhantes. Nossa Igreja está empenhada em concretizar o grandioso Plano Divino de manifestar o Paraíso na Terra, um mundo livre de doenças. Nesse sentido, crer que auxiliar esta Obra Sagrada é a mais nobre razão de viver (生甲斐, ikigai) e, para aqueles que possuem recursos, desejar expressar sua gratidão por meio de donativos é uma atitude perfeitamente natural. Em um mundo maculado, tal beleza espiritual é, sem dúvida, digna de admiração.</p>
 <p>Contudo, aqueles que nos lançam acusações, taxando-nos de supersticiosos ou de seguidores de um culto maligno, demonstram, embora por ignorância, uma completa cegueira. São, na verdade, seres dignos de compaixão. E são precisamente essas pessoas que mais necessitam de salvação, motivo pelo qual nossos fiéis, em um esforço conjunto, se dedicam dia e noite a essa missão. É também por essa razão que estamos atualmente erigindo, em larga escala, os protótipos do Paraíso Terrestre nos magníficos cenários de Hakone e Atami. A maior parte dessa construção é realizada pelo serviço devotado dos fiéis, que, sem qualquer auxílio externo, arcam com suas próprias despesas de transporte e alimentação, trabalhando com afinco e dedicação de manhã à noite. Observar sua atitude sublime comove profundamente qualquer espectador. E não é para menos. Afinal, tendo sido resgatados de uma morte certa, eles trazem gravado no âmago de seu ser que a vida que possuem é um presente de Deus. Por conseguinte, sua devoção é verdadeiramente extraordinária.</p>
 <p>Pelo exposto, fica evidente que, quanto maior a receita de nossa Igreja, maior o número de pessoas que estão sendo salvas; e, por meio delas, o mundo paradisíaco de bem e beleza vai se concretizando. Ao compreenderem essa realidade, certamente todas as pessoas de bom senso nos abençoarão grandemente. Quanto àqueles que, mesmo cientes da verdade, ainda se opõem a nós, resta-nos lamentar, pois não há outra forma de encará-los senão como indivíduos, desafortunadamente, fadados à perdição.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教の収入に就て 『救世』56号、昭和25(1950)年4月1日発行 世の中は実に面白いものである、それは時々各有力方面の人が、本教の収入を調査しようと、あの手この手で苦心しているという事をよく耳にするが、これらは何のためかは知らないがまことに御苦労様である、これについて言いたい事は本教は真面目な宗教であって闇屋でも高利貸でもない、ただ神命のままに世を救い、人類の幸福を念願する以外何物もないのであるから、本教に対し疑念を持つ人達は他愛のない連中で、インチキ新聞や雑誌の興味的記事や、商売仇きのような手合が作ったデマなどを信じて、早呑込をしての結果であろう、したがって何よりも本教内部へ入って充分調査すれば真相を掴み得るにかかわらず全然触れようともしないで、ただデマを丸呑みにするのだから厄介千万であるからこういう事も一度かいても無駄でもあるまいと思って、この一文をかいたのである。<br/><br/> 問題は本教の収入が、他の宗教に比べて多過ぎるというのであるが、これは確かに認めるがさらばといってどうしようもないであろう、本教が特に収入が多いという原因であるが、この世智辛い世の中に何ら意味のないものに金を上げるような奇特の人はそうあるはずがない、なるほど世の中にはインチキや邪教もあり、それに騙される人もない事はないがそういう不純宗教は決して長く続くものではない、一時は多少世の中に騷がれるが、いつかは忘れられてしまう、そういう例も今までに数多くあるので吾々を目しても一応はそういう観方も無理はないと思うのである。<br/><br/> 話は本論に戻るが、本教の収入が多いという事は、本教の御利益が素晴しい事を物語っている、また御利益の多いという事は、神様の救いの力が強いからで、それは最高神が主宰され給うからである、そうして本教の方針として決して搾取手段は用いない、献金はすべて自発的で自由である、ところが医師から死の宣告を受けた者が助かったり、数十年来の難症が短期間に全治したり、病人の絶えない家庭が健康家庭になったりする以上、その絶大な感謝感激は止むに止まれないその結晶が献金となるのである、これら体験者の涙の滲むような報告はおかげばなしとして本紙に載せ切れない程来るので、この記事を一読しただけでも右の言のいささかも偽りのない事を知るであろう。<br/><br/> 右おかげばなしを読めば、その感謝の気持は例外なく自分と同じような病苦に悩んでいる者に知らしたいという熱意が泌み出ている、また本教が病無き世界、現世に地上天国を出現すべき一大経綸を現実に行っている以上、その援助こそこれ程生甲斐（いきがい）ある聖業はないと信ずるから、余裕ある人はその報恩の誠をこめて献金したいのはむしろ当然というべきである、恐らく濁世の世にこのような精神美は実に賞讃に価するものがあろう、しかるにこれを目して迷信とか邪教に溺るるとかいう非難を浴せる人達は、知らぬ事とは言いながら全く盲目であり、むしろ哀れむべき人間としか思えないのである、ところがこういう人々こそ救う必要があり、信徒が一団となって日夜奮励しつつあるのである、現在本教が地上天国模型を造るべく、箱根熱海の景勝地にすこぶる大規模な造営をしつつあるのもそれがためで、大部分は信徒の勤労奉仕で、皆人から何らの援助も受けず、手銭手弁当で、朝から晩までえいえい汗して働いているその崇高なる態度を見れば、何人といえども感激胸に迫るものがあろう、それも無理はない、何しろ死ぬべき生命を助けられたのであるから、その生命こそ神から与えられたものである事を、深く肝に銘じている以上、その熱誠も並々ならぬものがあるのである。<br/><br/> 以上によってみても、本教の収入が多ければ多い程救われる者が多い結果になり、それによって天国的善美の世界が作られるのであるから、この実状を知ったなら何人といえども大いに祝福すべく思うであろう、もし知ってなお反対の人は、気の毒ながらいつかは滅ぶべく運命づけられたる人というより外はないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -1,194 +1,581 @@
 ﻿<html>
-
 <head>
-<meta http-equiv="Content-Type"
-content="text/html; charset=UTF-8">
-<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tengoku1</title>
-<link rel="stylesheet" type="text/css" href="../../style4.css">
-</head>
-
-<body bgcolor="#EFFFE6">
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="">
-    <input type="hidden" name="config" value="">
-    <div align="right">
-    <table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>――</strong></font>
-            <font size="2" face="HG正楷書体-PRO"><strong> 岡田自観師の論文集 ――</strong>　</font>
-            <font size="2" face="ＭＳ ゴシック"><strong>御教え検索</strong>：</font></p>
-            </td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35" bgcolor="#EFFFE6"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
-        </tr>
-    </table>
-    </div>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font></p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi"><font size="2">help</font></a></td>
+</tr>
+</table>
+</div>
 </form>
-
-<form action="../../../cgi/msearch.cgi" accept-charset="utf-8">
-    <input type="hidden" name="hint" value="ひらがな">
-    <input type="hidden" name="index" value="shiryo">
-    <input type="hidden" name="config" value="">
-    <div align="right">
-    <table border="0" cellpadding="0" cellspacing="0" width="90%">
-        <tr>
-            <td><p align="right"><font size="2" face="ＭＳ ゴシック"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
-            <td align="center" width="150" bgcolor="#EFFFE6"><font size="2"><input type="text" size="25" name="query"></font></td>
-            <td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"></font></td>
-            <td width="35">　</td>
-        </tr>
-    </table>
-    </div>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td><p align="right"><font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font></p></td>
+<td align="center" bgcolor="#EFFFE6" width="150"><font size="2"><input name="query" size="25" type="text"/></font></td>
+<td bgcolor="#EFFFE6"><font size="2"><input type="submit" value="検索"/></font></td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
 </form>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 天国の福音 天国の福音 昭和22年 2月 5日発行 B６版 409P 著者 岡田 茂吉 発行人 坂井 克行 印刷者 松僑 可吉 印刷所 玉友印刷合資会社 序文 そもそも全人類が要望する最大にして最後の目標は何であるか、それは一言にしていえば幸福そのものであろう。<br><br>これに対し否定する者は一人もあるまい。<br><br>しかしながら幸福を獲んとする者も、既に幸福を得てそれ以上を持続せんと欲する者も切離す事の出来ないものは、何といっても「身体の健康」であろう。<br><br>ナザレの聖者キリストはいった。<br><br>「なんじ、世界を得るとも生命を失わば何の益かあらん」と、宜（むべ）なるかなである。<br><br> この事のために人類は数千年来医学なるものを創成し進歩し発展させつつ今日に到った。<br><br>しかしながら悲しいかな、それ等の努力は無に等しいものである。<br><br>否現実は逆効果さえ示している。<br><br>その何よりの証左は文化民族全体の人口増加率逓減という悲しむべき一大事実である。<br><br> そうして以上のごとき逆効果はいかなる原因によるのであろうか、医学はそれ等に解答を与えない。<br><br>否与え得ないのである。<br><br>見よ英国を初め各国為政者のこの間題に対する憂慮は益々深刻になりつつある事実である。<br><br> しかるに私は数十年来この問題に没頭研鑚し、医学によらざる特殊的研究によって、その根原を突き止め得たのである。<br><br>それは医学そのものの根本に一大誤謬が伏在する事である。<br><br>そうして人間から病苦を除去し、溌剌たる健康人たらしめ、その結果として寿齢の延長可能に成功したのである。<br><br>実に全人類が何千年来翹望（ぎょうぼう）して熄（や）まなかったところの大理想がここに実現したのである。<br><br> 人間生命の延長というがごときは痴人の夢でしかないと誰もが想っていた。<br><br>この意味においてかかる偉大なる発見は人類史を通じて、その価値において恐らく他に比肩すべきものは絶無であろう。<br><br>故にこの新医術が全人類に及ぶ時こそ、世界は一大革命を起さない訳にはゆかない事を確信する。<br><br>しかし読者よ、驚くには当らない。<br><br>それは過去におけるがごとき血腥いものや憎悪に満ちた革命のそれとは雲泥の相違であり、実に歓喜と光明に輝くところのものである。<br><br>またこれによって永遠の平和の基礎は確立さるるであろう。<br><br> 私の言分はあまり大胆過ぎるかも知れない。<br><br>しかし読者よ、この書を熟読玩味しその内容を検討し、そうして実施するにおいてわずかの詐（いつわ）りのない事を認識するであろう事を私は信ずるのである。<br><br> そもそも文化の進歩とは何を意味するか。<br><br>言うまでもなく人類一人一人がより福祉を増す事にある。<br><br>しかもその基調としては何よりも人間の健康と生命の延長とであらねばならない。<br><br>今日までの人類は医学の進歩によってのみ達せらるべきものと信じ、あらゆる努力を傾倒し来った事は何人も知る通りである。<br><br> 一切の科学は目進月歩の進歩を遂げつつあるに拘わらず、最も重要であるべき人間生命の科学のみは一歩の前進だもないというのは一体いかなる訳であろうか。<br><br>なる程医学といえども他の科学に劣らざる絢爛（けんらん）たる外容は調えている。<br><br>大病院における手術室、無数の薬剤、顕微鏡装置、レントゲン、ラジウム、種々の光線放射設備等々はもとより、微に入り細にわたって学理を探究し、頻々たる新発見、新学説の発表等を観る時人間は幻惑されてしまう。<br><br>これによってついにはあらゆる病気は解決ざれ得ると思惟するのも無理からぬ事である。<br><br>しかるにも拘わらず、その目標は余りにも遠くしていずれの日に捉え得るがその日を知らない現状である。<br><br> 私は徒（いたず）らに医学を誹謗するものではない。<br><br>ただ余りにも医学の真目的と背反する方向に進みつつある現実に対し警告を発するのである。<br><br> そうして医学の最後の目的とは人間を無病者たらしむる事である。<br><br>いかに大衆の眼を驚かすべき様相といえども、右の目的に一歩一歩接近しつつないならば医学は科学の分野における無用の存在でしかない。<br><br> しかしながら医学にも功績はあった。<br><br>それは解剖と分析によって人体機能の詳細なる説明であって、これは一応感謝に価いすべきである。<br><br> その様な医学の誤謬になぜ人類は永い間気づかなかったのであろうか。<br><br>実に世界の奇蹟である。<br><br> 私の創成した医術によって、何千年間閉されていた神秘の扉はここに開かれたのである。<br><br>私は惟う、神は人間の健康をして本然の姿に立還らしむべく、かかる大事業の遂行を私に委ね給うたのではなかろうかと！ 西暦一九四五年十一月 著者識
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
-    <p><font size="4" face="ＭＳ ゴシック"><strong>天国の三等列車</strong></font><font
-    face="ＭＳ ゴシック"><strong>（１）光宝大教会　無涯生<br>
-    </strong><br>
-    『栄光』271号、昭和29(1954)年8月25日発行<br>
-    <br>
-    <strong>　（その一）博多から熱海まで<br>
-    </strong><br>
-    　六月十三日午後八時五十六分、博多発東京行急行列車「玄海」の発車ベルがけたたましく鳴り響いた。<br>
-    　送る人と送らるる人の応酬で、ホームは一しきりざわめいた。と、列車は静かに動き出した。<br>
-    　口を衝いて出る御目出とうの言葉。打ち振る手……手……溢るる歓喜の瞳と顔――折からの雨の中を幾人かの人は進行する列車を追いかけながら、手を打ち振り歓声を送っている。車窓から首を突き出しホームが視野を離るるまで手を差出して歓呼に応える。席に落着いて車内を見渡すと一行三十数名皆座席に着いたようである。ホッとする。<br>
-    　何しろ百三、四十名の一行が一つの列車に乗り込むことは、混雑を大きくすることは免かれぬということで、三つ四つの列車を選んでそれぞれ分乗することになったが、賢明な方法だったと思う。見渡すところ座席の取れない人は無いようだし、この塩梅ならばまずどの列車も皆座席が取れただろうと安心する。丁度梅雨季で団体旅行の少い時だけに恵まれた訳でもある。自分だけ席を取っても側で立っておられると、何とも言えず気づまりなものである。出発間際まで、そわそわとして落着けなかったみんなの気持も汽車に乗や込んで、一まずホッとした様子である。<br>
-    　和やかな歓談が朗かな笑い声を交えてあちこちから聞えて来る。謙虚で朗かな大家族が一室に相集ったと言った、ほほ笑ましい姿である。<br>
-    　雨は何時の間にか激しくなった模様で白い雨滴がめまぐるしく窓硝子を叩く。列車は単調な音を立てて闇の中を驀進する。<br>
-    　ウトウトとするうちに、“小倉”“小倉”と呼ぶ駅員の声にハッとして目を醒すと上屋のないホームで横なぐりの激しい雨風の中に合羽姿の男女数名。女の人が雨具も纏わず唐傘を斜に支えるようにして殆んど半身ずぶ濡れで立っている。<br>
-    　あっ――見送りだ。慌てて窓硝子を押し上げるとしぶきとともにドッときつい風が吹き込んで来る。見送りの一同の人々は先生方と頻りに挨拶を交しておられる摸様「お目出とうございます」「行ってらっしゃいませ」「有難う」「有難うございました」ザザーッと言う雨風の音に口々に交す言葉も半ば吹きちぎられるようである。<br>
-    　間もなくピリピリと発車の警笛。窓を閉めると見送りの人達の白い顔がちらちらと幻のように硝子窓を掠めて消えて行く。<br>
-    「有難うございました」独り呟いた。<br>
-    　関門トンネルを過ぎて下関で何人かの信者さんが乗り込み一しきり賑かな話し声が弾んでいたが、夜の更けるにつれて何時の間にか列車の中はシーンと静まりどこからとなく微かな鼾が洩れて来る。<br>
-    　じっと眸を閉じると瞼の裏に幻の様に信者さん達の見送りの時の笑顔が浮かぶ。ホームの雑閙（ざっとう）が思い出される。あの沢山の人々がこの列車に乗り込んでいる訳であろうが、その一人々々が定めし様々の運命の糸を手繰っていることであろう。急病で、愛人を追うて、金策に、商用に、あるいは新婚旅行に、等々、ただしかしこの一行の人々は、御祝典御参拝の願望が叶えられたという無上の光栄に感謝と感激に包まれて思いは斉（ひと）しく、ただ天国の苑熱海の空に飛んでいることであろう。<br>
-    <br>
-    　　　　〇　　　　〇　　　　〇<br>
-    <br>
-    　一夜を汽車の中に過ごし翌朝八時前に姫路駅に着いた。この時分から、列車の中は俄かに賑かになって来た。洗面、食事、朝の挨拶談笑の声が活発になり活気が滞って来た。京都駅のホームで洗面を済まし朝食を摂ることにした。<br>
-    　相変らず雨である。六月も半ばというのに汗という程の汗も出ぬのは全く雨のお蔭である。<br>
-    　みんな何の屈託もなく食べたり、眠ったり、話したり、窓外の目まぐるしく移や変り行く景色を静かに愛でつつ見送っている。<br>
-    　それは恰（あたか）も遠く山河を隔てた懐かしい父母の許に馳けつけて行く子供のようでもあり、小波を立て緑の影を浮かべて流るる小川のせせらぎを思わせるに相応しい姿でもある。<br>
-    　一人々々目と言う目が黒ダイヤのように澄み、ほほ笑みを包んだ顔の奥にはおよそ世の美醜を超えた言い知れぬ、何ものかが潜んでいるのを見逃すことはできないようだ。<br>
-    　「旅行を楽しく致しましょう」列車の隅に張り出されたポスターにこまごまと書かれた注意書がどこかよその国の事のような錯覚さえ感ずる。<br>
-    　列車の景物のような騒々しさ、不潔さ、不作法さ、お互がお互の胸を引っ掻き廻しているようないやな風景は、ささやかなこの列車の一角からは姿を消して仕舞っている。<br>
-    　網棚の荷物とにらめっこをしたり、カバンを深く抱きしめたりする味気ないとも情ないとも言いようのない思いからも解放されて、「自由」というものの真の姿のある一こまが、ここにあるように思われる。<br>
-    　いつの間にかうとうと眠りに入る。<br>
-    <br>
-    　　　　〇　　　　〇　　　　〇<br>
-    <br>
-    　「あと、一時間で熱海に着きます。お仕度をして下さい」係の人の注意の声がした。<br>
-    　熱海と言う声に弾かれたようにサッと緊張の空気が渡った。慌てて洗面に行くやら身繕いを直すやら荷物を取り纏めるやら、何となく急にざわめいて来た。<br>
-    　「この次のトンネルを出たら熱海ですから静かに素早く降りて下さい。停車は二分間ですから」と要領のよい注意がされた。<br>
-    　熱海駅に着くと数名の出迎えの青年の人が来ていてリスのような敏捷さで、アッと言う間に手荷物の処理を済まして貰った。<br>
-    　駅から旅館へはバスで――落着いた所は海岸沿いの○○旅館という見晴しのよい三階建の新築の家で、海に面した明るい気持のよい平屋であった。<br>
-    　すぐ目の前には広々とした相模灘がひらけ、青い澄みきった海が雨に煙る絵のような岬や島影を浮かべて潮の香とともに白い飛沫を揚げ、岸に迫るところに緑の山を背にし海に接した熱海の街が玩具の家を並べたように可愛ゆく立ち込んでいる姿が一眸のうちに収められる。一同御参拝の準備、入浴、食事も終り一昼夜の車中の汚れをサラリと落しのんびりとすがすがしい気持で、いよいよ明日の御参拝を待つばかりとはなった。<br>
-    　てすりにもたれて見入る雨に煙る夜の熱海の街の灯は美しいものである。数知れぬ電灯が、青や赤のネオンの灯を織り込んで海に沿い、あるいは高く、あるいは低く雨を浴びてキラキラときらめく有様は又とない絢爛さであった。<br>
-    　その夜、面白い事が起った。<br>
-    　それというのは、夜に入るも雨は小止みもなく降り続き何時止むとも判らぬ。宿の主人が心を遣い、明日の大祭への準備にと、雨傘と下駄の見本を斡旋してくれた。婦人方は紋服の用意をして来た人が多く、それでいて雨具の準備が整えてない。<br>
-    　「雨傘が○○円で下駄が○○円です」そんな説明がされたが一向希望者がない宿の主人もけげんな思いをした模様で、何としても割り切れないものを感じたようであった。<br>
-    　土砂降りの雨を目の前に明日の雨具を用意することは常識である。それに大変な人出で乗物の利用ができぬ事は勿論で、数十分を要する道中を思い合わすれば宿の主人でなくとも、割り切れぬ思いがするのが常識であろう。けれども皆の考えていることは少し違っている「待望の明日の日」天候にかけるみんなの期待と願望は大きく高いものがある。<br>
-    　雨の夜、平静な皆の姿は幾年間の歳月絶えず神秘の世界を現実にハッキリとのぞいて来た賜物で、その心境はメシヤ教信徒のみにゆるされた特権？であり、それ以外の如何なる人々も窺い知ることのできぬものであろう。<br>
-    　雨は夜徹し降り続いた。<br>
-    <br>
-    <strong>　（その二）　――御参拝――<br>
-    </strong><br>
-    　明くれば六月十五日、夜来の雨はピタリと止み、雲も次第に薄れ行き、天候は一変する模様。雨後のすがすがしさの中に栄ある御祝典を迎えることとなった。<br>
-    　御祝典は、十時からである。<br>
-    　一同四時起床、朝食を終えて五時旅館を出発、百何十名の一行は「メシヤ会館」へ歩を向けた。会場への道は既に先発の人々で埋められている。人の波をかき分けて足を早める。会館前に到着した時は、全身汗に滲んだ。<br>
-    　この時、会館前の広場は半ば人で埋り、振り返って見渡せば曲折すを参道を蜿蜒（えんえん）として続く参拝者の群が木の間を縫って懐見し、その人のうねりは遠く十数町の彼方熱海の街まで続くであろうと想像され、熱海市始まって以来の壮観であろうと思われた。<br>
-    　後から後から押し寄する人の波に埋ってじっと時の至るを待つばかりで、四囲の景観も思うように視野に入らず、屹然としてそそり立つ、メシヤ会館の偉容を飽かず仰ぎ見る許りである。<br>
-    　既に幾度か、その偉容に接した会館もこうして具さに仰ぎ見れば、新たな感懐に打たれるものがある。その極度に単純化された直線美と荘厳味は、瀟洒とか簡素とか言うありふれた言葉の尽くすところでなく、メシヤ教を語る示唆が含まれ、その表徴として意義深きものが蔵されているようである。<br>
-    　最近見た映画「聖衣」の豪華な絵巻がフト心に浮かんだ。<br>
-    　ゴルゴダの丘に十字架を背に刑場にひかるるキリストの忍苦の姿、目を覆うその最後、慕い集う幾百の信徒達の群が天を仰ぎ地に伏して慟哭する姿は今も瞳に残る。その画面に接した刹那、宗教に対する迫害が、昔も今も変りなく様々の姿で襲い来る事が思い浮かべられて胸を圧し、押し寄する激情を制することができなかった。そして権力者の暴虐に対する憤り以上にキリストの深い愛に魂をゆすぶられた。<br>
-    　「これも人類の辿らねばならぬ過程であったか」そんな思いと同時に、次の瞬間二千有余年の星霜が様々の起伏を超えて、今最後の大峠に差掛った姿がクッキリと思い浮かべられた。<br>
-    　最近キリスト教の映画が大がかりな企画でものされ次々と上映さるるが、その都度胸を打たるるものがある。<br>
-    　それは聖者達の予言が、いよいよ実現の時が迫った事を暗示する足音と聞えるからである。<br>
-    　今やローマ帝国の末路を幾十倍かに引き延したような、混迷醜悪名状し難く施す術もなき世相と世界状勢は唯物文明のドタン場の姿であり、水素爆弾の出現こそ正に止めの一撃である。人類の歴史は、ここに明確な一線を画すべき時に逢着したものと言うべく、世の終りといい、最後の審判と言う言葉が同意語であり、予言は既に現実のものであることに思い及べば「救世主出現」は何の不思議さもあるべきでない。それは太陽が東の空に出づるが如く大宇宙の神秘の顕現に外ならぬ。人類は、遅疑するところなく速かに「救世主出現」を仰ぎ素直にその前に跪坐すべきである。<br>
-    　空は刻一刻に明るさを増し陽光を望む兆となり、一種名状し難い神秘が感ぜられた。<br>
-    　九時少し前に開門の合図があった。<br>
-    　間もなくどこからともなくどよめきが起った。先頭の人々がのまるる様に館内に消えるのが認められた。人々の渦に巻き込まれたまま何時とはなしに館内に這入った。そして無意識のうちに前方へ前方へと押し進んだ。<br>
-    　やがてそこここに混雑の渦が起ったと思うまもなく、大きなうねりとなって迫って来た。<br>
-    　「これはいけない」そう思った時は身体は宙に浮き始めた。<br>
-    　掛りの人の制御と――自制――<br>
-    　数分で混雑はハタと止んだ。何しろ一万人を超える人が一時に流れ込んだのであり、身体を密着して棒立ちになっているので、こんな僅かな時間と、僅かな混雑で済んだのは寧ろ不思議であった。<br>
-    　入口に出て汗を拭き遥かに参道を眺めると参拝者の群は、依然として続いている。既に八分以上の入場である。「収容しきれるだろうか」独り呟いた。<br>
-    　丁度この時分から雲が切れて、サッと陽が射して来た。時間が迫るにつれ館内は文字通り立錐の余地無きまでとなり、参拝者数一万五千余名と算せられた。<br>
-    　既に三時間ないし四時間に亘り人いきれの中に突っ立ったままの人々が疲労の色もなく目を輝かして、御祝典の一際を静かに待ち設けている。<br>
-    　不意に腰の曲ったお婆さんが、杖をついてヌーッと出てきたので「オヤこんなお婆さんが来ていたのかなあ」と思って何となく意外に感じて思わず目を見張った。<br>
-    　男も女も殆んど青年か中年の人ばかりで、老人はあまり見かけない。そして元気そうな人ばかりである。<br>
-    　「そうだこんなに健者そうに見えているが、実はあのお蔭話に出ているように医者に見放され死の寸前を彷徨（さまよ）うた人達ばかりなんだ。既にこの世にない人達が新しき生命を亨け、新しき世界に生きる悦び――有り得べからざる不思議な現実」改めて人々の顔をつくづくと見直し、身の引き締る思いがするとともに、何ともたとえようのない感激が一時に湧き上って来た。<br>
-    　御祝典は刻々に近づいて行く。<br>
-    　一万数千の魂はより集う数十万の魂と相合して一団の巨火となり、やがて煌々として白光を放って燃え上る一瞬。<br>
-    　それは最早、その片鱗すらも筆舌の良くするところでない。<br>
-    　これを伝えるものは声なき声、音なき音のみ、やがて見えざる光とともに時の流れに副いて全世界を押し包むに至るであろう。<br>
-    　御祝典終了後午後一時から夜十時迄咲見町仮本殿において天然色映画「東方の光」の外語版が上映された。映画は「明主様」の御尊影の数々、箱根神仙郷の神苑と美術館、熱海瑞雲台の花園等で終始感激のうちに拝観を終った。<br>
-    「御目出とうございます」<br>
-    「御目出とう存じます」<br>
-    「ほんとうに、しあわせでございました」そう言った言集が到るところで聞かれた。<br>
-    　その一言一句の中に千万語に尽くし難い、深い感懐がこめらたていた。<br>
-    　　　　　　（以下次号）<br>
-    <br>
-    <br>
-    <br>
-    <br>
-    </font></p>
+<p><font face="ＭＳ ゴシック" size="4"><strong>天国の三等列車</strong></font><font face="ＭＳ ゴシック"><strong>（１）光宝大教会　無涯生<br/>
+</strong><br/>
+    『栄光』271号、昭和29(1954)年8月25日発行<br/>
+<br/>
+<strong>　（その一）博多から熱海まで<br/>
+</strong><br/>
+    　六月十三日午後八時五十六分、博多発東京行急行列車「玄海」の発車ベルがけたたましく鳴り響いた。<br/>
+    　送る人と送らるる人の応酬で、ホームは一しきりざわめいた。と、列車は静かに動き出した。<br/>
+    　口を衝いて出る御目出とうの言葉。打ち振る手……手……溢るる歓喜の瞳と顔――折からの雨の中を幾人かの人は進行する列車を追いかけながら、手を打ち振り歓声を送っている。車窓から首を突き出しホームが視野を離るるまで手を差出して歓呼に応える。席に落着いて車内を見渡すと一行三十数名皆座席に着いたようである。ホッとする。<br/>
+    　何しろ百三、四十名の一行が一つの列車に乗り込むことは、混雑を大きくすることは免かれぬということで、三つ四つの列車を選んでそれぞれ分乗することになったが、賢明な方法だったと思う。見渡すところ座席の取れない人は無いようだし、この塩梅ならばまずどの列車も皆座席が取れただろうと安心する。丁度梅雨季で団体旅行の少い時だけに恵まれた訳でもある。自分だけ席を取っても側で立っておられると、何とも言えず気づまりなものである。出発間際まで、そわそわとして落着けなかったみんなの気持も汽車に乗や込んで、一まずホッとした様子である。<br/>
+    　和やかな歓談が朗かな笑い声を交えてあちこちから聞えて来る。謙虚で朗かな大家族が一室に相集ったと言った、ほほ笑ましい姿である。<br/>
+    　雨は何時の間にか激しくなった模様で白い雨滴がめまぐるしく窓硝子を叩く。列車は単調な音を立てて闇の中を驀進する。<br/>
+    　ウトウトとするうちに、“小倉”“小倉”と呼ぶ駅員の声にハッとして目を醒すと上屋のないホームで横なぐりの激しい雨風の中に合羽姿の男女数名。女の人が雨具も纏わず唐傘を斜に支えるようにして殆んど半身ずぶ濡れで立っている。<br/>
+    　あっ――見送りだ。慌てて窓硝子を押し上げるとしぶきとともにドッときつい風が吹き込んで来る。見送りの一同の人々は先生方と頻りに挨拶を交しておられる摸様「お目出とうございます」「行ってらっしゃいませ」「有難う」「有難うございました」ザザーッと言う雨風の音に口々に交す言葉も半ば吹きちぎられるようである。<br/>
+    　間もなくピリピリと発車の警笛。窓を閉めると見送りの人達の白い顔がちらちらと幻のように硝子窓を掠めて消えて行く。<br/>
+    「有難うございました」独り呟いた。<br/>
+    　関門トンネルを過ぎて下関で何人かの信者さんが乗り込み一しきり賑かな話し声が弾んでいたが、夜の更けるにつれて何時の間にか列車の中はシーンと静まりどこからとなく微かな鼾が洩れて来る。<br/>
+    　じっと眸を閉じると瞼の裏に幻の様に信者さん達の見送りの時の笑顔が浮かぶ。ホームの雑閙（ざっとう）が思い出される。あの沢山の人々がこの列車に乗り込んでいる訳であろうが、その一人々々が定めし様々の運命の糸を手繰っていることであろう。急病で、愛人を追うて、金策に、商用に、あるいは新婚旅行に、等々、ただしかしこの一行の人々は、御祝典御参拝の願望が叶えられたという無上の光栄に感謝と感激に包まれて思いは斉（ひと）しく、ただ天国の苑熱海の空に飛んでいることであろう。<br/>
+<br/>
+    　　　　〇　　　　〇　　　　〇<br/>
+<br/>
+    　一夜を汽車の中に過ごし翌朝八時前に姫路駅に着いた。この時分から、列車の中は俄かに賑かになって来た。洗面、食事、朝の挨拶談笑の声が活発になり活気が滞って来た。京都駅のホームで洗面を済まし朝食を摂ることにした。<br/>
+    　相変らず雨である。六月も半ばというのに汗という程の汗も出ぬのは全く雨のお蔭である。<br/>
+    　みんな何の屈託もなく食べたり、眠ったり、話したり、窓外の目まぐるしく移や変り行く景色を静かに愛でつつ見送っている。<br/>
+    　それは恰（あたか）も遠く山河を隔てた懐かしい父母の許に馳けつけて行く子供のようでもあり、小波を立て緑の影を浮かべて流るる小川のせせらぎを思わせるに相応しい姿でもある。<br/>
+    　一人々々目と言う目が黒ダイヤのように澄み、ほほ笑みを包んだ顔の奥にはおよそ世の美醜を超えた言い知れぬ、何ものかが潜んでいるのを見逃すことはできないようだ。<br/>
+    　「旅行を楽しく致しましょう」列車の隅に張り出されたポスターにこまごまと書かれた注意書がどこかよその国の事のような錯覚さえ感ずる。<br/>
+    　列車の景物のような騒々しさ、不潔さ、不作法さ、お互がお互の胸を引っ掻き廻しているようないやな風景は、ささやかなこの列車の一角からは姿を消して仕舞っている。<br/>
+    　網棚の荷物とにらめっこをしたり、カバンを深く抱きしめたりする味気ないとも情ないとも言いようのない思いからも解放されて、「自由」というものの真の姿のある一こまが、ここにあるように思われる。<br/>
+    　いつの間にかうとうと眠りに入る。<br/>
+<br/>
+    　　　　〇　　　　〇　　　　〇<br/>
+<br/>
+    　「あと、一時間で熱海に着きます。お仕度をして下さい」係の人の注意の声がした。<br/>
+    　熱海と言う声に弾かれたようにサッと緊張の空気が渡った。慌てて洗面に行くやら身繕いを直すやら荷物を取り纏めるやら、何となく急にざわめいて来た。<br/>
+    　「この次のトンネルを出たら熱海ですから静かに素早く降りて下さい。停車は二分間ですから」と要領のよい注意がされた。<br/>
+    　熱海駅に着くと数名の出迎えの青年の人が来ていてリスのような敏捷さで、アッと言う間に手荷物の処理を済まして貰った。<br/>
+    　駅から旅館へはバスで――落着いた所は海岸沿いの○○旅館という見晴しのよい三階建の新築の家で、海に面した明るい気持のよい平屋であった。<br/>
+    　すぐ目の前には広々とした相模灘がひらけ、青い澄みきった海が雨に煙る絵のような岬や島影を浮かべて潮の香とともに白い飛沫を揚げ、岸に迫るところに緑の山を背にし海に接した熱海の街が玩具の家を並べたように可愛ゆく立ち込んでいる姿が一眸のうちに収められる。一同御参拝の準備、入浴、食事も終り一昼夜の車中の汚れをサラリと落しのんびりとすがすがしい気持で、いよいよ明日の御参拝を待つばかりとはなった。<br/>
+    　てすりにもたれて見入る雨に煙る夜の熱海の街の灯は美しいものである。数知れぬ電灯が、青や赤のネオンの灯を織り込んで海に沿い、あるいは高く、あるいは低く雨を浴びてキラキラときらめく有様は又とない絢爛さであった。<br/>
+    　その夜、面白い事が起った。<br/>
+    　それというのは、夜に入るも雨は小止みもなく降り続き何時止むとも判らぬ。宿の主人が心を遣い、明日の大祭への準備にと、雨傘と下駄の見本を斡旋してくれた。婦人方は紋服の用意をして来た人が多く、それでいて雨具の準備が整えてない。<br/>
+    　「雨傘が○○円で下駄が○○円です」そんな説明がされたが一向希望者がない宿の主人もけげんな思いをした模様で、何としても割り切れないものを感じたようであった。<br/>
+    　土砂降りの雨を目の前に明日の雨具を用意することは常識である。それに大変な人出で乗物の利用ができぬ事は勿論で、数十分を要する道中を思い合わすれば宿の主人でなくとも、割り切れぬ思いがするのが常識であろう。けれども皆の考えていることは少し違っている「待望の明日の日」天候にかけるみんなの期待と願望は大きく高いものがある。<br/>
+    　雨の夜、平静な皆の姿は幾年間の歳月絶えず神秘の世界を現実にハッキリとのぞいて来た賜物で、その心境はメシヤ教信徒のみにゆるされた特権？であり、それ以外の如何なる人々も窺い知ることのできぬものであろう。<br/>
+    　雨は夜徹し降り続いた。<br/>
+<br/>
+<strong>　（その二）　――御参拝――<br/>
+</strong><br/>
+    　明くれば六月十五日、夜来の雨はピタリと止み、雲も次第に薄れ行き、天候は一変する模様。雨後のすがすがしさの中に栄ある御祝典を迎えることとなった。<br/>
+    　御祝典は、十時からである。<br/>
+    　一同四時起床、朝食を終えて五時旅館を出発、百何十名の一行は「メシヤ会館」へ歩を向けた。会場への道は既に先発の人々で埋められている。人の波をかき分けて足を早める。会館前に到着した時は、全身汗に滲んだ。<br/>
+    　この時、会館前の広場は半ば人で埋り、振り返って見渡せば曲折すを参道を蜿蜒（えんえん）として続く参拝者の群が木の間を縫って懐見し、その人のうねりは遠く十数町の彼方熱海の街まで続くであろうと想像され、熱海市始まって以来の壮観であろうと思われた。<br/>
+    　後から後から押し寄する人の波に埋ってじっと時の至るを待つばかりで、四囲の景観も思うように視野に入らず、屹然としてそそり立つ、メシヤ会館の偉容を飽かず仰ぎ見る許りである。<br/>
+    　既に幾度か、その偉容に接した会館もこうして具さに仰ぎ見れば、新たな感懐に打たれるものがある。その極度に単純化された直線美と荘厳味は、瀟洒とか簡素とか言うありふれた言葉の尽くすところでなく、メシヤ教を語る示唆が含まれ、その表徴として意義深きものが蔵されているようである。<br/>
+    　最近見た映画「聖衣」の豪華な絵巻がフト心に浮かんだ。<br/>
+    　ゴルゴダの丘に十字架を背に刑場にひかるるキリストの忍苦の姿、目を覆うその最後、慕い集う幾百の信徒達の群が天を仰ぎ地に伏して慟哭する姿は今も瞳に残る。その画面に接した刹那、宗教に対する迫害が、昔も今も変りなく様々の姿で襲い来る事が思い浮かべられて胸を圧し、押し寄する激情を制することができなかった。そして権力者の暴虐に対する憤り以上にキリストの深い愛に魂をゆすぶられた。<br/>
+    　「これも人類の辿らねばならぬ過程であったか」そんな思いと同時に、次の瞬間二千有余年の星霜が様々の起伏を超えて、今最後の大峠に差掛った姿がクッキリと思い浮かべられた。<br/>
+    　最近キリスト教の映画が大がかりな企画でものされ次々と上映さるるが、その都度胸を打たるるものがある。<br/>
+    　それは聖者達の予言が、いよいよ実現の時が迫った事を暗示する足音と聞えるからである。<br/>
+    　今やローマ帝国の末路を幾十倍かに引き延したような、混迷醜悪名状し難く施す術もなき世相と世界状勢は唯物文明のドタン場の姿であり、水素爆弾の出現こそ正に止めの一撃である。人類の歴史は、ここに明確な一線を画すべき時に逢着したものと言うべく、世の終りといい、最後の審判と言う言葉が同意語であり、予言は既に現実のものであることに思い及べば「救世主出現」は何の不思議さもあるべきでない。それは太陽が東の空に出づるが如く大宇宙の神秘の顕現に外ならぬ。人類は、遅疑するところなく速かに「救世主出現」を仰ぎ素直にその前に跪坐すべきである。<br/>
+    　空は刻一刻に明るさを増し陽光を望む兆となり、一種名状し難い神秘が感ぜられた。<br/>
+    　九時少し前に開門の合図があった。<br/>
+    　間もなくどこからともなくどよめきが起った。先頭の人々がのまるる様に館内に消えるのが認められた。人々の渦に巻き込まれたまま何時とはなしに館内に這入った。そして無意識のうちに前方へ前方へと押し進んだ。<br/>
+    　やがてそこここに混雑の渦が起ったと思うまもなく、大きなうねりとなって迫って来た。<br/>
+    　「これはいけない」そう思った時は身体は宙に浮き始めた。<br/>
+    　掛りの人の制御と――自制――<br/>
+    　数分で混雑はハタと止んだ。何しろ一万人を超える人が一時に流れ込んだのであり、身体を密着して棒立ちになっているので、こんな僅かな時間と、僅かな混雑で済んだのは寧ろ不思議であった。<br/>
+    　入口に出て汗を拭き遥かに参道を眺めると参拝者の群は、依然として続いている。既に八分以上の入場である。「収容しきれるだろうか」独り呟いた。<br/>
+    　丁度この時分から雲が切れて、サッと陽が射して来た。時間が迫るにつれ館内は文字通り立錐の余地無きまでとなり、参拝者数一万五千余名と算せられた。<br/>
+    　既に三時間ないし四時間に亘り人いきれの中に突っ立ったままの人々が疲労の色もなく目を輝かして、御祝典の一際を静かに待ち設けている。<br/>
+    　不意に腰の曲ったお婆さんが、杖をついてヌーッと出てきたので「オヤこんなお婆さんが来ていたのかなあ」と思って何となく意外に感じて思わず目を見張った。<br/>
+    　男も女も殆んど青年か中年の人ばかりで、老人はあまり見かけない。そして元気そうな人ばかりである。<br/>
+    　「そうだこんなに健者そうに見えているが、実はあのお蔭話に出ているように医者に見放され死の寸前を彷徨（さまよ）うた人達ばかりなんだ。既にこの世にない人達が新しき生命を亨け、新しき世界に生きる悦び――有り得べからざる不思議な現実」改めて人々の顔をつくづくと見直し、身の引き締る思いがするとともに、何ともたとえようのない感激が一時に湧き上って来た。<br/>
+    　御祝典は刻々に近づいて行く。<br/>
+    　一万数千の魂はより集う数十万の魂と相合して一団の巨火となり、やがて煌々として白光を放って燃え上る一瞬。<br/>
+    　それは最早、その片鱗すらも筆舌の良くするところでない。<br/>
+    　これを伝えるものは声なき声、音なき音のみ、やがて見えざる光とともに時の流れに副いて全世界を押し包むに至るであろう。<br/>
+    　御祝典終了後午後一時から夜十時迄咲見町仮本殿において天然色映画「東方の光」の外語版が上映された。映画は「明主様」の御尊影の数々、箱根神仙郷の神苑と美術館、熱海瑞雲台の花園等で終始感激のうちに拝観を終った。<br/>
+    「御目出とうございます」<br/>
+    「御目出とう存じます」<br/>
+    「ほんとうに、しあわせでございました」そう言った言集が到るところで聞かれた。<br/>
+    　その一言一句の中に千万語に尽くし難い、深い感懐がこめらたていた。<br/>
+    　　　　　　（以下次号）<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 天国の福音 天国の福音 昭和22年 2月 5日発行 B６版 409P 著者 岡田 茂吉 発行人 坂井 克行 印刷者 松僑 可吉 印刷所 玉友印刷合資会社 序文 そもそも全人類が要望する最大にして最後の目標は何であるか、それは一言にしていえば幸福そのものであろう。<br/><br/>これに対し否定する者は一人もあるまい。<br/><br/>しかしながら幸福を獲んとする者も、既に幸福を得てそれ以上を持続せんと欲する者も切離す事の出来ないものは、何といっても「身体の健康」であろう。<br/><br/>ナザレの聖者キリストはいった。<br/><br/>「なんじ、世界を得るとも生命を失わば何の益かあらん」と、宜（むべ）なるかなである。<br/><br/> この事のために人類は数千年来医学なるものを創成し進歩し発展させつつ今日に到った。<br/><br/>しかしながら悲しいかな、それ等の努力は無に等しいものである。<br/><br/>否現実は逆効果さえ示している。<br/><br/>その何よりの証左は文化民族全体の人口増加率逓減という悲しむべき一大事実である。<br/><br/> そうして以上のごとき逆効果はいかなる原因によるのであろうか、医学はそれ等に解答を与えない。<br/><br/>否与え得ないのである。<br/><br/>見よ英国を初め各国為政者のこの間題に対する憂慮は益々深刻になりつつある事実である。<br/><br/> しかるに私は数十年来この問題に没頭研鑚し、医学によらざる特殊的研究によって、その根原を突き止め得たのである。<br/><br/>それは医学そのものの根本に一大誤謬が伏在する事である。<br/><br/>そうして人間から病苦を除去し、溌剌たる健康人たらしめ、その結果として寿齢の延長可能に成功したのである。<br/><br/>実に全人類が何千年来翹望（ぎょうぼう）して熄（や）まなかったところの大理想がここに実現したのである。<br/><br/> 人間生命の延長というがごときは痴人の夢でしかないと誰もが想っていた。<br/><br/>この意味においてかかる偉大なる発見は人類史を通じて、その価値において恐らく他に比肩すべきものは絶無であろう。<br/><br/>故にこの新医術が全人類に及ぶ時こそ、世界は一大革命を起さない訳にはゆかない事を確信する。<br/><br/>しかし読者よ、驚くには当らない。<br/><br/>それは過去におけるがごとき血腥いものや憎悪に満ちた革命のそれとは雲泥の相違であり、実に歓喜と光明に輝くところのものである。<br/><br/>またこれによって永遠の平和の基礎は確立さるるであろう。<br/><br/> 私の言分はあまり大胆過ぎるかも知れない。<br/><br/>しかし読者よ、この書を熟読玩味しその内容を検討し、そうして実施するにおいてわずかの詐（いつわ）りのない事を認識するであろう事を私は信ずるのである。<br/><br/> そもそも文化の進歩とは何を意味するか。<br/><br/>言うまでもなく人類一人一人がより福祉を増す事にある。<br/><br/>しかもその基調としては何よりも人間の健康と生命の延長とであらねばならない。<br/><br/>今日までの人類は医学の進歩によってのみ達せらるべきものと信じ、あらゆる努力を傾倒し来った事は何人も知る通りである。<br/><br/> 一切の科学は目進月歩の進歩を遂げつつあるに拘わらず、最も重要であるべき人間生命の科学のみは一歩の前進だもないというのは一体いかなる訳であろうか。<br/><br/>なる程医学といえども他の科学に劣らざる絢爛（けんらん）たる外容は調えている。<br/><br/>大病院における手術室、無数の薬剤、顕微鏡装置、レントゲン、ラジウム、種々の光線放射設備等々はもとより、微に入り細にわたって学理を探究し、頻々たる新発見、新学説の発表等を観る時人間は幻惑されてしまう。<br/><br/>これによってついにはあらゆる病気は解決ざれ得ると思惟するのも無理からぬ事である。<br/><br/>しかるにも拘わらず、その目標は余りにも遠くしていずれの日に捉え得るがその日を知らない現状である。<br/><br/> 私は徒（いたず）らに医学を誹謗するものではない。<br/><br/>ただ余りにも医学の真目的と背反する方向に進みつつある現実に対し警告を発するのである。<br/><br/> そうして医学の最後の目的とは人間を無病者たらしむる事である。<br/><br/>いかに大衆の眼を驚かすべき様相といえども、右の目的に一歩一歩接近しつつないならば医学は科学の分野における無用の存在でしかない。<br/><br/> しかしながら医学にも功績はあった。<br/><br/>それは解剖と分析によって人体機能の詳細なる説明であって、これは一応感謝に価いすべきである。<br/><br/> その様な医学の誤謬になぜ人類は永い間気づかなかったのであろうか。<br/><br/>実に世界の奇蹟である。<br/><br/> 私の創成した医術によって、何千年間閉されていた神秘の扉はここに開かれたのである。<br/><br/>私は惟う、神は人間の健康をして本然の姿に立還らしむべく、かかる大事業の遂行を私に委ね給うたのではなかろうかと！ 西暦一九四五年十一月 著者識</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

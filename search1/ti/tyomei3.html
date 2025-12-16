@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyomei3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 長命の秘訣 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 如何なる人と雖も、長命を冀はざるものはあるまい。<br><br>然らば、長命者たらんとするには如何なる方法が最も効果があるかといふ事である。<br><br>昔から長命の秘訣として食物、飲酒、入浴、性欲等に関係があるとして長寿者の体験談等があるが、何れも相当の効果はあるには違ひないが、今私が提唱するこの長寿法は理論からも実際からも効果百パーセントと思ふのである。<br><br>随而、私と雖も九拾歳を超えたらこの健康法を実行すべく期してゐるのである。<br><br> 前項栄養食に於て説いた如く、人体機能には必要な栄養素を製出すべき働きがあるのであるから、その機能の活動を旺盛にする事が最も緊要である。<br><br>彼の幼少年時代は、その機能の活動が最も旺盛であるから、盛んに発育するのである。<br><br>此理によつて、長寿を得んとするには、先づ栄養機能を小児の如く、旺盛にする事であるがそのやうな事が、実際上出来得るやといふに、私は或程度それが可能を信ずるのである。<br><br> それは、如何なる方法であるか―といふと極端な粗食をすることである。<br><br>こんなことをいふと、現代人は驚くであらうが、私の説くところを充分玩味されたいのである。<br><br>それは極端な粗食を摂るとすれば、栄養機能は、猛烈な活動をしなければ、必要なだけの栄養が摂れないことになる。<br><br>自然、それは、小児の機能のごとき活動力が再発生することになる、言はば、機能の若返りがおこり始めるのである。<br><br>機能が若返る以上、全体的に若返へらざるを得ない訳である。<br><br>これに就て、二三の例を挙げてみよう。<br><br> 昔から仙人といふ言葉がある。<br><br>仙人等といふと現代人は一笑に附するであらうが実際は、立派に、存在してゐたのである。<br><br>そうして、日本にも相当居たらしいので文献にも伝つてゐる。<br><br>彼の有名な平田篤胤の書いた、寅吉物語や秋葉天狗の事蹟を書いた著書なども素晴しい記録であらう。<br><br>又、近代では、瑞景（ずいけい）仙人とその弟子である後藤道明氏（此人は現存してゐると思ふ）―等によつても明かである。<br><br>然し、何といつても仙人の本場は朝鮮であらう。<br><br>私は或本で、朝鮮に於ける仙人の修業法を読んだ事がある。<br><br>それによれば、仙人の食物は松葉を細末にしたものと、蕎麦（そば）粉とを水で練り合はして、饅頭の如き大きさにしたものを、最初は一日に三つ食ふのである。<br><br>そうしてそれを何年か続けてゐるうちに、今度は二つにし、終には一日一個にするのである。<br><br>大抵の人は、そこ迄は出来るそうであるが、その次が大変である。<br><br>それは何であるかといふと全然、右の饅頭は勿論、食物は一切摂らず、只だ水だけで生きるのであるが、之は非常に困難で、ここで大抵の人は落第してしもふそうである。<br><br>然し、稀にはそれが実行出来る人があるので、そういふ人が、本当の仙人になるといふ事である。<br><br>昔から仙人は霞を食つて生きてるといふが、これ等を指して言つたのであらう。<br><br>そうして仙人の修業が積むに従つて、非常に身体が軽くなり、山谷を獣の如く馳駆（ちく）し得らるるやうになるそうである。<br><br> 之は、私の体験であるが、私は若い頃、肺患に罹り、之を治す為に三月あまり絶対菜食をしたことがある。<br><br>勿論、鰹節も用ひなかつた。<br><br>然るに菜食によつて非常に身体が軽くなり、よく高い所から飛降りたりした事がある。<br><br>そうして、高所から下を瞰下（みおろ） しても、不思議に恐怖を感じなかつた事を今でも覚えてゐる。<br><br>其後、普通食になるに従つて、漸次普通状態になつたのである。<br><br>又肉食を旺んにした事もあつたが、此頃は身体が重く、又病気に罹り易かつたので、肉を制限してから結果が良くなつたのである。<br><br> 右の如き体験によつて私は想像するのであるが、日本人の戦争に強いのは、勿論精神力もあるが、白人よりも菜食が多いので、自然身体が軽く敏捷であるといふ事も、見逃す事の出来ない一原因であらう。<br><br>特に日本の飛行家が白人の追随を許さない優秀さは、右の原因が大いにあると思ふのである。<br><br> 飛行家に就て、爰で今一つ重要な事柄がある。<br><br>それは急降下爆撃であるが、之は白人は日本人ほど思ひ切つた技能を発揮出来ないそうである。<br><br>何となれば彼等は、猛烈な急降下をすると、毛穴から血を吹くそうである。<br><br>それは全く肉食の為である事はいふ迄もない。<br><br>即ち肉食者は敗血症になるからで、敗血症とは人も知る如く血管が破れ易く、又出血すると、容易に止まらないのである。<br><br>ただ今次の戦争に於て、独逸の飛行家だけは急降下爆撃を行ふが、之はヒットラー氏が兵隊の糧食を菜食を主にした為で、独逸が戦争勃発の数年前から、盛んに満洲から大豆を大量輸入したといふが、それであつたといふ事である。<br><br>又往年彼の旅順の戦に於て、ステッセル将軍が降服したのは、勿論乃木将軍の攻略が偉効を奏したに因る事は勿論であるが、当時露軍が長い間の篭城の結果、野菜が欠乏し、敗血症に罹る者が日に増加したといふ事も降伏を早めたとの事である。<br><br>又日本に於ては昔から武士が腹を切りかけたり、槍に突かれたりし乍ら、其刃物を掴んだまゝ、暫くの間物を言ふが、そういふ事は、白人には絶対出来ないのである。<br><br>何となれば白人は負傷すると、出血が容易に止まらないが、日本人は出血が止り易いばかりか、刃物に対し、肉が収縮して密着するやうになるそうである。<br><br>之等は全く菜食と肉食との相違からである。<br><br> そうして一体仙人はどの位長命するものか正確には判らないが、仙人の寿命に就て或本にあつたのであるが、今迄一番長命のレコードは八百歳で、それは一人であつたが、五六百歳は何人もあつたそうである。<br><br>従而、二三百歳は、仙人では早死の方であると書いてあつた。<br><br>又或本に神武天皇以前、数万年前からの記録に、やはり二三百歳から五六百歳までの高貴の御方の御事蹟が、相当の正確さで書いてあつた。<br><br> 之は、私の想像であるが、日本人の寿齢に就て、食物が一番関係があると思ふのであるが、最古代は勿論、菜食ばかりであつたのは事実である。<br><br>そうして生物を食ひ始めたのは貝類からであつた事は、我国の各地から発見される貝塚が證明してゐる。<br><br>其時代の先住民族は、魚を漁（と）る術を知らなかつたので、先づ採り易い貝類から食ひ始めたのであらう。<br><br>それが後に漁（いさど）る事を知つて、魚食をするやうになつたのであるが、それでも其頃は、百歳以上の寿齢は易々たるものであつた。<br><br>然るに、曩に述べた如く、漢方薬の渡来によつて、非常に寿齢は短縮し、明治以後に到つて、肉食や西洋薬等によつて、弥々短命になつたばかりか、体位も低下したのである。<br><br> それから、古代の日本人が非常に巨大で、勇猛であつた事も事実である。<br><br>勿論其時代の国土には、猛獣や大蛇が至る所に棲息し、猛威を揮つてゐたのであらうが、火薬のない時代に、それ等を征服した事によつてみても想像されるのである。<br><br>史上にある日本武尊が偉大な体格で被在られた事や、大蛇を跨（また）がれた為に、その毒に当り給ひ薨去（こうきょ）遊ばされたといふ事にみても、その御勇猛であらせられた事は窺ひ知らるるのである。<br><br>もし現代人であつたとしたら、大蛇を跨ぐ所か一見して周章（あわ）てて逃げるであらふ事は勿論である。<br><br>又須佐能王尊が簸（ひ）の河上に於て八岐（やまた）の大蛇を退治られその血によつて河の水が赤く染まつたといふ伝説なども、古代人の如何に勇猛であつたかは想像され得るであらう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Segredo da Longevidade</h2>
 <p>Não há quem não almeje a longevidade. Sendo assim, qual seria o método mais eficaz para alcançá-la? Desde a antiguidade, mencionam-se segredos para uma vida longa relacionados à alimentação, à bebida, ao banho e à vida sexual, baseados na experiência de pessoas longevas. Embora tais relatos possuam, inegavelmente, seu mérito, o método que aqui proponho demonstra-se cem por cento eficaz, tanto na teoria quanto na prática. Por essa razão, eu mesmo tenciono adotá-lo quando ultrapassar os noventa anos de idade.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Quanto à longevidade dos eremitas imortais, embora não haja dados precisos, li em certa obra que o recorde registrado foi de oitocentos anos, alcançado por um único indivíduo, mas que muitos outros viveram entre quinhentos e seiscentos anos. Consequentemente, para um eremita imortal, falecer com duzentos ou trezentos anos era considerado uma morte prematura. Em outro livro, encontrei registros de dezenas de milhares de anos antes do Imperador Jimmu, escritos com notável precisão, que descreviam os feitos de nobres personalidades que viveram de duzentos a seiscentos anos.</p>
 <p>Pessoalmente, imagino que a alimentação seja o fator de maior influência na longevidade do povo japonês. Na mais remota antiguidade, a dieta era exclusivamente vegetariana. O consumo de seres vivos iniciou-se com os mariscos, como provam os sambaquis encontrados em várias regiões do nosso país. Os povos daquela era não dominavam a arte da pesca, então começaram pelo que era mais fácil de coletar. Mais tarde, aprenderam a pescar e passaram a consumir peixes. Mesmo nessa época, viver mais de cem anos era algo corriqueiro. Todavia, como mencionei anteriormente, a chegada da medicina chinesa encurtou drasticamente a expectativa de vida. Com o advento da Era Meiji, a introdução do consumo de carne e da medicina ocidental não só abreviou ainda mais a vida, como também fez com que a constituição física do povo se deteriorasse.</p>
 <p>É também um fato que os japoneses da antiguidade eram de compleição robusta e de bravura extraordinária. Naquela época, a terra era habitada por feras e serpentes gigantes que espalhavam o terror por toda parte; imaginar que nossos ancestrais as subjugaram em uma era sem pólvora já nos dá uma medida de sua coragem. A história registra que o Príncipe Yamato Takeru no Mikoto possuía um físico imponente. O relato de sua morte — ocorrida após ele ter a ousadia de passar por cima de uma serpente gigante e ser atingido por seu veneno — permite vislumbrar sua audácia sem par. Um homem de hoje, em vez de passar por cima de tal criatura, certamente fugiria em pânico à sua simples vista. Da mesma forma, a lenda de Susanoo no Mikoto, que subjugou a serpente de oito cabeças, Yamata no Orochi, junto ao rio Hi, cujo sangue tingiu as águas de vermelho, é outro testemunho da valentia formidável de nossos antepassados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 長命の秘訣 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 如何なる人と雖も、長命を冀はざるものはあるまい。<br/><br/>然らば、長命者たらんとするには如何なる方法が最も効果があるかといふ事である。<br/><br/>昔から長命の秘訣として食物、飲酒、入浴、性欲等に関係があるとして長寿者の体験談等があるが、何れも相当の効果はあるには違ひないが、今私が提唱するこの長寿法は理論からも実際からも効果百パーセントと思ふのである。<br/><br/>随而、私と雖も九拾歳を超えたらこの健康法を実行すべく期してゐるのである。<br/><br/> 前項栄養食に於て説いた如く、人体機能には必要な栄養素を製出すべき働きがあるのであるから、その機能の活動を旺盛にする事が最も緊要である。<br/><br/>彼の幼少年時代は、その機能の活動が最も旺盛であるから、盛んに発育するのである。<br/><br/>此理によつて、長寿を得んとするには、先づ栄養機能を小児の如く、旺盛にする事であるがそのやうな事が、実際上出来得るやといふに、私は或程度それが可能を信ずるのである。<br/><br/> それは、如何なる方法であるか―といふと極端な粗食をすることである。<br/><br/>こんなことをいふと、現代人は驚くであらうが、私の説くところを充分玩味されたいのである。<br/><br/>それは極端な粗食を摂るとすれば、栄養機能は、猛烈な活動をしなければ、必要なだけの栄養が摂れないことになる。<br/><br/>自然、それは、小児の機能のごとき活動力が再発生することになる、言はば、機能の若返りがおこり始めるのである。<br/><br/>機能が若返る以上、全体的に若返へらざるを得ない訳である。<br/><br/>これに就て、二三の例を挙げてみよう。<br/><br/> 昔から仙人といふ言葉がある。<br/><br/>仙人等といふと現代人は一笑に附するであらうが実際は、立派に、存在してゐたのである。<br/><br/>そうして、日本にも相当居たらしいので文献にも伝つてゐる。<br/><br/>彼の有名な平田篤胤の書いた、寅吉物語や秋葉天狗の事蹟を書いた著書なども素晴しい記録であらう。<br/><br/>又、近代では、瑞景（ずいけい）仙人とその弟子である後藤道明氏（此人は現存してゐると思ふ）―等によつても明かである。<br/><br/>然し、何といつても仙人の本場は朝鮮であらう。<br/><br/>私は或本で、朝鮮に於ける仙人の修業法を読んだ事がある。<br/><br/>それによれば、仙人の食物は松葉を細末にしたものと、蕎麦（そば）粉とを水で練り合はして、饅頭の如き大きさにしたものを、最初は一日に三つ食ふのである。<br/><br/>そうしてそれを何年か続けてゐるうちに、今度は二つにし、終には一日一個にするのである。<br/><br/>大抵の人は、そこ迄は出来るそうであるが、その次が大変である。<br/><br/>それは何であるかといふと全然、右の饅頭は勿論、食物は一切摂らず、只だ水だけで生きるのであるが、之は非常に困難で、ここで大抵の人は落第してしもふそうである。<br/><br/>然し、稀にはそれが実行出来る人があるので、そういふ人が、本当の仙人になるといふ事である。<br/><br/>昔から仙人は霞を食つて生きてるといふが、これ等を指して言つたのであらう。<br/><br/>そうして仙人の修業が積むに従つて、非常に身体が軽くなり、山谷を獣の如く馳駆（ちく）し得らるるやうになるそうである。<br/><br/> 之は、私の体験であるが、私は若い頃、肺患に罹り、之を治す為に三月あまり絶対菜食をしたことがある。<br/><br/>勿論、鰹節も用ひなかつた。<br/><br/>然るに菜食によつて非常に身体が軽くなり、よく高い所から飛降りたりした事がある。<br/><br/>そうして、高所から下を瞰下（みおろ） しても、不思議に恐怖を感じなかつた事を今でも覚えてゐる。<br/><br/>其後、普通食になるに従つて、漸次普通状態になつたのである。<br/><br/>又肉食を旺んにした事もあつたが、此頃は身体が重く、又病気に罹り易かつたので、肉を制限してから結果が良くなつたのである。<br/><br/> 右の如き体験によつて私は想像するのであるが、日本人の戦争に強いのは、勿論精神力もあるが、白人よりも菜食が多いので、自然身体が軽く敏捷であるといふ事も、見逃す事の出来ない一原因であらう。<br/><br/>特に日本の飛行家が白人の追随を許さない優秀さは、右の原因が大いにあると思ふのである。<br/><br/> 飛行家に就て、爰で今一つ重要な事柄がある。<br/><br/>それは急降下爆撃であるが、之は白人は日本人ほど思ひ切つた技能を発揮出来ないそうである。<br/><br/>何となれば彼等は、猛烈な急降下をすると、毛穴から血を吹くそうである。<br/><br/>それは全く肉食の為である事はいふ迄もない。<br/><br/>即ち肉食者は敗血症になるからで、敗血症とは人も知る如く血管が破れ易く、又出血すると、容易に止まらないのである。<br/><br/>ただ今次の戦争に於て、独逸の飛行家だけは急降下爆撃を行ふが、之はヒットラー氏が兵隊の糧食を菜食を主にした為で、独逸が戦争勃発の数年前から、盛んに満洲から大豆を大量輸入したといふが、それであつたといふ事である。<br/><br/>又往年彼の旅順の戦に於て、ステッセル将軍が降服したのは、勿論乃木将軍の攻略が偉効を奏したに因る事は勿論であるが、当時露軍が長い間の篭城の結果、野菜が欠乏し、敗血症に罹る者が日に増加したといふ事も降伏を早めたとの事である。<br/><br/>又日本に於ては昔から武士が腹を切りかけたり、槍に突かれたりし乍ら、其刃物を掴んだまゝ、暫くの間物を言ふが、そういふ事は、白人には絶対出来ないのである。<br/><br/>何となれば白人は負傷すると、出血が容易に止まらないが、日本人は出血が止り易いばかりか、刃物に対し、肉が収縮して密着するやうになるそうである。<br/><br/>之等は全く菜食と肉食との相違からである。<br/><br/> そうして一体仙人はどの位長命するものか正確には判らないが、仙人の寿命に就て或本にあつたのであるが、今迄一番長命のレコードは八百歳で、それは一人であつたが、五六百歳は何人もあつたそうである。<br/><br/>従而、二三百歳は、仙人では早死の方であると書いてあつた。<br/><br/>又或本に神武天皇以前、数万年前からの記録に、やはり二三百歳から五六百歳までの高貴の御方の御事蹟が、相当の正確さで書いてあつた。<br/><br/> 之は、私の想像であるが、日本人の寿齢に就て、食物が一番関係があると思ふのであるが、最古代は勿論、菜食ばかりであつたのは事実である。<br/><br/>そうして生物を食ひ始めたのは貝類からであつた事は、我国の各地から発見される貝塚が證明してゐる。<br/><br/>其時代の先住民族は、魚を漁（と）る術を知らなかつたので、先づ採り易い貝類から食ひ始めたのであらう。<br/><br/>それが後に漁（いさど）る事を知つて、魚食をするやうになつたのであるが、それでも其頃は、百歳以上の寿齢は易々たるものであつた。<br/><br/>然るに、曩に述べた如く、漢方薬の渡来によつて、非常に寿齢は短縮し、明治以後に到つて、肉食や西洋薬等によつて、弥々短命になつたばかりか、体位も低下したのである。<br/><br/> それから、古代の日本人が非常に巨大で、勇猛であつた事も事実である。<br/><br/>勿論其時代の国土には、猛獣や大蛇が至る所に棲息し、猛威を揮つてゐたのであらうが、火薬のない時代に、それ等を征服した事によつてみても想像されるのである。<br/><br/>史上にある日本武尊が偉大な体格で被在られた事や、大蛇を跨（また）がれた為に、その毒に当り給ひ薨去（こうきょ）遊ばされたといふ事にみても、その御勇猛であらせられた事は窺ひ知らるるのである。<br/><br/>もし現代人であつたとしたら、大蛇を跨ぐ所か一見して周章（あわ）てて逃げるであらふ事は勿論である。<br/><br/>又須佐能王尊が簸（ひ）の河上に於て八岐（やまた）の大蛇を退治られその血によつて河の水が赤く染まつたといふ伝説なども、古代人の如何に勇猛であつたかは想像され得るであらう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

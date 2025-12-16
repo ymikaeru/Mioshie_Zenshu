@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270127</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月27日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月二十七日 【御教え】 これは、お蔭話ですけれども、いったん霊界に行って、天国を見せてもらったんですが、良いあんばいに神様から命をもらったんですね。<br><br>つまり命の継ぎ足しと言うんです。<br><br>人間の寿命というのは、生まれながらに決まっているんです。<br><br>いくつの時死ぬという事がね。<br><br>そういう時には、いったん死ぬ型をするんです。<br><br>そうして、継ぎ足しをいただくんですね。<br><br>これは、良く解るんです。<br><br>入信すると、そういう事がよくあるんですね。<br><br>命の継ぎ足しに、ごく軽いのと重いのがある。<br><br>ごく軽いのは夢で見るのですがね。<br><br>あれは、命の継ぎ足しを夢ですませるんです。<br><br>ごく重いのは、これですね。<br><br>息が止まったり、冷たくなったりして――この人は汽車の中であった。<br><br>非常に面白く、正確に言ってますからね。<br><br> （「生命の継ぎ足し」のあとの御教え）【栄光 一四二号】 こういうふうに助かった人は、それからの命は神様からいただいたんですね。<br><br>それを私有財産的に使ってはいけないんですね。<br><br>やっぱり、そういう因縁のある人で、神様が生かされて使われるんですから、素直にそうやれば、まだ随分長生きができるんです。<br><br>よくそういうのがありますよ。<br><br>女にはありませんが、男にはよく命をもらってから欲張って、銭儲けをして、結局死んじゃいますがね。<br><br> それから、龍神という事を、よく書いてもあるし、言ってもいるんですが、龍神を見る人も、たまたまありますけれども、このお蔭話はいかにもはっきり見せた訳ですね。<br><br> （「龍神はある？」のあとの御教え） これは、実にはっきりしているんですが、それで龍神が憑ると、一番は足が歩けなくなります。<br><br>この娘さんも、両足がブラブラになっていたのは、そういう訳です。<br><br>その代わり、龍神が離れると、だんだん歩けるようになります。<br><br>これもはっきりしているんです。<br><br>そういう訳で、龍神が、古井戸に埋められて、住めないという時、新しい井戸に移るのはわけないが、霊界の方は、だらしのないことや、融通のきく事ではないんです。<br><br>だから、実に几帳面なんです――霊界というものはね。<br><br>つまり新しい井戸に移っていただきたいと――お移りくださいと言えば、その言霊によって、すぐに移る事はできるんですね。<br><br>こういう点は非常に几帳面ですね。<br><br>そこにいくと、現界は実にだらしがないですよ。<br><br>だらしがないといって、自由なんですよ。<br><br>人間ほど自由なものはないですよ。<br><br> 霊界では、位の高い人の側には寄れないものなんですよ。<br><br>昔の大名ではないが、何間か離れなければ、側に行けない。<br><br>現界では、人間はどんな偉い人でも側に行けるんですが、なかなか霊界はそうは行けないところに異いさがあるんですがね。<br><br>けれども、今日の現界というのは、そういった自由が過ぎているんですね。<br><br>あまりに無差別的になっているんです。<br><br>それも深い意味があるんですがね。<br><br>夜の世界であったために、最高の神様が隠れていたんですね。<br><br>つまり、火の系統の神様が隠れていたんですね。<br><br>そこで、それ程はっきりしなかったんですね。<br><br>はっきりしないのと、最高の神様が隠れられていたために、人間との差別が、たんとない訳ですね。<br><br>それでこうなった。<br><br>だから、昼間の世界になると、その点もあるからして、段々と人間も正確になるんですがね。<br><br>そうかといって、今までの信仰のように、馬鹿馬鹿しく窮屈ですね――あれもいけないです。<br><br>やはり、自由であるとともに、きちっとすべて几帳面にやる。<br><br>そういうような意味ですね。<br><br> 今までの信仰について、少し、批判的に書いてみたんですがね。<br><br> （御論文「信仰と生活」） この間、地方の宣伝班ですね――松井さん、鈴木さん、アザブさん、鹿島秀月さんですね。<br><br>静岡県の方に二、三カ所行かれたようですが、その時に、なにか私に書いてもらいたいと言うんで書いた。<br><br>それを読ませます。<br><br> （御論文「舌に代えて」） 「特集号」は三十日にできます。<br><br>だから、農村に関係のある人は、できるだけ読ませてもらいたいですね。<br><br>各大臣、国会議員、全国の主な新聞社、農事試験場、農科大学、農会――そういう方面にみんな配るつもりですが、篤農家とか村長という人には、信者さんから読ませるように、配ってもらうようにしてもらいたいと思っている。<br><br>部数もずっと多くこしらえて、それから農業の報告――お蔭話ですね。<br><br>それが非常に多いですから、二頁増やしたんです。<br><br>これを一通り読めば、そうとう考えざるを得ないと思うし、第一随分変わった、意外な説ですからね。<br><br>変だとは思うけれども、段々読めば、実際の実験報告がたくさん出ているからして、考えざるを得ないですね。<br><br>第一弾――原子爆弾ですね。<br><br>農業原子爆弾を一発放ったという訳ですね。<br><br>それで、たくさん報告があって、締め切ってからも、あとまだ来てますが、全部を通算してみると、やっぱり予定の通りですね。<br><br>成績が、段々肥毒がなくなるに従って増えるのは、はっきりしているんです。<br><br>だから、五カ年にして五割増産ということは、決して間違いないですね。<br><br>とにかく今年あたりは、硫安なんか非常に高くなった。<br><br>今年は千円ですね。<br><br>農民は実に困っている。<br><br>去年は七百円か八百円でしたがね。<br><br>まだ上がる傾向がある。<br><br>千百円台になると言っているが。<br><br>そのために非常に困っているんですがね。<br><br>ところが、それが増産にならないような、やっぱり病気に対する薬と同じような手段なんだから、大変な問題です。<br><br> そこで、いろいろあるけれども、たいてい今年あたりは一番報告が多いですが、それを平均してみると、一年目、二年目くらいの所は、たいてい平年作ですね、それで、ごく成績が悪いのは一割減産ですね。<br><br>一番多いのは平年作ですね。<br><br>平年作といっても、今年は病虫害、風水害があるが、その被害がないから、結局増産になってます。<br><br>そこで、三年目になると、たいてい増えてます。<br><br>ただ多い少ないがありますが、ふつう一割、二割。<br><br>多いのは三割、四割も増えてます。<br><br>大体三年目一、二割というところでしょうね。<br><br>本当に腰を入れてやってから、みんな二、三年くらいなものです。<br><br>五年というのは、ほとんどないですね。<br><br>たまたま四年というのが、越後に二人あった。<br><br>それが、平年作よりちょっと良いと言うんです。<br><br>しかし、そんな馬鹿なことはないと言うので、あっちの――小川さんに聞いてみると、下が岩盤になっていて、土の層が浅く、根が伸びないので、そういう土地のために、特に肥料を余計やらなければならないというので、特にやっていたそうです。<br><br>そこで、私は客土しろと言ったんです。<br><br>客土すると、土の層も増えるしするからね。<br><br>それでいて、減りもしないんですね。<br><br>平年作よりもちょっと良いですね。<br><br>なにか原因があると思って聞いてみると、そういう訳で分かったんです。<br><br>それ以外に四年目というのは、たいていないですね。<br><br>たいてい三年目です。<br><br>本当は、もう一、二年経って、来年か再来年あたりにしたいんですが、なにしろ現状を見ると、今年は減産ですからね。<br><br>去年は六千四百万石でしたが、今年は六千万石とかいうので、三百万石から減っている。<br><br>そこにもっていって、肥料が高くなっているから、じっとして見ていられない。<br><br>そこで早く「特集号」を出すという事になったんです。<br><br>今までの成績を見ても、増産になるという事は解るんです。<br><br>そんなような具合で、今までの実験で、もう確実に自然栽培でもって、食糧問題を救えるという事が分かったので、今年からうんと腰を入れてやるつもりなんです。<br><br>そのつもりで信者さんもやってもらいたいと思うんです。<br><br>それだけで少なくても日本人を救う力は、大変なものだと思いますね。<br><br> もちろん病気の方も段々、今までは遠慮してやった傾きがありますが、今年あたりから、大いに表面的に活動しようと思っている。<br><br>というのは『結核信仰療法』というのを書いてますが、今月一杯あたりでできますが、その二つだけを信ずる人が、増えれば増えるだけ、日本は良くなるに決まっているんですから、大変な救いですね。<br><br>時間が来ましたから。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Dádiva da Vida e a Missão de Salvar o Mundo</h2>
 <p>Este é um relato de graça recebida, no qual uma pessoa, após ter adentrado o Mundo Espiritual, teve a oportunidade de vislumbrar o Paraíso e, por uma feliz providência Divina, recebeu a dádiva de uma nova vida. Em outras palavras, trata-se do que denominamos “acréscimo de vida”.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Naturalmente, no que tange à cura das doenças, também agimos com certa reserva até o momento. A partir deste ano, porém, pretendemos intensificar nossas atividades de forma mais ampla e visível. Estou finalizando a escrita do livro “A Terapêutica da Tuberculose pela Fé”, que deverá ser concluído até o fim deste mês.</p>
 <p>Quanto mais pessoas acreditarem nessas duas vertentes — a agricultura e a cura —, mais o Japão inevitavelmente prosperará. É uma salvação grandiosa.</p>
 <p>Bem, nosso tempo se esgotou.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月27日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月二十七日 【御教え】 これは、お蔭話ですけれども、いったん霊界に行って、天国を見せてもらったんですが、良いあんばいに神様から命をもらったんですね。<br/><br/>つまり命の継ぎ足しと言うんです。<br/><br/>人間の寿命というのは、生まれながらに決まっているんです。<br/><br/>いくつの時死ぬという事がね。<br/><br/>そういう時には、いったん死ぬ型をするんです。<br/><br/>そうして、継ぎ足しをいただくんですね。<br/><br/>これは、良く解るんです。<br/><br/>入信すると、そういう事がよくあるんですね。<br/><br/>命の継ぎ足しに、ごく軽いのと重いのがある。<br/><br/>ごく軽いのは夢で見るのですがね。<br/><br/>あれは、命の継ぎ足しを夢ですませるんです。<br/><br/>ごく重いのは、これですね。<br/><br/>息が止まったり、冷たくなったりして――この人は汽車の中であった。<br/><br/>非常に面白く、正確に言ってますからね。<br/><br/> （「生命の継ぎ足し」のあとの御教え）【栄光 一四二号】 こういうふうに助かった人は、それからの命は神様からいただいたんですね。<br/><br/>それを私有財産的に使ってはいけないんですね。<br/><br/>やっぱり、そういう因縁のある人で、神様が生かされて使われるんですから、素直にそうやれば、まだ随分長生きができるんです。<br/><br/>よくそういうのがありますよ。<br/><br/>女にはありませんが、男にはよく命をもらってから欲張って、銭儲けをして、結局死んじゃいますがね。<br/><br/> それから、龍神という事を、よく書いてもあるし、言ってもいるんですが、龍神を見る人も、たまたまありますけれども、このお蔭話はいかにもはっきり見せた訳ですね。<br/><br/> （「龍神はある？」のあとの御教え） これは、実にはっきりしているんですが、それで龍神が憑ると、一番は足が歩けなくなります。<br/><br/>この娘さんも、両足がブラブラになっていたのは、そういう訳です。<br/><br/>その代わり、龍神が離れると、だんだん歩けるようになります。<br/><br/>これもはっきりしているんです。<br/><br/>そういう訳で、龍神が、古井戸に埋められて、住めないという時、新しい井戸に移るのはわけないが、霊界の方は、だらしのないことや、融通のきく事ではないんです。<br/><br/>だから、実に几帳面なんです――霊界というものはね。<br/><br/>つまり新しい井戸に移っていただきたいと――お移りくださいと言えば、その言霊によって、すぐに移る事はできるんですね。<br/><br/>こういう点は非常に几帳面ですね。<br/><br/>そこにいくと、現界は実にだらしがないですよ。<br/><br/>だらしがないといって、自由なんですよ。<br/><br/>人間ほど自由なものはないですよ。<br/><br/> 霊界では、位の高い人の側には寄れないものなんですよ。<br/><br/>昔の大名ではないが、何間か離れなければ、側に行けない。<br/><br/>現界では、人間はどんな偉い人でも側に行けるんですが、なかなか霊界はそうは行けないところに異いさがあるんですがね。<br/><br/>けれども、今日の現界というのは、そういった自由が過ぎているんですね。<br/><br/>あまりに無差別的になっているんです。<br/><br/>それも深い意味があるんですがね。<br/><br/>夜の世界であったために、最高の神様が隠れていたんですね。<br/><br/>つまり、火の系統の神様が隠れていたんですね。<br/><br/>そこで、それ程はっきりしなかったんですね。<br/><br/>はっきりしないのと、最高の神様が隠れられていたために、人間との差別が、たんとない訳ですね。<br/><br/>それでこうなった。<br/><br/>だから、昼間の世界になると、その点もあるからして、段々と人間も正確になるんですがね。<br/><br/>そうかといって、今までの信仰のように、馬鹿馬鹿しく窮屈ですね――あれもいけないです。<br/><br/>やはり、自由であるとともに、きちっとすべて几帳面にやる。<br/><br/>そういうような意味ですね。<br/><br/> 今までの信仰について、少し、批判的に書いてみたんですがね。<br/><br/> （御論文「信仰と生活」） この間、地方の宣伝班ですね――松井さん、鈴木さん、アザブさん、鹿島秀月さんですね。<br/><br/>静岡県の方に二、三カ所行かれたようですが、その時に、なにか私に書いてもらいたいと言うんで書いた。<br/><br/>それを読ませます。<br/><br/> （御論文「舌に代えて」） 「特集号」は三十日にできます。<br/><br/>だから、農村に関係のある人は、できるだけ読ませてもらいたいですね。<br/><br/>各大臣、国会議員、全国の主な新聞社、農事試験場、農科大学、農会――そういう方面にみんな配るつもりですが、篤農家とか村長という人には、信者さんから読ませるように、配ってもらうようにしてもらいたいと思っている。<br/><br/>部数もずっと多くこしらえて、それから農業の報告――お蔭話ですね。<br/><br/>それが非常に多いですから、二頁増やしたんです。<br/><br/>これを一通り読めば、そうとう考えざるを得ないと思うし、第一随分変わった、意外な説ですからね。<br/><br/>変だとは思うけれども、段々読めば、実際の実験報告がたくさん出ているからして、考えざるを得ないですね。<br/><br/>第一弾――原子爆弾ですね。<br/><br/>農業原子爆弾を一発放ったという訳ですね。<br/><br/>それで、たくさん報告があって、締め切ってからも、あとまだ来てますが、全部を通算してみると、やっぱり予定の通りですね。<br/><br/>成績が、段々肥毒がなくなるに従って増えるのは、はっきりしているんです。<br/><br/>だから、五カ年にして五割増産ということは、決して間違いないですね。<br/><br/>とにかく今年あたりは、硫安なんか非常に高くなった。<br/><br/>今年は千円ですね。<br/><br/>農民は実に困っている。<br/><br/>去年は七百円か八百円でしたがね。<br/><br/>まだ上がる傾向がある。<br/><br/>千百円台になると言っているが。<br/><br/>そのために非常に困っているんですがね。<br/><br/>ところが、それが増産にならないような、やっぱり病気に対する薬と同じような手段なんだから、大変な問題です。<br/><br/> そこで、いろいろあるけれども、たいてい今年あたりは一番報告が多いですが、それを平均してみると、一年目、二年目くらいの所は、たいてい平年作ですね、それで、ごく成績が悪いのは一割減産ですね。<br/><br/>一番多いのは平年作ですね。<br/><br/>平年作といっても、今年は病虫害、風水害があるが、その被害がないから、結局増産になってます。<br/><br/>そこで、三年目になると、たいてい増えてます。<br/><br/>ただ多い少ないがありますが、ふつう一割、二割。<br/><br/>多いのは三割、四割も増えてます。<br/><br/>大体三年目一、二割というところでしょうね。<br/><br/>本当に腰を入れてやってから、みんな二、三年くらいなものです。<br/><br/>五年というのは、ほとんどないですね。<br/><br/>たまたま四年というのが、越後に二人あった。<br/><br/>それが、平年作よりちょっと良いと言うんです。<br/><br/>しかし、そんな馬鹿なことはないと言うので、あっちの――小川さんに聞いてみると、下が岩盤になっていて、土の層が浅く、根が伸びないので、そういう土地のために、特に肥料を余計やらなければならないというので、特にやっていたそうです。<br/><br/>そこで、私は客土しろと言ったんです。<br/><br/>客土すると、土の層も増えるしするからね。<br/><br/>それでいて、減りもしないんですね。<br/><br/>平年作よりもちょっと良いですね。<br/><br/>なにか原因があると思って聞いてみると、そういう訳で分かったんです。<br/><br/>それ以外に四年目というのは、たいていないですね。<br/><br/>たいてい三年目です。<br/><br/>本当は、もう一、二年経って、来年か再来年あたりにしたいんですが、なにしろ現状を見ると、今年は減産ですからね。<br/><br/>去年は六千四百万石でしたが、今年は六千万石とかいうので、三百万石から減っている。<br/><br/>そこにもっていって、肥料が高くなっているから、じっとして見ていられない。<br/><br/>そこで早く「特集号」を出すという事になったんです。<br/><br/>今までの成績を見ても、増産になるという事は解るんです。<br/><br/>そんなような具合で、今までの実験で、もう確実に自然栽培でもって、食糧問題を救えるという事が分かったので、今年からうんと腰を入れてやるつもりなんです。<br/><br/>そのつもりで信者さんもやってもらいたいと思うんです。<br/><br/>それだけで少なくても日本人を救う力は、大変なものだと思いますね。<br/><br/> もちろん病気の方も段々、今までは遠慮してやった傾きがありますが、今年あたりから、大いに表面的に活動しようと思っている。<br/><br/>というのは『結核信仰療法』というのを書いてますが、今月一杯あたりでできますが、その二つだけを信ずる人が、増えれば増えるだけ、日本は良くなるに決まっているんですから、大変な救いですね。<br/><br/>時間が来ましたから。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

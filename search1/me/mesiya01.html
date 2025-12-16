@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mesiya01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世教奇蹟集 序文 （第１稿） 『栄光』196号、昭和28(1953)年2月18日発行 今度左のごとき標題の著書を発刊する予定であるが、前もってその序文をこの欄に載せたのである。<br><br> 救世教奇蹟集 序文 およそ昔から幾多の宗教が現われ、それぞれの使命を果しつつ、相当世の中に貢献して来た事は言うまでもないが、それとても公平にみて大した救いの力は現わさなかったことである。<br><br>何よりも、これこそ絶対の信頼を払っても悔（くい）ないという程の価値ある宗教はほとんどなかったからである。<br><br>その証拠にはもしそういう立派な宗教が生まれていたとしたら、それによって万教は帰一され、現在のごとく八宗九宗数知れない程宗教はないはずである。<br><br>遠慮なく言えば団栗（どんぐり）の背くらべとしか思えないのである。<br><br> とはいうものの、この世の中に初めから宗教なるものがなかったとしたら、これはまた大変な話で、人間世界は獣の世界となっていたかも知れないからである。<br><br>とにかく宗教によって人間の我欲を制御し、堕落を食い止め、善人に希望を与え、社会の秩序を維持して来た功績は偉大なものであって、最大級の讃辞を呈（てい）してもいいと思うのである。<br><br>しかしながら人類の理想である天国極楽世界は未（いま）だはなはだ遠く、既成宗教の力では到底実現の可能性のないことは誰しも否めないであろう。<br><br>これを一言にしていえば、既成宗教の功績は世の中の地獄化を食い止め得たとしても、それ以上の積極的力はないといってもよかろう。<br><br> そこでどうしても、既成宗教以上の力をもった超宗教的のものが生まれなければならないのは自明の理である。<br><br>それが全人類の希望であると共に、その機運も近づきつつあることは吾々にも看取（かんしゅ）出来るのである。<br><br>それについて言わねばならぬことは、右に対する主神（すしん）の経綸であって、これは人間の眼には映らないが、霊的には着々として進捗しつつあるのである。<br><br>これこそ近き将来万人の眼にも映るようになるのはもちろんであって、この偉業の担当者として私は選ばれたのであり、その機関として創立されたのが我救世教である。<br><br>しかしこのような空前の大偉業なるがゆえに容易に信じられないであろうが、いかなる疑念も物的証拠を見せたなら、信じない訳にはゆかないのは言うまでもない。<br><br>それこそ本教独特の奇蹟である。<br><br>百の論議も一の事実にしかずで、我救世教の現わす素晴しい奇蹟がそれである。<br><br>恐らく本教くらい奇蹟に富んだ宗教は、古往今来未（いま）だ嘗（かつ）てないといっても過言ではあるまい。<br><br>何よりも一度本教に触るれば直ちに判るはずである。<br><br> もちろんこれこそ神の力の偉大さを示す何よりの証拠である。<br><br>およそ今日までの世の中を見ても神と名の付く神であれば、それ相応の利益を与えられた事績は史上明らかなところであるが、それにも程度があって真に安心立命を得られる程の力ある宗教は一つもなかったといえよう。<br><br>そうして神にも大小高下の差別があり、位の高い神程力もそれに相応する以上、本教に奇蹟が多い事と、それが素晴しい事は全く神格の高さを物語っているのである。<br><br>ゆえに信者の幸福の大きい事もそれに伴（とも）のう訳である。<br><br>従って小なる奇蹟、凡（ぼん）なる奇蹟はザラにあり、一般人が驚く程の奇蹟でも本教信者は日常茶飯事としか思っていない。<br><br>何しろ余りの奇蹟に割切れず、ただ唖然たるばかりのことが枚挙にいとまないのである。<br><br>では奇蹟はなぜ現われるかについて説明してみると、現代人の頭脳は学問と伝統的観念で出来上っており、その中でも特に肝腎な医学においての大きな迷信は気がつかず、絶対の信頼を払い常識にまでなっているのである。<br><br>これに対し本教浄霊法によれば、大病院や博士から絶対不治として見放され死を待つばかりの病人が、たちまちにして起死回生的成果を挙げる事実に直面しては、ただ唖然として頭を下げざるを得ないのである。<br><br>また今一つの事実は本教出版物には医学の盲点を徹底的に暴露し、マイナス的存在としているにかかわらず、それが十数年に及んだ今日といえども、未（いま）だ一人の専門家の反駁（はんぱく）も詰問も出ないので、吾々は不可解至極と思うのである。<br><br> 以上にみても分るごとく、本教の奇蹟は到底理屈のつけようがなく、いかに疑い深い人でも事実の前には兜を脱がざるを得ないのである。<br><br>しかし本当をいえばこの世の中に奇蹟のないのが真理であって、理屈のつかないのは理屈が間違っているからである。<br><br>何しろ欠点の多い人間の智慧や学問で作られた理屈であってみれば、それも致し方ないのである。<br><br>従って将来学問が大いに進歩したその時こそは、奇蹟の言葉はなくなるはずである。<br><br>そうして本教の奇蹟はことごとく神霊の力によるものであるから、無神論者にはなおさら分りよう訳がない。<br><br>そこで理屈で分らないものは何もかも奇蹟の一言で片付けてしもうのである。<br><br>以上の意味によって現在吾々の生活も仕事も、奇蹟に次ぐ奇蹟によって面白い程スムースにゆく。<br><br>時には奇蹟を予定する事さえあるくらいで、そういう時はたまには外れる場合もあるが、後になって奇蹟が延びたため、却（かえ）って奇蹟は大きくなる事もよくあるのである。<br><br>そのような訳で万事予想以上に巧（うま）く運んでゆくと共に、危いことも避けられ、面倒なことも奇蹟で解決されるという真の安心立命の境地にあるので、全く吾々は奇蹟の生活を楽しんでいるのである。<br><br> 理論はこのくらいにしておいて、今までに本教における無数の奇蹟の記録は埋めておくのは惜しい気がするので、これを一冊にまとめてこの著としたのであるから、読者はこの生ける事実を充分熟読玩味（じゅくどくがんみ）すれば幸福の第一歩に入ったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prova Irrefutável do Milagre</h2>
 <p>Temos a satisfação de anunciar a futura publicação da obra intitulada <em>Coletânea de Milagres da Sekaikyuseikyo</em>. Como prévia, apresentamos nesta coluna o seu prefácio.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Como se pode depreender do que foi exposto, é impossível justificar racionalmente os milagres de nossa religião. Diante dos fatos, até mesmo os mais céticos são forçados a render-se. Na realidade, porém, a verdadeira lei do universo é que não existem milagres; aquilo que parece ilógico apenas o é porque a lógica utilizada está equivocada. Tratando-se de uma lógica forjada pela sabedoria e pela ciência humanas, plenas de imperfeições, tal equívoco é inevitável. Portanto, no futuro, quando a ciência alcançar um grau de desenvolvimento muito superior, a palavra "milagre" certamente desaparecerá. Ademais, como os milagres de nossa religião emanam integralmente do poder do Espírito Divino, para os ateus, a compreensão torna-se ainda mais inalcançável. Assim, tudo o que a razão não consegue explicar é convenientemente rotulado com a palavra "milagre".</p>
 <p>Por essas razões, nossa vida e nosso trabalho, tanto no presente quanto no futuro, transcorrem com uma fluidez admirável, impulsionados por uma sucessão de milagres. Chegamos ao ponto, por vezes, de até mesmo antecipar a ocorrência de um milagre. Embora em raras ocasiões ele possa não se concretizar no momento esperado, frequentemente, o adiamento resulta em um milagre de proporções ainda maiores. Desse modo, tudo se desenrola de forma muito mais favorável do que o previsto, perigos são evitados e situações complexas se resolvem milagrosamente, o que nos permite viver em um estado de verdadeira paz de espírito e segurança existencial. Nós, de fato, desfrutamos de uma vida alicerçada em milagres.</p>
 <p>Deixando a teoria de lado, seria lamentável permitir que os registros dos inúmeros milagres ocorridos em nossa religião caíssem no esquecimento. Decidimos, portanto, compilá-los em um único volume, que resultou nesta obra. Exorto os leitores a que leiam e reflitam profundamente sobre estes fatos vivos, pois, ao fazê-lo, terão dado o primeiro passo em direção à felicidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世教奇蹟集 序文 （第１稿） 『栄光』196号、昭和28(1953)年2月18日発行 今度左のごとき標題の著書を発刊する予定であるが、前もってその序文をこの欄に載せたのである。<br/><br/> 救世教奇蹟集 序文 およそ昔から幾多の宗教が現われ、それぞれの使命を果しつつ、相当世の中に貢献して来た事は言うまでもないが、それとても公平にみて大した救いの力は現わさなかったことである。<br/><br/>何よりも、これこそ絶対の信頼を払っても悔（くい）ないという程の価値ある宗教はほとんどなかったからである。<br/><br/>その証拠にはもしそういう立派な宗教が生まれていたとしたら、それによって万教は帰一され、現在のごとく八宗九宗数知れない程宗教はないはずである。<br/><br/>遠慮なく言えば団栗（どんぐり）の背くらべとしか思えないのである。<br/><br/> とはいうものの、この世の中に初めから宗教なるものがなかったとしたら、これはまた大変な話で、人間世界は獣の世界となっていたかも知れないからである。<br/><br/>とにかく宗教によって人間の我欲を制御し、堕落を食い止め、善人に希望を与え、社会の秩序を維持して来た功績は偉大なものであって、最大級の讃辞を呈（てい）してもいいと思うのである。<br/><br/>しかしながら人類の理想である天国極楽世界は未（いま）だはなはだ遠く、既成宗教の力では到底実現の可能性のないことは誰しも否めないであろう。<br/><br/>これを一言にしていえば、既成宗教の功績は世の中の地獄化を食い止め得たとしても、それ以上の積極的力はないといってもよかろう。<br/><br/> そこでどうしても、既成宗教以上の力をもった超宗教的のものが生まれなければならないのは自明の理である。<br/><br/>それが全人類の希望であると共に、その機運も近づきつつあることは吾々にも看取（かんしゅ）出来るのである。<br/><br/>それについて言わねばならぬことは、右に対する主神（すしん）の経綸であって、これは人間の眼には映らないが、霊的には着々として進捗しつつあるのである。<br/><br/>これこそ近き将来万人の眼にも映るようになるのはもちろんであって、この偉業の担当者として私は選ばれたのであり、その機関として創立されたのが我救世教である。<br/><br/>しかしこのような空前の大偉業なるがゆえに容易に信じられないであろうが、いかなる疑念も物的証拠を見せたなら、信じない訳にはゆかないのは言うまでもない。<br/><br/>それこそ本教独特の奇蹟である。<br/><br/>百の論議も一の事実にしかずで、我救世教の現わす素晴しい奇蹟がそれである。<br/><br/>恐らく本教くらい奇蹟に富んだ宗教は、古往今来未（いま）だ嘗（かつ）てないといっても過言ではあるまい。<br/><br/>何よりも一度本教に触るれば直ちに判るはずである。<br/><br/> もちろんこれこそ神の力の偉大さを示す何よりの証拠である。<br/><br/>およそ今日までの世の中を見ても神と名の付く神であれば、それ相応の利益を与えられた事績は史上明らかなところであるが、それにも程度があって真に安心立命を得られる程の力ある宗教は一つもなかったといえよう。<br/><br/>そうして神にも大小高下の差別があり、位の高い神程力もそれに相応する以上、本教に奇蹟が多い事と、それが素晴しい事は全く神格の高さを物語っているのである。<br/><br/>ゆえに信者の幸福の大きい事もそれに伴（とも）のう訳である。<br/><br/>従って小なる奇蹟、凡（ぼん）なる奇蹟はザラにあり、一般人が驚く程の奇蹟でも本教信者は日常茶飯事としか思っていない。<br/><br/>何しろ余りの奇蹟に割切れず、ただ唖然たるばかりのことが枚挙にいとまないのである。<br/><br/>では奇蹟はなぜ現われるかについて説明してみると、現代人の頭脳は学問と伝統的観念で出来上っており、その中でも特に肝腎な医学においての大きな迷信は気がつかず、絶対の信頼を払い常識にまでなっているのである。<br/><br/>これに対し本教浄霊法によれば、大病院や博士から絶対不治として見放され死を待つばかりの病人が、たちまちにして起死回生的成果を挙げる事実に直面しては、ただ唖然として頭を下げざるを得ないのである。<br/><br/>また今一つの事実は本教出版物には医学の盲点を徹底的に暴露し、マイナス的存在としているにかかわらず、それが十数年に及んだ今日といえども、未（いま）だ一人の専門家の反駁（はんぱく）も詰問も出ないので、吾々は不可解至極と思うのである。<br/><br/> 以上にみても分るごとく、本教の奇蹟は到底理屈のつけようがなく、いかに疑い深い人でも事実の前には兜を脱がざるを得ないのである。<br/><br/>しかし本当をいえばこの世の中に奇蹟のないのが真理であって、理屈のつかないのは理屈が間違っているからである。<br/><br/>何しろ欠点の多い人間の智慧や学問で作られた理屈であってみれば、それも致し方ないのである。<br/><br/>従って将来学問が大いに進歩したその時こそは、奇蹟の言葉はなくなるはずである。<br/><br/>そうして本教の奇蹟はことごとく神霊の力によるものであるから、無神論者にはなおさら分りよう訳がない。<br/><br/>そこで理屈で分らないものは何もかも奇蹟の一言で片付けてしもうのである。<br/><br/>以上の意味によって現在吾々の生活も仕事も、奇蹟に次ぐ奇蹟によって面白い程スムースにゆく。<br/><br/>時には奇蹟を予定する事さえあるくらいで、そういう時はたまには外れる場合もあるが、後になって奇蹟が延びたため、却（かえ）って奇蹟は大きくなる事もよくあるのである。<br/><br/>そのような訳で万事予想以上に巧（うま）く運んでゆくと共に、危いことも避けられ、面倒なことも奇蹟で解決されるという真の安心立命の境地にあるので、全く吾々は奇蹟の生活を楽しんでいるのである。<br/><br/> 理論はこのくらいにしておいて、今までに本教における無数の奇蹟の記録は埋めておくのは惜しい気がするので、これを一冊にまとめてこの著としたのであるから、読者はこの生ける事実を充分熟読玩味（じゅくどくがんみ）すれば幸福の第一歩に入ったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kanzeon1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観世音菩薩 未発表『文明の創造』昭和27（1952）年執筆 前項までに、観世音についての因縁を、色々な面から説いて来たが、そうなられるまでの根本と言えば全く素尊（すさのをのみこと）の暴圧が原因であった事は、すでに述べた通りである。<br><br>ところが伊都能売神（いづのめのかみ）去り給いし後の日本は、どうなったかというと、その弟神であったのが、彼の天照天皇であって、この天皇は惜しくも、何の理由もなく俄かに崩御され給うたので、止むなくその皇后を立てて、御位に即（つ）かせられたのが彼の女性である天照天皇であった。<br><br>今もなお天照大御神（あまてらすおおみかみ）が日の神でありながら女神として祀られているのは、そういう訳なのである。<br><br>また以前私はかいた事があるが、素尊は日本の統治権を得んとして余りに焦り、目的のために手段を択ばず式で、力の政治を行った結果、人心は紊れ、収拾すべからざるに至ったので、ここに父君である伊邪那岐尊（いざなぎのみこと）の御勘気に触れ、譴責（けんせき）の止むなき事になった。<br><br>というのは素尊は、本来朝鮮系統の神でもあったからである。<br><br>しかもその後悔悟の情なく、依然たる有様なので、最後の手段として日本を追放される事になったのである。<br><br>この時の事を『古事記』にはこう出ている。<br><br>素盞嗚尊（すさのをのみこと）の素行（そこう）や悪政に対し、伊邪那岐尊の御尤（とが）めを蒙り、神遣（かむやらい）にやらわれたとあり、その行先は黄泉（よみ）の国であるが、黄泉の国には母神である伊邪那美尊（いざなみのみこと）が在（ましま）すので、罪の赦されるまで母神の許にいて、暫くの間謹慎すぺく思って、出発の前、天に在す姉神天照大御神に暇（いとま）乞いをせんとしたのである。<br><br>この事を『古事記』にはこう書いてある。<br><br>素盞嗚尊はたちまち山川響動（どよも）し、天に昇らんとしたところ、それを知った天照大神は大いに驚き、さては弟素尊は、自分を攻めに来たのではないかと疑心暗鬼を抱いていたところへ、素尊は天に上り、天照大神に面会されたところ、どうも姉神の様子が普通でないので、これを見てとった素尊は、姉神は私を疑われているようであるが、自分の肚は何らの邪念はない。<br><br>この通り潔白であるから、今その証しを御眼にかけると言い、素尊は剣を抜き天（あめ）の真奈井（まない）に水を注ぐや、たちまち三女神（みはしらのひめがみ）が生れた。<br><br>すなわち市杵島姫命（いちきしまひめのみこと）、湍津姫命（たぎつひめのみこと）、田霧姫命（たぎりひめのみこと）である。<br><br>すると天照大神は、では自分の清い心も見せようと申され、胸に掛けた曲玉（まがたま）を外し、同じく水に注ぎ揺らがしたところ五男神（いつはしらのひこがみ）が生まれた。<br><br>すなわち天忍穂耳命（あめのおしほみみのみこと）、天穂日命（あめのほひのみこと）、天津彦根命（あまつひこねのみこと）、活津彦根命（いくつひこねのみこと）、熊野樟日命（くまぬのくすひのみこと）である。<br><br>もちろんこれは比喩であって、実際はその時、素尊は三人の息女、天照大神は五人の重臣を呼んだのである。<br><br>というのはこの時両神は、右の五男三女を証人として、一の誓約（うけい）をされようとしたからで、その誓約とは近江の琵琶湖一名志賀ノ湖（うみ）、また右の天の真奈井もそうであって、この湖水を中心として、東の方を天照大神、西の方を素盞嗚尊が領（うしは）ぐという約束をしたのである。<br><br>つまり今日で言う平和条約である。<br><br>これによってともかく一時小康を得たが、その後素尊は相変らず謹慎の色が見えないので、ここに本当の追放となったのである。<br><br>この時の事を八洲河原の誓約（うけひ）と言われているが、今日でも琵琶湖の東岸に八州河原という村があるのは、この地点であったのであろう。<br><br> ここで昔から、人口に膾灸〔炙〕（かいしゃ）されている竜宮の乙姫という女神の事を書かねばならないが、これについては、少し遡って書く必要がある。<br><br>それは伊邪那岐、伊邪那美尊から生れた五柱の男女の兄弟がある。<br><br>すなわち長男は伊都能売天皇、次男が天照天皇、三男が神素盞嗚尊、長女が稚姫君命（わかひめぎみのみこと）、二女が初稚姫命である。<br><br>そこで伊邪那岐尊は、最初伊都能売尊に日本を統治させ次で天照天皇次で天照皇后の順序にされたのであるが、素盞嗚尊には最初から朝鮮を統治させたのである。<br><br>そうして素尊の妻神とされたのが、もちろん朝鮮で出生された姫神であって、この姫神が弟の妻神となった、言わば弟姫であるから、これを詰めて音（乙）姫と呼ばれたのであるが、昔から乙米姫とも言われたが、これは未婚の時に朝鮮名の中に、米の字が入っていたからであろう。<br><br> 右のごとく、弟姫すなわち音姫は、夫（つま）神が流浪の旅に上られたので、それからは孤独の生活となったのはもちろんで、まもなく故郷の朝鮮へ帰り、壮麗な城廓を築き、宮殿内に多くの侍女を侍（はべ）らせ、空閨を守っていたのである。<br><br>ところがその頃信州地方の生れである太郎なる若者が、漁が好きなので、常に北陸辺りの海岸から海へ出ていた。<br><br>するとある時大暴海（おおあらし）に遭い、辛うじて朝鮮海岸に漂着して救われたが、当時としては日本人も珍しがられていた事とて、ついに男禁制の王城内にまで招ぜらるるに至ったのも無理はない。<br><br>ところが当時女王格である音姫様は、寂寥（せきりょう）に堪えなかったからでもあろうが、とにかく御目通りを許されたところ、太郎という若者が、世にも稀なる美貌の持主であったから堪らない。<br><br>一目見るより恋慕（れんぼ）の情堪えやらず、ついに何かの名目で、城内に滞在させる事となった。<br><br> そのような訳で、太郎に対する愛情は益々熱烈を加え、日夜離さず御傍に侍らせるという訳で、この事がいつか人民の耳に入り、ようやく非難の声喧（やかま）しくなったので、ここに絶ち難き愛着を絶つ事となり、素晴しい宝物を箱に納め、土産物として太郎に遣り帰国さした。<br><br>これが彼の有名な玉手箱である。<br><br>またこれを開けると白髪になるなどという伝説は、誰かの作り事であろうし、また浦島という姓は、朝鮮は日本の裏になっているからで、後世の作者がそういう姓を付けたのであろう。<br><br> そうして音姫が朝鮮の女王格であった時代は、日本も支那も圧倒されてしまい、印度以東は朝鮮の勢力範囲といってもいいくらいであった。<br><br>もちろんそれは素盞嗚尊が、一時飛ぶ鳥も落す程の勢いであったからでもあり、その上音姫という女神は男勝りの女傑であったからでもある。<br><br>ちょうどその頃印度の経綸を終えた観自在菩薩は、帰国しようとして南支方面にまで来たところ、まだ日本は危険の空気を孕（はら）んでいる事が分ったので、しばらくその地に滞在する事となったので、その時からが観世音の御名となったのである。<br><br>という訳はつまり印度滞在中は、自在天の世を客観していたので観自在といい、今度は音姫の世を静観する事となったので、観世音と名付けられたのである。<br><br>すなわち観世音を逆に読めば、音姫の世を観るという意味になる。<br><br>そうしておいて菩薩は、南支那地方民に教えを垂れ給うたところ、何しろ徳高き菩薩の事とて、四隣の民草は親を慕うがごとく追々寄り集う有様で、この時から観音信仰はついに支那全土にまで行き渡ったのである。<br><br>ところが御年も重ね給い、これまでで経綸もほぼ成し遂げられた事とて、ついにこの土地で終焉（しゅうえん）され給うたのである。<br><br>そうして今日といえども支那全土すなわち満州、蒙古、西蔵（チベット）辺に到るまで観音信仰のみは、依然として衰えを見せないのは深い理由のある事であって、これもおいおい説くが、ここで遺憾な事は、南支地方に観音の遺跡がありそうなものだが、全然無いのは、全くその地方が幾度となく、兵火に見舞われ、地上にあるあらゆるものが消滅した結果でまた止むを得ないのである。<br><br> (注) 神遣（かむやらい）、神の意志によって追放する事。<br><br> 黄泉（よみ）、死後、その魂が行くとされている地下の世界。<br><br>冥土（めいど）。<br><br> 膾炙（かいしゃ）、「膾」はなます「炙」はあぶり肉の意で、いずれも味がよく、多くの人の口に喜ばれるところから、世の人々の評判になって知れ渡ること。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese Divina de Kannon e os Primórdios do Japão</h2>
 <p>Conforme explanei sob diversas perspectivas nos tópicos anteriores, a jornada e os desígnios de Kannon possuem uma profunda origem cármica. A causa primordial de Sua jornada reside, inequivocamente, na tirania de Susano-o no Mikoto, como já foi exposto. Todavia, o que sucedeu ao Japão após a partida de Izunome no Kami? Seu irmão mais novo, o Imperador Amaterasu, ascendeu ao poder. Infelizmente, este monarca veio a falecer subitamente, sem motivo aparente. Tornou-se, pois, imperativo que sua imperatriz ascendesse ao Trono, dando origem à figura feminina do Imperador Amaterasu. Eis a razão pela qual, ainda em nossos dias, Amaterasu Oomikami, embora seja a divindade do Sol, é reverenciada como uma deusa.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Foi nesse período que o Kanjizai Bosatsu, tendo concluído sua missão na Índia, viajava de volta e chegou à região sul da China. Ali, percebeu que uma atmosfera de perigo ainda pairava sobre o Japão e decidiu permanecer naquele local por algum tempo. A partir de então, Ele adotou o nome de Kanzeon. A razão para tal mudança é a seguinte: durante Sua permanência na Índia, Ele observava objetivamente o mundo de Jizaiten, sendo, por isso, chamado de Kanjizai. A partir de então, passaria a contemplar serenamente o mundo de Otohime, recebendo, assim, o nome de Kanzeon. Com efeito, ao se ler Kanzeon (観世音) de forma interpretativa, tem-se o significado de “Aquele que contempla (観) o mundo (世) de Otohime (音)”.</p>
 <p>O Bodhisattva dedicou-se a transmitir seus ensinamentos ao povo do sul da China. Sendo Ele um ser de virtude excelsa, o povo das regiões vizinhas começou a afluir, buscando-o como filhos que anseiam por seus pais. Foi assim que a fé em Kannon se difundiu por toda a China. Após uma longa vida, e tendo sua missão sido em grande parte cumprida, Ele encerrou Sua jornada terrena naquela mesma terra.</p>
 <p>Mesmo nos dias de hoje, em toda a China — incluindo a Manchúria, a Mongólia e o Tibete —, o fato de a fé em Kannon permanecer inabalável encerra uma profunda razão, que será elucidada oportunamente. É de se lamentar, contudo, a completa ausência de ruínas ou vestígios de Kannon no sul da China. A explicação é que aquela região foi repetidamente assolada por inúmeros conflitos bélicos, resultando na completa aniquilação de tudo o que existia sobre a terra, um desfecho lamentável, porém inevitável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観世音菩薩 未発表『文明の創造』昭和27（1952）年執筆 前項までに、観世音についての因縁を、色々な面から説いて来たが、そうなられるまでの根本と言えば全く素尊（すさのをのみこと）の暴圧が原因であった事は、すでに述べた通りである。<br/><br/>ところが伊都能売神（いづのめのかみ）去り給いし後の日本は、どうなったかというと、その弟神であったのが、彼の天照天皇であって、この天皇は惜しくも、何の理由もなく俄かに崩御され給うたので、止むなくその皇后を立てて、御位に即（つ）かせられたのが彼の女性である天照天皇であった。<br/><br/>今もなお天照大御神（あまてらすおおみかみ）が日の神でありながら女神として祀られているのは、そういう訳なのである。<br/><br/>また以前私はかいた事があるが、素尊は日本の統治権を得んとして余りに焦り、目的のために手段を択ばず式で、力の政治を行った結果、人心は紊れ、収拾すべからざるに至ったので、ここに父君である伊邪那岐尊（いざなぎのみこと）の御勘気に触れ、譴責（けんせき）の止むなき事になった。<br/><br/>というのは素尊は、本来朝鮮系統の神でもあったからである。<br/><br/>しかもその後悔悟の情なく、依然たる有様なので、最後の手段として日本を追放される事になったのである。<br/><br/>この時の事を『古事記』にはこう出ている。<br/><br/>素盞嗚尊（すさのをのみこと）の素行（そこう）や悪政に対し、伊邪那岐尊の御尤（とが）めを蒙り、神遣（かむやらい）にやらわれたとあり、その行先は黄泉（よみ）の国であるが、黄泉の国には母神である伊邪那美尊（いざなみのみこと）が在（ましま）すので、罪の赦されるまで母神の許にいて、暫くの間謹慎すぺく思って、出発の前、天に在す姉神天照大御神に暇（いとま）乞いをせんとしたのである。<br/><br/>この事を『古事記』にはこう書いてある。<br/><br/>素盞嗚尊はたちまち山川響動（どよも）し、天に昇らんとしたところ、それを知った天照大神は大いに驚き、さては弟素尊は、自分を攻めに来たのではないかと疑心暗鬼を抱いていたところへ、素尊は天に上り、天照大神に面会されたところ、どうも姉神の様子が普通でないので、これを見てとった素尊は、姉神は私を疑われているようであるが、自分の肚は何らの邪念はない。<br/><br/>この通り潔白であるから、今その証しを御眼にかけると言い、素尊は剣を抜き天（あめ）の真奈井（まない）に水を注ぐや、たちまち三女神（みはしらのひめがみ）が生れた。<br/><br/>すなわち市杵島姫命（いちきしまひめのみこと）、湍津姫命（たぎつひめのみこと）、田霧姫命（たぎりひめのみこと）である。<br/><br/>すると天照大神は、では自分の清い心も見せようと申され、胸に掛けた曲玉（まがたま）を外し、同じく水に注ぎ揺らがしたところ五男神（いつはしらのひこがみ）が生まれた。<br/><br/>すなわち天忍穂耳命（あめのおしほみみのみこと）、天穂日命（あめのほひのみこと）、天津彦根命（あまつひこねのみこと）、活津彦根命（いくつひこねのみこと）、熊野樟日命（くまぬのくすひのみこと）である。<br/><br/>もちろんこれは比喩であって、実際はその時、素尊は三人の息女、天照大神は五人の重臣を呼んだのである。<br/><br/>というのはこの時両神は、右の五男三女を証人として、一の誓約（うけい）をされようとしたからで、その誓約とは近江の琵琶湖一名志賀ノ湖（うみ）、また右の天の真奈井もそうであって、この湖水を中心として、東の方を天照大神、西の方を素盞嗚尊が領（うしは）ぐという約束をしたのである。<br/><br/>つまり今日で言う平和条約である。<br/><br/>これによってともかく一時小康を得たが、その後素尊は相変らず謹慎の色が見えないので、ここに本当の追放となったのである。<br/><br/>この時の事を八洲河原の誓約（うけひ）と言われているが、今日でも琵琶湖の東岸に八州河原という村があるのは、この地点であったのであろう。<br/><br/> ここで昔から、人口に膾灸〔炙〕（かいしゃ）されている竜宮の乙姫という女神の事を書かねばならないが、これについては、少し遡って書く必要がある。<br/><br/>それは伊邪那岐、伊邪那美尊から生れた五柱の男女の兄弟がある。<br/><br/>すなわち長男は伊都能売天皇、次男が天照天皇、三男が神素盞嗚尊、長女が稚姫君命（わかひめぎみのみこと）、二女が初稚姫命である。<br/><br/>そこで伊邪那岐尊は、最初伊都能売尊に日本を統治させ次で天照天皇次で天照皇后の順序にされたのであるが、素盞嗚尊には最初から朝鮮を統治させたのである。<br/><br/>そうして素尊の妻神とされたのが、もちろん朝鮮で出生された姫神であって、この姫神が弟の妻神となった、言わば弟姫であるから、これを詰めて音（乙）姫と呼ばれたのであるが、昔から乙米姫とも言われたが、これは未婚の時に朝鮮名の中に、米の字が入っていたからであろう。<br/><br/> 右のごとく、弟姫すなわち音姫は、夫（つま）神が流浪の旅に上られたので、それからは孤独の生活となったのはもちろんで、まもなく故郷の朝鮮へ帰り、壮麗な城廓を築き、宮殿内に多くの侍女を侍（はべ）らせ、空閨を守っていたのである。<br/><br/>ところがその頃信州地方の生れである太郎なる若者が、漁が好きなので、常に北陸辺りの海岸から海へ出ていた。<br/><br/>するとある時大暴海（おおあらし）に遭い、辛うじて朝鮮海岸に漂着して救われたが、当時としては日本人も珍しがられていた事とて、ついに男禁制の王城内にまで招ぜらるるに至ったのも無理はない。<br/><br/>ところが当時女王格である音姫様は、寂寥（せきりょう）に堪えなかったからでもあろうが、とにかく御目通りを許されたところ、太郎という若者が、世にも稀なる美貌の持主であったから堪らない。<br/><br/>一目見るより恋慕（れんぼ）の情堪えやらず、ついに何かの名目で、城内に滞在させる事となった。<br/><br/> そのような訳で、太郎に対する愛情は益々熱烈を加え、日夜離さず御傍に侍らせるという訳で、この事がいつか人民の耳に入り、ようやく非難の声喧（やかま）しくなったので、ここに絶ち難き愛着を絶つ事となり、素晴しい宝物を箱に納め、土産物として太郎に遣り帰国さした。<br/><br/>これが彼の有名な玉手箱である。<br/><br/>またこれを開けると白髪になるなどという伝説は、誰かの作り事であろうし、また浦島という姓は、朝鮮は日本の裏になっているからで、後世の作者がそういう姓を付けたのであろう。<br/><br/> そうして音姫が朝鮮の女王格であった時代は、日本も支那も圧倒されてしまい、印度以東は朝鮮の勢力範囲といってもいいくらいであった。<br/><br/>もちろんそれは素盞嗚尊が、一時飛ぶ鳥も落す程の勢いであったからでもあり、その上音姫という女神は男勝りの女傑であったからでもある。<br/><br/>ちょうどその頃印度の経綸を終えた観自在菩薩は、帰国しようとして南支方面にまで来たところ、まだ日本は危険の空気を孕（はら）んでいる事が分ったので、しばらくその地に滞在する事となったので、その時からが観世音の御名となったのである。<br/><br/>という訳はつまり印度滞在中は、自在天の世を客観していたので観自在といい、今度は音姫の世を静観する事となったので、観世音と名付けられたのである。<br/><br/>すなわち観世音を逆に読めば、音姫の世を観るという意味になる。<br/><br/>そうしておいて菩薩は、南支那地方民に教えを垂れ給うたところ、何しろ徳高き菩薩の事とて、四隣の民草は親を慕うがごとく追々寄り集う有様で、この時から観音信仰はついに支那全土にまで行き渡ったのである。<br/><br/>ところが御年も重ね給い、これまでで経綸もほぼ成し遂げられた事とて、ついにこの土地で終焉（しゅうえん）され給うたのである。<br/><br/>そうして今日といえども支那全土すなわち満州、蒙古、西蔵（チベット）辺に到るまで観音信仰のみは、依然として衰えを見せないのは深い理由のある事であって、これもおいおい説くが、ここで遺憾な事は、南支地方に観音の遺跡がありそうなものだが、全然無いのは、全くその地方が幾度となく、兵火に見舞われ、地上にあるあらゆるものが消滅した結果でまた止むを得ないのである。<br/><br/> (注) 神遣（かむやらい）、神の意志によって追放する事。<br/><br/> 黄泉（よみ）、死後、その魂が行くとされている地下の世界。<br/><br/>冥土（めいど）。<br/><br/> 膾炙（かいしゃ）、「膾」はなます「炙」はあぶり肉の意で、いずれも味がよく、多くの人の口に喜ばれるところから、世の人々の評判になって知れ渡ること。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

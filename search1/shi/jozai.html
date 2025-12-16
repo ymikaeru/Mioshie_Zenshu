@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jozai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄財と不浄財 『光明世界』4号、昭和10(1935)年7月25日発行 それは、名前など一切言えませんけれどもある宗教の非常な、熱心な信者がありました。<br><br> その信者が、神様の事について、結構な御用をしたんでありますが、その人は、家賃を何年も払わずにいるんであります。<br><br>ツマリ、払うべきを払わないで御用をしたのであります。<br><br>で、これは、どういう風に解釈するかと言いますと、払うべき物を払わぬという事は、例えば、物を買って品物を持って来ても、金を払わぬというのと違いはありません。<br><br>家を借りる際には、最初、家賃を払う、家を貸すというので借りたんで、例えば品物にしても、これは一円だから一円払えば品物を上げるというのと同じであります。<br><br> 銭を払わないで品物を持ってくるとなると怪しからん事で犯罪になりますが、家を借りて家賃を払わないのも、桔極〔局〕同じ事であります。<br><br>どうしても、これは盗みであります。<br><br>本当から言えば、家賃なんかは一日も、遅らせるべきものではないのでありまして、一日遅れれば一日、それだけの盗みの罪が構成される事になります。<br><br>そんな金で、御用をしても真の神様なら、そんな不浄の金は御使いになるはずがないのであります。<br><br>でありますから地代とか家賃とか約束した仕払は、絶対に遅らせるべきものではないのであります。<br><br>そういう払うべきものを払わねば、矢張り入るべき金も入るものではありません。<br><br> 金は昔から、湯水のようだとか、湧くとか言われていますが、全く水のようなもので、払うべきものを払うとどしどし流れて来るものであります。<br><br>金を払わねば入るべき物も滞ってしまうのであります。<br><br>霊的に言うと、そうであります。<br><br>霊的が体的になるのでありますから、金に困る人とか、豊でない人はどこかにそういう間違いがあるんであります。<br><br>そういう間違った事がなければ、困るべきものではないので、それが天地の原則であります。<br><br>そういう無理をし人に迷惑をかけて神様の御用をしたって、決して善い事をしたのではないのであります。<br><br>よくお寺や、伽藍（がらん）が焼けますが、永久に残る寺は滅多にありません。<br><br>日本では、奈良の法隆寺位なものでありましょう。<br><br>有名な堂宇はよく焼けます。<br><br>それは、そういう不浄な金が多いので、建てたが故であります。<br><br> 面白い話がありますが、無銭飲食をした者があって、警官が捉えて調べてみると懐に百円持っている。<br><br>そんなに金を持っていて、なぜ、そんな事をしたかと訊くと、その男は阿弥陀様の信者で、これは、阿弥陀様へ百円キッチリ上げるときめてあるんだから、一銭も手を付けられぬ、外には銭がないから無銭飲食をしたんだと、平気で言ったそうであります。<br><br>こんなのが迷信の最も恐ろしいところであります。<br><br>それに似た様な事がよくあるんであります。<br><br>これは、大変な間違いでありますが、観音信仰はこういう間違いはない、誤魔化しのない、つまり総てが真実であります。<br><br>観音様を信仰し、観音行をすれば本当の人間になるから、人から指一本さされる事がない、争いや苦情が起らないのであります。<br><br>争いや苦情が無くなれば裁判所などの必要がなくなって来る。<br><br>間違った事をしながら、理屈を付けて誤魔化そうとするから苦情や争いが起り裁判所の必要があります。<br><br>世の中の人が皆、間違わないようになった時が大光明世界であります。<br><br> （岡田仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Oferendas Puras e Impuras</h2>
 <p>Permitam-me relatar, sem mencionar nomes, o caso de um devoto extremamente fervoroso de uma certa religião. Este fiel dedicava-se a prestar relevantes serviços a Deus, contudo, por muitos anos, negligenciou o pagamento de seu aluguel. Em outras palavras, ele cumpria sua missão divina descumprindo com suas obrigações mundanas.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Há uma história interessante a esse respeito. Certo homem foi preso por comer em um estabelecimento e sair sem pagar. Ao ser revistado pela polícia, descobriu-se que ele portava cem ienes em seu bolso. Questionado sobre o motivo de sua atitude, visto que possuía dinheiro, o homem, que era devoto de Amida, respondeu com toda a serenidade: "Este dinheiro está rigorosamente reservado como oferenda ao Buda Amida, e não posso tocar em uma única moeda. Como não tinha outros recursos, tive de comer sem pagar". Eis o aspecto mais aterrador da superstição. E casos semelhantes a este são bastante comuns.</p>
 <p>Trata-se de um gravíssimo equívoco. A fé em Kannon (観音), todavia, é isenta de tais distorções. É uma fé livre de subterfúgios, alicerçada inteiramente na verdade. Ao professar a fé em Kannon (観音) e praticar suas virtudes, o ser humano torna-se verdadeiramente íntegro, uma pessoa de conduta irrepreensível, que não dá margem a críticas. Desse modo, os conflitos e as queixas desaparecem de sua vida. Quando os litígios e as contendas se extinguem, instituições como os tribunais tornam-se desnecessárias. A necessidade de tribunais surge porque as pessoas cometem erros e, em seguida, tentam justificar-se com argumentos falaciosos. O dia em que todas as pessoas do mundo viverem sem cometer equívocos será a chegada do Mundo de Grande Luz.</p>
 <p>(Okada Jinsai)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄財と不浄財 『光明世界』4号、昭和10(1935)年7月25日発行 それは、名前など一切言えませんけれどもある宗教の非常な、熱心な信者がありました。<br/><br/> その信者が、神様の事について、結構な御用をしたんでありますが、その人は、家賃を何年も払わずにいるんであります。<br/><br/>ツマリ、払うべきを払わないで御用をしたのであります。<br/><br/>で、これは、どういう風に解釈するかと言いますと、払うべき物を払わぬという事は、例えば、物を買って品物を持って来ても、金を払わぬというのと違いはありません。<br/><br/>家を借りる際には、最初、家賃を払う、家を貸すというので借りたんで、例えば品物にしても、これは一円だから一円払えば品物を上げるというのと同じであります。<br/><br/> 銭を払わないで品物を持ってくるとなると怪しからん事で犯罪になりますが、家を借りて家賃を払わないのも、桔極〔局〕同じ事であります。<br/><br/>どうしても、これは盗みであります。<br/><br/>本当から言えば、家賃なんかは一日も、遅らせるべきものではないのでありまして、一日遅れれば一日、それだけの盗みの罪が構成される事になります。<br/><br/>そんな金で、御用をしても真の神様なら、そんな不浄の金は御使いになるはずがないのであります。<br/><br/>でありますから地代とか家賃とか約束した仕払は、絶対に遅らせるべきものではないのであります。<br/><br/>そういう払うべきものを払わねば、矢張り入るべき金も入るものではありません。<br/><br/> 金は昔から、湯水のようだとか、湧くとか言われていますが、全く水のようなもので、払うべきものを払うとどしどし流れて来るものであります。<br/><br/>金を払わねば入るべき物も滞ってしまうのであります。<br/><br/>霊的に言うと、そうであります。<br/><br/>霊的が体的になるのでありますから、金に困る人とか、豊でない人はどこかにそういう間違いがあるんであります。<br/><br/>そういう間違った事がなければ、困るべきものではないので、それが天地の原則であります。<br/><br/>そういう無理をし人に迷惑をかけて神様の御用をしたって、決して善い事をしたのではないのであります。<br/><br/>よくお寺や、伽藍（がらん）が焼けますが、永久に残る寺は滅多にありません。<br/><br/>日本では、奈良の法隆寺位なものでありましょう。<br/><br/>有名な堂宇はよく焼けます。<br/><br/>それは、そういう不浄な金が多いので、建てたが故であります。<br/><br/> 面白い話がありますが、無銭飲食をした者があって、警官が捉えて調べてみると懐に百円持っている。<br/><br/>そんなに金を持っていて、なぜ、そんな事をしたかと訊くと、その男は阿弥陀様の信者で、これは、阿弥陀様へ百円キッチリ上げるときめてあるんだから、一銭も手を付けられぬ、外には銭がないから無銭飲食をしたんだと、平気で言ったそうであります。<br/><br/>こんなのが迷信の最も恐ろしいところであります。<br/><br/>それに似た様な事がよくあるんであります。<br/><br/>これは、大変な間違いでありますが、観音信仰はこういう間違いはない、誤魔化しのない、つまり総てが真実であります。<br/><br/>観音様を信仰し、観音行をすれば本当の人間になるから、人から指一本さされる事がない、争いや苦情が起らないのであります。<br/><br/>争いや苦情が無くなれば裁判所などの必要がなくなって来る。<br/><br/>間違った事をしながら、理屈を付けて誤魔化そうとするから苦情や争いが起り裁判所の必要があります。<br/><br/>世の中の人が皆、間違わないようになった時が大光明世界であります。<br/><br/> （岡田仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

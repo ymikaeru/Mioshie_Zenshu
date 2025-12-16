@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kajitu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夏日随想 槐安生 『栄光』67号、昭和25(1950)年8月30日発行 （１） 拍手に八月の風動くかな あの時以来久方ぶりにお懐かしき明主様に御面会を許された信徒は思いなしかいつもより明るく元気である、雨あがりの日光殿はそよともせず人々の活気で暑い（信徒たちは胸に火素の魂りを秘めているせいであろう）お祈りが始められた、拍手を打つごとに隣りの人の掌から風が動く、信徒の真心を神が嘉すが如くに。<br><br> 上布着るおみなは何を祈るらむ 平素、他人の衣裳に関心も興味も持たない私にどうした事か、御神前に祈る上品な老婦人の着物に目が引かれた。<br><br>涼しい上布（じょうふ）に渋く落着いた細かい縞模様がその老婦人を一きわ引き立てている、娘さんの良き縁談を祈るのであろうか、長い長い礼拝であった。<br><br> 日盛りや扇かざして段昇る 日光殿の御庭拝観が許された、八月の灼けるような太陽を扇でさえぎりながら石段を昇る。<br><br> 石を自由に沢山使った（箱根ならでは）と思われる庭園はあくまでも明るい。<br><br>東京の名苑水戸公の後楽園、柳澤侯の六義園も、小掘遠州作るところの庭も、過去の日本的思想が見られるが日光殿のお庭は近代的な明るさ、それも軽薄なモダニズムは全然なく、今後語らるべき庭園学の一つの行き方を暗示している、深くして割合に狭い池は箱庭式の旧来の池とは概念を異にし、山の水の流れに随って庭の風景をあの池でぐっと締めている、建物の布置、結構な庭と全く間然するところのないのには全く敬服せられるのである、天界における庭もこのようなものであろうか。<br><br> 天国の庭もかくこそ夏涼し （２） 明主様が霊覚者として古今に比類を絶したお方であらせられる事は元よりであるが、画家とし、書家として又、余技とも云うべき短歌、冠句、造園、建築にまで卓抜なる力量を待っておられる事は真に驚ろく許りである。<br><br> 美術に対する鑑賞眼もまた当代の一流批評家に互して何等遜色なき識見を持っておられる事は昨年御発表の古画、現代画家の御批評に依ってうかがわれる。<br><br> 芸術家が自身の専門以外にはその余技が一流に達する事は稀れであるが、明主様のそれは総てが一流以上であることには瞠目せざるを得ない。<br><br> ここで想うことは、芸術の発祥が宗教にその源を発していることからもメシヤ教の信徒が積極的に芸術に親しむ意欲を持つならば、その心霊が浄められ、高められ純粋な信仰をより以上に進められ行道一致の境地に達せられると思うのである。<br><br> 宗教の使命が真善美の完成にあることは論ずる迄もないが、明主様の御垂教にある様にもっと美的な情操を養うことは一見迂遠のようであるが、実は根本的なものではないだろうか。<br><br> 婦人の方の生花は自然を活かす道であり、お茶の和、寂、静を根底とする精神はすべての芸術と一つであり、もとより宗教のそれも等しいものである、矛盾と思われるような剣の道さえ禅と一致するとは山岡鉄舟を初め、名人、達人と云われる人々の見解である、子供を可愛いがり、花を見て奇麗と思い、植木の好きな人に根っからの悪人はないと云うのも宗教を信じない人でも芸術に心を寄せる人なら道徳律に外れた行いをする人は少ないと云うのも、一脈の気韻が通じているからである。<br><br> かつての私なども宗教を信ずる事が出来ず苦しんだが如何に苦しい境涯にあっても精神の高さを失いたくないと思い、それを支えてくれたのは十七字で天地を動かす俳句であった、師に就かず、投句もせず自己流で拙劣であっても、真実を詠み続けて来たのであるが、このために苦しみさえ客観視する事が出来、如何なる貴重な物質とでも換えることの出来ない高い精神だけは今日迄も失わず、メシヤ様に救われる素地を保ち得たと思えるのである。<br><br> （注）上布（じょうふ）、上質の麻糸で織った軽く薄い織物。<br><br>夏の季語。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões de um Dia de Verão</h2>
 <p><strong>(1)</strong></p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>A missão da religião, como é sabido, reside na concretização da Verdade, do Bem e do Belo. Nesse sentido, conforme os Ensinamentos de Meishu-Sama nos orientam, a busca por nutrir uma sensibilidade estética mais apurada pode, à primeira vista, parecer um caminho indireto. Não seria ela, na realidade, um pilar fundamental?</p>
 <p>A arte do arranjo floral, praticada pelas senhoras, é um caminho para vivificar a natureza. O espírito da cerimônia do chá, fundamentado na harmonia, na quietude e no silêncio, partilha da mesma essência de todas as artes e, por conseguinte, da própria religião. Até mesmo o caminho da espada, que poderia soar como uma contradição, converge com o Zen, conforme atestam mestres como Yamaoka Tesshu e outras personalidades tidas como expoentes em suas artes. Diz-se que não há maldade intrínseca naqueles que amam as crianças, que se encantam com a beleza de uma flor ou que apreciam a jardinagem. De modo análogo, mesmo pessoas que não professam uma fé, se possuem uma inclinação para a arte, raramente se desviam dos preceitos morais. Isso ocorre porque uma mesma corrente de nobreza espiritual perpassa todas essas esferas.</p>
 <p>Eu mesmo, em tempos passados, sofri por não conseguir acreditar em uma religião. Contudo, por mais árdua que fosse minha provação, eu tinha o firme desejo de não perder a nobreza de espírito. O que me amparou nessa jornada foi o haiku, a arte de mover o céu e a terra em dezessete sílabas. Sem mestre e sem jamais submeter meus versos a concursos, continuei a compor à minha própria maneira, ainda que de forma rudimentar, buscando sempre expressar a verdade. Graças a essa prática, tornei-me capaz de observar meu próprio sofrimento com objetividade. Assim, preservei até hoje aquela elevação espiritual, algo que não trocaria por nenhum bem material. Creio firmemente que foi essa base que me permitiu, enfim, ser salvo por Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夏日随想 槐安生 『栄光』67号、昭和25(1950)年8月30日発行 （１） 拍手に八月の風動くかな あの時以来久方ぶりにお懐かしき明主様に御面会を許された信徒は思いなしかいつもより明るく元気である、雨あがりの日光殿はそよともせず人々の活気で暑い（信徒たちは胸に火素の魂りを秘めているせいであろう）お祈りが始められた、拍手を打つごとに隣りの人の掌から風が動く、信徒の真心を神が嘉すが如くに。<br/><br/> 上布着るおみなは何を祈るらむ 平素、他人の衣裳に関心も興味も持たない私にどうした事か、御神前に祈る上品な老婦人の着物に目が引かれた。<br/><br/>涼しい上布（じょうふ）に渋く落着いた細かい縞模様がその老婦人を一きわ引き立てている、娘さんの良き縁談を祈るのであろうか、長い長い礼拝であった。<br/><br/> 日盛りや扇かざして段昇る 日光殿の御庭拝観が許された、八月の灼けるような太陽を扇でさえぎりながら石段を昇る。<br/><br/> 石を自由に沢山使った（箱根ならでは）と思われる庭園はあくまでも明るい。<br/><br/>東京の名苑水戸公の後楽園、柳澤侯の六義園も、小掘遠州作るところの庭も、過去の日本的思想が見られるが日光殿のお庭は近代的な明るさ、それも軽薄なモダニズムは全然なく、今後語らるべき庭園学の一つの行き方を暗示している、深くして割合に狭い池は箱庭式の旧来の池とは概念を異にし、山の水の流れに随って庭の風景をあの池でぐっと締めている、建物の布置、結構な庭と全く間然するところのないのには全く敬服せられるのである、天界における庭もこのようなものであろうか。<br/><br/> 天国の庭もかくこそ夏涼し （２） 明主様が霊覚者として古今に比類を絶したお方であらせられる事は元よりであるが、画家とし、書家として又、余技とも云うべき短歌、冠句、造園、建築にまで卓抜なる力量を待っておられる事は真に驚ろく許りである。<br/><br/> 美術に対する鑑賞眼もまた当代の一流批評家に互して何等遜色なき識見を持っておられる事は昨年御発表の古画、現代画家の御批評に依ってうかがわれる。<br/><br/> 芸術家が自身の専門以外にはその余技が一流に達する事は稀れであるが、明主様のそれは総てが一流以上であることには瞠目せざるを得ない。<br/><br/> ここで想うことは、芸術の発祥が宗教にその源を発していることからもメシヤ教の信徒が積極的に芸術に親しむ意欲を持つならば、その心霊が浄められ、高められ純粋な信仰をより以上に進められ行道一致の境地に達せられると思うのである。<br/><br/> 宗教の使命が真善美の完成にあることは論ずる迄もないが、明主様の御垂教にある様にもっと美的な情操を養うことは一見迂遠のようであるが、実は根本的なものではないだろうか。<br/><br/> 婦人の方の生花は自然を活かす道であり、お茶の和、寂、静を根底とする精神はすべての芸術と一つであり、もとより宗教のそれも等しいものである、矛盾と思われるような剣の道さえ禅と一致するとは山岡鉄舟を初め、名人、達人と云われる人々の見解である、子供を可愛いがり、花を見て奇麗と思い、植木の好きな人に根っからの悪人はないと云うのも宗教を信じない人でも芸術に心を寄せる人なら道徳律に外れた行いをする人は少ないと云うのも、一脈の気韻が通じているからである。<br/><br/> かつての私なども宗教を信ずる事が出来ず苦しんだが如何に苦しい境涯にあっても精神の高さを失いたくないと思い、それを支えてくれたのは十七字で天地を動かす俳句であった、師に就かず、投句もせず自己流で拙劣であっても、真実を詠み続けて来たのであるが、このために苦しみさえ客観視する事が出来、如何なる貴重な物質とでも換えることの出来ない高い精神だけは今日迄も失わず、メシヤ様に救われる素地を保ち得たと思えるのである。<br/><br/> （注）上布（じょうふ）、上質の麻糸で織った軽く薄い織物。<br/><br/>夏の季語。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

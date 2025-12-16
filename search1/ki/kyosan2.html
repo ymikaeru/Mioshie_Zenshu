@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyosan2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 共産主義の将来 未発表、年代不詳 近時、世界は固（もと）よりわが日本においても問題の中心は、共産主義運動であろう。<br><br>事実共産党以外の人民は無気味な脅威を感じ、同運動の今後の推移に対し、重大なる関心を持っている事は、今更いうを要しないところである。<br><br>政府においても、昨今急にあわて出し、各般の対策に腐心しつつある事実は、これまた、国民に対し一面安閑（あんかん）たるを許さない警告ともみえるのである。<br><br>しかもマ元帥の鉄のごとき信念を吐露するあり、日本の各所に急に発生し始めた不穏の空気に対しても楽観を許さないものがある。<br><br>眼を転じて東亜の趨勢（すうせい）をみるも、中国の事態といい、朝鮮の現状といい、最後に日本を目標とするに至るであろう事は、日本人の誰もが予想せずにおれない程、それほど事態は急迫を呈している。<br><br> 吾らはもちろん、政治家でもなし、操觚者（そうこしゃ）でもないが、国民の一員として、否宗教人として宗教を通して共産主義の将来を批判してみるのもあえて無益ではあるまい。<br><br>ここでマルクス、エンゲルス、レーニン等に関してはあまりに世間に知れ渡っており、いう必要はないが、ただ今誰も最も知りたいと思う事は、世界対共産主義の将来であろう。<br><br> 共産主義が人民中の、最も数の多い勤労大衆の利益を擁護するという建前と、それによって地上天国出現を目ざしている事は看取（かんしゅ）されるところであるが、これについて公正なる批判を下す場合、その批判の基本としては一体共産主義は、正か邪か、善か悪かという事であるが、この正邪を決定するにはどうしたらよいかという事であるが、吾らから言えば至極簡単である。<br><br>それはその基本的観点をまず大乗、中乗、小乗に分類するのである。<br><br>すなわち世界全人類を対象するを大乗といい、人類の大多数であってもある範囲に限られたるそれを中乗とし、極めて限られたる小地域のそれを小乗とする。<br><br> 以上を一そうくわしく説明すれば、大乗とはもちろん一階級、一民族、一区域に限る事なく、全人類を打って一丸とし、平和、幸福に浴させる事であり、中乗とはいかに多数であっても限られたる範囲の民族を幸福にし、他を犠牲にするという事、小乗とは小数範囲の民族にのみ幸福を与え、他の大多数民族を犠牲にして省みないという、終戦前の日本がそれであった。<br><br>この三乗を、宗教を通してみた場合、大乗は絶対善であり、中乗は善悪両様であり、小乗は悪そのものである事になろう。<br><br>とすれば共産主義は右のいずれに相当するかを検討する時いうまでもなく、中乗に当てはまるであろう。<br><br>右の論旨によって、共産主義の将来を卜（ぼく）するとすれば、今日までの功罪相半ばするやり方は主義実現のためとしてやむを得ないとしても、今後、中乗から大乗に推移する事を勧告したいのである。<br><br>とすれば、輝かしい将来を約束し得る事は言うまでもない。<br><br>万一今日までの中乗的政策を依然として続ける以上、その将来は楽観し得ない事を予想し得るのである。<br><br> 従って、大乗圏に転換するとすれば、その表れとして第一、闘争の文字は和合の文字を置替えられ、親愛の精神が基本となる事はもちろんである。<br><br>その結果として米国との対立も消散するであろうし、全人類は共産主義を謳歌するに至るであろうし、ここに世界人類は初めて不安の脅威から解放され、平和を享楽するための、翹望（ぎょうぼう）する地上天国出現となるであろう。<br><br> (注) 操觚者（そうこしゃ）、觚は文字を書く方形の札。<br><br>これから、文筆に従事する人を指す。<br><br>文筆家・編集者・記者など。<br><br>操觚家。<br><br>ジャーナリスト。<br><br> 翹望（ぎょうぼう）「翹」はあげる意、首を長くして望み待つこと。<br><br>渇望。<br><br>切望。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Porvir do Comunismo</h2>
 <p>Nos tempos atuais, a questão central não apenas no mundo, mas particularmente em nosso Japão, é sem dúvida o movimento comunista. De fato, é desnecessário reiterar que os povos não alinhados ao Partido Comunista sentem uma ameaça inquietante e devotam grande interesse aos desdobramentos futuros de tal movimento. O próprio governo, que recentemente despertou para a urgência da situação, tem se desdobrado em diversas contramedidas, o que pode ser interpretado como um alerta à nação, não permitindo qualquer complacência. Ademais, a convicção férrea expressa pelo General MacArthur, somada ao clima de instabilidade que subitamente eclodiu em várias partes do Japão, impede qualquer visão otimista.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Sob a perspectiva religiosa, podemos avaliar estas três causas da seguinte forma: a Grande Causa representa o bem absoluto; a Causa Intermediária mescla o bem e o mal; e a Causa Menor é a própria encarnação do mal. Sendo assim, ao analisarmos em qual dessas categorias o comunismo se enquadra, torna-se evidente que ele corresponde à Causa Intermediária.</p>
 <p>Com base nesse raciocínio, se quisermos prever o futuro do comunismo, devemos considerar que, ainda que seus métodos até o presente, com seus méritos e deméritos, possam ser vistos como um mal necessário para a concretização de sua ideologia, gostaríamos de exortá-lo a evoluir da Causa Intermediária para a Grande Causa. Caso o faça, não há dúvida de que um futuro resplandecente lhe será assegurado. Todavia, se persistir em suas políticas de natureza intermediária, seu porvir não poderá ser encarado com otimismo.</p>
 <p>Portanto, caso essa transição para a esfera da Grande Causa se concretize, o primeiro sinal manifesto será, naturalmente, a substituição do conceito de "luta" pelo de "harmonia", tendo o espírito de amor e fraternidade como alicerce. Como resultado, o antagonismo com os Estados Unidos se dissipará, e toda a humanidade chegará a celebrar o comunismo. Será nesse momento que a humanidade, finalmente livre da ameaça da insegurança, presenciará o advento do tão almejado Paraíso Terrestre, onde poderá desfrutar da paz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 共産主義の将来 未発表、年代不詳 近時、世界は固（もと）よりわが日本においても問題の中心は、共産主義運動であろう。<br/><br/>事実共産党以外の人民は無気味な脅威を感じ、同運動の今後の推移に対し、重大なる関心を持っている事は、今更いうを要しないところである。<br/><br/>政府においても、昨今急にあわて出し、各般の対策に腐心しつつある事実は、これまた、国民に対し一面安閑（あんかん）たるを許さない警告ともみえるのである。<br/><br/>しかもマ元帥の鉄のごとき信念を吐露するあり、日本の各所に急に発生し始めた不穏の空気に対しても楽観を許さないものがある。<br/><br/>眼を転じて東亜の趨勢（すうせい）をみるも、中国の事態といい、朝鮮の現状といい、最後に日本を目標とするに至るであろう事は、日本人の誰もが予想せずにおれない程、それほど事態は急迫を呈している。<br/><br/> 吾らはもちろん、政治家でもなし、操觚者（そうこしゃ）でもないが、国民の一員として、否宗教人として宗教を通して共産主義の将来を批判してみるのもあえて無益ではあるまい。<br/><br/>ここでマルクス、エンゲルス、レーニン等に関してはあまりに世間に知れ渡っており、いう必要はないが、ただ今誰も最も知りたいと思う事は、世界対共産主義の将来であろう。<br/><br/> 共産主義が人民中の、最も数の多い勤労大衆の利益を擁護するという建前と、それによって地上天国出現を目ざしている事は看取（かんしゅ）されるところであるが、これについて公正なる批判を下す場合、その批判の基本としては一体共産主義は、正か邪か、善か悪かという事であるが、この正邪を決定するにはどうしたらよいかという事であるが、吾らから言えば至極簡単である。<br/><br/>それはその基本的観点をまず大乗、中乗、小乗に分類するのである。<br/><br/>すなわち世界全人類を対象するを大乗といい、人類の大多数であってもある範囲に限られたるそれを中乗とし、極めて限られたる小地域のそれを小乗とする。<br/><br/> 以上を一そうくわしく説明すれば、大乗とはもちろん一階級、一民族、一区域に限る事なく、全人類を打って一丸とし、平和、幸福に浴させる事であり、中乗とはいかに多数であっても限られたる範囲の民族を幸福にし、他を犠牲にするという事、小乗とは小数範囲の民族にのみ幸福を与え、他の大多数民族を犠牲にして省みないという、終戦前の日本がそれであった。<br/><br/>この三乗を、宗教を通してみた場合、大乗は絶対善であり、中乗は善悪両様であり、小乗は悪そのものである事になろう。<br/><br/>とすれば共産主義は右のいずれに相当するかを検討する時いうまでもなく、中乗に当てはまるであろう。<br/><br/>右の論旨によって、共産主義の将来を卜（ぼく）するとすれば、今日までの功罪相半ばするやり方は主義実現のためとしてやむを得ないとしても、今後、中乗から大乗に推移する事を勧告したいのである。<br/><br/>とすれば、輝かしい将来を約束し得る事は言うまでもない。<br/><br/>万一今日までの中乗的政策を依然として続ける以上、その将来は楽観し得ない事を予想し得るのである。<br/><br/> 従って、大乗圏に転換するとすれば、その表れとして第一、闘争の文字は和合の文字を置替えられ、親愛の精神が基本となる事はもちろんである。<br/><br/>その結果として米国との対立も消散するであろうし、全人類は共産主義を謳歌するに至るであろうし、ここに世界人類は初めて不安の脅威から解放され、平和を享楽するための、翹望（ぎょうぼう）する地上天国出現となるであろう。<br/><br/> (注) 操觚者（そうこしゃ）、觚は文字を書く方形の札。<br/><br/>これから、文筆に従事する人を指す。<br/><br/>文筆家・編集者・記者など。<br/><br/>操觚家。<br/><br/>ジャーナリスト。<br/><br/> 翹望（ぎょうぼう）「翹」はあげる意、首を長くして望み待つこと。<br/><br/>渇望。<br/><br/>切望。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

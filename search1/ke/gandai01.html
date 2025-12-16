@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gandai01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代医学進歩の窮極 『栄光』121号、昭和26(1951)年9月12日発行 現代医学が、このままで進歩したとしたら、結局どうなるであろうかを、想像してかいてみるが、病気は浄化作用であり、医療は浄化停止であるという事が判ったとしたら、これも予想出来ないはずはない。<br><br>だがこれを知らない人が、初めてこの文を読んだとしたら、大いに驚愕（きょうがく）するであろう。<br><br>そうして医学が今現に行いつつある浄化停止をすればする程、病気は起らなくなるので、それを医学の進歩と思い違い、益々その方法を進歩発達させる以上、これが逆効果となって、浄化微弱な人間ばかりが増えるのは当然である。<br><br>すなわち弱体健康者となり、消極的健康者の社会が出来るのである。<br><br>この理を判り易くするため、二つの例を挙げてみよう。<br><br>近来分った事だが、腺病質の虚弱児童程結核に罹りそうなものだが、事実は反対だという事と、今一つは伝染病が高度の文明国人には少なく、文化の低い民族と、そうして下層階級程多いとされている。<br><br>この事実によってみれば、前者は病気が発（おこ）り得ない弱体者であり、後者は病気が発り得る健康者という事になる。<br><br>としたら実におかしな話と思うであろうが、それが事実であってみれば、何をかいわんやである。<br><br> そこで医学は、こういう擬似健康者を旺（さか）んに造っているので、これで進んでいったなら、窮極はどうなるかを考えてみるとして、今一つの例を拳げてみるが、今日何よりも医学衛生を守る人程弱く、また弱いからそうする訳でもあろうが、そういう健康者が増えつつあるのは、注意すればよく分る。<br><br>これによってある程度病人は減ると共に、長寿者も増えるという妙な現象になる。<br><br>近来米国も日本も、国民の寿命が延びたといって、サモ医学の進歩のように思っているが、これは前述の理由を知らないからで、吾々からみればむしろ憂慮すべきである。<br><br>故にこのままで進むとしたら、次第次第に文化民族は消極的健康者が増え、いずれは重大な結果を生む事になろう。<br><br>これは私の独断ではない。<br><br>現に英国及びフランス等を見ても肯（うなず）ける。<br><br>近来両国民の元気のない事はなはだしく、ただ安逸を貪（むさぼ）る事のみに汲々（きゅうきゅう）たる有様で、昔とは比較にならない程の国民性の衰えである。<br><br>しかも米国でさえ最近のスポーツ界を見ればよく分るごとく、ボクシングなどはニグロの方が桁違いの強さである。<br><br>近来我国においても、この傾向が見え初めたのは大いに戒心すべき要があろう。<br><br> 右は現代医学の進歩の真相をかいたのであるが、では窮極において文化民族の運命はどうなるかというと、容易ならぬものがある。<br><br>なるほど病人の数は漸次減るであろうが、その代り人間の元気は衰え、老人のような青年が増えるのは必至であり、一時は寿齢も延長するが、それを越えると大変な事になる。<br><br>すなわち今度は漸次短命となるからである。<br><br>しかもこの短命は今日のそれとは根本的に異（ちが）うから、最早挽回の道はない事になり、ただ生きているに過ぎない人間が大部分を占める事になろう。<br><br>もちろんその時代は機械文明も極度に発達し、便利な社会となるから、これがまた拍車をかける事になる。<br><br>その結果長い間下積にされていた野蛮民族勃興の気運となり、ここに世界は野蛮と文明の交替が始まるであろう。<br><br>これこそ文化民族にとっての一大危機であり、その時になってあわてても最早遅いとしたら、今の内この誤れる現代医学に目覚め、積極的健康者を作り得る真の医学が出来なくてはならないのである。<br><br>ところが悲観するには当らない、何となれば神の大愛はこれを未然に防ぐべく、私をして真の医学の原理と治病の方法とを啓示され給うたからで、今現に素晴しい成績を挙げつつある事である。<br><br>そのような訳でやがては全世界の医学者も一般人も、あまねくこの事が分るとしたら、いかに人類は救われるであろう。<br><br>しかし一日早ければそれだけ速く危機を免れ得られる以上、何人も今直ぐに吾に来って、幸福の門を叩かれん事で、これを勧告して止まないものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Derradeiro Desfecho do Avanço da Medicina Moderna</h2>
 <p>Proponho-me a imaginar o que, em última instância, advirá do contínuo avanço da medicina moderna. Se partirmos do princípio de que a doença é um processo de purificação e os tratamentos médicos consistem na sua interrupção, tal futuro não é de todo imprevisível. Contudo, aquele que desconhece esta verdade certamente ficará estarrecido ao deparar-se com estas palavras pela primeira vez. À medida que a medicina intensifica a interrupção dos processos purificadores — prática hoje corrente —, as doenças, de fato, tornam-se menos frequentes. Esse fenômeno, erroneamente interpretado como um avanço, incentiva o aprimoramento de tais métodos. No entanto, o resultado é paradoxal e inevitável: um aumento no número de indivíduos cuja capacidade de purificação é débil. Constitui-se, assim, uma sociedade de pessoas com saúde frágil, de portadores de uma saúde meramente passiva.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>E esta não é uma conjectura meramente pessoal. Basta observar a Grã-Bretanha e a França para constatar sua veracidade. A falta de vigor de ambos os povos tornou-se alarmante; vemos uma população absorta unicamente na busca por uma vida de conforto e ócio. O declínio do caráter nacional é de tal ordem que não encontra paralelo em sua história. Ademais, mesmo nos Estados Unidos, o cenário esportivo recente é revelador: no boxe, por exemplo, a força dos atletas negros é incomparavelmente superior. É imperativo que o Japão se mantenha em alerta, pois essa mesma tendência já começa a despontar em nossa nação.</p>
 <p>Até aqui, expus a verdadeira natureza do progresso da medicina moderna. Mas qual será, em última instância, o destino das nações civilizadas? Algo de extrema gravidade se desenha no horizonte. O número de doentes, de fato, diminuirá gradualmente. Em contrapartida, a vitalidade humana se esvairá, e o surgimento de jovens com o vigor de idosos será inevitável. A princípio, a longevidade poderá até aumentar, mas, ultrapassado certo limite, as consequências serão drásticas: a expectativa de vida passará a decrescer progressivamente. E essa nova brevidade da vida será fundamentalmente distinta da que conhecemos hoje, não havendo mais caminho para a recuperação. A maioria da população será composta por pessoas que meramente existem. Nessa era, a civilização tecnológica terá atingido seu ápice, criando uma sociedade de extremas conveniências que apenas acelerará esse processo. Como resultado, criar-se-á o momento propício para a ascensão dos povos bárbaros, por tanto tempo subjugados, e o mundo assistirá ao início de uma alternância entre barbárie e civilização.</p>
 <p>Eis a grande crise que se avizinha para as nações civilizadas. Quando esse momento chegar, o desespero será tardio. É premente, portanto, que despertemos agora para o equívoco da medicina moderna e que se estabeleça uma verdadeira ciência médica, capaz de formar indivíduos de saúde ativa e vigorosa. Todavia, não há motivo para pessimismo. O grande Amor de Deus, a fim de evitar tal calamidade, revelou a mim os princípios da verdadeira medicina e seu método de cura, por meio dos quais já estamos a colher resultados extraordinários. Quando, finalmente, médicos e leigos de todo o mundo compreenderem esta verdade, quão grandiosa será a salvação da humanidade! Cientes de que cada dia de antecipação nos aproxima mais rapidamente da superação desta crise, não cesso de conclamar a todos: venham a mim sem demora e batam à porta da felicidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代医学進歩の窮極 『栄光』121号、昭和26(1951)年9月12日発行 現代医学が、このままで進歩したとしたら、結局どうなるであろうかを、想像してかいてみるが、病気は浄化作用であり、医療は浄化停止であるという事が判ったとしたら、これも予想出来ないはずはない。<br/><br/>だがこれを知らない人が、初めてこの文を読んだとしたら、大いに驚愕（きょうがく）するであろう。<br/><br/>そうして医学が今現に行いつつある浄化停止をすればする程、病気は起らなくなるので、それを医学の進歩と思い違い、益々その方法を進歩発達させる以上、これが逆効果となって、浄化微弱な人間ばかりが増えるのは当然である。<br/><br/>すなわち弱体健康者となり、消極的健康者の社会が出来るのである。<br/><br/>この理を判り易くするため、二つの例を挙げてみよう。<br/><br/>近来分った事だが、腺病質の虚弱児童程結核に罹りそうなものだが、事実は反対だという事と、今一つは伝染病が高度の文明国人には少なく、文化の低い民族と、そうして下層階級程多いとされている。<br/><br/>この事実によってみれば、前者は病気が発（おこ）り得ない弱体者であり、後者は病気が発り得る健康者という事になる。<br/><br/>としたら実におかしな話と思うであろうが、それが事実であってみれば、何をかいわんやである。<br/><br/> そこで医学は、こういう擬似健康者を旺（さか）んに造っているので、これで進んでいったなら、窮極はどうなるかを考えてみるとして、今一つの例を拳げてみるが、今日何よりも医学衛生を守る人程弱く、また弱いからそうする訳でもあろうが、そういう健康者が増えつつあるのは、注意すればよく分る。<br/><br/>これによってある程度病人は減ると共に、長寿者も増えるという妙な現象になる。<br/><br/>近来米国も日本も、国民の寿命が延びたといって、サモ医学の進歩のように思っているが、これは前述の理由を知らないからで、吾々からみればむしろ憂慮すべきである。<br/><br/>故にこのままで進むとしたら、次第次第に文化民族は消極的健康者が増え、いずれは重大な結果を生む事になろう。<br/><br/>これは私の独断ではない。<br/><br/>現に英国及びフランス等を見ても肯（うなず）ける。<br/><br/>近来両国民の元気のない事はなはだしく、ただ安逸を貪（むさぼ）る事のみに汲々（きゅうきゅう）たる有様で、昔とは比較にならない程の国民性の衰えである。<br/><br/>しかも米国でさえ最近のスポーツ界を見ればよく分るごとく、ボクシングなどはニグロの方が桁違いの強さである。<br/><br/>近来我国においても、この傾向が見え初めたのは大いに戒心すべき要があろう。<br/><br/> 右は現代医学の進歩の真相をかいたのであるが、では窮極において文化民族の運命はどうなるかというと、容易ならぬものがある。<br/><br/>なるほど病人の数は漸次減るであろうが、その代り人間の元気は衰え、老人のような青年が増えるのは必至であり、一時は寿齢も延長するが、それを越えると大変な事になる。<br/><br/>すなわち今度は漸次短命となるからである。<br/><br/>しかもこの短命は今日のそれとは根本的に異（ちが）うから、最早挽回の道はない事になり、ただ生きているに過ぎない人間が大部分を占める事になろう。<br/><br/>もちろんその時代は機械文明も極度に発達し、便利な社会となるから、これがまた拍車をかける事になる。<br/><br/>その結果長い間下積にされていた野蛮民族勃興の気運となり、ここに世界は野蛮と文明の交替が始まるであろう。<br/><br/>これこそ文化民族にとっての一大危機であり、その時になってあわてても最早遅いとしたら、今の内この誤れる現代医学に目覚め、積極的健康者を作り得る真の医学が出来なくてはならないのである。<br/><br/>ところが悲観するには当らない、何となれば神の大愛はこれを未然に防ぐべく、私をして真の医学の原理と治病の方法とを啓示され給うたからで、今現に素晴しい成績を挙げつつある事である。<br/><br/>そのような訳でやがては全世界の医学者も一般人も、あまねくこの事が分るとしたら、いかに人類は救われるであろう。<br/><br/>しかし一日早ければそれだけ速く危機を免れ得られる以上、何人も今直ぐに吾に来って、幸福の門を叩かれん事で、これを勧告して止まないものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

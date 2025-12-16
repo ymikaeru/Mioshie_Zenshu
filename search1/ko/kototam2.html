@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kototam2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 言霊の偉力 未発表、昭和25(1950)年 よく病気の苦痛はもちろん、諸々の苦痛に対して、祝詞または善言讃詞によって、偉効を奏することがある。<br><br>これについて不思議に思うのであるが、これは立派な理由があるから書いてみよう。<br><br> これこそ言霊（ことたま）の偉力であって、それは霊界においては、大言霊界、すなわち七十五声の言霊が鳴り響いているからである。<br><br>しかし、これは霊界に充実している無声の声であって、人間の耳には感じないのである。<br><br>しかし、この大言霊に対して、人間が発する言霊は大いに影響する。<br><br>もちろん、正なる言霊は霊界の汚濁を軽減させるが、これと反対に、悪の言霊は汚濁を増すのである。<br><br>これはなぜかといえば、七十五声の言霊の配列の順序によるので、その基は善悪いかんである。<br><br>すなわち、善の言霊とは美辞麗句であって、美辞麗句とは、一つ一つの単語の綴り方が、真善美に適っているからである。<br><br>これは何よりも人間の耳へも快く響くもので、なぜ快く響くかというと、人間良心の本源である魂にまで透徹するからである。<br><br>しかるに、悪の言霊は、魂には透徹しないので、それを包んでいる心の範囲にまでしか達しないのである。<br><br> ここで今一層、徹底しなければならない。<br><br>ということは、私が常に言うところの副守護神、すなわち動物言霊は、心の範囲内に限定して憑依している以上、心の曇りが濃度であるほど副守護神の能力は強化される。<br><br>しかしこれが曲者で、常に良心たる魂の光を遮蔽しているから悪を好む人間となるのである。<br><br>ところが、悪の言霊は副守護神には快く響くので、これは事実がよく証明している。<br><br>良い話を好むのは前述のごとく魂に快く響くからであり、悪い言霊を好むのは副守護神が喜んで、快く響くのである。<br><br>例えば、悪人共が悪事を語り合っているのを、仮に吾々が聴くとすれば、堪えられない程の不快であるにかかわらず、悪人は快感を催すのである。<br><br> 以上の理によって、善い言霊は魂に響くから魂の光が増し、それによって心の曇りが減り、副守護神は萎縮する。<br><br>萎縮するから悪を好まなくなる。<br><br>というわけで、人間を苦しめていた副守護神は、善言讃詞によって萎縮、または、離脱することになり、心の曇りも減少するから、苦悩から解放されるのである。<br><br> 右によってみても、善言讃詞の言霊は、いかに善美極まるものであるかが判ると共に、善言讃詞を奏上するや、その周囲の霊界は大いに浄まるのである。<br><br>特に今一つの重要事がある。<br><br>それは言霊を発する人間の霊の清濁が大いに関係がある。<br><br>すなわち、魂の清い者程、言霊の偉力は発揮されるのである。<br><br>それは霊的階級が上位であるからである。<br><br>特に龍神に対する場合、龍神は非常に強いから、よほど上魂でないと龍神は承服することは出来難い、これについてこういう話がある。<br><br> 以前ある日蓮宗の行者で、「自分は龍神を祀りたいが、恐くて祀ることが出来ない。<br><br>なぜなれば、龍神は怒りやすいので、少しでも粗相があると、何をされるか判らないから」というのである。<br><br>しかし本教信者であれば、まず大抵の龍神は反対することは出来ないのである。<br><br>そうして龍神中、最高位であり、絶対力を具有しているのは、私の守護神である伊都能売（いづのめ）金龍神である。<br><br>たとえサタンの本体である赤龍といえども、敵し得ないことはもちろんで、二十数年以前、琵琶湖の上空で戦った際、赤龍は敗北遁走したによってみても明らかである（これは『奇蹟物語』に詳説してある）。<br><br> 従って、信者は常に魂を磨き、言霊を練り、上魂の人間たることを心掛けねばならぬ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Grandioso Poder do Kototama</h2>
 <p>É frequente que, não apenas para o sofrimento gerado pelas doenças, mas para as mais diversas formas de padecimento, a entoação de orações ou de palavras de louvor e bênção produza efeitos notáveis. Muitos consideram tal fato um mistério; contudo, existe uma razão perfeitamente lógica, que passarei a expor.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O exposto até aqui revela o quão sublime, em sua bondade e beleza, é o Kototama das palavras de louvor. Ao serem proferidas, o Mundo Espiritual ao redor é grandemente purificado. Há, ademais, outro ponto de suma importância: a pureza espiritual de quem as pronuncia é um fator de grande relevância. Em outras palavras, quanto mais pura for a alma de um indivíduo, maior será a força manifestada por seu Kototama. Isso se deve à sua elevada posição na hierarquia espiritual.</p>
 <p>Isso é particularmente verdadeiro no trato com os Espíritos-Dragões. Sendo eles extremamente poderosos, a menos que se possua uma alma de elevada estirpe espiritual, é improvável que se submetam. A esse respeito, há um relato interessante. Certa vez, um asceta da seita Nitiren me disse: "Eu gostaria de cultuar um Espírito-Dragão, mas não o faço por medo. Como eles se enraivecem facilmente, qualquer pequeno deslize pode ter consequências imprevisíveis". Para um fiel de nossa Igreja, contudo, a vasta maioria dos Espíritos-Dragões não consegue se opor. Dentre eles, o que ocupa a mais alta posição e detém poder absoluto é o meu espírito guardião, Izunome (伊都能売) Kinryu-shin. É evidente que nem mesmo o Dragão Vermelho, a corporificação de Satanás, pode rivalizar com ele, como ficou claro há mais de vinte anos, quando foi derrotado e fugiu em retirada durante a batalha nos céus do Lago Biwa (este fato está detalhado na coletânea "Relatos de Milagres").</p>
 <p>Por conseguinte, os fiéis devem se empenhar constantemente para polir a alma, aprimorar seu Kototama e almejar se tornarem pessoas de alma elevada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 言霊の偉力 未発表、昭和25(1950)年 よく病気の苦痛はもちろん、諸々の苦痛に対して、祝詞または善言讃詞によって、偉効を奏することがある。<br/><br/>これについて不思議に思うのであるが、これは立派な理由があるから書いてみよう。<br/><br/> これこそ言霊（ことたま）の偉力であって、それは霊界においては、大言霊界、すなわち七十五声の言霊が鳴り響いているからである。<br/><br/>しかし、これは霊界に充実している無声の声であって、人間の耳には感じないのである。<br/><br/>しかし、この大言霊に対して、人間が発する言霊は大いに影響する。<br/><br/>もちろん、正なる言霊は霊界の汚濁を軽減させるが、これと反対に、悪の言霊は汚濁を増すのである。<br/><br/>これはなぜかといえば、七十五声の言霊の配列の順序によるので、その基は善悪いかんである。<br/><br/>すなわち、善の言霊とは美辞麗句であって、美辞麗句とは、一つ一つの単語の綴り方が、真善美に適っているからである。<br/><br/>これは何よりも人間の耳へも快く響くもので、なぜ快く響くかというと、人間良心の本源である魂にまで透徹するからである。<br/><br/>しかるに、悪の言霊は、魂には透徹しないので、それを包んでいる心の範囲にまでしか達しないのである。<br/><br/> ここで今一層、徹底しなければならない。<br/><br/>ということは、私が常に言うところの副守護神、すなわち動物言霊は、心の範囲内に限定して憑依している以上、心の曇りが濃度であるほど副守護神の能力は強化される。<br/><br/>しかしこれが曲者で、常に良心たる魂の光を遮蔽しているから悪を好む人間となるのである。<br/><br/>ところが、悪の言霊は副守護神には快く響くので、これは事実がよく証明している。<br/><br/>良い話を好むのは前述のごとく魂に快く響くからであり、悪い言霊を好むのは副守護神が喜んで、快く響くのである。<br/><br/>例えば、悪人共が悪事を語り合っているのを、仮に吾々が聴くとすれば、堪えられない程の不快であるにかかわらず、悪人は快感を催すのである。<br/><br/> 以上の理によって、善い言霊は魂に響くから魂の光が増し、それによって心の曇りが減り、副守護神は萎縮する。<br/><br/>萎縮するから悪を好まなくなる。<br/><br/>というわけで、人間を苦しめていた副守護神は、善言讃詞によって萎縮、または、離脱することになり、心の曇りも減少するから、苦悩から解放されるのである。<br/><br/> 右によってみても、善言讃詞の言霊は、いかに善美極まるものであるかが判ると共に、善言讃詞を奏上するや、その周囲の霊界は大いに浄まるのである。<br/><br/>特に今一つの重要事がある。<br/><br/>それは言霊を発する人間の霊の清濁が大いに関係がある。<br/><br/>すなわち、魂の清い者程、言霊の偉力は発揮されるのである。<br/><br/>それは霊的階級が上位であるからである。<br/><br/>特に龍神に対する場合、龍神は非常に強いから、よほど上魂でないと龍神は承服することは出来難い、これについてこういう話がある。<br/><br/> 以前ある日蓮宗の行者で、「自分は龍神を祀りたいが、恐くて祀ることが出来ない。<br/><br/>なぜなれば、龍神は怒りやすいので、少しでも粗相があると、何をされるか判らないから」というのである。<br/><br/>しかし本教信者であれば、まず大抵の龍神は反対することは出来ないのである。<br/><br/>そうして龍神中、最高位であり、絶対力を具有しているのは、私の守護神である伊都能売（いづのめ）金龍神である。<br/><br/>たとえサタンの本体である赤龍といえども、敵し得ないことはもちろんで、二十数年以前、琵琶湖の上空で戦った際、赤龍は敗北遁走したによってみても明らかである（これは『奇蹟物語』に詳説してある）。<br/><br/> 従って、信者は常に魂を磨き、言霊を練り、上魂の人間たることを心掛けねばならぬ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

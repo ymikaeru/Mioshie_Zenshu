@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon21</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人の優秀性 『明日の医術 第三編』昭和18(1943)年10月23日発行 近来、日本人の優秀性という事が漸（ようやく）く喧伝（けんでん）されて来たのは喜ぶべき事である。<br><br>しかも全世界殊に敵国たるアメリカにおいてさえ、日本研究熱が興って来たという事は、勿論大東亜戦における赫々（かくかく）たる戦果に刺戟された事とはいいながら、全く時の力のしからしむるところである。<br><br> 私は、十数年前から日本人の優秀性について機会ある毎に言説したものである。<br><br>しからば、その優秀性であるという理由はいかなる訳かというに、それは左のごとき確固たる根拠があるからである。<br><br> 造物主があらゆる生物を造り、最後に人間を造ったという事は、前項に説いた通りである。<br><br>しからば、人間を造るに当って、その順序はどうであるかというに、それはまず野蛮人を造り、次に白人を、次に東洋人を造り、最後に造られたのが日本人である事は言うまでもない。<br><br>彼の埃及（エジプト）が七千年の歴史を有し、支那が五千年の歴史を有するに拘わらず、日本が二千有余年であるという事は、右の理由によって、日本の開発が遅れたのではないかと想うのである。<br><br> しかしながら、私のこの推測を以てあまりに短見と観るかもしれない。<br><br>何となればこの地球における人類の発生は、何万年何十万年あるいは何百万年以前かも知れないのに、僅々（きんきん）数千年間の歴史によるなどとは問題とするに足りないというかも知れないがそれに対し私は言うのである。<br><br>それはたとえ何百万年の長期間であっても、野蛮未開であって、人文の発達も交通もあり得なかった時代は、歴史無きに等しいわけである。<br><br>しかるに、世界の人類は、数千年前に到って初めて文化の緒につき、それから急速なる発達を遂げたとすれば、その時からが人類としての歴史が始ったというべきであろうからである。<br><br> 私はさきに説いたごとく、最後に造られたものほど優秀であるといった理由と同様の意味において、最後に造られたる日本人の優秀性は当然であろう。<br><br>それは既成人種すべての特徴を包含されているからである。<br><br> 右の証左として日本民族の特性は、あらゆる点に通暁するという事で、これは誰も知るところである。<br><br>宗教思想方面においても、古来、他民族の宗教や思想がいかに侵入するといえども、それに同化される事なく、いつしかそれを同化してしまって独白のものとする。<br><br>故に、恐らく日本位、宗教の種類の多い国はないであろう。<br><br>又政治、経済、教育は固より、軍事方面においても世界各国の長を採り、粋を鍾（あつ）めて綽々（しゃくしゃく）としている。<br><br>その他衣食住においてもそうであり、芸術方面においてもそうである。<br><br>これをある人らは、日本人の生活があまりに複雑多岐であるといって嘆くのであるが、実は、優秀民族たるゆえんを表わしている事を知らないからである。<br><br> 又私は、人間以外の動物は単一性であるとも言ったが、それが下等動物になるほどより単一である。<br><br>これを判別する方法としては、音声による事が最もいいのである。<br><br>即ち下等動物になる程音声が単純であるという事である。<br><br>この意味において世界の人種中、日本人程音声の種類が多いのはないのである。<br><br>即ち父音五十母音二十五の七十五声を完全に発するばかりか、発音に不純不正がない。<br><br>しかるに、それが日本以外の亜細亜民族の言語は日本語よりも少く、英語に至っては四十余音であるにみても明かである。<br><br> 又先年、慶応大学医学部において、日本人と西洋人の血液を試験した事があるがその時の結果によれば、西洋人の血液を猿に注射した所中毒を起さなかったが、日本人の血液は中毒を起したそうである。<br><br>これによってみれば、西洋人の血液は、日本人よりも猿とあまり隔（へだた）りのない事が実証された訳である。<br><br> 又、日本人が人間としての最優秀性であるという事の将来性を知らねばならない。<br><br>けだしそれは、全世界各民族を統治すべき天賦の使命を有しているからである。<br><br>何となれば、各民族それぞれが、日本の統治下に悦服するという事は、大御稜威（おおみいづ）による事は申すまでもないが、また各民族に対し、適応すべき政策が行われなければならないからである。<br><br>それは各民族の特性を知る事で、綜合性である日本人にして初めて可能であるという訳である。<br><br> 次に、これは別の方面であるが、私は鉱物学についても、長い間実地に研究している。<br><br>その結果現在の鉱物学は、非常な誤謬に陥っている事を知ったのである。<br><br>しかしながら、ここでは詳説し難いから、必要な点を簡単に説く事にするが、私の研究によれば、今日の学問では鉱物発生の原理は、地震等によって岩石に亀裂を生じ、その間隙に岩漿（がんしょう）が充填して、そこに鉱物が発生するという事になっている。<br><br>しかるに、私の説においては、それは物質の硬化作用によるのである。<br><br>即ち土壌が硬化して岩石となり、岩石が硬化して劣等金属が発生し、劣等金属が硬化して貴金属又は稀金属が発生するのである。<br><br>故に、白金又はダイヤモンド等のごときは、硬化の極度に達した物質である。<br><br>ダイヤモンドは阿弗利加（アフリカ）が産地であるという事は、右の土地が早く造られたからであり、白金は西比利亜（シベリア）が産地であるという事も同様の意味である。<br><br>故に、右のごとき鉱物が日本にないという事にみても、日本が最後に造られた、新らしい国土という事になるのである。<br><br> この事は、日本人が最後に造られたる人種であるという事と、よく合致していると想うのである。<br><br> rattail（注） 私の所持する２冊ともにこの御論文の前の「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているためこの御論文の前半についても原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Excelência do Povo Japonês</h2>
 <p>É motivo de grande júbilo que, nos últimos tempos, a excelência do povo japonês venha sendo gradualmente proclamada. Ademais, o fato de que um ávido interesse pelo estudo do Japão tenha despertado no mundo inteiro, e de modo particular em nações inimigas como os Estados Unidos, é algo que, embora estimulado pelos retumbantes êxitos na Grande Guerra da Ásia Oriental, deve ser atribuído inteiramente à força dos tempos.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>É fundamental, ademais, compreender o potencial futuro que essa superioridade inata confere ao povo japonês. Refiro-me à missão celestial que nos foi outorgada de governar todos os povos do mundo. A submissão voluntária das nações ao governo japonês, embora decorrente, sem dúvida, da Grande Virtude Imperial, exigirá a implementação de políticas adequadas a cada povo. Tal feito requer um profundo conhecimento das características de cada etnia, algo que somente os japoneses, por sua natureza abrangente e sintética, são capazes de realizar.</p>
 <p>Mudando de perspectiva, abordarei agora a mineralogia, campo ao qual me dediquei a pesquisar na prática por muitos anos. Minhas pesquisas levaram-me a concluir que a mineralogia contemporânea está imersa em gravíssimos equívocos. Não podendo aqui me aprofundar, exporei brevemente os pontos essenciais. De acordo com meus estudos, a ciência atual postula que os minerais se formam quando o magma preenche fissuras em rochas, criadas por abalos sísmicos ou outros fenômenos. Minha teoria, todavia, sustenta que sua origem reside em um processo de endurecimento da matéria. Ou seja: o solo endurece e se torna rocha; a rocha endurece e dá origem a metais inferiores; e estes, por sua vez, endurecem para gerar metais nobres ou raros. Assim, materiais como a platina e o diamante representam o ápice desse processo de endurecimento. O fato de a África ser a principal fonte de diamantes se deve à sua formação geológica mais antiga; o mesmo raciocínio se aplica à platina, encontrada na Sibéria. Portanto, a ausência desses minerais no Japão é mais uma evidência de que nosso país é uma terra nova, a última a ser criada.</p>
 <p>Este fato geológico, a meu ver, converge de maneira perfeita com a verdade de que o povo japonês foi a última raça a ser criada por Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人の優秀性 『明日の医術 第三編』昭和18(1943)年10月23日発行 近来、日本人の優秀性という事が漸（ようやく）く喧伝（けんでん）されて来たのは喜ぶべき事である。<br/><br/>しかも全世界殊に敵国たるアメリカにおいてさえ、日本研究熱が興って来たという事は、勿論大東亜戦における赫々（かくかく）たる戦果に刺戟された事とはいいながら、全く時の力のしからしむるところである。<br/><br/> 私は、十数年前から日本人の優秀性について機会ある毎に言説したものである。<br/><br/>しからば、その優秀性であるという理由はいかなる訳かというに、それは左のごとき確固たる根拠があるからである。<br/><br/> 造物主があらゆる生物を造り、最後に人間を造ったという事は、前項に説いた通りである。<br/><br/>しからば、人間を造るに当って、その順序はどうであるかというに、それはまず野蛮人を造り、次に白人を、次に東洋人を造り、最後に造られたのが日本人である事は言うまでもない。<br/><br/>彼の埃及（エジプト）が七千年の歴史を有し、支那が五千年の歴史を有するに拘わらず、日本が二千有余年であるという事は、右の理由によって、日本の開発が遅れたのではないかと想うのである。<br/><br/> しかしながら、私のこの推測を以てあまりに短見と観るかもしれない。<br/><br/>何となればこの地球における人類の発生は、何万年何十万年あるいは何百万年以前かも知れないのに、僅々（きんきん）数千年間の歴史によるなどとは問題とするに足りないというかも知れないがそれに対し私は言うのである。<br/><br/>それはたとえ何百万年の長期間であっても、野蛮未開であって、人文の発達も交通もあり得なかった時代は、歴史無きに等しいわけである。<br/><br/>しかるに、世界の人類は、数千年前に到って初めて文化の緒につき、それから急速なる発達を遂げたとすれば、その時からが人類としての歴史が始ったというべきであろうからである。<br/><br/> 私はさきに説いたごとく、最後に造られたものほど優秀であるといった理由と同様の意味において、最後に造られたる日本人の優秀性は当然であろう。<br/><br/>それは既成人種すべての特徴を包含されているからである。<br/><br/> 右の証左として日本民族の特性は、あらゆる点に通暁するという事で、これは誰も知るところである。<br/><br/>宗教思想方面においても、古来、他民族の宗教や思想がいかに侵入するといえども、それに同化される事なく、いつしかそれを同化してしまって独白のものとする。<br/><br/>故に、恐らく日本位、宗教の種類の多い国はないであろう。<br/><br/>又政治、経済、教育は固より、軍事方面においても世界各国の長を採り、粋を鍾（あつ）めて綽々（しゃくしゃく）としている。<br/><br/>その他衣食住においてもそうであり、芸術方面においてもそうである。<br/><br/>これをある人らは、日本人の生活があまりに複雑多岐であるといって嘆くのであるが、実は、優秀民族たるゆえんを表わしている事を知らないからである。<br/><br/> 又私は、人間以外の動物は単一性であるとも言ったが、それが下等動物になるほどより単一である。<br/><br/>これを判別する方法としては、音声による事が最もいいのである。<br/><br/>即ち下等動物になる程音声が単純であるという事である。<br/><br/>この意味において世界の人種中、日本人程音声の種類が多いのはないのである。<br/><br/>即ち父音五十母音二十五の七十五声を完全に発するばかりか、発音に不純不正がない。<br/><br/>しかるに、それが日本以外の亜細亜民族の言語は日本語よりも少く、英語に至っては四十余音であるにみても明かである。<br/><br/> 又先年、慶応大学医学部において、日本人と西洋人の血液を試験した事があるがその時の結果によれば、西洋人の血液を猿に注射した所中毒を起さなかったが、日本人の血液は中毒を起したそうである。<br/><br/>これによってみれば、西洋人の血液は、日本人よりも猿とあまり隔（へだた）りのない事が実証された訳である。<br/><br/> 又、日本人が人間としての最優秀性であるという事の将来性を知らねばならない。<br/><br/>けだしそれは、全世界各民族を統治すべき天賦の使命を有しているからである。<br/><br/>何となれば、各民族それぞれが、日本の統治下に悦服するという事は、大御稜威（おおみいづ）による事は申すまでもないが、また各民族に対し、適応すべき政策が行われなければならないからである。<br/><br/>それは各民族の特性を知る事で、綜合性である日本人にして初めて可能であるという訳である。<br/><br/> 次に、これは別の方面であるが、私は鉱物学についても、長い間実地に研究している。<br/><br/>その結果現在の鉱物学は、非常な誤謬に陥っている事を知ったのである。<br/><br/>しかしながら、ここでは詳説し難いから、必要な点を簡単に説く事にするが、私の研究によれば、今日の学問では鉱物発生の原理は、地震等によって岩石に亀裂を生じ、その間隙に岩漿（がんしょう）が充填して、そこに鉱物が発生するという事になっている。<br/><br/>しかるに、私の説においては、それは物質の硬化作用によるのである。<br/><br/>即ち土壌が硬化して岩石となり、岩石が硬化して劣等金属が発生し、劣等金属が硬化して貴金属又は稀金属が発生するのである。<br/><br/>故に、白金又はダイヤモンド等のごときは、硬化の極度に達した物質である。<br/><br/>ダイヤモンドは阿弗利加（アフリカ）が産地であるという事は、右の土地が早く造られたからであり、白金は西比利亜（シベリア）が産地であるという事も同様の意味である。<br/><br/>故に、右のごとき鉱物が日本にないという事にみても、日本が最後に造られた、新らしい国土という事になるのである。<br/><br/> この事は、日本人が最後に造られたる人種であるという事と、よく合致していると想うのである。<br/><br/> rattail（注） 私の所持する２冊ともにこの御論文の前の「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているためこの御論文の前半についても原本確認は出来ませんでした。<br/><br/>よって岡田茂吉全集によっています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

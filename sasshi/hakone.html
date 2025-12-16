@@ -1,123 +1,65 @@
 ﻿<html>
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
-    <title>hakone</title>
-    <link rel="stylesheet" type="text/css" href="../style1.css">
-</head>
-
-<body bgcolor="#E9FEDA">
-
-    <p align="center">
-        <font size="3" face="HG正楷書体-PRO">―――　岡
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>hakone</title>
+<link href="../style1.css" rel="stylesheet" type="text/css"/>
+<link href="../style4.css" rel="stylesheet" type="text/css"/></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<p align="center">
+<font face="HG正楷書体-PRO" size="3">―――　岡
             田 自 観 師 の 論 文 集　――</font>
-        <font size="2">発行誌別<br>
-        </font>
-    </p>
-
-    
-
-
+<font size="2">発行誌別<br/>
+</font>
+</p>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 HAKONE ART MUSEUM HAKONE ART MUSEUM 英訳 「 美術館建設の趣旨 」 Ａ５ 版 ６P 刊行 1952 年（推定） 昭和27年6月30日 、7月1日の箱根美術館一般公開前に、 各界名士と外国新聞記者を招待された際の原稿「 美術館建設の意義 」を元に作成されたチラシ「美術館建設の趣旨 」 の英訳ようである。<br><br> 表紙に箱根美術館の全景、３ページ目に肉筆浮世絵「湯女」の写真が紹介されている。<br><br> 当時としてはかなり上質の紙を使用し、表紙タイトルの字体もかなり凝ったものが使われている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
-        <p dir="ltr">
-            <font size="5"><strong>HAKONE ART MUSEUM</strong></font>
-        </p>
-    </blockquote>
-    <div align="center">
-        <center>
-
-            <table border="0" width="80%" bgcolor="#EFFFE6">
-                <tr>
-                    <td align="center" width="50%"><a><img src="../img/museum.jpg" width="234" height="342"></a></td>
-                    <td valign="top" colspan="3" width="50%"><a href="hakone2.html">
-                            <font size="4"><strong>HAKONE ART
+<p dir="ltr">
+<font size="5"><strong>HAKONE ART MUSEUM</strong></font>
+</p>
+</blockquote>
+<div align="center">
+<center>
+<table bgcolor="#EFFFE6" border="0" width="80%">
+<tr>
+<td align="center" width="50%"><a><img height="342" src="../img/museum.jpg" width="234"/></a></td>
+<td colspan="3" valign="top" width="50%"><a href="hakone2.html">
+<font size="4"><strong>HAKONE ART
                                     MUSEUM</strong></font>
-                        </a><br>
-                        <br>
-                        <font size="3">英訳</font>「<a href="../search1/hi/bijutu01.html">美術館建設の趣旨</a>
-                        <font size="3">」<br>
-                            <br>
-                            <br>
-                            Ａ５　版　　６P<br>
-                            <br>
-                            <br>
-                        </font>刊行　　<font face="Arial">1952</font>年（推定）<br>
-                        <br>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center" colspan="4" width="50%">
-                        <blockquote>
-                            <p align="left">
-                                <font size="3"><br>
-                                </font>
-                                <font size="3" face="ＭＳ ゴシック">昭和27年6月30日</font>、7月1日の箱根美術館一般公開前に、<font size="3"
-                                    face="ＭＳ ゴシック">各界名士と外国新聞記者を招待された際の原稿「</font><a
-                                    href="../search1/hi/bijutu02.html">美術館建設の意義</a>」を元に作成されたチラシ「美術館建設の趣旨<font size="3">」
-                                </font>の英訳ようである。<br>
-                                　表紙に箱根美術館の全景、３ページ目に肉筆浮世絵「湯女」の写真が紹介されている。<br>
+</a><br/>
+<br/>
+<font size="3">英訳</font>「<a href="../search1/hi/bijutu01.html">美術館建設の趣旨</a>
+<font size="3">」<br/>
+<br/>
+<br/>
+                            Ａ５　版　　６P<br/>
+<br/>
+<br/>
+</font>刊行　　<font face="Arial">1952</font>年（推定）<br/>
+<br/>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="4" width="50%">
+<blockquote>
+<p align="left">
+<font size="3"><br/>
+</font>
+<font face="ＭＳ ゴシック" size="3">昭和27年6月30日</font>、7月1日の箱根美術館一般公開前に、<font face="ＭＳ ゴシック" size="3">各界名士と外国新聞記者を招待された際の原稿「</font><a href="../search1/hi/bijutu02.html">美術館建設の意義</a>」を元に作成されたチラシ「美術館建設の趣旨<font size="3">」
+                                </font>の英訳ようである。<br/>
+                                　表紙に箱根美術館の全景、３ページ目に肉筆浮世絵「湯女」の写真が紹介されている。<br/>
                                 　当時としてはかなり上質の紙を使用し、表紙タイトルの字体もかなり凝ったものが使われている。
                             </p>
-                        </blockquote>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="4">　</td>
-                </tr>
-            </table>
-        </center>
-    </div>
-
-    <p align="left">　</p>
-</body>
-
+</blockquote>
+</td>
+</tr>
+<tr>
+<td colspan="4">　</td>
+</tr>
+</table>
+</center>
+</div>
+<p align="left">　</p>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 HAKONE ART MUSEUM HAKONE ART MUSEUM 英訳 「 美術館建設の趣旨 」 Ａ５ 版 ６P 刊行 1952 年（推定） 昭和27年6月30日 、7月1日の箱根美術館一般公開前に、 各界名士と外国新聞記者を招待された際の原稿「 美術館建設の意義 」を元に作成されたチラシ「美術館建設の趣旨 」 の英訳ようである。<br/><br/> 表紙に箱根美術館の全景、３ページ目に肉筆浮世絵「湯女」の写真が紹介されている。<br/><br/> 当時としてはかなり上質の紙を使用し、表紙タイトルの字体もかなり凝ったものが使われている。<br/><br/></div><script src="../compare.js"></script></body>
 </html>

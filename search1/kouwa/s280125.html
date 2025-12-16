@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280125</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月25日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月二十五日 随分風邪が流行してますが、特に信者の人は溶けやすいから風邪を引きやすいのです。<br><br>ところで今風邪を引かない人は、健康でもなんでもないので、つまりよく固まっている人なのです。<br><br>こういう人の方が、溶け始めると急激ですから、かえって危ないのです。<br><br>ですから風邪は早く引く人ほど、軽くすむのですから、いいわけです。<br><br> 私も十二日から風邪を引いてますが、まだすっかりなおりません。<br><br>風邪を引いてもたいていは一日か二日でなおってしまいますが、今年はなかなか御念がいってまして、一晩だけは苦しくて仕事ができなかったのです。<br><br>あとはふだんと違いはありませんが、けれども体が痛だるくて、水っ洟や咳が出て、それだけはうるさかったです。<br><br>信者でない人は「風邪をお引きになっても、よくお休みになりませんね」と言いますが、それで私は「風邪というものは、薬をのまなければなおるに決まっているから、そういう必要もないからふだんのとおりにしているのです」と言いました。<br><br>だからなんの病気でも、特に怖いという病気はありませんが、特に風邪は薬さえのまなければ、なおるに決まったものですから安心なものです。<br><br>それについて非常におもしろく、分かりやすく書きました。<br><br> （御論文「風邪引結構」）【栄光 一九三号】 それで風邪は、べつにどこの毒ということではなくて、体中にあるものはどこからでも溶けて、咳と痰になって出るのです。<br><br>私は最初水っ洟（ぱな）がうんと出ました。<br><br>それで鼻紙が山のようになりました。<br><br>これはどこから出るかと言うと、頭全体が溶けて水っ洟になって出たのです。<br><br>その後は頭が軽くなりました。<br><br>それは、私は原稿を書いてますが、頭が軽くなると、原稿を書いていても長く続くからすぐ分かります。<br><br>それがすんでから、腰から足の方が痛だるくなってきたので、おかしいなと思って見ると、お腹の下の右の方の、ちょうど盲腸と腎盂の間の所に熱があって、それが溶け始めたのです。<br><br>それから痰が出て、それで痛だるかったのです。<br><br>それでそこを浄霊したら、すっとよくなりました。<br><br>頭や首から痰が出るということは分かりますが、お腹の右手の方から痰が出るのです。<br><br>それが風邪の状態です。<br><br>そこから咳と痰が出て、腰から下が痛だるいのです。<br><br>これは信者さんでもちょっと見当がつかないくらいです。<br><br>ですからあんがいな所から熱が出て、溶けて、咳と痰が出るのです。<br><br>今まで気がつかないような所から溶けて、毒を出してくれるのです。<br><br>ですから風邪というものは実に結構なものです。<br><br>それが分からないから、ワクチン何万人分を取り寄せるとか言って、大騒ぎをしてますが、このワクチンというものは、そういう出ようとする毒を出さないように止めるのですから、それを知らない文化族というのは、実にどのくらい馬鹿だか分かりません。<br><br>だから、こういう人間を教育してやらなければならないが、これを分からせるのは、なかなかたいへんなものです。<br><br>すっかり迷信にかかっているのですから……。<br><br>それで神様はそういう迷信族をどうして分からせるだろうということになりますが、そこは神様ですから、神様の方にはとうてい人間の想像もつかない秘策があります。<br><br>それは、だんだん浄化が強くなってきて、今までのように薬で固めるということができなくなるのです。<br><br>それで、今ワクチンといっても、一時固めることができるのです。<br><br>溶け出したものが一時でも固めることができるからやっているのですが、これがちょっとでも固めることができなくなると、そうなると考えざるを得なくなります。<br><br>そのことを書いてみました。<br><br> （御論文「大恐怖時代来らん」）【栄光 一九四号】 このごろ新聞で宗教欄などをつくって、だいぶ宗教に関係したことを書いてます。<br><br>中には宗教界の偉い人の説などもそうとう出てますが、読んでみると煙みたいなことです。<br><br>昔から言っているようなことを、ただ繰り返して言っているにすぎないので、そんなことを言ったところで、どうせなんの役にも立たないのです。<br><br>実際、新聞の紙や活字がもったいないくらいです。<br><br>ですから、結局だんだん浄化作用が強くなると、みんな慌てたり分からなくなったりすることになって、たいへんな事態になりますが、その時になって「ははあ、救世教はこれを言っていたのだな」ということが分かれば、非常に早く救われますから、今はその準備をしているようなものです。<br><br> 今まで言ったのは病気のことですが、病気以外の戦争などもなかなかたいへんなのです。<br><br>今日本人が再軍備が良いとか悪いとか、平和がどうとかこうとか言っていることは屁みたいなことであって、なんにもなりません。<br><br>それを社会党とかいろんな偉い人が鼻高になって言ってますが、虫や蚊が鳴いているようなものです。<br><br>それどころでなく、だんだん世界がぜんぜん引っ繰り返るようなことになって行きます。<br><br>私は『栄光』の「新年号」に「世界夢物語」という論文をちょっと書きましたが、あれは半分くらいのもので、あの先がたいへんですが、それはあんまり恐ろしいことなので、今は早過ぎるから、書かなかったのですが、いずれ来年の「新年号」あたりに書こうかと思ってます。<br><br>それは神様の方ではちゃんと決まっているのです。<br><br>大体のことを言うと、いよいよ昼間の世界になると、太陽が東から霊界に出て、だんだん明るくなります。<br><br>それで日本は極東ですから、日本から明るくなります。<br><br>それから朝鮮、中国、中央アジア、西南アジア、ヨーロッパというように、だんだん明るくなって行くのです。<br><br>それで、明るくなるとすると、今までの汚いものが非常に目立ってきます。<br><br>夜の世界では分からなかったもので、とんでもない汚いものがたくさんありますから、この掃除が今度始まるのです。<br><br>それが神様のなさることです。<br><br>それで神様は掃除をやられるのですが、しかしドタバタには立派な神様は手を出しません。<br><br>そういう労働は悪魔にやらせるのです。<br><br>そして神様は懐手をして見ておられ、指図されるわけです。<br><br>それが人間界に現われてくるのです。<br><br>それはだんだん分かってきます。<br><br>これだけを言っておきますが、一番酷くやられるのは英国です。<br><br>日本が戦争でやられましたが、英国はとてもそのような比ではありません。<br><br>それは随分気の毒なものです。<br><br>それだけではなく、アメリカもあるし、ソ連も最後はたいへんです。<br><br>それは、時期が来たらそういうことも書きますが、今のところはこのくらいにしておきます。<br><br>昼間の世界になるということは、東方の光がだんだん昇って行き、それが現界に現われるということで、これが根本です。<br><br>それから、『医学革命の書』の次のを読ませます。<br><br> （御論文『医学革命の書』「四、固め方法と溶かす方法」） 大体理論だけはできましたが、もっと先にいくと、なかなかおもしろいことで今まで説かないようなこともあります。<br><br>これをすっかり読めば、病気に関したことは徹底的に分かるわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gripe como Bênção e a Purificação do Mundo</h2>
 <p>A gripe tem se proliferado de maneira considerável, e os membros da nossa Igreja, por serem mais suscetíveis à dissolução das toxinas, tendem a contraí-la com maior facilidade. Por outro lado, aqueles que não estão gripados no momento não são necessariamente saudáveis; são, na verdade, pessoas cujas toxinas se encontram bem solidificadas. Indivíduos nessas condições correm um perigo maior, pois, quando o processo de purificação se iniciar, ocorrerá de forma abrupta e severa. Portanto, é preferível contrair a gripe o quanto antes, pois a manifestação será mais branda. Eis por que a consideramos algo positivo.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Nos desígnios de Deus, tudo já está determinado. Em linhas gerais, com o advento definitivo da Era do Dia, o Sol nascerá a partir do Leste no Mundo Espiritual, e tudo se tornará progressivamente mais claro. Sendo o Japão o país do Extremo Oriente, a luz começará a brilhar a partir daqui. Em seguida, ela se expandirá para a Coreia, a China, a Ásia Central, o Sudoeste Asiático e a Europa, iluminando gradualmente o mundo. Com o aumento da claridade, toda a imundície do passado se tornará manifesta. Há uma quantidade inimaginável de impurezas que permaneciam ocultas na escuridão da Era da Noite, e a grande limpeza de tudo isso terá início agora. Essa é a obra de Deus.</p>
 <p>Todavia, o Deus Supremo não se envolve diretamente no trabalho turbulento da purificação. Ele delega essa tarefa aos espíritos malignos. Enquanto isso, Deus observa os acontecimentos de braços cruzados, apenas a dar as diretrizes. E esse processo se manifestará no mundo material. Com o tempo, tudo se tornará claro. Por ora, digo apenas isto: a nação que sofrerá o mais severo castigo será a Grã-Bretanha. O que o Japão padeceu na guerra não será nada em comparação. Será uma situação deveras lastimável. E não apenas ela; os Estados Unidos também passarão por provações, e a União Soviética, ao final, terá um destino terrível. Quando o momento chegar, escreverei sobre esses assuntos. Por enquanto, limito-me a estas palavras. A chegada da Era do Dia significa, em sua essência, que a Luz do Oriente ascenderá gradualmente e se manifestará no mundo físico. Este é o princípio fundamental.</p>
 <p>Agora, darei prosseguimento com a leitura do próximo trecho de “O Livro da Revolução da Medicina”. A teoria geral já está delineada, mas, à medida que avançarmos, encontraremos tópicos fascinantes, sobre os quais nunca preguei anteriormente. Com a leitura completa desta obra, a compreensão sobre a natureza das doenças se tornará absoluta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年1月25日） 『御教え集』18号、昭和28(1953)年2月15日発行 昭和二十八年一月二十五日 随分風邪が流行してますが、特に信者の人は溶けやすいから風邪を引きやすいのです。<br/><br/>ところで今風邪を引かない人は、健康でもなんでもないので、つまりよく固まっている人なのです。<br/><br/>こういう人の方が、溶け始めると急激ですから、かえって危ないのです。<br/><br/>ですから風邪は早く引く人ほど、軽くすむのですから、いいわけです。<br/><br/> 私も十二日から風邪を引いてますが、まだすっかりなおりません。<br/><br/>風邪を引いてもたいていは一日か二日でなおってしまいますが、今年はなかなか御念がいってまして、一晩だけは苦しくて仕事ができなかったのです。<br/><br/>あとはふだんと違いはありませんが、けれども体が痛だるくて、水っ洟や咳が出て、それだけはうるさかったです。<br/><br/>信者でない人は「風邪をお引きになっても、よくお休みになりませんね」と言いますが、それで私は「風邪というものは、薬をのまなければなおるに決まっているから、そういう必要もないからふだんのとおりにしているのです」と言いました。<br/><br/>だからなんの病気でも、特に怖いという病気はありませんが、特に風邪は薬さえのまなければ、なおるに決まったものですから安心なものです。<br/><br/>それについて非常におもしろく、分かりやすく書きました。<br/><br/> （御論文「風邪引結構」）【栄光 一九三号】 それで風邪は、べつにどこの毒ということではなくて、体中にあるものはどこからでも溶けて、咳と痰になって出るのです。<br/><br/>私は最初水っ洟（ぱな）がうんと出ました。<br/><br/>それで鼻紙が山のようになりました。<br/><br/>これはどこから出るかと言うと、頭全体が溶けて水っ洟になって出たのです。<br/><br/>その後は頭が軽くなりました。<br/><br/>それは、私は原稿を書いてますが、頭が軽くなると、原稿を書いていても長く続くからすぐ分かります。<br/><br/>それがすんでから、腰から足の方が痛だるくなってきたので、おかしいなと思って見ると、お腹の下の右の方の、ちょうど盲腸と腎盂の間の所に熱があって、それが溶け始めたのです。<br/><br/>それから痰が出て、それで痛だるかったのです。<br/><br/>それでそこを浄霊したら、すっとよくなりました。<br/><br/>頭や首から痰が出るということは分かりますが、お腹の右手の方から痰が出るのです。<br/><br/>それが風邪の状態です。<br/><br/>そこから咳と痰が出て、腰から下が痛だるいのです。<br/><br/>これは信者さんでもちょっと見当がつかないくらいです。<br/><br/>ですからあんがいな所から熱が出て、溶けて、咳と痰が出るのです。<br/><br/>今まで気がつかないような所から溶けて、毒を出してくれるのです。<br/><br/>ですから風邪というものは実に結構なものです。<br/><br/>それが分からないから、ワクチン何万人分を取り寄せるとか言って、大騒ぎをしてますが、このワクチンというものは、そういう出ようとする毒を出さないように止めるのですから、それを知らない文化族というのは、実にどのくらい馬鹿だか分かりません。<br/><br/>だから、こういう人間を教育してやらなければならないが、これを分からせるのは、なかなかたいへんなものです。<br/><br/>すっかり迷信にかかっているのですから……。<br/><br/>それで神様はそういう迷信族をどうして分からせるだろうということになりますが、そこは神様ですから、神様の方にはとうてい人間の想像もつかない秘策があります。<br/><br/>それは、だんだん浄化が強くなってきて、今までのように薬で固めるということができなくなるのです。<br/><br/>それで、今ワクチンといっても、一時固めることができるのです。<br/><br/>溶け出したものが一時でも固めることができるからやっているのですが、これがちょっとでも固めることができなくなると、そうなると考えざるを得なくなります。<br/><br/>そのことを書いてみました。<br/><br/> （御論文「大恐怖時代来らん」）【栄光 一九四号】 このごろ新聞で宗教欄などをつくって、だいぶ宗教に関係したことを書いてます。<br/><br/>中には宗教界の偉い人の説などもそうとう出てますが、読んでみると煙みたいなことです。<br/><br/>昔から言っているようなことを、ただ繰り返して言っているにすぎないので、そんなことを言ったところで、どうせなんの役にも立たないのです。<br/><br/>実際、新聞の紙や活字がもったいないくらいです。<br/><br/>ですから、結局だんだん浄化作用が強くなると、みんな慌てたり分からなくなったりすることになって、たいへんな事態になりますが、その時になって「ははあ、救世教はこれを言っていたのだな」ということが分かれば、非常に早く救われますから、今はその準備をしているようなものです。<br/><br/> 今まで言ったのは病気のことですが、病気以外の戦争などもなかなかたいへんなのです。<br/><br/>今日本人が再軍備が良いとか悪いとか、平和がどうとかこうとか言っていることは屁みたいなことであって、なんにもなりません。<br/><br/>それを社会党とかいろんな偉い人が鼻高になって言ってますが、虫や蚊が鳴いているようなものです。<br/><br/>それどころでなく、だんだん世界がぜんぜん引っ繰り返るようなことになって行きます。<br/><br/>私は『栄光』の「新年号」に「世界夢物語」という論文をちょっと書きましたが、あれは半分くらいのもので、あの先がたいへんですが、それはあんまり恐ろしいことなので、今は早過ぎるから、書かなかったのですが、いずれ来年の「新年号」あたりに書こうかと思ってます。<br/><br/>それは神様の方ではちゃんと決まっているのです。<br/><br/>大体のことを言うと、いよいよ昼間の世界になると、太陽が東から霊界に出て、だんだん明るくなります。<br/><br/>それで日本は極東ですから、日本から明るくなります。<br/><br/>それから朝鮮、中国、中央アジア、西南アジア、ヨーロッパというように、だんだん明るくなって行くのです。<br/><br/>それで、明るくなるとすると、今までの汚いものが非常に目立ってきます。<br/><br/>夜の世界では分からなかったもので、とんでもない汚いものがたくさんありますから、この掃除が今度始まるのです。<br/><br/>それが神様のなさることです。<br/><br/>それで神様は掃除をやられるのですが、しかしドタバタには立派な神様は手を出しません。<br/><br/>そういう労働は悪魔にやらせるのです。<br/><br/>そして神様は懐手をして見ておられ、指図されるわけです。<br/><br/>それが人間界に現われてくるのです。<br/><br/>それはだんだん分かってきます。<br/><br/>これだけを言っておきますが、一番酷くやられるのは英国です。<br/><br/>日本が戦争でやられましたが、英国はとてもそのような比ではありません。<br/><br/>それは随分気の毒なものです。<br/><br/>それだけではなく、アメリカもあるし、ソ連も最後はたいへんです。<br/><br/>それは、時期が来たらそういうことも書きますが、今のところはこのくらいにしておきます。<br/><br/>昼間の世界になるということは、東方の光がだんだん昇って行き、それが現界に現われるということで、これが根本です。<br/><br/>それから、『医学革命の書』の次のを読ませます。<br/><br/> （御論文『医学革命の書』「四、固め方法と溶かす方法」） 大体理論だけはできましたが、もっと先にいくと、なかなかおもしろいことで今まで説かないようなこともあります。<br/><br/>これをすっかり読めば、病気に関したことは徹底的に分かるわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

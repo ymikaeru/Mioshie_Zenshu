@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』33号、昭和27(1952)年2月25日発行 （三）お店へ伺う Ｓ君は株式会社岡田商店出入の宝石加工業者であった。<br><br>彼は世にも珍らしい型の人物であったが、特に借金とその借倒しの名人であつた。<br><br>いかなる老巧な商人も彼氏の踏倒し技術には大抵引っかかったようである。<br><br>それ程の彼氏も、肚の底まで洞察さるる明主様だけは、あらゆる秘策を弄するも歯が立たず、終に兜を脱いだと共に、反って高い御徳に心服し、お奨めに従って信仰の道に入るに至ったんだそうである。<br><br> Ｓ君も入信後は、明主様にお得意の奥の手を封じ込まれ随分弱っていたようだったが、とにかくその牽制によって社会にそれだけ被害を及ぼさぬ人間となったし、罪による破滅も救われ、寧ろ極めて有用に御活用いたゞき大いなる手柄を表わしめられた訳である。<br><br> 商人であられた頃からあらゆる社会悪と戦い、不正には断じて屈せられなかった明主様が、いやしくも理由なき踏倒しをお許しになる筈はなかった。<br><br>商人が最も困難するのは借金の取立てであるが、極度に悪意的な踏倒しに対しては時によっては他人の被害までも救われた。<br><br>相手が悪辣、不誠実である程、それに応ずる妙策をもって屈服させられ、最も悪質なものにはその家への住込戦術をとられた事もあったそうである。<br><br> それ程にせられたのも本人の悪を徹底的に懲らしめ、再び不正を行わしめぬ人間とし、引いてはその被害者を少からしめんとの思召しからであるのは言うまでもない。<br><br> 又、御事業を再起不可能にまで陥れた関東大震災による莫大の貸倒れのごときものには一顧だもされなかったが、震災約十年後と十五年後に訪れた哀れな二婦人の哀願に対しては、書類も焼失特に御救いに専念され商業には何の御関係もなく支払も全く消失したというべき災前の借金さえ、約四年かかって不如意の中からお払い下さった事もあったが、よくもこんなにまでお計い下さるものとつくづく御慈悲の深さを思ったものであった。<br><br> ある日Ｓ君と二人でお店へお訪ねした。<br><br>元のお店は北槙町にあったが震災で商品と共に烏有に帰し、その頃は東京の中央、京橋区北槙町一にあった。<br><br>東京駅八重洲口から銀座へ抜ける大通りの右側、角から六七軒目だった。<br><br>商家と見えぬ程の地味で目立たぬガッシリした感じの日本建築であった。<br><br>当時お店の方は支配人の福本氏に無償でお譲りになってはいたが、決して投やり的な事はなさらぬ明主様は、神業専一の身になられても当分は御面倒をみておられたようである。<br><br>もっともお店へまで信仰上の事で来る人もあったが、毎日午後から省線でお出でになり、御用を済まして大森へお帰りになり、それから深更まで御救と芸術の御仕事に没頭せられていた。<br><br> 明主様は一番奥の社長室らしい所で椅子に掛けて客と応接せられていた。<br><br>お店の人は皆親切で気が利いていた。<br><br>皆入信していたが明主様がよく夢のような大きい事を仰有（おっしゃ）るので、大法螺ばかり吹く方だ、位にしか考えていなかったようである。<br><br> 御拝顔すると、とても明るい洒脱な都会人とも思えるし、上品な犯し難い有難い感じの沸く信仰の哲人のようにも思える。<br><br>最も好もしいのは何か大望を成し遂げらるるような大実業家的御風格であるといって、ありのままの平々凡々の御態度、温い親愛の愛の奥には強力無比な骨が感ぜられ、心の底まで見透されるような恐さを覚え、自分が虫のように小さく感ぜられ口も利けない。<br><br>すると、「Ｓと一緒に大森へ来なさい」との御言葉にホッとして、いそいそとお伴した。<br><br>夏であったが、浴衣でイヤに下の方で巻かれた兵古帯、パナマの御気軽な服装で右肩を少し上げられ悠々と八重洲口のホームをお歩きになられる御後姿は、事務所で応接せられていたお姿と共に、今でも眼底にアリアリと残っている。<br><br>そして信仰に対する希望や楽しさが、涼やかなお姿から発散されているような感じで、お伴しているうち都会の騒音も耳に入らぬような安らかな気持になるのであった。<br><br> 御著書にも記されたごとく、明主様は貧しい小売商人から身を起され、僅か十年間のうちに三十代にして東京有数の問屋になられたにみても、決して凡なる商人に在さなかった事は明かである。<br><br>商業の傍、有用な社会事業への寄附、苦学生への援助、困窮者の救恤（きゅうじゅつ）等々には絶えす私財を割かれたにみても利潤追求のみに没頭する商人ではなかったのみか、慈悲陰徳に富む紳士であられた事が分る。<br><br>当時を知る人々の話によっても御営業振りにも極めて能率的であり、かつ人も利し吾も利するという道義の一貫も窺い知るのである。<br><br>使用人の報酬にしても歩合制をとられ、月給の外は各々の働きに応じて無制限に利得せしめ、楽しみをもってその能力を充分に発揮せしめる方法をとられていた。<br><br>そのため彼等の中のある者は多額の財を得て都心に近く店舗を構えて大を成した人もあった。<br><br>これは、救業をお創めになり、これを拡げんとさるる時、その人の誠と努力次第で無限に大きい御恵みを賜うたそれにも通ずる。<br><br>御仕事の大乗的一面の性格と言えるであろう。<br><br> かつて明主様から、「私が身を立てる時、第一志望たる画家は眼病や指の怪我のため断念したし、政治家は追従を事とせねばならぬのが堪えられぬ。<br><br>この世の一切を支配しているものは金である。<br><br>まずもって大いに金儲けをしてやろうというので商いを創めたのだ」と承わった事があるが、結局青年の頃からの御宿望は社会改革あるいは社会悪の滅消、文化の向上等という点にあったので、商業はその目的のための手段であられたようである。<br><br>それは又社会のあらゆる表面裏面の事情に通暁さるる手段ともなった。<br><br>そして実業家としての明主様は婦人装身具商を営まれたが、そのような人間を美化する意味の部門をお選びになられたのも、将来、美の天国世界をお造りになる御使命からいっても、偶然事ではないものがあると思うのである。<br><br>そして特に芸術には深い熱情を抱かれ、実業の外の多大の時間は美の探求に費されたようである。<br><br>特に美術に至ってはあらゆる部門に均しく深い造詣を養われた。<br><br>御青年時代房州五ツ浦に陰棲中の岡倉天心先生を訪ねて親しく語られたによっても絵画に対する御熱意が伺われる。<br><br>蒔絵など御自ら漆を扱って御研究なされた事もあり、その御鑑識の鋭どさは一瞥寸毫の狂いもあられぬ。<br><br>商品の意匠もほとんど御自ら御考案せられた。<br><br>演劇、舞踊、芸能、映画等は週に幾多となく観賞なされた。<br><br>同業者と旅行会を造って全国の景勝を具（つぶ）さに探られ、有名料理店を巡って味覚美を探究されたし、四季の行楽、名苑の親察も欠かされず、御住居には必ず庭園を造られ建築部門と共に御研究なされた等々、変転激しき世の荒波に処さるる間に、第二の生たる見神の門に入らるるまでには行くとして可ならざるなき審美眼、あらゆる芸術の核心をつかんで、高度の新芸術御創造の素地を造られていたのである。<br><br>一方科学文明の新利器の利用についても世に先んじて御関心を抱かれた。<br><br>新知識の吸収も常に怠られなかったし政治経済等にも優れた批判を持たれていた。<br><br>これによってみるも明主様は単なる商人ではなく、心奥に人類福祉を念願さるる偉大なる文化人に在した事が知らるるのである。<br><br> 又明主様は未だ微々たる小商人の頃でも、毎日新聞雑誌は必ず眼を通され、世の趨勢を注意深く観察せられ、よく世界情勢を論ぜられては「お前は未だ鼻の下の黄色いくせに大きな事ばかりいう。<br><br>そんな余計な事を考えるよりは自分の商売の事でも考えよ」と当時の世代を代表するような年長者から嘲笑せられた程であったとの事であるが、明主様の御胸にはそのような頃から、既に世界の現実が描かれていた事が知らるる。<br><br> 又御商売の最盛期を造られた朝日ダイヤの御発明はたちまち婦人装身具の必需品となり、流行の先端を成されて業者を潤され、世に光の美を添えられたが、この御発明は世界十カ国の専売特許を獲られたにみても、その御視野は世界的であり世界の誰にも優れるという高邁壮大な御気宇が伺われ、その当時すでに世界人として完成されておられる事が拝察せられる。<br><br>そしてこの意気と御頭脳こそ、後半世において文化を革命し世界を歓呼にどよもすべき宗教、医学、芸術等の御創造となった訳である。<br><br> 旭ダイヤは図のごとく旭日を象徴した（人造ダイヤ）で、当時光芒燦爛として婦人の頭上に輝いた。<br><br>〔図略〕古来西洋ではいつの頃からか「東方之光」という言葉が称えられ、最後の世を救うものとされているが、この「東方之光」こそ世界の東方日本より顕現された明主様の放たれる大光明であられる事は今や疑う余地はないのであって、奇しくもこのアサヒダイヤは、最もよく「東方之光」を象徴せるもので、しかも世界十カ国に間配られた事は、明主様の御光がやがて世界中に及ぼさるる型でもあり、尊い御使命を語るに相応しい出来事であったといえよう。<br><br> 叙上、はからずもも青年実業家明主様の御事に関し、私の乏しい知識をかいた。<br><br>この偉大をも明主様はたゞ一語「私の前半生はまことに平凡で世間ありふれた経歴」と、極めて謙虚な御言葉で表現されている。<br><br>嗚呼、その平凡とは果して何であろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Meishu-Sama: O Empresário e o Visionário</h2>
 <p>O senhor S. era um lapidador de joias que prestava serviços à loja Okada Shoten. Tratava-se de uma figura de rara estirpe, um mestre na arte de contrair dívidas e jamais saldá-las. Nem mesmo os mais experientes comerciantes escapavam de suas artimanhas. Contudo, perante Meishu-Sama, que lhe perscrutava o âmago da alma, suas estratégias mais secretas se mostraram ineficazes. Por fim, rendeu-se por completo e, tocado profundamente por Sua nobre virtude, acabou por ingressar no caminho da fé, seguindo Sua recomendação.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>O Diamante Asahi, como o nome sugere, simbolizava o sol nascente e, na época, resplandecia com brilho intenso sobre a cabeça das mulheres. Desde tempos imemoriais, o Ocidente reverencia a expressão "Luz do Oriente", considerada a salvação para o fim dos tempos. Não há mais dúvida de que essa "Luz do Oriente" é a Grande Luz irradiada por Meishu-Sama, manifestada no Japão, o oriente do mundo. O Diamante Asahi, que tão bem simboliza essa "Luz do Oriente", e sua distribuição em dez nações, representam um protótipo da expansão de Sua Luz por todo o planeta, um acontecimento emblemático que prenunciava Sua sublime missão.</p>
 <p>Com o exposto, relatei, sem me dar conta da extensão, o que minha parca memória guarda sobre Meishu-Sama como jovem empresário. O próprio Meishu-Sama, contudo, resume essa grandiosa jornada com palavras de extrema humildade: "A primeira metade de minha vida foi, em verdade, banal e de uma trajetória comum".</p>
 <p>Ah, o que significaria, de fato, essa banalidade?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』33号、昭和27(1952)年2月25日発行 （三）お店へ伺う Ｓ君は株式会社岡田商店出入の宝石加工業者であった。<br/><br/>彼は世にも珍らしい型の人物であったが、特に借金とその借倒しの名人であつた。<br/><br/>いかなる老巧な商人も彼氏の踏倒し技術には大抵引っかかったようである。<br/><br/>それ程の彼氏も、肚の底まで洞察さるる明主様だけは、あらゆる秘策を弄するも歯が立たず、終に兜を脱いだと共に、反って高い御徳に心服し、お奨めに従って信仰の道に入るに至ったんだそうである。<br/><br/> Ｓ君も入信後は、明主様にお得意の奥の手を封じ込まれ随分弱っていたようだったが、とにかくその牽制によって社会にそれだけ被害を及ぼさぬ人間となったし、罪による破滅も救われ、寧ろ極めて有用に御活用いたゞき大いなる手柄を表わしめられた訳である。<br/><br/> 商人であられた頃からあらゆる社会悪と戦い、不正には断じて屈せられなかった明主様が、いやしくも理由なき踏倒しをお許しになる筈はなかった。<br/><br/>商人が最も困難するのは借金の取立てであるが、極度に悪意的な踏倒しに対しては時によっては他人の被害までも救われた。<br/><br/>相手が悪辣、不誠実である程、それに応ずる妙策をもって屈服させられ、最も悪質なものにはその家への住込戦術をとられた事もあったそうである。<br/><br/> それ程にせられたのも本人の悪を徹底的に懲らしめ、再び不正を行わしめぬ人間とし、引いてはその被害者を少からしめんとの思召しからであるのは言うまでもない。<br/><br/> 又、御事業を再起不可能にまで陥れた関東大震災による莫大の貸倒れのごときものには一顧だもされなかったが、震災約十年後と十五年後に訪れた哀れな二婦人の哀願に対しては、書類も焼失特に御救いに専念され商業には何の御関係もなく支払も全く消失したというべき災前の借金さえ、約四年かかって不如意の中からお払い下さった事もあったが、よくもこんなにまでお計い下さるものとつくづく御慈悲の深さを思ったものであった。<br/><br/> ある日Ｓ君と二人でお店へお訪ねした。<br/><br/>元のお店は北槙町にあったが震災で商品と共に烏有に帰し、その頃は東京の中央、京橋区北槙町一にあった。<br/><br/>東京駅八重洲口から銀座へ抜ける大通りの右側、角から六七軒目だった。<br/><br/>商家と見えぬ程の地味で目立たぬガッシリした感じの日本建築であった。<br/><br/>当時お店の方は支配人の福本氏に無償でお譲りになってはいたが、決して投やり的な事はなさらぬ明主様は、神業専一の身になられても当分は御面倒をみておられたようである。<br/><br/>もっともお店へまで信仰上の事で来る人もあったが、毎日午後から省線でお出でになり、御用を済まして大森へお帰りになり、それから深更まで御救と芸術の御仕事に没頭せられていた。<br/><br/> 明主様は一番奥の社長室らしい所で椅子に掛けて客と応接せられていた。<br/><br/>お店の人は皆親切で気が利いていた。<br/><br/>皆入信していたが明主様がよく夢のような大きい事を仰有（おっしゃ）るので、大法螺ばかり吹く方だ、位にしか考えていなかったようである。<br/><br/> 御拝顔すると、とても明るい洒脱な都会人とも思えるし、上品な犯し難い有難い感じの沸く信仰の哲人のようにも思える。<br/><br/>最も好もしいのは何か大望を成し遂げらるるような大実業家的御風格であるといって、ありのままの平々凡々の御態度、温い親愛の愛の奥には強力無比な骨が感ぜられ、心の底まで見透されるような恐さを覚え、自分が虫のように小さく感ぜられ口も利けない。<br/><br/>すると、「Ｓと一緒に大森へ来なさい」との御言葉にホッとして、いそいそとお伴した。<br/><br/>夏であったが、浴衣でイヤに下の方で巻かれた兵古帯、パナマの御気軽な服装で右肩を少し上げられ悠々と八重洲口のホームをお歩きになられる御後姿は、事務所で応接せられていたお姿と共に、今でも眼底にアリアリと残っている。<br/><br/>そして信仰に対する希望や楽しさが、涼やかなお姿から発散されているような感じで、お伴しているうち都会の騒音も耳に入らぬような安らかな気持になるのであった。<br/><br/> 御著書にも記されたごとく、明主様は貧しい小売商人から身を起され、僅か十年間のうちに三十代にして東京有数の問屋になられたにみても、決して凡なる商人に在さなかった事は明かである。<br/><br/>商業の傍、有用な社会事業への寄附、苦学生への援助、困窮者の救恤（きゅうじゅつ）等々には絶えす私財を割かれたにみても利潤追求のみに没頭する商人ではなかったのみか、慈悲陰徳に富む紳士であられた事が分る。<br/><br/>当時を知る人々の話によっても御営業振りにも極めて能率的であり、かつ人も利し吾も利するという道義の一貫も窺い知るのである。<br/><br/>使用人の報酬にしても歩合制をとられ、月給の外は各々の働きに応じて無制限に利得せしめ、楽しみをもってその能力を充分に発揮せしめる方法をとられていた。<br/><br/>そのため彼等の中のある者は多額の財を得て都心に近く店舗を構えて大を成した人もあった。<br/><br/>これは、救業をお創めになり、これを拡げんとさるる時、その人の誠と努力次第で無限に大きい御恵みを賜うたそれにも通ずる。<br/><br/>御仕事の大乗的一面の性格と言えるであろう。<br/><br/> かつて明主様から、「私が身を立てる時、第一志望たる画家は眼病や指の怪我のため断念したし、政治家は追従を事とせねばならぬのが堪えられぬ。<br/><br/>この世の一切を支配しているものは金である。<br/><br/>まずもって大いに金儲けをしてやろうというので商いを創めたのだ」と承わった事があるが、結局青年の頃からの御宿望は社会改革あるいは社会悪の滅消、文化の向上等という点にあったので、商業はその目的のための手段であられたようである。<br/><br/>それは又社会のあらゆる表面裏面の事情に通暁さるる手段ともなった。<br/><br/>そして実業家としての明主様は婦人装身具商を営まれたが、そのような人間を美化する意味の部門をお選びになられたのも、将来、美の天国世界をお造りになる御使命からいっても、偶然事ではないものがあると思うのである。<br/><br/>そして特に芸術には深い熱情を抱かれ、実業の外の多大の時間は美の探求に費されたようである。<br/><br/>特に美術に至ってはあらゆる部門に均しく深い造詣を養われた。<br/><br/>御青年時代房州五ツ浦に陰棲中の岡倉天心先生を訪ねて親しく語られたによっても絵画に対する御熱意が伺われる。<br/><br/>蒔絵など御自ら漆を扱って御研究なされた事もあり、その御鑑識の鋭どさは一瞥寸毫の狂いもあられぬ。<br/><br/>商品の意匠もほとんど御自ら御考案せられた。<br/><br/>演劇、舞踊、芸能、映画等は週に幾多となく観賞なされた。<br/><br/>同業者と旅行会を造って全国の景勝を具（つぶ）さに探られ、有名料理店を巡って味覚美を探究されたし、四季の行楽、名苑の親察も欠かされず、御住居には必ず庭園を造られ建築部門と共に御研究なされた等々、変転激しき世の荒波に処さるる間に、第二の生たる見神の門に入らるるまでには行くとして可ならざるなき審美眼、あらゆる芸術の核心をつかんで、高度の新芸術御創造の素地を造られていたのである。<br/><br/>一方科学文明の新利器の利用についても世に先んじて御関心を抱かれた。<br/><br/>新知識の吸収も常に怠られなかったし政治経済等にも優れた批判を持たれていた。<br/><br/>これによってみるも明主様は単なる商人ではなく、心奥に人類福祉を念願さるる偉大なる文化人に在した事が知らるるのである。<br/><br/> 又明主様は未だ微々たる小商人の頃でも、毎日新聞雑誌は必ず眼を通され、世の趨勢を注意深く観察せられ、よく世界情勢を論ぜられては「お前は未だ鼻の下の黄色いくせに大きな事ばかりいう。<br/><br/>そんな余計な事を考えるよりは自分の商売の事でも考えよ」と当時の世代を代表するような年長者から嘲笑せられた程であったとの事であるが、明主様の御胸にはそのような頃から、既に世界の現実が描かれていた事が知らるる。<br/><br/> 又御商売の最盛期を造られた朝日ダイヤの御発明はたちまち婦人装身具の必需品となり、流行の先端を成されて業者を潤され、世に光の美を添えられたが、この御発明は世界十カ国の専売特許を獲られたにみても、その御視野は世界的であり世界の誰にも優れるという高邁壮大な御気宇が伺われ、その当時すでに世界人として完成されておられる事が拝察せられる。<br/><br/>そしてこの意気と御頭脳こそ、後半世において文化を革命し世界を歓呼にどよもすべき宗教、医学、芸術等の御創造となった訳である。<br/><br/> 旭ダイヤは図のごとく旭日を象徴した（人造ダイヤ）で、当時光芒燦爛として婦人の頭上に輝いた。<br/><br/>〔図略〕古来西洋ではいつの頃からか「東方之光」という言葉が称えられ、最後の世を救うものとされているが、この「東方之光」こそ世界の東方日本より顕現された明主様の放たれる大光明であられる事は今や疑う余地はないのであって、奇しくもこのアサヒダイヤは、最もよく「東方之光」を象徴せるもので、しかも世界十カ国に間配られた事は、明主様の御光がやがて世界中に及ぼさるる型でもあり、尊い御使命を語るに相応しい出来事であったといえよう。<br/><br/> 叙上、はからずもも青年実業家明主様の御事に関し、私の乏しい知識をかいた。<br/><br/>この偉大をも明主様はたゞ一語「私の前半生はまことに平凡で世間ありふれた経歴」と、極めて謙虚な御言葉で表現されている。<br/><br/>嗚呼、その平凡とは果して何であろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

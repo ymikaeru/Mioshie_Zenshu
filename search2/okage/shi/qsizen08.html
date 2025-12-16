@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsizen08</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培二年度にて七割増収 『栄光』79号、昭和25(1950)年11月22日 （革）自然農法解説に収録 福岡県 明輪中教会 誉田寅之助（37） 私は昭和二十三年四月に入信させて頂いた者で、数々の御守護に感激の日を送らせて頂いております。<br><br>明主様の御恩に対し有難く厚く厚く御礼申し上げます。<br><br> 私は昭和二十四年度より、明主様の御教え通り耕作田畑五反歩を全面的に自然栽培に切替えさせて頂き、実施いたしておりますが、本年度は予想外にも好成績を頂きましたので、次にその概略を御報告させて頂きます。<br><br> 明主様の御教えに「自然栽培は三年経たぬと本当の収穫は分らぬ」と仰せられますが、事実その通りでございまして、昨年の収穫に比し本年度は七割増の収穫予想であります。<br><br>未だ全部脱穀を終っておりませんので、判然とした数字的御報告は致し兼ねますが、当地では平均収量反当五俵（有肥）でありますが、昨年度は四俵半で、約半俵の減収でありました。<br><br>成程計目は約半俵の減収ではありますが、明主様の御教えに自然栽培の米は重量が有肥に比し五ないし十パーセント重いとございますが、確かに違います。<br><br>昨年調べたところによりますと、一升当りの重量四三〇匁で普通有肥ですと三八〇匁ないし四〇〇匁位であります。<br><br>又脱穀して歩留りがよく、炊いて約二割位は増え、しかも糯（もち）米のごとく美味いので、色々と詳細に計算して見ると決して減収でなく寧ろ増収だと思っております。<br><br>しかるに本年はどうでしょう。<br><br>更に七割増の反当約八俵の収穫を得させて頂き、米の品質は昨年より一段と向上させて頂いております。<br><br> 過般のキジヤ台風の来た時も同じ場所で、同じ条件の下に隣の有肥の田圃はあたかもローラーを転ばしたごとく倒れて仕舞ったのに、私の方は全然被害はなく、そのあまりにも違いのあるのに驚かされました。<br><br>本当に有難うございました。<br><br>一般は本年は最初豊年だ満作だといって喜んでいたのが最後になり、台風の被害、害虫の発生等によって見事予想を裏切られて仕舞いました。<br><br>世人は何故に台風に倒れるのか、又害虫の発生について根本的に究明しないのだろうと本当に不思議に思う位です。<br><br> 又粟の作でございますが、僅か十坪位の地面より自然栽培により一斗五升、反収にすれば実に四石五斗という驚異的収穫を得させて頂き感謝致しております。<br><br>本当に有難うございました。<br><br> （昭和二十五年十一月二十二日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Aumento de 70% na colheita no segundo ano da Agricultura Natural (Publicado na revista Eikou, nº 79, de 22 de novembro de 1950. Parte da coletânea “Explanações sobre o Método da Agricultura Natural”)</h2>
 <p>Toranosuke Honda (37 anos)
@@ -101,5 +256,48 @@ Igreja Myorin-Naka, província de Fukuoka</p>
 <p>De modo geral, no início deste ano, todos se regozijavam, prevendo uma safra abundante, um ano de fartura. Ao final, contudo, suas expectativas foram frustradas pelos estragos causados pelo tufão e pela infestação de pragas. Chego a me espantar com o fato de as pessoas não investigarem as causas fundamentais que levam as plantações a sucumbir aos tufões e que propiciam a proliferação de insetos nocivos.</p>
 <p>Gostaria de relatar, ainda, o cultivo do painço. Em uma pequena área de apenas dez <em>tsubo</em>, o método da Agricultura Natural me permitiu obter uma colheita de um <em>to</em> e cinco <em>sho</em>. Convertendo-se essa medida para a área de um <em>tan</em>, o resultado é uma produtividade espantosa de quatro <em>koku</em> e cinco <em>to</em>. Por essa dádiva, sou imensamente grato. Minha profunda gratidão a Deus e a Meishu-Sama.</p>
 <p>(Relato enviado em 22 de novembro de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培二年度にて七割増収 『栄光』79号、昭和25(1950)年11月22日 （革）自然農法解説に収録 福岡県 明輪中教会 誉田寅之助（37） 私は昭和二十三年四月に入信させて頂いた者で、数々の御守護に感激の日を送らせて頂いております。<br/><br/>明主様の御恩に対し有難く厚く厚く御礼申し上げます。<br/><br/> 私は昭和二十四年度より、明主様の御教え通り耕作田畑五反歩を全面的に自然栽培に切替えさせて頂き、実施いたしておりますが、本年度は予想外にも好成績を頂きましたので、次にその概略を御報告させて頂きます。<br/><br/> 明主様の御教えに「自然栽培は三年経たぬと本当の収穫は分らぬ」と仰せられますが、事実その通りでございまして、昨年の収穫に比し本年度は七割増の収穫予想であります。<br/><br/>未だ全部脱穀を終っておりませんので、判然とした数字的御報告は致し兼ねますが、当地では平均収量反当五俵（有肥）でありますが、昨年度は四俵半で、約半俵の減収でありました。<br/><br/>成程計目は約半俵の減収ではありますが、明主様の御教えに自然栽培の米は重量が有肥に比し五ないし十パーセント重いとございますが、確かに違います。<br/><br/>昨年調べたところによりますと、一升当りの重量四三〇匁で普通有肥ですと三八〇匁ないし四〇〇匁位であります。<br/><br/>又脱穀して歩留りがよく、炊いて約二割位は増え、しかも糯（もち）米のごとく美味いので、色々と詳細に計算して見ると決して減収でなく寧ろ増収だと思っております。<br/><br/>しかるに本年はどうでしょう。<br/><br/>更に七割増の反当約八俵の収穫を得させて頂き、米の品質は昨年より一段と向上させて頂いております。<br/><br/> 過般のキジヤ台風の来た時も同じ場所で、同じ条件の下に隣の有肥の田圃はあたかもローラーを転ばしたごとく倒れて仕舞ったのに、私の方は全然被害はなく、そのあまりにも違いのあるのに驚かされました。<br/><br/>本当に有難うございました。<br/><br/>一般は本年は最初豊年だ満作だといって喜んでいたのが最後になり、台風の被害、害虫の発生等によって見事予想を裏切られて仕舞いました。<br/><br/>世人は何故に台風に倒れるのか、又害虫の発生について根本的に究明しないのだろうと本当に不思議に思う位です。<br/><br/> 又粟の作でございますが、僅か十坪位の地面より自然栽培により一斗五升、反収にすれば実に四石五斗という驚異的収穫を得させて頂き感謝致しております。<br/><br/>本当に有難うございました。<br/><br/> （昭和二十五年十一月二十二日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

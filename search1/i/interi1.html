@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>interi1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： インテリの悲哀 『栄光』89号、昭和26(1951)年1月31日発行 昭和二十五年十二月十四日「夕刊読売」紙に左のごとき記事が載っていた。<br><br> 画家の惨めさ 中村研一 一日一題 昨日の夕方私は、ある彫刻家の未亡人の訪問を受けた。<br><br>年はもう七十五、六である、約三十年未亡人生活の間、五人の子女を育て上げそれがちっとも、実を結んでいないのである、たった一人の男の子は十年くらい前に学校を出て、某新聞に勤めていたが病死、長女は私の妻と同級生で画をかいていたが、某洋画団体の会員であるＴに嫁（か）したところ、彼は極度の貧困のうちに不治の病に倒れ、今方面委員の保護のもとに入院その看病疲れからか、かねての肺病が募（つの）って夫の発病の翌々日発病して亡くなった、夫は今にそんな事も知らずにいる。<br><br> 次のお嬢さんも画家のところに嫁に行き、姑は両三年来寝たきりのところへ、これまた肺を病み、子供三人を抱えてストレプトマイシンの費用に事欠いておられる様子である、三番目のお嬢さんはある青年鼓の名手に嫁（とつ）がれたが、その娘さんがまた病床の由、そして末の未婚のお嬢さんはこの老夫人と二人でお茶の先生などして、戦後の荒い世を乗り切っているのであるが、過度の疲労から昔のカリエスが、再発の気味で病床にあるという。<br><br> この老婦人が七十何歳でただ一人元気であり、珍しく生命力に溢れた人で、何でも次女のためストレプトマイシンを四十本とか必要な由で正規なルートで買えば、一本三百何十円とかのが仲々手に入らず、大抵一本七百何十円とかするのだそうで今日は、清瀬の病院に、明日はどこの病院にとかけめぐっても工面がつかず、その外に亡くなった長女の墓の問合せとかもあり、一日置きにはその入院中の画家を病院に何か副食物をもっていかねばならぬのだし、次女の世話にいき、三女の孫の世話にいき、そして、家に帰っては末女の世話をせねばならぬのだし、茶の出稽古に行かねば、生計はうんぬん立たずという具合で、この人自身が要保護者の一人である……云々（うんぬん） 右の記事を読む時、軽々に見逃し得ないものがある、というのはこういう例は今の世の中に案外多いからである、恐らく昔の人間にはなかったであろう事は、話にも文献にも見ないにみて明らかであるとしたら実に重大問題である、何となれば昔からみれば、今日の医学の進歩は、比べものにならない程である、しかもこの記事中の人々は、まずインテリ層に属する人達であってみれば、衛生思想も充分養われているはずであるにもかかわらず、現代人はこういう例を見たり聞いたりしても、いささかの疑念も起さず当然のように心得ている。<br><br> 言うまでもなく、現代医学に盲信し切って、他を省みる余裕もないからであろうから、正しい批判力などは全然失っていると言えよう、よくもこれほどまでに信じてしまったものと驚かざるを得ない、ところが吾々が、右のように病のため、不幸な境遇に陥ったものを救った事実をみせても、新聞にかいてもテンデ関心をもたない、ほとんど不感症である。<br><br> 誰が何と言っても本教は病貪争のない家庭を作り得る力を持っているとしたら、ここに溺れんとする者があり、すぐ近くに掴まる縄を持っている者がいる、そこで早く掴まらせようとしても、両者の間に邪魔物がいる、という訳でその邪魔物を取除く以外、助けようがないのである、ではその邪魔物とは何かというと、言わずと知れた前述のごとき科学迷信そのものである。<br><br> (注) 方面委員（ほうめんいいん） 現在の民生委員。<br><br>生活困窮者救護のため、1936年（昭和11）制度化された。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Infortúnio dos Intelectuais</h2>
 <p>No dia 14 de dezembro de 1950, o jornal <em>Yukan Yomiuri</em> publicou o artigo a seguir.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Escusado será dizer que isso se deve a uma fé cega na medicina moderna, que não lhes deixa margem para ponderar outras perspectivas. Pode-se afirmar, portanto, que perderam por completo a capacidade de análise crítica. É espantoso constatar a que ponto chegou essa credulidade. Contudo, quando nós apresentamos os fatos de como salvamos pessoas que caíram em desgraça por motivo de doença, ou mesmo quando publicamos tais relatos nos jornais, não despertamos o menor interesse. É quase uma anestesia espiritual.</p>
 <p>Independentemente do que digam, nossa religião detém o poder de criar lares livres da doença, da pobreza e do conflito. Imagine que haja alguém se afogando e, bem perto, uma pessoa segurando uma corda para salvá-lo. Ela tenta lançar a corda, mas um obstáculo se interpõe entre os dois. Enquanto esse empecilho não for removido, o resgate é impossível.</p>
 <p>E o que seria esse obstáculo? É, como já se pode deduzir, a própria superstição na ciência, à qual me referi anteriormente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： インテリの悲哀 『栄光』89号、昭和26(1951)年1月31日発行 昭和二十五年十二月十四日「夕刊読売」紙に左のごとき記事が載っていた。<br/><br/> 画家の惨めさ 中村研一 一日一題 昨日の夕方私は、ある彫刻家の未亡人の訪問を受けた。<br/><br/>年はもう七十五、六である、約三十年未亡人生活の間、五人の子女を育て上げそれがちっとも、実を結んでいないのである、たった一人の男の子は十年くらい前に学校を出て、某新聞に勤めていたが病死、長女は私の妻と同級生で画をかいていたが、某洋画団体の会員であるＴに嫁（か）したところ、彼は極度の貧困のうちに不治の病に倒れ、今方面委員の保護のもとに入院その看病疲れからか、かねての肺病が募（つの）って夫の発病の翌々日発病して亡くなった、夫は今にそんな事も知らずにいる。<br/><br/> 次のお嬢さんも画家のところに嫁に行き、姑は両三年来寝たきりのところへ、これまた肺を病み、子供三人を抱えてストレプトマイシンの費用に事欠いておられる様子である、三番目のお嬢さんはある青年鼓の名手に嫁（とつ）がれたが、その娘さんがまた病床の由、そして末の未婚のお嬢さんはこの老夫人と二人でお茶の先生などして、戦後の荒い世を乗り切っているのであるが、過度の疲労から昔のカリエスが、再発の気味で病床にあるという。<br/><br/> この老婦人が七十何歳でただ一人元気であり、珍しく生命力に溢れた人で、何でも次女のためストレプトマイシンを四十本とか必要な由で正規なルートで買えば、一本三百何十円とかのが仲々手に入らず、大抵一本七百何十円とかするのだそうで今日は、清瀬の病院に、明日はどこの病院にとかけめぐっても工面がつかず、その外に亡くなった長女の墓の問合せとかもあり、一日置きにはその入院中の画家を病院に何か副食物をもっていかねばならぬのだし、次女の世話にいき、三女の孫の世話にいき、そして、家に帰っては末女の世話をせねばならぬのだし、茶の出稽古に行かねば、生計はうんぬん立たずという具合で、この人自身が要保護者の一人である……云々（うんぬん） 右の記事を読む時、軽々に見逃し得ないものがある、というのはこういう例は今の世の中に案外多いからである、恐らく昔の人間にはなかったであろう事は、話にも文献にも見ないにみて明らかであるとしたら実に重大問題である、何となれば昔からみれば、今日の医学の進歩は、比べものにならない程である、しかもこの記事中の人々は、まずインテリ層に属する人達であってみれば、衛生思想も充分養われているはずであるにもかかわらず、現代人はこういう例を見たり聞いたりしても、いささかの疑念も起さず当然のように心得ている。<br/><br/> 言うまでもなく、現代医学に盲信し切って、他を省みる余裕もないからであろうから、正しい批判力などは全然失っていると言えよう、よくもこれほどまでに信じてしまったものと驚かざるを得ない、ところが吾々が、右のように病のため、不幸な境遇に陥ったものを救った事実をみせても、新聞にかいてもテンデ関心をもたない、ほとんど不感症である。<br/><br/> 誰が何と言っても本教は病貪争のない家庭を作り得る力を持っているとしたら、ここに溺れんとする者があり、すぐ近くに掴まる縄を持っている者がいる、そこで早く掴まらせようとしても、両者の間に邪魔物がいる、という訳でその邪魔物を取除く以外、助けようがないのである、ではその邪魔物とは何かというと、言わずと知れた前述のごとき科学迷信そのものである。<br/><br/> (注) 方面委員（ほうめんいいん） 現在の民生委員。<br/><br/>生活困窮者救護のため、1936年（昭和11）制度化された。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

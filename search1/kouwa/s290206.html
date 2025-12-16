@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290206</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月6日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月六日 今年の節分は非常に意味があるのです。<br><br>私としても非常に大きな奇蹟があったのですが、それはまだ言うわけにはゆきませんが、いずれ話をします。<br><br>この節分という意味は、大本教と非常に関係があるのです。<br><br>ごく古い、神代というのですが、神代と言っても、空漠たるものでなくて、神格を得た人間が住んでいた時代で、いわばこの前の昼間の世界といったようなものです。<br><br>その時に世界を主宰していた神様が国常立尊という神様です。<br><br>この神様は非常に厳正な神様で、間違ったことは許さないというような政策をとったために、非常に多くの神様――八百万の神――から、その時分でも世論が、どうもあんまりやかましすぎてとてもやりきれない、だから押し込めてしまった方がよいというので、排斥運動、押込運動をした結果、押し込められたのです。<br><br>それで艮（東と北の間）のある地点に押し込めたのです。<br><br>そうして、ふたたび世の中に出てこられないようにというので、豆を炒ってまいて、その時に“炒豆に花が咲いたら出てきてもよい”と……もっとも、炒った豆が芽を出すはずがないのですから……それを条件のようにして押し込めたのです。<br><br>それで非常に悪い神様としたのです。<br><br>これは大本教のお筆先にありますが、「悪神、たたり神と申して、われを押込めたのであるぞよ」というわけです。<br><br>それで、鬼門は悪神だからして、鬼門に向かって越したり、いろいろなことをすると恐ろしいというような説を作ったわけです。<br><br>それでなにごとも、鬼門は恐ろしいといは反対で、たいへんな良い立派な神様です。<br><br>ただ、あんまり正しすぎたためにそういうことになったのですが、その根本はやはりその時に夜の世界になったわけです。<br><br>そこで、国常立尊様は火の系統の神様ですから、夜の世界ではまず隠退しなければならないことになるわけです。<br><br>それがまず、お筆先には三千年としてあります。<br><br>それでいよいよ三千年たったので、今度は御自分が、時節が来たので世の中に出る、と……出るについては、いろいろな……お筆先には三千世界の大芝居ということになってます。<br><br>この押し込めた系統の神様……総大将は天若彦尊という神様で――これはよく天邪鬼ということを言いますが――その神様が総大将で、あといろいろな神様がその一派に属したわけです。<br><br>その押し込められた時には、わずかな部下を連れて隠退されたが、それから命がなくなって、死んで霊界に行って、三千年の間、閻魔大王になったということになっているのです。<br><br>お筆先には「今度は、われはこの世の閻魔と現われて、世の立替え立直しを致すぞよ」とあります。<br><br>ということは、審判をされるということです。<br><br>今までは霊界の死んだ霊を審判したが、今度は生きた人間の審判をするということです。<br><br>つまりもう悪は許さないということになるのです。<br><br>そのために大本教というものをつくったのです。<br><br>私が大本信者になって、そういうことをいろいろ……表面的のことも、裏面＝霊的のこともすっかり分かったので、大本を脱退して、観音教から救世教というふうにつくったのです。<br><br> お筆先の一番冒頭に「三千世界一度に開く梅の花、艮の金神の世になりたぞよ。<br><br>梅で開いて松で治める神国になりたぞよ。<br><br>日本は神国。<br><br>この世は神がかまわなゆけぬ世であるぞよ」というようなことが書いてあるのです。<br><br>“三千世界一度に開く梅の花”と言って、梅というのは非常に重要なことになっているのです。<br><br>それで艮の金神様は、霊界では閻魔大王となり、現界では観世音菩薩となるのです。<br><br>観世音菩薩は兄（こ）の花姫になるのですが、兄の花姫は神界のお働きで、伊都能売の神になるのです。<br><br>これは兄の花姫と木の花咲爺姫（このはなさくやひめ）とありますが、兄の花姫というのは兄（あに）の花といって梅になるわけです。<br><br>梅が先に咲くから兄の花になるわけです。<br><br>それから木の花咲爺姫というのは桜の花になるのです。<br><br>この場合は仏界のお働きで、木の花咲爺姫は観音様になるのです。<br><br>富士山に行くと木の花咲爺姫を祭ってあります。<br><br>それであそこで絵姿を買うことになってますが、あれは桜の枝を持ってます。<br><br>その富士山の木の花咲爺姫は頂上の真ん中に祭ってあります。<br><br>頂上の上り口の右側にあるのが、久須志神社としてありますが、これは九頭龍権現といって、木の花咲爺姫の守護神になるわけで、龍で守護しているわけです。<br><br>これが最初私に憑った龍神です。<br><br>それで、木の花咲爺姫は桜であって、これは仏の働きになるのです。<br><br>ですから兄の花姫は神様の働きになるのです。<br><br>それで木の花咲爺姫は仏の働きだからして、最初インドに出られたわけです。<br><br>ですから仏の方では桜の花になってますが、これはそういう因縁になるわけです。<br><br> そこで今年の節分は、いよいよ艮の金神様がこの世の閻魔と現われるという最初になるわけです。<br><br>ですから、これから審判が厳しくなるわけです。<br><br>けれどもこれは最初からパッとやるわけではなくて、神様の方はジリジリと、つまりだんだん育つようになって行きます。<br><br>そのためかもしれないが、最近いろんな汚職事件が重なり合って出てきましたが、こういうのも一つの現われではないかととれるのです。<br><br>おもしろいのは、節分の日は大きな奇蹟があったのですが、昨日は小さな奇蹟があったのです。<br><br>というのは、道具屋が古い掛物を持ってきたのですが、それは支那の元時代の物で、今から四百年近く前に画かれた絵ですが、それが閻魔大王なのです。<br><br>お供がまわりにいて、よく画けてますが、表装がいたんでいるから、それを直していずれ箱根美術館に出しますが、これも小さな奇蹟です。<br><br>今まで閻魔の絵というのは見たことがありません。<br><br>そういうようなわけで、神様のお仕組みは一歩前進したわけです。<br><br>今年の節分というのはそういう意味があるのです。<br><br>それで、そうなった結果はどうだというと、つまり善悪の立て分けということになっているのです。<br><br>ということは、善の方が勝ってゆき悪の方が負けてゆくのです。<br><br>そうすると救世教が発展するということになります。<br><br>こんなよい、すばらしい宗教が、こんなにグズグズしているわけがないので、ドンドン発展しなければならないわけです。<br><br>しかし発展が遅いということは、つまり悪の方が押さえているからです。<br><br>だから、これが分かって、感心して、信者になり、人にもならせなければいけない、と、そう思っていながら、ついグズグズしているということは、一方にそれを邪魔する霊があるからです。<br><br>その邪魔する霊が、これからだんだん弱ってゆきますから、そうすると順調にゆくわけです。<br><br>節分の意義を話したわけです。<br><br> 時局についてしばらく話をしませんが、たいてい時局は分かってますが、しかし急所だけを書いてみました。<br><br>これを読めばいっそうはっきりするわけです。<br><br> （御論文「時局雑感」） 【栄光 二四八号】 それから今はよく新聞などに、米国の医学が進歩しているように、新聞広告なども、米国製の薬というと、たいへん良いように思わせられていますが、つい二、三日前に来たＡさんの「米国画信」の中に、ちょっとおもしろいことがあるので読ませます。<br><br> （「米国画信」六） 【栄光 二四八号】 昨夜アメリカのパテー・ニュースを見ましたが、黒人とアメリカ人とのボクシングで、黒人のほうがウンと強くて、米人がさんざんやられて、三回ともノック・アウトされて、それこそ気息奄々（きそくえんえん）で、とうとうまいってしまいました。<br><br>あれを見ても、黒人とアメリカ人との体質の違いさはたいへんなものです。<br><br>それで、黒人の方は進歩した医学のお蔭で育ったのではなくて、むしろ野蛮な育ち方です。<br><br>そうしてみると、白人との体質の違いさはそうとう酷くなったものです。<br><br>私も、白人と黒人とのスポーツの闘争を見ましたが、昨夜のようなひどいのはないです。<br><br>そういうわけで、白人の弱り方はひどいです。<br><br>外観の格好はよいですが、さて実力となるとそういうようなわけです。<br><br>というのは、西洋医学は形だけを丈夫にして、芯の強さというのは気がつかないのです。<br><br>日本人などは昔から芯の強さがある国民性ですが、それをだんだんアメリカ式にやりつつあるわけです。<br><br>今はアメリカ人で手術をしてない人はほとんどないそうで、たいてい盲腸を取るとか、女なら卵巣を取るとか、内部的片端というのが大部分なのです。<br><br>どうしてもこっちの医学、神霊療法を教えなければしようがないです。<br><br>今年あたりからは、アメリカの方もそういうように神様がやられるに違いありません。<br><br>今のは参考になると思ったから読ませたのです。<br><br> それからジャーナリストに対する論文ですが、これはこの間書いたのですが、もういっそう徹底して書いてみたのです。<br><br> （御論文「再びジャーナリストの考慮を望む」） 【栄光 二四九号】 とにかく問題は、変な新宗教がたくさんありますから、どうも救世教がそれに類似しているように思う、その点にあるのです。<br><br>ただ、他の新宗教とは違う、救世教は別のものだということを認識させる、それが一番肝腎です。<br><br>それは神様も知りぬいていますが、時期が来て、熱海の地上天国ができることと、自然栽培をする人がたくさん増えること、ということで、“これは違う。<br><br>なるほど救世教はたいしたものだ”ということが分かるわけなのです。<br><br>それも間もない話ですから、そう気をもむことはいらないのです。<br><br>それがちょうど、さっきも話したとおり、節分から霊界が変わるのですから、ちょうど言ったこととよく合ってゆくわけです。<br><br>実に、神様がやられることですから抜け目がないわけです。<br><br>それでお筆先に「今度は三千世界の大芝居であるから、善の役と悪の役と両方拾えてあるぞよ」ということがあるのですが、これなどは実にうまいことを言われていると思います。<br><br>というのは、悪い役をしているものが、結果はたいへんな良い役をしているわけです。<br><br>これはよく知っているでしょうが、救世教がこうして世の中に出て発展する一番の功労者は医者です。<br><br>もし、医者が片端から病人を治してしまったら、こっちは用はないのです。<br><br>医者や薬が病人を作って苦しませる、それだからしてこっちの発展する意味があるのです。<br><br>そうすると“医者はけしからん、薬という毒を瞞して服ませるのは、とんでもない話だ”と言っているが、実はそれがため、救世教によって神様があるということを分からせられるのですから、本当は悪く言うことはできないのです。<br><br>人間の感情と見方……小乗的見方と大乗的見方があります。<br><br>ジャーナリストが分からないということは、やっぱり、結果から言うと必要なのです。<br><br>そこで分からない者や、誤解した者に対して、逆なことを見せるとびっくりしますから、それがやはり一つの必要でもあるし、おもしろいことでもあります。<br><br>“救世教とか言って、戦後の波に乗じて、うまいことを言って瞞して、あれだけの金を集めて、シャクに障る”と言う奴が、いよいよ地上天国ができて、見て、ウワッと言って驚くのです。<br><br>ですからそういうのを予期した者に見せるよりか、予期しない者に見せた方が、なんと言うか、張り合いがあるわけです。<br><br>大いに痛快味があります。<br><br>いつも言うとおり、人間は善悪は決められないということはそこです。<br><br>あれまでになるについて、随分悪い人間やいろいろな者がいろいろなことをしましたが、それはイコールみんなプラスになってます。<br><br>だからそれをよくみると、世の中というものは実におもしろいものと思うのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Nova Era Espiritual a Partir do Setsubun</h2>
 <p>O Setsubun deste ano reveste-se de um significado extraordinário. Comigo, de fato, ocorreu um milagre de imensas proporções, sobre o qual, todavia, não me é permitido falar no momento. Oportunamente, partilharei os detalhes. O sentido profundo desta data está intimamente ligado à religião Oomoto. Remonta a tempos imemoriais, à chamada Era dos Deuses. E quando me refiro à Era dos Deuses, não aludo a um período vago e mitológico, mas a uma era em que habitavam seres humanos que haviam alcançado a divindade; em outras palavras, o que poderíamos chamar de o anterior Mundo do Dia.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>No Ofudesaki, consta: “Desta vez, a Grande Peça Teatral dos Três Mil Mundos será encenada; para tanto, foram escolhidos tanto os atores do bem quanto os do mal”. Considero esta uma afirmação genial. Aqueles que desempenham os papéis de vilões acabam, como resultado, prestando um serviço de imenso valor. Como os senhores bem sabem, os maiores benfeitores para o crescimento da Sekaikyuseikyou são os médicos. Se os médicos curassem todos os doentes, nossa existência seria desnecessária. São eles e seus medicamentos que criam doentes e os fazem sofrer, e é exatamente por isso que nossa Igreja tem uma razão para existir e se expandir. Portanto, embora afirmemos que “os médicos são um ultraje, e é um absurdo enganar as pessoas para que tomem venenos chamados de remédios”, na verdade, não podemos falar mal deles, pois é graças a essa situação que as pessoas, por meio da Sekaikyuseikyou, podem conhecer a existência de Deus. Trata-se de uma questão de perspectiva: a visão do Pequeno Veículo e a do Grande Veículo.</p>
 <p>A incompreensão dos jornalistas, por conseguinte, também se faz necessária. Quando lhes for mostrado o oposto do que supunham, ficarão chocados, o que também constitui uma necessidade e, ao mesmo tempo, algo interessante. Aquele que nos acusa, dizendo: “Essa tal de Sekaikyuseikyou está se aproveitando da onda do pós-guerra, usando palavras bonitas para ludibriar as pessoas e acumular todo esse dinheiro, que ultraje!”, ao ver o Paraíso Terrestre concluído, ficará boquiaberto. Apresentar essa realidade a alguém que não a espera, em vez de a alguém que já a antecipa, proporciona, por assim dizer, uma satisfação imensamente maior. É algo verdadeiramente exaltante.</p>
 <p>É por essa razão que sempre afirmo que ao ser humano não é dado julgar o bem e o mal. No percurso até este ponto, muitos indivíduos considerados maus e de toda sorte fizeram as mais diversas coisas; no entanto, todas as suas ações, sem exceção, se converteram em algo positivo. Ao observar a realidade sob este prisma, percebemos que o mundo é, de fato, algo verdadeiramente fascinante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年2月6日） 『御教え集』31号、昭和29(1954)年3月15日発行 昭和二十九年二月六日 今年の節分は非常に意味があるのです。<br/><br/>私としても非常に大きな奇蹟があったのですが、それはまだ言うわけにはゆきませんが、いずれ話をします。<br/><br/>この節分という意味は、大本教と非常に関係があるのです。<br/><br/>ごく古い、神代というのですが、神代と言っても、空漠たるものでなくて、神格を得た人間が住んでいた時代で、いわばこの前の昼間の世界といったようなものです。<br/><br/>その時に世界を主宰していた神様が国常立尊という神様です。<br/><br/>この神様は非常に厳正な神様で、間違ったことは許さないというような政策をとったために、非常に多くの神様――八百万の神――から、その時分でも世論が、どうもあんまりやかましすぎてとてもやりきれない、だから押し込めてしまった方がよいというので、排斥運動、押込運動をした結果、押し込められたのです。<br/><br/>それで艮（東と北の間）のある地点に押し込めたのです。<br/><br/>そうして、ふたたび世の中に出てこられないようにというので、豆を炒ってまいて、その時に“炒豆に花が咲いたら出てきてもよい”と……もっとも、炒った豆が芽を出すはずがないのですから……それを条件のようにして押し込めたのです。<br/><br/>それで非常に悪い神様としたのです。<br/><br/>これは大本教のお筆先にありますが、「悪神、たたり神と申して、われを押込めたのであるぞよ」というわけです。<br/><br/>それで、鬼門は悪神だからして、鬼門に向かって越したり、いろいろなことをすると恐ろしいというような説を作ったわけです。<br/><br/>それでなにごとも、鬼門は恐ろしいといは反対で、たいへんな良い立派な神様です。<br/><br/>ただ、あんまり正しすぎたためにそういうことになったのですが、その根本はやはりその時に夜の世界になったわけです。<br/><br/>そこで、国常立尊様は火の系統の神様ですから、夜の世界ではまず隠退しなければならないことになるわけです。<br/><br/>それがまず、お筆先には三千年としてあります。<br/><br/>それでいよいよ三千年たったので、今度は御自分が、時節が来たので世の中に出る、と……出るについては、いろいろな……お筆先には三千世界の大芝居ということになってます。<br/><br/>この押し込めた系統の神様……総大将は天若彦尊という神様で――これはよく天邪鬼ということを言いますが――その神様が総大将で、あといろいろな神様がその一派に属したわけです。<br/><br/>その押し込められた時には、わずかな部下を連れて隠退されたが、それから命がなくなって、死んで霊界に行って、三千年の間、閻魔大王になったということになっているのです。<br/><br/>お筆先には「今度は、われはこの世の閻魔と現われて、世の立替え立直しを致すぞよ」とあります。<br/><br/>ということは、審判をされるということです。<br/><br/>今までは霊界の死んだ霊を審判したが、今度は生きた人間の審判をするということです。<br/><br/>つまりもう悪は許さないということになるのです。<br/><br/>そのために大本教というものをつくったのです。<br/><br/>私が大本信者になって、そういうことをいろいろ……表面的のことも、裏面＝霊的のこともすっかり分かったので、大本を脱退して、観音教から救世教というふうにつくったのです。<br/><br/> お筆先の一番冒頭に「三千世界一度に開く梅の花、艮の金神の世になりたぞよ。<br/><br/>梅で開いて松で治める神国になりたぞよ。<br/><br/>日本は神国。<br/><br/>この世は神がかまわなゆけぬ世であるぞよ」というようなことが書いてあるのです。<br/><br/>“三千世界一度に開く梅の花”と言って、梅というのは非常に重要なことになっているのです。<br/><br/>それで艮の金神様は、霊界では閻魔大王となり、現界では観世音菩薩となるのです。<br/><br/>観世音菩薩は兄（こ）の花姫になるのですが、兄の花姫は神界のお働きで、伊都能売の神になるのです。<br/><br/>これは兄の花姫と木の花咲爺姫（このはなさくやひめ）とありますが、兄の花姫というのは兄（あに）の花といって梅になるわけです。<br/><br/>梅が先に咲くから兄の花になるわけです。<br/><br/>それから木の花咲爺姫というのは桜の花になるのです。<br/><br/>この場合は仏界のお働きで、木の花咲爺姫は観音様になるのです。<br/><br/>富士山に行くと木の花咲爺姫を祭ってあります。<br/><br/>それであそこで絵姿を買うことになってますが、あれは桜の枝を持ってます。<br/><br/>その富士山の木の花咲爺姫は頂上の真ん中に祭ってあります。<br/><br/>頂上の上り口の右側にあるのが、久須志神社としてありますが、これは九頭龍権現といって、木の花咲爺姫の守護神になるわけで、龍で守護しているわけです。<br/><br/>これが最初私に憑った龍神です。<br/><br/>それで、木の花咲爺姫は桜であって、これは仏の働きになるのです。<br/><br/>ですから兄の花姫は神様の働きになるのです。<br/><br/>それで木の花咲爺姫は仏の働きだからして、最初インドに出られたわけです。<br/><br/>ですから仏の方では桜の花になってますが、これはそういう因縁になるわけです。<br/><br/> そこで今年の節分は、いよいよ艮の金神様がこの世の閻魔と現われるという最初になるわけです。<br/><br/>ですから、これから審判が厳しくなるわけです。<br/><br/>けれどもこれは最初からパッとやるわけではなくて、神様の方はジリジリと、つまりだんだん育つようになって行きます。<br/><br/>そのためかもしれないが、最近いろんな汚職事件が重なり合って出てきましたが、こういうのも一つの現われではないかととれるのです。<br/><br/>おもしろいのは、節分の日は大きな奇蹟があったのですが、昨日は小さな奇蹟があったのです。<br/><br/>というのは、道具屋が古い掛物を持ってきたのですが、それは支那の元時代の物で、今から四百年近く前に画かれた絵ですが、それが閻魔大王なのです。<br/><br/>お供がまわりにいて、よく画けてますが、表装がいたんでいるから、それを直していずれ箱根美術館に出しますが、これも小さな奇蹟です。<br/><br/>今まで閻魔の絵というのは見たことがありません。<br/><br/>そういうようなわけで、神様のお仕組みは一歩前進したわけです。<br/><br/>今年の節分というのはそういう意味があるのです。<br/><br/>それで、そうなった結果はどうだというと、つまり善悪の立て分けということになっているのです。<br/><br/>ということは、善の方が勝ってゆき悪の方が負けてゆくのです。<br/><br/>そうすると救世教が発展するということになります。<br/><br/>こんなよい、すばらしい宗教が、こんなにグズグズしているわけがないので、ドンドン発展しなければならないわけです。<br/><br/>しかし発展が遅いということは、つまり悪の方が押さえているからです。<br/><br/>だから、これが分かって、感心して、信者になり、人にもならせなければいけない、と、そう思っていながら、ついグズグズしているということは、一方にそれを邪魔する霊があるからです。<br/><br/>その邪魔する霊が、これからだんだん弱ってゆきますから、そうすると順調にゆくわけです。<br/><br/>節分の意義を話したわけです。<br/><br/> 時局についてしばらく話をしませんが、たいてい時局は分かってますが、しかし急所だけを書いてみました。<br/><br/>これを読めばいっそうはっきりするわけです。<br/><br/> （御論文「時局雑感」） 【栄光 二四八号】 それから今はよく新聞などに、米国の医学が進歩しているように、新聞広告なども、米国製の薬というと、たいへん良いように思わせられていますが、つい二、三日前に来たＡさんの「米国画信」の中に、ちょっとおもしろいことがあるので読ませます。<br/><br/> （「米国画信」六） 【栄光 二四八号】 昨夜アメリカのパテー・ニュースを見ましたが、黒人とアメリカ人とのボクシングで、黒人のほうがウンと強くて、米人がさんざんやられて、三回ともノック・アウトされて、それこそ気息奄々（きそくえんえん）で、とうとうまいってしまいました。<br/><br/>あれを見ても、黒人とアメリカ人との体質の違いさはたいへんなものです。<br/><br/>それで、黒人の方は進歩した医学のお蔭で育ったのではなくて、むしろ野蛮な育ち方です。<br/><br/>そうしてみると、白人との体質の違いさはそうとう酷くなったものです。<br/><br/>私も、白人と黒人とのスポーツの闘争を見ましたが、昨夜のようなひどいのはないです。<br/><br/>そういうわけで、白人の弱り方はひどいです。<br/><br/>外観の格好はよいですが、さて実力となるとそういうようなわけです。<br/><br/>というのは、西洋医学は形だけを丈夫にして、芯の強さというのは気がつかないのです。<br/><br/>日本人などは昔から芯の強さがある国民性ですが、それをだんだんアメリカ式にやりつつあるわけです。<br/><br/>今はアメリカ人で手術をしてない人はほとんどないそうで、たいてい盲腸を取るとか、女なら卵巣を取るとか、内部的片端というのが大部分なのです。<br/><br/>どうしてもこっちの医学、神霊療法を教えなければしようがないです。<br/><br/>今年あたりからは、アメリカの方もそういうように神様がやられるに違いありません。<br/><br/>今のは参考になると思ったから読ませたのです。<br/><br/> それからジャーナリストに対する論文ですが、これはこの間書いたのですが、もういっそう徹底して書いてみたのです。<br/><br/> （御論文「再びジャーナリストの考慮を望む」） 【栄光 二四九号】 とにかく問題は、変な新宗教がたくさんありますから、どうも救世教がそれに類似しているように思う、その点にあるのです。<br/><br/>ただ、他の新宗教とは違う、救世教は別のものだということを認識させる、それが一番肝腎です。<br/><br/>それは神様も知りぬいていますが、時期が来て、熱海の地上天国ができることと、自然栽培をする人がたくさん増えること、ということで、“これは違う。<br/><br/>なるほど救世教はたいしたものだ”ということが分かるわけなのです。<br/><br/>それも間もない話ですから、そう気をもむことはいらないのです。<br/><br/>それがちょうど、さっきも話したとおり、節分から霊界が変わるのですから、ちょうど言ったこととよく合ってゆくわけです。<br/><br/>実に、神様がやられることですから抜け目がないわけです。<br/><br/>それでお筆先に「今度は三千世界の大芝居であるから、善の役と悪の役と両方拾えてあるぞよ」ということがあるのですが、これなどは実にうまいことを言われていると思います。<br/><br/>というのは、悪い役をしているものが、結果はたいへんな良い役をしているわけです。<br/><br/>これはよく知っているでしょうが、救世教がこうして世の中に出て発展する一番の功労者は医者です。<br/><br/>もし、医者が片端から病人を治してしまったら、こっちは用はないのです。<br/><br/>医者や薬が病人を作って苦しませる、それだからしてこっちの発展する意味があるのです。<br/><br/>そうすると“医者はけしからん、薬という毒を瞞して服ませるのは、とんでもない話だ”と言っているが、実はそれがため、救世教によって神様があるということを分からせられるのですから、本当は悪く言うことはできないのです。<br/><br/>人間の感情と見方……小乗的見方と大乗的見方があります。<br/><br/>ジャーナリストが分からないということは、やっぱり、結果から言うと必要なのです。<br/><br/>そこで分からない者や、誤解した者に対して、逆なことを見せるとびっくりしますから、それがやはり一つの必要でもあるし、おもしろいことでもあります。<br/><br/>“救世教とか言って、戦後の波に乗じて、うまいことを言って瞞して、あれだけの金を集めて、シャクに障る”と言う奴が、いよいよ地上天国ができて、見て、ウワッと言って驚くのです。<br/><br/>ですからそういうのを予期した者に見せるよりか、予期しない者に見せた方が、なんと言うか、張り合いがあるわけです。<br/><br/>大いに痛快味があります。<br/><br/>いつも言うとおり、人間は善悪は決められないということはそこです。<br/><br/>あれまでになるについて、随分悪い人間やいろいろな者がいろいろなことをしましたが、それはイコールみんなプラスになってます。<br/><br/>だからそれをよくみると、世の中というものは実におもしろいものと思うのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

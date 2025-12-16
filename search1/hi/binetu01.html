@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>binetu01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 微熱 『結核の正体』昭和18(1943)年11月23日発行 結核の前駆としての微熱の原因については、再三述べた通りであるが、実例によって今一層詳説してみよう。<br><br> 結核患者が長時日の安静療法によって無熱になる事は、浄化作用が全く停止されたからである事はいうまでもない。<br><br>しかるにその場合、たまたま患者が精神的にかまたは肉体的にいささかの運動をする事によって微熱が発生する。<br><br>医師は驚いてそれを戒めるという例はよくある事であるが、これによってみても浄化作用停止と発生との理が判るであろう。<br><br>そうして医療においては身体はもちろん手足をさえ動かさしめず作りつけの人形のごとく全然不動で仰臥（ぎょうが）の姿勢を保たせ何十日何百日間も持続させるのであるから治りたい一心のためとはいえ患者の苦痛たるや実に言語に絶するものがある。<br><br>全く文字通りの生ける屍（しかばね）である。<br><br>考えてもみるがいい。<br><br>いかなる健康体といえども数ケ月絶対安静を持続する以上胃腸は弱り、食欲不振となり、衰弱のごく重症患者と同一状態になる事は当然であろう。<br><br>いわんや結核患者においておやである。<br><br>またこうもいえるのである。<br><br>すなわち青年期の旺盛なる浄化力を極力停止する結果としてちょうど老衰者同様の無力になる事である。<br><br>それが無熱であり、病的症状消滅であるから、それを治癒するがごとく医学は錯覚するのである。<br><br>この理によって医学は肺その物のみを治癒せんとし、それのみに専念し、ついに全体をして衰弱の極死に到らしめるという事に想い及ばない訳で、昔からいわれている、角（つの）を矯（た）めて牛を殺すという類である。<br><br> そうして前述のごとく老衰者の浄化無力と青年期の浄化無力とは同一の様であるけれども実はその根本において異なるのである。<br><br>何となれば前者は自然であり後者は不自然であるからである。<br><br>従って後者の場合浄化無力状態を餓くまで持続し得る事は到底出来ない。<br><br>それは浄化力抑圧に対する反動作用が徐々として表れ始めるからである。<br><br>それらを事実をもって説いてみよう。<br><br> 長期間医師の言を守り、薬物・機械・安静等の療法を続け、ほとんど病的症状が消散したと安心していると、間もなく微熱と共に病的症状が発生し始める。<br><br>しかるにこの際の浄化作用は前述のごとく反動作用であるから、いか程浄化停止方法を行うといえども更に効果なく、漸次高熱、激しい咳嗽・多量の喀痰または血痰・食欲皆無・下痢・喉頭結核等の症状が現われ、いかなる手段を尽すも、病勢は更に減退しない。<br><br>もはやいかんともなし難くなり、ついにたおれるというのが、結核患者の一般的経路である。<br><br> 右は全く現在結核療法として行われている方法を、医師の指示を守り忠実に行う経路と結果である。<br><br>しかるに事実は皮肉にも右のごとき定石（じょうせき）療法を何かの動機によってその誤りを覚り相反する方法をとる人がたまたまあるが、そういう人は不思議にも全治したという例が少なくない事である。<br><br>それについて二つの例を挙げてみよう。<br><br> 一、私の体験 私は十五歳の時肋膜炎を病み、医療により一年くらいで全快、しばらく健康であったがまた再発したのである。<br><br>しかるに今回は経過はかばかしくなく漸次悪化し、一年余経た頃ついに肺結核三期と断定せられた。<br><br>その時がちょうど十八歳であった。<br><br>そうして最後に診断を受けたのが故入沢達吉博士であって、同博士は綿密に診察の結果、最早治癒の見込なしと断定せられたのであった。<br><br>そこで私は決心した。<br><br>それはどうせ自分はこのままでは死ぬに決っているとすれば、なんらか変った方法で、奇蹟的に治すより外に仕方がないとおもい、それを探し求めたのである。<br><br>その頃私は画を描くのを唯一の楽しみにしていたので、古い画譜など見ていると、その時、漢方医学で使った種々の薬草をかいた本があったので、それを見ているとハッと気がついたのである。<br><br>それは何であるかというと、私は今日まで動物性栄養食を盛んに摂っていたのである。<br><br>もちろん牛鳥肉魚等はもとより粥までも牛乳で煮て食うという訳で、特にその時代の医家は、栄養といえば動物性のものに限ると唱えたのであったから、私もそのまま実行した訳である。<br><br>しかるに、右の本を見て思った事は野菜にも薬や栄養があるという事である。<br><br>そう考えると、昔の戦国時代などはほとんど菜食であったらしいが、史実にみるような英雄豪傑が雲のごとく輩出したのであるから、これは菜食も良いかも知れない。<br><br>特に日本人はそうあるべきであると想ったので、断然実行すべく意を決した。<br><br>そして試験的に一日だけ菜食を試みた所、非常に具合がいいので二日三日と続けるうち益々良く、ここにおいて西洋医学の誤りを覚り、一週間目くらいには薬剤も放棄した。<br><br>そのようにして一ケ月くらい経た頃、病気はほとんど全快し、ついに菜食を三ケ月続けたのであった。<br><br>その結果罹病以前よりも健康になったので、その後他の病気には罹ったが結核的症状だけは無いにみて全く全快した事は明らかで、四十余年経た六十余歳の今日矍鑠（かくしゃく）として壮者を凌ぐ健康にみても、結核は決して恐るべきものではない事を知るであろう。<br><br> 次に、昭和十八年八月十九日発行の毎日新聞所載「勝ち抜く道」の題下に川南豊作氏の体験談が左のごとくかいてあった。<br><br> 「僕は若い時肺病になった。<br><br>栄養を摂らなければいかんというからポリタミンとかビタミンＡＢとか、とにかく栄養になるものは金にあかして摂った。<br><br>そしたら肥えると思ったら一向に肥えない。<br><br>むしろ病気はわるい方に進行する一方だ。<br><br>そこで医者の奨める事は一切やめて普通の食にした。<br><br>すると急によくはならぬけれどもわるくはならぬし、栄養剤をやめたら下痢が止まってきた。<br><br>それからだんだんよくなってきた。<br><br>医者の薬も止めてしまった。<br><br>これに力を得て一切いわゆるエキス的な栄養剤で、労せずして栄養を摂ろうといった横着な考え方をやめてやはり歯で噛んで十分消化してそれを吸取するようにした。<br><br>すると段々回復して体がよくなった。<br><br>しかも寒い時でも平気で、寒いからといってストーブを入れることもなく、火鉢をおくでもなく足袋もはかずに治した。<br><br>一年間で病気は全快した」 右のごとき医療を廃め、自然良能によって全治した例は、結核全治の体験談等に最も多く見らるるのである。<br><br> 次に、結核熱について、特に注意すべき事がある、それは下熱剤の連続服用によって、それの反動熱が発生する事である。<br><br>たとえて言えば、最初三十八度くらいの発熱が、下熱剤によって一旦下熱するが、それは決して病原解消のための下熱ではないからまた発熱する。<br><br>また下熱させるというように繰返すにおいて、遂に九度になり四十度になるというような場合がよくある。<br><br>しかもこの反動熱はすこぶる執拗で、いかにしても下熱しない。<br><br>この際医家は、かかる執拗な高熱は結核が肺の深部にまで移行したのであるから入院を要するという事がよくあるが、これらによってみて医家自身の手によって執拗な熱を作っておきながら、病勢悪化のためとなす見当違いの判断は、恐るべきであるといえよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
 <p>Conforme já elucidei em diversas ocasiões a respeito da causa da febre branda como precursora da tuberculose, aprofundarei o tema com base em exemplos concretos.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>“Quando jovem, contraí tuberculose. Diziam que eu precisava me nutrir, então consumi Polytamin, vitaminas A e B, enfim, tudo o que o dinheiro podia comprar em termos de nutrição. Eu esperava engordar, mas isso não aconteceu. Pelo contrário, a doença só piorava. Decidi, então, abandonar tudo o que os médicos recomendavam e voltei a ter uma alimentação comum. Não melhorei de repente, mas também não piorei, e, ao suspender os suplementos, a diarreia cessou. A partir daí, comecei a melhorar gradualmente. Também parei de tomar os remédios. Encorajado por isso, abandonei a mentalidade preguiçosa de buscar nutrição sem esforço por meio de extratos e passei a mastigar bem os alimentos para que fossem devidamente digeridos e absorvidos. Meu corpo foi se recuperando e minha saúde melhorou. Além disso, recuperei-me mesmo durante o inverno, sem precisar de aquecedores ou braseiros e sem sequer usar meias. Em um ano, a doença estava completamente curada.”</p>
 <p>Relatos como os anteriores, de pessoas que abandonaram o tratamento médico e alcançaram a cura completa pela capacidade natural de cura, são os mais frequentes entre os testemunhos de recuperação da tuberculose.</p>
 <p>Ademais, há um ponto de suma importância a ser observado no que tange à febre tuberculosa: o uso contínuo de antitérmicos gera uma febre reativa. A título de exemplo: uma febre inicial de trinta e oito graus cede temporariamente com o antitérmico. Contudo, como a causa subjacente da doença não foi eliminada, a febre retorna. Ao se repetir esse ciclo, a temperatura acaba subindo para trinta e nove e, depois, para quarenta graus. Essa febre reativa é extremamente persistente, e nada parece ser capaz de baixá-la. Nessas circunstâncias, é comum que o médico afirme que uma febre tão persistente indica que a tuberculose avançou para as partes mais profundas do pulmão, recomendando a internação. É assustador constatar tal equívoco de diagnóstico: o médico, após ter ele mesmo provocado a febre persistente com seus métodos, atribui-a ao agravamento da enfermidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 微熱 『結核の正体』昭和18(1943)年11月23日発行 結核の前駆としての微熱の原因については、再三述べた通りであるが、実例によって今一層詳説してみよう。<br/><br/> 結核患者が長時日の安静療法によって無熱になる事は、浄化作用が全く停止されたからである事はいうまでもない。<br/><br/>しかるにその場合、たまたま患者が精神的にかまたは肉体的にいささかの運動をする事によって微熱が発生する。<br/><br/>医師は驚いてそれを戒めるという例はよくある事であるが、これによってみても浄化作用停止と発生との理が判るであろう。<br/><br/>そうして医療においては身体はもちろん手足をさえ動かさしめず作りつけの人形のごとく全然不動で仰臥（ぎょうが）の姿勢を保たせ何十日何百日間も持続させるのであるから治りたい一心のためとはいえ患者の苦痛たるや実に言語に絶するものがある。<br/><br/>全く文字通りの生ける屍（しかばね）である。<br/><br/>考えてもみるがいい。<br/><br/>いかなる健康体といえども数ケ月絶対安静を持続する以上胃腸は弱り、食欲不振となり、衰弱のごく重症患者と同一状態になる事は当然であろう。<br/><br/>いわんや結核患者においておやである。<br/><br/>またこうもいえるのである。<br/><br/>すなわち青年期の旺盛なる浄化力を極力停止する結果としてちょうど老衰者同様の無力になる事である。<br/><br/>それが無熱であり、病的症状消滅であるから、それを治癒するがごとく医学は錯覚するのである。<br/><br/>この理によって医学は肺その物のみを治癒せんとし、それのみに専念し、ついに全体をして衰弱の極死に到らしめるという事に想い及ばない訳で、昔からいわれている、角（つの）を矯（た）めて牛を殺すという類である。<br/><br/> そうして前述のごとく老衰者の浄化無力と青年期の浄化無力とは同一の様であるけれども実はその根本において異なるのである。<br/><br/>何となれば前者は自然であり後者は不自然であるからである。<br/><br/>従って後者の場合浄化無力状態を餓くまで持続し得る事は到底出来ない。<br/><br/>それは浄化力抑圧に対する反動作用が徐々として表れ始めるからである。<br/><br/>それらを事実をもって説いてみよう。<br/><br/> 長期間医師の言を守り、薬物・機械・安静等の療法を続け、ほとんど病的症状が消散したと安心していると、間もなく微熱と共に病的症状が発生し始める。<br/><br/>しかるにこの際の浄化作用は前述のごとく反動作用であるから、いか程浄化停止方法を行うといえども更に効果なく、漸次高熱、激しい咳嗽・多量の喀痰または血痰・食欲皆無・下痢・喉頭結核等の症状が現われ、いかなる手段を尽すも、病勢は更に減退しない。<br/><br/>もはやいかんともなし難くなり、ついにたおれるというのが、結核患者の一般的経路である。<br/><br/> 右は全く現在結核療法として行われている方法を、医師の指示を守り忠実に行う経路と結果である。<br/><br/>しかるに事実は皮肉にも右のごとき定石（じょうせき）療法を何かの動機によってその誤りを覚り相反する方法をとる人がたまたまあるが、そういう人は不思議にも全治したという例が少なくない事である。<br/><br/>それについて二つの例を挙げてみよう。<br/><br/> 一、私の体験 私は十五歳の時肋膜炎を病み、医療により一年くらいで全快、しばらく健康であったがまた再発したのである。<br/><br/>しかるに今回は経過はかばかしくなく漸次悪化し、一年余経た頃ついに肺結核三期と断定せられた。<br/><br/>その時がちょうど十八歳であった。<br/><br/>そうして最後に診断を受けたのが故入沢達吉博士であって、同博士は綿密に診察の結果、最早治癒の見込なしと断定せられたのであった。<br/><br/>そこで私は決心した。<br/><br/>それはどうせ自分はこのままでは死ぬに決っているとすれば、なんらか変った方法で、奇蹟的に治すより外に仕方がないとおもい、それを探し求めたのである。<br/><br/>その頃私は画を描くのを唯一の楽しみにしていたので、古い画譜など見ていると、その時、漢方医学で使った種々の薬草をかいた本があったので、それを見ているとハッと気がついたのである。<br/><br/>それは何であるかというと、私は今日まで動物性栄養食を盛んに摂っていたのである。<br/><br/>もちろん牛鳥肉魚等はもとより粥までも牛乳で煮て食うという訳で、特にその時代の医家は、栄養といえば動物性のものに限ると唱えたのであったから、私もそのまま実行した訳である。<br/><br/>しかるに、右の本を見て思った事は野菜にも薬や栄養があるという事である。<br/><br/>そう考えると、昔の戦国時代などはほとんど菜食であったらしいが、史実にみるような英雄豪傑が雲のごとく輩出したのであるから、これは菜食も良いかも知れない。<br/><br/>特に日本人はそうあるべきであると想ったので、断然実行すべく意を決した。<br/><br/>そして試験的に一日だけ菜食を試みた所、非常に具合がいいので二日三日と続けるうち益々良く、ここにおいて西洋医学の誤りを覚り、一週間目くらいには薬剤も放棄した。<br/><br/>そのようにして一ケ月くらい経た頃、病気はほとんど全快し、ついに菜食を三ケ月続けたのであった。<br/><br/>その結果罹病以前よりも健康になったので、その後他の病気には罹ったが結核的症状だけは無いにみて全く全快した事は明らかで、四十余年経た六十余歳の今日矍鑠（かくしゃく）として壮者を凌ぐ健康にみても、結核は決して恐るべきものではない事を知るであろう。<br/><br/> 次に、昭和十八年八月十九日発行の毎日新聞所載「勝ち抜く道」の題下に川南豊作氏の体験談が左のごとくかいてあった。<br/><br/> 「僕は若い時肺病になった。<br/><br/>栄養を摂らなければいかんというからポリタミンとかビタミンＡＢとか、とにかく栄養になるものは金にあかして摂った。<br/><br/>そしたら肥えると思ったら一向に肥えない。<br/><br/>むしろ病気はわるい方に進行する一方だ。<br/><br/>そこで医者の奨める事は一切やめて普通の食にした。<br/><br/>すると急によくはならぬけれどもわるくはならぬし、栄養剤をやめたら下痢が止まってきた。<br/><br/>それからだんだんよくなってきた。<br/><br/>医者の薬も止めてしまった。<br/><br/>これに力を得て一切いわゆるエキス的な栄養剤で、労せずして栄養を摂ろうといった横着な考え方をやめてやはり歯で噛んで十分消化してそれを吸取するようにした。<br/><br/>すると段々回復して体がよくなった。<br/><br/>しかも寒い時でも平気で、寒いからといってストーブを入れることもなく、火鉢をおくでもなく足袋もはかずに治した。<br/><br/>一年間で病気は全快した」 右のごとき医療を廃め、自然良能によって全治した例は、結核全治の体験談等に最も多く見らるるのである。<br/><br/> 次に、結核熱について、特に注意すべき事がある、それは下熱剤の連続服用によって、それの反動熱が発生する事である。<br/><br/>たとえて言えば、最初三十八度くらいの発熱が、下熱剤によって一旦下熱するが、それは決して病原解消のための下熱ではないからまた発熱する。<br/><br/>また下熱させるというように繰返すにおいて、遂に九度になり四十度になるというような場合がよくある。<br/><br/>しかもこの反動熱はすこぶる執拗で、いかにしても下熱しない。<br/><br/>この際医家は、かかる執拗な高熱は結核が肺の深部にまで移行したのであるから入院を要するという事がよくあるが、これらによってみて医家自身の手によって執拗な熱を作っておきながら、病勢悪化のためとなす見当違いの判断は、恐るべきであるといえよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

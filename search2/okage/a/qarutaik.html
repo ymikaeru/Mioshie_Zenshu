@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qarutaik</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 或体験、反対者一変す 『栄光』109号、昭和26(1951)年6月20日発行 静岡県 みのり中教会 内藤一郎 一昨年一月ある所へ布教に行った時あまり広くもない部屋に百名足らずの人々が集り、私に何かと質問をしていました、そこへ外から大声をたてて「俺はまだお観音様に一度も食べさせて貰った覚えもないし恵みを貰った事もない、それだのに俺の女房は朝から晩迄お観音様が有難いとお辞儀をしたり人に話をしたりいまいましい事だ、今日はお観音様だかお前様だかがシャッポを脱ぐか俺が恥をかくか返答してくれ」と言いながら四十五、六歳位の大男が私の前にドッカと座りました、そして驚いた部屋中の人々の注目を尻目に「さあお観音様がそんなに有難くて偉いならこの俺をすぐ殺してみろ、八人の家族をこの腕一本で毎日樋直しをしてどうやら今日まで養ってきたのだ、がもう働くのは厭になった、医者は一本の注射で人を殺す事が出来るというが、お観音様はそれ以上の力があると聞く、それが真実なら二日以内に俺を病気にしてみろ、そうしたら成程お観音様は大した力だと思って俺も信者にして貰おう、だからここではっきり約束してくれ」と血相変えて威丈高にわめきたてた、私は即座に「承知しました、二日以内でなく直にお浄化のいただけるようお願いしてあげます、その代り今度は私からも約束を願いましょう、これから帰ればきっとお望みの通り死ぬ程切ないお浄化がくる事と思います、その時にお観音様は無慈悲な方だ、八人もの扶養者の私をこんなに苦しませず許してくれても良かりそうなもの等とは決して言わぬようにして下さい」と、これを聞いて居合せた顔みしりの人達は口々に「お前それは無理というものだ、いくらお観音様でも二日以内と日を定められてはお困りだろう、まあ少し落ちついて話てゆくがよい」と言うと「とんでもない、もうさっきから頭がわれそうになっている、こんな所にいつまでもいられるものか」と言いながら荒々しく帰って行った、隅の方で一部始終を黙って聞いていたその人のおかみさんは、恥ずかしさに顔も上げられず、泣きながらお観音様にお詫び申上げていました、そのふびんさに私は「心配はいりません、すべてお観音様がよいようにして下さいます、信仰は夫婦親子でも無理にすすめてはいけません、一切お願いして時を待たれる事が大事です、さああなたはすぐ家にお帰りなさい、そうして旦那がきっと苦しんでいるでしょうから心からお浄めさせていただきなさい」と慰めて帰る事をすすめた、さてその翌朝私は予定に従い、七時の汽車でまた別の方面へと布教に出かけました、そのあとを一汽車遅れ追いかけるようにして前夜の信者の一人が私を訪ねてきました、何事かと聞けば、昨夜の男のおかみさんが、私のたったあとに来て「あれから主人が夜中頭がわれそうに痛み、あまりてきめんのお浄化に漸くお観音様のお力の偉大さを知り誠にすまなかった、先生に一言お詫びがしたい、是非行ってきてくれ」との言葉におかみさんが大喜びで先生の許に飛んで来ましたが、生憎おたちになった後でしたので、私が頼まれまいりましたと、このたった数時間の苦しみにて長い年月汚れてきた、精神も肉体も慈悲の御手に御救いいただき、その日より神の尊さを知り大酒をつつしみ、一心に働きだし、丸一年後には尊きお教修をいただき、遂に無神論者変じ大信仰者にさせていただき、今は御守護御恵みの下に毎日を楽しく送らせていただいております、誠に有難うございました、本人よりの御礼の言葉を伝えさせていただきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Experiência: A Completa Transformação de um Opositor</h2>
 <p>Revista Eikou, nº 109, publicada em 20 de junho de 1951
@@ -101,5 +256,48 @@ Ichiro Naito</p>
 <p>Ela lhe contara que, desde o ocorrido, seu marido sofrera com uma dor de cabeça excruciante durante toda a noite. A purificação, tão imediata e veemente, fizera-o finalmente reconhecer a grandiosidade do poder de Kannon (観音). Profundamente arrependido, ele lhe dissera: "Sinto um profundo remorso. Peço que vá encontrar o professor e lhe transmita minhas sinceras desculpas." A esposa, exultante de alegria, correu para me encontrar, mas, para seu desalento, eu já havia partido. Por essa razão, o fiel viera em seu lugar, a seu pedido.</p>
 <p>Assim, em meras horas de sofrimento, seu espírito e seu corpo, maculados por longos anos de impurezas, foram salvos pela mão misericordiosa de Deus. A partir daquele dia, ele compreendeu a magnitude de Deus, abandonou o vício da bebida e passou a se dedicar ao trabalho com afinco. Um ano mais tarde, foi-lhe outorgada a sagrada permissão de se tornar membro, e o antigo ateu, por fim, transformou-se em um homem de grande fé. Atualmente, ele vive seus dias em alegria, sob a constante proteção e as bênçãos Divinas.</p>
 <p>Sou imensamente grato. Transmito, em nome dele, estas palavras de profundo agradecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 或体験、反対者一変す 『栄光』109号、昭和26(1951)年6月20日発行 静岡県 みのり中教会 内藤一郎 一昨年一月ある所へ布教に行った時あまり広くもない部屋に百名足らずの人々が集り、私に何かと質問をしていました、そこへ外から大声をたてて「俺はまだお観音様に一度も食べさせて貰った覚えもないし恵みを貰った事もない、それだのに俺の女房は朝から晩迄お観音様が有難いとお辞儀をしたり人に話をしたりいまいましい事だ、今日はお観音様だかお前様だかがシャッポを脱ぐか俺が恥をかくか返答してくれ」と言いながら四十五、六歳位の大男が私の前にドッカと座りました、そして驚いた部屋中の人々の注目を尻目に「さあお観音様がそんなに有難くて偉いならこの俺をすぐ殺してみろ、八人の家族をこの腕一本で毎日樋直しをしてどうやら今日まで養ってきたのだ、がもう働くのは厭になった、医者は一本の注射で人を殺す事が出来るというが、お観音様はそれ以上の力があると聞く、それが真実なら二日以内に俺を病気にしてみろ、そうしたら成程お観音様は大した力だと思って俺も信者にして貰おう、だからここではっきり約束してくれ」と血相変えて威丈高にわめきたてた、私は即座に「承知しました、二日以内でなく直にお浄化のいただけるようお願いしてあげます、その代り今度は私からも約束を願いましょう、これから帰ればきっとお望みの通り死ぬ程切ないお浄化がくる事と思います、その時にお観音様は無慈悲な方だ、八人もの扶養者の私をこんなに苦しませず許してくれても良かりそうなもの等とは決して言わぬようにして下さい」と、これを聞いて居合せた顔みしりの人達は口々に「お前それは無理というものだ、いくらお観音様でも二日以内と日を定められてはお困りだろう、まあ少し落ちついて話てゆくがよい」と言うと「とんでもない、もうさっきから頭がわれそうになっている、こんな所にいつまでもいられるものか」と言いながら荒々しく帰って行った、隅の方で一部始終を黙って聞いていたその人のおかみさんは、恥ずかしさに顔も上げられず、泣きながらお観音様にお詫び申上げていました、そのふびんさに私は「心配はいりません、すべてお観音様がよいようにして下さいます、信仰は夫婦親子でも無理にすすめてはいけません、一切お願いして時を待たれる事が大事です、さああなたはすぐ家にお帰りなさい、そうして旦那がきっと苦しんでいるでしょうから心からお浄めさせていただきなさい」と慰めて帰る事をすすめた、さてその翌朝私は予定に従い、七時の汽車でまた別の方面へと布教に出かけました、そのあとを一汽車遅れ追いかけるようにして前夜の信者の一人が私を訪ねてきました、何事かと聞けば、昨夜の男のおかみさんが、私のたったあとに来て「あれから主人が夜中頭がわれそうに痛み、あまりてきめんのお浄化に漸くお観音様のお力の偉大さを知り誠にすまなかった、先生に一言お詫びがしたい、是非行ってきてくれ」との言葉におかみさんが大喜びで先生の許に飛んで来ましたが、生憎おたちになった後でしたので、私が頼まれまいりましたと、このたった数時間の苦しみにて長い年月汚れてきた、精神も肉体も慈悲の御手に御救いいただき、その日より神の尊さを知り大酒をつつしみ、一心に働きだし、丸一年後には尊きお教修をいただき、遂に無神論者変じ大信仰者にさせていただき、今は御守護御恵みの下に毎日を楽しく送らせていただいております、誠に有難うございました、本人よりの御礼の言葉を伝えさせていただきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

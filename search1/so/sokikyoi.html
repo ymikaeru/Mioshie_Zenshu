@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sokikyoi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 早期教育の弊 『光』16号、昭和24(1949)年7月2日発行 今日の人間は、智慧が発達して頭脳がわるくなったというと、変な言い方だが、実はこうである、浅智慧の上っつらの小才のきく人間が多くなって、智慧の深い、ドッシリした人間が少なくなったという意味である、これは何のためかという事である、これについて私の考察によれば全く早期教育の結果である。<br><br> 早期教育がなぜわるいかというと頭がある程度発達しない時期に、学問を詰め込む、つまり発育と学問のズレである、本当からいえば人間は年齢に応じて、頭脳も身体も適度に用いなければならないにかかわらず、早期教育とは、七、八ッの児童に十五、六歳の頭脳労働をさせるようなもので全く学問過重である。<br><br> しからば右の結果はどうなるかというと、これについて一つの例をかいてみよう、私は小学校時代に柔道を習おうとしたところ、十五歳以下は習ってはいけないという、それはなぜかと聞くと、十五歳以下で柔道をやると、背丈が止って伸びないというのである、もちろん労働過重による発育停止のためで、それと同じように今日の教育をみると、十二、三歳で成人者のやるような事をやらせる事を良いとしておる、なる程一時は急速に智能が発達するから、良教育のようにみえるが、実は前述のごとく深さの発育がなく上っつらの智慧ばかり発達した思慮の浅い人間が作られる、という訳である。<br><br> 事実、日本においても近代政治家などは、重厚な型の大きい人間が段々少なくなった、以前のような型の大きい重厚な人物は洵（まこと）に寥々（りょうりょう）たる有様であるにみて、教育に携わる者の大いに考えなくてはならない問題である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Malefícios da Educação Precoce</h2>
 <p>Pode parecer paradoxal afirmar que o homem de hoje, apesar do desenvolvimento do intelecto, tornou-se mentalmente inferior. Contudo, a realidade é precisamente esta: multiplicaram-se os indivíduos de sagacidade superficial e engenhosidade rasa, ao passo que se tornaram raros aqueles de sabedoria profunda e caráter robusto. Em minha análise, tal fenômeno é, inequivocamente, um resultado da educação precoce.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Quais são, então, as consequências de tal prática? Permitam-me ilustrar com um exemplo pessoal. Na época do primário, quando manifestei o desejo de aprender judô, fui informado de que a prática era proibida para menores de quinze anos. Ao indagar o motivo, explicaram-me que iniciar o judô antes dessa idade interromperia o crescimento físico, um claro efeito do esforço excessivo sobre um corpo em formação.</p>
 <p>De modo análogo, observamos que a educação contemporânea enaltece o ato de submeter crianças de doze ou treze anos a tarefas próprias de adultos. É verdade que, em um primeiro momento, a inteligência parece florescer rapidamente, dando a impressão de ser um método pedagógico eficaz. Contudo, a realidade é que, conforme mencionei, impede-se o amadurecimento da profundidade do ser, forjando-se indivíduos de pensamento raso, cuja sabedoria não ultrapassa a superfície.</p>
 <p>De fato, mesmo no Japão, entre os políticos da era moderna, figuras de grande envergadura e solidez de caráter tornaram-se cada vez mais escassas. Personalidades com a magnitude e a profundidade de outrora são, hoje, uma lastimável raridade. Esta é uma questão sobre a qual os responsáveis pela educação devem refletir com a máxima seriedade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 早期教育の弊 『光』16号、昭和24(1949)年7月2日発行 今日の人間は、智慧が発達して頭脳がわるくなったというと、変な言い方だが、実はこうである、浅智慧の上っつらの小才のきく人間が多くなって、智慧の深い、ドッシリした人間が少なくなったという意味である、これは何のためかという事である、これについて私の考察によれば全く早期教育の結果である。<br/><br/> 早期教育がなぜわるいかというと頭がある程度発達しない時期に、学問を詰め込む、つまり発育と学問のズレである、本当からいえば人間は年齢に応じて、頭脳も身体も適度に用いなければならないにかかわらず、早期教育とは、七、八ッの児童に十五、六歳の頭脳労働をさせるようなもので全く学問過重である。<br/><br/> しからば右の結果はどうなるかというと、これについて一つの例をかいてみよう、私は小学校時代に柔道を習おうとしたところ、十五歳以下は習ってはいけないという、それはなぜかと聞くと、十五歳以下で柔道をやると、背丈が止って伸びないというのである、もちろん労働過重による発育停止のためで、それと同じように今日の教育をみると、十二、三歳で成人者のやるような事をやらせる事を良いとしておる、なる程一時は急速に智能が発達するから、良教育のようにみえるが、実は前述のごとく深さの発育がなく上っつらの智慧ばかり発達した思慮の浅い人間が作られる、という訳である。<br/><br/> 事実、日本においても近代政治家などは、重厚な型の大きい人間が段々少なくなった、以前のような型の大きい重厚な人物は洵（まこと）に寥々（りょうりょう）たる有様であるにみて、教育に携わる者の大いに考えなくてはならない問題である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syujut05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術に就て 未発表『医学革命の書』昭和28(1953)年執筆 近来医学においては、手術の進歩を大いに誇称しているが、実はこれほど間違った話はない。<br><br>むしろその反対で手術の進歩とは、医術の不進歩を表白する事は私は常に唱えている。<br><br>従って真の医術とは、患部の機能はそのままにしておいて、ただ病気だけを除（と）ってしまう事で、これが真の医術である。<br><br>それはほとんどの病気は機能の近接部に毒素が集溜固結し、器〔機〕能の活動を圧迫阻害するからであって、機能自体には関係がないのである。<br><br>従って治病とは右の毒素だけを除去してしまえば、それで完全に治るのである。<br><br>ところが医学ではそのような巧妙な事が出来ないため、止むなく機能も共に除去してしまうので、全く無力の結果に外ならないのである。<br><br> 従って病気を治す目的のため、患部全体を切り除るとしたら、原始人的方法であって、少なくとも文化的でない事は言うまでもない。<br><br>しかもその手段たるや肉を切り、血を出し、骨を削るなどの残虐的行為により、患者に非常な痛苦を与えるに至ってはむしろ悲惨事である。<br><br>なるほど手術中だけは麻酔薬を用いて痛苦を免（まぬが）るとしても、その後の傷口が治るまでのガーゼの取替や日数のかかる事、莫大な費用を要する等を考えたら、患者の負担は容易なものではあるまい。<br><br>それでも順調にゆけばまだしもだが、中には経過が悪く再手術を要する場合もあり、切開してから誤診が分り慌（あわ）てて口を閉（ふさ）ぐ事などもよく聞く話で、たまには手術の失敗で生命を失う事さえあるのだから、全く一種の冒険である。<br><br>そればかりではない、外部的病気の場合手や足はもちろん、指を切って不具にしたり、腫物などは醜い傷痕を残す等、一生涯の不幸の種を残す等忌憚（きたん）なくいってみれば、現代医学は野蛮医学といってもよかろう。<br><br> しかしながら医師はいうであろう。<br><br>「なるほどそれは分っているが、もし手術をしなければ生命に関わる以上、不具や傷痕など云ってはおれないから、止むを得ず行うのだ」との理由もあろうが、これが大変な誤りである。<br><br>というのは手術を要する程の病気なら、無論固結毒素に強烈な浄化が起ったからで、熱も痛みも相当激しいに違いない。<br><br>つまり旺（さか）んに治りつつある状態であるから、放っておけば迅速に毒は溶けて、排泄され必ず治るのであって、苦痛はそれまでの期間と思えばいい。<br><br>それを手術の苦痛に比べたら何分の一で済むのであるばかりではなく、堪えられない程の苦痛であればある程短期間で済む訳で、長くとも数日くらいと思えばいいので、しかも自然療法なら順調に治るから心配がなく、むしろ楽しみとなるくらいだから我慢し易い訳である。<br><br>ところが世間よく何十日も痛む患者があるが、これは元の病気の外に薬毒を追加するため、その痛みが増したからである。<br><br>しかも自然治癒なれば不具にもならず、醜い痕も残らず、短時日で順調に治り費用もかからず、生命の危険さえないのだから、この事を知っただけでも大きな幸福を得たのである。<br><br>しかしこれを読む医師も一般人も、今までの考え方との余りの異（ちが）いさに、容易に信ずる事は出来まいが、これこそ絶対の真理である以上、白紙になれば簡単に分るはずである。<br><br>それについての二、三の例をかいてみよう。<br><br> 手術について最も多いのは、彼（か）の盲腸炎であろうが、この病気の原因は服（の）み薬の毒が胃壁を滲透して右側腎臓部に集溜し、それが少しずつ溶けて一旦盲腸部に移行し固結するので、健康であっても盲腸部と右側背部腎臓部を圧（お）すと、多少の痛みがあるのはそれであって、これがある人は早晩盲腸炎が発（おこ）るとみていいのである。<br><br>これがある程度に進むとここに浄化作用発生し、高熱に激痛を伴い、右の固結が溶け下痢になって排泄されて治るので、これが順序である。<br><br>ところがその際溶けた毒素は腹膜を通過するので、医師は間違えて、「これは大変だ。<br><br>早く手術しないと虫様突起が破れて、腹膜炎を起すと最早手後れで助からない」というが、これを吾々からみれば笑えないナンセンスである。<br><br>というのは右は順調な経過であって、命に関わるなどは絶対ないからである。<br><br>従って盲腸炎の場合何ら手当もせず、放っておくだけで、一週間以内に必ず治るのである。<br><br>しかも盲腸は重要な機能である以上、それが失くなれば他に影響を及ぼすのは当然で、前記のごとく腎臓部に溜った薬毒の移行する個所がなくなるから、その毒は他へ氾濫する。<br><br>それが腹膜及び腎臓部である。<br><br>そうなると反って盲腸炎より始末の悪い病気となり、容易に治り難くなるのである。<br><br>このように放っておけば簡単に治るべきものを、誤れる医療は反って将来の禍根を残すのであるから問題である。<br><br>次に多い病気に扁桃腺炎がある。<br><br>これは液体薬を服む場合、それが口内の粘膜から浸入し、膿化し、扁桃腺部に集り固るが、それに浄化が起って熱で溶けて腫れ、破れて膿が出て治るのである。<br><br>ところが医療はルゴール等の塗布薬で固めるから、一旦治っても必ず再発するというように癖になってしまう。<br><br>もちろんその度毎に増大し、ついに手術の止むなきに至るのである。<br><br> 次によくある病気にひょう疽（そ）と脱疽（だっそ）があるが、この原因はひょう疽は右なら右、左なら左の頸部淋巴腺に固結している毒素が溶けて、指の先から出ようとするそのための激痛であるから、その際頸部を探れば必ず固結と発熱があるからすぐ分る。<br><br>ゆえに吾々の方ではひょう疽でも指先に構わず、頸部だけを浄霊すればたちまち痛みは去り、長くも数日で全快するのである。<br><br>ところが医診では指が腐るなどというが、これこそ噴飯物（ふんぱんもの）である。<br><br>この間違いは最初指先にちょっとした腫物が出来ると、それが段々上の方へ拡がって行く。<br><br>ちょうど腐れ込むように見えるからである。<br><br>しかしこれはある程度拡がれば必ず停（とま）ってしまうものである。<br><br>また脱疽はひょう疽と同様鼠蹊部淋巴腺に溜った固結毒素の浄化作用で、これは略すが、この両方共医療では必ず手術するから不具になるので、これも浄霊か自然治療なら必ず元通りに治るし、その他の腫物や皮膚の湿疹にしてもことごとく薬毒であるから、自然療法に限るのである。<br><br>すなわちすべての腫物類は放っておけば、腫れるだけ腫れて最後に小さな穴が穿（あ）き、そこから血膿が排泄して全治する。<br><br>しかもどんな大きな腫物でもいささかも痕跡は残らないから、今後この理を心得ておれば、驚く程の膨大な腫物でも何ら心配はない。<br><br>しかもこれは非常に結構な浄化で、もし右の毒素が内攻すれば、内臓の病気になるところを外部に排泄されたので、大難が小難で済んだ訳である。<br><br>また傷や火傷（やけど）の場合よくその部へ膿が集るので、医師は黴菌浸入のためとしているがそうではない。<br><br>その付近にある毒素が、刺戟のためそこへ集まり排除されるので、それだけ毒が減るからこれも結構である。<br><br> ここで大いに注意すべきは消毒薬中毒である。<br><br>手術とか外傷の場合消毒薬を不可欠のものとしているが、何しろ何十倍に淡（うす）めても黴菌を殺すだけの劇薬であり、直接筋肉から滲透するので、時が経てば必ずどこからか出ようとする。<br><br>その場合多くは頭痛、眼（失明）、中耳炎、歯茎等であり、時には下降して肛門（痔）、陰部、手足の関節等へまでも集溜し、腫物か湿疹となり、痛み痒みの苦痛が伴うが、ただ消毒薬に限って激痛であるからよく分る。<br><br>その場合これはアノ時の消毒薬だなと思うと必ず肯（うなず）くであろう。<br><br>また近頃膝から下に腫物の出来る人が多いが、これは予防注射の薬毒が下降したもので、放っておけば膿が出て必ず治り、少しも心配はないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Acerca dos Procedimentos Cirúrgicos</h2>
 <p>Nos tempos recentes, a medicina tem exaltado sobremaneira o progresso da cirurgia; todavia, não há tese mais equivocada. Na verdade, ocorre o oposto: como venho afirmando constantemente, o avanço das cirurgias é um atestado do retrocesso da arte médica. A verdadeira arte médica consiste em eliminar unicamente a doença, preservando intacta a função do órgão afetado. Isso porque, na maioria dos casos, a enfermidade se deve ao acúmulo e à solidificação de toxinas nas proximidades de um órgão, as quais comprimem e obstruem sua atividade, sem, contudo, comprometer o órgão em si. Portanto, a cura genuína se alcança com a simples remoção dessas toxinas. A medicina, entretanto, por ser incapaz de realizar tal feito com a devida sutileza, recorre à extirpação do órgão juntamente com a doença, o que não passa de um atestado de sua própria impotência.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Temos também o panarício e a gangrena. A causa do panarício é a dissolução de toxinas solidificadas nos gânglios linfáticos do pescoço, que tentam sair pelas pontas dos dedos, gerando uma dor lancinante. Ao examinarmos o pescoço do lado afetado, encontraremos nódulos e febre, confirmando a origem. Por isso, em nosso método, não tratamos o dedo, mas aplicamos Johrei apenas no pescoço, e a dor cessa instantaneamente, com a cura completa em poucos dias. A alegação médica de que o dedo está apodrecendo é simplesmente ridícula. O erro médico se deve ao fato de que, inicialmente, surge um pequeno inchaço na ponta do dedo, que depois se expande para cima, dando a impressão de necrose. Contudo, essa expansão sempre para ao atingir certo ponto. A gangrena, por sua vez, é semelhante ao panarício, mas resulta da purificação de toxinas acumuladas nos gânglios linfáticos da virilha. Em ambos os casos, a medicina recorre à cirurgia, causando mutilação. Com Johrei ou terapia natural, a cura seria completa e o membro seria preservado. O mesmo se aplica a outros tumores e eczemas cutâneos: todos são causados por toxinas de medicamentos e, portanto, devem ser tratados pela terapia natural.</p>
 <p>Em suma, qualquer tipo de tumor, se deixado em paz, inchará ao máximo, até que um pequeno orifício se abra, por onde o pus sanguinolento será drenado, resultando na cura total. E mesmo tumores de grandes proporções não deixam o menor vestígio. Com esse conhecimento, não há motivo para se preocupar, por maior que seja o inchaço. Trata-se, aliás, de uma purificação muito afortunada. Se essas toxinas fossem para o interior do corpo, causariam doenças nos órgãos internos. Sua expulsão pela pele significa que um grande infortúnio foi evitado e transformado em um mal menor. No caso de ferimentos e queimaduras, é comum que o pus se acumule no local. Os médicos atribuem isso à invasão de germes, mas estão enganados. O que ocorre é que as toxinas presentes nas proximidades são atraídas para a lesão pelo estímulo e, por ali, são expelidas. Trata-se de um processo benéfico, pois reduz a quantidade de toxinas no corpo.</p>
 <p>Um ponto que exige grande atenção é a intoxicação por desinfetantes. Em cirurgias e ferimentos, seu uso é considerado indispensável. No entanto, estamos falando de venenos tão potentes que, mesmo diluídos dezenas de vezes, ainda são capazes de matar germes. Ao penetrarem diretamente nos músculos, com o tempo, buscarão uma via de saída. Essa purificação se manifesta, frequentemente, como dores de cabeça, problemas oculares (até a cegueira), otite média ou inflamações na gengiva. As toxinas podem também descer e se acumular no ânus (causando hemorroidas), nos órgãos genitais ou nas articulações das mãos e dos pés, gerando tumores ou eczemas acompanhados de dor e coceira. A dor causada pelas toxinas de desinfetantes é particularmente intensa, o que a torna facilmente identificável. Nesses casos, se o paciente refletir e pensar "isto deve ser do desinfetante daquela vez", certamente constatará que está correto. Recentemente, tem havido um aumento no número de pessoas com tumores abaixo dos joelhos. Isso se deve às toxinas das vacinas preventivas, que descem pelo corpo. Basta deixar o processo seguir seu curso, e o pus será expelido, levando à cura completa. Não há motivo algum para preocupação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術に就て 未発表『医学革命の書』昭和28(1953)年執筆 近来医学においては、手術の進歩を大いに誇称しているが、実はこれほど間違った話はない。<br/><br/>むしろその反対で手術の進歩とは、医術の不進歩を表白する事は私は常に唱えている。<br/><br/>従って真の医術とは、患部の機能はそのままにしておいて、ただ病気だけを除（と）ってしまう事で、これが真の医術である。<br/><br/>それはほとんどの病気は機能の近接部に毒素が集溜固結し、器〔機〕能の活動を圧迫阻害するからであって、機能自体には関係がないのである。<br/><br/>従って治病とは右の毒素だけを除去してしまえば、それで完全に治るのである。<br/><br/>ところが医学ではそのような巧妙な事が出来ないため、止むなく機能も共に除去してしまうので、全く無力の結果に外ならないのである。<br/><br/> 従って病気を治す目的のため、患部全体を切り除るとしたら、原始人的方法であって、少なくとも文化的でない事は言うまでもない。<br/><br/>しかもその手段たるや肉を切り、血を出し、骨を削るなどの残虐的行為により、患者に非常な痛苦を与えるに至ってはむしろ悲惨事である。<br/><br/>なるほど手術中だけは麻酔薬を用いて痛苦を免（まぬが）るとしても、その後の傷口が治るまでのガーゼの取替や日数のかかる事、莫大な費用を要する等を考えたら、患者の負担は容易なものではあるまい。<br/><br/>それでも順調にゆけばまだしもだが、中には経過が悪く再手術を要する場合もあり、切開してから誤診が分り慌（あわ）てて口を閉（ふさ）ぐ事などもよく聞く話で、たまには手術の失敗で生命を失う事さえあるのだから、全く一種の冒険である。<br/><br/>そればかりではない、外部的病気の場合手や足はもちろん、指を切って不具にしたり、腫物などは醜い傷痕を残す等、一生涯の不幸の種を残す等忌憚（きたん）なくいってみれば、現代医学は野蛮医学といってもよかろう。<br/><br/> しかしながら医師はいうであろう。<br/><br/>「なるほどそれは分っているが、もし手術をしなければ生命に関わる以上、不具や傷痕など云ってはおれないから、止むを得ず行うのだ」との理由もあろうが、これが大変な誤りである。<br/><br/>というのは手術を要する程の病気なら、無論固結毒素に強烈な浄化が起ったからで、熱も痛みも相当激しいに違いない。<br/><br/>つまり旺（さか）んに治りつつある状態であるから、放っておけば迅速に毒は溶けて、排泄され必ず治るのであって、苦痛はそれまでの期間と思えばいい。<br/><br/>それを手術の苦痛に比べたら何分の一で済むのであるばかりではなく、堪えられない程の苦痛であればある程短期間で済む訳で、長くとも数日くらいと思えばいいので、しかも自然療法なら順調に治るから心配がなく、むしろ楽しみとなるくらいだから我慢し易い訳である。<br/><br/>ところが世間よく何十日も痛む患者があるが、これは元の病気の外に薬毒を追加するため、その痛みが増したからである。<br/><br/>しかも自然治癒なれば不具にもならず、醜い痕も残らず、短時日で順調に治り費用もかからず、生命の危険さえないのだから、この事を知っただけでも大きな幸福を得たのである。<br/><br/>しかしこれを読む医師も一般人も、今までの考え方との余りの異（ちが）いさに、容易に信ずる事は出来まいが、これこそ絶対の真理である以上、白紙になれば簡単に分るはずである。<br/><br/>それについての二、三の例をかいてみよう。<br/><br/> 手術について最も多いのは、彼（か）の盲腸炎であろうが、この病気の原因は服（の）み薬の毒が胃壁を滲透して右側腎臓部に集溜し、それが少しずつ溶けて一旦盲腸部に移行し固結するので、健康であっても盲腸部と右側背部腎臓部を圧（お）すと、多少の痛みがあるのはそれであって、これがある人は早晩盲腸炎が発（おこ）るとみていいのである。<br/><br/>これがある程度に進むとここに浄化作用発生し、高熱に激痛を伴い、右の固結が溶け下痢になって排泄されて治るので、これが順序である。<br/><br/>ところがその際溶けた毒素は腹膜を通過するので、医師は間違えて、「これは大変だ。<br/><br/>早く手術しないと虫様突起が破れて、腹膜炎を起すと最早手後れで助からない」というが、これを吾々からみれば笑えないナンセンスである。<br/><br/>というのは右は順調な経過であって、命に関わるなどは絶対ないからである。<br/><br/>従って盲腸炎の場合何ら手当もせず、放っておくだけで、一週間以内に必ず治るのである。<br/><br/>しかも盲腸は重要な機能である以上、それが失くなれば他に影響を及ぼすのは当然で、前記のごとく腎臓部に溜った薬毒の移行する個所がなくなるから、その毒は他へ氾濫する。<br/><br/>それが腹膜及び腎臓部である。<br/><br/>そうなると反って盲腸炎より始末の悪い病気となり、容易に治り難くなるのである。<br/><br/>このように放っておけば簡単に治るべきものを、誤れる医療は反って将来の禍根を残すのであるから問題である。<br/><br/>次に多い病気に扁桃腺炎がある。<br/><br/>これは液体薬を服む場合、それが口内の粘膜から浸入し、膿化し、扁桃腺部に集り固るが、それに浄化が起って熱で溶けて腫れ、破れて膿が出て治るのである。<br/><br/>ところが医療はルゴール等の塗布薬で固めるから、一旦治っても必ず再発するというように癖になってしまう。<br/><br/>もちろんその度毎に増大し、ついに手術の止むなきに至るのである。<br/><br/> 次によくある病気にひょう疽（そ）と脱疽（だっそ）があるが、この原因はひょう疽は右なら右、左なら左の頸部淋巴腺に固結している毒素が溶けて、指の先から出ようとするそのための激痛であるから、その際頸部を探れば必ず固結と発熱があるからすぐ分る。<br/><br/>ゆえに吾々の方ではひょう疽でも指先に構わず、頸部だけを浄霊すればたちまち痛みは去り、長くも数日で全快するのである。<br/><br/>ところが医診では指が腐るなどというが、これこそ噴飯物（ふんぱんもの）である。<br/><br/>この間違いは最初指先にちょっとした腫物が出来ると、それが段々上の方へ拡がって行く。<br/><br/>ちょうど腐れ込むように見えるからである。<br/><br/>しかしこれはある程度拡がれば必ず停（とま）ってしまうものである。<br/><br/>また脱疽はひょう疽と同様鼠蹊部淋巴腺に溜った固結毒素の浄化作用で、これは略すが、この両方共医療では必ず手術するから不具になるので、これも浄霊か自然治療なら必ず元通りに治るし、その他の腫物や皮膚の湿疹にしてもことごとく薬毒であるから、自然療法に限るのである。<br/><br/>すなわちすべての腫物類は放っておけば、腫れるだけ腫れて最後に小さな穴が穿（あ）き、そこから血膿が排泄して全治する。<br/><br/>しかもどんな大きな腫物でもいささかも痕跡は残らないから、今後この理を心得ておれば、驚く程の膨大な腫物でも何ら心配はない。<br/><br/>しかもこれは非常に結構な浄化で、もし右の毒素が内攻すれば、内臓の病気になるところを外部に排泄されたので、大難が小難で済んだ訳である。<br/><br/>また傷や火傷（やけど）の場合よくその部へ膿が集るので、医師は黴菌浸入のためとしているがそうではない。<br/><br/>その付近にある毒素が、刺戟のためそこへ集まり排除されるので、それだけ毒が減るからこれも結構である。<br/><br/> ここで大いに注意すべきは消毒薬中毒である。<br/><br/>手術とか外傷の場合消毒薬を不可欠のものとしているが、何しろ何十倍に淡（うす）めても黴菌を殺すだけの劇薬であり、直接筋肉から滲透するので、時が経てば必ずどこからか出ようとする。<br/><br/>その場合多くは頭痛、眼（失明）、中耳炎、歯茎等であり、時には下降して肛門（痔）、陰部、手足の関節等へまでも集溜し、腫物か湿疹となり、痛み痒みの苦痛が伴うが、ただ消毒薬に限って激痛であるからよく分る。<br/><br/>その場合これはアノ時の消毒薬だなと思うと必ず肯（うなず）くであろう。<br/><br/>また近頃膝から下に腫物の出来る人が多いが、これは予防注射の薬毒が下降したもので、放っておけば膿が出て必ず治り、少しも心配はないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

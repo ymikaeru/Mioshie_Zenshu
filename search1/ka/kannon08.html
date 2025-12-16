@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon08</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音運動は日本精神運動なり 『観音の光』10号、昭和11(1936)年4月11日発行 今や日本における、革新的機運は、澎湃（ほうはい）として政治に、経済に、教育にあらゆる国家的機構を、揺り動かさなければ止まない勢いすら示している事である。<br><br>これは全く、天意ではあるまいか、吾れが常に唱え来った、日本精神への還元でなくて、何であろう―― 彼の明治維新は、幕政を解消し、天皇政治の本然への還元であった、そうして今日は、それと異う意味の、昭和維新とも言える形態を、多分に具えている事である。<br><br>それは言うまでもなく、西洋文明の無差別的吸収と模倣の専心でもあった時代へのエポックでもあり、一大転換でもあろう。<br><br> ここで吾々が、常に主張していた持論を、再読されたい事である。<br><br>そこに何と書いてあったか、それを繰返して見よう。<br><br> 東洋の精神文明と、西洋の物質文明を、遺憾なきまでに採り入れて、その二大文明を調和融合し、ここに新しい、日本独自の文明を創建して、今度は逆に、世界へ向って演繹（えんえき）する。<br><br>即ち、求心から遠心への――受動から能動への一大転機のそれである。<br><br>そうしてついに、人類全体を救うという――それが日本本来の使命であるべき事である。<br><br> その時が来たのだ、それの第一歩が来たまでだ、唯物本位の猶太（ユダヤ）精神を捨て去って、否、第二義に下して、日本精神への第一義的飛躍であり、高揚でもあるのだ。<br><br>故に、この事を把握なし得る者が、今日以後の時代の新人であり、この真相を透観し得ないで、相も変らず、猶太式自由主義の墓所に低徊して、離るる事の出来ない人こそは、ついに時代の落伍者となるであろう。<br><br>宛（あたか）も、維新当時の神風連のそれのように―― 今日までの日本人意識は外国文明に駆使されて来たのであった、その魂までも蝕ばまれるまでにであった。<br><br>日本人でありながら、英国を、米国を、露西亜（ロシア）を、独逸（ドイツ）を、伊太利（イタリア）を憧憬讃美して、その魂は外国人になっていた、しかもそれが、指導階級であるところのインテリ群であった事が、思想の混乱と、階級の軋轢（あつれき）と、利欲闘争と、もろもろの矛盾とを生んで窮（きわま）りがなかった、しかもそれらを、得々として、文化の進歩とさえ伐（ほこ）っていた事であった。<br><br> 視よ一切の動向は、いとも自然に、偏頗（へんぱ）なく進んでいる。<br><br>物質文明の究極、それは闘争であり、その闘争の次に来るもの、それは文明の崩壊である。<br><br>今、全欧羅巴（ヨーロッパ）を見よ、それは如実に、しかも緩慢でなく、一歩一歩、その崩壊線に進んでいる危機は、誰が眼にも映って、否定する由もない。<br><br> 真の意味における、平和的精神は、独り日本民族に、天賦的に与えられている事に、もう日本人自体が、気が付いてもいいであろう、そうして、しかも、物質文明を、世界の何国人にも劣らないだけに、技能も、発展性も把捉して遺憾がないまでに、なっている事である。<br><br> ここに民族的使命の発見がある。<br><br>それは平和的、精神的である日本人が、東西両文明を融合し、新しい真文明を創造する、それによって初めて、全人類は更生し、恒久の平和はここに、確立するという事である。<br><br> この意義を通してのみ、現実的革新の本質を知る事が、出来得るであろう。<br><br> （昭和十一年三月二十三日） （注）澎湃（ほうはい）、水が激しく逆巻くさま。<br><br>物事が勢いよく起こるさま。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Movimento de Kannon e a Missão do Espírito Japonês</h2>
 <p>Atualmente, um ímpeto renovador avassalador manifesta-se no Japão, com uma força que parece não cessar enquanto não abalar todas as estruturas da nação, seja na política, na economia ou na educação. Não seria isso, porventura, a Vontade Divina? O que mais poderia ser, senão o retorno ao Espírito Japonês que venho incessantemente proclamando?</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Já é tempo de os próprios japoneses se darem conta de que o espírito verdadeiramente pacífico foi concedido, por dádiva celestial, unicamente ao seu povo. Ademais, no que tange à civilização material, dominamos as habilidades e o potencial de desenvolvimento a um nível que em nada é inferior ao de qualquer outra nação do mundo.</p>
 <p>Nisto reside a descoberta da nossa missão como povo: o povo japonês, de índole pacífica e espiritual, unirá as civilizações oriental e ocidental para criar uma nova e verdadeira civilização. Somente por meio dela, toda a humanidade poderá ser regenerada, e a paz perpétua será, enfim, estabelecida.</p>
 <p>É unicamente sob esta perspectiva que se pode compreender a essência da renovação que se manifesta no mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音運動は日本精神運動なり 『観音の光』10号、昭和11(1936)年4月11日発行 今や日本における、革新的機運は、澎湃（ほうはい）として政治に、経済に、教育にあらゆる国家的機構を、揺り動かさなければ止まない勢いすら示している事である。<br/><br/>これは全く、天意ではあるまいか、吾れが常に唱え来った、日本精神への還元でなくて、何であろう―― 彼の明治維新は、幕政を解消し、天皇政治の本然への還元であった、そうして今日は、それと異う意味の、昭和維新とも言える形態を、多分に具えている事である。<br/><br/>それは言うまでもなく、西洋文明の無差別的吸収と模倣の専心でもあった時代へのエポックでもあり、一大転換でもあろう。<br/><br/> ここで吾々が、常に主張していた持論を、再読されたい事である。<br/><br/>そこに何と書いてあったか、それを繰返して見よう。<br/><br/> 東洋の精神文明と、西洋の物質文明を、遺憾なきまでに採り入れて、その二大文明を調和融合し、ここに新しい、日本独自の文明を創建して、今度は逆に、世界へ向って演繹（えんえき）する。<br/><br/>即ち、求心から遠心への――受動から能動への一大転機のそれである。<br/><br/>そうしてついに、人類全体を救うという――それが日本本来の使命であるべき事である。<br/><br/> その時が来たのだ、それの第一歩が来たまでだ、唯物本位の猶太（ユダヤ）精神を捨て去って、否、第二義に下して、日本精神への第一義的飛躍であり、高揚でもあるのだ。<br/><br/>故に、この事を把握なし得る者が、今日以後の時代の新人であり、この真相を透観し得ないで、相も変らず、猶太式自由主義の墓所に低徊して、離るる事の出来ない人こそは、ついに時代の落伍者となるであろう。<br/><br/>宛（あたか）も、維新当時の神風連のそれのように―― 今日までの日本人意識は外国文明に駆使されて来たのであった、その魂までも蝕ばまれるまでにであった。<br/><br/>日本人でありながら、英国を、米国を、露西亜（ロシア）を、独逸（ドイツ）を、伊太利（イタリア）を憧憬讃美して、その魂は外国人になっていた、しかもそれが、指導階級であるところのインテリ群であった事が、思想の混乱と、階級の軋轢（あつれき）と、利欲闘争と、もろもろの矛盾とを生んで窮（きわま）りがなかった、しかもそれらを、得々として、文化の進歩とさえ伐（ほこ）っていた事であった。<br/><br/> 視よ一切の動向は、いとも自然に、偏頗（へんぱ）なく進んでいる。<br/><br/>物質文明の究極、それは闘争であり、その闘争の次に来るもの、それは文明の崩壊である。<br/><br/>今、全欧羅巴（ヨーロッパ）を見よ、それは如実に、しかも緩慢でなく、一歩一歩、その崩壊線に進んでいる危機は、誰が眼にも映って、否定する由もない。<br/><br/> 真の意味における、平和的精神は、独り日本民族に、天賦的に与えられている事に、もう日本人自体が、気が付いてもいいであろう、そうして、しかも、物質文明を、世界の何国人にも劣らないだけに、技能も、発展性も把捉して遺憾がないまでに、なっている事である。<br/><br/> ここに民族的使命の発見がある。<br/><br/>それは平和的、精神的である日本人が、東西両文明を融合し、新しい真文明を創造する、それによって初めて、全人類は更生し、恒久の平和はここに、確立するという事である。<br/><br/> この意義を通してのみ、現実的革新の本質を知る事が、出来得るであろう。<br/><br/> （昭和十一年三月二十三日） （注）澎湃（ほうはい）、水が激しく逆巻くさま。<br/><br/>物事が勢いよく起こるさま。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

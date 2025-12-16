@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinjin2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新人たれ 『栄光』73号、昭和25(1950)年10月11日発行 人は常に進歩向上を心掛けねばならない。<br><br>特に信仰者にしてしかりである。<br><br>ところが世間宗教や信仰などを口にすると、どうも古臭く思われたり、旧人扱いされたりする。<br><br>なるほど在来の宗教信者は、そういう傾きがあるのは否めないが、本教信者に限っては全然反対である。<br><br>否反対たるべく心掛けねばならない。<br><br> まず何よりも大自然を見るがいい。<br><br>大自然においては、一瞬の休みもなく新しく新しくと不断の進歩向上を続けている。<br><br>見よ、人間の数は年々殖える。<br><br>地球上の土地も年々開発される。<br><br>交通機関も、建造物も機械も、一として退嬰（たいえい）するものはない。<br><br>草も木も天に向かって伸びつつある。<br><br>一本といえども下を向いているものはない。<br><br>このように森羅万象ことごとく進歩向上しつつある実態をみて、人間といえどもそれにならうべきが真理である。<br><br> この意味において、私といえども去年より今年、今月より来月というように、飽くまで進歩向上心の弛（ゆる）まないよう努めている、といってもただ物質的の事業や職業や地位が向上する、というそれだけでは、根底のない浮遊的のものである。<br><br>根無し草である。<br><br>どうしても魂の進歩向上でなくてはならない。<br><br>要するに人格の向上である。<br><br>この心掛けを持って一歩ずつ気長に、自己を積み上げてゆくのである。<br><br>無論焦ってはならない。<br><br>ほんの僅かずつでもいい。<br><br>長い歳月によれば必ず立派な人間になる。<br><br>否、そのように実行せんとする心掛け、それだけでもう既に立派な人間になっている。<br><br>そのようにすれば、世間からは信用を受け万事巧くゆき幸福者となる事は請合である。<br><br> こういう言い方をすると、現代青年などは何だか旧道徳論を聞くようで、陳腐に思うかも知れないが、実は陳腐どころではない。<br><br>これが出来れば本当の新人である。<br><br>このような点を規準として私は多くの人を見ると、古臭く見えて仕方がない。<br><br>何ら進歩がなく、相変らずの考え方や話で、どこにも変り栄えが見出せない。<br><br>だからこういう人に逢っても少しの興味も湧かない。<br><br>話し合ってみても世間話以外何物もない。<br><br>宗教も政治も哲学も、芸術などの匂いすらない。<br><br>世間の大部分はこういう人がほとんどであるが、それもあえて咎（とが）める気はないが、少なくとも救世教の信者だけは、そういう旧人型は感心しないし、またそういう人は余りないようだ。<br><br>本教は知らるるごとく、世界の転換期に際し、全人類救いのために、誤れる文化に目醒めさせ、理想的新世界を造るにある以上、飽くまで新人たる事を心掛けねばならない。<br><br>私がいつもいう二十一世紀的文化人にならなくてはいけないと言うのは、その意味である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Tornem-se Pessoas Novas</h2>
 <p>O ser humano deve empenhar-se em progredir e elevar-se constantemente. Tal dever se acentua ainda mais para aqueles que trilham o caminho da fé. Ocorre, entretanto, que, quando se mencionam religião e fé no seio da sociedade, tais temas são vistos como antiquados ou rotulados de retrógrados. É inegável que os fiéis das religiões convencionais, de fato, demonstram tal inclinação; contudo, para os membros de nossa Igreja, a realidade é diametralmente oposta. Em verdade, é nosso dever primordial zelar para que assim o seja.</p>
 <p>Primeiramente, basta que observemos a grandiosidade da Natureza. Nela, o progresso e a renovação são incessantes, um movimento contínuo que não conhece pausa. Vejam: a população humana expande-se ano após ano; as terras do planeta são progressivamente desbravadas; os meios de transporte, as edificações, as máquinas — nenhum deles jamais retrocede. As árvores e as plantas, por sua vez, alongam-se em direção aos céus; não há uma sequer que se curve para o chão. Diante da realidade manifesta de que toda a Criação se encontra em constante avanço e aprimoramento, é uma verdade fundamental que o ser humano siga esse mesmo preceito.</p>
 <p>Nesse sentido, eu mesmo me esforço para que meu espírito de progresso jamais esmoreça, seja em relação ao ano que passou ou ao mês que virá. Todavia, é crucial compreender que a mera ascensão em aspectos materiais, como negócios, carreira ou posição social, representa uma conquista superficial, desprovida de alicerces. É como uma planta sem raízes. O verdadeiro avanço deve, impreterivelmente, ser o da alma. Em suma, trata-se da elevação do caráter. Com essa determinação, devemos edificar a nós mesmos, passo a passo, com perseverança. Evidentemente, a pressa é desaconselhável. Um avanço, por menor que seja, é o que importa. Ao longo dos anos, essa constância nos transformará, infalivelmente, em pessoas admiráveis. Aliás, a simples disposição de agir dessa maneira já nos torna pessoas de valor. Agindo assim, é garantido que conquistaremos a confiança da sociedade, obteremos êxito em todas as nossas empreitadas e nos tornaremos pessoas felizes.</p>
 <p>Ao ouvir tais palavras, os jovens de hoje talvez as considerem um sermão moralista, algo antiquado e clichê. A verdade, porém, é que esta postura está longe de ser obsoleta. Aquele que a pratica é, de fato, uma pessoa verdadeiramente nova. Quando observo as pessoas sob este prisma, a maioria me parece irremediavelmente anacrônica. Não demonstram qualquer progresso, permanecem estagnadas nas mesmas ideias e conversas, sem nenhum sinal de evolução. Por essa razão, não sinto o menor interesse ao me encontrar com indivíduos assim. O diálogo com eles não transcende as banalidades do cotidiano; não se percebe neles o mais tênue perfume de religião, política, filosofia ou arte. Embora a maior parte da sociedade seja composta por pessoas com esse perfil, e não seja minha intenção recriminá-las, ao menos os membros da Sekaikyuseikyou não devem se conformar com esse modelo retrógrado — e, felizmente, constato que poucos o fazem. Como é de vosso conhecimento, nossa Igreja se encontra em um ponto de transição da história mundial, com a missão de salvar toda a humanidade, despertando-a de uma cultura equivocada para construir um novo mundo ideal. Sendo assim, é nosso dever inabalável aspirar a nos tornarmos pessoas novas. É este o significado de minhas constantes palavras, quando afirmo que devemos nos tornar pessoas cultas, dignas do século XXI.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新人たれ 『栄光』73号、昭和25(1950)年10月11日発行 人は常に進歩向上を心掛けねばならない。<br/><br/>特に信仰者にしてしかりである。<br/><br/>ところが世間宗教や信仰などを口にすると、どうも古臭く思われたり、旧人扱いされたりする。<br/><br/>なるほど在来の宗教信者は、そういう傾きがあるのは否めないが、本教信者に限っては全然反対である。<br/><br/>否反対たるべく心掛けねばならない。<br/><br/> まず何よりも大自然を見るがいい。<br/><br/>大自然においては、一瞬の休みもなく新しく新しくと不断の進歩向上を続けている。<br/><br/>見よ、人間の数は年々殖える。<br/><br/>地球上の土地も年々開発される。<br/><br/>交通機関も、建造物も機械も、一として退嬰（たいえい）するものはない。<br/><br/>草も木も天に向かって伸びつつある。<br/><br/>一本といえども下を向いているものはない。<br/><br/>このように森羅万象ことごとく進歩向上しつつある実態をみて、人間といえどもそれにならうべきが真理である。<br/><br/> この意味において、私といえども去年より今年、今月より来月というように、飽くまで進歩向上心の弛（ゆる）まないよう努めている、といってもただ物質的の事業や職業や地位が向上する、というそれだけでは、根底のない浮遊的のものである。<br/><br/>根無し草である。<br/><br/>どうしても魂の進歩向上でなくてはならない。<br/><br/>要するに人格の向上である。<br/><br/>この心掛けを持って一歩ずつ気長に、自己を積み上げてゆくのである。<br/><br/>無論焦ってはならない。<br/><br/>ほんの僅かずつでもいい。<br/><br/>長い歳月によれば必ず立派な人間になる。<br/><br/>否、そのように実行せんとする心掛け、それだけでもう既に立派な人間になっている。<br/><br/>そのようにすれば、世間からは信用を受け万事巧くゆき幸福者となる事は請合である。<br/><br/> こういう言い方をすると、現代青年などは何だか旧道徳論を聞くようで、陳腐に思うかも知れないが、実は陳腐どころではない。<br/><br/>これが出来れば本当の新人である。<br/><br/>このような点を規準として私は多くの人を見ると、古臭く見えて仕方がない。<br/><br/>何ら進歩がなく、相変らずの考え方や話で、どこにも変り栄えが見出せない。<br/><br/>だからこういう人に逢っても少しの興味も湧かない。<br/><br/>話し合ってみても世間話以外何物もない。<br/><br/>宗教も政治も哲学も、芸術などの匂いすらない。<br/><br/>世間の大部分はこういう人がほとんどであるが、それもあえて咎（とが）める気はないが、少なくとも救世教の信者だけは、そういう旧人型は感心しないし、またそういう人は余りないようだ。<br/><br/>本教は知らるるごとく、世界の転換期に際し、全人類救いのために、誤れる文化に目醒めさせ、理想的新世界を造るにある以上、飽くまで新人たる事を心掛けねばならない。<br/><br/>私がいつもいう二十一世紀的文化人にならなくてはいけないと言うのは、その意味である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

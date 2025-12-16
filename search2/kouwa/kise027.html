@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kise027</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 ３ 027-044 守護神、光 027 琵琶湖富士光玉の奇瑞 丁度下図の日本地図の琵琶湖の辺へ上の方から実に綺麗な強い光の玉が降って来て（その玉はダイヤのように光る玉です）その玉を見逃すまいと見つめておりますと、富士山の辺まで行ってまた帰って来て、琵琶湖の辺で元の玉と一所になるのです。<br><br>そしてそのまわり一面は五色か七色のとても綺麗な点々とした色が見えます。<br><br>何かの御知らせでございましょうか。<br><br>平常は見えませんが、見ようと思って見れば見えるのでございます。<br><br>あまり綺麗なため御伺い致します。<br><br> 伊都能売神は、霊は富士山、体は琵琶湖に金龍としておいでになる。<br><br>それで琵琶湖と富士山を行ったり来たりしておられる。<br><br>西村の信仰が復活するよう、先祖が神様にお願いして見せて下さる。<br><br>大先生のお腹の玉と関係がある。<br><br> （S24. 7.23） 028 琵琶湖龍巻四十分間 昭和九年九月二十二日午後四時頃から約四十分間写真のような龍巻が琵琶湖上（堅田浮御堂沖二浬の地点）に起りました。<br><br>目測直径二メートル位の水柱は天に冲（ちゅう）し、漸次北方へ移動致しました。<br><br>場所は昭和四年四月二十一日の大龍巻と略（ほぼ）同じであったそうで御座います。<br><br>いかなる神秘があるので御座いましょうか。<br><br>御教えを賜りとうございます。<br><br>また、この写真を撮影した千舟写真館は滋賀県下に知られた大きい店で御座いましたが、その後日ならずして衰微し、家人も全部死に絶えて、今は跡方もないそうで御座います。<br><br>何か訳が御座いましょうか。<br><br> 四十分間というのは今迄に例がない。<br><br> 029 庭一面光り輝く（入信して） 私は昨年十一月夫婦で入信させて頂きましたが、本年二月中旬私宅において教修が終りました翌日、庭一面に積った雪が溶けかかっておりましたが、それに朝日が照り映え、その綺麗さは普通と異なり、庭も庭木も一面にちょうどブルーホワイトのダイヤモンドが輝くごとく何とも言えない美しさに輝き約五分間程で普通の美しさに変りましたのを妻と二人で見ました。<br><br> また、四月中旬頃、私が御神体と御写真の方に向いまして光新聞を拝誦致しております時、私の背後の庭の中心に当る直径二間位の場所がちょうど地中から照明されたように庭も庭木も照り映え、約五分位にてもとの通りになったと妻は申します。<br><br> また、四月二十五日、私宅における座談会の日、家族にてお参り致しております時、大光明如来様の「来」の御文字の高さの所の砂ズリの壁が五ケ所位大豆大のダイヤモンドのように三分位輝いたのを妻が見ました。<br><br>また、私は最近明主様の事を考えたり、フト頭に浮んだ時は時と場所を問わず涙が出て仕方ない場合が多く、きまりが悪くなる位で御座います。<br><br>また、お蔭話を人に読んで上げます場合も涙が出て、ともすれば声がつまり困る事が御座います。<br><br> なお、私は入信前は一升、二升と飲みました酒も、最近は三勺位飲みますと翌日はこたえる位に御蔭を頂き、入信前より健康状態は宜しく、神経衰弱な泣虫になったとは思われません。<br><br>以上の事実はいかなる訳で御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> これは神様がお喜びになって、そのお祝いなのであろう。<br><br>これは地に住んでいる龍神がするのである。<br><br>この人に祖霊が憑って嬉しいのである。<br><br>お酒はお腹のお客様が萎縮したのである。<br><br>神格を得た祖先がある。<br><br>（S25. 5.22） 030 家の守護神 先達ての台風で信者の家（家族の中三人だけが信者で御神体は未だ戴いておりません）の庭の欅の木が二本（周り三尺位）屋根に倒れかかって来ました。<br><br>一本の方は枝をはらったりしてやっと起しましたが、もう一本の方は近所の人の助けを借りることにして、それにしてもお茶を呑んでからと一服し、三十分程して行ってみますと、その木がいつの間にかもと通りに起きていました。<br><br>この事についてお伺い申し上げます。<br><br> 奇蹟である。<br><br>三十分ほどして起きた――これはある。<br><br>その家の守護神が起すのである。<br><br>木の霊を起したのである。<br><br>珍しい事である。<br><br>人々にも守護神があるごとく、家にも守護神がある。<br><br>御神体を戴いておればもっと軽くなる。<br><br>信者の信仰の徳に因る。<br><br> 031 火の玉部屋にあり 奥さんのみ御守様を頂きまして半ケ月後のある晩、午前一時頃より家の中に火の玉が一個約二時間程動いており、驚いて奥さんが善言讃詞を上げさせて頂き、約二十分程後に消えましたが、いかなる訳で御座居ましょうか。<br><br>御守様を戴いておりません御主人もともに見えたそうです。<br><br> 祖先で神格を得たものが、主人も早く入信させるために見せたのであろう。<br><br>今迄の夜の世の中では出来なかったが、この頃は霊界が変ったので出来る。<br><br>今後不思議な事が沢山出る。<br><br>（S24. 2. 4） 032 爆音して障子紙切れ床にあり 私は二十二年入信、その後腸結核の浄化あり、本年二月二十四日にはすでに危い所まで行きましたが、御守護により助けて頂きました。<br><br>三月三日光明如来様をお祭り致しました。<br><br>その翌日正午頃、何か爆発するような音がし、御神前の次の間の障子紙がカミソリで切ったように綺麗にはぎ取られ、その紙が御神前へちゃんと置いてありましたが、これは何かのお知らせで御座いましょうか。<br><br> なお、この光明如来様をお祭り致しました床には六所神社と書いた氏神様のお軸が掛けてありましたが、これは巻いて床の脇の方へ置いてありますが、それでよろしゅう御座いましょうか。<br><br> 右、謹しんでお伺い申し上げます。<br><br> それでよい。<br><br>氏神は三宝の上へ巻いておいた方がよい。<br><br>紙は六所神社の神かも知れぬ。<br><br>こういう事もある。<br><br>（S25. 5. 3） 033 大音と光の玉（日と月系統の光色） 私の関係信徒、海老野藤八氏の光明如来様の御祭りの翌日には、大変主人は苦しがり、当夜半二時頃子供の小便に目がさめて、何気なく表を見た折、突然トタンが落ちる音と共に、赤い目の玉のようなものが見えました。<br><br>夫婦共見ました。<br><br>後で気が付けば屋根のトタンは落ちておりません。<br><br>光明如来様といかなる関係がありましょうか。<br><br>御教示下さい。<br><br> 相当の神がお知らせになったのである。<br><br>音で知らされる事はよくある。<br><br>お宮の場合よく音をさす。<br><br> 光の玉というのは神の霊で、移動される時は玉になられる。<br><br>人魂のようなものである。<br><br>赤い光は日の系統、白色や紫色は月の系統である。<br><br>（S25. 4.25） 034 入信前仏壇に奇音を聞く 毎年お盆の十三日より十五日まで仏壇にて、ジージーと言うセミの啼き声のような音がして、手をふれたり声をかけてもやみませんでしたが、私がこの道に精進させて戴くようになり、光明如来様並びに屏風観音様を御祭させていただきました今年のお盆には、私も郷里で色々と先祖のお祭をしましたが、以前のような音は全然聞えません。<br><br>入信した他の家にも同様な事が起っております。<br><br>いかなる訳で御座いましょうか。<br><br>御伺い致します。<br><br> 祖霊が何か知らせたい。<br><br>それでこんな音をさせたのである。<br><br>信仰に入ったので、満足したので、その必要がなくなった。<br><br>（S24. 8.28） 035 寺の不思議（住職の霊示） 私の村の真宗寺の出来事で御座いますが、昨年十二月二十三日頃より毎夜九時頃に御堂の方で拍子木の音が聞えます。<br><br>御堂へ行ってみますと庫裏（くり）で聞え、庫裏へ帰ればまた御堂で音が致します。<br><br>拍子木は三組あり、木の質によって音が異っておりますが、聞える音も三種の音が致します。<br><br>その音が一月五日頃までして、それからは音がしなくなりました。<br><br>因みにその寺の老住職は昨年二月に亡くなり、その後すぐに住職になった人は昨年春頃より本教について研究しておりますが、未だに入信致しておりません。<br><br>右の拍子木の音に何か霊的の関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 老住職が霊界へ行ってこの教えを知ったので、現住職に信仰に入ってもらいたいのを知らせたいため、外に方法がなかったのでそうした。<br><br>入信しなくてはいけない。<br><br>でないと外のお知らせになる。<br><br>（S25. 2.15） 036 小音と共に光見ゆ 父健蔵（五十三歳）、座骨神経痛にて今月十一日に教修を戴き、その晩床の中に入り、十二時四十分頃、頭上にて電気のスイッチを捻った程度の音と共に直径約四十センチ位の金と銀の中間色の光が見えました。<br><br>次いで十四日教導所に御参りに上りました。<br><br>その翌朝、五時頃、同じような音がして直径二十センチ位の前と同様の光が見え、一尺位下り消えました。<br><br>何か訳が御座居ましょうか。<br><br> 神である。<br><br>それ程位の高い神ではない。<br><br>神が守護しているのと、祖先で神格を得てるのが喜んで知らす。<br><br> 霊が空間を行く時は玉になる。<br><br>光のあるのは神格を得ている。<br><br>人間のはボーッとしている。<br><br>（S24. 8.19） 037 患家への帰着に異音を聞く 私の妹の主人が肺病で寝ていますので、私が行って観音様の有難いことを話してやりましたが判りません。<br><br>私が帰る時表に出ると、後ろの方で竹を割るような音がし、自分の家へ着くとまた前の音と同じような音が致しました。<br><br>何かのお知らせでしょうか。<br><br> 大した事ない。<br><br>先方の祖先で、守護している霊で、送り迎えする訳である。<br><br> 038 御奉斎屋根に火の玉 私はただ今大光明如来様を奉斎し、教導所として御用に邁進致しておりますが「今月二十日十八時頃、自宅屋上より直径二寸位の丸い真赤な火の玉が一メートル程横に飛び出て、床の間の屋根の上に落ちました」のを隣家の人が直視したと申しておりますが、観音様とあるいは霊的に何か関係がありましょうか。<br><br>御教示下さい。<br><br> 関係ある。<br><br>霊である。<br><br>真赤な火の玉であるから、生霊の場合もあるが、観音様に憧れて遠くから来たもので、一たん止ってまた移動したので、祖霊の中で神格を得た人といったのは火の玉になって移動する。<br><br>であるから祖霊の古いものである。<br><br>観音様にお願いがあるとか、大光明如来様にお遇いしたいとかいう意味で、許されて来たものである。<br><br>（S24.11.25） 039 光の玉舞い人に打つかる ある未入信の方で御座いますが、最近直径八寸程の丸い光の玉がどこからともなく家の中に侵入して、御光を頂いている方にぶつかると煙のようになって消えてしまうと申します。<br><br>極最近はその玉が蚊帳の上にて舞い廻っているとの事で御座います。<br><br>この丸い玉はいかなるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 祖先が喜んでるのを見せたいのである。<br><br>龍神に言いつけてする。<br><br>（眷族）（S24. 9.12） 040 入信後、火の玉音立てて落下す 兄の妻、入信後約一週間を経たある夜、未入信の弟（次男）が床についてから暫くして、御仏壇の前方六尺程離れた襖のところに直径約六寸大の青い火の玉の閃光がボッと音をたてて輝き、消えると共にその中から更に一寸位の芯とも思えるような火の玉が落下しましたが、それにについての変化は別に何にも起りませんでした。<br><br>この火の玉は隣室に休んでいた母や弟（三男）も同様の状態で見たそうですが、同じ隣室に休んでいた長男夫婦は全然知らず、またこの日は仏の日でも何でもないそうです。<br><br>何か霊的に意味がありましょうか。<br><br> 祖霊で火龍になっているものが、入信したんでお祝いに来たのである。<br><br> 火龍はよく雷の働きをする。<br><br> 041 無数の火の玉降る ある信者さんの実家で、その家は未入信で御座いますが、八月十三日午后九時十五分頃、屋根の上一尺程のところより火の玉のような物が数知れず裏庭へ降り、地上三尺程で無くなったそうで御座います。<br><br>丁度お盆の前日であり、その火の玉の大きさは昔の五十銭銀貨程で、小さいのは火の粉のようで、続いて三回降ったそうで御座います。<br><br>これは先祖の霊で御座いましょうか。<br><br>あるいは火龍の働きで御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 先祖の霊である。<br><br>この通り来るという事を信じさせるため、霊もいろいろ工夫して見せるのである。<br><br>（S24. 9.12） 042 近来の火の玉 近頃よく火の玉の話を聞きます。<br><br>私も正月早々でしたが、月のような火の玉が空にパッと消えたのを見たのですが、何でありましょうか。<br><br> （よく聞くが）、火龍が見えるので、日の系統の龍神である。<br><br>（今火の系統の龍神が活動し出した）（S24. 2.27） 043 石垣から光の玉と黒玉 ある家の屋敷廻りの石垣の辺りから夜火の玉が出て、しかもその火の玉の中から黒い玉が飛び出したのを二回程その家の姉妹が見たと申します。<br><br>妹一人だけ入信していて、後の者は父母も皆未入信です。<br><br>何か祖霊と関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 石垣に蛇の霊がいる。<br><br>その辺で殺された霊である。<br><br>火の玉の中から蛇が出たのである。<br><br>上等の霊は光の玉になり、悪い方は黒い光となる。<br><br>（S24. 9.11） 044 赤い光玉投票箱より出づ 岩手県古城村農業協同組合の理事選挙中投票箱より赤い光の玉がスーッと二間位一つ飛び出しましたのを信者の一人が見て、不思議の余り側の人に知らせますと、その人も見えたとの事で御座います。<br><br>その後、組合長が脳溢血で一ケ月半位で死亡致し、続いて職員が半月位後に同じ症状で急死致しております。<br><br>右の赤い玉は何か意味が御座いましょうか。<br><br>また組合長の死と関係が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 深い霊的意味がある。<br><br>投票に関係があり、組合長に対する怨みで、それが多数の怨みで、共同で組合長をやっつける。<br><br>それで職員も巻添をくった。<br><br>こういう事はない事はない。<br><br>（S25. 5.22）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compêndio de Milagres e Fenômenos Prodigiosos 3: Deuses Guardiães e Luz (027-044)</h2>
 <h3>027 O Presságio Auspicioso da Esfera de Luz entre o Lago Biwa e o Monte Fuji</h3>
@@ -354,5 +506,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 ３ 027-044 守護神、光 027 琵琶湖富士光玉の奇瑞 丁度下図の日本地図の琵琶湖の辺へ上の方から実に綺麗な強い光の玉が降って来て（その玉はダイヤのように光る玉です）その玉を見逃すまいと見つめておりますと、富士山の辺まで行ってまた帰って来て、琵琶湖の辺で元の玉と一所になるのです。<br/><br/>そしてそのまわり一面は五色か七色のとても綺麗な点々とした色が見えます。<br/><br/>何かの御知らせでございましょうか。<br/><br/>平常は見えませんが、見ようと思って見れば見えるのでございます。<br/><br/>あまり綺麗なため御伺い致します。<br/><br/> 伊都能売神は、霊は富士山、体は琵琶湖に金龍としておいでになる。<br/><br/>それで琵琶湖と富士山を行ったり来たりしておられる。<br/><br/>西村の信仰が復活するよう、先祖が神様にお願いして見せて下さる。<br/><br/>大先生のお腹の玉と関係がある。<br/><br/> （S24. 7.23） 028 琵琶湖龍巻四十分間 昭和九年九月二十二日午後四時頃から約四十分間写真のような龍巻が琵琶湖上（堅田浮御堂沖二浬の地点）に起りました。<br/><br/>目測直径二メートル位の水柱は天に冲（ちゅう）し、漸次北方へ移動致しました。<br/><br/>場所は昭和四年四月二十一日の大龍巻と略（ほぼ）同じであったそうで御座います。<br/><br/>いかなる神秘があるので御座いましょうか。<br/><br/>御教えを賜りとうございます。<br/><br/>また、この写真を撮影した千舟写真館は滋賀県下に知られた大きい店で御座いましたが、その後日ならずして衰微し、家人も全部死に絶えて、今は跡方もないそうで御座います。<br/><br/>何か訳が御座いましょうか。<br/><br/> 四十分間というのは今迄に例がない。<br/><br/> 029 庭一面光り輝く（入信して） 私は昨年十一月夫婦で入信させて頂きましたが、本年二月中旬私宅において教修が終りました翌日、庭一面に積った雪が溶けかかっておりましたが、それに朝日が照り映え、その綺麗さは普通と異なり、庭も庭木も一面にちょうどブルーホワイトのダイヤモンドが輝くごとく何とも言えない美しさに輝き約五分間程で普通の美しさに変りましたのを妻と二人で見ました。<br/><br/> また、四月中旬頃、私が御神体と御写真の方に向いまして光新聞を拝誦致しております時、私の背後の庭の中心に当る直径二間位の場所がちょうど地中から照明されたように庭も庭木も照り映え、約五分位にてもとの通りになったと妻は申します。<br/><br/> また、四月二十五日、私宅における座談会の日、家族にてお参り致しております時、大光明如来様の「来」の御文字の高さの所の砂ズリの壁が五ケ所位大豆大のダイヤモンドのように三分位輝いたのを妻が見ました。<br/><br/>また、私は最近明主様の事を考えたり、フト頭に浮んだ時は時と場所を問わず涙が出て仕方ない場合が多く、きまりが悪くなる位で御座います。<br/><br/>また、お蔭話を人に読んで上げます場合も涙が出て、ともすれば声がつまり困る事が御座います。<br/><br/> なお、私は入信前は一升、二升と飲みました酒も、最近は三勺位飲みますと翌日はこたえる位に御蔭を頂き、入信前より健康状態は宜しく、神経衰弱な泣虫になったとは思われません。<br/><br/>以上の事実はいかなる訳で御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> これは神様がお喜びになって、そのお祝いなのであろう。<br/><br/>これは地に住んでいる龍神がするのである。<br/><br/>この人に祖霊が憑って嬉しいのである。<br/><br/>お酒はお腹のお客様が萎縮したのである。<br/><br/>神格を得た祖先がある。<br/><br/>（S25. 5.22） 030 家の守護神 先達ての台風で信者の家（家族の中三人だけが信者で御神体は未だ戴いておりません）の庭の欅の木が二本（周り三尺位）屋根に倒れかかって来ました。<br/><br/>一本の方は枝をはらったりしてやっと起しましたが、もう一本の方は近所の人の助けを借りることにして、それにしてもお茶を呑んでからと一服し、三十分程して行ってみますと、その木がいつの間にかもと通りに起きていました。<br/><br/>この事についてお伺い申し上げます。<br/><br/> 奇蹟である。<br/><br/>三十分ほどして起きた――これはある。<br/><br/>その家の守護神が起すのである。<br/><br/>木の霊を起したのである。<br/><br/>珍しい事である。<br/><br/>人々にも守護神があるごとく、家にも守護神がある。<br/><br/>御神体を戴いておればもっと軽くなる。<br/><br/>信者の信仰の徳に因る。<br/><br/> 031 火の玉部屋にあり 奥さんのみ御守様を頂きまして半ケ月後のある晩、午前一時頃より家の中に火の玉が一個約二時間程動いており、驚いて奥さんが善言讃詞を上げさせて頂き、約二十分程後に消えましたが、いかなる訳で御座居ましょうか。<br/><br/>御守様を戴いておりません御主人もともに見えたそうです。<br/><br/> 祖先で神格を得たものが、主人も早く入信させるために見せたのであろう。<br/><br/>今迄の夜の世の中では出来なかったが、この頃は霊界が変ったので出来る。<br/><br/>今後不思議な事が沢山出る。<br/><br/>（S24. 2. 4） 032 爆音して障子紙切れ床にあり 私は二十二年入信、その後腸結核の浄化あり、本年二月二十四日にはすでに危い所まで行きましたが、御守護により助けて頂きました。<br/><br/>三月三日光明如来様をお祭り致しました。<br/><br/>その翌日正午頃、何か爆発するような音がし、御神前の次の間の障子紙がカミソリで切ったように綺麗にはぎ取られ、その紙が御神前へちゃんと置いてありましたが、これは何かのお知らせで御座いましょうか。<br/><br/> なお、この光明如来様をお祭り致しました床には六所神社と書いた氏神様のお軸が掛けてありましたが、これは巻いて床の脇の方へ置いてありますが、それでよろしゅう御座いましょうか。<br/><br/> 右、謹しんでお伺い申し上げます。<br/><br/> それでよい。<br/><br/>氏神は三宝の上へ巻いておいた方がよい。<br/><br/>紙は六所神社の神かも知れぬ。<br/><br/>こういう事もある。<br/><br/>（S25. 5. 3） 033 大音と光の玉（日と月系統の光色） 私の関係信徒、海老野藤八氏の光明如来様の御祭りの翌日には、大変主人は苦しがり、当夜半二時頃子供の小便に目がさめて、何気なく表を見た折、突然トタンが落ちる音と共に、赤い目の玉のようなものが見えました。<br/><br/>夫婦共見ました。<br/><br/>後で気が付けば屋根のトタンは落ちておりません。<br/><br/>光明如来様といかなる関係がありましょうか。<br/><br/>御教示下さい。<br/><br/> 相当の神がお知らせになったのである。<br/><br/>音で知らされる事はよくある。<br/><br/>お宮の場合よく音をさす。<br/><br/> 光の玉というのは神の霊で、移動される時は玉になられる。<br/><br/>人魂のようなものである。<br/><br/>赤い光は日の系統、白色や紫色は月の系統である。<br/><br/>（S25. 4.25） 034 入信前仏壇に奇音を聞く 毎年お盆の十三日より十五日まで仏壇にて、ジージーと言うセミの啼き声のような音がして、手をふれたり声をかけてもやみませんでしたが、私がこの道に精進させて戴くようになり、光明如来様並びに屏風観音様を御祭させていただきました今年のお盆には、私も郷里で色々と先祖のお祭をしましたが、以前のような音は全然聞えません。<br/><br/>入信した他の家にも同様な事が起っております。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御伺い致します。<br/><br/> 祖霊が何か知らせたい。<br/><br/>それでこんな音をさせたのである。<br/><br/>信仰に入ったので、満足したので、その必要がなくなった。<br/><br/>（S24. 8.28） 035 寺の不思議（住職の霊示） 私の村の真宗寺の出来事で御座いますが、昨年十二月二十三日頃より毎夜九時頃に御堂の方で拍子木の音が聞えます。<br/><br/>御堂へ行ってみますと庫裏（くり）で聞え、庫裏へ帰ればまた御堂で音が致します。<br/><br/>拍子木は三組あり、木の質によって音が異っておりますが、聞える音も三種の音が致します。<br/><br/>その音が一月五日頃までして、それからは音がしなくなりました。<br/><br/>因みにその寺の老住職は昨年二月に亡くなり、その後すぐに住職になった人は昨年春頃より本教について研究しておりますが、未だに入信致しておりません。<br/><br/>右の拍子木の音に何か霊的の関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 老住職が霊界へ行ってこの教えを知ったので、現住職に信仰に入ってもらいたいのを知らせたいため、外に方法がなかったのでそうした。<br/><br/>入信しなくてはいけない。<br/><br/>でないと外のお知らせになる。<br/><br/>（S25. 2.15） 036 小音と共に光見ゆ 父健蔵（五十三歳）、座骨神経痛にて今月十一日に教修を戴き、その晩床の中に入り、十二時四十分頃、頭上にて電気のスイッチを捻った程度の音と共に直径約四十センチ位の金と銀の中間色の光が見えました。<br/><br/>次いで十四日教導所に御参りに上りました。<br/><br/>その翌朝、五時頃、同じような音がして直径二十センチ位の前と同様の光が見え、一尺位下り消えました。<br/><br/>何か訳が御座居ましょうか。<br/><br/> 神である。<br/><br/>それ程位の高い神ではない。<br/><br/>神が守護しているのと、祖先で神格を得てるのが喜んで知らす。<br/><br/> 霊が空間を行く時は玉になる。<br/><br/>光のあるのは神格を得ている。<br/><br/>人間のはボーッとしている。<br/><br/>（S24. 8.19） 037 患家への帰着に異音を聞く 私の妹の主人が肺病で寝ていますので、私が行って観音様の有難いことを話してやりましたが判りません。<br/><br/>私が帰る時表に出ると、後ろの方で竹を割るような音がし、自分の家へ着くとまた前の音と同じような音が致しました。<br/><br/>何かのお知らせでしょうか。<br/><br/> 大した事ない。<br/><br/>先方の祖先で、守護している霊で、送り迎えする訳である。<br/><br/> 038 御奉斎屋根に火の玉 私はただ今大光明如来様を奉斎し、教導所として御用に邁進致しておりますが「今月二十日十八時頃、自宅屋上より直径二寸位の丸い真赤な火の玉が一メートル程横に飛び出て、床の間の屋根の上に落ちました」のを隣家の人が直視したと申しておりますが、観音様とあるいは霊的に何か関係がありましょうか。<br/><br/>御教示下さい。<br/><br/> 関係ある。<br/><br/>霊である。<br/><br/>真赤な火の玉であるから、生霊の場合もあるが、観音様に憧れて遠くから来たもので、一たん止ってまた移動したので、祖霊の中で神格を得た人といったのは火の玉になって移動する。<br/><br/>であるから祖霊の古いものである。<br/><br/>観音様にお願いがあるとか、大光明如来様にお遇いしたいとかいう意味で、許されて来たものである。<br/><br/>（S24.11.25） 039 光の玉舞い人に打つかる ある未入信の方で御座いますが、最近直径八寸程の丸い光の玉がどこからともなく家の中に侵入して、御光を頂いている方にぶつかると煙のようになって消えてしまうと申します。<br/><br/>極最近はその玉が蚊帳の上にて舞い廻っているとの事で御座います。<br/><br/>この丸い玉はいかなるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 祖先が喜んでるのを見せたいのである。<br/><br/>龍神に言いつけてする。<br/><br/>（眷族）（S24. 9.12） 040 入信後、火の玉音立てて落下す 兄の妻、入信後約一週間を経たある夜、未入信の弟（次男）が床についてから暫くして、御仏壇の前方六尺程離れた襖のところに直径約六寸大の青い火の玉の閃光がボッと音をたてて輝き、消えると共にその中から更に一寸位の芯とも思えるような火の玉が落下しましたが、それにについての変化は別に何にも起りませんでした。<br/><br/>この火の玉は隣室に休んでいた母や弟（三男）も同様の状態で見たそうですが、同じ隣室に休んでいた長男夫婦は全然知らず、またこの日は仏の日でも何でもないそうです。<br/><br/>何か霊的に意味がありましょうか。<br/><br/> 祖霊で火龍になっているものが、入信したんでお祝いに来たのである。<br/><br/> 火龍はよく雷の働きをする。<br/><br/> 041 無数の火の玉降る ある信者さんの実家で、その家は未入信で御座いますが、八月十三日午后九時十五分頃、屋根の上一尺程のところより火の玉のような物が数知れず裏庭へ降り、地上三尺程で無くなったそうで御座います。<br/><br/>丁度お盆の前日であり、その火の玉の大きさは昔の五十銭銀貨程で、小さいのは火の粉のようで、続いて三回降ったそうで御座います。<br/><br/>これは先祖の霊で御座いましょうか。<br/><br/>あるいは火龍の働きで御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 先祖の霊である。<br/><br/>この通り来るという事を信じさせるため、霊もいろいろ工夫して見せるのである。<br/><br/>（S24. 9.12） 042 近来の火の玉 近頃よく火の玉の話を聞きます。<br/><br/>私も正月早々でしたが、月のような火の玉が空にパッと消えたのを見たのですが、何でありましょうか。<br/><br/> （よく聞くが）、火龍が見えるので、日の系統の龍神である。<br/><br/>（今火の系統の龍神が活動し出した）（S24. 2.27） 043 石垣から光の玉と黒玉 ある家の屋敷廻りの石垣の辺りから夜火の玉が出て、しかもその火の玉の中から黒い玉が飛び出したのを二回程その家の姉妹が見たと申します。<br/><br/>妹一人だけ入信していて、後の者は父母も皆未入信です。<br/><br/>何か祖霊と関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 石垣に蛇の霊がいる。<br/><br/>その辺で殺された霊である。<br/><br/>火の玉の中から蛇が出たのである。<br/><br/>上等の霊は光の玉になり、悪い方は黒い光となる。<br/><br/>（S24. 9.11） 044 赤い光玉投票箱より出づ 岩手県古城村農業協同組合の理事選挙中投票箱より赤い光の玉がスーッと二間位一つ飛び出しましたのを信者の一人が見て、不思議の余り側の人に知らせますと、その人も見えたとの事で御座います。<br/><br/>その後、組合長が脳溢血で一ケ月半位で死亡致し、続いて職員が半月位後に同じ症状で急死致しております。<br/><br/>右の赤い玉は何か意味が御座いましょうか。<br/><br/>また組合長の死と関係が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 深い霊的意味がある。<br/><br/>投票に関係があり、組合長に対する怨みで、それが多数の怨みで、共同で組合長をやっつける。<br/><br/>それで職員も巻添をくった。<br/><br/>こういう事はない事はない。<br/><br/>（S25. 5.22）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

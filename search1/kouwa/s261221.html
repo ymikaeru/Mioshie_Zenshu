@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261221</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月21日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月二十一日 今度、結核問題に対して本を作って、信者向きでなく、一般に――医学会に原子爆弾をぶつける――こういう考えなんですがね。<br><br>何しろ、あんまり馬鹿馬鹿しい事をしてるんで、到底黙っちゃおられない状態になってますね。<br><br>以前から、結核の間違いなんかを書いて、本を出したり色々したんですが、今までは思い切って書かなかったんですね。<br><br>どうも、何だか危ないような気がしたんでよほど緩和して書いたんです。<br><br>けれども、段々調べてみると、法律上からは別に引っかかるような点はないし、それと、いつまではっきり言わないわけにはいかないようになって来たんで、本当の事を、ありのまま書いたんです。<br><br>そこで、これを――出来たら今度新聞広告を何回も出そうと思っている。<br><br>それから、日本中の大学の医学部とか、医師会とか、大病院とか、肺病に関した病院、療養所、それから新聞社、主な官庁と――そういう方面に配ろうと思ってます。<br><br>一人でも多く読ませようと思ってね。<br><br>そういう意味で書き始めたんですが、まだ最初のうちですけれども、やはり英文に訳して、外国にもやろうと思ってますがね。<br><br>世界に向かっての原子爆弾ですね。<br><br>本の名前は「結核信仰療法」としたんです。<br><br> （御論文「序文」「医学が結核を作る」「結核は感染しない」） （文中に「某夫人とキッス――」とあり） 某夫人というのは、今の私の奥さんなんですよ。<br><br>今はあんなに太ってますが、以前は結核で喀血して、血痰を出して、骨と皮になっていた。<br><br>その前に私がやってみて、伝染しないという事が分かった。<br><br>何も――妻とキッスしても、差し支えないですからね。<br><br> このくらいはっきりすれば、少しは解るだろうと思いますね。<br><br>むしろ、大いに反感を持ったり、憤慨したりするかもしれませんがね。<br><br>そうなれば、かえって面白いですよ。<br><br>どうせ、間違っちゃいないんだから――本当なんだから、解るのも早くなるという訳ですからね。<br><br>ですから、とにかく相当のセンセーションを起こすだろうと思います。<br><br>そんな騒がしい事はしっこないんですが、どうしてもそこまでしなければ、多くの人間を救うことは出来ないですからね。<br><br>実に間違った医学のために結核を増やしているんですから、いかに沢山の人が憎み苦しんでいるかは、これは実に分かり切った事ですからね。<br><br>それを、今救ってやる事が一番必要なわけですね。<br><br>何しろこっちは、本当の証拠を見せるんだから、何でもない訳だ。<br><br>実際言うと、医学でも薄々は解っているんですよ。<br><br>解っているけれども、何ですね――しょうがないと言うか――ちょうど、他の事に例えてみると、良く解るんですよ。<br><br>今問題になっている官吏の汚職ですね、結局知れて刑務所に行くと言う事は解っているんですよ。<br><br>けれども、金が欲しいとか酒が飲みたいとか女が欲しいとか言う――そいつが、我慢できない。<br><br>そこで、あわよくば、ごまかし得ると言うわけですね。<br><br>ですから、結核療法なんかやっても、駄目――大して効果がないと言う事は解ってますが、それをやらなければ「メシ」が食えないし、そうかと言って、自分たちが作っていると言う事までは解っていないんですね。<br><br>浄化停止をすれば、苦痛が減るから、これで治ると思っているぐらいなものですね。<br><br>浄化停止をすれば、苦痛が減ると言うのは、まだ良い方で、学理上から言って、そうなるべきことになっていると言うんです――案外多いんですよ。<br><br>思ったよりは治らない――「先生、どう言うわけだろう」と患者が聞くと、「そんな訳はない。<br><br>理屈から行くと治るんだから、あなたがどうかしている」と言う。<br><br>私も経験があります――昔、歯が痛い時にね。<br><br>歯の学士か何かです。<br><br>一カ月くらい経ってから行って、まだ痛い――そう言ったんです。<br><br>すると「そんな事はない。<br><br>確かに良くなっているんだ。<br><br>それで痛むのはどうかしている。<br><br>あなたの方が間違っている」こういうんですからね。<br><br>つまり痛みがあっても、学理上から言ったら、治っているんだ、と言うんです。<br><br>随分変な理屈ですね。<br><br>我々は事実を一番上にしているんですね。<br><br>ところが、そう言う人たちは、事実より理屈を上にしてくる。<br><br>よく、浄霊する時に、こんな――手を振ったくらいで治るわけがない。<br><br>一体どう言う理屈になっているか、それを聞かしてもらおうと言うのが、よくありますよ。<br><br>理屈にとらわれているんですね。<br><br>理屈よりも事実ですね。<br><br>病気だから良いが――御馳走する場合に、これは理屈から言ってうまいんだ、と言うが、食べてみるとまずい。<br><br>それから、嫁を貰う場合に、あれは気立てが良い、器量が良い。<br><br>だからあれを貰おうと言う――そう言った人間の好き嫌いは理屈ではないですからね。<br><br>これは言う必要はないが――感じですからね。<br><br>あれは好きだ。<br><br>好きだと言ってそんな美人ではない。<br><br>それに、そう教育もない。<br><br>あれと同じです。<br><br>何でも理屈ずくめですね。<br><br>それが、文明の弊害と言いますかね。<br><br>そんなような訳で、この論文なんかも、どこまでも事実で押していくんですがね。<br><br>結局において、どんなに医者の方で文句言った所で、事実には勝てないから、結局は先が負けるに決まってますがね。<br><br> （寄書「神は子供を愛しみ給う」）【栄光 第一三九号】 段々、結核製造も――つまり準備が整ってきたんで、子供から製造に取りかかるんですね。<br><br>今、日本でストレプトマイシンの製造なんか、非常に増えてきて、色んな――結核に関係した薬ですね。<br><br>そういうようなものも、輸出するんです。<br><br>どこに輸出するかと言うとインド、ビルマ、マレー、そう言う方面に随分出すんです。<br><br>そうしてみると、あっちの方も結核患者が非常に増えてきたんですね。<br><br>邪神の計画通りですね。<br><br> 邪神と言うのは、人類を弱らせるというのが手なんです。<br><br>だから、西洋医学というのは、邪神がこしらえたものなんです。<br><br>これもいずれ発表しますがね。<br><br>そこで、医学の間違いを私が発見したんで、邪神の方では大恐慌なんです。<br><br>そこで、私がこう言う論文なんか書くと、それは邪魔するんです。<br><br>この頃はだいぶ邪神の方が力が減ってきましたがね。<br><br>とにかく邪神の方はますます手を広げて、子供からとやっている。<br><br>今の「結核信仰療法」の方もそれなんです。<br><br>やっぱり九分九厘と一厘の闘いなんです。<br><br>一厘の一つの現れですね。<br><br> あんまり結核の話ばかりも、気持ちの良い話ではないからね。<br><br>この間、ピカソの批評はしましたが、あれについて、ああ言った変な絵ですね。<br><br>ピカソという人でも、別に精神病ではないんだから、何かああいう絵を画くには理屈がなくてはならないですね。<br><br>その理屈はどう言う訳かという事を話してみようと思う。<br><br>この根本は、西洋文明と東洋文明の違いさです。<br><br>そのためなんです。<br><br>もともと東洋文明は静なんです。<br><br>西洋文明は動――動くんですね。<br><br>そこで、これは芸術によく現れているんです。<br><br>音楽にしろ、東洋の方は静ですから、実に静かですね。<br><br>聴いていて、気が落ち着くんですね。<br><br>西洋の方は動ですから、実に爽快で、体が自然に踊るようになります。<br><br>じっとしていない。<br><br>踊るようになります。<br><br>これが極端になったのがジャズです。<br><br>これは動的の極致になったわけですね。<br><br>ですから、あのくらいからだの動くのはないですね。<br><br>最近のは、またもっと動くようですね。<br><br>この間映画で見ましたが、アメリカのジャズなんて言うのは、音楽のリズムに合わして、踊るより――踊り方が細かいですね。<br><br>一つのサーカス的の――芸みたいですね。<br><br>あれはいよいよ動の極致になって来たんですね。<br><br>そこで、踊り――舞踊でも、日本の方は、舞うんですね。<br><br>静かに落ち着くようなわけですがね。<br><br>西洋の方は、今言ったジャズ的になる。<br><br>これは、静と動の違いさですね。<br><br>で、これは日本としても、今の文化の形体から言っても、その静か――静は守っているわけにはいかない。<br><br>やはりある程度動にならなければならない。<br><br>服装からいっても、和服というのは静の服装ですから、これは活動の出来ない服装になってますから、どこまでも――静かに歩くとか、立ったり座ったりするように出来てますからね。<br><br>西洋の服装というのは、動的で――活動的だから仕方がないですね。<br><br>そこで、これからは静と動と偏らないものが出来ていくんですね。<br><br>やはり一つの結びですよ。<br><br> 「結び」についても――この間ダレス国務次官補ですね――あの人が、この間――どこかで講演しましたが――その時に、これからは東洋の代表者としては日本だ。<br><br>西洋の代表者としてはアメリカだ。<br><br>だから、アメリカと日本を結んで、初めて平和的世界が出来るんだ。<br><br>というように信じている。<br><br>という事を言われましたが、これは私が以前に言った、東洋の経が日本で、西洋の緯がアメリカだ。<br><br>いずれは結ばれなければならない。<br><br>というのと良く合っているんで、私は面白いと思った。<br><br>そんなわけで、今言う芸術もやはり結ぶわけですから、それで良いんですがね。<br><br>その動ですね。<br><br>動の極致になった、いわゆるジャズですね。<br><br>それがピカソの絵なんです。<br><br>というのはピカソの絵というのは動くところを画くんです。<br><br>今までの絵というのは、静止しているところを画いている。<br><br>だからはっきりしている。<br><br>それを、動くところを画いてあるんで、その説明をすると、どうやら解る。<br><br>例えて見れば、人間でも横を向いたところを画く。<br><br>すると半分が正面で、半分が横でしょう。<br><br>だから、かためて、鼻が二つあるようになる。<br><br>またある時は、顔が重なり合う。<br><br>それから建物、汽車や電車あるいは自動車を見た場合に、こう（線のように）なる。<br><br>それを画いた。<br><br>だから線ばかりで幾何学的に画くことになる。<br><br>こっちに人間がいるかと思うと、あっちに家の壊れたようなものがある。<br><br>ところが、実際にそんな動くなら良いが、ところがそこに矛盾がある。<br><br>だからピカソ自身は良いとしても、それを見物する方は災難ですよ。<br><br>そういう考えを持ってみれば、ある程度解らない事はないですね。<br><br>ところが、絵にしろあらゆる美術というのは、人間を目によって楽しませるんですから、あれを見て楽しい感じが起こるなら良いんですよ。<br><br>ところがあれを見て楽しいと思う人はないですよ。<br><br>どういう訳で、こういうのを画くんだろうと考えますからね。<br><br>考えてわかるかというと、解らないんですからね。<br><br>すると、楽しみより苦しみになる。<br><br>誰も、金を出して苦しみに行く者はない。<br><br>だから、私はピカソは見なかったんです。<br><br>この間東京に行って、高島屋でやっているというので見たんですが、だからああいう美術というのは無くなってしまうんです。<br><br>要するに動が極端になったまでなんですから、長く続くものではないんです。<br><br>芸術にしろ、美術にしろ、楽しめなければならない。<br><br>楽しんで、良いものでなくてはならない。<br><br>それによって慰めを得るし、それによって心が向上しなければならない。<br><br>レベルが高くならなければならない。<br><br>人間というのは、見るもの聞くものによっては、魂が高くなったり低くなったりするんですからね。<br><br>今言うように、低くなるものばかりですから、人間の魂が段々低くなって、悪い事をしたりするような事になる。<br><br>そこで、私は美術館を造ったりして、一つの宗教ですね。<br><br>魂を救う一つの手段を考えるのです。<br><br> 私は、博物館の考古学的なものは、一つの参考品としては良いが、美術としては人に見せるものではないですね。<br><br>一昨日も東京に行って――懇意にしているので、銀座に行ったが、博物館よりもだいぶ出品して、だいぶ見るべき物があった。<br><br>あれとても、一部は良いが、そうあんまり感心はできない。<br><br>ところがサンフランシスコの博物館で見せました物を見たのですが、仏教芸術が多すぎたんです。<br><br>ああ良いとは思いますが、何百年前、鎌倉時代の阿弥陀さんとかお釈迦さんとか――専門家が言ってましたが、そうした人で――博物館に関係した人でさえ、これは阿弥陀さんかお釈迦さんか解らずに、私に聞きましたくらい、あの人たちもまだ解ってない。<br><br>だから、それを見て、聞くようじゃ本当じゃない。<br><br>むしろ、楽しみより苦しみですね。<br><br>額に八の字を寄せて――そう言う事が、今多すぎるんですよ。<br><br>話は違うが、ラジオでもそうです。<br><br>今度民間放送が出来るんで良いが、ラジオなんか、教育的なんですね。<br><br>音楽なんかで一番解る。<br><br>シューベルトは、元――生まれてどんな事をした。<br><br>いつ作曲した。<br><br>そんな事はいらない。<br><br>聞いて楽しければ良いんですからね。<br><br>それを、西洋音楽を日本人に教育しようという考え方は――聞く人は災難なんです。<br><br>朝の一時間は堀内敬三の音楽教育をされる。<br><br>本人は良い気持ちになってるが、こっちははなはだ迷惑です。<br><br>美術館もそう言うところがある。<br><br>そこで、私はなるほど楽しめる。<br><br>目から――理屈でなく、自然に知らず知らず楽しみながら、魂を高めるという方針でやるつもりですからね。<br><br>要するに、美術教育にしろ、一切の何にしろ、そういう教育が本当です。<br><br>今までの教育は間違っているんです。<br><br>つまり、子供なんかも、もっと愉快に面白く、人格が出来るという訳ですね。<br><br>話は色んな方に行ったが、ピカソの意味ですね。<br><br>そう言う事も知っておくと良いんですね。<br><br>それを真似して、日本なんかでやってますがね。<br><br>これもしょうがないと思うんですがね。<br><br>それでピカソがああいう風になったのは、大体アメリカの金持ちの影響もあるんです。<br><br>成り金が、美術館を造って、それを自慢にするんです。<br><br>成り金がそう言うものを集めようと思っても、東洋のものは集まらない。<br><br>他でみんな買っちゃってある。<br><br>そこで西洋の油絵を買おうと思っても、美術館が買っちゃったりしてないんです。<br><br>そこで、何か驚くようなものがなくちゃならないというので、今までは油絵というのは、昔からの古い絵を見ると解りますが、段々駄目になって、結局において色のある写真だという事になって、行き詰まっているところに、日本の光琳の影響を受けて、あっちが違っちゃった。<br><br>写真とは反対の、印象派ができて、後世〔未来〕、感覚派とかできて、実際と離れた絵が出来てきた。<br><br>実際と離れて、離れ過ぎちゃったわけですね。<br><br>それで、動きを画いてみようというヤマですね。<br><br>その考え方が、非常にアメリカの金持ちに合っちゃった。<br><br>それで非常に高くやったんです。<br><br>そして、古いものを持っている者に、ヘンどんなものだと見せたんです。<br><br>そこで、人々がピカソは、何万ドルで買ったと――段々せり上げて――すると一般はどうかというと、ピカソの絵は一枚何万ドルだ。<br><br>それじゃ良いに決まっていると言うんで有名になった。<br><br>それが日本に来て、日本は昔から、雷同（らいどう）性があるから、西洋であんなだから良いに決まっていると、偉い人が無理に押し付けちゃう。<br><br>それで一般は、あの人がああ言うんだから、良いに違いないとなったんですね。<br><br>一つの流行心理といいますかね。<br><br>ほとんどそれに従っているんですね。<br><br>私が、この間言って――ぼろくそに言ったのが、中部日本に出ていたそうです。<br><br>私がピカソをぼろくそに言ったというのを、何と言いますか――変わっているとでも言うんでしょう。<br><br>書いた記事は見ませんが、驚いたと言う事は確かです。<br><br>そんな訳で、いつかは私の言う事が、これが本当だと言う事が解る時期が来ますが、とにかく、私は本当のものを――本当の意味を書くんですから誰が何と言おうと、そんな事は眼中におきません。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Batalha da Verdade na Medicina e na Arte</h2>
 <p>Recentemente, dediquei-me à elaboração de um livro sobre a tuberculose, cujo propósito não é dirigir-se aos nossos fiéis, mas sim ao público em geral, e mais especificamente, à comunidade médica. Minha intenção é desferir um golpe demolidor, como uma bomba atômica, sobre o establishment médico. Diante de práticas tão absurdas, tornou-se-me impossível permanecer em silêncio.</p>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p>Essa ideia inovadora caiu no gosto dos milionários americanos, que pagaram preços exorbitantes por suas obras para exibir aos colecionadores de arte antiga. O público em geral, por sua vez, raciocinou: “Se uma tela de Picasso custa dezenas de milhares de dólares, então deve ser boa.” E assim ele se tornou famoso. Essa tendência chegou ao Japão, um país historicamente propenso a seguir modas estrangeiras. Figuras influentes endossaram o artista, e o público, sem questionar, aceitou que, se fulano diz que é bom, deve ser. É o que se poderia chamar de psicologia da moda, e a maioria simplesmente segue a corrente.</p>
 <p>Soube que minhas críticas contundentes a Picasso foram publicadas no jornal Chubu-Nippon. Embora não tenha lido o artigo, sei que minha opinião causou espanto, justamente por ser tão dissonante.</p>
 <p>Seja como for, chegará o dia em que todos compreenderão que o que digo é a verdade. Afinal, eu escrevo sobre a verdade genuína e, por isso, a opinião alheia não me abala minimamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月21日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月二十一日 今度、結核問題に対して本を作って、信者向きでなく、一般に――医学会に原子爆弾をぶつける――こういう考えなんですがね。<br/><br/>何しろ、あんまり馬鹿馬鹿しい事をしてるんで、到底黙っちゃおられない状態になってますね。<br/><br/>以前から、結核の間違いなんかを書いて、本を出したり色々したんですが、今までは思い切って書かなかったんですね。<br/><br/>どうも、何だか危ないような気がしたんでよほど緩和して書いたんです。<br/><br/>けれども、段々調べてみると、法律上からは別に引っかかるような点はないし、それと、いつまではっきり言わないわけにはいかないようになって来たんで、本当の事を、ありのまま書いたんです。<br/><br/>そこで、これを――出来たら今度新聞広告を何回も出そうと思っている。<br/><br/>それから、日本中の大学の医学部とか、医師会とか、大病院とか、肺病に関した病院、療養所、それから新聞社、主な官庁と――そういう方面に配ろうと思ってます。<br/><br/>一人でも多く読ませようと思ってね。<br/><br/>そういう意味で書き始めたんですが、まだ最初のうちですけれども、やはり英文に訳して、外国にもやろうと思ってますがね。<br/><br/>世界に向かっての原子爆弾ですね。<br/><br/>本の名前は「結核信仰療法」としたんです。<br/><br/> （御論文「序文」「医学が結核を作る」「結核は感染しない」） （文中に「某夫人とキッス――」とあり） 某夫人というのは、今の私の奥さんなんですよ。<br/><br/>今はあんなに太ってますが、以前は結核で喀血して、血痰を出して、骨と皮になっていた。<br/><br/>その前に私がやってみて、伝染しないという事が分かった。<br/><br/>何も――妻とキッスしても、差し支えないですからね。<br/><br/> このくらいはっきりすれば、少しは解るだろうと思いますね。<br/><br/>むしろ、大いに反感を持ったり、憤慨したりするかもしれませんがね。<br/><br/>そうなれば、かえって面白いですよ。<br/><br/>どうせ、間違っちゃいないんだから――本当なんだから、解るのも早くなるという訳ですからね。<br/><br/>ですから、とにかく相当のセンセーションを起こすだろうと思います。<br/><br/>そんな騒がしい事はしっこないんですが、どうしてもそこまでしなければ、多くの人間を救うことは出来ないですからね。<br/><br/>実に間違った医学のために結核を増やしているんですから、いかに沢山の人が憎み苦しんでいるかは、これは実に分かり切った事ですからね。<br/><br/>それを、今救ってやる事が一番必要なわけですね。<br/><br/>何しろこっちは、本当の証拠を見せるんだから、何でもない訳だ。<br/><br/>実際言うと、医学でも薄々は解っているんですよ。<br/><br/>解っているけれども、何ですね――しょうがないと言うか――ちょうど、他の事に例えてみると、良く解るんですよ。<br/><br/>今問題になっている官吏の汚職ですね、結局知れて刑務所に行くと言う事は解っているんですよ。<br/><br/>けれども、金が欲しいとか酒が飲みたいとか女が欲しいとか言う――そいつが、我慢できない。<br/><br/>そこで、あわよくば、ごまかし得ると言うわけですね。<br/><br/>ですから、結核療法なんかやっても、駄目――大して効果がないと言う事は解ってますが、それをやらなければ「メシ」が食えないし、そうかと言って、自分たちが作っていると言う事までは解っていないんですね。<br/><br/>浄化停止をすれば、苦痛が減るから、これで治ると思っているぐらいなものですね。<br/><br/>浄化停止をすれば、苦痛が減ると言うのは、まだ良い方で、学理上から言って、そうなるべきことになっていると言うんです――案外多いんですよ。<br/><br/>思ったよりは治らない――「先生、どう言うわけだろう」と患者が聞くと、「そんな訳はない。<br/><br/>理屈から行くと治るんだから、あなたがどうかしている」と言う。<br/><br/>私も経験があります――昔、歯が痛い時にね。<br/><br/>歯の学士か何かです。<br/><br/>一カ月くらい経ってから行って、まだ痛い――そう言ったんです。<br/><br/>すると「そんな事はない。<br/><br/>確かに良くなっているんだ。<br/><br/>それで痛むのはどうかしている。<br/><br/>あなたの方が間違っている」こういうんですからね。<br/><br/>つまり痛みがあっても、学理上から言ったら、治っているんだ、と言うんです。<br/><br/>随分変な理屈ですね。<br/><br/>我々は事実を一番上にしているんですね。<br/><br/>ところが、そう言う人たちは、事実より理屈を上にしてくる。<br/><br/>よく、浄霊する時に、こんな――手を振ったくらいで治るわけがない。<br/><br/>一体どう言う理屈になっているか、それを聞かしてもらおうと言うのが、よくありますよ。<br/><br/>理屈にとらわれているんですね。<br/><br/>理屈よりも事実ですね。<br/><br/>病気だから良いが――御馳走する場合に、これは理屈から言ってうまいんだ、と言うが、食べてみるとまずい。<br/><br/>それから、嫁を貰う場合に、あれは気立てが良い、器量が良い。<br/><br/>だからあれを貰おうと言う――そう言った人間の好き嫌いは理屈ではないですからね。<br/><br/>これは言う必要はないが――感じですからね。<br/><br/>あれは好きだ。<br/><br/>好きだと言ってそんな美人ではない。<br/><br/>それに、そう教育もない。<br/><br/>あれと同じです。<br/><br/>何でも理屈ずくめですね。<br/><br/>それが、文明の弊害と言いますかね。<br/><br/>そんなような訳で、この論文なんかも、どこまでも事実で押していくんですがね。<br/><br/>結局において、どんなに医者の方で文句言った所で、事実には勝てないから、結局は先が負けるに決まってますがね。<br/><br/> （寄書「神は子供を愛しみ給う」）【栄光 第一三九号】 段々、結核製造も――つまり準備が整ってきたんで、子供から製造に取りかかるんですね。<br/><br/>今、日本でストレプトマイシンの製造なんか、非常に増えてきて、色んな――結核に関係した薬ですね。<br/><br/>そういうようなものも、輸出するんです。<br/><br/>どこに輸出するかと言うとインド、ビルマ、マレー、そう言う方面に随分出すんです。<br/><br/>そうしてみると、あっちの方も結核患者が非常に増えてきたんですね。<br/><br/>邪神の計画通りですね。<br/><br/> 邪神と言うのは、人類を弱らせるというのが手なんです。<br/><br/>だから、西洋医学というのは、邪神がこしらえたものなんです。<br/><br/>これもいずれ発表しますがね。<br/><br/>そこで、医学の間違いを私が発見したんで、邪神の方では大恐慌なんです。<br/><br/>そこで、私がこう言う論文なんか書くと、それは邪魔するんです。<br/><br/>この頃はだいぶ邪神の方が力が減ってきましたがね。<br/><br/>とにかく邪神の方はますます手を広げて、子供からとやっている。<br/><br/>今の「結核信仰療法」の方もそれなんです。<br/><br/>やっぱり九分九厘と一厘の闘いなんです。<br/><br/>一厘の一つの現れですね。<br/><br/> あんまり結核の話ばかりも、気持ちの良い話ではないからね。<br/><br/>この間、ピカソの批評はしましたが、あれについて、ああ言った変な絵ですね。<br/><br/>ピカソという人でも、別に精神病ではないんだから、何かああいう絵を画くには理屈がなくてはならないですね。<br/><br/>その理屈はどう言う訳かという事を話してみようと思う。<br/><br/>この根本は、西洋文明と東洋文明の違いさです。<br/><br/>そのためなんです。<br/><br/>もともと東洋文明は静なんです。<br/><br/>西洋文明は動――動くんですね。<br/><br/>そこで、これは芸術によく現れているんです。<br/><br/>音楽にしろ、東洋の方は静ですから、実に静かですね。<br/><br/>聴いていて、気が落ち着くんですね。<br/><br/>西洋の方は動ですから、実に爽快で、体が自然に踊るようになります。<br/><br/>じっとしていない。<br/><br/>踊るようになります。<br/><br/>これが極端になったのがジャズです。<br/><br/>これは動的の極致になったわけですね。<br/><br/>ですから、あのくらいからだの動くのはないですね。<br/><br/>最近のは、またもっと動くようですね。<br/><br/>この間映画で見ましたが、アメリカのジャズなんて言うのは、音楽のリズムに合わして、踊るより――踊り方が細かいですね。<br/><br/>一つのサーカス的の――芸みたいですね。<br/><br/>あれはいよいよ動の極致になって来たんですね。<br/><br/>そこで、踊り――舞踊でも、日本の方は、舞うんですね。<br/><br/>静かに落ち着くようなわけですがね。<br/><br/>西洋の方は、今言ったジャズ的になる。<br/><br/>これは、静と動の違いさですね。<br/><br/>で、これは日本としても、今の文化の形体から言っても、その静か――静は守っているわけにはいかない。<br/><br/>やはりある程度動にならなければならない。<br/><br/>服装からいっても、和服というのは静の服装ですから、これは活動の出来ない服装になってますから、どこまでも――静かに歩くとか、立ったり座ったりするように出来てますからね。<br/><br/>西洋の服装というのは、動的で――活動的だから仕方がないですね。<br/><br/>そこで、これからは静と動と偏らないものが出来ていくんですね。<br/><br/>やはり一つの結びですよ。<br/><br/> 「結び」についても――この間ダレス国務次官補ですね――あの人が、この間――どこかで講演しましたが――その時に、これからは東洋の代表者としては日本だ。<br/><br/>西洋の代表者としてはアメリカだ。<br/><br/>だから、アメリカと日本を結んで、初めて平和的世界が出来るんだ。<br/><br/>というように信じている。<br/><br/>という事を言われましたが、これは私が以前に言った、東洋の経が日本で、西洋の緯がアメリカだ。<br/><br/>いずれは結ばれなければならない。<br/><br/>というのと良く合っているんで、私は面白いと思った。<br/><br/>そんなわけで、今言う芸術もやはり結ぶわけですから、それで良いんですがね。<br/><br/>その動ですね。<br/><br/>動の極致になった、いわゆるジャズですね。<br/><br/>それがピカソの絵なんです。<br/><br/>というのはピカソの絵というのは動くところを画くんです。<br/><br/>今までの絵というのは、静止しているところを画いている。<br/><br/>だからはっきりしている。<br/><br/>それを、動くところを画いてあるんで、その説明をすると、どうやら解る。<br/><br/>例えて見れば、人間でも横を向いたところを画く。<br/><br/>すると半分が正面で、半分が横でしょう。<br/><br/>だから、かためて、鼻が二つあるようになる。<br/><br/>またある時は、顔が重なり合う。<br/><br/>それから建物、汽車や電車あるいは自動車を見た場合に、こう（線のように）なる。<br/><br/>それを画いた。<br/><br/>だから線ばかりで幾何学的に画くことになる。<br/><br/>こっちに人間がいるかと思うと、あっちに家の壊れたようなものがある。<br/><br/>ところが、実際にそんな動くなら良いが、ところがそこに矛盾がある。<br/><br/>だからピカソ自身は良いとしても、それを見物する方は災難ですよ。<br/><br/>そういう考えを持ってみれば、ある程度解らない事はないですね。<br/><br/>ところが、絵にしろあらゆる美術というのは、人間を目によって楽しませるんですから、あれを見て楽しい感じが起こるなら良いんですよ。<br/><br/>ところがあれを見て楽しいと思う人はないですよ。<br/><br/>どういう訳で、こういうのを画くんだろうと考えますからね。<br/><br/>考えてわかるかというと、解らないんですからね。<br/><br/>すると、楽しみより苦しみになる。<br/><br/>誰も、金を出して苦しみに行く者はない。<br/><br/>だから、私はピカソは見なかったんです。<br/><br/>この間東京に行って、高島屋でやっているというので見たんですが、だからああいう美術というのは無くなってしまうんです。<br/><br/>要するに動が極端になったまでなんですから、長く続くものではないんです。<br/><br/>芸術にしろ、美術にしろ、楽しめなければならない。<br/><br/>楽しんで、良いものでなくてはならない。<br/><br/>それによって慰めを得るし、それによって心が向上しなければならない。<br/><br/>レベルが高くならなければならない。<br/><br/>人間というのは、見るもの聞くものによっては、魂が高くなったり低くなったりするんですからね。<br/><br/>今言うように、低くなるものばかりですから、人間の魂が段々低くなって、悪い事をしたりするような事になる。<br/><br/>そこで、私は美術館を造ったりして、一つの宗教ですね。<br/><br/>魂を救う一つの手段を考えるのです。<br/><br/> 私は、博物館の考古学的なものは、一つの参考品としては良いが、美術としては人に見せるものではないですね。<br/><br/>一昨日も東京に行って――懇意にしているので、銀座に行ったが、博物館よりもだいぶ出品して、だいぶ見るべき物があった。<br/><br/>あれとても、一部は良いが、そうあんまり感心はできない。<br/><br/>ところがサンフランシスコの博物館で見せました物を見たのですが、仏教芸術が多すぎたんです。<br/><br/>ああ良いとは思いますが、何百年前、鎌倉時代の阿弥陀さんとかお釈迦さんとか――専門家が言ってましたが、そうした人で――博物館に関係した人でさえ、これは阿弥陀さんかお釈迦さんか解らずに、私に聞きましたくらい、あの人たちもまだ解ってない。<br/><br/>だから、それを見て、聞くようじゃ本当じゃない。<br/><br/>むしろ、楽しみより苦しみですね。<br/><br/>額に八の字を寄せて――そう言う事が、今多すぎるんですよ。<br/><br/>話は違うが、ラジオでもそうです。<br/><br/>今度民間放送が出来るんで良いが、ラジオなんか、教育的なんですね。<br/><br/>音楽なんかで一番解る。<br/><br/>シューベルトは、元――生まれてどんな事をした。<br/><br/>いつ作曲した。<br/><br/>そんな事はいらない。<br/><br/>聞いて楽しければ良いんですからね。<br/><br/>それを、西洋音楽を日本人に教育しようという考え方は――聞く人は災難なんです。<br/><br/>朝の一時間は堀内敬三の音楽教育をされる。<br/><br/>本人は良い気持ちになってるが、こっちははなはだ迷惑です。<br/><br/>美術館もそう言うところがある。<br/><br/>そこで、私はなるほど楽しめる。<br/><br/>目から――理屈でなく、自然に知らず知らず楽しみながら、魂を高めるという方針でやるつもりですからね。<br/><br/>要するに、美術教育にしろ、一切の何にしろ、そういう教育が本当です。<br/><br/>今までの教育は間違っているんです。<br/><br/>つまり、子供なんかも、もっと愉快に面白く、人格が出来るという訳ですね。<br/><br/>話は色んな方に行ったが、ピカソの意味ですね。<br/><br/>そう言う事も知っておくと良いんですね。<br/><br/>それを真似して、日本なんかでやってますがね。<br/><br/>これもしょうがないと思うんですがね。<br/><br/>それでピカソがああいう風になったのは、大体アメリカの金持ちの影響もあるんです。<br/><br/>成り金が、美術館を造って、それを自慢にするんです。<br/><br/>成り金がそう言うものを集めようと思っても、東洋のものは集まらない。<br/><br/>他でみんな買っちゃってある。<br/><br/>そこで西洋の油絵を買おうと思っても、美術館が買っちゃったりしてないんです。<br/><br/>そこで、何か驚くようなものがなくちゃならないというので、今までは油絵というのは、昔からの古い絵を見ると解りますが、段々駄目になって、結局において色のある写真だという事になって、行き詰まっているところに、日本の光琳の影響を受けて、あっちが違っちゃった。<br/><br/>写真とは反対の、印象派ができて、後世〔未来〕、感覚派とかできて、実際と離れた絵が出来てきた。<br/><br/>実際と離れて、離れ過ぎちゃったわけですね。<br/><br/>それで、動きを画いてみようというヤマですね。<br/><br/>その考え方が、非常にアメリカの金持ちに合っちゃった。<br/><br/>それで非常に高くやったんです。<br/><br/>そして、古いものを持っている者に、ヘンどんなものだと見せたんです。<br/><br/>そこで、人々がピカソは、何万ドルで買ったと――段々せり上げて――すると一般はどうかというと、ピカソの絵は一枚何万ドルだ。<br/><br/>それじゃ良いに決まっていると言うんで有名になった。<br/><br/>それが日本に来て、日本は昔から、雷同（らいどう）性があるから、西洋であんなだから良いに決まっていると、偉い人が無理に押し付けちゃう。<br/><br/>それで一般は、あの人がああ言うんだから、良いに違いないとなったんですね。<br/><br/>一つの流行心理といいますかね。<br/><br/>ほとんどそれに従っているんですね。<br/><br/>私が、この間言って――ぼろくそに言ったのが、中部日本に出ていたそうです。<br/><br/>私がピカソをぼろくそに言ったというのを、何と言いますか――変わっているとでも言うんでしょう。<br/><br/>書いた記事は見ませんが、驚いたと言う事は確かです。<br/><br/>そんな訳で、いつかは私の言う事が、これが本当だと言う事が解る時期が来ますが、とにかく、私は本当のものを――本当の意味を書くんですから誰が何と言おうと、そんな事は眼中におきません。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

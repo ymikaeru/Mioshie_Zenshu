@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohikari4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御光雑記（四） 百地超生 『栄光』175号、昭和27(1952)年9月24日発行 本教浄霊とは、神の御光を掌から放射する事によって、病苦の根源たる霊体の曇りを溶解払拭し魂に力を与える方法であって、それによりあらゆる病を滅し真の健康を与うるものであるは言うまでもない。<br><br>特に生来の畸形が通常の形となったり、火傷、負傷の如き特殊なものも驚くべき速かさを以て痕跡も止めず治癒さるる事もよく聞く所である。<br><br>これによっても神の御光はあらゆる異常状態を、本来あるべき姿に立還らしむる力であるともいえる。<br><br> 又本教信徒は世間一般の人に比して眼に輝きあり画然として明朗穏健であるからすぐに判ると第三者からよく言われる。<br><br>しかしながら無数のおかげばなしに見る如く、本教信徒とて世の習いに漏れず煩悶、懊悩、絶望的暗黒にいたものが殆んどで、その苦悩の中から夢想だもせぬ神の御光の示現を知って筆舌にも尽し難い驚喜によって、思想の革命が行われ、虚無的悲哀的人生観も歓喜と光明のそれに一変して入信するのである。<br><br>そうして御守を授かり、御神体を御奉斉し、あるいは御参拝等によって、大き神の栄光に浴して諸々の誤りや狂いは是正されつつ家庭は暗黒から光明へ、不幸から幸福へと変移し、御神書の無上の神智の光に照らされて、一切の迷雲は払われ、高い証覚を与えられ、全く別人の如く人格は高められ、不正や虚偽を嫌い、正善を楽しむようになって栄えの道が開かれるのである。<br><br> 本来、人間は健富和であるべきが真理であって、これを実現せしめ、病貧争の異常を滅する神の御光こそ真理を具現せしむる絶対の力であるといえる。<br><br> 又、吾々が入信後常に御光を受けつつある年月を経ると必ず保有薬毒排除の浄化が起るのは誰しも経験する所である。<br><br>そして薬毒の排除さるる度に健康が増し、心身共に一段と向上して幸福を増さしめらるるのであって渦に感謝に堪えないのである。<br><br>しかもその浄化の苦痛とても、容易に除られ、極めて楽に済まさして戴く御浄霊の御力の有難さと共に、その浄化は必ず最も適当なる時期に起り、生活には何等支障なきよう行われる、神の周到なる御恵を知る時、何とも言えぬ有難さである。<br><br> 明主様には、人類社会一切の不事の根因をなしているものは悪であり、悪の根源は薬毒であるとの驚くべき真理を御開示賜わったが右の如く薬毒解消によって人らしき人となさしめ、類いなき幸福を得せしめる本教の救いこそ、何よりも明かにこの真理を実証せるものである。<br><br>そうして人類世界の破滅を救い、永遠の幸福を実現せしむる為には、まず病貧争の根因をなす薬毒を滅し、悪を追放する事なくしては望み得べくもないのであり、それは真理を具現せしむる絶対力たる神の御光によるより外ない事が知らるる。<br><br> 又悪の追放とは、悪に属する者には恐るべき審判であり、善に属する者にとっては、空前の大き救いであり、悪逆を造るを使命とした邪神の失業没落であると共に、善を造る正神の歓喜と栄えでもあるし、悪を生む機関の大破壊であって、善を生む事物の残存でもある。<br><br>とすればすでにこの世に厳然と神の大光明が示現されているという事は、最後の審判と天国建設の絶対の時至れる証左であり、文明に一大革命の行わるべき事が知らるるのである。<br><br> 吾々は、日本が敗戦によって、すべての侵略国土を返還し、再び侵略をなし得ぬよう、軍備を撤廃した事も、日本本来の使命たる平和的芸術国家として新しく再建さるるべく、本然のあるべき姿に立還った訳であり、第一次第二次大戦の惨禍を経て世界国家説の提唱も生れている一方、世界の現実は中立を許さぬ二大陣営に分けられて、人類破滅の恐怖に脅えるに至ったのも、戦争を永遠に滅し、一つの世界に和楽する世の新生を示す動向とみられる。<br><br>又、医学における、薬毒等による浄化停止行為の頻繁なる強化に反し、病気の逐年激増と悪質化の傾向も、健康ならんとする力に反逆を許されぬ時となりつつあるのであり、農業における肥毒の害が年と共に顕著に表われつつある事も、自然物を毒する悪を鞫（きた）められつつあるものとみられる等々、今あらゆる事象に共通する趨勢は霊界における真理具現の光明の無限の活動力がいよいよ強まり、今正に、審判が行われつつあるとも察られるし、病貧争なき天国世界の生れる時機の到来しつつあるを物語るものと解せられるのである。<br><br> そうして今この時、メシヤの示さるる真理に従い、善を楽しみ栄えゆく生活形態こそ、正に来るべき新時代の生き方を如実に示せるものであって、審判を感謝し御救いに歓喜する吾等の幸福はまことに言語に尽し難いのであって、メシヤの福音に従順なもののみに与えられる無上の恵みである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luz Divina como Instrumento do Juízo Final</h2>
 <p>O Johrei, em nossa Fé, consiste na irradiação da Luz Divina pela palma da mão, um método que dissolve e purifica as máculas do corpo espiritual — a causa primordial das aflições —, concedendo força à alma. Desnecessário dizer que, por meio dele, toda sorte de enfermidades é extinta e a verdadeira saúde é outorgada. Com frequência, ouvem-se relatos de casos notáveis, como deformidades congênitas que se corrigem ou queimaduras e ferimentos que cicatrizam com uma rapidez surpreendente, sem deixar vestígios. Tais fatos demonstram que a Luz de Deus é a força que restaura todas as condições anômalas à sua forma original e devida.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>A expulsão do mal representa, para aqueles que a ele pertencem, um juízo implacável; para os que pertencem ao bem, contudo, é uma salvação de magnitude sem precedentes. Significa o declínio e a derrocada dos espíritos malignos (邪神), cuja missão era a de criar a maldade, e, simultaneamente, a alegria e a prosperidade dos espíritos justos (正神), que promovem o bem. Trata-se da grande destruição das estruturas que geram o mal e, por outro lado, da preservação dos elementos que produzem o bem. Nesse sentido, o fato de a grandiosa Luz Divina já se manifestar tão solenemente neste mundo é a prova de que chegou o tempo definitivo para o Juízo Final e a construção do Paraíso, anunciando que uma profunda revolução na civilização está prestes a ocorrer.</p>
 <p>Podemos observar essa tendência em toda parte. O Japão, com a derrota na guerra, restituiu todos os territórios que havia invadido e aboliu suas forças armadas para que não pudesse mais cometer agressões. Este foi, na verdade, um retorno à sua forma original e devida, para que fosse reconstruído como uma nação pacífica e artística — sua verdadeira missão. Após as calamidades da Primeira e da Segunda Guerra Mundial, surgiu a proposta de um Estado global. Em contrapartida, a realidade mundial se dividiu em dois grandes blocos que não admitem neutralidade, levando a humanidade ao pavor de sua própria aniquilação. Esse cenário pode ser interpretado como um movimento que prenuncia o nascimento de uma nova era, na qual a guerra será abolida para sempre e o mundo viverá em harmonia como uma única nação. No campo da medicina, em oposição ao fortalecimento constante das práticas que interrompem a purificação por meio de venenos de remédios, observamos o drástico e progressivo aumento das doenças, que se tornam cada vez mais graves. Isso indica que se aproxima o tempo em que a rebelião contra a força natural que busca a saúde não será mais tolerada. Na agricultura, os malefícios dos venenos contidos nos fertilizantes tornam-se mais evidentes a cada ano, o que também pode ser visto como um julgamento do mal que envenena a natureza. Enfim, a tendência comum a todos esses fenômenos é que o poder infinito da Luz, que materializa a verdade no Mundo Espiritual, intensifica-se cada vez mais. Podemos inferir, com isso, que o Juízo já está em andamento e que se aproxima a aurora de um mundo paradisíaco, livre da doença, da pobreza e do conflito.</p>
 <p>Neste momento, portanto, o estilo de vida pautado na verdade revelada por Meishu-Sama, no qual nos deleitamos no bem e caminhamos para a prosperidade, exemplifica com exatidão o modo de viver da nova era que se aproxima. Nossa felicidade — a de sermos gratos pelo Juízo e nos rejubilarmos com a salvação — é verdadeiramente indescritível. Trata-se da graça suprema, concedida apenas àqueles que são dóceis ao evangelho do Messias.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御光雑記（四） 百地超生 『栄光』175号、昭和27(1952)年9月24日発行 本教浄霊とは、神の御光を掌から放射する事によって、病苦の根源たる霊体の曇りを溶解払拭し魂に力を与える方法であって、それによりあらゆる病を滅し真の健康を与うるものであるは言うまでもない。<br/><br/>特に生来の畸形が通常の形となったり、火傷、負傷の如き特殊なものも驚くべき速かさを以て痕跡も止めず治癒さるる事もよく聞く所である。<br/><br/>これによっても神の御光はあらゆる異常状態を、本来あるべき姿に立還らしむる力であるともいえる。<br/><br/> 又本教信徒は世間一般の人に比して眼に輝きあり画然として明朗穏健であるからすぐに判ると第三者からよく言われる。<br/><br/>しかしながら無数のおかげばなしに見る如く、本教信徒とて世の習いに漏れず煩悶、懊悩、絶望的暗黒にいたものが殆んどで、その苦悩の中から夢想だもせぬ神の御光の示現を知って筆舌にも尽し難い驚喜によって、思想の革命が行われ、虚無的悲哀的人生観も歓喜と光明のそれに一変して入信するのである。<br/><br/>そうして御守を授かり、御神体を御奉斉し、あるいは御参拝等によって、大き神の栄光に浴して諸々の誤りや狂いは是正されつつ家庭は暗黒から光明へ、不幸から幸福へと変移し、御神書の無上の神智の光に照らされて、一切の迷雲は払われ、高い証覚を与えられ、全く別人の如く人格は高められ、不正や虚偽を嫌い、正善を楽しむようになって栄えの道が開かれるのである。<br/><br/> 本来、人間は健富和であるべきが真理であって、これを実現せしめ、病貧争の異常を滅する神の御光こそ真理を具現せしむる絶対の力であるといえる。<br/><br/> 又、吾々が入信後常に御光を受けつつある年月を経ると必ず保有薬毒排除の浄化が起るのは誰しも経験する所である。<br/><br/>そして薬毒の排除さるる度に健康が増し、心身共に一段と向上して幸福を増さしめらるるのであって渦に感謝に堪えないのである。<br/><br/>しかもその浄化の苦痛とても、容易に除られ、極めて楽に済まさして戴く御浄霊の御力の有難さと共に、その浄化は必ず最も適当なる時期に起り、生活には何等支障なきよう行われる、神の周到なる御恵を知る時、何とも言えぬ有難さである。<br/><br/> 明主様には、人類社会一切の不事の根因をなしているものは悪であり、悪の根源は薬毒であるとの驚くべき真理を御開示賜わったが右の如く薬毒解消によって人らしき人となさしめ、類いなき幸福を得せしめる本教の救いこそ、何よりも明かにこの真理を実証せるものである。<br/><br/>そうして人類世界の破滅を救い、永遠の幸福を実現せしむる為には、まず病貧争の根因をなす薬毒を滅し、悪を追放する事なくしては望み得べくもないのであり、それは真理を具現せしむる絶対力たる神の御光によるより外ない事が知らるる。<br/><br/> 又悪の追放とは、悪に属する者には恐るべき審判であり、善に属する者にとっては、空前の大き救いであり、悪逆を造るを使命とした邪神の失業没落であると共に、善を造る正神の歓喜と栄えでもあるし、悪を生む機関の大破壊であって、善を生む事物の残存でもある。<br/><br/>とすればすでにこの世に厳然と神の大光明が示現されているという事は、最後の審判と天国建設の絶対の時至れる証左であり、文明に一大革命の行わるべき事が知らるるのである。<br/><br/> 吾々は、日本が敗戦によって、すべての侵略国土を返還し、再び侵略をなし得ぬよう、軍備を撤廃した事も、日本本来の使命たる平和的芸術国家として新しく再建さるるべく、本然のあるべき姿に立還った訳であり、第一次第二次大戦の惨禍を経て世界国家説の提唱も生れている一方、世界の現実は中立を許さぬ二大陣営に分けられて、人類破滅の恐怖に脅えるに至ったのも、戦争を永遠に滅し、一つの世界に和楽する世の新生を示す動向とみられる。<br/><br/>又、医学における、薬毒等による浄化停止行為の頻繁なる強化に反し、病気の逐年激増と悪質化の傾向も、健康ならんとする力に反逆を許されぬ時となりつつあるのであり、農業における肥毒の害が年と共に顕著に表われつつある事も、自然物を毒する悪を鞫（きた）められつつあるものとみられる等々、今あらゆる事象に共通する趨勢は霊界における真理具現の光明の無限の活動力がいよいよ強まり、今正に、審判が行われつつあるとも察られるし、病貧争なき天国世界の生れる時機の到来しつつあるを物語るものと解せられるのである。<br/><br/> そうして今この時、メシヤの示さるる真理に従い、善を楽しみ栄えゆく生活形態こそ、正に来るべき新時代の生き方を如実に示せるものであって、審判を感謝し御救いに歓喜する吾等の幸福はまことに言語に尽し難いのであって、メシヤの福音に従順なもののみに与えられる無上の恵みである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

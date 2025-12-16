@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270907</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年9月7日） 『御教え集』14号、昭和27(1952)年10月15日発行 昭和二十七年九月七日 ついこの間のラジオで、スウェーデンのハルマンという学者の研究で、五十年以前の気候と較べると、地球は平均十度高くなっていると言うのです。<br><br>これは研究だから間違いないわけです。<br><br>そうするとこれはたいへんな問題だと思います。<br><br>昔に――五十年に十度高くなるとすると、五百年で百度高くなります。<br><br>そうすると生きていられないことになる。<br><br>そうしてみると以前はそういうことはなくて、最近の五十年で急に温度が増えたのです。<br><br>すなわち私が言う、昼間の世界になってが火素が増えたということが、こういった――科学的に立証されたわけです。<br><br>で、霊の方の火素が増えたから、体の方は増えそうもないと思うけれども、そうではないのです。<br><br>やっぱり体にもいくぶん影響するのです。<br><br>私が浄霊すると、熱いと言う人がお蔭話なんかにたくさんあります。<br><br>中には汗をかく人もありますが、やはり霊ばかりでなく体も加わるわけです。<br><br>ですから火素が増えるということは、これは動かすべからざる証拠があるわけです。<br><br>それからもう一つおもしろいのは、今年は日本中の温度が、この夏は非常に違うのです。<br><br>一番暑いのは東京です。<br><br>私は毎日ラジオで温度を聞きますが、今日あたりも東京が暑いのです。<br><br>今日でも二十二度です。<br><br>かえって熊本あたりの方が低いのです。<br><br>広島が二十度かです。<br><br>それから強羅が高いのです。<br><br>今日あたりでも二十二度くらいです。<br><br>日本でも東京と強羅です。<br><br>あとはずっと低いのです。<br><br>強羅の高いのは私が来ているせいです。<br><br>やっぱり火素が増えるわけです。<br><br>そんなようでよほどおもしろいです。<br><br>それからこれもよく新聞やなにかに出てますし、農村の人は良く知ってますが、害虫が非常に増えてきたのです。<br><br>害虫は年々増えてます。<br><br>今年は螟虫（めいちゅう）が増えてますが、螟虫なんていうのは聞いたことがないです。<br><br>螟虫というのは近ごろらしいです。<br><br>どういう字を書くか？まさか「迷」という字を書くのではないでしょうが――。<br><br>あれは肥料の新しいのができるために、いつも言う通り肥料で虫が湧くのです。<br><br>今年なんかは尿素という、小便――尿素肥料が非常に増産しているのです。<br><br>で、今硫安が減らす方針です。<br><br>これは農林大臣なんか言ってますが、硫安を減らして尿素を増やすということを言われてますが、尿素というのは、あるいは――螟虫というのは尿素から発生するのかもしれません。<br><br>そうすると一生懸命にいろんな肥料で害虫の種類を増やしているわけです。<br><br>そうすると薬と同じことです。<br><br> 今のヒドラジドなんていうのは、今度は黴菌が抵抗性黴菌になった――抵抗性黴菌というと強い黴菌です。<br><br>だから今までの黴菌とは異った黴菌になるわけです。<br><br>これも一つ種類を増やしたわけです。<br><br>だから薬の種類が増えるだけは、いろんな虫の種類ができるわけです。<br><br>では薬や肥料でどうして虫が湧くかというと、これは立派に原因があるのです。<br><br>肥料でも薬でも、言わば汚物ですから、汚い物です。<br><br>だから汚い物にはどうしても浄化作用が起る。<br><br>要するに自然の掃除が起る。<br><br>自然の掃除が起る場合に、掃除をする人間――ではない、虫が自然に湧くのです。<br><br>物質の原則――法則というものは、汚い物がそこに溜まると、それをきれいにすべく作用が起るのです。<br><br>やはり霊界に曇りがあると低気圧が起るようなものです。<br><br>そういうように作られてある。<br><br>だから汚い物があると、その汚い物を食ってなくするのです。<br><br>消すという作用としてその虫が湧くのです。<br><br>そこでなぜ汚い所に虫が湧くか、という根本的の意味が分かるのです。<br><br>便所に蛆が湧くようなものです。<br><br>いったい蛆はなんで湧くかというと、糞は汚い物だからです。<br><br>汚いというのは、人間が特に間違った――今言う、薬やなにかを飲むとか、あるいは間違った行いで霊を穢すとかで、よけい汚い物が出るのです。<br><br>そこでよけい蛆が湧くという理屈になるのです。<br><br>ですからちょうど、薬にしろ肥料にしろ、あれは蛆や虫の原料になるわけです。<br><br>そうすると霊界に火素が多くなり、浄化力が強くなるからして、掃除をする虫が早く湧くわけです。<br><br>湧きやすくなる。<br><br>そこで近来になって害虫が湧くという理屈になるのです。<br><br>で、その害虫を殺そうとして、防虫剤だとか消毒薬だとか、そういったような薬を撒くと、それがまた土を汚しますから、それを作物が吸うと作物自体が――消毒薬の薬が古くなり殺虫剤が古くなると、ちょうど膿みたいなもので汚物になる。<br><br>そうするとそれを食って消す害虫が湧くという順序になりますから、そこで虫が湧きやすくなるということになる。<br><br>よくそういうことが分かっていると、いかに今の人間が愚かかということが分かります。<br><br>骨折って悪くしている。<br><br>今の話は虫だけなのですが、これは人間にも当てはまるのです。<br><br>というのは、人間が悪いことをしますが、悪い行いをすると、その人間が穢れますから、霊的に不潔な人間になるわけです。<br><br>どうしてもその人間を掃除しなければならない。<br><br>そうするとやっぱり黴菌が必要なのです。<br><br>黴菌なり害虫なりが必要になります。<br><br>しかし人間は農作物と異って、害虫という奴が人間なのです。<br><br>それが悪人です。<br><br>悪人がその人を苦しめるわけです。<br><br>苦しめて不潔になった人間の不潔分だけを掃除するのです。<br><br>だから無論病気が主ですが、病気以外のいろんな災難とか悪い奴が騙して、損をかけるとかいうことはたくさんありますが、そういうことも、やはりその人の持っている金が不潔な金、間違った金、ずるいことをして溜めた金、という、そういう不潔な金はどうしても掃除しなければならない。<br><br>その代わりに黴菌人間が騙して捲き上げる。<br><br>ということは、一つの浄化作用です。<br><br>そうしてみると、あいつに酷い目に遭ったとか、悪い奴に騙されたとか、泥棒に盗られたとか、いろんなことで損したり苦しめられたりすることは、その人自体に不潔物があるからです。<br><br>ところがおもしろいのは、害虫人間がまた浄化されることになるのです。<br><br>そうするとそれを浄化するのは、やっぱり害虫人間です。<br><br>ちょうど薬で病気の苦しみを抑えて、その薬毒がまた苦しみを作るという、そういった経路と良く似ているのです。<br><br>そこで悪い奴がますます増える、ますます人間はずるくなる。<br><br>そうすると、その不潔物を食う害虫人間がまた増える、ということになって、つまり今の人間は、そういうような経路が良く出てます。<br><br>それは、どこの監獄や刑務所に行っても年中満員です。<br><br>それで警官をいくら増やしても足りないのです。<br><br>それで世の中が変てこになっているのです。<br><br> 日本は軍備をしてはいけないとか、軍備反対などと言ってますが、こういうこともおかしいのです。<br><br>これを一言いっておきたいのですが、仮に日本に軍備がぜんぜんないとしたら――軍備反対の連中がなかなか多いです。<br><br>国民投票をしたら、日本の軍備反対は女が多くはないかと思います。<br><br>ところが朝鮮問題をみれば分かりますが、一昨年北鮮軍が南鮮に向かって攻撃した時に、もし南鮮に軍備がなかったら、二日か三日で釜山まで北鮮軍が侵略してしまいます。<br><br>そうして反対する者はみんな海に落としてしまいます。<br><br>ところがアメリカの援助の軍隊が来るまで、ともかく持ちこたえたのは、南鮮にあった兵力のためなのです。<br><br>ですから今ソ連は日本を狙って、そうして北海道から侵略しようと、今準備をしている。<br><br>樺太なんかに飛行機が何百機とか何千機とか、軍隊が何十万とか何百万とかと、非常に増強している。<br><br>それから本当には判らないが、島と島とを続けたなにかを作ったに違いないと言ってますが、それはまだ分からないのです。<br><br>というのは、潮流が変わってきたのです。<br><br>潮流が変わってきたから、今まで獲れる魚が獲れなくなった。<br><br>だからどこかで潮流を遮ったに違いないというのです。<br><br>しかしそれも充分に調査はできないのです。<br><br>なにしろソ連の方のことだから――。<br><br>しかしとにかくそういうような、北海道から侵略しようという計画は、充分分かるのです。<br><br>そうするとソ連が日本をやっつけるために、北海道を侵略してきた時に、いくぶんでも日本に軍備があれば良いですが、なければドンドン入ってきて九州まで行ってしまいます。<br><br>それは、共産政治のもとに生活していた人は結構ですが、共産主義よりかアメリカの資本主義の方が、よほど自由があって良いのは確かです。<br><br>どうもわれわれは共産主義政治にされたくないです。<br><br>そうしてみると、少なくとも日本は連合軍の仲間入りして、イザという時に援助の軍隊が来るまで持ち堪えるというだけの軍備は、どうしてもなくてはいけない。<br><br>ところがそれを反対するという日本人の気が知れないのです。<br><br>それは婦人なんかで、伜が兵隊に行くのは嫌だ、夫が兵隊に行くのは嫌だ、というそれも、人情から言えば分かりますが、しかしそれを助けんがために日本人全体が苦しまなければならない、ということの方がたいへんに大きいのですから、そういった大きい小さいを較べてみると、すぐ分かるのです。<br><br>ただ一時的の感情に支配されて、国全体の大きな災いを省みないということは、あまりに――まるで無教育国の人間みたいです。<br><br>そのくらいの理論さえ分からないかと思われるくらいです。<br><br>そういうふうになったということは――黴菌とはちょっと離れたような話ですが、とにかく中毒のために、今の人間の頭が非常に悪くなっている。<br><br>で、日本人の頭が悪くなったのは、いつも言うのですが、酷いものです。<br><br>身体が汚れきっているのです。<br><br>しかし黴菌の話のついでですから、そういうことも心得ていなければならないので言うのです。<br><br>政府もそれは知っているのだから大いにやりたいが、やれないということは、つまり本当に言えば憲法を改正しなければならない。<br><br>ところが民主政治というのは非常に厄介なもので、憲法改正にはどうしても国民投票――どういう方法でやるか、大体国民全部のうちの賛成が多くなければ、それはできない。<br><br>しかし今選挙権を持っているのは、女の方が二、三百万多いのです。<br><br>そうすると国民投票をやれば、軍備反対の方が多いですから成立しない。<br><br>それで政府はそうしたいのだが、やれないのです。<br><br>ですからその点も実におかしいくらいなのです。<br><br>では黴菌人間はどうなるかというと、それについて書いたのです。<br><br>それから第三次戦争がそういう人間を解決するのです。<br><br> （御論文「第三次戦争は果して有る？」）【地上天国 四十号】 それから黴菌人間が今いかに多いかということですが、それをちょっと書いてみたのです。<br><br> （御論文「悪の世の中」）【栄光 一七四号】 それから、よく麻薬中毒ということを言いますが、麻薬中毒というと他人事のようですが、今日本人全部が麻薬中毒なのです。<br><br>ただ早く効く麻薬と、遅く効く麻薬との異（ちが）いです。<br><br>で、みんな麻薬と言っているのは、早く効く麻薬です。<br><br>それから薬と言っているのは、遅く効く麻薬です。<br><br>それについて書いてみたのです。<br><br> （御論文「医学断片集 薬と名の付くものは全部麻薬なり」）【栄光 一七四号】 よくお医者さんなんかが「この薬は前は効いたが近ごろは効かない」ということを言うのですが、あれはやっぱり麻薬中毒と同じで、麻薬も最初は三日に一本射てば良かったが、だんだん効かなくなって、今度は二日に一本、一日に一本というように詰まってます。<br><br>あれと同じで、前は風邪の薬を飲んだり、胃の薬をたまに飲めばすむくらいだが、だんだん頻繁にしなければ追いつかない。<br><br>よく喘息の注射なんか、起るたびに射ったのが、それがしまいにはだんだん詰まってきて、三日とあけず射つようになる。<br><br>それで始終射つということになります。<br><br>あれは麻薬の作用と同じことです。<br><br>麻薬は、しまいには射たないと苦しいから、人のものを盗んでも射つようになります。<br><br>喘息の注射はそれと同じです。<br><br>少し注射しないでいると、息が詰まりそうになります。<br><br>そうしてみると一切の薬は麻薬なのです。<br><br>だから麻薬中毒を恐れるのなら他の薬も恐れなければならないが、ただ他の薬は麻薬のように早くない。<br><br>遅く効くから、中毒になり方が暇がかかるから、それで気がつかない。<br><br>実に人間の頭の悪さというのは、お話になりません。<br><br>それから結核の新薬なんかでも年中変わってます。<br><br>今はヒドラジドなんかと言っているが、この次はまたなにか出てきます。<br><br>それに気がつかない間は、いくらでも薬が出てきます。<br><br>しかしそのうちに、こっちの説を世界中が信じるようになります。<br><br>それまでの間はドンドン新しい薬が出ます。<br><br>それで新しい薬というのは、麻薬なら麻薬の効きが良くなるのです。<br><br>だからそれが分かれば恐ろしい話なのです。<br><br>薬の中毒を患者に言う場合に、麻薬を例にとって言うと分かりやすいと思います。<br><br>一番良いと思います。<br><br>ストレプトマイシンという麻薬なのです。<br><br>ヒドラジドという麻薬なのです。<br><br>こういうふうに言うと分かりやすいです。<br><br>だんだん薬の種類が増えると――増えるということは、これもおかしいことで、よく胃なら胃の薬を服んでいると、もうそれが効かなくなる。<br><br>すると、薬を替えると一時効くということを言いますが、あれが――一つ薬を飲んで効かなくなるということは、中毒になっているのです。<br><br>中毒というのは、身体にそれに対する抵抗力ができるので効かなくなる。<br><br>人間の身体というのは、ちょうど食物やなにかで毒のあるものを食べていると、だんだん毒にあたらなくなるが、あれと同じことで、一つ事をやっているとそれに中毒をしてしまう。<br><br>だから替えなければならないことになる。<br><br>これは農業の方の連作と同じです。<br><br>つまり肥料中毒にかかっているから、そこで畑なら畑を替えると、一時良くなるという意味と同じことです。<br><br>そういう点を考えると、薬毒というのは良く分かるのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Purificação e a Proliferação dos Insetos Nocivos</h2>
 <p>Recentemente, foi divulgado no rádio um estudo do erudito sueco Hallman, segundo o qual a temperatura média do planeta elevou-se em dez graus em comparação com cinquenta anos atrás. Sendo uma pesquisa científica, não há margem para erro. Trata-se, portanto, de uma questão de enorme gravidade. Se em cinquenta anos a temperatura aumentou dez graus, em quinhentos anos, o aumento seria de cem graus, o que tornaria a vida na Terra insustentável. Constata-se, assim, que tal fenômeno não ocorria no passado e que o aquecimento se intensificou subitamente nos últimos cinquenta anos. Isso vem corroborar cientificamente o que venho afirmando sobre a transição para o Mundo do Dia e o consequente aumento do Elemento Fogo.</p>
@@ -118,5 +270,48 @@ function toggleLang(lang) {
 <p>Os novos medicamentos para a tuberculose, por exemplo, mudam constantemente. Agora falam da isoniazida, mas logo surgirá outra coisa. Enquanto as pessoas não se derem conta da verdade, novos remédios continuarão a aparecer. Eventualmente, porém, o mundo inteiro passará a acreditar em nossa tese. Até lá, o fluxo de novas drogas não cessará. E cada novo medicamento é, na verdade, um narcótico mais potente. Quando se compreende isso, a situação se revela aterradora.</p>
 <p>Ao explicar a um doente sobre a intoxicação medicamentosa, creio que usar o exemplo dos narcóticos é a forma mais clara e eficaz. A estreptomicina é um narcótico. A isoniazida é um narcótico. Explicando assim, a compreensão se torna mais fácil.</p>
 <p>O fato de as variedades de remédios aumentarem é, em si, estranho. Uma pessoa toma um remédio para o estômago e, depois de um tempo, ele para de fazer efeito. Então, o médico troca o medicamento, e este funciona por um período. Quando um remédio deixa de funcionar, é sinal de que o corpo se intoxicou. A intoxicação cria resistência, e o remédio perde a eficácia. O corpo humano é assim: se alguém ingere um alimento levemente tóxico continuamente, com o tempo, deixa de se intoxicar com ele. O corpo se vicia naquela substância. Por isso, é preciso trocá-la. É o mesmo princípio da rotação de culturas na agricultura. O solo se intoxica com um mesmo fertilizante, e é preciso alternar o plantio para que ele se recupere. Refletindo sobre esses pontos, a natureza do veneno dos remédios torna-se perfeitamente clara.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年9月7日） 『御教え集』14号、昭和27(1952)年10月15日発行 昭和二十七年九月七日 ついこの間のラジオで、スウェーデンのハルマンという学者の研究で、五十年以前の気候と較べると、地球は平均十度高くなっていると言うのです。<br/><br/>これは研究だから間違いないわけです。<br/><br/>そうするとこれはたいへんな問題だと思います。<br/><br/>昔に――五十年に十度高くなるとすると、五百年で百度高くなります。<br/><br/>そうすると生きていられないことになる。<br/><br/>そうしてみると以前はそういうことはなくて、最近の五十年で急に温度が増えたのです。<br/><br/>すなわち私が言う、昼間の世界になってが火素が増えたということが、こういった――科学的に立証されたわけです。<br/><br/>で、霊の方の火素が増えたから、体の方は増えそうもないと思うけれども、そうではないのです。<br/><br/>やっぱり体にもいくぶん影響するのです。<br/><br/>私が浄霊すると、熱いと言う人がお蔭話なんかにたくさんあります。<br/><br/>中には汗をかく人もありますが、やはり霊ばかりでなく体も加わるわけです。<br/><br/>ですから火素が増えるということは、これは動かすべからざる証拠があるわけです。<br/><br/>それからもう一つおもしろいのは、今年は日本中の温度が、この夏は非常に違うのです。<br/><br/>一番暑いのは東京です。<br/><br/>私は毎日ラジオで温度を聞きますが、今日あたりも東京が暑いのです。<br/><br/>今日でも二十二度です。<br/><br/>かえって熊本あたりの方が低いのです。<br/><br/>広島が二十度かです。<br/><br/>それから強羅が高いのです。<br/><br/>今日あたりでも二十二度くらいです。<br/><br/>日本でも東京と強羅です。<br/><br/>あとはずっと低いのです。<br/><br/>強羅の高いのは私が来ているせいです。<br/><br/>やっぱり火素が増えるわけです。<br/><br/>そんなようでよほどおもしろいです。<br/><br/>それからこれもよく新聞やなにかに出てますし、農村の人は良く知ってますが、害虫が非常に増えてきたのです。<br/><br/>害虫は年々増えてます。<br/><br/>今年は螟虫（めいちゅう）が増えてますが、螟虫なんていうのは聞いたことがないです。<br/><br/>螟虫というのは近ごろらしいです。<br/><br/>どういう字を書くか？まさか「迷」という字を書くのではないでしょうが――。<br/><br/>あれは肥料の新しいのができるために、いつも言う通り肥料で虫が湧くのです。<br/><br/>今年なんかは尿素という、小便――尿素肥料が非常に増産しているのです。<br/><br/>で、今硫安が減らす方針です。<br/><br/>これは農林大臣なんか言ってますが、硫安を減らして尿素を増やすということを言われてますが、尿素というのは、あるいは――螟虫というのは尿素から発生するのかもしれません。<br/><br/>そうすると一生懸命にいろんな肥料で害虫の種類を増やしているわけです。<br/><br/>そうすると薬と同じことです。<br/><br/> 今のヒドラジドなんていうのは、今度は黴菌が抵抗性黴菌になった――抵抗性黴菌というと強い黴菌です。<br/><br/>だから今までの黴菌とは異った黴菌になるわけです。<br/><br/>これも一つ種類を増やしたわけです。<br/><br/>だから薬の種類が増えるだけは、いろんな虫の種類ができるわけです。<br/><br/>では薬や肥料でどうして虫が湧くかというと、これは立派に原因があるのです。<br/><br/>肥料でも薬でも、言わば汚物ですから、汚い物です。<br/><br/>だから汚い物にはどうしても浄化作用が起る。<br/><br/>要するに自然の掃除が起る。<br/><br/>自然の掃除が起る場合に、掃除をする人間――ではない、虫が自然に湧くのです。<br/><br/>物質の原則――法則というものは、汚い物がそこに溜まると、それをきれいにすべく作用が起るのです。<br/><br/>やはり霊界に曇りがあると低気圧が起るようなものです。<br/><br/>そういうように作られてある。<br/><br/>だから汚い物があると、その汚い物を食ってなくするのです。<br/><br/>消すという作用としてその虫が湧くのです。<br/><br/>そこでなぜ汚い所に虫が湧くか、という根本的の意味が分かるのです。<br/><br/>便所に蛆が湧くようなものです。<br/><br/>いったい蛆はなんで湧くかというと、糞は汚い物だからです。<br/><br/>汚いというのは、人間が特に間違った――今言う、薬やなにかを飲むとか、あるいは間違った行いで霊を穢すとかで、よけい汚い物が出るのです。<br/><br/>そこでよけい蛆が湧くという理屈になるのです。<br/><br/>ですからちょうど、薬にしろ肥料にしろ、あれは蛆や虫の原料になるわけです。<br/><br/>そうすると霊界に火素が多くなり、浄化力が強くなるからして、掃除をする虫が早く湧くわけです。<br/><br/>湧きやすくなる。<br/><br/>そこで近来になって害虫が湧くという理屈になるのです。<br/><br/>で、その害虫を殺そうとして、防虫剤だとか消毒薬だとか、そういったような薬を撒くと、それがまた土を汚しますから、それを作物が吸うと作物自体が――消毒薬の薬が古くなり殺虫剤が古くなると、ちょうど膿みたいなもので汚物になる。<br/><br/>そうするとそれを食って消す害虫が湧くという順序になりますから、そこで虫が湧きやすくなるということになる。<br/><br/>よくそういうことが分かっていると、いかに今の人間が愚かかということが分かります。<br/><br/>骨折って悪くしている。<br/><br/>今の話は虫だけなのですが、これは人間にも当てはまるのです。<br/><br/>というのは、人間が悪いことをしますが、悪い行いをすると、その人間が穢れますから、霊的に不潔な人間になるわけです。<br/><br/>どうしてもその人間を掃除しなければならない。<br/><br/>そうするとやっぱり黴菌が必要なのです。<br/><br/>黴菌なり害虫なりが必要になります。<br/><br/>しかし人間は農作物と異って、害虫という奴が人間なのです。<br/><br/>それが悪人です。<br/><br/>悪人がその人を苦しめるわけです。<br/><br/>苦しめて不潔になった人間の不潔分だけを掃除するのです。<br/><br/>だから無論病気が主ですが、病気以外のいろんな災難とか悪い奴が騙して、損をかけるとかいうことはたくさんありますが、そういうことも、やはりその人の持っている金が不潔な金、間違った金、ずるいことをして溜めた金、という、そういう不潔な金はどうしても掃除しなければならない。<br/><br/>その代わりに黴菌人間が騙して捲き上げる。<br/><br/>ということは、一つの浄化作用です。<br/><br/>そうしてみると、あいつに酷い目に遭ったとか、悪い奴に騙されたとか、泥棒に盗られたとか、いろんなことで損したり苦しめられたりすることは、その人自体に不潔物があるからです。<br/><br/>ところがおもしろいのは、害虫人間がまた浄化されることになるのです。<br/><br/>そうするとそれを浄化するのは、やっぱり害虫人間です。<br/><br/>ちょうど薬で病気の苦しみを抑えて、その薬毒がまた苦しみを作るという、そういった経路と良く似ているのです。<br/><br/>そこで悪い奴がますます増える、ますます人間はずるくなる。<br/><br/>そうすると、その不潔物を食う害虫人間がまた増える、ということになって、つまり今の人間は、そういうような経路が良く出てます。<br/><br/>それは、どこの監獄や刑務所に行っても年中満員です。<br/><br/>それで警官をいくら増やしても足りないのです。<br/><br/>それで世の中が変てこになっているのです。<br/><br/> 日本は軍備をしてはいけないとか、軍備反対などと言ってますが、こういうこともおかしいのです。<br/><br/>これを一言いっておきたいのですが、仮に日本に軍備がぜんぜんないとしたら――軍備反対の連中がなかなか多いです。<br/><br/>国民投票をしたら、日本の軍備反対は女が多くはないかと思います。<br/><br/>ところが朝鮮問題をみれば分かりますが、一昨年北鮮軍が南鮮に向かって攻撃した時に、もし南鮮に軍備がなかったら、二日か三日で釜山まで北鮮軍が侵略してしまいます。<br/><br/>そうして反対する者はみんな海に落としてしまいます。<br/><br/>ところがアメリカの援助の軍隊が来るまで、ともかく持ちこたえたのは、南鮮にあった兵力のためなのです。<br/><br/>ですから今ソ連は日本を狙って、そうして北海道から侵略しようと、今準備をしている。<br/><br/>樺太なんかに飛行機が何百機とか何千機とか、軍隊が何十万とか何百万とかと、非常に増強している。<br/><br/>それから本当には判らないが、島と島とを続けたなにかを作ったに違いないと言ってますが、それはまだ分からないのです。<br/><br/>というのは、潮流が変わってきたのです。<br/><br/>潮流が変わってきたから、今まで獲れる魚が獲れなくなった。<br/><br/>だからどこかで潮流を遮ったに違いないというのです。<br/><br/>しかしそれも充分に調査はできないのです。<br/><br/>なにしろソ連の方のことだから――。<br/><br/>しかしとにかくそういうような、北海道から侵略しようという計画は、充分分かるのです。<br/><br/>そうするとソ連が日本をやっつけるために、北海道を侵略してきた時に、いくぶんでも日本に軍備があれば良いですが、なければドンドン入ってきて九州まで行ってしまいます。<br/><br/>それは、共産政治のもとに生活していた人は結構ですが、共産主義よりかアメリカの資本主義の方が、よほど自由があって良いのは確かです。<br/><br/>どうもわれわれは共産主義政治にされたくないです。<br/><br/>そうしてみると、少なくとも日本は連合軍の仲間入りして、イザという時に援助の軍隊が来るまで持ち堪えるというだけの軍備は、どうしてもなくてはいけない。<br/><br/>ところがそれを反対するという日本人の気が知れないのです。<br/><br/>それは婦人なんかで、伜が兵隊に行くのは嫌だ、夫が兵隊に行くのは嫌だ、というそれも、人情から言えば分かりますが、しかしそれを助けんがために日本人全体が苦しまなければならない、ということの方がたいへんに大きいのですから、そういった大きい小さいを較べてみると、すぐ分かるのです。<br/><br/>ただ一時的の感情に支配されて、国全体の大きな災いを省みないということは、あまりに――まるで無教育国の人間みたいです。<br/><br/>そのくらいの理論さえ分からないかと思われるくらいです。<br/><br/>そういうふうになったということは――黴菌とはちょっと離れたような話ですが、とにかく中毒のために、今の人間の頭が非常に悪くなっている。<br/><br/>で、日本人の頭が悪くなったのは、いつも言うのですが、酷いものです。<br/><br/>身体が汚れきっているのです。<br/><br/>しかし黴菌の話のついでですから、そういうことも心得ていなければならないので言うのです。<br/><br/>政府もそれは知っているのだから大いにやりたいが、やれないということは、つまり本当に言えば憲法を改正しなければならない。<br/><br/>ところが民主政治というのは非常に厄介なもので、憲法改正にはどうしても国民投票――どういう方法でやるか、大体国民全部のうちの賛成が多くなければ、それはできない。<br/><br/>しかし今選挙権を持っているのは、女の方が二、三百万多いのです。<br/><br/>そうすると国民投票をやれば、軍備反対の方が多いですから成立しない。<br/><br/>それで政府はそうしたいのだが、やれないのです。<br/><br/>ですからその点も実におかしいくらいなのです。<br/><br/>では黴菌人間はどうなるかというと、それについて書いたのです。<br/><br/>それから第三次戦争がそういう人間を解決するのです。<br/><br/> （御論文「第三次戦争は果して有る？」）【地上天国 四十号】 それから黴菌人間が今いかに多いかということですが、それをちょっと書いてみたのです。<br/><br/> （御論文「悪の世の中」）【栄光 一七四号】 それから、よく麻薬中毒ということを言いますが、麻薬中毒というと他人事のようですが、今日本人全部が麻薬中毒なのです。<br/><br/>ただ早く効く麻薬と、遅く効く麻薬との異（ちが）いです。<br/><br/>で、みんな麻薬と言っているのは、早く効く麻薬です。<br/><br/>それから薬と言っているのは、遅く効く麻薬です。<br/><br/>それについて書いてみたのです。<br/><br/> （御論文「医学断片集 薬と名の付くものは全部麻薬なり」）【栄光 一七四号】 よくお医者さんなんかが「この薬は前は効いたが近ごろは効かない」ということを言うのですが、あれはやっぱり麻薬中毒と同じで、麻薬も最初は三日に一本射てば良かったが、だんだん効かなくなって、今度は二日に一本、一日に一本というように詰まってます。<br/><br/>あれと同じで、前は風邪の薬を飲んだり、胃の薬をたまに飲めばすむくらいだが、だんだん頻繁にしなければ追いつかない。<br/><br/>よく喘息の注射なんか、起るたびに射ったのが、それがしまいにはだんだん詰まってきて、三日とあけず射つようになる。<br/><br/>それで始終射つということになります。<br/><br/>あれは麻薬の作用と同じことです。<br/><br/>麻薬は、しまいには射たないと苦しいから、人のものを盗んでも射つようになります。<br/><br/>喘息の注射はそれと同じです。<br/><br/>少し注射しないでいると、息が詰まりそうになります。<br/><br/>そうしてみると一切の薬は麻薬なのです。<br/><br/>だから麻薬中毒を恐れるのなら他の薬も恐れなければならないが、ただ他の薬は麻薬のように早くない。<br/><br/>遅く効くから、中毒になり方が暇がかかるから、それで気がつかない。<br/><br/>実に人間の頭の悪さというのは、お話になりません。<br/><br/>それから結核の新薬なんかでも年中変わってます。<br/><br/>今はヒドラジドなんかと言っているが、この次はまたなにか出てきます。<br/><br/>それに気がつかない間は、いくらでも薬が出てきます。<br/><br/>しかしそのうちに、こっちの説を世界中が信じるようになります。<br/><br/>それまでの間はドンドン新しい薬が出ます。<br/><br/>それで新しい薬というのは、麻薬なら麻薬の効きが良くなるのです。<br/><br/>だからそれが分かれば恐ろしい話なのです。<br/><br/>薬の中毒を患者に言う場合に、麻薬を例にとって言うと分かりやすいと思います。<br/><br/>一番良いと思います。<br/><br/>ストレプトマイシンという麻薬なのです。<br/><br/>ヒドラジドという麻薬なのです。<br/><br/>こういうふうに言うと分かりやすいです。<br/><br/>だんだん薬の種類が増えると――増えるということは、これもおかしいことで、よく胃なら胃の薬を服んでいると、もうそれが効かなくなる。<br/><br/>すると、薬を替えると一時効くということを言いますが、あれが――一つ薬を飲んで効かなくなるということは、中毒になっているのです。<br/><br/>中毒というのは、身体にそれに対する抵抗力ができるので効かなくなる。<br/><br/>人間の身体というのは、ちょうど食物やなにかで毒のあるものを食べていると、だんだん毒にあたらなくなるが、あれと同じことで、一つ事をやっているとそれに中毒をしてしまう。<br/><br/>だから替えなければならないことになる。<br/><br/>これは農業の方の連作と同じです。<br/><br/>つまり肥料中毒にかかっているから、そこで畑なら畑を替えると、一時良くなるという意味と同じことです。<br/><br/>そういう点を考えると、薬毒というのは良く分かるのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

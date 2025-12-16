@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qooyaked</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大火傷が快癒す 膿汁の患部浸出に注意を 『救世』55号、昭和25(1950)年3月25日発行 鳥取県 五六七大教会光国中教会 生田宗一（36） 野良仕事を終えて疲れた体を一風呂流し、夕餉の食卓につこうとした時、長女（当時四歳）が台所の上の間に登ろうとして障子に触れ倒れた。<br><br>丁度その所に火から下したばかりのお汁の鍋が置いてあったのに左手を突込みお汁は溢れて左腕（肩から手首まで）と左眼下から右眼下に至る腰部一面の大火傷を負うたのです。<br><br>子供は痛みに火の付くように泣きます。<br><br>居合せた家内とともに素早く着物を脱がせ両脇下へ手を入れて上の間に抱き上げました。<br><br>手を離したら脇下の皮が「くりッ」と脱げて手についたのです。<br><br>「ハッ」と想う無意識のうちに手は動いていました。<br><br>痛みに堪え兼ね泣き狂っていたが五分余りの浄霊に痛みも止まったらしく痛いか、と問えば涙顔を上げて頭を横に振っている。<br><br>その時始めて私も我に返り、ああ偉大なるかな、これぞ光明如来様の御力によるものぞと感激は身にしみて瞼は熱くなりました。<br><br>並いる家内一同も曇った顔を一時に晴らしたのであります。<br><br>なおも約一時間に渉り浄霊を続けました。<br><br>暫くするうちにポツポツ水泡も出て来ました。<br><br>教導所に、中先生を尋ねて直ちに来て頂きました。<br><br>余りに大火傷に驚かれながらも心配ないからと力を付けて頂き浄霊も頂きました。<br><br> 翌日からは朝昼晩と浄霊を続けました。<br><br>中先生にも多忙な体を都合付けて、浄霊して頂きました。<br><br>翌朝は潰れた水泡が包帯を通して水を掛けたごとく濡れていました。<br><br>それが日を追うに随って膿と化し臭気を催して来ました、実に目も当てられない有様でした。<br><br> 朝に包帯を換え夕に又換える、その苦痛は傍で見る眼も痛ましく、ともに涙の出る思いで種々なだめすかしては日課のごとく続けました。<br><br>親戚や隣家の方からは絶えずあれこれと手当の方法を奨められたがその好意は充分に受けながらも、ひたすら光明如来様の御力にすがり、時には真実にこれがよくなるだろうかと思う不安に一時を過した事もありました。<br><br> 水泡は膿となり膿は「カサブタ」に張り閉され悪臭は日々高くなり、傍へも寄り付けぬ有様でした。<br><br>日を重ねるうちに手首の方と腰部の軽い方より皮が脱げ追々と快方に向い約一カ月位経って大部分が全快したのです。<br><br> 漸く長女の火傷がよくなって皆「ホッ」としているのも束の間、今度は二女（二歳）がまた顔面の大火傷をしたのです。<br><br>漸く歩けるようになりヨチヨチ立っているうちに囲炉裡に転んで、掛けてあった鍋の湯がかえり焼灰をあぶり顔一面、丁度面をかぶったごとく灰まみれになり苦痛に泣き狂っておました。<br><br>最初はどの辺かちょっと解らなかったけれど、追々と赤く色どり水泡が出来た。<br><br>近所の人達も見舞に来て頂きいろいろ手当の方法等またまた奨めて頂く厚意を謝しながら一度御守護を頂いた光明如来様の偉大なる御光を信じ浄霊を続けたのです。<br><br>この度もまたまた中先生の御浄霊を頂きました。<br><br> その夜は痛みに泣いたり寝たりして夜を明かしました。<br><br>翌朝見れば昨日の顔はどこへやら、面を着たごとく目は片方塞ぎ唇は動かず熱もあり、ただうとうととして御飯も口へ入らず、牛乳等与えても最初は少し許り飲んだが喜ばず、三日目には両眼共塞ぎ「カサブタ」は顔一杯張り廻し口は動かず「ヨダレ」はあごを伝って膿と一緒に落ちる、四日目には少しよくなり両眼共細目に開いた。<br><br>少しずつ遊ばれるようになるその頃より「ヨダレ」のためあごの方から皮が脱けだした、それから日々によくなり数日を経て「カサブタ」は完全に脱げました。<br><br>何分顔ではあり両眼共潰れたではないかと心配されたが、以前に増して顔は綺麗になり目も澄んで今は傷跡もなく体も丈夫に育ち遊びおります。<br><br>一度ならず二度迄も光明如来様の御守護を頂きまして誠に有難く感激に咽んだのでした。<br><br>ここに感謝の一端を拙なき筆に染めお礼申上げる次第であります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Grave queimadura alcança a cura (Atenção à exsudação purulenta na área afetada)</h2>
 <p>Revista Kyusei, nº 55, 25 de março de 1950</p>
@@ -102,5 +257,48 @@ Igreja Mitsukuni, ligada à Grande Igreja Goroku-shichi, Província de Tottori</
 <p>Naquela noite, ela alternou entre o choro de dor e breves períodos de sono. Pela manhã, seu rosto estava irreconhecível. Parecia usar uma máscara: um dos olhos estava fechado pelo inchaço, seus lábios imóveis, e ela ardia em febre. Apenas sonolenta, não aceitava alimento algum. Oferecemos-lhe leite, que no início bebeu em pequena quantidade, mas logo o recusou. No terceiro dia, ambos os olhos estavam fechados, e crostas cobriam-lhe todo o rosto. Sua boca não se movia, e a saliva escorria pelo queixo, misturada ao pus. No quarto dia, houve uma pequena melhora, e ela conseguiu abrir os dois olhos em finas frestas.</p>
 <p>A partir do momento em que começou a brincar um pouco, a pele do queixo, amolecida pela saliva, começou a se soltar. Daí em diante, a melhora foi diária e, após alguns dias, as crostas caíram por completo. Por se tratar do rosto, temíamos que seus olhos tivessem sido afetados permanentemente. Contudo, para nossa surpresa, seu rosto tornou-se ainda mais belo do que antes, e seus olhos, mais límpidos. Hoje, não há qualquer cicatriz, e ela cresce forte, saudável e cheia de vida.</p>
 <p>Ter recebido a proteção de Komyō Nyorai-Sama não uma, mas duas vezes, encheu meu coração de uma gratidão tão profunda que as palavras me faltam. É com este humilde relato que desejo expressar uma ínfima parcela de meu agradecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大火傷が快癒す 膿汁の患部浸出に注意を 『救世』55号、昭和25(1950)年3月25日発行 鳥取県 五六七大教会光国中教会 生田宗一（36） 野良仕事を終えて疲れた体を一風呂流し、夕餉の食卓につこうとした時、長女（当時四歳）が台所の上の間に登ろうとして障子に触れ倒れた。<br/><br/>丁度その所に火から下したばかりのお汁の鍋が置いてあったのに左手を突込みお汁は溢れて左腕（肩から手首まで）と左眼下から右眼下に至る腰部一面の大火傷を負うたのです。<br/><br/>子供は痛みに火の付くように泣きます。<br/><br/>居合せた家内とともに素早く着物を脱がせ両脇下へ手を入れて上の間に抱き上げました。<br/><br/>手を離したら脇下の皮が「くりッ」と脱げて手についたのです。<br/><br/>「ハッ」と想う無意識のうちに手は動いていました。<br/><br/>痛みに堪え兼ね泣き狂っていたが五分余りの浄霊に痛みも止まったらしく痛いか、と問えば涙顔を上げて頭を横に振っている。<br/><br/>その時始めて私も我に返り、ああ偉大なるかな、これぞ光明如来様の御力によるものぞと感激は身にしみて瞼は熱くなりました。<br/><br/>並いる家内一同も曇った顔を一時に晴らしたのであります。<br/><br/>なおも約一時間に渉り浄霊を続けました。<br/><br/>暫くするうちにポツポツ水泡も出て来ました。<br/><br/>教導所に、中先生を尋ねて直ちに来て頂きました。<br/><br/>余りに大火傷に驚かれながらも心配ないからと力を付けて頂き浄霊も頂きました。<br/><br/> 翌日からは朝昼晩と浄霊を続けました。<br/><br/>中先生にも多忙な体を都合付けて、浄霊して頂きました。<br/><br/>翌朝は潰れた水泡が包帯を通して水を掛けたごとく濡れていました。<br/><br/>それが日を追うに随って膿と化し臭気を催して来ました、実に目も当てられない有様でした。<br/><br/> 朝に包帯を換え夕に又換える、その苦痛は傍で見る眼も痛ましく、ともに涙の出る思いで種々なだめすかしては日課のごとく続けました。<br/><br/>親戚や隣家の方からは絶えずあれこれと手当の方法を奨められたがその好意は充分に受けながらも、ひたすら光明如来様の御力にすがり、時には真実にこれがよくなるだろうかと思う不安に一時を過した事もありました。<br/><br/> 水泡は膿となり膿は「カサブタ」に張り閉され悪臭は日々高くなり、傍へも寄り付けぬ有様でした。<br/><br/>日を重ねるうちに手首の方と腰部の軽い方より皮が脱げ追々と快方に向い約一カ月位経って大部分が全快したのです。<br/><br/> 漸く長女の火傷がよくなって皆「ホッ」としているのも束の間、今度は二女（二歳）がまた顔面の大火傷をしたのです。<br/><br/>漸く歩けるようになりヨチヨチ立っているうちに囲炉裡に転んで、掛けてあった鍋の湯がかえり焼灰をあぶり顔一面、丁度面をかぶったごとく灰まみれになり苦痛に泣き狂っておました。<br/><br/>最初はどの辺かちょっと解らなかったけれど、追々と赤く色どり水泡が出来た。<br/><br/>近所の人達も見舞に来て頂きいろいろ手当の方法等またまた奨めて頂く厚意を謝しながら一度御守護を頂いた光明如来様の偉大なる御光を信じ浄霊を続けたのです。<br/><br/>この度もまたまた中先生の御浄霊を頂きました。<br/><br/> その夜は痛みに泣いたり寝たりして夜を明かしました。<br/><br/>翌朝見れば昨日の顔はどこへやら、面を着たごとく目は片方塞ぎ唇は動かず熱もあり、ただうとうととして御飯も口へ入らず、牛乳等与えても最初は少し許り飲んだが喜ばず、三日目には両眼共塞ぎ「カサブタ」は顔一杯張り廻し口は動かず「ヨダレ」はあごを伝って膿と一緒に落ちる、四日目には少しよくなり両眼共細目に開いた。<br/><br/>少しずつ遊ばれるようになるその頃より「ヨダレ」のためあごの方から皮が脱けだした、それから日々によくなり数日を経て「カサブタ」は完全に脱げました。<br/><br/>何分顔ではあり両眼共潰れたではないかと心配されたが、以前に増して顔は綺麗になり目も澄んで今は傷跡もなく体も丈夫に育ち遊びおります。<br/><br/>一度ならず二度迄も光明如来様の御守護を頂きまして誠に有難く感激に咽んだのでした。<br/><br/>ここに感謝の一端を拙なき筆に染めお礼申上げる次第であります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

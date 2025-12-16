@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tikago02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 近頃の世相 『栄光』214号、昭和28(1953)年6月24日発行 今日の世相をつくづく見てみると、不可解な点が余りに多いのは、何がためかをかいてみよう。<br><br>それには色々あろうが、その第一は近頃のごとく各地に大中小の火災の多い事で、その損害高も相当の額に上るというのである。<br><br>これには人間に分らない何かの原因がなくてはならないと誰しも思うであろうし、その他交通事故にしても、ヤレ衝突、脱線、墜落等々、その都度（つど）人畜の被害も中々馬鹿にはならないものがある。<br><br>その他最も悪質なものとしては、つまらぬ事で喧嘩、殴合（なぐりあ）い、殺傷沙汰など、人間の命を余りに軽く見過ぎる態（ざま）は、普通の頭では解釈出来ない。<br><br>また僅かな金を奪（と）るために簡単に人を殺すなどもそうで、彼（か）の運チャンの首を締めて、僅か千円か二千円の金を奪うなど、人の命を見る事敝履（へいり）のごとしである。<br><br> 右は男性に関する事だが、女性の方も感心出来ない事が沢山ある。<br><br>その中で最も情ないと思うのは貞操観念の低下である。<br><br>吾々としても封建時代のような堅苦しい事は言いたくないが、その反動でもあろうが現在のようではどう考えても行過ぎとしか思えない。<br><br>近頃町を歩いても、公々然とむしろ誇らし気にパンパン嬢が外国兵と腕を組んで横行している有様は、これらも止むを得ないという理屈もあろうが、一種の国辱的感がするのは誰しもそうであろう。<br><br>これをたとえてみると人間の肉体の汚いところは出来るだけ人に見せないようにするのが本当である。<br><br> 以上は気の付いたままかいたのであるが、ではこれらの原因は一体どこにあるかというと、これこそ吾々の神霊医学を通して見ればよく分る。<br><br>それは今日の人間程薬を多く用ゆる時代はなかったであろう。<br><br>つまり薬を多量に体内へ入れ、一方近代文化生活は頭脳を酷使するため、薬という毒物は頭脳目掛けて集溜し固結する。<br><br>その個所は後頭部及び延髄付近であるから、どんな人でも右の部を触れば必ず判ると共に、それが溶けるための微熱も必ずある。<br><br>そこでその固結が脳の血管を圧迫するため、常に軽い脳貧血が起っていると共に、微熱は脳に影響して脳の活動を鈍らす。<br><br>そのような訳で今日の人間は頭が痛い、重い、ボンヤリする、焦々（イライラ）する、考えが纏（まとま）らない、気が塞（ふさ）ぐ、悲観的となる、というような症状のない人はほとんどあるまい。<br><br>これを医学では神経衰弱というのである。<br><br>そうして薬毒の固結排除活動が発（おこ）る。<br><br>すなわち浄化作用である。<br><br>これが感冒、下痢、胃病、肺病、心臓病、不眠、精神病、赤痢、疫痢等の原因となるに対し医学では全然分らないから逆な療法を施（ほどこ）す以上、増えるとも減るはずはないのである。<br><br>ところがこの原理が徹底的に分る所は我救世教より外になく、しかもそれを完全に治す方法が我浄霊医術であるから、何が何でも右の症状のある人は、まず薬をやめて本教へ来る事である。<br><br>それによって右の苦痛は拭（ぬぐ）ったように去り、明朗愉快な人生を送り得ると共に、社会的には事故、犯罪、貧乏、争い等々解消するとしたら、これが地上天国を作る宗教でなくて何であろう。<br><br> (注) 敝履（へいり）、破れたくつ。<br><br>使い物にならないはき物。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Sociedade Contemporânea</h2>
 <p>Ao observar atentamente a sociedade de nossos dias, deparamo-nos com uma profusão de fatos inexplicáveis, cujas razões me proponho a elucidar. Dentre os muitos fenômenos desconcertantes, destacam-se, em primeiro lugar, os incêndios de pequenas, médias e grandes proporções que assolam inúmeras localidades, gerando prejuízos materiais de vulto considerável. Qualquer pessoa sensata há de concordar que deve existir uma causa oculta, imperceptível ao ser humano, por trás de tais calamidades. O mesmo se pode dizer dos acidentes de trânsito, como colisões, descarrilamentos e desastres aéreos, que, a cada ocorrência, ceifam vidas e causam danos de uma gravidade inegável.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Expostos esses pontos que me ocorreram, indaga-se: onde reside a verdadeira causa de todos esses fenômenos? A resposta torna-se perfeitamente clara quando os analisamos sob a ótica da nossa Medicina Espiritual. Jamais houve uma época em que a humanidade consumisse tantos medicamentos quanto a atual. Ocorre que, ao serem introduzidas no organismo em grande quantidade, essas substâncias tóxicas, que são os remédios, concentram-se e se solidificam no cérebro, uma vez que o estilo de vida moderno exige um uso excessivo do intelecto. Essas solidificações localizam-se na região occipital e no bulbo raquidiano, sendo facilmente perceptíveis ao toque em qualquer indivíduo, que invariavelmente apresentará também uma febre baixa decorrente do processo de dissolução dessas toxinas.</p>
 <p>Essa massa solidificada comprime os vasos sanguíneos cerebrais, provocando um estado constante de leve anemia cerebral, ao passo que a febre baixa afeta o cérebro, embotando sua atividade. Em decorrência disso, praticamente não há hoje quem não sofra de sintomas como dor e peso na cabeça, confusão mental, irritabilidade, dificuldade de concentração, melancolia e pessimismo, quadro que a medicina denomina neurastenia. Em seguida, o organismo inicia o processo de eliminação das toxinas solidificadas, ou seja, a purificação. Este processo é a causa de enfermidades como gripes, diarreias, problemas estomacais, doenças pulmonares e cardíacas, insônia, distúrbios mentais, disenteria e outras afecções. A medicina, por desconhecer por completo tal princípio, aplica terapias antagônicas que, em vez de solucionar, apenas agravam o quadro.</p>
 <p>Nesse sentido, a única instituição que compreende esta verdade em sua totalidade é a nossa Sekaikyuseikyou, e o único método capaz de promover a cura completa é a nossa arte do Johrei. Portanto, é imperativo que todas as pessoas que sofrem dos sintomas descritos abandonem o uso de medicamentos e busquem os nossos ensinamentos. Por meio deles, seus padecimentos desaparecerão como se tivessem sido varridos, permitindo-lhes desfrutar de uma vida plena, alegre e feliz. Consequentemente, no âmbito social, os acidentes, os crimes, a pobreza e os conflitos serão erradicados. Se esta não é a religião que edifica o Paraíso Terrestre, o que mais poderia ser?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 近頃の世相 『栄光』214号、昭和28(1953)年6月24日発行 今日の世相をつくづく見てみると、不可解な点が余りに多いのは、何がためかをかいてみよう。<br/><br/>それには色々あろうが、その第一は近頃のごとく各地に大中小の火災の多い事で、その損害高も相当の額に上るというのである。<br/><br/>これには人間に分らない何かの原因がなくてはならないと誰しも思うであろうし、その他交通事故にしても、ヤレ衝突、脱線、墜落等々、その都度（つど）人畜の被害も中々馬鹿にはならないものがある。<br/><br/>その他最も悪質なものとしては、つまらぬ事で喧嘩、殴合（なぐりあ）い、殺傷沙汰など、人間の命を余りに軽く見過ぎる態（ざま）は、普通の頭では解釈出来ない。<br/><br/>また僅かな金を奪（と）るために簡単に人を殺すなどもそうで、彼（か）の運チャンの首を締めて、僅か千円か二千円の金を奪うなど、人の命を見る事敝履（へいり）のごとしである。<br/><br/> 右は男性に関する事だが、女性の方も感心出来ない事が沢山ある。<br/><br/>その中で最も情ないと思うのは貞操観念の低下である。<br/><br/>吾々としても封建時代のような堅苦しい事は言いたくないが、その反動でもあろうが現在のようではどう考えても行過ぎとしか思えない。<br/><br/>近頃町を歩いても、公々然とむしろ誇らし気にパンパン嬢が外国兵と腕を組んで横行している有様は、これらも止むを得ないという理屈もあろうが、一種の国辱的感がするのは誰しもそうであろう。<br/><br/>これをたとえてみると人間の肉体の汚いところは出来るだけ人に見せないようにするのが本当である。<br/><br/> 以上は気の付いたままかいたのであるが、ではこれらの原因は一体どこにあるかというと、これこそ吾々の神霊医学を通して見ればよく分る。<br/><br/>それは今日の人間程薬を多く用ゆる時代はなかったであろう。<br/><br/>つまり薬を多量に体内へ入れ、一方近代文化生活は頭脳を酷使するため、薬という毒物は頭脳目掛けて集溜し固結する。<br/><br/>その個所は後頭部及び延髄付近であるから、どんな人でも右の部を触れば必ず判ると共に、それが溶けるための微熱も必ずある。<br/><br/>そこでその固結が脳の血管を圧迫するため、常に軽い脳貧血が起っていると共に、微熱は脳に影響して脳の活動を鈍らす。<br/><br/>そのような訳で今日の人間は頭が痛い、重い、ボンヤリする、焦々（イライラ）する、考えが纏（まとま）らない、気が塞（ふさ）ぐ、悲観的となる、というような症状のない人はほとんどあるまい。<br/><br/>これを医学では神経衰弱というのである。<br/><br/>そうして薬毒の固結排除活動が発（おこ）る。<br/><br/>すなわち浄化作用である。<br/><br/>これが感冒、下痢、胃病、肺病、心臓病、不眠、精神病、赤痢、疫痢等の原因となるに対し医学では全然分らないから逆な療法を施（ほどこ）す以上、増えるとも減るはずはないのである。<br/><br/>ところがこの原理が徹底的に分る所は我救世教より外になく、しかもそれを完全に治す方法が我浄霊医術であるから、何が何でも右の症状のある人は、まず薬をやめて本教へ来る事である。<br/><br/>それによって右の苦痛は拭（ぬぐ）ったように去り、明朗愉快な人生を送り得ると共に、社会的には事故、犯罪、貧乏、争い等々解消するとしたら、これが地上天国を作る宗教でなくて何であろう。<br/><br/> (注) 敝履（へいり）、破れたくつ。<br/><br/>使い物にならないはき物。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

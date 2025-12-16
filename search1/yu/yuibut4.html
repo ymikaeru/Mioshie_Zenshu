@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yuibut4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物主義と唯心主義の戦 『地上天国』11号、昭和24(1949)年12月20日発行 ジャーナリストはほとんど本教を迷信邪教というが、これはどういう訳であろうか。<br><br>端的にいえば彼らと吾々とは観点が異（ちが）う。<br><br>唯物主観によって唯心的を批判するからである。<br><br>という事は唯物主義とは文字通り判然と眼に見える存在であるから、何人も把握し得るが、唯心主義に至っては不可視である以上、どうしても否定する事になる。<br><br>ゆえにただ単に比較さるる時、唯心主義の方は実に歩（ぶ）が悪いのは致し方ないのである。<br><br> しかしながら唯物観は眼に見え、五感に触るるだけのもので局限されている以上小なる存在ともいえる。<br><br>それに引換え唯心観は無限大である、いわば地球の大きさに対する際限のない宇宙の大きさともいえる。<br><br>今ここに眼で見得る程度としては精々富士山くらいで、数十哩（マイル）に過ぎないが、眼に見えぬ想念は地球の涯（はて）はおろか無限大に拡がり得る事も一瞬にして可能である。<br><br>ちょうど大海が唯心観ならば、それに浮いている船が唯物観であるともいえよう。<br><br> 以上の理によって、唯物主義は仏陀と同様唯心主義者の掌に何千里か駈けたが、とうとう負けてしまった孫悟空にも似ている。<br><br>また他の例を借りていえば、彼の釈尊が唱えた一切空の説も、唯心観から唯物観を対象としたものであり、生者必滅会者定離もそうであり禅のいう「形あるもの必ず滅する」という悟りもこれである。<br><br>もちろん唯心観は永遠無窮の生命体である以上、有限であるところの唯物観で、唯心観を批判するのはいかに誤っているかが判るであろう。<br><br>ちょうど小さな壺へ象を入れようとするものであり、葭のずいから天井を覗くようなものである。<br><br> 唯物主義者よ！ この説を読んでもっていかんとするや！
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Embate entre o Materialismo e a Visão Espiritualista</h2>
 <p>É comum que os jornalistas qualifiquem nossa Fé como superstição ou heresia. Qual seria a razão para tal julgamento? A questão reside, em suma, na divergência de perspectivas, pois eles se pautam por uma visão materialista para criticar aquilo que é de natureza espiritual. O materialismo, como a própria palavra indica, restringe-se às existências que se podem ver com clareza, sendo, portanto, passível de ser compreendido por qualquer pessoa. A visão espiritualista, por sua vez, por lidar com o invisível, acaba por ser inevitavelmente negada. Consequentemente, em uma comparação superficial, é natural que a visão espiritualista se encontre em notória desvantagem.</p>
 <p>Todavia, a concepção materialista, por se restringir ao que é visível e perceptível pelos cinco sentidos, pode ser considerada uma existência limitada. Em contrapartida, a visão espiritualista é infinita; poderíamos compará-la à vastidão ilimitada do Universo em contraste com as dimensões do nosso planeta. O alcance da visão humana mal ultrapassa algumas dezenas de quilômetros – o suficiente para avistar, quando muito, uma montanha como o Fuji. O pensamento, entretanto, que é invisível, pode em um único instante expandir-se não apenas aos confins da Terra, mas ao próprio infinito. Poderíamos dizer, ainda, que se a visão espiritualista fosse o grande oceano, a visão materialista seria um navio a flutuar sobre suas águas.</p>
 <p>Nesse sentido, o materialismo se assemelha a Sun Wukong, que, na lenda, correu milhares de léguas apenas para descobrir que jamais havia saído da palma da mão do Buda – este, uma representação da visão espiritualista. Tomando outros exemplos, a doutrina do venerável Shakyamuni sobre a vacuidade de todas as coisas nada mais é do que uma análise da realidade material sob a ótica espiritual. O mesmo se aplica aos princípios de que todo ser vivo está fadado à morte e todo encontro leva a uma separação, bem como à iluminação do Zen, que afirma: “tudo o que possui forma, inevitavelmente perecerá”. Fica evidente, portanto, o quão equivocado é o materialismo, finito por natureza, ao tentar julgar a visão espiritualista, que é, em essência, uma forma de vida eterna e infinita. Tal tentativa equivale a querer colocar um elefante dentro de um pequeno vaso ou a pretender observar todo o firmamento através da fresta de uma palha.</p>
 <p>Ó materialistas! Após lerdes esta exposição, que argumento podereis ainda apresentar?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物主義と唯心主義の戦 『地上天国』11号、昭和24(1949)年12月20日発行 ジャーナリストはほとんど本教を迷信邪教というが、これはどういう訳であろうか。<br/><br/>端的にいえば彼らと吾々とは観点が異（ちが）う。<br/><br/>唯物主観によって唯心的を批判するからである。<br/><br/>という事は唯物主義とは文字通り判然と眼に見える存在であるから、何人も把握し得るが、唯心主義に至っては不可視である以上、どうしても否定する事になる。<br/><br/>ゆえにただ単に比較さるる時、唯心主義の方は実に歩（ぶ）が悪いのは致し方ないのである。<br/><br/> しかしながら唯物観は眼に見え、五感に触るるだけのもので局限されている以上小なる存在ともいえる。<br/><br/>それに引換え唯心観は無限大である、いわば地球の大きさに対する際限のない宇宙の大きさともいえる。<br/><br/>今ここに眼で見得る程度としては精々富士山くらいで、数十哩（マイル）に過ぎないが、眼に見えぬ想念は地球の涯（はて）はおろか無限大に拡がり得る事も一瞬にして可能である。<br/><br/>ちょうど大海が唯心観ならば、それに浮いている船が唯物観であるともいえよう。<br/><br/> 以上の理によって、唯物主義は仏陀と同様唯心主義者の掌に何千里か駈けたが、とうとう負けてしまった孫悟空にも似ている。<br/><br/>また他の例を借りていえば、彼の釈尊が唱えた一切空の説も、唯心観から唯物観を対象としたものであり、生者必滅会者定離もそうであり禅のいう「形あるもの必ず滅する」という悟りもこれである。<br/><br/>もちろん唯心観は永遠無窮の生命体である以上、有限であるところの唯物観で、唯心観を批判するのはいかに誤っているかが判るであろう。<br/><br/>ちょうど小さな壺へ象を入れようとするものであり、葭のずいから天井を覗くようなものである。<br/><br/> 唯物主義者よ！ この説を読んでもっていかんとするや！</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

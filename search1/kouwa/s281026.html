@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281026</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月26日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月二十六日 自然栽培の特集号を出すについてちょっと書いてみました。<br><br>今度はできるだけ徹底して書きました。<br><br>これで分からなければしようがありません。<br><br> （御論文「日本農業〔法〕の大革命 無肥料で初年度から〔一割乃至〕五割増産」）【栄光 二四五号】 それからこの間のラジオの放送でちょっとおもしろいことがありました。<br><br>放送局から原稿をとってきたので、今読ませます。<br><br> （ＮＨＫ第一放送午後○時十五分「ひるのいこい」放送） こういう事実が現われてもなかなか迷信を打ち破ることはできないのです。<br><br>つまり一家で子供が次々に死んでも、相変わらずお医者さんの厄介になるというのとよく似てます。<br><br>そういうわけで、この医学迷信と肥料迷信というものが人間の大敵です。<br><br>ですからこれは、共産主義などというのは、これに比べたら屁みたいなものです。<br><br>このくらいの大きな迷信による被害はないわけです。<br><br>それを教えるのが一番肝腎だからやっているのです。<br><br>それで「特集号」は今月の末にできるつもりですが、一番よいのは、農家を一戸一戸まわって一枚売りをするのですが、あんがい売れるだろうと思います。<br><br>なにしろ今年はあのとおりの状態ですし、そこに大きな見出しで“日本農業の大革命 無肥料で初年度から五割増産”というのですから、これを見たら飛びつかない者はないだろうと思います。<br><br>今日の農家は経済的に非常に困ってますから、少しでも安い方が手が出しよいです。<br><br>百万くらいは出したいと思います。<br><br>信者の人だけで五十万は確かですから、あとの五十万は一枚売りです。<br><br>それから講演会とか座談会を大いにやりますから、その時の聴衆に大いにたくさん売れると思います。<br><br>とにかく百万間配ればそうとう刺激して、とにかくやってみようというところまで行かないはずはないと思います。<br><br>そのつもりで普及会員の人たちは大いに努力してもらいたいと思います。<br><br>これは改めて言うこともありません。<br><br>そうしてなにしろ日本を救わなければならないのです。<br><br>それで今年は非常に悪く、案外不作です。<br><br>分かっただけでも五千四百万石ですが、まだ減るかもしれません。<br><br>そうすると八千万からの人間で、半分が食うだけもとれないのです。<br><br>そうかといって外米を輸入しますが、その金がたいへんなのです。<br><br>どうしても今年などは三千億近く出しています。<br><br>それだけの金を稼ぐといってもたいへんなものです。<br><br>どうしてもそれだけ貧乏になるわけです。<br><br>それで今年だけで来年からはチャンとなるならよいですが、それが分からないのです。<br><br>また再来年もあるのです。<br><br>それで人間のほうはドンドン増えるし、米のほうはだんだんそういうふうです。<br><br>この迷信に気がつかなければ、増えるということはないのですから、それこそ日本の一大危機です。<br><br>ですからなんとしてもこれを救わなければならないのです。<br><br>これも、書いてあるとおり、神様がそういうチャンスを作ったわけです。<br><br>よほど困らして震えさせなかったら分かりませんから。<br><br>なにしろ神様は自由自在ですからなんでもありません。<br><br>それからもう一つは肥毒が稲作ばかりでなく、米にたいへんな影響があるのです。<br><br>その報告があったが、非常におもしろいと思います。<br><br> （御論文「人体と肥毒」）お蔭話（肥毒の恐ろしさ） このとおりです。<br><br>人体に対しても同じことで、近ごろはいろんな虫が人間にわくというのですが、だいたい人間の腹の中に虫がわくということがおかしいのです。<br><br>なんでもないのに、虫がわくようなそんなお粗末な体に神様が作るわけがありません。<br><br>ところがこの肥料の肥毒自体がこれだけ虫がわくのだから、この肥料の毒が体に溜まって虫がわくのはあたりまえです。<br><br>それで、虫にもいろんな種類があります。<br><br>回虫、十二指腸虫、蟯虫（ぎょうちゅう）といろいろありますが、これは肥料の種類と同じだけわくわけです。<br><br>ですから米になったものにさえこれだけ虫がわくのですから、田に虫がわくのはあたりまえです。<br><br> それでおかしく思うのは、信者の人でまだ肥毒に気がつかない人が今までにそうとうあったようですが、今年からはみんな目が覚めるだろうと思います。<br><br>古い信者はそういうことはありませんが、新しい信者などは“病気はなるほど明主様のおっしゃるとおりだ。<br><br>しかし肥料の方は、オレたちが先祖代々やっているので、明主様は百姓の経験はないし、どうもそこまでは”というように思っている人がだいぶあったらしいです。<br><br>私は知ってましたが、やっぱり時期が来ないといけないと思っていたのですが、やっと時期が来たのです。<br><br>そういう人たちが他の百姓に対して説明しても、それは駄目です。<br><br>自分が本当になってないから説明に力がありません。<br><br>それからまた肥料はやらないと言いながら、肥料に似たような物をやっているのです。<br><br>だいたい堆肥ですが、私は最初は「無肥料栽培」でやったのです。<br><br>堆肥もいけないのです。<br><br>ところがぜんぜん無肥料でやっては法規に違反するというのです。<br><br>それは進駐軍の方なのです。<br><br>それで投書か訴えをした者がいたのです。<br><br>やっぱりアメリカ人も、ぜんぜん肥料なしだったら米はとれなくなる、そういう宗教は禁止するということなので、これはなんとかしなければならないというので、名前を「自然栽培」としたのです。<br><br>ですから前には「無肥料栽培」と言っていたのです。<br><br>そういうわけで堆肥はやってよいということになったのです。<br><br>それは金肥人肥よりはずっと被害が少ないです。<br><br>しかし今日になればもう本当のことをやらなければならないので、去年あたりからは堆肥もいけないということを言うようになったので、本当はいけないのです。<br><br>しかし赤土系の土は固まるから、それではいけないので固まらせないために最初の二、三年でよいから堆肥をよく腐らして混ぜるというそれでよいのです。<br><br>しかし肥料迷信にかかっているから、堆肥を肥料と思ってウンとやったので失敗した人が今までにもあります。<br><br>そういうわけでだんだん分かってはきました。<br><br>この話はそのくらいにしておきます。<br><br> それから樋口さんのハワイ通信はみんなが一番知りたいことですから読ませます。<br><br> （「ハワイ通信」十一） 【栄光 二三三号】 ハワイは島が五つありますが、その五つの重要な急所というような所にみんな支部ができましたが、どうも神様は抜け目がないと思いました。<br><br>今読んだようなわけですから、ドンドン発展して、今にハワイ全土が救世教信者になってしまうのではないかと思いますが、そうなったら、これだけでも世界中の注目を引くようになるだろうと思います。<br><br> まだいろいろと詰もありますし、読ませる原稿もありますが、時間がないからこのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superstição dos Fertilizantes e a Crise do Japão</h2>
 <p>Recentemente, redigi um artigo para a edição especial sobre Agricultura Natural, no qual procurei abordar o tema da maneira mais completa e definitiva possível. Se, com esta explanação, as pessoas ainda não compreenderem a verdade, nada mais poderei fazer.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>A seguir, pedirei que leiam a correspondência do senhor Higuchi, do Havaí, pois sei que é um assunto de grande interesse para todos.</p>
 <p>O Havaí é composto por cinco ilhas principais, e estabelecemos Johrei Centers em todos os pontos estratégicos de cada uma delas. Diante disso, penso que, verdadeiramente, os desígnios de Deus são infalíveis. Como puderam ouvir, o desenvolvimento lá é notável. Creio que, em breve, todo o arquipélago se tornará de membros da Sekaikyuseikyou. Quando isso acontecer, tal fato, por si só, atrairá a atenção do mundo inteiro.</p>
 <p>Ainda haveria muitos outros pontos a serem abordados e textos a serem lidos, mas, por falta de tempo, encerrarei por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月26日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月二十六日 自然栽培の特集号を出すについてちょっと書いてみました。<br/><br/>今度はできるだけ徹底して書きました。<br/><br/>これで分からなければしようがありません。<br/><br/> （御論文「日本農業〔法〕の大革命 無肥料で初年度から〔一割乃至〕五割増産」）【栄光 二四五号】 それからこの間のラジオの放送でちょっとおもしろいことがありました。<br/><br/>放送局から原稿をとってきたので、今読ませます。<br/><br/> （ＮＨＫ第一放送午後○時十五分「ひるのいこい」放送） こういう事実が現われてもなかなか迷信を打ち破ることはできないのです。<br/><br/>つまり一家で子供が次々に死んでも、相変わらずお医者さんの厄介になるというのとよく似てます。<br/><br/>そういうわけで、この医学迷信と肥料迷信というものが人間の大敵です。<br/><br/>ですからこれは、共産主義などというのは、これに比べたら屁みたいなものです。<br/><br/>このくらいの大きな迷信による被害はないわけです。<br/><br/>それを教えるのが一番肝腎だからやっているのです。<br/><br/>それで「特集号」は今月の末にできるつもりですが、一番よいのは、農家を一戸一戸まわって一枚売りをするのですが、あんがい売れるだろうと思います。<br/><br/>なにしろ今年はあのとおりの状態ですし、そこに大きな見出しで“日本農業の大革命 無肥料で初年度から五割増産”というのですから、これを見たら飛びつかない者はないだろうと思います。<br/><br/>今日の農家は経済的に非常に困ってますから、少しでも安い方が手が出しよいです。<br/><br/>百万くらいは出したいと思います。<br/><br/>信者の人だけで五十万は確かですから、あとの五十万は一枚売りです。<br/><br/>それから講演会とか座談会を大いにやりますから、その時の聴衆に大いにたくさん売れると思います。<br/><br/>とにかく百万間配ればそうとう刺激して、とにかくやってみようというところまで行かないはずはないと思います。<br/><br/>そのつもりで普及会員の人たちは大いに努力してもらいたいと思います。<br/><br/>これは改めて言うこともありません。<br/><br/>そうしてなにしろ日本を救わなければならないのです。<br/><br/>それで今年は非常に悪く、案外不作です。<br/><br/>分かっただけでも五千四百万石ですが、まだ減るかもしれません。<br/><br/>そうすると八千万からの人間で、半分が食うだけもとれないのです。<br/><br/>そうかといって外米を輸入しますが、その金がたいへんなのです。<br/><br/>どうしても今年などは三千億近く出しています。<br/><br/>それだけの金を稼ぐといってもたいへんなものです。<br/><br/>どうしてもそれだけ貧乏になるわけです。<br/><br/>それで今年だけで来年からはチャンとなるならよいですが、それが分からないのです。<br/><br/>また再来年もあるのです。<br/><br/>それで人間のほうはドンドン増えるし、米のほうはだんだんそういうふうです。<br/><br/>この迷信に気がつかなければ、増えるということはないのですから、それこそ日本の一大危機です。<br/><br/>ですからなんとしてもこれを救わなければならないのです。<br/><br/>これも、書いてあるとおり、神様がそういうチャンスを作ったわけです。<br/><br/>よほど困らして震えさせなかったら分かりませんから。<br/><br/>なにしろ神様は自由自在ですからなんでもありません。<br/><br/>それからもう一つは肥毒が稲作ばかりでなく、米にたいへんな影響があるのです。<br/><br/>その報告があったが、非常におもしろいと思います。<br/><br/> （御論文「人体と肥毒」）お蔭話（肥毒の恐ろしさ） このとおりです。<br/><br/>人体に対しても同じことで、近ごろはいろんな虫が人間にわくというのですが、だいたい人間の腹の中に虫がわくということがおかしいのです。<br/><br/>なんでもないのに、虫がわくようなそんなお粗末な体に神様が作るわけがありません。<br/><br/>ところがこの肥料の肥毒自体がこれだけ虫がわくのだから、この肥料の毒が体に溜まって虫がわくのはあたりまえです。<br/><br/>それで、虫にもいろんな種類があります。<br/><br/>回虫、十二指腸虫、蟯虫（ぎょうちゅう）といろいろありますが、これは肥料の種類と同じだけわくわけです。<br/><br/>ですから米になったものにさえこれだけ虫がわくのですから、田に虫がわくのはあたりまえです。<br/><br/> それでおかしく思うのは、信者の人でまだ肥毒に気がつかない人が今までにそうとうあったようですが、今年からはみんな目が覚めるだろうと思います。<br/><br/>古い信者はそういうことはありませんが、新しい信者などは“病気はなるほど明主様のおっしゃるとおりだ。<br/><br/>しかし肥料の方は、オレたちが先祖代々やっているので、明主様は百姓の経験はないし、どうもそこまでは”というように思っている人がだいぶあったらしいです。<br/><br/>私は知ってましたが、やっぱり時期が来ないといけないと思っていたのですが、やっと時期が来たのです。<br/><br/>そういう人たちが他の百姓に対して説明しても、それは駄目です。<br/><br/>自分が本当になってないから説明に力がありません。<br/><br/>それからまた肥料はやらないと言いながら、肥料に似たような物をやっているのです。<br/><br/>だいたい堆肥ですが、私は最初は「無肥料栽培」でやったのです。<br/><br/>堆肥もいけないのです。<br/><br/>ところがぜんぜん無肥料でやっては法規に違反するというのです。<br/><br/>それは進駐軍の方なのです。<br/><br/>それで投書か訴えをした者がいたのです。<br/><br/>やっぱりアメリカ人も、ぜんぜん肥料なしだったら米はとれなくなる、そういう宗教は禁止するということなので、これはなんとかしなければならないというので、名前を「自然栽培」としたのです。<br/><br/>ですから前には「無肥料栽培」と言っていたのです。<br/><br/>そういうわけで堆肥はやってよいということになったのです。<br/><br/>それは金肥人肥よりはずっと被害が少ないです。<br/><br/>しかし今日になればもう本当のことをやらなければならないので、去年あたりからは堆肥もいけないということを言うようになったので、本当はいけないのです。<br/><br/>しかし赤土系の土は固まるから、それではいけないので固まらせないために最初の二、三年でよいから堆肥をよく腐らして混ぜるというそれでよいのです。<br/><br/>しかし肥料迷信にかかっているから、堆肥を肥料と思ってウンとやったので失敗した人が今までにもあります。<br/><br/>そういうわけでだんだん分かってはきました。<br/><br/>この話はそのくらいにしておきます。<br/><br/> それから樋口さんのハワイ通信はみんなが一番知りたいことですから読ませます。<br/><br/> （「ハワイ通信」十一） 【栄光 二三三号】 ハワイは島が五つありますが、その五つの重要な急所というような所にみんな支部ができましたが、どうも神様は抜け目がないと思いました。<br/><br/>今読んだようなわけですから、ドンドン発展して、今にハワイ全土が救世教信者になってしまうのではないかと思いますが、そうなったら、これだけでも世界中の注目を引くようになるだろうと思います。<br/><br/> まだいろいろと詰もありますし、読ませる原稿もありますが、時間がないからこのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

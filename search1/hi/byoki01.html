@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気が治ればいい 『栄光』200号、昭和28(1953)年3月18日発行 今日インテリ階級の人々がよくいう事には、宗教の病気治しは間違っている。<br><br>宗教は精神的救いであり、病気は医者が治すものに決っている。<br><br>だから宗教の病気治しは科学の領域を侵し、面白くないというのである。<br><br>ちょっと聞くと至極もっともらしく思えるが、よく考えてみるとどうも感心出来ない点がある。<br><br>というのは宗教が科学の領域を侵さなければ万人を救う事が出来ない程医療では病気が治らないからでこれも止むを得ないのである。<br><br>それ程現代医学は無力である事を考えて貰いたいのである。<br><br>そうかといって既成宗教も同様治病の力はほとんどない。<br><br>その証拠には現在本教を除いた各宗教は、例外なく病院を経営しているにみて明らかである。<br><br>というのはせめて精神的慰安なりと与えてやろうとしているのが今日の宗教のあり方であって、その観念が宗教本来のもののようになってしまったので、たまたま本教のごとく治病主義の宗教を見ると、何か間違っているように思えるのである。<br><br>以上のごとく医学と宗教とを別々のものとして考えるところに誤謬があるので、要は病気がよく治ればどちらでもいいではないか。<br><br>この事実に眼を覆うて何だかんだという人達こそ、小乗観念に捉われ文化の進歩を阻む訳である。<br><br> 由来（もとより）宗教の真の目的は、不幸を救い幸福を与える事であって、それ以外の何物でもない。<br><br>それには何といっても精神ばかりでは駄目で、肉体も共に救い、霊肉共に健全になってこそ真の救いである。<br><br>ところが今日までそういう力ある宗教が出なかったため、止むを得ず二次的手段として病苦はそのままにしておいて、精神だけを救おうとしたのである。<br><br>その方法が生の執着から離脱させ、諦めを諭（おし）え、悟りを開かせようとしたのであって、それが宗教の本来としていたのであるから、全く霊の方だけで半分の救いでしかなかったのである。<br><br>ところが本教のやり方は全然異（ちが）う。<br><br>肉体も共に救うので、それには病気治しが第一である。<br><br>そうして本教の治病効果たるや、医学とは比較にならない程素晴しいものであって、健康を取戻し文字通り安心立命を得て、歓喜の生活者となるのである。<br><br>という訳で本教を目して病気治し専門と言うが、私はそれでこそ真の救いであると満足している。<br><br>言うまでもなく健康にさえなれば、あらゆる不幸の原因は滅消するからである。<br><br>従って宗教として他の事はいかに完備しても、肝腎な病気の解決が出来ないとしたら、宗教としての資格はないと思うのである。<br><br>よく宗教によってはその信者が病気で苦しみながら、自分は救われたといって満足している話を聞くが、これなどはむしろ悲哀である。<br><br>なるほど御当人はそれでいいとしても、家族や近親者の精神的経済的の苦悩は並々ならぬものがあり、この有様を朝な夕な見せつけられる病人も、決して心からの満足は得られるはずはない。<br><br>としたらヤハリ本当に救われたのではない訳である。<br><br> ここで右についての根本的意味をかいてみるが、一体人間というものは科学が造ったものか、それとも神が造ったものかを、よく考えてみて貰いたい。<br><br>もちろん科学者といえども科学が造ったとは思うまいし、神が造ったものに異論はないであろう。<br><br>とすれば科学で造られたものなら、破損の場合科学で治せようが、神が造ったとしたら修繕は神に依頼するより外に方法がないのは分り切った話である。<br><br>それがなぜ今まで分らなかったかというと、これも簡単に説明出来る。<br><br>すなわち科学は眼に見えるが、神は目に見えないからというだけの話で、頗（すこぶ）る浅い見方である。<br><br>という訳で科学で治らない病気が、宗教で治る理屈が彼らには信じられないのである。<br><br>ところが吾々の方は反対で、もし科学で病気が治るとしたら、それこそ大奇蹟であり、宗教で治るとしたら当然で、何ら不思議はない。<br><br>これを一層分り易く言えば、もし医学で病気が治るものなら、医師の家族に限って普通人より健康であり、医師自身もズバ抜けて長生きでなくてはならないはずである。<br><br>ところが事実は一般人といささかも変りのないのはどういう訳かを訊（き）きたいものである。<br><br>また薬で病気が治るものなら、先祖代々人間の体内にはどのくらい入っているか分らないばかりか、今日のごとく新薬に次ぐ新薬が出来、飲む外に注射までして入れる以上、病人はなくなり、医師も薬屋も飯が食えなくなり、廃業してしまったはずである。<br><br>ところが事実はどうであろう。<br><br>益々病人は増え、無医村が沢山あるといって零（こぼ）し、病院は満員、療養所はベッドが足りない、新聞の広告欄は薬が一番多いという皮肉な事実を見たら一言もあるまい。<br><br>従って私の説のごとく薬が病気を作るというのは事実が証明している。<br><br> 以上医学と宗教に関して論じてみたが、問題は医療で治ればいいので、そうなればこんな問題は起りようはずがないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O fundamental é que a doença seja curada</h2>
 <p>É comum, nos dias de hoje, ouvir dos intelectuais que a cura de doenças por meio da religião é um equívoco. Afirmam que a religião deve se ater à salvação espiritual, ao passo que a incumbência de tratar enfermidades pertence exclusivamente aos médicos. Desse modo, a prática religiosa de curar doenças lhes parece uma transgressão ao domínio da ciência, algo que desaprovam.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Para nós, contudo, a perspectiva é diametralmente oposta: um grande milagre seria se a ciência de fato curasse as doenças. Que a religião o faça é perfeitamente natural e não encerra qualquer mistério. Para tornar o raciocínio ainda mais claro: se a medicina realmente curasse, seria de se esperar que os médicos e seus familiares gozassem de uma saúde superior à da população em geral, e que os próprios médicos fossem extraordinariamente longevos. No entanto, a realidade demonstra que em nada diferem das demais pessoas. Desejo, pois, indagar: qual a razão para tal?</p>
 <p>Ademais, se os medicamentos fossem eficazes, com tantas gerações de seres humanos tendo-os ingerido em quantidades incalculáveis, e com a profusão de novos fármacos e injeções nos dias de hoje, os doentes já deveriam ter desaparecido. Consequentemente, médicos e farmacêuticos teriam perdido seu sustento e abandonado suas profissões. Qual é, porém, a realidade? O número de enfermos só aumenta, as queixas sobre a falta de médicos em inúmeras localidades são constantes, os hospitais estão superlotados, faltam leitos nos sanatórios, e os anúncios de remédios dominam as páginas dos jornais. Diante de um quadro tão irônico, não resta argumento. Fica, assim, demonstrado pelos fatos que minha tese — a de que os remédios criam doenças — é verdadeira.</p>
 <p>Até aqui, dissertei sobre a medicina e a religião. O cerne da questão, contudo, é simples: se a medicina curasse, o problema estaria resolvido, e um debate como este jamais teria surgido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気が治ればいい 『栄光』200号、昭和28(1953)年3月18日発行 今日インテリ階級の人々がよくいう事には、宗教の病気治しは間違っている。<br/><br/>宗教は精神的救いであり、病気は医者が治すものに決っている。<br/><br/>だから宗教の病気治しは科学の領域を侵し、面白くないというのである。<br/><br/>ちょっと聞くと至極もっともらしく思えるが、よく考えてみるとどうも感心出来ない点がある。<br/><br/>というのは宗教が科学の領域を侵さなければ万人を救う事が出来ない程医療では病気が治らないからでこれも止むを得ないのである。<br/><br/>それ程現代医学は無力である事を考えて貰いたいのである。<br/><br/>そうかといって既成宗教も同様治病の力はほとんどない。<br/><br/>その証拠には現在本教を除いた各宗教は、例外なく病院を経営しているにみて明らかである。<br/><br/>というのはせめて精神的慰安なりと与えてやろうとしているのが今日の宗教のあり方であって、その観念が宗教本来のもののようになってしまったので、たまたま本教のごとく治病主義の宗教を見ると、何か間違っているように思えるのである。<br/><br/>以上のごとく医学と宗教とを別々のものとして考えるところに誤謬があるので、要は病気がよく治ればどちらでもいいではないか。<br/><br/>この事実に眼を覆うて何だかんだという人達こそ、小乗観念に捉われ文化の進歩を阻む訳である。<br/><br/> 由来（もとより）宗教の真の目的は、不幸を救い幸福を与える事であって、それ以外の何物でもない。<br/><br/>それには何といっても精神ばかりでは駄目で、肉体も共に救い、霊肉共に健全になってこそ真の救いである。<br/><br/>ところが今日までそういう力ある宗教が出なかったため、止むを得ず二次的手段として病苦はそのままにしておいて、精神だけを救おうとしたのである。<br/><br/>その方法が生の執着から離脱させ、諦めを諭（おし）え、悟りを開かせようとしたのであって、それが宗教の本来としていたのであるから、全く霊の方だけで半分の救いでしかなかったのである。<br/><br/>ところが本教のやり方は全然異（ちが）う。<br/><br/>肉体も共に救うので、それには病気治しが第一である。<br/><br/>そうして本教の治病効果たるや、医学とは比較にならない程素晴しいものであって、健康を取戻し文字通り安心立命を得て、歓喜の生活者となるのである。<br/><br/>という訳で本教を目して病気治し専門と言うが、私はそれでこそ真の救いであると満足している。<br/><br/>言うまでもなく健康にさえなれば、あらゆる不幸の原因は滅消するからである。<br/><br/>従って宗教として他の事はいかに完備しても、肝腎な病気の解決が出来ないとしたら、宗教としての資格はないと思うのである。<br/><br/>よく宗教によってはその信者が病気で苦しみながら、自分は救われたといって満足している話を聞くが、これなどはむしろ悲哀である。<br/><br/>なるほど御当人はそれでいいとしても、家族や近親者の精神的経済的の苦悩は並々ならぬものがあり、この有様を朝な夕な見せつけられる病人も、決して心からの満足は得られるはずはない。<br/><br/>としたらヤハリ本当に救われたのではない訳である。<br/><br/> ここで右についての根本的意味をかいてみるが、一体人間というものは科学が造ったものか、それとも神が造ったものかを、よく考えてみて貰いたい。<br/><br/>もちろん科学者といえども科学が造ったとは思うまいし、神が造ったものに異論はないであろう。<br/><br/>とすれば科学で造られたものなら、破損の場合科学で治せようが、神が造ったとしたら修繕は神に依頼するより外に方法がないのは分り切った話である。<br/><br/>それがなぜ今まで分らなかったかというと、これも簡単に説明出来る。<br/><br/>すなわち科学は眼に見えるが、神は目に見えないからというだけの話で、頗（すこぶ）る浅い見方である。<br/><br/>という訳で科学で治らない病気が、宗教で治る理屈が彼らには信じられないのである。<br/><br/>ところが吾々の方は反対で、もし科学で病気が治るとしたら、それこそ大奇蹟であり、宗教で治るとしたら当然で、何ら不思議はない。<br/><br/>これを一層分り易く言えば、もし医学で病気が治るものなら、医師の家族に限って普通人より健康であり、医師自身もズバ抜けて長生きでなくてはならないはずである。<br/><br/>ところが事実は一般人といささかも変りのないのはどういう訳かを訊（き）きたいものである。<br/><br/>また薬で病気が治るものなら、先祖代々人間の体内にはどのくらい入っているか分らないばかりか、今日のごとく新薬に次ぐ新薬が出来、飲む外に注射までして入れる以上、病人はなくなり、医師も薬屋も飯が食えなくなり、廃業してしまったはずである。<br/><br/>ところが事実はどうであろう。<br/><br/>益々病人は増え、無医村が沢山あるといって零（こぼ）し、病院は満員、療養所はベッドが足りない、新聞の広告欄は薬が一番多いという皮肉な事実を見たら一言もあるまい。<br/><br/>従って私の説のごとく薬が病気を作るというのは事実が証明している。<br/><br/> 以上医学と宗教に関して論じてみたが、問題は医療で治ればいいので、そうなればこんな問題は起りようはずがないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

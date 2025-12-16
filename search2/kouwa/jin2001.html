@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin2001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第二篇 １ 001-017 建築 001 家土地と霊格の相応、相応の重要性、新築と近親者の死、明主様の場合、住居は杉材可なり 家を新築すると家人の誰かが往々死亡等することがありますが、霊的に何か関係がありますか。<br><br>御教示願います。<br><br> こういう事はある。<br><br>（私など）引越すと一人は必ず死ぬ（その頃は浄霊出来なかったからだが）。<br><br>浄霊出来るようになって、大先生などそれがなくなった。<br><br> これにはいろんな訳がある。<br><br>（その土地に） 一、浮ばれない霊があった場合とか、 二、その人が浄化に負ける場合。<br><br> （住む人間が、家より汚れてる時には、その家に追付くため浄化が起きる。<br><br>そのため医者にかかって死ぬのである） 良い家になると、人間の霊的地位と相応せず、家に負ける時、人間の霊性が追付こうとして曇りを除ろうとして浄化が起る。<br><br> 桧普請をすると死ぬ人がよくある。<br><br>桧は、神様に関係した事に使う木である。<br><br>（人間が住むのは間違いである） 木には位がある。<br><br>桧造りに人間が住むと負ける。<br><br>霊界では家が上で、人間が下になる。<br><br>故に普通普請は、杉材が一番よい。<br><br>死なない人は失敗する。<br><br> （買う約束をした大谷別邸など野口潤が買って入ろうとしたら死に、それと同じのを伊豆の韮山へ作った。<br><br>こういう例は沢山ある。<br><br>すべて相応の理であって、身分不相応の事をすると何か災難がある） 彼は、稲荷の帰りに崖から落ちて死んだ。<br><br>人間は相応すればよい。<br><br>相応しないと何かある。<br><br>相応の家に住まぬと、すぐ故障が起る。<br><br>（S24. 6.25） 002 神社の木を神床に使う事 謹んで御伺い申し上げます。<br><br> 氏神様の境内にあった桜の木の板で床の間に非常に良いのが出ました。<br><br>光明如来をお祭りする床板にしたいと思うのですが、神様の境内の木は使うと悪いと忠告してくれる人がありますが、それを使って神罰があるとか、不幸になるとか言うような事があるでしょうか。<br><br>御伺い致します。<br><br> 普通ではいけないが、光明如来様の床板にするなら差支えない。<br><br>氏神様も非常に喜ぶ。<br><br>神が正しい神なら、光明如来様の信者のようなものである。<br><br> 箱根道場の木は、秋田県の神社の神木五十本を買ったものである。<br><br> 東山荘の蔵の木は一本の松で造った。<br><br>土蔵に使う木全部を一本の木で使った。<br><br>こういうものは皆嫌って買手がなかったので安く買った。<br><br>大先生の御用なら一向差支えない。<br><br> 003 神社の木で学校作る場合（許可得る事） （口頭） 神社の木を伐り、中学校を作るのはよいでしょうか。<br><br> 手続をとらなくてはいけない。<br><br>神主を頼んで、その土地の重なる人が行って許可を受けなくてはいけない。<br><br>この許可は政府の許可より重大である。<br><br>特に大きな御神木を伐る時は、外に小さい木を代りに植えて、口頭で移ってもらうように言い伐らなくては祟る。<br><br>一番祟るのは銀杏である。<br><br>霊は龍神、天狗（鳥）、人間が霊を認めず手続とらぬから祟る。<br><br>（S23.11.17） 004 合併の神社後に校舎建つ事 村内に八幡社が上中下の三ケ所に祀ってあるのを合併して、その後に新制中学を立てるそうですが――。<br><br> 差支えない。<br><br>同じ神とすれば差支えないが幾分ずつちがう。<br><br>御神体を上中下とする。<br><br> 無断ですると道に外れるからいけない。<br><br>御許しを乞うのである。<br><br> 005 地鎮祭、自家で行う場合 地鎮祭はどういう様式で行いますでしょうか。<br><br> 神主に任せればよい。<br><br>その土地にいろんな霊がいる。<br><br>地縛の霊とか、犬猫の霊などもいる。<br><br>それを浄めるのが地鎮祭である。<br><br>すると霊は満足する。<br><br>でないと霊が怒ったりなどする。<br><br>便所、物置等簡単な事は自分でやればいい。<br><br>その場合、その所へ向って祝詞を奏げ、神様に建てる範囲のお浄めを願う。<br><br>一軒の家を建つ時は神主を頼む。<br><br>（S23.10.26） 006 地鎮祭のし方 地鎮祭の正しい祭り方をお伺いいたします。<br><br> 土地の汚れてるのを浄めるのである。<br><br>今に方法を造る。<br><br>今の所、大きい建築は神主に頼む。<br><br>小さいものは、祝詞を奏げ、神様にお頼みする。<br><br> 007 地鎮祭の二様 地鎮祭につきお教え下さい。<br><br> 地鎮祭は大きい建物の時は神主に頼み、小さい建増の時などは祝詞をあげて、光明如来様にお願いすればよい。<br><br> 008 地鎮祭と本教 家を建てます時に、神官をよばずに簡単に地鎮祭をする方法が御座いますでしょうか。<br><br> 本当の住宅建つ場合、建増等でなく。<br><br> 他の宗教と違い、本教は力がある。<br><br>（S24. 7.18） 009 住居の地鎮祭 最近長兄の住居を建てようと存じますが、その折の地鎮祭は、従前通り神主に行って貰うべきでしょうか。<br><br> 神主にやってもらえばいい。<br><br>（S24. 5.27） 010 宮前、墓裏の家、邪神不潔を好む 宮の前、墓の裏の家はよくないと伺っておりますが、どうでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> よくない。<br><br>宮の前はそんな事ない。<br><br>墓の近くは死霊がいて侵入してくる事がある。<br><br>（餓鬼道の霊など空腹のために来る等）光明如来様を祭ればよい。<br><br>反って功徳になる。<br><br>反って喜ぶ。<br><br>宮の前は汚い商売はいけない。<br><br>神様が出入するから、汚いと神様は嫌う。<br><br>魚屋などそうである。<br><br>邪神は汚い所を好む。<br><br>神様は除けて通られる。<br><br>それで災害が起り易い。<br><br>宮の真前は最も悪い。<br><br>（遮っているから人間はどちらでも出入するが、神様は几帳面で真直に出入される）（S24. 1.18） 011 寺跡の住居 寺跡に住むのは差支えない。<br><br>墓地でなければ差支えない。<br><br>（S23. 7.25） 012 寺の境内へ入る玄関先（霊と境界） 今度家を求めますが、玄関先がお寺の境内に這入っております。<br><br>なお玄関を出入りする時、無縁仏が見えますが、これは戦争中軍部が勝手にうつしたもので、骨はなく墓石だけです。<br><br> 大光明様を御奉斉すればこのような家でもよろしいでしょうか。<br><br> 玄関先がお寺の境内に入るのはまずい。<br><br>境界の囲いをせよ。<br><br>霊は囲いをすると入る事を遠慮する事になる。<br><br>普通、霊はそこで止るから境界線を作ればよい。<br><br>（S24.10. 9） 013 墓地火葬場の材の使用 昔から墓地や火葬場内の立木は、在家の建築材に使ってはよくないと言われておりますが、いかなる訳でしょうか。<br><br> また止むを得ず使用の場合はいかにしたらよいでしょうか。<br><br> 墓地、火葬場には霊が憑依している事があって、それが祟る場合がある。<br><br>触ると怒る。<br><br>墓に祀ってある霊でも、死に絶えるとか、閑却されるとか、無信仰で墓詣りなどせず、捨てられると、霊が淋しくて木に憑依する。<br><br>そして木の実を食ったりなどする。<br><br>龍神系とか天狗系などの人間は、木へ憑依した経験があり、訳なく憑くし、憑くのを好む。<br><br>（S24. 6.18） 014 桧造り 住宅に桧材の柱、廊下等を用いる事は差支えありませんでしょうか。<br><br>また、総桧の建築は宜しくないとも申されている事もありますが、いかがなもので御座居ましょうか。<br><br> 桧木は、神社とか、神殿に使うべきもので、他に使ってはいけない。<br><br>総桧木の家の主人はきっと亡くなる。<br><br>だから住宅には使わぬ方がよい。<br><br>杉と松にするとよい。<br><br>しかし、米桧とか台湾桧はいい。<br><br> 木には位がある。<br><br>桧木造りの家なら、住む人間が相応しなくてはいけない。<br><br>桧木は霊が強い。<br><br>大きい木にはよく霊が宿っている。<br><br>大昔は、桧木を摺り合せて火が出たというので桧木という。<br><br>杉は軽い感じがして気持がよい。<br><br>桧木の柱は固苦しい。<br><br>黒紋付を着たような感じである。<br><br>（S23.12. 2） 015 神殿の材 檜が一番よい。<br><br>（S23） 016 桧の手入 庭木として桧を植えてある場合、手入れのため梢を切ったりする事は差支えないでしょうか。<br><br> 檜を建築に使うのはいけないが、手入れしたって枯らしたって何等差支えない。<br><br>私など、どしどし切っている。<br><br> rattail（注） 〔 御光話（S24年 8月13日） 『御光話録』14号、昭和24(1949)年11月20日発行〕掲載 017 桧材と納屋の建築 五十七才の男子、昨年十二月上旬納屋を改造し、その際桧にて致しました。<br><br>同時に本人が病気になりましたので、病院で診察の結果、幽門狭窄と言われました。<br><br>身体が少し衰弱しておりますため、手術を嫌ってただ今自宅で御浄霊を致しておりますが、胃の左部に一箇の玉のごときものがありまして、これが処々へ移動致します。<br><br>これらの症状は右桧の建築の支障で御座居ましょうか。<br><br> いけない。<br><br>納屋へ桧を使うのは大間違いである。<br><br>桧は神様を祭る所などに使うべきものである。<br><br> 先祖が忠告している。<br><br>杉とか松とか、外の木ならよい。<br><br>すべて相応しなくてはいけない。<br><br>木などもすべて神様は区別して作られている。<br><br>（S24. 4. 3） rattail（注） 〔 御光話（S24年8月特輯号） 『御光話録』11号、昭和24(1949)年8月21日発行〕掲載
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Mestre Jikan Okada — Pesquisa de Ensinamentos: Ajuda | Pesquisa de Materiais: Assuntos Gerais, Parte II, 1 | 001-017 Arquitetura</h2>
 <p><strong>001 A correspondência entre a casa, o terreno e o nível espiritual; a importância da conformidade; a construção de uma nova casa e o falecimento de parentes próximos; o caso de Meishu-Sama; a adequação da madeira de cedro para residências</strong></p>
@@ -160,5 +312,48 @@ function toggleLang(lang) {
 <p>Certamente. Utilizar hinoki em um celeiro é um erro gravíssimo. Essa é uma madeira que deve ser destinada a locais onde Deus é consagrado.</p>
 <p>São seus antepassados que o estão advertindo. Cedro, pinho ou outras madeiras seriam adequadas. É fundamental que tudo esteja em correspondência. Deus criou todas as coisas, inclusive as madeiras, com suas devidas distinções. (3 de abril de 1949)</p>
 <p><em>Nota: Publicado em "Gokowa Roku" nº 11 (Sermões de Meishu-Sama), emitido em 21 de agosto de 1949 (sermão da edição especial de agosto de 1949).</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第二篇 １ 001-017 建築 001 家土地と霊格の相応、相応の重要性、新築と近親者の死、明主様の場合、住居は杉材可なり 家を新築すると家人の誰かが往々死亡等することがありますが、霊的に何か関係がありますか。<br/><br/>御教示願います。<br/><br/> こういう事はある。<br/><br/>（私など）引越すと一人は必ず死ぬ（その頃は浄霊出来なかったからだが）。<br/><br/>浄霊出来るようになって、大先生などそれがなくなった。<br/><br/> これにはいろんな訳がある。<br/><br/>（その土地に） 一、浮ばれない霊があった場合とか、 二、その人が浄化に負ける場合。<br/><br/> （住む人間が、家より汚れてる時には、その家に追付くため浄化が起きる。<br/><br/>そのため医者にかかって死ぬのである） 良い家になると、人間の霊的地位と相応せず、家に負ける時、人間の霊性が追付こうとして曇りを除ろうとして浄化が起る。<br/><br/> 桧普請をすると死ぬ人がよくある。<br/><br/>桧は、神様に関係した事に使う木である。<br/><br/>（人間が住むのは間違いである） 木には位がある。<br/><br/>桧造りに人間が住むと負ける。<br/><br/>霊界では家が上で、人間が下になる。<br/><br/>故に普通普請は、杉材が一番よい。<br/><br/>死なない人は失敗する。<br/><br/> （買う約束をした大谷別邸など野口潤が買って入ろうとしたら死に、それと同じのを伊豆の韮山へ作った。<br/><br/>こういう例は沢山ある。<br/><br/>すべて相応の理であって、身分不相応の事をすると何か災難がある） 彼は、稲荷の帰りに崖から落ちて死んだ。<br/><br/>人間は相応すればよい。<br/><br/>相応しないと何かある。<br/><br/>相応の家に住まぬと、すぐ故障が起る。<br/><br/>（S24. 6.25） 002 神社の木を神床に使う事 謹んで御伺い申し上げます。<br/><br/> 氏神様の境内にあった桜の木の板で床の間に非常に良いのが出ました。<br/><br/>光明如来をお祭りする床板にしたいと思うのですが、神様の境内の木は使うと悪いと忠告してくれる人がありますが、それを使って神罰があるとか、不幸になるとか言うような事があるでしょうか。<br/><br/>御伺い致します。<br/><br/> 普通ではいけないが、光明如来様の床板にするなら差支えない。<br/><br/>氏神様も非常に喜ぶ。<br/><br/>神が正しい神なら、光明如来様の信者のようなものである。<br/><br/> 箱根道場の木は、秋田県の神社の神木五十本を買ったものである。<br/><br/> 東山荘の蔵の木は一本の松で造った。<br/><br/>土蔵に使う木全部を一本の木で使った。<br/><br/>こういうものは皆嫌って買手がなかったので安く買った。<br/><br/>大先生の御用なら一向差支えない。<br/><br/> 003 神社の木で学校作る場合（許可得る事） （口頭） 神社の木を伐り、中学校を作るのはよいでしょうか。<br/><br/> 手続をとらなくてはいけない。<br/><br/>神主を頼んで、その土地の重なる人が行って許可を受けなくてはいけない。<br/><br/>この許可は政府の許可より重大である。<br/><br/>特に大きな御神木を伐る時は、外に小さい木を代りに植えて、口頭で移ってもらうように言い伐らなくては祟る。<br/><br/>一番祟るのは銀杏である。<br/><br/>霊は龍神、天狗（鳥）、人間が霊を認めず手続とらぬから祟る。<br/><br/>（S23.11.17） 004 合併の神社後に校舎建つ事 村内に八幡社が上中下の三ケ所に祀ってあるのを合併して、その後に新制中学を立てるそうですが――。<br/><br/> 差支えない。<br/><br/>同じ神とすれば差支えないが幾分ずつちがう。<br/><br/>御神体を上中下とする。<br/><br/> 無断ですると道に外れるからいけない。<br/><br/>御許しを乞うのである。<br/><br/> 005 地鎮祭、自家で行う場合 地鎮祭はどういう様式で行いますでしょうか。<br/><br/> 神主に任せればよい。<br/><br/>その土地にいろんな霊がいる。<br/><br/>地縛の霊とか、犬猫の霊などもいる。<br/><br/>それを浄めるのが地鎮祭である。<br/><br/>すると霊は満足する。<br/><br/>でないと霊が怒ったりなどする。<br/><br/>便所、物置等簡単な事は自分でやればいい。<br/><br/>その場合、その所へ向って祝詞を奏げ、神様に建てる範囲のお浄めを願う。<br/><br/>一軒の家を建つ時は神主を頼む。<br/><br/>（S23.10.26） 006 地鎮祭のし方 地鎮祭の正しい祭り方をお伺いいたします。<br/><br/> 土地の汚れてるのを浄めるのである。<br/><br/>今に方法を造る。<br/><br/>今の所、大きい建築は神主に頼む。<br/><br/>小さいものは、祝詞を奏げ、神様にお頼みする。<br/><br/> 007 地鎮祭の二様 地鎮祭につきお教え下さい。<br/><br/> 地鎮祭は大きい建物の時は神主に頼み、小さい建増の時などは祝詞をあげて、光明如来様にお願いすればよい。<br/><br/> 008 地鎮祭と本教 家を建てます時に、神官をよばずに簡単に地鎮祭をする方法が御座いますでしょうか。<br/><br/> 本当の住宅建つ場合、建増等でなく。<br/><br/> 他の宗教と違い、本教は力がある。<br/><br/>（S24. 7.18） 009 住居の地鎮祭 最近長兄の住居を建てようと存じますが、その折の地鎮祭は、従前通り神主に行って貰うべきでしょうか。<br/><br/> 神主にやってもらえばいい。<br/><br/>（S24. 5.27） 010 宮前、墓裏の家、邪神不潔を好む 宮の前、墓の裏の家はよくないと伺っておりますが、どうでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> よくない。<br/><br/>宮の前はそんな事ない。<br/><br/>墓の近くは死霊がいて侵入してくる事がある。<br/><br/>（餓鬼道の霊など空腹のために来る等）光明如来様を祭ればよい。<br/><br/>反って功徳になる。<br/><br/>反って喜ぶ。<br/><br/>宮の前は汚い商売はいけない。<br/><br/>神様が出入するから、汚いと神様は嫌う。<br/><br/>魚屋などそうである。<br/><br/>邪神は汚い所を好む。<br/><br/>神様は除けて通られる。<br/><br/>それで災害が起り易い。<br/><br/>宮の真前は最も悪い。<br/><br/>（遮っているから人間はどちらでも出入するが、神様は几帳面で真直に出入される）（S24. 1.18） 011 寺跡の住居 寺跡に住むのは差支えない。<br/><br/>墓地でなければ差支えない。<br/><br/>（S23. 7.25） 012 寺の境内へ入る玄関先（霊と境界） 今度家を求めますが、玄関先がお寺の境内に這入っております。<br/><br/>なお玄関を出入りする時、無縁仏が見えますが、これは戦争中軍部が勝手にうつしたもので、骨はなく墓石だけです。<br/><br/> 大光明様を御奉斉すればこのような家でもよろしいでしょうか。<br/><br/> 玄関先がお寺の境内に入るのはまずい。<br/><br/>境界の囲いをせよ。<br/><br/>霊は囲いをすると入る事を遠慮する事になる。<br/><br/>普通、霊はそこで止るから境界線を作ればよい。<br/><br/>（S24.10. 9） 013 墓地火葬場の材の使用 昔から墓地や火葬場内の立木は、在家の建築材に使ってはよくないと言われておりますが、いかなる訳でしょうか。<br/><br/> また止むを得ず使用の場合はいかにしたらよいでしょうか。<br/><br/> 墓地、火葬場には霊が憑依している事があって、それが祟る場合がある。<br/><br/>触ると怒る。<br/><br/>墓に祀ってある霊でも、死に絶えるとか、閑却されるとか、無信仰で墓詣りなどせず、捨てられると、霊が淋しくて木に憑依する。<br/><br/>そして木の実を食ったりなどする。<br/><br/>龍神系とか天狗系などの人間は、木へ憑依した経験があり、訳なく憑くし、憑くのを好む。<br/><br/>（S24. 6.18） 014 桧造り 住宅に桧材の柱、廊下等を用いる事は差支えありませんでしょうか。<br/><br/>また、総桧の建築は宜しくないとも申されている事もありますが、いかがなもので御座居ましょうか。<br/><br/> 桧木は、神社とか、神殿に使うべきもので、他に使ってはいけない。<br/><br/>総桧木の家の主人はきっと亡くなる。<br/><br/>だから住宅には使わぬ方がよい。<br/><br/>杉と松にするとよい。<br/><br/>しかし、米桧とか台湾桧はいい。<br/><br/> 木には位がある。<br/><br/>桧木造りの家なら、住む人間が相応しなくてはいけない。<br/><br/>桧木は霊が強い。<br/><br/>大きい木にはよく霊が宿っている。<br/><br/>大昔は、桧木を摺り合せて火が出たというので桧木という。<br/><br/>杉は軽い感じがして気持がよい。<br/><br/>桧木の柱は固苦しい。<br/><br/>黒紋付を着たような感じである。<br/><br/>（S23.12. 2） 015 神殿の材 檜が一番よい。<br/><br/>（S23） 016 桧の手入 庭木として桧を植えてある場合、手入れのため梢を切ったりする事は差支えないでしょうか。<br/><br/> 檜を建築に使うのはいけないが、手入れしたって枯らしたって何等差支えない。<br/><br/>私など、どしどし切っている。<br/><br/> rattail（注） 〔 御光話（S24年 8月13日） 『御光話録』14号、昭和24(1949)年11月20日発行〕掲載 017 桧材と納屋の建築 五十七才の男子、昨年十二月上旬納屋を改造し、その際桧にて致しました。<br/><br/>同時に本人が病気になりましたので、病院で診察の結果、幽門狭窄と言われました。<br/><br/>身体が少し衰弱しておりますため、手術を嫌ってただ今自宅で御浄霊を致しておりますが、胃の左部に一箇の玉のごときものがありまして、これが処々へ移動致します。<br/><br/>これらの症状は右桧の建築の支障で御座居ましょうか。<br/><br/> いけない。<br/><br/>納屋へ桧を使うのは大間違いである。<br/><br/>桧は神様を祭る所などに使うべきものである。<br/><br/> 先祖が忠告している。<br/><br/>杉とか松とか、外の木ならよい。<br/><br/>すべて相応しなくてはいけない。<br/><br/>木などもすべて神様は区別して作られている。<br/><br/>（S24. 4. 3） rattail（注） 〔 御光話（S24年8月特輯号） 『御光話録』11号、昭和24(1949)年8月21日発行〕掲載</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

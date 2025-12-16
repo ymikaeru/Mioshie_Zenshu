@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku47</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の被害を救う浄霊 『栄光』224号、昭和28(1953)年9月2日発行 『世界救世教奇蹟集、昭和29年版新稿』昭和29(1954)年2月10日発行 医療によって漸次悪化しつつあった患者が本教浄霊によりたちまちにして、暗黒から光明へ転換し、救われる人々は日に月に増えつつあるので、病貧争絶無の地上天国出現は、理想に非ずして現実であることは、太鼓判を捺（お）しても間違いはない。<br><br>左の御蔭話はそれをよく証明しているので、この事実をみただけでも、医学と浄霊との違いさは余りにも明らかである。<br><br>としたら世の人々よ、一日も早く目覚めて、我救世教の救いに来らんことである。<br><br> 長年の病気地獄より救われて 新潟県佐渡郡河崎村 神成中教会 藤井千代（36） 明主様日々の御守護誠に有難うございます。<br><br>長年胃腸病にて困り果てておりましたが、無神論の私は現代医学を最高と信じ、有名な病院を転々として歩き、合間には新聞雑誌の広告を見ては種々の薬剤薬草等取寄せ沢山のみました。<br><br>又今思ってもゾットする熱い熱いお灸をすえ、温泉に行くやら、良いと聞いた事はし尽くしましたが、反って胃腸病の外に心悸亢進、脈拍不整、呼吸困難の苦しい心臓病になり、その上に膀胱炎、痔等全く病気の問屋のようになってしまいました。<br><br> 遂には食物の制限をされ、三年間も糊の様なお粥と馬鈴薯のみの食事にて食物恐怖にかかり、身体はすっかり衰弱してしまいました。<br><br>せめて十分間なりと健康の時の様に明るい気持になってみたいと蔑度思った事でしょう。<br><br> 死の恐怖感におののき暗い毎日を過ごしつつ遂に現代医学に希望を失ってしまいました。<br><br> 子を持つ母の誰しもの願い、子供の一人前になる迄は石にかじりついても死にたくないと私もいつしか信仰を求める様になって来ました。<br><br>知人にすすめられ最初「生長の家」の谷口先生著『生命の実相』の文章に魅惑され一巻、二巻と読み進みましたら最後の結論は「病気は心のまよい」とありました。<br><br>私はその時久方振りに光明を見出した思いで急に体の工合が良くなって来ました。<br><br>併しそれも僅か一カ月位にて前にも増して苦しくなって来ました。<br><br>何か心に迷いがあるのかと幾度も心に反問しました。<br><br>そして悩み、またしても希望を失ってしまいました。<br><br> その頃ふとした動機で「日本観音教」今のメシヤ教を知らされその御教えの中の「病気は浄化作用なり」がピンと来まして、又だまされるかなとも思いながら他に縋る処が無いまま「精神修養」だけでもと御浄霊というのを受け始めました。<br><br> ぼんやりとした気分で続けて居る内に半年たちました。<br><br>なんだか気分が良くなった様だと思ってふとお腹へ手をやってみてびっくりしました。<br><br>今迄のやせた固いお腹が柔かになっています。<br><br> 考えてみれば、ひどい下痢も胸やけも腹痛も何時の間にか忘れていました。<br><br>私の暗い人生観がとたんに一変して歓喜の世界を知り、ああ絶対力だと急に熱心に御神書を拝読し始めました。<br><br>以前の婦人雑誌や、新聞の小説や、三面記事を楽しみにしていた頃の自分と何という違いでしょう。<br><br>一官吏の主人も朝夕高らかに御讃歌を奉唱させて頂く身の幸福を沁々感じさせて頂いております。<br><br> 今や明主様の御教えを根本として安心立命の内に営まれゆく光明一家に近づきつつ励んでおります。<br><br> 四人の子供も次々と大小の御浄化頂き、その度に様々の体験を経ます内に新なる信念が加わり、明主様の御教えのすべて真理であることを覚らして頂きました。<br><br> 学校で子供に強制的に行うＢＣＧ接種や「様々の注射が何時も私の悩みの種となっております。<br><br>「ああ薬毒の恐ろしさ」一日も早くこの医薬迷信の晴れます様に、医師や看護婦を見る度に気の毒な人達だと心に同情致しております。<br><br> 明主様有難うございます。<br><br> （昭和二十八年五月十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Johrei e o Alvorecer da Salvação</h2>
 <p>O número de pessoas que, paulatinamente agravadas por tratamentos médicos, são subitamente conduzidas das trevas para a luz por meio do Johrei de nossa Igreja, cresce dia após dia. Diante disso, podemos afiançar que o advento do Paraíso Terrestre — um mundo isento de doença, pobreza e conflito — não é um ideal utópico, mas uma realidade concreta. O relato de graça que se segue é um eloquente testemunho desse fato. Ao observarmos tal realidade, a distinção entre a medicina e o Johrei torna-se por demais evidente. Portanto, conclamamos as pessoas do mundo a despertarem o quanto antes e a virem ao encontro da salvação oferecida por nossa Igreja.</p>
@@ -105,5 +257,48 @@ Igreja Nakanari, Kawasakimura, Sado-gun, Niigata</p>
 <p>A vacinação compulsória com BCG e as diversas injeções aplicadas nas escolas são uma fonte constante de aflição para mim. Ah, como é terrível o yakudoku! Rogo para que o dia em que essa superstição da medicina se dissipará chegue o mais breve possível. Sempre que vejo médicos e enfermeiras, sinto uma profunda compaixão por eles.</p>
 <p>Muito obrigada, Meishu-Sama.</p>
 <p>(17 de maio de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の被害を救う浄霊 『栄光』224号、昭和28(1953)年9月2日発行 『世界救世教奇蹟集、昭和29年版新稿』昭和29(1954)年2月10日発行 医療によって漸次悪化しつつあった患者が本教浄霊によりたちまちにして、暗黒から光明へ転換し、救われる人々は日に月に増えつつあるので、病貧争絶無の地上天国出現は、理想に非ずして現実であることは、太鼓判を捺（お）しても間違いはない。<br/><br/>左の御蔭話はそれをよく証明しているので、この事実をみただけでも、医学と浄霊との違いさは余りにも明らかである。<br/><br/>としたら世の人々よ、一日も早く目覚めて、我救世教の救いに来らんことである。<br/><br/> 長年の病気地獄より救われて 新潟県佐渡郡河崎村 神成中教会 藤井千代（36） 明主様日々の御守護誠に有難うございます。<br/><br/>長年胃腸病にて困り果てておりましたが、無神論の私は現代医学を最高と信じ、有名な病院を転々として歩き、合間には新聞雑誌の広告を見ては種々の薬剤薬草等取寄せ沢山のみました。<br/><br/>又今思ってもゾットする熱い熱いお灸をすえ、温泉に行くやら、良いと聞いた事はし尽くしましたが、反って胃腸病の外に心悸亢進、脈拍不整、呼吸困難の苦しい心臓病になり、その上に膀胱炎、痔等全く病気の問屋のようになってしまいました。<br/><br/> 遂には食物の制限をされ、三年間も糊の様なお粥と馬鈴薯のみの食事にて食物恐怖にかかり、身体はすっかり衰弱してしまいました。<br/><br/>せめて十分間なりと健康の時の様に明るい気持になってみたいと蔑度思った事でしょう。<br/><br/> 死の恐怖感におののき暗い毎日を過ごしつつ遂に現代医学に希望を失ってしまいました。<br/><br/> 子を持つ母の誰しもの願い、子供の一人前になる迄は石にかじりついても死にたくないと私もいつしか信仰を求める様になって来ました。<br/><br/>知人にすすめられ最初「生長の家」の谷口先生著『生命の実相』の文章に魅惑され一巻、二巻と読み進みましたら最後の結論は「病気は心のまよい」とありました。<br/><br/>私はその時久方振りに光明を見出した思いで急に体の工合が良くなって来ました。<br/><br/>併しそれも僅か一カ月位にて前にも増して苦しくなって来ました。<br/><br/>何か心に迷いがあるのかと幾度も心に反問しました。<br/><br/>そして悩み、またしても希望を失ってしまいました。<br/><br/> その頃ふとした動機で「日本観音教」今のメシヤ教を知らされその御教えの中の「病気は浄化作用なり」がピンと来まして、又だまされるかなとも思いながら他に縋る処が無いまま「精神修養」だけでもと御浄霊というのを受け始めました。<br/><br/> ぼんやりとした気分で続けて居る内に半年たちました。<br/><br/>なんだか気分が良くなった様だと思ってふとお腹へ手をやってみてびっくりしました。<br/><br/>今迄のやせた固いお腹が柔かになっています。<br/><br/> 考えてみれば、ひどい下痢も胸やけも腹痛も何時の間にか忘れていました。<br/><br/>私の暗い人生観がとたんに一変して歓喜の世界を知り、ああ絶対力だと急に熱心に御神書を拝読し始めました。<br/><br/>以前の婦人雑誌や、新聞の小説や、三面記事を楽しみにしていた頃の自分と何という違いでしょう。<br/><br/>一官吏の主人も朝夕高らかに御讃歌を奉唱させて頂く身の幸福を沁々感じさせて頂いております。<br/><br/> 今や明主様の御教えを根本として安心立命の内に営まれゆく光明一家に近づきつつ励んでおります。<br/><br/> 四人の子供も次々と大小の御浄化頂き、その度に様々の体験を経ます内に新なる信念が加わり、明主様の御教えのすべて真理であることを覚らして頂きました。<br/><br/> 学校で子供に強制的に行うＢＣＧ接種や「様々の注射が何時も私の悩みの種となっております。<br/><br/>「ああ薬毒の恐ろしさ」一日も早くこの医薬迷信の晴れます様に、医師や看護婦を見る度に気の毒な人達だと心に同情致しております。<br/><br/> 明主様有難うございます。<br/><br/> （昭和二十八年五月十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

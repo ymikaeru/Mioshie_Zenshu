@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gosyo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様の御書 書道家 松林天上 『栄光』226号、昭和28(1953)年9月16日発行 歌に秀でていられる明主様は又書においても非凡の天分を発揮せられている。<br><br>私はここ十数年来一日として明主様の御書に接しない日は無いのであるが失礼ながら近時の御手跡は遠く専門家の上にあられる。<br><br> 私は昔から文字を上手と能書とに分けて見ている者であるが、即ち私のいう上手とは例えば彼の看板屋の如く又提灯屋や傘屋の如くに文字を書く職人のことで、彼等は即ち所を得て初めて上手に書き得る者で、一度所が変れば似ても似つかぬ下手な字しか書けないものである。<br><br>故にその書いた文字にはその目的以外には殆んど無価値なもので勿論風韻だの含蓄だのというもののあろう筈はない。<br><br>紙なり板なりの上に浮んだところの記号以外の何物でもないのであるから見ていて直ぐに飽きてしまい、生命力のない物である。<br><br>一体書者自身が生命短かかれと念じて書くのであるから完成した日から一日一日と価値を減じてゆくのに何の不思議もない。<br><br> これは何故か、殆んど説明を要しない。<br><br>つまり、この種の筆者は書けば即ち最後の目的を達するわけで、率直にいえば代金を受取ればすべては終りでその翌日からは一日も早く亡びんことを希うという式なものであるからである。<br><br>ただそれが見たところをよくつまり上手にかけば代は余分に受けられるわけでかかる物に元来風韻だの含蓄だのというもののあろう筈はない。<br><br>この種の物を私はいわゆる上手と呼んでいるのである。<br><br> 次に私のいう能書というのは前述のような物とは画然出発点を異にしている物である。<br><br>いくら長く見ていても見飽きがしない、のみならず初めは大した物でないと考えていた書が日増にヨサを感じて来て、果ては全く魅了されてしまう偉大な力を秘めている物である。<br><br>僅か一字か二字の作品でも五年十年はおろか一生涯見ても飽はおろか多く益しその有難昧が加わる一方となる。<br><br>かような作品を私は能書と呼ぶのである。<br><br>何故であろうかこれこそ口や文では形容できる様な簡単な物ではない。<br><br>問題はここにある。<br><br>売れば足るという作品とは全く趣きを異にし作者自身が長期に渉る蘊蓄を傾けての魂の入った作品その人の全智全霊の写真だからである。<br><br>如何に偉い人でも一寸会った位ではその人の全人格を計るべくもないが、逢う毎に尊敬の念を増してゆく。<br><br>これと同様で書も一見した位では一寸見当がつかなくとも次第に妙味が湧いて来る、この人に対すると同様である。<br><br>造化の神は吾人に賢愚無差別の待遇を以てした。<br><br>外観的には殆んど変る所はないのであるがその内容に至りては上は釈迦孔子より下は乞食罪人に至る無限大の差をなすのである。<br><br>文字又然り等しく書いた字でありながらその内容に至りてはこれ又無限大の開きをなすのである。<br><br>しかしながら見る人の眼が又千差万別であるから折角の能書も時に平々凡々のただの字と見られる恐れもある。<br><br>“心ここに在らざれば看れども見えず、聴けども聞えず”というのである。<br><br>世にただの目程つまらぬものはないとつくづく痛感する。<br><br>読者諸氏は大方本教団の信者であるから大抵明主様の名作を奉斉して居られる筈であるが、この名作を眼前にしながら無為に終らせている人も決してないとは限らない。<br><br>このような不幸な人の為にとこの文を書いているのではないが、序だから言及した迄である。<br><br>つまり平眼にはダイヤも一片の硝子かけと異らず黄金も馬糞と選ぶところがあるまい。<br><br>神は吾々に同じ眼を与えた筈であるがその眼を生涯の中に見える眼として使うか、見ても見えない眼で一生を終るかはカカッてその人自身の心懸次第である。<br><br>文字は更なり己が心魂迄も善に導けば善に至る物を、それに努力しない人ほ憐むべき存在である。<br><br>活眼を以てすれば僅かに数字の明主様の字にも千万無量の教が含まれていることに気がつくであろう。<br><br>一目の観賞に依り長年の修業に勝るを会得をする事もできる。<br><br>明主様の抱懐される御意図も窺われよう。<br><br>益するところは尽くべくもない。<br><br>これ観者をしてとこしえに飽かしめざるゆえんの一つである。<br><br>日一日と光を増し、有難味を加えて遂に千載不滅の偉容をなすものである。<br><br>幸に諸賢は大なり小なり必ずこの明主様の御書体を頂戴している者であるから、朝に千万無辺の教訓に接し夕に不朽の妙智を体得し明るく楽しくその日を送り迎えらるる諸氏は、以て仕合せとすべきであろう。<br><br>私は毎月各地に出張してその先々で明主様の名作に触れる事びを無上の光栄としている者である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sublimidade da Caligrafia de Meishu-Sama</h2>
 <p>Meishu-Sama, já eminente na arte da poesia, revela também na caligrafia um talento celestial e extraordinário. Há mais de uma década, não há um só dia em que eu não contemple Suas obras caligráficas e, com o devido respeito, devo afirmar que Sua técnica recente transcende em muito a dos maiores especialistas.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Os leitores, em sua maioria, são membros de nossa Igreja e, certamente, reverenciam em seus lares uma obra-prima de Meishu-Sama. Todavia, não se pode descartar a possibilidade de que alguns estejam a desperdiçar esse tesouro. Não escrevo este texto para essas pessoas desafortunadas, mas aproveito a oportunidade para mencionar o fato. Com efeito, para um olhar superficial, um diamante não se distingue de um caco de vidro, nem o ouro se diferencia do esterco. Deus nos concedeu os mesmos olhos, mas utilizá-los como olhos que verdadeiramente enxergam ou passar a vida com olhos que olham sem ver depende exclusivamente da disposição de cada um. A caligrafia, ademais, pode conduzir nossa própria alma ao bem; quão dignos de compaixão são aqueles que não se esforçam nesse sentido!</p>
 <p>Com um olhar desperto, perceberemos que mesmo em poucos caracteres de Meishu-Sama residem ensinamentos de valor incalculável. Uma única apreciação atenta pode proporcionar uma compreensão superior à de longos anos de disciplina. Será possível vislumbrar as intenções que Meishu-Sama nutre em Seu coração. Os benefícios são, pois, inesgotáveis, e essa é uma das razões pelas quais o observador jamais se farta de Suas obras. Dia após dia, seu brilho se intensifica e seu valor aumenta, até alcançar uma majestade que o tempo não pode destruir.</p>
 <p>Felizes são os senhores, que, em maior ou menor grau, foram agraciados com uma caligrafia de Meishu-Sama. Poder haurir, pela manhã, de seus ilimitados ensinamentos e, ao entardecer, absorver sua imperecível sabedoria, vivendo dias plenos de luz e alegria, é motivo de grande bem-aventurança. Eu mesmo considero uma honra suprema poder contemplar as obras-primas de Meishu-Sama nos diversos locais que visito todos os meses.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様の御書 書道家 松林天上 『栄光』226号、昭和28(1953)年9月16日発行 歌に秀でていられる明主様は又書においても非凡の天分を発揮せられている。<br/><br/>私はここ十数年来一日として明主様の御書に接しない日は無いのであるが失礼ながら近時の御手跡は遠く専門家の上にあられる。<br/><br/> 私は昔から文字を上手と能書とに分けて見ている者であるが、即ち私のいう上手とは例えば彼の看板屋の如く又提灯屋や傘屋の如くに文字を書く職人のことで、彼等は即ち所を得て初めて上手に書き得る者で、一度所が変れば似ても似つかぬ下手な字しか書けないものである。<br/><br/>故にその書いた文字にはその目的以外には殆んど無価値なもので勿論風韻だの含蓄だのというもののあろう筈はない。<br/><br/>紙なり板なりの上に浮んだところの記号以外の何物でもないのであるから見ていて直ぐに飽きてしまい、生命力のない物である。<br/><br/>一体書者自身が生命短かかれと念じて書くのであるから完成した日から一日一日と価値を減じてゆくのに何の不思議もない。<br/><br/> これは何故か、殆んど説明を要しない。<br/><br/>つまり、この種の筆者は書けば即ち最後の目的を達するわけで、率直にいえば代金を受取ればすべては終りでその翌日からは一日も早く亡びんことを希うという式なものであるからである。<br/><br/>ただそれが見たところをよくつまり上手にかけば代は余分に受けられるわけでかかる物に元来風韻だの含蓄だのというもののあろう筈はない。<br/><br/>この種の物を私はいわゆる上手と呼んでいるのである。<br/><br/> 次に私のいう能書というのは前述のような物とは画然出発点を異にしている物である。<br/><br/>いくら長く見ていても見飽きがしない、のみならず初めは大した物でないと考えていた書が日増にヨサを感じて来て、果ては全く魅了されてしまう偉大な力を秘めている物である。<br/><br/>僅か一字か二字の作品でも五年十年はおろか一生涯見ても飽はおろか多く益しその有難昧が加わる一方となる。<br/><br/>かような作品を私は能書と呼ぶのである。<br/><br/>何故であろうかこれこそ口や文では形容できる様な簡単な物ではない。<br/><br/>問題はここにある。<br/><br/>売れば足るという作品とは全く趣きを異にし作者自身が長期に渉る蘊蓄を傾けての魂の入った作品その人の全智全霊の写真だからである。<br/><br/>如何に偉い人でも一寸会った位ではその人の全人格を計るべくもないが、逢う毎に尊敬の念を増してゆく。<br/><br/>これと同様で書も一見した位では一寸見当がつかなくとも次第に妙味が湧いて来る、この人に対すると同様である。<br/><br/>造化の神は吾人に賢愚無差別の待遇を以てした。<br/><br/>外観的には殆んど変る所はないのであるがその内容に至りては上は釈迦孔子より下は乞食罪人に至る無限大の差をなすのである。<br/><br/>文字又然り等しく書いた字でありながらその内容に至りてはこれ又無限大の開きをなすのである。<br/><br/>しかしながら見る人の眼が又千差万別であるから折角の能書も時に平々凡々のただの字と見られる恐れもある。<br/><br/>“心ここに在らざれば看れども見えず、聴けども聞えず”というのである。<br/><br/>世にただの目程つまらぬものはないとつくづく痛感する。<br/><br/>読者諸氏は大方本教団の信者であるから大抵明主様の名作を奉斉して居られる筈であるが、この名作を眼前にしながら無為に終らせている人も決してないとは限らない。<br/><br/>このような不幸な人の為にとこの文を書いているのではないが、序だから言及した迄である。<br/><br/>つまり平眼にはダイヤも一片の硝子かけと異らず黄金も馬糞と選ぶところがあるまい。<br/><br/>神は吾々に同じ眼を与えた筈であるがその眼を生涯の中に見える眼として使うか、見ても見えない眼で一生を終るかはカカッてその人自身の心懸次第である。<br/><br/>文字は更なり己が心魂迄も善に導けば善に至る物を、それに努力しない人ほ憐むべき存在である。<br/><br/>活眼を以てすれば僅かに数字の明主様の字にも千万無量の教が含まれていることに気がつくであろう。<br/><br/>一目の観賞に依り長年の修業に勝るを会得をする事もできる。<br/><br/>明主様の抱懐される御意図も窺われよう。<br/><br/>益するところは尽くべくもない。<br/><br/>これ観者をしてとこしえに飽かしめざるゆえんの一つである。<br/><br/>日一日と光を増し、有難味を加えて遂に千載不滅の偉容をなすものである。<br/><br/>幸に諸賢は大なり小なり必ずこの明主様の御書体を頂戴している者であるから、朝に千万無辺の教訓に接し夕に不朽の妙智を体得し明るく楽しくその日を送り迎えらるる諸氏は、以て仕合せとすべきであろう。<br/><br/>私は毎月各地に出張してその先々で明主様の名作に触れる事びを無上の光栄としている者である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

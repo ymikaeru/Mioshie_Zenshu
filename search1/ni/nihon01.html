@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本医学の建設 （二） 『光明世界』3号、昭和10(1935)年5月21日発行 一 胃 病 一概に胃病と言うても、その種類としては消化不良、胃痛、胃拡張、胃酸過多、胃下垂、胃潰瘍、胃癌等であり、その原因も種々であるが、大部分の患者について、最初の症状と原因を述べて試よう。<br><br> まず初め、胃の外部即ち心窩（しんか）部に、水膿（余が命名）が溜積せられ、その溜積が時日を経るに従い、自然に硬化し、それに胃が圧迫さるるのである。<br><br>圧迫された胃は漸次縮小をなし、胃の抱擁力が阻害さるる結果、食物の量が減少するのは当然の事である。<br><br>又、それが為、胃の運動も少からず、妨げらるるを以て、少量の飲食にても満腹をしたり、少時間にて空腹になり、あるいは、消化不良を来すのである。<br><br>この時の療法としては、その水膿溜結を解消排除すれば、胃は圧迫より脱（のが）れるから、胃の容積も還元し、全治するのであるが、現在にては、その水膿を除去する方法が、未だ発見されないから、止むを得ず、消極的に、胃の方へ向って、消化薬の力を借り、消化を助くる方法を執（と）るのである。<br><br>故にこの初期の際は、胃その物は何ら異状がなく、敵は、胃を圧迫する水膿溜結その物であるのである。<br><br> 次に、胃痛の原因としては、右水膿溜結は多くの場合、心窩部の上部辺に又は縦の棒状に硬結（こうけつ）する性質を有するのであって、患者が満腹する時、胃の膨張に依って、右硬化物を、自然圧迫する。<br><br>それが痛みを感ずるのである。<br><br>又、右硬結は、不純物であるからその部に軽微の発熱をなし、これが、胃に感じて胸焼けとなるのである。<br><br>この場合、胃薬を服用すれば一時、快癒するから、患者は、知らず識らずこの苦痛を脱れたいが為、胃薬連続の癖（へき）となり、ついに胃薬中毒患者となるのである。<br><br> 次にこの硬化物が、時日の経過と患者の体質に依って悪性に変じ、化膿状となり、漸次胃の内壁にまで、侵入するに至って始めて胃癌となるのである。<br><br>しかして、診断の場合、この水膿溜積物は胃を中心に、付近を指頭にて軽く押しつつ探せば容易に発見し得らるるのである。<br><br> 軽度のものは一種の護謨（ゴム）性弾力あり、濃度のものは固くしてプリプリを感ずる。<br><br>又肉眼にて見る時、患部は特に隆起膨脹なしおり、中には、全面板のごとく硬化せるものもあり、そして心窩部を中心に左右いずれにも見るが、多くは左の横隔膜辺に濃度の溜積を見るのが普通である。<br><br>かくのごとき症状の場合、無差別的に消化薬を能く用いるのであるが、実は一時的の効果のみで反って病気を重からしむる結果になるのである。<br><br>何となれば水膿圧迫によって疲労せる胃は消化薬服用に依り、食物の消化が容易となるから胃自身が活動する必要がないので胃の活力は、漸次衰退してゆくのである。<br><br> ちょうど、楽をしてる人の四肢が弱く、労働する人が頑健である様な道理である。<br><br>のみならずこの場合、消化のよき食物を摂取する事は胃の衰退に拍車を掛けるようなもので益々胃は弱化衰退してゆくのである。<br><br>近来、医家において消化薬を極力制限する傾向を見るのはまことに喜ばしい事である。<br><br>前述のごとく、消化薬達続服用と、消化良き食物摂取の結果、胃は睡眠状態に陥り、ついに弛緩する事となる、これを胃下垂というのである。<br><br> 次に、今一層恐るべきは、消化薬の連続作用による胃壁の破壊である。<br><br>元来、消化薬はその食物を消化良く、柔軟化するばかりでなく知らず識らずの裡（うち）に胃壁も共に柔軟化されてゆくものである。<br><br>その軟化された胃壁に偶々（たまたま）固形食物が接触すれば、その個所が破壊される。<br><br>それが、胃の激痛となり、又出血もするのである。<br><br>これが胃潰瘍である。<br><br>又こういう事もある。<br><br>それは、最も緩慢に胃壁が柔軟化され、極小破壊又は胃壁を血液が滲出する事がある。<br><br>そういうのは激痛と出血がないから胃潰瘍とは気が付かずに、時日を経てゆく、そういう血液の溜積が古血となって便通に交り、又は嘔吐の中に見る事によって始めて胃潰瘍を知る事が能くあるのである。<br><br> 故に真の療法としては、積極的に胃の強力化を図らなければならない。<br><br>その理から推すとどうしても消化薬は不合理であるから出来得るだけ避けて食物においても可及的普通食を摂らせるのである。<br><br>そうすると、胃の抵抗を強め活動を促すから、水膿溜積を反対に、胃自身の力によって積極的に外部へ向って圧迫し、排除する事になる。<br><br>往年、食物医者の石塚某氏が流動食同様の物を摂取し居る患者に対し、直に沢庵と塩鮭の茶漬を奨め意外なる、効顕を奏した事を聞いた事が度々あったのはこの理に合っているからである。<br><br>随って、胃の初期患者には、積極的胃の強健法を、奨めなければならないのである。<br><br>それには第一出来得る限りの運動と場合に依り一回又は一日位の絶食も良し、食餌に日本食が最も適当であって、就中（なかんずく）、菜の類の香の物で茶漬等が非常に効顕ある事は、余が実験上保証したいのである。<br><br>もっとも香の物は、酸味の多い古漬が最もよく、まず一日の中一食位の、香の物、鮭、干物等の茶漬を食うのが、初期患者に最も良いのである。<br><br> 水膿溜積を溶解するに、医療電気を応用するのは相当効果がある様である。<br><br> （仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese das Doenças Gástricas</h2>
 <p>Embora designemos genericamente como "doenças gástricas", sua tipologia abrange quadros como indigestão, dores, dilatação, hiperacidez, gastroptose, úlcera e câncer gástrico. As causas são igualmente diversas, mas permitam-me expor os sintomas iniciais e a origem do problema, conforme observei na vasta maioria dos pacientes.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Sendo assim, para pacientes nos estágios iniciais de problemas gástricos, deve-se recomendar um método ativo para o fortalecimento do órgão. Para isso, o primeiro passo é praticar o máximo de exercícios possível. Dependendo do caso, um jejum de uma refeição ou de um dia inteiro também é benéfico. No que tange à dieta, a culinária japonesa é a mais adequada. Em especial, posso garantir, por experiência própria, a notável eficácia de um <em>chazuke</em> com conservas de vegetais. As conservas mais antigas e com sabor mais ácido são as melhores. Ingerir ao menos uma vez ao dia um <em>chazuke</em> com conservas, salmão ou peixe seco é a melhor abordagem para pacientes no estágio inicial da doença.</p>
 <p>Para dissolver o acúmulo de pus aquoso, a aplicação de eletroterapia parece apresentar resultados consideráveis.</p>
 <p>(Jinsai)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本医学の建設 （二） 『光明世界』3号、昭和10(1935)年5月21日発行 一 胃 病 一概に胃病と言うても、その種類としては消化不良、胃痛、胃拡張、胃酸過多、胃下垂、胃潰瘍、胃癌等であり、その原因も種々であるが、大部分の患者について、最初の症状と原因を述べて試よう。<br/><br/> まず初め、胃の外部即ち心窩（しんか）部に、水膿（余が命名）が溜積せられ、その溜積が時日を経るに従い、自然に硬化し、それに胃が圧迫さるるのである。<br/><br/>圧迫された胃は漸次縮小をなし、胃の抱擁力が阻害さるる結果、食物の量が減少するのは当然の事である。<br/><br/>又、それが為、胃の運動も少からず、妨げらるるを以て、少量の飲食にても満腹をしたり、少時間にて空腹になり、あるいは、消化不良を来すのである。<br/><br/>この時の療法としては、その水膿溜結を解消排除すれば、胃は圧迫より脱（のが）れるから、胃の容積も還元し、全治するのであるが、現在にては、その水膿を除去する方法が、未だ発見されないから、止むを得ず、消極的に、胃の方へ向って、消化薬の力を借り、消化を助くる方法を執（と）るのである。<br/><br/>故にこの初期の際は、胃その物は何ら異状がなく、敵は、胃を圧迫する水膿溜結その物であるのである。<br/><br/> 次に、胃痛の原因としては、右水膿溜結は多くの場合、心窩部の上部辺に又は縦の棒状に硬結（こうけつ）する性質を有するのであって、患者が満腹する時、胃の膨張に依って、右硬化物を、自然圧迫する。<br/><br/>それが痛みを感ずるのである。<br/><br/>又、右硬結は、不純物であるからその部に軽微の発熱をなし、これが、胃に感じて胸焼けとなるのである。<br/><br/>この場合、胃薬を服用すれば一時、快癒するから、患者は、知らず識らずこの苦痛を脱れたいが為、胃薬連続の癖（へき）となり、ついに胃薬中毒患者となるのである。<br/><br/> 次にこの硬化物が、時日の経過と患者の体質に依って悪性に変じ、化膿状となり、漸次胃の内壁にまで、侵入するに至って始めて胃癌となるのである。<br/><br/>しかして、診断の場合、この水膿溜積物は胃を中心に、付近を指頭にて軽く押しつつ探せば容易に発見し得らるるのである。<br/><br/> 軽度のものは一種の護謨（ゴム）性弾力あり、濃度のものは固くしてプリプリを感ずる。<br/><br/>又肉眼にて見る時、患部は特に隆起膨脹なしおり、中には、全面板のごとく硬化せるものもあり、そして心窩部を中心に左右いずれにも見るが、多くは左の横隔膜辺に濃度の溜積を見るのが普通である。<br/><br/>かくのごとき症状の場合、無差別的に消化薬を能く用いるのであるが、実は一時的の効果のみで反って病気を重からしむる結果になるのである。<br/><br/>何となれば水膿圧迫によって疲労せる胃は消化薬服用に依り、食物の消化が容易となるから胃自身が活動する必要がないので胃の活力は、漸次衰退してゆくのである。<br/><br/> ちょうど、楽をしてる人の四肢が弱く、労働する人が頑健である様な道理である。<br/><br/>のみならずこの場合、消化のよき食物を摂取する事は胃の衰退に拍車を掛けるようなもので益々胃は弱化衰退してゆくのである。<br/><br/>近来、医家において消化薬を極力制限する傾向を見るのはまことに喜ばしい事である。<br/><br/>前述のごとく、消化薬達続服用と、消化良き食物摂取の結果、胃は睡眠状態に陥り、ついに弛緩する事となる、これを胃下垂というのである。<br/><br/> 次に、今一層恐るべきは、消化薬の連続作用による胃壁の破壊である。<br/><br/>元来、消化薬はその食物を消化良く、柔軟化するばかりでなく知らず識らずの裡（うち）に胃壁も共に柔軟化されてゆくものである。<br/><br/>その軟化された胃壁に偶々（たまたま）固形食物が接触すれば、その個所が破壊される。<br/><br/>それが、胃の激痛となり、又出血もするのである。<br/><br/>これが胃潰瘍である。<br/><br/>又こういう事もある。<br/><br/>それは、最も緩慢に胃壁が柔軟化され、極小破壊又は胃壁を血液が滲出する事がある。<br/><br/>そういうのは激痛と出血がないから胃潰瘍とは気が付かずに、時日を経てゆく、そういう血液の溜積が古血となって便通に交り、又は嘔吐の中に見る事によって始めて胃潰瘍を知る事が能くあるのである。<br/><br/> 故に真の療法としては、積極的に胃の強力化を図らなければならない。<br/><br/>その理から推すとどうしても消化薬は不合理であるから出来得るだけ避けて食物においても可及的普通食を摂らせるのである。<br/><br/>そうすると、胃の抵抗を強め活動を促すから、水膿溜積を反対に、胃自身の力によって積極的に外部へ向って圧迫し、排除する事になる。<br/><br/>往年、食物医者の石塚某氏が流動食同様の物を摂取し居る患者に対し、直に沢庵と塩鮭の茶漬を奨め意外なる、効顕を奏した事を聞いた事が度々あったのはこの理に合っているからである。<br/><br/>随って、胃の初期患者には、積極的胃の強健法を、奨めなければならないのである。<br/><br/>それには第一出来得る限りの運動と場合に依り一回又は一日位の絶食も良し、食餌に日本食が最も適当であって、就中（なかんずく）、菜の類の香の物で茶漬等が非常に効顕ある事は、余が実験上保証したいのである。<br/><br/>もっとも香の物は、酸味の多い古漬が最もよく、まず一日の中一食位の、香の物、鮭、干物等の茶漬を食うのが、初期患者に最も良いのである。<br/><br/> 水膿溜積を溶解するに、医療電気を応用するのは相当効果がある様である。<br/><br/> （仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak38</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の霊的原因 『栄光』231号、昭和28(1953)年10月21日発行 『世界救世教奇蹟集、昭和29年版新稿』昭和29(1954)年2月10日発行 結核は薬毒の浄化以外に霊的原因もある事は、以前かいた事があるが、左の御蔭話はそれをよく示していると共に、結核は伝染するという医学の定説をも見事覆（くつが）えした例である。<br><br>ところがこれを読んでも、科学迷信のコチコチ頭では中々分り難いだろう。<br><br>というのも現代人は学理を第一とし、実際を第二としている変な頭脳になっているからで、この変調頭脳を正常に治すには中々容易ではないが、これが吾々の仕事であるから仕方がない。<br><br>事実この誤った考え方のため命までも棒に振る人が沢山あるのであるから、気の毒なもので、全く現代は文化迷信で地獄を作っているのである。<br><br> 主人の結核を救われて 静岡県 晴光中教会 西ヶ谷悦子（35） 謹んで御明主様に御礼申し上げます。<br><br>私こと昭和二十六年九月にふとした動機から、この御道の御力を知り、体の弱い私は何とかして入信致しお救い戴きたく、御浄霊を戴きながら、『栄光』新聞、救世教の刊行物をむさぼる様に読ましていただいておりました。<br><br>世間にありふれた無神論者の主人は、「そんなものに夢中になって」と反対致し笑っておりましたところ、十月末時分より主人の体に強い浄化が始り、夜は一、二時間位しか眠らず、肩コリを訴え、毎日の弁当も軽くつめてもおいしくないと半分は残し、顔は青ざめ、結核特有の軽い咳をし、夜はふとんを通しての寝汗に悩み苦しんでおりますので、私がもしやと思い、「胸の病気ではないのですか」とききますと、「馬鹿なそんな病気ではない」と強く否定しておりましたが、主人の母と兄姉が結核で倒れております故、私としても非常に不安になり、是非御浄霊の御力にてお救いいただきたく主人を説得致し、二十六年十一月に私が入信させていただき、それから毎日主人の御浄霊をさせていただきましたが、主人ももしやとの一まつの不安があります故、医者の診断をおそれ医者へ行くとは申しませんでした。<br><br> 日毎に病症は強くなり、私だけの御浄霊だけではとても心配でたまりませんので、気の進まぬ主人を引張って支部の先生のところへ御伺い致し、先生より薬毒の害、霊の曇り等種々お話を伺い、このお道の意義が分り、今度は私より主人の方が熱心になってまいりました。<br><br>その間体は痩せ細り夜昼咳のし通しでしたが、夜は眠れる様になり食事も進み、一日に何百回という程の血痰、青痰、はては真赤な血のかたまりの浄化の中に毎日勤めに出て、特に啄のひどい日に一日半休んだだけでございます。<br><br>今度は余りの浄化の激しさに私も御力の絶対性を信じながら矢張り不安になり、「一度医者の診断を受けては」と申しますと主人の意志の方が固く「先生の御言葉通り咳が出て、血痰が出て結構な御浄化、それだけ体の毒素が出るのだ、すべて明主様の御教えを信じ、明主様にお任せしておけばよいのではないか」とあべこべに私が説得される様になりました。<br><br> 明けて二十七年の正月頃には、吐く息が牛乳の腐った様なにおいがして、主人とまともには、臭くて臭くてお話が出来ませんでした。<br><br>先生に相談すると「毒が古い毒ですから臭うのですよ」と申され、又「結核は伝染するものではなく、近親者が結核で倒れた場合、その霊が憑依して次に結核患者が出る。<br><br>それを伝染と言われたのです」と御教えの御取次を賜わりました。<br><br>早速父母、兄姉のお位牌を作り供養致しましてから薄紙をはぐ様に快方に向い、明主様の御神徳に感謝致しておりましたところ、三月末頃より朝になると三十八度五分位の熱が出て、ふるえては勤めに出掛け、夕方になると下り、一週間ばかり続きましたので、又先生の御浄霊をお願い致し平熱に落着いたと思ったら、今度は「頭が変だ変だ」と申し、毎日暗い顔を致し口もろくにききませんので、先生にお伺い致しましたところ「お宅では先祖代々の霊位のお位牌をお作りしてありますか」と申されましたので、「父母と兄姉のお位牌だけです」と申しましたら「やる事があべこべですよ。<br><br>霊界においても順序があります」とおさとし下されましたので、早速西ヶ谷家先祖代々の霊位のお位碑をお作り致し、間違っていた事を御先祖様にお詫び致し、改めて御守護をお願い致しましたところ、お位牌をお作りして三日目に拭うが如く頭がせいせい致し、気持がよくなったと幾日振りかで晴れやかな笑顔になり、つくづく霊界の御先祖のお働きの大きな事、科学万能と叫ばれている世の中に余りにも不思議な霊の曇りの恐ろしい事等、しみじみお教えいただきました。<br><br>それより一日増に健康にさせていただき、あれ程浄化のあった人とは思われない健康体になり、一本の注射、一服の薬ものまずに世の人々に嫌われる結核よりお救いいただき、厚く厚く御礼申し上げます。<br><br> 私もただ今膀胱炎の御浄化をいただいております。<br><br>何分主人と違い長い間の医薬に親しみ薬毒の多い体、日々の御浄化によって毒素を出していただいております。<br><br>申しおくれましたが、主人も二十七年二月に尊い御守を拝受致し、毎日夜は主人より御浄霊をいただき、全快する日を楽しみにしております。<br><br>その上この曇り多き身にも子宝を賜わり、二人日の子供の出産を今日明日にひかえて、ひたすら、明主様の御神徳におすがり致し、安産の日を待ちわびております。<br><br>拙き筆をもちまして御守護の程謹んで御礼の御報告を申し上げますと共に、万分の一でも御高恩に報い奉りたく存じます。<br><br> 明主様、誠に有難うございました。<br><br> （昭和二十八年五月十六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa Espiritual da Tuberculose</h2>
 <p>Conforme já escrevi anteriormente, a tuberculose, além de ser uma purificação decorrente de toxinas medicamentosas, possui também uma causa espiritual. O relato de fé que se segue não apenas ilustra com clareza essa verdade, como também constitui um exemplo que refuta esplendidamente o dogma médico de que a tuberculose é contagiosa.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Com este pincel inábil, apresento o relato de nossa proteção como um sincero agradecimento e desejo retribuir, ainda que em uma ínfima parcela, Vossa imensa graça.</p>
 <p>Meishu-Sama, muito, muito obrigada.</p>
 <p>(16 de maio de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の霊的原因 『栄光』231号、昭和28(1953)年10月21日発行 『世界救世教奇蹟集、昭和29年版新稿』昭和29(1954)年2月10日発行 結核は薬毒の浄化以外に霊的原因もある事は、以前かいた事があるが、左の御蔭話はそれをよく示していると共に、結核は伝染するという医学の定説をも見事覆（くつが）えした例である。<br/><br/>ところがこれを読んでも、科学迷信のコチコチ頭では中々分り難いだろう。<br/><br/>というのも現代人は学理を第一とし、実際を第二としている変な頭脳になっているからで、この変調頭脳を正常に治すには中々容易ではないが、これが吾々の仕事であるから仕方がない。<br/><br/>事実この誤った考え方のため命までも棒に振る人が沢山あるのであるから、気の毒なもので、全く現代は文化迷信で地獄を作っているのである。<br/><br/> 主人の結核を救われて 静岡県 晴光中教会 西ヶ谷悦子（35） 謹んで御明主様に御礼申し上げます。<br/><br/>私こと昭和二十六年九月にふとした動機から、この御道の御力を知り、体の弱い私は何とかして入信致しお救い戴きたく、御浄霊を戴きながら、『栄光』新聞、救世教の刊行物をむさぼる様に読ましていただいておりました。<br/><br/>世間にありふれた無神論者の主人は、「そんなものに夢中になって」と反対致し笑っておりましたところ、十月末時分より主人の体に強い浄化が始り、夜は一、二時間位しか眠らず、肩コリを訴え、毎日の弁当も軽くつめてもおいしくないと半分は残し、顔は青ざめ、結核特有の軽い咳をし、夜はふとんを通しての寝汗に悩み苦しんでおりますので、私がもしやと思い、「胸の病気ではないのですか」とききますと、「馬鹿なそんな病気ではない」と強く否定しておりましたが、主人の母と兄姉が結核で倒れております故、私としても非常に不安になり、是非御浄霊の御力にてお救いいただきたく主人を説得致し、二十六年十一月に私が入信させていただき、それから毎日主人の御浄霊をさせていただきましたが、主人ももしやとの一まつの不安があります故、医者の診断をおそれ医者へ行くとは申しませんでした。<br/><br/> 日毎に病症は強くなり、私だけの御浄霊だけではとても心配でたまりませんので、気の進まぬ主人を引張って支部の先生のところへ御伺い致し、先生より薬毒の害、霊の曇り等種々お話を伺い、このお道の意義が分り、今度は私より主人の方が熱心になってまいりました。<br/><br/>その間体は痩せ細り夜昼咳のし通しでしたが、夜は眠れる様になり食事も進み、一日に何百回という程の血痰、青痰、はては真赤な血のかたまりの浄化の中に毎日勤めに出て、特に啄のひどい日に一日半休んだだけでございます。<br/><br/>今度は余りの浄化の激しさに私も御力の絶対性を信じながら矢張り不安になり、「一度医者の診断を受けては」と申しますと主人の意志の方が固く「先生の御言葉通り咳が出て、血痰が出て結構な御浄化、それだけ体の毒素が出るのだ、すべて明主様の御教えを信じ、明主様にお任せしておけばよいのではないか」とあべこべに私が説得される様になりました。<br/><br/> 明けて二十七年の正月頃には、吐く息が牛乳の腐った様なにおいがして、主人とまともには、臭くて臭くてお話が出来ませんでした。<br/><br/>先生に相談すると「毒が古い毒ですから臭うのですよ」と申され、又「結核は伝染するものではなく、近親者が結核で倒れた場合、その霊が憑依して次に結核患者が出る。<br/><br/>それを伝染と言われたのです」と御教えの御取次を賜わりました。<br/><br/>早速父母、兄姉のお位牌を作り供養致しましてから薄紙をはぐ様に快方に向い、明主様の御神徳に感謝致しておりましたところ、三月末頃より朝になると三十八度五分位の熱が出て、ふるえては勤めに出掛け、夕方になると下り、一週間ばかり続きましたので、又先生の御浄霊をお願い致し平熱に落着いたと思ったら、今度は「頭が変だ変だ」と申し、毎日暗い顔を致し口もろくにききませんので、先生にお伺い致しましたところ「お宅では先祖代々の霊位のお位牌をお作りしてありますか」と申されましたので、「父母と兄姉のお位牌だけです」と申しましたら「やる事があべこべですよ。<br/><br/>霊界においても順序があります」とおさとし下されましたので、早速西ヶ谷家先祖代々の霊位のお位碑をお作り致し、間違っていた事を御先祖様にお詫び致し、改めて御守護をお願い致しましたところ、お位牌をお作りして三日目に拭うが如く頭がせいせい致し、気持がよくなったと幾日振りかで晴れやかな笑顔になり、つくづく霊界の御先祖のお働きの大きな事、科学万能と叫ばれている世の中に余りにも不思議な霊の曇りの恐ろしい事等、しみじみお教えいただきました。<br/><br/>それより一日増に健康にさせていただき、あれ程浄化のあった人とは思われない健康体になり、一本の注射、一服の薬ものまずに世の人々に嫌われる結核よりお救いいただき、厚く厚く御礼申し上げます。<br/><br/> 私もただ今膀胱炎の御浄化をいただいております。<br/><br/>何分主人と違い長い間の医薬に親しみ薬毒の多い体、日々の御浄化によって毒素を出していただいております。<br/><br/>申しおくれましたが、主人も二十七年二月に尊い御守を拝受致し、毎日夜は主人より御浄霊をいただき、全快する日を楽しみにしております。<br/><br/>その上この曇り多き身にも子宝を賜わり、二人日の子供の出産を今日明日にひかえて、ひたすら、明主様の御神徳におすがり致し、安産の日を待ちわびております。<br/><br/>拙き筆をもちまして御守護の程謹んで御礼の御報告を申し上げますと共に、万分の一でも御高恩に報い奉りたく存じます。<br/><br/> 明主様、誠に有難うございました。<br/><br/> （昭和二十八年五月十六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

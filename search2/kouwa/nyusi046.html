@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nyusi046</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇 （入信、信仰上の悩み） ４ 046-066 反対１ 046 悪宣伝受けた場合、（負ける事の必要） 個人的または団体的の悪宣伝を受けた場合、宗教人としての私共は良い宣伝を以てこれに報いるべきでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 負けた方がよい。<br><br>すると先方は好い気持になり、こっちは気持が悪い。<br><br>しかし、後になると良い。<br><br>徳川家康は負けたから天下を取った。<br><br> 大いに成功したりするためには負けなくてはならぬ。<br><br>怨みの霊の来ぬ事で、感謝の霊の来るようにする。<br><br>すると、怨みほど霊的に損するものはない。<br><br> 047 反対者判らすには 昭和二十一年八月、妹のカリエスのため、母親がお光をお受けしましたが、同年十一月、母親から勧められて、私はお光をお受けする事が出来ましたが、妹は二十三年三月死亡しました。<br><br>私は御道のため御救いを戴き心から感謝していますが、父親始め家の者に反対されていますので、それに対してどうしましたらよいでしょうか。<br><br>また、死んだ妹と何かの関係がありましょうか。<br><br> 時節を待てばよい。<br><br>あまり奨めぬ方がよい。<br><br>奨めると反って延びる。<br><br>霊線が通じているから、一人か二人判るとある程度浄まるから、そうすると反対する霊も浄まるからいい方へ変わる。<br><br>（S24. 8.17） 048 反対者について（御用上）、反対者の二種 本教の御用を務めたいので御座いますが、反対するものが多いので思うように出来ませんが、どうしてで御座いましょうか。<br><br>また、いかが致しましたならよろしいでしょうか。<br><br>御教示願います。<br><br> 反対者はあるに決ったものである。<br><br>これを知らずに反対する者と、邪神の家系で反対するのとある。<br><br>邪神は決して悪くみせない。<br><br>反対するのが良いよう、巧い理屈をつくる。<br><br> 放置して時期を待つ事である。<br><br>先方と闘争せぬよう、避けるようにして、その程度で御用する。<br><br> 大先生とて今以て反対者はある。<br><br>これは五六七の世まである。<br><br> しかし、本当のものは良くなる。<br><br>それを妨害したものは必ず滅びる。<br><br>であるから、ちっとも心を用いなくてよい。<br><br>ただ、時期の問題であるから、焦らず、気をもまず、気長に待っているのがよい。<br><br>（S24. 5.26） 049 妨害者に抗せず（布教） 左の件につき御伺い致します。<br><br> 一、故意に布教を妨害する者に対する態度はいかにしたらよろしいでしょうか。<br><br> これに対する反抗はいけない。<br><br>当らずさわらずにしておく。<br><br>そして時期を待つ。<br><br>大抵の妨害は「我不関」がよい。<br><br>抵抗すると意地になってよくない。<br><br>私などよく妨害されたが、反抗しなかった。<br><br>（S24. 9.17） 050 反対者の苦しみ（入信後） 私共夫妻は三年前御光を戴き今日に到りましたが、私のみは泌尿器関係の浄化激しく、連続的で御手伝いも十分出来ず、加うるに父が反対して、やる瀬ない日々を送っております。<br><br>度々先輩諸先生に御指導を願っておりますが、その通りに実行出来ません。<br><br>どうしましたらよろしゅう御座いますか。<br><br> 罪穢が未だある。<br><br>訳があって苦しむのである。<br><br>入信してまず第一段は救われたが、未だ家の中までは入れぬのである。<br><br>まず健康になったが、罪が病気で除れないとなると、罪穢をとるため他の事で苦しむ。<br><br>であるから、反対者があって苦しむのは悪い意味に解すべきでない。<br><br> （泌尿器関係は治る。<br><br>手術しない人なら必ず治る。<br><br>自分で浄霊する）（S24. 1. 6） 051 異信の家族の邪魔は障るか（怨み） 私は一昨年教習を受けた者ですが、父や弟等が私の信仰と反対です。<br><br>阿弥陀様だけでよいと云います。<br><br>ですから昨年私は反対者を後に島根県の方へ観音様の御手伝いをしに参っております。<br><br>父等は私を怨んでいるでしょう。<br><br>その反対者の想念が御手伝いの邪魔になるでしょうか。<br><br>お伺い致します。<br><br> 少しは邪魔になるが、こんな事は差支えない。<br><br>本当の事をしている以上、これを打壊す力はないから（あまり影響はない。<br><br>懸念の要はない）怨みの想念が来ても何でもない。<br><br>その中に必ず判って、頭を下げるようになる。<br><br>（私などいろんな邪魔があったが、打勝って発展した） 「正を履んで恐れず」である。<br><br>（S24. 1.27） 052 信仰に反対の息子、（異宗霊憑依） 私の次男（二十歳）は素直であったが信仰（教会）にはとても反対で、本人が浄化して素直になると思いましたが益々反対するのです。<br><br>どうしたら宜しいでしょうか。<br><br> 前世が仏教信者とか神道の信者で、自分と違う信仰に入るのが面白くないので反対するか、または外の熱心な信仰者で霊界へ行ったので、この信仰が面白くないので、その息子に憑るかである。<br><br>うっちゃらかしておけば、何にもせず自然に信仰に入るようになる。<br><br>その霊が判る。<br><br>生れ代った場合としてはその人の守護神が判る。<br><br>神様もその機会を与えて下さる。<br><br>（S24.10.16） 053 父弟の反対、（霊の邪魔を考えよ） 私の家は父と弟が信仰が嫌いで、私が御浄霊に行く事を反対し、親類の人は益々反対しております。<br><br>今日の御面会も抜け出て参りました。<br><br>父は「屋敷がなくなるからやめて置け」と云い、私はただ今は京都へ布教に出掛けておりますが、入信の人があまり出来ません。<br><br>家には光明如来様を御祭りしておりますが、どうしたら家庭の地上天国が出来るので御座いましょうか。<br><br>また、京都方面の布教はいかにしたら発展するでしょうか。<br><br>謹みて御伺い申し上げます。<br><br> 父に憑った霊が邪魔する。<br><br>これは焦るからで、もっと気長にゆっくりせよ。<br><br>あまり反対するのを強いてやると霊が邪魔するから要領よくせよ。<br><br>天理教と間違えている。<br><br>この信仰は金が儲かるとかいう風に言い、新聞等置いておく。<br><br>神様にお任せし、後要領よく、刺激を与えぬようにする。<br><br>（S24. 9. 8） 054 信仰の母没後順調ならず、（邪霊とれず） 私は昭和二十二年入信、雑貨商を営んでいる者です。<br><br>母の生存中光明如来様をお祭りさせて戴きました。<br><br>兄は母が病気の時死ねと言い、私には出て行けと言って困りましたが、何事も順調に行きましたが、母の死後急に転換し、何事もうまく行かず、兄は焦るばかりです。<br><br>私にも死ねとか出て行けとか、兄も教修していながらも信仰をやめさせようとして困りましたが、現在は右のような事は申しませんが、商売は全然なく、生活も大変で、私も働きでもしようかと思いますが、なかなか出来なく、御用させて戴きたいと思いますが落着けなく、不安でなりません。<br><br>いかに致したらよろしいでしょうか。<br><br>また、右のような事を言うのには霊的に何か関係がありましょうか。<br><br>お伺い致します。<br><br> 母が死んで兄に間違った霊が働くから、吉い事はなくなった。<br><br>邪神系の――変な霊が憑いているし、本守護神は信仰したいが、なかなか邪神が除れぬ。<br><br> 気長に焦らずいると除れる。<br><br>時期が来るとトントン拍子になる。<br><br>生活に苦しんだ方が改心が早いから反っていい。<br><br> やはり祖霊などがやっている。<br><br>（S24. 4.26） 055 親の言う事を聞く事、（法律違反） 信仰雑話の 大乗と小乗 の項に『たまたま自分は目的を立て、それを遂行せんとする場合、親の許を離れなければならないが、親は不賛成をいう。<br><br>止むなく一旦親に叛いて家出をし、目的に向って努力し、成功してから親の許に帰れば、親もその光栄に喜ぶは勿論で、大きな親孝行をした事になる』と御座いますが、観音様の信仰をさせて戴いて、親の反対する場合、前項のごとく大乗的にやってもいいでしょうか。<br><br>観音様は常識を欠いてはいけないと言う御教えでありますので、迷っております。<br><br>いかが致したら宜敷いでしょうか。<br><br>御伺い申し上げます。<br><br> 臨機応変で、立派な親なら言う事を聞く。<br><br>分らない親の言う事を聞くと子供も良い仕事も出来ぬ。<br><br>出来るだけ理解さすようにして、親が困らぬようにして出るのもいい。<br><br>自分も親の心配を掛けぬ手段をとってやるべきである。<br><br> 法律には従わねばならぬが、これにふれなくては良い事が出来ぬ場合もある。<br><br>ふれなくては救いが出来ない。<br><br>法律にふれたために人が困るならいけないが、それがために人が幸福になるから仕方ない。<br><br> 戦時中、平和の話をすると法規違反になる。<br><br>法規に従えば闇米は買えぬ。<br><br>これは小乗で、破って闇米を買う。<br><br>これは大乗である。<br><br>（S24.10.27） 056 家族が反対の養子 本年二十六歳の男子、婿養子に行き一子迄ありますが、家族が全然信仰心がありませんので、目覚めさす目的で家を飛び出し布教に従事しておりましたが、最近家に戻らなければ離別すると云われております。<br><br>いかように致したら宜敷いでしょうか。<br><br>御伺い申し上げます。<br><br> どっちでもよい。<br><br>結果は同じである。<br><br>気持次第でやる。<br><br>（S *. 7. 8） 057 周囲の反対 この御道の信者で、周囲の反対のために手術を致しましたけれど、御観音様の御守護によりうまくいったと云うものがしばしばありますが、これはいかがなものでしょうか。<br><br> うまく行ったのは一時的で、決して永久ではない。<br><br>周囲の反対なんていっても、原因は寧ろ自分にある。<br><br>反対といってもマサカ暴力を使う訳ではない。<br><br>（S25. 5.23） これは本人が悪いんではない。<br><br>本教の事を親戚が知らないためにやった事であるから、大して罪にならぬ。<br><br>その中、祖霊が働いて復活するようにしてくれる。<br><br>（S24） 058 近親の反対者 兄様が家を捨てて出て行き、二十歳の弟が後を取り、現在ではお光一家として弟が救いの道に邁進していると、親類並びに近所がうるさく付きまとい困っていますが、どういう風にしたらいいでしょうか。<br><br>また、死んだ父親がどんな思いをしているかお教え下さい。<br><br>寝ていた時に白い着物を着た人が二人自分の目の前に来た時息が切れ、行った時息が出たのはどういうわけでしょうか。<br><br>現在自分の家族は全部お光を頂いておりますが、兄が無神論者のため困っています。<br><br>自分の信仰が深くなるにつれて祖先並びに家族が救われるでしょうか。<br><br> 父は喜んでいる。<br><br>反対は眼中におかぬ事である。<br><br>おとなしくしてれば、親類も頭を下げてくる。<br><br>（S24. 2.15） 059 未入信の父の死因（祖霊） 既に光明如来様も戴き、一人息子と母親は熱心に布教の御手伝いをしておりますが、父親は未だ入信せずにおります。<br><br>息子が本格的に布教に乗り出して家業より離れるのをおそれ、私宛に「妻と息子は観音様の信仰を止めた」と云う通知をよこしました。<br><br>その夜父親が隣村の会合よりの帰路、路傍の下水溜りに落ちて即死したのですが、これを信仰的にみていかに解釈したらよいでしょうか。<br><br>御教示御願い致します。<br><br> 祖霊がやった。<br><br>どうしても入信しなければならぬので、祖先が生命を奪ったのである。<br><br>（S24.10. 8） 060 御参拝と父の反対、（信仰は自由） 私の父は観音様信仰を絶対反対致しますが、本日御参拝致すにも反対を押切って参りました。<br><br>今後は反対であれば中止して時節の来る迄待つ方が良いか、それ共反対を押切って御参拝した方が良いか、御教示下さい。<br><br> 一概には言えぬ。<br><br>信仰は自由であって、これに反対するのは自由を束縛するものである。<br><br> 父の霊が嫌うのである。<br><br>善の方になられると好きな事が出来ぬ。<br><br>光を恐れるのである。<br><br> どっちともいえぬ。<br><br>行動に表わさず、本など父に知れぬように読んで、時節を待つ。<br><br>（S24.10.28） 061 父入信拒否を固持す（争はず） 私は昭和二十四年六月入信致しました。<br><br>その後家人にも色々御道の事を話し入信を勧めましたが一向に信用せず、また、親戚の人達もてんで相手に致しません。<br><br>また、私の家では兄弟三人が結核になり、二人死亡し、一人は戦死致しました。<br><br>また、主な親戚でも大部分二人位ずつ戦死致しております。<br><br>それに弟は五年前骨膜炎をやり手術をして足が曲らなくなりました。<br><br>また、父も二ケ月前足を捻挫し、その後再三浄霊を勧めましたが頑として受け入れる気がなく、あらゆる療法を行いましたが、未だ一人歩きが出来ません。<br><br>このような状態で私の家も相当な因縁がある事と思います。<br><br>戦死者及び父、弟の足の病等、何か霊的に原因があるのでしょうか。<br><br>御伺い致します。<br><br>光明如来様は本年二月御祭りさせて頂きました。<br><br> これも同様で、放置しておく。<br><br>無理に勧めたりなどはいけない。<br><br>焦ったりなどするのを制え、穏やかにやる。<br><br>争いが出来ぬから結果がいい。<br><br> 新聞など置いておく、救われる時節が来たとすれば、それを読む事となる。<br><br>（S25. 4.26） 062 反対を押切るべきか 今春、某大学を卒え、今後ひたすらこのお仕事に尽力させていただくべく心掛けておりましたが、家の反対のため、銀行へ出る傍（かたわ）らお手伝いさせていただいております。<br><br>もし時機が参りましたら、すべての反対を押切ってこの道を進む事はいかがなもので御座いましょうか。<br><br>お伺い申します。<br><br> 反対を押切らなくともよい。<br><br>時期を待つと親の方から銀行をやめてやれというようになる。<br><br>（S24. 5. 4） 063 父の無理解と子の病気 吉岡誠（三十歳）は中学校三年生の頃より恐怖性神経衰弱に罹り、方々の医者に診て貰いましたが一向よくならず、病性は悪化するばかりで乱暴を働くようになり、医者をあきらめてある神に頼りましたが、動物霊ばかりがかかり、少しもよくならないのでそれを断り、次に奈良の八峯様と言う神様にお縋り致しました。<br><br>八峯様はこの子は治ることは治るが相当長びく、と言われましたが、仰せのごとく長びきました。<br><br>乱暴はしなくなりましたが、現在は口も思うようにきけず手足も不自由ですが、記憶力は普通で、殊にお経等は驚くほど良く覚えます。<br><br>母親の信仰はとても熱心で御光も受けられ、本人にも御光を受けさせ、今は人助けのために浄霊を熱心にしておられます。<br><br>父親は村長でありますが信仰には反対で、理解がありません。<br><br>本人に浄霊を致しますとしばしば御先祖様の霊がおかかりになり、お光が有難い有難いと言われるのですが、一体どうしたら御先祖様がお喜びになり、本人が一人前の体になるかをお教え下さい。<br><br> 父が信仰に入る事である。<br><br>祖先も父を入れたいのである。<br><br>それには本を読ますのが一番いい。<br><br>父の側へ神様の本を置いておく。<br><br>父が入信して判るとズーッとよくなる。<br><br>幹が良くならなくては良くならぬ。<br><br>（S25. 1.25） 064 母の反対 脊椎カリエスだった私は昨年九月より本年八月まで浄霊を頂き、お蔭様で体は起きられるようになりました。<br><br>救われた御恩に万分の一なりとも御用さして頂くよう決心致し、大光明如来様も奉斎さして頂きました。<br><br>母（姑）、子供（養子）の三人暮しで御座居ます。<br><br>母は本教に反対でして、私が布教に出るようになるとそれを固く止めます。<br><br>止むなく所属の先生の宅でお手伝いさして頂きたいと決心致しております。<br><br>家には猫がお軸にジャレて、私のいる時は追い出してやりますが、母は反対でもあるし、その上猫を可愛がっているものですから、追い出す事もせず、私の留守の時は御供えもしてくれません。<br><br>いかにしたら宜敷いでしょうか。<br><br>御教示を御願い申し上げます。<br><br> 母の判る迄待て、無理にするのは間違ってる。<br><br>（S24. 8.18） 065 父の反対と傍観 当年五十一歳、父は本教の事がよく判らず、しばしば反対致します。<br><br>気分がよければ、御浄霊をしてくれと申しますが、御浄霊の途中より「お前達はだまされている」と申します。<br><br>それで私は嫌になり、止めてしまいます。<br><br>それでいて他人を御浄霊致す時は黙っております。<br><br>私の罪のためでしょうか。<br><br>御教示下さい。<br><br> 父に浄霊を嫌う霊が憑いている。<br><br>そして本守護神、正守護神は浄霊を良いとしているのである。<br><br>（S24.10. 8） 066 父の反対（御願いせよ） 二十八歳の女子三ケ月前より、及び二十六歳の女子七ケ月以前より心臓弁膜症にて臥床、この姉妹は共に夫戦死せしため子供を連れ親許に同居す。<br><br>なお二十四歳になる妹も同様になる一歩手前と思います。<br><br>この二人は医師の紹介にて約半ケ月の浄霊により現在戸外に少しく散歩出来得る程度になりました。<br><br>二十六歳の妹が入信したいのですが、父が大反対します。<br><br>どうしたら良いでしょうか。<br><br> 少し父の判るまで気長に待ってるとよい。<br><br>観音様が機会をつくって下さる。<br><br>教導所へ行って観音様にお願いする。<br><br>（S *.12.15）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Volume da Fé: Oposição (Primeira Parte)</h2>
 <p><strong>046 Sobre como agir ao ser alvo de difamação e a necessidade de ceder</strong></p>
@@ -165,5 +317,48 @@ function toggleLang(lang) {
 <p><strong>066 A oposição do pai e a importância da oração</strong></p>
 <p>Duas irmãs, uma de vinte e oito e outra de vinte e seis anos, estão acamadas com doença valvar cardíaca há três e sete meses, respectivamente. Ambas perderam seus maridos na guerra e vivem com os filhos na casa dos pais. Uma terceira irmã, de vinte e quatro anos, parece estar prestes a desenvolver a mesma condição. Após cerca de quinze dias recebendo Johrei por indicação de um médico, as duas primeiras já conseguem dar pequenos passeios fora de casa. A irmã de vinte e seis anos deseja ingressar na fé, mas o pai se opõe veementemente. O que ela deve fazer?</p>
 <p>O melhor é esperar com paciência até que o pai compreenda um pouco mais. Kannon (観音) criará uma oportunidade. Vá ao Johrei Center e ore a Kannon (観音). (15 de dezembro)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰篇 （入信、信仰上の悩み） ４ 046-066 反対１ 046 悪宣伝受けた場合、（負ける事の必要） 個人的または団体的の悪宣伝を受けた場合、宗教人としての私共は良い宣伝を以てこれに報いるべきでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 負けた方がよい。<br/><br/>すると先方は好い気持になり、こっちは気持が悪い。<br/><br/>しかし、後になると良い。<br/><br/>徳川家康は負けたから天下を取った。<br/><br/> 大いに成功したりするためには負けなくてはならぬ。<br/><br/>怨みの霊の来ぬ事で、感謝の霊の来るようにする。<br/><br/>すると、怨みほど霊的に損するものはない。<br/><br/> 047 反対者判らすには 昭和二十一年八月、妹のカリエスのため、母親がお光をお受けしましたが、同年十一月、母親から勧められて、私はお光をお受けする事が出来ましたが、妹は二十三年三月死亡しました。<br/><br/>私は御道のため御救いを戴き心から感謝していますが、父親始め家の者に反対されていますので、それに対してどうしましたらよいでしょうか。<br/><br/>また、死んだ妹と何かの関係がありましょうか。<br/><br/> 時節を待てばよい。<br/><br/>あまり奨めぬ方がよい。<br/><br/>奨めると反って延びる。<br/><br/>霊線が通じているから、一人か二人判るとある程度浄まるから、そうすると反対する霊も浄まるからいい方へ変わる。<br/><br/>（S24. 8.17） 048 反対者について（御用上）、反対者の二種 本教の御用を務めたいので御座いますが、反対するものが多いので思うように出来ませんが、どうしてで御座いましょうか。<br/><br/>また、いかが致しましたならよろしいでしょうか。<br/><br/>御教示願います。<br/><br/> 反対者はあるに決ったものである。<br/><br/>これを知らずに反対する者と、邪神の家系で反対するのとある。<br/><br/>邪神は決して悪くみせない。<br/><br/>反対するのが良いよう、巧い理屈をつくる。<br/><br/> 放置して時期を待つ事である。<br/><br/>先方と闘争せぬよう、避けるようにして、その程度で御用する。<br/><br/> 大先生とて今以て反対者はある。<br/><br/>これは五六七の世まである。<br/><br/> しかし、本当のものは良くなる。<br/><br/>それを妨害したものは必ず滅びる。<br/><br/>であるから、ちっとも心を用いなくてよい。<br/><br/>ただ、時期の問題であるから、焦らず、気をもまず、気長に待っているのがよい。<br/><br/>（S24. 5.26） 049 妨害者に抗せず（布教） 左の件につき御伺い致します。<br/><br/> 一、故意に布教を妨害する者に対する態度はいかにしたらよろしいでしょうか。<br/><br/> これに対する反抗はいけない。<br/><br/>当らずさわらずにしておく。<br/><br/>そして時期を待つ。<br/><br/>大抵の妨害は「我不関」がよい。<br/><br/>抵抗すると意地になってよくない。<br/><br/>私などよく妨害されたが、反抗しなかった。<br/><br/>（S24. 9.17） 050 反対者の苦しみ（入信後） 私共夫妻は三年前御光を戴き今日に到りましたが、私のみは泌尿器関係の浄化激しく、連続的で御手伝いも十分出来ず、加うるに父が反対して、やる瀬ない日々を送っております。<br/><br/>度々先輩諸先生に御指導を願っておりますが、その通りに実行出来ません。<br/><br/>どうしましたらよろしゅう御座いますか。<br/><br/> 罪穢が未だある。<br/><br/>訳があって苦しむのである。<br/><br/>入信してまず第一段は救われたが、未だ家の中までは入れぬのである。<br/><br/>まず健康になったが、罪が病気で除れないとなると、罪穢をとるため他の事で苦しむ。<br/><br/>であるから、反対者があって苦しむのは悪い意味に解すべきでない。<br/><br/> （泌尿器関係は治る。<br/><br/>手術しない人なら必ず治る。<br/><br/>自分で浄霊する）（S24. 1. 6） 051 異信の家族の邪魔は障るか（怨み） 私は一昨年教習を受けた者ですが、父や弟等が私の信仰と反対です。<br/><br/>阿弥陀様だけでよいと云います。<br/><br/>ですから昨年私は反対者を後に島根県の方へ観音様の御手伝いをしに参っております。<br/><br/>父等は私を怨んでいるでしょう。<br/><br/>その反対者の想念が御手伝いの邪魔になるでしょうか。<br/><br/>お伺い致します。<br/><br/> 少しは邪魔になるが、こんな事は差支えない。<br/><br/>本当の事をしている以上、これを打壊す力はないから（あまり影響はない。<br/><br/>懸念の要はない）怨みの想念が来ても何でもない。<br/><br/>その中に必ず判って、頭を下げるようになる。<br/><br/>（私などいろんな邪魔があったが、打勝って発展した） 「正を履んで恐れず」である。<br/><br/>（S24. 1.27） 052 信仰に反対の息子、（異宗霊憑依） 私の次男（二十歳）は素直であったが信仰（教会）にはとても反対で、本人が浄化して素直になると思いましたが益々反対するのです。<br/><br/>どうしたら宜しいでしょうか。<br/><br/> 前世が仏教信者とか神道の信者で、自分と違う信仰に入るのが面白くないので反対するか、または外の熱心な信仰者で霊界へ行ったので、この信仰が面白くないので、その息子に憑るかである。<br/><br/>うっちゃらかしておけば、何にもせず自然に信仰に入るようになる。<br/><br/>その霊が判る。<br/><br/>生れ代った場合としてはその人の守護神が判る。<br/><br/>神様もその機会を与えて下さる。<br/><br/>（S24.10.16） 053 父弟の反対、（霊の邪魔を考えよ） 私の家は父と弟が信仰が嫌いで、私が御浄霊に行く事を反対し、親類の人は益々反対しております。<br/><br/>今日の御面会も抜け出て参りました。<br/><br/>父は「屋敷がなくなるからやめて置け」と云い、私はただ今は京都へ布教に出掛けておりますが、入信の人があまり出来ません。<br/><br/>家には光明如来様を御祭りしておりますが、どうしたら家庭の地上天国が出来るので御座いましょうか。<br/><br/>また、京都方面の布教はいかにしたら発展するでしょうか。<br/><br/>謹みて御伺い申し上げます。<br/><br/> 父に憑った霊が邪魔する。<br/><br/>これは焦るからで、もっと気長にゆっくりせよ。<br/><br/>あまり反対するのを強いてやると霊が邪魔するから要領よくせよ。<br/><br/>天理教と間違えている。<br/><br/>この信仰は金が儲かるとかいう風に言い、新聞等置いておく。<br/><br/>神様にお任せし、後要領よく、刺激を与えぬようにする。<br/><br/>（S24. 9. 8） 054 信仰の母没後順調ならず、（邪霊とれず） 私は昭和二十二年入信、雑貨商を営んでいる者です。<br/><br/>母の生存中光明如来様をお祭りさせて戴きました。<br/><br/>兄は母が病気の時死ねと言い、私には出て行けと言って困りましたが、何事も順調に行きましたが、母の死後急に転換し、何事もうまく行かず、兄は焦るばかりです。<br/><br/>私にも死ねとか出て行けとか、兄も教修していながらも信仰をやめさせようとして困りましたが、現在は右のような事は申しませんが、商売は全然なく、生活も大変で、私も働きでもしようかと思いますが、なかなか出来なく、御用させて戴きたいと思いますが落着けなく、不安でなりません。<br/><br/>いかに致したらよろしいでしょうか。<br/><br/>また、右のような事を言うのには霊的に何か関係がありましょうか。<br/><br/>お伺い致します。<br/><br/> 母が死んで兄に間違った霊が働くから、吉い事はなくなった。<br/><br/>邪神系の――変な霊が憑いているし、本守護神は信仰したいが、なかなか邪神が除れぬ。<br/><br/> 気長に焦らずいると除れる。<br/><br/>時期が来るとトントン拍子になる。<br/><br/>生活に苦しんだ方が改心が早いから反っていい。<br/><br/> やはり祖霊などがやっている。<br/><br/>（S24. 4.26） 055 親の言う事を聞く事、（法律違反） 信仰雑話の 大乗と小乗 の項に『たまたま自分は目的を立て、それを遂行せんとする場合、親の許を離れなければならないが、親は不賛成をいう。<br/><br/>止むなく一旦親に叛いて家出をし、目的に向って努力し、成功してから親の許に帰れば、親もその光栄に喜ぶは勿論で、大きな親孝行をした事になる』と御座いますが、観音様の信仰をさせて戴いて、親の反対する場合、前項のごとく大乗的にやってもいいでしょうか。<br/><br/>観音様は常識を欠いてはいけないと言う御教えでありますので、迷っております。<br/><br/>いかが致したら宜敷いでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 臨機応変で、立派な親なら言う事を聞く。<br/><br/>分らない親の言う事を聞くと子供も良い仕事も出来ぬ。<br/><br/>出来るだけ理解さすようにして、親が困らぬようにして出るのもいい。<br/><br/>自分も親の心配を掛けぬ手段をとってやるべきである。<br/><br/> 法律には従わねばならぬが、これにふれなくては良い事が出来ぬ場合もある。<br/><br/>ふれなくては救いが出来ない。<br/><br/>法律にふれたために人が困るならいけないが、それがために人が幸福になるから仕方ない。<br/><br/> 戦時中、平和の話をすると法規違反になる。<br/><br/>法規に従えば闇米は買えぬ。<br/><br/>これは小乗で、破って闇米を買う。<br/><br/>これは大乗である。<br/><br/>（S24.10.27） 056 家族が反対の養子 本年二十六歳の男子、婿養子に行き一子迄ありますが、家族が全然信仰心がありませんので、目覚めさす目的で家を飛び出し布教に従事しておりましたが、最近家に戻らなければ離別すると云われております。<br/><br/>いかように致したら宜敷いでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> どっちでもよい。<br/><br/>結果は同じである。<br/><br/>気持次第でやる。<br/><br/>（S *. 7. 8） 057 周囲の反対 この御道の信者で、周囲の反対のために手術を致しましたけれど、御観音様の御守護によりうまくいったと云うものがしばしばありますが、これはいかがなものでしょうか。<br/><br/> うまく行ったのは一時的で、決して永久ではない。<br/><br/>周囲の反対なんていっても、原因は寧ろ自分にある。<br/><br/>反対といってもマサカ暴力を使う訳ではない。<br/><br/>（S25. 5.23） これは本人が悪いんではない。<br/><br/>本教の事を親戚が知らないためにやった事であるから、大して罪にならぬ。<br/><br/>その中、祖霊が働いて復活するようにしてくれる。<br/><br/>（S24） 058 近親の反対者 兄様が家を捨てて出て行き、二十歳の弟が後を取り、現在ではお光一家として弟が救いの道に邁進していると、親類並びに近所がうるさく付きまとい困っていますが、どういう風にしたらいいでしょうか。<br/><br/>また、死んだ父親がどんな思いをしているかお教え下さい。<br/><br/>寝ていた時に白い着物を着た人が二人自分の目の前に来た時息が切れ、行った時息が出たのはどういうわけでしょうか。<br/><br/>現在自分の家族は全部お光を頂いておりますが、兄が無神論者のため困っています。<br/><br/>自分の信仰が深くなるにつれて祖先並びに家族が救われるでしょうか。<br/><br/> 父は喜んでいる。<br/><br/>反対は眼中におかぬ事である。<br/><br/>おとなしくしてれば、親類も頭を下げてくる。<br/><br/>（S24. 2.15） 059 未入信の父の死因（祖霊） 既に光明如来様も戴き、一人息子と母親は熱心に布教の御手伝いをしておりますが、父親は未だ入信せずにおります。<br/><br/>息子が本格的に布教に乗り出して家業より離れるのをおそれ、私宛に「妻と息子は観音様の信仰を止めた」と云う通知をよこしました。<br/><br/>その夜父親が隣村の会合よりの帰路、路傍の下水溜りに落ちて即死したのですが、これを信仰的にみていかに解釈したらよいでしょうか。<br/><br/>御教示御願い致します。<br/><br/> 祖霊がやった。<br/><br/>どうしても入信しなければならぬので、祖先が生命を奪ったのである。<br/><br/>（S24.10. 8） 060 御参拝と父の反対、（信仰は自由） 私の父は観音様信仰を絶対反対致しますが、本日御参拝致すにも反対を押切って参りました。<br/><br/>今後は反対であれば中止して時節の来る迄待つ方が良いか、それ共反対を押切って御参拝した方が良いか、御教示下さい。<br/><br/> 一概には言えぬ。<br/><br/>信仰は自由であって、これに反対するのは自由を束縛するものである。<br/><br/> 父の霊が嫌うのである。<br/><br/>善の方になられると好きな事が出来ぬ。<br/><br/>光を恐れるのである。<br/><br/> どっちともいえぬ。<br/><br/>行動に表わさず、本など父に知れぬように読んで、時節を待つ。<br/><br/>（S24.10.28） 061 父入信拒否を固持す（争はず） 私は昭和二十四年六月入信致しました。<br/><br/>その後家人にも色々御道の事を話し入信を勧めましたが一向に信用せず、また、親戚の人達もてんで相手に致しません。<br/><br/>また、私の家では兄弟三人が結核になり、二人死亡し、一人は戦死致しました。<br/><br/>また、主な親戚でも大部分二人位ずつ戦死致しております。<br/><br/>それに弟は五年前骨膜炎をやり手術をして足が曲らなくなりました。<br/><br/>また、父も二ケ月前足を捻挫し、その後再三浄霊を勧めましたが頑として受け入れる気がなく、あらゆる療法を行いましたが、未だ一人歩きが出来ません。<br/><br/>このような状態で私の家も相当な因縁がある事と思います。<br/><br/>戦死者及び父、弟の足の病等、何か霊的に原因があるのでしょうか。<br/><br/>御伺い致します。<br/><br/>光明如来様は本年二月御祭りさせて頂きました。<br/><br/> これも同様で、放置しておく。<br/><br/>無理に勧めたりなどはいけない。<br/><br/>焦ったりなどするのを制え、穏やかにやる。<br/><br/>争いが出来ぬから結果がいい。<br/><br/> 新聞など置いておく、救われる時節が来たとすれば、それを読む事となる。<br/><br/>（S25. 4.26） 062 反対を押切るべきか 今春、某大学を卒え、今後ひたすらこのお仕事に尽力させていただくべく心掛けておりましたが、家の反対のため、銀行へ出る傍（かたわ）らお手伝いさせていただいております。<br/><br/>もし時機が参りましたら、すべての反対を押切ってこの道を進む事はいかがなもので御座いましょうか。<br/><br/>お伺い申します。<br/><br/> 反対を押切らなくともよい。<br/><br/>時期を待つと親の方から銀行をやめてやれというようになる。<br/><br/>（S24. 5. 4） 063 父の無理解と子の病気 吉岡誠（三十歳）は中学校三年生の頃より恐怖性神経衰弱に罹り、方々の医者に診て貰いましたが一向よくならず、病性は悪化するばかりで乱暴を働くようになり、医者をあきらめてある神に頼りましたが、動物霊ばかりがかかり、少しもよくならないのでそれを断り、次に奈良の八峯様と言う神様にお縋り致しました。<br/><br/>八峯様はこの子は治ることは治るが相当長びく、と言われましたが、仰せのごとく長びきました。<br/><br/>乱暴はしなくなりましたが、現在は口も思うようにきけず手足も不自由ですが、記憶力は普通で、殊にお経等は驚くほど良く覚えます。<br/><br/>母親の信仰はとても熱心で御光も受けられ、本人にも御光を受けさせ、今は人助けのために浄霊を熱心にしておられます。<br/><br/>父親は村長でありますが信仰には反対で、理解がありません。<br/><br/>本人に浄霊を致しますとしばしば御先祖様の霊がおかかりになり、お光が有難い有難いと言われるのですが、一体どうしたら御先祖様がお喜びになり、本人が一人前の体になるかをお教え下さい。<br/><br/> 父が信仰に入る事である。<br/><br/>祖先も父を入れたいのである。<br/><br/>それには本を読ますのが一番いい。<br/><br/>父の側へ神様の本を置いておく。<br/><br/>父が入信して判るとズーッとよくなる。<br/><br/>幹が良くならなくては良くならぬ。<br/><br/>（S25. 1.25） 064 母の反対 脊椎カリエスだった私は昨年九月より本年八月まで浄霊を頂き、お蔭様で体は起きられるようになりました。<br/><br/>救われた御恩に万分の一なりとも御用さして頂くよう決心致し、大光明如来様も奉斎さして頂きました。<br/><br/>母（姑）、子供（養子）の三人暮しで御座居ます。<br/><br/>母は本教に反対でして、私が布教に出るようになるとそれを固く止めます。<br/><br/>止むなく所属の先生の宅でお手伝いさして頂きたいと決心致しております。<br/><br/>家には猫がお軸にジャレて、私のいる時は追い出してやりますが、母は反対でもあるし、その上猫を可愛がっているものですから、追い出す事もせず、私の留守の時は御供えもしてくれません。<br/><br/>いかにしたら宜敷いでしょうか。<br/><br/>御教示を御願い申し上げます。<br/><br/> 母の判る迄待て、無理にするのは間違ってる。<br/><br/>（S24. 8.18） 065 父の反対と傍観 当年五十一歳、父は本教の事がよく判らず、しばしば反対致します。<br/><br/>気分がよければ、御浄霊をしてくれと申しますが、御浄霊の途中より「お前達はだまされている」と申します。<br/><br/>それで私は嫌になり、止めてしまいます。<br/><br/>それでいて他人を御浄霊致す時は黙っております。<br/><br/>私の罪のためでしょうか。<br/><br/>御教示下さい。<br/><br/> 父に浄霊を嫌う霊が憑いている。<br/><br/>そして本守護神、正守護神は浄霊を良いとしているのである。<br/><br/>（S24.10. 8） 066 父の反対（御願いせよ） 二十八歳の女子三ケ月前より、及び二十六歳の女子七ケ月以前より心臓弁膜症にて臥床、この姉妹は共に夫戦死せしため子供を連れ親許に同居す。<br/><br/>なお二十四歳になる妹も同様になる一歩手前と思います。<br/><br/>この二人は医師の紹介にて約半ケ月の浄霊により現在戸外に少しく散歩出来得る程度になりました。<br/><br/>二十六歳の妹が入信したいのですが、父が大反対します。<br/><br/>どうしたら良いでしょうか。<br/><br/> 少し父の判るまで気長に待ってるとよい。<br/><br/>観音様が機会をつくって下さる。<br/><br/>教導所へ行って観音様にお願いする。<br/><br/>（S *.12.15）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>baikin06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 黴菌は有難いもの 『栄光』115号、昭和26(1951)年8月1日発行 この題を見た人は、信者ならイザ知らず、第三者としたら吃驚仰天（びっくりぎょうてん）、私の頭脳を疑いたくなるであろう。<br><br>しかしこれは真理である最高の霊科学である以上、よく読んで深く考えてみれば、なるほどと思わざるを得ないであろう。<br><br>単に黴菌と言っても、ここでは病気に関したものを言うのであるが、この黴菌なるものは何がために存在し人間に害を与えているかという事で、これを徹底的に検討する事こそ現在文化に対しての、最重要問題であろう。<br><br> もっともこの事は専門家諸君においても常に研究努力しているには違いないが、今日までの科学の程度では黴菌の本体など到底把握出来るまでに到っていないのである。<br><br>それどころではない、現に目の前に蔽（おお）い被っている結核や伝染病等の問題にしろ当事者は全身全霊を打ち込んでいるにかかわらず、何ら見るべきものはない現状である。<br><br>というのは全くその観点が根本的に誤っているからで、医学においてはただ殺菌等によって、伝染を防ぎさえすればよいとのみ思っているだけで、いわばいつも私がいう結果論的観方で、外殻だけを対象としているに過ぎないのである。<br><br>ところが原因は中心の奥深いところにあるのだから、その点に気が付かない限り、何ほど多額の費用を使い、いかほど努力したとて、徒労以外の何物でもないのである。<br><br>遠慮なくいえば、現在の黴菌医学はまだホンの揺藍（ようらん）時代といってもいいくらいのもので、実際に役立つのはいつの日か見当もつかないのである。<br><br> さてこれから私の言わんとするところをかいてみるが、そもそもこの地球は人間の世界であって、人間が主人公であるから、万有一切は人間に必要なもののみで、不必要なものは一つもないのである。<br><br>従って、病気なるものもその病原であるところの黴菌といえども、ことごとく大いに必要の存在であるにかかわらず、それを無用有害物として忌避し、絶滅させる事のみに専心しているが、これこそ全く根本が判らないからである。<br><br>ゆえに黴菌その物の本体さえ分ったなら、これほど人間の健康に有用なものはないのである。<br><br>とはいうもののこの事の説明に当って困る事は、今までの学理と比較して、余りに驚異的であるから、この理を納得するには、余程心を虚心坦懐白紙になって、精読されなければならないのである。<br><br> そうして私の唱える病原とは、いつも言う通り人間には絶えず毒素すなわち濁血が溜るので、それを排除してしまわなければ、活動に不便を及ぼすから、濁血を排除し浄血者にすべく自然浄化作用というものが発生する。<br><br>その際の苦痛が病気であるから、言わば病気とは体内の清潔作用なのである。<br><br>例えば人間は誰しも外表である皮膚に垢（あか）が溜ると、入浴という清潔法があるが、中身である五臓六腑（ごぞうろっぷ）にも同様垢が溜るので、その清潔作用が病気というものである。<br><br>としたら神様は実に巧く作られたものである。<br><br>これは嘘でも何でもない。<br><br>病気になるや痰や洟（はなみず）、涎（よだれ）、盗汗（ねあせ）、下痢、腫物、湿疹等の汚物排除作用が起るではないか、だから出るだけ出てしまえば後はサッパリとなって、健康は増すのである。<br><br> ところが不思議も不思議、こんな入浴などと違って、一文の金も要らずに済む結構な掃除を、一生懸命止めて出さないようにする。<br><br>それが医学であるとしたら、何と馬鹿馬鹿しい間違いではあるまいか、何が間違ってるといって、これほどの間違いは恐らく外にあるまい。<br><br>従ってこの間違いのために健康な肉体を弱くされ、長生きの出来る体を早死するようにされて、平気どころか有難がっているのだから、今日の文化人なる者は全く“哀れなる者よ汝の名は文化人なり”である。<br><br>ところがもっと厄介な事がある。<br><br>それは汚物を出さないようにするその手段に汚物を用いるのであるから、反って汚物を増す結果になるという誤り方である。<br><br>従ってこの道理さえ判ったなら、病気程結構なものはない事を知るであろう。<br><br>そこで、いよいよ黴菌論であるが、人体の汚物とはもちろん血液の濁りであって、この濁りを無くしてしまうには、どうすればいいかというと、神様はまことに面白い方法を作られた。<br><br>それは黴菌という目にも見えない細かい虫によって掃除をさせるので、そこで神様はこの虫を湧くようにした。<br><br>すなわち黴菌発生の根源を作られたのである。<br><br>この事については拙著文明の創造中の科学篇中に詳しく出ているからここでは略すが、とにかく黴菌という微生物は、最初濁血所有者の血液中に入り込み、濁血を浄血にする役目をするのである。<br><br>それはどういう訳かというと、濁血というのは血液中にあってはならない、言わば不純物が存在しているのである。<br><br>面白い事には不純物という微粒子は、実は黴菌の食物になるのであるから、黴菌はそれを食いつつ、非常な勢をもって繁殖し、食うだけ食った奴から、排泄物に混って体外へ出てしまうから、順次濁りは減り、ついに浄血者となるのである。<br><br>その際の発熱は黴菌が濃度の濁血では食い難いから、液体に溶解して食い易くするためである。<br><br>だからこの理が判ったなら、黴菌というものは、全く人間体内を清浄にする掃除夫なのであるから、大いに歓迎すべきものなのである。<br><br> ところで問題なのは、一体濁血というものは、どうして出来るかという事で、これこそ万有相応の理によって、実に合理的に造られるのである。<br><br>というのは人間は神様の定められた役目を自覚し、それを正しく行えばよいが、多くの人間はつい不正や過ちを冒し易いので、その結果霊が曇り、霊が曇ると血が濁るので、それが病の元となり、苦しみとなるのだから、つまり過ちに対する刑罰という訳で、こうしないと人間は正当に役目を果さないのみか、世の中へ害を与えるから、止むを得ず神様はそういうように造られたのである。<br><br>従って人間が正しい行いさえすれば、濁血者とならないから黴菌は湧かず、病気はこの世から無くなるのである。<br><br>これが真理であってみれば、病菌というものは人間が作って、人間自身が苦しむのであるから、何と愚な話ではないかというその事を教えるために、この文をかいたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza Benfazeja dos Germes</h2>
 <p>Ao deparar-se com este título, aqueles que não são nossos fiéis poderão, compreensivelmente, espantar-se e até mesmo duvidar de minha sanidade. Contudo, esta é a Verdade, a mais elevada Ciência Espiritual, e estou certo de que, após uma leitura atenta e uma reflexão profunda, não haverá como discordar. Neste ensaio, quando me refiro a germes, trato especificamente daqueles relacionados às enfermidades. Investigar a fundo por que eles existem e por que afligem o ser humano constitui, talvez, a questão mais premente para a civilização atual.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Este assunto é detalhado na seção científica de minha obra, <em>A Criação da Civilização</em>, motivo pelo qual serei breve aqui. Em suma, os micro-organismos chamados germes penetram, primeiramente, na corrente sanguínea da pessoa que possui sangue impuro e ali desempenham a função de purificá-lo. Como isso ocorre? As impurezas, na verdade, são partículas que não deveriam estar no sangue. E o interessante é que essas partículas servem de alimento para os germes. Assim, os germes as consomem, multiplicando-se com grande vigor. Após se saciarem, são eliminados do corpo junto com as excreções. Desse modo, as impurezas diminuem gradualmente, e a pessoa, por fim, torna-se possuidora de sangue puro. A febre que se manifesta durante o processo tem uma finalidade: como o sangue impuro em alta concentração é de difícil consumo para os germes, o calor o liquefaz, tornando-o mais fácil de ser ingerido. Portanto, ao compreender este princípio, percebe-se que os germes são, na verdade, os faxineiros do corpo humano e, como tal, deveriam ser imensamente bem-vindos.</p>
 <p>Resta, então, a questão: como se forma o sangue impuro? Ele é gerado de maneira perfeitamente racional, em conformidade com o Princípio da Concordância. A missão do ser humano é tomar consciência do papel que lhe foi designado por Deus e cumpri-lo retamente. Contudo, a maioria das pessoas é propensa a cometer erros e injustiças. Como resultado, seu espírito se anuvia, e, quando o espírito se anuvia, o sangue se torna impuro. Essa é a origem da doença e do sofrimento. Trata-se, em suma, de uma punição pelas transgressões. Se assim não fosse, o homem não apenas deixaria de cumprir sua missão, como também causaria danos ao mundo. Por essa razão, Deus, por necessidade, estabeleceu as coisas dessa forma.</p>
 <p>Portanto, se os seres humanos agissem com retidão, não teriam o sangue impuro, os germes não surgiriam e as doenças desapareceriam da face da Terra. Sendo esta a Verdade, conclui-se que é o próprio homem quem cria os chamados “germes patogênicos” e quem, por consequência, sofre com eles. Haveria história mais tola? Escrevi este artigo com o propósito de ensinar exatamente isso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 黴菌は有難いもの 『栄光』115号、昭和26(1951)年8月1日発行 この題を見た人は、信者ならイザ知らず、第三者としたら吃驚仰天（びっくりぎょうてん）、私の頭脳を疑いたくなるであろう。<br/><br/>しかしこれは真理である最高の霊科学である以上、よく読んで深く考えてみれば、なるほどと思わざるを得ないであろう。<br/><br/>単に黴菌と言っても、ここでは病気に関したものを言うのであるが、この黴菌なるものは何がために存在し人間に害を与えているかという事で、これを徹底的に検討する事こそ現在文化に対しての、最重要問題であろう。<br/><br/> もっともこの事は専門家諸君においても常に研究努力しているには違いないが、今日までの科学の程度では黴菌の本体など到底把握出来るまでに到っていないのである。<br/><br/>それどころではない、現に目の前に蔽（おお）い被っている結核や伝染病等の問題にしろ当事者は全身全霊を打ち込んでいるにかかわらず、何ら見るべきものはない現状である。<br/><br/>というのは全くその観点が根本的に誤っているからで、医学においてはただ殺菌等によって、伝染を防ぎさえすればよいとのみ思っているだけで、いわばいつも私がいう結果論的観方で、外殻だけを対象としているに過ぎないのである。<br/><br/>ところが原因は中心の奥深いところにあるのだから、その点に気が付かない限り、何ほど多額の費用を使い、いかほど努力したとて、徒労以外の何物でもないのである。<br/><br/>遠慮なくいえば、現在の黴菌医学はまだホンの揺藍（ようらん）時代といってもいいくらいのもので、実際に役立つのはいつの日か見当もつかないのである。<br/><br/> さてこれから私の言わんとするところをかいてみるが、そもそもこの地球は人間の世界であって、人間が主人公であるから、万有一切は人間に必要なもののみで、不必要なものは一つもないのである。<br/><br/>従って、病気なるものもその病原であるところの黴菌といえども、ことごとく大いに必要の存在であるにかかわらず、それを無用有害物として忌避し、絶滅させる事のみに専心しているが、これこそ全く根本が判らないからである。<br/><br/>ゆえに黴菌その物の本体さえ分ったなら、これほど人間の健康に有用なものはないのである。<br/><br/>とはいうもののこの事の説明に当って困る事は、今までの学理と比較して、余りに驚異的であるから、この理を納得するには、余程心を虚心坦懐白紙になって、精読されなければならないのである。<br/><br/> そうして私の唱える病原とは、いつも言う通り人間には絶えず毒素すなわち濁血が溜るので、それを排除してしまわなければ、活動に不便を及ぼすから、濁血を排除し浄血者にすべく自然浄化作用というものが発生する。<br/><br/>その際の苦痛が病気であるから、言わば病気とは体内の清潔作用なのである。<br/><br/>例えば人間は誰しも外表である皮膚に垢（あか）が溜ると、入浴という清潔法があるが、中身である五臓六腑（ごぞうろっぷ）にも同様垢が溜るので、その清潔作用が病気というものである。<br/><br/>としたら神様は実に巧く作られたものである。<br/><br/>これは嘘でも何でもない。<br/><br/>病気になるや痰や洟（はなみず）、涎（よだれ）、盗汗（ねあせ）、下痢、腫物、湿疹等の汚物排除作用が起るではないか、だから出るだけ出てしまえば後はサッパリとなって、健康は増すのである。<br/><br/> ところが不思議も不思議、こんな入浴などと違って、一文の金も要らずに済む結構な掃除を、一生懸命止めて出さないようにする。<br/><br/>それが医学であるとしたら、何と馬鹿馬鹿しい間違いではあるまいか、何が間違ってるといって、これほどの間違いは恐らく外にあるまい。<br/><br/>従ってこの間違いのために健康な肉体を弱くされ、長生きの出来る体を早死するようにされて、平気どころか有難がっているのだから、今日の文化人なる者は全く“哀れなる者よ汝の名は文化人なり”である。<br/><br/>ところがもっと厄介な事がある。<br/><br/>それは汚物を出さないようにするその手段に汚物を用いるのであるから、反って汚物を増す結果になるという誤り方である。<br/><br/>従ってこの道理さえ判ったなら、病気程結構なものはない事を知るであろう。<br/><br/>そこで、いよいよ黴菌論であるが、人体の汚物とはもちろん血液の濁りであって、この濁りを無くしてしまうには、どうすればいいかというと、神様はまことに面白い方法を作られた。<br/><br/>それは黴菌という目にも見えない細かい虫によって掃除をさせるので、そこで神様はこの虫を湧くようにした。<br/><br/>すなわち黴菌発生の根源を作られたのである。<br/><br/>この事については拙著文明の創造中の科学篇中に詳しく出ているからここでは略すが、とにかく黴菌という微生物は、最初濁血所有者の血液中に入り込み、濁血を浄血にする役目をするのである。<br/><br/>それはどういう訳かというと、濁血というのは血液中にあってはならない、言わば不純物が存在しているのである。<br/><br/>面白い事には不純物という微粒子は、実は黴菌の食物になるのであるから、黴菌はそれを食いつつ、非常な勢をもって繁殖し、食うだけ食った奴から、排泄物に混って体外へ出てしまうから、順次濁りは減り、ついに浄血者となるのである。<br/><br/>その際の発熱は黴菌が濃度の濁血では食い難いから、液体に溶解して食い易くするためである。<br/><br/>だからこの理が判ったなら、黴菌というものは、全く人間体内を清浄にする掃除夫なのであるから、大いに歓迎すべきものなのである。<br/><br/> ところで問題なのは、一体濁血というものは、どうして出来るかという事で、これこそ万有相応の理によって、実に合理的に造られるのである。<br/><br/>というのは人間は神様の定められた役目を自覚し、それを正しく行えばよいが、多くの人間はつい不正や過ちを冒し易いので、その結果霊が曇り、霊が曇ると血が濁るので、それが病の元となり、苦しみとなるのだから、つまり過ちに対する刑罰という訳で、こうしないと人間は正当に役目を果さないのみか、世の中へ害を与えるから、止むを得ず神様はそういうように造られたのである。<br/><br/>従って人間が正しい行いさえすれば、濁血者とならないから黴菌は湧かず、病気はこの世から無くなるのである。<br/><br/>これが真理であってみれば、病菌というものは人間が作って、人間自身が苦しむのであるから、何と愚な話ではないかというその事を教えるために、この文をかいたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

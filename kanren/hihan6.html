@@ -4,56 +4,211 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hihan6</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 関 連 出 版 物 ――― 観音教について 遠藤慎吾 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 今は、たしか世界メシヤ教とかいうのだそうだが、私が観音教のことを知ったのは、もう十年以上も昔のことである。<br><br>と言ってもその当時、観音教と称していたかどうか、実は、その点もはっきりしない。<br><br>何しろ、私達は、あの（一種独特の掌療法のことを「チチンプイプイ」と呼び慣わしていた。<br><br>こういう名前を発明したのは、里見トン[弓享]先生で、従って、掌療法そのものを私に紹介して下さったのも、無論里見先生である。<br><br>先生が、どなたの紹介で、こういう療法に興味を持つようになられたのかは知らない。<br><br>ともかく、やってみたところが、先生の永年の痼疾であった痔がすっかり直ったので、この療法を信用するようになられたのだと思う。<br><br>注射が体に毒を残すもので絶対にいけないということ、発熱は、体内に貯った悪いものが、外へ出ようとして起る現象だということ、それに、この治療を始めて暫らくすると起る下痢のことなどを、初めて話して下さったのも先生である。<br><br>この療法の理論の基礎になってる、「浄化作用」という言葉も、先生から始めて聞いて、何となく奇妙な愛嬌のある言葉だと思った。<br><br>と言っても近代的な教養を受けていられる里見先生が、この魔呵不思議な理窟を心から信用していられたわけではない。<br><br> 「こいつをやってれば、肥料なしで米が育つ、爆弾も落ちて来ないとあると、一寸いけないがね、しかし面白いところもあるよ」 と言ってニヤニヤ笑っていられた。<br><br> 私も、先生から治療を受けたが、たしかに気持がよい。<br><br>肩のこりなどは、軽くなったような気がする。<br><br>私は、昔マルキシズムに心酔したことがあり、どことなく唯物弁証法的な考え方が残っていて、無神論者ではなかったが、少くとも非常に合理主義的なものの考え方をする。<br><br>だから、民間療法などは非常に軽蔑している。<br><br>ところが、その一方、現代の科学というものの絶対性をも信じていない。<br><br>科学にはまだまだ判らないところが沢山あると思っている、殊に医学の領域では、紳経系統の作用が病気に及ぼす影響については、殆んど研究されて居らんと思っている。<br><br>病気が或る程度、神経の作用で直るのも、実は神経系統の機能に対する研究の不十分さから来るもので、この研究さえ十分進めば、立派に科学的な説明がつくと信じている。<br><br>だから、この掌痺法みたいな、一種の神経療法、つまり紳経系統を刺激して病気を直す方法は、科学の進まぬ現在では、存在する値打があるという風な実に奇妙な独断論を抱いている。<br><br>だから、掌療法そのものは、少しも信用せす、軽蔑していながら、その効用は認めているという始末である。<br><br> 里見先生は、わたしみたいな、おかしな合理主義者ではないが、いくらか私と似た考え方をして居られたのではないかと思う。<br><br>ともかく、或る種の病気が直る事は事実で、理窟の方はおかしくて信用出来ぬところが多いが、病気治療に効くという厳然たる事実だけは認めないわけには行かぬのである。<br><br> 里見先生に何度も治療して頂いて、非常に気持がよいと言ったものだから、それでは、君か、君の女房がこの療法の講習を受け、治療を会得したらどうだということになった。<br><br> そめ時分、私は麹町の六番町に住んでいて、すぐ斜め向いが、里見先生の御宅であった。<br><br>ところが、ほど近い平河町に、新しくチチンプイプイの先生が開発した。<br><br>これは、商大を卒業したとかいう、若いインテリ治療師であったが、そこで講習が開かれることになり、里見先生の親友である三浦さんや小生の女房も、この講習に参加した。<br><br>私は、霊の力などは少しも信用せず、チチンプイプイなどは、一種の神経療法だから、高い講習料を払って、岡田教組の御親筆などを頂戴せずとも、女房から方法さえ習えば、それでよいと思っていたので、講習には参加しなかった。<br><br> ところが、その若いインテリ先生が、先祖の霊がどうだとかこうだとか、私の住んでいるこの家には絶対に爆弾は落ちませんとか（その頃は戦火まさにたけなわで、空襲が段々と激しくなりつゝある時だった）、あまりおかしなことを言うとのことなので、これはいけませんわい、と思い始めたのだが、果せるかな、三浦さんは、とうとう腹を立て、講習を受けるのをやめてしまった。<br><br> でも、里見先生は、「余り生鼻面目に考えるからいかんのだよ」と笑って、相変らすチチンプイプイを続けていられた。<br><br>先生は、確かにチチンプイプイの名人で、先生にやって頂くと、気持がよくなって、きいたような気がするのである。<br><br>ところが、小生の女房がやるとそうは行かぬ。<br><br>一向にきかないのである。<br><br>尤も、これは、小生が女房を余り尊敬して居らなかったせいかもしれぬ。<br><br> このチチンプイプイは、当時陸海軍の軍人たちに大変ファンが多かったという話を聞いた。<br><br>陸軍士官学校の校長をしていた人が、チチンプイプイの大変な信者で、この治療法を学生たちに教えようとしたことがあった。<br><br>すると軍医たちから苦情が出た。<br><br>日本の陸軍は科学的な装備を持った、近代的な軍隊である。<br><br>医療にしても近代的な科学的療法を採用して居る。<br><br>しかるに、士官学校で怪しげな民間療法を教授するとは、何事であるかというわけである。<br><br>そこで、大問題となって、軍医の高官が士官学校々長と相会して会議を開いた。<br><br>（これは、噂話でデマくさい臭もするので、真偽のほどは保証しがたいが）ともかく、士官学校々長は、陸軍病院の既に久しく採用して居る科学的医療法を認めないのかとつめよられた。<br><br>そこで校長は無論自分は科学的庭療法を信頼する、しかし、今は容易ならぬ激戦の時であって、陸軍将兵は病院はおろか、一人の軍医もいないような僻地へも進撃して居る。<br><br>絶海の孤島などの戦いで、薬箱一つないような場合さえ考えられる。<br><br>そういう場合に傷病兵はどうしたらよいか。<br><br>その時にこそ、このチチンプイプイを役立たせようとして、自分は学生たちにこれを教えさして居るのである、と大見得をきったというのである。<br><br> 当時の日本陸軍の姿をしのばせる、皮肉なエピソードとして見ると、一寸面白い試である。<br><br> 敗戦後、私にとっては、甚だ懐しく、かつ愛嬌にみちた「チチンプイプイ」が、新興宗教として隆々たる勢威を示し始めたのには驚いている。<br><br> でも、世界メシヤ教などというれいれいしい名前を聞いても、どうも私にはピンと来ない。<br><br>私にとっては、いつまでたっても、やはり、懐しく、愛すべき「チチンプイプイ」である。<br><br>そしてそれでよいのだと思っている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Doutrina Kannon</h2>
 <p><strong>Endo Shingo, de sua obra "Crítica à Religião Messiânica", publicado em 25 de setembro de 1951 pela editora Nihon Shūkyō Shimbunsha</strong></p>
@@ -74,5 +229,48 @@ function toggleLang(lang) {
 <p>Observado como um episódio irônico que revela a face do Exército Imperial Japonês daquela época, torna-se um relato de considerável interesse.</p>
 <p>Após a derrota na guerra, foi com surpresa que vi o “Chichin-puipui” — para mim, tão nostálgico e pleno de encanto — emergir com o vigor pujante de uma nova religião.</p>
 <p>Contudo, mesmo ao ouvir o nome imponente de Igreja Messiânica Mundial, a designação não me soa familiar. Para mim, ele será sempre o nostálgico e adorável “Chichin-puipui”. E creio que assim está bom.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 関 連 出 版 物 ――― 観音教について 遠藤慎吾 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 今は、たしか世界メシヤ教とかいうのだそうだが、私が観音教のことを知ったのは、もう十年以上も昔のことである。<br/><br/>と言ってもその当時、観音教と称していたかどうか、実は、その点もはっきりしない。<br/><br/>何しろ、私達は、あの（一種独特の掌療法のことを「チチンプイプイ」と呼び慣わしていた。<br/><br/>こういう名前を発明したのは、里見トン[弓享]先生で、従って、掌療法そのものを私に紹介して下さったのも、無論里見先生である。<br/><br/>先生が、どなたの紹介で、こういう療法に興味を持つようになられたのかは知らない。<br/><br/>ともかく、やってみたところが、先生の永年の痼疾であった痔がすっかり直ったので、この療法を信用するようになられたのだと思う。<br/><br/>注射が体に毒を残すもので絶対にいけないということ、発熱は、体内に貯った悪いものが、外へ出ようとして起る現象だということ、それに、この治療を始めて暫らくすると起る下痢のことなどを、初めて話して下さったのも先生である。<br/><br/>この療法の理論の基礎になってる、「浄化作用」という言葉も、先生から始めて聞いて、何となく奇妙な愛嬌のある言葉だと思った。<br/><br/>と言っても近代的な教養を受けていられる里見先生が、この魔呵不思議な理窟を心から信用していられたわけではない。<br/><br/> 「こいつをやってれば、肥料なしで米が育つ、爆弾も落ちて来ないとあると、一寸いけないがね、しかし面白いところもあるよ」 と言ってニヤニヤ笑っていられた。<br/><br/> 私も、先生から治療を受けたが、たしかに気持がよい。<br/><br/>肩のこりなどは、軽くなったような気がする。<br/><br/>私は、昔マルキシズムに心酔したことがあり、どことなく唯物弁証法的な考え方が残っていて、無神論者ではなかったが、少くとも非常に合理主義的なものの考え方をする。<br/><br/>だから、民間療法などは非常に軽蔑している。<br/><br/>ところが、その一方、現代の科学というものの絶対性をも信じていない。<br/><br/>科学にはまだまだ判らないところが沢山あると思っている、殊に医学の領域では、紳経系統の作用が病気に及ぼす影響については、殆んど研究されて居らんと思っている。<br/><br/>病気が或る程度、神経の作用で直るのも、実は神経系統の機能に対する研究の不十分さから来るもので、この研究さえ十分進めば、立派に科学的な説明がつくと信じている。<br/><br/>だから、この掌痺法みたいな、一種の神経療法、つまり紳経系統を刺激して病気を直す方法は、科学の進まぬ現在では、存在する値打があるという風な実に奇妙な独断論を抱いている。<br/><br/>だから、掌療法そのものは、少しも信用せす、軽蔑していながら、その効用は認めているという始末である。<br/><br/> 里見先生は、わたしみたいな、おかしな合理主義者ではないが、いくらか私と似た考え方をして居られたのではないかと思う。<br/><br/>ともかく、或る種の病気が直る事は事実で、理窟の方はおかしくて信用出来ぬところが多いが、病気治療に効くという厳然たる事実だけは認めないわけには行かぬのである。<br/><br/> 里見先生に何度も治療して頂いて、非常に気持がよいと言ったものだから、それでは、君か、君の女房がこの療法の講習を受け、治療を会得したらどうだということになった。<br/><br/> そめ時分、私は麹町の六番町に住んでいて、すぐ斜め向いが、里見先生の御宅であった。<br/><br/>ところが、ほど近い平河町に、新しくチチンプイプイの先生が開発した。<br/><br/>これは、商大を卒業したとかいう、若いインテリ治療師であったが、そこで講習が開かれることになり、里見先生の親友である三浦さんや小生の女房も、この講習に参加した。<br/><br/>私は、霊の力などは少しも信用せず、チチンプイプイなどは、一種の神経療法だから、高い講習料を払って、岡田教組の御親筆などを頂戴せずとも、女房から方法さえ習えば、それでよいと思っていたので、講習には参加しなかった。<br/><br/> ところが、その若いインテリ先生が、先祖の霊がどうだとかこうだとか、私の住んでいるこの家には絶対に爆弾は落ちませんとか（その頃は戦火まさにたけなわで、空襲が段々と激しくなりつゝある時だった）、あまりおかしなことを言うとのことなので、これはいけませんわい、と思い始めたのだが、果せるかな、三浦さんは、とうとう腹を立て、講習を受けるのをやめてしまった。<br/><br/> でも、里見先生は、「余り生鼻面目に考えるからいかんのだよ」と笑って、相変らすチチンプイプイを続けていられた。<br/><br/>先生は、確かにチチンプイプイの名人で、先生にやって頂くと、気持がよくなって、きいたような気がするのである。<br/><br/>ところが、小生の女房がやるとそうは行かぬ。<br/><br/>一向にきかないのである。<br/><br/>尤も、これは、小生が女房を余り尊敬して居らなかったせいかもしれぬ。<br/><br/> このチチンプイプイは、当時陸海軍の軍人たちに大変ファンが多かったという話を聞いた。<br/><br/>陸軍士官学校の校長をしていた人が、チチンプイプイの大変な信者で、この治療法を学生たちに教えようとしたことがあった。<br/><br/>すると軍医たちから苦情が出た。<br/><br/>日本の陸軍は科学的な装備を持った、近代的な軍隊である。<br/><br/>医療にしても近代的な科学的療法を採用して居る。<br/><br/>しかるに、士官学校で怪しげな民間療法を教授するとは、何事であるかというわけである。<br/><br/>そこで、大問題となって、軍医の高官が士官学校々長と相会して会議を開いた。<br/><br/>（これは、噂話でデマくさい臭もするので、真偽のほどは保証しがたいが）ともかく、士官学校々長は、陸軍病院の既に久しく採用して居る科学的医療法を認めないのかとつめよられた。<br/><br/>そこで校長は無論自分は科学的庭療法を信頼する、しかし、今は容易ならぬ激戦の時であって、陸軍将兵は病院はおろか、一人の軍医もいないような僻地へも進撃して居る。<br/><br/>絶海の孤島などの戦いで、薬箱一つないような場合さえ考えられる。<br/><br/>そういう場合に傷病兵はどうしたらよいか。<br/><br/>その時にこそ、このチチンプイプイを役立たせようとして、自分は学生たちにこれを教えさして居るのである、と大見得をきったというのである。<br/><br/> 当時の日本陸軍の姿をしのばせる、皮肉なエピソードとして見ると、一寸面白い試である。<br/><br/> 敗戦後、私にとっては、甚だ懐しく、かつ愛嬌にみちた「チチンプイプイ」が、新興宗教として隆々たる勢威を示し始めたのには驚いている。<br/><br/> でも、世界メシヤ教などというれいれいしい名前を聞いても、どうも私にはピンと来ない。<br/><br/>私にとっては、いつまでたっても、やはり、懐しく、愛すべき「チチンプイプイ」である。<br/><br/>そしてそれでよいのだと思っている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

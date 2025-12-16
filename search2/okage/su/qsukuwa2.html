@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsukuwa2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 救われた開放性結核 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 大阪府 神聖会 山本嘉男 第一乙種合格と言われ軍国主義の犠牲となり、あたら青春を、その具に捧げた私は身体に慣れない激動を強いられた結果、いつしか胸部に覚えぬ病状を訴えなければならないようになり、それが練兵休となり、入室となり果ては入院護送患者となり、医学的に完全に胸部疾患患者と極印を押されるに至ったのであります。<br><br> その当時の自己診断に依る所の症状は、身体各部に相当の疲労倦怠感があり、それが追々と浄化増進するに及び頭重感、悪寒、微熱が感じられるに及んで、咳が甚だしく一見した所喘息のごとく、その都度膿のごとき黄色状の痰が湧き出るごとく排出され、やがて血痰が出るに及んで入院護送となった次第、入信前である当時の私としては悲痛やる方なく、死の宣告にもひとしかったものである。<br><br> それから丸二年遂に医療の及ぶ所なく兵役免除となり、入院当時の状態よりやや咳が楽になり、微熱が出なくなった程度の症状にて事故退院を命ぜられたのであります。<br><br>二カ年という長い月日に何と言う無駄な、何と言う徒長な療養生活を送ったものか、私の人生のしかも青春時代をこんな無意味な生活で終始した事は、実に大いなる必要の無駄であったと同時に、間違いの恐しさを如実に体験させられたのです。<br><br> カルシウム20CCの連日注射、これに加えるに高張糖注射、胃腸薬の内服、これだけの手当法が一日一度の形式的な聴診打診問診の外に、少しも変更さるる事なく二カ年連続された私の病名は、結核性両肺浸潤であって、レントゲン所見は右肺肺門部に一カ所、左肺上部及中央部の二カ所、計三カ所に一銭銅貨大の浸潤点が見られるのである。<br><br> 退院を命ぜられた私はその後身体がやや衰弱気味のまま小康状態を得られ、そのまま注射、薬は嫌なままに行わずにいたのでいつしか忘れるようになり、終戦当時頃はほんとうに健康なるような状態にて、病気の事は念頭より去っていました。<br><br>自覚症状もやや微熱がある程度で、他に著しいものはありませんでしたので、最早病人だという意識はなく段々と体重も増し元気で働いておったのでした。<br><br> 所が間違いと嘘によって固められていた私の霊体が、世の移り変るに連れて覆い切れなくなって、遂に解けて来たのです。<br><br> 私が入信して三カ月目去る一昨年三月、私は社用で外出中の道路上で襲われるごとく喀血したのです。<br><br>胸苦しく息苦しいので「エヘン」と咳払いするのと、同時に、溢れるようにと言うか「ゴボゴボ」と息もつけない程に多量に出血し、ハンカチーフ一枚、日本手拭一本絞る程に血で固まり、口に当てる物がないまま苦しまぎれに、ある家の菜園に転がり込み、そこにしゃがみ込んだまま次から次へと吐いた量は、気が遠くなりそうでしたが、約五合、道路は約一丁程紅に点々としたたっていましたが、案外自分では意識がはっきりしていましたが心臓は躍るようでした。<br><br>ふと気が付くと数十人の見物人が私を取りかこみ、巡査が来て私を抱き上げてくれ、やがて嫌応なく病院に連れ込まれてしまいました。<br><br> そのままつかれて眠ってしまった私はふと目が覚め、病院の一室で横たわる自分を改めて自覚した。<br><br>私はそれからあわてて馳けつけてくれた母を、なおあわてさせて病院脱出の一幕を目論んだのであります。<br><br>全く悪夢というか、もう再びあの地獄の苦しみを味わいたくない気持で一杯でした。<br><br> 注射、服薬、検診、果ては人工気胸法等という聞くのも恐ろしき事々、私は耐え得られなかった、私の一生がこのままでブランクになって終いそうなのでこれらの真心のおよそ、存在しない機械的な診療等では到底救わるるはずがないと、私は御守を必死に抱きしめ自己浄霊を施しながら、母の肩に依りかかりながら夜に乗じて病院を脱出し、自宅に戻った時はただ救われるという嬉しさで一杯でした。<br><br> 母は気の毒にも後程病院に断わりに行った時、掛付病院の医師が烈火のごとく怒り、随分と御説教を受けたそうだ。<br><br>いわく「あんなひどい喀血をした結核性の、しかも開放性の危険な病人を歩いて自宅へ連れ戻るなんて何という非常識な、国家的にも重大問題だ恐らく助からんだろう」と、でも私は幸福でした。<br><br>それからただ一路に信仰の道に生きんと光明如来を御迎えし、一心に浄霊に従事しつつ浄霊を受けました。<br><br> その後病院脱出後約一週間は毎日二、三合の喀血があり、段々量的に少なくなり、最初の日より十五日目になってやっと停止し、その日より食欲は増進し、何でも美味しくめきめきと快復して参りました。<br><br>そして微熱は完全に取れ倦怠感が無くなり、体重が増加するにつれ身体に何となく力が充ち溢れる感じにて今迄考えてもみない重労働的な事でも、最初の喀血の日より二カ月目には行なって疲労が感じられなくなり、相当の遠方迄も浄霊従事の為に元気で行けるようになり、満一カ年余を経た今日は周囲の人の驚くのも無理が無い程に生れ変った私です。<br><br> 結核は浄霊にて完全に救われる事を身をもって証明出来ました。<br><br>ここに観音信仰、真の信仰の道に導きを受けた、そして救われたる事実を御報告申上げ厚く御礼申上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Tuberculose Aberta Curada</h2>
 <p>(Da Antologia Jikan, Volume I: “A Tuberculose e a Terapia Divina”, publicado em 25 de junho de 1949)</p>
@@ -104,5 +259,48 @@ Associação Sagrada da Província de Osaka</p>
 <p>Todavia, eu sentia uma imensa felicidade. Decidido a trilhar unicamente o caminho da fé, recebi a Imagem do Kōmyō Nyorai e dediquei-me de corpo e alma a ministrar e receber Johrei.</p>
 <p>Na primeira semana após a fuga do hospital, continuei a expelir de 300 a 500 mililitros de sangue por dia. A quantidade, porém, foi diminuindo gradualmente, até cessar por completo no décimo quinto dia. A partir desse momento, meu apetite retornou com vigor e tudo o que eu comia era delicioso, promovendo uma recuperação notavelmente rápida. A febre desapareceu por completo, a lassidão se foi e, à medida que meu peso aumentava, sentia uma força transbordante preencher meu corpo. Apenas dois meses após a grande hemorragia, eu já era capaz de realizar trabalhos pesados sem sentir cansaço, algo impensável até então. Passei a viajar para lugares distantes a fim de ministrar Johrei e, hoje, passados mais de um ano, sou um homem renascido, para o espanto de todos ao meu redor.</p>
 <p>Pude comprovar, com meu próprio corpo, que a tuberculose é uma doença perfeitamente curável pelo Johrei. Apresento este relato como testemunho do fato de ter sido salvo e guiado ao verdadeiro caminho da fé em Kannon (観音), expressando minha mais profunda e sincera gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 救われた開放性結核 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 大阪府 神聖会 山本嘉男 第一乙種合格と言われ軍国主義の犠牲となり、あたら青春を、その具に捧げた私は身体に慣れない激動を強いられた結果、いつしか胸部に覚えぬ病状を訴えなければならないようになり、それが練兵休となり、入室となり果ては入院護送患者となり、医学的に完全に胸部疾患患者と極印を押されるに至ったのであります。<br/><br/> その当時の自己診断に依る所の症状は、身体各部に相当の疲労倦怠感があり、それが追々と浄化増進するに及び頭重感、悪寒、微熱が感じられるに及んで、咳が甚だしく一見した所喘息のごとく、その都度膿のごとき黄色状の痰が湧き出るごとく排出され、やがて血痰が出るに及んで入院護送となった次第、入信前である当時の私としては悲痛やる方なく、死の宣告にもひとしかったものである。<br/><br/> それから丸二年遂に医療の及ぶ所なく兵役免除となり、入院当時の状態よりやや咳が楽になり、微熱が出なくなった程度の症状にて事故退院を命ぜられたのであります。<br/><br/>二カ年という長い月日に何と言う無駄な、何と言う徒長な療養生活を送ったものか、私の人生のしかも青春時代をこんな無意味な生活で終始した事は、実に大いなる必要の無駄であったと同時に、間違いの恐しさを如実に体験させられたのです。<br/><br/> カルシウム20CCの連日注射、これに加えるに高張糖注射、胃腸薬の内服、これだけの手当法が一日一度の形式的な聴診打診問診の外に、少しも変更さるる事なく二カ年連続された私の病名は、結核性両肺浸潤であって、レントゲン所見は右肺肺門部に一カ所、左肺上部及中央部の二カ所、計三カ所に一銭銅貨大の浸潤点が見られるのである。<br/><br/> 退院を命ぜられた私はその後身体がやや衰弱気味のまま小康状態を得られ、そのまま注射、薬は嫌なままに行わずにいたのでいつしか忘れるようになり、終戦当時頃はほんとうに健康なるような状態にて、病気の事は念頭より去っていました。<br/><br/>自覚症状もやや微熱がある程度で、他に著しいものはありませんでしたので、最早病人だという意識はなく段々と体重も増し元気で働いておったのでした。<br/><br/> 所が間違いと嘘によって固められていた私の霊体が、世の移り変るに連れて覆い切れなくなって、遂に解けて来たのです。<br/><br/> 私が入信して三カ月目去る一昨年三月、私は社用で外出中の道路上で襲われるごとく喀血したのです。<br/><br/>胸苦しく息苦しいので「エヘン」と咳払いするのと、同時に、溢れるようにと言うか「ゴボゴボ」と息もつけない程に多量に出血し、ハンカチーフ一枚、日本手拭一本絞る程に血で固まり、口に当てる物がないまま苦しまぎれに、ある家の菜園に転がり込み、そこにしゃがみ込んだまま次から次へと吐いた量は、気が遠くなりそうでしたが、約五合、道路は約一丁程紅に点々としたたっていましたが、案外自分では意識がはっきりしていましたが心臓は躍るようでした。<br/><br/>ふと気が付くと数十人の見物人が私を取りかこみ、巡査が来て私を抱き上げてくれ、やがて嫌応なく病院に連れ込まれてしまいました。<br/><br/> そのままつかれて眠ってしまった私はふと目が覚め、病院の一室で横たわる自分を改めて自覚した。<br/><br/>私はそれからあわてて馳けつけてくれた母を、なおあわてさせて病院脱出の一幕を目論んだのであります。<br/><br/>全く悪夢というか、もう再びあの地獄の苦しみを味わいたくない気持で一杯でした。<br/><br/> 注射、服薬、検診、果ては人工気胸法等という聞くのも恐ろしき事々、私は耐え得られなかった、私の一生がこのままでブランクになって終いそうなのでこれらの真心のおよそ、存在しない機械的な診療等では到底救わるるはずがないと、私は御守を必死に抱きしめ自己浄霊を施しながら、母の肩に依りかかりながら夜に乗じて病院を脱出し、自宅に戻った時はただ救われるという嬉しさで一杯でした。<br/><br/> 母は気の毒にも後程病院に断わりに行った時、掛付病院の医師が烈火のごとく怒り、随分と御説教を受けたそうだ。<br/><br/>いわく「あんなひどい喀血をした結核性の、しかも開放性の危険な病人を歩いて自宅へ連れ戻るなんて何という非常識な、国家的にも重大問題だ恐らく助からんだろう」と、でも私は幸福でした。<br/><br/>それからただ一路に信仰の道に生きんと光明如来を御迎えし、一心に浄霊に従事しつつ浄霊を受けました。<br/><br/> その後病院脱出後約一週間は毎日二、三合の喀血があり、段々量的に少なくなり、最初の日より十五日目になってやっと停止し、その日より食欲は増進し、何でも美味しくめきめきと快復して参りました。<br/><br/>そして微熱は完全に取れ倦怠感が無くなり、体重が増加するにつれ身体に何となく力が充ち溢れる感じにて今迄考えてもみない重労働的な事でも、最初の喀血の日より二カ月目には行なって疲労が感じられなくなり、相当の遠方迄も浄霊従事の為に元気で行けるようになり、満一カ年余を経た今日は周囲の人の驚くのも無理が無い程に生れ変った私です。<br/><br/> 結核は浄霊にて完全に救われる事を身をもって証明出来ました。<br/><br/>ここに観音信仰、真の信仰の道に導きを受けた、そして救われたる事実を御報告申上げ厚く御礼申上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280427</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月27日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月二十七日 昨日、一昨日と大乗、小乗について話しましたが、それについて今度の総選挙の結果、一番意外に成績が良かったのは社会党の左派です。<br><br>それから悪かったのは改進党です。<br><br>これはなぜかというと、つまり大乗と小乗の現われです。<br><br>その原因は再軍備問題なのです。<br><br>それが実によく現われてます。<br><br>社会党左派の成績が良かったのは再軍備絶対反対です。<br><br>むしろ無防備国家ということをはっきり主張してました。<br><br>軍備はいらないということは根本理論です。<br><br>これはあたりまえなのです。<br><br>とにかく日本を第二の中共にしようというのです。<br><br>だから第二の中共になれば、ソ連は日本を侵略する憂いは決してないから軍備は必要ないのです。<br><br>アメリカの方が侵略すれば、それに対する軍備がいるが、アメリカは侵略政策でないから、侵略国というのはソ連ですから、それで軍備の必要がないのです。<br><br>それを主張するわけです。<br><br>ところがたいてい婦人に多いのですが、日本の国家はどうなるだろうというより、自分の息子や亭主が兵隊に出されては困る、心配だ、それには戦争がなければ安心だというので、社会党左派に投票するというわけです。<br><br>その反対に改進党は軍備しなければならないとはっきり言ったために、それでは改進党には投票できないというわけです。<br><br>それから右派社会党は左派のようにはっきりと再軍備に反対はせず、事情により、場合によってはやむを得ない、というような危ない点があるので投票が少なかったのです。<br><br>それから自由党は事実再軍備をしながら、再軍備は絶対にしないと吉田さんが言ってましたが、これはまた非常にずるいやり方だったのです。<br><br>ですから自由党が、馬鹿野郎問題があんがい影響しなかったのは、そういったずるさの勝利です。<br><br>だから時によっては、ずるいということは必要なのです。<br><br>国家の利害はあんまり考えないで、自己の利害のみを考えるというのが小乗なのです。<br><br>それからそんなことは関係なく、本当に国家のために、ある程度は軍備をしなければいけないというのが、大乗的考えです。<br><br>それで吉田さんのやり方は大乗にあらず小乗にあらずで、やはり一種の伊都能売式です。<br><br>そういうように考えると総選挙の結果というのははっきりしていて、実によく分かります。<br><br>ほかの政策とか、ほかのことはいくらも影響しないのです。<br><br>大体再軍備問題がそのまま選挙の結果に反映したわけです。<br><br>それと同じような考え方がなにごとにもあるのです。<br><br>信仰上にも大いにあります。<br><br>小乗は経ですから、小乗的に物事をきちんと考える人はやっぱり発展しないのです。<br><br>そうかといって、大乗的になんでものみ込むのは、発展するかわりに危険が伴うというわけです。<br><br>だから小乗と大乗の使い分けをうまくやる人が一番成鎮が良いわけです。<br><br>このやり方が伊都能売なのです。<br><br> それについての例ですが、映画の時に長唄の吉住小三郎という人がよく来て、私の隣に並んで坐って映画を見ているのです。<br><br>ところがそれを気にする人があるとみえるのです。<br><br>こうだろうと思うのです。<br><br>「なんだ、明主様の隣に芸人風情が坐って見るなんて、どうもとんでもない話だ、もったいない」というのでしょう。<br><br>まあ悪い考えではないので、良い考えですが、それで小三郎さんの所にチョイチョイ無名の投書が行くのです。<br><br>あなたははなはだ良くないから遠慮してもらいたいというのです。<br><br>最初の一回か二回の時は歯牙にはかけなかったが、チョイチョイ来るので、小三郎さんも信者の中にそういう方が一人でもあると自分も気持ちが悪いからと、このごろは来ないのです。<br><br>それで投書する人の考えは、「なんだ、奥さんが長唄の稽古をしている師匠ではないか、それが明主様の隣に坐っているのは、はなはだ申し訳ない」というのだろうと思います。<br><br>それで私をアンポンタンかお坊ちゃんのように思っているのです。<br><br>それがいけなければ私は許しません。<br><br>それはどういうことかというと、今の音曲界では一番の王者としての長唄で、その長唄界の大御所たる存在が吉住小三郎という人です。<br><br>あの人は芸能者の第一人者ですから名人です。<br><br>それであの人だけは、人が頼みに行っても絶対に応じないのです。<br><br>放送局でもあの人には手こずっているのです。<br><br>この間、放送局の三十何年かの記念にちょっと出ましたが、ああいうのはうんと頼んでやって承知させたのです。<br><br>だから公でない会などには絶対に承知するものではないのです。<br><br>ところが救世教の余興の時には必ず出るのです。<br><br>だからこれは余興に対する一つのすばらしい値打ちを増すようなわけなのです。<br><br>小三郎さんという人は、名前だけでもそれだけの働きをしているのです。<br><br>ですから私は、神様はうまい人と関係をつけたと思っているのです。<br><br>それからもう一つはそういった芸能人、美術家、あるいは文学者、作家という人たちは、私は特に貴く思っているのです。<br><br>そういう名人というのは代わりがないのです。<br><br>だから国務大臣というような人よりもずっと上なのです。<br><br>大臣などは辞職すれば代わりはいくらでもあるのです。<br><br>吉田内閣でさえ四、五年の間に任命した大臣は百人近いでしょう。<br><br>だから前にイギリスの有名な人が「大臣を任命するのに相談や手数はいらない。<br><br>議場に紙つぶてを投げて、当たった人を大臣にすればよい」というのです。<br><br>そのくらいですから、はなはだ失礼ながら代わりはいくらでもあるのです。<br><br>ところがああいった美術家とか芸能人の名人はすぐに代わりがないのです。<br><br>そうでしょう、俳優でも少し偉いのはその代わりはないのです。<br><br>ですから今は歌舞伎俳優で困っているくらいです。<br><br>だから今は、そういう人こそ大いに優遇しなければならないと思ってます。<br><br>なぜというと、とにかく社会で一般大衆を楽しませる技能を持っているのですから、非常に結構なのです。<br><br>私はいつも映画を見るたびにそう思うのですが、映画俳優も脚本を作る人も、われわれにこういった娯楽を与えてくれるということは、大いに感謝してよいと思います。<br><br>ですからそういう意味において、小三郎さんは大いに優遇しなければならないのです。<br><br>それやこれやで、始終私の所に来ますから、長生きをさせようと思って中風とかそういうようなことが起らないように浄霊してやっているくらいなのです。<br><br>だから映画を私の隣で見るくらいは結構なのです。<br><br>それを遠慮しろと強制する人は小乗的考えなのですから、ケツの穴がごく狭いわけです。<br><br>だからその人の耳にはいった場合には、大いに考え違いを神様にお詫びして、もしかその人が本当に悔い改めて、勇気があれば小三郎さんの所に行って詫びるのが本当です。<br><br>私が考え違いをして、たいへん間違ったことを言ったから、御勘弁願いたい、どうかこれからぜひ来てもらいたいと、よく詫びるのです。<br><br>それができるくらいなら立派な人ですが、それはなかなかでき難いでしょう。<br><br>そういうようで小乗的の考えというのが一番困るのです。<br><br>それで小乗的考えというのは自分では非常に良いと思うのです。<br><br>そうして結果はかえって逆になるのです。<br><br>それからそういう形のみに捉われたことを、よほど考え違いをしないようにしなければなりません。<br><br>神様のやることは、人間の常識と言っても、本当の常識なら良いが、世間的の常識で考えて分かるような浅いものではないのです。<br><br>それよりか、自分のことを始終考えなければならないのです。<br><br>自分は行いが間違っていないかということを考えなければなりません。<br><br>よけいな人のことを考えるということが間違いの元です。<br><br>だからただ明主様にもったいないとか御無礼だということは、神様の方の考えと違う場合が往々あるのです。<br><br>だからすべて大乗的に考えるということが肝腎なのです。<br><br>これは救世教に限らず、信仰している人はどうも小乗的考え方になりすぎるのです。<br><br>これは昔からいろいろな宗教がそういうようになっているのですが、どうもそういうような伝統的宗教観念が出やすいのです。<br><br>だから粗衣粗食の地獄的生活を神様はたいへんお喜びになるように思っている宗教観念というのが大いにありますから、その間違いを直そうと思っていろいろ書いているのです。<br><br>それでミロクの世というものは、そういうようなことと反対です。<br><br>そこで人間の、歌うとか踊るとか、いろんな楽器をならすということは、人間を楽しませる肝腎な天国的要素です。<br><br>やっぱり芸術です。<br><br>ですから地上天国は芸術が一番の重要なものですから、大いに芸術を尊ぶという観念を植えつけなければならないのです。<br><br>美術館というのはやっぱりその大きな一つのやり方なのです。<br><br> 昨日、谷川徹三という人と報知新聞の記者が来て、半日ばかりいろいろ話しましたが、ばかに美術が好きで、非常に研究して明るいのです。<br><br>私もたいへん勉強になりましたが、その時に実際救世教というのは変わっている、今までにないというのです。<br><br>こっちに来る前に箱根の美術館を見てきたのですが、これほど美術に関心を持って大いに仕事をしているということは実にたいしたもので、これこそ大いに自分たちも援助しなければならない、というようなことを言って非常に褒めてました。<br><br>そういうようで宗教で芸術をこれほど大きく扱うのはありません。<br><br>ですから言ったのです。<br><br>やっぱり聖徳太子と同じようなものだ、聖徳太子は日本だけだから規模が小さいが、私は世界的に聖徳太子のやり方をやるのだと言いました。<br><br>そういうようで、話は横に広がりましたが、大乗小乗についてちょっと話したわけです。<br><br> それから箱根の美術館は去年とはよほど違いましたが、ただ五月までは去年と著しく違ったところは外国美術を並べたことです。<br><br>それから来月は十八日に私は箱根に越しますが、このお祭りがすんでから浮世絵展をやります。<br><br>今まで方々で浮世絵展をやりましたが、私が今度やるのは、今までにないほど充実した展覧会のつもりです。<br><br>あっちに行って二十四日までにこしらえあげて、二十五、六、七の面会日に信者さんに先に見せることにして、一般は六月一日から見せるという段取りです。<br><br>それから二十八、九、三十、三十一日は、特殊な人に見せるという順序にしようと思ってます。<br><br>そういうようで、とにかく去年よりよほど違うと思います。<br><br>それで別館ができたために、美術品を飾る所が増えるとともに、あの辺の調子が非常に良くなりました。<br><br>見た人は知っているでしょうが、賑やかな感じになりました。<br><br>前にはあそこに汚い家がありましたが、そういうのはすっかりなくなって、実に全体が立派に小ぎれいになりました。<br><br>それで外国の美術品も浮世絵の良い物が集まったのも実に奇蹟なのです。<br><br>そのことを書いてみました。<br><br> （御論文「神技の美術館」）【栄光 二〇七号】 美術館も日本の有識階級や外国などにもだいぶ分かってきたようですから、今年はそういう人たちが随分来るだろうと思ってます。<br><br>外人が日本に来ても日本美術が見られないで、かえって油絵などの美術館の方が多いです。<br><br>というのは、まずいつでも見られるような常時美術館ができたにはできたが、ブリヂストン美術館と近代美術館とどっちも油絵専門になってます。<br><br>私はこの間、近代美術館の館長の岡部長景（おかべながかげ）という人が時々来るので話をしましたが、ブリヂストンと隣り合っていながら、ブリヂストンと同じような物を並べているではないかと言ったところが、それは考えているが、それでもまあまあお客が来るからと言ってました。<br><br>しかし人によっては日本や支那の美術品を見たがるのがいたが、ないのでしかたなしに我慢しているわけなのです。<br><br>それでこの間博物館で支那陶器を横河という人の寄付で、特別展として開催したので行って見ましたが、品物は千点というのですから随分ありますが、随分酷い物ばかりです。<br><br>並んでいる物が支那の台所の道具というのが多いのです。<br><br>日本でいうと皿小鉢というような、お膳に並べる物です。<br><br>まあ道具屋が持ってきても、買うのは五、六点しかありません。<br><br>一般人は知らないから、支那の物だから良いだろうと思っているでしょうが、あんまり酷過ぎるので驚いたくらいです。<br><br>ところがなにしろ博物館は予算が足りないので、欲しい物も手に入れることができないのです。<br><br>ですから博物館関係の人がこっちを羨（うらやま）しがってます。<br><br>「役人の仕事は駄目ですよ」とか「やっぱり役所の仕事はうまくいきません」と言ってます。<br><br>だから公平に言って博物館と箱根美術館と比べると、紳士とサラリーマン、重役と平社員くらいの違いと言ってもよいです。<br><br>私はいつも博物館というのは国家の国辱なんだと言ってますが、博物館の人は「まったくです」と言ってます。<br><br>特にアメリカ人などは日本の美術の展覧会を見て、去年のサンフランシスコの展覧会と、今やっている大都市巡回のとを見て、日本美術はすばらしいものだということが分かってきたので、美術鑑賞熱というものが出てきたのです。<br><br>だからだんだん箱根美術館が知れるに従って、そういう人たちがいずれは随分来るようになるだろうと思ってます。<br><br>それで西洋の古美術から中国、朝鮮、日本美術というようにいろいろ検討してみると、実際、断然日本美術は優秀なのです。<br><br>実に日本人の美術に対する感覚は世界一です。<br><br>そのうちで私が一番世界的に見せたいのは仏教美術です。<br><br>つまり彫刻です。<br><br>彫刻というものは、すばらしい高い地位にあるのです。<br><br>外国の彫刻と言えば、まずギリシアです。<br><br>実物は行って見たわけではないが、写真などで見ても結局写生です。<br><br>それからヨーロッパのローマ時代からそうとう出ましたが、一番はロダンとかダ・ヴインチです。<br><br>と言ったところで写生です。<br><br>日本の仏教美術というのは理想です。<br><br>霊的に言えばそうではないが、ふつうに言って高い理想を表現したものですから、その芸術家の感覚と、その表現の技巧というものはすばらしいものです。<br><br>それで私は京都や奈良のお寺に行ってそういう物を見ても、本当に世界美術の最高峰の物ということを感じます。<br><br>ですからどうしてもそれを日本の誇りとして大いに世界的にしなければならないと思ってます。<br><br>嵯峨の美術館はそれを方針にするつもりです。<br><br>ところが神様はちゃんとそういうような事情にもしたわけです。<br><br>というのは、京都のお寺はほとんどやって行けなくなったのです。<br><br>そうとう有名な寺でも財政難に陥って維持ができなくなったのです。<br><br>ですからそこで今でも目立たないように売ってます。<br><br>お寺も売らざるを得ないのです。<br><br>そうでないと檀家の方に御用金が行きますから、檀家は税金などで苦しんでいるから、お寺の維持には届かないので、それではなにか売ったらよいだろうというので、檀家が承諾するのです。<br><br>それで檀家承諾書というのがついているのです。<br><br>それでも檀家がある寺はよいのですが、勅願寺というような檀家がない寺がたくさんあるのです。<br><br>ですからそういう所の生活というのは実にかわいそうなものです。<br><br>しかしそんなことを言ってもだんだん行き詰まるから、ポツリポツリと出しているのです。<br><br>ですから私は将来日本美術のためとお寺を救うためにも仕事をしなければならないということになります。<br><br>ですから仏滅と言いますが、なるほど、霊的でなく物質的にも仏滅です。<br><br>お寺に飾る仏もなくなりますから本当の伽藍堂（がらんどう）です。<br><br>大体嵯峨にはそういう美術館を造るつもりです。<br><br>熱海の美術館は大きいですから、そういった仏も大いに紹介して、日本の彫刻美と仏画を世界中に知らせたいと思ってます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sabedoria de Izunome e o Julgamento Precipitado</h2>
 <p>Nos últimos dias, dissertei sobre os conceitos de Mahayana e Hinayana. A esse respeito, os resultados da recente eleição geral oferecem uma ilustração surpreendente de como esses princípios se manifestam. O desempenho mais inesperadamente positivo foi o da ala esquerda do Partido Socialista, ao passo que o Partido Progressista obteve o pior resultado. A razão para tal disparidade reside precisamente na manifestação dos pensamentos Mahayana e Hinayana, e a questão central que determinou esse desfecho foi o rearmamento, um tema que se revelou com notável clareza.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Ao analisar a arte antiga do Ocidente, da China, da Coreia e do Japão, constata-se que a arte japonesa é, de longe, a mais primorosa. A sensibilidade do povo japonês para a arte é, de fato, a maior do mundo. Dentre todas as suas manifestações, a que mais desejo apresentar ao mundo é a arte budista, especificamente a escultura. A escultura ocupa uma posição de sublime elevação. No estrangeiro, quando se fala em escultura, pensa-se imediatamente na Grécia. Embora eu não as tenha visto pessoalmente, as fotografias revelam que se trata, em essência, de realismo. A partir do período romano, a Europa também produziu obras notáveis, com destaque para Rodin e Da Vinci. Contudo, ainda assim, não transcendem a representação fidedigna da realidade. A arte budista japonesa, por sua vez, expressa um ideal sublime. Embora, do ponto de vista espiritual, a explicação seja outra, em termos gerais, ela materializa um ideal elevadíssimo. A sensibilidade do artista e a técnica de expressão são admiráveis. Ao contemplar essas obras nos templos de Quioto e Nara, sinto que estou diante do ápice da arte mundial. Por isso, estou convicto de que devemos projetá-las internacionalmente como um grande orgulho do Japão. Esse será o propósito do museu de Saga.</p>
 <p>E Deus preparou as circunstâncias para que isso fosse possível. Acontece que os templos de Quioto entraram em colapso financeiro. Mesmo os mais famosos enfrentam uma crise insustentável e não conseguem se manter. Por essa razão, estão vendendo suas relíquias discretamente; não têm outra escolha. Do contrário, teriam que impor taxas aos seus fiéis, que já estão sobrecarregados com impostos e não podem arcar com a manutenção dos templos. Assim, são os próprios fiéis que consentem com a venda. Muitas peças vêm acompanhadas de uma carta de anuência dos paroquianos. Isso nos templos que possuem fiéis, pois há muitos, como os templos de patronato imperial, que não os têm. A situação desses lugares é verdadeiramente lastimável. Contudo, apesar de tudo, eles estão se desfazendo de suas obras pouco a pouco. Diante disso, minha missão será trabalhar tanto para salvar a arte japonesa quanto para ajudar os templos.</p>
 <p>É o que se pode chamar de “a ruína do Budismo”, e de fato, não apenas no sentido espiritual, mas também no material. Os templos ficarão sem as imagens de Buda que os adornam e se tornarão salões vazios, literalmente. É para abrigar esse acervo que pretendo construir o museu em Saga. O Museu de Arte de Atami, por sua vez, por ser de grande porte, também terá a missão de apresentar essa grandiosidade, revelando ao mundo inteiro a beleza da escultura e da pintura budista do Japão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月27日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月二十七日 昨日、一昨日と大乗、小乗について話しましたが、それについて今度の総選挙の結果、一番意外に成績が良かったのは社会党の左派です。<br/><br/>それから悪かったのは改進党です。<br/><br/>これはなぜかというと、つまり大乗と小乗の現われです。<br/><br/>その原因は再軍備問題なのです。<br/><br/>それが実によく現われてます。<br/><br/>社会党左派の成績が良かったのは再軍備絶対反対です。<br/><br/>むしろ無防備国家ということをはっきり主張してました。<br/><br/>軍備はいらないということは根本理論です。<br/><br/>これはあたりまえなのです。<br/><br/>とにかく日本を第二の中共にしようというのです。<br/><br/>だから第二の中共になれば、ソ連は日本を侵略する憂いは決してないから軍備は必要ないのです。<br/><br/>アメリカの方が侵略すれば、それに対する軍備がいるが、アメリカは侵略政策でないから、侵略国というのはソ連ですから、それで軍備の必要がないのです。<br/><br/>それを主張するわけです。<br/><br/>ところがたいてい婦人に多いのですが、日本の国家はどうなるだろうというより、自分の息子や亭主が兵隊に出されては困る、心配だ、それには戦争がなければ安心だというので、社会党左派に投票するというわけです。<br/><br/>その反対に改進党は軍備しなければならないとはっきり言ったために、それでは改進党には投票できないというわけです。<br/><br/>それから右派社会党は左派のようにはっきりと再軍備に反対はせず、事情により、場合によってはやむを得ない、というような危ない点があるので投票が少なかったのです。<br/><br/>それから自由党は事実再軍備をしながら、再軍備は絶対にしないと吉田さんが言ってましたが、これはまた非常にずるいやり方だったのです。<br/><br/>ですから自由党が、馬鹿野郎問題があんがい影響しなかったのは、そういったずるさの勝利です。<br/><br/>だから時によっては、ずるいということは必要なのです。<br/><br/>国家の利害はあんまり考えないで、自己の利害のみを考えるというのが小乗なのです。<br/><br/>それからそんなことは関係なく、本当に国家のために、ある程度は軍備をしなければいけないというのが、大乗的考えです。<br/><br/>それで吉田さんのやり方は大乗にあらず小乗にあらずで、やはり一種の伊都能売式です。<br/><br/>そういうように考えると総選挙の結果というのははっきりしていて、実によく分かります。<br/><br/>ほかの政策とか、ほかのことはいくらも影響しないのです。<br/><br/>大体再軍備問題がそのまま選挙の結果に反映したわけです。<br/><br/>それと同じような考え方がなにごとにもあるのです。<br/><br/>信仰上にも大いにあります。<br/><br/>小乗は経ですから、小乗的に物事をきちんと考える人はやっぱり発展しないのです。<br/><br/>そうかといって、大乗的になんでものみ込むのは、発展するかわりに危険が伴うというわけです。<br/><br/>だから小乗と大乗の使い分けをうまくやる人が一番成鎮が良いわけです。<br/><br/>このやり方が伊都能売なのです。<br/><br/> それについての例ですが、映画の時に長唄の吉住小三郎という人がよく来て、私の隣に並んで坐って映画を見ているのです。<br/><br/>ところがそれを気にする人があるとみえるのです。<br/><br/>こうだろうと思うのです。<br/><br/>「なんだ、明主様の隣に芸人風情が坐って見るなんて、どうもとんでもない話だ、もったいない」というのでしょう。<br/><br/>まあ悪い考えではないので、良い考えですが、それで小三郎さんの所にチョイチョイ無名の投書が行くのです。<br/><br/>あなたははなはだ良くないから遠慮してもらいたいというのです。<br/><br/>最初の一回か二回の時は歯牙にはかけなかったが、チョイチョイ来るので、小三郎さんも信者の中にそういう方が一人でもあると自分も気持ちが悪いからと、このごろは来ないのです。<br/><br/>それで投書する人の考えは、「なんだ、奥さんが長唄の稽古をしている師匠ではないか、それが明主様の隣に坐っているのは、はなはだ申し訳ない」というのだろうと思います。<br/><br/>それで私をアンポンタンかお坊ちゃんのように思っているのです。<br/><br/>それがいけなければ私は許しません。<br/><br/>それはどういうことかというと、今の音曲界では一番の王者としての長唄で、その長唄界の大御所たる存在が吉住小三郎という人です。<br/><br/>あの人は芸能者の第一人者ですから名人です。<br/><br/>それであの人だけは、人が頼みに行っても絶対に応じないのです。<br/><br/>放送局でもあの人には手こずっているのです。<br/><br/>この間、放送局の三十何年かの記念にちょっと出ましたが、ああいうのはうんと頼んでやって承知させたのです。<br/><br/>だから公でない会などには絶対に承知するものではないのです。<br/><br/>ところが救世教の余興の時には必ず出るのです。<br/><br/>だからこれは余興に対する一つのすばらしい値打ちを増すようなわけなのです。<br/><br/>小三郎さんという人は、名前だけでもそれだけの働きをしているのです。<br/><br/>ですから私は、神様はうまい人と関係をつけたと思っているのです。<br/><br/>それからもう一つはそういった芸能人、美術家、あるいは文学者、作家という人たちは、私は特に貴く思っているのです。<br/><br/>そういう名人というのは代わりがないのです。<br/><br/>だから国務大臣というような人よりもずっと上なのです。<br/><br/>大臣などは辞職すれば代わりはいくらでもあるのです。<br/><br/>吉田内閣でさえ四、五年の間に任命した大臣は百人近いでしょう。<br/><br/>だから前にイギリスの有名な人が「大臣を任命するのに相談や手数はいらない。<br/><br/>議場に紙つぶてを投げて、当たった人を大臣にすればよい」というのです。<br/><br/>そのくらいですから、はなはだ失礼ながら代わりはいくらでもあるのです。<br/><br/>ところがああいった美術家とか芸能人の名人はすぐに代わりがないのです。<br/><br/>そうでしょう、俳優でも少し偉いのはその代わりはないのです。<br/><br/>ですから今は歌舞伎俳優で困っているくらいです。<br/><br/>だから今は、そういう人こそ大いに優遇しなければならないと思ってます。<br/><br/>なぜというと、とにかく社会で一般大衆を楽しませる技能を持っているのですから、非常に結構なのです。<br/><br/>私はいつも映画を見るたびにそう思うのですが、映画俳優も脚本を作る人も、われわれにこういった娯楽を与えてくれるということは、大いに感謝してよいと思います。<br/><br/>ですからそういう意味において、小三郎さんは大いに優遇しなければならないのです。<br/><br/>それやこれやで、始終私の所に来ますから、長生きをさせようと思って中風とかそういうようなことが起らないように浄霊してやっているくらいなのです。<br/><br/>だから映画を私の隣で見るくらいは結構なのです。<br/><br/>それを遠慮しろと強制する人は小乗的考えなのですから、ケツの穴がごく狭いわけです。<br/><br/>だからその人の耳にはいった場合には、大いに考え違いを神様にお詫びして、もしかその人が本当に悔い改めて、勇気があれば小三郎さんの所に行って詫びるのが本当です。<br/><br/>私が考え違いをして、たいへん間違ったことを言ったから、御勘弁願いたい、どうかこれからぜひ来てもらいたいと、よく詫びるのです。<br/><br/>それができるくらいなら立派な人ですが、それはなかなかでき難いでしょう。<br/><br/>そういうようで小乗的の考えというのが一番困るのです。<br/><br/>それで小乗的考えというのは自分では非常に良いと思うのです。<br/><br/>そうして結果はかえって逆になるのです。<br/><br/>それからそういう形のみに捉われたことを、よほど考え違いをしないようにしなければなりません。<br/><br/>神様のやることは、人間の常識と言っても、本当の常識なら良いが、世間的の常識で考えて分かるような浅いものではないのです。<br/><br/>それよりか、自分のことを始終考えなければならないのです。<br/><br/>自分は行いが間違っていないかということを考えなければなりません。<br/><br/>よけいな人のことを考えるということが間違いの元です。<br/><br/>だからただ明主様にもったいないとか御無礼だということは、神様の方の考えと違う場合が往々あるのです。<br/><br/>だからすべて大乗的に考えるということが肝腎なのです。<br/><br/>これは救世教に限らず、信仰している人はどうも小乗的考え方になりすぎるのです。<br/><br/>これは昔からいろいろな宗教がそういうようになっているのですが、どうもそういうような伝統的宗教観念が出やすいのです。<br/><br/>だから粗衣粗食の地獄的生活を神様はたいへんお喜びになるように思っている宗教観念というのが大いにありますから、その間違いを直そうと思っていろいろ書いているのです。<br/><br/>それでミロクの世というものは、そういうようなことと反対です。<br/><br/>そこで人間の、歌うとか踊るとか、いろんな楽器をならすということは、人間を楽しませる肝腎な天国的要素です。<br/><br/>やっぱり芸術です。<br/><br/>ですから地上天国は芸術が一番の重要なものですから、大いに芸術を尊ぶという観念を植えつけなければならないのです。<br/><br/>美術館というのはやっぱりその大きな一つのやり方なのです。<br/><br/> 昨日、谷川徹三という人と報知新聞の記者が来て、半日ばかりいろいろ話しましたが、ばかに美術が好きで、非常に研究して明るいのです。<br/><br/>私もたいへん勉強になりましたが、その時に実際救世教というのは変わっている、今までにないというのです。<br/><br/>こっちに来る前に箱根の美術館を見てきたのですが、これほど美術に関心を持って大いに仕事をしているということは実にたいしたもので、これこそ大いに自分たちも援助しなければならない、というようなことを言って非常に褒めてました。<br/><br/>そういうようで宗教で芸術をこれほど大きく扱うのはありません。<br/><br/>ですから言ったのです。<br/><br/>やっぱり聖徳太子と同じようなものだ、聖徳太子は日本だけだから規模が小さいが、私は世界的に聖徳太子のやり方をやるのだと言いました。<br/><br/>そういうようで、話は横に広がりましたが、大乗小乗についてちょっと話したわけです。<br/><br/> それから箱根の美術館は去年とはよほど違いましたが、ただ五月までは去年と著しく違ったところは外国美術を並べたことです。<br/><br/>それから来月は十八日に私は箱根に越しますが、このお祭りがすんでから浮世絵展をやります。<br/><br/>今まで方々で浮世絵展をやりましたが、私が今度やるのは、今までにないほど充実した展覧会のつもりです。<br/><br/>あっちに行って二十四日までにこしらえあげて、二十五、六、七の面会日に信者さんに先に見せることにして、一般は六月一日から見せるという段取りです。<br/><br/>それから二十八、九、三十、三十一日は、特殊な人に見せるという順序にしようと思ってます。<br/><br/>そういうようで、とにかく去年よりよほど違うと思います。<br/><br/>それで別館ができたために、美術品を飾る所が増えるとともに、あの辺の調子が非常に良くなりました。<br/><br/>見た人は知っているでしょうが、賑やかな感じになりました。<br/><br/>前にはあそこに汚い家がありましたが、そういうのはすっかりなくなって、実に全体が立派に小ぎれいになりました。<br/><br/>それで外国の美術品も浮世絵の良い物が集まったのも実に奇蹟なのです。<br/><br/>そのことを書いてみました。<br/><br/> （御論文「神技の美術館」）【栄光 二〇七号】 美術館も日本の有識階級や外国などにもだいぶ分かってきたようですから、今年はそういう人たちが随分来るだろうと思ってます。<br/><br/>外人が日本に来ても日本美術が見られないで、かえって油絵などの美術館の方が多いです。<br/><br/>というのは、まずいつでも見られるような常時美術館ができたにはできたが、ブリヂストン美術館と近代美術館とどっちも油絵専門になってます。<br/><br/>私はこの間、近代美術館の館長の岡部長景（おかべながかげ）という人が時々来るので話をしましたが、ブリヂストンと隣り合っていながら、ブリヂストンと同じような物を並べているではないかと言ったところが、それは考えているが、それでもまあまあお客が来るからと言ってました。<br/><br/>しかし人によっては日本や支那の美術品を見たがるのがいたが、ないのでしかたなしに我慢しているわけなのです。<br/><br/>それでこの間博物館で支那陶器を横河という人の寄付で、特別展として開催したので行って見ましたが、品物は千点というのですから随分ありますが、随分酷い物ばかりです。<br/><br/>並んでいる物が支那の台所の道具というのが多いのです。<br/><br/>日本でいうと皿小鉢というような、お膳に並べる物です。<br/><br/>まあ道具屋が持ってきても、買うのは五、六点しかありません。<br/><br/>一般人は知らないから、支那の物だから良いだろうと思っているでしょうが、あんまり酷過ぎるので驚いたくらいです。<br/><br/>ところがなにしろ博物館は予算が足りないので、欲しい物も手に入れることができないのです。<br/><br/>ですから博物館関係の人がこっちを羨（うらやま）しがってます。<br/><br/>「役人の仕事は駄目ですよ」とか「やっぱり役所の仕事はうまくいきません」と言ってます。<br/><br/>だから公平に言って博物館と箱根美術館と比べると、紳士とサラリーマン、重役と平社員くらいの違いと言ってもよいです。<br/><br/>私はいつも博物館というのは国家の国辱なんだと言ってますが、博物館の人は「まったくです」と言ってます。<br/><br/>特にアメリカ人などは日本の美術の展覧会を見て、去年のサンフランシスコの展覧会と、今やっている大都市巡回のとを見て、日本美術はすばらしいものだということが分かってきたので、美術鑑賞熱というものが出てきたのです。<br/><br/>だからだんだん箱根美術館が知れるに従って、そういう人たちがいずれは随分来るようになるだろうと思ってます。<br/><br/>それで西洋の古美術から中国、朝鮮、日本美術というようにいろいろ検討してみると、実際、断然日本美術は優秀なのです。<br/><br/>実に日本人の美術に対する感覚は世界一です。<br/><br/>そのうちで私が一番世界的に見せたいのは仏教美術です。<br/><br/>つまり彫刻です。<br/><br/>彫刻というものは、すばらしい高い地位にあるのです。<br/><br/>外国の彫刻と言えば、まずギリシアです。<br/><br/>実物は行って見たわけではないが、写真などで見ても結局写生です。<br/><br/>それからヨーロッパのローマ時代からそうとう出ましたが、一番はロダンとかダ・ヴインチです。<br/><br/>と言ったところで写生です。<br/><br/>日本の仏教美術というのは理想です。<br/><br/>霊的に言えばそうではないが、ふつうに言って高い理想を表現したものですから、その芸術家の感覚と、その表現の技巧というものはすばらしいものです。<br/><br/>それで私は京都や奈良のお寺に行ってそういう物を見ても、本当に世界美術の最高峰の物ということを感じます。<br/><br/>ですからどうしてもそれを日本の誇りとして大いに世界的にしなければならないと思ってます。<br/><br/>嵯峨の美術館はそれを方針にするつもりです。<br/><br/>ところが神様はちゃんとそういうような事情にもしたわけです。<br/><br/>というのは、京都のお寺はほとんどやって行けなくなったのです。<br/><br/>そうとう有名な寺でも財政難に陥って維持ができなくなったのです。<br/><br/>ですからそこで今でも目立たないように売ってます。<br/><br/>お寺も売らざるを得ないのです。<br/><br/>そうでないと檀家の方に御用金が行きますから、檀家は税金などで苦しんでいるから、お寺の維持には届かないので、それではなにか売ったらよいだろうというので、檀家が承諾するのです。<br/><br/>それで檀家承諾書というのがついているのです。<br/><br/>それでも檀家がある寺はよいのですが、勅願寺というような檀家がない寺がたくさんあるのです。<br/><br/>ですからそういう所の生活というのは実にかわいそうなものです。<br/><br/>しかしそんなことを言ってもだんだん行き詰まるから、ポツリポツリと出しているのです。<br/><br/>ですから私は将来日本美術のためとお寺を救うためにも仕事をしなければならないということになります。<br/><br/>ですから仏滅と言いますが、なるほど、霊的でなく物質的にも仏滅です。<br/><br/>お寺に飾る仏もなくなりますから本当の伽藍堂（がらんどう）です。<br/><br/>大体嵯峨にはそういう美術館を造るつもりです。<br/><br/>熱海の美術館は大きいですから、そういった仏も大いに紹介して、日本の彫刻美と仏画を世界中に知らせたいと思ってます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

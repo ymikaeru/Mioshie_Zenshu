@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>omamori3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御守の偉力 『栄光』87号、昭和26(1951)年1月17日発行 先日はレントゲンよりも御守から発する光の方が、強力であるという実例をかいた記事は、読者は今更ながら感激したであろうが、今度更に、別な奇蹟の報告があったので、左にかいてみると共に、その解説をしてみるが、これは実に珍しい、今までにも例を見なかった事である、これによってみても、いかに霊界が変って来たかという事で、それは神威が益々発揮されるようになったかである。<br><br> 報告の通りとすれば、御守から発する偉力が、台風のごとき響きを発し、それが隣家にまで及び、隣家の主人は、塀が倒れると思い、突支棒（つっかいぼう）をしたというのであるから驚くべき奇蹟である、これは何がために起ったかというと、神様は御守の偉力を色々な奇蹟によって、一日も早く人間に分らせ、信じさせようとされる一つの現われである。<br><br> という事は、いよいよ重大時局となり、いつ原子爆弾のごとき、危機に見舞われるかも知れないという、深刻な心配に対し、神様に御委せすれば、安心であるという事をお知らせになるのである、それはたとえ、原爆たりとも、御守を身につけている以上、驚くには当らないという事を、如実に示されたのである。<br><br> 相つぐ奇蹟 京都府 天国大教会直心中教会 神田昭二（23） 今迄が典型的な無神論者とも申すべき私がペンをとる事自体が既に一大奇蹟ではないでしょうか、以下簡単ですが御報告させて戴きます。<br><br> 忘れも致しませぬ昨年十二月十九日に私と致しましては、初めての結核患者をお預り致しました、しかし大分衰弱がひどく心配致します事もございましたので、幹部の山本様に一緒に行って戴きましたのが、同月二十四日の午後一時頃でした。<br><br>早速山本様は御病人の枕元に坐られ、御浄霊の為祝詞を奉唱し始められました、私と御病人のお母さんは山本様の左後方に坐り、私も一生懸命に大光明如来様をお念じ致しておりました、二回目の奉唱を終り、丁度三回目の奉唱の中頃から、私の右側におられましたお母さんの様子が次第におかしくなり、合掌しております両の手が急に霊動し始めまして、私が呆然としております間もなく、ツツーと二歩許りいざり足で前に進まれ、山本様の方を向ってピタリと平伏されました、余りの事に私も驚きまして山本様の肩を突いて知らそうとしましたが、平然として最後迄奉唱され、その間お母さんは、平伏し続けていられました、奉唱が終り「どうされましたか」と山本さんの声にお母さんはハッと我に帰り、感極った様子で語られるには、「私は何気なく眼を閉じておりましたが、三度日の祝詞の中頃より前方に金の光が一杯に差し込み、目もくらむ許りの中から丁度この位（手で示されたのは約一尺七、八寸位）の観音様が急にスーッと現れまして、山本さんの右側に立たれました、両眼は涼しく開けておられ、畳の上から約四、五寸位浮き上って両手は静かに合していられる、金々満々とした、それは立派な観音様でした」との言葉に私は全くボンヤリしてしまいました、そして心の底から勿体ない有難いという感情が湧上って参りました。<br><br> さてそれからというものは奇蹟の連続でありましたが、到底一々書き表わせません、とにかく吉田様（患者さん宅の姓）のお宅に前から御祭りしてあります神棚の前に置いてある色々なものが、私達が寄せて戴いている中に、全部消えて無くなるような事が起りました、それで吉田様も翌月二十八日よりの教修を受けられまして、三十日にお守を戴かれましたがその晩不思議な事が起りました、翌三十一日に私がお伺い致しますと私の顔を見るなり家の方達が口々に語られるのは次のようなことでした。<br><br>「私が昨晩寝みます時、お守をかけたまま寝るのは何だか勿体ない、息苦しい感じがした為床の間に掛けて寝みました。<br><br>ところが、漸く寝付いたと思われる十二時少し前頃でしたか、物凄い程の音と家鳴りが聞え始めましたので、家中が皆起きましたところ、音はちょうど二階の床の間の付近より聞えます、それはゴーッというような汽車が蒸気を噴き出す時とよく似た音が絶間なく聞え、その付近は震動を続け、物凄いばかりの音はちょうど掛けてある御守から噴き出ているように思われました、余りの物凄さに暫く皆呆然としておりましたが、私もやっと気が付き、心の中で一生懸命自分の不注意をお詫び致しまして、お守を首から掛けましたところ今迄の音が次第に西方に遠ざかって行き、震動も止り元の静かな状態に戻りました、翌日聞いたのですが隣の家では、真夜中に高塀が倒壊しそうになり、皆が網をかけて倒れるのを防ぐのに一生懸命だったそうです。<br><br>「私は夜中に風が吹いた等少しも存じません」のに横から平常無口な御主人までが「あの音は物凄かった、終りに西の方に消えて行ったのは不思議でした」と言われる位ですから、お家の方達がいかに驚かれたかがよく解ります。<br><br> それを聞いた私の手は無意識の中に胸に戴いた「御守」をしっかりと押えておりました、噫々！ 御霊力の偉大さ！私は救われゆく自分の幸福を思い、神様の道具となって人類救済の為に働かせて戴く決心を益々強くしたのでございます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Imenso Poder do Ohikari</h2>
 <p>Em uma publicação recente, o relato verídico sobre a luz emanada do Ohikari ser mais potente que a dos raios X certamente renovou a emoção e a convicção de nossos leitores. Agora, todavia, recebemos o informe de um milagre distinto, o qual, além de transcrevermos a seguir, faremos uma breve análise. Trata-se de um acontecimento verdadeiramente raro, sem precedentes em nossos registros, que demonstra o quanto o Mundo Espiritual tem se transformado e, por conseguinte, o quanto o Poder Divino se manifesta com crescente intensidade.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Diante daquela cena pavorosa, ficamos todos paralisados por um tempo. Quando finalmente recuperei a consciência, pedi perdão mentalmente por minha desatenção e coloquei o Ohikari em meu pescoço. No mesmo instante, o som começou a se afastar gradualmente em direção ao oeste, a vibração cessou e a casa voltou à sua quietude original. No dia seguinte, soubemos que a família vizinha passou a madrugada inteira tentando escorar um muro alto que ameaçava desabar. Eles disseram: ‘O mais estranho é que não sentimos o menor sopro de vento durante a noite’”.</p>
 <p>Ao lado, o dono da casa, um homem geralmente calado, interveio: “Aquele som foi apavorante. E foi muito estranho como ele se dissipou na direção oeste no final”. Suas palavras revelam o quão profundamente a família ficou impressionada.</p>
 <p>Ao ouvir aquele testemunho, inconscientemente, minha mão apertou com firmeza o Ohikari que trazia ao peito. Oh, a magnitude do Poder Divino! Consciente da felicidade de estar sendo salvo, reforcei ainda mais minha decisão de me dedicar à salvação da humanidade como um instrumento de Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御守の偉力 『栄光』87号、昭和26(1951)年1月17日発行 先日はレントゲンよりも御守から発する光の方が、強力であるという実例をかいた記事は、読者は今更ながら感激したであろうが、今度更に、別な奇蹟の報告があったので、左にかいてみると共に、その解説をしてみるが、これは実に珍しい、今までにも例を見なかった事である、これによってみても、いかに霊界が変って来たかという事で、それは神威が益々発揮されるようになったかである。<br/><br/> 報告の通りとすれば、御守から発する偉力が、台風のごとき響きを発し、それが隣家にまで及び、隣家の主人は、塀が倒れると思い、突支棒（つっかいぼう）をしたというのであるから驚くべき奇蹟である、これは何がために起ったかというと、神様は御守の偉力を色々な奇蹟によって、一日も早く人間に分らせ、信じさせようとされる一つの現われである。<br/><br/> という事は、いよいよ重大時局となり、いつ原子爆弾のごとき、危機に見舞われるかも知れないという、深刻な心配に対し、神様に御委せすれば、安心であるという事をお知らせになるのである、それはたとえ、原爆たりとも、御守を身につけている以上、驚くには当らないという事を、如実に示されたのである。<br/><br/> 相つぐ奇蹟 京都府 天国大教会直心中教会 神田昭二（23） 今迄が典型的な無神論者とも申すべき私がペンをとる事自体が既に一大奇蹟ではないでしょうか、以下簡単ですが御報告させて戴きます。<br/><br/> 忘れも致しませぬ昨年十二月十九日に私と致しましては、初めての結核患者をお預り致しました、しかし大分衰弱がひどく心配致します事もございましたので、幹部の山本様に一緒に行って戴きましたのが、同月二十四日の午後一時頃でした。<br/><br/>早速山本様は御病人の枕元に坐られ、御浄霊の為祝詞を奉唱し始められました、私と御病人のお母さんは山本様の左後方に坐り、私も一生懸命に大光明如来様をお念じ致しておりました、二回目の奉唱を終り、丁度三回目の奉唱の中頃から、私の右側におられましたお母さんの様子が次第におかしくなり、合掌しております両の手が急に霊動し始めまして、私が呆然としております間もなく、ツツーと二歩許りいざり足で前に進まれ、山本様の方を向ってピタリと平伏されました、余りの事に私も驚きまして山本様の肩を突いて知らそうとしましたが、平然として最後迄奉唱され、その間お母さんは、平伏し続けていられました、奉唱が終り「どうされましたか」と山本さんの声にお母さんはハッと我に帰り、感極った様子で語られるには、「私は何気なく眼を閉じておりましたが、三度日の祝詞の中頃より前方に金の光が一杯に差し込み、目もくらむ許りの中から丁度この位（手で示されたのは約一尺七、八寸位）の観音様が急にスーッと現れまして、山本さんの右側に立たれました、両眼は涼しく開けておられ、畳の上から約四、五寸位浮き上って両手は静かに合していられる、金々満々とした、それは立派な観音様でした」との言葉に私は全くボンヤリしてしまいました、そして心の底から勿体ない有難いという感情が湧上って参りました。<br/><br/> さてそれからというものは奇蹟の連続でありましたが、到底一々書き表わせません、とにかく吉田様（患者さん宅の姓）のお宅に前から御祭りしてあります神棚の前に置いてある色々なものが、私達が寄せて戴いている中に、全部消えて無くなるような事が起りました、それで吉田様も翌月二十八日よりの教修を受けられまして、三十日にお守を戴かれましたがその晩不思議な事が起りました、翌三十一日に私がお伺い致しますと私の顔を見るなり家の方達が口々に語られるのは次のようなことでした。<br/><br/>「私が昨晩寝みます時、お守をかけたまま寝るのは何だか勿体ない、息苦しい感じがした為床の間に掛けて寝みました。<br/><br/>ところが、漸く寝付いたと思われる十二時少し前頃でしたか、物凄い程の音と家鳴りが聞え始めましたので、家中が皆起きましたところ、音はちょうど二階の床の間の付近より聞えます、それはゴーッというような汽車が蒸気を噴き出す時とよく似た音が絶間なく聞え、その付近は震動を続け、物凄いばかりの音はちょうど掛けてある御守から噴き出ているように思われました、余りの物凄さに暫く皆呆然としておりましたが、私もやっと気が付き、心の中で一生懸命自分の不注意をお詫び致しまして、お守を首から掛けましたところ今迄の音が次第に西方に遠ざかって行き、震動も止り元の静かな状態に戻りました、翌日聞いたのですが隣の家では、真夜中に高塀が倒壊しそうになり、皆が網をかけて倒れるのを防ぐのに一生懸命だったそうです。<br/><br/>「私は夜中に風が吹いた等少しも存じません」のに横から平常無口な御主人までが「あの音は物凄かった、終りに西の方に消えて行ったのは不思議でした」と言われる位ですから、お家の方達がいかに驚かれたかがよく解ります。<br/><br/> それを聞いた私の手は無意識の中に胸に戴いた「御守」をしっかりと押えておりました、噫々！ 御霊力の偉大さ！私は救われゆく自分の幸福を思い、神様の道具となって人類救済の為に働かせて戴く決心を益々強くしたのでございます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

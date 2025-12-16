@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mei051</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様篇 ５ 051-063 箱根、熱海、小田原、金龍神、日本寺 051 型について 大先生は種々型をなさって御いでになると伺っていますが、その基礎的な知識について―― 型は神様がやっているので、大先生がやっておられる訳ではない。<br><br>これについては今は言えない。<br><br>時期が来れば話す。<br><br>（S23. 6.28） 052 型の意義 大先生様の御話に「天国の模型」とか「何々の型」とかいう御言葉がよく拝されますが、この「型」の意義について御教示下さいませ。<br><br> 似た小さいもの、模型である。<br><br> 053 型――浄める 東京世田谷区経堂町にて、六月十二日午前十一時頃夫が妻を浄霊しようとして、善言讃詞をあげておりましたところ霊憑りとなり、合掌した手を強く上下動し、「神だから祝詞をあげてくれ」と申し、早速奏上したところ、合掌の手を上に高く挙げ涙を流しながら「皆様太陽が昇ります」と申し、突然箱根の方向に向い、平伏し「大先生様御教え頂きます」「三十二歳の婦人、御守護御願い申し上げます」と申し、おしぼりで全家族の手、顔を浄めさせ、大先生様に御救い戴きました御礼を全家族揃って申し上げさせ、更に「井戸の水を洗面器にて三度流し、また泥溝を浄めるように」と申し離れました。<br><br> この霊は、どのような霊で御座いましょうか。<br><br>また何か井戸、泥溝と関係が御座いましょうか。<br><br> これは霊界で極楽や天国へ救われた霊で、そういう霊は神といってもいい。<br><br>神格を得たもの即ち神格者である。<br><br> 祖先が、これほどに喜んでいる事を知らしたのである。<br><br>後は間違っていないから結構である。<br><br> 「井戸水を流した」のは、これは型である。<br><br>霊界の事は型というものをやる。<br><br>型については馬鹿々々しい事がある。<br><br>（一家を浄める型をしたのである） 大本教の教祖は十枚の蘭に水をかけた。<br><br>しかし意味はある。<br><br>十葉（東洋）の波瀾を鎮めるというのである。<br><br>そういう事は間違ってはいない。<br><br>（S24. 6.22） 054 バッジの真義、（仏教の行り方と日本語の階級性、文化と幸福、力と観音の働き）、十字文化建設の型、箱根・熱海・小田原の意義 バッジは皆判っているか。<br><br>上が日、次が月、外が大地で、日月地になっている。<br><br> 真中の十が霊体結ぶ。<br><br>東西文明、経と緯と結ぶ訳である。<br><br>今迄の文化は別々になっていた。<br><br> 仏教は東洋で、経であるから祖先崇拝で、先祖を祀る。<br><br>そして、子孫のためを思うやり方になっている。<br><br> 経の一番中心が日本、これは言葉でもよく判る。<br><br>アメリカなど、どんな偉い人でも、相手は汝、私は私と簡単に片づく。<br><br>言葉に階級性がない。<br><br> 日本には非常に階級がある。<br><br>特に婦人など、奥様、妻君、新造、山の神、女房、嬶、○○の方――など種々ある。<br><br> 男でも、天皇陛下、殿下、閣下、貴下等いろいろ階級性がある。<br><br>いかに階級的であるかが判る。<br><br> アメリカは緯で、経の日本へ民主的という緯の棒が入った。<br><br>民主主義を日本へ宣伝される。<br><br>それで十字になる。<br><br>これが本当の文化である。<br><br> 今迄は体的文化が進んだ。<br><br>半分だけ進歩したのである。<br><br>今は半文明時代といっていい。<br><br>それで、いくら進歩しても幸福は増さぬ。<br><br>人間の幸福はちっとも増さぬ。<br><br>不幸を増大すべき働きしている。<br><br>それで、体的文化進み、霊的文化も進ます。<br><br> 体的文化は日進月歩である。<br><br>一方は何百年何千年前に出来たものでやっている。<br><br>どうしても新しい宗教が出来ねば本当の文化が出来ぬ。<br><br>十字になれば非常な幸福が得られるようになる。<br><br>そうするには型を要する。<br><br> 神様は非常に大きな事をするに極く小さい、見えない事を始める。<br><br> 人間の肉体と同じ霊があり、その中心に魂がある。<br><br>人間は神様の分霊といってもいい。<br><br>本当いうとそうはいえぬ。<br><br> いかなるものも新しく出来る場合極く小さい。<br><br>新しいものの生れる場合、一番小さい種が出来る。<br><br> そのお働きが観音様で、観音様は男（経）であり女（緯）で、両方である。<br><br> マークはその意味である。<br><br> 十字架もその暗示である。<br><br> 将来、経緯の文化を結ぶ事もある。<br><br> そこで天国が必要で、東西の結ばった真中、それが観音様の働きである。<br><br>十である。<br><br> 霊体一致して力が出る。<br><br>霊が人間の体へ入る。<br><br>そうして経緯結んで力がある。<br><br> 東西文化が結合すると本当の力が出る。<br><br>すると悪魔がいかに侵しても犯されぬ。<br><br>悪魔に犯されるのは、力が足りぬからである。<br><br> 東と西の間が箱根で、東西結ぶ型を――ここを選んだ訳である。<br><br>玉川がそういう位置になる。<br><br>西東の間で、東へ寄った方である。<br><br> 神山が東西の境界線になっている。<br><br>神山荘、早雲寮とした。<br><br> 日は五、ハは火（ハに人で火になる）、コはコル――大きいものを詰めて小さくする意、ネは根本。<br><br> アは火、熱海は外国、洋館になる。<br><br> 七は小田原になる。<br><br> アは天、タは平らな所、ミは水。<br><br>故に月である。<br><br> それで、火水土、五六七の順序になる。<br><br> そういう訳で、道場が出来たのである。<br><br>（S23夏） 055 ハコネの意義 観音様は男に非ず女に非ず、火と水――。<br><br>東洋精神文明―。<br><br> 函―は完、関、八の意から言っている。<br><br>関東、関西となる。<br><br> 八は火、火はハと人、コは凝る。<br><br>火の塊。<br><br>不二が元になる。<br><br> アイウエオのオは下の事、小。<br><br>（S23. 9.22） 056 箱根、熱海の意義 このような木は今絶対に出来ない。<br><br>これが買ってあったために、この道場が出来たのである。<br><br>これは神社の木を五十本ばかり切って、小田原で製材したものである。<br><br> 強羅は西と東の真中になる。<br><br>箱根を境にして東が関東、西が関西になる。<br><br>関東関西の中間が神山となる。<br><br>と云って、神山へ家を建てる事も出来ぬので、神山に一番近いこの地に建てた訳である。<br><br>神山から向うが西になる。<br><br>神山の意味で、ここの家を神山荘とし、この道場を早雲山の意味で早雲寮とした。<br><br>東西の真中ということは、観音ということになる。<br><br>東西は火と水で云えば、火は五で水は六で五六即ちいづのめの神となる。<br><br>五六が五六七でミロクとなる。<br><br>東西に分けると、東陽西陰となる。<br><br> いづのめ神は仏に化身して、観音となられる。<br><br>この場所は非常に意味があり、ここへまず出来て、次に熱海へ六百六十坪の西洋館が出来る。<br><br>箱根は日本になるから木でつくり、熱海は外国になるから、西洋式で椅子席になる。<br><br>小田原は日本式と西洋式、支那式等、各国の様式を採り入れたものを造る。<br><br> 言葉から云うと、ごは五であり、この土地は五になる。<br><br>火で、らは螺旋状に廻る。<br><br>言霊でゴーラとは、火が渦巻いて拡がってゆくこと。<br><br> アは天、タは平の所の真中 にもなる。<br><br>太陽の黒点にもなる。<br><br>太陽の黒点は大きくなったり、小さくなったりする。<br><br>これは太陽の呼吸運動に因るので、呼（は）いた時は大きくなる。<br><br>太陽は十一年目に一ぺん呼吸する。<br><br>地球の息吐き切った時は、八月十日頃。<br><br>引き切った時は冬である。<br><br>ミは水である。<br><br>火は経であり山であり、水は緯であり海である。<br><br> 水あるいは月の世界は西洋になる。<br><br>水の天国、月の天国となる。<br><br>仏教でいえば浄土になる。<br><br> 箱根は極楽になる。<br><br>小田原は第三天国と八衢になるから四辻になっている。<br><br>西へも東へも連絡する便宜な地点で、これは八衢の小さい型となる。<br><br>これで火水土となる。<br><br>即ち五六七のミロクが型に表われたのが強羅、熱海、小田原となる。<br><br>東京を中心とすると、箱根は陰即ち女となる。<br><br>日光は陽即ち男になる。<br><br>故に箱根と日光は関係がある。<br><br>将来日光の戦場原へいろいろの建物が出来る。<br><br>東照宮はその模型である。<br><br>日光が地上天国の中心になる。<br><br>山あり滝あり湖水があるが、箱根には滝がない。<br><br>日光ではあらゆる風景が取入れてある。<br><br> 要するに神様のプログラムは既に出来ているので、時期が来ると共に自然に出来てゆくのである。<br><br>（S23） 057 日光、箱根、熱海、小田原 熱海は仏教でいえば浄土になる。<br><br>箱根は極楽になる。<br><br>小田原は第三天国と八衢になるから四辻になっている。<br><br>西へも東へも連絡する便宜な地点で、これは八衢の小さい型となる。<br><br>これで火水土の力となる。<br><br>即ち五六七のミロクが形に表われたのが強羅、熱海、小田原となる。<br><br> 東京を中心とすると、箱根は陰即ち女となる。<br><br>日光は陽、即ち男になる。<br><br>故に箱根と日光は関係がある。<br><br>将来日光の戦場ケ原へいろんな建物が出来る。<br><br>東照宮はその模型である。<br><br>日光が地上天国の中心になる。<br><br>山あり滝あり湖水があるが、箱根には滝がない。<br><br>日光ではあらゆる風景が採り入れてある。<br><br>要するに神様のプログラムは既に出来ているので、時期が来ると共に自然に出来てゆくのである。<br><br>（S23） 058 法隆寺と仏滅、（日本寺と型）、仏教芸術 現在、法隆寺は信仰の対象では無く、往時の日本文化の貴い資料として後世に保存する目的と存じますが、昼の文化建設の前には旧文化崩潰の線に神の御意図は厳正であるので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> また、法隆寺保存の衝に当る重要の人は、次々に死去されて行くと云う事を聴きますが、これは何か霊的の関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 仏滅の時期へ入っているのである。<br><br>法隆寺は仏教芸術の根本で、千三百年前聖徳太子が造った。<br><br>それから仏教芸術が盛んになった。<br><br>仏教の功罪を考えるに、芸術について仏教の功績は偉大なものがある。<br><br> 音曲、絵画、彫刻等仏教が根本になっている。<br><br>民衆芸術としての音楽――すべての歌曲はお経が元である。<br><br> お経から謡曲になり、謡曲から種々長唄、常磐津等が生まれた。<br><br>浪曲は説教節から出ているが、これは坊主が説教するのに、三味線等の楽器を入れて歌ったものである。<br><br> 芸術に対する功績は実に偉大である。<br><br>その元たる法隆寺は実に惜しいが、深い意味があろう。<br><br> 昭和六年六月十五日、三十幾人を連れて房州鋸山の日本寺へ行った事がある。<br><br>その時から昼の世界となった。<br><br>日本寺へ登ってみると――十四日一泊し、十五日暁方早く山へ登った。<br><br>それは乾坤山日本寺という。<br><br>山の中腹から頂上にあらゆる仏像があり、釈迦、阿弥陀、観音、阿難、迦葉（かしょう）等種々ある。<br><br>勢至、不動等も網羅している。<br><br>また、橄欖樹という樹があり、釈迦は昔、菩提樹下石上に行（業）をしたという。<br><br>それで、日本における仏界の型だと思った。<br><br>仏界は夜の世界の間で、日本寺が黎明となるという意味である。<br><br>その後火事で焼けてしまった。<br><br>これが仏界の元である。<br><br> 神様の事は、大きい変化は小さく、極く小さくされる。<br><br>人間一人が世界の型になる場合があり、果物のようなもので、実、皮――種というようになっている。<br><br>霊体でも、心から魂、霊子となり、霊子は神界――。<br><br>精虫のようなものである。<br><br>小さい元が変化する。<br><br>それで世界がどうなるか判る。<br><br> 日本の仏界の元は日本寺であり、そこから黎明になるべき名である。<br><br>仏教芸術の元が焼けるべき型がなくてはならぬ。<br><br>今度は型は残っているから、全部消滅したんではない。<br><br>修復して出来る方が新しいものが出来るから、反っていい。<br><br> 故に、悲しくもあり悲しくもなしという訳である。<br><br>もっと大きく破損して、新しく大きくやり直さなくてはならぬかもしれない。<br><br>（S24. 2. 1） 059 金堂焼失と日本寺、（日本の芸術と仏教） 法隆寺の金堂が千数百年も存続した事は、神様の御守護があったからだと思いますが、このたび焼けたと云う事は、いかなる事によるものでございましょうか。<br><br> 焼けるのが本当で、止むを得ぬ。<br><br>仏滅の時期へ入っている。<br><br>一三○○年前聖徳太子が作った。<br><br>仏教芸術の本を作った―即ち仏教の本である。<br><br>故に仏の滅する時は無くならなくてはならぬ。<br><br>房州日本寺も焼けた。<br><br>これは日本の仏界の型である。<br><br>日本寺の上にはあらゆる仏体がある。<br><br>六月十五日が黎明で、岩戸開きに行ったのである。<br><br>それから十年位経って焼けた。<br><br>その次に仏教芸術弘通の初めたる法隆寺が焼けた。<br><br>仏滅の世になるに、当然あるべきである。<br><br>日本の芸術は仏教が元である。<br><br>長唄は謡曲から、謡曲はお経から、浪花節は説教節から、説教節は坊主の経から出てる。<br><br> 絵画彫刻も最初は仏像である。<br><br> 仏教の一番の功績は芸術である。<br><br>日本の芸術は仏教が生んだといっていい。<br><br>（S24.１.28） 060 金堂焼失の意味、（日本寺について） 法隆寺金堂の火災は霊的にいかなる意味がございましょうか。<br><br> 仏界の元で、仏滅があるとすれば止むを得ぬ。<br><br>以前型があった。<br><br>岩戸開きのため、昭和六年六月十四日晩御出発、日本寺へ泊らる。<br><br>原田祖岳という禅坊主で、達磨をかくのが巧い。<br><br> 清澄山―日蓮が東へ向って法華経を唱えた一番最初の山。<br><br>これがすぐ前にある。<br><br>日蓮のやった事に関係がある。<br><br>その山にあらゆる仏界のものがあった。<br><br>その寺には橄欖樹があり、菩提樹の樹下というのがそれである。<br><br>その時仏界の型と思った。<br><br> 日本寺は今から五、六年前（十四年十一月）に焼けた。<br><br>再建は不可能となった。<br><br>これが仏界のなくなる第一歩である。<br><br> 金堂の十二の絵は仏界の有名な仏ばかりである。<br><br>仏教の各宗がやがてやれなくなるであろう。<br><br> 仏教芸術―物質的の元、元のものからこうなった。<br><br>仏教の各宗は財政的に困っている。<br><br>高野山あたり、去年七十の寺から千五百万円集めたのがやっとであった。<br><br>本願寺では今年蓮如上人の四五○回忌に一億集まったが、募集費が八千万円掛った。<br><br> 天理教、金光教位である。<br><br>（S24. 1.29) 061 法隆寺焼失と夜昼転換 法隆寺はどうして焼けたのでしょうか。<br><br> 仏滅は夜の世界の終る事、仏は夜の世界の救いのやり方で、神は仏に化けられた。<br><br> 神は昼間の働きであるが、霊界が夜の世界であったので、昼間の働きが出来なかった。<br><br>昼間になるについて、夜のものはなくなる。<br><br>宗教からいえば夜の世界はなくなる。<br><br>現象的にいっても大転換し、文化の転換が行なわれ、昼になると戦争はなくなる。<br><br>戦争などは夜の世界のものである。<br><br> 今昼の世界の焦（頂）点に入っている。<br><br>それで法隆寺の焼けたのは、仏の形の消滅する型になる。<br><br>実際世界的のもので、貴重なものを焼いた。<br><br>そういお理屈づけるのは怪しからんという事になろうが、焼けたのは事実である。<br><br> あらゆるものは偶然はない。<br><br>必然の理由がある。<br><br>やはり仏滅の一つの表われと解していい。<br><br>吾々の方は霊的解釈であるから、体的とは違う場合がある。<br><br> 昭和六年六月十五日、安房の日本寺へお出でになった。<br><br>乾坤山日本寺といい、ここにはあらゆる仏像があり、菩提樹があり橄欖樹がある。<br><br>太古からあるが、神様が世界経綸をせらるる場合、まず型をやられる。<br><br>これは人間の肉体と同じく、胎内に宿る時は極く小さいものである。<br><br>世界の動きでもある型でやられる。<br><br>戦争でも国際問題のその動きなど、二十年前に型で示された。<br><br> それで日本寺は仏界の型で、これが昼間となる第一歩が始まった。<br><br>日本寺からお帰りになられ小池氏が夢をみた。<br><br>また山口四郎が、釈迦が墓穴を掘ってる夢をみた。<br><br> 日本寺は十四年の十一月二十六日に焼失し、再建は出来ぬという。<br><br>法隆寺もその意味である。<br><br>（S24. 3.20） 062 法隆寺壁画焼失、（仏像御手許へ集まる） 法隆寺の壁画の焼失は仏滅の世の暗示で御座居ましょうか。<br><br> 仏滅に入った一番最初の表われであろう。<br><br>あれは仏教芸術の根本である。<br><br> 大先生の御手許には今迄仏像類は全然来なかったが、法隆寺が焼けてから（四、五日前か）仏に関するものが御手に入るようになった。<br><br>（S24. 2. 2） 063 法隆寺と僧の醜行等、（仏教の救われる部分） 一月二十六日に奈良県の法隆寺の金堂が僧侶の不注意から火災が起こりました。<br><br>千数百年も経た国宝の建造物や仏画等が焼けました。<br><br>裏面には僧侶の忌はしい女関係等もあった様です。<br><br>これは仏の戒告でしょうか。<br><br>また仏法が滅する時の来た事を神が知らしているのでしょうか。<br><br> 仏滅の表われである。<br><br>僧侶の忌わしい事は殆ど関係ない位である。<br><br>どうしても仏滅の型をやらなくてはならぬ法則である。<br><br>仏教の中でもある部分は救われる。<br><br>救われるのが御手許へ集まった。<br><br>（S24. 2.16）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Jikan Okada — Busca nos Ensinamentos de Meishu-Sama, Volume 5 (051-063: Hakone, Atami, Odawara, o Deus Dragão Dourado e o Templo Nihon-ji)</h2>
 <h3>051 Sobre o Modelo</h3>
@@ -174,5 +326,48 @@ function toggleLang(lang) {
 <h3>063 O Horyu-ji e a Conduta Imoral dos Monges, (A Parte do Budismo que será Salva)</h3>
 <p><strong>Pergunta:</strong> Em 26 de janeiro, o Salão Dourado do Templo Horyu-ji, na província de Nara, incendiou-se por descuido de um monge. Edifícios e pinturas budistas, tesouros nacionais com mais de mil anos, foram queimados. Nos bastidores, parece haver também relações imorais de monges com mulheres. Seria isto uma advertência de Buda? Ou seria um aviso de Deus de que chegou o tempo do fim da lei búdica?</p>
 <p><strong>Meishu-Sama:</strong> É uma manifestação do declínio do budismo. A conduta imoral dos monges é um fator quase irrelevante. O incêndio foi uma lei inevitável para que o modelo do declínio do budismo se cumprisse. Contudo, dentro do budismo, uma parte será salva. E o que será salvo já começou a se reunir ao meu redor. (16 de fevereiro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様篇 ５ 051-063 箱根、熱海、小田原、金龍神、日本寺 051 型について 大先生は種々型をなさって御いでになると伺っていますが、その基礎的な知識について―― 型は神様がやっているので、大先生がやっておられる訳ではない。<br/><br/>これについては今は言えない。<br/><br/>時期が来れば話す。<br/><br/>（S23. 6.28） 052 型の意義 大先生様の御話に「天国の模型」とか「何々の型」とかいう御言葉がよく拝されますが、この「型」の意義について御教示下さいませ。<br/><br/> 似た小さいもの、模型である。<br/><br/> 053 型――浄める 東京世田谷区経堂町にて、六月十二日午前十一時頃夫が妻を浄霊しようとして、善言讃詞をあげておりましたところ霊憑りとなり、合掌した手を強く上下動し、「神だから祝詞をあげてくれ」と申し、早速奏上したところ、合掌の手を上に高く挙げ涙を流しながら「皆様太陽が昇ります」と申し、突然箱根の方向に向い、平伏し「大先生様御教え頂きます」「三十二歳の婦人、御守護御願い申し上げます」と申し、おしぼりで全家族の手、顔を浄めさせ、大先生様に御救い戴きました御礼を全家族揃って申し上げさせ、更に「井戸の水を洗面器にて三度流し、また泥溝を浄めるように」と申し離れました。<br/><br/> この霊は、どのような霊で御座いましょうか。<br/><br/>また何か井戸、泥溝と関係が御座いましょうか。<br/><br/> これは霊界で極楽や天国へ救われた霊で、そういう霊は神といってもいい。<br/><br/>神格を得たもの即ち神格者である。<br/><br/> 祖先が、これほどに喜んでいる事を知らしたのである。<br/><br/>後は間違っていないから結構である。<br/><br/> 「井戸水を流した」のは、これは型である。<br/><br/>霊界の事は型というものをやる。<br/><br/>型については馬鹿々々しい事がある。<br/><br/>（一家を浄める型をしたのである） 大本教の教祖は十枚の蘭に水をかけた。<br/><br/>しかし意味はある。<br/><br/>十葉（東洋）の波瀾を鎮めるというのである。<br/><br/>そういう事は間違ってはいない。<br/><br/>（S24. 6.22） 054 バッジの真義、（仏教の行り方と日本語の階級性、文化と幸福、力と観音の働き）、十字文化建設の型、箱根・熱海・小田原の意義 バッジは皆判っているか。<br/><br/>上が日、次が月、外が大地で、日月地になっている。<br/><br/> 真中の十が霊体結ぶ。<br/><br/>東西文明、経と緯と結ぶ訳である。<br/><br/>今迄の文化は別々になっていた。<br/><br/> 仏教は東洋で、経であるから祖先崇拝で、先祖を祀る。<br/><br/>そして、子孫のためを思うやり方になっている。<br/><br/> 経の一番中心が日本、これは言葉でもよく判る。<br/><br/>アメリカなど、どんな偉い人でも、相手は汝、私は私と簡単に片づく。<br/><br/>言葉に階級性がない。<br/><br/> 日本には非常に階級がある。<br/><br/>特に婦人など、奥様、妻君、新造、山の神、女房、嬶、○○の方――など種々ある。<br/><br/> 男でも、天皇陛下、殿下、閣下、貴下等いろいろ階級性がある。<br/><br/>いかに階級的であるかが判る。<br/><br/> アメリカは緯で、経の日本へ民主的という緯の棒が入った。<br/><br/>民主主義を日本へ宣伝される。<br/><br/>それで十字になる。<br/><br/>これが本当の文化である。<br/><br/> 今迄は体的文化が進んだ。<br/><br/>半分だけ進歩したのである。<br/><br/>今は半文明時代といっていい。<br/><br/>それで、いくら進歩しても幸福は増さぬ。<br/><br/>人間の幸福はちっとも増さぬ。<br/><br/>不幸を増大すべき働きしている。<br/><br/>それで、体的文化進み、霊的文化も進ます。<br/><br/> 体的文化は日進月歩である。<br/><br/>一方は何百年何千年前に出来たものでやっている。<br/><br/>どうしても新しい宗教が出来ねば本当の文化が出来ぬ。<br/><br/>十字になれば非常な幸福が得られるようになる。<br/><br/>そうするには型を要する。<br/><br/> 神様は非常に大きな事をするに極く小さい、見えない事を始める。<br/><br/> 人間の肉体と同じ霊があり、その中心に魂がある。<br/><br/>人間は神様の分霊といってもいい。<br/><br/>本当いうとそうはいえぬ。<br/><br/> いかなるものも新しく出来る場合極く小さい。<br/><br/>新しいものの生れる場合、一番小さい種が出来る。<br/><br/> そのお働きが観音様で、観音様は男（経）であり女（緯）で、両方である。<br/><br/> マークはその意味である。<br/><br/> 十字架もその暗示である。<br/><br/> 将来、経緯の文化を結ぶ事もある。<br/><br/> そこで天国が必要で、東西の結ばった真中、それが観音様の働きである。<br/><br/>十である。<br/><br/> 霊体一致して力が出る。<br/><br/>霊が人間の体へ入る。<br/><br/>そうして経緯結んで力がある。<br/><br/> 東西文化が結合すると本当の力が出る。<br/><br/>すると悪魔がいかに侵しても犯されぬ。<br/><br/>悪魔に犯されるのは、力が足りぬからである。<br/><br/> 東と西の間が箱根で、東西結ぶ型を――ここを選んだ訳である。<br/><br/>玉川がそういう位置になる。<br/><br/>西東の間で、東へ寄った方である。<br/><br/> 神山が東西の境界線になっている。<br/><br/>神山荘、早雲寮とした。<br/><br/> 日は五、ハは火（ハに人で火になる）、コはコル――大きいものを詰めて小さくする意、ネは根本。<br/><br/> アは火、熱海は外国、洋館になる。<br/><br/> 七は小田原になる。<br/><br/> アは天、タは平らな所、ミは水。<br/><br/>故に月である。<br/><br/> それで、火水土、五六七の順序になる。<br/><br/> そういう訳で、道場が出来たのである。<br/><br/>（S23夏） 055 ハコネの意義 観音様は男に非ず女に非ず、火と水――。<br/><br/>東洋精神文明―。<br/><br/> 函―は完、関、八の意から言っている。<br/><br/>関東、関西となる。<br/><br/> 八は火、火はハと人、コは凝る。<br/><br/>火の塊。<br/><br/>不二が元になる。<br/><br/> アイウエオのオは下の事、小。<br/><br/>（S23. 9.22） 056 箱根、熱海の意義 このような木は今絶対に出来ない。<br/><br/>これが買ってあったために、この道場が出来たのである。<br/><br/>これは神社の木を五十本ばかり切って、小田原で製材したものである。<br/><br/> 強羅は西と東の真中になる。<br/><br/>箱根を境にして東が関東、西が関西になる。<br/><br/>関東関西の中間が神山となる。<br/><br/>と云って、神山へ家を建てる事も出来ぬので、神山に一番近いこの地に建てた訳である。<br/><br/>神山から向うが西になる。<br/><br/>神山の意味で、ここの家を神山荘とし、この道場を早雲山の意味で早雲寮とした。<br/><br/>東西の真中ということは、観音ということになる。<br/><br/>東西は火と水で云えば、火は五で水は六で五六即ちいづのめの神となる。<br/><br/>五六が五六七でミロクとなる。<br/><br/>東西に分けると、東陽西陰となる。<br/><br/> いづのめ神は仏に化身して、観音となられる。<br/><br/>この場所は非常に意味があり、ここへまず出来て、次に熱海へ六百六十坪の西洋館が出来る。<br/><br/>箱根は日本になるから木でつくり、熱海は外国になるから、西洋式で椅子席になる。<br/><br/>小田原は日本式と西洋式、支那式等、各国の様式を採り入れたものを造る。<br/><br/> 言葉から云うと、ごは五であり、この土地は五になる。<br/><br/>火で、らは螺旋状に廻る。<br/><br/>言霊でゴーラとは、火が渦巻いて拡がってゆくこと。<br/><br/> アは天、タは平の所の真中 にもなる。<br/><br/>太陽の黒点にもなる。<br/><br/>太陽の黒点は大きくなったり、小さくなったりする。<br/><br/>これは太陽の呼吸運動に因るので、呼（は）いた時は大きくなる。<br/><br/>太陽は十一年目に一ぺん呼吸する。<br/><br/>地球の息吐き切った時は、八月十日頃。<br/><br/>引き切った時は冬である。<br/><br/>ミは水である。<br/><br/>火は経であり山であり、水は緯であり海である。<br/><br/> 水あるいは月の世界は西洋になる。<br/><br/>水の天国、月の天国となる。<br/><br/>仏教でいえば浄土になる。<br/><br/> 箱根は極楽になる。<br/><br/>小田原は第三天国と八衢になるから四辻になっている。<br/><br/>西へも東へも連絡する便宜な地点で、これは八衢の小さい型となる。<br/><br/>これで火水土となる。<br/><br/>即ち五六七のミロクが型に表われたのが強羅、熱海、小田原となる。<br/><br/>東京を中心とすると、箱根は陰即ち女となる。<br/><br/>日光は陽即ち男になる。<br/><br/>故に箱根と日光は関係がある。<br/><br/>将来日光の戦場原へいろいろの建物が出来る。<br/><br/>東照宮はその模型である。<br/><br/>日光が地上天国の中心になる。<br/><br/>山あり滝あり湖水があるが、箱根には滝がない。<br/><br/>日光ではあらゆる風景が取入れてある。<br/><br/> 要するに神様のプログラムは既に出来ているので、時期が来ると共に自然に出来てゆくのである。<br/><br/>（S23） 057 日光、箱根、熱海、小田原 熱海は仏教でいえば浄土になる。<br/><br/>箱根は極楽になる。<br/><br/>小田原は第三天国と八衢になるから四辻になっている。<br/><br/>西へも東へも連絡する便宜な地点で、これは八衢の小さい型となる。<br/><br/>これで火水土の力となる。<br/><br/>即ち五六七のミロクが形に表われたのが強羅、熱海、小田原となる。<br/><br/> 東京を中心とすると、箱根は陰即ち女となる。<br/><br/>日光は陽、即ち男になる。<br/><br/>故に箱根と日光は関係がある。<br/><br/>将来日光の戦場ケ原へいろんな建物が出来る。<br/><br/>東照宮はその模型である。<br/><br/>日光が地上天国の中心になる。<br/><br/>山あり滝あり湖水があるが、箱根には滝がない。<br/><br/>日光ではあらゆる風景が採り入れてある。<br/><br/>要するに神様のプログラムは既に出来ているので、時期が来ると共に自然に出来てゆくのである。<br/><br/>（S23） 058 法隆寺と仏滅、（日本寺と型）、仏教芸術 現在、法隆寺は信仰の対象では無く、往時の日本文化の貴い資料として後世に保存する目的と存じますが、昼の文化建設の前には旧文化崩潰の線に神の御意図は厳正であるので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> また、法隆寺保存の衝に当る重要の人は、次々に死去されて行くと云う事を聴きますが、これは何か霊的の関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 仏滅の時期へ入っているのである。<br/><br/>法隆寺は仏教芸術の根本で、千三百年前聖徳太子が造った。<br/><br/>それから仏教芸術が盛んになった。<br/><br/>仏教の功罪を考えるに、芸術について仏教の功績は偉大なものがある。<br/><br/> 音曲、絵画、彫刻等仏教が根本になっている。<br/><br/>民衆芸術としての音楽――すべての歌曲はお経が元である。<br/><br/> お経から謡曲になり、謡曲から種々長唄、常磐津等が生まれた。<br/><br/>浪曲は説教節から出ているが、これは坊主が説教するのに、三味線等の楽器を入れて歌ったものである。<br/><br/> 芸術に対する功績は実に偉大である。<br/><br/>その元たる法隆寺は実に惜しいが、深い意味があろう。<br/><br/> 昭和六年六月十五日、三十幾人を連れて房州鋸山の日本寺へ行った事がある。<br/><br/>その時から昼の世界となった。<br/><br/>日本寺へ登ってみると――十四日一泊し、十五日暁方早く山へ登った。<br/><br/>それは乾坤山日本寺という。<br/><br/>山の中腹から頂上にあらゆる仏像があり、釈迦、阿弥陀、観音、阿難、迦葉（かしょう）等種々ある。<br/><br/>勢至、不動等も網羅している。<br/><br/>また、橄欖樹という樹があり、釈迦は昔、菩提樹下石上に行（業）をしたという。<br/><br/>それで、日本における仏界の型だと思った。<br/><br/>仏界は夜の世界の間で、日本寺が黎明となるという意味である。<br/><br/>その後火事で焼けてしまった。<br/><br/>これが仏界の元である。<br/><br/> 神様の事は、大きい変化は小さく、極く小さくされる。<br/><br/>人間一人が世界の型になる場合があり、果物のようなもので、実、皮――種というようになっている。<br/><br/>霊体でも、心から魂、霊子となり、霊子は神界――。<br/><br/>精虫のようなものである。<br/><br/>小さい元が変化する。<br/><br/>それで世界がどうなるか判る。<br/><br/> 日本の仏界の元は日本寺であり、そこから黎明になるべき名である。<br/><br/>仏教芸術の元が焼けるべき型がなくてはならぬ。<br/><br/>今度は型は残っているから、全部消滅したんではない。<br/><br/>修復して出来る方が新しいものが出来るから、反っていい。<br/><br/> 故に、悲しくもあり悲しくもなしという訳である。<br/><br/>もっと大きく破損して、新しく大きくやり直さなくてはならぬかもしれない。<br/><br/>（S24. 2. 1） 059 金堂焼失と日本寺、（日本の芸術と仏教） 法隆寺の金堂が千数百年も存続した事は、神様の御守護があったからだと思いますが、このたび焼けたと云う事は、いかなる事によるものでございましょうか。<br/><br/> 焼けるのが本当で、止むを得ぬ。<br/><br/>仏滅の時期へ入っている。<br/><br/>一三○○年前聖徳太子が作った。<br/><br/>仏教芸術の本を作った―即ち仏教の本である。<br/><br/>故に仏の滅する時は無くならなくてはならぬ。<br/><br/>房州日本寺も焼けた。<br/><br/>これは日本の仏界の型である。<br/><br/>日本寺の上にはあらゆる仏体がある。<br/><br/>六月十五日が黎明で、岩戸開きに行ったのである。<br/><br/>それから十年位経って焼けた。<br/><br/>その次に仏教芸術弘通の初めたる法隆寺が焼けた。<br/><br/>仏滅の世になるに、当然あるべきである。<br/><br/>日本の芸術は仏教が元である。<br/><br/>長唄は謡曲から、謡曲はお経から、浪花節は説教節から、説教節は坊主の経から出てる。<br/><br/> 絵画彫刻も最初は仏像である。<br/><br/> 仏教の一番の功績は芸術である。<br/><br/>日本の芸術は仏教が生んだといっていい。<br/><br/>（S24.１.28） 060 金堂焼失の意味、（日本寺について） 法隆寺金堂の火災は霊的にいかなる意味がございましょうか。<br/><br/> 仏界の元で、仏滅があるとすれば止むを得ぬ。<br/><br/>以前型があった。<br/><br/>岩戸開きのため、昭和六年六月十四日晩御出発、日本寺へ泊らる。<br/><br/>原田祖岳という禅坊主で、達磨をかくのが巧い。<br/><br/> 清澄山―日蓮が東へ向って法華経を唱えた一番最初の山。<br/><br/>これがすぐ前にある。<br/><br/>日蓮のやった事に関係がある。<br/><br/>その山にあらゆる仏界のものがあった。<br/><br/>その寺には橄欖樹があり、菩提樹の樹下というのがそれである。<br/><br/>その時仏界の型と思った。<br/><br/> 日本寺は今から五、六年前（十四年十一月）に焼けた。<br/><br/>再建は不可能となった。<br/><br/>これが仏界のなくなる第一歩である。<br/><br/> 金堂の十二の絵は仏界の有名な仏ばかりである。<br/><br/>仏教の各宗がやがてやれなくなるであろう。<br/><br/> 仏教芸術―物質的の元、元のものからこうなった。<br/><br/>仏教の各宗は財政的に困っている。<br/><br/>高野山あたり、去年七十の寺から千五百万円集めたのがやっとであった。<br/><br/>本願寺では今年蓮如上人の四五○回忌に一億集まったが、募集費が八千万円掛った。<br/><br/> 天理教、金光教位である。<br/><br/>（S24. 1.29) 061 法隆寺焼失と夜昼転換 法隆寺はどうして焼けたのでしょうか。<br/><br/> 仏滅は夜の世界の終る事、仏は夜の世界の救いのやり方で、神は仏に化けられた。<br/><br/> 神は昼間の働きであるが、霊界が夜の世界であったので、昼間の働きが出来なかった。<br/><br/>昼間になるについて、夜のものはなくなる。<br/><br/>宗教からいえば夜の世界はなくなる。<br/><br/>現象的にいっても大転換し、文化の転換が行なわれ、昼になると戦争はなくなる。<br/><br/>戦争などは夜の世界のものである。<br/><br/> 今昼の世界の焦（頂）点に入っている。<br/><br/>それで法隆寺の焼けたのは、仏の形の消滅する型になる。<br/><br/>実際世界的のもので、貴重なものを焼いた。<br/><br/>そういお理屈づけるのは怪しからんという事になろうが、焼けたのは事実である。<br/><br/> あらゆるものは偶然はない。<br/><br/>必然の理由がある。<br/><br/>やはり仏滅の一つの表われと解していい。<br/><br/>吾々の方は霊的解釈であるから、体的とは違う場合がある。<br/><br/> 昭和六年六月十五日、安房の日本寺へお出でになった。<br/><br/>乾坤山日本寺といい、ここにはあらゆる仏像があり、菩提樹があり橄欖樹がある。<br/><br/>太古からあるが、神様が世界経綸をせらるる場合、まず型をやられる。<br/><br/>これは人間の肉体と同じく、胎内に宿る時は極く小さいものである。<br/><br/>世界の動きでもある型でやられる。<br/><br/>戦争でも国際問題のその動きなど、二十年前に型で示された。<br/><br/> それで日本寺は仏界の型で、これが昼間となる第一歩が始まった。<br/><br/>日本寺からお帰りになられ小池氏が夢をみた。<br/><br/>また山口四郎が、釈迦が墓穴を掘ってる夢をみた。<br/><br/> 日本寺は十四年の十一月二十六日に焼失し、再建は出来ぬという。<br/><br/>法隆寺もその意味である。<br/><br/>（S24. 3.20） 062 法隆寺壁画焼失、（仏像御手許へ集まる） 法隆寺の壁画の焼失は仏滅の世の暗示で御座居ましょうか。<br/><br/> 仏滅に入った一番最初の表われであろう。<br/><br/>あれは仏教芸術の根本である。<br/><br/> 大先生の御手許には今迄仏像類は全然来なかったが、法隆寺が焼けてから（四、五日前か）仏に関するものが御手に入るようになった。<br/><br/>（S24. 2. 2） 063 法隆寺と僧の醜行等、（仏教の救われる部分） 一月二十六日に奈良県の法隆寺の金堂が僧侶の不注意から火災が起こりました。<br/><br/>千数百年も経た国宝の建造物や仏画等が焼けました。<br/><br/>裏面には僧侶の忌はしい女関係等もあった様です。<br/><br/>これは仏の戒告でしょうか。<br/><br/>また仏法が滅する時の来た事を神が知らしているのでしょうか。<br/><br/> 仏滅の表われである。<br/><br/>僧侶の忌わしい事は殆ど関係ない位である。<br/><br/>どうしても仏滅の型をやらなくてはならぬ法則である。<br/><br/>仏教の中でもある部分は救われる。<br/><br/>救われるのが御手許へ集まった。<br/><br/>（S24. 2.16）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

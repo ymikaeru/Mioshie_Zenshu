@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>warera</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： われらの任極めて大 発刊一周年を祝して 『新宗教新聞』37号、昭和28(1953)年5月5日発行 今回事務局長大石氏から、今度の記念号に何かかいて欲しいとのお頼みなので、取敢（とりあえ）ず思いついたままを書かして貰うが、私は率直にいってこの新聞は日まだ浅きにかかわらず、仲々よく出来ていると思ってる。<br><br>しかも新宗教という制約もあり、その上宗教それぞれの特徴もあり、それを按配（あんばい）よく扱うのであるから、仲々骨も折れようが、それを克服して公平な編集振りは多とするに足ると共に、堅実な歩みを続けつつあるのは頼もしい。<br><br> つくづく今日の世相を見る時、人間は余りにも物質的功利的に走り、何事も形のみに囚われる結果、社会悪は増長し、到るところ忌わしい問題や悲劇が生まれているのは周知の通りであって、これが文化の進歩としたら、長大息せざるを得ないのである。<br><br>なるほど日進月歩物質文化は益々進展し、止まるところを知らない有様であるにかかわらず、右のようであるとしたら、そこに何か欠陥がなくてはならないはずである。<br><br>そうして人間最大の欲求としては、何といっても幸福の二字であろう。<br><br>ところが文化が進歩すればする程、幸福どころか反って悩みは増すばかりである。<br><br>この原因こそいわずと知れた唯物科学偏重のためであるから、これを救うとしたらどうしても精神主義、すなわち唯心思想を涵養（かんよう）しなければならない事は分り切った話であり、かつその役目こそ宗教であるから、われわれの任たるや重かつ大なりというべきである。<br><br> そうして昔からその時代相応の幾多の聖者偉人が生まれ、尊き教を説き、一身を犠牲にしてまで救世済民に尽した業績は、今なお燦（さん）として輝いている。<br><br>ところが遺憾な事には時代の変遷は、いつまでも既成宗教のあり方では、どうにもならなくなって来たのは事実がよく示している。<br><br>それは科学の驚くべき進歩によって、科学によらざれば何事も解決出来ないとする現代人の考え方である。<br><br>そのような訳で宗教は科学に押潰されて光を失い、今日のごとき無神思想瀰漫（びまん）の社会となったのである。<br><br>ところが時の進むに従い、今度は科学万能の考え方に亀裂を生じ科学のみでは真の幸福は得られないことがわかり、再び宗教に求めようとするが、今更既成宗教に期待はかけられず、ここに新しい宗教に着目したのが新宗教発展の一つの動機であろう。<br><br>いわば時代が新宗教を生んだといってもよかろう。<br><br>この要望に応えるべく日夜心身を砕いて努力しているわれわれとしては、要するに物質的にはますます科学の進歩を促進し、精神的には宗教によらなければ安心立命は得られないという信念を植付けることである。<br><br>そのように両々歩調をそろえて前進することこそ幸福を生む真の文明社会が築かれることを確信するのである。<br><br> そのような大目的達成のためには、どうしても言論機関が必要である。<br><br>何よりも今日一般社会人特にインテリ層の人々は、新宗教とさえいえば無批判に頭から軽侮（けいぶ）の念をもって見る、これが新宗教発展にどのくらい障礙（しょうげ）となるかは知れないのであるから、この無理解を一日も早く一掃することであって、それには本紙のごとき有力な言論機関を活用しなければならない。<br><br>それは発行後一年足らずの今日、新宗教が社合的に相当認識を深めてきたのは、そのあらわれといってもよかろう。<br><br>如上（じょじょう）の意味においてこの上ともますます本紙の充実をはかり、所期の目的達成に資（し）せられんことを望むや切なりである。<br><br> (注) 涵養（かんよう）自然に水が染み込むように徐々に養い育てること。<br><br> 障礙（しょうげ）妨げ。<br><br>障害。<br><br>しょうがい。<br><br> 如上（じょじょう）前に述べたこと。<br><br>上述。<br><br>前述。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Nossa Missão é Sumamente Grandiosa: Celebrando o Primeiro Aniversário de Publicação</h2>
 <p>Atendendo a uma gentil solicitação do Sr. Oishi, diretor administrativo, para que eu escrevesse algo para esta edição comemorativa, apresso-me em registrar as reflexões que me ocorrem no momento. Devo dizer, com franqueza, que este jornal, embora de tenra existência, demonstra notável qualidade. Considero, ademais, o desafio que representa abordar o universo das novas religiões, com suas restrições e características tão distintas. Superar tal obstáculo e manter uma linha editorial equilibrada é uma tarefa que certamente demanda grande esmero. Portanto, sua imparcialidade é digna de louvor, e seu progresso firme e constante inspira grande confiança.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Ao longo da história, surgiram em cada época inúmeros santos e grandes vultos que, por meio de seus nobres ensinamentos e até mesmo com o sacrifício da própria vida, dedicaram-se à salvação da humanidade. Suas realizações ainda hoje resplandecem intensamente. Contudo, é lamentável constatar que, com as transformações dos tempos, as religiões estabelecidas se tornaram incapazes de oferecer respostas às novas realidades, como os fatos demonstram claramente. Isso se deve ao formidável avanço científico, que incutiu no homem moderno a mentalidade de que nada pode ser solucionado sem o auxílio da ciência. Nesse contexto, a religião foi suplantada, perdendo seu brilho e dando origem à sociedade atual, onde grassa o pensamento ateísta.</p>
 <p>Todavia, com o passar do tempo, fissuras começaram a surgir nessa crença na onipotência da ciência. As pessoas passaram a compreender que a verdadeira felicidade não pode ser alcançada unicamente por meios científicos e, assim, voltaram a buscar a religião. Não lhes sendo mais possível depositar esperanças nas crenças tradicionais, voltaram sua atenção para as novas religiões, sendo este, quiçá, um dos fatores que impulsionaram seu desenvolvimento. Poderíamos afirmar que a própria era deu à luz as novas religiões. Para nós, que dia e noite nos empenhamos de corpo e alma para corresponder a esse anseio, a tarefa consiste em, por um lado, continuar a promover o avanço da ciência no campo material e, por outro, semear no campo espiritual a convicção de que a paz de espírito e a segurança interior só podem ser obtidas por meio da fé. Estamos convictos de que somente quando ambos os lados avançarem em perfeita sintonia será possível edificar uma verdadeira sociedade civilizada, geradora de felicidade.</p>
 <p>Para a concretização de um objetivo tão sublime, a existência de um veículo de comunicação é indispensável. Um dos maiores entraves ao desenvolvimento das novas religiões é o fato de que a sociedade em geral, e em especial a classe intelectual, tende a encará-las com um sentimento de menosprezo, sem qualquer análise crítica. É primordial que essa incompreensão seja dissipada o quanto antes, e para tanto, é fundamental valer-se de um poderoso órgão de imprensa como este jornal. O fato de, em menos de um ano de sua fundação, as novas religiões já terem aprofundado consideravelmente seu reconhecimento social pode ser visto como um reflexo desse trabalho. Nesse sentido, anseio ardentemente que este periódico se fortaleça cada vez mais, a fim de contribuir para o alcance de seu propósito original.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： われらの任極めて大 発刊一周年を祝して 『新宗教新聞』37号、昭和28(1953)年5月5日発行 今回事務局長大石氏から、今度の記念号に何かかいて欲しいとのお頼みなので、取敢（とりあえ）ず思いついたままを書かして貰うが、私は率直にいってこの新聞は日まだ浅きにかかわらず、仲々よく出来ていると思ってる。<br/><br/>しかも新宗教という制約もあり、その上宗教それぞれの特徴もあり、それを按配（あんばい）よく扱うのであるから、仲々骨も折れようが、それを克服して公平な編集振りは多とするに足ると共に、堅実な歩みを続けつつあるのは頼もしい。<br/><br/> つくづく今日の世相を見る時、人間は余りにも物質的功利的に走り、何事も形のみに囚われる結果、社会悪は増長し、到るところ忌わしい問題や悲劇が生まれているのは周知の通りであって、これが文化の進歩としたら、長大息せざるを得ないのである。<br/><br/>なるほど日進月歩物質文化は益々進展し、止まるところを知らない有様であるにかかわらず、右のようであるとしたら、そこに何か欠陥がなくてはならないはずである。<br/><br/>そうして人間最大の欲求としては、何といっても幸福の二字であろう。<br/><br/>ところが文化が進歩すればする程、幸福どころか反って悩みは増すばかりである。<br/><br/>この原因こそいわずと知れた唯物科学偏重のためであるから、これを救うとしたらどうしても精神主義、すなわち唯心思想を涵養（かんよう）しなければならない事は分り切った話であり、かつその役目こそ宗教であるから、われわれの任たるや重かつ大なりというべきである。<br/><br/> そうして昔からその時代相応の幾多の聖者偉人が生まれ、尊き教を説き、一身を犠牲にしてまで救世済民に尽した業績は、今なお燦（さん）として輝いている。<br/><br/>ところが遺憾な事には時代の変遷は、いつまでも既成宗教のあり方では、どうにもならなくなって来たのは事実がよく示している。<br/><br/>それは科学の驚くべき進歩によって、科学によらざれば何事も解決出来ないとする現代人の考え方である。<br/><br/>そのような訳で宗教は科学に押潰されて光を失い、今日のごとき無神思想瀰漫（びまん）の社会となったのである。<br/><br/>ところが時の進むに従い、今度は科学万能の考え方に亀裂を生じ科学のみでは真の幸福は得られないことがわかり、再び宗教に求めようとするが、今更既成宗教に期待はかけられず、ここに新しい宗教に着目したのが新宗教発展の一つの動機であろう。<br/><br/>いわば時代が新宗教を生んだといってもよかろう。<br/><br/>この要望に応えるべく日夜心身を砕いて努力しているわれわれとしては、要するに物質的にはますます科学の進歩を促進し、精神的には宗教によらなければ安心立命は得られないという信念を植付けることである。<br/><br/>そのように両々歩調をそろえて前進することこそ幸福を生む真の文明社会が築かれることを確信するのである。<br/><br/> そのような大目的達成のためには、どうしても言論機関が必要である。<br/><br/>何よりも今日一般社会人特にインテリ層の人々は、新宗教とさえいえば無批判に頭から軽侮（けいぶ）の念をもって見る、これが新宗教発展にどのくらい障礙（しょうげ）となるかは知れないのであるから、この無理解を一日も早く一掃することであって、それには本紙のごとき有力な言論機関を活用しなければならない。<br/><br/>それは発行後一年足らずの今日、新宗教が社合的に相当認識を深めてきたのは、そのあらわれといってもよかろう。<br/><br/>如上（じょじょう）の意味においてこの上ともますます本紙の充実をはかり、所期の目的達成に資（し）せられんことを望むや切なりである。<br/><br/> (注) 涵養（かんよう）自然に水が染み込むように徐々に養い育てること。<br/><br/> 障礙（しょうげ）妨げ。<br/><br/>障害。<br/><br/>しょうがい。<br/><br/> 如上（じょじょう）前に述べたこと。<br/><br/>上述。<br/><br/>前述。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

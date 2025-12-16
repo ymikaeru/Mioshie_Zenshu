@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>osobani</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御側に拝す明主様 山本慶一 『栄光』229号、昭和28(1953)年10月7日発行 私達が身魂を向上させて頂く上において、片時も離す事の出来ない栄光新聞も、昭和二十四年三月創刊以来已に二百三十号を数えますが、その間一回とて欠刊、遅滞もなく、極めてスムースにお運び遊ばす御模様について、少しお伝えさせて頂きます。<br><br>いつかも御伝えさせて頂きましたように、明主様の御日常はまことに多方面に渉らせられますが、その御多端な中でホンの片手間にお片付け遊ばす事は、全く驚嘆の一語につきます。<br><br>一口に新聞編集といってもそれが発刊される迄の苦労というものは、直接その掌に当っていない者には想像もつかないと思います。<br><br>かつて私は御布教に携わっていた時代、地方の十人位で経営している小さな旬刊新聞社に広告係として勤めていた友人と雑談した事がありましたが、彼はその新聞社に入社する前にも、他の雑誌社か印刷屋か忘れましたが、編集係をしていた事を知っていたので、何故編集の方へ廻して貰わないのかと訊ねたところ、彼がいうには“勿論自分も編集の方の仕事がしたいんだが、何しろこういう小新聞では、広告の注文をウンと取らないと新聞社として成立たないし第一記事が足りなくて紙面に穴が穿き半年も続かない”といっておりました。<br><br>私もその時はそんなものかなー位に思っておりましたが、今こうして新聞編集のお手伝をさせて頂いておりますと成程と思う節があります。<br><br>私達が日々手にしている日刊新聞にしても、紙面の三割位は広告写真等で埋められているのをみてもお分りと思います。<br><br>その上広告の大部分が明主様が日夜その迷信打破に最も力をお注ぎしておられる薬の広告で占められているのをみると暗澹として、長大息を禁じ得ないものがあります。<br><br> それに比べて栄光紙の如きは勿論他の新聞とは性質は違いましょうが殆んど記事で満載されており、なお載せ切れなくて嬉しい悲鳴を上げている程です。<br><br>その上明主様御論説の内容に至っては政治、経済、教育、芸術、時局寸感等々、人事百般に渉って極めて無造作に誰にも理解されるよう平易を旨とされ、そのヴァラエティーに富んだ編集を、御多繁な中にお一人でなされるのですから、ただただ驚嘆あるばかりでございます。<br><br>しかも明主様には出来るだけ多く掲戟せよとの御趣旨から、Ａ第一面の栄光という題字を少さくなさったり、枠などもギリギリ一杯に広げげられた程のお気の配らせ方です。<br><br>恐らくこれ程充実した新聞は古今に例をみないと思います。<br><br>それが連綿として四年間一回の欠刊なく続いているのですから、この事だけでも大変なお仕事であり世間からみれば立派な大企業だと思います。<br><br> これ等栄光の御原稿の御口述は大抵夜半十二時半前後よりおやり遊ばしますが、勿論毎夜おやりになる訳ではありませんが、それであって原稿が余ってしようがないと時たまお漏らし遊ばす程です。<br><br>まず一時間も御口述されれば十二、三枚もおかきになられますがその早さと申したら立板に水という形容がピッタリ致します。<br><br> 私も最初一の頃は筆記させて頂くのに随分戸迷いました。<br><br>時には新宗教新聞とか雑誌社等の依頼によって、御願い申し上げる事がありますが、これなどは中々面倒で、先方から枚数や標題まで指名して参りますが、こんなものでもいともお気軽に、“アアそうか、じゃかこう”などと簡単に仰言られ決して御苦渋の色は拝されず、如何にも楽しそうにその場ですぐ御口述遊ばす事もあります。<br><br> 又最近御発刊遊ばされた“アメリカを救う”とか、“救世教奇蹟集”又目下御執筆中の不朽のバイブル、“医学革命の書”などの御著述ですら、夜分あるいは日中でも、僅か一時間ソコソコの短時間にて、アノような原爆的御文筆を御完成遊ばされるので、決して長時間お続けにはなられません。<br><br>お気の向いた時におやりになる程度です。<br><br>よく著述家が一室に閉じ籠り、寝食を忘れて没頭しているのに比して何と大きな違いでありましょうか。<br><br> 夜分御口述なき場合は、信者さんからの感謝報告文をお読み申し上げますが、特に最近は奇蹟顕著なものが多く、顕著なものは上段（これは栄光紙各面トップ）と御指名されますが十本中五本位、多い時は七、八本迄御指名になられ、次段以下に該当すべきものが足りなくなって、嬉しい悲鳴を上げております。<br><br> かようにして発刊遊ばされた御神書が日本は愚か世界へ救世の光となって間配られるのを如何にお急ぎ遊ばしていられるかは御自ら初めてお目にかかられる人には必ずといっていい程、読むようにとお渡しになられるのでも分ります。<br><br>全身これ救世あるのみの御気持がこの様な些細な事にもお気を配られていられるのであります。<br><br>信仰の深浅は気配り心配りにあると御教え頂いておりますが、私達奉仕者も、救世の大業が悪なく進捗さるるよう万遺憾なきを期し以て聖慮を安んじ奉りなお一層邁進させて頂く事をお誓い申し合わせてこの世紀の大御業にお手伝出来る光栄を改めて明主様に感謝申し上げさせて頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Incessante Manancial da Palavra Divina</h2>
 <p>O jornal <em>Eikō</em>, instrumento indispensável ao nosso aprimoramento espiritual, alcança agora sua ducentésima trigésima edição desde o seu lançamento, em março de 1949. Ao longo desse período, jamais houve uma única falha ou atraso em sua publicação. Gostaria, portanto, de compartilhar algumas palavras sobre a sublime serenidade com que Meishu-Sama conduz este trabalho.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Nas noites em que não há ditado, dedicamo-nos à leitura dos relatos de gratidão enviados pelos fiéis. Ultimamente, o número de milagres de notável magnitude tem sido expressivo. Meishu-Sama indica quais devem figurar no topo de cada página e, de dez relatos, não raro cinco — ou por vezes até sete ou oito — recebem essa designação. Com isso, enfrentamos a feliz dificuldade de não ter textos suficientes para as seções secundárias.</p>
 <p>A urgência com que Meishu-Sama anseia por distribuir esses Escritos Divinos como uma luz salvadora, não apenas no Japão, mas por todo o mundo, manifesta-se em um gesto revelador: a praticamente todas as pessoas que encontra pela primeira vez, Ele oferece um de Seus textos, com a recomendação de que o leiam. Sua existência é, em sua totalidade, devotada à salvação, e esse zelo transparece até mesmo nesses gestos aparentemente singelos.</p>
 <p>Meishu-Sama nos ensina que a profundidade da fé se revela na atenção e no cuidado que dedicamos aos outros. Assim sendo, nós, que temos o privilégio de servir, renovamos nosso juramento de zelar para que a grandiosa Obra da Salvação avance sem percalços, a fim de tranquilizar Seu sagrado coração e nos impulsionar a um progresso ainda maior. Expressamos, uma vez mais, nossa profunda gratidão a Meishu-Sama pela honra de poder colaborar nesta magnífica Obra do século.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御側に拝す明主様 山本慶一 『栄光』229号、昭和28(1953)年10月7日発行 私達が身魂を向上させて頂く上において、片時も離す事の出来ない栄光新聞も、昭和二十四年三月創刊以来已に二百三十号を数えますが、その間一回とて欠刊、遅滞もなく、極めてスムースにお運び遊ばす御模様について、少しお伝えさせて頂きます。<br/><br/>いつかも御伝えさせて頂きましたように、明主様の御日常はまことに多方面に渉らせられますが、その御多端な中でホンの片手間にお片付け遊ばす事は、全く驚嘆の一語につきます。<br/><br/>一口に新聞編集といってもそれが発刊される迄の苦労というものは、直接その掌に当っていない者には想像もつかないと思います。<br/><br/>かつて私は御布教に携わっていた時代、地方の十人位で経営している小さな旬刊新聞社に広告係として勤めていた友人と雑談した事がありましたが、彼はその新聞社に入社する前にも、他の雑誌社か印刷屋か忘れましたが、編集係をしていた事を知っていたので、何故編集の方へ廻して貰わないのかと訊ねたところ、彼がいうには“勿論自分も編集の方の仕事がしたいんだが、何しろこういう小新聞では、広告の注文をウンと取らないと新聞社として成立たないし第一記事が足りなくて紙面に穴が穿き半年も続かない”といっておりました。<br/><br/>私もその時はそんなものかなー位に思っておりましたが、今こうして新聞編集のお手伝をさせて頂いておりますと成程と思う節があります。<br/><br/>私達が日々手にしている日刊新聞にしても、紙面の三割位は広告写真等で埋められているのをみてもお分りと思います。<br/><br/>その上広告の大部分が明主様が日夜その迷信打破に最も力をお注ぎしておられる薬の広告で占められているのをみると暗澹として、長大息を禁じ得ないものがあります。<br/><br/> それに比べて栄光紙の如きは勿論他の新聞とは性質は違いましょうが殆んど記事で満載されており、なお載せ切れなくて嬉しい悲鳴を上げている程です。<br/><br/>その上明主様御論説の内容に至っては政治、経済、教育、芸術、時局寸感等々、人事百般に渉って極めて無造作に誰にも理解されるよう平易を旨とされ、そのヴァラエティーに富んだ編集を、御多繁な中にお一人でなされるのですから、ただただ驚嘆あるばかりでございます。<br/><br/>しかも明主様には出来るだけ多く掲戟せよとの御趣旨から、Ａ第一面の栄光という題字を少さくなさったり、枠などもギリギリ一杯に広げげられた程のお気の配らせ方です。<br/><br/>恐らくこれ程充実した新聞は古今に例をみないと思います。<br/><br/>それが連綿として四年間一回の欠刊なく続いているのですから、この事だけでも大変なお仕事であり世間からみれば立派な大企業だと思います。<br/><br/> これ等栄光の御原稿の御口述は大抵夜半十二時半前後よりおやり遊ばしますが、勿論毎夜おやりになる訳ではありませんが、それであって原稿が余ってしようがないと時たまお漏らし遊ばす程です。<br/><br/>まず一時間も御口述されれば十二、三枚もおかきになられますがその早さと申したら立板に水という形容がピッタリ致します。<br/><br/> 私も最初一の頃は筆記させて頂くのに随分戸迷いました。<br/><br/>時には新宗教新聞とか雑誌社等の依頼によって、御願い申し上げる事がありますが、これなどは中々面倒で、先方から枚数や標題まで指名して参りますが、こんなものでもいともお気軽に、“アアそうか、じゃかこう”などと簡単に仰言られ決して御苦渋の色は拝されず、如何にも楽しそうにその場ですぐ御口述遊ばす事もあります。<br/><br/> 又最近御発刊遊ばされた“アメリカを救う”とか、“救世教奇蹟集”又目下御執筆中の不朽のバイブル、“医学革命の書”などの御著述ですら、夜分あるいは日中でも、僅か一時間ソコソコの短時間にて、アノような原爆的御文筆を御完成遊ばされるので、決して長時間お続けにはなられません。<br/><br/>お気の向いた時におやりになる程度です。<br/><br/>よく著述家が一室に閉じ籠り、寝食を忘れて没頭しているのに比して何と大きな違いでありましょうか。<br/><br/> 夜分御口述なき場合は、信者さんからの感謝報告文をお読み申し上げますが、特に最近は奇蹟顕著なものが多く、顕著なものは上段（これは栄光紙各面トップ）と御指名されますが十本中五本位、多い時は七、八本迄御指名になられ、次段以下に該当すべきものが足りなくなって、嬉しい悲鳴を上げております。<br/><br/> かようにして発刊遊ばされた御神書が日本は愚か世界へ救世の光となって間配られるのを如何にお急ぎ遊ばしていられるかは御自ら初めてお目にかかられる人には必ずといっていい程、読むようにとお渡しになられるのでも分ります。<br/><br/>全身これ救世あるのみの御気持がこの様な些細な事にもお気を配られていられるのであります。<br/><br/>信仰の深浅は気配り心配りにあると御教え頂いておりますが、私達奉仕者も、救世の大業が悪なく進捗さるるよう万遺憾なきを期し以て聖慮を安んじ奉りなお一層邁進させて頂く事をお誓い申し合わせてこの世紀の大御業にお手伝出来る光栄を改めて明主様に感謝申し上げさせて頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教以上のもの 『栄光』194号、昭和28(1953)年2月4日発行 これは私がいつもいう事だが、我救世（メシヤ）教は宗教ではなく、宗教以上のものである。<br><br>宗教とは読んで字のごとく、宗祖の教えであるから、例外なく御説教が主になっている。<br><br>つまり口で説き筆で教えるので、経文でもバイブルでもそれであるから、今まではともかく右の方法で人を済度（さいど）してたのであるから、本当をいうと宗教は教え諭（さと）す以外は何もないのであったが、それでよかったのである。<br><br>ところが今日のような複雑した世の中では、今までのようなやり方では時代に合わなくなった。<br><br>という訳で我救世教こそ時代を救い、万民をリードする使命を帯びて生まれた宗教である。<br><br> その第一は病気治しであるが、今日までこれ程の治病力を発揮した宗教はなかったし、また美術館を建てたり、農事改良なども例はない。<br><br>そうして文学、芸術、政治、経済、哲学、科学等何もかも人間に必要なものは包含され、根本的に教え諭して実行している。<br><br>このような訳で御説教は本教の一部であって、しかもその説くところ前人未見のものが多いので、この点特に注目されたいのである。<br><br>というように本教の経綸を一口に言えば高度の文化事業である。<br><br> ところが困る事には、現代人はそれ程高度の文化の概念さえないので、理解が困難な事である。<br><br>その中でも一番厄介な事は、空間に手を翳（かざ）しただけで難病が治ったり、肥料をブッかけないで上等な作物が、今までよりも多量に収穫される事である。<br><br>また瞬（またた）く間に素晴しい美術品が集り、美術館が出来たりする。<br><br>日本人のくせに“アメリカを救う”などという大それた本を著したりする。<br><br>今度出来る熱海の救世会館にしてもその建築様式は、世界に未（いま）だ出来た事のない新しい宗教様式の殿堂である。<br><br>恐らく出来上ったら、世界の建築家をアッと言わせられるであろう。<br><br> また日本での最も風景絶佳な、箱根、熱海の二勝地の造営は知る通りであるが、今度は京都の風景絶佳な広沢の池を中心とした嵯峨野二万坪に地上天国を造る予定である。<br><br>ザットかいて以上のごとくだが、これからまだまだ世界的にどんな素晴しい経綸が行われるか分らないから、吃驚（びっくり）しないよう覚悟をしていて貰いたい。<br><br>とは少し大袈裟（おおげさ）すぎるかも知れないが、何しろ世界一の万能力ある神様が、蔭から御守護をなされているのであるから、決して大言壮語でない事を信じて貰いたいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Algo Superior à Religião</h2>
 <p>Conforme sempre afirmo, nossa Sekaikyuseikyou não é uma religião, mas algo que a transcende. A religião, como a própria palavra indica, consiste nos ensinamentos de um fundador, tendo, invariavelmente, os sermões como sua atividade principal. Em outras palavras, trata-se de pregar oralmente e instruir por meio da escrita, como se vê nas escrituras budistas e na Bíblia. Até então, era por esse método que se buscava a salvação das pessoas; a rigor, a religião nada mais oferecia além de preceitos e exortações, o que era suficiente para a sua época.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O Salão Messiânico de Atami, que está para ser construído, é outro exemplo. Seu estilo arquitetônico representa um novo modelo de templo religioso, jamais visto no mundo. Uma vez concluído, deixará, por certo, os arquitetos de todo o planeta maravilhados.</p>
 <p>Ademais, como é de vosso conhecimento, estamos construindo protótipos do Paraíso Terrestre em Hakone e Atami, dois dos locais de paisagem mais deslumbrante do Japão. Agora, temos o plano de construir um em Quioto, em uma área de vinte mil tsubo em Sagano, um lugar de beleza sublime, centrado ao redor da Lagoa Hirosawa.</p>
 <p>Isso é apenas um breve resumo. Como não se sabe que grandiosos projetos de alcance mundial ainda serão realizados, rogo que se preparem para não se surpreenderem. Talvez pareça um exagero, mas peço que acreditem que estas não são palavras jactanciosas, pois, velando por nós das esferas sutis, temos a proteção do Deus mais onipotente que existe.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教以上のもの 『栄光』194号、昭和28(1953)年2月4日発行 これは私がいつもいう事だが、我救世（メシヤ）教は宗教ではなく、宗教以上のものである。<br/><br/>宗教とは読んで字のごとく、宗祖の教えであるから、例外なく御説教が主になっている。<br/><br/>つまり口で説き筆で教えるので、経文でもバイブルでもそれであるから、今まではともかく右の方法で人を済度（さいど）してたのであるから、本当をいうと宗教は教え諭（さと）す以外は何もないのであったが、それでよかったのである。<br/><br/>ところが今日のような複雑した世の中では、今までのようなやり方では時代に合わなくなった。<br/><br/>という訳で我救世教こそ時代を救い、万民をリードする使命を帯びて生まれた宗教である。<br/><br/> その第一は病気治しであるが、今日までこれ程の治病力を発揮した宗教はなかったし、また美術館を建てたり、農事改良なども例はない。<br/><br/>そうして文学、芸術、政治、経済、哲学、科学等何もかも人間に必要なものは包含され、根本的に教え諭して実行している。<br/><br/>このような訳で御説教は本教の一部であって、しかもその説くところ前人未見のものが多いので、この点特に注目されたいのである。<br/><br/>というように本教の経綸を一口に言えば高度の文化事業である。<br/><br/> ところが困る事には、現代人はそれ程高度の文化の概念さえないので、理解が困難な事である。<br/><br/>その中でも一番厄介な事は、空間に手を翳（かざ）しただけで難病が治ったり、肥料をブッかけないで上等な作物が、今までよりも多量に収穫される事である。<br/><br/>また瞬（またた）く間に素晴しい美術品が集り、美術館が出来たりする。<br/><br/>日本人のくせに“アメリカを救う”などという大それた本を著したりする。<br/><br/>今度出来る熱海の救世会館にしてもその建築様式は、世界に未（いま）だ出来た事のない新しい宗教様式の殿堂である。<br/><br/>恐らく出来上ったら、世界の建築家をアッと言わせられるであろう。<br/><br/> また日本での最も風景絶佳な、箱根、熱海の二勝地の造営は知る通りであるが、今度は京都の風景絶佳な広沢の池を中心とした嵯峨野二万坪に地上天国を造る予定である。<br/><br/>ザットかいて以上のごとくだが、これからまだまだ世界的にどんな素晴しい経綸が行われるか分らないから、吃驚（びっくり）しないよう覚悟をしていて貰いたい。<br/><br/>とは少し大袈裟（おおげさ）すぎるかも知れないが、何しろ世界一の万能力ある神様が、蔭から御守護をなされているのであるから、決して大言壮語でない事を信じて貰いたいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教信者の幸福 『栄光』188号、昭和27(1952)年12月24日発行 本教信者の御利益は余り大きく素晴しいので、つい馴れっこになり忘れ勝なのは誰も経験するところで、今更かくまでもないがそれでも気付かない点も色々あるであろうから、ここにかくのである。<br><br>今日人間生活上何が怖いといって、病気程怖いものはあるまい。<br><br>という訳で医者や薬を頼りにしていない人は、恐らく一人もあるまい。<br><br>たとえばちょっとした風邪を引いても熱が出る、大儀だ、食物がうまくないという一般症状の外、ヤレ胸が焼ける、胃が悪いのではないかと心配しちょっと腹が痛いとか下痢などあると、硝子（ガラス）が瀬戸物のように腸が毀（こわ）れたのではないかと首を傾げるし、少し急いで歩くと息切れや動悸がするので、心臓が悪いのではないかと案ずる。<br><br>頭痛、頭が重い、眩暈（めまい）がすると脳の病気ではないかと煩（わずら）い、目から悲しくもないのに涙が出たり、目が疲れたりすると、眼病の始まりかも知れないと気を揉む。<br><br>鼻が詰れば蓄膿、臭いが鈍いと肥厚性鼻炎、咽喉が痛く熱が出ると扁桃腺炎、首肩が凝ると風邪の前触れ、手足の運動が思うようでないと脊髄が悪いのではないか、少し歩くと足が重くなるので脚気（かっけ）かと心配する。<br><br>かと思うと肛門が痛い、脱肛すると痔だなと顔を顰（しか）める。<br><br>小便の時尿道へ滲みるとか尿に濁りがあると腎臓結核ではないかと思うのである。<br><br>というようにザットかいただけでもこのくらいだから、細かにかいたら限りがない。<br><br>このように今の人間が病気に対する不安神経質は極端になっている。<br><br> まだある。<br><br>それは黴菌の心配である。<br><br>ちょっと風邪を引いて愚図愚図していると、コジれて、咳や痰が毎日のように出るので、もしかすると肺病の初期ではないかと不安になり、そう思ってみるとこの間肺病の友達を病院へ見舞に行ったその時うつったのではないか、でなければ自分の兄弟や母、父の中結核で死んだ人を憶い出し、あるいは遺伝かも知れない。<br><br>手後れになっては大変だから一度診て貰おうかとも考えるが、だが待てよそれも考え物だ、もしかして結核の烙印を捺されたが最後、仕事も出来ず勤めも駄目になる。<br><br>とすれば第一生活をどうする。<br><br>しかもそうなったら妻や子にうつらないと誰か言い得よう。<br><br>アア俺は大変な事になったものだ。<br><br>というようにそれやこれやの心配で、夜もろくろく寝られなくなり、憂鬱に閉じ込められてしまう。<br><br>そうして誰もそうだが結核に関する書籍を漁り始め、読み耽るようになる。<br><br>ところが結核は必ず治るとかいてあるかと思うと、それは表面だけでその実恐怖せずにはおれないよう、微に入り細にわたって科学的に説明してある。<br><br>何しろ現代人は科学とさえいえば、無条件に信用するのであるから、読めば読む程心配は増すばかりである。<br><br>そうかといって治るにしても何年かかるか分らない。<br><br>しかもその間絶対安静と来ては何も出来ない。<br><br>なる程少しの間は貯金や病気手当、保険等で続けられるが、それから先が大変だという心配が離れない。<br><br>その上医療費も相当かかるから、余程の余裕ある人でない限り、一般の人は病気の心配に輪を掛けるので、二重の悩みとなり、悪化に拍車をかけることになる。<br><br> ところが結核ばかりではない。<br><br>近頃のように色々な伝染病の流行である。<br><br>たまたま激しい下痢が起ると赤痢の始まりではないか、風邪も引かないのに発熱が続くのはチフスではないかと心配する。<br><br>特に子供などで元気がなく、生欠伸（あくび）が出たり、睡がったりすると疫痢ではないか、日本脳炎ではないか、強い後を引く咳が出ると百日咳ではないか、咽喉がヒュウヒュウ鳴るとジフテリヤ、歩き方が少し変だと小児麻痺か脊髄カリエス、ボンヤリしていると智能低下、太らないと腺病質、眼がクシャクシャするとトラホーム、その他脱腸、食物の好き嫌い、癇癪（かんしゃく）持など数え上げたら限りがない。<br><br> 次に近頃の婦人は月経不順、月経痛、白帯下（こしけ）、子宮前後屈、ヒステリーなども多いと共に、妊娠すれば悪阻（つわり）や妊娠腎も多く、外妊娠、逆さ子、早期出産などもよくあるし、また一般人としては船車の酔い、不眠、耳鳴、鼻詰り、近視、乱視、便秘、消化不良等々、その他名の付けられないような病もあるのだから厄介である。<br><br>というように今日どんな人でも大なり小なり、何らかの病気をもっていない人はほとんどあるまい。<br><br>としたら四肢五体完全な人間は、地球上ただの一人もないといっても過言ではあるまい。<br><br>では一体これが人間たるものの常態であろうかということを深く考えてみなくてはなるまい。<br><br>本来造物主すなわち万能の神としたらこのような不完全極まる生物を造ったとはどうしても思えないのは分り切った話である。<br><br>それだのに今日のごとき毀（こわ）れ物同様な人間ばかりになったとしたら、そこに何か大きな誤りがなくてはならないはずである。<br><br> そうしてまた、昔から人間には四百四病の病があるなどといわれているが、現在はもっと増えて千何百という数に上っているそうだから、全く摩訶不思議である。<br><br>しかもこれで医学が進歩したと誇っているのであるから、全く頭がどうかしているのではないかと言いたくなる。<br><br>この原因こそ現代医学に一大欠陥があるからで、病気なるものの真の原因が全然判っていず、療法も知らないのであるから驚くべきである。<br><br>では一体病気とは何ぞやというと、答は至極簡単である。<br><br>それは体内にあってはならない毒物の排除作用の苦痛であり、毒物とは薬であるから、病気程結構なものはないのである。<br><br>このことが肚の底から分りさえすれば、病気を心配するどころか風邪引き結構、腹下し結構、黴菌は有難いものという訳で事実病気の度毎に健康は増し、ついには黴菌が侵入しても発病しないという健康者になるのはもちろんである。<br><br>としたら何と有難い話ではなかろうか。<br><br>何よりも事実がよく証明している。<br><br>本教信者になると前記の通り病気は段々減り年々健康になるのである。<br><br>ただし稀には死ぬ人もあるが、その人は薬毒が余りに多いため、その排除に暇がかかり衰弱のため斃（たお）れるのである。<br><br>といってもそれは極く僅かで、現在までの統計によれば、結核患者百人中九十三人が全治し、七人が失敗であるという素晴しい成績である。<br><br>以上のごとく本教信者になれば、いかに幸福者となるかは、多くを言う必要はないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Felicidade dos Fiéis de nossa Igreja</h2>
 <p>As graças concedidas aos fiéis de nossa Igreja são tão magnânimas e esplêndidas que, por habituação, muitos tendem a subestimá-las ou mesmo a esquecê-las. Embora essa seja uma experiência comum a todos e que dispense maiores comentários, porventura existirão aspectos ainda não percebidos, razão pela qual decidi abordá-los neste artigo.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Desde a antiguidade, diz-se que o ser humano está sujeito a 404 tipos de doenças. Hoje, contudo, consta que esse número já ultrapassa mil e quinhentos, o que é verdadeiramente espantoso. O mais paradoxal é que, diante desse cenário, a medicina se orgulha de seu progresso. Chega-se a questionar se não há algo de insensato em tal afirmação. A causa para essa contradição reside em uma falha monumental da medicina moderna: ela desconhece por completo a verdadeira origem das enfermidades e, consequentemente, não sabe como tratá-las. É algo assombroso.</p>
 <p>Então, o que é a doença? A resposta é extremamente simples. Trata-se do sofrimento causado pelo processo de eliminação de substâncias tóxicas que não deveriam estar no corpo. E o que são essas toxinas? São os próprios remédios. Sob essa ótica, a doença é, na verdade, algo muito benéfico. A partir do momento em que se compreende essa verdade em profundidade, não apenas se deixa de temer as enfermidades, como se passa a aceitá-las com gratidão. Um resfriado? Bem-vindo. Uma diarreia? Ótima. Os micróbios? São uma bênção. Com efeito, a cada processo depurativo, a saúde se fortalece, até que se atinge um estado em que, mesmo exposto a micróbios, o corpo não adoece mais. Não é maravilhoso?</p>
 <p>Os fatos são a melhor prova. Ao se tornarem fiéis de nossa Igreja, as pessoas veem suas doenças diminuírem gradativamente e sua saúde melhorar ano a ano, conforme já mencionado. É verdade que, em raras ocasiões, ocorrem óbitos. Estes se dão em casos de pessoas com um acúmulo tão extremo de toxinas medicamentosas que o processo de eliminação se prolonga, levando ao esgotamento e, por fim, ao falecimento. Contudo, são casos isolados. As estatísticas até o momento revelam um índice de sucesso extraordinário: de cada cem pacientes com tuberculose, noventa e três alcançam a cura completa, e apenas sete não obtêm êxito. Diante do exposto, creio ser desnecessário estender-me sobre a imensa felicidade que aguarda aqueles que se tornam fiéis de nossa Igreja.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教信者の幸福 『栄光』188号、昭和27(1952)年12月24日発行 本教信者の御利益は余り大きく素晴しいので、つい馴れっこになり忘れ勝なのは誰も経験するところで、今更かくまでもないがそれでも気付かない点も色々あるであろうから、ここにかくのである。<br/><br/>今日人間生活上何が怖いといって、病気程怖いものはあるまい。<br/><br/>という訳で医者や薬を頼りにしていない人は、恐らく一人もあるまい。<br/><br/>たとえばちょっとした風邪を引いても熱が出る、大儀だ、食物がうまくないという一般症状の外、ヤレ胸が焼ける、胃が悪いのではないかと心配しちょっと腹が痛いとか下痢などあると、硝子（ガラス）が瀬戸物のように腸が毀（こわ）れたのではないかと首を傾げるし、少し急いで歩くと息切れや動悸がするので、心臓が悪いのではないかと案ずる。<br/><br/>頭痛、頭が重い、眩暈（めまい）がすると脳の病気ではないかと煩（わずら）い、目から悲しくもないのに涙が出たり、目が疲れたりすると、眼病の始まりかも知れないと気を揉む。<br/><br/>鼻が詰れば蓄膿、臭いが鈍いと肥厚性鼻炎、咽喉が痛く熱が出ると扁桃腺炎、首肩が凝ると風邪の前触れ、手足の運動が思うようでないと脊髄が悪いのではないか、少し歩くと足が重くなるので脚気（かっけ）かと心配する。<br/><br/>かと思うと肛門が痛い、脱肛すると痔だなと顔を顰（しか）める。<br/><br/>小便の時尿道へ滲みるとか尿に濁りがあると腎臓結核ではないかと思うのである。<br/><br/>というようにザットかいただけでもこのくらいだから、細かにかいたら限りがない。<br/><br/>このように今の人間が病気に対する不安神経質は極端になっている。<br/><br/> まだある。<br/><br/>それは黴菌の心配である。<br/><br/>ちょっと風邪を引いて愚図愚図していると、コジれて、咳や痰が毎日のように出るので、もしかすると肺病の初期ではないかと不安になり、そう思ってみるとこの間肺病の友達を病院へ見舞に行ったその時うつったのではないか、でなければ自分の兄弟や母、父の中結核で死んだ人を憶い出し、あるいは遺伝かも知れない。<br/><br/>手後れになっては大変だから一度診て貰おうかとも考えるが、だが待てよそれも考え物だ、もしかして結核の烙印を捺されたが最後、仕事も出来ず勤めも駄目になる。<br/><br/>とすれば第一生活をどうする。<br/><br/>しかもそうなったら妻や子にうつらないと誰か言い得よう。<br/><br/>アア俺は大変な事になったものだ。<br/><br/>というようにそれやこれやの心配で、夜もろくろく寝られなくなり、憂鬱に閉じ込められてしまう。<br/><br/>そうして誰もそうだが結核に関する書籍を漁り始め、読み耽るようになる。<br/><br/>ところが結核は必ず治るとかいてあるかと思うと、それは表面だけでその実恐怖せずにはおれないよう、微に入り細にわたって科学的に説明してある。<br/><br/>何しろ現代人は科学とさえいえば、無条件に信用するのであるから、読めば読む程心配は増すばかりである。<br/><br/>そうかといって治るにしても何年かかるか分らない。<br/><br/>しかもその間絶対安静と来ては何も出来ない。<br/><br/>なる程少しの間は貯金や病気手当、保険等で続けられるが、それから先が大変だという心配が離れない。<br/><br/>その上医療費も相当かかるから、余程の余裕ある人でない限り、一般の人は病気の心配に輪を掛けるので、二重の悩みとなり、悪化に拍車をかけることになる。<br/><br/> ところが結核ばかりではない。<br/><br/>近頃のように色々な伝染病の流行である。<br/><br/>たまたま激しい下痢が起ると赤痢の始まりではないか、風邪も引かないのに発熱が続くのはチフスではないかと心配する。<br/><br/>特に子供などで元気がなく、生欠伸（あくび）が出たり、睡がったりすると疫痢ではないか、日本脳炎ではないか、強い後を引く咳が出ると百日咳ではないか、咽喉がヒュウヒュウ鳴るとジフテリヤ、歩き方が少し変だと小児麻痺か脊髄カリエス、ボンヤリしていると智能低下、太らないと腺病質、眼がクシャクシャするとトラホーム、その他脱腸、食物の好き嫌い、癇癪（かんしゃく）持など数え上げたら限りがない。<br/><br/> 次に近頃の婦人は月経不順、月経痛、白帯下（こしけ）、子宮前後屈、ヒステリーなども多いと共に、妊娠すれば悪阻（つわり）や妊娠腎も多く、外妊娠、逆さ子、早期出産などもよくあるし、また一般人としては船車の酔い、不眠、耳鳴、鼻詰り、近視、乱視、便秘、消化不良等々、その他名の付けられないような病もあるのだから厄介である。<br/><br/>というように今日どんな人でも大なり小なり、何らかの病気をもっていない人はほとんどあるまい。<br/><br/>としたら四肢五体完全な人間は、地球上ただの一人もないといっても過言ではあるまい。<br/><br/>では一体これが人間たるものの常態であろうかということを深く考えてみなくてはなるまい。<br/><br/>本来造物主すなわち万能の神としたらこのような不完全極まる生物を造ったとはどうしても思えないのは分り切った話である。<br/><br/>それだのに今日のごとき毀（こわ）れ物同様な人間ばかりになったとしたら、そこに何か大きな誤りがなくてはならないはずである。<br/><br/> そうしてまた、昔から人間には四百四病の病があるなどといわれているが、現在はもっと増えて千何百という数に上っているそうだから、全く摩訶不思議である。<br/><br/>しかもこれで医学が進歩したと誇っているのであるから、全く頭がどうかしているのではないかと言いたくなる。<br/><br/>この原因こそ現代医学に一大欠陥があるからで、病気なるものの真の原因が全然判っていず、療法も知らないのであるから驚くべきである。<br/><br/>では一体病気とは何ぞやというと、答は至極簡単である。<br/><br/>それは体内にあってはならない毒物の排除作用の苦痛であり、毒物とは薬であるから、病気程結構なものはないのである。<br/><br/>このことが肚の底から分りさえすれば、病気を心配するどころか風邪引き結構、腹下し結構、黴菌は有難いものという訳で事実病気の度毎に健康は増し、ついには黴菌が侵入しても発病しないという健康者になるのはもちろんである。<br/><br/>としたら何と有難い話ではなかろうか。<br/><br/>何よりも事実がよく証明している。<br/><br/>本教信者になると前記の通り病気は段々減り年々健康になるのである。<br/><br/>ただし稀には死ぬ人もあるが、その人は薬毒が余りに多いため、その排除に暇がかかり衰弱のため斃（たお）れるのである。<br/><br/>といってもそれは極く僅かで、現在までの統計によれば、結核患者百人中九十三人が全治し、七人が失敗であるという素晴しい成績である。<br/><br/>以上のごとく本教信者になれば、いかに幸福者となるかは、多くを言う必要はないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

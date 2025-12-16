@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M231128</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年11月28日） 『御光話録』2号、昭和24(1949)年1月8日発行 十一月二十八日 ――注射により死亡する人がだいぶ世間にありますが、これは注射薬の中にいわゆる毒素があるためでございましょうか。<br><br> しかしね、薬の中に毒のあるわけはないでしょう。<br><br>毒なんかが入っていれば当局でも許さないでしょうしね。<br><br>今度の京都のジフテリア事件だって大阪の「日赤」で作ったのだから毒なんかあるわけはない。<br><br>まさか「平沢」なんかはいないでしょうから。<br><br>……そこなんですよ。<br><br>だいたい薬というものは、私がよく言う通り、ないんですよ。<br><br>もしあるとすれば米が薬です。<br><br>米がなければ生きられないから。<br><br>杉田玄白は「薬とは毒をもって毒を制するものである」と言ってますがこれは至言です。<br><br>毒で体を弱らせて浄化を抑えるのが薬の効能です。<br><br>……最近は霊界の浄化力が強くなってきたので注射液が体の一カ所へ寄ってくる。<br><br>そのためにいろいろ障害が起るのです。<br><br>肝臓出血などはそれです。<br><br>だから毒血が局部的に集まってくる、と発熱して苦しみが起るのです。<br><br>浄化の弱い時代は注射薬は体全体にまわりそれから局所へ集まったのだが、いまはそれが全身にまわらないうちに一部へ寄ってしまうのです。<br><br> ――注射直後、体が硬直することもございますが…… あれは血管などへ注射する場合、その場所が悪いのです。<br><br>その結果異物が心臓へ行くから死ぬのです。<br><br> ――個人的または団体的悪宣伝に対し、私どもは宗教人としてよい宣伝をもってこれに報ゆるべきでしょうか。<br><br> 間違いに対して説明するのはかまわないが、うっちゃっておいたほうがいいです。<br><br>それに災いされて萎縮するようではまだ駄目ですよ。<br><br>悪口を言われるのは結構なんです。<br><br>悪口は浄化で、それでこっちの罪が消えるんです。<br><br> ――悪宣伝の結果、悪い支障が次々と起ってくる心配がありますが…… 起って結構です。<br><br>これはいままで世間で言われていたこととは反対です。<br><br>……大森時代、私は人から悪口を言われると笑ったものです。<br><br>大本のお筆先に「悪く言われてよくなる仕組み」とありますがうまく言ってますね。<br><br>……いろいろな宗教がありますが初めからよく言われた宗教はありません。<br><br>いまは世界的なキリスト教だって初めは十一人しか弟子がなかったし、しかもキリストが死んで十年くらい経ってから心覚えを書いた、それがいまの『聖書』なんです。<br><br>それからだんだんに広まってきたんです。<br><br>釈迦だけは違うがあれはインドの皇太子だったからです。<br><br>天理教の中山みきだって二十何回留置場に入れられ、四回検事局送りになったのです。<br><br>ともかく最初は悪く言われるものです。<br><br>もっともいまでも天理教を悪く言う人はありますが…… ――悪宣伝に対して言い訳をすることはいかがでしょうか。<br><br> いけない、いけない、言い訳を言うようでは野暮ですよ。<br><br>悪口を笑って通せれば人間が一段できた証拠です。<br><br>なにか勝負事のようなことでも負けたほうがよい。<br><br>勝った場合には「あいつは負けたんで俺を怨んでやしないか」などと思うが負ければこんなことはない。<br><br>だから結局人間は、怨みの霊の来ないように、感謝の霊の来るようにすることが肝腎です。<br><br>決して人の怨みを買ってはいけない。<br><br>これくらい霊的に損をすることはないんですよ。<br><br> ――「恒産なき者は恒心なし」との格言がありますが、現在の世相においても当てはまるものでございましょうか。<br><br> これは当てはまります。<br><br>どうしても、人間貧苦するとろくな考えが出なくついごまかしたりする。<br><br>だから生活の心配のないところまで行かねばいけない。<br><br>宗教を信じるならそこまで行かねばならない。<br><br>ところがいままでの宗教は体を救えなかったのです。<br><br>例えば病気で苦しんでいて、感謝なんか出るはずはないんです。<br><br>あれは自己を偽っているのです。<br><br>……いままでの宗教で言う「さとり」とは「悟」の字を使い、諦めの意味ですが、私のは「覚」であり知るさとりです。<br><br> ――大先生様の御人格と、日本の神国思想との関係についてお伺い申し上げます。<br><br> 神国思想はいけません。<br><br>神国思想と私とはなんの関係もありません。<br><br>……私のことは思った通りを人に話したらいいですよ。<br><br>ここで大切なのは私の仕事を考えることです。<br><br>例えばいままでは人間の寿命はどうにもできなかった。<br><br>が、私はそれを延ばすことができるのです。<br><br>だから問題はその事実なんですよ。<br><br>いままでにも「キリストの再臨」なんて言うのがときどき世に出たが、本当の「事実」がない。<br><br>三十年ほど前にもインドに「サンダーシング」という三十歳くらいの男が水の上を歩いて渡ったりしたので、キリストの再臨とまで称されたが若死にしてしまいました。<br><br>しかし水の上を渡ったりしたって人間や社会にはなんの益もない。<br><br>単なる興行師にすぎない。<br><br>つまり、病気が治ったり、貧苦が解決したりなど実際の効果がなければ駄目です。<br><br>私は言うのですが、釈迦やキリストも偉いが人の病気を治せなかった。<br><br>キリスト自身は多少治したが、弟子にはその力がなかった。<br><br>また釈迦の死についても本当は伝えられているのとは違うのです…… ――御浄霊により病人が霊的動作を表わすことがございますが、その御浄霊する先生によりあるいはその土地により相違がありますようですが、これはなぜでございましょうか。<br><br> これは無論ありますよ。<br><br>憑いている霊がその先生より上の場合と下の場合があり、上の場合には「お前さんには言えない」と言うし、下の場合には「お前さんは偉いから話をする」と言う。<br><br>狐なんか殊にそうですが、結局それは光の多い人に頭を下げるわけです。<br><br>……霊が浮くというのは光により苦しくなって浮いてくる場合と、また霊によっては憑いてからまだ短時日だと浮きやすいということもあります。<br><br>土地ということにはあまり関係ないが、土地により霊懸りの多いのと少ないのとはあります。<br><br>狐の親玉なんかがいればその辺には子分がたくさんいますから。<br><br> ――よく、その先生に力があるからだとか、あるいはその先生にそんな霊が憑いているから同じようなのが集まるのだとも聞きますが……？ その先生によるということはあります。<br><br>が、その人により霊が集まるということはないですね。<br><br> ――教導所により治りにくい患者が幾人も来ることがありますが、これはその教導師がなにか自己反省すべき点があるためでしょうか。<br><br>あるいは他になにか神様の思し召しがあるのでしょうか。<br><br> 神様の思し召しということはない。<br><br>すべてを救われるのが神様の思し召しであって、思し召しで治さぬなんてことはない。<br><br>昨日も話したことなんですが「軍神」なんてことはないのです。<br><br>今度の戦犯の判決なんかまだ軽すぎます、戦犯のために幾万という人が死んでいるのだから、彼らの犯した罪に比べれば帝銀事件の平沢なんかはまるで「蚤のふん」みたいなものです。<br><br>マッカーサー元帥がその声明の中で、「これを機会に戦争をなくしてしまいたい」と言っているのは本当です。<br><br>こういう点の判断が日本人はどうもいけない。<br><br>同情してしまって罪を軽くしようとする。<br><br>……で、軍神というふうに人を殺すことを手伝う神なんか正しい神ではない。<br><br>……治りにくいというのは教導師の頭の働きが悪いのです。<br><br>急所を当てれば治りが早いが、外れていては治らない。<br><br>中には体全体やればどれか急所に当たるだろうといった調子で機関銃式にする人があるがそれでは駄目です。<br><br>ほんの小さな毒結のため全身的に発熱することがあるが、そのときその毒結をやればたちまち解熱する。<br><br> ――着物を着たままでも急所は判りましょうか？ 着たままでも判りますよ。<br><br>どの病気はどの辺をやるかその基準を知ることも大切です。<br><br>例えば腹の悪い人は背中からやるだけで治ってしまうのです。<br><br> ――いままで神道だった人がお道に入った場合、御先祖はどのようにお祀りすべきでしょうか？ お祀りはそのままでよろしい。<br><br>先祖の代から神道ならいいが途中から仏立講みたいに過去帳にすると先祖は怒りますよ。<br><br>あれは非常に間違っている。<br><br>……霊友会では他人の先祖をよく祀るがあれはいいですね。<br><br>そういう設備もあったほうがよい。<br><br>私のところでも他人の仏をだいぶ祀ってます。<br><br> ――ある人、土蔵の白蛇を殺しましたが、これは人間より上でしょうか。<br><br>また祀る場合いかがいたすぺきでしょうか。<br><br>何年くらい祀るぺきでしょうか。<br><br> 蛇はね、どんなのでも人間より下ですよ。<br><br>同様にどんな立派な稲荷でも人間より下です。<br><br>以前ある人が稲荷を祀るとき「正二位」と書いたので狐が怒ったことがあります。<br><br>たいした手間ではないから「正一位」と書いてやることですね。<br><br>龍神なんかはあまり祀らないほうがいい、面倒ですから。<br><br>この場合はその家か土地の名前をつけて○〇明神とし、言葉で「焼け死んだ龍神の方々、御一緒にお祀りいたしますゆえ、ここにお鎮まりください」と言ったらよい。<br><br>お供えものは月一度霊の好きそうなものを上げればよい。<br><br>すべてああいうものはお祀りは月一回するのです。<br><br>またお宮は、はすっかいになってもいいから光明如来のお祀りしてあるほうへ向けたほうがよい、光を浴びて早く向上するから。<br><br>で、三年も祀ってやればいいでしょう。<br><br>そうすると龍神は昇天して行きます。<br><br>昇天のときはよく夢なんかで知らせがあります。<br><br> ―― 一、山間を開墾中、無縁仏を掘り出した場合、 一、自分の所有する田畑から変死体が出た場合、 右の場合の処置につきお伺い申し上げます。<br><br> 無縁仏はその場所の小さくは三尺四方、ふつうは六尺四方の平らな所へ立ててやって、ときどき花や供物を上げてやればたいへん功徳です。<br><br>……田畑の変死体は自分の菩提寺に祀ってやればよい。<br><br>またその位牌は「諸霊位」としてやればよいでしょう。<br><br> ――霊界とは宇宙のどこに存在するものでしょうか？ 人間の住んでいる所に霊界はあります。<br><br>また地球上ある高さまでは霊界はあるのです。<br><br>北極や南極のように人の住まぬ所には神界も仏界もない。<br><br>ふつうは人間の住む所にあると思えばよろしい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e a Prática da Salvação</h2>
 <p><strong>P: Observamos no mundo um número considerável de pessoas que vêm a falecer em decorrência de injeções. Isto ocorreria pela presença de alguma toxina no medicamento?</strong></p>
@@ -129,5 +281,48 @@ function toggleLang(lang) {
 <p>R: No caso do espírito sem amparo, deve-se demarcar uma área plana de, no mínimo, noventa centímetros quadrados, ou, idealmente, de um metro e oitenta, e erguer um pequeno monumento. Oferecer-lhe flores e alimentos de vez em quando é um ato de grande virtude. Quanto ao corpo encontrado na plantação, deve-se consagrá-lo no templo budista da própria família. O tablete memorial pode ser inscrito com os dizeres “Tablete para Todos os Espíritos”.</p>
 <p><strong>P: Em que parte do universo o Mundo Espiritual existe?</strong></p>
 <p>R: O Mundo Espiritual existe onde os seres humanos vivem. Ele se estende até uma certa altitude acima da Terra. Em locais desabitados, como os polos Norte e Sul, não há nem Mundo Divino nem Mundo Búdico. De modo geral, basta pensar que ele existe onde há vida humana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年11月28日） 『御光話録』2号、昭和24(1949)年1月8日発行 十一月二十八日 ――注射により死亡する人がだいぶ世間にありますが、これは注射薬の中にいわゆる毒素があるためでございましょうか。<br/><br/> しかしね、薬の中に毒のあるわけはないでしょう。<br/><br/>毒なんかが入っていれば当局でも許さないでしょうしね。<br/><br/>今度の京都のジフテリア事件だって大阪の「日赤」で作ったのだから毒なんかあるわけはない。<br/><br/>まさか「平沢」なんかはいないでしょうから。<br/><br/>……そこなんですよ。<br/><br/>だいたい薬というものは、私がよく言う通り、ないんですよ。<br/><br/>もしあるとすれば米が薬です。<br/><br/>米がなければ生きられないから。<br/><br/>杉田玄白は「薬とは毒をもって毒を制するものである」と言ってますがこれは至言です。<br/><br/>毒で体を弱らせて浄化を抑えるのが薬の効能です。<br/><br/>……最近は霊界の浄化力が強くなってきたので注射液が体の一カ所へ寄ってくる。<br/><br/>そのためにいろいろ障害が起るのです。<br/><br/>肝臓出血などはそれです。<br/><br/>だから毒血が局部的に集まってくる、と発熱して苦しみが起るのです。<br/><br/>浄化の弱い時代は注射薬は体全体にまわりそれから局所へ集まったのだが、いまはそれが全身にまわらないうちに一部へ寄ってしまうのです。<br/><br/> ――注射直後、体が硬直することもございますが…… あれは血管などへ注射する場合、その場所が悪いのです。<br/><br/>その結果異物が心臓へ行くから死ぬのです。<br/><br/> ――個人的または団体的悪宣伝に対し、私どもは宗教人としてよい宣伝をもってこれに報ゆるべきでしょうか。<br/><br/> 間違いに対して説明するのはかまわないが、うっちゃっておいたほうがいいです。<br/><br/>それに災いされて萎縮するようではまだ駄目ですよ。<br/><br/>悪口を言われるのは結構なんです。<br/><br/>悪口は浄化で、それでこっちの罪が消えるんです。<br/><br/> ――悪宣伝の結果、悪い支障が次々と起ってくる心配がありますが…… 起って結構です。<br/><br/>これはいままで世間で言われていたこととは反対です。<br/><br/>……大森時代、私は人から悪口を言われると笑ったものです。<br/><br/>大本のお筆先に「悪く言われてよくなる仕組み」とありますがうまく言ってますね。<br/><br/>……いろいろな宗教がありますが初めからよく言われた宗教はありません。<br/><br/>いまは世界的なキリスト教だって初めは十一人しか弟子がなかったし、しかもキリストが死んで十年くらい経ってから心覚えを書いた、それがいまの『聖書』なんです。<br/><br/>それからだんだんに広まってきたんです。<br/><br/>釈迦だけは違うがあれはインドの皇太子だったからです。<br/><br/>天理教の中山みきだって二十何回留置場に入れられ、四回検事局送りになったのです。<br/><br/>ともかく最初は悪く言われるものです。<br/><br/>もっともいまでも天理教を悪く言う人はありますが…… ――悪宣伝に対して言い訳をすることはいかがでしょうか。<br/><br/> いけない、いけない、言い訳を言うようでは野暮ですよ。<br/><br/>悪口を笑って通せれば人間が一段できた証拠です。<br/><br/>なにか勝負事のようなことでも負けたほうがよい。<br/><br/>勝った場合には「あいつは負けたんで俺を怨んでやしないか」などと思うが負ければこんなことはない。<br/><br/>だから結局人間は、怨みの霊の来ないように、感謝の霊の来るようにすることが肝腎です。<br/><br/>決して人の怨みを買ってはいけない。<br/><br/>これくらい霊的に損をすることはないんですよ。<br/><br/> ――「恒産なき者は恒心なし」との格言がありますが、現在の世相においても当てはまるものでございましょうか。<br/><br/> これは当てはまります。<br/><br/>どうしても、人間貧苦するとろくな考えが出なくついごまかしたりする。<br/><br/>だから生活の心配のないところまで行かねばいけない。<br/><br/>宗教を信じるならそこまで行かねばならない。<br/><br/>ところがいままでの宗教は体を救えなかったのです。<br/><br/>例えば病気で苦しんでいて、感謝なんか出るはずはないんです。<br/><br/>あれは自己を偽っているのです。<br/><br/>……いままでの宗教で言う「さとり」とは「悟」の字を使い、諦めの意味ですが、私のは「覚」であり知るさとりです。<br/><br/> ――大先生様の御人格と、日本の神国思想との関係についてお伺い申し上げます。<br/><br/> 神国思想はいけません。<br/><br/>神国思想と私とはなんの関係もありません。<br/><br/>……私のことは思った通りを人に話したらいいですよ。<br/><br/>ここで大切なのは私の仕事を考えることです。<br/><br/>例えばいままでは人間の寿命はどうにもできなかった。<br/><br/>が、私はそれを延ばすことができるのです。<br/><br/>だから問題はその事実なんですよ。<br/><br/>いままでにも「キリストの再臨」なんて言うのがときどき世に出たが、本当の「事実」がない。<br/><br/>三十年ほど前にもインドに「サンダーシング」という三十歳くらいの男が水の上を歩いて渡ったりしたので、キリストの再臨とまで称されたが若死にしてしまいました。<br/><br/>しかし水の上を渡ったりしたって人間や社会にはなんの益もない。<br/><br/>単なる興行師にすぎない。<br/><br/>つまり、病気が治ったり、貧苦が解決したりなど実際の効果がなければ駄目です。<br/><br/>私は言うのですが、釈迦やキリストも偉いが人の病気を治せなかった。<br/><br/>キリスト自身は多少治したが、弟子にはその力がなかった。<br/><br/>また釈迦の死についても本当は伝えられているのとは違うのです…… ――御浄霊により病人が霊的動作を表わすことがございますが、その御浄霊する先生によりあるいはその土地により相違がありますようですが、これはなぜでございましょうか。<br/><br/> これは無論ありますよ。<br/><br/>憑いている霊がその先生より上の場合と下の場合があり、上の場合には「お前さんには言えない」と言うし、下の場合には「お前さんは偉いから話をする」と言う。<br/><br/>狐なんか殊にそうですが、結局それは光の多い人に頭を下げるわけです。<br/><br/>……霊が浮くというのは光により苦しくなって浮いてくる場合と、また霊によっては憑いてからまだ短時日だと浮きやすいということもあります。<br/><br/>土地ということにはあまり関係ないが、土地により霊懸りの多いのと少ないのとはあります。<br/><br/>狐の親玉なんかがいればその辺には子分がたくさんいますから。<br/><br/> ――よく、その先生に力があるからだとか、あるいはその先生にそんな霊が憑いているから同じようなのが集まるのだとも聞きますが……？ その先生によるということはあります。<br/><br/>が、その人により霊が集まるということはないですね。<br/><br/> ――教導所により治りにくい患者が幾人も来ることがありますが、これはその教導師がなにか自己反省すべき点があるためでしょうか。<br/><br/>あるいは他になにか神様の思し召しがあるのでしょうか。<br/><br/> 神様の思し召しということはない。<br/><br/>すべてを救われるのが神様の思し召しであって、思し召しで治さぬなんてことはない。<br/><br/>昨日も話したことなんですが「軍神」なんてことはないのです。<br/><br/>今度の戦犯の判決なんかまだ軽すぎます、戦犯のために幾万という人が死んでいるのだから、彼らの犯した罪に比べれば帝銀事件の平沢なんかはまるで「蚤のふん」みたいなものです。<br/><br/>マッカーサー元帥がその声明の中で、「これを機会に戦争をなくしてしまいたい」と言っているのは本当です。<br/><br/>こういう点の判断が日本人はどうもいけない。<br/><br/>同情してしまって罪を軽くしようとする。<br/><br/>……で、軍神というふうに人を殺すことを手伝う神なんか正しい神ではない。<br/><br/>……治りにくいというのは教導師の頭の働きが悪いのです。<br/><br/>急所を当てれば治りが早いが、外れていては治らない。<br/><br/>中には体全体やればどれか急所に当たるだろうといった調子で機関銃式にする人があるがそれでは駄目です。<br/><br/>ほんの小さな毒結のため全身的に発熱することがあるが、そのときその毒結をやればたちまち解熱する。<br/><br/> ――着物を着たままでも急所は判りましょうか？ 着たままでも判りますよ。<br/><br/>どの病気はどの辺をやるかその基準を知ることも大切です。<br/><br/>例えば腹の悪い人は背中からやるだけで治ってしまうのです。<br/><br/> ――いままで神道だった人がお道に入った場合、御先祖はどのようにお祀りすべきでしょうか？ お祀りはそのままでよろしい。<br/><br/>先祖の代から神道ならいいが途中から仏立講みたいに過去帳にすると先祖は怒りますよ。<br/><br/>あれは非常に間違っている。<br/><br/>……霊友会では他人の先祖をよく祀るがあれはいいですね。<br/><br/>そういう設備もあったほうがよい。<br/><br/>私のところでも他人の仏をだいぶ祀ってます。<br/><br/> ――ある人、土蔵の白蛇を殺しましたが、これは人間より上でしょうか。<br/><br/>また祀る場合いかがいたすぺきでしょうか。<br/><br/>何年くらい祀るぺきでしょうか。<br/><br/> 蛇はね、どんなのでも人間より下ですよ。<br/><br/>同様にどんな立派な稲荷でも人間より下です。<br/><br/>以前ある人が稲荷を祀るとき「正二位」と書いたので狐が怒ったことがあります。<br/><br/>たいした手間ではないから「正一位」と書いてやることですね。<br/><br/>龍神なんかはあまり祀らないほうがいい、面倒ですから。<br/><br/>この場合はその家か土地の名前をつけて○〇明神とし、言葉で「焼け死んだ龍神の方々、御一緒にお祀りいたしますゆえ、ここにお鎮まりください」と言ったらよい。<br/><br/>お供えものは月一度霊の好きそうなものを上げればよい。<br/><br/>すべてああいうものはお祀りは月一回するのです。<br/><br/>またお宮は、はすっかいになってもいいから光明如来のお祀りしてあるほうへ向けたほうがよい、光を浴びて早く向上するから。<br/><br/>で、三年も祀ってやればいいでしょう。<br/><br/>そうすると龍神は昇天して行きます。<br/><br/>昇天のときはよく夢なんかで知らせがあります。<br/><br/> ―― 一、山間を開墾中、無縁仏を掘り出した場合、 一、自分の所有する田畑から変死体が出た場合、 右の場合の処置につきお伺い申し上げます。<br/><br/> 無縁仏はその場所の小さくは三尺四方、ふつうは六尺四方の平らな所へ立ててやって、ときどき花や供物を上げてやればたいへん功徳です。<br/><br/>……田畑の変死体は自分の菩提寺に祀ってやればよい。<br/><br/>またその位牌は「諸霊位」としてやればよいでしょう。<br/><br/> ――霊界とは宇宙のどこに存在するものでしょうか？ 人間の住んでいる所に霊界はあります。<br/><br/>また地球上ある高さまでは霊界はあるのです。<br/><br/>北極や南極のように人の住まぬ所には神界も仏界もない。<br/><br/>ふつうは人間の住む所にあると思えばよろしい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

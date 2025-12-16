@@ -4,8 +4,8 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>RandS</title>
 <link href="../style1.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<link href="../style4.css" rel="stylesheet" type="text/css"/></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <p align="center">
 <font face="HG正楷書体-PRO" size="3">―――　岡
                         田 自 観 師 の 論 文 集　――</font>
@@ -13,55 +13,7 @@
 </font>
 </p>
 <blockquote>
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 Religion and Science Religion and Science 英訳御論文６編を収録 Ａ５ 版 ２３P by Jikan Okada Church of World Messianity 112 Tawara-Machi Atami City JAPAN Printed in Japan 1955 What Is Disease ? Vaccination and Medical Toxin Origination of Bacilli Analysis of Toxin Surgical Operation Nutrition
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>――― Coletânea de Teses do Mestre Jikan Okada ―――</h2>
 <p>Publicação: Religion and Science</p>
@@ -146,5 +98,5 @@ Nutrição</p></div></blockquote>
 </center>
 </div>
 <p align="left">　</p>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 岡 田 自 観 師 の 論 文 集 ―― 発行誌別 Religion and Science Religion and Science 英訳御論文６編を収録 Ａ５ 版 ２３P by Jikan Okada Church of World Messianity 112 Tawara-Machi Atami City JAPAN Printed in Japan 1955 What Is Disease ? Vaccination and Medical Toxin Origination of Bacilli Analysis of Toxin Surgical Operation Nutrition</div><script src="../compare.js"></script></body>
 </html>

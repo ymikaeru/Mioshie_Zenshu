@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin1001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 １ 001-014 家 001 手癖悪い子（霊層と悩） 小供の手癖の悪いのはどうしたらよろしゅう御座いましょうか。<br><br> 動物霊が憑いてやらすのである。<br><br>こういう事をするのは、親に罪がある。<br><br>親と関連している。<br><br>親自身、自分の心を省みて大いに徳を積む事にする。<br><br>そして親に罪があると、霊層界の下にあり、霊層の下の下にあると、何か苦しみがある。<br><br>それで子供の盗みの苦しみがなくなるとしても他の何かの苦しみがある。<br><br>徳を積んで霊層界の上へ上ると、子供も親が心配するような事が出来なくなる。<br><br>その事をよく知らなくてはならぬ。<br><br>騙されるのもそれだけの資格がある訳である。<br><br>泥棒にとられたり、いろんな事で損をする等も、その物質が汚れてる。<br><br>間違った事があり、その罪をとられるための浄化で、これはあらゆる事にある。<br><br>日本で物の足らぬのも浄化であり、偉い人が小菅へ行くのも浄化作用である。<br><br> 人間はどんな人も必ず悩みがある。<br><br>夜の世界の間は仕方がない。<br><br>動物霊が活躍するだけの余地がある。<br><br> 修行を励んでいる人は、それが段々小さくなる。<br><br> 002 実父の不幸（苦悩の原因は一なり） 継母（入籍していない）と実父と共謀で、たった一人の子である私の全財産を取上げようとして裁判に訴えたけれど意のごとくならず、継母は別居しました。<br><br>その際継母は、実父に茶碗一つと箸一膳残したのみで家財道具、衣類全部と私の所有家屋の造作物の一部まで持出しました。<br><br> つまり実父は着のみ着のまま捨てられた有様です。<br><br>所が実父の日常は嘘と隠し事で終止し、妻（私の）の言う事は全部理屈として何一つ聞き入れず、妻が「真の娘と思ってくれ」と言っても娘と思った事は一度も無いと言う始末で継母と別居当時は同情しましたが、最近は姿を見ただけで腹立たしくなり、外出先より帰宅した途端嫌な気持になり、どうにも致し方ありませんが、老先短い（八十二才）実父を少しでも救ってやりたいと朝夕光明如来様にお願いしていますが、この先どうしたら宜敷いでしょうか。<br><br>お伺い申し上げます。<br><br> よほど一家に罪穢が多く、それに乗じて邪神が憑って災いする。<br><br>入信して人を助ける。<br><br>徳を積む。<br><br>幸福の人を多くつくる。<br><br>その徳により皆の気持が変り良くなる。<br><br>これより外に道はない。<br><br> 神の御目からみれば、人の苦しみは皆同じ原因によるものである。<br><br>（双方共同じ罪穢）（S24. 2.20） 003 生児続死の因（信仰と子宝） 去年と今年と二回子供が生れてすぐ死にました。<br><br>どちらも三日程しか生きていません。<br><br>この事について何か家の因縁は無いでしょうか。<br><br> 訳がある。<br><br>こんな筈はないので、何か霊が障っている。<br><br>恨みの霊とかまたその主人公が罪を犯しているなどである。<br><br>子供は神様から授かるもので、欲しいと思っても自由に授かるものでない。<br><br>すべて霊的運命に因る。<br><br>子供さえあれば幸福だとはいえない。<br><br>不具や道楽者が生れたら反って子のため泣く事となり、不仕合せの因となる事もある。<br><br>本当に親の幸福を助けるものでなくては子宝とはいえない。<br><br>不仕合せにする子が生れるのは親の身に罪があり、子による一種の浄化作用である。<br><br>（また授かるまでの霊位でないかも知れない）入信して人助けすれば罪が減り、その徳によって救われる。<br><br>そして怨みの想念の影響もよほど減る。<br><br>それで初めて良い子が出来る。<br><br> また、薬を多く呑んだのはいけない。<br><br>それで入信してからの子は、良い子が出来るのである。<br><br> 004 貰い子と妊娠 子供の無い人が貰い子をすると、子が宿ると言われますがいかなる事か、御説明下さい。<br><br> 定った訳ではない。<br><br>出来る場合も出来ぬ場合もある。<br><br>貰い子をすると、祖霊が気に入らぬ場合があって、霊界で神様にお願いしたりなどして、別に授かるよう神様にお願いする。<br><br>それはない事はない。<br><br> 005 愛し合わぬ夫婦（反対の必要なる意義） お互いに愛し得ない夫婦が、今後共長く生活を共にして行く事は非常に苦しみでもあり、また不合理とも考えられますが、やはり神様はこの苦しみを与え給うのでしょうか。<br><br> これは訳あって苦しみを与える。<br><br>これは人間に解決出来ぬ。<br><br>神様に任すといいようにする。<br><br>実にうまくする。<br><br>互いに好きになるか、一方が好きになるか、別れさすかする。<br><br>夫婦は元来神が結合さす事を知っておかなくてはならぬ。<br><br>ただ人間が人為的にした場合がある。<br><br>それは離す事が出来る。<br><br>夫婦で一方が反対すると修業になる。<br><br>ヨーロッパ文化が発達したのは、小国が多く敵が多いからそのために国が強くなった。<br><br>そういう点は非常にある。<br><br>人間の信仰は反対する程強くなる。<br><br> 006 夫婦霊線切れるか 夫婦の霊線は、別れれば切れると申されていますが、子供が出来ていても切れるものでしょうか。<br><br> 別れても切れない。<br><br>細くはなるが切れはしない。<br><br>子供が出来ていればやや太い位の所で、両方の想念に執着があって、思い合ったりなどすると太くなる。<br><br> 007 信仰を妨害する夫（霊層と霊線） 四年前入信させて戴き、現在大光明如来様を御迎えさせて戴きました。<br><br>御手伝いをさせて戴きたく存じますが、内々で御座います故、主人も不承知ながらも黙っていてはくれますが、少しでも御手伝いのために外出したり、他の方に御話したり、浄霊をしたりすると反対を致します。<br><br>時節を待てと申されましたが、主人は絶対無信仰にて取り付く島もありません。<br><br>この信仰を争い無く続けて行きますには、どう致したらよろしゅう御座いましょうか。<br><br> やはり時節を待つ。<br><br>夫婦は霊線で繋っている。<br><br>一方が判ると向上してくる。<br><br>一番太い段階があって、どうしても主人の方が追つかなくてはいけない。<br><br>そのため、浄化が起きて気が付く場合と、死んで気づくのもある。<br><br>出来るだけ神書を読みお任せしておけば、主人は入信しなくてはならぬ事となるか、別れる事になるかである。<br><br>無理や争いはいけない。<br><br>心から信仰するのでなくてはいけない。<br><br>神様がうまくしてくれる。<br><br> (S24. 6.26） 008 後継の順位（五六七世の決り方） 鹿児島日置郡の地方では、古くからの習慣で、長男から先に分家し、次男、三男と順次分家して末の男子が相続し、末子先祖を祀るのが習慣で、末子が財産の最高を受け、当然祀るべき長男の家には位牌がありません。<br><br>この地方は精神病者が多いのであります。<br><br>何か霊的関係があるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 末っ子が継ぐ事も間違ってはいない。<br><br>長男が後を継ぐようになったのは後の戦国時代からで、大将など戦死した場合すぐに代りを立てなくてはならぬ。<br><br>それで長男を大将の後継ぎにした。<br><br>故に末子で差支えない。<br><br>長男より末の方が頭が出来る。<br><br>（親の若い中は頭が悪い）年とる程親の頭は進んで来るから、どうしても親の影響を受ける。<br><br>親の想念が悪いと子供へ写る。<br><br>幹が悪いと枝も勢が悪い。<br><br>精神病は関係ない。<br><br> 五六七世になると違ってくる。<br><br>これは長男とも末子とも決らなくなる。<br><br>自然に決ってくる。<br><br>皆の心が本当になると、一番偉いのがなる。<br><br>邪念がなければ衆議一決する。<br><br>（会議の上決めるべきである）（S24. 7.28） rattail（注） 〔 御光話（S24年 5月23日） 『御光話録』10号、昭和24(1949)年7月10日発行〕 ――長男は必ず家を継ぐべきでしょうか。<br><br> 『継がなくてもいいですよ。<br><br>昔、戦国時代に大将が討ち死にした場合、すぐ後釜を据えなければ一軍の士気に影響しましたからね。<br><br>それで長男をすぐに後継ぎにすることに決めてあったんです。<br><br>いまもその習慣が残っているんですから、必ずそうしなければいかんということはありませんよ。<br><br>しかしなにも特別の理由がなければ長男が継ぐのが本当ですね。<br><br>事情があって長男じゃ具合が悪いっていうんならいいですがね。<br><br>それからまた、長男が自分から相続の権利を放棄することもありますからね。<br><br>例えば非常な劇しい恋愛関係があって、どうしても一緒になりたいのに、女のほうが長女で一人娘だったら、女の家のほうでは養子に欲しいですからね。<br><br>そのときに男のほうが養子でもなんでもいいから恋しい女と一緒になりたいっていう場合には、その長男が養子に行って次男が後を継げばいいですよ。<br><br>なにも、どうしても長男が後を継がねばいかん、とこだわる必要はありませんよ。<br><br>』 〔 御垂示（S27年6月1日） 『御垂示録』10号、昭和27(1952)年6月15日発行〕 「本家のほうは三代目になると男の子ができません。<br><br>二代は男、三代目に女となっております。<br><br>分家のほうは男の子がございます。<br><br>原因がございますので――」 『それはありますよ。<br><br>それは祖先が何か事情があって、そういう風にするんですね。<br><br>そうすると霊界に行って、霊界で祖先が下の子孫に向って命令するんだ。<br><br>こうせよ、と。<br><br>それも祖霊がそういうことになったのは事情があったんです。<br><br>先祖にね。<br><br>そうしたほうがいい。<br><br>そうしなければならない、と何か事情があったんですね。<br><br>それが男ばかり女ばかりじゃ駄目だが、そういう具合に両方いい具合にいくんだからいいでしょう。<br><br> それから、それについて言うが、跡を継ぐのは長男でなくても、次男でも三男でも構わないですよ。<br><br>従って女でもそうです。<br><br>日本は長男が跡継ぎになったのは、戦国時代に大将が打ち死にするでしょう。<br><br>その場合にすぐに大将の代わりを立てなければならない。<br><br>それでなければ統一がつかないからね。<br><br>日本はそういう ――系統を立ててますからね。<br><br>それで長男が一番年取っているから、それで長男が跡継ぎという伝統ができちゃったんです。<br><br>だから跡を継ぐ場合は一向差し支えない。<br><br>よくありますよ。<br><br>長男は家督を継ぐのが嫌だ。<br><br>芸術家なんかにありますがね。<br><br>俺は自由にしたい。<br><br>俺は親の商売が嫌だといって、弟に継がせるのがありますがね。<br><br>それを封建的の頭の人は、どうしても長男が継いでくれなければ――とそういう映画がこの間ありましたが、そういうことで悲劇がありますがね。<br><br>馬鹿気たものですよ。<br><br>家を継ぐのに適当した子供――そういうのに継がせればいいんですからね。<br><br>まして女はそういうことは決してなおさら差し支えないんですからね。<br><br>』 009 後継の心なき次男（御守護戴く要件） 私は長男を二十一年十月腎臓結核で大手術の結果遂に死に到らしめ、後に嫁と子（孫）一人を残しましたので次男と逆縁させましたが、息子は嫁を嫌い家をつぐ気持がなくて、困ってお観音様にお縋りして御守護を御願いしたのですが、思うように御守護を戴けませんが今後いかに致して御縋りしたら御守護を戴けるでしょうか。<br><br>御教示御願い致します。<br><br>因みに 私の次男 大正十一年六月生れ。<br><br> 同 嫁 大正十年二月生れです。<br><br> 御守護願うのは本当でない。<br><br>自分で勝手にした事でいくらか無理があった。<br><br>家を継ぐ気がない。<br><br>しかしこちらがいいかもしれぬ。<br><br> 人をよくしなければ御守護は受けられぬ。<br><br>御守護は褒美である。<br><br>（S25. 1.16） 010 家紋の起源、松竹梅の意義 家紋の起縁について、また天神様の御定紋は梅鉢ですが観音様と御関係がありましょうか。<br><br> これも相当古い時代からある。<br><br>中古戦国時代の必要から起きたもので、その時代は系統や階級制度がやかましかった。<br><br>それらを紋によって表わした。<br><br>戦の時の旗印などから起ったものと思う。<br><br>この戦国の旗印が一番最初と思う。<br><br>敵味方ともその旗印で判別し、また名誉の代表ともした。<br><br>徳川の葵の紋、豊臣の千成瓢箪、真田の六文銭これが起源である。<br><br>菅原道真と観音様とは関係ないが梅は兄の花である。<br><br>梅の紋は相通じている。<br><br>兄の花―梅、木の花（姫）桜、観音様のお働きの上に意味がある。<br><br>梅は五弁で五となる。<br><br>松竹梅は六七五―ミロクとなる。<br><br>故に梅はミロクの一番上である。<br><br>火の働きになる。<br><br>観音様が火の働きをせられる時は、梅即ち兄の花、仏の働きになる時は木の花になる。<br><br> 011 親と夫婦の軽重 従来は孝行が人倫の大本であり、親のため自分は固より妻子をも犠牲にする事も善行として是認されて参りましたが、夫婦の霊線が一番太いと致しますと、夫婦の道が人倫の根本でなければならないと思われます。<br><br>即ち例えば親の言う事よりも妻の言う事を尊重したり、また親と妻と二人溺れんとして一人しか助けられぬ場合、妻を助ける事が人倫に適う事になるように考えられますが、以上の考え方に付御教えをお願い申し上げます。<br><br> そう固苦しく考えなくていい。<br><br>臨機応変である。<br><br>危急の場合は咄嗟の考えでよい。<br><br>親を尊重しなければならぬ事柄も場合もあるし、妻の言う通りした方がよい事もある。<br><br>どっちとも決められぬ。<br><br>年齢にもよる。<br><br>（S25. 4.12） 012 もらい児 もらい子したいと思いますが、どうすべきでしょうか。<br><br> 光明如来様にお願いすると将来良い人間を下さる。<br><br>人間で心配して選ぶ必要ない。<br><br> 013 自由結婚不調の因（結婚原論） 自由恋愛、見合結婚をめぐり、ラジオ、雑誌等にて適、不適が論ぜられております。<br><br> 新人は自由恋愛結婚を喜び、昔堅気の人はこれを嫌う傾向があります。<br><br>しかしいずれも産土神の御取持ちだとすれば文句等あり得ないのですが、自由恋愛結婚は結婚後どうも調子がよくないようであります。<br><br> 近頃は特に自由恋愛結婚を望み、親に叛いて結婚している人達がおりますが、これらも産土神の結合させたものでしょうか。<br><br> 簡単にはゆかぬ。<br><br>これも恋愛と見合結婚の場合と神様は両方扱う。<br><br>前世愛し合ったものが恋愛が遂げられぬ場合執着が残っている。<br><br>今生に生れてたまたま会うと成功させようとして両方が熱烈になる。<br><br>こういう恋愛は無軌道的になる。<br><br>これも産土神または正守護神が執着を除らすためある期間許す。<br><br>ある時期へゆくと熱がさめる。<br><br>執着が除れる。<br><br>それで割合にうまくゆかぬ。<br><br>さめてしまうのである。<br><br> また、産土神が決めた相手が違う場合もある。<br><br>それで別れる。<br><br>であるから見合の方は永久的の方が多い。<br><br>前世の因縁によるのであるからどっちともいえぬ。<br><br>であるから神様に任す事でよい。<br><br> 夫婦になると、中途において亭主が愛する女が出来たり、妻は愛人、不純な男が出来る場合もある。<br><br>結婚してから前世の執着が残ってる事があると無茶苦茶になる。<br><br> 他から見て不道徳だが、本人は夫に済まなくともそうはゆかぬ場合がある。<br><br>熱が冷めると大抵元へ戻る。<br><br>それを人為的解決をしようとすると悲劇が起る。<br><br> 結局、時期を待つと案外うまくゆく。<br><br>その苦しみにより魂が磨けてくる。<br><br>であるから時期を待つのが一番最良である。<br><br> rattail（注） 〔 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行〕掲載 014 早婚晩婚は宿命か 早婚と晩婚とは宿命によって定まっているものでしょうか。<br><br> 大体宿命である。<br><br>運命もあるが、宿命の方が多い。<br><br>その人の霊の磨け方によって早くなる。<br><br>一生夫を持てないというのもある。<br><br> 晩婚は龍神系に多い。<br><br>前の世に男女関係で不幸になった場合。<br><br> また前の世の男が女に生れた場合、男の分子が多いのは骨格も男のようである。<br><br>こういうのは女傑型が多い。<br><br> 女の心理は男の女がよく知っている。<br><br>こういうのは前の世は女だった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Mestre Jikan Okada – Pesquisa de Ensinamentos</h2>
 <h3>Capítulo sobre Assuntos Pessoais – Primeira Parte – Lar (001-014)</h3>
@@ -155,5 +307,48 @@ function toggleLang(lang) {
 <p>Em geral, é predestinado. O destino momentâneo também exerce influência, mas a predestinação cármica é o fator predominante. Conforme o nível de aprimoramento espiritual da pessoa, o casamento pode se adiantar. Há também casos de pessoas predestinadas a nunca se casarem.</p>
 <p>O casamento tardio é comum entre pessoas do sistema do espírito do dragão. Geralmente, isso ocorre devido a uma infelicidade em relacionamentos amorosos em uma vida anterior.</p>
 <p>Ademais, quando um homem de uma vida passada reencarna como mulher, ela tende a possuir uma grande quantidade de partículas masculinas, o que pode se refletir em uma estrutura óssea mais masculina. Essas mulheres frequentemente se enquadram no tipo heroico. A psicologia feminina é mais bem compreendida por homens que foram mulheres em vidas passadas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第一篇 １ 001-014 家 001 手癖悪い子（霊層と悩） 小供の手癖の悪いのはどうしたらよろしゅう御座いましょうか。<br/><br/> 動物霊が憑いてやらすのである。<br/><br/>こういう事をするのは、親に罪がある。<br/><br/>親と関連している。<br/><br/>親自身、自分の心を省みて大いに徳を積む事にする。<br/><br/>そして親に罪があると、霊層界の下にあり、霊層の下の下にあると、何か苦しみがある。<br/><br/>それで子供の盗みの苦しみがなくなるとしても他の何かの苦しみがある。<br/><br/>徳を積んで霊層界の上へ上ると、子供も親が心配するような事が出来なくなる。<br/><br/>その事をよく知らなくてはならぬ。<br/><br/>騙されるのもそれだけの資格がある訳である。<br/><br/>泥棒にとられたり、いろんな事で損をする等も、その物質が汚れてる。<br/><br/>間違った事があり、その罪をとられるための浄化で、これはあらゆる事にある。<br/><br/>日本で物の足らぬのも浄化であり、偉い人が小菅へ行くのも浄化作用である。<br/><br/> 人間はどんな人も必ず悩みがある。<br/><br/>夜の世界の間は仕方がない。<br/><br/>動物霊が活躍するだけの余地がある。<br/><br/> 修行を励んでいる人は、それが段々小さくなる。<br/><br/> 002 実父の不幸（苦悩の原因は一なり） 継母（入籍していない）と実父と共謀で、たった一人の子である私の全財産を取上げようとして裁判に訴えたけれど意のごとくならず、継母は別居しました。<br/><br/>その際継母は、実父に茶碗一つと箸一膳残したのみで家財道具、衣類全部と私の所有家屋の造作物の一部まで持出しました。<br/><br/> つまり実父は着のみ着のまま捨てられた有様です。<br/><br/>所が実父の日常は嘘と隠し事で終止し、妻（私の）の言う事は全部理屈として何一つ聞き入れず、妻が「真の娘と思ってくれ」と言っても娘と思った事は一度も無いと言う始末で継母と別居当時は同情しましたが、最近は姿を見ただけで腹立たしくなり、外出先より帰宅した途端嫌な気持になり、どうにも致し方ありませんが、老先短い（八十二才）実父を少しでも救ってやりたいと朝夕光明如来様にお願いしていますが、この先どうしたら宜敷いでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> よほど一家に罪穢が多く、それに乗じて邪神が憑って災いする。<br/><br/>入信して人を助ける。<br/><br/>徳を積む。<br/><br/>幸福の人を多くつくる。<br/><br/>その徳により皆の気持が変り良くなる。<br/><br/>これより外に道はない。<br/><br/> 神の御目からみれば、人の苦しみは皆同じ原因によるものである。<br/><br/>（双方共同じ罪穢）（S24. 2.20） 003 生児続死の因（信仰と子宝） 去年と今年と二回子供が生れてすぐ死にました。<br/><br/>どちらも三日程しか生きていません。<br/><br/>この事について何か家の因縁は無いでしょうか。<br/><br/> 訳がある。<br/><br/>こんな筈はないので、何か霊が障っている。<br/><br/>恨みの霊とかまたその主人公が罪を犯しているなどである。<br/><br/>子供は神様から授かるもので、欲しいと思っても自由に授かるものでない。<br/><br/>すべて霊的運命に因る。<br/><br/>子供さえあれば幸福だとはいえない。<br/><br/>不具や道楽者が生れたら反って子のため泣く事となり、不仕合せの因となる事もある。<br/><br/>本当に親の幸福を助けるものでなくては子宝とはいえない。<br/><br/>不仕合せにする子が生れるのは親の身に罪があり、子による一種の浄化作用である。<br/><br/>（また授かるまでの霊位でないかも知れない）入信して人助けすれば罪が減り、その徳によって救われる。<br/><br/>そして怨みの想念の影響もよほど減る。<br/><br/>それで初めて良い子が出来る。<br/><br/> また、薬を多く呑んだのはいけない。<br/><br/>それで入信してからの子は、良い子が出来るのである。<br/><br/> 004 貰い子と妊娠 子供の無い人が貰い子をすると、子が宿ると言われますがいかなる事か、御説明下さい。<br/><br/> 定った訳ではない。<br/><br/>出来る場合も出来ぬ場合もある。<br/><br/>貰い子をすると、祖霊が気に入らぬ場合があって、霊界で神様にお願いしたりなどして、別に授かるよう神様にお願いする。<br/><br/>それはない事はない。<br/><br/> 005 愛し合わぬ夫婦（反対の必要なる意義） お互いに愛し得ない夫婦が、今後共長く生活を共にして行く事は非常に苦しみでもあり、また不合理とも考えられますが、やはり神様はこの苦しみを与え給うのでしょうか。<br/><br/> これは訳あって苦しみを与える。<br/><br/>これは人間に解決出来ぬ。<br/><br/>神様に任すといいようにする。<br/><br/>実にうまくする。<br/><br/>互いに好きになるか、一方が好きになるか、別れさすかする。<br/><br/>夫婦は元来神が結合さす事を知っておかなくてはならぬ。<br/><br/>ただ人間が人為的にした場合がある。<br/><br/>それは離す事が出来る。<br/><br/>夫婦で一方が反対すると修業になる。<br/><br/>ヨーロッパ文化が発達したのは、小国が多く敵が多いからそのために国が強くなった。<br/><br/>そういう点は非常にある。<br/><br/>人間の信仰は反対する程強くなる。<br/><br/> 006 夫婦霊線切れるか 夫婦の霊線は、別れれば切れると申されていますが、子供が出来ていても切れるものでしょうか。<br/><br/> 別れても切れない。<br/><br/>細くはなるが切れはしない。<br/><br/>子供が出来ていればやや太い位の所で、両方の想念に執着があって、思い合ったりなどすると太くなる。<br/><br/> 007 信仰を妨害する夫（霊層と霊線） 四年前入信させて戴き、現在大光明如来様を御迎えさせて戴きました。<br/><br/>御手伝いをさせて戴きたく存じますが、内々で御座います故、主人も不承知ながらも黙っていてはくれますが、少しでも御手伝いのために外出したり、他の方に御話したり、浄霊をしたりすると反対を致します。<br/><br/>時節を待てと申されましたが、主人は絶対無信仰にて取り付く島もありません。<br/><br/>この信仰を争い無く続けて行きますには、どう致したらよろしゅう御座いましょうか。<br/><br/> やはり時節を待つ。<br/><br/>夫婦は霊線で繋っている。<br/><br/>一方が判ると向上してくる。<br/><br/>一番太い段階があって、どうしても主人の方が追つかなくてはいけない。<br/><br/>そのため、浄化が起きて気が付く場合と、死んで気づくのもある。<br/><br/>出来るだけ神書を読みお任せしておけば、主人は入信しなくてはならぬ事となるか、別れる事になるかである。<br/><br/>無理や争いはいけない。<br/><br/>心から信仰するのでなくてはいけない。<br/><br/>神様がうまくしてくれる。<br/><br/> (S24. 6.26） 008 後継の順位（五六七世の決り方） 鹿児島日置郡の地方では、古くからの習慣で、長男から先に分家し、次男、三男と順次分家して末の男子が相続し、末子先祖を祀るのが習慣で、末子が財産の最高を受け、当然祀るべき長男の家には位牌がありません。<br/><br/>この地方は精神病者が多いのであります。<br/><br/>何か霊的関係があるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 末っ子が継ぐ事も間違ってはいない。<br/><br/>長男が後を継ぐようになったのは後の戦国時代からで、大将など戦死した場合すぐに代りを立てなくてはならぬ。<br/><br/>それで長男を大将の後継ぎにした。<br/><br/>故に末子で差支えない。<br/><br/>長男より末の方が頭が出来る。<br/><br/>（親の若い中は頭が悪い）年とる程親の頭は進んで来るから、どうしても親の影響を受ける。<br/><br/>親の想念が悪いと子供へ写る。<br/><br/>幹が悪いと枝も勢が悪い。<br/><br/>精神病は関係ない。<br/><br/> 五六七世になると違ってくる。<br/><br/>これは長男とも末子とも決らなくなる。<br/><br/>自然に決ってくる。<br/><br/>皆の心が本当になると、一番偉いのがなる。<br/><br/>邪念がなければ衆議一決する。<br/><br/>（会議の上決めるべきである）（S24. 7.28） rattail（注） 〔 御光話（S24年 5月23日） 『御光話録』10号、昭和24(1949)年7月10日発行〕 ――長男は必ず家を継ぐべきでしょうか。<br/><br/> 『継がなくてもいいですよ。<br/><br/>昔、戦国時代に大将が討ち死にした場合、すぐ後釜を据えなければ一軍の士気に影響しましたからね。<br/><br/>それで長男をすぐに後継ぎにすることに決めてあったんです。<br/><br/>いまもその習慣が残っているんですから、必ずそうしなければいかんということはありませんよ。<br/><br/>しかしなにも特別の理由がなければ長男が継ぐのが本当ですね。<br/><br/>事情があって長男じゃ具合が悪いっていうんならいいですがね。<br/><br/>それからまた、長男が自分から相続の権利を放棄することもありますからね。<br/><br/>例えば非常な劇しい恋愛関係があって、どうしても一緒になりたいのに、女のほうが長女で一人娘だったら、女の家のほうでは養子に欲しいですからね。<br/><br/>そのときに男のほうが養子でもなんでもいいから恋しい女と一緒になりたいっていう場合には、その長男が養子に行って次男が後を継げばいいですよ。<br/><br/>なにも、どうしても長男が後を継がねばいかん、とこだわる必要はありませんよ。<br/><br/>』 〔 御垂示（S27年6月1日） 『御垂示録』10号、昭和27(1952)年6月15日発行〕 「本家のほうは三代目になると男の子ができません。<br/><br/>二代は男、三代目に女となっております。<br/><br/>分家のほうは男の子がございます。<br/><br/>原因がございますので――」 『それはありますよ。<br/><br/>それは祖先が何か事情があって、そういう風にするんですね。<br/><br/>そうすると霊界に行って、霊界で祖先が下の子孫に向って命令するんだ。<br/><br/>こうせよ、と。<br/><br/>それも祖霊がそういうことになったのは事情があったんです。<br/><br/>先祖にね。<br/><br/>そうしたほうがいい。<br/><br/>そうしなければならない、と何か事情があったんですね。<br/><br/>それが男ばかり女ばかりじゃ駄目だが、そういう具合に両方いい具合にいくんだからいいでしょう。<br/><br/> それから、それについて言うが、跡を継ぐのは長男でなくても、次男でも三男でも構わないですよ。<br/><br/>従って女でもそうです。<br/><br/>日本は長男が跡継ぎになったのは、戦国時代に大将が打ち死にするでしょう。<br/><br/>その場合にすぐに大将の代わりを立てなければならない。<br/><br/>それでなければ統一がつかないからね。<br/><br/>日本はそういう ――系統を立ててますからね。<br/><br/>それで長男が一番年取っているから、それで長男が跡継ぎという伝統ができちゃったんです。<br/><br/>だから跡を継ぐ場合は一向差し支えない。<br/><br/>よくありますよ。<br/><br/>長男は家督を継ぐのが嫌だ。<br/><br/>芸術家なんかにありますがね。<br/><br/>俺は自由にしたい。<br/><br/>俺は親の商売が嫌だといって、弟に継がせるのがありますがね。<br/><br/>それを封建的の頭の人は、どうしても長男が継いでくれなければ――とそういう映画がこの間ありましたが、そういうことで悲劇がありますがね。<br/><br/>馬鹿気たものですよ。<br/><br/>家を継ぐのに適当した子供――そういうのに継がせればいいんですからね。<br/><br/>まして女はそういうことは決してなおさら差し支えないんですからね。<br/><br/>』 009 後継の心なき次男（御守護戴く要件） 私は長男を二十一年十月腎臓結核で大手術の結果遂に死に到らしめ、後に嫁と子（孫）一人を残しましたので次男と逆縁させましたが、息子は嫁を嫌い家をつぐ気持がなくて、困ってお観音様にお縋りして御守護を御願いしたのですが、思うように御守護を戴けませんが今後いかに致して御縋りしたら御守護を戴けるでしょうか。<br/><br/>御教示御願い致します。<br/><br/>因みに 私の次男 大正十一年六月生れ。<br/><br/> 同 嫁 大正十年二月生れです。<br/><br/> 御守護願うのは本当でない。<br/><br/>自分で勝手にした事でいくらか無理があった。<br/><br/>家を継ぐ気がない。<br/><br/>しかしこちらがいいかもしれぬ。<br/><br/> 人をよくしなければ御守護は受けられぬ。<br/><br/>御守護は褒美である。<br/><br/>（S25. 1.16） 010 家紋の起源、松竹梅の意義 家紋の起縁について、また天神様の御定紋は梅鉢ですが観音様と御関係がありましょうか。<br/><br/> これも相当古い時代からある。<br/><br/>中古戦国時代の必要から起きたもので、その時代は系統や階級制度がやかましかった。<br/><br/>それらを紋によって表わした。<br/><br/>戦の時の旗印などから起ったものと思う。<br/><br/>この戦国の旗印が一番最初と思う。<br/><br/>敵味方ともその旗印で判別し、また名誉の代表ともした。<br/><br/>徳川の葵の紋、豊臣の千成瓢箪、真田の六文銭これが起源である。<br/><br/>菅原道真と観音様とは関係ないが梅は兄の花である。<br/><br/>梅の紋は相通じている。<br/><br/>兄の花―梅、木の花（姫）桜、観音様のお働きの上に意味がある。<br/><br/>梅は五弁で五となる。<br/><br/>松竹梅は六七五―ミロクとなる。<br/><br/>故に梅はミロクの一番上である。<br/><br/>火の働きになる。<br/><br/>観音様が火の働きをせられる時は、梅即ち兄の花、仏の働きになる時は木の花になる。<br/><br/> 011 親と夫婦の軽重 従来は孝行が人倫の大本であり、親のため自分は固より妻子をも犠牲にする事も善行として是認されて参りましたが、夫婦の霊線が一番太いと致しますと、夫婦の道が人倫の根本でなければならないと思われます。<br/><br/>即ち例えば親の言う事よりも妻の言う事を尊重したり、また親と妻と二人溺れんとして一人しか助けられぬ場合、妻を助ける事が人倫に適う事になるように考えられますが、以上の考え方に付御教えをお願い申し上げます。<br/><br/> そう固苦しく考えなくていい。<br/><br/>臨機応変である。<br/><br/>危急の場合は咄嗟の考えでよい。<br/><br/>親を尊重しなければならぬ事柄も場合もあるし、妻の言う通りした方がよい事もある。<br/><br/>どっちとも決められぬ。<br/><br/>年齢にもよる。<br/><br/>（S25. 4.12） 012 もらい児 もらい子したいと思いますが、どうすべきでしょうか。<br/><br/> 光明如来様にお願いすると将来良い人間を下さる。<br/><br/>人間で心配して選ぶ必要ない。<br/><br/> 013 自由結婚不調の因（結婚原論） 自由恋愛、見合結婚をめぐり、ラジオ、雑誌等にて適、不適が論ぜられております。<br/><br/> 新人は自由恋愛結婚を喜び、昔堅気の人はこれを嫌う傾向があります。<br/><br/>しかしいずれも産土神の御取持ちだとすれば文句等あり得ないのですが、自由恋愛結婚は結婚後どうも調子がよくないようであります。<br/><br/> 近頃は特に自由恋愛結婚を望み、親に叛いて結婚している人達がおりますが、これらも産土神の結合させたものでしょうか。<br/><br/> 簡単にはゆかぬ。<br/><br/>これも恋愛と見合結婚の場合と神様は両方扱う。<br/><br/>前世愛し合ったものが恋愛が遂げられぬ場合執着が残っている。<br/><br/>今生に生れてたまたま会うと成功させようとして両方が熱烈になる。<br/><br/>こういう恋愛は無軌道的になる。<br/><br/>これも産土神または正守護神が執着を除らすためある期間許す。<br/><br/>ある時期へゆくと熱がさめる。<br/><br/>執着が除れる。<br/><br/>それで割合にうまくゆかぬ。<br/><br/>さめてしまうのである。<br/><br/> また、産土神が決めた相手が違う場合もある。<br/><br/>それで別れる。<br/><br/>であるから見合の方は永久的の方が多い。<br/><br/>前世の因縁によるのであるからどっちともいえぬ。<br/><br/>であるから神様に任す事でよい。<br/><br/> 夫婦になると、中途において亭主が愛する女が出来たり、妻は愛人、不純な男が出来る場合もある。<br/><br/>結婚してから前世の執着が残ってる事があると無茶苦茶になる。<br/><br/> 他から見て不道徳だが、本人は夫に済まなくともそうはゆかぬ場合がある。<br/><br/>熱が冷めると大抵元へ戻る。<br/><br/>それを人為的解決をしようとすると悲劇が起る。<br/><br/> 結局、時期を待つと案外うまくゆく。<br/><br/>その苦しみにより魂が磨けてくる。<br/><br/>であるから時期を待つのが一番最良である。<br/><br/> rattail（注） 〔 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行〕掲載 014 早婚晩婚は宿命か 早婚と晩婚とは宿命によって定まっているものでしょうか。<br/><br/> 大体宿命である。<br/><br/>運命もあるが、宿命の方が多い。<br/><br/>その人の霊の磨け方によって早くなる。<br/><br/>一生夫を持てないというのもある。<br/><br/> 晩婚は龍神系に多い。<br/><br/>前の世に男女関係で不幸になった場合。<br/><br/> また前の世の男が女に生れた場合、男の分子が多いのは骨格も男のようである。<br/><br/>こういうのは女傑型が多い。<br/><br/> 女の心理は男の女がよく知っている。<br/><br/>こういうのは前の世は女だった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

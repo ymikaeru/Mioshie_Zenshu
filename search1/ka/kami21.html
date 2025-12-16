@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami21</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神を見せる宗教 『栄光』176号、昭和27(1952)年10月1日発行 これは今始まった事ではないが、有神論者が第三者にむかって神の実在を説く場合、何程種々の例を挙げて説明しても、容易に納得出来ないのは、誰も経験するところであろうが、これは独り本教に限らず、他のいかなる宗教でもそうであるのはほとんど例外はあるまい。<br><br>ところで自画自讃ではないが、我メシヤ教に限って本当に神を見せる事が出来るのであるから、まず世界に類例はないであろう。<br><br>これは本教御蔭話を見てもよく分かるし、また信者達の経験によっても明らかである。<br><br>そうして最初浄霊を受けに来る患者の、十人が十人と言いたい程大いに疑いを抱いているが、これも無理はない。<br><br>何しろ医療を始め世の中にありとあらゆる療法を受けても治らず、散々懲りた揚句とて、本当に治る療法などこの世の中にもはやないと決めてしまっているからである。<br><br>という訳で悶々として悲観のドン底に陥っているが、といって現実の苦しみには堪えられないので、何かに縋りたい、死ぬのは嫌だと思う気持が一杯である。<br><br>その際本教の話を聞き熱心に勧められるので、今一度瞞されてみようくらいのはなはだ頼りない藁をもつかむ心境で浄霊を受けに来るのである。<br><br> そこで来てみるとただ手をかざすだけで、何の変哲もないので、これ程の大病がこんな事で治る道理はない、アヽ馬鹿馬鹿しい、来なければよかったと、後悔する人も少なくないのである。<br><br>よくそういう人が治ってからアノ時アヽ思ったのはまことに申訳なかったと、お詫びをする事もよくあるが、何しろ今日まで見た事も聞いた事もないやり方で、素晴しい効果を挙げるので、ただ驚くばかりである。<br><br>しかも多くの宗教が病気を治す場合、必ずと言いたい程最初から疑っては駄目だ、信じなくては御利益はないというのがお定りで、これが一般常識となっている以上、たまたま本教の話を聞くと、最初から大いに疑え、本当に御利益を見ない内は決して信じてはならないというのを聞くと余りの異いさに面喰ってしまうが、中にはそれは面白い、これこそ本当の宗教だ、余程の自信がなくてはそんな大胆な事を言えるはずがないとして、反って信用する人もあるのである。<br><br> ところで浄霊を受けるや二度びっくり、今までどんな治療でもこれ程の効果はなかったのに、今度はとても具合がいい、アヽこれで助かった。<br><br>この世に神様は確かにある。<br><br>今までないと思っていたのは飛んでもない間違いだった、有難い、自分は本当に救われたといって、それこそ手の舞足の踏みどころを知らずというありさまで、歓喜に浸るのである。<br><br>これによってみても御利益のない内から信じろというのは、己れの心を偽れというのと同じで、いかに間違っているかが分かるであろう。<br><br>これは自力本意であって、本当の神様の力というのは他力本意であるから、楽々と御利益をいただけるのである。<br><br>なお注意すべきはたとえ御利益があっても、大きい小さいがあるからその見分けが肝腎である。<br><br>しかし世間小さな御利益でも、じきに有項天になる人があるが、これは大いに注意すべきである。<br><br>というのは医師に見離された大病が治って、神様から生命を頂いた事がハッキリ分かってこそ、全身全霊を打込んでも間違いない信仰である。<br><br>また神にも上中下の階級があって、小さい神だと小さい御利益で、大きい神程大きい御利益を頂けるので、これが相応の理であるから、この点も充分心得ておくべきである。<br><br> 以上によって、神を見せる宗教としての我メシヤ教は分かったであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião que Manifesta Deus</h2>
 <p>Não é de hoje que os teístas, ao discorrerem sobre a existência de Deus a terceiros, deparam-se com a dificuldade de convencer seus interlocutores, por mais que se valham de exemplos para fundamentar sua explanação. Essa é uma experiência comum a praticamente todas as religiões, quase sem exceção. Contudo, e não o digo por presunção, nossa Igreja Messiânica é a única capaz de verdadeiramente manifestar Deus, constituindo um caso sem precedentes no mundo. Tal fato torna-se evidente não apenas nos relatos de graças alcançadas, mas também na vivência de nossos fiéis.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>É preciso atentar para outro ponto importante: mesmo quando as graças se manifestam, elas possuem diferentes magnitudes, e discernir entre as maiores e as menores é fundamental. Existem pessoas que se enchem de júbilo com uma pequena graça, mas é preciso ter muita cautela com tal atitude. A fé autêntica e inabalável, à qual se pode dedicar corpo e alma sem receio de erro, nasce quando alguém, desenganado pelos médicos, é salvo de uma doença grave e compreende, com absoluta clareza, que sua vida lhe foi concedida por Deus.</p>
 <p>Ademais, no Mundo Espiritual, Deus também Se manifesta em diferentes níveis hierárquicos: superior, intermediário e inferior. Deuses de hierarquia inferior concedem graças menores, ao passo que Deuses de hierarquia superior concedem graças grandiosas. Este é o Princípio da Concordância, e é imperativo que todos o compreendam plenamente.</p>
 <p>Pelo exposto, creio que se tornou claro por que a nossa Igreja Messiânica é a religião que manifesta Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神を見せる宗教 『栄光』176号、昭和27(1952)年10月1日発行 これは今始まった事ではないが、有神論者が第三者にむかって神の実在を説く場合、何程種々の例を挙げて説明しても、容易に納得出来ないのは、誰も経験するところであろうが、これは独り本教に限らず、他のいかなる宗教でもそうであるのはほとんど例外はあるまい。<br/><br/>ところで自画自讃ではないが、我メシヤ教に限って本当に神を見せる事が出来るのであるから、まず世界に類例はないであろう。<br/><br/>これは本教御蔭話を見てもよく分かるし、また信者達の経験によっても明らかである。<br/><br/>そうして最初浄霊を受けに来る患者の、十人が十人と言いたい程大いに疑いを抱いているが、これも無理はない。<br/><br/>何しろ医療を始め世の中にありとあらゆる療法を受けても治らず、散々懲りた揚句とて、本当に治る療法などこの世の中にもはやないと決めてしまっているからである。<br/><br/>という訳で悶々として悲観のドン底に陥っているが、といって現実の苦しみには堪えられないので、何かに縋りたい、死ぬのは嫌だと思う気持が一杯である。<br/><br/>その際本教の話を聞き熱心に勧められるので、今一度瞞されてみようくらいのはなはだ頼りない藁をもつかむ心境で浄霊を受けに来るのである。<br/><br/> そこで来てみるとただ手をかざすだけで、何の変哲もないので、これ程の大病がこんな事で治る道理はない、アヽ馬鹿馬鹿しい、来なければよかったと、後悔する人も少なくないのである。<br/><br/>よくそういう人が治ってからアノ時アヽ思ったのはまことに申訳なかったと、お詫びをする事もよくあるが、何しろ今日まで見た事も聞いた事もないやり方で、素晴しい効果を挙げるので、ただ驚くばかりである。<br/><br/>しかも多くの宗教が病気を治す場合、必ずと言いたい程最初から疑っては駄目だ、信じなくては御利益はないというのがお定りで、これが一般常識となっている以上、たまたま本教の話を聞くと、最初から大いに疑え、本当に御利益を見ない内は決して信じてはならないというのを聞くと余りの異いさに面喰ってしまうが、中にはそれは面白い、これこそ本当の宗教だ、余程の自信がなくてはそんな大胆な事を言えるはずがないとして、反って信用する人もあるのである。<br/><br/> ところで浄霊を受けるや二度びっくり、今までどんな治療でもこれ程の効果はなかったのに、今度はとても具合がいい、アヽこれで助かった。<br/><br/>この世に神様は確かにある。<br/><br/>今までないと思っていたのは飛んでもない間違いだった、有難い、自分は本当に救われたといって、それこそ手の舞足の踏みどころを知らずというありさまで、歓喜に浸るのである。<br/><br/>これによってみても御利益のない内から信じろというのは、己れの心を偽れというのと同じで、いかに間違っているかが分かるであろう。<br/><br/>これは自力本意であって、本当の神様の力というのは他力本意であるから、楽々と御利益をいただけるのである。<br/><br/>なお注意すべきはたとえ御利益があっても、大きい小さいがあるからその見分けが肝腎である。<br/><br/>しかし世間小さな御利益でも、じきに有項天になる人があるが、これは大いに注意すべきである。<br/><br/>というのは医師に見離された大病が治って、神様から生命を頂いた事がハッキリ分かってこそ、全身全霊を打込んでも間違いない信仰である。<br/><br/>また神にも上中下の階級があって、小さい神だと小さい御利益で、大きい神程大きい御利益を頂けるので、これが相応の理であるから、この点も充分心得ておくべきである。<br/><br/> 以上によって、神を見せる宗教としての我メシヤ教は分かったであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

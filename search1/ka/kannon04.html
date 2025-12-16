@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音運動に就て 『東方の光』2号、昭和10(1935)年2月5日発行 今日、口を開けば非常時という。<br><br>何を以て非常時というや。<br><br>そは、あらゆる方面の行詰りである。<br><br>政治に、経済に教育に思想に、医学に、宗教に、その他あらゆる方面に渉って行詰りである。<br><br>これに向って一大維新的打開是正を行うに非（あら）ずんば国家の進展は固より、文化の向上と社会人類の幸福はいつの日か実現するの時あるべき。<br><br>闇深くして、黎明未だしの感あり。<br><br>故にあるいは自暴自棄的享楽に堕し、あるいは矯激（きょうげき）の思想に趨（はし）り、あるいは失業地獄に呻（うめ）きあるいは迷信の淵に沈淪し一人としてその所を得、歓喜と幸福に恵まれたる生活を楽しむ者なき世相である。<br><br> 一方文化の絢爛（けんらん）を誇りながら、一方かくも悲惨なる世相を現出するは必ずや一大誤謬がいずれにか伏在せざるべからず、されどこの原因の奈辺に存するかを洞察し得る一人の識者あるなし、故に忌憚（きたん）なく云えば、真に進歩せるごとく見ゆる現在までの学問、人智の力にても、これ以上文化の発展向上は不可能の時期に到れりと云うべきである。<br><br> まず政治はいかんと云うに、政党政治は遺憾なく欠陥を曝露して亡状の一路を辿（たど）り、ファッショは我が国状に適せず共産主義は云々の必要無し。<br><br>しかして近来頻（しき）りに喧伝せらるゝ皇道政治といえども、未だその理論体系さえ確立せず。<br><br>実際政治に適用するには前途なお幾多の考究と試練とを経ざるべからず。<br><br>次に財政経済を見んか、赤字公債激増の原因としての国民負担力と国防費との不均衡、片為替（かたがわせ）とその原因としての兌換（だかん）不能、その他農村問題の解決等急を要する雑件多々あり。<br><br>次に教育に関しては、今日までの学校教育は一切が西洋模倣にして、唯物万能たる西洋人を養成する西洋学校なり、今後の時代に対しては真の日本人を作らざるべからず。<br><br>即ち人格的道義観念に立脚したる日本式教育を新組織の下に樹立するのである。<br><br>次に思想方面なるが、第二の国家の細胞たる青年を見よ、彼らは国家改造に急なる余り右に偏し左に傾き、遂に極端なる徒はテロにまで及ばんとし、それが又一種の社会的不安を醸成すると云う事になっている。<br><br>しかるにいかんせん、今日の識者等は明確なる改造指針を示す能わざるを以て前途倍々（ますます）暗黒なる状勢を作りこれ又適切なる解決を要するのである。<br><br>次に医学方面なるが、表面まことに進歩せるごとく見ゆれども、実際は大いに然らず、基礎医学は顕微鏡的枝葉末節に捉われて根本を失し特に治療医学の方面は何ら進歩の跡なし。<br><br>見よ、巷（ちまた）に溢るゝ病者、病院の満員、死亡率の減少せざる等、真に視るに忍びざるものがある。<br><br>治療医学の不振は自然何々療法の著増（ちょぞう）となり、適薬の未発見は新薬の続出となり今日推奨せる薬剤も明日は捨てられ、一旦放棄されたる漢薬が復興し来れり。<br><br>されば種痘薬以外、確定的治療薬は未だ一種も発見せられざる有様にて、風邪の原因すら判明せず、西洋人と日本人との体質の根本的差異すら知識せぬのである。<br><br>故にこの方面においても一大転換の迫りつゝあるは瞭（あき）らかなり。<br><br>次に宗教界は最も危機時代にして既成宗教は十年一日のごとく伝統に捉われ自己の領域を守るに汲々（きゅうきゅう）とし排他的精神に充ち蝸牛角上（かぎゅうかくじょう）の争いに日も足らず。<br><br>人心を教化善導するなど思いもよらず従ってこの間隙（かんげき）に乗じ新宗教の簇出（そうしゅつ）となり、邪教迷信到るところに横行し、財を失い家庭を破り、身を滅するもの数知れず、誠に悲惨極まる現状なり。<br><br>近来仏教復興の声を聞くもそはただ、学者学僧等の理論の遊戯や伝記教理の羅列に過ぎず、何ら人心の教化と実生活の改善に力あるなし。<br><br>更に眼を転じて海外諸国を見んか、その惨状はむしろ我が国以上にして経済の行き詰り、執拗なる不景気、人心の不安、国と国との憎悪、欺瞞外交、猫眼（ねこのめ）的国際関係、利己主義者の気やすめ会議等に時を逸す有様にて、舵（かじ）なき舟で大海を航行するごとき有様なり。<br><br>実に唯物文化の行き詰り室伏氏のいわゆる文明歿落（ぼつらく）の姿は遺憾なく日々吾人の眼に見、耳に聞くところである。<br><br> かく観じ来れば近代文化の行き詰りは、最早人間力にてはいかんともなし難くして、ここに一大超人間力の出でざる限り、打開の途無きまでに迫っている。<br><br>その超人間力とは何ぞ！ 人類の待望久しかりし「東方の光」のそれでなくて何であろう。<br><br>この光こそ即（すなわち）観音の無碍（むげ）不可思議力のそれである。<br><br>天は必要なる時に必要なるものを生む、今やこの救世不可思議力の実体が太陽のごとく燦然（さんぜん）極東日本に顕現せんとしているのである。<br><br>それを知って沈黙なし得べきや、まずこの小パンフレット「東方の光」を発行して警鐘の乱打に代えるのである。<br><br>しかして一度この観音力の発揮するや、世界はここに一大転換をなし、再び生々溌剌たる新世紀へのスタートを切らんとするのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Acerca do Movimento de Kannon</h2>
 <p>Hoje, a expressão “estado de emergência” tornou-se corriqueira. Mas em que consiste essa emergência? Consiste em um impasse generalizado, que se manifesta em todas as esferas da atividade humana: na política, na economia, na educação, no pensamento, na medicina, na religião e em todos os demais campos. A menos que se promova uma grandiosa e renovadora superação para retificar tal cenário, quando poderemos esperar a concretização do progresso nacional, da elevação cultural e da felicidade da humanidade? A escuridão é profunda, e a alvorada parece ainda distante. Por conseguinte, alguns se entregam a um hedonismo autodestrutivo; outros, a ideologias radicais. Há os que gemem no inferno do desemprego e os que se afundam no abismo da superstição. O panorama social é desolador: não há um só indivíduo que desfrute de seu devido lugar, gozando de uma vida abençoada com alegria e felicidade.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>O campo religioso, por sua vez, enfrenta a mais grave de todas as crises. As religiões estabelecidas, presas a uma tradição imutável, preocupam-se unicamente em defender seu território. Imersas em um espírito exclusivista, perdem seus dias em disputas mesquinhas e irrelevantes. Não lhes passa pela mente a missão de instruir e guiar a alma das pessoas. Consequentemente, essa lacuna permitiu o surgimento de uma profusão de novas religiões. Crenças malignas e superstições proliferam por toda parte, levando um número incalculável de pessoas a perder seus bens, destruir suas famílias e arruinar suas próprias vidas. A situação é de uma tragédia indescritível. Embora se ouça falar, recentemente, em um renascimento do budismo, este não passa de um jogo teórico de eruditos e monges, uma mera compilação de biografias e doutrinas que em nada contribui para a elevação espiritual da humanidade ou para a melhoria da vida prática.</p>
 <p>Se expandirmos nosso olhar para as nações estrangeiras, o quadro é ainda mais desolador. O impasse econômico, a recessão obstinada, a angústia generalizada, o ódio entre os povos, a diplomacia falaciosa, as relações internacionais inconstantes e as conferências inúteis, que apenas servem para apaziguar a consciência de egoístas, fazem com que se perca um tempo precioso. O mundo assemelha-se a um navio sem leme, à deriva em alto-mar. Com efeito, o esgotamento da cultura materialista — aquilo que o Sr. Murobushi denominou “a queda da civilização” — revela-se diariamente, de forma inequívoca, diante de nossos olhos e ouvidos.</p>
 <p>Observando sob essa perspectiva, o impasse da cultura moderna atingiu um ponto em que a força humana é de todo impotente para solucioná-lo. Caso não surja um grandioso Poder transcendental, não haverá escapatória. E que poder é esse? Outro não poderia ser senão a tão aguardada “Luz do Oriente”. Essa Luz é, precisamente, o poder ilimitado e insondável de Kannon (観音). O Céu providencia o que é necessário no momento oportuno. E agora, este prodigioso poder salvador está prestes a se manifestar no Japão, no extremo Oriente, com o brilho radiante do Sol. Ciente de tal fato, como poderia eu me manter em silêncio? É por essa razão que publico este modesto panfleto, “A Luz do Oriente”, como um ressoar de sinos de alerta. Pois, uma vez que o poder de Kannon se manifeste, o mundo passará por uma transformação monumental, dando início a uma nova era, plena de vida e de vigor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音運動に就て 『東方の光』2号、昭和10(1935)年2月5日発行 今日、口を開けば非常時という。<br/><br/>何を以て非常時というや。<br/><br/>そは、あらゆる方面の行詰りである。<br/><br/>政治に、経済に教育に思想に、医学に、宗教に、その他あらゆる方面に渉って行詰りである。<br/><br/>これに向って一大維新的打開是正を行うに非（あら）ずんば国家の進展は固より、文化の向上と社会人類の幸福はいつの日か実現するの時あるべき。<br/><br/>闇深くして、黎明未だしの感あり。<br/><br/>故にあるいは自暴自棄的享楽に堕し、あるいは矯激（きょうげき）の思想に趨（はし）り、あるいは失業地獄に呻（うめ）きあるいは迷信の淵に沈淪し一人としてその所を得、歓喜と幸福に恵まれたる生活を楽しむ者なき世相である。<br/><br/> 一方文化の絢爛（けんらん）を誇りながら、一方かくも悲惨なる世相を現出するは必ずや一大誤謬がいずれにか伏在せざるべからず、されどこの原因の奈辺に存するかを洞察し得る一人の識者あるなし、故に忌憚（きたん）なく云えば、真に進歩せるごとく見ゆる現在までの学問、人智の力にても、これ以上文化の発展向上は不可能の時期に到れりと云うべきである。<br/><br/> まず政治はいかんと云うに、政党政治は遺憾なく欠陥を曝露して亡状の一路を辿（たど）り、ファッショは我が国状に適せず共産主義は云々の必要無し。<br/><br/>しかして近来頻（しき）りに喧伝せらるゝ皇道政治といえども、未だその理論体系さえ確立せず。<br/><br/>実際政治に適用するには前途なお幾多の考究と試練とを経ざるべからず。<br/><br/>次に財政経済を見んか、赤字公債激増の原因としての国民負担力と国防費との不均衡、片為替（かたがわせ）とその原因としての兌換（だかん）不能、その他農村問題の解決等急を要する雑件多々あり。<br/><br/>次に教育に関しては、今日までの学校教育は一切が西洋模倣にして、唯物万能たる西洋人を養成する西洋学校なり、今後の時代に対しては真の日本人を作らざるべからず。<br/><br/>即ち人格的道義観念に立脚したる日本式教育を新組織の下に樹立するのである。<br/><br/>次に思想方面なるが、第二の国家の細胞たる青年を見よ、彼らは国家改造に急なる余り右に偏し左に傾き、遂に極端なる徒はテロにまで及ばんとし、それが又一種の社会的不安を醸成すると云う事になっている。<br/><br/>しかるにいかんせん、今日の識者等は明確なる改造指針を示す能わざるを以て前途倍々（ますます）暗黒なる状勢を作りこれ又適切なる解決を要するのである。<br/><br/>次に医学方面なるが、表面まことに進歩せるごとく見ゆれども、実際は大いに然らず、基礎医学は顕微鏡的枝葉末節に捉われて根本を失し特に治療医学の方面は何ら進歩の跡なし。<br/><br/>見よ、巷（ちまた）に溢るゝ病者、病院の満員、死亡率の減少せざる等、真に視るに忍びざるものがある。<br/><br/>治療医学の不振は自然何々療法の著増（ちょぞう）となり、適薬の未発見は新薬の続出となり今日推奨せる薬剤も明日は捨てられ、一旦放棄されたる漢薬が復興し来れり。<br/><br/>されば種痘薬以外、確定的治療薬は未だ一種も発見せられざる有様にて、風邪の原因すら判明せず、西洋人と日本人との体質の根本的差異すら知識せぬのである。<br/><br/>故にこの方面においても一大転換の迫りつゝあるは瞭（あき）らかなり。<br/><br/>次に宗教界は最も危機時代にして既成宗教は十年一日のごとく伝統に捉われ自己の領域を守るに汲々（きゅうきゅう）とし排他的精神に充ち蝸牛角上（かぎゅうかくじょう）の争いに日も足らず。<br/><br/>人心を教化善導するなど思いもよらず従ってこの間隙（かんげき）に乗じ新宗教の簇出（そうしゅつ）となり、邪教迷信到るところに横行し、財を失い家庭を破り、身を滅するもの数知れず、誠に悲惨極まる現状なり。<br/><br/>近来仏教復興の声を聞くもそはただ、学者学僧等の理論の遊戯や伝記教理の羅列に過ぎず、何ら人心の教化と実生活の改善に力あるなし。<br/><br/>更に眼を転じて海外諸国を見んか、その惨状はむしろ我が国以上にして経済の行き詰り、執拗なる不景気、人心の不安、国と国との憎悪、欺瞞外交、猫眼（ねこのめ）的国際関係、利己主義者の気やすめ会議等に時を逸す有様にて、舵（かじ）なき舟で大海を航行するごとき有様なり。<br/><br/>実に唯物文化の行き詰り室伏氏のいわゆる文明歿落（ぼつらく）の姿は遺憾なく日々吾人の眼に見、耳に聞くところである。<br/><br/> かく観じ来れば近代文化の行き詰りは、最早人間力にてはいかんともなし難くして、ここに一大超人間力の出でざる限り、打開の途無きまでに迫っている。<br/><br/>その超人間力とは何ぞ！ 人類の待望久しかりし「東方の光」のそれでなくて何であろう。<br/><br/>この光こそ即（すなわち）観音の無碍（むげ）不可思議力のそれである。<br/><br/>天は必要なる時に必要なるものを生む、今やこの救世不可思議力の実体が太陽のごとく燦然（さんぜん）極東日本に顕現せんとしているのである。<br/><br/>それを知って沈黙なし得べきや、まずこの小パンフレット「東方の光」を発行して警鐘の乱打に代えるのである。<br/><br/>しかして一度この観音力の発揮するや、世界はここに一大転換をなし、再び生々溌剌たる新世紀へのスタートを切らんとするのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

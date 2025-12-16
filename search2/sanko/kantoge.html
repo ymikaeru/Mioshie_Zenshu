@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kantoge</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 （地上天国59） 『地上天国』59号、昭和29(1954)年6月15日発行 吾々信者には、夢想だもせぬ 明主様のこの度の御浄化を耳にし、御参詣日に御姿を拝し得なかったとき、吾々は逆巻く怒涛の大海に柁（かじ）の緒絶えたる小舟のごとく、その心細さを沁々感じさせられ、明主様の御神格より出づる神の大愛の、いかに深きかを判然と知らされた心地であった。<br><br> 顧みれば、日頃の吾々は、あまりにも 明主様の御肉体にたより過ぎて参ったことではなかったかと、深く深く御申訳なく感ずる次第である。<br><br>春夏秋冬を通じ、深更一時に及ぶ迄、連日御論文の御発表に、出版物の御原稿の御整理に、御参詣日の御浄霊に等々、教団信者のため万般にわたって御気心を配らせられ、信者の一人をも御救い給わらんとの終日の御腐心に対し、それに甘んじて拱手傍観していた吾々の罪、甚だ大なるものと言わなければならない。<br><br> 今回の御浄化の御模様より拝するに、神の御経綸の大転換と御神業の益々奥無く多方面に渉らせらるることとを拝察せられるのであって、浄霊による治病力は截然（せつぜん）として増強せられ、日と共に強大となりつつある由に拝承し、世界的大浄化の将に至らんとしていることを察知せねばならぬと思うのである。<br><br> 従って今回の御浄化は、神が地上天国を造らせ給わんとする御理想実現の空前の一大慶事として、歓喜を以て迎うべき時機の必ず近からんと思うものであって、一切は神意によって運ばれつつあるものと言うべく、吾々信者の小人の不安も失望も起す必要なきものと言うべきである。<br><br> 幸いにして、明主様の御浄化は、日に増し順調に進まれつつありと漏れ承るのであるが、吾々としては、一日も早く御快癒の上遍く人類に光明を垂れ給わんことを冀うと共に、明主様今後の世界的御経綸を翼賛し奉り、教団発展の方途に誤りなきことを期し、救世のため、明主様世界地上いずこにいませられようとも、吾々はあやまりなく信仰の道に歩ませて頂けまするよう、臍を固むるの必要ありと考えるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Editorial (Paraíso Terrestre, nº 59)</h2>
 <p>Ao tomarmos conhecimento da Purificação pela qual Meishu-Sama passa, algo que sequer poderíamos imaginar, e ao não podermos reverenciar Sua presença no dia de peregrinação, fomos tomados por um profundo sentimento de desamparo. Sentimo-nos como um pequeno barco à deriva, com o leme partido em meio a um oceano de ondas revoltas. Foi justamente essa experiência que nos fez perceber, com absoluta clareza, a imensurável profundidade do grande amor de Deus que emana da divindade de Meishu-Sama.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Pela natureza da presente Purificação, é-nos permitido inferir uma grande transição no Plano Divino e uma expansão da Obra Divina para esferas cada vez mais vastas e profundas. Com efeito, fomos informados de que o poder de cura através do Johrei foi nitidamente intensificado e se fortalece a cada dia. Nesse sentido, devemos estar cientes de que a Grande Purificação em escala mundial está prestes a ocorrer.</p>
 <p>Portanto, esta Purificação deve ser compreendida como um acontecimento de júbilo sem precedentes, um marco na concretização do ideal divino de construir o Paraíso na Terra. O momento de acolhermos tal evento com alegria certamente se aproxima. Tudo se desenrola segundo a Vontade Divina, e, por essa razão, não há por que nós, fiéis, com nossa limitada compreensão, nos entregarmos à ansiedade ou ao desalento.</p>
 <p>Felizmente, chegam-nos notícias de que a Purificação de Meishu-Sama progride favoravelmente a cada dia. De nossa parte, ao mesmo tempo que rogamos por Sua pronta recuperação para que possa novamente irradiar a Luz sobre toda a humanidade, é nosso dever apoiar o futuro Plano Divino de Meishu-Sama em escala mundial, zelar para que o desenvolvimento de nossa Igreja prossiga sem desvios e, em prol da salvação, firmar nossa determinação de seguir o caminho da fé sem equívocos, onde quer que Meishu-Sama se encontre neste mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 （地上天国59） 『地上天国』59号、昭和29(1954)年6月15日発行 吾々信者には、夢想だもせぬ 明主様のこの度の御浄化を耳にし、御参詣日に御姿を拝し得なかったとき、吾々は逆巻く怒涛の大海に柁（かじ）の緒絶えたる小舟のごとく、その心細さを沁々感じさせられ、明主様の御神格より出づる神の大愛の、いかに深きかを判然と知らされた心地であった。<br/><br/> 顧みれば、日頃の吾々は、あまりにも 明主様の御肉体にたより過ぎて参ったことではなかったかと、深く深く御申訳なく感ずる次第である。<br/><br/>春夏秋冬を通じ、深更一時に及ぶ迄、連日御論文の御発表に、出版物の御原稿の御整理に、御参詣日の御浄霊に等々、教団信者のため万般にわたって御気心を配らせられ、信者の一人をも御救い給わらんとの終日の御腐心に対し、それに甘んじて拱手傍観していた吾々の罪、甚だ大なるものと言わなければならない。<br/><br/> 今回の御浄化の御模様より拝するに、神の御経綸の大転換と御神業の益々奥無く多方面に渉らせらるることとを拝察せられるのであって、浄霊による治病力は截然（せつぜん）として増強せられ、日と共に強大となりつつある由に拝承し、世界的大浄化の将に至らんとしていることを察知せねばならぬと思うのである。<br/><br/> 従って今回の御浄化は、神が地上天国を造らせ給わんとする御理想実現の空前の一大慶事として、歓喜を以て迎うべき時機の必ず近からんと思うものであって、一切は神意によって運ばれつつあるものと言うべく、吾々信者の小人の不安も失望も起す必要なきものと言うべきである。<br/><br/> 幸いにして、明主様の御浄化は、日に増し順調に進まれつつありと漏れ承るのであるが、吾々としては、一日も早く御快癒の上遍く人類に光明を垂れ給わんことを冀うと共に、明主様今後の世界的御経綸を翼賛し奉り、教団発展の方途に誤りなきことを期し、救世のため、明主様世界地上いずこにいませられようとも、吾々はあやまりなく信仰の道に歩ませて頂けまするよう、臍を固むるの必要ありと考えるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

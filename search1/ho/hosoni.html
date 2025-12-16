@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hosoni</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 放送に対する抗議文 未発表、昭和24(1949)年4月23日執筆 去る一月二十五日放送「私達の言葉」中、「迷信邪教について」と題する本教団を対象とした言説は、余りに荒唐無稽（こうとうむけい）と虚構にみち、放送のごとき全国的に影響する機関である以上、本教団の信用を傷つける事甚大にして到底黙視するに忍びず、断然当局の責任を問うものである。<br><br>公共事業としての特権を有する放送事業としては、最も慎重にその種目を取扱うべきにも係らず、軽率にも誣告者に味方するごとき行為は許すべからざる罪悪である。<br><br> 実際の迷信邪教に対し、厳正なる批判の下に社会に警告を与うる事は、吾らも大いに多とする点においては、あえて人後に落つるものではない。<br><br>けれどもそうでない非迷信邪教をも何らの調査も行わず、迷信邪教と断定する事は赦（ゆる）し難いのである。<br><br>しかし、本教団数十万の信徒中一人二人の脱線者の出ずる事は避け難いところで、これだけでその教団全般を律する事は余りにも軽率の譏（そし）りを免れまい。<br><br>例えば一人の不良学生をみて、学校全生徒を律するのと同様であろう。<br><br>忌憚なく言えば、投書家の悪意に満てる独善的言説が許されるとすれば、今後ある団体の社会的信用を傷つける目的の下に放送局を利用する輩の出ずるやも知れずとすれば、放送事業なるものは社会悪助長の一役を果す事となろう。<br><br>投書家の言説が一種の悪意を通してみたる批判である事は随処（ずいしょ）に窺われるところで、その中の二、三を摘記してみよう。<br><br>「日本人は後二、三年で死に絶えてしまう。<br><br>その時観音様の御光を戴いた人は救われる」との事は、本教団においては予言は固く禁じてあるから、右は捏造か、または本教団以外の者か、本教信者であるとすれば、異端者かあるいは頭脳の欠陥者であろう。<br><br> 「寒暖計云々」は吾ら初めて聞く所で、全然本教々義とは関係がない。<br><br>次に教修料に関してであるが、千三百円は講師の手当、入信料、維持会員の会費、バッジ代、書籍代、出張旅費、旅館宿泊費等含まれており、最近は物価の値上りのため遠近共相当の増額になっている。<br><br>また薬剤に関しては病者がよく言うところで、それは薬剤多用者が難病の場合、本教に入信快癒し喜びの余りよく発する言である。<br><br>霊の憑依については近来欧米においても盛んに研究実験されつつあり、本教ひとり言うのではない。<br><br> 「狐霊の憑依」は事実で、これを信じない人は何ら触れた事のない無経験者の言である。<br><br>そうして本教団の信徒中には、知名の政治家も、大学教授も、博士も、著名な文筆家も、裁判官も、高級警察官等多数を包含している。<br><br>これらインテリやジャーナリストが愚劣な迷信邪教を信ずるはずがないではないか。<br><br>ゆえに、一片の低劣野卑なる投書家の言を信じて放送するとすれば、貴局においてのあまりに人なきを歎ぜざるを得ない。<br><br> 最後に付加えたい事は、彼のキリスト教であるが、キリスト在世中は迷信邪教として迫害された結果、キリスト御自身が贖罪のためとは言いながら、茨の冠を被せられ刑場の露と消え、残った十一人の使徒の努力によって二千余年の歳月を閲（けみ）し、今日の大を成した事実は深く考えなければならないところであろう。<br><br>以上のごとき理由をもって、貴局がその過失を認めそれに対する責任を負うべき義務がある。<br><br>その事を具体的に言えば、謝罪の意を表すると共に、今後本教団に関する放送は、事前において本教団の承認を得る事の誓約書を提出されん事である。<br><br>何となれば一方的の言説を信じて、他の一方善意の第三者に被害を与える事は民主的に相反するからである。<br><br> 最近本教団発行の「信仰雑話」、雑誌「地上天国」を進呈したいから是非御覧を乞う次第である。<br><br> 御参考までに申し上ぐるが、近来本教団の異常なる発展を嫉視し、他宗教の一部の者、または医家のある者等が本教団に不利益な言説を吐くやに聞及んでいる。<br><br>由来、日本における言論機関、または放送者は新興宗教に対しいささかの敬虔（けいけん）さもなく、勝手放題な侮言をもって批判する傾向のある事ははなはだ遺憾である。<br><br>しかもそれらに対し被害者の多くは泣寝入におわるので、彼らはこれを奇貨とし善悪無差別的に批判の対象とする。<br><br>この態度は信仰の自由を認める民主主義を無視するのはなはだしいものといわなければならない。<br><br>本教団においてもこの点に鑑（かんが）み、これら謬（あやま）れる反民主主義者に対し出来るだけ警告を与え、矯正する事も社会向上に資すべき宗教人の一義務と観ずるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Carta de Protesto contra uma Transmissão Radiofônica</h2>
 <p>A transmissão do último dia 25 de janeiro, no programa “Nossas Palavras”, sob o título “Sobre Superstições e Religiões Malignas”, cujas alegações foram dirigidas à nossa Igreja, revelou-se tão repleta de absurdos e falsidades que não podemos nos calar. Tratando-se de um órgão de comunicação de alcance nacional como é a radiodifusão, o dano infligido à credibilidade de nossa instituição é de tal magnitude que, por conseguinte, vimos questionar, de maneira contundente, a responsabilidade das autoridades competentes.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Pelas razões expostas, é obrigação desta emissora reconhecer seu erro e assumir a devida responsabilidade. Em termos concretos, isto significa apresentar um pedido de desculpas e, adicionalmente, submeter um termo de compromisso, assegurando que, doravante, qualquer transmissão referente à nossa Igreja obterá nossa aprovação prévia. Afinal, dar crédito a declarações unilaterais, causando prejuízo a terceiros de boa-fé, é uma atitude que se choca frontalmente com os princípios democráticos.</p>
 <p>Gostaríamos de lhes apresentar nossas mais recentes publicações, “Diálogos sobre a Fé” e a revista “O Paraíso Terrestre”, e solicitamos encarecidamente que as leiam.</p>
 <p>A título de referência, cumpre-nos informar que temos conhecimento de que, por inveja do extraordinário crescimento de nossa Igreja, alguns membros de outras religiões e certos profissionais da classe médica têm proferido declarações que nos são desfavoráveis. Infelizmente, é com profundo pesar que constatamos uma tendência nos órgãos de imprensa e radiodifusão do Japão de tratar as novas religiões sem a menor reverência, criticando-as com insultos arbitrários. E como, na maioria das vezes, as vítimas se resignam a sofrer em silêncio, os detratores se aproveitam da situação para eleger seus alvos de crítica, sem qualquer distinção entre o bem e o mal. Tal atitude representa um flagrante desrespeito à democracia, que reconhece a liberdade de crença. Ciente disso, nossa Igreja considera ser também um dever do religioso, em prol da elevação da sociedade, emitir alertas contra esses antidemocratas equivocados, na medida do possível, buscando sua correção.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 放送に対する抗議文 未発表、昭和24(1949)年4月23日執筆 去る一月二十五日放送「私達の言葉」中、「迷信邪教について」と題する本教団を対象とした言説は、余りに荒唐無稽（こうとうむけい）と虚構にみち、放送のごとき全国的に影響する機関である以上、本教団の信用を傷つける事甚大にして到底黙視するに忍びず、断然当局の責任を問うものである。<br/><br/>公共事業としての特権を有する放送事業としては、最も慎重にその種目を取扱うべきにも係らず、軽率にも誣告者に味方するごとき行為は許すべからざる罪悪である。<br/><br/> 実際の迷信邪教に対し、厳正なる批判の下に社会に警告を与うる事は、吾らも大いに多とする点においては、あえて人後に落つるものではない。<br/><br/>けれどもそうでない非迷信邪教をも何らの調査も行わず、迷信邪教と断定する事は赦（ゆる）し難いのである。<br/><br/>しかし、本教団数十万の信徒中一人二人の脱線者の出ずる事は避け難いところで、これだけでその教団全般を律する事は余りにも軽率の譏（そし）りを免れまい。<br/><br/>例えば一人の不良学生をみて、学校全生徒を律するのと同様であろう。<br/><br/>忌憚なく言えば、投書家の悪意に満てる独善的言説が許されるとすれば、今後ある団体の社会的信用を傷つける目的の下に放送局を利用する輩の出ずるやも知れずとすれば、放送事業なるものは社会悪助長の一役を果す事となろう。<br/><br/>投書家の言説が一種の悪意を通してみたる批判である事は随処（ずいしょ）に窺われるところで、その中の二、三を摘記してみよう。<br/><br/>「日本人は後二、三年で死に絶えてしまう。<br/><br/>その時観音様の御光を戴いた人は救われる」との事は、本教団においては予言は固く禁じてあるから、右は捏造か、または本教団以外の者か、本教信者であるとすれば、異端者かあるいは頭脳の欠陥者であろう。<br/><br/> 「寒暖計云々」は吾ら初めて聞く所で、全然本教々義とは関係がない。<br/><br/>次に教修料に関してであるが、千三百円は講師の手当、入信料、維持会員の会費、バッジ代、書籍代、出張旅費、旅館宿泊費等含まれており、最近は物価の値上りのため遠近共相当の増額になっている。<br/><br/>また薬剤に関しては病者がよく言うところで、それは薬剤多用者が難病の場合、本教に入信快癒し喜びの余りよく発する言である。<br/><br/>霊の憑依については近来欧米においても盛んに研究実験されつつあり、本教ひとり言うのではない。<br/><br/> 「狐霊の憑依」は事実で、これを信じない人は何ら触れた事のない無経験者の言である。<br/><br/>そうして本教団の信徒中には、知名の政治家も、大学教授も、博士も、著名な文筆家も、裁判官も、高級警察官等多数を包含している。<br/><br/>これらインテリやジャーナリストが愚劣な迷信邪教を信ずるはずがないではないか。<br/><br/>ゆえに、一片の低劣野卑なる投書家の言を信じて放送するとすれば、貴局においてのあまりに人なきを歎ぜざるを得ない。<br/><br/> 最後に付加えたい事は、彼のキリスト教であるが、キリスト在世中は迷信邪教として迫害された結果、キリスト御自身が贖罪のためとは言いながら、茨の冠を被せられ刑場の露と消え、残った十一人の使徒の努力によって二千余年の歳月を閲（けみ）し、今日の大を成した事実は深く考えなければならないところであろう。<br/><br/>以上のごとき理由をもって、貴局がその過失を認めそれに対する責任を負うべき義務がある。<br/><br/>その事を具体的に言えば、謝罪の意を表すると共に、今後本教団に関する放送は、事前において本教団の承認を得る事の誓約書を提出されん事である。<br/><br/>何となれば一方的の言説を信じて、他の一方善意の第三者に被害を与える事は民主的に相反するからである。<br/><br/> 最近本教団発行の「信仰雑話」、雑誌「地上天国」を進呈したいから是非御覧を乞う次第である。<br/><br/> 御参考までに申し上ぐるが、近来本教団の異常なる発展を嫉視し、他宗教の一部の者、または医家のある者等が本教団に不利益な言説を吐くやに聞及んでいる。<br/><br/>由来、日本における言論機関、または放送者は新興宗教に対しいささかの敬虔（けいけん）さもなく、勝手放題な侮言をもって批判する傾向のある事ははなはだ遺憾である。<br/><br/>しかもそれらに対し被害者の多くは泣寝入におわるので、彼らはこれを奇貨とし善悪無差別的に批判の対象とする。<br/><br/>この態度は信仰の自由を認める民主主義を無視するのはなはだしいものといわなければならない。<br/><br/>本教団においてもこの点に鑑（かんが）み、これら謬（あやま）れる反民主主義者に対し出来るだけ警告を与え、矯正する事も社会向上に資すべき宗教人の一義務と観ずるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

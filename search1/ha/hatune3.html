@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hatune3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 発熱 『明日の医術 第二編』昭和18(1943)年10月5日発行 病気症状と其解剖 ここに、病気症状といえば、大別して左のごときものであろう。<br><br>発熱、痛苦、掻痒苦（そうようく）、不快感、嘔吐、下痢、浮腫、盗汗（ねあせ）、眩暈（めまい）、不眠、憂欝感、麻痺、咳嗽（せき）、逆上（のぼせ）、耳鳴、痙攣、冷え、便秘等であろう。<br><br>これらについて、私の研究によって得たる理論を説いてみよう。<br><br> 発熱 医学上、発熱の原因として今日まで種々の説が行われているが、今日一般的には、発熱中枢なる機能が頭脳内に在って、それが何らかの刺戟によって熱が発生するという説である。<br><br>又、四肢の運動による為と、肝臓及び腎臓から発熱するというのである。<br><br>そうして人間の体温なるものは、食物が燃焼する為に起るというのである。<br><br> 右の説が真実であるとして、病気発生の際病毒が発熱中枢を刺戟して発熱するという事は、一体発熱中枢なる機能の性質と、それが刺戟される事によって、いかにしていかなる理由によって、熱を発生するのであるか、恐らく徹底的説明は不可能であろう。<br><br>何となれば、さきに説いたごとく発熱中枢なる機能は全然無いからである。<br><br>従って、病毒の刺戟などという意味は成立たない訳である。<br><br>かような誤った説が生れたという事は、私の想像によれば、大抵の病気は発熱の際、頭脳に高熱があり、且つ頭痛が伴うので、発熱中枢が頭内に在ると誤認したのであろう。<br><br>故に、あらゆる有熱病に対して、頭脳を氷冷すればよいとしているのである。<br><br>又四肢の運動によって発熱するというのは、それによって温度が加わる為と、浄化作用発生の為の発熱に因る事を単純に推理したのであろう。<br><br>又、肝臓及び腎臓が発熱の原因というのは、大抵の人は、肝臓部と腎臓部は、毒結浄化の為、局部的微熱が常にあるものであるから、それを誤認したと想うのである。<br><br> 又、食物の燃焼によって、体温が作られるという事ほど、実に嗤（わら）うべき説はあるまい。<br><br>食物が消化器内で燃焼するという事は、実に不可思議千万である。<br><br>それはちょうど、人間の体温をストーブと同じように推理したのではなかろうか。<br><br>即ち、食物の消化を石炭の燃焼のごときものと想像したのではないかと想うのである。<br><br> 私の研究によって得たる発熱の原因を説くに当って断わっておきたい事は、恐らく前人未発の説であろうから、読者はそのつもりで充分熟読玩味せられたいのである。<br><br> そもそも、宇宙における森羅万象一切は三大原素から成立っている。<br><br>即ちあらゆるものの生成化有は、この三大原素の力によらないものはないのである。<br><br>しからば、その三大原素とは何であるかというと、それは日、月、地である。<br><br>即ち日は火素の根源であり、月は水素のそれであり、地は土素のそれである。<br><br>そうしてこの火、水、土の力が経（たて）と緯（よこ）に流動交錯密合しているのである。<br><br>即ち、経とは天から地まで、太陽、月球、地球の三段階となっているのであって、日蝕の時、日月地が経に三段になっているにみても明かである。<br><br>即ち、天界は太陽中心の火の世界であり、中界は月球中心の水の世界であり、地は、地球中心の土の世界である。<br><br> 次に、緯とは、吾々人類が棲息しつつあるこの地上そのものの実体である。<br><br>それはどういう意味かというと、この地球上における実世界は空間と物質との存在であって、物質は人間の五感によってその存在は知り得るが、空間は長い間無とされていた。<br><br>しかるに文化の進歩によって、空間は無ではなく、空気なる半物質（私は仮に半物質という）の在る事を知ったのである。<br><br>しかるに、今日まで空気だけと思っていた空間に、今一つ他の原素が存在している事を私は知ったのである。<br><br>それに対して私は、“霊気”というのである。<br><br>もっともある種の宗教においては、霊界又は生霊、死霊、憑霊等の説を唱えたり、行者又は霊術師等も霊を云々し、欧米においても、霊科学の発達によって、霊と霊界の研究は相当進歩しつつあり、彼のオリヴァー・ロッジ卿の有名な著書“死後の生存”や、ワード博士の霊界探険記等の記録もあって、これらは相等信ずべきものであるが、私の研究の目的範囲とは全然異なっているのである。<br><br> そうして本来、物質の元素は土であり、あらゆる物質は、土から生じ土に還元する事は、何人もよく知る所である。<br><br>次に、半物質である水の原素は、月球から放散されて、空気に充満している。<br><br>しかるに霊気とは、太陽から放射される物質でもなく、半物質でもないところの非物質であるから、今日まで未発見であったのである。<br><br>故に、最も判り易くいえば、土が物質、水は半物質、火は非物質と言えるのである。<br><br> 右のごとく、物質の原素が土で、空気の元素が水で、霊気の元素が火であって、この三原素がいずれも密合して、そこに力の発生があるのである。<br><br>これを科学的にいうならば、三原素なるものが、ほとんど想像も付かない程の微粒原子として、融合活動しているのが、宇宙の実体である。<br><br>故に、吾々の呼吸しているこの空間が、生物の棲息に適する温度や乾度、湿度があるという事は、火素と水素の融合調和によるからで、もし火素が無となり水素のみとなれば一瞬にして氷結すべく、反対に水素が無になって火素のみとなれば一瞬にして爆発し、一切は無となるのである。<br><br>そうしてこの火水の二元素が土と密合して、土が力を発生し、万物が生成化育されるのである。<br><br>この理によって、火は経に燃え、水は緯に流動するのが本性であり、火は水によって燃え、水は火によって動くのである。<br><br>これを図に示せば、左のごとくである。<br><br> 古（いにしえ）から、人は小宇宙といわれているが、右の理は、人体にも当嵌（は）まるのである。<br><br>即ち、人体における火、水、土は「心臓、肺臓、胃」――に相当するのであって、胃は土から生じた物を食い、肺は水素を吸収し、心臓は火素を吸収するのである。<br><br>故に、人体における心臓、肺臓及び胃は、火、水、土の三原素を吸収する機関でこの機関が人体構成の最重要部を占めて居るにみても、右の理は肯（うなず）かるるであろう。<br><br>しかるに、今日までは心臓はただ、汚血を肺臓に送り酸素によって浄化されたる血液を、還元吸収するというように、血液のみの機関とされていたのは、全く火素の存在を知らなかったからである。<br><br> 右のごとく、胃は食物即ち土素を、口中から食道を経て嚥下（えんか）し、肺臓は呼吸によって水素を吸収し、心臓は鼓動によって火素を吸収するのである。<br><br> 従って、病気発生するや発熱するという事は疾患部の凝結毒素を溶解せんが為、必要量の熱即ち火素を心臓が霊界から吸収するのである。<br><br>即ち心臓の鼓動は、霊界から火素を吸収するポンプ作用である。<br><br>発熱時より先に、心臓の鼓動即ち脈拍が増加するのは、火素吸収が頻繁になるからである、その際の悪寒は、浄化に必要な熱量を吸収する為、一時体温の方への送量を減殺するからである。<br><br>故に、下熱するという事は、毒素溶解の作用が終ったのである。<br><br> 右のごとくであるから、心臓が一瞬の休みなく、霊界から火素を吸収する。<br><br>――それが体温である。<br><br>又、肺臓も空気界から水素を呼吸によって不断に吸収しているので人体内の水分は、口から飲下する以外、肺臓の吸収によって得る量も頗（すこぶ）る多いのである。<br><br> 右の理によって人の死するや、瞬時に体温は去って冷却し、水分も消えて、血液は凝結し、屍（しかばね）は乾燥し始めるのである。<br><br>右を説明すれば、死と同時に、精霊は肉体を脱出して霊界に入るのである。<br><br>故に、精霊の火素が無くなるから、水分は凝結するのである。<br><br>言い換えれば火素である精霊は霊界に還元し、水分は空気界に還元し肉体は土に還元するのである。<br><br> 次に、ここで注意すべき事がある。<br><br>それは、熱を量（はか）るに体温器を用いるが、医家も世人もこの方法は完全と思っているが、私からいえば頗る不完全である。<br><br>何となれば左のごとき理由によるからである。<br><br>元来発熱の場合、その発熱の根拠は、実は一局部である。<br><br>しかるに世人は全身的と想っているが、それは大いなる誤りである。<br><br>私が治療の際、四十度位の高熱者を診査する場合、指頭位の固結の浄化作用が原因であるので、その固結を溶解するや、全身的に忽ち下熱するのである。<br><br>そうして強度な浄化作用は全身的に発熱するが、弱い浄化作用は局部的放射状であって、その局部の周囲（勿論大小はあるが）以外は無熱である事である。<br><br>従って、体温器を腋窩（わきのした）に挟む場合、その付近の病気、例えば腕の付根の毒結の浄化作用又は肋間神経痛等があれば有熱となって現われるが、その際離れたる股間、腎臓部、頭部等は無熱である。<br><br>故に、実際上、右の腋窩と左の腋窩によっても多少の差異がある事で、はなはだしきは五分位差異のある人がある。<br><br>右のごとくであるから体温器による計熱法は不完全であるというのである。<br><br> しかるに、私が行う計熱法は、いかなる微熱といえども発見し得らるるのである。<br><br>それは掌を宛（あ）つれば一分の十分の一の微熱といえども明確に知るを得るのである。<br><br>しかし、これは相当熟練を要する事は勿論であるが、普通一年位経験すれば何人もなし得らるるのである。<br><br> 次に高熱に対して氷冷法を行う事がいかに誤謬であるかを説明してみよう。<br><br>即ち人体適正の体温は三十六度ないし七度であるという事は、その程度の体温が生活機能に適合しているからである。<br><br>しかるに氷冷をするや氷の温度である零度になるから、その氷冷を受ける局所の機能の活動は、著しく阻害せらるるのは当然である。<br><br>この理によって脳溢血、肺炎、窒扶斯（チフス）その他の高熱病に対し医療は必ず頭悩の氷冷を行うが、それが為頭脳は氷結状となるから麻痺的貧血状態に陥り機能の活動に支障を及ぼすので、本来の病気によらずして、氷冷の為に斃（たお）れる事が多いのである。<br><br> 氷冷は、右のごとき悪結果を招くのみか、浄化作用を強力に停止すべきものである以上、これだけは絶対に廃止したいものである。<br><br> 今一つ重要な事がある。<br><br>それは下熱剤の反動作用である。<br><br>この事は恐らく専門家は固より世人は夢にも思わないであろう。<br><br>これはどういう訳かというと、ある病気に対して連続的に下熱剤を使用する場合、大抵一週間以上にわたると、反動作用が徐々として起る事である。<br><br>それは、下熱剤の作用に対し、反動作用が発生するのである。<br><br>恰（あた）かもある物体を圧迫すると反撥力が起るようなものであって、下剤を用いる程便秘を起し、利尿剤を持続すると反って尿量を減ずると同一の理である。<br><br>故に、発熱するから下熱剤を用いる。<br><br>下熱剤を用いるから発熱するというように繰返すにおいて最初三十七、八度の熱がついには四十度以上の高熱にさえなるようになるのである。<br><br>かくのごとき場合、医家は原因不明の熱として大いに困難するのである。<br><br>肺患者の執拗な熱は、右のごとき原因が頗（すこぶ）る多いのであって、下熱の目的を以て下熱剤を用い、その結果が反って発熱の原因を作るという事は、未だ気がつかない事とは言いながら、まことに恐るべきであると言えよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa da Febre e os Equívocos da Medicina</h2>
 <p>Dentre as manifestações patológicas, podemos elencar, em linhas gerais, as que se seguem: febre, dor, prurido, mal-estar, vômito, diarreia, edema, suores noturnos, vertigem, insônia, melancolia, paralisia, tosse, congestão cefálica, zumbido, convulsões, calafrios e constipação. A seguir, discorrerei sobre a teoria que elaborei a partir de minhas próprias pesquisas acerca desses quadros, começando pela febre.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>A seguir, explicarei o quão equivocada é a prática de aplicar gelo para baixar a febre. A temperatura corporal adequada ao ser humano é de 36 a 37 graus, pois essa é a faixa ideal para o funcionamento de suas atividades vitais. Ao se aplicar gelo, a temperatura local cai para zero grau, o que, obviamente, prejudica de forma severa o funcionamento daquela parte do corpo. Seguindo esse raciocínio, a medicina invariavelmente recorre à aplicação de gelo na cabeça em casos de doenças com febre alta, como derrame cerebral, pneumonia e febre tifoide. Isso faz com que o cérebro entre em um estado de congelamento, mergulhando em uma condição de paralisia e anemia que compromete suas funções. Muitas vezes, o paciente sucumbe não à doença em si, mas às consequências dessa prática.</p>
 <p>Além de acarretar resultados tão nefastos, a aplicação de gelo interrompe à força o processo de purificação. Por isso, é uma prática que deveria ser abolida de forma categórica.</p>
 <p>Há ainda outra questão de suma importância: o efeito rebote dos antitérmicos. É provável que nem os especialistas, e muito menos o público leigo, jamais tenham sequer sonhado com isso. Quando se utiliza um antitérmico de forma contínua, geralmente por mais de uma semana, uma reação contrária começa a se manifestar gradualmente. O organismo desenvolve uma força que se opõe à ação do medicamento. O princípio é o mesmo que faz um objeto repelir a força que o pressiona, ou que leva o uso contínuo de laxantes a causar constipação e o de diuréticos a diminuir o volume da urina. Assim, a pessoa toma o remédio porque tem febre, e passa a ter febre porque toma o remédio, criando um ciclo vicioso. Uma febre que inicialmente era de 37 ou 38 graus pode acabar se transformando em uma febre altíssima, superior a 40 graus. Nesses casos, os médicos se veem em grande dificuldade, diagnosticando o quadro como “febre de causa desconhecida”. A febre persistente em pacientes com tuberculose, em grande parte dos casos, deve-se a esse fenômeno. Usar um medicamento com o objetivo de baixar a febre, apenas para descobrir que ele se tornou a própria causa do calor, é uma realidade que, embora ainda não percebida, pode ser considerada verdadeiramente assustadora.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 発熱 『明日の医術 第二編』昭和18(1943)年10月5日発行 病気症状と其解剖 ここに、病気症状といえば、大別して左のごときものであろう。<br/><br/>発熱、痛苦、掻痒苦（そうようく）、不快感、嘔吐、下痢、浮腫、盗汗（ねあせ）、眩暈（めまい）、不眠、憂欝感、麻痺、咳嗽（せき）、逆上（のぼせ）、耳鳴、痙攣、冷え、便秘等であろう。<br/><br/>これらについて、私の研究によって得たる理論を説いてみよう。<br/><br/> 発熱 医学上、発熱の原因として今日まで種々の説が行われているが、今日一般的には、発熱中枢なる機能が頭脳内に在って、それが何らかの刺戟によって熱が発生するという説である。<br/><br/>又、四肢の運動による為と、肝臓及び腎臓から発熱するというのである。<br/><br/>そうして人間の体温なるものは、食物が燃焼する為に起るというのである。<br/><br/> 右の説が真実であるとして、病気発生の際病毒が発熱中枢を刺戟して発熱するという事は、一体発熱中枢なる機能の性質と、それが刺戟される事によって、いかにしていかなる理由によって、熱を発生するのであるか、恐らく徹底的説明は不可能であろう。<br/><br/>何となれば、さきに説いたごとく発熱中枢なる機能は全然無いからである。<br/><br/>従って、病毒の刺戟などという意味は成立たない訳である。<br/><br/>かような誤った説が生れたという事は、私の想像によれば、大抵の病気は発熱の際、頭脳に高熱があり、且つ頭痛が伴うので、発熱中枢が頭内に在ると誤認したのであろう。<br/><br/>故に、あらゆる有熱病に対して、頭脳を氷冷すればよいとしているのである。<br/><br/>又四肢の運動によって発熱するというのは、それによって温度が加わる為と、浄化作用発生の為の発熱に因る事を単純に推理したのであろう。<br/><br/>又、肝臓及び腎臓が発熱の原因というのは、大抵の人は、肝臓部と腎臓部は、毒結浄化の為、局部的微熱が常にあるものであるから、それを誤認したと想うのである。<br/><br/> 又、食物の燃焼によって、体温が作られるという事ほど、実に嗤（わら）うべき説はあるまい。<br/><br/>食物が消化器内で燃焼するという事は、実に不可思議千万である。<br/><br/>それはちょうど、人間の体温をストーブと同じように推理したのではなかろうか。<br/><br/>即ち、食物の消化を石炭の燃焼のごときものと想像したのではないかと想うのである。<br/><br/> 私の研究によって得たる発熱の原因を説くに当って断わっておきたい事は、恐らく前人未発の説であろうから、読者はそのつもりで充分熟読玩味せられたいのである。<br/><br/> そもそも、宇宙における森羅万象一切は三大原素から成立っている。<br/><br/>即ちあらゆるものの生成化有は、この三大原素の力によらないものはないのである。<br/><br/>しからば、その三大原素とは何であるかというと、それは日、月、地である。<br/><br/>即ち日は火素の根源であり、月は水素のそれであり、地は土素のそれである。<br/><br/>そうしてこの火、水、土の力が経（たて）と緯（よこ）に流動交錯密合しているのである。<br/><br/>即ち、経とは天から地まで、太陽、月球、地球の三段階となっているのであって、日蝕の時、日月地が経に三段になっているにみても明かである。<br/><br/>即ち、天界は太陽中心の火の世界であり、中界は月球中心の水の世界であり、地は、地球中心の土の世界である。<br/><br/> 次に、緯とは、吾々人類が棲息しつつあるこの地上そのものの実体である。<br/><br/>それはどういう意味かというと、この地球上における実世界は空間と物質との存在であって、物質は人間の五感によってその存在は知り得るが、空間は長い間無とされていた。<br/><br/>しかるに文化の進歩によって、空間は無ではなく、空気なる半物質（私は仮に半物質という）の在る事を知ったのである。<br/><br/>しかるに、今日まで空気だけと思っていた空間に、今一つ他の原素が存在している事を私は知ったのである。<br/><br/>それに対して私は、“霊気”というのである。<br/><br/>もっともある種の宗教においては、霊界又は生霊、死霊、憑霊等の説を唱えたり、行者又は霊術師等も霊を云々し、欧米においても、霊科学の発達によって、霊と霊界の研究は相当進歩しつつあり、彼のオリヴァー・ロッジ卿の有名な著書“死後の生存”や、ワード博士の霊界探険記等の記録もあって、これらは相等信ずべきものであるが、私の研究の目的範囲とは全然異なっているのである。<br/><br/> そうして本来、物質の元素は土であり、あらゆる物質は、土から生じ土に還元する事は、何人もよく知る所である。<br/><br/>次に、半物質である水の原素は、月球から放散されて、空気に充満している。<br/><br/>しかるに霊気とは、太陽から放射される物質でもなく、半物質でもないところの非物質であるから、今日まで未発見であったのである。<br/><br/>故に、最も判り易くいえば、土が物質、水は半物質、火は非物質と言えるのである。<br/><br/> 右のごとく、物質の原素が土で、空気の元素が水で、霊気の元素が火であって、この三原素がいずれも密合して、そこに力の発生があるのである。<br/><br/>これを科学的にいうならば、三原素なるものが、ほとんど想像も付かない程の微粒原子として、融合活動しているのが、宇宙の実体である。<br/><br/>故に、吾々の呼吸しているこの空間が、生物の棲息に適する温度や乾度、湿度があるという事は、火素と水素の融合調和によるからで、もし火素が無となり水素のみとなれば一瞬にして氷結すべく、反対に水素が無になって火素のみとなれば一瞬にして爆発し、一切は無となるのである。<br/><br/>そうしてこの火水の二元素が土と密合して、土が力を発生し、万物が生成化育されるのである。<br/><br/>この理によって、火は経に燃え、水は緯に流動するのが本性であり、火は水によって燃え、水は火によって動くのである。<br/><br/>これを図に示せば、左のごとくである。<br/><br/> 古（いにしえ）から、人は小宇宙といわれているが、右の理は、人体にも当嵌（は）まるのである。<br/><br/>即ち、人体における火、水、土は「心臓、肺臓、胃」――に相当するのであって、胃は土から生じた物を食い、肺は水素を吸収し、心臓は火素を吸収するのである。<br/><br/>故に、人体における心臓、肺臓及び胃は、火、水、土の三原素を吸収する機関でこの機関が人体構成の最重要部を占めて居るにみても、右の理は肯（うなず）かるるであろう。<br/><br/>しかるに、今日までは心臓はただ、汚血を肺臓に送り酸素によって浄化されたる血液を、還元吸収するというように、血液のみの機関とされていたのは、全く火素の存在を知らなかったからである。<br/><br/> 右のごとく、胃は食物即ち土素を、口中から食道を経て嚥下（えんか）し、肺臓は呼吸によって水素を吸収し、心臓は鼓動によって火素を吸収するのである。<br/><br/> 従って、病気発生するや発熱するという事は疾患部の凝結毒素を溶解せんが為、必要量の熱即ち火素を心臓が霊界から吸収するのである。<br/><br/>即ち心臓の鼓動は、霊界から火素を吸収するポンプ作用である。<br/><br/>発熱時より先に、心臓の鼓動即ち脈拍が増加するのは、火素吸収が頻繁になるからである、その際の悪寒は、浄化に必要な熱量を吸収する為、一時体温の方への送量を減殺するからである。<br/><br/>故に、下熱するという事は、毒素溶解の作用が終ったのである。<br/><br/> 右のごとくであるから、心臓が一瞬の休みなく、霊界から火素を吸収する。<br/><br/>――それが体温である。<br/><br/>又、肺臓も空気界から水素を呼吸によって不断に吸収しているので人体内の水分は、口から飲下する以外、肺臓の吸収によって得る量も頗（すこぶ）る多いのである。<br/><br/> 右の理によって人の死するや、瞬時に体温は去って冷却し、水分も消えて、血液は凝結し、屍（しかばね）は乾燥し始めるのである。<br/><br/>右を説明すれば、死と同時に、精霊は肉体を脱出して霊界に入るのである。<br/><br/>故に、精霊の火素が無くなるから、水分は凝結するのである。<br/><br/>言い換えれば火素である精霊は霊界に還元し、水分は空気界に還元し肉体は土に還元するのである。<br/><br/> 次に、ここで注意すべき事がある。<br/><br/>それは、熱を量（はか）るに体温器を用いるが、医家も世人もこの方法は完全と思っているが、私からいえば頗る不完全である。<br/><br/>何となれば左のごとき理由によるからである。<br/><br/>元来発熱の場合、その発熱の根拠は、実は一局部である。<br/><br/>しかるに世人は全身的と想っているが、それは大いなる誤りである。<br/><br/>私が治療の際、四十度位の高熱者を診査する場合、指頭位の固結の浄化作用が原因であるので、その固結を溶解するや、全身的に忽ち下熱するのである。<br/><br/>そうして強度な浄化作用は全身的に発熱するが、弱い浄化作用は局部的放射状であって、その局部の周囲（勿論大小はあるが）以外は無熱である事である。<br/><br/>従って、体温器を腋窩（わきのした）に挟む場合、その付近の病気、例えば腕の付根の毒結の浄化作用又は肋間神経痛等があれば有熱となって現われるが、その際離れたる股間、腎臓部、頭部等は無熱である。<br/><br/>故に、実際上、右の腋窩と左の腋窩によっても多少の差異がある事で、はなはだしきは五分位差異のある人がある。<br/><br/>右のごとくであるから体温器による計熱法は不完全であるというのである。<br/><br/> しかるに、私が行う計熱法は、いかなる微熱といえども発見し得らるるのである。<br/><br/>それは掌を宛（あ）つれば一分の十分の一の微熱といえども明確に知るを得るのである。<br/><br/>しかし、これは相当熟練を要する事は勿論であるが、普通一年位経験すれば何人もなし得らるるのである。<br/><br/> 次に高熱に対して氷冷法を行う事がいかに誤謬であるかを説明してみよう。<br/><br/>即ち人体適正の体温は三十六度ないし七度であるという事は、その程度の体温が生活機能に適合しているからである。<br/><br/>しかるに氷冷をするや氷の温度である零度になるから、その氷冷を受ける局所の機能の活動は、著しく阻害せらるるのは当然である。<br/><br/>この理によって脳溢血、肺炎、窒扶斯（チフス）その他の高熱病に対し医療は必ず頭悩の氷冷を行うが、それが為頭脳は氷結状となるから麻痺的貧血状態に陥り機能の活動に支障を及ぼすので、本来の病気によらずして、氷冷の為に斃（たお）れる事が多いのである。<br/><br/> 氷冷は、右のごとき悪結果を招くのみか、浄化作用を強力に停止すべきものである以上、これだけは絶対に廃止したいものである。<br/><br/> 今一つ重要な事がある。<br/><br/>それは下熱剤の反動作用である。<br/><br/>この事は恐らく専門家は固より世人は夢にも思わないであろう。<br/><br/>これはどういう訳かというと、ある病気に対して連続的に下熱剤を使用する場合、大抵一週間以上にわたると、反動作用が徐々として起る事である。<br/><br/>それは、下熱剤の作用に対し、反動作用が発生するのである。<br/><br/>恰（あた）かもある物体を圧迫すると反撥力が起るようなものであって、下剤を用いる程便秘を起し、利尿剤を持続すると反って尿量を減ずると同一の理である。<br/><br/>故に、発熱するから下熱剤を用いる。<br/><br/>下熱剤を用いるから発熱するというように繰返すにおいて最初三十七、八度の熱がついには四十度以上の高熱にさえなるようになるのである。<br/><br/>かくのごとき場合、医家は原因不明の熱として大いに困難するのである。<br/><br/>肺患者の執拗な熱は、右のごとき原因が頗（すこぶ）る多いのであって、下熱の目的を以て下熱剤を用い、その結果が反って発熱の原因を作るという事は、未だ気がつかない事とは言いながら、まことに恐るべきであると言えよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

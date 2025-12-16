@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kodomo1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 子供の不良化 『救世』59号、昭和25(1950)年4月22日発行 近来、子供の不良化が社会問題として取上げられているが、これに対し適切な回答は与えられていないようである、今日見らるる種々の不良化防止論ははなはだ末梢的で、一つも問題の核心に触れていないのは遺憾である、これについて吾らが信ずる絶対的防止法をかいてみよう。<br><br> 何よりもまずその根本がいずこにありやをはっきりさせる事で、それには子供と親の関係を考えるべきで、これを最も判りやすく言えば、親が木の幹であるとすれば子はその枝である。<br><br>ゆえに幹の方を閑却しておいて、枝が腐朽するのを止めようと骨を折るのだから、ナンセンス以外の何物でもない、子供の不良化の原因が親にある事を充分知る事こそ、問題解決の根本条件である。<br><br> 吾らはまず霊的方面から解剖してみよう、いつも言う通り親と子は霊線によって繋がれている、ゆえに親の霊が曇っていれば霊線を通じて子の霊も曇る、これが子供の不良化の原因である、この理によって子の霊を曇らせないようにするのが不良化防止の方法であるから、何よりも親の霊を曇らせないようにする事である、ところがその理を知らないから親は間違った考えを抱き、意識するとせざるとにかかわらず罪を犯すので、それが曇りとなり子に写すので、どうしても親たる者は常に善を想い、正を行い自己品性の陶冶（とうや）に充分心掛くべきであって、それ以外決して効果ある方法はないのである。<br><br> 右は霊的解釈であるが、今度は体的説明をしてみよう、それは子供は親に見習い、親の真似をしたがるもので、これは誰も知っているところである以上、親が不正を思い不善な行為をする以上、いくら巧妙に隠しても一家庭内に在る以上いつかは子供に知れるに決まっている、子供は親でさえあんな事をしているんだから、俺達がやってもいいじゃないかという考えが起るのは当然であるという訳で、詮じ詰めれば子供の不良化とは親の不良化であるといっても間違いはあるまい、ゆえに子の不良化とは親の不良化の暴露でしかない訳になろう。<br><br> 世間の親たる人々よ、右の説をよくよく玩味し、良い子を願うとしたら、御自分がまず良い親となる事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Delinquência Juvenil e a Responsabilidade dos Pais</h2>
 <p>A delinquência juvenil tem se destacado como um grave problema social nos tempos recentes. Contudo, não parece ter sido apresentada uma resposta adequada para tal questão. As diversas teorias de prevenção que hoje se veem são extremamente superficiais e é lamentável que nenhuma delas toque o cerne do problema. A esse respeito, discorrerei sobre o método de prevenção absoluto em que cremos.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Analisemos, primeiramente, a questão sob a perspectiva do Mundo Espiritual. Conforme sempre ensinamos, pais e filhos estão unidos por um elo espiritual. Consequentemente, se o espírito dos pais estiver maculado, essa mácula, através do elo espiritual, se transmitirá ao espírito dos filhos. Eis a verdadeira causa da delinquência juvenil. Por este princípio, o método de prevenção consiste em evitar que o espírito da criança se macule, o que exige, acima de tudo, que os pais preservem a pureza de seu próprio espírito. Todavia, por desconhecerem essa verdade, os pais nutrem pensamentos equivocados e, consciente ou inconscientemente, cometem transgressões. Estas geram máculas que se projetam nos filhos. Nesse sentido, é imprescindível que os genitores pensem sempre no bem, pratiquem a retidão e se dediquem assiduamente ao aprimoramento de seu caráter. Fora disso, não existe método verdadeiramente eficaz.</p>
 <p>A exposição anterior refere-se à interpretação espiritual; vejamos agora a explicação pelo prisma material. É do conhecimento geral que os filhos tendem a aprender e a imitar seus pais. Sendo assim, se os pais nutrem pensamentos injustos e praticam atos reprováveis, por mais que tentem ocultá-los com astúcia, é inevitável que, dentro do ambiente familiar, os filhos venham a descobri-los. Naturalmente, surgirá neles o seguinte raciocínio: "Se até meus pais agem dessa forma, que mal há em fazermos o mesmo?". Em suma, não seria incorreto afirmar que a delinquência juvenil é, em essência, a delinquência dos próprios pais. Portanto, o desvio de conduta dos filhos nada mais é que a manifestação exterior das falhas de seus genitores.</p>
 <p>A todos os pais, eu rogo: reflitam profundamente sobre estes ensinamentos. Se verdadeiramente almejam ter bons filhos, tornem-se, antes de mais nada, bons pais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 子供の不良化 『救世』59号、昭和25(1950)年4月22日発行 近来、子供の不良化が社会問題として取上げられているが、これに対し適切な回答は与えられていないようである、今日見らるる種々の不良化防止論ははなはだ末梢的で、一つも問題の核心に触れていないのは遺憾である、これについて吾らが信ずる絶対的防止法をかいてみよう。<br/><br/> 何よりもまずその根本がいずこにありやをはっきりさせる事で、それには子供と親の関係を考えるべきで、これを最も判りやすく言えば、親が木の幹であるとすれば子はその枝である。<br/><br/>ゆえに幹の方を閑却しておいて、枝が腐朽するのを止めようと骨を折るのだから、ナンセンス以外の何物でもない、子供の不良化の原因が親にある事を充分知る事こそ、問題解決の根本条件である。<br/><br/> 吾らはまず霊的方面から解剖してみよう、いつも言う通り親と子は霊線によって繋がれている、ゆえに親の霊が曇っていれば霊線を通じて子の霊も曇る、これが子供の不良化の原因である、この理によって子の霊を曇らせないようにするのが不良化防止の方法であるから、何よりも親の霊を曇らせないようにする事である、ところがその理を知らないから親は間違った考えを抱き、意識するとせざるとにかかわらず罪を犯すので、それが曇りとなり子に写すので、どうしても親たる者は常に善を想い、正を行い自己品性の陶冶（とうや）に充分心掛くべきであって、それ以外決して効果ある方法はないのである。<br/><br/> 右は霊的解釈であるが、今度は体的説明をしてみよう、それは子供は親に見習い、親の真似をしたがるもので、これは誰も知っているところである以上、親が不正を思い不善な行為をする以上、いくら巧妙に隠しても一家庭内に在る以上いつかは子供に知れるに決まっている、子供は親でさえあんな事をしているんだから、俺達がやってもいいじゃないかという考えが起るのは当然であるという訳で、詮じ詰めれば子供の不良化とは親の不良化であるといっても間違いはあるまい、ゆえに子の不良化とは親の不良化の暴露でしかない訳になろう。<br/><br/> 世間の親たる人々よ、右の説をよくよく玩味し、良い子を願うとしたら、御自分がまず良い親となる事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

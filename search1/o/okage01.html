@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御蔭話から何を得る 『栄光』125号、昭和26(1951)年10月10日発行 たくさんの御蔭話を見るとしたら、誰しも実に素晴しい何物かを、感受せずにはいれないであろう、恐らくこれほどの救いの力は、いまだかつて世界にないからである、そこでその中の病気に関した事のみをかいてみるが、まず現代医学というものの実体である、現在あらゆる病人は、現代医学より外に安心して病気を委せ得るものはないと信じ切っている心理状態で、ほとんど信仰とさえ思える程である、それどころではない、政府当局も同様、現代医学以上のものはないと決めてしまって、毎年巨額の国費を投じ、能（あた）う限りの奨励をしているくらいであるから、医学以外いかに効果あるものがあっても、科学性がないという理由で、なるたけ触れないように勧める方針を採っている、このような訳だから、無論国民もそれを信じ切っている以上、精神作用からいっても、医療を受ける場合、大いに治るべきはずだが、事実は案外であるのは、誰しも経験するところであろう。<br><br> それはそれとして、今本紙毎号満載しているお蔭話である、その中のどれを見ても、発病するや最初は、一人の例外なく医師の診療を受けるが、その結果意外にも、なるほど一時は快くなるので、ヤレヤレ、と安心していると、ちょうど抑えつけた何かが反撥するかのように必ず再発する、そうかと思えば、何程治療を受けても、最初から少しも効果がないどころか、段々悪化する事実である、この場合普通常識から考えても、医療に疑念を起すはずだが、ほとんどの患者はそうは思わないどころか、どこまでも縋って離れない、中にはとうとう死の一歩手前にまで来て漸（ようや）く疑い始め、他の療法を求める者もあるが、こういう人は運のいい方で、酷いのになると死んでも眼が醒めず、これも寿命であるといって、家族も皆の者も諦めてしまう、ところがもっと酷いのになると、兄弟などが年の若いのに次々死んでゆき、それが数人に及ぶもまだ眼が醒めないで医療に頼るが、それはこういう訳である、最初死んだ一人に驚いて、病に対する臆病感が強くなり、この次病人が出来たら、手遅れになっては大変だと思うと共に、出来るだけ平常から衛生に注意し、ヤレ栄養、何々注射等を行うので、反って病弱となり、早死するという訳である、何しろ先祖代々からも、子供の時からも、病気は医者と薬に限るものと、根強く教育され、その観念が沁み込んでいる以上、思うように治らないのは、医師の診立てが違うからだろうとか、医師が下手なためだろうなどと考え、医師を取換えたり、大病院へ行ったりする、しかし治らないのはどこへ行っても同様で、病は漸次悪化してゆくが、もちろんこれに気の付くはずもなく、結局絶体絶命のところまで追い込まれてしまう、そうして一番悪いのは薬であるが、その薬を一日も放す事が出来ないので、緩慢ながら慢性薬毒病患者となり、ついに危険のところまで来るので、気の利いた人はここで初めて医薬に疑問を起すのだが、平常から前述のごとく、政府や専門家によって、医学以外の民間療法や信仰療法は、信用してはならないと釘を刺されているので、随分躊躇（ちゅうちょ）逡巡（しゅんじゅん）するが、何しろ前述のような有様となった以上、このまま続けても駄目だとようやく覚った頃、医師の方も匙（さじ）を投げるので、その際本教の話を聞き、救いを求めに来るのである、しかし最初は誰もオッカナ吃驚（びっくり）で疑い疑い浄霊を受けるが、するとたちまち形勢一変快方に向い、昨日の悲観が今日の楽観と変り、余りの不思議さに、患者は戸迷いするくらいである、ところが現実はズンズン快くなってゆくので、ここに至っていかなる無神論者も兜を脱がざるを得ない事になるのである。<br><br> 従って右のごとき、本教浄霊の真相を一般人に、一日も早く知らしてやりたいと、お蔭話を読む毎に吾々は痛切に感じるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Lição Contida nos Relatos de Graça</h2>
 <p>Ao nos depararmos com os inúmeros relatos de graça, é impossível não ser tocado por algo verdadeiramente sublime. Pois, provavelmente, jamais existiu no mundo tamanho poder de salvação. Nesse sentido, abordarei aqui apenas os casos relacionados a enfermidades, começando por uma análise sobre a verdadeira natureza do que se conhece como medicina moderna.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>O maior vilão, no entanto, é o remédio. O paciente, incapaz de abandonar seu uso diário, transforma-se gradualmente em um doente crônico por intoxicação medicamentosa, chegando por fim a uma condição de extremo perigo. É nesse ponto que os mais perspicazes finalmente começam a questionar a medicina e seus fármacos. Contudo, hesitam por um longo tempo, pois, como já mencionado, foram condicionados pelo governo e por especialistas a não confiar em terapias alternativas ou espirituais. Finalmente, quando os próprios médicos desistem do caso, declarando não haver mais o que fazer, a pessoa ouve falar sobre nossa Igreja e vem em busca de salvação.</p>
 <p>No início, todos se aproximam com grande receio e ceticismo ao receber Johrei. Entretanto, o quadro se reverte de maneira súbita e espetacular. O pessimismo de ontem dá lugar ao otimismo de hoje, e a transformação é tão assombrosa que o próprio paciente fica perplexo. Diante da melhora progressiva e incontestável, até mesmo o mais convicto dos ateus é forçado a render-se à evidência.</p>
 <p>Portanto, a cada relato de graça que lemos, sentimos mais intensamente o dever de levar a verdade sobre o Johrei de nossa Igreja ao conhecimento de todos, o mais brevemente possível.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御蔭話から何を得る 『栄光』125号、昭和26(1951)年10月10日発行 たくさんの御蔭話を見るとしたら、誰しも実に素晴しい何物かを、感受せずにはいれないであろう、恐らくこれほどの救いの力は、いまだかつて世界にないからである、そこでその中の病気に関した事のみをかいてみるが、まず現代医学というものの実体である、現在あらゆる病人は、現代医学より外に安心して病気を委せ得るものはないと信じ切っている心理状態で、ほとんど信仰とさえ思える程である、それどころではない、政府当局も同様、現代医学以上のものはないと決めてしまって、毎年巨額の国費を投じ、能（あた）う限りの奨励をしているくらいであるから、医学以外いかに効果あるものがあっても、科学性がないという理由で、なるたけ触れないように勧める方針を採っている、このような訳だから、無論国民もそれを信じ切っている以上、精神作用からいっても、医療を受ける場合、大いに治るべきはずだが、事実は案外であるのは、誰しも経験するところであろう。<br/><br/> それはそれとして、今本紙毎号満載しているお蔭話である、その中のどれを見ても、発病するや最初は、一人の例外なく医師の診療を受けるが、その結果意外にも、なるほど一時は快くなるので、ヤレヤレ、と安心していると、ちょうど抑えつけた何かが反撥するかのように必ず再発する、そうかと思えば、何程治療を受けても、最初から少しも効果がないどころか、段々悪化する事実である、この場合普通常識から考えても、医療に疑念を起すはずだが、ほとんどの患者はそうは思わないどころか、どこまでも縋って離れない、中にはとうとう死の一歩手前にまで来て漸（ようや）く疑い始め、他の療法を求める者もあるが、こういう人は運のいい方で、酷いのになると死んでも眼が醒めず、これも寿命であるといって、家族も皆の者も諦めてしまう、ところがもっと酷いのになると、兄弟などが年の若いのに次々死んでゆき、それが数人に及ぶもまだ眼が醒めないで医療に頼るが、それはこういう訳である、最初死んだ一人に驚いて、病に対する臆病感が強くなり、この次病人が出来たら、手遅れになっては大変だと思うと共に、出来るだけ平常から衛生に注意し、ヤレ栄養、何々注射等を行うので、反って病弱となり、早死するという訳である、何しろ先祖代々からも、子供の時からも、病気は医者と薬に限るものと、根強く教育され、その観念が沁み込んでいる以上、思うように治らないのは、医師の診立てが違うからだろうとか、医師が下手なためだろうなどと考え、医師を取換えたり、大病院へ行ったりする、しかし治らないのはどこへ行っても同様で、病は漸次悪化してゆくが、もちろんこれに気の付くはずもなく、結局絶体絶命のところまで追い込まれてしまう、そうして一番悪いのは薬であるが、その薬を一日も放す事が出来ないので、緩慢ながら慢性薬毒病患者となり、ついに危険のところまで来るので、気の利いた人はここで初めて医薬に疑問を起すのだが、平常から前述のごとく、政府や専門家によって、医学以外の民間療法や信仰療法は、信用してはならないと釘を刺されているので、随分躊躇（ちゅうちょ）逡巡（しゅんじゅん）するが、何しろ前述のような有様となった以上、このまま続けても駄目だとようやく覚った頃、医師の方も匙（さじ）を投げるので、その際本教の話を聞き、救いを求めに来るのである、しかし最初は誰もオッカナ吃驚（びっくり）で疑い疑い浄霊を受けるが、するとたちまち形勢一変快方に向い、昨日の悲観が今日の楽観と変り、余りの不思議さに、患者は戸迷いするくらいである、ところが現実はズンズン快くなってゆくので、ここに至っていかなる無神論者も兜を脱がざるを得ない事になるのである。<br/><br/> 従って右のごとき、本教浄霊の真相を一般人に、一日も早く知らしてやりたいと、お蔭話を読む毎に吾々は痛切に感じるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

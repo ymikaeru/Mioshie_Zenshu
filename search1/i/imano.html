@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>imano</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 今の医学 『栄光』128号、昭和26(1951)年10月31日発行 今日の医学は、赤裸々にいえば、病気の治る医学ではない、治ると思う医学である、否治ると思わせる医学であって、それ以上の何物でもない、なるほど人間の身体を研究材料として、病気の治る医学を発見しようとして努力はしているが、仲々思うようにならないのが事実である、といって外に考えようもないので、この方法を唯一のものとして噛（かじ）りついているだけで、これを続けていれば、いつかしら真に病気の治る医学が進歩するだろうとの予想で、全世界何十万の専門家が、研究室に閉籠（とじこも）り、前述のごとく人間をはじめ、二十日鼠やモルモットを研究材料にしているのである。<br><br> そうして少し重い病気になると、矢鱈（やたら）に入院させようとするが、入院すれば治りますか、と質（き）くと、それは請合えない、マアーこの病状では入院するより方法がないからだという、しかしこの言葉をよく考えてみると、治る見込がないとすれば、まず研究材料にする目的より外にない事は分り切った話である、つまり、多額の入院料を出して研究材料にされ、生命までも捧げて悔ないのであるから、実に奇特な話である、これについて左記の話はよく似ているからかいてみよう。<br><br> 彼の二十年八月十四日終戦前日の事である、天皇陛下におかれては、当時の陸相阿南氏を御呼びになり「お前はこの戦争は勝つと思うか」と御訊きになると、陸相は「イヤ勝つ見込はありません」という、陛下は「では勝つ見込のない戦争なら、止めたらいいじゃないか」と仰せられると、陸相「イヤ止める訳には参りません」というので、陛下は呆（あき）れ給い「よし退れ」と仰せられたそうである、ところが翌十五日、アノようになったので、その夜中陸相は自刃されたのは皆知っている通りであるが、もちろん原因は右の理由である事は想像される、ちょうど右と同様、入院に際しての医師の言葉がそうであろう、ただ違うところは、請合えないが入院しろとの言葉を聞いて、変だとは思いながらも入院する人が多いのは、全く諦めのためであろう、またもっと酷いのになると、医師がその病気は手術しても、治るか治らないか判らない、と言うにかかわらず、患者の方で、是非手術をしてくれといって、無理に入院手術して貰う者もあるが、無論駄目に決っている、何しろ医師が請合ってさえ駄目なのが多いのだからである、また手術を受ける場合必ず万一の事があっても、否やはいわぬという証書を出すがこれも危ない話で、つまり一か八かの冒険である、右によってみても、手術は考うべきものであろう。<br><br> 以上によって、現在の医学がまだ信頼出来る程に進歩していない事が判るであろう、ところがいつもいう通り、吾々の方はいささかの危険もなく、十中八九は治ると思って間違いないのであるから、有りのままをかいたのである、ところが世の中の知らない人は、本教の宗教医学をインチキ迷信だなどと片付けて、大切な命を棒にふる人が多いのだから何と言っていいか言葉はないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Medicina de Nossos Dias</h2>
 <p>A medicina de nossos dias, falando-se com franqueza, não é uma medicina que cura, mas sim uma que se julga capaz de curar. Ou melhor, é uma medicina que faz crer na cura, e nada além disso. É inegável o esforço empreendido na busca por uma medicina que efetivamente cure as enfermidades, utilizando o corpo humano como material de pesquisa; contudo, a realidade é que os resultados tardam a corresponder às expectativas. Todavia, por não vislumbrarem outra alternativa, apegam-se a esse método como se fosse o único, na esperança de que, perseverando nele, um dia surja uma medicina verdadeiramente curativa. É com essa expectativa que centenas de milhares de especialistas em todo o mundo se enclausuram em laboratórios, utilizando como cobaias não apenas seres humanos, mas também camundongos e porquinhos-da-índia.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>O episódio ocorreu em 14 de agosto de 1945, na véspera do fim da guerra. Sua Majestade, o Imperador, convocou o então Ministro da Guerra, General Anami, e lhe perguntou: “Crês que venceremos esta guerra?”. O ministro respondeu: “Não, não há perspectiva de vitória”. O Imperador então ponderou: “Se não há esperança de vitória, por que não cessamos o conflito?”. Ao que o general retrucou: “Não, não podemos simplesmente parar”. Diz-se que Sua Majestade, atônito, apenas ordenou: “Pois bem, retira-te”. Como todos sabem, no dia seguinte, 15 de agosto, com o desfecho que se conhece, o Ministro da Guerra tirou a própria vida durante a noite. Pode-se inferir que a razão para tal ato reside precisamente no diálogo mencionado.</p>
 <p>De modo análogo, as palavras do médico ao sugerir uma internação espelham essa mesma lógica. A única diferença reside no fato de que, mesmo ao ouvir que não há garantias e achando a situação estranha, muitos pacientes aceitam ser internados, movidos unicamente pela resignação. Há casos ainda mais extremos, em que, apesar de o médico admitir não saber se a cirurgia resultará em cura, é o próprio paciente quem insiste no procedimento, forçando a internação e a operação. O resultado, como é de se esperar, está fadado ao fracasso, afinal, são inúmeros os insucessos mesmo quando o médico oferece alguma garantia. Ademais, ao se submeter a uma cirurgia, o paciente é obrigado a assinar um termo de responsabilidade, declarando que não fará objeções caso ocorra o pior. Isso, por si só, já revela o perigo da situação, que se assemelha a uma aposta de alto risco. Diante do exposto, a decisão por uma intervenção cirúrgica deveria ser muito bem ponderada.</p>
 <p>Por tudo o que foi dito, torna-se claro que a medicina atual ainda não progrediu a ponto de ser digna de confiança. Contudo, como sempre afirmo, o método que praticamos não acarreta o menor risco e, com uma probabilidade de cura de oito a nove casos em dez, pode-se crer em sua eficácia sem margem para erro. Escrevo, portanto, a verdade nua e crua. Não obstante, pessoas desavisadas descartam a medicina religiosa de nossa Igreja, rotulando-a de charlatanismo e superstição. Por agirem assim, muitos acabam por desperdiçar suas preciosas vidas. Diante de tamanha tragédia, faltam-me palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 今の医学 『栄光』128号、昭和26(1951)年10月31日発行 今日の医学は、赤裸々にいえば、病気の治る医学ではない、治ると思う医学である、否治ると思わせる医学であって、それ以上の何物でもない、なるほど人間の身体を研究材料として、病気の治る医学を発見しようとして努力はしているが、仲々思うようにならないのが事実である、といって外に考えようもないので、この方法を唯一のものとして噛（かじ）りついているだけで、これを続けていれば、いつかしら真に病気の治る医学が進歩するだろうとの予想で、全世界何十万の専門家が、研究室に閉籠（とじこも）り、前述のごとく人間をはじめ、二十日鼠やモルモットを研究材料にしているのである。<br/><br/> そうして少し重い病気になると、矢鱈（やたら）に入院させようとするが、入院すれば治りますか、と質（き）くと、それは請合えない、マアーこの病状では入院するより方法がないからだという、しかしこの言葉をよく考えてみると、治る見込がないとすれば、まず研究材料にする目的より外にない事は分り切った話である、つまり、多額の入院料を出して研究材料にされ、生命までも捧げて悔ないのであるから、実に奇特な話である、これについて左記の話はよく似ているからかいてみよう。<br/><br/> 彼の二十年八月十四日終戦前日の事である、天皇陛下におかれては、当時の陸相阿南氏を御呼びになり「お前はこの戦争は勝つと思うか」と御訊きになると、陸相は「イヤ勝つ見込はありません」という、陛下は「では勝つ見込のない戦争なら、止めたらいいじゃないか」と仰せられると、陸相「イヤ止める訳には参りません」というので、陛下は呆（あき）れ給い「よし退れ」と仰せられたそうである、ところが翌十五日、アノようになったので、その夜中陸相は自刃されたのは皆知っている通りであるが、もちろん原因は右の理由である事は想像される、ちょうど右と同様、入院に際しての医師の言葉がそうであろう、ただ違うところは、請合えないが入院しろとの言葉を聞いて、変だとは思いながらも入院する人が多いのは、全く諦めのためであろう、またもっと酷いのになると、医師がその病気は手術しても、治るか治らないか判らない、と言うにかかわらず、患者の方で、是非手術をしてくれといって、無理に入院手術して貰う者もあるが、無論駄目に決っている、何しろ医師が請合ってさえ駄目なのが多いのだからである、また手術を受ける場合必ず万一の事があっても、否やはいわぬという証書を出すがこれも危ない話で、つまり一か八かの冒険である、右によってみても、手術は考うべきものであろう。<br/><br/> 以上によって、現在の医学がまだ信頼出来る程に進歩していない事が判るであろう、ところがいつもいう通り、吾々の方はいささかの危険もなく、十中八九は治ると思って間違いないのであるから、有りのままをかいたのである、ところが世の中の知らない人は、本教の宗教医学をインチキ迷信だなどと片付けて、大切な命を棒にふる人が多いのだから何と言っていいか言葉はないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

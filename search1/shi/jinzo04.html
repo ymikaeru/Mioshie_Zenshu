@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jinzo04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓医術と若返り法 『天国の福音』昭和22(1947)年2月5日発行 本医術は一言にしていえば腎臓医術ともいえるのである。<br><br>さきに詳説したごとく、病原としての毒素は然毒、尿毒、薬毒の三種で、その三毒が最も作用する局所としては腎臓である。<br><br>まずその順序を説いてみよう。<br><br> 人間がこの世に生を享けるや、既説のごとく先天性毒素としての然毒が、まず背面腎臓部に集溜する。<br><br>嬰児といえどもほとんどは背面腎臓部に相当の毒素を保有している。<br><br>幼児の起き歩きの後れる原因もそのためである。<br><br>そうして人間は成人するに従い、然毒の凝結圧迫により腎臓は萎縮し余剰尿が溜結、なんらかの病気発生となり、それの浄化停止のため薬毒を使用する。<br><br>すなわち以上三毒の圧迫加わり、腎臓はいよいよ萎縮する。<br><br>元来腎臓はホルモンの製出と、生理的残渣（ざんさ）を尿によって排泄するという重要機能である以上、腎臓萎縮は全身的浄化微弱とホルモンの欠乏を促す。<br><br>その結果としての老衰は免れ得ない。<br><br>この理によって人間の元気旺盛なるは腎臓機能の活発によるのであるから人間の強靱なる健康こそ、全く腎臓の強盛に正比例するのである。<br><br> 腎臓が完全なる活動状態となるにおいて、まず全身が軽くなり挙措（きょそ）敏捷となる。<br><br>頭脳は明晰となるから能率は増進する。<br><br>仕事に当って倦（う）む事を知らず、かつ困苦に堪え、万事楽観的となり、常に爽快感を保つから怒る事を厭（いと）い協調的となる故、人から敬愛され、成功者となる訳である。<br><br> また婦人にあっては浄血の持主となるから著しく美を増し、不断の快感は接する人に好感を与え、ホルモンの増加は著しい魅力を発揮する。<br><br>故に夫婦は円満となり、家庭内の風波は起り得なくなる。<br><br>また老年者といえどもまず二十年は若返るであろう。<br><br>その結果として普通九十歳以上の長寿者となる事は敢（あえ）て難事ではない。<br><br> 私は、人類の腎臓を完全たらしむるにおいて病者の絶滅、出産の増加はもちろん、戦争の絶滅をも期し得らるる事を信ずるのである。<br><br>何となれば完全なる腎臓は完全なる健康体となり、完全なる精神を持ち得、完全なる精神の持主は闘争を厭い、平和を好み怠惰を厭い、利己愛を捨て、すべて常識的に事を処理するというようになるからである。<br><br> 私は思う。<br><br>本医術を他所（よそ）にして世界の真の平和の実現は得られないであろう事を。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte Médica Renal e o Rejuvenescimento</h2>
 <p>Em suma, esta Arte Médica pode ser definida como a Arte Médica dos rins. Conforme explanei detalhadamente em outra ocasião, as toxinas que constituem a causa primordial das doenças são de três naturezas: a toxina congênita, a toxina urinária e a toxina medicamentosa. O ponto focal da ação desses três venenos é, precipuamente, a região renal. Passarei a elucidar a sequência desse processo.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>No caso das mulheres, por se tornarem portadoras de um sangue puro, sua beleza é notavelmente realçada. A sensação contínua de bem-estar que emanam cativa as pessoas ao seu redor, e o aumento hormonal lhes confere um encanto singular. Em decorrência disso, a harmonia conjugal se estabelece plenamente, e as tormentas familiares deixam de existir. Ademais, mesmo as pessoas de idade avançada rejuvenescerão em, pelo menos, vinte anos. Como resultado, alcançar uma longevidade superior aos noventa anos não será, de modo algum, uma tarefa árdua.</p>
 <p>Tenho a convicção de que, ao restabelecermos a perfeição dos rins da humanidade, poderemos almejar não apenas a erradicação das doenças e o aumento da natalidade, mas também a própria extinção da guerra. Qual a razão para tal assertiva? É que rins perfeitos geram um corpo perfeito; um corpo perfeito permite a manifestação de um espírito perfeito; e o portador de um espírito perfeito abomina o conflito e ama a paz, repudia a indolência, abandona o amor egoísta e conduz todos os seus assuntos com base no mais puro bom-senso.</p>
 <p>Creio firmemente que, sem o alicerce desta Arte Médica, a concretização da verdadeira paz mundial jamais será alcançada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓医術と若返り法 『天国の福音』昭和22(1947)年2月5日発行 本医術は一言にしていえば腎臓医術ともいえるのである。<br/><br/>さきに詳説したごとく、病原としての毒素は然毒、尿毒、薬毒の三種で、その三毒が最も作用する局所としては腎臓である。<br/><br/>まずその順序を説いてみよう。<br/><br/> 人間がこの世に生を享けるや、既説のごとく先天性毒素としての然毒が、まず背面腎臓部に集溜する。<br/><br/>嬰児といえどもほとんどは背面腎臓部に相当の毒素を保有している。<br/><br/>幼児の起き歩きの後れる原因もそのためである。<br/><br/>そうして人間は成人するに従い、然毒の凝結圧迫により腎臓は萎縮し余剰尿が溜結、なんらかの病気発生となり、それの浄化停止のため薬毒を使用する。<br/><br/>すなわち以上三毒の圧迫加わり、腎臓はいよいよ萎縮する。<br/><br/>元来腎臓はホルモンの製出と、生理的残渣（ざんさ）を尿によって排泄するという重要機能である以上、腎臓萎縮は全身的浄化微弱とホルモンの欠乏を促す。<br/><br/>その結果としての老衰は免れ得ない。<br/><br/>この理によって人間の元気旺盛なるは腎臓機能の活発によるのであるから人間の強靱なる健康こそ、全く腎臓の強盛に正比例するのである。<br/><br/> 腎臓が完全なる活動状態となるにおいて、まず全身が軽くなり挙措（きょそ）敏捷となる。<br/><br/>頭脳は明晰となるから能率は増進する。<br/><br/>仕事に当って倦（う）む事を知らず、かつ困苦に堪え、万事楽観的となり、常に爽快感を保つから怒る事を厭（いと）い協調的となる故、人から敬愛され、成功者となる訳である。<br/><br/> また婦人にあっては浄血の持主となるから著しく美を増し、不断の快感は接する人に好感を与え、ホルモンの増加は著しい魅力を発揮する。<br/><br/>故に夫婦は円満となり、家庭内の風波は起り得なくなる。<br/><br/>また老年者といえどもまず二十年は若返るであろう。<br/><br/>その結果として普通九十歳以上の長寿者となる事は敢（あえ）て難事ではない。<br/><br/> 私は、人類の腎臓を完全たらしむるにおいて病者の絶滅、出産の増加はもちろん、戦争の絶滅をも期し得らるる事を信ずるのである。<br/><br/>何となれば完全なる腎臓は完全なる健康体となり、完全なる精神を持ち得、完全なる精神の持主は闘争を厭い、平和を好み怠惰を厭い、利己愛を捨て、すべて常識的に事を処理するというようになるからである。<br/><br/> 私は思う。<br/><br/>本医術を他所（よそ）にして世界の真の平和の実現は得られないであろう事を。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

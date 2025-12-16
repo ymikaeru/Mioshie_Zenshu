@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganbyo14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 茲で、眼病に就ての医学の誤謬を説いてみよう。<br><br>最も多いとされてゐるトラホーム及び濾胞性結膜炎を採り上げてみよう。<br><br>之は人も知る如く眼球に異状はなく、眼瞼の裏に発疹が出来るので、トラホームは上瞼、濾胞性結膜炎は下瞼が主である。<br><br>医学に於てはトラホームは伝染すると謂はれてゐるが、之は研究の余地は充分あると思ふのである。<br><br>又、医療に於ては手術が良いとされてゐる。<br><br>然し、手術は一時軽快しても根治する事は少なく、一二年後には、大抵再発するものである。<br><br>よつて再度の手術をする。<br><br>復おこる。<br><br>復再発するといふ具合で、漸次軽快期間が短縮され、症状も悪性化し、恰度、手術中毒ともいふべき症状になるのである。<br><br>そうして右の如き悪性となると、激痛、不快感等堪え難く、眼を開けば非常に眩しく、眼を閉じるのやむを得ない状態で、眼球は紅潮を呈し、断えず涙や膿汁が流れ出で、実に視るに堪えない醜さである。<br><br>之等甚しき痛苦は、全く手術と薬毒の結果である事はいふ迄もないのである。<br><br> トラホームの原因としては、一種の毒素が眼瞼裏から排除されようとして発疹するのであるから、勿論浄化作用であり、気永に放任しておけば治癒するのである。<br><br>従而、伝染といふ事は、持てる毒素を誘発、排除させるのであるから、実は可い訳である。<br><br> 濾胞性結膜炎は、自然に治癒するものであるから、問題にする必要はないであらう。<br><br> 次に、多い症状として結膜炎がある。<br><br>之は眼瞼縁炎（がんけんえんえん）又は血眼（ちめ）などと称し、眼球が非常に紅潮を呈し、目脂、涙等が溢れ出るのであつて原因は、前頭部に滞溜する毒素が浄化作用によつて、眼球部から排除されようとするのである。<br><br>故に、放任しておけば順調に治癒するので、治癒後は、頭脳の毒素が軽減するから頭痛などは軽快するのである。<br><br>右の理を知らない世人は、点眼薬又は硼酸洗滌（ほうさんせんじょう）等によつて浄化作用の抑止をするので、治癒は後れるのみならず、薬毒の浸潤によつて、反つて増悪し視力障碍さへ起すといふ例も尠くないのである。<br><br> 次に、目星も多い眼疾である。<br><br>之等も毒素が眼球へ集溜、瞳孔表面に固結するのであるが、放任しておけば大抵は治癒するのである。<br><br>然し此際、点眼薬を施すに於て、固結はより硬度になるから、非常に治り難くなるのである。<br><br>私が治療の経験によると、全然、点眼をしない患者は二三回にて容易に治癒するが、点眼をした患者程、治癒は困難になり、長引くのである。<br><br> 右の外種々の眼疾は、何れも浄化作用による毒素の眼球に集溜するのが原因であつて、その毒素の性質と集溜状態、眼球の集溜個所等によつて、症状に差別がある訳で、最も恐るべき底翳（そこひ）は、眼球裏面に毒素が凝結する事は、医学に於てもよく知られてゐる所である。<br><br> そうして底翳には白底翳、青底翳、黒底翳の三種があつて、黒底翳が最も悪性とされてゐる。<br><br>即ち白底翳は白色の膿であり、青底翳は青色の膿で、白色よりも悪性である。<br><br>黒底翳は毒血である。<br><br>発病後何等の療法も受けず直ちに本療法を施せば、大抵は治癒するのである。<br><br> 次に、俗に鳥眼と称する夜盲症及び医学上絶対不治とされてゐる色盲は、其原因が霊的であるから、病気と霊の項目に於て説く事とする。<br><br>右何れも本療法で全治するのである。<br><br> 次に、悲しくもないのに、涙が自然に出る人がある。<br><br>此原因に就て医学では涙嚢（るいのう）又は涙腺の故障としてゐるが、私の研究によれば、殆んどは点眼薬の為である。<br><br>点眼薬をして数年を経ると、其薬液が涙に変化して排泄せらるるのであるから、放任しておけば、点眼しただけの薬液が排泄されて治癒するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza das Enfermidades Oculares</h2>
 <p>Permitam-me discorrer sobre os equívocos da medicina no que tange às enfermidades oculares. Analisemos, como exemplo, o tracoma e a conjuntivite folicular, considerados os males mais prevalentes. Como é de conhecimento geral, a anomalia não se encontra no globo ocular, mas sim em erupções que surgem na parte interna das pálpebras; no caso do tracoma, predominantemente na pálpebra superior, e na conjuntivite folicular, na inferior. A medicina afirma que o tracoma é contagioso, mas creio que tal tese merece um estudo mais aprofundado. Para seu tratamento, a intervenção cirúrgica é tida como a mais eficaz.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Existem três tipos de glaucoma: o branco, o azul e o preto, sendo este último considerado o mais maligno. O glaucoma branco consiste em pus de coloração esbranquiçada; o azul, em pus azulado, de natureza mais severa. Já o glaucoma preto é formado por sangue tóxico. Se o paciente procurar nosso método de tratamento imediatamente após o surgimento da doença, sem ter se submetido a nenhuma outra terapia, a cura é quase sempre alcançada.</p>
 <p>Por fim, a condição popularmente conhecida como cegueira noturna e o daltonismo – considerado incurável pela medicina – possuem causas de natureza espiritual e, por essa razão, serão abordados no capítulo dedicado à relação entre as doenças e o espírito. Ambas as condições são plenamente curáveis por nosso método terapêutico.</p>
 <p>Há pessoas que lacrimejam constantemente, mesmo sem sentir tristeza. A medicina atribui tal sintoma a problemas no saco ou nas glândulas lacrimais. Todavia, minhas pesquisas revelam que a causa, na quase totalidade dos casos, reside no uso de colírios. Anos após a aplicação, o líquido medicamentoso se transforma em lágrima para ser expelido. Portanto, basta permitir que o processo siga seu curso natural para que, uma vez eliminada toda a substância medicamentosa, a cura se estabeleça.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 茲で、眼病に就ての医学の誤謬を説いてみよう。<br/><br/>最も多いとされてゐるトラホーム及び濾胞性結膜炎を採り上げてみよう。<br/><br/>之は人も知る如く眼球に異状はなく、眼瞼の裏に発疹が出来るので、トラホームは上瞼、濾胞性結膜炎は下瞼が主である。<br/><br/>医学に於てはトラホームは伝染すると謂はれてゐるが、之は研究の余地は充分あると思ふのである。<br/><br/>又、医療に於ては手術が良いとされてゐる。<br/><br/>然し、手術は一時軽快しても根治する事は少なく、一二年後には、大抵再発するものである。<br/><br/>よつて再度の手術をする。<br/><br/>復おこる。<br/><br/>復再発するといふ具合で、漸次軽快期間が短縮され、症状も悪性化し、恰度、手術中毒ともいふべき症状になるのである。<br/><br/>そうして右の如き悪性となると、激痛、不快感等堪え難く、眼を開けば非常に眩しく、眼を閉じるのやむを得ない状態で、眼球は紅潮を呈し、断えず涙や膿汁が流れ出で、実に視るに堪えない醜さである。<br/><br/>之等甚しき痛苦は、全く手術と薬毒の結果である事はいふ迄もないのである。<br/><br/> トラホームの原因としては、一種の毒素が眼瞼裏から排除されようとして発疹するのであるから、勿論浄化作用であり、気永に放任しておけば治癒するのである。<br/><br/>従而、伝染といふ事は、持てる毒素を誘発、排除させるのであるから、実は可い訳である。<br/><br/> 濾胞性結膜炎は、自然に治癒するものであるから、問題にする必要はないであらう。<br/><br/> 次に、多い症状として結膜炎がある。<br/><br/>之は眼瞼縁炎（がんけんえんえん）又は血眼（ちめ）などと称し、眼球が非常に紅潮を呈し、目脂、涙等が溢れ出るのであつて原因は、前頭部に滞溜する毒素が浄化作用によつて、眼球部から排除されようとするのである。<br/><br/>故に、放任しておけば順調に治癒するので、治癒後は、頭脳の毒素が軽減するから頭痛などは軽快するのである。<br/><br/>右の理を知らない世人は、点眼薬又は硼酸洗滌（ほうさんせんじょう）等によつて浄化作用の抑止をするので、治癒は後れるのみならず、薬毒の浸潤によつて、反つて増悪し視力障碍さへ起すといふ例も尠くないのである。<br/><br/> 次に、目星も多い眼疾である。<br/><br/>之等も毒素が眼球へ集溜、瞳孔表面に固結するのであるが、放任しておけば大抵は治癒するのである。<br/><br/>然し此際、点眼薬を施すに於て、固結はより硬度になるから、非常に治り難くなるのである。<br/><br/>私が治療の経験によると、全然、点眼をしない患者は二三回にて容易に治癒するが、点眼をした患者程、治癒は困難になり、長引くのである。<br/><br/> 右の外種々の眼疾は、何れも浄化作用による毒素の眼球に集溜するのが原因であつて、その毒素の性質と集溜状態、眼球の集溜個所等によつて、症状に差別がある訳で、最も恐るべき底翳（そこひ）は、眼球裏面に毒素が凝結する事は、医学に於てもよく知られてゐる所である。<br/><br/> そうして底翳には白底翳、青底翳、黒底翳の三種があつて、黒底翳が最も悪性とされてゐる。<br/><br/>即ち白底翳は白色の膿であり、青底翳は青色の膿で、白色よりも悪性である。<br/><br/>黒底翳は毒血である。<br/><br/>発病後何等の療法も受けず直ちに本療法を施せば、大抵は治癒するのである。<br/><br/> 次に、俗に鳥眼と称する夜盲症及び医学上絶対不治とされてゐる色盲は、其原因が霊的であるから、病気と霊の項目に於て説く事とする。<br/><br/>右何れも本療法で全治するのである。<br/><br/> 次に、悲しくもないのに、涙が自然に出る人がある。<br/><br/>此原因に就て医学では涙嚢（るいのう）又は涙腺の故障としてゐるが、私の研究によれば、殆んどは点眼薬の為である。<br/><br/>点眼薬をして数年を経ると、其薬液が涙に変化して排泄せらるるのであるから、放任しておけば、点眼しただけの薬液が排泄されて治癒するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

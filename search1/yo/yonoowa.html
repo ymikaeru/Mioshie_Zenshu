@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yonoowa</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夜の終り近づけり汝等悔改めよ 『光』42号、昭和24(1949)年12月31日発行 大聖キリストのいった「世の終り近づけり汝ら悔改めよ」と、また一面「天国は近づけり汝ら悔改めよ」とのこの二つの警告はこの意味を本当に説いたものはいまだかつてなかったようである、もちろん時期到らなかったためでもあるが、私が常に言うところの今日までは夜の世界であったからで、それが時期いよいよ来たって夜の世界はここに終焉（しゅうえん）を告げ昼の世界に転換する事となったという意味とよく合致している事である、すなわち世の終りとは夜の終りであり、天国とは昼の世界を言うのである、すなわち今日までの苦悩に満ちた暗黒世界は夜の表徴（ひょうちょう）であり、昼の世界とは光明遍（あまね）く罪悪も苦悩も打断れた歓喜の世界である、この説明を聞いて納得のゆくものはもちろん信仰心を有する人であり信仰心の全然ない唯物主義者はこれだけでは判り得ないであろうから彼らをも判らせるべくこの夜昼転換の真相をここにかくのである。<br><br> そもそも夜昼転換の順序であるが、これは私の常にいうごとく眼に見えぬ幽幻界から始まってそれが霊界に移写し、それがまた現界に移写するのである、ここで最初の転換である幽幻界とは三次元の世界でこの時が西暦一八八一〔一八八二〕年で次の霊界すなわち二次元の転換が一九三〇〔一九三一〕年であり次の現界の転換こそ今や目捷〔睫〕（もくしょう）に迫りつつある一大危機の開始である、一言にして言えば、世界は今や黎明の寸前にあり正に東天に太陽が上らんとしている時である、とすれば現在の霊界は科学的にみていかなる状態にあるかを説明してみよう。<br><br> いうまでもなく霊界においては夜の期間中は水素が主で火素が従であったものが昼の世界に入るやその反対に火素が主で水素が従となるのである、すなわち暗が明に変わるのである、それだけなら別段心配する事はないが、実はこれによって空前の大変化が起るのである、というのはいまだかつて経験にない程の破壊と創造が行われる、すなわち霊界においては濁が清となり、そのまま現界に移写されるから現界はいかに大いなる変異を起すか想像にあまりある、もちろん霊界に火素が殖える結果として浄化力発生と共に時の経過に正比例して漸次強化されるのである、その表われとして善悪正邪は明らかとなり全人類に浄化が行われる、元々人間の病気とは火素による浄化作用であるから体内に汚濁を多量に保有している者ほど強烈なる浄化が行われるのは当然である、しかし今日までの病気なるものは浄化が至極緩慢に来たので生命の危険にまでは及ぼさなかったが、最後の世の病気はすこぶる急激なる大浄化であるから極めて迅速な経過をとる、例えば頭痛、咳嗽、下痢等二つか三つくらいの症状なれば生命が脅かされるまでには至らないが、これが七つも八つも一度に発生するとすれば到底たえられるものではない、この場合医師に診せるも全然病原が分らないから急速の死は免れないのである。<br><br> 何と恐るべきではないか、かような大浄化が人類を襲う結果一大恐怖時代が出現し滅ぶ者数知れずという事も想像され得るのである、この事に対してもキリストは最後の審判の言葉をもって一大警告を発せられている、ただ今日までこの審判の真相と時期が判然と分らなかったので人類は真の自覚を得られなかったのである、しかるにいよいよ時の迫った今、神は私をしてここに一大警告を与えるべく、具体的に書かしめ給うたのである。<br><br> 以上の意味において、大審判が今や全人類の頭上に蔽い被らんとするこの秋（とき）一人でも多くの人間を救い給うのが神の大愛である以上大審判の執行者であり人間の生命を握られ給うのであるから神の御手に縋って罪を許されるより外にこの難関を切り抜ける方法は絶対ないのである、すなわち人類が負える罪の重荷を神の御手によって取除かれ清められる以外救われる道はないからである。<br><br> 私はこの最後の救いの執行者として、神の委任のままに責任を遂行すべくここに一大警鐘を鳴らすのである以上、耳を塞ぎ聞くを欲せざる人は自ら滅びの運命を選ぶ人と言うより外に言葉はない、いよいよの時になって悔改むるも最早取返しのつかない事を警告して筆をおくのである。<br><br> (注) 目睫（もくしょう）、目とまつげ。<br><br>転じて、とても近いところ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Alvorada do Mundo do Dia e o Juízo Final</h2>
 <p>As advertências proferidas pelo Grande Mestre Cristo — “O fim do mundo está próximo, arrependei-vos” e, por outro lado, “O Reino dos Céus está próximo, arrependei-vos” — jamais haviam sido verdadeiramente elucidadas, em parte, por não ter chegado o tempo oportuno. Isso se deve ao fato de que, até o presente momento, vivíamos no que sempre designo como o Mundo da Noite. Chegou, finalmente, a era em que o Mundo da Noite anuncia seu fim, dando lugar à transição para o Mundo do Dia. Nesse sentido, o “fim do mundo” significa o fim da Noite, e o “Reino dos Céus” refere-se ao Mundo do Dia. O mundo de trevas, pleno de sofrimento que conhecemos até hoje, é um emblema da Noite, enquanto o Mundo do Dia é um mundo de júbilo, onde a luz se difunde por toda parte e o mal e a aflição são extirpados. Aqueles que possuem fé certamente compreenderão esta explicação. Contudo, para que os materialistas, desprovidos de qualquer sentimento de crença, também possam alcançar tal entendimento, exporei aqui a verdade sobre a Transição do Dia para a Noite.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Não é algo verdadeiramente aterrador? Pode-se prever que, em consequência dessa grande purificação que assolará a humanidade, surgirá uma era de imenso pavor, na qual um número incalculável de pessoas perecerá. A esse respeito, Cristo também proferiu uma grandiosa advertência com as palavras sobre o Juízo Final. Contudo, como a verdadeira natureza e o momento desse julgamento permaneceram obscuros até agora, a humanidade não pôde adquirir uma consciência real do que estava por vir. Agora, porém, com a iminência dos tempos, Deus me incumbiu de transmitir esta magna advertência, fazendo-me registrá-la de forma concreta.</p>
 <p>Diante de tudo o que foi exposto, neste momento em que o Grande Juízo está prestes a se abater sobre toda a humanidade, o desejo de salvar o maior número possível de pessoas constitui o Grande Amor de Deus. Sendo Ele o executor do Juízo e Aquele que detém em Suas mãos a vida humana, não existe absolutamente nenhum outro meio de superar esta provação senão apegar-se às mãos de Deus e rogar pelo perdão dos pecados. Em outras palavras, não há caminho para a salvação a não ser ter o pesado fardo dos pecados que a humanidade carrega removido e ser purificado pelas mãos divinas.</p>
 <p>Na qualidade de executor desta salvação final, e por delegação divina, cumpro a minha responsabilidade ao soar aqui este grande alarme. Aqueles que tapam os ouvidos e se recusam a escutar não podem ser descritos de outra forma senão como pessoas que escolhem para si o destino da própria perdição. Finalizo este escrito com a advertência de que, quando o momento decisivo chegar, de nada adiantará arrepender-se, pois já será tarde demais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夜の終り近づけり汝等悔改めよ 『光』42号、昭和24(1949)年12月31日発行 大聖キリストのいった「世の終り近づけり汝ら悔改めよ」と、また一面「天国は近づけり汝ら悔改めよ」とのこの二つの警告はこの意味を本当に説いたものはいまだかつてなかったようである、もちろん時期到らなかったためでもあるが、私が常に言うところの今日までは夜の世界であったからで、それが時期いよいよ来たって夜の世界はここに終焉（しゅうえん）を告げ昼の世界に転換する事となったという意味とよく合致している事である、すなわち世の終りとは夜の終りであり、天国とは昼の世界を言うのである、すなわち今日までの苦悩に満ちた暗黒世界は夜の表徴（ひょうちょう）であり、昼の世界とは光明遍（あまね）く罪悪も苦悩も打断れた歓喜の世界である、この説明を聞いて納得のゆくものはもちろん信仰心を有する人であり信仰心の全然ない唯物主義者はこれだけでは判り得ないであろうから彼らをも判らせるべくこの夜昼転換の真相をここにかくのである。<br/><br/> そもそも夜昼転換の順序であるが、これは私の常にいうごとく眼に見えぬ幽幻界から始まってそれが霊界に移写し、それがまた現界に移写するのである、ここで最初の転換である幽幻界とは三次元の世界でこの時が西暦一八八一〔一八八二〕年で次の霊界すなわち二次元の転換が一九三〇〔一九三一〕年であり次の現界の転換こそ今や目捷〔睫〕（もくしょう）に迫りつつある一大危機の開始である、一言にして言えば、世界は今や黎明の寸前にあり正に東天に太陽が上らんとしている時である、とすれば現在の霊界は科学的にみていかなる状態にあるかを説明してみよう。<br/><br/> いうまでもなく霊界においては夜の期間中は水素が主で火素が従であったものが昼の世界に入るやその反対に火素が主で水素が従となるのである、すなわち暗が明に変わるのである、それだけなら別段心配する事はないが、実はこれによって空前の大変化が起るのである、というのはいまだかつて経験にない程の破壊と創造が行われる、すなわち霊界においては濁が清となり、そのまま現界に移写されるから現界はいかに大いなる変異を起すか想像にあまりある、もちろん霊界に火素が殖える結果として浄化力発生と共に時の経過に正比例して漸次強化されるのである、その表われとして善悪正邪は明らかとなり全人類に浄化が行われる、元々人間の病気とは火素による浄化作用であるから体内に汚濁を多量に保有している者ほど強烈なる浄化が行われるのは当然である、しかし今日までの病気なるものは浄化が至極緩慢に来たので生命の危険にまでは及ぼさなかったが、最後の世の病気はすこぶる急激なる大浄化であるから極めて迅速な経過をとる、例えば頭痛、咳嗽、下痢等二つか三つくらいの症状なれば生命が脅かされるまでには至らないが、これが七つも八つも一度に発生するとすれば到底たえられるものではない、この場合医師に診せるも全然病原が分らないから急速の死は免れないのである。<br/><br/> 何と恐るべきではないか、かような大浄化が人類を襲う結果一大恐怖時代が出現し滅ぶ者数知れずという事も想像され得るのである、この事に対してもキリストは最後の審判の言葉をもって一大警告を発せられている、ただ今日までこの審判の真相と時期が判然と分らなかったので人類は真の自覚を得られなかったのである、しかるにいよいよ時の迫った今、神は私をしてここに一大警告を与えるべく、具体的に書かしめ給うたのである。<br/><br/> 以上の意味において、大審判が今や全人類の頭上に蔽い被らんとするこの秋（とき）一人でも多くの人間を救い給うのが神の大愛である以上大審判の執行者であり人間の生命を握られ給うのであるから神の御手に縋って罪を許されるより外にこの難関を切り抜ける方法は絶対ないのである、すなわち人類が負える罪の重荷を神の御手によって取除かれ清められる以外救われる道はないからである。<br/><br/> 私はこの最後の救いの執行者として、神の委任のままに責任を遂行すべくここに一大警鐘を鳴らすのである以上、耳を塞ぎ聞くを欲せざる人は自ら滅びの運命を選ぶ人と言うより外に言葉はない、いよいよの時になって悔改むるも最早取返しのつかない事を警告して筆をおくのである。<br/><br/> (注) 目睫（もくしょう）、目とまつげ。<br/><br/>転じて、とても近いところ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami20</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神を見せる宗教 『栄光』138号、昭和27(1952)年1月9日発行 よく世間信仰のない人に信仰を勧める場合彼らはこの世の中に神仏等あって堪るもんか、もしあるんなら、是非見せて貰いたいといって、サモサモ自分は文化的人間のように思って迷信は真ッ平御免だとテンデ相手にならないのが、一般人の態度であろう。<br><br>それが最もはなはだしいのが、いわゆるインテリ階級の人達である。<br><br>といっても、これらの人を決して非難する事は出来ない。<br><br>全くそれに違いないからである。<br><br>というのは世間多くの信仰を見ると余りにも非科学的で、迷信臭くない信仰は、まことに寥々（りょうりょう）たる有様であるからである。<br><br>従って多くの信仰は、神仏の実在をハッキリ見せる事が出来ず、あるような無いような、はなはだ頼りないのである。<br><br>としたら信仰に無関心な人の多いのも無理からぬ事と思うのである。<br><br> ところが我救世教に至っては、神の実在をハッキリ誰の眼にも見せている。<br><br>一度本教へ接するや必ず神の実在を知って吃驚するのである。<br><br>その何よりの証拠は、本教の無数に上る御蔭話である。<br><br>ところが遺憾な事には、これを読んでも信者から聞いても、そのまま呑込める人はまことに少ないのが実状である。<br><br>というのも全く前述のごとき、レベルの低い信仰によって出来上った色眼鏡を透して見るからで、これも一面無理はないが、本教などにとっては残念至極である。<br><br>それについて私がいつも言うごとく、本教は宗教ではない、超宗教であり、大いなる救いの業である。<br><br> そうして入信者がよく言われる事は、最初本教の刊行物などを見た場合余りに今までの宗教の教えや、科学の理論とは懸け離れているので、ただ不思議と思うばかりで、到底信ずる気にはなれないがしかし物は試しと疑い疑い浄霊を受けるが、ただ手を翳すだけなので唖然としてしまい、これ程進んだ現代医学で治らないものが、こんな他愛ないやり方で治る訳はないと思い、止めてしまおうかと決心していると、翌日になるや何だか気持がよく、軽くなったような気がするので不思議で堪らないが、マア、瞞されたと思って、今少し辛抱してみようと委（まか）していると、メキメキ快くなってしまうので、喜ぶよりかいよいよ分らなくなってしまう。<br><br>というのが体験者の口を揃えて言うところである。<br><br> 以上のように本教は、余りに類例のない現当利益が顕著なので、それらの話を聞く智性人などはそれだから迷信だなどと飛んでもない逆な事を言うのである。<br><br>これも大いに邪魔になるのであるが、中には頭の確かな人もあって事実は飽くまで事実だからと素直に入信し、幸福者となる人もすくなくないのである。<br><br>そんな訳で本教が何物にも追随を許さない奇蹟を現わし、手に取るように神の実在をも見せる以上、いかに頑迷な人でも、科学文化に心酔している人でも、結局兜を脱ぐのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião que Manifesta Deus</h2>
 <p>Com frequência, ao se tentar apresentar a fé a pessoas que não a possuem, a reação comum é de ceticismo. Elas costumam dizer: “Como pode haver deuses ou budas neste mundo? Se de fato existem, exijo que me mostrem!”. Com a pretensão de serem indivíduos cultos e avessos à superstição, recusam-se veementemente a dar ouvidos. Essa atitude é ainda mais acentuada naqueles que pertencem à chamada classe intelectual.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Quando já estão decididos a desistir, no dia seguinte, sentem um bem-estar inexplicável, uma leveza no corpo. A sensação é tão intrigante que, pensando “Mesmo que seja um engano, vou persistir mais um pouco”, continuam a receber Johrei. Para sua surpresa, a melhora se torna vertiginosa, e a alegria da cura é superada por uma crescente perplexidade. Essa é a narrativa unânime dos que vivenciam essa experiência.</p>
 <p>Como se vê, nossa Igreja manifesta graças e benefícios concretos de uma maneira tão extraordinária e sem precedentes que, paradoxalmente, os intelectuais usam esse mesmo fato para taxá-la de superstição, o que representa um grande obstáculo. Há, no entanto, pessoas de mente lúcida que, por reconhecerem que um fato é sempre um fato, ingressam com sinceridade em nossa fé e se tornam felizes.</p>
 <p>Dessa forma, como a Sekai Kyusei Kyo realiza milagres incomparáveis e demonstra a existência de Deus de modo tão palpável, até mesmo os indivíduos mais obstinados e os mais devotos da cultura científica acabam, por fim, se rendendo à verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神を見せる宗教 『栄光』138号、昭和27(1952)年1月9日発行 よく世間信仰のない人に信仰を勧める場合彼らはこの世の中に神仏等あって堪るもんか、もしあるんなら、是非見せて貰いたいといって、サモサモ自分は文化的人間のように思って迷信は真ッ平御免だとテンデ相手にならないのが、一般人の態度であろう。<br/><br/>それが最もはなはだしいのが、いわゆるインテリ階級の人達である。<br/><br/>といっても、これらの人を決して非難する事は出来ない。<br/><br/>全くそれに違いないからである。<br/><br/>というのは世間多くの信仰を見ると余りにも非科学的で、迷信臭くない信仰は、まことに寥々（りょうりょう）たる有様であるからである。<br/><br/>従って多くの信仰は、神仏の実在をハッキリ見せる事が出来ず、あるような無いような、はなはだ頼りないのである。<br/><br/>としたら信仰に無関心な人の多いのも無理からぬ事と思うのである。<br/><br/> ところが我救世教に至っては、神の実在をハッキリ誰の眼にも見せている。<br/><br/>一度本教へ接するや必ず神の実在を知って吃驚するのである。<br/><br/>その何よりの証拠は、本教の無数に上る御蔭話である。<br/><br/>ところが遺憾な事には、これを読んでも信者から聞いても、そのまま呑込める人はまことに少ないのが実状である。<br/><br/>というのも全く前述のごとき、レベルの低い信仰によって出来上った色眼鏡を透して見るからで、これも一面無理はないが、本教などにとっては残念至極である。<br/><br/>それについて私がいつも言うごとく、本教は宗教ではない、超宗教であり、大いなる救いの業である。<br/><br/> そうして入信者がよく言われる事は、最初本教の刊行物などを見た場合余りに今までの宗教の教えや、科学の理論とは懸け離れているので、ただ不思議と思うばかりで、到底信ずる気にはなれないがしかし物は試しと疑い疑い浄霊を受けるが、ただ手を翳すだけなので唖然としてしまい、これ程進んだ現代医学で治らないものが、こんな他愛ないやり方で治る訳はないと思い、止めてしまおうかと決心していると、翌日になるや何だか気持がよく、軽くなったような気がするので不思議で堪らないが、マア、瞞されたと思って、今少し辛抱してみようと委（まか）していると、メキメキ快くなってしまうので、喜ぶよりかいよいよ分らなくなってしまう。<br/><br/>というのが体験者の口を揃えて言うところである。<br/><br/> 以上のように本教は、余りに類例のない現当利益が顕著なので、それらの話を聞く智性人などはそれだから迷信だなどと飛んでもない逆な事を言うのである。<br/><br/>これも大いに邪魔になるのであるが、中には頭の確かな人もあって事実は飽くまで事実だからと素直に入信し、幸福者となる人もすくなくないのである。<br/><br/>そんな訳で本教が何物にも追随を許さない奇蹟を現わし、手に取るように神の実在をも見せる以上、いかに頑迷な人でも、科学文化に心酔している人でも、結局兜を脱ぐのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

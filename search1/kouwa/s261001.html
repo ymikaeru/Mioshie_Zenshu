@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月1日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月一日 （御論文「 弥勒三会 」のあとの御教） ここにはわざと書かなかったが、弥勒三会（みろくさんえ）と言うのは、弥勒が三人で会うと言う事で、弥勒と言うのは、釈迦、阿弥陀、観音ですからね。<br><br>それで、大本教の教祖の出口直と言う方は釈迦になる。<br><br>つまり稚姫君（わかひめぎみ）尊と言う神様ですね。<br><br>阿弥陀は法身の弥勒で、出口王仁三郎先生ですね。<br><br>聖師様ですね。<br><br>それで、私が応身の弥勒で、ちょうど三人が会ったわけですね。<br><br>二十世紀の今日にですね。<br><br>これが弥勒三会ですね。<br><br>弥勒三会が済むと、いよいよ五六七の世が始まる事になる。<br><br>これは、大本教でも――誰も知らない。<br><br>教祖様も聖師様も知らなかったかもしれないですね。<br><br> それについて――こう言う訳なんです。<br><br>全て、神様は型でやるからして、色々な型がある。<br><br>ちょうど鋳物を鋳る見たいです。<br><br>世界の型をやる事は、最初は真中ですから、真中にちょっと神様がやられる。<br><br>今のソ連とアメリカですね。<br><br>世界の二大勢力が、今のところ冷たい戦争をしている――ちょっと暖かいのは朝鮮だけですがね。<br><br>そうすると、二大勢力は、最初小さい型があり、それが変化すると、世界的になる。<br><br>その型を私は神様から見せてもらうばかりでなく、色んな事をやるんです。<br><br>ですから、小さい事が非常に大きい事になっていくんです。<br><br>信者さんが、一人一人いますが、この中で、一人で何百万、何千万の型をやっている人がいる。<br><br>私が最初始めた時、数人の型が集まって、その人達がある民族を代表し、一国を代表し、地方を代表する――何億、何千万の代表をしている。<br><br>だから、以前に私は、イギリスの型、インドの型と良く言ったものです。<br><br>その人を救うと、その系統の人の数が、ずっと多くなって救われる。<br><br>その次に、その又一人一人が救われる。<br><br>そう言う風に世界は出来ている。<br><br>神様の経綸と言うものは、そう言う風にやっていくものです。<br><br>だから、非常に神秘で面白いものですね。<br><br>東京で最初にやり始める時分には丸の内ですね。<br><br>丸の内の中央亭と言う西洋料理屋があるが、私があそこで始終やっていた。<br><br>あれが、霊界で言うと中心になるんです。<br><br>だから、名前で言っても「マル」の「ウチ」の中央亭でしょう。<br><br>ですから、ここで喋った事は――言霊で、言霊界に一つの波紋を起こすんです。<br><br>言霊が世界に広がって、それが具体化してくる。<br><br>だから、その時に話した通りに実現しつつあるんです。<br><br>ですから、今私がやっている事も、もっと段々広がっていって、結局世界的に広がる。<br><br>そうして、それが具体化してくる。<br><br>丸の内でやる前にも、小さくそういう事をやっている。<br><br>そう言う事は非常に神秘なんです。<br><br> で、今言う弥勒三会と言う事も、大本教と言うのは、その型をやっているんです。<br><br>お筆先に「大本教とは世界の型であるから、この中を見ていれば世界はどうなるかと言う事は、見当がつくぞよ」と言うのがある。<br><br>教祖と言うのは厳格な――経（たて）なんです。<br><br>東洋は精神文明なんです。<br><br>ですから、始終ちゃんと座っておられて実に厳格そのものなんですね。<br><br>だから、皆んなその行いには感心するんです。<br><br>お筆先に「直は経であるから真直ぐであるぞよ」とある。<br><br>それに引替え、聖師様は緯（よこ）ですから、年中寝ているんです。<br><br>ですから、大本教では聖師様の部屋は年中布団敷いて、枕をしている。<br><br>で、そこに入るとすぐに寝てしまう。<br><br>どこの部屋にも布団敷いているんです。<br><br>それで、警察が来た時、出口と言うのは、変な――信者の女をそこに寝かせてけしからん。<br><br>と、変に取られたんですね。<br><br>「霊界物語」と言う、長い著述をしたが、寝ながらしたんです。<br><br>教祖様は経、聖師様は緯なんですからね。<br><br>東洋は経、西洋は緯です。<br><br>ところが、教祖様はそう言った厳格なためにうまくいかない点が色々あった。<br><br>それで、聖師様が出ると、緯ですから、非常に発展したが、そのために非常に失敗した。<br><br>そう言う訳で、経でいけない、緯でいけない。<br><br>経にあらず、緯にあらず。<br><br>経緯結んだ真中ですね。<br><br>これが伊都能売（いづのめ）になる。<br><br>五は経で、三は緯ですからね。<br><br>そこで、教祖さんは経でいけなかったし、聖師さんは緯でいけなかった。<br><br>その中間ですね。<br><br>経であり、緯であり、経にあらず緯にあらず私が伊都能売で、伊都能売が応身弥勒です。<br><br>応身弥勒が観音様です。<br><br>そこで観音さんと言うのは男であり、女であり。<br><br>男にあらず、女にあらずと言うんです。<br><br>応身の弥勒と言うのは、いかなる事でも自由自在――千変万化ですね。<br><br> それが分かると、実に良くわかる。<br><br>先方が堅苦しかったら、堅く。<br><br>女なら柔らかく。<br><br>頑固なら頑固に――私はそういうように性格に変化があるので、変だなと思っていたが、応身の弥勒の働きが判ると、良く分かります。<br><br>ですからメシヤ教のあらゆる事が――決して何にでもとらわれない。<br><br>宗教のようなところもあるし、それから今私は鉱山をやっているが、金儲けもあるし、芸術もあるし、何でもあるんですね。<br><br>今までは、宗教といえば馬鹿に堅苦しくなっていた。<br><br>これも伊都能売式なんです。<br><br>あらゆる色んな様相を備えているんですね。<br><br>これによって始めて、一般人類が救われる。<br><br>民族にも色々ありますからね。<br><br>ですから、あらゆる病気――肉体の病気も精神の病気も――それから貧乏、経済に関係しますが、経済も政治もあります。<br><br>政治の事は触れてはいけないと、法務庁から言って来ているので言わないが、本当は言いたい説もあります。<br><br>無論、論文なんかも私は始終書いている。<br><br>今は伊都能売の働きなんです。<br><br>これが本当のものです。<br><br>真理ですね。<br><br>ですから常識を尊ぶ。<br><br>常識と言うのは、偏らない考え方ですからね。<br><br>ですから、宗教的に非常に厳格な処もあるし、また非常にくだけた点もある。<br><br>と言う事も、そう言う事なんです。<br><br>弥勒三会と言うのは、つまりそう言う事なんで、つまり経で失敗し、緯で失敗し。<br><br>そうして経にあらず緯にあらずと言う――一つの思想ですね。<br><br>それが出て始めて人類は本当の事を知るんですね。<br><br>ですから、どうしてもこの考え方――やり方によって本当の世界が生まれると言う訳です。<br><br>それで、本当の世界と言うのは、どういうものかと言うと、こう言うものだ。<br><br>と言うのが今書いてある「文明の創造」なんです。<br><br>だから、今言った事が本当ですからね。<br><br>それが、本当に腹の底に分かれば、色んな事に対する考え方と言うものが、まず正しく、間違いなくいく訳です。<br><br> （御論文「 邪神というもの 」のあとの御教） 今も読んだ通り――邪神ですね。<br><br>邪神も昔は、戦争だとか――殺伐な事をやらせたが、今は邪神も頭脳的になって――これをすれば社会人類のためだ。<br><br>と言うように、巧妙な理屈をつける。<br><br>ですから、巧妙な言い方だと思って――一生懸命やるんですが、こういう事が良いことと思うから根強い――非常に力があるんですね。<br><br>だから、その害毒は非常に大きくなる。<br><br>これが最も怖い。<br><br>医学ですね。<br><br>医学もそれなんです。<br><br>医学と言うものは、邪神がつくったものです。<br><br>そうして、邪神と言うものは、根本は、世の中を自分のものにしようと言う深い計画なんです。<br><br>そして、一番厄介なのは、本当の――正しい神様を無視するように思わせる。<br><br>これが一番、邪神の狙い所です。<br><br>それですから、病気にかかるや、神様にお願いしたり、祈ったりすると言う事がない。<br><br>一番怖いんですから、これを無くしなければならない。<br><br>医学と言うものをつくったのは、つまり神様なんか拝まなくても、薬とか機械で病気は治ると言う事を思い込ませようとして、今まで色々な方法を行った。<br><br>それにすっかりだまされた。<br><br>段々それにだまされ切ってしまって――偉い人達の心の底まで浸透してしまった。<br><br>それで、色々――唯物的方法で病気が治るように見せかけるんです。<br><br>注射したり、色んな事をすると、ちょっとは良いですからね。<br><br>これを良いと思わせて――信用させていく。<br><br>そうして、変な事があると新聞にデカデカと書き、やれ死人の目を取って、やると失明が治るとか、この薬でこの病気が解決する。<br><br>と、書くがこのだまし方と言うのは、実にうまいものです。<br><br>私は邪神の方のだまし方を、始終興味を持ってみてますが、ところが一般人はそれを知らないから有難がっているんですね。<br><br>よく新聞なんかに、新しい薬が出ると、これで結核は解決すると書いてあるが、じゃーそんな事を言っても、結核は増えるばかりで、かえって症状が悪い。<br><br>そうして、結核は早期診断が一番良い――早期診断に限ると言うので、健康診断をして、ちょっと胸にレントゲンをやり、写真に曇りでも写ると、いよいよ結核の症状だと言って、段々本物に仕立てる。<br><br>こう言うものはよく考えてやっている。<br><br>それを、私が打ち破るんです。<br><br>それをやっている。<br><br>ですから、神様と悪魔の戦いなんです。<br><br>ここにある曇りと言うのは、痰が一時的に停滞したんです。<br><br>それが曇りになる。<br><br>それを出さないようにする。<br><br>浄化停止ですね。<br><br>停滞すると、そこに固まりが出来て、ちょうど結核と思われるに都合の良いように拵えて、安静とかが良いとしてやって、段々人間を弱らせていく。<br><br>それに引っかかっているのが沢山あります。<br><br>近代のイギリス人やフランス人がそうです。<br><br>高度の文明国と言うが、今日をただ安易にしているだけで、戦争なんか、非常に恐れている。<br><br>それだけの気力が無くなっているんですね。<br><br>ですから、近代のイギリス等は正邪の観念はあるけれども、それを現わす事は出来ない。<br><br>大体、中共政府に対して、イギリスは承認しようとしたが、私はあきれてしまった。<br><br>そこにいくと、さすがに米国は力が残っている。<br><br>人の国を侵略して、一年か二年経っていないうちに承認するなんて、つまり泥棒を国会議員に推薦するようなものです。<br><br>そんな事をすると、世界と言うのは、強い者勝ちになる。<br><br>力のある者が侵略すると言う事になりますからね。<br><br>神様が米国をそんな風にしているんですが、それだけの威力があると言う事は結構です。<br><br>イギリス、フランスは魂の抜けた人間みたいです。<br><br>というのは、医学によって段々人間を弱らせたんです。<br><br>そうして文明国の人間が弱ったところをソ連がやっつけちゃうと言う――そういう計画ですからね。<br><br>そこで、米国もイギリスみたいに魂が抜けたようになると、もうソ連の思う通りです。<br><br>世界は、要するに共産化してしまう事になるんですから、実に困る。<br><br>その一歩手前に来ているんです。<br><br> そうして、一番根本は種痘です。<br><br>一番――世界的に種痘が後れたのはソ連ですからね。<br><br>近年やっと種痘を始めたようですが、それも、どの程度か分からない。<br><br>種痘をしていない国ほど強いですからね。<br><br>毒の排除を止めて――結核なんかもそうです。<br><br>そう言うような具合にして、邪神は非常に巧妙な手段を持ってやっているんです。<br><br>近代医学は邪神がつくって、邪神が経営していると思っていれば間違いない。<br><br>そこで、それを目覚めさせるべく神様が私を使ってやっているんです。<br><br>その意味によって今「文明の創造」を書いているんです。<br><br>これは来年あたり出来るつもりですが、そうしたら、英文に訳して世界に頒布する。<br><br>まず、世界の識者の目を醒ます。<br><br>そうして段々浄霊なんかも世界中の人間がやるようになります。<br><br>それではじめて人類は根本的に救われる訳です。<br><br> しかし、そうは言うものの、邪神が全然悪いものではない。<br><br>やっぱり、今までは必要だった。<br><br>と言うのは邪神がそういう具合にしないと、物質文化はこういう風には発達しなかった。<br><br>発達させるには邪神がそうしなければならない。<br><br>話が長くなるから、このくらいにして――これは今に段々書きますが、そんなような具合で――結局世界を支配している主の神様が、悪をつくり、邪神をつくり、善をつくり、正神にそれを食い止めさせたりして、段々理想世界の下拵えが出来たんですね。<br><br>大体、下拵えは出来たんです。<br><br>今度は、邪神が本当に改心して良くなれば、世界中が五六七の世になるんですからね。<br><br>今、その目前に来ている。<br><br>そうでしょう――二大勢力が戦争すれば、どっちかが勝つから、もう戦争を起こす種が見えなくなりますね。<br><br>ですから、今は世界の転換期であって、その転換期にメシヤ教が出て大きな審判と、審判後の出発ですね――建替え、建直し――破壊と創造ですね。<br><br>「文明の創造」というのは、破壊後の建設のプログラムなんです。<br><br>建設の日の設計書なんですから、どうしても必要なんです。<br><br>ですから、既成宗教のように、ただ御利益や――そう言うもので、個人個人を救うと言う事も結構ですが、それ以外に、そう言う大きな経綸もある。<br><br>それを知らなければいけない。<br><br> お祭りや引越しのためにあんまり書く事が出来なかったので、今日は話の方が多い位になりましたが――昨日熱海の地上天国に行って見たんですが、道路が大分出来て、実に規模が大きくなったんですね。<br><br>私が熱海に来るまでに仕上げようと言うので、道路は馬力をかけてやったようで、非常にはかどって、展望台を取り巻く道路がすっかり出来あがっているので、驚いている。<br><br>以前も随分大きな規模に見えましたが、こんど出来た道路によって、規模が雄大に見えてきた。<br><br>益々世界的になってきたと言っても良いくらいになってきた。<br><br>真中の山ですが、もう一息で出来るはずです。<br><br>「つつじ」を植えるには、下の土が良くないと根の張りが悪いんです。<br><br>美術館の所に植えたが、勢いがない。<br><br>どうしてかと言うと、土の下に石があるからです。<br><br>今度は良い土にしようと思う。<br><br>展望台の後がやりかけになっているので、それをもう少し彎曲させると土が出るので、それを上っ側にやれば良い。<br><br>その方針でやりつつありますが、土が要る時は、余分な土が出るように前から準備してあるようになっている。<br><br>それから「つつじ」の二千本を箱根の岩崎から買ったが、あれを植えるつもりであったが、考えてみると、箱根の方も今に大きな殿堂を造る予定ですから、箱根の「つつじ」も惜しい気がするんです。<br><br>神様が何とかうまくしてくれると良いなと思っていたら、昨日植木屋が来て、伊東のちょっと行った所に、二十種類くらいの「つつじ」が何千本もあって、非常に安いんです。<br><br>相当大きな「つつじ」が一本百九十円と言うんです。<br><br>これはいかがですと言うんです。<br><br>それは良い。<br><br>箱根のはちょっと惜しかったからね。<br><br>箱根から運ぶより、伊東の方がかえって便利ですから、早速買えと言っておきましたが、それを植えるつもりです。<br><br>あそこの山の形が出来ましたら、随分雄大なものです。<br><br>そうして道もほとんど勾配もなく、平のままで山の上に行っている。<br><br>土地の無駄がなく、段々出来ていくんですが、よほど前から神様が準備している事が良く分かる。<br><br>美術館の方も、あそこは大体、秋のような風景にしようと思う。<br><br>最初の入り口は大体春ですね。<br><br>地形の南――南西の方になる。<br><br>ですから梅を植え、桃を植え、桜を植える。<br><br>少し奥に行って「つつじ」を植える。<br><br>と言うように、春にする。<br><br>美術館の方は、出来るだけ「もみじ」を植える。<br><br>それから、箱根のように萩の道をつける。<br><br>そういうように秋の風景にするつもりです。<br><br>箱根の方も春秋にして、裏山の方に一面に「もみじ」を植えるつもりです。<br><br>今度熱海の方も春、秋と言う事になるんです。<br><br>去年小田原の閑院宮さんの別荘に行った時、東屋を見たがすばらしい東屋で、雄大なものです。<br><br>それが非常に気に入ったので譲り受けようと思っている。<br><br>もし譲らなければ、その通りのものを造ろうと思っている。<br><br>それを美術館から上に上がるところにちょうど良いんです。<br><br>それで一段落ですね。<br><br>そうして、晴々台の横の方を、この間も話した通り桜の園にして――あの辺に大きな池を造るつもりです。<br><br>庭と言うのは、池がなくてはいけない。<br><br>山水と言って、山があれば水がなくてはいけない。<br><br> ずっと上の方に水道の水源地みたいなものが出来ていて、水量は随分ある。<br><br>それを入れて池にする。<br><br>神様がちゃんと準備しているんです。<br><br>池も支那風の池を作ろうと思う。<br><br>これはいずれ、もう少し進んでから話もしますが、梅もちょうど良いのがあった。<br><br>それを六十本ばかり買う事にした。<br><br>これは木の太いものです。<br><br>今梅を植えかけて、空いている所に植えるつもりですが、大抵それで一杯になるだろうと言ってました。<br><br>一万本以上あるらしいのですが、これは梅の実を採集するために――ですから、梅の実が目的ですからね。<br><br>梅は太くなると余り実が生らないので、そこで古い――実が生らないのは売りたがっている。<br><br>こっちは古いのが良いんですからね。<br><br>割合安く買いました。<br><br>梅と「つつじ」は植えてもすぐ咲くそうですから、来年は咲くでしょう。<br><br>今度出来た道の所に寒桜を植えようと思う。<br><br>あれは赤い方が良い。<br><br>そこに、十数本植えるだけの土地がある。<br><br>それで、十数本売ると言う話がある。<br><br>寒桜は熱海にも一本しかない。<br><br>それが十数本ある。<br><br>これも神秘なものですね。<br><br>中々見事なものです。<br><br>一月から二月にかけて咲くんですが、中々珍しい。<br><br>神様は実に行き届いたもので、何から何まで用意してある。<br><br>何か必要があって見つけると、おあつらえのものがある。<br><br>値段も安くてね。<br><br>今言う、「つつじ」の二千本も、梅の古木も寒桜も、ちゃんと近所で用意してある。<br><br>面白いですね。<br><br>これからも地上天国の色々な点に、神様は用意してあるんです。<br><br>ですから、あらゆる事が、実に神秘ずくめ――奇跡ずくめですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Encontro dos Três Miroku (弥勒三会)</h2>
 <p>Embora eu não o tenha escrito deliberadamente no ensaio anterior, o termo Miroku Sangai (弥勒三会) significa o encontro de três Miroku. Esses três são Shaka, Amida e Kannon (観音). Nesse sentido, a fundadora da Oomoto-kyo, Nao Deguchi, corresponde a Shaka, a divindade conhecida como Wakahi-megimi no Mikoto (稚姫君尊). Amida, por sua vez, é o Miroku do Corpo da Lei, representado pelo mestre Onisaburo Deguchi. Por fim, eu sou o Miroku do Corpo de Manifestação, e assim, nós três nos encontramos precisamente agora, no século XX. Este é o significado de Miroku Sangai. Uma vez consumado esse encontro, terá início o Mundo de Miroku, o mundo da plena felicidade. Trata-se de uma verdade que, mesmo na Oomoto-kyo, ninguém conhece; é provável que nem a fundadora nem o mestre a conhecessem.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Bem no alto do terreno, há uma espécie de reservatório de água, com um volume considerável. Usaremos essa água para encher o lago. Deus preparou tudo perfeitamente. Pretendo construir um lago em estilo chinês, mas falarei mais sobre isso quando o projeto avançar. Também encontramos as umezeiras ideais e decidimos comprar cerca de sessenta delas, todas de tronco grosso. Havia um pomar com mais de dez mil árvores, cultivadas para a produção de frutos. Como as árvores mais velhas produzem menos, o proprietário queria vendê-las. Para nós, as árvores antigas são as mais valiosas, e conseguimos comprá-las por um preço razoável. Elas já estão sendo plantadas nos espaços disponíveis e devem preencher toda a área. Tanto as umezeiras quanto as azaleias florescem logo após o plantio, então provavelmente teremos flores no próximo ano.</p>
 <p>Na estrada recém-construída, pretendo plantar cerejeiras de inverno, de preferência as de flores vermelhas. Há espaço para pouco mais de dez árvores, e surgiu uma oferta justamente dessa quantidade. A cerejeira de inverno é rara, havendo apenas um exemplar em toda Atami. Encontrar mais de dez disponíveis é algo misterioso e maravilhoso. Elas florescem de janeiro a fevereiro e são uma visão esplêndida e incomum.</p>
 <p>Deus é verdadeiramente meticuloso e providencia tudo, do princípio ao fim. Sempre que necessito de algo, aparece exatamente o que eu preciso, e a um preço acessível. As duas mil azaleias, as umezeiras antigas, as cerejeiras de inverno — tudo foi preparado nas proximidades. É fascinante. Deus continuará a preparar todos os detalhes para o Paraíso Terrestre. Portanto, todos os acontecimentos são, em essência, um contínuo de mistérios e uma sucessão de milagres.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月1日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月一日 （御論文「 弥勒三会 」のあとの御教） ここにはわざと書かなかったが、弥勒三会（みろくさんえ）と言うのは、弥勒が三人で会うと言う事で、弥勒と言うのは、釈迦、阿弥陀、観音ですからね。<br/><br/>それで、大本教の教祖の出口直と言う方は釈迦になる。<br/><br/>つまり稚姫君（わかひめぎみ）尊と言う神様ですね。<br/><br/>阿弥陀は法身の弥勒で、出口王仁三郎先生ですね。<br/><br/>聖師様ですね。<br/><br/>それで、私が応身の弥勒で、ちょうど三人が会ったわけですね。<br/><br/>二十世紀の今日にですね。<br/><br/>これが弥勒三会ですね。<br/><br/>弥勒三会が済むと、いよいよ五六七の世が始まる事になる。<br/><br/>これは、大本教でも――誰も知らない。<br/><br/>教祖様も聖師様も知らなかったかもしれないですね。<br/><br/> それについて――こう言う訳なんです。<br/><br/>全て、神様は型でやるからして、色々な型がある。<br/><br/>ちょうど鋳物を鋳る見たいです。<br/><br/>世界の型をやる事は、最初は真中ですから、真中にちょっと神様がやられる。<br/><br/>今のソ連とアメリカですね。<br/><br/>世界の二大勢力が、今のところ冷たい戦争をしている――ちょっと暖かいのは朝鮮だけですがね。<br/><br/>そうすると、二大勢力は、最初小さい型があり、それが変化すると、世界的になる。<br/><br/>その型を私は神様から見せてもらうばかりでなく、色んな事をやるんです。<br/><br/>ですから、小さい事が非常に大きい事になっていくんです。<br/><br/>信者さんが、一人一人いますが、この中で、一人で何百万、何千万の型をやっている人がいる。<br/><br/>私が最初始めた時、数人の型が集まって、その人達がある民族を代表し、一国を代表し、地方を代表する――何億、何千万の代表をしている。<br/><br/>だから、以前に私は、イギリスの型、インドの型と良く言ったものです。<br/><br/>その人を救うと、その系統の人の数が、ずっと多くなって救われる。<br/><br/>その次に、その又一人一人が救われる。<br/><br/>そう言う風に世界は出来ている。<br/><br/>神様の経綸と言うものは、そう言う風にやっていくものです。<br/><br/>だから、非常に神秘で面白いものですね。<br/><br/>東京で最初にやり始める時分には丸の内ですね。<br/><br/>丸の内の中央亭と言う西洋料理屋があるが、私があそこで始終やっていた。<br/><br/>あれが、霊界で言うと中心になるんです。<br/><br/>だから、名前で言っても「マル」の「ウチ」の中央亭でしょう。<br/><br/>ですから、ここで喋った事は――言霊で、言霊界に一つの波紋を起こすんです。<br/><br/>言霊が世界に広がって、それが具体化してくる。<br/><br/>だから、その時に話した通りに実現しつつあるんです。<br/><br/>ですから、今私がやっている事も、もっと段々広がっていって、結局世界的に広がる。<br/><br/>そうして、それが具体化してくる。<br/><br/>丸の内でやる前にも、小さくそういう事をやっている。<br/><br/>そう言う事は非常に神秘なんです。<br/><br/> で、今言う弥勒三会と言う事も、大本教と言うのは、その型をやっているんです。<br/><br/>お筆先に「大本教とは世界の型であるから、この中を見ていれば世界はどうなるかと言う事は、見当がつくぞよ」と言うのがある。<br/><br/>教祖と言うのは厳格な――経（たて）なんです。<br/><br/>東洋は精神文明なんです。<br/><br/>ですから、始終ちゃんと座っておられて実に厳格そのものなんですね。<br/><br/>だから、皆んなその行いには感心するんです。<br/><br/>お筆先に「直は経であるから真直ぐであるぞよ」とある。<br/><br/>それに引替え、聖師様は緯（よこ）ですから、年中寝ているんです。<br/><br/>ですから、大本教では聖師様の部屋は年中布団敷いて、枕をしている。<br/><br/>で、そこに入るとすぐに寝てしまう。<br/><br/>どこの部屋にも布団敷いているんです。<br/><br/>それで、警察が来た時、出口と言うのは、変な――信者の女をそこに寝かせてけしからん。<br/><br/>と、変に取られたんですね。<br/><br/>「霊界物語」と言う、長い著述をしたが、寝ながらしたんです。<br/><br/>教祖様は経、聖師様は緯なんですからね。<br/><br/>東洋は経、西洋は緯です。<br/><br/>ところが、教祖様はそう言った厳格なためにうまくいかない点が色々あった。<br/><br/>それで、聖師様が出ると、緯ですから、非常に発展したが、そのために非常に失敗した。<br/><br/>そう言う訳で、経でいけない、緯でいけない。<br/><br/>経にあらず、緯にあらず。<br/><br/>経緯結んだ真中ですね。<br/><br/>これが伊都能売（いづのめ）になる。<br/><br/>五は経で、三は緯ですからね。<br/><br/>そこで、教祖さんは経でいけなかったし、聖師さんは緯でいけなかった。<br/><br/>その中間ですね。<br/><br/>経であり、緯であり、経にあらず緯にあらず私が伊都能売で、伊都能売が応身弥勒です。<br/><br/>応身弥勒が観音様です。<br/><br/>そこで観音さんと言うのは男であり、女であり。<br/><br/>男にあらず、女にあらずと言うんです。<br/><br/>応身の弥勒と言うのは、いかなる事でも自由自在――千変万化ですね。<br/><br/> それが分かると、実に良くわかる。<br/><br/>先方が堅苦しかったら、堅く。<br/><br/>女なら柔らかく。<br/><br/>頑固なら頑固に――私はそういうように性格に変化があるので、変だなと思っていたが、応身の弥勒の働きが判ると、良く分かります。<br/><br/>ですからメシヤ教のあらゆる事が――決して何にでもとらわれない。<br/><br/>宗教のようなところもあるし、それから今私は鉱山をやっているが、金儲けもあるし、芸術もあるし、何でもあるんですね。<br/><br/>今までは、宗教といえば馬鹿に堅苦しくなっていた。<br/><br/>これも伊都能売式なんです。<br/><br/>あらゆる色んな様相を備えているんですね。<br/><br/>これによって始めて、一般人類が救われる。<br/><br/>民族にも色々ありますからね。<br/><br/>ですから、あらゆる病気――肉体の病気も精神の病気も――それから貧乏、経済に関係しますが、経済も政治もあります。<br/><br/>政治の事は触れてはいけないと、法務庁から言って来ているので言わないが、本当は言いたい説もあります。<br/><br/>無論、論文なんかも私は始終書いている。<br/><br/>今は伊都能売の働きなんです。<br/><br/>これが本当のものです。<br/><br/>真理ですね。<br/><br/>ですから常識を尊ぶ。<br/><br/>常識と言うのは、偏らない考え方ですからね。<br/><br/>ですから、宗教的に非常に厳格な処もあるし、また非常にくだけた点もある。<br/><br/>と言う事も、そう言う事なんです。<br/><br/>弥勒三会と言うのは、つまりそう言う事なんで、つまり経で失敗し、緯で失敗し。<br/><br/>そうして経にあらず緯にあらずと言う――一つの思想ですね。<br/><br/>それが出て始めて人類は本当の事を知るんですね。<br/><br/>ですから、どうしてもこの考え方――やり方によって本当の世界が生まれると言う訳です。<br/><br/>それで、本当の世界と言うのは、どういうものかと言うと、こう言うものだ。<br/><br/>と言うのが今書いてある「文明の創造」なんです。<br/><br/>だから、今言った事が本当ですからね。<br/><br/>それが、本当に腹の底に分かれば、色んな事に対する考え方と言うものが、まず正しく、間違いなくいく訳です。<br/><br/> （御論文「 邪神というもの 」のあとの御教） 今も読んだ通り――邪神ですね。<br/><br/>邪神も昔は、戦争だとか――殺伐な事をやらせたが、今は邪神も頭脳的になって――これをすれば社会人類のためだ。<br/><br/>と言うように、巧妙な理屈をつける。<br/><br/>ですから、巧妙な言い方だと思って――一生懸命やるんですが、こういう事が良いことと思うから根強い――非常に力があるんですね。<br/><br/>だから、その害毒は非常に大きくなる。<br/><br/>これが最も怖い。<br/><br/>医学ですね。<br/><br/>医学もそれなんです。<br/><br/>医学と言うものは、邪神がつくったものです。<br/><br/>そうして、邪神と言うものは、根本は、世の中を自分のものにしようと言う深い計画なんです。<br/><br/>そして、一番厄介なのは、本当の――正しい神様を無視するように思わせる。<br/><br/>これが一番、邪神の狙い所です。<br/><br/>それですから、病気にかかるや、神様にお願いしたり、祈ったりすると言う事がない。<br/><br/>一番怖いんですから、これを無くしなければならない。<br/><br/>医学と言うものをつくったのは、つまり神様なんか拝まなくても、薬とか機械で病気は治ると言う事を思い込ませようとして、今まで色々な方法を行った。<br/><br/>それにすっかりだまされた。<br/><br/>段々それにだまされ切ってしまって――偉い人達の心の底まで浸透してしまった。<br/><br/>それで、色々――唯物的方法で病気が治るように見せかけるんです。<br/><br/>注射したり、色んな事をすると、ちょっとは良いですからね。<br/><br/>これを良いと思わせて――信用させていく。<br/><br/>そうして、変な事があると新聞にデカデカと書き、やれ死人の目を取って、やると失明が治るとか、この薬でこの病気が解決する。<br/><br/>と、書くがこのだまし方と言うのは、実にうまいものです。<br/><br/>私は邪神の方のだまし方を、始終興味を持ってみてますが、ところが一般人はそれを知らないから有難がっているんですね。<br/><br/>よく新聞なんかに、新しい薬が出ると、これで結核は解決すると書いてあるが、じゃーそんな事を言っても、結核は増えるばかりで、かえって症状が悪い。<br/><br/>そうして、結核は早期診断が一番良い――早期診断に限ると言うので、健康診断をして、ちょっと胸にレントゲンをやり、写真に曇りでも写ると、いよいよ結核の症状だと言って、段々本物に仕立てる。<br/><br/>こう言うものはよく考えてやっている。<br/><br/>それを、私が打ち破るんです。<br/><br/>それをやっている。<br/><br/>ですから、神様と悪魔の戦いなんです。<br/><br/>ここにある曇りと言うのは、痰が一時的に停滞したんです。<br/><br/>それが曇りになる。<br/><br/>それを出さないようにする。<br/><br/>浄化停止ですね。<br/><br/>停滞すると、そこに固まりが出来て、ちょうど結核と思われるに都合の良いように拵えて、安静とかが良いとしてやって、段々人間を弱らせていく。<br/><br/>それに引っかかっているのが沢山あります。<br/><br/>近代のイギリス人やフランス人がそうです。<br/><br/>高度の文明国と言うが、今日をただ安易にしているだけで、戦争なんか、非常に恐れている。<br/><br/>それだけの気力が無くなっているんですね。<br/><br/>ですから、近代のイギリス等は正邪の観念はあるけれども、それを現わす事は出来ない。<br/><br/>大体、中共政府に対して、イギリスは承認しようとしたが、私はあきれてしまった。<br/><br/>そこにいくと、さすがに米国は力が残っている。<br/><br/>人の国を侵略して、一年か二年経っていないうちに承認するなんて、つまり泥棒を国会議員に推薦するようなものです。<br/><br/>そんな事をすると、世界と言うのは、強い者勝ちになる。<br/><br/>力のある者が侵略すると言う事になりますからね。<br/><br/>神様が米国をそんな風にしているんですが、それだけの威力があると言う事は結構です。<br/><br/>イギリス、フランスは魂の抜けた人間みたいです。<br/><br/>というのは、医学によって段々人間を弱らせたんです。<br/><br/>そうして文明国の人間が弱ったところをソ連がやっつけちゃうと言う――そういう計画ですからね。<br/><br/>そこで、米国もイギリスみたいに魂が抜けたようになると、もうソ連の思う通りです。<br/><br/>世界は、要するに共産化してしまう事になるんですから、実に困る。<br/><br/>その一歩手前に来ているんです。<br/><br/> そうして、一番根本は種痘です。<br/><br/>一番――世界的に種痘が後れたのはソ連ですからね。<br/><br/>近年やっと種痘を始めたようですが、それも、どの程度か分からない。<br/><br/>種痘をしていない国ほど強いですからね。<br/><br/>毒の排除を止めて――結核なんかもそうです。<br/><br/>そう言うような具合にして、邪神は非常に巧妙な手段を持ってやっているんです。<br/><br/>近代医学は邪神がつくって、邪神が経営していると思っていれば間違いない。<br/><br/>そこで、それを目覚めさせるべく神様が私を使ってやっているんです。<br/><br/>その意味によって今「文明の創造」を書いているんです。<br/><br/>これは来年あたり出来るつもりですが、そうしたら、英文に訳して世界に頒布する。<br/><br/>まず、世界の識者の目を醒ます。<br/><br/>そうして段々浄霊なんかも世界中の人間がやるようになります。<br/><br/>それではじめて人類は根本的に救われる訳です。<br/><br/> しかし、そうは言うものの、邪神が全然悪いものではない。<br/><br/>やっぱり、今までは必要だった。<br/><br/>と言うのは邪神がそういう具合にしないと、物質文化はこういう風には発達しなかった。<br/><br/>発達させるには邪神がそうしなければならない。<br/><br/>話が長くなるから、このくらいにして――これは今に段々書きますが、そんなような具合で――結局世界を支配している主の神様が、悪をつくり、邪神をつくり、善をつくり、正神にそれを食い止めさせたりして、段々理想世界の下拵えが出来たんですね。<br/><br/>大体、下拵えは出来たんです。<br/><br/>今度は、邪神が本当に改心して良くなれば、世界中が五六七の世になるんですからね。<br/><br/>今、その目前に来ている。<br/><br/>そうでしょう――二大勢力が戦争すれば、どっちかが勝つから、もう戦争を起こす種が見えなくなりますね。<br/><br/>ですから、今は世界の転換期であって、その転換期にメシヤ教が出て大きな審判と、審判後の出発ですね――建替え、建直し――破壊と創造ですね。<br/><br/>「文明の創造」というのは、破壊後の建設のプログラムなんです。<br/><br/>建設の日の設計書なんですから、どうしても必要なんです。<br/><br/>ですから、既成宗教のように、ただ御利益や――そう言うもので、個人個人を救うと言う事も結構ですが、それ以外に、そう言う大きな経綸もある。<br/><br/>それを知らなければいけない。<br/><br/> お祭りや引越しのためにあんまり書く事が出来なかったので、今日は話の方が多い位になりましたが――昨日熱海の地上天国に行って見たんですが、道路が大分出来て、実に規模が大きくなったんですね。<br/><br/>私が熱海に来るまでに仕上げようと言うので、道路は馬力をかけてやったようで、非常にはかどって、展望台を取り巻く道路がすっかり出来あがっているので、驚いている。<br/><br/>以前も随分大きな規模に見えましたが、こんど出来た道路によって、規模が雄大に見えてきた。<br/><br/>益々世界的になってきたと言っても良いくらいになってきた。<br/><br/>真中の山ですが、もう一息で出来るはずです。<br/><br/>「つつじ」を植えるには、下の土が良くないと根の張りが悪いんです。<br/><br/>美術館の所に植えたが、勢いがない。<br/><br/>どうしてかと言うと、土の下に石があるからです。<br/><br/>今度は良い土にしようと思う。<br/><br/>展望台の後がやりかけになっているので、それをもう少し彎曲させると土が出るので、それを上っ側にやれば良い。<br/><br/>その方針でやりつつありますが、土が要る時は、余分な土が出るように前から準備してあるようになっている。<br/><br/>それから「つつじ」の二千本を箱根の岩崎から買ったが、あれを植えるつもりであったが、考えてみると、箱根の方も今に大きな殿堂を造る予定ですから、箱根の「つつじ」も惜しい気がするんです。<br/><br/>神様が何とかうまくしてくれると良いなと思っていたら、昨日植木屋が来て、伊東のちょっと行った所に、二十種類くらいの「つつじ」が何千本もあって、非常に安いんです。<br/><br/>相当大きな「つつじ」が一本百九十円と言うんです。<br/><br/>これはいかがですと言うんです。<br/><br/>それは良い。<br/><br/>箱根のはちょっと惜しかったからね。<br/><br/>箱根から運ぶより、伊東の方がかえって便利ですから、早速買えと言っておきましたが、それを植えるつもりです。<br/><br/>あそこの山の形が出来ましたら、随分雄大なものです。<br/><br/>そうして道もほとんど勾配もなく、平のままで山の上に行っている。<br/><br/>土地の無駄がなく、段々出来ていくんですが、よほど前から神様が準備している事が良く分かる。<br/><br/>美術館の方も、あそこは大体、秋のような風景にしようと思う。<br/><br/>最初の入り口は大体春ですね。<br/><br/>地形の南――南西の方になる。<br/><br/>ですから梅を植え、桃を植え、桜を植える。<br/><br/>少し奥に行って「つつじ」を植える。<br/><br/>と言うように、春にする。<br/><br/>美術館の方は、出来るだけ「もみじ」を植える。<br/><br/>それから、箱根のように萩の道をつける。<br/><br/>そういうように秋の風景にするつもりです。<br/><br/>箱根の方も春秋にして、裏山の方に一面に「もみじ」を植えるつもりです。<br/><br/>今度熱海の方も春、秋と言う事になるんです。<br/><br/>去年小田原の閑院宮さんの別荘に行った時、東屋を見たがすばらしい東屋で、雄大なものです。<br/><br/>それが非常に気に入ったので譲り受けようと思っている。<br/><br/>もし譲らなければ、その通りのものを造ろうと思っている。<br/><br/>それを美術館から上に上がるところにちょうど良いんです。<br/><br/>それで一段落ですね。<br/><br/>そうして、晴々台の横の方を、この間も話した通り桜の園にして――あの辺に大きな池を造るつもりです。<br/><br/>庭と言うのは、池がなくてはいけない。<br/><br/>山水と言って、山があれば水がなくてはいけない。<br/><br/> ずっと上の方に水道の水源地みたいなものが出来ていて、水量は随分ある。<br/><br/>それを入れて池にする。<br/><br/>神様がちゃんと準備しているんです。<br/><br/>池も支那風の池を作ろうと思う。<br/><br/>これはいずれ、もう少し進んでから話もしますが、梅もちょうど良いのがあった。<br/><br/>それを六十本ばかり買う事にした。<br/><br/>これは木の太いものです。<br/><br/>今梅を植えかけて、空いている所に植えるつもりですが、大抵それで一杯になるだろうと言ってました。<br/><br/>一万本以上あるらしいのですが、これは梅の実を採集するために――ですから、梅の実が目的ですからね。<br/><br/>梅は太くなると余り実が生らないので、そこで古い――実が生らないのは売りたがっている。<br/><br/>こっちは古いのが良いんですからね。<br/><br/>割合安く買いました。<br/><br/>梅と「つつじ」は植えてもすぐ咲くそうですから、来年は咲くでしょう。<br/><br/>今度出来た道の所に寒桜を植えようと思う。<br/><br/>あれは赤い方が良い。<br/><br/>そこに、十数本植えるだけの土地がある。<br/><br/>それで、十数本売ると言う話がある。<br/><br/>寒桜は熱海にも一本しかない。<br/><br/>それが十数本ある。<br/><br/>これも神秘なものですね。<br/><br/>中々見事なものです。<br/><br/>一月から二月にかけて咲くんですが、中々珍しい。<br/><br/>神様は実に行き届いたもので、何から何まで用意してある。<br/><br/>何か必要があって見つけると、おあつらえのものがある。<br/><br/>値段も安くてね。<br/><br/>今言う、「つつじ」の二千本も、梅の古木も寒桜も、ちゃんと近所で用意してある。<br/><br/>面白いですね。<br/><br/>これからも地上天国の色々な点に、神様は用意してあるんです。<br/><br/>ですから、あらゆる事が、実に神秘ずくめ――奇跡ずくめですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

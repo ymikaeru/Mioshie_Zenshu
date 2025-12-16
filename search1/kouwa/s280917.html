@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280917</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年9月17日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月十七日 今世界中の有名な科学者が日本に集まって、理論物理学の知識の交換をやってます。<br><br>ところがこの骨子は物性論ですが、これはこの間も書いたとおり、顕微鏡で見えない粒子があると仮定して、物性すなわち物の性質を理屈だけでつかまえたわけです。<br><br>ですから理論物理学というのは理論です。<br><br>その理論を実験するという実験物理学にまではまだ行っていません。<br><br>そこで浄霊は、理論物理学に対する実験です。<br><br>これは科学者が発見したのではなく、私が発見したのです。<br><br>そこで病気が治れば実験が完成したわけです。<br><br>ですから私がやっていることより、科学はまだまだ遅れているのです。<br><br>世界中の偉い科学者は今やっと小学校です。<br><br>だからどうせそれを知らせても信ずるわけがないし、また宗教家がそんなことを言っても、科学のことが分かるものかと言って馬鹿にして聞くわけもないから、今のところはどうすることもできないのです。<br><br>ちょうど日本の本州を霊界とすると、先生らは北海道の函館辺りに来ているわけです。<br><br>これから津軽海峡を渡って本州に入ろうとしているわけです。<br><br>それで私は東京にいるわけですが、あの人たちを急に東京に引っ張って行くわけにもゆかず、これから船に乗り汽車に乗って、いつかは来るわけですが、そういう状態です。<br><br>ですから私からみると、子供ならまだよいですが、非常に幼稚なものです。<br><br>それだけならよいが、あんまり先方が低級なために間違ったことをし、その間違ったことが結局、病気と人間――これに対して私はいろんな面から説いてます。<br><br>最近書いたもので、これは信者の人でも気がつかないことです。<br><br>それを読ませます。<br><br> （御論文「超愚」） 【栄光 二二九号】 このことはちょっと気がつかないことです。<br><br>これにも書いてあるとおり、メシを食っているから達者で働けたので、食わないと腹が減ってヒョロヒョロしてしまう。<br><br>そこでさっそくメシを食って元通りピンピンする、というわけです。<br><br>これを薬に当てはめると、薬を始終のんでいたからピンピンしていた。<br><br>そこで薬を止めたから弱ってきたので、さっそく薬をのまなければならない、ということと同じ理屈になるわけです。<br><br>そこで人間がふだん薬をのんでいて健康ならばそれでよいのですが、病気になったから薬をのむということは理屈に合いません。<br><br>簡単なことであって、今までみんな気がつかないのです。<br><br>では腹が減ったときにメシを食ってピンとなるように、薬をのんで病気が治って達者になるようならそれでよいです。<br><br>ところが薬をのんでもなかなか良くならないのです。<br><br>昨日聞いた話ですが、“この薬をのめば、何時間とかで良くなる”と言ったそうですが、その時間が来たら死んでしまった、ということがあったというのですから、変なことになります。<br><br>そういうようで簡単で分かりきったようなことが分からないで、一生懸命に薬を進歩させたりいろんなことをしてます。<br><br>だから馬鹿ではなくて、馬鹿を通り越してます。<br><br>馬鹿くらいですめば結構です。<br><br>“馬鹿は死ななきゃ治らない”というが、これはおそらく死んでも治らないでしょう。<br><br> それから自然農法についてですが、この問題はだいぶ注目されてきたようです。<br><br>おまけに今年は非常な不作です。<br><br>最近の発表が五千九百八十万石というのですから、平年作が六千三百万石ですから、四、五百万石減っているわけです。<br><br>これは去年広川弘禅氏が農林大臣のときに五カ年計画で三割増産という案を立てて、予算なども組んだのです。<br><br>それで今年は二年目ですが、およそ逆ということは驚いたものです。<br><br>これも今の「超愚」の方でしょうが、困ったものです。<br><br>しかし今年は東北地方の冷害が一番の原因としてますが、確かに冷害も影響があったに違いないのです。<br><br>冷害のために虫害が酷くなるのです。<br><br>天日にドンドン当てると虫は弱りますが、天日に当たらないと虫は増え放題になるのです。<br><br>結局において根本は虫害です。<br><br>最近聞いた話で、『栄光』にも出しますが、こっちの人が調査に行ったときのことですが、信州辺りで、そうとう広い所ですが、朝起きて田に行ってみると稲が白くなって、ぜんぜんみのらないということが分かって、フラフラとなり夫婦心中したものがあるそうで、またそれから自殺したのもあるようです。<br><br>とにかく一年米がとれなかったら、税金は免除されたとしても、借金をしなければ食うことはできないことになります。<br><br>大体が農民は借金が多いですから、一年とれなかったら餓死するよりほかありません。<br><br>だから自殺するということはあたりまえで、馬鹿ではありません。<br><br>われわれにしてもそうかもしれません。<br><br>そういうことがよくあるのですが、秘密にしているらしいのです。<br><br> そういうわけですから、よけい自然農法というのに騒ぎ始めたのです。<br><br>それから昨日聞いた話ですが、中京の方で座談会や講演会をすると、聴衆のうちの九割が未信者で、そのうちの一割くらいが信仰に入るそうです。<br><br>それですばらしい勢いだそうです。<br><br>それで岐阜県で一番の篤農家の人が今度県の地方本部長になって大いに活躍することになってますが、その人はどうしてそうなったかというと、最初信者の人がそこから種をもらったのです。<br><br>そうして今年で五年目ですが、こういう稲ができたといって見せたのです。<br><br>そうするとその篤農家の人は驚いたのです。<br><br>自分の種で今までこんなに立派な稲ができたことはない。<br><br>それで聞いてみると、こうこういうわけで、自然農法でやったと言うと、非常に驚いて、それでは自分はこれに一生を捧げようというので、会長になった由です。<br><br>そういった人では一番信用があるのだそうですから、すばらしい結果をあげ得ると言って喜んでます。<br><br>そういうようで最近は信者でなく、そういった信者以外の人がだいぶ刺激されて、会員になる人が非常に増えたそうです。<br><br> そういうような具合で、神様は如才なくやられるので、どうしてもこっちの自然農法にならなければならないようにし向けるわけです。<br><br>あるいは今年の不作も神様がうまくやられているのかもしれません。<br><br>そういうようなわけで、非常におもしろくなってきました。<br><br>それで今まであんまり言わなかったが、連作ですが、百姓は昔から連作はいけないという。<br><br>ところが一番の連作は稲です。<br><br>これに気がつかなかったのです。<br><br>もし連作がいけないものなら、米はだんだんとれなくならなければならないのです。<br><br>それから以前私は米と麦との連作はいけないと言ったが、これもそうです。<br><br>土に稲を育てるような性能が出てくると、今度は麦になるから、今度は麦を育てるような性能に変化してくる。<br><br>そうするとどっちも駄目になるのです。<br><br>それで土は、毎年同じ物を作っていると土にそれを育てるような性能が出てくるわけです。<br><br>ちょうど米を作らない土は素人とすると、毎年稲を作ると、土の方が熟練工になってくるのです。<br><br>それでだんだん良くできるというわけで、その理屈を知らなければならないのです。<br><br>ですから肥料ですが、たとえ堆肥でもやると、土が大いに熟練になるところを邪魔することになるわけです。<br><br>だから本当は堆肥もやらない方がよいのです。<br><br>だから気候の暖かい所は堆肥、藁などもやらなくてよいということを私は言いました。<br><br>ところが長い間の肥料迷信のために、信者で作っている人でも、それに囚われて堆肥を入れるのです。<br><br>ですから畑でも堆肥をやらない方がよくできるのです。<br><br>ただ土が固まったり乾いたりする所は、そのために堆肥をやるのです。<br><br>それもできるだけ腐って土みたいになった堆肥がよいのです。<br><br>ところが堆肥ということに囚われて、木の葉でもまだ筋があるような物を何貫、何十貫やった、ということを言ってますが、これではわざわざ、金肥人肥ではなくして、一つの妨害をしているわけです。<br><br>それからもう一つはこういう点があったのです。<br><br>前には「無肥料」という名称をつけましたが、そうすると進駐軍の方で、一つの規則のようなものがあったのです。<br><br>作物は肥料をやれということがあるのだそうです。<br><br>そこで無肥料というと、それに引っ掛かるというので「自然栽培」という名前にしたのです。<br><br>ですからそれまでは無肥料と言っていたのです。<br><br>それでだいぶそういうことを邪魔しようとして、進駐軍に投書したりするのがあるのです。<br><br>本当いうと「無肥料」ですから、堆肥もなにもやらないのがよいのです。<br><br>それでこそ本当に土の活動力が増すわけです。<br><br>それからもう一つは、無肥料と言うと誤解をするのです。<br><br>というのは、頭からぜんぜん肥料をやらなくてできるものかと言うのです。<br><br>今の自然栽培でも随分反対する百姓もありますが、自然栽培と言うときこえが良いからやっているのです。<br><br>ですからやっぱり自然栽培でよいのですが、堆肥迷信を減らすということです。<br><br> それから冷害ということは、つまり熱がないのですが、これをふつうの人は知らないのですが、霊界は――霊界には限らないが、熱いのは火の物質です。<br><br>そうすると火の霊は肉体には……少しは熱いですが……それほどは感じないのです。<br><br>しかし少しでも熱いということは、たいへんな力があるのです。<br><br>これは物質の熱よりかもっとずっと力があるのです。<br><br>ですから一番分かりよいことは、今年の強羅の暑さは、東京と同じか、強羅の方が勝っている時の方が多いかもしれません。<br><br>今日もここは二十三度で、鹿児島が二十四度で、鹿児島を除いたら二十三度が一番高いのです。<br><br>ですから強羅が、ちょうど福岡とか和歌山の辺と同じなのです。<br><br>東京も今日は二十三度でしたが、そういうような具合で、高いということは私がいるためです。<br><br>それで私から出る熱というものは霊の熱が出ますが、これがいくぶん物質化するために暑いのです。<br><br>田で試験したのですが、信者の田は他の人の田より二度高いのです。<br><br>だから米もよくできるわけです。<br><br>これは霊の物質化です。<br><br>ですからこう（浄霊）やって出るのは火素ですが、これは霊にある曇りを焼くのです。<br><br>ところがふつうの火や電気の熱でやっても、霊の曇りを焼くだけの力はありません。<br><br>ですからこの力というものは霊主体従の法則によって、つまり体的よりか強いわけです。<br><br>そこでレントゲン写真に写らないということは、霊の光がレントゲンの光よりか強いからです。<br><br>そこで冷害ということは気候が寒いということ以外に、霊の光が足りない、少ないのです。<br><br>それで霊の光といっても、人間は曇りの少ない人は霊的光が強いから、そこで温かいわけです。<br><br>人間でも、つめたい感じの人と温かい感じの人がありますが、温かい感じのする人の方が霊に火素があるわけです。<br><br>だからそういう人は愛がある人です。<br><br>それで愛というものは心臓から出るもので、これが愛の熱です。<br><br>だから恋愛もやっぱり心臓ですが、恋愛のシンボルはハート形になってますが、しかしこれは限られた熱です。<br><br>恋している人に対する熱で、一般人にはゆかないのです。<br><br>つまり利己的の熱だから問題にはならないが、そうでなく、多くの人を愛するという愛のある人の側に行くと温かい感じがするということは、その人に火素があるからです。<br><br>だから冷害で不作ということは、その土地の人に愛の熱がないからです。<br><br>つまり人はどんなことになっても、オレさえ良ければよいという了簡の人が非常に多いわけです。<br><br>それで東北の人は、気候の関係のほかに、そういう人が多いわけです。<br><br>しかしこれはまた一面には気候の影響も受けるのです。<br><br>ですからソ連は寒い国ですが、そこでああいう寒い国の人は愛が少ないのです。<br><br>だからスターリンが在世当時、まるで虫ケラ同様にやたらに人を殺しましたが、これはつまり愛がない証拠です。<br><br>まあ愛がない親玉です。<br><br>これが少しでも愛があったら、かわいそうで、そうやたらに人を殺すということができるものではありません。<br><br>それが平気なのです。<br><br>そういうような具合で、人間の愛の熱というものは非常に影響するものです。<br><br>これはそこの家庭に入っても分かります。<br><br>玄関に入ってゆくと、主人公に愛のある家だと、なんとなく感じが良いですが、入って行ってつめたいというのは――つめたいと実にいやなもので、それがありありと分かりますが――それはやっぱり主人にあるものです。<br><br>そういうことが農作物にまで非常に影響するのです。<br><br>だから信者になった人の作物がよくできるということは、無肥料のためと、もう一つは主人公の愛です。<br><br>それで畦（あぜ）一つでチャンと区切っていて、隣の田とはまるで違うそうですが、それはそういうわけです。<br><br>霊界が違うわけです。<br><br> それからもう一つ気がつかないことに、これは今に書きますが「詐欺時代」というのです。<br><br>というのは、今の世の中はほとんど詐欺ばかりなのです。<br><br>そう言うとちょっとわけが分からないでしょうが、一番の詐欺は売薬です。<br><br>新聞広告にさかんに出てますが、読んでみると、“治る”とは書いてありません。<br><br>しかしうまく書いてます。<br><br>“これはその病気に非常に適合している”とか、あるいは“のむと快くなる”とか、“治りを促進する”とか、“とにかく病気が緩和される”とか、そういうことは書いてありますが、“治る”とは書いてありません。<br><br>ところがそれで治るかのように思わせようとしているのです。<br><br>ところが実際において治るわけがないのです。<br><br>薬屋も実際において治らないということは知っているのです。<br><br>それで売薬法では、害にならなければよいということが条件になっているのです。<br><br>効くということは、つまり薬は毒ですから、毒の分子があるほどよく効くのです。<br><br>だからそれではいけないという規則になっているのです。<br><br>しかしいくらかは効かなければ、みんな買わないから、ただ医者が盛る薬より毒が少ないだけです。<br><br>それで、実際には治らないのに、治るかのごとくに思わせて金をとるのですから、詐欺取財です。<br><br>それからもっと酷いのは、お医者が“あなたの病気は一週間で治る。<br><br>まあ二週間続けたらよいでしょう”と言うのですが、これは始終お蔭話に出てますが、実際にそのとおりになったことはありません。<br><br>それでお医者も確信があるわけではないので、“たぶん治るだろう”というわけです。<br><br>しかしもしお医者が本当のことを言って“あなたのようなのは治らない。<br><br>今までこういうのを経験しているが、一人も治ったことはない”と言うと、メシが食えないから、これは詐欺ではないので、やむを得ない罪悪です。<br><br>そういうやむを得ない罪悪というのはたくさんあります。<br><br>パンパンガールもそれです。<br><br>パンパンガールはいばって言います。<br><br>“私たちがいるから娘さんたちが安心して外を歩けるのだ。<br><br>もし私たちがいなかったら、どんなことをされるかも分からない”と言ってます。<br><br>これも命にかかわる罪でないからまだよいが、命にかかわる罪があるのです。<br><br>お医者が“あなたの病気は重いから入院しなさい”と言う場合、“では入院したら治りますか”と聞くと、“いや、それは分からないが、入院するよりほかない”と言うのです。<br><br>“あなたは入院しなければ駄目だ。<br><br>入院すれば治る”と言うのならよいですが、“やってみなければ分からない”と言うのです。<br><br>それから“先生、手術すれば治りますか”と聞くと、“いや手術してみなければ分からない。<br><br>しかし、しいてあなたの方で手術してくれと言うのならやりますよ”と言うのです。<br><br>それで手術をする時には、どんなことになってもよいという証文をとります。<br><br>そうしてみると詐欺です。<br><br>確信がないのに、慢然として入院させて、高い金をとるのです。<br><br>そうしてたいていな者が悪くなるのです。<br><br>入院するときには歩いて行ったのが、帰るときにはたいてい自動車です。<br><br>そうすると少なくとも詐欺被害者です。<br><br>それで一番酷いのは宗教の詐欺で、これがまたたくさんあります。<br><br>“先生私は最初治ると言うから信仰に入ったが、どうも思うように治らない”と言うと、“それは信仰が足りないのだ”と言うのですが、この“信仰が足りない”というのが、いい逃げ場なのです。<br><br>前にも話したことがありますが、ある大宗教で“あなたの病気はあんまり欲張ったためだから、その罪を神様にとっていただかなければならない”と言うから、“どうすればよいか”と聞いたのです。<br><br>その時分はまだ物価の安いときですが、“二百円寄付しなさい。<br><br>それで治りますよ”と言うので、そこはあんまり裕福ではない人ですが、どうにかして二百円つくってあげたのです。<br><br>それから一週間たたないうちに死んだのです。<br><br>それで私は相談をかけられたのです。<br><br>“とり返すわけにはゆかないでしょうか”と言うので、“どうも信仰の方ではそういう話は聞いたことがないから、駄目でしょう。<br><br>諦めるよりほかないでしょう”と言ってやったので、しかたがないと諦めたようですが、これは立派な詐欺です。<br><br>これは神様をカタにして詐欺をするわけですが、これは詐欺取財でなくて、宗教的詐欺取財、詐欺殺人です。<br><br>だから非常に悪いのです。<br><br>そういうようで今日よく検討してみると、詐欺的のことがふつう常識のようになってます。<br><br>政治家にしてもそうです。<br><br>全部がそうではないが、かなりあります。<br><br>ですから選挙運動の時には、“こういう政策をする”とか“わが党はこういう方針である”とか言っても、つまり不渡手形になることの方が多いくらいなものです。<br><br>選挙運動をする時には、棚から運が落ちてくるような、ボタモチでホッぺタをたたくようなことを言っていて、さて当選して議員になるといい加減なことを言っているのです。<br><br>これもやっぱり一つの詐欺です。<br><br>ですから調べてみると、そういった詐欺的なことが実に多いのです。<br><br>しかしあんまり多いために気がつかなくなっているのです。<br><br>そういうものだと思い込んでいるのです。<br><br>世の中のことは本当のことはない、というようなことになってしまったのです。<br><br>それで私は、そういう小さいこともですが、特に肝腎なことはドンドンついて、それを暴露しなければならないと思ってます。<br><br>暴露戦術ということをよく言いますが、神様の方で暴露戦術と言っては、はなはだ格好が悪いから、なるだけそういうふうには見せないように、うまくやっているつもりです。<br><br>ですから本当いうと、医学というものは「病気製造」あるいは「官許殺人だ」ということを書きたいのですが、それではあんまり酷いです。<br><br>前に書いたことがありますが、とうとう出せなかったのです。<br><br>だからだんだん読んでゆけばそうなっても、今のように超愚的に書くわけです。<br><br>結局馬鹿を通り越した、とんでもないものだと、婉曲（えんきょく）に言うので、そこに難しい点があるのです。<br><br>ですからこの間のラジオの放送の時にも、美術館のことや自然農法のことはスラスラと話せたのです。<br><br>それを出すかと思ったら、医学の方のことでした。<br><br>それで医学のことに関しては実に話しにくいのです。<br><br>それで非常に渋滞でトギレトギレ話したので、どうもおもしろくなかったのです。<br><br>しかしあんまり医学をコキ下ろしては刺激しますから、できるだけ緩和して話したために話しにくかったのです。<br><br>ですから私は原稿を書くにも、ほかのことはスラスラとゆくのですが、どうも医学のことは厄介なのです。<br><br> 二、三日前にロサンゼルスからお蔭話が来ましたが、すばらしくよく治るのです。<br><br>こっちのお蔭話に負けないくらいなものです。<br><br>それでこっちの方も随分浄化が強くなったので、奇蹟も著しくなってきました。<br><br>これは始終お蔭話を読んでいると分かります。<br><br>ですからキリストと同じようなことは、それこそ日常茶飯事です。<br><br>今私がこれから書くのは「キリストは三日で作られる」という論文です。<br><br>三日間の教修をしますが、そうするとキリストと同じような奇蹟が出せるのです。<br><br>ですから“歴史は夜作られる”という題の映画がありました。<br><br>このごろは化粧品のことで“美人は夜作られる”ということを言ってますが、私の方は“キリストは三日で作られる”ということを書こうと思ってます。<br><br>このごろはふつうのまじめな書き方は始終書いているので飽きてきましたから、それよりか飛び離れた題の方が興味がありますから、このごろはそういうように書いてます。<br><br>この前の「神と硝子玉」とか「硝子製造人」とか、そういう方が興味もあるし、かえって分かりよいです。<br><br>ただあんまりそういうようにやると、いたずらに人をおどかすとか興味を引くとか野卑に見られますから、そう見られないように気をつけてます。<br><br>今の“キリストは三日で作られる”ということは、あんまり飛び離れているので、題だけ見たら変に思うかもしれませんが、しかし魅力はあると思います。<br><br>つまりだれでもキリストになれるということなのですから。<br><br>ある教師の人は、往来を歩いていたり汽車に乗っていて、病人があってやると、立ち所に治ってしまうというのですが、そういうのはキリストと同じです。<br><br>それからロサンゼルスでは教修をしただけでさかんに病気が治るのです。<br><br>しかもロサンゼルスと言えば日本からたいへんな遠くです。<br><br>ふつうから言えば、いくら霊線でもあんな所までたいへんだろうと思うでしょうが、ところが神様の方の霊線は時間、空間を超越するのですから、浄霊の霊というのは、アメリカまで霊線が行くのに一秒もかかりません。<br><br>もっと速いので、一秒の何百分の一か何千分の一くらいに速いのです。<br><br>ですからあっちの方のお蔭も日本と同じです。<br><br>かえって向こうの人の方が素直で疑いがないから、かえって日本のお蔭よりか著しいでしょう。<br><br>これもだんだん『栄光』に出ます。<br><br>従って発展し始めたら、発展力がずっと早く強いでしょう。<br><br>ですからこれからが大いに楽しみです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Realidade Espiritual e a Ilusão do Mundo Material</h2>
 <p>Atualmente, cientistas de renome mundial estão reunidos no Japão para um intercâmbio de conhecimentos sobre Física Teórica. O cerne de suas discussões é a chamada teoria das propriedades da matéria. Conforme escrevi em outra oportunidade, essa teoria se baseia na suposição da existência de partículas invisíveis ao microscópio, buscando apreender a natureza da matéria unicamente por meio da lógica. Trata-se, portanto, de uma disciplina puramente teórica, que ainda não avançou para o estágio da Física Experimental, onde suas premissas poderiam ser postas à prova.</p>
@@ -121,5 +273,48 @@ function toggleLang(lang) {
 <p>Há dois ou três dias, recebemos um relatório de graças de Los Angeles. As curas são impressionantes, tão notáveis quanto as que ocorrem aqui. No Japão, a purificação também se intensificou, e os milagres se tornaram mais expressivos, como se pode constatar pela leitura constante dos testemunhos. Fenômenos semelhantes aos realizados por Cristo tornaram-se ocorrências corriqueiras.</p>
 <p>Atualmente, estou escrevendo um artigo intitulado “Cristo é formado em três dias”. Após nosso curso de três dias, as pessoas se tornam capazes de realizar milagres semelhantes aos de Cristo. Existe um filme chamado “A História faz-se de noite” e um anúncio de cosméticos que diz “A beleza se faz à noite”. O meu lema será “Cristo é formado em três dias”. Cansei-me do estilo austero e formal que venho utilizando, e títulos mais instigantes despertam maior interesse. Por isso, tenho adotado essa abordagem em textos como “Deus e a conta de vidro” ou “O fabricante de vidro”. São mais cativantes e, paradoxalmente, mais fáceis de compreender. Naturalmente, preciso ter o cuidado para que essa ousadia não seja interpretada como uma tentativa vulgar de chocar ou apenas atrair a atenção. O título “Cristo é formado em três dias”, embora possa parecer estranho à primeira vista, possui, creio eu, um grande fascínio, pois sua mensagem implícita é que qualquer pessoa pode se tornar um Cristo. Temos o caso de um ministro que, ao encontrar doentes na rua ou no trem, os cura instantaneamente. Isso é o mesmo que Cristo fazia.</p>
 <p>Em Los Angeles, as pessoas estão sendo curadas em grande número apenas por participarem do curso, mesmo estando a uma distância tão vasta do Japão. Poder-se-ia pensar que o Cordão Espiritual teria dificuldade em alcançar um lugar tão remoto. Contudo, o Cordão Espiritual de Deus transcende o tempo e o espaço. A luz do Johrei leva menos de um segundo para chegar à América; na verdade, uma fração ínfima de segundo. Por isso, as graças lá são idênticas às do Japão. É possível até que sejam mais notáveis, pois os ocidentais tendem a ser mais puros e a ter menos dúvidas. Publicaremos esses relatos gradualmente na revista Eikou. Sua expansão, uma vez iniciada, será certamente mais rápida e vigorosa. Por essa razão, aguardo o futuro com grande expectativa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年9月17日） 『御教え集』26号、昭和28(1953)年10月15日発行 昭和二十八年九月十七日 今世界中の有名な科学者が日本に集まって、理論物理学の知識の交換をやってます。<br/><br/>ところがこの骨子は物性論ですが、これはこの間も書いたとおり、顕微鏡で見えない粒子があると仮定して、物性すなわち物の性質を理屈だけでつかまえたわけです。<br/><br/>ですから理論物理学というのは理論です。<br/><br/>その理論を実験するという実験物理学にまではまだ行っていません。<br/><br/>そこで浄霊は、理論物理学に対する実験です。<br/><br/>これは科学者が発見したのではなく、私が発見したのです。<br/><br/>そこで病気が治れば実験が完成したわけです。<br/><br/>ですから私がやっていることより、科学はまだまだ遅れているのです。<br/><br/>世界中の偉い科学者は今やっと小学校です。<br/><br/>だからどうせそれを知らせても信ずるわけがないし、また宗教家がそんなことを言っても、科学のことが分かるものかと言って馬鹿にして聞くわけもないから、今のところはどうすることもできないのです。<br/><br/>ちょうど日本の本州を霊界とすると、先生らは北海道の函館辺りに来ているわけです。<br/><br/>これから津軽海峡を渡って本州に入ろうとしているわけです。<br/><br/>それで私は東京にいるわけですが、あの人たちを急に東京に引っ張って行くわけにもゆかず、これから船に乗り汽車に乗って、いつかは来るわけですが、そういう状態です。<br/><br/>ですから私からみると、子供ならまだよいですが、非常に幼稚なものです。<br/><br/>それだけならよいが、あんまり先方が低級なために間違ったことをし、その間違ったことが結局、病気と人間――これに対して私はいろんな面から説いてます。<br/><br/>最近書いたもので、これは信者の人でも気がつかないことです。<br/><br/>それを読ませます。<br/><br/> （御論文「超愚」） 【栄光 二二九号】 このことはちょっと気がつかないことです。<br/><br/>これにも書いてあるとおり、メシを食っているから達者で働けたので、食わないと腹が減ってヒョロヒョロしてしまう。<br/><br/>そこでさっそくメシを食って元通りピンピンする、というわけです。<br/><br/>これを薬に当てはめると、薬を始終のんでいたからピンピンしていた。<br/><br/>そこで薬を止めたから弱ってきたので、さっそく薬をのまなければならない、ということと同じ理屈になるわけです。<br/><br/>そこで人間がふだん薬をのんでいて健康ならばそれでよいのですが、病気になったから薬をのむということは理屈に合いません。<br/><br/>簡単なことであって、今までみんな気がつかないのです。<br/><br/>では腹が減ったときにメシを食ってピンとなるように、薬をのんで病気が治って達者になるようならそれでよいです。<br/><br/>ところが薬をのんでもなかなか良くならないのです。<br/><br/>昨日聞いた話ですが、“この薬をのめば、何時間とかで良くなる”と言ったそうですが、その時間が来たら死んでしまった、ということがあったというのですから、変なことになります。<br/><br/>そういうようで簡単で分かりきったようなことが分からないで、一生懸命に薬を進歩させたりいろんなことをしてます。<br/><br/>だから馬鹿ではなくて、馬鹿を通り越してます。<br/><br/>馬鹿くらいですめば結構です。<br/><br/>“馬鹿は死ななきゃ治らない”というが、これはおそらく死んでも治らないでしょう。<br/><br/> それから自然農法についてですが、この問題はだいぶ注目されてきたようです。<br/><br/>おまけに今年は非常な不作です。<br/><br/>最近の発表が五千九百八十万石というのですから、平年作が六千三百万石ですから、四、五百万石減っているわけです。<br/><br/>これは去年広川弘禅氏が農林大臣のときに五カ年計画で三割増産という案を立てて、予算なども組んだのです。<br/><br/>それで今年は二年目ですが、およそ逆ということは驚いたものです。<br/><br/>これも今の「超愚」の方でしょうが、困ったものです。<br/><br/>しかし今年は東北地方の冷害が一番の原因としてますが、確かに冷害も影響があったに違いないのです。<br/><br/>冷害のために虫害が酷くなるのです。<br/><br/>天日にドンドン当てると虫は弱りますが、天日に当たらないと虫は増え放題になるのです。<br/><br/>結局において根本は虫害です。<br/><br/>最近聞いた話で、『栄光』にも出しますが、こっちの人が調査に行ったときのことですが、信州辺りで、そうとう広い所ですが、朝起きて田に行ってみると稲が白くなって、ぜんぜんみのらないということが分かって、フラフラとなり夫婦心中したものがあるそうで、またそれから自殺したのもあるようです。<br/><br/>とにかく一年米がとれなかったら、税金は免除されたとしても、借金をしなければ食うことはできないことになります。<br/><br/>大体が農民は借金が多いですから、一年とれなかったら餓死するよりほかありません。<br/><br/>だから自殺するということはあたりまえで、馬鹿ではありません。<br/><br/>われわれにしてもそうかもしれません。<br/><br/>そういうことがよくあるのですが、秘密にしているらしいのです。<br/><br/> そういうわけですから、よけい自然農法というのに騒ぎ始めたのです。<br/><br/>それから昨日聞いた話ですが、中京の方で座談会や講演会をすると、聴衆のうちの九割が未信者で、そのうちの一割くらいが信仰に入るそうです。<br/><br/>それですばらしい勢いだそうです。<br/><br/>それで岐阜県で一番の篤農家の人が今度県の地方本部長になって大いに活躍することになってますが、その人はどうしてそうなったかというと、最初信者の人がそこから種をもらったのです。<br/><br/>そうして今年で五年目ですが、こういう稲ができたといって見せたのです。<br/><br/>そうするとその篤農家の人は驚いたのです。<br/><br/>自分の種で今までこんなに立派な稲ができたことはない。<br/><br/>それで聞いてみると、こうこういうわけで、自然農法でやったと言うと、非常に驚いて、それでは自分はこれに一生を捧げようというので、会長になった由です。<br/><br/>そういった人では一番信用があるのだそうですから、すばらしい結果をあげ得ると言って喜んでます。<br/><br/>そういうようで最近は信者でなく、そういった信者以外の人がだいぶ刺激されて、会員になる人が非常に増えたそうです。<br/><br/> そういうような具合で、神様は如才なくやられるので、どうしてもこっちの自然農法にならなければならないようにし向けるわけです。<br/><br/>あるいは今年の不作も神様がうまくやられているのかもしれません。<br/><br/>そういうようなわけで、非常におもしろくなってきました。<br/><br/>それで今まであんまり言わなかったが、連作ですが、百姓は昔から連作はいけないという。<br/><br/>ところが一番の連作は稲です。<br/><br/>これに気がつかなかったのです。<br/><br/>もし連作がいけないものなら、米はだんだんとれなくならなければならないのです。<br/><br/>それから以前私は米と麦との連作はいけないと言ったが、これもそうです。<br/><br/>土に稲を育てるような性能が出てくると、今度は麦になるから、今度は麦を育てるような性能に変化してくる。<br/><br/>そうするとどっちも駄目になるのです。<br/><br/>それで土は、毎年同じ物を作っていると土にそれを育てるような性能が出てくるわけです。<br/><br/>ちょうど米を作らない土は素人とすると、毎年稲を作ると、土の方が熟練工になってくるのです。<br/><br/>それでだんだん良くできるというわけで、その理屈を知らなければならないのです。<br/><br/>ですから肥料ですが、たとえ堆肥でもやると、土が大いに熟練になるところを邪魔することになるわけです。<br/><br/>だから本当は堆肥もやらない方がよいのです。<br/><br/>だから気候の暖かい所は堆肥、藁などもやらなくてよいということを私は言いました。<br/><br/>ところが長い間の肥料迷信のために、信者で作っている人でも、それに囚われて堆肥を入れるのです。<br/><br/>ですから畑でも堆肥をやらない方がよくできるのです。<br/><br/>ただ土が固まったり乾いたりする所は、そのために堆肥をやるのです。<br/><br/>それもできるだけ腐って土みたいになった堆肥がよいのです。<br/><br/>ところが堆肥ということに囚われて、木の葉でもまだ筋があるような物を何貫、何十貫やった、ということを言ってますが、これではわざわざ、金肥人肥ではなくして、一つの妨害をしているわけです。<br/><br/>それからもう一つはこういう点があったのです。<br/><br/>前には「無肥料」という名称をつけましたが、そうすると進駐軍の方で、一つの規則のようなものがあったのです。<br/><br/>作物は肥料をやれということがあるのだそうです。<br/><br/>そこで無肥料というと、それに引っ掛かるというので「自然栽培」という名前にしたのです。<br/><br/>ですからそれまでは無肥料と言っていたのです。<br/><br/>それでだいぶそういうことを邪魔しようとして、進駐軍に投書したりするのがあるのです。<br/><br/>本当いうと「無肥料」ですから、堆肥もなにもやらないのがよいのです。<br/><br/>それでこそ本当に土の活動力が増すわけです。<br/><br/>それからもう一つは、無肥料と言うと誤解をするのです。<br/><br/>というのは、頭からぜんぜん肥料をやらなくてできるものかと言うのです。<br/><br/>今の自然栽培でも随分反対する百姓もありますが、自然栽培と言うときこえが良いからやっているのです。<br/><br/>ですからやっぱり自然栽培でよいのですが、堆肥迷信を減らすということです。<br/><br/> それから冷害ということは、つまり熱がないのですが、これをふつうの人は知らないのですが、霊界は――霊界には限らないが、熱いのは火の物質です。<br/><br/>そうすると火の霊は肉体には……少しは熱いですが……それほどは感じないのです。<br/><br/>しかし少しでも熱いということは、たいへんな力があるのです。<br/><br/>これは物質の熱よりかもっとずっと力があるのです。<br/><br/>ですから一番分かりよいことは、今年の強羅の暑さは、東京と同じか、強羅の方が勝っている時の方が多いかもしれません。<br/><br/>今日もここは二十三度で、鹿児島が二十四度で、鹿児島を除いたら二十三度が一番高いのです。<br/><br/>ですから強羅が、ちょうど福岡とか和歌山の辺と同じなのです。<br/><br/>東京も今日は二十三度でしたが、そういうような具合で、高いということは私がいるためです。<br/><br/>それで私から出る熱というものは霊の熱が出ますが、これがいくぶん物質化するために暑いのです。<br/><br/>田で試験したのですが、信者の田は他の人の田より二度高いのです。<br/><br/>だから米もよくできるわけです。<br/><br/>これは霊の物質化です。<br/><br/>ですからこう（浄霊）やって出るのは火素ですが、これは霊にある曇りを焼くのです。<br/><br/>ところがふつうの火や電気の熱でやっても、霊の曇りを焼くだけの力はありません。<br/><br/>ですからこの力というものは霊主体従の法則によって、つまり体的よりか強いわけです。<br/><br/>そこでレントゲン写真に写らないということは、霊の光がレントゲンの光よりか強いからです。<br/><br/>そこで冷害ということは気候が寒いということ以外に、霊の光が足りない、少ないのです。<br/><br/>それで霊の光といっても、人間は曇りの少ない人は霊的光が強いから、そこで温かいわけです。<br/><br/>人間でも、つめたい感じの人と温かい感じの人がありますが、温かい感じのする人の方が霊に火素があるわけです。<br/><br/>だからそういう人は愛がある人です。<br/><br/>それで愛というものは心臓から出るもので、これが愛の熱です。<br/><br/>だから恋愛もやっぱり心臓ですが、恋愛のシンボルはハート形になってますが、しかしこれは限られた熱です。<br/><br/>恋している人に対する熱で、一般人にはゆかないのです。<br/><br/>つまり利己的の熱だから問題にはならないが、そうでなく、多くの人を愛するという愛のある人の側に行くと温かい感じがするということは、その人に火素があるからです。<br/><br/>だから冷害で不作ということは、その土地の人に愛の熱がないからです。<br/><br/>つまり人はどんなことになっても、オレさえ良ければよいという了簡の人が非常に多いわけです。<br/><br/>それで東北の人は、気候の関係のほかに、そういう人が多いわけです。<br/><br/>しかしこれはまた一面には気候の影響も受けるのです。<br/><br/>ですからソ連は寒い国ですが、そこでああいう寒い国の人は愛が少ないのです。<br/><br/>だからスターリンが在世当時、まるで虫ケラ同様にやたらに人を殺しましたが、これはつまり愛がない証拠です。<br/><br/>まあ愛がない親玉です。<br/><br/>これが少しでも愛があったら、かわいそうで、そうやたらに人を殺すということができるものではありません。<br/><br/>それが平気なのです。<br/><br/>そういうような具合で、人間の愛の熱というものは非常に影響するものです。<br/><br/>これはそこの家庭に入っても分かります。<br/><br/>玄関に入ってゆくと、主人公に愛のある家だと、なんとなく感じが良いですが、入って行ってつめたいというのは――つめたいと実にいやなもので、それがありありと分かりますが――それはやっぱり主人にあるものです。<br/><br/>そういうことが農作物にまで非常に影響するのです。<br/><br/>だから信者になった人の作物がよくできるということは、無肥料のためと、もう一つは主人公の愛です。<br/><br/>それで畦（あぜ）一つでチャンと区切っていて、隣の田とはまるで違うそうですが、それはそういうわけです。<br/><br/>霊界が違うわけです。<br/><br/> それからもう一つ気がつかないことに、これは今に書きますが「詐欺時代」というのです。<br/><br/>というのは、今の世の中はほとんど詐欺ばかりなのです。<br/><br/>そう言うとちょっとわけが分からないでしょうが、一番の詐欺は売薬です。<br/><br/>新聞広告にさかんに出てますが、読んでみると、“治る”とは書いてありません。<br/><br/>しかしうまく書いてます。<br/><br/>“これはその病気に非常に適合している”とか、あるいは“のむと快くなる”とか、“治りを促進する”とか、“とにかく病気が緩和される”とか、そういうことは書いてありますが、“治る”とは書いてありません。<br/><br/>ところがそれで治るかのように思わせようとしているのです。<br/><br/>ところが実際において治るわけがないのです。<br/><br/>薬屋も実際において治らないということは知っているのです。<br/><br/>それで売薬法では、害にならなければよいということが条件になっているのです。<br/><br/>効くということは、つまり薬は毒ですから、毒の分子があるほどよく効くのです。<br/><br/>だからそれではいけないという規則になっているのです。<br/><br/>しかしいくらかは効かなければ、みんな買わないから、ただ医者が盛る薬より毒が少ないだけです。<br/><br/>それで、実際には治らないのに、治るかのごとくに思わせて金をとるのですから、詐欺取財です。<br/><br/>それからもっと酷いのは、お医者が“あなたの病気は一週間で治る。<br/><br/>まあ二週間続けたらよいでしょう”と言うのですが、これは始終お蔭話に出てますが、実際にそのとおりになったことはありません。<br/><br/>それでお医者も確信があるわけではないので、“たぶん治るだろう”というわけです。<br/><br/>しかしもしお医者が本当のことを言って“あなたのようなのは治らない。<br/><br/>今までこういうのを経験しているが、一人も治ったことはない”と言うと、メシが食えないから、これは詐欺ではないので、やむを得ない罪悪です。<br/><br/>そういうやむを得ない罪悪というのはたくさんあります。<br/><br/>パンパンガールもそれです。<br/><br/>パンパンガールはいばって言います。<br/><br/>“私たちがいるから娘さんたちが安心して外を歩けるのだ。<br/><br/>もし私たちがいなかったら、どんなことをされるかも分からない”と言ってます。<br/><br/>これも命にかかわる罪でないからまだよいが、命にかかわる罪があるのです。<br/><br/>お医者が“あなたの病気は重いから入院しなさい”と言う場合、“では入院したら治りますか”と聞くと、“いや、それは分からないが、入院するよりほかない”と言うのです。<br/><br/>“あなたは入院しなければ駄目だ。<br/><br/>入院すれば治る”と言うのならよいですが、“やってみなければ分からない”と言うのです。<br/><br/>それから“先生、手術すれば治りますか”と聞くと、“いや手術してみなければ分からない。<br/><br/>しかし、しいてあなたの方で手術してくれと言うのならやりますよ”と言うのです。<br/><br/>それで手術をする時には、どんなことになってもよいという証文をとります。<br/><br/>そうしてみると詐欺です。<br/><br/>確信がないのに、慢然として入院させて、高い金をとるのです。<br/><br/>そうしてたいていな者が悪くなるのです。<br/><br/>入院するときには歩いて行ったのが、帰るときにはたいてい自動車です。<br/><br/>そうすると少なくとも詐欺被害者です。<br/><br/>それで一番酷いのは宗教の詐欺で、これがまたたくさんあります。<br/><br/>“先生私は最初治ると言うから信仰に入ったが、どうも思うように治らない”と言うと、“それは信仰が足りないのだ”と言うのですが、この“信仰が足りない”というのが、いい逃げ場なのです。<br/><br/>前にも話したことがありますが、ある大宗教で“あなたの病気はあんまり欲張ったためだから、その罪を神様にとっていただかなければならない”と言うから、“どうすればよいか”と聞いたのです。<br/><br/>その時分はまだ物価の安いときですが、“二百円寄付しなさい。<br/><br/>それで治りますよ”と言うので、そこはあんまり裕福ではない人ですが、どうにかして二百円つくってあげたのです。<br/><br/>それから一週間たたないうちに死んだのです。<br/><br/>それで私は相談をかけられたのです。<br/><br/>“とり返すわけにはゆかないでしょうか”と言うので、“どうも信仰の方ではそういう話は聞いたことがないから、駄目でしょう。<br/><br/>諦めるよりほかないでしょう”と言ってやったので、しかたがないと諦めたようですが、これは立派な詐欺です。<br/><br/>これは神様をカタにして詐欺をするわけですが、これは詐欺取財でなくて、宗教的詐欺取財、詐欺殺人です。<br/><br/>だから非常に悪いのです。<br/><br/>そういうようで今日よく検討してみると、詐欺的のことがふつう常識のようになってます。<br/><br/>政治家にしてもそうです。<br/><br/>全部がそうではないが、かなりあります。<br/><br/>ですから選挙運動の時には、“こういう政策をする”とか“わが党はこういう方針である”とか言っても、つまり不渡手形になることの方が多いくらいなものです。<br/><br/>選挙運動をする時には、棚から運が落ちてくるような、ボタモチでホッぺタをたたくようなことを言っていて、さて当選して議員になるといい加減なことを言っているのです。<br/><br/>これもやっぱり一つの詐欺です。<br/><br/>ですから調べてみると、そういった詐欺的なことが実に多いのです。<br/><br/>しかしあんまり多いために気がつかなくなっているのです。<br/><br/>そういうものだと思い込んでいるのです。<br/><br/>世の中のことは本当のことはない、というようなことになってしまったのです。<br/><br/>それで私は、そういう小さいこともですが、特に肝腎なことはドンドンついて、それを暴露しなければならないと思ってます。<br/><br/>暴露戦術ということをよく言いますが、神様の方で暴露戦術と言っては、はなはだ格好が悪いから、なるだけそういうふうには見せないように、うまくやっているつもりです。<br/><br/>ですから本当いうと、医学というものは「病気製造」あるいは「官許殺人だ」ということを書きたいのですが、それではあんまり酷いです。<br/><br/>前に書いたことがありますが、とうとう出せなかったのです。<br/><br/>だからだんだん読んでゆけばそうなっても、今のように超愚的に書くわけです。<br/><br/>結局馬鹿を通り越した、とんでもないものだと、婉曲（えんきょく）に言うので、そこに難しい点があるのです。<br/><br/>ですからこの間のラジオの放送の時にも、美術館のことや自然農法のことはスラスラと話せたのです。<br/><br/>それを出すかと思ったら、医学の方のことでした。<br/><br/>それで医学のことに関しては実に話しにくいのです。<br/><br/>それで非常に渋滞でトギレトギレ話したので、どうもおもしろくなかったのです。<br/><br/>しかしあんまり医学をコキ下ろしては刺激しますから、できるだけ緩和して話したために話しにくかったのです。<br/><br/>ですから私は原稿を書くにも、ほかのことはスラスラとゆくのですが、どうも医学のことは厄介なのです。<br/><br/> 二、三日前にロサンゼルスからお蔭話が来ましたが、すばらしくよく治るのです。<br/><br/>こっちのお蔭話に負けないくらいなものです。<br/><br/>それでこっちの方も随分浄化が強くなったので、奇蹟も著しくなってきました。<br/><br/>これは始終お蔭話を読んでいると分かります。<br/><br/>ですからキリストと同じようなことは、それこそ日常茶飯事です。<br/><br/>今私がこれから書くのは「キリストは三日で作られる」という論文です。<br/><br/>三日間の教修をしますが、そうするとキリストと同じような奇蹟が出せるのです。<br/><br/>ですから“歴史は夜作られる”という題の映画がありました。<br/><br/>このごろは化粧品のことで“美人は夜作られる”ということを言ってますが、私の方は“キリストは三日で作られる”ということを書こうと思ってます。<br/><br/>このごろはふつうのまじめな書き方は始終書いているので飽きてきましたから、それよりか飛び離れた題の方が興味がありますから、このごろはそういうように書いてます。<br/><br/>この前の「神と硝子玉」とか「硝子製造人」とか、そういう方が興味もあるし、かえって分かりよいです。<br/><br/>ただあんまりそういうようにやると、いたずらに人をおどかすとか興味を引くとか野卑に見られますから、そう見られないように気をつけてます。<br/><br/>今の“キリストは三日で作られる”ということは、あんまり飛び離れているので、題だけ見たら変に思うかもしれませんが、しかし魅力はあると思います。<br/><br/>つまりだれでもキリストになれるということなのですから。<br/><br/>ある教師の人は、往来を歩いていたり汽車に乗っていて、病人があってやると、立ち所に治ってしまうというのですが、そういうのはキリストと同じです。<br/><br/>それからロサンゼルスでは教修をしただけでさかんに病気が治るのです。<br/><br/>しかもロサンゼルスと言えば日本からたいへんな遠くです。<br/><br/>ふつうから言えば、いくら霊線でもあんな所までたいへんだろうと思うでしょうが、ところが神様の方の霊線は時間、空間を超越するのですから、浄霊の霊というのは、アメリカまで霊線が行くのに一秒もかかりません。<br/><br/>もっと速いので、一秒の何百分の一か何千分の一くらいに速いのです。<br/><br/>ですからあっちの方のお蔭も日本と同じです。<br/><br/>かえって向こうの人の方が素直で疑いがないから、かえって日本のお蔭よりか著しいでしょう。<br/><br/>これもだんだん『栄光』に出ます。<br/><br/>従って発展し始めたら、発展力がずっと早く強いでしょう。<br/><br/>ですからこれからが大いに楽しみです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

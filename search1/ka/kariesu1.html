@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kariesu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： カリエス・ 病気と霊六 『明日の医術 第三編』昭和18(1943)年10月23日発行 カリエスには脊髄〔椎〕カリエスと肋骨カリエスの二種あって、前者は、脊髄に毒素固結し、それが為、脊柱が彎曲するのであって、即ち傴僂（せむし）となるのである。<br><br>医療においては発病の場合、脊柱の彎曲を防ぐ為、胴体にギブスを嵌（は）め、仰臥させ動く事を禁ずるのである。<br><br>この方法は幾分の効果はあるが、患者の苦悩は名状すべからざるものがある。<br><br>そうして多くは、腰骨の左右いずれかの部分又は大腿部等に一ケ所ないし数個所に腫脹を生じ、穿孔（せんこう）されて膿が排泄されるのである。<br><br>その場合、自然穿孔と人為的穿孔とあり、その排膿は頗（すこぶ）る多量にして最もはなはだしいのは、数個所の孔から毎日相当の排膿があり、数年に及ぶものさえある。<br><br>こういう患者の膿量は余りに多量なるに不可解に思う事さえある。<br><br>勿論多少の痛みもあるが激痛もある。<br><br>人により起床する能わず、何年も呻吟し続けるのであるから、まことに悲惨な病気である。<br><br>医療では不治とされているが、本療法によれば必ず全治するのである。<br><br>ただしかし、全治しても脊柱の彎曲は、ある程度匡正（きょうせい）されるが、常態になる事は困難である。<br><br>そうしてこの病気の原因は霊的に因るので、それを説いてみよう。<br><br> 霊界において、多数の祖霊が、地獄の苦しみによって罪穢の浄化作用が行われつつあるについて、その罪穢――即ち汚濁のことごとくを消滅する事は不可能である。<br><br>それは汚濁の何分の一かは残滓（ざんし）として子孫が分担しなければならないので、そうする事によって完全に消滅するのである。<br><br>ちょうど物を燃しても灰が残るようなものである。<br><br>故に、右の残滓消滅に対し、その子孫の一人をして分担をなさしめるので、その場合子孫の誰かが選ばれて、その担任者となるのである。<br><br>仏教信者が罪障消滅といって苦しむ事があるが、そういう意味である。<br><br>そうしてその場合まずその者の頭脳に向って、残滓が霊的に流れてくるので、それが又脊柱を伝わり流下するのである。<br><br>しかるに霊的残渣（ざんさ）といえども肉体に流入する場合、肉体は物質であるから残滓は直ちに物質化し膿となるのである。<br><br>従って不可解と思う程、多量の膿汁が排泄せらるるのは、何十人何百人の祖霊の罪穢の浄化であるからである。<br><br>かような説を聞けば、現代人にはいかにも不可思議と思うであろうが、厳然たる宇宙の法則であって、まことにやむを得ないのである。<br><br> 次に、後者である肋骨カリエスは、普通の毒素結溜が骨膜の裏面に集溜し、それが浄化作用によって外部へ排泄されようと為し、肋骨を穿孔するので、その為の激痛であるが、医療においては、手術によって肋骨の何寸かを切り取り、骨の代用として硬質物を繋ぐ事もあり、又はそのままにする事もあるが、本療法によれば容易に治癒し、一週間とはかからないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza Espiritual da Cárie Óssea</h2>
 <p>A cárie óssea se manifesta em duas formas principais: a vertebral e a costal. A primeira consiste no acúmulo e na solidificação de toxinas na medula espinhal, o que provoca uma deformação na coluna e origina a condição popularmente conhecida como corcunda.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>No Mundo Espiritual, inúmeros espíritos ancestrais passam por um processo de purificação de seus pecados e máculas através do sofrimento no inferno. Contudo, é impossível extinguir a totalidade dessas impurezas espirituais, ou seja, dessa nódoa. Uma fração dela permanece como um resíduo, o qual deve ser partilhado por um descendente para que a purificação se complete. O fenômeno é análogo à queima de um objeto, que, mesmo consumido pelo fogo, sempre deixa cinzas. Portanto, para que esse resíduo seja eliminado, um dos descendentes é escolhido para arcar com essa parcela, tornando-se o portador da purificação. É a isso que se referem os seguidores do budismo quando falam em sofrer para a “eliminação das nódoas cármicas”.</p>
 <p>Nesses casos, o resíduo espiritual flui primeiramente em direção ao cérebro do indivíduo incumbido e, a partir dali, desce pela coluna vertebral. Embora seja de natureza espiritual, ao adentrar o corpo físico, que é matéria, esse resíduo se materializa instantaneamente, convertendo-se em pus. Consequentemente, a quantidade assombrosa de secreção purulenta, que parece inexplicável, se deve ao fato de corresponder à purificação das máculas de dezenas, ou mesmo centenas, de antepassados. Para o homem moderno, tal explanação pode soar inverossímil; contudo, trata-se de uma lei universal e soberana, à qual não podemos nos furtar.</p>
 <p>Já a segunda forma, a cárie costal, origina-se de um acúmulo de toxinas comuns que se depositam sob o periósteo. O processo purificador natural do corpo tenta então expelir essas toxinas para o exterior, o que acaba por perfurar as costelas, causando dores agudas. A medicina recorre a procedimentos cirúrgicos que removem segmentos das costelas, por vezes substituindo-os por materiais rígidos ou simplesmente deixando o local sem reparo. Com o nosso método terapêutico, entretanto, a cura é obtida com facilidade, não levando mais que uma semana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： カリエス・ 病気と霊六 『明日の医術 第三編』昭和18(1943)年10月23日発行 カリエスには脊髄〔椎〕カリエスと肋骨カリエスの二種あって、前者は、脊髄に毒素固結し、それが為、脊柱が彎曲するのであって、即ち傴僂（せむし）となるのである。<br/><br/>医療においては発病の場合、脊柱の彎曲を防ぐ為、胴体にギブスを嵌（は）め、仰臥させ動く事を禁ずるのである。<br/><br/>この方法は幾分の効果はあるが、患者の苦悩は名状すべからざるものがある。<br/><br/>そうして多くは、腰骨の左右いずれかの部分又は大腿部等に一ケ所ないし数個所に腫脹を生じ、穿孔（せんこう）されて膿が排泄されるのである。<br/><br/>その場合、自然穿孔と人為的穿孔とあり、その排膿は頗（すこぶ）る多量にして最もはなはだしいのは、数個所の孔から毎日相当の排膿があり、数年に及ぶものさえある。<br/><br/>こういう患者の膿量は余りに多量なるに不可解に思う事さえある。<br/><br/>勿論多少の痛みもあるが激痛もある。<br/><br/>人により起床する能わず、何年も呻吟し続けるのであるから、まことに悲惨な病気である。<br/><br/>医療では不治とされているが、本療法によれば必ず全治するのである。<br/><br/>ただしかし、全治しても脊柱の彎曲は、ある程度匡正（きょうせい）されるが、常態になる事は困難である。<br/><br/>そうしてこの病気の原因は霊的に因るので、それを説いてみよう。<br/><br/> 霊界において、多数の祖霊が、地獄の苦しみによって罪穢の浄化作用が行われつつあるについて、その罪穢――即ち汚濁のことごとくを消滅する事は不可能である。<br/><br/>それは汚濁の何分の一かは残滓（ざんし）として子孫が分担しなければならないので、そうする事によって完全に消滅するのである。<br/><br/>ちょうど物を燃しても灰が残るようなものである。<br/><br/>故に、右の残滓消滅に対し、その子孫の一人をして分担をなさしめるので、その場合子孫の誰かが選ばれて、その担任者となるのである。<br/><br/>仏教信者が罪障消滅といって苦しむ事があるが、そういう意味である。<br/><br/>そうしてその場合まずその者の頭脳に向って、残滓が霊的に流れてくるので、それが又脊柱を伝わり流下するのである。<br/><br/>しかるに霊的残渣（ざんさ）といえども肉体に流入する場合、肉体は物質であるから残滓は直ちに物質化し膿となるのである。<br/><br/>従って不可解と思う程、多量の膿汁が排泄せらるるのは、何十人何百人の祖霊の罪穢の浄化であるからである。<br/><br/>かような説を聞けば、現代人にはいかにも不可思議と思うであろうが、厳然たる宇宙の法則であって、まことにやむを得ないのである。<br/><br/> 次に、後者である肋骨カリエスは、普通の毒素結溜が骨膜の裏面に集溜し、それが浄化作用によって外部へ排泄されようと為し、肋骨を穿孔するので、その為の激痛であるが、医療においては、手術によって肋骨の何寸かを切り取り、骨の代用として硬質物を繋ぐ事もあり、又はそのままにする事もあるが、本療法によれば容易に治癒し、一週間とはかからないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

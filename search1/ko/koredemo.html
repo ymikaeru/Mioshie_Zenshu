@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>koredemo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： これでもか 『栄光』176号、昭和27(1952)年10月1日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 本教浄霊の偉大なる奇蹟は、これでもかこれでもかという程、後から後から現われてくる。<br><br>この御蔭話などは科学的の検査によって証明されたものであるから、神を信じない科学一点張りの人が読んでも、一言の文句も出ないであろう。<br><br>いつもいう事だが、これ程顕著な生きた事実を目の前に見ても医師は進んで研究しようともしないのだから不思議である。<br><br>吾々が常にいう医学は迷信なりという言葉は、この事だけにみても間違いはあるまい。<br><br>ここで考えてみて貰いたい事は、今日最も恐るべきものとされている肺病中、殊に結核よりも恐ろしいジストマが、こんなにも簡単に治るとしたら、今日国家的大問題である結核も、最早解決されたといってもいいであろう。<br><br>何と慶賀すべき事ではなかろうか。<br><br> 肺ジストマも僅か六日間で 大分県 如意輪中教会 津田 勇（41） うだる様な、七月半の暑い夕刻でした。<br><br>三重支部の例祭より帰ると「今日○○大学の助教授からこんな手紙が来ています」と。<br><br>取る間遅しと開封して見ますと、一人娘の肺ジストマに依る入院をする為、後の諸事万端宜しく頼む、との書状。<br><br>私はその手紙を握り締めながら長嘆息を洩らしました。<br><br>あれ程折ある毎に、この救世教のお道を説き、浄霊の業の偉大さを説明してあるのに、いざ、こんな大病となると、神を信ぜず、私達如きには任せきらずに、入院とは。<br><br>科学迷信者の学校の先生には困ったものだ、如何にしたらこれが良く分るのか、納得出来るのか。<br><br>とにかく行って見よう、と私は真っすぐその足で急拠その娘の宅へ、一里余り自転車を走らせました。<br><br> 床に無理矢理に、寝かせられている病人を見ますと、さして体も疲れを見せてはおらず、熱は微熱程度、「よしこれならば一週間位」と、心にきめ込み「先生マア、これならばとにかく私に一週間任せて下さい」と約三時間、文明の創造ともいうべき、この偉大なる御力によって自他共に体験せし実例をも説き聞かせました。<br><br>それに対し先方は科学否定の錯覚に依る攻撃、現代医学礼讃、交々の激論に夜も深み、到頭「神の御手に縋らして下さい」といささか神の実在を認める奥さんの助言もありまして、その晩より私は、ここに神力の偉大さを痛い程見せ付けて、医科学の迷蒙を覚醒さして又神様への迷信者と蔑視されている私の誤解を解かんものと、世間一般人の既成信仰に対する誤りを正し、主神の顕現に依る救世教の正しき信仰を知らしめんと真剣なる祈りは始りました。<br><br> 二日三日、やがて六日間は過ぎて一週間目の晩「今晩は」と玄関に足を踏み入れるや、その病人たりし娘さん走り出て、いかにも嬉しそうに、満面笑を綻ばせ、「おいちゃん私良くなったのよ」その瞬間、私の頭は嬉しさで一杯で、靴を扱ぐ手もワナナく程でした。<br><br> 次に奥様、先生と、ニコニコして出て来られ、昨晩の待遇に倍増したサービス振り、やがて酒肴の用意も調いて、その場の雰囲気は一層軟くなり「実は津田君、君には大変すまないんだが、今日、県立病院に検診に行ったのだ、その結果がこういう風に良くなっている」と、レントゲン写真を出され、子供好きが故に苦しき生活の中にも、子を思う念の強い先生の事故、特に高価なるフィルムに鮮やかに写し出された胸像は一点の曇りも無く、実に驚くべき完璧さでありました。<br><br>これが一週間前のレントゲンにて、肺ジストマと銘打たれ、早々入院せよと宣告されし胸像とは？ 何としても我々には分らない。<br><br>実に不思議だ？ その上、疑いは弥が上にも強く、特に菌の放出の多い夜の痰と朝の痰とを国立病院、県立病院、○○内科と三カ所にて検痰した結果が、これ又全然菌の出ていない事には驚いたらしく、「僕はこの事ばかしは君に頭を下げる」と、三年間師表と仰ぐ教授夫妻の心からなる喜びの顔よりも、数倍否、数十倍、私の胸中はおさえ切れない大きなる神への感謝と喜びで一杯でした。<br><br>（御讃歌）「如何ならむ聖も知らぬ大いなる救の業を吾は行ふ」「我生命整るさへ嬉しきに医しの業まで許されにける」先生の宅を辞する時は、その御夫妻の姿は、小さく小さくに見ゆる気持が致しました。<br><br> 度重なる御守護、御利益をかたじけのうし、謹んで御礼申し上げます。<br><br> 明主様有難う存じます。<br><br> （昭和二十七年八月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Evidência Incontestável dos Milagres</h2>
 <p>Os grandiosos milagres do Johrei de nossa religião manifestam-se incessantemente, um após o outro, em uma profusão que parece não ter fim. Como estes relatos de graças são comprovados por exames científicos, nem mesmo os mais céticos, devotos irredutíveis da ciência e descrentes em Deus, poderão apresentar uma única objeção.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>Agradeço e retribuo humildemente as inúmeras graças e a constante proteção Divina.
 Muito obrigado, Meishu-Sama.</p>
 <p>(1º de agosto de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： これでもか 『栄光』176号、昭和27(1952)年10月1日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 本教浄霊の偉大なる奇蹟は、これでもかこれでもかという程、後から後から現われてくる。<br/><br/>この御蔭話などは科学的の検査によって証明されたものであるから、神を信じない科学一点張りの人が読んでも、一言の文句も出ないであろう。<br/><br/>いつもいう事だが、これ程顕著な生きた事実を目の前に見ても医師は進んで研究しようともしないのだから不思議である。<br/><br/>吾々が常にいう医学は迷信なりという言葉は、この事だけにみても間違いはあるまい。<br/><br/>ここで考えてみて貰いたい事は、今日最も恐るべきものとされている肺病中、殊に結核よりも恐ろしいジストマが、こんなにも簡単に治るとしたら、今日国家的大問題である結核も、最早解決されたといってもいいであろう。<br/><br/>何と慶賀すべき事ではなかろうか。<br/><br/> 肺ジストマも僅か六日間で 大分県 如意輪中教会 津田 勇（41） うだる様な、七月半の暑い夕刻でした。<br/><br/>三重支部の例祭より帰ると「今日○○大学の助教授からこんな手紙が来ています」と。<br/><br/>取る間遅しと開封して見ますと、一人娘の肺ジストマに依る入院をする為、後の諸事万端宜しく頼む、との書状。<br/><br/>私はその手紙を握り締めながら長嘆息を洩らしました。<br/><br/>あれ程折ある毎に、この救世教のお道を説き、浄霊の業の偉大さを説明してあるのに、いざ、こんな大病となると、神を信ぜず、私達如きには任せきらずに、入院とは。<br/><br/>科学迷信者の学校の先生には困ったものだ、如何にしたらこれが良く分るのか、納得出来るのか。<br/><br/>とにかく行って見よう、と私は真っすぐその足で急拠その娘の宅へ、一里余り自転車を走らせました。<br/><br/> 床に無理矢理に、寝かせられている病人を見ますと、さして体も疲れを見せてはおらず、熱は微熱程度、「よしこれならば一週間位」と、心にきめ込み「先生マア、これならばとにかく私に一週間任せて下さい」と約三時間、文明の創造ともいうべき、この偉大なる御力によって自他共に体験せし実例をも説き聞かせました。<br/><br/>それに対し先方は科学否定の錯覚に依る攻撃、現代医学礼讃、交々の激論に夜も深み、到頭「神の御手に縋らして下さい」といささか神の実在を認める奥さんの助言もありまして、その晩より私は、ここに神力の偉大さを痛い程見せ付けて、医科学の迷蒙を覚醒さして又神様への迷信者と蔑視されている私の誤解を解かんものと、世間一般人の既成信仰に対する誤りを正し、主神の顕現に依る救世教の正しき信仰を知らしめんと真剣なる祈りは始りました。<br/><br/> 二日三日、やがて六日間は過ぎて一週間目の晩「今晩は」と玄関に足を踏み入れるや、その病人たりし娘さん走り出て、いかにも嬉しそうに、満面笑を綻ばせ、「おいちゃん私良くなったのよ」その瞬間、私の頭は嬉しさで一杯で、靴を扱ぐ手もワナナく程でした。<br/><br/> 次に奥様、先生と、ニコニコして出て来られ、昨晩の待遇に倍増したサービス振り、やがて酒肴の用意も調いて、その場の雰囲気は一層軟くなり「実は津田君、君には大変すまないんだが、今日、県立病院に検診に行ったのだ、その結果がこういう風に良くなっている」と、レントゲン写真を出され、子供好きが故に苦しき生活の中にも、子を思う念の強い先生の事故、特に高価なるフィルムに鮮やかに写し出された胸像は一点の曇りも無く、実に驚くべき完璧さでありました。<br/><br/>これが一週間前のレントゲンにて、肺ジストマと銘打たれ、早々入院せよと宣告されし胸像とは？ 何としても我々には分らない。<br/><br/>実に不思議だ？ その上、疑いは弥が上にも強く、特に菌の放出の多い夜の痰と朝の痰とを国立病院、県立病院、○○内科と三カ所にて検痰した結果が、これ又全然菌の出ていない事には驚いたらしく、「僕はこの事ばかしは君に頭を下げる」と、三年間師表と仰ぐ教授夫妻の心からなる喜びの顔よりも、数倍否、数十倍、私の胸中はおさえ切れない大きなる神への感謝と喜びで一杯でした。<br/><br/>（御讃歌）「如何ならむ聖も知らぬ大いなる救の業を吾は行ふ」「我生命整るさへ嬉しきに医しの業まで許されにける」先生の宅を辞する時は、その御夫妻の姿は、小さく小さくに見ゆる気持が致しました。<br/><br/> 度重なる御守護、御利益をかたじけのうし、謹んで御礼申し上げます。<br/><br/> 明主様有難う存じます。<br/><br/> （昭和二十七年八月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

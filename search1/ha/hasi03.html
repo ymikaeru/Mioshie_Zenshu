@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hasi03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『法難手記』昭和25(1950)年10月30日発行 この記録は昭和二十五年五月八日発生し、同年七月十二日一段落着いたまでの、私の嘗（な）めた体験記録であって、これによって目下起訴中の私の裁判を有利に導こうなどという考えは毫末（ごうまつ）もない。<br><br>ただ早い内に書かないと記憶を失う虞（おそ）れがあるから、筆を執ったまでである。<br><br>今回の事件は私にとっては非常に尊い体験であって何人（なんぴと）といえども、現代社会に呼吸している以上、僅かな不注意や思い違い、法に無知なる等のため、思わざる災禍を被る事を、充分知っておかなければならない事を痛感したからで、それらを一人でも多くの人に、知らせたい老婆心から、これを書いたのである。<br><br>そうして当局者に要望したい事は、真の民主日本たらしめんためには、司法行政の面にも、改善すべき幾多の課題のある事を、この手記によって感得されたい事で、私はこれを念願して止まないものである。<br><br> 今度、私が二十二日間に亘（わた）った体験によって得たところの、警察官並びに検事の取調べは、到底想像だも出来ない程の、非民主的のもので一般にはほとんど知られていないようである。<br><br>もしかくのごとき不合理が許されるとしたら、今後いかに多くの無辜（むこ）の人民が災いせられ、苦難を被るかは、計り知れないものがあろう。<br><br>この事実を知った吾らは、何としても救わずにはおられないのである。<br><br>いかに完璧なる憲法が制定されたとしても、その運営がこれに伴わないとすれば、せっかく得た自由も民主主義も、泥土に踏みにじられる結果となるであろう。<br><br>今において一日も早く一大覚醒をされなければ、寒心に堪えないと思うので、これを赤裸々に発表するのである。<br><br>吾々は専門家ではないが、そもそも法の建前なるものは、善を勧め悪を懲らし、よりよき社会を作り、最大多数の最大幸福を実現する。<br><br>それが基本的信念であらねばならないと惟（おも）うのである。<br><br> しかるに、今回の事件に当って、身をもってつぶさに体験した結論によれば、右目的とは余りに背反している事実である。<br><br>私は御承知のごとく一宗教人ではあるが、宗教の本来も、よりよき人類社会の実現を目標とし、善を勧め悪を懲らし、理想世界を作るにあるのは言をまたないのである。<br><br>従って、吾らがいかに宗教弘通（ぐつう）に専念し、自由民主主義社会を企図するといえども、法の運営に当る人達が、それに無理解であるとしたら、ここに覚醒を促し、正しき認識の下に、所期の目的を達せられん事を願望するのである。<br><br>それがための一資料として、本記録がいささかなりとも、役立つとすれば、幸甚この上なき次第である。<br><br>とは言うものの、省りみれば、吾らといえども今回の事件によって、今日までの経営がいかに杜撰（ずさん）放漫を極め、監督不行届きであったかは、まこと自責の念に堪えないものがある。<br><br>もし今回の事件なかりせば、放漫は知らず識らずの中に、幾多災いの種を蒔いたかも知れなかったので、大難が小難で済んだと思ったのである。<br><br>全く神が当局の手を煩わして、一大粛正の恩恵を垂れ給うたと信じ今回の大いなる苦難も、神の愛の鞭でなくて、何であろうと深く省み、ただただ感謝感激あるのみである。<br><br>その鞭の役目を荷われた、当局者の労苦に対しても、深甚（しんじん）なる感謝を捧ぐるのである。<br><br> この著の題名を法難手記としたが、これを実際から言えば当らないかも知れない。<br><br>と言うのは、彼の基督（キリスト）にしろ、日蓮、法然、親鸞、近くは天理教教祖にしろ、その開祖教祖がいまだ現行のごとき法のない時代であったにかかわらず、法難の言葉を用いられて来たのであるが、この法の意味は、今日の法律の法ではなく、仏教から出た言葉であろう。<br><br>それは仏教の最初は仏法と呼ばれ、中途から仏教に転化したのであるから、この意味において、キリストのごときは法難ではなく、受難というべきであろう。<br><br> そうして私の今回の事件は、宗教上には何ら関係がなく、単なる脱税問題が主であったから、法難ではなく法律難と言うのが妥当であろう。<br><br>これは別の話ではあるが、天理教教祖中山ミキ刀自は、投獄さるる事十数回に及んだという事である。<br><br>にもかかわらず、今日のごとき、隆昌を見るに到った事は、宗教に法難は付物であって、官憲がいかに強圧するといえども真に価値あるものなれば、決して挫折する事なく、いつかは社会から、認められるようになる事を知るのである。<br><br> 次に、本著の目的について、今一つの重要事がある。<br><br>御承知のごとく、今度の事件発生するや、大抵の新聞紙には、特ダネ扱いに大々的に報道されたが、その記事を読んでみると、随分出鱈目（でたらめ）が多いので、社会を誤るのはなはだしきを憂い、一応の弁明をなす必要あるを思うのである。<br><br>吾らも宗教家として神意を体し、救世済民の聖業に奮励しつつある以上、この際真相を披瀝し、誤解の暗雲を一掃するこそ執るべき喫緊（きっきん）の手段と想い、これをかくのである。<br><br>この意味において吾らの誠意のあるところを酌みとられいわゆる、法難の実態を把握されると共に、公正なる批判をされん事を、望んで止まないものである。<br><br> 昭和二十五年八月 記 録 者 識
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Prefácio ao Relato da Perseguição Religiosa</h2>
 <p>O presente registro narra as experiências que vivenciei desde o dia 8 de maio até o desfecho parcial do caso, em 12 de julho de 1950. Não nutro, de modo algum, a intenção de utilizar este relato para obter qualquer vantagem no processo judicial que ora enfrento. Tomei da pena unicamente pelo receio de que, com o tempo, as lembranças se esvaíssem. Este episódio representou para mim uma experiência de valor inestimável, pois me fez compreender com profundidade que qualquer pessoa que respire na sociedade moderna, por um ínfimo descuido, um equívoco ou simples desconhecimento da lei, pode ser vítima de uma calamidade inesperada. Foi o sincero anseio de alertar o maior número possível de pessoas sobre essa realidade que me impeliu a escrever. Almejo, outrossim, que as autoridades, por meio deste testemunho, percebam as inúmeras e necessárias melhorias a serem feitas na administração da justiça, para que o Japão se torne, de fato, uma nação verdadeiramente democrática. Este é o meu mais fervoroso desejo.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Há ainda outro propósito de suma importância nesta obra. Como é de conhecimento geral, quando o caso veio à tona, a maioria dos jornais o noticiou de forma espetacular, como um furo de reportagem. Lendo esses artigos, porém, deparei-me com uma quantidade assombrosa de informações infundadas. Preocupa-me profundamente que tais inverdades induzam a sociedade a erro, e sinto a necessidade de oferecer um esclarecimento. Como religiosos devotados à Vontade Divina e empenhados na sagrada obra de salvação da humanidade, consideramos uma medida de máxima urgência expor a verdade e dissipar as nuvens escuras do mal-entendido. Nesse sentido, rogo que os leitores compreendam a sinceridade de nossas intenções, apreendam a realidade do que se passou e, a partir dela, façam um julgamento imparcial.</p>
 <p>O Autor,
 Agosto de 1950</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『法難手記』昭和25(1950)年10月30日発行 この記録は昭和二十五年五月八日発生し、同年七月十二日一段落着いたまでの、私の嘗（な）めた体験記録であって、これによって目下起訴中の私の裁判を有利に導こうなどという考えは毫末（ごうまつ）もない。<br/><br/>ただ早い内に書かないと記憶を失う虞（おそ）れがあるから、筆を執ったまでである。<br/><br/>今回の事件は私にとっては非常に尊い体験であって何人（なんぴと）といえども、現代社会に呼吸している以上、僅かな不注意や思い違い、法に無知なる等のため、思わざる災禍を被る事を、充分知っておかなければならない事を痛感したからで、それらを一人でも多くの人に、知らせたい老婆心から、これを書いたのである。<br/><br/>そうして当局者に要望したい事は、真の民主日本たらしめんためには、司法行政の面にも、改善すべき幾多の課題のある事を、この手記によって感得されたい事で、私はこれを念願して止まないものである。<br/><br/> 今度、私が二十二日間に亘（わた）った体験によって得たところの、警察官並びに検事の取調べは、到底想像だも出来ない程の、非民主的のもので一般にはほとんど知られていないようである。<br/><br/>もしかくのごとき不合理が許されるとしたら、今後いかに多くの無辜（むこ）の人民が災いせられ、苦難を被るかは、計り知れないものがあろう。<br/><br/>この事実を知った吾らは、何としても救わずにはおられないのである。<br/><br/>いかに完璧なる憲法が制定されたとしても、その運営がこれに伴わないとすれば、せっかく得た自由も民主主義も、泥土に踏みにじられる結果となるであろう。<br/><br/>今において一日も早く一大覚醒をされなければ、寒心に堪えないと思うので、これを赤裸々に発表するのである。<br/><br/>吾々は専門家ではないが、そもそも法の建前なるものは、善を勧め悪を懲らし、よりよき社会を作り、最大多数の最大幸福を実現する。<br/><br/>それが基本的信念であらねばならないと惟（おも）うのである。<br/><br/> しかるに、今回の事件に当って、身をもってつぶさに体験した結論によれば、右目的とは余りに背反している事実である。<br/><br/>私は御承知のごとく一宗教人ではあるが、宗教の本来も、よりよき人類社会の実現を目標とし、善を勧め悪を懲らし、理想世界を作るにあるのは言をまたないのである。<br/><br/>従って、吾らがいかに宗教弘通（ぐつう）に専念し、自由民主主義社会を企図するといえども、法の運営に当る人達が、それに無理解であるとしたら、ここに覚醒を促し、正しき認識の下に、所期の目的を達せられん事を願望するのである。<br/><br/>それがための一資料として、本記録がいささかなりとも、役立つとすれば、幸甚この上なき次第である。<br/><br/>とは言うものの、省りみれば、吾らといえども今回の事件によって、今日までの経営がいかに杜撰（ずさん）放漫を極め、監督不行届きであったかは、まこと自責の念に堪えないものがある。<br/><br/>もし今回の事件なかりせば、放漫は知らず識らずの中に、幾多災いの種を蒔いたかも知れなかったので、大難が小難で済んだと思ったのである。<br/><br/>全く神が当局の手を煩わして、一大粛正の恩恵を垂れ給うたと信じ今回の大いなる苦難も、神の愛の鞭でなくて、何であろうと深く省み、ただただ感謝感激あるのみである。<br/><br/>その鞭の役目を荷われた、当局者の労苦に対しても、深甚（しんじん）なる感謝を捧ぐるのである。<br/><br/> この著の題名を法難手記としたが、これを実際から言えば当らないかも知れない。<br/><br/>と言うのは、彼の基督（キリスト）にしろ、日蓮、法然、親鸞、近くは天理教教祖にしろ、その開祖教祖がいまだ現行のごとき法のない時代であったにかかわらず、法難の言葉を用いられて来たのであるが、この法の意味は、今日の法律の法ではなく、仏教から出た言葉であろう。<br/><br/>それは仏教の最初は仏法と呼ばれ、中途から仏教に転化したのであるから、この意味において、キリストのごときは法難ではなく、受難というべきであろう。<br/><br/> そうして私の今回の事件は、宗教上には何ら関係がなく、単なる脱税問題が主であったから、法難ではなく法律難と言うのが妥当であろう。<br/><br/>これは別の話ではあるが、天理教教祖中山ミキ刀自は、投獄さるる事十数回に及んだという事である。<br/><br/>にもかかわらず、今日のごとき、隆昌を見るに到った事は、宗教に法難は付物であって、官憲がいかに強圧するといえども真に価値あるものなれば、決して挫折する事なく、いつかは社会から、認められるようになる事を知るのである。<br/><br/> 次に、本著の目的について、今一つの重要事がある。<br/><br/>御承知のごとく、今度の事件発生するや、大抵の新聞紙には、特ダネ扱いに大々的に報道されたが、その記事を読んでみると、随分出鱈目（でたらめ）が多いので、社会を誤るのはなはだしきを憂い、一応の弁明をなす必要あるを思うのである。<br/><br/>吾らも宗教家として神意を体し、救世済民の聖業に奮励しつつある以上、この際真相を披瀝し、誤解の暗雲を一掃するこそ執るべき喫緊（きっきん）の手段と想い、これをかくのである。<br/><br/>この意味において吾らの誠意のあるところを酌みとられいわゆる、法難の実態を把握されると共に、公正なる批判をされん事を、望んで止まないものである。<br/><br/> 昭和二十五年八月 記 録 者 識</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

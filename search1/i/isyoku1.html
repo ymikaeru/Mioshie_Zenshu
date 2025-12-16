@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>isyoku1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 異食物に就て 『結核問題と其解決策』昭和18(1943)年5月5日再版発行 異食物について私の経験を書いてみよう。<br><br> そもそも人間の消化機能なるものは、人間の食物として定められている天与の物以外は消化し尽す事は出来ないのである。<br><br>従って薬剤即ち洋薬も漢薬も天与の飲食物ではない。<br><br>非飲食物であり、異物である。<br><br>又薬と称し、蛇、蛞蝓（なめくじ）、蚯蚓（みみず）を呑み、その他生物の生血を飲む等は、いずれも異食物である以上、消化しきれず毒素は残存し、それが病原となるのである。<br><br> 又近来カルシウムの補給として、魚の骨を食する事を推奨しているが、これらも誤りである。<br><br>元来魚は身を食すべきであって、骨尾頭等は捨てるべきである。<br><br>即ち人間の歯は骨のごときものは噛めないようになっているにみても明かである。<br><br>それらは猫の食物とするのが自然であろう。<br><br>そうして骨の栄養として骨を食い、血液を殖やす為に血液を飲む等の単純にして幼稚な学理は、一日も早くその誤謬に目覚められたいものである。<br><br>右について、数種の実例をかいてみよう。<br><br> 私は以前、某病院の看護婦長を長年勤めていた婦人から聞いた話であるが、四拾余歳の男子、何らの原因もなしに急死したのである。<br><br>従って、その死因を疑問として解剖に付したところその者の腸管内に黒色の小粒物が堆積充満しており、それが為腸の運動に支障を及ぼし、急死したのである。<br><br>この人は、便秘の為永年に渉り下剤として服んだ――その丸薬が死因である事が分ったのである。<br><br> 次に、右と同様な原因に依（より）て急死した五十歳位の男子があったそうである。<br><br>ただ異（ちが）うのは、この者は下剤ではなく、消化薬の連続服用がその原因となって生命を落としたので、解剖の結果、胃の底部及び腸管内は、消化薬の堆積はなはだしかったそうである。<br><br> 次に、私の弟子が治療した胃病患者があった。<br><br>それは、胃の下部に小さな数個の塊があって、幾分の不決が常にあったのである。<br><br>しかるに、本療法を受けるや間もなく数回の嘔吐をなし、それと共に右の塊は消失し、不快感は去ったのである。<br><br>しかるに、嘔吐の際、ヌラのごときものが出て、それが蛞蝓（なめくじ）の臭いがするのである。<br><br>その人は十数年以前蛞蝓を数匹呑んだ事があったそうで、全くその蛞蝓が消化せず残存していたものである。<br><br> 又、歌う職業の婦人で、声を良くせんが為蛞蝓を二匹呑んだのである。<br><br>しかるに数年を経て、胃部の左方に癌のごとき小塊が出来、漸次膨脹するので入院し、手術を受けたところ、驚くべし一匹の蛞蝓が死んで固結となっており、一匹の方は未だ生きていて、腹の中で育ち、非常に大きくなっていたそうで、塊はそれであったのである。<br><br> 次に、私が取り扱った三十歳位の婦人で、十数年以前蝮（まむし）の毒液を肩及び背部に数回ずつ注射したのであった。<br><br>しかるに、年を経るに従い、その部に固結が出来、非常に苦痛であるというのである。<br><br>しかるに頗る難症で、全治までに数年を費やしたのである。<br><br> 又、蛇を乾燥さして粉末にしたものを呑み又は蛇酒を飲み、蛇を食した人は例外なく胃部及び腹膜部に固結が出来ているのである。<br><br>そうしてこの固結は、尿毒よりも悪性であり、治癒に時日がかゝるのである 以上、列挙したごとき例は枚挙に遑（いとま）ないほどであるが、この事を知らず病を治さんとして、多額の金銭を費やし、不味、臭味等を薬と思い、我慢しつゝ飲食し、病原を作り、生命までも失うに至っては、その愚や及ぶべからずというべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Acerca das Substâncias Estranhas ao Organismo</h2>
 <p>Permitam-me discorrer sobre minhas experiências no que tange às substâncias estranhas ao organismo.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Cuidai pessoalmente de uma senhora de aproximadamente trinta anos que, mais de uma década antes, havia recebido diversas injeções de veneno de víbora em seu ombro e em suas costas. Com o passar dos anos, formaram-se nódulos endurecidos nos locais das aplicações, que lhe causavam dores intensas. Seu caso mostrou-se extremamente complexo, e foram necessários vários anos para que alcançasse a cura completa.</p>
 <p>Além disso, as pessoas que ingerem serpentes — seja sob a forma de pó, em bebidas alcoólicas ou mesmo cozidas — invariavelmente desenvolvem nódulos endurecidos na região do estômago e do peritônio. Essas formações são de natureza mais maligna que as toxinas urêmicas e seu tratamento demanda um longo período de tempo.</p>
 <p>Os exemplos que apresentei são apenas alguns dentre inúmeros casos semelhantes que poderiam ser citados. É de uma insensatez sem limites que as pessoas, por desconhecerem tais fatos, despendam fortunas na tentativa de se curarem, submetendo-se a sabores e odores desagradáveis na crença de que estão tomando um remédio. Ao agirem assim, acabam por criar a própria causa de suas doenças e, em última instância, chegam a perder a própria vida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 異食物に就て 『結核問題と其解決策』昭和18(1943)年5月5日再版発行 異食物について私の経験を書いてみよう。<br/><br/> そもそも人間の消化機能なるものは、人間の食物として定められている天与の物以外は消化し尽す事は出来ないのである。<br/><br/>従って薬剤即ち洋薬も漢薬も天与の飲食物ではない。<br/><br/>非飲食物であり、異物である。<br/><br/>又薬と称し、蛇、蛞蝓（なめくじ）、蚯蚓（みみず）を呑み、その他生物の生血を飲む等は、いずれも異食物である以上、消化しきれず毒素は残存し、それが病原となるのである。<br/><br/> 又近来カルシウムの補給として、魚の骨を食する事を推奨しているが、これらも誤りである。<br/><br/>元来魚は身を食すべきであって、骨尾頭等は捨てるべきである。<br/><br/>即ち人間の歯は骨のごときものは噛めないようになっているにみても明かである。<br/><br/>それらは猫の食物とするのが自然であろう。<br/><br/>そうして骨の栄養として骨を食い、血液を殖やす為に血液を飲む等の単純にして幼稚な学理は、一日も早くその誤謬に目覚められたいものである。<br/><br/>右について、数種の実例をかいてみよう。<br/><br/> 私は以前、某病院の看護婦長を長年勤めていた婦人から聞いた話であるが、四拾余歳の男子、何らの原因もなしに急死したのである。<br/><br/>従って、その死因を疑問として解剖に付したところその者の腸管内に黒色の小粒物が堆積充満しており、それが為腸の運動に支障を及ぼし、急死したのである。<br/><br/>この人は、便秘の為永年に渉り下剤として服んだ――その丸薬が死因である事が分ったのである。<br/><br/> 次に、右と同様な原因に依（より）て急死した五十歳位の男子があったそうである。<br/><br/>ただ異（ちが）うのは、この者は下剤ではなく、消化薬の連続服用がその原因となって生命を落としたので、解剖の結果、胃の底部及び腸管内は、消化薬の堆積はなはだしかったそうである。<br/><br/> 次に、私の弟子が治療した胃病患者があった。<br/><br/>それは、胃の下部に小さな数個の塊があって、幾分の不決が常にあったのである。<br/><br/>しかるに、本療法を受けるや間もなく数回の嘔吐をなし、それと共に右の塊は消失し、不快感は去ったのである。<br/><br/>しかるに、嘔吐の際、ヌラのごときものが出て、それが蛞蝓（なめくじ）の臭いがするのである。<br/><br/>その人は十数年以前蛞蝓を数匹呑んだ事があったそうで、全くその蛞蝓が消化せず残存していたものである。<br/><br/> 又、歌う職業の婦人で、声を良くせんが為蛞蝓を二匹呑んだのである。<br/><br/>しかるに数年を経て、胃部の左方に癌のごとき小塊が出来、漸次膨脹するので入院し、手術を受けたところ、驚くべし一匹の蛞蝓が死んで固結となっており、一匹の方は未だ生きていて、腹の中で育ち、非常に大きくなっていたそうで、塊はそれであったのである。<br/><br/> 次に、私が取り扱った三十歳位の婦人で、十数年以前蝮（まむし）の毒液を肩及び背部に数回ずつ注射したのであった。<br/><br/>しかるに、年を経るに従い、その部に固結が出来、非常に苦痛であるというのである。<br/><br/>しかるに頗る難症で、全治までに数年を費やしたのである。<br/><br/> 又、蛇を乾燥さして粉末にしたものを呑み又は蛇酒を飲み、蛇を食した人は例外なく胃部及び腹膜部に固結が出来ているのである。<br/><br/>そうしてこの固結は、尿毒よりも悪性であり、治癒に時日がかゝるのである 以上、列挙したごとき例は枚挙に遑（いとま）ないほどであるが、この事を知らず病を治さんとして、多額の金銭を費やし、不味、臭味等を薬と思い、我慢しつゝ飲食し、病原を作り、生命までも失うに至っては、その愚や及ぶべからずというべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

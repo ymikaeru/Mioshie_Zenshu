@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>issyuno4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一種の人権蹂躪 『栄光』84号、昭和25(1950)年12月27日発行 今、人権蹂躙擁護週間だから、かいてみるのであるが、一般に人権蹂躙と言えば、個人的のもののみのように思われるが、私の言わんとするのはそれとは違った団体権蹂躙である。<br><br>例えば去る十二月二日、夜のラジオ放送の地方便りの中、静岡県からの放送に、次のごとき事があった。<br><br> 今週のニュース特集 はいはい静岡の長田です、 御承知の様に、お光り様は終戦後の混乱に乗じて、人類から病と貧乏と争いをとり除くと称え、ぐんぐん信者を三十万も集め熱海温泉を本拠にいまでもおよそ五十五億円に上る財産があると云われています。<br><br> 去る十月十一日の第一回の公判の時にも、お光り様の岡田教祖は新型高級自動車でのりつけ、傍聴席をうずめた信者達に迎えられ、弁護人席には元司法大臣、小原直氏他十三人が居並び、この弁護費用もおよそ三百五十万円を下るまいと噂されています。<br><br> 最近のお光り様について地元の熱海警察署に聞いてみますと、相変らず五百人以上の参詣者があり、しかも華々しく着飾った若い娘さんも多く、熱海桃山には、お光り様の本堂である地上天国、およそ三万坪が建築中であると伝えています、取調べに当った静岡地方検察庁の吉良検事は「まあ私の取調中にも雨の中に土下座して信者が岡田を拝むような変った風景があった」アナ「弁護士が大勢ついて大がかりでやっており相当強いようですがどうなるでしょうか」「もちろん有罪と確信しています、いくら生神様といわれても、多くの役人達を金の力で堕落させた岡田の責任というものは徹底的に追及されねばならぬものだと思います」と語りまた町の人々はお光り様について「お光り様は邪教だね、あんなのがはばをきかすのは日本文化の低い証拠だと思います」とものべています、去る九月には係りの吉良検事にあて、新潟のある母親から「一人娘がお光りにこって家の金を今までに八万円ももち出しており困っています、是非この悪い夢からさまさせて下さい」と切々たる情をつめて訴える手紙も出ているということです、 静岡からその後のお光り様についてお伝えします（これは放送記録による）。<br><br> これを聴いた限りの人は、随分思い切った放送と驚いたであろう。<br><br>もちろん本教に対して名誉毀損であり、信用を傷つけるのもおびただしいものがある。<br><br>しかも虚偽捏造的の内容がほとんどで、取あえず静岡放送局に、本教係りの者が赴き調査したところ、左のごとき事が判った。<br><br> 最初の吉良検事の録音放送であるが、これは不問に付し難いので、弁護人より釈明を求める事にしたが、その理由を簡単に言えば、事件はいまだ公判を開始したばかりで、裁判の核心までには到っていないので、審議の結果でなければ、白か、黒か判らないにかかわらず、今日有罪を確信するなどと言うのは、はなはだ不謹慎で検事の言うべき言葉ではないとは専門家の言である。<br><br>由来人も知るごとく、民主主義とは、有罪と判定さるるまでは、白紙をもって観るのが本当とされている。<br><br>としたら、検事といえども最初から有罪と決めてかかるとすれば、公平な裁判など出来ようはずがないと言えよう。<br><br>ゆえにその点あくまで追及し、責任を問う積りである。<br><br> 次の新潟県の一老母が、娘が救世教に騙されて八万円の大金を献金したので困っているという事であるが、これが事実とすれば、本教は黙視する事は出来ない。<br><br>何となれば本教の建前たるや、不幸に悩める人を幸福にするのである以上、たとえ一老母といえども、不幸な境遇に陥入れたとしたら、吾らは大いに責任を感ずるのである。<br><br>従って早速本人を訪ねて、よく事情を聴取し、事実としたら献金全部を返還すると共に、将来安心して老後を暮せるよう、考慮を払わなければならないと思うので、放送局に宿所姓名を訊ねたところ、吉良検事からの投書によるというので、目下同検事に問合せ中である。<br><br> 次の熱海市民の声として、メシヤ教は邪教云々とあったが、これはどうも合点がゆかない、というのは、熱海市民は本教に対しては、日頃から非常に好意を持っているので、たとえ、一人の声といえども録音まで吹っ込むんだから、余程の確信がなくてはならないと思うので、本人に会ってどこに邪教の点があるかを訊き、それが確実であれば、本教といえども充分反省しなければならないのである。<br><br>また放送局も少し変だと思うのは、本教に対する非難の声のみで、それと反対の声を放送しないで、これでは公平の扱いとは言えないから追及したところ、局員主脳者は、録音班が持って来たそのままを放送したと言い、その非を認め低頭平身大いに陳謝したそうであった。<br><br> 右は、今日までのありのままの経過をかいたのであるが、全放送を通じて冷静に検討する時、誰が目にも悪意が含まれている点と、軽蔑的に扱われた点は認めない訳にはゆくまい。<br><br>しかもこの放送は全国的であってみれば、本教に対しいかに重大なる被害を蒙らせたかは、測り知れないものがある。<br><br>第一検事が有罪を確信するとすれば、一般人は救世教には必ず何か不純なものがあるに違いないと思うだろうし、また家族の一人が騙されて大金を上げさせられるとしたら、そんな宗教にはウッカリ近寄れないと恐れをなすであろう。<br><br>また御膝元の熱海市民が邪教というのだから、この言葉は相当信用してよかろうと思うであろう。<br><br> 右の各種の事項による悪影響は、到底看過し得ないものがある。<br><br>しかも本教の推察によれば、事実有り得べからざるもののみにて、恐らく何者かが為にする意図で、捏造されたものに違いないと思われるのである。<br><br> 最後に、一つのナンセンスをかいてみよう。<br><br>検事の言葉の中に、本教は官公吏を堕落させたというが、これは可笑（おか）しな話である。<br><br>仮にその通りだとすれば、官公吏は元々立派な人達であるが、本教が堕落さしたというのだから、本教のみに責任があって、官公吏には責任がない訳である。<br><br>だから検事の言に従えば、現在の官公吏は、本教のような怪しからん誘導者がなければ、堕落せずに済む立派な人達である。<br><br>何と心強い日本ではある事よ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Certa Forma de Atentado aos Direitos Humanos</h2>
 <p>Na presente Semana de Defesa dos Direitos Humanos, decidi discorrer sobre um tema pertinente. Comumente, a violação dos direitos humanos é percebida como uma questão de âmbito estritamente individual. Contudo, o que pretendo abordar difere dessa concepção, tratando-se, em verdade, de um atentado aos direitos de uma coletividade.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>O que descrevi acima é o relato fidedigno dos acontecimentos até o presente momento. Ao analisar a transmissão com serenidade, é impossível não reconhecer a malícia subjacente e o tratamento depreciativo que nos foi conferido. Considerando seu alcance nacional, o prejuízo causado à nossa Igreja é imensurável. Primeiro, a declaração do promotor de que está "convicto da culpa" levará o público a crer que há, indubitavelmente, algo de impuro em nossa instituição. Segundo, a história da mãe cuja filha teria sido enganada para doar uma grande quantia de dinheiro fará com que as pessoas temam se aproximar de uma religião assim. Por fim, a afirmação de que os próprios cidadãos de Atami, onde se localiza nossa sede, nos consideram uma doutrina maligna, conferirá grande credibilidade a essa calúnia.</p>
 <p>Todos esses fatores geram um impacto negativo que não pode ser ignorado. Ademais, nossa avaliação indica que tais alegações são desprovidas de qualquer fundamento, levando-nos a crer que se trata de uma farsa orquestrada com o nítido propósito de nos prejudicar.</p>
 <p>Para concluir, permitam-me apontar um disparate. Na fala do promotor, afirma-se que nossa Igreja "corrompeu funcionários públicos". Trata-se de uma afirmação verdadeiramente absurda. Se aceitarmos essa premissa, significa que os funcionários públicos eram, em sua origem, pessoas íntegras, e que foi a nossa Igreja quem os levou à perdição. Disso se conclui que a responsabilidade recai unicamente sobre nós, eximindo completamente os funcionários. Seguindo o raciocínio do promotor, os funcionários públicos de hoje são homens de bem, que só se corromperiam se houvesse um indutor nefasto como a nossa Igreja. Que alento saber que vivemos em um Japão tão virtuoso</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一種の人権蹂躪 『栄光』84号、昭和25(1950)年12月27日発行 今、人権蹂躙擁護週間だから、かいてみるのであるが、一般に人権蹂躙と言えば、個人的のもののみのように思われるが、私の言わんとするのはそれとは違った団体権蹂躙である。<br/><br/>例えば去る十二月二日、夜のラジオ放送の地方便りの中、静岡県からの放送に、次のごとき事があった。<br/><br/> 今週のニュース特集 はいはい静岡の長田です、 御承知の様に、お光り様は終戦後の混乱に乗じて、人類から病と貧乏と争いをとり除くと称え、ぐんぐん信者を三十万も集め熱海温泉を本拠にいまでもおよそ五十五億円に上る財産があると云われています。<br/><br/> 去る十月十一日の第一回の公判の時にも、お光り様の岡田教祖は新型高級自動車でのりつけ、傍聴席をうずめた信者達に迎えられ、弁護人席には元司法大臣、小原直氏他十三人が居並び、この弁護費用もおよそ三百五十万円を下るまいと噂されています。<br/><br/> 最近のお光り様について地元の熱海警察署に聞いてみますと、相変らず五百人以上の参詣者があり、しかも華々しく着飾った若い娘さんも多く、熱海桃山には、お光り様の本堂である地上天国、およそ三万坪が建築中であると伝えています、取調べに当った静岡地方検察庁の吉良検事は「まあ私の取調中にも雨の中に土下座して信者が岡田を拝むような変った風景があった」アナ「弁護士が大勢ついて大がかりでやっており相当強いようですがどうなるでしょうか」「もちろん有罪と確信しています、いくら生神様といわれても、多くの役人達を金の力で堕落させた岡田の責任というものは徹底的に追及されねばならぬものだと思います」と語りまた町の人々はお光り様について「お光り様は邪教だね、あんなのがはばをきかすのは日本文化の低い証拠だと思います」とものべています、去る九月には係りの吉良検事にあて、新潟のある母親から「一人娘がお光りにこって家の金を今までに八万円ももち出しており困っています、是非この悪い夢からさまさせて下さい」と切々たる情をつめて訴える手紙も出ているということです、 静岡からその後のお光り様についてお伝えします（これは放送記録による）。<br/><br/> これを聴いた限りの人は、随分思い切った放送と驚いたであろう。<br/><br/>もちろん本教に対して名誉毀損であり、信用を傷つけるのもおびただしいものがある。<br/><br/>しかも虚偽捏造的の内容がほとんどで、取あえず静岡放送局に、本教係りの者が赴き調査したところ、左のごとき事が判った。<br/><br/> 最初の吉良検事の録音放送であるが、これは不問に付し難いので、弁護人より釈明を求める事にしたが、その理由を簡単に言えば、事件はいまだ公判を開始したばかりで、裁判の核心までには到っていないので、審議の結果でなければ、白か、黒か判らないにかかわらず、今日有罪を確信するなどと言うのは、はなはだ不謹慎で検事の言うべき言葉ではないとは専門家の言である。<br/><br/>由来人も知るごとく、民主主義とは、有罪と判定さるるまでは、白紙をもって観るのが本当とされている。<br/><br/>としたら、検事といえども最初から有罪と決めてかかるとすれば、公平な裁判など出来ようはずがないと言えよう。<br/><br/>ゆえにその点あくまで追及し、責任を問う積りである。<br/><br/> 次の新潟県の一老母が、娘が救世教に騙されて八万円の大金を献金したので困っているという事であるが、これが事実とすれば、本教は黙視する事は出来ない。<br/><br/>何となれば本教の建前たるや、不幸に悩める人を幸福にするのである以上、たとえ一老母といえども、不幸な境遇に陥入れたとしたら、吾らは大いに責任を感ずるのである。<br/><br/>従って早速本人を訪ねて、よく事情を聴取し、事実としたら献金全部を返還すると共に、将来安心して老後を暮せるよう、考慮を払わなければならないと思うので、放送局に宿所姓名を訊ねたところ、吉良検事からの投書によるというので、目下同検事に問合せ中である。<br/><br/> 次の熱海市民の声として、メシヤ教は邪教云々とあったが、これはどうも合点がゆかない、というのは、熱海市民は本教に対しては、日頃から非常に好意を持っているので、たとえ、一人の声といえども録音まで吹っ込むんだから、余程の確信がなくてはならないと思うので、本人に会ってどこに邪教の点があるかを訊き、それが確実であれば、本教といえども充分反省しなければならないのである。<br/><br/>また放送局も少し変だと思うのは、本教に対する非難の声のみで、それと反対の声を放送しないで、これでは公平の扱いとは言えないから追及したところ、局員主脳者は、録音班が持って来たそのままを放送したと言い、その非を認め低頭平身大いに陳謝したそうであった。<br/><br/> 右は、今日までのありのままの経過をかいたのであるが、全放送を通じて冷静に検討する時、誰が目にも悪意が含まれている点と、軽蔑的に扱われた点は認めない訳にはゆくまい。<br/><br/>しかもこの放送は全国的であってみれば、本教に対しいかに重大なる被害を蒙らせたかは、測り知れないものがある。<br/><br/>第一検事が有罪を確信するとすれば、一般人は救世教には必ず何か不純なものがあるに違いないと思うだろうし、また家族の一人が騙されて大金を上げさせられるとしたら、そんな宗教にはウッカリ近寄れないと恐れをなすであろう。<br/><br/>また御膝元の熱海市民が邪教というのだから、この言葉は相当信用してよかろうと思うであろう。<br/><br/> 右の各種の事項による悪影響は、到底看過し得ないものがある。<br/><br/>しかも本教の推察によれば、事実有り得べからざるもののみにて、恐らく何者かが為にする意図で、捏造されたものに違いないと思われるのである。<br/><br/> 最後に、一つのナンセンスをかいてみよう。<br/><br/>検事の言葉の中に、本教は官公吏を堕落させたというが、これは可笑（おか）しな話である。<br/><br/>仮にその通りだとすれば、官公吏は元々立派な人達であるが、本教が堕落さしたというのだから、本教のみに責任があって、官公吏には責任がない訳である。<br/><br/>だから検事の言に従えば、現在の官公吏は、本教のような怪しからん誘導者がなければ、堕落せずに済む立派な人達である。<br/><br/>何と心強い日本ではある事よ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

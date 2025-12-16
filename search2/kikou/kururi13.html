@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 私の思い出 （一） 瓢箪 『地上天国』56号、昭和29(1954)年1月25日発行 私はさきに「クルリ瓢箪」の題名で明主様に御関係ある昔のことを書き始めたところ、興味深いから是非続けてほしいと読者から要望されることしばしばだったので、私も望外の喜びだったと共に、是非かかねばならぬ筆責を感じていた。<br><br>そこで今迄度々書き続けようとしたが、思い出がいかにも散漫でまとめられぬ上に、様々の浄化もあって、グズグズ遷延しているうち、益々記憶喪失の懸念が甚だしく、いつも、もっと早いうちに為すべきだったという愚かな悔を抱き続け、ともすれば自分の能力では出来ないのかと思い諦めようとする。<br><br>しかし最近明主様の御慈悲によって心から落着き得る境遇をお与え給わったし、頭もよくして戴きつつあるので、今度は是非共果さねばならぬと思うのである。<br><br> 明主様がただ御一人御神業をお創めになられてからはや二十八年にもなる。<br><br>その僅かの間に数限りない妨害や深刻な迫害にお遭いになりつつも、悠々として御経綸をお進めになられ、遂に救世と天国建設の確固不動の礎を成らせ給うた。<br><br>そして昨年から、ハワイを起点として海外へ、御救いの業は史上山空前の速度を以て拡がりつつあり医学革命の御仕事をいよいよ世界的にお始めになった訳でもある。<br><br> 私はこの時において、明主様がいかにして今日を至らしめ給うたかの波瀾万丈の御経緯を、医学に関することだけでもかかして戴きたいのであるが、それは少くとも神ならぬ身の私の能力ではどんなに頭を搾っても出来得る筈のものではない。<br><br>その真相は明主様以外には判らぬ御事であり、ただ無宙でお使い頂いて来たに過ぎぬ分際では露ほども知る由もないことである。<br><br>私としては、ただ御側近で極皮相的に見聞したことなど思い出すままを少しずつでもかき続けるほかはない。<br><br>勿論順序立った記述もできぬし、感違いもあるかも知れぬ。<br><br>記憶程度も甚だ自信が薄いし、興味のないことばかりかきそうな気もする。<br><br>だが私にはとかく考えすぎたり固くなって筆が進まぬ癖があるので、なるべく楽な気持で随想的、漫筆的に記してゆきたいと思うが、その癖とても明主様からの御注意戴きながら未だ脱皮できぬ始末であるのも心苦しいところである。<br><br>右あらかじめ御了解を乞う次第である。<br><br> 「革 命」 私が医学革命という御言葉を承ったのは昭和七年秋頃だったと思う。<br><br>「私は将来世界の医学を革命する」とう御言葉、それは宗教でよく唱える世直しとか立替とかの陳腐な漠然たる言葉に比し何という明徹な現実的、新しい御表現であったろう。<br><br>この御一言に若い私は奮い立ち、感激の高まり止まなかったのを今でも覚えている。<br><br>しかしながら、当時は医学に関しても徹底的にお説きにならなかったし、お説きになったとしても真に理解できる人は恐らく稀であったろう。<br><br>否それよりも、絶えざる邪神の妨害によって信徒も数える程しかなかった極めて後々たる当時の状勢からは、そのような回天の大業の可能性は誰しも見出せなかったであろう。<br><br>ただこのような真実の御言葉を戴け、信じ得たのは、明主様の絶対を信ずる主なる者だけであった。<br><br>そうしてその人々とても、その後の変転で、御仕事の前途も絶望的に見えた時、その信念を失った人もあったが、医学革命の御仕事も今日では絶対のものとしてはっきりとその実現が目に映るようになった訳である。<br><br> 明主様はどんな大きいことでも、日常茶飯事をお語りになる様にこともなげに仰せられる。<br><br>あまりに簡易に仰せられるのでただ驚くだけで信じられぬ事もあったが、御言葉は悉く真実そのものであって、いろいろ曲折はあっても時期到れば必ず実現するのであって、いつの間にかできてゆくその成果の素晴しさには全く唖然とする。<br><br>又こういうこともあった。<br><br>その頃「現代における革命といっても大して難かしい事ではなく、別に多数の人員は要らない。<br><br>ムッソリーニのファッショでも、ヒットラーのナチスでも極少数の党員であっという間に決行してしまった」という意味のことをお話し下さった。<br><br>何分世の中を平然とのんでおいでになる明主様のお話であるから、吹けば飛ぷような吾身の頼りなさを感じながらも、勇気百倍し明主様が忽ち天下をおとりになり、吾々も枢要な地位を与えられたような勝手な夢を描いていい気持になっていた。<br><br>といって明主様の御日常は、いつもと変らず淡々として御平静で、私等の思うような非常の行動をおとりになる様な気配は更に拝されぬまま日が経って行ったが、底知れぬ思召しを覗きようもなかった。<br><br>どうも吾々の考え方たるや浅はか極まる屁のようなものである。<br><br>もっともその時革命に至る御経綸を幾らお話頂いても分らなかったろうし、後二十何年の茨の道を経て成就するなどと思うだけでも進む勇気が失せたかもしれない。<br><br>それに第一明主様の行い給う革命は、古来からのどんな大革命とも、根本的に異なるし、比較し得べきものではない。<br><br>このようにお話し下され、今にも御着手になるかに思わせられたのも、とかく大御恵みに溺れ宗教的超然に陥ろうとする吾々の信仰態度をお戒めになり実社会的目を開かせて大いに勇気づけんとの思召しではなかったろうか。<br><br> 明主様は以前から、革命的なことや、革新的、あるいは曲者型の人物をお好みにならるるように拝され、そういう色彩の人物をよく話題に上され、御注意深くお見守りになっていたようである。<br><br>時に芸術方面におけるその種の人は最も御尊重になられ、時には事情の許す限りの御援助、奨励を遊ばされることもある。<br><br> 不正充満の社会、不完全な文化に慊（あきた）らず、少しでもより良い社会を造るとか、文化的に勝れたものを生もうとする勇気や努力は尊いものである。<br><br>空前の大革命を遊ばさるる明主様の御仕事にお仕えする吾々も常にこのような意慾を強く抱いていねばならぬと思うのである。<br><br> なお、私が大森で御奉仕さして戴くようになってから間もなくの事、私共の部屋で二、三人雑談に耽っていると、明主様がヒョッコリお入りになりお坐りになって、お気軽に種々お話し下さった。<br><br>その時世界の大清算の後に御建設になる理想世界の御構想の概略を初めてお伺いして目の玉がデングリ返る程驚いた。<br><br>それは人間の夢にさえ描くことのできぬ真善美の極致ともいうべき五六七世の実相であり、人類は生きる為に働くのでなく、楽しむ為のみに生くる超高度の新文明世界の実現である。<br><br>しかもそれを明主様がおつくりになるのである。<br><br>私は大き驚きのため直ちに信じられなかったというよりは、ただ陶然たる昂奮から暫くは醒めることができなかった。<br><br>そしてその御建設者であらせらるる明主様の御傍にあることが夢のようであった。<br><br>又それまで宗教によって植付けられた恐ろしいものとか現世ではなかなか幸福け与えぬものとした神愛観は一変し、神の大愛とはかくも宏大無辺なものであったかを初めて知る心地であった。<br><br>そしてそれは現実とのあまりの相違に信じ切れぬ念も沸いては来たが、それが仮に夢であってもよい。<br><br>それ程に有難い偉大な御企画を目標とする御仕事なら一切をすてて飛込むも省みぬ熱情を感じ、信仰にも非常な力が出て、勇んで御用をさして頂ける事となった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reminiscências dos Primórdios da Obra Divina</h2>
 <p>Anteriormente, iniciei a redação de alguns artigos sob o título de "Kururi Hyotan", nos quais relatei fatos do passado relacionados a Meishu-Sama. Fui frequentemente instado pelos leitores a prosseguir, por considerarem o tema interessante. Isso, além de ter sido para mim uma alegria inesperada, fez com que eu sentisse a responsabilidade de continuar a escrevê-los. Contudo, por diversas vezes tentei dar continuidade, mas minhas lembranças se mostravam por demais dispersas para que eu pudesse ordená-las. Ademais, diversas purificações e a própria procrastinação fizeram com que eu adiasse essa tarefa. Com o passar do tempo, o receio de que minhas memórias se esvaíssem tornava-se cada vez mais premente, e eu me via assombrado pelo tolo arrependimento de não ter começado antes, chegando a cogitar desistir, por julgar-me incapaz de realizar tal feito. Recentemente, todavia, pela imensa compaixão de Meishu-Sama, foi-me concedida a graça de um estado de espírito sereno, e sinto que minha mente também vem sendo clareada. Por essa razão, sinto agora que devo, impreterivelmente, levar a cabo esta missão.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Meishu-Sama tem o dom de anunciar os maiores feitos com a mesma naturalidade com que se refere a assuntos corriqueiros. Ele os enuncia com tamanha simplicidade que, por vezes, eu ficava apenas atônito, sem conseguir acreditar. Contudo, Suas palavras são a mais pura verdade e, ainda que por caminhos tortuosos, no tempo oportuno, tudo invariavelmente se concretiza. É espantoso o esplendor dos resultados que surgem sem que nos apercebamos. Houve também outra ocasião, naquela mesma época, em que Ele nos disse algo com o seguinte sentido: "Uma revolução nos tempos modernos não é algo tão difícil. Não se requer um grande número de pessoas. Tanto o fascismo de Mussolini quanto o nazismo de Hitler foram executados em um piscar de olhos por um número ínfimo de partidários". Ouvir tais palavras de Meishu-Sama, que abarca o mundo com serena altivez, fez com que minha coragem se multiplicasse por cem, mesmo sentindo a total insignificância de meu ser. Passei a sonhar com a ideia fantasiosa de que Meishu-Sama logo tomaria o poder, e a nós seriam concedidas posições de destaque, o que me deixava exultante. No entanto, o cotidiano de Meishu-Sama permanecia como sempre, sereno e imperturbável. Os dias passavam sem que se vislumbrasse o menor indício de que Ele tomaria as medidas extraordinárias que eu imaginava, e não havia como perscrutar Seus insondáveis desígnios. Nossa maneira de pensar é, de fato, de uma superficialidade lastimável. Certamente, mesmo que Ele nos tivesse explicado todo o Plano Divino para a revolução, não o teríamos compreendido. Além disso, a simples ideia de que tudo se cumpriria somente após mais de vinte anos por um caminho de espinhos talvez nos tivesse roubado a coragem para prosseguir. Ademais, a revolução que Meishu-Sama realiza é fundamentalmente distinta e incomparável a qualquer outra grande revolução da história. Talvez Sua intenção, ao falar daquela maneira e nos fazer crer que a ação era iminente, fosse a de nos advertir contra uma fé que tendia a se acomodar nas grandes graças recebidas e a se refugiar em um distanciamento religioso, abrindo nossos olhos para a realidade social e nos encorajando grandemente.</p>
 <p>Desde há muito, percebo em Meishu-Sama uma predileção por tudo que é revolucionário e inovador, bem como por personalidades de caráter singular e arrojado. Ele frequentemente mencionava figuras com essas características em Suas conversas e parecia observá-las com grande atenção. Em especial, demonstrava profundo respeito por indivíduos desse tipo no campo das artes, chegando a oferecer-lhes apoio e incentivo, sempre que as circunstâncias o permitiam. A coragem e o esforço para construir uma sociedade melhor ou para criar obras de valor cultural superior, em meio a um mundo repleto de injustiças e a uma cultura imperfeita, são atitudes preciosas. Nós, que temos o privilégio de servir a Meishu-Sama em Sua grandiosa e inédita revolução, devemos nutrir constantemente esse mesmo anseio em nossos corações.</p>
 <p>Recordo-me também de um episódio ocorrido pouco depois de eu ter começado a servir em Omori. Estávamos dois ou três de nós conversando em nosso aposento quando, de repente, Meishu-Sama entrou, sentou-se conosco e, de modo muito informal, começou a falar sobre os mais variados assuntos. Foi nessa ocasião que ouvi pela primeira vez o esboço de Sua concepção do Mundo Ideal, a ser construído após a Grande Purificação do mundo. Fiquei tão estupefato que meus olhos quase saltaram das órbitas. Tratava-se da realidade do Mundo de Miroku (五六七世), o ápice da Verdade, do Bem e do Belo, algo que a mente humana sequer consegue conceber em seus sonhos. Seria a concretização de uma nova e elevadíssima civilização, na qual a humanidade não mais trabalharia para sobreviver, mas viveria unicamente para desfrutar a vida. E o construtor desse mundo seria o próprio Meishu-Sama. O choque foi tão grande que, mais do que duvidar, permaneci por algum tempo em um estado de êxtase e comoção do qual não conseguia despertar. Estar ao lado Daquele que iria edificar tal mundo parecia-me um sonho. Minha concepção do amor divino, até então moldada pela religião como algo temível e que raramente concede felicidade neste mundo, transformou-se por completo. Pela primeira vez, senti que compreendia quão vasto e infinito é o Grande Amor de Deus. Apesar de a disparidade com a realidade fazer brotar em mim certa incredulidade, pensei que, ainda que fosse um sonho, valeria a pena. Senti um ardor que me impelia a abandonar tudo para mergulhar de corpo e alma em uma Obra com um objetivo tão sublime e grandioso. Minha fé adquiriu uma força extraordinária, e pude, a partir de então, dedicar-me ao serviço divino com renovado vigor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 私の思い出 （一） 瓢箪 『地上天国』56号、昭和29(1954)年1月25日発行 私はさきに「クルリ瓢箪」の題名で明主様に御関係ある昔のことを書き始めたところ、興味深いから是非続けてほしいと読者から要望されることしばしばだったので、私も望外の喜びだったと共に、是非かかねばならぬ筆責を感じていた。<br/><br/>そこで今迄度々書き続けようとしたが、思い出がいかにも散漫でまとめられぬ上に、様々の浄化もあって、グズグズ遷延しているうち、益々記憶喪失の懸念が甚だしく、いつも、もっと早いうちに為すべきだったという愚かな悔を抱き続け、ともすれば自分の能力では出来ないのかと思い諦めようとする。<br/><br/>しかし最近明主様の御慈悲によって心から落着き得る境遇をお与え給わったし、頭もよくして戴きつつあるので、今度は是非共果さねばならぬと思うのである。<br/><br/> 明主様がただ御一人御神業をお創めになられてからはや二十八年にもなる。<br/><br/>その僅かの間に数限りない妨害や深刻な迫害にお遭いになりつつも、悠々として御経綸をお進めになられ、遂に救世と天国建設の確固不動の礎を成らせ給うた。<br/><br/>そして昨年から、ハワイを起点として海外へ、御救いの業は史上山空前の速度を以て拡がりつつあり医学革命の御仕事をいよいよ世界的にお始めになった訳でもある。<br/><br/> 私はこの時において、明主様がいかにして今日を至らしめ給うたかの波瀾万丈の御経緯を、医学に関することだけでもかかして戴きたいのであるが、それは少くとも神ならぬ身の私の能力ではどんなに頭を搾っても出来得る筈のものではない。<br/><br/>その真相は明主様以外には判らぬ御事であり、ただ無宙でお使い頂いて来たに過ぎぬ分際では露ほども知る由もないことである。<br/><br/>私としては、ただ御側近で極皮相的に見聞したことなど思い出すままを少しずつでもかき続けるほかはない。<br/><br/>勿論順序立った記述もできぬし、感違いもあるかも知れぬ。<br/><br/>記憶程度も甚だ自信が薄いし、興味のないことばかりかきそうな気もする。<br/><br/>だが私にはとかく考えすぎたり固くなって筆が進まぬ癖があるので、なるべく楽な気持で随想的、漫筆的に記してゆきたいと思うが、その癖とても明主様からの御注意戴きながら未だ脱皮できぬ始末であるのも心苦しいところである。<br/><br/>右あらかじめ御了解を乞う次第である。<br/><br/> 「革 命」 私が医学革命という御言葉を承ったのは昭和七年秋頃だったと思う。<br/><br/>「私は将来世界の医学を革命する」とう御言葉、それは宗教でよく唱える世直しとか立替とかの陳腐な漠然たる言葉に比し何という明徹な現実的、新しい御表現であったろう。<br/><br/>この御一言に若い私は奮い立ち、感激の高まり止まなかったのを今でも覚えている。<br/><br/>しかしながら、当時は医学に関しても徹底的にお説きにならなかったし、お説きになったとしても真に理解できる人は恐らく稀であったろう。<br/><br/>否それよりも、絶えざる邪神の妨害によって信徒も数える程しかなかった極めて後々たる当時の状勢からは、そのような回天の大業の可能性は誰しも見出せなかったであろう。<br/><br/>ただこのような真実の御言葉を戴け、信じ得たのは、明主様の絶対を信ずる主なる者だけであった。<br/><br/>そうしてその人々とても、その後の変転で、御仕事の前途も絶望的に見えた時、その信念を失った人もあったが、医学革命の御仕事も今日では絶対のものとしてはっきりとその実現が目に映るようになった訳である。<br/><br/> 明主様はどんな大きいことでも、日常茶飯事をお語りになる様にこともなげに仰せられる。<br/><br/>あまりに簡易に仰せられるのでただ驚くだけで信じられぬ事もあったが、御言葉は悉く真実そのものであって、いろいろ曲折はあっても時期到れば必ず実現するのであって、いつの間にかできてゆくその成果の素晴しさには全く唖然とする。<br/><br/>又こういうこともあった。<br/><br/>その頃「現代における革命といっても大して難かしい事ではなく、別に多数の人員は要らない。<br/><br/>ムッソリーニのファッショでも、ヒットラーのナチスでも極少数の党員であっという間に決行してしまった」という意味のことをお話し下さった。<br/><br/>何分世の中を平然とのんでおいでになる明主様のお話であるから、吹けば飛ぷような吾身の頼りなさを感じながらも、勇気百倍し明主様が忽ち天下をおとりになり、吾々も枢要な地位を与えられたような勝手な夢を描いていい気持になっていた。<br/><br/>といって明主様の御日常は、いつもと変らず淡々として御平静で、私等の思うような非常の行動をおとりになる様な気配は更に拝されぬまま日が経って行ったが、底知れぬ思召しを覗きようもなかった。<br/><br/>どうも吾々の考え方たるや浅はか極まる屁のようなものである。<br/><br/>もっともその時革命に至る御経綸を幾らお話頂いても分らなかったろうし、後二十何年の茨の道を経て成就するなどと思うだけでも進む勇気が失せたかもしれない。<br/><br/>それに第一明主様の行い給う革命は、古来からのどんな大革命とも、根本的に異なるし、比較し得べきものではない。<br/><br/>このようにお話し下され、今にも御着手になるかに思わせられたのも、とかく大御恵みに溺れ宗教的超然に陥ろうとする吾々の信仰態度をお戒めになり実社会的目を開かせて大いに勇気づけんとの思召しではなかったろうか。<br/><br/> 明主様は以前から、革命的なことや、革新的、あるいは曲者型の人物をお好みにならるるように拝され、そういう色彩の人物をよく話題に上され、御注意深くお見守りになっていたようである。<br/><br/>時に芸術方面におけるその種の人は最も御尊重になられ、時には事情の許す限りの御援助、奨励を遊ばされることもある。<br/><br/> 不正充満の社会、不完全な文化に慊（あきた）らず、少しでもより良い社会を造るとか、文化的に勝れたものを生もうとする勇気や努力は尊いものである。<br/><br/>空前の大革命を遊ばさるる明主様の御仕事にお仕えする吾々も常にこのような意慾を強く抱いていねばならぬと思うのである。<br/><br/> なお、私が大森で御奉仕さして戴くようになってから間もなくの事、私共の部屋で二、三人雑談に耽っていると、明主様がヒョッコリお入りになりお坐りになって、お気軽に種々お話し下さった。<br/><br/>その時世界の大清算の後に御建設になる理想世界の御構想の概略を初めてお伺いして目の玉がデングリ返る程驚いた。<br/><br/>それは人間の夢にさえ描くことのできぬ真善美の極致ともいうべき五六七世の実相であり、人類は生きる為に働くのでなく、楽しむ為のみに生くる超高度の新文明世界の実現である。<br/><br/>しかもそれを明主様がおつくりになるのである。<br/><br/>私は大き驚きのため直ちに信じられなかったというよりは、ただ陶然たる昂奮から暫くは醒めることができなかった。<br/><br/>そしてその御建設者であらせらるる明主様の御傍にあることが夢のようであった。<br/><br/>又それまで宗教によって植付けられた恐ろしいものとか現世ではなかなか幸福け与えぬものとした神愛観は一変し、神の大愛とはかくも宏大無辺なものであったかを初めて知る心地であった。<br/><br/>そしてそれは現実とのあまりの相違に信じ切れぬ念も沸いては来たが、それが仮に夢であってもよい。<br/><br/>それ程に有難い偉大な御企画を目標とする御仕事なら一切をすてて飛込むも省みぬ熱情を感じ、信仰にも非常な力が出て、勇んで御用をさして頂ける事となった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

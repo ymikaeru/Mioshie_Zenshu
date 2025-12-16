@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教からみた産制問題 『光』7号、昭和24(1949)年4月30日発行 近来、我国において産児制限問題がやかましく唱えられているが、原因としてはもちろんこの四つの小さな島国に人口八千二百万というのだから、これはどうしても何とかせざるを得ないという事である、ところが吾々宗教人として観る時、現代有識者等の考え方が余りにも唯物的で、それ以外に一歩も出でないというのであるから困ったものである、これについて解説してみよう。<br><br> 一体人間は何のためにこの世に生まれて来たかという事である、この世界を構成している二十億の人類はその一人一人が生まれたいという意志の下に生まれて来たのではない、無意識の間に女性の腹に宿り、無意識の裡（うち）に出産されたものである事に間違いはない、そこで産出された嬰児が成人して、それぞれの業務に携わるのであるがその場合個々人の賢愚、特質、優劣等の差別が自然に備わり、社会構成に必要なそれ相応の職業にこれも自然に従事する事になるのである、このようにして人類社会は原始時代から今日の絢爛（けんらん）たる文化時代にまで発展し来たったのである、見よ大政治家になるもの、国会議員になるもの、教育者も芸術家も産業家も官吏も技師も労働者も、それぞれ専門的特性を備え、よく配分されている、それがいつの時代でも一方に偏る事なく、洵（まこと）に普遍的であるのは不思議ではないか、しかも優れた有能者は極少数であり、下級職業者に至る程ピラミッド型に数を増している、これをたとえていえば植物にしても雑草類は到るところに繁茂しており優秀なる花卉類になる程その数が減っている、樹木にしても杉、楢（なら）等のごとき一般的需要のものは多産であり、高級樹になるほどその数は少ない、また金属にしても黄金のごとき貴金属は産額が極めて少なく、鉄、鉛、銅のごとき一般需要に必要なものほど多産であるにみても明らかである、何よりも驚くべき事はいかなる時代においても人間の男女の数が大体半々である事である、従って以上のような種々の自然現象を静かに観察する時そこに何を発見するであろうか、ある人はこれを真理といい、またある人は自然といい、哲学者は宇宙意志の表現というであろう、しかしながらこれだけでは単なる現象の説明にしか過ぎない、吾人はその内面に潜む神秘を突止めなければ満足出来ない、しからばその神秘とは何ぞやという事を以下解いてみよう。<br><br> そもそも人類が棲息しているところのこの大地球といえどもその中心があり、中心には主宰者すなわち支配者がなければならない、それなら一体地球の支配者とは何者かという事であるが、これが主の神すなわち天帝ともいい、エホバとも称えるところの絶対者であって、宇宙意志とはこの主神の意志である、この主神の意志の下に、人類社会をして無限の発展を遂げしめつつあり、未来はいかに善美なる人類社会が出現するか到底想像し得られないのである、ただ未来世界の幾分かは想像し得られる、というのは何千何万年前の原始時代と、今日の文化と比べてその進歩の道程を振り返る時、その著るしい発展ぶりにおよその想像はつくはずである。<br><br> 以上のごとき事実とその推理から判断する時こうなるであろう、すなわちこの人類はもちろん森羅万象（しんらばんしょう）は、主神の意図の下に生成化育が行われているという事である、そうとすれば人間の生死といえども主神の意図以外にあるはずはない、とすればある地域に多数の人間が出産されるとしても、それを養うべき食糧に不足を生ずるはずがない、もちろん餓死などというような事は夢にも想われない訳である、この意味において人口がいかほど増加しても、その人口を保育するだけの食糧は必ずその土地に生産されるに定（き）まっている、もし不足を来すような事があるとすれば、それは生産手段のどこかに誤っている点があるからで、ただそれに気が付かないだけの事である、仮に人間老幼婦女子をも合せて平均一人一年の米の量が一石とすれば八千二百万の人口に対し八千二百万石の収穫はあるべきはずである、ところが肝腎の根本に気付かないため、逆に産児の方を制限するという逆理を行うのであるから、天理に外れ神に対する大いなる罪人となるので、実に恐るべき事である、ゆえに産児制限主唱者のごときは、唯物的無神論者の戯言（ざれごと）に過ぎないと言ってもいいであろう。<br><br> 以上のごとく全人口に対し、食糧不足というのは農耕法の誤りであるから、私の唱導する無肥料栽培にすれば問題はないのである、それに盲目である結果、有肥栽培に専念し来った結果が、今日日本の土地は非常に痩土化したのである、しかるに私のいう無肥料栽培に転換すれば三割ないし五割の増収は易々たるもので本年の米の収穫高六千三百万石であるから三割増とすれば八千百九十万石となり、五割増とすれば九千四百五十万石となり、いとも簡単に問題は解決するのである、ゆえにその場合耕地を増加する必要はない、何となればそれは稲苗の一茎に対する米粒が増加するからである、面白い事は数千年前は一茎の米粒は数十粒であったのが人口増加に伴い漸次増加し、今日のごとく普通百五十ないし三百粒くらいになったので、先年記録を破った彼の滋賀県のある農家は四百数十粒が出来たとの事である、これによってみても栽培法によっては現在の二倍くらいは可能である、これを古老から徳川末期より明治初年頃は、今日より米粒が少数であった事を聞いた事がある、これらによってみても全く人口に必要だけの食糧は神から与えられるという事で、決して疑う余地はないのである。<br><br> これは別の例であるが、よく受孕（じゅよう）者が結核その他の病弱のため人工流産をしなければ危険であるとなし、せっかくの妊娠を無に帰する事があるが、私の解釈によれば、妊娠するという事は胎児が成育し無事出産出来るからであって、もしその力がないとすれば初めから妊娠するはずがない――という見解から流産に反対し来ったのであるが、事実そのため数十の実例中一人の失敗者もなかったのである、神は出産力のない者に妊娠させるというような不手際に人間を造ったはずはない、造物主は人間の考えるような浅薄鈍智ではない事を信ずべきである。<br><br> 以上の意味によって、吾らは産児制限には大反対である事を、ここに言明するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Perspectiva Religiosa sobre o Controle de Natalidade</h2>
 <p>Recentemente, a questão do controle de natalidade tem sido intensamente debatida em nosso país. A razão, evidentemente, reside no fato de uma população de oitenta e dois milhões de habitantes ocupar estas quatro pequenas ilhas, o que impõe a necessidade de alguma medida. Contudo, quando nós, religiosos, analisamos a situação, deparamo-nos com um problema alarmante: o pensamento dos intelectuais modernos é excessivamente materialista e incapaz de transcender essa perspectiva. Permitam-me dissertar a respeito.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Como mencionei, a escassez de alimentos para toda a população decorre de um erro no método agrícola. Com o método da Agricultura sem Adubos que preconizo, o problema deixa de existir. A insistência cega na agricultura com adubos levou ao esgotamento do solo japonês. Ao se converter ao método sem adubos, um aumento de 30% a 50% na produção é facilmente alcançável. Considerando a colheita deste ano, de sessenta e três milhões de <em>koku</em>, um acréscimo de 30% resultaria em oitenta e um milhões e novecentos mil <em>koku</em>; com 50%, chegaríamos a noventa e quatro milhões e quinhentos mil <em>koku</em>. Assim, a questão se resolve com extrema simplicidade. Nesses casos, não há necessidade de expandir a área cultivada, pois o aumento se dá no número de grãos de arroz por haste. É interessante notar que, há milhares de anos, uma haste produzia apenas algumas dezenas de grãos. Conforme a população cresceu, esse número aumentou gradualmente, até chegar aos cento e cinquenta a trezentos grãos que são comuns hoje. Recentemente, um agricultor da província de Shiga estabeleceu um recorde com mais de quatrocentos grãos por haste. Isso prova que, com o método de cultivo correto, é possível até mesmo dobrar a produção atual. Lembro-me de ter ouvido dos mais velhos que, do final do Período Tokugawa ao início da Era Meiji, as hastes produziam menos grãos que hoje. Esses fatos demonstram que Deus provê o alimento necessário para a população, e sobre isso não paira a menor dúvida.</p>
 <p>Recorro a um exemplo distinto. É comum que, no caso de gestantes debilitadas por tuberculose ou outras enfermidades, se recomende o aborto artificial sob a alegação de risco de vida, pondo fim a uma gravidez promissora. Segundo minha interpretação, o próprio fato da concepção é a prova de que o feto pode se desenvolver e nascer em segurança. Se a mulher não possuísse a força necessária, a gestação simplesmente não ocorreria. Com base nesse entendimento, sempre me opus ao aborto e, de fato, entre dezenas de casos, não houve uma única falha. Deus jamais criaria o ser humano com a inépcia de permitir a gestação em quem não tem capacidade de dar à luz. É preciso crer que o Criador não é tão superficial e tolo quanto os homens imaginam.</p>
 <p>Pelas razões expostas, declaramos aqui nossa mais veemente oposição ao controle de natalidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教からみた産制問題 『光』7号、昭和24(1949)年4月30日発行 近来、我国において産児制限問題がやかましく唱えられているが、原因としてはもちろんこの四つの小さな島国に人口八千二百万というのだから、これはどうしても何とかせざるを得ないという事である、ところが吾々宗教人として観る時、現代有識者等の考え方が余りにも唯物的で、それ以外に一歩も出でないというのであるから困ったものである、これについて解説してみよう。<br/><br/> 一体人間は何のためにこの世に生まれて来たかという事である、この世界を構成している二十億の人類はその一人一人が生まれたいという意志の下に生まれて来たのではない、無意識の間に女性の腹に宿り、無意識の裡（うち）に出産されたものである事に間違いはない、そこで産出された嬰児が成人して、それぞれの業務に携わるのであるがその場合個々人の賢愚、特質、優劣等の差別が自然に備わり、社会構成に必要なそれ相応の職業にこれも自然に従事する事になるのである、このようにして人類社会は原始時代から今日の絢爛（けんらん）たる文化時代にまで発展し来たったのである、見よ大政治家になるもの、国会議員になるもの、教育者も芸術家も産業家も官吏も技師も労働者も、それぞれ専門的特性を備え、よく配分されている、それがいつの時代でも一方に偏る事なく、洵（まこと）に普遍的であるのは不思議ではないか、しかも優れた有能者は極少数であり、下級職業者に至る程ピラミッド型に数を増している、これをたとえていえば植物にしても雑草類は到るところに繁茂しており優秀なる花卉類になる程その数が減っている、樹木にしても杉、楢（なら）等のごとき一般的需要のものは多産であり、高級樹になるほどその数は少ない、また金属にしても黄金のごとき貴金属は産額が極めて少なく、鉄、鉛、銅のごとき一般需要に必要なものほど多産であるにみても明らかである、何よりも驚くべき事はいかなる時代においても人間の男女の数が大体半々である事である、従って以上のような種々の自然現象を静かに観察する時そこに何を発見するであろうか、ある人はこれを真理といい、またある人は自然といい、哲学者は宇宙意志の表現というであろう、しかしながらこれだけでは単なる現象の説明にしか過ぎない、吾人はその内面に潜む神秘を突止めなければ満足出来ない、しからばその神秘とは何ぞやという事を以下解いてみよう。<br/><br/> そもそも人類が棲息しているところのこの大地球といえどもその中心があり、中心には主宰者すなわち支配者がなければならない、それなら一体地球の支配者とは何者かという事であるが、これが主の神すなわち天帝ともいい、エホバとも称えるところの絶対者であって、宇宙意志とはこの主神の意志である、この主神の意志の下に、人類社会をして無限の発展を遂げしめつつあり、未来はいかに善美なる人類社会が出現するか到底想像し得られないのである、ただ未来世界の幾分かは想像し得られる、というのは何千何万年前の原始時代と、今日の文化と比べてその進歩の道程を振り返る時、その著るしい発展ぶりにおよその想像はつくはずである。<br/><br/> 以上のごとき事実とその推理から判断する時こうなるであろう、すなわちこの人類はもちろん森羅万象（しんらばんしょう）は、主神の意図の下に生成化育が行われているという事である、そうとすれば人間の生死といえども主神の意図以外にあるはずはない、とすればある地域に多数の人間が出産されるとしても、それを養うべき食糧に不足を生ずるはずがない、もちろん餓死などというような事は夢にも想われない訳である、この意味において人口がいかほど増加しても、その人口を保育するだけの食糧は必ずその土地に生産されるに定（き）まっている、もし不足を来すような事があるとすれば、それは生産手段のどこかに誤っている点があるからで、ただそれに気が付かないだけの事である、仮に人間老幼婦女子をも合せて平均一人一年の米の量が一石とすれば八千二百万の人口に対し八千二百万石の収穫はあるべきはずである、ところが肝腎の根本に気付かないため、逆に産児の方を制限するという逆理を行うのであるから、天理に外れ神に対する大いなる罪人となるので、実に恐るべき事である、ゆえに産児制限主唱者のごときは、唯物的無神論者の戯言（ざれごと）に過ぎないと言ってもいいであろう。<br/><br/> 以上のごとく全人口に対し、食糧不足というのは農耕法の誤りであるから、私の唱導する無肥料栽培にすれば問題はないのである、それに盲目である結果、有肥栽培に専念し来った結果が、今日日本の土地は非常に痩土化したのである、しかるに私のいう無肥料栽培に転換すれば三割ないし五割の増収は易々たるもので本年の米の収穫高六千三百万石であるから三割増とすれば八千百九十万石となり、五割増とすれば九千四百五十万石となり、いとも簡単に問題は解決するのである、ゆえにその場合耕地を増加する必要はない、何となればそれは稲苗の一茎に対する米粒が増加するからである、面白い事は数千年前は一茎の米粒は数十粒であったのが人口増加に伴い漸次増加し、今日のごとく普通百五十ないし三百粒くらいになったので、先年記録を破った彼の滋賀県のある農家は四百数十粒が出来たとの事である、これによってみても栽培法によっては現在の二倍くらいは可能である、これを古老から徳川末期より明治初年頃は、今日より米粒が少数であった事を聞いた事がある、これらによってみても全く人口に必要だけの食糧は神から与えられるという事で、決して疑う余地はないのである。<br/><br/> これは別の例であるが、よく受孕（じゅよう）者が結核その他の病弱のため人工流産をしなければ危険であるとなし、せっかくの妊娠を無に帰する事があるが、私の解釈によれば、妊娠するという事は胎児が成育し無事出産出来るからであって、もしその力がないとすれば初めから妊娠するはずがない――という見解から流産に反対し来ったのであるが、事実そのため数十の実例中一人の失敗者もなかったのである、神は出産力のない者に妊娠させるというような不手際に人間を造ったはずはない、造物主は人間の考えるような浅薄鈍智ではない事を信ずべきである。<br/><br/> 以上の意味によって、吾らは産児制限には大反対である事を、ここに言明するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

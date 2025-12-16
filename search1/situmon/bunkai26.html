@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai26</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 日光分会『会報』４号、昭和24(1949)年7月21日発行 ――お盆の意味についてお伺いいたします。<br><br> 釈尊の大慈悲から盂蘭盆会というものを作り、毎年一回日を決めて地獄にいる霊を子孫の家へ還らしてくださるのである。<br><br>その日は地獄の釜の蓋が開くと言うが、とにかく地獄の祖霊も仏壇へ招かれ子孫に供養される。<br><br>地獄の霊もそれを知っていて待っているのである。<br><br>元来祖霊は全部仏壇にいるわけでなく、平常は選ばれた留守番の霊がいるだけで、子孫が拝むときだけ仏壇に集まるものである。<br><br>その際仏壇にはある程度救われた霊だけしか来られない。<br><br>つまり八衢（やちまた）以上のものが来られるので、地獄にいる霊はお盆のとき以外は来られないのである。<br><br>お盆には種々の儀式を行なって霊を迎えるのであるが、「おがら」を焚くのはここからお入りくださいという目印である。<br><br>これはいままで夜の世界だったため霊界も暗いので灯りを見せないと霊がまごつくからである。<br><br>ここで注意したいことがある。<br><br>それは仏事はどんな古い先祖でもするほどよい。<br><br>また長男だけが祖霊を祭り、次男以下は祭らないのがあるが、これはよくない。<br><br>霊界人となってもやはり現界と同様、親子、兄弟の情は同じことで、自分の子供のどの家へでも行けるようにありたいわけだ。<br><br>従って、次男も三男も全部祭るべきである。<br><br>位牌が多くて始末に困るときは面識ある祖霊はそれぞれに位牌を作り、面識のない祖霊は先祖代々にまとめてよいのである。<br><br> ――戦死した者の霊はお祀りしないと帰れないものでございましょうか。<br><br> （例）アッツ島で戦死した霊は未だそのままその地にいるということでございますが、各人の家庭においてお祀りしていると思いますが、いかなることになるものでございましょうか。<br><br> 無論祀らなければいけません。<br><br>お祀りすれば早く帰れる。<br><br>現界的に判りやすく説明すれば、ちょうど帰還兵が帰って来ても家がなければ困ると同じ理由で、霊が帰ってきたらすぐ宿れるように居所を作ってあげねばなりません。<br><br>そして日々お参りする想念が霊界を通じてアッツ島につながれ、その霊は早く救われて帰ってくる。<br><br>ちょうどソ連の日本残留者に対し、内地の者が政府に対し種々運動すればある程度早く帰れるのと同様である。<br><br> ――西宮市近郊のある家で最初に建築した人が家族四人中三人まで死亡、続いてその家を買った人も二人家族の主人がすぐ亡くなり、三回目に入った人もすでに二人死し、一人はもっか病床に臥し、飼猫までが病気であります。<br><br>その辺はもと池も大木もなく野原でありまして、どうしてよいか困っております。<br><br>御神体をお祭りするだけでよろしゅうございましょうか。<br><br>病人には霊の憑依現象はありません。<br><br> これはなにか祟っている。<br><br>このままではいけない。<br><br>おそらく古戦場とかなにか、たくさん人が死んだ所であろう。<br><br>地縛の霊がいて助けを求めているのだろう。<br><br>地縛の霊は建物を建てられると苦しい。<br><br>地縛の霊でもふつうのはなんでもないが、怒りっぽい霊、しつっこい霊がいるか、あるいは地龍の特定の住所になっていて、「そこをどけ」と言うことだから二、三十間以上移住するとよい。<br><br>やむを得ないときは、光明如来様にお願いすると夢などで知らせていただける。<br><br>時間を経れば浄まってよくなる。<br><br> ――田畑の害虫を駆除するにはいかがいたしたらよろしゅうございますか。<br><br> これは駆除するより発生しないようにするのが本当である。<br><br>主原因は人肥、金肥、消毒剤を使用するためであって、消毒剤などは土へ入ってそれを植物が吸収するためである。<br><br>無肥料なら絶対虫害はない。<br><br>雑草を見ればよく判る。<br><br>そして肥料をやると作物は弱る。<br><br>作物が花落ちしたり実が落ちたりするのはみんな肥料のためである。<br><br> ――憑依霊は副霊の働きの強いときに憑依するのでございましょうか。<br><br>また愚依する霊は先祖に関係があるものでございましょうか。<br><br> 副霊が憑いている肉体へ別の副霊が憑くべく入ろうとして争うことがある。<br><br>その際憑依霊同士が戦うので、人間のほうはクラクラしたり、煩悶状態になるものである。<br><br>そして前任の副霊が後入より弱いときは後の霊が勝つことがあるが、それは一時的で長い間には先住の副霊が勝つのである。<br><br>墓詣りすると必ず病気になる人があるが、これは死霊が憑くのである。<br><br>狐などは臨時に憑いて人を殺したり悪事をさしたりすることが多いのである。<br><br>そういうことのうまいほど彼らの仲間で幅がきくのである。<br><br>祖霊は人間になにか伝えるときなどたいていは狐に委託するものである。<br><br> ――三毒と五濁の意味を御教え願います。<br><br> 三毒とは貪欲、瞋恚（いかり）、愚痴を言い、五濁は目、耳、鼻、舌、身の罪穢を言うのであります。<br><br> ――生まれ年、生まれ月日が人間の運勢や性格に影響があると言われるゆえんについて御教え願います。<br><br> 人間には気がつかぬが、あらゆるものに変化がある。<br><br>気候にも春、夏、秋、冬あり、月にも雨の多い月、旱魃（かんばつ）の月がある。<br><br>その年、月、日の霊気を受ける影響もあり、また生まれ月日の数の言霊の関係もある。<br><br>例えば私は一二月二三日生まれだが、二二日は冬至で一番日が短く、二三日は春分で、昔は一二月二三日を正月元旦として暦を作ろうとしたが、種々の関係で一週間延ばしたとも言われ、二三日生まれの人は春に向かう運勢があるわけである。<br><br>しかしそれがすべてでなく、ある程度は当たるがこだわる必要はない。<br><br> ――「畏くも観世音菩薩は八百万神や仏の（ひじり）聖に在（おは）さん」とございますが、「聖」と申しますのは神や仏の上位に在わされるという意味でございましょうか。<br><br> 聖は優れている、清いということで、「上位」だという意味です。<br><br> ――霊媒の素質のあるのは先天的とのことでございますが、前世にてなにか特別の因縁でもあるのでございましょうか。<br><br> それは「霊を人間に知らせる」という使命を持って生まれてきたものであります。<br><br> ――春蒔きの蔓の出る植物は左巻きが通例でございますが、立秋後に種を蒔きますと蔓が必ず右巻きになりますのはいかなるわけでございましょうか。<br><br> 春は日であり秋は月で、春は左で秋は右でありますからそうなるのが本当です。<br><br> ――人間の想念により天候に異変を来すとのことでございますが、二百十日、二十日を厄日と言われ、特に台風などの起りますのはいかなる理由によるのでございましょうか。<br><br> その必要があるからです。<br><br>台風により稲などを倒すことがありますが、根をはらせるのに必要だからです。<br><br>根がはるのは風が吹くから倒れないようにするためで、根がはるから稲がよく獲れることになりますから結構です。<br><br> ――北半球と南半球の季節が逆でございますのは、地球の呼吸作用といかなる関係がございましょうか。<br><br> 呼吸をするとき、「はく」のは陽で、「すう」のは陰です。<br><br>北と南は霊と体の関係にありますので、すべてが反対であります。<br><br> ――歯の生え代わるとき、前の歯が抜けないで八重歯ができたとき、そのままにしておきますと口の格好が悪くなりますが、御浄霊により古い歯が抜けるでございましょうか。<br><br> 少し出かかりに浄霊をすればよろしい。<br><br>出てしまった後は歯医者に抜いてもらいなさい。<br><br> ――墓地で石碑の頭の上に地蔵尊の石像が刻んでありますが、そのままでよろしいのでございましょうか。<br><br>なお、地蔵尊は何神様の化身であられ、いかなるお働きをなされるのでございましょうか。<br><br> そのままで差し支えありません。<br><br>地蔵尊は阿弥陀如来の形を変えられたものでありまして、阿弥陀如来は霊界のお働きをされるのでありますが、地蔵尊は阿弥陀様が街頭に進出して救いのお働きをされるときのお姿であります。<br><br> ――肉腫は霊的な病気でございましょうか。<br><br>霊的でございましたら、その理由を御教えお願いいたします。<br><br> 霊的と体的とあり、体的は毒素の固結であり、霊的はたいてい虫の霊（モグラ）のようです。<br><br>中に核があり、形は大小さまざまあります。<br><br> ――田舎にはどこの家にも地の神様がお祀りしてございますが、地の神様はいかなる神様でございましょうか。<br><br> 神様にはいろいろな役があり、地の神は地龍で、産土神の支配により守護しているのであります。<br><br> ――ある信者は一時的霊眼が開け、火龍の飛ぶのを見たとのことでございます。<br><br>火龍は両角を備え、目は飛び出て真っ赤な色で、大小はありますが、あまり大きくはありませんでした。<br><br>ある日、その信者の「かまど」付近にその火龍が来ていたのが見え、火龍は火災に原因があるとのお話を聞いておりますので、これはたいへんと、居合わせた先生に善言讃詞を上げていただきますと、丸くなっていたのがだんだんと伸びて、最後には「かまど」の煙突から西北に飛び去りました。<br><br>そのときに居合わせた五、六名の信者の耳にゴーッという音が聞こえたそうです。<br><br>そうしてその人は、西方の山を指して、その山に火災の起ることを予言しましたが、はたして三月二五日に火災が起ったのでございます。<br><br>また空には数えきれぬ火龍が飛んでいるのが見え、御神体をお迎えした家庭は強い光がさしており、その御光の中へは突入することができず、うろたえる様が見えたそうでございます。<br><br>火龍の働きはそうした働きをなし、霊眼で見えたことが本当なのでございましょうか。<br><br> 本当です。<br><br>大きな火災のときは、火龍が大いに働きます。<br><br>火柱が立つのは火龍の働きで、長くなるのはまれでふつう丸くなって働きます。<br><br>飛火は火龍が火をくわえて行くのであります。<br><br>赤龍と間違いやすいですが、火龍は光がありますからよく区別がつきます。<br><br> ――紋所の発生した由来を御教えお願い申し上げます。<br><br> 昔戦争のあった場合、自己明示するため旗を立て、それに各々の紋をつけた。<br><br>それがだんだんに羽織その他に使われ家紋となったのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Significado do Obon e Outros Esclarecimentos Espirituais</h2>
 <p><strong>Qual é o significado do Obon?</strong></p>
@@ -133,5 +285,48 @@ function toggleLang(lang) {
 <p>Sim, são verdadeiras. Em grandes incêndios, os Dragões de Fogo atuam intensamente. As colunas de fogo que se erguem são resultado de sua ação. Geralmente, eles atuam de forma enrolada, sendo raro que se estiquem. As fagulhas que se espalham a distância são, na verdade, os Dragões de Fogo transportando brasas em suas bocas. É fácil confundi-los com os Dragões Vermelhos, mas os Dragões de Fogo possuem um brilho próprio que permite distingui-los.</p>
 <p><strong>Poderia nos ensinar sobre a origem dos brasões de família?</strong></p>
 <p>Antigamente, em tempos de guerra, os clãs hasteavam bandeiras para se identificar em meio ao combate, e nelas estampavam seus respectivos brasões. Com o tempo, essa prática se estendeu para o uso em vestimentas, como o haori, e em outros objetos, consolidando-se como os brasões de família que conhecemos hoje.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 日光分会『会報』４号、昭和24(1949)年7月21日発行 ――お盆の意味についてお伺いいたします。<br/><br/> 釈尊の大慈悲から盂蘭盆会というものを作り、毎年一回日を決めて地獄にいる霊を子孫の家へ還らしてくださるのである。<br/><br/>その日は地獄の釜の蓋が開くと言うが、とにかく地獄の祖霊も仏壇へ招かれ子孫に供養される。<br/><br/>地獄の霊もそれを知っていて待っているのである。<br/><br/>元来祖霊は全部仏壇にいるわけでなく、平常は選ばれた留守番の霊がいるだけで、子孫が拝むときだけ仏壇に集まるものである。<br/><br/>その際仏壇にはある程度救われた霊だけしか来られない。<br/><br/>つまり八衢（やちまた）以上のものが来られるので、地獄にいる霊はお盆のとき以外は来られないのである。<br/><br/>お盆には種々の儀式を行なって霊を迎えるのであるが、「おがら」を焚くのはここからお入りくださいという目印である。<br/><br/>これはいままで夜の世界だったため霊界も暗いので灯りを見せないと霊がまごつくからである。<br/><br/>ここで注意したいことがある。<br/><br/>それは仏事はどんな古い先祖でもするほどよい。<br/><br/>また長男だけが祖霊を祭り、次男以下は祭らないのがあるが、これはよくない。<br/><br/>霊界人となってもやはり現界と同様、親子、兄弟の情は同じことで、自分の子供のどの家へでも行けるようにありたいわけだ。<br/><br/>従って、次男も三男も全部祭るべきである。<br/><br/>位牌が多くて始末に困るときは面識ある祖霊はそれぞれに位牌を作り、面識のない祖霊は先祖代々にまとめてよいのである。<br/><br/> ――戦死した者の霊はお祀りしないと帰れないものでございましょうか。<br/><br/> （例）アッツ島で戦死した霊は未だそのままその地にいるということでございますが、各人の家庭においてお祀りしていると思いますが、いかなることになるものでございましょうか。<br/><br/> 無論祀らなければいけません。<br/><br/>お祀りすれば早く帰れる。<br/><br/>現界的に判りやすく説明すれば、ちょうど帰還兵が帰って来ても家がなければ困ると同じ理由で、霊が帰ってきたらすぐ宿れるように居所を作ってあげねばなりません。<br/><br/>そして日々お参りする想念が霊界を通じてアッツ島につながれ、その霊は早く救われて帰ってくる。<br/><br/>ちょうどソ連の日本残留者に対し、内地の者が政府に対し種々運動すればある程度早く帰れるのと同様である。<br/><br/> ――西宮市近郊のある家で最初に建築した人が家族四人中三人まで死亡、続いてその家を買った人も二人家族の主人がすぐ亡くなり、三回目に入った人もすでに二人死し、一人はもっか病床に臥し、飼猫までが病気であります。<br/><br/>その辺はもと池も大木もなく野原でありまして、どうしてよいか困っております。<br/><br/>御神体をお祭りするだけでよろしゅうございましょうか。<br/><br/>病人には霊の憑依現象はありません。<br/><br/> これはなにか祟っている。<br/><br/>このままではいけない。<br/><br/>おそらく古戦場とかなにか、たくさん人が死んだ所であろう。<br/><br/>地縛の霊がいて助けを求めているのだろう。<br/><br/>地縛の霊は建物を建てられると苦しい。<br/><br/>地縛の霊でもふつうのはなんでもないが、怒りっぽい霊、しつっこい霊がいるか、あるいは地龍の特定の住所になっていて、「そこをどけ」と言うことだから二、三十間以上移住するとよい。<br/><br/>やむを得ないときは、光明如来様にお願いすると夢などで知らせていただける。<br/><br/>時間を経れば浄まってよくなる。<br/><br/> ――田畑の害虫を駆除するにはいかがいたしたらよろしゅうございますか。<br/><br/> これは駆除するより発生しないようにするのが本当である。<br/><br/>主原因は人肥、金肥、消毒剤を使用するためであって、消毒剤などは土へ入ってそれを植物が吸収するためである。<br/><br/>無肥料なら絶対虫害はない。<br/><br/>雑草を見ればよく判る。<br/><br/>そして肥料をやると作物は弱る。<br/><br/>作物が花落ちしたり実が落ちたりするのはみんな肥料のためである。<br/><br/> ――憑依霊は副霊の働きの強いときに憑依するのでございましょうか。<br/><br/>また愚依する霊は先祖に関係があるものでございましょうか。<br/><br/> 副霊が憑いている肉体へ別の副霊が憑くべく入ろうとして争うことがある。<br/><br/>その際憑依霊同士が戦うので、人間のほうはクラクラしたり、煩悶状態になるものである。<br/><br/>そして前任の副霊が後入より弱いときは後の霊が勝つことがあるが、それは一時的で長い間には先住の副霊が勝つのである。<br/><br/>墓詣りすると必ず病気になる人があるが、これは死霊が憑くのである。<br/><br/>狐などは臨時に憑いて人を殺したり悪事をさしたりすることが多いのである。<br/><br/>そういうことのうまいほど彼らの仲間で幅がきくのである。<br/><br/>祖霊は人間になにか伝えるときなどたいていは狐に委託するものである。<br/><br/> ――三毒と五濁の意味を御教え願います。<br/><br/> 三毒とは貪欲、瞋恚（いかり）、愚痴を言い、五濁は目、耳、鼻、舌、身の罪穢を言うのであります。<br/><br/> ――生まれ年、生まれ月日が人間の運勢や性格に影響があると言われるゆえんについて御教え願います。<br/><br/> 人間には気がつかぬが、あらゆるものに変化がある。<br/><br/>気候にも春、夏、秋、冬あり、月にも雨の多い月、旱魃（かんばつ）の月がある。<br/><br/>その年、月、日の霊気を受ける影響もあり、また生まれ月日の数の言霊の関係もある。<br/><br/>例えば私は一二月二三日生まれだが、二二日は冬至で一番日が短く、二三日は春分で、昔は一二月二三日を正月元旦として暦を作ろうとしたが、種々の関係で一週間延ばしたとも言われ、二三日生まれの人は春に向かう運勢があるわけである。<br/><br/>しかしそれがすべてでなく、ある程度は当たるがこだわる必要はない。<br/><br/> ――「畏くも観世音菩薩は八百万神や仏の（ひじり）聖に在（おは）さん」とございますが、「聖」と申しますのは神や仏の上位に在わされるという意味でございましょうか。<br/><br/> 聖は優れている、清いということで、「上位」だという意味です。<br/><br/> ――霊媒の素質のあるのは先天的とのことでございますが、前世にてなにか特別の因縁でもあるのでございましょうか。<br/><br/> それは「霊を人間に知らせる」という使命を持って生まれてきたものであります。<br/><br/> ――春蒔きの蔓の出る植物は左巻きが通例でございますが、立秋後に種を蒔きますと蔓が必ず右巻きになりますのはいかなるわけでございましょうか。<br/><br/> 春は日であり秋は月で、春は左で秋は右でありますからそうなるのが本当です。<br/><br/> ――人間の想念により天候に異変を来すとのことでございますが、二百十日、二十日を厄日と言われ、特に台風などの起りますのはいかなる理由によるのでございましょうか。<br/><br/> その必要があるからです。<br/><br/>台風により稲などを倒すことがありますが、根をはらせるのに必要だからです。<br/><br/>根がはるのは風が吹くから倒れないようにするためで、根がはるから稲がよく獲れることになりますから結構です。<br/><br/> ――北半球と南半球の季節が逆でございますのは、地球の呼吸作用といかなる関係がございましょうか。<br/><br/> 呼吸をするとき、「はく」のは陽で、「すう」のは陰です。<br/><br/>北と南は霊と体の関係にありますので、すべてが反対であります。<br/><br/> ――歯の生え代わるとき、前の歯が抜けないで八重歯ができたとき、そのままにしておきますと口の格好が悪くなりますが、御浄霊により古い歯が抜けるでございましょうか。<br/><br/> 少し出かかりに浄霊をすればよろしい。<br/><br/>出てしまった後は歯医者に抜いてもらいなさい。<br/><br/> ――墓地で石碑の頭の上に地蔵尊の石像が刻んでありますが、そのままでよろしいのでございましょうか。<br/><br/>なお、地蔵尊は何神様の化身であられ、いかなるお働きをなされるのでございましょうか。<br/><br/> そのままで差し支えありません。<br/><br/>地蔵尊は阿弥陀如来の形を変えられたものでありまして、阿弥陀如来は霊界のお働きをされるのでありますが、地蔵尊は阿弥陀様が街頭に進出して救いのお働きをされるときのお姿であります。<br/><br/> ――肉腫は霊的な病気でございましょうか。<br/><br/>霊的でございましたら、その理由を御教えお願いいたします。<br/><br/> 霊的と体的とあり、体的は毒素の固結であり、霊的はたいてい虫の霊（モグラ）のようです。<br/><br/>中に核があり、形は大小さまざまあります。<br/><br/> ――田舎にはどこの家にも地の神様がお祀りしてございますが、地の神様はいかなる神様でございましょうか。<br/><br/> 神様にはいろいろな役があり、地の神は地龍で、産土神の支配により守護しているのであります。<br/><br/> ――ある信者は一時的霊眼が開け、火龍の飛ぶのを見たとのことでございます。<br/><br/>火龍は両角を備え、目は飛び出て真っ赤な色で、大小はありますが、あまり大きくはありませんでした。<br/><br/>ある日、その信者の「かまど」付近にその火龍が来ていたのが見え、火龍は火災に原因があるとのお話を聞いておりますので、これはたいへんと、居合わせた先生に善言讃詞を上げていただきますと、丸くなっていたのがだんだんと伸びて、最後には「かまど」の煙突から西北に飛び去りました。<br/><br/>そのときに居合わせた五、六名の信者の耳にゴーッという音が聞こえたそうです。<br/><br/>そうしてその人は、西方の山を指して、その山に火災の起ることを予言しましたが、はたして三月二五日に火災が起ったのでございます。<br/><br/>また空には数えきれぬ火龍が飛んでいるのが見え、御神体をお迎えした家庭は強い光がさしており、その御光の中へは突入することができず、うろたえる様が見えたそうでございます。<br/><br/>火龍の働きはそうした働きをなし、霊眼で見えたことが本当なのでございましょうか。<br/><br/> 本当です。<br/><br/>大きな火災のときは、火龍が大いに働きます。<br/><br/>火柱が立つのは火龍の働きで、長くなるのはまれでふつう丸くなって働きます。<br/><br/>飛火は火龍が火をくわえて行くのであります。<br/><br/>赤龍と間違いやすいですが、火龍は光がありますからよく区別がつきます。<br/><br/> ――紋所の発生した由来を御教えお願い申し上げます。<br/><br/> 昔戦争のあった場合、自己明示するため旗を立て、それに各々の紋をつけた。<br/><br/>それがだんだんに羽織その他に使われ家紋となったのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

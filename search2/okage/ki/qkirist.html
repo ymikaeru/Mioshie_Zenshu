@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkirist</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： キリスト教徒なるが故に 『栄光』121号、昭和26(1951)年9月12日発行 長崎県 光宝大教会 田中フヂエ（42） この御報告を書かせて戴くにつきましては非常な勇気が必要でございました、幾度か躊躇致しました、それもただ拙文乱筆の故で御座いました、しかし身に余る神様の御守護の深さに思い致しますと、そのおかげの一端でも是非御報告申し上げさせて戴かねばと、焦る心をおさえつつ、もし御無礼申し上げるような事があってはとおそるおそる筆をとらせて戴きましたが、繁雑になり、乱れ勝なる筆先を深くおわび申し上げさせて戴きます。<br><br> 話は核心を外れておかげ話とは、およそ縁が遠いかもしれません、まず私の生い立ちから申しますと、私はある寒村の掟厳しいカトリック旧教の上流の家庭の五女として生を享けました、ところが父は、私が七歳の時、五島航路の船が沈没した折水死致しました為、母の手一つで成長した訳で御座います、ところが生来無信仰な私は、長ずるに従って増々その度を深める親不幸な子でございました、それ故に頑迷固随なる母を如何程なやました事でございましょう、今となってみれば、思い出しただけでも胸をかきむしられるような苦しさを感じます。<br><br>老母の顔に深く刻まれた発条かの皺は、恐らく私が付けたに相違ありません、一体にキリスト教の家庭では仮に一人の異端者を出した場合には、その責任によって両親の霊は救われないと固く信じている様子でございました、イエス・キリストがそのような事を言われたのではない事は確実でございますが、いつの頃からか誰かが言い出した事と存じます。<br><br>これを頭から信じこんでいる母は、これは一大事、是が非でもキリスト教に入信させなくてはならぬと、遥々やって来ては、キリスト教信仰に入るように、執拗に奨めました、勿論キリスト教以外の宗教は皆迷信邪教と信じていた位頑固な母でございました、私はその都度、捕え所のない「ウナギ」のように、ぬるぬると逃口上を見付けては話を外して、成るべく触れないようにつとめました、しかし、私がすねればすねる程、繁しくやって来ては、同じ話を繰り返えされるので、本当に親ながら有難迷惑と思う位でした。<br><br> それに母性愛という、いかめしい伝統の絆をもっておしつけられますのでほとほと困りました、さあ又始まったと思う瞬間にたくみに話の方向を変えたり、話題を外すのがせい一杯で、弁解も何もあったものではありませんでした、そのように無神論にかけては頑固一徹の私も、病弱で十六年間の心臓脚気で背柱注射五本打ち、治らぬ内胃潰瘍となり血を吐き、二回迄遺言するという状態を、光明如来様にお救い戴き、自分ながらあっ気ないと思う位するすると、お道に入れて戴きました、ただ神様が、憐れと思召されて、救い上げて下さったと思う外ございません、とにかくよく分って見れば、じっとしていられません、遂に母も霊肉一体の御救いに御縁あらしめたい一念から『栄光』新聞、『地上天国』、等々を読ませて戴き、頑固な母に向って、まず新しい正しい宗教観から話しをさせて戴きました、母は、キリスト教信者だけに、話も意外に分りが早いように見えましたが、色々と理屈っぽく反問され、しかもそれが、明らかに反対の為の反対に汲々として、何とかして、自己の宗教を弁護する事にほうほうの態でございました、私も可哀相な母の為に、あかずたゆまず、おもむろに明主様の御教理を説かせて戴きました。<br><br> ところが母は、私の言う事が真実とわかればわかる程、頑になって、自己の宗教の殻にたてこもり、心の動きを、表情にすら表わさない為に、努力致しておりました、恐らくキリスト教徒の母にしてみれば、私の話には一向耳を傾けず、頭から邪教に迷う娘の私を救わんものと、逆の努力をしていたようで御座居ます、何しろ背信の罪の絆にしばられ、身動きならぬ母の立場に、却って可哀相にも思えて参りました、殊に年老いた母を正しい事ではありながら余り無理に入信を勧めるべきでもないと考え、ただ私に対して信仰の自由を赦して貰いたい、安心して貰いたいと願うのみで御座居ました、遂にその時は来ました、ある日の事、母は遂に私に御浄霊をたのみました、あの頑固一徹の母が、嗚呼！ 明主様有難うございました、有難うございました、今日迄母の来る度に、何卒母の頑な気持が折れますようにと神様におすがり致しておりました、その願が叶えられたのでございます、自分の病が癒されたよろこびにまして嬉しゅうございました、それより間もなく、長崎の妹の夫が、「母から行ってお願いすれば、どんな病気でも治るから」と勧められたと申して、自分の神経痛を治して戴きに参りました、勿論おかげ戴き、工合よくならせて戴きました。<br><br> 母はメシヤ教に、心から感謝しておりました、しかしいかに讃美しようとも、絶対に入信する勇気はありませんでした、一つには、キリスト信者同士の世間体を思い、厳しき宗門の掟にしばられ、身動きならず、正しい事、良い事――正しい宗教――霊肉共に救われる宗教とわかっていながら、それを蹴って起ち上る勇気のない母でした、ある時は、救世教を認めたその事だけでも背神の罪に日夜戦いているような潜在意識に苦しんでいたように見えました、私は再び悶着致しました、この御道が救われる唯一のお道でありながら、年老いたる母をこれ以上心苦しさを抱かせるには忍びないという、人間的な気持も手伝って、遂に私は母に申しました、「お母様に是非入信せよとは申しません、ただメシヤ教は正しい宗教だと分ってもらえばよいのです、私がお道の為にすすませて戴くのを安心して見守ってもらえばよいのです」と、それから静かな幾月か流れました、心からメシヤ教を礼讃してくれる母は、私に「救霊の御神業にしっかりお手伝いなさい」と時折り励ましてくれていましたその母の足が、しばらく遠くなったようだと気がかりになっていた矢先「ハハキトク」の報に接し取るものも取りあえず母の許に馳けつけました。<br><br> 枕許に坐れば、未だ幾分心残りがあると見え、かぼそき声で、「お前の事は心配いらないねー」と本当におまかせしきった嬉しい言葉を残してくれました、ただクリスチャンなるが故に、母は一抹の心苦しさを胸に秘めていたのではないでしょぅか、私はそれを思うと胸が一ぱいになりました、しかしわざと元気に、「ああ心配いりませんとも、母と子と、たとえ登る道は違うとも山の頂上にあえぎあえぎ登り着いた時は一緒じゃないの、安心して、心安らかに天国にいらっしゃいませ」となぐさめ、慰めの言葉をかければ、いともおだやかに微笑を浮べつつ、眠るがごとく最後の息を引取りました、私は悲しみの涙にもまして嬉し涙のこみ上げて来るのを禁じ得ませんでした、私は母が籍は異教徒にありながら、神様の自由無碍の御力によって、天国へ救われたのをありありと見せて戴きました、明主様まことに有難うございました。<br><br> キリスト教信者なるが故に厳しい宗門の掟にしばられ、自己を偽瞞せねばならなかった母の心境――これはただ私の母一人の問題ではないと存じます、法滅尽の世、世の終りに、既成宗教の信徒の方々が必ず一度はぶつかる大問題であり、又そのような方々を母にもつ、姉にもつ方々の経験せねばならない事だろうと存じます。<br><br> 明主様、何卒信ずる事うすき母の霊を御救い賜りますよう御願い申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Por Ser Cristã (Relato de Fé)</h2>
 <p><em>Publicado na revista Eikō, nº 121, em 12 de setembro de 1951.</em>
@@ -106,5 +261,48 @@ function toggleLang(lang) {
 <p>Ao sentar-me à sua cabeceira, percebi que ainda lhe restava uma derradeira preocupação. Com uma voz frágil, ela disse: "Não preciso me preocupar com você, não é mesmo?". Foram palavras de completa confiança, que me encheram de felicidade. Não obstante, por ser cristã, será que ela não guardava no peito uma sombra de angústia? Esse pensamento me oprimiu o coração. Esforçando-me para parecer animada, respondi: "Não se preocupe, de forma alguma. Mãe e filha, ainda que por trilhas diferentes, não haverão de se encontrar no cume da montanha, após a árdua subida? Vá em paz e com o coração tranquilo para o Paraíso". Enquanto eu a consolava com essas palavras, um sorriso sereno despontou em seus lábios, e ela exalou seu último suspiro, como se adormecesse. Naquele momento, não pude conter as lágrimas de alegria, que brotaram mais fortes que as de tristeza. Foi-me claramente permitido ver que, embora minha mãe pertencesse a outra religião, ela fora salva e elevada ao Paraíso pelo poder ilimitado e incondicional de Deus. Meishu-Sama, sou-Vos imensamente grata.</p>
 <p>A condição de minha mãe, que, por ser cristã, se viu forçada a se enganar, presa às severas regras de sua fé, não é, creio eu, um problema exclusivo dela. Nesta era de extinção da Lei Divina, no fim dos tempos, este é o grande dilema com o qual os fiéis das religiões estabelecidas inevitavelmente se depararão, bem como a provação que aqueles que têm mães e irmãs nessa situação precisarão vivenciar.</p>
 <p>Ó, Meishu-Sama, rogo-Vos que salveis o espírito de minha mãe, cuja fé foi tão vacilante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： キリスト教徒なるが故に 『栄光』121号、昭和26(1951)年9月12日発行 長崎県 光宝大教会 田中フヂエ（42） この御報告を書かせて戴くにつきましては非常な勇気が必要でございました、幾度か躊躇致しました、それもただ拙文乱筆の故で御座いました、しかし身に余る神様の御守護の深さに思い致しますと、そのおかげの一端でも是非御報告申し上げさせて戴かねばと、焦る心をおさえつつ、もし御無礼申し上げるような事があってはとおそるおそる筆をとらせて戴きましたが、繁雑になり、乱れ勝なる筆先を深くおわび申し上げさせて戴きます。<br/><br/> 話は核心を外れておかげ話とは、およそ縁が遠いかもしれません、まず私の生い立ちから申しますと、私はある寒村の掟厳しいカトリック旧教の上流の家庭の五女として生を享けました、ところが父は、私が七歳の時、五島航路の船が沈没した折水死致しました為、母の手一つで成長した訳で御座います、ところが生来無信仰な私は、長ずるに従って増々その度を深める親不幸な子でございました、それ故に頑迷固随なる母を如何程なやました事でございましょう、今となってみれば、思い出しただけでも胸をかきむしられるような苦しさを感じます。<br/><br/>老母の顔に深く刻まれた発条かの皺は、恐らく私が付けたに相違ありません、一体にキリスト教の家庭では仮に一人の異端者を出した場合には、その責任によって両親の霊は救われないと固く信じている様子でございました、イエス・キリストがそのような事を言われたのではない事は確実でございますが、いつの頃からか誰かが言い出した事と存じます。<br/><br/>これを頭から信じこんでいる母は、これは一大事、是が非でもキリスト教に入信させなくてはならぬと、遥々やって来ては、キリスト教信仰に入るように、執拗に奨めました、勿論キリスト教以外の宗教は皆迷信邪教と信じていた位頑固な母でございました、私はその都度、捕え所のない「ウナギ」のように、ぬるぬると逃口上を見付けては話を外して、成るべく触れないようにつとめました、しかし、私がすねればすねる程、繁しくやって来ては、同じ話を繰り返えされるので、本当に親ながら有難迷惑と思う位でした。<br/><br/> それに母性愛という、いかめしい伝統の絆をもっておしつけられますのでほとほと困りました、さあ又始まったと思う瞬間にたくみに話の方向を変えたり、話題を外すのがせい一杯で、弁解も何もあったものではありませんでした、そのように無神論にかけては頑固一徹の私も、病弱で十六年間の心臓脚気で背柱注射五本打ち、治らぬ内胃潰瘍となり血を吐き、二回迄遺言するという状態を、光明如来様にお救い戴き、自分ながらあっ気ないと思う位するすると、お道に入れて戴きました、ただ神様が、憐れと思召されて、救い上げて下さったと思う外ございません、とにかくよく分って見れば、じっとしていられません、遂に母も霊肉一体の御救いに御縁あらしめたい一念から『栄光』新聞、『地上天国』、等々を読ませて戴き、頑固な母に向って、まず新しい正しい宗教観から話しをさせて戴きました、母は、キリスト教信者だけに、話も意外に分りが早いように見えましたが、色々と理屈っぽく反問され、しかもそれが、明らかに反対の為の反対に汲々として、何とかして、自己の宗教を弁護する事にほうほうの態でございました、私も可哀相な母の為に、あかずたゆまず、おもむろに明主様の御教理を説かせて戴きました。<br/><br/> ところが母は、私の言う事が真実とわかればわかる程、頑になって、自己の宗教の殻にたてこもり、心の動きを、表情にすら表わさない為に、努力致しておりました、恐らくキリスト教徒の母にしてみれば、私の話には一向耳を傾けず、頭から邪教に迷う娘の私を救わんものと、逆の努力をしていたようで御座居ます、何しろ背信の罪の絆にしばられ、身動きならぬ母の立場に、却って可哀相にも思えて参りました、殊に年老いた母を正しい事ではありながら余り無理に入信を勧めるべきでもないと考え、ただ私に対して信仰の自由を赦して貰いたい、安心して貰いたいと願うのみで御座居ました、遂にその時は来ました、ある日の事、母は遂に私に御浄霊をたのみました、あの頑固一徹の母が、嗚呼！ 明主様有難うございました、有難うございました、今日迄母の来る度に、何卒母の頑な気持が折れますようにと神様におすがり致しておりました、その願が叶えられたのでございます、自分の病が癒されたよろこびにまして嬉しゅうございました、それより間もなく、長崎の妹の夫が、「母から行ってお願いすれば、どんな病気でも治るから」と勧められたと申して、自分の神経痛を治して戴きに参りました、勿論おかげ戴き、工合よくならせて戴きました。<br/><br/> 母はメシヤ教に、心から感謝しておりました、しかしいかに讃美しようとも、絶対に入信する勇気はありませんでした、一つには、キリスト信者同士の世間体を思い、厳しき宗門の掟にしばられ、身動きならず、正しい事、良い事――正しい宗教――霊肉共に救われる宗教とわかっていながら、それを蹴って起ち上る勇気のない母でした、ある時は、救世教を認めたその事だけでも背神の罪に日夜戦いているような潜在意識に苦しんでいたように見えました、私は再び悶着致しました、この御道が救われる唯一のお道でありながら、年老いたる母をこれ以上心苦しさを抱かせるには忍びないという、人間的な気持も手伝って、遂に私は母に申しました、「お母様に是非入信せよとは申しません、ただメシヤ教は正しい宗教だと分ってもらえばよいのです、私がお道の為にすすませて戴くのを安心して見守ってもらえばよいのです」と、それから静かな幾月か流れました、心からメシヤ教を礼讃してくれる母は、私に「救霊の御神業にしっかりお手伝いなさい」と時折り励ましてくれていましたその母の足が、しばらく遠くなったようだと気がかりになっていた矢先「ハハキトク」の報に接し取るものも取りあえず母の許に馳けつけました。<br/><br/> 枕許に坐れば、未だ幾分心残りがあると見え、かぼそき声で、「お前の事は心配いらないねー」と本当におまかせしきった嬉しい言葉を残してくれました、ただクリスチャンなるが故に、母は一抹の心苦しさを胸に秘めていたのではないでしょぅか、私はそれを思うと胸が一ぱいになりました、しかしわざと元気に、「ああ心配いりませんとも、母と子と、たとえ登る道は違うとも山の頂上にあえぎあえぎ登り着いた時は一緒じゃないの、安心して、心安らかに天国にいらっしゃいませ」となぐさめ、慰めの言葉をかければ、いともおだやかに微笑を浮べつつ、眠るがごとく最後の息を引取りました、私は悲しみの涙にもまして嬉し涙のこみ上げて来るのを禁じ得ませんでした、私は母が籍は異教徒にありながら、神様の自由無碍の御力によって、天国へ救われたのをありありと見せて戴きました、明主様まことに有難うございました。<br/><br/> キリスト教信者なるが故に厳しい宗門の掟にしばられ、自己を偽瞞せねばならなかった母の心境――これはただ私の母一人の問題ではないと存じます、法滅尽の世、世の終りに、既成宗教の信徒の方々が必ず一度はぶつかる大問題であり、又そのような方々を母にもつ、姉にもつ方々の経験せねばならない事だろうと存じます。<br/><br/> 明主様、何卒信ずる事うすき母の霊を御救い賜りますよう御願い申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

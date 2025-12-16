@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo27</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』23号、昭和26(1951)年4月25日発行 （お伺） 「日本人種の霊的考察」の御開示の中にも、日本人中に四種族あると御教示いただきましたが、世界各国にもそのような霊統がございましょうか。<br><br>また現世界状勢にもその霊統間の「日本の型」の反映または移写のような状態がございましょうか。<br><br>右お伺い申し上げます。<br><br> （御垂示） 無論、世界中の人種にもいろいろの系統がある。<br><br>これはいずれ時機が来たら、詳しく書くつもりである。<br><br> （お伺） 昨年四月入信させていただき、十二月二十五日には御神体を御奉斎させていただいております小林岩夫と申す信者でございますが、本年二月二十五日の夜九時ごろ、同家屋根上（御神体の上）に直径三寸くらいの光の玉が見え、またその光の玉のまわりに星くらいの玉が十個ほど見えました。<br><br>同時に近所の人も四、五人はっきりと見られたそうでございます。<br><br>家の者も別に気にも留めずにおりましたが、八日後の三月六日夜八時ごろまたも見えました。<br><br>今度は前とは違い、星くらいの光が三個だけでした。<br><br>この光の玉は御神霊でございましょうか。<br><br>またなにかのお知らせでございましょうか。<br><br>御教えのほどうけたまわりたくお願い申し上げます。<br><br> （御垂示） これは、救われた霊が光明如来様へ御礼に慕い寄ってくるのである。<br><br>光るのは救われた霊であるからで、大きいのは神格を得たもので、小さいのは人霊の救われたばかりのものである。<br><br> （お伺） 一、先にお蔭話にて御報告申し上げました 丹野隆夫（一三歳）は格別の御守護をいただき、御写真御文字、または御浄霊の霊光を見させていただき、人により放射力の濃淡および長短を見させていただいております。<br><br> また大光明如来様より放射するお光が室内に充満し、室外にもあふれておると申します。<br><br>またこのたびは、朝の御参拝の折、心臓に快い律動を感じ、例えば今日学校で危険なことがあるから、気をつけるようにとか聞こえるごとく、感ずるそうでありますが、はたしてこのようなことがあるものでしょうか。<br><br> 右お伺い申し上げます。<br><br> （御垂示） 無論、そういうことはよくあるもので、これは祖霊の中で救われた者が、感謝報恩のため、御神業のお手伝いをするのであるから、結構である。<br><br> （お伺） 米麦について、品種選択改良の必要性がありましょうか、御教示願います。<br><br> （御垂示） 品種改良の必要はあまりない。<br><br>ただ品種よりも肥毒を早く抜くことである。<br><br>だから肥料をやらなければ、年々品種はよくなるばかりである。<br><br>従って一度決めた品種は、中途で変えてはいけないから、この点注意すべきである。<br><br> （お伺） 冷水の出る土地で、自然農法を行なったところ、二年目に一割五分ほどの減収でした。<br><br>人々は藁を入れたからだと言います。<br><br>この対策について御教示をお願いいたします。<br><br>他の有肥田と比較しても減収なのです。<br><br> （御垂示） これは勿論水の冷たいためもあるが、土にも種にも、肥毒が残っているからである。<br><br>それから注意すべきは、藁はできるだけ細く切ること、水は日光で温めるように、溝をできるだけ長くすること、右実行すれば、年々増収となること確実である。<br><br> （お伺） 新開墾地で自然栽培を行なうと、豌豆（えんどう）、西瓜などは、良く穫れますが、麦などにおいては、初めから穫れないと言われますが、その原因は那辺（なへん）にあるのでしょうか、御教示願います。<br><br> （御垂示） そんなことは決してない。<br><br>ただ開拓地は土がこなれていないから、固まりやすいためである。<br><br>だからどうしても、土を固めないよう堆肥を充分混ぜるようにすればよい。<br><br>また土地によっては石混りの所があるから、こういうのは充分篩（ふるい）にかければよいのである。<br><br> （お伺） 畑の裏作において、自然農法では、草とか藁を入れて腐らして、土地を肥やそうとしますが、そうすれば結局、ミミズとかモグラが荒らしまわって減収をきたします。<br><br>どうしたら、モグラなど、害虫を駆逐できましょうか、お伺いいたします。<br><br> （御垂示） あなたは私の自然農法の読み方が足りない。<br><br>草や藁に肥料分は決してない。<br><br>ただ畑の土を固めないためと、水田の土を温めるという意味である。<br><br>肥料は土だけにあることを知らねばならない。<br><br>モグラやミミズが荒らすのは、土が汚れており、土の霊が曇っているのであるから、あなたの認識を変えてよく浄霊をし、神様にお願いすれば、そういう心配はなくなるのである。<br><br> （お伺） 私は自然栽培に切り替え、初年度、二年度と、半俵ほど増収させていただいたのですが、昔からこの地区では、藁を入れると螟（ずい）虫が湧くと言って、藁を入れません。<br><br>私は藁を入れたほうが良いとは知りつつも、躊躇しているのですが、いかがなものでしょうか、御教示願います。<br><br> （御垂示） 藁と螟虫とは関係はない。<br><br>螟虫は人糞肥料によって湧くのであるから、人糞をやらなければいいのである。<br><br>由来昔からいろいろなことを言っているが、間違っていることのほうが多いのである。<br><br>だから私の言う通りを実行すれば、立派な成績が挙がるのである。<br><br> （お伺） 山間部で田が階段状になっており、冷水の侵入をいかにしても、防ぐことができず、藁を入れても、土に混合する前に、冷水のために、ぶわぶわ浮いています。<br><br>土に完全に混るにもそうとう遅く、土質と藁の量を、大いに考えねばなりません。<br><br>藁の加減をいかにすべきか、あるいは他に方法を考えるべきか悩んでいます。<br><br>この点について御教示願います。<br><br> （御垂示） 藁はそれほど重要視するには当たらない。<br><br>そういう土地は日の当たる場所へ、溝をできるだけ延ばしてそこを水が通るようにすればいい。<br><br>つまり、日光で水を温める方法である。<br><br> （お伺） 岐阜県本巣郡の者ですが、水田であって、四寸ほどまでは土で下は岩盤であります。<br><br>耕土が深いほうが多く作れるというので、裏作から耕土を深くしたのですが、実際に四寸くらいが適当か、あるいはまだ深く掘るべきか、御教示願います。<br><br> （御垂示） これはできるだけ浅くするほうがいい。<br><br>深いと、根伸びの場合、岩盤に突き当たるから、成育が悪くなるからである。<br><br> （お伺） 火葬の骨に五色の斑点ができますと、山形の地方ではこれを「花舎利」と称し、伝説によれば、その霊は天国にゆき再生せず、生前は徳望のあった方だと言っております。<br><br> 現在私も見ましたが、この霊は六歳で帰幽いたし、その母親は教修をいただいておるものであります。<br><br>これは迷信でございましょうか。<br><br> 右お伺い申し上げます。<br><br> （御垂示） これは迷信である。<br><br>花の模様は一種の薬毒が骨に染みているためであろう。<br><br>また天国へ往って再生しないというのもおかしい。<br><br>なぜなれば、人間は必ず再生するものであるからである。<br><br> （お伺） 御葬式または法要の場合、僧侶の読経がすんでから善言讃詞を奏上するようとのお言葉でございますが、僧侶の来る前の日に御供養させていただいてよろしいでしょうか。<br><br> 右お伺い申し上げます。<br><br> （御垂示） 僧侶のいるときは、善言讃詞は奏げないほうがよい。<br><br>というのは僧侶としては、よい気持ちはしないからである。<br><br>勿論読経よりも、善言讃詞を先へ奏げるのが本当である。<br><br> （お伺） 仏壇のすぐ上に神棚があるのはよくないでしょうか。<br><br>仏壇の中に幽世之大神様を御奉斎いたしておるのでございます。<br><br> 右御開示お願い申し上げます。<br><br> （御垂示） 無論神様のないほうがよい。<br><br>神棚は外へ移すべきだ。<br><br>右質問中の幽世之大神様とは、何神様であるか知らせなさい。<br><br> （お伺） 当年三歳の女の子（良子）生後十カ月ごろ脳膜炎を患い当時医療にて固めました。<br><br>小さいときには気づきませんでしたが、いまは口がきけず耳も聞こえません。<br><br>頭の働きなどふつうの子供と変わりません。<br><br>この子の伯父は発狂して死亡しており、またこの子の兄は、生後八十日ごろ脳膜炎で死亡し、その弟も生後四十五日ごろやっぱり脳膜炎の症状で死亡しております。<br><br>以前死亡している人たちとなにか関係がありましょうか。<br><br>また治癒するものでしょうか。<br><br>浄霊は約三カ月間くらい受けており、その間汽車の音などに振りむくようなこと二、三回あります。<br><br>今年三月には、屏風観音様および光明如来様をお迎えさしていただいております。<br><br> （御垂示） これは脳膜炎のとき、氷冷などで毒素を固めたため、脳の機能が働かなくなったのであるから、気長に浄霊すれば、必ず治るものである。<br><br>勿論首のまわり、肩の塊りもよく溶かすことである。<br><br>また霊的関係というよりも、遺伝性である。<br><br>できるだけ運動させるようにすると、浄化が発るから早く治るのである。<br><br> （お伺） 私は十九歳のとき、村の方の所へ嫁ぎましたが、夫はすでに梅毒を患っており、私に染るのを恐れて一度も夫婦の交わりをいたしませず、毎日暗い日が続きましたので、堪えられなくなって、八カ月目に夫と姑が無理に頼んで止めるのをふりきって実家へ帰り、ただいまの夫の所へ嫁ぎました。<br><br>そして昭和二十三年十月入信させていただきました。<br><br>夫はそのとき反対ではなく、また賛成でもなかったのでございますが、本家は反対でございました。<br><br>それから一年あまり毎月姉の家で例祭のありますとき、お詣りし先生のお話を聞かせていただいておりました。<br><br>去年の二月ごろから夫は、夜大きくうなされたり、悲しんだり、泣くようなことを申すようになり、また会社で「お前の女房は観音教の先生に瞞されている」と聞いて帰り、ぶつ、けるの乱暴をいたします。<br><br>それでなくてさえ反対の本家は、もったいないことには私の御守り様を取り上げてしまい、父は焼いてやるとまでおっしゃったのでございます。<br><br>その後本家の父と兄は赤痢になって入院、父は間もなく死亡など、次々と不幸が続いております。<br><br>私の夫は固い律儀な人で、お仕事や言語には変わりございませんが、家では半気違いのようになって、自分で妄想を作り上げ、激しく責めたて、本当に人様に言えないようなこともございます。<br><br>いくら話をしましても聞き入れもしません。<br><br>帰れと申しますので、子供と別れて親の家へ帰っております。<br><br>いかがいたしたら良いのでございましょうか。<br><br>私の住んでいます家は夫の叔父に当たる方の家で、二人とも死んでおられませんが、生前よく男があるとかないとか、争っておられましたそうです。<br><br>それから私が初めに嫁ぎました夫は、兄が亡くなって、兄嫁と一緒になり、男の子二人をもって幸せに暮らしています。<br><br> 最近本家の兄も弟（私の主人）の日ごとに募る狂態をいろいろ心配いたし、お道の先生とも話して救世教に対する認識も変えてくださったようで、まだ御守り様は主人が嫌うので、返してもらえませんが、なんとか夫をもとのように返すにはいかがいたしたらよいでしょう。<br><br> どうぞお導きくださいませ。<br><br> （御垂示） これは霊的原因が大いにあるが、ちょっとここでは言えない。<br><br>夫が帰れと言うのだから実家へ帰って、一生懸命信仰に励み、徳を積むことが最もよい。<br><br>あなたが苦しむのは、あなたに罪があるのだから、徳を積んで罪を消すことである。<br><br>消えただけは幸福になるのであるから、今後その方針で進み、後は神様にお任せすれば、必ずよくなるのである。<br><br>次に反対者にはなんとかして、「栄光」か「地上天国」を読ませるようにするのが一番よい。<br><br> （お伺） 私は昭和二十五年十二月二日、妻は本年三月三日入信させていただき、現在函館に住居し、青函連絡船の船長として、種々御守護をいただきつつ毎日を送らせていただいている者でございます。<br><br> 明治以前二十年くらい前、廃仏騒動と称するものがありまして、当時寺は全部破壊され、坊さんは全部殺害され、当時庄屋でありました私宅に緋（ひ）の衣を纏（まと）える坊さんを連れてきて殺しました。<br><br>その後大火がありまして、私宅は全焼、祖母一人生き残りました由でございますが、これは祖母幼少のころで確たることは判りませんが、そのころより部落全部神道になりました。<br><br> 父は船をもって諸方面を歩いているうちに「永海タミ」（私の実母）と知り合い、内縁関係になりました。<br><br>そのうち本妻「永海ヤス」は病死し、その後「永海タミ」は後妻として迎えられました。<br><br>先妻「永海ヤス」はこのことを知って、そうとう烈しく怨んで、他界したそうでございます。<br><br> 「永海タミ」は三十過ぎてより、どことなく体が悪くなり、日蓮宗を信仰し、日蓮の坊さんの奨めにより山籠もりして行をとるべく準備中に、心臓病にて便所で卒倒し、口もきけなくなり、間もなく死亡、日蓮宗にてお葬式を出しました。<br><br> 長兄（永海ヤスの長男）は父の築いた財産を蕩尽し、妻を離縁し、芸妓を後妻としましたが、金使いが荒く、親類会議により準禁治産者となり、私は長兄の所に養子となりました。<br><br>長兄は現在鳥取県西伯郡尚徳村に住んでおります。<br><br> 現在私は御屏風観音様をお祀りさせていただき、とりあえず仏式にてお祀りさせていただいておりますが、正しい御先祖祀りの方法を御教え賜りたくお願い申し上げます。<br><br> なお、島の部落では、白木の位牌に本名を書き、精進料理を供え線香を上げ、墓には線香に榊という神仏混合の祀り方をしております。<br><br> なお、去年御守り様をいただいて帰りましてより九日目に私に憑霊がありまして、旧住所隠岐島五箇村九〇三の地主であると称し、武士のごとく威猛（いたけ）き口調で申しますには、「永海家を守護している地主である。<br><br>永海家の恩人である地主を祀らないでほおっておいたから、この男（私）を生かしてはおかない考えであった。<br><br>地主とは三百年くらい前にその土地にあって、その地方を治めていた武士であり、その土地に執着を持っていて祀られたものである。<br><br>今後は次の祀り方で祀れ。<br><br>祀らないと不幸が来ることを肝に銘じておけ。<br><br>このことは子々孫々に至るまで、決して忘れることのないようよく伝えおけ。<br><br>祀り方は元の場所に祀るのがよいが、それもできないため、現住所の庭の高に三尺四方くらいの土地を、地主の土地として、塩を撒き、小石を置き、その上に祠（ほこら）を作って祀れ。<br><br>その祠の中には「永海家の恩人」ということを明記せよ。<br><br>また、この中に「永海家の者は子々孫々に至るまで、この祀りを忘れてはならぬ」旨をも書いておけ。<br><br>移転のときは持って行け。<br><br>火災のときは持ち出せ。<br><br>持ち出せないときは新しく作って祀れ。<br><br>身分相応に祀れ。<br><br>永海家の先祖には偉い人がいるが、俺が邪魔してやろうと思えばどんなこともできる」と言いました。<br><br> 右の事柄を受諾しましたら帰りました。<br><br>現在は右の霊の言った通り祀っておりますが、なにか変な感じがしまして狐霊かなにかのように思われますが、いかがなものでございましょうか。<br><br>また祀り方は霊の言った通りでよろしゅうございましょうか。<br><br>御教えのほどお願い申し上げます。<br><br> （御垂示） これは人霊が畜生道へ墜ちた狐霊で、人間に再生したいため頼んだのであると思うが、その言う通り祀ったのは結構ですからそのままでよろしい。<br><br>あなたの家は悪因縁がだいぶあるから、一日も早く光明如来様をお祀りして、できるだけ人助けをすることである。<br><br>それによって苦しんでいる霊が救われるから、あなたの家もだんだん幸せになる。<br><br> （お伺） 恥ずかしい場合、すぐに顔面紅潮する人と、そうでない人とありますが、これはどういうわけでしょうかお伺いいたします。<br><br> （御垂示） これは心臓の関係と面の皮の厚い薄いであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos a Respeito de Várias Questões</h2>
 <p><em>Publicado na revista Chijō Tengoku, nº 23, em 25 de abril de 1951</em></p>
@@ -127,5 +279,48 @@ function toggleLang(lang) {
 <p><strong>Orientação de Meishu-Sama:</strong> Trata-se de um espírito humano que decaiu ao mundo animal como um espírito de raposa e que, provavelmente, pediu para ser cultuado por desejar reencarnar como ser humano. Foi excelente que você tenha procedido ao culto conforme ele indicou, portanto, pode continuar assim. Sua família possui um carma bastante negativo, sendo necessário que entronize a Imagem de Kōmyō Nyorai o mais rápido possível e se dedique ao máximo à salvação de outras pessoas. Através desse ato, os espíritos que estão em sofrimento serão salvos, e sua família, gradualmente, se tornará feliz.</p>
 <p><strong>Pergunta:</strong> Gostaria de saber por que, em situações embaraçosas, algumas pessoas coram imediatamente, enquanto outras não.</p>
 <p><strong>Orientação de Meishu-Sama:</strong> Isso se deve à condição do coração e à espessura da pele do rosto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』23号、昭和26(1951)年4月25日発行 （お伺） 「日本人種の霊的考察」の御開示の中にも、日本人中に四種族あると御教示いただきましたが、世界各国にもそのような霊統がございましょうか。<br/><br/>また現世界状勢にもその霊統間の「日本の型」の反映または移写のような状態がございましょうか。<br/><br/>右お伺い申し上げます。<br/><br/> （御垂示） 無論、世界中の人種にもいろいろの系統がある。<br/><br/>これはいずれ時機が来たら、詳しく書くつもりである。<br/><br/> （お伺） 昨年四月入信させていただき、十二月二十五日には御神体を御奉斎させていただいております小林岩夫と申す信者でございますが、本年二月二十五日の夜九時ごろ、同家屋根上（御神体の上）に直径三寸くらいの光の玉が見え、またその光の玉のまわりに星くらいの玉が十個ほど見えました。<br/><br/>同時に近所の人も四、五人はっきりと見られたそうでございます。<br/><br/>家の者も別に気にも留めずにおりましたが、八日後の三月六日夜八時ごろまたも見えました。<br/><br/>今度は前とは違い、星くらいの光が三個だけでした。<br/><br/>この光の玉は御神霊でございましょうか。<br/><br/>またなにかのお知らせでございましょうか。<br/><br/>御教えのほどうけたまわりたくお願い申し上げます。<br/><br/> （御垂示） これは、救われた霊が光明如来様へ御礼に慕い寄ってくるのである。<br/><br/>光るのは救われた霊であるからで、大きいのは神格を得たもので、小さいのは人霊の救われたばかりのものである。<br/><br/> （お伺） 一、先にお蔭話にて御報告申し上げました 丹野隆夫（一三歳）は格別の御守護をいただき、御写真御文字、または御浄霊の霊光を見させていただき、人により放射力の濃淡および長短を見させていただいております。<br/><br/> また大光明如来様より放射するお光が室内に充満し、室外にもあふれておると申します。<br/><br/>またこのたびは、朝の御参拝の折、心臓に快い律動を感じ、例えば今日学校で危険なことがあるから、気をつけるようにとか聞こえるごとく、感ずるそうでありますが、はたしてこのようなことがあるものでしょうか。<br/><br/> 右お伺い申し上げます。<br/><br/> （御垂示） 無論、そういうことはよくあるもので、これは祖霊の中で救われた者が、感謝報恩のため、御神業のお手伝いをするのであるから、結構である。<br/><br/> （お伺） 米麦について、品種選択改良の必要性がありましょうか、御教示願います。<br/><br/> （御垂示） 品種改良の必要はあまりない。<br/><br/>ただ品種よりも肥毒を早く抜くことである。<br/><br/>だから肥料をやらなければ、年々品種はよくなるばかりである。<br/><br/>従って一度決めた品種は、中途で変えてはいけないから、この点注意すべきである。<br/><br/> （お伺） 冷水の出る土地で、自然農法を行なったところ、二年目に一割五分ほどの減収でした。<br/><br/>人々は藁を入れたからだと言います。<br/><br/>この対策について御教示をお願いいたします。<br/><br/>他の有肥田と比較しても減収なのです。<br/><br/> （御垂示） これは勿論水の冷たいためもあるが、土にも種にも、肥毒が残っているからである。<br/><br/>それから注意すべきは、藁はできるだけ細く切ること、水は日光で温めるように、溝をできるだけ長くすること、右実行すれば、年々増収となること確実である。<br/><br/> （お伺） 新開墾地で自然栽培を行なうと、豌豆（えんどう）、西瓜などは、良く穫れますが、麦などにおいては、初めから穫れないと言われますが、その原因は那辺（なへん）にあるのでしょうか、御教示願います。<br/><br/> （御垂示） そんなことは決してない。<br/><br/>ただ開拓地は土がこなれていないから、固まりやすいためである。<br/><br/>だからどうしても、土を固めないよう堆肥を充分混ぜるようにすればよい。<br/><br/>また土地によっては石混りの所があるから、こういうのは充分篩（ふるい）にかければよいのである。<br/><br/> （お伺） 畑の裏作において、自然農法では、草とか藁を入れて腐らして、土地を肥やそうとしますが、そうすれば結局、ミミズとかモグラが荒らしまわって減収をきたします。<br/><br/>どうしたら、モグラなど、害虫を駆逐できましょうか、お伺いいたします。<br/><br/> （御垂示） あなたは私の自然農法の読み方が足りない。<br/><br/>草や藁に肥料分は決してない。<br/><br/>ただ畑の土を固めないためと、水田の土を温めるという意味である。<br/><br/>肥料は土だけにあることを知らねばならない。<br/><br/>モグラやミミズが荒らすのは、土が汚れており、土の霊が曇っているのであるから、あなたの認識を変えてよく浄霊をし、神様にお願いすれば、そういう心配はなくなるのである。<br/><br/> （お伺） 私は自然栽培に切り替え、初年度、二年度と、半俵ほど増収させていただいたのですが、昔からこの地区では、藁を入れると螟（ずい）虫が湧くと言って、藁を入れません。<br/><br/>私は藁を入れたほうが良いとは知りつつも、躊躇しているのですが、いかがなものでしょうか、御教示願います。<br/><br/> （御垂示） 藁と螟虫とは関係はない。<br/><br/>螟虫は人糞肥料によって湧くのであるから、人糞をやらなければいいのである。<br/><br/>由来昔からいろいろなことを言っているが、間違っていることのほうが多いのである。<br/><br/>だから私の言う通りを実行すれば、立派な成績が挙がるのである。<br/><br/> （お伺） 山間部で田が階段状になっており、冷水の侵入をいかにしても、防ぐことができず、藁を入れても、土に混合する前に、冷水のために、ぶわぶわ浮いています。<br/><br/>土に完全に混るにもそうとう遅く、土質と藁の量を、大いに考えねばなりません。<br/><br/>藁の加減をいかにすべきか、あるいは他に方法を考えるべきか悩んでいます。<br/><br/>この点について御教示願います。<br/><br/> （御垂示） 藁はそれほど重要視するには当たらない。<br/><br/>そういう土地は日の当たる場所へ、溝をできるだけ延ばしてそこを水が通るようにすればいい。<br/><br/>つまり、日光で水を温める方法である。<br/><br/> （お伺） 岐阜県本巣郡の者ですが、水田であって、四寸ほどまでは土で下は岩盤であります。<br/><br/>耕土が深いほうが多く作れるというので、裏作から耕土を深くしたのですが、実際に四寸くらいが適当か、あるいはまだ深く掘るべきか、御教示願います。<br/><br/> （御垂示） これはできるだけ浅くするほうがいい。<br/><br/>深いと、根伸びの場合、岩盤に突き当たるから、成育が悪くなるからである。<br/><br/> （お伺） 火葬の骨に五色の斑点ができますと、山形の地方ではこれを「花舎利」と称し、伝説によれば、その霊は天国にゆき再生せず、生前は徳望のあった方だと言っております。<br/><br/> 現在私も見ましたが、この霊は六歳で帰幽いたし、その母親は教修をいただいておるものであります。<br/><br/>これは迷信でございましょうか。<br/><br/> 右お伺い申し上げます。<br/><br/> （御垂示） これは迷信である。<br/><br/>花の模様は一種の薬毒が骨に染みているためであろう。<br/><br/>また天国へ往って再生しないというのもおかしい。<br/><br/>なぜなれば、人間は必ず再生するものであるからである。<br/><br/> （お伺） 御葬式または法要の場合、僧侶の読経がすんでから善言讃詞を奏上するようとのお言葉でございますが、僧侶の来る前の日に御供養させていただいてよろしいでしょうか。<br/><br/> 右お伺い申し上げます。<br/><br/> （御垂示） 僧侶のいるときは、善言讃詞は奏げないほうがよい。<br/><br/>というのは僧侶としては、よい気持ちはしないからである。<br/><br/>勿論読経よりも、善言讃詞を先へ奏げるのが本当である。<br/><br/> （お伺） 仏壇のすぐ上に神棚があるのはよくないでしょうか。<br/><br/>仏壇の中に幽世之大神様を御奉斎いたしておるのでございます。<br/><br/> 右御開示お願い申し上げます。<br/><br/> （御垂示） 無論神様のないほうがよい。<br/><br/>神棚は外へ移すべきだ。<br/><br/>右質問中の幽世之大神様とは、何神様であるか知らせなさい。<br/><br/> （お伺） 当年三歳の女の子（良子）生後十カ月ごろ脳膜炎を患い当時医療にて固めました。<br/><br/>小さいときには気づきませんでしたが、いまは口がきけず耳も聞こえません。<br/><br/>頭の働きなどふつうの子供と変わりません。<br/><br/>この子の伯父は発狂して死亡しており、またこの子の兄は、生後八十日ごろ脳膜炎で死亡し、その弟も生後四十五日ごろやっぱり脳膜炎の症状で死亡しております。<br/><br/>以前死亡している人たちとなにか関係がありましょうか。<br/><br/>また治癒するものでしょうか。<br/><br/>浄霊は約三カ月間くらい受けており、その間汽車の音などに振りむくようなこと二、三回あります。<br/><br/>今年三月には、屏風観音様および光明如来様をお迎えさしていただいております。<br/><br/> （御垂示） これは脳膜炎のとき、氷冷などで毒素を固めたため、脳の機能が働かなくなったのであるから、気長に浄霊すれば、必ず治るものである。<br/><br/>勿論首のまわり、肩の塊りもよく溶かすことである。<br/><br/>また霊的関係というよりも、遺伝性である。<br/><br/>できるだけ運動させるようにすると、浄化が発るから早く治るのである。<br/><br/> （お伺） 私は十九歳のとき、村の方の所へ嫁ぎましたが、夫はすでに梅毒を患っており、私に染るのを恐れて一度も夫婦の交わりをいたしませず、毎日暗い日が続きましたので、堪えられなくなって、八カ月目に夫と姑が無理に頼んで止めるのをふりきって実家へ帰り、ただいまの夫の所へ嫁ぎました。<br/><br/>そして昭和二十三年十月入信させていただきました。<br/><br/>夫はそのとき反対ではなく、また賛成でもなかったのでございますが、本家は反対でございました。<br/><br/>それから一年あまり毎月姉の家で例祭のありますとき、お詣りし先生のお話を聞かせていただいておりました。<br/><br/>去年の二月ごろから夫は、夜大きくうなされたり、悲しんだり、泣くようなことを申すようになり、また会社で「お前の女房は観音教の先生に瞞されている」と聞いて帰り、ぶつ、けるの乱暴をいたします。<br/><br/>それでなくてさえ反対の本家は、もったいないことには私の御守り様を取り上げてしまい、父は焼いてやるとまでおっしゃったのでございます。<br/><br/>その後本家の父と兄は赤痢になって入院、父は間もなく死亡など、次々と不幸が続いております。<br/><br/>私の夫は固い律儀な人で、お仕事や言語には変わりございませんが、家では半気違いのようになって、自分で妄想を作り上げ、激しく責めたて、本当に人様に言えないようなこともございます。<br/><br/>いくら話をしましても聞き入れもしません。<br/><br/>帰れと申しますので、子供と別れて親の家へ帰っております。<br/><br/>いかがいたしたら良いのでございましょうか。<br/><br/>私の住んでいます家は夫の叔父に当たる方の家で、二人とも死んでおられませんが、生前よく男があるとかないとか、争っておられましたそうです。<br/><br/>それから私が初めに嫁ぎました夫は、兄が亡くなって、兄嫁と一緒になり、男の子二人をもって幸せに暮らしています。<br/><br/> 最近本家の兄も弟（私の主人）の日ごとに募る狂態をいろいろ心配いたし、お道の先生とも話して救世教に対する認識も変えてくださったようで、まだ御守り様は主人が嫌うので、返してもらえませんが、なんとか夫をもとのように返すにはいかがいたしたらよいでしょう。<br/><br/> どうぞお導きくださいませ。<br/><br/> （御垂示） これは霊的原因が大いにあるが、ちょっとここでは言えない。<br/><br/>夫が帰れと言うのだから実家へ帰って、一生懸命信仰に励み、徳を積むことが最もよい。<br/><br/>あなたが苦しむのは、あなたに罪があるのだから、徳を積んで罪を消すことである。<br/><br/>消えただけは幸福になるのであるから、今後その方針で進み、後は神様にお任せすれば、必ずよくなるのである。<br/><br/>次に反対者にはなんとかして、「栄光」か「地上天国」を読ませるようにするのが一番よい。<br/><br/> （お伺） 私は昭和二十五年十二月二日、妻は本年三月三日入信させていただき、現在函館に住居し、青函連絡船の船長として、種々御守護をいただきつつ毎日を送らせていただいている者でございます。<br/><br/> 明治以前二十年くらい前、廃仏騒動と称するものがありまして、当時寺は全部破壊され、坊さんは全部殺害され、当時庄屋でありました私宅に緋（ひ）の衣を纏（まと）える坊さんを連れてきて殺しました。<br/><br/>その後大火がありまして、私宅は全焼、祖母一人生き残りました由でございますが、これは祖母幼少のころで確たることは判りませんが、そのころより部落全部神道になりました。<br/><br/> 父は船をもって諸方面を歩いているうちに「永海タミ」（私の実母）と知り合い、内縁関係になりました。<br/><br/>そのうち本妻「永海ヤス」は病死し、その後「永海タミ」は後妻として迎えられました。<br/><br/>先妻「永海ヤス」はこのことを知って、そうとう烈しく怨んで、他界したそうでございます。<br/><br/> 「永海タミ」は三十過ぎてより、どことなく体が悪くなり、日蓮宗を信仰し、日蓮の坊さんの奨めにより山籠もりして行をとるべく準備中に、心臓病にて便所で卒倒し、口もきけなくなり、間もなく死亡、日蓮宗にてお葬式を出しました。<br/><br/> 長兄（永海ヤスの長男）は父の築いた財産を蕩尽し、妻を離縁し、芸妓を後妻としましたが、金使いが荒く、親類会議により準禁治産者となり、私は長兄の所に養子となりました。<br/><br/>長兄は現在鳥取県西伯郡尚徳村に住んでおります。<br/><br/> 現在私は御屏風観音様をお祀りさせていただき、とりあえず仏式にてお祀りさせていただいておりますが、正しい御先祖祀りの方法を御教え賜りたくお願い申し上げます。<br/><br/> なお、島の部落では、白木の位牌に本名を書き、精進料理を供え線香を上げ、墓には線香に榊という神仏混合の祀り方をしております。<br/><br/> なお、去年御守り様をいただいて帰りましてより九日目に私に憑霊がありまして、旧住所隠岐島五箇村九〇三の地主であると称し、武士のごとく威猛（いたけ）き口調で申しますには、「永海家を守護している地主である。<br/><br/>永海家の恩人である地主を祀らないでほおっておいたから、この男（私）を生かしてはおかない考えであった。<br/><br/>地主とは三百年くらい前にその土地にあって、その地方を治めていた武士であり、その土地に執着を持っていて祀られたものである。<br/><br/>今後は次の祀り方で祀れ。<br/><br/>祀らないと不幸が来ることを肝に銘じておけ。<br/><br/>このことは子々孫々に至るまで、決して忘れることのないようよく伝えおけ。<br/><br/>祀り方は元の場所に祀るのがよいが、それもできないため、現住所の庭の高に三尺四方くらいの土地を、地主の土地として、塩を撒き、小石を置き、その上に祠（ほこら）を作って祀れ。<br/><br/>その祠の中には「永海家の恩人」ということを明記せよ。<br/><br/>また、この中に「永海家の者は子々孫々に至るまで、この祀りを忘れてはならぬ」旨をも書いておけ。<br/><br/>移転のときは持って行け。<br/><br/>火災のときは持ち出せ。<br/><br/>持ち出せないときは新しく作って祀れ。<br/><br/>身分相応に祀れ。<br/><br/>永海家の先祖には偉い人がいるが、俺が邪魔してやろうと思えばどんなこともできる」と言いました。<br/><br/> 右の事柄を受諾しましたら帰りました。<br/><br/>現在は右の霊の言った通り祀っておりますが、なにか変な感じがしまして狐霊かなにかのように思われますが、いかがなものでございましょうか。<br/><br/>また祀り方は霊の言った通りでよろしゅうございましょうか。<br/><br/>御教えのほどお願い申し上げます。<br/><br/> （御垂示） これは人霊が畜生道へ墜ちた狐霊で、人間に再生したいため頼んだのであると思うが、その言う通り祀ったのは結構ですからそのままでよろしい。<br/><br/>あなたの家は悪因縁がだいぶあるから、一日も早く光明如来様をお祀りして、できるだけ人助けをすることである。<br/><br/>それによって苦しんでいる霊が救われるから、あなたの家もだんだん幸せになる。<br/><br/> （お伺） 恥ずかしい場合、すぐに顔面紅潮する人と、そうでない人とありますが、これはどういうわけでしょうかお伺いいたします。<br/><br/> （御垂示） これは心臓の関係と面の皮の厚い薄いであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

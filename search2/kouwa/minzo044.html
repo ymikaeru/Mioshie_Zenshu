@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>minzo044</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民族、国土、迷信篇 ３ 044-066 神話 044 桃太郎の鬼征伐、（明主様の鬼征伐） 桃太郎の鬼征伐の噺の意味についてお伺い致します。<br><br> 桃太郎の鬼征伐は今もやっている。<br><br>先にもやった事がある。<br><br>昭和六年五月五日、何かあるような気がした。<br><br>二軒行く約束があり、他の一軒からは招かれた。<br><br> オ―小山勘蔵（広島県代議士） ニ―新山（宮中顧問官） ガシマ―東島―ヒは霊であるから無くともよい。<br><br> それでオニガシマとなる。<br><br> 清水生太郎は桃太郎の夢をよく見た。<br><br>いずれ素晴しい宝物を奪る事になる。<br><br>今それをやっているが発表は出来ない。<br><br>宝物というのは龍宮の乙姫の持っていた物で、それを貰うのである。<br><br> （S23. 7.18） 045 高砂のいわれ 掛軸にある「高砂」の姿はいかなる意味が含まれておりましょうか。<br><br>御伺い申し上げます。<br><br> 塩槌の翁という年とった神である。<br><br>日本の神でない、台湾の神である。<br><br>それで高砂という。<br><br>台湾は高砂である。<br><br>人間で長生きして神格を得た神があったものが、伝説にあったものと思う。<br><br>作ったものだと思う。<br><br> それで台湾は高砂という。<br><br>夫婦円満、長生きした表徴である。<br><br>（S23.10.19） rattail（注） 〔 ○ヽ（ス）の一声（二） 岡庭真次郎『地上天国』53号、昭和28(1953)年10月25日発行〕参照 046 浦島太郎と玉手箱 浦島太郎のお伽噺はいかなる意味ですか。<br><br>また、玉手箱より煙の出たという解釈―― 木曾の寝覚の床に浦島太郎の持ったという釣竿が祀ってあるのをみても、浦島太郎は実在のものであろう。<br><br>これは漁の好きな若者が、沖で難船し、朝鮮に漂着したのである。<br><br>龍宮城というのは、その頃の朝鮮の王城であって、王様は素盞嗚尊であった。<br><br>その皇后は音米姫という御名であった。<br><br>素盞嗚尊は神典にあるごとく、天照大御神の弟神であるから、弟姫をつめて乙姫と唱えられたのである。<br><br>当時夫神は日本に渡来し、出雲朝を打樹てたりして不在であったから、孤閏の淋しさから、浦島太郎の眉目秀麗なるに恋慕し、寵愛した。<br><br>太郎という名前であったが、後世の作者が浦島という姓をつけたものであろう。<br><br>日本に対し朝鮮は裏になるからである。<br><br> 玉手箱は作り事であらう。<br><br>もし本当なら、空箱が残っている筈である。<br><br> 047 寝覚の床と浦島 寝覚の床（信州）と浦島太郎との関係について御伺い致します。<br><br> 浦島太郎の釣竿が寝覚の床の近くに祀ってある。<br><br>浦島太郎は日本海へ漁に出て暴風に遇い、朝鮮へ漂着した。<br><br>龍宮城は朝鮮の建物、素盞嗚尊が留守であったため乙姫が歓待した。<br><br>神代は男女関係が乱れていた。<br><br> 乙姫は執着強く、海底に龍神となった。<br><br>世界中の富を集めて、実権を掌握した。<br><br>その財宝を持たれたのが千手観音様である。<br><br>（S23.11.22） 048 桃太郎、金太郎、浦島 桃太郎、金太郎、浦島太郎について御伺い申します。<br><br> 桃太郎は観音様の化身で、大先生は桃太郎の型をなされた事がある。<br><br> 金太郎は坂田金太郎といい、子供で、大きくて力が強かったという訳で、歴史にある山姥の息子である。<br><br>熊などと戦った事もあろう。<br><br> 浦島は漁が非常に好きで、使ったという釣竿が寝覚の床にあるが、本物であろう。<br><br>暴風で流され、朝鮮へ漂着した。<br><br>女ばかりで、浦島は美男だったので歓待され、土産を貰って帰った。<br><br>男女関係は乱れていた。<br><br>相当期間つばめであったろう。<br><br> 稚姫君尊は素盞嗚尊に愛着心が強く、烏になって行った。<br><br>それが於加来須明神――元伊勢明神という。<br><br>大本教祖は稚姫君の生れ代りである。<br><br>天照大神の姪位になる。<br><br>子か姪かである。<br><br>本当の事はいえない。<br><br>（S24.10.19） 049 犬、猿、雉 桃太郎が雉、猿、犬を連れておりますが、霊的にいかなる意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 勇（犬）、智（猿）、親を象（かたど）ったものである。<br><br> 桃太郎の鬼ケ島征伐は大先生様がなされた。<br><br>霊的には済んだ。<br><br>（S24. 1.28） 050 因幡の白兎 因幡の白兎について御垂示を御願い申し上げます。<br><br> 重要な事ではない。<br><br> 051 因幡の白兎 大国主神と因幡の白兎の神話の意味について―― 大したものでない。<br><br>こしらえものである。<br><br>（S24.12.23） 052 七夕 七夕の意味―― 星を賛美する星祭りで、人間が作ったものである。<br><br>七夕祭りは星を人間化しての作り話である。<br><br>星を素盞嗚尊と乙姫の逢う事にたとえたのであるが、これはいい加減なものである。<br><br> 053 七夕祭 星を人間化しての作り話である。<br><br> 星を素盞嗚尊と乙姫と遇う事にたとえたのであるが、これはいい加減なものである。<br><br>（S23） 054 七夕と天の川 七夕と天の川について御教えを御願い申し上げます。<br><br> 七夕――これは作り事で、伝説である。<br><br>昔の作家――小説家のようなものが作ったのである。<br><br>昔から星を人格化したものは沢山ある。<br><br>特にこれは西洋に多い。<br><br> 天の川は星の密集したもので、星の世界でも地球と同じで、人間の多い土地と、人跡未踏のような所があり、そういう区別は天にもある。<br><br>ヨーロッパからアジア大陸は密集しているが、そういう事が天にもある。<br><br>それが天の川である。<br><br> 天地は合せ鏡で、星と人間とは合っている。<br><br>（S24. 5. 1） 055 七夕祭 七夕祭の意味について――、右、御教示御願い申し上げます。<br><br> 昔の学者が作ったものである。<br><br>（S24. 5.23） 056 七夕 七夕祭の意義について御教示を御願い申し上げます。<br><br> 作り物で、馬鹿々々しい。<br><br>無論、昔支那の小説家が作ったものだろう。<br><br>（S24. 8. 5） 057 かぐや姫 かぐや姫の伝説にはいかなる意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 大したものでない。<br><br>お伽話である。<br><br>（S24. 9.12） 058 男装坊 十和田湖男装坊―― 清和天皇の娘で、男のようで、その境遇をいとい、仏教に入り、一生仏教徒として生きようとした。<br><br>そして男装坊という名で、男の姿となり日本中を遍歴した。<br><br>紀州へ落ちついた時金の草鞋をつけ、切れた所へ落ちつけとの御告げがあり、それを穿いて行脚した。<br><br>そして十和田湖畔で切れたので、そこで草庵を結んだ。<br><br>すると、清和天皇の重臣で、悪人のため追放された者が東北へ行く途次、十和田湖で男装坊に遇い、二人でそこへ住まう事になった。<br><br>というのは夫婦になった事と思う。<br><br>が結局は十和田湖へ飛込み自殺をした。<br><br>五六七の世まで諦める外なしとして龍神となって待った。<br><br>そして今から二十年位前、その龍神は昇天した。<br><br>それは皆見た。<br><br>小さい地震があり、暴風があり、十和田湖の水を捲上げて、金色にピカピカ光って昇天するのを三十人位見た。<br><br> 私の子供の頃、下谷の道潅山で、法螺の貝が天上したというので皆見に行った。<br><br>裾の方が二、三間位えぐれている。<br><br>たしかに天上という事はある。<br><br> 蛇が松の木に絡んでいる。<br><br>すると蛇が空中へ行って段々上へ行ったという。<br><br>これらは霊は非常に大きいものである。<br><br>蛇は大きくなったり小さくなったり自由に出来る。<br><br>（S23） 059 十和田湖の異変 最近十和田湖の周辺の山、河、道などに火柱が五分間位立ち、以前からそれが立つと何日か過ぎて火事があったと謂われていますので、付近の人々は戦々兢々としております。<br><br>また、湖に「いもり」の六尺位のがいまして、それが姿を現わしますと湖水が濁り、異変があると申しております。<br><br>最近その「いもり」が現われたと騒いでいるとの事で御座います。<br><br>また、十和田湖に何か伝説があるそうで御座いますが、これらは何か意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 火柱は霊界で火が燃えるのである。<br><br>これは見える場合と見せる場合がある。<br><br>光明如来様にお願いすれば火難のあるべきを許される。<br><br>古いいもりが希望をもってやるか、こういう事をやるから丁寧にせよという意ともいえる。<br><br>いもり、やもり、蚯蚓（ミミズ）は龍神の一種である。<br><br> 十和田湖の神秘は、男とも女ともつかぬ女で信仰深く――。<br><br> 龍神は教団に沢山働いている。<br><br> 十和田湖と離れた所に豪族があり、その娘の様子が変で、誰か来るらしいというので、母が覗いてみると、美男が部屋へ入って恋を語る場面をみた。<br><br>それっきり来なくなったが、娘は妊娠して子を産んだ。<br><br>これが太郎と名づけた。<br><br>長じて青年になると英雄であった。<br><br>ある日山へ行って、喉が涸いたので、谷川へ行って水を飲んだら、いくらでも呑めるので、ついに一日一晩呑んだという。<br><br>呑むと身体が龍体になった。<br><br>そして紆（うね）って十和田湖へ行った。<br><br>入ると先から龍神がいて、戦った。<br><br>十和田湖の争奪戦の跡がある。<br><br>負けて逃げて八郎潟の主となったという。<br><br>（S24. 3. 1） 060 桜ケ池伝説 天空（皇円）阿闍梨（あじゃり）が五六七の世まで遠州桜ケ池に蛇体となり、いかなる御修行をなされましたか。<br><br>また、昇天後、いかようになされましたか。<br><br>御伺い致します。<br><br> こういう事は沢山ある。<br><br>一番の親玉は役の行者である。<br><br>役の行者は五六七の世の来るのを知っていた。<br><br>大峯山に弥勒岩がある。<br><br> 有名な池にはよくこのような話がある。<br><br> 伊都能売金龍は長く琵琶湖に潜み、昇天し私の守護神となった。<br><br>十和田湖の龍神は二十年位前に昇天した。<br><br>金色の龍である。<br><br>今教団のために働いている。<br><br>八郎潟の龍は、八郎次郎という豪農の息子である。<br><br>（S24） 061 桜ケ池、阿闍梨龍となる 静岡県榛原郡池新田村桜ケ池についての伝説に「アジャラ上人？」と云う方がこの池より約一里半程離れた寺に蓑と笠とを置いて、五六七の世が来るまで蛇体となって身を沈め、五六七の世が来ると救世のため世に出ると云う事ですが、この上人はいかなる方で、また真実でしょうか。<br><br>お伺い申し上げます。<br><br> なお、その時の蓑、笠がその寺にあり、秋の御彼岸には一般の人に見せます。<br><br> 伝説にもあるが、事実あった事であろう。<br><br>外にもある――十和田湖の龍神のごときそうである。<br><br>役の行者もそうである。<br><br>大峯山に弥勒岩を残したという。<br><br>（S24. 7.16） 062 阿闍梨上人 遠州桜ケ池には阿闍梨上人が龍体となって五六七様御出現まで待っておいでになるとの伝説が御座いますが、阿闍梨上人について御教えを御願い申し上げます。<br><br> 阿闍梨は役の行者の生れ代りだと思う。<br><br>彼は阿闍梨の元祖である。<br><br>阿闍梨は仏の位で、山で霧を晴らしたりなど自由にする。<br><br>真言宗の一つの位である。<br><br> 山へ登り、祝詞を奏げると霧は晴れる。<br><br> 役の行者は、五六七の世が来るというので、龍神になって待つという。<br><br>弥勒岩がある。<br><br>（S24. 3. 1） 063 イエスは日本へ渡来したか 毎日新聞青森版に「ヘライの土にキリストの遺跡を探る」と云う題で出ておりました。<br><br>それによりますと、キリストは十和田湖の山裾、三戸郡戸来（へらい）村に聖跡を残している。<br><br>処刑になる時弟イスキリが身がわりになり処刑された。<br><br>キリストは今の八戸の港に上陸し、日本婦人をめとり、百六歳の天寿を全うして東洋の僻地に没した、と書いてありましたが、本当の事でしょうか。<br><br> 二、三十年前それを発見したと称する人があったが、間違いであろう。<br><br>もし日本へ渡ったとしたら、ヨーロッパの事蹟がなくてはならぬ。<br><br> 日本の人々のそれで言う事は証拠がなさすぎる。<br><br>あまりに根拠が薄弱である。<br><br>何かの間違いであろう。<br><br>（S24.11. 5） 064 乙和池の伝説 佐渡に乙和池と呼ぶ三面山に囲まれた周囲およそ半町の池があり、中に浮島があります。<br><br>この浮島には次のような伝説があります。<br><br> 今から約五百年前、長福寺（現存）に乙和と言う美人がおり、ある日山に物取りに行き、途中不浄の身となり、馬の足跡にて腰巻を洗い、潅ぎし所、その足跡に件（くだん）の池が出来ました。<br><br>乙和は山にて取物をしていると、龍神が美男子となって現われ、両人は夫婦約束をして、一日を過し、乙和は長福寺へ帰ると、翌朝早く、龍神が七巻半して時の住職に乙和を要求しました。<br><br>住職は、龍には乙和はやれぬ、姿を変えて来たれ、と言うと、龍は忽ち美青年となり、白馬に乗ってやって参りましたので、住職は乙和を与えました。<br><br>青年と乙和は共に白馬に乗ってその地点まで来ましたが、一天俄かにかき曇り、件の青年と乙和は行方不明となりました。<br><br>そこには一個の石があるのを見送る人達は発見しました、と。<br><br>また、この寺には今なお乙和の使用せる腰巻、櫛、鏡、カタビラ等が残っており、縁日は七月二十三日となって盛大に挙行します。<br><br>乙和池の浮島の中に井戸があり、その深さは無限と言われ、供物（食物）を投げるとキリキリ廻って沈み、食い残りのもの（不浄なるもの）は沈みません。<br><br>その他未だありますが、右につき、次の諸点につき御教え願います。<br><br> （イ）、浮島の井戸の神秘について――、 （ロ）、跡に残った石は、今でも手で叩いても金属性の音を発しますが、その理由――、 （ハ）、美男子に化して現われた龍神は何龍神でしょうか、 （ニ）、私共は来る縁日に参り、善言讃詞を奉唱しようと思いますが、いかがなもので御座いましょうか。<br><br> こういう事はよく方々にある。<br><br>龍神が美男子になり、美人に恋して一時的夫婦になる等の伝説はいくつもある。<br><br> これは無いとも言えぬ。<br><br>また、種々の証拠が残っている。<br><br>材木などが浮いてると、そこへゴミが溜り、浮島になる。<br><br>その時井戸が出来ている。<br><br>それは龍神が造ったものであろう。<br><br> 石が硬いと金属性の音を出す。<br><br> 大きな龍神で、別に何という名はない。<br><br>後で人間が名をつけるのである。<br><br> 十和田湖の龍神はこの通りである。<br><br> 善言讃詞を奉唱してもしなくてもよい。<br><br>奉唱されて、龍神が変るようでは、あまり偉くない。<br><br>（S24. 7.17） 065 家康と年三回結実の栗 一年に三回実を結ぶ不思議な栗の木が、幕ケ谷と云う一定地区に限って御座いまして、他の処へこれを播種または挿木致しましても育ちません。<br><br>生（な）り方も普通の栗と違い枝に間断なく生るので御座います。<br><br>伝説には、徳川家康が戦の際休息し、栗の箸にて食事をし、その箸を地に挿して「私が天下をとったら三度生れ」と云った。<br><br>その後、年三回生ると申しております。<br><br>想念によりなるもので御座いましょうか。<br><br>また、霊的に何か原因が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 徳川家康は天狗の大きいのが憑いている。<br><br>その先祖がしたのかもしれぬが、断定は出来ぬ。<br><br> 066 阿闍梨上人 桜ケ池由来の阿闍梨上人様は五十六億七千万年の後弥勒菩薩の御下生にお会い奉り、御教化を奉らんため、寿命長い大蛇に身を化し五十六億七千万年の後を待たんと桜ケ池へお入りになられましたそうでございますが、阿闍梨様は現世へお出ましになられましたでしょうか。<br><br>また、阿闍梨様はいかなるお方で御座いましょうか。<br><br>お伺い申し上げます。<br><br> 役の行者もそうである。<br><br>これは阿闍梨の元祖である。<br><br>役の行者は、弥勒下生まで待つ事となり、大和の大峯山で修行した。<br><br>ミロク岩というのがある。<br><br> 桜ケ池上人などは役の行者の流れである。<br><br>五六七が本当の数字である。<br><br>それを寓意的、神秘的にした。<br><br>大蛇になって待ったというのは本当で、人間が弥勒を待つために大蛇になるのはある。<br><br>十和田湖の龍神のごとき、そうである。<br><br>（S25. 5. 5）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>044 A subjugação dos demônios por Momotaro (A subjugação dos demônios por Meishu-Sama)</h2>
 <p>Gostaria de inquirir sobre o significado da história da subjugação dos demônios por Momotaro.</p>
@@ -204,5 +356,48 @@ function toggleLang(lang) {
 <p>En no Gyoja é um caso semelhante. Ele é o fundador dos Ajaris. En no Gyoja, aguardando a vinda de Miroku, praticou ascetismo no Monte Omine, em Yamato, onde existe uma rocha chamada Rocha de Miroku.</p>
 <p>O sacerdote do Lago Sakuragaike pertence à linhagem de En no Gyoja. O número real é quinhentos e sessenta e sete. A outra cifra é uma representação alegórica e mística. A história de que ele se tornou uma grande serpente para esperar é verdadeira. É possível que um ser humano se transforme em uma grande serpente para aguardar Miroku. O Deus-Dragão do Lago Towada é um exemplo disso.</p>
 <p>(5 de maio de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民族、国土、迷信篇 ３ 044-066 神話 044 桃太郎の鬼征伐、（明主様の鬼征伐） 桃太郎の鬼征伐の噺の意味についてお伺い致します。<br/><br/> 桃太郎の鬼征伐は今もやっている。<br/><br/>先にもやった事がある。<br/><br/>昭和六年五月五日、何かあるような気がした。<br/><br/>二軒行く約束があり、他の一軒からは招かれた。<br/><br/> オ―小山勘蔵（広島県代議士） ニ―新山（宮中顧問官） ガシマ―東島―ヒは霊であるから無くともよい。<br/><br/> それでオニガシマとなる。<br/><br/> 清水生太郎は桃太郎の夢をよく見た。<br/><br/>いずれ素晴しい宝物を奪る事になる。<br/><br/>今それをやっているが発表は出来ない。<br/><br/>宝物というのは龍宮の乙姫の持っていた物で、それを貰うのである。<br/><br/> （S23. 7.18） 045 高砂のいわれ 掛軸にある「高砂」の姿はいかなる意味が含まれておりましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 塩槌の翁という年とった神である。<br/><br/>日本の神でない、台湾の神である。<br/><br/>それで高砂という。<br/><br/>台湾は高砂である。<br/><br/>人間で長生きして神格を得た神があったものが、伝説にあったものと思う。<br/><br/>作ったものだと思う。<br/><br/> それで台湾は高砂という。<br/><br/>夫婦円満、長生きした表徴である。<br/><br/>（S23.10.19） rattail（注） 〔 ○ヽ（ス）の一声（二） 岡庭真次郎『地上天国』53号、昭和28(1953)年10月25日発行〕参照 046 浦島太郎と玉手箱 浦島太郎のお伽噺はいかなる意味ですか。<br/><br/>また、玉手箱より煙の出たという解釈―― 木曾の寝覚の床に浦島太郎の持ったという釣竿が祀ってあるのをみても、浦島太郎は実在のものであろう。<br/><br/>これは漁の好きな若者が、沖で難船し、朝鮮に漂着したのである。<br/><br/>龍宮城というのは、その頃の朝鮮の王城であって、王様は素盞嗚尊であった。<br/><br/>その皇后は音米姫という御名であった。<br/><br/>素盞嗚尊は神典にあるごとく、天照大御神の弟神であるから、弟姫をつめて乙姫と唱えられたのである。<br/><br/>当時夫神は日本に渡来し、出雲朝を打樹てたりして不在であったから、孤閏の淋しさから、浦島太郎の眉目秀麗なるに恋慕し、寵愛した。<br/><br/>太郎という名前であったが、後世の作者が浦島という姓をつけたものであろう。<br/><br/>日本に対し朝鮮は裏になるからである。<br/><br/> 玉手箱は作り事であらう。<br/><br/>もし本当なら、空箱が残っている筈である。<br/><br/> 047 寝覚の床と浦島 寝覚の床（信州）と浦島太郎との関係について御伺い致します。<br/><br/> 浦島太郎の釣竿が寝覚の床の近くに祀ってある。<br/><br/>浦島太郎は日本海へ漁に出て暴風に遇い、朝鮮へ漂着した。<br/><br/>龍宮城は朝鮮の建物、素盞嗚尊が留守であったため乙姫が歓待した。<br/><br/>神代は男女関係が乱れていた。<br/><br/> 乙姫は執着強く、海底に龍神となった。<br/><br/>世界中の富を集めて、実権を掌握した。<br/><br/>その財宝を持たれたのが千手観音様である。<br/><br/>（S23.11.22） 048 桃太郎、金太郎、浦島 桃太郎、金太郎、浦島太郎について御伺い申します。<br/><br/> 桃太郎は観音様の化身で、大先生は桃太郎の型をなされた事がある。<br/><br/> 金太郎は坂田金太郎といい、子供で、大きくて力が強かったという訳で、歴史にある山姥の息子である。<br/><br/>熊などと戦った事もあろう。<br/><br/> 浦島は漁が非常に好きで、使ったという釣竿が寝覚の床にあるが、本物であろう。<br/><br/>暴風で流され、朝鮮へ漂着した。<br/><br/>女ばかりで、浦島は美男だったので歓待され、土産を貰って帰った。<br/><br/>男女関係は乱れていた。<br/><br/>相当期間つばめであったろう。<br/><br/> 稚姫君尊は素盞嗚尊に愛着心が強く、烏になって行った。<br/><br/>それが於加来須明神――元伊勢明神という。<br/><br/>大本教祖は稚姫君の生れ代りである。<br/><br/>天照大神の姪位になる。<br/><br/>子か姪かである。<br/><br/>本当の事はいえない。<br/><br/>（S24.10.19） 049 犬、猿、雉 桃太郎が雉、猿、犬を連れておりますが、霊的にいかなる意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 勇（犬）、智（猿）、親を象（かたど）ったものである。<br/><br/> 桃太郎の鬼ケ島征伐は大先生様がなされた。<br/><br/>霊的には済んだ。<br/><br/>（S24. 1.28） 050 因幡の白兎 因幡の白兎について御垂示を御願い申し上げます。<br/><br/> 重要な事ではない。<br/><br/> 051 因幡の白兎 大国主神と因幡の白兎の神話の意味について―― 大したものでない。<br/><br/>こしらえものである。<br/><br/>（S24.12.23） 052 七夕 七夕の意味―― 星を賛美する星祭りで、人間が作ったものである。<br/><br/>七夕祭りは星を人間化しての作り話である。<br/><br/>星を素盞嗚尊と乙姫の逢う事にたとえたのであるが、これはいい加減なものである。<br/><br/> 053 七夕祭 星を人間化しての作り話である。<br/><br/> 星を素盞嗚尊と乙姫と遇う事にたとえたのであるが、これはいい加減なものである。<br/><br/>（S23） 054 七夕と天の川 七夕と天の川について御教えを御願い申し上げます。<br/><br/> 七夕――これは作り事で、伝説である。<br/><br/>昔の作家――小説家のようなものが作ったのである。<br/><br/>昔から星を人格化したものは沢山ある。<br/><br/>特にこれは西洋に多い。<br/><br/> 天の川は星の密集したもので、星の世界でも地球と同じで、人間の多い土地と、人跡未踏のような所があり、そういう区別は天にもある。<br/><br/>ヨーロッパからアジア大陸は密集しているが、そういう事が天にもある。<br/><br/>それが天の川である。<br/><br/> 天地は合せ鏡で、星と人間とは合っている。<br/><br/>（S24. 5. 1） 055 七夕祭 七夕祭の意味について――、右、御教示御願い申し上げます。<br/><br/> 昔の学者が作ったものである。<br/><br/>（S24. 5.23） 056 七夕 七夕祭の意義について御教示を御願い申し上げます。<br/><br/> 作り物で、馬鹿々々しい。<br/><br/>無論、昔支那の小説家が作ったものだろう。<br/><br/>（S24. 8. 5） 057 かぐや姫 かぐや姫の伝説にはいかなる意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 大したものでない。<br/><br/>お伽話である。<br/><br/>（S24. 9.12） 058 男装坊 十和田湖男装坊―― 清和天皇の娘で、男のようで、その境遇をいとい、仏教に入り、一生仏教徒として生きようとした。<br/><br/>そして男装坊という名で、男の姿となり日本中を遍歴した。<br/><br/>紀州へ落ちついた時金の草鞋をつけ、切れた所へ落ちつけとの御告げがあり、それを穿いて行脚した。<br/><br/>そして十和田湖畔で切れたので、そこで草庵を結んだ。<br/><br/>すると、清和天皇の重臣で、悪人のため追放された者が東北へ行く途次、十和田湖で男装坊に遇い、二人でそこへ住まう事になった。<br/><br/>というのは夫婦になった事と思う。<br/><br/>が結局は十和田湖へ飛込み自殺をした。<br/><br/>五六七の世まで諦める外なしとして龍神となって待った。<br/><br/>そして今から二十年位前、その龍神は昇天した。<br/><br/>それは皆見た。<br/><br/>小さい地震があり、暴風があり、十和田湖の水を捲上げて、金色にピカピカ光って昇天するのを三十人位見た。<br/><br/> 私の子供の頃、下谷の道潅山で、法螺の貝が天上したというので皆見に行った。<br/><br/>裾の方が二、三間位えぐれている。<br/><br/>たしかに天上という事はある。<br/><br/> 蛇が松の木に絡んでいる。<br/><br/>すると蛇が空中へ行って段々上へ行ったという。<br/><br/>これらは霊は非常に大きいものである。<br/><br/>蛇は大きくなったり小さくなったり自由に出来る。<br/><br/>（S23） 059 十和田湖の異変 最近十和田湖の周辺の山、河、道などに火柱が五分間位立ち、以前からそれが立つと何日か過ぎて火事があったと謂われていますので、付近の人々は戦々兢々としております。<br/><br/>また、湖に「いもり」の六尺位のがいまして、それが姿を現わしますと湖水が濁り、異変があると申しております。<br/><br/>最近その「いもり」が現われたと騒いでいるとの事で御座います。<br/><br/>また、十和田湖に何か伝説があるそうで御座いますが、これらは何か意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 火柱は霊界で火が燃えるのである。<br/><br/>これは見える場合と見せる場合がある。<br/><br/>光明如来様にお願いすれば火難のあるべきを許される。<br/><br/>古いいもりが希望をもってやるか、こういう事をやるから丁寧にせよという意ともいえる。<br/><br/>いもり、やもり、蚯蚓（ミミズ）は龍神の一種である。<br/><br/> 十和田湖の神秘は、男とも女ともつかぬ女で信仰深く――。<br/><br/> 龍神は教団に沢山働いている。<br/><br/> 十和田湖と離れた所に豪族があり、その娘の様子が変で、誰か来るらしいというので、母が覗いてみると、美男が部屋へ入って恋を語る場面をみた。<br/><br/>それっきり来なくなったが、娘は妊娠して子を産んだ。<br/><br/>これが太郎と名づけた。<br/><br/>長じて青年になると英雄であった。<br/><br/>ある日山へ行って、喉が涸いたので、谷川へ行って水を飲んだら、いくらでも呑めるので、ついに一日一晩呑んだという。<br/><br/>呑むと身体が龍体になった。<br/><br/>そして紆（うね）って十和田湖へ行った。<br/><br/>入ると先から龍神がいて、戦った。<br/><br/>十和田湖の争奪戦の跡がある。<br/><br/>負けて逃げて八郎潟の主となったという。<br/><br/>（S24. 3. 1） 060 桜ケ池伝説 天空（皇円）阿闍梨（あじゃり）が五六七の世まで遠州桜ケ池に蛇体となり、いかなる御修行をなされましたか。<br/><br/>また、昇天後、いかようになされましたか。<br/><br/>御伺い致します。<br/><br/> こういう事は沢山ある。<br/><br/>一番の親玉は役の行者である。<br/><br/>役の行者は五六七の世の来るのを知っていた。<br/><br/>大峯山に弥勒岩がある。<br/><br/> 有名な池にはよくこのような話がある。<br/><br/> 伊都能売金龍は長く琵琶湖に潜み、昇天し私の守護神となった。<br/><br/>十和田湖の龍神は二十年位前に昇天した。<br/><br/>金色の龍である。<br/><br/>今教団のために働いている。<br/><br/>八郎潟の龍は、八郎次郎という豪農の息子である。<br/><br/>（S24） 061 桜ケ池、阿闍梨龍となる 静岡県榛原郡池新田村桜ケ池についての伝説に「アジャラ上人？」と云う方がこの池より約一里半程離れた寺に蓑と笠とを置いて、五六七の世が来るまで蛇体となって身を沈め、五六七の世が来ると救世のため世に出ると云う事ですが、この上人はいかなる方で、また真実でしょうか。<br/><br/>お伺い申し上げます。<br/><br/> なお、その時の蓑、笠がその寺にあり、秋の御彼岸には一般の人に見せます。<br/><br/> 伝説にもあるが、事実あった事であろう。<br/><br/>外にもある――十和田湖の龍神のごときそうである。<br/><br/>役の行者もそうである。<br/><br/>大峯山に弥勒岩を残したという。<br/><br/>（S24. 7.16） 062 阿闍梨上人 遠州桜ケ池には阿闍梨上人が龍体となって五六七様御出現まで待っておいでになるとの伝説が御座いますが、阿闍梨上人について御教えを御願い申し上げます。<br/><br/> 阿闍梨は役の行者の生れ代りだと思う。<br/><br/>彼は阿闍梨の元祖である。<br/><br/>阿闍梨は仏の位で、山で霧を晴らしたりなど自由にする。<br/><br/>真言宗の一つの位である。<br/><br/> 山へ登り、祝詞を奏げると霧は晴れる。<br/><br/> 役の行者は、五六七の世が来るというので、龍神になって待つという。<br/><br/>弥勒岩がある。<br/><br/>（S24. 3. 1） 063 イエスは日本へ渡来したか 毎日新聞青森版に「ヘライの土にキリストの遺跡を探る」と云う題で出ておりました。<br/><br/>それによりますと、キリストは十和田湖の山裾、三戸郡戸来（へらい）村に聖跡を残している。<br/><br/>処刑になる時弟イスキリが身がわりになり処刑された。<br/><br/>キリストは今の八戸の港に上陸し、日本婦人をめとり、百六歳の天寿を全うして東洋の僻地に没した、と書いてありましたが、本当の事でしょうか。<br/><br/> 二、三十年前それを発見したと称する人があったが、間違いであろう。<br/><br/>もし日本へ渡ったとしたら、ヨーロッパの事蹟がなくてはならぬ。<br/><br/> 日本の人々のそれで言う事は証拠がなさすぎる。<br/><br/>あまりに根拠が薄弱である。<br/><br/>何かの間違いであろう。<br/><br/>（S24.11. 5） 064 乙和池の伝説 佐渡に乙和池と呼ぶ三面山に囲まれた周囲およそ半町の池があり、中に浮島があります。<br/><br/>この浮島には次のような伝説があります。<br/><br/> 今から約五百年前、長福寺（現存）に乙和と言う美人がおり、ある日山に物取りに行き、途中不浄の身となり、馬の足跡にて腰巻を洗い、潅ぎし所、その足跡に件（くだん）の池が出来ました。<br/><br/>乙和は山にて取物をしていると、龍神が美男子となって現われ、両人は夫婦約束をして、一日を過し、乙和は長福寺へ帰ると、翌朝早く、龍神が七巻半して時の住職に乙和を要求しました。<br/><br/>住職は、龍には乙和はやれぬ、姿を変えて来たれ、と言うと、龍は忽ち美青年となり、白馬に乗ってやって参りましたので、住職は乙和を与えました。<br/><br/>青年と乙和は共に白馬に乗ってその地点まで来ましたが、一天俄かにかき曇り、件の青年と乙和は行方不明となりました。<br/><br/>そこには一個の石があるのを見送る人達は発見しました、と。<br/><br/>また、この寺には今なお乙和の使用せる腰巻、櫛、鏡、カタビラ等が残っており、縁日は七月二十三日となって盛大に挙行します。<br/><br/>乙和池の浮島の中に井戸があり、その深さは無限と言われ、供物（食物）を投げるとキリキリ廻って沈み、食い残りのもの（不浄なるもの）は沈みません。<br/><br/>その他未だありますが、右につき、次の諸点につき御教え願います。<br/><br/> （イ）、浮島の井戸の神秘について――、 （ロ）、跡に残った石は、今でも手で叩いても金属性の音を発しますが、その理由――、 （ハ）、美男子に化して現われた龍神は何龍神でしょうか、 （ニ）、私共は来る縁日に参り、善言讃詞を奉唱しようと思いますが、いかがなもので御座いましょうか。<br/><br/> こういう事はよく方々にある。<br/><br/>龍神が美男子になり、美人に恋して一時的夫婦になる等の伝説はいくつもある。<br/><br/> これは無いとも言えぬ。<br/><br/>また、種々の証拠が残っている。<br/><br/>材木などが浮いてると、そこへゴミが溜り、浮島になる。<br/><br/>その時井戸が出来ている。<br/><br/>それは龍神が造ったものであろう。<br/><br/> 石が硬いと金属性の音を出す。<br/><br/> 大きな龍神で、別に何という名はない。<br/><br/>後で人間が名をつけるのである。<br/><br/> 十和田湖の龍神はこの通りである。<br/><br/> 善言讃詞を奉唱してもしなくてもよい。<br/><br/>奉唱されて、龍神が変るようでは、あまり偉くない。<br/><br/>（S24. 7.17） 065 家康と年三回結実の栗 一年に三回実を結ぶ不思議な栗の木が、幕ケ谷と云う一定地区に限って御座いまして、他の処へこれを播種または挿木致しましても育ちません。<br/><br/>生（な）り方も普通の栗と違い枝に間断なく生るので御座います。<br/><br/>伝説には、徳川家康が戦の際休息し、栗の箸にて食事をし、その箸を地に挿して「私が天下をとったら三度生れ」と云った。<br/><br/>その後、年三回生ると申しております。<br/><br/>想念によりなるもので御座いましょうか。<br/><br/>また、霊的に何か原因が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 徳川家康は天狗の大きいのが憑いている。<br/><br/>その先祖がしたのかもしれぬが、断定は出来ぬ。<br/><br/> 066 阿闍梨上人 桜ケ池由来の阿闍梨上人様は五十六億七千万年の後弥勒菩薩の御下生にお会い奉り、御教化を奉らんため、寿命長い大蛇に身を化し五十六億七千万年の後を待たんと桜ケ池へお入りになられましたそうでございますが、阿闍梨様は現世へお出ましになられましたでしょうか。<br/><br/>また、阿闍梨様はいかなるお方で御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 役の行者もそうである。<br/><br/>これは阿闍梨の元祖である。<br/><br/>役の行者は、弥勒下生まで待つ事となり、大和の大峯山で修行した。<br/><br/>ミロク岩というのがある。<br/><br/> 桜ケ池上人などは役の行者の流れである。<br/><br/>五六七が本当の数字である。<br/><br/>それを寓意的、神秘的にした。<br/><br/>大蛇になって待ったというのは本当で、人間が弥勒を待つために大蛇になるのはある。<br/><br/>十和田湖の龍神のごとき、そうである。<br/><br/>（S25. 5. 5）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281223</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御誕生祭御講話 （S28年12月23日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十三日（御生誕祭御教え） 私は今日で満七十一歳になります。<br><br>それで今日は皇太子様の御誕生日にもなるので、よほど私と因縁があるように思われます。<br><br>皇太子様は「明仁」と言って、やはり「明」の字で、私は明主なのですから、これも不思議と思われます。<br><br> 御神業の方から言うと、救世教ができたのが二十五年二月です。<br><br>それで、あの事件が起きたのが、やっぱりその年の五月二十八日です。<br><br>それから、決まりがついたのが去年の誕生日の翌日だったのです。<br><br>そうすると私の満七十歳で「散花結実」――つまり花が散って、去年の十二月二十四日にいよいよ実の点ができたわけです。<br><br>そうすると今年でちょうど一年で、そうして散った年からですと三年になるわけです。<br><br>それですからして、五、六、七がすんで八となるので、ちょうど今年が二十八年ですからして、ミロクが開くという意味になるので、七十で五、六、七と、だいたい基礎が成ったのです。<br><br>それからいよいよ開くという形は、今年になってからの御神業の模様もそういうふうになってます。<br><br>それでこれから七年、つまり私が七十七の時にだいたい世界的の基礎ができることになっているのです。<br><br>つまり七十七で「成り成る」のです。<br><br>そういうふうに御神業の方は正確に、しかも早いです。<br><br> それについて考えてみると、地上天国の模型は、箱根は今年でき、これから熱海ですが、来年はメシヤ会館と展望台の水晶殿ができます。<br><br>再来年は美術館ができるということになってます。<br><br>それで美術館ができると、あそこはだいたい完成ですが、それでもまだ神様の方では、あの地上天国はもっと拡げる計画のようです。<br><br>しかしとにかく、それでだいたいはできるのです。<br><br>そうしますと、できあがった暁は、この間も話したとおり、日本とすれば西は京都、奈良、東は箱根、熱海ということになるだろうという、米国の新聞記者の話で、その人は『ニホン・タイムズ』の記者をしていて、放送局の英語放送の主任をしているエリス・グリリ氏です。<br><br>外国の人が日本に来た時にはそういうふうに見るだろうと自分は思うということも言ってました。<br><br>それからまたこういうことも言ってました。<br><br>イタリアのヴァチカンですが、あそこはキリスト教の本山ですが、一方から言うと美術の本山と言ってもよいです。<br><br>イタリアの大美術館です。<br><br>それと匹敵するように見ておりました。<br><br>またフランスではルーヴルとも比べておりました。<br><br>結局そういうことになるのは間違いないと思います。<br><br>そうすると、ただ、その早さは驚くべきものです。<br><br>なにしろ京都、奈良は千年以上たってます。<br><br>奈良にしても千二、三百年たってます。<br><br>それで、多くの人間……仏教が主ですが、その間いろいろな美術家だとか、とにかく千年以上、大勢の人がやってこしらえたものと、私の方はまず十年でしょう。<br><br>だいたい宗教になったのが二十二年八月ですから、十年とすると三十二年八月で丸十年ということになるわけです。<br><br>それで完成するには、熱海の美術館ができるのが再来年とすると、三十年です。<br><br> それからまた京都にもできましょうが、とにかく十年で、それも私が設計までやったのです。<br><br>西の方は千年以上で、こっちは年限が短いですから、ああいうような細かい、いろいろなそういうことは無理ですが、とにかく、一つの、人間の目を楽しませ、また一つの魅力と言いますか、そういった見方で同格に思われるということは、その早さにおいてたいへんなものだろうと思います。<br><br>これは私がうぬぼれているわけではないので、神様の腕前のすばらしいことには私自身が驚いているのです。<br><br>そういうようなわけですから、そういった文化財的のものばかりでなく、あらゆる面にわたる救い、世界的の救世の事業も、その割でゆけば別にそう難しいことではないと思います。<br><br>たとえて言えば、キリスト教は二千年、仏教は二千五、六百年ぐらいになりますが、そういうように二千年以上かかる宗教的事業を、救世教の方の神様――というと変ですが、他の宗教の神様の総取締り＝親玉みたいなものですが――その神様がやるのですから、おそらく釈迦、キリストが二千年以上かかってやったことの何倍何十層倍のもので、まず二十年か三十年でやれます。<br><br>それは間違いないです。<br><br>私にはよく分かるので、それはお知らせというのでなく、それ以上の確実なことが分かってます。<br><br>それはどういうわけだと言いますと、これはいつも言ってますが、今までの宗教でもなんでも全部月の力なのです。<br><br>これは夜の世界のためですが、夜の世界は月が支配したのですからして、月の力です。<br><br>そうすると太陽の光はその六十倍ですから、そこで私の振るう力というものは太陽の力ですから、今までの最高のものよりか六十倍の力です。<br><br>だから私の弟子がキリストと同じくらいのことができるということは、そういうわけです。<br><br>要するに力なのです。<br><br>その力が今までは弱いために、つまり悪魔に負けるのです。<br><br>それともう一つは霊界が暗かったからで、ちょうど夜、物を見るようなもので、はっきりしなかったのです。<br><br>それだから今まで説いたいろいろなものがはっきりしないのです。<br><br>バイブルでも経文でもはっきりしないのです。<br><br>だからそれを読んだ人でも、つまり想像です。<br><br>“オレはこう思う”“貴様はそう思うだろう”というようなことで、まちまちなのです。<br><br>ですから本当にバイブルや経文を読んでも、分かる人はおそらくないです。<br><br>というのは、夜、物を見ようとするようなものだからです。<br><br>ところが救世教の方ははっきりしているのです。<br><br>私は書くものにしてもはっきり書いているのです。<br><br>少しでも迷いがなく、解釈の仕方が一つよりできないように書いてあります。<br><br>そこが、昼間の明かりで物を見るというように思えばよく分かります。<br><br>だからすべて早いのです。<br><br>夜ですと探り探り、見当をつけてやるのですから、たまには間違ったり、やり損なったりすることがありますが、昼間は遠くまで見通しがつきますから、そういうことはないのです。<br><br>ですからして、これからはいっそう早くなります。<br><br>それで、今年一年でも随分早いです。<br><br>知らるるとおりハワイに三月から手をつけて、もうそうとう立派な本部ができてしまっているのです。<br><br>それも、別にこっちから金を出したわけでなく、先方で半年ばかりで作った信者が金を出して本部を造るというのですから、これもおそらく破天荒な話です。<br><br>それで、来年は米国の方もそうとう活躍しますから、これもまた予想もつかないほどの収穫を上げるでしょう。<br><br>それからまた熱海の地上天国ができると、これはまたとにかく日本中の評判になりますから、たいへんに大きな刺激を与えるだろうと思います。<br><br> 私の方で一番困るのは、救世教はやっぱり今流行の新宗教だ。<br><br>それで、新宗教の中では少しは頭角を抜いているようだが、結局○○会だとか、○○○○教だとか、○○○○とか、そういったように他の新宗教並に見られることが非常に困るのです。<br><br>ですからむしろ救世教の発展を一番妨害しているのは新宗教なのです。<br><br>そこで世間にたくさんある新宗教と救世教とは違う、断然別のものだ、というように世の中の人に認識させるということが一番肝腎なのです。<br><br>その点において、箱根はそうでもありませんが、熱海ができあがったらびっくりします。<br><br>それもありますし、それから自然農法も、今年でよほど認める人が多くなったようですが、この方も来年の収穫で、これなら否応なしだと思います。<br><br>それらの点において、他の新宗教とは違う、救世教は特別だというような認識をされれば、それはすばらしい発展をします。<br><br>今まで知った人はよく分かりますが、中に入らないで外から見ている人は、どうも新宗教並に見るという、そういったようなことがたいへんに発展を阻害しているわけです。<br><br>それで、そういう見方、観念を破るには、今度の熱海の地上天国ができるということが、もっとも効果があると思います。<br><br> それでこれはまだ、なにしろ未完成だから分からなかったのですが、ようやく会館の形だけはでき、これから展望台にかかりますが、さっき言ったとおりここは「水晶殿」とつけました。<br><br>英国に水晶宮というガラスの家があるそうですが、「宮」ではあんまりおおげさ過ぎるのです。<br><br>「ガラスの家」と言うと安ッポイですから、やっぱり「水晶」という名が一番よいですが、「水晶何々」と言っても、他に適当なのがないので「水晶殿」としましたが、「水晶殿」でも少しおおげさ過ぎますが、他にないのでそうしました。<br><br>それで、この水晶殿ができ、美術館も箱根より大きさも倍以上あり、すべての点において無論世界一と言ってもさし支えないです。<br><br>それで、外国の人などは、箱根でさえ、大きさはもっと大きいのがあるが、内容においては世界的レベルと少しも劣らない、ということを言っているくらいですから、今度熱海にできる美術館は世界一と言ってもさし支えないものです。<br><br>それで、美術館と、それから今言った水晶殿と、それだけでもとにかく日本の国の誇りというくらいに認めるだろうと思います。<br><br>おそらく開闢（かいびゃく）以来これだけのものを造った人はないし、計画した人もないのですから、そこで救世教に対する見方というものが、まるっきり違うだろうと思ってます。<br><br>今の泥だらけになっている所を信者さんが見て、それほどとは思わないでしょうが、できあがれば信者さんでも開いた口がすぼまらない、というように驚くだろうと思ってます。<br><br>そういうようなわけで、あれだけのものが十年そこそこでできてしまうという、その早さ、すばらしさというものは驚くのみだろうと思います。<br><br>そうして、なにしろ私が箱根、熱海に来たのが昭和十九年ですから、まだ十年にはなっていないので、来年で十年になります。<br><br>その時は、それこそ茫々（ぼうぼう）たるもので、最初箱根に買った神山荘は十六万円で買ったのですが、私が持っている金がやっと五、六万円だったのですが、十万円というものは、その時の信者さんの有力な人が作った金なのです。<br><br>それから熱海の東山荘を買って出てくるというようなわけで、今のことを考えたら夢です。<br><br>そういうようなわけで、仮に美術品にしろ、日本では一番とされてますが、浮世絵なども私があれだけは一年かからないうちに集まってしまったのです。<br><br>これを道具屋が不思議だと言ってます。<br><br>それで私は、これは神様が大いに集められたのだなと思って、私はただ神様の事務執行者みたいなものです。<br><br>神様が方々からいろいろ寄せてくる、それをただ取り扱っているだけのものです。<br><br>その代わり神様の方は楽はさせません。<br><br>というのは、いろいろな良い物はたくさん来ますが、買う金には年中苦しんでいます。<br><br>その代わりまた必ずキチキチとして、手も足も出ないようにはされないのです。<br><br>そういうようで、浮世絵もわずかな間に集まって、今は日本一になってます。<br><br>来年の三月に三越で浮世絵の大展覧会をやりますが、これは毎日新聞社の企画です。<br><br>それで、箱根美術館出張展覧会と言いますか、そこは適当な名前をつけるでしょうが、そういうような具合で、これも今までお寺は随分デパートに出しましたが、美術館として出すのは初めてです。<br><br>これは大阪、九州などにも続いてやる計画です。<br><br>その浮世絵が、そのくらいのわずかの間に認められるほど集まったということは、すばらしいものです。<br><br>それで、浮世絵以外の美術品も、いろんな計画で、展覧会をやるというような考えも、毎日新聞社で考えているとかいう話を聞きましたが、無論そういうことになりましょう。<br><br> そこで、近ごろ美術ということに対する社会的の関心を非常に持たれてきました。<br><br>だから新聞で美術とか美術展覧会とかを扱わなければならないようになってきたようです。<br><br>そういうような具合で、とにかく美術熱というものが非常に高まってきてます。<br><br>これは日本ばかりでなく世界的で、外国でも非常に美術熱が高まってきて、特に米国などは非常なものです。<br><br>それで私は将来米国で東洋美術、特に日本美術を紹介しようと思って、その方法を考えています。<br><br>それには、なんでも来年あたりロックフエラーなどが来るかもしれないということを言ってましたが、そうしたら箱根美術館も見せて、私が話をしようと思ってますが、あの人が力を入れると、金はいくらでも出しますし、また非常に美術が好きだそうで、特に日本美術は好きなのですから、いずれは日本美術を主にしたものを、と思ってます。<br><br>今年米国でやりましたが、あれはどっちかというと、国宝的、仏教的の物を主にしてあるのですから、どっちかというと官僚的美術品です。<br><br>私はそうでなく、つまり民衆的美術品というものの展覧会を米国でやれば、非常によいと思います。<br><br>それは私の手でもできないことはないのです。<br><br>というのは、今年アメリカでやったのは、一口に言えば堅すぎるのです。<br><br>とにかくだいたい藤原以前あたりのものが非常に多いのです。<br><br>足利、桃山、元禄あたりのものは、ごく少ないのです。<br><br>民衆の芸術は元禄以後なのです。<br><br>それまではその時代の権力者が楽しんだ美術品なのです。<br><br>ようやく徳川中期から人民が楽しむという美術ができたので、それが非常に華やかだったのが元禄なのですから、つまり元禄以後の民衆芸術というものを、大いに世界的に知らせる必要があるのです。<br><br>ところが今までは本当の浮世絵だけだったのです。<br><br>これは逸早くヨーロッパあたりまで行ったのですが、他の物はほとんど行かなかったのです。<br><br>というのは、大名などの方面に秘蔵されていたのです。<br><br>それが終戦このかた散らばって出てきたために、私なども手に入れることができたのですが、そういうようで、日本美術の、古代美術でなく中世紀以後のものをそうとう集めて、多くの人に見せるという必要があるのです。<br><br>そういうような意味で、救世教もそういうことが一番手っ取り早いですから、その面から世界的になるわけです。<br><br>そうして他の方面の救いの方は、とにかくよほど、なんというか、一つの比較、つまり美術の方面でもたいしたものだということの信用を得て、他の救いの方をしたほうが、つまり導きよいと言いますか、仮に医学の方でも、農業なら農業の方で自然栽培が日本中に知れ渡るようになれば、そこで救世教はたいしたものだということになり、そこで“薬は毒だ”ということが耳に入りやすくなるのです。<br><br>これは万事神様がやっているのですから、別にそういうふうに考えることはいらないのですが、救世教が美術に非常に力を入れているということも、そういうようなわけです。<br><br>このやり方は、やはり救世教ばかりでなく、たとえてみれば、聖徳太子が仏教を開いたときもやっぱりそのやり方です。<br><br>それによって奈良という、ああいう仏教美術の都市ができたわけですが、これは聖徳太子がとにかく仏教を弘めるについて、そういうやり方をしたわけです。<br><br>それがまた日本の美術に対する大きな功績になったわけです。<br><br>とにかく日本のあらゆるもの――そういった美術ばかりでなく、音曲でも舞踊でも、結局仏教から出てます。<br><br>つまり仏教が極楽浄土の形を現わすということが芸術を作った始まりです。<br><br>それで歌舞音曲というのは極楽の相です。<br><br>そこで法隆寺というのは七堂伽藍を写したものです。<br><br>それから祇園精舎ということは、一つの天国の、芸術――歌舞音曲といったものを現わしたものです。<br><br>それはむしろ藤原期以後京都を主にして始まったのですが、それも結局、因はと言えば聖徳太子の仏教芸術が発展したものです。<br><br> それからヨーロッパでもそうで、なんといっても、さっき言ったイタリアのヴァチカンのローマの文化というものは、キリスト教を主にしてできあがったものです。<br><br>たとえてみれば、奈良の大仏にしても、もし信仰の力がなかったらあれほどの物はできません。<br><br>それから支那においてもそうです。<br><br>支那の最初の始まりは三千数百年前の殷で、それから商、周という具合に発展してきましたが、その時代の物を見るとみんな仏器です。<br><br>つまり仏様にあげる香炉とか花活とか、いろいろな器物がそういった道具で、それから発達しているのです。<br><br>それで一番さかんになったのが魏の時代――つまり六朝時代ですが、このとき仏教芸術が非常にさかんになったのです。<br><br>ですから支那の仏教芸術というものは、みんな魏の時代の物です。<br><br>それから、その後の唐時代から陶器が非常にさかんになりましたが、それはみんな銅器が基本になっているのです。<br><br>ですからやはり仏に関係したものです。<br><br>そういう具合で、芸術というものは、やはり宗教から出ているものです。<br><br>だから救世教が美術に対して非常に関心を持っているということは、古い時代からそうなっているのです。<br><br>それで芸術というものは、やはり天国を現わすものなのですからして、宗教が基礎になるということはあたりまえなのです。<br><br>それでただ、その時代時代によってやり方が違うだけです。<br><br>それで私がやっていることは二十世紀の時代に合っているわけです。<br><br>ですから今まであったのは、古い時代の何百何千年前のやり方です。<br><br>ところが新しい時代、要するに科学文化の時代には、そういった宗教的のものはまだなにもできてないのです。<br><br>そこに救世教が率先してやったわけです。<br><br>そこで箱根、熱海の地上天国がそういった新しい時代のやり方、形式、そういうものを表現したわけです。<br><br>ですから今日でも宗教建築というと、おそろしく古い時代のものをやり、みんなそういった頭になってますから、救世教のような、ああいったハイカラなもの――ガラス造りの家をこしらえるということなど、おおよそないのですが、これはできてあたりまえです。<br><br>ただ救世教が先鞭をつけたというわけです。<br><br>ですから、これからやはり、それと、救世教は宗教ばかりでなく、世界的に地上天国を造るというのですからして、その規模、計画なりが、今までのものより大きいのです。<br><br>一宗とか一国だけというものではないわけです。<br><br>しかしそれも計画だけではないので、実際に造るわけです。<br><br>ですから神様の方では、地上天国というものを世界中に造られるわけです。<br><br>これは救世教だけがやるのでなくて、その国の人が造るわけなのです。<br><br>これは将来の話ですが、とにかくこれからそういうふうに、いろいろなことがいろいろな国にだんだん繋がって発展して行くのですが、これは今はそうなっておりませんが、霊界においてはほとんどできあがっているくらいなものなのです。<br><br>だからだんだん……時です。<br><br>それで、スピードというものはだんだん早くなり、大きくもなるものです。<br><br>ですからこれから非常におもしろく、張り合いがあるわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Palavras por Ocasião do Aniversário Natalício</h2>
 <p>Completo hoje setenta e um anos de vida. Coincidentemente, esta é também a data natalícia de Sua Alteza o Príncipe Herdeiro, o que me leva a crer que existe entre nós uma profunda afinidade. O nome do príncipe, Akihito (明仁), contém o ideograma que significa ‘luz’ (明), o mesmo presente em meu nome, Meishu (明主), fato que considero igualmente uma misteriosa providência.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>O mesmo ocorreu na Europa. Como mencionei, a cultura romana do Vaticano, na Itália, foi edificada tendo o cristianismo como pilar. O Grande Buda de Nara, por exemplo, não poderia ter sido construído sem a força da fé. Na China, a história se repete. Suas origens remontam à dinastia Yin, há mais de três mil anos, evoluindo através das dinastias Shang e Zhou. Os artefatos dessa época são, em sua maioria, objetos rituais: incensários, vasos de flores e outros utensílios para oferendas a Buda, que serviram de base para o desenvolvimento artístico posterior. O apogeu ocorreu na dinastia Wei, durante o período das Seis Dinastias, quando a arte budista floresceu intensamente. Por isso, a grande arte budista chinesa provém dessa era. Mais tarde, a partir da dinastia Tang, a cerâmica se desenvolveu notavelmente, mas sempre tendo os utensílios de bronze como modelo, mantendo, assim, sua conexão com o budismo.</p>
 <p>Dessa forma, a arte invariavelmente emana da religião. O fato de a nossa Igreja ter um profundo interesse pela arte é, portanto, uma continuação dessa tradição milenar. A arte é uma manifestação do Paraíso, e é natural que a religião seja seu alicerce. O que muda é apenas o método, que se adapta a cada época. O que estou fazendo é condizente com o século XX. Os métodos anteriores pertencem a eras antigas, de centenas ou milhares de anos atrás. No entanto, na nova era, a era da cultura científica, nada de caráter religioso havia sido criado ainda. Foi a nossa Igreja que tomou a iniciativa. Os protótipos do Paraíso Terrestre em Hakone e Atami são a expressão de um novo método, um novo formato para os novos tempos. Ainda hoje, quando se fala em arquitetura religiosa, o pensamento se volta para estilos arcaicos. É por isso que uma abordagem moderna como a nossa — construir edifícios de vidro — parece inconcebível para muitos, embora seja perfeitamente natural. A Sekaikyuseikyou simplesmente abriu o caminho.</p>
 <p>Ademais, nossa missão não se restringe à religião; nosso objetivo é construir o Paraíso Terrestre em escala global. Por isso, a escala e o planejamento de nosso projeto são muito maiores que os de qualquer movimento anterior, que se limitavam a uma única seita ou nação. E não se trata apenas de um plano, mas de uma construção real. Deus construirá Paraísos Terrestres no mundo inteiro. Isso não será feito apenas por nossa Igreja, mas pelas próprias pessoas de cada país. Embora isso seja uma questão para o futuro, gradualmente, diversas atividades em diferentes nações se conectarão e se desenvolverão. No plano material, isso ainda não é visível, mas no Mundo Espiritual, já está praticamente concluído. Tudo é uma questão de tempo. A velocidade e a escala aumentarão progressivamente. Por isso, o futuro será extremamente interessante e estimulante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御誕生祭御講話 （S28年12月23日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十三日（御生誕祭御教え） 私は今日で満七十一歳になります。<br/><br/>それで今日は皇太子様の御誕生日にもなるので、よほど私と因縁があるように思われます。<br/><br/>皇太子様は「明仁」と言って、やはり「明」の字で、私は明主なのですから、これも不思議と思われます。<br/><br/> 御神業の方から言うと、救世教ができたのが二十五年二月です。<br/><br/>それで、あの事件が起きたのが、やっぱりその年の五月二十八日です。<br/><br/>それから、決まりがついたのが去年の誕生日の翌日だったのです。<br/><br/>そうすると私の満七十歳で「散花結実」――つまり花が散って、去年の十二月二十四日にいよいよ実の点ができたわけです。<br/><br/>そうすると今年でちょうど一年で、そうして散った年からですと三年になるわけです。<br/><br/>それですからして、五、六、七がすんで八となるので、ちょうど今年が二十八年ですからして、ミロクが開くという意味になるので、七十で五、六、七と、だいたい基礎が成ったのです。<br/><br/>それからいよいよ開くという形は、今年になってからの御神業の模様もそういうふうになってます。<br/><br/>それでこれから七年、つまり私が七十七の時にだいたい世界的の基礎ができることになっているのです。<br/><br/>つまり七十七で「成り成る」のです。<br/><br/>そういうふうに御神業の方は正確に、しかも早いです。<br/><br/> それについて考えてみると、地上天国の模型は、箱根は今年でき、これから熱海ですが、来年はメシヤ会館と展望台の水晶殿ができます。<br/><br/>再来年は美術館ができるということになってます。<br/><br/>それで美術館ができると、あそこはだいたい完成ですが、それでもまだ神様の方では、あの地上天国はもっと拡げる計画のようです。<br/><br/>しかしとにかく、それでだいたいはできるのです。<br/><br/>そうしますと、できあがった暁は、この間も話したとおり、日本とすれば西は京都、奈良、東は箱根、熱海ということになるだろうという、米国の新聞記者の話で、その人は『ニホン・タイムズ』の記者をしていて、放送局の英語放送の主任をしているエリス・グリリ氏です。<br/><br/>外国の人が日本に来た時にはそういうふうに見るだろうと自分は思うということも言ってました。<br/><br/>それからまたこういうことも言ってました。<br/><br/>イタリアのヴァチカンですが、あそこはキリスト教の本山ですが、一方から言うと美術の本山と言ってもよいです。<br/><br/>イタリアの大美術館です。<br/><br/>それと匹敵するように見ておりました。<br/><br/>またフランスではルーヴルとも比べておりました。<br/><br/>結局そういうことになるのは間違いないと思います。<br/><br/>そうすると、ただ、その早さは驚くべきものです。<br/><br/>なにしろ京都、奈良は千年以上たってます。<br/><br/>奈良にしても千二、三百年たってます。<br/><br/>それで、多くの人間……仏教が主ですが、その間いろいろな美術家だとか、とにかく千年以上、大勢の人がやってこしらえたものと、私の方はまず十年でしょう。<br/><br/>だいたい宗教になったのが二十二年八月ですから、十年とすると三十二年八月で丸十年ということになるわけです。<br/><br/>それで完成するには、熱海の美術館ができるのが再来年とすると、三十年です。<br/><br/> それからまた京都にもできましょうが、とにかく十年で、それも私が設計までやったのです。<br/><br/>西の方は千年以上で、こっちは年限が短いですから、ああいうような細かい、いろいろなそういうことは無理ですが、とにかく、一つの、人間の目を楽しませ、また一つの魅力と言いますか、そういった見方で同格に思われるということは、その早さにおいてたいへんなものだろうと思います。<br/><br/>これは私がうぬぼれているわけではないので、神様の腕前のすばらしいことには私自身が驚いているのです。<br/><br/>そういうようなわけですから、そういった文化財的のものばかりでなく、あらゆる面にわたる救い、世界的の救世の事業も、その割でゆけば別にそう難しいことではないと思います。<br/><br/>たとえて言えば、キリスト教は二千年、仏教は二千五、六百年ぐらいになりますが、そういうように二千年以上かかる宗教的事業を、救世教の方の神様――というと変ですが、他の宗教の神様の総取締り＝親玉みたいなものですが――その神様がやるのですから、おそらく釈迦、キリストが二千年以上かかってやったことの何倍何十層倍のもので、まず二十年か三十年でやれます。<br/><br/>それは間違いないです。<br/><br/>私にはよく分かるので、それはお知らせというのでなく、それ以上の確実なことが分かってます。<br/><br/>それはどういうわけだと言いますと、これはいつも言ってますが、今までの宗教でもなんでも全部月の力なのです。<br/><br/>これは夜の世界のためですが、夜の世界は月が支配したのですからして、月の力です。<br/><br/>そうすると太陽の光はその六十倍ですから、そこで私の振るう力というものは太陽の力ですから、今までの最高のものよりか六十倍の力です。<br/><br/>だから私の弟子がキリストと同じくらいのことができるということは、そういうわけです。<br/><br/>要するに力なのです。<br/><br/>その力が今までは弱いために、つまり悪魔に負けるのです。<br/><br/>それともう一つは霊界が暗かったからで、ちょうど夜、物を見るようなもので、はっきりしなかったのです。<br/><br/>それだから今まで説いたいろいろなものがはっきりしないのです。<br/><br/>バイブルでも経文でもはっきりしないのです。<br/><br/>だからそれを読んだ人でも、つまり想像です。<br/><br/>“オレはこう思う”“貴様はそう思うだろう”というようなことで、まちまちなのです。<br/><br/>ですから本当にバイブルや経文を読んでも、分かる人はおそらくないです。<br/><br/>というのは、夜、物を見ようとするようなものだからです。<br/><br/>ところが救世教の方ははっきりしているのです。<br/><br/>私は書くものにしてもはっきり書いているのです。<br/><br/>少しでも迷いがなく、解釈の仕方が一つよりできないように書いてあります。<br/><br/>そこが、昼間の明かりで物を見るというように思えばよく分かります。<br/><br/>だからすべて早いのです。<br/><br/>夜ですと探り探り、見当をつけてやるのですから、たまには間違ったり、やり損なったりすることがありますが、昼間は遠くまで見通しがつきますから、そういうことはないのです。<br/><br/>ですからして、これからはいっそう早くなります。<br/><br/>それで、今年一年でも随分早いです。<br/><br/>知らるるとおりハワイに三月から手をつけて、もうそうとう立派な本部ができてしまっているのです。<br/><br/>それも、別にこっちから金を出したわけでなく、先方で半年ばかりで作った信者が金を出して本部を造るというのですから、これもおそらく破天荒な話です。<br/><br/>それで、来年は米国の方もそうとう活躍しますから、これもまた予想もつかないほどの収穫を上げるでしょう。<br/><br/>それからまた熱海の地上天国ができると、これはまたとにかく日本中の評判になりますから、たいへんに大きな刺激を与えるだろうと思います。<br/><br/> 私の方で一番困るのは、救世教はやっぱり今流行の新宗教だ。<br/><br/>それで、新宗教の中では少しは頭角を抜いているようだが、結局○○会だとか、○○○○教だとか、○○○○とか、そういったように他の新宗教並に見られることが非常に困るのです。<br/><br/>ですからむしろ救世教の発展を一番妨害しているのは新宗教なのです。<br/><br/>そこで世間にたくさんある新宗教と救世教とは違う、断然別のものだ、というように世の中の人に認識させるということが一番肝腎なのです。<br/><br/>その点において、箱根はそうでもありませんが、熱海ができあがったらびっくりします。<br/><br/>それもありますし、それから自然農法も、今年でよほど認める人が多くなったようですが、この方も来年の収穫で、これなら否応なしだと思います。<br/><br/>それらの点において、他の新宗教とは違う、救世教は特別だというような認識をされれば、それはすばらしい発展をします。<br/><br/>今まで知った人はよく分かりますが、中に入らないで外から見ている人は、どうも新宗教並に見るという、そういったようなことがたいへんに発展を阻害しているわけです。<br/><br/>それで、そういう見方、観念を破るには、今度の熱海の地上天国ができるということが、もっとも効果があると思います。<br/><br/> それでこれはまだ、なにしろ未完成だから分からなかったのですが、ようやく会館の形だけはでき、これから展望台にかかりますが、さっき言ったとおりここは「水晶殿」とつけました。<br/><br/>英国に水晶宮というガラスの家があるそうですが、「宮」ではあんまりおおげさ過ぎるのです。<br/><br/>「ガラスの家」と言うと安ッポイですから、やっぱり「水晶」という名が一番よいですが、「水晶何々」と言っても、他に適当なのがないので「水晶殿」としましたが、「水晶殿」でも少しおおげさ過ぎますが、他にないのでそうしました。<br/><br/>それで、この水晶殿ができ、美術館も箱根より大きさも倍以上あり、すべての点において無論世界一と言ってもさし支えないです。<br/><br/>それで、外国の人などは、箱根でさえ、大きさはもっと大きいのがあるが、内容においては世界的レベルと少しも劣らない、ということを言っているくらいですから、今度熱海にできる美術館は世界一と言ってもさし支えないものです。<br/><br/>それで、美術館と、それから今言った水晶殿と、それだけでもとにかく日本の国の誇りというくらいに認めるだろうと思います。<br/><br/>おそらく開闢（かいびゃく）以来これだけのものを造った人はないし、計画した人もないのですから、そこで救世教に対する見方というものが、まるっきり違うだろうと思ってます。<br/><br/>今の泥だらけになっている所を信者さんが見て、それほどとは思わないでしょうが、できあがれば信者さんでも開いた口がすぼまらない、というように驚くだろうと思ってます。<br/><br/>そういうようなわけで、あれだけのものが十年そこそこでできてしまうという、その早さ、すばらしさというものは驚くのみだろうと思います。<br/><br/>そうして、なにしろ私が箱根、熱海に来たのが昭和十九年ですから、まだ十年にはなっていないので、来年で十年になります。<br/><br/>その時は、それこそ茫々（ぼうぼう）たるもので、最初箱根に買った神山荘は十六万円で買ったのですが、私が持っている金がやっと五、六万円だったのですが、十万円というものは、その時の信者さんの有力な人が作った金なのです。<br/><br/>それから熱海の東山荘を買って出てくるというようなわけで、今のことを考えたら夢です。<br/><br/>そういうようなわけで、仮に美術品にしろ、日本では一番とされてますが、浮世絵なども私があれだけは一年かからないうちに集まってしまったのです。<br/><br/>これを道具屋が不思議だと言ってます。<br/><br/>それで私は、これは神様が大いに集められたのだなと思って、私はただ神様の事務執行者みたいなものです。<br/><br/>神様が方々からいろいろ寄せてくる、それをただ取り扱っているだけのものです。<br/><br/>その代わり神様の方は楽はさせません。<br/><br/>というのは、いろいろな良い物はたくさん来ますが、買う金には年中苦しんでいます。<br/><br/>その代わりまた必ずキチキチとして、手も足も出ないようにはされないのです。<br/><br/>そういうようで、浮世絵もわずかな間に集まって、今は日本一になってます。<br/><br/>来年の三月に三越で浮世絵の大展覧会をやりますが、これは毎日新聞社の企画です。<br/><br/>それで、箱根美術館出張展覧会と言いますか、そこは適当な名前をつけるでしょうが、そういうような具合で、これも今までお寺は随分デパートに出しましたが、美術館として出すのは初めてです。<br/><br/>これは大阪、九州などにも続いてやる計画です。<br/><br/>その浮世絵が、そのくらいのわずかの間に認められるほど集まったということは、すばらしいものです。<br/><br/>それで、浮世絵以外の美術品も、いろんな計画で、展覧会をやるというような考えも、毎日新聞社で考えているとかいう話を聞きましたが、無論そういうことになりましょう。<br/><br/> そこで、近ごろ美術ということに対する社会的の関心を非常に持たれてきました。<br/><br/>だから新聞で美術とか美術展覧会とかを扱わなければならないようになってきたようです。<br/><br/>そういうような具合で、とにかく美術熱というものが非常に高まってきてます。<br/><br/>これは日本ばかりでなく世界的で、外国でも非常に美術熱が高まってきて、特に米国などは非常なものです。<br/><br/>それで私は将来米国で東洋美術、特に日本美術を紹介しようと思って、その方法を考えています。<br/><br/>それには、なんでも来年あたりロックフエラーなどが来るかもしれないということを言ってましたが、そうしたら箱根美術館も見せて、私が話をしようと思ってますが、あの人が力を入れると、金はいくらでも出しますし、また非常に美術が好きだそうで、特に日本美術は好きなのですから、いずれは日本美術を主にしたものを、と思ってます。<br/><br/>今年米国でやりましたが、あれはどっちかというと、国宝的、仏教的の物を主にしてあるのですから、どっちかというと官僚的美術品です。<br/><br/>私はそうでなく、つまり民衆的美術品というものの展覧会を米国でやれば、非常によいと思います。<br/><br/>それは私の手でもできないことはないのです。<br/><br/>というのは、今年アメリカでやったのは、一口に言えば堅すぎるのです。<br/><br/>とにかくだいたい藤原以前あたりのものが非常に多いのです。<br/><br/>足利、桃山、元禄あたりのものは、ごく少ないのです。<br/><br/>民衆の芸術は元禄以後なのです。<br/><br/>それまではその時代の権力者が楽しんだ美術品なのです。<br/><br/>ようやく徳川中期から人民が楽しむという美術ができたので、それが非常に華やかだったのが元禄なのですから、つまり元禄以後の民衆芸術というものを、大いに世界的に知らせる必要があるのです。<br/><br/>ところが今までは本当の浮世絵だけだったのです。<br/><br/>これは逸早くヨーロッパあたりまで行ったのですが、他の物はほとんど行かなかったのです。<br/><br/>というのは、大名などの方面に秘蔵されていたのです。<br/><br/>それが終戦このかた散らばって出てきたために、私なども手に入れることができたのですが、そういうようで、日本美術の、古代美術でなく中世紀以後のものをそうとう集めて、多くの人に見せるという必要があるのです。<br/><br/>そういうような意味で、救世教もそういうことが一番手っ取り早いですから、その面から世界的になるわけです。<br/><br/>そうして他の方面の救いの方は、とにかくよほど、なんというか、一つの比較、つまり美術の方面でもたいしたものだということの信用を得て、他の救いの方をしたほうが、つまり導きよいと言いますか、仮に医学の方でも、農業なら農業の方で自然栽培が日本中に知れ渡るようになれば、そこで救世教はたいしたものだということになり、そこで“薬は毒だ”ということが耳に入りやすくなるのです。<br/><br/>これは万事神様がやっているのですから、別にそういうふうに考えることはいらないのですが、救世教が美術に非常に力を入れているということも、そういうようなわけです。<br/><br/>このやり方は、やはり救世教ばかりでなく、たとえてみれば、聖徳太子が仏教を開いたときもやっぱりそのやり方です。<br/><br/>それによって奈良という、ああいう仏教美術の都市ができたわけですが、これは聖徳太子がとにかく仏教を弘めるについて、そういうやり方をしたわけです。<br/><br/>それがまた日本の美術に対する大きな功績になったわけです。<br/><br/>とにかく日本のあらゆるもの――そういった美術ばかりでなく、音曲でも舞踊でも、結局仏教から出てます。<br/><br/>つまり仏教が極楽浄土の形を現わすということが芸術を作った始まりです。<br/><br/>それで歌舞音曲というのは極楽の相です。<br/><br/>そこで法隆寺というのは七堂伽藍を写したものです。<br/><br/>それから祇園精舎ということは、一つの天国の、芸術――歌舞音曲といったものを現わしたものです。<br/><br/>それはむしろ藤原期以後京都を主にして始まったのですが、それも結局、因はと言えば聖徳太子の仏教芸術が発展したものです。<br/><br/> それからヨーロッパでもそうで、なんといっても、さっき言ったイタリアのヴァチカンのローマの文化というものは、キリスト教を主にしてできあがったものです。<br/><br/>たとえてみれば、奈良の大仏にしても、もし信仰の力がなかったらあれほどの物はできません。<br/><br/>それから支那においてもそうです。<br/><br/>支那の最初の始まりは三千数百年前の殷で、それから商、周という具合に発展してきましたが、その時代の物を見るとみんな仏器です。<br/><br/>つまり仏様にあげる香炉とか花活とか、いろいろな器物がそういった道具で、それから発達しているのです。<br/><br/>それで一番さかんになったのが魏の時代――つまり六朝時代ですが、このとき仏教芸術が非常にさかんになったのです。<br/><br/>ですから支那の仏教芸術というものは、みんな魏の時代の物です。<br/><br/>それから、その後の唐時代から陶器が非常にさかんになりましたが、それはみんな銅器が基本になっているのです。<br/><br/>ですからやはり仏に関係したものです。<br/><br/>そういう具合で、芸術というものは、やはり宗教から出ているものです。<br/><br/>だから救世教が美術に対して非常に関心を持っているということは、古い時代からそうなっているのです。<br/><br/>それで芸術というものは、やはり天国を現わすものなのですからして、宗教が基礎になるということはあたりまえなのです。<br/><br/>それでただ、その時代時代によってやり方が違うだけです。<br/><br/>それで私がやっていることは二十世紀の時代に合っているわけです。<br/><br/>ですから今まであったのは、古い時代の何百何千年前のやり方です。<br/><br/>ところが新しい時代、要するに科学文化の時代には、そういった宗教的のものはまだなにもできてないのです。<br/><br/>そこに救世教が率先してやったわけです。<br/><br/>そこで箱根、熱海の地上天国がそういった新しい時代のやり方、形式、そういうものを表現したわけです。<br/><br/>ですから今日でも宗教建築というと、おそろしく古い時代のものをやり、みんなそういった頭になってますから、救世教のような、ああいったハイカラなもの――ガラス造りの家をこしらえるということなど、おおよそないのですが、これはできてあたりまえです。<br/><br/>ただ救世教が先鞭をつけたというわけです。<br/><br/>ですから、これからやはり、それと、救世教は宗教ばかりでなく、世界的に地上天国を造るというのですからして、その規模、計画なりが、今までのものより大きいのです。<br/><br/>一宗とか一国だけというものではないわけです。<br/><br/>しかしそれも計画だけではないので、実際に造るわけです。<br/><br/>ですから神様の方では、地上天国というものを世界中に造られるわけです。<br/><br/>これは救世教だけがやるのでなくて、その国の人が造るわけなのです。<br/><br/>これは将来の話ですが、とにかくこれからそういうふうに、いろいろなことがいろいろな国にだんだん繋がって発展して行くのですが、これは今はそうなっておりませんが、霊界においてはほとんどできあがっているくらいなものなのです。<br/><br/>だからだんだん……時です。<br/><br/>それで、スピードというものはだんだん早くなり、大きくもなるものです。<br/><br/>ですからこれから非常におもしろく、張り合いがあるわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tadashi2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正しき信仰 『信仰雑話』P.2、昭和23(1948)年9月5日発行 支那の碩学朱子の言に「疑いは信の初めなり」という事があるが、これは全く至言である。<br><br>私は「信仰は出来るだけ疑え」と常に言うのである。<br><br>世間種々の信仰があるが、大抵はインチキ性の多分にあるものか、そうでないまでも下の位の神仏や狐、狸、天狗、龍神等を的としたものが多く、正しい神を的とする信仰はまことに少ないのである。<br><br>従って、厳密に検討を加えるとき、大抵の宗教は何等かの欠点を包含しているものであるから、入信の場合何よりもまず大いに疑ってみる事である。<br><br>決して先入観念に捉われてはならない。<br><br>何程疑って疑り抜いても欠点を見い出だせない信仰であれば、それこそ信ずるほかはないであろう。<br><br>しかるに、世の中には最初から「信ずれば御利益がある」という宗教があるが、これは大いに誤っている。<br><br>何となれば、いささかの御利益も認めないうちから信ずるという事は、己を偽らなければならない。<br><br>故に、最初はただ触れてみる、研究してみるという程度で注意深く観察し、できるだけ疑うのである。<br><br>そうして、教義も信仰理論も合理的で非の打ちどころがないばかりか、神仏の御加護は歴然として日々奇跡がある程のものであれば、まず立派な宗教として入信すべき価値がある。<br><br>またこういう宗教もある。<br><br>それは信者が他の宗教に触れる事を極端に嫌うのであるが、これらも誤っている。<br><br>何となればそれはその宗教に欠点があるか、または力が薄弱である事を物語っている。<br><br>最高の宗教であれば、それ以上のものは他にない筈であるから、他の宗教に触れる事を恐れるどころかかえって喜ぶべきで、その結果自己の信ずる宗教の優越牲を認識し、かえって信仰は強まる事になるからである。<br><br> しかし、こういう事も注意しなくてはならない。<br><br>それは相当の御利益や奇跡の顕れる場合である。<br><br>正しい神仏でも人間と同様上中下あり、力の差別がある。<br><br>二流以下の神仏でも相当の力を発揮し給うから、御利益や奇跡もある程度顕れるので、大抵の人は有難い神仏と思い込んでしまう。<br><br>ところが長い間には、二流以下の神仏では往々邪神に負ける事があるから、種々の禍いとなって表れ、苦境に陥る場合があるが、一度信じた以上何等かの理屈をつけ、神仏の力の不足など発見できないばかりか、かえって神仏のお試しまたは罪穢の払拭と解するのである。<br><br> 信仰者にして病気災難等の禍いがあり一時は苦しむが、それが済んだ後は、その禍い以前よりも良い状態になるのが上位の神仏の証拠である。<br><br>すなわち、病気災難が済んだ後は、罪穢がそれだけ軽減する結果霊的に向上したからである。<br><br>それに引き換え、禍いが非常に深刻であったり、長期間であったり、絶望状態に陥ったりするのは、その神仏の力が不足のため邪神に敗北したからである。<br><br> 世間よくあらゆる犠牲を払い、熱烈なる信仰を捧げて祈願するに関わらず、思うような御利益のないのは、その人の願い事が神仏の力に余るからで、神仏の方で御利益を与えたくも与えられ得ないという訳である。<br><br>このような場合、これ程一生懸命にお願いしてもお聞き届けがないのは、自分はもはや神仏に見放されたのではないかと悲観し、この世に神も仏もあるものかと思い信仰を捨てたり、自暴自棄に陥ったりして、ますます悲運に陥るという例はよくみるところである。<br><br>こういう信仰に限って、断食をしたり、お百度詣りをしたり、茶断ち塩断ち等をするが、これらは甚だ間違っている。<br><br>個人的にどんな難行苦行を行なったとしても、それが社会人類にいささかの稗益するところがなければ、徒労に過ぎないわけで、こういう方法を喜ぶ神仏があるとすれば、もちろん二流以下の神仏かまたは狐狸天狗のたぐいである。<br><br>故に正しい神仏であれば、人間が社会人類の福祉を増進すべき事に努力し、その効果をあげ得た場合、その功績に対する褒賞として御利益を下し給うのである。<br><br>ついでに注意するが、昔からよく「いわし鰯の頭も信心から」という事があるが、これは大変な間違いであって、すべて信仰の的は最高級の神仏でなければならない。<br><br>何となれば、高級の神仏ほど正しき目的の祈願でなくては御利益を与えてくださらないと共に、人間が仰ぎ拝む事によって清浄なる霊光を受けるから、漸次罪穢は払拭されるのである。<br><br>鰯の頭や低級なる的にむかっていかに仰ぎ拝むとも、低級霊から受けるものは邪気に過ぎないから、心はけがれ、自然不善を行なう人間になりやすいのである。<br><br>それらを知らない世間一般の人は、神仏でさえあれば、皆一様に有難いもの、願い事は叶えてくださるものと思うが、それも無理はない。<br><br>もっとも昔から神仏の高下正邪等見分け得るような教育は何人も受けていないからである。<br><br>そうして、狐、狸、天狗、龍神等にも階級があり、力の強弱もあり、正邪もあるが、頭目になると驚くべき力を発揮し、大きな御利益をくれる事もあるから、信者も熱心な信仰を続けるが、多くは一時的御利益で、ついには御利益と禍いとが交互にくるというような事になり、永遠の栄は得られないのである。<br><br>以上説くところによって、信仰の場合一時的御利益に眩惑する事なく、その識別に誤りなきよう苦言を呈するのである。<br><br> (注) 碩学、大学者。<br><br> 朱子（1130-1200）、中国南宋の儒学者、朱熹の尊称。<br><br>儒学に朱子学という新体系を打ち立て、中国のみならず、東アジアにわたり影響を及ぼした思想家。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Fé e o Discernimento</h2>
 <p>O grande erudito chinês Zhu Xi proferiu uma máxima de absoluta pertinência: “A dúvida é o princípio da fé”. Costumo dizer constantemente que, no campo da fé, é preciso duvidar o máximo possível. Existem no mundo inúmeras crenças, mas a maioria delas ou possui um caráter consideravelmente fraudulento ou, quando não, tem como objeto de culto divindades de categoria inferior, ou entidades como raposas, texugos, <em>tengu</em> e divindades-dragão. As fés que se voltam ao Deus verdadeiro são, de fato, muito raras. Portanto, ao serem submetidas a um exame rigoroso, quase todas as religiões revelam algum tipo de falha. Diante disso, o passo mais importante antes de abraçar uma crença é, acima de tudo, duvidar dela profundamente, sem jamais se deixar aprisionar por ideias preconcebidas. Se, contudo, uma fé resistir ao mais rigoroso escrutínio, sem que se consiga encontrar nela qualquer falha, não haverá outra alternativa senão abraçá-la.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Aproveito para fazer um alerta a respeito do antigo ditado segundo o qual “até da cabeça de uma sardinha pode brotar a fé”. Isso é um erro tremendo. O objeto de veneração deve ser, invariavelmente, uma divindade do mais alto nível. O motivo é que as divindades de hierarquia elevada não apenas concedem benefícios somente às preces com propósitos justos, mas também, através do ato de reverenciá-las, o ser humano recebe sua puríssima Luz espiritual, e suas máculas são gradualmente purificadas. Por mais que se reverencie a cabeça de uma sardinha ou outros objetos de baixo nível, o que se recebe de espíritos inferiores não passa de energia maligna, que irá macular o coração e, naturalmente, levar a pessoa a praticar o mal.</p>
 <p>As pessoas em geral, por desconhecerem tais fatos, tendem a pensar que todas as divindades são igualmente veneráveis e capazes de atender a seus pedidos, o que é compreensível. Afinal, ninguém jamais recebeu uma educação que ensinasse a discernir a hierarquia, a índole e a natureza das divindades. Mesmo entre entidades como raposas, texugos, <em>tengu</em> e divindades-dragão, existem diferentes classes, níveis de poder e naturezas — benigna ou maligna. Seus líderes podem manifestar um poder surpreendente e conceder grandes benefícios, o que mantém a devoção dos fiéis. Entretanto, na maioria dos casos, são benefícios temporários, que acabam se alternando com infortúnios, criando um ciclo do qual não se obtém a prosperidade eterna.</p>
 <p>Com base no que foi exposto, faço esta severa advertência para que, no caminho da fé, ninguém se deixe ofuscar por benefícios momentâneos nem incorra no erro de uma avaliação equivocada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正しき信仰 『信仰雑話』P.2、昭和23(1948)年9月5日発行 支那の碩学朱子の言に「疑いは信の初めなり」という事があるが、これは全く至言である。<br/><br/>私は「信仰は出来るだけ疑え」と常に言うのである。<br/><br/>世間種々の信仰があるが、大抵はインチキ性の多分にあるものか、そうでないまでも下の位の神仏や狐、狸、天狗、龍神等を的としたものが多く、正しい神を的とする信仰はまことに少ないのである。<br/><br/>従って、厳密に検討を加えるとき、大抵の宗教は何等かの欠点を包含しているものであるから、入信の場合何よりもまず大いに疑ってみる事である。<br/><br/>決して先入観念に捉われてはならない。<br/><br/>何程疑って疑り抜いても欠点を見い出だせない信仰であれば、それこそ信ずるほかはないであろう。<br/><br/>しかるに、世の中には最初から「信ずれば御利益がある」という宗教があるが、これは大いに誤っている。<br/><br/>何となれば、いささかの御利益も認めないうちから信ずるという事は、己を偽らなければならない。<br/><br/>故に、最初はただ触れてみる、研究してみるという程度で注意深く観察し、できるだけ疑うのである。<br/><br/>そうして、教義も信仰理論も合理的で非の打ちどころがないばかりか、神仏の御加護は歴然として日々奇跡がある程のものであれば、まず立派な宗教として入信すべき価値がある。<br/><br/>またこういう宗教もある。<br/><br/>それは信者が他の宗教に触れる事を極端に嫌うのであるが、これらも誤っている。<br/><br/>何となればそれはその宗教に欠点があるか、または力が薄弱である事を物語っている。<br/><br/>最高の宗教であれば、それ以上のものは他にない筈であるから、他の宗教に触れる事を恐れるどころかかえって喜ぶべきで、その結果自己の信ずる宗教の優越牲を認識し、かえって信仰は強まる事になるからである。<br/><br/> しかし、こういう事も注意しなくてはならない。<br/><br/>それは相当の御利益や奇跡の顕れる場合である。<br/><br/>正しい神仏でも人間と同様上中下あり、力の差別がある。<br/><br/>二流以下の神仏でも相当の力を発揮し給うから、御利益や奇跡もある程度顕れるので、大抵の人は有難い神仏と思い込んでしまう。<br/><br/>ところが長い間には、二流以下の神仏では往々邪神に負ける事があるから、種々の禍いとなって表れ、苦境に陥る場合があるが、一度信じた以上何等かの理屈をつけ、神仏の力の不足など発見できないばかりか、かえって神仏のお試しまたは罪穢の払拭と解するのである。<br/><br/> 信仰者にして病気災難等の禍いがあり一時は苦しむが、それが済んだ後は、その禍い以前よりも良い状態になるのが上位の神仏の証拠である。<br/><br/>すなわち、病気災難が済んだ後は、罪穢がそれだけ軽減する結果霊的に向上したからである。<br/><br/>それに引き換え、禍いが非常に深刻であったり、長期間であったり、絶望状態に陥ったりするのは、その神仏の力が不足のため邪神に敗北したからである。<br/><br/> 世間よくあらゆる犠牲を払い、熱烈なる信仰を捧げて祈願するに関わらず、思うような御利益のないのは、その人の願い事が神仏の力に余るからで、神仏の方で御利益を与えたくも与えられ得ないという訳である。<br/><br/>このような場合、これ程一生懸命にお願いしてもお聞き届けがないのは、自分はもはや神仏に見放されたのではないかと悲観し、この世に神も仏もあるものかと思い信仰を捨てたり、自暴自棄に陥ったりして、ますます悲運に陥るという例はよくみるところである。<br/><br/>こういう信仰に限って、断食をしたり、お百度詣りをしたり、茶断ち塩断ち等をするが、これらは甚だ間違っている。<br/><br/>個人的にどんな難行苦行を行なったとしても、それが社会人類にいささかの稗益するところがなければ、徒労に過ぎないわけで、こういう方法を喜ぶ神仏があるとすれば、もちろん二流以下の神仏かまたは狐狸天狗のたぐいである。<br/><br/>故に正しい神仏であれば、人間が社会人類の福祉を増進すべき事に努力し、その効果をあげ得た場合、その功績に対する褒賞として御利益を下し給うのである。<br/><br/>ついでに注意するが、昔からよく「いわし鰯の頭も信心から」という事があるが、これは大変な間違いであって、すべて信仰の的は最高級の神仏でなければならない。<br/><br/>何となれば、高級の神仏ほど正しき目的の祈願でなくては御利益を与えてくださらないと共に、人間が仰ぎ拝む事によって清浄なる霊光を受けるから、漸次罪穢は払拭されるのである。<br/><br/>鰯の頭や低級なる的にむかっていかに仰ぎ拝むとも、低級霊から受けるものは邪気に過ぎないから、心はけがれ、自然不善を行なう人間になりやすいのである。<br/><br/>それらを知らない世間一般の人は、神仏でさえあれば、皆一様に有難いもの、願い事は叶えてくださるものと思うが、それも無理はない。<br/><br/>もっとも昔から神仏の高下正邪等見分け得るような教育は何人も受けていないからである。<br/><br/>そうして、狐、狸、天狗、龍神等にも階級があり、力の強弱もあり、正邪もあるが、頭目になると驚くべき力を発揮し、大きな御利益をくれる事もあるから、信者も熱心な信仰を続けるが、多くは一時的御利益で、ついには御利益と禍いとが交互にくるというような事になり、永遠の栄は得られないのである。<br/><br/>以上説くところによって、信仰の場合一時的御利益に眩惑する事なく、その識別に誤りなきよう苦言を呈するのである。<br/><br/> (注) 碩学、大学者。<br/><br/> 朱子（1130-1200）、中国南宋の儒学者、朱熹の尊称。<br/><br/>儒学に朱子学という新体系を打ち立て、中国のみならず、東アジアにわたり影響を及ぼした思想家。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

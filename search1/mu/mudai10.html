@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mudai10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 『栄光』245号、昭和29(1954)年1月27日発行 去る十月二十日ＮＨＫの昼間放送「ひるのいこい」の中に、左のごとき話があったが、面白いと思いここに載せたのである。<br><br>その中で反対の結果に対し、農家の人達は、これはどうも解せぬといって、枯れた稲穂を前に、首をかしげて考え込んだというのであるが、これこそ全く肥料迷信の目で見たためである事がよく分る。<br><br> 今日の「ＲＦＤ便り」はまず水戸放送局の館野ＲＦＤ通信員から届いたものをお伝えしましょう。<br><br> 茨城県の「穀倉地帯」といわれる新利根川の流域も、今年は冷害やイモチ病のために大変な被害を受けました。<br><br>特に米を反当り十俵も穫ってやろうと硫安や緑肥をウンと注込んだ田圃では、稲が倒れたりイモチのために穂が真っ黒になったりして、見るも無慚（むざん）な姿になってしまいました。<br><br>それにこの地方では今年は螟虫（めいちゅう）退治のために「パラチオン剤」をしこたま撒いたため、薬が効きすぎて田圃のエビガニや鰌（どじょう）までが死んでしまい、こんどはそれがまた肥やしになって反ってイモチ病を激しくするというまことに皮肉な事になってしまいました。<br><br>ところがその反面手許（てもと）不如意（ふにょい）のために思う丈（だけ）の肥料をやれなかったり、また手不足のために碌々（ろくろく）草もとらなかったような田圃が、反ってよく出来たりしたので、農家の人達も「これはどうも解せぬ」といった面持で、枯れた稲穂を前に首をかしげて考え込んでおります。<br><br> (注) 螟虫（めいちゅう） ニカメイガの幼虫。<br><br>イネの葉鞘(ようしよう)や茎の内部を食う害虫。<br><br>トウモロコシ・キビなどにもつく。<br><br>ニカメイチュウ。<br><br>いねのずいむし。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superstição dos Fertilizantes</h2>
 <p>No último dia 20 de outubro, a emissora NHK, em seu programa diurno "Hiru no Ikoi", transmitiu um relato que, por seu grande interesse, decidi reproduzir aqui. A narrativa descreve a perplexidade dos agricultores que, diante de um resultado completamente inverso ao esperado, quedaram-se a meditar, meneando a cabeça em sinal de incompreensão diante de suas espigas ressequidas. Ora, tal atitude revela com clareza que observavam o fenômeno sob o prisma da superstição dos fertilizantes.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Ademais, para combater a broca-do-arroz, empregou-se em larga escala o inseticida Parathion. O veneno, contudo, revelou-se potente em demasia, exterminando não apenas a praga, mas também os camarões, caranguejos e peixes que habitavam os arrozais. O desdobramento foi uma ironia lastimável: a decomposição desses animais transformou-se em adubo orgânico adicional, o que, paradoxalmente, intensificou ainda mais a proliferação da brusone.</p>
 <p>Em contrapartida, observou-se um fenômeno surpreendente: as lavouras que, por dificuldades financeiras, não receberam a adubação desejada, ou aquelas que, por falta de mão de obra, sequer foram devidamente capinadas, produziram uma colheita farta. Diante desse quadro, os agricultores, atônitos, contemplam suas espigas ressequidas e, com uma expressão de quem diz "Isto é verdadeiramente incompreensível", mergulham em profunda reflexão.</p>
 <p>(Obs.) Broca-do-arroz: Larva da mariposa <em>Chilo suppressalis</em>. É uma praga que se alimenta do interior do colmo e das folhas do arroz, atacando também plantações de milho e sorgo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 『栄光』245号、昭和29(1954)年1月27日発行 去る十月二十日ＮＨＫの昼間放送「ひるのいこい」の中に、左のごとき話があったが、面白いと思いここに載せたのである。<br/><br/>その中で反対の結果に対し、農家の人達は、これはどうも解せぬといって、枯れた稲穂を前に、首をかしげて考え込んだというのであるが、これこそ全く肥料迷信の目で見たためである事がよく分る。<br/><br/> 今日の「ＲＦＤ便り」はまず水戸放送局の館野ＲＦＤ通信員から届いたものをお伝えしましょう。<br/><br/> 茨城県の「穀倉地帯」といわれる新利根川の流域も、今年は冷害やイモチ病のために大変な被害を受けました。<br/><br/>特に米を反当り十俵も穫ってやろうと硫安や緑肥をウンと注込んだ田圃では、稲が倒れたりイモチのために穂が真っ黒になったりして、見るも無慚（むざん）な姿になってしまいました。<br/><br/>それにこの地方では今年は螟虫（めいちゅう）退治のために「パラチオン剤」をしこたま撒いたため、薬が効きすぎて田圃のエビガニや鰌（どじょう）までが死んでしまい、こんどはそれがまた肥やしになって反ってイモチ病を激しくするというまことに皮肉な事になってしまいました。<br/><br/>ところがその反面手許（てもと）不如意（ふにょい）のために思う丈（だけ）の肥料をやれなかったり、また手不足のために碌々（ろくろく）草もとらなかったような田圃が、反ってよく出来たりしたので、農家の人達も「これはどうも解せぬ」といった面持で、枯れた稲穂を前に首をかしげて考え込んでおります。<br/><br/> (注) 螟虫（めいちゅう） ニカメイガの幼虫。<br/><br/>イネの葉鞘(ようしよう)や茎の内部を食う害虫。<br/><br/>トウモロコシ・キビなどにもつく。<br/><br/>ニカメイチュウ。<br/><br/>いねのずいむし。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

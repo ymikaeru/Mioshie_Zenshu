@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qzettai2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 絶対不治の全身小児麻痺 短時日に癒えゆこの奇蹟 『アメリカを救う』昭和28(1953)年1月1日発行 大分県 如意輪中教会 江畠不二子（35） 二、三日前から恭子がひどい風邪を引き、早速医師に診て戴くと百日咳との事です。<br><br>「子供が小さいから余程注意なさい」と言って下さり、毎日注射してもらい、薬も服用させました。<br><br>割合に早く治りましたが、今度は時々高熱を出してはそのためひどい痙攣を起し、びっくりして医者を呼び、注射や下剤や浣腸等種々手当をしました。<br><br> 恭子も病気をするまでは丸々と太り、順調に進んでいましたのにちょっとした事から取り返しのつかぬ身体になりましたのです。<br><br>度々痙攣が起るのですっかり体力も落ちていつも顔色は青白く、見るからに病身に見えるのです。<br><br>それでも案外に足が早く立ち、誕生一カ年後には二、三歩歩くようになり、口も利けるようになっていました。<br><br>五歩十歩と歩きます後姿を見ていると、右足を少し引ずって歩くようでありましたが、別に気にも止めませんでした。<br><br>一カ月程しても矢張り同じ歩き方です。<br><br>年寄りもなく子供を育てる事もはじめてですし、他所様の子供の歩き振りとは違うのにあわてて地方の医者に診て頂きましたら「カルシウム分が不足です」とか、又「その内良くなりますよ」と言って下さるので気にかかるままに家事に追われていました。<br><br> 三歳になりましたが前にも増して足取りが悪く、頭も少し振って歩くようになりましたので、直ぐに別府温研で診察して戴きましたら「貴女方が血族結婚だからいけないのです。<br><br>諦めるより外にいたしかたがないでしょう」と言われて全く生きる希望を失い、それでも勇気を振い翌日は亀川国立病院へ行き、小児科でレントゲンを撮り脊柱注射、温泉療法、マッサージをすれば良くなりますとの診察でした。<br><br>早速通い始めましたが、脊柱に注射すれば熱を出し、その度にひどい痙攣を起していました。<br><br>約八カ月程通いましたがやめる時は全く歩けなくなりました。<br><br>智能もなくなり、元気で歩いていた面影は少しもなく、主人の所持品、私の衣類をすっかり金にして医者に通ったのですが、最後には全く人目にもかけられない不具者となりました。<br><br>諦めようとしても諦め切れず、何とかして治そうと努めましたが、その後はよく泣き、ちょっとした事にも熱を出し痙攣を起して全く腫れ物に触る思いでした。<br><br>「医者をやめて丸三年、もうどうなってもいい、お前はそんな身体で生きていなくてもいいから死ね、父ちゃんの所へ行け」と腹立ちまぎれに言った事も度々でした。<br><br>何かにつけて腹立たしく恨めしい日々を送るうち二十六年一月一日より恭子も朝から夜寝るまで泣き続けましたが、機嫌も良くなりました時は以前にも増してみにくい身体になりました。<br><br>これが御先祖のお知らせと言うのでしょうか、十一日裏の叔母さんが来て「今家に手を翳して病気をなおす人が来ているから、貴女も恭子ちゃんを連れておいで」と言って下さいました。<br><br>又かと思いましたが恭子を連れて行って見ますと、何と十八、九の青年の方で桜井先生と言われ、「十二月に御奉仕から帰って来ましたのですよ」と言って恭子の顔に手をかざしながら、種々と御先祖のお話をして下さいまして、約四十分位で終りますと、お茶菓子に出されたリンゴを恭子が平気で手に取って口へ持って行くのです。<br><br>今までこんな事は一度もないのに全く奇蹟です。<br><br>ただ一度の御浄霊でこんな不思議があるものかと驚いて仕舞いました。<br><br>翌日羽屋にお参りさせて頂き、富田先生よりお道のお話をして頂き「死んだ人も生前の罪穢によって死後もその苦しみを霊界においてつぐなうのですよ」とのお話に、今ここに目の辺りに見て、何かしら涙が込み上げて来ると共に驚き入るのでした。<br><br>それから毎日お参詣しては御浄霊をして頂く内に、恭子も御浄化を頂き始めたのです。<br><br>先生から「矢張り入れた物は出さねばなりません。<br><br>そしてきれいになるのですよ」と言われ、お参りしていました。<br><br>一週間目に三重の辻浦先生にお目に掛り、お道のお話を聞かせていただき、私の胸に何かしらハッと応えるものがありました。<br><br>一日もはやくお守様を戴きたくなりまして早速お願いして一月二十九日、三重支部にて辻浦先生より拝受致しました。<br><br>その時の喜びは何とも言えず、言いしれぬ涙が込み上げて来るのでした。<br><br>余り外出の好きな方でなかった私が、お道に入ってより時々お参りするのが何よりの楽しみとなりました。<br><br> 村の大石様から「喘息だから御浄霊をして下さい」と言われて、何も分らぬままに光明如来様に御守護お願いし一生懸命に手をかざさせて戴きました。<br><br>中学校に行く子供さんも通学が出来ず、お母さんもおふとんを巻いてじっとより掛って夜を明かす事六十日間という、その苦しみも一度の御浄霊で楽にさせて頂いたと喜んで頂きました時は、思わずその嬉しさ有難さに、「御明主様有難う御座いました」と御礼申し上げるのでした。<br><br> 恭子は次から次と御浄化を頂き元気にならせて頂いています内、七月初めに主人の母が腎臓の御浄化で倒れ、医者も見放した重態でした。<br><br>早速お願いしながら手をかざしますと、玉のような汗を出して意識を取戻しました。<br><br>夜は大鶴先生に来て頂き、共に御浄霊をさせて戴きました。<br><br>約一週間で起き上れるようになりました。<br><br>家人達は「効いたのは医者か御浄霊か分らない」等と勿体ない事を申しましたが、早速帰一中教会に御礼のお参りをさせて戴きました。<br><br>お話を聞いています内に、私には大きな御使命があることを分らせて頂き、家の人達に一日も早くこの有難いお道を分らせて戴ける日をただ一つの楽しみに念願しています。<br><br>又昨年九月には、酷いルース台風に見舞われ、大分川沿岸に面した私の家も見る間にどろ海となりました。<br><br>一心に明主様、光明如来様に御守護をお願いしています内、水も引き水となりましたが、そのため田畑三反歩は全く砂河原となりました。<br><br>私はこの惨状を見せつけられ、ああこれで久下家の大きな曇りを取って戴いたのだ、これによって浄まらせて戴くのだと思いつきました時は、有難さに涙が一杯でした。<br><br> 「井戸水を消毒せよ」と役場の方からカルキが配布されましたが、家では私が井戸の中に向い善言讃詞を二回奏げて十分ばかり御浄霊を致し、その後四、五日続いて浄霊しました。<br><br>僅か一日貰い水をしただけで後はずっと家の水を使えるように澄ませて戴きましたが、家の人達はこのお道に反対ですのでいかなる御守護を頂いても奇蹟と思いませんでした。<br><br>こうして数多くの御守護を戴いて来ました私にも、この台風が温い春の訪れとなりました。<br><br>いつまでもお世話になっている事も心苦しく、どこか御奉仕に上り、思い切って御用をさせて頂きたいと常々思っていました。<br><br>十二月初めに上の出張所へお参り致しました。<br><br>いつにも変らぬ優しい奥様にお浄めをして頂きながら「ただ今三重支部にも女の御奉仕が必要ですが、江畠さんが行かれるとほんとに良いのですが」と聞きまして急に心が動き、子供を連れて充分の御用が出来るかどうかわかりませんが富田先生にお取次をして頂きまして、十四日例祭の前日三重支部に御奉仕に上る身の光栄に浴し、慈母にまさる支部長先生又安部先生の特別御指導を戴いております。<br><br> 急にお光の強いため、恭子も私も御浄化を戴き始めました。<br><br>御奉仕に上る二日前、恭子がひどいやけどを右手にしたのです。<br><br>きっと御先祖がついて来たかったのでしょう。<br><br>直ぐ御霊紙を張りまして毎日御浄霊をして頂く内に化膿して二十日間ばかり膿が出ました。<br><br>一月には恭子もお守様を戴きましたが、ぬれ紙をはぐごとく元気になって行きます。<br><br>真冬の事とて火鉢にかじり付いておれば中々起きる事も出来ません。<br><br>言葉も何を言っているのか親の私でなければ聞き分けきれない状態でしたが、毎日御浄化を頂き、あれ程死人のごとく硬直していた身体がだんだんとやわらかくなりました。<br><br>いつもこたつを入れて御神殿に寝ていました恭子が、僅か五カ月余りでもうちょっとの事で独り立ちが出来るようになりました。<br><br> 口も早くなりましてどんな事でも言えるようになりました。<br><br>以前は睡眠時間もほんの少しでありましたのがただ今では十時間位の睡眠をとるようになり、食事もうんと戴くようになり、その間子供ではありますがよくよだれなど出しいつも下から下り物が出ています。<br><br>御奉仕に上りまして五カ月、変り行く恭子を見ますと、嬉しさ有難さに一生懸命に御用させて頂き、白紙となって手をかざさせて頂いています私にしましては、全く大きな収穫です。<br><br>過去七年間苦しんで来たいばらの道を、僅か一年有余で解決させて戴きまして、毎日の御守護に感謝の明け暮れでございます。<br><br> 世の悩めるお母様方、救世教は邪教ではありません。<br><br>迷信邪教に迷える人々を救う真の救済宗教であります。<br><br>私の拙い文では充分書き表わせないのが残念ですが、皆様方の幾分の参考ともなればと思いまして、筆をとった次第です。<br><br> ただありがたさに大慈大悲の明主様に御礼申し上げます。<br><br> 御明主様有難うございました。<br><br> （昭和二十七年六月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O milagre da cura de uma paralisia infantil generalizada e considerada incurável, ocorrida em curto espaço de tempo</h2>
 <p><strong>Publicado na coletânea “Salvar a América”, em 1º de janeiro de 1953</strong>
@@ -108,5 +263,48 @@ Igreja Nyoirin, Oita</p>
 <p>Com imensa gratidão, agradeço ao Grande e Misericordioso Meishu-Sama.</p>
 <p>Meishu-Sama, muito obrigada.</p>
 <p>(1º de junho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 絶対不治の全身小児麻痺 短時日に癒えゆこの奇蹟 『アメリカを救う』昭和28(1953)年1月1日発行 大分県 如意輪中教会 江畠不二子（35） 二、三日前から恭子がひどい風邪を引き、早速医師に診て戴くと百日咳との事です。<br/><br/>「子供が小さいから余程注意なさい」と言って下さり、毎日注射してもらい、薬も服用させました。<br/><br/>割合に早く治りましたが、今度は時々高熱を出してはそのためひどい痙攣を起し、びっくりして医者を呼び、注射や下剤や浣腸等種々手当をしました。<br/><br/> 恭子も病気をするまでは丸々と太り、順調に進んでいましたのにちょっとした事から取り返しのつかぬ身体になりましたのです。<br/><br/>度々痙攣が起るのですっかり体力も落ちていつも顔色は青白く、見るからに病身に見えるのです。<br/><br/>それでも案外に足が早く立ち、誕生一カ年後には二、三歩歩くようになり、口も利けるようになっていました。<br/><br/>五歩十歩と歩きます後姿を見ていると、右足を少し引ずって歩くようでありましたが、別に気にも止めませんでした。<br/><br/>一カ月程しても矢張り同じ歩き方です。<br/><br/>年寄りもなく子供を育てる事もはじめてですし、他所様の子供の歩き振りとは違うのにあわてて地方の医者に診て頂きましたら「カルシウム分が不足です」とか、又「その内良くなりますよ」と言って下さるので気にかかるままに家事に追われていました。<br/><br/> 三歳になりましたが前にも増して足取りが悪く、頭も少し振って歩くようになりましたので、直ぐに別府温研で診察して戴きましたら「貴女方が血族結婚だからいけないのです。<br/><br/>諦めるより外にいたしかたがないでしょう」と言われて全く生きる希望を失い、それでも勇気を振い翌日は亀川国立病院へ行き、小児科でレントゲンを撮り脊柱注射、温泉療法、マッサージをすれば良くなりますとの診察でした。<br/><br/>早速通い始めましたが、脊柱に注射すれば熱を出し、その度にひどい痙攣を起していました。<br/><br/>約八カ月程通いましたがやめる時は全く歩けなくなりました。<br/><br/>智能もなくなり、元気で歩いていた面影は少しもなく、主人の所持品、私の衣類をすっかり金にして医者に通ったのですが、最後には全く人目にもかけられない不具者となりました。<br/><br/>諦めようとしても諦め切れず、何とかして治そうと努めましたが、その後はよく泣き、ちょっとした事にも熱を出し痙攣を起して全く腫れ物に触る思いでした。<br/><br/>「医者をやめて丸三年、もうどうなってもいい、お前はそんな身体で生きていなくてもいいから死ね、父ちゃんの所へ行け」と腹立ちまぎれに言った事も度々でした。<br/><br/>何かにつけて腹立たしく恨めしい日々を送るうち二十六年一月一日より恭子も朝から夜寝るまで泣き続けましたが、機嫌も良くなりました時は以前にも増してみにくい身体になりました。<br/><br/>これが御先祖のお知らせと言うのでしょうか、十一日裏の叔母さんが来て「今家に手を翳して病気をなおす人が来ているから、貴女も恭子ちゃんを連れておいで」と言って下さいました。<br/><br/>又かと思いましたが恭子を連れて行って見ますと、何と十八、九の青年の方で桜井先生と言われ、「十二月に御奉仕から帰って来ましたのですよ」と言って恭子の顔に手をかざしながら、種々と御先祖のお話をして下さいまして、約四十分位で終りますと、お茶菓子に出されたリンゴを恭子が平気で手に取って口へ持って行くのです。<br/><br/>今までこんな事は一度もないのに全く奇蹟です。<br/><br/>ただ一度の御浄霊でこんな不思議があるものかと驚いて仕舞いました。<br/><br/>翌日羽屋にお参りさせて頂き、富田先生よりお道のお話をして頂き「死んだ人も生前の罪穢によって死後もその苦しみを霊界においてつぐなうのですよ」とのお話に、今ここに目の辺りに見て、何かしら涙が込み上げて来ると共に驚き入るのでした。<br/><br/>それから毎日お参詣しては御浄霊をして頂く内に、恭子も御浄化を頂き始めたのです。<br/><br/>先生から「矢張り入れた物は出さねばなりません。<br/><br/>そしてきれいになるのですよ」と言われ、お参りしていました。<br/><br/>一週間目に三重の辻浦先生にお目に掛り、お道のお話を聞かせていただき、私の胸に何かしらハッと応えるものがありました。<br/><br/>一日もはやくお守様を戴きたくなりまして早速お願いして一月二十九日、三重支部にて辻浦先生より拝受致しました。<br/><br/>その時の喜びは何とも言えず、言いしれぬ涙が込み上げて来るのでした。<br/><br/>余り外出の好きな方でなかった私が、お道に入ってより時々お参りするのが何よりの楽しみとなりました。<br/><br/> 村の大石様から「喘息だから御浄霊をして下さい」と言われて、何も分らぬままに光明如来様に御守護お願いし一生懸命に手をかざさせて戴きました。<br/><br/>中学校に行く子供さんも通学が出来ず、お母さんもおふとんを巻いてじっとより掛って夜を明かす事六十日間という、その苦しみも一度の御浄霊で楽にさせて頂いたと喜んで頂きました時は、思わずその嬉しさ有難さに、「御明主様有難う御座いました」と御礼申し上げるのでした。<br/><br/> 恭子は次から次と御浄化を頂き元気にならせて頂いています内、七月初めに主人の母が腎臓の御浄化で倒れ、医者も見放した重態でした。<br/><br/>早速お願いしながら手をかざしますと、玉のような汗を出して意識を取戻しました。<br/><br/>夜は大鶴先生に来て頂き、共に御浄霊をさせて戴きました。<br/><br/>約一週間で起き上れるようになりました。<br/><br/>家人達は「効いたのは医者か御浄霊か分らない」等と勿体ない事を申しましたが、早速帰一中教会に御礼のお参りをさせて戴きました。<br/><br/>お話を聞いています内に、私には大きな御使命があることを分らせて頂き、家の人達に一日も早くこの有難いお道を分らせて戴ける日をただ一つの楽しみに念願しています。<br/><br/>又昨年九月には、酷いルース台風に見舞われ、大分川沿岸に面した私の家も見る間にどろ海となりました。<br/><br/>一心に明主様、光明如来様に御守護をお願いしています内、水も引き水となりましたが、そのため田畑三反歩は全く砂河原となりました。<br/><br/>私はこの惨状を見せつけられ、ああこれで久下家の大きな曇りを取って戴いたのだ、これによって浄まらせて戴くのだと思いつきました時は、有難さに涙が一杯でした。<br/><br/> 「井戸水を消毒せよ」と役場の方からカルキが配布されましたが、家では私が井戸の中に向い善言讃詞を二回奏げて十分ばかり御浄霊を致し、その後四、五日続いて浄霊しました。<br/><br/>僅か一日貰い水をしただけで後はずっと家の水を使えるように澄ませて戴きましたが、家の人達はこのお道に反対ですのでいかなる御守護を頂いても奇蹟と思いませんでした。<br/><br/>こうして数多くの御守護を戴いて来ました私にも、この台風が温い春の訪れとなりました。<br/><br/>いつまでもお世話になっている事も心苦しく、どこか御奉仕に上り、思い切って御用をさせて頂きたいと常々思っていました。<br/><br/>十二月初めに上の出張所へお参り致しました。<br/><br/>いつにも変らぬ優しい奥様にお浄めをして頂きながら「ただ今三重支部にも女の御奉仕が必要ですが、江畠さんが行かれるとほんとに良いのですが」と聞きまして急に心が動き、子供を連れて充分の御用が出来るかどうかわかりませんが富田先生にお取次をして頂きまして、十四日例祭の前日三重支部に御奉仕に上る身の光栄に浴し、慈母にまさる支部長先生又安部先生の特別御指導を戴いております。<br/><br/> 急にお光の強いため、恭子も私も御浄化を戴き始めました。<br/><br/>御奉仕に上る二日前、恭子がひどいやけどを右手にしたのです。<br/><br/>きっと御先祖がついて来たかったのでしょう。<br/><br/>直ぐ御霊紙を張りまして毎日御浄霊をして頂く内に化膿して二十日間ばかり膿が出ました。<br/><br/>一月には恭子もお守様を戴きましたが、ぬれ紙をはぐごとく元気になって行きます。<br/><br/>真冬の事とて火鉢にかじり付いておれば中々起きる事も出来ません。<br/><br/>言葉も何を言っているのか親の私でなければ聞き分けきれない状態でしたが、毎日御浄化を頂き、あれ程死人のごとく硬直していた身体がだんだんとやわらかくなりました。<br/><br/>いつもこたつを入れて御神殿に寝ていました恭子が、僅か五カ月余りでもうちょっとの事で独り立ちが出来るようになりました。<br/><br/> 口も早くなりましてどんな事でも言えるようになりました。<br/><br/>以前は睡眠時間もほんの少しでありましたのがただ今では十時間位の睡眠をとるようになり、食事もうんと戴くようになり、その間子供ではありますがよくよだれなど出しいつも下から下り物が出ています。<br/><br/>御奉仕に上りまして五カ月、変り行く恭子を見ますと、嬉しさ有難さに一生懸命に御用させて頂き、白紙となって手をかざさせて頂いています私にしましては、全く大きな収穫です。<br/><br/>過去七年間苦しんで来たいばらの道を、僅か一年有余で解決させて戴きまして、毎日の御守護に感謝の明け暮れでございます。<br/><br/> 世の悩めるお母様方、救世教は邪教ではありません。<br/><br/>迷信邪教に迷える人々を救う真の救済宗教であります。<br/><br/>私の拙い文では充分書き表わせないのが残念ですが、皆様方の幾分の参考ともなればと思いまして、筆をとった次第です。<br/><br/> ただありがたさに大慈大悲の明主様に御礼申し上げます。<br/><br/> 御明主様有難うございました。<br/><br/> （昭和二十七年六月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

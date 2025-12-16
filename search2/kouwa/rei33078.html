@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei33078</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（三） ６ 078-088 憑霊による怪異 078 浄霊と動物霊（一夜に狂気した患者） 一晩で気の狂った患者、「俺は焼け死んだ牛だ」とか「焼け死んだ犬だ」と申します。<br><br>近くで三ケ月前焼け死んだ牛と犬がいるそうです。<br><br> イ、この二匹の霊がかかったものでございますか。<br><br>潜在意識でございましょうか。<br><br> ロ、浄霊だけで病の治まらぬ時はどうすればよろしゅうございましょうか。<br><br> 右、御教示御願い申し上げます。<br><br> 犬と牛と両方くっついている。<br><br>浄霊すれば楽になるから、人間に生れ更る。<br><br>苦痛がなくなれば離れる。<br><br> 人間が牛や犬になったりしているのだから急には治らぬ。<br><br>浄霊すれば、うまくゆけば人間に生れるが、普通は牛、犬に生れる。<br><br>（S23.10.18） rattail（注） 〔 御光話（S23年10月18日） 『御光話録（補）』発行年月日不明、推定昭和26年〕掲載 079 狐蛇憑依の病苦 菊地一家では家内一同御教修を戴き、光明如来様もお祭りしてありますが、肝腎の主人が日蓮宗の熱心な信者で、時々御浄霊を戴きましたが、日蓮宗の方からやかましく言われて折角のお光も掛けないでおりました。<br><br>十二月末より御浄化を戴き、御浄霊を致しております。<br><br>病状は初めは風邪の状態で、左上腹部に固いしこりがあり、左腎臓部が痛み、腹部がはっておりました。<br><br>逐次熱が上り、三十日頃から四十度近くになり、食事はおかゆ一回に半膳、その他副食物程度、胸部に激痛ありて呼吸苦しく、血痰が六ツばかり出ました。<br><br>四日より咳も止まり、御浄霊すると痛みが上下へ走り苦しんでおります。<br><br>二、三日前に神の順序の話を致し、絶対なる観音様を日蓮宗より下にみるならその方にまかせるようにと強く申しました。<br><br>観音様にすがるならお光を掛けて光明様の部屋に休み、心よりお縋りするように言いました。<br><br>それ以来幾度も霊が左の腰から胸、脛部を荒びて胸が苦しく、呼吸困難になり、御浄霊をするとおさまります。<br><br>その日の夕方より本人が大変悔いて、お光を捨てた事を白状し、大先生にお詫び申し上げ、再教修を戴きました。<br><br>今朝より辻褄の合わぬ事を言うようになり、御浄霊を致しましたら物凄い勢いで苦しみながら合掌して涙を流して口を切り「頼る所が無くて憑いておりました。<br><br>申し訳御座居ません。<br><br>祭って下さい」と言ってあやまり、祝詞を上げてしずまりました。<br><br>その後は余り痛みは無いようです。<br><br>呼吸も少し楽になりました。<br><br>頭はまだはっきりしません。<br><br>熱は三十九度程度、脈は九十二、三であります。<br><br>本日御守護御願いに参りました。<br><br>霊の祭り方、日蓮様の処置その他御指導、御願い申し上げます。<br><br> 未だすぐに処置しない方がよい。<br><br>なるべく一、二年はそのままにしておく。<br><br>狐と蛇と二つ憑いてる。<br><br>そのまま光明如来様をお祭りして御願いし、絶えず浄霊すると穏やかに解決がつく。<br><br>（S24. 1. 6） 080 家畜に憑く霊 家畜、家禽に狐、狸その他動物霊の憑依することがありましょうか。<br><br> 憑依する事がある。<br><br>また、人間の霊が憑く事もある。<br><br>また鳥に狐が憑いたり、犬に人霊が憑いたりする。<br><br>無縁の霊などよく動物に憑いて食欲を満たし、そのうち動物に溶け込んで一つのものになるものである。<br><br> 081 右回りする牛（盲目） 牝牛の当歳子で生れつき盲目牛がおります。<br><br>その牛は、綱がついていない時は休む暇なく右回りに回ります。<br><br>これは何か霊的に意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 牛に霊が憑っている。<br><br>蛇の霊か何かである。<br><br>牛か牛の親が蛇か何か食った怨みであろう。<br><br>蛇の霊は回るものである。<br><br>（S24. 9.11） 082 指硬直・早走・震え・全身痛 私の母で御座いますが、本年五十六歳になり、農業で御座いまして、五月二十五日受教致しました。<br><br>（御屏風観音様はお祭りさせて頂いておりますが、光明如来様はまだで御座います）十三年前より発病致し、症状は全身痛みを覚え、体が震え、手足の指が延びずに硬直したようになります。<br><br>歩行は普通人よりも早く殆ど走るように歩きます。<br><br>暑がりで、冬でも単衣を着ております。<br><br>五ケ月前より浄霊致しておりますが、痛みは少なくなりましたが震えは変化御座いません。<br><br>昼間浄霊の際、祝詞をあげますと震えがひどくなります。<br><br>夜間横になりますと震えが止まります。<br><br>本人は霊媒によって一度霊査して頂きましたが、生霊、死霊、龍神等が出ていずれとも、また詳細の事も判明致しませんでした。<br><br>いかなる霊で御座いましょうか。<br><br>またいかにすれば治癒致すで御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 変った霊である。<br><br>手足硬直したり、早いなどとすれば、鳥の霊であろう。<br><br>（S24. 7.12） 083 烏霊憑依祀るべきや 烏の霊が憑依している人が御座いますが、烏の霊をお祀り致した方がよろしゅう御座いましょうか。<br><br>また、その場合、いかようにお祀り致しましたらよろしゅう御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> （私は烏の霊が憑いている）光明如来様をお祭りすれば烏は成仏する。<br><br>お祭りしてあればそのままにしておいてよい。<br><br> 信仰雑話、御讃歌をよく読ませる。<br><br>（S24. 2.21） rattail（注） 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年<b>月</b>日発行〕 『烏は霊性が高いんです、霊感が非常にある鳥でね、昔から天照皇大神のお使いだなどと言いますが、烏は太陽に関係があるんです。<br><br>烏は霊界に行くと烏天狗になり、鳥の中でも一番高くて神様のことをすべてやるんです。<br><br>私の副守護神は烏ですよ。<br><br>』 084 蟇の憑依 井上陽子（五歳）、生後六ケ月より発病のように思われますが、一向に発達致しません。<br><br>言語不能、時々蟇（がま）のような声を出します。<br><br>咀嚼不能、食物は全部噛んで口移しです。<br><br>夜は不眠で、昼間抱いて寝かせ、歩行は座敷内でのみよく歩きます。<br><br>靴をはかせたら絶対に歩きません。<br><br>目を開けている時は上等な物（寿司、饅頭等）のみ食べたがり、水は匙で口移しです。<br><br>また絶えず右手で左掌をかいています。<br><br>歯ぎしりも致します。<br><br>一家の状態は父親、母親の両祖父は脳溢血で死亡しております。<br><br>その家には長さ一間半位の青大将がおり、また巨大な蟇が二匹います。<br><br>主人はただ今妾と同居してその家にはおりません。<br><br> 呑む動物――蟇のごときものの霊であるから、言語不能である。<br><br>生後六ケ月位の時憑ったもので、普通の蛙とちがい、蟇は祀らぬと人間に憑る。<br><br>これはなかなか簡単には追い出せぬ。<br><br>入信して浄霊してやる事と、いつでも入れるようにして祀ってやる事だ。<br><br>二匹の蟇はその子であろう。<br><br> 085 蟇の霊 私の宅では両親が最近約一年を経過して引続き死亡致しました。<br><br>ところが私の家庭の事は全然知らない奈良の人が、教導所で先生から御浄霊を戴いておりますと突然霊憑りとなり、蟇の格好を致し、私の名を呼んで「自分はお前の家の庭にある瀬戸物の蟇の霊である。<br><br>三十年来お前の家の者に悪業をさせて来た。<br><br>両親が引続き死んだのも自分が引き込んだのである。<br><br>自分を泉水の中に投入れてくれれば祟りをやめる」と申します。<br><br>成程、大阪新町の店（戦災で焼失）の庭に古くから十数年前までは大きな蟇があったそうで、それを天王寺の本宅の方へ移しましたか、あるいは焼失しましたか、現在は御座いません。<br><br>霊は探せばあると申しましたが、いくら探しても見当りません。<br><br>その奈良の人も教導所に参りません。<br><br> 気にかかっておりますが、これはどう致しましたら宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> 普通の蟇の死んだ霊で、瀬戸物の蟇に憑依したものである。<br><br>瀬戸物の蟇を泉水に入れるというのは、贖罪的意味である。<br><br>どこかあるにはあろう。<br><br>無理に探さなくとも、判る時（が来れば）判るから、心配しなくともよい。<br><br>（S24.10.11） 086 蛙霊憑依 四十四歳の女信徒、昨年十一月胃痛にて御浄霊を頂き、十二月光明如来様御奉斎、同時に屏風観音様をお祀りさせて頂きました。<br><br>二月一日より御浄化を戴き、苦痛はありませんが胸部及び腹部一面に空気が充満したように膨満し常に「ガラガラ」と鳴っており、食欲が減退して来ますが、三日ないし四日目毎に水便がありますと膨満がとれて来ます。<br><br>右の状態が一ケ月以上続いております。<br><br>右信徒の職業は葬儀屋であり、初婚の主人は発狂したため離別（現在存命）、二回目の主人は脳溢血により死亡、三度目の主人は戦死致しております。<br><br>病気と霊的の関係が特に御座居ますでしょうか。<br><br>右、御伺い申し上げます。<br><br> 蛙の霊である。<br><br>（狐） 087 鼠蹊部に動くもの 四十三歳の大工職です。<br><br>二年程前より胃が悪く、時々水のようなものを吐きますので、あちこちの病院を転々と歩き廻りましたが、効果なく困っていました。<br><br>十月始め観音様の御救いの有難きことをお話しましたが、初めは随分頑固で、御浄霊を嫌いましたが、その中御浄霊を受ける気になり、私方に参りました。<br><br>首や肩は軟かく、また胃が悪いようにも感じられませんが、右鼠蹊部に何か感じ、一心に御浄霊致しておりますと、左へ右へとそれが動くように感じられます。<br><br>本人は未だ入信しておりませんが、初め嫌った御浄霊も非常に喜び、またとても楽になったと申しております。<br><br>何か霊的原因がありましょうか。<br><br>またその御浄霊法を御教え下さい。<br><br> 鼠蹊部などで動く霊は虫などのような小さい霊である。<br><br>少しも気にする必要はない。<br><br>背の裏の方を気長に浄霊する。<br><br>（S24.11. 6） 088 小児泣き母の耳痛む 六歳の女児、夜半突然猛烈に泣き出し、どこが痛いのか教えませんので、観音様に善言讃詞を二回お上げ致しましたところ、母親の右耳に猛烈に痛みを感じましたのでお教えを戴いたものと思い右耳に向かって浄霊を致しましたところ、すぐに痛みが止まりました。<br><br>間もなく眠りに入り、急に起上り「母さん耳から何かが落ちた」と言って枕を退けて不思議そうに探すこと二回、何もありませんでした。<br><br>何か落ちたのでしょうか。<br><br>お教え下さい。<br><br>翌朝は右鼻より黄色い膿が流れるように出てすっかり楽になり、ほんとうに有難く、喜んでおります。<br><br> 小さな霊が憑いていて抜けた。<br><br>耳から出たのである。<br><br>虫の霊が入って、突っついていたものである。<br><br>（S24. 2.17）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Manifestações Estranhas Causadas por Encosto Espiritual</h2>
 <h3>078 Johrei e os Espíritos de Animais (O Paciente que Enlouqueceu em Uma Noite)</h3>
@@ -130,5 +282,48 @@ B. Quando a enfermidade não cede apenas com o Johrei, como devemos proceder?</p
 <h3>088 Criança Chora e a Orelha da Mãe Dói</h3>
 <p>Uma menina de seis anos começou a chorar intensamente no meio da noite. Como ela não sabia dizer onde doía, entoei por duas vezes a Oração Amatsu-Norito a Kannon (観音). Nesse momento, a mãe sentiu uma dor lancinante na orelha direita. Entendendo isso como uma orientação, ministrei Johrei na orelha dela, e a dor cessou imediatamente. A criança logo adormeceu, mas, de repente, levantou-se e disse: "Mãe, algo caiu da sua orelha!", e por duas vezes afastou o travesseiro, procurando, com um ar de espanto. Não havia nada. Será que algo realmente caiu? Por favor, nos esclareça. Na manhã seguinte, uma secreção amarelada e purulenta escorreu de sua narina direita, trazendo-lhe completo alívio, pelo que estamos imensamente felizes e gratos.</p>
 <p>Um pequeno espírito que estava encostado foi expelido. Ele saiu pela orelha. Era o espírito de um inseto que estava alojado ali, causando irritação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（三） ６ 078-088 憑霊による怪異 078 浄霊と動物霊（一夜に狂気した患者） 一晩で気の狂った患者、「俺は焼け死んだ牛だ」とか「焼け死んだ犬だ」と申します。<br/><br/>近くで三ケ月前焼け死んだ牛と犬がいるそうです。<br/><br/> イ、この二匹の霊がかかったものでございますか。<br/><br/>潜在意識でございましょうか。<br/><br/> ロ、浄霊だけで病の治まらぬ時はどうすればよろしゅうございましょうか。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 犬と牛と両方くっついている。<br/><br/>浄霊すれば楽になるから、人間に生れ更る。<br/><br/>苦痛がなくなれば離れる。<br/><br/> 人間が牛や犬になったりしているのだから急には治らぬ。<br/><br/>浄霊すれば、うまくゆけば人間に生れるが、普通は牛、犬に生れる。<br/><br/>（S23.10.18） rattail（注） 〔 御光話（S23年10月18日） 『御光話録（補）』発行年月日不明、推定昭和26年〕掲載 079 狐蛇憑依の病苦 菊地一家では家内一同御教修を戴き、光明如来様もお祭りしてありますが、肝腎の主人が日蓮宗の熱心な信者で、時々御浄霊を戴きましたが、日蓮宗の方からやかましく言われて折角のお光も掛けないでおりました。<br/><br/>十二月末より御浄化を戴き、御浄霊を致しております。<br/><br/>病状は初めは風邪の状態で、左上腹部に固いしこりがあり、左腎臓部が痛み、腹部がはっておりました。<br/><br/>逐次熱が上り、三十日頃から四十度近くになり、食事はおかゆ一回に半膳、その他副食物程度、胸部に激痛ありて呼吸苦しく、血痰が六ツばかり出ました。<br/><br/>四日より咳も止まり、御浄霊すると痛みが上下へ走り苦しんでおります。<br/><br/>二、三日前に神の順序の話を致し、絶対なる観音様を日蓮宗より下にみるならその方にまかせるようにと強く申しました。<br/><br/>観音様にすがるならお光を掛けて光明様の部屋に休み、心よりお縋りするように言いました。<br/><br/>それ以来幾度も霊が左の腰から胸、脛部を荒びて胸が苦しく、呼吸困難になり、御浄霊をするとおさまります。<br/><br/>その日の夕方より本人が大変悔いて、お光を捨てた事を白状し、大先生にお詫び申し上げ、再教修を戴きました。<br/><br/>今朝より辻褄の合わぬ事を言うようになり、御浄霊を致しましたら物凄い勢いで苦しみながら合掌して涙を流して口を切り「頼る所が無くて憑いておりました。<br/><br/>申し訳御座居ません。<br/><br/>祭って下さい」と言ってあやまり、祝詞を上げてしずまりました。<br/><br/>その後は余り痛みは無いようです。<br/><br/>呼吸も少し楽になりました。<br/><br/>頭はまだはっきりしません。<br/><br/>熱は三十九度程度、脈は九十二、三であります。<br/><br/>本日御守護御願いに参りました。<br/><br/>霊の祭り方、日蓮様の処置その他御指導、御願い申し上げます。<br/><br/> 未だすぐに処置しない方がよい。<br/><br/>なるべく一、二年はそのままにしておく。<br/><br/>狐と蛇と二つ憑いてる。<br/><br/>そのまま光明如来様をお祭りして御願いし、絶えず浄霊すると穏やかに解決がつく。<br/><br/>（S24. 1. 6） 080 家畜に憑く霊 家畜、家禽に狐、狸その他動物霊の憑依することがありましょうか。<br/><br/> 憑依する事がある。<br/><br/>また、人間の霊が憑く事もある。<br/><br/>また鳥に狐が憑いたり、犬に人霊が憑いたりする。<br/><br/>無縁の霊などよく動物に憑いて食欲を満たし、そのうち動物に溶け込んで一つのものになるものである。<br/><br/> 081 右回りする牛（盲目） 牝牛の当歳子で生れつき盲目牛がおります。<br/><br/>その牛は、綱がついていない時は休む暇なく右回りに回ります。<br/><br/>これは何か霊的に意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 牛に霊が憑っている。<br/><br/>蛇の霊か何かである。<br/><br/>牛か牛の親が蛇か何か食った怨みであろう。<br/><br/>蛇の霊は回るものである。<br/><br/>（S24. 9.11） 082 指硬直・早走・震え・全身痛 私の母で御座いますが、本年五十六歳になり、農業で御座いまして、五月二十五日受教致しました。<br/><br/>（御屏風観音様はお祭りさせて頂いておりますが、光明如来様はまだで御座います）十三年前より発病致し、症状は全身痛みを覚え、体が震え、手足の指が延びずに硬直したようになります。<br/><br/>歩行は普通人よりも早く殆ど走るように歩きます。<br/><br/>暑がりで、冬でも単衣を着ております。<br/><br/>五ケ月前より浄霊致しておりますが、痛みは少なくなりましたが震えは変化御座いません。<br/><br/>昼間浄霊の際、祝詞をあげますと震えがひどくなります。<br/><br/>夜間横になりますと震えが止まります。<br/><br/>本人は霊媒によって一度霊査して頂きましたが、生霊、死霊、龍神等が出ていずれとも、また詳細の事も判明致しませんでした。<br/><br/>いかなる霊で御座いましょうか。<br/><br/>またいかにすれば治癒致すで御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 変った霊である。<br/><br/>手足硬直したり、早いなどとすれば、鳥の霊であろう。<br/><br/>（S24. 7.12） 083 烏霊憑依祀るべきや 烏の霊が憑依している人が御座いますが、烏の霊をお祀り致した方がよろしゅう御座いましょうか。<br/><br/>また、その場合、いかようにお祀り致しましたらよろしゅう御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> （私は烏の霊が憑いている）光明如来様をお祭りすれば烏は成仏する。<br/><br/>お祭りしてあればそのままにしておいてよい。<br/><br/> 信仰雑話、御讃歌をよく読ませる。<br/><br/>（S24. 2.21） rattail（注） 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年**月**日発行〕 『烏は霊性が高いんです、霊感が非常にある鳥でね、昔から天照皇大神のお使いだなどと言いますが、烏は太陽に関係があるんです。<br/><br/>烏は霊界に行くと烏天狗になり、鳥の中でも一番高くて神様のことをすべてやるんです。<br/><br/>私の副守護神は烏ですよ。<br/><br/>』 084 蟇の憑依 井上陽子（五歳）、生後六ケ月より発病のように思われますが、一向に発達致しません。<br/><br/>言語不能、時々蟇（がま）のような声を出します。<br/><br/>咀嚼不能、食物は全部噛んで口移しです。<br/><br/>夜は不眠で、昼間抱いて寝かせ、歩行は座敷内でのみよく歩きます。<br/><br/>靴をはかせたら絶対に歩きません。<br/><br/>目を開けている時は上等な物（寿司、饅頭等）のみ食べたがり、水は匙で口移しです。<br/><br/>また絶えず右手で左掌をかいています。<br/><br/>歯ぎしりも致します。<br/><br/>一家の状態は父親、母親の両祖父は脳溢血で死亡しております。<br/><br/>その家には長さ一間半位の青大将がおり、また巨大な蟇が二匹います。<br/><br/>主人はただ今妾と同居してその家にはおりません。<br/><br/> 呑む動物――蟇のごときものの霊であるから、言語不能である。<br/><br/>生後六ケ月位の時憑ったもので、普通の蛙とちがい、蟇は祀らぬと人間に憑る。<br/><br/>これはなかなか簡単には追い出せぬ。<br/><br/>入信して浄霊してやる事と、いつでも入れるようにして祀ってやる事だ。<br/><br/>二匹の蟇はその子であろう。<br/><br/> 085 蟇の霊 私の宅では両親が最近約一年を経過して引続き死亡致しました。<br/><br/>ところが私の家庭の事は全然知らない奈良の人が、教導所で先生から御浄霊を戴いておりますと突然霊憑りとなり、蟇の格好を致し、私の名を呼んで「自分はお前の家の庭にある瀬戸物の蟇の霊である。<br/><br/>三十年来お前の家の者に悪業をさせて来た。<br/><br/>両親が引続き死んだのも自分が引き込んだのである。<br/><br/>自分を泉水の中に投入れてくれれば祟りをやめる」と申します。<br/><br/>成程、大阪新町の店（戦災で焼失）の庭に古くから十数年前までは大きな蟇があったそうで、それを天王寺の本宅の方へ移しましたか、あるいは焼失しましたか、現在は御座いません。<br/><br/>霊は探せばあると申しましたが、いくら探しても見当りません。<br/><br/>その奈良の人も教導所に参りません。<br/><br/> 気にかかっておりますが、これはどう致しましたら宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 普通の蟇の死んだ霊で、瀬戸物の蟇に憑依したものである。<br/><br/>瀬戸物の蟇を泉水に入れるというのは、贖罪的意味である。<br/><br/>どこかあるにはあろう。<br/><br/>無理に探さなくとも、判る時（が来れば）判るから、心配しなくともよい。<br/><br/>（S24.10.11） 086 蛙霊憑依 四十四歳の女信徒、昨年十一月胃痛にて御浄霊を頂き、十二月光明如来様御奉斎、同時に屏風観音様をお祀りさせて頂きました。<br/><br/>二月一日より御浄化を戴き、苦痛はありませんが胸部及び腹部一面に空気が充満したように膨満し常に「ガラガラ」と鳴っており、食欲が減退して来ますが、三日ないし四日目毎に水便がありますと膨満がとれて来ます。<br/><br/>右の状態が一ケ月以上続いております。<br/><br/>右信徒の職業は葬儀屋であり、初婚の主人は発狂したため離別（現在存命）、二回目の主人は脳溢血により死亡、三度目の主人は戦死致しております。<br/><br/>病気と霊的の関係が特に御座居ますでしょうか。<br/><br/>右、御伺い申し上げます。<br/><br/> 蛙の霊である。<br/><br/>（狐） 087 鼠蹊部に動くもの 四十三歳の大工職です。<br/><br/>二年程前より胃が悪く、時々水のようなものを吐きますので、あちこちの病院を転々と歩き廻りましたが、効果なく困っていました。<br/><br/>十月始め観音様の御救いの有難きことをお話しましたが、初めは随分頑固で、御浄霊を嫌いましたが、その中御浄霊を受ける気になり、私方に参りました。<br/><br/>首や肩は軟かく、また胃が悪いようにも感じられませんが、右鼠蹊部に何か感じ、一心に御浄霊致しておりますと、左へ右へとそれが動くように感じられます。<br/><br/>本人は未だ入信しておりませんが、初め嫌った御浄霊も非常に喜び、またとても楽になったと申しております。<br/><br/>何か霊的原因がありましょうか。<br/><br/>またその御浄霊法を御教え下さい。<br/><br/> 鼠蹊部などで動く霊は虫などのような小さい霊である。<br/><br/>少しも気にする必要はない。<br/><br/>背の裏の方を気長に浄霊する。<br/><br/>（S24.11. 6） 088 小児泣き母の耳痛む 六歳の女児、夜半突然猛烈に泣き出し、どこが痛いのか教えませんので、観音様に善言讃詞を二回お上げ致しましたところ、母親の右耳に猛烈に痛みを感じましたのでお教えを戴いたものと思い右耳に向かって浄霊を致しましたところ、すぐに痛みが止まりました。<br/><br/>間もなく眠りに入り、急に起上り「母さん耳から何かが落ちた」と言って枕を退けて不思議そうに探すこと二回、何もありませんでした。<br/><br/>何か落ちたのでしょうか。<br/><br/>お教え下さい。<br/><br/>翌朝は右鼻より黄色い膿が流れるように出てすっかり楽になり、ほんとうに有難く、喜んでおります。<br/><br/> 小さな霊が憑いていて抜けた。<br/><br/>耳から出たのである。<br/><br/>虫の霊が入って、突っついていたものである。<br/><br/>（S24. 2.17）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

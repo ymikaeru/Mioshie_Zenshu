@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sououno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 相応の理と其他の事 『栄光』181号、昭和27(1952)年11月5日発行 およそ真理とは、分り易くいえば相応の理であって、相応の理とは一切万事合理的で、釣合がとれ、何ら破綻のない事をいうのである。<br><br>従って人間生活とすれば円満で自然順応をモットーとすべきである。<br><br>たとえば衣食住にしても、衣は夏が来れば薄いものを着、冬が来れば綿入を着るようなものであり、食は穀物、野菜、獣鳥肉等々、その土地に生産された物をなるべく食うようにし、季節もそうだがその土地に多く生産されるものは多く食うようにし、中位は中位、少ない物は少なく食うようにすればいいので、これが自然である。<br><br>一例を挙げれば米麦のごときも甘い辛いの味がないが、年中食っても飽きない言うに言われぬ味がある。<br><br>だからこういう物は一番多く食えばいいのである。<br><br>また強い味のもの例えば極く甘い物、塩辛い物、苦い酢っぱい辛いというような刺戟の強いものは、少なく食えばいいので、これが完全な食餌法である。<br><br> それを知らない人間は、何が栄養になり、何が薬になるとか、ヤレ鉄分を含んでいるからよいとか、蛋白がどうだとか言って、薄っぺらな机の上の学問で作り上げた理屈を信じて、好みもしないものを食ったり、食いたいものを我慢して食わなかったりするのを衛生に適うなどとしているのだから全く馬鹿気た話である。<br><br>そういう考え方こそ実は不衛生極まるもので困ったものである。<br><br>もちろん薬などもそうで、近頃流行のストマイなどは原料は青苔というのであるから、こんな箆棒（べらぼう）な話はない。<br><br>青苔はまず川魚の食物か、庭の色どりとしての役目で、人間が口へ入れるべきものでない事は常識でも分るはずである。<br><br>従ってこんな理屈に合わないものを腹へ入れたら、毒にはなっても薬にならないのは分り切った話である。<br><br> 次は住であるが、これは経済上の関係もあるから自由にはならないが、これとても現代人は非常に空気のいい悪いを気にするが、これなども善いに越した事はないが、悪い空気でも左程健康に影響はないものである。<br><br>これらも医学が幼稚のため、大いに健康に関係があるように思っているので、もし空気がそれ程関係があるとしたら、田舎には結核がなさそうなものだが、近頃は都会と余り異（ちが）いがないそうである。<br><br>また都会生活者なども塵埃を馬鹿に恐れるが、これも大して悪いものではない。<br><br>相当吸い込んでも翌日になれば痰になって、全部出てしまうものであるから、左程気にする必要はない。<br><br>また人間が吐く炭酸瓦斯（ガス）を有毒としているが、事実は人混みの中で働いている映画館の女給なども、別段普通人より健康が劣っているとは思えない。<br><br> 以上ザットかいてみたが、反って悪いのは医学で唱えるごとく、空気の善悪、黴菌の恐ろしさ、食物の良否などを知らされるため、それを恐れる神経作用の方が余程健康に害があると思うのである。<br><br>右のごとく近頃のような予防衛生のやり方をみても、余りに微細に亘り注意の行き過ぎのため脅え通しで、都会人の大部分は生活恐怖症に罹っているといえよう。<br><br>そこで昔の方がどのくらい暢気（のんき）であったかは、思い出さずにはおれないのである。<br><br>そこへゆくと吾々は実に幸福である。<br><br>何しろ医学衛生の底の底まで判っているから、以上のような不安などいささかもなく、真の安心立命を得ているからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Lógica da Concordância e outras reflexões</h2>
 <p>A Verdade, em termos simples, é o Princípio da Concordância. Este princípio dita que todas as coisas no Universo são lógicas, equilibradas e desprovidas de qualquer contradição. Portanto, a vida humana deve ter como lema a harmonia e a adaptação à Natureza. No vestuário, por exemplo, vestimos tecidos leves quando chega o verão e agasalhos quando vem o inverno. Na alimentação, devemos consumir preferencialmente os produtos de nossa própria terra, como os cereais, os vegetais e as carnes de animais e aves locais. A mesma lógica se aplica à sazonalidade: o que a terra produz em abundância deve ser consumido em maior quantidade; o que oferece com moderação, em porções moderadas; e o que é escasso, de forma comedida. Nisso reside a essência do que é natural.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Passemos à moradia. Embora as circunstâncias econômicas imponham limitações à nossa liberdade de escolha neste campo, o homem moderno preocupa-se excessivamente com a qualidade do ar. É evidente que um ar puro é preferível, mas um ar de qualidade inferior não afeta a saúde de forma tão significativa quanto se imagina. É a imaturidade da medicina que leva as pessoas a crer que esse fator tem tamanha relevância. Se a qualidade do ar fosse assim tão determinante, seria de se esperar que não houvesse tuberculose nas zonas rurais; no entanto, dados recentes mostram que a incidência da doença no campo difere pouco daquela registrada nas cidades. Os habitantes das metrópoles também nutrem um medo desproporcional da poeira, que, na verdade, não é tão nociva. Mesmo que se inale uma quantidade considerável, no dia seguinte o organismo a expele completamente sob a forma de catarro. Não há, portanto, motivo para grande inquietação. Considera-se, ainda, tóxico o dióxido de carbono que exalamos. Contudo, a realidade nos mostra que as funcionárias de cinemas, que trabalham em meio a grandes aglomerações, não parecem ter a saúde mais debilitada que a de uma pessoa comum.</p>
 <p>Em suma, conforme expus brevemente, o mais danoso não são os fatores em si, mas o efeito que a medicina gera ao propagar o temor sobre a qualidade do ar, o pavor dos micróbios e a obsessão pela adequação dos alimentos. O abalo no sistema nervoso causado por esse medo constante é, de longe, muito mais prejudicial à saúde. Observando-se os métodos da higiene preventiva atual, percebe-se que a atenção excessiva a detalhes insignificantes mantém as pessoas em um estado de perpétua apreensão. Poder-se-ia dizer que a maioria dos habitantes das cidades padece de uma fobia da própria vida. Diante desse quadro, é impossível não recordar quão mais serena e despreocupada era a vida de outrora.</p>
 <p>Nesse sentido, nós somos verdadeiramente afortunados. Por compreendermos a medicina e a higiene em sua mais profunda essência, estamos completamente isentos de tais ansiedades e alcançamos a verdadeira paz de espírito, em conformidade com a nossa missão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 相応の理と其他の事 『栄光』181号、昭和27(1952)年11月5日発行 およそ真理とは、分り易くいえば相応の理であって、相応の理とは一切万事合理的で、釣合がとれ、何ら破綻のない事をいうのである。<br/><br/>従って人間生活とすれば円満で自然順応をモットーとすべきである。<br/><br/>たとえば衣食住にしても、衣は夏が来れば薄いものを着、冬が来れば綿入を着るようなものであり、食は穀物、野菜、獣鳥肉等々、その土地に生産された物をなるべく食うようにし、季節もそうだがその土地に多く生産されるものは多く食うようにし、中位は中位、少ない物は少なく食うようにすればいいので、これが自然である。<br/><br/>一例を挙げれば米麦のごときも甘い辛いの味がないが、年中食っても飽きない言うに言われぬ味がある。<br/><br/>だからこういう物は一番多く食えばいいのである。<br/><br/>また強い味のもの例えば極く甘い物、塩辛い物、苦い酢っぱい辛いというような刺戟の強いものは、少なく食えばいいので、これが完全な食餌法である。<br/><br/> それを知らない人間は、何が栄養になり、何が薬になるとか、ヤレ鉄分を含んでいるからよいとか、蛋白がどうだとか言って、薄っぺらな机の上の学問で作り上げた理屈を信じて、好みもしないものを食ったり、食いたいものを我慢して食わなかったりするのを衛生に適うなどとしているのだから全く馬鹿気た話である。<br/><br/>そういう考え方こそ実は不衛生極まるもので困ったものである。<br/><br/>もちろん薬などもそうで、近頃流行のストマイなどは原料は青苔というのであるから、こんな箆棒（べらぼう）な話はない。<br/><br/>青苔はまず川魚の食物か、庭の色どりとしての役目で、人間が口へ入れるべきものでない事は常識でも分るはずである。<br/><br/>従ってこんな理屈に合わないものを腹へ入れたら、毒にはなっても薬にならないのは分り切った話である。<br/><br/> 次は住であるが、これは経済上の関係もあるから自由にはならないが、これとても現代人は非常に空気のいい悪いを気にするが、これなども善いに越した事はないが、悪い空気でも左程健康に影響はないものである。<br/><br/>これらも医学が幼稚のため、大いに健康に関係があるように思っているので、もし空気がそれ程関係があるとしたら、田舎には結核がなさそうなものだが、近頃は都会と余り異（ちが）いがないそうである。<br/><br/>また都会生活者なども塵埃を馬鹿に恐れるが、これも大して悪いものではない。<br/><br/>相当吸い込んでも翌日になれば痰になって、全部出てしまうものであるから、左程気にする必要はない。<br/><br/>また人間が吐く炭酸瓦斯（ガス）を有毒としているが、事実は人混みの中で働いている映画館の女給なども、別段普通人より健康が劣っているとは思えない。<br/><br/> 以上ザットかいてみたが、反って悪いのは医学で唱えるごとく、空気の善悪、黴菌の恐ろしさ、食物の良否などを知らされるため、それを恐れる神経作用の方が余程健康に害があると思うのである。<br/><br/>右のごとく近頃のような予防衛生のやり方をみても、余りに微細に亘り注意の行き過ぎのため脅え通しで、都会人の大部分は生活恐怖症に罹っているといえよう。<br/><br/>そこで昔の方がどのくらい暢気（のんき）であったかは、思い出さずにはおれないのである。<br/><br/>そこへゆくと吾々は実に幸福である。<br/><br/>何しろ医学衛生の底の底まで判っているから、以上のような不安などいささかもなく、真の安心立命を得ているからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

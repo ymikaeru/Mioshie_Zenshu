@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sekai04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教の誕生に就て 開教の辞 『救世』48号、昭和25(1950)年2月4日発行 昭和二十二年八月三十日、宗教法人として創立された日本観音教団並びに同二十三年十月三十日同じく創立された日本五六七教会は、今回自発的に解散し、右両会を打って一丸としたる新しき構想の下に、本年二月四日立春の日を期して、標題のごとき宗教法人世界救世（メシヤ）教の創立出現となったのである。<br><br> これは、非常に重大な意義があり、もちろん神の深き御旨によるのであって、人間の意図でない事は今更言うまでもない、いつも吾らが唱えるところの、霊界における夜昼転換の時期にいよいよ入ったからである、これも吾らが常に言うところの仏教の救いは夜の期間中であるから夜の消滅と共に観世音菩薩の御救いの転移進展となるので、一言にして言えば仏滅を意味するのである、従って、観世音菩薩の御働きも救世主（メシヤ）のそれとなるのはもちろんである、すなわち化身仏であらせられた観世音菩薩はここに仮面を脱いで、御本体である神の御働きとなり給うのである。<br><br> 以上のごとく霊界が昼となる以上、これが現界に移写するにおいては、夜の文化は当然不用なものは滅び有用な物のみが残る事となるのは当然である、それのみではない、長年月にわたる暗黒時代によって人類の罪穢の少なからず堆積せる以上、それの清掃作用が行われなくてはならない、右の滅ぶべき不用物とはこれを指して言うのである、しかもそれと同時に昼の文化の建設が開始さるるのである、かくのごとき空前絶後の一大転機とは、何を指すのであろうか、全く何千年否何万年以前より決定していた神のプログラムなのである。<br><br> また別の言葉を借りて言えば大規模な世界的破壊と創造が行われるのである、嗚呼斯の如（このよう）な重大時期に際会しつつある今、神の大愛はいかなる形に表われるかを知らねばならない、すなわちその具体化としては一切が滅ぶものと生き残るものとのいずれかに決定さるるのである、しかしながら右は止むを得ないとしても神の恩恵は、一人でも多く滅ぶるものを救わせ給わんとして、神の代行者を選び救世の大業を行わせ給うのである、またその使命達成の機関として運用されるのが本教であるから、本教の使命たるや実に大なりというべきである、この意味においていよいよ切迫せる最後の時期に当っての活動こそ刮目すべきものがあろう、その結果吾らの唱導する地上天国こそ最後の目標でなければならないのである。<br><br> 私は、これまで顧問の名の下に、いわば蔭にあって経綸を行っていたが、ようやく基礎的工作も出来上ったので、ここに表面的活動に移る事となった訳である、端的に言えば、いよいよ本舞台に登場する事となったのである、従って各般にわたって漸次組織形体はもとより、活動の形式も新しく生れるのはもちろんである。<br><br> そうして、祝詞にもあるごとく観世音菩薩、光明如来、メシヤ（救世主）、弥勒神等も、御名は異なれど同一の御神霊である以上根本は変るのではない、いわば時期に応じて御神霊の活動範囲が拡充するのであるから、御神体も御守りもある時期まではそのままで差支えない、いまだ種々発表したい事もあるが、時期の推移に従って漸次発表する段取りとなるので、今はこの辺に止めておくのである。<br><br> 最後に言わなければならない事は、これまでは観世音菩薩の御働きであったから、言わば東洋的であった、しかるに時期切迫のためどうしても一大飛躍によって全人類を救わなければならない、とすれば世界的に拡充する必要がある、世界救世教の名によるゆえんである。<br><br> 今一つは観世音菩薩は、善悪無差別的の救済であったが、いよいよ地上天国が目前に迫り来った、今日ここに善悪を立別け、善を育て悪を滅しなければならない事になった、いわゆる悪のトドメである、従って救いの力も決定的でなくてはならない、その力こそメシヤの揮わせらるる大神力である。<br><br> 嗚呼、慶賀すべき時とはなったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Advento da Igreja Messiânica Mundial</h2>
 <p>A Igreja Kannon do Japão, instituição religiosa fundada em 30 de agosto de 1947, e a Igreja Miroku do Japão, estabelecida em 30 de outubro de 1948, foram agora dissolvidas por iniciativa própria. A partir da unificação de ambas, e sob uma nova e grandiosa concepção, neste ensejo, no dia 4 de fevereiro do presente ano, data que marca o início da primavera, vem a lume a instituição religiosa denominada Igreja Messiânica Mundial.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Resta-me, por fim, tecer algumas considerações. Até aqui, a atuação de Kannon (観音) possuía um caráter, por assim dizer, oriental. Todavia, diante da urgência do tempo, torna-se imperativo dar um grande salto para salvar toda a humanidade. Surge, pois, a necessidade de uma expansão em escala mundial, o que justifica a denominação Igreja Messiânica Mundial.</p>
 <p>Há um outro ponto crucial: a salvação de Kannon (観音) era indistinta, abrangendo o bem e o mal. Com a iminente chegada do Reino dos Céus na Terra, entramos na fase em que se faz necessário separar o bem do mal, para que o primeiro seja nutrido e o segundo, aniquilado. Trata-se do que denominamos "o golpe de misericórdia no mal". Para tanto, o poder da salvação deve ser terminante e absoluto. Esse poder é, precisamente, a Grande Luz Divina emanada pelo Messias.</p>
 <p>Ah, que tempos venturosos se iniciam</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教の誕生に就て 開教の辞 『救世』48号、昭和25(1950)年2月4日発行 昭和二十二年八月三十日、宗教法人として創立された日本観音教団並びに同二十三年十月三十日同じく創立された日本五六七教会は、今回自発的に解散し、右両会を打って一丸としたる新しき構想の下に、本年二月四日立春の日を期して、標題のごとき宗教法人世界救世（メシヤ）教の創立出現となったのである。<br/><br/> これは、非常に重大な意義があり、もちろん神の深き御旨によるのであって、人間の意図でない事は今更言うまでもない、いつも吾らが唱えるところの、霊界における夜昼転換の時期にいよいよ入ったからである、これも吾らが常に言うところの仏教の救いは夜の期間中であるから夜の消滅と共に観世音菩薩の御救いの転移進展となるので、一言にして言えば仏滅を意味するのである、従って、観世音菩薩の御働きも救世主（メシヤ）のそれとなるのはもちろんである、すなわち化身仏であらせられた観世音菩薩はここに仮面を脱いで、御本体である神の御働きとなり給うのである。<br/><br/> 以上のごとく霊界が昼となる以上、これが現界に移写するにおいては、夜の文化は当然不用なものは滅び有用な物のみが残る事となるのは当然である、それのみではない、長年月にわたる暗黒時代によって人類の罪穢の少なからず堆積せる以上、それの清掃作用が行われなくてはならない、右の滅ぶべき不用物とはこれを指して言うのである、しかもそれと同時に昼の文化の建設が開始さるるのである、かくのごとき空前絶後の一大転機とは、何を指すのであろうか、全く何千年否何万年以前より決定していた神のプログラムなのである。<br/><br/> また別の言葉を借りて言えば大規模な世界的破壊と創造が行われるのである、嗚呼斯の如（このよう）な重大時期に際会しつつある今、神の大愛はいかなる形に表われるかを知らねばならない、すなわちその具体化としては一切が滅ぶものと生き残るものとのいずれかに決定さるるのである、しかしながら右は止むを得ないとしても神の恩恵は、一人でも多く滅ぶるものを救わせ給わんとして、神の代行者を選び救世の大業を行わせ給うのである、またその使命達成の機関として運用されるのが本教であるから、本教の使命たるや実に大なりというべきである、この意味においていよいよ切迫せる最後の時期に当っての活動こそ刮目すべきものがあろう、その結果吾らの唱導する地上天国こそ最後の目標でなければならないのである。<br/><br/> 私は、これまで顧問の名の下に、いわば蔭にあって経綸を行っていたが、ようやく基礎的工作も出来上ったので、ここに表面的活動に移る事となった訳である、端的に言えば、いよいよ本舞台に登場する事となったのである、従って各般にわたって漸次組織形体はもとより、活動の形式も新しく生れるのはもちろんである。<br/><br/> そうして、祝詞にもあるごとく観世音菩薩、光明如来、メシヤ（救世主）、弥勒神等も、御名は異なれど同一の御神霊である以上根本は変るのではない、いわば時期に応じて御神霊の活動範囲が拡充するのであるから、御神体も御守りもある時期まではそのままで差支えない、いまだ種々発表したい事もあるが、時期の推移に従って漸次発表する段取りとなるので、今はこの辺に止めておくのである。<br/><br/> 最後に言わなければならない事は、これまでは観世音菩薩の御働きであったから、言わば東洋的であった、しかるに時期切迫のためどうしても一大飛躍によって全人類を救わなければならない、とすれば世界的に拡充する必要がある、世界救世教の名によるゆえんである。<br/><br/> 今一つは観世音菩薩は、善悪無差別的の救済であったが、いよいよ地上天国が目前に迫り来った、今日ここに善悪を立別け、善を育て悪を滅しなければならない事になった、いわゆる悪のトドメである、従って救いの力も決定的でなくてはならない、その力こそメシヤの揮わせらるる大神力である。<br/><br/> 嗚呼、慶賀すべき時とはなったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

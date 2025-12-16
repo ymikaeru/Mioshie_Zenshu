@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtakusi</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： タクシー店頭に飛び込む惨事に息子の一命救わる 『栄光』157号、昭和27(1952)年5月21日発行 大阪府 五三中教会 近藤政代（45） 新聞ラジオにて既に報道されました通り、去る二月二十八日午前零時半頃すさまじい音響と共に家屋はグラグラと動き、屋内の諸道具は棚から落ちるという状態、すわ大地震かと離れの二階に寝ていました私共は驚いて飛び起きて走り降りました。<br><br>二度吃驚。<br><br>店の横の部屋（道路に面せる）は無漸にも目茶苦茶、柱は二本へし折れ、本箱は倒れて、棚の物品は転落、床も落ち崩れてタクシーが乗込んでいるではありませんか。<br><br>瞬間シマッタと叫ぶ。<br><br>この部屋には平素次男誠孝（十八歳）と店員吉野とが寝ているのであります。<br><br> 蒲団の上には本箱ミシン等が折重なって倒れています。<br><br>さわぐ胸を抑えてそれ等の物を取除いて見ると店員吉野が人事不省になっています。<br><br>早速御浄霊をさせて頂きながら「ヨシノ！ヨシノ！」と呼びつづけますと、やっと正気を取戻しました。<br><br>次に誠孝をと蒲団を探しましたところ、影も形も見当りません。<br><br>一瞬驚きの余り卒倒せんばかり、主人も「誠孝」と叫んだ後は声も出ません。<br><br>すると突然何を思ったか「御守護だ。<br><br>有難い」と思わず合掌しております。<br><br>「どうかしましたか」と尋ねますと「不思議だ、全く不思議だ。<br><br>誠孝はちょうど十時頃蒲団を抱いて出て来るから「どうした」と聞くと、「今晩はなんだか下の店の間で寝るのが嫌だから二階で寝ます」と言って上って行ったんだよ。<br><br>きっと二階で寝ているよ。<br><br>全く御守護だ。<br><br>もしここに寝ていたらちょうど惨害の中心部だから即死になっていたかも知れない。<br><br>それに二時間も前に移転させられているとは全く奇蹟だ、有難い御守護だ」と感泣致した次第でございます。<br><br> さてこの事件に直面して思い起す事は本郷支部長高辻先生が御神体初祭の折、「浄化というものは病気だけではない。<br><br>色々な面に現われるものであって、常日頃から善に向って行為想念共全うせんと努力し、徳を積む事によって霊衣は厚くなり、霊位は向上するものである。<br><br>そうなれば罪穢は消滅して、いかなる災でも転じて遁れる事が出来る訳ですから、家内中一心に御縋り下さい」との御導きを頂きました事であります。<br><br>その教えを素直に受け、出来得る限りの御奉仕をさせて頂きつつあったために、全く一命の危難を寸前に救われた次第であります。<br><br>殊に「霊衣が厚く守護が大きくなると、惨禍の場面にさえも出会わないものである」との尊き体験を身に沁みて頂いた次第でございます。<br><br>今更ながら大光明如来様の絶大なる御威徳については到底筆舌に尽くし得られない事を痛感させられました。<br><br>主人は北海道、及び北陸方面に菓子問屋の業務を営んでおります関係上、ラジオ新聞のニュースにより見舞客も多数御越し下さったのでありますが、その節にはこの奇蹟を伝えますと共に、「信仰とはいざという時に御守護を受けるべく平生より身魂磨きをさせて頂いております」と訴え、御導きさせて頂いております。<br><br>これ全く大光明如来様の偉大なる大御力により、先祖霊なり、誠孝自身の守護霊なりが未然に難を避けしめたものであると確信致しております。<br><br>勿論一家全部入信致し、光明如来様も奉斎致し、数人の方々を御導きさせて頂きましたが、今後いよいよ御得意先や同業者にもお話して共に信仰を打樹てたき念願でございます。<br><br>拙き筆にてこの奇蹟を報告申し上げました。<br><br> 明主様誠に有難うございました。<br><br> （昭和二十七年五月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Filho tem a vida salva em trágico acidente com táxi que invadiu uma loja</h2>
 <p>Revista Eikou nº 157, de 21 de maio de 1952
@@ -102,5 +257,48 @@ Igreja Gozannaka – Osaka</p>
 <p>Naturalmente, toda a nossa família já se converteu, entronizamos a Imagem da Luz Divina em nosso lar e já tivemos a permissão de encaminhar algumas pessoas à fé. De agora em diante, nosso mais sincero desejo é compartilhar esta experiência com nossos clientes e colegas de profissão, para que possamos edificar a fé em conjunto. Com estas minhas simples palavras, relato este milagre.</p>
 <p>Meishu-Sama, muito obrigada.</p>
 <p>(1 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： タクシー店頭に飛び込む惨事に息子の一命救わる 『栄光』157号、昭和27(1952)年5月21日発行 大阪府 五三中教会 近藤政代（45） 新聞ラジオにて既に報道されました通り、去る二月二十八日午前零時半頃すさまじい音響と共に家屋はグラグラと動き、屋内の諸道具は棚から落ちるという状態、すわ大地震かと離れの二階に寝ていました私共は驚いて飛び起きて走り降りました。<br/><br/>二度吃驚。<br/><br/>店の横の部屋（道路に面せる）は無漸にも目茶苦茶、柱は二本へし折れ、本箱は倒れて、棚の物品は転落、床も落ち崩れてタクシーが乗込んでいるではありませんか。<br/><br/>瞬間シマッタと叫ぶ。<br/><br/>この部屋には平素次男誠孝（十八歳）と店員吉野とが寝ているのであります。<br/><br/> 蒲団の上には本箱ミシン等が折重なって倒れています。<br/><br/>さわぐ胸を抑えてそれ等の物を取除いて見ると店員吉野が人事不省になっています。<br/><br/>早速御浄霊をさせて頂きながら「ヨシノ！ヨシノ！」と呼びつづけますと、やっと正気を取戻しました。<br/><br/>次に誠孝をと蒲団を探しましたところ、影も形も見当りません。<br/><br/>一瞬驚きの余り卒倒せんばかり、主人も「誠孝」と叫んだ後は声も出ません。<br/><br/>すると突然何を思ったか「御守護だ。<br/><br/>有難い」と思わず合掌しております。<br/><br/>「どうかしましたか」と尋ねますと「不思議だ、全く不思議だ。<br/><br/>誠孝はちょうど十時頃蒲団を抱いて出て来るから「どうした」と聞くと、「今晩はなんだか下の店の間で寝るのが嫌だから二階で寝ます」と言って上って行ったんだよ。<br/><br/>きっと二階で寝ているよ。<br/><br/>全く御守護だ。<br/><br/>もしここに寝ていたらちょうど惨害の中心部だから即死になっていたかも知れない。<br/><br/>それに二時間も前に移転させられているとは全く奇蹟だ、有難い御守護だ」と感泣致した次第でございます。<br/><br/> さてこの事件に直面して思い起す事は本郷支部長高辻先生が御神体初祭の折、「浄化というものは病気だけではない。<br/><br/>色々な面に現われるものであって、常日頃から善に向って行為想念共全うせんと努力し、徳を積む事によって霊衣は厚くなり、霊位は向上するものである。<br/><br/>そうなれば罪穢は消滅して、いかなる災でも転じて遁れる事が出来る訳ですから、家内中一心に御縋り下さい」との御導きを頂きました事であります。<br/><br/>その教えを素直に受け、出来得る限りの御奉仕をさせて頂きつつあったために、全く一命の危難を寸前に救われた次第であります。<br/><br/>殊に「霊衣が厚く守護が大きくなると、惨禍の場面にさえも出会わないものである」との尊き体験を身に沁みて頂いた次第でございます。<br/><br/>今更ながら大光明如来様の絶大なる御威徳については到底筆舌に尽くし得られない事を痛感させられました。<br/><br/>主人は北海道、及び北陸方面に菓子問屋の業務を営んでおります関係上、ラジオ新聞のニュースにより見舞客も多数御越し下さったのでありますが、その節にはこの奇蹟を伝えますと共に、「信仰とはいざという時に御守護を受けるべく平生より身魂磨きをさせて頂いております」と訴え、御導きさせて頂いております。<br/><br/>これ全く大光明如来様の偉大なる大御力により、先祖霊なり、誠孝自身の守護霊なりが未然に難を避けしめたものであると確信致しております。<br/><br/>勿論一家全部入信致し、光明如来様も奉斎致し、数人の方々を御導きさせて頂きましたが、今後いよいよ御得意先や同業者にもお話して共に信仰を打樹てたき念願でございます。<br/><br/>拙き筆にてこの奇蹟を報告申し上げました。<br/><br/> 明主様誠に有難うございました。<br/><br/> （昭和二十七年五月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

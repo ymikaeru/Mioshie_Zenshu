@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（14） 五三中教会 茨木よし子 『栄光』244号、昭和29(1954)年1月20日発行 十二月八日 今日は午後一時より市役所の二階にて自然農法大講演会があり本部より渡辺、中村、梅村先生が講演されることになっていました。<br><br>この頃学校は学芸会前にて猛練習が始りとても出席できないと半ばあきらめておりましたが、三時過ぎにどうにかお許しを頂き会場に駈けついた時には中村、梅村先生のお話は終り渡辺先生の講話の最中でありました。<br><br>先生の熱心な話し振りに会場の人々は真剣に聴講されていたようでありました。<br><br>講話される渡辺先生の側近くには明主様がお出ましになっていらっしゃり、絶えずお話に耳をお傾けになられる御尊姿を拝しました。<br><br>先生の背後には観音様が拝されました。<br><br>私はこの霊界の様を見て想念界って実に素晴しいな、ああーこれでこそ明主様の手足となって今日この地に来迎の由が伺われるような気が致しました。<br><br> 聴講の人々のあたりには狐、狸がまるで喫驚箱から飛び出てきたような顔付にて前脚を上げ首をつき出して聞いている様やら、霊界のお爺さんお婆さんが固唾をのんで聞く様、中には席を去る人があると、その方の傍には頑丈な男の人が袖を引っぱり居らせようとしているような情景も目に映りました。<br><br> 夜は先生方を囲んで但馬温泉で有名な城崎の某旅館にて会食及び座談会に出席させて頂きました。<br><br>会場に行って見ますと、まだ数人みえているところでありました。<br><br>皆様のお集り迄に温泉に入る方々、お茶をのむ方等色々でありました。<br><br>仲のよい方でありましょうか男の方が二人さし向い碁を打ち始められました。<br><br>二人の背後には人天狗と烏天狗がさっと現われて盛んに見張をしている様がみえてきます。<br><br>久し振りにお目に掛ったＨ氏は相も変らず温談される。<br><br>この方の背後には大きな古狐がにやりにやり笑っています。<br><br>次々に挨拶されて出て来られる方々の背後にはミッキー、子熊のようなものが見えます。<br><br>鶏を背負っている人、大きなめ牛を背負う人、子馬を背に、子狸を沢山背負っている人、大きなきじ猫を背負っている人、色々様々でまるで動物園でもみているようでありました。<br><br>〇時には予定の会員は集合され、会食場に案内され席に着きました。<br><br>私達の向う側にお坐りになられた某氏には金欄の袈裟を掛けた、かっぷくのいい僧侶が畏って坐っておられるのがみえてきます。<br><br>某氏が○○されます時には歯並びのよい黒い毛の○○が畏って○○している様がみえてきます。<br><br>数人の女中さん達がやってきておしゃくをしますとそれぞれ茶と白のまだ猫が畏っておしゃくをしている様が見えてきました。<br><br>愉快そうな渡辺先生の傍には一枚の半紙が現われて、筆にて「大成功」「うんと徳々々」と書かれる人が目に映りました。<br><br>梅村先生の傍には、「大命を果した後の嬉しさ私も嬉しい」と書く小柄なお婆さんがみえてきました。<br><br>○○先生の背後には○○でありましょうか○が耳をぴんぴん立てて満足そうにしておりました。<br><br>嬉しそうに話しながら食事をされる○○先生の傍では○が盛んに食べている様が見えました。<br><br> ○○先生の背後には○が見えて来、以前見えたものと同じものでありました。<br><br>梅村先生がよい機嫌をされ「かれすすき」の替歌を歌われますと親○が大きな口を開けて盛んに歌っている様がみえました。<br><br>そして先生の後には白髪の先程のお婆さんが感涙でありましょうか手拭にて涙を頻りに拭かれる様が目に映りました。<br><br>程よい頃先生方が席をはずされました。<br><br>今まで静かであった会員の方々が手を打ったり歌を歌ったりされますと会員の方々の後からは狐、狸がぬっくりぬっくり顔を出して、はしゃぎ出す様が目に映りました。<br><br>私はメモをしつつ食事を頂きますので大変気ぜわしくありましたが大変愉快でありました。<br><br> 次に座談会の席場にて○○先生が挨拶をされますと背後に〇〇の○のようなものが巻紙をくわえていましたが先生の左肩を越してぱっと投げ広げる様がみえてき、その紙には手紙のようなものがさらさらと書いてありました。<br><br>先生がお話しされていますとその○の様なものがその巻紙をさっと次を持なおして先生にみせるかの如くにしている様がみえてきました。<br><br>その巻紙の書き初めには「明主様の日々の御守護誠に有繋うございます」と書いてあり、終りには明主様有難うございましたと書き記してあるのがみえました。<br><br>○○先生のお話中終始一貫先程の○が次から次から巻紙をくり広げて見せている様が見えました。<br><br>○○先生の実に興味をそそるお話が始るや否や、これ又驚いたことには先程のお婆さんが感涙にむせびつつ筆にて書きたての手紙を先生の前にさし出され先生の後に立たれていて巻紙を見せるかの如くくり開かれていました。<br><br> いつの間にか百姓男が向う鉢巻にて大勢現われ、スコップのようなものをかつぎ、先生の周囲にて見ていましたが次から次から畑を耕作始める様が目に映り、その人々の中には苦しそうな顔付の人、楽しそうな人、しぶしぶする人、にこにこする人、色々様々な様子でありました。<br><br>見る見る間に二尺位の耕度にて広い畑を耕作してしまいました。<br><br>耕したての土の色はとても綺麗でありました。<br><br>その土の上にどこからか大黒様がやって来られにこにこされながら足踏みをされ槌をお振りになりますと小判がさらさらと出て来ます。<br><br>お話中の○○先生はいつの間にやら小ばんで包まれていらっしゃいました。<br><br>これは大したことだと思ってよく見ますと先生の背後には赤い帽子の大黒様がいらっしゃり、にこにこされていました。<br><br> 一方では大洪水にして見る間にきび野菜類が流されてしまう様が見えて来ます。<br><br>暫くしますと○○先生の背後の大黒様は女神と入れ変ってしまわれ、それから先はずっとこの女神が拝されました。<br><br>色々と質問される信者さんの背後には黒茶色をしたひげの白い猫がさっと見えて来ます。<br><br>お答えになられる○○先生の背後には女神が白光まばゆく拝されます。<br><br>黒兎の見える人、狐が真剣そうに質問している様等が見えてきました。<br><br>今晩はとても有意義な座談会にて時の過ぎるのも忘れて拝聴させていただきましたが、汽車の時間がきましたのでお話中途で失礼致しました。<br><br> 明主様日々の御守護誠に有難うございます。<br><br> 会の霊視の模様のありのままを謹んで御報告させていただきます。<br><br>誠に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Visões Espirituais em uma Noite Memorável</h2>
 <p>Em 8 de dezembro, estava programada para a uma da tarde uma grande conferência sobre a Agricultura da Natureza, a ser realizada no segundo andar da prefeitura, com a participação dos reverendos Watanabe, Nakamura e Umemura, vindos da Sede Central. Nessa época, a escola onde leciono estava em meio a ensaios intensos para um festival artístico, e eu já quase me resignara à impossibilidade de comparecer. Contudo, pouco depois das três horas, consegui obter permissão e corri para o local. Ao chegar, as palestras dos reverendos Nakamura e Umemura já haviam terminado, e o reverendo Watanabe estava em meio à sua explanação.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>A confraternização desta noite foi de um valor inestimável, e, absorta, nem percebi o tempo passar. Infelizmente, a hora do trem se aproximou e precisei me retirar no meio da palestra.</p>
 <p>Agradeço profundamente a Meishu-Sama por Sua proteção diária.</p>
 <p>Com o mais profundo respeito, apresento este relato fiel das minhas visões espirituais durante o encontro. Muito obrigada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（14） 五三中教会 茨木よし子 『栄光』244号、昭和29(1954)年1月20日発行 十二月八日 今日は午後一時より市役所の二階にて自然農法大講演会があり本部より渡辺、中村、梅村先生が講演されることになっていました。<br/><br/>この頃学校は学芸会前にて猛練習が始りとても出席できないと半ばあきらめておりましたが、三時過ぎにどうにかお許しを頂き会場に駈けついた時には中村、梅村先生のお話は終り渡辺先生の講話の最中でありました。<br/><br/>先生の熱心な話し振りに会場の人々は真剣に聴講されていたようでありました。<br/><br/>講話される渡辺先生の側近くには明主様がお出ましになっていらっしゃり、絶えずお話に耳をお傾けになられる御尊姿を拝しました。<br/><br/>先生の背後には観音様が拝されました。<br/><br/>私はこの霊界の様を見て想念界って実に素晴しいな、ああーこれでこそ明主様の手足となって今日この地に来迎の由が伺われるような気が致しました。<br/><br/> 聴講の人々のあたりには狐、狸がまるで喫驚箱から飛び出てきたような顔付にて前脚を上げ首をつき出して聞いている様やら、霊界のお爺さんお婆さんが固唾をのんで聞く様、中には席を去る人があると、その方の傍には頑丈な男の人が袖を引っぱり居らせようとしているような情景も目に映りました。<br/><br/> 夜は先生方を囲んで但馬温泉で有名な城崎の某旅館にて会食及び座談会に出席させて頂きました。<br/><br/>会場に行って見ますと、まだ数人みえているところでありました。<br/><br/>皆様のお集り迄に温泉に入る方々、お茶をのむ方等色々でありました。<br/><br/>仲のよい方でありましょうか男の方が二人さし向い碁を打ち始められました。<br/><br/>二人の背後には人天狗と烏天狗がさっと現われて盛んに見張をしている様がみえてきます。<br/><br/>久し振りにお目に掛ったＨ氏は相も変らず温談される。<br/><br/>この方の背後には大きな古狐がにやりにやり笑っています。<br/><br/>次々に挨拶されて出て来られる方々の背後にはミッキー、子熊のようなものが見えます。<br/><br/>鶏を背負っている人、大きなめ牛を背負う人、子馬を背に、子狸を沢山背負っている人、大きなきじ猫を背負っている人、色々様々でまるで動物園でもみているようでありました。<br/><br/>〇時には予定の会員は集合され、会食場に案内され席に着きました。<br/><br/>私達の向う側にお坐りになられた某氏には金欄の袈裟を掛けた、かっぷくのいい僧侶が畏って坐っておられるのがみえてきます。<br/><br/>某氏が○○されます時には歯並びのよい黒い毛の○○が畏って○○している様がみえてきます。<br/><br/>数人の女中さん達がやってきておしゃくをしますとそれぞれ茶と白のまだ猫が畏っておしゃくをしている様が見えてきました。<br/><br/>愉快そうな渡辺先生の傍には一枚の半紙が現われて、筆にて「大成功」「うんと徳々々」と書かれる人が目に映りました。<br/><br/>梅村先生の傍には、「大命を果した後の嬉しさ私も嬉しい」と書く小柄なお婆さんがみえてきました。<br/><br/>○○先生の背後には○○でありましょうか○が耳をぴんぴん立てて満足そうにしておりました。<br/><br/>嬉しそうに話しながら食事をされる○○先生の傍では○が盛んに食べている様が見えました。<br/><br/> ○○先生の背後には○が見えて来、以前見えたものと同じものでありました。<br/><br/>梅村先生がよい機嫌をされ「かれすすき」の替歌を歌われますと親○が大きな口を開けて盛んに歌っている様がみえました。<br/><br/>そして先生の後には白髪の先程のお婆さんが感涙でありましょうか手拭にて涙を頻りに拭かれる様が目に映りました。<br/><br/>程よい頃先生方が席をはずされました。<br/><br/>今まで静かであった会員の方々が手を打ったり歌を歌ったりされますと会員の方々の後からは狐、狸がぬっくりぬっくり顔を出して、はしゃぎ出す様が目に映りました。<br/><br/>私はメモをしつつ食事を頂きますので大変気ぜわしくありましたが大変愉快でありました。<br/><br/> 次に座談会の席場にて○○先生が挨拶をされますと背後に〇〇の○のようなものが巻紙をくわえていましたが先生の左肩を越してぱっと投げ広げる様がみえてき、その紙には手紙のようなものがさらさらと書いてありました。<br/><br/>先生がお話しされていますとその○の様なものがその巻紙をさっと次を持なおして先生にみせるかの如くにしている様がみえてきました。<br/><br/>その巻紙の書き初めには「明主様の日々の御守護誠に有繋うございます」と書いてあり、終りには明主様有難うございましたと書き記してあるのがみえました。<br/><br/>○○先生のお話中終始一貫先程の○が次から次から巻紙をくり広げて見せている様が見えました。<br/><br/>○○先生の実に興味をそそるお話が始るや否や、これ又驚いたことには先程のお婆さんが感涙にむせびつつ筆にて書きたての手紙を先生の前にさし出され先生の後に立たれていて巻紙を見せるかの如くくり開かれていました。<br/><br/> いつの間にか百姓男が向う鉢巻にて大勢現われ、スコップのようなものをかつぎ、先生の周囲にて見ていましたが次から次から畑を耕作始める様が目に映り、その人々の中には苦しそうな顔付の人、楽しそうな人、しぶしぶする人、にこにこする人、色々様々な様子でありました。<br/><br/>見る見る間に二尺位の耕度にて広い畑を耕作してしまいました。<br/><br/>耕したての土の色はとても綺麗でありました。<br/><br/>その土の上にどこからか大黒様がやって来られにこにこされながら足踏みをされ槌をお振りになりますと小判がさらさらと出て来ます。<br/><br/>お話中の○○先生はいつの間にやら小ばんで包まれていらっしゃいました。<br/><br/>これは大したことだと思ってよく見ますと先生の背後には赤い帽子の大黒様がいらっしゃり、にこにこされていました。<br/><br/> 一方では大洪水にして見る間にきび野菜類が流されてしまう様が見えて来ます。<br/><br/>暫くしますと○○先生の背後の大黒様は女神と入れ変ってしまわれ、それから先はずっとこの女神が拝されました。<br/><br/>色々と質問される信者さんの背後には黒茶色をしたひげの白い猫がさっと見えて来ます。<br/><br/>お答えになられる○○先生の背後には女神が白光まばゆく拝されます。<br/><br/>黒兎の見える人、狐が真剣そうに質問している様等が見えてきました。<br/><br/>今晩はとても有意義な座談会にて時の過ぎるのも忘れて拝聴させていただきましたが、汽車の時間がきましたのでお話中途で失礼致しました。<br/><br/> 明主様日々の御守護誠に有難うございます。<br/><br/> 会の霊視の模様のありのままを謹んで御報告させていただきます。<br/><br/>誠に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

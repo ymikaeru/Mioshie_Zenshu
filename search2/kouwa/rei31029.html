@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei31029</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（一） ３ 029-040 戒告２ 029 鼠や蛇が仏壇に出る事（信仰の戒め） 某青年、最近非常に信仰が増し、お道に専念したい希望に燃えていた所、毎晩非常に鼠が騒ぎ、そして八月十六日には、仏壇を拝んでいると、仏壇の側方から蛇が頭を出していました。<br><br>その他鼠が仏壇の中を汚したり、光新聞を噛切ったりしました。<br><br>その後近所の方を御浄霊していると突然手が猛烈な勢いで信者の患部に向って動きます。<br><br>振れるままに振っているとピタッと止りました。<br><br>止った時に治ったと言っていました。<br><br>霊憑りになりましたが審神しても現在の所正体が判明致しません。<br><br>右に就き―― 鼠や蛇が出るというのは、この人の信仰に何か違った所があるので、祖霊がそういうものを使って気付かせようとしたのである。<br><br>よく自省してみよ。<br><br>それには出版物を出来るだけ読む事である。<br><br>それに合っていれば、それでよい。<br><br> 030 仏壇の御屏風観音様寄りの花枯れる（入信を求む） 妻は入信（昭和二十年）、夫は未入信の家で御座いますが、仏壇のお花を新しく替え、三日目頃になりますと御屏風観音様に寄った方だけ必ず枯れるのですが、何か信仰上間違いがあるので、祖霊の戒告で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 主人が入信しないため、祖霊が戒告を与えているのである。<br><br>（S25. 5.18） 031 位牌倒る（入信に満足） 一、私の母は法華教の信者でありますが、以前より母が経文をあげます時や、普段でも祖父母や戦死した兄の位牌が倒れましたが、私の家に祖父時代よりありました古井戸を井戸換へ致しました時に、お神酒徳利と共に木の目も露わな古位牌が出ましたので、それも祭りました所、それも倒れるようになりましたが、私が昨年七月教修を頂きましてよりは、母が経文をあげる時にのみ、それらが倒れるようになり、今年に入りましてからはその古位牌のみが倒れるようになりました。<br><br> 二、しかし私が善言讃詞をあげさせて頂きますと何の変化も御座居ません。<br><br>このような事はどのような訳で御座居ましょうか。<br><br>また、この古位牌はどのようにさせて頂きましたら宜しゅう御座居ましょうか。<br><br> 祖霊が今迄の信仰などが気に入らぬので知らしたが、この教団の信仰に入ったので知らす要なく、満足したためである。<br><br>（S24. 2. 4） 032 仏壇の不思議（狐霊の業） 最近龍神、狐霊を一応解決させて戴きましたある婦人の家の仏壇に次のような異変が起りました。<br><br> イ、位牌が自然に前にずれ出たり、倒れたり、また、自然に起き上ったり、左右に向き合ったりすることが頻繁に起ります。<br><br> ロ、お供えした食膳の御飯、味噌汁、漬物等が何度も全部無くなっております。<br><br> その信者さんの家は大分乱れておりますが、このようなことはいかなる訳で御座いましょうか。<br><br> 狐のイタズラである。<br><br>こういう事を狐はよくやる。<br><br>ひどいのになると花を生けても生けても花瓶を倒す事がある。<br><br>何か面白くない事があるとか、間違った事があると、祖霊が気付かすべく狐をつかってする事もあるから、悪くとってはいけない。<br><br>早く光明如来様を祭ってもらいたいのであろう。<br><br>（S24. 6.22） 033 位牌倒る（物質移動） 私は本年五月二十日夜、自宅にて次のような夢を見ました。<br><br>それは「実家の家が東西に揺れ、三回目に西に倒れました。<br><br>家の者は皆下敷となりましたのに、私は戦死した弟が裸体で現われ、連出してくれました」その夢を見るその十日程前より私の薬指に魚の目が出来ておりました。<br><br>当地方では内側に出来ると家の者、外側は遠縁が死ぬと申しております。<br><br>また、五月三十日朝、仏壇に確かにあった弟の位牌が長男（二十八歳）の枕元に倒れておりました。<br><br>何か霊的因縁でもあるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 夢の意味はなくもないが、余程著しいのでないと気にする要はない。<br><br>現実でないから確実性はない。<br><br>迷信ほどではないが、問題にならぬ。<br><br>（手に魚の目の出来るのはあまりない。<br><br>大抵足である） 位牌の倒れるのは変である。<br><br>霊には物質移動が出来る。<br><br>狐に頼むのである。<br><br>（何か要求があるのであろう。<br><br>その家の人が考えれば分る筈である。<br><br>位牌の順序が違っている時など、よく位牌が倒れたりする）（S24. 7.28） 034 仏壇の供水消失す（水要求） ある信者の家で毎日仏壇にお水をお供えしますが、時々そのお水が全部無くなります。<br><br>そして水が無くなってから一週間経つと必ず病が出ます。<br><br>何か霊的に意味がありましょうか。<br><br> 祖霊の中で、龍神になってるのがあって、喉が涸くために水を飲むのである。<br><br>病人が出るのは水をもっと欲しいのかもしれないから、もっと水をやってみるといい。<br><br> 035 仏壇の水泡立つ 二十三歳の婦人、御霊徳に依りまして楽に死亡致しました。<br><br>死後一週間位して仏壇へお供えした水のコップに泡が沢山立ちました。<br><br>何か意味が御座いましょうか。<br><br> 霊が水を飲んだ事を知らしたのである。<br><br>よく水を上げてやるとよい。<br><br>（S24. 8. 9） 036 仏前の飯消失す 和歌山県のある信者が、お詣りに参っている留守中、家族が仏前に御飯を三つ御供え致しましたところ、その留守中三日間共右の端の一つが消えて無くなりました。<br><br>何か霊的に意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 祖先に三つお供えするのは嘘である。<br><br>一つでいいので、それを警告したのであろう。<br><br>物質がなくなる事はあり得る。<br><br>狐に頼むのである。<br><br>（S23.10.21） 037 仏壇の蛇の怒り（火事と子の病気） 北原八千代（四十三歳）と言う信者の家で御座いますが、三年程前に蛇が仏壇に入っていたのを線香で燻した所、仏壇の屋根の中に逃げ込んだので、その屋根をそのまま持ち上げて小屋の中に入れておきました所、数日後（四月八日）、八千代の子で五歳になる子供が火遊びし、小屋より発火し火事になり、小屋、工場、住家を全焼致しました。<br><br>主人の妻、八千代は以前より少し胸が悪くはありましたが、急に喉頭結核に罹り、息子の寿倫（みちとし）（二十一歳）は肋膜に罹りました。<br><br>本年二月末より御浄霊を戴くようになり、二人共教修戴きました。<br><br>家はバラック建で、床の間がないので御屏風様だけ御祀りして御座います。<br><br>六月二十二日に御浄霊により元気になっておりました寿倫が、突然手足が全然利かなくなりまして医療（注射、マッサージ）を受けたそうで御座います。<br><br>数日前よりまた御浄霊をさせて戴いておりますが、未だ変化が認められません。<br><br>これはどう致したら宜敷いもので御座いましょうか。<br><br> これは、蛇は祖霊であるから、鄭重にすればよいのにイジめたので怒ったのである。<br><br>火事を起したのも、病気にしたのも、皆そうである。<br><br>よくお詫びするとよい。<br><br>そして、幽世大神様に、人間に生れ代る事をお願いする。<br><br> 子供も、気付かすためにいろいろやったのであるから、出来るだけ祝詞を奏げ、仏壇へ入ってもらいたいと幽世大神様にもお願いする。<br><br>いけなければ庭へでも祀らなくてはいけない。<br><br>（S24. 7. 2） 038 仏前で倒れる元不動信者 入信者佐藤イキ（五十六歳）と申す者で御座います。<br><br>ただ今娘の嫁入先に同居いたしていますが、亡夫の墓は福岡県朝倉郡秋田町に御座いまして、亡夫の御位牌はその弟が祭っています。<br><br>今度亡夫の位牌を自分で御祭り致そうと存じましたが、弟が渡してくれませんので、新しく作り、ただ今の同居先において御祭りをいたしておりますが、仏壇の前に参りますと無意識に倒れます。<br><br>何か霊的に関係がございますでしょうか。<br><br>御伺い申し上げます。<br><br>なおこの者は以前不動尊の信者で御座いました。<br><br> 位牌を新しくしたらそれで構わぬ。<br><br>倒されるのは何か目的がある。<br><br>不動様を祀ってくれというのかもしれぬ。<br><br>霊界へ行っても暫くは不動様を拝みたいものである。<br><br>光明如来様をお祭り出来れば霊は自然に転向する。<br><br>それから不動様を祀ればよい。<br><br>（S24.10. 2） 039 御屏風倒れ、香灰円を画く（縁談を嫌う） 御神体並びに御屏風観音様をお祀り致しております信者で御座いますが、去る三月二十一日祖先のお位牌を新しく作りお祀り致しましたが、三月二十九日朝、御屏風観音様が中央の台（黒色）より落ち、御位牌の前方に伏さっておりました。<br><br>それから数日後坊さんが見え、お経を奏げた後、当家の家族の者が線香を上げました所、一本は灰になって折れ、他の一本は灰になっても円を描いたまま立っておりました。<br><br>なお、当家の嫁は数年前死亡致しておりまして、現在はその配偶者の縁談が進められておりますが、円滑に行っておりません。<br><br>御屏風観音が台より落ちました事、並びに線香の灰が円を描きました事等、何か祖霊の暗示のようにも思われますが、どうで御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 嫁の執着が残っていて、縁談があるのが気に入らず知らせる。<br><br>相当日時も経っているから執着がとれる筈である。<br><br>も少し様子をみよ。<br><br>（S25. 5.12） 040 猫御神床を汚す（飼猫を嫌う） 生後三ケ月の猫を貰って間もなく、大光明如来様の床の間に上り水を呑み、お光様の置いてある三宝の上に上り、またはお額の後ろに上ったりして、いくら御浄霊をし、また追払ってもすぐ上ってしまいます。<br><br>これはいかなる訳でしょうか。<br><br>御伺い申し上げます。<br><br> これは猫を飼うなという事である。<br><br>飼っていい人といけない人とある。<br><br>この人は飼ってはいけないのである。<br><br>よく飼っても飼っても逃げられるのがあるが、これは祖霊が嫌がるのである。<br><br>（S24. 9.17）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Volume III da Ciência Espiritual: Explanação sobre os Diversos Espíritos (Parte 1)</h2>
 <h2>Advertências (Parte 2)</h2>
@@ -150,5 +302,48 @@ O apego da falecida esposa ainda persiste. Descontente com a perspectiva do novo
 <p>Logo após adotarmos um filhote de gato de três meses, ele passou a subir no <em>tokonoma</em> onde se encontra a imagem de Dai-Komyo Nyorai-Sama (大光明如来様). Ele bebe a água, sobe no <em>sanpo</em> (三宝) onde está o Ohikari e até mesmo se esconde atrás da moldura. Por mais que lhe ministremos Johrei ou o enxotemos, ele sempre retorna. Qual a razão para tal comportamento?</p>
 <p><strong>Resposta de Meishu-Sama:</strong>
 Isso é um sinal para que não criem o gato. Há pessoas que podem ter animais de estimação e outras que não. No caso de sua família, não é recomendável. Existem casos de pessoas que, por mais que tentem, seus animais sempre fogem. Isso acontece porque os espíritos ancestrais os desaprovam.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（一） ３ 029-040 戒告２ 029 鼠や蛇が仏壇に出る事（信仰の戒め） 某青年、最近非常に信仰が増し、お道に専念したい希望に燃えていた所、毎晩非常に鼠が騒ぎ、そして八月十六日には、仏壇を拝んでいると、仏壇の側方から蛇が頭を出していました。<br/><br/>その他鼠が仏壇の中を汚したり、光新聞を噛切ったりしました。<br/><br/>その後近所の方を御浄霊していると突然手が猛烈な勢いで信者の患部に向って動きます。<br/><br/>振れるままに振っているとピタッと止りました。<br/><br/>止った時に治ったと言っていました。<br/><br/>霊憑りになりましたが審神しても現在の所正体が判明致しません。<br/><br/>右に就き―― 鼠や蛇が出るというのは、この人の信仰に何か違った所があるので、祖霊がそういうものを使って気付かせようとしたのである。<br/><br/>よく自省してみよ。<br/><br/>それには出版物を出来るだけ読む事である。<br/><br/>それに合っていれば、それでよい。<br/><br/> 030 仏壇の御屏風観音様寄りの花枯れる（入信を求む） 妻は入信（昭和二十年）、夫は未入信の家で御座いますが、仏壇のお花を新しく替え、三日目頃になりますと御屏風観音様に寄った方だけ必ず枯れるのですが、何か信仰上間違いがあるので、祖霊の戒告で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 主人が入信しないため、祖霊が戒告を与えているのである。<br/><br/>（S25. 5.18） 031 位牌倒る（入信に満足） 一、私の母は法華教の信者でありますが、以前より母が経文をあげます時や、普段でも祖父母や戦死した兄の位牌が倒れましたが、私の家に祖父時代よりありました古井戸を井戸換へ致しました時に、お神酒徳利と共に木の目も露わな古位牌が出ましたので、それも祭りました所、それも倒れるようになりましたが、私が昨年七月教修を頂きましてよりは、母が経文をあげる時にのみ、それらが倒れるようになり、今年に入りましてからはその古位牌のみが倒れるようになりました。<br/><br/> 二、しかし私が善言讃詞をあげさせて頂きますと何の変化も御座居ません。<br/><br/>このような事はどのような訳で御座居ましょうか。<br/><br/>また、この古位牌はどのようにさせて頂きましたら宜しゅう御座居ましょうか。<br/><br/> 祖霊が今迄の信仰などが気に入らぬので知らしたが、この教団の信仰に入ったので知らす要なく、満足したためである。<br/><br/>（S24. 2. 4） 032 仏壇の不思議（狐霊の業） 最近龍神、狐霊を一応解決させて戴きましたある婦人の家の仏壇に次のような異変が起りました。<br/><br/> イ、位牌が自然に前にずれ出たり、倒れたり、また、自然に起き上ったり、左右に向き合ったりすることが頻繁に起ります。<br/><br/> ロ、お供えした食膳の御飯、味噌汁、漬物等が何度も全部無くなっております。<br/><br/> その信者さんの家は大分乱れておりますが、このようなことはいかなる訳で御座いましょうか。<br/><br/> 狐のイタズラである。<br/><br/>こういう事を狐はよくやる。<br/><br/>ひどいのになると花を生けても生けても花瓶を倒す事がある。<br/><br/>何か面白くない事があるとか、間違った事があると、祖霊が気付かすべく狐をつかってする事もあるから、悪くとってはいけない。<br/><br/>早く光明如来様を祭ってもらいたいのであろう。<br/><br/>（S24. 6.22） 033 位牌倒る（物質移動） 私は本年五月二十日夜、自宅にて次のような夢を見ました。<br/><br/>それは「実家の家が東西に揺れ、三回目に西に倒れました。<br/><br/>家の者は皆下敷となりましたのに、私は戦死した弟が裸体で現われ、連出してくれました」その夢を見るその十日程前より私の薬指に魚の目が出来ておりました。<br/><br/>当地方では内側に出来ると家の者、外側は遠縁が死ぬと申しております。<br/><br/>また、五月三十日朝、仏壇に確かにあった弟の位牌が長男（二十八歳）の枕元に倒れておりました。<br/><br/>何か霊的因縁でもあるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 夢の意味はなくもないが、余程著しいのでないと気にする要はない。<br/><br/>現実でないから確実性はない。<br/><br/>迷信ほどではないが、問題にならぬ。<br/><br/>（手に魚の目の出来るのはあまりない。<br/><br/>大抵足である） 位牌の倒れるのは変である。<br/><br/>霊には物質移動が出来る。<br/><br/>狐に頼むのである。<br/><br/>（何か要求があるのであろう。<br/><br/>その家の人が考えれば分る筈である。<br/><br/>位牌の順序が違っている時など、よく位牌が倒れたりする）（S24. 7.28） 034 仏壇の供水消失す（水要求） ある信者の家で毎日仏壇にお水をお供えしますが、時々そのお水が全部無くなります。<br/><br/>そして水が無くなってから一週間経つと必ず病が出ます。<br/><br/>何か霊的に意味がありましょうか。<br/><br/> 祖霊の中で、龍神になってるのがあって、喉が涸くために水を飲むのである。<br/><br/>病人が出るのは水をもっと欲しいのかもしれないから、もっと水をやってみるといい。<br/><br/> 035 仏壇の水泡立つ 二十三歳の婦人、御霊徳に依りまして楽に死亡致しました。<br/><br/>死後一週間位して仏壇へお供えした水のコップに泡が沢山立ちました。<br/><br/>何か意味が御座いましょうか。<br/><br/> 霊が水を飲んだ事を知らしたのである。<br/><br/>よく水を上げてやるとよい。<br/><br/>（S24. 8. 9） 036 仏前の飯消失す 和歌山県のある信者が、お詣りに参っている留守中、家族が仏前に御飯を三つ御供え致しましたところ、その留守中三日間共右の端の一つが消えて無くなりました。<br/><br/>何か霊的に意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 祖先に三つお供えするのは嘘である。<br/><br/>一つでいいので、それを警告したのであろう。<br/><br/>物質がなくなる事はあり得る。<br/><br/>狐に頼むのである。<br/><br/>（S23.10.21） 037 仏壇の蛇の怒り（火事と子の病気） 北原八千代（四十三歳）と言う信者の家で御座いますが、三年程前に蛇が仏壇に入っていたのを線香で燻した所、仏壇の屋根の中に逃げ込んだので、その屋根をそのまま持ち上げて小屋の中に入れておきました所、数日後（四月八日）、八千代の子で五歳になる子供が火遊びし、小屋より発火し火事になり、小屋、工場、住家を全焼致しました。<br/><br/>主人の妻、八千代は以前より少し胸が悪くはありましたが、急に喉頭結核に罹り、息子の寿倫（みちとし）（二十一歳）は肋膜に罹りました。<br/><br/>本年二月末より御浄霊を戴くようになり、二人共教修戴きました。<br/><br/>家はバラック建で、床の間がないので御屏風様だけ御祀りして御座います。<br/><br/>六月二十二日に御浄霊により元気になっておりました寿倫が、突然手足が全然利かなくなりまして医療（注射、マッサージ）を受けたそうで御座います。<br/><br/>数日前よりまた御浄霊をさせて戴いておりますが、未だ変化が認められません。<br/><br/>これはどう致したら宜敷いもので御座いましょうか。<br/><br/> これは、蛇は祖霊であるから、鄭重にすればよいのにイジめたので怒ったのである。<br/><br/>火事を起したのも、病気にしたのも、皆そうである。<br/><br/>よくお詫びするとよい。<br/><br/>そして、幽世大神様に、人間に生れ代る事をお願いする。<br/><br/> 子供も、気付かすためにいろいろやったのであるから、出来るだけ祝詞を奏げ、仏壇へ入ってもらいたいと幽世大神様にもお願いする。<br/><br/>いけなければ庭へでも祀らなくてはいけない。<br/><br/>（S24. 7. 2） 038 仏前で倒れる元不動信者 入信者佐藤イキ（五十六歳）と申す者で御座います。<br/><br/>ただ今娘の嫁入先に同居いたしていますが、亡夫の墓は福岡県朝倉郡秋田町に御座いまして、亡夫の御位牌はその弟が祭っています。<br/><br/>今度亡夫の位牌を自分で御祭り致そうと存じましたが、弟が渡してくれませんので、新しく作り、ただ今の同居先において御祭りをいたしておりますが、仏壇の前に参りますと無意識に倒れます。<br/><br/>何か霊的に関係がございますでしょうか。<br/><br/>御伺い申し上げます。<br/><br/>なおこの者は以前不動尊の信者で御座いました。<br/><br/> 位牌を新しくしたらそれで構わぬ。<br/><br/>倒されるのは何か目的がある。<br/><br/>不動様を祀ってくれというのかもしれぬ。<br/><br/>霊界へ行っても暫くは不動様を拝みたいものである。<br/><br/>光明如来様をお祭り出来れば霊は自然に転向する。<br/><br/>それから不動様を祀ればよい。<br/><br/>（S24.10. 2） 039 御屏風倒れ、香灰円を画く（縁談を嫌う） 御神体並びに御屏風観音様をお祀り致しております信者で御座いますが、去る三月二十一日祖先のお位牌を新しく作りお祀り致しましたが、三月二十九日朝、御屏風観音様が中央の台（黒色）より落ち、御位牌の前方に伏さっておりました。<br/><br/>それから数日後坊さんが見え、お経を奏げた後、当家の家族の者が線香を上げました所、一本は灰になって折れ、他の一本は灰になっても円を描いたまま立っておりました。<br/><br/>なお、当家の嫁は数年前死亡致しておりまして、現在はその配偶者の縁談が進められておりますが、円滑に行っておりません。<br/><br/>御屏風観音が台より落ちました事、並びに線香の灰が円を描きました事等、何か祖霊の暗示のようにも思われますが、どうで御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 嫁の執着が残っていて、縁談があるのが気に入らず知らせる。<br/><br/>相当日時も経っているから執着がとれる筈である。<br/><br/>も少し様子をみよ。<br/><br/>（S25. 5.12） 040 猫御神床を汚す（飼猫を嫌う） 生後三ケ月の猫を貰って間もなく、大光明如来様の床の間に上り水を呑み、お光様の置いてある三宝の上に上り、またはお額の後ろに上ったりして、いくら御浄霊をし、また追払ってもすぐ上ってしまいます。<br/><br/>これはいかなる訳でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> これは猫を飼うなという事である。<br/><br/>飼っていい人といけない人とある。<br/><br/>この人は飼ってはいけないのである。<br/><br/>よく飼っても飼っても逃げられるのがあるが、これは祖霊が嫌がるのである。<br/><br/>（S24. 9.17）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

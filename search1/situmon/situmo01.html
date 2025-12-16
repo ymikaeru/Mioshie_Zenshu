@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 （一） 『地上天国』創刊号、昭和23(1948)年12月1日発行 左の記録は、顧問大先生が、われらの随時の質問に解答を与えられた無数の御垂示の筆録中よりの抜粋である。<br><br> 大先生には毎日約一時間、別院に参集する教師、教導師、信者等の質疑事項に対し解明せられる時を与えられている。<br><br>そうして古今未顕の観音の教えを懇切に開示せられ、神幽現三界に渉っての真理を能う限り把握せしめ、大覚者として地上天国建設に有用なる人材を養成せんと努めておられる。<br><br>その筆記の山積せる中より適宜に抜記して、御著書「信仰雑話」「霊界叢談」等の補助的資料に供し、あわせて求道の綱ともならんことを期しこの欄を設けたしだいである。<br><br> 質疑の範囲は単に信仰上の問題のみに限定せられず宗教、天文、地文、政治、経済、教育、科学、芸術、哲学、易学、農業等はもとより人生百般の問題に渉り、根本の真理を開示せられる。<br><br> いかなる難問も快刀乱麻を絶つごとく、鮮やかに即断せられ迷雲は一掃されてあますところもない。<br><br> 机上にかさなる質問数の多少にかかわらず、当意即妙、水の流るるごとくなんらの遅滞なく処理せられ、極めて明確に徹せしめられる。<br><br> その御言辞は極めておだやかで、無学者にも解し得る簡易平明さであるが、また極めて徹底的でいささかの曖昧さもなく、天日の輝くごとき光明をもって魂に浸透する。<br><br>皮肉と諧謔に富み、時に爆笑を発せしめ、常に春風和煕の陽気に包まれる。<br><br>列座の者みな謎は解明され、悩みより解放され、安心立命、知らず識らず天国に遊ぶ思いに浸り、魂の勇躍を覚えるのである。<br><br> その自湧的神智の深遠洪大、とうてい人智の測り得るところではなく、自由無碍なる観音妙智の輝きをマザマザと眼前に拝せしめらるるところである。<br><br>すなわち題して「妙智の光」と称うるゆえんである。<br><br> 【問】宗教と科学の関係、および両者とも永久に必要でしょうか、どちらか不要になる時が来るでしょうか。<br><br> 【答】これはどちらも不要なものでなく、どこまでも進歩発達すべきものである。<br><br>少なくとも宗教がなかったら人類の罪穢は溜まるのみで、それによって生ずる毒素の堆積は人類の破滅することになる、それは浄化のため大天災が続くからで、また科学がなかったら人類文化は進歩しない。<br><br> 宗教と科学は同じものであることはすでに「信仰雑話」で説いた。<br><br>従って、科学で説明できない宗教は本当のものではなく、同時に宗教で説明できない科学も本当のものではない。<br><br> 宗教を度外視した科学の発明は恐ろしいことはいうまでもない、科学の進歩が人類の幸福と伴わないのはそのためである、いままでは宗教を閑却し、むしろ否定したが、科学の進歩に伴い宗教も一緒に発達して行かなくてはならぬ。<br><br> 【問】血統と霊統の区別と関係および血族結婚の可否について御垂示ください。<br><br> 【答】血統と霊統は同じように思えるが実は異うので、両者は宿命と運命の関係に似ており、血統は変え得るが、霊統は変えることはできない。<br><br>血統はいろいろ混る、日本人などもずいぶん混血しており、純粋の日本人はないといってもいい、霊統は霊の系統であって肉体の混血にかかわらず一貫して続いている、また混血は非常に結構である。<br><br>なんとなればそれぞれの人種の特長を数多く採り入れるから、それだけ人間の性能が豊富になるからである。<br><br>よく血の純潔をやかましくいうがこれは誤りで純潔はいけないのである。<br><br> 文化でも各国の文化が混るほど高度なものとなるから、そういう国ほど文化が進んでいる。<br><br>アメリカなどはよい例である。<br><br> 血族結婚は差し支えない、血族結婚は不具が出たり、不幸になるなどというが決してそんなことはない。<br><br>太古はみなそうであった。<br><br>よく平家村といって特殊な村があるがこれはみな血族結婚である。<br><br> かつて私は奥日光の湯西川温泉へ行ったことがあるが、ここはやはり平家村であって、戸数九十戸、人口六百人ほどであるが、病人は中風の者が一人きりでほとんどない、勿論無医村である。<br><br>宿の娘と話したが実に言語応対当を得ており、すばらしく頭がいい。<br><br>話によれば、初め平家の残党が逃げて来たときは三十人ほどであったというから、血族結婚で殖えたことは勿論である。<br><br> 日本の神代史によれば、初め伊邪諾（いざなぎ）、伊邪冊尊（いざなみのみこと）の陰陽二神があり、それから殖えたのであるから、最初は右二神から生まれた兄弟同士が結婚したに違いない、夫婦のことを妹背（いもせ）の道といい、妻を吾妹子（わぎもこ）と呼ぶのは兄と妹と結婚したからであろう。<br><br> 【問】邪神はことさら正神らしく見せかけるように思われますがいかがでしょうか。<br><br> 【答】これは無論そうであって、最初から邪神と分かられては人間のほうで警戒するから、邪神の目的は立たぬ、どこまでも正神と見せかけて間違ったこと悪いことを、善いこと正しいことのように思わせるものである。<br><br>邪神はいわば人間界の詐欺師のようなものである。<br><br>これを認識しないと邪神の術中に陥るのであるから、よほどはっきりとした眼識をもたねばならぬ。<br><br> 私の「信仰雑話」を書いたのも一つはそういうものにしっかりした判別力を植え付けるためでもあるから、どうしてもこれによって智慧証覚を磨かねばならぬ。<br><br>従って邪神の言動は立派に見えても必ずどこかに欠点のあるもので、容易に見破り得るのであるが、人間はその判断がつかぬため他愛なく騙されるのである。<br><br>例えば共産主義のごとき、これは自己の階級だけを愛し、他を打倒しようとする間違ったものであるが、主義者はこれこそ大衆を救う唯一のものであり、絶対の真理だと信じてやっている。<br><br>それだけにまた非常に強いところがある。<br><br> また社会主義のごときもそうで、これが本当のやり方で、これによって社会は救われると信じ切っている、この主義によると、賢者も、智者も、愚者も、偉人も平等に取り扱おうとする、そこに不公平がある。<br><br>大自然を見てもいっさいにおのずから階級がある。<br><br>偉人とか智者は社会からそれ相当の地位を与えられ優遇さるべきが本当であって、それによって社会の秩序が保たれる、また社会主義は人間の競争心をなくそうとするが、これは文化の進歩を阻害することになる。<br><br>競争心があるので進歩発展するのである。<br><br> 次に資本主義もはなはだ間違っている、これは、金力をもって大衆の幸福を蹂躙することになるからである、どうしても全体が幸福を得るという全体幸福主義というような新しい思想が生まれなくてはならない、そこまで文化が向上することを念願として進むべきである。<br><br> 【問】趣味として魚釣りをすることは差し支えないでしょうか。<br><br> 【答】これは趣味として熱中しない程度なれば差し支えない。<br><br>ただあまり凝ると魚の祟りがある。<br><br>私は若いころ釣りに凝って指が腐ったようになった経験がある。<br><br>これはみみずと魚の怨みで、特にみみずは龍神の一種であるから祟るのである。<br><br>しかしあまり凝ると、魚釣りの殺生の罪よりも、なまけの罪のほうが大きいことになるから注意すべきである。<br><br>人間は常に五体を有用に使うよう心掛くべきで、特に頭を使うほうがよい。<br><br>頭は使うほど発達し長生きをするから、頭を使う学者、僧侶などはそうである。<br><br>あまり使わぬ野蛮人などは割合に早死にするをみても知らるるのである。<br><br> 【問】人類にはいかなるわけで悪があり、苦がありましょうか。<br><br> 【答】これは人類を造った神様でなくては、造られた人間では判り得べくもない。<br><br>私も造られた人間であって造ったほうではないからその真意は判らぬが、ただおよその想像はできるわけで、無論なにかの必要があって、そういうふうに造られたものと思う。<br><br> 元来主神は全宇宙そのものがその御所有物であって善も悪もないが、神典にあるごとくその主神から分かれて霊系の祖が高皇産霊神（たかみむすびのかみ）、体系の神が神皇産霊神（かむみむすびのかみ）となられた。<br><br>これは陰陽の神であり、陽陰はすでに善悪である。<br><br>そして悪に属する神を邪神、善に属する神を正神という。<br><br>この善悪が始終摩擦し争闘しつつ、人類は生成化育し今日のごとく輝かしい文化の発達をみたのである。<br><br>この点が人間としての考え方の難しいところで「悪人を造っておいて裁くなら初めから造らなければいいではないか、審判などといって人間を悪いことをするように造っておきながら、罪を罰するとは無慈悲不合理だ」と言う人もあるが、私としても造られた側に立っているので神意を知り得べくもないが、なんのために悪を造られたかの想像はつく。<br><br>それはたしかに悪によって善が活動し文化が進歩を遂げたという事実である。<br><br> しかしながら人間として悪いことをすると悪い結果が必ず来る。<br><br>すなわち因果応報で、これは間違いのない事実であり、真理である。<br><br>どんなにしても善でなくては栄えない。<br><br> 人を苦しめれば自分が苦しむ。<br><br>人を幸福にすれば自分が幸福になる。<br><br>そうすると善いことをしたほうが得だという結論になるから人間は善事を目標としなくてはならぬ。<br><br> 次に苦しみもなにかの必要があって造られたもので、現実の苦はいかにして祓除（ふつじょ）し得るかである。<br><br>それは神から苦悩の元たる曇りを除っていただくほかはなく、神仏の光によって除ってもらうのである。<br><br>観音教団の浄霊はそのためにできたもので、この浄霊により神の光が放射され曇りは解消し、苦悩はさっぱりと除れるのである。<br><br>そうしてこの曇りは信仰と徳の程度により、大きくも小さくも除れるのである。<br><br>邪念や言葉の罪などは朝夕神仏を礼拝することによって大方は浄められるがそれのみでは本当でない。<br><br>やはり人を幸福にすることが肝要で、信仰は拝むのみでは本当に救われぬ。<br><br>まず多くの人に喜びを与えなくてはならぬ。<br><br> 【問】虹が七色になり丸くなって出るのはどういうわけでしょうか。<br><br> 【答】虹が七色になるのは学説のごとく、太陽の光線が分光されたもので、七色の色彩を塗った円板を回転さすと白く見えるが、それと逆の理によるのである。<br><br>空中の水の粒子すなわち水蒸気の濃度が感受性の鋭いためプリズムの作用をして分光するわけで、これも神様が造った一つの天然の美である。<br><br> 丸くなるのは太陽でも月でもそうであるが、すべて物質は円状であるのが原則である。<br><br> 神様と人間霊も移動するとき丸くなって行くのである。<br><br> 私の腹の中にも丸い光の玉がある、その光が御守を通じて働くのである。<br><br> 【問】自由主義の本義について。<br><br> 【答】自由主義といっても無軌道な自由主義ではいけない。<br><br>自由主義には有限自由主義と無限自由主義とがある。<br><br>無限自由とはなんでもかでも自分の自由にするという悪性的のものであり、有限自由はある範囲があって、その枠を越えないことでこれが本当の正しい自由主義である。<br><br> 故に無限自由主義によって破滅した人は古来その例に乏しくない。<br><br> そうして自由と運命とはよく似ている。<br><br>例えば秀吉は日本で関白になるのが運命の限度であった。<br><br>朝鮮出兵をしたのはその限度を破ったことになる。<br><br>ヒトラーでもドイツだけ治めていればよかった。<br><br>ドイツの統治が彼の運命の限度であった。<br><br>これもその運命を突き破って滅びた。<br><br>大本教の出口王仁三郎氏のごときもやはり運命を突き破ろうとしたために失敗したが、それがなければ今はすばらしいものになっていたであろう。<br><br>ナポレオンのごときも「わが辞書に不可能の文字なし」などとうぬぼれの極、大失敗した。<br><br>徳川家康などはその分をよく知っていたから長く続いたのである。<br><br>人は自分をよく見究めなくてはならない。<br><br>人間は調子よくゆくと慢心する結果、運命を破るのである。<br><br>日本も軍閥時代は個人の有限自由までも圧迫した。<br><br>それがアメリカの手により開放されたしだいである。<br><br>故に真の自由主義とは、他人の自由を尊重し合うことである。<br><br> 【問】潮の満干が人間の生死に関係するわけ。<br><br> 【答】潮の満干は月の引力によって起るので月の引力とは月の呼吸作用である。<br><br>月も一日一回ずつ呼吸するわけである。<br><br> 太陽は人間の霊の本であり、人間の体の本は月である。<br><br>故に胃脳肝腸腎というように人体内の機能の大方は月の字が入っている。<br><br>ただ心臓の心は月がない。<br><br>これは太陽からの火素を吸収する器官だからである、心臓の心の字の右の点を左へおけば火となるのもおもしろい。<br><br> かくのごとく人間の肉体は月と密接な関係があり月の霊線は肉体と繋がっているので、月の呼吸が人間の生死に関係するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Luz da Sublime Sabedoria (I)</h2>
 <p>Os registros a seguir constituem uma seleção extraída das inúmeras transcrições de orientações concedidas pelo Grande Mestre em resposta às nossas indagações cotidianas.</p>
@@ -131,5 +283,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> As marés são causadas pela força de atração da Lua, que, em essência, é a sua própria respiração. A Lua também respira, uma vez por dia.</p>
 <p>O Sol é a origem do espírito humano, enquanto a Lua é a origem do corpo. Por essa razão, a maioria dos ideogramas que designam órgãos vitais — como estômago (胃), cérebro (脳), fígado (肝), intestinos (腸) e rins (腎) — contém o radical que representa a Lua (月). A única exceção notável é o coração (心), que não o possui. Isso ocorre porque o coração é o órgão que absorve o elemento fogo proveniente do Sol. É curioso notar que, se deslocarmos um dos traços do ideograma de coração (心), obtemos o ideograma de fogo (火).</p>
 <p>Dessa forma, o corpo humano possui uma relação íntima com a Lua, e a linha espiritual que nos conecta a ela faz com que sua respiração influencie a vida e a morte dos seres humanos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智之光 （一） 『地上天国』創刊号、昭和23(1948)年12月1日発行 左の記録は、顧問大先生が、われらの随時の質問に解答を与えられた無数の御垂示の筆録中よりの抜粋である。<br/><br/> 大先生には毎日約一時間、別院に参集する教師、教導師、信者等の質疑事項に対し解明せられる時を与えられている。<br/><br/>そうして古今未顕の観音の教えを懇切に開示せられ、神幽現三界に渉っての真理を能う限り把握せしめ、大覚者として地上天国建設に有用なる人材を養成せんと努めておられる。<br/><br/>その筆記の山積せる中より適宜に抜記して、御著書「信仰雑話」「霊界叢談」等の補助的資料に供し、あわせて求道の綱ともならんことを期しこの欄を設けたしだいである。<br/><br/> 質疑の範囲は単に信仰上の問題のみに限定せられず宗教、天文、地文、政治、経済、教育、科学、芸術、哲学、易学、農業等はもとより人生百般の問題に渉り、根本の真理を開示せられる。<br/><br/> いかなる難問も快刀乱麻を絶つごとく、鮮やかに即断せられ迷雲は一掃されてあますところもない。<br/><br/> 机上にかさなる質問数の多少にかかわらず、当意即妙、水の流るるごとくなんらの遅滞なく処理せられ、極めて明確に徹せしめられる。<br/><br/> その御言辞は極めておだやかで、無学者にも解し得る簡易平明さであるが、また極めて徹底的でいささかの曖昧さもなく、天日の輝くごとき光明をもって魂に浸透する。<br/><br/>皮肉と諧謔に富み、時に爆笑を発せしめ、常に春風和煕の陽気に包まれる。<br/><br/>列座の者みな謎は解明され、悩みより解放され、安心立命、知らず識らず天国に遊ぶ思いに浸り、魂の勇躍を覚えるのである。<br/><br/> その自湧的神智の深遠洪大、とうてい人智の測り得るところではなく、自由無碍なる観音妙智の輝きをマザマザと眼前に拝せしめらるるところである。<br/><br/>すなわち題して「妙智の光」と称うるゆえんである。<br/><br/> 【問】宗教と科学の関係、および両者とも永久に必要でしょうか、どちらか不要になる時が来るでしょうか。<br/><br/> 【答】これはどちらも不要なものでなく、どこまでも進歩発達すべきものである。<br/><br/>少なくとも宗教がなかったら人類の罪穢は溜まるのみで、それによって生ずる毒素の堆積は人類の破滅することになる、それは浄化のため大天災が続くからで、また科学がなかったら人類文化は進歩しない。<br/><br/> 宗教と科学は同じものであることはすでに「信仰雑話」で説いた。<br/><br/>従って、科学で説明できない宗教は本当のものではなく、同時に宗教で説明できない科学も本当のものではない。<br/><br/> 宗教を度外視した科学の発明は恐ろしいことはいうまでもない、科学の進歩が人類の幸福と伴わないのはそのためである、いままでは宗教を閑却し、むしろ否定したが、科学の進歩に伴い宗教も一緒に発達して行かなくてはならぬ。<br/><br/> 【問】血統と霊統の区別と関係および血族結婚の可否について御垂示ください。<br/><br/> 【答】血統と霊統は同じように思えるが実は異うので、両者は宿命と運命の関係に似ており、血統は変え得るが、霊統は変えることはできない。<br/><br/>血統はいろいろ混る、日本人などもずいぶん混血しており、純粋の日本人はないといってもいい、霊統は霊の系統であって肉体の混血にかかわらず一貫して続いている、また混血は非常に結構である。<br/><br/>なんとなればそれぞれの人種の特長を数多く採り入れるから、それだけ人間の性能が豊富になるからである。<br/><br/>よく血の純潔をやかましくいうがこれは誤りで純潔はいけないのである。<br/><br/> 文化でも各国の文化が混るほど高度なものとなるから、そういう国ほど文化が進んでいる。<br/><br/>アメリカなどはよい例である。<br/><br/> 血族結婚は差し支えない、血族結婚は不具が出たり、不幸になるなどというが決してそんなことはない。<br/><br/>太古はみなそうであった。<br/><br/>よく平家村といって特殊な村があるがこれはみな血族結婚である。<br/><br/> かつて私は奥日光の湯西川温泉へ行ったことがあるが、ここはやはり平家村であって、戸数九十戸、人口六百人ほどであるが、病人は中風の者が一人きりでほとんどない、勿論無医村である。<br/><br/>宿の娘と話したが実に言語応対当を得ており、すばらしく頭がいい。<br/><br/>話によれば、初め平家の残党が逃げて来たときは三十人ほどであったというから、血族結婚で殖えたことは勿論である。<br/><br/> 日本の神代史によれば、初め伊邪諾（いざなぎ）、伊邪冊尊（いざなみのみこと）の陰陽二神があり、それから殖えたのであるから、最初は右二神から生まれた兄弟同士が結婚したに違いない、夫婦のことを妹背（いもせ）の道といい、妻を吾妹子（わぎもこ）と呼ぶのは兄と妹と結婚したからであろう。<br/><br/> 【問】邪神はことさら正神らしく見せかけるように思われますがいかがでしょうか。<br/><br/> 【答】これは無論そうであって、最初から邪神と分かられては人間のほうで警戒するから、邪神の目的は立たぬ、どこまでも正神と見せかけて間違ったこと悪いことを、善いこと正しいことのように思わせるものである。<br/><br/>邪神はいわば人間界の詐欺師のようなものである。<br/><br/>これを認識しないと邪神の術中に陥るのであるから、よほどはっきりとした眼識をもたねばならぬ。<br/><br/> 私の「信仰雑話」を書いたのも一つはそういうものにしっかりした判別力を植え付けるためでもあるから、どうしてもこれによって智慧証覚を磨かねばならぬ。<br/><br/>従って邪神の言動は立派に見えても必ずどこかに欠点のあるもので、容易に見破り得るのであるが、人間はその判断がつかぬため他愛なく騙されるのである。<br/><br/>例えば共産主義のごとき、これは自己の階級だけを愛し、他を打倒しようとする間違ったものであるが、主義者はこれこそ大衆を救う唯一のものであり、絶対の真理だと信じてやっている。<br/><br/>それだけにまた非常に強いところがある。<br/><br/> また社会主義のごときもそうで、これが本当のやり方で、これによって社会は救われると信じ切っている、この主義によると、賢者も、智者も、愚者も、偉人も平等に取り扱おうとする、そこに不公平がある。<br/><br/>大自然を見てもいっさいにおのずから階級がある。<br/><br/>偉人とか智者は社会からそれ相当の地位を与えられ優遇さるべきが本当であって、それによって社会の秩序が保たれる、また社会主義は人間の競争心をなくそうとするが、これは文化の進歩を阻害することになる。<br/><br/>競争心があるので進歩発展するのである。<br/><br/> 次に資本主義もはなはだ間違っている、これは、金力をもって大衆の幸福を蹂躙することになるからである、どうしても全体が幸福を得るという全体幸福主義というような新しい思想が生まれなくてはならない、そこまで文化が向上することを念願として進むべきである。<br/><br/> 【問】趣味として魚釣りをすることは差し支えないでしょうか。<br/><br/> 【答】これは趣味として熱中しない程度なれば差し支えない。<br/><br/>ただあまり凝ると魚の祟りがある。<br/><br/>私は若いころ釣りに凝って指が腐ったようになった経験がある。<br/><br/>これはみみずと魚の怨みで、特にみみずは龍神の一種であるから祟るのである。<br/><br/>しかしあまり凝ると、魚釣りの殺生の罪よりも、なまけの罪のほうが大きいことになるから注意すべきである。<br/><br/>人間は常に五体を有用に使うよう心掛くべきで、特に頭を使うほうがよい。<br/><br/>頭は使うほど発達し長生きをするから、頭を使う学者、僧侶などはそうである。<br/><br/>あまり使わぬ野蛮人などは割合に早死にするをみても知らるるのである。<br/><br/> 【問】人類にはいかなるわけで悪があり、苦がありましょうか。<br/><br/> 【答】これは人類を造った神様でなくては、造られた人間では判り得べくもない。<br/><br/>私も造られた人間であって造ったほうではないからその真意は判らぬが、ただおよその想像はできるわけで、無論なにかの必要があって、そういうふうに造られたものと思う。<br/><br/> 元来主神は全宇宙そのものがその御所有物であって善も悪もないが、神典にあるごとくその主神から分かれて霊系の祖が高皇産霊神（たかみむすびのかみ）、体系の神が神皇産霊神（かむみむすびのかみ）となられた。<br/><br/>これは陰陽の神であり、陽陰はすでに善悪である。<br/><br/>そして悪に属する神を邪神、善に属する神を正神という。<br/><br/>この善悪が始終摩擦し争闘しつつ、人類は生成化育し今日のごとく輝かしい文化の発達をみたのである。<br/><br/>この点が人間としての考え方の難しいところで「悪人を造っておいて裁くなら初めから造らなければいいではないか、審判などといって人間を悪いことをするように造っておきながら、罪を罰するとは無慈悲不合理だ」と言う人もあるが、私としても造られた側に立っているので神意を知り得べくもないが、なんのために悪を造られたかの想像はつく。<br/><br/>それはたしかに悪によって善が活動し文化が進歩を遂げたという事実である。<br/><br/> しかしながら人間として悪いことをすると悪い結果が必ず来る。<br/><br/>すなわち因果応報で、これは間違いのない事実であり、真理である。<br/><br/>どんなにしても善でなくては栄えない。<br/><br/> 人を苦しめれば自分が苦しむ。<br/><br/>人を幸福にすれば自分が幸福になる。<br/><br/>そうすると善いことをしたほうが得だという結論になるから人間は善事を目標としなくてはならぬ。<br/><br/> 次に苦しみもなにかの必要があって造られたもので、現実の苦はいかにして祓除（ふつじょ）し得るかである。<br/><br/>それは神から苦悩の元たる曇りを除っていただくほかはなく、神仏の光によって除ってもらうのである。<br/><br/>観音教団の浄霊はそのためにできたもので、この浄霊により神の光が放射され曇りは解消し、苦悩はさっぱりと除れるのである。<br/><br/>そうしてこの曇りは信仰と徳の程度により、大きくも小さくも除れるのである。<br/><br/>邪念や言葉の罪などは朝夕神仏を礼拝することによって大方は浄められるがそれのみでは本当でない。<br/><br/>やはり人を幸福にすることが肝要で、信仰は拝むのみでは本当に救われぬ。<br/><br/>まず多くの人に喜びを与えなくてはならぬ。<br/><br/> 【問】虹が七色になり丸くなって出るのはどういうわけでしょうか。<br/><br/> 【答】虹が七色になるのは学説のごとく、太陽の光線が分光されたもので、七色の色彩を塗った円板を回転さすと白く見えるが、それと逆の理によるのである。<br/><br/>空中の水の粒子すなわち水蒸気の濃度が感受性の鋭いためプリズムの作用をして分光するわけで、これも神様が造った一つの天然の美である。<br/><br/> 丸くなるのは太陽でも月でもそうであるが、すべて物質は円状であるのが原則である。<br/><br/> 神様と人間霊も移動するとき丸くなって行くのである。<br/><br/> 私の腹の中にも丸い光の玉がある、その光が御守を通じて働くのである。<br/><br/> 【問】自由主義の本義について。<br/><br/> 【答】自由主義といっても無軌道な自由主義ではいけない。<br/><br/>自由主義には有限自由主義と無限自由主義とがある。<br/><br/>無限自由とはなんでもかでも自分の自由にするという悪性的のものであり、有限自由はある範囲があって、その枠を越えないことでこれが本当の正しい自由主義である。<br/><br/> 故に無限自由主義によって破滅した人は古来その例に乏しくない。<br/><br/> そうして自由と運命とはよく似ている。<br/><br/>例えば秀吉は日本で関白になるのが運命の限度であった。<br/><br/>朝鮮出兵をしたのはその限度を破ったことになる。<br/><br/>ヒトラーでもドイツだけ治めていればよかった。<br/><br/>ドイツの統治が彼の運命の限度であった。<br/><br/>これもその運命を突き破って滅びた。<br/><br/>大本教の出口王仁三郎氏のごときもやはり運命を突き破ろうとしたために失敗したが、それがなければ今はすばらしいものになっていたであろう。<br/><br/>ナポレオンのごときも「わが辞書に不可能の文字なし」などとうぬぼれの極、大失敗した。<br/><br/>徳川家康などはその分をよく知っていたから長く続いたのである。<br/><br/>人は自分をよく見究めなくてはならない。<br/><br/>人間は調子よくゆくと慢心する結果、運命を破るのである。<br/><br/>日本も軍閥時代は個人の有限自由までも圧迫した。<br/><br/>それがアメリカの手により開放されたしだいである。<br/><br/>故に真の自由主義とは、他人の自由を尊重し合うことである。<br/><br/> 【問】潮の満干が人間の生死に関係するわけ。<br/><br/> 【答】潮の満干は月の引力によって起るので月の引力とは月の呼吸作用である。<br/><br/>月も一日一回ずつ呼吸するわけである。<br/><br/> 太陽は人間の霊の本であり、人間の体の本は月である。<br/><br/>故に胃脳肝腸腎というように人体内の機能の大方は月の字が入っている。<br/><br/>ただ心臓の心は月がない。<br/><br/>これは太陽からの火素を吸収する器官だからである、心臓の心の字の右の点を左へおけば火となるのもおもしろい。<br/><br/> かくのごとく人間の肉体は月と密接な関係があり月の霊線は肉体と繋がっているので、月の呼吸が人間の生死に関係するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気などは容易に治る 未発表、昭和11(1936)年5月17日執筆 今日、社会における療病法を検討する時、その余りに治病能力のないのに驚くのである。<br><br> 仮に、盲腸炎、窒扶斯（チフス）、肺炎位の程度の病気であってさえ、早くて一、二ケ月――長きは半ケ年にも及ぶのが実際である。<br><br>しかも、不幸にして生命を落す者さえあるに到っては、実に驚くの外は無いのである。<br><br>しかも、病気によっては二年三年、又十年以上に及ぶ者さえ有ると言う事実は、驚くよりも歎かざるを得ないのである。<br><br> しかし、世人はこれを常態として何ら怪まず――ただ諦めているという果敢（はか）ない実状である。<br><br>私はこれらを視る時、現代人が余りに健康を恵まれない事に、悲しまざるを得ないのである。<br><br>実に上は高位高官を初めとし――社会に相当『名を成す者』、又は天下国家の為――相当の抱負を抱いている者――手腕ある者――大天才ある者等々が割合――働き盛りの年齢で、すくなからず死んで行くのを見る毎に、痛歎を禁じ得ないのである。<br><br>その他――大志を抱いて病床に呻吟する者、偉才を抱きながら、療病生活に懊悩（おうのう）を続けつつある者、後継者を失って自失する者、事業の蹉跌（さてつ）に遭う者、一家離散する者、財産を蕩尽（とうじん）する者等、それら不幸者を調査したなら――いかなる多数に上るや量り知れないであろう。<br><br>それは――その悉（ことごと）くが容易に病気が治らないという、その一点に帰するのである。<br><br> 私が日々多くの病者を取扱いつつある、その経験に依れば、いかなる病気も実に容易に治癒されてゆく。<br><br>難病などという言葉は私には無いのであるが、ただしかし、割合日数の多くかかるものがある。<br><br>それはなぜであるかといえば、病気が重患であるからではない。<br><br>実際を言えば――薬剤の毒である。<br><br>即ち薬剤を多量に服用した者注射療法をされた者等であって、実に薬剤によって血液を溷濁（こんだく）させられ、浄化力薄弱になったが故である。<br><br>又、その他の原因としては、電気や光線療法によって病膿を固結させたが為である。<br><br> 故に、忌憚なく言えば、薬剤及び物理療法によって自然治癒力を衰弱させたが為である。<br><br>要するに、現代医学の治療に災させられたる為であるから、その誤療を訂正するそれに対しての日数がかかるのである。<br><br> 故に、医療の少ない者程治癒が速かであるのが、実験の結果として瞭（あきら）かになったのである。<br><br> そうして、それは長年に及び多数の患者を扱えば扱う程、いよいよ顕著になってゆくばかりであって、今日は最早一点疑う余地が無いまでに確実になった事である。<br><br>この様な説を読む世人としては、実に驚愕するであろうし、殊に専門家諸君はより以上驚愕するであろうが、事実はどうする事も出来得ないのである。<br><br>故に、この様な説を発表するにおいて、医に関係ある多数人士に対しては、実に忍びないのであるから、それが為、長い間いか程躊躇（ちゅうちょ）逡巡した事であろう。<br><br>しかしながら、益々社会大衆の病患者激増を目前にして、最早晏如（あんじょ）たる能（あた）わず、勇を鼓して発表するの余儀なきに到ったのである。<br><br> 故に、政府者も専門家も一般大衆諸君も、この説に対し、活眼を開いて徹底的に検討されたいのである。<br><br>この根本が真に明瞭になった暁――病気は治り易いという真理を発見する事が出来るのは必然である。<br><br> ただし、ここに一言言っておきたい事は、灸治法、掌療法、指圧等、薬剤と物理を応用してない患者は、いずれも多少の効果を奏して居る事は認め得らるるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura das Doenças é Surpreendentemente Simples</h2>
 <p>Ao analisarmos os métodos terapêuticos vigentes em nossa sociedade, surpreende-nos a sua extraordinária incapacidade de promover a cura. Mesmo em enfermidades como apendicite, febre tifoide ou pneumonia, a realidade é que o tratamento se estende, no mínimo, por um ou dois meses, chegando a durar até meio ano. É, de fato, espantoso que, ainda assim, existam aqueles que, por infortúnio, venham a perder a vida.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Por essa razão, ao publicar estas ideias, sinto um profundo pesar por tantos profissionais ligados à área médica. Foi justamente por essa consideração que hesitei e refleti por tanto tempo. Todavia, diante do aumento vertiginoso do número de doentes na sociedade, já não me é possível permanecer impassível. Senti-me, pois, na obrigação de tomar coragem e apresentar estas palavras ao mundo.</p>
 <p>Sendo assim, exorto as autoridades governamentais, os especialistas e o público em geral a abrirem os olhos da mente e analisarem esta tese com o máximo rigor. No momento em que este ponto fundamental for verdadeiramente compreendido, será inevitável que se descubra a verdade de que as doenças são, de fato, fáceis de curar.</p>
 <p>Cabe, no entanto, uma ressalva: é preciso reconhecer que terapias como moxabustão, Johrei e shiatsu, as quais não empregam medicamentos ou recursos físicos, apresentam, todas elas, algum grau de eficácia.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気などは容易に治る 未発表、昭和11(1936)年5月17日執筆 今日、社会における療病法を検討する時、その余りに治病能力のないのに驚くのである。<br/><br/> 仮に、盲腸炎、窒扶斯（チフス）、肺炎位の程度の病気であってさえ、早くて一、二ケ月――長きは半ケ年にも及ぶのが実際である。<br/><br/>しかも、不幸にして生命を落す者さえあるに到っては、実に驚くの外は無いのである。<br/><br/>しかも、病気によっては二年三年、又十年以上に及ぶ者さえ有ると言う事実は、驚くよりも歎かざるを得ないのである。<br/><br/> しかし、世人はこれを常態として何ら怪まず――ただ諦めているという果敢（はか）ない実状である。<br/><br/>私はこれらを視る時、現代人が余りに健康を恵まれない事に、悲しまざるを得ないのである。<br/><br/>実に上は高位高官を初めとし――社会に相当『名を成す者』、又は天下国家の為――相当の抱負を抱いている者――手腕ある者――大天才ある者等々が割合――働き盛りの年齢で、すくなからず死んで行くのを見る毎に、痛歎を禁じ得ないのである。<br/><br/>その他――大志を抱いて病床に呻吟する者、偉才を抱きながら、療病生活に懊悩（おうのう）を続けつつある者、後継者を失って自失する者、事業の蹉跌（さてつ）に遭う者、一家離散する者、財産を蕩尽（とうじん）する者等、それら不幸者を調査したなら――いかなる多数に上るや量り知れないであろう。<br/><br/>それは――その悉（ことごと）くが容易に病気が治らないという、その一点に帰するのである。<br/><br/> 私が日々多くの病者を取扱いつつある、その経験に依れば、いかなる病気も実に容易に治癒されてゆく。<br/><br/>難病などという言葉は私には無いのであるが、ただしかし、割合日数の多くかかるものがある。<br/><br/>それはなぜであるかといえば、病気が重患であるからではない。<br/><br/>実際を言えば――薬剤の毒である。<br/><br/>即ち薬剤を多量に服用した者注射療法をされた者等であって、実に薬剤によって血液を溷濁（こんだく）させられ、浄化力薄弱になったが故である。<br/><br/>又、その他の原因としては、電気や光線療法によって病膿を固結させたが為である。<br/><br/> 故に、忌憚なく言えば、薬剤及び物理療法によって自然治癒力を衰弱させたが為である。<br/><br/>要するに、現代医学の治療に災させられたる為であるから、その誤療を訂正するそれに対しての日数がかかるのである。<br/><br/> 故に、医療の少ない者程治癒が速かであるのが、実験の結果として瞭（あきら）かになったのである。<br/><br/> そうして、それは長年に及び多数の患者を扱えば扱う程、いよいよ顕著になってゆくばかりであって、今日は最早一点疑う余地が無いまでに確実になった事である。<br/><br/>この様な説を読む世人としては、実に驚愕するであろうし、殊に専門家諸君はより以上驚愕するであろうが、事実はどうする事も出来得ないのである。<br/><br/>故に、この様な説を発表するにおいて、医に関係ある多数人士に対しては、実に忍びないのであるから、それが為、長い間いか程躊躇（ちゅうちょ）逡巡した事であろう。<br/><br/>しかしながら、益々社会大衆の病患者激増を目前にして、最早晏如（あんじょ）たる能（あた）わず、勇を鼓して発表するの余儀なきに到ったのである。<br/><br/> 故に、政府者も専門家も一般大衆諸君も、この説に対し、活眼を開いて徹底的に検討されたいのである。<br/><br/>この根本が真に明瞭になった暁――病気は治り易いという真理を発見する事が出来るのは必然である。<br/><br/> ただし、ここに一言言っておきたい事は、灸治法、掌療法、指圧等、薬剤と物理を応用してない患者は、いずれも多少の効果を奏して居る事は認め得らるるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

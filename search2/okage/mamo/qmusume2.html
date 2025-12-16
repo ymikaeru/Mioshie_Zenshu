@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmusume2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 娘の精神病かくして救わる 『アメリカを救う』昭和28(1953)年1月1日発行 岡山県 陽光中教会 辻 寿子（43） 昭和二十六年一月に娘を嫁入させました。<br><br>娘も平素から元気で仕事も良く致しますので、先方の皆様の御気に入りでしたが、突然九月十七日の朝先方の父親がおいでになり、お話しなさるのに、「福子は良く仕事をしておりましたが、十六日朝の事一人で元気よく山へ草刈りに行きましたが、しばらくして帰ってきました。<br><br>その時の様子が大変です。<br><br>どうした事か朝の元気は全然有りません。<br><br>顔面蒼白となり一家の者が非常に心配致し、何を言っても返事もせず無言のまま頭を下げ、何か考え込んでいるような素振りをして坐ったまま動きません。<br><br>こんな有様ですから、早く来て下さい」と申されます。<br><br>そのお話を聞き、私は何かに突き当った思いで大きな息が出ました。<br><br>胸に手を当て、ああこの時です、神様にお願いすれば何でも御守護を戴かれるのだと、思わず知らず胸を撫で下しました。<br><br>私は「それでは早速参ります」と先方の父親に申しました。<br><br>近所で御熱心な信者さんの河本さんに相談し、河本さんと二人で行きました。<br><br>午後二時頃中鉄バスにて三里半程の道を行きました。<br><br>先方に行って様子を見ますに、御話の通りの娘の様子ではありませんか。<br><br>私と河本さんとは何回となく御浄霊を続けさせて戴きました。<br><br>娘も私を見た時は母という事が判ったようです。<br><br>又急に実家へ帰りたい様子を見せますので先方の皆様が見られて「本人もお母様が参られてから帰りたいようですから、一緒につれてお帰り下さい。<br><br>そして神様にお願いして早く御蔭を戴いて下さい」と申されます。<br><br>私は河本さんに相談致しました。<br><br>河本さんが申されますには「お宅の皆様が、あのように申されるのですからここではいけないと思いますから、神様の前で御浄霊をさせて戴くのが一番でしょう」と申され、「それでは」と娘を連れて帰る事に決めました。<br><br>十九日朝の事です。<br><br>なんにも判らない娘を連れ帰途につきました。<br><br>歩こうとしない娘を皆様の手で何丁かの道を列車の時間に間に合うようにと念じつつ出掛けましたものの、中々歩かない上に、履物はぬぎ、後へ後へとつっぱり前に行きません。<br><br>右手と左手の下に二人の者が手を入れ、娘の身体をつり上げるように致し、後の人は背中を押しますが中々思うように行きません。<br><br>仕方なく背負っても見ましたが重くて長くは行けません。<br><br>そうしている内に時間が過ぎそうになりますので、どうして良いか判りません。<br><br>「列車の時間に間に合いますでしょうか」と河本さんに申しますと、河本さんは「神様にお願い致して有るから大丈夫です」とおっしゃいました。<br><br>そうする内に、とうとう駅に着きました。<br><br>時計を見ますと、七時前を示しております。<br><br>神様に有難うございますと心の内でお礼を申し上げました。<br><br>その時は車内が非常に込み合っておりましたが、御守護を戴き娘の坐る席だけが有りました。<br><br>やがて汽車は金川駅に着きました。<br><br>中鉄バスまで行き時間を見ますと、自動車が五分間すれば来ます。<br><br>自動車の中も、又お蔭で腰を掛けさせて戴きました。<br><br>御守護により、道中を無事に帰らせて戴きました。<br><br>娘も生まれた家に帰ったという事は判っておるようでした。<br><br>ちょっと休みまして河本さんがこれから御神体にお参り致しましょうと、娘の手を取り、行こうとしましたが、中々行く気になりません。<br><br>無暗に引張り神様の前にて御浄霊をさせて戴きました。<br><br>その日から河本さんの御宅で娘と私は神様の前に寝泊りさせて戴き、毎日皆様の御浄霊を何回となく戴きました。<br><br>有難い事です。<br><br>そのうちに少しずつ水やお茶を飲んでいましたが、何も咽喉を通らなくなりました。<br><br>夜は盗汗でびっしょりです。<br><br>何回となく着物を取りかえる日が七日続きました。<br><br>いよいよ昏睡状態になってしまいました。<br><br>顔の頬骨は立ち、胸の肋骨が何本あるまでありありと判ります。<br><br>腹はぐっと落ち込み腰骨が立ち、カマキリのごとく足は細く骨に皮を張ったようです。<br><br>顔色は青ざめ、丸でこの世の人とは思えません。<br><br>私のかわいい娘もこれまでの一生か、ここまでの命であったのかと思いました。<br><br>九日目の事です。<br><br>口をもぐもぐ動かしておりますので、何か欲しいのでは無いかと思い、小さい匙にて水を少し口に持って行きますと、その時初めて神様が水を通させて下さいました。<br><br>その時の有難さは何とも言えませんでした。<br><br>それが元となりお茶や水ばかりで無く、少しずつ果物や食事までも食べさせて戴けるようになりました。<br><br>段々と量も増えて行きます有難さを神様に御礼を申し上げました。<br><br>河本様に何回となく夜昼御浄霊戴きました。<br><br>身体も一日一日元気が出て参ります。<br><br>骨ばった体も少しずつ見よくなって行きます。<br><br>家の中をここそこと歩むように元気づいてきました。<br><br>夜も段々と休ませて戴くようになりましたが、そうかと思うと夜中に立ち上り、両手を前に出し手首を下におろし、手をピリピリとふるわし、寝衣のままでここそこと歩いた時は、幽霊そっくりの姿でございました。<br><br>物凄い夜も御座いました。<br><br>救われていない祖霊が憑ったものと思われます。<br><br>ブツブツと何か申します日が何日となく続きました。<br><br>そうかと思うと畳に指で、くねくねと線を引く形を致すようなこともありました。<br><br>その中に月日の流れは早いものです。<br><br>一カ月近い日は過ぎ去りました。<br><br> 十月十四日、十五日の氏神様のお祭が間近になりました。<br><br>一カ月ほど河本様の宅にてお世話になりましたが、お祭には娘を連れ帰り、お祭をいたしました。<br><br>帰りましても別に悪くもなりませんでした。<br><br>教会の諸先生にも何回となく御浄霊を戴きました。<br><br>二月五日に光明如来様を御迎えさせて戴きました。<br><br>皆様が遠路わざわざ御出下さいまして御浄霊を戴いております。<br><br>「少しも食べなかった娘がここまで御守護を戴いて元気になった、何でも神様お願い致します」と私は一心でした。<br><br>河本さんが時々面白い事を申されると大きな声を出して笑うようになりましたが、話は出来ませんでした。<br><br>便所に行ったら行ったきりで帰る事が出来なかったり致しました。<br><br>岡山市東古松教会にお参りさせて戴き、この時が教会のお参りは初めてでした。<br><br>教会で中橋先生の御浄霊を戴きました。<br><br>教会に四回お参りさせて戴きましたが、四回目の時に矢代会長先生に御浄霊を戴きましてからというものは、今まで鼻から何も出ておりませんでしたが、それを境にねばねばした鼻が出はじめました。<br><br> 話は変りますが、娘の嫁入先の皆様も初めのうちは神様が有難いと一心でしたから時々見舞って下さいましたが、余り長いので見舞にも来なくなってしまいました。<br><br>神様を悪く思うように皆様の心が変りましたから、私はこれではいけないと思いまして、一気に帰らせなければ神様に申訳がないと、二十七年一月に役場で籍を戻して戴きました。<br><br> その後次第次第に食事も進ませて戴きましたが、家の者と一緒に食事をするのを嫌います。<br><br>一緒に食べずに後から一人で食べるのですが、早く申しますと盗み食いという有様、それが又二人分位も食べるのですから、私の驚きと心配は大変なものでした。<br><br>体のためにも余り良くないと思い、食物を他所（よそ）に隠した事も一再ならずでした。<br><br>その代り体は大変に肥えて参りまして、腰の辺は臼にこもを巻いたごとくでした。<br><br>ある日のこと餅搗を致しておりましたら、無言のまま手伝ってくれました。<br><br>その時は私は何とも言えない気持でただただ神様有難うございますと、嬉し涙が流れました。<br><br>その後も御浄霊をさせて戴く毎に奇蹟を戴き、二十日間ですっかり御守護を戴き、二月の末には元の精神と身体とに全快させて戴きました。<br><br>今は御神体も御奉斎させて戴き、一家一同楽しく安心な日々を送らせて戴いております。<br><br>吉宗部落の皆様も神様のこの御力に目をみはっております。<br><br> 明主様、有難う御座いました。<br><br>拙なき文を綴りましてここに厚く厚く御礼を申し上げさせて戴きます。<br><br> （昭和二十七年七月二十九日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação da Doença Mental de Minha Filha (Publicado na revista “Salvar a América” em 1º de janeiro de 1953)</h2>
 <p>Okayama-ken, Igreja Yoko-Naka
@@ -108,5 +263,48 @@ Tsuj Hisako (43 anos)</p>
 <p>Certo dia, enquanto preparávamos <em>mochi</em>, ela, em silêncio, juntou-se a nós para ajudar. Fui tomada por uma emoção indescritível; lágrimas de alegria escorreram por meu rosto enquanto eu apenas agradecia a Deus. A partir de então, cada Johrei parecia trazer um novo milagre. Em vinte dias, a proteção Divina se manifestou plenamente, e, ao final de fevereiro, ela estava completamente restabelecida, tanto no corpo quanto na mente. Hoje, com a Imagem da Luz Divina entronizada em nosso lar, toda a família desfruta de dias repletos de alegria e tranquilidade. Os moradores de nosso vilarejo de Yoshimune também estão maravilhados com o poder de Deus.</p>
 <p>Meishu-Sama, muito obrigada. Por meio deste relato singelo, desejo expressar minha mais profunda e sincera gratidão.</p>
 <p>(29 de julho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 娘の精神病かくして救わる 『アメリカを救う』昭和28(1953)年1月1日発行 岡山県 陽光中教会 辻 寿子（43） 昭和二十六年一月に娘を嫁入させました。<br/><br/>娘も平素から元気で仕事も良く致しますので、先方の皆様の御気に入りでしたが、突然九月十七日の朝先方の父親がおいでになり、お話しなさるのに、「福子は良く仕事をしておりましたが、十六日朝の事一人で元気よく山へ草刈りに行きましたが、しばらくして帰ってきました。<br/><br/>その時の様子が大変です。<br/><br/>どうした事か朝の元気は全然有りません。<br/><br/>顔面蒼白となり一家の者が非常に心配致し、何を言っても返事もせず無言のまま頭を下げ、何か考え込んでいるような素振りをして坐ったまま動きません。<br/><br/>こんな有様ですから、早く来て下さい」と申されます。<br/><br/>そのお話を聞き、私は何かに突き当った思いで大きな息が出ました。<br/><br/>胸に手を当て、ああこの時です、神様にお願いすれば何でも御守護を戴かれるのだと、思わず知らず胸を撫で下しました。<br/><br/>私は「それでは早速参ります」と先方の父親に申しました。<br/><br/>近所で御熱心な信者さんの河本さんに相談し、河本さんと二人で行きました。<br/><br/>午後二時頃中鉄バスにて三里半程の道を行きました。<br/><br/>先方に行って様子を見ますに、御話の通りの娘の様子ではありませんか。<br/><br/>私と河本さんとは何回となく御浄霊を続けさせて戴きました。<br/><br/>娘も私を見た時は母という事が判ったようです。<br/><br/>又急に実家へ帰りたい様子を見せますので先方の皆様が見られて「本人もお母様が参られてから帰りたいようですから、一緒につれてお帰り下さい。<br/><br/>そして神様にお願いして早く御蔭を戴いて下さい」と申されます。<br/><br/>私は河本さんに相談致しました。<br/><br/>河本さんが申されますには「お宅の皆様が、あのように申されるのですからここではいけないと思いますから、神様の前で御浄霊をさせて戴くのが一番でしょう」と申され、「それでは」と娘を連れて帰る事に決めました。<br/><br/>十九日朝の事です。<br/><br/>なんにも判らない娘を連れ帰途につきました。<br/><br/>歩こうとしない娘を皆様の手で何丁かの道を列車の時間に間に合うようにと念じつつ出掛けましたものの、中々歩かない上に、履物はぬぎ、後へ後へとつっぱり前に行きません。<br/><br/>右手と左手の下に二人の者が手を入れ、娘の身体をつり上げるように致し、後の人は背中を押しますが中々思うように行きません。<br/><br/>仕方なく背負っても見ましたが重くて長くは行けません。<br/><br/>そうしている内に時間が過ぎそうになりますので、どうして良いか判りません。<br/><br/>「列車の時間に間に合いますでしょうか」と河本さんに申しますと、河本さんは「神様にお願い致して有るから大丈夫です」とおっしゃいました。<br/><br/>そうする内に、とうとう駅に着きました。<br/><br/>時計を見ますと、七時前を示しております。<br/><br/>神様に有難うございますと心の内でお礼を申し上げました。<br/><br/>その時は車内が非常に込み合っておりましたが、御守護を戴き娘の坐る席だけが有りました。<br/><br/>やがて汽車は金川駅に着きました。<br/><br/>中鉄バスまで行き時間を見ますと、自動車が五分間すれば来ます。<br/><br/>自動車の中も、又お蔭で腰を掛けさせて戴きました。<br/><br/>御守護により、道中を無事に帰らせて戴きました。<br/><br/>娘も生まれた家に帰ったという事は判っておるようでした。<br/><br/>ちょっと休みまして河本さんがこれから御神体にお参り致しましょうと、娘の手を取り、行こうとしましたが、中々行く気になりません。<br/><br/>無暗に引張り神様の前にて御浄霊をさせて戴きました。<br/><br/>その日から河本さんの御宅で娘と私は神様の前に寝泊りさせて戴き、毎日皆様の御浄霊を何回となく戴きました。<br/><br/>有難い事です。<br/><br/>そのうちに少しずつ水やお茶を飲んでいましたが、何も咽喉を通らなくなりました。<br/><br/>夜は盗汗でびっしょりです。<br/><br/>何回となく着物を取りかえる日が七日続きました。<br/><br/>いよいよ昏睡状態になってしまいました。<br/><br/>顔の頬骨は立ち、胸の肋骨が何本あるまでありありと判ります。<br/><br/>腹はぐっと落ち込み腰骨が立ち、カマキリのごとく足は細く骨に皮を張ったようです。<br/><br/>顔色は青ざめ、丸でこの世の人とは思えません。<br/><br/>私のかわいい娘もこれまでの一生か、ここまでの命であったのかと思いました。<br/><br/>九日目の事です。<br/><br/>口をもぐもぐ動かしておりますので、何か欲しいのでは無いかと思い、小さい匙にて水を少し口に持って行きますと、その時初めて神様が水を通させて下さいました。<br/><br/>その時の有難さは何とも言えませんでした。<br/><br/>それが元となりお茶や水ばかりで無く、少しずつ果物や食事までも食べさせて戴けるようになりました。<br/><br/>段々と量も増えて行きます有難さを神様に御礼を申し上げました。<br/><br/>河本様に何回となく夜昼御浄霊戴きました。<br/><br/>身体も一日一日元気が出て参ります。<br/><br/>骨ばった体も少しずつ見よくなって行きます。<br/><br/>家の中をここそこと歩むように元気づいてきました。<br/><br/>夜も段々と休ませて戴くようになりましたが、そうかと思うと夜中に立ち上り、両手を前に出し手首を下におろし、手をピリピリとふるわし、寝衣のままでここそこと歩いた時は、幽霊そっくりの姿でございました。<br/><br/>物凄い夜も御座いました。<br/><br/>救われていない祖霊が憑ったものと思われます。<br/><br/>ブツブツと何か申します日が何日となく続きました。<br/><br/>そうかと思うと畳に指で、くねくねと線を引く形を致すようなこともありました。<br/><br/>その中に月日の流れは早いものです。<br/><br/>一カ月近い日は過ぎ去りました。<br/><br/> 十月十四日、十五日の氏神様のお祭が間近になりました。<br/><br/>一カ月ほど河本様の宅にてお世話になりましたが、お祭には娘を連れ帰り、お祭をいたしました。<br/><br/>帰りましても別に悪くもなりませんでした。<br/><br/>教会の諸先生にも何回となく御浄霊を戴きました。<br/><br/>二月五日に光明如来様を御迎えさせて戴きました。<br/><br/>皆様が遠路わざわざ御出下さいまして御浄霊を戴いております。<br/><br/>「少しも食べなかった娘がここまで御守護を戴いて元気になった、何でも神様お願い致します」と私は一心でした。<br/><br/>河本さんが時々面白い事を申されると大きな声を出して笑うようになりましたが、話は出来ませんでした。<br/><br/>便所に行ったら行ったきりで帰る事が出来なかったり致しました。<br/><br/>岡山市東古松教会にお参りさせて戴き、この時が教会のお参りは初めてでした。<br/><br/>教会で中橋先生の御浄霊を戴きました。<br/><br/>教会に四回お参りさせて戴きましたが、四回目の時に矢代会長先生に御浄霊を戴きましてからというものは、今まで鼻から何も出ておりませんでしたが、それを境にねばねばした鼻が出はじめました。<br/><br/> 話は変りますが、娘の嫁入先の皆様も初めのうちは神様が有難いと一心でしたから時々見舞って下さいましたが、余り長いので見舞にも来なくなってしまいました。<br/><br/>神様を悪く思うように皆様の心が変りましたから、私はこれではいけないと思いまして、一気に帰らせなければ神様に申訳がないと、二十七年一月に役場で籍を戻して戴きました。<br/><br/> その後次第次第に食事も進ませて戴きましたが、家の者と一緒に食事をするのを嫌います。<br/><br/>一緒に食べずに後から一人で食べるのですが、早く申しますと盗み食いという有様、それが又二人分位も食べるのですから、私の驚きと心配は大変なものでした。<br/><br/>体のためにも余り良くないと思い、食物を他所（よそ）に隠した事も一再ならずでした。<br/><br/>その代り体は大変に肥えて参りまして、腰の辺は臼にこもを巻いたごとくでした。<br/><br/>ある日のこと餅搗を致しておりましたら、無言のまま手伝ってくれました。<br/><br/>その時は私は何とも言えない気持でただただ神様有難うございますと、嬉し涙が流れました。<br/><br/>その後も御浄霊をさせて戴く毎に奇蹟を戴き、二十日間ですっかり御守護を戴き、二月の末には元の精神と身体とに全快させて戴きました。<br/><br/>今は御神体も御奉斎させて戴き、一家一同楽しく安心な日々を送らせて戴いております。<br/><br/>吉宗部落の皆様も神様のこの御力に目をみはっております。<br/><br/> 明主様、有難う御座いました。<br/><br/>拙なき文を綴りましてここに厚く厚く御礼を申し上げさせて戴きます。<br/><br/> （昭和二十七年七月二十九日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

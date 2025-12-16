@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qjunen07</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 十年ぶりに金欠地獄から開放さる 『栄光』180号、昭和27(1952)年10月29日発行 大分県 帰一中教会 鴫 栄一（38） 私は九人家族を一人稼ぎの貧しき一労働者でございます。<br><br>入信以来八カ月難病治療につき三度御報告させて戴きましたが、今度は待ちに待ったる貧からの解放につき再拝して御礼申し上げますと共に、あらゆる経済面の不幸に嘆かるる方々の御参考までにあえて拙文を綴らせて戴きます。<br><br>常日頃貧の解決に関する小鱗会長先生や染矢先生の御指導に「自己の幸福を欲求するのみでは真の幸福は得られない。<br><br>まず他人を喜ばせる事に努め、かつは御献金御用金等神様の御事業に専心協力する事である」との事伺っておりますので、まず他人の幸福からとの見地から治病に関しては異常の熱意をもって努力、再三御報告の通り偉大なる御守護を戴き、病気等は日常何らの関心を要せざるまでに確信を持たせて戴いております。<br><br>しかしながら御献金の事に関しては、ここ十年来貧乏に喘いでいるため、つい悪い事とは知りながら怠り勝ちであり、到頭貧の解決までお願いするのが無理だとさえ考えた事もございました。<br><br> しかしながら余りにも「金欠病」に苦しむ私の姿を見られ、染矢先生は「治病の方は今のままで結構だが今一歩進んで、たとえ苦しい中からでも神様の事をキチンキチンとして御覧なさい。<br><br>きっと変って来ますよ」と再三御指導をして戴きました。<br><br>私も又貧に疲れ果てておりましたので「よし、欺されたと思って（申訳なき事ながら）一まず道を変えて見よう」と決心し、「まず神様の事を先に」をモットーとして実行に移したのが五十日程前の事でありました。<br><br>ちょうどその頃奥山で山製材をしておりましたのが、資金難のため失敗し、五カ年振りに「泣き面に蜂」の顔で引揚げて参りましたが、この就職難と金詰りの時代に西も東も判らぬような田舎ぼけした私は途方に暮れてしまいました。<br><br>すると帰郷二日目の朝、同教者の大鶴氏が今朝ラジオで聞いたからと、職業安定所の製材工一名の求人を知らして下さいました。<br><br>早速安定所に当ってみますと、目下当市に建設中の興国人絹佐伯工場の工事施行者清水建設でございました。<br><br>直ちに会社の庶務課長さんと交渉致しましたところ、今度初めて製材機を設置するとの事にて、当方の望み以上に何の苦もなくスラスラと話がまとまり、市内数百人の製材工より一級も二級も上の最高給を給され、他の日給に比べ私のみが月給制で、月四日間の有給休暇付きという誠に好条件に恵まれ、その上妻絹子までも女子としての最高給で同時に雇われる事となりました。<br><br>又工事完成の暁には新会社に引継いでやろうとの事であります。<br><br>すると私が直接指揮を受ける製材係監督福岡県出身の佐藤さんという方が、ある日休み時間にやって来て「私は戦時中応召して鹿児島にいた事がありますが、当地出身であなたと同姓の鴫君という大工の戦友がおり、大変な世話になったものだがあなたと関係はありませんか」との事、余りの事に一驚又一驚、私の弟繁保は大工で、応召は鹿児島でありました。<br><br>佐藤氏は「奇遇だ奇遇だ」と言って大いに喜ばれ本工事現場内種々の職人の中で、製材工の君達の賃金がまだ安いと言われ、課長さんと交渉されてこの月末から二人共又々昇給と決りました。<br><br>そしてこの五十日余りの間に、貸し失いの金が俄かに入って来たり、売れぬとあきらめていた物が突然買手が来たり、不当な見込み課税の国税や事業税が七割方も減じるという、その他十指にあまる奇蹟がお願いもしないのに次から次と現われて、御神慮の程に驚きかつは感泣しているのでございます。<br><br>ここに初めて十年の長きにわたり喘ぎ抜いた金欠地獄から救出され、朝な夕なに明主様の御高恩に感謝の誠を捧げ、暗かりし家庭にも明るい笑い声が聞かれるようになりました。<br><br>私と同病に喘ぐ金欠病の方々に特に次の事を強調おすすめ致します。<br><br> 神様の御用金と他人を幸福にするというこの二事が実行さるるなれば、その御用金は幾十幾百倍になって手元に戻って来るという事実であります。<br><br>幸福を求むる欲の為に神様のそろばんは上手にはじかねばなりません。<br><br>経済に治病に御協力をしてこそ初めて神様から御褒美として両方共に御守護を戴くのではありますまいか。<br><br> 人生行脚の道に迷う事なかれです。<br><br>「御用大事に御献金」これです。<br><br>貧を嘆く前にまずこの二事の実行です。<br><br>世界救世教信徒にはこんな有難い幸福への近道があるのです。<br><br> 明主様誠に有難うございました。<br><br>益々御聖業の一端に励まさせて戴きます。<br><br> （昭和二十七年十月十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Libertado do Inferno da Escassez Financeira após Dez Anos</h2>
 <p><strong>Revista Eikou, nº 180, 29 de outubro de 1952</strong>
@@ -104,5 +259,48 @@ function toggleLang(lang) {
 <p>Não nos percamos na jornada da vida. O essencial é: “Priorizar a Obra Divina por meio dos donativos”. Antes de lamentar a pobreza, é preciso praticar estes dois pontos. Para nós, membros da Sekaikyuseikyou, existe este abençoado atalho para a felicidade.</p>
 <p>Meishu-Sama, muito obrigado. Dedicar-me-ei cada vez mais a servir, ainda que em uma pequena parcela, à sua Sagrada Obra.</p>
 <p>(15 de outubro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 十年ぶりに金欠地獄から開放さる 『栄光』180号、昭和27(1952)年10月29日発行 大分県 帰一中教会 鴫 栄一（38） 私は九人家族を一人稼ぎの貧しき一労働者でございます。<br/><br/>入信以来八カ月難病治療につき三度御報告させて戴きましたが、今度は待ちに待ったる貧からの解放につき再拝して御礼申し上げますと共に、あらゆる経済面の不幸に嘆かるる方々の御参考までにあえて拙文を綴らせて戴きます。<br/><br/>常日頃貧の解決に関する小鱗会長先生や染矢先生の御指導に「自己の幸福を欲求するのみでは真の幸福は得られない。<br/><br/>まず他人を喜ばせる事に努め、かつは御献金御用金等神様の御事業に専心協力する事である」との事伺っておりますので、まず他人の幸福からとの見地から治病に関しては異常の熱意をもって努力、再三御報告の通り偉大なる御守護を戴き、病気等は日常何らの関心を要せざるまでに確信を持たせて戴いております。<br/><br/>しかしながら御献金の事に関しては、ここ十年来貧乏に喘いでいるため、つい悪い事とは知りながら怠り勝ちであり、到頭貧の解決までお願いするのが無理だとさえ考えた事もございました。<br/><br/> しかしながら余りにも「金欠病」に苦しむ私の姿を見られ、染矢先生は「治病の方は今のままで結構だが今一歩進んで、たとえ苦しい中からでも神様の事をキチンキチンとして御覧なさい。<br/><br/>きっと変って来ますよ」と再三御指導をして戴きました。<br/><br/>私も又貧に疲れ果てておりましたので「よし、欺されたと思って（申訳なき事ながら）一まず道を変えて見よう」と決心し、「まず神様の事を先に」をモットーとして実行に移したのが五十日程前の事でありました。<br/><br/>ちょうどその頃奥山で山製材をしておりましたのが、資金難のため失敗し、五カ年振りに「泣き面に蜂」の顔で引揚げて参りましたが、この就職難と金詰りの時代に西も東も判らぬような田舎ぼけした私は途方に暮れてしまいました。<br/><br/>すると帰郷二日目の朝、同教者の大鶴氏が今朝ラジオで聞いたからと、職業安定所の製材工一名の求人を知らして下さいました。<br/><br/>早速安定所に当ってみますと、目下当市に建設中の興国人絹佐伯工場の工事施行者清水建設でございました。<br/><br/>直ちに会社の庶務課長さんと交渉致しましたところ、今度初めて製材機を設置するとの事にて、当方の望み以上に何の苦もなくスラスラと話がまとまり、市内数百人の製材工より一級も二級も上の最高給を給され、他の日給に比べ私のみが月給制で、月四日間の有給休暇付きという誠に好条件に恵まれ、その上妻絹子までも女子としての最高給で同時に雇われる事となりました。<br/><br/>又工事完成の暁には新会社に引継いでやろうとの事であります。<br/><br/>すると私が直接指揮を受ける製材係監督福岡県出身の佐藤さんという方が、ある日休み時間にやって来て「私は戦時中応召して鹿児島にいた事がありますが、当地出身であなたと同姓の鴫君という大工の戦友がおり、大変な世話になったものだがあなたと関係はありませんか」との事、余りの事に一驚又一驚、私の弟繁保は大工で、応召は鹿児島でありました。<br/><br/>佐藤氏は「奇遇だ奇遇だ」と言って大いに喜ばれ本工事現場内種々の職人の中で、製材工の君達の賃金がまだ安いと言われ、課長さんと交渉されてこの月末から二人共又々昇給と決りました。<br/><br/>そしてこの五十日余りの間に、貸し失いの金が俄かに入って来たり、売れぬとあきらめていた物が突然買手が来たり、不当な見込み課税の国税や事業税が七割方も減じるという、その他十指にあまる奇蹟がお願いもしないのに次から次と現われて、御神慮の程に驚きかつは感泣しているのでございます。<br/><br/>ここに初めて十年の長きにわたり喘ぎ抜いた金欠地獄から救出され、朝な夕なに明主様の御高恩に感謝の誠を捧げ、暗かりし家庭にも明るい笑い声が聞かれるようになりました。<br/><br/>私と同病に喘ぐ金欠病の方々に特に次の事を強調おすすめ致します。<br/><br/> 神様の御用金と他人を幸福にするというこの二事が実行さるるなれば、その御用金は幾十幾百倍になって手元に戻って来るという事実であります。<br/><br/>幸福を求むる欲の為に神様のそろばんは上手にはじかねばなりません。<br/><br/>経済に治病に御協力をしてこそ初めて神様から御褒美として両方共に御守護を戴くのではありますまいか。<br/><br/> 人生行脚の道に迷う事なかれです。<br/><br/>「御用大事に御献金」これです。<br/><br/>貧を嘆く前にまずこの二事の実行です。<br/><br/>世界救世教信徒にはこんな有難い幸福への近道があるのです。<br/><br/> 明主様誠に有難うございました。<br/><br/>益々御聖業の一端に励まさせて戴きます。<br/><br/> （昭和二十七年十月十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

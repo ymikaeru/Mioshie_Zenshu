@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taisyo2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,60 +241,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 対症療法の不可 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 病気の原因について、西洋医学は、未だ何ら確定的発見がない。<br><br>故に、病理としては、肉体に現われたる現象に病名を付し、その進行過程を、説明するに過ぎないのである。<br><br>従って、その療法としては、現象に対応する、対症療法が、主である。<br><br>対症療法とは即ち、苦痛の軽減である。<br><br>しかし、苦痛の軽減と治癒とは、全然、別問題であって、苦痛を軽減する事によって、病気が治癒されるとなす事は、一大誤謬である。<br><br> 苦痛を軽減する対症療法が、何故に誤謬であるかを説明すれば、次のごとくである。<br><br>元来、病気の苦痛、例えば、発熱、咳嗽、痛み、嘔吐、眩暈（めまい）、不快感等、それらの現象の本体は何であるか、病気の発生には、発生すべき原因があり、病気の発生するや、同時に苦痛の発生も、その理由があるべきはずである。<br><br>要するに、病気の発生は、ある原因に対する結果であり、その結果から生ずる結果が、苦痛である故に、苦痛の本質と、病気の原因が、徹底的に分明されないとすれば、真の治療は確立する訳が無いのである。<br><br>西洋医学は、病原不知なるが故に、止む事を得ず、結果の結果であるところの苦痛軽減にのみ没頭し、専念しつゝあるものである。<br><br>故に、それによって治療せらるゝ患者は、実は、対症療法に依って、苦痛を軽減されつゝ、人体自身の自然治癒力によって、治癒されるのであるから、一種の自然療法でもある。<br><br> かくのごとくにして、苦痛軽減の対症療法を受けつゝ、自然治癒さるれば、苦痛軽減だけの効果があるからよいが、ここに、又、一大誤謬が潜んでいる。<br><br>それは、苦痛軽減の方法として、薬剤と器械を用いる。<br><br>この物質的方法による、苦痛の軽減は、その結果として、何倍の苦痛増加になるという事である。<br><br>一時間の苦痛軽減は、やがて、五時間も十時間もの、苦痛加重となる事である。<br><br>私は、かような事を言えば、あるいは奇を好む逆説とも、解（と）らるゝであろうが、しかし、事実は事実として、一点の誤りがないから、何程でも、実証するに吝（やぶさ）かでないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falácia do Tratamento Sintomático</h2>
 <p>No que tange à causa das enfermidades, a medicina ocidental ainda não logrou qualquer descoberta definitiva. Por essa razão, sua patologia se restringe a nomear os fenômenos que se manifestam no corpo físico e a descrever seu processo evolutivo. Consequentemente, seu método terapêutico principal é o tratamento sintomático, que se volta para as manifestações da doença. Este consiste, em essência, na atenuação do sofrimento. Contudo, a atenuação do sofrimento e a cura são questões absolutamente distintas, e supor que a doença é curada pela simples supressão do sofrimento constitui um equívoco monumental.</p>
 <p>Para explicar por que o tratamento sintomático, focado em atenuar o sofrimento, representa um equívoco, apresento os seguintes pontos. Em sua essência, qual é a verdadeira natureza do sofrimento decorrente de uma enfermidade, como a febre, a tosse, a dor, o vômito, a vertigem e o mal-estar? A manifestação de uma doença decorre de uma causa específica e, de igual modo, o sofrimento que a acompanha deve possuir sua própria razão de ser. Em resumo, a doença é o resultado de uma causa, e o sofrimento, por sua vez, é o resultado desse resultado. Sendo assim, enquanto a essência do sofrimento e a causa da enfermidade não forem elucidadas de maneira cabal, é impossível que se estabeleça um método de cura verdadeiro. A medicina ocidental, por desconhecer a origem das patologias, vê-se forçada a dedicar-se exclusivamente à atenuação do sofrimento, que nada mais é que o resultado do resultado. Por conseguinte, o paciente submetido a tal tratamento tem seu sofrimento aliviado pela terapia sintomática, mas sua cura efetiva ocorre graças à força de cura natural do próprio organismo. Trata-se, pois, de uma espécie de terapia natural.</p>
 <p>Dessa forma, quando alguém se submete ao tratamento sintomático e a cura ocorre pela via natural, pode parecer vantajoso, pois ao menos o sofrimento foi atenuado. Todavia, é precisamente aqui que se oculta outro equívoco de grandes proporções. Este reside nos métodos empregados para mitigar o sofrimento: o uso de medicamentos e de equipamentos. A atenuação do sofrimento por meio desses recursos materiais resulta, ao final, em um sofrimento multiplicado. Uma hora de alívio converte-se, invariavelmente, em cinco ou dez horas de sofrimento agravado. Ao fazer tal afirmação, talvez alguns a interpretem como um paradoxo proferido por quem aprecia o extravagante. Contudo, o fato é o fato, e nele não há a menor incorreção. Por essa razão, não hesito em comprová-lo com quantos exemplos se façam necessários.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 対症療法の不可 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 病気の原因について、西洋医学は、未だ何ら確定的発見がない。<br/><br/>故に、病理としては、肉体に現われたる現象に病名を付し、その進行過程を、説明するに過ぎないのである。<br/><br/>従って、その療法としては、現象に対応する、対症療法が、主である。<br/><br/>対症療法とは即ち、苦痛の軽減である。<br/><br/>しかし、苦痛の軽減と治癒とは、全然、別問題であって、苦痛を軽減する事によって、病気が治癒されるとなす事は、一大誤謬である。<br/><br/> 苦痛を軽減する対症療法が、何故に誤謬であるかを説明すれば、次のごとくである。<br/><br/>元来、病気の苦痛、例えば、発熱、咳嗽、痛み、嘔吐、眩暈（めまい）、不快感等、それらの現象の本体は何であるか、病気の発生には、発生すべき原因があり、病気の発生するや、同時に苦痛の発生も、その理由があるべきはずである。<br/><br/>要するに、病気の発生は、ある原因に対する結果であり、その結果から生ずる結果が、苦痛である故に、苦痛の本質と、病気の原因が、徹底的に分明されないとすれば、真の治療は確立する訳が無いのである。<br/><br/>西洋医学は、病原不知なるが故に、止む事を得ず、結果の結果であるところの苦痛軽減にのみ没頭し、専念しつゝあるものである。<br/><br/>故に、それによって治療せらるゝ患者は、実は、対症療法に依って、苦痛を軽減されつゝ、人体自身の自然治癒力によって、治癒されるのであるから、一種の自然療法でもある。<br/><br/> かくのごとくにして、苦痛軽減の対症療法を受けつゝ、自然治癒さるれば、苦痛軽減だけの効果があるからよいが、ここに、又、一大誤謬が潜んでいる。<br/><br/>それは、苦痛軽減の方法として、薬剤と器械を用いる。<br/><br/>この物質的方法による、苦痛の軽減は、その結果として、何倍の苦痛増加になるという事である。<br/><br/>一時間の苦痛軽減は、やがて、五時間も十時間もの、苦痛加重となる事である。<br/><br/>私は、かような事を言えば、あるいは奇を好む逆説とも、解（と）らるゝであろうが、しかし、事実は事実として、一点の誤りがないから、何程でも、実証するに吝（やぶさ）かでないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

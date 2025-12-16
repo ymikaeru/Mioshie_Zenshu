@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>huroku4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 付録 『明日の医術 第二編』昭和18(1943)年10月5日発行 私は、付録としてこの際ぜひ政府において実行されたいと思う希望を述べるのであるが、当局者及び専門家は固より大方の識者におかれても、私のここに説く所の論旨に関心を払われん事を冀（こいねが）うものである。<br><br> 政府へ建議する 現在日本が直面しつつあるこの重大時局――即ち大戦争に勝ち抜く為には、今後の時局に即応しない古い機構は一大英断を以て改革すべきである事は、最早論議の余地はあるまい。<br><br>政府においてもここに見る所あるか、事変以来今までに見られない程の革新的政策を次々行っているという事実は、まことに快心（かいしん）に堪えぬものがある。<br><br>それについて私は、人的資源の問題に関し、この際一日も早く政府において実行すべきであると思う一つの案を提出せんとするのである。<br><br> さきに詳説したごとく人的資源の問題を解決するには、何よりも罹病者を減少せしむるという事ほど、良策はないとして、それには真の治病の力ある医術を要求するのは勿論である。<br><br> しかるに、政府は今日まで西洋医学のみに依存して他を顧（かえり）みないという実情は西洋医学以上の治病効果あるものは他にないと断定している為であろう。<br><br>しかるにも拘わらず西洋医学的あらゆる方策を講ずるも、予期のごとき効果がないのみか益々悪化の傾向を辿（たど）りつつあるという事実であり、特に結核問題についてしかりである。<br><br>私は政府に対し、この際一大改革を要望するものである。<br><br>それは西洋医学以上の優れたる療法が民間にあるを知る事である。<br><br>しかもそれらの者は黙々として日夜国民保健の為に努力し、絶大なる効果を挙げつつあるに拘わらず、未だ世に認められずして冷遇されつつある一事である。<br><br> 今日本は、戦力の増強に向って官民共に大進軍をなしつつある。<br><br>これに対し私は西洋医学依存の夢から醒める事ほど右に対する効果はあるまい。<br><br>否一日も早く目覚めない限り、国家の前途危しと言わざるを得ないと思うのである。<br><br>それについて私は、最も容易にして有効なる一案を提唱したいのである。<br><br>この方法によれば国民保健問題解決の端緒となるであろうと共に、この様な方法を必ず実行しない訳にはゆかない時の来る事を想うのである。<br><br>その案というのは左のごときものである。<br><br> 一、まず、結核患者十人を選択する。<br><br>その理由は、この病気は余り差異なき同一症状を択ぶに都合が良いからで、又今日最も解決を要すべきものであるからである。<br><br> 右十人に対し、西洋医学（内科的又は外科的）、灸点、栄養療法、電気、指圧、精神療法、霊気療法、自然療法、その他の種類を合せ、合計十種の治療者を選び、最初一ケ月間の予定を以て治病試験を行うのである。<br><br>その結果として、ある物〔者〕は良好に向い、ある者は無効果であり、ある者は悪化するであろう。<br><br>しかし一ケ月間のみにては、その結果は確実とはいい難いから右の方法を繰返すのである。<br><br>かくする事十回即ち十種の療法を十ケ月続ける訳である。<br><br>かようにすれば、有効果と無効果と悪化との区別が判然とするであろう。<br><br>従って政府においては無効果及び悪結果の療法は、有効果療法に転向させるのである。<br><br> 勿論同じ効果であっても、十種の中、最優効果を採択すべきである事は勿論である。<br><br> 右のごとき、第一位に採択されたる療法こそ一挙に難問題である国民保健問題――特に結核問題を解決するに役立つであろう。<br><br>しかも僅々（きんきん）十ケ月間の日子（にっし）と些細（ささい）の手数によって解決さるるのであり、その効果は根本的、永遠的であり、しかも重大時局を解決する基本的条件となる以上ぜひ実行すべきであると思うのである。<br><br> 右の方法実行の場合、相当の困難と思う事は、その治療者の選択である。<br><br>これについて私見をいえば、官報又は新聞紙の広告等によって弘く天下の逸材を集めるのである。<br><br>しかしながら問題の性質上、余程の自信がなければ応じられない訳であるから、申込者は相当の技能者とみて差支えなかろう。<br><br>従って万一多数の場合は前述の十人宛（ずつ）を何組に増加しても良かろうしそれが一ケ月宛の試験によって無効果又は悪結果は漸次淘汰され、優秀者のみが残る事になり、その優秀者から又選択せられて、最後に最優者即ち第一位の療法が残る事になる訳である。<br><br>但し、いかに優秀な療法であっても門外不出的の一代限りのものであってはならない。<br><br>何人といえども修得すれば実効果あるものでなくてはならないのである。<br><br> 右のごとき試験の結果採択されたる第一位の医術こそ、将来の日本医術と決定すべきであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Proposta ao Governo</h2>
 <p>Aproveito a oportunidade para apresentar, a título de apêndice, uma proposta que anseio ver implementada pelo governo. Rogo encarecidamente que as autoridades, os especialistas e, naturalmente, os mais eminentes intelectuais de nossa nação concedam sua devida atenção à tese que aqui exponho.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>A terapia que alcançar o primeiro lugar nesse processo será o instrumento que solucionará, de uma só vez, o complexo problema da saúde pública — e, em especial, o da tuberculose. Essa solução será alcançada em apenas dez meses, com um esforço mínimo. Seus efeitos serão fundamentais e perenes e, por constituírem a condição basilar para a superação da presente crise nacional, sua implementação é um imperativo.</p>
 <p>Uma dificuldade previsível na execução deste plano reside na seleção dos terapeutas. Em minha opinião, a melhor abordagem seria convocar talentos de todo o país por meio de anúncios no Diário Oficial ou nos jornais de grande circulação. Dada a natureza do desafio, é razoável supor que somente se candidatariam profissionais com extrema confiança em suas habilidades, o que já garantiria um alto nível de competência entre os inscritos. Caso o número de candidatos seja elevado, podemos simplesmente aumentar a quantidade de grupos de dez pacientes. Através dos testes mensais, os métodos ineficazes ou prejudiciais seriam gradualmente eliminados, restando apenas os de excelência. Dentre estes, uma nova seleção seria feita até que restasse, ao final, o método mais eficaz: o primeiro colocado. Há, no entanto, uma condição crucial: por mais notável que seja a terapia vencedora, ela não pode ser uma arte secreta, destinada a desaparecer com seu mestre. Deve ser um método que qualquer pessoa possa aprender e, por meio dele, obter resultados concretos.</p>
 <p>A arte de curar que for consagrada como a primeira colocada ao final deste experimento deverá, portanto, ser estabelecida como a medicina do futuro do Japão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 付録 『明日の医術 第二編』昭和18(1943)年10月5日発行 私は、付録としてこの際ぜひ政府において実行されたいと思う希望を述べるのであるが、当局者及び専門家は固より大方の識者におかれても、私のここに説く所の論旨に関心を払われん事を冀（こいねが）うものである。<br/><br/> 政府へ建議する 現在日本が直面しつつあるこの重大時局――即ち大戦争に勝ち抜く為には、今後の時局に即応しない古い機構は一大英断を以て改革すべきである事は、最早論議の余地はあるまい。<br/><br/>政府においてもここに見る所あるか、事変以来今までに見られない程の革新的政策を次々行っているという事実は、まことに快心（かいしん）に堪えぬものがある。<br/><br/>それについて私は、人的資源の問題に関し、この際一日も早く政府において実行すべきであると思う一つの案を提出せんとするのである。<br/><br/> さきに詳説したごとく人的資源の問題を解決するには、何よりも罹病者を減少せしむるという事ほど、良策はないとして、それには真の治病の力ある医術を要求するのは勿論である。<br/><br/> しかるに、政府は今日まで西洋医学のみに依存して他を顧（かえり）みないという実情は西洋医学以上の治病効果あるものは他にないと断定している為であろう。<br/><br/>しかるにも拘わらず西洋医学的あらゆる方策を講ずるも、予期のごとき効果がないのみか益々悪化の傾向を辿（たど）りつつあるという事実であり、特に結核問題についてしかりである。<br/><br/>私は政府に対し、この際一大改革を要望するものである。<br/><br/>それは西洋医学以上の優れたる療法が民間にあるを知る事である。<br/><br/>しかもそれらの者は黙々として日夜国民保健の為に努力し、絶大なる効果を挙げつつあるに拘わらず、未だ世に認められずして冷遇されつつある一事である。<br/><br/> 今日本は、戦力の増強に向って官民共に大進軍をなしつつある。<br/><br/>これに対し私は西洋医学依存の夢から醒める事ほど右に対する効果はあるまい。<br/><br/>否一日も早く目覚めない限り、国家の前途危しと言わざるを得ないと思うのである。<br/><br/>それについて私は、最も容易にして有効なる一案を提唱したいのである。<br/><br/>この方法によれば国民保健問題解決の端緒となるであろうと共に、この様な方法を必ず実行しない訳にはゆかない時の来る事を想うのである。<br/><br/>その案というのは左のごときものである。<br/><br/> 一、まず、結核患者十人を選択する。<br/><br/>その理由は、この病気は余り差異なき同一症状を択ぶに都合が良いからで、又今日最も解決を要すべきものであるからである。<br/><br/> 右十人に対し、西洋医学（内科的又は外科的）、灸点、栄養療法、電気、指圧、精神療法、霊気療法、自然療法、その他の種類を合せ、合計十種の治療者を選び、最初一ケ月間の予定を以て治病試験を行うのである。<br/><br/>その結果として、ある物〔者〕は良好に向い、ある者は無効果であり、ある者は悪化するであろう。<br/><br/>しかし一ケ月間のみにては、その結果は確実とはいい難いから右の方法を繰返すのである。<br/><br/>かくする事十回即ち十種の療法を十ケ月続ける訳である。<br/><br/>かようにすれば、有効果と無効果と悪化との区別が判然とするであろう。<br/><br/>従って政府においては無効果及び悪結果の療法は、有効果療法に転向させるのである。<br/><br/> 勿論同じ効果であっても、十種の中、最優効果を採択すべきである事は勿論である。<br/><br/> 右のごとき、第一位に採択されたる療法こそ一挙に難問題である国民保健問題――特に結核問題を解決するに役立つであろう。<br/><br/>しかも僅々（きんきん）十ケ月間の日子（にっし）と些細（ささい）の手数によって解決さるるのであり、その効果は根本的、永遠的であり、しかも重大時局を解決する基本的条件となる以上ぜひ実行すべきであると思うのである。<br/><br/> 右の方法実行の場合、相当の困難と思う事は、その治療者の選択である。<br/><br/>これについて私見をいえば、官報又は新聞紙の広告等によって弘く天下の逸材を集めるのである。<br/><br/>しかしながら問題の性質上、余程の自信がなければ応じられない訳であるから、申込者は相当の技能者とみて差支えなかろう。<br/><br/>従って万一多数の場合は前述の十人宛（ずつ）を何組に増加しても良かろうしそれが一ケ月宛の試験によって無効果又は悪結果は漸次淘汰され、優秀者のみが残る事になり、その優秀者から又選択せられて、最後に最優者即ち第一位の療法が残る事になる訳である。<br/><br/>但し、いかに優秀な療法であっても門外不出的の一代限りのものであってはならない。<br/><br/>何人といえども修得すれば実効果あるものでなくてはならないのである。<br/><br/> 右のごとき試験の結果採択されたる第一位の医術こそ、将来の日本医術と決定すべきであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M261025</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年10月25日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月二十五日 （お伺）愛媛新聞紙上に「幼児のお腹に子供」として左記のような記事が出ておりました。<br><br>すなわち、 「弓削村、村瀬氏の娘恵ちゃん、現在生後一年十カ月になるが、なにかお腹に固まりでもあるのではないかと気づいたのが、生まれて三カ月目、それから固まりはだんだん大きくなるので、レントゲンを撮ったところ、腹に赤ちゃんがいるのでびっくりして岡山医大で診察の結果、異状妊娠双生児と断定」はたして右のようなことがあり得ることでございましょうか。<br><br>またそうであるとしたら、御浄霊にて解決でき得るものでございましょうか。<br><br> 〔御垂示〕 これは浄霊でも難しいでしょうね。<br><br>大体、赤ん坊のお腹はそう大きくならないから――子宮もそう大きくならないからね。<br><br>だからまあ、御浄霊すれば死んで出るか、御浄霊しなければ手術で出すか、どっちかでしょうね。<br><br>もし生まれたところで、このくらいの赤ん坊だからね。<br><br>まあ、猫の子くらいしかないだろうから駄目ですね。<br><br>異状妊娠双生児――まあ双生児というわけですね。<br><br>やっぱり霊的の罪ですね。<br><br>そういうのは、妊娠して、妊娠のまま変死する――自殺するか、殺されるかしたのが――すぐ死なないでしばらく生きていて、死ぬ場合に、生きている間にお腹の子が惜しい――かわいそうだという想念が強かったんですね。<br><br>それが生まれ変わってくる場合にこういうことがあり得るのですね。<br><br>そういうわけでしょうね。<br><br> （お伺）桜木和子（昭和二十四年四月入信。<br><br>二十歳）本年四月中旬ごろより腎臓および腹膜の御浄化をいただき、二カ月くらいは順調で、腹部も小さく、浮腫も減り、たいへん喜んでおりましたところが、その後、夕刻になると三十八、九度の熱が毎日続き、それより肩、頸が非常に軟らかくなりました。<br><br>ただいまのところ、熱はさほどございませんが、熱の出始めたころより食欲減退、食事を摂ると腹部が掛って、時折嘔吐いたします。<br><br>なお腹部全体には始終痛みがあり、そのような状態で今日まで続いております。<br><br>そのため衰弱激しく、現在では起きていることが苦痛となりました。<br><br>本人は幼少より病気をしたことがあまりありませんが、平素より月経不順にて御浄化後は六月上旬に若干ありましてより、現在までありません。<br><br>なお本人は服薬はあまりありませんが出産の折、母親は妊娠腎にて死線を彷（さまよ）ったそうでございます。<br><br>また母親の姉は昨年腸結核にて死亡いたす時に妹（当人の母）の名を呼んで亡くなったそうです。<br><br>その後母親は姉の夢を時々見るので、娘の御浄化と関係があるのではないかと気にしております。<br><br>当人一家はたいへん熱心で、家中入信し、御神体、御屏風観音様を御奉斎させていただいております。<br><br>なお娘の浄化は家中の罪の浄化と思い、神様にお任せいたし、喜ばしていただいております、と申しております。<br><br>右の御浄化につき御垂示お願い申し上げます。<br><br> 〔御垂示〕 これは誰が浄霊しているんですかね。<br><br>腎臓の所に固まりがあるんですね。<br><br> 「最初のころは固まりがありましたが、最近は軟らかくなりました」 だが、まだそうとうにありますよ。<br><br>食欲減退というのは、熱のためもありますね。<br><br>お腹に固まりがあるんですね。<br><br>いくらか霊力が足りないな。<br><br>こういうのは、どんどん溶けていくものですがね。<br><br>押すと痛いんですね。<br><br> 「お腹を押すと痛がります。<br><br>始終お腹に手をあてております」 まだ毒がある。<br><br>それが溶けていくんですがね。<br><br> 「家の人が御浄霊をいたしておりますが――」 家の人じゃ、まだ無理です。<br><br>もっと頻繁にやらなければならない。<br><br>これを続けていけば命がなくなります。<br><br>もっと下痢しなければ駄目です。<br><br> 「日に五、六回固い便通があります」 固い便というのは――そうあるはずがない。<br><br>浄霊に力が入るんじゃないかな。<br><br>溶けが悪いんだ。<br><br> 「最初は教会に行っておりましたが、それからは起きることが苦痛になっております」 それは、衰弱している――食欲減退していたからです。<br><br>これは、医者の方では腸結核ですね。<br><br>お腹に毒が固まっているからで、こういうのは、順調に治るものですがね。<br><br>今度はできるだけ力を抜いて奥に通るようにしてやるんです。<br><br>こういうのは難しいんです。<br><br>それで、元は腎臓だがね。<br><br>本人は入信してますね。<br><br> 「さようでございます」 これは自分で始終やると良いんです。<br><br>やっているんでしょうね。<br><br>このために月経も不順なんだ。<br><br>これは浄霊する人の霊力いかんです。<br><br>霊力が強ければじき治っちゃう。<br><br>霊力が弱いというのは、力を入れるからで、ぜんぜん力を入れなければ非常に強くなる。<br><br>そうなればどんどん溶ける。<br><br> （お伺）未入信の夫（五十六歳）五月初旬より両足の甲が非常に腫れましたので、医診を受けましたところ、血圧が高いと申しましたのみで、注射と飲薬をやりましたがなんの効果もなく、無痛でありましたのでそのままにしておりました。<br><br>六月中旬になり、右足の膝下が痛み始め「ツト」に小さい「しこり」ができ、七月初旬に至り、今度は左足が痛み出し、八月になり、右と同様の「しこり」ができましたので、民間療法を受けましたが立てなくなり、医師より注射三本してもらいましたところ、心臓が悪化し、その手当十日間ほどで、一応小康を得ましたが、前記の箇所は治らず、右足の方は卵大になっております。<br><br>八月下旬より御浄霊いただきましたところ、排尿も相当量になりましたが、今もって腰より下が痛んで立てません。<br><br>腹部および腎臓部は固く、足部裏筋が吊り、左足および右の膝下から甲にかけて「むくみ」があります。<br><br>九月九日からは毎日正午ごろより夜の八時ごろまで発熱いたします。<br><br>七、八年前三回ほど持病をやり、塗り薬と「川ヒル」にて治したことがあります。<br><br>霊的方面には、兄が「リウマチ」か神経痛かで五、六年間病み、三年前死亡、また脚気にて死亡した者もあります。<br><br>主人は御神書を非常によく拝読いたしております。<br><br>家は両養子を迎え戦病死しております。<br><br>いかなる関係でございましょうか。<br><br> 〔御垂示〕 これは霊的じゃありませんよ。<br><br>これは、最初両足が腫れたというのは、薬毒です。<br><br>上から垂れてきた薬毒ですね。<br><br>それから、血圧が高い――注射と飲薬、これも悪いけれど、こういう人は――重い薬は下に下がるし、また人によっては、下がりやすい人もあります。<br><br>こういう人は、薬が下に下がるんですね。<br><br>しこり――それは固まりですね。<br><br>足部裏筋が吊り――固まっている。<br><br>固まって、筋を押しているわけですね。<br><br>発熱――これは結構ですね。<br><br>痔病の時の薬ですね。<br><br>塗り薬が皮膚から浸み込んで、下に垂れていく。<br><br>これは霊的じゃありません。<br><br>これも浄霊すればだんだん治りますがね。<br><br>しかしそうとう固まっているから、長くかかりますね。<br><br>別に心配もなにもありません。<br><br>ただ、気長にやれば、少しずつ少しずつ良くなっていきます。<br><br> （お伺）尾川嵩（カサミ）（本年六月御垂示いただきました者でございます）、当時の浄化は強い疲労感、胸部圧迫感、発熱、咳などで、熱は朝三十七度五、六分、最高は午後四時ごろ三十九度近くを前後し、発熱時において、胸部の疼痛最も激しく、きまって午前一時ごろ大量の盗汗があり、熱が下がりました。<br><br>少しの動作にても下腹部より絞り出すごとき咳が出、連発する時は呼吸困難とさえなることがありましたが、喀痰は割に少なく、ぜんぜん出ないこともございました。<br><br>その他鼻血、歯茎より毒血の出ることもございました。<br><br>その後の浄化は、痰が溶けやすくなり濃い痰も出るようになりました。<br><br>咳も以前よりたいへん楽になってまいりましたが、八月ごろより、しだいに胸部の圧迫が強まり、右肺中央部および上部付近と胸側に空洞を覚えました。<br><br>以後呼吸が頻繁となり、本月に入って背部の圧迫が著しく強くなってまいりました。<br><br>熱は平常朝三十七度四、五分。<br><br>午後に至って最高三十八度五、六分を上下し、胸部は胸側から下肺部にかけて熱を持ち、特に指圧すると激痛または鈍痛を覚えます。<br><br>喀痰の排泄しだいにより、胸の圧迫もいくぶんやわらいでまいりますが、いったん痰が出ると、またはなはだ呼吸が苦しくなり、夜分は特に咳がひどく（仰向いて臥床した時）痰の排泄もひどいのでなかなか眠れない時もございますが、比較的に熱は低くなり、朝のうちは楽ですが、昼過ぎよりしだいに発熱、背部圧迫感と呼吸が困難となり、息切れがして苦しく、脈拍は百ないし百二十を越すこともあります。<br><br>一週間前用便に行って失神し、それからは人手を借りるようになりました。<br><br>腹部の動脈が硬化し、横隔膜付近より下腹に熱が出、圧迫されますので、食欲が減退いたしております。<br><br>なお、腎臓部より腰部にかけて筋金が入っているような感じがし、大腿部より足にかけて横筋が痛み、脚全体がだるく感じます。<br><br>御浄霊は主として、圧迫されている所、熱のある所、痛い所をさせていただいております。<br><br>御浄霊をいただきました後にはたいへん楽になり、気分も良くさせていただいております。<br><br>しばらくすると、まただんだん苦しくなってまいります。<br><br>苦痛の箇所は毎日のように異動いたし、御浄霊の箇所もそれに伴い異っております。<br><br>このような御浄化が毎日繰り返されておりますうちに、しだいに疲労いたしてきているように思われます。<br><br>なお、嵩（カサミ）は六月、私は本月入信させていただきましたが、まだ御神体、御屏風観音様は御奉斎いたしておりません。<br><br>祖母は熱心な日蓮宗信者でございます。<br><br>家庭もいろいろに複雑いたしております。<br><br>右御教えのほどお願い申し上げます。<br><br> 〔御垂示〕 背部圧迫感――前の胸の方の肋骨付近に薬毒が溜まっているので、圧迫するからですね。<br><br>これはね、簡単なものなんです。<br><br>薬毒ですね。<br><br>それがいっぱい溜まっているわけですね。<br><br>固まっているんです。<br><br>ですからそのために呼吸困難も熱も痛みもあるんですから、これを早く取れば良い。<br><br>早く取るには、浄霊する人によほど霊力がないと、早く取れない。<br><br>誰がやっているんです。<br><br>霊力が強くてやるか、さもなければ浄霊をなるだけしないようにする。<br><br>溶かさないようにやる。<br><br>そして気長にやる。<br><br>今の、このやり方では、結局危ないです。<br><br>つまり、良く溶かさないようにするんですね。<br><br>だから一週間に二回くらい浄霊する。<br><br>そうすると、咳も痰も少なくなり、食欲もあるから衰弱しないですむ。<br><br>それが一番無事だね。<br><br>こういうのは、そういうやり方をしなさい。<br><br>しかし、一時苦しいかもしれないが、そうかといって浄霊すると、一時良くなるが、あと浄化が強くなって、平均浄化が起るからね。<br><br>そうすると苦しむから、今言ったようにする方が安全ですね。<br><br>家の人で反対する人があるんですか。<br><br> 「ございません」 毎日浄霊しているんでしょう。<br><br> 「さようでございます」 今言ったように良くわけを話して、二日おきか三日おきにやる。<br><br>今は安静にしているんですか。<br><br>起きているんですか。<br><br> 「二週間前から寝たっきりになっております」 寝ていた方が良い。<br><br>浄化を弱らせるんですね。<br><br>食事は―― 「一杯くらいです」 駄目だね。<br><br>喀血は―― 「ありません」 上っ側に溜まっているんですね。<br><br>大体肋間神経痛ですね。<br><br>それが一番ひどい。<br><br>やっぱり、あなたも力を入れているんだね。<br><br> 「心配のために力が入るようでございます」 心配のために力を入れるとよけい駄目なんです。<br><br>浄霊に力を入れたら駄目ですよ。<br><br>以前と違うんだからね、神様の御守護が違ってきているからね。<br><br>浄霊は何分くらいやっている。<br><br> 「四十分くらいでございます」 それから、いくらか急所を逸れていないかな。<br><br>急所を逸れているんで、平均浄化が起っているんだね。<br><br>痛い所をやっているでしょう。<br><br>今言ったような方針でやってご覧なさい。<br><br>非常に苦しかったりする場合には臨機応変にやって良いですが、方針をそんなような具合にして続けて、結果が良かったらそんなふうにするんですね。<br><br> （お伺）私の妻（二十三歳）本年四月下旬、下腹部が膨れて激痛が起り、婦人科医と外科医の「卵巣膿踵」との同一診断で、五月二日開腹手術をし、左の卵巣全部と、右の大部分を切り取りました。<br><br>順調に退院し、間もなく元の職業である自分の父が経営する洋裁学校の教壇に立ちました。<br><br>秋に入って、昼間、夜間の授業に疲れが出ている様子でしたが、右卵巣部に激痛が始まり、先の膿腫が悪性のものであったため、再発したのだとの医師の診察にて、結果は保証できないが、再手術しろと言われました。<br><br>私は本年六月中旬ごろ入信させていただき、このお道以外に救われる道はないと思い、当時婚約の仲であったため、即日結婚の必要を感じ、無理矢理手許に引き取りました。<br><br>以来、当地の西谷先生、杉山先生に御浄霊いただき、私もいただいております。<br><br>まず痛みが取れ、一週間後には起きて軽い縫いものをするまでになりましたが、数日後より腹部の膨れが増し、重い苦しさと鋭い痛みがあり、苦痛と嘔気のために食欲が落ち、衰弱が募ってまいりました。<br><br>一昨日より変わった便や血液が少量ずつ下がるようになりましたが、今日は腹部の圧迫が胸の方にきて、心臓の苦しさをしきりに訴えて、たびたび嘔吐いたします。<br><br>数年前より月経が年に三、四度だった由ですが、手術後は軽いながら月ごととなり、今月もすでに十日ほど前にすませました。<br><br>なお三、四年前、たびたび強度の蕁麻疹に悩まされ、そのたびに医者が強い注射を打った由です。<br><br>妻の家族は浄土宗の寺にて、その父は養子です。<br><br>母方の祖母は、八年前子宮癌にて亡くなったそうですが、発病後、野の一軒家に離され、親身に世話する者もなく、息を引き取る時だけ、妻の父母が世間体を繕うため家へ連れ戻ったそうです。<br><br>未だに祖父とはお墓も別にしてある由です。<br><br>妻の幼時この祖母に誰よりもかわいがられた由にて、今度の御浄化数日後、夜中に祖母の霊が恐ろしい形をしてしきりに妻を脅かした由です。<br><br>また、今日など苦しい時、みんなから世話されて幸福な己に比べて、世話する者もなく淋しかったろう祖母を、憐れむ想いのみ多いと話しました。<br><br>ちなみに、妻は長女にて、妻の父母は、長く私たちの恋愛と結婚とを深く憎み、二人を呪い殺してやるとまで申し、今度しかたなく許したとはいえ、このお道が判らず、反対し続けております。<br><br>なお妻は、去る十月七日私の母とともに、西谷先生より御守りをいただきました。<br><br>一日も早くお救いいただきたいと思いますが、差し当たりいかがいたしましたらよろしゅうございましょうか。<br><br> 〔御垂示〕 切り取ったら再発ではないですね。<br><br>これはおかしいですね。<br><br>野の一軒家――随分薄情な人だね。<br><br>卵巣を取ったんですかね。<br><br>取っても、昔ならこれですんだんですが、今は霊界の浄化が強いために固まらないんです。<br><br>そこで、こういう後味が悪くなっちゃったんですがね。<br><br>一時は固まったんで教壇に立つまでになったんですが、浄化のために激痛が始まった。<br><br>この激痛は先のと違って、消毒薬のためです。<br><br>先には消毒薬も固まるから良かったが、今は固まらないからね。<br><br>再手術したら駄目ですね。<br><br>ただ、衰弱さえしなければ治りますがね。<br><br>問題は腹部の膨れが増し――嘔気――というのは、薬毒を吐くんです。<br><br>鋭い痛みは、消毒薬の浄化ですね。<br><br>腹部の膨れというのも。<br><br>やっぱり薬毒が溶けたやつですね。<br><br>変わった便――これは手術後の汚いものですね。<br><br>しかし、これはそう悪い状態ではないんですがね。<br><br>圧迫が胸の方にきているというのは、薬毒が嘔吐によって出ようとして、胸の方にくるんです。<br><br>たびたび嘔吐――これは結構ですがね。<br><br>昔の蕁麻疹の時の注射ですね。<br><br>それが最初の原因ですね。<br><br>それが卵巣に溜まって痛んだ。<br><br>ふつう、卵巣は痛むものではないですがね。<br><br>痛むのは薬毒のためですね。<br><br> 霊的関係はあまりありませんね。<br><br>体が弱ると霊は憑りますが、祖母が苦しんだところで、この人が苦しめたわけではないから、恨みということはないが、ただ時々慕ってきて憑るらしいね。<br><br>祖母を憐れむ――というのはそうですね。<br><br>だからこれは病気には関係しません。<br><br>これは今はなんとも言えませんね。<br><br>それから家の人が日蓮宗信者で、それが反対するという霊もいくらか障ってます。<br><br>できるだけ御神書を読ませるんです。<br><br> こういう人の浄霊はいくらやっても良い。<br><br>浄霊を加減するというのは、胸に関係する――肺ですね。<br><br>そういうのは加減するんです。<br><br>他の浄霊はやるほど良いんですからね。<br><br>まあ、そんなところですね。<br><br>非常に愛し合っているんだから助けてあげたいですがね。<br><br>光明如来様をお祀りすると良いんだがね。<br><br>そうして、良くお願いするんです。<br><br>そうしてできるだけ浄霊して、御神書を読ませる。<br><br>そうしたら、治らないことはないですね。<br><br>今言ったようなことを熱心にやる。<br><br>それより他に助かりようがない。<br><br>まあそうやるんですね。<br><br> （お伺）八カ月になる男の子、午前二時ごろ突然泣き出し、なかなか御浄霊をいたしましても止みませんので、なお一時間以上御浄霊いたしますと一時は止まりましても、十分くらい後にはまた泣き出すという有様で、誠に困り抜いておりましたところ、ふと思い出し、今回いただきました御霊紙を二分角くらいに切りまして、お乳とともに服用させましたところ、たちまち泣き止み、朝まで静かに寝ました。<br><br>ここで不思議なことには、当日夜、一人の指導者に伴われ、親子連れの信徒が娘の精神病を治していただきたいとて来られた者で、母は娘の精神病を助けていただきたいために、当日より三日前に入信し、母が入信した時は、すでに指導者の御浄霊によってたいへん静かになり、乗り物にも動ぜず、教会までまいったのでありますが、患者である娘は御浄霊の効果を霊的に感じたものとみえ、自宅に帰ることを嫌い、どうしても教会に置いてもらいたいと言って、なかなか帰らず、以後三日間滞在しております。<br><br>なお教会に来てからは、母の浄霊を徹底的に嫌い「あなたの浄霊は形式的であるから嫌だ」と言っております。<br><br>この親子が教会に来てから、平生おとなしい赤ん坊が同じ時刻に夜泣いて困らせますのですが、私が手枕をして寝かせますと、安心したようにスヤスヤと寝ます。<br><br>今、当教会に滞在している病人の副霊による災いではないかと思いますが、いかがでございましょうか。<br><br>なお前記の病人は「ハルノウ山」の熱心な信者であったそうで、信仰中に精神病になったとのことでございます。<br><br>娘の病気は憑依霊によるものでございましょうか。<br><br> 〔御垂示〕 無論、憑依霊ですがね。<br><br>ふつうの精神病的意味とは違って、救ってもらいたいという霊ですね。<br><br>そうして、それが精神病という形式にして救われたいんですね。<br><br>そうして「ハルノウ山」という、この神様に関係がありそうですね。<br><br>この神様が救ってもらいたいために、この娘に憑いて、それからまた、娘が良くなると浄霊してもらえないから、赤ん坊に憑いたというわけですね。<br><br>結構ですよ。<br><br>この霊は救われますね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos Divinos sobre a Purificação</h2>
 <p><strong>Pergunta:</strong> Foi publicado no jornal de Ehime um artigo intitulado “Criança no ventre de um bebê”, com o seguinte teor: “A pequena Megumi, filha do Sr. Murase, do vilarejo de Yuge, atualmente com um ano e dez meses de vida, teve uma massa detectada em seu abdômen por volta dos três meses de idade. Como a massa crescia progressivamente, foi realizada uma radiografia que, para surpresa de todos, revelou a presença de um bebê em seu ventre. Um exame na Faculdade de Medicina de Okayama concluiu tratar-se de uma gestação gemelar atípica.” Seria um fenômeno como este de fato possível? E, nesse caso, seria possível solucioná-lo por meio do Johrei?</p>
@@ -149,5 +301,48 @@ function toggleLang(lang) {
 <p>Desde que mãe e filha chegaram à igreja, meu bebê, que geralmente é calmo, passou a ter crises de choro noturno sempre no mesmo horário, o que nos tem preocupado. No entanto, quando o faço dormir com a cabeça em meu braço, ele adormece tranquilamente, como se se sentisse seguro. Suspeito que seja uma perturbação causada por um espírito secundário da moça enferma que está hospedada em nossa igreja. O que o senhor me diz? A propósito, a paciente era uma seguidora devota de uma religião chamada “Harunou-yama” e adoeceu mentalmente enquanto praticava essa fé. A doença da moça é causada por um espírito obsessor?</p>
 <p><strong>Orientação de Meishu-Sama:</strong> Sem dúvida, trata-se de um espírito obsessor, mas de um tipo diferente do habitual. É um espírito que anseia por salvação e que se manifesta através da doença mental para alcançá-la. É provável que haja uma conexão com a divindade de “Harunou-yama”. Esse espírito, para garantir que continuaria recebendo Johrei à medida que a moça melhorava, encostou-se também no bebê.</p>
 <p>Este é um sinal auspicioso. Tenha certeza de que esse espírito será salvo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年10月25日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月二十五日 （お伺）愛媛新聞紙上に「幼児のお腹に子供」として左記のような記事が出ておりました。<br/><br/>すなわち、 「弓削村、村瀬氏の娘恵ちゃん、現在生後一年十カ月になるが、なにかお腹に固まりでもあるのではないかと気づいたのが、生まれて三カ月目、それから固まりはだんだん大きくなるので、レントゲンを撮ったところ、腹に赤ちゃんがいるのでびっくりして岡山医大で診察の結果、異状妊娠双生児と断定」はたして右のようなことがあり得ることでございましょうか。<br/><br/>またそうであるとしたら、御浄霊にて解決でき得るものでございましょうか。<br/><br/> 〔御垂示〕 これは浄霊でも難しいでしょうね。<br/><br/>大体、赤ん坊のお腹はそう大きくならないから――子宮もそう大きくならないからね。<br/><br/>だからまあ、御浄霊すれば死んで出るか、御浄霊しなければ手術で出すか、どっちかでしょうね。<br/><br/>もし生まれたところで、このくらいの赤ん坊だからね。<br/><br/>まあ、猫の子くらいしかないだろうから駄目ですね。<br/><br/>異状妊娠双生児――まあ双生児というわけですね。<br/><br/>やっぱり霊的の罪ですね。<br/><br/>そういうのは、妊娠して、妊娠のまま変死する――自殺するか、殺されるかしたのが――すぐ死なないでしばらく生きていて、死ぬ場合に、生きている間にお腹の子が惜しい――かわいそうだという想念が強かったんですね。<br/><br/>それが生まれ変わってくる場合にこういうことがあり得るのですね。<br/><br/>そういうわけでしょうね。<br/><br/> （お伺）桜木和子（昭和二十四年四月入信。<br/><br/>二十歳）本年四月中旬ごろより腎臓および腹膜の御浄化をいただき、二カ月くらいは順調で、腹部も小さく、浮腫も減り、たいへん喜んでおりましたところが、その後、夕刻になると三十八、九度の熱が毎日続き、それより肩、頸が非常に軟らかくなりました。<br/><br/>ただいまのところ、熱はさほどございませんが、熱の出始めたころより食欲減退、食事を摂ると腹部が掛って、時折嘔吐いたします。<br/><br/>なお腹部全体には始終痛みがあり、そのような状態で今日まで続いております。<br/><br/>そのため衰弱激しく、現在では起きていることが苦痛となりました。<br/><br/>本人は幼少より病気をしたことがあまりありませんが、平素より月経不順にて御浄化後は六月上旬に若干ありましてより、現在までありません。<br/><br/>なお本人は服薬はあまりありませんが出産の折、母親は妊娠腎にて死線を彷（さまよ）ったそうでございます。<br/><br/>また母親の姉は昨年腸結核にて死亡いたす時に妹（当人の母）の名を呼んで亡くなったそうです。<br/><br/>その後母親は姉の夢を時々見るので、娘の御浄化と関係があるのではないかと気にしております。<br/><br/>当人一家はたいへん熱心で、家中入信し、御神体、御屏風観音様を御奉斎させていただいております。<br/><br/>なお娘の浄化は家中の罪の浄化と思い、神様にお任せいたし、喜ばしていただいております、と申しております。<br/><br/>右の御浄化につき御垂示お願い申し上げます。<br/><br/> 〔御垂示〕 これは誰が浄霊しているんですかね。<br/><br/>腎臓の所に固まりがあるんですね。<br/><br/> 「最初のころは固まりがありましたが、最近は軟らかくなりました」 だが、まだそうとうにありますよ。<br/><br/>食欲減退というのは、熱のためもありますね。<br/><br/>お腹に固まりがあるんですね。<br/><br/>いくらか霊力が足りないな。<br/><br/>こういうのは、どんどん溶けていくものですがね。<br/><br/>押すと痛いんですね。<br/><br/> 「お腹を押すと痛がります。<br/><br/>始終お腹に手をあてております」 まだ毒がある。<br/><br/>それが溶けていくんですがね。<br/><br/> 「家の人が御浄霊をいたしておりますが――」 家の人じゃ、まだ無理です。<br/><br/>もっと頻繁にやらなければならない。<br/><br/>これを続けていけば命がなくなります。<br/><br/>もっと下痢しなければ駄目です。<br/><br/> 「日に五、六回固い便通があります」 固い便というのは――そうあるはずがない。<br/><br/>浄霊に力が入るんじゃないかな。<br/><br/>溶けが悪いんだ。<br/><br/> 「最初は教会に行っておりましたが、それからは起きることが苦痛になっております」 それは、衰弱している――食欲減退していたからです。<br/><br/>これは、医者の方では腸結核ですね。<br/><br/>お腹に毒が固まっているからで、こういうのは、順調に治るものですがね。<br/><br/>今度はできるだけ力を抜いて奥に通るようにしてやるんです。<br/><br/>こういうのは難しいんです。<br/><br/>それで、元は腎臓だがね。<br/><br/>本人は入信してますね。<br/><br/> 「さようでございます」 これは自分で始終やると良いんです。<br/><br/>やっているんでしょうね。<br/><br/>このために月経も不順なんだ。<br/><br/>これは浄霊する人の霊力いかんです。<br/><br/>霊力が強ければじき治っちゃう。<br/><br/>霊力が弱いというのは、力を入れるからで、ぜんぜん力を入れなければ非常に強くなる。<br/><br/>そうなればどんどん溶ける。<br/><br/> （お伺）未入信の夫（五十六歳）五月初旬より両足の甲が非常に腫れましたので、医診を受けましたところ、血圧が高いと申しましたのみで、注射と飲薬をやりましたがなんの効果もなく、無痛でありましたのでそのままにしておりました。<br/><br/>六月中旬になり、右足の膝下が痛み始め「ツト」に小さい「しこり」ができ、七月初旬に至り、今度は左足が痛み出し、八月になり、右と同様の「しこり」ができましたので、民間療法を受けましたが立てなくなり、医師より注射三本してもらいましたところ、心臓が悪化し、その手当十日間ほどで、一応小康を得ましたが、前記の箇所は治らず、右足の方は卵大になっております。<br/><br/>八月下旬より御浄霊いただきましたところ、排尿も相当量になりましたが、今もって腰より下が痛んで立てません。<br/><br/>腹部および腎臓部は固く、足部裏筋が吊り、左足および右の膝下から甲にかけて「むくみ」があります。<br/><br/>九月九日からは毎日正午ごろより夜の八時ごろまで発熱いたします。<br/><br/>七、八年前三回ほど持病をやり、塗り薬と「川ヒル」にて治したことがあります。<br/><br/>霊的方面には、兄が「リウマチ」か神経痛かで五、六年間病み、三年前死亡、また脚気にて死亡した者もあります。<br/><br/>主人は御神書を非常によく拝読いたしております。<br/><br/>家は両養子を迎え戦病死しております。<br/><br/>いかなる関係でございましょうか。<br/><br/> 〔御垂示〕 これは霊的じゃありませんよ。<br/><br/>これは、最初両足が腫れたというのは、薬毒です。<br/><br/>上から垂れてきた薬毒ですね。<br/><br/>それから、血圧が高い――注射と飲薬、これも悪いけれど、こういう人は――重い薬は下に下がるし、また人によっては、下がりやすい人もあります。<br/><br/>こういう人は、薬が下に下がるんですね。<br/><br/>しこり――それは固まりですね。<br/><br/>足部裏筋が吊り――固まっている。<br/><br/>固まって、筋を押しているわけですね。<br/><br/>発熱――これは結構ですね。<br/><br/>痔病の時の薬ですね。<br/><br/>塗り薬が皮膚から浸み込んで、下に垂れていく。<br/><br/>これは霊的じゃありません。<br/><br/>これも浄霊すればだんだん治りますがね。<br/><br/>しかしそうとう固まっているから、長くかかりますね。<br/><br/>別に心配もなにもありません。<br/><br/>ただ、気長にやれば、少しずつ少しずつ良くなっていきます。<br/><br/> （お伺）尾川嵩（カサミ）（本年六月御垂示いただきました者でございます）、当時の浄化は強い疲労感、胸部圧迫感、発熱、咳などで、熱は朝三十七度五、六分、最高は午後四時ごろ三十九度近くを前後し、発熱時において、胸部の疼痛最も激しく、きまって午前一時ごろ大量の盗汗があり、熱が下がりました。<br/><br/>少しの動作にても下腹部より絞り出すごとき咳が出、連発する時は呼吸困難とさえなることがありましたが、喀痰は割に少なく、ぜんぜん出ないこともございました。<br/><br/>その他鼻血、歯茎より毒血の出ることもございました。<br/><br/>その後の浄化は、痰が溶けやすくなり濃い痰も出るようになりました。<br/><br/>咳も以前よりたいへん楽になってまいりましたが、八月ごろより、しだいに胸部の圧迫が強まり、右肺中央部および上部付近と胸側に空洞を覚えました。<br/><br/>以後呼吸が頻繁となり、本月に入って背部の圧迫が著しく強くなってまいりました。<br/><br/>熱は平常朝三十七度四、五分。<br/><br/>午後に至って最高三十八度五、六分を上下し、胸部は胸側から下肺部にかけて熱を持ち、特に指圧すると激痛または鈍痛を覚えます。<br/><br/>喀痰の排泄しだいにより、胸の圧迫もいくぶんやわらいでまいりますが、いったん痰が出ると、またはなはだ呼吸が苦しくなり、夜分は特に咳がひどく（仰向いて臥床した時）痰の排泄もひどいのでなかなか眠れない時もございますが、比較的に熱は低くなり、朝のうちは楽ですが、昼過ぎよりしだいに発熱、背部圧迫感と呼吸が困難となり、息切れがして苦しく、脈拍は百ないし百二十を越すこともあります。<br/><br/>一週間前用便に行って失神し、それからは人手を借りるようになりました。<br/><br/>腹部の動脈が硬化し、横隔膜付近より下腹に熱が出、圧迫されますので、食欲が減退いたしております。<br/><br/>なお、腎臓部より腰部にかけて筋金が入っているような感じがし、大腿部より足にかけて横筋が痛み、脚全体がだるく感じます。<br/><br/>御浄霊は主として、圧迫されている所、熱のある所、痛い所をさせていただいております。<br/><br/>御浄霊をいただきました後にはたいへん楽になり、気分も良くさせていただいております。<br/><br/>しばらくすると、まただんだん苦しくなってまいります。<br/><br/>苦痛の箇所は毎日のように異動いたし、御浄霊の箇所もそれに伴い異っております。<br/><br/>このような御浄化が毎日繰り返されておりますうちに、しだいに疲労いたしてきているように思われます。<br/><br/>なお、嵩（カサミ）は六月、私は本月入信させていただきましたが、まだ御神体、御屏風観音様は御奉斎いたしておりません。<br/><br/>祖母は熱心な日蓮宗信者でございます。<br/><br/>家庭もいろいろに複雑いたしております。<br/><br/>右御教えのほどお願い申し上げます。<br/><br/> 〔御垂示〕 背部圧迫感――前の胸の方の肋骨付近に薬毒が溜まっているので、圧迫するからですね。<br/><br/>これはね、簡単なものなんです。<br/><br/>薬毒ですね。<br/><br/>それがいっぱい溜まっているわけですね。<br/><br/>固まっているんです。<br/><br/>ですからそのために呼吸困難も熱も痛みもあるんですから、これを早く取れば良い。<br/><br/>早く取るには、浄霊する人によほど霊力がないと、早く取れない。<br/><br/>誰がやっているんです。<br/><br/>霊力が強くてやるか、さもなければ浄霊をなるだけしないようにする。<br/><br/>溶かさないようにやる。<br/><br/>そして気長にやる。<br/><br/>今の、このやり方では、結局危ないです。<br/><br/>つまり、良く溶かさないようにするんですね。<br/><br/>だから一週間に二回くらい浄霊する。<br/><br/>そうすると、咳も痰も少なくなり、食欲もあるから衰弱しないですむ。<br/><br/>それが一番無事だね。<br/><br/>こういうのは、そういうやり方をしなさい。<br/><br/>しかし、一時苦しいかもしれないが、そうかといって浄霊すると、一時良くなるが、あと浄化が強くなって、平均浄化が起るからね。<br/><br/>そうすると苦しむから、今言ったようにする方が安全ですね。<br/><br/>家の人で反対する人があるんですか。<br/><br/> 「ございません」 毎日浄霊しているんでしょう。<br/><br/> 「さようでございます」 今言ったように良くわけを話して、二日おきか三日おきにやる。<br/><br/>今は安静にしているんですか。<br/><br/>起きているんですか。<br/><br/> 「二週間前から寝たっきりになっております」 寝ていた方が良い。<br/><br/>浄化を弱らせるんですね。<br/><br/>食事は―― 「一杯くらいです」 駄目だね。<br/><br/>喀血は―― 「ありません」 上っ側に溜まっているんですね。<br/><br/>大体肋間神経痛ですね。<br/><br/>それが一番ひどい。<br/><br/>やっぱり、あなたも力を入れているんだね。<br/><br/> 「心配のために力が入るようでございます」 心配のために力を入れるとよけい駄目なんです。<br/><br/>浄霊に力を入れたら駄目ですよ。<br/><br/>以前と違うんだからね、神様の御守護が違ってきているからね。<br/><br/>浄霊は何分くらいやっている。<br/><br/> 「四十分くらいでございます」 それから、いくらか急所を逸れていないかな。<br/><br/>急所を逸れているんで、平均浄化が起っているんだね。<br/><br/>痛い所をやっているでしょう。<br/><br/>今言ったような方針でやってご覧なさい。<br/><br/>非常に苦しかったりする場合には臨機応変にやって良いですが、方針をそんなような具合にして続けて、結果が良かったらそんなふうにするんですね。<br/><br/> （お伺）私の妻（二十三歳）本年四月下旬、下腹部が膨れて激痛が起り、婦人科医と外科医の「卵巣膿踵」との同一診断で、五月二日開腹手術をし、左の卵巣全部と、右の大部分を切り取りました。<br/><br/>順調に退院し、間もなく元の職業である自分の父が経営する洋裁学校の教壇に立ちました。<br/><br/>秋に入って、昼間、夜間の授業に疲れが出ている様子でしたが、右卵巣部に激痛が始まり、先の膿腫が悪性のものであったため、再発したのだとの医師の診察にて、結果は保証できないが、再手術しろと言われました。<br/><br/>私は本年六月中旬ごろ入信させていただき、このお道以外に救われる道はないと思い、当時婚約の仲であったため、即日結婚の必要を感じ、無理矢理手許に引き取りました。<br/><br/>以来、当地の西谷先生、杉山先生に御浄霊いただき、私もいただいております。<br/><br/>まず痛みが取れ、一週間後には起きて軽い縫いものをするまでになりましたが、数日後より腹部の膨れが増し、重い苦しさと鋭い痛みがあり、苦痛と嘔気のために食欲が落ち、衰弱が募ってまいりました。<br/><br/>一昨日より変わった便や血液が少量ずつ下がるようになりましたが、今日は腹部の圧迫が胸の方にきて、心臓の苦しさをしきりに訴えて、たびたび嘔吐いたします。<br/><br/>数年前より月経が年に三、四度だった由ですが、手術後は軽いながら月ごととなり、今月もすでに十日ほど前にすませました。<br/><br/>なお三、四年前、たびたび強度の蕁麻疹に悩まされ、そのたびに医者が強い注射を打った由です。<br/><br/>妻の家族は浄土宗の寺にて、その父は養子です。<br/><br/>母方の祖母は、八年前子宮癌にて亡くなったそうですが、発病後、野の一軒家に離され、親身に世話する者もなく、息を引き取る時だけ、妻の父母が世間体を繕うため家へ連れ戻ったそうです。<br/><br/>未だに祖父とはお墓も別にしてある由です。<br/><br/>妻の幼時この祖母に誰よりもかわいがられた由にて、今度の御浄化数日後、夜中に祖母の霊が恐ろしい形をしてしきりに妻を脅かした由です。<br/><br/>また、今日など苦しい時、みんなから世話されて幸福な己に比べて、世話する者もなく淋しかったろう祖母を、憐れむ想いのみ多いと話しました。<br/><br/>ちなみに、妻は長女にて、妻の父母は、長く私たちの恋愛と結婚とを深く憎み、二人を呪い殺してやるとまで申し、今度しかたなく許したとはいえ、このお道が判らず、反対し続けております。<br/><br/>なお妻は、去る十月七日私の母とともに、西谷先生より御守りをいただきました。<br/><br/>一日も早くお救いいただきたいと思いますが、差し当たりいかがいたしましたらよろしゅうございましょうか。<br/><br/> 〔御垂示〕 切り取ったら再発ではないですね。<br/><br/>これはおかしいですね。<br/><br/>野の一軒家――随分薄情な人だね。<br/><br/>卵巣を取ったんですかね。<br/><br/>取っても、昔ならこれですんだんですが、今は霊界の浄化が強いために固まらないんです。<br/><br/>そこで、こういう後味が悪くなっちゃったんですがね。<br/><br/>一時は固まったんで教壇に立つまでになったんですが、浄化のために激痛が始まった。<br/><br/>この激痛は先のと違って、消毒薬のためです。<br/><br/>先には消毒薬も固まるから良かったが、今は固まらないからね。<br/><br/>再手術したら駄目ですね。<br/><br/>ただ、衰弱さえしなければ治りますがね。<br/><br/>問題は腹部の膨れが増し――嘔気――というのは、薬毒を吐くんです。<br/><br/>鋭い痛みは、消毒薬の浄化ですね。<br/><br/>腹部の膨れというのも。<br/><br/>やっぱり薬毒が溶けたやつですね。<br/><br/>変わった便――これは手術後の汚いものですね。<br/><br/>しかし、これはそう悪い状態ではないんですがね。<br/><br/>圧迫が胸の方にきているというのは、薬毒が嘔吐によって出ようとして、胸の方にくるんです。<br/><br/>たびたび嘔吐――これは結構ですがね。<br/><br/>昔の蕁麻疹の時の注射ですね。<br/><br/>それが最初の原因ですね。<br/><br/>それが卵巣に溜まって痛んだ。<br/><br/>ふつう、卵巣は痛むものではないですがね。<br/><br/>痛むのは薬毒のためですね。<br/><br/> 霊的関係はあまりありませんね。<br/><br/>体が弱ると霊は憑りますが、祖母が苦しんだところで、この人が苦しめたわけではないから、恨みということはないが、ただ時々慕ってきて憑るらしいね。<br/><br/>祖母を憐れむ――というのはそうですね。<br/><br/>だからこれは病気には関係しません。<br/><br/>これは今はなんとも言えませんね。<br/><br/>それから家の人が日蓮宗信者で、それが反対するという霊もいくらか障ってます。<br/><br/>できるだけ御神書を読ませるんです。<br/><br/> こういう人の浄霊はいくらやっても良い。<br/><br/>浄霊を加減するというのは、胸に関係する――肺ですね。<br/><br/>そういうのは加減するんです。<br/><br/>他の浄霊はやるほど良いんですからね。<br/><br/>まあ、そんなところですね。<br/><br/>非常に愛し合っているんだから助けてあげたいですがね。<br/><br/>光明如来様をお祀りすると良いんだがね。<br/><br/>そうして、良くお願いするんです。<br/><br/>そうしてできるだけ浄霊して、御神書を読ませる。<br/><br/>そうしたら、治らないことはないですね。<br/><br/>今言ったようなことを熱心にやる。<br/><br/>それより他に助かりようがない。<br/><br/>まあそうやるんですね。<br/><br/> （お伺）八カ月になる男の子、午前二時ごろ突然泣き出し、なかなか御浄霊をいたしましても止みませんので、なお一時間以上御浄霊いたしますと一時は止まりましても、十分くらい後にはまた泣き出すという有様で、誠に困り抜いておりましたところ、ふと思い出し、今回いただきました御霊紙を二分角くらいに切りまして、お乳とともに服用させましたところ、たちまち泣き止み、朝まで静かに寝ました。<br/><br/>ここで不思議なことには、当日夜、一人の指導者に伴われ、親子連れの信徒が娘の精神病を治していただきたいとて来られた者で、母は娘の精神病を助けていただきたいために、当日より三日前に入信し、母が入信した時は、すでに指導者の御浄霊によってたいへん静かになり、乗り物にも動ぜず、教会までまいったのでありますが、患者である娘は御浄霊の効果を霊的に感じたものとみえ、自宅に帰ることを嫌い、どうしても教会に置いてもらいたいと言って、なかなか帰らず、以後三日間滞在しております。<br/><br/>なお教会に来てからは、母の浄霊を徹底的に嫌い「あなたの浄霊は形式的であるから嫌だ」と言っております。<br/><br/>この親子が教会に来てから、平生おとなしい赤ん坊が同じ時刻に夜泣いて困らせますのですが、私が手枕をして寝かせますと、安心したようにスヤスヤと寝ます。<br/><br/>今、当教会に滞在している病人の副霊による災いではないかと思いますが、いかがでございましょうか。<br/><br/>なお前記の病人は「ハルノウ山」の熱心な信者であったそうで、信仰中に精神病になったとのことでございます。<br/><br/>娘の病気は憑依霊によるものでございましょうか。<br/><br/> 〔御垂示〕 無論、憑依霊ですがね。<br/><br/>ふつうの精神病的意味とは違って、救ってもらいたいという霊ですね。<br/><br/>そうして、それが精神病という形式にして救われたいんですね。<br/><br/>そうして「ハルノウ山」という、この神様に関係がありそうですね。<br/><br/>この神様が救ってもらいたいために、この娘に憑いて、それからまた、娘が良くなると浄霊してもらえないから、赤ん坊に憑いたというわけですね。<br/><br/>結構ですよ。<br/><br/>この霊は救われますね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

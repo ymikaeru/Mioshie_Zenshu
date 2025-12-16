@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280315</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月15日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月十五日 時局談を少し話します。<br><br>とうとう吉田内閣も解散になりました。<br><br>これについてちょっと変に思うのは、吉田という人は年もとっているし、そうとうに世の中の経験もある人ですが、私はよほど前からおかしいと思っていたのです。<br><br>というのは、もうだいぶ前からガタついてきているのですから、とうに辞職なりして明け渡すべきなのですが、一生懸命に齧りついているところが分かりません。<br><br>肝腎な、運命と時期ということに気がつかないらしいのです。<br><br>大体吉田という人の花の盛りは、講和の時にアメリカに出た時なのです。<br><br>その時が一番の盛りなのです。<br><br>ちょうど桜の花がパッと咲いた時なのです。<br><br>だからその後になってだんだん花が散っていって、もう葉ばかりになるという一つの運命ですが、そうなりつつあるのですから、齧りつけばつくほどだんだん悪くなるのです。<br><br>そうして最近の「馬鹿野郎」問題では、あそこできれいに謝罪して引っ込むというのが利巧なのです。<br><br>それをまだまだ齧りつこうとしているのです。<br><br>だからますます醜い最後を遂げるようになるのです。<br><br>それから今度の不信任案の可決となり、民同の脱退……分党という名前ですが、これはうまい名前をつけたと思うが、そこまで行ったらしようがありません。<br><br>これから総選挙ということになると、自由党はずっと減ります。<br><br>あるいは第二党になるかもしれません。<br><br>そうしてみれば、当分内閣をつくる見込みもありません。<br><br>これから野党ということになったところで、見込みのある野党ならいいが、まず吉田さんの生きているうちは難しいでしょう。<br><br>そのくらいならば、もっと早いうちにきれいに引き下がった方が将来においてもいいのです。<br><br>そういうところが分かりません。<br><br>ちょうど戦争の末期になって、二進（にっち）も三進（さっち）も行かなくなってから降服しましたが、こっちは庖丁かなにか変な物を持って、先方は刀を持ってきたら、斬られるに決まってますから、斬られないうちにお辞儀をするといいのです。<br><br>一斬りされてからでもお辞儀するのはまだいいが、二斬り三斬りされてからお辞儀をするということが分かりません。<br><br>日本の戦争の時の末期と、ヒトラー、ムッソリーニなどの運命を見ても、つくづく見通しがつかないというか、ほかの点は馬鹿にいいのですが、そういう点においては悪いのです。<br><br>これは日本人は特に多いようですが、意地を張るというのが非常に悪いのです。<br><br>吉田などは意地っ張りなのです。<br><br> 今度のことなども、解散をしなくても辞職で結構なのです。<br><br>そうして結局直接の問題は「馬鹿野郎」問題です。<br><br>あれからガタガタしてきたのですから、それをきれいに謝ればいいのです。<br><br>「自分はたいへん間違っていた、たいへん恥ずべきことをした」と言って謝罪すればいいのを、単に取り消しですから、取り消しでは承知しません。<br><br>事柄の性質によっては取り消しでも良いが、「馬鹿野郎」では、人の横っ面を張り倒したようなもので一つの暴力ですから、謝罪するのが本当です。<br><br>人をぶんなぐりつけて「今のは間違いだ」というのは間違いです。<br><br>そこなのです。<br><br>あの人は偉い人ですが、ちょっと変なところがあるのです。<br><br>広川問題にしろ、去年の福永問題でもそうですが、きれいに引っ込んでいればいいのですが、昔のわがままの殿様とか、ヤンチャ坊主というようなところがあるのです。<br><br>言い出したらきかないというところがあるのです。<br><br>それも良い時はありますが、悪い時の方が多いのです。<br><br>というのは、あの人は本当の苦労をしてないからです。<br><br>近ごろの政治家というので、一癖あるというような人間はまことにありません。<br><br>平々凡々として後生大事に齧りついているというのです。<br><br>与党の方は寄りつき主義で、野党の方はなんでもかんでも反対するのです。<br><br>要するにドングリ連中です。<br><br>一人でも頑張るというような人間はいません。<br><br>これは政治家に限りません。<br><br>以前の明治、大正のころは、今でも忘れられないくらいの偉い人がおりました。<br><br>というのは、あの時代の人はみんな苦労をしているからです。<br><br>それはみんな牢にはいったり、貧乏したり、それこそ爆弾を投げつけられたりして、随分危ない所をくぐってきましたから、それだけにどこか深みがあるのです。<br><br>ところが今のああいった大臣などは、たいてい大学を出て官吏になって順調に来たというのですから、本当の社会の苦労をしてないのです。<br><br>本当にお坊ちゃんというような甘いところがあるのです。<br><br>ですから本当に苦労したというのは広川和尚くらいです。<br><br>これは労働者から酒屋の親父をして、それから政治家になったのですから、ほかとは違った点があります。<br><br>今度の広川問題もそうとう恐れられた問題でした。<br><br>今でもあの人を支持する二、三十人の部下がいるのですから偉いですが、あまりにやじり過ぎて今の人としては教養が足りない点があります。<br><br>だからやじり過ぎて少し下卑てます。<br><br>それをとったら将来大物になります。<br><br>政治談のようになりましたが、このくらいにしておきます。<br><br> 『アメリカを救う』の本もだいぶ売れるようです。<br><br>まだ売れているそうです。<br><br>それで割合に地方の隅々まで行き渡ってきたようなので、そうとうに読まれると思います。<br><br>ですから将来それだけの非常な効果を現わすと思ってます。<br><br>それから、ばかに重なってしまいましたが、『自然農法解説書』ももうじきできますから、これも大々的に売り出そうと思ってます。<br><br>これはできるだけ行き渡らせるようにと思って、値段も安くして五十円です。<br><br>そうしてできるだけ農村に行き渡らせるようにしようと思ってます。<br><br>それからその前に『結核信仰療法』も売り出すことになってますが、今月の末あたりに少し大々的に新聞広告をしようと思ってます。<br><br>これは非常に売れるだろうと思います。<br><br>結核でなおらないで苦しんでいる人がたくさんありますから、そういう人は「どうしても医学では駄目だ、なにか信仰でもしたら良いのではないか」というように迷っている人がたくさんあります。<br><br>それで信仰しようとしても、いったいどの神様を拝んだら良いか、どの宗教が良いかということに迷いますから、そこで本の広告を見るとか、人に聞くとかして、それでは一度見てみようという考えになるので、そうとう歓迎されると思います。<br><br>おまけにあの本は全快者百人の実例を載せてありますから、それがたいへんな魅力になると思ってます。<br><br>なにしろ医学に対する一つの挑戦的のものですから、そうとう問題にはなるに違いないと思ってます。<br><br>一番初めの項目は「医学が結核を作る」というのですから、これだけでもお医者さんは見たがるでしょう。<br><br>そんなわけで、これはどうしても出さなければならない本なのです。<br><br>その次は今書いてますが『救世教奇蹟集』です。<br><br>この前「序文」を書きましたが、どうもおもしろくないので、また書き直したので、それを読ませます。<br><br> （御論文「救世教奇蹟集 序文」）【栄光 二〇二号】 「序文」の次に一、二、三と概略の説明がありますが、その三を読ませます。<br><br> （御論文「三、霊と体」） それからもう一つはそうとう先に行ってから本を作りますが、それは変わった本です。<br><br>私は始終花を生けていますが、自分でも良いなと思うのが時々あるし、見る人も褒めるのです……それはお世辞でなくです。<br><br>それで自分で気に入った花ができた時に天然色写真に写して、それを本に作ろうと思ってます。<br><br>というのは、近ごろは変な花がはやってきたのです。<br><br>それから、花にしても殺してしまうのです。<br><br>そのために形は良いが、うま味がありません。<br><br>それと、絵なら死んでいて、筆勢というものはないのです。<br><br>そこで私が生けるのは五分以内です。<br><br>早いのは二分以内です。<br><br>それで花は庭で切ったのがいいですが、しかし花屋で買ったのでも、それを手にとってパッと生けるのです。<br><br>そのやり方が非常に良いのです。<br><br>また草物でも、何本もまとめておいてスッと生けるのです。<br><br>そういう生け方が今はないのです。<br><br>もっとも花の先生というのは一つの型を決めていて、近ごろはだいぶなくなってきましたが、やはり流儀とか、その先生の一つの形のために、どうも自然を殺してしまうのです。<br><br>ところがそれでは本当のものではないので、要するにどこまでも自然の良いところを生かし、表現することです。<br><br>そういう一つの花の生け方の革命というものです。<br><br>それから花器との調和があります。<br><br>それからやかましく言うと、床の間の大きさ、壁の色、掛物にマッチしなければいけないのです。<br><br>そうして床の間全体が一つの芸術というものにならなければいけないのです。<br><br>私なども時々そういうことがあると、昔の名画でも見るような感じがします。<br><br>その代わり、上手な掛物でなければ駄目です。<br><br>絵もやはり本当の名人が画いた物でなければなりません。<br><br>というのは、花に掛物が蹴られてしまうのです。<br><br>ですからよほどの名人の物でなければならないのです。<br><br>それで絵は絵、書は書、それに花器と花がピッタリと合わなければならないのです。<br><br>ですからそういった意味で一つの花の芸術といったものですが、これはどうしても見せるよりしようがないのです。<br><br>そこで天然色写真を写す人間が、上手というほどではないが、工夫しているので、それにやらせようと思ってます。<br><br>これも事は小さいが、そういうことの一つの革命的のものです。<br><br>ちょうど世の中は逆になっていて、花に絵の具を塗ったりして人工的になってくるのを、私の方はその逆の、できるだけ自然的にするというのです。<br><br>やはり自然農法と同じ理屈になります。<br><br>そういう本を作ろうと思ってます。<br><br> それから今まで注意したことはありませんが、浄霊の順序は、一番は重病人を先にして、軽い方は後にするのです。<br><br>重い病人は特別に先にして、後は来た順です。<br><br>それは公平の意味です。<br><br>ですから来た順にやるというのが原則で、ごく苦痛のある人だけは、並んでいる人に断って、「この人は重いから先にやる」ということを一応断ってやればいいのです。<br><br>後は来た順です。<br><br>それから家族の者やごく懇意な者で、来た順はかまうほどの必要がないと思うような場合には、年をとった人から先にやるのです。<br><br>それから夫婦で、たいして苦痛がなければ主人の方を先にし、奥さんを後にする、というように順序を狂わないようにすると、なおりがたいへん良いです。<br><br>なおりがたいへん良いということもないが、よりなおるのです。<br><br>順序を乱すと、順序というものは霊界ですから、霊界を乱すことになるから、霊界に順序がつかないと順調に行かないのです。<br><br>これはなんでもないようなことだが、たいへんに影響があるのです。<br><br>なぜそういうことを言うかというと、昨日こういうことがあったのです。<br><br>私の奥さんという人は昔漢方薬の強いのをやったので、その薬毒というのはたいへんなのです。<br><br>時々浄霊をやってますから、年々減ってはいますが、近ごろだいぶ溜まったからやったところが、変なことを言うのです。<br><br>あまりに理屈に合わないことを言うから変だと思って考えてみると、その前に女中を浄霊して、それから奥さんを呼んだのです。<br><br>止そうかなと思ったが、時間がないから良いだろうと思ったのですが、「そうだ、これは順序が外れたから変なことを言ったのだな」と思ったのです。<br><br>というのは、そうなると霊界では女中よりも下になるのです。<br><br>そういうことは注意しないと、実にはっきりしているのです。<br><br>順序がちょっと狂うと、なにかに差し障りがあるのです。<br><br>それは面倒臭いようなことですが、そうではないので、自然になっていくのです。<br><br>私は始終順序ということを言ってますが、気をつけようと思わなくても気がつくのです。<br><br> 今度のお蔭話で、『栄光』に出しますが、そういうようなことに関して九州の坂井さんの話ですが、いろいろな例があります。<br><br>病気で、浄霊でどうもうまくいかない、それで気がつくと、私の書いたものとか『栄光』新聞というものを調べると、ふつうの日刊新聞の下にあったり、はさまったりしているので、これだなと思ってとると、病人が良くなるというので、実にはっきりしているのです。<br><br> それから私の書いたものですが、これはまた凄いのです。<br><br>その上にほかの物がのっていたりすると、とてもわけの分からない苦しみがあるのです。<br><br>昔、私が宝山荘にいる時分に、その部屋がどうも気持ちが悪いのです。<br><br>私も気持ちが悪いし、誰でもがそうなのです。<br><br>それでその部屋に行くと、みんな病気みたいになるのです。<br><br>それでおかしいと思ったが、どうも分からないのです。<br><br>ところがほかの人からもらった、ふつうの人間が書いた色紙が柱掛けにかかっていたのです。<br><br>それで気がついて、それをとってみると、その裏に私の色紙がはいっていたので、これだなと思ってそれを外したら、それですっとしたのです。<br><br>今度のお蔭話にいろいろ書いてありますから読めば分かりますが、これは大いに注意することです。<br><br>それで病気になって幾日もなおらないのですが、分かってみると、すぐなおってしまうのです。<br><br>よく子供の病気などであります。<br><br>それはなにかというと、順序が違うからです。<br><br>ですから私は家にいても『栄光』新聞は決して下におきません。<br><br>それから私の書いたものとか写真は決して下におきません。<br><br>それは人ばかりでなく、私自身もなんだか気持ちが悪いのです。<br><br>ですから順序くらい軽くみることができないものはありません。<br><br>これはやかましく言いますが、前にも話したとおり、部屋に坐るにも順序があります。<br><br>ところが、これもよほど考えてやらないと、無頓着ではいけません。<br><br>以前に、ある浄霊する人に、浄霊者はどうしても床の前に坐って、受ける人は次というか、床の前を離れて坐らなければいけないと言ったところが、その人はそれを直訳してしまって、初めての家で、信仰などぜんぜん知らない所で、誰がいようといまいが、床の前に行ってしまうのです。<br><br>それでそこの親戚がいて「あの先生はなんて無礼だ、人の家も自分の家もわきまえない」と、誤解されたのですが、これも困ります。<br><br>そういう場合には、そのとおりにやってはいけないのです。<br><br>そういう時には、人から変に見られないように、患者よりも下座にいる場合もありますが、そういう時は神様はお許しがあります。<br><br>そうして床の前に行ってもおかしくないという時には、行ってやった方が良いです。<br><br>部屋は奥ほど上座です。<br><br>それから左の方が上座です。<br><br>それを臨機応変にその時に応じてやることです。<br><br>ですからなにごとにおいても順序が肝腎なのです。<br><br>これはやはり大自然を見習うのです。<br><br>どんなになっても、梅より桜が先に花が咲くことはないので、やはり大自然には順序があるのです。<br><br>ですから大自然を見習うということが信仰の根本なのです。<br><br>自然農法にしても浄霊にしても、根本は大自然です。<br><br>ですから順序というものは大自然を見習うことで、間違いないわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ordem Divina nos Assuntos Políticos e Espirituais</h2>
 <p>Gostaria de tecer alguns comentários sobre a situação política atual. Finalmente, o gabinete do primeiro-ministro Yoshida foi dissolvido. Há algo que me causa estranheza nesse desfecho. O senhor Yoshida, embora seja um homem de idade avançada e com vasta experiência mundana, demonstra uma atitude que há muito me parece peculiar. Seu governo já vinha apresentando instabilidade há um tempo considerável e, portanto, o mais sensato teria sido renunciar e entregar o cargo. Contudo, sua obstinação em aferrar-se ao poder é algo que não consigo compreender. Aparentemente, ele não tem discernimento sobre dois fatores cruciais: o destino e o momento oportuno.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Com meus escritos, o cuidado deve ser ainda maior. Se outros objetos forem colocados sobre eles, pode surgir um sofrimento inexplicável. Certa vez, quando eu residia em Hozanso, havia um quarto com uma atmosfera muito desagradável. Tanto eu quanto outras pessoas sentíamos um mal-estar, e quem quer que fosse para aquele cômodo se sentia como se estivesse doente. Eu achava estranho, mas não conseguia descobrir a causa. Acontece que, pendurada em um pilar, havia uma caligrafia em papel colorido, presente de uma pessoa comum. Ao notar aquilo, tive um pressentimento. Removi-a e, para minha surpresa, encontrei uma caligrafia minha por trás. “Era isso!”, pensei. Assim que a retirei, a atmosfera do quarto se purificou instantaneamente. O testemunho que será publicado trará outros relatos, e vocês compreenderão melhor, mas este é um ponto que exige muita atenção. Uma doença pode persistir por dias sem melhora, mas, ao se descobrir a causa, a cura é imediata. Isso ocorre frequentemente com crianças doentes, e a razão é uma quebra na ordem. Por isso, em minha casa, jamais coloco o jornal <em>Eikoh</em> ou meus escritos e fotografias sob quaisquer outros objetos. Não é apenas uma questão de respeito, pois eu mesmo sinto um certo desconforto se isso acontece. Portanto, não há nada que possa ser tratado com mais leviandade do que a ordem.</p>
 <p>Embora eu insista nesse ponto, é preciso ter bom senso, como já mencionei antes a respeito da ordem de se sentar em uma sala. Certa vez, eu disse a um ministrante que, durante o Johrei, ele deveria se sentar em frente ao <em>tokonoma</em>, e a pessoa que recebe, em uma posição secundária. Esse ministrante, porém, interpretou a instrução literalmente. Ao visitar a casa de uma pessoa pela primeira vez, que nada sabia sobre a fé, ele simplesmente se dirigiu ao <em>tokonoma</em> e sentou-se, sem se importar com quem estivesse presente. Um parente que ali se encontrava comentou: “Que falta de educação a desse mestre, não sabe distinguir a própria casa da casa dos outros”. Esse tipo de mal-entendido é um problema. Nessas situações, não se deve seguir a regra à risca. Para não ser mal interpretado, pode haver ocasiões em que o ministrante precise se sentar em um lugar mais humilde que o do paciente. Nesses casos, a permissão divina é concedida. Mas, quando for apropriado se sentar em frente ao <em>tokonoma</em> sem causar estranheza, é melhor que o faça. Em uma sala, quanto mais ao fundo, mais nobre é o lugar, e o lado esquerdo tem precedência sobre o direito. É preciso agir com discernimento, adaptando-se às circunstâncias.</p>
 <p>Em todas as coisas, a ordem é fundamental. Para isso, devemos aprender com a Grande Natureza. Não importa o que aconteça, as cerejeiras jamais florescerão antes das ameixeiras. A Grande Natureza possui uma ordem imutável. Portanto, o fundamento da fé é aprender com a Grande Natureza. Seja na Agricultura Natural ou no Johrei, o princípio fundamental é a Grande Natureza. Assim, seguir a ordem é aprender com a Grande Natureza, e esse é um caminho sem erros.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月15日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月十五日 時局談を少し話します。<br/><br/>とうとう吉田内閣も解散になりました。<br/><br/>これについてちょっと変に思うのは、吉田という人は年もとっているし、そうとうに世の中の経験もある人ですが、私はよほど前からおかしいと思っていたのです。<br/><br/>というのは、もうだいぶ前からガタついてきているのですから、とうに辞職なりして明け渡すべきなのですが、一生懸命に齧りついているところが分かりません。<br/><br/>肝腎な、運命と時期ということに気がつかないらしいのです。<br/><br/>大体吉田という人の花の盛りは、講和の時にアメリカに出た時なのです。<br/><br/>その時が一番の盛りなのです。<br/><br/>ちょうど桜の花がパッと咲いた時なのです。<br/><br/>だからその後になってだんだん花が散っていって、もう葉ばかりになるという一つの運命ですが、そうなりつつあるのですから、齧りつけばつくほどだんだん悪くなるのです。<br/><br/>そうして最近の「馬鹿野郎」問題では、あそこできれいに謝罪して引っ込むというのが利巧なのです。<br/><br/>それをまだまだ齧りつこうとしているのです。<br/><br/>だからますます醜い最後を遂げるようになるのです。<br/><br/>それから今度の不信任案の可決となり、民同の脱退……分党という名前ですが、これはうまい名前をつけたと思うが、そこまで行ったらしようがありません。<br/><br/>これから総選挙ということになると、自由党はずっと減ります。<br/><br/>あるいは第二党になるかもしれません。<br/><br/>そうしてみれば、当分内閣をつくる見込みもありません。<br/><br/>これから野党ということになったところで、見込みのある野党ならいいが、まず吉田さんの生きているうちは難しいでしょう。<br/><br/>そのくらいならば、もっと早いうちにきれいに引き下がった方が将来においてもいいのです。<br/><br/>そういうところが分かりません。<br/><br/>ちょうど戦争の末期になって、二進（にっち）も三進（さっち）も行かなくなってから降服しましたが、こっちは庖丁かなにか変な物を持って、先方は刀を持ってきたら、斬られるに決まってますから、斬られないうちにお辞儀をするといいのです。<br/><br/>一斬りされてからでもお辞儀するのはまだいいが、二斬り三斬りされてからお辞儀をするということが分かりません。<br/><br/>日本の戦争の時の末期と、ヒトラー、ムッソリーニなどの運命を見ても、つくづく見通しがつかないというか、ほかの点は馬鹿にいいのですが、そういう点においては悪いのです。<br/><br/>これは日本人は特に多いようですが、意地を張るというのが非常に悪いのです。<br/><br/>吉田などは意地っ張りなのです。<br/><br/> 今度のことなども、解散をしなくても辞職で結構なのです。<br/><br/>そうして結局直接の問題は「馬鹿野郎」問題です。<br/><br/>あれからガタガタしてきたのですから、それをきれいに謝ればいいのです。<br/><br/>「自分はたいへん間違っていた、たいへん恥ずべきことをした」と言って謝罪すればいいのを、単に取り消しですから、取り消しでは承知しません。<br/><br/>事柄の性質によっては取り消しでも良いが、「馬鹿野郎」では、人の横っ面を張り倒したようなもので一つの暴力ですから、謝罪するのが本当です。<br/><br/>人をぶんなぐりつけて「今のは間違いだ」というのは間違いです。<br/><br/>そこなのです。<br/><br/>あの人は偉い人ですが、ちょっと変なところがあるのです。<br/><br/>広川問題にしろ、去年の福永問題でもそうですが、きれいに引っ込んでいればいいのですが、昔のわがままの殿様とか、ヤンチャ坊主というようなところがあるのです。<br/><br/>言い出したらきかないというところがあるのです。<br/><br/>それも良い時はありますが、悪い時の方が多いのです。<br/><br/>というのは、あの人は本当の苦労をしてないからです。<br/><br/>近ごろの政治家というので、一癖あるというような人間はまことにありません。<br/><br/>平々凡々として後生大事に齧りついているというのです。<br/><br/>与党の方は寄りつき主義で、野党の方はなんでもかんでも反対するのです。<br/><br/>要するにドングリ連中です。<br/><br/>一人でも頑張るというような人間はいません。<br/><br/>これは政治家に限りません。<br/><br/>以前の明治、大正のころは、今でも忘れられないくらいの偉い人がおりました。<br/><br/>というのは、あの時代の人はみんな苦労をしているからです。<br/><br/>それはみんな牢にはいったり、貧乏したり、それこそ爆弾を投げつけられたりして、随分危ない所をくぐってきましたから、それだけにどこか深みがあるのです。<br/><br/>ところが今のああいった大臣などは、たいてい大学を出て官吏になって順調に来たというのですから、本当の社会の苦労をしてないのです。<br/><br/>本当にお坊ちゃんというような甘いところがあるのです。<br/><br/>ですから本当に苦労したというのは広川和尚くらいです。<br/><br/>これは労働者から酒屋の親父をして、それから政治家になったのですから、ほかとは違った点があります。<br/><br/>今度の広川問題もそうとう恐れられた問題でした。<br/><br/>今でもあの人を支持する二、三十人の部下がいるのですから偉いですが、あまりにやじり過ぎて今の人としては教養が足りない点があります。<br/><br/>だからやじり過ぎて少し下卑てます。<br/><br/>それをとったら将来大物になります。<br/><br/>政治談のようになりましたが、このくらいにしておきます。<br/><br/> 『アメリカを救う』の本もだいぶ売れるようです。<br/><br/>まだ売れているそうです。<br/><br/>それで割合に地方の隅々まで行き渡ってきたようなので、そうとうに読まれると思います。<br/><br/>ですから将来それだけの非常な効果を現わすと思ってます。<br/><br/>それから、ばかに重なってしまいましたが、『自然農法解説書』ももうじきできますから、これも大々的に売り出そうと思ってます。<br/><br/>これはできるだけ行き渡らせるようにと思って、値段も安くして五十円です。<br/><br/>そうしてできるだけ農村に行き渡らせるようにしようと思ってます。<br/><br/>それからその前に『結核信仰療法』も売り出すことになってますが、今月の末あたりに少し大々的に新聞広告をしようと思ってます。<br/><br/>これは非常に売れるだろうと思います。<br/><br/>結核でなおらないで苦しんでいる人がたくさんありますから、そういう人は「どうしても医学では駄目だ、なにか信仰でもしたら良いのではないか」というように迷っている人がたくさんあります。<br/><br/>それで信仰しようとしても、いったいどの神様を拝んだら良いか、どの宗教が良いかということに迷いますから、そこで本の広告を見るとか、人に聞くとかして、それでは一度見てみようという考えになるので、そうとう歓迎されると思います。<br/><br/>おまけにあの本は全快者百人の実例を載せてありますから、それがたいへんな魅力になると思ってます。<br/><br/>なにしろ医学に対する一つの挑戦的のものですから、そうとう問題にはなるに違いないと思ってます。<br/><br/>一番初めの項目は「医学が結核を作る」というのですから、これだけでもお医者さんは見たがるでしょう。<br/><br/>そんなわけで、これはどうしても出さなければならない本なのです。<br/><br/>その次は今書いてますが『救世教奇蹟集』です。<br/><br/>この前「序文」を書きましたが、どうもおもしろくないので、また書き直したので、それを読ませます。<br/><br/> （御論文「救世教奇蹟集 序文」）【栄光 二〇二号】 「序文」の次に一、二、三と概略の説明がありますが、その三を読ませます。<br/><br/> （御論文「三、霊と体」） それからもう一つはそうとう先に行ってから本を作りますが、それは変わった本です。<br/><br/>私は始終花を生けていますが、自分でも良いなと思うのが時々あるし、見る人も褒めるのです……それはお世辞でなくです。<br/><br/>それで自分で気に入った花ができた時に天然色写真に写して、それを本に作ろうと思ってます。<br/><br/>というのは、近ごろは変な花がはやってきたのです。<br/><br/>それから、花にしても殺してしまうのです。<br/><br/>そのために形は良いが、うま味がありません。<br/><br/>それと、絵なら死んでいて、筆勢というものはないのです。<br/><br/>そこで私が生けるのは五分以内です。<br/><br/>早いのは二分以内です。<br/><br/>それで花は庭で切ったのがいいですが、しかし花屋で買ったのでも、それを手にとってパッと生けるのです。<br/><br/>そのやり方が非常に良いのです。<br/><br/>また草物でも、何本もまとめておいてスッと生けるのです。<br/><br/>そういう生け方が今はないのです。<br/><br/>もっとも花の先生というのは一つの型を決めていて、近ごろはだいぶなくなってきましたが、やはり流儀とか、その先生の一つの形のために、どうも自然を殺してしまうのです。<br/><br/>ところがそれでは本当のものではないので、要するにどこまでも自然の良いところを生かし、表現することです。<br/><br/>そういう一つの花の生け方の革命というものです。<br/><br/>それから花器との調和があります。<br/><br/>それからやかましく言うと、床の間の大きさ、壁の色、掛物にマッチしなければいけないのです。<br/><br/>そうして床の間全体が一つの芸術というものにならなければいけないのです。<br/><br/>私なども時々そういうことがあると、昔の名画でも見るような感じがします。<br/><br/>その代わり、上手な掛物でなければ駄目です。<br/><br/>絵もやはり本当の名人が画いた物でなければなりません。<br/><br/>というのは、花に掛物が蹴られてしまうのです。<br/><br/>ですからよほどの名人の物でなければならないのです。<br/><br/>それで絵は絵、書は書、それに花器と花がピッタリと合わなければならないのです。<br/><br/>ですからそういった意味で一つの花の芸術といったものですが、これはどうしても見せるよりしようがないのです。<br/><br/>そこで天然色写真を写す人間が、上手というほどではないが、工夫しているので、それにやらせようと思ってます。<br/><br/>これも事は小さいが、そういうことの一つの革命的のものです。<br/><br/>ちょうど世の中は逆になっていて、花に絵の具を塗ったりして人工的になってくるのを、私の方はその逆の、できるだけ自然的にするというのです。<br/><br/>やはり自然農法と同じ理屈になります。<br/><br/>そういう本を作ろうと思ってます。<br/><br/> それから今まで注意したことはありませんが、浄霊の順序は、一番は重病人を先にして、軽い方は後にするのです。<br/><br/>重い病人は特別に先にして、後は来た順です。<br/><br/>それは公平の意味です。<br/><br/>ですから来た順にやるというのが原則で、ごく苦痛のある人だけは、並んでいる人に断って、「この人は重いから先にやる」ということを一応断ってやればいいのです。<br/><br/>後は来た順です。<br/><br/>それから家族の者やごく懇意な者で、来た順はかまうほどの必要がないと思うような場合には、年をとった人から先にやるのです。<br/><br/>それから夫婦で、たいして苦痛がなければ主人の方を先にし、奥さんを後にする、というように順序を狂わないようにすると、なおりがたいへん良いです。<br/><br/>なおりがたいへん良いということもないが、よりなおるのです。<br/><br/>順序を乱すと、順序というものは霊界ですから、霊界を乱すことになるから、霊界に順序がつかないと順調に行かないのです。<br/><br/>これはなんでもないようなことだが、たいへんに影響があるのです。<br/><br/>なぜそういうことを言うかというと、昨日こういうことがあったのです。<br/><br/>私の奥さんという人は昔漢方薬の強いのをやったので、その薬毒というのはたいへんなのです。<br/><br/>時々浄霊をやってますから、年々減ってはいますが、近ごろだいぶ溜まったからやったところが、変なことを言うのです。<br/><br/>あまりに理屈に合わないことを言うから変だと思って考えてみると、その前に女中を浄霊して、それから奥さんを呼んだのです。<br/><br/>止そうかなと思ったが、時間がないから良いだろうと思ったのですが、「そうだ、これは順序が外れたから変なことを言ったのだな」と思ったのです。<br/><br/>というのは、そうなると霊界では女中よりも下になるのです。<br/><br/>そういうことは注意しないと、実にはっきりしているのです。<br/><br/>順序がちょっと狂うと、なにかに差し障りがあるのです。<br/><br/>それは面倒臭いようなことですが、そうではないので、自然になっていくのです。<br/><br/>私は始終順序ということを言ってますが、気をつけようと思わなくても気がつくのです。<br/><br/> 今度のお蔭話で、『栄光』に出しますが、そういうようなことに関して九州の坂井さんの話ですが、いろいろな例があります。<br/><br/>病気で、浄霊でどうもうまくいかない、それで気がつくと、私の書いたものとか『栄光』新聞というものを調べると、ふつうの日刊新聞の下にあったり、はさまったりしているので、これだなと思ってとると、病人が良くなるというので、実にはっきりしているのです。<br/><br/> それから私の書いたものですが、これはまた凄いのです。<br/><br/>その上にほかの物がのっていたりすると、とてもわけの分からない苦しみがあるのです。<br/><br/>昔、私が宝山荘にいる時分に、その部屋がどうも気持ちが悪いのです。<br/><br/>私も気持ちが悪いし、誰でもがそうなのです。<br/><br/>それでその部屋に行くと、みんな病気みたいになるのです。<br/><br/>それでおかしいと思ったが、どうも分からないのです。<br/><br/>ところがほかの人からもらった、ふつうの人間が書いた色紙が柱掛けにかかっていたのです。<br/><br/>それで気がついて、それをとってみると、その裏に私の色紙がはいっていたので、これだなと思ってそれを外したら、それですっとしたのです。<br/><br/>今度のお蔭話にいろいろ書いてありますから読めば分かりますが、これは大いに注意することです。<br/><br/>それで病気になって幾日もなおらないのですが、分かってみると、すぐなおってしまうのです。<br/><br/>よく子供の病気などであります。<br/><br/>それはなにかというと、順序が違うからです。<br/><br/>ですから私は家にいても『栄光』新聞は決して下におきません。<br/><br/>それから私の書いたものとか写真は決して下におきません。<br/><br/>それは人ばかりでなく、私自身もなんだか気持ちが悪いのです。<br/><br/>ですから順序くらい軽くみることができないものはありません。<br/><br/>これはやかましく言いますが、前にも話したとおり、部屋に坐るにも順序があります。<br/><br/>ところが、これもよほど考えてやらないと、無頓着ではいけません。<br/><br/>以前に、ある浄霊する人に、浄霊者はどうしても床の前に坐って、受ける人は次というか、床の前を離れて坐らなければいけないと言ったところが、その人はそれを直訳してしまって、初めての家で、信仰などぜんぜん知らない所で、誰がいようといまいが、床の前に行ってしまうのです。<br/><br/>それでそこの親戚がいて「あの先生はなんて無礼だ、人の家も自分の家もわきまえない」と、誤解されたのですが、これも困ります。<br/><br/>そういう場合には、そのとおりにやってはいけないのです。<br/><br/>そういう時には、人から変に見られないように、患者よりも下座にいる場合もありますが、そういう時は神様はお許しがあります。<br/><br/>そうして床の前に行ってもおかしくないという時には、行ってやった方が良いです。<br/><br/>部屋は奥ほど上座です。<br/><br/>それから左の方が上座です。<br/><br/>それを臨機応変にその時に応じてやることです。<br/><br/>ですからなにごとにおいても順序が肝腎なのです。<br/><br/>これはやはり大自然を見習うのです。<br/><br/>どんなになっても、梅より桜が先に花が咲くことはないので、やはり大自然には順序があるのです。<br/><br/>ですから大自然を見習うということが信仰の根本なのです。<br/><br/>自然農法にしても浄霊にしても、根本は大自然です。<br/><br/>ですから順序というものは大自然を見習うことで、間違いないわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

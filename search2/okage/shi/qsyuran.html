@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsyuran</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 酒乱二十六年の苦しみから救わる 『栄光』144号、昭和27(1952)年2月20日発行 岡山県 陽光中教会 丸山菊江（43） 思い浮べれば人事のようにも思われ、又は夢のようにも思われます。<br><br>私は二十五年前に叔母の世話にて何も知らずにこちらへ嫁いで参りましたが、来ました翌日から主人は大酒を飲んで帰るのです。<br><br>私はびっくりして泣いておりましたら、姑は私をなだめて下さいましたが、度々そのような事があるので、どうしたらよいものかと思案に暮れつつ日を送っておりました。<br><br>私の嫁入後二カ月にて実家の母は亡くなり、後には幼い弟が一人残り、私は途方に暮れましたが、いよいよ自分は運が悪いのだから、辛抱するより外に仕方がないとあきらめていましたが、度々飲んでは帰り、飲んでは帰り致し、遂に三カ年は過ぎ、「子供の無い者はいらん、帰れ」と申しますので、とうとう、母なき家に帰りました。<br><br>がしかし、近所や親戚の人が度々来られ、すすめられるままに又嫁入先へ帰りましたが、こうしたことは二度や三度や四度ではありませんでした。<br><br>遂には、それが縁のつなぎか妊娠し、昭和四年に女児を生みました。<br><br>それから三年後に次女が生まれ、二人の子供の親となっておりましたが悪運はどこまで続くか、昭和七年ふとした風邪が原因となり十月二十日長女が死亡し、続いて十日後次女も又亡くなりました。<br><br>やっとのことで、二児を恵まれた私は、僅か十日間に二人もなくしてしまったのでした。<br><br>その時の私の心境、それは申すまでもございませんが、主人は以前にも増して酒を飲み、姑からは「お前が悪いから主人が仕事もせず酒ばかり飲むのだ」と言われ、私は「本当にこの世の中には神も仏もないのだろうか？ 私のこの苦しみを知って下さる人は一人も無い……」とつくづく思いました。<br><br> その後、間もなく姑は心臓が悪くなり、三カ年間病み、遂に死亡致しました。<br><br>私は淋しさの余り親戚より二歳になる女児をもらって帰りました。<br><br>舅は常に胃腸が弱く、あらゆる医療を施してもよくならず遂に中風となり、七年間苦しみ続けそして亡くなりました。<br><br> 主人は年を取るに従い、益々酒癖は悪くなり、酒を飲んで帰っては私や子供をいじめ、くどくど言いながら又飲み、空いた酒瓶を持って私をたたき、外へ飛び出せば、追いかけて来る。<br><br>酒が無くなれば「買って来い」と申しますが、近所に酒屋がないものですから行かないと、又酒を買って来ると言っては出て行きます。<br><br>そして、二、三日すると、ブラリとボケた顔をして家に帰って来て寝るのです。<br><br>その時はとても頭が悪いらしく、起きることが出来ないのです。<br><br>「アア儂が悪かった。<br><br>沢山の金を使い困ったことをした」とさも悔しそうに悲観しているのです。<br><br>ですから私は腹が立っても怒る訳にもゆかず、「お金を使ったのは又働けばもどる。<br><br>過ちをしていないから、まあ良いが」と慰めておりました。<br><br>二、三日寝ると頭がハッキリするのか、真人間に返りやっと仕事をするかと思えば、又酒を飲みに行きます。<br><br>お金が出来れば又虫を起すと言う風に、繰り返し繰り返し二十六年も続きました。<br><br>時によれば槍を出して納屋に入り、金剛磨でゴシゴシと先をとぎ、私を刺してやるとか、人を殺してやるとか申すのです。<br><br>私もどうせ生き甲斐の無い命なら、汽車道かそれとも海の中へでも……と思ったことも一再ならずありました。<br><br> しかし昔から良い後は悪い、悪い後は良いと言う諺があるから、まあまあ頑張って生きておりさえすれば又良いことがあるかも知れないと、今日の日まで、生きて参りました。<br><br> ちょうど去年の秋の事でした。<br><br>稲をこいでおりましたところへ船倉町の内藤さんがお見えになり、そして色々と有難い御道の御話をして下さいました。<br><br>「手を翳せば病気が治る」とか、「人間の性質までも変る」とか話して下さるので、私は「そうですか」と聞いてはおりましたものの、そんな事があるものかと半分疑っておりました。<br><br>その後、秋の取入れも済み、やっと一息と思っておりましたら、又主人が虫を起し、沢山の金を使い、夜遅く自動車で帰り、家の前の細道まで乗り込みましたものですから、自動車は半分川へ落ちてしまいました。<br><br>しかし主人は知らぬ顔で又家の中で酒を飲み、そして頭から蒲団をかぶり足だけ出して寝てしまいました。<br><br>後で自動車は近所の御方の御世話になり、雨の中をやっと引上げて頂きました。<br><br>翌朝は例のごとく頭が痛くて起きられぬと申します。<br><br>そして先日の内藤さんの御話を思い出したのか、「内藤さんへ頼みに行ってくれ」と申します。<br><br>私は「藺（い）草を割っておるから晩に行く」と申しましたが「今すぐ行ってくれ」と申しますので早速行きました。<br><br>すると内藤さんは御浄化でお休みになっておられましたが、「晩の七時頃に行けるようでしたら行かせて頂きます」と言って下さいました。<br><br>しかし晩の七時が来ましてもお見えになりませんでした。<br><br>すると主人は「来て貰えば気の毒だから儂が行く」と頭を鉢巻でしばって内藤さんへ出かけました。<br><br>出て行きましたもののどんな様子かと心配しておりましたが、しばらくすると「庵谷先生に御浄霊して頂いた」と言ってケロリとして帰って参りました。<br><br>そうして今までの大酒は狐の仕業であることが判りました。<br><br> 今にして思いますと内藤さんが御話を聞かせて下さったのが私共の救われる第一歩でした。<br><br>翌日は教会に御参りし、矢代先生より御浄霊して頂き、それより大酒飲みも止み、私達もいじめなくなり、打って変り人間らしくなりました。<br><br> 昭和二十六年一月主人が入信、二月には私も入信させて頂き、三月二日には有難い大光明如来様を御迎えさせて頂きました。<br><br>神や仏に手を合わせた事の無い主人が毎朝毎晩、拝まねば食事もしないようになり、毎日人助けに歩かせて頂くようになり、やがて一年になろうとしております。<br><br>近所の方々は人間も変れば変るものだと、あきれております。<br><br> 私と致しましても、結婚以来二十五年間苦しみ悩み続けた生活はここに終止符をうち、待ちに待った幸福が訪れたのです。<br><br>私の喜び、それは何にたとえることも出来ません。<br><br>ただただ嬉し涙にむせぶのみでございます。<br><br> 現在では至らぬながらも主人は人助けに歩かせて頂き、私は自然栽培をさせて頂き、お道の御話に明け暮れする楽しい毎日でございます。<br><br>明主様有難うございました。<br><br>救って頂きましたうれしさの余り、乱筆をも顧みませずありのままをここに御報告申し上げ、御礼申し上げます。<br><br>最後に矢代先生はじめ諸先生、内藤様、皆様有難うございました。<br><br> （昭和二十七年一月十六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação de Vinte e Seis Anos de Tormento pelo Alcoolismo</h2>
 <p><strong>Publicado na revista Eikou, nº 144, em 20 de fevereiro de 1952</strong>
@@ -110,5 +265,48 @@ function toggleLang(lang) {
 <p>Muito obrigada, Meishu-Sama.</p>
 <p>Tomada pela imensa felicidade de ter sido salva, relato aqui os fatos como ocorreram, pedindo perdão pela escrita simples e despretensiosa, como forma de expressar minha mais profunda gratidão. Por fim, agradeço ao reverendo Yashiro, aos demais reverendos, à senhora Naito e a todos que nos auxiliaram.</p>
 <p>(16 de janeiro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 酒乱二十六年の苦しみから救わる 『栄光』144号、昭和27(1952)年2月20日発行 岡山県 陽光中教会 丸山菊江（43） 思い浮べれば人事のようにも思われ、又は夢のようにも思われます。<br/><br/>私は二十五年前に叔母の世話にて何も知らずにこちらへ嫁いで参りましたが、来ました翌日から主人は大酒を飲んで帰るのです。<br/><br/>私はびっくりして泣いておりましたら、姑は私をなだめて下さいましたが、度々そのような事があるので、どうしたらよいものかと思案に暮れつつ日を送っておりました。<br/><br/>私の嫁入後二カ月にて実家の母は亡くなり、後には幼い弟が一人残り、私は途方に暮れましたが、いよいよ自分は運が悪いのだから、辛抱するより外に仕方がないとあきらめていましたが、度々飲んでは帰り、飲んでは帰り致し、遂に三カ年は過ぎ、「子供の無い者はいらん、帰れ」と申しますので、とうとう、母なき家に帰りました。<br/><br/>がしかし、近所や親戚の人が度々来られ、すすめられるままに又嫁入先へ帰りましたが、こうしたことは二度や三度や四度ではありませんでした。<br/><br/>遂には、それが縁のつなぎか妊娠し、昭和四年に女児を生みました。<br/><br/>それから三年後に次女が生まれ、二人の子供の親となっておりましたが悪運はどこまで続くか、昭和七年ふとした風邪が原因となり十月二十日長女が死亡し、続いて十日後次女も又亡くなりました。<br/><br/>やっとのことで、二児を恵まれた私は、僅か十日間に二人もなくしてしまったのでした。<br/><br/>その時の私の心境、それは申すまでもございませんが、主人は以前にも増して酒を飲み、姑からは「お前が悪いから主人が仕事もせず酒ばかり飲むのだ」と言われ、私は「本当にこの世の中には神も仏もないのだろうか？ 私のこの苦しみを知って下さる人は一人も無い……」とつくづく思いました。<br/><br/> その後、間もなく姑は心臓が悪くなり、三カ年間病み、遂に死亡致しました。<br/><br/>私は淋しさの余り親戚より二歳になる女児をもらって帰りました。<br/><br/>舅は常に胃腸が弱く、あらゆる医療を施してもよくならず遂に中風となり、七年間苦しみ続けそして亡くなりました。<br/><br/> 主人は年を取るに従い、益々酒癖は悪くなり、酒を飲んで帰っては私や子供をいじめ、くどくど言いながら又飲み、空いた酒瓶を持って私をたたき、外へ飛び出せば、追いかけて来る。<br/><br/>酒が無くなれば「買って来い」と申しますが、近所に酒屋がないものですから行かないと、又酒を買って来ると言っては出て行きます。<br/><br/>そして、二、三日すると、ブラリとボケた顔をして家に帰って来て寝るのです。<br/><br/>その時はとても頭が悪いらしく、起きることが出来ないのです。<br/><br/>「アア儂が悪かった。<br/><br/>沢山の金を使い困ったことをした」とさも悔しそうに悲観しているのです。<br/><br/>ですから私は腹が立っても怒る訳にもゆかず、「お金を使ったのは又働けばもどる。<br/><br/>過ちをしていないから、まあ良いが」と慰めておりました。<br/><br/>二、三日寝ると頭がハッキリするのか、真人間に返りやっと仕事をするかと思えば、又酒を飲みに行きます。<br/><br/>お金が出来れば又虫を起すと言う風に、繰り返し繰り返し二十六年も続きました。<br/><br/>時によれば槍を出して納屋に入り、金剛磨でゴシゴシと先をとぎ、私を刺してやるとか、人を殺してやるとか申すのです。<br/><br/>私もどうせ生き甲斐の無い命なら、汽車道かそれとも海の中へでも……と思ったことも一再ならずありました。<br/><br/> しかし昔から良い後は悪い、悪い後は良いと言う諺があるから、まあまあ頑張って生きておりさえすれば又良いことがあるかも知れないと、今日の日まで、生きて参りました。<br/><br/> ちょうど去年の秋の事でした。<br/><br/>稲をこいでおりましたところへ船倉町の内藤さんがお見えになり、そして色々と有難い御道の御話をして下さいました。<br/><br/>「手を翳せば病気が治る」とか、「人間の性質までも変る」とか話して下さるので、私は「そうですか」と聞いてはおりましたものの、そんな事があるものかと半分疑っておりました。<br/><br/>その後、秋の取入れも済み、やっと一息と思っておりましたら、又主人が虫を起し、沢山の金を使い、夜遅く自動車で帰り、家の前の細道まで乗り込みましたものですから、自動車は半分川へ落ちてしまいました。<br/><br/>しかし主人は知らぬ顔で又家の中で酒を飲み、そして頭から蒲団をかぶり足だけ出して寝てしまいました。<br/><br/>後で自動車は近所の御方の御世話になり、雨の中をやっと引上げて頂きました。<br/><br/>翌朝は例のごとく頭が痛くて起きられぬと申します。<br/><br/>そして先日の内藤さんの御話を思い出したのか、「内藤さんへ頼みに行ってくれ」と申します。<br/><br/>私は「藺（い）草を割っておるから晩に行く」と申しましたが「今すぐ行ってくれ」と申しますので早速行きました。<br/><br/>すると内藤さんは御浄化でお休みになっておられましたが、「晩の七時頃に行けるようでしたら行かせて頂きます」と言って下さいました。<br/><br/>しかし晩の七時が来ましてもお見えになりませんでした。<br/><br/>すると主人は「来て貰えば気の毒だから儂が行く」と頭を鉢巻でしばって内藤さんへ出かけました。<br/><br/>出て行きましたもののどんな様子かと心配しておりましたが、しばらくすると「庵谷先生に御浄霊して頂いた」と言ってケロリとして帰って参りました。<br/><br/>そうして今までの大酒は狐の仕業であることが判りました。<br/><br/> 今にして思いますと内藤さんが御話を聞かせて下さったのが私共の救われる第一歩でした。<br/><br/>翌日は教会に御参りし、矢代先生より御浄霊して頂き、それより大酒飲みも止み、私達もいじめなくなり、打って変り人間らしくなりました。<br/><br/> 昭和二十六年一月主人が入信、二月には私も入信させて頂き、三月二日には有難い大光明如来様を御迎えさせて頂きました。<br/><br/>神や仏に手を合わせた事の無い主人が毎朝毎晩、拝まねば食事もしないようになり、毎日人助けに歩かせて頂くようになり、やがて一年になろうとしております。<br/><br/>近所の方々は人間も変れば変るものだと、あきれております。<br/><br/> 私と致しましても、結婚以来二十五年間苦しみ悩み続けた生活はここに終止符をうち、待ちに待った幸福が訪れたのです。<br/><br/>私の喜び、それは何にたとえることも出来ません。<br/><br/>ただただ嬉し涙にむせぶのみでございます。<br/><br/> 現在では至らぬながらも主人は人助けに歩かせて頂き、私は自然栽培をさせて頂き、お道の御話に明け暮れする楽しい毎日でございます。<br/><br/>明主様有難うございました。<br/><br/>救って頂きましたうれしさの余り、乱筆をも顧みませずありのままをここに御報告申し上げ、御礼申し上げます。<br/><br/>最後に矢代先生はじめ諸先生、内藤様、皆様有難うございました。<br/><br/> （昭和二十七年一月十六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saisei</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再生 『明日の医術 第三編』昭和18(1943)年10月23日発行 人間の再生には非常に遅速のあるものである。<br><br>そうしてその再生の遅速はいかなる理由によるかというに、それはその人の意志によるのである。<br><br>たとえば、死に際し現世に執着をもった者ほど早く再生するのであるが、しかし、これは結果が良くないのである。<br><br>何となれば、霊界なるものは、最も厳正に浄化作用の行われるものであるから、霊界に長く居れば居る程浄化され、霊体は浄まるのである。<br><br>浄まった霊体ほど再生して幸福者となるのである。<br><br>この理によって早く再生する場合は、汚濁が残存しているから、再生の後現世において浄化作用が行われなければならないからである。<br><br>勿論現世の浄化作用とは、病気、貧乏、災い等の痛苦であるから不幸な運命を辿るという訳である。<br><br>故に、生れながらにして幸不幸があるという事は右の理による事が多いのである。<br><br>故に、決して幸不幸は偶然ではなく、必然である事を知らなければならない。<br><br>しかしながら、今一つの原因がある。<br><br>それは死後の霊魂に対し、その遺族が誠意を以て懇（ねんご）ろなる法要を営むとか、又は遺族及びその子孫が人を助け慈悲を行い、国家社会の為に尽す等、善徳を積む事によって、祖霊の浄化作用は促進されるのである。<br><br> 右の理によって、親に孝を尽すのは現世のみではなく、むしろ死後、供養や積徳によって霊界における親に孝養を尽す方が、より大きな孝行となるのである。<br><br>世間よく「孝行をしたい時には親は無し」――というが、これは全く霊界の消息を知らないからである。<br><br> 又、生れながらにして畸型や不具である場合がある。<br><br>それは霊界において、完全に浄化作用が行われない中、再生するからである。<br><br>たとえていえば、高所から顛落して、手や足を折った場合、それが治り切れないうちに生れてくるから、手足が畸型であるという訳である。<br><br> 又、早く再生する場合、本人の執着のみでなく、遺族の執着も影響するのである。<br><br>世間よく愛児が死んだ場合、間もなく妊娠し生れるという例がよくあるが、それは全く、死んだ愛児が母親の執着によって、頗（すこぶ）る早く再生したのである。<br><br>従って、こういう子供は余り幸福ではないのが普通である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Leis da Reencarnação e suas Causas</h2>
 <p>A reencarnação do ser humano pode ocorrer de maneira rápida ou lenta, e essa variação de tempo depende fundamentalmente da vontade do próprio indivíduo. A título de exemplo, aqueles que, no momento da morte, nutrem grande apego ao mundo material reencarnam com maior celeridade. Contudo, as consequências de tal pressa não são favoráveis.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Em virtude desse princípio, a devoção filial não se restringe à vida terrena. Na verdade, prestar auxílio aos pais no Mundo Espiritual, por meio de sufrágios e da prática do bem, constitui uma forma ainda mais elevada de piedade filial. O dito popular "Quando se deseja honrar os pais, eles já não estão mais aqui" revela, portanto, um profundo desconhecimento sobre a realidade do plano espiritual.</p>
 <p>Existem, ademais, os casos de pessoas que nascem com deformidades ou deficiências físicas. Isso ocorre porque reencarnam antes que o seu processo de purificação no Mundo Espiritual tenha sido concluído. A título de analogia, é como se alguém sofresse uma queda de um lugar alto e fraturasse um braço ou uma perna no plano espiritual; ao reencarnar antes da completa recuperação, a lesão se manifesta como uma deformidade física.</p>
 <p>A reencarnação apressada, por sua vez, não é influenciada apenas pelo apego do próprio espírito, mas também pelo dos seus entes queridos que permaneceram na Terra. É comum ouvirmos relatos de mães que, após a perda de um filho amado, engravidam novamente em um curto espaço de tempo. Casos como esse ocorrem porque o forte apego materno atrai o espírito da criança de volta, promovendo uma reencarnação extremamente rápida. Consequentemente, é natural que uma criança nascida sob tais circunstâncias não desfrute de plena felicidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再生 『明日の医術 第三編』昭和18(1943)年10月23日発行 人間の再生には非常に遅速のあるものである。<br/><br/>そうしてその再生の遅速はいかなる理由によるかというに、それはその人の意志によるのである。<br/><br/>たとえば、死に際し現世に執着をもった者ほど早く再生するのであるが、しかし、これは結果が良くないのである。<br/><br/>何となれば、霊界なるものは、最も厳正に浄化作用の行われるものであるから、霊界に長く居れば居る程浄化され、霊体は浄まるのである。<br/><br/>浄まった霊体ほど再生して幸福者となるのである。<br/><br/>この理によって早く再生する場合は、汚濁が残存しているから、再生の後現世において浄化作用が行われなければならないからである。<br/><br/>勿論現世の浄化作用とは、病気、貧乏、災い等の痛苦であるから不幸な運命を辿るという訳である。<br/><br/>故に、生れながらにして幸不幸があるという事は右の理による事が多いのである。<br/><br/>故に、決して幸不幸は偶然ではなく、必然である事を知らなければならない。<br/><br/>しかしながら、今一つの原因がある。<br/><br/>それは死後の霊魂に対し、その遺族が誠意を以て懇（ねんご）ろなる法要を営むとか、又は遺族及びその子孫が人を助け慈悲を行い、国家社会の為に尽す等、善徳を積む事によって、祖霊の浄化作用は促進されるのである。<br/><br/> 右の理によって、親に孝を尽すのは現世のみではなく、むしろ死後、供養や積徳によって霊界における親に孝養を尽す方が、より大きな孝行となるのである。<br/><br/>世間よく「孝行をしたい時には親は無し」――というが、これは全く霊界の消息を知らないからである。<br/><br/> 又、生れながらにして畸型や不具である場合がある。<br/><br/>それは霊界において、完全に浄化作用が行われない中、再生するからである。<br/><br/>たとえていえば、高所から顛落して、手や足を折った場合、それが治り切れないうちに生れてくるから、手足が畸型であるという訳である。<br/><br/> 又、早く再生する場合、本人の執着のみでなく、遺族の執着も影響するのである。<br/><br/>世間よく愛児が死んだ場合、間もなく妊娠し生れるという例がよくあるが、それは全く、死んだ愛児が母親の執着によって、頗（すこぶ）る早く再生したのである。<br/><br/>従って、こういう子供は余り幸福ではないのが普通である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

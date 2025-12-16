@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学封建 『栄光』149号、昭和27(1952)年3月26日発行 本教浄霊の効果は、現代医学とは比べものにならない程の素晴しさである事は、近頃大分世間に知れて来たようだが、これについて思いもつかない困る事が時々あるので、それをかいてみよう。<br><br>いかに浄霊が偉効あるといっても、百人が百人全部治す事は無論出来得ない事は、常識で考えても分かるが、たまには運悪く死亡する人もあるにはある。<br><br>すると普段から反対している人達は、それ見た事かと云わんばかりに問題にしたがる。<br><br>またこれをいい事にして、待っていましたとばかりに新聞などに出すのは誰も知る通りである。<br><br> ところがお医者の方といえば、吾々の知る範囲内でも、注射一本でたちまち死ぬ人や、最初から請け合いながら段々悪化し、遂に死んだりまた手術の失敗などで、死ぬ人の話もよく聞くが、それらに対しては誰も当り前の事のように思って、少しも怪しんだり咎（とが）めたりする人はない。<br><br>時には近親者などで憤慨の余り、告訴しようなどという人もあるが、こういう問題は告訴をしても仲々埒（らち）が明かず、泣寝入りになるのが落ちだと言われて、大抵は諦めてしまうのである。<br><br> という訳で公平に見て、浄霊で失敗する数よりも、医療で失敗する数の方がどのくらい多いか知れない程で、まず一対十と言っても過言ではあるまい。<br><br>ところがこの点において医学は実に恵まれている。<br><br>衆知のごとく徹頭徹尾政府の厚い保護を受けているから、結果の如何（いかん）など問題にならず済んでしまうので、医師は思うままの治療が出来るのである。<br><br>そこへゆくと吾々の方は、どんなに効果があっても精神的に治ったくらいに思われてしまうばかりか、たまたまいささかの失敗でもあったが最後、前述のごとき非難や攻撃を浴びせるのだから、医学迷信も極まれりというべきである。<br><br>もちろんこのような事は今日始まったものではない、古くから沢山ある例で、全く先駆者としての宿命的悩みであろう。<br><br>ではこの進歩した社会でもなぜそのような不合理が行われているのかを、よく考えてみるとこうであろう。<br><br> まず現代における国家的建前からいうと、その基本条件を唯物科学に置いている以上、科学以外のものはほとんど迷信として、締め出しを喰わせている無定見さである。<br><br>ところがいかに進歩した科学といっても万能ではないから、科学で解決出来得ないものも沢山あるに違いないのであるにもかかわらず、そこに眼を向けないのは不思議というの外はない。<br><br>ほとんど盲目的に何もかも科学の進歩にのみ期待をかけている態度は、私がいつもいう通り全く科学迷信の虜になっているからである。<br><br>その迷信のためいかに大きな災害を人間に与えているか、蓋（けだ）し計るべからざるものがあろう。<br><br>その最も顕著なものが医学の誤謬であるが、根強い迷信はそこに気付かず、医学を唯一のものとして外にどんなに治病効果があり、社会に役立つものがあっても、見向こうともしないのである。<br><br>一言にしていえば、現在の日本は全く科学封建といってもよかろう。<br><br>しかしこれにも理由がない事はない。<br><br>現在のごとく科学時代が生まれない以前は、随分迷信が横行し社会に害毒を与えたからで、これも歴史の示す通りであって、この弊害を無くす上に科学は少なからず役立ったので、いつかしら科学崇拝が行き過ぎ、人間の魂までも占領してしまったのである。<br><br> 以上のごとく科学を無上のものと信じていながらも、事実は医学では病が治らない結果、ここに懐疑的となり、医学を棄て、せめて精神的でも安心を得たいとして、あらゆる既成宗教に求めるが、これにも満足を得ず遂に新宗教に目を付け、吾々に来るのである。<br><br> 私は科学封建と言ったが、これについて一の例を挙げてみよう。<br><br>それは終戦前の忠君愛国思想で、その当時はこれを最高道徳とされ、たまたま民主主義などを唱えようものなら、たちまち牢屋へブチ込まれたのは、今も記憶に新たなるところである。<br><br>この考え方と同様、今日の人間は科学を最高道徳のごとく崇敬しているので、吾々の説も当時の民主主義同様憎み排撃するのである。<br><br> ではこの医学と浄霊との優劣を決めるには、ここに名案がある。<br><br>それは効果の比較検討で、すなわち適当な方法を以って多数の病人を集め、二つに分けて実験する。<br><br>その結果より治る方と治らない方とがハッキリ分かるから、治る方を国家が採用すればいいのである。<br><br>これ以上公平な手段はあるまいから、この結果浄霊の方が勝つとなったら、医学は当然退陣せざるを得ないであろう。<br><br>その結果病なき日本となるのはもちろんで、しかもこの事実を見た世界各国はたちまち共鳴し、その国の政府はこれを採用し、ここに病なき世界が実現するのである。<br><br>それによって日本は全世界から崇敬の的となり、万人こぞって日本の徳を謳歌する時代となるであろう。<br><br>これこそ神が私に委任された人類救済の大使命である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superstição da Ciência Médica</h2>
 <p>A extraordinária eficácia do Johrei ministrado por nossa Igreja, em nada se comparando à medicina moderna, é um fato que, recentemente, parece ter-se difundido consideravelmente na sociedade. Contudo, surgem por vezes percalços inesperados sobre os quais gostaria de discorrer. Por mais potente que seja o Johrei, é de bom-senso compreender que não se pode, evidentemente, curar cem por cento dos casos. Ocasionalmente, há pessoas que, por infortúnio, vêm a falecer. Nesses momentos, aqueles que habitualmente se opõem à nossa Obra aproveitam a oportunidade para, exultantes, transformar o caso em um grande problema. E, como todos sabem, valem-se disso para que o fato seja imediatamente explorado pela imprensa, que parece aguardar ansiosamente por tais ocasiões.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>É nesse contexto que, mesmo acreditando na ciência como valor supremo, as pessoas constatam na prática que a medicina não as cura. Essa constatação as torna céticas e as leva a abandonar os tratamentos médicos. Em busca de, ao menos, algum alento espiritual, recorrem às diversas religiões estabelecidas. Não encontrando nelas a satisfação que anseiam, voltam finalmente sua atenção às novas religiões e, assim, chegam até nós.</p>
 <p>Eu utilizei a expressão "feudalismo científico", e gostaria de ilustrá-la com um exemplo. Refiro-me à ideologia de lealdade ao imperador e de patriotismo que vigorava antes do fim da guerra. Naquela época, tais preceitos eram considerados a moral suprema, e quem ousasse defender a democracia era prontamente encarcerado, como ainda está vivo em nossa memória. De modo análogo, o homem de hoje reverencia a ciência como se fosse a mais elevada norma moral e, por essa razão, hostiliza e rechaça nossos ensinamentos da mesma forma que o ideário democrático era combatido naquele tempo.</p>
 <p>Para dirimir a questão sobre a superioridade entre a medicina e o Johrei, proponho uma solução brilhante: um estudo comparativo de seus efeitos. Basta reunir um grande número de enfermos por um método apropriado, dividi-los em dois grupos e realizar o experimento. Os resultados apontarão inequivocamente qual dos métodos cura e qual não cura, cabendo ao Estado adotar aquele que se provar mais eficaz. Não há, a meu ver, procedimento mais justo. Se o Johrei sair vitorioso, a medicina deverá, naturalmente, retirar-se de cena. Como consequência, teremos um Japão livre de doenças e, ao testemunhar esse fato, as nações do mundo inteiro prontamente o reconhecerão. Seus governos adotarão o nosso método, e assim se concretizará um mundo sem enfermidades. O Japão se tornará, então, um farol de reverência para todo o planeta, e chegará a era em que todos os povos celebrarão em uníssono a sua virtude. Esta é a grandiosa missão de salvação da humanidade que Deus me confiou.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学封建 『栄光』149号、昭和27(1952)年3月26日発行 本教浄霊の効果は、現代医学とは比べものにならない程の素晴しさである事は、近頃大分世間に知れて来たようだが、これについて思いもつかない困る事が時々あるので、それをかいてみよう。<br/><br/>いかに浄霊が偉効あるといっても、百人が百人全部治す事は無論出来得ない事は、常識で考えても分かるが、たまには運悪く死亡する人もあるにはある。<br/><br/>すると普段から反対している人達は、それ見た事かと云わんばかりに問題にしたがる。<br/><br/>またこれをいい事にして、待っていましたとばかりに新聞などに出すのは誰も知る通りである。<br/><br/> ところがお医者の方といえば、吾々の知る範囲内でも、注射一本でたちまち死ぬ人や、最初から請け合いながら段々悪化し、遂に死んだりまた手術の失敗などで、死ぬ人の話もよく聞くが、それらに対しては誰も当り前の事のように思って、少しも怪しんだり咎（とが）めたりする人はない。<br/><br/>時には近親者などで憤慨の余り、告訴しようなどという人もあるが、こういう問題は告訴をしても仲々埒（らち）が明かず、泣寝入りになるのが落ちだと言われて、大抵は諦めてしまうのである。<br/><br/> という訳で公平に見て、浄霊で失敗する数よりも、医療で失敗する数の方がどのくらい多いか知れない程で、まず一対十と言っても過言ではあるまい。<br/><br/>ところがこの点において医学は実に恵まれている。<br/><br/>衆知のごとく徹頭徹尾政府の厚い保護を受けているから、結果の如何（いかん）など問題にならず済んでしまうので、医師は思うままの治療が出来るのである。<br/><br/>そこへゆくと吾々の方は、どんなに効果があっても精神的に治ったくらいに思われてしまうばかりか、たまたまいささかの失敗でもあったが最後、前述のごとき非難や攻撃を浴びせるのだから、医学迷信も極まれりというべきである。<br/><br/>もちろんこのような事は今日始まったものではない、古くから沢山ある例で、全く先駆者としての宿命的悩みであろう。<br/><br/>ではこの進歩した社会でもなぜそのような不合理が行われているのかを、よく考えてみるとこうであろう。<br/><br/> まず現代における国家的建前からいうと、その基本条件を唯物科学に置いている以上、科学以外のものはほとんど迷信として、締め出しを喰わせている無定見さである。<br/><br/>ところがいかに進歩した科学といっても万能ではないから、科学で解決出来得ないものも沢山あるに違いないのであるにもかかわらず、そこに眼を向けないのは不思議というの外はない。<br/><br/>ほとんど盲目的に何もかも科学の進歩にのみ期待をかけている態度は、私がいつもいう通り全く科学迷信の虜になっているからである。<br/><br/>その迷信のためいかに大きな災害を人間に与えているか、蓋（けだ）し計るべからざるものがあろう。<br/><br/>その最も顕著なものが医学の誤謬であるが、根強い迷信はそこに気付かず、医学を唯一のものとして外にどんなに治病効果があり、社会に役立つものがあっても、見向こうともしないのである。<br/><br/>一言にしていえば、現在の日本は全く科学封建といってもよかろう。<br/><br/>しかしこれにも理由がない事はない。<br/><br/>現在のごとく科学時代が生まれない以前は、随分迷信が横行し社会に害毒を与えたからで、これも歴史の示す通りであって、この弊害を無くす上に科学は少なからず役立ったので、いつかしら科学崇拝が行き過ぎ、人間の魂までも占領してしまったのである。<br/><br/> 以上のごとく科学を無上のものと信じていながらも、事実は医学では病が治らない結果、ここに懐疑的となり、医学を棄て、せめて精神的でも安心を得たいとして、あらゆる既成宗教に求めるが、これにも満足を得ず遂に新宗教に目を付け、吾々に来るのである。<br/><br/> 私は科学封建と言ったが、これについて一の例を挙げてみよう。<br/><br/>それは終戦前の忠君愛国思想で、その当時はこれを最高道徳とされ、たまたま民主主義などを唱えようものなら、たちまち牢屋へブチ込まれたのは、今も記憶に新たなるところである。<br/><br/>この考え方と同様、今日の人間は科学を最高道徳のごとく崇敬しているので、吾々の説も当時の民主主義同様憎み排撃するのである。<br/><br/> ではこの医学と浄霊との優劣を決めるには、ここに名案がある。<br/><br/>それは効果の比較検討で、すなわち適当な方法を以って多数の病人を集め、二つに分けて実験する。<br/><br/>その結果より治る方と治らない方とがハッキリ分かるから、治る方を国家が採用すればいいのである。<br/><br/>これ以上公平な手段はあるまいから、この結果浄霊の方が勝つとなったら、医学は当然退陣せざるを得ないであろう。<br/><br/>その結果病なき日本となるのはもちろんで、しかもこの事実を見た世界各国はたちまち共鳴し、その国の政府はこれを採用し、ここに病なき世界が実現するのである。<br/><br/>それによって日本は全世界から崇敬の的となり、万人こぞって日本の徳を謳歌する時代となるであろう。<br/><br/>これこそ神が私に委任された人類救済の大使命である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

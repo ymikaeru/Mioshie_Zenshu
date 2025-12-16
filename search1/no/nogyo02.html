@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nogyo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農業の大革命 飯米十割増産は易々たり 『救世』63号、昭和25(1950)年5月20日発行 いよいよ、わが国民主食の自給自足時代の来った事を弘く天下に公表せんとするのである、全く驚異的農耕法は遂に完成したのである、ここにその真相を伝えるべく、本紙特集号を刊行する事となったので、国家のためまことに慶賀に堪えない次第である。<br><br> 昔はとにかく文化日本となってこの方、農事については各般の施設改良に腐心し官民共に不断の苦心努力を払いつつ来たにかかわらず、今もって予期の成果を挙げ得られないのはなぜであろうかという事である、もちろんそれには原因がなくてはならないがその原因こそ従来の農耕法に一大誤謬のある事である、今その点を明らかにすると共に、真の農耕法を発表し、吾らが永年唱え来った無肥料栽培法とはいかなるものであるかという事で、今やその理論を実施の結果、正に画期的一大成果を挙げ得た事によって、最早一日の猶予もなり難く、ここに天下に発表し、全国農村に向かって一大奮起を促すと共に、即時実行に移られん事を念願して止まない次第である。<br><br> まずこの革命的農耕法がいかに卓越せるかを左に列記してみる。<br><br> （一）金肥人肥は一切使用せず、ただ堆肥のみで足りる事 （二）従って、高価な金肥購入の必要なく、施肥の労力も不用となる事 （三）虫害はほとんど皆無となる、何となれば害虫発生は金人肥が原因であるからである （四）量目が増し、品質優良美味である事 （五）人肥を使用せざるため、近来大問題とされている、寄生虫の危険なき事 （六）風水害に遭うも草質強靱なるためほとんど被害を受けない事 右のごとく、増産以外の有利なる点も多々あり、実に想像もつかない画期的空前の農耕法である、この実際を知るにおいて、今日までの農耕法がいかに誤っていたかが判るのである、吾らからみれば、従来の農耕法は好んで、苦難の途（みち）に迷い込み、喘ぎ苦しみつつあったという事実で、ここに天の時到って全農民を挙げて光明の道へ誘い幸福者たらしめんとするのである、国民生活上、最重要なる食糧問題が一挙に解決出来るという本農法の実施が、再建日本の前途にいかに大なる光明をもたらすかは表現の讃辞さえないであろう。<br><br> 別項、多数に上る実地報告〔略〕を一読すれば、何人（なんぴと）といえども疑う余地はあるまい、しかしながら、初めて見る人のために本農法の原理を概略説明の必要もあろうからここにかくのである、そもそも本農法の原理は、今日まで永い間金肥人肥の毒素によって土壌を殺して来た事に気がつかなかったのである、それを反対である生かす方法こそ本農法の根本義である、というのは従来の農耕法の大誤謬は、土壌本来の力を無視し、作物は金肥人肥によらなければ充分な成果を挙げ得られないと固く信じて来た事である、これを判りやすくいえば、近来流行のアドルムやモヒ（モルヒネ）中毒と同様で、人間一度この中毒に罹るや、薬が切れると人間活動が出来なくなる、ちょうどそのように肥料中毒に罹っている土壌は肥料が切れると、土壌の活力発揮が出来ないという訳である。<br><br> 実例報告にもあるごとく、無肥料実施の第一年目は例外なく、最初の数ケ月間は葉色悪く、茎細く、いかにも貧弱なので、隣人からは嘲罵を浴びせられ、本人も非常に心配するがこれ全く肥毒のためで、土にも種子にも肥毒が充分含まれているからである、ところが、その後成熟期が近づくに従って漸次好転し初めるのは、肥毒が漸減するからで、漸次土本来の活力を取り戻すからである、ゆえに一年目より二年目、二年目より三年目というように年を追うて収穫が増すのは、肥毒漸減と正比例するからである、従って無肥料栽培三年以後ともなれば、最低五割ないし十割の増産は確実である。<br><br> 我国昨年度の産米六千三百万石であったから五割増産は正に九千四百五十万石となり、現在人口八千二百万人に対し、この上一億くらい増したとしても、実に余裕綽々（しゃくしゃく）たるものがある、のみならず米以外の雑穀、薩摩芋、馬鈴薯、豆類等、あらゆる物も増産となる以上、食糧問題の危惧は全く解消してしまうのである、右は最低を規準としての予想であるが、実際は十割ないし二十割の増産は可能であるから、数年後は食糧大増産に悲鳴を挙げる嘘のような時節が来るとしたら今からその対策を講じおく必要もあるであろう。<br><br> しかも、労力は半減する以上、世界的有名な日本農民の労働過重も一挙解決するのみか、肥料代その他の経済的利益も加わる以上、ここに農村の黄金時代は出現し天国は農村からという事も決して痴人の夢ではあるまい。<br><br> 今一つ言いたい事は、この一大福音を天下に発表するについては、本教の宗教宣伝に用いるように思われやすいが、そのような意図は毫（ごう）もなくただかくのごとき空前の一大発見を一刻も早く知らしめ、苦悩に喘ぐ農民を救い国家の繁栄に資せんとする以外他意はないのである、また実例中にある浄霊であるが、これはもちろん大いに効果はあるが、そのような信仰的手段をとらずとも、単なる堆肥のみの栽培で五割以上の収穫は確実である事を付言しておくのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Revolução Agrícola</h2>
 <p>Chegou o momento de anunciarmos ao mundo o advento da era em que nossa nação alcançará a autossuficiência em seu principal alimento. O método agrícola verdadeiramente prodigioso foi, enfim, concluído. Para revelar a sua essência, decidimos publicar esta edição especial de nosso periódico, um acontecimento de júbilo indizível para o bem de nosso país.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>A produção de arroz em nosso país no ano passado foi de sessenta e três milhões de unidades de colheita. Com um aumento de cinquenta por cento, passaria a ser de noventa e quatro milhões e quinhentas mil. Isso seria mais que suficiente para a população atual de oitenta e dois milhões de habitantes, ainda que esta ultrapassasse a marca de cem milhões. Ademais, como todos os outros cultivos — cereais, batata-doce, batata, leguminosas, etc. — também terão sua produção aumentada, a apreensão em torno da questão alimentar será completamente dissipada. Esta é uma estimativa baseada no aumento mínimo. Na realidade, são possíveis aumentos de cem a duzentos por cento. Assim, talvez seja necessário, desde já, planejar contramedidas para uma era, dentro de alguns anos, tão abundante que, inacreditavelmente, teríamos de nos preocupar com o excesso de alimentos.</p>
 <p>Ademais, como o esforço de trabalho é reduzido à metade, o fardo excessivo que pesa sobre os ombros dos agricultores japoneses, conhecido mundialmente, será solucionado de uma só vez. Se somarmos a isso os benefícios econômicos resultantes da economia com fertilizantes e outras despesas, a Era Dourada das comunidades rurais se tornará uma realidade. A afirmação de que o Paraíso se inicia no campo deixará de ser, em absoluto, o sonho de um tolo.</p>
 <p>Há mais um ponto que desejo elucidar. Ao divulgarmos esta grande boa-nova ao mundo, é natural que alguns pensem que nosso intuito é fazer propaganda religiosa de nossa instituição. Asseguro que não temos a mais mínima intenção do gênero. Nosso único desejo é dar a conhecer o mais rápido possível esta descoberta sem precedentes, a fim de salvar os agricultores que gemem em sofrimento e contribuir para a prosperidade de nossa nação. Por fim, sobre o Johrei, mencionado em alguns relatos, ele é, evidentemente, de grande eficácia. Contudo, cumpre-me acrescentar que, mesmo sem recorrer a tais práticas de fé, o cultivo apenas com composto orgânico garante um aumento de mais de cinquenta por cento na colheita.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農業の大革命 飯米十割増産は易々たり 『救世』63号、昭和25(1950)年5月20日発行 いよいよ、わが国民主食の自給自足時代の来った事を弘く天下に公表せんとするのである、全く驚異的農耕法は遂に完成したのである、ここにその真相を伝えるべく、本紙特集号を刊行する事となったので、国家のためまことに慶賀に堪えない次第である。<br/><br/> 昔はとにかく文化日本となってこの方、農事については各般の施設改良に腐心し官民共に不断の苦心努力を払いつつ来たにかかわらず、今もって予期の成果を挙げ得られないのはなぜであろうかという事である、もちろんそれには原因がなくてはならないがその原因こそ従来の農耕法に一大誤謬のある事である、今その点を明らかにすると共に、真の農耕法を発表し、吾らが永年唱え来った無肥料栽培法とはいかなるものであるかという事で、今やその理論を実施の結果、正に画期的一大成果を挙げ得た事によって、最早一日の猶予もなり難く、ここに天下に発表し、全国農村に向かって一大奮起を促すと共に、即時実行に移られん事を念願して止まない次第である。<br/><br/> まずこの革命的農耕法がいかに卓越せるかを左に列記してみる。<br/><br/> （一）金肥人肥は一切使用せず、ただ堆肥のみで足りる事 （二）従って、高価な金肥購入の必要なく、施肥の労力も不用となる事 （三）虫害はほとんど皆無となる、何となれば害虫発生は金人肥が原因であるからである （四）量目が増し、品質優良美味である事 （五）人肥を使用せざるため、近来大問題とされている、寄生虫の危険なき事 （六）風水害に遭うも草質強靱なるためほとんど被害を受けない事 右のごとく、増産以外の有利なる点も多々あり、実に想像もつかない画期的空前の農耕法である、この実際を知るにおいて、今日までの農耕法がいかに誤っていたかが判るのである、吾らからみれば、従来の農耕法は好んで、苦難の途（みち）に迷い込み、喘ぎ苦しみつつあったという事実で、ここに天の時到って全農民を挙げて光明の道へ誘い幸福者たらしめんとするのである、国民生活上、最重要なる食糧問題が一挙に解決出来るという本農法の実施が、再建日本の前途にいかに大なる光明をもたらすかは表現の讃辞さえないであろう。<br/><br/> 別項、多数に上る実地報告〔略〕を一読すれば、何人（なんぴと）といえども疑う余地はあるまい、しかしながら、初めて見る人のために本農法の原理を概略説明の必要もあろうからここにかくのである、そもそも本農法の原理は、今日まで永い間金肥人肥の毒素によって土壌を殺して来た事に気がつかなかったのである、それを反対である生かす方法こそ本農法の根本義である、というのは従来の農耕法の大誤謬は、土壌本来の力を無視し、作物は金肥人肥によらなければ充分な成果を挙げ得られないと固く信じて来た事である、これを判りやすくいえば、近来流行のアドルムやモヒ（モルヒネ）中毒と同様で、人間一度この中毒に罹るや、薬が切れると人間活動が出来なくなる、ちょうどそのように肥料中毒に罹っている土壌は肥料が切れると、土壌の活力発揮が出来ないという訳である。<br/><br/> 実例報告にもあるごとく、無肥料実施の第一年目は例外なく、最初の数ケ月間は葉色悪く、茎細く、いかにも貧弱なので、隣人からは嘲罵を浴びせられ、本人も非常に心配するがこれ全く肥毒のためで、土にも種子にも肥毒が充分含まれているからである、ところが、その後成熟期が近づくに従って漸次好転し初めるのは、肥毒が漸減するからで、漸次土本来の活力を取り戻すからである、ゆえに一年目より二年目、二年目より三年目というように年を追うて収穫が増すのは、肥毒漸減と正比例するからである、従って無肥料栽培三年以後ともなれば、最低五割ないし十割の増産は確実である。<br/><br/> 我国昨年度の産米六千三百万石であったから五割増産は正に九千四百五十万石となり、現在人口八千二百万人に対し、この上一億くらい増したとしても、実に余裕綽々（しゃくしゃく）たるものがある、のみならず米以外の雑穀、薩摩芋、馬鈴薯、豆類等、あらゆる物も増産となる以上、食糧問題の危惧は全く解消してしまうのである、右は最低を規準としての予想であるが、実際は十割ないし二十割の増産は可能であるから、数年後は食糧大増産に悲鳴を挙げる嘘のような時節が来るとしたら今からその対策を講じおく必要もあるであろう。<br/><br/> しかも、労力は半減する以上、世界的有名な日本農民の労働過重も一挙解決するのみか、肥料代その他の経済的利益も加わる以上、ここに農村の黄金時代は出現し天国は農村からという事も決して痴人の夢ではあるまい。<br/><br/> 今一つ言いたい事は、この一大福音を天下に発表するについては、本教の宗教宣伝に用いるように思われやすいが、そのような意図は毫（ごう）もなくただかくのごとき空前の一大発見を一刻も早く知らしめ、苦悩に喘ぐ農民を救い国家の繁栄に資せんとする以外他意はないのである、また実例中にある浄霊であるが、これはもちろん大いに効果はあるが、そのような信仰的手段をとらずとも、単なる堆肥のみの栽培で五割以上の収穫は確実である事を付言しておくのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

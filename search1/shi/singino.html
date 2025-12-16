@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>singino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神技の美術館 『栄光』207号、昭和28(1953)年5月6日発行 現在日本一と言われている箱根美術館について、今までの経過をここにかいてみるが、これを読んだらどうしても人間業でない事が会得されるであろう。<br><br>なぜなれば一切が奇蹟から奇蹟相次ぎ、出来上ったものであるからである。<br><br>特にその速さであって、恐らく世界広しといえどもこの箱根美術館くらい、スピード的建築と短期間に高級美術品が豊富に集った例は絶対ないであろう。<br><br>観る人の誰もが御世辞ではなく、感嘆の言葉を発するのは知らるる通りで、これが神業でなくて何であろう。<br><br>私は未（いま）だ外国は知らないが、我国各所にある美術館にしても、博物館は別とし個人のもののことごとくは、財閥、富豪中の美術愛好心を持った人達が、一生涯かかって造ったものである。<br><br>ところが我箱根美術館は、計画を立ててから僅々（きんきん）数年にして出来上ったのであるから、素晴しい驚異であろう。<br><br>というのは必要なだけの金は信者の寄付で集まり、美術品は終戦後自然にボツボツ集ったものと借りたもので、決して私の考えで探し求めたものはないのである。<br><br>つまり神様にお委（まか）せしておくだけであって、種類とてもそうである。<br><br>そうして欲しいと思う物は割合値段が安く、また信者の寄付した品物もあるが、これらも必要なものであるのも面白い。<br><br>というようにちょうど美術館へ並べるだけの物がチャンと調（ととの）ったのであるから、どう考えても人間業とは思えない。<br><br>何から何まで巧く運び丸で神様が御自分の心のまま、私にやらせているようなものである。<br><br>という訳で私としても気楽なものである。<br><br>それでなくてはこんなにトントン拍子に巧くゆくはずがない。<br><br> そこで本年の計画であるが、これも見れば分るが、昨年とは余程異（ちが）っている。<br><br>その中でも外国の古美術である埃及（エジプト）、希臘（ギリシャ）、波斯（ペルシャ）、印度（インド）、古代支那（シナ）の物等が、一部屋に並べ切れない程集ったのである。<br><br>といっても初めから、私はそんな物を蒐（あつ）めようなどとは夢にも思わなかった。<br><br>第一西洋古美術などは全然知らなかったところ、今年に入るや春早々からバタバタ集って来た。<br><br>もちろん日本では余り知られていないので、値段も割合安く手軽に集める事が出来たので喜ぶと共に、段々分るに従い、中々魅力に富んだ捨て難いものが大いにあるので、今更ながら神様の深い御意志に感嘆せざるを得ないのである。<br><br>しかもこの種のものは現在我国では博物館始めどこにもまだ蒐集（しゅうしゅう）されてないそうだから、今度箱根美術館が先鞭（せんべん）をつけた訳である。<br><br> 次は六月一日から今度出来た別館に、浮世絵展を開催する予定だが、これがまた不思議である。<br><br>というのは昨年秋京都美術館の浮世絵展を観に行った時の事、それまで私は余り関心を持っていなかった浮世絵を見るに及んで、中々馬鹿にならない事を知ったと共に、幸いこの展覧会の担当者たる東京博物館の、浮世絵専門の近藤市太郎という人を紹介され、近藤氏から色々説明を聞き、概念は得られたが、それから別な人からも教えられ、ある程度の智識を得たと共に、頼みもしないのに容易に得難い程の好い浮世絵が集ってくるのである。<br><br>私はハハアー神様は浮世絵展を開催せよとの思召（おぼしめし）に違いないと思うと共に、それには館が狭いので、早速別館を造る事に気が付いたのである。<br><br>ところが出来上ってみればなるほどと頷（うなず）いた。<br><br>というのはこの別館が出来たため、その辺りの景観が一段と引立ったからである。<br><br> 以上によってみても、何から何まで深遠微妙なる神様の経綸は実に端倪（たんげい）すべからざるものがあり、常に感激は心に満ちており考えれば考える程流石（さすが）は神様で、寸分隙のない御経綸には只々（ただただ）驚嘆するのみである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Obra Divina do Museu de Arte de Hakone</h2>
 <p>Relatarei a seguir a trajetória do Museu de Arte de Hakone, hoje considerado o mais proeminente do Japão. Ao lerem este relato, os senhores hão de convir que sua construção transcende a capacidade humana, pois tudo se concretizou por meio de uma sucessão ininterrupta de milagres. A celeridade de sua edificação e a rapidez com que seu valioso acervo foi reunido são, em particular, dignas de nota. Provavelmente, em todo o vasto mundo, não há precedente de um museu construído em tão curto espaço de tempo e que tenha acumulado tantas obras de arte de alta categoria. Como é sabido, todos que o visitam, sem qualquer resquício de lisonja, expressam palavras de genuína admiração. O que seria isto, senão uma Obra Divina?</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O planejamento para o corrente ano, como se pode observar, difere consideravelmente do anterior. Dentre as novidades, destaca-se a coleção de arte antiga do Egito, Grécia, Pérsia, Índia e da China ancestral, que se acumulou em tal volume que já não cabe em uma única sala. Devo confessar que jamais sonhei em reunir tais peças. Eu, inclusive, desconhecia por completo a arte antiga ocidental; contudo, desde o início deste ano, elas começaram a afluir em grande quantidade. Felizmente, por serem pouco conhecidas no Japão, foi possível adquiri-las a preços relativamente módicos. À medida que meu conhecimento sobre elas se aprofundava, descobri que muitas possuem um encanto singular e um valor inestimável. Diante disso, não me resta senão maravilhar-me, mais uma vez, com a profunda Vontade de Deus. Ademais, ao que parece, coleções dessa natureza ainda não foram reunidas por nenhuma outra instituição em nosso país, nem mesmo pelos museus públicos, o que significa que o Museu de Arte de Hakone tornou-se pioneiro nesse campo.</p>
 <p>Em seguida, está prevista para o dia primeiro de junho a inauguração de uma exposição de ukiyo-e no anexo recém-construído, o que representa outro prodígio. Ocorreu que, no outono passado, visitei uma exposição de ukiyo-e no Museu de Arte de Quioto. Até então, eu não nutria grande interesse por esse gênero artístico, mas, ao contemplar as obras, percebi seu notável valor. Tive a felicidade de ser apresentado ao senhor Kondo Ichitaro, especialista em ukiyo-e do Museu de Tóquio e responsável por aquela mostra, que me ofereceu diversas explicações. Após ouvir seus esclarecimentos e os de outras pessoas, adquiri um conhecimento básico sobre o assunto. A partir de então, sem que eu fizesse qualquer esforço para buscá-las, excelentes gravuras de ukiyo-e, de difícil obtenção, começaram a chegar até mim. Intuí que esta era, inequivocamente, a Vontade Divina de que realizássemos uma exposição. Contudo, o espaço do museu era insuficiente, o que me levou a decidir pela construção imediata de um anexo. Ao vê-lo concluído, compreendi a razão: sua presença valorizou sobremaneira a paisagem circundante.</p>
 <p>Diante de todos esses fatos, torna-se evidente que, do princípio ao fim, a Providência Divina, profunda e sutil, é verdadeiramente insondável. Meu coração transborda de uma gratidão constante. Quanto mais reflito, mais me convenço da grandeza de Deus, e Sua Providência, isenta da menor falha, inspira-me unicamente um profundo sentimento de assombro e reverência.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神技の美術館 『栄光』207号、昭和28(1953)年5月6日発行 現在日本一と言われている箱根美術館について、今までの経過をここにかいてみるが、これを読んだらどうしても人間業でない事が会得されるであろう。<br/><br/>なぜなれば一切が奇蹟から奇蹟相次ぎ、出来上ったものであるからである。<br/><br/>特にその速さであって、恐らく世界広しといえどもこの箱根美術館くらい、スピード的建築と短期間に高級美術品が豊富に集った例は絶対ないであろう。<br/><br/>観る人の誰もが御世辞ではなく、感嘆の言葉を発するのは知らるる通りで、これが神業でなくて何であろう。<br/><br/>私は未（いま）だ外国は知らないが、我国各所にある美術館にしても、博物館は別とし個人のもののことごとくは、財閥、富豪中の美術愛好心を持った人達が、一生涯かかって造ったものである。<br/><br/>ところが我箱根美術館は、計画を立ててから僅々（きんきん）数年にして出来上ったのであるから、素晴しい驚異であろう。<br/><br/>というのは必要なだけの金は信者の寄付で集まり、美術品は終戦後自然にボツボツ集ったものと借りたもので、決して私の考えで探し求めたものはないのである。<br/><br/>つまり神様にお委（まか）せしておくだけであって、種類とてもそうである。<br/><br/>そうして欲しいと思う物は割合値段が安く、また信者の寄付した品物もあるが、これらも必要なものであるのも面白い。<br/><br/>というようにちょうど美術館へ並べるだけの物がチャンと調（ととの）ったのであるから、どう考えても人間業とは思えない。<br/><br/>何から何まで巧く運び丸で神様が御自分の心のまま、私にやらせているようなものである。<br/><br/>という訳で私としても気楽なものである。<br/><br/>それでなくてはこんなにトントン拍子に巧くゆくはずがない。<br/><br/> そこで本年の計画であるが、これも見れば分るが、昨年とは余程異（ちが）っている。<br/><br/>その中でも外国の古美術である埃及（エジプト）、希臘（ギリシャ）、波斯（ペルシャ）、印度（インド）、古代支那（シナ）の物等が、一部屋に並べ切れない程集ったのである。<br/><br/>といっても初めから、私はそんな物を蒐（あつ）めようなどとは夢にも思わなかった。<br/><br/>第一西洋古美術などは全然知らなかったところ、今年に入るや春早々からバタバタ集って来た。<br/><br/>もちろん日本では余り知られていないので、値段も割合安く手軽に集める事が出来たので喜ぶと共に、段々分るに従い、中々魅力に富んだ捨て難いものが大いにあるので、今更ながら神様の深い御意志に感嘆せざるを得ないのである。<br/><br/>しかもこの種のものは現在我国では博物館始めどこにもまだ蒐集（しゅうしゅう）されてないそうだから、今度箱根美術館が先鞭（せんべん）をつけた訳である。<br/><br/> 次は六月一日から今度出来た別館に、浮世絵展を開催する予定だが、これがまた不思議である。<br/><br/>というのは昨年秋京都美術館の浮世絵展を観に行った時の事、それまで私は余り関心を持っていなかった浮世絵を見るに及んで、中々馬鹿にならない事を知ったと共に、幸いこの展覧会の担当者たる東京博物館の、浮世絵専門の近藤市太郎という人を紹介され、近藤氏から色々説明を聞き、概念は得られたが、それから別な人からも教えられ、ある程度の智識を得たと共に、頼みもしないのに容易に得難い程の好い浮世絵が集ってくるのである。<br/><br/>私はハハアー神様は浮世絵展を開催せよとの思召（おぼしめし）に違いないと思うと共に、それには館が狭いので、早速別館を造る事に気が付いたのである。<br/><br/>ところが出来上ってみればなるほどと頷（うなず）いた。<br/><br/>というのはこの別館が出来たため、その辺りの景観が一段と引立ったからである。<br/><br/> 以上によってみても、何から何まで深遠微妙なる神様の経綸は実に端倪（たんげい）すべからざるものがあり、常に感激は心に満ちており考えれば考える程流石（さすが）は神様で、寸分隙のない御経綸には只々（ただただ）驚嘆するのみである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

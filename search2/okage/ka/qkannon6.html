@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkannon6</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音力を抱いて眠るが如き往生 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 天国会光明分会 冨田久子（30） 私の主人は三年前に肋膜を患い医者や医薬品に依存しておりましたが容易に快癒する様子もなく不安の日を過しておりましたところ、たまたま観音教の御話を承り半信半疑の中に御浄めをして戴いておりました。<br><br>ところが病人は暫次快方に向い私達も大変その偉大な御力に感銘致しました。<br><br> しかし未だその当時は教修を受けさせて頂く迄には到らなかったので御座居ますが、昨年十月頃再び御浄化をいただきまして教修を受けさせていただく事になり、続いて私も受けさせていただきまして有難い観音力を拝受する光栄に浴しました。<br><br>ところが主人の病勢は日に増し募るばかりで御座居ましたので十二月十日頃から本部の先生に出張していただき毎日御浄霊をいただきましたところ、次第に快方に向い家中の者は多少の愁眉を開きました。<br><br> その中十二月二十四日に名古屋市昭和区の中央社会館において大先生様御生誕視祭と月並祭が執り行われましたので、主人も是非御参詣したいと申しますし、少し無理だと思いましたが主人の願いが叶えば本望と思いまして、雨降りの寒い日でしたが、私が看護しながらリヤカーに乗せて往復四、五里の道を参詣させていただきました。<br><br> その翌二十五日から御浄化はいよいよ激しくなり大晦日には死を覚悟する迄に到りました。<br><br>この間両親始め私も、主人の病気は喉頭結核に悪化している事を知っておりましたので、「とても御浄化に肉体が耐えられないだろう」と大半あきらめるようになり、絶望の淵に落ち込みました。<br><br>しかしお観音様に総てをお任せしている私達夫婦は一向平気で御座居ました。<br><br>これが安心立命と申すので御座居ましょう。<br><br> しかしお救い願えるものなら何とかしてと一心にお観音様にお念じし、又本部の先生も一生懸命になって雨の日も風の日も欠かさず出張して下さいました。<br><br>主人もまた「お観音様の先生は未だ御出にならないか」と、とても先生をお待ちするようになり一心にお観音様にお縋り申しておりました。<br><br>本部の先生は年末から年始にかけて熱海へお参りの為二日問程御出にならず、主人はこの二日間本部の先生のお出になるのを頻りに待っていたらしく、新年の三日の朝も「お観音様の先生は未だお見えにならないか」と言って淋しそうで御座居ました。<br><br> 三日の午後先生がお見えになり、主人は大変嬉しがりニコニコ顔でした。<br><br>しかる所四日午後より急に容態が変り、とうとぅ虫の息となりいよいよ最後だと諦めて親戚知己等へお知らせ致しました。<br><br>午後二時頃本部の先生がお見えになり、多数の人が集っているのを見てハッとされたらしく、早速仏間に行き屏風観音様に善言讃詞を奉誦され、直ぐ病間に来られて又善言讃詞を三回奉誦されて虫の息なる主人に御浄霊して下さいました。<br><br>その様子を見ていました私は本当に申訳なく思いました。<br><br>それは先程から私は一度も善言讃詞を奉誦させていただかなかった事でございます。<br><br>それ程慌てて心の落付きがなかったのでございましょう、早速心の中でお詫び申上げました。<br><br>本部の先生が御出になって約一時間半の後ほんとに眠るがごとく息を引きとりました。<br><br>そばで見守っておられた多勢の方々も余りに静粛な息の引きとり方にただ唖然としている様子でした。<br><br> 夕刻主人を仏間に移す時の顔は生前とは似つかぬ綺麗な顔で全く観音様の顔型のようで余りの勿体なさに有難涙にくれました。<br><br>本当に主人は結構な往生で、お観音様の御下へ逝かしていただいたのでございます。<br><br> 翌五日の晩九時頃納棺致しましたが四日午後三時半に息を引取ってから約三十時間も経過致しておりましたにもかかわらず、死骸はまだ温かく（布団迄温かく）手などはクニャクニャで経帷子（きょうかたびら）を着せても訳なく着せられ、お参りの皆さんもその不思議な有様に目を見張っておられました。<br><br>ただただお観音様のお有難さに自ずと合掌し念仏をお唱えになりました。<br><br>私もかねがね先生より往生の際における有難いお話しや、死後の準備のお話しについて御教えをいただいておりましたが、主人の死を現実に見て全くお観音様の絶対のお力、有難い事を数々体験させていただき、筆舌に尽し得ないのでございます。<br><br>六日の朝納骨の為村の焼場に行き、焼く人の話を聞いたのでございますが、「私も沢山の人を焼いてきましたがこんな綺麗な清い死骸を焼いた事は未だかつてない」と申されました。<br><br> 「この一言で尽る」……と申しますのは御浄霊はただ病気を治療するものではない。<br><br>身心共に浄められるものだという事をはっきりと悟らせていただきました。<br><br> ただ有難いと申すより外に言葉はございません。<br><br>これからの私は主人の忘れ形身の正実を立派に育成する事で、今後益々お観音様にお縋りして会員の皆様と共に地上天国建設の為働かせていただきたいとこいねがうものでございます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma partida para o Mundo Espiritual serena como o sono, amparado pelo poder de Kannon</h2>
 <p><strong>Coleção Jikan, Volume 1, “Tuberculose e o Tratamento Divino”</strong>
@@ -108,5 +263,48 @@ function toggleLang(lang) {
 <p>Na manhã do dia 6, fomos ao crematório da vila. Lá, o responsável pela cremação nos disse: “Já incinerei muitas pessoas, mas nunca vi um corpo tão belo e puro como este”.</p>
 <p>Suas palavras foram conclusivas e me fizeram compreender claramente que o Johrei não se limita a curar doenças; ele purifica o ser humano em sua totalidade, corpo e espírito.</p>
 <p>Não há palavras que possam expressar minha gratidão. De agora em diante, minha missão será criar dignamente Masami, o filho que meu marido me deixou. Rogo para que, apegando-me cada vez mais a Kannon (観音), eu possa, ao lado dos demais membros, dedicar-me à sagrada obra de construção do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音力を抱いて眠るが如き往生 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 天国会光明分会 冨田久子（30） 私の主人は三年前に肋膜を患い医者や医薬品に依存しておりましたが容易に快癒する様子もなく不安の日を過しておりましたところ、たまたま観音教の御話を承り半信半疑の中に御浄めをして戴いておりました。<br/><br/>ところが病人は暫次快方に向い私達も大変その偉大な御力に感銘致しました。<br/><br/> しかし未だその当時は教修を受けさせて頂く迄には到らなかったので御座居ますが、昨年十月頃再び御浄化をいただきまして教修を受けさせていただく事になり、続いて私も受けさせていただきまして有難い観音力を拝受する光栄に浴しました。<br/><br/>ところが主人の病勢は日に増し募るばかりで御座居ましたので十二月十日頃から本部の先生に出張していただき毎日御浄霊をいただきましたところ、次第に快方に向い家中の者は多少の愁眉を開きました。<br/><br/> その中十二月二十四日に名古屋市昭和区の中央社会館において大先生様御生誕視祭と月並祭が執り行われましたので、主人も是非御参詣したいと申しますし、少し無理だと思いましたが主人の願いが叶えば本望と思いまして、雨降りの寒い日でしたが、私が看護しながらリヤカーに乗せて往復四、五里の道を参詣させていただきました。<br/><br/> その翌二十五日から御浄化はいよいよ激しくなり大晦日には死を覚悟する迄に到りました。<br/><br/>この間両親始め私も、主人の病気は喉頭結核に悪化している事を知っておりましたので、「とても御浄化に肉体が耐えられないだろう」と大半あきらめるようになり、絶望の淵に落ち込みました。<br/><br/>しかしお観音様に総てをお任せしている私達夫婦は一向平気で御座居ました。<br/><br/>これが安心立命と申すので御座居ましょう。<br/><br/> しかしお救い願えるものなら何とかしてと一心にお観音様にお念じし、又本部の先生も一生懸命になって雨の日も風の日も欠かさず出張して下さいました。<br/><br/>主人もまた「お観音様の先生は未だ御出にならないか」と、とても先生をお待ちするようになり一心にお観音様にお縋り申しておりました。<br/><br/>本部の先生は年末から年始にかけて熱海へお参りの為二日問程御出にならず、主人はこの二日間本部の先生のお出になるのを頻りに待っていたらしく、新年の三日の朝も「お観音様の先生は未だお見えにならないか」と言って淋しそうで御座居ました。<br/><br/> 三日の午後先生がお見えになり、主人は大変嬉しがりニコニコ顔でした。<br/><br/>しかる所四日午後より急に容態が変り、とうとぅ虫の息となりいよいよ最後だと諦めて親戚知己等へお知らせ致しました。<br/><br/>午後二時頃本部の先生がお見えになり、多数の人が集っているのを見てハッとされたらしく、早速仏間に行き屏風観音様に善言讃詞を奉誦され、直ぐ病間に来られて又善言讃詞を三回奉誦されて虫の息なる主人に御浄霊して下さいました。<br/><br/>その様子を見ていました私は本当に申訳なく思いました。<br/><br/>それは先程から私は一度も善言讃詞を奉誦させていただかなかった事でございます。<br/><br/>それ程慌てて心の落付きがなかったのでございましょう、早速心の中でお詫び申上げました。<br/><br/>本部の先生が御出になって約一時間半の後ほんとに眠るがごとく息を引きとりました。<br/><br/>そばで見守っておられた多勢の方々も余りに静粛な息の引きとり方にただ唖然としている様子でした。<br/><br/> 夕刻主人を仏間に移す時の顔は生前とは似つかぬ綺麗な顔で全く観音様の顔型のようで余りの勿体なさに有難涙にくれました。<br/><br/>本当に主人は結構な往生で、お観音様の御下へ逝かしていただいたのでございます。<br/><br/> 翌五日の晩九時頃納棺致しましたが四日午後三時半に息を引取ってから約三十時間も経過致しておりましたにもかかわらず、死骸はまだ温かく（布団迄温かく）手などはクニャクニャで経帷子（きょうかたびら）を着せても訳なく着せられ、お参りの皆さんもその不思議な有様に目を見張っておられました。<br/><br/>ただただお観音様のお有難さに自ずと合掌し念仏をお唱えになりました。<br/><br/>私もかねがね先生より往生の際における有難いお話しや、死後の準備のお話しについて御教えをいただいておりましたが、主人の死を現実に見て全くお観音様の絶対のお力、有難い事を数々体験させていただき、筆舌に尽し得ないのでございます。<br/><br/>六日の朝納骨の為村の焼場に行き、焼く人の話を聞いたのでございますが、「私も沢山の人を焼いてきましたがこんな綺麗な清い死骸を焼いた事は未だかつてない」と申されました。<br/><br/> 「この一言で尽る」……と申しますのは御浄霊はただ病気を治療するものではない。<br/><br/>身心共に浄められるものだという事をはっきりと悟らせていただきました。<br/><br/> ただ有難いと申すより外に言葉はございません。<br/><br/>これからの私は主人の忘れ形身の正実を立派に育成する事で、今後益々お観音様にお縋りして会員の皆様と共に地上天国建設の為働かせていただきたいとこいねがうものでございます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

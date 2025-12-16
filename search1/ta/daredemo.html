@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>daredemo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誰でも太れる法 『栄光』86号、昭和26(1951)年1月10日発行 世間よく、生まれながら痩せてる人で、太りたい太りたいと思って、色々な事をしても仲々効果がないので、悲観している人が随分多いと思う、またこういう事もよくある、目鼻立ちの、非常に美しい女性であっても、痩せているために、天性の美を発揮されていない人があるがそれを見る度に、今少し太ったらどんなに美しいだろうと思い、実に惜しい気がする事があるが、誰でもそういう経験はよくあるであろう、また子供などにも腺病質と言われ、カンの虫みたいな貧弱なのをよく見るがこれらももちろん身体が弱いためでその親は太らせたいと思ってやれ牛乳だとか、肝油だとか、色々な栄養食をやるが、仲々思うように太らないので、歎いている者も世間ザラにあるであろう。<br><br> ところが右のどちらも必ず太らせる法がある。<br><br>同時に顔色もよくなるんだから、何と嬉しい話ではなかろうか、ではその方法を教えて上げよう。<br><br> 右のような人の肩を見ると、必ず固く石のようになっているもので、その部に必ず微熱があり、その微熱のために食欲が衰え、細胞が消耗されるためであるから、右の塊を浄霊によって溶かすと、その部が段々軟かくなるに従い食欲が増してくる。<br><br>それにつれて太って来るという訳で実に百発百中である、これによってみても、神様の救いは人を健康にするばかりか、美しくもして下さるのだからこれが世間に知れ亘ったら、美人がドシドシ殖えるという嬉しい事になる、もちろん健康児童も殖えるから、世間の親達はいかに喜ぶ事であろう。<br><br> 今一つ見逃し難い一事は、右のごとき男女並びに小児は、結核に誤られ易い事である、というのは、こういう症状の者は風邪を引き易く、常に痩せて元気がなく咳や痰が出るので、御医者さんは結核と見間違える、ところが不幸な者は誤った療法などで本物となり、命を失くすものも随分あるであろう、としたらこの方法を知る限りの人は、結核にならないで済むから命まで恵まれる事になる、何と素晴しい救いではなかろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um método para que todos possam ganhar peso</h2>
 <p>Na sociedade, é comum encontrarmos indivíduos que, sendo magros por constituição, anseiam por ganhar peso. Apesar de seus diversos esforços, a ausência de resultados frequentemente os leva ao desalento. Há também o caso de mulheres de traços belíssimos, cuja beleza natural não se manifesta plenamente devido à magreza. Ao nos depararmos com tais casos, é inevitável pensar: "Como seria esplêndida se ganhasse um pouco mais de peso!", e lamentamos por esse potencial não realizado. Certamente, muitos já tiveram essa mesma impressão. O mesmo se aplica a crianças de compleição frágil, que, apesar da preocupação dos pais em lhes oferecer leite, óleo de fígado de bacalhau e toda sorte de alimentos nutritivos, não conseguem ganhar peso, para a aflição de suas famílias.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Isso demonstra que a salvação de Deus não apenas concede saúde, mas também beleza às pessoas. Se este conhecimento se difundir pela sociedade, teremos a feliz consequência de um crescente número de pessoas belas. Naturalmente, o número de crianças saudáveis também aumentará, para a imensa alegria de todos os pais.</p>
 <p>Há mais um ponto de suma importância que não pode ser ignorado: o fato de que homens, mulheres e crianças com as características descritas são frequentemente diagnosticados, por engano, com tuberculose. Isso ocorre porque, por serem suscetíveis a resfriados, estarem sempre magros e sem vigor, e apresentarem tosse e expectoração, os médicos confundem seu quadro com o da referida doença. Infelizmente, em virtude de tratamentos equivocados, há muitos casos em que a enfermidade se manifesta de fato, levando não poucos à morte.</p>
 <p>Sendo assim, todos que conhecerem este método poderão evitar a tuberculose e, por conseguinte, terão suas vidas preservadas. Não é esta uma salvação verdadeiramente maravilhosa?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誰でも太れる法 『栄光』86号、昭和26(1951)年1月10日発行 世間よく、生まれながら痩せてる人で、太りたい太りたいと思って、色々な事をしても仲々効果がないので、悲観している人が随分多いと思う、またこういう事もよくある、目鼻立ちの、非常に美しい女性であっても、痩せているために、天性の美を発揮されていない人があるがそれを見る度に、今少し太ったらどんなに美しいだろうと思い、実に惜しい気がする事があるが、誰でもそういう経験はよくあるであろう、また子供などにも腺病質と言われ、カンの虫みたいな貧弱なのをよく見るがこれらももちろん身体が弱いためでその親は太らせたいと思ってやれ牛乳だとか、肝油だとか、色々な栄養食をやるが、仲々思うように太らないので、歎いている者も世間ザラにあるであろう。<br/><br/> ところが右のどちらも必ず太らせる法がある。<br/><br/>同時に顔色もよくなるんだから、何と嬉しい話ではなかろうか、ではその方法を教えて上げよう。<br/><br/> 右のような人の肩を見ると、必ず固く石のようになっているもので、その部に必ず微熱があり、その微熱のために食欲が衰え、細胞が消耗されるためであるから、右の塊を浄霊によって溶かすと、その部が段々軟かくなるに従い食欲が増してくる。<br/><br/>それにつれて太って来るという訳で実に百発百中である、これによってみても、神様の救いは人を健康にするばかりか、美しくもして下さるのだからこれが世間に知れ亘ったら、美人がドシドシ殖えるという嬉しい事になる、もちろん健康児童も殖えるから、世間の親達はいかに喜ぶ事であろう。<br/><br/> 今一つ見逃し難い一事は、右のごとき男女並びに小児は、結核に誤られ易い事である、というのは、こういう症状の者は風邪を引き易く、常に痩せて元気がなく咳や痰が出るので、御医者さんは結核と見間違える、ところが不幸な者は誤った療法などで本物となり、命を失くすものも随分あるであろう、としたらこの方法を知る限りの人は、結核にならないで済むから命まで恵まれる事になる、何と素晴しい救いではなかろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

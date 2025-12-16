@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>eiyo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 栄養 『結核信仰療法』昭和27(1952)年12月1日発行 結核に対し医学は、栄養に最も重きを措いているが、この栄養学の誤りもまたはなはだしいもので、それを詳しくかいてみるが、まず第一に誤っている点は、栄養学においては食物のみを対象としていて、肝腎な人体の栄養機能の方を閑却している一事である。<br><br>例えばビタミンにしても、ＡＢＣなどと分類して、サモ進歩したように思わせているが、これは何の意味もなさないのである。<br><br>というのは根本が分かっていないからでもあろうが、ビタミン不足というのは、実はビタミン生産抽出機能が弱っているからで、その機能を快復させる事こそ本当の方法である。<br><br>ではなぜ機能が弱るかというと、機能の活動を阻止している邪魔物があるからで、それが薬毒の固まりである。<br><br>これをたとえてみれば、人間に金がないというのは怠けるからで、働かせるより仕方がないが、医療は怠け放題にして、金をくれてやるようなものだから、これをいい事にして益々怠けるという訳で、いかに間違っているかが分かるであろう。<br><br>従ってビタミンを服めば服む程、ビタミン生産機能は退化するから人体も弱る。<br><br>弱れば浄化も弱るから、病気症状は軽減する。<br><br>それを医学は、栄養による好結果と錯覚するのであるから、栄養学は人間と食物との関係に無知というよりも、逆解している訳である。<br><br> そうして人間を養うための必要な食物は、地球上いたるところに生産されている。<br><br>穀類、野菜、魚鳥、獣肉等々、地域的、気侯的、民族的に、おのおの適切な食物を神は配分されているので、それで充分栄養は摂れ、健康は保たれるように出来ているのである。<br><br>その意味を知らないから科学の魔術にかかり、栄養学などという馬鹿馬鹿しい学問を作り、手数と金をかけて健康を弱らせているのであるから、その愚かなる評すべき言葉はないのである。<br><br>またこの事は食物の咀嚼（そしゃく）についても言える。<br><br>それは余り咀嚼すると胃の活動の余地がないから弱って食欲は減退する。<br><br>それを補うべく消化薬を服み、消化のいい物を食うからいよいよ胃は弱り、その結果胃下垂や胃潰瘍となるのである。<br><br>この理によって結核患者も栄養などは問題にせず、一般人と同様の食物で、半噛みくらいにすれば結構で、昔から早飯の人程健康であるのはそういう意味である。<br><br> 今一つの誤謬をかいてみるが、現代人は昔の人間に較べると、栄養不足どころか栄養が多過ぎるくらいである。<br><br>すなわち栄養とは人体機能が作るものであるから、栄養過多だと機能が鈍ってしまう。<br><br>この理を一層徹底するとこうなる。<br><br>すなわち栄養食や栄養剤はいわば完成したものであるから、機能活動の余地がない事になる。<br><br>従って未完成な物程活動の必要が多いから、相互関係にある他の機能も活発となり、健康は増すのである。<br><br>という訳で人間の生活力とは機能の活動から生まれるもので、空腹になれば弱るにみても明らかである。<br><br>かの美食家は弱く、粗食家は健康であるのもそれである。<br><br>故に結核患者といえども、むしろ菜食を多くした方がいいので、これについて私の経験をかいてみよう。<br><br> 私は十七歳の時、肋膜炎を患い、穿孔排水一回し、三月ばかりで治り、安心しているとそれから一カ年後再発したが、今度は前の時と違って中々治らない。<br><br>医療を受けながら漸次悪化し、一年余を経た頃、とうとう三期結核となってしまった。<br><br>最後に診断を受けたのが、当時有名な入沢達吉博士であったが、入念に診察の結果、全快の見込なしとの宣告をされたのである。<br><br>何しろ日に日に衰弱が加わり、自分の手を見ると白ロウのごとく、血の気など更になく、痩せ衰えて骨と皮になってしまった。<br><br>まず衰弱の程度から推すと、精々後一カ月くらいで駄目だという事がよく分かるので、覚悟はしたが、何とか助かる方法はないものかと思い、色々考えた末、何か大いに変わった事をして、うまく当ればよし、外れれば元々だという気になっていたところ、病気以前私は絵を習っていたのである日色々な絵の本を見ていると『本朝薬草彙本（いほん）』という漢法〔方〕薬の本があった。<br><br>もちろん草根木皮の絵ばかりで、何の葉は何病に効くとか、何の実、何の花は、何の薬になると出ているので、私は“ハハアーこんな植物にも、そのような有効成分があるのかしら”と思うや、ふと気が付いたのは、それまで私は栄養は動物性に限ると思っていた事とて、試しに一日菜食にしてみた。<br><br>ところが驚くべし、非常に工合がいいので、これは不思議と、翌日も翌々日も続けたところ、益々いいので、ここに医学に疑いを起こし、薬も廃めてしまい、三カ月間絶対菜食を続けた結果、病気以前よりも健康になってしまったのである。<br><br>今一つは、私は二十五歳の時妻を娶（めと）ったが、一年くらい経た頃、妻はヤハリ結核に罹ってしまった。<br><br>喀血、血痰等引っきりなしで、普通より大柄な癖に、体重は十貫五百匁という痩せ方だ。<br><br>だが私は自分の経験によって、医者にもかけず、絶対菜食にしたところメキメキ快くなり、三カ月で全快し、二年後体重を計ったところ、十六貫五百匁に肥っていた。<br><br> 次にこういう事もあった。<br><br>これは栄養には関係がないが、以前慶大の学生で、一日か二日置きくらいに、必ず喀血するという青年が治療に来た。<br><br>本人いわく「苦痛がないので医療も廃め普通人同様にしている」というので、私も「喀血は浄化作用で結構だから、そのまま放っておいた方がいい」といってやったところ、それから二カ年程で全快したという事を聞いたが、これなども大いに参考になると思う。<br><br>また喀血であるが、これについてもこういう患者があった。<br><br>三十歳くらいの青年で、この人は肉食をすると必ず喀血するが、菜食にすると直ぐ停まる。<br><br>丸で判で捺したようだとの事である。<br><br>これを見ても分かるごとく、喀血を停めるには菜食に限る事を知ったので、その後私はみんなに教えている。<br><br>これらによってみても、結核に菜食のいい事は確かであるから、栄養学者は大いに研究して貰いたいのである。<br><br>それについて左の実例は、最も適切だと思うから載せてみた。<br><br> 整形手術直前に救いの御手 『結核信仰療法』昭和27(1952)年12月1日発行 『アメリカを救う』昭和28(1953)年1月1日発行 熊本市健軍町六〇〇〇番地 光宝大教会 井芹芳生（34） 私は昭和十九年に肋膜炎に罹り、その後二十二年、二十五年と一定の期間をおいて再発する毎に病は亢進し、二十五年末の発病の時は肺結核と診断され、昭和二十六年七月には、いよいよ入院して整形手術を受ける事になっておりました。<br><br> 大の無神論者であった私は、初めて救世（メシヤ）教のお話を聞かされたとき、半信半疑どころではなく絶対にそのような事はあり得ないとさえ思いました。<br><br>しかし余りにも一生懸命お勧め下さいますので入院を一週間か十日位遅らし、それまで試しに通ってみてもいいと言う気特になり、きっとその中にボロが出るに違いないと思い、毎日御浄霊を受けさせて頂いておりました。<br><br>傍ら先生のお言葉に従い、今までの安静療法を直ちに中止して気の向くままに行動する事にし、服用中のパスをやめ、努めて肉食等の栄養物を摂取していたのを菜食に切替えました。<br><br>その頃は時折微熱が出る程度の自覚症状でしかなかったので、一週間や十日位だったら少し位非科学的な事をしても、病状に大した影響はないと考えたからです。<br><br>ところが実に不思議です。<br><br>医学上からいえば、安静をやめて無理をし、かつ栄養物も摂らないと微熱、頭痛、目眩等の病勢悪化し、身体は当然衰弱しなけれはならないのに、二日目位から顔色が良くなると共に、食慾は進み、一週間経たないうちにメッキリ元気が出て参りました。<br><br>そこで、私はただ手をかざすだけの御浄霊が、ただ事ではないと思えて参りました。<br><br> 又一方明主様のお言葉の記録や数々の御著書を拝読させて頂きましたが、初めの中は革命的な異説にただ驚く外なく、又自分に一番関係の深い（私は熊本県庁に務めております）政治に関する御論説や、役人に対する御批判等に対しては、宗教家が当然唱える理想論であって、現実の社会に対しては、単なる空論でしかないなどとも思ったものでした。<br><br>しかし右の御批判などもよくよく考えでみますと、読んで気に喰わないのは、自分の一番痛い所に触れるからであって、人に余り関心をもたせたくないような事を、単刀直入に申されるからであります。<br><br>このような事を考えながら、数々の御論文を拝読させて戴いたり先生のお話をお伺いしたりしている内に、明主様は社会のあらゆる面に亘って、人間の最高道徳をお説きになり、しかもこれを行う道を明瞭にお示し下きっている事を分らせて頂きました。<br><br>又御一人で政治、社会、宗教、医学、哲学、芸術等すべてにわたって詳細にお説き下さる事は、到底人間業ではない事も考えさせられました。<br><br> 思えば昭和二十六年七月十三日、入院準備の買物に行った日が、私の光明世界への再生の日とも申せましょうか、ちょうどお盆の日に これも先組様のお導きではなかったでしょうか、実に間一髪とも言うべきところでした。<br><br>もしあのまま入院していたら、今頃はどうなっていた事でしょう。<br><br>整形手術後順調にいったとしても、半年位は絶対安静で、一年位はブラブラしていて、再び働けるようになったと致しましても不自由な不具の身体でいつ再発するかも知れず、戦々兢々として短い一生を終らなければならなかったはずでございます。<br><br> 入信以来三カ月、「病気は浄化作用なり」という真理を御教え頂きました一事だけでも､日常生活がいかに明るく、安心感を与えられたかは計り知れないものがあります。<br><br>今まで子供がちょっと風邪を引いても「ソレ医者だ、早く治さないと肺炎にでもなったら」と慌てたり「ヤレ少々熱があるぞ」「腹が痛いというが何を食ったんだろう」等々、今考えてみますと、全く無用の取越苦労をしていたのでございます。<br><br>又神様の実在を信ぜず、三十有余年よくも生きながらえて来られたものと深く感じお詫びせずにはいられません。<br><br> このように過去を顧み、感激に浸る事が出来ますのも、明主様のお蔭でございます。<br><br>この宏大無辺なる御神恩の万分の一にもお報いさせて頂き、地上天国御建説の御聖業に、少しでもお使い頂けますようお念じ致しております。<br><br> 明主様誠に有難う御座いました。<br><br> （昭和二十六年十一月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Nutrição e a Tuberculose</h2>
 <p>A medicina deposita grande ênfase na nutrição para o tratamento da tuberculose, mas os equívocos da ciência nutricional são igualmente assombrosos. Ao expor detalhadamente tais erros, percebemos que o primeiro e mais fundamental reside em seu foco exclusivo nos alimentos, negligenciando o aspecto primordial: a capacidade funcional do organismo de absorver e gerar nutrientes.</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p>Se hoje posso olhar para o meu passado com um sentimento de profunda gratidão, é graças a Meishu-Sama. Oro para que eu possa retribuir, ainda que minimamente, esta graça divina imensurável e ser útil, de alguma forma, na Obra Divina de construção do Paraíso Terrestre.</p>
 <p>Meishu-Sama, meu eterno e mais profundo agradecimento.</p>
 <p>(1º de novembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 栄養 『結核信仰療法』昭和27(1952)年12月1日発行 結核に対し医学は、栄養に最も重きを措いているが、この栄養学の誤りもまたはなはだしいもので、それを詳しくかいてみるが、まず第一に誤っている点は、栄養学においては食物のみを対象としていて、肝腎な人体の栄養機能の方を閑却している一事である。<br/><br/>例えばビタミンにしても、ＡＢＣなどと分類して、サモ進歩したように思わせているが、これは何の意味もなさないのである。<br/><br/>というのは根本が分かっていないからでもあろうが、ビタミン不足というのは、実はビタミン生産抽出機能が弱っているからで、その機能を快復させる事こそ本当の方法である。<br/><br/>ではなぜ機能が弱るかというと、機能の活動を阻止している邪魔物があるからで、それが薬毒の固まりである。<br/><br/>これをたとえてみれば、人間に金がないというのは怠けるからで、働かせるより仕方がないが、医療は怠け放題にして、金をくれてやるようなものだから、これをいい事にして益々怠けるという訳で、いかに間違っているかが分かるであろう。<br/><br/>従ってビタミンを服めば服む程、ビタミン生産機能は退化するから人体も弱る。<br/><br/>弱れば浄化も弱るから、病気症状は軽減する。<br/><br/>それを医学は、栄養による好結果と錯覚するのであるから、栄養学は人間と食物との関係に無知というよりも、逆解している訳である。<br/><br/> そうして人間を養うための必要な食物は、地球上いたるところに生産されている。<br/><br/>穀類、野菜、魚鳥、獣肉等々、地域的、気侯的、民族的に、おのおの適切な食物を神は配分されているので、それで充分栄養は摂れ、健康は保たれるように出来ているのである。<br/><br/>その意味を知らないから科学の魔術にかかり、栄養学などという馬鹿馬鹿しい学問を作り、手数と金をかけて健康を弱らせているのであるから、その愚かなる評すべき言葉はないのである。<br/><br/>またこの事は食物の咀嚼（そしゃく）についても言える。<br/><br/>それは余り咀嚼すると胃の活動の余地がないから弱って食欲は減退する。<br/><br/>それを補うべく消化薬を服み、消化のいい物を食うからいよいよ胃は弱り、その結果胃下垂や胃潰瘍となるのである。<br/><br/>この理によって結核患者も栄養などは問題にせず、一般人と同様の食物で、半噛みくらいにすれば結構で、昔から早飯の人程健康であるのはそういう意味である。<br/><br/> 今一つの誤謬をかいてみるが、現代人は昔の人間に較べると、栄養不足どころか栄養が多過ぎるくらいである。<br/><br/>すなわち栄養とは人体機能が作るものであるから、栄養過多だと機能が鈍ってしまう。<br/><br/>この理を一層徹底するとこうなる。<br/><br/>すなわち栄養食や栄養剤はいわば完成したものであるから、機能活動の余地がない事になる。<br/><br/>従って未完成な物程活動の必要が多いから、相互関係にある他の機能も活発となり、健康は増すのである。<br/><br/>という訳で人間の生活力とは機能の活動から生まれるもので、空腹になれば弱るにみても明らかである。<br/><br/>かの美食家は弱く、粗食家は健康であるのもそれである。<br/><br/>故に結核患者といえども、むしろ菜食を多くした方がいいので、これについて私の経験をかいてみよう。<br/><br/> 私は十七歳の時、肋膜炎を患い、穿孔排水一回し、三月ばかりで治り、安心しているとそれから一カ年後再発したが、今度は前の時と違って中々治らない。<br/><br/>医療を受けながら漸次悪化し、一年余を経た頃、とうとう三期結核となってしまった。<br/><br/>最後に診断を受けたのが、当時有名な入沢達吉博士であったが、入念に診察の結果、全快の見込なしとの宣告をされたのである。<br/><br/>何しろ日に日に衰弱が加わり、自分の手を見ると白ロウのごとく、血の気など更になく、痩せ衰えて骨と皮になってしまった。<br/><br/>まず衰弱の程度から推すと、精々後一カ月くらいで駄目だという事がよく分かるので、覚悟はしたが、何とか助かる方法はないものかと思い、色々考えた末、何か大いに変わった事をして、うまく当ればよし、外れれば元々だという気になっていたところ、病気以前私は絵を習っていたのである日色々な絵の本を見ていると『本朝薬草彙本（いほん）』という漢法〔方〕薬の本があった。<br/><br/>もちろん草根木皮の絵ばかりで、何の葉は何病に効くとか、何の実、何の花は、何の薬になると出ているので、私は“ハハアーこんな植物にも、そのような有効成分があるのかしら”と思うや、ふと気が付いたのは、それまで私は栄養は動物性に限ると思っていた事とて、試しに一日菜食にしてみた。<br/><br/>ところが驚くべし、非常に工合がいいので、これは不思議と、翌日も翌々日も続けたところ、益々いいので、ここに医学に疑いを起こし、薬も廃めてしまい、三カ月間絶対菜食を続けた結果、病気以前よりも健康になってしまったのである。<br/><br/>今一つは、私は二十五歳の時妻を娶（めと）ったが、一年くらい経た頃、妻はヤハリ結核に罹ってしまった。<br/><br/>喀血、血痰等引っきりなしで、普通より大柄な癖に、体重は十貫五百匁という痩せ方だ。<br/><br/>だが私は自分の経験によって、医者にもかけず、絶対菜食にしたところメキメキ快くなり、三カ月で全快し、二年後体重を計ったところ、十六貫五百匁に肥っていた。<br/><br/> 次にこういう事もあった。<br/><br/>これは栄養には関係がないが、以前慶大の学生で、一日か二日置きくらいに、必ず喀血するという青年が治療に来た。<br/><br/>本人いわく「苦痛がないので医療も廃め普通人同様にしている」というので、私も「喀血は浄化作用で結構だから、そのまま放っておいた方がいい」といってやったところ、それから二カ年程で全快したという事を聞いたが、これなども大いに参考になると思う。<br/><br/>また喀血であるが、これについてもこういう患者があった。<br/><br/>三十歳くらいの青年で、この人は肉食をすると必ず喀血するが、菜食にすると直ぐ停まる。<br/><br/>丸で判で捺したようだとの事である。<br/><br/>これを見ても分かるごとく、喀血を停めるには菜食に限る事を知ったので、その後私はみんなに教えている。<br/><br/>これらによってみても、結核に菜食のいい事は確かであるから、栄養学者は大いに研究して貰いたいのである。<br/><br/>それについて左の実例は、最も適切だと思うから載せてみた。<br/><br/> 整形手術直前に救いの御手 『結核信仰療法』昭和27(1952)年12月1日発行 『アメリカを救う』昭和28(1953)年1月1日発行 熊本市健軍町六〇〇〇番地 光宝大教会 井芹芳生（34） 私は昭和十九年に肋膜炎に罹り、その後二十二年、二十五年と一定の期間をおいて再発する毎に病は亢進し、二十五年末の発病の時は肺結核と診断され、昭和二十六年七月には、いよいよ入院して整形手術を受ける事になっておりました。<br/><br/> 大の無神論者であった私は、初めて救世（メシヤ）教のお話を聞かされたとき、半信半疑どころではなく絶対にそのような事はあり得ないとさえ思いました。<br/><br/>しかし余りにも一生懸命お勧め下さいますので入院を一週間か十日位遅らし、それまで試しに通ってみてもいいと言う気特になり、きっとその中にボロが出るに違いないと思い、毎日御浄霊を受けさせて頂いておりました。<br/><br/>傍ら先生のお言葉に従い、今までの安静療法を直ちに中止して気の向くままに行動する事にし、服用中のパスをやめ、努めて肉食等の栄養物を摂取していたのを菜食に切替えました。<br/><br/>その頃は時折微熱が出る程度の自覚症状でしかなかったので、一週間や十日位だったら少し位非科学的な事をしても、病状に大した影響はないと考えたからです。<br/><br/>ところが実に不思議です。<br/><br/>医学上からいえば、安静をやめて無理をし、かつ栄養物も摂らないと微熱、頭痛、目眩等の病勢悪化し、身体は当然衰弱しなけれはならないのに、二日目位から顔色が良くなると共に、食慾は進み、一週間経たないうちにメッキリ元気が出て参りました。<br/><br/>そこで、私はただ手をかざすだけの御浄霊が、ただ事ではないと思えて参りました。<br/><br/> 又一方明主様のお言葉の記録や数々の御著書を拝読させて頂きましたが、初めの中は革命的な異説にただ驚く外なく、又自分に一番関係の深い（私は熊本県庁に務めております）政治に関する御論説や、役人に対する御批判等に対しては、宗教家が当然唱える理想論であって、現実の社会に対しては、単なる空論でしかないなどとも思ったものでした。<br/><br/>しかし右の御批判などもよくよく考えでみますと、読んで気に喰わないのは、自分の一番痛い所に触れるからであって、人に余り関心をもたせたくないような事を、単刀直入に申されるからであります。<br/><br/>このような事を考えながら、数々の御論文を拝読させて戴いたり先生のお話をお伺いしたりしている内に、明主様は社会のあらゆる面に亘って、人間の最高道徳をお説きになり、しかもこれを行う道を明瞭にお示し下きっている事を分らせて頂きました。<br/><br/>又御一人で政治、社会、宗教、医学、哲学、芸術等すべてにわたって詳細にお説き下さる事は、到底人間業ではない事も考えさせられました。<br/><br/> 思えば昭和二十六年七月十三日、入院準備の買物に行った日が、私の光明世界への再生の日とも申せましょうか、ちょうどお盆の日に これも先組様のお導きではなかったでしょうか、実に間一髪とも言うべきところでした。<br/><br/>もしあのまま入院していたら、今頃はどうなっていた事でしょう。<br/><br/>整形手術後順調にいったとしても、半年位は絶対安静で、一年位はブラブラしていて、再び働けるようになったと致しましても不自由な不具の身体でいつ再発するかも知れず、戦々兢々として短い一生を終らなければならなかったはずでございます。<br/><br/> 入信以来三カ月、「病気は浄化作用なり」という真理を御教え頂きました一事だけでも､日常生活がいかに明るく、安心感を与えられたかは計り知れないものがあります。<br/><br/>今まで子供がちょっと風邪を引いても「ソレ医者だ、早く治さないと肺炎にでもなったら」と慌てたり「ヤレ少々熱があるぞ」「腹が痛いというが何を食ったんだろう」等々、今考えてみますと、全く無用の取越苦労をしていたのでございます。<br/><br/>又神様の実在を信ぜず、三十有余年よくも生きながらえて来られたものと深く感じお詫びせずにはいられません。<br/><br/> このように過去を顧み、感激に浸る事が出来ますのも、明主様のお蔭でございます。<br/><br/>この宏大無辺なる御神恩の万分の一にもお報いさせて頂き、地上天国御建説の御聖業に、少しでもお使い頂けますようお念じ致しております。<br/><br/> 明主様誠に有難う御座いました。<br/><br/> （昭和二十六年十一月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

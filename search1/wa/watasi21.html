@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi21</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の観た私 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『地上天国』6号、昭和24(1949)年7月20日発行 この題をみて読者は不思議に思うであろうが、順次読むに従ってなる程とうなずくであろう。<br><br> まず私というものほど不思議な存在はあるまい。<br><br>何となれば人類の歴史の上に私のような人間の記録はなかったからである。<br><br>この記事をかくにあたっては出来るだけ主観を避け、客観的にかくつもりであるから、そのつもりで読まれたいのである。<br><br> まず私の仕事からかいてみよう。<br><br>もちろん私の目的は人類救済にあるのであるから、一挙一動その線からはずれるはずはない。<br><br>そうして今、私の仕事の中で一番主力を注いでいるものは、紙へ文字を書く事である。<br><br>すなわち書である。<br><br>それは多くの信徒から乞わるるままに、出来るだけ満足を得させたいために努力している。<br><br>ところが信徒はそれをお守りとして首にかけ、懐に入れ、病者に向かって数尺隔たった場所から掌をかざし霊の放射を行うのである。<br><br>これによって例外なく病苦は軽減する。<br><br>しかも難病として数人の博士から見離され、死に瀕した病者が入信数力月経た信徒によって治癒され、健康人となって再び社会生活を営むようになるのである。<br><br>このような例は日々無数に上っている。<br><br>この起死回生的奇蹟を眼の前に見たる限りの人は、驚歎するのは無理はあるまい。<br><br>実に古往今来何人といえども不可能とされていた人間生命の延長が可能となる事である。<br><br>恐らくこれは世界の大問題であろう。<br><br>このように救われた者の感謝感激は日々数知れない程で、その報告や礼状が机上に山を成すのである。<br><br>私はそれは読む毎に、眼頭が何度熱くなるかしれない。<br><br>そればかりではない。<br><br>お守を懐に入れて掌をかざす、この方法を浄霊と名づけているが、この浄霊によって今や戸を開けんとする盗賊を逃走さしたり、中には断崖から落ちた者、汽車、電車に跳ね飛ばされた者、車に轢かれたりした者が、何らの疵もなく生命が助かったり、また火災を免れたりする等々の例は枚挙にいとまがない程である。<br><br>特に農業についての奇蹟である。<br><br>今や枯れなんとする麦畑が浄霊によって復活したり、浄霊によって虫害を免れ、例外なく増産の成果を挙げ、獣医から死と断定された馬や牛が蘇るというような例もすくなくないのである。<br><br>その他貧困者が貧苦から解放され、陰欝な家庭が明朗化するというように、お守を懐へ入れる刹那から運命の好転が始まるのである。<br><br>これら無数の奇蹟は光新聞や雑誌『地上天国』に掲載されているから、一読すれば想い半ばに過ぎるであろう。<br><br>昔から大聖者、大宗教家の事蹟を見ても一人対一人の病患を救い得た奇蹟はある。<br><br>またその宗教に帰依し、御利益によって治病された例も取次者が治病の力を表わした例もあるにはあったが、今私によって行われる取次者の浄霊の顕著な力とは恐らく比較にならない程の異（ちが）いさがあろう。<br><br> こういう事がある、私が書いた文字を見ていると、その文字通りの形が光となって無数に分散、空間に躍動するという事で、これは常に多くの人から聞くところである。<br><br>また私の腹中に小さいゴム鞠くらいの光の玉を見る人もある。<br><br>私の掌から光が出るのを見た人も多数ある。<br><br>この光の玉から光波となって噴出した状態が写真に映った事もあり、この玉の光が部屋一ぱいに拡充した状態も写真に映った事もある。<br><br> 私は毎日一時間を定めて数百の信徒に面会している。<br><br>前もって信徒に対し、いかなる難問、疑問でも質問せよと言ってあるので、多い時は右の一時間内に質問数十に及ぶ事さえあるが、私は答え得ない質疑はほとんどないと言ってもいい。<br><br>もちろん毎日異なった質問である。<br><br>しかし私の知らない事もたまにはあるが、その質問にむかうや、即時その答が頭脳に閃き、口を突いて出て来る。<br><br>それによって私が私に教わるという奇現象もある。<br><br> 次に信徒でない第三者は、私の生活を豪奢だとよくいう。<br><br>今日の物質不足を見ては無理もないが、私としても何もそのような生活を欲した事はないが、何にしろお蔭を蒙（こうむ）った多くの信徒が、感謝の印としてあらゆる物質を献上して来るので、その誠を出来るだけ汲みとるべく努めている。<br><br>金銭においても、救業に必要な場合は必要だけ自然に集ってくるから不思議である。<br><br>教線は日に月に進展しつつある状況は信徒諸君の見らるる通りである。<br><br>このような訳で一切は私の意図の下に、私がやっているのではなく神の意図の下に、神が私を自由自在に駆使しているという訳である。<br><br>いわば私というものは、神の操り人形に過ぎないと思っている。<br><br>であるから、この次には神は私にどういう事をさせるのかと思って、興味深く私は私をみつめているという世にも不思議な事実である。<br><br> また私の行っている諸々の業と、それに伴う趣味である。<br><br>趣味の多い事もまずあまり例はあるまい、それを以下かいてみよう。<br><br> 私は宗教家である事は言うまでもないが、実は宗教家とは思われない。<br><br>では何かというと少々変な言い方ではあるが、救世業者とでも言う方がピッタリするように思う。<br><br>そうして私の多くの弟子は、日々無数の人を救い奇蹟を表わすので、彼らは生神様のように尊敬されるという事をよく聞くので、「それでは私は生神製造業者という訳になる」と大笑いする事がある。<br><br> 私は絵を描き、書もかき、歌も作り、川柳も作り、書籍を著わし、小説も歌詞も、雑誌も新聞の原稿も書き編輯（へんしゅう）もしている。<br><br>また地上天国の小模型を造る目的をもって、私の設計監督の下に建築、庭園、花卉栽培、室内装飾、農作等もやっている。<br><br>箱根強羅の神苑を見た者はうなずくであろう。<br><br> 次に私の趣味である。<br><br>美術を好み、新古を問わず、優れた芸術家の作品を鑑賞する事は十四五歳頃より今日に至るも変らない。<br><br>その他音楽においても日本西洋の両方に趣味を持ち、一家中私が一番多くラジオを聴くのである。<br><br>特に政治、経済、教育、哲学、文学、社会問題等にも興味を持ち、常に研究を怠らないので、これらの薀蓄（うんちく）は順次著書をもって発表するつもりである。<br><br> これを要するに、私というものを職業別にすれば宗教家、政治、経済、教育の研究家、文筆家、文明批評家、特殊医学者、歌人、画家、書家、建築設計家、造園業者、農業者、美術音楽批評家等々実に多彩である。<br><br> 千手観音は手が四十本あって、一本の御手が二十五種の働きをされ、合計千本の御手によってあらゆる救いをなされるというから、私は千手観音の働きを神様からさせられているのではないかと常に思っている。<br><br>いまだ種々書きたい事もあるが、余り長くなるから後は読者の想像に任せて筆を擱（お）く事とする。<br><br> 以上が私の観た私の実体である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Eu que Vi (Reedição)</h2>
 <p>Ao lerem este título, os leitores porventura se surpreenderão; contudo, à medida que avançarem na leitura, certamente assentirão em concordância.</p>
@@ -108,5 +458,48 @@ function toggleLang(lang) {
 <p>Em suma, se fôssemos categorizar minhas atividades por profissão, eu seria religioso, pesquisador de política, economia e educação, escritor, crítico da civilização, médico especialista, poeta, pintor, calígrafo, arquiteto, paisagista, agricultor, crítico de arte e música, entre muitas outras. É, de fato, uma gama multifacetada.</p>
 <p>Dizem que Kannon (観音) de Mil Braços possui quarenta braços, e que cada um deles realiza vinte e cinco tipos de trabalhos, totalizando mil formas de salvar a humanidade. Por isso, penso constantemente que talvez Deus esteja me fazendo realizar a obra de uma Kannon (観音) de Mil Braços. Ainda haveria muito a escrever, mas, para não me estender demasiadamente, deixarei o restante à imaginação dos leitores e porei fim a este texto.</p>
 <p>O que descrevi acima é a realidade do eu que vi.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の観た私 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『地上天国』6号、昭和24(1949)年7月20日発行 この題をみて読者は不思議に思うであろうが、順次読むに従ってなる程とうなずくであろう。<br/><br/> まず私というものほど不思議な存在はあるまい。<br/><br/>何となれば人類の歴史の上に私のような人間の記録はなかったからである。<br/><br/>この記事をかくにあたっては出来るだけ主観を避け、客観的にかくつもりであるから、そのつもりで読まれたいのである。<br/><br/> まず私の仕事からかいてみよう。<br/><br/>もちろん私の目的は人類救済にあるのであるから、一挙一動その線からはずれるはずはない。<br/><br/>そうして今、私の仕事の中で一番主力を注いでいるものは、紙へ文字を書く事である。<br/><br/>すなわち書である。<br/><br/>それは多くの信徒から乞わるるままに、出来るだけ満足を得させたいために努力している。<br/><br/>ところが信徒はそれをお守りとして首にかけ、懐に入れ、病者に向かって数尺隔たった場所から掌をかざし霊の放射を行うのである。<br/><br/>これによって例外なく病苦は軽減する。<br/><br/>しかも難病として数人の博士から見離され、死に瀕した病者が入信数力月経た信徒によって治癒され、健康人となって再び社会生活を営むようになるのである。<br/><br/>このような例は日々無数に上っている。<br/><br/>この起死回生的奇蹟を眼の前に見たる限りの人は、驚歎するのは無理はあるまい。<br/><br/>実に古往今来何人といえども不可能とされていた人間生命の延長が可能となる事である。<br/><br/>恐らくこれは世界の大問題であろう。<br/><br/>このように救われた者の感謝感激は日々数知れない程で、その報告や礼状が机上に山を成すのである。<br/><br/>私はそれは読む毎に、眼頭が何度熱くなるかしれない。<br/><br/>そればかりではない。<br/><br/>お守を懐に入れて掌をかざす、この方法を浄霊と名づけているが、この浄霊によって今や戸を開けんとする盗賊を逃走さしたり、中には断崖から落ちた者、汽車、電車に跳ね飛ばされた者、車に轢かれたりした者が、何らの疵もなく生命が助かったり、また火災を免れたりする等々の例は枚挙にいとまがない程である。<br/><br/>特に農業についての奇蹟である。<br/><br/>今や枯れなんとする麦畑が浄霊によって復活したり、浄霊によって虫害を免れ、例外なく増産の成果を挙げ、獣医から死と断定された馬や牛が蘇るというような例もすくなくないのである。<br/><br/>その他貧困者が貧苦から解放され、陰欝な家庭が明朗化するというように、お守を懐へ入れる刹那から運命の好転が始まるのである。<br/><br/>これら無数の奇蹟は光新聞や雑誌『地上天国』に掲載されているから、一読すれば想い半ばに過ぎるであろう。<br/><br/>昔から大聖者、大宗教家の事蹟を見ても一人対一人の病患を救い得た奇蹟はある。<br/><br/>またその宗教に帰依し、御利益によって治病された例も取次者が治病の力を表わした例もあるにはあったが、今私によって行われる取次者の浄霊の顕著な力とは恐らく比較にならない程の異（ちが）いさがあろう。<br/><br/> こういう事がある、私が書いた文字を見ていると、その文字通りの形が光となって無数に分散、空間に躍動するという事で、これは常に多くの人から聞くところである。<br/><br/>また私の腹中に小さいゴム鞠くらいの光の玉を見る人もある。<br/><br/>私の掌から光が出るのを見た人も多数ある。<br/><br/>この光の玉から光波となって噴出した状態が写真に映った事もあり、この玉の光が部屋一ぱいに拡充した状態も写真に映った事もある。<br/><br/> 私は毎日一時間を定めて数百の信徒に面会している。<br/><br/>前もって信徒に対し、いかなる難問、疑問でも質問せよと言ってあるので、多い時は右の一時間内に質問数十に及ぶ事さえあるが、私は答え得ない質疑はほとんどないと言ってもいい。<br/><br/>もちろん毎日異なった質問である。<br/><br/>しかし私の知らない事もたまにはあるが、その質問にむかうや、即時その答が頭脳に閃き、口を突いて出て来る。<br/><br/>それによって私が私に教わるという奇現象もある。<br/><br/> 次に信徒でない第三者は、私の生活を豪奢だとよくいう。<br/><br/>今日の物質不足を見ては無理もないが、私としても何もそのような生活を欲した事はないが、何にしろお蔭を蒙（こうむ）った多くの信徒が、感謝の印としてあらゆる物質を献上して来るので、その誠を出来るだけ汲みとるべく努めている。<br/><br/>金銭においても、救業に必要な場合は必要だけ自然に集ってくるから不思議である。<br/><br/>教線は日に月に進展しつつある状況は信徒諸君の見らるる通りである。<br/><br/>このような訳で一切は私の意図の下に、私がやっているのではなく神の意図の下に、神が私を自由自在に駆使しているという訳である。<br/><br/>いわば私というものは、神の操り人形に過ぎないと思っている。<br/><br/>であるから、この次には神は私にどういう事をさせるのかと思って、興味深く私は私をみつめているという世にも不思議な事実である。<br/><br/> また私の行っている諸々の業と、それに伴う趣味である。<br/><br/>趣味の多い事もまずあまり例はあるまい、それを以下かいてみよう。<br/><br/> 私は宗教家である事は言うまでもないが、実は宗教家とは思われない。<br/><br/>では何かというと少々変な言い方ではあるが、救世業者とでも言う方がピッタリするように思う。<br/><br/>そうして私の多くの弟子は、日々無数の人を救い奇蹟を表わすので、彼らは生神様のように尊敬されるという事をよく聞くので、「それでは私は生神製造業者という訳になる」と大笑いする事がある。<br/><br/> 私は絵を描き、書もかき、歌も作り、川柳も作り、書籍を著わし、小説も歌詞も、雑誌も新聞の原稿も書き編輯（へんしゅう）もしている。<br/><br/>また地上天国の小模型を造る目的をもって、私の設計監督の下に建築、庭園、花卉栽培、室内装飾、農作等もやっている。<br/><br/>箱根強羅の神苑を見た者はうなずくであろう。<br/><br/> 次に私の趣味である。<br/><br/>美術を好み、新古を問わず、優れた芸術家の作品を鑑賞する事は十四五歳頃より今日に至るも変らない。<br/><br/>その他音楽においても日本西洋の両方に趣味を持ち、一家中私が一番多くラジオを聴くのである。<br/><br/>特に政治、経済、教育、哲学、文学、社会問題等にも興味を持ち、常に研究を怠らないので、これらの薀蓄（うんちく）は順次著書をもって発表するつもりである。<br/><br/> これを要するに、私というものを職業別にすれば宗教家、政治、経済、教育の研究家、文筆家、文明批評家、特殊医学者、歌人、画家、書家、建築設計家、造園業者、農業者、美術音楽批評家等々実に多彩である。<br/><br/> 千手観音は手が四十本あって、一本の御手が二十五種の働きをされ、合計千本の御手によってあらゆる救いをなされるというから、私は千手観音の働きを神様からさせられているのではないかと常に思っている。<br/><br/>いまだ種々書きたい事もあるが、余り長くなるから後は読者の想像に任せて筆を擱（お）く事とする。<br/><br/> 以上が私の観た私の実体である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

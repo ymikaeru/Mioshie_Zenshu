@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku80</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は迷信なり 医学関 係 御論文集『医学革命の書』執筆日不明、推定昭和28(1953)年 序文にもある通り現代医学がいかに誤っているかをこれから種々の例を挙げて説明してみるが、まず誰しも病気に罹るや早速医師に診て貰う。<br><br>医師は一通り診察をして簡単に病症を言い、投薬注射等を行うがそれで治る事もあり、治らない事もあるのは誰も知る通りである。<br><br>ところがこの場合診断の方法としては程々の機械を用いておよその見当をつけるが、これは病気として表面に表われただけの説明であって、その内容も真の病原が分らずに治療するのであるから、思うように治らないのは医師もよく知っているはずであるどころか、医師自身は長年月かかって専門の教育を受け卒業後も相当実地経験を経た事とて分ったつもりでいるが、実地にぶっつかってみると余りに学理と異（ちが）う点が多いのでその悩みは一通りではない。<br><br>そこで思う事は、医学は未だそこまで進歩していないから、止むを得ないが、しかし世界中の学者の絶えざる研究努力によって徐々として解決されるに違いないからその時まで待つより仕方ないと諦めているのが現状であろう。<br><br>それと共に患者の方でも、病気になったら、医療で治るものと子供の時から教育されており、しかも医学の進歩を種々の道具立てで固く信じさせられている以上たまたまその誤りを吾々が話しても信じないのも無理はない。<br><br>しかしたとえ医療で治ってもそれは一時的で、全治でないから必ず再発するか、または形を変えた他の病気となって起るのは勿論で、治った安心がいつも裏切られるのは誰も知る通りである。<br><br>その証拠には、病家といって町医師などは、必ず常得意をもっている。<br><br>もし本当に治ったとしたら、それで済んでしまい、その先は御用無しになるから縁が切れてしまうはずである。<br><br>また医学で本当に病気が治るものなら、医師の家庭に限って病人はないはずである。<br><br>またよく言われる、手後れなど実はあるものでないので、これは病院の看護婦などもそうで、しかも治療設備も至れり尽せりであるにおいてをやである。<br><br>ところが実際は医師の家族も病院の看護婦も一般人よりも病気に罹り易い事実はどういう訳であるかである。<br><br>また医学博士などは最も長命であるはずなのに、統計上他の博士よりも早死と言われている。<br><br>そうしてこれも分らない話の一つだが、よく医師は病人に対って“あなたの苦痛は神経のためで、これという病気はない”といって済ましているが、もしそれが本当だとしたら、病気のないのに苦痛を感ずる神経としたら、その神経が大いに病気に罹っている訳である。<br><br>故にそれを治すべきではないか、 また“あなたの病気は重いから入院しなければならない”というので“では入院すれば必ず治るか”と訊くと“それは請合えない”という答などもよく聞くが、これほど理屈に合わない話はあるまい。<br><br>察するにこれらは患者を研究材料にする目的ではないかと思うが、患者こそ好い災難である。<br><br>それからこういう事もよく聞く、“あなたの病気は万人に一人しかない程のものだから治らないのだ”という言葉も一種の遁辞としか思えない。<br><br>また原因を訊かれても適切な返事の出来ないのは医師もよく知っているであろう。<br><br>その殆んどは御座なり的で曖昧極まるものである。<br><br>それと同じようによくラジオや新聞にある質疑応答などもそうだ。<br><br>断定的の答は殆んどない。<br><br>特に馬鹿々々しいのはよく“専門医に診て貰いなさい”というが訊き手は専門医に散々かかって治らないから訊くのである。<br><br>その点医師は百も承知であるが、答に窮したための逃口上であろう。<br><br>その他こういう事もある。<br><br>“あなたの病気は正しい医師に診て貰え”“正しい療法を受けなさい”などというが、もしそうだとすれば、正しくない医師も正しくない治療もある訳である。<br><br>しかし実際素人である患者にその正不正の判別は分るはずがないではないか、もしそれが本当だとすればおかしな事になる。<br><br>それは今まで有名な博士や大病院で散々治療を受けても治らなかったのはつまり正しくない医師に掛かり、正しくない治療を受けていた訳であるというように、何もかも、一時逃れとしか思えない。<br><br>また医師の言葉もそうである。<br><br>例えばその薬なら、その療法なら必ず治るとは言わない。<br><br>治るはずだとか、治る事になっている。<br><br>学理上そうでなくてはならない、そう言われている。<br><br>まだ医学はそこまで進歩していない。<br><br>まだ分っていない、それでいい訳だ、そんな訳はないなどは誰も知っているであろう。<br><br> 酷いのになるとこういう事も聞く“あなたのように、医師ばかり頼っては困る。<br><br>自分でも治すようにしなければいけないというに至っては噴飯物である。<br><br>以上によってみても現代医学の程度はほぼ分ったであろう。<br><br> このような幼稚極まる医学の実体を専門家も一般人も看破する事が出来ず、病気は医師と薬というように、これが常識となっているのであるから、全く世紀の謎である。<br><br>故に医師に掛かりながらどんなに悪化しようが苦しもうが疑うどころか、死んでしまっても目が醒めず運命と諦めているのだから、よくもこれほどまでに科学の魔術にかかってしまったものと驚かぎるを得ないのである。<br><br>この医学迷信に比べたら、宗教迷信などは物の数ではない。<br><br>ではこれほどの迷信は何によって作り上げられたかというその真相を次説明してみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superstição da Medicina Moderna</h2>
 <p>Conforme mencionei no prefácio, passarei a expor, por meio de diversos exemplos, quão equivocada é a medicina moderna. Primeiramente, quando alguém adoece, a primeira atitude é procurar imediatamente um médico. Este, após um exame geral, descreve de forma sucinta os sintomas e prescreve medicamentos, injeções e outros procedimentos. Como todos sabem, por vezes o paciente se recupera; em outras, não.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Os exemplos citados até aqui devem ser suficientes para demonstrar o estado primitivo da medicina moderna. No entanto, nem os especialistas nem o público em geral conseguem enxergar essa realidade. A ideia de que “doença se trata com médicos e remédios” tornou-se um dogma, um verdadeiro enigma do nosso século.</p>
 <p>Por essa razão, mesmo que seu estado se agrave ou que sofram terrivelmente sob cuidados médicos, os pacientes não questionam o sistema. Ao contrário, quando a morte chega, não despertam para a verdade, mas se resignam, atribuindo o desfecho ao destino. É espantoso constatar até que ponto as pessoas foram capturadas pela magia da ciência. Comparada a essa superstição médica, a chamada superstição religiosa não é nada.</p>
 <p>A seguir, explicarei como essa colossal crendice foi construída.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は迷信なり 医学関 係 御論文集『医学革命の書』執筆日不明、推定昭和28(1953)年 序文にもある通り現代医学がいかに誤っているかをこれから種々の例を挙げて説明してみるが、まず誰しも病気に罹るや早速医師に診て貰う。<br/><br/>医師は一通り診察をして簡単に病症を言い、投薬注射等を行うがそれで治る事もあり、治らない事もあるのは誰も知る通りである。<br/><br/>ところがこの場合診断の方法としては程々の機械を用いておよその見当をつけるが、これは病気として表面に表われただけの説明であって、その内容も真の病原が分らずに治療するのであるから、思うように治らないのは医師もよく知っているはずであるどころか、医師自身は長年月かかって専門の教育を受け卒業後も相当実地経験を経た事とて分ったつもりでいるが、実地にぶっつかってみると余りに学理と異（ちが）う点が多いのでその悩みは一通りではない。<br/><br/>そこで思う事は、医学は未だそこまで進歩していないから、止むを得ないが、しかし世界中の学者の絶えざる研究努力によって徐々として解決されるに違いないからその時まで待つより仕方ないと諦めているのが現状であろう。<br/><br/>それと共に患者の方でも、病気になったら、医療で治るものと子供の時から教育されており、しかも医学の進歩を種々の道具立てで固く信じさせられている以上たまたまその誤りを吾々が話しても信じないのも無理はない。<br/><br/>しかしたとえ医療で治ってもそれは一時的で、全治でないから必ず再発するか、または形を変えた他の病気となって起るのは勿論で、治った安心がいつも裏切られるのは誰も知る通りである。<br/><br/>その証拠には、病家といって町医師などは、必ず常得意をもっている。<br/><br/>もし本当に治ったとしたら、それで済んでしまい、その先は御用無しになるから縁が切れてしまうはずである。<br/><br/>また医学で本当に病気が治るものなら、医師の家庭に限って病人はないはずである。<br/><br/>またよく言われる、手後れなど実はあるものでないので、これは病院の看護婦などもそうで、しかも治療設備も至れり尽せりであるにおいてをやである。<br/><br/>ところが実際は医師の家族も病院の看護婦も一般人よりも病気に罹り易い事実はどういう訳であるかである。<br/><br/>また医学博士などは最も長命であるはずなのに、統計上他の博士よりも早死と言われている。<br/><br/>そうしてこれも分らない話の一つだが、よく医師は病人に対って“あなたの苦痛は神経のためで、これという病気はない”といって済ましているが、もしそれが本当だとしたら、病気のないのに苦痛を感ずる神経としたら、その神経が大いに病気に罹っている訳である。<br/><br/>故にそれを治すべきではないか、 また“あなたの病気は重いから入院しなければならない”というので“では入院すれば必ず治るか”と訊くと“それは請合えない”という答などもよく聞くが、これほど理屈に合わない話はあるまい。<br/><br/>察するにこれらは患者を研究材料にする目的ではないかと思うが、患者こそ好い災難である。<br/><br/>それからこういう事もよく聞く、“あなたの病気は万人に一人しかない程のものだから治らないのだ”という言葉も一種の遁辞としか思えない。<br/><br/>また原因を訊かれても適切な返事の出来ないのは医師もよく知っているであろう。<br/><br/>その殆んどは御座なり的で曖昧極まるものである。<br/><br/>それと同じようによくラジオや新聞にある質疑応答などもそうだ。<br/><br/>断定的の答は殆んどない。<br/><br/>特に馬鹿々々しいのはよく“専門医に診て貰いなさい”というが訊き手は専門医に散々かかって治らないから訊くのである。<br/><br/>その点医師は百も承知であるが、答に窮したための逃口上であろう。<br/><br/>その他こういう事もある。<br/><br/>“あなたの病気は正しい医師に診て貰え”“正しい療法を受けなさい”などというが、もしそうだとすれば、正しくない医師も正しくない治療もある訳である。<br/><br/>しかし実際素人である患者にその正不正の判別は分るはずがないではないか、もしそれが本当だとすればおかしな事になる。<br/><br/>それは今まで有名な博士や大病院で散々治療を受けても治らなかったのはつまり正しくない医師に掛かり、正しくない治療を受けていた訳であるというように、何もかも、一時逃れとしか思えない。<br/><br/>また医師の言葉もそうである。<br/><br/>例えばその薬なら、その療法なら必ず治るとは言わない。<br/><br/>治るはずだとか、治る事になっている。<br/><br/>学理上そうでなくてはならない、そう言われている。<br/><br/>まだ医学はそこまで進歩していない。<br/><br/>まだ分っていない、それでいい訳だ、そんな訳はないなどは誰も知っているであろう。<br/><br/> 酷いのになるとこういう事も聞く“あなたのように、医師ばかり頼っては困る。<br/><br/>自分でも治すようにしなければいけないというに至っては噴飯物である。<br/><br/>以上によってみても現代医学の程度はほぼ分ったであろう。<br/><br/> このような幼稚極まる医学の実体を専門家も一般人も看破する事が出来ず、病気は医師と薬というように、これが常識となっているのであるから、全く世紀の謎である。<br/><br/>故に医師に掛かりながらどんなに悪化しようが苦しもうが疑うどころか、死んでしまっても目が醒めず運命と諦めているのだから、よくもこれほどまでに科学の魔術にかかってしまったものと驚かぎるを得ないのである。<br/><br/>この医学迷信に比べたら、宗教迷信などは物の数ではない。<br/><br/>ではこれほどの迷信は何によって作り上げられたかというその真相を次説明してみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

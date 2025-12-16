@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 『救世』65号、昭和25(1950)年6月3日発行 奇蹟偶然にあらず 霊界に根源がある 愛知県 五六七大教会春陽中教会 天野たね（38） 余りの有難さに何から書き始めたらよいか判りません。<br><br>私は三人の子持ですが二人とも（六歳と八歳）大変体が弱く、熱を出したりおなかをこわしたりしどうしでございました。<br><br>又主人が戦死致してから私には心配事のたえまがありませんでした。<br><br>一昨年の正月の頃から私は頭が痛くなり、医師に診てもらいそして色々な手当を受けましたが一向に治らないばかりか段々食事がとれなくなって衰弱してゆきました。<br><br> 毎日頭が痛んで仕事は何も出来ませず人と話をするのも煩わしく外へ出て歩くのも本を読むのもいやで、又寝ていることもいやでしたので家の中で座って一日中じっとしていました。<br><br>その内三月の終頃に夢をみました。<br><br>「薬は止めなさい、止めないと益々衰弱するばかりだ」といった夢でしたので何しろ服んでいても治らないのだからと思って止めました。<br><br>ところが薬の中に睡眠薬が入れてあったのでしようか、薬を止めてからは毎夜眠られませんでした。<br><br>それから灸がよいとの話に二十日間ばかり続けましたが、あついばかりで一向にききめがありませんでした。<br><br>又夢で光明如来様を信仰せよと聞かされました。<br><br>今度の夢といいこの前の夢といいきっと神様のお告げに違いないと早速光明如来様の信仰をしようと思いましたがどうしてよいかわかりません。<br><br>すると四、五日経って友達からこの有難い光明如来様の事を聞かされました。<br><br> 不思議な事もあればあるものと思いその方の浄霊を受けますと頭の中から頼を伝って口にふき出て来るような気持がして生つばがどんどん口にたまって来るのです。<br><br>その方に二回ばかり浄霊して頂いてからこのお力を頂きたく思って半田の近澤先生のお宅へつれていって頂きました。<br><br>一里余りある先生のお宅まで歩いて行きました。<br><br>その日は丁度五月五日で教会は休みでしたが、先生は色々と親切に教えて下さいまして浄霊もして下さいました。<br><br>その帰りは不思議な位体が軽く、何度も休んで来た道を一回も休まずに帰る事が出来ました。<br><br>先生が「じっとしていないで動かれたら動いた方がよいのです」とおっしゃいましたので私はその日からお勝手をするようになりました。<br><br>一日おきに先生の所へお伺いして浄霊を受けました。<br><br>四、五日しますと段々気分が良くなって自転車に乗れるようになりました。<br><br> 六月に入りますと農家も忙しくなって参ります。<br><br>先生が「御用をする人は神様が救って下さいます」とおっしゃられましたので農事をしながら皆さんに光明如来様の有難い事をお話して浄霊をしてあげました。<br><br>田植でも麦刈でもどんな仕事も平気で出来ましたが、仕事をするようになってからも一週間に一回は浄霊を受けないとたまって来るような気がし気持が悪いのでした。<br><br>妹もお力を頂いて毎日浄霊してくれました。<br><br>農事を終ってから夜家中で浄霊をかかさずやっています。<br><br> お蔭様で子供もいつの間にか健康になり人々から羨まれています。<br><br>大光明如来様をお迎えさせて頂き家内五人文字通り光明一家にならせて頂けました。<br><br>家で「私達は本当に幸せだね」と語り合って心から喜びの日を過しているのでございます。<br><br> 一年前の私の身体を思いますと今の身を勿体ない程有難く存じます。<br><br> 観音の 御救ひなくば吾は今 底なき沼に 悩みつづけむ この御歌を読ませて頂き胸一ぱいでございます。<br><br>その他体の御利益ばかりでなく農作物も無肥料で作らせて頂き野菜なども大そう美味しいのを頂いています。<br><br>又昨年は麦を無肥料でやらせて頂きましたが、他の麦とちがって実が重そうにたれ下っています、格別の差のある事は確実です。<br><br>素晴しい結果が表われるだろうと楽しみにしています。<br><br>光明如来様に救って頂きました私は今及ばずながら 近澤先生の御指導のもとに尊い御仕事のお手伝いをさせて頂いているのでございます。<br><br> 讃へても 称へ尽せぬ御恵に 酬はむ術の なきぞ悲しき ほんとうにこの御歌のままの心境でございます。<br><br> この人は、夢によって入信されたのである、これは誰しも不思議に思うであろうが、不思議でも何でもない、祖霊が子孫を救い、自分も救われたいため、色々の手段をもって、入信さしたのである、というのは、霊界では本教より他に本当に救いの力ある宗教は、ないからである、これによってみても、現界の人間より霊界の祖霊の方が、先へ認識するのである、これでみても奇蹟というものは、偶然ではなく、霊界に根源がある事を知るであろう。<br><br> 本教発展の原因は霊界における祖霊の活躍によるためも大いにあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre Não é Acaso, Sua Origem Reside no Mundo Espiritual</h2>
 <p>É tamanha a minha gratidão que não sei por onde começar a relatar. Sou mãe de três filhos, dos quais dois, de seis e oito anos, possuíam uma saúde extremamente frágil, sofrendo constantemente com febres e distúrbios intestinais. Ademais, desde que meu marido pereceu na guerra, as preocupações tornaram-se uma constante em minha vida.</p>
@@ -116,5 +268,48 @@ De retribuir tamanha graça.</p>
 <p>O ingresso desta pessoa na fé ocorreu por intermédio de sonhos. Para alguns, tal fato pode parecer extraordinário, mas não há nele mistério algum. Trata-se da atuação dos antepassados que, no anseio de salvar seus descendentes e, consequentemente, a si próprios, utilizam-se de diversos meios para conduzi-los à nossa Doutrina. Isso ocorre porque, no Mundo Espiritual, tem-se a clara consciência de que não existe outra religião com verdadeiro poder de salvação.</p>
 <p>Fica evidente, portanto, que os espíritos de nossos antepassados alcançam esse discernimento muito antes dos seres humanos que vivem no plano material. Por meio deste relato, compreende-se que os milagres não são meros acasos, mas fenômenos cuja raiz se encontra no Mundo Espiritual.</p>
 <p>Uma das grandes razões para a expansão de nossa Fé reside, precisamente, na intensa atuação dos antepassados no plano espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 『救世』65号、昭和25(1950)年6月3日発行 奇蹟偶然にあらず 霊界に根源がある 愛知県 五六七大教会春陽中教会 天野たね（38） 余りの有難さに何から書き始めたらよいか判りません。<br/><br/>私は三人の子持ですが二人とも（六歳と八歳）大変体が弱く、熱を出したりおなかをこわしたりしどうしでございました。<br/><br/>又主人が戦死致してから私には心配事のたえまがありませんでした。<br/><br/>一昨年の正月の頃から私は頭が痛くなり、医師に診てもらいそして色々な手当を受けましたが一向に治らないばかりか段々食事がとれなくなって衰弱してゆきました。<br/><br/> 毎日頭が痛んで仕事は何も出来ませず人と話をするのも煩わしく外へ出て歩くのも本を読むのもいやで、又寝ていることもいやでしたので家の中で座って一日中じっとしていました。<br/><br/>その内三月の終頃に夢をみました。<br/><br/>「薬は止めなさい、止めないと益々衰弱するばかりだ」といった夢でしたので何しろ服んでいても治らないのだからと思って止めました。<br/><br/>ところが薬の中に睡眠薬が入れてあったのでしようか、薬を止めてからは毎夜眠られませんでした。<br/><br/>それから灸がよいとの話に二十日間ばかり続けましたが、あついばかりで一向にききめがありませんでした。<br/><br/>又夢で光明如来様を信仰せよと聞かされました。<br/><br/>今度の夢といいこの前の夢といいきっと神様のお告げに違いないと早速光明如来様の信仰をしようと思いましたがどうしてよいかわかりません。<br/><br/>すると四、五日経って友達からこの有難い光明如来様の事を聞かされました。<br/><br/> 不思議な事もあればあるものと思いその方の浄霊を受けますと頭の中から頼を伝って口にふき出て来るような気持がして生つばがどんどん口にたまって来るのです。<br/><br/>その方に二回ばかり浄霊して頂いてからこのお力を頂きたく思って半田の近澤先生のお宅へつれていって頂きました。<br/><br/>一里余りある先生のお宅まで歩いて行きました。<br/><br/>その日は丁度五月五日で教会は休みでしたが、先生は色々と親切に教えて下さいまして浄霊もして下さいました。<br/><br/>その帰りは不思議な位体が軽く、何度も休んで来た道を一回も休まずに帰る事が出来ました。<br/><br/>先生が「じっとしていないで動かれたら動いた方がよいのです」とおっしゃいましたので私はその日からお勝手をするようになりました。<br/><br/>一日おきに先生の所へお伺いして浄霊を受けました。<br/><br/>四、五日しますと段々気分が良くなって自転車に乗れるようになりました。<br/><br/> 六月に入りますと農家も忙しくなって参ります。<br/><br/>先生が「御用をする人は神様が救って下さいます」とおっしゃられましたので農事をしながら皆さんに光明如来様の有難い事をお話して浄霊をしてあげました。<br/><br/>田植でも麦刈でもどんな仕事も平気で出来ましたが、仕事をするようになってからも一週間に一回は浄霊を受けないとたまって来るような気がし気持が悪いのでした。<br/><br/>妹もお力を頂いて毎日浄霊してくれました。<br/><br/>農事を終ってから夜家中で浄霊をかかさずやっています。<br/><br/> お蔭様で子供もいつの間にか健康になり人々から羨まれています。<br/><br/>大光明如来様をお迎えさせて頂き家内五人文字通り光明一家にならせて頂けました。<br/><br/>家で「私達は本当に幸せだね」と語り合って心から喜びの日を過しているのでございます。<br/><br/> 一年前の私の身体を思いますと今の身を勿体ない程有難く存じます。<br/><br/> 観音の 御救ひなくば吾は今 底なき沼に 悩みつづけむ この御歌を読ませて頂き胸一ぱいでございます。<br/><br/>その他体の御利益ばかりでなく農作物も無肥料で作らせて頂き野菜なども大そう美味しいのを頂いています。<br/><br/>又昨年は麦を無肥料でやらせて頂きましたが、他の麦とちがって実が重そうにたれ下っています、格別の差のある事は確実です。<br/><br/>素晴しい結果が表われるだろうと楽しみにしています。<br/><br/>光明如来様に救って頂きました私は今及ばずながら 近澤先生の御指導のもとに尊い御仕事のお手伝いをさせて頂いているのでございます。<br/><br/> 讃へても 称へ尽せぬ御恵に 酬はむ術の なきぞ悲しき ほんとうにこの御歌のままの心境でございます。<br/><br/> この人は、夢によって入信されたのである、これは誰しも不思議に思うであろうが、不思議でも何でもない、祖霊が子孫を救い、自分も救われたいため、色々の手段をもって、入信さしたのである、というのは、霊界では本教より他に本当に救いの力ある宗教は、ないからである、これによってみても、現界の人間より霊界の祖霊の方が、先へ認識するのである、これでみても奇蹟というものは、偶然ではなく、霊界に根源がある事を知るであろう。<br/><br/> 本教発展の原因は霊界における祖霊の活躍によるためも大いにあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinko12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰の本筋 『栄光』114号、昭和26(1951)年7月25日発行 信仰は常に言うごとく、第一神様に御委せするという心持それが根本である。<br><br>だから徒（いたず）らに人間の解釈で、事を行ってもうまくゆくはずがないのである。<br><br>といっても正しい意味での努力が肝腎ではあるが、もちろん本教御主宰の大神様は、絶対の力をもって御守護下さるのだから、神様の思召（おぼしめし）にさえ叶えば、どんな御守護でも頂けられるのは当然である。<br><br>左のおかげ話は、まことにそれが如実に現われているので、いい例と思ってこの文を添えたのである。<br><br>何しろ病食争絶無の世界を御造りになるという神様であるから、万一思うようにゆかない場合は、よく反省して考えてみれば、必ずどこかにその原因のある事が覚り得るのである。<br><br> 貧のドン底より救われて 静岡県 真心中教会 徳永久美子（30） 昭和二十三年四月、入信させて頂きまして以来数え切れない御守護を賜り、毎日感謝の日を送っておりますが、ここにその一端を御報告させて頂きます。<br><br> 忘れも致しません、昨年九月の事で御座いました、ただでさえ苦しい生活を続けて参りました私共一家は、八月一カ月間、主人が大浄化の床にありました為全然収入の道はなく、一方支出は増すばかり、その上に滞って参りました税金の督促で御座います、何としても今月中に納付しなければ延滞金が付く、どうしても納付してもらいたい、との矢のような催促で御座います、私は全く途方に暮れてしまいました。<br><br> 内職（和裁）を致したいと思い知人の方々へお願い致してみましたが、ほとんど仕事は頂けず、身の廻りを見廻しても、売るべき何物も御座いません、万策尽きた私は、実家から拝借致したいと思い、主人にその旨相談致しました。<br><br> その時主人は「私達はこの至高絶対の神様にお縋りしているのに、このような状態になるとは私達に何か大きな間違があるのだよ、しかし、いくら考えてみても解らない、ただ一つ思い当る事は、私達は今まで御守護をお願いばかりしていて、努力というものが何もなかった事だ、親に心配をおかけする事はよくない、今日から二人で一生懸命努力しようではないか」と申します。<br><br>この主人の話を聞いております中に、暗黒に閉されていた私の心の中に、一筋の光が差込んで参りました。<br><br> 「そうだ、努力だ、努力して、お念じする所に初めて御守護も頂けるのだ」私は心の中にムクムクと盛上ってくる希望を感じつつ、その夜は寝に就きました、その翌日から実に思いもよらぬことが始まったので御座います、私達から何もお願いもしないのに、実家の父がお金を出して税金を済ませて下さいました、又近所から仕立物を頼みに持って来て下さいました、私は「この仕事は神様がお与え下さったお仕事なのだ、よし、徹夜してでも約束の日までに仕立上げよう」と決意し一生懸命に働きました、すると、その仕事の未だ済まない中に、次の仕事又次の仕事と本当に徹夜をしても作り切れない程の仕事が参ります、私は御神恩に感謝しつつも、時にはうれしい悲鳴を上げる事さえ御座いました。<br><br> その度毎に主人からは「仕事はどんなに忙しくなっても決して断ってはいけない。<br><br>皆神様がお前に出来るだけのものをお与え下さるのだから、お前一人で出来なければ人をお与え下さるだろう」と言っては励まして下さいました、ところがそれから一カ月程、順調に過ぎてゆきます中に、今度は仕事は相変らず沢山頂けますのに仕立代が中々頂けなくなってしまいました、「なぜだろうか、私は何もゼイタクや悪い事にそのお金を使おうと思っているのではない、主人の御布教の一助にでもと思っているのになぜお礼が頂けないのだろうか」私は思い悩みました、ある日御布教から帰って参りました主人が私の顔色をみて「何を考えているのか」と問いかけました、それで私は右の旨を答えました所、主人は「成程お前の考えている事は間違ってはいない、正しい事だ、お前は裁縫という仕事によって、御神業を蔭から御手助けさせて頂きたいと念願して一生懸命やっている、しかし、仕事をお与え下さるのも、お礼を頂けるのも、皆神様が人を使ってお与え下さるのだ、お前は与えられた仕事を一生懸命やってやってやり抜けばよいのだ、その先は神様がよいようにやって下さるから神様にお任せしておけば心配はないはずだ、そこまでとやかく思う事は神様の分にまで人力を出す事になり、それが我となり更に執着となるのではないか」と申しますが、私には納得がゆきませんでした。<br><br> 私は一晩考え明かしました、そして翌朝になって初めて、自分の考えていた事が知らず知らずの中に我となり、執着となっていたのに気がつき、御神前に額きお詫び申上げたので御座います、ところがその日、早朝の事今までいくらお願いしても、お礼の頂けなかったお宅からお礼と共に後の仕事をお届け下さいました、そしてそれに引続き、永続的な仕事も頂けるようになり次第に楽にさせて頂いております。<br><br> 最近では和裁見習の娘さんも三人程参っており、更に数人から依頼を受けております、以上の事実により私は不幸といぅものは御教にある通り、霊の曇りをとって頂く事、即ち霊的に向上する事により次第に解消されてゆくという事を知らせて頂きました。<br><br> それ以来、私の心の中には不安というものが蔭も形もなくなりました、毎日毎日がただうれしく楽しく思えるばかりで御座います。<br><br> 安心立命の境地とでも申しましょうか、本当に明主様の御教の有難さ、救世教に入信させて頂いた幸福さをしみじみと知らせて頂くと共に不幸な境遇に悲しい日を送っている人々に一日も早くかかる偉大なお道のある事をお知らせしてあげたい一念で御座います。<br><br> では明主様の御高恩に感泣して、これで拙い文を終らせて頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Fé</h2>
 <p>Conforme sempre elucido, o fundamento da fé reside no sentimento de entregar-se por completo a Deus. Portanto, é inútil conduzir as coisas segundo a vã interpretação humana, pois decerto não se obterá êxito. Isto não significa, contudo, que o esforço no seu sentido correto não seja crucial. Naturalmente, o Deus Supremo que rege nossa Igreja nos protege com Seu poder absoluto. Assim sendo, desde que estejamos em sintonia com Sua Vontade, é certo que poderemos receber toda e qualquer proteção.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Compreendo, do fundo da alma, a preciosidade dos Ensinamentos de Meishu-Sama e a imensa felicidade de ter sido admitida na Sekaikyuseikyou. Meu único desejo agora é levar ao conhecimento daqueles que sofrem em meio a circunstâncias adversas a existência deste Caminho grandioso, para que encontrem a salvação o mais breve possível.</p>
 <p>Comovida até as lágrimas pela sublime graça de Meishu-Sama, encerro este meu modesto relato.</p>
 <p><em>Publicado na Revista Eikou, nº 114, de 25 de julho de 1951</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰の本筋 『栄光』114号、昭和26(1951)年7月25日発行 信仰は常に言うごとく、第一神様に御委せするという心持それが根本である。<br/><br/>だから徒（いたず）らに人間の解釈で、事を行ってもうまくゆくはずがないのである。<br/><br/>といっても正しい意味での努力が肝腎ではあるが、もちろん本教御主宰の大神様は、絶対の力をもって御守護下さるのだから、神様の思召（おぼしめし）にさえ叶えば、どんな御守護でも頂けられるのは当然である。<br/><br/>左のおかげ話は、まことにそれが如実に現われているので、いい例と思ってこの文を添えたのである。<br/><br/>何しろ病食争絶無の世界を御造りになるという神様であるから、万一思うようにゆかない場合は、よく反省して考えてみれば、必ずどこかにその原因のある事が覚り得るのである。<br/><br/> 貧のドン底より救われて 静岡県 真心中教会 徳永久美子（30） 昭和二十三年四月、入信させて頂きまして以来数え切れない御守護を賜り、毎日感謝の日を送っておりますが、ここにその一端を御報告させて頂きます。<br/><br/> 忘れも致しません、昨年九月の事で御座いました、ただでさえ苦しい生活を続けて参りました私共一家は、八月一カ月間、主人が大浄化の床にありました為全然収入の道はなく、一方支出は増すばかり、その上に滞って参りました税金の督促で御座います、何としても今月中に納付しなければ延滞金が付く、どうしても納付してもらいたい、との矢のような催促で御座います、私は全く途方に暮れてしまいました。<br/><br/> 内職（和裁）を致したいと思い知人の方々へお願い致してみましたが、ほとんど仕事は頂けず、身の廻りを見廻しても、売るべき何物も御座いません、万策尽きた私は、実家から拝借致したいと思い、主人にその旨相談致しました。<br/><br/> その時主人は「私達はこの至高絶対の神様にお縋りしているのに、このような状態になるとは私達に何か大きな間違があるのだよ、しかし、いくら考えてみても解らない、ただ一つ思い当る事は、私達は今まで御守護をお願いばかりしていて、努力というものが何もなかった事だ、親に心配をおかけする事はよくない、今日から二人で一生懸命努力しようではないか」と申します。<br/><br/>この主人の話を聞いております中に、暗黒に閉されていた私の心の中に、一筋の光が差込んで参りました。<br/><br/> 「そうだ、努力だ、努力して、お念じする所に初めて御守護も頂けるのだ」私は心の中にムクムクと盛上ってくる希望を感じつつ、その夜は寝に就きました、その翌日から実に思いもよらぬことが始まったので御座います、私達から何もお願いもしないのに、実家の父がお金を出して税金を済ませて下さいました、又近所から仕立物を頼みに持って来て下さいました、私は「この仕事は神様がお与え下さったお仕事なのだ、よし、徹夜してでも約束の日までに仕立上げよう」と決意し一生懸命に働きました、すると、その仕事の未だ済まない中に、次の仕事又次の仕事と本当に徹夜をしても作り切れない程の仕事が参ります、私は御神恩に感謝しつつも、時にはうれしい悲鳴を上げる事さえ御座いました。<br/><br/> その度毎に主人からは「仕事はどんなに忙しくなっても決して断ってはいけない。<br/><br/>皆神様がお前に出来るだけのものをお与え下さるのだから、お前一人で出来なければ人をお与え下さるだろう」と言っては励まして下さいました、ところがそれから一カ月程、順調に過ぎてゆきます中に、今度は仕事は相変らず沢山頂けますのに仕立代が中々頂けなくなってしまいました、「なぜだろうか、私は何もゼイタクや悪い事にそのお金を使おうと思っているのではない、主人の御布教の一助にでもと思っているのになぜお礼が頂けないのだろうか」私は思い悩みました、ある日御布教から帰って参りました主人が私の顔色をみて「何を考えているのか」と問いかけました、それで私は右の旨を答えました所、主人は「成程お前の考えている事は間違ってはいない、正しい事だ、お前は裁縫という仕事によって、御神業を蔭から御手助けさせて頂きたいと念願して一生懸命やっている、しかし、仕事をお与え下さるのも、お礼を頂けるのも、皆神様が人を使ってお与え下さるのだ、お前は与えられた仕事を一生懸命やってやってやり抜けばよいのだ、その先は神様がよいようにやって下さるから神様にお任せしておけば心配はないはずだ、そこまでとやかく思う事は神様の分にまで人力を出す事になり、それが我となり更に執着となるのではないか」と申しますが、私には納得がゆきませんでした。<br/><br/> 私は一晩考え明かしました、そして翌朝になって初めて、自分の考えていた事が知らず知らずの中に我となり、執着となっていたのに気がつき、御神前に額きお詫び申上げたので御座います、ところがその日、早朝の事今までいくらお願いしても、お礼の頂けなかったお宅からお礼と共に後の仕事をお届け下さいました、そしてそれに引続き、永続的な仕事も頂けるようになり次第に楽にさせて頂いております。<br/><br/> 最近では和裁見習の娘さんも三人程参っており、更に数人から依頼を受けております、以上の事実により私は不幸といぅものは御教にある通り、霊の曇りをとって頂く事、即ち霊的に向上する事により次第に解消されてゆくという事を知らせて頂きました。<br/><br/> それ以来、私の心の中には不安というものが蔭も形もなくなりました、毎日毎日がただうれしく楽しく思えるばかりで御座います。<br/><br/> 安心立命の境地とでも申しましょうか、本当に明主様の御教の有難さ、救世教に入信させて頂いた幸福さをしみじみと知らせて頂くと共に不幸な境遇に悲しい日を送っている人々に一日も早くかかる偉大なお道のある事をお知らせしてあげたい一念で御座います。<br/><br/> では明主様の御高恩に感泣して、これで拙い文を終らせて頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

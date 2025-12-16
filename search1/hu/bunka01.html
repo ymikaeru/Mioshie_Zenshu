@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunka01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 文化人の守旧思想 未発表、年代不詳 外国は知らないが、現在日本人特に智識人の守旧思想の根強い事は案外である。<br><br>といったら誰しも驚くであろうが、左の記事を読めばなるほどと合点するであろう。<br><br>というのは本教浄霊によって、医学とは比較にならない程の驚異的効果を挙げている事実を見ても感じない。<br><br>従って何ら検討もせず、インチキ迷信の潜在観念に邪魔されて信じようとしない。<br><br>ほとんどのジャーナリストがそれである。<br><br>また医師によっては自分が絶対治らないと諦めてしまった病人が、奇蹟的に助かった場合、余りの不思議さに患者に訊（き）いてみると、実は救世教の浄霊で助かったという事実を聞いても、お医者さんは苦りきって、溜息をつくばかりで、進んで研究しようなどの気振（けぶり）は全然起きない事をよく聞くが、その心理は実に不可解である。<br><br>これについても本教は「栄光」を毎号五部ずつ厚生省医務課へ、三年前から郵送しており、無論何人かは読むに違いないと思うし、先頃の「アメリカを救う」と「結核信仰療法」の二著書も、厚生省始め各方面の要路者へ配布したのはもちろん、医師中にも大分読む人があるという事も聞くが、今日までどこからも一人の詰問者も、問合せもないという有様で、私は不思議にたえないのである。<br><br> という訳は何がためかを考えるまでもなく、現在の知識人、ことごとくは、科学という殻に閉じ込められ、科学以外の広い分野のある事を信じないのである。<br><br>そのような理由で、人間生命までも科学の枠内に押込み、解決しようとするが、元々根本的に誤っている以上、いくら骨折っても無効果であるにかかわらず、それに気がつかない迷蒙（めいもう）である。<br><br>そのため科学以外のものはことごとく異端とする考え方である。<br><br>ちょうど封建時代の丁髷（ちょんまげ）思想と何ら変りはない。<br><br>衆知のごとく当時の偉方の中でも、泰西文明は虫が好かず、締出しを喰わずに一生懸命になっていた人達によく似ており、今日からみれば失笑を禁じ得ないのと同様である。<br><br>当時幸いにも一部の進取的思想の人達があって、世界の趨勢を察知し、今後の日本はこれでなくてはならないとして、熱烈な行動を開始した。<br><br>ところが、面白い事にはそれらの先覚者こそ当時の医師であった。<br><br>彼らは燃ゆるがごとき信念の下に危険を潜り、蘭学を勉強すべく長崎へ赴いたのである。<br><br>もちろんそれまでの漢方医学よりも西洋医学の方が大いに優れりと信じたからである。<br><br>何としても日本の開国の先駆者たる役目をしたのはこれらの人達であろう。<br><br> その事が動機となって、ここに西洋文明は滔々（とうとう）として流れ入り、各般の改革が始ったのであろう。<br><br>維新の大業（たいぎょう）に火を点（つ）けた訳である。<br><br>文明国としての世界各国の仲間入が早く成った功績も大に買っていいと思う。<br><br>ところがその時も封建思想が棄て切れない丁髷連中は頑として踏止まろうとしたのは知らる通りだが、時は許さなかった。<br><br>何しろ滔々と入って来る文明の波は到底防ぎ得ず、とうとう丁髷を切り、洋服を着ざるを得なくなったのである。<br><br>これによってみても時代を画（かく）すがごとき素晴しい力には抗し難いからである。<br><br>そうかといってその際余程何物にも捉われる事なく、素直に受入れられないのが人間の弱点であろう。<br><br>今一つの例として彼の飛行機が最初、日本の空を自由に飛翔した時、なるほど交通には大いに役立つが、軍器としては用いられないとして、頑強に反対したのが当時の陸軍のお歴々だったそうであるから意外である。<br><br>そのため彼の徳川大尉が非常に困ったという話を、私は何かの雑誌で見た事を覚えている。<br><br> 以上によってみても、いつも進歩を阻（はば）むものは、その時代の権威者であり、指導階級であるのも皮肉であって、ここに先駆者の悩みがあるのである。<br><br>ところがそれと同様どころかそれ以上であるのはこの私の創造に成る新医学である。<br><br>というのは余りに前例のない偉大なものであるからで、容易に科学盲信者に理解されようはずはないからで、この迷信を打破するその困難も並大抵ではないので、これに較べたら釈迦、キリスト、マホメットの救いなどは小さなものといえよう。<br><br> 以上によってみてもこの偉業こそ、科学という井戸の中に納まっている蛙（かわず）に大海を見せるようなものであるからであるが、どうしてもこの文明の進歩を阻んでいる医科封建の障害物を取り除かなければならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Conservadorismo da Elite Intelectual</h2>
 <p>Embora desconhecido no estrangeiro, o quão profundamente arraigado é o pensamento conservador entre os japoneses de hoje, especialmente entre os intelectuais, é algo que causa espanto. Tal afirmação poderá surpreender a muitos; todavia, a leitura dos fatos que se seguem certamente os fará concordar.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Ainda assim, parece ser uma fraqueza humana a incapacidade de aceitar o novo com naturalidade, sem se prender a velhos paradigmas. Cito outro exemplo: quando os primeiros aviões cruzaram livremente os céus do Japão, a alta patente do Exército da época, surpreendentemente, se opôs com veemência ao seu uso militar, alegando que serviriam apenas como meio de transporte. Lembro-me de ter lido em alguma revista sobre as enormes dificuldades que o Capitão Tokugawa enfrentou por causa dessa resistência.</p>
 <p>Pelo que foi exposto, é irônico constatar que são sempre as autoridades e as classes dirigentes de cada época que obstruem o progresso. Nisso reside o tormento do precursor. A situação que enfrento com a nova medicina por mim criada não é apenas análoga, mas ainda mais acentuada. Por se tratar de uma obra grandiosa e sem precedentes, é natural que não possa ser facilmente compreendida por aqueles que professam uma fé cega na ciência. A dificuldade em romper essa superstição é, portanto, imensa. Em comparação, a salvação proposta por Buda, Cristo ou Maomé poderia ser considerada de menor monta.</p>
 <p>Esta grandiosa obra equivale a mostrar o vasto oceano a um sapo confinado em um poço chamado ciência. É imperativo, portanto, que removamos o obstáculo do feudalismo médico, que hoje impede o avanço da civilização.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 文化人の守旧思想 未発表、年代不詳 外国は知らないが、現在日本人特に智識人の守旧思想の根強い事は案外である。<br/><br/>といったら誰しも驚くであろうが、左の記事を読めばなるほどと合点するであろう。<br/><br/>というのは本教浄霊によって、医学とは比較にならない程の驚異的効果を挙げている事実を見ても感じない。<br/><br/>従って何ら検討もせず、インチキ迷信の潜在観念に邪魔されて信じようとしない。<br/><br/>ほとんどのジャーナリストがそれである。<br/><br/>また医師によっては自分が絶対治らないと諦めてしまった病人が、奇蹟的に助かった場合、余りの不思議さに患者に訊（き）いてみると、実は救世教の浄霊で助かったという事実を聞いても、お医者さんは苦りきって、溜息をつくばかりで、進んで研究しようなどの気振（けぶり）は全然起きない事をよく聞くが、その心理は実に不可解である。<br/><br/>これについても本教は「栄光」を毎号五部ずつ厚生省医務課へ、三年前から郵送しており、無論何人かは読むに違いないと思うし、先頃の「アメリカを救う」と「結核信仰療法」の二著書も、厚生省始め各方面の要路者へ配布したのはもちろん、医師中にも大分読む人があるという事も聞くが、今日までどこからも一人の詰問者も、問合せもないという有様で、私は不思議にたえないのである。<br/><br/> という訳は何がためかを考えるまでもなく、現在の知識人、ことごとくは、科学という殻に閉じ込められ、科学以外の広い分野のある事を信じないのである。<br/><br/>そのような理由で、人間生命までも科学の枠内に押込み、解決しようとするが、元々根本的に誤っている以上、いくら骨折っても無効果であるにかかわらず、それに気がつかない迷蒙（めいもう）である。<br/><br/>そのため科学以外のものはことごとく異端とする考え方である。<br/><br/>ちょうど封建時代の丁髷（ちょんまげ）思想と何ら変りはない。<br/><br/>衆知のごとく当時の偉方の中でも、泰西文明は虫が好かず、締出しを喰わずに一生懸命になっていた人達によく似ており、今日からみれば失笑を禁じ得ないのと同様である。<br/><br/>当時幸いにも一部の進取的思想の人達があって、世界の趨勢を察知し、今後の日本はこれでなくてはならないとして、熱烈な行動を開始した。<br/><br/>ところが、面白い事にはそれらの先覚者こそ当時の医師であった。<br/><br/>彼らは燃ゆるがごとき信念の下に危険を潜り、蘭学を勉強すべく長崎へ赴いたのである。<br/><br/>もちろんそれまでの漢方医学よりも西洋医学の方が大いに優れりと信じたからである。<br/><br/>何としても日本の開国の先駆者たる役目をしたのはこれらの人達であろう。<br/><br/> その事が動機となって、ここに西洋文明は滔々（とうとう）として流れ入り、各般の改革が始ったのであろう。<br/><br/>維新の大業（たいぎょう）に火を点（つ）けた訳である。<br/><br/>文明国としての世界各国の仲間入が早く成った功績も大に買っていいと思う。<br/><br/>ところがその時も封建思想が棄て切れない丁髷連中は頑として踏止まろうとしたのは知らる通りだが、時は許さなかった。<br/><br/>何しろ滔々と入って来る文明の波は到底防ぎ得ず、とうとう丁髷を切り、洋服を着ざるを得なくなったのである。<br/><br/>これによってみても時代を画（かく）すがごとき素晴しい力には抗し難いからである。<br/><br/>そうかといってその際余程何物にも捉われる事なく、素直に受入れられないのが人間の弱点であろう。<br/><br/>今一つの例として彼の飛行機が最初、日本の空を自由に飛翔した時、なるほど交通には大いに役立つが、軍器としては用いられないとして、頑強に反対したのが当時の陸軍のお歴々だったそうであるから意外である。<br/><br/>そのため彼の徳川大尉が非常に困ったという話を、私は何かの雑誌で見た事を覚えている。<br/><br/> 以上によってみても、いつも進歩を阻（はば）むものは、その時代の権威者であり、指導階級であるのも皮肉であって、ここに先駆者の悩みがあるのである。<br/><br/>ところがそれと同様どころかそれ以上であるのはこの私の創造に成る新医学である。<br/><br/>というのは余りに前例のない偉大なものであるからで、容易に科学盲信者に理解されようはずはないからで、この迷信を打破するその困難も並大抵ではないので、これに較べたら釈迦、キリスト、マホメットの救いなどは小さなものといえよう。<br/><br/> 以上によってみてもこの偉業こそ、科学という井戸の中に納まっている蛙（かわず）に大海を見せるようなものであるからであるが、どうしてもこの文明の進歩を阻んでいる医科封建の障害物を取り除かなければならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

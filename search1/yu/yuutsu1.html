@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yuutsu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憂欝感及び麻痺と痙攣 『明日の医術 第二編』昭和18(1943)年10月5日発行 憂欝（ゆううつ）感には、種々の原因と種々の症状があるが、最も多いのは頸部及び肩の凝りに因る事である。<br><br>これは、その項目にあるごとく、凝りの圧迫によって脳への送血が減少し、脳貧血になる為である。<br><br> ここに面白いのは、幼児が常に機嫌がわるく憤（むず）かる事で、医家においても、原因がさらに判らないので困難するのであるが、それらは大抵、肩が凝っているのである。<br><br>幼児のくせに肩が凝るとは不思議に思うであろうが、事実であるから致し方ないのである。<br><br>この場合、肩を治療するや、たちまち機嫌が治り、普通状態になるに察（み）ても明かである。<br><br>又前頭部及び後頭部等に毒素があり、その浄化作用の微熱が常にあるため憂欝の原因となる事もある。<br><br>次に、胃の付近に毒素があり、その浄化作用の微熱に因る事もある。<br><br>そうしてこの症状の原因としては薬毒が多いが、稀には霊的原因もあるから、これは霊的病気の項目に譲る事とする。<br><br> 次に、麻痺は種々の原因と症状があって、最も多いのは脚気であるが、これは脚気の項目に譲る事とする。<br><br>その他の麻痺としては、注射の原因による薬毒（これは手指に多いのである）と手術後疵（きず）が治癒してから、その付近に麻痺のある事がある。<br><br>これらはいずれも放置しておけば時日を経るに従って僅かずつ自然治癒するものである。<br><br>又、中風が原因で局部的に麻痺する事がある。<br><br>これは容易に治癒し難いものであるが、まれには自然治癒するものもある。<br><br> 次に、痙攣には二種の原因がある。<br><br>一は、最も急激な浄化作用であって、それは急性高熱の場合で特に脳疾患に多いのである。<br><br>又、胃痙攣、腸痙攣等も急激の浄化作用である。<br><br>そうして、幼児の痙攣の場合、その苦悩の強烈なる為、危険をさえ感ずるのであるが、痙攣が致命傷となる場合はほとんど無いといってもいいので、大抵は時間を経れば恢復するものである。<br><br> 次に、今一つの原因は、霊的であるからその項目に説く事とする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Melancolia, a Paralisia e a Convulsão</h2>
 <p>A melancolia manifesta-se por meio de diversas causas e sintomas. A mais frequente, todavia, origina-se do enrijecimento na região do pescoço e dos ombros. Conforme explicado no capítulo pertinente, isso ocorre porque a compressão causada por esse enrijecimento diminui o fluxo sanguíneo para o cérebro, resultando em anemia cerebral.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>No que tange à paralisia, suas causas e sintomas são diversos. A mais comum é o beribéri, tema que, no entanto, será abordado em seu respectivo capítulo. Outras formas de paralisia incluem aquela causada pelo yakudoku (薬毒) proveniente de injeções — que se manifesta frequentemente nos dedos das mãos — e a que surge nas proximidades de uma cicatriz cirúrgica, após sua completa cicatrização. Em ambos os casos, se não houver interferência, a cura natural tende a ocorrer de forma gradual com o passar do tempo. Há também a paralisia localizada que resulta de um acidente vascular cerebral. Sua recuperação costuma ser mais difícil, embora existam casos raros de cura espontânea.</p>
 <p>Finalmente, no que se refere à convulsão, existem duas causas principais. A primeira é um processo de purificação de extrema intensidade, que se manifesta em quadros de febre alta e aguda, sendo particularmente comum em enfermidades cerebrais. Da mesma forma, os espasmos estomacais e intestinais são, também, processos de purificação intensos. No caso das convulsões infantis, a intensidade do sofrimento pode transmitir uma sensação de grande perigo. Contudo, é seguro afirmar que as convulsões raramente são fatais; na maioria das vezes, a recuperação ocorre com o passar do tempo.</p>
 <p>A segunda causa, por sua vez, é de natureza espiritual e, como tal, será abordada no capítulo correspondente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憂欝感及び麻痺と痙攣 『明日の医術 第二編』昭和18(1943)年10月5日発行 憂欝（ゆううつ）感には、種々の原因と種々の症状があるが、最も多いのは頸部及び肩の凝りに因る事である。<br/><br/>これは、その項目にあるごとく、凝りの圧迫によって脳への送血が減少し、脳貧血になる為である。<br/><br/> ここに面白いのは、幼児が常に機嫌がわるく憤（むず）かる事で、医家においても、原因がさらに判らないので困難するのであるが、それらは大抵、肩が凝っているのである。<br/><br/>幼児のくせに肩が凝るとは不思議に思うであろうが、事実であるから致し方ないのである。<br/><br/>この場合、肩を治療するや、たちまち機嫌が治り、普通状態になるに察（み）ても明かである。<br/><br/>又前頭部及び後頭部等に毒素があり、その浄化作用の微熱が常にあるため憂欝の原因となる事もある。<br/><br/>次に、胃の付近に毒素があり、その浄化作用の微熱に因る事もある。<br/><br/>そうしてこの症状の原因としては薬毒が多いが、稀には霊的原因もあるから、これは霊的病気の項目に譲る事とする。<br/><br/> 次に、麻痺は種々の原因と症状があって、最も多いのは脚気であるが、これは脚気の項目に譲る事とする。<br/><br/>その他の麻痺としては、注射の原因による薬毒（これは手指に多いのである）と手術後疵（きず）が治癒してから、その付近に麻痺のある事がある。<br/><br/>これらはいずれも放置しておけば時日を経るに従って僅かずつ自然治癒するものである。<br/><br/>又、中風が原因で局部的に麻痺する事がある。<br/><br/>これは容易に治癒し難いものであるが、まれには自然治癒するものもある。<br/><br/> 次に、痙攣には二種の原因がある。<br/><br/>一は、最も急激な浄化作用であって、それは急性高熱の場合で特に脳疾患に多いのである。<br/><br/>又、胃痙攣、腸痙攣等も急激の浄化作用である。<br/><br/>そうして、幼児の痙攣の場合、その苦悩の強烈なる為、危険をさえ感ずるのであるが、痙攣が致命傷となる場合はほとんど無いといってもいいので、大抵は時間を経れば恢復するものである。<br/><br/> 次に、今一つの原因は、霊的であるからその項目に説く事とする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

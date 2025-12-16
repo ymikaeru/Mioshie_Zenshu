@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M250403</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年4月3日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年四月三日 ――神様からご覧になって安楽死はいかがでしょうか。<br><br> 悪いですね、こりゃあ。<br><br>しかしね、苦痛にたえず、しかもどうしても助からないってのも、そのもとは医学がそうさせたんですよ。<br><br>従って医学がなくなれば苦痛もなくなる、だから安楽死なんてこともいらなくなるんです。<br><br>ちょうど、唯物的になったから人間悪いことをする、だから警察がいるのと同様ですよ。<br><br> ――映画『子鹿物語』の御感想をお伺い申し上げます。<br><br> えーと、あれはどんなんだっけな。<br><br>私は映画をいろいろ見るんで筋が……ああ、あれは少しおかしいですね。<br><br>あれは親が間違ってますよ。<br><br>なぜかって言えば、鹿なんかより人間のはうが大事なんだから、鹿が作物を荒したら子供が泣こうがなにしようが、だんこ鹿を追放すべきですよ。<br><br>その点親が寛大すぎますよ。<br><br>まあ、あれは動物愛護を誇張したんでしょうが、常識に外れてますね。<br><br> ――一会員、最近水害に遭い山が崩れて家が突き出されてしまいました。<br><br>しかも隣りの未信者の家は無事で、この信者の家だけ被害を受けました。<br><br>他に移転の場所を求めたくてもありませんが、そこに再建いたしてもよろしいでしょうか。<br><br>ただいま、光明如来様をいただく準備中です。<br><br> これは準備中でまだ祀ってないんですね。<br><br> ――はい。<br><br> そうでしょう、祀ってあればこんなことはありませんよ。<br><br>やっぱり浄化ですよ、その家に対するね。<br><br>ま、こうしなくちゃ光明如来様をお祀りできなかったんですね。<br><br> ――その場所に建て直してもよろしいでしょうか。<br><br> ええ、いいですとも。<br><br> ――五十八歳の女性、肝臓部と腹部全体に痛みがあり、食後は必ず痛みます。<br><br>最近腹部が腫脹し妊娠八カ月くらいの大い〔き〕さです、尿は一日四、五回で色は白茶色です。<br><br>御救いいただけましょうか。<br><br> これはだれが浄霊してるんですか。<br><br> ――私でございます。<br><br> もう何日くらいやってるんですか。<br><br> ――二日いたしました。<br><br> 二日じゃまだ判りませんね。<br><br>けど、気長にやってればいいですよ。<br><br> ――医者は潰瘍だと申しますが。<br><br> 潰瘍って、胃の。<br><br> ――はい。<br><br> 血を吐くんですか。<br><br> ――いいえ、吐きません。<br><br> 潰瘍ってのは血が出ることなんですよ。<br><br>出なけりゃ違いますね。<br><br>それから、うしろの背中が凝ってるんです。<br><br>だから腎臓をよくやることですね。<br><br> ――御浄霊いたしますと腹が張ってきますが。<br><br> 毒が溶けても、それが濃い場合は一時腹に溜まるんですよ。<br><br>やがて小便になって出ますよ。<br><br> ――床の間のない家で御神体を御奉斎いたします場合、置き床でもよろしいでしょうか。<br><br> いいでしょう。<br><br>それよりか、ほかにしようがないですからね。<br><br> ――御浄霊をいただくときに御守り様をいただいたままでよろしいでしょうか。<br><br> 御浄霊を受ける受けないに関係なく、御守り様を外しちゃいけませんよ。<br><br>御守りは湯に入るときだけ外して、あとは一分も外しちゃいけません。<br><br> ――御守り様を忘れて御浄霊いたしますことは御無礼でしょうか。<br><br> 勿論、御無礼にもなるし、第一そんな心掛けじゃいけませんね。<br><br>だいたい、御守りを忘れるなんてのは魂が抜けてる証拠ですよ。<br><br>（笑声） ――性教育必要の有無についてお伺い申し上げます。<br><br> いけませんね。<br><br>性教育なんてしたらかえって逆結果になりますよ。<br><br>第一ね、性教育をしなけりゃ判らないような人間はありませんよ（爆笑）。<br><br>神様がそういうふうに人間をお作りになったんですからね。<br><br>ただね、花柳病にならないように説明することはいいですがね。<br><br> ――性的に無智ですと早く機能が弱ってしまうように存じますが。<br><br> それは罪によるんです。<br><br>だから弱るのはあたりまえですよ。<br><br>その人が性的な罪を犯してる場合、神様がお与えにならないんです。<br><br>不感症ってのがありますがね、あれを治すのはわけないんですよ。<br><br>その人に罪があるんだから人を助けて徳を積めばいいんです。<br><br> ――射精力の弱いのはいかがでしょうか。<br><br> それは体が弱ってるんですよ。<br><br>殊に腎臓をよくやることですね。<br><br>それからね、私はこういう問題についても根本的に知ってるけど、公開の席上ではあんまりね（笑声）。<br><br>……ですからね、本当に自分や周りに判らないことがあったら「特別質問」として出しなさい（笑声）、判るように返事を書いてあげますよ。<br><br>そういったことも救いですからね。<br><br> ――なにかの霊が局部的に憑くことはありましょうか。<br><br>例えば鳥の霊が憑くと嗅覚（きゅうかく）がなくなりましょうか。<br><br>また、それは鼻にだけ憑いてるものでしょうか。<br><br> 局部的に憑くのと全体のと両方あります。<br><br>また局部から全体に拡まるのもありますよ。<br><br>そして霊が人間の眉間へ来ると、もうその人の体全体を支配しますね。<br><br>鳥の霊のために嗅覚がなくなるのは頭に憑いてるんです。<br><br>それから肩なんかに憑いてることはありますが、鼻だけってのはまあないですね。<br><br> ――忠魂碑や銅像を作りますと、霊にはどのような影響がありましょうか。<br><br> そういうものを拝むと、想念がいい意味でその霊の所へ届きますね。<br><br>けど、これも考えもんでね。<br><br>下手にやっちゃかえって悪いですよ。<br><br>いま、日本にあるのなんか、むしろ建てないほうがいいような人のが多いんでね（笑声）。<br><br>立派な人のならいいのですがね。<br><br>あの広瀬中佐のなんかいけませんよ、神田のあんな所へ建ててね、交通妨害ですよ。<br><br>（笑声） ――他の教会に負けずに発展するように祈願いたすことはいかがでしょうか。<br><br> これは少しケチくさいですね。<br><br>この道は世界を救うんだから、他の教会も発展し、自分のほうも発展するように祈ることが本当ですよ。<br><br>負けずに発展しようってのはいい意味の競争だけど、しかしまだ小さいですね、小乗ですよ。<br><br>だからそれよりかも、この教団全部が発展して人類全部が救われるように祈願すべきですよ。<br><br>他の教会なんか目に入らないくらいになるのが本当ですね。<br><br>どうも日本人の悪い癖としてケチな根性があるんですね。<br><br>例えば、どうか日本がよくなりますようにってのは悪くはないけど、やっぱり小さいでしょ。<br><br>日本だけよくなればって気持ちから今度の大戦が起きたんですからね。<br><br>もっと大きく世界人類を救おうと念願すべきですね。<br><br> 以前、大本時代に「どうか自分は天国に救われたい」って言う人がありましたがね。<br><br>その人に対して私は「自分はちっとも天国に救われたいとは思わない。<br><br>むしろ一人でも多くの人を天国に救って上げられますようにと願ってる。<br><br>そのためには、たとえ私は地獄へおちてもいい」って言ったことがありましたがね。<br><br>人間はどうしても自分を主にし、自分のことにとらわれてしまうんです。<br><br>勿論ぜんぜんとらわれないってことはできないけど、自分にとらわれてはいけないんだってことを知ってれば、目先がきき腹が大きくなるんです。<br><br>そして腹の大きい人のほうがどうしたって大きく発展しますね。<br><br>小さい人はやっぱり駄目ですよ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre a Vida e a Fé</h2>
 <p><strong>Do ponto de vista de Deus, qual a Sua opinião sobre a eutanásia?</strong></p>
@@ -137,5 +289,48 @@ function toggleLang(lang) {
 <p>Infelizmente, uma das más tendências do povo japonês é essa mentalidade tacanha. Por exemplo, orar para que o Japão melhore não é errado, mas é uma visão pequena, não acham? Foi desse sentimento de que “basta que o Japão fique bem” que eclodiu a última Grande Guerra. Devemos almejar algo muito maior: salvar toda a humanidade.</p>
 <p>Antigamente, na época da Oomoto, havia uma pessoa que dizia: “Eu desejo ser salvo no Paraíso”. Em resposta, eu lhe disse: “Eu, ao contrário, não tenho o menor desejo de ser salvo no Paraíso. Meu anseio é poder salvar o maior número possível de pessoas, conduzindo-as ao Paraíso. E, para isso, estaria disposto até mesmo a cair no inferno”.</p>
 <p>O ser humano tende, invariavelmente, a se colocar no centro e a se prender a seus próprios interesses. É claro que é impossível se desapegar completamente, mas, ao se ter consciência de que não se deve ser egocêntrico, a visão se amplia e o espírito se engrandece. E pessoas de espírito grandioso inevitavelmente alcançam um grande desenvolvimento. Aqueles de mente pequena, por outro lado, estão fadados ao fracasso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年4月3日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年四月三日 ――神様からご覧になって安楽死はいかがでしょうか。<br/><br/> 悪いですね、こりゃあ。<br/><br/>しかしね、苦痛にたえず、しかもどうしても助からないってのも、そのもとは医学がそうさせたんですよ。<br/><br/>従って医学がなくなれば苦痛もなくなる、だから安楽死なんてこともいらなくなるんです。<br/><br/>ちょうど、唯物的になったから人間悪いことをする、だから警察がいるのと同様ですよ。<br/><br/> ――映画『子鹿物語』の御感想をお伺い申し上げます。<br/><br/> えーと、あれはどんなんだっけな。<br/><br/>私は映画をいろいろ見るんで筋が……ああ、あれは少しおかしいですね。<br/><br/>あれは親が間違ってますよ。<br/><br/>なぜかって言えば、鹿なんかより人間のはうが大事なんだから、鹿が作物を荒したら子供が泣こうがなにしようが、だんこ鹿を追放すべきですよ。<br/><br/>その点親が寛大すぎますよ。<br/><br/>まあ、あれは動物愛護を誇張したんでしょうが、常識に外れてますね。<br/><br/> ――一会員、最近水害に遭い山が崩れて家が突き出されてしまいました。<br/><br/>しかも隣りの未信者の家は無事で、この信者の家だけ被害を受けました。<br/><br/>他に移転の場所を求めたくてもありませんが、そこに再建いたしてもよろしいでしょうか。<br/><br/>ただいま、光明如来様をいただく準備中です。<br/><br/> これは準備中でまだ祀ってないんですね。<br/><br/> ――はい。<br/><br/> そうでしょう、祀ってあればこんなことはありませんよ。<br/><br/>やっぱり浄化ですよ、その家に対するね。<br/><br/>ま、こうしなくちゃ光明如来様をお祀りできなかったんですね。<br/><br/> ――その場所に建て直してもよろしいでしょうか。<br/><br/> ええ、いいですとも。<br/><br/> ――五十八歳の女性、肝臓部と腹部全体に痛みがあり、食後は必ず痛みます。<br/><br/>最近腹部が腫脹し妊娠八カ月くらいの大い〔き〕さです、尿は一日四、五回で色は白茶色です。<br/><br/>御救いいただけましょうか。<br/><br/> これはだれが浄霊してるんですか。<br/><br/> ――私でございます。<br/><br/> もう何日くらいやってるんですか。<br/><br/> ――二日いたしました。<br/><br/> 二日じゃまだ判りませんね。<br/><br/>けど、気長にやってればいいですよ。<br/><br/> ――医者は潰瘍だと申しますが。<br/><br/> 潰瘍って、胃の。<br/><br/> ――はい。<br/><br/> 血を吐くんですか。<br/><br/> ――いいえ、吐きません。<br/><br/> 潰瘍ってのは血が出ることなんですよ。<br/><br/>出なけりゃ違いますね。<br/><br/>それから、うしろの背中が凝ってるんです。<br/><br/>だから腎臓をよくやることですね。<br/><br/> ――御浄霊いたしますと腹が張ってきますが。<br/><br/> 毒が溶けても、それが濃い場合は一時腹に溜まるんですよ。<br/><br/>やがて小便になって出ますよ。<br/><br/> ――床の間のない家で御神体を御奉斎いたします場合、置き床でもよろしいでしょうか。<br/><br/> いいでしょう。<br/><br/>それよりか、ほかにしようがないですからね。<br/><br/> ――御浄霊をいただくときに御守り様をいただいたままでよろしいでしょうか。<br/><br/> 御浄霊を受ける受けないに関係なく、御守り様を外しちゃいけませんよ。<br/><br/>御守りは湯に入るときだけ外して、あとは一分も外しちゃいけません。<br/><br/> ――御守り様を忘れて御浄霊いたしますことは御無礼でしょうか。<br/><br/> 勿論、御無礼にもなるし、第一そんな心掛けじゃいけませんね。<br/><br/>だいたい、御守りを忘れるなんてのは魂が抜けてる証拠ですよ。<br/><br/>（笑声） ――性教育必要の有無についてお伺い申し上げます。<br/><br/> いけませんね。<br/><br/>性教育なんてしたらかえって逆結果になりますよ。<br/><br/>第一ね、性教育をしなけりゃ判らないような人間はありませんよ（爆笑）。<br/><br/>神様がそういうふうに人間をお作りになったんですからね。<br/><br/>ただね、花柳病にならないように説明することはいいですがね。<br/><br/> ――性的に無智ですと早く機能が弱ってしまうように存じますが。<br/><br/> それは罪によるんです。<br/><br/>だから弱るのはあたりまえですよ。<br/><br/>その人が性的な罪を犯してる場合、神様がお与えにならないんです。<br/><br/>不感症ってのがありますがね、あれを治すのはわけないんですよ。<br/><br/>その人に罪があるんだから人を助けて徳を積めばいいんです。<br/><br/> ――射精力の弱いのはいかがでしょうか。<br/><br/> それは体が弱ってるんですよ。<br/><br/>殊に腎臓をよくやることですね。<br/><br/>それからね、私はこういう問題についても根本的に知ってるけど、公開の席上ではあんまりね（笑声）。<br/><br/>……ですからね、本当に自分や周りに判らないことがあったら「特別質問」として出しなさい（笑声）、判るように返事を書いてあげますよ。<br/><br/>そういったことも救いですからね。<br/><br/> ――なにかの霊が局部的に憑くことはありましょうか。<br/><br/>例えば鳥の霊が憑くと嗅覚（きゅうかく）がなくなりましょうか。<br/><br/>また、それは鼻にだけ憑いてるものでしょうか。<br/><br/> 局部的に憑くのと全体のと両方あります。<br/><br/>また局部から全体に拡まるのもありますよ。<br/><br/>そして霊が人間の眉間へ来ると、もうその人の体全体を支配しますね。<br/><br/>鳥の霊のために嗅覚がなくなるのは頭に憑いてるんです。<br/><br/>それから肩なんかに憑いてることはありますが、鼻だけってのはまあないですね。<br/><br/> ――忠魂碑や銅像を作りますと、霊にはどのような影響がありましょうか。<br/><br/> そういうものを拝むと、想念がいい意味でその霊の所へ届きますね。<br/><br/>けど、これも考えもんでね。<br/><br/>下手にやっちゃかえって悪いですよ。<br/><br/>いま、日本にあるのなんか、むしろ建てないほうがいいような人のが多いんでね（笑声）。<br/><br/>立派な人のならいいのですがね。<br/><br/>あの広瀬中佐のなんかいけませんよ、神田のあんな所へ建ててね、交通妨害ですよ。<br/><br/>（笑声） ――他の教会に負けずに発展するように祈願いたすことはいかがでしょうか。<br/><br/> これは少しケチくさいですね。<br/><br/>この道は世界を救うんだから、他の教会も発展し、自分のほうも発展するように祈ることが本当ですよ。<br/><br/>負けずに発展しようってのはいい意味の競争だけど、しかしまだ小さいですね、小乗ですよ。<br/><br/>だからそれよりかも、この教団全部が発展して人類全部が救われるように祈願すべきですよ。<br/><br/>他の教会なんか目に入らないくらいになるのが本当ですね。<br/><br/>どうも日本人の悪い癖としてケチな根性があるんですね。<br/><br/>例えば、どうか日本がよくなりますようにってのは悪くはないけど、やっぱり小さいでしょ。<br/><br/>日本だけよくなればって気持ちから今度の大戦が起きたんですからね。<br/><br/>もっと大きく世界人類を救おうと念願すべきですね。<br/><br/> 以前、大本時代に「どうか自分は天国に救われたい」って言う人がありましたがね。<br/><br/>その人に対して私は「自分はちっとも天国に救われたいとは思わない。<br/><br/>むしろ一人でも多くの人を天国に救って上げられますようにと願ってる。<br/><br/>そのためには、たとえ私は地獄へおちてもいい」って言ったことがありましたがね。<br/><br/>人間はどうしても自分を主にし、自分のことにとらわれてしまうんです。<br/><br/>勿論ぜんぜんとらわれないってことはできないけど、自分にとらわれてはいけないんだってことを知ってれば、目先がきき腹が大きくなるんです。<br/><br/>そして腹の大きい人のほうがどうしたって大きく発展しますね。<br/><br/>小さい人はやっぱり駄目ですよ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

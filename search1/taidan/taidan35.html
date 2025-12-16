@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan35</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と御対談 (一) 『栄光』266号、昭和29(1954)年7月21日発行 去る四月十五日、日本における英字雑誌アジア・シーンより、御著書「アメリカを救う」および、御論文「原爆恐るるに足らず」につき、読者の依頼により調査の意向を持って、東京特派員ディック・中村氏が、またラジオ東京より、アナウンサー真山照政氏、プロデューサー井上章和氏が、ともに来訪されました。<br><br> この日の御引見は、碧雲荘応接間にて行なわれることとなり、一同お待ち申し上げるうちに、午後二時明主様のお出ましを仰いだのであります。<br><br>明主様には殊のほか御機嫌麗しく拝され、約二時間にわたり御歓談遊ばされたのであります。<br><br> 以下、そのときの御対談の模様をお伝えいたします。<br><br> なお、アジア・シーン五月号に「熱海の生き神様」として掲載され、一部は四月二十日ラジオ東京「ラジオスケッチ」の時間に放送されましたことを付記いたします。<br><br> 中村氏 教祖がお書きになられた「アメリカを救う」という本につきまして、アメリカの方の読者から、内容状況を知らせてくれということでありまして、私の方で教祖にお会いして話を伺いたいのでまいりました。<br><br>ラジオ東京の方も、私の方と一緒に仕事をしておりますので。<br><br> 明主様 承知しました。<br><br>しかしラジオの方は、私の言うことはあまりに変わっているので、向かないかもしれませんよ。<br><br> 井上氏 しかし私の方は「ラジオスケッチ」ということでいたしますので、「いろいろな面からいろいろのことを紹介してゆく」というのでやっております。<br><br>それで、結局一般の人に分からなければ分からないままに、一つのことをぶっつけてゆくというわけです。<br><br>ですからわれわれとしては批判ということは抜きにしておりますから。<br><br> 明主様 それがほんとうです。<br><br> 井上氏 ですから、くどいようなことをお聞きすると思いますが。<br><br> 中村氏 私の方も無礼講で聞かしていただきます。<br><br> 明主様 それがよいです。<br><br>私の方も、むしろその方が話しよいです。<br><br> 中村氏 私は単なる新興宗教だからということで来たのではないのです。<br><br>ただ単なる新興宗教であるなら、幹部の方に会って、それだけで作り上げてしまいます。<br><br>しかし私などは単なる新興宗教ではないと思ったので、これは本元に会わなければ分からないと思ったわけなのです。<br><br> 明主様 そうです。<br><br>だいたい宗教では本当に救われないです。<br><br>もし宗教で救われるのなら、もう世界中が、キリスト教か仏教で救われて天国の世になっていなければならないです。<br><br>ところが、今もって病気、貧乏、戦争が絶えないということは、それでは救われないということになります。<br><br>しかし、なかったらもっとひどい世の中になり、どんな野蛮なことになるか分からないです。<br><br>ですから、あれだけのものがあったためにどんなに功績があるかということは言えますが、これ以上のことはないです。<br><br>そこで私の方で超宗教的力を持ってやるというわけです。<br><br> 活動の源泉力は何か 真山氏 昨日か一昨日まで自動車で京都の方に行かれたそうですが、お疲れにはなりませんでしたか。<br><br> 明主様 車は往きだけですが、私はあまり疲れてはいません。<br><br> 真山氏 その源泉力と言いますか、源はどこから来るのでしょうか。<br><br> 明主様 自然生活です。<br><br>私の方の養生法というのはちょっと違います。<br><br> 真山氏 例えば、どういうことでしょうか。<br><br> 明主様 体は無理をするだけ良いとしているのです。<br><br>だから、私はできるだけ無理をしてます。<br><br>そうすると自然に鍛えられます。<br><br> 真山氏 私などは無理をすると寿命を縮めると言っておりますが。<br><br> 明主様 それは現代医学の説です。<br><br>しかし本当は、人間は体を酷使するほどよいのです。<br><br>スポーツマンはずいぶん無理をしますが、人間は無理をする方がかえって健康になります。<br><br>ですから私はその主義で、どこまでもその方針でやってます。<br><br>そうして眠ることを少なくしてます。<br><br>ですから睡眠不足を奨励してます。<br><br>食べ物も、食べたい物を食べたいだけ食べるという主義です。<br><br>ですからビタミンとかカロリーということは必要ないのです。<br><br> 真山氏 みなさんもたいへん顔色が良いですね。<br><br> 明主様 そうです。<br><br>これが本当の健康法です。<br><br>それを知らないために、間違ったり、弱ったりするのです。<br><br>特にはなはだしいのがアメリカですから、そこで私はアメリカの人に分からせようと思って「アメリカを救う」を書いたのです。<br><br> 真山氏 それを発見する動機と言いますか、どういうところから。<br><br> 明主様 一番最初は自分で肺病を救ったときです。<br><br>そのとき私は医者の言うとおりにして、滋養、栄養をウンと摂っていたのです。<br><br>それをやろうと思っていろいろ考えた末、そのころ絵をやっていたので、漢方の本を見て、いろんな草根木皮の、なにがなんの薬になるとかあるので、こういう物が薬になるとすると、やはり必要に違いない。<br><br>そうすると自分は今まで野菜をいけないとして動物的の物ばかり食べていたが……これで試してみようと思ってやったところがばかに良くて、三カ月ばかりですっかり健康になったのです。<br><br>それで西洋医学に疑問を抱き始めたのです。<br><br> 真山氏 それが自然に逆らうなという動機というわけですね。<br><br> 明主様 そうです。<br><br>そうして、大本教に入って、神ということと、霊ということを知ったのです。<br><br>霊というのは、物質以外に、見えないけれども立派に実在しているものであって、それがあらゆるものの原因だということを知ったのです。<br><br> それで、病気も霊に原因があるので、つまり、霊が曇ると血が濁るのです。<br><br>血が濁ったのが毒素になって、そうしてその排除作用が病気だということが分かったので、その根本である霊の曇りを取ると病気も治るのです。<br><br>その霊の曇りを取る方法を研究したというよりか、神から教えられたのです。<br><br> 真山氏 それがわれわれにはちょっと分からないのですが。<br><br> 明主様 そうでしょう。<br><br>ですから私が言いたいこと……ではなくて、本当のことを言うと、ちょっと見当がつかないくらい変わってます。<br><br>例えばあなた方が、どこか、盲腸なら盲腸が痛いという場合に、こうやって（お手を翳される）いるうちにだんだん痛みがなくなってきて、それで治ってしまうのです。<br><br>だから私の方では、盲腸炎などでもたいてい二十分か三十分で全治してしまいます。<br><br>毒が原因ですから、それを溶かしてしまえば、それが下痢になって出て、それで治ってしまうのです。<br><br> 真山氏 それは科学的根拠はないのですか。<br><br> 明主様 これは高級な科学です。<br><br>ですから今の科学は程度の低い科学なのです。<br><br>例えば黴菌にしても、今は黴菌だけを殺そうとしているのです。<br><br>それはたしかに黴菌が病原にはなってます。<br><br>しかしその黴菌はどこから来たかということです。<br><br>今日伝染ということになってますが、ＡにはＢから、ＢにはＣから……と、うつってきたとしても、結局その元はどこから来たかということになります。<br><br>その一人だけが急にわいたわけではないのですから、それを極めないで、黴菌という結果だけに大騒ぎをやって、それを殺そうとしているのです。<br><br>ですから因の、生まれてくる子供を生まれてこないようにしなければならないので、そこに気がついたのです。<br><br>そこで、その因の因というのは霊の曇りです。<br><br>その曇りが、体の熱やいろいろな条件によって、だんだん濃厚になってきて固まるのです。<br><br>すべて、濃厚になると固まるということは物質の原則です。<br><br>そこである程度固まってくると、そこに一種のバクテリアが自然発生するのです。<br><br>このバクテリアというのは植物性無機質ですが、それがだんだん進んでゆくと、無機質から有機質に育つのです。<br><br>それが黴菌の子供です。<br><br>ですから黴菌を殺すというのは結果であって、曇りを取るというのが根本的です。<br><br>ですから肺病なら肺病をやれば治ってしまいますが、それは病気の根源を治すことができるからです。<br><br> 真山氏 われわれの考えですと、手術とか、痛い目をして、高い金を使って、治れば結構だが、治らなくても、 明主様 いや、治らないのです。<br><br>それはぜんぜん科学ではないからです。<br><br>なぜなら、今言うとおり根本の霊の曇りを取るというのが科学的なやり方です。<br><br> 真山氏 そうすると、非常に簡単な療法であるわけですね。<br><br> 明主様 そうです。<br><br>理屈に合っているのです。<br><br>ですから私などは赤痢なども少しも恐れないです。<br><br>むしろ赤痢になろうとしているのです。<br><br>あんな結構なものはないです。<br><br> 真山氏 その、手を翳される場合には触れるのですか。<br><br> 明主様 いや、いくら離れていてもよいのです。<br><br>この光というのは非常に強いのです。<br><br>これは原爆よりも強いのです。<br><br> 真山氏 そういたしますと、放射能というのは今さかんに問題になってますが、害にはならないわけでございますか。<br><br> 明主様 いや、害はあります。<br><br>死ぬ者は死にますが、ほうっておけば助かる者は治るのです。<br><br> 真山氏 それは教祖がなさらなければならないので、他の人では駄目というので、 明主様 いや、自然にしておけば治ります。<br><br>人間の体には、そうやって治す力があるのです。<br><br>たとえてみれば、ビタミンが多いとか少ないとか、いろんなことを言ってますが、医学の方では食べ物ばかりに栄養があるように思って、栄養を作る臓器を無視しているのです。<br><br>ですから私の方では、食べ物はなんでもよいのです。<br><br>それは、菜っ葉ばかりでもオカユばかりでもよいのです。<br><br>こういう話があります。<br><br>荻生徂徠（おぎゅうそらい）が豆腐屋に下宿していて、二年間オカラばかり食べて研究したということですが、こういうことなどは今の栄養学者には理屈はつかないでしょう。<br><br>腹の中の機能が作るということを医学は知らないのです。<br><br> 世の中に薬はあるか 真山氏 しかし、薬などは体質に合うとか合わないとか言いますが。<br><br> 明主様 だいたい薬という物は世の中には一つもないのです。<br><br>薬と称している物はみんな毒なのです。<br><br>というのは、私は病気というものは浄化作用と言ってます。<br><br>それは体の中にあってはならない物を排除する作用です。<br><br>排除するための痛みとか熱で、熱というのは溶かす作用です。<br><br>その苦痛を病気と称するのです。<br><br>ですから、病気というのは体の一つの掃除の作用で結構なものなのです。<br><br>だから私は病気に感謝しなければいけないと言ってます。<br><br> 真山氏 病気になれというわけですね。<br><br>たまには。<br><br> 明主様 たまにはではない。<br><br>大いになった方がよいのです。<br><br>ですから、風邪をなるだけ引けと言うのです。<br><br>ですから、私の方の信者はおかげでやっと風邪を引きましたと言うのです。<br><br>それで風邪を引きさえすれば結核などは起こりゃしないです。<br><br>風邪を引かないように止めるから結核になるのです。<br><br>そうでしょう。<br><br>風邪というのは毒の掃除ですから、掃除の起こった場合に、むしろよけい掃除をした方がよけい毒は取れます。<br><br>掃除ができます。<br><br>今はその掃除を止めて固めるのです。<br><br>ですから医者は治るということは言わないので、固めると言います。<br><br> 中村氏 今話がありましたが、原爆の放射能を受けた人は。<br><br> 明主様 原爆は、なにもしなくてもほうっておけば治ります。<br><br> 真山氏 治りますか。<br><br> 明主様 治ります。<br><br>医学の方でいろんなことをやる、それによって死ぬのです。<br><br>ですから医学というのは有害無益な存在です。<br><br> 真山氏 そうすると、救世教は医学排斥論というわけですね。<br><br> 明主様 ではなく、もっと強い絶対廃止論です。<br><br>医学がなくなったら、人間はどのくらい幸福になるか分からないです。<br><br> 中村氏 内臓疾患はそうとしまして、外科疾患の場合はいかがでしょうか。<br><br> 明主様 と言っても、因はその人に霊的曇りがあるからです。<br><br>また外傷したところですぐに治ります。<br><br>それは私の方で発行している新聞を読めば分かります。<br><br>これを説明するにはなかなか骨なのです。<br><br>というのは、あなた方がふつうの頭ならよいですが、科学迷信、医学迷信に固まっているからです。<br><br> 真山氏 いや……しかし、 明主様 それなら、私が言う説をすぐ受け入れられますか。<br><br>そうはゆかないでしょう。<br><br>しかし受け入れても疑問が起こって、不思議で変におもえてしようがないでしょう。<br><br> 私は人を救う「人」を作る 真山氏 こうやれば（手を翳す）よいということは、どういうところからお分かりになられたのでしょうか。<br><br>神のお告げとか、インスピレーションとかでございますか。<br><br> 明主様 勿論そうです。<br><br>神様が一種の霊気をくれて、ここから出すというように漠然と考えていたのですが、そのうちにはっきりしてきたのです。<br><br>というのは、神様がいろんなことによって教えてくれたのです。<br><br>それで今は、こういうことを言うと誤解されるのですが、私は神様だか人間だか分からないです。<br><br>奇蹟――不思議なことばかりが毎日あります。<br><br> 真山氏 そういたしますと、ふだんは別にどうということはなく、病人に対坐したときに一種霊妙なものが体に漲（みなぎ）るというものでしょうか。<br><br>それともふだんのままで。<br><br> 明主様 最初はなにか、そういうふうでした。<br><br>ところが数年前からお腹に光の玉があるということが分かったのです。<br><br>これは見る人もあります。<br><br>それで、こうやる場合に、これ（光の玉）から手を通じて出るのです。<br><br>それは私がやる場合ですが、弟子がやる場合もこうやりますが、やはりここ（掌）から光が出るのを見る人はたくさんあります。<br><br> 真山氏 それはどんなものでございましょうか。<br><br> 明主様 白、黄、黄金、とあります。<br><br>それが多く子供が見るのです。<br><br> 中村氏 純真な者がというわけですね。<br><br> 明主様 そうです。<br><br>つまり、無心と言うか、潜在意識がないから、かえって信じられます。<br><br>それは十二になる子ですが、まだ続いています。<br><br> 真山氏 それでは、こうやるのはわれわれでは駄目なわけですね。<br><br> 明主様 だれでもよいのです。<br><br>それでなければ信者はできません。<br><br> 真山氏 それではみなさんそういう域に達しておられるわけですね。<br><br> 明主様 域ではないので御守りをかければそうなるのです。<br><br>だから、あんまり話がうますぎるのです。<br><br> 真山氏 そうですね。<br><br>私などにはちょっと信じられません。<br><br>そうしますと、今たくさんの金をかけて、全国民が心配していますＴ大病院に入院しております原爆患者ですが、このお話をお聞きになってでございますが、お出かけになって、自分で一つ手がけてごらんになりたいというお考えは。<br><br> 明主様 私はもっと重要なことがあるから、個人的に救うという、そういうことはもったいないです。<br><br>それよりか私は今、これから何万人を救う人間を作るのです。<br><br> 真山氏 しかし、何人かの人たちが非常に困っているのでございますが、そういうお考えは、 明主様 持ってます。<br><br>助けてやりたいとはおもいます。<br><br>しかし、そうかといって、事情が許さなければしかたがないです。<br><br>つまり私は、そういった人を救う「人」を作る仕事です。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Diálogo com Meishu-Sama</h2>
 <p>Em 15 de abril passado, recebemos a visita do Sr. Dick Nakamura, correspondente em Tóquio da revista em língua inglesa <em>Asia Scene</em>, que, a pedido de seus leitores, desejava obter esclarecimentos sobre os escritos de Meishu-Sama, “A Salvação da América” e “A Bomba Atômica Não É de Se Temer”. Acompanhavam-no representantes da Rádio Tóquio: o locutor Terumasa Mayama e o produtor Akiyoshi Inoue.</p>
@@ -167,5 +319,48 @@ function toggleLang(lang) {
 <p><strong>Meishu-Sama:</strong> Eu tenho uma missão mais importante. Seria um desperdício de meu tempo dedicar-me a salvar indivíduos pessoalmente. Minha tarefa, agora, é formar os milhares de pessoas que salvarão a humanidade.</p>
 <p><strong>Sr. Mayama:</strong> Mas há pessoas em grande sofrimento. O senhor não tem o desejo de...</p>
 <p><strong>Meishu-Sama:</strong> Tenho. Desejo ardentemente ajudá-las. No entanto, se as circunstâncias não o permitem, nada posso fazer. Meu trabalho é formar as “pessoas” que salvarão esses indivíduos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と御対談 (一) 『栄光』266号、昭和29(1954)年7月21日発行 去る四月十五日、日本における英字雑誌アジア・シーンより、御著書「アメリカを救う」および、御論文「原爆恐るるに足らず」につき、読者の依頼により調査の意向を持って、東京特派員ディック・中村氏が、またラジオ東京より、アナウンサー真山照政氏、プロデューサー井上章和氏が、ともに来訪されました。<br/><br/> この日の御引見は、碧雲荘応接間にて行なわれることとなり、一同お待ち申し上げるうちに、午後二時明主様のお出ましを仰いだのであります。<br/><br/>明主様には殊のほか御機嫌麗しく拝され、約二時間にわたり御歓談遊ばされたのであります。<br/><br/> 以下、そのときの御対談の模様をお伝えいたします。<br/><br/> なお、アジア・シーン五月号に「熱海の生き神様」として掲載され、一部は四月二十日ラジオ東京「ラジオスケッチ」の時間に放送されましたことを付記いたします。<br/><br/> 中村氏 教祖がお書きになられた「アメリカを救う」という本につきまして、アメリカの方の読者から、内容状況を知らせてくれということでありまして、私の方で教祖にお会いして話を伺いたいのでまいりました。<br/><br/>ラジオ東京の方も、私の方と一緒に仕事をしておりますので。<br/><br/> 明主様 承知しました。<br/><br/>しかしラジオの方は、私の言うことはあまりに変わっているので、向かないかもしれませんよ。<br/><br/> 井上氏 しかし私の方は「ラジオスケッチ」ということでいたしますので、「いろいろな面からいろいろのことを紹介してゆく」というのでやっております。<br/><br/>それで、結局一般の人に分からなければ分からないままに、一つのことをぶっつけてゆくというわけです。<br/><br/>ですからわれわれとしては批判ということは抜きにしておりますから。<br/><br/> 明主様 それがほんとうです。<br/><br/> 井上氏 ですから、くどいようなことをお聞きすると思いますが。<br/><br/> 中村氏 私の方も無礼講で聞かしていただきます。<br/><br/> 明主様 それがよいです。<br/><br/>私の方も、むしろその方が話しよいです。<br/><br/> 中村氏 私は単なる新興宗教だからということで来たのではないのです。<br/><br/>ただ単なる新興宗教であるなら、幹部の方に会って、それだけで作り上げてしまいます。<br/><br/>しかし私などは単なる新興宗教ではないと思ったので、これは本元に会わなければ分からないと思ったわけなのです。<br/><br/> 明主様 そうです。<br/><br/>だいたい宗教では本当に救われないです。<br/><br/>もし宗教で救われるのなら、もう世界中が、キリスト教か仏教で救われて天国の世になっていなければならないです。<br/><br/>ところが、今もって病気、貧乏、戦争が絶えないということは、それでは救われないということになります。<br/><br/>しかし、なかったらもっとひどい世の中になり、どんな野蛮なことになるか分からないです。<br/><br/>ですから、あれだけのものがあったためにどんなに功績があるかということは言えますが、これ以上のことはないです。<br/><br/>そこで私の方で超宗教的力を持ってやるというわけです。<br/><br/> 活動の源泉力は何か 真山氏 昨日か一昨日まで自動車で京都の方に行かれたそうですが、お疲れにはなりませんでしたか。<br/><br/> 明主様 車は往きだけですが、私はあまり疲れてはいません。<br/><br/> 真山氏 その源泉力と言いますか、源はどこから来るのでしょうか。<br/><br/> 明主様 自然生活です。<br/><br/>私の方の養生法というのはちょっと違います。<br/><br/> 真山氏 例えば、どういうことでしょうか。<br/><br/> 明主様 体は無理をするだけ良いとしているのです。<br/><br/>だから、私はできるだけ無理をしてます。<br/><br/>そうすると自然に鍛えられます。<br/><br/> 真山氏 私などは無理をすると寿命を縮めると言っておりますが。<br/><br/> 明主様 それは現代医学の説です。<br/><br/>しかし本当は、人間は体を酷使するほどよいのです。<br/><br/>スポーツマンはずいぶん無理をしますが、人間は無理をする方がかえって健康になります。<br/><br/>ですから私はその主義で、どこまでもその方針でやってます。<br/><br/>そうして眠ることを少なくしてます。<br/><br/>ですから睡眠不足を奨励してます。<br/><br/>食べ物も、食べたい物を食べたいだけ食べるという主義です。<br/><br/>ですからビタミンとかカロリーということは必要ないのです。<br/><br/> 真山氏 みなさんもたいへん顔色が良いですね。<br/><br/> 明主様 そうです。<br/><br/>これが本当の健康法です。<br/><br/>それを知らないために、間違ったり、弱ったりするのです。<br/><br/>特にはなはだしいのがアメリカですから、そこで私はアメリカの人に分からせようと思って「アメリカを救う」を書いたのです。<br/><br/> 真山氏 それを発見する動機と言いますか、どういうところから。<br/><br/> 明主様 一番最初は自分で肺病を救ったときです。<br/><br/>そのとき私は医者の言うとおりにして、滋養、栄養をウンと摂っていたのです。<br/><br/>それをやろうと思っていろいろ考えた末、そのころ絵をやっていたので、漢方の本を見て、いろんな草根木皮の、なにがなんの薬になるとかあるので、こういう物が薬になるとすると、やはり必要に違いない。<br/><br/>そうすると自分は今まで野菜をいけないとして動物的の物ばかり食べていたが……これで試してみようと思ってやったところがばかに良くて、三カ月ばかりですっかり健康になったのです。<br/><br/>それで西洋医学に疑問を抱き始めたのです。<br/><br/> 真山氏 それが自然に逆らうなという動機というわけですね。<br/><br/> 明主様 そうです。<br/><br/>そうして、大本教に入って、神ということと、霊ということを知ったのです。<br/><br/>霊というのは、物質以外に、見えないけれども立派に実在しているものであって、それがあらゆるものの原因だということを知ったのです。<br/><br/> それで、病気も霊に原因があるので、つまり、霊が曇ると血が濁るのです。<br/><br/>血が濁ったのが毒素になって、そうしてその排除作用が病気だということが分かったので、その根本である霊の曇りを取ると病気も治るのです。<br/><br/>その霊の曇りを取る方法を研究したというよりか、神から教えられたのです。<br/><br/> 真山氏 それがわれわれにはちょっと分からないのですが。<br/><br/> 明主様 そうでしょう。<br/><br/>ですから私が言いたいこと……ではなくて、本当のことを言うと、ちょっと見当がつかないくらい変わってます。<br/><br/>例えばあなた方が、どこか、盲腸なら盲腸が痛いという場合に、こうやって（お手を翳される）いるうちにだんだん痛みがなくなってきて、それで治ってしまうのです。<br/><br/>だから私の方では、盲腸炎などでもたいてい二十分か三十分で全治してしまいます。<br/><br/>毒が原因ですから、それを溶かしてしまえば、それが下痢になって出て、それで治ってしまうのです。<br/><br/> 真山氏 それは科学的根拠はないのですか。<br/><br/> 明主様 これは高級な科学です。<br/><br/>ですから今の科学は程度の低い科学なのです。<br/><br/>例えば黴菌にしても、今は黴菌だけを殺そうとしているのです。<br/><br/>それはたしかに黴菌が病原にはなってます。<br/><br/>しかしその黴菌はどこから来たかということです。<br/><br/>今日伝染ということになってますが、ＡにはＢから、ＢにはＣから……と、うつってきたとしても、結局その元はどこから来たかということになります。<br/><br/>その一人だけが急にわいたわけではないのですから、それを極めないで、黴菌という結果だけに大騒ぎをやって、それを殺そうとしているのです。<br/><br/>ですから因の、生まれてくる子供を生まれてこないようにしなければならないので、そこに気がついたのです。<br/><br/>そこで、その因の因というのは霊の曇りです。<br/><br/>その曇りが、体の熱やいろいろな条件によって、だんだん濃厚になってきて固まるのです。<br/><br/>すべて、濃厚になると固まるということは物質の原則です。<br/><br/>そこである程度固まってくると、そこに一種のバクテリアが自然発生するのです。<br/><br/>このバクテリアというのは植物性無機質ですが、それがだんだん進んでゆくと、無機質から有機質に育つのです。<br/><br/>それが黴菌の子供です。<br/><br/>ですから黴菌を殺すというのは結果であって、曇りを取るというのが根本的です。<br/><br/>ですから肺病なら肺病をやれば治ってしまいますが、それは病気の根源を治すことができるからです。<br/><br/> 真山氏 われわれの考えですと、手術とか、痛い目をして、高い金を使って、治れば結構だが、治らなくても、 明主様 いや、治らないのです。<br/><br/>それはぜんぜん科学ではないからです。<br/><br/>なぜなら、今言うとおり根本の霊の曇りを取るというのが科学的なやり方です。<br/><br/> 真山氏 そうすると、非常に簡単な療法であるわけですね。<br/><br/> 明主様 そうです。<br/><br/>理屈に合っているのです。<br/><br/>ですから私などは赤痢なども少しも恐れないです。<br/><br/>むしろ赤痢になろうとしているのです。<br/><br/>あんな結構なものはないです。<br/><br/> 真山氏 その、手を翳される場合には触れるのですか。<br/><br/> 明主様 いや、いくら離れていてもよいのです。<br/><br/>この光というのは非常に強いのです。<br/><br/>これは原爆よりも強いのです。<br/><br/> 真山氏 そういたしますと、放射能というのは今さかんに問題になってますが、害にはならないわけでございますか。<br/><br/> 明主様 いや、害はあります。<br/><br/>死ぬ者は死にますが、ほうっておけば助かる者は治るのです。<br/><br/> 真山氏 それは教祖がなさらなければならないので、他の人では駄目というので、 明主様 いや、自然にしておけば治ります。<br/><br/>人間の体には、そうやって治す力があるのです。<br/><br/>たとえてみれば、ビタミンが多いとか少ないとか、いろんなことを言ってますが、医学の方では食べ物ばかりに栄養があるように思って、栄養を作る臓器を無視しているのです。<br/><br/>ですから私の方では、食べ物はなんでもよいのです。<br/><br/>それは、菜っ葉ばかりでもオカユばかりでもよいのです。<br/><br/>こういう話があります。<br/><br/>荻生徂徠（おぎゅうそらい）が豆腐屋に下宿していて、二年間オカラばかり食べて研究したということですが、こういうことなどは今の栄養学者には理屈はつかないでしょう。<br/><br/>腹の中の機能が作るということを医学は知らないのです。<br/><br/> 世の中に薬はあるか 真山氏 しかし、薬などは体質に合うとか合わないとか言いますが。<br/><br/> 明主様 だいたい薬という物は世の中には一つもないのです。<br/><br/>薬と称している物はみんな毒なのです。<br/><br/>というのは、私は病気というものは浄化作用と言ってます。<br/><br/>それは体の中にあってはならない物を排除する作用です。<br/><br/>排除するための痛みとか熱で、熱というのは溶かす作用です。<br/><br/>その苦痛を病気と称するのです。<br/><br/>ですから、病気というのは体の一つの掃除の作用で結構なものなのです。<br/><br/>だから私は病気に感謝しなければいけないと言ってます。<br/><br/> 真山氏 病気になれというわけですね。<br/><br/>たまには。<br/><br/> 明主様 たまにはではない。<br/><br/>大いになった方がよいのです。<br/><br/>ですから、風邪をなるだけ引けと言うのです。<br/><br/>ですから、私の方の信者はおかげでやっと風邪を引きましたと言うのです。<br/><br/>それで風邪を引きさえすれば結核などは起こりゃしないです。<br/><br/>風邪を引かないように止めるから結核になるのです。<br/><br/>そうでしょう。<br/><br/>風邪というのは毒の掃除ですから、掃除の起こった場合に、むしろよけい掃除をした方がよけい毒は取れます。<br/><br/>掃除ができます。<br/><br/>今はその掃除を止めて固めるのです。<br/><br/>ですから医者は治るということは言わないので、固めると言います。<br/><br/> 中村氏 今話がありましたが、原爆の放射能を受けた人は。<br/><br/> 明主様 原爆は、なにもしなくてもほうっておけば治ります。<br/><br/> 真山氏 治りますか。<br/><br/> 明主様 治ります。<br/><br/>医学の方でいろんなことをやる、それによって死ぬのです。<br/><br/>ですから医学というのは有害無益な存在です。<br/><br/> 真山氏 そうすると、救世教は医学排斥論というわけですね。<br/><br/> 明主様 ではなく、もっと強い絶対廃止論です。<br/><br/>医学がなくなったら、人間はどのくらい幸福になるか分からないです。<br/><br/> 中村氏 内臓疾患はそうとしまして、外科疾患の場合はいかがでしょうか。<br/><br/> 明主様 と言っても、因はその人に霊的曇りがあるからです。<br/><br/>また外傷したところですぐに治ります。<br/><br/>それは私の方で発行している新聞を読めば分かります。<br/><br/>これを説明するにはなかなか骨なのです。<br/><br/>というのは、あなた方がふつうの頭ならよいですが、科学迷信、医学迷信に固まっているからです。<br/><br/> 真山氏 いや……しかし、 明主様 それなら、私が言う説をすぐ受け入れられますか。<br/><br/>そうはゆかないでしょう。<br/><br/>しかし受け入れても疑問が起こって、不思議で変におもえてしようがないでしょう。<br/><br/> 私は人を救う「人」を作る 真山氏 こうやれば（手を翳す）よいということは、どういうところからお分かりになられたのでしょうか。<br/><br/>神のお告げとか、インスピレーションとかでございますか。<br/><br/> 明主様 勿論そうです。<br/><br/>神様が一種の霊気をくれて、ここから出すというように漠然と考えていたのですが、そのうちにはっきりしてきたのです。<br/><br/>というのは、神様がいろんなことによって教えてくれたのです。<br/><br/>それで今は、こういうことを言うと誤解されるのですが、私は神様だか人間だか分からないです。<br/><br/>奇蹟――不思議なことばかりが毎日あります。<br/><br/> 真山氏 そういたしますと、ふだんは別にどうということはなく、病人に対坐したときに一種霊妙なものが体に漲（みなぎ）るというものでしょうか。<br/><br/>それともふだんのままで。<br/><br/> 明主様 最初はなにか、そういうふうでした。<br/><br/>ところが数年前からお腹に光の玉があるということが分かったのです。<br/><br/>これは見る人もあります。<br/><br/>それで、こうやる場合に、これ（光の玉）から手を通じて出るのです。<br/><br/>それは私がやる場合ですが、弟子がやる場合もこうやりますが、やはりここ（掌）から光が出るのを見る人はたくさんあります。<br/><br/> 真山氏 それはどんなものでございましょうか。<br/><br/> 明主様 白、黄、黄金、とあります。<br/><br/>それが多く子供が見るのです。<br/><br/> 中村氏 純真な者がというわけですね。<br/><br/> 明主様 そうです。<br/><br/>つまり、無心と言うか、潜在意識がないから、かえって信じられます。<br/><br/>それは十二になる子ですが、まだ続いています。<br/><br/> 真山氏 それでは、こうやるのはわれわれでは駄目なわけですね。<br/><br/> 明主様 だれでもよいのです。<br/><br/>それでなければ信者はできません。<br/><br/> 真山氏 それではみなさんそういう域に達しておられるわけですね。<br/><br/> 明主様 域ではないので御守りをかければそうなるのです。<br/><br/>だから、あんまり話がうますぎるのです。<br/><br/> 真山氏 そうですね。<br/><br/>私などにはちょっと信じられません。<br/><br/>そうしますと、今たくさんの金をかけて、全国民が心配していますＴ大病院に入院しております原爆患者ですが、このお話をお聞きになってでございますが、お出かけになって、自分で一つ手がけてごらんになりたいというお考えは。<br/><br/> 明主様 私はもっと重要なことがあるから、個人的に救うという、そういうことはもったいないです。<br/><br/>それよりか私は今、これから何万人を救う人間を作るのです。<br/><br/> 真山氏 しかし、何人かの人たちが非常に困っているのでございますが、そういうお考えは、 明主様 持ってます。<br/><br/>助けてやりたいとはおもいます。<br/><br/>しかし、そうかといって、事情が許さなければしかたがないです。<br/><br/>つまり私は、そういった人を救う「人」を作る仕事です。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju09074</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （九） ５ 074-091 食事 074 御朝食後の甘藷、お茶漬 明主様は御朝食後甘藷を、御就寝前にお茶漬かおしるこを御召上りの由承りましたが、これにはどのような効果がありましょうか。<br><br> 効果より、栄養が多過ぎるから調節せられるのである。<br><br>今の人は栄養過重で病気になる人が多い。<br><br>野菜は霊が強い。<br><br>肉や魚は体的栄養が強い。<br><br>（S24.12. 3） 075 栄養食総論 栄養食の摂取は病人に良いことと存じますが、いかがなものでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 医学の栄養食はより完成した食物で、人間の身体は完成した食物が入ると機能は働かなくてよい。<br><br>未完成なものを完成せしむる働きが臓器であって――。<br><br>（勿論極端に弱ってる時はある程度完成食物を与えてもよい） 果物など汁気のあるものがよい。<br><br>（林檎より蜜柑の方がよい）医学は西洋人の食物や身体を元にしている。<br><br>（胃の弱い人に餡こはいけないというが、これは西洋人にないから医学書にもない）大先生の方は霊気の強い事を栄養という。<br><br>これは身体の力になる。<br><br>日本は霊気が強いから栄養の強いものがあり、西洋は霊気が弱いから本当の栄養食はない。<br><br>（洋菜など地霊が少い。<br><br>松茸など最も霊気が強い） （胃潰瘍は流動物にする） 下痢の場合、便と相応したものを食わす。<br><br>ジャガ芋など精力が少ない。<br><br>汁気のあるのが栄養は強い。<br><br>故に柑橘類など強い。<br><br> （香りの高いものは強い）（S23.11.18） 076 食物の霊気と元気 食物を食べると、その霊気が体内に漲るため急に元気が出るのだと伺っておりますが、御仏壇にお供えした後、有難いと申して食べておりますが、この場合、霊気を吸収された後の食物と普通の食物との体内に及ぼす影響についてお伺い申し上げます。<br><br>また食物の霊気と、医学上言われている栄養素との関係について御教えを御願い申し上げます。<br><br> 食物の霊気のみでなく身体の中の機械が働き出すから元気が出る。<br><br>活動するには食――。<br><br>霊気は人間の霊体へ入るので、一時的元気になるから、霊気の強い物を食べた方がよい。<br><br> 仏様に上げた物はまずい。<br><br>神様に上げた物はうまい。<br><br>（S25. 1.11） 077 にんにくと食餌法 「にんにく」には薬毒と云う事はございませんでしょうか。<br><br> 薬毒はないが、臭いものを沢山食ってはいけない。<br><br>味のないものは沢山食わなくてはいけない。<br><br>次に味の薄いもの。<br><br>強いものは少し食べる。<br><br> 子供のうちから食べているのは慣れてるからよい。<br><br> 神様に上げるのは嫌う、臭いから。<br><br>（S24. 5.13） 078 食物と性格 ある信者の弟（二十八歳）で御座いますが、数年前より朝食三合三勺を食べ、昼食と夕食は普通の食事をとらず紅茶を湯沸し一杯（一升位）飲みます。<br><br>このような偏食を致しますようになりましてから当人の性質が次第に陰気に変り、家族の者ともめったに話を致しません。<br><br>かかる偏食は体質にどのように影響致しますもので御座いましょうか。<br><br>お伺い申し上げます。<br><br> 食物は性格に影響する。<br><br>菜食を三ケ月やった事があるが、物質欲が薄くなり、静かな所で隠遁的になる。<br><br> 肉食と菜食の違いは動物で判る。<br><br>鳥でも、鶯は生食であり、目白、カナリヤなどは植物性のものを摂る。<br><br>飛ぶのでも植物性を食うものは遅い。<br><br> 魚屋は威勢がよく、八百屋は威勢が悪い。<br><br>（S25. 3.22） 079 牛乳と日本人 生後母乳なく牛乳または山羊乳で育てた子供は普通の者に較べて何か変った点が出ては参りませんでしょうか。<br><br>御伺いさせて頂きます。<br><br> 日本人と西洋人とは根本的に違う。<br><br>日本人は獣乳で育てるのは違う。<br><br>唯物的になりやすい。<br><br>身体が弱いとか、大きくなって病気が出やすい。<br><br>牛乳の中の獣の部分が一所へ集っておデキになる。<br><br>それが牛乳の毒分である。<br><br>外人はそうではない。<br><br>祖先からそうなっているし、霊的に違う。<br><br>（S24. 8.22） 080 偏食の嗜好 家族八人中四人は信者になっておりますが、全員好んで日頃より生米の製粉や御茶の葉等を赤ん坊に迄食べさせており、止めようとしても我慢が出来ないので、平素よりそれを用意しておかねばならぬとの事ですが、いかなる理由でしょうか。<br><br>光明如来様を御祀りしてありますが未だに直りません。<br><br> 嗜好だから、それでいい。<br><br>（S24.11.17） 081 茶葉を好んで噛む（霊） お茶の葉を常にそのまま噛んでおる者があります。<br><br>近頃では次第に顔面が青白くなりました。<br><br>再三注意致しますが聞きません。<br><br>どうしたものでしょう。<br><br> 好きなものは仕方ない。<br><br>よく蜜柑の好きな人は黄色くなるのがある。<br><br> 霊に関係がある。<br><br>ある時期までである。<br><br>何か必要がある。<br><br>（S24. 2.16） 082 豆腐のみ食べる子 五歳になる男の子で御座いますが、乳離れをして食事をするようになりましてから、御飯を食べずに豆腐ばかり食べており、健康でおりますが、霊的に何か御座いますでしょうか。<br><br>また御浄霊で治るもので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> よくこういう事があるが、自然に治る。<br><br>壁土など食う子供もある。<br><br>（S24. 7.12） 083 嗜好と副霊（脳力と鼻） 煙草、茶等を非常に好む人が御座いますが、これは酒飲みに龍神、天狗等がいるように何かの憑依霊のためと存じますが、いかがでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> そうではない。<br><br>その人の身体の内部の必要上好む。<br><br>煙草はともかくお茶はそうである。<br><br> 煙草は癖である。<br><br>好むのは内部の器能が要求する。<br><br>煙草は喫むと頭がよくなる。<br><br>頭の悪い人には喫ますとよい。<br><br>（吸うのはよく、呑み込むのはわるい）子供でよく口を開けっ放しのものがあるが、こういうのは鼻が高くならぬ。<br><br>馬鹿面している。<br><br>鼻が悪いと頭が悪くなる。<br><br>鼻と頭は関係がある。<br><br>（S24. 1.18） 084 薬として食う事 柿や茄子は浄化作用を促進させると承っておりますが、それはそれらが時期に適し、効果があり、これらを薬物のごとく常時使用する、との考え方は間違っているので御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 間違っている。<br><br>食物はうまければ食えばいい。<br><br>薬と思って食うのは嘘である。<br><br>沢山なる事は沢山食えとの御主旨である。<br><br>食べたいだけ食べればよい。<br><br> 薬は世の中にない。<br><br>（S24. 6.23） 085 卵と麻疹 最近当地に麻疹が流行しておりますが、鶏卵を食べさせると経過が長引きます。<br><br>医師に聞くと、毒になるのだろうが、科学的には解らないと申します。<br><br>これはいかがな訳で御座居ましょうか。<br><br> 卵と麻疹の関係は知らない。<br><br>（S25. 3. 3） 086 腫物に馬鈴薯とうどん粉 腫物には ジャガ芋とウドン粉とを練り合せて付けると多量に排膿し、あとにもならないと申しますが、いかなる訳で御座いましょうか。<br><br> 説明の要はない。<br><br>うどん粉で治るなら、うどん粉の方が神様より偉い事になる。<br><br>（S24. 6. 3） 087 病人へ与えるべき野菜 病人が野菜を多食致します時、どういう野菜が一番宜しいでしょうか。<br><br> 好きなものがよい。<br><br>果物がいけないのは下痢の時だけである。<br><br>（S24. 2. 3） 088 黄疸と蜆 黄疸に蜆（しじみ）がよいとされていますが、どうでしょうか。<br><br> 差支えはないが、食べたくなければ食べぬ方がよい。<br><br> 黄疸は肝臓の圧迫――。<br><br>（外部） 胃へ輸胆管により胆汁が注がれる。<br><br>そして食物の消化が助けられる。<br><br> 肝の毒塊は蜆では減らぬ。<br><br> 蜆は食っても食わなくともよい。<br><br>ただ美味しくて食いたければ食ってもよいが、薬だからというので食うのは嘘である。<br><br> 089 絶食期間 八年前富士教を信仰し、その時私の屋敷内で武士が腹を切って死んでいるとの事で、富士徳寿明神とある行者が祭り込みしてありますが、それから開腹手術を致しており、今度たびたびの浄化にて、都度御守護御願ひ致しましたところ、最近その霊が出て本人に憑ってまいりました。<br><br>後は口頭にて申し上げます。<br><br> 衰弱さえなければ食物が入らなくてもよい。<br><br>今少しくそのままにして様子をみておく。<br><br>何か訳がある。<br><br>何十年食わなくとも何ともない人もある。<br><br>いろいろ実例がある。<br><br>（ある女、十年以上飲まず食わずでいた。<br><br>薬瓶に水を入れ布をかけておくと病気の時薬になるという。<br><br>神様拝んでるだけ――。<br><br>最近ドイツで約二十二年飲食せぬ人があった）（S23.12.21） 090 大食して痩せる、倦怠 二十一歳の男子、食事は普通以上にとりますが非常に痩せていて太れません。<br><br>身体は常に倦怠を感ずる程度ですが、いかなる訳でございましょうか。<br><br> 熱が始終あると痩せる。<br><br>熱は消耗する。<br><br>（頸周り、肩に熱があると痩せる）（S24. 7.29） 091 食欲と熱 四女住枝（すみえ）（七歳）、風邪の御浄化で大した事もなく過ごさせて頂いて参りましたが、去る十二日夜吐瀉致しましてより床につき、御浄霊のお蔭で蛔虫二匹が口より出ました。<br><br>左腹膜より胃にかけて張って参りましたが、大分よくなりました。<br><br>頸部、肩の凝りがひどく、熱は特別に高熱ではありませんが頭痛が続いております。<br><br>咳は時々出るようになりましたが、痰は出ません。<br><br>十六日昼現在までみかん、リンゴ、少量の御茶、砂糖湯以外は口に入れません。<br><br>食欲が無いので困っております。<br><br>光明如来様に御願いして御浄霊を続けております。<br><br>何卒宜しく御守護をお願い申し上げます。<br><br> 食欲のないのは熱のためである。<br><br>（S25. 2.18）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Reverendo Okada Jikanshi - A Arte da Cura (Parte 9): Alimentação</h2>
 <p><strong>074 - Batata-doce e Ochazuke após as Refeições</strong></p>
@@ -157,5 +309,48 @@ function toggleLang(lang) {
 <p><strong>091 - Apetite e Febre</strong></p>
 <p><strong>Pergunta:</strong> Minha quarta filha, Sumie, de sete anos, vinha passando por uma purificação de resfriado sem maiores complicações. Contudo, na noite do dia 12, ela vomitou e ficou de cama. Graças ao Johrei, expeliu dois vermes pela boca. Houve um inchaço do peritônio esquerdo até o estômago, mas já melhorou bastante. A rigidez no pescoço e nos ombros é intensa, e a dor de cabeça persiste, embora a febre não seja especialmente alta. A tosse, que passou a ocorrer esporadicamente, não produz catarro. Desde o meio-dia do dia 16 até agora, ela não aceitou nada além de tangerina, maçã, um pouco de chá e água com açúcar. A falta de apetite nos preocupa. Continuamos ministrando Johrei e rogando a Komyō Nyorai (光明如来様). Imploro por sua proteção.</p>
 <p><strong>Meishu-Sama:</strong> A falta de apetite se deve à febre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （九） ５ 074-091 食事 074 御朝食後の甘藷、お茶漬 明主様は御朝食後甘藷を、御就寝前にお茶漬かおしるこを御召上りの由承りましたが、これにはどのような効果がありましょうか。<br/><br/> 効果より、栄養が多過ぎるから調節せられるのである。<br/><br/>今の人は栄養過重で病気になる人が多い。<br/><br/>野菜は霊が強い。<br/><br/>肉や魚は体的栄養が強い。<br/><br/>（S24.12. 3） 075 栄養食総論 栄養食の摂取は病人に良いことと存じますが、いかがなものでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 医学の栄養食はより完成した食物で、人間の身体は完成した食物が入ると機能は働かなくてよい。<br/><br/>未完成なものを完成せしむる働きが臓器であって――。<br/><br/>（勿論極端に弱ってる時はある程度完成食物を与えてもよい） 果物など汁気のあるものがよい。<br/><br/>（林檎より蜜柑の方がよい）医学は西洋人の食物や身体を元にしている。<br/><br/>（胃の弱い人に餡こはいけないというが、これは西洋人にないから医学書にもない）大先生の方は霊気の強い事を栄養という。<br/><br/>これは身体の力になる。<br/><br/>日本は霊気が強いから栄養の強いものがあり、西洋は霊気が弱いから本当の栄養食はない。<br/><br/>（洋菜など地霊が少い。<br/><br/>松茸など最も霊気が強い） （胃潰瘍は流動物にする） 下痢の場合、便と相応したものを食わす。<br/><br/>ジャガ芋など精力が少ない。<br/><br/>汁気のあるのが栄養は強い。<br/><br/>故に柑橘類など強い。<br/><br/> （香りの高いものは強い）（S23.11.18） 076 食物の霊気と元気 食物を食べると、その霊気が体内に漲るため急に元気が出るのだと伺っておりますが、御仏壇にお供えした後、有難いと申して食べておりますが、この場合、霊気を吸収された後の食物と普通の食物との体内に及ぼす影響についてお伺い申し上げます。<br/><br/>また食物の霊気と、医学上言われている栄養素との関係について御教えを御願い申し上げます。<br/><br/> 食物の霊気のみでなく身体の中の機械が働き出すから元気が出る。<br/><br/>活動するには食――。<br/><br/>霊気は人間の霊体へ入るので、一時的元気になるから、霊気の強い物を食べた方がよい。<br/><br/> 仏様に上げた物はまずい。<br/><br/>神様に上げた物はうまい。<br/><br/>（S25. 1.11） 077 にんにくと食餌法 「にんにく」には薬毒と云う事はございませんでしょうか。<br/><br/> 薬毒はないが、臭いものを沢山食ってはいけない。<br/><br/>味のないものは沢山食わなくてはいけない。<br/><br/>次に味の薄いもの。<br/><br/>強いものは少し食べる。<br/><br/> 子供のうちから食べているのは慣れてるからよい。<br/><br/> 神様に上げるのは嫌う、臭いから。<br/><br/>（S24. 5.13） 078 食物と性格 ある信者の弟（二十八歳）で御座いますが、数年前より朝食三合三勺を食べ、昼食と夕食は普通の食事をとらず紅茶を湯沸し一杯（一升位）飲みます。<br/><br/>このような偏食を致しますようになりましてから当人の性質が次第に陰気に変り、家族の者ともめったに話を致しません。<br/><br/>かかる偏食は体質にどのように影響致しますもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 食物は性格に影響する。<br/><br/>菜食を三ケ月やった事があるが、物質欲が薄くなり、静かな所で隠遁的になる。<br/><br/> 肉食と菜食の違いは動物で判る。<br/><br/>鳥でも、鶯は生食であり、目白、カナリヤなどは植物性のものを摂る。<br/><br/>飛ぶのでも植物性を食うものは遅い。<br/><br/> 魚屋は威勢がよく、八百屋は威勢が悪い。<br/><br/>（S25. 3.22） 079 牛乳と日本人 生後母乳なく牛乳または山羊乳で育てた子供は普通の者に較べて何か変った点が出ては参りませんでしょうか。<br/><br/>御伺いさせて頂きます。<br/><br/> 日本人と西洋人とは根本的に違う。<br/><br/>日本人は獣乳で育てるのは違う。<br/><br/>唯物的になりやすい。<br/><br/>身体が弱いとか、大きくなって病気が出やすい。<br/><br/>牛乳の中の獣の部分が一所へ集っておデキになる。<br/><br/>それが牛乳の毒分である。<br/><br/>外人はそうではない。<br/><br/>祖先からそうなっているし、霊的に違う。<br/><br/>（S24. 8.22） 080 偏食の嗜好 家族八人中四人は信者になっておりますが、全員好んで日頃より生米の製粉や御茶の葉等を赤ん坊に迄食べさせており、止めようとしても我慢が出来ないので、平素よりそれを用意しておかねばならぬとの事ですが、いかなる理由でしょうか。<br/><br/>光明如来様を御祀りしてありますが未だに直りません。<br/><br/> 嗜好だから、それでいい。<br/><br/>（S24.11.17） 081 茶葉を好んで噛む（霊） お茶の葉を常にそのまま噛んでおる者があります。<br/><br/>近頃では次第に顔面が青白くなりました。<br/><br/>再三注意致しますが聞きません。<br/><br/>どうしたものでしょう。<br/><br/> 好きなものは仕方ない。<br/><br/>よく蜜柑の好きな人は黄色くなるのがある。<br/><br/> 霊に関係がある。<br/><br/>ある時期までである。<br/><br/>何か必要がある。<br/><br/>（S24. 2.16） 082 豆腐のみ食べる子 五歳になる男の子で御座いますが、乳離れをして食事をするようになりましてから、御飯を食べずに豆腐ばかり食べており、健康でおりますが、霊的に何か御座いますでしょうか。<br/><br/>また御浄霊で治るもので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> よくこういう事があるが、自然に治る。<br/><br/>壁土など食う子供もある。<br/><br/>（S24. 7.12） 083 嗜好と副霊（脳力と鼻） 煙草、茶等を非常に好む人が御座いますが、これは酒飲みに龍神、天狗等がいるように何かの憑依霊のためと存じますが、いかがでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> そうではない。<br/><br/>その人の身体の内部の必要上好む。<br/><br/>煙草はともかくお茶はそうである。<br/><br/> 煙草は癖である。<br/><br/>好むのは内部の器能が要求する。<br/><br/>煙草は喫むと頭がよくなる。<br/><br/>頭の悪い人には喫ますとよい。<br/><br/>（吸うのはよく、呑み込むのはわるい）子供でよく口を開けっ放しのものがあるが、こういうのは鼻が高くならぬ。<br/><br/>馬鹿面している。<br/><br/>鼻が悪いと頭が悪くなる。<br/><br/>鼻と頭は関係がある。<br/><br/>（S24. 1.18） 084 薬として食う事 柿や茄子は浄化作用を促進させると承っておりますが、それはそれらが時期に適し、効果があり、これらを薬物のごとく常時使用する、との考え方は間違っているので御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 間違っている。<br/><br/>食物はうまければ食えばいい。<br/><br/>薬と思って食うのは嘘である。<br/><br/>沢山なる事は沢山食えとの御主旨である。<br/><br/>食べたいだけ食べればよい。<br/><br/> 薬は世の中にない。<br/><br/>（S24. 6.23） 085 卵と麻疹 最近当地に麻疹が流行しておりますが、鶏卵を食べさせると経過が長引きます。<br/><br/>医師に聞くと、毒になるのだろうが、科学的には解らないと申します。<br/><br/>これはいかがな訳で御座居ましょうか。<br/><br/> 卵と麻疹の関係は知らない。<br/><br/>（S25. 3. 3） 086 腫物に馬鈴薯とうどん粉 腫物には ジャガ芋とウドン粉とを練り合せて付けると多量に排膿し、あとにもならないと申しますが、いかなる訳で御座いましょうか。<br/><br/> 説明の要はない。<br/><br/>うどん粉で治るなら、うどん粉の方が神様より偉い事になる。<br/><br/>（S24. 6. 3） 087 病人へ与えるべき野菜 病人が野菜を多食致します時、どういう野菜が一番宜しいでしょうか。<br/><br/> 好きなものがよい。<br/><br/>果物がいけないのは下痢の時だけである。<br/><br/>（S24. 2. 3） 088 黄疸と蜆 黄疸に蜆（しじみ）がよいとされていますが、どうでしょうか。<br/><br/> 差支えはないが、食べたくなければ食べぬ方がよい。<br/><br/> 黄疸は肝臓の圧迫――。<br/><br/>（外部） 胃へ輸胆管により胆汁が注がれる。<br/><br/>そして食物の消化が助けられる。<br/><br/> 肝の毒塊は蜆では減らぬ。<br/><br/> 蜆は食っても食わなくともよい。<br/><br/>ただ美味しくて食いたければ食ってもよいが、薬だからというので食うのは嘘である。<br/><br/> 089 絶食期間 八年前富士教を信仰し、その時私の屋敷内で武士が腹を切って死んでいるとの事で、富士徳寿明神とある行者が祭り込みしてありますが、それから開腹手術を致しており、今度たびたびの浄化にて、都度御守護御願ひ致しましたところ、最近その霊が出て本人に憑ってまいりました。<br/><br/>後は口頭にて申し上げます。<br/><br/> 衰弱さえなければ食物が入らなくてもよい。<br/><br/>今少しくそのままにして様子をみておく。<br/><br/>何か訳がある。<br/><br/>何十年食わなくとも何ともない人もある。<br/><br/>いろいろ実例がある。<br/><br/>（ある女、十年以上飲まず食わずでいた。<br/><br/>薬瓶に水を入れ布をかけておくと病気の時薬になるという。<br/><br/>神様拝んでるだけ――。<br/><br/>最近ドイツで約二十二年飲食せぬ人があった）（S23.12.21） 090 大食して痩せる、倦怠 二十一歳の男子、食事は普通以上にとりますが非常に痩せていて太れません。<br/><br/>身体は常に倦怠を感ずる程度ですが、いかなる訳でございましょうか。<br/><br/> 熱が始終あると痩せる。<br/><br/>熱は消耗する。<br/><br/>（頸周り、肩に熱があると痩せる）（S24. 7.29） 091 食欲と熱 四女住枝（すみえ）（七歳）、風邪の御浄化で大した事もなく過ごさせて頂いて参りましたが、去る十二日夜吐瀉致しましてより床につき、御浄霊のお蔭で蛔虫二匹が口より出ました。<br/><br/>左腹膜より胃にかけて張って参りましたが、大分よくなりました。<br/><br/>頸部、肩の凝りがひどく、熱は特別に高熱ではありませんが頭痛が続いております。<br/><br/>咳は時々出るようになりましたが、痰は出ません。<br/><br/>十六日昼現在までみかん、リンゴ、少量の御茶、砂糖湯以外は口に入れません。<br/><br/>食欲が無いので困っております。<br/><br/>光明如来様に御願いして御浄霊を続けております。<br/><br/>何卒宜しく御守護をお願い申し上げます。<br/><br/> 食欲のないのは熱のためである。<br/><br/>（S25. 2.18）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

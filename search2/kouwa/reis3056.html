@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis3056</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ５ 056-068 一般動物霊 056 鶏の供養と殺生 なお同家で農業のかたわら二十年以前より養鶏を営み、一時孵化事業を致し、その時雄雛を生きているままのを煮て鶏に与え、また時々鶏を殺して食した事等が気になっています。<br><br>供養致したいと思います。<br><br>いかように致したらよろしいでしょうか。<br><br> また前項の病気と何か関係が御座居ますのでしょうか。<br><br>あわせて御教示をお願い申し上げます。<br><br> 大した事はない。<br><br>鶏は人間に食われるためにあるが、沢山殺したり食ったりすると祟る事がある。<br><br>気になったら供養してやるといい。<br><br>「万鶏の霊」と木札へ書き、光明如来様の横の方へ、台か何かの上に載せ、鶏の餌を供え年に一ぺん日を決めて、善言讃詞を奏げ、幽世大神に「殺した鶏の霊の御守護願います。<br><br>人間に因縁があったら一日も早く人間に生れしめ給へ」と祈る。<br><br>（S24. 6.18） 057 家畜の祀り 三つ口は治る。<br><br> 家畜を殺す時年一回位祀ってやる。<br><br>お盆などいい。<br><br>お盆ならその最後の日（十六日）がいい。<br><br> 白木の長方形を作り「諸魚鳥の霊」とかき、真中へおき、祭壇を作り、上等にすればお宮である。<br><br>そういうものの餌―人間とは違う―を上げて、人間のため善い事してくれたと礼言う。<br><br>今日は慰めるから、そのつもりでいろといって、祝詞を奏げ、幽世大神にお願いする。<br><br>（S23） rattail（注） 〔 超人間的の業 『光』20号、昭和24(1949)年7月30日発行〕 「私は営業のため牛、馬、羊、豚その他の家畜をそうとう殺すのでこれらの霊を供養してやりたいと思いますがどういう方法で供養したらよろしいでしょうか。<br><br>」 『これは家の中ではいけない。<br><br>外へ小さい祠（ほこら）を立て木札に「諸々の獣霊の神」と書いて、年に一度牛馬の好む食物を選んで供えてやり、善言讃詞を唱えて幽世の大神様に早く人間に生まれてくるようにお願いする。<br><br>畜生には人霊が畜生道へおちたものが多いからである。<br><br>』 058 家畜の死んだ場合 鶏、豚、兎等家畜の死んだ場合、供養はいかように致しましたら宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 人の踏まぬ所へ埋けてやる。<br><br>祝詞を奏げ、幽世大神に人間に生れるようお願いする。<br><br>（あまり上等に祀ると反っていけない。<br><br>猫、犬は石でも置いて祀る）（S24. 2.21） 059 猫霊の祀り 当年九才になる女が現在普通に言葉が使えません。<br><br>三才の頃中耳炎と下痢が半年位続きました。<br><br>現在も耳から膿が出ております。<br><br>母親が昨年教修を頂き光明如来様をお祭りさせて頂いております。<br><br>去る十一日御神前で御浄霊中、子供が光明如来様の前やその辺に猫が澤山いて怖い怖いと申しました。<br><br>御浄霊が終るとお腹から猫が出て行き大変楽になったと申します。<br><br>他人の家も見境がなく困っておりますがいかなる訳が御座いましょうか。<br><br> 膿が出てるから膿が固まって邪魔しているのだと思う。<br><br>猫の霊が憑いている。<br><br>小さな板へ「黒の霊」または単に「猫の霊」とかき、光明如来様の向って左へ小さい台をして安置するとよい。<br><br>毎日御礼の後でちょっと頭を下げる。<br><br>そして光明如来様にお願いして早く人間に生れて来るよう祈ってやるとよい。<br><br>（S24. 3.19） 060 鼠霊の供養（鼠取器製作者） 私の工場で鼠取器を製作致しておりますが、入信以来殺生はよくないと承っておりますので、供養してやりたいと思いますが、いかにしたら宜敷いでしょうか。<br><br>御教示下さい。<br><br> 供養してやった方がよい。<br><br>光明如来様の前へ置いてやる。<br><br>「万鼠の霊」として祝詞を奏げ食物をやる。<br><br>年に一回か二回やると功徳になる。<br><br> 幽世大神守給へ幸倍給へ。<br><br>（S24. 5.15） 061 馬を葬る 北海道北見方面では、馬が死んだ場合、南無馬頭観世音の墓と書いて畠のすみに埋めて置きますが、いかがなものでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> これはこれでよい。<br><br>しかし行きすぎである。<br><br>近くに埋めるのが本当である。<br><br>わるい事はないがそれだけ霊界で苦しむ。<br><br>相応の理による。<br><br>（S25. 5.23） 062 牛頭の斑点胸に表わる 現在十七才の男子、最近急に腹部が重く苦しく、着物や布団もかけられぬ状態が一週間程続き、爾後心臓病となり、毎夜十一時より三時頃迄発作が起り苦しんでおりました。<br><br>御浄霊を致しましたところ、身体を慄わせて霊の憑依現象を現わし、胸に丁度牛の頭の形をした斑点が出、程なく消えました。<br><br>爾来発作は止みましたが健康は恢復致しません。<br><br>丁度六年程前に非常に利口な牛がおりましたが、難産で死亡致しました。<br><br>その子は家人が大切に育て、妻女（病人の母親）の胸に顔をすりつける程慣れておりましたが、他家へ渡すと程なく死亡したそうで御座います。<br><br>この親子の牛の霊と何か関係が御座居ましょうか。<br><br>また、これをお祀り致しますにはどう致しましたら宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> 牛の霊である。<br><br>祀ってやればなおいい。<br><br>牛という字をつけた方がよい。<br><br>親子牛明神でもいい。<br><br>牛の好きなものを上げ、祝詞を上げてやる。<br><br>早く人間に生れ代るよう願う。<br><br>三月位で撤去する。<br><br>それで牛は救われる―。<br><br>（S24. 5.21） 063 死亀の処置について（病起す） ある二十五才の信者の青年で御座いますが、池の中に亀を飼っておりますが、その亀が急に死んで終いましたので川に流して終いましたが、気にかかって流した死体を拾って来て、便所の裏に埋めて御座いますが、その頃より左の耳が全然聞えなくなりました。<br><br>死んだ亀と何か関係が御座居ましょうか。<br><br>御教を御願い申し上げます。<br><br> 龍神とは関係ない。<br><br>埋めたのを掘って、川へ流した方がよい。<br><br>亀は水生動物であるから、亀自身、水へ流して貰った方がよいのである。<br><br>土へ埋まるのを嫌がったもので、ホジって元通り川へ流してやる。<br><br>（S25. 2. 2） 064 魚の供養様式 魚の網元をしている信者です。<br><br>どんなお祭をしたらよろしいでしょうか。<br><br>御伺いいたします。<br><br>供養の方法、お祭り方法を御示し下さいませ。<br><br> 年に一遍日を定め供養の祀りをする。<br><br>形式は構わぬ。<br><br>（神仏道いずれでもよい）祭壇を作り位牌型の桧の板へ「万魚の霊」とでも書き、真中に置き、海の魚なら塩水、淡水海なら清水、水菓子、生米、うどん粉、麦、麩、団子のごときものを上げ、善言讃詞を奏げ―なるべく多勢がよい―幽世大神にお願いする。<br><br> 漁村には眼の悪い者が多い。<br><br>これは塩水の反射によるというが、魚の祟りも多い。<br><br>鰻など特に祟る。<br><br>みみずなども祟る。<br><br>これは龍の一種である。<br><br>（S23.10.19） 065 魚供養 魚供養とはいかようにして致すもので御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 魚は沢山になると怨みが一つの塊になる。<br><br>特にアナゴのごとく長い魚、これらは龍神の転化したものであるから、いくらか祟る事がある。<br><br>それで魚を供養する要がある。<br><br>それは「魚族の霊」とする。<br><br>（S25. 2. 2） 066 鰻霊の祟り（祀り方） ある鰻屋の妻が腹部の病気で二回も開腹手術を致し、その後健康勝れず、この度御浄霊を受けましたところ、身体をくねらせて霊の憑依状態となり、御浄霊中その婦人には鰻の首が無数に見えるそうで御座います。<br><br>鰻の霊を祀るにはどう致しましたら宜敷う御座いましょうか。<br><br>また、鳥屋、スッポン屋等の家庭に不具者が出ますが、霊の祟りと存じますが、その霊の供養の方法を御教え賜りたく御願い申し上げます。<br><br> 多数の鰻で、鰻は龍であるから、沢山の霊が一つの塊になる。<br><br>そして素晴しい大きい鰻となる。<br><br>年に一回鰻供養をする。<br><br>新しいカメ（盥）を作り、水を入れて、その上へ字をかいてやる。<br><br>供物を供え、祝詞を奏げ、因縁あるものなら人間に生れるよう幽世の大神様にお願いしてやる。<br><br>（S24. 3. 1） rattail（注） 〔 妙智の鍵（実生分会４月号） 、昭和24(1949)年4月20日発行〕掲載 067 鰻について（供養） 鰻。<br><br> 鰻は龍神の変化したものである。<br><br> 耳のある鰻は絶対殺してはいけない。<br><br>これは蟠龍という。<br><br>これを殺すと一家死に絶える。<br><br> 鰻でも祟るのと祟らぬのとあるが、普通の鰻も沢山殺すうちに怨みのようなものが溜るから、一年に一遍位供養するといい。<br><br>方法は鰻の憑依するようなもの（白木の戒名のごとし）を作って、戒名―何々明神と書いて、少し高い所へ置いて、いろんな物を上げてやる。<br><br>そして「お前のお蔭で商売が出来た。<br><br>あなた方鰻に対し、供養するつもりだ」と、月に一遍日を決めて祝詞を奏げてやる。<br><br>そして水をやるといい。<br><br> 068 鯉霊の祀り ある信者の家で次々祟りがあったところ、浄霊致します中に、古い鯉の霊が憑依しておる事が判りました。<br><br>そうして地下一尺掘って祀って欲しいとの事ですが、いかように祀らせて頂きましたら宜しいでしょうか。<br><br> 霊の希望通り祭ってやればよい。<br><br>しかし人間と同じ扱いは出来ぬ。<br><br>自然石へ鯉の霊と文字をほってやればよい。<br><br>または板へ鯉の霊とか、「真鯉大明神」とかいてやり、人間の踏まない清い所がよい。<br><br>石でも目印にしておいてやればなお喜ぶ。<br><br> 鯉は霊的に普通の魚と違って位がある。<br><br>鯉は流れなど昇るのが好きである。<br><br>善言讃詞を唱え「幽世大神守給へ幸へ給へ」と唱えてやる。<br><br>お祭りは一回してやればよい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Mestre Jikan Okada – Pesquisa de Ensinamentos: Documentos Auxiliares – Volume sobre Ofícios Espirituais, Terceira Parte, 5, 056-068</h2>
 <h2>Espíritos de Animais em Geral</h2>
@@ -140,5 +292,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> Na casa de um fiel, ocorria uma sucessão de infortúnios. Durante o Johrei, revelou-se que o espírito de uma carpa antiga estava atuando como obsessor. O espírito manifestou o desejo de ser reverenciado em um local a um <em>shaku</em> (aproximadamente 30 centímetros) de profundidade no solo. Como devemos proceder com este ofício?</p>
 <p><strong>Resposta:</strong> Atendam ao desejo do espírito. Contudo, não se pode conceder-lhe o mesmo tratamento que a um ser humano. Podem gravar as palavras “Espírito da Carpa” em uma pedra natural. Outra opção é utilizar uma placa de madeira com a mesma inscrição ou com o nome “Magoi Daimyojin” (真鯉大明神), que significa “Grande Divindade da Carpa Negra”. O local deve ser puro, onde as pessoas não costumem pisar. O espírito ficará ainda mais satisfeito se o ponto for demarcado com uma pedra.</p>
 <p>As carpas possuem uma hierarquia espiritual superior à dos peixes comuns, pois apreciam nadar contra a correnteza. Entoem a Oração das Palavras de Bem e Louvor, seguida pela prece: “Ó, Deus do Mundo Oculto, concedei Vossa proteção e Vossa bênção”. O ofício necessita ser realizado apenas uma vez.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ５ 056-068 一般動物霊 056 鶏の供養と殺生 なお同家で農業のかたわら二十年以前より養鶏を営み、一時孵化事業を致し、その時雄雛を生きているままのを煮て鶏に与え、また時々鶏を殺して食した事等が気になっています。<br/><br/>供養致したいと思います。<br/><br/>いかように致したらよろしいでしょうか。<br/><br/> また前項の病気と何か関係が御座居ますのでしょうか。<br/><br/>あわせて御教示をお願い申し上げます。<br/><br/> 大した事はない。<br/><br/>鶏は人間に食われるためにあるが、沢山殺したり食ったりすると祟る事がある。<br/><br/>気になったら供養してやるといい。<br/><br/>「万鶏の霊」と木札へ書き、光明如来様の横の方へ、台か何かの上に載せ、鶏の餌を供え年に一ぺん日を決めて、善言讃詞を奏げ、幽世大神に「殺した鶏の霊の御守護願います。<br/><br/>人間に因縁があったら一日も早く人間に生れしめ給へ」と祈る。<br/><br/>（S24. 6.18） 057 家畜の祀り 三つ口は治る。<br/><br/> 家畜を殺す時年一回位祀ってやる。<br/><br/>お盆などいい。<br/><br/>お盆ならその最後の日（十六日）がいい。<br/><br/> 白木の長方形を作り「諸魚鳥の霊」とかき、真中へおき、祭壇を作り、上等にすればお宮である。<br/><br/>そういうものの餌―人間とは違う―を上げて、人間のため善い事してくれたと礼言う。<br/><br/>今日は慰めるから、そのつもりでいろといって、祝詞を奏げ、幽世大神にお願いする。<br/><br/>（S23） rattail（注） 〔 超人間的の業 『光』20号、昭和24(1949)年7月30日発行〕 「私は営業のため牛、馬、羊、豚その他の家畜をそうとう殺すのでこれらの霊を供養してやりたいと思いますがどういう方法で供養したらよろしいでしょうか。<br/><br/>」 『これは家の中ではいけない。<br/><br/>外へ小さい祠（ほこら）を立て木札に「諸々の獣霊の神」と書いて、年に一度牛馬の好む食物を選んで供えてやり、善言讃詞を唱えて幽世の大神様に早く人間に生まれてくるようにお願いする。<br/><br/>畜生には人霊が畜生道へおちたものが多いからである。<br/><br/>』 058 家畜の死んだ場合 鶏、豚、兎等家畜の死んだ場合、供養はいかように致しましたら宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 人の踏まぬ所へ埋けてやる。<br/><br/>祝詞を奏げ、幽世大神に人間に生れるようお願いする。<br/><br/>（あまり上等に祀ると反っていけない。<br/><br/>猫、犬は石でも置いて祀る）（S24. 2.21） 059 猫霊の祀り 当年九才になる女が現在普通に言葉が使えません。<br/><br/>三才の頃中耳炎と下痢が半年位続きました。<br/><br/>現在も耳から膿が出ております。<br/><br/>母親が昨年教修を頂き光明如来様をお祭りさせて頂いております。<br/><br/>去る十一日御神前で御浄霊中、子供が光明如来様の前やその辺に猫が澤山いて怖い怖いと申しました。<br/><br/>御浄霊が終るとお腹から猫が出て行き大変楽になったと申します。<br/><br/>他人の家も見境がなく困っておりますがいかなる訳が御座いましょうか。<br/><br/> 膿が出てるから膿が固まって邪魔しているのだと思う。<br/><br/>猫の霊が憑いている。<br/><br/>小さな板へ「黒の霊」または単に「猫の霊」とかき、光明如来様の向って左へ小さい台をして安置するとよい。<br/><br/>毎日御礼の後でちょっと頭を下げる。<br/><br/>そして光明如来様にお願いして早く人間に生れて来るよう祈ってやるとよい。<br/><br/>（S24. 3.19） 060 鼠霊の供養（鼠取器製作者） 私の工場で鼠取器を製作致しておりますが、入信以来殺生はよくないと承っておりますので、供養してやりたいと思いますが、いかにしたら宜敷いでしょうか。<br/><br/>御教示下さい。<br/><br/> 供養してやった方がよい。<br/><br/>光明如来様の前へ置いてやる。<br/><br/>「万鼠の霊」として祝詞を奏げ食物をやる。<br/><br/>年に一回か二回やると功徳になる。<br/><br/> 幽世大神守給へ幸倍給へ。<br/><br/>（S24. 5.15） 061 馬を葬る 北海道北見方面では、馬が死んだ場合、南無馬頭観世音の墓と書いて畠のすみに埋めて置きますが、いかがなものでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> これはこれでよい。<br/><br/>しかし行きすぎである。<br/><br/>近くに埋めるのが本当である。<br/><br/>わるい事はないがそれだけ霊界で苦しむ。<br/><br/>相応の理による。<br/><br/>（S25. 5.23） 062 牛頭の斑点胸に表わる 現在十七才の男子、最近急に腹部が重く苦しく、着物や布団もかけられぬ状態が一週間程続き、爾後心臓病となり、毎夜十一時より三時頃迄発作が起り苦しんでおりました。<br/><br/>御浄霊を致しましたところ、身体を慄わせて霊の憑依現象を現わし、胸に丁度牛の頭の形をした斑点が出、程なく消えました。<br/><br/>爾来発作は止みましたが健康は恢復致しません。<br/><br/>丁度六年程前に非常に利口な牛がおりましたが、難産で死亡致しました。<br/><br/>その子は家人が大切に育て、妻女（病人の母親）の胸に顔をすりつける程慣れておりましたが、他家へ渡すと程なく死亡したそうで御座います。<br/><br/>この親子の牛の霊と何か関係が御座居ましょうか。<br/><br/>また、これをお祀り致しますにはどう致しましたら宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 牛の霊である。<br/><br/>祀ってやればなおいい。<br/><br/>牛という字をつけた方がよい。<br/><br/>親子牛明神でもいい。<br/><br/>牛の好きなものを上げ、祝詞を上げてやる。<br/><br/>早く人間に生れ代るよう願う。<br/><br/>三月位で撤去する。<br/><br/>それで牛は救われる―。<br/><br/>（S24. 5.21） 063 死亀の処置について（病起す） ある二十五才の信者の青年で御座いますが、池の中に亀を飼っておりますが、その亀が急に死んで終いましたので川に流して終いましたが、気にかかって流した死体を拾って来て、便所の裏に埋めて御座いますが、その頃より左の耳が全然聞えなくなりました。<br/><br/>死んだ亀と何か関係が御座居ましょうか。<br/><br/>御教を御願い申し上げます。<br/><br/> 龍神とは関係ない。<br/><br/>埋めたのを掘って、川へ流した方がよい。<br/><br/>亀は水生動物であるから、亀自身、水へ流して貰った方がよいのである。<br/><br/>土へ埋まるのを嫌がったもので、ホジって元通り川へ流してやる。<br/><br/>（S25. 2. 2） 064 魚の供養様式 魚の網元をしている信者です。<br/><br/>どんなお祭をしたらよろしいでしょうか。<br/><br/>御伺いいたします。<br/><br/>供養の方法、お祭り方法を御示し下さいませ。<br/><br/> 年に一遍日を定め供養の祀りをする。<br/><br/>形式は構わぬ。<br/><br/>（神仏道いずれでもよい）祭壇を作り位牌型の桧の板へ「万魚の霊」とでも書き、真中に置き、海の魚なら塩水、淡水海なら清水、水菓子、生米、うどん粉、麦、麩、団子のごときものを上げ、善言讃詞を奏げ―なるべく多勢がよい―幽世大神にお願いする。<br/><br/> 漁村には眼の悪い者が多い。<br/><br/>これは塩水の反射によるというが、魚の祟りも多い。<br/><br/>鰻など特に祟る。<br/><br/>みみずなども祟る。<br/><br/>これは龍の一種である。<br/><br/>（S23.10.19） 065 魚供養 魚供養とはいかようにして致すもので御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 魚は沢山になると怨みが一つの塊になる。<br/><br/>特にアナゴのごとく長い魚、これらは龍神の転化したものであるから、いくらか祟る事がある。<br/><br/>それで魚を供養する要がある。<br/><br/>それは「魚族の霊」とする。<br/><br/>（S25. 2. 2） 066 鰻霊の祟り（祀り方） ある鰻屋の妻が腹部の病気で二回も開腹手術を致し、その後健康勝れず、この度御浄霊を受けましたところ、身体をくねらせて霊の憑依状態となり、御浄霊中その婦人には鰻の首が無数に見えるそうで御座います。<br/><br/>鰻の霊を祀るにはどう致しましたら宜敷う御座いましょうか。<br/><br/>また、鳥屋、スッポン屋等の家庭に不具者が出ますが、霊の祟りと存じますが、その霊の供養の方法を御教え賜りたく御願い申し上げます。<br/><br/> 多数の鰻で、鰻は龍であるから、沢山の霊が一つの塊になる。<br/><br/>そして素晴しい大きい鰻となる。<br/><br/>年に一回鰻供養をする。<br/><br/>新しいカメ（盥）を作り、水を入れて、その上へ字をかいてやる。<br/><br/>供物を供え、祝詞を奏げ、因縁あるものなら人間に生れるよう幽世の大神様にお願いしてやる。<br/><br/>（S24. 3. 1） rattail（注） 〔 妙智の鍵（実生分会４月号） 、昭和24(1949)年4月20日発行〕掲載 067 鰻について（供養） 鰻。<br/><br/> 鰻は龍神の変化したものである。<br/><br/> 耳のある鰻は絶対殺してはいけない。<br/><br/>これは蟠龍という。<br/><br/>これを殺すと一家死に絶える。<br/><br/> 鰻でも祟るのと祟らぬのとあるが、普通の鰻も沢山殺すうちに怨みのようなものが溜るから、一年に一遍位供養するといい。<br/><br/>方法は鰻の憑依するようなもの（白木の戒名のごとし）を作って、戒名―何々明神と書いて、少し高い所へ置いて、いろんな物を上げてやる。<br/><br/>そして「お前のお蔭で商売が出来た。<br/><br/>あなた方鰻に対し、供養するつもりだ」と、月に一遍日を決めて祝詞を奏げてやる。<br/><br/>そして水をやるといい。<br/><br/> 068 鯉霊の祀り ある信者の家で次々祟りがあったところ、浄霊致します中に、古い鯉の霊が憑依しておる事が判りました。<br/><br/>そうして地下一尺掘って祀って欲しいとの事ですが、いかように祀らせて頂きましたら宜しいでしょうか。<br/><br/> 霊の希望通り祭ってやればよい。<br/><br/>しかし人間と同じ扱いは出来ぬ。<br/><br/>自然石へ鯉の霊と文字をほってやればよい。<br/><br/>または板へ鯉の霊とか、「真鯉大明神」とかいてやり、人間の踏まない清い所がよい。<br/><br/>石でも目印にしておいてやればなお喜ぶ。<br/><br/> 鯉は霊的に普通の魚と違って位がある。<br/><br/>鯉は流れなど昇るのが好きである。<br/><br/>善言讃詞を唱え「幽世大神守給へ幸へ給へ」と唱えてやる。<br/><br/>お祭りは一回してやればよい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

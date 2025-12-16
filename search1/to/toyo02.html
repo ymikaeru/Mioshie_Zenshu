@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>toyo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東洋美術雑観 （１） 『栄光』166号、昭和27(1952)年7月23日発行 今まで美術に関する批評といえば、ほとんど学者の手になったものばかりでそれはなるほど究明的で深くもあるが、一般人にとっては必要がないと思う点も少なくないので、私などは終りまで読むに堪えない事がよくある。<br><br>そこで一般的に見て興味もあり、一通りの鑑賞眼を得られればいいという程度にかいたつもりであるから、これから美術の門に入ろうとする人の参考になるとしたら幸いである。<br><br> 美術について、まず日本と外国との現状からかいてみるが、外国といっても今日美術館らしい施設をもっている国は、何といっても米英の二国くらいであるから、この二国の現在をかいてみよう。<br><br>それはどちらも東洋美術に主力を注いでいる点は一致しているが、東洋美術といっても、ほとんどは支那美術で、陶磁器を中心に銅器と近代絵画という順序である。<br><br>そうしてまず英国であるが、この国での蒐集（しゅうしゅう）家としては、世界的有名なユーモー・ホップレスとデイビットの二氏であろう。<br><br>ホップレス氏の蒐集品は余程以前から大英博物館を飾っており、その量も仲々多かったが、第一次大戦後経済上の関係からでもあろうが、惜しいかな相当手放したのである。<br><br>もちろん大部分は米国へ行ったが、不思議にも少数のものが日本にも来て、今も某氏の所有となっている。<br><br>こんな訳で若干減るには減ったが、今でも相当あるようである。<br><br> 次のデイビット氏は、まだ美術館は開いていないそうだが、ホップレス氏の方は唐、宋時代からの古いものが多いに対し、デイビット氏の方は明以後の近代物が多いようである。<br><br>そうしてホップレス氏の方は周の前後から漢、宋辺りまでの優秀銅器が相当あり、また絵画も多数あるにはあるが、宋元時代の物は僅かで、明以後康煕（こうき）、乾隆（けんりゅう）辺りのものがそのほとんどである。<br><br>デイビット氏の方は銅器も絵画も図録に載っていないところをみると、余りないのであろう。<br><br>しかし英国では個人で相当持っている人もあって、その中で珍しいと思ったのは、某婦人で日本の仁清（にんせい）を愛好し、若干もっているとの事である。<br><br>そんな訳で同国には日本美術は余りないのは事実で、それに引換え米国の方は、さすが富の国だけあって、立派な美術館も数多くあるし、品物も豊富に揃っている。<br><br>まず有名なのはワシントン、ボストン、ニューヨーク、サンフランシスコ、ロサンジェルス等の大都会を始め、各都市に大なり小なりあるのである。<br><br>その中で小さいが特に際立っているのは、フリヤ〔ア〕ーギャラリーという個人の美術館で、これは世界的に有名である。<br><br>ここは銅器の素晴しい物があって、私は図録で見た事がある。<br><br>しかし何といっても同国ではボストンの美術館で、日本美術が特に多いとされている。<br><br>何しろ明治時代岡倉天心氏が同館の顧問となって相当良い物を集めたし、後には富田幸次郎氏がまた日本美術の優秀品を買入れたのであるから推して知るべきである。<br><br>私は数年前ワシントン美術館にある屏風類の写真を色々見た事がある。<br><br>光琳、宗達のものが多かったが、いずれも写真で分る程の贋物ばかりなのには唖然としたのである。<br><br>そんな訳で日本古美術として海外に在るものは、思ったよりも少なく、ただ版画だけがむしろ日本にある物よりも優秀で、数も多いとされており、特に版画で有名なのはボストン美術館である。<br><br>その他としてはフランス、ドイツも若干あるが、ただ写楽物だけはドイツに多いとされている。<br><br>ではなぜ版画が外国に多いかという事について、私はこう思っている。<br><br>それは彼らが明治以後日本へ来た時、まず目に着いたのが版画であって、値も安く手が出しいいので、土産（みやげ）として持って帰ったのが、今日のごとき地位を得た原因であろう。<br><br>ところが私はどうも版画は余り好かないので、以前から肉筆物だけを集めたから割合安く良い物が手に入ったのである。<br><br>というのは版画は外人に愛好されたため、真似好きな日本人は版画を珍重し、肉筆物の方を閑却したからである。<br><br>しかも最初外人が来た頃の日本人は、肉筆物を大切に蔵（しま）い込んでいたので、外人の眼に触れなかったからでもあろうが、この点もっけの幸いとなった訳である。<br><br> 次に我国独特の美術としては、何といっても蒔絵であろう。<br><br>これも肉筆浮世絵と同様、外人の眼に触れる機会がなかったため手に入らず終いになったので、存外海外にはないらしい。<br><br>以下蒔絵について少し説明してみるが、この技術はもちろん、古い時代支那の描金（びょうきん）からヒントを得て工夫したものであろうが、日本では奈良朝時代すでに相当なものが出来ている。<br><br>今日残っている天平時代の経筥（きょうばこ）のごときは、立派な研出（とぎだし）蒔絵であるから驚くの外はない。<br><br>その後平安朝頃から段々進んで、鎌倉期に至っては画期的に優良品が出来たので、今でも当時の名作が相当残っており、吾々の眼を楽しませている。<br><br>次で桃山期から徳川期に入るや、益々技術の向上を見、しかも大名道具として蒔絵は最も好適なので、各大名競って良い物を作らした。<br><br>今日金色（こんじき）燦然（さんぜん）たる高（たか）蒔絵のごときは、ほとんど徳川最盛期に出来たもので、品種は書棚、料紙（りょうし）文庫硯筥（すずりばこ）、文台（ぶんだい）硯筥、手筥、香（こう）道具等が主なるものである。<br><br> (注) フリヤ〔ア〕ーギャラリー（Freer Gallery）現在のスミソニアン国立博物館の東洋美術館。<br><br>1906年に米国の事業家チャールズ・ラング・フリーア（Charles Lang Freer）氏（1854～1919）が、彼のコレクションを米国政府に遺贈した。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Panorama da Arte Oriental</h2>
 <p>Até o presente momento, a crítica de arte tem sido um domínio quase exclusivo dos eruditos. Suas análises são, sem dúvida, investigativas e aprofundadas; contudo, frequentemente abordam pontos que, a meu ver, são desnecessários ao público geral. Por essa razão, confesso que, muitas vezes, não consigo prosseguir com a leitura até o fim.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Quanto ao motivo pelo qual tantas xilogravuras se encontram no exterior, tenho a seguinte opinião: quando os estrangeiros vieram ao Japão a partir da Era Meiji, as gravuras foram as primeiras obras que lhes chamaram a atenção. Como eram baratas e acessíveis, eles as levaram como recordação, o que lhes conferiu o prestígio de que desfrutam hoje. Eu, particularmente, nunca tive grande apreço por xilogravuras e, desde cedo, dediquei-me a colecionar apenas pinturas originais, o que me permitiu adquirir excelentes obras a preços relativamente baixos. Isso ocorreu porque os japoneses, sempre inclinados a imitar, passaram a valorizar as xilogravuras em detrimento das pinturas originais. Além disso, na época da chegada dos estrangeiros, os japoneses guardavam zelosamente suas pinturas, mantendo-as longe dos olhos de forasteiros, o que, para mim, representou uma feliz coincidência.</p>
 <p>Passemos agora à arte que considero a mais singular do nosso país: o Maki-e (蒔絵). Assim como as pinturas ukiyo-e, essa técnica não teve grande exposição aos estrangeiros, razão pela qual raramente se encontra no exterior. Explicarei brevemente do que se trata. A técnica do Maki-e certamente foi desenvolvida a partir de inspiração na arte chinesa do byōkin (描金), mas já no período Nara se produziam no Japão peças de notável qualidade. A caixa de sutras do período Tenpyo que sobrevive até hoje, por exemplo, é um esplêndido exemplar de togidashi maki-e, o que é verdadeiramente assombroso. A partir do período Heian, a técnica evoluiu progressivamente, atingindo um patamar de excelência no período Kamakura. Muitas obras-primas daquela época ainda existem para o nosso deleite.</p>
 <p>Com a transição do período Momoyama para o Tokugawa, a técnica alcançou um aprimoramento ainda maior. Como o Maki-e era ideal para os utensílios dos senhores feudais, cada clã competia para encomendar as melhores peças. As obras de taka maki-e, com seu brilho dourado e suntuoso, foram quase todas produzidas durante o apogeu do período Tokugawa. As peças principais incluem estantes, caixas para papéis e apetrechos de escrita, escrivaninhas, caixas de mão e utensílios para a cerimônia do incenso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東洋美術雑観 （１） 『栄光』166号、昭和27(1952)年7月23日発行 今まで美術に関する批評といえば、ほとんど学者の手になったものばかりでそれはなるほど究明的で深くもあるが、一般人にとっては必要がないと思う点も少なくないので、私などは終りまで読むに堪えない事がよくある。<br/><br/>そこで一般的に見て興味もあり、一通りの鑑賞眼を得られればいいという程度にかいたつもりであるから、これから美術の門に入ろうとする人の参考になるとしたら幸いである。<br/><br/> 美術について、まず日本と外国との現状からかいてみるが、外国といっても今日美術館らしい施設をもっている国は、何といっても米英の二国くらいであるから、この二国の現在をかいてみよう。<br/><br/>それはどちらも東洋美術に主力を注いでいる点は一致しているが、東洋美術といっても、ほとんどは支那美術で、陶磁器を中心に銅器と近代絵画という順序である。<br/><br/>そうしてまず英国であるが、この国での蒐集（しゅうしゅう）家としては、世界的有名なユーモー・ホップレスとデイビットの二氏であろう。<br/><br/>ホップレス氏の蒐集品は余程以前から大英博物館を飾っており、その量も仲々多かったが、第一次大戦後経済上の関係からでもあろうが、惜しいかな相当手放したのである。<br/><br/>もちろん大部分は米国へ行ったが、不思議にも少数のものが日本にも来て、今も某氏の所有となっている。<br/><br/>こんな訳で若干減るには減ったが、今でも相当あるようである。<br/><br/> 次のデイビット氏は、まだ美術館は開いていないそうだが、ホップレス氏の方は唐、宋時代からの古いものが多いに対し、デイビット氏の方は明以後の近代物が多いようである。<br/><br/>そうしてホップレス氏の方は周の前後から漢、宋辺りまでの優秀銅器が相当あり、また絵画も多数あるにはあるが、宋元時代の物は僅かで、明以後康煕（こうき）、乾隆（けんりゅう）辺りのものがそのほとんどである。<br/><br/>デイビット氏の方は銅器も絵画も図録に載っていないところをみると、余りないのであろう。<br/><br/>しかし英国では個人で相当持っている人もあって、その中で珍しいと思ったのは、某婦人で日本の仁清（にんせい）を愛好し、若干もっているとの事である。<br/><br/>そんな訳で同国には日本美術は余りないのは事実で、それに引換え米国の方は、さすが富の国だけあって、立派な美術館も数多くあるし、品物も豊富に揃っている。<br/><br/>まず有名なのはワシントン、ボストン、ニューヨーク、サンフランシスコ、ロサンジェルス等の大都会を始め、各都市に大なり小なりあるのである。<br/><br/>その中で小さいが特に際立っているのは、フリヤ〔ア〕ーギャラリーという個人の美術館で、これは世界的に有名である。<br/><br/>ここは銅器の素晴しい物があって、私は図録で見た事がある。<br/><br/>しかし何といっても同国ではボストンの美術館で、日本美術が特に多いとされている。<br/><br/>何しろ明治時代岡倉天心氏が同館の顧問となって相当良い物を集めたし、後には富田幸次郎氏がまた日本美術の優秀品を買入れたのであるから推して知るべきである。<br/><br/>私は数年前ワシントン美術館にある屏風類の写真を色々見た事がある。<br/><br/>光琳、宗達のものが多かったが、いずれも写真で分る程の贋物ばかりなのには唖然としたのである。<br/><br/>そんな訳で日本古美術として海外に在るものは、思ったよりも少なく、ただ版画だけがむしろ日本にある物よりも優秀で、数も多いとされており、特に版画で有名なのはボストン美術館である。<br/><br/>その他としてはフランス、ドイツも若干あるが、ただ写楽物だけはドイツに多いとされている。<br/><br/>ではなぜ版画が外国に多いかという事について、私はこう思っている。<br/><br/>それは彼らが明治以後日本へ来た時、まず目に着いたのが版画であって、値も安く手が出しいいので、土産（みやげ）として持って帰ったのが、今日のごとき地位を得た原因であろう。<br/><br/>ところが私はどうも版画は余り好かないので、以前から肉筆物だけを集めたから割合安く良い物が手に入ったのである。<br/><br/>というのは版画は外人に愛好されたため、真似好きな日本人は版画を珍重し、肉筆物の方を閑却したからである。<br/><br/>しかも最初外人が来た頃の日本人は、肉筆物を大切に蔵（しま）い込んでいたので、外人の眼に触れなかったからでもあろうが、この点もっけの幸いとなった訳である。<br/><br/> 次に我国独特の美術としては、何といっても蒔絵であろう。<br/><br/>これも肉筆浮世絵と同様、外人の眼に触れる機会がなかったため手に入らず終いになったので、存外海外にはないらしい。<br/><br/>以下蒔絵について少し説明してみるが、この技術はもちろん、古い時代支那の描金（びょうきん）からヒントを得て工夫したものであろうが、日本では奈良朝時代すでに相当なものが出来ている。<br/><br/>今日残っている天平時代の経筥（きょうばこ）のごときは、立派な研出（とぎだし）蒔絵であるから驚くの外はない。<br/><br/>その後平安朝頃から段々進んで、鎌倉期に至っては画期的に優良品が出来たので、今でも当時の名作が相当残っており、吾々の眼を楽しませている。<br/><br/>次で桃山期から徳川期に入るや、益々技術の向上を見、しかも大名道具として蒔絵は最も好適なので、各大名競って良い物を作らした。<br/><br/>今日金色（こんじき）燦然（さんぜん）たる高（たか）蒔絵のごときは、ほとんど徳川最盛期に出来たもので、品種は書棚、料紙（りょうし）文庫硯筥（すずりばこ）、文台（ぶんだい）硯筥、手筥、香（こう）道具等が主なるものである。<br/><br/> (注) フリヤ〔ア〕ーギャラリー（Freer Gallery）現在のスミソニアン国立博物館の東洋美術館。<br/><br/>1906年に米国の事業家チャールズ・ラング・フリーア（Charles Lang Freer）氏（1854～1919）が、彼のコレクションを米国政府に遺贈した。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

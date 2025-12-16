@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan19</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様 夢声氏対談記 （ 下 ） 『栄光』99号、昭和26(1951)年4月11日発行 明主様 「たしかに、ただの武芸者でなく、精神的に尊いものをもっていますね」 夢声氏 「えー、いま私は週刊朝日で対談をやってますが、第一回は徳川義親（よしちか）氏、二人目が女優の轟夕起子（とどろきゆきこ）、三人目が長谷川伸（はせがわしん）、四人目が大野伴睦（おおのばんぼく）、五人目が大阪の旭堂南陵（きょくどうなんりょう）、六人目が照葉（てるは）に会って、昨日すましてきましたが、次が植物学の牧野富太郎さんの番になってます。<br><br>どうです一度おやりになりませんか。<br><br>私の主義として、絶対相手を傷つけるようなことはしないつもりです。<br><br>私が介在してマイナスになるのでは、申し訳ありませんからねえ」 明主様 「え、やりましょう……あんたは曲者（くせもの）型ですよ」 夢声氏 「曲者型は恐れいります。<br><br>それはそちらさんも……」（笑） 明主様 「わたしゃそういう人が好きですね。<br><br>なにもない人はおもしろくない。<br><br>なにか一クセあるとおもしろい、つまりバランスのとれた人間ですかね……」 夢声氏 「そのバランスを説教するのですか？」（笑） 明主様 「それを説くのは難しいですね」 夢声氏 「お手伝いしますか」（笑） 明主様 「徳川さんとは関係あるんですか？」 夢声氏 「いいえ、関係はありません。<br><br>だから週刊朝日の対談では、新案両徳川としているんで、わたしが偽物になってしまいます。<br><br>そう、わたしがニセになったのが一度あります。<br><br>一昨年放送局で隠し芸会をやったとき、徳川さんがおはやしの笛を吹くことになって、三味線がないとおもしろくない。<br><br>市丸ならいいだろうということになったが、これが隠し芸大会で専門外のことをやらなきゃなんない。<br><br>夢声の笛なら、私の三味線のほうがうまいと思ったんでしょう。<br><br>引き受けちゃったんですが、さて当日、放送局で会ったのが徳川違い（笑）……そのときはわたしが偽物になったんです」 明主様 「夢声というのはどういう意味ですか」 夢声氏 「いいえ、わたしの本名は福原駿雄（としお）、先生が清水嶺〔霊〕山だったので福原嶺川ということにして、芝（しば）の第二福宝館に月給十円で出ていたが、どうにもならなくなって大阪へ出奔（しゅっぽん）しましてね。<br><br>「日活」ではたいへん怒ったが、赤坂の葵館に入ったのですが、そこの支配人から福原嶺川ではまずいから、一時便宜上偽名しろと言われて、みんなに相談しまして、まあ、楽屋とか事務所の連中がおもしろ半分に、葵だから徳川とつけたり、声というのは当時、多かったので、徳川声とまではいったのですが、夢がなかなか見つからない。<br><br>一時毒掃丸とつけられようとしましたが、しまいになって夢のような声だから夢声、徳川夢声はどうだろうということになったので、わたしがつけた名前ではありません。<br><br>それがかえってよかったんですね」 明主様 「そうですね。<br><br>わたしのことも御光り様なんて言いますが、これはわたしがつけたのでもなんでもないんです。<br><br>新聞屋がつけたので、たしか静岡新聞だったか……」 夢声氏 「そのほうが通りがいいですよ」 明主様 「また、うまく合ってますよ」 夢声氏 「フランスの印象派なども、自分からつけたのではないんですね（ただ事物をそのまま写すのでなくて、一度頭の中で印象を画いて筆にするのが、本当の画だという主張ですから）。<br><br>猫の印象とか、太陽の印象とか、やたらに何々の印象、何々の印象という画題をつけたんですね。<br><br>それを新聞かなにかが印象派と書いたもので、しまいに自分でも、印象派だと思うようになったのですね」 明主様 「それが一番自然でいいですよ。<br><br>一つは感じだから……」 夢声氏 「わたしは、科学も少し進歩したら、霊というようなことも測定できるのではないかと、思ってますが」 明主様 「それは、できます」 夢声氏 「なにか、放射能がガイガー氏の放射能測定のように……」 明主様 「つまり、機械で測定できるようになりますよ。<br><br>その論文を、いま書いていますが、現在の原子科学は中間子理論で行き詰まっているんだそうです。<br><br>これも湯川さんが中間子を予想して、たまたま宇宙線の写真の中に発見されて、確証されたんですが、これをもっと突き進めると機械では測定できません。<br><br>ズーと先へ行くと神に到達します。<br><br>やがては科学の進歩によって実証されるでしょうが、現在ではこの中間子の極点と神との間が空白になっているんですが、そこまで科学者の頭が行っていないので分からぬのです。<br><br>わたしはこれを科学的に説明して、理論神霊学と名づけてますが、これを読めば分からないはずはない。<br><br>実験神霊学としても、こうやると（御手を翳される）すぐ病気がよくなる。<br><br>盲腸炎なども実によく治る。<br><br>これが実験神霊学です」 夢声氏 「そうですね、電気技師が感電死するときなど、指からパッと放電しますね。<br><br>目をつぶって、こうやると（指を眼元に近づける）感じが分かります。<br><br>わたしは腹が痛いときなど、手を腹に当てていると、しばらくするうちに治ることがよくあるんですが、たしかに手からたいへんないいものが出ています。<br><br>霊気と言いますかね」 奥様 「手当てと言いますからね」 明主様 「これを説くのはなかなかむずかしいことです」 夢声氏 「どうも、ありがとうございました」 （文責在記者）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Diálogo sobre Nomes, Personalidades e a Ciência Divina</h2>
 <p><strong>Meishu-Sama:</strong> Indubitavelmente, ele não é um mero artista marcial; possui uma nobreza espiritual.</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p><strong>Sra. Okada (Okusama):</strong> É por isso que a palavra japonesa para tratamento, “teate”, significa literalmente “aplicar as mãos”.</p>
 <p><strong>Meishu-Sama:</strong> Expor este princípio é, de fato, algo bastante complexo.</p>
 <p><strong>Sr. Musei:</strong> Muito obrigado por seu tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様 夢声氏対談記 （ 下 ） 『栄光』99号、昭和26(1951)年4月11日発行 明主様 「たしかに、ただの武芸者でなく、精神的に尊いものをもっていますね」 夢声氏 「えー、いま私は週刊朝日で対談をやってますが、第一回は徳川義親（よしちか）氏、二人目が女優の轟夕起子（とどろきゆきこ）、三人目が長谷川伸（はせがわしん）、四人目が大野伴睦（おおのばんぼく）、五人目が大阪の旭堂南陵（きょくどうなんりょう）、六人目が照葉（てるは）に会って、昨日すましてきましたが、次が植物学の牧野富太郎さんの番になってます。<br/><br/>どうです一度おやりになりませんか。<br/><br/>私の主義として、絶対相手を傷つけるようなことはしないつもりです。<br/><br/>私が介在してマイナスになるのでは、申し訳ありませんからねえ」 明主様 「え、やりましょう……あんたは曲者（くせもの）型ですよ」 夢声氏 「曲者型は恐れいります。<br/><br/>それはそちらさんも……」（笑） 明主様 「わたしゃそういう人が好きですね。<br/><br/>なにもない人はおもしろくない。<br/><br/>なにか一クセあるとおもしろい、つまりバランスのとれた人間ですかね……」 夢声氏 「そのバランスを説教するのですか？」（笑） 明主様 「それを説くのは難しいですね」 夢声氏 「お手伝いしますか」（笑） 明主様 「徳川さんとは関係あるんですか？」 夢声氏 「いいえ、関係はありません。<br/><br/>だから週刊朝日の対談では、新案両徳川としているんで、わたしが偽物になってしまいます。<br/><br/>そう、わたしがニセになったのが一度あります。<br/><br/>一昨年放送局で隠し芸会をやったとき、徳川さんがおはやしの笛を吹くことになって、三味線がないとおもしろくない。<br/><br/>市丸ならいいだろうということになったが、これが隠し芸大会で専門外のことをやらなきゃなんない。<br/><br/>夢声の笛なら、私の三味線のほうがうまいと思ったんでしょう。<br/><br/>引き受けちゃったんですが、さて当日、放送局で会ったのが徳川違い（笑）……そのときはわたしが偽物になったんです」 明主様 「夢声というのはどういう意味ですか」 夢声氏 「いいえ、わたしの本名は福原駿雄（としお）、先生が清水嶺〔霊〕山だったので福原嶺川ということにして、芝（しば）の第二福宝館に月給十円で出ていたが、どうにもならなくなって大阪へ出奔（しゅっぽん）しましてね。<br/><br/>「日活」ではたいへん怒ったが、赤坂の葵館に入ったのですが、そこの支配人から福原嶺川ではまずいから、一時便宜上偽名しろと言われて、みんなに相談しまして、まあ、楽屋とか事務所の連中がおもしろ半分に、葵だから徳川とつけたり、声というのは当時、多かったので、徳川声とまではいったのですが、夢がなかなか見つからない。<br/><br/>一時毒掃丸とつけられようとしましたが、しまいになって夢のような声だから夢声、徳川夢声はどうだろうということになったので、わたしがつけた名前ではありません。<br/><br/>それがかえってよかったんですね」 明主様 「そうですね。<br/><br/>わたしのことも御光り様なんて言いますが、これはわたしがつけたのでもなんでもないんです。<br/><br/>新聞屋がつけたので、たしか静岡新聞だったか……」 夢声氏 「そのほうが通りがいいですよ」 明主様 「また、うまく合ってますよ」 夢声氏 「フランスの印象派なども、自分からつけたのではないんですね（ただ事物をそのまま写すのでなくて、一度頭の中で印象を画いて筆にするのが、本当の画だという主張ですから）。<br/><br/>猫の印象とか、太陽の印象とか、やたらに何々の印象、何々の印象という画題をつけたんですね。<br/><br/>それを新聞かなにかが印象派と書いたもので、しまいに自分でも、印象派だと思うようになったのですね」 明主様 「それが一番自然でいいですよ。<br/><br/>一つは感じだから……」 夢声氏 「わたしは、科学も少し進歩したら、霊というようなことも測定できるのではないかと、思ってますが」 明主様 「それは、できます」 夢声氏 「なにか、放射能がガイガー氏の放射能測定のように……」 明主様 「つまり、機械で測定できるようになりますよ。<br/><br/>その論文を、いま書いていますが、現在の原子科学は中間子理論で行き詰まっているんだそうです。<br/><br/>これも湯川さんが中間子を予想して、たまたま宇宙線の写真の中に発見されて、確証されたんですが、これをもっと突き進めると機械では測定できません。<br/><br/>ズーと先へ行くと神に到達します。<br/><br/>やがては科学の進歩によって実証されるでしょうが、現在ではこの中間子の極点と神との間が空白になっているんですが、そこまで科学者の頭が行っていないので分からぬのです。<br/><br/>わたしはこれを科学的に説明して、理論神霊学と名づけてますが、これを読めば分からないはずはない。<br/><br/>実験神霊学としても、こうやると（御手を翳される）すぐ病気がよくなる。<br/><br/>盲腸炎なども実によく治る。<br/><br/>これが実験神霊学です」 夢声氏 「そうですね、電気技師が感電死するときなど、指からパッと放電しますね。<br/><br/>目をつぶって、こうやると（指を眼元に近づける）感じが分かります。<br/><br/>わたしは腹が痛いときなど、手を腹に当てていると、しばらくするうちに治ることがよくあるんですが、たしかに手からたいへんないいものが出ています。<br/><br/>霊気と言いますかね」 奥様 「手当てと言いますからね」 明主様 「これを説くのはなかなかむずかしいことです」 夢声氏 「どうも、ありがとうございました」 （文責在記者）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

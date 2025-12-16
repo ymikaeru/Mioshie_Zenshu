@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak37</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の病原 未発表『医学革命の書』昭和28(1953)年執筆 今最も日本で難問題とされている結核について、徹底的に説明してみるが、結核は大体感冒から始まるとしているがこれは誤りで、実はこういう理由によるのである。<br><br>既記のごとく感冒に罹るや、液体毒素すなわち痰が一旦肺臓内に停滞する場合、医療はこれをあらゆる手段をもって排泄させないようにする。<br><br>そのため解熱し咳というポンプ作用も停止されるので、痰はそのまま肺臓内に残り固り、治ったように見えるのである。<br><br>そこで安心しているとまた風邪を引く。<br><br>何しろせっかく出ようとした痰を固めた以上、再び浄化作用が起るからである。<br><br>その時医師に診て貰うと、風邪の症状の外に肺内に痰の固まりがあり、ラッセルも聴え、レントゲン写真にも溶けかかった痰が雲翳（うんえい）状に映るので、ここに結核初期と診断するのである。<br><br>これによってみても分るごとく、初めから肺に病はなかったのを、医療があらゆる手段をもって作った訳である。<br><br>それを一層詳しくかいてみるが、元来体内各局所に固結した毒素が浄化作用発生するや、一ケ所ないし数ケ所から溶けはじめた痰は、間髪を入れず肺を目掛けて浸入するのである。<br><br>そうして毒素固結個所としては、頭脳を中心に首の周り、肩、肋骨付近、背部、腹部、股等の順になっており、これによってみても結核の根本は体内全部といってもいいのである。<br><br>この発見こそ全く世界的のものといってもよかろう。<br><br> 以上によって肺臓なるものは、言わば痰排泄のための取次所の役目をしているのである。<br><br>ところがこれを知らない世人は、よく胸の病などというが、これはナンセンスで全然的（まと）外れであり、全く医学が胸部疾患に作り上げたものであるのは明らかである。<br><br>そうして何といっても医学は、結核問題の焦点は結核菌とされている。<br><br>これについては医学の盲点を充分開明しなければならないが、右のごとく肺内の痰の固りが古くなって、腐敗するから菌は湧いたのである。<br><br>腐敗すれば微生虫が湧くのは物質の原則であり、しかも体温という好条件が拍車をかけるにおいてをやである。<br><br>その結果菌は益々殖え、肺胞を蚕食（さんしょく）するに至り、空洞が出来るので、それが写真に映るや医診は悪性と断ずるため、それをいわれた患者は精神的大打撃を受け、失望落胆急に悪化するのは誰も知る通りである。<br><br>以上のごとく、最初の風邪から真症結核になるまでの経過をよく検討してみると、全く誤れる医療によって作られた事は、余りに明白である。<br><br> また肺浸潤は肺の外部にあった薬毒の固りが溶けて、肺に浸入し痰になって出ようとする病気で、これも自然にしておけば出るだけ出て完全に治るものを、医療は固めて出さないようにするから、結核にまで進展するのである。<br><br>また肺門淋巴腺と肺尖加答児（カタル）は、首肩の凝りが溶けて肺の上部から浸入する、それをいったもので、これも自然なら簡単に治るのである。<br><br>また肺壊疽（えそ）は肺の内部から外部へかけての腫物であり、粟粒（ぞくりゅう）結核は肺胞に出来た湿疹であるから、放っておけば血膿が出るだけ出て必ず治るのである。<br><br>その他喀血及び血痰は濁血が出るので、結構な浄化作用であるから、医学でも喀血性は治りがいいとされている。<br><br>こうみてくると結核は治るに決ったものであって、治らないのは医療が治さないようにするのである。<br><br>この事が分ったなら結核医学は百八十度の転換とならざるを得ないであろう。<br><br>今日結核が益々増え、その対策に腐心し、莫大なる国費を支出しつつあるその無益なる努力は、到底黙視し得ないのである。<br><br> ここで菌について徹底的に説いてみるが、医学においては菌の感染を恐れ、菌さえ殺せばいいとして、全世界の学者は殺菌の研究のみに耽（ふけ）っているが、この考え方こそ抹梢的浅薄（せんぱく）極まるものである。<br><br>というのは菌の感染は結果の問題であって、根本は菌そのものの発生原の探究である。<br><br>何となれば菌といえども突如として空中に湧いたものでもなく、どこからか飛んで来たものでもない。<br><br>湧くべき理由と湧くべき根拠地があって湧くのである。<br><br>従ってたとえ菌だけ全滅させる事が出来ても、その根拠地すなわち原地がそのままであるとしたら、無意味であるのは分り切った話である。<br><br>では菌の発生原地とは一体どこにあるかという事が問題の根本であり、それが分ると共に、原地の潰滅（かいめつ）も可能であるとしたら、ここに結核問題は解決するのである。<br><br>それらを以下詳しくかいてみよう。<br><br> これを説くに当っては、まず人間の霊に発生する曇りを知る事である。<br><br>本来霊の本質は無色透明にして、最も稀薄な一種のエーテルである。<br><br>このエーテルはその密度の高い事は、今日の顕微鏡の何百倍でも見る事を得ない程の超微粒子であって、それへ発生する曇りというのは不純水素の集合体であって、すなわち純粋水素中に異物が混合しているのである。<br><br>では右のごとき不純水素がなぜ発生するかというと、これこそ濁血の霊化したものである。<br><br>既記のごとく人間は霊主体従であると共に、霊体一致でもあるからである。<br><br>この曇りが日を経るに従い、ある程度濃度化するや、それへ一種のバクテリヤが発生する。<br><br>このバクテリヤの本質は植物性無機物であって、これがまた日を経て有機化するので、これがすなわち黴菌の幼虫であり、育って一人前になったものが顕微鏡で見得る菌である。<br><br>従ってウイルスとは幼虫から菌になるまでの中間粒子であるから、顕微鏡では見得なくとも、確かに在る事は医学でも認めている通りである。<br><br>こう分ってくると右の霊の曇りこそ、実に黴菌発生の原地である事は余りにも明らかな事実である。<br><br> 以上によって、たとえ、医学によって予期のごとく菌を殺し得たとしても、肝腎な発生原地がそのままであるとしたら、後から後から無限に発生する以上、笊（ざる）に水汲むようなものである。<br><br>それは今日まで殺菌薬や殺菌法が現われても一時的で、いつか消えてしまうのもそれをよく物語っている。<br><br>では根本である菌の原地を潰滅するにはどうすればいいかというその方法を次項にかいてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese da Tuberculose</h2>
 <p>Proponho-me a apresentar uma explanação exaustiva sobre a tuberculose, considerada hoje um dos problemas mais intrincados no Japão. Afirma-se que a enfermidade se origina, na maioria dos casos, de um resfriado, o que constitui um equívoco. A verdadeira razão é a que se segue.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Para explicar este assunto, é preciso, antes de tudo, compreender a mácula que se forma no Espírito do ser humano. A essência do Espírito é um tipo de éter incolor, transparente e extremamente sutil. Suas partículas são de uma densidade tão elevada que não poderiam ser vistas nem com um microscópio centenas de vezes mais potente que os atuais, tratando-se de partículas ultramicroscópicas. A mácula que nelas se forma é um conglomerado de hidrogênio impuro, ou seja, a mistura de uma substância estranha ao hidrogênio puro.</p>
 <p>A causa do surgimento desse hidrogênio impuro é a espiritualização do sangue impuro. Pois, como já explicado, o ser humano obedece ao princípio da primazia do espírito sobre a matéria, existindo em unidade corpo-espírito. Com o passar do tempo, à medida que essa mácula se adensa, um tipo de bactéria nela se desenvolve. A essência dessa bactéria é matéria inorgânica de natureza vegetal, que, com o tempo, se torna orgânica. Esta é a larva do micróbio, que, ao amadurecer, transforma-se na bactéria visível ao microscópio. Consequentemente, o vírus é uma partícula intermediária entre a larva e a bactéria plenamente formada. Por isso, embora seja invisível ao microscópio, sua existência é reconhecida pela medicina. Com este entendimento, torna-se um fato por demais claro que a mácula do Espírito é, na verdade, o reduto onde as bactérias se originam.</p>
 <p>Diante do exposto, mesmo que a medicina obtenha o sucesso esperado no extermínio das bactérias, se o reduto primordial de sua geração permanecer intacto, elas ressurgirão incessantemente, uma após a outra. Seria como tentar encher um cesto com água. O fato de que os medicamentos e métodos bactericidas surgem, têm um efeito temporário e, com o tempo, desaparecem, é algo que ilustra bem essa verdade. Qual seria, então, o método para aniquilar essa base fundamental das bactérias? Abordarei essa questão no próximo tópico.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の病原 未発表『医学革命の書』昭和28(1953)年執筆 今最も日本で難問題とされている結核について、徹底的に説明してみるが、結核は大体感冒から始まるとしているがこれは誤りで、実はこういう理由によるのである。<br/><br/>既記のごとく感冒に罹るや、液体毒素すなわち痰が一旦肺臓内に停滞する場合、医療はこれをあらゆる手段をもって排泄させないようにする。<br/><br/>そのため解熱し咳というポンプ作用も停止されるので、痰はそのまま肺臓内に残り固り、治ったように見えるのである。<br/><br/>そこで安心しているとまた風邪を引く。<br/><br/>何しろせっかく出ようとした痰を固めた以上、再び浄化作用が起るからである。<br/><br/>その時医師に診て貰うと、風邪の症状の外に肺内に痰の固まりがあり、ラッセルも聴え、レントゲン写真にも溶けかかった痰が雲翳（うんえい）状に映るので、ここに結核初期と診断するのである。<br/><br/>これによってみても分るごとく、初めから肺に病はなかったのを、医療があらゆる手段をもって作った訳である。<br/><br/>それを一層詳しくかいてみるが、元来体内各局所に固結した毒素が浄化作用発生するや、一ケ所ないし数ケ所から溶けはじめた痰は、間髪を入れず肺を目掛けて浸入するのである。<br/><br/>そうして毒素固結個所としては、頭脳を中心に首の周り、肩、肋骨付近、背部、腹部、股等の順になっており、これによってみても結核の根本は体内全部といってもいいのである。<br/><br/>この発見こそ全く世界的のものといってもよかろう。<br/><br/> 以上によって肺臓なるものは、言わば痰排泄のための取次所の役目をしているのである。<br/><br/>ところがこれを知らない世人は、よく胸の病などというが、これはナンセンスで全然的（まと）外れであり、全く医学が胸部疾患に作り上げたものであるのは明らかである。<br/><br/>そうして何といっても医学は、結核問題の焦点は結核菌とされている。<br/><br/>これについては医学の盲点を充分開明しなければならないが、右のごとく肺内の痰の固りが古くなって、腐敗するから菌は湧いたのである。<br/><br/>腐敗すれば微生虫が湧くのは物質の原則であり、しかも体温という好条件が拍車をかけるにおいてをやである。<br/><br/>その結果菌は益々殖え、肺胞を蚕食（さんしょく）するに至り、空洞が出来るので、それが写真に映るや医診は悪性と断ずるため、それをいわれた患者は精神的大打撃を受け、失望落胆急に悪化するのは誰も知る通りである。<br/><br/>以上のごとく、最初の風邪から真症結核になるまでの経過をよく検討してみると、全く誤れる医療によって作られた事は、余りに明白である。<br/><br/> また肺浸潤は肺の外部にあった薬毒の固りが溶けて、肺に浸入し痰になって出ようとする病気で、これも自然にしておけば出るだけ出て完全に治るものを、医療は固めて出さないようにするから、結核にまで進展するのである。<br/><br/>また肺門淋巴腺と肺尖加答児（カタル）は、首肩の凝りが溶けて肺の上部から浸入する、それをいったもので、これも自然なら簡単に治るのである。<br/><br/>また肺壊疽（えそ）は肺の内部から外部へかけての腫物であり、粟粒（ぞくりゅう）結核は肺胞に出来た湿疹であるから、放っておけば血膿が出るだけ出て必ず治るのである。<br/><br/>その他喀血及び血痰は濁血が出るので、結構な浄化作用であるから、医学でも喀血性は治りがいいとされている。<br/><br/>こうみてくると結核は治るに決ったものであって、治らないのは医療が治さないようにするのである。<br/><br/>この事が分ったなら結核医学は百八十度の転換とならざるを得ないであろう。<br/><br/>今日結核が益々増え、その対策に腐心し、莫大なる国費を支出しつつあるその無益なる努力は、到底黙視し得ないのである。<br/><br/> ここで菌について徹底的に説いてみるが、医学においては菌の感染を恐れ、菌さえ殺せばいいとして、全世界の学者は殺菌の研究のみに耽（ふけ）っているが、この考え方こそ抹梢的浅薄（せんぱく）極まるものである。<br/><br/>というのは菌の感染は結果の問題であって、根本は菌そのものの発生原の探究である。<br/><br/>何となれば菌といえども突如として空中に湧いたものでもなく、どこからか飛んで来たものでもない。<br/><br/>湧くべき理由と湧くべき根拠地があって湧くのである。<br/><br/>従ってたとえ菌だけ全滅させる事が出来ても、その根拠地すなわち原地がそのままであるとしたら、無意味であるのは分り切った話である。<br/><br/>では菌の発生原地とは一体どこにあるかという事が問題の根本であり、それが分ると共に、原地の潰滅（かいめつ）も可能であるとしたら、ここに結核問題は解決するのである。<br/><br/>それらを以下詳しくかいてみよう。<br/><br/> これを説くに当っては、まず人間の霊に発生する曇りを知る事である。<br/><br/>本来霊の本質は無色透明にして、最も稀薄な一種のエーテルである。<br/><br/>このエーテルはその密度の高い事は、今日の顕微鏡の何百倍でも見る事を得ない程の超微粒子であって、それへ発生する曇りというのは不純水素の集合体であって、すなわち純粋水素中に異物が混合しているのである。<br/><br/>では右のごとき不純水素がなぜ発生するかというと、これこそ濁血の霊化したものである。<br/><br/>既記のごとく人間は霊主体従であると共に、霊体一致でもあるからである。<br/><br/>この曇りが日を経るに従い、ある程度濃度化するや、それへ一種のバクテリヤが発生する。<br/><br/>このバクテリヤの本質は植物性無機物であって、これがまた日を経て有機化するので、これがすなわち黴菌の幼虫であり、育って一人前になったものが顕微鏡で見得る菌である。<br/><br/>従ってウイルスとは幼虫から菌になるまでの中間粒子であるから、顕微鏡では見得なくとも、確かに在る事は医学でも認めている通りである。<br/><br/>こう分ってくると右の霊の曇りこそ、実に黴菌発生の原地である事は余りにも明らかな事実である。<br/><br/> 以上によって、たとえ、医学によって予期のごとく菌を殺し得たとしても、肝腎な発生原地がそのままであるとしたら、後から後から無限に発生する以上、笊（ざる）に水汲むようなものである。<br/><br/>それは今日まで殺菌薬や殺菌法が現われても一時的で、いつか消えてしまうのもそれをよく物語っている。<br/><br/>では根本である菌の原地を潰滅するにはどうすればいいかというその方法を次項にかいてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

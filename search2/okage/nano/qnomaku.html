@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnomaku</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 脳膜炎の愛馬救はる ――獣医の宣告は絶望―― 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 岐阜県 日本五六七教善栄会 砂田長吉 「ドオドオドオ」「もう一本注射だ」二十分毎に大暴れして苦しむ愛馬（駒馬）は五百匁位の氷を頭にくくりつけられています。<br><br>苦しみは仲々止まりません。<br><br>知人、親戚、隣人も次々と集まって下さって大騒ぎとなりました。<br><br>「駄目だね」獣医は沈痛な面持ちでそう言われるのでした。<br><br> 時は昨年七月三十日の事、三十一日も引続き苦しみ暴れ郡の獣医の方に来てもらいました。<br><br>「血を取るんだ」早速三升程の血は取られました、けれども熱は依然下りません。<br><br>「これ程重いのは他にない」「どうしても駄目だ、今夜か明日の朝迄には死ぬなあ」これ以上私の村としては手の施しようがないのです、可哀そうに駒は四歳で斃れるのだと一同は吐息するのでした。<br><br>「観音様はどうじゃ」「人にきくんなら馬なら余計ええかも知らんぞ」一里ほど隔った古川町の渡辺先生に来て戴いたのはそれから間もない夕暮近くでした。<br><br>「氷なんか取ってしまえ」来るなり言われた先生は一心に浄霊を始められました。<br><br>「ドオドオドオ」何人もで動かないように抱えたり縛ったりした駒は浄霊を続けて戴くうちに暴れる事が遠のきました。<br><br>「熱が下ったぞ」「不思議じゃなあ」氷を除って熱が下ると言いながら皆がホッとしました。<br><br>遂に暴れるのが一時間毎になり、次の日には全く暴れる事なく「馬が草を喰うぞえ」と子供が喜んで知らせたのもその日でした。<br><br> 人々の驚きと喜びは自分が全快したかのようでした。<br><br>その後一週間程で元の馬になり特に以前より強くなりました。<br><br>今では一家光明化して日々感謝の日を過させて戴き私も及ばずながら一生懸命協力させてもらい、数々の御利益を受けています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A salvação de meu amado cavalo, acometido de meningite — O desesperador prognóstico veterinário</h2>
 <p><strong>Coletânea Jikan, Volume 2, 'O Método de Cultivo sem Adubos', publicado em 1º de julho de 1949</strong>
@@ -96,5 +251,48 @@ function toggleLang(lang) {
 <p>Foi então que alguém sugeriu: “E se pedíssemos pela intercessão de Kannon (観音)?” Outra pessoa acrescentou: “Se funciona para os seres humanos, talvez para um cavalo o efeito seja ainda maior”. Pouco tempo depois, próximo ao entardecer, recebemos a visita do ministro Watanabe, da cidade de Furukawa, que ficava a cerca de quatro quilômetros de distância. Assim que chegou, sua primeira ordem foi: “Retirem esse gelo!”. Em seguida, começou a ministrar Johrei com total dedicação. À medida que o Johrei prosseguia, o animal, que antes precisava ser contido e amarrado por várias pessoas para não se mover, foi se acalmando, e seus espasmos de agitação tornaram-se mais raros.</p>
 <p>“A febre baixou!”, exclamou um dos presentes. “Que extraordinário!”, comentou outro. Todos sentiram um imenso alívio ao constatar que a febre havia cedido justamente após a remoção do gelo. Os acessos de agitação, que antes eram constantes, passaram a ocorrer apenas de hora em hora. No dia seguinte, já não se debatia mais. Foi nesse mesmo dia que uma criança nos trouxe a alegre notícia: “O cavalo está comendo capim!”.</p>
 <p>A surpresa e a alegria que tomaram conta de todos eram tão grandes que era como se eles próprios tivessem sido curados. Cerca de uma semana depois, o cavalo já estava completamente restabelecido e, notavelmente, parecia ainda mais forte do que antes. Hoje, todo o nosso lar foi iluminado pela fé, e vivemos em um estado de gratidão diária. Eu, embora ciente de minhas limitações, dedico-me de corpo e alma a servir à Obra Divina, pela qual temos recebido inúmeras graças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 脳膜炎の愛馬救はる ――獣医の宣告は絶望―― 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 岐阜県 日本五六七教善栄会 砂田長吉 「ドオドオドオ」「もう一本注射だ」二十分毎に大暴れして苦しむ愛馬（駒馬）は五百匁位の氷を頭にくくりつけられています。<br/><br/>苦しみは仲々止まりません。<br/><br/>知人、親戚、隣人も次々と集まって下さって大騒ぎとなりました。<br/><br/>「駄目だね」獣医は沈痛な面持ちでそう言われるのでした。<br/><br/> 時は昨年七月三十日の事、三十一日も引続き苦しみ暴れ郡の獣医の方に来てもらいました。<br/><br/>「血を取るんだ」早速三升程の血は取られました、けれども熱は依然下りません。<br/><br/>「これ程重いのは他にない」「どうしても駄目だ、今夜か明日の朝迄には死ぬなあ」これ以上私の村としては手の施しようがないのです、可哀そうに駒は四歳で斃れるのだと一同は吐息するのでした。<br/><br/>「観音様はどうじゃ」「人にきくんなら馬なら余計ええかも知らんぞ」一里ほど隔った古川町の渡辺先生に来て戴いたのはそれから間もない夕暮近くでした。<br/><br/>「氷なんか取ってしまえ」来るなり言われた先生は一心に浄霊を始められました。<br/><br/>「ドオドオドオ」何人もで動かないように抱えたり縛ったりした駒は浄霊を続けて戴くうちに暴れる事が遠のきました。<br/><br/>「熱が下ったぞ」「不思議じゃなあ」氷を除って熱が下ると言いながら皆がホッとしました。<br/><br/>遂に暴れるのが一時間毎になり、次の日には全く暴れる事なく「馬が草を喰うぞえ」と子供が喜んで知らせたのもその日でした。<br/><br/> 人々の驚きと喜びは自分が全快したかのようでした。<br/><br/>その後一週間程で元の馬になり特に以前より強くなりました。<br/><br/>今では一家光明化して日々感謝の日を過させて戴き私も及ばずながら一生懸命協力させてもらい、数々の御利益を受けています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

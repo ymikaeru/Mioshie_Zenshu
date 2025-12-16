@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qohikar1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御光に水死霊救わる 『栄光』96号、昭和26(1951)年3月21日発行 兵庫県 宝生中教会 藤原 繁（23） 珍らしい霊的病気が癒された御神徳話を御取次させて戴きます、島根県鹿足郡益田町の川崎ふじ子様（三五歳）の御子様二人（四歳と二歳）は生れて以来ほとんど病気の連続でありまして、医師にも長い間かかり数万円の金を費しましたがちょっとも良い方に向わず、しかも子供を連れて行った母親迄医師の所に行くと悪くなり、医師の門から出るとすーとするというような始末で、日々泣き暮しておられましたが、近所の人よりこの御道を知らされ、早速昨年八月入信されましたが、御子様は御浄霊を戴いた時は良くなりますが、又しばらくすると悪化するというような状態で、私達も再三御浄霊をさして戴き、何か霊的原因があることと思いつつも考え当る事もなく経過しておりましたところ、本年二月二日の朝、四歳になる御子さんがふじ子様の御実家のある、同町中須に行こう行こうと泣きとおします、そこでふとそこの御主人の義姉の水死した子供の事が気にかかり、もしやと思って早速御実家に参られました。<br><br>すると家には、ふじ子様の御母上様だけが御在宅でしたが、未入信であるその方はふじ子様の顔を見るや、すぐ「あーよく来てくれた、実は昨晩変な夢を見ました。<br><br>それはお前が子供の履く小さい藁で作った草履を持って来てお供物として、家の孫の死んだ川の所に行って一生懸命にお祈りしている夢なんですよ」と言われましたので、ますます変に思い早速お供物を準備し、御母様と一緒に目的地迄参りました、そして川端に色々お供して、祝詞、善言讃詞を奉誦していると、とても穏かであった水面は、お祈りしている前だけ物凄い渦が巻き、だんだんと盛り上り、陸面よりも高くなったかと思うと、物凄い勢いで陸の方に寄せて来て、お供物を全部渦の中に巻き込み又水をお供えしたやかん迄も流そうとしたので、驚いてせめてやかんだけはと、すぐ手をのばして取りました、それから又善言讃詞をお誦えしておりますと、今迄背中で静かにしていた子供が急にぐたっとなってしまい死んだようになりましたので、びっくりして急いで自宅に連れて帰り、まず御仏壇にお光をあげ、お参りを致しました、すると苦しさの余り呻いていたのが、だんだんと静かになり、目をぱっと開きました、そして、二、三十分御浄霊をしているとすっかり楽になり、夕刻からは段々と元気が出て参り、また下の二歳の子供もすっかり身体の調子がよくなりました、それからというものは、二人共近所の子供と一緒に大変な元気で、毎日遊び廻っておられます、長い間迷い続けて医薬ばかりでなく、色々な神様や仏様にもお祈祷してもらったり、散々悩み続けていたのが、最後にお道で救われると共に、可愛い子供の病気が、思いもかけぬ霊の障りと知らされ、祝詞、善言讃詞の御偉徳を体験され、今は感謝の日々を過されておられます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Espírito de Vítima de Afogamento é Salvo pela Luz Divina</h2>
 <p><em>Publicado na revista Eikō, edição 96, de 21 de março de 1951</em></p>
@@ -99,5 +254,48 @@ function toggleLang(lang) {
 <p>Impressionada com a coincidência, preparou de imediato as oferendas e, em companhia de sua mãe, dirigiu-se ao local mencionado. Ali, à beira do rio, dispôs os alimentos e iniciou a entoação da Oração Amatsu Norito e da Zengen Sanji. Nesse momento, a superfície da água, até então serena, transformou-se em um violento redemoinho que se formou exatamente diante delas. O vórtice cresceu, elevando-se a uma altura que parecia ultrapassar o nível da margem e, em seguida, avançou com um ímpeto assombroso, tragando todas as oferendas. Tentou arrastar até mesmo o bule com a água ofertada, mas, em um sobressalto, ela estendeu a mão e conseguiu recuperá-lo a tempo.</p>
 <p>Prosseguindo com a entoação da Zengen Sanji, seu filho, que até então permanecia tranquilo em suas costas, subitamente perdeu as forças, ficando inerte como se estivesse sem vida. Aterrorizada, ela correu de volta para casa, acendeu uma vela no altar familiar e orou fervorosamente. Em seguida, os gemidos de dor da criança começaram a cessar gradualmente, até que ela abriu os olhos de uma só vez. Após receber Johrei por vinte ou trinta minutos, sentiu-se completamente refeita. Ao entardecer, suas energias já retornavam, e o filho mais novo, de dois anos, também se recuperou por completo. Desde então, ambos esbanjam saúde e passam os dias a brincar alegremente com as outras crianças da vizinhança.</p>
 <p>Após um longo período de incertezas, no qual recorreu não apenas à medicina, mas também a preces e rituais de diversas outras crenças, sofrendo sem encontrar solução, ela foi finalmente salva por este Caminho. Pôde, assim, compreender que a enfermidade de seus amados filhos era, na verdade, uma interferência espiritual inesperada. Ao testemunhar a grandiosa virtude da Oração Amatsu Norito e da Zengen Sanji, ela agora vive seus dias em profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御光に水死霊救わる 『栄光』96号、昭和26(1951)年3月21日発行 兵庫県 宝生中教会 藤原 繁（23） 珍らしい霊的病気が癒された御神徳話を御取次させて戴きます、島根県鹿足郡益田町の川崎ふじ子様（三五歳）の御子様二人（四歳と二歳）は生れて以来ほとんど病気の連続でありまして、医師にも長い間かかり数万円の金を費しましたがちょっとも良い方に向わず、しかも子供を連れて行った母親迄医師の所に行くと悪くなり、医師の門から出るとすーとするというような始末で、日々泣き暮しておられましたが、近所の人よりこの御道を知らされ、早速昨年八月入信されましたが、御子様は御浄霊を戴いた時は良くなりますが、又しばらくすると悪化するというような状態で、私達も再三御浄霊をさして戴き、何か霊的原因があることと思いつつも考え当る事もなく経過しておりましたところ、本年二月二日の朝、四歳になる御子さんがふじ子様の御実家のある、同町中須に行こう行こうと泣きとおします、そこでふとそこの御主人の義姉の水死した子供の事が気にかかり、もしやと思って早速御実家に参られました。<br/><br/>すると家には、ふじ子様の御母上様だけが御在宅でしたが、未入信であるその方はふじ子様の顔を見るや、すぐ「あーよく来てくれた、実は昨晩変な夢を見ました。<br/><br/>それはお前が子供の履く小さい藁で作った草履を持って来てお供物として、家の孫の死んだ川の所に行って一生懸命にお祈りしている夢なんですよ」と言われましたので、ますます変に思い早速お供物を準備し、御母様と一緒に目的地迄参りました、そして川端に色々お供して、祝詞、善言讃詞を奉誦していると、とても穏かであった水面は、お祈りしている前だけ物凄い渦が巻き、だんだんと盛り上り、陸面よりも高くなったかと思うと、物凄い勢いで陸の方に寄せて来て、お供物を全部渦の中に巻き込み又水をお供えしたやかん迄も流そうとしたので、驚いてせめてやかんだけはと、すぐ手をのばして取りました、それから又善言讃詞をお誦えしておりますと、今迄背中で静かにしていた子供が急にぐたっとなってしまい死んだようになりましたので、びっくりして急いで自宅に連れて帰り、まず御仏壇にお光をあげ、お参りを致しました、すると苦しさの余り呻いていたのが、だんだんと静かになり、目をぱっと開きました、そして、二、三十分御浄霊をしているとすっかり楽になり、夕刻からは段々と元気が出て参り、また下の二歳の子供もすっかり身体の調子がよくなりました、それからというものは、二人共近所の子供と一緒に大変な元気で、毎日遊び廻っておられます、長い間迷い続けて医薬ばかりでなく、色々な神様や仏様にもお祈祷してもらったり、散々悩み続けていたのが、最後にお道で救われると共に、可愛い子供の病気が、思いもかけぬ霊の障りと知らされ、祝詞、善言讃詞の御偉徳を体験され、今は感謝の日々を過されておられます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

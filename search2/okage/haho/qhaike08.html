@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhaike08</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 〔四年間の〕肺結核と慢性胃腸病忽ち好転 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 大分県 如意輪中教会 安部政実（27） 昭和二十二年十二月、肺結核と診断の結果安静を命ぜられ、間もなく急性肺炎を起し、更に湿性肋膜炎を併発しましたが、引続いての安静の結果、二十三年九月、ようやく起居の練習を始める事を許されました。<br><br>ところが十月末感冒のために、再び悪化、その後絶対安静を続ける事約一カ年、二十四年九月に又起居運動を始めることが出来ました。<br><br>約半年間極めて徐々に好転を続けましたが、昨年三月又も悪化し、運動停止を言い渡されました。<br><br>こうした結核患者によくある経過を辿りながら、次第に体は衰弱を加え、精神的にも痛めつけられて、気力は衰えるばかり、この頃より医学の貧弱さがつくづくと身に沁みて判り始めた気が致します。<br><br> 話は更にさかのぼりますが、生来虚弱だった私は十七歳の春（昭和十五年）より、極めて悪性の慢性胃病にかかり、医薬、温泉、電気治療と種々の方法を試みましたが、いずれも決定的効果なく、一進一退の状態で数年を過し、体はだるく、頭は重く、仕事はおっくうで、その上性質は暗くなってゆく気さえ致しました。<br><br>その矢先肺結核を発病、前記の経過を辿ったのであります。<br><br> 結核に必要とされた安静は、それでなくとも極めて不調な胃腸を徹底的衰弱へ導き、昨年春頃からは加速度的に体力が弱まってゆくし、これ以上の安静持続は、遂には消化不能による衰弱死を招く危険さえ考えられ、かといって湿性肋膜後では気胸も出来ぬとのこと、手術などは更に及ばず、医学的処置はほとんど塞がれた感さえ致しました。<br><br>私の体質病状は医学の常道をことごとくこばんだと申しましょうか、かと言って何ら自ら進んでどうする事も出来ませず、進退谷まった状態で、煩悶の日々を送り迎え致しました。<br><br> しかし慈悲深き神は、こうした状態に呻吟する私を憐れと思い給われたのでございましょうか、五月上旬はからずも救いの御手を私の前に垂れさせられました、と申しますのは知人である姫野敦君の尊父が見えられ、光明如来様の御力により、すべての病気が救われること、敦君も結核より救われし事、その他の実例を引いて私にも試みるようすすめられましたが、何分常識はずれの事とて、誰もが初めに考えるような事を考え、さして注意もそそぎませんでした。<br><br>その後一カ月程して敦君自身が見えられ、かくかくして救われ、現在この通りの体になったということを詳しく説明されたのであります。<br><br> 薬の効なきことは自からの体験により十分知り尽し、いつにても止める心構えはあった事ですし、今としては勿体ない事ながら試みる積りで、七月初めより敦君の浄霊を受けた訳でした。<br><br>しかし驚くべきは、私にとっては毎年最も苦しかった真夏の候でありながら、血色、肉付き、共にまして行ったことです。<br><br>それにつれて気分は爽快に、体力は加わり、容易に起居の時間を延長してゆく事が出来ました。<br><br>こうして御浄霊の偉力を体験することにより、自から救われるのだという自信と、無限の感謝が起きて参ったのでした。<br><br>そうして遂には八月二十日入信さして頂き九月五日には敦君の家の御祭に、一里位の、しかも坂道を交えた道路を、自転車で詣らせて頂いたのです。<br><br>この時はとてもとても言葉で表せない実に複雑なよろこびの気持でした。<br><br> その後、下痢、風邪等の形による軽い浄化を頂きながら、ぐんぐんと実に急速度に健康に向い、初めて自転車で外出した日より、僅か五十日間、浄霊を受ける事約四カ月間にして、さしもの衰弱もほとんど恢復し、食物も次々と制限を解かれ、しかも美味しく食べられるし、これで過去十年間の病床生活より完全に救われることが出来る喜びに満ちています。<br><br> 過去の経験よりして、こんなにも素晴しい速度で慢性の病気が処理されるとは思いも及ばなかったところでありまして、それにつけても、神の限りなき御慈悲、偉大なる御力、明主様の尊さ、及びお導き頂く諸先生方の御徳に対し、心からなる感謝を捧げさせて頂きます。<br><br>更には又激しき病気の苦痛に呻吟し、又は光明を失って人生に煩悶を抱くような人々を一日も早く一人でも多く、神の御光に浴して頂くよう微力ながら、諸先生の御手伝いをさせて頂きたい念願です。<br><br>有難う御座居ました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A súbita melhora de tuberculose pulmonar e de uma doença gastrointestinal crônica após quatro anos</h2>
 <p>Publicado em "A Terapia Revolucionária da Tuberculose" de 15 de agosto de 1951
@@ -101,5 +256,48 @@ Publicado em "A Terapia da Fé para a Tuberculose" de 1º de dezembro de 1952</p
 <p>Posteriormente, passei por purificações leves, sob a forma de diarreia e resfriados, enquanto minha saúde avançava a um ritmo vertiginoso. Apenas cinquenta dias após minha primeira saída de bicicleta, e transcorridos cerca de quatro meses desde o início do recebimento de Johrei, minha profunda debilidade estava praticamente superada. As restrições alimentares foram sendo gradualmente removidas e passei a alimentar-me com prazer e apetite. Hoje, sinto-me pleno de alegria por ter sido completamente salvo de uma vida de dez anos acamado.</p>
 <p>Com base em minhas experiências passadas, jamais poderia imaginar que doenças crônicas pudessem ser resolvidas com tamanha celeridade. Por tudo isso, expresso do fundo do meu coração minha mais profunda gratidão pela infinita misericórdia e pelo grandioso poder de Deus, pela nobreza de Meishu-Sama e pela virtude dos ministros que me orientaram. Almejo, ainda, com minhas parcas forças, auxiliar os ministros para que, o mais rápido possível, o maior número de pessoas que gemem sob o suplício de doenças graves ou que, tendo perdido a esperança, vivem em angústia, possam também ser banhadas pela Luz Divina.</p>
 <p>Muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 〔四年間の〕肺結核と慢性胃腸病忽ち好転 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 大分県 如意輪中教会 安部政実（27） 昭和二十二年十二月、肺結核と診断の結果安静を命ぜられ、間もなく急性肺炎を起し、更に湿性肋膜炎を併発しましたが、引続いての安静の結果、二十三年九月、ようやく起居の練習を始める事を許されました。<br/><br/>ところが十月末感冒のために、再び悪化、その後絶対安静を続ける事約一カ年、二十四年九月に又起居運動を始めることが出来ました。<br/><br/>約半年間極めて徐々に好転を続けましたが、昨年三月又も悪化し、運動停止を言い渡されました。<br/><br/>こうした結核患者によくある経過を辿りながら、次第に体は衰弱を加え、精神的にも痛めつけられて、気力は衰えるばかり、この頃より医学の貧弱さがつくづくと身に沁みて判り始めた気が致します。<br/><br/> 話は更にさかのぼりますが、生来虚弱だった私は十七歳の春（昭和十五年）より、極めて悪性の慢性胃病にかかり、医薬、温泉、電気治療と種々の方法を試みましたが、いずれも決定的効果なく、一進一退の状態で数年を過し、体はだるく、頭は重く、仕事はおっくうで、その上性質は暗くなってゆく気さえ致しました。<br/><br/>その矢先肺結核を発病、前記の経過を辿ったのであります。<br/><br/> 結核に必要とされた安静は、それでなくとも極めて不調な胃腸を徹底的衰弱へ導き、昨年春頃からは加速度的に体力が弱まってゆくし、これ以上の安静持続は、遂には消化不能による衰弱死を招く危険さえ考えられ、かといって湿性肋膜後では気胸も出来ぬとのこと、手術などは更に及ばず、医学的処置はほとんど塞がれた感さえ致しました。<br/><br/>私の体質病状は医学の常道をことごとくこばんだと申しましょうか、かと言って何ら自ら進んでどうする事も出来ませず、進退谷まった状態で、煩悶の日々を送り迎え致しました。<br/><br/> しかし慈悲深き神は、こうした状態に呻吟する私を憐れと思い給われたのでございましょうか、五月上旬はからずも救いの御手を私の前に垂れさせられました、と申しますのは知人である姫野敦君の尊父が見えられ、光明如来様の御力により、すべての病気が救われること、敦君も結核より救われし事、その他の実例を引いて私にも試みるようすすめられましたが、何分常識はずれの事とて、誰もが初めに考えるような事を考え、さして注意もそそぎませんでした。<br/><br/>その後一カ月程して敦君自身が見えられ、かくかくして救われ、現在この通りの体になったということを詳しく説明されたのであります。<br/><br/> 薬の効なきことは自からの体験により十分知り尽し、いつにても止める心構えはあった事ですし、今としては勿体ない事ながら試みる積りで、七月初めより敦君の浄霊を受けた訳でした。<br/><br/>しかし驚くべきは、私にとっては毎年最も苦しかった真夏の候でありながら、血色、肉付き、共にまして行ったことです。<br/><br/>それにつれて気分は爽快に、体力は加わり、容易に起居の時間を延長してゆく事が出来ました。<br/><br/>こうして御浄霊の偉力を体験することにより、自から救われるのだという自信と、無限の感謝が起きて参ったのでした。<br/><br/>そうして遂には八月二十日入信さして頂き九月五日には敦君の家の御祭に、一里位の、しかも坂道を交えた道路を、自転車で詣らせて頂いたのです。<br/><br/>この時はとてもとても言葉で表せない実に複雑なよろこびの気持でした。<br/><br/> その後、下痢、風邪等の形による軽い浄化を頂きながら、ぐんぐんと実に急速度に健康に向い、初めて自転車で外出した日より、僅か五十日間、浄霊を受ける事約四カ月間にして、さしもの衰弱もほとんど恢復し、食物も次々と制限を解かれ、しかも美味しく食べられるし、これで過去十年間の病床生活より完全に救われることが出来る喜びに満ちています。<br/><br/> 過去の経験よりして、こんなにも素晴しい速度で慢性の病気が処理されるとは思いも及ばなかったところでありまして、それにつけても、神の限りなき御慈悲、偉大なる御力、明主様の尊さ、及びお導き頂く諸先生方の御徳に対し、心からなる感謝を捧げさせて頂きます。<br/><br/>更には又激しき病気の苦痛に呻吟し、又は光明を失って人生に煩悶を抱くような人々を一日も早く一人でも多く、神の御光に浴して頂くよう微力ながら、諸先生の御手伝いをさせて頂きたい念願です。<br/><br/>有難う御座居ました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

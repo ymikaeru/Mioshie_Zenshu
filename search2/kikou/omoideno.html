@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>omoideno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 思い出のまま 瓢箪 『栄光』190号、昭和28(1953)年1月7日発行 私の学生時代、執拗な陰睾毛虱に悩まされたことがある。<br><br>当時私の信仰していた宗門では、本山神苑の池の粘土質の土をお土さんとよび、これを水に溶かして外傷や腫物等の患部に塗って霊顕を戴くことになっていたが、清浄な土の霊気が滲み込むのであるからたしかにそれだけの効果はあった訳である。<br><br>私も早速お土を局部に塗り、糊つけ紙をかぶせて包帯を巻き変な腰つきで歩いていた。<br><br>ところが土が湿っているうちはいいとしても体温ですぐに乾いてしまい、細かく亀裂してボロボロめくれて刺戟するので痒くて堪らず夢中で掻いてしまう。<br><br>すると土は粉々になって包帯の中に溜り、歩く度に漏れて畳を汚す、それでも平気なのだから頭もよほど変であったが、よくも懲りずに根気よく続けたものである。<br><br>そのうち御用ができて松風苑へ一週間ばかり泊らして戴くこととなった。<br><br>何分局部が局所だけに失礼かと思い御浄霊を頂かずなおもお土を塗っていたが、流石に注意しているつもりでも御神前の畳の上など何時の間にかボロボロ落ちる。<br><br>とうとう明主様に目っかってしまった。<br><br>定めしお叱りと思いきや笑いになって「仕様がないな、なおしてやるからサイダー瓶にでも水を詰めて持ってこい」との御言葉である。<br><br>私はすっかり恐縮して直ちにお持ちすると、明主様は御額から御霊気をお入れ下さって「陰睾の薬だからこれを塗るよう」仰せられお下げ下さった。<br><br> 私がその水を患部に塗るや否や消毒薬でもつけたように、ヒリヒリ痛んで皮膚に浸みたと思うと間もなくスーッと爽快になったのには驚いた。<br><br>私はこの御水を何回も塗って、その夜は明主様のお入りになったお風呂を戴いたが、翌日になってみると痒みはすっかりなくなり、それっきり治ってしまい再び陰睾を患うことはなかった。<br><br> なお、明主様がお入りになった後のお風呂は吾々奉仕者にも自由に入らして下さったが、お上りになったお湯はとろっとして比重が重くなっているように思われ、滑らかに柔かく包まれる様な触感を皮膚に覚え、御霊気が浸透していることが明かに感ぜられた。<br><br>観音会時代には病者はこのお湯を瓶に詰めて持帰りお蔭を戴いたもので、そのことがお耳に入ってから明主様も特にお身体をお浄めになってお入り下されたものである。<br><br>私も胃痛が持病だったので、瓶に詰めておいては痛みの度に飲んで楽にして戴いたが、ある発作の時あわてて瓶を間違え、濃厚な塩のニガリを一気に呑み込んで、目を廻しそうになり悲鳴を挙げたニガイ失敗は一生忘れられぬ。<br><br> お土について想出したがその宗教の熱狂的信者で三十七、八歳の婦人があった。<br><br>この人は思い切ったことを平然と決行する人で数々の逸話を残した婦人で、同教の最高幹部が死んだ時「ゴショウテンお目出とうゴザイマス」という祝辞的弔電を打って驚かしたのもその一つである。<br><br>又この人が明主様にお近づきする前、病気を治す為にお土さんを密柑箱に三杯も呑んでしまったそうである。<br><br>明主様の御浄霊を戴く様になってから漸く健康を保ち活動する様になったが、恐しいもので皮膚など黄土色をしてザラザラと土の触感があった。<br><br>明主様はモグラモチ病とか御名づけになっていたが、浄化状態も体質も実に異常であった。<br><br>この人は明主様の御言葉に叛いて死んだが、その死の状態も実に変っていた。<br><br> 病苦の為には人間は何をするか分らぬものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre da Água e a Tragédia do Solo</h2>
 <p>Em meus tempos de estudante, vi-me atormentado por uma obstinada infestação de piolhos-púbicos. Na seita religiosa à qual eu pertencia na época, o solo argiloso do lago no jardim do templo principal era reverentemente chamado de "solo sagrado". A prática consistia em dissolvê-lo em água e aplicá-lo sobre ferimentos, inchaços e outras afecções para se obter uma graça divina. Com efeito, por se acreditar que a energia espiritual daquele solo puro penetrava no corpo, havia certa eficácia nesse método. Sem tardar, apliquei também o solo sagrado na região afetada, cobri com um papel gomado e enfaixei o local, o que me forçava a caminhar com um andar bastante esquisito.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Aliás, Meishu-Sama permitia que nós, servidores, usássemos livremente a água de Seu banho. A água, após Ele a ter utilizado, parecia mais densa e viscosa. Na pele, a sensação era de uma maciez aveludada, como um abraço suave, e podia-se perceber claramente que estava impregnada de Luz Divina. Nos tempos da Kannon-kai (観音会), era comum que os doentes levassem essa água em garrafas para casa, a fim de receber graças. Ao tomar conhecimento disso, Meishu-Sama passou a purificar Seu corpo com especial atenção antes de imergir na banheira. Como eu sofria de dores crônicas no estômago, também guardava a água em uma garrafa e a bebia sempre que uma crise surgia, o que me trazia grande alívio. Contudo, em meio a um ataque súbito, confundi as garrafas e bebi, de um só gole, uma solução concentrada de nigari, um tipo de salmoura. A experiência amarga, que quase me fez desmaiar e me levou a gritar, foi uma falha que jamais esquecerei.</p>
 <p>A menção ao solo sagrado me fez recordar de uma senhora, com seus trinta e sete ou trinta e oito anos, que era uma seguidora fanática daquela mesma religião. Ela era conhecida por seus atos audaciosos e excêntricos, tendo deixado um rastro de histórias singulares. Um desses episódios foi quando, por ocasião da morte de um dos mais altos dirigentes da seita, ela chocou a todos ao enviar um telegrama de condolências com os dizeres: "Parabéns pela sua ascensão ao céu". Consta que, antes de conhecer Meishu-Sama, na tentativa de curar uma enfermidade, ela chegou a ingerir o equivalente a três caixas de tangerina daquele solo sagrado. Após começar a receber Johrei, sua saúde finalmente se estabilizou e ela pôde retomar suas atividades. Contudo, o mais assustador era que sua pele adquirira uma tonalidade ocre e uma textura áspera, semelhante à da terra. Meishu-Sama denominou seu quadro de "doença da toupeira", pois tanto seu estado de purificação quanto sua constituição física eram verdadeiramente anômalos. Essa mulher acabou por falecer após desobedecer às orientações de Meishu-Sama, e as circunstâncias de sua morte foram também muito peculiares.</p>
 <p>Diante do sofrimento causado pela doença, é impossível prever os extremos a que uma pessoa pode chegar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 思い出のまま 瓢箪 『栄光』190号、昭和28(1953)年1月7日発行 私の学生時代、執拗な陰睾毛虱に悩まされたことがある。<br/><br/>当時私の信仰していた宗門では、本山神苑の池の粘土質の土をお土さんとよび、これを水に溶かして外傷や腫物等の患部に塗って霊顕を戴くことになっていたが、清浄な土の霊気が滲み込むのであるからたしかにそれだけの効果はあった訳である。<br/><br/>私も早速お土を局部に塗り、糊つけ紙をかぶせて包帯を巻き変な腰つきで歩いていた。<br/><br/>ところが土が湿っているうちはいいとしても体温ですぐに乾いてしまい、細かく亀裂してボロボロめくれて刺戟するので痒くて堪らず夢中で掻いてしまう。<br/><br/>すると土は粉々になって包帯の中に溜り、歩く度に漏れて畳を汚す、それでも平気なのだから頭もよほど変であったが、よくも懲りずに根気よく続けたものである。<br/><br/>そのうち御用ができて松風苑へ一週間ばかり泊らして戴くこととなった。<br/><br/>何分局部が局所だけに失礼かと思い御浄霊を頂かずなおもお土を塗っていたが、流石に注意しているつもりでも御神前の畳の上など何時の間にかボロボロ落ちる。<br/><br/>とうとう明主様に目っかってしまった。<br/><br/>定めしお叱りと思いきや笑いになって「仕様がないな、なおしてやるからサイダー瓶にでも水を詰めて持ってこい」との御言葉である。<br/><br/>私はすっかり恐縮して直ちにお持ちすると、明主様は御額から御霊気をお入れ下さって「陰睾の薬だからこれを塗るよう」仰せられお下げ下さった。<br/><br/> 私がその水を患部に塗るや否や消毒薬でもつけたように、ヒリヒリ痛んで皮膚に浸みたと思うと間もなくスーッと爽快になったのには驚いた。<br/><br/>私はこの御水を何回も塗って、その夜は明主様のお入りになったお風呂を戴いたが、翌日になってみると痒みはすっかりなくなり、それっきり治ってしまい再び陰睾を患うことはなかった。<br/><br/> なお、明主様がお入りになった後のお風呂は吾々奉仕者にも自由に入らして下さったが、お上りになったお湯はとろっとして比重が重くなっているように思われ、滑らかに柔かく包まれる様な触感を皮膚に覚え、御霊気が浸透していることが明かに感ぜられた。<br/><br/>観音会時代には病者はこのお湯を瓶に詰めて持帰りお蔭を戴いたもので、そのことがお耳に入ってから明主様も特にお身体をお浄めになってお入り下されたものである。<br/><br/>私も胃痛が持病だったので、瓶に詰めておいては痛みの度に飲んで楽にして戴いたが、ある発作の時あわてて瓶を間違え、濃厚な塩のニガリを一気に呑み込んで、目を廻しそうになり悲鳴を挙げたニガイ失敗は一生忘れられぬ。<br/><br/> お土について想出したがその宗教の熱狂的信者で三十七、八歳の婦人があった。<br/><br/>この人は思い切ったことを平然と決行する人で数々の逸話を残した婦人で、同教の最高幹部が死んだ時「ゴショウテンお目出とうゴザイマス」という祝辞的弔電を打って驚かしたのもその一つである。<br/><br/>又この人が明主様にお近づきする前、病気を治す為にお土さんを密柑箱に三杯も呑んでしまったそうである。<br/><br/>明主様の御浄霊を戴く様になってから漸く健康を保ち活動する様になったが、恐しいもので皮膚など黄土色をしてザラザラと土の触感があった。<br/><br/>明主様はモグラモチ病とか御名づけになっていたが、浄化状態も体質も実に異常であった。<br/><br/>この人は明主様の御言葉に叛いて死んだが、その死の状態も実に変っていた。<br/><br/> 病苦の為には人間は何をするか分らぬものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

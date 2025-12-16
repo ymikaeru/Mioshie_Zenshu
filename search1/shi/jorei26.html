@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei26</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊は科学療法なり（２） 『栄光』247号、昭和29(1954)年2月10日発行 前（さき）にかいたところの太陽の精なるものは、もちろん太陽の霊であるのは言うまでもないが、ではなぜ今日まで地球上それが現われなかったかというと、これには大なる神秘的理由がある事であって、それを詳しく書いてみよう。<br><br>すでに述べたごとく人間は霊と体との両原素から成立っていると同様、地上といえども霊界と現界との両面から成立っており、その霊界もまた二つの原素から成立っている。<br><br>その一つは霊気界、今一つは空気界である。<br><br>そうして前者の本質は火主水従であり、後者のそれは水主火従であり、すなわち陽と陰である。<br><br>この理によって万物は太陽の精と月の精が抱合（ほうごう）一体となって地球を哺育（ほいく）している。<br><br>つまり父と母が協力して子を育てるようなものである。<br><br>というように日月地の三位一体によって生まれるこれが自然力であって、これによって一切万有は生成化育されているのであって、これが宇宙の真相である。<br><br>しかもその中心としての王者が人間であるから、人間なる者は神を除いての最高位の存在である。<br><br>この故に万物は人間のために存在し、人間を哺育する以外の何物でもないのである。<br><br> 以上は人間と宇宙との関係であるが、ここに驚くべき大異変が近づきつつあるのである。<br><br>それは史上空前の一大驚異であって、今日までの世界は夜の世界であったのが、今や昼の世界に転換せんとする、その黎明期が現在であるといったら、恐らく何人といえども何が何やら見当がつかないであろう。<br><br>そこで言うであろう。<br><br>昼と夜とは一日の内にあるだけではないか。<br><br>それを時代的に結びつけるなどは荒唐無稽（こうとうむけい）もはなはだしいとして一笑に付するであろうが、それも無理はない。<br><br>私といえども真相を知らないとしたらそう思うのはもちろんである。<br><br>しかし私は神示によって知り得た以上、信ぜざるを得ないのである。<br><br>しかもこれは真理である以上、この文をよく読めば必ず納得がゆくはずである。<br><br> 以上のごとく火主水従の霊気界、水主火従の空気界の両素が渾然（こんぜん）融合し大気界が構成され、この地球を囲繞（いにょう）しているのであって、五感で分る一日の昼夜なるものは、言わば体的昼夜であって、これとは別に時間を超越した霊的昼夜のある事を知らねばならない。<br><br>これこそ最も重要な意義であり、宇宙の大神秘である。<br><br>すなわち現界の昼夜を無限大に拡げたようなもので、空（くう）と同様であるから人間には分らないが、しかし規則正しく流転（るてん）しつつある。<br><br>しかもそれが十年に、百年に、千年、万年といったように大中小になっている。<br><br>その一期間は三、六、九合計十八になっており、これが宇宙の実相である。<br><br>彼（か）の釈尊が唱えた五十六億七千万年後ミロクの世が来るとの説は、文字通りとすれば、余りに長過ぎて実際上無意味であるのは、全く右の数字を示唆（しさ）したに外ならないのである。<br><br>そこで前へ戻るが、今までの夜の世界は月の主宰（しゅさい）であり、月は水であり体であるから、物質文化が発展したのであるが、それに反し昼の世界は日の主宰で、日は火（霊）であり、精神的である。<br><br>またこれを善悪に別ければ体が悪となり、霊が善となる。<br><br>これが真理である。<br><br>従って今までの世界は悪主善従であったのが、今度は善主悪従の文明世界に転換するのである。<br><br>つまり悪主善従のため現在のごとき地獄世界が生まれたので、これが長く続くとしたら、結局人類の破滅にまで及ぶのはもちろんで、彼の原子爆弾の発見もその一つの示唆に外ならないのである。<br><br>このように神の経綸の深奥なる到底人智などで窺知（きち）し得られるものではない。<br><br>以上によって世界の今後の動きはほぼ分ったであろう。<br><br>彼のキリストのいった世の終りと、そうして天国は近づけりとの予言もこれであり、私の宣言する病貧争絶滅もその基本的条件である。<br><br>そのまた基本が病気の解消であるから、神はこの鍵を私に与え給うたので、私は現在病の解決を主眼としているのである。<br><br> 以上によってみても、この大経綸たるや破天荒的大偉業であって、この結果文明は革命され、第二紀元の誕生となるのはもちろんである。<br><br>これは余りに驚異的な説で、この著を読んだだけでは茫然として理解は困難であろうが、事実は飽くまで事実であり、しかもその時は迫っている以上、一日も早くこれに目覚められん事である。<br><br> ここで今一つの重要事がある。<br><br>それは前記のごとく物質文化発達の途上長年月にわたって犯した悪主善従による罪穢の堆積である。<br><br>これを人間についていえば、体的には薬毒であり、霊的には悪による曇りである。<br><br>これが霊界における火素の増量によって、浄化作用も旺盛となり、最後は決定的清算が行われるのである。<br><br>これがまたキリストのいった最後の審判でもあるとしたら、この難関を切り抜けなければならないが、それに失敗したら何人を問わず永遠の滅びとなるのである。<br><br>この事は今私が唱えるのではない。<br><br>すでに幾多の聖者、賢哲が幾千年前から予言された事であって、これを信ずる信じないはその人の勝手だが、私は信じられる証拠としての奇蹟を現わしつつある現在、何ら疑うところはないはずである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Alvorada da Era do Dia</h2>
 <p>A essência solar à qual me referi anteriormente é, inegavelmente, o espírito do Sol. Contudo, a razão pela qual ela não se manifestou na Terra até os dias de hoje reside em um profundo mistério, que passarei a elucidar.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Como se pode depreender, esta grande Providência Divina é um feito extraordinário, sem precedentes, que resultará em uma revolução na civilização e, por conseguinte, no nascimento de uma segunda era. Trata-se de uma revelação tão assombrosa que, para muitos, a mera leitura deste texto pode não ser suficiente para uma compreensão imediata, deixando-os em um estado de perplexidade. Contudo, a realidade é irrefutável, e o tempo urge. É imperativo que todos despertem para esta verdade o quanto antes.</p>
 <p>Há aqui outro ponto de suma importância. Ao longo do extenso desenvolvimento da civilização material, sob a égide da predominância do mal sobre o bem, acumulou-se uma vasta quantidade de pecados e máculas. No ser humano, essas impurezas manifestam-se no corpo como yakudoku (薬毒) e no espírito como nódoas geradas pelo mal. Com o aumento do elemento fogo no Mundo Espiritual, a ação purificadora se intensifica, culminando em um acerto de contas definitivo.</p>
 <p>Se considerarmos que este é o “Juízo Final” anunciado por Cristo, torna-se evidente que todos deverão atravessar essa provação. Fracassar nela significará, para qualquer indivíduo, a perdição eterna. E não sou eu quem afirma isto agora; inúmeros santos e sábios o profetizaram há milênios. Crer ou não é uma escolha pessoal, mas, no presente momento, em que manifesto milagres que servem como prova irrefutável de minhas palavras, não deveria haver margem para dúvida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊は科学療法なり（２） 『栄光』247号、昭和29(1954)年2月10日発行 前（さき）にかいたところの太陽の精なるものは、もちろん太陽の霊であるのは言うまでもないが、ではなぜ今日まで地球上それが現われなかったかというと、これには大なる神秘的理由がある事であって、それを詳しく書いてみよう。<br/><br/>すでに述べたごとく人間は霊と体との両原素から成立っていると同様、地上といえども霊界と現界との両面から成立っており、その霊界もまた二つの原素から成立っている。<br/><br/>その一つは霊気界、今一つは空気界である。<br/><br/>そうして前者の本質は火主水従であり、後者のそれは水主火従であり、すなわち陽と陰である。<br/><br/>この理によって万物は太陽の精と月の精が抱合（ほうごう）一体となって地球を哺育（ほいく）している。<br/><br/>つまり父と母が協力して子を育てるようなものである。<br/><br/>というように日月地の三位一体によって生まれるこれが自然力であって、これによって一切万有は生成化育されているのであって、これが宇宙の真相である。<br/><br/>しかもその中心としての王者が人間であるから、人間なる者は神を除いての最高位の存在である。<br/><br/>この故に万物は人間のために存在し、人間を哺育する以外の何物でもないのである。<br/><br/> 以上は人間と宇宙との関係であるが、ここに驚くべき大異変が近づきつつあるのである。<br/><br/>それは史上空前の一大驚異であって、今日までの世界は夜の世界であったのが、今や昼の世界に転換せんとする、その黎明期が現在であるといったら、恐らく何人といえども何が何やら見当がつかないであろう。<br/><br/>そこで言うであろう。<br/><br/>昼と夜とは一日の内にあるだけではないか。<br/><br/>それを時代的に結びつけるなどは荒唐無稽（こうとうむけい）もはなはだしいとして一笑に付するであろうが、それも無理はない。<br/><br/>私といえども真相を知らないとしたらそう思うのはもちろんである。<br/><br/>しかし私は神示によって知り得た以上、信ぜざるを得ないのである。<br/><br/>しかもこれは真理である以上、この文をよく読めば必ず納得がゆくはずである。<br/><br/> 以上のごとく火主水従の霊気界、水主火従の空気界の両素が渾然（こんぜん）融合し大気界が構成され、この地球を囲繞（いにょう）しているのであって、五感で分る一日の昼夜なるものは、言わば体的昼夜であって、これとは別に時間を超越した霊的昼夜のある事を知らねばならない。<br/><br/>これこそ最も重要な意義であり、宇宙の大神秘である。<br/><br/>すなわち現界の昼夜を無限大に拡げたようなもので、空（くう）と同様であるから人間には分らないが、しかし規則正しく流転（るてん）しつつある。<br/><br/>しかもそれが十年に、百年に、千年、万年といったように大中小になっている。<br/><br/>その一期間は三、六、九合計十八になっており、これが宇宙の実相である。<br/><br/>彼（か）の釈尊が唱えた五十六億七千万年後ミロクの世が来るとの説は、文字通りとすれば、余りに長過ぎて実際上無意味であるのは、全く右の数字を示唆（しさ）したに外ならないのである。<br/><br/>そこで前へ戻るが、今までの夜の世界は月の主宰（しゅさい）であり、月は水であり体であるから、物質文化が発展したのであるが、それに反し昼の世界は日の主宰で、日は火（霊）であり、精神的である。<br/><br/>またこれを善悪に別ければ体が悪となり、霊が善となる。<br/><br/>これが真理である。<br/><br/>従って今までの世界は悪主善従であったのが、今度は善主悪従の文明世界に転換するのである。<br/><br/>つまり悪主善従のため現在のごとき地獄世界が生まれたので、これが長く続くとしたら、結局人類の破滅にまで及ぶのはもちろんで、彼の原子爆弾の発見もその一つの示唆に外ならないのである。<br/><br/>このように神の経綸の深奥なる到底人智などで窺知（きち）し得られるものではない。<br/><br/>以上によって世界の今後の動きはほぼ分ったであろう。<br/><br/>彼のキリストのいった世の終りと、そうして天国は近づけりとの予言もこれであり、私の宣言する病貧争絶滅もその基本的条件である。<br/><br/>そのまた基本が病気の解消であるから、神はこの鍵を私に与え給うたので、私は現在病の解決を主眼としているのである。<br/><br/> 以上によってみても、この大経綸たるや破天荒的大偉業であって、この結果文明は革命され、第二紀元の誕生となるのはもちろんである。<br/><br/>これは余りに驚異的な説で、この著を読んだだけでは茫然として理解は困難であろうが、事実は飽くまで事実であり、しかもその時は迫っている以上、一日も早くこれに目覚められん事である。<br/><br/> ここで今一つの重要事がある。<br/><br/>それは前記のごとく物質文化発達の途上長年月にわたって犯した悪主善従による罪穢の堆積である。<br/><br/>これを人間についていえば、体的には薬毒であり、霊的には悪による曇りである。<br/><br/>これが霊界における火素の増量によって、浄化作用も旺盛となり、最後は決定的清算が行われるのである。<br/><br/>これがまたキリストのいった最後の審判でもあるとしたら、この難関を切り抜けなければならないが、それに失敗したら何人を問わず永遠の滅びとなるのである。<br/><br/>この事は今私が唱えるのではない。<br/><br/>すでに幾多の聖者、賢哲が幾千年前から予言された事であって、これを信ずる信じないはその人の勝手だが、私は信じられる証拠としての奇蹟を現わしつつある現在、何ら疑うところはないはずである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

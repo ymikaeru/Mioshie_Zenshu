@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M230228</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年2月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年二月二十八日（土） ――満一カ年の嬰児、左足が五分くらい短く脱臼らしいのですが…… ブラブラしていないなら脱臼ではない、治るさ。<br><br> ――十二歳の青年、以前肋膜をやり全快しましたが、最近腰が痛み、医師はカリエスだと言い腰に穴をあけ膿を出しております。<br><br>私はカリエスではなく、肋膜のときの残った毒が出てくるのだと思いますが…… 医者よりあんたの診断のほうが合ってます。<br><br>肋膜の浄化ですよ。<br><br>食欲が少ないといけない。<br><br> ――十六歳の女の子、頭を下げたきりで上げられず、しばらく医者へ行っておりましたがかえって悪くなり、今月二日より御治療しましたところ一回ずつよくなってます。<br><br>神様の御恩を忘れたからだと本人は申しております。<br><br> そんなのは医者にかかってては死んでしまう。<br><br>気が小さい人ですね。<br><br>なにか霊が憑いている。<br><br> ――宗教になりましてより、観音様や日月地大神のお働きについて信者が非常に知りたがっておりますが。<br><br> 観音様は観音菩薩で、仏教のほうでは観は見る、客観的にわきで見ることで、音は世間の音、すなわち世の音を見るのだと言ってますが、おかしなものです。<br><br>これではまるで目の中に耳があるようですね。<br><br>コジツケですよ。<br><br>観音様は昔インドに渡って布咀落迦山に登って住まわれた。<br><br>日光にオダケ観音がある。<br><br>二荒山は布咀落迦山のことで、その因縁による。<br><br>布咀落迦山は海岸に近く、南に海があり、その山の上に寺のようなものを作り、またその庭に全剛法座を設けて説教した。<br><br>経文に二十八部衆を従え、観自在菩薩南海大師として善財童子らに説法したとある。<br><br>当時インドは大自在天が支配していた。<br><br>観自在菩薩とは大自在天の世を見るという意である。<br><br>この故に観世音という。<br><br>菩薩とは一番下の位で尊者と同じようだ。<br><br>インドでは如来より天が上だろう。<br><br>何々天とはインドの位になる。<br><br> 華厳経に、布咀落迦山に観世音菩薩あり、善財童子等大慈悲教を説かれるのを聞いて居られたが、其の中に既に沢山の弟子が居られ、中にも侍者として二十八部衆在り、大弁財天、大梵天王、帝釈天王、金色孔雀、毘舎門天、阿修羅王等の外、ナーラヤナ金剛、ワーデラバーニ金剛の兄弟二人（此二人を仁王尊という）等の諸天が居られたとあるのを見ても、御釈迦様は観音様から御教を受けたことがよく判ります。<br><br>（以上「観音講座」第二講座より） 日蓮の曼陀羅にも大自在天がある。<br><br>天照大神は下のほうに小さく書いてある。<br><br>ここにもいろいろ意味がある。<br><br>伊都能売大神はネ、日本におられたとき迫害をうけてお逃げになった。<br><br>そのとき姿をかくすため頭巾をかぶり身を包んだ、そのお姿が絵に書いてある。<br><br>『古事記』には世を浄める神と出ている。<br><br>で、日本を脱出して支那からインドに渡り庵を作り観自在天となられた。<br><br>観音様は日本人ですよ。<br><br>だから釈迦や阿弥陀は頭の毛が縮れているが、観音様は縮れてないんです。<br><br>なぜ逃げたかというと、それは素盞嗚尊に命をとられようとしたからです。<br><br>素盞嗚尊の奥さんは乙姫、また弟姫、オトヨの姫ともいう。<br><br>素盞嗚尊は朝鮮の蘇尸茂梨（ソシモリ）山――『古事記』〔日本書紀〕にありますが――に下り、日本へ来て実権を握った。<br><br>これが出雲朝の始めです。<br><br> 伊都能売大神は天照大神のころかそれ以前の神様です。<br><br>素盞嗚尊は世界へ出て行きユダヤへ行ってユダヤ人の祖先となった。<br><br>で素盞嗚尊の代わりになったのは乙姫だ。<br><br>観音とは、乙姫――音姫を観ていることを意味する。<br><br>そしていずれは日本に帰り、素盞嗚尊の実権を取り返そうとする時期を待っておられた。<br><br>千手観音がそれです。<br><br>いままでは乙姫が財宝を握っていた。<br><br>神様の話は虚々実々だがマンザラ作り話でもないんです。<br><br>乙姫は物質に執着して龍になり、丹後の竜宮海という海に沈んだ。<br><br>時期が来ると三寒三熱の苦しみにあい、ついには国常立尊にお詫びするようになる。<br><br>国常立尊とは以前世界の実権を持っておられたが、節分の夜鬼門のほうに押し込められ艮金神となられた神様です。<br><br>国常立尊が伊都能売大神になる。<br><br>国常立尊は霊界で閻魔大王になり、裁きの役をやるが、それが苛（きび）しくてかわいそうだということから半分は閻魔大王に半分は観音になる。<br><br>神は厳格だが仏というのは慈悲だから、伊都能売大神は、仏界で観音様になったんだ。<br><br>すなわち善悪無差別の慈悲である。<br><br>本地垂迹説もいままでのは間違いで、日本へ再び帰って来られて衆生を救うことの意味である。<br><br>神様は霊的に分裂する。<br><br>精神分裂ではないがね。<br><br>フロイトのは霊憑りを説明したもので「ジキル博士とハイド」などはそれで説明される。<br><br> 伊都能売大神は龍神になり霊は富士山頂に（兄花咲耶姫の守護神久須志神社）、体は琵琶湖で時期を待っておられる。<br><br>龍神というのは力が強いんです。<br><br>で、大神も悪魔の邪魔に対抗するため龍神となられたんです。<br><br>伊都能売大神のお働きは、イヅ――火、ミズ――水です。<br><br>ミイヅというでしょう、これは逆なんです。<br><br>火と水で光になる。<br><br>夜の間は本当の火がない。<br><br>月の光ですね。<br><br>太陽は月の六十倍の光を持つというが、いままで観音様をお祀りしても少ししか御利益がなかったのはそのためです。<br><br>イヅ、ミズが五、三、それでも足らずさらに土の力が加わってそれが日月地の御力になる。<br><br>いままではニロク――二力だった。<br><br>夜の間は三界（天界、中界、地界）はほとんど水だった。<br><br>六、六、六だったが、今度は五六七になり、天の六が地に降り土の力が加わる。<br><br>金剛不壊（ふえ）の力だ。<br><br>絶対力になる。<br><br>いかなることでも自由になる。<br><br>神道でいうマニの玉とは完全な玉のことですネ。<br><br>これから先は神秘になるからまた時期に応じて説く。<br><br> 私がこれを始めたのが昭和三年で、それから六年して昭和九年まで治療し、さらに六年の昭和十五年まで上野毛でやり、さらに六年、二十一年までが基礎工事なのです。<br><br>私の修行は終わった。<br><br>去年からミロクの時代になった。<br><br>霊界から日月地大神の御力が私の身体を通して人に働くんです。<br><br>これから三年は現界の基礎工事、それが終わってから世界的になるんです。<br><br>光に「丶」の御守りは天から地に降ったことです。<br><br>祝詞にあるでしょう、光明如来（火と水）が応身日月地に現ずると。<br><br>これは相手に合うように働く、大きく言えば世の中に合うようにする。<br><br>いばっていては駄目です。<br><br>その社会に合うようにやらねば駄目です。<br><br>そうでないと爾光尊みたいに気狂い扱いされる。<br><br>日月地にも三段あり、現界に対してはやはり光明如来で、日月地、光明如来、観音の三段になる。<br><br>徹底して説明せねばならぬがいまはまだ時期ではない。<br><br> ――天津金木（あまつかなぎ）とは…… これも半分きり説明できない。<br><br>神武天皇以前、その時の天皇が正月にこれを拝むと、その年の吉凶がわかる。<br><br>一種の占いですよ。<br><br>これは代々伝わって稗田阿礼（ひえだのあれ）の所にあった。<br><br>神武天皇に征服された日本人が代々口伝えしてついに丹波で百姓をしていた阿礼に至り、太安萬侶（おおのやすまろ）がそれを誌（しる）したのが『古事記』ですよ。<br><br>天津金木は地上天国の予言になっている。<br><br>いずれまた話そう。<br><br>あらゆる宗教がなくなってからこれを拝むようになる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Elucidações sobre Kannon e a Obra Divina</h2>
 <p>— O lactente de um ano tem a perna esquerda cerca de um centímetro e meio mais curta; parece ser uma luxação...
@@ -107,5 +259,48 @@ Kannon é o Bodhisattva Kannon. No budismo, costuma-se explicar que <em>kan</em>
 <p>Iniciei esta Obra no terceiro ano da Era Showa (1928). Por seis anos, até o nono ano (1934), me dediquei à cura. Por mais seis anos, até o décimo quinto ano (1940), atuei em Kaminoge. E por outros seis anos, até o vigésimo primeiro ano (1946), realizei a construção dos alicerces. Meu treinamento se concluiu. Desde o ano passado, adentramos a Era de Miroku. A força da Grande Divindade Nichigetsu-chi, vinda do Mundo Espiritual, atua sobre as pessoas através do meu corpo. Os próximos três anos serão dedicados à construção dos alicerces no mundo material. Findo esse período, a Obra se expandirá mundialmente. O pequeno ponto no amuleto sagrado significa "desceu do Céu à Terra". Como consta na Oração, Komyō Nyorai (Luz-Fogo e Água) Se manifesta no corpo de Nichigetsu-chi. Isso significa atuar de forma adequada a cada pessoa e, em uma escala maior, em harmonia com o mundo. A arrogância é um impedimento. É preciso agir em conformidade com a sociedade em que se vive; do contrário, seremos tratados como loucos, a exemplo de Jikōson. A própria Divindade Nichigetsu-chi possui três níveis. Em relação ao mundo material, Ela atua como Komyō Nyorai. Os três níveis são, portanto: Nichigetsu-chi, Komyō Nyorai e Kannon. Seria preciso explicar isso exaustivamente, mas ainda não é o momento.</p>
 <p>— O que é o Amatsu Kanagi (天津金木)?
 Isso também só posso explicar parcialmente. Antes do Imperador Jinmu, o imperador da época reverenciava esse objeto no Ano Novo para conhecer os desígnios, bons e maus, para o ano que se iniciava. Era uma espécie de oráculo. Foi transmitido de geração em geração, chegando às mãos de Hieda no Are (稗田阿礼). O povo japonês, subjugado pelo Imperador Jinmu, preservou essa tradição oralmente, até que ela chegou a Are, um camponês que vivia em Tanba. Foi O no Yasumaro (太安萬侶) quem registrou seus relatos, dando origem ao <em>Kojiki</em>. O Amatsu Kanagi contém a profecia do Paraíso Terrestre. Falarei mais sobre isso no futuro. Quando todas as demais religiões desaparecerem, ele voltará a ser reverenciado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年2月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年二月二十八日（土） ――満一カ年の嬰児、左足が五分くらい短く脱臼らしいのですが…… ブラブラしていないなら脱臼ではない、治るさ。<br/><br/> ――十二歳の青年、以前肋膜をやり全快しましたが、最近腰が痛み、医師はカリエスだと言い腰に穴をあけ膿を出しております。<br/><br/>私はカリエスではなく、肋膜のときの残った毒が出てくるのだと思いますが…… 医者よりあんたの診断のほうが合ってます。<br/><br/>肋膜の浄化ですよ。<br/><br/>食欲が少ないといけない。<br/><br/> ――十六歳の女の子、頭を下げたきりで上げられず、しばらく医者へ行っておりましたがかえって悪くなり、今月二日より御治療しましたところ一回ずつよくなってます。<br/><br/>神様の御恩を忘れたからだと本人は申しております。<br/><br/> そんなのは医者にかかってては死んでしまう。<br/><br/>気が小さい人ですね。<br/><br/>なにか霊が憑いている。<br/><br/> ――宗教になりましてより、観音様や日月地大神のお働きについて信者が非常に知りたがっておりますが。<br/><br/> 観音様は観音菩薩で、仏教のほうでは観は見る、客観的にわきで見ることで、音は世間の音、すなわち世の音を見るのだと言ってますが、おかしなものです。<br/><br/>これではまるで目の中に耳があるようですね。<br/><br/>コジツケですよ。<br/><br/>観音様は昔インドに渡って布咀落迦山に登って住まわれた。<br/><br/>日光にオダケ観音がある。<br/><br/>二荒山は布咀落迦山のことで、その因縁による。<br/><br/>布咀落迦山は海岸に近く、南に海があり、その山の上に寺のようなものを作り、またその庭に全剛法座を設けて説教した。<br/><br/>経文に二十八部衆を従え、観自在菩薩南海大師として善財童子らに説法したとある。<br/><br/>当時インドは大自在天が支配していた。<br/><br/>観自在菩薩とは大自在天の世を見るという意である。<br/><br/>この故に観世音という。<br/><br/>菩薩とは一番下の位で尊者と同じようだ。<br/><br/>インドでは如来より天が上だろう。<br/><br/>何々天とはインドの位になる。<br/><br/> 華厳経に、布咀落迦山に観世音菩薩あり、善財童子等大慈悲教を説かれるのを聞いて居られたが、其の中に既に沢山の弟子が居られ、中にも侍者として二十八部衆在り、大弁財天、大梵天王、帝釈天王、金色孔雀、毘舎門天、阿修羅王等の外、ナーラヤナ金剛、ワーデラバーニ金剛の兄弟二人（此二人を仁王尊という）等の諸天が居られたとあるのを見ても、御釈迦様は観音様から御教を受けたことがよく判ります。<br/><br/>（以上「観音講座」第二講座より） 日蓮の曼陀羅にも大自在天がある。<br/><br/>天照大神は下のほうに小さく書いてある。<br/><br/>ここにもいろいろ意味がある。<br/><br/>伊都能売大神はネ、日本におられたとき迫害をうけてお逃げになった。<br/><br/>そのとき姿をかくすため頭巾をかぶり身を包んだ、そのお姿が絵に書いてある。<br/><br/>『古事記』には世を浄める神と出ている。<br/><br/>で、日本を脱出して支那からインドに渡り庵を作り観自在天となられた。<br/><br/>観音様は日本人ですよ。<br/><br/>だから釈迦や阿弥陀は頭の毛が縮れているが、観音様は縮れてないんです。<br/><br/>なぜ逃げたかというと、それは素盞嗚尊に命をとられようとしたからです。<br/><br/>素盞嗚尊の奥さんは乙姫、また弟姫、オトヨの姫ともいう。<br/><br/>素盞嗚尊は朝鮮の蘇尸茂梨（ソシモリ）山――『古事記』〔日本書紀〕にありますが――に下り、日本へ来て実権を握った。<br/><br/>これが出雲朝の始めです。<br/><br/> 伊都能売大神は天照大神のころかそれ以前の神様です。<br/><br/>素盞嗚尊は世界へ出て行きユダヤへ行ってユダヤ人の祖先となった。<br/><br/>で素盞嗚尊の代わりになったのは乙姫だ。<br/><br/>観音とは、乙姫――音姫を観ていることを意味する。<br/><br/>そしていずれは日本に帰り、素盞嗚尊の実権を取り返そうとする時期を待っておられた。<br/><br/>千手観音がそれです。<br/><br/>いままでは乙姫が財宝を握っていた。<br/><br/>神様の話は虚々実々だがマンザラ作り話でもないんです。<br/><br/>乙姫は物質に執着して龍になり、丹後の竜宮海という海に沈んだ。<br/><br/>時期が来ると三寒三熱の苦しみにあい、ついには国常立尊にお詫びするようになる。<br/><br/>国常立尊とは以前世界の実権を持っておられたが、節分の夜鬼門のほうに押し込められ艮金神となられた神様です。<br/><br/>国常立尊が伊都能売大神になる。<br/><br/>国常立尊は霊界で閻魔大王になり、裁きの役をやるが、それが苛（きび）しくてかわいそうだということから半分は閻魔大王に半分は観音になる。<br/><br/>神は厳格だが仏というのは慈悲だから、伊都能売大神は、仏界で観音様になったんだ。<br/><br/>すなわち善悪無差別の慈悲である。<br/><br/>本地垂迹説もいままでのは間違いで、日本へ再び帰って来られて衆生を救うことの意味である。<br/><br/>神様は霊的に分裂する。<br/><br/>精神分裂ではないがね。<br/><br/>フロイトのは霊憑りを説明したもので「ジキル博士とハイド」などはそれで説明される。<br/><br/> 伊都能売大神は龍神になり霊は富士山頂に（兄花咲耶姫の守護神久須志神社）、体は琵琶湖で時期を待っておられる。<br/><br/>龍神というのは力が強いんです。<br/><br/>で、大神も悪魔の邪魔に対抗するため龍神となられたんです。<br/><br/>伊都能売大神のお働きは、イヅ――火、ミズ――水です。<br/><br/>ミイヅというでしょう、これは逆なんです。<br/><br/>火と水で光になる。<br/><br/>夜の間は本当の火がない。<br/><br/>月の光ですね。<br/><br/>太陽は月の六十倍の光を持つというが、いままで観音様をお祀りしても少ししか御利益がなかったのはそのためです。<br/><br/>イヅ、ミズが五、三、それでも足らずさらに土の力が加わってそれが日月地の御力になる。<br/><br/>いままではニロク――二力だった。<br/><br/>夜の間は三界（天界、中界、地界）はほとんど水だった。<br/><br/>六、六、六だったが、今度は五六七になり、天の六が地に降り土の力が加わる。<br/><br/>金剛不壊（ふえ）の力だ。<br/><br/>絶対力になる。<br/><br/>いかなることでも自由になる。<br/><br/>神道でいうマニの玉とは完全な玉のことですネ。<br/><br/>これから先は神秘になるからまた時期に応じて説く。<br/><br/> 私がこれを始めたのが昭和三年で、それから六年して昭和九年まで治療し、さらに六年の昭和十五年まで上野毛でやり、さらに六年、二十一年までが基礎工事なのです。<br/><br/>私の修行は終わった。<br/><br/>去年からミロクの時代になった。<br/><br/>霊界から日月地大神の御力が私の身体を通して人に働くんです。<br/><br/>これから三年は現界の基礎工事、それが終わってから世界的になるんです。<br/><br/>光に「丶」の御守りは天から地に降ったことです。<br/><br/>祝詞にあるでしょう、光明如来（火と水）が応身日月地に現ずると。<br/><br/>これは相手に合うように働く、大きく言えば世の中に合うようにする。<br/><br/>いばっていては駄目です。<br/><br/>その社会に合うようにやらねば駄目です。<br/><br/>そうでないと爾光尊みたいに気狂い扱いされる。<br/><br/>日月地にも三段あり、現界に対してはやはり光明如来で、日月地、光明如来、観音の三段になる。<br/><br/>徹底して説明せねばならぬがいまはまだ時期ではない。<br/><br/> ――天津金木（あまつかなぎ）とは…… これも半分きり説明できない。<br/><br/>神武天皇以前、その時の天皇が正月にこれを拝むと、その年の吉凶がわかる。<br/><br/>一種の占いですよ。<br/><br/>これは代々伝わって稗田阿礼（ひえだのあれ）の所にあった。<br/><br/>神武天皇に征服された日本人が代々口伝えしてついに丹波で百姓をしていた阿礼に至り、太安萬侶（おおのやすまろ）がそれを誌（しる）したのが『古事記』ですよ。<br/><br/>天津金木は地上天国の予言になっている。<br/><br/>いずれまた話そう。<br/><br/>あらゆる宗教がなくなってからこれを拝むようになる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

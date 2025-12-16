@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270805</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月5日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月五日 この一日の晩に大浄化が起きて夜中中下痢で、寝たのは朝の三時ごろです。<br><br>それも時々痛む、ウトウトすると腹が痛む。<br><br>それから凄い下痢でして、どこにこんな材料があるかと思うくらいです。<br><br>食物にあたったかと思ったが、もし食物にあたったとすると、他の人もならなければならないが、私だけですからそれでもない。<br><br>一昨日は一日中、なにも仕事しないで寝たり起きたりしてました。<br><br>アメリカ人が美術館を見に来たので、しかたなしに二度行きましたが、私としてはたいへんなのです。<br><br>今日はあらかた良くなりましたが、良く調べてみると、ここ（後頭部）に元から固まりがある。<br><br>八つ頭の小さいようなもので、固くて骨みたいなものです。<br><br>これはなんだというと以前歯の薬をつけた、それがここに固まってそれが溶けてきた。<br><br>だから非常に良いことなのです。<br><br>そして少し原稿なんか書くと、じきここ（後頭部）が凝ってきて、三十分は書けるが一時間は難しい。<br><br>そうすると後三十分か一時間休まなければならない。<br><br>ところが下痢のためにこれがだいぶ小さくなったので、昨日も書いてみたが非常に具合が良い。<br><br>頭の働きが良いのです。<br><br>だからもっと出たらなお良いと思います。<br><br>まだかなりあります。<br><br>そんなような具合で私がいつも言う、赤痢は頭の浄化だというがよく合うのです。<br><br>これは赤痢ではないが、とにかく後頭部に浄化しているのです。<br><br>ですから近ごろは非常に浄化が強くなってきて、家の太田が非常に強く下痢して日に十数回あったが、これは頭なのです。<br><br>だからお腹なんかも頭をやると治ってくるのです。<br><br>以前ですとそういう浄化はなかった――頭が痛いとかガンガンするとか、そんなだったが、今のは頭の浄化で下痢をするのです。<br><br>これは早く治ってたいへん良いのです。<br><br>そこで今の人の浄化はほとんど頭と頸（くび）です。<br><br>ですから一番先にここ（前頭部）をみて、熱ければここに浄化が起きています。<br><br>それから頸をみて、どこかしらに熱がありますから、それを浄霊する。<br><br>そうすれば下痢も治ります。<br><br>私はこんなことは五、六年ぶりくらいです。<br><br>私はこんな浄化は、たいてい一日です。<br><br>で、ふつうの浄化は、たいてい半日かかる。<br><br>これは私だけでなく、どんな人でも体の毒がある程度まで減っていくと、そういうふうになるのです。<br><br>ですから病気は恐ろしいどころでない、はなはだ簡単なつまらないものなのです。<br><br>ですからその後非常に具合が良いから、大いに病気を礼讃して良い。<br><br>病気くらいありがたいものはないのです。<br><br>健康にはもっとも良いものです。<br><br>ですからこれだけのことを知れば、どれくらい人間は幸福だか分からないのです。<br><br>恐ろしいものがありがたいものだから、およそ違いさがひどいわけです。<br><br>それで苦痛でしようがない時以外は、我慢ができるだけ働いても差し支えないのです。<br><br>だから病気になったとすれば、もう治るに決まったものなのです。<br><br>だからなんでもないわけです。<br><br>これだけを世の中の人に分からせたら、たいへんな仕合せになります。<br><br> それから浄化が強くなったりするについて、肺病の治し方を変えなければならない。<br><br>一番怖いのは結核の再浄化です。<br><br>いったん治ってから、しばらく経ってからまた起きるのです。<br><br>あれが一番怖い。<br><br>ですから再浄化になった場合には、浄霊を一週間に一回くらいにするのです。<br><br>そうして安静にする。<br><br>安静といっても、医学のように床縛りになるような、そんな安静ではない。<br><br>まあ床の上で寝たり起きたりするくらいで、便所くらいは行ってもかまわない。<br><br>そうして浄霊を一週間に一回くらいやる。<br><br>そうするとだんだん熱が冷めてきます。<br><br>そうして熱が冷めたらボツボツ動き出す。<br><br>そうして浄霊も一週間に二回か三回やっても良い。<br><br>浄化が強くなってきたから、再浄化の場合には衰弱して、それでまいってしまうのです。<br><br>それには浄霊をしないで安静にすることです。<br><br>そうして熱をなくする。<br><br>というのは、再浄化が起るような人は薬毒がうんと入ってますから、以前ですと薬毒がチビチビ出たが、今は薬毒がチビチビでなくてドシドシ出ます。<br><br>そのために熱が出る、咳が出る、痰が出る、食欲が減りますから、そこで衰弱してそれで駄目になる。<br><br>ですから今はそういうようにゆったりとごく気長に、早く治そうとしない――そういうやり方でも、いい加減浄化が起るのです。<br><br>とにかくそれが一番順調に行く方法ですから、そういうふうにやることです。<br><br> この間も言いましたが、今『文明の創造』を、今度は仕上げをしようと思って書き始めました。<br><br>以前のは気に入らない所がたくさんあるので、かなり根本的に書き直した点があるのです。<br><br>それを今「序文」から読ませます。<br><br> （御論文「文明の創造 序文」）【栄光 一七〇号】 （御論文「梗概」） 馬鹿にまじめで、まるで教科書みたいですが、今度は少し砕けて書いたのです。<br><br>これは「文明の創造」ではないのです。<br><br>つまり今の文明というものは、道具立てばかり良くしてあるのです。<br><br>道具立てが良ければ良いと思っているのですが、道具立てを良くするというのは、もうこれで良いのです。<br><br>つまりそれは人間の運営にある。<br><br>悪に利用するから、どんな良い組織でも駄目なのです。<br><br>ところがその悪の急所を分かられるのが苦しいものだから、目立たないようにして制度の方ばかり良くするのです。<br><br>それがつまり急所なのです。<br><br>邪神の急所なのです。<br><br>だからそういったずるいやり方が良く思われているのです。<br><br>医学でもそうです。<br><br>注射をしたり薬を服ませて一時良くなるようにみえるでしょう。<br><br>そうして次の病気になるように作られているのです。<br><br>それが分からない。<br><br>要するに世界中が瞞（だま）されている。<br><br>要するに邪神のずるさに世界人類が瞞されている。<br><br>やれ共産主義がどうだ、資本主義、社会主義がどうだと言っているが、共産主義、社会主義で立派に立っている。<br><br>ただそれを用いる者の腹の中が悪い。<br><br>だから破壊活動をしたりする。<br><br>共産党だって立派で、貧乏人を仕合せにしようとするのです。<br><br>それを、つまり暴力を振るってやるのが悪いので、つまり心の根本的の悪がいけなくしている。<br><br>そんなつまらないことで、ゴテゴテ日本中大騒ぎしているのです。<br><br>馬鹿の骨頂です。<br><br>ですからいろんな道具立ては実に良くできている。<br><br>道具立てが良くても、使う者が間違ったら良い働きはしない。<br><br>悪い働きをする。<br><br>そこに気がつかないのです。<br><br>情けないものです。<br><br>というのは、つまり神というものはない、と――神が在るということが怖いのです。<br><br>そうすると自分の悪をみんな暴露してしまうのです。<br><br>そこで神が在ることと悪を追放することとが大事なのです。<br><br>もっとも神があることが分かれば悪は追放されます。<br><br>それだけで良いのです。<br><br>それが根本です。<br><br>そうすれば病なき世界ができてみんな健康になる。<br><br>病気は浄化作用でありがたいものだということがはっきり分かるから、人間の病気はなくなり、不安はなくなるのです。<br><br>それを上手く隠蔽しているのです。<br><br>お医者さんも――ところがそういう心があってやっているのではないが、良いと思ってやっている。<br><br>また瞞されているということを意識しないでやっている。<br><br>それが怖いのです。<br><br>だから瞞されているということを教えて、それを暴露するのです。<br><br>浄霊ということは、それを分からせる一つの手段です。<br><br>それを神様がやられているわけです。<br><br> それを分かりやすく書いたのです。<br><br> （御論文「悪の追放」）【栄光 一七三号】 これもちょっと知っておいて良いことなので。<br><br> （御論文「御説教」）【地上天国 三十九号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Doença e o Engano do Mundo</h2>
 <p>Na noite do dia primeiro deste mês, fui acometido por uma intensa purificação, que se manifestou como uma diarreia que perdurou por toda a noite. Só consegui adormecer por volta das três da manhã. A dor era intermitente; sempre que eu cochilava, meu abdômen doía. A diarreia foi tão severa que me perguntei de onde poderia vir tanta matéria. Cogitei a possibilidade de ter sido uma intoxicação alimentar, mas, se fosse o caso, outras pessoas também deveriam ter adoecido, e como fui o único, descartei essa hipótese. No dia seguinte, passei o dia todo deitado, alternando entre o sono e a vigília, sem realizar nenhuma tarefa. Fui obrigado a ir duas vezes ao Museu de Arte para receber visitantes americanos, o que representou um esforço considerável para mim.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Portanto, o fundamental é reconhecer a existência de Deus e extirpar o mal. Na verdade, se a existência de Deus for compreendida, o mal será naturalmente expulso. Apenas isso é suficiente. Esta é a base de tudo. Dessa forma, um mundo sem doenças se tornará realidade, e todos serão saudáveis. A verdade de que a doença é uma abençoada ação purificadora se tornará clara, eliminando as enfermidades e a ansiedade da humanidade.</p>
 <p>Essa verdade, porém, é habilmente ocultada. Os próprios médicos — embora não ajam por maldade, mas por acreditarem que estão fazendo o bem — atuam sem ter consciência de que também estão sendo enganados. Isso é o mais assustador. Nossa missão é, portanto, expor essa fraude e ensinar a verdade. O Johrei é um dos meios que Deus nos concedeu para que as pessoas possam despertar para essa realidade.</p>
 <p>Foi isso que procurei expressar de forma clara nestes escritos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月5日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月五日 この一日の晩に大浄化が起きて夜中中下痢で、寝たのは朝の三時ごろです。<br/><br/>それも時々痛む、ウトウトすると腹が痛む。<br/><br/>それから凄い下痢でして、どこにこんな材料があるかと思うくらいです。<br/><br/>食物にあたったかと思ったが、もし食物にあたったとすると、他の人もならなければならないが、私だけですからそれでもない。<br/><br/>一昨日は一日中、なにも仕事しないで寝たり起きたりしてました。<br/><br/>アメリカ人が美術館を見に来たので、しかたなしに二度行きましたが、私としてはたいへんなのです。<br/><br/>今日はあらかた良くなりましたが、良く調べてみると、ここ（後頭部）に元から固まりがある。<br/><br/>八つ頭の小さいようなもので、固くて骨みたいなものです。<br/><br/>これはなんだというと以前歯の薬をつけた、それがここに固まってそれが溶けてきた。<br/><br/>だから非常に良いことなのです。<br/><br/>そして少し原稿なんか書くと、じきここ（後頭部）が凝ってきて、三十分は書けるが一時間は難しい。<br/><br/>そうすると後三十分か一時間休まなければならない。<br/><br/>ところが下痢のためにこれがだいぶ小さくなったので、昨日も書いてみたが非常に具合が良い。<br/><br/>頭の働きが良いのです。<br/><br/>だからもっと出たらなお良いと思います。<br/><br/>まだかなりあります。<br/><br/>そんなような具合で私がいつも言う、赤痢は頭の浄化だというがよく合うのです。<br/><br/>これは赤痢ではないが、とにかく後頭部に浄化しているのです。<br/><br/>ですから近ごろは非常に浄化が強くなってきて、家の太田が非常に強く下痢して日に十数回あったが、これは頭なのです。<br/><br/>だからお腹なんかも頭をやると治ってくるのです。<br/><br/>以前ですとそういう浄化はなかった――頭が痛いとかガンガンするとか、そんなだったが、今のは頭の浄化で下痢をするのです。<br/><br/>これは早く治ってたいへん良いのです。<br/><br/>そこで今の人の浄化はほとんど頭と頸（くび）です。<br/><br/>ですから一番先にここ（前頭部）をみて、熱ければここに浄化が起きています。<br/><br/>それから頸をみて、どこかしらに熱がありますから、それを浄霊する。<br/><br/>そうすれば下痢も治ります。<br/><br/>私はこんなことは五、六年ぶりくらいです。<br/><br/>私はこんな浄化は、たいてい一日です。<br/><br/>で、ふつうの浄化は、たいてい半日かかる。<br/><br/>これは私だけでなく、どんな人でも体の毒がある程度まで減っていくと、そういうふうになるのです。<br/><br/>ですから病気は恐ろしいどころでない、はなはだ簡単なつまらないものなのです。<br/><br/>ですからその後非常に具合が良いから、大いに病気を礼讃して良い。<br/><br/>病気くらいありがたいものはないのです。<br/><br/>健康にはもっとも良いものです。<br/><br/>ですからこれだけのことを知れば、どれくらい人間は幸福だか分からないのです。<br/><br/>恐ろしいものがありがたいものだから、およそ違いさがひどいわけです。<br/><br/>それで苦痛でしようがない時以外は、我慢ができるだけ働いても差し支えないのです。<br/><br/>だから病気になったとすれば、もう治るに決まったものなのです。<br/><br/>だからなんでもないわけです。<br/><br/>これだけを世の中の人に分からせたら、たいへんな仕合せになります。<br/><br/> それから浄化が強くなったりするについて、肺病の治し方を変えなければならない。<br/><br/>一番怖いのは結核の再浄化です。<br/><br/>いったん治ってから、しばらく経ってからまた起きるのです。<br/><br/>あれが一番怖い。<br/><br/>ですから再浄化になった場合には、浄霊を一週間に一回くらいにするのです。<br/><br/>そうして安静にする。<br/><br/>安静といっても、医学のように床縛りになるような、そんな安静ではない。<br/><br/>まあ床の上で寝たり起きたりするくらいで、便所くらいは行ってもかまわない。<br/><br/>そうして浄霊を一週間に一回くらいやる。<br/><br/>そうするとだんだん熱が冷めてきます。<br/><br/>そうして熱が冷めたらボツボツ動き出す。<br/><br/>そうして浄霊も一週間に二回か三回やっても良い。<br/><br/>浄化が強くなってきたから、再浄化の場合には衰弱して、それでまいってしまうのです。<br/><br/>それには浄霊をしないで安静にすることです。<br/><br/>そうして熱をなくする。<br/><br/>というのは、再浄化が起るような人は薬毒がうんと入ってますから、以前ですと薬毒がチビチビ出たが、今は薬毒がチビチビでなくてドシドシ出ます。<br/><br/>そのために熱が出る、咳が出る、痰が出る、食欲が減りますから、そこで衰弱してそれで駄目になる。<br/><br/>ですから今はそういうようにゆったりとごく気長に、早く治そうとしない――そういうやり方でも、いい加減浄化が起るのです。<br/><br/>とにかくそれが一番順調に行く方法ですから、そういうふうにやることです。<br/><br/> この間も言いましたが、今『文明の創造』を、今度は仕上げをしようと思って書き始めました。<br/><br/>以前のは気に入らない所がたくさんあるので、かなり根本的に書き直した点があるのです。<br/><br/>それを今「序文」から読ませます。<br/><br/> （御論文「文明の創造 序文」）【栄光 一七〇号】 （御論文「梗概」） 馬鹿にまじめで、まるで教科書みたいですが、今度は少し砕けて書いたのです。<br/><br/>これは「文明の創造」ではないのです。<br/><br/>つまり今の文明というものは、道具立てばかり良くしてあるのです。<br/><br/>道具立てが良ければ良いと思っているのですが、道具立てを良くするというのは、もうこれで良いのです。<br/><br/>つまりそれは人間の運営にある。<br/><br/>悪に利用するから、どんな良い組織でも駄目なのです。<br/><br/>ところがその悪の急所を分かられるのが苦しいものだから、目立たないようにして制度の方ばかり良くするのです。<br/><br/>それがつまり急所なのです。<br/><br/>邪神の急所なのです。<br/><br/>だからそういったずるいやり方が良く思われているのです。<br/><br/>医学でもそうです。<br/><br/>注射をしたり薬を服ませて一時良くなるようにみえるでしょう。<br/><br/>そうして次の病気になるように作られているのです。<br/><br/>それが分からない。<br/><br/>要するに世界中が瞞（だま）されている。<br/><br/>要するに邪神のずるさに世界人類が瞞されている。<br/><br/>やれ共産主義がどうだ、資本主義、社会主義がどうだと言っているが、共産主義、社会主義で立派に立っている。<br/><br/>ただそれを用いる者の腹の中が悪い。<br/><br/>だから破壊活動をしたりする。<br/><br/>共産党だって立派で、貧乏人を仕合せにしようとするのです。<br/><br/>それを、つまり暴力を振るってやるのが悪いので、つまり心の根本的の悪がいけなくしている。<br/><br/>そんなつまらないことで、ゴテゴテ日本中大騒ぎしているのです。<br/><br/>馬鹿の骨頂です。<br/><br/>ですからいろんな道具立ては実に良くできている。<br/><br/>道具立てが良くても、使う者が間違ったら良い働きはしない。<br/><br/>悪い働きをする。<br/><br/>そこに気がつかないのです。<br/><br/>情けないものです。<br/><br/>というのは、つまり神というものはない、と――神が在るということが怖いのです。<br/><br/>そうすると自分の悪をみんな暴露してしまうのです。<br/><br/>そこで神が在ることと悪を追放することとが大事なのです。<br/><br/>もっとも神があることが分かれば悪は追放されます。<br/><br/>それだけで良いのです。<br/><br/>それが根本です。<br/><br/>そうすれば病なき世界ができてみんな健康になる。<br/><br/>病気は浄化作用でありがたいものだということがはっきり分かるから、人間の病気はなくなり、不安はなくなるのです。<br/><br/>それを上手く隠蔽しているのです。<br/><br/>お医者さんも――ところがそういう心があってやっているのではないが、良いと思ってやっている。<br/><br/>また瞞されているということを意識しないでやっている。<br/><br/>それが怖いのです。<br/><br/>だから瞞されているということを教えて、それを暴露するのです。<br/><br/>浄霊ということは、それを分からせる一つの手段です。<br/><br/>それを神様がやられているわけです。<br/><br/> それを分かりやすく書いたのです。<br/><br/> （御論文「悪の追放」）【栄光 一七三号】 これもちょっと知っておいて良いことなので。<br/><br/> （御論文「御説教」）【地上天国 三十九号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

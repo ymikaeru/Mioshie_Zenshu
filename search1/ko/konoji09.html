@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>konoji09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： この事実を何と見る 『栄光』211号、昭和28(1953)年6月3日発行 吾々はいつも医学の治病力に比べて、浄霊の治病力の偉大なる事は、百対一といっても過言ではないとしているので、これを読んだ人は到底信ずる事は出来まいが、しかし事実は飽くまで事実であるから、そのつもりで読んで貰いたい。<br><br>従ってもしこれを読んでもまだ信じられない人があるとしたら、その人は気の毒ながら一度あの世へ行って、生まれ変るより致し方ないであろう。<br><br>虎造君の浪曲に馬鹿は死ななきゃ治らないという文句があるが、それに当てはまるような気がする。<br><br> 医師より死の宣告を受けし「両肺の空洞」より救われて 広島県 陽光中教会 石川義行（35） 私は去る昭和二十三年九月のこと、急に発熱し、咳は連発致しますので医師の診断を受けましたところ、肺浸潤といわれ、当時入手困難な高価なマイシンを買い求め注射致しましたら十日間余りで一応平常に復しました（当時神戸に在住致しておりました）。<br><br> さて、二十四年は大過なく暮れましたものの、明けて二十五年三月頃より前回と同様の状態が再発、否、最初のそれより余程悪化しているように思われました。<br><br>しかし某医師の診断では「心配する程ではないから安静にして極力魚肉類を食べるように」との話で、カルシウム程度の注射を受けておりましたが、依然として食欲なく体力は益々衰えるのみですので、思い切って県立病院の診断を乞いましたところ「右肺に空洞があるから直ちに入院し手術しなければならない」といわれました。<br><br>この時の驚きと落胆の深さは恐らく体験者でなくてはお分り頂けないのではないかと思います。<br><br> しかし医学を最上のものと信じ切っている頃の事ですから、それこそ本当に夢中で早速神戸の某病院に入院、手術を受ける覚悟でしたが、院長はこれを排してマイシン療法をとりました。<br><br>その時撮影致しましたレントゲン写真の結果、既に両肺に空洞ができていました。<br><br>ほんに短期間にできたものでございます。<br><br>その後約二カ月で退院致し、自宅で安静療法に移りまして、何とか一夏は過しましたものの、経済的にも行詰り、遂に意を決して故郷尾道に帰りました。<br><br> その後約半年して尾道保健所にて受診致しますと、右肺に又空洞が一つ殖えていました。<br><br>そこで今度は本格的療養をと思い右保健所の所長の通知書を持ち、国立賀茂療養所に入院を申込みました。<br><br>ところが患者が多く入院不可能の有様でした。<br><br>それは現在入院患者は四百名でその希望者は、私が千三百番だといわれ、病室のあくのは、ほとんどの方が諦めて（経済的事情等により）退院するか、又は死ぬかであるとのこと、その死亡者については火葬場の人は「月に四、五人は仕事がある」といっておりました。<br><br>その程度のあきようですからちょっと希望が持てませんでした。<br><br>そしてなお県下には、三千名位の結核患者がいるとのことでした。<br><br> その他福山の国立病院も同様で、しかも手術者は大抵前記療養所におくるとのことでした。<br><br>手術しなければといわれながらも、その希望も消え、限りない焦燥の中になお半年程も経た昭和二十六年十月に再び尾道保健所の診断を乞いに参りました。<br><br>そこは自宅より約六キロはありますが、道中紫外線に当ると悪いといわれていたので朝の三時に出発、手押車にて蒲団にくるまり、まだ明けやらぬ五時、その門を叩いたのでした。<br><br>そしてその結果は遂に入院拒絶という最悪の状態でした。<br><br>医師が匙を投げたのです。<br><br>その時の医師の言葉を到底忘れる事はできないのです。<br><br>即ち「あなたはもう到底駄目です。<br><br>まず医師の手で治すとすればどうしても十年以上はかかる、それも生死の程は請負えぬ」と、そして「あなた一人を十年入院させる代りに、もっと軽い方を二、三年入院させれば四、五人は助かるかも知れない。<br><br>小の虫は殺しても」とかくもはっきり体よく断られたのでした。<br><br>覚悟はしていたものの、こうまではっきり断られようとは……何卒その時の胸中御推察下さいませ。<br><br> 私はただ茫然として何を考える力とてなく帰りはしたものの、なお生きたい希望は強かったのです。<br><br>何とかして生きたかったのです。<br><br>私にも一人の子供があります。<br><br>その頑是ない子供の将来を思う時、せめてこの児が二十歳になるまでは生きてやりたい。<br><br>ああ、それも駄目なのか……と思えば絶望がすべてを奪い去り、眠れぬ夜を幾夜送ったことでしょう。<br><br>涙で濡れた枕をいかにかき抱いたことか知れません。<br><br>ちょうどその頃、私は親戚の三谷さんから御浄霊を頂いていたのです。<br><br>一里余りもある所を、それも山道を越して時には夜の十一時十二時になってからでも自転車で毎日のように通って下さいました。<br><br>その姿に有難いとは思いつつも、医学迷信でコチコチの私は腹の中では御浄霊を密かに嘲笑致すことさえありまして、断られる医学をなお強く求めて止まなかったのでした。<br><br>その私もこの十月の診断の結果信ずるものからは見放されることとなり、一方三谷さんの熱烈なる御誘導により遂に一切の医薬を投げ出して一途に信仰生活に入ったのでした。<br><br> 今にして思えば何故も少し早くこの気持になれなかったかと思われてなりません。<br><br>そして昭和二十七年四月、また起き上る気力もなきまま、勿体なくも寝たまま教修を頂き、安保先生より御守様を拝受させて頂きました。<br><br>その後は自分でもその衰えた体を御浄霊致しますと、約十日後激しい咳の御浄化を頂きました。<br><br>それは昼夜ぶっ通しなので一睡もできなかった程でした。<br><br>勿論食欲もなく喀痰はひっきりなしに出ました。<br><br>しかしそれは一週間でぴたりと済みました。<br><br>それから約一カ月経て再び猛烈な御浄化がやって来ました。<br><br>それは手足一つ動かすのも大儀で背中の痛みはどうする事もできず、咳と喀痰で食欲はなく、衰弱と苦痛はその極に達しましたので家族の者は勿論のこと、私自身ももう死んでも致し方がないと、一応は死も覚悟を致しまして一切を神様にお任せし、心配致しませんでした。<br><br>その頃「再浄化の結核は一週間に一回位の御浄霊を」との御教えを頂き、その御教え通り自分でも実行させて頂きますと、九月に入り俄然よくなって参りました。<br><br>咳と痰は非常に少なくなり食欲は餓鬼の霊のごとしで体力がぐんぐん出ました。<br><br>もう寝ておれなくなりました。<br><br>そして十月、十一月には農繁期の手伝いまでできたのです。<br><br>これが奇蹟でなくてなんでありましょう。<br><br>まことの治療法でなくてなんでありましょう。<br><br>この夏の私の状態を知っておる者はこの日の辺りの現実にそれこそ驚嘆致しております。<br><br> さて猫の手も借りたいというあの農繁期に終日を手伝い終えて、その後を振り返る時、新たな感慨が怒涛のように押しよせてくるのをどうすることもできませんでした。<br><br>二カ年の長い病床生活、しかも昨年の十月にはあの保健所ではっきりと断られ、生きる希望とてなく、幾日となく泣き明したあの涙、そして今この頬を伝う涙は、同じ塩分と水分の涙ではありましょうが誰が果して同じ涙といい得ましょう。<br><br>今この目の前に見える仕事の跡は、現実に夢ではない、私がこの手でこの体でやり遂げたのだ、と思う喜びと感激に満ちた輝く涙なのです。<br><br>そしてその後まだ一日も休んでおりません。<br><br> 明主様、本当に、本当に有難うございました。<br><br>なお就寝中は寝たままの御浄霊で妹の背中の激痛、父親の長い間の神経痛等御救い頂きまして本当に有難うございました。<br><br>何卒この上は一人でも多くの、特に同病で苦しんでいる方達が一日も早く御救い頂かれますよう念願して止みません。<br><br>幸いただ今までに二人お導きさせて頂きまして有難うございました。<br><br> 右はなはだ拙文で恐縮ではございますが、謹んで有りの盛御報告申し上げました。<br><br> 明主様、誠に有難く厚く厚く御礼申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Incontestável Realidade dos Fatos</h2>
 <p>Sustentamos invariavelmente que, em comparação ao poder curativo da medicina, a grandiosidade da força terapêutica do Johrei é de tal ordem que afirmar uma proporção de cem para um não constitui exagero algum. É provável que o leitor, a princípio, se recuse a acreditar em tal assertiva. Contudo, os fatos são, em última análise, irrefutáveis, e é com essa premissa que solicito a sua leitura.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Meishu-Sama, muito, muito obrigado. Agradeço também por me permitir salvar minha irmã de uma dor lancinante nas costas e meu pai de uma neuralgia crônica, ministrando-lhes Johrei enquanto dormiam. De agora em diante, meu único desejo é que o maior número possível de pessoas, especialmente aquelas que sofrem da mesma enfermidade, possam receber esta salvação o mais brevemente possível. Felizmente, já tive a permissão de guiar duas pessoas até o momento, pelo que sou imensamente grato.</p>
 <p>Embora este relato seja redigido de forma simples e despretensiosa, apresento-o com o mais profundo respeito, como um fiel testemunho dos fatos.</p>
 <p>Meishu-Sama, renovo minha mais profunda e sincera gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： この事実を何と見る 『栄光』211号、昭和28(1953)年6月3日発行 吾々はいつも医学の治病力に比べて、浄霊の治病力の偉大なる事は、百対一といっても過言ではないとしているので、これを読んだ人は到底信ずる事は出来まいが、しかし事実は飽くまで事実であるから、そのつもりで読んで貰いたい。<br/><br/>従ってもしこれを読んでもまだ信じられない人があるとしたら、その人は気の毒ながら一度あの世へ行って、生まれ変るより致し方ないであろう。<br/><br/>虎造君の浪曲に馬鹿は死ななきゃ治らないという文句があるが、それに当てはまるような気がする。<br/><br/> 医師より死の宣告を受けし「両肺の空洞」より救われて 広島県 陽光中教会 石川義行（35） 私は去る昭和二十三年九月のこと、急に発熱し、咳は連発致しますので医師の診断を受けましたところ、肺浸潤といわれ、当時入手困難な高価なマイシンを買い求め注射致しましたら十日間余りで一応平常に復しました（当時神戸に在住致しておりました）。<br/><br/> さて、二十四年は大過なく暮れましたものの、明けて二十五年三月頃より前回と同様の状態が再発、否、最初のそれより余程悪化しているように思われました。<br/><br/>しかし某医師の診断では「心配する程ではないから安静にして極力魚肉類を食べるように」との話で、カルシウム程度の注射を受けておりましたが、依然として食欲なく体力は益々衰えるのみですので、思い切って県立病院の診断を乞いましたところ「右肺に空洞があるから直ちに入院し手術しなければならない」といわれました。<br/><br/>この時の驚きと落胆の深さは恐らく体験者でなくてはお分り頂けないのではないかと思います。<br/><br/> しかし医学を最上のものと信じ切っている頃の事ですから、それこそ本当に夢中で早速神戸の某病院に入院、手術を受ける覚悟でしたが、院長はこれを排してマイシン療法をとりました。<br/><br/>その時撮影致しましたレントゲン写真の結果、既に両肺に空洞ができていました。<br/><br/>ほんに短期間にできたものでございます。<br/><br/>その後約二カ月で退院致し、自宅で安静療法に移りまして、何とか一夏は過しましたものの、経済的にも行詰り、遂に意を決して故郷尾道に帰りました。<br/><br/> その後約半年して尾道保健所にて受診致しますと、右肺に又空洞が一つ殖えていました。<br/><br/>そこで今度は本格的療養をと思い右保健所の所長の通知書を持ち、国立賀茂療養所に入院を申込みました。<br/><br/>ところが患者が多く入院不可能の有様でした。<br/><br/>それは現在入院患者は四百名でその希望者は、私が千三百番だといわれ、病室のあくのは、ほとんどの方が諦めて（経済的事情等により）退院するか、又は死ぬかであるとのこと、その死亡者については火葬場の人は「月に四、五人は仕事がある」といっておりました。<br/><br/>その程度のあきようですからちょっと希望が持てませんでした。<br/><br/>そしてなお県下には、三千名位の結核患者がいるとのことでした。<br/><br/> その他福山の国立病院も同様で、しかも手術者は大抵前記療養所におくるとのことでした。<br/><br/>手術しなければといわれながらも、その希望も消え、限りない焦燥の中になお半年程も経た昭和二十六年十月に再び尾道保健所の診断を乞いに参りました。<br/><br/>そこは自宅より約六キロはありますが、道中紫外線に当ると悪いといわれていたので朝の三時に出発、手押車にて蒲団にくるまり、まだ明けやらぬ五時、その門を叩いたのでした。<br/><br/>そしてその結果は遂に入院拒絶という最悪の状態でした。<br/><br/>医師が匙を投げたのです。<br/><br/>その時の医師の言葉を到底忘れる事はできないのです。<br/><br/>即ち「あなたはもう到底駄目です。<br/><br/>まず医師の手で治すとすればどうしても十年以上はかかる、それも生死の程は請負えぬ」と、そして「あなた一人を十年入院させる代りに、もっと軽い方を二、三年入院させれば四、五人は助かるかも知れない。<br/><br/>小の虫は殺しても」とかくもはっきり体よく断られたのでした。<br/><br/>覚悟はしていたものの、こうまではっきり断られようとは……何卒その時の胸中御推察下さいませ。<br/><br/> 私はただ茫然として何を考える力とてなく帰りはしたものの、なお生きたい希望は強かったのです。<br/><br/>何とかして生きたかったのです。<br/><br/>私にも一人の子供があります。<br/><br/>その頑是ない子供の将来を思う時、せめてこの児が二十歳になるまでは生きてやりたい。<br/><br/>ああ、それも駄目なのか……と思えば絶望がすべてを奪い去り、眠れぬ夜を幾夜送ったことでしょう。<br/><br/>涙で濡れた枕をいかにかき抱いたことか知れません。<br/><br/>ちょうどその頃、私は親戚の三谷さんから御浄霊を頂いていたのです。<br/><br/>一里余りもある所を、それも山道を越して時には夜の十一時十二時になってからでも自転車で毎日のように通って下さいました。<br/><br/>その姿に有難いとは思いつつも、医学迷信でコチコチの私は腹の中では御浄霊を密かに嘲笑致すことさえありまして、断られる医学をなお強く求めて止まなかったのでした。<br/><br/>その私もこの十月の診断の結果信ずるものからは見放されることとなり、一方三谷さんの熱烈なる御誘導により遂に一切の医薬を投げ出して一途に信仰生活に入ったのでした。<br/><br/> 今にして思えば何故も少し早くこの気持になれなかったかと思われてなりません。<br/><br/>そして昭和二十七年四月、また起き上る気力もなきまま、勿体なくも寝たまま教修を頂き、安保先生より御守様を拝受させて頂きました。<br/><br/>その後は自分でもその衰えた体を御浄霊致しますと、約十日後激しい咳の御浄化を頂きました。<br/><br/>それは昼夜ぶっ通しなので一睡もできなかった程でした。<br/><br/>勿論食欲もなく喀痰はひっきりなしに出ました。<br/><br/>しかしそれは一週間でぴたりと済みました。<br/><br/>それから約一カ月経て再び猛烈な御浄化がやって来ました。<br/><br/>それは手足一つ動かすのも大儀で背中の痛みはどうする事もできず、咳と喀痰で食欲はなく、衰弱と苦痛はその極に達しましたので家族の者は勿論のこと、私自身ももう死んでも致し方がないと、一応は死も覚悟を致しまして一切を神様にお任せし、心配致しませんでした。<br/><br/>その頃「再浄化の結核は一週間に一回位の御浄霊を」との御教えを頂き、その御教え通り自分でも実行させて頂きますと、九月に入り俄然よくなって参りました。<br/><br/>咳と痰は非常に少なくなり食欲は餓鬼の霊のごとしで体力がぐんぐん出ました。<br/><br/>もう寝ておれなくなりました。<br/><br/>そして十月、十一月には農繁期の手伝いまでできたのです。<br/><br/>これが奇蹟でなくてなんでありましょう。<br/><br/>まことの治療法でなくてなんでありましょう。<br/><br/>この夏の私の状態を知っておる者はこの日の辺りの現実にそれこそ驚嘆致しております。<br/><br/> さて猫の手も借りたいというあの農繁期に終日を手伝い終えて、その後を振り返る時、新たな感慨が怒涛のように押しよせてくるのをどうすることもできませんでした。<br/><br/>二カ年の長い病床生活、しかも昨年の十月にはあの保健所ではっきりと断られ、生きる希望とてなく、幾日となく泣き明したあの涙、そして今この頬を伝う涙は、同じ塩分と水分の涙ではありましょうが誰が果して同じ涙といい得ましょう。<br/><br/>今この目の前に見える仕事の跡は、現実に夢ではない、私がこの手でこの体でやり遂げたのだ、と思う喜びと感激に満ちた輝く涙なのです。<br/><br/>そしてその後まだ一日も休んでおりません。<br/><br/> 明主様、本当に、本当に有難うございました。<br/><br/>なお就寝中は寝たままの御浄霊で妹の背中の激痛、父親の長い間の神経痛等御救い頂きまして本当に有難うございました。<br/><br/>何卒この上は一人でも多くの、特に同病で苦しんでいる方達が一日も早く御救い頂かれますよう念願して止みません。<br/><br/>幸いただ今までに二人お導きさせて頂きまして有難うございました。<br/><br/> 右はなはだ拙文で恐縮ではございますが、謹んで有りの盛御報告申し上げました。<br/><br/> 明主様、誠に有難く厚く厚く御礼申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

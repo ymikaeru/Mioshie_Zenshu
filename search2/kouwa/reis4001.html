@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis4001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 １ 001-007 葬祭 001 葬婚参列の礼節 お葬式に参列の後で用足しをしたり、お墓参りをしてはいけないという理由。<br><br> お葬式とか、婚礼とかは人生の重大な儀式であって、参列したらそのまま帰るのが死者に対する礼節である。<br><br>よく死汚れといって死者のそばへよると汚れるというが、これは大した事はない。<br><br> 礼節は大事な事で、浄霊に行くにも用足しを先にすると効果がうすい。<br><br>これは主客転倒であるからである。<br><br>神社参拝も同様で、お詣りは先にする。<br><br>それから用を足すのが本当である。<br><br> rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕掲載 002 お骨を床の間に祀る事 死後四十九日の前、お骨を床の間にまつる習慣のところがありますが、御神体をおまつりしてある場合はどういたしたらよろしいでしょうか。<br><br> これは一向かまわない所か、反ってそうした方がよろしい。<br><br>それは観音様の霊光をいただくから早く霊は向上し良くなる。<br><br>霊界へ行く法則として死後五十日迄はその家にいる事になっている。<br><br>そして五十日目に家を離れて、霊界へ行くのである。<br><br>そして最初はまず寺へ行く。<br><br>極善の霊は四十九日もいないで、死後直ちに天国へ行く。<br><br>また極悪者は家にいないですぐに地獄へ急落する。<br><br>普通は大体八衢に行くので、その際の霊は五十日間家にいるのである。<br><br>その場合霊がお光をいただくと早く浄化させていただくから、右の観音様を祭ってある床の間に祭るのは大変よい訳である。<br><br>そうすると天国へ行くにも早い。<br><br> 003 死者霊の祀り場所（五十日間） 死者の霊は五十日間家にいるのである。<br><br>その場合、霊が御光を頂くと早く浄化させて頂くから、右の観音様を祭ってある床の間に祭るのは大変よい訳である。<br><br>そうすると天国へ行くにも早い。<br><br>（S23） 004 忌引中の参拝 親族に不幸（死人）があった時、忌引中神社に参拝あるいは神社の鳥居等を通る事がタヴーとされておりましたが、現在でも遠慮して参拝を差控えるのが至当で御座いましょうか。<br><br> その日一日だけでよい。<br><br> 神様は霊であり、人間も霊界へ行くのだから大した汚れはない。<br><br>月経時に、神様の道具を触ってはいけないというが、それも構わぬ。<br><br>とがめる神は、力のない二流以下の神である。<br><br> 妻君の場合、死んだ人に対しての礼儀として、一年間位は後妻は迎えぬがよい。<br><br> 大切なのは五十日間で、霊は霊界へ未だ行かないのであるから、よく供養すべきである。<br><br>（S23.11. 2） 005 四十九日間新仏動かさぬ 新仏のある家の仏壇は四十九日の間、中を動かしてはいけないという事をよく聞きますが、何か意味が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 四十九日の間、霊はその家にいるのであるから、動かされるのを嫌がるのである。<br><br>四十九日過ぎれば構わない。<br><br> 新仏は、特によくしてやると霊界で違う。<br><br>初七日など特によくしてやるとよい。<br><br>（S24. 7.12） 006 入信者の死体の温かさ 入信して後死亡した人の体が、死後も大変温かいようで御座いますが、何故で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 入信すると霊的に異ってくる。<br><br>霊が温かくなる。<br><br>火素が殖えるのである。<br><br>それで柔い。<br><br> 温かいのは愛の情動による。<br><br>愛が出る。<br><br> 人間で、温かい感じのする人と、冷たい感じのする人がある。<br><br> 愛の中心は心臓で、心臓の活動が旺盛になれば愛が強い。<br><br>心臓は霊界の火素を吸収する。<br><br>心臓が強いと吸収力が強い。<br><br>熱を吸収するのである。<br><br>心臓が強いと肺が旺盛になる。<br><br>寒い時は反って晴れるのは、水素が少いので熱の燃え方が少いのである。<br><br>曇った時は暖かいのは水素が多いからで、水が多いと火素の燃える量が多い。<br><br>（S24. 3.11） rattail（注） 〔 神秘の扉（神光2号） 、昭和24(1949)年6月15日発行〕掲載 007 死体解剖 医学研究のため、人体を解剖致しますことは文化向上に反って罪悪を積む事と存じますが、生前自分の死後死体の解剖を頼みました者と、依頼せぬ者が解剖されました場合とは霊界にていかように異なるもので御座いましょうか。<br><br>お伺い申し上げます。<br><br>また解剖した人、獣の霊はいかようにお祀りしたらいいでしょうか。<br><br> 本人の希望でしたのは、本人はしまったと思っても怨めぬ。<br><br>そうでないと怒るのもある。<br><br>霊は肉体をいくらやられても痛くないが、死骸は気にする。<br><br>暫くの間は関連がある。<br><br>それで嫌がる。<br><br>故にしない方がよい。<br><br>今は霊を認めぬから仕様がない。<br><br>故に解剖は絶対いけない。<br><br>医学そのものが間違っている。<br><br> 獣も沢山になると怨み、一つの個性をなす。<br><br>名医の子孫は、皆不幸で、没落する。<br><br> 善意でも悪の手段になり、災や罪となる。<br><br>（S25. 3. 1）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>001 A Etiqueta ao Comparecer a Cerimônias Fúnebres e Nupciais</h2>
 <p>Questiona-se a razão pela qual não se devem realizar outras tarefas ou visitar túmulos após participar de um funeral.</p>
@@ -123,5 +275,48 @@ function toggleLang(lang) {
 <p>A sociedade atual, por não reconhecer a existência do espírito, não vê alternativa. No entanto, a autópsia é um procedimento absolutamente condenável, pois a própria medicina moderna está fundamentada em premissas equivocadas.</p>
 <p>No que tange aos animais, quando dissecados em grande número, seu ressentimento coletivo pode formar uma consciência única. Observe-se que os descendentes de médicos famosos invariavelmente enfrentam infortúnios e decadência.</p>
 <p>Mesmo que a intenção seja boa, se os meios utilizados são malignos, o resultado será desgraça e mácula espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 １ 001-007 葬祭 001 葬婚参列の礼節 お葬式に参列の後で用足しをしたり、お墓参りをしてはいけないという理由。<br/><br/> お葬式とか、婚礼とかは人生の重大な儀式であって、参列したらそのまま帰るのが死者に対する礼節である。<br/><br/>よく死汚れといって死者のそばへよると汚れるというが、これは大した事はない。<br/><br/> 礼節は大事な事で、浄霊に行くにも用足しを先にすると効果がうすい。<br/><br/>これは主客転倒であるからである。<br/><br/>神社参拝も同様で、お詣りは先にする。<br/><br/>それから用を足すのが本当である。<br/><br/> rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕掲載 002 お骨を床の間に祀る事 死後四十九日の前、お骨を床の間にまつる習慣のところがありますが、御神体をおまつりしてある場合はどういたしたらよろしいでしょうか。<br/><br/> これは一向かまわない所か、反ってそうした方がよろしい。<br/><br/>それは観音様の霊光をいただくから早く霊は向上し良くなる。<br/><br/>霊界へ行く法則として死後五十日迄はその家にいる事になっている。<br/><br/>そして五十日目に家を離れて、霊界へ行くのである。<br/><br/>そして最初はまず寺へ行く。<br/><br/>極善の霊は四十九日もいないで、死後直ちに天国へ行く。<br/><br/>また極悪者は家にいないですぐに地獄へ急落する。<br/><br/>普通は大体八衢に行くので、その際の霊は五十日間家にいるのである。<br/><br/>その場合霊がお光をいただくと早く浄化させていただくから、右の観音様を祭ってある床の間に祭るのは大変よい訳である。<br/><br/>そうすると天国へ行くにも早い。<br/><br/> 003 死者霊の祀り場所（五十日間） 死者の霊は五十日間家にいるのである。<br/><br/>その場合、霊が御光を頂くと早く浄化させて頂くから、右の観音様を祭ってある床の間に祭るのは大変よい訳である。<br/><br/>そうすると天国へ行くにも早い。<br/><br/>（S23） 004 忌引中の参拝 親族に不幸（死人）があった時、忌引中神社に参拝あるいは神社の鳥居等を通る事がタヴーとされておりましたが、現在でも遠慮して参拝を差控えるのが至当で御座いましょうか。<br/><br/> その日一日だけでよい。<br/><br/> 神様は霊であり、人間も霊界へ行くのだから大した汚れはない。<br/><br/>月経時に、神様の道具を触ってはいけないというが、それも構わぬ。<br/><br/>とがめる神は、力のない二流以下の神である。<br/><br/> 妻君の場合、死んだ人に対しての礼儀として、一年間位は後妻は迎えぬがよい。<br/><br/> 大切なのは五十日間で、霊は霊界へ未だ行かないのであるから、よく供養すべきである。<br/><br/>（S23.11. 2） 005 四十九日間新仏動かさぬ 新仏のある家の仏壇は四十九日の間、中を動かしてはいけないという事をよく聞きますが、何か意味が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 四十九日の間、霊はその家にいるのであるから、動かされるのを嫌がるのである。<br/><br/>四十九日過ぎれば構わない。<br/><br/> 新仏は、特によくしてやると霊界で違う。<br/><br/>初七日など特によくしてやるとよい。<br/><br/>（S24. 7.12） 006 入信者の死体の温かさ 入信して後死亡した人の体が、死後も大変温かいようで御座いますが、何故で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 入信すると霊的に異ってくる。<br/><br/>霊が温かくなる。<br/><br/>火素が殖えるのである。<br/><br/>それで柔い。<br/><br/> 温かいのは愛の情動による。<br/><br/>愛が出る。<br/><br/> 人間で、温かい感じのする人と、冷たい感じのする人がある。<br/><br/> 愛の中心は心臓で、心臓の活動が旺盛になれば愛が強い。<br/><br/>心臓は霊界の火素を吸収する。<br/><br/>心臓が強いと吸収力が強い。<br/><br/>熱を吸収するのである。<br/><br/>心臓が強いと肺が旺盛になる。<br/><br/>寒い時は反って晴れるのは、水素が少いので熱の燃え方が少いのである。<br/><br/>曇った時は暖かいのは水素が多いからで、水が多いと火素の燃える量が多い。<br/><br/>（S24. 3.11） rattail（注） 〔 神秘の扉（神光2号） 、昭和24(1949)年6月15日発行〕掲載 007 死体解剖 医学研究のため、人体を解剖致しますことは文化向上に反って罪悪を積む事と存じますが、生前自分の死後死体の解剖を頼みました者と、依頼せぬ者が解剖されました場合とは霊界にていかように異なるもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/>また解剖した人、獣の霊はいかようにお祀りしたらいいでしょうか。<br/><br/> 本人の希望でしたのは、本人はしまったと思っても怨めぬ。<br/><br/>そうでないと怒るのもある。<br/><br/>霊は肉体をいくらやられても痛くないが、死骸は気にする。<br/><br/>暫くの間は関連がある。<br/><br/>それで嫌がる。<br/><br/>故にしない方がよい。<br/><br/>今は霊を認めぬから仕様がない。<br/><br/>故に解剖は絶対いけない。<br/><br/>医学そのものが間違っている。<br/><br/> 獣も沢山になると怨み、一つの個性をなす。<br/><br/>名医の子孫は、皆不幸で、没落する。<br/><br/> 善意でも悪の手段になり、災や罪となる。<br/><br/>（S25. 3. 1）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

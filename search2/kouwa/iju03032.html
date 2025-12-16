@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju03032</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（三）中体病理 ３ 032-045 背、肋膜、肝胆 032 執拗な背の熱さ 六十三歳男子、十年前より胃腸病にて、腹痛の際服薬した程度でしたが、三年前より年中背中が熱くなり、医師は病名不明です。<br><br>お浄霊は十日間位致しました。<br><br>依然背中の灼熱感は去りません。<br><br>原因をお教え下さい。<br><br> 背中の薬毒の浄化熱である。<br><br>薬毒は殆ど背中にある。<br><br>（S24. 6.29） 033 背痛と腰痛 本年四十八歳になる私の妻、去る五月一日より胃痛（鳩尾）を起し、毎日浄霊を続けておりますが中々良くありません。<br><br>最近では一日に二、三回痛みます。<br><br>夜は寝られますが朝の四時頃になりますと必ず痛んで来ます。<br><br>その痛みは背中の方や横腹の方へも起り、丁度焼け付くように痛んで来るのです。<br><br>霊的浄化でしょうか。<br><br>また浄霊はどの個所をよくすればよいでしょうか。<br><br>御教え下さい。<br><br> 霊的でない。<br><br>薬の中毒である。<br><br>背中をやらなくてはいけない。<br><br>背中に塊がある。<br><br>肩胛骨の下あたりにある。<br><br>お腹をやっても駄目である。<br><br>（S24. 6. 7） 034 伏臥出来ず 渡辺つる（五十一歳）は三年前肋膜炎を病み、その後関節リョウマチとなり、現在手と足が少し曲った程度で、仰向きと横向きには寝る事は出来ますが、伏せては寝る事は出来ません。<br><br>その御浄霊の方法を御教示お願いいたします。<br><br> 背中に毒があり、圧迫するから、臥せて寝る事が出来ぬのである。<br><br>（S24. 9. 8） 035 血痰、下痢、胸先の閊え、締めらる 四十七歳の女、五月十八日血痰が出てその後微熱があります。<br><br>五月二十日より浄霊を続けております。<br><br>六月初め頃五、六日目に下痢を二、三回ずつ三度程くりかえしました。<br><br>その頃も胸先が閊えておりましたが、時々下るので多少楽な日がありましたが、七月二十日頃より一層胸先が閊えて苦しく、八月三十日のごときは咽喉先まで突き上げ、締められる感じで少しも下らず、苦しみました。<br><br>四、五日間便通もありません。<br><br>どこが一番悪いでしょうか。<br><br>因みに本人及び主人は六月、息子は八月に入信しております。<br><br> ことによると霊である。<br><br>曇りは背中の方である。<br><br>便通を気にしてると便秘する場合固まる。<br><br>（S24. 9. 6） 036 肋間神経から背・足に浮腫 本年一月より左肺部に著しき疼痛を訴え、食欲不振、全身倦怠感ありて症状漸次悪化し、本年二月入信して以来毎日浄霊を受けたる結果、やや軽快して参りましたが、最近腰部より下肢全般に著しき倦怠感があり、足、背部には浮腫著しく現在数日間症状に変化ありません。<br><br>どこを浄霊すれば好結果が得られるものでしょうか。<br><br>御伺い致します。<br><br> 最初は肋間神経痛で、他へ平均浄化が起った。<br><br>だるいのは熱であるから、苦痛の所を浄霊する。<br><br>腎臓を主にする。<br><br> 早く御奉斎する事である。<br><br>（S25. 5. 7） 037 腕・胸痛と呼吸 一、本年四十八歳の男、左腕より痛み始め、それが左胸部に及び、呼吸が困難となり、二、三分ほど休むと楽になるのですが、この発作は朝のうちに多く、歩いたり仕事をすると直ぐ起ります。<br><br>医大病院にてみて戴いても原因不明です。<br><br>この人は土工、炭焼等をやり、この病気のため戦後は鮎や鮭漁等をやっております。<br><br>原因と浄霊法を御伺い致します。<br><br> 二、なお、もう一名、右の人と同年配の石屋さんですが、胸部全体発作的に痛んで困っている人があります。<br><br>この人も冬期は鉄砲を持って銃猟を業としております。<br><br>いかなる理由でしょうか、御伺い申し上げます。<br><br> 一、浄化である。<br><br>腕を使ったりなどすると毒が集る。<br><br>治りいい。<br><br>（S24.11. 7） 038 化膿性肋膜 私の兄は軍隊におりました時胸を悪くし、二年前二銭銅貨程の穴が出来て膿が溜ったからと云うので手術を致しました。<br><br>浄霊を一年前から致しておりますが（手術はゴムの管（くだ）を通して膿を吸い出していたのです）今は流れ出るのをガーゼで受けている程度で、ゴムの管は除っておりますが、この頃はすっかりやせて、十三日、一升以上血を吐きました。<br><br>どう致したら宜敷いでしょうか。<br><br> 化膿性肋膜である。<br><br>菜食は血を止める力がある。<br><br>化膿性は治りいい。<br><br> 食欲があれば治る。<br><br>毒素は刺激を受けた所へ集る。<br><br>（S24. 1.26） 039 執拗な肋膜熱 肋膜で本年六月教修を戴き、経過は良好でございましたが、十月はじめより三十九度位の熱が続き時々四十度位になる時もあります。<br><br>食欲はありますが少し衰弱致しております。<br><br>この熱の続きます事は何か霊的原因がございましょうか。<br><br> 霊的でない。<br><br>肩の凝りが原因である。<br><br> 食欲がないのは背中に毒がある。<br><br>霊的ではない。<br><br>よく浄霊の結果治らないと霊的に解釈するが、これは逃げ場で、慎むべきだ。<br><br>知らない事は知らないと正直に言った方がよい。<br><br> 040 肋膜の残存 四十六歳の時、三月十五日頃より風邪を引き、無理に勤めにつきましたが、三月十八日、医師の言によれば急性肺炎との事で休養致しております中に肋膜となり、休養中、信仰の道を知り先生に御願いし、六月に入会させて頂き、段々と快方に向い、明けて（二十三年）二月三日より勤めに勤務させて頂くようになりました事は、これ全く大先生の御守護の御蔭と厚く感謝致し、日々無事勤務をしており、同年（三月十八日）に御面会を御願いし、その後変りなく勤務をさせて頂きましたが、同年七月頃より小便が大変近くなり、右きんが固く腫れ、膀胱炎ではないかと、そのように御浄霊を時々御願いし、同年九年に箱根に御面会をお願いせし節御伺い致したく思いましたが、御伺い致さないまま帰宅し、勤務致しておりましたが、同年十一月に健康診断の結果、十二月四日より三ケ月の休養を要すとの事、ただ今休養しておりますが、今年三月三日に日が切れ年度替りになる関係上、三月初めに勤務させて頂きたく思いますがいかがでしょうか。<br><br>御教えを御願い致します。<br><br> 勤務せよ。<br><br>肋膜の治った後（腹）多少残っているものである。<br><br> 041 肝臓硬変症と浄霊個所 今年三十六歳の男（杉本治一）、昨年十一月頃より腹が大きくなり、食事も進まず、医師の診断は肝臓硬変症と申しました。<br><br>本人は昨年十二月に入信、外に家族三人入信しております。<br><br>御浄霊にて今年の二月には大変良くなりました。<br><br>近頃四度目の浄化で、今迄より一番ひどく、昨日で十二日目ですが腸満のようになり、初めには熱がありましたが最近平熱で食事も少ししか摂れず、小便もあまり出ず、寝ていて肩胛骨と横隔膜を圧迫のためかだるくて苦しく、歩行さえ困難です。<br><br>顔色は黄紫色で、小便の色は濃茶色です。<br><br>浄霊法を御教示下さい。<br><br> 肝臓が硬くなるなどは絶対にない。<br><br>間違いである。<br><br> 背中から腎臓をやればよい。<br><br>（S24.10.26） 042 執拗の肝臓 肝臓の下の方に玉子程の塊が二年程前からあり、御浄霊を頂いて大変よくなりましたが、昨年八月頃よりまたもとの症状になりました。<br><br>毎日浄霊を頂いておりますが、二日位間をおきますと重苦しい感じがいたします。<br><br>お光様も二年前に頂き、光明如来様は昨年六月に頂きまして、教導所として御用させて頂いております。<br><br>右の浄霊の方法を御教え下さい。<br><br> 薬毒が沢山あるんで、そこへ薬毒が溜る癖がついている。<br><br>元は腎臓である。<br><br> 肝臓の腫れる所の後ろの方を浄霊すれば治る。<br><br> 043 肝臓と神経痛の浄霊 肝臓の悪い人、神経痛も二十年来の持病で、腹へ差込みがくるのですが、外にまだ病気があると思い医者にみせたら腎臓病と云い、ペニシリンを打たなくては治らないと云います。<br><br>この信仰で治りますか。<br><br> 右半身に毒があるのでしょう。<br><br>気長に浄霊すれば癒る。<br><br>医者にかかったらお終いだ。<br><br>股、肝臓、腎臓をよく浄霊すればよい。<br><br> 044 麻疹より黄疸 一、私は七つの時麻疹に罹り、九死に一生を得たとの事で、その時より目が黄色いのです。<br><br>昭和十八年入信させて頂き、その後、前後三回腎盂炎の御浄化を頂き、いずれも猛烈で、第一回には駄目かと思う程でしたが、御守護により完全に治らして戴きました。<br><br>なおその間時々胃部の激痛があり、去年十二月三十一日に先祖祭りをしてからすっかり痛みもなくなりました。<br><br>しかもなお依然として目の黄色いのはとれません。<br><br>霊的に関係が御座いますでしょうか。<br><br> 二、御浄霊の方法をお教え下さい。<br><br> 麻疹の毒が肝臓部に溜り黄疸を起したのである。<br><br>（S24. 5.28） 045 胆石浄霊で胃痙攣 胆石病の御浄霊を致させて頂きますと、今迄異状のなかった胃痙攣を頻発するのはいかなる理由によるものでしょうか。<br><br> この場合左が痛むのだから胆石病には関係はない。<br><br>胆石は――臍の上部の方から胃中へ胆汁を送る輸胆管があり、その管に胆石があるために胆汁が通る時に痛むのであるが、これは左側であるから胆石ではない。<br><br>胆石は腎臓の尿毒が胆嚢へ滲み込む、そして胆汁と化合して石になるのである。<br><br>これは浄霊によって砕ける。<br><br> 膀胱結石も胃、腎臓が元である。<br><br>（S23.12.12）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Rev. Jikan Okada – Pesquisa nos Ensinamentos: Pesquisa de Materiais: Volume de Artes Médicas (3) Patologia do Corpo Intermediário</h2>
 <h3>032-045: Costas, Pleura, Fígado e Vesícula Biliar</h3>
@@ -139,5 +291,48 @@ function toggleLang(lang) {
 <h4>045. Espasmo gástrico durante o Johrei para cálculos biliares</h4>
 <p><strong>Pergunta:</strong> Ao ministrar Johrei para uma pessoa com cálculos biliares, ela passa a ter espasmos gástricos frequentes, sintoma que não apresentava antes. Qual a razão disso?</p>
 <p><strong>Resposta:</strong> Nesse caso, como a dor se manifesta do lado esquerdo, não há relação com cálculos biliares. O cálculo biliar se forma no ducto que transporta a bile da parte superior do umbigo para o estômago; a dor ocorre quando a bile passa por essa obstrução. Contudo, a dor mencionada está do lado esquerdo, o que descarta essa hipótese. O cálculo biliar origina-se quando as toxinas urêmicas dos rins se infiltram na vesícula biliar e, ao se combinarem com a bile, solidificam-se. O Johrei é capaz de dissolver tais cálculos. Os cálculos na bexiga, da mesma forma, têm sua origem no estômago e nos rins.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（三）中体病理 ３ 032-045 背、肋膜、肝胆 032 執拗な背の熱さ 六十三歳男子、十年前より胃腸病にて、腹痛の際服薬した程度でしたが、三年前より年中背中が熱くなり、医師は病名不明です。<br/><br/>お浄霊は十日間位致しました。<br/><br/>依然背中の灼熱感は去りません。<br/><br/>原因をお教え下さい。<br/><br/> 背中の薬毒の浄化熱である。<br/><br/>薬毒は殆ど背中にある。<br/><br/>（S24. 6.29） 033 背痛と腰痛 本年四十八歳になる私の妻、去る五月一日より胃痛（鳩尾）を起し、毎日浄霊を続けておりますが中々良くありません。<br/><br/>最近では一日に二、三回痛みます。<br/><br/>夜は寝られますが朝の四時頃になりますと必ず痛んで来ます。<br/><br/>その痛みは背中の方や横腹の方へも起り、丁度焼け付くように痛んで来るのです。<br/><br/>霊的浄化でしょうか。<br/><br/>また浄霊はどの個所をよくすればよいでしょうか。<br/><br/>御教え下さい。<br/><br/> 霊的でない。<br/><br/>薬の中毒である。<br/><br/>背中をやらなくてはいけない。<br/><br/>背中に塊がある。<br/><br/>肩胛骨の下あたりにある。<br/><br/>お腹をやっても駄目である。<br/><br/>（S24. 6. 7） 034 伏臥出来ず 渡辺つる（五十一歳）は三年前肋膜炎を病み、その後関節リョウマチとなり、現在手と足が少し曲った程度で、仰向きと横向きには寝る事は出来ますが、伏せては寝る事は出来ません。<br/><br/>その御浄霊の方法を御教示お願いいたします。<br/><br/> 背中に毒があり、圧迫するから、臥せて寝る事が出来ぬのである。<br/><br/>（S24. 9. 8） 035 血痰、下痢、胸先の閊え、締めらる 四十七歳の女、五月十八日血痰が出てその後微熱があります。<br/><br/>五月二十日より浄霊を続けております。<br/><br/>六月初め頃五、六日目に下痢を二、三回ずつ三度程くりかえしました。<br/><br/>その頃も胸先が閊えておりましたが、時々下るので多少楽な日がありましたが、七月二十日頃より一層胸先が閊えて苦しく、八月三十日のごときは咽喉先まで突き上げ、締められる感じで少しも下らず、苦しみました。<br/><br/>四、五日間便通もありません。<br/><br/>どこが一番悪いでしょうか。<br/><br/>因みに本人及び主人は六月、息子は八月に入信しております。<br/><br/> ことによると霊である。<br/><br/>曇りは背中の方である。<br/><br/>便通を気にしてると便秘する場合固まる。<br/><br/>（S24. 9. 6） 036 肋間神経から背・足に浮腫 本年一月より左肺部に著しき疼痛を訴え、食欲不振、全身倦怠感ありて症状漸次悪化し、本年二月入信して以来毎日浄霊を受けたる結果、やや軽快して参りましたが、最近腰部より下肢全般に著しき倦怠感があり、足、背部には浮腫著しく現在数日間症状に変化ありません。<br/><br/>どこを浄霊すれば好結果が得られるものでしょうか。<br/><br/>御伺い致します。<br/><br/> 最初は肋間神経痛で、他へ平均浄化が起った。<br/><br/>だるいのは熱であるから、苦痛の所を浄霊する。<br/><br/>腎臓を主にする。<br/><br/> 早く御奉斎する事である。<br/><br/>（S25. 5. 7） 037 腕・胸痛と呼吸 一、本年四十八歳の男、左腕より痛み始め、それが左胸部に及び、呼吸が困難となり、二、三分ほど休むと楽になるのですが、この発作は朝のうちに多く、歩いたり仕事をすると直ぐ起ります。<br/><br/>医大病院にてみて戴いても原因不明です。<br/><br/>この人は土工、炭焼等をやり、この病気のため戦後は鮎や鮭漁等をやっております。<br/><br/>原因と浄霊法を御伺い致します。<br/><br/> 二、なお、もう一名、右の人と同年配の石屋さんですが、胸部全体発作的に痛んで困っている人があります。<br/><br/>この人も冬期は鉄砲を持って銃猟を業としております。<br/><br/>いかなる理由でしょうか、御伺い申し上げます。<br/><br/> 一、浄化である。<br/><br/>腕を使ったりなどすると毒が集る。<br/><br/>治りいい。<br/><br/>（S24.11. 7） 038 化膿性肋膜 私の兄は軍隊におりました時胸を悪くし、二年前二銭銅貨程の穴が出来て膿が溜ったからと云うので手術を致しました。<br/><br/>浄霊を一年前から致しておりますが（手術はゴムの管（くだ）を通して膿を吸い出していたのです）今は流れ出るのをガーゼで受けている程度で、ゴムの管は除っておりますが、この頃はすっかりやせて、十三日、一升以上血を吐きました。<br/><br/>どう致したら宜敷いでしょうか。<br/><br/> 化膿性肋膜である。<br/><br/>菜食は血を止める力がある。<br/><br/>化膿性は治りいい。<br/><br/> 食欲があれば治る。<br/><br/>毒素は刺激を受けた所へ集る。<br/><br/>（S24. 1.26） 039 執拗な肋膜熱 肋膜で本年六月教修を戴き、経過は良好でございましたが、十月はじめより三十九度位の熱が続き時々四十度位になる時もあります。<br/><br/>食欲はありますが少し衰弱致しております。<br/><br/>この熱の続きます事は何か霊的原因がございましょうか。<br/><br/> 霊的でない。<br/><br/>肩の凝りが原因である。<br/><br/> 食欲がないのは背中に毒がある。<br/><br/>霊的ではない。<br/><br/>よく浄霊の結果治らないと霊的に解釈するが、これは逃げ場で、慎むべきだ。<br/><br/>知らない事は知らないと正直に言った方がよい。<br/><br/> 040 肋膜の残存 四十六歳の時、三月十五日頃より風邪を引き、無理に勤めにつきましたが、三月十八日、医師の言によれば急性肺炎との事で休養致しております中に肋膜となり、休養中、信仰の道を知り先生に御願いし、六月に入会させて頂き、段々と快方に向い、明けて（二十三年）二月三日より勤めに勤務させて頂くようになりました事は、これ全く大先生の御守護の御蔭と厚く感謝致し、日々無事勤務をしており、同年（三月十八日）に御面会を御願いし、その後変りなく勤務をさせて頂きましたが、同年七月頃より小便が大変近くなり、右きんが固く腫れ、膀胱炎ではないかと、そのように御浄霊を時々御願いし、同年九年に箱根に御面会をお願いせし節御伺い致したく思いましたが、御伺い致さないまま帰宅し、勤務致しておりましたが、同年十一月に健康診断の結果、十二月四日より三ケ月の休養を要すとの事、ただ今休養しておりますが、今年三月三日に日が切れ年度替りになる関係上、三月初めに勤務させて頂きたく思いますがいかがでしょうか。<br/><br/>御教えを御願い致します。<br/><br/> 勤務せよ。<br/><br/>肋膜の治った後（腹）多少残っているものである。<br/><br/> 041 肝臓硬変症と浄霊個所 今年三十六歳の男（杉本治一）、昨年十一月頃より腹が大きくなり、食事も進まず、医師の診断は肝臓硬変症と申しました。<br/><br/>本人は昨年十二月に入信、外に家族三人入信しております。<br/><br/>御浄霊にて今年の二月には大変良くなりました。<br/><br/>近頃四度目の浄化で、今迄より一番ひどく、昨日で十二日目ですが腸満のようになり、初めには熱がありましたが最近平熱で食事も少ししか摂れず、小便もあまり出ず、寝ていて肩胛骨と横隔膜を圧迫のためかだるくて苦しく、歩行さえ困難です。<br/><br/>顔色は黄紫色で、小便の色は濃茶色です。<br/><br/>浄霊法を御教示下さい。<br/><br/> 肝臓が硬くなるなどは絶対にない。<br/><br/>間違いである。<br/><br/> 背中から腎臓をやればよい。<br/><br/>（S24.10.26） 042 執拗の肝臓 肝臓の下の方に玉子程の塊が二年程前からあり、御浄霊を頂いて大変よくなりましたが、昨年八月頃よりまたもとの症状になりました。<br/><br/>毎日浄霊を頂いておりますが、二日位間をおきますと重苦しい感じがいたします。<br/><br/>お光様も二年前に頂き、光明如来様は昨年六月に頂きまして、教導所として御用させて頂いております。<br/><br/>右の浄霊の方法を御教え下さい。<br/><br/> 薬毒が沢山あるんで、そこへ薬毒が溜る癖がついている。<br/><br/>元は腎臓である。<br/><br/> 肝臓の腫れる所の後ろの方を浄霊すれば治る。<br/><br/> 043 肝臓と神経痛の浄霊 肝臓の悪い人、神経痛も二十年来の持病で、腹へ差込みがくるのですが、外にまだ病気があると思い医者にみせたら腎臓病と云い、ペニシリンを打たなくては治らないと云います。<br/><br/>この信仰で治りますか。<br/><br/> 右半身に毒があるのでしょう。<br/><br/>気長に浄霊すれば癒る。<br/><br/>医者にかかったらお終いだ。<br/><br/>股、肝臓、腎臓をよく浄霊すればよい。<br/><br/> 044 麻疹より黄疸 一、私は七つの時麻疹に罹り、九死に一生を得たとの事で、その時より目が黄色いのです。<br/><br/>昭和十八年入信させて頂き、その後、前後三回腎盂炎の御浄化を頂き、いずれも猛烈で、第一回には駄目かと思う程でしたが、御守護により完全に治らして戴きました。<br/><br/>なおその間時々胃部の激痛があり、去年十二月三十一日に先祖祭りをしてからすっかり痛みもなくなりました。<br/><br/>しかもなお依然として目の黄色いのはとれません。<br/><br/>霊的に関係が御座いますでしょうか。<br/><br/> 二、御浄霊の方法をお教え下さい。<br/><br/> 麻疹の毒が肝臓部に溜り黄疸を起したのである。<br/><br/>（S24. 5.28） 045 胆石浄霊で胃痙攣 胆石病の御浄霊を致させて頂きますと、今迄異状のなかった胃痙攣を頻発するのはいかなる理由によるものでしょうか。<br/><br/> この場合左が痛むのだから胆石病には関係はない。<br/><br/>胆石は――臍の上部の方から胃中へ胆汁を送る輸胆管があり、その管に胆石があるために胆汁が通る時に痛むのであるが、これは左側であるから胆石ではない。<br/><br/>胆石は腎臓の尿毒が胆嚢へ滲み込む、そして胆汁と化合して石になるのである。<br/><br/>これは浄霊によって砕ける。<br/><br/> 膀胱結石も胃、腎臓が元である。<br/><br/>（S23.12.12）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

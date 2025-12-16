@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsuito1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水稲自然栽培三年目に千葉県知事賞入賞の栄を得て 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 千葉県 博愛中教会 井上千与次（51） 昭和二十七年十一月二十四日、当地市川市主催、市川市及び大柏両協同組合（戸数約千六百戸）共催の農産物品評会に出品致しましたところ、出品者二十七、八人中より審査の結果、特別賞として千葉県知事賞を獲得致しました。<br><br>品評会の模様と共に御報告させて頂きます。<br><br> 一、出品に就いて 入信させて頂きますと同時に自然農法を実施させて頂きましたところ、第一年目より五十八％増収という御蔭を頂き、御報告させて頂きましたところ、『自然農法解説』にお載せ頂きましたが、引続き実施させて頂き、昨年にて三年目の収穫を致し、いよいよ自信を得まして出品致しました。<br><br> 出品物は各地共、共通のことと存じますが、各品目共一箇一粒選の品にて特に玄米については特選別品であります。<br><br>私の玄米は搬入前日午後籾摺いたし、選別についても前夜小粒及びヒビ入の物を選別した程で、充分の用意をしたのではありませんでした。<br><br>いよいよ搬入当日となりました。<br><br>御浄霊をいたしまして、この玄米が一般無神論者に少しでも分って戴けたらと、明主様にお願い申し上げまして搬入いたしました。<br><br> 会場に搬入致しましたところ、数多き出品の内でも私のは光沢もあり、又一粒が他品よりも大粒にて、審査の始まる前既に勝負は決した観がありました。<br><br> 二､審査に就いて 審査は光沢、粒位（粒の品位）乾燥、その他についてでありますが、私の米は僅か一日乾燥にて、又県の奨励品種では無く、入賞には悪条件であります。<br><br> 審査は各専門家にて審査され、まず入賞の圏内に入り、いよいよ等級の順位即ち特別賞か一等賞かの問題となりました。<br><br>特に当県にては乾燥に重点を置いておりますので、その良悪の決定ということになり、刃物にて切りましたところ、県の奨励品種の農林一号は切れてしまいましたが、私の関東三十四号は見事ピンとはねてしまい、県の奨励品種でない私の玄米が特別賞と決定致しました次第であります。<br><br> 有肥栽培と比較し、収量におきましても、品質におきましても、予想以上の成果を挙げさせて頂き、全く感謝の外ございません。<br><br>明主様有難うございました。<br><br> （昭和二十八年二月五日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A honra de receber o Prêmio do Governador da Província de Chiba no terceiro ano de cultivo de arroz pelo método da Agricultura Natural</h2>
 <p>Publicado na Revista Eikou, nº 198, 4 de março de 1953
@@ -103,5 +258,48 @@ Igreja Hakuai-Tyu, Província de Chiba</p>
 <p>A análise foi conduzida por diversos especialistas, e meu produto foi inicialmente classificado entre os finalistas. A deliberação, então, passou a ser sobre sua posição final: se receberia o Prêmio Especial ou o Primeiro Lugar. Como em nossa província a secagem é um fator de grande peso, este se tornou o critério decisivo. Ao submeterem os grãos a um teste de corte com uma lâmina, a variedade recomendada pelo governo, a Norin nº 1, partiu-se. Em contrapartida, a minha variedade, Kanto nº 34, resistiu ao corte, saltando com vigor. Foi assim que meu arroz integral, mesmo não sendo de uma variedade incentivada, foi consagrado com o Prêmio Especial.</p>
 <p>Em comparação com o cultivo que utiliza fertilizantes, obtivemos resultados que superaram todas as expectativas, tanto em produtividade quanto em qualidade. Por essa razão, não tenho palavras para expressar minha gratidão. Muito obrigado, Meishu-Sama.</p>
 <p>(Relato enviado em 5 de fevereiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水稲自然栽培三年目に千葉県知事賞入賞の栄を得て 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 千葉県 博愛中教会 井上千与次（51） 昭和二十七年十一月二十四日、当地市川市主催、市川市及び大柏両協同組合（戸数約千六百戸）共催の農産物品評会に出品致しましたところ、出品者二十七、八人中より審査の結果、特別賞として千葉県知事賞を獲得致しました。<br/><br/>品評会の模様と共に御報告させて頂きます。<br/><br/> 一、出品に就いて 入信させて頂きますと同時に自然農法を実施させて頂きましたところ、第一年目より五十八％増収という御蔭を頂き、御報告させて頂きましたところ、『自然農法解説』にお載せ頂きましたが、引続き実施させて頂き、昨年にて三年目の収穫を致し、いよいよ自信を得まして出品致しました。<br/><br/> 出品物は各地共、共通のことと存じますが、各品目共一箇一粒選の品にて特に玄米については特選別品であります。<br/><br/>私の玄米は搬入前日午後籾摺いたし、選別についても前夜小粒及びヒビ入の物を選別した程で、充分の用意をしたのではありませんでした。<br/><br/>いよいよ搬入当日となりました。<br/><br/>御浄霊をいたしまして、この玄米が一般無神論者に少しでも分って戴けたらと、明主様にお願い申し上げまして搬入いたしました。<br/><br/> 会場に搬入致しましたところ、数多き出品の内でも私のは光沢もあり、又一粒が他品よりも大粒にて、審査の始まる前既に勝負は決した観がありました。<br/><br/> 二､審査に就いて 審査は光沢、粒位（粒の品位）乾燥、その他についてでありますが、私の米は僅か一日乾燥にて、又県の奨励品種では無く、入賞には悪条件であります。<br/><br/> 審査は各専門家にて審査され、まず入賞の圏内に入り、いよいよ等級の順位即ち特別賞か一等賞かの問題となりました。<br/><br/>特に当県にては乾燥に重点を置いておりますので、その良悪の決定ということになり、刃物にて切りましたところ、県の奨励品種の農林一号は切れてしまいましたが、私の関東三十四号は見事ピンとはねてしまい、県の奨励品種でない私の玄米が特別賞と決定致しました次第であります。<br/><br/> 有肥栽培と比較し、収量におきましても、品質におきましても、予想以上の成果を挙げさせて頂き、全く感謝の外ございません。<br/><br/>明主様有難うございました。<br/><br/> （昭和二十八年二月五日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>toriti</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 取違いの例 『栄光』222号、昭和28(1953)年8月19日発行 左の御蔭話はよくある例だが、これは重大な意味を神様が教えたのであるから、この文を添えたのである。<br><br>これを一言にしていえば、“神を頼りにせよ。<br><br>人を頼りにするな”という事である。<br><br>というのは自分は浄霊の力を戴いているのであるから、自分の病気でも自分が治すのが本当である。<br><br>考えてもみるがいい、人の病気を治す力を与えられている以上、自分の病気でも治らぬはずはないので、この信念こそ肝腎である。<br><br>これも理屈に外れた事は、決して御蔭はないのであるから、何事も理屈に外れないよう心掛くべきで、そうでないと、労多くして功なしの結果となり、余計な苦しみをするだけである。<br><br>つまり信念が肝腎で、その点よくよく肝に銘ずべきである。<br><br> 盲腸炎をお救い戴いて 熊本県 南光中教会 日高幸子（32） 御明主様日々の御守護有難く御礼申し上げます。<br><br>この度は最近戴きましたる盲腸の御浄化の御礼並びに御詫びを申し上げさせて戴きます。<br><br> 五月十八日の熊本支部御祭に御参りさせて戴くため主人は前日出発の時、信徒の吉川重彦様が御浄化中だから御浄霊の御取次に参るようにいって行きましたので、十八日午後同家に出張し御取次を許して戴き、隣家の佐々木様宅も終えて帰宅御神前に御礼申し上げましたのは夕方七時すぎ頃でございました。<br><br>しばらく致しますと右下腹部に痛みを感じ、後頭部、腰も共に段々痛みが増してまいりました。<br><br>痛み即ち御浄化、有難いと思い一時御神前に休ませて戴けば簡単に軽くして戴けると考え自分で御浄霊をいたしましたが、痛みは増すばかりでございました。<br><br>盲腸！ 確かに盲腸部位を中心に針でさすように痛み右腰部と共に非常に熱が、ございまして下腹部一面猛烈に痛みが加わってまいりました。<br><br>人様の盲腸は何人か御浄霊の御取次にて治さして戴きました経験がございます。<br><br>尾下さんという青年は医者が盲腸と診断し即日入院手術を急がせたのを御両親より夕方迎えを受け一晩三、四回の御浄霊で翌朝は私が眼をさました時には御本人が起出してケロリと治っていましたし、保青年も三日目から仕事に差支えないように治りました。<br><br>昨年の秋には私が支部御祭に参拝のため出発の前夜、主人の盲腸を一晩数回の御浄霊をさせて戴き、翌日は信徒さんの御取次で三日目から布教に出られるようにならせて戴きました。<br><br> しかし今夜に限って頼みに思う主人は不在、協力者である妹直子も信者さんも見えません。<br><br>生後八カ月の三代子も乳を求めますが、痛みは一層増すばかりでございます。<br><br>夜も相当更けた模様、玄関の戸も閉めてないことに気付きましたが身動きも出来ません。<br><br>下腹部に手を当てたまま余りの痛さに眼を見開きますと床の間の正面の御写真がハッと眼に映りました。<br><br>そしてその時かねて主人が取次の「想念」という言葉がはっきり頭に浮びました。<br><br>そうだ頼みに思うのは主人では無く妹でも信者さんでもない、御明主様御一方だと今更申すまでもない事ながらなぜかこのことがはっきり覚らせて戴きました。<br><br>そしてこの何時間かの想念の誤りだけでなく、日常ともすれば余りに偉大なる神恩になれたり、あるいは自分勝手な小乗的解釈に流れ勝ちな事等々がしきりに思い浮んで、御明主様に御詫び申し上げました。<br><br>そしてただただ御詫びを申し上げておりますといつの間にか眠ってしまいました。<br><br>時折眼をさましたときには痛みは感じましたが、漸次痛みの薄らぎ行くのがわかりました。<br><br>翌日は信徒さんから御浄霊戴き、夕方には主人も支部の御祭から帰り御浄霊を頂き、おかげ様で三日目から炊事も出来るようにならせて頂きました。<br><br> 御明主様有難う、ございました。<br><br>盲腸を治して戴きました上に私の想念の誤りを御気付かせ戴き、ただただ御詫びいたしますとともに御礼申し上げさせて戴きます。<br><br> 明主様、誠に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O equívoco da confiança humana</h2>
 <p><em>Publicado na coluna “Exemplos de equívocos” do Jornal Eikou, nº 222, de 19 de agosto de 1953 (Ano 28 da Era Showa).</em></p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>No dia seguinte, recebi Johrei de um membro e, ao entardecer, meu marido retornou do Culto e também me ministrou. Graças a essa bênção, ao terceiro dia, eu já estava apta a realizar as tarefas domésticas.</p>
 <p>Sou-Lhe imensamente grata, Meishu-Sama, não apenas por ter curado minha apendicite, mas, sobretudo, por me ter feito enxergar o equívoco em meu <em>sounen (想念)</em>. Por essa razão, apresento meu mais profundo pedido de perdão e reitero minha eterna gratidão.</p>
 <p>Meishu-Sama, muito, muito obrigada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 取違いの例 『栄光』222号、昭和28(1953)年8月19日発行 左の御蔭話はよくある例だが、これは重大な意味を神様が教えたのであるから、この文を添えたのである。<br/><br/>これを一言にしていえば、“神を頼りにせよ。<br/><br/>人を頼りにするな”という事である。<br/><br/>というのは自分は浄霊の力を戴いているのであるから、自分の病気でも自分が治すのが本当である。<br/><br/>考えてもみるがいい、人の病気を治す力を与えられている以上、自分の病気でも治らぬはずはないので、この信念こそ肝腎である。<br/><br/>これも理屈に外れた事は、決して御蔭はないのであるから、何事も理屈に外れないよう心掛くべきで、そうでないと、労多くして功なしの結果となり、余計な苦しみをするだけである。<br/><br/>つまり信念が肝腎で、その点よくよく肝に銘ずべきである。<br/><br/> 盲腸炎をお救い戴いて 熊本県 南光中教会 日高幸子（32） 御明主様日々の御守護有難く御礼申し上げます。<br/><br/>この度は最近戴きましたる盲腸の御浄化の御礼並びに御詫びを申し上げさせて戴きます。<br/><br/> 五月十八日の熊本支部御祭に御参りさせて戴くため主人は前日出発の時、信徒の吉川重彦様が御浄化中だから御浄霊の御取次に参るようにいって行きましたので、十八日午後同家に出張し御取次を許して戴き、隣家の佐々木様宅も終えて帰宅御神前に御礼申し上げましたのは夕方七時すぎ頃でございました。<br/><br/>しばらく致しますと右下腹部に痛みを感じ、後頭部、腰も共に段々痛みが増してまいりました。<br/><br/>痛み即ち御浄化、有難いと思い一時御神前に休ませて戴けば簡単に軽くして戴けると考え自分で御浄霊をいたしましたが、痛みは増すばかりでございました。<br/><br/>盲腸！ 確かに盲腸部位を中心に針でさすように痛み右腰部と共に非常に熱が、ございまして下腹部一面猛烈に痛みが加わってまいりました。<br/><br/>人様の盲腸は何人か御浄霊の御取次にて治さして戴きました経験がございます。<br/><br/>尾下さんという青年は医者が盲腸と診断し即日入院手術を急がせたのを御両親より夕方迎えを受け一晩三、四回の御浄霊で翌朝は私が眼をさました時には御本人が起出してケロリと治っていましたし、保青年も三日目から仕事に差支えないように治りました。<br/><br/>昨年の秋には私が支部御祭に参拝のため出発の前夜、主人の盲腸を一晩数回の御浄霊をさせて戴き、翌日は信徒さんの御取次で三日目から布教に出られるようにならせて戴きました。<br/><br/> しかし今夜に限って頼みに思う主人は不在、協力者である妹直子も信者さんも見えません。<br/><br/>生後八カ月の三代子も乳を求めますが、痛みは一層増すばかりでございます。<br/><br/>夜も相当更けた模様、玄関の戸も閉めてないことに気付きましたが身動きも出来ません。<br/><br/>下腹部に手を当てたまま余りの痛さに眼を見開きますと床の間の正面の御写真がハッと眼に映りました。<br/><br/>そしてその時かねて主人が取次の「想念」という言葉がはっきり頭に浮びました。<br/><br/>そうだ頼みに思うのは主人では無く妹でも信者さんでもない、御明主様御一方だと今更申すまでもない事ながらなぜかこのことがはっきり覚らせて戴きました。<br/><br/>そしてこの何時間かの想念の誤りだけでなく、日常ともすれば余りに偉大なる神恩になれたり、あるいは自分勝手な小乗的解釈に流れ勝ちな事等々がしきりに思い浮んで、御明主様に御詫び申し上げました。<br/><br/>そしてただただ御詫びを申し上げておりますといつの間にか眠ってしまいました。<br/><br/>時折眼をさましたときには痛みは感じましたが、漸次痛みの薄らぎ行くのがわかりました。<br/><br/>翌日は信徒さんから御浄霊戴き、夕方には主人も支部の御祭から帰り御浄霊を頂き、おかげ様で三日目から炊事も出来るようにならせて頂きました。<br/><br/> 御明主様有難う、ございました。<br/><br/>盲腸を治して戴きました上に私の想念の誤りを御気付かせ戴き、ただただ御詫びいたしますとともに御礼申し上げさせて戴きます。<br/><br/> 明主様、誠に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

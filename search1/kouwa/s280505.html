@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280505</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月5日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月五日 アメリカに行っている嵐という人の第二信が来ましたが、あっちもなかなかおもしろそうなのです。<br><br>それを読ませます。<br><br> （「米国通信」（二））【栄光 二〇九号】 お蔭話もありますが、日本よりかよけいなおるくらいです。<br><br>精神病が二人ばかりたちまちなおったのですが、今アメリカでは精神病が一番多いそうですから、アメリカ人の方で始まってくるとすばらしいものだと思ってます。<br><br>もう一息だと思います。<br><br>やっぱり順序としては日本人の方が先にお蔭をいただくというわけです。<br><br>このお蔭話は『栄光』に出しますが、だいぶ評判になりつつあるそうですから、いずれは白人の方にも拡がるに決まってます。<br><br>アメリカ人の方に評判になったら、それはしめたものです。<br><br>日本などよりは、ずっと早く燃え始めると思ってます。<br><br>そうして今まで、外国の宗教でアメリカに拡がるというのはありませんから、それは世界的の問題になります。<br><br>そうすると日本も今さらのように騒ぎ出すだろうと思いますが、時期がもうよほど近くなってきましたから、大いに期待できると思います。<br><br> 二人の精神病とは、一人はしゃべらない精神病で、一人はしゃべりすぎる症状なのです。<br><br>そして片方はほとんどなおってしまったし、片方はもう少しでなおるというところまで来てます。<br><br>非常によいことは、どっちも浄霊後、間もなく血とか膿とかが下ったのです。<br><br>これならもう本当になおったのです。<br><br>無論霊的で、霊が頭に憑くのです。<br><br>それで血や膿というものは、大体後頭部の下の方に固まったものですが、それが出るとすると根本的になおるのですから、たいへんよいのです。<br><br>だから今後、精神病の場合にはそういった血が下るような下痢があれば必ずなおります。<br><br>浄化が強くなったからして、これからだんだんそういうなおり方が出てくるわけです。<br><br>それで日本もやっぱりアメリカの流行を採り入れるのが好きですから、病気の方はどうか知らないが、とにかく日本も精神病が非常に増えました。<br><br>だから後頭部の付近を主にしてやるというようにすればなおります。<br><br>それで今の病人の十中八、九まではこの辺（延髄）の毒です。<br><br>延髄のどっちかが、どんな時でも持ち上がってます。<br><br>たいてい左の方が持ち上がっているのが多いです。<br><br>つまりここに熱が出て、そうして食欲が不振になるとか、頭がぼーっとするというようなことが多いのです。<br><br>ですからまずこれからは病人は、一番目に延髄を見るのです。<br><br>そうするときっとどっちかが腫れていて、必ずそこに熱をもってます。<br><br>これがなおる場合にはほとんど下痢です。<br><br>それでここを浄霊すると、これが溶けてきて胃にはいりますから、いくらか胸が気持ち悪くなってムカつきます。<br><br>それが原因になって出るのです。<br><br>その順序を覚えておくとはっきり分かります。<br><br>そこでまず後頭部が肝腎です。<br><br>それでここが悪いと信仰にはいるにも邪魔するのです。<br><br>このために脳の血が少なくなりますから、そこに霊が憑って邪魔するのです。<br><br>だから延髄を主にして、あとは淋巴腺です。<br><br>これがまた必ずどっちかが腫れてます。<br><br>今年もこれから赤痢がはやるでしょうが、だいぶ赤痢が出てきてますが、みんなこれ（後頭部）が自然浄化で赤痢になって出るのです。<br><br>ですからこれをやっておけば赤痢にも罹らないというわけです。<br><br> それからあんまり気持ちの良くない話ですが、たまにはよいと思って書いてみました。<br><br> （御論文「裁く勿れ」）【栄光 二〇八号】 たまにはこういうことも薬になるでしょう。<br><br> それからこの間、女の人の病気についてちょっと話したところが、聞くところによると、女の人はたいへん喜んだそうです。<br><br>ああいうことを教えてくださるとたいへん参考になるというので、評判が良かったのです。<br><br>この間はざっとやったのですが、もう少し徹底しようと思いますが、あんまり徹底はできないので、これはなかなか難しいのです。<br><br>程の良いようにうまく説明しようと思ってます。<br><br>婦人関係の病気もやっぱり頭が一番原因になっているのです。<br><br>それで頭の毒が溶けて下に下がった場合、男の方は多く痔の方に行くのです。<br><br>脊柱付近からずっと下がって行くのです。<br><br>女は尾てい骨付近に溜まって、前の方に行くのです。<br><br>ここが男と違うところです。<br><br>それで女のコシケとかいろいろなもの、掻痒（そうよう）症とか、粘膜にカタルと言いますか、オデキのようなのができるのは、頭の毒がいったん腰の方に行って、それが前の方に行くのです。<br><br>ですから子宮が悪いというのは、実は頭に原因があるのです。<br><br>ほかの毒素もありますが、頭の毒素が一番下りるのです。<br><br>そうして前からが出よいから、みんな集まってしまうのです。<br><br>そうしていったんここで溜まるのです。<br><br>その溜まったのも早く溶かさなければならないというのですから、そこを目掛けて浄霊するわけです。<br><br>そうすると非常に気持ちが良いのです。<br><br>それから、よく足が吊るとか足の悪い人は、腰に溜まったものが両足の方に垂れてくるのです。<br><br>それで薬によって、重い薬と軽い薬がありますが、軽い薬はももたぶとかももの外側です。<br><br>よく歩き難い、転びやすいとかありますが、これは婦人には限りませんが、一切足のあがきの悪いということはももの外側です。<br><br>押すと固いです。<br><br>たいていな人は固いですが、この固いというのは、ここに毒が固まるのです。<br><br>ですからここを浄霊すると、ずっと具合がよくなります。<br><br>それから、これから下に行って膝に行くわけですが、今度は膝の裏手に行くわけです。<br><br>ですからももの外側と、その次は膝の裏で、それからふくらはぎから踵、足首です。<br><br>それで毒のごく重いのは足の裏に溜まるのです。<br><br>だから足の裏をつくと痛い、足の裏が痺れるという人がたまたまありますが、それは実は頭の毒が溶けて足の裏まで行くというわけなのですから、実に想像もつかないくらいです。<br><br> それから結婚を嫌う娘さんの原因は、霊的では、つまり龍神の生まれ変わりになってますが、これもあります。<br><br>けれども龍神の生まれ変わりの龍女はごく少ないので、たいていは病気なのです。<br><br>病気のうちでも一番の原因になっているのは、頭の毒素が溶けて膣の付近に固まるのです。<br><br>そうすると薬毒によっては非常に痛いのです。<br><br>ちょっと触っても飛び上がるほど痛いのです。<br><br>これは医学の方では膣痙攣と言いますが、これがあんがい多いのです。<br><br>そこで結婚を嫌うのです。<br><br>それにこれは人に言うわけにはゆかないので、実に気の毒なものです。<br><br>幸いにこっちの方は医者と違って外からやってなおるのですから、そういう、非常に結婚を嫌う娘さんは、お母さんなりが、そういった意味で浄霊してやればよいのです。<br><br>それからたまたま無毛症というのがありますが、これも皮膚の中、筋肉に毒が固まって、それが邪魔しているのですから、これも外側からやればまずなおるわけです。<br><br>十中八、九はなおります。<br><br>たまに霊的のがありますが、これはよほど信仰を深くやらなければ、なかなかなおりません。<br><br>それでも年限がたてばなおります。<br><br>今のは、大勢の前でも話よいような話をしたわけです。<br><br>これは徹底して話をすれば、どこまでも分かりますが、しかしそれほど分かる必要はないし、大体浄霊は、医学的のように詳しく知る必要はないから、このくらいでたくさんだと思います。<br><br>それでほかの病気と違って、婦人に関係した病気は、本人が訴えることができないのですから、一番不幸な性質のものです。<br><br>そこで神様は多くの人を救われるのに、そういう面はある程度よけい分からなければならないから話したのです。<br><br>そうして頭と関連してますから、下の方を浄霊すると、頭も非常に良くなるのです。<br><br>というのは平均浄化が起るからです。<br><br>これは両方が直接に関係していて、直結しているわけです。<br><br>そこで頭も良くなるから性質も良くなります。<br><br>わがままとか怒りやすいということもだんだんなおります。<br><br>そのつもりでやるとよいです。<br><br> それから頭でも、今のは後ろの方でしたが、人によっては前の方にそうとう毒がある人があります。<br><br>これは額を触ってみれば熱がありますから、すぐ分かります。<br><br>それで熱も、額の中から来る熱と、淋巴腺から影響される熱と二つあります。<br><br>中からの熱は、触ってみると芯から熱があるようにみえます。<br><br>それから淋巴腺から影響する熱は、芯に熱がなく、どこか浅い感じがします。<br><br>熱に力がないような感じがしますから分かります。<br><br>そういう気持ちで、熟練すればなお結構ですが、ふつうでも大体分かります。<br><br>それからこめかみに熱があるものです。<br><br>この熱が非常に苦しいのです。<br><br>こういうのはやはり横から浄霊するのです。<br><br>それから頭の芯に熱がある人が随分あります。<br><br>これは上からやればよいです。<br><br>体と違って、頭の方は手は少し接近してもよいです。<br><br>それから淋巴腺に熱のない人はないくらいなものです。<br><br>中耳炎は無論この毒が溶けたものです。<br><br>それから歯の痛いのもやはりこれです。<br><br>どこかに固まりがあります。<br><br>それから舌が吊るというのもこれです。<br><br>そういう具合で、これから病気に関係したことで、今まで本などに書いてないことを時々話ししようと思います。<br><br> ちょっとおもしろい論文を読ませます。<br><br> （御論文「墳墓の奴隷？」）【栄光 二〇九号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatos da América e a Natureza das Purificações</h2>
 <p>Recebemos a segunda correspondência do senhor Arashi, que se encontra nos Estados Unidos, e o panorama por lá também se mostra bastante promissor. Gostaria de compartilhar o seu conteúdo.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Quanto à aversão ao casamento em jovens mulheres, a causa espiritual pode ser a reencarnação de um Deus-Dragão. Contudo, os casos de <em>ryujo</em> (龍女) são raríssimos; na grande maioria das vezes, a causa é patológica. Dentre as causas físicas, a principal é o acúmulo de toxinas solidificadas na região vaginal. Dependendo da natureza dessas toxinas, elas podem causar uma dor lancinante, a ponto de a pessoa saltar ao menor toque. Na medicina, essa condição é conhecida como vaginismo, e sua incidência é surpreendentemente alta, sendo a principal razão para a recusa ao matrimônio. Trata-se de uma condição extremamente aflitiva, sobre a qual a jovem não se sente à vontade para falar com ninguém. Felizmente, diferentemente da medicina, nosso método permite a cura por meio do Johrei ministrado externamente. Portanto, no caso de uma filha com forte aversão ao casamento, a mãe pode ministrar-lhe Johrei com essa intenção. Existe também, ocasionalmente, a condição da ausência de pelos pubianos, que é causada por toxinas solidificadas no interior da pele e nos músculos. Esse problema também pode ser solucionado, em oito ou nove de cada dez casos, com o Johrei externo. Existem, ocasionalmente, casos de natureza espiritual, que exigem um aprofundamento considerável na fé para serem solucionados, mas mesmo estes se resolvem com o tempo. O que expus até aqui são assuntos que podem ser tratados abertamente diante de uma grande audiência. Poderíamos esmiuçar o tema indefinidamente, mas não há necessidade de tanto detalhe. Para a prática do Johrei, não se requer um conhecimento tão pormenorizado quanto o da medicina; o que foi dito é suficiente. O que torna as enfermidades femininas particularmente penosas é o fato de que, ao contrário de outras doenças, a própria paciente muitas vezes se sente incapaz de falar sobre elas. Foi com o intuito de salvar o maior número de pessoas que Deus me permitiu esclarecer esses aspectos, que precisam ser mais bem compreendidos. Como essas doenças estão diretamente ligadas à cabeça, ao ministrar Johrei na parte inferior do corpo, a mente também se torna mais clara, pois ocorre uma purificação equilibrada. Ambas as áreas estão interligadas. Com a melhora da cabeça, o temperamento também se aprimora, e tendências ao egoísmo e à irritabilidade diminuem gradualmente. É com essa consciência que o tratamento deve ser conduzido.</p>
 <p>Ainda sobre a cabeça, falamos da parte posterior, mas há indivíduos que acumulam uma quantidade considerável de toxinas na parte frontal. Isso é facilmente identificável pela febre na testa. Existem dois tipos de febre nessa região: a que se origina do interior da fronte e a que decorre da inflamação dos gânglios linfáticos. A primeira é percebida como um calor profundo, que emana do centro, enquanto a segunda é mais superficial, desprovida de força. Com a prática, a distinção se torna mais clara, mas mesmo o leigo pode percebê-la. Há também febre nas têmporas, que causa grande sofrimento e deve ser tratada com Johrei lateral. Muitas pessoas têm febre no centro da cabeça, que pode ser tratada com Johrei ministrado por cima. Diferentemente do corpo, na cabeça as mãos podem ficar um pouco mais próximas. É raro encontrar alguém que não tenha febre nos gânglios linfáticos. A otite média, por exemplo, é resultado da dissolução dessas toxinas. As dores de dente também têm a mesma origem, indicando um ponto de solidificação. A dificuldade em mover a língua também decorre disso. De agora em diante, pretendo abordar periodicamente outros aspectos relativos às doenças que ainda não foram registrados em nossos livros e publicações.</p>
 <p>Agora, permitam-me ler um artigo interessante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年5月5日） 『御教え集』22号、昭和28(1953)年6月15日発行 昭和二十八年五月五日 アメリカに行っている嵐という人の第二信が来ましたが、あっちもなかなかおもしろそうなのです。<br/><br/>それを読ませます。<br/><br/> （「米国通信」（二））【栄光 二〇九号】 お蔭話もありますが、日本よりかよけいなおるくらいです。<br/><br/>精神病が二人ばかりたちまちなおったのですが、今アメリカでは精神病が一番多いそうですから、アメリカ人の方で始まってくるとすばらしいものだと思ってます。<br/><br/>もう一息だと思います。<br/><br/>やっぱり順序としては日本人の方が先にお蔭をいただくというわけです。<br/><br/>このお蔭話は『栄光』に出しますが、だいぶ評判になりつつあるそうですから、いずれは白人の方にも拡がるに決まってます。<br/><br/>アメリカ人の方に評判になったら、それはしめたものです。<br/><br/>日本などよりは、ずっと早く燃え始めると思ってます。<br/><br/>そうして今まで、外国の宗教でアメリカに拡がるというのはありませんから、それは世界的の問題になります。<br/><br/>そうすると日本も今さらのように騒ぎ出すだろうと思いますが、時期がもうよほど近くなってきましたから、大いに期待できると思います。<br/><br/> 二人の精神病とは、一人はしゃべらない精神病で、一人はしゃべりすぎる症状なのです。<br/><br/>そして片方はほとんどなおってしまったし、片方はもう少しでなおるというところまで来てます。<br/><br/>非常によいことは、どっちも浄霊後、間もなく血とか膿とかが下ったのです。<br/><br/>これならもう本当になおったのです。<br/><br/>無論霊的で、霊が頭に憑くのです。<br/><br/>それで血や膿というものは、大体後頭部の下の方に固まったものですが、それが出るとすると根本的になおるのですから、たいへんよいのです。<br/><br/>だから今後、精神病の場合にはそういった血が下るような下痢があれば必ずなおります。<br/><br/>浄化が強くなったからして、これからだんだんそういうなおり方が出てくるわけです。<br/><br/>それで日本もやっぱりアメリカの流行を採り入れるのが好きですから、病気の方はどうか知らないが、とにかく日本も精神病が非常に増えました。<br/><br/>だから後頭部の付近を主にしてやるというようにすればなおります。<br/><br/>それで今の病人の十中八、九まではこの辺（延髄）の毒です。<br/><br/>延髄のどっちかが、どんな時でも持ち上がってます。<br/><br/>たいてい左の方が持ち上がっているのが多いです。<br/><br/>つまりここに熱が出て、そうして食欲が不振になるとか、頭がぼーっとするというようなことが多いのです。<br/><br/>ですからまずこれからは病人は、一番目に延髄を見るのです。<br/><br/>そうするときっとどっちかが腫れていて、必ずそこに熱をもってます。<br/><br/>これがなおる場合にはほとんど下痢です。<br/><br/>それでここを浄霊すると、これが溶けてきて胃にはいりますから、いくらか胸が気持ち悪くなってムカつきます。<br/><br/>それが原因になって出るのです。<br/><br/>その順序を覚えておくとはっきり分かります。<br/><br/>そこでまず後頭部が肝腎です。<br/><br/>それでここが悪いと信仰にはいるにも邪魔するのです。<br/><br/>このために脳の血が少なくなりますから、そこに霊が憑って邪魔するのです。<br/><br/>だから延髄を主にして、あとは淋巴腺です。<br/><br/>これがまた必ずどっちかが腫れてます。<br/><br/>今年もこれから赤痢がはやるでしょうが、だいぶ赤痢が出てきてますが、みんなこれ（後頭部）が自然浄化で赤痢になって出るのです。<br/><br/>ですからこれをやっておけば赤痢にも罹らないというわけです。<br/><br/> それからあんまり気持ちの良くない話ですが、たまにはよいと思って書いてみました。<br/><br/> （御論文「裁く勿れ」）【栄光 二〇八号】 たまにはこういうことも薬になるでしょう。<br/><br/> それからこの間、女の人の病気についてちょっと話したところが、聞くところによると、女の人はたいへん喜んだそうです。<br/><br/>ああいうことを教えてくださるとたいへん参考になるというので、評判が良かったのです。<br/><br/>この間はざっとやったのですが、もう少し徹底しようと思いますが、あんまり徹底はできないので、これはなかなか難しいのです。<br/><br/>程の良いようにうまく説明しようと思ってます。<br/><br/>婦人関係の病気もやっぱり頭が一番原因になっているのです。<br/><br/>それで頭の毒が溶けて下に下がった場合、男の方は多く痔の方に行くのです。<br/><br/>脊柱付近からずっと下がって行くのです。<br/><br/>女は尾てい骨付近に溜まって、前の方に行くのです。<br/><br/>ここが男と違うところです。<br/><br/>それで女のコシケとかいろいろなもの、掻痒（そうよう）症とか、粘膜にカタルと言いますか、オデキのようなのができるのは、頭の毒がいったん腰の方に行って、それが前の方に行くのです。<br/><br/>ですから子宮が悪いというのは、実は頭に原因があるのです。<br/><br/>ほかの毒素もありますが、頭の毒素が一番下りるのです。<br/><br/>そうして前からが出よいから、みんな集まってしまうのです。<br/><br/>そうしていったんここで溜まるのです。<br/><br/>その溜まったのも早く溶かさなければならないというのですから、そこを目掛けて浄霊するわけです。<br/><br/>そうすると非常に気持ちが良いのです。<br/><br/>それから、よく足が吊るとか足の悪い人は、腰に溜まったものが両足の方に垂れてくるのです。<br/><br/>それで薬によって、重い薬と軽い薬がありますが、軽い薬はももたぶとかももの外側です。<br/><br/>よく歩き難い、転びやすいとかありますが、これは婦人には限りませんが、一切足のあがきの悪いということはももの外側です。<br/><br/>押すと固いです。<br/><br/>たいていな人は固いですが、この固いというのは、ここに毒が固まるのです。<br/><br/>ですからここを浄霊すると、ずっと具合がよくなります。<br/><br/>それから、これから下に行って膝に行くわけですが、今度は膝の裏手に行くわけです。<br/><br/>ですからももの外側と、その次は膝の裏で、それからふくらはぎから踵、足首です。<br/><br/>それで毒のごく重いのは足の裏に溜まるのです。<br/><br/>だから足の裏をつくと痛い、足の裏が痺れるという人がたまたまありますが、それは実は頭の毒が溶けて足の裏まで行くというわけなのですから、実に想像もつかないくらいです。<br/><br/> それから結婚を嫌う娘さんの原因は、霊的では、つまり龍神の生まれ変わりになってますが、これもあります。<br/><br/>けれども龍神の生まれ変わりの龍女はごく少ないので、たいていは病気なのです。<br/><br/>病気のうちでも一番の原因になっているのは、頭の毒素が溶けて膣の付近に固まるのです。<br/><br/>そうすると薬毒によっては非常に痛いのです。<br/><br/>ちょっと触っても飛び上がるほど痛いのです。<br/><br/>これは医学の方では膣痙攣と言いますが、これがあんがい多いのです。<br/><br/>そこで結婚を嫌うのです。<br/><br/>それにこれは人に言うわけにはゆかないので、実に気の毒なものです。<br/><br/>幸いにこっちの方は医者と違って外からやってなおるのですから、そういう、非常に結婚を嫌う娘さんは、お母さんなりが、そういった意味で浄霊してやればよいのです。<br/><br/>それからたまたま無毛症というのがありますが、これも皮膚の中、筋肉に毒が固まって、それが邪魔しているのですから、これも外側からやればまずなおるわけです。<br/><br/>十中八、九はなおります。<br/><br/>たまに霊的のがありますが、これはよほど信仰を深くやらなければ、なかなかなおりません。<br/><br/>それでも年限がたてばなおります。<br/><br/>今のは、大勢の前でも話よいような話をしたわけです。<br/><br/>これは徹底して話をすれば、どこまでも分かりますが、しかしそれほど分かる必要はないし、大体浄霊は、医学的のように詳しく知る必要はないから、このくらいでたくさんだと思います。<br/><br/>それでほかの病気と違って、婦人に関係した病気は、本人が訴えることができないのですから、一番不幸な性質のものです。<br/><br/>そこで神様は多くの人を救われるのに、そういう面はある程度よけい分からなければならないから話したのです。<br/><br/>そうして頭と関連してますから、下の方を浄霊すると、頭も非常に良くなるのです。<br/><br/>というのは平均浄化が起るからです。<br/><br/>これは両方が直接に関係していて、直結しているわけです。<br/><br/>そこで頭も良くなるから性質も良くなります。<br/><br/>わがままとか怒りやすいということもだんだんなおります。<br/><br/>そのつもりでやるとよいです。<br/><br/> それから頭でも、今のは後ろの方でしたが、人によっては前の方にそうとう毒がある人があります。<br/><br/>これは額を触ってみれば熱がありますから、すぐ分かります。<br/><br/>それで熱も、額の中から来る熱と、淋巴腺から影響される熱と二つあります。<br/><br/>中からの熱は、触ってみると芯から熱があるようにみえます。<br/><br/>それから淋巴腺から影響する熱は、芯に熱がなく、どこか浅い感じがします。<br/><br/>熱に力がないような感じがしますから分かります。<br/><br/>そういう気持ちで、熟練すればなお結構ですが、ふつうでも大体分かります。<br/><br/>それからこめかみに熱があるものです。<br/><br/>この熱が非常に苦しいのです。<br/><br/>こういうのはやはり横から浄霊するのです。<br/><br/>それから頭の芯に熱がある人が随分あります。<br/><br/>これは上からやればよいです。<br/><br/>体と違って、頭の方は手は少し接近してもよいです。<br/><br/>それから淋巴腺に熱のない人はないくらいなものです。<br/><br/>中耳炎は無論この毒が溶けたものです。<br/><br/>それから歯の痛いのもやはりこれです。<br/><br/>どこかに固まりがあります。<br/><br/>それから舌が吊るというのもこれです。<br/><br/>そういう具合で、これから病気に関係したことで、今まで本などに書いてないことを時々話ししようと思います。<br/><br/> ちょっとおもしろい論文を読ませます。<br/><br/> （御論文「墳墓の奴隷？」）【栄光 二〇九号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

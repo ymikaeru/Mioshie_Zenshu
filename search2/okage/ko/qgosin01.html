@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgosin01</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御神書からは常に御光が ――御無礼すれば御気付けあり―― 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 佐賀県 光宝大教会 坂井多賀男（45） かねて明主様の御書き下さった御文字に他の品物を載せると霊的に大変な御無礼となり、必ず御気づけがあるから注意するようにとの御教えをいただき、御神書類の御取扱については充分に注意さしていただいておりましたが、去る七月三日光宝大教会本部御報告日に次のような報告を受けましたので、大変おそくなりまして申訳ございませんが、謹みて御報告申し上げさしていただきます。<br><br> 北崎支部 水上貞子（41） 板谷吉松（49）（福岡県糸島郡北崎村）さんの子供善言さんが学校から黄疸だと言われ「お宅は救世教の信者さんだから病院に行かず連れて帰って来ました」と看護婦さんに連れられて帰宅致しました。<br><br> すぐに教会に連れてお見えになり、三日間通われまして三日目の夜十時頃又お見えになりましたので御浄霊さしていただきましたが、御浄霊さしていただきますとだんだんと腹がふくれて参り、苦しみがひどくなります。<br><br>なんだか普通と違い変だと思いましたので、かねて御教えをいただいていました御神書の御取扱いについての御注意に気づき、もしやと思い「御神書に何か御無礼があるのではないでしょうか」とおたずね致しましたけれど「その事ならば常に注意させていただき、ちゃんとさせていただいておりますから大丈夫でございます」との御返事でした。<br><br> 引続き御浄霊させていただきますと嘔吐があり、少し楽になられ帰宅されましたが、又夜中に出張御願いに来られましたので出張さしていただき、御浄霊させていただきましたが、熱が全然なく、お腹がはって苦しみます。<br><br>その時ふと以前読ましていただいておりました『栄光』新聞のおかげ話のことを思い出し、御仏壇の引出をあけて見ましたところ、その下の方に昨年の新年の御讃歌が二、三枚皺になって入っておりましたので早速おわび申し上げて出させていただき、又御神前の『御讃歌集』を開かせていただきますと、一度門口に貼った清潔検査の証紙が栞（しおり）がわりに、『信仰雑話』にはお酒のレッテルが栞がわりに入っておりました。<br><br> 余りの事に私も唖然として思わず「これですよ」と言ってしまいました。<br><br> すぐ皆で御神前におわび申し上げさしていただき、再び御浄霊をさせていただきますと、やがて小用、ゲップ、ガスを多量に出させていただき、すーっと楽にならせていただき朝の七時頃までぐっすりやすませていただきました。<br><br>朝八時半頃には腹部の腫れもすっかり減り、黄色味も消え、歩いてお参りさせていただくことが出来、三日間も苦しんだ者とは思えぬ程見違えるように元気にならせていただくことが出来ました。<br><br> 明主様御気づけをいただきまして有難うございました。<br><br> 長崎支部 藤川暉美江（22） 神経痛で救われ入信させて戴きました高橋豊喜（59）（長崎市東中町）さんが教会にお参りになり「昨晩、家の孫が夜中に突然大きな声で泣きますので家族の者が眼を覚ますといけないと思い庭におりました。<br><br>庭におりますとすぐ泣き止み、泣き止んだからと思って部屋に上りますと又大きな声で泣き出しますので、又庭に下りるといったように六回程同じ事を繰返しましたが原因がわかりません。<br><br>この時ふと御神書の事が頭にうかび、何か御無礼があったのではないかと色々考えさしていただきましたところ、私がその晩拝読させていただきました『栄光』新聞が畳の上においたままになっており、その上に普通の日刊新聞が乗っていることに気がつきました。<br><br>早速お詫び申し上げ、棚にお納めさしていただきましたところ、あれ程泣いていた子供がピッタリと泣き止み、ぐっすりと休ませていただきました。<br><br> これで本当に御神書を大事にさしていただかなければならないという事を深く深く感じさせていただきました。<br><br>今日は、明主様にお詫びと御礼を申し上げさせていただくべく参詣させていただきました」との御報告がございました。<br><br> 佐世保支部 古川禎子（39） 吉田輝成（43）（長崎県北松浦郡鹿町町）という信者さんが七月七日に支部にお参りになり次のようなお話がございました。<br><br> （イ）御守様の外袋が少しよごれましたので御取替をしなければと思っていましたもののつい忘れてそのままになっておりました。<br><br>二、三日後気づいてみました処、最近私は勿論のこと家族の者も全部いもを食べたこともないのに確かにいもの皮が入っておりました。<br><br>おわび申し上げ早速お取替さしていただきました。<br><br> 何でも気づいたときに早速させていただかねばならぬと気づかしていただきました。<br><br> （ロ）一カ月程前、自宅の御神前に御礼拝させていただいておりましたところ、善言讃詞が途中からどうしても続かなくなりました。<br><br>一年以上もの間、御礼拝させていただいてまだそのようなことはございませんので、何か御無礼になっているところがなかろうかと思いました。<br><br>その時ふと御神書のことに気づかしていただき、早速調べてみますと、『栄光』新聞の間に普通新聞がはさまっておりました。<br><br>これは悪いことをしたと思いすぐお詫び申し上げさしていただきました。<br><br> その後何事もなく、御守護いただきすべてにわたって順調に進ませていただいております。<br><br> （ハ）御霊紙を、お粗末にしないようにとの自分一人の勝手な考えから、御守様と一緒に胸にいただいておりました。<br><br>ところが、外袋を替えさせていただくとき気づきましたのですが、ナイロンの袋だけが消えてありません。<br><br>それで御霊紙と一緒ではいけないという御気づけではないかと感じさせていただきました。<br><br> 間違いがあれば小さな事にいたるまで一つ一つ御気づけいただきますことの有難さを感じさせていただいております。<br><br> 有難うございました。<br><br> 福江支部 沢本明雄（38） 教導師の子供（二歳）で、半年程前に教修にやらしていただいたときから疥癬の御浄化をいただいておりましたが、今度はもう大分良いだろうと思って出かけましたところ、行ってみますと意外にも、顔は青白く、眼球はトロンとして全然活気なく大変な衰弱でほとんど死の寸前にあるような感じが致しました。<br><br> ずっと御浄霊いただいているのにこれは少し変だと思いまして、何か御無礼はないかと思って調べてみましたが何もそれらしいところを見付け出しませんでした。<br><br>それでもこれがいけないのではないかと思えましたのは、明主様の日比谷公会堂における御写真二枚を中央に、日光殿など、神仙郷の御写真をそのまわりにして額にお収めして鴨居の上に掲げてございました。<br><br> そこできっとこの御気づけではなかろうかと思いまして早速額を下し御写真を外してお詫び申し上げさせていただきました。<br><br> そのトタン、子供の眼に急に活気が出て生々となり、何かしゃべり出し少しずつはい廻るようになりました。<br><br> お蔭様でその後すっかり元気にならせていただきました。<br><br> 明主様有難うございました。<br><br> （昭和二十七年八月二十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Dos Sagrados Ensinamentos Emana uma Luz Constante — A Desconsideração para com Eles Gera Advertências</h2>
 <p><em>Coletânea de Milagres da Sekaikyuseikyou</em>, 10 de setembro de 1953</p>
@@ -122,5 +277,48 @@ function toggleLang(lang) {
 <p>Graças a essa permissão, ele se recuperou completamente.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(25 de agosto de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御神書からは常に御光が ――御無礼すれば御気付けあり―― 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 佐賀県 光宝大教会 坂井多賀男（45） かねて明主様の御書き下さった御文字に他の品物を載せると霊的に大変な御無礼となり、必ず御気づけがあるから注意するようにとの御教えをいただき、御神書類の御取扱については充分に注意さしていただいておりましたが、去る七月三日光宝大教会本部御報告日に次のような報告を受けましたので、大変おそくなりまして申訳ございませんが、謹みて御報告申し上げさしていただきます。<br/><br/> 北崎支部 水上貞子（41） 板谷吉松（49）（福岡県糸島郡北崎村）さんの子供善言さんが学校から黄疸だと言われ「お宅は救世教の信者さんだから病院に行かず連れて帰って来ました」と看護婦さんに連れられて帰宅致しました。<br/><br/> すぐに教会に連れてお見えになり、三日間通われまして三日目の夜十時頃又お見えになりましたので御浄霊さしていただきましたが、御浄霊さしていただきますとだんだんと腹がふくれて参り、苦しみがひどくなります。<br/><br/>なんだか普通と違い変だと思いましたので、かねて御教えをいただいていました御神書の御取扱いについての御注意に気づき、もしやと思い「御神書に何か御無礼があるのではないでしょうか」とおたずね致しましたけれど「その事ならば常に注意させていただき、ちゃんとさせていただいておりますから大丈夫でございます」との御返事でした。<br/><br/> 引続き御浄霊させていただきますと嘔吐があり、少し楽になられ帰宅されましたが、又夜中に出張御願いに来られましたので出張さしていただき、御浄霊させていただきましたが、熱が全然なく、お腹がはって苦しみます。<br/><br/>その時ふと以前読ましていただいておりました『栄光』新聞のおかげ話のことを思い出し、御仏壇の引出をあけて見ましたところ、その下の方に昨年の新年の御讃歌が二、三枚皺になって入っておりましたので早速おわび申し上げて出させていただき、又御神前の『御讃歌集』を開かせていただきますと、一度門口に貼った清潔検査の証紙が栞（しおり）がわりに、『信仰雑話』にはお酒のレッテルが栞がわりに入っておりました。<br/><br/> 余りの事に私も唖然として思わず「これですよ」と言ってしまいました。<br/><br/> すぐ皆で御神前におわび申し上げさしていただき、再び御浄霊をさせていただきますと、やがて小用、ゲップ、ガスを多量に出させていただき、すーっと楽にならせていただき朝の七時頃までぐっすりやすませていただきました。<br/><br/>朝八時半頃には腹部の腫れもすっかり減り、黄色味も消え、歩いてお参りさせていただくことが出来、三日間も苦しんだ者とは思えぬ程見違えるように元気にならせていただくことが出来ました。<br/><br/> 明主様御気づけをいただきまして有難うございました。<br/><br/> 長崎支部 藤川暉美江（22） 神経痛で救われ入信させて戴きました高橋豊喜（59）（長崎市東中町）さんが教会にお参りになり「昨晩、家の孫が夜中に突然大きな声で泣きますので家族の者が眼を覚ますといけないと思い庭におりました。<br/><br/>庭におりますとすぐ泣き止み、泣き止んだからと思って部屋に上りますと又大きな声で泣き出しますので、又庭に下りるといったように六回程同じ事を繰返しましたが原因がわかりません。<br/><br/>この時ふと御神書の事が頭にうかび、何か御無礼があったのではないかと色々考えさしていただきましたところ、私がその晩拝読させていただきました『栄光』新聞が畳の上においたままになっており、その上に普通の日刊新聞が乗っていることに気がつきました。<br/><br/>早速お詫び申し上げ、棚にお納めさしていただきましたところ、あれ程泣いていた子供がピッタリと泣き止み、ぐっすりと休ませていただきました。<br/><br/> これで本当に御神書を大事にさしていただかなければならないという事を深く深く感じさせていただきました。<br/><br/>今日は、明主様にお詫びと御礼を申し上げさせていただくべく参詣させていただきました」との御報告がございました。<br/><br/> 佐世保支部 古川禎子（39） 吉田輝成（43）（長崎県北松浦郡鹿町町）という信者さんが七月七日に支部にお参りになり次のようなお話がございました。<br/><br/> （イ）御守様の外袋が少しよごれましたので御取替をしなければと思っていましたもののつい忘れてそのままになっておりました。<br/><br/>二、三日後気づいてみました処、最近私は勿論のこと家族の者も全部いもを食べたこともないのに確かにいもの皮が入っておりました。<br/><br/>おわび申し上げ早速お取替さしていただきました。<br/><br/> 何でも気づいたときに早速させていただかねばならぬと気づかしていただきました。<br/><br/> （ロ）一カ月程前、自宅の御神前に御礼拝させていただいておりましたところ、善言讃詞が途中からどうしても続かなくなりました。<br/><br/>一年以上もの間、御礼拝させていただいてまだそのようなことはございませんので、何か御無礼になっているところがなかろうかと思いました。<br/><br/>その時ふと御神書のことに気づかしていただき、早速調べてみますと、『栄光』新聞の間に普通新聞がはさまっておりました。<br/><br/>これは悪いことをしたと思いすぐお詫び申し上げさしていただきました。<br/><br/> その後何事もなく、御守護いただきすべてにわたって順調に進ませていただいております。<br/><br/> （ハ）御霊紙を、お粗末にしないようにとの自分一人の勝手な考えから、御守様と一緒に胸にいただいておりました。<br/><br/>ところが、外袋を替えさせていただくとき気づきましたのですが、ナイロンの袋だけが消えてありません。<br/><br/>それで御霊紙と一緒ではいけないという御気づけではないかと感じさせていただきました。<br/><br/> 間違いがあれば小さな事にいたるまで一つ一つ御気づけいただきますことの有難さを感じさせていただいております。<br/><br/> 有難うございました。<br/><br/> 福江支部 沢本明雄（38） 教導師の子供（二歳）で、半年程前に教修にやらしていただいたときから疥癬の御浄化をいただいておりましたが、今度はもう大分良いだろうと思って出かけましたところ、行ってみますと意外にも、顔は青白く、眼球はトロンとして全然活気なく大変な衰弱でほとんど死の寸前にあるような感じが致しました。<br/><br/> ずっと御浄霊いただいているのにこれは少し変だと思いまして、何か御無礼はないかと思って調べてみましたが何もそれらしいところを見付け出しませんでした。<br/><br/>それでもこれがいけないのではないかと思えましたのは、明主様の日比谷公会堂における御写真二枚を中央に、日光殿など、神仙郷の御写真をそのまわりにして額にお収めして鴨居の上に掲げてございました。<br/><br/> そこできっとこの御気づけではなかろうかと思いまして早速額を下し御写真を外してお詫び申し上げさせていただきました。<br/><br/> そのトタン、子供の眼に急に活気が出て生々となり、何かしゃべり出し少しずつはい廻るようになりました。<br/><br/> お蔭様でその後すっかり元気にならせていただきました。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十七年八月二十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

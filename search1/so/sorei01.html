@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sorei01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祖霊と死後の準備 自観叢書第3編『霊界叢談』P.10、昭和24(1949)年8月25日発行 そもそも死に際し霊体離脱の状態は如何というに、これについてある看護婦が霊視した手記が相当よく書いてあるから記（しる）してみよう。<br><br> これは西洋の例であるが人によって霊の見える人が西洋にも日本にもたまたまあるのである。<br><br>私はくわしい事は忘れたが、要点だけは覚えているがそれはこうである。<br><br>「私はある時、今や死に垂（なんな）んとする病人を凝視していると、額の辺から一条の白色の霧の様なものが立昇り、空間に緩やかに拡がりゆくのである。<br><br>そうするうちに、雲烟（うんえん）のごとき一つの大きな不規則な塊のようなものになったかと思うと、間もなくしかも徐々として人体の形状のごとくなり、数分後には全く生前そのままの姿となって空間に起ち、疑（じ）っと自己の死骸を見詰めており、死体に取ついて悲歎にくれている近親者に対し、自分の存在を知らしたいような風に見えたが、何しろ幽冥所を異（こと）にしているので諦めたか、暫くして向き直り窓の方に進んでゆき、いとも軽げに外へ出て行った」というのであるが、これは全く死の刹那をよく表わしている。<br><br> 右手記は一般人の生から死への転機の状態であるが、西洋の霊界は平面的であり、東洋の霊界は立体的である。<br><br>これは日本は八百万の神があり、大中小上中下の神社があり、社格も官幣、中幣、県社、郷社、村社等、種々あるによってみてもいかに階級的であるかが知らるるのである。<br><br>これに反し西洋はキリスト教一種といってもよいのであるから、全く経と緯の相違である事は明かである。<br><br>故に前者は多神教で後者は一神教というのである。<br><br> 次に人の死するや、仏教においては四十九日、神道においては五十日祭をもって一時打切りにするが、それはその日を限りとして霊界へ復帰するのである。<br><br>それまで霊は仏教にては白木の位牌、神道にては麻で造った人形の形をした神籬（ひもろぎ）というものに憑依しているのである。<br><br>ここで注意すべきは、死者に対し悲しみの余りなかなか忘れ得ないのが一般の人情であるがこれは考えものである。<br><br>なぜなればよくいう「往く所へ往けない」とか「浮ばれない」とかいうのは、遺族の執念が死霊に対し引止めるからである。<br><br>故にまず百ケ日位過ぎた後はなるべく忘れるように努むべきで、写真なども百ケ日位まで安置し、その後一旦撤去した方がよく、悲しみや執着を忘れるようになった頃また掛ければよいのである。<br><br> 次に仏壇の意義を概略説明するが、仏壇の中は極楽浄土の型であって、それへ祖霊をお迎えするのである。<br><br>極楽浄土は百花爛漫として香気漂い、常に音楽を奏し飲食裕かに諸霊は歓喜の生活をしている。<br><br>それを現界に映し華を上げ、線香を焚き、飲食を饌供（せんぐ）するのである。<br><br>また鐘は二つ叩けばよく、これは霊界における祖霊に対し合図の意味である。<br><br>これを耳にした多数の祖霊は一瞬にして仏壇の中へ集合する。<br><br>しかしこの事は何十何百という祖霊であるから、小さな仏壇の中へいかにして併列するか不思議に思うであろうが、実は霊なるものは伸縮自在にして、仏壇等に集合する際はその場所に相応するだけの小さな形となるので、何段もの段階があって、それに上中下の霊格のまま整然と順序正しく居並び、人間の礼拝に対しては諸霊も恭（うやうや）しく会釈さるるのである。<br><br>そうして飲食の際は祖霊はそのものの霊を吸収するのである。<br><br>しかし霊の食料は非常に少なく、仏壇に上げただけで余る事があるから、余った飲食は地獄の餓鬼の霊に施すので、その徳によって祖霊は向上さるるのである。<br><br>故に仏壇へは出来るだけ、平常といえども初物、珍しき物、美味と思うものを一番先に饌供すべきで昔から孝行をしたい時には親はなしという諺があるが、そんな事は決してない。<br><br>むしろ死後の霊的孝養を尽す事こそ大きな孝行となるのである。<br><br>もちろん墓参法事等も祖霊はすこぶる喜ばれるから、遺族または知人等も出来るだけ供養をなすべきで、これによって霊は向上し、地獄から脱出する時期が促進さるるのである。<br><br> 世間よく仏壇を設置するのは長男だけで、次男以下は必要はないとしてあるが、これは大きな誤りである。<br><br>何となれば両親が生きているとして、長男だけが好遇し、次男以下は冷遇または寄付けさせないとしたら、大なる親不幸となるではないか。<br><br>そういう場合霊界におられる両親は気づかせようとして種々の方法をとるのである。<br><br>そのために病人が出来るという事もあるから注意すべきである。<br><br> 今一つ注意すべきは改宗の場合である。<br><br>それは神道の何々教に祀り替えたり、宗教によっては仏壇を撤去する事があるが、これらも大いなる誤りである、改宗する場合といえども、祖霊は直ちに新しき宗教に簡単に入信するものではない。<br><br>ちょうど生きた人間の場合家族の一員が改宗しても他の家族ことごとくが直ちに共鳴するものではないと同様である。<br><br>このため祖霊の中では立腹さるるものもある。<br><br>叱責（しっせき）のため種々の御気付けをされる事もある。<br><br>それが病気災難等となるから、この一文を読む人によっては思い当る節がある筈である。<br><br> ここで霊界における団体の事をかいてみよう。<br><br>霊界も現界と等しく各宗各派大中小の団体に分かれている。<br><br>仏教五十数派、教派神道十三派及び神社神道、キリスト教数派等々それぞれ現界と等しく集団生活があって死後、霊は所属すべき団体に入るがそれは生前信者であった団体に帰属するのである。<br><br>しかるに生前なんら信仰のなかった者は所属すべき団体がないから、無宿者となって大いに困却する訳であるから生前信頼すべき集団に所属し、死後の準備をなしおくべきである。<br><br> これについてこういう話がある。<br><br>以前某所で交霊研究会があった際、某霊媒に徳富蘆花氏の霊が憑った。<br><br>そこで真偽を確かめるため蘆花夫人を招き鑑定させたところ、たしかに亡夫に違いないとの証言であった。<br><br>その際種々の問答を試みたところ、蘆花氏の霊はほとんど痴呆症のごとく小児程度の智能で、立合ったものはその意外に驚いたのである。<br><br>それはいかなる訳かというと、生前において死後を否定し信仰がなかったからで、生前トルストイの人道主義に私淑（ししゅく）し、人間としては尊敬すべき人であったに拘わらず右のごときは全く霊界の存在を信じなかったからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Preparação para a Vida Pós-Morte e o Culto aos Antepassados</h2>
 <p>Afinal, como se processa o desprendimento do corpo espiritual no momento da morte? A este respeito, o relato de uma enfermeira que presenciou o fenômeno por meio de sua visão espiritual oferece uma descrição bastante fidedigna, que passarei a transcrever.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Outro ponto que exige cautela é a conversão religiosa. Em certas religiões de matriz xintoísta, os altares são substituídos, e em outras, são simplesmente removidos. Ambas as práticas são erros crassos. Mesmo que alguém mude de religião, os espíritos dos antepassados não aderem de imediato e com facilidade à nova fé. Ocorre o mesmo que no plano material: da mesma forma que, em uma família, a conversão de um membro não garante a adesão imediata dos demais. Em virtude disso, alguns antepassados se sentem ultrajados e, como forma de reprimenda, podem enviar diversas advertências, que se manifestam como doenças e infortúnios. Certamente, alguns leitores deste artigo identificarão situações semelhantes em suas vidas.</p>
 <p>Abordemos agora a organização social no Mundo Espiritual. Assim como o mundo terreno, o Mundo Espiritual está dividido em inúmeras agremiações, de diferentes portes e filiações. As mais de cinquenta escolas do Budismo, as treze seitas do Xintoísmo, o Xintoísmo de Santuário, as diversas denominações do Cristianismo – todas possuem suas contrapartes espirituais, onde os espíritos vivem em comunidade. Após a morte, cada alma se integra ao grupo ao qual pertencia em vida. Aqueles que não professaram fé alguma, no entanto, não têm a que grupo pertencer. Tornam-se desamparados, como andarilhos sem destino, enfrentando enormes dificuldades. É, pois, imperativo que, ainda em vida, a pessoa se filie a um grupo de confiança e se prepare para a vida póstuma.</p>
 <p>A esse respeito, há uma história elucidativa. Certa vez, durante uma sessão de estudos de comunicação com os espíritos, um médium foi possuído pelo espírito do escritor Tokutomi Roka. Para averiguar a autenticidade do fenômeno, a viúva do Sr. Roka foi convidada e, após observá-lo, confirmou que se tratava, indubitavelmente, de seu falecido esposo. Durante a sessão, foram feitas diversas perguntas, e para a surpresa de todos os presentes, o espírito de Roka manifestava uma inteligência pueril, quase como a de um demente. Qual seria a razão para tal estado? Apesar de ter sido, em vida, um homem digno de admiração, um humanista que se inspirava nos ideais de Tolstói, ele negava a existência da vida após a morte e não possuía fé. Seu estado deplorável devia-se unicamente à sua descrença na existência do Mundo Espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祖霊と死後の準備 自観叢書第3編『霊界叢談』P.10、昭和24(1949)年8月25日発行 そもそも死に際し霊体離脱の状態は如何というに、これについてある看護婦が霊視した手記が相当よく書いてあるから記（しる）してみよう。<br/><br/> これは西洋の例であるが人によって霊の見える人が西洋にも日本にもたまたまあるのである。<br/><br/>私はくわしい事は忘れたが、要点だけは覚えているがそれはこうである。<br/><br/>「私はある時、今や死に垂（なんな）んとする病人を凝視していると、額の辺から一条の白色の霧の様なものが立昇り、空間に緩やかに拡がりゆくのである。<br/><br/>そうするうちに、雲烟（うんえん）のごとき一つの大きな不規則な塊のようなものになったかと思うと、間もなくしかも徐々として人体の形状のごとくなり、数分後には全く生前そのままの姿となって空間に起ち、疑（じ）っと自己の死骸を見詰めており、死体に取ついて悲歎にくれている近親者に対し、自分の存在を知らしたいような風に見えたが、何しろ幽冥所を異（こと）にしているので諦めたか、暫くして向き直り窓の方に進んでゆき、いとも軽げに外へ出て行った」というのであるが、これは全く死の刹那をよく表わしている。<br/><br/> 右手記は一般人の生から死への転機の状態であるが、西洋の霊界は平面的であり、東洋の霊界は立体的である。<br/><br/>これは日本は八百万の神があり、大中小上中下の神社があり、社格も官幣、中幣、県社、郷社、村社等、種々あるによってみてもいかに階級的であるかが知らるるのである。<br/><br/>これに反し西洋はキリスト教一種といってもよいのであるから、全く経と緯の相違である事は明かである。<br/><br/>故に前者は多神教で後者は一神教というのである。<br/><br/> 次に人の死するや、仏教においては四十九日、神道においては五十日祭をもって一時打切りにするが、それはその日を限りとして霊界へ復帰するのである。<br/><br/>それまで霊は仏教にては白木の位牌、神道にては麻で造った人形の形をした神籬（ひもろぎ）というものに憑依しているのである。<br/><br/>ここで注意すべきは、死者に対し悲しみの余りなかなか忘れ得ないのが一般の人情であるがこれは考えものである。<br/><br/>なぜなればよくいう「往く所へ往けない」とか「浮ばれない」とかいうのは、遺族の執念が死霊に対し引止めるからである。<br/><br/>故にまず百ケ日位過ぎた後はなるべく忘れるように努むべきで、写真なども百ケ日位まで安置し、その後一旦撤去した方がよく、悲しみや執着を忘れるようになった頃また掛ければよいのである。<br/><br/> 次に仏壇の意義を概略説明するが、仏壇の中は極楽浄土の型であって、それへ祖霊をお迎えするのである。<br/><br/>極楽浄土は百花爛漫として香気漂い、常に音楽を奏し飲食裕かに諸霊は歓喜の生活をしている。<br/><br/>それを現界に映し華を上げ、線香を焚き、飲食を饌供（せんぐ）するのである。<br/><br/>また鐘は二つ叩けばよく、これは霊界における祖霊に対し合図の意味である。<br/><br/>これを耳にした多数の祖霊は一瞬にして仏壇の中へ集合する。<br/><br/>しかしこの事は何十何百という祖霊であるから、小さな仏壇の中へいかにして併列するか不思議に思うであろうが、実は霊なるものは伸縮自在にして、仏壇等に集合する際はその場所に相応するだけの小さな形となるので、何段もの段階があって、それに上中下の霊格のまま整然と順序正しく居並び、人間の礼拝に対しては諸霊も恭（うやうや）しく会釈さるるのである。<br/><br/>そうして飲食の際は祖霊はそのものの霊を吸収するのである。<br/><br/>しかし霊の食料は非常に少なく、仏壇に上げただけで余る事があるから、余った飲食は地獄の餓鬼の霊に施すので、その徳によって祖霊は向上さるるのである。<br/><br/>故に仏壇へは出来るだけ、平常といえども初物、珍しき物、美味と思うものを一番先に饌供すべきで昔から孝行をしたい時には親はなしという諺があるが、そんな事は決してない。<br/><br/>むしろ死後の霊的孝養を尽す事こそ大きな孝行となるのである。<br/><br/>もちろん墓参法事等も祖霊はすこぶる喜ばれるから、遺族または知人等も出来るだけ供養をなすべきで、これによって霊は向上し、地獄から脱出する時期が促進さるるのである。<br/><br/> 世間よく仏壇を設置するのは長男だけで、次男以下は必要はないとしてあるが、これは大きな誤りである。<br/><br/>何となれば両親が生きているとして、長男だけが好遇し、次男以下は冷遇または寄付けさせないとしたら、大なる親不幸となるではないか。<br/><br/>そういう場合霊界におられる両親は気づかせようとして種々の方法をとるのである。<br/><br/>そのために病人が出来るという事もあるから注意すべきである。<br/><br/> 今一つ注意すべきは改宗の場合である。<br/><br/>それは神道の何々教に祀り替えたり、宗教によっては仏壇を撤去する事があるが、これらも大いなる誤りである、改宗する場合といえども、祖霊は直ちに新しき宗教に簡単に入信するものではない。<br/><br/>ちょうど生きた人間の場合家族の一員が改宗しても他の家族ことごとくが直ちに共鳴するものではないと同様である。<br/><br/>このため祖霊の中では立腹さるるものもある。<br/><br/>叱責（しっせき）のため種々の御気付けをされる事もある。<br/><br/>それが病気災難等となるから、この一文を読む人によっては思い当る節がある筈である。<br/><br/> ここで霊界における団体の事をかいてみよう。<br/><br/>霊界も現界と等しく各宗各派大中小の団体に分かれている。<br/><br/>仏教五十数派、教派神道十三派及び神社神道、キリスト教数派等々それぞれ現界と等しく集団生活があって死後、霊は所属すべき団体に入るがそれは生前信者であった団体に帰属するのである。<br/><br/>しかるに生前なんら信仰のなかった者は所属すべき団体がないから、無宿者となって大いに困却する訳であるから生前信頼すべき集団に所属し、死後の準備をなしおくべきである。<br/><br/> これについてこういう話がある。<br/><br/>以前某所で交霊研究会があった際、某霊媒に徳富蘆花氏の霊が憑った。<br/><br/>そこで真偽を確かめるため蘆花夫人を招き鑑定させたところ、たしかに亡夫に違いないとの証言であった。<br/><br/>その際種々の問答を試みたところ、蘆花氏の霊はほとんど痴呆症のごとく小児程度の智能で、立合ったものはその意外に驚いたのである。<br/><br/>それはいかなる訳かというと、生前において死後を否定し信仰がなかったからで、生前トルストイの人道主義に私淑（ししゅく）し、人間としては尊敬すべき人であったに拘わらず右のごときは全く霊界の存在を信じなかったからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

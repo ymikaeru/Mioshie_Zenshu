@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sanchu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 左の記事は、八月七日“東克イヴニング・ニューズ”の紙上に掲載されたものである 山中に於ける驚異の殿堂 『栄光』224号、昭和28(1953)年9月2日発行 シカゴ・トリビューン紙 東京イヴニング・ニューズ記者 ウェイグル・シモン 宮の下の向背強羅の上箱根の山に個人に所属する新しい美術館がある。<br><br>そこは相当価値あり、長い東京よりのドライヴの行程を持っている。<br><br>当所にある美術品は岡田茂吉氏に依って蒐集され、それらは戦争中より完成された、最も偉大なる成果の一つである。<br><br> 所有者、岡田氏は夏季はその所蔵品と共に強羅にあり、冬季は熱海に居住する。<br><br>一般が美術品を見られるのは、九時―五時までであり休日はなく、入場料は適当な百円である。<br><br> 二つの建物がある。<br><br>一つの長く低い方は浮世絵式の掛物と浮世絵に全部を用いている。<br><br>他方はこれより高く位置し、又大きく白色で両館には、共に岡田氏の蒐集―支那陶器、初期の青銅、仏像、金箔蒔絵、掛物、徳川時代及び江戸時代の屏風等々がある。<br><br> 何百と云うこれらの興趣あり、美しい作品を一通り見るには一日たっぷりかかる。<br><br>半日ではどうしても充分ではない。<br><br>陳列品は一定期間ごとに変えられるから数度は訪れなければならない。<br><br>例えば八月十日より相当数の変った浮世絵が開陳される。<br><br> 岡田氏はそれ等美術品解説者の頒布に、近藤市太郎氏の助けを借りている。<br><br>近藤氏は当館発行の『浮世絵の栞』の著者で、東京国立博物館の普及課長である。<br><br>『浮世絵の栞』の表紙は桃山時代の作品で『湯女』と呼ばれる（訳者註、『湯女』を“浴室へ行く女”とある）匿名作家の作品の再製を印刷している。<br><br>当品は当所所蔵中の白眉であり、目下アメリカの日本重要美術展に出品中である。<br><br> 当パンフレットは日本の木版画の起原、歴史及びその発達を纏めており、なお箱根美術館蔵の浮世絵の写真を載せている。<br><br> 美術館には春信の特に優れた作品が陣列してある。<br><br>優美で、繊細で、鋭敏で、弱々しい女の肢体、常に途方もなく細い小さい手―他のものと比べて不均衝に小さい―これらはこの作家の特徴なのである。<br><br> 又広重の作品中将に著名な数種の作品もある。<br><br>しかしこの部屋をぐるりととり巻いた壁のガラスの中に掛っている掛物の調和された美麗な浮世絵と比べると劣っている事は否定できない。<br><br> 元禄時代の代表的作家、懐月堂安度の美人画を例に取ると、当時の作家等は大まかな線を用いて頑丈な女を描いた。<br><br>着物の色彩は青、赤と金色である。<br><br>その一つに櫛をもった手を挙げ立っている美人画がある。<br><br>他に度辰のもので同様に簡潔と大胆を追った作品がある。<br><br>各作品は十七世紀に画かれたものであるに拘らず、明らかに現代感覚を持っている。<br><br> 裕信の三人の女と一人の男を描いた、リズミカルな『唄い舞う美人』の優れた大幅の作品がある。<br><br>画面には金の細粉が施してあり、又各作家等は赤、緑、より白い白色、少量の灰色、黒等を用いて絵の鮮明化をはかった。<br><br>その効果は優美で戒厳を伴ない、かつ典雅である。<br><br> この別館を離れ竹の生えた庭園を上ると大きな白壁の建物があり、これが岡田氏の美術品を納めた美術館なのである。<br><br>一階には古代ギリシャ、エジプト、イタリヤ、支那の石像がある。<br><br>総て館内は巧妙に照明が施してあって各作品はその優位なことを示している。<br><br>陳列品は大きな都会の美術館によく見るように、繁雑に列べてなく、各参観者が落着いて見られるようにしてある。<br><br> 巻物は室の中央の長いケースに陳列されている。<br><br>種々高さの異なるケースは、日本初期の陶器、志野、古九谷、伊万里、又他の優れた鍋島焼（皿）等の静けさを保たしている。<br><br>又その例には乾山、光琳、仁清の壷、鉢、香炉等も含まれる。<br><br>徳川時代の壮麗な金箔蒔絵作品も多くある。<br><br> 二階には支那の極めて美しい陶器作品がある。<br><br>即ち唐、宋、明、清時代の小さな鉢、巨大なカメ、皿、壷などであり、その中のいくつかは“重要文化財”である。<br><br>又日本の奈良時代より鎌倉時代までの彫刻、鋳金のものがあるが、それらは殊に美しい。<br><br> 二つの壁を連ねた大きな硝子のケースの中には、一続きになった古い屏風があり、京都作家の初期の勝れた作品である。<br><br>それらは単に風俗の参考になるばかりでなく、極めて魅惑的である。<br><br>その変ったものの一つに初期のポルトガルの帆船を画いたものがある。<br><br>その衣服の恰好はヨーロッパ的のものであり日本風の建物や風物と著しく異っている。<br><br> 当美術館は日本にある他のものと似通っていない。<br><br>と言うのは正しく外国人に対して歓迎の意を表し、希望者に対しては英文のパンフレットも用意してあり、又百種に及ぶそれぞれの展示品には日本文と同様英文の説明が付してある。<br><br> 私は一参観者として岡田氏及びそのスタッフの方の鄭重な、行き届いたもてなしに対して感謝したい。<br><br>かかる行き届いた処理は鎌倉近代美術舘にあっても未だ採用してなく東京の国立博物館にあっては少しばかり始めたに過ぎない。<br><br> 上野の都立美術館では、幾千となく絵画及び芸術作品の陳列替えを行ってはいるが、英語のカードとかプログラムは何もない。<br><br>東京の大きなデパートでは、絵画作品及び芸術作品の週間展示を行っているが、当局者は英語の説明を付すことに配慮していない。<br><br>なお又最も卑近なことだが売るものかどうかさえ実際に明示してない。<br><br>東京の文部省の主管する近代美術館にしても公衆の参観の用には具しているが、こことてもカードとか付箋による英語の説明を付していない。<br><br> 岡田氏の場合近藤氏の著わせる冊子は美術館を訪う外国人の参観者に対しその観賞に便益を与えていると同時に英語学者が各作品毎に協力している。<br><br>その担当者の一人野木省子女史は英語を話し、かつ美術館の女子奉仕者の責任者でもある。<br><br> 当美術館を離れると特殊な庭園に歩を印することになる。<br><br>ある所は一面に苔で蔽われていてこれは日本全国から集められた各種類の苔である。<br><br>この蒐集も又岡田氏の考えによったものである。<br><br>この苔庭には銀灰色をした細い樹木のみが生えていて、それ以外の花弁はない。<br><br> 庭園の他の個所においては至る所多くの花が満ち、小山があり流れが橋の下を通り、岩の上より噴出している所もある。<br><br>山に囲まれたここの眺めは日本における最も美しい場所の一つである。<br><br> （福岡甲児訳）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Santuário de Arte nas Montanhas de Hakone</h2>
 <p>Nas montanhas de Hakone, acima de Gora e Miyanoshita, ergue-se um novo museu de arte, fruto da iniciativa de um único homem. A visita a este local, por si só, já justifica a longa e aprazível viagem de automóvel a partir de Tóquio.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>No caso do Sr. Okada, o livreto escrito pelo Sr. Kondo não só enriquece a experiência dos visitantes estrangeiros, como também conta com a colaboração de especialistas na língua inglesa para cada obra. Uma das responsáveis, a Sra. Shoko Nogi (野木省子女史), fala inglês fluentemente e lidera a equipe de assistentes do museu.</p>
 <p>Ao deixar o museu, o visitante adentra um jardim de beleza singular. Uma de suas áreas é inteiramente coberta por um tapete de musgos, com espécimes de diversas variedades coletadas de todas as regiões do Japão — outra concepção do próprio Sr. Okada. Neste jardim de musgos, crescem apenas árvores esbeltas de um tom cinza-prateado, sem a presença de qualquer outra flor.</p>
 <p>Em outras seções do jardim, contudo, as flores desabrocham em abundância por toda parte. Há colinas, riachos que correm sob pontes e fontes que jorram das rochas. A paisagem, emoldurada pelas montanhas, compõe um dos cenários mais deslumbrantes de todo o Japão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 左の記事は、八月七日“東克イヴニング・ニューズ”の紙上に掲載されたものである 山中に於ける驚異の殿堂 『栄光』224号、昭和28(1953)年9月2日発行 シカゴ・トリビューン紙 東京イヴニング・ニューズ記者 ウェイグル・シモン 宮の下の向背強羅の上箱根の山に個人に所属する新しい美術館がある。<br/><br/>そこは相当価値あり、長い東京よりのドライヴの行程を持っている。<br/><br/>当所にある美術品は岡田茂吉氏に依って蒐集され、それらは戦争中より完成された、最も偉大なる成果の一つである。<br/><br/> 所有者、岡田氏は夏季はその所蔵品と共に強羅にあり、冬季は熱海に居住する。<br/><br/>一般が美術品を見られるのは、九時―五時までであり休日はなく、入場料は適当な百円である。<br/><br/> 二つの建物がある。<br/><br/>一つの長く低い方は浮世絵式の掛物と浮世絵に全部を用いている。<br/><br/>他方はこれより高く位置し、又大きく白色で両館には、共に岡田氏の蒐集―支那陶器、初期の青銅、仏像、金箔蒔絵、掛物、徳川時代及び江戸時代の屏風等々がある。<br/><br/> 何百と云うこれらの興趣あり、美しい作品を一通り見るには一日たっぷりかかる。<br/><br/>半日ではどうしても充分ではない。<br/><br/>陳列品は一定期間ごとに変えられるから数度は訪れなければならない。<br/><br/>例えば八月十日より相当数の変った浮世絵が開陳される。<br/><br/> 岡田氏はそれ等美術品解説者の頒布に、近藤市太郎氏の助けを借りている。<br/><br/>近藤氏は当館発行の『浮世絵の栞』の著者で、東京国立博物館の普及課長である。<br/><br/>『浮世絵の栞』の表紙は桃山時代の作品で『湯女』と呼ばれる（訳者註、『湯女』を“浴室へ行く女”とある）匿名作家の作品の再製を印刷している。<br/><br/>当品は当所所蔵中の白眉であり、目下アメリカの日本重要美術展に出品中である。<br/><br/> 当パンフレットは日本の木版画の起原、歴史及びその発達を纏めており、なお箱根美術館蔵の浮世絵の写真を載せている。<br/><br/> 美術館には春信の特に優れた作品が陣列してある。<br/><br/>優美で、繊細で、鋭敏で、弱々しい女の肢体、常に途方もなく細い小さい手―他のものと比べて不均衝に小さい―これらはこの作家の特徴なのである。<br/><br/> 又広重の作品中将に著名な数種の作品もある。<br/><br/>しかしこの部屋をぐるりととり巻いた壁のガラスの中に掛っている掛物の調和された美麗な浮世絵と比べると劣っている事は否定できない。<br/><br/> 元禄時代の代表的作家、懐月堂安度の美人画を例に取ると、当時の作家等は大まかな線を用いて頑丈な女を描いた。<br/><br/>着物の色彩は青、赤と金色である。<br/><br/>その一つに櫛をもった手を挙げ立っている美人画がある。<br/><br/>他に度辰のもので同様に簡潔と大胆を追った作品がある。<br/><br/>各作品は十七世紀に画かれたものであるに拘らず、明らかに現代感覚を持っている。<br/><br/> 裕信の三人の女と一人の男を描いた、リズミカルな『唄い舞う美人』の優れた大幅の作品がある。<br/><br/>画面には金の細粉が施してあり、又各作家等は赤、緑、より白い白色、少量の灰色、黒等を用いて絵の鮮明化をはかった。<br/><br/>その効果は優美で戒厳を伴ない、かつ典雅である。<br/><br/> この別館を離れ竹の生えた庭園を上ると大きな白壁の建物があり、これが岡田氏の美術品を納めた美術館なのである。<br/><br/>一階には古代ギリシャ、エジプト、イタリヤ、支那の石像がある。<br/><br/>総て館内は巧妙に照明が施してあって各作品はその優位なことを示している。<br/><br/>陳列品は大きな都会の美術館によく見るように、繁雑に列べてなく、各参観者が落着いて見られるようにしてある。<br/><br/> 巻物は室の中央の長いケースに陳列されている。<br/><br/>種々高さの異なるケースは、日本初期の陶器、志野、古九谷、伊万里、又他の優れた鍋島焼（皿）等の静けさを保たしている。<br/><br/>又その例には乾山、光琳、仁清の壷、鉢、香炉等も含まれる。<br/><br/>徳川時代の壮麗な金箔蒔絵作品も多くある。<br/><br/> 二階には支那の極めて美しい陶器作品がある。<br/><br/>即ち唐、宋、明、清時代の小さな鉢、巨大なカメ、皿、壷などであり、その中のいくつかは“重要文化財”である。<br/><br/>又日本の奈良時代より鎌倉時代までの彫刻、鋳金のものがあるが、それらは殊に美しい。<br/><br/> 二つの壁を連ねた大きな硝子のケースの中には、一続きになった古い屏風があり、京都作家の初期の勝れた作品である。<br/><br/>それらは単に風俗の参考になるばかりでなく、極めて魅惑的である。<br/><br/>その変ったものの一つに初期のポルトガルの帆船を画いたものがある。<br/><br/>その衣服の恰好はヨーロッパ的のものであり日本風の建物や風物と著しく異っている。<br/><br/> 当美術館は日本にある他のものと似通っていない。<br/><br/>と言うのは正しく外国人に対して歓迎の意を表し、希望者に対しては英文のパンフレットも用意してあり、又百種に及ぶそれぞれの展示品には日本文と同様英文の説明が付してある。<br/><br/> 私は一参観者として岡田氏及びそのスタッフの方の鄭重な、行き届いたもてなしに対して感謝したい。<br/><br/>かかる行き届いた処理は鎌倉近代美術舘にあっても未だ採用してなく東京の国立博物館にあっては少しばかり始めたに過ぎない。<br/><br/> 上野の都立美術館では、幾千となく絵画及び芸術作品の陳列替えを行ってはいるが、英語のカードとかプログラムは何もない。<br/><br/>東京の大きなデパートでは、絵画作品及び芸術作品の週間展示を行っているが、当局者は英語の説明を付すことに配慮していない。<br/><br/>なお又最も卑近なことだが売るものかどうかさえ実際に明示してない。<br/><br/>東京の文部省の主管する近代美術館にしても公衆の参観の用には具しているが、こことてもカードとか付箋による英語の説明を付していない。<br/><br/> 岡田氏の場合近藤氏の著わせる冊子は美術館を訪う外国人の参観者に対しその観賞に便益を与えていると同時に英語学者が各作品毎に協力している。<br/><br/>その担当者の一人野木省子女史は英語を話し、かつ美術館の女子奉仕者の責任者でもある。<br/><br/> 当美術館を離れると特殊な庭園に歩を印することになる。<br/><br/>ある所は一面に苔で蔽われていてこれは日本全国から集められた各種類の苔である。<br/><br/>この蒐集も又岡田氏の考えによったものである。<br/><br/>この苔庭には銀灰色をした細い樹木のみが生えていて、それ以外の花弁はない。<br/><br/> 庭園の他の個所においては至る所多くの花が満ち、小山があり流れが橋の下を通り、岩の上より噴出している所もある。<br/><br/>山に囲まれたここの眺めは日本における最も美しい場所の一つである。<br/><br/> （福岡甲児訳）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenmo012</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ２ 012-023 星 012 人間の系統と星（火水系人の特色） 六字の法名は阿弥陀で水、五字の法名は火になる。<br><br> 人間でも火と水、経と緯の系統があり、火の系統は小乗的だから狭く深い。<br><br>水の系統の人は広いが浅いのである。<br><br>何でも拡げっ放しにする人は、水気が多い訳である。<br><br> 星と人間とは同じもので、火の系統の星は五角形で赤い。<br><br>水の系統の星は六角形で青い。<br><br> 恒星が分裂してカケラが落ちる。<br><br>これが隕石で、金属質である。<br><br>星は極端に硬化すると光る。<br><br>または太陽の光を反射する。<br><br>物質においては硬いほど光る。<br><br>流星は恒星が分裂してそれぞれの位置へ座り、それが人間に生れる。<br><br>木火土金水の五星は人間においても偉い人が相応している。<br><br> 星は太陽と月と異っているんで、いずれも地球の人間を保護するためにあり、段々進歩し、どこまで善い世の中になるか分らぬ。<br><br>（S23. 6.24） 013 星の光 光星には星自体で光るものと、太陽の光を受けて光るものとあると思われますが、これから光り出すと仰せられる星には、それ自体で光るものはないと思われますが、いかがで御座いましょうか。<br><br> 星自体の光はない。<br><br>（太陽の光で）光線を受けて光るのと光らぬのとある。<br><br> 硬度がある程度以上になると、光を受けて反射する。<br><br>（ダイヤモンドなどそうである）（S23.10.19） 014 星の存在理由 星の存在理由を御教示願います。<br><br> 地球を守っている。<br><br>隕石で刀など作るが、これを隕鉄ともいう。<br><br> 015 星の構成物質 星の構成物質について、御垂示御願い申し上げます。<br><br> これは隕石で判る。<br><br>隕鉄といって鉄である。<br><br> 非常に硬度があって重いものである。<br><br>（S25. 2. 8） 016 最高位の星 星の主とでも申しましょうか、最も霊強く、位の高い星は何星で御座居ましょうか。<br><br> 天の星、日の系統の星で、火星のように光の強いものは、日の系統である。<br><br> 光の最も強いものである。<br><br>（S24.12. 3） 017 土星の環状帯 星の中で土星は特別の形状を致しておりますが、環状の帯はいかなるもので御座いましょうか。<br><br> 土星から発散する霊気は一番濃いから、そう見えるのだと思う。<br><br>（土星は土の成分が多いから）（S24. 6.22） rattail（注） 〔 無碍光（直心分会５号） 、昭和24(1949)年6月20日発行〕 〔 御開示集（天国之友） 、昭和24(1949)年9月10日発行〕掲載 018 北極星の位置と南北 北極星が常に北方に見えることは、地球との関係上どんな意味がございましょうか。<br><br> また北極星自体はどんなものか、御教え下さい。<br><br> 地球の出来たての時は真中にあったという。<br><br>それが、地球が二十三・五度傾斜したために、北へ行ったという。<br><br>七つあって七星という。<br><br> 北は一番霊が濃い。<br><br>強い。<br><br>北に最高の神様がお出でになる事になっている。<br><br>北から地球へ対して良い霊気がくる。<br><br>南は濁った霊（気）が来る。<br><br>南は物質、北は霊気である。<br><br>七は大地となる。<br><br>故に北極星は地霊が強い事になる。<br><br>磁石は霊に引付けられる。<br><br>キは霊、タは強い事。<br><br>ミは水であり女、ナは土である。<br><br>南はことごとくが体（ミ）という事。<br><br>頭寒足熱。<br><br>（S24.12.13） 019 北極星、七星 北極星、北斗七星、火星、土星等の星の神秘について御開示下さい。<br><br>またそれらの星は人類運命にどのような影響を及ぼしますか？ 北極星、七星等非常に霊気が強い。<br><br>磁石など霊気が強いため引く。<br><br> 五つの性質があるというが、これは実際であり、人類運命に非常な影響がある。<br><br>（S24. 7. 3） rattail（注） 〔 御光話（S24年 7月 3日） 『御光話録』13号、昭和24(1949)年10月21日発行〕掲載 020 天の川、将来の人口 天の川（星）と地球とはいかなる関係がありますか、御説明願います。<br><br> 天の川は星の集りで、地球と関係はある。<br><br>地球の一番人口の多いのが天の川である。<br><br>星は人になる。<br><br>今は地球にない。<br><br>未来に来る。<br><br>今に百億二百億の人口になる。<br><br>食糧はあるしシベリヤなども陽気がよくなる。<br><br>何世紀前はシベリヤなど住めなかったが、今ではあれだけ住めるようになった。<br><br>（S23.11.27） rattail（注） 〔 妙智の鍵（光明分会８月号） 、昭和24(1949)年8月1日発行〕 ――七夕と天の川について、御教えをお願い申し上げます。<br><br> 『「七夕」は作ったものです。<br><br>星を人格化することは昔からあって、天の川は星の参集で、星の世界にも、人間の多い土地と少ない土地とあるように、星の世界にもそのようなところがあります。<br><br>』 021 天の川―盆 天の川は、星が密集しているから、川の形している。<br><br> 地球なら、文化が発達して人口が密集してる。<br><br>固まっている都会にあたる場所である。<br><br>（S *. 8. 7） 022 流星について 最近山梨地方に現われました流星は、非常に明るい大きな火の玉のように見受けられ、新聞に報道せられ人々の話題にのぼりましたが、いかなる霊的意味が御座いますでしょうか。<br><br>御伺い申し上げます。<br><br> 流星の大きいのが出ると聞く。<br><br>流星は隕石の破壊である。<br><br>暗星は非常に沢山ある。<br><br>その硬化したものが光る。<br><br>硬化が極点に達すると割れる。<br><br>それが天で爆発する。<br><br> （星と人間数は同じで、運命も同じである）（S24. 2.18） rattail（注） 〔 御光話（S24年 2月18日） 『御光話録』4号、昭和24(1949)年<b>月</b>日発行〕掲載 023 流星夏多し 流星は重に夏多いと聞きますが、何の意味でしょうか。<br><br> 夏、表へ出る機会がより多いからである。<br><br>（S24. 5.13） rattail（注） 〔 御光話（S24年 5月13日） 『御光話録』10号、昭和24(1949)年7月10日発行〕掲載
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Astronomia e Geografia, Parte 2</h2>
 <h3>012. A Linhagem dos Seres Humanos e os Astros (As Características das Pessoas do Sistema Fogo-Água)</h3>
@@ -135,5 +287,48 @@ function toggleLang(lang) {
 <h3>023. A Maior Incidência de Estrelas Cadentes no Verão</h3>
 <p><strong>Pergunta:</strong> Dizem que as estrelas cadentes são mais frequentes no verão. Qual o significado disso?</p>
 <p><strong>Meishu-Sama:</strong> É porque no verão as pessoas têm mais oportunidades de estar ao ar livre para observá-las.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ２ 012-023 星 012 人間の系統と星（火水系人の特色） 六字の法名は阿弥陀で水、五字の法名は火になる。<br/><br/> 人間でも火と水、経と緯の系統があり、火の系統は小乗的だから狭く深い。<br/><br/>水の系統の人は広いが浅いのである。<br/><br/>何でも拡げっ放しにする人は、水気が多い訳である。<br/><br/> 星と人間とは同じもので、火の系統の星は五角形で赤い。<br/><br/>水の系統の星は六角形で青い。<br/><br/> 恒星が分裂してカケラが落ちる。<br/><br/>これが隕石で、金属質である。<br/><br/>星は極端に硬化すると光る。<br/><br/>または太陽の光を反射する。<br/><br/>物質においては硬いほど光る。<br/><br/>流星は恒星が分裂してそれぞれの位置へ座り、それが人間に生れる。<br/><br/>木火土金水の五星は人間においても偉い人が相応している。<br/><br/> 星は太陽と月と異っているんで、いずれも地球の人間を保護するためにあり、段々進歩し、どこまで善い世の中になるか分らぬ。<br/><br/>（S23. 6.24） 013 星の光 光星には星自体で光るものと、太陽の光を受けて光るものとあると思われますが、これから光り出すと仰せられる星には、それ自体で光るものはないと思われますが、いかがで御座いましょうか。<br/><br/> 星自体の光はない。<br/><br/>（太陽の光で）光線を受けて光るのと光らぬのとある。<br/><br/> 硬度がある程度以上になると、光を受けて反射する。<br/><br/>（ダイヤモンドなどそうである）（S23.10.19） 014 星の存在理由 星の存在理由を御教示願います。<br/><br/> 地球を守っている。<br/><br/>隕石で刀など作るが、これを隕鉄ともいう。<br/><br/> 015 星の構成物質 星の構成物質について、御垂示御願い申し上げます。<br/><br/> これは隕石で判る。<br/><br/>隕鉄といって鉄である。<br/><br/> 非常に硬度があって重いものである。<br/><br/>（S25. 2. 8） 016 最高位の星 星の主とでも申しましょうか、最も霊強く、位の高い星は何星で御座居ましょうか。<br/><br/> 天の星、日の系統の星で、火星のように光の強いものは、日の系統である。<br/><br/> 光の最も強いものである。<br/><br/>（S24.12. 3） 017 土星の環状帯 星の中で土星は特別の形状を致しておりますが、環状の帯はいかなるもので御座いましょうか。<br/><br/> 土星から発散する霊気は一番濃いから、そう見えるのだと思う。<br/><br/>（土星は土の成分が多いから）（S24. 6.22） rattail（注） 〔 無碍光（直心分会５号） 、昭和24(1949)年6月20日発行〕 〔 御開示集（天国之友） 、昭和24(1949)年9月10日発行〕掲載 018 北極星の位置と南北 北極星が常に北方に見えることは、地球との関係上どんな意味がございましょうか。<br/><br/> また北極星自体はどんなものか、御教え下さい。<br/><br/> 地球の出来たての時は真中にあったという。<br/><br/>それが、地球が二十三・五度傾斜したために、北へ行ったという。<br/><br/>七つあって七星という。<br/><br/> 北は一番霊が濃い。<br/><br/>強い。<br/><br/>北に最高の神様がお出でになる事になっている。<br/><br/>北から地球へ対して良い霊気がくる。<br/><br/>南は濁った霊（気）が来る。<br/><br/>南は物質、北は霊気である。<br/><br/>七は大地となる。<br/><br/>故に北極星は地霊が強い事になる。<br/><br/>磁石は霊に引付けられる。<br/><br/>キは霊、タは強い事。<br/><br/>ミは水であり女、ナは土である。<br/><br/>南はことごとくが体（ミ）という事。<br/><br/>頭寒足熱。<br/><br/>（S24.12.13） 019 北極星、七星 北極星、北斗七星、火星、土星等の星の神秘について御開示下さい。<br/><br/>またそれらの星は人類運命にどのような影響を及ぼしますか？ 北極星、七星等非常に霊気が強い。<br/><br/>磁石など霊気が強いため引く。<br/><br/> 五つの性質があるというが、これは実際であり、人類運命に非常な影響がある。<br/><br/>（S24. 7. 3） rattail（注） 〔 御光話（S24年 7月 3日） 『御光話録』13号、昭和24(1949)年10月21日発行〕掲載 020 天の川、将来の人口 天の川（星）と地球とはいかなる関係がありますか、御説明願います。<br/><br/> 天の川は星の集りで、地球と関係はある。<br/><br/>地球の一番人口の多いのが天の川である。<br/><br/>星は人になる。<br/><br/>今は地球にない。<br/><br/>未来に来る。<br/><br/>今に百億二百億の人口になる。<br/><br/>食糧はあるしシベリヤなども陽気がよくなる。<br/><br/>何世紀前はシベリヤなど住めなかったが、今ではあれだけ住めるようになった。<br/><br/>（S23.11.27） rattail（注） 〔 妙智の鍵（光明分会８月号） 、昭和24(1949)年8月1日発行〕 ――七夕と天の川について、御教えをお願い申し上げます。<br/><br/> 『「七夕」は作ったものです。<br/><br/>星を人格化することは昔からあって、天の川は星の参集で、星の世界にも、人間の多い土地と少ない土地とあるように、星の世界にもそのようなところがあります。<br/><br/>』 021 天の川―盆 天の川は、星が密集しているから、川の形している。<br/><br/> 地球なら、文化が発達して人口が密集してる。<br/><br/>固まっている都会にあたる場所である。<br/><br/>（S *. 8. 7） 022 流星について 最近山梨地方に現われました流星は、非常に明るい大きな火の玉のように見受けられ、新聞に報道せられ人々の話題にのぼりましたが、いかなる霊的意味が御座いますでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 流星の大きいのが出ると聞く。<br/><br/>流星は隕石の破壊である。<br/><br/>暗星は非常に沢山ある。<br/><br/>その硬化したものが光る。<br/><br/>硬化が極点に達すると割れる。<br/><br/>それが天で爆発する。<br/><br/> （星と人間数は同じで、運命も同じである）（S24. 2.18） rattail（注） 〔 御光話（S24年 2月18日） 『御光話録』4号、昭和24(1949)年**月**日発行〕掲載 023 流星夏多し 流星は重に夏多いと聞きますが、何の意味でしょうか。<br/><br/> 夏、表へ出る機会がより多いからである。<br/><br/>（S24. 5.13） rattail（注） 〔 御光話（S24年 5月13日） 『御光話録』10号、昭和24(1949)年7月10日発行〕掲載</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

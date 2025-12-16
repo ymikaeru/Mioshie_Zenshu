@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku21</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と本療法との比較 『栄光』97号、昭和26(1951)年3月28日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 左記の一文は、元看護婦をしていた者が、医学的経験の目を通しつつ、批判的にかいたものであるから、非常に参考になると思う、これを読んで、医療がいかに病気の実体に触れていないという錯誤も判るであろうし、それと共に本教浄霊がいかに絶大なる救いであるかという事が判るであろう。<br><br> 御浄霊の偉力に讃歎医学絶対信奉者の私 愛知県 神光中教会（元看護婦）山田富江（42） 私は現在酒類調味食品販売業者の妻でございますが、数奇な運命のもとに独学で昭和三年に、看護婦学校を卒業いたしましてより、十五年間病人の看護にあたっていたものでございます。<br><br>その間東京女子医専附属病院、名古屋医大病院に、又エナラジウムの某会社の社員としてラジウム鉱砂の販売もし、時には二万人程いる紡績工場の医務室に責任者として勤務致して参りました。<br><br> 医は仁術なりと信じ、医学こそ人類救済の尊い聖業と思い、病人の看護に心を砕き、この職務に倒れるも悔なしと思う程、白衣着る身を誇りに存じておりました。<br><br>為に三十三歳まで独身で過し、医学に就いては多少の覚えがありましたので、結婚してからも、近所に病人があると何かと注意してあげたり、頼まれれば手軽な手当もしてあげておりました。<br><br>それが救世教で、どんな難病でも効果があると承り、早速興味を持ち入信させて頂きました。<br><br> 入信早々先ず試しに凍傷、湿疹、フルンケル、水虫、扁桃腺を一日に一回御浄霊をさせて頂きましたら、三日で綺麗に治りましたので、これは大変な御力と打驚きました。<br><br>最近も丹毒の患者で、初めは左足膝関節の二糎ばかり下部に、小さな（ニキビ程）湿疹が出来て、それがズキズキ痛むから医者に行き、十文字に切りはねて頂いたら、それへ黴菌が入り、急に左足首の上より大腿部まで紫色に腫れ上り、熱は四十度三分にもあがり、頭と足に氷嚢を当ててうなっておりました。<br><br>ペテンリンを注射して頂いたが、後四本うたなければならぬとの事、生活に追われていて金はなし、先回も脳膜炎で医師が治らないと言われたのを、私が三度浄霊をしてあげただけで見えなくなったから、私もどうしたのかと思っておりましたら「あの時はあれっきり治りましたから、もう一度助けて下さい」と言いますので、早速浄霊をさして頂きましたら、頭のしびれた様に重く痛むのと、胸の苦しいのが鎮まり、丹毒の悪い患部の所を浄霊いたしましたら、浄霊した部分から熱が冷めてゆき、順次足首まで浄霊し終りましたら、今までパンパンに腫れ上り、足は伸びたままにて屈折が出来なかったのが腫れが引き、足が曲る様になってくるではございませんか。<br><br>氷嚢の必要はなく翌朝便所に歩いて行けまして、三日目には紫色は完全になくなり最初医師が切開しました口が開いているにも拘らず、そこには薬がついている為、そこから膿が出ず直ぐ横より膿が出まして、五日にて全治致しましたのには本人はもとより、私も嬉しくてたまりませんでした。<br><br>医者の治療ですと解毒剤解熱剤だと言って注射をし、表面には油薬、冷薬、かぶれ止薬等を施しますけれども、解毒、解熱の薬は胃腸障害を起します為、高熱で全身の弛緩が来ているところへ、医療としてはとにかく熱と毒を下さなくてはならず、胃腸障害を承知で注射をする故、体が衰弱し恢復が後れます。<br><br>浄霊におきましては毒素は溶解されて、どんどん体外へ排出されてゆきますので、胃腸障害もなく、体力が衰えぬから恢復が早いのです。<br><br> 私の子供に生後一年八カ月になる女の子がございますが、最近疫痢の様な症状になりました。<br><br>粘血便が日に十回も出まして腹部は弾力なくなり、グッタリとしてしまいました。<br><br>入信前の私でしたら、それ浣腸よ、下剤よと随分大騒ぎするところでございましょうが、人に施す前に先ず我が子を試験台にと思いまして先ず頭部をよく浄霊をし、腹部の毒素が下ります様に念じながら、下腹部を浄霊いたしますと、浄霊をした個所から順次腹に弾力が出来、粘血便が浣腸や下剤をかけましたより多量に排出されました。<br><br>次回から便量が少くなり八、九回目位にはオシメに参む程度になり、二日目には泥状便に粘液が幾分まじっているかなと思われる様になりました。<br><br>早速腹部の力を見てみますと、今までブヨブヨしていた力のないクタクタの腹が力が出て参りました。<br><br>まず命だけは取止める事が出来ますかと思い、有難くてたまりません。<br><br>粘液が出ず泥状便の中に鮮血が少し出て参りましたので、腹を撫でてみますと、力がない個所が一カ所ございましたから、そこをよく浄霊してみましたら、直ぐ腹に力が出て便に異常がなくなりました。<br><br>食欲も普通より少し不振程度で全治致しました。<br><br>それもそのはずです。<br><br>御浄霊に依りまして、悪い腸壁のものは排出されて行きますし、食べたものは吸収されますので衰弱する事なく恢復いたします。<br><br> 医学ですとこの場合、浣腸と下剤をかけますから、粘血便は腸壁が腐りただれて血が下るのです。<br><br>その毒素を下さなくてはなりませんから、いやが上にも浣腸、下剤をかけますから、食物も吸収する事なく衰弱し、死に至ります。<br><br>現在の経済状態において、その日の生活を支えるのに窮々としている者にとっては医療を受ける金銭的余裕はなく、死の床で喘いでいる者も多数ある事と想像されます。<br><br> こうした時、御浄霊に依って難病がいとも簡単に解決されると致しましたら、人類にとってどれ程大きな福音でございましょう。<br><br> それに我々の体も神様より賜わった尊い体としたら劇薬を用いたり、メスや注射をするという事がどれ程大きな罪悪になりましょう。<br><br> 私は医学の絶対の信奉者でございましたが、今はこの御浄霊の尊さを分らせて頂き、大光明如来様もお迎えして一心にお縋り申しております。<br><br> 世の識者の方達に、側面より非難攻撃せらるる前に、先ずこの神霊研究を試みられて後、御批判あらん事を念願いたします。<br><br> （昭和二十六年二月二十六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Comparação entre a Medicina e a Terapia Messiânica</h2>
 <p>O texto a seguir, de autoria de uma ex-enfermeira, foi redigido sob uma ótica crítica, alicerçada em sua vivência no campo da medicina. Por essa razão, considero-o de grande valia como referência. Sua leitura elucidará não apenas o equívoco da prática médica, que falha em alcançar a verdadeira natureza das enfermidades, mas também revelará a magnitude da salvação proporcionada pelo Johrei de nossa Igreja.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Eu, que fui uma defensora incondicional da medicina, hoje compreendo a preciosidade do Johrei. Tendo recebido a sagrada imagem de Daikomyō Nyorai (大光明如来), a Ele me apego de todo o coração.</p>
 <p>Aos homens de saber deste mundo, rogo que, antes de nos atacarem com críticas veladas, se permitam primeiramente experimentar esta pesquisa do espírito. Somente depois, que apresentem suas críticas.</p>
 <p>(26 de fevereiro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と本療法との比較 『栄光』97号、昭和26(1951)年3月28日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 左記の一文は、元看護婦をしていた者が、医学的経験の目を通しつつ、批判的にかいたものであるから、非常に参考になると思う、これを読んで、医療がいかに病気の実体に触れていないという錯誤も判るであろうし、それと共に本教浄霊がいかに絶大なる救いであるかという事が判るであろう。<br/><br/> 御浄霊の偉力に讃歎医学絶対信奉者の私 愛知県 神光中教会（元看護婦）山田富江（42） 私は現在酒類調味食品販売業者の妻でございますが、数奇な運命のもとに独学で昭和三年に、看護婦学校を卒業いたしましてより、十五年間病人の看護にあたっていたものでございます。<br/><br/>その間東京女子医専附属病院、名古屋医大病院に、又エナラジウムの某会社の社員としてラジウム鉱砂の販売もし、時には二万人程いる紡績工場の医務室に責任者として勤務致して参りました。<br/><br/> 医は仁術なりと信じ、医学こそ人類救済の尊い聖業と思い、病人の看護に心を砕き、この職務に倒れるも悔なしと思う程、白衣着る身を誇りに存じておりました。<br/><br/>為に三十三歳まで独身で過し、医学に就いては多少の覚えがありましたので、結婚してからも、近所に病人があると何かと注意してあげたり、頼まれれば手軽な手当もしてあげておりました。<br/><br/>それが救世教で、どんな難病でも効果があると承り、早速興味を持ち入信させて頂きました。<br/><br/> 入信早々先ず試しに凍傷、湿疹、フルンケル、水虫、扁桃腺を一日に一回御浄霊をさせて頂きましたら、三日で綺麗に治りましたので、これは大変な御力と打驚きました。<br/><br/>最近も丹毒の患者で、初めは左足膝関節の二糎ばかり下部に、小さな（ニキビ程）湿疹が出来て、それがズキズキ痛むから医者に行き、十文字に切りはねて頂いたら、それへ黴菌が入り、急に左足首の上より大腿部まで紫色に腫れ上り、熱は四十度三分にもあがり、頭と足に氷嚢を当ててうなっておりました。<br/><br/>ペテンリンを注射して頂いたが、後四本うたなければならぬとの事、生活に追われていて金はなし、先回も脳膜炎で医師が治らないと言われたのを、私が三度浄霊をしてあげただけで見えなくなったから、私もどうしたのかと思っておりましたら「あの時はあれっきり治りましたから、もう一度助けて下さい」と言いますので、早速浄霊をさして頂きましたら、頭のしびれた様に重く痛むのと、胸の苦しいのが鎮まり、丹毒の悪い患部の所を浄霊いたしましたら、浄霊した部分から熱が冷めてゆき、順次足首まで浄霊し終りましたら、今までパンパンに腫れ上り、足は伸びたままにて屈折が出来なかったのが腫れが引き、足が曲る様になってくるではございませんか。<br/><br/>氷嚢の必要はなく翌朝便所に歩いて行けまして、三日目には紫色は完全になくなり最初医師が切開しました口が開いているにも拘らず、そこには薬がついている為、そこから膿が出ず直ぐ横より膿が出まして、五日にて全治致しましたのには本人はもとより、私も嬉しくてたまりませんでした。<br/><br/>医者の治療ですと解毒剤解熱剤だと言って注射をし、表面には油薬、冷薬、かぶれ止薬等を施しますけれども、解毒、解熱の薬は胃腸障害を起します為、高熱で全身の弛緩が来ているところへ、医療としてはとにかく熱と毒を下さなくてはならず、胃腸障害を承知で注射をする故、体が衰弱し恢復が後れます。<br/><br/>浄霊におきましては毒素は溶解されて、どんどん体外へ排出されてゆきますので、胃腸障害もなく、体力が衰えぬから恢復が早いのです。<br/><br/> 私の子供に生後一年八カ月になる女の子がございますが、最近疫痢の様な症状になりました。<br/><br/>粘血便が日に十回も出まして腹部は弾力なくなり、グッタリとしてしまいました。<br/><br/>入信前の私でしたら、それ浣腸よ、下剤よと随分大騒ぎするところでございましょうが、人に施す前に先ず我が子を試験台にと思いまして先ず頭部をよく浄霊をし、腹部の毒素が下ります様に念じながら、下腹部を浄霊いたしますと、浄霊をした個所から順次腹に弾力が出来、粘血便が浣腸や下剤をかけましたより多量に排出されました。<br/><br/>次回から便量が少くなり八、九回目位にはオシメに参む程度になり、二日目には泥状便に粘液が幾分まじっているかなと思われる様になりました。<br/><br/>早速腹部の力を見てみますと、今までブヨブヨしていた力のないクタクタの腹が力が出て参りました。<br/><br/>まず命だけは取止める事が出来ますかと思い、有難くてたまりません。<br/><br/>粘液が出ず泥状便の中に鮮血が少し出て参りましたので、腹を撫でてみますと、力がない個所が一カ所ございましたから、そこをよく浄霊してみましたら、直ぐ腹に力が出て便に異常がなくなりました。<br/><br/>食欲も普通より少し不振程度で全治致しました。<br/><br/>それもそのはずです。<br/><br/>御浄霊に依りまして、悪い腸壁のものは排出されて行きますし、食べたものは吸収されますので衰弱する事なく恢復いたします。<br/><br/> 医学ですとこの場合、浣腸と下剤をかけますから、粘血便は腸壁が腐りただれて血が下るのです。<br/><br/>その毒素を下さなくてはなりませんから、いやが上にも浣腸、下剤をかけますから、食物も吸収する事なく衰弱し、死に至ります。<br/><br/>現在の経済状態において、その日の生活を支えるのに窮々としている者にとっては医療を受ける金銭的余裕はなく、死の床で喘いでいる者も多数ある事と想像されます。<br/><br/> こうした時、御浄霊に依って難病がいとも簡単に解決されると致しましたら、人類にとってどれ程大きな福音でございましょう。<br/><br/> それに我々の体も神様より賜わった尊い体としたら劇薬を用いたり、メスや注射をするという事がどれ程大きな罪悪になりましょう。<br/><br/> 私は医学の絶対の信奉者でございましたが、今はこの御浄霊の尊さを分らせて頂き、大光明如来様もお迎えして一心にお縋り申しております。<br/><br/> 世の識者の方達に、側面より非難攻撃せらるる前に、先ずこの神霊研究を試みられて後、御批判あらん事を念願いたします。<br/><br/> （昭和二十六年二月二十六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qbannin</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 萬人に一人の病 ――リチャード氏病がなほる―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 岐阜県 日本五六七教専信会 浅野五一 私は昭和十二年十月頃より腰痛により苦しみおり、医師よりは神経痛だと診断され、半年間注射療法を受けましたが、腰痛は取れず苦しみは増すばかりでした。<br><br>諦めて医療をやめ、自然にまかせましたら少し楽になりました。<br><br> 昭和十四年七月召集され北支に出征致しましたが、腰痛のためやはり注射療法を受け、一人前の勤めも出来ず、一年間を過ごしました。<br><br> 召集が解除され、帰郷しても一カ年間は十分なる家事の働きも出来ず、その後再度応召し半月程の猛訓練により再発しました。<br><br>診断の結果神経痛ではなく「リチャード氏病」と診断、入院を命ぜられました。<br><br>名古屋練兵場分院に二カ月入院しましたが、薬としてはアスピリン、胃健散を服用しました。<br><br> しかし腰痛は忘れる事が出来ず、そのまま退院召集解除になりましたが労働は出来ず、誠に困りましてあちらこちらの医師に診断を受けましたが、根治する法はないとの事、千人に一人か万人に一人と言うような病名であって、徴用で二度までも出頭させられましたが、「リチャード氏病」なる既往疾患のため不合格となり、又軍の召集も健康調査の結果、やはり既往疾患により不合格にて自分自身死の宣告を受けたる心地でした。<br><br> それが昭和二十一年七月ふと有難き観音様の大慈の御手に救われました。<br><br>現在専信会会長川端広重先生がその当時より大垣市中において布教されておりましたが、手を振ることにより病貧争の解決が出来ると承わり、私は非常に反駁いたしましたが、まず先生に言われるままに、浄霊を受け、また入信致し、他人の浄霊も致しましたところ非常に喜ばれました。<br><br> 入信後医者に「手おくれにて手術不可能」と言われた盲腸炎患者を浄霊いたしましたが、僅かの時間で楽々と治療致して非常に喜ばれました。<br><br>これは人間業ではないとつくづく感じさせられました。<br><br> その後引続き浄霊に従事させて頂き、渡辺先生、川端先生のあたたかき御指導のもとに今日に至り、以前よりの私の腰痛も、いつどうなったのかすっかり忘れる事が出来まして、朗らかな明るい光明の生活に恵まれるようになりました。<br><br>これもひたすら観音様の大慈大悲と、ただただ有難く感涙に咽ぶのみです。<br><br> 今過去をふりかえりみますれば、医薬にて解決のつかなかった、「リチャード氏病」が観音様より与えられたる試練であったのでしょう。<br><br>ただただ感謝の念の湧くのみです。<br><br> 大先生の御教に「善人とは、見えざるものを信ずる人、悪人とは、見えざるものを信ぜざる人」と説かれてありますように、見えざるものを信じさせて頂くにより、今日この私の喜びは、筆や口にて到底表わすことも出来ず、家族も非常に喜ぶようになりました。<br><br> この尊い御用をさせて頂くことは、世の人々に一人でも多く、人類救済の業を悟って頂きたいことに外ならないからです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma doença raríssima — A cura da Doença de Richard —</h2>
 <p>Goichi Asano
@@ -102,5 +257,48 @@ Associação de Fiéis da Nihon Miroku Kyo, Província de Gifu
 <p>Ao refletir sobre o passado, compreendo que a “Doença de Richard”, que a medicina não pôde solucionar, deve ter sido uma provação que me foi concedida por Kannon (観音). Por isso, apenas um imenso sentimento de gratidão brota em meu coração.</p>
 <p>Conforme nos é ensinado pelo Grande Mestre: “O virtuoso é aquele que crê no invisível; o malévolo é aquele que não crê no invisível”. Por ter recebido a graça de crer no invisível, a alegria que sinto hoje é impossível de ser adequadamente expressa por meio da escrita ou da fala, e minha família também partilha dessa imensa felicidade.</p>
 <p>A razão pela qual me dedico a este nobre Servir Divino não é outra senão o desejo de que o maior número possível de pessoas possa despertar para a grandiosidade da Obra de Salvação da Humanidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 萬人に一人の病 ――リチャード氏病がなほる―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 岐阜県 日本五六七教専信会 浅野五一 私は昭和十二年十月頃より腰痛により苦しみおり、医師よりは神経痛だと診断され、半年間注射療法を受けましたが、腰痛は取れず苦しみは増すばかりでした。<br/><br/>諦めて医療をやめ、自然にまかせましたら少し楽になりました。<br/><br/> 昭和十四年七月召集され北支に出征致しましたが、腰痛のためやはり注射療法を受け、一人前の勤めも出来ず、一年間を過ごしました。<br/><br/> 召集が解除され、帰郷しても一カ年間は十分なる家事の働きも出来ず、その後再度応召し半月程の猛訓練により再発しました。<br/><br/>診断の結果神経痛ではなく「リチャード氏病」と診断、入院を命ぜられました。<br/><br/>名古屋練兵場分院に二カ月入院しましたが、薬としてはアスピリン、胃健散を服用しました。<br/><br/> しかし腰痛は忘れる事が出来ず、そのまま退院召集解除になりましたが労働は出来ず、誠に困りましてあちらこちらの医師に診断を受けましたが、根治する法はないとの事、千人に一人か万人に一人と言うような病名であって、徴用で二度までも出頭させられましたが、「リチャード氏病」なる既往疾患のため不合格となり、又軍の召集も健康調査の結果、やはり既往疾患により不合格にて自分自身死の宣告を受けたる心地でした。<br/><br/> それが昭和二十一年七月ふと有難き観音様の大慈の御手に救われました。<br/><br/>現在専信会会長川端広重先生がその当時より大垣市中において布教されておりましたが、手を振ることにより病貧争の解決が出来ると承わり、私は非常に反駁いたしましたが、まず先生に言われるままに、浄霊を受け、また入信致し、他人の浄霊も致しましたところ非常に喜ばれました。<br/><br/> 入信後医者に「手おくれにて手術不可能」と言われた盲腸炎患者を浄霊いたしましたが、僅かの時間で楽々と治療致して非常に喜ばれました。<br/><br/>これは人間業ではないとつくづく感じさせられました。<br/><br/> その後引続き浄霊に従事させて頂き、渡辺先生、川端先生のあたたかき御指導のもとに今日に至り、以前よりの私の腰痛も、いつどうなったのかすっかり忘れる事が出来まして、朗らかな明るい光明の生活に恵まれるようになりました。<br/><br/>これもひたすら観音様の大慈大悲と、ただただ有難く感涙に咽ぶのみです。<br/><br/> 今過去をふりかえりみますれば、医薬にて解決のつかなかった、「リチャード氏病」が観音様より与えられたる試練であったのでしょう。<br/><br/>ただただ感謝の念の湧くのみです。<br/><br/> 大先生の御教に「善人とは、見えざるものを信ずる人、悪人とは、見えざるものを信ぜざる人」と説かれてありますように、見えざるものを信じさせて頂くにより、今日この私の喜びは、筆や口にて到底表わすことも出来ず、家族も非常に喜ぶようになりました。<br/><br/> この尊い御用をさせて頂くことは、世の人々に一人でも多く、人類救済の業を悟って頂きたいことに外ならないからです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

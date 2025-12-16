@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syujut04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術について 『アメリカを救う』P.12、昭和28(1953)年1月1日発行 日本もそうだが特にアメリカにおいては、近来手術の進歩を誇称し、大いに励行しているが、これは大変な誤りである。<br><br>というのは手術の進歩とは、医術の進歩ではなくむしろ退歩であるからである。<br><br>何となれば真の医術とは、病に冒されている臓器その物を除去するのではなく、臓器はそのままにしておいて、病だけを除去するのが本当であるからである。<br><br>しかもそのため肉を切り、出血をさせ、非常な痛苦を与えるのみか、内部的不具者にするのであるから、医術どころか非医術であるにかかわらず、これを進歩した方法と信じているのであるから、その無智なるいうべき言葉はないのである。<br><br> しかも人間は、身体の一部といえども毀損（きそん）する以上、その影響のないはずはない。<br><br>例えば盲腸炎にしても、膿だけ除（と）るのならいいが、医療はそれが不可能なため、虫様突起（ちゅうようとっき）までも共に切除してしまうのであるから、野蛮極るというべきである。<br><br>何となれば造物主は人体に不必要なものは一つも造ってないはずである。<br><br>これについてよく医家は盲腸は不必要だとか、腎臓は両方なくても差支えないなどというが、これは全くその必要性が不明であるからで、いかに今日の医学が幼稚であると共に、一面神への冒涜（ぼうとく）でもある。<br><br>何となればそんな理屈をいう医学者自身も神から造られたものではないか。<br><br>何よりも盲腸手術後一時は健康になったようでも暫くすると他の病気が必ず起る。<br><br>というのは元来盲腸の役目は下半身の毒素排除の機関であるからである。<br><br>今それを詳しくかいてみるが、初め毒素は背面右側腎臓部に集溜固結し、少しずつ溶けて盲腸部に移行し固結する。<br><br>それがある程度に達するや浄化が起って発熱し溶解される。<br><br>その苦痛が盲腸炎であるから、その際右の腎臓部を見れば必ず固結があり、圧（お）すと痛むからよく分る。<br><br>そこを浄霊するやたちまち盲腸の痛みは去り、間もなく下痢があって治るのである。<br><br> この理によって盲腸炎発病するや、なんら治療もせず、寝ているだけで三、四日ないし一週間も経てば必ず全治し、生命の危険などいささかもないのである。<br><br>ところが医師は手遅れになると生命の危険ありとし、手術を奨めるが、吾々からみればその盲点に呆れるばかりである。<br><br>右のごとく毒素排除の役目である盲腸がなくなるとすれば、そこへ集溜せんとする毒素は、止むなく腹膜や腎臓部に溜る事となり、それが原因となって、反って盲腸炎よりも始末の悪い病気が起るし、なおまた手術の際の消毒薬が膿化し排除されようとし、種々の病を起す事がある。<br><br>それは悪性歯痛、中耳炎、結膜炎、顔面の腫物等である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Falácia da Cirurgia Moderna</h2>
 <p>Embora seja um fenômeno observado também no Japão, é nos Estados Unidos, em particular, que se exalta com grande alarde o avanço recente dos procedimentos cirúrgicos. Contudo, tal prática constitui um erro gravíssimo. A razão é que o suposto progresso da cirurgia representa, na verdade, não uma evolução, mas sim um retrocesso da arte médica. Afinal, a autêntica arte de curar consiste em eliminar unicamente a enfermidade, preservando intacto o órgão por ela acometido.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A prova mais contundente disso é que, após a cirurgia de apêndice, embora o paciente pareça ter recuperado a saúde por um tempo, invariavelmente, outras doenças surgem mais tarde. Isso ocorre porque a função primordial do apêndice é atuar como um órgão de eliminação das toxinas da parte inferior do corpo. Para elucidar este mecanismo, descrevo-o a seguir: primeiramente, as toxinas se acumulam e se solidificam na região do rim direito, na parte posterior do corpo. Paulatinamente, elas se dissolvem e migram para o apêndice, onde novamente se solidificam. Quando esse acúmulo atinge um certo nível, inicia-se um processo de purificação que gera febre e promove a dissolução das toxinas. A dor intensa que se manifesta nesse processo é, precisamente, a apendicite. Por essa razão, durante uma crise, ao se examinar a região do rim direito, notar-se-á, invariavelmente, uma área endurecida e dolorosa à pressão. Ao se ministrar Johrei nesse local, a dor no apêndice cessa de imediato, e, em pouco tempo, sobrevém uma diarreia, seguida da cura completa.</p>
 <p>Seguindo essa lógica, quando a apendicite se manifesta, não há necessidade de qualquer tratamento. Basta que o paciente permaneça em repouso por um período de três a quatro dias, ou até uma semana, para que a cura completa ocorra, sem o menor risco de vida. Os médicos, todavia, recomendam a cirurgia, alegando que a demora pode ser fatal. De nossa perspectiva, contudo, não podemos deixar de nos espantar com tamanha cegueira.</p>
 <p>Uma vez que o apêndice, responsável pela eliminação de toxinas, é removido, estas, sem ter para onde ir, são forçadas a se acumular no peritônio ou na região dos rins. Isso se torna a causa de enfermidades ainda mais complexas de se tratar do que a própria apendicite. Além disso, os antissépticos utilizados durante a cirurgia podem se transformar em pus e, na tentativa de serem expelidos pelo organismo, dão origem a uma série de outras moléstias. Entre elas, podemos citar dores de dente malignas, otite média, conjuntivite e tumefações na face.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術について 『アメリカを救う』P.12、昭和28(1953)年1月1日発行 日本もそうだが特にアメリカにおいては、近来手術の進歩を誇称し、大いに励行しているが、これは大変な誤りである。<br/><br/>というのは手術の進歩とは、医術の進歩ではなくむしろ退歩であるからである。<br/><br/>何となれば真の医術とは、病に冒されている臓器その物を除去するのではなく、臓器はそのままにしておいて、病だけを除去するのが本当であるからである。<br/><br/>しかもそのため肉を切り、出血をさせ、非常な痛苦を与えるのみか、内部的不具者にするのであるから、医術どころか非医術であるにかかわらず、これを進歩した方法と信じているのであるから、その無智なるいうべき言葉はないのである。<br/><br/> しかも人間は、身体の一部といえども毀損（きそん）する以上、その影響のないはずはない。<br/><br/>例えば盲腸炎にしても、膿だけ除（と）るのならいいが、医療はそれが不可能なため、虫様突起（ちゅうようとっき）までも共に切除してしまうのであるから、野蛮極るというべきである。<br/><br/>何となれば造物主は人体に不必要なものは一つも造ってないはずである。<br/><br/>これについてよく医家は盲腸は不必要だとか、腎臓は両方なくても差支えないなどというが、これは全くその必要性が不明であるからで、いかに今日の医学が幼稚であると共に、一面神への冒涜（ぼうとく）でもある。<br/><br/>何となればそんな理屈をいう医学者自身も神から造られたものではないか。<br/><br/>何よりも盲腸手術後一時は健康になったようでも暫くすると他の病気が必ず起る。<br/><br/>というのは元来盲腸の役目は下半身の毒素排除の機関であるからである。<br/><br/>今それを詳しくかいてみるが、初め毒素は背面右側腎臓部に集溜固結し、少しずつ溶けて盲腸部に移行し固結する。<br/><br/>それがある程度に達するや浄化が起って発熱し溶解される。<br/><br/>その苦痛が盲腸炎であるから、その際右の腎臓部を見れば必ず固結があり、圧（お）すと痛むからよく分る。<br/><br/>そこを浄霊するやたちまち盲腸の痛みは去り、間もなく下痢があって治るのである。<br/><br/> この理によって盲腸炎発病するや、なんら治療もせず、寝ているだけで三、四日ないし一週間も経てば必ず全治し、生命の危険などいささかもないのである。<br/><br/>ところが医師は手遅れになると生命の危険ありとし、手術を奨めるが、吾々からみればその盲点に呆れるばかりである。<br/><br/>右のごとく毒素排除の役目である盲腸がなくなるとすれば、そこへ集溜せんとする毒素は、止むなく腹膜や腎臓部に溜る事となり、それが原因となって、反って盲腸炎よりも始末の悪い病気が起るし、なおまた手術の際の消毒薬が膿化し排除されようとし、種々の病を起す事がある。<br/><br/>それは悪性歯痛、中耳炎、結膜炎、顔面の腫物等である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

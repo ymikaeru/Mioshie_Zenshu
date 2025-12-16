@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>garasu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 硝子製造人 未発表、昭和28(1953)年8月25日執筆 世間我救世教をもって、他の新興宗教と同様のレベルに見てる人がそのほとんどであろうし、少しましな人の解釈でもこんなところかも知れない。<br><br>新宗教の中でも救世教は、多少レベルを抜いているようだ。<br><br>何しろ僅（わず）かの間にともかくあれだけの地位を獲得したのであるから、どこか違ったところがあるに違いあるまい。<br><br>もちろん終戦後の社会混乱に乗じて、巧みに人心を捉えた教祖独特の手腕は、買ってもいいだろうくらいに見ている事は、私にも大体分るような気がする。<br><br>中には『アメリカを救う』とか、『結核信仰療法』など、社会をアッと言わせるような題名の著書を出した宣伝政策など、医学の医の字も知らない癖に、随分思い切った事をするものだ、というようにその方の怪物視しているらしい。<br><br>従ってこの医学が進歩した時代によくも思い切った非科学的な説を堂々と唱えるなどは、はなはだ怪しからんと癪（しゃく）に障（さわ）る人や、鼻の先で嗤（わら）う人もあるであろう。<br><br>これらが私という者の見方であろうが、この見方の見方をここにかいたのである。<br><br> これについて私は、今思うままをかいてみるが、右の見方は決して無理とは思わない。<br><br>仮に私が普通社会人としたら、ヤハリ同様の見方をするかも知れないからである。<br><br>そうしてブチマケていえば、まず私なるものの正体は、ちょっとやそっとでは分るはずがない。<br><br>本当に分る人はまず世界に一人もないといっていい。<br><br>恐らく人類史上私のような人間は未（いま）だ嘗（かつ）て生まれた事がないからである。<br><br>ゆえに私こそ謎の人間と思っている。<br><br>しかし自分から謎というのは可笑（おか）しな話だが、それが一番ピッタリしているように思う。<br><br>今までにも私の事をかいたり、噂をする人の言を綜合（そうごう）してみても、全然見当違いで、微笑（ほほえ）まずにはいれないのである。<br><br> ここで私は偉い人達の御気に障（さわ）るか知れないが、右の謎の意味を最も分り易いたとえをもってかいてみよう。<br><br>それは現在のどんなに偉い学者、政治家、宗教家でも、ジャーナリストでも、硝子（ガラス）製造人と私は思っている。<br><br>というのは今日までの世界は硝子で作ったダイヤモンド、すなわちイミテーションを有難がり、満足していたからである。<br><br>そこへ最近御膝元の日本に本当のダイヤモンドが生まれたのであるから、本物を見た事のないイミテーションに馴れた目には、サッパリ見別けがつかない。<br><br>何しろ数千年もの昔から、本物を知らない人間は、ダイヤモンドとは硝子で作るものとしか思っていなかったので、そこへ私はこれが本物だと説明するんだから、疑いが先に立ってどうしても信ずる事が出来ないのである。<br><br>しかし中には親しく手に取上げてみる人もあって、硬度といい、光沢といい、今まで見た事もない素晴しさなので、なるほど本物は異（ちが）うという事がよく分り、欣喜雀躍（きんきじゃくやく）有難涙で分けて頂き、珍重愛玩（ちんちょうあいがん）措（お）く能（あた）わざる事になる。<br><br> という次第で、いずれは誰にも知れ渡る時が来るに違いないから、その時になって吃驚仰天（びっくりぎょうてん）、これは一大事と急に随喜（ずいき）の涙を零（こぼ）して、世界中から続々頂戴に来る事になろう。<br><br>その様が眼に見えるようだ。<br><br>ここに到って長い間の硝子時代が終りを告げ、いよいよ天然ダイヤモンド時代に移るという事になる。<br><br>以上のごとくで私は現在どれ程偉い人をみても、硝子製造人としか思えないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Fabricantes de Vidro</h2>
 <p>É provável que a maioria das pessoas enxergue nossa Sekaikyuseikyou no mesmo patamar de outras novas religiões. Mesmo aqueles com uma compreensão um pouco mais apurada talvez não passem disso, concluindo apenas que, dentre elas, a nossa parece destacar-se um pouco. Afinal, argumentam, por ter alcançado tal proeminência em tão pouco tempo, é forçoso que haja nela algo de singular. Naturalmente, compreendo que muitos atribuam esse sucesso à habilidade peculiar do Fundador em cativar os corações em meio ao caos social do pós-guerra, um talento que, em sua visão, merece algum crédito.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Sobre este assunto, escreverei o que me vem à mente, mas não considero, de modo algum, que as visões expostas acima sejam descabidas. Se eu mesmo fosse um cidadão comum, é provável que partilhasse de uma perspectiva semelhante. E, para ser franco, minha verdadeira natureza não pode ser compreendida com facilidade. Arrisco dizer que não há no mundo uma única pessoa que a compreenda verdadeiramente, e isso se deve, provavelmente, ao fato de que jamais nasceu na história da humanidade alguém como eu. Por essa razão, considero-me um enigma humano. Pode parecer estranho que eu mesmo me defina assim, mas creio ser a descrição que melhor se ajusta. De fato, ao analisar tudo o que já foi escrito ou comentado a meu respeito, constato que são avaliações tão distantes da realidade que não posso deixar de sorrir.</p>
 <p>Neste ponto, ainda que eu corra o risco de ofender pessoas ilustres, gostaria de explicar o significado desse enigma por meio de uma analogia de fácil compreensão. Para mim, por mais eminentes que sejam os atuais eruditos, políticos, líderes religiosos ou jornalistas, todos eles são fabricantes de vidro. A razão é que o mundo, até hoje, contentou-se em venerar diamantes feitos de vidro, ou seja, imitações. Ocorre que, recentemente, nasceu aqui mesmo no Japão um diamante verdadeiro. Para os olhos acostumados às imitações, que jamais contemplaram o original, é simplesmente impossível distingui-los. Afinal, por milênios, os seres humanos, desconhecendo o autêntico, acreditaram que diamantes eram feitos de vidro. Quando, então, eu surjo para explicar que “este é o verdadeiro”, a dúvida se impõe, e as pessoas são incapazes de crer. Contudo, há aqueles que o tomam nas mãos para examiná-lo de perto. Observam sua dureza, seu brilho, um esplendor jamais visto, e compreendem com clareza: “Ah, o original é realmente diferente!”. Exultantes e com lágrimas de gratidão, recebem sua parte e passam a entesourá-la e a admirá-la, tornando-se incapazes de se apartar dela.</p>
 <p>Dessa forma, é certo que chegará o tempo em que todos tomarão conhecimento da verdade. Nesse momento, ficarão absolutamente atônitos e, percebendo a magnitude do evento, derramarão súbitas lágrimas de júbilo e fé, vindo de todas as partes do mundo, em sucessão, para recebê-lo. Consigo visualizar essa cena como se estivesse diante de meus olhos. Será então que a longa “Era do Vidro” chegará ao fim, e adentraremos, finalmente, a “Era do Diamante Natural”. Pelas razões expostas, por mais ilustre que seja uma pessoa na atualidade, não consigo vê-la senão como um fabricante de vidro.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 硝子製造人 未発表、昭和28(1953)年8月25日執筆 世間我救世教をもって、他の新興宗教と同様のレベルに見てる人がそのほとんどであろうし、少しましな人の解釈でもこんなところかも知れない。<br/><br/>新宗教の中でも救世教は、多少レベルを抜いているようだ。<br/><br/>何しろ僅（わず）かの間にともかくあれだけの地位を獲得したのであるから、どこか違ったところがあるに違いあるまい。<br/><br/>もちろん終戦後の社会混乱に乗じて、巧みに人心を捉えた教祖独特の手腕は、買ってもいいだろうくらいに見ている事は、私にも大体分るような気がする。<br/><br/>中には『アメリカを救う』とか、『結核信仰療法』など、社会をアッと言わせるような題名の著書を出した宣伝政策など、医学の医の字も知らない癖に、随分思い切った事をするものだ、というようにその方の怪物視しているらしい。<br/><br/>従ってこの医学が進歩した時代によくも思い切った非科学的な説を堂々と唱えるなどは、はなはだ怪しからんと癪（しゃく）に障（さわ）る人や、鼻の先で嗤（わら）う人もあるであろう。<br/><br/>これらが私という者の見方であろうが、この見方の見方をここにかいたのである。<br/><br/> これについて私は、今思うままをかいてみるが、右の見方は決して無理とは思わない。<br/><br/>仮に私が普通社会人としたら、ヤハリ同様の見方をするかも知れないからである。<br/><br/>そうしてブチマケていえば、まず私なるものの正体は、ちょっとやそっとでは分るはずがない。<br/><br/>本当に分る人はまず世界に一人もないといっていい。<br/><br/>恐らく人類史上私のような人間は未（いま）だ嘗（かつ）て生まれた事がないからである。<br/><br/>ゆえに私こそ謎の人間と思っている。<br/><br/>しかし自分から謎というのは可笑（おか）しな話だが、それが一番ピッタリしているように思う。<br/><br/>今までにも私の事をかいたり、噂をする人の言を綜合（そうごう）してみても、全然見当違いで、微笑（ほほえ）まずにはいれないのである。<br/><br/> ここで私は偉い人達の御気に障（さわ）るか知れないが、右の謎の意味を最も分り易いたとえをもってかいてみよう。<br/><br/>それは現在のどんなに偉い学者、政治家、宗教家でも、ジャーナリストでも、硝子（ガラス）製造人と私は思っている。<br/><br/>というのは今日までの世界は硝子で作ったダイヤモンド、すなわちイミテーションを有難がり、満足していたからである。<br/><br/>そこへ最近御膝元の日本に本当のダイヤモンドが生まれたのであるから、本物を見た事のないイミテーションに馴れた目には、サッパリ見別けがつかない。<br/><br/>何しろ数千年もの昔から、本物を知らない人間は、ダイヤモンドとは硝子で作るものとしか思っていなかったので、そこへ私はこれが本物だと説明するんだから、疑いが先に立ってどうしても信ずる事が出来ないのである。<br/><br/>しかし中には親しく手に取上げてみる人もあって、硬度といい、光沢といい、今まで見た事もない素晴しさなので、なるほど本物は異（ちが）うという事がよく分り、欣喜雀躍（きんきじゃくやく）有難涙で分けて頂き、珍重愛玩（ちんちょうあいがん）措（お）く能（あた）わざる事になる。<br/><br/> という次第で、いずれは誰にも知れ渡る時が来るに違いないから、その時になって吃驚仰天（びっくりぎょうてん）、これは一大事と急に随喜（ずいき）の涙を零（こぼ）して、世界中から続々頂戴に来る事になろう。<br/><br/>その様が眼に見えるようだ。<br/><br/>ここに到って長い間の硝子時代が終りを告げ、いよいよ天然ダイヤモンド時代に移るという事になる。<br/><br/>以上のごとくで私は現在どれ程偉い人をみても、硝子製造人としか思えないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

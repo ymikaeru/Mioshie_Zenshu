@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yoruhiru</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夜昼転換 『天国の福音』昭和22(1947)年2月5日発行 私は約二十数年間にわたって治療した患者は無慮数万人に上ったであろう。<br><br>その体験から得た結論は一言にしていえば「病気の原因は薬剤である」という事である。<br><br>あらゆる病患の原因を探求すればする程、ことごとく薬剤ならざるはないのである。<br><br>もし人類がこれに目覚めない限り、いつかは滅亡に至るべき事は一点の疑う余地はない。<br><br>かくのごとく恐るべき薬剤を救世主のごとく信頼し、随喜し、しらずしらずの間に弱体化し、生命を短縮させるというのであるから「愚かなる者よ汝の名は文化人なり」と言うもあえて過言ではあるまい。<br><br>戦争も飢餓も、薬剤に比ぶれは物の数ではない。<br><br>かくいう私の言葉は余りに極端であるかも知れない。<br><br>しかし私はそうはおもわない。<br><br>ただ私がはっきり知った事実ありのまま、いささかの誇張もなくのべたまでである。<br><br>そうして私が最も不思議に思う事は世界において最高度の文明国といわれる国がこの事にいまだ気の付かない事である。<br><br>原子爆弾の原理は発見し得ても医学の誤謬は発見し得られない事である。<br><br>戦争犯罪者とは誤れる国家主義によって他国を侵略し他民族を殺戮したところの許すべからざる徒輩である事はいうまでもないが、彼等の罪悪はある一定期間だけであって、その野望は遂に打ち砕かれるに到る事は吾々が現に今みつつあるところである。<br><br>しかるに医学のそれは数千年前からの持続的罪悪であるが、その事に気付かないばかりかかえって医学とは聖なる職業であり仁術でさえありと思惟する観念に重大性がある。<br><br>またこうも言えると思う。<br><br>それは人知の発達程度が医学の誤謬を発見するまでには至っていない事である。<br><br>しかしながらこれには理由がある。<br><br>それは次に説く事によって読者は諒解するであろう。<br><br> 霊界と現界との関係については前項に説いたごとく、現界のあらゆる事象は霊界の移写であるとして、ここに霊界においては、最近に至って一大転換の起こりつつある事で、それを知る事によってのみすべては判明するのである。<br><br> 本来天地間あらゆる森羅万象は、さきに説いたごとく、霊界と現界との両面の活動によって生成し化育し、破壊し創造しつつ、限りなき発展を遂げつつあるのであるが、これを大観すれば無限大なる宇宙であると共に、無限微の集合体である所の物質界でもある。<br><br>それが極まりなき転変によって、停止する所なき文化の進歩発展がある。<br><br>そうして心を潜めこれを静かにかんがうる時、宇宙意志すなわち神の目的とその意図を感知しない訳にはゆかないであろう。<br><br>そうして一切に陰陽明暗あり、夜昼の区別がある。<br><br>また春夏秋冬の変化や万有の盛衰を見る時、人生にもよく当てはまるのである。<br><br>また総てにわたって大中小の差別あり、これを時に当てはめる時、すなわち一日に昼夜の別あるごとく、実は一年にも十年にも百年、千年、万年にも昼夜の別があるのである。<br><br>しかしながらこれは霊界での事象で、現界においては一日の昼夜のみ知り得るに過ぎないのである。<br><br> この理によって、今や霊界においては何千年目か何万年目かに当然来たるべき、昼夜の切り替え時が来たのである。<br><br>これは重要時であって、この事を知らない限り本医術の原理は分かり得ないのである。<br><br>と共にこれを知る事によって、本医術はもとより世界の将来をも見通す事が可能となり、ここに安心立命を得らるるのである。<br><br>しからば、霊界におけるこの何千年目かの昼夜の切り換えが現界にいかに反映しつつあるかを説示してみよう。<br><br> 右の意味によって、霊界における世界は今日まで夜であった。<br><br>夜の世界は現界と同様暗くして、定期的に月光を見るのみである。<br><br>もちろん水素が多く、月が光を隠せば昼光のみとなりそれが曇れば真の暗黒となる。<br><br>これが移写せる現界の事象にみても明らかである。<br><br>すなわち今日までの世界、国々の治乱興亡の跡や、戦争と平和の交互に続く様相等は、ちょうど月が盈（み）ちては虧（か）けるごとくである。<br><br>しかるに天運循環して今まさに昼に転換せんとし、ちょうどその黎明期に相応するのである。<br><br> そうして、霊界における夜昼転換の結果として、人類が未だ経験せざる驚くべく、おそるべく、喜ぶべき一大変化が起こる事である。<br><br>しかもその端緒はすでに表れ始めている。<br><br>まずそれを説明してみよう。<br><br> 私がいう昼の世界とは、現界のそれと同じく、まず東天に日輪の光芒が現われるのである。<br><br>みよ、地球の極東日本――すなわち日の本における一大変革である。<br><br>この国は今や夜の文化すなわち既成文化崩壊が開始されたのである。<br><br>見よ重要文化都市の崩壊、産業経済の致命的状態をおもなるものとし、人的には特権や指導階級の全般的没落等々は全くそれがためである。<br><br>そうして次に来たるもの――それは昼の文化の建設であるが、これらも既に表れかけている。<br><br>みよ、日本における徹底的武装解除に次いで民主主義の台頭である。<br><br>この二つの現実は、日本においては建国二千六百年以来洵（まこと）に空前にして予想すら出来得なかったところのものであるがまた世界永遠の平和確立への第一歩でもあろう。<br><br>本来夜の世界とは闘争、飢餓、病苦に満ちた暗黒時代であるに反し、昼の世界とは平和、豊穣、健康等の具備せる光明時代である。<br><br>現在の日本――それはよくその転機の様相を表している。<br><br> しかしながら、東天に昇り始めた太陽はやがて天心に到るであろう。<br><br>それは何を意味するか、言うまでもなく、全世界における夜の文化の総崩壊であると共に、昼の文化が呱々（ここ）の声をあげる事である。<br><br>それはおよそ予想し得られよう。<br><br>何となれば日本が既に小さくその模型をしめしているからである。<br><br>しかも、世界の決定的運命は目前に迫りつつある。<br><br>恐らく何人といえどもこの框（かまち）から免れる事は出来得ない。<br><br>ただ苦難をして最少限度に止め得る方法のみが残されている。<br><br>しかしその方法はここに一つある。<br><br>すなわち本医術の原理を知って、昼の文化建設の事業に加わる事である。<br><br> 聖書の一節にいわく「あまねく天国の福音を述べ伝えらるベし、しかる後末期到る」と、これは何を指示しているのであろうか、私は信ずる。<br><br>それはこの私の著述が右の使命をまっとうするであろう事を！ 私は本医術の原理を説くに当たって世界の運命にまで説き進めて来たが、これは重要事であるからである。<br><br>それは本医術の原理発見も、医学の誤謬発見も、その根本は夜昼転換という一点にかかっているからである。<br><br> 既に説いたごとく、病気の原因は人間霊体の曇りにあり、その曇りを解消する、それが病気治癒の唯一の条件でありとしたら、本医術発見以前の世界にあっては、なぜ発見出来得なかったかという疑問であるが、その理由はこうである。<br><br>さきに説いたごとく病気治癒の方法に二つある。<br><br>一は毒素を浄化以前に還元する、すなわち固め療法であり、二は右と反対に毒素を溶解し排除する方法である。<br><br>既存医学は前者であり、本医術は後者である事も、読者はすでに充分認識されたであろう。<br><br> そうして本医術の原理が、人体より放射する一種の不可視的神秘光線でありとしたら、この神秘光線の本質は何であるかというと、それは火素を主とせる一種の人体特有の霊気である。<br><br>故に施術の場合、火素の多量を要する訳であるが、昼の世界にむかうに従って、霊界における火素は漸次増量する。<br><br>何となれば、火素放射の根源は太陽であるからである。<br><br>そうして火素は治病に効果ある以外、今一つの重要事がある。<br><br>それは霊界における火素の増量は、人体の浄化作用をより促進せしむるという事である。<br><br>すなわち、霊界の変化は直接霊体に影響する。<br><br>火素の増量は霊体の曇りに対し、支援的役割ともいうべき浄化力強化となる事である。<br><br>従って病気は発生しやすくなると共に既存医療の固め療法の効果が薄弱となりついに不可能となる。<br><br>たとえば夜の世界においては、一旦固めた毒素は再発までに数年を要したものが、漸次短縮され、一年となり、半年となり、三月となり、一ケ月となる、というようになり、ついには固める事は不可能とさえなるのである。<br><br>これについて最もよき例は彼の種痘である。<br><br>これは日本についての実例であるが、数十年前は一回の種痘によって一生免疫されるといわれたものが、漸次期間が短縮され十年となり五年となり、最近に至ってその効果は非常に薄弱になった事である。<br><br>その他種々の病気にしても年々増加の傾向を高めつつある事も、見逃すべからざる事実である。<br><br> 以上によってみても、漸次夜から昼に転移しつつある事を知るであろう。<br><br>全く夜の期間における病気治療の方法としては、溶解よりも固めるほうが有利であった。<br><br>それは毒素溶解に要するだけの火素が不足であったからである。<br><br>従って次善的方法として固める方法をとるの止むを得なかったのである。<br><br>それがついに人類社会に対し、短命、病気、飢餓、戦争等の苦悩の原因となった事は、実におそるべき誤謬であった。<br><br> 以上のごとく夜昼の転換を認めるとして、その時期はいつ頃であろうか。<br><br>私は最後の転換期はここ数年を出でないとおもう。<br><br>何となればそれについて好適例がある。<br><br>それは私の弟子数万人が病気治療に際し、年一年否一カ月ごとに治病の効果が顕著になりつつある事である。<br><br>すなわちさきに三カ月を要した同程度の病気が、一カ月となり、半カ月となり、十日となり三日となるというように、時の進むに従い短縮されつつある事で、これは異口同音にいずれも唱えている。<br><br>要するにこれは霊界における火素増量の速度を示していることであり、昼の世界の刻々迫りつつある事を示唆せる証左でなくて何であろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Evangelho do Paraíso</h2>
 <p>Ao longo de mais de vinte anos de prática, tratei dezenas de milhares de pacientes. A conclusão que extraí dessa vasta experiência pode ser resumida em uma única sentença: a causa das doenças reside nos medicamentos. Quanto mais se aprofunda a investigação sobre a origem de todas as enfermidades, mais se constata que, invariavelmente, elas derivam de substâncias farmacêuticas. Se a humanidade não despertar para essa realidade, seu caminho rumo à extinção é, sem qualquer sombra de dúvida, inevitável. Nutrir por esses medicamentos, tão terrivelmente nocivos, uma confiança e uma admiração dignas de um salvador, enquanto o corpo se enfraquece e a vida se abrevia de forma inconsciente, é um ato de profunda insensatez. Portanto, não seria exagero afirmar: “Ó, insensatos, vosso nome é ‘homem civilizado’!”. Comparados ao flagelo dos fármacos, a guerra e a fome são de pouca monta.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Se o princípio desta arte de cura é um tipo de raio luminoso, invisível e misterioso, irradiado pelo corpo humano, qual seria, então, a essência desse raio? Trata-se de uma energia espiritual peculiar ao corpo humano, composta primordialmente pelo elemento fogo. Por essa razão, durante a ministração, uma grande quantidade de elemento fogo é necessária. À medida que nos aproximamos do Mundo do Dia, a quantidade de elemento fogo no Mundo Espiritual aumenta gradativamente, pois sua fonte primordial é o Sol. Além de sua eficácia na cura de doenças, o elemento fogo possui outra função crucial: o aumento de sua presença no Mundo Espiritual acelera o processo de purificação do corpo humano. As mudanças no Mundo Espiritual afetam diretamente o corpo espiritual. O aumento do elemento fogo atua como um reforço, intensificando a capacidade de purificação das máculas. Consequentemente, as doenças se manifestam com mais facilidade, e a eficácia do tratamento por solidificação, praticado pela medicina convencional, diminui, tornando-se, por fim, inviável. Por exemplo, no Mundo da Noite, uma toxina uma vez solidificada levava anos para reaparecer. Com o tempo, esse intervalo foi se encurtando para um ano, seis meses, três meses, um mês, até que, finalmente, a solidificação se tornará impossível. O exemplo mais eloquente a esse respeito é o da vacina contra a varíola. Tomando o caso do Japão, há algumas décadas, dizia-se que uma única dose garantia imunidade por toda a vida. Progressivamente, esse período foi se reduzindo para dez anos, cinco anos, e, mais recentemente, sua eficácia tornou-se extremamente frágil. O fato de que diversas outras doenças apresentam uma tendência crescente ano a ano é outra realidade que não pode ser ignorada.</p>
 <p>Tudo isso evidencia que estamos em transição gradual da noite para o dia. Durante o período da noite, o método de solidificação era mais vantajoso que o de dissolução, pois faltava elemento fogo suficiente para dissolver as toxinas. Assim, recorria-se, como alternativa, ao método de solidificação. Que essa prática tenha se tornado a causa de vidas abreviadas, doenças, fome, guerras e outros tormentos para a sociedade humana constitui, de fato, um erro assombroso.</p>
 <p>Se admitimos a existência da Transição da Noite para o Dia, quando, então, ocorrerá esse momento? Acredito que a fase final da transição não ultrapassará os próximos anos. Para isso, há um excelente exemplo: os milhares de meus discípulos que, ao tratarem as enfermidades, observam que a eficácia das curas se torna mais notável não apenas a cada ano, mas a cada mês. Uma doença do mesmo grau que outrora exigia três meses de tratamento, agora se cura em um mês, em meio mês, em dez dias, em três dias. Essa aceleração, relatada em uníssono por todos, acompanha o avançar do tempo. Em suma, tal fenômeno demonstra a velocidade com que o elemento fogo aumenta no Mundo Espiritual, e que outra coisa poderia ser senão a prova irrefutável de que a alvorada do Mundo do Dia se aproxima a cada instante?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夜昼転換 『天国の福音』昭和22(1947)年2月5日発行 私は約二十数年間にわたって治療した患者は無慮数万人に上ったであろう。<br/><br/>その体験から得た結論は一言にしていえば「病気の原因は薬剤である」という事である。<br/><br/>あらゆる病患の原因を探求すればする程、ことごとく薬剤ならざるはないのである。<br/><br/>もし人類がこれに目覚めない限り、いつかは滅亡に至るべき事は一点の疑う余地はない。<br/><br/>かくのごとく恐るべき薬剤を救世主のごとく信頼し、随喜し、しらずしらずの間に弱体化し、生命を短縮させるというのであるから「愚かなる者よ汝の名は文化人なり」と言うもあえて過言ではあるまい。<br/><br/>戦争も飢餓も、薬剤に比ぶれは物の数ではない。<br/><br/>かくいう私の言葉は余りに極端であるかも知れない。<br/><br/>しかし私はそうはおもわない。<br/><br/>ただ私がはっきり知った事実ありのまま、いささかの誇張もなくのべたまでである。<br/><br/>そうして私が最も不思議に思う事は世界において最高度の文明国といわれる国がこの事にいまだ気の付かない事である。<br/><br/>原子爆弾の原理は発見し得ても医学の誤謬は発見し得られない事である。<br/><br/>戦争犯罪者とは誤れる国家主義によって他国を侵略し他民族を殺戮したところの許すべからざる徒輩である事はいうまでもないが、彼等の罪悪はある一定期間だけであって、その野望は遂に打ち砕かれるに到る事は吾々が現に今みつつあるところである。<br/><br/>しかるに医学のそれは数千年前からの持続的罪悪であるが、その事に気付かないばかりかかえって医学とは聖なる職業であり仁術でさえありと思惟する観念に重大性がある。<br/><br/>またこうも言えると思う。<br/><br/>それは人知の発達程度が医学の誤謬を発見するまでには至っていない事である。<br/><br/>しかしながらこれには理由がある。<br/><br/>それは次に説く事によって読者は諒解するであろう。<br/><br/> 霊界と現界との関係については前項に説いたごとく、現界のあらゆる事象は霊界の移写であるとして、ここに霊界においては、最近に至って一大転換の起こりつつある事で、それを知る事によってのみすべては判明するのである。<br/><br/> 本来天地間あらゆる森羅万象は、さきに説いたごとく、霊界と現界との両面の活動によって生成し化育し、破壊し創造しつつ、限りなき発展を遂げつつあるのであるが、これを大観すれば無限大なる宇宙であると共に、無限微の集合体である所の物質界でもある。<br/><br/>それが極まりなき転変によって、停止する所なき文化の進歩発展がある。<br/><br/>そうして心を潜めこれを静かにかんがうる時、宇宙意志すなわち神の目的とその意図を感知しない訳にはゆかないであろう。<br/><br/>そうして一切に陰陽明暗あり、夜昼の区別がある。<br/><br/>また春夏秋冬の変化や万有の盛衰を見る時、人生にもよく当てはまるのである。<br/><br/>また総てにわたって大中小の差別あり、これを時に当てはめる時、すなわち一日に昼夜の別あるごとく、実は一年にも十年にも百年、千年、万年にも昼夜の別があるのである。<br/><br/>しかしながらこれは霊界での事象で、現界においては一日の昼夜のみ知り得るに過ぎないのである。<br/><br/> この理によって、今や霊界においては何千年目か何万年目かに当然来たるべき、昼夜の切り替え時が来たのである。<br/><br/>これは重要時であって、この事を知らない限り本医術の原理は分かり得ないのである。<br/><br/>と共にこれを知る事によって、本医術はもとより世界の将来をも見通す事が可能となり、ここに安心立命を得らるるのである。<br/><br/>しからば、霊界におけるこの何千年目かの昼夜の切り換えが現界にいかに反映しつつあるかを説示してみよう。<br/><br/> 右の意味によって、霊界における世界は今日まで夜であった。<br/><br/>夜の世界は現界と同様暗くして、定期的に月光を見るのみである。<br/><br/>もちろん水素が多く、月が光を隠せば昼光のみとなりそれが曇れば真の暗黒となる。<br/><br/>これが移写せる現界の事象にみても明らかである。<br/><br/>すなわち今日までの世界、国々の治乱興亡の跡や、戦争と平和の交互に続く様相等は、ちょうど月が盈（み）ちては虧（か）けるごとくである。<br/><br/>しかるに天運循環して今まさに昼に転換せんとし、ちょうどその黎明期に相応するのである。<br/><br/> そうして、霊界における夜昼転換の結果として、人類が未だ経験せざる驚くべく、おそるべく、喜ぶべき一大変化が起こる事である。<br/><br/>しかもその端緒はすでに表れ始めている。<br/><br/>まずそれを説明してみよう。<br/><br/> 私がいう昼の世界とは、現界のそれと同じく、まず東天に日輪の光芒が現われるのである。<br/><br/>みよ、地球の極東日本――すなわち日の本における一大変革である。<br/><br/>この国は今や夜の文化すなわち既成文化崩壊が開始されたのである。<br/><br/>見よ重要文化都市の崩壊、産業経済の致命的状態をおもなるものとし、人的には特権や指導階級の全般的没落等々は全くそれがためである。<br/><br/>そうして次に来たるもの――それは昼の文化の建設であるが、これらも既に表れかけている。<br/><br/>みよ、日本における徹底的武装解除に次いで民主主義の台頭である。<br/><br/>この二つの現実は、日本においては建国二千六百年以来洵（まこと）に空前にして予想すら出来得なかったところのものであるがまた世界永遠の平和確立への第一歩でもあろう。<br/><br/>本来夜の世界とは闘争、飢餓、病苦に満ちた暗黒時代であるに反し、昼の世界とは平和、豊穣、健康等の具備せる光明時代である。<br/><br/>現在の日本――それはよくその転機の様相を表している。<br/><br/> しかしながら、東天に昇り始めた太陽はやがて天心に到るであろう。<br/><br/>それは何を意味するか、言うまでもなく、全世界における夜の文化の総崩壊であると共に、昼の文化が呱々（ここ）の声をあげる事である。<br/><br/>それはおよそ予想し得られよう。<br/><br/>何となれば日本が既に小さくその模型をしめしているからである。<br/><br/>しかも、世界の決定的運命は目前に迫りつつある。<br/><br/>恐らく何人といえどもこの框（かまち）から免れる事は出来得ない。<br/><br/>ただ苦難をして最少限度に止め得る方法のみが残されている。<br/><br/>しかしその方法はここに一つある。<br/><br/>すなわち本医術の原理を知って、昼の文化建設の事業に加わる事である。<br/><br/> 聖書の一節にいわく「あまねく天国の福音を述べ伝えらるベし、しかる後末期到る」と、これは何を指示しているのであろうか、私は信ずる。<br/><br/>それはこの私の著述が右の使命をまっとうするであろう事を！ 私は本医術の原理を説くに当たって世界の運命にまで説き進めて来たが、これは重要事であるからである。<br/><br/>それは本医術の原理発見も、医学の誤謬発見も、その根本は夜昼転換という一点にかかっているからである。<br/><br/> 既に説いたごとく、病気の原因は人間霊体の曇りにあり、その曇りを解消する、それが病気治癒の唯一の条件でありとしたら、本医術発見以前の世界にあっては、なぜ発見出来得なかったかという疑問であるが、その理由はこうである。<br/><br/>さきに説いたごとく病気治癒の方法に二つある。<br/><br/>一は毒素を浄化以前に還元する、すなわち固め療法であり、二は右と反対に毒素を溶解し排除する方法である。<br/><br/>既存医学は前者であり、本医術は後者である事も、読者はすでに充分認識されたであろう。<br/><br/> そうして本医術の原理が、人体より放射する一種の不可視的神秘光線でありとしたら、この神秘光線の本質は何であるかというと、それは火素を主とせる一種の人体特有の霊気である。<br/><br/>故に施術の場合、火素の多量を要する訳であるが、昼の世界にむかうに従って、霊界における火素は漸次増量する。<br/><br/>何となれば、火素放射の根源は太陽であるからである。<br/><br/>そうして火素は治病に効果ある以外、今一つの重要事がある。<br/><br/>それは霊界における火素の増量は、人体の浄化作用をより促進せしむるという事である。<br/><br/>すなわち、霊界の変化は直接霊体に影響する。<br/><br/>火素の増量は霊体の曇りに対し、支援的役割ともいうべき浄化力強化となる事である。<br/><br/>従って病気は発生しやすくなると共に既存医療の固め療法の効果が薄弱となりついに不可能となる。<br/><br/>たとえば夜の世界においては、一旦固めた毒素は再発までに数年を要したものが、漸次短縮され、一年となり、半年となり、三月となり、一ケ月となる、というようになり、ついには固める事は不可能とさえなるのである。<br/><br/>これについて最もよき例は彼の種痘である。<br/><br/>これは日本についての実例であるが、数十年前は一回の種痘によって一生免疫されるといわれたものが、漸次期間が短縮され十年となり五年となり、最近に至ってその効果は非常に薄弱になった事である。<br/><br/>その他種々の病気にしても年々増加の傾向を高めつつある事も、見逃すべからざる事実である。<br/><br/> 以上によってみても、漸次夜から昼に転移しつつある事を知るであろう。<br/><br/>全く夜の期間における病気治療の方法としては、溶解よりも固めるほうが有利であった。<br/><br/>それは毒素溶解に要するだけの火素が不足であったからである。<br/><br/>従って次善的方法として固める方法をとるの止むを得なかったのである。<br/><br/>それがついに人類社会に対し、短命、病気、飢餓、戦争等の苦悩の原因となった事は、実におそるべき誤謬であった。<br/><br/> 以上のごとく夜昼の転換を認めるとして、その時期はいつ頃であろうか。<br/><br/>私は最後の転換期はここ数年を出でないとおもう。<br/><br/>何となればそれについて好適例がある。<br/><br/>それは私の弟子数万人が病気治療に際し、年一年否一カ月ごとに治病の効果が顕著になりつつある事である。<br/><br/>すなわちさきに三カ月を要した同程度の病気が、一カ月となり、半カ月となり、十日となり三日となるというように、時の進むに従い短縮されつつある事で、これは異口同音にいずれも唱えている。<br/><br/>要するにこれは霊界における火素増量の速度を示していることであり、昼の世界の刻々迫りつつある事を示唆せる証左でなくて何であろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

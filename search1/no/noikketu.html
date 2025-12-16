@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>noikketu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脳溢血は絶対予防し得る 未発表、昭和11(1936)年執筆 近時社会の名士とか有用な士で、漸（ようや）く学問経験を経、真に意義ある目的と希望を実現しようとする頃、惜しくもたおれてしまう痛恨事である。<br><br>これが原因として、最も多いのが脳溢血である。<br><br>この病気は、そのまま鬼籍に入るか、幸にして生命を得たとしても、例外なく中風に罹って、全治して活動し得るまでに治癒する例はほとんどないといってもいい位である。<br><br> 私は、これらの事実を新聞紙で見る毎に痛惜（つうせき）に堪えないのである。<br><br>それは、一回でも私の所へ来たならばそれを免れ得たにと、いつも思うのである。<br><br>特に将官級の軍人のそうした場合、国家の為を思い、痛歎久しくするのである。<br><br> しからば、脳溢血の原因は何であるかというと、毒血が全身に充満して、ある程度を越えるからである。<br><br>現代人が体的には肉食と飲酒、薬剤の服用に、霊的には、罪穢の堆積であって、ただそれを軽減又は解消する方法が無いが為である。<br><br>実は宗教がそれを為すべきであるが、今はその力がなくなっている。<br><br>ただしかし、医薬以外の治療法で、幾分軽減する事は出来得るが、絶対予防は不可能である事である。<br><br> しかるに、観音力浄化法によれば、絶対的に予防する事が可能である。<br><br>否予防という言葉は当はまらないかも知れない。<br><br>予防ではない、その原因である毒血、その毒素分を解消して浄血してしまうから、脳溢血は起りようがないのである。<br><br> 故に、脳溢血の素質のある人、例えば、眩暈（めまい）や首筋、肩の凝り、手の痙〔痺〕れ等が前兆であるから、そういう徴候を感じたなら、速かに観音力治療を受ければよいのである。<br><br>百人が百人、脳溢血に罹らないまでに浄血されてしまう事は断言し得るのである。<br><br> それのみならず、たとえ、脳溢血が起る程度でなくとも、不浄血の所有者は故障が起り易いのである。<br><br>風邪、頭痛、視力薄弱等に犯され易く、又、頭脳の明晰を欠き、判断力、集注力に乏しいから、すべてに失敗勝ちである。<br><br>常に不快感を伴うから、飲酒やその他で紛らわそうとする事にもなる。<br><br>これを要するに、常に血液の濁らない様にするこそ、脳溢血予防と共に大いなる利益があるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prevenção Definitiva da Hemorragia Cerebral</h2>
 <p>É com profundo pesar que testemunhamos, na sociedade contemporânea, homens de grande prestígio e utilidade serem lamentavelmente ceifados por um mal súbito, justo no momento em que, após acumularem vasto saber e experiência, estão prestes a concretizar seus mais nobres objetivos e esperanças. A causa mais recorrente de tais fatalidades é a hemorragia cerebral.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Todavia, com o método de purificação pelo poder de Kannon (観音), a prevenção se torna absolutamente possível. Aliás, talvez a palavra “prevenção” não seja a mais adequada. Não se trata de prevenir, mas sim de dissolver a própria causa do mal – o sangue impuro e suas toxinas –, purificando-o por completo. Uma vez que o sangue se torna puro, a hemorragia cerebral simplesmente não tem como ocorrer.</p>
 <p>Portanto, as pessoas com predisposição à hemorragia cerebral, cujos sinais precursores incluem tonturas, enrijecimento da nuca e dos ombros ou dormência nas mãos, ao sentirem tais sintomas, devem prontamente se submeter ao tratamento com o poder de Kannon (観音). Posso afirmar categoricamente que cem por cento das pessoas que o recebem terão seu sangue purificado a tal ponto que se tornarão imunes à hemorragia cerebral.</p>
 <p>Ademais, mesmo naqueles que não chegam ao ponto de sofrer uma hemorragia, a posse de sangue impuro os torna suscetíveis a diversos males. São facilmente acometidos por resfriados, dores de cabeça e enfraquecimento da visão. Carecem também de clareza mental, discernimento e poder de concentração, o que os leva a fracassar em seus empreendimentos. Como vivem sob um constante mal-estar, não raro buscam alívio no álcool e em outras distrações. Em suma, manter o sangue constantemente puro, além de prevenir a hemorragia cerebral, traz consigo imensos benefícios para a vida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脳溢血は絶対予防し得る 未発表、昭和11(1936)年執筆 近時社会の名士とか有用な士で、漸（ようや）く学問経験を経、真に意義ある目的と希望を実現しようとする頃、惜しくもたおれてしまう痛恨事である。<br/><br/>これが原因として、最も多いのが脳溢血である。<br/><br/>この病気は、そのまま鬼籍に入るか、幸にして生命を得たとしても、例外なく中風に罹って、全治して活動し得るまでに治癒する例はほとんどないといってもいい位である。<br/><br/> 私は、これらの事実を新聞紙で見る毎に痛惜（つうせき）に堪えないのである。<br/><br/>それは、一回でも私の所へ来たならばそれを免れ得たにと、いつも思うのである。<br/><br/>特に将官級の軍人のそうした場合、国家の為を思い、痛歎久しくするのである。<br/><br/> しからば、脳溢血の原因は何であるかというと、毒血が全身に充満して、ある程度を越えるからである。<br/><br/>現代人が体的には肉食と飲酒、薬剤の服用に、霊的には、罪穢の堆積であって、ただそれを軽減又は解消する方法が無いが為である。<br/><br/>実は宗教がそれを為すべきであるが、今はその力がなくなっている。<br/><br/>ただしかし、医薬以外の治療法で、幾分軽減する事は出来得るが、絶対予防は不可能である事である。<br/><br/> しかるに、観音力浄化法によれば、絶対的に予防する事が可能である。<br/><br/>否予防という言葉は当はまらないかも知れない。<br/><br/>予防ではない、その原因である毒血、その毒素分を解消して浄血してしまうから、脳溢血は起りようがないのである。<br/><br/> 故に、脳溢血の素質のある人、例えば、眩暈（めまい）や首筋、肩の凝り、手の痙〔痺〕れ等が前兆であるから、そういう徴候を感じたなら、速かに観音力治療を受ければよいのである。<br/><br/>百人が百人、脳溢血に罹らないまでに浄血されてしまう事は断言し得るのである。<br/><br/> それのみならず、たとえ、脳溢血が起る程度でなくとも、不浄血の所有者は故障が起り易いのである。<br/><br/>風邪、頭痛、視力薄弱等に犯され易く、又、頭脳の明晰を欠き、判断力、集注力に乏しいから、すべてに失敗勝ちである。<br/><br/>常に不快感を伴うから、飲酒やその他で紛らわそうとする事にもなる。<br/><br/>これを要するに、常に血液の濁らない様にするこそ、脳溢血予防と共に大いなる利益があるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

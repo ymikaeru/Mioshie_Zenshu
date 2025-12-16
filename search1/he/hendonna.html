@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hendonna</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ヘンドンナモンジャイ 阿呆文学 『栄光』89号、昭和26(1951)年1月31日発行 そもそも、この頃何だかんだと、噂に上るメシヤ教とは、一体全体どんなものじゃい。<br><br>名前からして救世教と漢字でかくんだから、東洋的と思ったらナーンだ！ 片仮名でメシヤ教とあるんだから、どっちが本当なんか、サッパリ判らないと仰言（おっしゃ）るだろう。<br><br>なるほどごもっとも千万それに違いは御座らぬが、今の世の中をよく見給え、和服も着れば洋服も着る、味噌汁沢庵で茶漬も食えば、ビフテキにパンも食う、正宗にビール、舞踊にダンス、歌舞伎に新劇、振袖にストリップ、いくらかいても切りがないが、これで堪能がいったで御座ろう。<br><br> だから名なんかどちらでもよろしい。<br><br>何より中味が肝腎なんだよ、では一体それ程立派なものなのかと仰言るだろうが、手前味噌じゃ御座らぬが素敵滅法大安売じゃない、どえらい代物なんだから吃驚仰天しなさんな、とまずは毒気を抜いておいて、ボツボツ口から出まかせのごたくを並べてみようわい。<br><br> 芝居モドキじゃ御座らぬが、まず口上はこのくらいにしておいて、さて、この世の中を隅から隅までズーイッと見廻してみると、これはこれは何とマァー汚ねえ臭い裟婆（しゃば）だろう、どこもかしこも埃だらけの糞だらけ、泥へ棒を突込んだような奴だらけ、夜も碌々（ろくろく）寝られない、強窃盗や土蔵破（むすめし）が、いつ忍んで来るかは判らない。<br><br>昼間は昼間でコソ泥や、空巣狙いにチョックラ持ち、汽車や電車にウッカリ乗れば、スリ、巾着切りに掻払（かっぱら）い、バスに乗ったらこれはまた、衝突、転覆、崖落ちの、川へ嵌（は）まって大往生、テモ物騒な世の中じゃ。<br><br>そうかと思や家の中でさえ、詐欺、強請（ゆすり）やらハッタリ、騙（かた）り、タカリ、コワモテ、押借（おしがり）、脅喝など次々とやって来る。<br><br>また近頃はチンピラまでが大人顔負けの凄さ振り、そうかと思や人身売買、パンパンガールに不良青年、与太者、ヤクザに町のボス、いくらかいてもかき切れぬ、だからこのくらいにしておいて、これから本当のアラ探し、睡気醒ましをかこうとしよう。<br><br> 外でも御座らぬ、世の中で一番頭痛の種はと言えば、言わずと知れた病気という奴、ウッカリすると一つよりない命まで、召上げるんだからオッカナイ、オマケに普段から人は病の器などと脅かされている人間共だから、血気旺（さか）んな若者でさえ、ちょっと風邪でも引くとすりゃ、直に青瓢箪（あおびょうたん）のブラブラ病、ヒョロヒョロするともう君は、結核という命取りなんだから気を付けろ、そうかと思や近頃は油切った赤ッ面どころのドッチョイでさえ、危ないぞ、君も結核があると言われ、心細いどころの騒ぎじゃない。<br><br>そうかと思や熱が出て、ゴホンゴホンと来りゃもう肺炎、腰がフラつきゃ早やカリエス、ゼイゼイ言えば喘息で、ゲップが出ると胃何々、ドキドキすると心臓病と来ちゃ、花恥しい乙女子（おとめご）はまず慢性心臓病とはチト悪口がすぎますか、親父は親父で中風という半身不随のフラフラ病、そのまた女房は女房で子宮何々、卵巣何々、子供は子供で麻疹（はしか）に百日咳、猩紅熱（しょうこうねつ）にジフテリヤ、疫痢、脳炎と切りがない程世の中は、病神様大繁昌、油断も隙も出来はせぬ、テモ恐ろしい娑婆の態（ざま）。<br><br> そうかと思やお偉方は、ヤレ涜職（とくしょく）、ヤレ賄賂、やったとか取ったとか、水掛論の五月蝿（うるさ）い事、文書偽造や贋手形、財産横領に使い込み、隠匿物資、闇屋、カツギヤ、贋札使い、上から下まで、下から上まで鼻もちならぬ娑婆世界、これがホントの末の世か、昔の人の言う通り、犬猫同然、虫ケラ同然の人間ばかり、ところが糞壷にいる蛆虫は慣れっこになっちゃって、別段汚いとは思わないのと同様、お気が付かないんで御座んしょう。<br><br>どうです皆さん、こんなにも思い切っての扱下（こきおろ）しに、呆れ返ったで御座んしょう。<br><br>そこでこいつ怪しからんと、堪忍袋の緒を切って、文句の一つも言いたいだろうがちょっと待て、自体拙者は生れついての正直者、ただアケスケにありのまま、見たまま言うので、痛い御方も御座ろうが、脛傷だらけじゃ仕方があるまい。<br><br>頭掻き掻き、腋の下の汗をフキフキ苦笑い、フフンと言って横向けば、それでお仕舞い、それっきり、後白波（あとしらなみ）と消えちまい、浜の松風音ばかし、などといい気な拙者で御座る。<br><br> ザットかいてもこれくらいだとしたら、御世辞にも結構な世の中とは申せまい、ところがお偉方達は真ッ赤になって仰言（おっしゃ）るだろう、「貴様の目玉は節穴か、田螺（たにし）同然の明盲、これ程結構な世の中を、悪く言うとは怪しからん」奴というかも知れないが、拙者はそんな御託宣、百も承知の助なんだ、ところがまだまだ今少し、御耳障りでは御座ろうが、聞いて貰いたい事がある。<br><br>外でも御座らぬ、そもそも拙者は先祖代々の江戸ッ子で、口から先へ生れた阿呆、口車ならば直に乗り、滑り出したら大脱線、停めて止まらぬ威勢のよさ、これが江戸ッ子の持前で、もしも森の石松君、生きていたなら、オイ、お前寿司食わネェかと言うだろう、アプレゲールの江戸ッ子は、拙者で御座ると言いたいね、低い鼻をば拳固で擦り、啖呵（たんか）を切ってこれからかき出す様々はオッタマ気ないよう褌（ふんどし）を、しっかり締めてお聞なせえ、セパードのワン公じゃ御あせんが、三角耳をオッ立てて、ドイツもコイツも耳の穴よくカッポジってお聞きなすっておくんなせえ、今度いよいよ汚ねえ娑婆を、綺麗サッパリ石川で、尻洗ったよう洗い浄めてしまうんだ、何と小気味よいでは御座らぬか、というと拙者を市役所の清掃人夫と間違えちゃ困るが、実はブチまけて言えば、天の神様このたびいよいよ地に降り、掃除万端拙者にお委せなすったんだから、何と素晴しいじゃ御座んせぬか、へン、ドンナモンジャイと言いたいが、それどころか、よし来たと捻鉢巻（ねじりはちまき）に尻引ッパショリ、ウンと気張って、いよいよこれから躍り出すという寸法と来ているんだから面白い。<br><br> ところが、今度の大掃除は、春秋二回の縁の下の掃除なんかとは、月とスッポン程の大違い、虫けら共をつまみ出し、火で焼き灰の粉にして、西の海へとさらりと捨てりゃ水の泡、消えて跡なくなりにけり、だとしたら大変だ、ウッカリしてはおられまい、そこで神様可哀想だから、助けてやれとの仰せだが、それそこが問題なんだよ、何しろ普段からもったいなくも大神様に、悪口雑言並べたり、尻を向けたりした罰が、溜り溜ったドー屑人足、仕方泣くなく閉口頓首、逆さになってお詫びすりゃ勘弁して下さるか、下さらないかは分らない、まず何よりも今直に、メシヤ教へと来る事だ、すれば拙者はお前らの、罪や穢れのお詫びして、助けてやらない事もない、何と有難い宗教では御座らぬか、どうじゃ、恐れ入ったか、人間共よ。<br><br> (注) チョックラ持ち、こそ泥のこと。<br><br>江戸弁か。<br><br> 後〔跡〕白波（あとしらなみ）船の通った跡に立つ白波。<br><br>「しらなみ」を「知らない」にかけて、ゆくえが知れなくなること。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Que Negócio é Esse, Afinal?</h2>
 <p>Pois bem, que negócio é esse, afinal, de Igreja Messiânica, sobre a qual tanto se ouve falar ultimamente? Pelo nome, escrito em ideogramas como Sekaikyuseikyou, imagina-se algo puramente oriental. Mas eis que surge o nome em caracteres fonéticos, e ninguém mais entende qual é o verdadeiro. De fato, é uma observação muito pertinente. Contudo, contemplem o mundo de hoje: vestimos tanto o traje tradicional quanto o ocidental; saboreamos a sopa de misso com arroz, mas também o bife com pão; bebemos saquê e cerveja; apreciamos a dança clássica e o baile moderno; o teatro Kabuki e o de vanguarda; o quimono de mangas longas e o strip-tease. A lista dessa miscelânea cultural é infindável, mas creio que a ideia já foi bem compreendida.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Pois bem, preparem-se e escutem com atenção. Agucem os ouvidos, todos vocês, e prestem muita atenção ao que vou dizer. Este mundo imundo será finalmente varrido e purificado, como se fosse lavado com a mais pura das águas. Não é uma perspectiva deliciosa? E não pensem que sou um mero funcionário da prefeitura! A verdade, nua e crua, é que o próprio Deus dos Céus desceu à Terra e confiou a mim a tarefa monumental de realizar esta limpeza. Não é algo maravilhoso? Eu gostaria de bradar: "O que me dizem disso?!". Eis que, de mangas arregaçadas e com o espírito em chamas, lanço-me com fervor a esta grandiosa empreitada.</p>
 <p>Mas que ninguém se engane: esta Grande Purificação em nada se assemelha a uma faxina de rotina. A diferença é tão grande quanto a da Lua para uma tartaruga. Os vermes e as pragas serão arrancados de seus esconderijos, incinerados até virarem cinzas e lançados ao mar, onde desaparecerão sem deixar vestígios. A situação é grave e não se pode ficar de braços cruzados. Contudo, em Sua infinita misericórdia, Deus apiedou-Se e ordenou que eu os salvasse. E aqui reside a questão central. A punição por terem, durante tanto tempo, vilipendiado o Altíssimo com palavras e atos, por Lhe terem virado as costas, acumulou-se de tal forma que não há como escapar. Rendidos e de cabeça baixa, mesmo que peçam perdão em desespero, não se sabe se serão perdoados.</p>
 <p>O único caminho é vir, agora mesmo, à Igreja Messiânica. Feito isso, eu mesmo intercederei por seus pecados e impurezas, e talvez lhes conceda a salvação. Não é esta uma religião maravilhosa? Então, digam-me, mortais: estão ou não impressionados?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ヘンドンナモンジャイ 阿呆文学 『栄光』89号、昭和26(1951)年1月31日発行 そもそも、この頃何だかんだと、噂に上るメシヤ教とは、一体全体どんなものじゃい。<br/><br/>名前からして救世教と漢字でかくんだから、東洋的と思ったらナーンだ！ 片仮名でメシヤ教とあるんだから、どっちが本当なんか、サッパリ判らないと仰言（おっしゃ）るだろう。<br/><br/>なるほどごもっとも千万それに違いは御座らぬが、今の世の中をよく見給え、和服も着れば洋服も着る、味噌汁沢庵で茶漬も食えば、ビフテキにパンも食う、正宗にビール、舞踊にダンス、歌舞伎に新劇、振袖にストリップ、いくらかいても切りがないが、これで堪能がいったで御座ろう。<br/><br/> だから名なんかどちらでもよろしい。<br/><br/>何より中味が肝腎なんだよ、では一体それ程立派なものなのかと仰言るだろうが、手前味噌じゃ御座らぬが素敵滅法大安売じゃない、どえらい代物なんだから吃驚仰天しなさんな、とまずは毒気を抜いておいて、ボツボツ口から出まかせのごたくを並べてみようわい。<br/><br/> 芝居モドキじゃ御座らぬが、まず口上はこのくらいにしておいて、さて、この世の中を隅から隅までズーイッと見廻してみると、これはこれは何とマァー汚ねえ臭い裟婆（しゃば）だろう、どこもかしこも埃だらけの糞だらけ、泥へ棒を突込んだような奴だらけ、夜も碌々（ろくろく）寝られない、強窃盗や土蔵破（むすめし）が、いつ忍んで来るかは判らない。<br/><br/>昼間は昼間でコソ泥や、空巣狙いにチョックラ持ち、汽車や電車にウッカリ乗れば、スリ、巾着切りに掻払（かっぱら）い、バスに乗ったらこれはまた、衝突、転覆、崖落ちの、川へ嵌（は）まって大往生、テモ物騒な世の中じゃ。<br/><br/>そうかと思や家の中でさえ、詐欺、強請（ゆすり）やらハッタリ、騙（かた）り、タカリ、コワモテ、押借（おしがり）、脅喝など次々とやって来る。<br/><br/>また近頃はチンピラまでが大人顔負けの凄さ振り、そうかと思や人身売買、パンパンガールに不良青年、与太者、ヤクザに町のボス、いくらかいてもかき切れぬ、だからこのくらいにしておいて、これから本当のアラ探し、睡気醒ましをかこうとしよう。<br/><br/> 外でも御座らぬ、世の中で一番頭痛の種はと言えば、言わずと知れた病気という奴、ウッカリすると一つよりない命まで、召上げるんだからオッカナイ、オマケに普段から人は病の器などと脅かされている人間共だから、血気旺（さか）んな若者でさえ、ちょっと風邪でも引くとすりゃ、直に青瓢箪（あおびょうたん）のブラブラ病、ヒョロヒョロするともう君は、結核という命取りなんだから気を付けろ、そうかと思や近頃は油切った赤ッ面どころのドッチョイでさえ、危ないぞ、君も結核があると言われ、心細いどころの騒ぎじゃない。<br/><br/>そうかと思や熱が出て、ゴホンゴホンと来りゃもう肺炎、腰がフラつきゃ早やカリエス、ゼイゼイ言えば喘息で、ゲップが出ると胃何々、ドキドキすると心臓病と来ちゃ、花恥しい乙女子（おとめご）はまず慢性心臓病とはチト悪口がすぎますか、親父は親父で中風という半身不随のフラフラ病、そのまた女房は女房で子宮何々、卵巣何々、子供は子供で麻疹（はしか）に百日咳、猩紅熱（しょうこうねつ）にジフテリヤ、疫痢、脳炎と切りがない程世の中は、病神様大繁昌、油断も隙も出来はせぬ、テモ恐ろしい娑婆の態（ざま）。<br/><br/> そうかと思やお偉方は、ヤレ涜職（とくしょく）、ヤレ賄賂、やったとか取ったとか、水掛論の五月蝿（うるさ）い事、文書偽造や贋手形、財産横領に使い込み、隠匿物資、闇屋、カツギヤ、贋札使い、上から下まで、下から上まで鼻もちならぬ娑婆世界、これがホントの末の世か、昔の人の言う通り、犬猫同然、虫ケラ同然の人間ばかり、ところが糞壷にいる蛆虫は慣れっこになっちゃって、別段汚いとは思わないのと同様、お気が付かないんで御座んしょう。<br/><br/>どうです皆さん、こんなにも思い切っての扱下（こきおろ）しに、呆れ返ったで御座んしょう。<br/><br/>そこでこいつ怪しからんと、堪忍袋の緒を切って、文句の一つも言いたいだろうがちょっと待て、自体拙者は生れついての正直者、ただアケスケにありのまま、見たまま言うので、痛い御方も御座ろうが、脛傷だらけじゃ仕方があるまい。<br/><br/>頭掻き掻き、腋の下の汗をフキフキ苦笑い、フフンと言って横向けば、それでお仕舞い、それっきり、後白波（あとしらなみ）と消えちまい、浜の松風音ばかし、などといい気な拙者で御座る。<br/><br/> ザットかいてもこれくらいだとしたら、御世辞にも結構な世の中とは申せまい、ところがお偉方達は真ッ赤になって仰言（おっしゃ）るだろう、「貴様の目玉は節穴か、田螺（たにし）同然の明盲、これ程結構な世の中を、悪く言うとは怪しからん」奴というかも知れないが、拙者はそんな御託宣、百も承知の助なんだ、ところがまだまだ今少し、御耳障りでは御座ろうが、聞いて貰いたい事がある。<br/><br/>外でも御座らぬ、そもそも拙者は先祖代々の江戸ッ子で、口から先へ生れた阿呆、口車ならば直に乗り、滑り出したら大脱線、停めて止まらぬ威勢のよさ、これが江戸ッ子の持前で、もしも森の石松君、生きていたなら、オイ、お前寿司食わネェかと言うだろう、アプレゲールの江戸ッ子は、拙者で御座ると言いたいね、低い鼻をば拳固で擦り、啖呵（たんか）を切ってこれからかき出す様々はオッタマ気ないよう褌（ふんどし）を、しっかり締めてお聞なせえ、セパードのワン公じゃ御あせんが、三角耳をオッ立てて、ドイツもコイツも耳の穴よくカッポジってお聞きなすっておくんなせえ、今度いよいよ汚ねえ娑婆を、綺麗サッパリ石川で、尻洗ったよう洗い浄めてしまうんだ、何と小気味よいでは御座らぬか、というと拙者を市役所の清掃人夫と間違えちゃ困るが、実はブチまけて言えば、天の神様このたびいよいよ地に降り、掃除万端拙者にお委せなすったんだから、何と素晴しいじゃ御座んせぬか、へン、ドンナモンジャイと言いたいが、それどころか、よし来たと捻鉢巻（ねじりはちまき）に尻引ッパショリ、ウンと気張って、いよいよこれから躍り出すという寸法と来ているんだから面白い。<br/><br/> ところが、今度の大掃除は、春秋二回の縁の下の掃除なんかとは、月とスッポン程の大違い、虫けら共をつまみ出し、火で焼き灰の粉にして、西の海へとさらりと捨てりゃ水の泡、消えて跡なくなりにけり、だとしたら大変だ、ウッカリしてはおられまい、そこで神様可哀想だから、助けてやれとの仰せだが、それそこが問題なんだよ、何しろ普段からもったいなくも大神様に、悪口雑言並べたり、尻を向けたりした罰が、溜り溜ったドー屑人足、仕方泣くなく閉口頓首、逆さになってお詫びすりゃ勘弁して下さるか、下さらないかは分らない、まず何よりも今直に、メシヤ教へと来る事だ、すれば拙者はお前らの、罪や穢れのお詫びして、助けてやらない事もない、何と有難い宗教では御座らぬか、どうじゃ、恐れ入ったか、人間共よ。<br/><br/> (注) チョックラ持ち、こそ泥のこと。<br/><br/>江戸弁か。<br/><br/> 後〔跡〕白波（あとしらなみ）船の通った跡に立つ白波。<br/><br/>「しらなみ」を「知らない」にかけて、ゆくえが知れなくなること。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

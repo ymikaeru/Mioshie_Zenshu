@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>geiju041</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 ４ 041-048 大本教 041 お筆先の実現 最近の世の中は大本教のお筆先のごとくなったと世間で申しますが、これは大本教の御教祖が霊媒となられて神の御意志を伝えられたものでしょうか。<br><br> その通りで、お筆先には私も驚いている。<br><br>国常立尊が憑って書かれた。<br><br>一番当ったのは、天皇が下へ降る事で、これは明治三十年頃のお筆先であった。<br><br>また、大の字が逆になってる。<br><br>世の中、立替え立直しがある。<br><br>上の守護神の反対が山になる。<br><br>世界が一腹になって日本を征めてくる。<br><br>世は持ち切りにさせんぞよ。<br><br>今のさばっている守護神が逆さになって詫びる時が来るぞ。<br><br>食物がなくなって大根も枯葉も大事にする時が来る等のお筆先である。<br><br> 私が神憑りになって知らされたのは、昭和元年で、昭和六年六月十五日、私が房州へ行った時が岩戸開きで、それから三日経って森鳳声という彫刻師が相談に来た。<br><br>天照大神御像をいかに彫刻すべきかという事であった。<br><br>それで、五尺六寸七分にせよと言った。<br><br>それから三日経って満洲事変が起き、いよいよ立替えの時が来て、お筆先の通りであった。<br><br>それから六年経って日支事変が起ったし、それから四年経って大東亜戦が起った。<br><br>実際に激しくなったのは十八年で、それから六年は来年だから、来年は一つの変り目である。<br><br> 042 お筆先、（日本歴史、戦いの東西） 大本教のお筆先について、御説明をお願い致します。<br><br> 国常立尊が出口ナホに憑ってかかれたもので、本当のものである。<br><br>釘の折みたいな字で、これを文章にしたのが出口王仁三郎氏で、筆先が出たのが、明治二十五年から三十年ですべて出ている。<br><br>例えば、上にいる守護神即ち上流階級の没落、下流階級が上になる。<br><br>「上にいた守護神がハバりたが、いずれは神様がお出ましになれば、下が上になる」「あんなものがこんなものになり、こんなものがあんなものになる」等、いろいろある。<br><br>今の時代に言えない筆先もある。<br><br> 日本人は、本当の日本人は下積みになっている。<br><br>太古、朝鮮や支那に日本は征服された、この系統は戦いが好きで、日本歴史は戦いの歴史で、人民歴はない。<br><br>支那・朝鮮の権力争いのそれである。<br><br>出雲朝は朝鮮で、素盞嗚尊は朝鮮人で、十月は故郷へ帰るので、神無月という。<br><br> 出雲朝を征服すべく神武天皇が四十五歳の時大和へ上陸した。<br><br>この頃出雲朝は堕落していた。<br><br>時こそ来ると東征したが負けた。<br><br>これは日に向ったためとした。<br><br>北は霊で日であるから、今度の独ソ戦でも、独逸が和蘭、仏方面の西方では勝ったが、東のソビエットには負けた。<br><br>南朝北朝の南北戦でも、すべて南が負ける。<br><br>かくして第二戦には神武軍は勝ち、大国主が負け、国土奉還した。<br><br> 天孫民族というのは作ったもので、嘘である。<br><br>（モーゼの裏十誡）（S23.12. 3） 043 いろは四十八文字の身魂 イロハ四十八文字の御霊とはどのような意味で御座いましょうか。<br><br>イロハ四十八文字の御霊でこの世を踏みならすという事はどういう事なので御座いましょうか。<br><br> 大本教である。<br><br>正した意味はない。<br><br>いろは四十八文字とは、日本の純粋の身魂という意味である。<br><br>言霊の七十五声を使えるのは日本人のみである。<br><br>いろはを正確に言えるのは日本人のみである。<br><br>（S24. 8.19） 044 梅開松治 梅で開いて松で治まる、という事で御座いますが、これはどういう意味で御座いますか。<br><br> 「三千世界一度に開く梅の花」という。<br><br> 大本教、出口・上田家――。<br><br>有栖川は南朝で、中村孝や――。<br><br> 上田よねの家は国学者であった。<br><br> 045 万教帰一、世界政府実現の可能性 「生長の家」（光明思想）にて説く「万教帰一」は果して成立するでしょうか。<br><br> 谷口は大本教の幹部で、その当時私など時々遇ったりした。<br><br>万教帰一は大本教で唱えた言葉で、それを拝借した訳である。<br><br> 単に万教帰一というのはピッタリはしてない。<br><br>いずれあらゆる宗教は合同統一されるが、（国により）人種により思想も歴史も違うから、完全に帰一する事はないと思う。<br><br>ある程度である。<br><br> 例えば、世界国家などはアメリカなどで唱える。<br><br>そして世界政府、世界大統領を各国から選挙される訳であるが、世界国家になっても全然同じにはならぬ。<br><br> 帰一の形にはなるが、（実際にそうはゆかぬ）大本教など、すべての宗教は大本教一つになると言ったが、事実は逆になった。<br><br>（S24. 1.27） 046 宗教の統一、（基・仏・神の現状） 霊界におけるキリスト教、仏教、各宗派別等の団体はやがて消滅して統一されるものと思われますが、現界におけるこれら団体の活発な布教の動きは何を意味しているので御座居ましょうか。<br><br> いずれ統一される時代は来るが、今すぐでない。<br><br>（急にはゆかぬ）未だ相当（続く？）――。<br><br> キリスト教はそうでないが、仏教などは仏滅はもう来ているから、最後のあがきである。<br><br> 来年五月迄に寺の再建の届出しないと取壊される。<br><br>半分以上再建不能の寺があるだろう。<br><br>私の寺の再建の相談に来たから百万円出す事にした。<br><br>神社はまだひどい。<br><br>間貸したり店を出したりしている。<br><br>来宮の神主も店を出した。<br><br>伊勢大神宮は結婚媒介所であり、築地本願寺もそうである。<br><br>どうやらやっているのは天理教だけである。<br><br>金が集まるからで、今年は五千万円の税をとられたとの話である。<br><br>ひどいのは着物一枚残して全部上げてるのがある。<br><br>病気も治らない。<br><br>月神だからで、信仰地獄になる。<br><br>（S23.11.13） 047 万教帰一の現実化 世界は一つ、万教帰一という言葉を聞く事がありますが、現実化するのは余り遠くはないのでしょうか。<br><br> はっきり言えもせず、判ってもいけない。<br><br>すべては神様がなさるのであるから、命じられた事をやればいい。<br><br>ただ、善い世界にはなる。<br><br> 048 各宗祖の神界転移と本教 仏界から神界に移転したと承りますが、仏教により導かれた祖霊は霊界においてどう云う事になるのでしょうか。<br><br>（イ）、例えば各宗の宗祖の団体に入っていると承りましたが宗祖は神格を得られるようになるのでしょうか。<br><br>（ロ）、現界における子孫の者は現在のままお祀りなり供養をしていてよろしいでしょうか。<br><br>（ハ）、霊界が全部現界に移写した場合、現在の寺院はどう云う事になるのでしょうか。<br><br>現在は宗派と小寺院が多過ぎると思いますが―― 段々そうなる。<br><br>これから神界が出来ると、宗祖などはそこへ行き段々拡げる。<br><br>会館が出来ると結婚や葬式などもする。<br><br>すると初めて各宗祖などもその方へ移る。<br><br>段々である。<br><br>神様の事はパッとゆかぬ。<br><br>今迄通りでよい。<br><br>本教で出来れば霊界も変る。<br><br>各寺院も自然に時所位に応じて決る。<br><br>はっきり言うと外の宗教で誤解する。<br><br>そして救世教は怪しからんと言われる。<br><br>しかし神様がやられるのであるからこっちに責任はない。<br><br> はっきり言えもせず、判ってもいけない。<br><br>すべては神様がなさるのであるから命じられた事をやればいい。<br><br>ただ善い世界にはなる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Mestre Okada Jikan</h2>
 <h2>Compêndio de Religião e Arte 4: Oomoto-kyo (041-048)</h2>
@@ -130,5 +282,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> O processo será gradual. Com a formação do Mundo Divino, os fundadores das religiões para lá se dirigirão e, gradualmente, expandirão sua atuação. Quando nossos edifícios religiosos forem erguidos e passarmos a realizar cerimônias de casamento e funerais, os fundadores de outras religiões também começarão a se mover nessa direção. Tudo ocorrerá de forma paulatina, pois os desígnios de Deus não se concretizam de forma abrupta. Por enquanto, podem continuar como estão. À medida que a nossa Igreja se desenvolver, o Mundo Espiritual também se transformará. O destino de cada templo será decidido naturalmente, de acordo com o tempo, o lugar e a posição apropriados.</p>
 <p>Se eu falar abertamente, serei mal interpretado pelas outras religiões, que dirão ser a Sekaikyuseikyou uma doutrina insolente. Contudo, é Deus quem realiza todas as coisas, portanto, a responsabilidade não recai sobre nós.</p>
 <p>Não me é permitido falar claramente, nem é algo que se deva compreender. Tudo é realizado por Deus, portanto, basta que cumpramos aquilo que nos é ordenado. Contudo, uma certeza existe: um mundo bom advirá.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 ４ 041-048 大本教 041 お筆先の実現 最近の世の中は大本教のお筆先のごとくなったと世間で申しますが、これは大本教の御教祖が霊媒となられて神の御意志を伝えられたものでしょうか。<br/><br/> その通りで、お筆先には私も驚いている。<br/><br/>国常立尊が憑って書かれた。<br/><br/>一番当ったのは、天皇が下へ降る事で、これは明治三十年頃のお筆先であった。<br/><br/>また、大の字が逆になってる。<br/><br/>世の中、立替え立直しがある。<br/><br/>上の守護神の反対が山になる。<br/><br/>世界が一腹になって日本を征めてくる。<br/><br/>世は持ち切りにさせんぞよ。<br/><br/>今のさばっている守護神が逆さになって詫びる時が来るぞ。<br/><br/>食物がなくなって大根も枯葉も大事にする時が来る等のお筆先である。<br/><br/> 私が神憑りになって知らされたのは、昭和元年で、昭和六年六月十五日、私が房州へ行った時が岩戸開きで、それから三日経って森鳳声という彫刻師が相談に来た。<br/><br/>天照大神御像をいかに彫刻すべきかという事であった。<br/><br/>それで、五尺六寸七分にせよと言った。<br/><br/>それから三日経って満洲事変が起き、いよいよ立替えの時が来て、お筆先の通りであった。<br/><br/>それから六年経って日支事変が起ったし、それから四年経って大東亜戦が起った。<br/><br/>実際に激しくなったのは十八年で、それから六年は来年だから、来年は一つの変り目である。<br/><br/> 042 お筆先、（日本歴史、戦いの東西） 大本教のお筆先について、御説明をお願い致します。<br/><br/> 国常立尊が出口ナホに憑ってかかれたもので、本当のものである。<br/><br/>釘の折みたいな字で、これを文章にしたのが出口王仁三郎氏で、筆先が出たのが、明治二十五年から三十年ですべて出ている。<br/><br/>例えば、上にいる守護神即ち上流階級の没落、下流階級が上になる。<br/><br/>「上にいた守護神がハバりたが、いずれは神様がお出ましになれば、下が上になる」「あんなものがこんなものになり、こんなものがあんなものになる」等、いろいろある。<br/><br/>今の時代に言えない筆先もある。<br/><br/> 日本人は、本当の日本人は下積みになっている。<br/><br/>太古、朝鮮や支那に日本は征服された、この系統は戦いが好きで、日本歴史は戦いの歴史で、人民歴はない。<br/><br/>支那・朝鮮の権力争いのそれである。<br/><br/>出雲朝は朝鮮で、素盞嗚尊は朝鮮人で、十月は故郷へ帰るので、神無月という。<br/><br/> 出雲朝を征服すべく神武天皇が四十五歳の時大和へ上陸した。<br/><br/>この頃出雲朝は堕落していた。<br/><br/>時こそ来ると東征したが負けた。<br/><br/>これは日に向ったためとした。<br/><br/>北は霊で日であるから、今度の独ソ戦でも、独逸が和蘭、仏方面の西方では勝ったが、東のソビエットには負けた。<br/><br/>南朝北朝の南北戦でも、すべて南が負ける。<br/><br/>かくして第二戦には神武軍は勝ち、大国主が負け、国土奉還した。<br/><br/> 天孫民族というのは作ったもので、嘘である。<br/><br/>（モーゼの裏十誡）（S23.12. 3） 043 いろは四十八文字の身魂 イロハ四十八文字の御霊とはどのような意味で御座いましょうか。<br/><br/>イロハ四十八文字の御霊でこの世を踏みならすという事はどういう事なので御座いましょうか。<br/><br/> 大本教である。<br/><br/>正した意味はない。<br/><br/>いろは四十八文字とは、日本の純粋の身魂という意味である。<br/><br/>言霊の七十五声を使えるのは日本人のみである。<br/><br/>いろはを正確に言えるのは日本人のみである。<br/><br/>（S24. 8.19） 044 梅開松治 梅で開いて松で治まる、という事で御座いますが、これはどういう意味で御座いますか。<br/><br/> 「三千世界一度に開く梅の花」という。<br/><br/> 大本教、出口・上田家――。<br/><br/>有栖川は南朝で、中村孝や――。<br/><br/> 上田よねの家は国学者であった。<br/><br/> 045 万教帰一、世界政府実現の可能性 「生長の家」（光明思想）にて説く「万教帰一」は果して成立するでしょうか。<br/><br/> 谷口は大本教の幹部で、その当時私など時々遇ったりした。<br/><br/>万教帰一は大本教で唱えた言葉で、それを拝借した訳である。<br/><br/> 単に万教帰一というのはピッタリはしてない。<br/><br/>いずれあらゆる宗教は合同統一されるが、（国により）人種により思想も歴史も違うから、完全に帰一する事はないと思う。<br/><br/>ある程度である。<br/><br/> 例えば、世界国家などはアメリカなどで唱える。<br/><br/>そして世界政府、世界大統領を各国から選挙される訳であるが、世界国家になっても全然同じにはならぬ。<br/><br/> 帰一の形にはなるが、（実際にそうはゆかぬ）大本教など、すべての宗教は大本教一つになると言ったが、事実は逆になった。<br/><br/>（S24. 1.27） 046 宗教の統一、（基・仏・神の現状） 霊界におけるキリスト教、仏教、各宗派別等の団体はやがて消滅して統一されるものと思われますが、現界におけるこれら団体の活発な布教の動きは何を意味しているので御座居ましょうか。<br/><br/> いずれ統一される時代は来るが、今すぐでない。<br/><br/>（急にはゆかぬ）未だ相当（続く？）――。<br/><br/> キリスト教はそうでないが、仏教などは仏滅はもう来ているから、最後のあがきである。<br/><br/> 来年五月迄に寺の再建の届出しないと取壊される。<br/><br/>半分以上再建不能の寺があるだろう。<br/><br/>私の寺の再建の相談に来たから百万円出す事にした。<br/><br/>神社はまだひどい。<br/><br/>間貸したり店を出したりしている。<br/><br/>来宮の神主も店を出した。<br/><br/>伊勢大神宮は結婚媒介所であり、築地本願寺もそうである。<br/><br/>どうやらやっているのは天理教だけである。<br/><br/>金が集まるからで、今年は五千万円の税をとられたとの話である。<br/><br/>ひどいのは着物一枚残して全部上げてるのがある。<br/><br/>病気も治らない。<br/><br/>月神だからで、信仰地獄になる。<br/><br/>（S23.11.13） 047 万教帰一の現実化 世界は一つ、万教帰一という言葉を聞く事がありますが、現実化するのは余り遠くはないのでしょうか。<br/><br/> はっきり言えもせず、判ってもいけない。<br/><br/>すべては神様がなさるのであるから、命じられた事をやればいい。<br/><br/>ただ、善い世界にはなる。<br/><br/> 048 各宗祖の神界転移と本教 仏界から神界に移転したと承りますが、仏教により導かれた祖霊は霊界においてどう云う事になるのでしょうか。<br/><br/>（イ）、例えば各宗の宗祖の団体に入っていると承りましたが宗祖は神格を得られるようになるのでしょうか。<br/><br/>（ロ）、現界における子孫の者は現在のままお祀りなり供養をしていてよろしいでしょうか。<br/><br/>（ハ）、霊界が全部現界に移写した場合、現在の寺院はどう云う事になるのでしょうか。<br/><br/>現在は宗派と小寺院が多過ぎると思いますが―― 段々そうなる。<br/><br/>これから神界が出来ると、宗祖などはそこへ行き段々拡げる。<br/><br/>会館が出来ると結婚や葬式などもする。<br/><br/>すると初めて各宗祖などもその方へ移る。<br/><br/>段々である。<br/><br/>神様の事はパッとゆかぬ。<br/><br/>今迄通りでよい。<br/><br/>本教で出来れば霊界も変る。<br/><br/>各寺院も自然に時所位に応じて決る。<br/><br/>はっきり言うと外の宗教で誤解する。<br/><br/>そして救世教は怪しからんと言われる。<br/><br/>しかし神様がやられるのであるからこっちに責任はない。<br/><br/> はっきり言えもせず、判ってもいけない。<br/><br/>すべては神様がなさるのであるから命じられた事をやればいい。<br/><br/>ただ善い世界にはなる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280707</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月7日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月七日 今度の九州の台風については分かっているでしょうが、そのことを分かりやすく書いてみました。<br><br> （御論文「台風の霊的考察」）【栄光 二一九号】 それから美術品の集まるわけですが、この間歌麿の霊が憑って、非常に喜んで話をしたのですが、それを例として美術品の集まる理由ですが、これはいつも言うとおり不思議なほど良い物が集まるのです。<br><br>浮世絵は昨日から陳列替えをしましたが、浮世絵は去年の今ごろはまるっきりなかったのです。<br><br>その後一年もかからないうちにああいうように良い物が集まってしまったのです。<br><br>それで今はここの浮世絵は日本で一番だそうです。<br><br>陳列も博物館の専門の人が来て飾ったのですが、博物館の人がそう言うのだから間違いありません。<br><br>実に不思議なものです。<br><br>その原因を書いてみました。<br><br> （御論文「美術品蒐集の奇蹟」）【栄光 二一八号】 今読んだようなわけですが、私の欲しい物が世の中にはまだたくさんあります。<br><br>中には売ると言ったのが売らなくなったり、それから欲張ってどうしても手放さない人があるのです。<br><br>そういうのは霊の方では売るようにしなければならないから、経済的にいろんな手段で苦しくして売るようにしてしまうのです。<br><br>だからどうすることもできません。<br><br>たまには「美術館に永久に残るのなら値段はともかくぜひ買ってもらいたい」というごく奇特な人もありますが、たいていな人は救世教は金があるのだからと、つけこんで、大いに高く売ってやろうということもチョイチョイあります。<br><br>石黒忠篤という人の息子か甥で、ヨーロッパに行っていろんな美術品を買ってきて、日本で初めてですが、それを芝の西洋骨董屋に陳列してあって、私の所に持参した二、三点を買い込んだ人が紹介者と一緒に来て、ポンペーから掘り出した土に画いた油絵で、なかなか良い物ですが、値段を聞くと百二十万円と言うのです。<br><br>それではとにかく置いていってくれ、と置かしたのです。<br><br>それから二、三日たって、私の方のその方の係の者が来て、この春行った時に七十万円の値段だったと言うのです。<br><br>買うなら四十万円くらいでしょう。<br><br>四十万円なら買うと言って、いったん返してくださいと言うのです。<br><br>七十万円でも高くてなかなか買い手がなかったのだそうです。<br><br>ですから人を馬鹿にしてます。<br><br>そういうことはたくさんあります。<br><br>救世教というのは金がたくさんある。<br><br>それもどうせ信者からもらったような金だから、取るだけ取ってやろうという腹です。<br><br>しかし私は逆に言ってやろうと思っています。<br><br>自分で儲けた金ならいくら高くても買ってやろうと思うが、信者が心血をそそいだ零細な金だから、アダやオロソカに買えない。<br><br>相場だったらよいが、少しでも高かったら、信者に対して悪いから、相場以外のものなら絶対に買えない、と先方の考えと逆に言ってやるつもりです。<br><br>私はよくそういうことを言うのですが、こういうのはまだ穏やかな方で、もっとひどいのが多いです。<br><br>こういうのはふつうの道具屋ではないのです。<br><br>なぜというと、大学出のインテリなのです。<br><br>それでスでもコンニャクでもまるっきり食えない道具屋のやり方です。<br><br>そこで冷水三斗を浴びせてやりたいと思います。<br><br>だからそういうつけこむやり方だったら、とうていこれから取り引きはできないから、まじめにやればよいが、さもなければ駄目だからと言ってやるつもりです。<br><br>それでだんだん分かってくるとまじめになるのです。<br><br>そういうのは一つの教育をする必要があります。<br><br>そういうようで、世の中にはまだ欲しい物があります。<br><br>中には、これは良い物をたくさん持っている所ですが、主人が死んでしまって、主人の弟は売りたがっているが、婆さんが頑張っているのです。<br><br>主人が死んで、自分が跡を継ぐようになってからそういった品物を手放すということは面目にかかわるから、自分が生きている間だけは絶対に売らないでくれと言っているのです。<br><br>ですからそういう人は長生きはできないことになるのではないかと思ってます。<br><br>そういうようで、なんだかんだと売らないようにしても、結局売らざるを得なくされるわけです。<br><br>それは神様がされるのではなくて、そこの祖霊が霊界で早く自分が手柄にしようとして売らせるようにするわけです。<br><br>だから私は心の中では欲しいと思っていても、別に手段はとりません。<br><br>ただ待っているのです。<br><br>だからみんなが、どうしてこんな良い物が集まりましたか、と驚きますが、つまりこれは人間業でないという証拠です。<br><br>それで聞いてみると、良い物というのはなかなか手にはいらないものだそうです。<br><br>だからやはり神様がこの美術館を造り立派にしつつあるわけです。<br><br> それから自然栽培をやる人で、まだ徹底しないところがあります。<br><br>それは土を生かすということです。<br><br>今まで金肥、人肥で土の力を殺していたというのを、今度は反対に土を生かすようにするという場合に、連作が非常によいのです。<br><br>それはどういうわけかというと、土自体が植物なら植物を育てるような一つの性能をだんだん発揮して行くのです。<br><br>それで農村では連作を嫌って年々畑を変えることをよいとしてますが、そういうことを言うとちょっとおかしいと思うことは、米くらい連作しているものはありません。<br><br>先祖代々昔からやってますが、もし連作がいけないものなら年々悪くなるはずです。<br><br>もっとも今は肥料で悪くしていますが。<br><br>とにかく肥料をやるために土が変質してしまうのです。<br><br>そのために連作が悪いように、土が一種の片端になったようなものです。<br><br>だから二毛作で米と麦を半々にやることをよいとしていたのを、私が二毛作はいけないということを言って、一毛作にして非常に成績がよいという報告がありますが、そういうようで無肥料にして連作をすれば、士はいくらでもその作物に対する性能が増して行くのです。<br><br>だから実際言うと米にしてもだんだん増えていって、今の三倍くらいになります。<br><br>最近来たお蔭話で、その人は七年目ですが、最初一、二年というものは、やはりどうしても無肥料が信じられないで、なにか他の肥料も時々混ぜたようです。<br><br>それが分かって、三年目くらいから本当にぜんぜん無肥料にしたのですから、とにかく正味五年目くらいでしょう。<br><br>それで去年は反当り十俵いくらというのです。<br><br>それで他の近所の収穫は五俵いくらというのですから、ちょうど倍は穫れたわけです。<br><br>そういうようなわけで倍くらいはなんでもありません。<br><br>私は五割増産としましたが、本当は倍と書きたかったのです。<br><br>しかしあんまり穫れ過ぎるように書くと、かえって本当にしないのです。<br><br>なにか常識外れのように思われますから、割引して五割としたのです。<br><br>それで農村の人はなかなか肥料迷信にかかってますから、本当にぜんぜん無肥料に切り替えるのはなかなか難しいのです。<br><br>というのは土が連作によって、今言うようにその作物に合うような力が出るということを本当に知らないからです。<br><br>そこでそれをよく知るように今話もし、また書くつもりです。<br><br>この連作により土の性能が増すということをよく心得てもらいたいと思います。<br><br> ちょっとおもしろい論文を読ませます。<br><br> （御論文「借金二十年」）【栄光 二一七号】 それからこの前も「結核は肩を主にして浄霊する」ということを言いましたが、これは結核ばかりでなく、心臓病でも胃病でもこれがもっとも効果があります。<br><br>心臓病の人は必ず左の肩が凝ってます。<br><br>これが溶けたものが心臓のまわりに固まって圧迫するのです。<br><br>それが心臓病です。<br><br>喘息も無論それです。<br><br>喘息の方は横隔膜の方に固まるのです。<br><br>ですからよく医者の方では心臓性喘息と言います。<br><br>それで心臓の活動が悪くなるから肺の活動が悪くなるのです。<br><br>これはみんな知っているでしょうが、肺は水で心臓は火ですから、火が多くなれば水がよく活動しますから肺にもよい影響がゆくわけです。<br><br>そういうようで肩を柔らかくすると肺が良くなるということは、心臓が良くなるからです。<br><br>それから肩が柔らかくなると非常に腹が減るのです。<br><br>私はいろいろと昔の薬毒がウンとあります。<br><br>順繰りにとれてますが、去年の秋あたりから肩を柔らかくするために肩を浄霊しました。<br><br>それでごく固い所は指から霊を入れるのです。<br><br>そうするとだんだん柔らかくなるのですが、今は去年からみると食欲は倍くらいになりました。<br><br>そうして非常においしいのです。<br><br>そういうようで食欲が増えるということは胃の活動がよくなるわけです。<br><br>ですから肩を柔らかくするということは、肺と心臓と胃が良くなります。<br><br>ですからこの三つが良くなるということは、他は問題ではありません。<br><br>他のことは付録みたいなものです。<br><br>肝臓が悪いと言ったところで、やはり肩から下がって行って溜まるのです。<br><br>それから腎臓が悪いと、こういう所（腰）に溜まりますが、それも肩から下がってくるのです。<br><br>それから糖尿病は膵臓ですが、左の方です。<br><br>ここも肝臓と同じようなもので、肝臓が悪くなるから圧迫されて、胆嚢も起り黄疸も起るというわけですから、大体肺、心臓、胃とこの三位一体が良くなれば問題はありません。<br><br>あとは頭ですが、今は頭を非常に使わなくては生活できません。<br><br>昔のように暢気な時代ではないから、どうしても頭を使います。<br><br>それで頭を使うと、これに固まりが来ます。<br><br>これは大体は肩に溜まったものが、頭を使うのでここに来るのです。<br><br>ですから肩を柔らかくすると、これも柔らかくなります。<br><br>それで後頭部に溜まったものが溶けると赤痢ですが、今は赤痢がはやると言って大騒ぎをやってますが、当局が一番注意していることは、手をよく洗えということで、実に滑稽です。<br><br>手が赤痢の原因と言うのですから、私は現代医学というのは子供瞞しだと昔から言ってますがまったくそうです。<br><br>そうすると手に黴菌がついて、それが口からはいるというようなわけでしょうが、これがおかしいので、そうすると人間がすべて手づかみで食べ物を食べると思っているのです。<br><br>もっとも南洋のタイだとかマレーの方では、私はいつか映画で見ましたが、みんな指で食べてます。<br><br>その理屈で行くと、向こうは赤痢がウンとあるわけです。<br><br>しかし日本人は、箸かフォークかサジで食べます。<br><br>手づかみでは食べないから、手だけ洗えということは変です。<br><br>これは分からないからで、一つの気休めです。<br><br>たぶん手だろうというわけです。<br><br>実にかわいそうな、一つのナンセンス的なものです。<br><br>しかし赤痢は頭が良くなりますから、赤痢くらい結構なものはありません。<br><br>これは最初は肩からだんだん行くのです。<br><br>そこで肩を柔らかくするということが根本です。<br><br>それでただ肩に関係のないのは中風です。<br><br>中風の人はかえって肩が柔らかいのです。<br><br>その代わり中風の人は頸に固まりができます。<br><br>中風の人は健康な人に限ってます。<br><br>弱い人は決してなりません。<br><br>健康でいばっている人が必ずなります。<br><br>脂ぎった赤ら顔の頑健な人に起ります。<br><br>簡単に言うと、健康な人は中風になり、弱そうな人は結核になるというわけです。<br><br>中風と結核は極端に反対な病気と言ってもよいのです。<br><br>そういうようで中風だけはかえって肩の柔らかい人が多いのです。<br><br>あとはみんな肩の固い人です。<br><br> 前に三菱重工業の課長で立派な人でしたが、非常に剣道が好きな人で毎日やってました。<br><br>その人は肩が非常に固くて、イカっているのです。<br><br>この人もよく浄霊してやりました。<br><br>ちょうど私が昭和十五年の暮れに治療を止めてから、その人は私の治療を受けなくなりました。<br><br>それから確か半年くらいたってから急に変な病気が起って非常に血が出るのです。<br><br>それで私は弟子を治療にやらせましたが、とうとう死んでしまいました。<br><br>そんな死ぬような人ではなく、非常に健康そうな人でした。<br><br>しかし肩が非常に固かったのです。<br><br>だからスポーツマンが割に早死にというのは肩が固いからです。<br><br>砲丸投げとか棒高跳びとか水泳とか、みんな肩に力を入れるから肩が固いのです。<br><br>またスポーツマンに限って結核になります。<br><br>これは肩に固まったものが、浄化熱が起って溶けて咳と痰が出ますから、それは医者に行けば結核にされます。<br><br>そういうようで肩が柔らかいということが一番です。<br><br>子供でも学校の成績の悪いのは必ず肩が固いです。<br><br>腺病質という、青い顔してヒョロヒョロしたのはみんな肩の病気です。<br><br>子供などは簡単に肩をやってやるのです。<br><br>それで浄霊の場合に、前から肩を狙ってやり後ろからやり、酷い人は上からやれば、だんだん柔らかくなってきます。<br><br>たいてい本人が肩が凝るということを言いますから、それで分かりますが、子供は触ってみればすぐ分かります。<br><br>それから赤ん坊にたくさんあります。<br><br>カン持ちや、ジレたり、非常によく泣くのはみんな肩が固いのです。<br><br>それからよく熱を出すのがそうです。<br><br>それから扁桃腺は子供に多いですが、やはり肩の毒が行くのです。<br><br>結局上は肩を主にして、それから頸のまわりです。<br><br>それから頭は脳天の奥に毒がある人が多いです。<br><br>これは始終心配するとここに行くのです。<br><br>それから頭を使うとここに寄ります。<br><br>本に書いてあるとおり、記憶とか、本を読むとか、学問をするとか、そういう考えるのは前頭部です。<br><br>後頭部は感情です。<br><br>ところが心配するのは感情と智性と両方使うから脳天に来るのです。<br><br>そこでここの中心が重い人や苦しい人はたくさんありますが、それはここです。<br><br>それから後頭部、延髄という順序でやって行けば、なんの病気でも良くなります。<br><br>今のは上半身ですが、下半身は、腰の悪い人は足が悪いのです。<br><br>よく、くたびれやすいとか足がだるいとかです。<br><br>それから腰が悪いと息が切れます。<br><br>じっとしていると切れないが、歩いたり坂などを上ると息が切れますが、それは腰です。<br><br>すなわち腰が悪いと心臓の毒血がここに固まるのです。<br><br>それで足の悪い人は、尾てい骨をやれば必ずよくなります。<br><br>尾てい骨を中心にやって、それから腎臓ですが、そういう人は腎臓の下部の方が多いです。<br><br>それからお腹のはる人は、無論腎臓です。<br><br>それからもう一つはお腹のはる人は小便の出が悪いのですから、臍の下から下腹の中心をやればよいです。<br><br>みんなここに両方から尿毒が寄ってきますから、そこの中心をやればお腹はずっと軽くなります。<br><br>むしろ下の方がよいです。<br><br>恥骨といって毛の生えている所の辺がよいです。<br><br>そうすると膀胱の毒がとれてゆきます。<br><br>それから足のあがきの悪い人は腿の外側を押せば固いですからそこをやるのです。<br><br>それから膝から下の悪いのは膝の裏をやるのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Lógica Espiritual por Trás dos Acontecimentos</h2>
 <p>Certamente, os senhores já têm conhecimento do recente tufão em Kyushu, e redigi um artigo para explicar o ocorrido de forma mais clara.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Em suma, para a parte superior do corpo, o foco principal é nos ombros e ao redor do pescoço. Muitas pessoas têm toxinas acumuladas no centro do cérebro, no topo da cabeça. A preocupação constante as direciona para esse ponto. O esforço intelectual também as atrai para lá. Como está escrito nos ensinamentos, as funções de memória, leitura, estudo e raciocínio se concentram na parte frontal do cérebro. A parte posterior rege as emoções. A preocupação, por envolver tanto a razão quanto a emoção, afeta o topo da cabeça. Por isso, muitas pessoas sentem peso ou desconforto nesse ponto. A sequência correta da purificação é: topo da cabeça, nuca e bulbo raquidiano. Seguindo essa ordem, qualquer doença pode ser curada.</p>
 <p>Isso se refere à parte superior do corpo. Quanto à parte inferior, pessoas com problemas na região lombar geralmente têm as pernas fracas, sentindo cansaço e peso com facilidade. Problemas na lombar também causam falta de ar. Em repouso, a respiração é normal, mas ao caminhar ou subir uma ladeira, a pessoa fica ofegante. Isso se deve à lombar. Ou seja, quando a lombar está comprometida, o sangue impuro do coração se acumula ali. Para quem tem problemas nas pernas, purificar o cóccix é a solução infalível. Deve-se concentrar no cóccix e depois nos rins, pois nesses casos, a parte inferior dos rins costuma estar afetada.</p>
 <p>Pessoas com o abdômen inchado certamente têm problemas renais. Além disso, a micção é deficiente. Nesses casos, basta purificar o centro do baixo-ventre, abaixo do umbigo. As toxinas urológicas de ambos os lados se concentram ali, e purificar esse ponto central trará grande alívio. A área ainda mais abaixo, na região do osso púbico, é ainda mais eficaz. Isso elimina as toxinas da bexiga. Para quem tem dificuldade de mover as pernas, basta pressionar a parte externa da coxa; se estiver dura, é ali que se deve purificar. Por fim, para problemas do joelho para baixo, o ponto a ser purificado é a parte de trás do joelho.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月7日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月七日 今度の九州の台風については分かっているでしょうが、そのことを分かりやすく書いてみました。<br/><br/> （御論文「台風の霊的考察」）【栄光 二一九号】 それから美術品の集まるわけですが、この間歌麿の霊が憑って、非常に喜んで話をしたのですが、それを例として美術品の集まる理由ですが、これはいつも言うとおり不思議なほど良い物が集まるのです。<br/><br/>浮世絵は昨日から陳列替えをしましたが、浮世絵は去年の今ごろはまるっきりなかったのです。<br/><br/>その後一年もかからないうちにああいうように良い物が集まってしまったのです。<br/><br/>それで今はここの浮世絵は日本で一番だそうです。<br/><br/>陳列も博物館の専門の人が来て飾ったのですが、博物館の人がそう言うのだから間違いありません。<br/><br/>実に不思議なものです。<br/><br/>その原因を書いてみました。<br/><br/> （御論文「美術品蒐集の奇蹟」）【栄光 二一八号】 今読んだようなわけですが、私の欲しい物が世の中にはまだたくさんあります。<br/><br/>中には売ると言ったのが売らなくなったり、それから欲張ってどうしても手放さない人があるのです。<br/><br/>そういうのは霊の方では売るようにしなければならないから、経済的にいろんな手段で苦しくして売るようにしてしまうのです。<br/><br/>だからどうすることもできません。<br/><br/>たまには「美術館に永久に残るのなら値段はともかくぜひ買ってもらいたい」というごく奇特な人もありますが、たいていな人は救世教は金があるのだからと、つけこんで、大いに高く売ってやろうということもチョイチョイあります。<br/><br/>石黒忠篤という人の息子か甥で、ヨーロッパに行っていろんな美術品を買ってきて、日本で初めてですが、それを芝の西洋骨董屋に陳列してあって、私の所に持参した二、三点を買い込んだ人が紹介者と一緒に来て、ポンペーから掘り出した土に画いた油絵で、なかなか良い物ですが、値段を聞くと百二十万円と言うのです。<br/><br/>それではとにかく置いていってくれ、と置かしたのです。<br/><br/>それから二、三日たって、私の方のその方の係の者が来て、この春行った時に七十万円の値段だったと言うのです。<br/><br/>買うなら四十万円くらいでしょう。<br/><br/>四十万円なら買うと言って、いったん返してくださいと言うのです。<br/><br/>七十万円でも高くてなかなか買い手がなかったのだそうです。<br/><br/>ですから人を馬鹿にしてます。<br/><br/>そういうことはたくさんあります。<br/><br/>救世教というのは金がたくさんある。<br/><br/>それもどうせ信者からもらったような金だから、取るだけ取ってやろうという腹です。<br/><br/>しかし私は逆に言ってやろうと思っています。<br/><br/>自分で儲けた金ならいくら高くても買ってやろうと思うが、信者が心血をそそいだ零細な金だから、アダやオロソカに買えない。<br/><br/>相場だったらよいが、少しでも高かったら、信者に対して悪いから、相場以外のものなら絶対に買えない、と先方の考えと逆に言ってやるつもりです。<br/><br/>私はよくそういうことを言うのですが、こういうのはまだ穏やかな方で、もっとひどいのが多いです。<br/><br/>こういうのはふつうの道具屋ではないのです。<br/><br/>なぜというと、大学出のインテリなのです。<br/><br/>それでスでもコンニャクでもまるっきり食えない道具屋のやり方です。<br/><br/>そこで冷水三斗を浴びせてやりたいと思います。<br/><br/>だからそういうつけこむやり方だったら、とうていこれから取り引きはできないから、まじめにやればよいが、さもなければ駄目だからと言ってやるつもりです。<br/><br/>それでだんだん分かってくるとまじめになるのです。<br/><br/>そういうのは一つの教育をする必要があります。<br/><br/>そういうようで、世の中にはまだ欲しい物があります。<br/><br/>中には、これは良い物をたくさん持っている所ですが、主人が死んでしまって、主人の弟は売りたがっているが、婆さんが頑張っているのです。<br/><br/>主人が死んで、自分が跡を継ぐようになってからそういった品物を手放すということは面目にかかわるから、自分が生きている間だけは絶対に売らないでくれと言っているのです。<br/><br/>ですからそういう人は長生きはできないことになるのではないかと思ってます。<br/><br/>そういうようで、なんだかんだと売らないようにしても、結局売らざるを得なくされるわけです。<br/><br/>それは神様がされるのではなくて、そこの祖霊が霊界で早く自分が手柄にしようとして売らせるようにするわけです。<br/><br/>だから私は心の中では欲しいと思っていても、別に手段はとりません。<br/><br/>ただ待っているのです。<br/><br/>だからみんなが、どうしてこんな良い物が集まりましたか、と驚きますが、つまりこれは人間業でないという証拠です。<br/><br/>それで聞いてみると、良い物というのはなかなか手にはいらないものだそうです。<br/><br/>だからやはり神様がこの美術館を造り立派にしつつあるわけです。<br/><br/> それから自然栽培をやる人で、まだ徹底しないところがあります。<br/><br/>それは土を生かすということです。<br/><br/>今まで金肥、人肥で土の力を殺していたというのを、今度は反対に土を生かすようにするという場合に、連作が非常によいのです。<br/><br/>それはどういうわけかというと、土自体が植物なら植物を育てるような一つの性能をだんだん発揮して行くのです。<br/><br/>それで農村では連作を嫌って年々畑を変えることをよいとしてますが、そういうことを言うとちょっとおかしいと思うことは、米くらい連作しているものはありません。<br/><br/>先祖代々昔からやってますが、もし連作がいけないものなら年々悪くなるはずです。<br/><br/>もっとも今は肥料で悪くしていますが。<br/><br/>とにかく肥料をやるために土が変質してしまうのです。<br/><br/>そのために連作が悪いように、土が一種の片端になったようなものです。<br/><br/>だから二毛作で米と麦を半々にやることをよいとしていたのを、私が二毛作はいけないということを言って、一毛作にして非常に成績がよいという報告がありますが、そういうようで無肥料にして連作をすれば、士はいくらでもその作物に対する性能が増して行くのです。<br/><br/>だから実際言うと米にしてもだんだん増えていって、今の三倍くらいになります。<br/><br/>最近来たお蔭話で、その人は七年目ですが、最初一、二年というものは、やはりどうしても無肥料が信じられないで、なにか他の肥料も時々混ぜたようです。<br/><br/>それが分かって、三年目くらいから本当にぜんぜん無肥料にしたのですから、とにかく正味五年目くらいでしょう。<br/><br/>それで去年は反当り十俵いくらというのです。<br/><br/>それで他の近所の収穫は五俵いくらというのですから、ちょうど倍は穫れたわけです。<br/><br/>そういうようなわけで倍くらいはなんでもありません。<br/><br/>私は五割増産としましたが、本当は倍と書きたかったのです。<br/><br/>しかしあんまり穫れ過ぎるように書くと、かえって本当にしないのです。<br/><br/>なにか常識外れのように思われますから、割引して五割としたのです。<br/><br/>それで農村の人はなかなか肥料迷信にかかってますから、本当にぜんぜん無肥料に切り替えるのはなかなか難しいのです。<br/><br/>というのは土が連作によって、今言うようにその作物に合うような力が出るということを本当に知らないからです。<br/><br/>そこでそれをよく知るように今話もし、また書くつもりです。<br/><br/>この連作により土の性能が増すということをよく心得てもらいたいと思います。<br/><br/> ちょっとおもしろい論文を読ませます。<br/><br/> （御論文「借金二十年」）【栄光 二一七号】 それからこの前も「結核は肩を主にして浄霊する」ということを言いましたが、これは結核ばかりでなく、心臓病でも胃病でもこれがもっとも効果があります。<br/><br/>心臓病の人は必ず左の肩が凝ってます。<br/><br/>これが溶けたものが心臓のまわりに固まって圧迫するのです。<br/><br/>それが心臓病です。<br/><br/>喘息も無論それです。<br/><br/>喘息の方は横隔膜の方に固まるのです。<br/><br/>ですからよく医者の方では心臓性喘息と言います。<br/><br/>それで心臓の活動が悪くなるから肺の活動が悪くなるのです。<br/><br/>これはみんな知っているでしょうが、肺は水で心臓は火ですから、火が多くなれば水がよく活動しますから肺にもよい影響がゆくわけです。<br/><br/>そういうようで肩を柔らかくすると肺が良くなるということは、心臓が良くなるからです。<br/><br/>それから肩が柔らかくなると非常に腹が減るのです。<br/><br/>私はいろいろと昔の薬毒がウンとあります。<br/><br/>順繰りにとれてますが、去年の秋あたりから肩を柔らかくするために肩を浄霊しました。<br/><br/>それでごく固い所は指から霊を入れるのです。<br/><br/>そうするとだんだん柔らかくなるのですが、今は去年からみると食欲は倍くらいになりました。<br/><br/>そうして非常においしいのです。<br/><br/>そういうようで食欲が増えるということは胃の活動がよくなるわけです。<br/><br/>ですから肩を柔らかくするということは、肺と心臓と胃が良くなります。<br/><br/>ですからこの三つが良くなるということは、他は問題ではありません。<br/><br/>他のことは付録みたいなものです。<br/><br/>肝臓が悪いと言ったところで、やはり肩から下がって行って溜まるのです。<br/><br/>それから腎臓が悪いと、こういう所（腰）に溜まりますが、それも肩から下がってくるのです。<br/><br/>それから糖尿病は膵臓ですが、左の方です。<br/><br/>ここも肝臓と同じようなもので、肝臓が悪くなるから圧迫されて、胆嚢も起り黄疸も起るというわけですから、大体肺、心臓、胃とこの三位一体が良くなれば問題はありません。<br/><br/>あとは頭ですが、今は頭を非常に使わなくては生活できません。<br/><br/>昔のように暢気な時代ではないから、どうしても頭を使います。<br/><br/>それで頭を使うと、これに固まりが来ます。<br/><br/>これは大体は肩に溜まったものが、頭を使うのでここに来るのです。<br/><br/>ですから肩を柔らかくすると、これも柔らかくなります。<br/><br/>それで後頭部に溜まったものが溶けると赤痢ですが、今は赤痢がはやると言って大騒ぎをやってますが、当局が一番注意していることは、手をよく洗えということで、実に滑稽です。<br/><br/>手が赤痢の原因と言うのですから、私は現代医学というのは子供瞞しだと昔から言ってますがまったくそうです。<br/><br/>そうすると手に黴菌がついて、それが口からはいるというようなわけでしょうが、これがおかしいので、そうすると人間がすべて手づかみで食べ物を食べると思っているのです。<br/><br/>もっとも南洋のタイだとかマレーの方では、私はいつか映画で見ましたが、みんな指で食べてます。<br/><br/>その理屈で行くと、向こうは赤痢がウンとあるわけです。<br/><br/>しかし日本人は、箸かフォークかサジで食べます。<br/><br/>手づかみでは食べないから、手だけ洗えということは変です。<br/><br/>これは分からないからで、一つの気休めです。<br/><br/>たぶん手だろうというわけです。<br/><br/>実にかわいそうな、一つのナンセンス的なものです。<br/><br/>しかし赤痢は頭が良くなりますから、赤痢くらい結構なものはありません。<br/><br/>これは最初は肩からだんだん行くのです。<br/><br/>そこで肩を柔らかくするということが根本です。<br/><br/>それでただ肩に関係のないのは中風です。<br/><br/>中風の人はかえって肩が柔らかいのです。<br/><br/>その代わり中風の人は頸に固まりができます。<br/><br/>中風の人は健康な人に限ってます。<br/><br/>弱い人は決してなりません。<br/><br/>健康でいばっている人が必ずなります。<br/><br/>脂ぎった赤ら顔の頑健な人に起ります。<br/><br/>簡単に言うと、健康な人は中風になり、弱そうな人は結核になるというわけです。<br/><br/>中風と結核は極端に反対な病気と言ってもよいのです。<br/><br/>そういうようで中風だけはかえって肩の柔らかい人が多いのです。<br/><br/>あとはみんな肩の固い人です。<br/><br/> 前に三菱重工業の課長で立派な人でしたが、非常に剣道が好きな人で毎日やってました。<br/><br/>その人は肩が非常に固くて、イカっているのです。<br/><br/>この人もよく浄霊してやりました。<br/><br/>ちょうど私が昭和十五年の暮れに治療を止めてから、その人は私の治療を受けなくなりました。<br/><br/>それから確か半年くらいたってから急に変な病気が起って非常に血が出るのです。<br/><br/>それで私は弟子を治療にやらせましたが、とうとう死んでしまいました。<br/><br/>そんな死ぬような人ではなく、非常に健康そうな人でした。<br/><br/>しかし肩が非常に固かったのです。<br/><br/>だからスポーツマンが割に早死にというのは肩が固いからです。<br/><br/>砲丸投げとか棒高跳びとか水泳とか、みんな肩に力を入れるから肩が固いのです。<br/><br/>またスポーツマンに限って結核になります。<br/><br/>これは肩に固まったものが、浄化熱が起って溶けて咳と痰が出ますから、それは医者に行けば結核にされます。<br/><br/>そういうようで肩が柔らかいということが一番です。<br/><br/>子供でも学校の成績の悪いのは必ず肩が固いです。<br/><br/>腺病質という、青い顔してヒョロヒョロしたのはみんな肩の病気です。<br/><br/>子供などは簡単に肩をやってやるのです。<br/><br/>それで浄霊の場合に、前から肩を狙ってやり後ろからやり、酷い人は上からやれば、だんだん柔らかくなってきます。<br/><br/>たいてい本人が肩が凝るということを言いますから、それで分かりますが、子供は触ってみればすぐ分かります。<br/><br/>それから赤ん坊にたくさんあります。<br/><br/>カン持ちや、ジレたり、非常によく泣くのはみんな肩が固いのです。<br/><br/>それからよく熱を出すのがそうです。<br/><br/>それから扁桃腺は子供に多いですが、やはり肩の毒が行くのです。<br/><br/>結局上は肩を主にして、それから頸のまわりです。<br/><br/>それから頭は脳天の奥に毒がある人が多いです。<br/><br/>これは始終心配するとここに行くのです。<br/><br/>それから頭を使うとここに寄ります。<br/><br/>本に書いてあるとおり、記憶とか、本を読むとか、学問をするとか、そういう考えるのは前頭部です。<br/><br/>後頭部は感情です。<br/><br/>ところが心配するのは感情と智性と両方使うから脳天に来るのです。<br/><br/>そこでここの中心が重い人や苦しい人はたくさんありますが、それはここです。<br/><br/>それから後頭部、延髄という順序でやって行けば、なんの病気でも良くなります。<br/><br/>今のは上半身ですが、下半身は、腰の悪い人は足が悪いのです。<br/><br/>よく、くたびれやすいとか足がだるいとかです。<br/><br/>それから腰が悪いと息が切れます。<br/><br/>じっとしていると切れないが、歩いたり坂などを上ると息が切れますが、それは腰です。<br/><br/>すなわち腰が悪いと心臓の毒血がここに固まるのです。<br/><br/>それで足の悪い人は、尾てい骨をやれば必ずよくなります。<br/><br/>尾てい骨を中心にやって、それから腎臓ですが、そういう人は腎臓の下部の方が多いです。<br/><br/>それからお腹のはる人は、無論腎臓です。<br/><br/>それからもう一つはお腹のはる人は小便の出が悪いのですから、臍の下から下腹の中心をやればよいです。<br/><br/>みんなここに両方から尿毒が寄ってきますから、そこの中心をやればお腹はずっと軽くなります。<br/><br/>むしろ下の方がよいです。<br/><br/>恥骨といって毛の生えている所の辺がよいです。<br/><br/>そうすると膀胱の毒がとれてゆきます。<br/><br/>それから足のあがきの悪い人は腿の外側を押せば固いですからそこをやるのです。<br/><br/>それから膝から下の悪いのは膝の裏をやるのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

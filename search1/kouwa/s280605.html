@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280605</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月5日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月五日 だんだん霊界が明るくなるに従って邪神の方はたいへんなのです。<br><br>七転八倒してます。<br><br>つまり医学を利用して人類の健康を弱らせようという大謀略なのです。<br><br>それを私に見つけられたのです。<br><br>と同時に霊界がだんだん明るくなってくるので、せっかく二千年以上かかってやった計画を一挙に覆されるという断末魔にあるのです。<br><br>そこでなんとかして傷つけなければならないのです。<br><br>というのは邪神の方では気づいてはいるのです。<br><br>しかしそれを一日でも延ばしたいのです。<br><br>それで中には降伏する者もそうとうありますが、巨頭連が頑張っているのです。<br><br>なんとかしてふたたび取り返そうというわけです。<br><br>それですから救世教を邪魔するのに、以前は官憲を使ったり新聞社を使ったりしてやったが、両方とも成功しなかったのです。<br><br>それで昨夜はラジオの放送局を使ったのです。<br><br>これで先方の使う武器はおしまいです。<br><br>だから昨夜の放送を聞いてみると、作り事をやってます。<br><br>嘘をやっているのです。<br><br>それで嘘を自分で暴露してます。<br><br>医者も出ましたが、手術すれば助かったのだということを言ってますが、よく聞いてみると、最初医者は駄目だと言ったのだそうです。<br><br>それはそうでしょう、なにしろ高い所から落ちて人事不省なのですから、医者で治るということはあり得べからざることです。<br><br>それを昨夜は手術すれば治るということを言いましたが、それは嘘をついてます。<br><br>少しばかりでも嘘を言うようでは、自分から悪ということを自白してます。<br><br>そうしておもしろいのは、最後に、救世教では十日生き延びたということは浄霊のためだと言っていると言うのですが、医者の方でも一週間は生きていると言ったということを言ってます。<br><br>そうすると医者の方でも一週間は生きているということは、一週間以後は死ぬということになります。<br><br>だから手術すれば助かるということとは、自分から嘘だということを自白してます。<br><br>どこまでも嘘は嘘です。<br><br>それから船大工だったが、救世教を信仰したから頼み手が非常になくなった、それから世間から相手にされないで孤独だと言うのですが、いろいろ聞いてみると、みんな嘘なのです。<br><br>ですから弁護士に頼んで、名誉毀損の告訴をするつもりです。<br><br>そうしておかないと、あとまたそういった嘘で固めて、こっちの妨害をする者が出るといけませんから、その予防もありますし、怖がらせておいた方がよいと思って、そうするつもりです。<br><br> 医者とか天下の放送局というものが、そういうでたらめを言って、新宗教に打撃を与えようというその行為は、実に憎むべきものです。<br><br>というのは、邪神の方でもだんだんやっつけられるので、苦しまぎれにそういうことをやるわけです。<br><br>それはみんな邪神の眷族がそういう連中に憑って、そうやらせるのです。<br><br>ところにもっていって、一般の人間は、新宗教なんていうのは虫が好かないというので、なにも理屈はないので、ただ虫が好かないから、なにか折があったらやっつけてやれと思っているところに、なにかやっつけられそうな材料がはいると、よしこれでやっつけてやろうという種に使うわけです。<br><br>だから他愛ないわけですが、しかしそういうことも邪魔になりますから、そういうことのない方が一人でもよけい救われますから、そういうことがあると、知らない人はやっぱりウッカリそれに乗ります。<br><br>だからまだまだある時期までは問題を起さないように大いに注意した方がよいです。<br><br>なにしろ先方は武器を握っているし、こっちは無手ですから、振りまわされると怪我をしますから、なるだけ怪我のない方がこっちはやりよいのです。<br><br>それで昨夜の放送を聞いてみても、別に医者にかからない、診てもらわないということは言いません。<br><br>実際に診てもらっているのです。<br><br>ただ手術は嫌だ、それから薬は、もしか死んでも死ぬ時に穢すから、穢されないように薬をのまないというのですから、これはもっともなことです。<br><br>そこで放送局の連中も、警察署長にいろんなことを聞いていましたが、やっぱり放送局の連中も新宗教が憎くてたまらないので、公平なるべきその職務を忘れて、警察に行って、なにか問題を起したいと思っていることが明らかです。<br><br>ところが警察署長の答弁は実によいです。<br><br>少しも不公平はないので、実に公平で、法律上からいって法に触れないと言うのです。<br><br>ところがなんとか問題にしたいようにいろんなことを質問しましたが、問題にならないような答弁をしたのは、聞いていて痛快になりました。<br><br>なにしろ邪神は、そういった言論機関とか放送というのを自由に使うのです。<br><br>使うということは邪神の眷族が憑っていろんなことをしゃべらせるのです。<br><br>それは信仰のない者は邪神にとっては楽なのです。<br><br>それもこれも霊界がまだ本当に明るくなっていないからです。<br><br>ところが霊界は日に月に明るくなっているのです。<br><br>それが一番分かるのは、あなた方が浄霊しても分かるでしょうが、一年前からみてもずっと治りがよくなっているでしょう。<br><br>ということは火素が増えつつあるのです。<br><br>これはまだまだどこまでも治りよくなります。<br><br>それこそミロクの世になるまで、だんだんよく治っていきます。<br><br>そうするともうじき、今のところは信者に浄化が強いのですが、一般人に浄化が起ってくるとバタバタとお陀仏になってしまいます。<br><br>そうしてお医者は手も足も出なくなります。<br><br>病人に触れば死んでしまうということになります。<br><br>注射などをしたらみんな片端からまいってしまいます。<br><br>そうなると「医学はもう駄目だ、なにか他に代わるべきものはないか」ということになりますから、それまでには救世教は揚（よう）として知れ渡りますから、「救世教の言うとおりだ、救世教に限る」ということになって、みんな救世教に頭を下げます。<br><br>スッタモンダの問題が起るのもそれまでのことです。<br><br>もうそんなに長くはありません。<br><br>だからむしろかわいそうなくらいなものです。<br><br> 結局、最後の審判にはいって行きますが、それについて信者を作る場合に、今までは一人でも多く救いたいとしてましたが、これはあたりまえの話です。<br><br>しかし、神様は大きな愛だから、どんな気の毒な者でも救ってくださると思ってますが、それは間違ってます。<br><br>神様は、救う者と救わない者とをチャンと分けるのです。<br><br>ですから救われない運命の者に骨折るだけ無駄になるわけです。<br><br>救わるべき者と救われない者との判別、その考え方が大いに必要になるのです。<br><br>それで救われそうな人は、そんなに手数はかからないのです。<br><br>それだけの因縁がありますから、すぐに分かります。<br><br>それから迷ったりいろいろゴタゴタするのは駄目なのです。<br><br>そういう者にかかり合わないようにするのです。<br><br>そのことを書きました。<br><br> （御論文「最後の審判とは何か」）【栄光 二一三号】 出版の話になりますが、今度発行するのは『世界救世教奇蹟集』ですが、これはまたすばらしい本です。<br><br>これはこれから新しく入信する人などにも、全部に読ませるつもりです。<br><br>その次に出す本は、今書いてますが『医学の革命書』という本です。<br><br>その「序文」だけを読ませます。<br><br> （御論文『医学の革命書』「序文」） これはできるだけ簡単に分かりやすく、「現代医学論」という論文を書いて、あとはお蔭話の顕著なものを一つ一つ批判して、解剖的に書いて、それを百例つけて、医学、病気というものが大体分かるように、そういう本を作りますが、この秋あたりになると思います。<br><br>そうして、どうしても医学の方との戦いになるようになりますが、けれどもそれもたいして長いこともありません。<br><br>なぜなれば医学の方はだんだん浄化が強くなるに従ってヘコタレてきますから、医学の固め療法が固まらなくなるから、どうしても先方が頭を下げざるを得なくなります。<br><br>それまでの間、一時は昨夜の放送のような問題も、なんだかんだと起るとみなければなりません。<br><br>しかしだんだん先方が弱ってきたから、それもたいしたことはありません。<br><br>日本はそういうような具合で、だんだんこっちが勝って行きますが、今始めたハワイの方、その次は米国の方ですが、ハワイはすばらしい成績です。<br><br>これは『栄光』に時々出しているから分かっているでしょうが、しかしまた邪神の方でもたいへんですから、妨害しようとして、なにかやっているのです、ですから無論スラスラとは行きません。<br><br>いろんな困難な問題が起ります。<br><br>けれども神様の方の力もだんだん増してきますから、やはり私が救世教をこれまでにするのに、最初はいろんな苦労をしましたが、そういうような形が、その国、その時期相応に出るとみなければなりません。<br><br>これもだんだん時節が近づいてきますから、たいしたことはありません。<br><br>なにしろ非常なお蔭をいただくので、その点は日本より都合がよいのは、民衆の叫びを非常に重く用いるから、そこで官憲の方やなんかで圧迫しようとしても、民衆が承知しません。<br><br>だから治って熱心になった人が増えればしようがありません。<br><br>それは民衆の声が高まってくれば、キリスト教でもなんでもだんだんおとろえて行きます。<br><br>それでハワイならハワイだけが大いに救世教信者が増えて、動きが大きくなってくると、今度はアメリカの方で問題になってきます。<br><br>しかしアメリカにはいろんな制限があって、ある点は日本よりか、やかましいくらいです。<br><br>それは日本はやたらに新宗教というのが出ても許可しますが、アメリカはなかなかたやすくそうしません。<br><br>どこまでもキリスト教一本で通そうとしますが、また一方民主主義ですから、民衆の声というのに重きをおきます。<br><br>日本のようにそういうことに頓着なく、気に入らなければやっつけてやれ、ということはないから、その点はよいです。<br><br>しかしアメリカの布教も容易ならんものがあります。<br><br>とにかく、ハワイならハワイに燃え上がるようになると、それだけでアメリカの方でもそうとう重視するわけです。<br><br>ですからこれは日本を開拓した今までのそういう経路のようなものより、ずっと楽に違いありません。<br><br> それからちょっとおもしろく書いた論文を読ませます。<br><br> （御論文「近頃の世相」）【栄光 二一四号】 今の人間の頭の働きの悪いといったらたいへんです。<br><br>つまり頭の活動が鈍いからして、それが挙動、行動に現われてくるのです。<br><br>運転手などが敏速に避けるとか、そういうことに対することが敏感にいかないのです。<br><br>それで事故を起すのです。<br><br>それから火事の起る原因というのは、ちょっとした火に注意すればなんでもないのに、そこのところをウッカリしてしまうのです。<br><br>それで消す所を消さないのです。<br><br>山火事の原因は煙草の火ということを言われてますが、ちょっと消せばよかったものを消さないのです。<br><br>それで大山火事になったりするのです。<br><br>この間の北海道の大山火事は約二万町歩というものでした。<br><br>それから家が建っても建っても焼けるのですが、三分の一くらいは焼けているでしょう。<br><br>それで住宅難で困ると言うが、火事さえなければ住宅難ということはありません。<br><br>チャンと人数だけの予定をとっているのですが、またこの予定ということがおかしいので、今一カ年何十万戸いるから何十万戸建てれば住宅難は解消すると言ってますが、火事ということを予定に入れていないのです。<br><br>だから足りないのです。<br><br>東京都などでも抽籤（ちゅうせん）でやってますが、十回ならたいてい当たるということになってますが、今度は十一回になって、それでも駄目で、これからは十二回で当たるということは、できるのよりか要求する方が増えてくるのです。<br><br>そういうようで、いろんな面に対する事故ですが、病気ばかりでなく、そういったことも大いにあるのです。<br><br>それはみんな頭の働きです。<br><br>その原因は後頭部、延髄にある薬毒です。<br><br>今の文化生活というものは、本当のことが分かったら滑稽なものです。<br><br>それでこれは世間のことでもそうですが、私などは日常生活で、今の人間の鈍感さには驚いてしまいます。<br><br>驚くよりも困るのです。<br><br>それはなんでも遅いのです。<br><br>ノロマなことと頭の働きが悪いことです。<br><br>へのようなことをやり損なったり遅れたりするのです。<br><br>それもここの毒がなくなればそんなことはありません。<br><br>私はあんまり早いので、まわりの者はまごついて困るのです。<br><br>どこかに行くのにも、たいてい用意ができていると思って行ってみると、人間もいないし用意もできてないのです。<br><br>それで私はまた戻って、少し昼寝をして行こうかと思うくらいです。<br><br>それで後頭部の毒がなくなれば、たいていな人はそのくらいなことはできるのです。<br><br>歩くにも私は速過ぎるので、若い者と歩くにも加減して歩いているのです。<br><br>「どうも明主様はお速い、間に合わない」と言うから、「それは年のせいだ」と言うのです。<br><br>私は早過ぎる早過ぎると言われますが、それは毒がなくなると、誰も彼もというわけにはゆかないが、たいていな人はもっと早くなります。<br><br>それに頭が働くと非常に能率が上がって無駄がないから、経済的に得です。<br><br>私ほどにはゆかないが、もっと敏感にはなるはずです。<br><br>これはやはり薬毒のためです。<br><br>信者の人などは薬毒はよほど減っていてそのくらいですから、世の中の人はいかに鈍感か分かりません。<br><br>そういう人たちが自動車の運転手ですから事故が起るのはあたりまえです。<br><br>その原因を今読んだのですが、そういうような具合で浄霊は病気を治すばかりでなく、そういったことに対しても大いに効果があるわけです。<br><br> それから美術館の話ですが、一年前のあの辺の状態から見ると、あまりに変わったのでみんなびっくりしてます。<br><br>これも今の頭の働きと、早いということが大いに原因しているのです。<br><br>職人の仕事などをいろいろみてますと、やっぱり頭の働きが悪いと、よけいなことをしたり、よけいな物を作ったりするのです。<br><br>それを私はみんな省いてしまうから早いのです。<br><br>それでできあがってみるとかえってよいのです。<br><br>ですから人は驚いてたいへんだろうということが、私にはなんでもないので、ほとんど考えることもいりません。<br><br>あれだけの別館を造るにも、ここに足を運んだのは二度くらいです。<br><br>最初指図して、熱海に下りて、それから一度か二度指図しただけです。<br><br>ちょうど医学で何日も何十日も治らなかったのが、浄霊で一日か二日で治るというのと同じ理屈です。<br><br>それで品物を集めるにも、道具屋なら道具屋に対しては急所のことを言って、それからいろいろ持ってくる中から簡単に選択をし、値段とかいろんなことも急所だけをチョッチョッと言うだけで、割合に良い物が安くはいるのです。<br><br>一番早かったのは、去年、第一室に出してあった友松の屏風ですが、墨絵で簡単に楼閣を画いてあるあれを買った時は、京都の博物館に屏風が六本あるから見てもらいたいと言うので、よろしいと約束したが、他にまわる関係で、どうしても博物館でそれを見る時間は五分しかないので、五分でやってみようと思ったのです。<br><br>その六本も拡げてあったらよいが、たたんであったのです。<br><br>それで拡げて見て友松のはいくらかと言うと七十万と言うから、少し高いから五十万に負けたら買うからということで買ったのです。<br><br>それでちょうど五分ですんだのです。<br><br>だから六本の屏風を五分で選択したのです。<br><br>そのくらい早いのですから、美術館もああいうようにできたのです。<br><br>この間も『報知新聞』で谷川徹三さんかが、ふつうならこれだけの美術館はまず一代かかってやっとできるくらいなのが、わずか数年でできるということは、実に不思議だということを言ってましたが、ふつうからみれば確かにそうです。<br><br>それもやっぱり早いからです。<br><br> こういう論文を書くにも急所急所を書くのです。<br><br>だから早く書けて簡単にすんでしまうのです。<br><br>そのやり方を一生懸命に学ぶようにしなければなりません。<br><br>原稿を書くにもよけいなことを書かないで、つまり正味だけを書くというようにしてもらいたいと思います。<br><br> というのは、お蔭話がだんだん増えてくるので、『栄光』に出す場合に、お蔭話以外のふつうの記事をよほど少なくしなければ追いつかないのです。<br><br>それとともに、お蔭話も割合よく書いてあります。<br><br>農村の人などでもなかなか書き方がうまいのです。<br><br>しかしいっそう簡潔にしてもらった方が、それだけよけいに出せます。<br><br>それに書きようで、なるべく無駄のないようにすれば、もっと簡単になります。<br><br>そうすればまだまだ、寄書でもお蔭話でも掲載することができるわけです。<br><br>そういう具合にしてもらいたいと思います。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Desespero dos Espíritos Malignos e o Avanço da Luz Divina</h2>
 <p>À medida que o Mundo Espiritual se torna mais luminoso, a situação dos espíritos malignos torna-se desesperadora. Eles se contorcem em agonia. Sua grande estratégia consistia em debilitar a saúde da humanidade por meio da medicina, um estratagema que foi por mim desvelado. Simultaneamente, com a crescente luminosidade do Mundo Espiritual, seu plano, urdido ao longo de mais de dois milênios, está sendo subitamente revertido, levando-os a um estado de agonia terminal. Diante disso, sentem uma necessidade premente de nos ferir de alguma forma. Embora tenham consciência do que ocorre, seu desejo é postergar o inevitável, ainda que por um único dia. Muitos já se renderam, mas seus líderes mais proeminentes persistem na luta, na esperança de reaver o poder perdido.</p>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p>O mesmo se aplica à aquisição das obras. Ao lidar com um antiquário, por exemplo, vou direto aos pontos essenciais. Das muitas peças que ele me apresenta, faço uma seleção rápida. Preço e outros detalhes, menciono apenas o crucial. Dessa forma, consigo peças de boa qualidade por um preço razoável. A aquisição mais rápida foi a do biombo de Tomomatsu, que estava na primeira sala de exposição no ano passado, aquela pintura a nanquim de um pavilhão. Recebi um convite do museu de Quioto para ver seis biombos. Concordei, mas, devido a outros compromissos, eu só teria cinco minutos para vê-los. Decidi tentar. Seria mais fácil se os seis biombos já estivessem abertos, mas estavam dobrados. Pedi que os abrissem, olhei e perguntei o preço do de Tomomatsu. Disseram setecentos mil. Achei um pouco caro e disse que compraria se fizessem por quinhentos mil. E assim o comprei. Levei exatamente cinco minutos. Ou seja, selecionei um entre seis biombos em cinco minutos. É por ser tão rápido que o museu pôde ser construído daquela forma. Recentemente, no jornal Hochi Shimbun, o Sr. Tanikawa Tetsuzo ou alguém semelhante escreveu que um museu como este normalmente levaria uma vida inteira para ser construído, e que era um verdadeiro mistério que tivesse sido feito em poucos anos. Do ponto de vista comum, ele tem toda a razão. Isso também se deve à rapidez.</p>
 <p>Até para escrever estes Ensinamentos, vou direto aos pontos cruciais. Por isso escrevo rápido e de forma concisa. É fundamental que vocês se esforcem para aprender esse método. Ao redigir seus artigos, peço que evitem o supérfluo e escrevam apenas o essencial.</p>
 <p>A razão para isso é que o número de relatos de graças tem aumentado tanto que, para publicá-los no jornal Eiko, precisamos reduzir drasticamente o espaço para outros artigos. Ao mesmo tempo, os relatos de graças estão cada vez mais bem escritos. Mesmo as pessoas do campo demonstram um grande talento para a escrita. No entanto, quanto mais concisos forem, mais relatos poderemos publicar. Com um pouco de técnica, é possível eliminar o que é desnecessário e tornar o texto mais simples. Dessa forma, poderemos publicar ainda mais contribuições e relatos de graças. Gostaria que procedessem dessa maneira.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年6月5日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月五日 だんだん霊界が明るくなるに従って邪神の方はたいへんなのです。<br/><br/>七転八倒してます。<br/><br/>つまり医学を利用して人類の健康を弱らせようという大謀略なのです。<br/><br/>それを私に見つけられたのです。<br/><br/>と同時に霊界がだんだん明るくなってくるので、せっかく二千年以上かかってやった計画を一挙に覆されるという断末魔にあるのです。<br/><br/>そこでなんとかして傷つけなければならないのです。<br/><br/>というのは邪神の方では気づいてはいるのです。<br/><br/>しかしそれを一日でも延ばしたいのです。<br/><br/>それで中には降伏する者もそうとうありますが、巨頭連が頑張っているのです。<br/><br/>なんとかしてふたたび取り返そうというわけです。<br/><br/>それですから救世教を邪魔するのに、以前は官憲を使ったり新聞社を使ったりしてやったが、両方とも成功しなかったのです。<br/><br/>それで昨夜はラジオの放送局を使ったのです。<br/><br/>これで先方の使う武器はおしまいです。<br/><br/>だから昨夜の放送を聞いてみると、作り事をやってます。<br/><br/>嘘をやっているのです。<br/><br/>それで嘘を自分で暴露してます。<br/><br/>医者も出ましたが、手術すれば助かったのだということを言ってますが、よく聞いてみると、最初医者は駄目だと言ったのだそうです。<br/><br/>それはそうでしょう、なにしろ高い所から落ちて人事不省なのですから、医者で治るということはあり得べからざることです。<br/><br/>それを昨夜は手術すれば治るということを言いましたが、それは嘘をついてます。<br/><br/>少しばかりでも嘘を言うようでは、自分から悪ということを自白してます。<br/><br/>そうしておもしろいのは、最後に、救世教では十日生き延びたということは浄霊のためだと言っていると言うのですが、医者の方でも一週間は生きていると言ったということを言ってます。<br/><br/>そうすると医者の方でも一週間は生きているということは、一週間以後は死ぬということになります。<br/><br/>だから手術すれば助かるということとは、自分から嘘だということを自白してます。<br/><br/>どこまでも嘘は嘘です。<br/><br/>それから船大工だったが、救世教を信仰したから頼み手が非常になくなった、それから世間から相手にされないで孤独だと言うのですが、いろいろ聞いてみると、みんな嘘なのです。<br/><br/>ですから弁護士に頼んで、名誉毀損の告訴をするつもりです。<br/><br/>そうしておかないと、あとまたそういった嘘で固めて、こっちの妨害をする者が出るといけませんから、その予防もありますし、怖がらせておいた方がよいと思って、そうするつもりです。<br/><br/> 医者とか天下の放送局というものが、そういうでたらめを言って、新宗教に打撃を与えようというその行為は、実に憎むべきものです。<br/><br/>というのは、邪神の方でもだんだんやっつけられるので、苦しまぎれにそういうことをやるわけです。<br/><br/>それはみんな邪神の眷族がそういう連中に憑って、そうやらせるのです。<br/><br/>ところにもっていって、一般の人間は、新宗教なんていうのは虫が好かないというので、なにも理屈はないので、ただ虫が好かないから、なにか折があったらやっつけてやれと思っているところに、なにかやっつけられそうな材料がはいると、よしこれでやっつけてやろうという種に使うわけです。<br/><br/>だから他愛ないわけですが、しかしそういうことも邪魔になりますから、そういうことのない方が一人でもよけい救われますから、そういうことがあると、知らない人はやっぱりウッカリそれに乗ります。<br/><br/>だからまだまだある時期までは問題を起さないように大いに注意した方がよいです。<br/><br/>なにしろ先方は武器を握っているし、こっちは無手ですから、振りまわされると怪我をしますから、なるだけ怪我のない方がこっちはやりよいのです。<br/><br/>それで昨夜の放送を聞いてみても、別に医者にかからない、診てもらわないということは言いません。<br/><br/>実際に診てもらっているのです。<br/><br/>ただ手術は嫌だ、それから薬は、もしか死んでも死ぬ時に穢すから、穢されないように薬をのまないというのですから、これはもっともなことです。<br/><br/>そこで放送局の連中も、警察署長にいろんなことを聞いていましたが、やっぱり放送局の連中も新宗教が憎くてたまらないので、公平なるべきその職務を忘れて、警察に行って、なにか問題を起したいと思っていることが明らかです。<br/><br/>ところが警察署長の答弁は実によいです。<br/><br/>少しも不公平はないので、実に公平で、法律上からいって法に触れないと言うのです。<br/><br/>ところがなんとか問題にしたいようにいろんなことを質問しましたが、問題にならないような答弁をしたのは、聞いていて痛快になりました。<br/><br/>なにしろ邪神は、そういった言論機関とか放送というのを自由に使うのです。<br/><br/>使うということは邪神の眷族が憑っていろんなことをしゃべらせるのです。<br/><br/>それは信仰のない者は邪神にとっては楽なのです。<br/><br/>それもこれも霊界がまだ本当に明るくなっていないからです。<br/><br/>ところが霊界は日に月に明るくなっているのです。<br/><br/>それが一番分かるのは、あなた方が浄霊しても分かるでしょうが、一年前からみてもずっと治りがよくなっているでしょう。<br/><br/>ということは火素が増えつつあるのです。<br/><br/>これはまだまだどこまでも治りよくなります。<br/><br/>それこそミロクの世になるまで、だんだんよく治っていきます。<br/><br/>そうするともうじき、今のところは信者に浄化が強いのですが、一般人に浄化が起ってくるとバタバタとお陀仏になってしまいます。<br/><br/>そうしてお医者は手も足も出なくなります。<br/><br/>病人に触れば死んでしまうということになります。<br/><br/>注射などをしたらみんな片端からまいってしまいます。<br/><br/>そうなると「医学はもう駄目だ、なにか他に代わるべきものはないか」ということになりますから、それまでには救世教は揚（よう）として知れ渡りますから、「救世教の言うとおりだ、救世教に限る」ということになって、みんな救世教に頭を下げます。<br/><br/>スッタモンダの問題が起るのもそれまでのことです。<br/><br/>もうそんなに長くはありません。<br/><br/>だからむしろかわいそうなくらいなものです。<br/><br/> 結局、最後の審判にはいって行きますが、それについて信者を作る場合に、今までは一人でも多く救いたいとしてましたが、これはあたりまえの話です。<br/><br/>しかし、神様は大きな愛だから、どんな気の毒な者でも救ってくださると思ってますが、それは間違ってます。<br/><br/>神様は、救う者と救わない者とをチャンと分けるのです。<br/><br/>ですから救われない運命の者に骨折るだけ無駄になるわけです。<br/><br/>救わるべき者と救われない者との判別、その考え方が大いに必要になるのです。<br/><br/>それで救われそうな人は、そんなに手数はかからないのです。<br/><br/>それだけの因縁がありますから、すぐに分かります。<br/><br/>それから迷ったりいろいろゴタゴタするのは駄目なのです。<br/><br/>そういう者にかかり合わないようにするのです。<br/><br/>そのことを書きました。<br/><br/> （御論文「最後の審判とは何か」）【栄光 二一三号】 出版の話になりますが、今度発行するのは『世界救世教奇蹟集』ですが、これはまたすばらしい本です。<br/><br/>これはこれから新しく入信する人などにも、全部に読ませるつもりです。<br/><br/>その次に出す本は、今書いてますが『医学の革命書』という本です。<br/><br/>その「序文」だけを読ませます。<br/><br/> （御論文『医学の革命書』「序文」） これはできるだけ簡単に分かりやすく、「現代医学論」という論文を書いて、あとはお蔭話の顕著なものを一つ一つ批判して、解剖的に書いて、それを百例つけて、医学、病気というものが大体分かるように、そういう本を作りますが、この秋あたりになると思います。<br/><br/>そうして、どうしても医学の方との戦いになるようになりますが、けれどもそれもたいして長いこともありません。<br/><br/>なぜなれば医学の方はだんだん浄化が強くなるに従ってヘコタレてきますから、医学の固め療法が固まらなくなるから、どうしても先方が頭を下げざるを得なくなります。<br/><br/>それまでの間、一時は昨夜の放送のような問題も、なんだかんだと起るとみなければなりません。<br/><br/>しかしだんだん先方が弱ってきたから、それもたいしたことはありません。<br/><br/>日本はそういうような具合で、だんだんこっちが勝って行きますが、今始めたハワイの方、その次は米国の方ですが、ハワイはすばらしい成績です。<br/><br/>これは『栄光』に時々出しているから分かっているでしょうが、しかしまた邪神の方でもたいへんですから、妨害しようとして、なにかやっているのです、ですから無論スラスラとは行きません。<br/><br/>いろんな困難な問題が起ります。<br/><br/>けれども神様の方の力もだんだん増してきますから、やはり私が救世教をこれまでにするのに、最初はいろんな苦労をしましたが、そういうような形が、その国、その時期相応に出るとみなければなりません。<br/><br/>これもだんだん時節が近づいてきますから、たいしたことはありません。<br/><br/>なにしろ非常なお蔭をいただくので、その点は日本より都合がよいのは、民衆の叫びを非常に重く用いるから、そこで官憲の方やなんかで圧迫しようとしても、民衆が承知しません。<br/><br/>だから治って熱心になった人が増えればしようがありません。<br/><br/>それは民衆の声が高まってくれば、キリスト教でもなんでもだんだんおとろえて行きます。<br/><br/>それでハワイならハワイだけが大いに救世教信者が増えて、動きが大きくなってくると、今度はアメリカの方で問題になってきます。<br/><br/>しかしアメリカにはいろんな制限があって、ある点は日本よりか、やかましいくらいです。<br/><br/>それは日本はやたらに新宗教というのが出ても許可しますが、アメリカはなかなかたやすくそうしません。<br/><br/>どこまでもキリスト教一本で通そうとしますが、また一方民主主義ですから、民衆の声というのに重きをおきます。<br/><br/>日本のようにそういうことに頓着なく、気に入らなければやっつけてやれ、ということはないから、その点はよいです。<br/><br/>しかしアメリカの布教も容易ならんものがあります。<br/><br/>とにかく、ハワイならハワイに燃え上がるようになると、それだけでアメリカの方でもそうとう重視するわけです。<br/><br/>ですからこれは日本を開拓した今までのそういう経路のようなものより、ずっと楽に違いありません。<br/><br/> それからちょっとおもしろく書いた論文を読ませます。<br/><br/> （御論文「近頃の世相」）【栄光 二一四号】 今の人間の頭の働きの悪いといったらたいへんです。<br/><br/>つまり頭の活動が鈍いからして、それが挙動、行動に現われてくるのです。<br/><br/>運転手などが敏速に避けるとか、そういうことに対することが敏感にいかないのです。<br/><br/>それで事故を起すのです。<br/><br/>それから火事の起る原因というのは、ちょっとした火に注意すればなんでもないのに、そこのところをウッカリしてしまうのです。<br/><br/>それで消す所を消さないのです。<br/><br/>山火事の原因は煙草の火ということを言われてますが、ちょっと消せばよかったものを消さないのです。<br/><br/>それで大山火事になったりするのです。<br/><br/>この間の北海道の大山火事は約二万町歩というものでした。<br/><br/>それから家が建っても建っても焼けるのですが、三分の一くらいは焼けているでしょう。<br/><br/>それで住宅難で困ると言うが、火事さえなければ住宅難ということはありません。<br/><br/>チャンと人数だけの予定をとっているのですが、またこの予定ということがおかしいので、今一カ年何十万戸いるから何十万戸建てれば住宅難は解消すると言ってますが、火事ということを予定に入れていないのです。<br/><br/>だから足りないのです。<br/><br/>東京都などでも抽籤（ちゅうせん）でやってますが、十回ならたいてい当たるということになってますが、今度は十一回になって、それでも駄目で、これからは十二回で当たるということは、できるのよりか要求する方が増えてくるのです。<br/><br/>そういうようで、いろんな面に対する事故ですが、病気ばかりでなく、そういったことも大いにあるのです。<br/><br/>それはみんな頭の働きです。<br/><br/>その原因は後頭部、延髄にある薬毒です。<br/><br/>今の文化生活というものは、本当のことが分かったら滑稽なものです。<br/><br/>それでこれは世間のことでもそうですが、私などは日常生活で、今の人間の鈍感さには驚いてしまいます。<br/><br/>驚くよりも困るのです。<br/><br/>それはなんでも遅いのです。<br/><br/>ノロマなことと頭の働きが悪いことです。<br/><br/>へのようなことをやり損なったり遅れたりするのです。<br/><br/>それもここの毒がなくなればそんなことはありません。<br/><br/>私はあんまり早いので、まわりの者はまごついて困るのです。<br/><br/>どこかに行くのにも、たいてい用意ができていると思って行ってみると、人間もいないし用意もできてないのです。<br/><br/>それで私はまた戻って、少し昼寝をして行こうかと思うくらいです。<br/><br/>それで後頭部の毒がなくなれば、たいていな人はそのくらいなことはできるのです。<br/><br/>歩くにも私は速過ぎるので、若い者と歩くにも加減して歩いているのです。<br/><br/>「どうも明主様はお速い、間に合わない」と言うから、「それは年のせいだ」と言うのです。<br/><br/>私は早過ぎる早過ぎると言われますが、それは毒がなくなると、誰も彼もというわけにはゆかないが、たいていな人はもっと早くなります。<br/><br/>それに頭が働くと非常に能率が上がって無駄がないから、経済的に得です。<br/><br/>私ほどにはゆかないが、もっと敏感にはなるはずです。<br/><br/>これはやはり薬毒のためです。<br/><br/>信者の人などは薬毒はよほど減っていてそのくらいですから、世の中の人はいかに鈍感か分かりません。<br/><br/>そういう人たちが自動車の運転手ですから事故が起るのはあたりまえです。<br/><br/>その原因を今読んだのですが、そういうような具合で浄霊は病気を治すばかりでなく、そういったことに対しても大いに効果があるわけです。<br/><br/> それから美術館の話ですが、一年前のあの辺の状態から見ると、あまりに変わったのでみんなびっくりしてます。<br/><br/>これも今の頭の働きと、早いということが大いに原因しているのです。<br/><br/>職人の仕事などをいろいろみてますと、やっぱり頭の働きが悪いと、よけいなことをしたり、よけいな物を作ったりするのです。<br/><br/>それを私はみんな省いてしまうから早いのです。<br/><br/>それでできあがってみるとかえってよいのです。<br/><br/>ですから人は驚いてたいへんだろうということが、私にはなんでもないので、ほとんど考えることもいりません。<br/><br/>あれだけの別館を造るにも、ここに足を運んだのは二度くらいです。<br/><br/>最初指図して、熱海に下りて、それから一度か二度指図しただけです。<br/><br/>ちょうど医学で何日も何十日も治らなかったのが、浄霊で一日か二日で治るというのと同じ理屈です。<br/><br/>それで品物を集めるにも、道具屋なら道具屋に対しては急所のことを言って、それからいろいろ持ってくる中から簡単に選択をし、値段とかいろんなことも急所だけをチョッチョッと言うだけで、割合に良い物が安くはいるのです。<br/><br/>一番早かったのは、去年、第一室に出してあった友松の屏風ですが、墨絵で簡単に楼閣を画いてあるあれを買った時は、京都の博物館に屏風が六本あるから見てもらいたいと言うので、よろしいと約束したが、他にまわる関係で、どうしても博物館でそれを見る時間は五分しかないので、五分でやってみようと思ったのです。<br/><br/>その六本も拡げてあったらよいが、たたんであったのです。<br/><br/>それで拡げて見て友松のはいくらかと言うと七十万と言うから、少し高いから五十万に負けたら買うからということで買ったのです。<br/><br/>それでちょうど五分ですんだのです。<br/><br/>だから六本の屏風を五分で選択したのです。<br/><br/>そのくらい早いのですから、美術館もああいうようにできたのです。<br/><br/>この間も『報知新聞』で谷川徹三さんかが、ふつうならこれだけの美術館はまず一代かかってやっとできるくらいなのが、わずか数年でできるということは、実に不思議だということを言ってましたが、ふつうからみれば確かにそうです。<br/><br/>それもやっぱり早いからです。<br/><br/> こういう論文を書くにも急所急所を書くのです。<br/><br/>だから早く書けて簡単にすんでしまうのです。<br/><br/>そのやり方を一生懸命に学ぶようにしなければなりません。<br/><br/>原稿を書くにもよけいなことを書かないで、つまり正味だけを書くというようにしてもらいたいと思います。<br/><br/> というのは、お蔭話がだんだん増えてくるので、『栄光』に出す場合に、お蔭話以外のふつうの記事をよほど少なくしなければ追いつかないのです。<br/><br/>それとともに、お蔭話も割合よく書いてあります。<br/><br/>農村の人などでもなかなか書き方がうまいのです。<br/><br/>しかしいっそう簡潔にしてもらった方が、それだけよけいに出せます。<br/><br/>それに書きようで、なるべく無駄のないようにすれば、もっと簡単になります。<br/><br/>そうすればまだまだ、寄書でもお蔭話でも掲載することができるわけです。<br/><br/>そういう具合にしてもらいたいと思います。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

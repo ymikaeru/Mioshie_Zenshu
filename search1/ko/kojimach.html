@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kojimach</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 麹町時代 自観叢書第9篇『光への道』P.23、昭和24(1949)年12月30日発行 前項のごとく、私は昭和三年から昭和九年まで六年間、霊的研究とあいまって、神霊療法による病気治療の確信を得るまでに至ったので、これを引揚げて世に問うべく決意した。<br><br>そこで、その頃の東京市のなるべく中心を選ぼうとして、麹町平河町に、ピッタリ条件の叶った貸家があったので、そこを借りて、信仰的指圧療法という建前で治療所を開業した。<br><br>そこを応神堂の名をつけ、五月一日から始めたのである。<br><br>最初は一日数人くらいの患者でしかなかったが、漸次殖えるに従って段々手狭になって来たので、麹町半蔵門に私が経営した大本教の分所を利用する事となった。<br><br>ちょうどその頃私は大本教を脱退し、右の分所は私の自由になったからで、そこを治療所とし、毎日通って治療に従事していたのである。<br><br> ところが、奇蹟物語にかいた霊写真の奇蹟が表われたのが十月十一日であった事と、病気が治った信者の卵のような人が相当出来たので、一つの新しい宗教団体を作るべく計画し、ようやく準備も出来たので、その年の十一月二十三日仮発会式を応神堂で執行し、翌十年正月元旦半蔵門の出張所で、正式の発会式を行ったのである。<br><br>名称は大日本観音会といった。<br><br>ここで大黒様に関する奇蹟を一つかいてみよう。<br><br> よく人に聞かれる事は、本教の信者は必ず大黒様を祀るが、観音様とどういう関係があるかと訊かれるが、これはもっともな話で、今日までそういうやり方は世間になかったからである。<br><br>私が大黒様を祭り始めたのはこういう訳があった。<br><br>確か昭和八年だと思う。<br><br>数ケ月赤字が続いた事があったので、いささか心細かったところ、時々私のところへ来るある銀行員が古い大黒様を持っているが、差上げたいというから、私も快く貰って、観音様のお掛軸の前へ安置したところ、その月から赤字がなくなって、段々金が入るようになった。<br><br>そこで、私もなるほど大黒様は確かに福の神だという訳で、それから大黒様を人に頼んだりして出来るだけ集めた。<br><br>一時は五十幾つ集まったが、観音会が生れて間もなくある日部下の一人が、麻布〔青山〕高樹町のある道具屋に等身大の素晴しい大黒様があるとの報告で、早速私は見に行ったところ、なるほど時代といい、作といい実にいい、売るかと聞いたところ、これは売物ではない自分が信仰しているのだから勘弁してくれると言うのでやむなく帰った。<br><br>それが十二月の半頃であった。<br><br>するとおもしろい事には、大晦日の日、道具屋から電話がかかった。<br><br>「先日の大黒様はお譲りしてもいいが、思召（おぼしめし）があればすぐにお届けをする」というので、私は欣喜雀躍（きんきじゃくやく）した。<br><br>その晩自動車で届けられ、早速御神前へ安置した。<br><br>その時の道具屋の話がおもしろい。<br><br>「先生が御覧になった数日後夢をみた。<br><br>それは大黒様が紫の雲に乗って自分の家からお出かけになったので、眼がさめてから、これはもう自分との縁は切れたものと思ったが、いまだなかなか思い切れなかった。<br><br>ところが今日の大晦日はどうしても追つかないので、手放す事になったのである」という。<br><br>私は、「いくらか」と訊くと、「そういう訳だから幾らとはいえない。<br><br>包金で結構だ」というので、私は物価の安いその頃であったから、三百円包んでやったのである。<br><br>ところが彼は帰りがけに哀惜の情禁じ難いとみえ、大黒様にすがりついて、ボロボロ涙をこぼしていた。<br><br>その事あって以来収人が俄然として増して来たという事実は、全く大黒様のおかげとしか思えないのである。<br><br>お名前は、「みろく大黒天」とつけた。<br><br>麹町時代、玉川時代来た人はよく知っている筈である。<br><br>この大黒様を写真に写した事があるが、その際はっきり円光が表われたので、当時信者の乞いにより数百枚頒布したのである。<br><br>これでみても普通の大黒様ではない事が分る。<br><br>製作年代は豊臣時代と思われ実に名作である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Início da Obra Divina e o Milagre de Daikoku-sama</h2>
 <p>Conforme mencionei, durante os seis anos que se estenderam de 1928 a 1934, por meio de minhas pesquisas espirituais, adquiri a firme convicção na eficácia do tratamento de doenças através da terapia espiritual. Decidi, então, que era o momento de apresentar essa prática ao mundo. Para tanto, busquei um local o mais central possível na cidade de Tóquio daquela época e encontrei uma casa para alugar em Kojimachi Hirakawacho, cujas condições eram perfeitas para meu propósito. Ali, inaugurei uma clínica sob a designação de terapia de shiatsu de base religiosa, denominando-a Oshindo (応神堂), e iniciei as atividades no dia primeiro de maio. A princípio, o número de pacientes era de apenas algumas pessoas por dia, mas, com o aumento gradual, o espaço tornou-se insuficiente. Nesse sentido, passei a utilizar as instalações da subsede da Oomoto-kyo que eu administrava em Kojimachi Hanzomon. A ocasião era propícia, pois eu havia me desligado da referida organização religiosa pouco antes, e o local ficara à minha inteira disposição. Transformei-o em clínica e para lá me dirigia diariamente, dedicando-me aos atendimentos.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Pouco tempo após a fundação da Kannon Kai, um de meus assessores me informou sobre uma magnífica estátua de Daikoku-sama, em tamanho natural, em uma loja de antiguidades no bairro de Takagi-cho, em Azabu [Aoyama]. Fui vê-la imediatamente e constatei que era uma peça primorosa, tanto em sua fatura quanto em sua antiguidade. Ao indagar se estava à venda, o proprietário respondeu que não era um item comercial, mas um objeto de sua devoção pessoal, e pediu minha compreensão. Assim, retirei-me sem outra alternativa. Isso ocorreu em meados de dezembro.</p>
 <p>O mais surpreendente, contudo, ocorreu na véspera do Ano-Novo, quando recebi um telefonema do antiquário. Ele disse: "Estou disposto a lhe ceder aquela estátua de Daikoku-sama. Se ainda for de seu interesse, posso entregá-la imediatamente". Exultei de alegria. Naquela mesma noite, a imagem foi trazida de automóvel e prontamente entronizada no Altar. O relato do antiquário, naquela ocasião, foi deveras interessante: "Poucos dias após sua visita, tive um sonho. Nele, vi Daikoku-sama partindo de minha casa, montado em uma nuvem púrpura. Ao despertar, senti que nosso elo havia se rompido, mas ainda assim relutava em me desfazer dele. Todavia, hoje, na véspera do Ano-Novo, encontrando-me em um aperto financeiro intransponível, decidi que precisava vendê-lo".</p>
 <p>Quando perguntei o preço, ele respondeu: "Pelas circunstâncias, não posso estipular um valor. Uma oferta de gratidão será suficiente". Como o custo de vida era baixo na época, entreguei-lhe um envelope com trezentos ienes. Ao partir, porém, incapaz de conter a dor da despedida, ele se agarrou à estátua, derramando copiosas lágrimas. O fato é que, desde esse acontecimento, minhas finanças registraram um aumento repentino e expressivo, o que só posso atribuir à graça de Daikoku-sama. Dei-lhe o nome de Miroku Daikoku-ten (みろく大黒天), e aqueles que frequentaram a Igreja nas fases de Kojimachi e Tamagawa certamente o conhecem bem. Certa vez, ao fotografarmos essa imagem, um nítido halo de luz surgiu ao seu redor, e, atendendo aos pedidos dos fiéis da época, distribuímos centenas de cópias da fotografia. Tal fenômeno evidencia que não se trata de um Daikoku-sama comum. Acredita-se que seja uma obra-prima do período Toyotomi.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 麹町時代 自観叢書第9篇『光への道』P.23、昭和24(1949)年12月30日発行 前項のごとく、私は昭和三年から昭和九年まで六年間、霊的研究とあいまって、神霊療法による病気治療の確信を得るまでに至ったので、これを引揚げて世に問うべく決意した。<br/><br/>そこで、その頃の東京市のなるべく中心を選ぼうとして、麹町平河町に、ピッタリ条件の叶った貸家があったので、そこを借りて、信仰的指圧療法という建前で治療所を開業した。<br/><br/>そこを応神堂の名をつけ、五月一日から始めたのである。<br/><br/>最初は一日数人くらいの患者でしかなかったが、漸次殖えるに従って段々手狭になって来たので、麹町半蔵門に私が経営した大本教の分所を利用する事となった。<br/><br/>ちょうどその頃私は大本教を脱退し、右の分所は私の自由になったからで、そこを治療所とし、毎日通って治療に従事していたのである。<br/><br/> ところが、奇蹟物語にかいた霊写真の奇蹟が表われたのが十月十一日であった事と、病気が治った信者の卵のような人が相当出来たので、一つの新しい宗教団体を作るべく計画し、ようやく準備も出来たので、その年の十一月二十三日仮発会式を応神堂で執行し、翌十年正月元旦半蔵門の出張所で、正式の発会式を行ったのである。<br/><br/>名称は大日本観音会といった。<br/><br/>ここで大黒様に関する奇蹟を一つかいてみよう。<br/><br/> よく人に聞かれる事は、本教の信者は必ず大黒様を祀るが、観音様とどういう関係があるかと訊かれるが、これはもっともな話で、今日までそういうやり方は世間になかったからである。<br/><br/>私が大黒様を祭り始めたのはこういう訳があった。<br/><br/>確か昭和八年だと思う。<br/><br/>数ケ月赤字が続いた事があったので、いささか心細かったところ、時々私のところへ来るある銀行員が古い大黒様を持っているが、差上げたいというから、私も快く貰って、観音様のお掛軸の前へ安置したところ、その月から赤字がなくなって、段々金が入るようになった。<br/><br/>そこで、私もなるほど大黒様は確かに福の神だという訳で、それから大黒様を人に頼んだりして出来るだけ集めた。<br/><br/>一時は五十幾つ集まったが、観音会が生れて間もなくある日部下の一人が、麻布〔青山〕高樹町のある道具屋に等身大の素晴しい大黒様があるとの報告で、早速私は見に行ったところ、なるほど時代といい、作といい実にいい、売るかと聞いたところ、これは売物ではない自分が信仰しているのだから勘弁してくれると言うのでやむなく帰った。<br/><br/>それが十二月の半頃であった。<br/><br/>するとおもしろい事には、大晦日の日、道具屋から電話がかかった。<br/><br/>「先日の大黒様はお譲りしてもいいが、思召（おぼしめし）があればすぐにお届けをする」というので、私は欣喜雀躍（きんきじゃくやく）した。<br/><br/>その晩自動車で届けられ、早速御神前へ安置した。<br/><br/>その時の道具屋の話がおもしろい。<br/><br/>「先生が御覧になった数日後夢をみた。<br/><br/>それは大黒様が紫の雲に乗って自分の家からお出かけになったので、眼がさめてから、これはもう自分との縁は切れたものと思ったが、いまだなかなか思い切れなかった。<br/><br/>ところが今日の大晦日はどうしても追つかないので、手放す事になったのである」という。<br/><br/>私は、「いくらか」と訊くと、「そういう訳だから幾らとはいえない。<br/><br/>包金で結構だ」というので、私は物価の安いその頃であったから、三百円包んでやったのである。<br/><br/>ところが彼は帰りがけに哀惜の情禁じ難いとみえ、大黒様にすがりついて、ボロボロ涙をこぼしていた。<br/><br/>その事あって以来収人が俄然として増して来たという事実は、全く大黒様のおかげとしか思えないのである。<br/><br/>お名前は、「みろく大黒天」とつけた。<br/><br/>麹町時代、玉川時代来た人はよく知っている筈である。<br/><br/>この大黒様を写真に写した事があるが、その際はっきり円光が表われたので、当時信者の乞いにより数百枚頒布したのである。<br/><br/>これでみても普通の大黒様ではない事が分る。<br/><br/>製作年代は豊臣時代と思われ実に名作である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

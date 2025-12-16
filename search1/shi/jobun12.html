@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jobun12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （文明の創造） 未発表『文明の創造』昭和27(1952)年執筆 この著は歴史はじまって以来、いまだかつて無い大著述であり、一言にして言えば新文明世界の設計書ともいうべきもので、天国の福音でもあり、二十世紀のバイブルでもある。<br><br>というのは現在の文明は真の文明ではないので、新文明が生まれるまでの仮の文明であるからである。<br><br>聖書にある世の終りとは、この仮想文明世界の終りを言ったものである。<br><br>また今一つの「あまねく天国の福音を宣（の）べ伝えらるべし。<br><br>しかる後末期到る」との予言も、この著頒布（はんぷ）である事言うまでもない。<br><br>そうしてバイブルはキリストの教えを綴った物であるが、この著はキリストが繰り返しいわれたところの、彼の天の父であるエホバ直接の啓示でもある。<br><br>またキリストはこうも言われた、「天国は近づけり、爾（なんじ）等悔改めよ」と。<br><br>これによってみれば、キリスト自身が天国を造るのではない、後世誰かが造るという訳である。<br><br> ところが私は天国は近づけりとは言わない。<br><br>何となれば最早天国実現の時が来たからである。<br><br>それは目下私によって天国樹立の基礎的準備に取り掛かっており、今ははなはだ小規模ではあるが、非常なスピードをもって進捗（しんちょく）しつつあってすべてが驚異的である。<br><br>それというのも一切が奇蹟に次ぐ奇蹟の顕われで、人々は驚嘆している。<br><br>そうしてこれを仔細に検討して見る時、神は何万年前から細大漏すところなく、慎重綿密なる準備をされていた事である。<br><br>これは明瞭に看取出来るが、その根本は旧文明の精算と新文明の構想にあるのであって、私はそれに対し実際を裏付けとした理論を、徹底的にこの著をもって説くのである。<br><br>そうしてまず知らねばならない肝腎な事は、旧文明は悪の力が支配的であって、善の力ははなはだ微弱であった事である。<br><br>ところがいよいよ時期来って今度は逆となり、ここに世界は地上天国実現の段階に入るのである。<br><br>しかしこれについては重大問題がある。<br><br>というのは旧文明は当然精算されなければならないが、何しろ世界は長い間の悪の堆積による罪穢の解消こそ問題で、これが世界的大浄化作用である。<br><br>従ってこれによる犠牲者の数はいかに大量に上るかは、到底想像もつかない程であろう。<br><br>もちろんこれこそ最後の審判であって、また止む事を得ないが、神の大愛は一人でも多くの人間を救わんとして私という者を選び給い、その大業を行わせられるのであって、その序曲というべきものが本著であるから、この事を充分肝に銘じて読まれたいのである。<br><br> そうして右のごとく最後の審判が終るや、いよいよ新世界建設の運びになるのであるが、その転換期におけるあらる文化の切換えこそ、空前絶後の大事変であって、到底人間の想像だも不可能である。<br><br>もちろん旧文明中の誤謬の是非を第一とし、新文明構想の指針を与えるものである。<br><br>それをこれから詳しく説くのであるが、もちろんこれを読む人々こそ救いの綱を目の前に下げられたと同様で、直ぐにこれを掴めば救われるが、そうでない人は後に到って悔を残すのはもちろんで、時すでに遅しである。<br><br>以上のごとく罪深き者は亡び、罪浅き者は救われて、将来における地上天国の住民となり得るのである。<br><br>そうして来るべき地上天国たるやその構想の素晴らしさ、スケールの雄大さは到底筆舌に尽せないのである。<br><br>その時に到って現在までの文明がいかに野蛮極まる低劣なものであったかがハッキリ判ると共に、人類は歓喜に咽（むせ）ぶであろう事を断言するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Projeto da Nova Civilização</h2>
 <p>Esta obra representa o mais grandioso compêndio literário desde os primórdios da História. Em uma única expressão, poderíamos descrevê-la como o projeto fundamental para a nova civilização mundial, sendo, simultaneamente, o evangelho do Paraíso e a Bíblia do século XX. Isto se deve ao fato de que a civilização atual não é a verdadeira, mas apenas uma civilização transitória que precede o alvorecer da nova era. A profecia bíblica sobre o fim do mundo refere-se, precisamente, ao término deste mundo de civilização ilusória. Ademais, a profecia que diz: “E este evangelho do Reino será pregado em todo o mundo [...]; e então virá o fim”, se cumpre, inequivocamente, com a distribuição desta obra. E, se a Bíblia é o registro dos ensinamentos de Cristo, esta obra constitui a revelação direta de Jeová, a quem o próprio Cristo, reiteradamente, se referia como seu Pai Celestial. Cristo também proclamou: “Arrependei-vos, porque é chegado o Reino dos Céus”. Disso se depreende que não seria o próprio Cristo a edificar o Paraíso, mas alguém que, em uma era posterior, o faria.</p>
 <p>Eu, contudo, não digo que o Paraíso se aproxima. Afirmo que o momento de sua concretização finalmente chegou. Atualmente, por meu intermédio, os preparativos fundamentais para o estabelecimento do Paraíso Terrestre já foram iniciados. Embora em escala ainda modesta, o progresso avança com uma velocidade espantosa, e todos os desdobramentos são prodigiosos. A razão para tal reside na sucessão ininterrupta de milagres, que deixa a todos atônitos. Ao se analisar este processo minuciosamente, percebe-se com clareza que Deus, há dezenas de milhares de anos, vem realizando preparativos de uma precisão e cuidado inexcedíveis, sem omitir o menor detalhe. A base de todo esse plano divino consiste na liquidação da antiga civilização e na concepção da nova. É precisamente sobre este pilar, fundamentando a teoria com a prática, que discorro de forma exaustiva nesta obra.</p>
 <p>Nesse sentido, o ponto crucial a ser compreendido é que a antiga civilização era dominada pela força do mal, enquanto a força do bem se mostrava extremamente tênue. Todavia, chegado o tempo determinado, essa balança se inverte, e o mundo ingressa na fase de concretização do Paraíso Terrestre. Contudo, este processo envolve uma questão de suma importância. A antiga civilização deve, por desígnio, ser liquidada, mas o grande desafio reside na dissolução das máculas e impurezas acumuladas pelo mal ao longo de eras. Este fenômeno constitui a Grande Purificação Mundial. Consequentemente, o número de vítimas decorrentes será tão vasto que transcende qualquer estimativa. Evidentemente, trata-se do Juízo Final, um evento inevitável. Ainda assim, o infinito amor de Deus, no anseio de salvar o maior número possível de almas, escolheu a mim para conduzir esta grandiosa Obra. O livro que tendes em mãos é, por assim dizer, o prelúdio dessa missão. Rogo, portanto, que o leiam mantendo esta verdade profundamente gravada em seus corações.</p>
 <p>Assim que o Juízo Final se concluir, terá início a construção do Novo Mundo. A transmutação de todos os aspectos da cultura durante essa era de transição representará uma transformação sem precedentes na História, de uma magnitude que a mente humana é incapaz de conceber. O propósito primordial desta obra é, primeiramente, discernir os erros da antiga civilização e, em seguida, fornecer as diretrizes para a concepção da nova. É sobre isso que passarei a dissertar detalhadamente. Aqueles que lerem estes escritos terão diante de si uma corda de salvação. Os que a agarrarem sem hesitar, serão salvos; os que não o fizerem, certamente se defrontarão com o remorso, quando já for tarde demais. Dessa forma, os de pecados mais graves perecerão, enquanto os de pecados mais leves serão salvos, tornando-se aptos a habitar o futuro Paraíso Terrestre. Quanto ao Paraíso Terrestre vindouro, a magnificência de sua concepção e a grandiosidade de sua escala são indescritíveis por meio de palavras ou pincel. Naquele tempo, a humanidade compreenderá com total clareza quão bárbara e inferior era a civilização que conheceu até então e, posso afiançar, chorará de júbilo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （文明の創造） 未発表『文明の創造』昭和27(1952)年執筆 この著は歴史はじまって以来、いまだかつて無い大著述であり、一言にして言えば新文明世界の設計書ともいうべきもので、天国の福音でもあり、二十世紀のバイブルでもある。<br/><br/>というのは現在の文明は真の文明ではないので、新文明が生まれるまでの仮の文明であるからである。<br/><br/>聖書にある世の終りとは、この仮想文明世界の終りを言ったものである。<br/><br/>また今一つの「あまねく天国の福音を宣（の）べ伝えらるべし。<br/><br/>しかる後末期到る」との予言も、この著頒布（はんぷ）である事言うまでもない。<br/><br/>そうしてバイブルはキリストの教えを綴った物であるが、この著はキリストが繰り返しいわれたところの、彼の天の父であるエホバ直接の啓示でもある。<br/><br/>またキリストはこうも言われた、「天国は近づけり、爾（なんじ）等悔改めよ」と。<br/><br/>これによってみれば、キリスト自身が天国を造るのではない、後世誰かが造るという訳である。<br/><br/> ところが私は天国は近づけりとは言わない。<br/><br/>何となれば最早天国実現の時が来たからである。<br/><br/>それは目下私によって天国樹立の基礎的準備に取り掛かっており、今ははなはだ小規模ではあるが、非常なスピードをもって進捗（しんちょく）しつつあってすべてが驚異的である。<br/><br/>それというのも一切が奇蹟に次ぐ奇蹟の顕われで、人々は驚嘆している。<br/><br/>そうしてこれを仔細に検討して見る時、神は何万年前から細大漏すところなく、慎重綿密なる準備をされていた事である。<br/><br/>これは明瞭に看取出来るが、その根本は旧文明の精算と新文明の構想にあるのであって、私はそれに対し実際を裏付けとした理論を、徹底的にこの著をもって説くのである。<br/><br/>そうしてまず知らねばならない肝腎な事は、旧文明は悪の力が支配的であって、善の力ははなはだ微弱であった事である。<br/><br/>ところがいよいよ時期来って今度は逆となり、ここに世界は地上天国実現の段階に入るのである。<br/><br/>しかしこれについては重大問題がある。<br/><br/>というのは旧文明は当然精算されなければならないが、何しろ世界は長い間の悪の堆積による罪穢の解消こそ問題で、これが世界的大浄化作用である。<br/><br/>従ってこれによる犠牲者の数はいかに大量に上るかは、到底想像もつかない程であろう。<br/><br/>もちろんこれこそ最後の審判であって、また止む事を得ないが、神の大愛は一人でも多くの人間を救わんとして私という者を選び給い、その大業を行わせられるのであって、その序曲というべきものが本著であるから、この事を充分肝に銘じて読まれたいのである。<br/><br/> そうして右のごとく最後の審判が終るや、いよいよ新世界建設の運びになるのであるが、その転換期におけるあらる文化の切換えこそ、空前絶後の大事変であって、到底人間の想像だも不可能である。<br/><br/>もちろん旧文明中の誤謬の是非を第一とし、新文明構想の指針を与えるものである。<br/><br/>それをこれから詳しく説くのであるが、もちろんこれを読む人々こそ救いの綱を目の前に下げられたと同様で、直ぐにこれを掴めば救われるが、そうでない人は後に到って悔を残すのはもちろんで、時すでに遅しである。<br/><br/>以上のごとく罪深き者は亡び、罪浅き者は救われて、将来における地上天国の住民となり得るのである。<br/><br/>そうして来るべき地上天国たるやその構想の素晴らしさ、スケールの雄大さは到底筆舌に尽せないのである。<br/><br/>その時に到って現在までの文明がいかに野蛮極まる低劣なものであったかがハッキリ判ると共に、人類は歓喜に咽（むせ）ぶであろう事を断言するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

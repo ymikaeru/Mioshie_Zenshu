@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinsyu5</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教は嫌われてる 阿呆文学 『栄光』96号、昭和26(1951)年3月21日発行 今の世の中で、嫌われているものの一つに新宗教が御座る。<br><br>新聞雑誌など、新宗教とさえ言えばサモサモ憎らしそうにかくんだからヤリ切れない、なるほど、殺人強盗や詐欺やスリ万引なんかの物騒なやつらなら、いくら憎んだり嫌われたりしても当り前だが、これはまた大違いで不幸な人を幸せにしたり悪人を善人にして、安心して住める世の中にする吾々様を、本来ならば有難くて手を合わせて拝んでもいいくらいなのに、嫌うなんていうのは飛んでもない話で、頭がどうかしてやしないかと、口惜しがるには当らないよ、世の中には随分いかがわしいアプレゲール宗教が、後から後から出るんだから、マアー仕方がないと諦めてしまいたいんだが、ドッコイそうもゆかない事があるんだ、外でも御座らぬ、ヤレ伝染病だ、結核だ、何だかんだと抜かして、ビクビクしながら青い面をして、朝から晩まで体温計と首ッ引で、天井の節穴を勘定しているのが能という、まるで生きた屍どころか作りつけの人形同様なんだから、見てはおれない態（ざま）だよ、本来なればピンピン威勢のいい若者共がそうなんだからテモサテモ哀れ憫然（びんぜん）八百屋の天秤で御座るよ。<br><br> ところが、少し年を取ったのになると、中風などと来て、手足がブラブラ、涎（よだれ）をダラダラ、気の抜けたビールのような目玉で糞小便も垂れ流しと来るんだからヤリ切レないよ。<br><br>そうかと思うと、癌というその名のごとく、頑固極まる奴で、いずれはこの世のオサラバは決っているんだから可哀想なものだよ。<br><br>その外何だかんだと病の問屋が多すぎるんだよ、ところがこの問屋はまだ品物が足りないと見えて、ヤレ新薬、注射、手術などと箆棒（べらぼう）に高い品物を仕入れるんだから大変だよ、こんな仕入の金に比べたら税金なんかは屁のようなものだ。<br><br>いくら税金屋でも金さえ払らやー命までもとは仰言（おっしゃ）る気遣いはないんだから、屁の河童さ。<br><br> そんな病の苦しみを、着物一枚くらいの金で助けてやるメシヤ教なんだから、ウッカリ嫌いだなんかいうと、天罰覿面（てきめん）、どんな罰が当るか判らないんだから、御用心御用心と言いたいね、こんな有難い信仰だから、今に世の中に判って来たら、猫も杓子（しゃくし）も、アチラからもコチラからも引ッ張り凧の大繁昌で、飯食う暇もない事になるよ、ところが気の利かない奴はポカンとして、人の尻馬に乗って、ワイワイ騒いでいた野次馬共も、時節到来尻に火がつき、こりゃ堪らぬと悲鳴を上げながら、オタ、オタ、オ助け下さいと泣きついて来ても後の祭りで、天国行のバスは車庫に入ってしまってお気の毒様、仕方なくなく金ピカずくめの葬式車に乗せられて、十万億土行というのだから、何とマァーお気の毒でも何でも御座らぬ、身から出た錆で、自業自得の次第で御座る。<br><br> (注) 憫然（びんぜん）かわいそうなさま。<br><br>あわれむべきさま。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Desprezo pelas Novas Religiões</h2>
 <p>No mundo de hoje, uma das coisas mais vilipendiadas são as novas religiões. É verdadeiramente lamentável constatar como a imprensa, seja em jornais ou revistas, se apressa em destilar seu desprezo ao simples mencionar o termo "novas religiões". Ora, é natural que criminosos como assassinos, ladrões, estelionatários e batedores de carteira sejam alvo de ódio e repulsa. Contudo, a nossa situação é diametralmente oposta.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Diante de tamanho sofrimento, a Igreja Messiânica surge para aliviar o tormento das doenças por um valor equivalente ao de uma simples peça de roupa. Portanto, que se tenha muito cuidado ao proferir levianamente palavras de aversão, pois a punição Divina será imediata e manifesta, e ninguém pode prever a forma que assumirá.</p>
 <p>Nossa fé é tão sublime que, quando o mundo finalmente a compreender, seremos disputados por todos os lados. Uma multidão incontável nos procurará, e o sucesso será tamanho que não teremos tempo nem para as refeições. Aqueles, porém, de mente obtusa, que se limitaram a observar com indiferença e a seguir a multidão em seu alarido, como meros espectadores, perceberão tarde demais o seu erro.</p>
 <p>Quando o infortúnio bater à sua porta, gritarão em desespero: "Oh, por favor, salvem-me!". Contudo, seus lamentos e súplicas de última hora serão em vão. Será tarde demais. O ônibus para o Paraíso já terá retornado à garagem. E a eles, lamentavelmente, só restará embarcar no faustoso carro funerário dourado, com destino aos confins da Terra. Mas que ninguém se engane: não há motivo para pena. Trata-se do fruto de suas próprias ações, a justa consequência de suas escolhas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教は嫌われてる 阿呆文学 『栄光』96号、昭和26(1951)年3月21日発行 今の世の中で、嫌われているものの一つに新宗教が御座る。<br/><br/>新聞雑誌など、新宗教とさえ言えばサモサモ憎らしそうにかくんだからヤリ切れない、なるほど、殺人強盗や詐欺やスリ万引なんかの物騒なやつらなら、いくら憎んだり嫌われたりしても当り前だが、これはまた大違いで不幸な人を幸せにしたり悪人を善人にして、安心して住める世の中にする吾々様を、本来ならば有難くて手を合わせて拝んでもいいくらいなのに、嫌うなんていうのは飛んでもない話で、頭がどうかしてやしないかと、口惜しがるには当らないよ、世の中には随分いかがわしいアプレゲール宗教が、後から後から出るんだから、マアー仕方がないと諦めてしまいたいんだが、ドッコイそうもゆかない事があるんだ、外でも御座らぬ、ヤレ伝染病だ、結核だ、何だかんだと抜かして、ビクビクしながら青い面をして、朝から晩まで体温計と首ッ引で、天井の節穴を勘定しているのが能という、まるで生きた屍どころか作りつけの人形同様なんだから、見てはおれない態（ざま）だよ、本来なればピンピン威勢のいい若者共がそうなんだからテモサテモ哀れ憫然（びんぜん）八百屋の天秤で御座るよ。<br/><br/> ところが、少し年を取ったのになると、中風などと来て、手足がブラブラ、涎（よだれ）をダラダラ、気の抜けたビールのような目玉で糞小便も垂れ流しと来るんだからヤリ切レないよ。<br/><br/>そうかと思うと、癌というその名のごとく、頑固極まる奴で、いずれはこの世のオサラバは決っているんだから可哀想なものだよ。<br/><br/>その外何だかんだと病の問屋が多すぎるんだよ、ところがこの問屋はまだ品物が足りないと見えて、ヤレ新薬、注射、手術などと箆棒（べらぼう）に高い品物を仕入れるんだから大変だよ、こんな仕入の金に比べたら税金なんかは屁のようなものだ。<br/><br/>いくら税金屋でも金さえ払らやー命までもとは仰言（おっしゃ）る気遣いはないんだから、屁の河童さ。<br/><br/> そんな病の苦しみを、着物一枚くらいの金で助けてやるメシヤ教なんだから、ウッカリ嫌いだなんかいうと、天罰覿面（てきめん）、どんな罰が当るか判らないんだから、御用心御用心と言いたいね、こんな有難い信仰だから、今に世の中に判って来たら、猫も杓子（しゃくし）も、アチラからもコチラからも引ッ張り凧の大繁昌で、飯食う暇もない事になるよ、ところが気の利かない奴はポカンとして、人の尻馬に乗って、ワイワイ騒いでいた野次馬共も、時節到来尻に火がつき、こりゃ堪らぬと悲鳴を上げながら、オタ、オタ、オ助け下さいと泣きついて来ても後の祭りで、天国行のバスは車庫に入ってしまってお気の毒様、仕方なくなく金ピカずくめの葬式車に乗せられて、十万億土行というのだから、何とマァーお気の毒でも何でも御座らぬ、身から出た錆で、自業自得の次第で御座る。<br/><br/> (注) 憫然（びんぜん）かわいそうなさま。<br/><br/>あわれむべきさま。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

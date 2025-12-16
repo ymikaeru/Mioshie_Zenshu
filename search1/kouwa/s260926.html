@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260926</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S26年9月26日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月二十六日（四日目） 今度は割合雨が降るようですが、箱根は、本当は雨が降るのが良いんですがね。<br><br>熱海は天気が良い方がいいですがね。<br><br>これは負け惜しみでもなんでもない。<br><br>箱根は火ですからね。<br><br>火は水によって燃えるんですから、本当は箱根は雨が降るほど火の力が出てくる。<br><br>去年は良い案配に余り降らなかったのは、設備が――去年は降っては困るだろうと言うので、神様が気をきかしたんです。<br><br>今年は設備が出来たんで、これなら本当に、雨の方が良いと言うのです。<br><br>ですから、私が箱根に来る時は必ず雨が降る。<br><br>熱海に帰る時は必ず天気になる。<br><br>これが本当の――本式と言いますか――良い訳なんです。<br><br> それから、浄霊の方法ですが、今までは振ったんですが、振るとどうしても力が入る。<br><br>そこで、これからは振らないで、つまりこれを原則とする。<br><br>場合によっては少しは振っても良いが、大抵は振らない。<br><br>そうすると力が入らないんです。<br><br>入らないほど光が余計出るんですからね。<br><br>しかし、ただこうすると言っても、霊が通るように出来るだけ遠くまで、霊が行くようにすれば良い。<br><br>力を入れないで、霊が通るようにするんだから難しいんです。<br><br>要するに熟練ですね。<br><br>そうすると非常に良く治る。<br><br>何倍か治る。<br><br>だから、少しも力を入れないんですね。<br><br>慣れて来ると良い。<br><br>私なんかも力を入れない方が治りが良いです。<br><br>お腹の光が出る場合に、力をいれると――いくらか出が悪くなる。<br><br> 病貧争絶無の世界ですね。<br><br>病気はいつも詳しく言ってますから、今さら説明のようはないと思うんですが、貧乏ですね。<br><br>貧乏と言うと、世界中の貧乏は大変ですからね。<br><br>今としては日本ですね。<br><br>日本から貧乏をなくすとしても、一番多い階級は農民ですね。<br><br>日本の農民は、大体人口の八割あるんですからね。<br><br>ですから、農民の懐を暖かくすると言うのが根本ですね。<br><br>一番いいですね。<br><br>そこで、農民の懐が暖かくなれば、購買力がつくから、商工業も盛んになる。<br><br>それから、もう一つは農産物が増えれば、日本が外国から買わなくてもすむから、日本全体の懐が良くなる。<br><br>今年の米作は六千四百万石ですね。<br><br>すると、二千万石足りない。<br><br>二千万石外国から買わなければならない。<br><br>その金が大変です。<br><br>これを買わなくすると、日本全体としては、どのくらい裕福になるか分からない。<br><br>ですから、日本から貧乏をなくするには、一番は米の増産です。<br><br>あとは知れたものです。<br><br>そこで、貧乏をなくするにはいつも言う通り、自然農法にすれば良いんです。<br><br>自然耕作にすれば、五年続けると、五割の増産は間違いない。<br><br>何しろ、今まで肥毒をうんと――土にも入っているし、種にも入っていますから、これを抜くには、どうしても五年かかる。<br><br>大抵二年目、三年目からだんだん良くなってきますがね。<br><br>これを知らせようとして、今、本をそろえています。<br><br>それには、今年の収穫――それを実例として載せようと思っている。<br><br>今年はよほど肥毒が抜けているから、成績が良いわけですから、それを実例として載せて、単行本を作って、日本中の農業関係――農会とか、国会議員だとか、新聞方面だとか、とにかく大いに自然栽培と言うものを叩き込もうと思っている。<br><br>で、そう言う方面に無料で配布しようと思っている。<br><br>座談会、講演会をして早く日本中に知らせようと言うのが、一番肝心な事です。<br><br> もう一つ肝心なのは、結核問題ですね。<br><br>これも、今の米の収穫と同じように、一番必要な仕事です。<br><br>結核問題と、今の米の問題と二つが解決すれば、日本はうんと楽になる。<br><br>半分くらい五六七の世になります。<br><br>結核問題には「結核の革命的療法」を読ませたい。<br><br>随分徹底して書いてます。<br><br>今まで厚生省とか――そういった方面を良く調べてみると、差し支えない事が、段々はっきりしてきた。<br><br>ですから、もう少したったら、あれも大いに広告して――今までは信者だけだったのですが、今度は一般に買って読ませようと言うつもりで、今計画してます。<br><br>そうして、今言った結核問題と米の増産問題と、それを大いに解決しようと思ってます。<br><br> ところが、もう一つの問題は――これは日本だけの問題ではない。<br><br>世界的ですが、第三次戦争ですね。<br><br>これは世界中の悩みですけれど、今まで戦争面については余り私は言わなかったのですが、どうしても書かなければならない。<br><br>知らせなければならない。<br><br>と言うので書いたのです。<br><br>戦争は起こらなくて済む事も出来るんです。<br><br>ところで、日本にいるアメリカ人の一部で、メシヤ教を研究している集まりがあるそうです。<br><br>ですから、今度の「栄光」に出すつもりです。<br><br>それをやっぱり翻訳して、無論本国の方にも送るに違いない。<br><br>だから、まず第一歩に外国の頭に入れる必要があるんです。<br><br>それで書いたんです。<br><br>このアメリカ人達は「栄光」や「地上天国」が出るたびに、翻訳して読んで研究しているそうです。<br><br>それは良い意味において研究しているんですから、とにかく――当たり前の話で、メシヤ教のああ言うものに出ている記事なんかは、恐らく世界中にないですから、注目されなければならないはずです。<br><br> （御論文 「第三次戦争は免れる事が出来る」 のあとの御教え）【栄光新聞一二六号】 これは日本人にも読ませたいが、外国人にも大いに読ませたいと思っている。<br><br>つまり大戦争と言っても、世界中に溜まったごみを掃除するようなもんですからね。<br><br>メシヤ教が広がれば、楽な方法でごみが取れていくんですから、掃除の必要はないんです。<br><br>理屈ははなはだ簡単なんです。<br><br> それから、「文明の創造」も大体医学は書いたんですが、今、宗教篇を書いている。<br><br>宗教の七難しい理屈は抜きにして、できるだけ面白く、知らず知らず分かるように書いてあります。<br><br>その中で、仏教が一番肝心ですからね。<br><br>と言うのは、キリスト教や、そう言うのは良く分かってますからね。<br><br>一番分からないのは仏教なんです。<br><br>そこで仏教を主にして書くんですが、仲々――仏教の方も面白いですからね。<br><br>仏教と言うのは日本人が作った。<br><br>インドで生まれたけれども、元は日本です。<br><br>それを詳しく書き上げたんです。<br><br>書いていると、どんどん浮かんできますからね。<br><br>私も大いに教えられる。<br><br> （御論文 「仏教の起源」 「伊都能売神」 「観世音菩薩」 のあとの御教え）【地上天国二九号】 浦島太郎が生まれたのは、信州の木曽川の付近です。<br><br>これはまだ続くんです。<br><br>この次は「 弥勒三会 」ですね。<br><br>この前にも相当あったのです。<br><br>そんな訳で仲々面白いと思うんです。<br><br> それから、みんな知っている通り、美術館は建築に取り掛かりました。<br><br>来年の夏までに完成するつもりです。<br><br>それから、向こうの――裏手の流れの付近には「もみじ」を植えようと思う。<br><br>大体「もみじ」を百本注文しました。<br><br>それで、今、橋の模型を掛けてありますが、もっと幅の広い太鼓橋のようなものを掛けようと思う。<br><br>京都の通天橋のようなものにしようと思う。<br><br>裏手の方は、そう言うわけで「もみじ」の山を作る。<br><br>それを来年の夏までに作り、それで神仙郷は完成するんです。<br><br>美術館も色々調べた結果、出来あがった上は日本一になる事は間違いないですね。<br><br>方々に美術館がありますが、一部分だけです。<br><br>全般的に――本当の支那、朝鮮のものを網羅している美術館はないです。<br><br>東京では根津美術館だけですが、あそこも、すっかり調べた結果、周の陶器ですが、これは日本一ですが、あとは大したものはない。<br><br>それから、大阪の白鶴美術館ですが、あそこも、支那陶器だけは、やはり日本一のものがあります。<br><br>今度大阪に行って、白鶴に交渉して、美術館に、優秀品を出品してもらうように話すつもりです。<br><br>無論先方でも、そう希望しているような点があるようですから、うまく行くと思う。<br><br>それだけが主なものです。<br><br>大原美術館だとか、今度近畿鉄道だとか、東京の石橋ビルがある。<br><br>博物館ですが、考古学的、学問的が主になって、美術と言う点から言うとはなはだ心細い話です。<br><br>そんな訳ですから、こちらは日本一は間違いない。<br><br>確信がついている。<br><br>何だかんだと言っても、神様がうまくやってますからね。<br><br>不思議――奇跡ですね。<br><br>品物が集まったり、方々にあるのが分かったりする事が出来るんです。<br><br> 熱海の方ですが、熱海の方は今年一杯に庭園の方は大体出来るんです。<br><br>地上天国の真中の山は、「ツツジ」を二千本植えるつもりです。<br><br>「ツツジ山」ですね。<br><br>これは日本一に違いない。<br><br>他にはないからね。<br><br>これだけで日本の名物になると思います。<br><br>山は大体出来ました。<br><br>来月か再来月辺りに「ツツジ」を植える。<br><br>これも不思議なんです。<br><br>三、四年前に、箱根の芦ノ湖のそばに岩崎の別荘があるが、そこの庭にあった「ツツジ」で、岩崎ですから、金に明かしてあらゆる種類を集めたので、それを千本買わないかと言うので買ったんです。<br><br>いつか要るだろうと思って買ったが、何も見当がつかなかった。<br><br>今考えると、神様がちゃんと用意されたんです。<br><br>千本を掘ってみると、一株が二本、三本と寄せ植えになっているんですから、今、ちょうど間に合う。<br><br>今買ったら大変な値段だそうです。<br><br>その時分だったから、割合安く買えた。<br><br>来年の五月ごろ咲くはずですから、壮観だろうと思う。<br><br>それから、桜の山を造る。<br><br>晴々台の左手ですね。<br><br>狭いと思っていたが、土地を買ってくれと言うので、買うことにした。<br><br>そこに千本植えるつもりです。<br><br>吉野山の事を一目千本と言うが、広いのでばらばらですが、こっちは狭いところに千本ですから、さだめし壮観だろうと思う。<br><br>梅の方は暮れまでにすっかり終わる。<br><br>それから春あたりに建築の方に取り掛かります。<br><br>これは大変な金がかかる。<br><br>今そんな金はないので――今はそれこそ、余り大きな声で言えないが、金なんかは――とにかく、神様がやっているから、その時になると必要だけの金は入るに違いないと思ってます。<br><br>ですから、何にも心配しない。<br><br>この前アメリカの人が来て――ここでさえ世界一だといってますから、熱海が出来たら、世界一ですから、日本に来る一つの的にさえなると思います。<br><br>ですから、熱海が出来たら、見たいと言う人が大変だろうと思います。<br><br>どんな人でも驚くだろうと思う。<br><br>世界中にないわけですからね。<br><br>それから、御神業の方も素晴らしい発展をする。<br><br>今から、そう言う兆しが――日本はそうですが、外国の方にも発展する兆しが見えている。<br><br>とにかく、来年から本当の――本舞台ですね。<br><br>そう言うふうになるわけだから、大変な事になるだろうと思ってます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Construção do Paraíso e a Dissolução dos Sofrimentos Humanos</h2>
 <p>Parece que desta vez as chuvas se fazem presentes com certa frequência; contudo, em Hakone, a chuva é, na verdade, um bom presságio. Em Atami, por outro lado, o tempo firme é mais favorável. E isto não é, de forma alguma, uma justificativa improvisada. Hakone representa o fogo, e o fogo é avivado pela água. Portanto, quanto mais chove, com maior intensidade se manifesta a força do elemento fogo. No ano passado, as chuvas foram bastante moderadas, em um arranjo providencial, pois as instalações ainda não estavam prontas. Foi um desvelo de Deus, ciente de que a chuva nos seria um transtorno. Neste ano, porém, com as obras concluídas, a chuva torna-se, de fato, a condição ideal. Por essa razão, sempre que venho a Hakone, invariavelmente chove, e ao retornar para Atami, o tempo invariavelmente se abre. Esta é, por assim dizer, a condição ideal, a sua forma genuína.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Urashima Taro nasceu nas proximidades do rio Kiso, na província de Shinshu. A narrativa, aliás, terá continuidade. O próximo tema será "as Três Assembleias de Miroku". Antes disso, ocorreram muitos outros fatos relevantes. Creio, portanto, que será uma leitura bastante interessante.</p>
 <p>Como todos sabem, a construção do Museu de Arte já foi iniciada. Planejamos concluí-la até o verão do próximo ano. E, na área dos fundos, próxima ao riacho, pretendo plantar bordos japoneses. Encomendei cerca de cem mudas. Atualmente, há uma maquete da ponte, mas tenciono construir uma estrutura mais ampla, em arco, semelhante à ponte Tsutenkyo, de Kyoto. Assim, a parte posterior se transformará em uma montanha de bordos japoneses. Com a sua finalização até o próximo verão, o Shinsenkyo estará completo. Após pesquisar diversos museus, tenho a certeza de que o nosso será o mais notável do Japão. Existem outros, mas seus acervos são parciais. Não há um museu que abranja de forma completa a genuína arte da China e da Coreia. Em Tóquio, há o Museu Nezu, mas, após uma análise minuciosa, concluí que apenas sua coleção de cerâmicas da dinastia Zhou é a número um do país; o restante não possui o mesmo destaque. Há também o Museu de Arte Hakutsuru, em Osaka, que detém, igualmente, a melhor coleção de cerâmica chinesa. Em minha próxima viagem a Osaka, dialogarei com a direção para que suas peças mais excelentes sejam exibidas em nosso museu. Aparentemente, eles demonstram interesse nessa colaboração, então creio que teremos sucesso. Esses são os principais. Quanto ao Museu de Arte Ohara, ao da Kinki Railway ou ao Edifício Ishibashi em Tóquio, seu foco é predominantemente arqueológico e acadêmico; do ponto de vista estritamente artístico, o acervo é bastante modesto. Por todas essas razões, tenho a convicção de que nosso museu será, inquestionavelmente, o melhor do Japão. Independentemente do que se diga, Deus tem conduzido tudo com maestria. É um prodígio, um milagre, a forma como as obras de arte se reúnem ou como descobrimos seu paradeiro.</p>
 <p>No que tange a Atami, os jardins estarão, em sua maior parte, concluídos até o final deste ano. Na colina central do Paraíso Terrestre, planejamos plantar duas mil azaleias, criando a "Montanha das Azaleias". Será, sem dúvida, a mais bela do Japão, pois não há nada que se lhe compare. Apenas isso já se tornará um ponto de referência em nosso país. A terraplenagem da colina está quase finalizada, e o plantio ocorrerá no próximo mês ou no seguinte. E nisto também há um milagre. Há três ou quatro anos, recebi a oferta para adquirir mil mudas de azaleias da vila da família Iwasaki, perto do lago Ashi, em Hakone. Sendo da família Iwasaki, não pouparam despesas para reunir as mais variadas espécies. Adquiri-as pensando que um dia seriam úteis, embora sem um plano definido. Agora compreendo que Deus já as preparava para este momento. Ao transplantá-las, descobrimos que cada touceira era, na verdade, um conjunto de duas ou três mudas, o que as torna a quantidade exata de que precisamos. Adquiri-las hoje custaria uma fortuna. Naquela época, porém, o preço foi relativamente baixo. Elas devem florescer por volta de maio do próximo ano, e será, por certo, um espetáculo grandioso. Em seguida, criaremos a Montanha das Cerejeiras, à esquerda do mirante Seiseidai. Eu imaginava que o terreno fosse pequeno, mas surgiu uma proposta para que eu o adquirisse, e assim o fiz. Pretendo plantar ali mil árvores. Fala-se de "mil árvores a um só olhar" em Yoshinoyama, mas lá a área é vasta e as árvores, dispersas. Aqui, teremos mil árvores em um espaço concentrado, o que certamente resultará em uma visão magnífica. A área dos umezeiros estará pronta até o fim do ano, e, por volta da primavera, iniciaremos as obras de edificação. Estas demandarão um vultoso investimento. No presente, e confesso-o em voz baixa, não dispomos de tal soma. Contudo, como é Deus quem conduz esta Obra, tenho a convicção de que, no momento oportuno, os fundos necessários nos chegarão. Portanto, não nutro qualquer preocupação. Recentemente, um visitante americano afirmou que mesmo este local, Hakone, já é o melhor do mundo. Assim, quando Atami estiver concluído, será de fato o melhor do mundo, tornando-se um destino obrigatório para quem visita o Japão. Prevejo que será imenso o número de pessoas que desejarão vê-lo. Qualquer um ficará maravilhado, pois não haverá nada semelhante no planeta. Consequentemente, a Obra Divina também se desenvolverá de forma esplêndida. Os sinais dessa expansão já se manifestam, não apenas no Japão, mas também no exterior. De qualquer forma, a partir do próximo ano, o verdadeiro palco principal terá seu início. Pressinto que algo verdadeiramente grandioso está para acontecer.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 秋季大祭御講話 （S26年9月26日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月二十六日（四日目） 今度は割合雨が降るようですが、箱根は、本当は雨が降るのが良いんですがね。<br/><br/>熱海は天気が良い方がいいですがね。<br/><br/>これは負け惜しみでもなんでもない。<br/><br/>箱根は火ですからね。<br/><br/>火は水によって燃えるんですから、本当は箱根は雨が降るほど火の力が出てくる。<br/><br/>去年は良い案配に余り降らなかったのは、設備が――去年は降っては困るだろうと言うので、神様が気をきかしたんです。<br/><br/>今年は設備が出来たんで、これなら本当に、雨の方が良いと言うのです。<br/><br/>ですから、私が箱根に来る時は必ず雨が降る。<br/><br/>熱海に帰る時は必ず天気になる。<br/><br/>これが本当の――本式と言いますか――良い訳なんです。<br/><br/> それから、浄霊の方法ですが、今までは振ったんですが、振るとどうしても力が入る。<br/><br/>そこで、これからは振らないで、つまりこれを原則とする。<br/><br/>場合によっては少しは振っても良いが、大抵は振らない。<br/><br/>そうすると力が入らないんです。<br/><br/>入らないほど光が余計出るんですからね。<br/><br/>しかし、ただこうすると言っても、霊が通るように出来るだけ遠くまで、霊が行くようにすれば良い。<br/><br/>力を入れないで、霊が通るようにするんだから難しいんです。<br/><br/>要するに熟練ですね。<br/><br/>そうすると非常に良く治る。<br/><br/>何倍か治る。<br/><br/>だから、少しも力を入れないんですね。<br/><br/>慣れて来ると良い。<br/><br/>私なんかも力を入れない方が治りが良いです。<br/><br/>お腹の光が出る場合に、力をいれると――いくらか出が悪くなる。<br/><br/> 病貧争絶無の世界ですね。<br/><br/>病気はいつも詳しく言ってますから、今さら説明のようはないと思うんですが、貧乏ですね。<br/><br/>貧乏と言うと、世界中の貧乏は大変ですからね。<br/><br/>今としては日本ですね。<br/><br/>日本から貧乏をなくすとしても、一番多い階級は農民ですね。<br/><br/>日本の農民は、大体人口の八割あるんですからね。<br/><br/>ですから、農民の懐を暖かくすると言うのが根本ですね。<br/><br/>一番いいですね。<br/><br/>そこで、農民の懐が暖かくなれば、購買力がつくから、商工業も盛んになる。<br/><br/>それから、もう一つは農産物が増えれば、日本が外国から買わなくてもすむから、日本全体の懐が良くなる。<br/><br/>今年の米作は六千四百万石ですね。<br/><br/>すると、二千万石足りない。<br/><br/>二千万石外国から買わなければならない。<br/><br/>その金が大変です。<br/><br/>これを買わなくすると、日本全体としては、どのくらい裕福になるか分からない。<br/><br/>ですから、日本から貧乏をなくするには、一番は米の増産です。<br/><br/>あとは知れたものです。<br/><br/>そこで、貧乏をなくするにはいつも言う通り、自然農法にすれば良いんです。<br/><br/>自然耕作にすれば、五年続けると、五割の増産は間違いない。<br/><br/>何しろ、今まで肥毒をうんと――土にも入っているし、種にも入っていますから、これを抜くには、どうしても五年かかる。<br/><br/>大抵二年目、三年目からだんだん良くなってきますがね。<br/><br/>これを知らせようとして、今、本をそろえています。<br/><br/>それには、今年の収穫――それを実例として載せようと思っている。<br/><br/>今年はよほど肥毒が抜けているから、成績が良いわけですから、それを実例として載せて、単行本を作って、日本中の農業関係――農会とか、国会議員だとか、新聞方面だとか、とにかく大いに自然栽培と言うものを叩き込もうと思っている。<br/><br/>で、そう言う方面に無料で配布しようと思っている。<br/><br/>座談会、講演会をして早く日本中に知らせようと言うのが、一番肝心な事です。<br/><br/> もう一つ肝心なのは、結核問題ですね。<br/><br/>これも、今の米の収穫と同じように、一番必要な仕事です。<br/><br/>結核問題と、今の米の問題と二つが解決すれば、日本はうんと楽になる。<br/><br/>半分くらい五六七の世になります。<br/><br/>結核問題には「結核の革命的療法」を読ませたい。<br/><br/>随分徹底して書いてます。<br/><br/>今まで厚生省とか――そういった方面を良く調べてみると、差し支えない事が、段々はっきりしてきた。<br/><br/>ですから、もう少したったら、あれも大いに広告して――今までは信者だけだったのですが、今度は一般に買って読ませようと言うつもりで、今計画してます。<br/><br/>そうして、今言った結核問題と米の増産問題と、それを大いに解決しようと思ってます。<br/><br/> ところが、もう一つの問題は――これは日本だけの問題ではない。<br/><br/>世界的ですが、第三次戦争ですね。<br/><br/>これは世界中の悩みですけれど、今まで戦争面については余り私は言わなかったのですが、どうしても書かなければならない。<br/><br/>知らせなければならない。<br/><br/>と言うので書いたのです。<br/><br/>戦争は起こらなくて済む事も出来るんです。<br/><br/>ところで、日本にいるアメリカ人の一部で、メシヤ教を研究している集まりがあるそうです。<br/><br/>ですから、今度の「栄光」に出すつもりです。<br/><br/>それをやっぱり翻訳して、無論本国の方にも送るに違いない。<br/><br/>だから、まず第一歩に外国の頭に入れる必要があるんです。<br/><br/>それで書いたんです。<br/><br/>このアメリカ人達は「栄光」や「地上天国」が出るたびに、翻訳して読んで研究しているそうです。<br/><br/>それは良い意味において研究しているんですから、とにかく――当たり前の話で、メシヤ教のああ言うものに出ている記事なんかは、恐らく世界中にないですから、注目されなければならないはずです。<br/><br/> （御論文 「第三次戦争は免れる事が出来る」 のあとの御教え）【栄光新聞一二六号】 これは日本人にも読ませたいが、外国人にも大いに読ませたいと思っている。<br/><br/>つまり大戦争と言っても、世界中に溜まったごみを掃除するようなもんですからね。<br/><br/>メシヤ教が広がれば、楽な方法でごみが取れていくんですから、掃除の必要はないんです。<br/><br/>理屈ははなはだ簡単なんです。<br/><br/> それから、「文明の創造」も大体医学は書いたんですが、今、宗教篇を書いている。<br/><br/>宗教の七難しい理屈は抜きにして、できるだけ面白く、知らず知らず分かるように書いてあります。<br/><br/>その中で、仏教が一番肝心ですからね。<br/><br/>と言うのは、キリスト教や、そう言うのは良く分かってますからね。<br/><br/>一番分からないのは仏教なんです。<br/><br/>そこで仏教を主にして書くんですが、仲々――仏教の方も面白いですからね。<br/><br/>仏教と言うのは日本人が作った。<br/><br/>インドで生まれたけれども、元は日本です。<br/><br/>それを詳しく書き上げたんです。<br/><br/>書いていると、どんどん浮かんできますからね。<br/><br/>私も大いに教えられる。<br/><br/> （御論文 「仏教の起源」 「伊都能売神」 「観世音菩薩」 のあとの御教え）【地上天国二九号】 浦島太郎が生まれたのは、信州の木曽川の付近です。<br/><br/>これはまだ続くんです。<br/><br/>この次は「 弥勒三会 」ですね。<br/><br/>この前にも相当あったのです。<br/><br/>そんな訳で仲々面白いと思うんです。<br/><br/> それから、みんな知っている通り、美術館は建築に取り掛かりました。<br/><br/>来年の夏までに完成するつもりです。<br/><br/>それから、向こうの――裏手の流れの付近には「もみじ」を植えようと思う。<br/><br/>大体「もみじ」を百本注文しました。<br/><br/>それで、今、橋の模型を掛けてありますが、もっと幅の広い太鼓橋のようなものを掛けようと思う。<br/><br/>京都の通天橋のようなものにしようと思う。<br/><br/>裏手の方は、そう言うわけで「もみじ」の山を作る。<br/><br/>それを来年の夏までに作り、それで神仙郷は完成するんです。<br/><br/>美術館も色々調べた結果、出来あがった上は日本一になる事は間違いないですね。<br/><br/>方々に美術館がありますが、一部分だけです。<br/><br/>全般的に――本当の支那、朝鮮のものを網羅している美術館はないです。<br/><br/>東京では根津美術館だけですが、あそこも、すっかり調べた結果、周の陶器ですが、これは日本一ですが、あとは大したものはない。<br/><br/>それから、大阪の白鶴美術館ですが、あそこも、支那陶器だけは、やはり日本一のものがあります。<br/><br/>今度大阪に行って、白鶴に交渉して、美術館に、優秀品を出品してもらうように話すつもりです。<br/><br/>無論先方でも、そう希望しているような点があるようですから、うまく行くと思う。<br/><br/>それだけが主なものです。<br/><br/>大原美術館だとか、今度近畿鉄道だとか、東京の石橋ビルがある。<br/><br/>博物館ですが、考古学的、学問的が主になって、美術と言う点から言うとはなはだ心細い話です。<br/><br/>そんな訳ですから、こちらは日本一は間違いない。<br/><br/>確信がついている。<br/><br/>何だかんだと言っても、神様がうまくやってますからね。<br/><br/>不思議――奇跡ですね。<br/><br/>品物が集まったり、方々にあるのが分かったりする事が出来るんです。<br/><br/> 熱海の方ですが、熱海の方は今年一杯に庭園の方は大体出来るんです。<br/><br/>地上天国の真中の山は、「ツツジ」を二千本植えるつもりです。<br/><br/>「ツツジ山」ですね。<br/><br/>これは日本一に違いない。<br/><br/>他にはないからね。<br/><br/>これだけで日本の名物になると思います。<br/><br/>山は大体出来ました。<br/><br/>来月か再来月辺りに「ツツジ」を植える。<br/><br/>これも不思議なんです。<br/><br/>三、四年前に、箱根の芦ノ湖のそばに岩崎の別荘があるが、そこの庭にあった「ツツジ」で、岩崎ですから、金に明かしてあらゆる種類を集めたので、それを千本買わないかと言うので買ったんです。<br/><br/>いつか要るだろうと思って買ったが、何も見当がつかなかった。<br/><br/>今考えると、神様がちゃんと用意されたんです。<br/><br/>千本を掘ってみると、一株が二本、三本と寄せ植えになっているんですから、今、ちょうど間に合う。<br/><br/>今買ったら大変な値段だそうです。<br/><br/>その時分だったから、割合安く買えた。<br/><br/>来年の五月ごろ咲くはずですから、壮観だろうと思う。<br/><br/>それから、桜の山を造る。<br/><br/>晴々台の左手ですね。<br/><br/>狭いと思っていたが、土地を買ってくれと言うので、買うことにした。<br/><br/>そこに千本植えるつもりです。<br/><br/>吉野山の事を一目千本と言うが、広いのでばらばらですが、こっちは狭いところに千本ですから、さだめし壮観だろうと思う。<br/><br/>梅の方は暮れまでにすっかり終わる。<br/><br/>それから春あたりに建築の方に取り掛かります。<br/><br/>これは大変な金がかかる。<br/><br/>今そんな金はないので――今はそれこそ、余り大きな声で言えないが、金なんかは――とにかく、神様がやっているから、その時になると必要だけの金は入るに違いないと思ってます。<br/><br/>ですから、何にも心配しない。<br/><br/>この前アメリカの人が来て――ここでさえ世界一だといってますから、熱海が出来たら、世界一ですから、日本に来る一つの的にさえなると思います。<br/><br/>ですから、熱海が出来たら、見たいと言う人が大変だろうと思います。<br/><br/>どんな人でも驚くだろうと思う。<br/><br/>世界中にないわけですからね。<br/><br/>それから、御神業の方も素晴らしい発展をする。<br/><br/>今から、そう言う兆しが――日本はそうですが、外国の方にも発展する兆しが見えている。<br/><br/>とにかく、来年から本当の――本舞台ですね。<br/><br/>そう言うふうになるわけだから、大変な事になるだろうと思ってます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

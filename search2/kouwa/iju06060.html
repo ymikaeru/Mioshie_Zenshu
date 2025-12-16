@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju06060</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （六） 病気諸症状 ４ 060-077 排泄 060 便秘の原因 左臀部神経痛で来た婦人、神経痛は治りましたが、以前からの便秘症には変化なく、最近はかえってひどく、恥骨周辺に激痛が時々あって、小用が漏れると申します。<br><br>以前に開腹手術をした事もあり、その際相当の全身麻酔を行っています。<br><br>右、便秘の原因を御教示下さい。<br><br> 薬毒がそこに固まっている。<br><br>根気よく浄霊する。<br><br>手術部の奥の方へ霊が届くようにする。<br><br>少食、よく嚼（か）む、水分少ない、直腸狭い（左）等の場合便秘する。<br><br>（S24. 2.18） 061 暴飲暴食と便秘、（狸霊とゲップ） 緒方進（四十八歳）、洋画家、十五、六年前より暴飲暴食にて便秘症となり、画や書を書くかたわら土方をやり、相当肉体労働を致しましたため四月上旬より健康を害し、断食を始めましたところ四、五日目位より腹部苦しく、ゲップが二時間置き位に出て四十分位は連続し、胸がかきむしられるように苦しく感じました。<br><br>その後ブドー糖の注射その他を受けました。<br><br>五日程前より御浄霊を依頼され、毎日御浄霊させて頂いておりますが、ゲップは大分少なくなりましたが中々止まらず、苦しんでおります。<br><br>当家には仏壇もなく先祖のお位牌を白木でお塔婆形に作り針で止めてありましたので、早速取り除かせ仏壇、位牌をお祀り致す事に申し聞かせました。<br><br>入信も早速させて頂く事に致しましたが、右のゲップは何か霊的原因が御座いましょうか。<br><br>御伺い申し上げ、あわせて御守護を御願い申し上げます。<br><br> 暴飲暴食で便秘にはならない。<br><br>アベコベである。<br><br>また、肉体労働で健康を害しているのも反対で、すべて医学の言葉を信じているからで、葡萄糖の注射したのは非常に悪い。<br><br> ゲップは狸である。<br><br>左の腹が狸の住居である。<br><br>よく本を読ませる。<br><br>（S25. 5.18） 062 難排便 肋膜、腹膜、痔病の老女（七十歳）、約一ケ月半浄霊していますが、肋膜、痔は全治の模様で、入信して現在は元気に起きて家の中の仕事をする程度になっています。<br><br>長年便秘で、薬を飲んだ結果便が肛門の口で固まって中々出ないで、当人も辛抱が出来なくて、手で排出しますと小さい丸い黒い塊が少量出たと云っています。<br><br>浄霊について御教示お願い致します。<br><br> 下剤の中毒である。<br><br>肛門の出口を浄霊していれば治る。<br><br>（S25. 2.17） 063 尿意頻繁詳説 本年三十歳の婦人、約五年前から小便が近く、田舎の医師に罹りつつ次第に繁くなり、婦人科専門医の診断の結果、右の腎臓結核とて手術をし除去致しました。<br><br>しかし依然として治らず、 尿意は一層繁くなり、遂には極く少量ずつ洩るようになり、御浄霊中二、三回排尿に参ります。<br><br>この原因と御浄霊につき御教示下さい。<br><br> （医学は罪な事をするものだ。<br><br>私はじっとしていられない）尿意頻繁なのは、普通膀胱が圧迫されて小さくなっているから少し溜るとすぐ出るようになる。<br><br>（少ししか出ない）中には尿道へ腫れたりなどして刺戟すると尿意を催す。<br><br>これは早く治る。<br><br>子宮の周りなら前屈になったり後屈になる。<br><br> よく子宮掻爬するが、これは歯糞を掃除すると同じで、歯医者は粘膜の汚れを除るというが、子宮は始終湿潤している。<br><br>（S24. 8. 5） 064 尿意頻繁執拗なり 本年十一歳の男子、小便が近く、浄霊も四年前より続けています。<br><br>効果がはかばかしくありませぬ。<br><br>霊的因縁でしょうか。<br><br>御教え下さい。<br><br> 膀胱の周りに毒があり、圧迫している。<br><br>容れ物が小さくなっているから小便が近いのである。<br><br>この毒は腎臓から来ているから、腎臓をすれば治る。<br><br>すべて病気は急所へ触れれば効果が本当にある。<br><br>急所が一番肝腎である。<br><br> 065 排尿痛 私は昨年七月入信、現在観音様の御用をさせていただいている者ですが、四十日程前より小便をする時痛みますので、病名もわからず迷った末、医師の診断の結果膀胱結石症と云われ、一ケ月程服用薬と注射を一日置きに致しましたが効果なく、結局観音様の御力にすがるより外なく、今は一生懸命御浄霊に頼っております。<br><br>御浄霊法について御教示を御願い申し上げます。<br><br> （尿道が痛むなら）膀胱結石ではない。<br><br>（膀胱炎は割合い奥の方が痛い）一個所へ毒が固まり、おデキになろうとしている。<br><br>そこを通る時に痛む。<br><br>尿道の扁桃腺のようなものである。<br><br>（S24. 7.28） 066 発熱黒尿 宮崎文江と申す十四歳の者、本年一月末頃より脊椎カリエスの状態にて下半身マヒ致しております。<br><br>最近黒い尿を出し、全身に発熱、高い時は腋下、首の周りで四十一度二分位にまでになりまして、胸の痛みを訴えます。<br><br>本人の母方の祖父は脳溢血で斃れております。<br><br>外に縁類にも霊的原因があるように思われます。<br><br>御浄霊により治るものと存じますが、余り長引きますので御教えを賜りたく御伺い申し上げます。<br><br> 黒尿は血の古くなったもの。<br><br> 浄化熱である。<br><br>（S24. 8.12） 067 尿道より五～九尺の膿糸出づ 五十歳の男子、数年前より排尿の都度男根よりソウメンのごときもの現れ、これをたぐると約五尺ないし九尺に及び、医師も病原不明のまま最近死亡致しました。<br><br>何等の苦痛も無かったそうでありますが、右はいかなる原因によるもので御座居ましょうか。<br><br> 判らぬ。<br><br>（S23.10.22） 068 肥満・疲労・頭重・息苦し（弁膜症） 私の妻（四十六歳）は一昨年より体が次第に肥満し、段々疲れ易くなり、昨年九月二十五日突然倒れました。<br><br>医師の診断では心臓弁膜症との事、三ケ月程で医者は治ったと云うが、本人は相変らず気分すぐれず、話をしても息苦しくありました。<br><br>十二月の終り頃より浄霊を頂き、お蔭様で心臓の方はよくなったが、頭重、耳鳴りで未だ寝たまま浄霊を受けております。<br><br>今後いかようにしたら早く快くなれるでしょうか。<br><br> 浄霊を続ければ段々よくなる。<br><br>腎臓をよくする。<br><br>尿が溜ったもので、弁膜症は心臓が圧迫されたもので、息切れは心臓圧迫のためである。<br><br>肺を圧迫されるため心臓を圧迫されるのである。<br><br>急に浮腫が起ると、肺の抵抗力がないからよけい苦しむ。<br><br>豚みたいな女学生が多いが、これは水気によるので、尿が腎臓の周りへ溜り、腎臓を圧迫し、身体中へ廻る。<br><br>それが固まってゆくのである。<br><br>そして固太りとなる。<br><br>結局腹膜になる。<br><br>誰でも腹膜は悪い。<br><br>相撲取りなど皆これである。<br><br>尿には薬毒が多い。<br><br> 浄霊は腎、背中、腰である。<br><br>（S24. 3.16） 069 心臓病で排尿少なし 父母と姉が入信しており、妹も入信しております。<br><br>その妹、現在十七歳、十二歳位の時より心臓が悪くなり、あまり活発な動きは出来ません。<br><br>一ケ月前より御浄化が強く、腹膜を起し、小便の出が悪く、御浄霊をしておりますが中々苦しみが取れず、小便も思うように出ません。<br><br>少し危険に思います。<br><br>その家は非常に因縁が深く、父の実家は都合で一番下の弟が相続しており、現在迄に奇病で二人の奥さんが死に三人目の奥さんを迎えております。<br><br>何か霊的の障りが御座いましょうか。<br><br>御伺い申し上げます。<br><br> 腎臓の悪い場合は病的原因である。<br><br>腫気があり心臓が悪くなる。<br><br>腎臓中の膿の塊が膀胱へ行ってつかえる。<br><br>それで排尿が少なくなる。<br><br>腎臓と膀胱を浄霊せよ。<br><br>（S24. 6. 2） 070 出切れぬ尿毒 私の子供敬子（十二歳）が腎臓炎のため腫れ上り、先生の浄霊にて治りましたが、最近空を眺めてはお星様が見えないと言っております。<br><br>顔色も悪く、また耳も遠いように思われます。<br><br>いかなる原因かお伺い申し上げます。<br><br> 尿毒が出切れないで顔面から頭へ残っている。<br><br>眼も悪い。<br><br>（S24. 6. 7） 071 糖尿病の急所 私は長年の糖尿病のところ、本年春入信以来毎日浄霊を受けています。<br><br>光明如来様の御神体も奉斎しています。<br><br>お蔭も受けて、経過も大変よろしく、食物も何でも食べていますが、喉が渇いて毎日二、三升位水を飲んでいます。<br><br>歯もゆるみ、小便も時々悪臭を放ちます。<br><br>興奮すると常軌を逸する事があります。<br><br>浄霊について特にどこを気を付けるべきでありましょうか。<br><br>御伺い申します。<br><br> まだ本当に治っていない。<br><br>因（もと）は左の腎臓である。<br><br>左の後ろ、膵臓辺をする。<br><br>（S24.12.25） 072 糖尿病で衰弱 私は家内六名入信、二十三年六月光明如来奉斎、信仰致しております。<br><br>二十二年四月大変水物が飲みたくなりましたので医師の診断を受けましたところ、糖尿病との事ゆえ医療を受けず三ケ年浄霊を頂いています。<br><br>その間分会長先生初め諸先生方にしばしば浄霊を頂きつつ今日に到りました。<br><br>御陰で余程快方に向いつつありますが、衰弱甚だしく、そのため総身だるく、水を飲みたいのです。<br><br>しかし食事は美味しく睡眠も充分出来ます。<br><br>小便も沢山出ます。<br><br>一日も早く全快、御道のため働かせて頂きたく努めております。<br><br>浄霊を頂いていれば全治するでしょうか。<br><br>また、霊的に何か関係があるでしょうか。<br><br>御伺い申し上げます。<br><br>仏壇も茶の間にありましたが、奥の間、光明如来様奉斎の室の右に祭らして頂きました。<br><br> 糖尿病らしい。<br><br>元は膵臓（左）、その元は左腎臓で、その辺をよく浄霊する。<br><br>糖分の処分が出来ぬ。<br><br>龍神だけなら衰弱の甚だしい事はない。<br><br>（S25. 4.26） 073 糖尿病と食餌 私の扱っている患者、三十七歳の男子、四年前糖尿病にて医療及び食餌療法を行いたるも結果不可のため、一年半前に妻と共に入信して浄霊を致しておりますが、非常な苦しみを続けております。<br><br>本年一月末より腰部に腫物が出来、三ケ月間排膿しております。<br><br>この腫物の膿の出口は少しずつ変って激痛あり、足が伸びなくなり、手も痺れ、視力も弱くなってきました。<br><br>最近食餌療法を行ったところ幾分元気をとりもどしたと本人は申します。<br><br>今後食餌療法と浄霊とで健康が得られましょうか。<br><br> だんだん治る筈である。<br><br>激痛は洋薬の浄化である。<br><br> 食餌療法は治るのは同じ事で、しなくとも同じである。<br><br> 糖尿は膵臓であるから、左腎臓と膵臓部をする。<br><br>（S24. 4.10） 074 執拗な寝小便の浄霊個所 本年六歳になる男児、寝小便が甚だしく、約一ケ年位浄霊を致しておりますが未だ効果が現われません。<br><br>いかなる原因で御座いますか。<br><br>御教え願います。<br><br> 見当違いの浄霊のためと思う。<br><br>尿道の括約筋を毒が圧迫している。<br><br>股の両側と前頭部である。<br><br>前頭部の注意力などの働きが鈍感になっている。<br><br>出たい意欲が働かぬ。<br><br>通じないのである。<br><br> 腎臓、膀胱（股）、前頭、後頭をやる。<br><br> 075 寝小便、（前頭と尿意） 私の子供員美（かずみ）、十歳になる者、毎夜寝小便が出ます。<br><br>浄霊しても治りません。<br><br>霊から来ると伺っておりますが、どう言う訳で御座いましょうか。<br><br>また、どう信仰したらよろしいでしょうか。<br><br> 訳なく治る。<br><br>普通は膀胱から尿道へ行く途中に括約筋という筋肉がある。<br><br>これが引張られて緩んでいる。<br><br>また、頭の悪いのがある。<br><br>尿意は前頭部へ来るから、それが鈍っている。<br><br>これは延髄をすれば治る。<br><br>これで治らぬとすれば急所を外れている。<br><br>（S23.11.27） 076 執拗な夜尿（体癖） 夜尿症で一、二回の御浄霊で簡単に治るのと、浄霊しながら半年一年も経過するもなお治らないのとございますが、この頑固な方はただ体的原因のみでしょうか、あるいは霊的原因でしょうか。<br><br>原因並びに浄霊個所を御教示下さいませ。<br><br> 体的でも、前頭部と括約筋をする。<br><br>前頭部と生殖器は非常に関係があり、前頭部に毒があると働きは鈍くなる。<br><br>年頃になって治らぬのは癖がついている。<br><br> 077 寝小便 昭和元年生れ、二十五歳の男ですが、寝小便で困っております。<br><br>どういたしたらよろしいでしょうか。<br><br> 尿道の括約筋が緩んでいるのである。<br><br>尿道から鼠蹊部へかけて毒があると伸縮が自由にならぬ。<br><br>その原因は、前頭部の中、注意力や理性の働きが鈍感になっているため、尿意を止める意識が弱いのである。<br><br>故に股（膀胱付近）と前頭部の浄霊で治る。<br><br>固まっているから、子供よりは遅い。<br><br>（S24. 2.15）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Cura (VI): Sintomas de Doenças – Excreção (Textos 060-077)</h2>
 <p><strong>060 A Causa da Constipação Intestinal</strong></p>
@@ -146,5 +298,48 @@ function toggleLang(lang) {
 <p><strong>077 Enurese Noturna</strong></p>
 <p>Um homem de 25 anos, nascido no primeiro ano da Era Showa (1926), sofre de enurese noturna e está muito aflito. O que ele deve fazer?</p>
 <p>O esfíncter da uretra está frouxo. A presença de toxinas na região que se estende da uretra à virilha impede que a contração e o relaxamento ocorram livremente. A causa disso reside no fato de que, na região frontal da cabeça, as faculdades da atenção e da razão se tornaram menos sensíveis, enfraquecendo a consciência que deveria conter o impulso de urinar. Portanto, a cura é alcançada com Johrei na virilha (proximidades da bexiga) e na região frontal da cabeça. Como as toxinas já se solidificaram, o processo é mais lento do que em uma criança. (15 de fevereiro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （六） 病気諸症状 ４ 060-077 排泄 060 便秘の原因 左臀部神経痛で来た婦人、神経痛は治りましたが、以前からの便秘症には変化なく、最近はかえってひどく、恥骨周辺に激痛が時々あって、小用が漏れると申します。<br/><br/>以前に開腹手術をした事もあり、その際相当の全身麻酔を行っています。<br/><br/>右、便秘の原因を御教示下さい。<br/><br/> 薬毒がそこに固まっている。<br/><br/>根気よく浄霊する。<br/><br/>手術部の奥の方へ霊が届くようにする。<br/><br/>少食、よく嚼（か）む、水分少ない、直腸狭い（左）等の場合便秘する。<br/><br/>（S24. 2.18） 061 暴飲暴食と便秘、（狸霊とゲップ） 緒方進（四十八歳）、洋画家、十五、六年前より暴飲暴食にて便秘症となり、画や書を書くかたわら土方をやり、相当肉体労働を致しましたため四月上旬より健康を害し、断食を始めましたところ四、五日目位より腹部苦しく、ゲップが二時間置き位に出て四十分位は連続し、胸がかきむしられるように苦しく感じました。<br/><br/>その後ブドー糖の注射その他を受けました。<br/><br/>五日程前より御浄霊を依頼され、毎日御浄霊させて頂いておりますが、ゲップは大分少なくなりましたが中々止まらず、苦しんでおります。<br/><br/>当家には仏壇もなく先祖のお位牌を白木でお塔婆形に作り針で止めてありましたので、早速取り除かせ仏壇、位牌をお祀り致す事に申し聞かせました。<br/><br/>入信も早速させて頂く事に致しましたが、右のゲップは何か霊的原因が御座いましょうか。<br/><br/>御伺い申し上げ、あわせて御守護を御願い申し上げます。<br/><br/> 暴飲暴食で便秘にはならない。<br/><br/>アベコベである。<br/><br/>また、肉体労働で健康を害しているのも反対で、すべて医学の言葉を信じているからで、葡萄糖の注射したのは非常に悪い。<br/><br/> ゲップは狸である。<br/><br/>左の腹が狸の住居である。<br/><br/>よく本を読ませる。<br/><br/>（S25. 5.18） 062 難排便 肋膜、腹膜、痔病の老女（七十歳）、約一ケ月半浄霊していますが、肋膜、痔は全治の模様で、入信して現在は元気に起きて家の中の仕事をする程度になっています。<br/><br/>長年便秘で、薬を飲んだ結果便が肛門の口で固まって中々出ないで、当人も辛抱が出来なくて、手で排出しますと小さい丸い黒い塊が少量出たと云っています。<br/><br/>浄霊について御教示お願い致します。<br/><br/> 下剤の中毒である。<br/><br/>肛門の出口を浄霊していれば治る。<br/><br/>（S25. 2.17） 063 尿意頻繁詳説 本年三十歳の婦人、約五年前から小便が近く、田舎の医師に罹りつつ次第に繁くなり、婦人科専門医の診断の結果、右の腎臓結核とて手術をし除去致しました。<br/><br/>しかし依然として治らず、 尿意は一層繁くなり、遂には極く少量ずつ洩るようになり、御浄霊中二、三回排尿に参ります。<br/><br/>この原因と御浄霊につき御教示下さい。<br/><br/> （医学は罪な事をするものだ。<br/><br/>私はじっとしていられない）尿意頻繁なのは、普通膀胱が圧迫されて小さくなっているから少し溜るとすぐ出るようになる。<br/><br/>（少ししか出ない）中には尿道へ腫れたりなどして刺戟すると尿意を催す。<br/><br/>これは早く治る。<br/><br/>子宮の周りなら前屈になったり後屈になる。<br/><br/> よく子宮掻爬するが、これは歯糞を掃除すると同じで、歯医者は粘膜の汚れを除るというが、子宮は始終湿潤している。<br/><br/>（S24. 8. 5） 064 尿意頻繁執拗なり 本年十一歳の男子、小便が近く、浄霊も四年前より続けています。<br/><br/>効果がはかばかしくありませぬ。<br/><br/>霊的因縁でしょうか。<br/><br/>御教え下さい。<br/><br/> 膀胱の周りに毒があり、圧迫している。<br/><br/>容れ物が小さくなっているから小便が近いのである。<br/><br/>この毒は腎臓から来ているから、腎臓をすれば治る。<br/><br/>すべて病気は急所へ触れれば効果が本当にある。<br/><br/>急所が一番肝腎である。<br/><br/> 065 排尿痛 私は昨年七月入信、現在観音様の御用をさせていただいている者ですが、四十日程前より小便をする時痛みますので、病名もわからず迷った末、医師の診断の結果膀胱結石症と云われ、一ケ月程服用薬と注射を一日置きに致しましたが効果なく、結局観音様の御力にすがるより外なく、今は一生懸命御浄霊に頼っております。<br/><br/>御浄霊法について御教示を御願い申し上げます。<br/><br/> （尿道が痛むなら）膀胱結石ではない。<br/><br/>（膀胱炎は割合い奥の方が痛い）一個所へ毒が固まり、おデキになろうとしている。<br/><br/>そこを通る時に痛む。<br/><br/>尿道の扁桃腺のようなものである。<br/><br/>（S24. 7.28） 066 発熱黒尿 宮崎文江と申す十四歳の者、本年一月末頃より脊椎カリエスの状態にて下半身マヒ致しております。<br/><br/>最近黒い尿を出し、全身に発熱、高い時は腋下、首の周りで四十一度二分位にまでになりまして、胸の痛みを訴えます。<br/><br/>本人の母方の祖父は脳溢血で斃れております。<br/><br/>外に縁類にも霊的原因があるように思われます。<br/><br/>御浄霊により治るものと存じますが、余り長引きますので御教えを賜りたく御伺い申し上げます。<br/><br/> 黒尿は血の古くなったもの。<br/><br/> 浄化熱である。<br/><br/>（S24. 8.12） 067 尿道より五～九尺の膿糸出づ 五十歳の男子、数年前より排尿の都度男根よりソウメンのごときもの現れ、これをたぐると約五尺ないし九尺に及び、医師も病原不明のまま最近死亡致しました。<br/><br/>何等の苦痛も無かったそうでありますが、右はいかなる原因によるもので御座居ましょうか。<br/><br/> 判らぬ。<br/><br/>（S23.10.22） 068 肥満・疲労・頭重・息苦し（弁膜症） 私の妻（四十六歳）は一昨年より体が次第に肥満し、段々疲れ易くなり、昨年九月二十五日突然倒れました。<br/><br/>医師の診断では心臓弁膜症との事、三ケ月程で医者は治ったと云うが、本人は相変らず気分すぐれず、話をしても息苦しくありました。<br/><br/>十二月の終り頃より浄霊を頂き、お蔭様で心臓の方はよくなったが、頭重、耳鳴りで未だ寝たまま浄霊を受けております。<br/><br/>今後いかようにしたら早く快くなれるでしょうか。<br/><br/> 浄霊を続ければ段々よくなる。<br/><br/>腎臓をよくする。<br/><br/>尿が溜ったもので、弁膜症は心臓が圧迫されたもので、息切れは心臓圧迫のためである。<br/><br/>肺を圧迫されるため心臓を圧迫されるのである。<br/><br/>急に浮腫が起ると、肺の抵抗力がないからよけい苦しむ。<br/><br/>豚みたいな女学生が多いが、これは水気によるので、尿が腎臓の周りへ溜り、腎臓を圧迫し、身体中へ廻る。<br/><br/>それが固まってゆくのである。<br/><br/>そして固太りとなる。<br/><br/>結局腹膜になる。<br/><br/>誰でも腹膜は悪い。<br/><br/>相撲取りなど皆これである。<br/><br/>尿には薬毒が多い。<br/><br/> 浄霊は腎、背中、腰である。<br/><br/>（S24. 3.16） 069 心臓病で排尿少なし 父母と姉が入信しており、妹も入信しております。<br/><br/>その妹、現在十七歳、十二歳位の時より心臓が悪くなり、あまり活発な動きは出来ません。<br/><br/>一ケ月前より御浄化が強く、腹膜を起し、小便の出が悪く、御浄霊をしておりますが中々苦しみが取れず、小便も思うように出ません。<br/><br/>少し危険に思います。<br/><br/>その家は非常に因縁が深く、父の実家は都合で一番下の弟が相続しており、現在迄に奇病で二人の奥さんが死に三人目の奥さんを迎えております。<br/><br/>何か霊的の障りが御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 腎臓の悪い場合は病的原因である。<br/><br/>腫気があり心臓が悪くなる。<br/><br/>腎臓中の膿の塊が膀胱へ行ってつかえる。<br/><br/>それで排尿が少なくなる。<br/><br/>腎臓と膀胱を浄霊せよ。<br/><br/>（S24. 6. 2） 070 出切れぬ尿毒 私の子供敬子（十二歳）が腎臓炎のため腫れ上り、先生の浄霊にて治りましたが、最近空を眺めてはお星様が見えないと言っております。<br/><br/>顔色も悪く、また耳も遠いように思われます。<br/><br/>いかなる原因かお伺い申し上げます。<br/><br/> 尿毒が出切れないで顔面から頭へ残っている。<br/><br/>眼も悪い。<br/><br/>（S24. 6. 7） 071 糖尿病の急所 私は長年の糖尿病のところ、本年春入信以来毎日浄霊を受けています。<br/><br/>光明如来様の御神体も奉斎しています。<br/><br/>お蔭も受けて、経過も大変よろしく、食物も何でも食べていますが、喉が渇いて毎日二、三升位水を飲んでいます。<br/><br/>歯もゆるみ、小便も時々悪臭を放ちます。<br/><br/>興奮すると常軌を逸する事があります。<br/><br/>浄霊について特にどこを気を付けるべきでありましょうか。<br/><br/>御伺い申します。<br/><br/> まだ本当に治っていない。<br/><br/>因（もと）は左の腎臓である。<br/><br/>左の後ろ、膵臓辺をする。<br/><br/>（S24.12.25） 072 糖尿病で衰弱 私は家内六名入信、二十三年六月光明如来奉斎、信仰致しております。<br/><br/>二十二年四月大変水物が飲みたくなりましたので医師の診断を受けましたところ、糖尿病との事ゆえ医療を受けず三ケ年浄霊を頂いています。<br/><br/>その間分会長先生初め諸先生方にしばしば浄霊を頂きつつ今日に到りました。<br/><br/>御陰で余程快方に向いつつありますが、衰弱甚だしく、そのため総身だるく、水を飲みたいのです。<br/><br/>しかし食事は美味しく睡眠も充分出来ます。<br/><br/>小便も沢山出ます。<br/><br/>一日も早く全快、御道のため働かせて頂きたく努めております。<br/><br/>浄霊を頂いていれば全治するでしょうか。<br/><br/>また、霊的に何か関係があるでしょうか。<br/><br/>御伺い申し上げます。<br/><br/>仏壇も茶の間にありましたが、奥の間、光明如来様奉斎の室の右に祭らして頂きました。<br/><br/> 糖尿病らしい。<br/><br/>元は膵臓（左）、その元は左腎臓で、その辺をよく浄霊する。<br/><br/>糖分の処分が出来ぬ。<br/><br/>龍神だけなら衰弱の甚だしい事はない。<br/><br/>（S25. 4.26） 073 糖尿病と食餌 私の扱っている患者、三十七歳の男子、四年前糖尿病にて医療及び食餌療法を行いたるも結果不可のため、一年半前に妻と共に入信して浄霊を致しておりますが、非常な苦しみを続けております。<br/><br/>本年一月末より腰部に腫物が出来、三ケ月間排膿しております。<br/><br/>この腫物の膿の出口は少しずつ変って激痛あり、足が伸びなくなり、手も痺れ、視力も弱くなってきました。<br/><br/>最近食餌療法を行ったところ幾分元気をとりもどしたと本人は申します。<br/><br/>今後食餌療法と浄霊とで健康が得られましょうか。<br/><br/> だんだん治る筈である。<br/><br/>激痛は洋薬の浄化である。<br/><br/> 食餌療法は治るのは同じ事で、しなくとも同じである。<br/><br/> 糖尿は膵臓であるから、左腎臓と膵臓部をする。<br/><br/>（S24. 4.10） 074 執拗な寝小便の浄霊個所 本年六歳になる男児、寝小便が甚だしく、約一ケ年位浄霊を致しておりますが未だ効果が現われません。<br/><br/>いかなる原因で御座いますか。<br/><br/>御教え願います。<br/><br/> 見当違いの浄霊のためと思う。<br/><br/>尿道の括約筋を毒が圧迫している。<br/><br/>股の両側と前頭部である。<br/><br/>前頭部の注意力などの働きが鈍感になっている。<br/><br/>出たい意欲が働かぬ。<br/><br/>通じないのである。<br/><br/> 腎臓、膀胱（股）、前頭、後頭をやる。<br/><br/> 075 寝小便、（前頭と尿意） 私の子供員美（かずみ）、十歳になる者、毎夜寝小便が出ます。<br/><br/>浄霊しても治りません。<br/><br/>霊から来ると伺っておりますが、どう言う訳で御座いましょうか。<br/><br/>また、どう信仰したらよろしいでしょうか。<br/><br/> 訳なく治る。<br/><br/>普通は膀胱から尿道へ行く途中に括約筋という筋肉がある。<br/><br/>これが引張られて緩んでいる。<br/><br/>また、頭の悪いのがある。<br/><br/>尿意は前頭部へ来るから、それが鈍っている。<br/><br/>これは延髄をすれば治る。<br/><br/>これで治らぬとすれば急所を外れている。<br/><br/>（S23.11.27） 076 執拗な夜尿（体癖） 夜尿症で一、二回の御浄霊で簡単に治るのと、浄霊しながら半年一年も経過するもなお治らないのとございますが、この頑固な方はただ体的原因のみでしょうか、あるいは霊的原因でしょうか。<br/><br/>原因並びに浄霊個所を御教示下さいませ。<br/><br/> 体的でも、前頭部と括約筋をする。<br/><br/>前頭部と生殖器は非常に関係があり、前頭部に毒があると働きは鈍くなる。<br/><br/>年頃になって治らぬのは癖がついている。<br/><br/> 077 寝小便 昭和元年生れ、二十五歳の男ですが、寝小便で困っております。<br/><br/>どういたしたらよろしいでしょうか。<br/><br/> 尿道の括約筋が緩んでいるのである。<br/><br/>尿道から鼠蹊部へかけて毒があると伸縮が自由にならぬ。<br/><br/>その原因は、前頭部の中、注意力や理性の働きが鈍感になっているため、尿意を止める意識が弱いのである。<br/><br/>故に股（膀胱付近）と前頭部の浄霊で治る。<br/><br/>固まっているから、子供よりは遅い。<br/><br/>（S24. 2.15）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

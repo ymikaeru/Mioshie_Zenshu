@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270416</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月16日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月十六日 【御教え】 今、出掛けにメシヤ会館の絵図が大体できたんですが、この間のとは少し違ったんです。<br><br>いくらか柱を細く――こまかくね。<br><br>この間のは柱が二尺五寸の幅だったですが、どうも――だんだん考えてみると太すぎるので、一尺六寸にして、数が五、六本増えたんです。<br><br>柱が人造石で、その間が白壁です。<br><br>柱が一尺六寸で、白壁が三尺六寸――倍ですね。<br><br>高さは、前面が四十尺ですから、約七間ですね。<br><br>入口は大体三間くらいの幅で、両方に大理石の丸い柱――直径二尺くらいのを立てて、入口の欄間になっている所を、金――と言っても、本当の金ではない。<br><br>金メッキなんですが、なにか模様で、かつ入口のガラスの戸の縁などまで全部金メッキにして、入口は絢爛たるものにしようと思う。<br><br> 御伺い 右っ側の茶色になっている所はなんでございますか。<br><br> 今、土がむき出しになっている所――それですよ。<br><br>それからそこに家が建つんです。<br><br>建つけれども、それには画いてないんです。<br><br>家は、いろいろな――事務所とか、そういうものが建つんです。<br><br>これはもう、ぜんぜん新しいんです。<br><br>まだどこにもないんですよ。<br><br>で、椅子が二千二百人ばかり入るんですね。<br><br>そのまわりが九尺の廊下で取り巻くから、約三千人くらい入りますね。<br><br>中の椅子から、これからは御神前、舞台兼用ですね――それが難しいんですよ。<br><br>どうも、舞台らしくしては下品になりますしね。<br><br>またあまり神床一方では――そこで歌唄ったり、舞踊ったりできないから、そこを調和させるのが難しいですね。<br><br> 次は景観台ですね。<br><br>展望台の丸いガラスの家を、今画かせてますがね。<br><br>もうじきできますけれども、これはよほど変わったものでね。<br><br>なにからなにまで全部私がやらなければならないのでね。<br><br>実に、専門家なんてのは頭が古くて間抜けでしょうがないですよ。<br><br>昨日も箱根に行ってケースの見本を見ましたが、ぜんぜん問題にならないですよ。<br><br>それで東京で一番なんです。<br><br>高島屋の専属なんですがね。<br><br>良いものができると思ったら、まるっきり駄目です。<br><br>明治時代の物のようですね。<br><br>第一回の博覧会のようです。<br><br>先が古過ぎるのか、こっちが新し過ぎるのかね。<br><br>それで、金をかけて、安っぽい物ができちゃうんですよ。<br><br>私がやるのは、一番金がかからない。<br><br>これだって、金がかからないようにね。<br><br>つまり金をかけないで、効果的ですね。<br><br>なんでも同じですよ。<br><br>宣伝するにも、なにも言わなくて急所をやる。<br><br>これですね。<br><br>やたらに――ペラペラしゃべっても効果がない。<br><br> 会館の中の椅子から、天井から壁から、すべて私の考え通りにやるんです。<br><br>美術館もだいぶできましたからね。<br><br>先にやった所がどうもいけないんですね。<br><br>それは一々言わなければならないのです。<br><br>言った通りやれば良いんですが、商売人は言った通りやると、自分の沽券にかかわるというので変えるんですよ。<br><br>それを直すんですね。<br><br>言った通りやらないで、変えるんですね。<br><br>「素人はこういうところは分からない。<br><br>どうも素人流でいけない」と言うのですね。<br><br>一つの教育ですね。<br><br>私の言った通りやるという教育を呑み込ませるまでに、そうとうかかるんです。<br><br>庭だってそうですからね。<br><br>去年の夏、石を流れの縁に入れてやるというのでも、私がこうしろと言っても、どうしてもやらないんです。<br><br>簡単なことですけれどもね。<br><br>こうやれと言っても、どうしても私の言った通りやらないんですよ。<br><br>三度ともそうです。<br><br>親方の弟ですがね。<br><br>今度私の言う通りやらなかったら、あの人は退いてもらわなければならないと言ったので、親方が私の言った通りやった。<br><br>ですから、本人はしばらく隠退のようになってましたがね。<br><br>そうまでして自分の思う通りやろうと言うんですね。<br><br>不思議ですよ。<br><br>このごろは来て一生懸命やってますがね。<br><br>そんなわけで、こっちの言う通り、どうしてもやらないですね。<br><br>簡単なことですがね。<br><br>二、三日かかって駄目になった。<br><br>それが半日でちゃんとできちゃうですね。<br><br>だから一番難しいのは、私の言う通りにやらせるというのが、一番難しいんです。<br><br>一番厄介なのは、木の枝を切ることですね。<br><br>これは言う通りにやらないと、育つまでに何年もかかるんですからね。<br><br>これが一番困る。<br><br>ですから、木を切るだけは私が見て、一々切らせるんですよ。<br><br>それで、どうやら良いんですが、随分厄介なものですよ。<br><br> （御論文「神人合一」）【栄光 一五五号】 （御論文「原爆恐るるに足らず」）【栄光 一五五号】 こういうのがみんなで七つ来たんですが、これが一番良く書いてありますから、これだけ読んだわけですがね。<br><br>ですから、これはハワイとアメリカにも送ってやろうと思っている。<br><br> それから、これはちょっとおもしろい書き方なんで。<br><br> （御論文「世界的丁髷時代」）【栄光 一五五号】 もう一つ、これは先にも書いてありますけれども、もう一遍、ちょっと書き方を違えましたからね。<br><br> （御論文「大乗愛」） 二、三日前文部省の――アメリカから帰った人で、これはメシヤ教に大いに関心を持ってきたんです。<br><br>『地上天国』なんか見せて、私にぜひ会いたい、と言うので、ちょっと会いましたがね。<br><br>なかなか、役人らしくない人で、まあ新人ですね。<br><br>話が良く合うんですよ。<br><br>私も役人と話しているような気持ちがしないで、言いたいことを言い、先も宗教家らしくないと言うんですよ。<br><br>ですから、やっぱり固苦しいことや、そういうようなことに触れないで、いろんな話をして、なかなかおもしろかったですがね。<br><br>ああいう役人ができるようになると、日本も大いに民主的になると思うんですよ。<br><br>やっぱりアメリカでも、美術熱というものは非常にさかんになっているようですね。<br><br>特に日本美術ですね。<br><br>それに憧れを持っていて、大いに――見たり、手に入れたりしたいような空気がさかんになっているそうですがね。<br><br>で、そんな話を聞いていると、今度の箱根の美術館なんか、ちょうど時宜（じぎ）に適切にはまっているわけですね。<br><br>と言うのは、いつも言う通り、日本美術というものは、見せる所が日本にまだないんですからね。<br><br>ですから、いずれ外国に知れ渡るに違いないから、随分見に来るだろうと思ってます。<br><br>日本に来た外客で――観光客としたら箱根を見ない人はないですからね。<br><br>箱根に来れば、嫌でもこの美術館を見ますからね。<br><br>だからそうとう世界的に反響を起すだろうと思ってね。<br><br>去年あたり、日本に来る外客が、確か五、六万人くらいでしたかね。<br><br>季節的な関係があるから、箱根は半年として、半分として三万人くらいは、確かに美術館に見物に来るだろうと思ってます。<br><br>それについて、館の方はだいぶ信者の人も見に来るそうですから――知っているでしょうが――まだ、規模は小さいです。<br><br>しかし一通りは並べられると思うんです。<br><br>で、並べる品物をだんだん調べてみますと、なんと言っても、日本で規模の大きいのは博物館――上野の博物館ですからね。<br><br>そうすると、博物館の品物――美術品を私の方と較べてみると、断然私の方が上なんですよ。<br><br>ただし仏教美術だけは博物館の方が上ですがね。<br><br>これは、上のはずなんですよ。<br><br>方々のお寺から借りますからね。<br><br> それからもう一つは国宝と御物ですね。<br><br>それがそうとうありますからね。<br><br>御物だけはこちらはとてもかないっこないですからね。<br><br>それでも仏教美術だけは、いずれ負けないものを集めるつもりですがね。<br><br>今のところは仏教美術はとても歯が立たないくらいですね。<br><br>しかし、一般の美術を鑑賞するのは、仏教の方は一般的には分からないですから、私も近ごろああいう方も研究してみると、とても趣味のあるもので、それとともに良い悪いがとてもあるものです。<br><br>最初のうちは阿弥陀様も観音様も同じように見えたですよ。<br><br>良い悪いも、時代なんかは分からなかった。<br><br>そんなわけで一般としては、他の美術品が良ければ、一番効果的だと思うんです。<br><br>その他の美術品としては、絵画ですが、日本は無論ですが、支那のものでも、博物館よりか私の方がずっと上ですよ。<br><br>数においても負けないでしょう。<br><br>物においては断然上ですからね。<br><br>これは大いに誇るに足ると思うんです。<br><br>あとは蒔絵ですが、蒔絵も私の方がずっと上ですね。<br><br>それから陶器――日本、朝鮮、支那の陶器ですが、これも私の方が勝ってます。<br><br>だから仏教美術を除いた他のものは、少しくらいでなくそうとう勝ってますから、外客が見て――方々美術館を見るでしょうが、確かに箱根の美術館は――日本美術を見たいとしたら、どうしても来て見なければならないということになるのは間違いないですね。<br><br>で昨日行ったところが、ケースの見本ができてましたが、問題にならないですね。<br><br>どうも――さっきも言った通り、ぜんぜんやり直すつもりです。<br><br>そんなわけで、だんだん調べて分かった結果、非常に安心したとともに大きな期待が持てるわけです。<br><br>それから後ろの方の拡い所ですね。<br><br>モミジを植える所ですね。<br><br>モミジもかなり植わりましたが、植え方が少し混み過ぎるので、間を開けるように、昨日言ってきました。<br><br>美術館は美術館として、周囲ですね――竹林とか萩の道ですね。<br><br>ああいう方面も大いに感心するだろうと思ってますがね。<br><br>で、ちょうど六月までには大体できると思ってますからね。<br><br>大いに楽しんで良いと思います。<br><br>ですから、少し好きな人は、いつまでもそこに釘づけにされる人が随分あるだろうと思いますね。<br><br>だからよほど方法をしないと、大勢見せきれないだろうと、それがいささか心配ですね。<br><br>なにしろふだん、一品か二品でもぜひ見たいと言うのがたくさんありますからね。<br><br>好きな人は動きませんよ。<br><br>いつかの寸鉄にあるように、息が止まる人や、腰を抜かす人があるくらいですね。<br><br>そんなわけですから、いくども見に来る人がありますね。<br><br>ゆっくり見たら一日かかっても見きれないくらいありますね。<br><br>ところが信者さんだけは、面会日は朝の九時から、十一時の面会までの二時間はゆっくり見れますから、一つの特権だろうと思ってますがね。<br><br>だから、そのために信者に入る人も随分あるだろうと思います。<br><br>時間がないから、話はそのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Construção do Protótipo do Paraíso Terrestre</h2>
 <p>Pouco antes de minha partida, recebi o esboço quase finalizado do Salão Messiânico. O projeto sofreu algumas alterações em relação à versão anterior, notadamente no que se refere aos pilares, que foram refinados e se tornaram mais delgados. No desenho precedente, os pilares possuíam uma largura de setenta e cinco centímetros, mas, após refletir detidamente, concluí que eram excessivamente robustos. Assim, reduzi sua largura para quarenta e oito centímetros e aumentei a quantidade, acrescentando cinco ou seis colunas.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Na vasta área aos fundos, onde estamos plantando os bordos, já temos um número considerável de árvores. No entanto, o plantio estava muito denso, e ontem mesmo instruí que abrissem mais espaço entre elas. O museu é uma entidade em si, mas seu entorno — o bosque de bambus, o caminho das acácias — também despertará grande admiração. Creio que, até junho, a maior parte do projeto estará concluída. Os senhores podem aguardar com grande expectativa. Tenho certeza de que os apreciadores mais sensíveis ficarão tão cativados que permanecerão ali por tempo indeterminado. Minha única preocupação é como organizar o fluxo para que um grande número de pessoas possa visitar, pois, mesmo em condições normais, há muitas obras que as pessoas desejam ver, ainda que seja apenas uma ou duas. Os verdadeiros amantes da arte não se moverão. Como escrevi certa vez em um <em>suntetsu</em>, haverá aqueles que perderão o fôlego ou cujas pernas fraquejarão diante da beleza. Por isso, muitos virão repetidas vezes. Para apreciar tudo com calma, um dia inteiro não seria suficiente.</p>
 <p>No entanto, os membros da Igreja terão um privilégio especial: nos dias de encontro, poderão visitar o museu com tranquilidade das nove da manhã até o início da audiência, às onze. Acredito que esta será uma vantagem exclusiva, e imagino que muitas pessoas se tornarão membros apenas por essa razão.</p>
 <p>Como o tempo é escasso, encerrarei minhas palavras por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月16日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月十六日 【御教え】 今、出掛けにメシヤ会館の絵図が大体できたんですが、この間のとは少し違ったんです。<br/><br/>いくらか柱を細く――こまかくね。<br/><br/>この間のは柱が二尺五寸の幅だったですが、どうも――だんだん考えてみると太すぎるので、一尺六寸にして、数が五、六本増えたんです。<br/><br/>柱が人造石で、その間が白壁です。<br/><br/>柱が一尺六寸で、白壁が三尺六寸――倍ですね。<br/><br/>高さは、前面が四十尺ですから、約七間ですね。<br/><br/>入口は大体三間くらいの幅で、両方に大理石の丸い柱――直径二尺くらいのを立てて、入口の欄間になっている所を、金――と言っても、本当の金ではない。<br/><br/>金メッキなんですが、なにか模様で、かつ入口のガラスの戸の縁などまで全部金メッキにして、入口は絢爛たるものにしようと思う。<br/><br/> 御伺い 右っ側の茶色になっている所はなんでございますか。<br/><br/> 今、土がむき出しになっている所――それですよ。<br/><br/>それからそこに家が建つんです。<br/><br/>建つけれども、それには画いてないんです。<br/><br/>家は、いろいろな――事務所とか、そういうものが建つんです。<br/><br/>これはもう、ぜんぜん新しいんです。<br/><br/>まだどこにもないんですよ。<br/><br/>で、椅子が二千二百人ばかり入るんですね。<br/><br/>そのまわりが九尺の廊下で取り巻くから、約三千人くらい入りますね。<br/><br/>中の椅子から、これからは御神前、舞台兼用ですね――それが難しいんですよ。<br/><br/>どうも、舞台らしくしては下品になりますしね。<br/><br/>またあまり神床一方では――そこで歌唄ったり、舞踊ったりできないから、そこを調和させるのが難しいですね。<br/><br/> 次は景観台ですね。<br/><br/>展望台の丸いガラスの家を、今画かせてますがね。<br/><br/>もうじきできますけれども、これはよほど変わったものでね。<br/><br/>なにからなにまで全部私がやらなければならないのでね。<br/><br/>実に、専門家なんてのは頭が古くて間抜けでしょうがないですよ。<br/><br/>昨日も箱根に行ってケースの見本を見ましたが、ぜんぜん問題にならないですよ。<br/><br/>それで東京で一番なんです。<br/><br/>高島屋の専属なんですがね。<br/><br/>良いものができると思ったら、まるっきり駄目です。<br/><br/>明治時代の物のようですね。<br/><br/>第一回の博覧会のようです。<br/><br/>先が古過ぎるのか、こっちが新し過ぎるのかね。<br/><br/>それで、金をかけて、安っぽい物ができちゃうんですよ。<br/><br/>私がやるのは、一番金がかからない。<br/><br/>これだって、金がかからないようにね。<br/><br/>つまり金をかけないで、効果的ですね。<br/><br/>なんでも同じですよ。<br/><br/>宣伝するにも、なにも言わなくて急所をやる。<br/><br/>これですね。<br/><br/>やたらに――ペラペラしゃべっても効果がない。<br/><br/> 会館の中の椅子から、天井から壁から、すべて私の考え通りにやるんです。<br/><br/>美術館もだいぶできましたからね。<br/><br/>先にやった所がどうもいけないんですね。<br/><br/>それは一々言わなければならないのです。<br/><br/>言った通りやれば良いんですが、商売人は言った通りやると、自分の沽券にかかわるというので変えるんですよ。<br/><br/>それを直すんですね。<br/><br/>言った通りやらないで、変えるんですね。<br/><br/>「素人はこういうところは分からない。<br/><br/>どうも素人流でいけない」と言うのですね。<br/><br/>一つの教育ですね。<br/><br/>私の言った通りやるという教育を呑み込ませるまでに、そうとうかかるんです。<br/><br/>庭だってそうですからね。<br/><br/>去年の夏、石を流れの縁に入れてやるというのでも、私がこうしろと言っても、どうしてもやらないんです。<br/><br/>簡単なことですけれどもね。<br/><br/>こうやれと言っても、どうしても私の言った通りやらないんですよ。<br/><br/>三度ともそうです。<br/><br/>親方の弟ですがね。<br/><br/>今度私の言う通りやらなかったら、あの人は退いてもらわなければならないと言ったので、親方が私の言った通りやった。<br/><br/>ですから、本人はしばらく隠退のようになってましたがね。<br/><br/>そうまでして自分の思う通りやろうと言うんですね。<br/><br/>不思議ですよ。<br/><br/>このごろは来て一生懸命やってますがね。<br/><br/>そんなわけで、こっちの言う通り、どうしてもやらないですね。<br/><br/>簡単なことですがね。<br/><br/>二、三日かかって駄目になった。<br/><br/>それが半日でちゃんとできちゃうですね。<br/><br/>だから一番難しいのは、私の言う通りにやらせるというのが、一番難しいんです。<br/><br/>一番厄介なのは、木の枝を切ることですね。<br/><br/>これは言う通りにやらないと、育つまでに何年もかかるんですからね。<br/><br/>これが一番困る。<br/><br/>ですから、木を切るだけは私が見て、一々切らせるんですよ。<br/><br/>それで、どうやら良いんですが、随分厄介なものですよ。<br/><br/> （御論文「神人合一」）【栄光 一五五号】 （御論文「原爆恐るるに足らず」）【栄光 一五五号】 こういうのがみんなで七つ来たんですが、これが一番良く書いてありますから、これだけ読んだわけですがね。<br/><br/>ですから、これはハワイとアメリカにも送ってやろうと思っている。<br/><br/> それから、これはちょっとおもしろい書き方なんで。<br/><br/> （御論文「世界的丁髷時代」）【栄光 一五五号】 もう一つ、これは先にも書いてありますけれども、もう一遍、ちょっと書き方を違えましたからね。<br/><br/> （御論文「大乗愛」） 二、三日前文部省の――アメリカから帰った人で、これはメシヤ教に大いに関心を持ってきたんです。<br/><br/>『地上天国』なんか見せて、私にぜひ会いたい、と言うので、ちょっと会いましたがね。<br/><br/>なかなか、役人らしくない人で、まあ新人ですね。<br/><br/>話が良く合うんですよ。<br/><br/>私も役人と話しているような気持ちがしないで、言いたいことを言い、先も宗教家らしくないと言うんですよ。<br/><br/>ですから、やっぱり固苦しいことや、そういうようなことに触れないで、いろんな話をして、なかなかおもしろかったですがね。<br/><br/>ああいう役人ができるようになると、日本も大いに民主的になると思うんですよ。<br/><br/>やっぱりアメリカでも、美術熱というものは非常にさかんになっているようですね。<br/><br/>特に日本美術ですね。<br/><br/>それに憧れを持っていて、大いに――見たり、手に入れたりしたいような空気がさかんになっているそうですがね。<br/><br/>で、そんな話を聞いていると、今度の箱根の美術館なんか、ちょうど時宜（じぎ）に適切にはまっているわけですね。<br/><br/>と言うのは、いつも言う通り、日本美術というものは、見せる所が日本にまだないんですからね。<br/><br/>ですから、いずれ外国に知れ渡るに違いないから、随分見に来るだろうと思ってます。<br/><br/>日本に来た外客で――観光客としたら箱根を見ない人はないですからね。<br/><br/>箱根に来れば、嫌でもこの美術館を見ますからね。<br/><br/>だからそうとう世界的に反響を起すだろうと思ってね。<br/><br/>去年あたり、日本に来る外客が、確か五、六万人くらいでしたかね。<br/><br/>季節的な関係があるから、箱根は半年として、半分として三万人くらいは、確かに美術館に見物に来るだろうと思ってます。<br/><br/>それについて、館の方はだいぶ信者の人も見に来るそうですから――知っているでしょうが――まだ、規模は小さいです。<br/><br/>しかし一通りは並べられると思うんです。<br/><br/>で、並べる品物をだんだん調べてみますと、なんと言っても、日本で規模の大きいのは博物館――上野の博物館ですからね。<br/><br/>そうすると、博物館の品物――美術品を私の方と較べてみると、断然私の方が上なんですよ。<br/><br/>ただし仏教美術だけは博物館の方が上ですがね。<br/><br/>これは、上のはずなんですよ。<br/><br/>方々のお寺から借りますからね。<br/><br/> それからもう一つは国宝と御物ですね。<br/><br/>それがそうとうありますからね。<br/><br/>御物だけはこちらはとてもかないっこないですからね。<br/><br/>それでも仏教美術だけは、いずれ負けないものを集めるつもりですがね。<br/><br/>今のところは仏教美術はとても歯が立たないくらいですね。<br/><br/>しかし、一般の美術を鑑賞するのは、仏教の方は一般的には分からないですから、私も近ごろああいう方も研究してみると、とても趣味のあるもので、それとともに良い悪いがとてもあるものです。<br/><br/>最初のうちは阿弥陀様も観音様も同じように見えたですよ。<br/><br/>良い悪いも、時代なんかは分からなかった。<br/><br/>そんなわけで一般としては、他の美術品が良ければ、一番効果的だと思うんです。<br/><br/>その他の美術品としては、絵画ですが、日本は無論ですが、支那のものでも、博物館よりか私の方がずっと上ですよ。<br/><br/>数においても負けないでしょう。<br/><br/>物においては断然上ですからね。<br/><br/>これは大いに誇るに足ると思うんです。<br/><br/>あとは蒔絵ですが、蒔絵も私の方がずっと上ですね。<br/><br/>それから陶器――日本、朝鮮、支那の陶器ですが、これも私の方が勝ってます。<br/><br/>だから仏教美術を除いた他のものは、少しくらいでなくそうとう勝ってますから、外客が見て――方々美術館を見るでしょうが、確かに箱根の美術館は――日本美術を見たいとしたら、どうしても来て見なければならないということになるのは間違いないですね。<br/><br/>で昨日行ったところが、ケースの見本ができてましたが、問題にならないですね。<br/><br/>どうも――さっきも言った通り、ぜんぜんやり直すつもりです。<br/><br/>そんなわけで、だんだん調べて分かった結果、非常に安心したとともに大きな期待が持てるわけです。<br/><br/>それから後ろの方の拡い所ですね。<br/><br/>モミジを植える所ですね。<br/><br/>モミジもかなり植わりましたが、植え方が少し混み過ぎるので、間を開けるように、昨日言ってきました。<br/><br/>美術館は美術館として、周囲ですね――竹林とか萩の道ですね。<br/><br/>ああいう方面も大いに感心するだろうと思ってますがね。<br/><br/>で、ちょうど六月までには大体できると思ってますからね。<br/><br/>大いに楽しんで良いと思います。<br/><br/>ですから、少し好きな人は、いつまでもそこに釘づけにされる人が随分あるだろうと思いますね。<br/><br/>だからよほど方法をしないと、大勢見せきれないだろうと、それがいささか心配ですね。<br/><br/>なにしろふだん、一品か二品でもぜひ見たいと言うのがたくさんありますからね。<br/><br/>好きな人は動きませんよ。<br/><br/>いつかの寸鉄にあるように、息が止まる人や、腰を抜かす人があるくらいですね。<br/><br/>そんなわけですから、いくども見に来る人がありますね。<br/><br/>ゆっくり見たら一日かかっても見きれないくらいありますね。<br/><br/>ところが信者さんだけは、面会日は朝の九時から、十一時の面会までの二時間はゆっくり見れますから、一つの特権だろうと思ってますがね。<br/><br/>だから、そのために信者に入る人も随分あるだろうと思います。<br/><br/>時間がないから、話はそのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

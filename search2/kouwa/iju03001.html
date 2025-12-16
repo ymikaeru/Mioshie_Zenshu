@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju03001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（三）中体病理 １ 001-015 癌、心臓 001 頬癌（疑似） 頬癌を患っている女（五十六歳）、頬と口中に孔があき膿が出ており、食物が充分摂れません。<br><br>いかがでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 癌ではない。<br><br>癌は膿は出ない。<br><br>（S24. 1.28） 002 頸道癌患者 今年五十七歳の男、昨年八月頸道癌と診断され東京帝大病院へ入院、切開手術をし、途中退院したもののその傷の苦痛に堪え兼ねてお光に縋る事となり、以後浄霊を致しております。<br><br>その後二ケ所は御霊徳により自然に吐膿致しましたが、未だ二つ腫れております。<br><br>過日水腫性丹毒のために終にまた医者の注射を受けましたが、その後も続いて御浄霊をしておりますが、心臓が大変よくないよううです。<br><br>いかがでしょうか。<br><br> 早いうちならよかったが中々難しい。<br><br>どちらとも言えないが治る経路においては浄化がいろいろ起る。<br><br>本人が迷ってるとすれば難しい。<br><br>衰弱さえしなければ治る。<br><br>請合わずやってみる事である。<br><br> 003 胃癌はない 私が浄霊を行なっている、兵庫県尼崎市、桝正市（五十五歳）は胃癌で、医者は二年程の生命だと言われましたが、浄霊十回程で段々良くなりましたが、酒をよく飲みたがり、甘い物を食べたがりますが、どうしたら宜敷いでしょうか。<br><br>御伺い申し上げます。<br><br> 胃癌といっても本当の癌ではない。<br><br>（S24. 6. 7） 004 皮膚癌の特色 五十八歳の男の方ですが、二年程前、左鼠蹊部に腫物が出来、医師は皮膚癌と言って手術を致しましたが、手術後その付近が定期的に痛むようになり、再度の手術を致しました。<br><br>十日前より御浄霊を続けております。<br><br>この皮膚癌は何か霊的に関係あるのでしょうか。<br><br>また、御浄霊法を御教示願います。<br><br> 皮膚癌などは滅多にないが、よく治る。<br><br>これは皮膚が重なるようになって感覚がなくなるので、痛まぬ。<br><br>痛むのは消毒薬が滲みて痛む。<br><br>痛むのはすべて薬毒である。<br><br>治る。<br><br>（S24.10. 8） 005 腸癌より浮腫―浄霊法 三十八歳の腸癌の男、六月より浄霊を続けておりますが、九月より肛門の脇化膿、そこより下痢をするようになりました。<br><br>九月中旬より手足の先、顔に浮腫が来ました。<br><br>三日前より小便の出が悪くなり、食欲も減退致しました。<br><br>浄霊を続けてどうですか。<br><br> 化膿して下痢したまではいいが、浮腫は具合がわるい。<br><br>肛門に孔を開けて出ればよい。<br><br>これは癌でなく腸のおデキである。<br><br>おデキの膿が溶けて、下痢と膀胱へ来て尿道に来、膿が濃いために小便がよく出ずムクミとなり、そのために胃腸を圧迫して食欲がない。<br><br>故に尿道から膀胱へ行く所の膿を溶かせばよい。<br><br>浄霊を頻繁にして小便の出るようにする。<br><br>陰部の毛の所をよく浄霊する。<br><br>小便が出てくれば復活する。<br><br>ただ浄霊の力が薄いと溶け方が悪いから、浄霊の場合裏を狙ってズーッと心へ通るようすべきである。<br><br>（S23.11.16） 006 直腸癌と言わる 私は当年四十九歳ですが、昨年五月、直腸癌で苦しんでおりましたところ、信仰に入ればよいとの事で八月入信、以来御蔭様で次第によくなり、十月に秋の仕事が出来る迄になりました。<br><br>しかるに十二月から再発しました故、今年一月末光明如来様を御祭りして御縋りしておりますが、中々苦しくて、特に夜中の二時頃と朝の十時頃が息の出来ぬ程苦しくなります。<br><br>その他の時は割合いに楽で、本日も御面会に上りました。<br><br>どうしたら早く治りましょうか。<br><br>御教え下さい。<br><br> 左腎臓の下の方の塊を浄霊する。<br><br>直腸癌ではない。<br><br>糞便の通る管が圧迫されて細くなっている。<br><br>腰部と肛門の上下をよくする。<br><br>（S24. 2.17） 006 疑似直腸癌 私は二十二年二月関節炎を患い、一ケ月入院全快し、同年七月便と一緒に血の塊が出まして、二人の医者に直腸癌と診断され、即刻手術してその後肛門部に大きな「しこり」が出来ました。<br><br>今年の二月再手術をして現在は人工肛門です。<br><br>今年八月入信し毎日浄霊を頂いておりましたところ、またまた肛門内に大きな「しこり」及び外部に小さな「しこり」約十個が出来、痛みが激しく、また下腹が苦しくなります。<br><br>いかにしたら治るでしょうか。<br><br>御伺いいたします。<br><br> この塊というのは薬である。<br><br>これだけでは直腸癌ではない。<br><br>直腸癌になると便秘して出なくなる。<br><br>手術せねば訳なく治る。<br><br>まだ後出来るかもしれぬが、心配はない。<br><br>（S24. 9.17） 007 心臓病と怒りやすい 昭和二十三年一月入信した本年十九歳の娘、先日心臓の浄化を頂き、大変よくして頂きました。<br><br>以後、自分の思うままにすればそれでよろしいが、気に入らぬ事を言ったりさせたりすると大変怒りっぽくなりました。<br><br>何か霊的に原因があるでしょうか。<br><br>御教示願います。<br><br> 体的に原因がある。<br><br>こういう人は左肩が固い。<br><br>浄霊すれば治る。<br><br>赤子などもよくある。<br><br>（S25. 5.27） 008 狭心症 私の扱っている信徒小林熊五郎（六十歳）は本年一月狭心症にてあらゆる手当を加えましたが、医師より見放されて息も絶え絶えになりました時、三男久男が入信させて戴き、大先生様へ御礼参りさせて戴き、帰るや否や早速浄霊を致しましたところ、息づきが非常に楽になり一週間位で起き上る事が出来ました。<br><br>三月にその人も入信させて戴き、かつまた光明如来様を六月奉斎戴き、今日迄つつがなく過ごさせて戴きましたところ、十日前より再浄化を戴き、食欲も減退し、嘔吐をもよおしておりまして心臓、肝臓が主なる浄化のように見受けられますが、今後いかに致しましたらよろしゅう御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 薬を吐くのだから結構で、今度は本当に治ろう。<br><br>（背中を浄霊する）狭心症は治りいい。<br><br>毒素が圧迫している。<br><br>（S24. 9.17） 009 心臓弁膜症 生後一年三ケ月の男子で、よく肥えて元気らしいが医師は生れつきの心臓弁膜症と云うのですが、大きくなれば自然に治るでしょうか。<br><br>また浄霊すれば早く治るでしょうか。<br><br> 心臓周囲の毒が心臓を圧迫している。<br><br>腎臓により肥満の場合もある。<br><br>脈搏が異常を来してる。<br><br>強く圧迫したのが狭心症、弱いのを弁膜症という。<br><br>（S24. 2.16） 010 心臓弁膜症の浄霊 医学では絶対不治とされている心臓弁膜症の原因及び浄霊個所―― 心臓弁膜症でも狭心症でも何でもない。<br><br>肩をする。<br><br>心臓周の毒が固まる時圧迫する。<br><br>また、浄化熱のため心臓を煽る場合もある。<br><br>臍の上下の浄化熱は心臓へ影響する。<br><br>それだけで治る。<br><br>（S25. 3. 3） 011 心悸亢進の原因 心悸亢進症について御垂教願います。<br><br> 心臓付近の発熱である。<br><br>（S24. 9.19） 012 心臓病と熱 最近、教習を受けた者です。<br><br>心臓が弱く、仕事や道歩きもよく出来ません。<br><br>良くなりますにはどう致せばよいでしょうか。<br><br> 心臓の周りに毒があり、心臓を圧迫する。<br><br>その場合熱が出る。<br><br>多くは背中で、背中に毒があり、熱がある。<br><br>熱により心臓が興奮する。<br><br> 013 心臓病と息切れ 十八歳の男子（牧野保）、心臓病にて三年前より医師にかかりました。<br><br>現在医師は二、三年位しか命は請合えないと申しておりました。<br><br>一週間前より御浄霊させていただいておりますが、食欲進み、腹膜が相当ふくれておりましたが下痢の御浄化をいただき大変低くなり、本人も大変元気になりました。<br><br>歩くと息切れが致しますが、今後共何卒御守護御願い申し上げます。<br><br> 医者がやっているから二、三年持てぬのである。<br><br>もっと立派に長生きする。<br><br>息切れは肋間であろう。<br><br>（S25. 3.18） 014 水泳中の心臓麻痺 水泳中に心臓麻痺を起して死亡致しますのは毒素のいかなる作用によるのでございましょうか。<br><br> 心臓に毒素が固まっているから、水が冷たいと冷え切って駄目になる場合もある。<br><br>（S24. 9.13） 015 心臓脚気 医師は心臓脚気と申します。<br><br>身の自由が出来ず、顔を見れば普通人で、動こうと思えば動く事が出来ず、約半年余りになります。<br><br>現在ではぼつぼつ歩かれますが、仕事は出来ません。<br><br>どういう原因ですか。<br><br>御伺い致します。<br><br> 心臓脚気の名前がおかしい。<br><br>心臓に脚気などある筈がない。<br><br>霊的かもしれぬ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Cura (Parte III) - Patologia do Corpo Intermediário</h2>
 <h2>001 Suspeita de Câncer de Bochecha</h2>
@@ -140,5 +292,48 @@ function toggleLang(lang) {
 <h2>015 Beribéri Cardíaco</h2>
 <p>O médico diagnostica como beribéri cardíaco. O paciente não consegue se mover livremente. Ao olharmos para seu rosto, ele parece uma pessoa normal, mas quando tenta se mover, não consegue. Essa condição persiste há mais de seis meses. Atualmente, ele consegue caminhar um pouco, mas é incapaz de trabalhar. Qual seria a causa? Solicito vosso parecer.</p>
 <p>A denominação "beribéri cardíaco" é estranha. Não pode haver beribéri no coração. A causa talvez seja de ordem espiritual.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（三）中体病理 １ 001-015 癌、心臓 001 頬癌（疑似） 頬癌を患っている女（五十六歳）、頬と口中に孔があき膿が出ており、食物が充分摂れません。<br/><br/>いかがでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 癌ではない。<br/><br/>癌は膿は出ない。<br/><br/>（S24. 1.28） 002 頸道癌患者 今年五十七歳の男、昨年八月頸道癌と診断され東京帝大病院へ入院、切開手術をし、途中退院したもののその傷の苦痛に堪え兼ねてお光に縋る事となり、以後浄霊を致しております。<br/><br/>その後二ケ所は御霊徳により自然に吐膿致しましたが、未だ二つ腫れております。<br/><br/>過日水腫性丹毒のために終にまた医者の注射を受けましたが、その後も続いて御浄霊をしておりますが、心臓が大変よくないよううです。<br/><br/>いかがでしょうか。<br/><br/> 早いうちならよかったが中々難しい。<br/><br/>どちらとも言えないが治る経路においては浄化がいろいろ起る。<br/><br/>本人が迷ってるとすれば難しい。<br/><br/>衰弱さえしなければ治る。<br/><br/>請合わずやってみる事である。<br/><br/> 003 胃癌はない 私が浄霊を行なっている、兵庫県尼崎市、桝正市（五十五歳）は胃癌で、医者は二年程の生命だと言われましたが、浄霊十回程で段々良くなりましたが、酒をよく飲みたがり、甘い物を食べたがりますが、どうしたら宜敷いでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 胃癌といっても本当の癌ではない。<br/><br/>（S24. 6. 7） 004 皮膚癌の特色 五十八歳の男の方ですが、二年程前、左鼠蹊部に腫物が出来、医師は皮膚癌と言って手術を致しましたが、手術後その付近が定期的に痛むようになり、再度の手術を致しました。<br/><br/>十日前より御浄霊を続けております。<br/><br/>この皮膚癌は何か霊的に関係あるのでしょうか。<br/><br/>また、御浄霊法を御教示願います。<br/><br/> 皮膚癌などは滅多にないが、よく治る。<br/><br/>これは皮膚が重なるようになって感覚がなくなるので、痛まぬ。<br/><br/>痛むのは消毒薬が滲みて痛む。<br/><br/>痛むのはすべて薬毒である。<br/><br/>治る。<br/><br/>（S24.10. 8） 005 腸癌より浮腫―浄霊法 三十八歳の腸癌の男、六月より浄霊を続けておりますが、九月より肛門の脇化膿、そこより下痢をするようになりました。<br/><br/>九月中旬より手足の先、顔に浮腫が来ました。<br/><br/>三日前より小便の出が悪くなり、食欲も減退致しました。<br/><br/>浄霊を続けてどうですか。<br/><br/> 化膿して下痢したまではいいが、浮腫は具合がわるい。<br/><br/>肛門に孔を開けて出ればよい。<br/><br/>これは癌でなく腸のおデキである。<br/><br/>おデキの膿が溶けて、下痢と膀胱へ来て尿道に来、膿が濃いために小便がよく出ずムクミとなり、そのために胃腸を圧迫して食欲がない。<br/><br/>故に尿道から膀胱へ行く所の膿を溶かせばよい。<br/><br/>浄霊を頻繁にして小便の出るようにする。<br/><br/>陰部の毛の所をよく浄霊する。<br/><br/>小便が出てくれば復活する。<br/><br/>ただ浄霊の力が薄いと溶け方が悪いから、浄霊の場合裏を狙ってズーッと心へ通るようすべきである。<br/><br/>（S23.11.16） 006 直腸癌と言わる 私は当年四十九歳ですが、昨年五月、直腸癌で苦しんでおりましたところ、信仰に入ればよいとの事で八月入信、以来御蔭様で次第によくなり、十月に秋の仕事が出来る迄になりました。<br/><br/>しかるに十二月から再発しました故、今年一月末光明如来様を御祭りして御縋りしておりますが、中々苦しくて、特に夜中の二時頃と朝の十時頃が息の出来ぬ程苦しくなります。<br/><br/>その他の時は割合いに楽で、本日も御面会に上りました。<br/><br/>どうしたら早く治りましょうか。<br/><br/>御教え下さい。<br/><br/> 左腎臓の下の方の塊を浄霊する。<br/><br/>直腸癌ではない。<br/><br/>糞便の通る管が圧迫されて細くなっている。<br/><br/>腰部と肛門の上下をよくする。<br/><br/>（S24. 2.17） 006 疑似直腸癌 私は二十二年二月関節炎を患い、一ケ月入院全快し、同年七月便と一緒に血の塊が出まして、二人の医者に直腸癌と診断され、即刻手術してその後肛門部に大きな「しこり」が出来ました。<br/><br/>今年の二月再手術をして現在は人工肛門です。<br/><br/>今年八月入信し毎日浄霊を頂いておりましたところ、またまた肛門内に大きな「しこり」及び外部に小さな「しこり」約十個が出来、痛みが激しく、また下腹が苦しくなります。<br/><br/>いかにしたら治るでしょうか。<br/><br/>御伺いいたします。<br/><br/> この塊というのは薬である。<br/><br/>これだけでは直腸癌ではない。<br/><br/>直腸癌になると便秘して出なくなる。<br/><br/>手術せねば訳なく治る。<br/><br/>まだ後出来るかもしれぬが、心配はない。<br/><br/>（S24. 9.17） 007 心臓病と怒りやすい 昭和二十三年一月入信した本年十九歳の娘、先日心臓の浄化を頂き、大変よくして頂きました。<br/><br/>以後、自分の思うままにすればそれでよろしいが、気に入らぬ事を言ったりさせたりすると大変怒りっぽくなりました。<br/><br/>何か霊的に原因があるでしょうか。<br/><br/>御教示願います。<br/><br/> 体的に原因がある。<br/><br/>こういう人は左肩が固い。<br/><br/>浄霊すれば治る。<br/><br/>赤子などもよくある。<br/><br/>（S25. 5.27） 008 狭心症 私の扱っている信徒小林熊五郎（六十歳）は本年一月狭心症にてあらゆる手当を加えましたが、医師より見放されて息も絶え絶えになりました時、三男久男が入信させて戴き、大先生様へ御礼参りさせて戴き、帰るや否や早速浄霊を致しましたところ、息づきが非常に楽になり一週間位で起き上る事が出来ました。<br/><br/>三月にその人も入信させて戴き、かつまた光明如来様を六月奉斎戴き、今日迄つつがなく過ごさせて戴きましたところ、十日前より再浄化を戴き、食欲も減退し、嘔吐をもよおしておりまして心臓、肝臓が主なる浄化のように見受けられますが、今後いかに致しましたらよろしゅう御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 薬を吐くのだから結構で、今度は本当に治ろう。<br/><br/>（背中を浄霊する）狭心症は治りいい。<br/><br/>毒素が圧迫している。<br/><br/>（S24. 9.17） 009 心臓弁膜症 生後一年三ケ月の男子で、よく肥えて元気らしいが医師は生れつきの心臓弁膜症と云うのですが、大きくなれば自然に治るでしょうか。<br/><br/>また浄霊すれば早く治るでしょうか。<br/><br/> 心臓周囲の毒が心臓を圧迫している。<br/><br/>腎臓により肥満の場合もある。<br/><br/>脈搏が異常を来してる。<br/><br/>強く圧迫したのが狭心症、弱いのを弁膜症という。<br/><br/>（S24. 2.16） 010 心臓弁膜症の浄霊 医学では絶対不治とされている心臓弁膜症の原因及び浄霊個所―― 心臓弁膜症でも狭心症でも何でもない。<br/><br/>肩をする。<br/><br/>心臓周の毒が固まる時圧迫する。<br/><br/>また、浄化熱のため心臓を煽る場合もある。<br/><br/>臍の上下の浄化熱は心臓へ影響する。<br/><br/>それだけで治る。<br/><br/>（S25. 3. 3） 011 心悸亢進の原因 心悸亢進症について御垂教願います。<br/><br/> 心臓付近の発熱である。<br/><br/>（S24. 9.19） 012 心臓病と熱 最近、教習を受けた者です。<br/><br/>心臓が弱く、仕事や道歩きもよく出来ません。<br/><br/>良くなりますにはどう致せばよいでしょうか。<br/><br/> 心臓の周りに毒があり、心臓を圧迫する。<br/><br/>その場合熱が出る。<br/><br/>多くは背中で、背中に毒があり、熱がある。<br/><br/>熱により心臓が興奮する。<br/><br/> 013 心臓病と息切れ 十八歳の男子（牧野保）、心臓病にて三年前より医師にかかりました。<br/><br/>現在医師は二、三年位しか命は請合えないと申しておりました。<br/><br/>一週間前より御浄霊させていただいておりますが、食欲進み、腹膜が相当ふくれておりましたが下痢の御浄化をいただき大変低くなり、本人も大変元気になりました。<br/><br/>歩くと息切れが致しますが、今後共何卒御守護御願い申し上げます。<br/><br/> 医者がやっているから二、三年持てぬのである。<br/><br/>もっと立派に長生きする。<br/><br/>息切れは肋間であろう。<br/><br/>（S25. 3.18） 014 水泳中の心臓麻痺 水泳中に心臓麻痺を起して死亡致しますのは毒素のいかなる作用によるのでございましょうか。<br/><br/> 心臓に毒素が固まっているから、水が冷たいと冷え切って駄目になる場合もある。<br/><br/>（S24. 9.13） 015 心臓脚気 医師は心臓脚気と申します。<br/><br/>身の自由が出来ず、顔を見れば普通人で、動こうと思えば動く事が出来ず、約半年余りになります。<br/><br/>現在ではぼつぼつ歩かれますが、仕事は出来ません。<br/><br/>どういう原因ですか。<br/><br/>御伺い致します。<br/><br/> 心臓脚気の名前がおかしい。<br/><br/>心臓に脚気などある筈がない。<br/><br/>霊的かもしれぬ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

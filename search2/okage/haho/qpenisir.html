@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qpenisir</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： ペニシリンも効なき腮孔瘻孔癒ゆ 『栄光』197号、昭和28(1953)年2月25日 長崎県 南光中教会（未入信）牟田政成（37） 病と貧と争に明け暮れした私達の家庭も、今その苦しみからだんだん遠ざかって行きつつある喜びを、拙き文をもって御知らせ申し上げまして御礼の一端にさせて戴きたいと存じます。<br><br> 私の妻は世にも稀な先天性の腮孔瘻孔（さいこうろうこう）という病気であり胎児の時消失せねばならない腮（えら）穴が残っているとのことであります。<br><br>初めの内はその診断も疑っていましたが、今回救世教によっての御浄霊療法に依って、初めてハッキリ致しました。<br><br>今まで四回その腫物が出来ましたが、その都度左頸部からのどの方にかけて痛みだし、日時とともに次第に痛みが激しく、腫も段々大きくなり、のどとあごの高さが同じ位になるまで腫上り、化膿する時から排膿するまでの間の痛みと言ったら肉親が見ていられぬ程悲惨であり、水一滴も嚥下することが出来ぬ日が発日も続くと言う状態の病気でございます。<br><br>この病気の一回目は医師にも行かず、泣き叫ぶ痛みの中に自然に排膿し、その後痛みは止りましたが膿口が塞がらず、絶えず淡い膿汁が出ていましたが、約一年位で傷口も良くなりました。<br><br>第二回目に痛みだした折は化膿せずにすむならと考えまして医師に行き、続けざまにペニシリンを注射し、冷しも致しましたがその効果なく、遂にＡ病院に入院させ切開して排膿し、傷口と内部の腮孔とを治療してもらいましたが五十日位で傷口も良くなりました。<br><br>この頃ちょうど終戦後のこととて、借家住の私達親子五人の家庭で妻はこの病で重態であり、痛みのために泣きさけび、私は種々の心配から神経衰弱となり体の自由を失った折、冷淡な家主は、この幼少な三人の子供を抱え、ただでさえ貧乏にあえぐ家庭に、両親とも病気になったことを幸に家の立退きを強要し、妻の苦悶をものともせず我々の住家の片端から解体を始め、荷物は外に投げ出し雨露にさらし、我々の入院を機会に完全に家を取り返したその家主の人に、どれ程悲憤を感じたか、そのことのてんまつは後日に詳述致しますが、村の有力者達がぐるになって弱い者いじめをしたことが一生忘れ得ざる悲痛事であったことを付言致します。<br><br>それから又一年、今度も例のごとく二月初めに痛み出しましたが、今度は薬ものまず化膿するのを待って、再びＡ病院に入院し、又手術し治療してもらいましたが、我郡でも名医と讃えられたＡ医師はその時は「健康を害されて思い通りの加療が出来ず残念だ」と言っておられました。<br><br>この時Ａ医師の御話には、「この頸部の手術は非常に危いところだから、下手な医師に手術してもらっては命が危いぞ」と警告して下さったのでした。<br><br> 又Ａ医師は、私達にもすべての患者にも「薬や注射はなるだけしないで病気をなおすのが、体のために最も良い方法である。<br><br>医師の立場から言うのは損ではあるけれど、少しでも薬や注射は控えて自分の体の力でなおせ」と言って、軽い病気には薬もあたえずに帰しておられました。<br><br>妻の病気の診断も、この先生のが正しかったことが後で実証されました。<br><br>かつ又妻の入院中私は神経衰弱にかかっていました折、Ａ医師は私に、「宗教によっても病気が治るから、君は「生長の家」に入ってみたらどうだろうか」と申されました。<br><br>かくて、五十日位の二回目の病院生活からどうにかよくなって帰って、その後昨年の一月四日まで無事に働いていました妻が、同日の昼食時「小さい鰯の骨がのどに刺さった」と申しましたが約半日位たった頃から刺さったところの痛みは取れましたが、その後に例の咽喉の痛みが起ってまいりました。<br><br>が、妻は頼みとしていたＡ院長先生は既に他界されていましたので、付近の村立診察所に診察を願いましたら、どうも受持ちたくないようなお話だったのを、無理にお願いしまして診察して貰いましたが、今回はサルゾールとイリチオールによって治療して下さいましたが腫は日に日に大きくなり、薬も注射も何の効果もなく遂に又手まり大にのど一面が腫れてしまい遂には切開と言うことになりました。<br><br>しかし村立診療所では手術が出来ぬのでＨ医博の診察を受けましたら「これは切ればすぐ良くなる」と言いながら化膿状態を見るためでありましようか、大きい注射針を腫物に二個所も刺して見られました。<br><br>その時の妻の痛苦といったら目も当てられません。<br><br>そしてその針をさされて後に気分が悪くなり、失神状態となって強心剤を打ちました。<br><br> その後自宅で痛みながら寝ている折も折、同村の坂本様が立寄られ、妻の病気の話を聞かれて、「そのような事情なら、自分等の信仰している世界救世教の浄霊療法をやって見ないか」と勧められました。<br><br>妻は幾度か手術しても効果もなく、かつ最も信頼していたＡ先生も亡くなられては何にすがる術もなく、早速救世教にお願いすることになり、同村柳原敏光様に来て戴きました。<br><br> 妻は痛みのために幾日も絶食状態にあり、それかとて栄養注射等と言うことも貧故に出来ませず、痛みに呻吟しているのを、柳原様が懇ろに御浄霊をして下さいました。<br><br>五分十分二十分と時間の経過する中、柳原様は一心に手をかざしておられます。<br><br>私は側に坐してどんな結果になるものかと、またたき一つせずに注視しておりました。<br><br>御浄霊が終ってから御霊紙を貼って下さいました。<br><br>その間どれだけの時間が過ぎたのか私はわかりません。<br><br>そして柳原様の言われるように「もしこの御浄霊が効けば今夜か明日にかけて次第に痛みも軽くなり、浄化と言って下痢がついたら確実に効果が出て来る」と申され、「そしてこの御霊紙を貼ったところから膿がでるだろう。<br><br>もし後で強く痛む時はいつでもやるから」と言って帰って行かれました。<br><br>さて世に不思議なこともあればあるもので、柳原様の帰られた後痛みが急に軽く今まで唾液も飲込めなかったのが、楽に出来るようになりました。<br><br>そしてその夕方幾日目にか軟い御飯を食べる事が出来ました上、その夜はぐっすりと眠ることが出来ました。<br><br>翌日朝又痛んだので、柳原様はお留守なので坂本様の奥様に来て戴き御浄霊をして戴きましたら、又不思議に痛みが軽くなりました。<br><br>その夜のことであります、妻が排便したいと申しますので手伝ってやりましたら、今まで毎年毎回の病気の時、ただ一回だってした事のない、かつ又今度も一週間位していなかったのが、下痢を致しました。<br><br>そしてそのために「大変体が楽になった」と申しました。<br><br>その翌日、（御浄霊受け始めて三日目の後のことであります）柳原様が来て下さって又熱心に手をかざして下さるのを注視しておりましたら何と不思議でしょう。<br><br>御霊紙の下から水のようなものが出始め、それがだんだん膿となりだしたので、柳原様が御霊紙を取られたら、急にどんどんと膿汁が出ました。<br><br>ただ不思議に思って見詰めていましたら、膿口からにゅっと小さい針のような白いものが出て来ました。<br><br> （ちょうど蓄音機針位のものでした）何だろうと思って脱脂綿で取って見ますと、何と鰯の骨ではありませんか。<br><br>私は開いた口が塞らず妻も柳原様もただ嘆声の外ありませんでした。<br><br>この鰯の骨こそ約十日位前の正月四日にのどに刺さった骨であり、それが食道を抜け腮孔をぬけて膿と共にのどの膿口から出て来たのでございました。<br><br>この時Ａ病院の院長先生の診察が正しく当っていたことを知ると共に、救世教の御浄霊がどれ程効果確実であるかをつくづく悟る事が出来ました。<br><br>排膿すればいつも楽にはなりますものの、今回は特に痛みが軽く、そして御浄霊ばかりで短時日に全快致しました。<br><br>これを今までの医療と比べますと、うそのような軽い苦しみの中に全快致しましたのでございます。<br><br>その後幾月過ぎました今日も時々は痛みますが痛む度に御浄霊をして戴きますと誠に不思議で「うそのようにスーッと気持良くなってしまう」と申します。<br><br>今回の救世教の御浄霊を知らない間は、痛み出したら最後回復の道がなかったのでございます。<br><br>なお妻のこの事がありました後は、私達一家の者がここ八カ月余ただ一服の医薬も飲まずに、御浄霊のみで健康を保っております。<br><br>付言致しますが私は非常に神経過敏の故もあって、衛生知識は特に研究もし、すべての点に現代科学による医療を信じ、家庭には常に種々の薬品を備え、少しの事にも手や足は消毒をし、飲食物も徹底的に注意致し万一少しでも体の不快を感ずると、早期治療と言っては医師の門を叩くこと、毎年数十回で、この十数年間ただ一カ月といえど医薬を用いなかった月がない程でありましたのが、この八カ月は私達にとりましては普通人の八年にも等しい月日を無医薬で過させて戴いております。<br><br>又私の神経衰弱も大変に良くなりました。<br><br>ただただ感謝の外ございません。<br><br>なおかつ救世教信者の皆様が世の中の光明化のために一生懸命に精進なさって真の善い人になるため、かつ真の健康人になるために努力致されておりますことを、私はひそかに喜んでいるのでございます。<br><br>そして私も近々入信させて戴きましょうと存じております。<br><br>もっと詳しく述べましょうと存じますけれど、浅学の身にては術もございません。<br><br> 御明主様誠に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura de uma Fístula Branquial que a Penicilina Não Conseguiu Vencer</h2>
 <p><strong>Revista Eikou, nº 197, 25 de fevereiro de 1953</strong>
@@ -116,5 +271,48 @@ function toggleLang(lang) {
 <p>Observo, com discreta alegria, o empenho e a devoção com que os membros da Sekaikyuseikyou se dedicam à construção de um mundo de luz e se esforçam para se tornarem pessoas verdadeiramente boas e saudáveis. Em breve, também eu pretendo receber a permissão para me tornar membro.</p>
 <p>Gostaria de me expressar com mais detalhes, mas minha pouca instrução não me permite.</p>
 <p>A Vós, Meishu-Sama, a minha mais sincera gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： ペニシリンも効なき腮孔瘻孔癒ゆ 『栄光』197号、昭和28(1953)年2月25日 長崎県 南光中教会（未入信）牟田政成（37） 病と貧と争に明け暮れした私達の家庭も、今その苦しみからだんだん遠ざかって行きつつある喜びを、拙き文をもって御知らせ申し上げまして御礼の一端にさせて戴きたいと存じます。<br/><br/> 私の妻は世にも稀な先天性の腮孔瘻孔（さいこうろうこう）という病気であり胎児の時消失せねばならない腮（えら）穴が残っているとのことであります。<br/><br/>初めの内はその診断も疑っていましたが、今回救世教によっての御浄霊療法に依って、初めてハッキリ致しました。<br/><br/>今まで四回その腫物が出来ましたが、その都度左頸部からのどの方にかけて痛みだし、日時とともに次第に痛みが激しく、腫も段々大きくなり、のどとあごの高さが同じ位になるまで腫上り、化膿する時から排膿するまでの間の痛みと言ったら肉親が見ていられぬ程悲惨であり、水一滴も嚥下することが出来ぬ日が発日も続くと言う状態の病気でございます。<br/><br/>この病気の一回目は医師にも行かず、泣き叫ぶ痛みの中に自然に排膿し、その後痛みは止りましたが膿口が塞がらず、絶えず淡い膿汁が出ていましたが、約一年位で傷口も良くなりました。<br/><br/>第二回目に痛みだした折は化膿せずにすむならと考えまして医師に行き、続けざまにペニシリンを注射し、冷しも致しましたがその効果なく、遂にＡ病院に入院させ切開して排膿し、傷口と内部の腮孔とを治療してもらいましたが五十日位で傷口も良くなりました。<br/><br/>この頃ちょうど終戦後のこととて、借家住の私達親子五人の家庭で妻はこの病で重態であり、痛みのために泣きさけび、私は種々の心配から神経衰弱となり体の自由を失った折、冷淡な家主は、この幼少な三人の子供を抱え、ただでさえ貧乏にあえぐ家庭に、両親とも病気になったことを幸に家の立退きを強要し、妻の苦悶をものともせず我々の住家の片端から解体を始め、荷物は外に投げ出し雨露にさらし、我々の入院を機会に完全に家を取り返したその家主の人に、どれ程悲憤を感じたか、そのことのてんまつは後日に詳述致しますが、村の有力者達がぐるになって弱い者いじめをしたことが一生忘れ得ざる悲痛事であったことを付言致します。<br/><br/>それから又一年、今度も例のごとく二月初めに痛み出しましたが、今度は薬ものまず化膿するのを待って、再びＡ病院に入院し、又手術し治療してもらいましたが、我郡でも名医と讃えられたＡ医師はその時は「健康を害されて思い通りの加療が出来ず残念だ」と言っておられました。<br/><br/>この時Ａ医師の御話には、「この頸部の手術は非常に危いところだから、下手な医師に手術してもらっては命が危いぞ」と警告して下さったのでした。<br/><br/> 又Ａ医師は、私達にもすべての患者にも「薬や注射はなるだけしないで病気をなおすのが、体のために最も良い方法である。<br/><br/>医師の立場から言うのは損ではあるけれど、少しでも薬や注射は控えて自分の体の力でなおせ」と言って、軽い病気には薬もあたえずに帰しておられました。<br/><br/>妻の病気の診断も、この先生のが正しかったことが後で実証されました。<br/><br/>かつ又妻の入院中私は神経衰弱にかかっていました折、Ａ医師は私に、「宗教によっても病気が治るから、君は「生長の家」に入ってみたらどうだろうか」と申されました。<br/><br/>かくて、五十日位の二回目の病院生活からどうにかよくなって帰って、その後昨年の一月四日まで無事に働いていました妻が、同日の昼食時「小さい鰯の骨がのどに刺さった」と申しましたが約半日位たった頃から刺さったところの痛みは取れましたが、その後に例の咽喉の痛みが起ってまいりました。<br/><br/>が、妻は頼みとしていたＡ院長先生は既に他界されていましたので、付近の村立診察所に診察を願いましたら、どうも受持ちたくないようなお話だったのを、無理にお願いしまして診察して貰いましたが、今回はサルゾールとイリチオールによって治療して下さいましたが腫は日に日に大きくなり、薬も注射も何の効果もなく遂に又手まり大にのど一面が腫れてしまい遂には切開と言うことになりました。<br/><br/>しかし村立診療所では手術が出来ぬのでＨ医博の診察を受けましたら「これは切ればすぐ良くなる」と言いながら化膿状態を見るためでありましようか、大きい注射針を腫物に二個所も刺して見られました。<br/><br/>その時の妻の痛苦といったら目も当てられません。<br/><br/>そしてその針をさされて後に気分が悪くなり、失神状態となって強心剤を打ちました。<br/><br/> その後自宅で痛みながら寝ている折も折、同村の坂本様が立寄られ、妻の病気の話を聞かれて、「そのような事情なら、自分等の信仰している世界救世教の浄霊療法をやって見ないか」と勧められました。<br/><br/>妻は幾度か手術しても効果もなく、かつ最も信頼していたＡ先生も亡くなられては何にすがる術もなく、早速救世教にお願いすることになり、同村柳原敏光様に来て戴きました。<br/><br/> 妻は痛みのために幾日も絶食状態にあり、それかとて栄養注射等と言うことも貧故に出来ませず、痛みに呻吟しているのを、柳原様が懇ろに御浄霊をして下さいました。<br/><br/>五分十分二十分と時間の経過する中、柳原様は一心に手をかざしておられます。<br/><br/>私は側に坐してどんな結果になるものかと、またたき一つせずに注視しておりました。<br/><br/>御浄霊が終ってから御霊紙を貼って下さいました。<br/><br/>その間どれだけの時間が過ぎたのか私はわかりません。<br/><br/>そして柳原様の言われるように「もしこの御浄霊が効けば今夜か明日にかけて次第に痛みも軽くなり、浄化と言って下痢がついたら確実に効果が出て来る」と申され、「そしてこの御霊紙を貼ったところから膿がでるだろう。<br/><br/>もし後で強く痛む時はいつでもやるから」と言って帰って行かれました。<br/><br/>さて世に不思議なこともあればあるもので、柳原様の帰られた後痛みが急に軽く今まで唾液も飲込めなかったのが、楽に出来るようになりました。<br/><br/>そしてその夕方幾日目にか軟い御飯を食べる事が出来ました上、その夜はぐっすりと眠ることが出来ました。<br/><br/>翌日朝又痛んだので、柳原様はお留守なので坂本様の奥様に来て戴き御浄霊をして戴きましたら、又不思議に痛みが軽くなりました。<br/><br/>その夜のことであります、妻が排便したいと申しますので手伝ってやりましたら、今まで毎年毎回の病気の時、ただ一回だってした事のない、かつ又今度も一週間位していなかったのが、下痢を致しました。<br/><br/>そしてそのために「大変体が楽になった」と申しました。<br/><br/>その翌日、（御浄霊受け始めて三日目の後のことであります）柳原様が来て下さって又熱心に手をかざして下さるのを注視しておりましたら何と不思議でしょう。<br/><br/>御霊紙の下から水のようなものが出始め、それがだんだん膿となりだしたので、柳原様が御霊紙を取られたら、急にどんどんと膿汁が出ました。<br/><br/>ただ不思議に思って見詰めていましたら、膿口からにゅっと小さい針のような白いものが出て来ました。<br/><br/> （ちょうど蓄音機針位のものでした）何だろうと思って脱脂綿で取って見ますと、何と鰯の骨ではありませんか。<br/><br/>私は開いた口が塞らず妻も柳原様もただ嘆声の外ありませんでした。<br/><br/>この鰯の骨こそ約十日位前の正月四日にのどに刺さった骨であり、それが食道を抜け腮孔をぬけて膿と共にのどの膿口から出て来たのでございました。<br/><br/>この時Ａ病院の院長先生の診察が正しく当っていたことを知ると共に、救世教の御浄霊がどれ程効果確実であるかをつくづく悟る事が出来ました。<br/><br/>排膿すればいつも楽にはなりますものの、今回は特に痛みが軽く、そして御浄霊ばかりで短時日に全快致しました。<br/><br/>これを今までの医療と比べますと、うそのような軽い苦しみの中に全快致しましたのでございます。<br/><br/>その後幾月過ぎました今日も時々は痛みますが痛む度に御浄霊をして戴きますと誠に不思議で「うそのようにスーッと気持良くなってしまう」と申します。<br/><br/>今回の救世教の御浄霊を知らない間は、痛み出したら最後回復の道がなかったのでございます。<br/><br/>なお妻のこの事がありました後は、私達一家の者がここ八カ月余ただ一服の医薬も飲まずに、御浄霊のみで健康を保っております。<br/><br/>付言致しますが私は非常に神経過敏の故もあって、衛生知識は特に研究もし、すべての点に現代科学による医療を信じ、家庭には常に種々の薬品を備え、少しの事にも手や足は消毒をし、飲食物も徹底的に注意致し万一少しでも体の不快を感ずると、早期治療と言っては医師の門を叩くこと、毎年数十回で、この十数年間ただ一カ月といえど医薬を用いなかった月がない程でありましたのが、この八カ月は私達にとりましては普通人の八年にも等しい月日を無医薬で過させて戴いております。<br/><br/>又私の神経衰弱も大変に良くなりました。<br/><br/>ただただ感謝の外ございません。<br/><br/>なおかつ救世教信者の皆様が世の中の光明化のために一生懸命に精進なさって真の善い人になるため、かつ真の健康人になるために努力致されておりますことを、私はひそかに喜んでいるのでございます。<br/><br/>そして私も近々入信させて戴きましょうと存じております。<br/><br/>もっと詳しく述べましょうと存じますけれど、浅学の身にては術もございません。<br/><br/> 御明主様誠に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

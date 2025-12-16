@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinsen3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神仙郷の意義 『栄光』70号、昭和25(1950)年9月20日発行 今度、美術館を除き大体完成したこの神仙郷について、実に深い大きい意義のある事を知らねばならないのである。<br><br>というのは、そもそも日本の国を造られた神様の意図は世界の公園たらしむる事である。<br><br>何よりも日本にある自然を見ればよく判る。<br><br>日本くらい自然の風景、山水美はもちろん植物の種類の多い事など世界のどの国にも見られない特色だそうで、外国通の異口同音に唱えるところである。<br><br>それについて箱根こそ、日本全土が公園とすれば、公園中の公園であろう。<br><br>言うまでもなく位置からいっても実に理想的である。<br><br>箱根は日本の中央に位し、世界的名山ともいうべき富士を近くに見、関東関西の中間であるにみて、交通至便なる事、他に類を見ないという事は、景勝地としての第一条件である。<br><br>しかも、温泉あり、大なる湖水あり、山は、高からず低からず近寄り難い嶮岨（けんそ）なところがないばかりか、山容おだやかにして美しく、親しまれやすい。<br><br>もちろん渓流もよく、小さいながらも瀑布もあって、あらゆる勝地としての条件を具備している。<br><br>これらの説明は別としてもただ何となくいい。<br><br>好もしい、私は元来温泉が好きで関東地方の温泉はほとんど探らないところはないくらいであるが、何といっても箱根に勝るところはないと思い、ここを選んだのである。<br><br>実に何十年来の希望が実現して、遂に強羅に居を定めたので、これが元となって、ともかくも今日、地上天国の模型が出来たのである。<br><br> 前述の意味によって世界の公園は日本であり、日本の公園が箱根であり、しかも強羅は箱根中眺望第一の位置であるから箱根中の公園といってもよかろう。<br><br>面白い事には、神仙郷は元日本公園であったところであり、今その下が西洋風の公園であるから、ここからみても余程前から神様が準備された事が判るのである。<br><br>簡単ではあるが、大体右の説明によってみても神仙郷の深遠微妙な神様の御経綸である事が肯かれるであろう。<br><br>この意味からいっても、地上天国建設の一歩としての今日を祝う、この祭典こそ世界的慶事といってもよかろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Significância de Shinsenkyo</h2>
 <p>É imperativo que compreendamos a profunda e grandiosa significância do Shinsenkyo (神仙郷), que agora se encontra substancialmente concluído, à exceção do Museu de Arte. A razão para tal reside no fato de que o desígnio primordial do Deus que criou o Japão foi fazer desta nação o parque do mundo. Esta verdade torna-se evidente ao observarmos, acima de tudo, a natureza que adorna o território japonês. A beleza de suas paisagens naturais, de suas montanhas e águas, bem como a extraordinária variedade de sua flora, constituem características inigualáveis, não encontradas em nenhuma outra nação. Trata-se de uma constatação unânime entre os grandes conhecedores de outras culturas.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Contudo, para além de todas essas explicações, há em Hakone algo de simplesmente aprazível e encantador. Sempre tive grande apreço por fontes termais e explorei praticamente todas as existentes na região de Kanto. Todavia, cheguei à convicção de que nenhuma delas se compara a Hakone, razão pela qual a escolhi. Foi assim que um anseio de décadas se concretizou quando, finalmente, estabeleci residência em Gora. Este foi o ponto de partida que culminou, hoje, na materialização do protótipo do Paraíso Terrestre.</p>
 <p>Portanto, em virtude do que foi exposto, se o Japão é o parque do mundo e Hakone é o parque do Japão, Gora, por possuir a vista mais sublime de toda a região, pode ser considerada o parque por excelência dentro de Hakone. Um fato curioso é que o terreno do Shinsenkyo (神仙郷) era originalmente parte de um local chamado "Parque Japonês", e logo abaixo dele, atualmente, existe um parque de estilo ocidental. Este arranjo nos permite compreender que Deus já vinha preparando este local com grande antecedência.</p>
 <p>Ainda que de forma sucinta, esta exposição permite-nos aquiescer que a construção do Shinsenkyo (神仙郷) é, de fato, parte de um profundo e sublime Plano Divino. Por essa razão, a presente cerimônia, que celebra este passo na construção do Paraíso Terrestre, pode ser legitimamente considerada um acontecimento de júbilo mundial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神仙郷の意義 『栄光』70号、昭和25(1950)年9月20日発行 今度、美術館を除き大体完成したこの神仙郷について、実に深い大きい意義のある事を知らねばならないのである。<br/><br/>というのは、そもそも日本の国を造られた神様の意図は世界の公園たらしむる事である。<br/><br/>何よりも日本にある自然を見ればよく判る。<br/><br/>日本くらい自然の風景、山水美はもちろん植物の種類の多い事など世界のどの国にも見られない特色だそうで、外国通の異口同音に唱えるところである。<br/><br/>それについて箱根こそ、日本全土が公園とすれば、公園中の公園であろう。<br/><br/>言うまでもなく位置からいっても実に理想的である。<br/><br/>箱根は日本の中央に位し、世界的名山ともいうべき富士を近くに見、関東関西の中間であるにみて、交通至便なる事、他に類を見ないという事は、景勝地としての第一条件である。<br/><br/>しかも、温泉あり、大なる湖水あり、山は、高からず低からず近寄り難い嶮岨（けんそ）なところがないばかりか、山容おだやかにして美しく、親しまれやすい。<br/><br/>もちろん渓流もよく、小さいながらも瀑布もあって、あらゆる勝地としての条件を具備している。<br/><br/>これらの説明は別としてもただ何となくいい。<br/><br/>好もしい、私は元来温泉が好きで関東地方の温泉はほとんど探らないところはないくらいであるが、何といっても箱根に勝るところはないと思い、ここを選んだのである。<br/><br/>実に何十年来の希望が実現して、遂に強羅に居を定めたので、これが元となって、ともかくも今日、地上天国の模型が出来たのである。<br/><br/> 前述の意味によって世界の公園は日本であり、日本の公園が箱根であり、しかも強羅は箱根中眺望第一の位置であるから箱根中の公園といってもよかろう。<br/><br/>面白い事には、神仙郷は元日本公園であったところであり、今その下が西洋風の公園であるから、ここからみても余程前から神様が準備された事が判るのである。<br/><br/>簡単ではあるが、大体右の説明によってみても神仙郷の深遠微妙な神様の御経綸である事が肯かれるであろう。<br/><br/>この意味からいっても、地上天国建設の一歩としての今日を祝う、この祭典こそ世界的慶事といってもよかろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

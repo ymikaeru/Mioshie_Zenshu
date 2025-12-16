@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinrei2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊医学は民主的医学なり 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』22号、昭和24(1949)年8月13日発行の論文を掲載 現代医学は、人々はあまり気がつかないが、実はすこぶる差別的、非民主的であるという事は、貧乏人では高価な薬は買えない、病院に入院することもむずかしい、また永く療養を続ける事は、経済的負担に堪えられない、従って療養の機会均等は望み得べくもない、それがため政府においてもやむを得ず健康保険法によって解決しようとしているが、これがまた思うようにゆかない。<br><br>被保険の患者が、病気に罹った場合、保険医へ行っても、保険医は普通の患者と扱い方が違うという声はよく聞くところである。<br><br>それがため被保険者でありながら、普通患者のごとく装い普通料金を払うという馬鹿馬鹿しい結果になる。<br><br>とすれば、現代医学はおよそ民主的とは掛け離れた存在といえよう。<br><br>しかし、これも現在社会の経済的実状としては、またやむを得ないところで、差当って改善の方法は見つからないからである。<br><br> しかるにわが神霊療法は金持も貧乏人も何ら差別がない。<br><br>何となれば、物質は一切用いないからで、ただ眼に見えざる霊の作用で、人体から放射する光波をもってする体当りである。<br><br>それで医療の何倍かの効果を奏するのであるから、全く理想的である。<br><br>以上のごとくであるから、本療法こそ、文字通り民主的医学といえよう。<br><br> 最近の毎日紙上日本医師会理事古畑積善氏の言によれば―― 「普通の患者であればフトコロと相談の上の治療であって、ある者はちょっとの事でもこれを注射し、ある者は是非注射しなければならない場合でも、フトコロ具合でそれが出来ないというのが多い、この場合医師として採るべき態度は、残念ながら患者が決めてくれるので容易である場合は少ない云々」 以上は全く前記の説の裏付であろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caráter Democrático da Medicina Espiritual Divina</h2>
 <p>Embora passe despercebido pela maioria das pessoas, é fato que a medicina moderna se revela profundamente discriminatória e antidemocrática. Com efeito, os menos afortunados não têm condições de adquirir medicamentos onerosos, encontram dificuldades para ser admitidos em hospitais e, ademais, não conseguem arcar com o fardo econômico de tratamentos prolongados. Consequentemente, a equidade no acesso aos cuidados de saúde torna-se uma aspiração inalcançável. O governo, diante dessa realidade, tenta solucionar a questão por meio de leis de seguro-saúde, mas tal medida não tem surtido o efeito desejado. É comum ouvir queixas de pacientes segurados que, ao procurarem um médico credenciado, recebem um tratamento distinto daquele dispensado aos pacientes particulares. Em virtude disso, muitos chegam à situação absurda de, mesmo sendo segurados, optarem por se apresentar como pacientes particulares e pagar o valor integral da consulta. Diante do exposto, pode-se afirmar que a medicina moderna constitui uma prática distante dos ideais democráticos. Contudo, considerando a atual conjuntura econômica da sociedade, trata-se de uma contingência para a qual, no momento, não se vislumbra solução.</p>
 <p>Em contrapartida, nossa Terapia Espiritual Divina não estabelece qualquer distinção entre ricos e pobres. Isso ocorre porque ela não utiliza absolutamente nenhuma substância material; consiste apenas na ação do espírito, invisível aos olhos, por meio da aplicação direta das ondas de Luz irradiadas do corpo humano. E, por alcançar uma eficácia muitas vezes superior à dos tratamentos médicos convencionais, revela-se um método verdadeiramente ideal. Sendo assim, esta terapia pode, com toda a propriedade, ser denominada a autêntica medicina democrática.</p>
 <p>Corrobora inequivocamente o postulado acima uma recente declaração do Sr. Sekizen Furuhata, diretor da Associação Médica do Japão, publicada no jornal Mainichi Shimbun:</p>
 <p>"No caso do paciente comum, o tratamento é decidido em conformidade com suas posses. Há quem receba uma injeção para um problema insignificante, ao passo que outros, mesmo em casos de extrema necessidade, não podem recebê-la por sua condição financeira. A atitude que o médico deve tomar em tais situações, lamentavelmente, é muitas vezes determinada pelo próprio paciente, e raras são as ocasiões em que a decisão é simples."</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊医学は民主的医学なり 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』22号、昭和24(1949)年8月13日発行の論文を掲載 現代医学は、人々はあまり気がつかないが、実はすこぶる差別的、非民主的であるという事は、貧乏人では高価な薬は買えない、病院に入院することもむずかしい、また永く療養を続ける事は、経済的負担に堪えられない、従って療養の機会均等は望み得べくもない、それがため政府においてもやむを得ず健康保険法によって解決しようとしているが、これがまた思うようにゆかない。<br/><br/>被保険の患者が、病気に罹った場合、保険医へ行っても、保険医は普通の患者と扱い方が違うという声はよく聞くところである。<br/><br/>それがため被保険者でありながら、普通患者のごとく装い普通料金を払うという馬鹿馬鹿しい結果になる。<br/><br/>とすれば、現代医学はおよそ民主的とは掛け離れた存在といえよう。<br/><br/>しかし、これも現在社会の経済的実状としては、またやむを得ないところで、差当って改善の方法は見つからないからである。<br/><br/> しかるにわが神霊療法は金持も貧乏人も何ら差別がない。<br/><br/>何となれば、物質は一切用いないからで、ただ眼に見えざる霊の作用で、人体から放射する光波をもってする体当りである。<br/><br/>それで医療の何倍かの効果を奏するのであるから、全く理想的である。<br/><br/>以上のごとくであるから、本療法こそ、文字通り民主的医学といえよう。<br/><br/> 最近の毎日紙上日本医師会理事古畑積善氏の言によれば―― 「普通の患者であればフトコロと相談の上の治療であって、ある者はちょっとの事でもこれを注射し、ある者は是非注射しなければならない場合でも、フトコロ具合でそれが出来ないというのが多い、この場合医師として採るべき態度は、残念ながら患者が決めてくれるので容易である場合は少ない云々」 以上は全く前記の説の裏付であろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

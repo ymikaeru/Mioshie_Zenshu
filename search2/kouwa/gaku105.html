@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gaku105</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ７ 105-126 植物 105 植物は夜成長す 植物は夜間成長するとの事ですが、これはいかなるわけでございましょうか。<br><br> 夜は水の霊気、昼は日の霊気。<br><br>つまり父母のようなもので、父は昼、母は夜になる。<br><br>（S25. 5.13） 106 柿と循環率 一、果樹についてよく申されることがありますが、多くの場合、果実の沢山なるのは一年置きのようでありますが、いかなる訳で御座居ましょうか。<br><br> 二、また栽培法によって、これをなくする事が出来ましょうか。<br><br>御教え願います。<br><br> 柿などは特にひどい。<br><br>すべて一切は循環率になっている―一年おき。<br><br>神様がそう造られている。<br><br>熟った時実をとると翌日よくなる―という方法より外ない。<br><br> 梅毒など一代おきで、病苦も一日おきで、これが循環率である。<br><br>（S24. 8.18） 107 循環率（果実） 果実類は隔年に実りが多いように見受けられますが、何の関係で御座居ましょうか。<br><br>御教示御願い申し上げます。<br><br> 果実類に限らぬ。<br><br>特に柿など著るしい。<br><br>一つの循環率である。<br><br>そうなっているから、造物主に聞かねば解らぬ。<br><br>遺伝でも、癩病でも一年おきである。<br><br> （性質も祖父母に似る。<br><br>病気も）（S24. 6.23） 108 木と家の盛衰 信者の庭内の木が立枯をし、その後十二才の女子が病名不明になり、この浄霊により一時良くなりましたが死亡致しました。<br><br>この木について何か関係がありますか。<br><br>また処理はどうでしょうか。<br><br> 自然に立枯れたものなら祟る訳はない。<br><br>その家に禍のある時は庭木など相応の理で枯れる事がある。<br><br>一番眼目の木は松で、その家の主人に当る。<br><br>以前大森時代、大松の枝が雪のために折れたが、果して災難があった。<br><br>その人の一切はその人と合っている。<br><br>人間が何かあると木が先になる。<br><br>衰微する家の木はどことなく威勢がない。<br><br>木が活々しているとその家は繁昌する。<br><br>その家の感じと木の感じである。<br><br>二、三年前唐崎の松が枯れたが、すぐ後災があった。<br><br>（S23.10.15） 109 松の木について 近頃全国的に松の木が枯れつつあるそうですが、これは、 一、国常立尊を押込め、松葉でいぶした事。<br><br> 二、鬼門の方角に雄松、雌松を植える事。<br><br> （信仰雑話） 等と何か関係が御座居ましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 関係はない。<br><br>松の枯れる事は意味がある。<br><br>かつて東海道（六、七年前大磯から鎌倉へ）をドライブした事があり、松枯れてるを見た。<br><br>これは日本に非常に不吉な事があり、恐らく天皇に関係した事で、その前兆であろうと仰せられた。<br><br>松は木の公で、王の事。<br><br>日本は木の国である。<br><br>故に皇室に関係した事で、それ故に天皇が落ちるという事になる。<br><br>国が衰えると、国の中のある程度の松が枯れる事もある。<br><br>（方々の松が枯れたが）一番先に近江の唐崎の松が枯れ初めた。<br><br> 私も大森で松が枯れた事があり、大本事件が起った。<br><br> 屋敷内の松の木は主人になる。<br><br>外の木は、その他の眷族に関係する。<br><br>（主人に災がある） 松は敏感な木である。<br><br>松は日本特有の植物で、植物の中、木の最高の位である。<br><br> 植物は民主的になっていない。<br><br> 民主的も極端に行ってはいけない。<br><br>極端にゆくと、ストライキなどで悩む事となる。<br><br> 松は位があるから、清浄で、それで鬼門へ植える。<br><br> （五六七世の民主的は、今の民主的と違う。<br><br>階級が厳然としている民主的である。<br><br>現今のそれは平面的で、あまり階級にこだわらぬ）（S24.10. 8） 110 松の木枯れる 家の松の木が枯れましたが、その家に何か異変でも起るのでしょうか。<br><br>またこれを除ける方法をお教え下さい。<br><br> よくない。<br><br>何か不幸か災難があるべきである。<br><br>光明如来様を御祭りしていれば、軽くは来るかも知れぬが大丈夫である。<br><br>信仰がなければ、生命の危い位の事がある。<br><br> 111 竹の花 七月十日、六代目菊五郎が死去致しましたが、ある新聞に次のような記事がありました。<br><br> （略文）「菊五郎丈が生前起居して居た竹心庵の中の竹が、六月初旬から枯れはじめ、六月末に奇妙な新芽が出て、これが俗に竹の花とわかった時、当人もひどく気にして『竹に花が咲くのは竹に既に生きる力を失った時だそうだが』と言い、それから数日して就床、遂に世を去った」 右のように竹の花が咲いた場合には、人が死ぬという事が一般のものにもあるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 竹の花は滅多にない。<br><br>喰べられる。<br><br>竹に花が咲けば終る。<br><br>後は生命がない。<br><br>その家の主人が勢力のある程何かに表われる。<br><br>庭木の枯れる時などきっと何かある。<br><br>松喰虫で二十年位になる松が枯れてる。<br><br>（大磯）これは大きい知らせで、国家（天皇）に関係する。<br><br>天皇退位になればよろしい。<br><br>上るであろう。<br><br>木の公―王。<br><br> 風の作用は、気候調節、花の交配、根を張らす―等である。<br><br> 今日の五の日（五六七会）に参拝した人々は火に縁のある人である。<br><br> 火は水によって燃え、水は火によって動く。<br><br>これは、火は燃える場合、水の多い程燃える。<br><br> 今年は非常に発展する。<br><br> 箱根へお出でになる時は、きっと雨が降るという事は発展する事である。<br><br> 箱根は火、熱海は水である。<br><br> 雨は火の燃える原動力である。<br><br> 大先生は御入浴後、ぬるま湯へお入りになる。<br><br>御浴後、暫くお身体が熱くなられる。<br><br>これは、火素へ対し水分が入るので、余計に燃えるのである。<br><br> 今日の雨は五の日で非常によい。<br><br>（S24. 8. 5） 112 松の立枯 松の立枯が多く見うけられますが、学者は松毛虫のためといっておりますが、他に何か霊的な理由が御座居ましょうか。<br><br> 霊的の理由がある。<br><br>個人の家の庭でも――、国としては松とか、相応の理により一つの表われ方であって、その国の不幸な事の前兆ともなる。<br><br>今から七、八年前、東海道の大磯から鎌倉までのドライヴウェイの海岸の松が枯れていたので、私はこれは日本にとって重大な事がある先ぶれである、よほど重大な事だと話した事があった。<br><br>それで天皇の位がなくなった。<br><br> 松―木の王、日本は木の国（火）、松以外なら家来。<br><br>（S24.11.19） 113 銀杏木の不思議 銀杏の木を切ったら一里四方位実がならなかったが（男の銀杏の木）いかなる訳でしょうか。<br><br> これは銀杏の元だったに違いない。<br><br>そのためその枝になる他の銀杏も自らそうなったので、霊的に繋っているのである。<br><br>実に神秘の木である。<br><br>松も柳も神秘である。<br><br>古い銀杏程霊が憑る。<br><br>三十三間堂柳の由来のごときも、憑依していた龍神の霊である。<br><br>松は男龍、柳は女龍という事になっている。<br><br>かつて宝山荘の入口に、右に松があったので私は左に柳を植えたが、これは男龍、女龍との意味である。<br><br>松も柳も皮が龍のウロコに似ている。<br><br> rattail（注） 〔 妙智之光（地上天国３号） 、昭和24(1949)年4月20日発行〕掲載 114 銀杏在家に樹つ可否 銀杏の木は在家に樹てても良いものですか。<br><br> 銀杏の木はよく神社とかお寺に限るように言っているがそんな事はない。<br><br>在家に樹てても差支えない。<br><br> 銀杏は普通の木とはちょっと異い神秘の木である。<br><br>銀杏の木には霊が憑り易い。<br><br>実の汁は霊が好むのである。<br><br>銀杏を倒すとよく祟るというが、それは霊が憑いているからである。<br><br>故に切り倒す場合手続きをすればよい。<br><br>ノアの洪水の時残ったのは銀杏の木だけだったという伝説がある。<br><br> 115 霊の憑いた銀杏の柱 銀杏は霊が憑き易い。<br><br>故に怪談などがある。<br><br>憑いた霊は木龍になる。<br><br> 光明如来様をお祭りする。<br><br>柱に祝詞を奏げ、小さい木を植え、銀杏へ移ってもらうよう頼む。<br><br> 116 特殊の植木 一般家庭の庭に植えては不吉といわれております木が種々御座いますが、諸説紛々としておりますので、植えて悪い樹を御教え戴きたく御願い申し上げます。<br><br> こういう事はない。<br><br>ただ木によって、例えば松、柳、銀杏などは特殊の木である。<br><br>松と柳は木の中の龍で、龍が憑依し易い。<br><br> 松の幹も柳の幹も、龍のコケのようである。<br><br> 銀杏は人間の霊が憑依し易い。<br><br>銀杏は人間によく似ている。<br><br>ノアの洪水で残ったのは銀杏などという。<br><br>銀なんの味は、人間の味がするという事になっている。<br><br>化銀杏などは、人間の霊がそうする。<br><br>それで植えるな等という。<br><br>民家には殆ど植えない。<br><br>後の木はそう種々ない。<br><br>枇杷なども植えてはいけないなどという事はない。<br><br>果物は美味しく食べて栄養になるよう造られてある。<br><br>それを植えてどうこうという事はあるべき筈はない。<br><br>（S24. 2. 1） rattail（注） 〔 妙智の鍵（日光分会５月号） 、昭和24(1949)年5月22日発行〕 〔 ご存じですか（実生分会３月号） 、昭和24(1949)年3月1日発行〕 117 動物を食う植物、妖精 植物で動物を食べるものがありますが、このような特種なものはどういう存在でしょうか。<br><br> 熱帯地方で植物が動物を食うのがある。<br><br>その土地でそういう必要があるのであろう。<br><br>何かに害をするものを食うためであろう。<br><br> 動物霊は植物に憑依する事はあるが、転生する事はない。<br><br>植物でも相当霊がある。<br><br> 言葉でいう事を聞く。<br><br>実が成らぬと、無駄だから切るというと咲く事がある。<br><br> 花の咲いた時など妖精が盛んに出る。<br><br> 花一輪に一人位の割合で、子供の形した羽の生えたものが、花壇の上を踊っている。<br><br>人間が傍に寄ると、大勢よって逃げる。<br><br>西洋にある。<br><br> 118 時刻で開閉する植物 日回草、月見草、ねむの木、朝顔、夕顔等のように、時刻により開いたりしぼんだりするのは何か霊的な意味が御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 霊的の意味はない。<br><br>こういったものの本能であるから何ともいえぬ。<br><br>いろいろの種類を神様が造った。<br><br>生れつきそうである。<br><br> アフリカあたりの植物で、虫を捕え、血を吸うのがある。<br><br>植物には、動物によほど近いものがある。<br><br>（S24. 4.13） 119 野菜より蛇出づ ある種の野菜を作ってはいけないと代々言い伝えています家で南瓜を作りましたところ、中から蛇が出ました。<br><br>（外から入った形跡が御座いません）また、玉蜀黍を作りましたところ、実が真黒になり喰べられませんでした。<br><br>そうしてその家柄によっては胡瓜、茄子等もいけないといわれておりますが、何か原因が御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 何でも作っていい。<br><br> 昔蛇を殺して胡瓜畑へ埋めたり、そこで殺したり、作物の畠へ埋められたりすると、蛇の霊が怨みを返そうとして祟る。<br><br>しかし古くなると薄れる。<br><br>故に今日は構わず何を作ってもよい。<br><br>信仰に入った人は何でもない。<br><br>あらゆる作物は、神様が作られた。<br><br>（S24. 3. 1） 120 芍薬不開と凶事 信者の家庭で地の神の社の左側に昔より芍薬があり、花が咲かない年は必ずその家に不吉の事が起ります。<br><br>昔からその社の付近に武士の遺骸が埋葬されていると言い伝えられておりますが、いかなるものでしょうか。<br><br> 芍薬は祖先の誰かが植えたものである。<br><br> 不吉な事は霊界では判るので、咲く咲かぬで、子孫に知らすのである。<br><br> 121 時季外れの開花 時候はずれの花が咲きますが、何か変った事があるのでしょうか。<br><br>御伺い致します。<br><br> ない事もない。<br><br>本当の意味からいうといい。<br><br>時季外れに咲くのは、良い事が早く来る意味になる。<br><br>（S24.10. 8） 122 不時の花咲開花 時季はずれに桜が咲きますのは、どういう事で御座居ますか。<br><br>御伺い申し上げます。<br><br> 大した意味はない。<br><br>どっちかといえば良い意味である。<br><br>（S23） 123 月夜の梨開花と不実 岩手地方で月の照る夜に掛って梨の花が咲きますと、その年は実が成らないと言われておりますが、（外の花は別にいわれておりません）何か訳が御座いますでしょうか。<br><br>お伺い申し上げます。<br><br> いくらかあるが大した事はない。<br><br>花が咲けば実は成る。<br><br>半分以上迷信である。<br><br>（S24. 6. 2） 124 大木枯る 私の屋敷内東南方の二抱えもあるモチの木が、昨年より私の知らないうちにすでに半分位枯れていました。<br><br>何かの知らせでしょうか。<br><br>また枯木は処分してよろしいでしょうか。<br><br> 訳がある。<br><br>枯れた所を急いで切って、焼いても薪にしてもよい。<br><br>残った所へ浄霊して、光明如来様にお願いする。<br><br> これは樹齢が来たのである。<br><br>木によって樹齢が違う。<br><br>楠、銀杏等は二千年位のがある。<br><br>高山などへ行くと枯れているのがある。<br><br> 自然枯で、唐松などあるが、それである。<br><br> 霊などは、外の木へ移っているから障りはない。<br><br>（S23.10.26） 125 枇杷と病 庭にびわの木があると、病がたえぬと言われますが、関係がありましょうか。<br><br>御説明下さい。<br><br> そんな事いえば果樹園など病気ばかりしていなくてはならない訳だ。<br><br>沢山作ってそれを人間が味わうのが神意である。<br><br>（S23.10.13） 126 林檎は有害か、人参の迷信 林檎は有害との事ですがどうですか。<br><br> 人参を播くに人の手をきらいますが、なぜでしょうか。<br><br> 有害などという事は絶対にない。<br><br>美味なものは必要があって神様が造ったのである。<br><br>人間が毒だなどといって排するのは間違いである。<br><br> 大先生は、林檎はあまり汁気がないのでお好きでない。<br><br>それを誤ったものであろう。<br><br> そんな事はない。<br><br>これも間違っている。<br><br>手で播いてよい。<br><br>地方にはかような迷信が多い。<br><br>（S23.12.16）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Mestre Jikan Okada – Pesquisa de Ensinamentos: help; Pesquisa de Materiais: Estudos Acadêmicos 7, 105-126</h2>
 <h2>105. As plantas crescem à noite</h2>
@@ -162,5 +314,48 @@ function toggleLang(lang) {
 <p>Dizem que a maçã é prejudicial. Isso é verdade? E por que se diz que não se deve tocar nas sementes de cenoura com as mãos ao semeá-las?</p>
 <p>É um absoluto disparate dizer que a maçã é prejudicial. Tudo o que é saboroso foi criado por Deus por ser necessário. É um erro o ser humano rejeitar algo dizendo que é tóxico. O que pode ter acontecido é que, como eu não aprecio muito maçãs por terem pouco suco, alguém tenha interpretado mal minhas palavras.</p>
 <p>Quanto à cenoura, isso também não é verdade; é um engano. Pode-se semear com as mãos. No interior, existem muitas superstições como essa. (16.12.1948)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ７ 105-126 植物 105 植物は夜成長す 植物は夜間成長するとの事ですが、これはいかなるわけでございましょうか。<br/><br/> 夜は水の霊気、昼は日の霊気。<br/><br/>つまり父母のようなもので、父は昼、母は夜になる。<br/><br/>（S25. 5.13） 106 柿と循環率 一、果樹についてよく申されることがありますが、多くの場合、果実の沢山なるのは一年置きのようでありますが、いかなる訳で御座居ましょうか。<br/><br/> 二、また栽培法によって、これをなくする事が出来ましょうか。<br/><br/>御教え願います。<br/><br/> 柿などは特にひどい。<br/><br/>すべて一切は循環率になっている―一年おき。<br/><br/>神様がそう造られている。<br/><br/>熟った時実をとると翌日よくなる―という方法より外ない。<br/><br/> 梅毒など一代おきで、病苦も一日おきで、これが循環率である。<br/><br/>（S24. 8.18） 107 循環率（果実） 果実類は隔年に実りが多いように見受けられますが、何の関係で御座居ましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 果実類に限らぬ。<br/><br/>特に柿など著るしい。<br/><br/>一つの循環率である。<br/><br/>そうなっているから、造物主に聞かねば解らぬ。<br/><br/>遺伝でも、癩病でも一年おきである。<br/><br/> （性質も祖父母に似る。<br/><br/>病気も）（S24. 6.23） 108 木と家の盛衰 信者の庭内の木が立枯をし、その後十二才の女子が病名不明になり、この浄霊により一時良くなりましたが死亡致しました。<br/><br/>この木について何か関係がありますか。<br/><br/>また処理はどうでしょうか。<br/><br/> 自然に立枯れたものなら祟る訳はない。<br/><br/>その家に禍のある時は庭木など相応の理で枯れる事がある。<br/><br/>一番眼目の木は松で、その家の主人に当る。<br/><br/>以前大森時代、大松の枝が雪のために折れたが、果して災難があった。<br/><br/>その人の一切はその人と合っている。<br/><br/>人間が何かあると木が先になる。<br/><br/>衰微する家の木はどことなく威勢がない。<br/><br/>木が活々しているとその家は繁昌する。<br/><br/>その家の感じと木の感じである。<br/><br/>二、三年前唐崎の松が枯れたが、すぐ後災があった。<br/><br/>（S23.10.15） 109 松の木について 近頃全国的に松の木が枯れつつあるそうですが、これは、 一、国常立尊を押込め、松葉でいぶした事。<br/><br/> 二、鬼門の方角に雄松、雌松を植える事。<br/><br/> （信仰雑話） 等と何か関係が御座居ましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 関係はない。<br/><br/>松の枯れる事は意味がある。<br/><br/>かつて東海道（六、七年前大磯から鎌倉へ）をドライブした事があり、松枯れてるを見た。<br/><br/>これは日本に非常に不吉な事があり、恐らく天皇に関係した事で、その前兆であろうと仰せられた。<br/><br/>松は木の公で、王の事。<br/><br/>日本は木の国である。<br/><br/>故に皇室に関係した事で、それ故に天皇が落ちるという事になる。<br/><br/>国が衰えると、国の中のある程度の松が枯れる事もある。<br/><br/>（方々の松が枯れたが）一番先に近江の唐崎の松が枯れ初めた。<br/><br/> 私も大森で松が枯れた事があり、大本事件が起った。<br/><br/> 屋敷内の松の木は主人になる。<br/><br/>外の木は、その他の眷族に関係する。<br/><br/>（主人に災がある） 松は敏感な木である。<br/><br/>松は日本特有の植物で、植物の中、木の最高の位である。<br/><br/> 植物は民主的になっていない。<br/><br/> 民主的も極端に行ってはいけない。<br/><br/>極端にゆくと、ストライキなどで悩む事となる。<br/><br/> 松は位があるから、清浄で、それで鬼門へ植える。<br/><br/> （五六七世の民主的は、今の民主的と違う。<br/><br/>階級が厳然としている民主的である。<br/><br/>現今のそれは平面的で、あまり階級にこだわらぬ）（S24.10. 8） 110 松の木枯れる 家の松の木が枯れましたが、その家に何か異変でも起るのでしょうか。<br/><br/>またこれを除ける方法をお教え下さい。<br/><br/> よくない。<br/><br/>何か不幸か災難があるべきである。<br/><br/>光明如来様を御祭りしていれば、軽くは来るかも知れぬが大丈夫である。<br/><br/>信仰がなければ、生命の危い位の事がある。<br/><br/> 111 竹の花 七月十日、六代目菊五郎が死去致しましたが、ある新聞に次のような記事がありました。<br/><br/> （略文）「菊五郎丈が生前起居して居た竹心庵の中の竹が、六月初旬から枯れはじめ、六月末に奇妙な新芽が出て、これが俗に竹の花とわかった時、当人もひどく気にして『竹に花が咲くのは竹に既に生きる力を失った時だそうだが』と言い、それから数日して就床、遂に世を去った」 右のように竹の花が咲いた場合には、人が死ぬという事が一般のものにもあるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 竹の花は滅多にない。<br/><br/>喰べられる。<br/><br/>竹に花が咲けば終る。<br/><br/>後は生命がない。<br/><br/>その家の主人が勢力のある程何かに表われる。<br/><br/>庭木の枯れる時などきっと何かある。<br/><br/>松喰虫で二十年位になる松が枯れてる。<br/><br/>（大磯）これは大きい知らせで、国家（天皇）に関係する。<br/><br/>天皇退位になればよろしい。<br/><br/>上るであろう。<br/><br/>木の公―王。<br/><br/> 風の作用は、気候調節、花の交配、根を張らす―等である。<br/><br/> 今日の五の日（五六七会）に参拝した人々は火に縁のある人である。<br/><br/> 火は水によって燃え、水は火によって動く。<br/><br/>これは、火は燃える場合、水の多い程燃える。<br/><br/> 今年は非常に発展する。<br/><br/> 箱根へお出でになる時は、きっと雨が降るという事は発展する事である。<br/><br/> 箱根は火、熱海は水である。<br/><br/> 雨は火の燃える原動力である。<br/><br/> 大先生は御入浴後、ぬるま湯へお入りになる。<br/><br/>御浴後、暫くお身体が熱くなられる。<br/><br/>これは、火素へ対し水分が入るので、余計に燃えるのである。<br/><br/> 今日の雨は五の日で非常によい。<br/><br/>（S24. 8. 5） 112 松の立枯 松の立枯が多く見うけられますが、学者は松毛虫のためといっておりますが、他に何か霊的な理由が御座居ましょうか。<br/><br/> 霊的の理由がある。<br/><br/>個人の家の庭でも――、国としては松とか、相応の理により一つの表われ方であって、その国の不幸な事の前兆ともなる。<br/><br/>今から七、八年前、東海道の大磯から鎌倉までのドライヴウェイの海岸の松が枯れていたので、私はこれは日本にとって重大な事がある先ぶれである、よほど重大な事だと話した事があった。<br/><br/>それで天皇の位がなくなった。<br/><br/> 松―木の王、日本は木の国（火）、松以外なら家来。<br/><br/>（S24.11.19） 113 銀杏木の不思議 銀杏の木を切ったら一里四方位実がならなかったが（男の銀杏の木）いかなる訳でしょうか。<br/><br/> これは銀杏の元だったに違いない。<br/><br/>そのためその枝になる他の銀杏も自らそうなったので、霊的に繋っているのである。<br/><br/>実に神秘の木である。<br/><br/>松も柳も神秘である。<br/><br/>古い銀杏程霊が憑る。<br/><br/>三十三間堂柳の由来のごときも、憑依していた龍神の霊である。<br/><br/>松は男龍、柳は女龍という事になっている。<br/><br/>かつて宝山荘の入口に、右に松があったので私は左に柳を植えたが、これは男龍、女龍との意味である。<br/><br/>松も柳も皮が龍のウロコに似ている。<br/><br/> rattail（注） 〔 妙智之光（地上天国３号） 、昭和24(1949)年4月20日発行〕掲載 114 銀杏在家に樹つ可否 銀杏の木は在家に樹てても良いものですか。<br/><br/> 銀杏の木はよく神社とかお寺に限るように言っているがそんな事はない。<br/><br/>在家に樹てても差支えない。<br/><br/> 銀杏は普通の木とはちょっと異い神秘の木である。<br/><br/>銀杏の木には霊が憑り易い。<br/><br/>実の汁は霊が好むのである。<br/><br/>銀杏を倒すとよく祟るというが、それは霊が憑いているからである。<br/><br/>故に切り倒す場合手続きをすればよい。<br/><br/>ノアの洪水の時残ったのは銀杏の木だけだったという伝説がある。<br/><br/> 115 霊の憑いた銀杏の柱 銀杏は霊が憑き易い。<br/><br/>故に怪談などがある。<br/><br/>憑いた霊は木龍になる。<br/><br/> 光明如来様をお祭りする。<br/><br/>柱に祝詞を奏げ、小さい木を植え、銀杏へ移ってもらうよう頼む。<br/><br/> 116 特殊の植木 一般家庭の庭に植えては不吉といわれております木が種々御座いますが、諸説紛々としておりますので、植えて悪い樹を御教え戴きたく御願い申し上げます。<br/><br/> こういう事はない。<br/><br/>ただ木によって、例えば松、柳、銀杏などは特殊の木である。<br/><br/>松と柳は木の中の龍で、龍が憑依し易い。<br/><br/> 松の幹も柳の幹も、龍のコケのようである。<br/><br/> 銀杏は人間の霊が憑依し易い。<br/><br/>銀杏は人間によく似ている。<br/><br/>ノアの洪水で残ったのは銀杏などという。<br/><br/>銀なんの味は、人間の味がするという事になっている。<br/><br/>化銀杏などは、人間の霊がそうする。<br/><br/>それで植えるな等という。<br/><br/>民家には殆ど植えない。<br/><br/>後の木はそう種々ない。<br/><br/>枇杷なども植えてはいけないなどという事はない。<br/><br/>果物は美味しく食べて栄養になるよう造られてある。<br/><br/>それを植えてどうこうという事はあるべき筈はない。<br/><br/>（S24. 2. 1） rattail（注） 〔 妙智の鍵（日光分会５月号） 、昭和24(1949)年5月22日発行〕 〔 ご存じですか（実生分会３月号） 、昭和24(1949)年3月1日発行〕 117 動物を食う植物、妖精 植物で動物を食べるものがありますが、このような特種なものはどういう存在でしょうか。<br/><br/> 熱帯地方で植物が動物を食うのがある。<br/><br/>その土地でそういう必要があるのであろう。<br/><br/>何かに害をするものを食うためであろう。<br/><br/> 動物霊は植物に憑依する事はあるが、転生する事はない。<br/><br/>植物でも相当霊がある。<br/><br/> 言葉でいう事を聞く。<br/><br/>実が成らぬと、無駄だから切るというと咲く事がある。<br/><br/> 花の咲いた時など妖精が盛んに出る。<br/><br/> 花一輪に一人位の割合で、子供の形した羽の生えたものが、花壇の上を踊っている。<br/><br/>人間が傍に寄ると、大勢よって逃げる。<br/><br/>西洋にある。<br/><br/> 118 時刻で開閉する植物 日回草、月見草、ねむの木、朝顔、夕顔等のように、時刻により開いたりしぼんだりするのは何か霊的な意味が御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊的の意味はない。<br/><br/>こういったものの本能であるから何ともいえぬ。<br/><br/>いろいろの種類を神様が造った。<br/><br/>生れつきそうである。<br/><br/> アフリカあたりの植物で、虫を捕え、血を吸うのがある。<br/><br/>植物には、動物によほど近いものがある。<br/><br/>（S24. 4.13） 119 野菜より蛇出づ ある種の野菜を作ってはいけないと代々言い伝えています家で南瓜を作りましたところ、中から蛇が出ました。<br/><br/>（外から入った形跡が御座いません）また、玉蜀黍を作りましたところ、実が真黒になり喰べられませんでした。<br/><br/>そうしてその家柄によっては胡瓜、茄子等もいけないといわれておりますが、何か原因が御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 何でも作っていい。<br/><br/> 昔蛇を殺して胡瓜畑へ埋めたり、そこで殺したり、作物の畠へ埋められたりすると、蛇の霊が怨みを返そうとして祟る。<br/><br/>しかし古くなると薄れる。<br/><br/>故に今日は構わず何を作ってもよい。<br/><br/>信仰に入った人は何でもない。<br/><br/>あらゆる作物は、神様が作られた。<br/><br/>（S24. 3. 1） 120 芍薬不開と凶事 信者の家庭で地の神の社の左側に昔より芍薬があり、花が咲かない年は必ずその家に不吉の事が起ります。<br/><br/>昔からその社の付近に武士の遺骸が埋葬されていると言い伝えられておりますが、いかなるものでしょうか。<br/><br/> 芍薬は祖先の誰かが植えたものである。<br/><br/> 不吉な事は霊界では判るので、咲く咲かぬで、子孫に知らすのである。<br/><br/> 121 時季外れの開花 時候はずれの花が咲きますが、何か変った事があるのでしょうか。<br/><br/>御伺い致します。<br/><br/> ない事もない。<br/><br/>本当の意味からいうといい。<br/><br/>時季外れに咲くのは、良い事が早く来る意味になる。<br/><br/>（S24.10. 8） 122 不時の花咲開花 時季はずれに桜が咲きますのは、どういう事で御座居ますか。<br/><br/>御伺い申し上げます。<br/><br/> 大した意味はない。<br/><br/>どっちかといえば良い意味である。<br/><br/>（S23） 123 月夜の梨開花と不実 岩手地方で月の照る夜に掛って梨の花が咲きますと、その年は実が成らないと言われておりますが、（外の花は別にいわれておりません）何か訳が御座いますでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> いくらかあるが大した事はない。<br/><br/>花が咲けば実は成る。<br/><br/>半分以上迷信である。<br/><br/>（S24. 6. 2） 124 大木枯る 私の屋敷内東南方の二抱えもあるモチの木が、昨年より私の知らないうちにすでに半分位枯れていました。<br/><br/>何かの知らせでしょうか。<br/><br/>また枯木は処分してよろしいでしょうか。<br/><br/> 訳がある。<br/><br/>枯れた所を急いで切って、焼いても薪にしてもよい。<br/><br/>残った所へ浄霊して、光明如来様にお願いする。<br/><br/> これは樹齢が来たのである。<br/><br/>木によって樹齢が違う。<br/><br/>楠、銀杏等は二千年位のがある。<br/><br/>高山などへ行くと枯れているのがある。<br/><br/> 自然枯で、唐松などあるが、それである。<br/><br/> 霊などは、外の木へ移っているから障りはない。<br/><br/>（S23.10.26） 125 枇杷と病 庭にびわの木があると、病がたえぬと言われますが、関係がありましょうか。<br/><br/>御説明下さい。<br/><br/> そんな事いえば果樹園など病気ばかりしていなくてはならない訳だ。<br/><br/>沢山作ってそれを人間が味わうのが神意である。<br/><br/>（S23.10.13） 126 林檎は有害か、人参の迷信 林檎は有害との事ですがどうですか。<br/><br/> 人参を播くに人の手をきらいますが、なぜでしょうか。<br/><br/> 有害などという事は絶対にない。<br/><br/>美味なものは必要があって神様が造ったのである。<br/><br/>人間が毒だなどといって排するのは間違いである。<br/><br/> 大先生は、林檎はあまり汁気がないのでお好きでない。<br/><br/>それを誤ったものであろう。<br/><br/> そんな事はない。<br/><br/>これも間違っている。<br/><br/>手で播いてよい。<br/><br/>地方にはかような迷信が多い。<br/><br/>（S23.12.16）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

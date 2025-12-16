@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syonitu2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 書について ･日本美術とその将来（5） 自観叢書第5編『自観隨談』P.71、昭和24(1949)年8月30日発行 私は絵と共に書も好きである。<br><br>御存知の通り毎日数百枚の書をかく。<br><br>恐らく私の書く書の量は古往今来日本一といってもよかろう。<br><br>お守にする光の書は一時間に五百枚をかく。<br><br>また額や掛軸にする二字ないし四文字の書は三十分間に百枚は書く、余りに早いため三人の男で手捌（さば）きをするが、仲々追つき得ない。<br><br>トント流れ作業である。<br><br> 書道について私は以前ある有名な書家に習いたいと申入れた。<br><br>それは略字に困る事があるからで、それを知りたいためと言ったところ、その書家が言うには、 「先生などは書を習う事はやめになった方がよい。<br><br>なぜならば習った書は一つの型に嵌（はま）ってしまうから個性がない。<br><br>字が死んでしまう。<br><br>形だけは美しいが内容がない、自分などはその型を今一生懸命破ろうとして苦心しているくらいだから、先生などは自由に個性を発揮される方がよい。<br><br>字を略す場合など、棒が一本足りなかろうが多かろうが一向差支えない」と言うので、私はなる程と思い習う事はやめてしまったのである。<br><br> 絵画や美術工芸なども、古人の方が優れている事は定説となっているが、書に至っても同様で、私は古筆などを観る毎に感歎するのである。<br><br>特に私が好きなのは仮名がきで、現代人には到底真似も出来ない巧さである。<br><br>もっともその時代の人は生活苦や社会的煩わしい事などないから、悠々閑日月の間に絶えず歌など物したり書いたりして楽しんでいたためもあろう。<br><br>現代人で古人と遜色のない仮名がきの名手としては、尾上柴舟（さいしゅう）氏くらいであろう。<br><br>古人で私の好きなのはまず道風、貫之、定家、西行、光悦等であるが、特に光悦の一種独特の文字は垂涎（すいぜん）措く能わざるものがある。<br><br>また俳人芭蕉の文字もなかなか捨て難い点があり、しかも芭蕉の絵に至っては専門家と比べても遜色はあるまい。<br><br>これによってみても一芸に秀ずる人は他のものも同一レベルに達している事が判るのである。<br><br> 漢字では王義之（おうぎし）、空海等はいうまでもないが、近代としては山陽、海屋、隆盛、鉄舟等も相当のものである。<br><br>何といっても漢字は文字の技巧よりも人物の如何にあるので、やはり大人物の書は形は下手でも、どこか犯し難い品位がある。<br><br>これについて霊的解釈をしてみよう。<br><br>書にはその人の人格が霊的に印写されるのであるから、朝夕その書を観る事によってその人格の感化を受けるので、そこに書というものの貴さがあるのであるから、書はどうしても大人物、大人格者のものでなくては価値がないのである。<br><br>妊娠中の婦人が胎教のため、偉人の書を見るのを可としているが、右の理由によるのである。<br><br> ここで、私の事を書いてみるが、私の救の業としての重点は書であるといってもいい。<br><br>それは書が大いなる働きをするからで、この説明はあまり神秘なためいずれ他の著書で説くつもりであるが、ここではただ書道を随談的にかいたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Considerações sobre a Caligrafia</h2>
 <p>Além da pintura, a caligrafia é outra arte pela qual nutro grande apreço. Conforme é de vosso conhecimento, caligrafo centenas de obras diariamente. Ouso dizer que a quantidade que produzo talvez seja a maior de todo o Japão, em qualquer época. Ao escrever o ideograma Hikari para os Ohikari, consigo produzir quinhentas folhas por hora. Já para os quadros e kakemono, com ideogramas de dois a quatro caracteres, caligrafo cem obras em trinta minutos. A velocidade é tamanha que são necessários três assistentes para manusear o papel, e mesmo assim, eles mal conseguem acompanhar o ritmo. É um verdadeiro trabalho em linha de montagem.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Na caligrafia em <em>kanji</em>, os nomes de Ō Gishi e Kūkai são, evidentemente, incontestáveis. Dentre os modernos, San’yō, Kaioku, Ryūsei e Tesshū também são dignos de nota. De todo modo, na caligrafia em <em>kanji</em>, mais do que a técnica dos caracteres, o que importa é a índole do artista. Com efeito, a obra de uma grande personalidade, ainda que tecnicamente imperfeita, possui uma dignidade inviolável.</p>
 <p>Permitam-me tecer, a esse respeito, uma interpretação espiritual. Na caligrafia, a personalidade de quem a escreve fica espiritualmente impressa. Assim, ao contemplar essa obra dia após dia, a pessoa recebe a influência daquele caráter. Eis onde reside a nobreza da caligrafia e a razão pela qual ela só adquire verdadeiro valor quando provém de uma grande personalidade, de um ser de elevada estirpe. O costume de mulheres grávidas apreciarem obras de grandes vultos para a educação pré-natal se fundamenta justamente nesse princípio.</p>
 <p>Para concluir, gostaria de escrever sobre mim. Pode-se dizer que, na minha Obra de Salvação, a ênfase principal recai sobre a caligrafia, pois ela exerce uma extraordinária força. A explicação para tal fato é deveras mística, e pretendo abordá-la em outra publicação. Neste momento, meu intuito foi apenas tecer considerações sobre a arte da caligrafia, de maneira informal.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 書について ･日本美術とその将来（5） 自観叢書第5編『自観隨談』P.71、昭和24(1949)年8月30日発行 私は絵と共に書も好きである。<br/><br/>御存知の通り毎日数百枚の書をかく。<br/><br/>恐らく私の書く書の量は古往今来日本一といってもよかろう。<br/><br/>お守にする光の書は一時間に五百枚をかく。<br/><br/>また額や掛軸にする二字ないし四文字の書は三十分間に百枚は書く、余りに早いため三人の男で手捌（さば）きをするが、仲々追つき得ない。<br/><br/>トント流れ作業である。<br/><br/> 書道について私は以前ある有名な書家に習いたいと申入れた。<br/><br/>それは略字に困る事があるからで、それを知りたいためと言ったところ、その書家が言うには、 「先生などは書を習う事はやめになった方がよい。<br/><br/>なぜならば習った書は一つの型に嵌（はま）ってしまうから個性がない。<br/><br/>字が死んでしまう。<br/><br/>形だけは美しいが内容がない、自分などはその型を今一生懸命破ろうとして苦心しているくらいだから、先生などは自由に個性を発揮される方がよい。<br/><br/>字を略す場合など、棒が一本足りなかろうが多かろうが一向差支えない」と言うので、私はなる程と思い習う事はやめてしまったのである。<br/><br/> 絵画や美術工芸なども、古人の方が優れている事は定説となっているが、書に至っても同様で、私は古筆などを観る毎に感歎するのである。<br/><br/>特に私が好きなのは仮名がきで、現代人には到底真似も出来ない巧さである。<br/><br/>もっともその時代の人は生活苦や社会的煩わしい事などないから、悠々閑日月の間に絶えず歌など物したり書いたりして楽しんでいたためもあろう。<br/><br/>現代人で古人と遜色のない仮名がきの名手としては、尾上柴舟（さいしゅう）氏くらいであろう。<br/><br/>古人で私の好きなのはまず道風、貫之、定家、西行、光悦等であるが、特に光悦の一種独特の文字は垂涎（すいぜん）措く能わざるものがある。<br/><br/>また俳人芭蕉の文字もなかなか捨て難い点があり、しかも芭蕉の絵に至っては専門家と比べても遜色はあるまい。<br/><br/>これによってみても一芸に秀ずる人は他のものも同一レベルに達している事が判るのである。<br/><br/> 漢字では王義之（おうぎし）、空海等はいうまでもないが、近代としては山陽、海屋、隆盛、鉄舟等も相当のものである。<br/><br/>何といっても漢字は文字の技巧よりも人物の如何にあるので、やはり大人物の書は形は下手でも、どこか犯し難い品位がある。<br/><br/>これについて霊的解釈をしてみよう。<br/><br/>書にはその人の人格が霊的に印写されるのであるから、朝夕その書を観る事によってその人格の感化を受けるので、そこに書というものの貴さがあるのであるから、書はどうしても大人物、大人格者のものでなくては価値がないのである。<br/><br/>妊娠中の婦人が胎教のため、偉人の書を見るのを可としているが、右の理由によるのである。<br/><br/> ここで、私の事を書いてみるが、私の救の業としての重点は書であるといってもいい。<br/><br/>それは書が大いなる働きをするからで、この説明はあまり神秘なためいずれ他の著書で説くつもりであるが、ここではただ書道を随談的にかいたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

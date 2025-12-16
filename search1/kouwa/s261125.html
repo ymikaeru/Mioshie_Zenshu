@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261125</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月25日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月二十五日 この間、東京に行った所が、ピカソ展を高島屋でやっていると言うので――わざわざ、見に行くつもりもなかったが、そういう話なので、ついでなので見に行ったが、その批評をここに書いてある。<br><br>この間、マチスは――話だけだったが、これは恐らく私のような見方をした者はいないだろうと思いますね。<br><br> （御論文「ピカソ展を見て」のあとの御教え）【栄光 一三五号】 今読んだ通りですね。<br><br>マチスにしろピカソにしろ、みんな一ぺんは見なくてはいけないと言う訳で、ヤンヤと押しかけて、あれで相当入場料を取るんだから、デパートなんか儲けたろうと思いますがね。<br><br>そんな事は、どっちでも良いが――あれを観ても、解る人はありっこないんです。<br><br>私が解らないんだからね。<br><br>それが、ああして大騒ぎをされていると言うのは、批判力がないからです。<br><br>人が良いと言うから良いと言うので、なぜ世界的名声を博したかと言うと、こう言う訳です。<br><br>アメリカの富豪が美術館を造ったり、自分の家に並べたいと思っても、東洋美術はほとんどないんですよ。<br><br>だから近頃、アメリカ人なんかでも、随分熱心に、買おうと思って、代わる代わる来てますがね。<br><br>しかし、本当に良いものはなかなか買えない。<br><br>また、日本人は売らないようにしてますからね。<br><br>そう言う点は、日本人は国家思想が強くある。<br><br>そこで一等品――一級品は手に入らない。<br><br>それから支那の方も、以前はあったけれども、イギリスの富豪――デビットとかホップレスとか言う金持ちが、ほとんど買っちゃった。<br><br>アメリカでも、ボストンの博物館辺りが、前から買っちゃってある。<br><br>それで、アメリカの金持ちが手に入れる事が出来ない。<br><br>そこで、ヨーロッパの絵ですね。<br><br>ああ言うのも――同じ白人ですからね。<br><br>そこで目をつけたのが、新しい――生きている人で、見渡したところフランスあたりが、一番偉い画家がいる。<br><br>それでその絵に目をつけた。<br><br>マチス、ピカソだとかね。<br><br>ああいった人達が――段々世の中の絵の傾向が変わってきて、後期印象派だとか立体派、後世派だとか出て来て、新しく何か書いていった。<br><br>で、その結果いよいよ行き過ぎちゃった。<br><br>その親玉がピカソですよ。<br><br>ちょうどブランコと同じで、こっちに来ているのに、今あっちの端にいるのがピカソですね。<br><br>そうすると、アメリカの富豪が変わっている所――変わっているために、他の金持ちが持っている絵と違いますからね。<br><br>他の金持ちが持っている絵は旧式だ。<br><br>駄目だ。<br><br>こっちが新しいものだ。<br><br>素晴らしいものだと思っちゃった。<br><br>しかしアメリカの富豪だって目が利かないんです。<br><br>美術眼なんかない。<br><br>すると、他の富豪が、あいつがああ言うものを持っていると言うので、段々せり合っていった。<br><br>今一番高いですね。<br><br>だから、ピカソの絵は、あんなに高いから良いものに違いないとなった。<br><br>それが、日本に来て、フランスやアメリカで大騒ぎをやっているから、世界的の大名人だ。<br><br>見ずんばあるべからず。<br><br>と言うようになった。<br><br>要するに、そういうように拵え上げちゃったんですね。<br><br>私は本当の白紙になって、冷静に批判したんです。<br><br>見ると何もないんです。<br><br>絵としては、ただ人を驚かすような――ただ、奇ですね。<br><br>奇によってアッと言わせると言うんです。<br><br>あれが絵としてやられたらたまらないですよ。<br><br>一番良いのは――あの絵を飾ってみてご覧なさい。<br><br>ああ良いと思う人は恐らくないですね。<br><br>ちょうど、銀座通りあたりに行って、若い女が歩いてます――毒々しい化粧をして、派手な衣粧をしている――派手な格好をしていると、みんな見るでしょう。<br><br>美人じゃないんですがね。<br><br>見るだけは見ますよ。<br><br>有名になった音楽家とかはハハア偉いんだなと思う。<br><br>だから、そんなものはある時期が過ぎると、ガタッと落っこちます。<br><br>ピカソを私のように見る人や、言う人は恐らくないですよ。<br><br>しかし、それが本当なんだから仕方がないですね。<br><br>まあ、これが他の事にも共通しているんですよ。<br><br>今、大学教授の――良い博士と言う――お医者さんですね。<br><br>大変な腕前を持っていて、大抵な病気は治してしまうと、思いますよね。<br><br>ところが本当の値打ちは、我々の方では分ってますからね。<br><br>それとちょうど同じようなものですね。<br><br>この間なんか、ユナイテッドのニュース映画ですが、英国の皇帝が手術をするので、有名な博士が自動車に乗って、降りるところが映ってましたが、まるで神様のように扱われてましたね。<br><br>皇帝の手術をするんですからね。<br><br>我々から見るとからっきし問題にならないがね。<br><br>ちょうど、ピカソの絵もそんなようなものだろうと思いますね。<br><br> それから、Ｂ・Ｃ・Ｇ問題ですね。<br><br>これもちょっと面白い事が新聞に出てましたから、それについて―― （御論文「Ｂ・Ｃ・Ｇ問題」のあとの御教え）【栄光 一三五号】 つまり、こういう事も、浄化が強くなったためなんですよ。<br><br>で、この浄化が強くなるのは、段々一般になってきますが、今のところは教団の中がだいぶ盛んなようですがね。<br><br>これが、いずれ一般になって来ますね。<br><br>その現われとして、今年はハシカが例年より三倍だと言う事ですね。<br><br>それから、赤痢が今頃になると、毎年なくなるんですが、今年はだいぶ増えつつありますね。<br><br>そんなような具合で、伝染病と言うのは、一番浄化が強いんですからして、まあ伝染病の増えると言う事が著しい現われと思うんですがね。<br><br>そんなような具合で、今のＢ・Ｃ・Ｇもやはり浄化が強いために、こんな事になるんですね。<br><br>こんな事が方々にあるんですが、それを無理に抑えてＢ・Ｃ・Ｇは無害だと言う事を、強調している医者や団体があるんですがね。<br><br>今のところは、勝ってそんな事を言ってますが、これもぐずぐずしている内に、有害の方が勝つようになるだろうと思います。<br><br>それから、時事問題が多いけれども、お役人の犯罪ですね。<br><br>不正事件――これが今大いに問題になっているんで、それについてちょっと書いてみた。<br><br> （御論文「無神迷信」）【栄光 一三四号】 今度、面白い報告があったんですがね。<br><br>狐の霊ですね。<br><br>つまり、狐霊が薬毒を教えたんですよ。<br><br>ですから、人間よりも――今の現代科学者よりも、狐霊の方がずっと偉いですね。<br><br> （御論文「狐霊でさえ薬毒の害を知っている」のあとの御教え） これは、狐霊ばかりじゃないんですが、その人を殺そうとする場合に――他の祖[邪]霊でも同じですが、むやみに薬を飲ませようとする。<br><br>だから、薬と言う――ああ言う邪霊の良い道具なんです。<br><br>こう言う事が解ったら大変な事になりますがね。<br><br>学校教育を受けて、立派なお医者さんになった所が、実は狐霊の仕事を手伝っていると言う訳です。<br><br>それが進歩した科学と言うんですから、実際何がなんだか解らないようになる。<br><br> それから、先月私が京都に行った時、あの辺の神社の神様――四十幾柱という神様が憑って来て明主様にこうこう言う事をお願いしたいとか、お礼をしたいとか――そんなような、それぞれの頼みで――これは本当のものなんです。<br><br>これは霊界の事だから気がつかないけれども、かりに私がどこかに行く時は、信者が騒ぐどころでない。<br><br>霊界で神様が騒ぐ方がずっと多い。<br><br>その辺の神様がお蔭を戴こうと集まってくる。<br><br>中には軽い気持ちでやって来たりして――驚いて、それから一生懸命お手伝いをするという神様もたくさんある。<br><br>だから、そう言った――霊界に対する仕事の方がずっと多い位ですね。<br><br>その記録が詳しく書いてあるんですが二、三回くらいに、それを聞かせる事ができるでしょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Discernimento entre o Verdadeiro e o Falso</h2>
 <p>Recentemente, em uma de minhas viagens a Tóquio, soube que a loja de departamentos Takashimaya sediava uma exposição de Picasso. Embora não tivesse a intenção prévia de visitá-la, a oportunidade se apresentou e decidi ir. A crítica que formulei a respeito encontra-se registrada em um dos artigos aqui apresentados. Há algum tempo, comentei apenas de passagem sobre Matisse; desta vez, porém, analisei a obra de Picasso sob uma perspectiva que, ouso dizer, ninguém jamais adotou.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Recebi, há pouco, um relato muito interessante sobre o espírito de uma raposa. Com efeito, esse espírito ensinou a respeito da natureza nociva dos medicamentos. Isso demonstra que um espírito de raposa é muito mais sábio que os seres humanos, superando até mesmo os cientistas modernos.</p>
 <p>Isso não se aplica apenas aos espíritos de raposa. Quando um espírito maligno deseja matar uma pessoa, um de seus métodos é induzi-la a consumir medicamentos de forma indiscriminada. Portanto, os remédios são um excelente instrumento para tais espíritos. A compreensão deste fato traria consequências imensas. Pessoas que receberam educação formal e se tornaram médicos respeitáveis estão, na verdade, auxiliando o trabalho de espíritos de raposa. E a isso chamam de ciência avançada. A realidade é que já não se sabe mais o que é o quê.</p>
 <p>Por fim, quando estive em Quioto no mês passado, os deuses dos santuários daquela região — mais de quarenta divindades — manifestaram-se através de uma pessoa para me fazer pedidos, expressar gratidão ou solicitar auxílio. E isso é absolutamente real. Por se tratar de algo do Mundo Espiritual, passa despercebido, mas, a título de exemplo, quando viajo para algum lugar, a comoção entre os fiéis é ínfima se comparada à agitação que ocorre no Mundo Espiritual. O alvoroço entre os deuses é imensamente maior. As divindades da região se reúnem para receber a Luz. Algumas se aproximam com certa displicência, mas, ao sentirem a força espiritual, surpreendem-se e passam a colaborar com grande empenho. Pode-se dizer que meu trabalho no Mundo Espiritual é muito mais extenso. Há registros detalhados sobre esses acontecimentos, os quais poderei compartilhar em duas ou três oportunidades futuras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月25日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月二十五日 この間、東京に行った所が、ピカソ展を高島屋でやっていると言うので――わざわざ、見に行くつもりもなかったが、そういう話なので、ついでなので見に行ったが、その批評をここに書いてある。<br/><br/>この間、マチスは――話だけだったが、これは恐らく私のような見方をした者はいないだろうと思いますね。<br/><br/> （御論文「ピカソ展を見て」のあとの御教え）【栄光 一三五号】 今読んだ通りですね。<br/><br/>マチスにしろピカソにしろ、みんな一ぺんは見なくてはいけないと言う訳で、ヤンヤと押しかけて、あれで相当入場料を取るんだから、デパートなんか儲けたろうと思いますがね。<br/><br/>そんな事は、どっちでも良いが――あれを観ても、解る人はありっこないんです。<br/><br/>私が解らないんだからね。<br/><br/>それが、ああして大騒ぎをされていると言うのは、批判力がないからです。<br/><br/>人が良いと言うから良いと言うので、なぜ世界的名声を博したかと言うと、こう言う訳です。<br/><br/>アメリカの富豪が美術館を造ったり、自分の家に並べたいと思っても、東洋美術はほとんどないんですよ。<br/><br/>だから近頃、アメリカ人なんかでも、随分熱心に、買おうと思って、代わる代わる来てますがね。<br/><br/>しかし、本当に良いものはなかなか買えない。<br/><br/>また、日本人は売らないようにしてますからね。<br/><br/>そう言う点は、日本人は国家思想が強くある。<br/><br/>そこで一等品――一級品は手に入らない。<br/><br/>それから支那の方も、以前はあったけれども、イギリスの富豪――デビットとかホップレスとか言う金持ちが、ほとんど買っちゃった。<br/><br/>アメリカでも、ボストンの博物館辺りが、前から買っちゃってある。<br/><br/>それで、アメリカの金持ちが手に入れる事が出来ない。<br/><br/>そこで、ヨーロッパの絵ですね。<br/><br/>ああ言うのも――同じ白人ですからね。<br/><br/>そこで目をつけたのが、新しい――生きている人で、見渡したところフランスあたりが、一番偉い画家がいる。<br/><br/>それでその絵に目をつけた。<br/><br/>マチス、ピカソだとかね。<br/><br/>ああいった人達が――段々世の中の絵の傾向が変わってきて、後期印象派だとか立体派、後世派だとか出て来て、新しく何か書いていった。<br/><br/>で、その結果いよいよ行き過ぎちゃった。<br/><br/>その親玉がピカソですよ。<br/><br/>ちょうどブランコと同じで、こっちに来ているのに、今あっちの端にいるのがピカソですね。<br/><br/>そうすると、アメリカの富豪が変わっている所――変わっているために、他の金持ちが持っている絵と違いますからね。<br/><br/>他の金持ちが持っている絵は旧式だ。<br/><br/>駄目だ。<br/><br/>こっちが新しいものだ。<br/><br/>素晴らしいものだと思っちゃった。<br/><br/>しかしアメリカの富豪だって目が利かないんです。<br/><br/>美術眼なんかない。<br/><br/>すると、他の富豪が、あいつがああ言うものを持っていると言うので、段々せり合っていった。<br/><br/>今一番高いですね。<br/><br/>だから、ピカソの絵は、あんなに高いから良いものに違いないとなった。<br/><br/>それが、日本に来て、フランスやアメリカで大騒ぎをやっているから、世界的の大名人だ。<br/><br/>見ずんばあるべからず。<br/><br/>と言うようになった。<br/><br/>要するに、そういうように拵え上げちゃったんですね。<br/><br/>私は本当の白紙になって、冷静に批判したんです。<br/><br/>見ると何もないんです。<br/><br/>絵としては、ただ人を驚かすような――ただ、奇ですね。<br/><br/>奇によってアッと言わせると言うんです。<br/><br/>あれが絵としてやられたらたまらないですよ。<br/><br/>一番良いのは――あの絵を飾ってみてご覧なさい。<br/><br/>ああ良いと思う人は恐らくないですね。<br/><br/>ちょうど、銀座通りあたりに行って、若い女が歩いてます――毒々しい化粧をして、派手な衣粧をしている――派手な格好をしていると、みんな見るでしょう。<br/><br/>美人じゃないんですがね。<br/><br/>見るだけは見ますよ。<br/><br/>有名になった音楽家とかはハハア偉いんだなと思う。<br/><br/>だから、そんなものはある時期が過ぎると、ガタッと落っこちます。<br/><br/>ピカソを私のように見る人や、言う人は恐らくないですよ。<br/><br/>しかし、それが本当なんだから仕方がないですね。<br/><br/>まあ、これが他の事にも共通しているんですよ。<br/><br/>今、大学教授の――良い博士と言う――お医者さんですね。<br/><br/>大変な腕前を持っていて、大抵な病気は治してしまうと、思いますよね。<br/><br/>ところが本当の値打ちは、我々の方では分ってますからね。<br/><br/>それとちょうど同じようなものですね。<br/><br/>この間なんか、ユナイテッドのニュース映画ですが、英国の皇帝が手術をするので、有名な博士が自動車に乗って、降りるところが映ってましたが、まるで神様のように扱われてましたね。<br/><br/>皇帝の手術をするんですからね。<br/><br/>我々から見るとからっきし問題にならないがね。<br/><br/>ちょうど、ピカソの絵もそんなようなものだろうと思いますね。<br/><br/> それから、Ｂ・Ｃ・Ｇ問題ですね。<br/><br/>これもちょっと面白い事が新聞に出てましたから、それについて―― （御論文「Ｂ・Ｃ・Ｇ問題」のあとの御教え）【栄光 一三五号】 つまり、こういう事も、浄化が強くなったためなんですよ。<br/><br/>で、この浄化が強くなるのは、段々一般になってきますが、今のところは教団の中がだいぶ盛んなようですがね。<br/><br/>これが、いずれ一般になって来ますね。<br/><br/>その現われとして、今年はハシカが例年より三倍だと言う事ですね。<br/><br/>それから、赤痢が今頃になると、毎年なくなるんですが、今年はだいぶ増えつつありますね。<br/><br/>そんなような具合で、伝染病と言うのは、一番浄化が強いんですからして、まあ伝染病の増えると言う事が著しい現われと思うんですがね。<br/><br/>そんなような具合で、今のＢ・Ｃ・Ｇもやはり浄化が強いために、こんな事になるんですね。<br/><br/>こんな事が方々にあるんですが、それを無理に抑えてＢ・Ｃ・Ｇは無害だと言う事を、強調している医者や団体があるんですがね。<br/><br/>今のところは、勝ってそんな事を言ってますが、これもぐずぐずしている内に、有害の方が勝つようになるだろうと思います。<br/><br/>それから、時事問題が多いけれども、お役人の犯罪ですね。<br/><br/>不正事件――これが今大いに問題になっているんで、それについてちょっと書いてみた。<br/><br/> （御論文「無神迷信」）【栄光 一三四号】 今度、面白い報告があったんですがね。<br/><br/>狐の霊ですね。<br/><br/>つまり、狐霊が薬毒を教えたんですよ。<br/><br/>ですから、人間よりも――今の現代科学者よりも、狐霊の方がずっと偉いですね。<br/><br/> （御論文「狐霊でさえ薬毒の害を知っている」のあとの御教え） これは、狐霊ばかりじゃないんですが、その人を殺そうとする場合に――他の祖[邪]霊でも同じですが、むやみに薬を飲ませようとする。<br/><br/>だから、薬と言う――ああ言う邪霊の良い道具なんです。<br/><br/>こう言う事が解ったら大変な事になりますがね。<br/><br/>学校教育を受けて、立派なお医者さんになった所が、実は狐霊の仕事を手伝っていると言う訳です。<br/><br/>それが進歩した科学と言うんですから、実際何がなんだか解らないようになる。<br/><br/> それから、先月私が京都に行った時、あの辺の神社の神様――四十幾柱という神様が憑って来て明主様にこうこう言う事をお願いしたいとか、お礼をしたいとか――そんなような、それぞれの頼みで――これは本当のものなんです。<br/><br/>これは霊界の事だから気がつかないけれども、かりに私がどこかに行く時は、信者が騒ぐどころでない。<br/><br/>霊界で神様が騒ぐ方がずっと多い。<br/><br/>その辺の神様がお蔭を戴こうと集まってくる。<br/><br/>中には軽い気持ちでやって来たりして――驚いて、それから一生懸命お手伝いをするという神様もたくさんある。<br/><br/>だから、そう言った――霊界に対する仕事の方がずっと多い位ですね。<br/><br/>その記録が詳しく書いてあるんですが二、三回くらいに、それを聞かせる事ができるでしょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

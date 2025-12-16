@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gokotan1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>gokotan1<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>明主様御降誕祭行わる<br>『栄光』290号、昭和30(1955）年1月5日発行<br>明主様御降誕祭は、昭和二十九年十二月二十三日、雲一つ無き青空の下、九分通り完成の熱海瑞雲郷メシヤ会館において執り行われたのであった。<br>×　　　×　　　×<br>この日、御祝福申し上げんと、全国津々浦々より参集の信徒は、早朝二時頃より、旅の疲れも厭（いと）わず会館に登り、五時頃より箱根登山鉄道の御厚意にて、駅前より会館行のバス数台を運転し、不断は比較的閑散な桃山道路に、時ならぬ賑わいを呈した。<br>日の出前を瑞雲郷に登り待つことしばし、午前六時開館に場内に入れば、昨日までの、今日の用意のための混雑も、奉仕隊員のほとんど徹夜の作業にてすっかり掃除清められ、一層の清々しさを感じられる。<br>約三十分――場外に出ればホノボノと東の空は明るんで来、やがて雲一つなき青空の東方地平線より出づる真赤な太陽に、地上天国の姿がクッキリと浮かび上り、白亜の水晶殿、メシヤ会館を照らす眺めは、見馴れし地上天国の絶景に一入美観を加え、さながら羽化登仙の気さえして、真の芸術天国とはこれなる御哉の感あり、心新たに今日御参拝の御許しいただけた喜びを感ずるのであった。<br>午前八時、新装の会館床の間には千手観音様の御神体が、管長先生、木原先生の御手によって御奉斎されれば、御神体、ミスが御床の間にピッタリとマッチして、一段と会館に尊厳さを加え、何とも言えぬ感歎の言葉が信徒の口から洩れるのであった。<br>この御神体は、明主様が自観随談「光への道」に御書き下された御姿と御伺いし、かつて先生より「十二月二十三日が冬至で一番昼の短かい日であり、二十三日より日が長くなり始めるのであるから、二十二日は夜の終りであり、二十三日が昼の始まりとも言える訳で、そう考えるとメシヤ教の新年は二十三日であるとも言える」と御導き戴いた事を考え合わす時、なお一層今日の祭典の意義深さを感ずるのであった。<br>やがて十時五十分、明主様御出座の声に一瞬サッと身の引締る思いで頭を垂れ御待ち申し上げ、六月十五日以来半年振りに御面会いただける喜びに信徒の胸は高鳴り、世紀の祭典はいよいよ繰展げられたのである。<br>明主様御着座遊ばされるや、信徒代表にて管長先生の御祝言上と日々の御守護御礼並びに御守護御願いに、軽く御会釈賜わる明主様に感胸に迫り、ともすれば涙の溢れ出づるを禁じ得ず……次いで管長先生御先達にて天津祝詞奏上すれば段々と天に木霊（こだま）して全山を埋め、次いで木原先生より御玉串奉奠あり、明主様御退座遊ばされた。<br>しかして本日特に御奥様より今日の御祝に下された御歌四首――初めの二首は明主様に御代り遊ばされて御詠み下された御歌――を、木原先生のあの流暢な節廻しにて御取次の御朗詠あれば、御奥様の御心の程が窺われて、有難きに涙あるのみであった。最後に管長先生の御挨拶あり、式典は厳粛裡に終了した。<br>×　　×　　×<br>式典終了後今日の感激を胸に、地上天国よりの風景を賞で、かつ、去る十一日完成の水晶殿を拝観させて戴き、信者さんの「素晴しいね――。とにかく、口では何とも言えん。来て見にゃ分らん」と瑞雲郷の変り行く姿に讃歎の言葉は相次ぐ……もっとも二、三日拝観させて戴かないと、その変り方に吃驚する位であるから、数カ月もすればすっかり変るのは理の当然である。<br>かくて、本日の行事は無事終了し、約六千の参拝者は心新たに御奉仕の念に燃え、三々五々帰途についたのであった。（酒見記者）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Okada Jikan — Busca de Ensinamentos | Busca de Materiais: A Celebração do Natalício de Meishu-Sama (Jornal Eiko, nº 290, publicado em 5 de janeiro de 1955)</h2>
 <p>A Celebração do Natalício de Meishu-Sama foi oficiada no dia 23 de dezembro de 1954, sob um firmamento sem nuvens, no Salão Messiânico do Zuiunkyo, em Atami, àquela altura com suas obras em fase final de conclusão.</p>
@@ -108,5 +458,48 @@ function toggleLang(lang) {
 <p>Findada a cerimônia, ainda com a emoção a vibrar no peito, pude apreciar a paisagem do Paraíso Terrestre e visitar o Palácio de Cristal, concluído no último dia 11. As palavras de admiração dos fiéis ante a contínua transformação do Zuiunkyo eram incessantes: “É maravilhoso... As palavras não podem descrever. É preciso vir para compreender”. De fato, bastam dois ou três dias de ausência para que nos surpreendamos com as transformações, de modo que é natural uma mudança completa ao longo de alguns meses.</p>
 <p>Dessa forma, as atividades do dia transcorreram em perfeita ordem. Cerca de seis mil participantes, com o espírito renovado e inflamados pelo desejo de servir, retornaram aos seus lares em pequenos grupos.</p>
 <p>(Repórter Sakami)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>gokotan1<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>明主様御降誕祭行わる<br/>『栄光』290号、昭和30(1955）年1月5日発行<br/>明主様御降誕祭は、昭和二十九年十二月二十三日、雲一つ無き青空の下、九分通り完成の熱海瑞雲郷メシヤ会館において執り行われたのであった。<br/>×　　　×　　　×<br/>この日、御祝福申し上げんと、全国津々浦々より参集の信徒は、早朝二時頃より、旅の疲れも厭（いと）わず会館に登り、五時頃より箱根登山鉄道の御厚意にて、駅前より会館行のバス数台を運転し、不断は比較的閑散な桃山道路に、時ならぬ賑わいを呈した。<br/>日の出前を瑞雲郷に登り待つことしばし、午前六時開館に場内に入れば、昨日までの、今日の用意のための混雑も、奉仕隊員のほとんど徹夜の作業にてすっかり掃除清められ、一層の清々しさを感じられる。<br/>約三十分――場外に出ればホノボノと東の空は明るんで来、やがて雲一つなき青空の東方地平線より出づる真赤な太陽に、地上天国の姿がクッキリと浮かび上り、白亜の水晶殿、メシヤ会館を照らす眺めは、見馴れし地上天国の絶景に一入美観を加え、さながら羽化登仙の気さえして、真の芸術天国とはこれなる御哉の感あり、心新たに今日御参拝の御許しいただけた喜びを感ずるのであった。<br/>午前八時、新装の会館床の間には千手観音様の御神体が、管長先生、木原先生の御手によって御奉斎されれば、御神体、ミスが御床の間にピッタリとマッチして、一段と会館に尊厳さを加え、何とも言えぬ感歎の言葉が信徒の口から洩れるのであった。<br/>この御神体は、明主様が自観随談「光への道」に御書き下された御姿と御伺いし、かつて先生より「十二月二十三日が冬至で一番昼の短かい日であり、二十三日より日が長くなり始めるのであるから、二十二日は夜の終りであり、二十三日が昼の始まりとも言える訳で、そう考えるとメシヤ教の新年は二十三日であるとも言える」と御導き戴いた事を考え合わす時、なお一層今日の祭典の意義深さを感ずるのであった。<br/>やがて十時五十分、明主様御出座の声に一瞬サッと身の引締る思いで頭を垂れ御待ち申し上げ、六月十五日以来半年振りに御面会いただける喜びに信徒の胸は高鳴り、世紀の祭典はいよいよ繰展げられたのである。<br/>明主様御着座遊ばされるや、信徒代表にて管長先生の御祝言上と日々の御守護御礼並びに御守護御願いに、軽く御会釈賜わる明主様に感胸に迫り、ともすれば涙の溢れ出づるを禁じ得ず……次いで管長先生御先達にて天津祝詞奏上すれば段々と天に木霊（こだま）して全山を埋め、次いで木原先生より御玉串奉奠あり、明主様御退座遊ばされた。<br/>しかして本日特に御奥様より今日の御祝に下された御歌四首――初めの二首は明主様に御代り遊ばされて御詠み下された御歌――を、木原先生のあの流暢な節廻しにて御取次の御朗詠あれば、御奥様の御心の程が窺われて、有難きに涙あるのみであった。最後に管長先生の御挨拶あり、式典は厳粛裡に終了した。<br/>×　　×　　×<br/>式典終了後今日の感激を胸に、地上天国よりの風景を賞で、かつ、去る十一日完成の水晶殿を拝観させて戴き、信者さんの「素晴しいね――。とにかく、口では何とも言えん。来て見にゃ分らん」と瑞雲郷の変り行く姿に讃歎の言葉は相次ぐ……もっとも二、三日拝観させて戴かないと、その変り方に吃驚する位であるから、数カ月もすればすっかり変るのは理の当然である。<br/>かくて、本日の行事は無事終了し、約六千の参拝者は心新たに御奉仕の念に燃え、三々五々帰途についたのであった。（酒見記者）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

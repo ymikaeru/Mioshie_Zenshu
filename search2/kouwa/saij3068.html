@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij3068</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第三篇 ５ 068-088 善言讃詞 068 善言讃詞の内容 善言讃詞の詳解を御教えの程を御願い申し上げます。<br><br> 観音経を縮めたものである。<br><br>字の通りである。<br><br>観音経の善い所を唱えたもので、五分位以内に唱えるようにした。<br><br>観音礼讃と五六七世の状態である。<br><br>（S23.12.11） 069 紫微実相 紫微実相、天界の紫微の主、紫微宮、七堂伽藍等の意味をお伺い致します。<br><br> 紫微宮という天国にお宮があるのでその名がある。<br><br>美しい都会があり、宮のある所を都率天という。<br><br> 実相世界は、これから出来る。<br><br>真如がすんでから実相となる。<br><br>仏の実相真如は逆である。<br><br>実相とは法の華の実で、今、その実を備えつつある。<br><br> 070 紫微、七堂伽藍、多宝仏塔 紫微は仏語であって、一番いい、最高の場所の事。<br><br> 仏界の一番立派な都を都率天といい、七堂伽藍や多宝仏塔など、立派な建物が沢山建っている。<br><br>そこの最高の御宮を紫微宮といい、観音様など一流の仏がおられる。<br><br> 観音様の事を紫微の主という。<br><br> 七堂伽藍、これは都率天にある伽藍で、奈良の法隆寺などはこの七堂伽藍を写したものである。<br><br>また祇園精舎ともいうが、祇園精舎は印度にある。<br><br> 多宝仏塔、特別の形式の建築、日本にもある。<br><br> 都率天は第一天国の仏語になる。<br><br>第一天国は神様の方では未だ出来ていなかったんで、本当はこれから出来るのである。<br><br> 仏界でも、本当には都率天は出来ていなかった。<br><br> 紫微の主は主神であり、五六七大御神はやはり紫微の主である。<br><br> 071 大千三千世界 大千三千世界について御説明をお願い致します。<br><br> 三千世界とは、神幽現――神界、仏界、現界を三千世界という。<br><br>三界万霊というのはそれである。<br><br> 大千世界は三千世界全体をいったもの、総合称である。<br><br>（S23.10. 2） rattail（注） 〔 御講話（S28年8月25日） 『御教え集』25号、昭和28(1953)年9月15日発行〕 『私が善言讃詞に「大千三千世界」ということを書いてますが、仏典の方では「三千大千世界」となってます。<br><br>これはあべこべです。<br><br>「大」という字は「一人」と書きますが、つまり「一人」とは「主」ですから、これが元です。<br><br>それで「三千」というと「三界」です。<br><br>現幽神、あるいは天地人で、三つに別けてあるわけです。<br><br>最初は一で、それが三つに分かれるのが本当です。<br><br>ですから三つの方を上につけるということは間違いです。<br><br>それで一は太陽で三は月、一は火で三は水ですから、大千三千世界というのが本当です。<br><br>』 072 念被と念彼、大千世界 念被観音力、念被観音行、念被観音心、についてお尋ね致します。<br><br> 仏教では彼とかくが、私は被と直した。<br><br>念ずれば観音力―行―心を頂くという意である。<br><br>仏教では彼岸の彼をとったのであろう。<br><br>三千大千世界など逆である。<br><br> 大千―一人―天―ス神という意味になる。<br><br>大―主の神、スも一人、大も一人。<br><br>（S24. 9. 7） rattail（注） 大日本観音会、日本観音教時代は善言讃詞の最後に「念被観音力、念被観音行、念被観音心」ととなえた。<br><br> 073 十方と七堂伽藍 善言讃詞の中の十方世界の「十方」また、七堂伽藍の「七堂」の意味。<br><br> 尽十方世界といって宇宙をいう。<br><br>東西南北艮坤辰巳戊亥、本当は八方だが天地で十方になる。<br><br>尽はつきるとかつくす事。<br><br> 七堂伽藍は印度で極楽浄土を造った時、天国の都会は都率天というが、それの型を地上に作った。<br><br>七つのお堂と伽藍というのであるが、お堂を七つ作ったのである。<br><br>法隆寺などは、五重塔とか金堂などで七つ作ったものである。<br><br>（S24. 6.22） 074 念被観音力 念被観音力とは、どんな意味が含まれておられるのでしょうか。<br><br>またこれを唱える時はいかなる働をするのでしょうか。<br><br> 普通念彼とかくが、私は念被にした。<br><br>念ずれば観音力を頂くと思っていればよい。<br><br> 観音力を戴く。<br><br>日蓮は竜の口で、刀が雷によって折れたという。<br><br>これは念被観音力と唱えたと思う。<br><br> 075 念被と念彼 念被観音心と念被観音行について御教えを賜りたく御願い申し上げます。<br><br> お経は彼となっている。<br><br>彼は彼岸の意味である。<br><br>私は被と直したが、これは蒙るという意味で、ピッタリする。<br><br>（S24. 2.11） 076 被と彼、寿と衆 念被観音力の「被」と「彼」及び福寿海無量の「寿」と「衆」はどちらが正しいので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 彼は漢字に訳した時、間違えたんだと思う。<br><br>被―念ずれば蒙る事の方が合っている。<br><br> 寿が本当である。<br><br>（S24. 7. 3） rattail（注） 〔 御光話（S24年 7月 3日） 『御光話録』13号、昭和24(1949)年10月21日発行〕 ――念被（ねんぴ）観音力の被と彼、福寿海無量の寿と来とはどちらがよろしいでしょうか。<br><br> 『仏教のお経には彼と書いてありますが、これを私が被と直したんです。<br><br>念ずれば観音力を被る、いただくという意味ですね。<br><br>これはおそらく翻訳するときに間違ったんだろうと思いますがね。<br><br>』 ――ふつうには「彼の観音の力を念ず」と申しますが…… 『ええ、そういうふうに言うんですが、それじゃ意味がないですね。<br><br>彼の観音と言ったってどの観音だか判りませんしね。<br><br>それから、福寿海のほうも寿が本当ですね。<br><br>』 077 福寿海無量 福寿海無量の大功徳の意義。<br><br> これは形容語で観音経にある言葉である。<br><br>福は物、寿は寿命、無量は沢山という事。<br><br> 078 迦陵頻伽の意味 迦陵頻迦の意味を御教示お願い申し上げます。<br><br> 天国の鳥、画でよく描いてある尾の長い綺麗な鳥である。<br><br> 079 迦陵頻伽 迦陵頻伽とはどのような鳥でしょう。<br><br> 霊界の極楽の画などによくある金色の尾の長いきれいな鳥でいい声で啼く。<br><br> rattail（注） 〔 妙智之光（地上天国13号） 、昭和25(1950)年2月20日発行〕掲載 080 善徳行 善言讃詞にあります善徳行の善行は求められて与える行即ち地の力、徳行は求めずとも与える行即ち天の力と解して宜しいもので御座居ましょうか。<br><br> そんなにややこしい説明はいらぬ。<br><br>人をよくする事が善で、いい事をするのが善徳行である。<br><br>（S24.12. 2） 081 天魔羅刹、夜叉龍神、迦陵頻伽、多宝塔 いずれも仏語で、天魔羅刹は悪魔という事。<br><br>夜叉は女の鬼。<br><br>龍神はこの場合悪龍である。<br><br>梵語の漢訳である。<br><br> 迦陵頻伽は天国の鳥。<br><br>極楽にいる鳥。<br><br>尾の長い綺麗な鳥である。<br><br>多宝塔という塔がある。<br><br>（S23. 7.25） 082 天魔羅刹、夜叉龍神 善言讃詞の中に、天魔羅刹、夜叉龍神と言葉がありますが、いかなる邪神で御座居ましょうか。<br><br> 仏語で、邪神の種類である。<br><br>天の悪魔。<br><br>羅刹はとりまいてる邪神の家来。<br><br>夜叉は女の執着によって悪くなったもの。<br><br>龍神―悪龍の事。<br><br> 邪神を仏語で総称していったものである。<br><br> 083 天魔、羅刹、夜叉 善言讃詞にあります天魔羅刹と夜叉の意味を御教えを御願い申し上げます。<br><br> 仏語である。<br><br> 天魔は魔神とか魔王といい、上等の方であり、羅刹は悪鬼羅刹といい、鬼のような悪魔の一種である。<br><br>夜叉は女の方で、要するに悪魔の形容詞である。<br><br>（S23.12.21） rattail（注） 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕掲載 084 五濁 五濁を浄め（善言讃詞）について御伺い致します。<br><br>ある本には見濁、命濁、煩悩濁、衆生濁、劫濁と言う、悪の世とありますが、いかがで御座居ましょうか。<br><br> 悪に属する事を五つに分けた、これはそれぞれの説であって、説く必要はない。<br><br>多くは、コヂツケである。<br><br>観世音などもまるで違う。<br><br>（S23. 8.12） 085 五濁、三毒 善言讃詞中の五濁のいわれをお伺い致します。<br><br> 経文にある濁の種類である。<br><br> 三毒は貪瞋痴で、悪い心、一種の間違った執着である。<br><br> 086 三毒、五濁 善言讃詞の中の三毒と五濁とはいかなる罪悪を指すのでしょうか。<br><br> 三毒は貪、瞋、痴、五濁は罪穢を分けたもの。<br><br>（S25. 5.15） 087 五濁 見毒濁 煩悩濁 命濁 衆生濁 劫濁 いろいろの罪穢を分けたにすぎぬ （S23） 088 三毒、五濁 三毒と五濁の意味を御教えを御願い申し上げます。<br><br> 罪穢を分類したものである。<br><br>（S23.12.21）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Oração Zengen Sanshi</h2>
 <p><strong>068 O conteúdo da Oração Zengen Sanshi</strong></p>
@@ -178,5 +330,48 @@ function toggleLang(lang) {
 <p><strong>088 Os Três Venenos e as Cinco Impurezas</strong></p>
 <p>Solicito a Meishu-Sama que me ensine o significado dos Três Venenos e das Cinco Impurezas.</p>
 <p>São classificações dos pecados e máculas. (21 de dezembro de 1948)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第三篇 ５ 068-088 善言讃詞 068 善言讃詞の内容 善言讃詞の詳解を御教えの程を御願い申し上げます。<br/><br/> 観音経を縮めたものである。<br/><br/>字の通りである。<br/><br/>観音経の善い所を唱えたもので、五分位以内に唱えるようにした。<br/><br/>観音礼讃と五六七世の状態である。<br/><br/>（S23.12.11） 069 紫微実相 紫微実相、天界の紫微の主、紫微宮、七堂伽藍等の意味をお伺い致します。<br/><br/> 紫微宮という天国にお宮があるのでその名がある。<br/><br/>美しい都会があり、宮のある所を都率天という。<br/><br/> 実相世界は、これから出来る。<br/><br/>真如がすんでから実相となる。<br/><br/>仏の実相真如は逆である。<br/><br/>実相とは法の華の実で、今、その実を備えつつある。<br/><br/> 070 紫微、七堂伽藍、多宝仏塔 紫微は仏語であって、一番いい、最高の場所の事。<br/><br/> 仏界の一番立派な都を都率天といい、七堂伽藍や多宝仏塔など、立派な建物が沢山建っている。<br/><br/>そこの最高の御宮を紫微宮といい、観音様など一流の仏がおられる。<br/><br/> 観音様の事を紫微の主という。<br/><br/> 七堂伽藍、これは都率天にある伽藍で、奈良の法隆寺などはこの七堂伽藍を写したものである。<br/><br/>また祇園精舎ともいうが、祇園精舎は印度にある。<br/><br/> 多宝仏塔、特別の形式の建築、日本にもある。<br/><br/> 都率天は第一天国の仏語になる。<br/><br/>第一天国は神様の方では未だ出来ていなかったんで、本当はこれから出来るのである。<br/><br/> 仏界でも、本当には都率天は出来ていなかった。<br/><br/> 紫微の主は主神であり、五六七大御神はやはり紫微の主である。<br/><br/> 071 大千三千世界 大千三千世界について御説明をお願い致します。<br/><br/> 三千世界とは、神幽現――神界、仏界、現界を三千世界という。<br/><br/>三界万霊というのはそれである。<br/><br/> 大千世界は三千世界全体をいったもの、総合称である。<br/><br/>（S23.10. 2） rattail（注） 〔 御講話（S28年8月25日） 『御教え集』25号、昭和28(1953)年9月15日発行〕 『私が善言讃詞に「大千三千世界」ということを書いてますが、仏典の方では「三千大千世界」となってます。<br/><br/>これはあべこべです。<br/><br/>「大」という字は「一人」と書きますが、つまり「一人」とは「主」ですから、これが元です。<br/><br/>それで「三千」というと「三界」です。<br/><br/>現幽神、あるいは天地人で、三つに別けてあるわけです。<br/><br/>最初は一で、それが三つに分かれるのが本当です。<br/><br/>ですから三つの方を上につけるということは間違いです。<br/><br/>それで一は太陽で三は月、一は火で三は水ですから、大千三千世界というのが本当です。<br/><br/>』 072 念被と念彼、大千世界 念被観音力、念被観音行、念被観音心、についてお尋ね致します。<br/><br/> 仏教では彼とかくが、私は被と直した。<br/><br/>念ずれば観音力―行―心を頂くという意である。<br/><br/>仏教では彼岸の彼をとったのであろう。<br/><br/>三千大千世界など逆である。<br/><br/> 大千―一人―天―ス神という意味になる。<br/><br/>大―主の神、スも一人、大も一人。<br/><br/>（S24. 9. 7） rattail（注） 大日本観音会、日本観音教時代は善言讃詞の最後に「念被観音力、念被観音行、念被観音心」ととなえた。<br/><br/> 073 十方と七堂伽藍 善言讃詞の中の十方世界の「十方」また、七堂伽藍の「七堂」の意味。<br/><br/> 尽十方世界といって宇宙をいう。<br/><br/>東西南北艮坤辰巳戊亥、本当は八方だが天地で十方になる。<br/><br/>尽はつきるとかつくす事。<br/><br/> 七堂伽藍は印度で極楽浄土を造った時、天国の都会は都率天というが、それの型を地上に作った。<br/><br/>七つのお堂と伽藍というのであるが、お堂を七つ作ったのである。<br/><br/>法隆寺などは、五重塔とか金堂などで七つ作ったものである。<br/><br/>（S24. 6.22） 074 念被観音力 念被観音力とは、どんな意味が含まれておられるのでしょうか。<br/><br/>またこれを唱える時はいかなる働をするのでしょうか。<br/><br/> 普通念彼とかくが、私は念被にした。<br/><br/>念ずれば観音力を頂くと思っていればよい。<br/><br/> 観音力を戴く。<br/><br/>日蓮は竜の口で、刀が雷によって折れたという。<br/><br/>これは念被観音力と唱えたと思う。<br/><br/> 075 念被と念彼 念被観音心と念被観音行について御教えを賜りたく御願い申し上げます。<br/><br/> お経は彼となっている。<br/><br/>彼は彼岸の意味である。<br/><br/>私は被と直したが、これは蒙るという意味で、ピッタリする。<br/><br/>（S24. 2.11） 076 被と彼、寿と衆 念被観音力の「被」と「彼」及び福寿海無量の「寿」と「衆」はどちらが正しいので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 彼は漢字に訳した時、間違えたんだと思う。<br/><br/>被―念ずれば蒙る事の方が合っている。<br/><br/> 寿が本当である。<br/><br/>（S24. 7. 3） rattail（注） 〔 御光話（S24年 7月 3日） 『御光話録』13号、昭和24(1949)年10月21日発行〕 ――念被（ねんぴ）観音力の被と彼、福寿海無量の寿と来とはどちらがよろしいでしょうか。<br/><br/> 『仏教のお経には彼と書いてありますが、これを私が被と直したんです。<br/><br/>念ずれば観音力を被る、いただくという意味ですね。<br/><br/>これはおそらく翻訳するときに間違ったんだろうと思いますがね。<br/><br/>』 ――ふつうには「彼の観音の力を念ず」と申しますが…… 『ええ、そういうふうに言うんですが、それじゃ意味がないですね。<br/><br/>彼の観音と言ったってどの観音だか判りませんしね。<br/><br/>それから、福寿海のほうも寿が本当ですね。<br/><br/>』 077 福寿海無量 福寿海無量の大功徳の意義。<br/><br/> これは形容語で観音経にある言葉である。<br/><br/>福は物、寿は寿命、無量は沢山という事。<br/><br/> 078 迦陵頻伽の意味 迦陵頻迦の意味を御教示お願い申し上げます。<br/><br/> 天国の鳥、画でよく描いてある尾の長い綺麗な鳥である。<br/><br/> 079 迦陵頻伽 迦陵頻伽とはどのような鳥でしょう。<br/><br/> 霊界の極楽の画などによくある金色の尾の長いきれいな鳥でいい声で啼く。<br/><br/> rattail（注） 〔 妙智之光（地上天国13号） 、昭和25(1950)年2月20日発行〕掲載 080 善徳行 善言讃詞にあります善徳行の善行は求められて与える行即ち地の力、徳行は求めずとも与える行即ち天の力と解して宜しいもので御座居ましょうか。<br/><br/> そんなにややこしい説明はいらぬ。<br/><br/>人をよくする事が善で、いい事をするのが善徳行である。<br/><br/>（S24.12. 2） 081 天魔羅刹、夜叉龍神、迦陵頻伽、多宝塔 いずれも仏語で、天魔羅刹は悪魔という事。<br/><br/>夜叉は女の鬼。<br/><br/>龍神はこの場合悪龍である。<br/><br/>梵語の漢訳である。<br/><br/> 迦陵頻伽は天国の鳥。<br/><br/>極楽にいる鳥。<br/><br/>尾の長い綺麗な鳥である。<br/><br/>多宝塔という塔がある。<br/><br/>（S23. 7.25） 082 天魔羅刹、夜叉龍神 善言讃詞の中に、天魔羅刹、夜叉龍神と言葉がありますが、いかなる邪神で御座居ましょうか。<br/><br/> 仏語で、邪神の種類である。<br/><br/>天の悪魔。<br/><br/>羅刹はとりまいてる邪神の家来。<br/><br/>夜叉は女の執着によって悪くなったもの。<br/><br/>龍神―悪龍の事。<br/><br/> 邪神を仏語で総称していったものである。<br/><br/> 083 天魔、羅刹、夜叉 善言讃詞にあります天魔羅刹と夜叉の意味を御教えを御願い申し上げます。<br/><br/> 仏語である。<br/><br/> 天魔は魔神とか魔王といい、上等の方であり、羅刹は悪鬼羅刹といい、鬼のような悪魔の一種である。<br/><br/>夜叉は女の方で、要するに悪魔の形容詞である。<br/><br/>（S23.12.21） rattail（注） 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕掲載 084 五濁 五濁を浄め（善言讃詞）について御伺い致します。<br/><br/>ある本には見濁、命濁、煩悩濁、衆生濁、劫濁と言う、悪の世とありますが、いかがで御座居ましょうか。<br/><br/> 悪に属する事を五つに分けた、これはそれぞれの説であって、説く必要はない。<br/><br/>多くは、コヂツケである。<br/><br/>観世音などもまるで違う。<br/><br/>（S23. 8.12） 085 五濁、三毒 善言讃詞中の五濁のいわれをお伺い致します。<br/><br/> 経文にある濁の種類である。<br/><br/> 三毒は貪瞋痴で、悪い心、一種の間違った執着である。<br/><br/> 086 三毒、五濁 善言讃詞の中の三毒と五濁とはいかなる罪悪を指すのでしょうか。<br/><br/> 三毒は貪、瞋、痴、五濁は罪穢を分けたもの。<br/><br/>（S25. 5.15） 087 五濁 見毒濁 煩悩濁 命濁 衆生濁 劫濁 いろいろの罪穢を分けたにすぎぬ （S23） 088 三毒、五濁 三毒と五濁の意味を御教えを御願い申し上げます。<br/><br/> 罪穢を分類したものである。<br/><br/>（S23.12.21）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

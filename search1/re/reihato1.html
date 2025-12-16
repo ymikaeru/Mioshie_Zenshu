@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reihato1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊波と霊衣 『明日の医術 第三編』昭和18(1943)年10月23日発行 私はさきに、治病光線として霊波の文字を用いたが、これは近時ラジオ等で用いる音波の文字からとったのである。<br><br> 人間は誰しも霊衣即ち西洋でアウラという一種の光波を保有しているのである。<br><br>これは、読んで字のごとく、霊体の外殻に放射している白色の一種の光線であって、ちょうど霊衣を纏（まと）うているようなものである。<br><br>人により厚薄があって普通人は一寸位の厚さである。<br><br>病人は薄く、病気が重症となるに従い漸次薄くなり、死の直前には全然無くなるのである。<br><br>世間よく影が薄いなどというのは、この霊衣の簿い為の感じである。<br><br> 又、右と反対に健康なる者、善徳を積める者ほど厚く、英雄、偉人、聖者などは特に厚く三四尺位あるものである。<br><br>又何世紀に一人というような大偉人に至っては、霊衣は相当大きなものであろう。<br><br>そうして一般人にあっては、その時の精神状態及び行為によって差別が生ずるのは勿論である。<br><br>その訳は、善を想い善事を行う時は厚くなり、その反対である悪を想い悪事を行う時は薄くなるものである。<br><br> 霊衣とは大体右のごとくであるが、まれには、これを視るを得る人もあり、又普通人であっても心を潜めて凝視する時、一種の光波の存在を感知し得るものである。<br><br> そうして霊衣の厚薄は人間の運命に大関係がある事を知らねばならない。<br><br>それは霊衣の厚薄によって幸不幸の運命が岐（わか）れるからである。<br><br>即ち厚い程永遠の幸福を得るに反し、薄い程常に不幸であるのである。<br><br>しかしながら薄い人といえども、偶々（たまたま）幸運に見舞われる事があるが、それらは永続性がないから、間もなく本来の不幸者となるのである。<br><br>又霊衣が厚く一時幸運であっても、その幸運を利己的の具となし又は社会に害毒を流し、人を殃（わざわ）いするような行為があるとすれば霊衣は薄くなり、再び元の木阿弥となるので、かような例は世間少くはないのである。<br><br> 右のごとく、霊衣の厚薄によって、幸不幸があるという事は、いかなる理由であるかを説いてみよう。<br><br> まず、何故に霊衣の厚薄があるかという事から解説してみるが、人間はいかなる者といえども社会の一員とし、社会生活を営んでいる以上、断えず何事かを想い、又何事かを行いつゝあるのは今更いうまでもないが、それらの想念行為を、今善悪の計量器で量るとすれば、人により善悪いずれかが多いか少ないかは当然である。<br><br>即ち霊衣の厚薄は善悪の量によって、そのまゝ表われるものである。<br><br>しからば、それはどういう意味かというと、内的と外的との二方面があって、内的は自己が善事を行う時善を行ったという満足感と、自己賞讃の想念は光を発生するので、霊体に光が増すのである。<br><br>その反対に悪を思い悪を行う時は気が尤（とが）める。<br><br>即ち自己叱責の想念によって、霊体に曇が増量するのである。<br><br>又外的は、他人に対し善事を行った時、その人の感謝の想念は光となって霊線を伝わり、こちらへ放射して来るのでこちらの霊体に光が加入し、増量するのである。<br><br>その反対に怨み、憎み、嫉み等の想念は曇となって来るから曇が増量するのである。<br><br>この理によって人間は善徳を行い、多くの人から感謝を受くべきであり、決して人を苦しめ、憎悪の念を抱かしむべき事は避けなければならないのである。<br><br> 以上の理によって、さきに説いたごとく左進右退即ち善主悪従は、善の量が多くなる事であり、右進左退即ち悪主善従は悪の量が多くなるという訳である。<br><br>この意味によって大戦争が発生し、大破壊が行われるという事は、悪の量が霊界に曇となって堆積された為、自然浄化作用が行われるその為である。<br><br> 世間よく急激に出世をした成功者や成金輩が、いつしか失敗したり没落したりするのはいかなる訳かというと、自己の手腕や力量によってそうなったものと思い、増長慢心し、利己的独善的の行為が多くなり、国家社会の恩恵を忘れ、感謝報恩の念が乏しくなるので光よりも曇が多くなり、いつしか霊衣が薄らぎ没落するのである。<br><br>又何代も続いた名家や富豪などが没落するのは、元来、社会的上位にある者は、それだけ国家社会から尊敬され優遇されている以上、それに酬（むく）ゆべき善徳を施さなければならないのである。<br><br>しかるに、己の利害のみ考え、利他的行為が乏しいので、曇の方が増量するから、ついには形体は立派であっても、霊体は下賎者同様になっているから、霊主体従の法則により、遂に没落するという訳である。<br><br> 又、霊衣の薄い程不幸や災害を受け易いものである。<br><br>それはどういう訳かというと、一例を挙げていえば、自己が従事している仕事が成績が悪く、又失敗し易いのである。<br><br>それは曇の多い場合、頭脳の活動が鈍く、判断力や決断力が正鵠（せいこく）を欠くからである。<br><br>しかしこれに注意すべきは、曇が多量であっても悪智慧で成功する場合があるが、それらは一時的であって決して永続性はないのである。<br><br> 又、曇の多い程、浄化作用が発生し易いから大病に罹り易いのであり、又災害を受け易いのである。<br><br>たとえていえば交通事故のごときは霊衣の簿い人ほど災害を蒙（こうむ）り、厚い人は難を免れるのである。<br><br>それは電車、自動車等が衝突する場合、電車自動車の霊は、霊衣の薄い人には当るが、霊衣の厚い人には当らないからである。<br><br>よくそういう場合は、撥ね飛ばされて疵一つ受けない事があるが、それは急激に霊衣に当る場合、霊衣の弾力によってそうなるのである。<br><br> 右のごとくであるから、人間は善徳を積み、霊衣を厚くする事が、幸運者になり得る唯一の方法である。<br><br>故に、自分は生れながらに不運であるなどと諦める必要はないのである。<br><br>そうして本治療を施術の場合、施術者の霊衣の厚い者ほど治療成績が良いのである。<br><br>又、多くの患者を扱えば扱うだけ治療効果が顕著になる事である。<br><br>故に、本治療士は一人でも多く患者を扱うべきで、それはどういう訳かというと、本治療は卓越せる効果があるから治癒した多くの患者が感謝する。<br><br>その感謝の想念が光となって、治療士の霊体に入り、霊衣は益々厚くなるので、霊波の放射が強力になるからである。<br><br> 故に、本医術の根本は、術者の霊衣を厚くする事である。<br><br>それは短期間の講習によってある程度霊衣が厚くなり、施術の体験を多く積むに従って増々厚くなるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Onda Espiritual e a Veste Espiritual</h2>
 <p>Em outra ocasião, utilizei a expressão “Onda Espiritual” para me referir ao raio de luz que promove a cura, termo que tomei de empréstimo do conceito de “onda sonora”, popularizado pelo rádio.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Ainda, quanto maior a quantidade de máculas, mais facilmente se manifesta a Ação Purificadora, o que torna a pessoa propensa a contrair doenças graves e a sofrer acidentes. Em acidentes de trânsito, por exemplo, as vítimas são, em geral, aquelas com a Veste Espiritual mais fina, enquanto as que possuem uma Veste espessa saem ilesas. Isso ocorre porque, no momento da colisão, o espírito do trem ou do automóvel atinge a pessoa com a Veste Espiritual tênue, mas é repelido pela que é espessa. Não é raro que, em tais situações, a pessoa seja arremessada para longe sem sofrer um arranhão sequer. Isso se deve à força elástica da Veste Espiritual, que a repele no impacto súbito.</p>
 <p>Diante de todo o exposto, a única maneira de alcançar a felicidade e a boa sorte é acumular virtudes e, assim, adensar a Veste Espiritual. Portanto, não há necessidade de se resignar, pensando: “Nasci sem sorte”. No que tange à ministração de nosso tratamento, quanto mais espessa for a Veste Espiritual do ministro, melhores serão os resultados obtidos. Ademais, quanto maior o número de pessoas atendidas, mais notáveis se tornam os efeitos da terapia. Sendo assim, o ministro deve atender ao maior número possível de pessoas. A razão para isso é que, devido à eficácia extraordinária de nosso tratamento, muitos dos que são curados manifestam sua gratidão. O pensamento de gratidão deles se converte em luz, que adentra o corpo espiritual do ministro, tornando sua Veste Espiritual cada vez mais espessa. Como resultado, a irradiação da Onda Espiritual se torna mais potente.</p>
 <p>O fundamento de nossa arte de curar reside, pois, em adensar a Veste Espiritual do praticante. Isso é alcançado, em certa medida, por meio de um curto período de formação e, progressivamente, pela acumulação de experiência na ministração do tratamento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊波と霊衣 『明日の医術 第三編』昭和18(1943)年10月23日発行 私はさきに、治病光線として霊波の文字を用いたが、これは近時ラジオ等で用いる音波の文字からとったのである。<br/><br/> 人間は誰しも霊衣即ち西洋でアウラという一種の光波を保有しているのである。<br/><br/>これは、読んで字のごとく、霊体の外殻に放射している白色の一種の光線であって、ちょうど霊衣を纏（まと）うているようなものである。<br/><br/>人により厚薄があって普通人は一寸位の厚さである。<br/><br/>病人は薄く、病気が重症となるに従い漸次薄くなり、死の直前には全然無くなるのである。<br/><br/>世間よく影が薄いなどというのは、この霊衣の簿い為の感じである。<br/><br/> 又、右と反対に健康なる者、善徳を積める者ほど厚く、英雄、偉人、聖者などは特に厚く三四尺位あるものである。<br/><br/>又何世紀に一人というような大偉人に至っては、霊衣は相当大きなものであろう。<br/><br/>そうして一般人にあっては、その時の精神状態及び行為によって差別が生ずるのは勿論である。<br/><br/>その訳は、善を想い善事を行う時は厚くなり、その反対である悪を想い悪事を行う時は薄くなるものである。<br/><br/> 霊衣とは大体右のごとくであるが、まれには、これを視るを得る人もあり、又普通人であっても心を潜めて凝視する時、一種の光波の存在を感知し得るものである。<br/><br/> そうして霊衣の厚薄は人間の運命に大関係がある事を知らねばならない。<br/><br/>それは霊衣の厚薄によって幸不幸の運命が岐（わか）れるからである。<br/><br/>即ち厚い程永遠の幸福を得るに反し、薄い程常に不幸であるのである。<br/><br/>しかしながら薄い人といえども、偶々（たまたま）幸運に見舞われる事があるが、それらは永続性がないから、間もなく本来の不幸者となるのである。<br/><br/>又霊衣が厚く一時幸運であっても、その幸運を利己的の具となし又は社会に害毒を流し、人を殃（わざわ）いするような行為があるとすれば霊衣は薄くなり、再び元の木阿弥となるので、かような例は世間少くはないのである。<br/><br/> 右のごとく、霊衣の厚薄によって、幸不幸があるという事は、いかなる理由であるかを説いてみよう。<br/><br/> まず、何故に霊衣の厚薄があるかという事から解説してみるが、人間はいかなる者といえども社会の一員とし、社会生活を営んでいる以上、断えず何事かを想い、又何事かを行いつゝあるのは今更いうまでもないが、それらの想念行為を、今善悪の計量器で量るとすれば、人により善悪いずれかが多いか少ないかは当然である。<br/><br/>即ち霊衣の厚薄は善悪の量によって、そのまゝ表われるものである。<br/><br/>しからば、それはどういう意味かというと、内的と外的との二方面があって、内的は自己が善事を行う時善を行ったという満足感と、自己賞讃の想念は光を発生するので、霊体に光が増すのである。<br/><br/>その反対に悪を思い悪を行う時は気が尤（とが）める。<br/><br/>即ち自己叱責の想念によって、霊体に曇が増量するのである。<br/><br/>又外的は、他人に対し善事を行った時、その人の感謝の想念は光となって霊線を伝わり、こちらへ放射して来るのでこちらの霊体に光が加入し、増量するのである。<br/><br/>その反対に怨み、憎み、嫉み等の想念は曇となって来るから曇が増量するのである。<br/><br/>この理によって人間は善徳を行い、多くの人から感謝を受くべきであり、決して人を苦しめ、憎悪の念を抱かしむべき事は避けなければならないのである。<br/><br/> 以上の理によって、さきに説いたごとく左進右退即ち善主悪従は、善の量が多くなる事であり、右進左退即ち悪主善従は悪の量が多くなるという訳である。<br/><br/>この意味によって大戦争が発生し、大破壊が行われるという事は、悪の量が霊界に曇となって堆積された為、自然浄化作用が行われるその為である。<br/><br/> 世間よく急激に出世をした成功者や成金輩が、いつしか失敗したり没落したりするのはいかなる訳かというと、自己の手腕や力量によってそうなったものと思い、増長慢心し、利己的独善的の行為が多くなり、国家社会の恩恵を忘れ、感謝報恩の念が乏しくなるので光よりも曇が多くなり、いつしか霊衣が薄らぎ没落するのである。<br/><br/>又何代も続いた名家や富豪などが没落するのは、元来、社会的上位にある者は、それだけ国家社会から尊敬され優遇されている以上、それに酬（むく）ゆべき善徳を施さなければならないのである。<br/><br/>しかるに、己の利害のみ考え、利他的行為が乏しいので、曇の方が増量するから、ついには形体は立派であっても、霊体は下賎者同様になっているから、霊主体従の法則により、遂に没落するという訳である。<br/><br/> 又、霊衣の薄い程不幸や災害を受け易いものである。<br/><br/>それはどういう訳かというと、一例を挙げていえば、自己が従事している仕事が成績が悪く、又失敗し易いのである。<br/><br/>それは曇の多い場合、頭脳の活動が鈍く、判断力や決断力が正鵠（せいこく）を欠くからである。<br/><br/>しかしこれに注意すべきは、曇が多量であっても悪智慧で成功する場合があるが、それらは一時的であって決して永続性はないのである。<br/><br/> 又、曇の多い程、浄化作用が発生し易いから大病に罹り易いのであり、又災害を受け易いのである。<br/><br/>たとえていえば交通事故のごときは霊衣の簿い人ほど災害を蒙（こうむ）り、厚い人は難を免れるのである。<br/><br/>それは電車、自動車等が衝突する場合、電車自動車の霊は、霊衣の薄い人には当るが、霊衣の厚い人には当らないからである。<br/><br/>よくそういう場合は、撥ね飛ばされて疵一つ受けない事があるが、それは急激に霊衣に当る場合、霊衣の弾力によってそうなるのである。<br/><br/> 右のごとくであるから、人間は善徳を積み、霊衣を厚くする事が、幸運者になり得る唯一の方法である。<br/><br/>故に、自分は生れながらに不運であるなどと諦める必要はないのである。<br/><br/>そうして本治療を施術の場合、施術者の霊衣の厚い者ほど治療成績が良いのである。<br/><br/>又、多くの患者を扱えば扱うだけ治療効果が顕著になる事である。<br/><br/>故に、本治療士は一人でも多く患者を扱うべきで、それはどういう訳かというと、本治療は卓越せる効果があるから治癒した多くの患者が感謝する。<br/><br/>その感謝の想念が光となって、治療士の霊体に入り、霊衣は益々厚くなるので、霊波の放射が強力になるからである。<br/><br/> 故に、本医術の根本は、術者の霊衣を厚くする事である。<br/><br/>それは短期間の講習によってある程度霊衣が厚くなり、施術の体験を多く積むに従って増々厚くなるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

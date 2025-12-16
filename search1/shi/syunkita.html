@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syunkita</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭に際して 『栄光』98号、昭和26(1951)年4月4日発行 私は、声が余り大きくないので、大勢の人に聞えるように喋舌（しゃべ）るのは、困難と思うから原稿にかいて読ませる事にした。<br><br> さて今日は、初めての春季大祭であるが、昨年秋、箱根で秋季大祭を行ったので、つまり二度目の大祭という訳である。<br><br>これにも意味があるので、いつも言う通り、箱根は霊であり、熱海は体であるから、霊主体従の法則によって、そうしたのであります。<br><br> それから御承知のごとく、熱海桃山の地上天国であるが、これは予定よりも大分延び延びになったが何しろ永久的のもので、将来日本芸術のシンボルとして、ユートピア的理想郷を造るのである以上出来るだけ、高さと深さと美なるものにしたいからで、日日（ひにち）が掛るのもまた止むを得ないのであります。<br><br>従って、延びるだけは予想以上の、素晴しいものになるのはもちろんで、出来（しゅつらい）の上は、以前も言った通り、日本の名物どころか、恐らく世界の名物といっても過言ではないと思う程の、一大芸術品となるでありましょう。<br><br>もちろん最後までの設計は、私の頭にチャンと、もう出来上っているので、ただ時と金さえあれば、それでいい訳で、大体予定は再来年出来するはずであります。<br><br>もちろんメシヤ会館、展望台、美術館を初め、色々な付属建築物、庭園等々も、それまでには残らず完成する見込である。<br><br>そのような訳であるから、造営費も予算の何層倍に上り、まず数億はかかるでありましょう。<br><br>これを聞いたら、皆さんも驚くであろうが、ここに、神様の偉大なる御経綸があるのであります。<br><br>というのは、そのような多額の金が、二年や三年でどうして出来るかという事で、これによってみても、人間業でない事は、想像に難からないであろう。<br><br>このようにいかに巨額の金でも、必要があれば、それだけ必ず神様の方でチャンと調えてくれるのであるから、少しも心配はないのであります。<br><br>従って、数ケ月後、いよいよ建築に取掛かる頃には、必要分だけの金は、ドシドシ入って来るに違いないと思っております。<br><br>実にこれこそ大奇蹟でなくて何でありましょう。<br><br> 何しろ、世界人類を救うという空前の大神業である以上、今後も驚くような事が、度々出て来るであろうから、胆玉の小さい人は、アフンとして、口も利けないような事があるかも知れないから、余程肚を据えておかないと、間誤（まご）つくような事があるであろう。<br><br>また一方、新しい信者もドシドシ増えて、目が廻る程、忙しくなる時期が来るので、今から充分身魂を磨いて、一人でも多くの人を救うべく、心の準備が肝腎であります。<br><br>以上述べた事は、ホンの一部の経綸であって、もっと多くを話したら、気絶するくらいであるから、今はこのくらいにしておくのであります。<br><br>と言っても、信者は本当にするからいいが、第三者には到底信じ得られないどころか、誇大妄想狂としか思われないのであろう。<br><br> 以上の話は、天国的で、気持のいい話であるが実を言えば仲々そんな事ばかりは、言ってはいられない、現在の世界の有様であります。<br><br>朝鮮問題も、いよいよ連合軍の勝利となり、三十八度線まで取戻し、京城も連合軍の手中に帰したから、まず安心と言いたいが、仲々そう易々とはゆかない、というのは、最近の亜細亜（アジア）方面を観ても判るごとく、イランの状勢にしろ、御承知のごとく、同国唯一の石油資源争奪の問題にからんで、同国の首相ラズマラ氏が殺されてから、まだ十日も経たないのに、石油国営法案が、議会で可決になった事で、これは仲々軽視出来ない重大問題である。<br><br>言うまでもなく、今まで英国の利権であった石油圏が危なくなった事で、もしソ連が獲得した事になれば、ソ連としては、唯一の石油が、多量に手に入るのだから油断は出来ない事になる。<br><br>何よりも、アレ程勝ち誇った中共軍が、ついに敗退したという事は、アメリカに制空権を握られていたからで、それをどうする事も出来なかったのは、全く共産軍の方も飛行機はありながら、石油が不足したためであるのは、言わずと知れた話であります。<br><br>ところがイランの石油が手に入るとしたら、ソ連の戦力は何倍になるか判らない程であるから、吾々も大いに警戒しなければ、ならないと思うのであります。<br><br> また、最近の報道によれば、ソ連の軍隊は、日本人の捕虜を混え、数万あるいは十数万が、樺太（カラフト）から千島方面にかけて、集結しているという噂で、これはもちろん北海道侵入の準備であろう、とすれば、ソ連は朝鮮の方は、一時鳴りを鎮めておいて、日本の北部から侵入作戦に出るかも、計られないと想わざるを得ないからである。<br><br>そうしてアメリカを牽制しておいて、三度朝鮮へ侵入する策戦かも知れないと想像されるのであります。<br><br>それがためか、最近アメリカの方では、州の軍隊二個師を、日本へ向け出発させるという外電があったくらいで、もちろん大部分は北海道へ駐屯し、残余は枢要な各地に配分されるのであろう。<br><br>また数日前の報道には、場合によっては、原子爆弾を使用するかも知れないと、宣言した事など思い合せ、色々の情報を綜合してみると、いずれは満州に対して、原爆を降らす事もあろうし、長い間機を窺（うかが）っていた国民政府軍も、本土目掛けて、進撃する事になるだろうし、そこへもっていって、仏印にはホーチミン軍の活躍もあり、イラン救済のため、米英の援助も、漸次強化される事になろうし、いよいよ亜細亜の天地は、蜂の巣をつついたようにならないと、誰が言い得るでありましょう。<br><br> 以上は、いつもいう通り、世界的大浄化作用の現われであるから、吾々からみれば、来るべき当然の事柄が、現われるにすぎないので、別段驚くには当らないが、しかし、この事を知らない人や、知らされても目を蔽い、耳を塞いでいた人達は、現実に出てくると大慌（あわ）てに周章（あわ）てて、どうしていいか判らない暗澹（あんたん）たる場面に、追い込まれるでありましょう。<br><br>ところが、この大浄化があればこそ、やがて華々しく登場するのが、平和の使徒たる吾々であってみれば、前途には光明赫々（かっかく）たる運命が、待っているのであります。<br><br>それまでには大峠を越さなければならないが、吾々には何といっても、神様の厚い御加護がある以上、やすやすと越せるのはもちろんであるから、これを考えただけでも、何と大きな倖せを握っているかが、判るのであります。<br><br> (注) 仏印（ふついん）フランス領インドシナの略称。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Edificação do Paraíso e a Grande Transição Mundial</h2>
 <p>Como a minha voz não possui o alcance necessário para ser ouvida por uma assembleia tão numerosa, optei por redigir esta mensagem para que seja lida a todos.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Afinal, a recente derrota do exército da China comunista, antes tão triunfante, deveu-se em grande parte à supremacia aérea dos Estados Unidos. A incapacidade de reação dos comunistas, mesmo possuindo aeronaves, foi resultado direto da escassez de combustível, um fato notório. Se o petróleo iraniano cair em mãos soviéticas, seu poderio militar se multiplicará de forma imprevisível, o que nos obriga a manter um estado de alerta.</p>
 <p>Ademais, relatórios recentes mencionam rumores de que dezenas, ou talvez centenas de milhares de tropas soviéticas, incluindo prisioneiros de guerra japoneses, estariam se concentrando na região que se estende da Sacalina às Ilhas Curilas. Trata-se, evidentemente, de um preparativo para uma invasão de Hokkaido. Isso nos leva a cogitar a possibilidade de a União Soviética adotar uma estratégia de apaziguamento temporário na Coreia para, em seguida, lançar uma ofensiva pelo norte do Japão. Seria uma manobra para manter os Estados Unidos em xeque, antes de uma terceira incursão na península coreana. Talvez por essa razão, notícias do exterior informaram que os Estados Unidos estariam enviando duas divisões do exército estadual para o Japão. Presume-se que a maior parte será estacionada em Hokkaido, e o restante, distribuído por outras localidades estratégicas. Se somarmos a isso declarações de poucos dias atrás, que aventavam o uso de bombas atômicas a depender da situação, e consolidarmos as diversas informações, torna-se plausível um futuro bombardeio atômico sobre a Manchúria. O exército do Governo Nacionalista, que há muito aguardava uma oportunidade, avançaria então sobre o continente. Nesse ínterim, temos a atuação do exército de Ho Chi Minh na Indochina Francesa e o reforço gradual do apoio americano e britânico ao Irã. Diante de tal cenário, quem poderá negar que o continente asiático está prestes a se transformar em um vespeiro agitado?</p>
 <p>Tais acontecimentos, como sempre elucido, são manifestações do grande processo de Purificação Mundial. De nossa perspectiva, trata-se apenas do desenrolar de fatos que inevitavelmente deveriam ocorrer, não havendo motivo para espanto. Contudo, aqueles que ignoram esta verdade, ou que, mesmo advertidos, preferem vendar os olhos e tapar os ouvidos, serão colhidos pela realidade em meio a um pânico avassalador, encurralados em um cenário de completa desolação. É justamente graças a esta grande purificação que nós, os apóstolos da paz, emergiremos em um cenário glorioso, pois um porvir resplandecente nos aguarda. Até lá, será preciso atravessar a grande transição, mas, amparados como estamos pela sublime proteção de Deus, superá-la-emos com serenidade. Basta refletirmos sobre essa realidade para compreendermos a imensa felicidade que nos foi concedida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭に際して 『栄光』98号、昭和26(1951)年4月4日発行 私は、声が余り大きくないので、大勢の人に聞えるように喋舌（しゃべ）るのは、困難と思うから原稿にかいて読ませる事にした。<br/><br/> さて今日は、初めての春季大祭であるが、昨年秋、箱根で秋季大祭を行ったので、つまり二度目の大祭という訳である。<br/><br/>これにも意味があるので、いつも言う通り、箱根は霊であり、熱海は体であるから、霊主体従の法則によって、そうしたのであります。<br/><br/> それから御承知のごとく、熱海桃山の地上天国であるが、これは予定よりも大分延び延びになったが何しろ永久的のもので、将来日本芸術のシンボルとして、ユートピア的理想郷を造るのである以上出来るだけ、高さと深さと美なるものにしたいからで、日日（ひにち）が掛るのもまた止むを得ないのであります。<br/><br/>従って、延びるだけは予想以上の、素晴しいものになるのはもちろんで、出来（しゅつらい）の上は、以前も言った通り、日本の名物どころか、恐らく世界の名物といっても過言ではないと思う程の、一大芸術品となるでありましょう。<br/><br/>もちろん最後までの設計は、私の頭にチャンと、もう出来上っているので、ただ時と金さえあれば、それでいい訳で、大体予定は再来年出来するはずであります。<br/><br/>もちろんメシヤ会館、展望台、美術館を初め、色々な付属建築物、庭園等々も、それまでには残らず完成する見込である。<br/><br/>そのような訳であるから、造営費も予算の何層倍に上り、まず数億はかかるでありましょう。<br/><br/>これを聞いたら、皆さんも驚くであろうが、ここに、神様の偉大なる御経綸があるのであります。<br/><br/>というのは、そのような多額の金が、二年や三年でどうして出来るかという事で、これによってみても、人間業でない事は、想像に難からないであろう。<br/><br/>このようにいかに巨額の金でも、必要があれば、それだけ必ず神様の方でチャンと調えてくれるのであるから、少しも心配はないのであります。<br/><br/>従って、数ケ月後、いよいよ建築に取掛かる頃には、必要分だけの金は、ドシドシ入って来るに違いないと思っております。<br/><br/>実にこれこそ大奇蹟でなくて何でありましょう。<br/><br/> 何しろ、世界人類を救うという空前の大神業である以上、今後も驚くような事が、度々出て来るであろうから、胆玉の小さい人は、アフンとして、口も利けないような事があるかも知れないから、余程肚を据えておかないと、間誤（まご）つくような事があるであろう。<br/><br/>また一方、新しい信者もドシドシ増えて、目が廻る程、忙しくなる時期が来るので、今から充分身魂を磨いて、一人でも多くの人を救うべく、心の準備が肝腎であります。<br/><br/>以上述べた事は、ホンの一部の経綸であって、もっと多くを話したら、気絶するくらいであるから、今はこのくらいにしておくのであります。<br/><br/>と言っても、信者は本当にするからいいが、第三者には到底信じ得られないどころか、誇大妄想狂としか思われないのであろう。<br/><br/> 以上の話は、天国的で、気持のいい話であるが実を言えば仲々そんな事ばかりは、言ってはいられない、現在の世界の有様であります。<br/><br/>朝鮮問題も、いよいよ連合軍の勝利となり、三十八度線まで取戻し、京城も連合軍の手中に帰したから、まず安心と言いたいが、仲々そう易々とはゆかない、というのは、最近の亜細亜（アジア）方面を観ても判るごとく、イランの状勢にしろ、御承知のごとく、同国唯一の石油資源争奪の問題にからんで、同国の首相ラズマラ氏が殺されてから、まだ十日も経たないのに、石油国営法案が、議会で可決になった事で、これは仲々軽視出来ない重大問題である。<br/><br/>言うまでもなく、今まで英国の利権であった石油圏が危なくなった事で、もしソ連が獲得した事になれば、ソ連としては、唯一の石油が、多量に手に入るのだから油断は出来ない事になる。<br/><br/>何よりも、アレ程勝ち誇った中共軍が、ついに敗退したという事は、アメリカに制空権を握られていたからで、それをどうする事も出来なかったのは、全く共産軍の方も飛行機はありながら、石油が不足したためであるのは、言わずと知れた話であります。<br/><br/>ところがイランの石油が手に入るとしたら、ソ連の戦力は何倍になるか判らない程であるから、吾々も大いに警戒しなければ、ならないと思うのであります。<br/><br/> また、最近の報道によれば、ソ連の軍隊は、日本人の捕虜を混え、数万あるいは十数万が、樺太（カラフト）から千島方面にかけて、集結しているという噂で、これはもちろん北海道侵入の準備であろう、とすれば、ソ連は朝鮮の方は、一時鳴りを鎮めておいて、日本の北部から侵入作戦に出るかも、計られないと想わざるを得ないからである。<br/><br/>そうしてアメリカを牽制しておいて、三度朝鮮へ侵入する策戦かも知れないと想像されるのであります。<br/><br/>それがためか、最近アメリカの方では、州の軍隊二個師を、日本へ向け出発させるという外電があったくらいで、もちろん大部分は北海道へ駐屯し、残余は枢要な各地に配分されるのであろう。<br/><br/>また数日前の報道には、場合によっては、原子爆弾を使用するかも知れないと、宣言した事など思い合せ、色々の情報を綜合してみると、いずれは満州に対して、原爆を降らす事もあろうし、長い間機を窺（うかが）っていた国民政府軍も、本土目掛けて、進撃する事になるだろうし、そこへもっていって、仏印にはホーチミン軍の活躍もあり、イラン救済のため、米英の援助も、漸次強化される事になろうし、いよいよ亜細亜の天地は、蜂の巣をつついたようにならないと、誰が言い得るでありましょう。<br/><br/> 以上は、いつもいう通り、世界的大浄化作用の現われであるから、吾々からみれば、来るべき当然の事柄が、現われるにすぎないので、別段驚くには当らないが、しかし、この事を知らない人や、知らされても目を蔽い、耳を塞いでいた人達は、現実に出てくると大慌（あわ）てに周章（あわ）てて、どうしていいか判らない暗澹（あんたん）たる場面に、追い込まれるでありましょう。<br/><br/>ところが、この大浄化があればこそ、やがて華々しく登場するのが、平和の使徒たる吾々であってみれば、前途には光明赫々（かっかく）たる運命が、待っているのであります。<br/><br/>それまでには大峠を越さなければならないが、吾々には何といっても、神様の厚い御加護がある以上、やすやすと越せるのはもちろんであるから、これを考えただけでも、何と大きな倖せを握っているかが、判るのであります。<br/><br/> (注) 仏印（ふついん）フランス領インドシナの略称。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

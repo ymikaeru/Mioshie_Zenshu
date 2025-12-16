@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私という者（一） 『地上天国』47号、昭和28(1953)年4月25日発行 これから記（か）こうとする事柄は、何人も見た事も聞いた事もないものであるから、そのつもりで読んで貰いたい。<br><br>それは私が私を批判するのであって、言わば私の外に別な私があってそうするので、全然飾らない赤裸々（せきらら）な私の姿を浮べるのであるが、恐らくこんな変った試みは、今までにもなかったであろう。<br><br>ではなぜ私はそんな事をかくのかというと、これには意味がある。<br><br>それは古往今来私程不思議な人間が現われた事はないと共に、私自身としても他人には想像出来ない程、私自身が見る私は不思議でならないからである。<br><br>それについてはまず私の仕事からかいてみるが、知らるるごとく現在私が最も主力を注いでいるのは病気治しである。<br><br> 現在の社会で治病の方法としては、何といっても医学である。<br><br>西洋においては紀元前彼（か）の有名な医聖ヒポクラテスが始祖であり東洋では前漢時代盤古（ばんこ）氏（盤古神王ともいう）が漢方医学を創成されたとなっておりどちらも治病の手段としては薬を主としている。<br><br>ところが漢方医学の方はほとんど見るべき進歩はないが、西洋医学の方は科学文化の影響を受けて驚くべき進歩を遂げたのであって、薬の種類も益々増え、機械、光線、空気等の物理療法の発達は固（もと）より、その基礎的手段としては解剖、分析、顕微鏡、動物実験等々、微に入り細に渉って遺憾なく行われている。<br><br>というようにどちらもすでに二千有余年の歴史の上に築かれたものであり、西洋医学の方は十九世紀以後科学の発展に伴い一大飛躍によって、漢方医学は太刀討（たちう）ちが出来ず、現在は微々たる存在となってしまったのは衆知の通りである。<br><br> その結果世界の医学は西洋医学独占となったのみか、この医学を進歩させさえすれば、病気は解決されるものとの信念によって、各国共奨励しているのが現在である。<br><br>またそれを修得する方法としては、小学から大学までの課程を経、卒業後は実地経験を積み、ようやく一人前になるので、それにはすくなくとも二十余年の歳月と、何十万という費額もかかり、実に容易ではないのである。<br><br>それでも完全に病気の治る技術を得らるるとしたら何をか言わんやであるが、事実は病気の治らない事おびただしいのは、医師も知る通りである。<br><br>なるほど医療によれば一時苦痛は緩和し、治るように見えるが、日を経れば必ず再発する。<br><br>といって手術によればなるほど患部の機能を除去するから、再発はしないが、形を変えて他の病気が発生するのもまた事実であるから、この理屈が本当に分ったなら、医学は当然革命されなければならないのである。<br><br> ところが今日までそれが全然分らないがため、一時的苦痛緩和を治る過程と錯覚し、その方法を進歩発達させて来たのであるから、実に驚くべき無智であった。<br><br>何よりも医学が進歩する半面益々病人の増えるのが何よりの証拠である。<br><br>ゆえにこのまま進むとしたら結局人類健康に対する危機の来るのは断言出来るのである。<br><br>以上が医学の実体を露呈したのだが、このような恐るべき寒心事に対し世界中一人の発見者がないのであるから摩訶（まか）不思議で、これこそ二十世紀の一大謎といってもよかろう。<br><br>ところがこの現状に対し突如として私の説が出たのであるから、正に原子爆弾である。<br><br>すなわちこれによって長い間の暗（やみ）の幕は切って落され、光明赫々（かくかく）たる病無き世界は、実現の第一歩を踏み出したのである。<br><br> そこでいよいよ医学は滅亡という大異変が目前に迫り来たのである。<br><br>とはいうものの、これ程人類の心を根強く把握して来た医学の迷言を晴らす事は容易な業ではない。<br><br>換言すれば邪を正に立直す事であり、しかも主神の経綸である以上、困難はいささかもないのである。<br><br>そうして私という者を選ばれたのは、天地創造の時すでに約束された事であって、このため大救世事業に必要な智慧と力を与えられたのである。<br><br>従って私はいささかも医学を学ばずして、徹底的に知り得たのであるから、この事だけにみても私という人間は、未（いま）だ嘗（かつ）て地球上に現われた事のない不思議な人間である。<br><br> という訳で私は神智の眼を通して見る時現代医学がいかに根本的に誤っているかは表現の言葉すらない。<br><br>慄然（りつぜん）とするのである。<br><br>この事はこれまでの私の著書にも詳しくかいてあるから略すが、ここで肝腎な事は病気を治す方法である。<br><br>それは老若男女を問わず、職業のいかんに関係なく、私の説を信じて治病の術を学ぼうとする場合、数日間の教修を受けるだけでいい。<br><br>その際御守と称する半紙倍くらいの紙片に、光の文字を書いたものを与えられるから、それを懐（ふところ）へ入れれば直（ただち）に治病の力が発揮されると共に、それから修練次第でやや大きい光明の御守と取替えられ、なお進んで大光明となるが、これだけで驚く程の治病力の持主となるのはもちろん、この方法を浄霊というのである。<br><br> 例えば大病院や博士から見放された者でも、たちまちにして快癒に向い全治する事実に対し、聞いたり読んだだけでは、到底信ずる事は出来まいが、何よりも全治者手記の報告と礼状を見れば分るごとく、現在一カ月二、三百通に上り、漸次増加しつつあり、本教発行の印刷物に載せ切れない程である。<br><br>ではこの御守の文字なるものがなぜ治病力を発揮するかというと、これも中々神秘であるから、そのつもりで読んで貰いたい。<br><br>すなわち私の腹の中には光の玉がある。<br><br>この玉こそ到底説明は出来ない幽玄微妙なるもので、いわば主神が自由自在に行使する神器であって、昔からいわれている如意宝珠、麻邇（まに）の玉がこれである。<br><br>もちろんこの玉の威力こそ人類肇（はじま）って以来始めて私という人間に与えその使用を許されたもので、この玉の光が霊線を通じて御守に伝達し、無限に光を供給するのであるから、御守の数がどれ程増えても何ら変りはないのである。<br><br> 以上によっても分るごとく、私が行う業は宗教ではない。<br><br>宗教以上のものであって、名称を付ける事は出来ないのである。<br><br>そうして有りのままをいえば、宗教というものはある期間中の役目であって、仮の救いであり、永遠性はないのである。<br><br>彼（か）の釈尊のいわれた仏滅といい、仮の娑婆（しゃば）も、キリストの世の終りが来るという言葉もこの事であった。<br><br>というのは今日までの宗教では本当に病気は治らないのは事実が示している。<br><br>現在宗教のほとんどが医学に頭を下げ、病院を造っているにみても明らかである。<br><br>これでみても宗教の力が科学以下である事を証明している訳で、気の毒ながら最早既成宗教の生命は終ったのであるから、この事を一日も早く自覚すべきである。<br><br>従ってこの意味が肚の底から分ったなら、弥勒下生（みろくげしょう）も、キリストの再臨も、救世主（メシヤ）の降臨も容易に分るはずである。<br><br>もし分らないとしたら、それは事が余りに大き過ぎるためと、二千年以上もそのような事がなかったので、人類は有り得べからざる事と決めてしまっていたからである。<br><br>という訳で開祖の教えは信じつつも、他面予言の方は信じられなかったという自家撞著〔着〕（じかどうちゃく）に陥っていたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Pessoa que Sou (I)</h2>
 <p>Os assuntos que abordarei a seguir são de natureza inédita, jamais vistos ou ouvidos por quem quer que seja, e peço que os leiam com essa consciência. Trata-se de uma autoanálise, como se uma outra versão de mim mesmo, exterior a mim, se propusesse a fazê-lo. Desse modo, revelarei minha essência desprovida de adornos, em sua forma mais autêntica. Creio que uma iniciativa tão singular jamais foi tentada até hoje.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Resta, então, a questão: por que o ideograma contido no Omamori manifesta poder de cura? Este é um ponto de profundo mistério, e peço que o leiam sob essa perspectiva. Em meu ventre, reside uma Bola de Luz. Trata-se de uma joia de natureza sublime e sutil, impossível de ser descrita em palavras. É, por assim dizer, um instrumento divino que o Deus Supremo utiliza com absoluta liberdade; é a lendária Nyoihōju, a Joia que Sacia Todos os Desejos, também conhecida como Mani-no-Tama (麻邇の玉). O poder dessa joia, cumpre ressaltar, foi concedido pela primeira vez a um ser humano — a mim — desde o princípio da humanidade, e foi-me permitido utilizá-lo. A Luz emanada dessa joia é transmitida através de um elo espiritual aos Omamori, suprindo-os com uma fonte inesgotável de Luz. Por essa razão, não importa o quanto o número de Omamori aumente, sua potência permanece inalterada.</p>
 <p>Pelo exposto, fica claro que a obra que realizo não é uma religião. É algo que transcende a religião, para o qual não se pode designar um nome. Falando sem rodeios, as religiões cumpriram seu papel durante um determinado período; foram uma forma de salvação provisória, desprovida de eternidade. As palavras de Xáquiamuni sobre o fim do budismo e sobre este mundo transitório de shaba (娑婆), assim como as de Cristo sobre o fim dos tempos, referiam-se a isto. O fato é que as religiões, até hoje, não foram capazes de curar verdadeiramente as doenças, como a realidade demonstra. A prova inequívoca é que a maioria das religiões atuais se curva perante a medicina e constrói hospitais, atestando que seu poder é inferior ao da ciência. Com pesar, devo dizer que a missão das religiões estabelecidas chegou ao fim, e é imperativo que elas tomem consciência desse fato o mais breve possível. Consequentemente, para aquele que compreende o significado disto em profundidade, o advento de Miroku (弥勒下生), a Segunda Vinda de Cristo e a chegada do Messias se tornarão facilmente compreensíveis.</p>
 <p>Se ainda assim houver quem não compreenda, é porque a magnitude do evento é avassaladora e também porque, por mais de dois milênios, nada semelhante ocorreu, levando a humanidade a considerar tal acontecimento como algo impossível. Por esse motivo, as pessoas, embora acreditassem nos ensinamentos dos fundadores de suas fés, eram incapazes de crer em suas profecias, caindo assim em uma profunda contradição interna.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私という者（一） 『地上天国』47号、昭和28(1953)年4月25日発行 これから記（か）こうとする事柄は、何人も見た事も聞いた事もないものであるから、そのつもりで読んで貰いたい。<br/><br/>それは私が私を批判するのであって、言わば私の外に別な私があってそうするので、全然飾らない赤裸々（せきらら）な私の姿を浮べるのであるが、恐らくこんな変った試みは、今までにもなかったであろう。<br/><br/>ではなぜ私はそんな事をかくのかというと、これには意味がある。<br/><br/>それは古往今来私程不思議な人間が現われた事はないと共に、私自身としても他人には想像出来ない程、私自身が見る私は不思議でならないからである。<br/><br/>それについてはまず私の仕事からかいてみるが、知らるるごとく現在私が最も主力を注いでいるのは病気治しである。<br/><br/> 現在の社会で治病の方法としては、何といっても医学である。<br/><br/>西洋においては紀元前彼（か）の有名な医聖ヒポクラテスが始祖であり東洋では前漢時代盤古（ばんこ）氏（盤古神王ともいう）が漢方医学を創成されたとなっておりどちらも治病の手段としては薬を主としている。<br/><br/>ところが漢方医学の方はほとんど見るべき進歩はないが、西洋医学の方は科学文化の影響を受けて驚くべき進歩を遂げたのであって、薬の種類も益々増え、機械、光線、空気等の物理療法の発達は固（もと）より、その基礎的手段としては解剖、分析、顕微鏡、動物実験等々、微に入り細に渉って遺憾なく行われている。<br/><br/>というようにどちらもすでに二千有余年の歴史の上に築かれたものであり、西洋医学の方は十九世紀以後科学の発展に伴い一大飛躍によって、漢方医学は太刀討（たちう）ちが出来ず、現在は微々たる存在となってしまったのは衆知の通りである。<br/><br/> その結果世界の医学は西洋医学独占となったのみか、この医学を進歩させさえすれば、病気は解決されるものとの信念によって、各国共奨励しているのが現在である。<br/><br/>またそれを修得する方法としては、小学から大学までの課程を経、卒業後は実地経験を積み、ようやく一人前になるので、それにはすくなくとも二十余年の歳月と、何十万という費額もかかり、実に容易ではないのである。<br/><br/>それでも完全に病気の治る技術を得らるるとしたら何をか言わんやであるが、事実は病気の治らない事おびただしいのは、医師も知る通りである。<br/><br/>なるほど医療によれば一時苦痛は緩和し、治るように見えるが、日を経れば必ず再発する。<br/><br/>といって手術によればなるほど患部の機能を除去するから、再発はしないが、形を変えて他の病気が発生するのもまた事実であるから、この理屈が本当に分ったなら、医学は当然革命されなければならないのである。<br/><br/> ところが今日までそれが全然分らないがため、一時的苦痛緩和を治る過程と錯覚し、その方法を進歩発達させて来たのであるから、実に驚くべき無智であった。<br/><br/>何よりも医学が進歩する半面益々病人の増えるのが何よりの証拠である。<br/><br/>ゆえにこのまま進むとしたら結局人類健康に対する危機の来るのは断言出来るのである。<br/><br/>以上が医学の実体を露呈したのだが、このような恐るべき寒心事に対し世界中一人の発見者がないのであるから摩訶（まか）不思議で、これこそ二十世紀の一大謎といってもよかろう。<br/><br/>ところがこの現状に対し突如として私の説が出たのであるから、正に原子爆弾である。<br/><br/>すなわちこれによって長い間の暗（やみ）の幕は切って落され、光明赫々（かくかく）たる病無き世界は、実現の第一歩を踏み出したのである。<br/><br/> そこでいよいよ医学は滅亡という大異変が目前に迫り来たのである。<br/><br/>とはいうものの、これ程人類の心を根強く把握して来た医学の迷言を晴らす事は容易な業ではない。<br/><br/>換言すれば邪を正に立直す事であり、しかも主神の経綸である以上、困難はいささかもないのである。<br/><br/>そうして私という者を選ばれたのは、天地創造の時すでに約束された事であって、このため大救世事業に必要な智慧と力を与えられたのである。<br/><br/>従って私はいささかも医学を学ばずして、徹底的に知り得たのであるから、この事だけにみても私という人間は、未（いま）だ嘗（かつ）て地球上に現われた事のない不思議な人間である。<br/><br/> という訳で私は神智の眼を通して見る時現代医学がいかに根本的に誤っているかは表現の言葉すらない。<br/><br/>慄然（りつぜん）とするのである。<br/><br/>この事はこれまでの私の著書にも詳しくかいてあるから略すが、ここで肝腎な事は病気を治す方法である。<br/><br/>それは老若男女を問わず、職業のいかんに関係なく、私の説を信じて治病の術を学ぼうとする場合、数日間の教修を受けるだけでいい。<br/><br/>その際御守と称する半紙倍くらいの紙片に、光の文字を書いたものを与えられるから、それを懐（ふところ）へ入れれば直（ただち）に治病の力が発揮されると共に、それから修練次第でやや大きい光明の御守と取替えられ、なお進んで大光明となるが、これだけで驚く程の治病力の持主となるのはもちろん、この方法を浄霊というのである。<br/><br/> 例えば大病院や博士から見放された者でも、たちまちにして快癒に向い全治する事実に対し、聞いたり読んだだけでは、到底信ずる事は出来まいが、何よりも全治者手記の報告と礼状を見れば分るごとく、現在一カ月二、三百通に上り、漸次増加しつつあり、本教発行の印刷物に載せ切れない程である。<br/><br/>ではこの御守の文字なるものがなぜ治病力を発揮するかというと、これも中々神秘であるから、そのつもりで読んで貰いたい。<br/><br/>すなわち私の腹の中には光の玉がある。<br/><br/>この玉こそ到底説明は出来ない幽玄微妙なるもので、いわば主神が自由自在に行使する神器であって、昔からいわれている如意宝珠、麻邇（まに）の玉がこれである。<br/><br/>もちろんこの玉の威力こそ人類肇（はじま）って以来始めて私という人間に与えその使用を許されたもので、この玉の光が霊線を通じて御守に伝達し、無限に光を供給するのであるから、御守の数がどれ程増えても何ら変りはないのである。<br/><br/> 以上によっても分るごとく、私が行う業は宗教ではない。<br/><br/>宗教以上のものであって、名称を付ける事は出来ないのである。<br/><br/>そうして有りのままをいえば、宗教というものはある期間中の役目であって、仮の救いであり、永遠性はないのである。<br/><br/>彼（か）の釈尊のいわれた仏滅といい、仮の娑婆（しゃば）も、キリストの世の終りが来るという言葉もこの事であった。<br/><br/>というのは今日までの宗教では本当に病気は治らないのは事実が示している。<br/><br/>現在宗教のほとんどが医学に頭を下げ、病院を造っているにみても明らかである。<br/><br/>これでみても宗教の力が科学以下である事を証明している訳で、気の毒ながら最早既成宗教の生命は終ったのであるから、この事を一日も早く自覚すべきである。<br/><br/>従ってこの意味が肚の底から分ったなら、弥勒下生（みろくげしょう）も、キリストの再臨も、救世主（メシヤ）の降臨も容易に分るはずである。<br/><br/>もし分らないとしたら、それは事が余りに大き過ぎるためと、二千年以上もそのような事がなかったので、人類は有り得べからざる事と決めてしまっていたからである。<br/><br/>という訳で開祖の教えは信じつつも、他面予言の方は信じられなかったという自家撞著〔着〕（じかどうちゃく）に陥っていたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

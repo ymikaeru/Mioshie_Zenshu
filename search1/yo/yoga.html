@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yoga</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 余が発見せる風邪の原因と其療法 『光明世界』創刊号、昭和10(1935)年2月4日発行 輓近（ばんきん）医学は非常の進歩をしたという。<br><br>しかしながら罹病率の王者を占め、また重病の先駆的危険を有する風邪の原因が未だ発見せられざると言うに至ってははなはだ以て心細い限りと云わざるを得ない。<br><br>しかるに余は数年来、独特の神霊療法を施行中ついに、この風邪の本体を掴み得たのであって、人類の為、医学者の為、ここにその原因及治療上参考となるべき、余が研究成果を発表せんとするものである。<br><br>ただし余は専門家に非ざるを以てその用語等不完全の点もあるべけれど賢明なる諸士においてその真意を汲まれん事を切望する次第なり。<br><br> まず一度風邪に犯さるゝやその症状としては一発熱、二咳嗽、三喀痰、四鼻汁、五咽喉の疼痛、六頭痛、七眩暈（めまい）、八口腔の乾燥、九関節の疼痛等であろう。<br><br>右の内二三四五を除く外はいずれも発熱に起因するものである。<br><br>始めまず患者の頸部の周囲より両肩部を探査すべきであってこの方法として余は指頭を用いて万遍なく圧しつゝ探るのである。<br><br>この時必ず数ケ所に左のごとき異触感の物体の在るを発見するであろう。<br><br>即ち凝固せる、グリグリ又はやや硬化せる贅肉状の物又は板形状の固形物、又はプリプリせる袋状の物、又は弩腫〔張〕せる筋等である。<br><br>しかしこれを最も適確に知るには相当の熟練を要すれどもある程度までなら何人にも探り当らるべし。<br><br> しからばこの物体は何物なるやと言うにこれこそ風邪の真因本体にしてこの不可解なる物体が溜積してある程度を超ゆる時始めて風邪に犯さるゝなり。<br><br>この物体を余は指頭の霊感及透視感に依て按ずるにそれは不純なる膿血の凝体及び不活動性の膿の凝結にして風邪菌の活動刺戟に遇って喀痰及鼻汁に変化すべき性質の物なり。<br><br>さればかくのごとき不純物質が溜積せられたる時、偉大なる自然はこれを排泄浄化すべき大活動を起して人類の肉体をして健康長寿たらしめんとす。<br><br> この自然の浄化運動こそは実に人間が風邪と名づけて至極厄介視するその物にして何が故にこの頸部肩部付近に不純物が溜漬さるゝやというに、そは人間が二六時中、呼吸しつゝある空気がその根本原因にして即ち空気中の塵埃が絶えず肺臓に吸入さるゝを以て、肺臓は間断なくそれらの塵埃を濾過溶解して浄化作用をなさゞるべからず。<br><br>しかしその浄化作用を為すといえどもこの塵埃全部をして跡方もなく零にまで浄化さす事は不可能なるが故にその幾分の残渣（ざんさ）は液体となって排除せらるゝなり。<br><br>さればその残渣液体は肺臓中の血管を通過昇流し肺門部を出て前述の頸肩部に溜蓄されつゝ時日を経てついに凝固するものなり。<br><br> しかるに霊妙なる自然はこの人間の肉体に蓄積せられたる汚物を排除すべく風邪菌なる掃除夫を派出するのである。<br><br>この菌が一度鼻口等より入らんか、忽（たちま）ち活動を開始し蓄積せる汚物の凝結体に向って突進し刺戟し溶解作業をなすなり。<br><br>しかして溶解されたる汚物は鼻汁もしくは喀痰となって旺んに体外へ排泄せらる。<br><br>しかしてなおも霊妙なるはこの凝体汚物を溶解するには熱の力を借らざるべからざるを以てこの掃除夫は熱を頻（しき）りに誘発して自己の作業に便ならしめんと努むるなり。<br><br>しかしてこの汚物排除工作が終りを告ぐるに従って掃除夫は徐々として引上ぐるべく人間はこれを称して全快と云い安堵の胸を撫（な）で下ろすなり。<br><br>しかしてこの風邪菌の発生に都合よき気候が冬季にして寒風吹き荒（すさ）む頃は最も活動力旺盛なり。<br><br> 自然は冬季においての人間の肉体大清潔法としてこの風邪菌なる掃除夫を無数に送って人間の健康を資（たす）け長寿を得さしめんとするなり。<br><br>いわば神の恩恵的作業と言ってしかるべきである。<br><br>故に万一この清潔法を施行せざらんか、頸肩部に凝積せる汚物は時の経るに従って倍々（ますます）固結する性態を有するを以て肺門よりの排泄物は出口を押えられ、ここに肺臓は残渣の停滞を来して肺の病因を作る事となり、又一方脳髄へ送流する血液は脈管を通過するに支障を来すを以て、脳貧血の病原を作る事ともなるなり。<br><br>これを以て見れば、風邪なる病は実は病と称すべきものに非ずして、人類の健康を保持すべき救世主にてあるなり。<br><br>故に人間は汚物の未だ多分に蓄積せられざる内に風邪に罹るほど軽微に済むを以って出来るだけ冬季の初めに清潔法施行を蒙るよう努むべきである。<br><br>彼のマスクのごときはいかにこの真理に反するかは明かな事であろう。<br><br> 従って余は風邪を避くると反対に風邪を迎え入るゝべくなすよう、多数人に試み居るが、その好成績なるは実に意想外なるなり。<br><br>最後に治療について述べんに、この蓄積汚物は、余の指頭より放射する霊光に遇えば忽ち溶解して普通の風邪は一回ないし三回位にて全治すべし。<br><br> しかし風邪位は自然に放任するも良く速く治るなれども世人はこの理を知らざるを以てこの場合薬物、機械その他の療法に頼らざれば病気の進むごとく心配すれども、それは大なる誤りにて却て一切の手当は掃除夫の清潔施行へ対し邪魔にこそなれ、決していささかも助力とはならざるなり。<br><br>ただし一応医家の診断を受くるは何ら差支えなく安全と云うべくとにもかくにも自然の掃除夫に一任なし居る程治療の速なるは経験によって明らかなり、ただこの場合頸肩部を掌（てのひら）にて摩擦するは相当の効果あり。<br><br> この点において彼の薬物一切を用いざる渋谷の塩の谷博士及生長の家の谷口雅春氏の説等は斯界（しかい）における先覚者として推奨すべき価値ある事を述べて置く。<br><br> （岡田式神霊療法創始者 岡田仁斎）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa do Resfriado e o Método Terapêutico por Mim Descoberto</h2>
 <p>Afirma-se que a medicina moderna alcançou notável progresso. Contudo, é deveras preocupante que a causa do resfriado — o qual detém a maior prevalência entre as enfermidades e representa um perigoso precursor de doenças graves — ainda não tenha sido descoberta. Eu, todavia, durante os vários anos de prática de minha singular terapia espiritual divina, logrei finalmente apreender a verdadeira natureza do resfriado. Desejo, pois, em prol da humanidade e dos estudiosos da medicina, apresentar aqui os resultados de minha pesquisa, que poderão servir de referência para a elucidação de sua causa e seu tratamento. Ressalto, contudo, que não sou um especialista, e por isso minha terminologia pode apresentar imperfeições; insto, porém, aos homens de notável saber que compreendam a essência de minhas palavras.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Contudo, mesmo que se deixe o resfriado seguir seu curso natural, a cura ocorrerá de forma célere. As pessoas, por desconhecerem esse princípio, afligem-se, crendo que a doença se agravará se não recorrerem a medicamentos, aparelhos ou outras terapias. Trata-se de um grave equívoco. Na realidade, qualquer intervenção desse tipo apenas obstrui o trabalho dos agentes de limpeza, sem oferecer-lhes o menor auxílio. Não há, todavia, inconveniente em se obter o diagnóstico de um médico, o que pode conferir segurança. De todo modo, a experiência demonstra claramente que, quanto mais se confia o processo aos purificadores da Natureza, mais rápida é a recuperação. Nessas circunstâncias, friccionar a região do pescoço e dos ombros com a palma da mão produz um efeito considerável.</p>
 <p>A esse respeito, cumpre mencionar que as teorias do Dr. Shionoya, de Shibuya, que não utiliza qualquer medicamento, e as do Sr. Masaharu Taniguchi, da Seicho-no-Ie, merecem ser enaltecidas como as de precursores neste campo do saber.</p>
 <p>(Fundador da Terapia Espiritual Divina Okada, Okada Jinsai)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 余が発見せる風邪の原因と其療法 『光明世界』創刊号、昭和10(1935)年2月4日発行 輓近（ばんきん）医学は非常の進歩をしたという。<br/><br/>しかしながら罹病率の王者を占め、また重病の先駆的危険を有する風邪の原因が未だ発見せられざると言うに至ってははなはだ以て心細い限りと云わざるを得ない。<br/><br/>しかるに余は数年来、独特の神霊療法を施行中ついに、この風邪の本体を掴み得たのであって、人類の為、医学者の為、ここにその原因及治療上参考となるべき、余が研究成果を発表せんとするものである。<br/><br/>ただし余は専門家に非ざるを以てその用語等不完全の点もあるべけれど賢明なる諸士においてその真意を汲まれん事を切望する次第なり。<br/><br/> まず一度風邪に犯さるゝやその症状としては一発熱、二咳嗽、三喀痰、四鼻汁、五咽喉の疼痛、六頭痛、七眩暈（めまい）、八口腔の乾燥、九関節の疼痛等であろう。<br/><br/>右の内二三四五を除く外はいずれも発熱に起因するものである。<br/><br/>始めまず患者の頸部の周囲より両肩部を探査すべきであってこの方法として余は指頭を用いて万遍なく圧しつゝ探るのである。<br/><br/>この時必ず数ケ所に左のごとき異触感の物体の在るを発見するであろう。<br/><br/>即ち凝固せる、グリグリ又はやや硬化せる贅肉状の物又は板形状の固形物、又はプリプリせる袋状の物、又は弩腫〔張〕せる筋等である。<br/><br/>しかしこれを最も適確に知るには相当の熟練を要すれどもある程度までなら何人にも探り当らるべし。<br/><br/> しからばこの物体は何物なるやと言うにこれこそ風邪の真因本体にしてこの不可解なる物体が溜積してある程度を超ゆる時始めて風邪に犯さるゝなり。<br/><br/>この物体を余は指頭の霊感及透視感に依て按ずるにそれは不純なる膿血の凝体及び不活動性の膿の凝結にして風邪菌の活動刺戟に遇って喀痰及鼻汁に変化すべき性質の物なり。<br/><br/>さればかくのごとき不純物質が溜積せられたる時、偉大なる自然はこれを排泄浄化すべき大活動を起して人類の肉体をして健康長寿たらしめんとす。<br/><br/> この自然の浄化運動こそは実に人間が風邪と名づけて至極厄介視するその物にして何が故にこの頸部肩部付近に不純物が溜漬さるゝやというに、そは人間が二六時中、呼吸しつゝある空気がその根本原因にして即ち空気中の塵埃が絶えず肺臓に吸入さるゝを以て、肺臓は間断なくそれらの塵埃を濾過溶解して浄化作用をなさゞるべからず。<br/><br/>しかしその浄化作用を為すといえどもこの塵埃全部をして跡方もなく零にまで浄化さす事は不可能なるが故にその幾分の残渣（ざんさ）は液体となって排除せらるゝなり。<br/><br/>さればその残渣液体は肺臓中の血管を通過昇流し肺門部を出て前述の頸肩部に溜蓄されつゝ時日を経てついに凝固するものなり。<br/><br/> しかるに霊妙なる自然はこの人間の肉体に蓄積せられたる汚物を排除すべく風邪菌なる掃除夫を派出するのである。<br/><br/>この菌が一度鼻口等より入らんか、忽（たちま）ち活動を開始し蓄積せる汚物の凝結体に向って突進し刺戟し溶解作業をなすなり。<br/><br/>しかして溶解されたる汚物は鼻汁もしくは喀痰となって旺んに体外へ排泄せらる。<br/><br/>しかしてなおも霊妙なるはこの凝体汚物を溶解するには熱の力を借らざるべからざるを以てこの掃除夫は熱を頻（しき）りに誘発して自己の作業に便ならしめんと努むるなり。<br/><br/>しかしてこの汚物排除工作が終りを告ぐるに従って掃除夫は徐々として引上ぐるべく人間はこれを称して全快と云い安堵の胸を撫（な）で下ろすなり。<br/><br/>しかしてこの風邪菌の発生に都合よき気候が冬季にして寒風吹き荒（すさ）む頃は最も活動力旺盛なり。<br/><br/> 自然は冬季においての人間の肉体大清潔法としてこの風邪菌なる掃除夫を無数に送って人間の健康を資（たす）け長寿を得さしめんとするなり。<br/><br/>いわば神の恩恵的作業と言ってしかるべきである。<br/><br/>故に万一この清潔法を施行せざらんか、頸肩部に凝積せる汚物は時の経るに従って倍々（ますます）固結する性態を有するを以て肺門よりの排泄物は出口を押えられ、ここに肺臓は残渣の停滞を来して肺の病因を作る事となり、又一方脳髄へ送流する血液は脈管を通過するに支障を来すを以て、脳貧血の病原を作る事ともなるなり。<br/><br/>これを以て見れば、風邪なる病は実は病と称すべきものに非ずして、人類の健康を保持すべき救世主にてあるなり。<br/><br/>故に人間は汚物の未だ多分に蓄積せられざる内に風邪に罹るほど軽微に済むを以って出来るだけ冬季の初めに清潔法施行を蒙るよう努むべきである。<br/><br/>彼のマスクのごときはいかにこの真理に反するかは明かな事であろう。<br/><br/> 従って余は風邪を避くると反対に風邪を迎え入るゝべくなすよう、多数人に試み居るが、その好成績なるは実に意想外なるなり。<br/><br/>最後に治療について述べんに、この蓄積汚物は、余の指頭より放射する霊光に遇えば忽ち溶解して普通の風邪は一回ないし三回位にて全治すべし。<br/><br/> しかし風邪位は自然に放任するも良く速く治るなれども世人はこの理を知らざるを以てこの場合薬物、機械その他の療法に頼らざれば病気の進むごとく心配すれども、それは大なる誤りにて却て一切の手当は掃除夫の清潔施行へ対し邪魔にこそなれ、決していささかも助力とはならざるなり。<br/><br/>ただし一応医家の診断を受くるは何ら差支えなく安全と云うべくとにもかくにも自然の掃除夫に一任なし居る程治療の速なるは経験によって明らかなり、ただこの場合頸肩部を掌（てのひら）にて摩擦するは相当の効果あり。<br/><br/> この点において彼の薬物一切を用いざる渋谷の塩の谷博士及生長の家の谷口雅春氏の説等は斯界（しかい）における先覚者として推奨すべき価値ある事を述べて置く。<br/><br/> （岡田式神霊療法創始者 岡田仁斎）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

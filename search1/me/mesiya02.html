@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>mesiya02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世教奇蹟集 序文 （第２稿） 『栄光』202号、昭和28(1953)年4月1日発行 近く発行する予定の、救世教奇蹟集の序文であるが、これは先日この欄に載せたが、どうも面白くない点があるので、今回書き直したのであって、それが左記の序文である 救世教奇蹟集 序文 この著は科学に対する原子爆弾であり、人類に対する啓蒙書であり、救世の福音でもある。<br><br>今その理論を説くと共に、その裏付として我救世教における数多くの奇蹟中から、百例を選んで載せてあり、これを読む人々は余りの超現実的なものばかりで、直ちに信ずる事は出来ないであろう。<br><br>何となればこれ程素晴しい奇蹟は、古往今来未（いま）だ嘗（かつ）てないからである。<br><br>そうして昔から宗教に奇蹟は付物とされているのは、人の知るところであるが、その眼で見ても本教の奇蹟は、到底信ずる事は出来ないと共に、理屈のつけようもない事である。<br><br>しかもその一々が体験者自身の手記である以上、一点の疑う余地はないとしたら、日本は愚〔疎〕か外国にも例のない事であって、私はこの空前の事実を日本の誇りとして、全世界に一日も早く発表する義務があると思うのである。<br><br> そうしてこれこそ二十世紀後半における今日まで、全人類夢想だもしなかったところの、一大驚異ともいうべく、これが私という一個の人間を通じて行われるとしたら、実に神秘以上の神秘といってよかろう。<br><br>従ってそこに深い意味がなければならないはずであるのはもちろんで、その根本こそ、宇宙の主宰者たる主神（すしん）の深甚（しんじん）なる経綸によるのであって、その理由としては、現在の文明に一大欠陥があるからで、その欠陥こそ文化の進歩に対する大なる障礙（しょうげ）となっているのである。<br><br>その証拠にはこれ程文化が進歩発達したにかかわらず、人間の最大欲求である幸福はそれに伴わないばかりか、むしろ不幸の方が益々深刻になりつつある現実である。<br><br>ではその欠陥とは何であるかというと、これこそ科学至上主義の誤りであって、現代人は科学によれば何事も解決出来るとする科学過信というよりも、科学迷信の深淵（しんえん）に陥ってしまっている事である。<br><br>ここにおいて神はこの迷信を徹底的に打破し、真の文明世界を樹立すべく、人間を介して直接行動に取掛かられたので、これも全く時の然らしむるところである。<br><br>そうしてこの迷信発生の原因こそは、見えるものを信じ、見えざるものは信ずべからずとする唯物一辺倒のためである。<br><br>従ってこの考え方を是正するには、どうしても今日まで無とされていた霊なるものの実体を認識させ、一切は霊が主で物質が従であるという真理を会得（えとく）させる事である。<br><br> ここで重ねて言いたい事は、もし唯物科学が真理であるとしたら、この進歩に従って人類の苦悩は漸次減ってゆき、それだけ幸福も増さねばならないはずではないか、ところが現実はどうであろう。<br><br>なるほど絢爛（けんらん）眼を奪う文化都市、交通の至便、進歩的生活、一切の機械化等々、唯物的には確かに幸福は増したに違いないが、肝腎な精神的幸福は零（ゼロ）でしかない。<br><br>というにみて文明の欠陥がよく露（あら）われている。<br><br> とはいうもののこれも深遠なる主神の経綸であって、今日まではそれでよかったのである。<br><br>というのは神の御目的である理想世界を造るには、その準備としてまず物質文化を、ある程度完成しなければならないからで、今日まで治乱興亡（ちらんこうぼう）限りなき人間苦闘の歴史もそのためであったのである。<br><br>という訳で唯物科学時代はここに終りを告げると共に、精神文化勃興（ぼっこう）の時代が来たのである。<br><br>そうして唯物唯心の両科学が、歩調を揃えて進み、真の文明時代が実現するので換言すれば宗教と科学の一致でもある。<br><br>それにはまず霊の実在を認識させる事が先決問題であるから、神はこの方法として奇蹟を顕わすのである。<br><br>その役目を担（にな）うべく選ばれたのが私であり、もちろん奇蹟の力も与えられたのである。<br><br>それについては昔から多くの宗教の中、特に顕著なものとして、今なお有名な彼（か）のキリストの奇蹟であろう。<br><br>盲の眼を開かせ足萎を立たしめ、悪人から鬼を追い出し、集った数十人の信徒に、水を葡萄酒に化して飲ませた等々であるが、私はこの葡萄酒の件だけは、後世誰かが作ったものと思うが、その他はもちろんあったに違いない。<br><br>ところが本著にあるほとんどの奇蹟は、キリストと同じくらいか、それ以上のものさえあるので、全く驚異の一語に尽きるであろう。<br><br>しかも全部私の弟子が顕わしたのであるから、正直にいって歴史を覆（くつが）えす程の大事件であろう。<br><br> そうしてキリストのいわれた彼の有名な“世の終り”とは、この唯物文化時代の終りの事であり、次で“天国は近づけり”との予言は、今や生まれんとする飛躍的高度の文化時代であり、真の文明世界であるのは言うまでもない。<br><br>ゆえにこの世界の大転換期に際して、神は空前の奇蹟を顕（あら）わし、世界的文化革命を遂行され給うのであるから、この事が信じられる人にして来るべき新時代における幸福者たり得るのである。<br><br>ところで私はこれ以上かきたいが、それでは純宗教書になるからこの辺で止めておくが、読者はこの意味を充分銘記して、精読されん事である。<br><br>それと共に本教をもって従来の宗教観を捨て、宗教以上の超宗教として見られん事である。<br><br> (注) 障礙（しょうげ）、障害。<br><br>妨げ。<br><br>仏教では、悟りの障害となるものをいう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Prefácio à Coletânea de Milagres da Sekaikyuseikyou</h2>
 <p>Esta obra representa uma bomba atômica para a ciência, um farol para a humanidade e, ao mesmo tempo, o evangelho da salvação. Nela, expomos nossa teoria e, como comprovação de seus fundamentos, selecionamos e publicamos cem exemplos dentre os inumeráveis milagres ocorridos em nossa Sekaikyuseikyou. Os leitores, ao se depararem com relatos de natureza tão transcendente, por certo relutarão em crer de imediato. Afinal, milagres de tal magnitude jamais foram vistos em toda a história da humanidade. É sabido que, desde tempos imemoriais, os milagres são considerados inerentes à religião. Todavia, mesmo sob essa ótica, os milagres de nossa fé são de tal ordem que desafiam não apenas a crença, mas também qualquer tentativa de explicação racional. Considerando que cada relato é um testemunho manuscrito pelo próprio indivíduo que o vivenciou, não restando margem para dúvida, deparamo-nos com um fato sem precedentes não apenas no Japão, mas em todo o mundo. Sinto, portanto, o dever de proclamar o quanto antes esta realidade inaudita a toda a humanidade, como um motivo de orgulho para a nação japonesa.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Neste ponto, cumpre-me reiterar: se a ciência materialista fosse a verdade suprema, não deveria o sofrimento humano diminuir gradativamente na mesma medida de seu avanço, com o consequente aumento da felicidade? Contudo, o que observamos na realidade? É verdade que surgiram deslumbrantes metrópoles culturais, meios de transporte de extrema conveniência, um estilo de vida progressista e a mecanização de todas as coisas. Materialmente, a felicidade sem dúvida aumentou, mas a felicidade espiritual, que é o ponto crucial, permanece nula. Nisso se revela, com clareza, a falha da civilização.</p>
 <p>Todavia, tudo isso também faz parte do profundo Plano Divino do Deus Supremo, e, até o presente momento, foi permitido que assim fosse. Isso se deve ao fato de que, para a construção do Mundo Ideal — o objetivo de Deus —, era necessário, como etapa preparatória, que a cultura material atingisse um certo grau de completude. Toda a história de infindáveis lutas humanas, com seus ciclos de paz e desordem, de ascensão e queda, serviu a esse propósito. Por essa razão, a era da ciência materialista chega agora ao seu fim, e, simultaneamente, desponta a era do florescimento da cultura espiritual. Nela, a ciência material e a ciência espiritual avançarão em perfeita sintonia, concretizando a era da verdadeira civilização. Em outras palavras, será a união entre religião e ciência. Para tanto, a questão primordial é levar o homem a reconhecer a existência real do espírito. É por isso que Deus Se utiliza dos milagres como meio para esse fim. Aquele que foi escolhido para assumir tal missão sou eu e, naturalmente, foi-me concedido também o poder de realizar milagres. A esse respeito, dentre os milagres ocorridos nas muitas religiões ao longo da história, os mais notáveis são, por certo, os de Cristo, famosos até os dias de hoje. Fazer o cego ver, o coxo andar, expulsar demônios dos possessos e transformar água em vinho para dezenas de seguidores reunidos são alguns deles. Pessoalmente, acredito que o episódio do vinho seja uma adição posterior, mas os demais, sem dúvida, ocorreram. Ocorre que a maioria dos milagres relatados nesta obra se equiparam, e por vezes até superam, os de Cristo, o que pode ser resumido em uma única palavra: assombroso. Ademais, todos eles foram manifestados por meus discípulos, o que, francamente, constitui um acontecimento de proporções tão grandiosas que é capaz de reverter o curso da História.</p>
 <p>Com efeito, o famoso “fim do mundo” mencionado por Cristo refere-se ao fim desta era de cultura materialista. Sua subsequente profecia, “o Reino dos Céus está próximo”, anuncia a era de uma cultura de nível extraordinariamente elevado que está prestes a nascer: o mundo da verdadeira civilização. É por isso que, neste grande ponto de transição da história mundial, Deus manifesta milagres sem precedentes para executar uma revolução cultural de âmbito global. Somente aqueles que crerem nesse fato poderão ser felizes na nova era que se avizinha. Eu gostaria de me aprofundar ainda mais, mas, para que esta não se torne uma obra puramente religiosa, concluo minhas palavras aqui. Rogo, no entanto, que os leitores guardem profundamente estes significados em seus corações e se dediquem a uma leitura atenta. Peço, outrossim, que abandonem a visão convencional sobre as religiões e contemplem nossos ensinamentos como uma suprarreligião, algo que transcende o conceito tradicional de religião.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世教奇蹟集 序文 （第２稿） 『栄光』202号、昭和28(1953)年4月1日発行 近く発行する予定の、救世教奇蹟集の序文であるが、これは先日この欄に載せたが、どうも面白くない点があるので、今回書き直したのであって、それが左記の序文である 救世教奇蹟集 序文 この著は科学に対する原子爆弾であり、人類に対する啓蒙書であり、救世の福音でもある。<br/><br/>今その理論を説くと共に、その裏付として我救世教における数多くの奇蹟中から、百例を選んで載せてあり、これを読む人々は余りの超現実的なものばかりで、直ちに信ずる事は出来ないであろう。<br/><br/>何となればこれ程素晴しい奇蹟は、古往今来未（いま）だ嘗（かつ）てないからである。<br/><br/>そうして昔から宗教に奇蹟は付物とされているのは、人の知るところであるが、その眼で見ても本教の奇蹟は、到底信ずる事は出来ないと共に、理屈のつけようもない事である。<br/><br/>しかもその一々が体験者自身の手記である以上、一点の疑う余地はないとしたら、日本は愚〔疎〕か外国にも例のない事であって、私はこの空前の事実を日本の誇りとして、全世界に一日も早く発表する義務があると思うのである。<br/><br/> そうしてこれこそ二十世紀後半における今日まで、全人類夢想だもしなかったところの、一大驚異ともいうべく、これが私という一個の人間を通じて行われるとしたら、実に神秘以上の神秘といってよかろう。<br/><br/>従ってそこに深い意味がなければならないはずであるのはもちろんで、その根本こそ、宇宙の主宰者たる主神（すしん）の深甚（しんじん）なる経綸によるのであって、その理由としては、現在の文明に一大欠陥があるからで、その欠陥こそ文化の進歩に対する大なる障礙（しょうげ）となっているのである。<br/><br/>その証拠にはこれ程文化が進歩発達したにかかわらず、人間の最大欲求である幸福はそれに伴わないばかりか、むしろ不幸の方が益々深刻になりつつある現実である。<br/><br/>ではその欠陥とは何であるかというと、これこそ科学至上主義の誤りであって、現代人は科学によれば何事も解決出来るとする科学過信というよりも、科学迷信の深淵（しんえん）に陥ってしまっている事である。<br/><br/>ここにおいて神はこの迷信を徹底的に打破し、真の文明世界を樹立すべく、人間を介して直接行動に取掛かられたので、これも全く時の然らしむるところである。<br/><br/>そうしてこの迷信発生の原因こそは、見えるものを信じ、見えざるものは信ずべからずとする唯物一辺倒のためである。<br/><br/>従ってこの考え方を是正するには、どうしても今日まで無とされていた霊なるものの実体を認識させ、一切は霊が主で物質が従であるという真理を会得（えとく）させる事である。<br/><br/> ここで重ねて言いたい事は、もし唯物科学が真理であるとしたら、この進歩に従って人類の苦悩は漸次減ってゆき、それだけ幸福も増さねばならないはずではないか、ところが現実はどうであろう。<br/><br/>なるほど絢爛（けんらん）眼を奪う文化都市、交通の至便、進歩的生活、一切の機械化等々、唯物的には確かに幸福は増したに違いないが、肝腎な精神的幸福は零（ゼロ）でしかない。<br/><br/>というにみて文明の欠陥がよく露（あら）われている。<br/><br/> とはいうもののこれも深遠なる主神の経綸であって、今日まではそれでよかったのである。<br/><br/>というのは神の御目的である理想世界を造るには、その準備としてまず物質文化を、ある程度完成しなければならないからで、今日まで治乱興亡（ちらんこうぼう）限りなき人間苦闘の歴史もそのためであったのである。<br/><br/>という訳で唯物科学時代はここに終りを告げると共に、精神文化勃興（ぼっこう）の時代が来たのである。<br/><br/>そうして唯物唯心の両科学が、歩調を揃えて進み、真の文明時代が実現するので換言すれば宗教と科学の一致でもある。<br/><br/>それにはまず霊の実在を認識させる事が先決問題であるから、神はこの方法として奇蹟を顕わすのである。<br/><br/>その役目を担（にな）うべく選ばれたのが私であり、もちろん奇蹟の力も与えられたのである。<br/><br/>それについては昔から多くの宗教の中、特に顕著なものとして、今なお有名な彼（か）のキリストの奇蹟であろう。<br/><br/>盲の眼を開かせ足萎を立たしめ、悪人から鬼を追い出し、集った数十人の信徒に、水を葡萄酒に化して飲ませた等々であるが、私はこの葡萄酒の件だけは、後世誰かが作ったものと思うが、その他はもちろんあったに違いない。<br/><br/>ところが本著にあるほとんどの奇蹟は、キリストと同じくらいか、それ以上のものさえあるので、全く驚異の一語に尽きるであろう。<br/><br/>しかも全部私の弟子が顕わしたのであるから、正直にいって歴史を覆（くつが）えす程の大事件であろう。<br/><br/> そうしてキリストのいわれた彼の有名な“世の終り”とは、この唯物文化時代の終りの事であり、次で“天国は近づけり”との予言は、今や生まれんとする飛躍的高度の文化時代であり、真の文明世界であるのは言うまでもない。<br/><br/>ゆえにこの世界の大転換期に際して、神は空前の奇蹟を顕（あら）わし、世界的文化革命を遂行され給うのであるから、この事が信じられる人にして来るべき新時代における幸福者たり得るのである。<br/><br/>ところで私はこれ以上かきたいが、それでは純宗教書になるからこの辺で止めておくが、読者はこの意味を充分銘記して、精読されん事である。<br/><br/>それと共に本教をもって従来の宗教観を捨て、宗教以上の超宗教として見られん事である。<br/><br/> (注) 障礙（しょうげ）、障害。<br/><br/>妨げ。<br/><br/>仏教では、悟りの障害となるものをいう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

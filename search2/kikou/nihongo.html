@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihongo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本語の勉強 瓢箪 『栄光』233号、昭和28(1953)年11月4日発行 よく特別御面会の時に、資格者の人々が御質問申し上げる際、冗漫な言葉が多すぎて御伺いの主旨が分らなかったり、明主様が、お聞返しになることに対し、まるで外れた御返事をするのを見るが、そんな時いつも私が始終御叱正賜わった「お前は日本語も満足に使えぬ、もっと日本語を勉強しなさい」と仰せられたお言葉を思い出す。<br><br>日本人に日本語を習えとは、ちょっと変に聞えるが、事実満足に使えないのだから仕方がない。<br><br>成程日本語を喋ってはいても意味をなしていないとすれば日本語を使えぬと同じことである。<br><br>つまりあたりまえにありのまま申し上げればすぐに通ずるものを、主語と動詞が逆転したり、お叱りを警戒しながら体裁よく申し上げようとしたり、分らぬことを知ったかぶりに申し上げたり、最もいけないのは、御返事すべきことは全然いわず御問いになることに無関係なことだけお答えする事である。<br><br>そのために御手数をかけて貴重な御時間を御潰しするし、一の御無礼でさえある。<br><br>吾々の頭脳は日本語さえ使えぬ程変なのである。<br><br> 今でも時たまお伺いしてお話し申し上げる事があるが、その度毎に必ず何カ所か言葉の御訂正賜わり、未だに日本語が使えぬのを悟らしていただき、言葉が覚識的になり道に外れぬようになるのは私には容易ならぬ修行だと思う。<br><br>結局それは、魂の向上と頭脳の明晰である。<br><br>であるから明主様と破綻なくお話のできる人はよほど偉い人だと思うのである。<br><br>しかしながら、明主様は又「私の問うたことに満足な答のできる人は一人もない位である」とも仰せられているが、してみると日本語の使えぬのは私一人ではない様である。<br><br>そういえばかなりの知名人にしてもしかりで、大抵は喋りすぎたり喋らなすぎたり、調子外れだったり、中には肯定や感銘を全く表わさぬ人や、最も頼りないのは、まるで反応のない人、何をいわれても合槌打つばかりではっきりせぬ人もある由である。<br><br>又著名な大学者や知識人におあいになっても、明主様は極めて謙虚にそのお話にお耳を傾けられるが、時たまちょっと急所をおつきになると、タジタジとなって言葉につまってしまい、軽く鼻を折られることもある。<br><br> 結局、日本語が使えるということは、お問いになることにピッタリ適合したお答えができることである。<br><br>それは決してうまく言うことではなくあたりまえにありのまま申し上げることである。<br><br>それが、吾々は長い間、詐偽世界に棲息して頭脳の薬毒や魂の眠り、そして種々な誤った思想や制度によって個性の発揮が変に柾げられて卒直にありのままに言えぬようになっており、それが神様の真実の前に著しく露呈される訳であろう。<br><br>今吾々は明主様のおかげで、現代より遥かに進んだ線まで知識を高められているのであるから、もっともっと日本語を勉強し洗練された日本語によって世に明るさと楽しさをひろげたいものだと思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Aprimoramento da Palavra</h2>
 <p>Durante as audiências especiais, observo com frequência os responsáveis que, ao dirigir perguntas a Meishu-Sama, o fazem com uma prolixidade tão excessiva que a essência do questionamento se perde. Outras vezes, quando Meishu-Sama lhes dirige a palavra, oferecem respostas completamente descabidas. Em tais momentos, recordo-me invariavelmente da repreensão que eu mesmo tantas vezes recebi: “Você não sabe sequer usar a língua japonesa adequadamente. Precisa estudá-la mais.”</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Em suma, dominar o idioma japonês significa ser capaz de oferecer uma resposta que se ajuste com perfeição ao questionamento. Não se trata de eloquência, mas sim da capacidade de expor os fatos com naturalidade e veracidade.</p>
 <p>Ocorre que nós, por termos habitado por um longo período em um mundo de embustes, temos nossas mentes obnubiladas pelo yakudoku (薬毒), nossas almas adormecidas e nossa capacidade de expressão individual estranhamente tolhida por toda sorte de ideologias e sistemas equivocados. Isso nos impede de falar com franqueza e autenticidade, uma deficiência que se revela de forma gritante diante da Verdade Divina.</p>
 <p>Agora, graças a Meishu-Sama, nosso conhecimento foi elevado a um patamar muito além do que é comum em nossa era. Portanto, cumpre-nos estudar nosso idioma com afinco ainda maior para que, por meio de uma linguagem esmerada e precisa, possamos difundir luz e alegria pelo mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本語の勉強 瓢箪 『栄光』233号、昭和28(1953)年11月4日発行 よく特別御面会の時に、資格者の人々が御質問申し上げる際、冗漫な言葉が多すぎて御伺いの主旨が分らなかったり、明主様が、お聞返しになることに対し、まるで外れた御返事をするのを見るが、そんな時いつも私が始終御叱正賜わった「お前は日本語も満足に使えぬ、もっと日本語を勉強しなさい」と仰せられたお言葉を思い出す。<br/><br/>日本人に日本語を習えとは、ちょっと変に聞えるが、事実満足に使えないのだから仕方がない。<br/><br/>成程日本語を喋ってはいても意味をなしていないとすれば日本語を使えぬと同じことである。<br/><br/>つまりあたりまえにありのまま申し上げればすぐに通ずるものを、主語と動詞が逆転したり、お叱りを警戒しながら体裁よく申し上げようとしたり、分らぬことを知ったかぶりに申し上げたり、最もいけないのは、御返事すべきことは全然いわず御問いになることに無関係なことだけお答えする事である。<br/><br/>そのために御手数をかけて貴重な御時間を御潰しするし、一の御無礼でさえある。<br/><br/>吾々の頭脳は日本語さえ使えぬ程変なのである。<br/><br/> 今でも時たまお伺いしてお話し申し上げる事があるが、その度毎に必ず何カ所か言葉の御訂正賜わり、未だに日本語が使えぬのを悟らしていただき、言葉が覚識的になり道に外れぬようになるのは私には容易ならぬ修行だと思う。<br/><br/>結局それは、魂の向上と頭脳の明晰である。<br/><br/>であるから明主様と破綻なくお話のできる人はよほど偉い人だと思うのである。<br/><br/>しかしながら、明主様は又「私の問うたことに満足な答のできる人は一人もない位である」とも仰せられているが、してみると日本語の使えぬのは私一人ではない様である。<br/><br/>そういえばかなりの知名人にしてもしかりで、大抵は喋りすぎたり喋らなすぎたり、調子外れだったり、中には肯定や感銘を全く表わさぬ人や、最も頼りないのは、まるで反応のない人、何をいわれても合槌打つばかりではっきりせぬ人もある由である。<br/><br/>又著名な大学者や知識人におあいになっても、明主様は極めて謙虚にそのお話にお耳を傾けられるが、時たまちょっと急所をおつきになると、タジタジとなって言葉につまってしまい、軽く鼻を折られることもある。<br/><br/> 結局、日本語が使えるということは、お問いになることにピッタリ適合したお答えができることである。<br/><br/>それは決してうまく言うことではなくあたりまえにありのまま申し上げることである。<br/><br/>それが、吾々は長い間、詐偽世界に棲息して頭脳の薬毒や魂の眠り、そして種々な誤った思想や制度によって個性の発揮が変に柾げられて卒直にありのままに言えぬようになっており、それが神様の真実の前に著しく露呈される訳であろう。<br/><br/>今吾々は明主様のおかげで、現代より遥かに進んだ線まで知識を高められているのであるから、もっともっと日本語を勉強し洗練された日本語によって世に明るさと楽しさをひろげたいものだと思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

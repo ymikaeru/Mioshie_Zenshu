@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M250428</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年4月28日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年四月二十八日 ――某雑誌に「大昔太陽と月の運行が一日停止した」との記事がありましたが事実でしょうか。<br><br>またこれは日本における天の岩戸隠れと霊的に連なりがありましょうか。<br><br> こんなことはありませんよ、なんかの間違いですね。<br><br>こんなこと絶対にないですよ。<br><br>もしこんなことがあったらね、空気がぜんぜんなくなっちゃって生物は全部死んじゃいますよ。<br><br>どうもくだらないことを言いますね、学者ってのは。<br><br>もっともらしい顔をして、ときどき馬鹿馬鹿しいことを言うんですね。<br><br>天の岩戸隠れってのはね、天照大御神が素盞嗚尊に押し込められたことを言うんでね、それとこれはぜんぜん違いますよ。<br><br> ――六十九歳の信者（婦人）以前に子宮後屈をしたことがありますが、昨年十月に三度大出血し、劇（はげ）しいときには三升も出血して意識不明になり、御浄霊により恢復はいたしましたが、以来心臓が弱り元気がありません。<br><br>これは出血のためと存じますが全治いたしましょうか。<br><br> この出血は下からなんでしょ。<br><br> ――はい、さようでございます。<br><br> これはなんですよ、月経の古血の溜まってたのが出たんですからね、こういう人は毒血が多いんですよ。<br><br>そして古血が出ると同時に他の毒血もその付近のが表に出ますからね。<br><br>……毒血が出ればよさそうなもんだけど、いままで毒血で体が持ってたんだし、そこへもってきて新しい、いい血がそう急にはできないから、それで貧血するんですよ。<br><br> ――顔がむくんでまいりましたが。<br><br> ええ、下からの出血でなくてもね、胃潰瘍なんかでひどく出血しても、むくみがきて青ぶくれになるのがありますよ。<br><br>これはね、貧血すると腎臓の活動が鈍りますからね、それで小便の処分ができないためにむくむんです。<br><br>けど、むくみも血がふえるに従って腎臓が治ってくるから大丈夫ですよ。<br><br> ――狐霊に憑かれた人、腹にいるときは塊となり、ときどき腹をグルグルまわり、膀胱の所へ来ると小便を止めてしまいます。<br><br>お救いいただけましょうか。<br><br> ええ、狐はよく小便を止めますがね。<br><br>祝詞を上げて浄霊すればじきに治りますよ。<br><br> ――祝詞も上げ、ひどいときには三人で御浄霊いたしております。<br><br> 三人でやるって言いますけどね、一人でやるのが本当なんですよ。<br><br>大勢でやればよさそうなもんですが、そうじゃないんですよ。<br><br>狐霊には天津祝詞を上げることですね。<br><br>じき出るようになりますよ。<br><br> ――私はかつて不動様を信仰していたことがありますが、そのとき不動様に願をかけ鶏卵をいっさい断つことを誓いました。<br><br>六年前入信と同時に不動信仰はやめましたが、それ以後も鶏卵を食べると嘔吐をいたします。<br><br>しかも知らずに鶏卵を使った料理を食べましても嘔吐をいたします。<br><br>これはいかなるわけでしょうか。<br><br> ははあ、これは癖になってるんだな。<br><br>……こういうことはあるんですよ。<br><br>あの大本信者ね。<br><br>あれは肉食は絶対いかんって禁じられていたんです。<br><br>そして信者が肉を食べるとくだったり、吐いたりするんですね。<br><br>けど、私は、そんな馬鹿なことがあるもんか、それじゃ西洋人は救えないじゃないかって言ってね、平気で肉食したんですが、なんともなかったんですよ。<br><br>他の人も家内もくだしたり吐いたりしたんですよ。<br><br>そこで大丈夫だから食えって言ったところ、そういう気持ちになって食うとなんともないんですよ。<br><br>つまり一つの精神的な癖がついてるんですね。<br><br> 卵なんかを断つのは嘘ですよ。<br><br>神様が人間に食べさせるために作られたものなんですからね、食べるほうが本当ですよ。<br><br>卵を食べるとだれかが苦しむとか、世の中の罪になるとか言うんだったら、そりゃあいけませんがね。<br><br>そんなことはないんだから。<br><br>それにおいしいし、結構なものなんですからね。<br><br>「そんな馬鹿なことがあるもんか」っていう気持ちで食べれば大丈夫ですよ。<br><br> 精神的な癖って言いますがね、これは副守護神がやるんですよ。<br><br>副守護神ってのはイタズラ好きでね、からかうことなんかとても好きなんですよ。<br><br>たとえばね、このお茶を飲むとしますね、飲んでから「それには毒が入ってるんだ」って言われてごらんなさい。<br><br>きっとおなかが痛くなりますよ（笑声）。<br><br>よく「神経だ」って言いますがね、それが副守護神の働きなんですよ。<br><br>おなかを痛くすることなんて、わけないんです。<br><br>それに人間が信じてると、とてもやりいいんですよ。<br><br>信じてるとすぐに痛くすることもできるんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Respostas às Indagações da Fé</h2>
 <p><strong>Pergunta:</strong> Certa revista publicou um artigo afirmando que, na Antiguidade, o Sol e a Lua interromperam seu curso por um dia. Gostaria de saber se tal fato é verídico e se possui alguma conexão espiritual com o episódio do Ocultamento de Amaterasu no Japão, conhecido como Amano-Iwato.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p><strong>Meishu-Sama:</strong> Ah, sim. Isso se tornou um condicionamento. Fenômenos como esse de fato ocorrem. Tomemos como exemplo os seguidores da Oomoto, a quem era terminantemente proibido o consumo de carne. Se um fiel a comesse, imediatamente sofria de diarreia ou vômitos. Eu, todavia, achava tal preceito um disparate. Afinal, de que forma os ocidentais poderiam ser salvos? Assim, comi carne sem qualquer hesitação e nada me aconteceu. Outras pessoas, inclusive minha esposa, passavam mal. Então, eu as incentivei, afirmando que não haveria problema, e, ao comerem com essa nova convicção, também não sentiram mais nada. Trata-se, portanto, de um condicionamento de natureza espiritual.</p>
 <p>A promessa de se abster de ovos é um equívoco. Deus criou esses alimentos para que os seres humanos os consumissem; logo, o correto é comê-los. Se o ato de comer ovos causasse sofrimento a alguém ou se tornasse um pecado para o mundo, então, sim, seria errado. Mas não é o caso. Além de tudo, são saborosos e excelentes. Se você os comer com a mentalidade de que “tal absurdo não existe”, ficará tudo bem.</p>
 <p>Quando falo em condicionamento espiritual, refiro-me à ação do Espírito Protetor Secundário. Esse espírito tem uma natureza travessa e adora pregar peças. Imagine, por exemplo, que você beba esta xícara de chá. Se, logo após, alguém lhe dissesse: “Havia veneno aí dentro”, pode ter certeza de que seu estômago começaria a doer (risos). As pessoas costumam atribuir isso aos “nervos”, mas, na realidade, é a atuação do Espírito Protetor Secundário. Provocar uma dor de estômago é algo trivial para ele. E quando o ser humano acredita em algo, a tarefa se torna ainda mais fácil. A crença firme da pessoa permite que o espírito manifeste o sintoma instantaneamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年4月28日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年四月二十八日 ――某雑誌に「大昔太陽と月の運行が一日停止した」との記事がありましたが事実でしょうか。<br/><br/>またこれは日本における天の岩戸隠れと霊的に連なりがありましょうか。<br/><br/> こんなことはありませんよ、なんかの間違いですね。<br/><br/>こんなこと絶対にないですよ。<br/><br/>もしこんなことがあったらね、空気がぜんぜんなくなっちゃって生物は全部死んじゃいますよ。<br/><br/>どうもくだらないことを言いますね、学者ってのは。<br/><br/>もっともらしい顔をして、ときどき馬鹿馬鹿しいことを言うんですね。<br/><br/>天の岩戸隠れってのはね、天照大御神が素盞嗚尊に押し込められたことを言うんでね、それとこれはぜんぜん違いますよ。<br/><br/> ――六十九歳の信者（婦人）以前に子宮後屈をしたことがありますが、昨年十月に三度大出血し、劇（はげ）しいときには三升も出血して意識不明になり、御浄霊により恢復はいたしましたが、以来心臓が弱り元気がありません。<br/><br/>これは出血のためと存じますが全治いたしましょうか。<br/><br/> この出血は下からなんでしょ。<br/><br/> ――はい、さようでございます。<br/><br/> これはなんですよ、月経の古血の溜まってたのが出たんですからね、こういう人は毒血が多いんですよ。<br/><br/>そして古血が出ると同時に他の毒血もその付近のが表に出ますからね。<br/><br/>……毒血が出ればよさそうなもんだけど、いままで毒血で体が持ってたんだし、そこへもってきて新しい、いい血がそう急にはできないから、それで貧血するんですよ。<br/><br/> ――顔がむくんでまいりましたが。<br/><br/> ええ、下からの出血でなくてもね、胃潰瘍なんかでひどく出血しても、むくみがきて青ぶくれになるのがありますよ。<br/><br/>これはね、貧血すると腎臓の活動が鈍りますからね、それで小便の処分ができないためにむくむんです。<br/><br/>けど、むくみも血がふえるに従って腎臓が治ってくるから大丈夫ですよ。<br/><br/> ――狐霊に憑かれた人、腹にいるときは塊となり、ときどき腹をグルグルまわり、膀胱の所へ来ると小便を止めてしまいます。<br/><br/>お救いいただけましょうか。<br/><br/> ええ、狐はよく小便を止めますがね。<br/><br/>祝詞を上げて浄霊すればじきに治りますよ。<br/><br/> ――祝詞も上げ、ひどいときには三人で御浄霊いたしております。<br/><br/> 三人でやるって言いますけどね、一人でやるのが本当なんですよ。<br/><br/>大勢でやればよさそうなもんですが、そうじゃないんですよ。<br/><br/>狐霊には天津祝詞を上げることですね。<br/><br/>じき出るようになりますよ。<br/><br/> ――私はかつて不動様を信仰していたことがありますが、そのとき不動様に願をかけ鶏卵をいっさい断つことを誓いました。<br/><br/>六年前入信と同時に不動信仰はやめましたが、それ以後も鶏卵を食べると嘔吐をいたします。<br/><br/>しかも知らずに鶏卵を使った料理を食べましても嘔吐をいたします。<br/><br/>これはいかなるわけでしょうか。<br/><br/> ははあ、これは癖になってるんだな。<br/><br/>……こういうことはあるんですよ。<br/><br/>あの大本信者ね。<br/><br/>あれは肉食は絶対いかんって禁じられていたんです。<br/><br/>そして信者が肉を食べるとくだったり、吐いたりするんですね。<br/><br/>けど、私は、そんな馬鹿なことがあるもんか、それじゃ西洋人は救えないじゃないかって言ってね、平気で肉食したんですが、なんともなかったんですよ。<br/><br/>他の人も家内もくだしたり吐いたりしたんですよ。<br/><br/>そこで大丈夫だから食えって言ったところ、そういう気持ちになって食うとなんともないんですよ。<br/><br/>つまり一つの精神的な癖がついてるんですね。<br/><br/> 卵なんかを断つのは嘘ですよ。<br/><br/>神様が人間に食べさせるために作られたものなんですからね、食べるほうが本当ですよ。<br/><br/>卵を食べるとだれかが苦しむとか、世の中の罪になるとか言うんだったら、そりゃあいけませんがね。<br/><br/>そんなことはないんだから。<br/><br/>それにおいしいし、結構なものなんですからね。<br/><br/>「そんな馬鹿なことがあるもんか」っていう気持ちで食べれば大丈夫ですよ。<br/><br/> 精神的な癖って言いますがね、これは副守護神がやるんですよ。<br/><br/>副守護神ってのはイタズラ好きでね、からかうことなんかとても好きなんですよ。<br/><br/>たとえばね、このお茶を飲むとしますね、飲んでから「それには毒が入ってるんだ」って言われてごらんなさい。<br/><br/>きっとおなかが痛くなりますよ（笑声）。<br/><br/>よく「神経だ」って言いますがね、それが副守護神の働きなんですよ。<br/><br/>おなかを痛くすることなんて、わけないんです。<br/><br/>それに人間が信じてると、とてもやりいいんですよ。<br/><br/>信じてるとすぐに痛くすることもできるんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

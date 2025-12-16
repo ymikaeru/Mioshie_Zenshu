@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>isikkan2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 胃疾患 『天国の福音』昭和22(1947)年2月5日発行 日本人に最も多い病気として胃疾患がある。<br><br>この病気は周知の通り種々の症状があるが、最初はほとんど軽症であるに係わらず、療法や摂生の誤謬のため漸次慢性となり、一進一退の経過をたどりつつついに重症にしてしまうというのが大部分である。<br><br> 最初は消化不良、胸焼け、胃痛等の軽い症状であるが、それ等の原因は胃の外部に溜結せる毒素の圧迫であって、それよりもそれを治癒せんがための消化薬服用と消化しやすい食餌摂取が問題である。<br><br>それ等の方法は一時は有効であるが、連続するに従いついに胃の弱化を促すのである。<br><br>従ってまた服薬する。<br><br>弱化するという訳で、遂に消化薬を放す能（あた）わざるに到り慢性症となるのである。<br><br>また消化薬連続は胃壁をまで柔軟にする。<br><br>それへ固形物が触れる場合亀裂を生じ出血する。<br><br>それが胃潰瘍である。<br><br>故に胃潰瘍の原因はそのほとんどが消化薬連続が原因であるから、かかる場合薬剤を廃止し柔軟食を摂る事によって漸次快方に向うのである。<br><br>また胃壁に腫物を生じ出血する場合もあるが、これは時日を経て血便または吐血する。<br><br>この際医家は胃潰瘍と誤診する事がある。<br><br>右は自然療法によって全治するものである。<br><br>また大酒家に胃潰瘍が多いが、これは酒害よりもよく酒後に用うる薬剤のためで、酒のために充血せる胃壁に対し、薬毒は特に悪影響を与えるのである。<br><br> 次に、胃痙攣は激痛が特徴であるが、これには二種あって、一は第一浄化作用による毒結強化のため胃を圧迫する場合と、第二浄化作用による毒結溶解の場合とである。<br><br>前者は無熱にして後者は有熱で、これは治癒しやすいのである。<br><br>これらの原因は服薬が時日を経て胃に還元し一種の毒素に変じて固結したものである。<br><br>次に胃酸過多症は消化薬服用が原因で消化薬の変化によるのである。<br><br> 世人に恐れられているものに胃癌がある。<br><br>胃癌には真の胃癌と擬似癌とあり、前者はほとんど霊的原因が多く霊的は後に説くが、ここでは両方共体的に説いてみよう。<br><br> 胃癌の初期は、胃の外部上方または心窩（しんか）部に小固結を見、食欲やや不振位にて他はなんらの苦痛なきもので、この際医診においては癌の疑いを起し、多くは手術によって除去するが、手術後大抵一時は良好であっても再発しやすく、医学上の統計によれば、手術後平均二ケ年半の生命を保つに過ぎないという事である。<br><br>医療においては手術に依らざる場合ラジウム放射療法を行う事になっている。<br><br>しかるにこの方法は既記のごとく癌組織を破壊すると共に内臓をも破壊するので、事実は反って悪化するのである。<br><br>また真症癌は末期に到るに従い、癌毒は胃部はもとより腹膜腎臓部等までも犯し、最も悪性なのは上半身全部を犯す事さえある。<br><br>かつ盛んにヌラを嘔吐し食欲の減退著しく衰弱死に到るのである。<br><br>このヌラが真症癌の特徴である。<br><br>そうして普通は緩慢なる進行をとるが、人により非常に速かに進行するのもある。<br><br>稀には一両日間に半身全部を犯すものさえある。<br><br>真症癌は、本医術によるも初期なれば完全に治癒するが、中間以後はまず快復困難と見るべきである。<br><br>またこの病気の特徴として、発病早期から急激に痩せる事であって、はなはだしきは一ケ月間に一貫目位ずつ体重減退するものさえある。<br><br>かつ皮膚は光沢と弾力を失い、極度の貧血に陥るが、割合不快や苦痛はないのである。<br><br>故にこの病気を診断の場合右のごとき症状によってよく知り得るのであるが、医家は種々の理学的方法を行い、診断は容易に下せないのである。<br><br>また医学においては結核を、滅減性疾患といい、癌を増殖性疾患というのである。<br><br>そうして癌の毒素は特異性のもので膿ではないから医学においても癌には菌がないとされている。<br><br>また真症癌は霊的であるから、唯物的医学においては全く病原不明と共に治療も確立し難いのである。<br><br> 擬似癌の原因は、膿及び毒血の固結せるもので、初期においては真症癌と同じく胃の外部に固結を生じ、漸次腹膜、腎臓部等に及ぶのであるが、これは治癒しやすく、衰弱がある程度を越えざる限り、ほとんどが全治するものである。<br><br> （注）心窩部（しんかぶ）、胸骨正中下方。<br><br>みぞおちの部分。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise sobre as Enfermidades Gástricas</h2>
 <p>Entre os japoneses, as enfermidades gástricas figuram entre as mais prevalentes. Ainda que, em sua maioria, se iniciem com sintomas leves, a aplicação de terapias inadequadas e os equívocos no regime de vida e na alimentação acabam, gradualmente, por cronificá-las. Dessa forma, a maior parte dos casos evolui por um percurso de altos e baixos, culminando em um quadro de gravidade acentuada.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>O câncer genuíno, quando em seu estágio inicial, pode ser completamente curado por meio de nossa arte, mas a partir de sua fase intermediária, a recuperação torna-se improvável. Uma característica marcante desta doença é a rápida perda de peso desde o início, chegando, em casos extremos, a uma redução de quase quatro quilos por mês. A pele perde o brilho e a elasticidade, e o paciente desenvolve uma anemia profunda, embora, paradoxalmente, sinta relativamente pouco desconforto ou dor. Esses sintomas permitem um diagnóstico preciso; no entanto, a medicina convencional, ao empregar seus diversos métodos de análise física, muitas vezes não consegue chegar a uma conclusão com facilidade.</p>
 <p>A medicina classifica a tuberculose como uma enfermidade consuntiva e o câncer como uma enfermidade proliferativa. Considera-se, também, que as toxinas do câncer são de natureza peculiar, distintas do pus, e, por isso, afirma-se que o câncer não possui germes. Sendo o câncer genuíno de origem espiritual, a medicina materialista é incapaz de identificar sua verdadeira causa e, consequentemente, de estabelecer um tratamento eficaz.</p>
 <p>Já o pseudo-câncer é causado pela solidificação de pus e sangue tóxico. Em seus estágios iniciais, assemelha-se ao câncer genuíno, com o surgimento de um nódulo que se estende progressivamente ao peritônio e à região dos rins. No entanto, sua cura é relativamente fácil, e a recuperação completa é a norma, desde que a debilidade do paciente não tenha ultrapassado um certo limite.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 胃疾患 『天国の福音』昭和22(1947)年2月5日発行 日本人に最も多い病気として胃疾患がある。<br/><br/>この病気は周知の通り種々の症状があるが、最初はほとんど軽症であるに係わらず、療法や摂生の誤謬のため漸次慢性となり、一進一退の経過をたどりつつついに重症にしてしまうというのが大部分である。<br/><br/> 最初は消化不良、胸焼け、胃痛等の軽い症状であるが、それ等の原因は胃の外部に溜結せる毒素の圧迫であって、それよりもそれを治癒せんがための消化薬服用と消化しやすい食餌摂取が問題である。<br/><br/>それ等の方法は一時は有効であるが、連続するに従いついに胃の弱化を促すのである。<br/><br/>従ってまた服薬する。<br/><br/>弱化するという訳で、遂に消化薬を放す能（あた）わざるに到り慢性症となるのである。<br/><br/>また消化薬連続は胃壁をまで柔軟にする。<br/><br/>それへ固形物が触れる場合亀裂を生じ出血する。<br/><br/>それが胃潰瘍である。<br/><br/>故に胃潰瘍の原因はそのほとんどが消化薬連続が原因であるから、かかる場合薬剤を廃止し柔軟食を摂る事によって漸次快方に向うのである。<br/><br/>また胃壁に腫物を生じ出血する場合もあるが、これは時日を経て血便または吐血する。<br/><br/>この際医家は胃潰瘍と誤診する事がある。<br/><br/>右は自然療法によって全治するものである。<br/><br/>また大酒家に胃潰瘍が多いが、これは酒害よりもよく酒後に用うる薬剤のためで、酒のために充血せる胃壁に対し、薬毒は特に悪影響を与えるのである。<br/><br/> 次に、胃痙攣は激痛が特徴であるが、これには二種あって、一は第一浄化作用による毒結強化のため胃を圧迫する場合と、第二浄化作用による毒結溶解の場合とである。<br/><br/>前者は無熱にして後者は有熱で、これは治癒しやすいのである。<br/><br/>これらの原因は服薬が時日を経て胃に還元し一種の毒素に変じて固結したものである。<br/><br/>次に胃酸過多症は消化薬服用が原因で消化薬の変化によるのである。<br/><br/> 世人に恐れられているものに胃癌がある。<br/><br/>胃癌には真の胃癌と擬似癌とあり、前者はほとんど霊的原因が多く霊的は後に説くが、ここでは両方共体的に説いてみよう。<br/><br/> 胃癌の初期は、胃の外部上方または心窩（しんか）部に小固結を見、食欲やや不振位にて他はなんらの苦痛なきもので、この際医診においては癌の疑いを起し、多くは手術によって除去するが、手術後大抵一時は良好であっても再発しやすく、医学上の統計によれば、手術後平均二ケ年半の生命を保つに過ぎないという事である。<br/><br/>医療においては手術に依らざる場合ラジウム放射療法を行う事になっている。<br/><br/>しかるにこの方法は既記のごとく癌組織を破壊すると共に内臓をも破壊するので、事実は反って悪化するのである。<br/><br/>また真症癌は末期に到るに従い、癌毒は胃部はもとより腹膜腎臓部等までも犯し、最も悪性なのは上半身全部を犯す事さえある。<br/><br/>かつ盛んにヌラを嘔吐し食欲の減退著しく衰弱死に到るのである。<br/><br/>このヌラが真症癌の特徴である。<br/><br/>そうして普通は緩慢なる進行をとるが、人により非常に速かに進行するのもある。<br/><br/>稀には一両日間に半身全部を犯すものさえある。<br/><br/>真症癌は、本医術によるも初期なれば完全に治癒するが、中間以後はまず快復困難と見るべきである。<br/><br/>またこの病気の特徴として、発病早期から急激に痩せる事であって、はなはだしきは一ケ月間に一貫目位ずつ体重減退するものさえある。<br/><br/>かつ皮膚は光沢と弾力を失い、極度の貧血に陥るが、割合不快や苦痛はないのである。<br/><br/>故にこの病気を診断の場合右のごとき症状によってよく知り得るのであるが、医家は種々の理学的方法を行い、診断は容易に下せないのである。<br/><br/>また医学においては結核を、滅減性疾患といい、癌を増殖性疾患というのである。<br/><br/>そうして癌の毒素は特異性のもので膿ではないから医学においても癌には菌がないとされている。<br/><br/>また真症癌は霊的であるから、唯物的医学においては全く病原不明と共に治療も確立し難いのである。<br/><br/> 擬似癌の原因は、膿及び毒血の固結せるもので、初期においては真症癌と同じく胃の外部に固結を生じ、漸次腹膜、腎臓部等に及ぶのであるが、これは治癒しやすく、衰弱がある程度を越えざる限り、ほとんどが全治するものである。<br/><br/> （注）心窩部（しんかぶ）、胸骨正中下方。<br/><br/>みぞおちの部分。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

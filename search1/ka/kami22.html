@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami22</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の経綸 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 抑々宇宙とは何ぞや、それは無限大の空間の中に、太陽、月球、地球及び星辰が存在している事は誰も知る処である。<br><br>そうして吾々の住む此地球こそ宇宙の中心であり、主である。<br><br>又日、月、星、辰は地球の為に存在し、地球は日月星辰によつて存在するのである。<br><br>故に、その経綸を行はせ給はんが為に、神の代行者として人間なるものが造られてあるのであり又万物は人間の為に造られたのである事は言ふ迄もない。<br><br>従而、人間の使命たるや、実に重且つ大であつて、神の理想を此地上に顕現すべき為に生れさせられたのであるから、それを自覚する事によつて、真の人間たり得るのである。<br><br>此意味に於て、人間は自己本位の我欲に囚はれたり、国家社会の進運に聊かなりとも背馳するやうな事なく、惟神、神定め給へる大君を現人神（あらひとがみ）と崇め奉り、忠孝を本とし安逸を卑しみ、各々の職域に奮励努力すべきであつて、是に到つて初めて人間たる本分に適ふのである。<br><br>特に日本人は世界に冠たる皇国の民であり、神の選民である事を自覚しなければならないのである。<br><br> そうして、主神の深甚なる御目的や、其御経綸は、到底人間の想像だも及び得べからざる事は固よりであるが、只だ御経綸の上に於て、神は其時代々々に必要なる人間を顕はしそれぞれの使命を遂行させ給ふ事は吾々と雖も想像し得らるるのである。<br><br>勿論、英雄も偉人も聖者もそれであり、又、戦争も平和もその為であり、斯くして此地上は一歩々々無限の進展を遂げつつあるのでその実相は、誰もが眼にも映るのである。<br><br>故に、何時果つべくもなくみゆる大戦争や大禍乱大天災も、その渦中にある間は暗澹たるものであるが、時過ぎ時来れば、又平和の光は射し初め、泰平を謳歌するといふやうになるのであつて、実に変転極まりないのが世界の姿である。<br><br> そうして古来からの歴史の推移を、心を潜めて冷静に観る時そこには一貫した而も厳然たる―神の摂理と御目的が、朧気（おぼろげ）ながらも、窺ひ知らるるのである。<br><br> 以上の意味によつて、私は数年前、日本が世界を統一すると共に、東西文化を融合して成つた新しい文化が日本から生れて、逆に世界へ拡充する事を予言した事があるが、今やそれが着々実現の時となつて、最早何人と雖も、明かに知り得る状態になつたのである。<br><br>今戦ひつつある大東亜の戦争も、支那事変も三国同盟も、五、五、三の華府（ワシントン）会議も、聯盟脱退も、第一次欧洲大戦も、日清戦争も日露戦争も明治維新も、その準備であつた事が肯かるるであらう。<br><br>又、畏くも、遠きは神武天皇の八紘為宇の大神勅も、今日の為に発せられ給ふた一大予言と拝察せらるるのである。<br><br> そうして、支那事変によつて数年を費した事が、大東亜戦争に対する周到なる準備工作の為であり、南洋一帯の資源を米、英、蘭が二三世紀に亘つて開発した事もそれであり、大東亜戦争に全力を挙げて、後顧の憂なく戦ひ得るといふ事は、中立条約の為と、盟邦独逸が蘇聯をあれほどに打撃を与へたからでもあらうし、五、五、三の比率によつて、日本の海軍が猛訓練を行はざるを得なくなつて、それが今日、赫々たる戦果を挙げ得る動機となつた事等も、実に深甚なる神意でなくて何であらう。<br><br>全く彼を思ひ是を憶ふ時、日本をして世界の盟主たらしむべく、数千年前より神が深遠なる御経綸を行はせ給ひつつあつた事を拝察さるるのである。<br><br>実に一切は神の御意志によつて動き、歴史とは神の経綸の道程にしか過ぎない事と思ふのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Plano Divino e a Missão do Japão</h2>
 <p>Afinal, o que é o Universo? Todos sabem que ele consiste em um espaço de grandeza infinita, no qual existem o Sol, a Lua, a Terra e as demais estrelas. Esta Terra que habitamos constitui o centro e o senhor do Universo. Por sua vez, o Sol, a Lua e os astros existem em função da Terra, ao passo que a Terra existe por meio deles. Foi para executar o Seu Plano Divino que Deus criou o ser humano como Seu representante, e não é preciso dizer que todas as coisas foram criadas em função da humanidade.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Foi com base nesse entendimento que, há alguns anos, anunciei a predição de que o Japão unificaria o mundo e que, da fusão das culturas oriental e ocidental, nasceria em solo japonês uma nova civilização, a qual, em um movimento inverso, se expandiria para todo o planeta. Atualmente, essa profecia caminha para sua concretização, a um ponto em que se tornou evidente para qualquer observador. Compreender-se-á, então, que a atual Guerra da Grande Ásia Oriental, o Incidente da China, o Pacto Tripartite, a Conferência Naval de Washington e sua proporção de 5-5-3, a retirada da Liga das Nações, a Primeira Grande Guerra Europeia, as guerras Sino-Japonesa e Russo-Japonesa, e até mesmo a Restauração Meiji, foram todos preparativos para este momento. Ademais, é com o mais profundo respeito que podemos enxergar no sagrado édito do Imperador Jimmu sobre <em>Hakko Ichiu</em> — a unificação dos oito cantos do mundo sob um único teto — uma grandiosa profecia enunciada para os dias de hoje.</p>
 <p>Observa-se, ainda, que os anos despendidos no Incidente da China serviram como um meticuloso trabalho preparatório para a Guerra da Grande Ásia Oriental. O fato de nações como Estados Unidos, Inglaterra e Holanda terem explorado por séculos os vastos recursos do Sudeste Asiático também se insere neste contexto. A capacidade do Japão de empenhar hoje toda a sua força na Guerra, sem receio quanto à retaguarda, deve-se ao tratado de neutralidade e ao enfraquecimento da União Soviética por nossa aliada, a Alemanha. Da mesma forma, a desvantajosa proporção naval de 5-5-3 compeliu a Marinha Imperial a um treinamento de rigor excepcional, o que se tornou a causa primária para os resultados bélicos tão esplêndidos de hoje. Diante de tudo isso, como não enxergar a profundíssima Vontade Divina?</p>
 <p>Ao ponderar sobre todos estes fatos, percebe-se claramente que, para que o Japão se tornasse o líder do mundo, Deus vem executando Seu Plano de longo alcance há milhares de anos. Em verdade, tudo se move segundo a Vontade Divina, e a história nada mais é do que a trajetória de Seu Plano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の経綸 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 抑々宇宙とは何ぞや、それは無限大の空間の中に、太陽、月球、地球及び星辰が存在している事は誰も知る処である。<br/><br/>そうして吾々の住む此地球こそ宇宙の中心であり、主である。<br/><br/>又日、月、星、辰は地球の為に存在し、地球は日月星辰によつて存在するのである。<br/><br/>故に、その経綸を行はせ給はんが為に、神の代行者として人間なるものが造られてあるのであり又万物は人間の為に造られたのである事は言ふ迄もない。<br/><br/>従而、人間の使命たるや、実に重且つ大であつて、神の理想を此地上に顕現すべき為に生れさせられたのであるから、それを自覚する事によつて、真の人間たり得るのである。<br/><br/>此意味に於て、人間は自己本位の我欲に囚はれたり、国家社会の進運に聊かなりとも背馳するやうな事なく、惟神、神定め給へる大君を現人神（あらひとがみ）と崇め奉り、忠孝を本とし安逸を卑しみ、各々の職域に奮励努力すべきであつて、是に到つて初めて人間たる本分に適ふのである。<br/><br/>特に日本人は世界に冠たる皇国の民であり、神の選民である事を自覚しなければならないのである。<br/><br/> そうして、主神の深甚なる御目的や、其御経綸は、到底人間の想像だも及び得べからざる事は固よりであるが、只だ御経綸の上に於て、神は其時代々々に必要なる人間を顕はしそれぞれの使命を遂行させ給ふ事は吾々と雖も想像し得らるるのである。<br/><br/>勿論、英雄も偉人も聖者もそれであり、又、戦争も平和もその為であり、斯くして此地上は一歩々々無限の進展を遂げつつあるのでその実相は、誰もが眼にも映るのである。<br/><br/>故に、何時果つべくもなくみゆる大戦争や大禍乱大天災も、その渦中にある間は暗澹たるものであるが、時過ぎ時来れば、又平和の光は射し初め、泰平を謳歌するといふやうになるのであつて、実に変転極まりないのが世界の姿である。<br/><br/> そうして古来からの歴史の推移を、心を潜めて冷静に観る時そこには一貫した而も厳然たる―神の摂理と御目的が、朧気（おぼろげ）ながらも、窺ひ知らるるのである。<br/><br/> 以上の意味によつて、私は数年前、日本が世界を統一すると共に、東西文化を融合して成つた新しい文化が日本から生れて、逆に世界へ拡充する事を予言した事があるが、今やそれが着々実現の時となつて、最早何人と雖も、明かに知り得る状態になつたのである。<br/><br/>今戦ひつつある大東亜の戦争も、支那事変も三国同盟も、五、五、三の華府（ワシントン）会議も、聯盟脱退も、第一次欧洲大戦も、日清戦争も日露戦争も明治維新も、その準備であつた事が肯かるるであらう。<br/><br/>又、畏くも、遠きは神武天皇の八紘為宇の大神勅も、今日の為に発せられ給ふた一大予言と拝察せらるるのである。<br/><br/> そうして、支那事変によつて数年を費した事が、大東亜戦争に対する周到なる準備工作の為であり、南洋一帯の資源を米、英、蘭が二三世紀に亘つて開発した事もそれであり、大東亜戦争に全力を挙げて、後顧の憂なく戦ひ得るといふ事は、中立条約の為と、盟邦独逸が蘇聯をあれほどに打撃を与へたからでもあらうし、五、五、三の比率によつて、日本の海軍が猛訓練を行はざるを得なくなつて、それが今日、赫々たる戦果を挙げ得る動機となつた事等も、実に深甚なる神意でなくて何であらう。<br/><br/>全く彼を思ひ是を憶ふ時、日本をして世界の盟主たらしむべく、数千年前より神が深遠なる御経綸を行はせ給ひつつあつた事を拝察さるるのである。<br/><br/>実に一切は神の御意志によつて動き、歴史とは神の経綸の道程にしか過ぎない事と思ふのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

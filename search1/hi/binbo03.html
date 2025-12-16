@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>binbo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 貧乏の原因 『光』15号、昭和24(1949)年6月30日発行 本教のモットーである、病貧争絶無の世界を造るというについては病気に関する事は、あらゆる角度から相当検討し解説したつもりであり、なお今後も引続き、神示の医学として解明するはずであるから、次の問題である貧と争についてかいてみよう。<br><br> そもそも貧の原因はもちろん健康の破綻からである事は言うまでもないが、それ以外の原因にも重要なものがあるから、それをかいてみよう。<br><br> 貧の原因が、病気のため働けないばかりか、多額の医療費を要する事、それも短期間ならいいが、長期にわたるとすれば、勤務先は馘（くび）になり、病気の悩みの外生活苦も加わり、二重の責苦に遭い、前途不安の暗雲に閉され、進退きわまり、その苦悩たるや実に地獄のドン底ともいえるのである、かような境遇にある不幸な人々は世間到るところに充ち満ちているのである、そういう多くの不幸者が、本教を知ってたちまち地獄から脱出し、前途に光明を認め、歓喜の生活が開始されると言う実例は、おかげばなし中に、無数にみられるのである。<br><br> これだけで貧の大半は、解決出来るのであるが、なお進んで今一つの重要事をかき、絶対的貧の解決の秘訣を知らしめるべく、私の体験をかいてみよう、私は若い頃無信仰でありながら、社会改善の志望やみ難く、それには新聞事業程効果なるものないと思い、調査したところ、当時百万円くらいを要するとのことであった、私は貧乏人の伜（せがれ）で、親から貰った僅かばかりの金で世帯を持ち、九尺間口の小間物小売業を創めたところ、大分成績がよいので、一年余りで問屋を創め、十年くらいで業界から成功者と言われるようになり、資産も、当時の金で（大正八年頃）十五万円程をかち得た、そこで新聞事業の資金を早く獲得しようと大いに焦って手を拡げすぎたため遂に大失敗をし、逆にマイナスになってしまった、その結果最早新聞事業どころではないと諦め、苦しい時の神頼みで宗教にはしり波瀾重畳の経路をたどりつつ多額の借金に苦しめられる事約二十年程であった、しかし今考えてみれば、これが私の難行苦行であったのだ、世の常の宗教家といえば山に入り滝を浴び断食をするというような訳だが、私はそれよりも一層の難行であり苦行であると思った、もちろん貧乏のドン底に喘いだ事も一再ではなかった、その時覚り得た貧乏哲学をこれからかくのである。<br><br> およそ貧乏の原因は、病気以外は借金である、人間借金をしなければ決して貧乏にはならないという結論を得た、というのは借金をすれば返済の期日が必ず来るとすれば、払う金は確定的だ、ところが入る金は決った日が来ても大抵は延びるものだ、そこで喰違う、また借金は皆済するまでは一日の休みもなく利子がつく、ゆえに算盤では儲かるようにみえても、利子を差引くと、案外儲からないことになる、また借金は絶えず精神的に脅かされ、心に安心がないから良い考えが浮ばない、智慧が鈍るという訳である。<br><br> 以上のごとくであるから、世間多くの失敗者や、貧乏に落ちる人のほとんどは借金が原因といってもいい、この意味を悟った私は常に人に向かって言うことは十万円の資本があるとすれば、まず三分の一、三万円で商売をしろというのである、このような行き方は、最初は小さいようではあるが、実は時が経つと案外大きくなるものである、というのは三万円なら少々失敗があってもこの次は失敗の経験で知識を得ているから、別の方法で、また三万円で創める、これで大抵は成功の緒に着くものである、万一それでも失敗したら、最後の三万円でやれば、今度は必ず成功するのである、ところが世の中で大抵の人は十万円の資金をもつと資金一杯で創めるが、中には反って五万円の借金を足して十五万円で創めるという訳で、実に冒険である、ゆえに失敗したら最後、再び起つ能わざる致命傷を蒙（こうむ）るのは当然である、ところが私のいうやり方だと資金に余裕があるから非常に安いものとか、確実な金儲があればすぐに乗り出す事が出来るから、案外ボロイ利益を得る、それに引換え、資金が手一杯だと支払にまごつくような事もあり、延ばすような事もあり得るから信用が低下する、ところが余裕があると、いつも支払は確実だから信用が厚い、という訳で種々な利益がある、この事について私は大きい例をかいてみよう。<br><br> 日本が今日のごとき敗戦国となったその最大の原因は借金政策である、これに気のつく人は余りないようであるが、これは大いに関心を持たなければならない、今次の大戦前までは日本の貿易は年々輸入超過であって、借金は年々殖えるばかりで、ついには借金のための借金をするようになってしまった、その借金でどんどん軍備を拡張し、領土を拡げ益々侵略の手を伸したのである、もちろん国外の借金ばかりではなく、国内の借金、すなわち公債政策も極度に拡張した、今赤字で困っている国鉄もその遺物であったという訳で、もしも日本がこの借金政策を行わないとしたら、侵略の野心家もあるいは出なかったかも知れない、そればかりではない、年々貿易は出超となり、富裕な国になったに違いない、その結果平和的文化は大いに発展し、国民の道義は昂揚し世界で羨まれるような幸福な国家となったであろう事はもちろんである、このような富裕国とすれば、食糧の不足は必要だけ楽に輸入されると共に、日本人の平和的である事の安心感を各国に与える結果、広茫（こうぼう）の土地の所有国は挙（こぞ）って日本移民を歓迎するであろうから、産児制限の必要などはあり得べくもないということになろう。<br><br> 国家でさえ、借金政略の結果は以上のごとくであるとすれば、個人といえども何ら変るところはないのである。<br><br> 貧の解決法は以上によって理解され得るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Raízes da Pobreza</h2>
 <p>O lema de nossa Igreja é a construção de um mundo isento de doença, pobreza e conflito. Já abordei sob diversas perspectivas a questão da doença, e pretendo continuar a aprofundá-la como parte da Medicina Divina. Sendo assim, dedicarei este texto aos temas seguintes: a pobreza e o conflito.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Se o Japão não tivesse adotado essa política de endividamento, talvez os fomentadores da agressão jamais tivessem surgido. Mais do que isso, o país certamente teria registrado superávits comerciais anuais, tornando-se uma nação próspera. Consequentemente, a cultura e a paz teriam florescido, a moralidade do povo teria se elevado, e o Japão ter-se-ia transformado em um país feliz e invejado pelo mundo. Sendo uma nação tão rica, poderia importar com facilidade todos os alimentos de que necessitasse. Ademais, ao transmitir uma imagem de povo pacífico, as nações com vastos territórios teriam acolhido de bom grado os imigrantes japoneses, e a necessidade de controle de natalidade jamais teria existido.</p>
 <p>Se as consequências de uma política de endividamento são tão devastadoras para uma nação, para o indivíduo o princípio não é diferente.</p>
 <p>Creio que, com o exposto, o caminho para a superação da pobreza torna-se compreensível.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 貧乏の原因 『光』15号、昭和24(1949)年6月30日発行 本教のモットーである、病貧争絶無の世界を造るというについては病気に関する事は、あらゆる角度から相当検討し解説したつもりであり、なお今後も引続き、神示の医学として解明するはずであるから、次の問題である貧と争についてかいてみよう。<br/><br/> そもそも貧の原因はもちろん健康の破綻からである事は言うまでもないが、それ以外の原因にも重要なものがあるから、それをかいてみよう。<br/><br/> 貧の原因が、病気のため働けないばかりか、多額の医療費を要する事、それも短期間ならいいが、長期にわたるとすれば、勤務先は馘（くび）になり、病気の悩みの外生活苦も加わり、二重の責苦に遭い、前途不安の暗雲に閉され、進退きわまり、その苦悩たるや実に地獄のドン底ともいえるのである、かような境遇にある不幸な人々は世間到るところに充ち満ちているのである、そういう多くの不幸者が、本教を知ってたちまち地獄から脱出し、前途に光明を認め、歓喜の生活が開始されると言う実例は、おかげばなし中に、無数にみられるのである。<br/><br/> これだけで貧の大半は、解決出来るのであるが、なお進んで今一つの重要事をかき、絶対的貧の解決の秘訣を知らしめるべく、私の体験をかいてみよう、私は若い頃無信仰でありながら、社会改善の志望やみ難く、それには新聞事業程効果なるものないと思い、調査したところ、当時百万円くらいを要するとのことであった、私は貧乏人の伜（せがれ）で、親から貰った僅かばかりの金で世帯を持ち、九尺間口の小間物小売業を創めたところ、大分成績がよいので、一年余りで問屋を創め、十年くらいで業界から成功者と言われるようになり、資産も、当時の金で（大正八年頃）十五万円程をかち得た、そこで新聞事業の資金を早く獲得しようと大いに焦って手を拡げすぎたため遂に大失敗をし、逆にマイナスになってしまった、その結果最早新聞事業どころではないと諦め、苦しい時の神頼みで宗教にはしり波瀾重畳の経路をたどりつつ多額の借金に苦しめられる事約二十年程であった、しかし今考えてみれば、これが私の難行苦行であったのだ、世の常の宗教家といえば山に入り滝を浴び断食をするというような訳だが、私はそれよりも一層の難行であり苦行であると思った、もちろん貧乏のドン底に喘いだ事も一再ではなかった、その時覚り得た貧乏哲学をこれからかくのである。<br/><br/> およそ貧乏の原因は、病気以外は借金である、人間借金をしなければ決して貧乏にはならないという結論を得た、というのは借金をすれば返済の期日が必ず来るとすれば、払う金は確定的だ、ところが入る金は決った日が来ても大抵は延びるものだ、そこで喰違う、また借金は皆済するまでは一日の休みもなく利子がつく、ゆえに算盤では儲かるようにみえても、利子を差引くと、案外儲からないことになる、また借金は絶えず精神的に脅かされ、心に安心がないから良い考えが浮ばない、智慧が鈍るという訳である。<br/><br/> 以上のごとくであるから、世間多くの失敗者や、貧乏に落ちる人のほとんどは借金が原因といってもいい、この意味を悟った私は常に人に向かって言うことは十万円の資本があるとすれば、まず三分の一、三万円で商売をしろというのである、このような行き方は、最初は小さいようではあるが、実は時が経つと案外大きくなるものである、というのは三万円なら少々失敗があってもこの次は失敗の経験で知識を得ているから、別の方法で、また三万円で創める、これで大抵は成功の緒に着くものである、万一それでも失敗したら、最後の三万円でやれば、今度は必ず成功するのである、ところが世の中で大抵の人は十万円の資金をもつと資金一杯で創めるが、中には反って五万円の借金を足して十五万円で創めるという訳で、実に冒険である、ゆえに失敗したら最後、再び起つ能わざる致命傷を蒙（こうむ）るのは当然である、ところが私のいうやり方だと資金に余裕があるから非常に安いものとか、確実な金儲があればすぐに乗り出す事が出来るから、案外ボロイ利益を得る、それに引換え、資金が手一杯だと支払にまごつくような事もあり、延ばすような事もあり得るから信用が低下する、ところが余裕があると、いつも支払は確実だから信用が厚い、という訳で種々な利益がある、この事について私は大きい例をかいてみよう。<br/><br/> 日本が今日のごとき敗戦国となったその最大の原因は借金政策である、これに気のつく人は余りないようであるが、これは大いに関心を持たなければならない、今次の大戦前までは日本の貿易は年々輸入超過であって、借金は年々殖えるばかりで、ついには借金のための借金をするようになってしまった、その借金でどんどん軍備を拡張し、領土を拡げ益々侵略の手を伸したのである、もちろん国外の借金ばかりではなく、国内の借金、すなわち公債政策も極度に拡張した、今赤字で困っている国鉄もその遺物であったという訳で、もしも日本がこの借金政策を行わないとしたら、侵略の野心家もあるいは出なかったかも知れない、そればかりではない、年々貿易は出超となり、富裕な国になったに違いない、その結果平和的文化は大いに発展し、国民の道義は昂揚し世界で羨まれるような幸福な国家となったであろう事はもちろんである、このような富裕国とすれば、食糧の不足は必要だけ楽に輸入されると共に、日本人の平和的である事の安心感を各国に与える結果、広茫（こうぼう）の土地の所有国は挙（こぞ）って日本移民を歓迎するであろうから、産児制限の必要などはあり得べくもないということになろう。<br/><br/> 国家でさえ、借金政略の結果は以上のごとくであるとすれば、個人といえども何ら変るところはないのである。<br/><br/> 貧の解決法は以上によって理解され得るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

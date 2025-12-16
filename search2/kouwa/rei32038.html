@@ -1,166 +1,315 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>rei32038</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#EFFFE6">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>rei32038</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（二） ３ 038-057 樹と龍神 038 霊のいる木の見別け 某神社が経営困難につき、境内の多数の木を伐採し売却する事となり、ある信者の木材業者が伐り倒すように頼まれましたが、この場合、お祭りはどう致したら宜敷う御座居ましょうか。<br><br> 木を見て、霊のいるのは感じで判る。<br><br>やはり大きいのに憑いている。<br><br>（S24. 7. 2） 039 龍神憑る井戸・立木 井戸や立木には龍神の憑依しているのがあると伺っておりますが、憑依しおるか否かをはっきり見分ける方法が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 新しいのはそうでないが、古い井戸は必ずいる。<br><br>龍神の誰か必ず入る。<br><br> 立木によってで、一番多いのは柳、松、銀杏、榎など多い。<br><br>後は神社の木で――杉、桧等で、以前耳の遠い中年の婦人で、桜の霊の憑いたのがあった。<br><br> 古くなると憑依霊があるものである。<br><br>（S24. 8.21） 040 枝切ると事故起る無花果（いちじく） 信徒ではありませんが、私の隣家で庭内の無花果の枝を切るとその家の者が病気したり死亡したり致します。<br><br>最初大枝を切った時は祖母が自殺し、次に小枝を切った時は赤ン坊が直ぐ死にました。<br><br>また、近頃子供が小枝を折ったら病気中の父親が突然非常に苦しみ出しました。<br><br>この原因は無花果にあるか他にあるか御教示お願い申し上げます。<br><br> 無花果に霊が憑いてる。<br><br>木龍で、切らせないようにしている。<br><br>こういうのは周りに垣をするとよい。<br><br> 銀杏、柳、松、榎等には憑りやすい。<br><br> 「明日の医術第三篇」にある。<br><br>（S24. 8.16） 041 切らせぬ無花果 無花果へ木龍（蛇）が憑っている。<br><br>切られると苦しいので、切らせぬようにする。<br><br> 無花果、銀杏などは霊が憑りやすい。<br><br>柳、松、榎も憑りやすい。<br><br>（S23） 042 五子の聾耳と松林跡（龍）・解決法 某教修生、昭和二年に現在の大和町（神奈川県高座郡）へ住居を新築いたしましたところ、その後生れた子供五人は全部耳がよく聴えません。<br><br>医師の診断では何等故障がないと申します。<br><br>その辺は小松山で、ところどころ松の大木があった由で御座います。<br><br> 以下口頭を以て御伺い申し上げます。<br><br> 憑きたてではないから憑いたまま救った方がよい。<br><br>信仰して徳を積む事である。<br><br> 龍神が祝詞など聞いてるうち、浄化して昇天するなどで解決する。<br><br>（S24. 6. 9） 043 木龍の盲目と人救い 私は七年前大風で倒れた李の大木を伐った事が御座いますが、その後程無くひどくのぼせるようになりまして、耳鳴りがひどく、段々聴こえなくなりまして、六年程全く聴こえません。<br><br>右の木を伐った事と霊的な関係が御座いましょうか。<br><br>また、私は全然聴こえませんので、他人を浄霊する場合、容態は聞かないので御座いますが、浄霊を始めますと病気の所が掌に感ずるので御座いますが、これはどういう訳で御座いましょうか。<br><br>御教え御願い申し上げます。<br><br>入信後二ケ月になりますが、浄霊をいただき、また多数の浄霊をさせていただいておりますが、御守護により段々耳鳴りやのぼせが取れて参りまして、感謝致しております。<br><br>何卒御守護の程御願い申し上げます。<br><br> 木龍が憑っている。<br><br>龍神は敏感なものであるから、感ずる。<br><br>大抵人間であるから、自分が救われてゆく。<br><br>人助けすれば、その徳で龍神が救われ、人間も救われる。<br><br>（S25. 2.28） 044 伐木跡へ便所建て不幸続出す ある入信者、二十年前現在の土地を買い家を建てた時、一本の古い大木を伐り倒し、現在は丁度その所が御不浄となっております。<br><br> この家に住んでからは兄嫁が発狂、一人の子を残して死亡、また家内のものや、親戚のものが次から次へと耳を病み、弟は左耳が聞えず、ちょっとした事にも怒り、時には目を据えて蛇のような目付きをし、所構わずその辺にある物を投げつけます。<br><br>また、井戸水も非常に濁り、掘り返しても濁水で、この土地は首をくくった人も前住しているそうで、二十年も経った現在、祖母は霊憑りとなり、依然災難が続いています。<br><br>右、理由―― 龍神が怒っているから、便所を他へ移すといい。<br><br> 045 金比羅様と、木枝折りて病気 金毘羅様をお祀りした祠が雨や虫でお札がなくなっております。<br><br>傍に一本の松の木がございまして、この枝を折ると病人が出来るそうでございます。<br><br>先日夢に馬がその祠へ入るところを見たそうで御座います。<br><br>毎年一回はお祀りしておりますが、新たにお札をお祭りした方がよろしゅうございましょうか。<br><br>御伺い申し上げます。<br><br> これは祀るのを止めよ。<br><br>今に金比羅の名さえなくなる。<br><br>金比羅様は琴平別の神である。<br><br> 木の枝を折るのは、木に龍が憑いていて、イヤがるのである。<br><br>（S24.10.22） 046 棕梠の祟り 昨年八月入信の者、一昨年六月帰郷の際近くの人に「棕梠の木は屋根より高いのはいけないから倒してくれないか」と頼まれ、その人の家の二階の屋根より高い棕梠の木を三本切り倒しました。<br><br>その後同年十一月に足が化膿し、その月末に風邪をひき、無理して働いておりましたところ、ある夜急にガタガタと寒気が起り、大した熱もなく猛烈に震えました。<br><br>その後医者の治療を受け、段々悪化した所をこのお道によりお救い頂き、入信後御浄霊を頂いておりますが、左胸部の痛みが全然とれません。<br><br>心臓も動悸が致し、一時相当ひどくなりましたが、最近は大分楽になりました。<br><br>しかし胸の痛みは未だ全然とれません。<br><br>また信者の人達と大勢で御神体に祝詞を奏上致しますと変な気持になって参ります。<br><br>これは棕梠の大木に憑っておりました霊の祟りで御座いましょうか。<br><br>また棕梠の木にはよく霊が憑依する事が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 棕梠が屋根より高いといけないというのは迷信である。<br><br> 切ったのは悪いが、霊が憑いている祟りと医者の薬毒のためと両方である。<br><br> 気長にやる。<br><br>（S25. 4.12） 047 神木伐った時 神木を伐るといけない。<br><br> 御神木には皆龍神や天狗が憑いている。<br><br>そして産土神の御用をしている。<br><br>住居として始終居る。<br><br> 天狗はそうでもないが、龍神は怒るとひどい事をする。<br><br> 先にあった同じ木を代りに植えて、食物など上げてお詫びする。<br><br>龍神にお詫びすると共に、産土の神にもよくお詫びすると大抵よい。<br><br>（S23） 048 李桃の神木 私は最近千葉県神崎町に移住しましたが、その家の庭内に何代も前からあった守護神様（神体は李桃（すもも）の御神木）があり、二代前に住んでおった人（氏名不詳）が地所を隣家へ売った際に、土地と共に隣家の所属となり、今ではその庭内の片隅、しかも溝の傍に忘れられたまま放置されてありました。<br><br>最近隣家より、その神様とは何の関係のない私に引取って欲しいとの申し出がありましたが、どうしたものでしょうか。<br><br>また、もしこれを引取ってお祀りするとすれば、いずれの方向に御祀りすればよろしいでしょうか。<br><br> 李桃に霊が憑っている。<br><br>霊の希望する土地へ引取ってやればよい。<br><br>植える場所は清い所でなくてはいけない。<br><br> 光明如来様をお祭りしてある所へ向くようにする。<br><br>たまに一週間に一遍位祝詞を奏げてやればよい。<br><br>（S24.11. 5） 049 神社の木で建築・癲癇となる ある信者さんで御座いますが、四年前村の神社の木が嵐で倒れ、その木を買取って物置を作りました所、それから半年後頭が重くなり、癲癇になりまして、倒れますと硬直し、身体が突張ってしまいます。<br><br>本年一月入信させて頂きましてより後は、フラフラとはなりますが、すぐ気が付きます。<br><br>これは木龍の祟りのように思われますが、そう解釈してよろしゅう御座いましょうか。<br><br>また、どのようにさせて頂いたら宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 木龍である。<br><br>出来るだけ祝詞を奏げ、浄霊すれば治る。<br><br>（S24. 8.22） 050 古木伐ってより異常となる（龍と狐木に同憑し得） 父親が杉の木を伐ったところ、その日から娘（二十一歳）の耳が聞えなくなり、鼻もつまって頭も少々変になり、それから三、四日は刺身があれば食事をし、外出しては何回となく油揚を買って来ては食べ、家にいては威張っていた、との事で、浄霊を受けに参りました。<br><br>最初は一回でよくなりましたが、次の時来る途中で左耳が痛くなり、二、三時間も遅れて到着し、浄霊すると泣出しましたが、直ぐ平静になりました。<br><br>三回目の時は、私の家の前でまごついて入れずにいるのを家人が引入れたところ、この娘に憑依した霊が通りかかった老人に憑ったのか、この老人は一丁程歩いて突然気を失ってしまいました。<br><br>私が駆付けて浄霊を致しますと、直ぐによくなりました。<br><br>それ以来伐られた枯木や憑依されたと思う人に浄霊すると直ぐよくなりますが、暫くすると、また憑依し、他人に迄仇をするようであります。<br><br>いかなる霊の仕業でありましょう。<br><br> 代りの木を植えてやる。<br><br>居所なく、まごまごしている。<br><br>なるべく、近い所へ、よく言い聞かすといい。<br><br>木一本あると、上へ狐、下へ龍神が憑く事もある。<br><br> 051 伐木後言語不明瞭・衰弱・代木なし 昭和二十二年入信の三十九歳の男ですが、昨年四月所有の林中の直径一尺位のホウソウの木を切り倒しましたところ、手足が不自由となりました。<br><br>御浄霊を頂いている内六月十五日憑霊現象が起りましたが、どうしても口は利きません。<br><br>それ以来言葉も不明瞭となり、体も衰弱して参りました。<br><br>信仰も浅く色々とあちこちに迷って一進一退のところ、最近御浄霊中強く転倒して腹部が非常に膨大になり、頭を振ったり、足をバタバタさせたり致しますが、やはり口は利きません。<br><br>木龍の憑依かと存じますが、代りの木を植えるにもホウソウの木が入手出来かねます。<br><br>どう致したらよろしいでしょうか。<br><br> 何か呑み込んで腹が大きくなった時、殺された木龍が憑いている。<br><br>何か代りの似た木を植え、その側へ本人を置き、訳を言って移ってもらえばよい。<br><br>出来るだけ祝詞を聞かす。<br><br>（S23） 052 枯松の怪、木龍転移について 四、五年前、ふた抱えもある枯れた松の木を神主が売買しようとして、その話を決める日に人事不省になり、間もなく死亡。<br><br>また、それを切らせた人も切った人も死亡致しました。<br><br>その松の木はどうかしようとすると決って祟りがあると言われておりますので、現在道路の傍に置いたままになっております。<br><br>代りの松の木も形式的には植えてあるとの事ですが、どう致したら宜しいでしょうか。<br><br> これによってみても、松の木などに霊がかかってる事が判る。<br><br>大抵は木龍で、切られるのをイヤがる。<br><br>宿なしになるので切らせまいとする。<br><br> 代りの木を植えただけでは、手続きしてやらぬと憑（うつ）れぬ。<br><br>言葉で言うのである。<br><br>しかし、こういうのは、非常にそれに執着しているから、急に手続きしても駄目だから、未だそのままでよろしい。<br><br>まず松の木の近くの家へ光明如来様をお祭りする。<br><br>するとその御光で段々分るから、それから代りの木に移すとよい。<br><br> 053 木龍転移さす木 唖娘二十一歳と十六歳、詫びて切った栴檀の木の側へ代りに松の木を植えましたが、霊視力の人は未だ二人の娘の体に木龍が入っていると言われます。<br><br>どうしたら宜しいでしょうか。<br><br> 松の木ではいけない。<br><br>栴檀でなくてはいけない。<br><br> ある程度浄霊して、祝詞を聞かす。<br><br> 憑いて長くなると粘着力が出て、なかなかとれぬものである。<br><br>祝詞などにより、曇りがとれると、抜けられるようになる。<br><br> 054 霊木の枝を払う事（霊と言霊） 昔から枝を払っても祟りがあるとされている霊木が、最近非常に繁茂して、家が陰気になり困っております。<br><br>今度その家に御神体をお祭りさせて頂きました。<br><br>龍神様に御願いして枝を払っても宜しいでしょうか。<br><br> ことわれば差支えはない。<br><br>成程という理由が当り前ならよい。<br><br> 霊は、人間の言葉で非常な影響を受ける。<br><br>やむを得ぬ理由があれば、霊の世界では、どうする事も出来ぬ。<br><br>（S24. 4. 2） 055 霊木枝伐る場合 私の導いている信徒鈴木三枝子、家の未申（ひつじさる）の方向に稲荷様があり（氏神様）、その側に椎の大木があります。<br><br>約十年前に枝を伐りましたところ、伐った当家の主人が病気にかかりました。<br><br>その後枝が生茂っても恐ろしくて伐る事が出来ません。<br><br>茅葺屋根の上にかぶさっておりますので、二百十日前に枝を伐りたいと思いますが、どう致したらよろしゅう御座居ましょうか。<br><br> 龍神か天狗であるが、枝に眷族がいるから、伐るから許せとよく頼めばよい。<br><br> 大先生からのお差図と言えばなおよい。<br><br>（S24. 8.17） 056 不切言伝えの藤の古木（木龍） 私の家の前二十間ばかり下に、カヤの大木に何百年とも分らない藤が巻き付いており、五月上旬にはきれいな大房の花が咲きます。<br><br>言伝えには、この藤は屋敷へ根が来ても切るなとの事です。<br><br>何か霊的に意味があるものでしょうか。<br><br> 木龍が憑っている。<br><br> 怒られると生命までとられる。<br><br> 大事にし、粗末にしないようにする。<br><br> 057 霊木枯死の場合 霊木として恐れられていた木が枯死した場合、代りの木を植えず切り倒しても龍神の祟りは無いもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 人間が故意にやったんでないから自由に処分してよい。<br><br>龍神がいたとすれば他へ移っている。<br><br>また移るから枯れる。<br><br>龍神は樹齢を知っている。<br><br>（S23.11.11）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Capítulo sobre o Espiritualismo, III: Explanações sobre os Diversos Espíritos (II)</h2>
-            <h3>3. As Árvores e os Deuses-Dragão (038-057)</h3>
-            <p><strong>038. A distinção das árvores que abrigam espíritos</strong></p>
-            <p>Um determinado santuário, passando por dificuldades financeiras, decidiu vender a maioria das árvores de
+<h2>Capítulo sobre o Espiritualismo, III: Explanações sobre os Diversos Espíritos (II)</h2>
+<h3>3. As Árvores e os Deuses-Dragão (038-057)</h3>
+<p><strong>038. A distinção das árvores que abrigam espíritos</strong></p>
+<p>Um determinado santuário, passando por dificuldades financeiras, decidiu vender a maioria das árvores de
                 seu terreno. Um de nossos fiéis, que trabalha no ramo madeireiro, foi contratado para realizar o corte.
                 Nesse caso, qual seria a cerimônia mais apropriada a ser realizada?</p>
-            <p>Ao observar uma árvore, é possível discernir pela sensibilidade se nela reside um espírito. Geralmente,
+<p>Ao observar uma árvore, é possível discernir pela sensibilidade se nela reside um espírito. Geralmente,
                 eles se alojam nas árvores de grande porte. (2 de julho de 1949)</p>
-            <p><strong>039. Poços e Árvores que Abrigam Deuses-Dragão</strong></p>
-            <p>Ouvi dizer que existem poços e árvores nos quais se encontram encostados Deuses-Dragão. Haveria um método
+<p><strong>039. Poços e Árvores que Abrigam Deuses-Dragão</strong></p>
+<p>Ouvi dizer que existem poços e árvores nos quais se encontram encostados Deuses-Dragão. Haveria um método
                 claro para discernir se há ou não a presença de um espírito? Rogo por vosso Ensinamento.</p>
-            <p>Poços recentes não costumam abrigar espíritos, mas os antigos, invariavelmente. É certo que algum
+<p>Poços recentes não costumam abrigar espíritos, mas os antigos, invariavelmente. É certo que algum
                 Deus-Dragão neles se instala.</p>
-            <p>Quanto às árvores, as mais suscetíveis são o salgueiro, o pinheiro, o ginkgo e a anileira.
+<p>Quanto às árvores, as mais suscetíveis são o salgueiro, o pinheiro, o ginkgo e a anileira.
                 Adicionalmente, as árvores de santuários — como o cedro e o cipreste — também são locais propícios.
                 Certa vez, atendi uma senhora de meia-idade com deficiência auditiva, em quem estava encostado o
                 espírito de uma cerejeira.</p>
-            <p>Com o passar do tempo, é natural que espíritos passem a habitá-las. (21 de agosto de 1949)</p>
-            <p><strong>040. A Figueira Cujos Galhos, ao Serem Cortados, Provocam Acidentes</strong></p>
-            <p>Embora não seja membro da Igreja, meu vizinho tem em seu jardim uma figueira e, sempre que seus galhos
+<p>Com o passar do tempo, é natural que espíritos passem a habitá-las. (21 de agosto de 1949)</p>
+<p><strong>040. A Figueira Cujos Galhos, ao Serem Cortados, Provocam Acidentes</strong></p>
+<p>Embora não seja membro da Igreja, meu vizinho tem em seu jardim uma figueira e, sempre que seus galhos
                 são cortados, um morador da casa adoece ou falece. Na primeira vez, quando um galho grande foi removido,
                 a avó cometeu suicídio. Em seguida, ao cortarem um galho menor, um bebê morreu subitamente.
                 Recentemente, uma criança quebrou um pequeno ramo, e seu pai, que já se encontrava doente, começou a
                 sofrer de forma atroz. Peço vossa orientação para saber se a causa reside na figueira ou em outro fator.
             </p>
-            <p>Essa figueira abriga um espírito. Trata-se de um Dragão da Árvore, que atua para impedir que a cortem. A
+<p>Essa figueira abriga um espírito. Trata-se de um Dragão da Árvore, que atua para impedir que a cortem. A
                 solução para tais casos é circundar a árvore com uma cerca.</p>
-            <p>O ginkgo, o salgueiro, o pinheiro e a anileira são árvores nas quais os espíritos se encostam com
+<p>O ginkgo, o salgueiro, o pinheiro e a anileira são árvores nas quais os espíritos se encostam com
                 facilidade.</p>
-            <p>A referência a este assunto encontra-se na obra ‘Ashita no Ijutsu, Terceira Parte’. (16 de agosto de
+<p>A referência a este assunto encontra-se na obra ‘Ashita no Ijutsu, Terceira Parte’. (16 de agosto de
                 1949)</p>
-            <p><strong>041. A Figueira que Impede o Próprio Corte</strong></p>
-            <p>Um Dragão da Árvore (serpente) está encostado na figueira. Como o corte lhe causa sofrimento, ele age
+<p><strong>041. A Figueira que Impede o Próprio Corte</strong></p>
+<p>Um Dragão da Árvore (serpente) está encostado na figueira. Como o corte lhe causa sofrimento, ele age
                 para impedi-lo.</p>
-            <p>Espíritos se alojam com facilidade em árvores como a figueira e o ginkgo. O salgueiro, o pinheiro e a
+<p>Espíritos se alojam com facilidade em árvores como a figueira e o ginkgo. O salgueiro, o pinheiro e a
                 anileira também são muito suscetíveis. (1948)</p>
-            <p><strong>042. A Surdez de Cinco Filhos e o Terreno de um Antigo Pinhal (Dragão): Método de
+<p><strong>042. A Surdez de Cinco Filhos e o Terreno de um Antigo Pinhal (Dragão): Método de
                     Solução</strong></p>
-            <p>Um de nossos seminaristas construiu sua residência em 1927, na atual cidade de Yamato (distrito de Koza,
+<p>Um de nossos seminaristas construiu sua residência em 1927, na atual cidade de Yamato (distrito de Koza,
                 província de Kanagawa). Ocorre que os cinco filhos nascidos desde então não escutam bem. O diagnóstico
                 médico afirma não haver qualquer anomalia física. A região era conhecida como Komatsuyama e, segundo
                 relatos, havia grandes pinheiros dispersos pelo local. Gostaria de prosseguir com meu questionamento
                 oralmente.</p>
-            <p>Como o espírito não se encostou recentemente, o melhor caminho é salvá-lo sem removê-lo. Para isso, é
+<p>Como o espírito não se encostou recentemente, o melhor caminho é salvá-lo sem removê-lo. Para isso, é
                 fundamental praticar a fé e acumular virtudes.</p>
-            <p>A solução virá quando o Deus-Dragão, ao ouvir as orações, for purificado e ascender ao Mundo Espiritual.
+<p>A solução virá quando o Deus-Dragão, ao ouvir as orações, for purificado e ascender ao Mundo Espiritual.
                 (9 de junho de 1949)</p>
-            <p><strong>043. O Dragão da Árvore, a Cegueira e a Salvação do Próximo</strong></p>
-            <p>Há sete anos, cortei um grande damasqueiro que havia sido derrubado por uma ventania. Pouco tempo depois,
+<p><strong>043. O Dragão da Árvore, a Cegueira e a Salvação do Próximo</strong></p>
+<p>Há sete anos, cortei um grande damasqueiro que havia sido derrubado por uma ventania. Pouco tempo depois,
                 comecei a sentir uma forte pressão na cabeça e zumbidos intensos nos ouvidos, que foram piorando
                 gradativamente. Há cerca de seis anos, perdi completamente a audição. Haveria alguma relação espiritual
                 com o corte daquela árvore? Ademais, por ser totalmente surdo, não consigo ouvir o relato das pessoas
@@ -168,13 +317,13 @@ function toggleLang(lang) {
                 seria a razão para tal fenômeno? Rogo por vossos Ensinamentos. Ingressei na fé há dois meses, tenho
                 recebido Johrei e também ministrado a muitas pessoas. Graças à proteção Divina, os zumbidos e a pressão
                 na cabeça estão diminuindo, pelo que sou imensamente grato. Imploro por vossa contínua proteção.</p>
-            <p>Há um Dragão da Árvore encostado em você. Os Deuses-Dragão são extremamente sensíveis, o que explica essa
+<p>Há um Dragão da Árvore encostado em você. Os Deuses-Dragão são extremamente sensíveis, o que explica essa
                 sua capacidade de percepção. A maioria desses espíritos possui natureza humana e, por isso, busca a
                 própria salvação. Ao se dedicar a salvar o próximo, a virtude gerada por seus atos redime o Deus-Dragão
                 e, consequentemente, você também será salvo. (28 de fevereiro de 1950)</p>
-            <p><strong>044. Construção de um Banheiro sobre o Local de uma Árvore Derrubada e a Sucessão de
+<p><strong>044. Construção de um Banheiro sobre o Local de uma Árvore Derrubada e a Sucessão de
                     Infortúnios</strong></p>
-            <p>Um fiel comprou o terreno onde reside há vinte anos. Na época da construção da casa, uma grande e antiga
+<p>Um fiel comprou o terreno onde reside há vinte anos. Na época da construção da casa, uma grande e antiga
                 árvore foi derrubada, e hoje, exatamente nesse local, encontra-se o banheiro. Desde que a família se
                 mudou para lá, a cunhada enlouqueceu e faleceu, deixando um filho. Além disso, familiares e parentes, um
                 após o outro, começaram a sofrer de problemas auditivos. O irmão mais novo não escuta do ouvido
@@ -183,18 +332,18 @@ function toggleLang(lang) {
                 turva e, mesmo após dragado, permanece assim. Consta que antigos moradores do terreno cometeram suicídio
                 por enforcamento. Vinte anos se passaram, e agora a avó manifesta possessão espiritual, enquanto os
                 infortúnios persistem. Qual seria a razão?</p>
-            <p>O Deus-Dragão está irado. A solução é mudar o banheiro de lugar.</p>
-            <p><strong>045. O Altar de Konpira e a Doença Causada por Quebrar um Galho</strong></p>
-            <p>Em um altar dedicado a Konpira-sama, as inscrições sagradas se deterioraram devido à chuva e aos insetos.
+<p>O Deus-Dragão está irado. A solução é mudar o banheiro de lugar.</p>
+<p><strong>045. O Altar de Konpira e a Doença Causada por Quebrar um Galho</strong></p>
+<p>Em um altar dedicado a Konpira-sama, as inscrições sagradas se deterioraram devido à chuva e aos insetos.
                 Ao lado, há um pinheiro e, segundo dizem, quem quebra um de seus galhos adoece. Recentemente, a pessoa
                 sonhou que um cavalo entrava nesse altar. As cerimônias são realizadas uma vez ao ano, mas seria melhor
                 entronizar uma nova inscrição sagrada? Peço vossa orientação.</p>
-            <p>Deixe de cultuar essa divindade. Em breve, até mesmo o nome Konpira desaparecerá. Konpira-sama é a
+<p>Deixe de cultuar essa divindade. Em breve, até mesmo o nome Konpira desaparecerá. Konpira-sama é a
                 divindade Kotohira-wake-no-kami.</p>
-            <p>Quanto a quebrar o galho da árvore, isso ocorre porque um Deus-Dragão nela habita e se aborrece com tal
+<p>Quanto a quebrar o galho da árvore, isso ocorre porque um Deus-Dragão nela habita e se aborrece com tal
                 ato. (22 de outubro de 1949)</p>
-            <p><strong>046. A Maldição da Palmeira</strong></p>
-            <p>Um membro que ingressou na fé em agosto do ano passado conta que, em junho do ano retrasado, ao retornar
+<p><strong>046. A Maldição da Palmeira</strong></p>
+<p>Um membro que ingressou na fé em agosto do ano passado conta que, em junho do ano retrasado, ao retornar
                 à sua cidade natal, um conhecido lhe pediu: “Palmeiras não devem ultrapassar a altura do telhado. Você
                 poderia derrubá-las para mim?”. Ele, então, cortou três palmeiras que superavam o telhado do segundo
                 andar da casa dessa pessoa. Em novembro do mesmo ano, seu pé infeccionou. No final daquele mês, ele
@@ -206,44 +355,44 @@ function toggleLang(lang) {
                 entoa a oração Amatsu Norito junto a outros fiéis diante da Imagem Divina, sente-se estranho. Seria isso
                 uma maldição do espírito que habitava as grandes palmeiras? E é comum que espíritos se alojem nessas
                 árvores? Peço vosso esclarecimento.</p>
-            <p>A crença de que palmeiras não devem ultrapassar a altura do telhado é mera superstição.</p>
-            <p>Embora o corte das árvores tenha sido um erro, seu sofrimento se deve tanto à maldição do espírito que
+<p>A crença de que palmeiras não devem ultrapassar a altura do telhado é mera superstição.</p>
+<p>Embora o corte das árvores tenha sido um erro, seu sofrimento se deve tanto à maldição do espírito que
                 nelas habitava quanto às toxinas dos medicamentos.</p>
-            <p>Seja paciente e persevere no tratamento espiritual. (12 de abril de 1950)</p>
-            <p><strong>047. O que Ocorre ao se Derrubar uma Árvore Sagrada</strong></p>
-            <p>Derrubar uma árvore sagrada é um ato de grande imprudência.</p>
-            <p>Todas as árvores consagradas abrigam Deuses-Dragão ou Tengu, que atuam como servidores da divindade
+<p>Seja paciente e persevere no tratamento espiritual. (12 de abril de 1950)</p>
+<p><strong>047. O que Ocorre ao se Derrubar uma Árvore Sagrada</strong></p>
+<p>Derrubar uma árvore sagrada é um ato de grande imprudência.</p>
+<p>Todas as árvores consagradas abrigam Deuses-Dragão ou Tengu, que atuam como servidores da divindade
                 protetora da localidade. Eles as têm como sua morada permanente.</p>
-            <p>Embora os Tengu não sejam tão severos, a ira de um Deus-Dragão pode acarretar consequências terríveis.
+<p>Embora os Tengu não sejam tão severos, a ira de um Deus-Dragão pode acarretar consequências terríveis.
             </p>
-            <p>Para se redimir, é preciso plantar no local uma árvore idêntica à que foi removida, apresentar oferendas,
+<p>Para se redimir, é preciso plantar no local uma árvore idêntica à que foi removida, apresentar oferendas,
                 como alimentos, e expressar um profundo pedido de desculpas. O arrependimento deve ser dirigido tanto ao
                 Deus-Dragão quanto à divindade protetora, e, procedendo dessa forma, a questão geralmente se resolve.
                 (1948)</p>
-            <p><strong>048. O Ameixeira-do-japão como Árvore Sagrada</strong></p>
-            <p>Recentemente, mudei-me para a cidade de Kozaki, na província de Chiba. No jardim da casa, há uma
+<p><strong>048. O Ameixeira-do-japão como Árvore Sagrada</strong></p>
+<p>Recentemente, mudei-me para a cidade de Kozaki, na província de Chiba. No jardim da casa, há uma
                 divindade guardiã (cujo corpo sagrado é uma ameixeira-do-japão) cultuada por muitas gerações. Há duas
                 gerações, o antigo morador, cujo nome desconheço, vendeu parte do terreno a um vizinho, e a árvore
                 sagrada foi junto com a propriedade. Hoje, ela se encontra abandonada em um canto do jardim vizinho, ao
                 lado de uma vala. O vizinho me propôs recentemente que eu a acolhesse, embora eu não tenha nenhuma
                 relação com essa divindade. O que devo fazer? Caso eu a acolha e a cultue, em que direção devo
                 posicioná-la?</p>
-            <p>Um espírito habita essa ameixeira. O ideal é transferi-la para um local que o espírito deseje. O lugar do
+<p>Um espírito habita essa ameixeira. O ideal é transferi-la para um local que o espírito deseje. O lugar do
                 plantio deve ser puro.</p>
-            <p>Posicione-a de modo que fique voltada para onde a imagem de Komyō Nyorai-sama está entronizada. Entoar a
+<p>Posicione-a de modo que fique voltada para onde a imagem de Komyō Nyorai-sama está entronizada. Entoar a
                 oração Amatsu Norito para ela uma vez por semana é o suficiente. (5 de novembro de 1949)</p>
-            <p><strong>049. Construção com Madeira de Santuário e o Desenvolvimento de Epilepsia</strong></p>
-            <p>Um de nossos fiéis, há quatro anos, comprou a madeira de uma árvore do santuário de seu vilarejo, que
+<p><strong>049. Construção com Madeira de Santuário e o Desenvolvimento de Epilepsia</strong></p>
+<p>Um de nossos fiéis, há quatro anos, comprou a madeira de uma árvore do santuário de seu vilarejo, que
                 havia sido derrubada por uma tempestade, e com ela construiu um depósito. Seis meses depois, começou a
                 sentir a cabeça pesada e a ter crises de epilepsia, durante as quais seu corpo se enrijece e se contrai.
                 Desde que ingressou na fé, em janeiro deste ano, ele ainda sente tonturas, mas recupera a consciência
                 rapidamente. Acreditamos que se trata da maldição de um Dragão da Árvore. Essa interpretação está
                 correta? E qual seria o procedimento a ser adotado? Rogo por vosso Ensinamento.</p>
-            <p>Trata-se de um Dragão da Árvore. Com a prática assídua da oração Amatsu Norito e do Johrei, a cura será
+<p>Trata-se de um Dragão da Árvore. Com a prática assídua da oração Amatsu Norito e do Johrei, a cura será
                 alcançada. (22 de agosto de 1949)</p>
-            <p><strong>050. Comportamento Anormal após o Corte de uma Árvore Antiga (Um Dragão e uma Raposa Podem
+<p><strong>050. Comportamento Anormal após o Corte de uma Árvore Antiga (Um Dragão e uma Raposa Podem
                     Habitar a Mesma Árvore)</strong></p>
-            <p>O pai de uma jovem de vinte e um anos cortou um cedro. A partir daquele dia, sua filha perdeu a audição,
+<p>O pai de uma jovem de vinte e um anos cortou um cedro. A partir daquele dia, sua filha perdeu a audição,
                 seu nariz ficou congestionado e sua mente, um tanto alterada. Nos três ou quatro dias seguintes, ela só
                 comia se houvesse sashimi e, ao sair, comprava e comia tofu frito repetidamente. Em casa, assumiu uma
                 postura arrogante. Ela veio para receber Johrei. Na primeira vez, melhorou com uma única ministração.
@@ -255,11 +404,11 @@ function toggleLang(lang) {
                 Desde então, quando ministro Johrei na árvore seca que foi cortada ou nas pessoas que parecem estar
                 possuídas, a melhora é imediata, mas, pouco tempo depois, a possessão retorna, e o espírito parece até
                 mesmo prejudicar terceiros. Que tipo de espírito estaria por trás disso?</p>
-            <p>Plante uma árvore em substituição. O espírito está sem morada e desnorteado. O ideal é plantá-la o mais
+<p>Plante uma árvore em substituição. O espírito está sem morada e desnorteado. O ideal é plantá-la o mais
                 perto possível e explicar-lhe a situação com clareza. É possível que, em uma mesma árvore, uma raposa se
                 aloje na parte superior e um Deus-Dragão, na inferior.</p>
-            <p><strong>051. Perda da Fala e Debilidade após Corte de Árvore sem Substituição</strong></p>
-            <p>Um homem de trinta e nove anos, que ingressou na fé em 1947, cortou, em abril do ano passado, uma árvore
+<p><strong>051. Perda da Fala e Debilidade após Corte de Árvore sem Substituição</strong></p>
+<p>Um homem de trinta e nove anos, que ingressou na fé em 1947, cortou, em abril do ano passado, uma árvore
                 conhecida como <em>housou</em>, com cerca de trinta centímetros de diâmetro, em sua floresta. Após o
                 ocorrido, seus membros ficaram paralisados. Enquanto recebia Johrei, em 15 de junho, manifestou um
                 fenômeno de possessão, mas não conseguia falar de modo algum. Desde então, sua fala se tornou
@@ -268,71 +417,113 @@ function toggleLang(lang) {
                 extremamente inchado, e ele começou a sacudir a cabeça e a agitar as pernas, mas continuou sem falar.
                 Acreditamos ser a possessão de um Dragão da Árvore, mas não conseguimos encontrar uma muda da árvore
                 <em>housou</em> para plantar em substituição. O que devemos fazer?</p>
-            <p>O Dragão da Árvore que foi morto está encostado nele, e é como se ele tivesse engolido algo, causando o
+<p>O Dragão da Árvore que foi morto está encostado nele, e é como se ele tivesse engolido algo, causando o
                 inchaço abdominal. Plante uma árvore semelhante em substituição, coloque a pessoa ao lado dela e,
                 explicando a situação, peça ao espírito que se transfira. Faça com que ele ouça a oração Amatsu Norito o
                 máximo possível. (1948)</p>
-            <p><strong>052. O Mistério do Pinheiro Seco e a Transferência do Dragão da Árvore</strong></p>
-            <p>Há quatro ou cinco anos, um sacerdote xintoísta tentou negociar a venda de um pinheiro seco tão grosso
+<p><strong>052. O Mistério do Pinheiro Seco e a Transferência do Dragão da Árvore</strong></p>
+<p>Há quatro ou cinco anos, um sacerdote xintoísta tentou negociar a venda de um pinheiro seco tão grosso
                 que eram necessárias duas pessoas para abraçá-lo. No dia de fechar o acordo, ele perdeu a consciência e
                 faleceu pouco depois. A pessoa que ordenou o corte e a que o executou também morreram. Diz-se que
                 qualquer tentativa de mexer naquele pinheiro resulta em uma maldição, por isso ele permanece abandonado
                 à beira da estrada. Foi plantado um novo pinheiro em substituição, mas apenas como uma formalidade. Qual
                 seria o procedimento correto?</p>
-            <p>Este caso demonstra claramente que espíritos se alojam em árvores como os pinheiros. Geralmente, trata-se
+<p>Este caso demonstra claramente que espíritos se alojam em árvores como os pinheiros. Geralmente, trata-se
                 de um Dragão da Árvore que, por não desejar ser cortado e ficar sem morada, impede qualquer tentativa de
                 remoção.</p>
-            <p>Plantar uma nova árvore não é o suficiente; para que o espírito se transfira, é necessário realizar o
+<p>Plantar uma nova árvore não é o suficiente; para que o espírito se transfira, é necessário realizar o
                 devido procedimento, que consiste em comunicar-lhe a intenção verbalmente. Contudo, um espírito com
                 tamanho apego não aceitará uma transferência abrupta. Portanto, por ora, é melhor não tomar nenhuma
                 atitude. A primeira providência deve ser entronizar uma imagem de Komyō Nyorai-sama em uma residência
                 próxima ao pinheiro. A Luz Divina o fará gradualmente compreender a situação, e só então será possível
                 conduzi-lo à nova árvore.</p>
-            <p><strong>053. A Árvore Adequada para a Transferência de um Dragão da Árvore</strong></p>
-            <p>Duas jovens, uma de vinte e um e outra de dezesseis anos, são mudas. Ao lado do cinamomo que foi cortado
+<p><strong>053. A Árvore Adequada para a Transferência de um Dragão da Árvore</strong></p>
+<p>Duas jovens, uma de vinte e um e outra de dezesseis anos, são mudas. Ao lado do cinamomo que foi cortado
                 após um pedido de desculpas, plantamos um pinheiro em substituição. Contudo, uma pessoa com capacidade
                 de visão espiritual afirma que o Dragão da Árvore ainda se encontra no corpo das moças. O que devemos
                 fazer?</p>
-            <p>Um pinheiro não serve. É preciso que seja um cinamomo.</p>
-            <p>Ministre Johrei até certo ponto e faça com que ouçam a oração Amatsu Norito.</p>
-            <p>Quando um espírito permanece encostado por muito tempo, desenvolve-se uma forte aderência, tornando a
+<p>Um pinheiro não serve. É preciso que seja um cinamomo.</p>
+<p>Ministre Johrei até certo ponto e faça com que ouçam a oração Amatsu Norito.</p>
+<p>Quando um espírito permanece encostado por muito tempo, desenvolve-se uma forte aderência, tornando a
                 remoção muito difícil. Através da oração, as máculas espirituais se dissipam, e ele se torna capaz de se
                 desprender.</p>
-            <p><strong>054. A Poda dos Galhos de uma Árvore Espiritual (O Espírito e o Poder da Palavra)</strong></p>
-            <p>Uma árvore, considerada espiritual e cujos galhos, segundo a tradição, nunca devem ser podados, cresceu
+<p><strong>054. A Poda dos Galhos de uma Árvore Espiritual (O Espírito e o Poder da Palavra)</strong></p>
+<p>Uma árvore, considerada espiritual e cujos galhos, segundo a tradição, nunca devem ser podados, cresceu
                 tanto que está deixando a casa sombria e nos causando transtornos. Recentemente, entronizamos a Imagem
                 Divina nessa residência. Poderíamos pedir permissão ao Deus-Dragão e podar os galhos?</p>
-            <p>Se a situação for devidamente explicada, não haverá problema. Se a razão apresentada for lógica e
+<p>Se a situação for devidamente explicada, não haverá problema. Se a razão apresentada for lógica e
                 compreensível, o espírito aceitará.</p>
-            <p>Os espíritos são profundamente influenciados pelas palavras humanas. Diante de um motivo inevitável, no
+<p>Os espíritos são profundamente influenciados pelas palavras humanas. Diante de um motivo inevitável, no
                 Mundo Espiritual, não há o que se possa fazer. (2 de abril de 1949)</p>
-            <p><strong>055. O Corte dos Galhos de uma Árvore Espiritual</strong></p>
-            <p>Uma fiel que orientei, Sueko Suzuki, tem em sua propriedade, na direção sudoeste, um altar de Inari
+<p><strong>055. O Corte dos Galhos de uma Árvore Espiritual</strong></p>
+<p>Uma fiel que orientei, Sueko Suzuki, tem em sua propriedade, na direção sudoeste, um altar de Inari
                 (divindade protetora local), ao lado do qual há um grande castanheiro-japonês. Há cerca de dez anos, os
                 galhos foram podados, e o proprietário da casa adoeceu. Desde então, mesmo com o crescimento excessivo
                 dos galhos, eles não foram mais cortados por medo. Como os galhos agora cobrem o telhado de colmo, ela
                 gostaria de podá-los antes da época dos tufões. Qual seria o procedimento correto?</p>
-            <p>Trata-se de um Deus-Dragão ou de um Tengu. Seus parentes espirituais habitam os galhos. Portanto,
+<p>Trata-se de um Deus-Dragão ou de um Tengu. Seus parentes espirituais habitam os galhos. Portanto,
                 explique-lhes a situação e peça-lhes com sinceridade que permitam o corte.</p>
-            <p>Se você disser que a orientação veio do Grande Mestre, o efeito será ainda maior. (17 de agosto de 1949)
+<p>Se você disser que a orientação veio do Grande Mestre, o efeito será ainda maior. (17 de agosto de 1949)
             </p>
-            <p><strong>056. A Antiga Glicínia que, por Tradição, não Deve ser Cortada (Dragão da Árvore)</strong></p>
-            <p>A cerca de trinta e seis metros da frente da minha casa, uma glicínia de idade incalculável se enrosca em
+<p><strong>056. A Antiga Glicínia que, por Tradição, não Deve ser Cortada (Dragão da Árvore)</strong></p>
+<p>A cerca de trinta e seis metros da frente da minha casa, uma glicínia de idade incalculável se enrosca em
                 uma grande torreia. No início de maio, ela floresce com belos e longos cachos. Diz a tradição que, mesmo
                 que as raízes dessa glicínia alcancem a casa, elas não devem ser cortadas. Haveria algum significado
                 espiritual nisso?</p>
-            <p>Um Dragão da Árvore habita essa glicínia.</p>
-            <p>Se ele se enfurecer, pode até tirar a vida de alguém.</p>
-            <p>Trate-a com grande respeito e jamais a desconsidere.</p>
-            <p><strong>057. O que Fazer Quando uma Árvore Espiritual Morre</strong></p>
-            <p>Quando uma árvore, temida por ser considerada espiritual, morre por causas naturais, é possível
+<p>Um Dragão da Árvore habita essa glicínia.</p>
+<p>Se ele se enfurecer, pode até tirar a vida de alguém.</p>
+<p>Trate-a com grande respeito e jamais a desconsidere.</p>
+<p><strong>057. O que Fazer Quando uma Árvore Espiritual Morre</strong></p>
+<p>Quando uma árvore, temida por ser considerada espiritual, morre por causas naturais, é possível
                 derrubá-la sem plantar outra em substituição, sem que haja a maldição de um Deus-Dragão? Rogo por vossa
                 orientação.</p>
-            <p>Como não foi um ato deliberado do ser humano, pode-se dispor dela livremente. Se havia um Deus-Dragão
+<p>Como não foi um ato deliberado do ser humano, pode-se dispor dela livremente. Se havia um Deus-Dragão
                 ali, ele já se transferiu para outro lugar. Aliás, a árvore morre porque o espírito se transfere. O
                 Deus-Dragão conhece a longevidade da árvore. (11 de novembro de 1948)</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 三 諸霊解説（二） ３ 038-057 樹と龍神 038 霊のいる木の見別け 某神社が経営困難につき、境内の多数の木を伐採し売却する事となり、ある信者の木材業者が伐り倒すように頼まれましたが、この場合、お祭りはどう致したら宜敷う御座居ましょうか。<br/><br/> 木を見て、霊のいるのは感じで判る。<br/><br/>やはり大きいのに憑いている。<br/><br/>（S24. 7. 2） 039 龍神憑る井戸・立木 井戸や立木には龍神の憑依しているのがあると伺っておりますが、憑依しおるか否かをはっきり見分ける方法が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 新しいのはそうでないが、古い井戸は必ずいる。<br/><br/>龍神の誰か必ず入る。<br/><br/> 立木によってで、一番多いのは柳、松、銀杏、榎など多い。<br/><br/>後は神社の木で――杉、桧等で、以前耳の遠い中年の婦人で、桜の霊の憑いたのがあった。<br/><br/> 古くなると憑依霊があるものである。<br/><br/>（S24. 8.21） 040 枝切ると事故起る無花果（いちじく） 信徒ではありませんが、私の隣家で庭内の無花果の枝を切るとその家の者が病気したり死亡したり致します。<br/><br/>最初大枝を切った時は祖母が自殺し、次に小枝を切った時は赤ン坊が直ぐ死にました。<br/><br/>また、近頃子供が小枝を折ったら病気中の父親が突然非常に苦しみ出しました。<br/><br/>この原因は無花果にあるか他にあるか御教示お願い申し上げます。<br/><br/> 無花果に霊が憑いてる。<br/><br/>木龍で、切らせないようにしている。<br/><br/>こういうのは周りに垣をするとよい。<br/><br/> 銀杏、柳、松、榎等には憑りやすい。<br/><br/> 「明日の医術第三篇」にある。<br/><br/>（S24. 8.16） 041 切らせぬ無花果 無花果へ木龍（蛇）が憑っている。<br/><br/>切られると苦しいので、切らせぬようにする。<br/><br/> 無花果、銀杏などは霊が憑りやすい。<br/><br/>柳、松、榎も憑りやすい。<br/><br/>（S23） 042 五子の聾耳と松林跡（龍）・解決法 某教修生、昭和二年に現在の大和町（神奈川県高座郡）へ住居を新築いたしましたところ、その後生れた子供五人は全部耳がよく聴えません。<br/><br/>医師の診断では何等故障がないと申します。<br/><br/>その辺は小松山で、ところどころ松の大木があった由で御座います。<br/><br/> 以下口頭を以て御伺い申し上げます。<br/><br/> 憑きたてではないから憑いたまま救った方がよい。<br/><br/>信仰して徳を積む事である。<br/><br/> 龍神が祝詞など聞いてるうち、浄化して昇天するなどで解決する。<br/><br/>（S24. 6. 9） 043 木龍の盲目と人救い 私は七年前大風で倒れた李の大木を伐った事が御座いますが、その後程無くひどくのぼせるようになりまして、耳鳴りがひどく、段々聴こえなくなりまして、六年程全く聴こえません。<br/><br/>右の木を伐った事と霊的な関係が御座いましょうか。<br/><br/>また、私は全然聴こえませんので、他人を浄霊する場合、容態は聞かないので御座いますが、浄霊を始めますと病気の所が掌に感ずるので御座いますが、これはどういう訳で御座いましょうか。<br/><br/>御教え御願い申し上げます。<br/><br/>入信後二ケ月になりますが、浄霊をいただき、また多数の浄霊をさせていただいておりますが、御守護により段々耳鳴りやのぼせが取れて参りまして、感謝致しております。<br/><br/>何卒御守護の程御願い申し上げます。<br/><br/> 木龍が憑っている。<br/><br/>龍神は敏感なものであるから、感ずる。<br/><br/>大抵人間であるから、自分が救われてゆく。<br/><br/>人助けすれば、その徳で龍神が救われ、人間も救われる。<br/><br/>（S25. 2.28） 044 伐木跡へ便所建て不幸続出す ある入信者、二十年前現在の土地を買い家を建てた時、一本の古い大木を伐り倒し、現在は丁度その所が御不浄となっております。<br/><br/> この家に住んでからは兄嫁が発狂、一人の子を残して死亡、また家内のものや、親戚のものが次から次へと耳を病み、弟は左耳が聞えず、ちょっとした事にも怒り、時には目を据えて蛇のような目付きをし、所構わずその辺にある物を投げつけます。<br/><br/>また、井戸水も非常に濁り、掘り返しても濁水で、この土地は首をくくった人も前住しているそうで、二十年も経った現在、祖母は霊憑りとなり、依然災難が続いています。<br/><br/>右、理由―― 龍神が怒っているから、便所を他へ移すといい。<br/><br/> 045 金比羅様と、木枝折りて病気 金毘羅様をお祀りした祠が雨や虫でお札がなくなっております。<br/><br/>傍に一本の松の木がございまして、この枝を折ると病人が出来るそうでございます。<br/><br/>先日夢に馬がその祠へ入るところを見たそうで御座います。<br/><br/>毎年一回はお祀りしておりますが、新たにお札をお祭りした方がよろしゅうございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> これは祀るのを止めよ。<br/><br/>今に金比羅の名さえなくなる。<br/><br/>金比羅様は琴平別の神である。<br/><br/> 木の枝を折るのは、木に龍が憑いていて、イヤがるのである。<br/><br/>（S24.10.22） 046 棕梠の祟り 昨年八月入信の者、一昨年六月帰郷の際近くの人に「棕梠の木は屋根より高いのはいけないから倒してくれないか」と頼まれ、その人の家の二階の屋根より高い棕梠の木を三本切り倒しました。<br/><br/>その後同年十一月に足が化膿し、その月末に風邪をひき、無理して働いておりましたところ、ある夜急にガタガタと寒気が起り、大した熱もなく猛烈に震えました。<br/><br/>その後医者の治療を受け、段々悪化した所をこのお道によりお救い頂き、入信後御浄霊を頂いておりますが、左胸部の痛みが全然とれません。<br/><br/>心臓も動悸が致し、一時相当ひどくなりましたが、最近は大分楽になりました。<br/><br/>しかし胸の痛みは未だ全然とれません。<br/><br/>また信者の人達と大勢で御神体に祝詞を奏上致しますと変な気持になって参ります。<br/><br/>これは棕梠の大木に憑っておりました霊の祟りで御座いましょうか。<br/><br/>また棕梠の木にはよく霊が憑依する事が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 棕梠が屋根より高いといけないというのは迷信である。<br/><br/> 切ったのは悪いが、霊が憑いている祟りと医者の薬毒のためと両方である。<br/><br/> 気長にやる。<br/><br/>（S25. 4.12） 047 神木伐った時 神木を伐るといけない。<br/><br/> 御神木には皆龍神や天狗が憑いている。<br/><br/>そして産土神の御用をしている。<br/><br/>住居として始終居る。<br/><br/> 天狗はそうでもないが、龍神は怒るとひどい事をする。<br/><br/> 先にあった同じ木を代りに植えて、食物など上げてお詫びする。<br/><br/>龍神にお詫びすると共に、産土の神にもよくお詫びすると大抵よい。<br/><br/>（S23） 048 李桃の神木 私は最近千葉県神崎町に移住しましたが、その家の庭内に何代も前からあった守護神様（神体は李桃（すもも）の御神木）があり、二代前に住んでおった人（氏名不詳）が地所を隣家へ売った際に、土地と共に隣家の所属となり、今ではその庭内の片隅、しかも溝の傍に忘れられたまま放置されてありました。<br/><br/>最近隣家より、その神様とは何の関係のない私に引取って欲しいとの申し出がありましたが、どうしたものでしょうか。<br/><br/>また、もしこれを引取ってお祀りするとすれば、いずれの方向に御祀りすればよろしいでしょうか。<br/><br/> 李桃に霊が憑っている。<br/><br/>霊の希望する土地へ引取ってやればよい。<br/><br/>植える場所は清い所でなくてはいけない。<br/><br/> 光明如来様をお祭りしてある所へ向くようにする。<br/><br/>たまに一週間に一遍位祝詞を奏げてやればよい。<br/><br/>（S24.11. 5） 049 神社の木で建築・癲癇となる ある信者さんで御座いますが、四年前村の神社の木が嵐で倒れ、その木を買取って物置を作りました所、それから半年後頭が重くなり、癲癇になりまして、倒れますと硬直し、身体が突張ってしまいます。<br/><br/>本年一月入信させて頂きましてより後は、フラフラとはなりますが、すぐ気が付きます。<br/><br/>これは木龍の祟りのように思われますが、そう解釈してよろしゅう御座いましょうか。<br/><br/>また、どのようにさせて頂いたら宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 木龍である。<br/><br/>出来るだけ祝詞を奏げ、浄霊すれば治る。<br/><br/>（S24. 8.22） 050 古木伐ってより異常となる（龍と狐木に同憑し得） 父親が杉の木を伐ったところ、その日から娘（二十一歳）の耳が聞えなくなり、鼻もつまって頭も少々変になり、それから三、四日は刺身があれば食事をし、外出しては何回となく油揚を買って来ては食べ、家にいては威張っていた、との事で、浄霊を受けに参りました。<br/><br/>最初は一回でよくなりましたが、次の時来る途中で左耳が痛くなり、二、三時間も遅れて到着し、浄霊すると泣出しましたが、直ぐ平静になりました。<br/><br/>三回目の時は、私の家の前でまごついて入れずにいるのを家人が引入れたところ、この娘に憑依した霊が通りかかった老人に憑ったのか、この老人は一丁程歩いて突然気を失ってしまいました。<br/><br/>私が駆付けて浄霊を致しますと、直ぐによくなりました。<br/><br/>それ以来伐られた枯木や憑依されたと思う人に浄霊すると直ぐよくなりますが、暫くすると、また憑依し、他人に迄仇をするようであります。<br/><br/>いかなる霊の仕業でありましょう。<br/><br/> 代りの木を植えてやる。<br/><br/>居所なく、まごまごしている。<br/><br/>なるべく、近い所へ、よく言い聞かすといい。<br/><br/>木一本あると、上へ狐、下へ龍神が憑く事もある。<br/><br/> 051 伐木後言語不明瞭・衰弱・代木なし 昭和二十二年入信の三十九歳の男ですが、昨年四月所有の林中の直径一尺位のホウソウの木を切り倒しましたところ、手足が不自由となりました。<br/><br/>御浄霊を頂いている内六月十五日憑霊現象が起りましたが、どうしても口は利きません。<br/><br/>それ以来言葉も不明瞭となり、体も衰弱して参りました。<br/><br/>信仰も浅く色々とあちこちに迷って一進一退のところ、最近御浄霊中強く転倒して腹部が非常に膨大になり、頭を振ったり、足をバタバタさせたり致しますが、やはり口は利きません。<br/><br/>木龍の憑依かと存じますが、代りの木を植えるにもホウソウの木が入手出来かねます。<br/><br/>どう致したらよろしいでしょうか。<br/><br/> 何か呑み込んで腹が大きくなった時、殺された木龍が憑いている。<br/><br/>何か代りの似た木を植え、その側へ本人を置き、訳を言って移ってもらえばよい。<br/><br/>出来るだけ祝詞を聞かす。<br/><br/>（S23） 052 枯松の怪、木龍転移について 四、五年前、ふた抱えもある枯れた松の木を神主が売買しようとして、その話を決める日に人事不省になり、間もなく死亡。<br/><br/>また、それを切らせた人も切った人も死亡致しました。<br/><br/>その松の木はどうかしようとすると決って祟りがあると言われておりますので、現在道路の傍に置いたままになっております。<br/><br/>代りの松の木も形式的には植えてあるとの事ですが、どう致したら宜しいでしょうか。<br/><br/> これによってみても、松の木などに霊がかかってる事が判る。<br/><br/>大抵は木龍で、切られるのをイヤがる。<br/><br/>宿なしになるので切らせまいとする。<br/><br/> 代りの木を植えただけでは、手続きしてやらぬと憑（うつ）れぬ。<br/><br/>言葉で言うのである。<br/><br/>しかし、こういうのは、非常にそれに執着しているから、急に手続きしても駄目だから、未だそのままでよろしい。<br/><br/>まず松の木の近くの家へ光明如来様をお祭りする。<br/><br/>するとその御光で段々分るから、それから代りの木に移すとよい。<br/><br/> 053 木龍転移さす木 唖娘二十一歳と十六歳、詫びて切った栴檀の木の側へ代りに松の木を植えましたが、霊視力の人は未だ二人の娘の体に木龍が入っていると言われます。<br/><br/>どうしたら宜しいでしょうか。<br/><br/> 松の木ではいけない。<br/><br/>栴檀でなくてはいけない。<br/><br/> ある程度浄霊して、祝詞を聞かす。<br/><br/> 憑いて長くなると粘着力が出て、なかなかとれぬものである。<br/><br/>祝詞などにより、曇りがとれると、抜けられるようになる。<br/><br/> 054 霊木の枝を払う事（霊と言霊） 昔から枝を払っても祟りがあるとされている霊木が、最近非常に繁茂して、家が陰気になり困っております。<br/><br/>今度その家に御神体をお祭りさせて頂きました。<br/><br/>龍神様に御願いして枝を払っても宜しいでしょうか。<br/><br/> ことわれば差支えはない。<br/><br/>成程という理由が当り前ならよい。<br/><br/> 霊は、人間の言葉で非常な影響を受ける。<br/><br/>やむを得ぬ理由があれば、霊の世界では、どうする事も出来ぬ。<br/><br/>（S24. 4. 2） 055 霊木枝伐る場合 私の導いている信徒鈴木三枝子、家の未申（ひつじさる）の方向に稲荷様があり（氏神様）、その側に椎の大木があります。<br/><br/>約十年前に枝を伐りましたところ、伐った当家の主人が病気にかかりました。<br/><br/>その後枝が生茂っても恐ろしくて伐る事が出来ません。<br/><br/>茅葺屋根の上にかぶさっておりますので、二百十日前に枝を伐りたいと思いますが、どう致したらよろしゅう御座居ましょうか。<br/><br/> 龍神か天狗であるが、枝に眷族がいるから、伐るから許せとよく頼めばよい。<br/><br/> 大先生からのお差図と言えばなおよい。<br/><br/>（S24. 8.17） 056 不切言伝えの藤の古木（木龍） 私の家の前二十間ばかり下に、カヤの大木に何百年とも分らない藤が巻き付いており、五月上旬にはきれいな大房の花が咲きます。<br/><br/>言伝えには、この藤は屋敷へ根が来ても切るなとの事です。<br/><br/>何か霊的に意味があるものでしょうか。<br/><br/> 木龍が憑っている。<br/><br/> 怒られると生命までとられる。<br/><br/> 大事にし、粗末にしないようにする。<br/><br/> 057 霊木枯死の場合 霊木として恐れられていた木が枯死した場合、代りの木を植えず切り倒しても龍神の祟りは無いもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 人間が故意にやったんでないから自由に処分してよい。<br/><br/>龍神がいたとすれば他へ移っている。<br/><br/>また移るから枯れる。<br/><br/>龍神は樹齢を知っている。<br/><br/>（S23.11.11）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

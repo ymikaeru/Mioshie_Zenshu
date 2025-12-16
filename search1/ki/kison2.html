@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kison2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 既存療法 『天国の福音』昭和22(1947)年2月5日発行 ここで既存療法のおもなるものについて一通り説明する。<br><br> あらゆる既存療法が浄化作用停止である事は読者は充分諒解された事と思う。<br><br>しかし今一層徹底的に説いてみよう。<br><br>私が幾多の経験上長も恐るべきは彼の六百六号（サルバルサン）の注射である。<br><br>これは周知のごとく駆黴療法として一時は実に救世主のごとく想われたのであるが何ぞ知らん事実はこの反対である。<br><br>この薬剤の原料は耳掻き一杯で人命を落すという程の砒素（ひそ）剤であるから、この毒作用によって一時的浄化停止の効果は顕著である。<br><br>すなわち梅毒性発疹や腫脹に対し、同剤を注射するやたちまちにして消滅するから治癒したように見えるのであるが、実は浄化作用によって、潜伏毒素が皮膚面に押出されたのが、注射によって還元したまでである。<br><br>しかしそれだけならいいが、砒毒という別な猛毒が追加されたのである。<br><br>しかもそれは黴毒よりも数倍恐るべきもので、右の砒毒はあらゆる病原となるのである。<br><br>特に最も多いのは精神病、偏盲目または悪性腫物、種々の結核等あるが、いずれも悪質にして執拗極まるものである。<br><br>従って私は六百六号の注射を五、六本以上受けた患者は、何病に係わらず恢復困難と見るべき事を弟子に注意している位である。<br><br> 次に利尿剤の逆作用も注意すべきものである。<br><br>彼の腹膜炎患者の腹部膨満に対し医療は必ず利尿剤を用うるが、一時は尿定量を増し膨満は減退し、軽快またはほとんど治癒したとさえ思う程になるが、それは一時的であって、例外なく再び膨満する。<br><br>また利尿剤を用いると軽快する、また悪化する、また用うるという訳で漸次利尿効果は薄らぎ、ついに薬効は皆無となり、すこぶる頑固なる腹水病となるのである。<br><br>ここにおいて医療は腹部穿孔排水を行うが、これらも一時的萎縮で、再び膨満する。<br><br>また穿孔排水させるという事を繰返すにおいて、漸次腹水集溜の速度と量を増し、最後に到ってはその膨満著しく臨月よりも巨大となり、間もなく死に到るのである。<br><br> また睾丸水腫という睾丸の膨脹する病気や、排尿閉止等も利尿剤の逆効果による事が多いのである。<br><br> 次に、各種神経痛の強烈なる痛みに対し、モルヒネの注射をなし一時的苦痛を免れさせるがこれらも繰返す場合、食欲の減退はなはだしく、進むに従って嘔吐頻繁となり、食欲不振、衰弱死に到る事も稀ではない。<br><br> 次に、ジフテリヤの注射は卓効ありとされ予防に治療に大いに推奨されているが、これらも考慮の余地がある。<br><br>私の経験によれば、この注射による悪影響はあまりにも多い事である。<br><br>はなはだしきは死を招くものさえある。<br><br>また中には一週間位昏睡状態に陥って後、精神変質者となった者や胃腸障碍、神経衰弱等種々の病患の原因となり、しかもいずれも悪性である。<br><br>故にジフテリヤに対する効果と悪結果を考え合す時、私は後者が勝っているとみるのである。<br><br>本医術によればジフテリヤの大抵は数十分の施術によって全治するのである。<br><br> 右の外最近行われている結核療法にセファランチンの注射及び服用がある。<br><br>これらも悪性逆結果となり、治癒はすこぶる困難である。<br><br>私は弟子に対し、セファランチンの多量使用者に対しては生命の保証は為さざる事を注意するのである。<br><br>その他糖尿病に対するインシュリン注射が脳疾患の原因となり、また沃度（ヨード）剤が種々の病原または虚弱の原因となる等も看過出来ないものがある。<br><br> 次に、外科的に用いる消毒薬として沃度ホルムがあるが、これは特に恐るべきものであって、よく手術による患部が治癒し難く長時日を要する場合がある。<br><br>医家も不可解に思うが、これは全く消毒薬中毒であるから、その場合薬剤を落し、清水をもって洗うだけで順調に治癒に向うのである。<br><br>沃度ホルムの悪作用としてはこの薬が患部の筋肉から滲透し、その近接部に膿色斑点が出来、それが漸次拡充する事がある。<br><br>その場合医師は腐りゆくと思い、手足等の切断を奨めるが、それは猛烈な堪え難き痛苦もあるからである。<br><br> 右のごとく黴菌の侵入を恐れる結果用いる消毒薬が、黴菌よりも数倍恐るべき結果を招来する訳である。<br><br>それについて例を挙げてみよう。<br><br>ここになんら健康に異常なき一個の人間がある。<br><br>たまたま何かの予防注射を受ける。<br><br>暫くして多くは足部、膝下に腫物を生ずる。<br><br>医師へ行く、切開手術をする。<br><br>消毒剤を用いる。<br><br>それが滲透し、中毒を起し、激痛する、いかにするも治らない。<br><br>止むを得ず足首または膝関節から切断する、不具になる。<br><br>しかるに最も不幸なものは切断手術の際の消毒薬中毒によって、早晩股間に腫物を生ずる。<br><br>これも激痛に堪えぬが場所が悪いから切断し兼ねる。<br><br>そこでやむなくモルヒネの注射によって痛みを緩和するが結局モルヒネ中毒となり、食欲不振、衰弱死に到るというのが経路である。<br><br>かくのごとくなんら異常なき健康人が医学の犠牲者になる事実は非常に多いのである。<br><br> 嗚呼、憐れなる小羊をいかにすべきや。<br><br> 次に湿布である。<br><br>これは皮膚による呼吸を閉止し、または薬毒を滲透させ、その部面の浄化停止を行うのであるがら、一時的苦痛は軽減するが、その方法及び薬毒の残存が、種々の悪影響を及ぼすのである。<br><br> 次に膏薬または湿布薬であるが、これも不可である。<br><br>これについて二、三の例を挙げてみよう。<br><br>ある中老の男子、背部が凝るので、数年にわたってある有名な膏薬を貼用持続したのである。<br><br>しかるにその薬毒が漸次脊柱付近に溜着し、凝りの外に激しい痛みが加わったが、これは本療法によって短時日に治癒した。<br><br>次に中年の男子、顔面に点々としてニキビよりやや大きい発疹が出来、十数年にわたって種々の療法を施すも治癒しないとの事である。<br><br>それは最初普通のニキビを治そうとして種々の薬剤を塗布したが、それが浸潤してニキビが増大、頑固性となったもので、これは二、三ケ月にして全治した。<br><br> 次に最初脚部に湿疹が出来、それへ薬剤を塗布したため、薬毒性湿疹となり、漸次蔓延しつつついに全身にまで及んだのである。<br><br>それに気の付かない医療は相変らず塗布葉を持続するので極端に悪化し、皮膚は靡爛し紫黒色を帯び患者はその苦痛に呻吟しつつ全く手が付けられなかったので断った。<br><br>私は医学の過誤に長大息を禁じ得なかったのである。<br><br> その他頭痛に鎮静剤、不眠に睡眠剤、鼻孔閉塞にコカイン等ももちろん不可である。<br><br>また漢方薬持続者は多く青膨れとなり勝ちである。<br><br>洋薬多用者は皮膚に光沢なく、弾力衰え若くして老人のようになる。<br><br>従って薬剤を廃止すれば皮膚は漸次若返えるのである。<br><br> 次に、電気及び光線療法であるが、この原理も薬毒をより固結さすのであるから不可である。<br><br> 次に咳嗽に対する吸入療法は見当違いであるから無効果である。<br><br>温める温熱療法も一時的軽快療法で真の療法ではない。<br><br>また感冒の際温めて発汗さす事を良いとするが、これも誤りで自然放置の方がより速く治るものである。<br><br> 次にラジウム放射は病原破壊の目的であるが、これは病原と共に組織をも破壊するから行えば必ず病状は悪化するのである。<br><br> レントゲン放射は毒素を非常に固めるのみで、病気に対しては一時的効果で、もちろん有害である。<br><br> 近来流行するものに灸点療法がある。<br><br>多くは西洋医学に愛想を尽かした人か、または嫌いな人が受療するのであるが、これは無害で幾分の効果はある。<br><br>灸療法の原理は、人体は火傷をすると大抵は化膿するが、それと同様の理である。<br><br>すなわち大火傷では苦痛だから、小火傷を分散的に行うのである。<br><br>それによって病原である深部毒素が、小火傷部に分散的に誘致されるから、病苦は軽減するのである。<br><br>しかしそれは一時的で再び還元するから、灸を据え始めたら毎月かまたは一個月おき位に持続しなければならないというのはそのためである。<br><br>これについて弘法灸といって特別大きな灸を据えるが、これは毒素を多量に吸引するから効果は大である。<br><br>弘法様はなかなか利巧である。<br><br>しかし困る事には灸療法は皮膚に醜痕をのこす事である。<br><br>元来人体は造物主の最高の傑作品で、美の極致である。<br><br>特に女性のごときはその皮膚美の魅力は他に比すべきものはあるまい。<br><br>日本でも昔から玉の膚といい、泰西では女性の裸体を最高の美としている。<br><br>それに対して人為的に火傷の痕を残し、一生涯消えないという事は皮膚の不具者となるのであり造物主に対する冒涜の罪は免れないと思うのである。<br><br>また鍼療法は血管を傷つけ内出血を起させ、その凝結によって一時的浄化停止を行うので真の療法ではないのである。<br><br> 病患と医学の誤謬 現代医学における誤診並びに治療の無能なる事は、医家といえどもよく認識している筈である。<br><br>内科的病息が診断と解剖との相違の大学における統計のあまりに多い事は世人は知らないであろう。<br><br>また西洋医学の治病成績の統計を作ったなら想像もつかない程の不成績に驚くであろう。<br><br>これらはいずれも研究という幕に蔽（おお）われて世人には見えないのである。<br><br>あらゆる病患は医学の進歩によってのみ解決せらるべきものとの根強い迷信によって徒労に等しき努力を続けつつある――これが医師及び医学者である。<br><br>そうして医学における誤謬はあらゆる面から説いたつもりであるが、なお個々の病患について概略説明してみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Terapias Convencionais e Seus Equívocos</h2>
 <p>Neste ensejo, passarei a dissertar sobre as principais terapias convencionais. O leitor certamente já compreendeu que todas elas têm como princípio a interrupção do processo de purificação. Todavia, aprofundarei a análise de forma ainda mais exaustiva.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Recentemente, a moxabustão tornou-se popular, sendo procurada por pessoas que perderam a confiança na medicina ocidental ou que simplesmente a rejeitam. Esse método não é prejudicial e apresenta alguma eficácia. O princípio da moxaterapia é análogo ao que ocorre quando sofremos uma queimadura, que geralmente infecciona. Como uma queimadura de grandes proporções seria muito dolorosa, aplicam-se pequenas queimaduras de forma dispersa. Com isso, as toxinas profundas, que são a causa da doença, são atraídas para esses pequenos pontos, aliviando o sofrimento. O efeito, no entanto, é temporário, e as toxinas acabam por retornar à sua posição original. É por essa razão que, uma vez iniciado o tratamento, é preciso repeti-lo mensalmente ou a cada dois meses. Existe uma técnica chamada Kouboukyu, que utiliza cones de moxa especialmente grandes. Por atrair uma quantidade maior de toxinas, seu efeito é mais pronunciado. O monge Kobo Daishi era bastante engenhoso. O inconveniente da moxabustão, porém, são as cicatrizes que deixa na pele. Ora, o corpo humano é a obra-prima do Criador, a mais sublime expressão da beleza. O encanto da pele, especialmente a feminina, é incomparável. No Japão, desde tempos antigos, exalta-se a "pele de jade", e no Ocidente, o corpo feminino nu é considerado o ápice da beleza. Deixar no corpo cicatrizes de queimadura, marcas indeléveis para toda a vida, equivale a mutilá-lo, tornando-se, a meu ver, um ato de profanação contra o Criador, um pecado do qual não há como se isentar. Por fim, a acupuntura não é uma terapia verdadeira, pois seu método consiste em lesar vasos sanguíneos, provocar uma hemorragia interna e, por meio da coagulação do sangue, interromper temporariamente a purificação.</p>
 <h2>As Enfermidades e os Equívocos da Medicina</h2>
 <p>Os equívocos de diagnóstico e a ineficácia dos tratamentos da medicina moderna são fatos que, presumivelmente, os próprios médicos reconhecem. O público certamente desconhece as estatísticas universitárias que revelam a alarmante discrepância entre os diagnósticos clínicos e os resultados das autópsias. Da mesma forma, se fossem compiladas estatísticas sobre os resultados dos tratamentos da medicina ocidental, o mundo se surpreenderia com seu desempenho inacreditavelmente pífio. Contudo, tais verdades permanecem ocultas do público, veladas por um manto chamado ‘pesquisa científica’. Guiados por uma superstição arraigada de que todas as enfermidades serão solucionadas unicamente pelo avanço da medicina, médicos e pesquisadores persistem em um esforço que beira a futilidade. Embora eu já tenha discorrido sobre os erros da medicina sob diversos prismas, gostaria ainda de tecer breves comentários sobre algumas doenças específicas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 既存療法 『天国の福音』昭和22(1947)年2月5日発行 ここで既存療法のおもなるものについて一通り説明する。<br/><br/> あらゆる既存療法が浄化作用停止である事は読者は充分諒解された事と思う。<br/><br/>しかし今一層徹底的に説いてみよう。<br/><br/>私が幾多の経験上長も恐るべきは彼の六百六号（サルバルサン）の注射である。<br/><br/>これは周知のごとく駆黴療法として一時は実に救世主のごとく想われたのであるが何ぞ知らん事実はこの反対である。<br/><br/>この薬剤の原料は耳掻き一杯で人命を落すという程の砒素（ひそ）剤であるから、この毒作用によって一時的浄化停止の効果は顕著である。<br/><br/>すなわち梅毒性発疹や腫脹に対し、同剤を注射するやたちまちにして消滅するから治癒したように見えるのであるが、実は浄化作用によって、潜伏毒素が皮膚面に押出されたのが、注射によって還元したまでである。<br/><br/>しかしそれだけならいいが、砒毒という別な猛毒が追加されたのである。<br/><br/>しかもそれは黴毒よりも数倍恐るべきもので、右の砒毒はあらゆる病原となるのである。<br/><br/>特に最も多いのは精神病、偏盲目または悪性腫物、種々の結核等あるが、いずれも悪質にして執拗極まるものである。<br/><br/>従って私は六百六号の注射を五、六本以上受けた患者は、何病に係わらず恢復困難と見るべき事を弟子に注意している位である。<br/><br/> 次に利尿剤の逆作用も注意すべきものである。<br/><br/>彼の腹膜炎患者の腹部膨満に対し医療は必ず利尿剤を用うるが、一時は尿定量を増し膨満は減退し、軽快またはほとんど治癒したとさえ思う程になるが、それは一時的であって、例外なく再び膨満する。<br/><br/>また利尿剤を用いると軽快する、また悪化する、また用うるという訳で漸次利尿効果は薄らぎ、ついに薬効は皆無となり、すこぶる頑固なる腹水病となるのである。<br/><br/>ここにおいて医療は腹部穿孔排水を行うが、これらも一時的萎縮で、再び膨満する。<br/><br/>また穿孔排水させるという事を繰返すにおいて、漸次腹水集溜の速度と量を増し、最後に到ってはその膨満著しく臨月よりも巨大となり、間もなく死に到るのである。<br/><br/> また睾丸水腫という睾丸の膨脹する病気や、排尿閉止等も利尿剤の逆効果による事が多いのである。<br/><br/> 次に、各種神経痛の強烈なる痛みに対し、モルヒネの注射をなし一時的苦痛を免れさせるがこれらも繰返す場合、食欲の減退はなはだしく、進むに従って嘔吐頻繁となり、食欲不振、衰弱死に到る事も稀ではない。<br/><br/> 次に、ジフテリヤの注射は卓効ありとされ予防に治療に大いに推奨されているが、これらも考慮の余地がある。<br/><br/>私の経験によれば、この注射による悪影響はあまりにも多い事である。<br/><br/>はなはだしきは死を招くものさえある。<br/><br/>また中には一週間位昏睡状態に陥って後、精神変質者となった者や胃腸障碍、神経衰弱等種々の病患の原因となり、しかもいずれも悪性である。<br/><br/>故にジフテリヤに対する効果と悪結果を考え合す時、私は後者が勝っているとみるのである。<br/><br/>本医術によればジフテリヤの大抵は数十分の施術によって全治するのである。<br/><br/> 右の外最近行われている結核療法にセファランチンの注射及び服用がある。<br/><br/>これらも悪性逆結果となり、治癒はすこぶる困難である。<br/><br/>私は弟子に対し、セファランチンの多量使用者に対しては生命の保証は為さざる事を注意するのである。<br/><br/>その他糖尿病に対するインシュリン注射が脳疾患の原因となり、また沃度（ヨード）剤が種々の病原または虚弱の原因となる等も看過出来ないものがある。<br/><br/> 次に、外科的に用いる消毒薬として沃度ホルムがあるが、これは特に恐るべきものであって、よく手術による患部が治癒し難く長時日を要する場合がある。<br/><br/>医家も不可解に思うが、これは全く消毒薬中毒であるから、その場合薬剤を落し、清水をもって洗うだけで順調に治癒に向うのである。<br/><br/>沃度ホルムの悪作用としてはこの薬が患部の筋肉から滲透し、その近接部に膿色斑点が出来、それが漸次拡充する事がある。<br/><br/>その場合医師は腐りゆくと思い、手足等の切断を奨めるが、それは猛烈な堪え難き痛苦もあるからである。<br/><br/> 右のごとく黴菌の侵入を恐れる結果用いる消毒薬が、黴菌よりも数倍恐るべき結果を招来する訳である。<br/><br/>それについて例を挙げてみよう。<br/><br/>ここになんら健康に異常なき一個の人間がある。<br/><br/>たまたま何かの予防注射を受ける。<br/><br/>暫くして多くは足部、膝下に腫物を生ずる。<br/><br/>医師へ行く、切開手術をする。<br/><br/>消毒剤を用いる。<br/><br/>それが滲透し、中毒を起し、激痛する、いかにするも治らない。<br/><br/>止むを得ず足首または膝関節から切断する、不具になる。<br/><br/>しかるに最も不幸なものは切断手術の際の消毒薬中毒によって、早晩股間に腫物を生ずる。<br/><br/>これも激痛に堪えぬが場所が悪いから切断し兼ねる。<br/><br/>そこでやむなくモルヒネの注射によって痛みを緩和するが結局モルヒネ中毒となり、食欲不振、衰弱死に到るというのが経路である。<br/><br/>かくのごとくなんら異常なき健康人が医学の犠牲者になる事実は非常に多いのである。<br/><br/> 嗚呼、憐れなる小羊をいかにすべきや。<br/><br/> 次に湿布である。<br/><br/>これは皮膚による呼吸を閉止し、または薬毒を滲透させ、その部面の浄化停止を行うのであるがら、一時的苦痛は軽減するが、その方法及び薬毒の残存が、種々の悪影響を及ぼすのである。<br/><br/> 次に膏薬または湿布薬であるが、これも不可である。<br/><br/>これについて二、三の例を挙げてみよう。<br/><br/>ある中老の男子、背部が凝るので、数年にわたってある有名な膏薬を貼用持続したのである。<br/><br/>しかるにその薬毒が漸次脊柱付近に溜着し、凝りの外に激しい痛みが加わったが、これは本療法によって短時日に治癒した。<br/><br/>次に中年の男子、顔面に点々としてニキビよりやや大きい発疹が出来、十数年にわたって種々の療法を施すも治癒しないとの事である。<br/><br/>それは最初普通のニキビを治そうとして種々の薬剤を塗布したが、それが浸潤してニキビが増大、頑固性となったもので、これは二、三ケ月にして全治した。<br/><br/> 次に最初脚部に湿疹が出来、それへ薬剤を塗布したため、薬毒性湿疹となり、漸次蔓延しつつついに全身にまで及んだのである。<br/><br/>それに気の付かない医療は相変らず塗布葉を持続するので極端に悪化し、皮膚は靡爛し紫黒色を帯び患者はその苦痛に呻吟しつつ全く手が付けられなかったので断った。<br/><br/>私は医学の過誤に長大息を禁じ得なかったのである。<br/><br/> その他頭痛に鎮静剤、不眠に睡眠剤、鼻孔閉塞にコカイン等ももちろん不可である。<br/><br/>また漢方薬持続者は多く青膨れとなり勝ちである。<br/><br/>洋薬多用者は皮膚に光沢なく、弾力衰え若くして老人のようになる。<br/><br/>従って薬剤を廃止すれば皮膚は漸次若返えるのである。<br/><br/> 次に、電気及び光線療法であるが、この原理も薬毒をより固結さすのであるから不可である。<br/><br/> 次に咳嗽に対する吸入療法は見当違いであるから無効果である。<br/><br/>温める温熱療法も一時的軽快療法で真の療法ではない。<br/><br/>また感冒の際温めて発汗さす事を良いとするが、これも誤りで自然放置の方がより速く治るものである。<br/><br/> 次にラジウム放射は病原破壊の目的であるが、これは病原と共に組織をも破壊するから行えば必ず病状は悪化するのである。<br/><br/> レントゲン放射は毒素を非常に固めるのみで、病気に対しては一時的効果で、もちろん有害である。<br/><br/> 近来流行するものに灸点療法がある。<br/><br/>多くは西洋医学に愛想を尽かした人か、または嫌いな人が受療するのであるが、これは無害で幾分の効果はある。<br/><br/>灸療法の原理は、人体は火傷をすると大抵は化膿するが、それと同様の理である。<br/><br/>すなわち大火傷では苦痛だから、小火傷を分散的に行うのである。<br/><br/>それによって病原である深部毒素が、小火傷部に分散的に誘致されるから、病苦は軽減するのである。<br/><br/>しかしそれは一時的で再び還元するから、灸を据え始めたら毎月かまたは一個月おき位に持続しなければならないというのはそのためである。<br/><br/>これについて弘法灸といって特別大きな灸を据えるが、これは毒素を多量に吸引するから効果は大である。<br/><br/>弘法様はなかなか利巧である。<br/><br/>しかし困る事には灸療法は皮膚に醜痕をのこす事である。<br/><br/>元来人体は造物主の最高の傑作品で、美の極致である。<br/><br/>特に女性のごときはその皮膚美の魅力は他に比すべきものはあるまい。<br/><br/>日本でも昔から玉の膚といい、泰西では女性の裸体を最高の美としている。<br/><br/>それに対して人為的に火傷の痕を残し、一生涯消えないという事は皮膚の不具者となるのであり造物主に対する冒涜の罪は免れないと思うのである。<br/><br/>また鍼療法は血管を傷つけ内出血を起させ、その凝結によって一時的浄化停止を行うので真の療法ではないのである。<br/><br/> 病患と医学の誤謬 現代医学における誤診並びに治療の無能なる事は、医家といえどもよく認識している筈である。<br/><br/>内科的病息が診断と解剖との相違の大学における統計のあまりに多い事は世人は知らないであろう。<br/><br/>また西洋医学の治病成績の統計を作ったなら想像もつかない程の不成績に驚くであろう。<br/><br/>これらはいずれも研究という幕に蔽（おお）われて世人には見えないのである。<br/><br/>あらゆる病患は医学の進歩によってのみ解決せらるべきものとの根強い迷信によって徒労に等しき努力を続けつつある――これが医師及び医学者である。<br/><br/>そうして医学における誤謬はあらゆる面から説いたつもりであるが、なお個々の病患について概略説明してみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

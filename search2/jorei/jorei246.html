@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei246</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 光くらべ ――神力と人力―― 槐安生 『栄光』246号、昭和29(1954)年2月3日発行 光くらべ。<br><br>というよりは霊力くらべ。<br><br>というほうが当っているかも知れない。<br><br> 救世教の信者が余儀ない事情で、これも掌から電波を放射して病気を治す。<br><br>という健康会の会長に、その光の強さを比べられた。<br><br>という話を、旅先で聴いた。<br><br>この話は先方に支障もあろうと思い、仮名を用いることにして、直接、その本人に語って貰うことにしよう。<br><br> × × × お光の力の強さを比べたというのはその結果がそうなったまでで、私には霊力を比べてみよう。<br><br>という意識は最後までありませんでした。<br><br>そのことすら後で気が付いたくらいです。<br><br>というのは御浄霊させていただくこのお力はもともと私のものではなく、すべてが明主様のお力であって、私たちは明主様のお力を分相応にお取次させて戴いているだけのもの、と思っていましたから、神様が私にお授け下さっている霊力を、自分のもの……とは考えていません。<br><br>ましてこの力がどれ程のものか、試してみよう。<br><br>なぞとは露ほども思った事はないのです。<br><br>それが思いがけなく、その偉い先生と力くらべをする羽目になって仕舞った訳ですが、力を比べてみよう。<br><br>としたのは、その先生だけで、私はただ、明主様のお守りをかけている信者として試されているのだな。<br><br>とそのとき感じただけでした。<br><br> それはつい先日のことで仕事を仕舞ってから退屈凌ぎに信者仲間の泉湧館へ遊びに行った時でした。<br><br>泉湧館というのは○○温泉の旅館で、その家の温泉は御浄霊したら土地一番の豊富な湯量の温泉が噴き出した、という奇蹟があって、それ以来○○温泉で一、二を争うくらいに繁昌している旅館です。<br><br> ふだんから心易くしていて勝手知った家のこと、案内も乞わずいつものように主人が坐っている帳場へ入ろう、とすると、そこには人品のいい年輩の紳士がいて主人と何か話しをしている様子です。<br><br>これは、と入るのを遠慮して引返えそうとする私を目ざとくみつけて「ああ……丁度いいところへきた。<br><br>……先生、この人は救世教の信者さんです。<br><br>」と主人が言った。<br><br>「ほう……これはいい塩梅だ、暇はとらせない。<br><br>五分か十分でいいから、君、一寸、つき合ってくれませんか。<br><br>」とその立派な紳士が穏やかな眼差しを私の方へ向けた。<br><br>何をつき合え。<br><br>というのだろうか。<br><br>余りに咄嗟なことで返事も出ず、けげんな面持ちで立っている私に「君、なんでもないことだ、五分かそこら、こちらの先生の前に坐ってくれれば、それだけでいいんだ」と主人は頼む。<br><br>といわんばかりの表情をみせた。<br><br> 「では、一寸、二階へきて貰らおうか。<br><br>」その紳士はまだなんとも返事をしていない私に、有無を言わせない強い気配をみせて帳場を立った。<br><br> 泉湧館の二階の大広間は熱海咲見町の御神殿を髣髴させる。<br><br>というより、御神殿を模した造りで、違うところは真ん中を襖で仕切ればふた間に使える仕組みになっていて、団体客の食事や宴会場に使われているのであった。<br><br>紳士の後から廊下を幾曲りもして二階へあがると、さしもの広い座敷も着飾った大勢の人達で埋め尽くされ、私は一瞬、御本部へ参拝にきた錯覚さえ起した程であった。<br><br>私を前に坐らせてどうしようとするのだろうか。<br><br>あの立派な紳士は何者だろう。<br><br>学校の先生でもあろうか。<br><br>そんなことが私の頭の中を急がしく駆け巡った。<br><br> その先生が座敷へ入るとそこにいた大勢の人達が居ずまいを正し、一ように丁寧なお辞儀をした。<br><br>先生といわれた人は、正面の床の間の前に敷いてある厚い大きな座蒲団にゆったりと正座し「君、ここへ。<br><br>」と自分の前を指差した。<br><br>大勢の人たちの視線がみな私に集中している。<br><br>一体、私をどうしようとするのだ。<br><br>いささか不安を感じると自然に左の手がお守りさまの上にゆく。<br><br>お守りはかけている。<br><br>ただそれを確かめただけで不安は跡かたもなく消えて平静に戻った。<br><br> 「手を、こうしてみて下さい。<br><br>」右手の掌を前へむけて肩と手が水平になるような恰好をしてみせた。<br><br>私が示されたとおりにすると、まわりにいる人間達から何か重苦しい緊張した空気が醸し出され、低く、呟やくような声が私の耳朶を打った。<br><br>それは英語の単語に似た発音のようであった。<br><br> 先生は獲物を前にした猟師のように、自信に満ちた鷹揚な態度で「いいかね。<br><br>」と念を押すように言いながら私に示したような構えをし自分の右腕を伸して指先を私の右の掌にむけた。<br><br>これは一体なんということだろう。<br><br>まるで御浄霊のようではないか。<br><br>私はまたしても御浄霊を戴いている様な錯覚に襲われそうであった。<br><br> 五分、十分……最初のうちは時計の刻む秒を数えたり、先生の眼を見詰めてみたり、左右に居流れた人達の顔を交互に眺めたりしていたが、その退屈な時間を持て余して出ようとする欠伸を抑えるのに苦労した。<br><br>いつ迄、こんな事を続ける積りだろう。<br><br>御浄霊にも似たあの構えはなんだろう。<br><br>私を救世教の信者と知った上でこうしている以上、これには意味があるのだろう。<br><br>広間を埋めている人達でさえこのことを知っているらしく好奇の眼を輝やかしている。<br><br>知らないのは当の自分だけだ……そんなことを漠然と思いながら先生を見ると、先刻と一変しているその形相に驚いた。<br><br>もう朝晩は肌寒く火鉢なしには済まされない季節だというのに、先生は額に玉のような汗を滲ませ、思いなしか見開いた両眼は血走っている様に見えた。<br><br>私に向けた手には力が籠っていて、それには必死とも言える凄さまじさが感じられる。<br><br> 「休もうか、君も疲れたろう。<br><br>」先生はそう言って、手をおろし、ハンケチで額の汗を拭いた。<br><br>居流れた左右の人達も吻ッとしたように大きく息をした。<br><br>疲れたろう。<br><br>と労わられたが、私は手から力を抜いて浄霊する修業も、覚束ないながらさせて戴いているつもりなので少しも疲れてはいない。<br><br> 「君の手に何か感じ……電気でしぴれる。<br><br>……というふうな感じはしなかったかね。<br><br>」と先生が訊いた「さあ……別になんの感じもありませんが」と言うと一寸、首を傾しげる仕草をして「では……もう一度」と先生はまた手を構えた。<br><br>私も止むを得ず苦笑しながら右の手を挙げた。<br><br> 鈍感な私もここに至ってやっと気が付いた。<br><br>これは救世教の信者の力を試めされているのだな。<br><br>と。<br><br>そう気が付いてみると、試めしの場に立たされている自分はどうしたらいいのか。<br><br>一層の事、こちらから浄霊してやろうか。<br><br>それとも……と戸惑いし妙な困惑を感じたりしたが、さっきと同じように虚心でいればいい、と思いかえした。<br><br>五分＝十分。<br><br>今度は私の挙げた手に何か変った感じが現われるかも知れない。<br><br>その異変の起ることを心待ちに期待し全部の神経を集めて注意したが、なにも感じるものがない。<br><br>先生が汗を額いから流しているのもまえ同様だったが、まえ程の生彩がないのは疲れたのかも知れない。<br><br>「今度は感じたろう」そう言って先生は汗を拭いた。<br><br>時計を見ると十五分経っていた。<br><br>「なんともありませんよ」と言おうとしたが、力み返って上気している先生の顔を見ると気の毒になり「少しは……」と曖味な返事が出た「そうだろう……御苦労さんだった」先生は幾分満足したかのようにねぎらった。<br><br> 「二度目の時は本当に何か感じたのかね。<br><br>」階段のおり口にいた泉湧館の主人は、今の場面の始終を見ていた様である。<br><br>「二度目も何んにも感じなかったが、汗を流して力んでいるのを可哀そうに思って、華を持たせたつもりなんだが。<br><br>」「華を持たせずに正直に何も感じません。<br><br>と言えばよかったのに……惜しいことをしたもんだ。<br><br>だが、いい経験をしたよ。<br><br>あの人の霊力というか……あの力は、人間が難行苦行してやっと得た力で、いわば人間の力さ。<br><br>こちらは大光明榛の御神力なんだから、比べてみよう。<br><br>というのがすでに間違っていると思うんだ。<br><br>」主人の言葉には潔い感慨が籠められていた。<br><br>「実験台になって貰った君に、説明もしないで済まなかったが、実はあの方が健康会の会長。<br><br>宗教でいえば開祖とも言える人で今日は近県の支部懇親会だそうだ。<br><br>うちが救世教の信者だということをどこからか聞いてきて、あの方から霊力を受けてみないか。<br><br>と勧められているところへ君がきた。<br><br>という訳なんだ。<br><br>なぜ、あの立派な人が、吾々風情を掴えてあんなことをしたか。<br><br>あとは言うまでもないことだろう。<br><br>」 主人はそう言いながら、私に茶をいれてくれた。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Poder Divino e o Poder Humano</h2>
 <p>O título deste relato poderia ser “A Comparação da Luz”, mas talvez “A Comparação do Poder Espiritual” fosse mais apropriado. Tive a oportunidade de ouvir, durante uma viagem, a história de um membro da Sekaikyuseikyou que, por circunstâncias inevitáveis, teve a intensidade de sua Luz comparada com a de um mestre de uma associação de saúde, que também afirma curar doenças através da irradiação de uma energia que emana das palmas das mãos.</p>
@@ -125,5 +277,48 @@ function toggleLang(lang) {
 <p>“Deveria ter sido honesto e dito que não sentiu nada, em vez de tentar preservar a dignidade dele. Perdemos uma boa oportunidade. Mas, de todo modo, foi uma excelente experiência. O poder espiritual daquele homem... é uma força obtida pelo ser humano através de árduas disciplinas ascéticas; em outras palavras, é um poder humano. Nós, por outro lado, canalizamos o Poder Divino da Grande Luz de Deus. Portanto, a própria premissa de compará-los já é, em si, um equívoco”, disse o proprietário com uma convicção serena em suas palavras.</p>
 <p>“Perdoe-me por tê-lo usado como cobaia sem dar explicações. Aquele homem é o presidente da Associação de Saúde, o que em uma religião equivaleria ao fundador. Hoje, ele estava realizando uma confraternização com os responsáveis das filiais da região. De alguma forma, ele soube que somos membros da Sekaikyuseikyou e estava me convidando a receber seu poder espiritual. Foi exatamente nesse momento que você chegou. O motivo de um homem tão distinto abordar pessoas como nós para realizar tal ato... bem, o restante dispensa explicações.”</p>
 <p>Enquanto falava, o proprietário serviu-me uma xícara de chá.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 光くらべ ――神力と人力―― 槐安生 『栄光』246号、昭和29(1954)年2月3日発行 光くらべ。<br/><br/>というよりは霊力くらべ。<br/><br/>というほうが当っているかも知れない。<br/><br/> 救世教の信者が余儀ない事情で、これも掌から電波を放射して病気を治す。<br/><br/>という健康会の会長に、その光の強さを比べられた。<br/><br/>という話を、旅先で聴いた。<br/><br/>この話は先方に支障もあろうと思い、仮名を用いることにして、直接、その本人に語って貰うことにしよう。<br/><br/> × × × お光の力の強さを比べたというのはその結果がそうなったまでで、私には霊力を比べてみよう。<br/><br/>という意識は最後までありませんでした。<br/><br/>そのことすら後で気が付いたくらいです。<br/><br/>というのは御浄霊させていただくこのお力はもともと私のものではなく、すべてが明主様のお力であって、私たちは明主様のお力を分相応にお取次させて戴いているだけのもの、と思っていましたから、神様が私にお授け下さっている霊力を、自分のもの……とは考えていません。<br/><br/>ましてこの力がどれ程のものか、試してみよう。<br/><br/>なぞとは露ほども思った事はないのです。<br/><br/>それが思いがけなく、その偉い先生と力くらべをする羽目になって仕舞った訳ですが、力を比べてみよう。<br/><br/>としたのは、その先生だけで、私はただ、明主様のお守りをかけている信者として試されているのだな。<br/><br/>とそのとき感じただけでした。<br/><br/> それはつい先日のことで仕事を仕舞ってから退屈凌ぎに信者仲間の泉湧館へ遊びに行った時でした。<br/><br/>泉湧館というのは○○温泉の旅館で、その家の温泉は御浄霊したら土地一番の豊富な湯量の温泉が噴き出した、という奇蹟があって、それ以来○○温泉で一、二を争うくらいに繁昌している旅館です。<br/><br/> ふだんから心易くしていて勝手知った家のこと、案内も乞わずいつものように主人が坐っている帳場へ入ろう、とすると、そこには人品のいい年輩の紳士がいて主人と何か話しをしている様子です。<br/><br/>これは、と入るのを遠慮して引返えそうとする私を目ざとくみつけて「ああ……丁度いいところへきた。<br/><br/>……先生、この人は救世教の信者さんです。<br/><br/>」と主人が言った。<br/><br/>「ほう……これはいい塩梅だ、暇はとらせない。<br/><br/>五分か十分でいいから、君、一寸、つき合ってくれませんか。<br/><br/>」とその立派な紳士が穏やかな眼差しを私の方へ向けた。<br/><br/>何をつき合え。<br/><br/>というのだろうか。<br/><br/>余りに咄嗟なことで返事も出ず、けげんな面持ちで立っている私に「君、なんでもないことだ、五分かそこら、こちらの先生の前に坐ってくれれば、それだけでいいんだ」と主人は頼む。<br/><br/>といわんばかりの表情をみせた。<br/><br/> 「では、一寸、二階へきて貰らおうか。<br/><br/>」その紳士はまだなんとも返事をしていない私に、有無を言わせない強い気配をみせて帳場を立った。<br/><br/> 泉湧館の二階の大広間は熱海咲見町の御神殿を髣髴させる。<br/><br/>というより、御神殿を模した造りで、違うところは真ん中を襖で仕切ればふた間に使える仕組みになっていて、団体客の食事や宴会場に使われているのであった。<br/><br/>紳士の後から廊下を幾曲りもして二階へあがると、さしもの広い座敷も着飾った大勢の人達で埋め尽くされ、私は一瞬、御本部へ参拝にきた錯覚さえ起した程であった。<br/><br/>私を前に坐らせてどうしようとするのだろうか。<br/><br/>あの立派な紳士は何者だろう。<br/><br/>学校の先生でもあろうか。<br/><br/>そんなことが私の頭の中を急がしく駆け巡った。<br/><br/> その先生が座敷へ入るとそこにいた大勢の人達が居ずまいを正し、一ように丁寧なお辞儀をした。<br/><br/>先生といわれた人は、正面の床の間の前に敷いてある厚い大きな座蒲団にゆったりと正座し「君、ここへ。<br/><br/>」と自分の前を指差した。<br/><br/>大勢の人たちの視線がみな私に集中している。<br/><br/>一体、私をどうしようとするのだ。<br/><br/>いささか不安を感じると自然に左の手がお守りさまの上にゆく。<br/><br/>お守りはかけている。<br/><br/>ただそれを確かめただけで不安は跡かたもなく消えて平静に戻った。<br/><br/> 「手を、こうしてみて下さい。<br/><br/>」右手の掌を前へむけて肩と手が水平になるような恰好をしてみせた。<br/><br/>私が示されたとおりにすると、まわりにいる人間達から何か重苦しい緊張した空気が醸し出され、低く、呟やくような声が私の耳朶を打った。<br/><br/>それは英語の単語に似た発音のようであった。<br/><br/> 先生は獲物を前にした猟師のように、自信に満ちた鷹揚な態度で「いいかね。<br/><br/>」と念を押すように言いながら私に示したような構えをし自分の右腕を伸して指先を私の右の掌にむけた。<br/><br/>これは一体なんということだろう。<br/><br/>まるで御浄霊のようではないか。<br/><br/>私はまたしても御浄霊を戴いている様な錯覚に襲われそうであった。<br/><br/> 五分、十分……最初のうちは時計の刻む秒を数えたり、先生の眼を見詰めてみたり、左右に居流れた人達の顔を交互に眺めたりしていたが、その退屈な時間を持て余して出ようとする欠伸を抑えるのに苦労した。<br/><br/>いつ迄、こんな事を続ける積りだろう。<br/><br/>御浄霊にも似たあの構えはなんだろう。<br/><br/>私を救世教の信者と知った上でこうしている以上、これには意味があるのだろう。<br/><br/>広間を埋めている人達でさえこのことを知っているらしく好奇の眼を輝やかしている。<br/><br/>知らないのは当の自分だけだ……そんなことを漠然と思いながら先生を見ると、先刻と一変しているその形相に驚いた。<br/><br/>もう朝晩は肌寒く火鉢なしには済まされない季節だというのに、先生は額に玉のような汗を滲ませ、思いなしか見開いた両眼は血走っている様に見えた。<br/><br/>私に向けた手には力が籠っていて、それには必死とも言える凄さまじさが感じられる。<br/><br/> 「休もうか、君も疲れたろう。<br/><br/>」先生はそう言って、手をおろし、ハンケチで額の汗を拭いた。<br/><br/>居流れた左右の人達も吻ッとしたように大きく息をした。<br/><br/>疲れたろう。<br/><br/>と労わられたが、私は手から力を抜いて浄霊する修業も、覚束ないながらさせて戴いているつもりなので少しも疲れてはいない。<br/><br/> 「君の手に何か感じ……電気でしぴれる。<br/><br/>……というふうな感じはしなかったかね。<br/><br/>」と先生が訊いた「さあ……別になんの感じもありませんが」と言うと一寸、首を傾しげる仕草をして「では……もう一度」と先生はまた手を構えた。<br/><br/>私も止むを得ず苦笑しながら右の手を挙げた。<br/><br/> 鈍感な私もここに至ってやっと気が付いた。<br/><br/>これは救世教の信者の力を試めされているのだな。<br/><br/>と。<br/><br/>そう気が付いてみると、試めしの場に立たされている自分はどうしたらいいのか。<br/><br/>一層の事、こちらから浄霊してやろうか。<br/><br/>それとも……と戸惑いし妙な困惑を感じたりしたが、さっきと同じように虚心でいればいい、と思いかえした。<br/><br/>五分＝十分。<br/><br/>今度は私の挙げた手に何か変った感じが現われるかも知れない。<br/><br/>その異変の起ることを心待ちに期待し全部の神経を集めて注意したが、なにも感じるものがない。<br/><br/>先生が汗を額いから流しているのもまえ同様だったが、まえ程の生彩がないのは疲れたのかも知れない。<br/><br/>「今度は感じたろう」そう言って先生は汗を拭いた。<br/><br/>時計を見ると十五分経っていた。<br/><br/>「なんともありませんよ」と言おうとしたが、力み返って上気している先生の顔を見ると気の毒になり「少しは……」と曖味な返事が出た「そうだろう……御苦労さんだった」先生は幾分満足したかのようにねぎらった。<br/><br/> 「二度目の時は本当に何か感じたのかね。<br/><br/>」階段のおり口にいた泉湧館の主人は、今の場面の始終を見ていた様である。<br/><br/>「二度目も何んにも感じなかったが、汗を流して力んでいるのを可哀そうに思って、華を持たせたつもりなんだが。<br/><br/>」「華を持たせずに正直に何も感じません。<br/><br/>と言えばよかったのに……惜しいことをしたもんだ。<br/><br/>だが、いい経験をしたよ。<br/><br/>あの人の霊力というか……あの力は、人間が難行苦行してやっと得た力で、いわば人間の力さ。<br/><br/>こちらは大光明榛の御神力なんだから、比べてみよう。<br/><br/>というのがすでに間違っていると思うんだ。<br/><br/>」主人の言葉には潔い感慨が籠められていた。<br/><br/>「実験台になって貰った君に、説明もしないで済まなかったが、実はあの方が健康会の会長。<br/><br/>宗教でいえば開祖とも言える人で今日は近県の支部懇親会だそうだ。<br/><br/>うちが救世教の信者だということをどこからか聞いてきて、あの方から霊力を受けてみないか。<br/><br/>と勧められているところへ君がきた。<br/><br/>という訳なんだ。<br/><br/>なぜ、あの立派な人が、吾々風情を掴えてあんなことをしたか。<br/><br/>あとは言うまでもないことだろう。<br/><br/>」 主人はそう言いながら、私に茶をいれてくれた。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

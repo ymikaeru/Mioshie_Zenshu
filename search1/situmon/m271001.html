@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M271001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>M271001<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>御垂示（S27年10月1日）<br>『御垂示録』14号、昭和27(1952)年10月15日発行<br>昭和二十七年十月一日<br>「蓮の花につきまして、目の悪い人で、非常に悪くなったので行者に見てもらったところが、下水が蓮の畑に流れているからだと言われたそうです。ただ今は御浄霊にまいっております」<br>そんなことはありません。そんな馬鹿馬鹿しいことはない。蓮は、泥の中から清い――と言われてますから、ちょうど良いではありませんか。きれいなところから咲きやしません。そこを清くしてしまったら、せっかくの蓮だって張合いがありません。行者なんかはくだらないことを言ってますから――。<br>「教師の長男二十一歳、昨年二月入信。四月に光明如来様を御奉斎。五月頃よりマージャンに凝り、放蕩し、九月に大光明如来様を御奉斎しますます放蕩が激しくなり、母は教師でありますので罪の払拭をさせていただいておりますが、母の信仰が進めば進むほど激しくなります」<br>結構ではありませんか。喜んで神様に感謝しなさい。一家に非常に罪があるので、それを信仰させるために、早く罪を取ってくれる。それには子供に金を使わせて、祖先がその子供を一人犠牲にしているのです。<br>「ヒロポンを射つようになり、買って来て射ちますので、座敷牢に入れることはいけませんでしょうか」<br>入れても構いません。座敷牢にいれるとか、病院に入れるとか、しかるべくしたほうが良いです。そうしてその子供を一人犠牲にするという肚になることです。<br>「信徒の人で新しく実印を作りたいと申しておりますが、印材、形などは――」<br>印相と言って、印の材料は象牙は何とか、形はどうとかいろいろあります。あれはなかなか当たるのです。それから形によって、こういう形は借金で首がまわらないとか言うが、そういうこともあることはあります。ないことはないが、メシヤ教信者ならこんなことは問題でないです。小さなことです。こんなことを意に止める必要はありません。<br>「御神体の「光」という御文字に米粒くらいの穴があきましたが、いかがいたしましたらよろしいでしょうか」<br>これは取り換えなければいけません。それはやっぱり意味があるのです。つまりたとえてみれば、それを経師屋（きょうじや）が非常に穢したか、あるいはなにかで穢したかで、神様にはそれが面白くないのですから、取り換えることです。<br>「墓地のことにつきまして、石川家は分家しており、長男が二十年前に死亡し別の寺に埋葬しましたが、最近気掛かりになり、石川家先祖の墓地はありませんので、同じ村に新たに墓地を求めて移転し――」<br>それでお寺を途中で変えたのですか。<br>「変えましたところは宗旨が違います」<br>どうしてそんなことをした。遠くて変えなくてはならないということはあるが、同じ村で変えるというのはどういうわけですか。<br>「二十年前に長男が死んだとき、奥さんが病気で困り――」<br>困ることはないでしょう。病気になっても、自分で穴を掘るわけではないでしょう。<br>「奥さんのほうに墓地を求めまして――」<br>それはいけない。それは間違っている。やっぱりしっかりした理由がなかったらこっちが悪いのだから祖先は怒ります。順序が外れているからです。<br>「いかがいたしましたら――」<br>良くお詫びをして、元の石川家の寺に祀りなさい。<br>「実家のほうでございますが、墓地が二つになっておりまして――」<br>とにかくそういうことを細かく聞いてもしようがない。あなたの常識で考えてご覧なさい。そうすればすぐ分かります。<br>「十年前より、先祖代々の石碑を立てて、近い所に埋葬しているのですが、一つにまとめるべきでございましょうか」<br>それは先祖の所にまとめるのが良いです。<br>「西躰（にしたい）一三、二十年一月入信。三男は現在小児麻痺であり、長男は二十年前に小児麻痺で死亡しております。御神体、御屏風観音様は御奉斎させていただいております」<br>小児麻痺のは幾つですか。<br>「十三でございます」<br>いつからですか。<br>「小学校に入学の頃からでございます。長男も小学校入学のときからでございます」<br>十三ですから五、六年前からですね。これは霊的です。<br>「昨年秋まで約一カ年疥癬の御浄化をいただきました」<br>学校には行ってませんか。<br>「さようでございます。手足がブラブラで寝たきりでございまして、坐らせておくと、重みで坐っている程度でございます」<br>立つことはできないのですね。<br>「食事は台の上に置くと口を持って行きます」<br>それは蛇の生まれ変りです。非常に早く治るのと、なかなか治らないのとあります。最初と今とはどうですか。身体の状態はどうですか。あなたはいつから浄霊に行ってますか。<br>「去年からでございます」<br>去年では分りません。一月だって十二月だってあります。一年違いますよ。去年の何月ですか。<br>「去年の二月からでございます」<br>そうすると一年半ですか。で、最初のときと今の違いさは――。<br>「一度熱の御浄化で後頭部が溶け下痢を――」<br>経路ではない。状態です。<br>「状態は変っておりません。ただ父と娘さんが信仰的にぐらついていたのが、最近熱心になっております」<br>それは難物です。名前は――。<br>「西躰雅紀と申します」<br>妙な名前だな。音で読めば「ガキ」ですね。父は一三ですか。食事は――。<br>「普通でございます」<br>別に水は欲しがりませんか。<br>「他に変ったことはございません」<br>それは霊的に非常に複雑しているのです。それは木龍です。木にいた龍です。ちょっと難しいです。しかし、こういうことを知っておかなければならない。仮にそれがどうしても治らないというと、そこの家の人が、親なら親が信仰によって非常に徳を積むと死んでしまうのです。<br>それは、生きているということが苦痛だから、生まれ変らしていただくということです。ですからお蔭をいただくと死にます。これはたいへんなお蔭です。そうすると本人も普通の人間に生まれ変って、一家も苦痛から解放されるから幸福になるわけです。ですからそういうお蔭をいただくと死ぬことになる。その点は神様は気が利いてます。そうかと言って、殺人罪になりますから殺すわけにはいきません。しかし生きていると親だって一生困りますが、霊界に行けば一番良いです。それは神様がやってくれます。これはちょっと難しいです。<br>「名前をつけますときは何を基準といたしましたらよろしいでしょうか」<br>それについて私は、言霊（ことたま）のことがだいたい見当がつくように書こうと思ってます。それで心得ておくことは、良い名前をつけますが、良い名前というのは曲物です。ナマけるのです。名に負けるのです。それが反っていけない。<br>「明主様から今度いただきますまでは、何を基準にいたしましたら良いでしょうか」<br>苗字を基準にするのです。苗字に合っていなければならない。それでどれが合うかということは――分らないでしょう。そういうことをだいたい見当がつくように、これから書くことにします。割に早く書けます。というのは、よく選名選名と言ってうるさくてしようがないから、教師なんかがそういったことが分るようにしておけば、私が楽で良いです。それから一番良いのは、名字と名前が、読んで気持の良いのがいいです。それから良い名前名前と言って、あんまり良い名前もいけません。<br>「つけましてから、姓名判断で気にいたし、苦労している者が多いようでございます」<br>それは多いです。昔私の小学校時代に、谷山龍飛と言って良い名前ですが、死にました。十二、三くらいで死にました。私はそのとき良い名前というのは当てにならないなとちょっと思いました。<br>「信者でございますが、ダイナマイトで片腕がなくなり、他の所にはかからずに御守様が血だらけになったそうでございますが、命は御守護いただきましたそうでございます」<br>つまり大難を小難で御守護をいただいたのです。<br>「血でベトベトになった御守様はいかがいたしましたら――」<br>記念に取って置くと良いです。そうして新しくいただくと良いです。<br>「大光明様でもよろしいでしょうか」<br>その人の資格によって決まっているでしょう。<br>「昨年十月御神体を御奉斎させていただきましたが、四月より御神体に黄色い斑点が浮び、最近少しずつ増えてまいりましたので心配いたしております。経師屋は別に御無礼をしたこともないようでございます。いかなるわけでございましょうか」<br>やっぱりわけがあるのです。今も斑点が増えつつあるのですか。それでは、もう増えなくなったら持って来て下さい。私が見てあげます。増えるだけ増えてからです。<br>「月並祭等で多数集まりました場合に、会長方は集団御浄霊の許しをいただけますでしょうか」<br>そうですね、大教師なら良いです。大教師に限って――。これからはもう良いです。<br>「各教会の月並祭のときに、八足（はっそく）、三方、それから御簾を使うところと使わない所とございますが――」<br>どっちでも良いです。それは、観音さんは融通無碍です。神様であり仏様であるのですから――。それで私はお三方は塗ったのを使っているのです。あんなのは他の所ではどこにもありません。あれは神と仏と両方やっているのです。いずれそういうことも一定します。熱海のメシヤ会館ができてからそういうことを決めます。冠婚葬祭も新しい形式を作ります。だから婚礼なんかもすべてあそこでやるようにします。<br>「福井県の一教師でございますが、自然農法四年目の成果が非常に良く、標準米の一等として、米の検査員が持ってまわるのに出してくれということで、二俵出しまして非常に喜んでおります。御礼を申し上げます」<br>それは結構です。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações Particulares (1 de outubro de 1952)</h2>
 <p>Publicado no periódico "Gosuijiroku" n.º 14, em 15 de outubro de 1952.</p>
@@ -168,5 +518,48 @@ function toggleLang(lang) {
 <p>Ambas as formas são aceitáveis. Kannon (観音) possui uma flexibilidade irrestrita; ela é, ao mesmo tempo, Deus e Buda. Eu mesmo utilizo <em>sanpou</em> laqueados, algo que não se vê em nenhum outro lugar. Faço isso porque sirvo tanto a Deus quanto a Buda. Oportunamente, todos esses detalhes serão padronizados. Estabeleceremos as normas após a conclusão do Templo Messiânico em Atami. Criaremos também novos formatos para as cerimônias de casamento e fúnebres. Todos os casamentos, por exemplo, passarão a ser realizados lá.</p>
 <p><strong>“Sou um ministro da província de Fukui e gostaria de relatar que os resultados do quarto ano de Agricultura Natural foram excelentes. Meu arroz foi classificado como ‘arroz padrão de primeira classe’, e um inspetor me pediu dois fardos para usar como amostra em suas visitas. Estou imensamente feliz e gostaria de expressar minha gratidão.”</strong></p>
 <p>Isso é excelente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>M271001<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>御垂示（S27年10月1日）<br/>『御垂示録』14号、昭和27(1952)年10月15日発行<br/>昭和二十七年十月一日<br/>「蓮の花につきまして、目の悪い人で、非常に悪くなったので行者に見てもらったところが、下水が蓮の畑に流れているからだと言われたそうです。ただ今は御浄霊にまいっております」<br/>そんなことはありません。そんな馬鹿馬鹿しいことはない。蓮は、泥の中から清い――と言われてますから、ちょうど良いではありませんか。きれいなところから咲きやしません。そこを清くしてしまったら、せっかくの蓮だって張合いがありません。行者なんかはくだらないことを言ってますから――。<br/>「教師の長男二十一歳、昨年二月入信。四月に光明如来様を御奉斎。五月頃よりマージャンに凝り、放蕩し、九月に大光明如来様を御奉斎しますます放蕩が激しくなり、母は教師でありますので罪の払拭をさせていただいておりますが、母の信仰が進めば進むほど激しくなります」<br/>結構ではありませんか。喜んで神様に感謝しなさい。一家に非常に罪があるので、それを信仰させるために、早く罪を取ってくれる。それには子供に金を使わせて、祖先がその子供を一人犠牲にしているのです。<br/>「ヒロポンを射つようになり、買って来て射ちますので、座敷牢に入れることはいけませんでしょうか」<br/>入れても構いません。座敷牢にいれるとか、病院に入れるとか、しかるべくしたほうが良いです。そうしてその子供を一人犠牲にするという肚になることです。<br/>「信徒の人で新しく実印を作りたいと申しておりますが、印材、形などは――」<br/>印相と言って、印の材料は象牙は何とか、形はどうとかいろいろあります。あれはなかなか当たるのです。それから形によって、こういう形は借金で首がまわらないとか言うが、そういうこともあることはあります。ないことはないが、メシヤ教信者ならこんなことは問題でないです。小さなことです。こんなことを意に止める必要はありません。<br/>「御神体の「光」という御文字に米粒くらいの穴があきましたが、いかがいたしましたらよろしいでしょうか」<br/>これは取り換えなければいけません。それはやっぱり意味があるのです。つまりたとえてみれば、それを経師屋（きょうじや）が非常に穢したか、あるいはなにかで穢したかで、神様にはそれが面白くないのですから、取り換えることです。<br/>「墓地のことにつきまして、石川家は分家しており、長男が二十年前に死亡し別の寺に埋葬しましたが、最近気掛かりになり、石川家先祖の墓地はありませんので、同じ村に新たに墓地を求めて移転し――」<br/>それでお寺を途中で変えたのですか。<br/>「変えましたところは宗旨が違います」<br/>どうしてそんなことをした。遠くて変えなくてはならないということはあるが、同じ村で変えるというのはどういうわけですか。<br/>「二十年前に長男が死んだとき、奥さんが病気で困り――」<br/>困ることはないでしょう。病気になっても、自分で穴を掘るわけではないでしょう。<br/>「奥さんのほうに墓地を求めまして――」<br/>それはいけない。それは間違っている。やっぱりしっかりした理由がなかったらこっちが悪いのだから祖先は怒ります。順序が外れているからです。<br/>「いかがいたしましたら――」<br/>良くお詫びをして、元の石川家の寺に祀りなさい。<br/>「実家のほうでございますが、墓地が二つになっておりまして――」<br/>とにかくそういうことを細かく聞いてもしようがない。あなたの常識で考えてご覧なさい。そうすればすぐ分かります。<br/>「十年前より、先祖代々の石碑を立てて、近い所に埋葬しているのですが、一つにまとめるべきでございましょうか」<br/>それは先祖の所にまとめるのが良いです。<br/>「西躰（にしたい）一三、二十年一月入信。三男は現在小児麻痺であり、長男は二十年前に小児麻痺で死亡しております。御神体、御屏風観音様は御奉斎させていただいております」<br/>小児麻痺のは幾つですか。<br/>「十三でございます」<br/>いつからですか。<br/>「小学校に入学の頃からでございます。長男も小学校入学のときからでございます」<br/>十三ですから五、六年前からですね。これは霊的です。<br/>「昨年秋まで約一カ年疥癬の御浄化をいただきました」<br/>学校には行ってませんか。<br/>「さようでございます。手足がブラブラで寝たきりでございまして、坐らせておくと、重みで坐っている程度でございます」<br/>立つことはできないのですね。<br/>「食事は台の上に置くと口を持って行きます」<br/>それは蛇の生まれ変りです。非常に早く治るのと、なかなか治らないのとあります。最初と今とはどうですか。身体の状態はどうですか。あなたはいつから浄霊に行ってますか。<br/>「去年からでございます」<br/>去年では分りません。一月だって十二月だってあります。一年違いますよ。去年の何月ですか。<br/>「去年の二月からでございます」<br/>そうすると一年半ですか。で、最初のときと今の違いさは――。<br/>「一度熱の御浄化で後頭部が溶け下痢を――」<br/>経路ではない。状態です。<br/>「状態は変っておりません。ただ父と娘さんが信仰的にぐらついていたのが、最近熱心になっております」<br/>それは難物です。名前は――。<br/>「西躰雅紀と申します」<br/>妙な名前だな。音で読めば「ガキ」ですね。父は一三ですか。食事は――。<br/>「普通でございます」<br/>別に水は欲しがりませんか。<br/>「他に変ったことはございません」<br/>それは霊的に非常に複雑しているのです。それは木龍です。木にいた龍です。ちょっと難しいです。しかし、こういうことを知っておかなければならない。仮にそれがどうしても治らないというと、そこの家の人が、親なら親が信仰によって非常に徳を積むと死んでしまうのです。<br/>それは、生きているということが苦痛だから、生まれ変らしていただくということです。ですからお蔭をいただくと死にます。これはたいへんなお蔭です。そうすると本人も普通の人間に生まれ変って、一家も苦痛から解放されるから幸福になるわけです。ですからそういうお蔭をいただくと死ぬことになる。その点は神様は気が利いてます。そうかと言って、殺人罪になりますから殺すわけにはいきません。しかし生きていると親だって一生困りますが、霊界に行けば一番良いです。それは神様がやってくれます。これはちょっと難しいです。<br/>「名前をつけますときは何を基準といたしましたらよろしいでしょうか」<br/>それについて私は、言霊（ことたま）のことがだいたい見当がつくように書こうと思ってます。それで心得ておくことは、良い名前をつけますが、良い名前というのは曲物です。ナマけるのです。名に負けるのです。それが反っていけない。<br/>「明主様から今度いただきますまでは、何を基準にいたしましたら良いでしょうか」<br/>苗字を基準にするのです。苗字に合っていなければならない。それでどれが合うかということは――分らないでしょう。そういうことをだいたい見当がつくように、これから書くことにします。割に早く書けます。というのは、よく選名選名と言ってうるさくてしようがないから、教師なんかがそういったことが分るようにしておけば、私が楽で良いです。それから一番良いのは、名字と名前が、読んで気持の良いのがいいです。それから良い名前名前と言って、あんまり良い名前もいけません。<br/>「つけましてから、姓名判断で気にいたし、苦労している者が多いようでございます」<br/>それは多いです。昔私の小学校時代に、谷山龍飛と言って良い名前ですが、死にました。十二、三くらいで死にました。私はそのとき良い名前というのは当てにならないなとちょっと思いました。<br/>「信者でございますが、ダイナマイトで片腕がなくなり、他の所にはかからずに御守様が血だらけになったそうでございますが、命は御守護いただきましたそうでございます」<br/>つまり大難を小難で御守護をいただいたのです。<br/>「血でベトベトになった御守様はいかがいたしましたら――」<br/>記念に取って置くと良いです。そうして新しくいただくと良いです。<br/>「大光明様でもよろしいでしょうか」<br/>その人の資格によって決まっているでしょう。<br/>「昨年十月御神体を御奉斎させていただきましたが、四月より御神体に黄色い斑点が浮び、最近少しずつ増えてまいりましたので心配いたしております。経師屋は別に御無礼をしたこともないようでございます。いかなるわけでございましょうか」<br/>やっぱりわけがあるのです。今も斑点が増えつつあるのですか。それでは、もう増えなくなったら持って来て下さい。私が見てあげます。増えるだけ増えてからです。<br/>「月並祭等で多数集まりました場合に、会長方は集団御浄霊の許しをいただけますでしょうか」<br/>そうですね、大教師なら良いです。大教師に限って――。これからはもう良いです。<br/>「各教会の月並祭のときに、八足（はっそく）、三方、それから御簾を使うところと使わない所とございますが――」<br/>どっちでも良いです。それは、観音さんは融通無碍です。神様であり仏様であるのですから――。それで私はお三方は塗ったのを使っているのです。あんなのは他の所ではどこにもありません。あれは神と仏と両方やっているのです。いずれそういうことも一定します。熱海のメシヤ会館ができてからそういうことを決めます。冠婚葬祭も新しい形式を作ります。だから婚礼なんかもすべてあそこでやるようにします。<br/>「福井県の一教師でございますが、自然農法四年目の成果が非常に良く、標準米の一等として、米の検査員が持ってまわるのに出してくれということで、二俵出しまして非常に喜んでおります。御礼を申し上げます」<br/>それは結構です。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

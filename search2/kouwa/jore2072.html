@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jore2072</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ５ 072-084 霊的病気１ 072 幽世大神と鎮魂 鎮魂の際「幽世大神守り給へ幸倍賜へ」を御唱えしなくてもよろしいとの御言葉を、去年春頃熱海において伺いましたが、その意味を御開示戴きとう御座居ます。<br><br> 「幽世大神守り給へ幸倍賜へ」と御祈願する。<br><br>幽世大神は今は大国主命である。<br><br> 霊を救う場合、霊憑りなども「幽世大神守り給へ幸倍賜へ」と唱えるべきである。<br><br>霊は幽世大神の主宰下になっているからお願いすべきである。<br><br> 鎮魂の姿勢は――。<br><br> 観音様は仏であるから、今は神道形式をとらぬ。<br><br>霊の病気の時やる。<br><br> 073 突上げ浄化と祝詞 五十歳位の女の方、頭が痛み脇腹から突上げる痛みがあります。<br><br>浄霊したところ夜中より猛烈に突上げが来て苦しみます。<br><br>なお一時間位一心に浄霊致しましても止まらず、遂に医者が来て二本注射をして一時間半ばかりで治りましたが、後がすっと致しませぬ。<br><br>浄霊では治らないでしょうか。<br><br>お知らせ下さい。<br><br> 癲癇などと同じ理屈である。<br><br>浄霊なら絶対治る。<br><br>相当霊力が強くなくてはいけない。<br><br>霊力の強いのは古くからやった人である。<br><br> もし止らなければ祝詞を奏げる。<br><br>祝詞でも清魂者でなくては力が違う。<br><br>霊に曇りのある者は力が弱い。<br><br> 注射なら止るに決っている。<br><br>麻痺させる訳である。<br><br>しかしまた起る。<br><br>モヒ中毒になる。<br><br> これは霊であろう。<br><br>（S24. 9. 7） 074 霊的病気の浄霊個所 霊的の病の御浄めに最善の道はどうすれば治るものでしょうか。<br><br>死霊の場合の方法、生霊の場合の方法―― 霊的病気だけでは判らぬ。<br><br>どんな病でも、霊的のものは前頭部をする。<br><br> こういう場合は違う。<br><br>蛇が憑いたのは身体中移動する。<br><br>浄霊すると逃げる。<br><br>これは局部である。<br><br>中には食いつくのがある。<br><br>これは頭だけではいけない。<br><br> 精神病、癲癇、小児麻痺等は頭を浄めればいい。<br><br> 死霊の場合身体全体に憑るのと、一部に憑る事がある。<br><br>死霊の場合背中が寒い。<br><br>新しい死霊などの時は水かけられたごとくゾーッとする。<br><br>これは頭と胸、背中をする。<br><br>背中が一番いい。<br><br>割合い離れやすい。<br><br> 生霊は何でもない。<br><br>胸と背中である。<br><br>生霊は殆ど恋愛関係である。<br><br> 生霊の中でも一番恐いのは、愛人を捨て他の女と結ぶと、愛人が嫉妬を起して関係させないようにする。<br><br>子宮に憑く。<br><br> 先に子宮脱出症をやった。<br><br>これが治らねば離縁になるという。<br><br>一週間程したらすっかり治ったという手紙が来た。<br><br> 結婚の時、夫を他の女が愛していて、邪魔したという。<br><br>（高崎） 夫婦仲を妨害しようとして陰部を犯した。<br><br>（S23.10.26） 075 憑霊患者の治癒 霊憑りの場合、患者の浄霊に対し霊媒を使い行いますと大体一度にて治癒しますが、その時、その患者に別の霊が憑ってまいりますので、これを完全に治癒させる事が出来ず、また元に戻ります。<br><br>何か良い方法はないでしょうか。<br><br>また、右の霊媒となった身体には支障ありませんか。<br><br>御教示願います。<br><br>（なお右の患者も霊媒も十月入信致しました） 一つの黴菌のようなものであって、曇っているとそこへ憑る。<br><br>霊の入れぬ身体にする事である。<br><br>（S24.11. 8） 076 祀って治る霊的病気 霊的病気で、浄霊してもよくなりませんので無縁祭をしたら直ぐ治りました。<br><br>浄霊で治らない時はこの方法でよろしいでしょうか。<br><br>また、他の方法はありませんでしょうか。<br><br> これは祀った方が早い場合がある。<br><br>しかしどれもこれもそういう場合があるとは言えぬ。<br><br>浄霊だけで速く治る。<br><br> 無縁でない霊が憑いてる時もあり、それを判らなければならぬ。<br><br>神様は何かによってその場合は知らされる。<br><br>判ったら祀れという事であるから祀ればよい。<br><br>狐、龍神等もある。<br><br>祀り方は、常識的に祀ればよい。<br><br> すべて、霊と思ったら、祝詞を沢山奏げてやるといい。<br><br>三度ずつ一回にする。<br><br>そうすれば大抵の霊は救われる。<br><br> 077 霊的患者の霊査法・鎮魂 霊的患者を御浄めさせていただいておりますが、原因が解らない場合、霊査法等によって知る方法があると伺っておりますが、私達で出来るでしょうか。<br><br>御伺い申し上げます。<br><br> 霊査法の要なく、また鎮魂はやらぬ方がよい。<br><br>その霊は必要あれば、もしくは時期来れば、観音様から知らされる。<br><br> 078 霊査方法の要 霊査法の施行方法―― 診断のためか、治療のためか、いずれにしても、霊査法を行わずとも二、三尺離れた所で、手から霊光が出ると思ってその霊光を放射する気持でやればよいので、浄霊するうち憑霊は萎縮するようになる。<br><br> 079 霊査法と修行 霊査法はどうして行いますでしょうか。<br><br> いろいろあるが、浄霊も一種の霊査法である。<br><br>これによって普通の浄化か霊的か判る。<br><br>勿論両方の場合もある。<br><br>その他細かい事は修行を積まねば判らぬ。<br><br>霊的知識が進まねば直ちに判らぬ。<br><br>浄化と霊的と両方の場合もある。<br><br>これもすべて経験、修行である。<br><br>（S23.10.26） 080 浮霊の鎮め方 近来浄霊中、被浄霊者が意識を失い、死霊、生霊等が浮び出ます。<br><br>これについて左のごとくお伺い致します。<br><br> 一、近来著しく浮び出る原因。<br><br>いかに処置すればよろしいか。<br><br> 二、被浄霊者が半意識にて、なかなか浮び出そうで出にくいものはいかにすればよろしいか。<br><br> 三、霊の浮ぶ前、被浄霊者が合掌の手を上下に振り出す原因。<br><br> 四、憑霊の時、がたがた体がふるえ出す原因。<br><br> 五、仲々自己意識が失せぬ人、すぐ意識を失い霊の浮ぶ人の相違。<br><br> 霊界で浄化が激しくなり、霊が落着けず、人に憑って救ってもらおうとする。<br><br>前頭を一番よく浄霊する。<br><br>あまり出る場合は「お鎮まり」と云う。<br><br>手を上下すると鎮まるもので、効果がある。<br><br> 上下に手を動かすのは、大抵狐である。<br><br>それは「お鎮まり」させて、口をきかせぬようにすべきである。<br><br>ガタガタするのは良くない。<br><br>霊が浮かぶのである。<br><br>やはり鎮める。<br><br> 神や正守護神の働き――。<br><br> 嘘を云うのも随分あるが、そのまま聞く事である。<br><br>要求に邪がなければ通してやる。<br><br>贋物は行詰るものである。<br><br>疑わぬ方がよい。<br><br> 081 霊媒現象についての扱い 村田操が最近救われた白狐の霊が浮き、御神業の御邪魔をしている霊に警告を与えるようになりました。<br><br>また、霊媒等もいたします。<br><br>なお、天津祝詞、善言讃詞、御讃歌等非常に喜び、特に夫一生の事になりますと涙を流し注意をいたし、御神業専一に努力するよう種々の欠点等を発表いたします。<br><br>二十五日の鎌倉支部教話会の折、一人一人信者に御神徳の有難い事、霊界の状態等知らせておりました。<br><br>浄霊の際、操自身が天津祝詞及び善言讃詞を奉誦いたしましても霊が浮きますので、特に注意をいたしましたところ、それからは霊が浮かないようになりましたが、今後の取扱いについて御垂示を御願い申し上げます。<br><br> 取扱いにどうこうはない。<br><br>ありのまますればよい。<br><br>（S25. 4.28） 082 狐霊に対する心構え 狐の霊など、こっちで騙されるものかと警戒してはいけない。<br><br>騙されなければいけない。<br><br>その方が早く暴露する。<br><br> 霊的病気には祝詞に限る。<br><br>三回ずつとする。<br><br> 霊的関係といえば、何でもその関係がある事になる。<br><br>人間なら死霊、生霊、精霊などあり、物質は単なる霊である。<br><br>（S23） rattail（注） 〔 御講話（S28年6月1日） 『御垂示録』21号、昭和28(1953)年6月15日発行〕 『よく神憑りになって、狐なら狐が憑って来ますが、そうすると狐に瞞されてたまるものかと思うでしょうが、それが違うのです。<br><br>狐に瞞されたほうがよいのです。<br><br>いろんなことを言いますから、「そうかなるほど」と言っているのです。<br><br>それでこれはどういうわけですかと聞くと、先はペラペラと返事をします。<br><br>そうしてやっているうちに今度は狐自身がボロを出してきます。<br><br>それで狐は謝るのです。<br><br>私はそういうことがずいぶんありました。<br><br>瞞されるものかと思っているときは、かえって瞞されたり怒ったりするのです。<br><br>狐がぜんぜん嘘のことを言っていても、「そうですか」と感心して聞いているのです。<br><br>そうすると狐のほうで間違ってしまうのです。<br><br>』 083 死霊憑依の結核の場合 死霊憑依のための結核患者を御浄霊した場合の治癒過程はどのようでしょうか。<br><br>また、治癒した場合、憑依した死霊は救われておりましょうか。<br><br>右、御教示御願い申し上げます。<br><br> 憑いて間のないのはすぐ出る。<br><br>実にはっきりしている。<br><br>死霊が憑依せず、身体が弱ってから死霊の憑くのがあり、健康の時は憑けない。<br><br>衰弱して血が少くなる――霊が薄くなる時憑けるのである。<br><br> 聞いて答えさす。<br><br>霊に訊問する。<br><br>観音様にお願いして査べる。<br><br>（S23. 8.28） 084 滅ぶべき運命の家系 結核で悩んでおったある女の人、一年程で楽にして頂き深く感じ、入信の上お手伝いをさせて頂いておりました。<br><br>その人が本年四月頃、十八歳になる結核の娘を浄霊しておりましたら、一時良くなりましたが、その家の人達が反対し注射を打ちましたので浄霊をやめました。<br><br>その後娘の容態が悪くなり、いよいよ死ぬ直前、その人に是非一度会いたいと云うので行きますと、娘は縋り付き、親達がわからないためこうなったのだから親を怨んでやる。<br><br>あなたもつれて行く、と云いました。<br><br>その帰途、子供を背負ったまま転んで胸を強打したため喀血し、その後どっと寝ついてしまい、子供の顔までが死んだ娘の顔にみえ、転んだ時が娘の死んだ時間だそうです。<br><br>また、その娘が夢枕に立って救ってくれと言います。<br><br>現在その人は食事も一膳位しか頂けず、咳が出るため仰臥出来ず、布団にもたれております。<br><br>いかが致したら宜敷いでしょうか。<br><br>御伺い申し上げます。<br><br> こんな事は聞いた事がない。<br><br>第一、親を怨むのはよくない。<br><br>祝詞を出来るだけ奏げ、信仰雑話を朗読する。<br><br>言って聞かしてもよい。<br><br>そうすれば治る訳である。<br><br>死んだ執着の恐ろしさを説いて聞かす。<br><br>余程罪があるらしい。<br><br>（前問の人と兄弟）病気も治っていない。<br><br>審判にかかって、こういう家は滅ぶべき運命にある。<br><br>（S24. 7.26）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>072 O Grande Deus do Mundo Oculto e o Apaziguamento dos Espíritos</h2>
 <p>Na primavera do ano passado, em Atami, ouvi Vossa Palavra de que, durante o apaziguamento dos espíritos, não seria necessário entoar "Ó, Grande Deus do Mundo Oculto, protegei-nos e concedei-nos felicidade". Gostaria que nos revelasse o significado por trás disso.</p>
@@ -155,5 +307,48 @@ function toggleLang(lang) {
 <h2>084 Uma Linhagem Familiar Destinada a Perecer</h2>
 <p>Certa senhora que sofria de tuberculose, sentindo-se profundamente grata por ter alcançado alívio após cerca de um ano, ingressou na Fé e passou a se dedicar. Por volta de abril deste ano, ela começou a ministrar Johrei em sua filha de dezoito anos, também tuberculosa. A jovem apresentou uma melhora temporária, mas a família se opôs e recorreu a injeções, interrompendo o Johrei. O estado da moça piorou e, prestes a falecer, ela pediu para ver aquela senhora uma última vez. Quando ela chegou, a filha agarrou-se a ela e disse: "Cheguei a este ponto porque meus pais não compreenderam. Vou amaldiçoá-los. E levarei você comigo". No caminho de volta, a senhora, carregando seu filho nas costas, sofreu uma queda, bateu o peito com força e teve uma hemoptise. Desde então, ficou acamada, e o rosto de seu filho passou a lhe parecer o da filha falecida. A hora da queda coincidiu com a hora da morte da moça. Além disso, a falecida aparece em seus sonhos, pedindo para ser salva. Atualmente, a senhora mal consegue comer uma tigela de arroz, não pode deitar de costas por causa da tosse e passa os dias encostada em seus futons. O que devemos fazer? Gostaríamos de seu conselho.</p>
 <p>Nunca ouvi algo semelhante. Em primeiro lugar, amaldiçoar os pais é um erro gravíssimo. É preciso que ela entoe a Oração Purificadora o máximo que puder e leia em voz alta os relatos de fé. Outra pessoa também pode ler para ela. Assim, a cura será possível. É necessário explicar-lhe quão terrível é o apego dos mortos. Aparentemente, há um carma muito pesado. (Trata-se da irmã da pessoa da pergunta anterior). A doença dela tampouco está curada. Submetida ao Juízo Divino, uma família nessas condições está fadada à ruína. (26 de julho de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （下） ５ 072-084 霊的病気１ 072 幽世大神と鎮魂 鎮魂の際「幽世大神守り給へ幸倍賜へ」を御唱えしなくてもよろしいとの御言葉を、去年春頃熱海において伺いましたが、その意味を御開示戴きとう御座居ます。<br/><br/> 「幽世大神守り給へ幸倍賜へ」と御祈願する。<br/><br/>幽世大神は今は大国主命である。<br/><br/> 霊を救う場合、霊憑りなども「幽世大神守り給へ幸倍賜へ」と唱えるべきである。<br/><br/>霊は幽世大神の主宰下になっているからお願いすべきである。<br/><br/> 鎮魂の姿勢は――。<br/><br/> 観音様は仏であるから、今は神道形式をとらぬ。<br/><br/>霊の病気の時やる。<br/><br/> 073 突上げ浄化と祝詞 五十歳位の女の方、頭が痛み脇腹から突上げる痛みがあります。<br/><br/>浄霊したところ夜中より猛烈に突上げが来て苦しみます。<br/><br/>なお一時間位一心に浄霊致しましても止まらず、遂に医者が来て二本注射をして一時間半ばかりで治りましたが、後がすっと致しませぬ。<br/><br/>浄霊では治らないでしょうか。<br/><br/>お知らせ下さい。<br/><br/> 癲癇などと同じ理屈である。<br/><br/>浄霊なら絶対治る。<br/><br/>相当霊力が強くなくてはいけない。<br/><br/>霊力の強いのは古くからやった人である。<br/><br/> もし止らなければ祝詞を奏げる。<br/><br/>祝詞でも清魂者でなくては力が違う。<br/><br/>霊に曇りのある者は力が弱い。<br/><br/> 注射なら止るに決っている。<br/><br/>麻痺させる訳である。<br/><br/>しかしまた起る。<br/><br/>モヒ中毒になる。<br/><br/> これは霊であろう。<br/><br/>（S24. 9. 7） 074 霊的病気の浄霊個所 霊的の病の御浄めに最善の道はどうすれば治るものでしょうか。<br/><br/>死霊の場合の方法、生霊の場合の方法―― 霊的病気だけでは判らぬ。<br/><br/>どんな病でも、霊的のものは前頭部をする。<br/><br/> こういう場合は違う。<br/><br/>蛇が憑いたのは身体中移動する。<br/><br/>浄霊すると逃げる。<br/><br/>これは局部である。<br/><br/>中には食いつくのがある。<br/><br/>これは頭だけではいけない。<br/><br/> 精神病、癲癇、小児麻痺等は頭を浄めればいい。<br/><br/> 死霊の場合身体全体に憑るのと、一部に憑る事がある。<br/><br/>死霊の場合背中が寒い。<br/><br/>新しい死霊などの時は水かけられたごとくゾーッとする。<br/><br/>これは頭と胸、背中をする。<br/><br/>背中が一番いい。<br/><br/>割合い離れやすい。<br/><br/> 生霊は何でもない。<br/><br/>胸と背中である。<br/><br/>生霊は殆ど恋愛関係である。<br/><br/> 生霊の中でも一番恐いのは、愛人を捨て他の女と結ぶと、愛人が嫉妬を起して関係させないようにする。<br/><br/>子宮に憑く。<br/><br/> 先に子宮脱出症をやった。<br/><br/>これが治らねば離縁になるという。<br/><br/>一週間程したらすっかり治ったという手紙が来た。<br/><br/> 結婚の時、夫を他の女が愛していて、邪魔したという。<br/><br/>（高崎） 夫婦仲を妨害しようとして陰部を犯した。<br/><br/>（S23.10.26） 075 憑霊患者の治癒 霊憑りの場合、患者の浄霊に対し霊媒を使い行いますと大体一度にて治癒しますが、その時、その患者に別の霊が憑ってまいりますので、これを完全に治癒させる事が出来ず、また元に戻ります。<br/><br/>何か良い方法はないでしょうか。<br/><br/>また、右の霊媒となった身体には支障ありませんか。<br/><br/>御教示願います。<br/><br/>（なお右の患者も霊媒も十月入信致しました） 一つの黴菌のようなものであって、曇っているとそこへ憑る。<br/><br/>霊の入れぬ身体にする事である。<br/><br/>（S24.11. 8） 076 祀って治る霊的病気 霊的病気で、浄霊してもよくなりませんので無縁祭をしたら直ぐ治りました。<br/><br/>浄霊で治らない時はこの方法でよろしいでしょうか。<br/><br/>また、他の方法はありませんでしょうか。<br/><br/> これは祀った方が早い場合がある。<br/><br/>しかしどれもこれもそういう場合があるとは言えぬ。<br/><br/>浄霊だけで速く治る。<br/><br/> 無縁でない霊が憑いてる時もあり、それを判らなければならぬ。<br/><br/>神様は何かによってその場合は知らされる。<br/><br/>判ったら祀れという事であるから祀ればよい。<br/><br/>狐、龍神等もある。<br/><br/>祀り方は、常識的に祀ればよい。<br/><br/> すべて、霊と思ったら、祝詞を沢山奏げてやるといい。<br/><br/>三度ずつ一回にする。<br/><br/>そうすれば大抵の霊は救われる。<br/><br/> 077 霊的患者の霊査法・鎮魂 霊的患者を御浄めさせていただいておりますが、原因が解らない場合、霊査法等によって知る方法があると伺っておりますが、私達で出来るでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊査法の要なく、また鎮魂はやらぬ方がよい。<br/><br/>その霊は必要あれば、もしくは時期来れば、観音様から知らされる。<br/><br/> 078 霊査方法の要 霊査法の施行方法―― 診断のためか、治療のためか、いずれにしても、霊査法を行わずとも二、三尺離れた所で、手から霊光が出ると思ってその霊光を放射する気持でやればよいので、浄霊するうち憑霊は萎縮するようになる。<br/><br/> 079 霊査法と修行 霊査法はどうして行いますでしょうか。<br/><br/> いろいろあるが、浄霊も一種の霊査法である。<br/><br/>これによって普通の浄化か霊的か判る。<br/><br/>勿論両方の場合もある。<br/><br/>その他細かい事は修行を積まねば判らぬ。<br/><br/>霊的知識が進まねば直ちに判らぬ。<br/><br/>浄化と霊的と両方の場合もある。<br/><br/>これもすべて経験、修行である。<br/><br/>（S23.10.26） 080 浮霊の鎮め方 近来浄霊中、被浄霊者が意識を失い、死霊、生霊等が浮び出ます。<br/><br/>これについて左のごとくお伺い致します。<br/><br/> 一、近来著しく浮び出る原因。<br/><br/>いかに処置すればよろしいか。<br/><br/> 二、被浄霊者が半意識にて、なかなか浮び出そうで出にくいものはいかにすればよろしいか。<br/><br/> 三、霊の浮ぶ前、被浄霊者が合掌の手を上下に振り出す原因。<br/><br/> 四、憑霊の時、がたがた体がふるえ出す原因。<br/><br/> 五、仲々自己意識が失せぬ人、すぐ意識を失い霊の浮ぶ人の相違。<br/><br/> 霊界で浄化が激しくなり、霊が落着けず、人に憑って救ってもらおうとする。<br/><br/>前頭を一番よく浄霊する。<br/><br/>あまり出る場合は「お鎮まり」と云う。<br/><br/>手を上下すると鎮まるもので、効果がある。<br/><br/> 上下に手を動かすのは、大抵狐である。<br/><br/>それは「お鎮まり」させて、口をきかせぬようにすべきである。<br/><br/>ガタガタするのは良くない。<br/><br/>霊が浮かぶのである。<br/><br/>やはり鎮める。<br/><br/> 神や正守護神の働き――。<br/><br/> 嘘を云うのも随分あるが、そのまま聞く事である。<br/><br/>要求に邪がなければ通してやる。<br/><br/>贋物は行詰るものである。<br/><br/>疑わぬ方がよい。<br/><br/> 081 霊媒現象についての扱い 村田操が最近救われた白狐の霊が浮き、御神業の御邪魔をしている霊に警告を与えるようになりました。<br/><br/>また、霊媒等もいたします。<br/><br/>なお、天津祝詞、善言讃詞、御讃歌等非常に喜び、特に夫一生の事になりますと涙を流し注意をいたし、御神業専一に努力するよう種々の欠点等を発表いたします。<br/><br/>二十五日の鎌倉支部教話会の折、一人一人信者に御神徳の有難い事、霊界の状態等知らせておりました。<br/><br/>浄霊の際、操自身が天津祝詞及び善言讃詞を奉誦いたしましても霊が浮きますので、特に注意をいたしましたところ、それからは霊が浮かないようになりましたが、今後の取扱いについて御垂示を御願い申し上げます。<br/><br/> 取扱いにどうこうはない。<br/><br/>ありのまますればよい。<br/><br/>（S25. 4.28） 082 狐霊に対する心構え 狐の霊など、こっちで騙されるものかと警戒してはいけない。<br/><br/>騙されなければいけない。<br/><br/>その方が早く暴露する。<br/><br/> 霊的病気には祝詞に限る。<br/><br/>三回ずつとする。<br/><br/> 霊的関係といえば、何でもその関係がある事になる。<br/><br/>人間なら死霊、生霊、精霊などあり、物質は単なる霊である。<br/><br/>（S23） rattail（注） 〔 御講話（S28年6月1日） 『御垂示録』21号、昭和28(1953)年6月15日発行〕 『よく神憑りになって、狐なら狐が憑って来ますが、そうすると狐に瞞されてたまるものかと思うでしょうが、それが違うのです。<br/><br/>狐に瞞されたほうがよいのです。<br/><br/>いろんなことを言いますから、「そうかなるほど」と言っているのです。<br/><br/>それでこれはどういうわけですかと聞くと、先はペラペラと返事をします。<br/><br/>そうしてやっているうちに今度は狐自身がボロを出してきます。<br/><br/>それで狐は謝るのです。<br/><br/>私はそういうことがずいぶんありました。<br/><br/>瞞されるものかと思っているときは、かえって瞞されたり怒ったりするのです。<br/><br/>狐がぜんぜん嘘のことを言っていても、「そうですか」と感心して聞いているのです。<br/><br/>そうすると狐のほうで間違ってしまうのです。<br/><br/>』 083 死霊憑依の結核の場合 死霊憑依のための結核患者を御浄霊した場合の治癒過程はどのようでしょうか。<br/><br/>また、治癒した場合、憑依した死霊は救われておりましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 憑いて間のないのはすぐ出る。<br/><br/>実にはっきりしている。<br/><br/>死霊が憑依せず、身体が弱ってから死霊の憑くのがあり、健康の時は憑けない。<br/><br/>衰弱して血が少くなる――霊が薄くなる時憑けるのである。<br/><br/> 聞いて答えさす。<br/><br/>霊に訊問する。<br/><br/>観音様にお願いして査べる。<br/><br/>（S23. 8.28） 084 滅ぶべき運命の家系 結核で悩んでおったある女の人、一年程で楽にして頂き深く感じ、入信の上お手伝いをさせて頂いておりました。<br/><br/>その人が本年四月頃、十八歳になる結核の娘を浄霊しておりましたら、一時良くなりましたが、その家の人達が反対し注射を打ちましたので浄霊をやめました。<br/><br/>その後娘の容態が悪くなり、いよいよ死ぬ直前、その人に是非一度会いたいと云うので行きますと、娘は縋り付き、親達がわからないためこうなったのだから親を怨んでやる。<br/><br/>あなたもつれて行く、と云いました。<br/><br/>その帰途、子供を背負ったまま転んで胸を強打したため喀血し、その後どっと寝ついてしまい、子供の顔までが死んだ娘の顔にみえ、転んだ時が娘の死んだ時間だそうです。<br/><br/>また、その娘が夢枕に立って救ってくれと言います。<br/><br/>現在その人は食事も一膳位しか頂けず、咳が出るため仰臥出来ず、布団にもたれております。<br/><br/>いかが致したら宜敷いでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> こんな事は聞いた事がない。<br/><br/>第一、親を怨むのはよくない。<br/><br/>祝詞を出来るだけ奏げ、信仰雑話を朗読する。<br/><br/>言って聞かしてもよい。<br/><br/>そうすれば治る訳である。<br/><br/>死んだ執着の恐ろしさを説いて聞かす。<br/><br/>余程罪があるらしい。<br/><br/>（前問の人と兄弟）病気も治っていない。<br/><br/>審判にかかって、こういう家は滅ぶべき運命にある。<br/><br/>（S24. 7.26）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

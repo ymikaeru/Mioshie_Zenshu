@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tokino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時の神様 『地上天国』5号、昭和24(1949)年6月25日発行 一切万有人事百般、時の神様によって支配されないものは恐らく一つもあるまい。<br><br>興亡常なき歴史の推移も、善悪正邪の決定も、時の神様から離れて存在するものはない。<br><br>そういう意味で今日善であったものが、何年かの後には悪となり、今日真理としたものも何年後には非真理として見放される事も、今日華かなるものも何年後には衰亡の運命をたどるというような事も、過去の歴史が遺憾なく物語っている。<br><br>ゆえに絶対の善もなく、絶対の悪もないといわれるし、また昔から正邪一如という言葉もあり、いずれも真理である事に間違いはない。<br><br> 近い話が終戦前、忠君愛国を無上のものと信じ、唯一の生命を軽々しく扱った日本人が今日はどうであろう。<br><br>およそその時の目的と余りに背馳（はいち）した結果となり、悲惨なる運命の下に喘いでいる状を見ては、いかに誤っていたかは国民の脳裏に深く刻まれたであろう。<br><br>これらも終戦という掌を返した一瞬に変化したのであっていうまでもなく時そのものの決定である。<br><br> 吾々が知る限りにおいて、あまり古からざる歴史においての例も見逃し難いものがある。<br><br>彼の徳川氏盛んであった時代が、明治維新という一線を画すや、それまでの大名旗本等がことごとく転落し、それに引換え名もなき一介の書生が大臣参議となった事などを見ても、今日の状勢と相似たところがある。<br><br>終戦までの特権階級であった幾多の皇族、華族、富豪等の転落ぶりは、人々の眼にいかに映ずるであろうか。<br><br>言うまでもなく時の神様による事はもちろんである。<br><br>彼の大本教祖のお筆先に「時節には神も敵わぬぞよ」という言葉があるが、うがち得て余蘊（ようん）なしである。<br><br>ゆえに吾らは、地球上における一切の支配者こそは時の神様であると断定しても差支えないと思うのである。<br><br> 以上の意味において、人間は時という絶対者に大いに関心を払うべきであると思わずにはいられないのである。<br><br> (注) 余蘊（ようん）、余分の蓄えから転じて、余すところ。<br><br>残るところ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Deus do Tempo</h2>
 <p>Absolutamente tudo o que concerne à humanidade e ao universo é governado pelo Deus do Tempo; não há, porventura, um único evento que escape ao Seu domínio. As vicissitudes da história, com seus ciclos de ascensão e queda, bem como o discernimento entre o bem e o mal, o certo e o errado, são realidades que não existem apartadas Dele. Nesse sentido, o que hoje é considerado um bem, anos mais tarde pode se tornar um mal; a verdade de hoje pode ser abandonada no futuro como uma inverdade; e o que hoje floresce pode, com o tempo, seguir o inexorável rumo da decadência. O legado da história narra essa realidade de forma irrefutável. Por conseguinte, afirma-se que não existe o bem absoluto, tampouco o mal absoluto, e a antiga máxima de que o bem e o mal são, em essência, uma só coisa, é, indubitavelmente, verdadeira.</p>
 <p>Tomemos um exemplo recente. Antes do fim da guerra, os japoneses acreditavam que a lealdade ao imperador e o amor à pátria eram valores supremos, a ponto de tratarem a própria vida com leviandade. Qual é a sua situação hoje? O resultado que se seguiu foi uma completa antítese dos objetivos de outrora, e ao observarmos a nação agonizar sob um destino trágico, ficou profundamente gravado na mente do povo o quão equivocados estavam. Essa transformação, súbita como o virar da palma da mão, ocorreu com o fim da guerra e foi, sem qualquer dúvida, uma deliberação do próprio Tempo.</p>
 <p>Ademais, em nossa história mais recente, há outros exemplos notáveis que não podem ser ignorados. Consideremos a era de apogeu do clã Tokugawa. Com o marco da Restauração Meiji, os daimyos e hatamotos, que até então detinham o poder, sofreram uma queda vertiginosa. Em contrapartida, simples estudantes, antes anônimos, ascenderam a postos de ministros e conselheiros de Estado. Tal cenário guarda notável semelhança com a conjuntura atual. A derrocada das classes privilegiadas do pré-guerra — membros da família imperial, da nobreza e os grandes magnatas — como será percebida aos olhos do povo? É evidente que tal fato se deve, inequivocamente, à atuação do Deus do Tempo. Nos escritos da fundadora da Oomoto, há uma passagem que diz: “Nem mesmo Deus pode se opor ao tempo oportuno”. Trata-se de uma afirmação de uma perspicácia extraordinária. Portanto, podemos afirmar sem receio que o governante supremo de tudo sobre a Terra é, de fato, o Deus do Tempo.</p>
 <p>Diante do exposto, torna-se imperativo que o ser humano dedique a máxima atenção a essa entidade absoluta que é o Tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時の神様 『地上天国』5号、昭和24(1949)年6月25日発行 一切万有人事百般、時の神様によって支配されないものは恐らく一つもあるまい。<br/><br/>興亡常なき歴史の推移も、善悪正邪の決定も、時の神様から離れて存在するものはない。<br/><br/>そういう意味で今日善であったものが、何年かの後には悪となり、今日真理としたものも何年後には非真理として見放される事も、今日華かなるものも何年後には衰亡の運命をたどるというような事も、過去の歴史が遺憾なく物語っている。<br/><br/>ゆえに絶対の善もなく、絶対の悪もないといわれるし、また昔から正邪一如という言葉もあり、いずれも真理である事に間違いはない。<br/><br/> 近い話が終戦前、忠君愛国を無上のものと信じ、唯一の生命を軽々しく扱った日本人が今日はどうであろう。<br/><br/>およそその時の目的と余りに背馳（はいち）した結果となり、悲惨なる運命の下に喘いでいる状を見ては、いかに誤っていたかは国民の脳裏に深く刻まれたであろう。<br/><br/>これらも終戦という掌を返した一瞬に変化したのであっていうまでもなく時そのものの決定である。<br/><br/> 吾々が知る限りにおいて、あまり古からざる歴史においての例も見逃し難いものがある。<br/><br/>彼の徳川氏盛んであった時代が、明治維新という一線を画すや、それまでの大名旗本等がことごとく転落し、それに引換え名もなき一介の書生が大臣参議となった事などを見ても、今日の状勢と相似たところがある。<br/><br/>終戦までの特権階級であった幾多の皇族、華族、富豪等の転落ぶりは、人々の眼にいかに映ずるであろうか。<br/><br/>言うまでもなく時の神様による事はもちろんである。<br/><br/>彼の大本教祖のお筆先に「時節には神も敵わぬぞよ」という言葉があるが、うがち得て余蘊（ようん）なしである。<br/><br/>ゆえに吾らは、地球上における一切の支配者こそは時の神様であると断定しても差支えないと思うのである。<br/><br/> 以上の意味において、人間は時という絶対者に大いに関心を払うべきであると思わずにはいられないのである。<br/><br/> (注) 余蘊（ようん）、余分の蓄えから転じて、余すところ。<br/><br/>残るところ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

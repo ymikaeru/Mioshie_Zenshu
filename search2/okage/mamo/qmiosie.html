@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmiosie</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御教えに深き感謝 ――病名不明の「けいれん」より救はる―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 静岡県 日本観音教大成会二俣支部 内山たけ 昨日も今日も妹は頭痛がすると言って、学校から帰るや否や床についた。<br><br>こんな状態が五日、一週間と続いた。<br><br> 五月下旬と言えば風邪を引くと言っても、時季とすれば一番良い時でございますのに、どうした事でしょう、十日頃より左の目が見えない、次の日には胸苦しいとか、村医に何度見て戴いても、はっきりした診断も下さらず、妹の体は日増しに悪くなる許りでした。<br><br> 小学校も最後の学年でございますので、日頃勉強好きな勝気な妹はそれまでは、学校を休もうと致しません。<br><br>見るにみかねた私は、医者を代えてみようと思い、学校へ出掛けようとする妹を無理矢理に引止めて、国立療養所天龍荘に向かったのでした。<br><br> 病名の分らぬ病人なので内科、外科、あらゆる専門医が手をとって下さいましたのに、何ら病名をつけてはくれません。<br><br>この原因はほんの些細な過失がもとで、と言うのは、学校で細いゴムを張って一年飛びをする子供の遊びをしていた刹那、過って半身を押打したらしいのです。<br><br>半月程は大した変化も見せず、二十日過ぎ一カ月過ぎてこんな始末となったのです。<br><br> 天龍荘より何ら病名を頂かなかった私達は、実に不安な面持で帰路についたのです。<br><br>病人も実に暗い気持になって、ねかせて、ものの一時間も過ぎませんでした。<br><br>盛んに痙攣を始めます。<br><br>農家の事で五月下旬と言えば麦の刈入れ時で、家族の者は全部田畑に出ておりません。<br><br>一人きり看病していた私は、心細くて近くの人に呼びかけて医者よ薬よと走って頂きました。<br><br> 今日より明日と言ったように、痙攣の度数は益々ひどくなる許り、その上苦しそうな呼吸が荒々しく、今にも息を引取るのではないかと思われる位で、母と私は傍にいるのも心細くなってしまいました。<br><br>その中に片半身しびれて手足を揉み通し、頭痛ははげしく、あの医者この医者よと、ある時は注射の十四、五本も一度にする始末、しかし注射も一時的には楽になりますが、二、三時間もすれば又もとのようになって身体の痛みを訴えます。<br><br>朝昼晩、一週間、十日、二十日、あの暑い六月昼日中、部屋を閉じ込めて病人に冬の厚いお布団二、三枚をかけて、病人を抱くようにして一緒に寝ていたのでございます。<br><br> 熱は三十八度を上下致しますのに手足は冷く、痙攣の連続に意識を失い、はてはうわ言を口走ったりします。<br><br>意識のついた時には病人は実に淋しがり、どんな気分の良い時にも一緒のお布団にくるまっていなければ承知しませんでした。<br><br> 一カ月程経過して、あらゆる医者七、八人にかけつけて頂いた結果、大した効果をみせず、今日は一日中痙攣の絶え間がない、親戚一同隣室に集って医者の攻撃です。<br><br>この苦しがる病人をもっともっと良い医者はないものかといっているのです。<br><br> 最近はどうも脳の方を犯されているから脳病院へでも連れて行こうかとか、遠方まで良い医者を呼びに行くとか大騒ぎです。<br><br>病人は虫の息のような呼吸をつづけています。<br><br>私達は実に我が身が病人よりも辛ろう御座いました。<br><br>出来得れば分ち合って苦しんでやりたい程に苦しがっています。<br><br> もう何もかも諦めつくした私達はいろいろ迷いに迷って、ある信仰の道に足をふみ入れたのです。<br><br>しかるに世の中には何々教とか言って悪い人がいるものです。<br><br>ある○○宗の信者に引掛って狐の霊等使ってひどい目に合わされました。<br><br>とある日観音教団二俣支部の市川先生の母君がお見舞下さって、初めてこの観音教の何たるかをお教え頂いたのでございます。<br><br>それからと言うもの雨風をいとわず毎日お通い下さるのでございます。<br><br> 初めの中はお医者さんとも手を切れず、かといって観音教の何たるかの認識のない私達では全く薬の方もやめられず、悶々の幾日かがすぎたのです。<br><br>しかるに五日経ち一週間すぎる中に痙攣の度数は減り日増しに軽くなるではありませんか。<br><br>一時は実に絶望のどん底に叩き込まれ、一生低脳か癩病か、両親兄弟ともどもどんなに憂き目を見ることかと悩んでおりましたのに、このお光を頂いてより食事は日増しに進み、痙攣もほとんど絶無と言う位になってしまったのでございます。<br><br>しかし長い間床についていた病人は起きる事を忘れてしまいました。<br><br> 五月下旬より六、七、八月と夏休みもすぎ、終に二学期が始りました。<br><br>人間と言うものは変なもので、これ程ひどく患っている病人を、ある人は悪くののしるらしいのです。<br><br>何とかしてこれまでの元気を取り戻して、一日も早く学校に行けるようにと教修をうけさせて頂き、朝晩浄霊を始めたのです。<br><br> 市川先生の母君も、七、八、九月と三月もの長い長い間をいやな顔一つせず、通いつづけられたお姿は、実に手を合せて拝みたい気持でございます。<br><br>最初は病人を床より離すことに苦労致しました。<br><br>叱ったり、すかしたりしたあげく、起き出したのでございます。<br><br>床より離れると、思いの外元気がついて、今度は逆に寝ようとしません。<br><br> 十三歳のあの子、可愛らしいオカッパの子が、朝晩あの祝詞をあげている姿は、全く別人としか思われません。<br><br>この元気な姿にかつての事は打忘れて、家中明るくなり、ただ今では五つの小さな子供までが手を合せて神にお縋りしているのでございます。<br><br> 観音教の有難き御教を、身をもって体験致しました私は、無神論者に向って高らかに叫びたくなります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Profunda Gratidão aos Ensinamentos — Salva de “convulsões” sem diagnóstico</h2>
 <p>Tanto ontem como hoje, minha irmã queixou-se de dor de cabeça e, assim que retornava da escola, recolhia-se ao leito. Este quadro persistiu por cinco dias, e depois por uma semana inteira.</p>
@@ -107,5 +262,48 @@ function toggleLang(lang) {
 <p>Nosso primeiro desafio foi convencê-la a deixar o leito. Foi preciso muita insistência, alternando entre repreensões e palavras de incentivo, até que finalmente ela se levantou. Uma vez de pé, recuperou a vitalidade de forma surpreendente; tanto que, ao contrário de antes, agora relutava em ir para a cama.</p>
 <p>Vê-la — aquela menina de treze anos, com seu gracioso corte de cabelo chanel — entoando a Oração pela manhã e à noite, era como testemunhar o renascimento de uma pessoa completamente diferente. Sua recuperação dissipou as sombras do passado e trouxe uma nova luz ao nosso lar. Hoje, até mesmo nosso irmão mais novo, de apenas cinco anos, une as mãos em oração, buscando a proteção de Deus.</p>
 <p>Ao vivenciar em meu próprio ser a sublime graça dos Ensinamentos da Kannon Kyou, sinto o ímpeto de proclamar em alto e bom som a todos que se declaram ateus a verdade que me foi revelada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御教えに深き感謝 ――病名不明の「けいれん」より救はる―― 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 静岡県 日本観音教大成会二俣支部 内山たけ 昨日も今日も妹は頭痛がすると言って、学校から帰るや否や床についた。<br/><br/>こんな状態が五日、一週間と続いた。<br/><br/> 五月下旬と言えば風邪を引くと言っても、時季とすれば一番良い時でございますのに、どうした事でしょう、十日頃より左の目が見えない、次の日には胸苦しいとか、村医に何度見て戴いても、はっきりした診断も下さらず、妹の体は日増しに悪くなる許りでした。<br/><br/> 小学校も最後の学年でございますので、日頃勉強好きな勝気な妹はそれまでは、学校を休もうと致しません。<br/><br/>見るにみかねた私は、医者を代えてみようと思い、学校へ出掛けようとする妹を無理矢理に引止めて、国立療養所天龍荘に向かったのでした。<br/><br/> 病名の分らぬ病人なので内科、外科、あらゆる専門医が手をとって下さいましたのに、何ら病名をつけてはくれません。<br/><br/>この原因はほんの些細な過失がもとで、と言うのは、学校で細いゴムを張って一年飛びをする子供の遊びをしていた刹那、過って半身を押打したらしいのです。<br/><br/>半月程は大した変化も見せず、二十日過ぎ一カ月過ぎてこんな始末となったのです。<br/><br/> 天龍荘より何ら病名を頂かなかった私達は、実に不安な面持で帰路についたのです。<br/><br/>病人も実に暗い気持になって、ねかせて、ものの一時間も過ぎませんでした。<br/><br/>盛んに痙攣を始めます。<br/><br/>農家の事で五月下旬と言えば麦の刈入れ時で、家族の者は全部田畑に出ておりません。<br/><br/>一人きり看病していた私は、心細くて近くの人に呼びかけて医者よ薬よと走って頂きました。<br/><br/> 今日より明日と言ったように、痙攣の度数は益々ひどくなる許り、その上苦しそうな呼吸が荒々しく、今にも息を引取るのではないかと思われる位で、母と私は傍にいるのも心細くなってしまいました。<br/><br/>その中に片半身しびれて手足を揉み通し、頭痛ははげしく、あの医者この医者よと、ある時は注射の十四、五本も一度にする始末、しかし注射も一時的には楽になりますが、二、三時間もすれば又もとのようになって身体の痛みを訴えます。<br/><br/>朝昼晩、一週間、十日、二十日、あの暑い六月昼日中、部屋を閉じ込めて病人に冬の厚いお布団二、三枚をかけて、病人を抱くようにして一緒に寝ていたのでございます。<br/><br/> 熱は三十八度を上下致しますのに手足は冷く、痙攣の連続に意識を失い、はてはうわ言を口走ったりします。<br/><br/>意識のついた時には病人は実に淋しがり、どんな気分の良い時にも一緒のお布団にくるまっていなければ承知しませんでした。<br/><br/> 一カ月程経過して、あらゆる医者七、八人にかけつけて頂いた結果、大した効果をみせず、今日は一日中痙攣の絶え間がない、親戚一同隣室に集って医者の攻撃です。<br/><br/>この苦しがる病人をもっともっと良い医者はないものかといっているのです。<br/><br/> 最近はどうも脳の方を犯されているから脳病院へでも連れて行こうかとか、遠方まで良い医者を呼びに行くとか大騒ぎです。<br/><br/>病人は虫の息のような呼吸をつづけています。<br/><br/>私達は実に我が身が病人よりも辛ろう御座いました。<br/><br/>出来得れば分ち合って苦しんでやりたい程に苦しがっています。<br/><br/> もう何もかも諦めつくした私達はいろいろ迷いに迷って、ある信仰の道に足をふみ入れたのです。<br/><br/>しかるに世の中には何々教とか言って悪い人がいるものです。<br/><br/>ある○○宗の信者に引掛って狐の霊等使ってひどい目に合わされました。<br/><br/>とある日観音教団二俣支部の市川先生の母君がお見舞下さって、初めてこの観音教の何たるかをお教え頂いたのでございます。<br/><br/>それからと言うもの雨風をいとわず毎日お通い下さるのでございます。<br/><br/> 初めの中はお医者さんとも手を切れず、かといって観音教の何たるかの認識のない私達では全く薬の方もやめられず、悶々の幾日かがすぎたのです。<br/><br/>しかるに五日経ち一週間すぎる中に痙攣の度数は減り日増しに軽くなるではありませんか。<br/><br/>一時は実に絶望のどん底に叩き込まれ、一生低脳か癩病か、両親兄弟ともどもどんなに憂き目を見ることかと悩んでおりましたのに、このお光を頂いてより食事は日増しに進み、痙攣もほとんど絶無と言う位になってしまったのでございます。<br/><br/>しかし長い間床についていた病人は起きる事を忘れてしまいました。<br/><br/> 五月下旬より六、七、八月と夏休みもすぎ、終に二学期が始りました。<br/><br/>人間と言うものは変なもので、これ程ひどく患っている病人を、ある人は悪くののしるらしいのです。<br/><br/>何とかしてこれまでの元気を取り戻して、一日も早く学校に行けるようにと教修をうけさせて頂き、朝晩浄霊を始めたのです。<br/><br/> 市川先生の母君も、七、八、九月と三月もの長い長い間をいやな顔一つせず、通いつづけられたお姿は、実に手を合せて拝みたい気持でございます。<br/><br/>最初は病人を床より離すことに苦労致しました。<br/><br/>叱ったり、すかしたりしたあげく、起き出したのでございます。<br/><br/>床より離れると、思いの外元気がついて、今度は逆に寝ようとしません。<br/><br/> 十三歳のあの子、可愛らしいオカッパの子が、朝晩あの祝詞をあげている姿は、全く別人としか思われません。<br/><br/>この元気な姿にかつての事は打忘れて、家中明るくなり、ただ今では五つの小さな子供までが手を合せて神にお縋りしているのでございます。<br/><br/> 観音教の有難き御教を、身をもって体験致しました私は、無神論者に向って高らかに叫びたくなります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

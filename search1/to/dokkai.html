@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>dokkai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒塊人間 『栄光』226号、昭和28(1953)年9月16日発行 私は常に現代人は毒の塊（かたまり）だといっているが、随分酷（ひど）い言い方と思うかも知れないが、これが事実であってみればどうにもならないのである。<br><br>信者の誰もが知るごとく、今日どんな人でも祖先から受け継いだ先天性薬毒と、生まれてから入れた後天性薬毒との、二種の薬毒によって毒の固りになり切っている。<br><br>というのは私は二十数年来今日まで、何千何万の人間を取扱って来た経験によっても、そうでないものは一人もない。<br><br>残らずといいたい程人間の形をした毒の塊といっていい。<br><br>もちろん浄霊によれば容易に溶解排除せられ、病気も生命に別条ないまでに快（よ）くなるが、薬毒全部を除ってしまう事は、まず一生かかっても難かしいであろう。<br><br> このような訳だから今日人間の形をした毒の塊が高慢な理屈を言ってノサバっているのだから、これを吾々から見れば滑稽千万であり、碌（ろく）な智慧も出ないのは当然であろう。<br><br>そうして私が常に唱えているごとく、その毒は人間が神経を使う所ほど集溜固結するのが法則であるから、近代人のごとく非常に頭脳を使う以上、首の周りから肩へかけて固っている。<br><br>どんな人でもその辺を探れば必ず大小様々の固結やグリグリがあるからよく分る。<br><br> この固りの浄化作用が風邪であるからそのまま放っておけば毒素は順調に排泄され治るものを、無智な医学は薬その他の手段で出るのを停め、固めようとする。<br><br>その上そのための薬毒も追加されるとしたら、それだけ固りも増え、益々毒塊人間となるのは当然で、浄化も起り易くなり、今日のごとく病人が多いのである。<br><br>しかも頭脳が最も侵されるため、近頃のごとく頭の悪い人間が増えるばかりで、どんな人でも頭痛、頭重、朦朧（もうろう）感、焦躁（しょうそう）感、眩暈（めまい）等の苦痛のない人はほとんどあるまい。<br><br>この結果物の判断力が鈍く、正邪の区別さえつかず、常識の欠乏、智能の低下、鈍智鈍感、何事もその場限りで済ましてしまうのは、御自分を見てもよく分るであろう。<br><br>従って病気、犯罪、貧困、争い等々忌わしい事の多いのは驚くばかりで、社会はさながら地獄絵巻である。<br><br> そうして特に言いたい事は智識人のレベルの低さである。<br><br>彼らの説くところ矛盾撞着（むじゅんどうちゃく）、定見も主張もなく筋も通らず、ただ活字の羅列（られつ）に過ぎず、ほとんどは原稿稼ぎといってもいいくらいで、近頃の論説を読んでも後へ残るようなものは滅多にない。<br><br>その中での二、三の例を挙げてみるが、まず宗教家である。<br><br>彼らの説くところ何百何千年前の骨董的教説に、新しい衣を着せたようなもので、何ら新味はない。<br><br>もちろん人々に感動を与えるなどはまずあり得ないといえよう。<br><br>また政治家にしても普通の頭なら、精々三十分くらいで結論の出るような問題でも、大勢かかって幾日も練るどころか、何カ月、何年に及んでも結論が得られないのを見てもその頭の悪さ加減が分るのである。<br><br>一例として彼（か）の再軍備問題にしても、この可否など実に簡単明瞭であるにかかわらず、擦（す）った揉（も）んだで未（いま）だに結論が出ないにみても肯（うなず）くであろう。<br><br>これも智慮（ちりょ）あり信頼出来る指導者がないからでもあろうが困ったものである。<br><br>それについて私は常に部下にいっている事は、相談や会議の場合、三十分以上かかるようなら止めた方がいいとしている。<br><br>それでも纏（まとま）りそうもない時は、私はワンマン振りを発揮して、一言で片付けてしまう事もよくある。<br><br>本教が何事もスピード的に運んでゆくのもそのためである。<br><br>次に経済界であるが、これも余りに頭が悪すぎる。<br><br>衆知のごとく政府や財界の主脳者始め、日本の商工業者がいつも苦しんでいるのは借金である。<br><br>恐らく世界中日本くらい借金インフレの国はないであろう。<br><br>この最大原因こそ利潤と利子との釣合せが下手糞（へたくそ）なためと、事業盛衰の判断力、世界の趨勢（すうせい）や国家経済の動向などに見通しがつかなすぎるからである。<br><br>それもこれも鈍智のためはもちろん、借金の苦労がそれに拍車をかけるからでもある。<br><br> まだ色々あるが、これだけでおよそ分ったであろうが、今一つ言いたい事は、近頃のごとく社会各面における忌わしい問題の多い事である。<br><br>交通事故、火災、鉱山の災害、殺傷沙汰、自殺、心中、裁判沙汰等の外、風水害、農村の病虫害等々、要するにそのことごとくは頭脳の明敏を欠く結果で、その原因こそ薬毒であるから、何としてもこれに目覚めさせなければならないと痛感するのである。<br><br>遠慮なくいって現在の社会は、毒塊人間が押し合いへシ合い、蠢（うごめ）いているとしか思えない程で、思えばこれを浄め給う神様の御手数こそ、さこそとお察しする次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O ser humano, uma massa de toxinas</h2>
 <p>Costumo afirmar que o ser humano moderno é uma massa de toxinas. Embora possa parecer uma colocação deveras severa, trata-se de uma realidade inegável. Como todos os fiéis bem sabem, qualquer pessoa hoje em dia transformou-se em uma verdadeira massa de toxinas, em virtude de duas naturezas de venenos medicinais: os congênitos, herdados dos antepassados, e os adquiridos após o nascimento. Minha experiência de mais de duas décadas, ao tratar de dezenas de milhares de pessoas, comprova que não há uma única exceção. Poder-se-ia dizer que, quase sem exceção, são massas de toxinas com forma humana. É verdade que, por meio do Johrei, essas toxinas são facilmente dissolvidas e eliminadas, e a saúde melhora a ponto de não haver mais risco de vida. Contudo, a remoção completa de todas as toxinas medicinais é uma tarefa que dificilmente se concluiria em toda uma existência.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Vejamos o caso dos políticos. Questões que uma mente comum resolveria em no máximo trinta minutos são debatidas por grandes comitês durante dias, meses e até anos, sem que se chegue a uma conclusão. Tal fato revela o grau de deterioração de suas mentes. A questão do rearmamento, por exemplo, cujos prós e contras são de uma clareza meridiana, permanece até hoje em um infindável impasse, o que corrobora minha afirmação. Isso se deve, provavelmente, à ausência de líderes sábios e confiáveis, o que é deveras lamentável. A esse respeito, costumo orientar meus subordinados a encerrar qualquer reunião ou deliberação que se estenda por mais de trinta minutos. Se, ainda assim, um consenso não parece próximo, não raro exerço minha autoridade e resolvo a questão com uma única palavra. É por essa razão que, em nossa Igreja, tudo se desenvolve com grande celeridade.</p>
 <p>Passemos ao mundo econômico, cujos integrantes também denotam uma inteligência excessivamente precária. Como é de conhecimento geral, desde os líderes do governo e do setor financeiro até os comerciantes e industriais japoneses, todos vivem atormentados por dívidas. Provavelmente, não há no mundo nação mais assolada pela inflação de débitos do que o Japão. A causa primordial para tal situação reside na incompetência em equilibrar lucros e juros, na incapacidade de prever os ciclos de prosperidade e declínio dos negócios, e na falta de visão para antecipar as tendências mundiais e os rumos da economia nacional. Tudo isso se deve, evidentemente, à obtusidade de suas mentes, quadro que é ainda mais agravado pela angústia gerada pelo endividamento.</p>
 <p>Haveria muito mais a dizer, mas creio que o exposto já seja suficiente para a compreensão do quadro geral. Gostaria, no entanto, de acrescentar um último ponto: a alarmante proliferação de problemas nefastos em todos os setores da sociedade. Acidentes de trânsito, incêndios, desastres em minas, assassinatos e agressões, suicídios, pactos suicidas, litígios judiciais, além de tufões, inundações e pragas na agricultura... Em suma, a totalidade desses males é consequência da falta de clareza mental, cuja causa fundamental são as toxinas medicinais. Sinto, pois, a urgência de despertar a humanidade para esta verdade. Falando sem rodeios, a sociedade atual não me parece outra coisa senão um aglomerado de seres humanos-toxina que se acotovelam e se agitam em desordem. Ao ponderar sobre isso, não posso deixar de imaginar o quão imenso é o trabalho de Deus para purificar semelhante estado de coisas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒塊人間 『栄光』226号、昭和28(1953)年9月16日発行 私は常に現代人は毒の塊（かたまり）だといっているが、随分酷（ひど）い言い方と思うかも知れないが、これが事実であってみればどうにもならないのである。<br/><br/>信者の誰もが知るごとく、今日どんな人でも祖先から受け継いだ先天性薬毒と、生まれてから入れた後天性薬毒との、二種の薬毒によって毒の固りになり切っている。<br/><br/>というのは私は二十数年来今日まで、何千何万の人間を取扱って来た経験によっても、そうでないものは一人もない。<br/><br/>残らずといいたい程人間の形をした毒の塊といっていい。<br/><br/>もちろん浄霊によれば容易に溶解排除せられ、病気も生命に別条ないまでに快（よ）くなるが、薬毒全部を除ってしまう事は、まず一生かかっても難かしいであろう。<br/><br/> このような訳だから今日人間の形をした毒の塊が高慢な理屈を言ってノサバっているのだから、これを吾々から見れば滑稽千万であり、碌（ろく）な智慧も出ないのは当然であろう。<br/><br/>そうして私が常に唱えているごとく、その毒は人間が神経を使う所ほど集溜固結するのが法則であるから、近代人のごとく非常に頭脳を使う以上、首の周りから肩へかけて固っている。<br/><br/>どんな人でもその辺を探れば必ず大小様々の固結やグリグリがあるからよく分る。<br/><br/> この固りの浄化作用が風邪であるからそのまま放っておけば毒素は順調に排泄され治るものを、無智な医学は薬その他の手段で出るのを停め、固めようとする。<br/><br/>その上そのための薬毒も追加されるとしたら、それだけ固りも増え、益々毒塊人間となるのは当然で、浄化も起り易くなり、今日のごとく病人が多いのである。<br/><br/>しかも頭脳が最も侵されるため、近頃のごとく頭の悪い人間が増えるばかりで、どんな人でも頭痛、頭重、朦朧（もうろう）感、焦躁（しょうそう）感、眩暈（めまい）等の苦痛のない人はほとんどあるまい。<br/><br/>この結果物の判断力が鈍く、正邪の区別さえつかず、常識の欠乏、智能の低下、鈍智鈍感、何事もその場限りで済ましてしまうのは、御自分を見てもよく分るであろう。<br/><br/>従って病気、犯罪、貧困、争い等々忌わしい事の多いのは驚くばかりで、社会はさながら地獄絵巻である。<br/><br/> そうして特に言いたい事は智識人のレベルの低さである。<br/><br/>彼らの説くところ矛盾撞着（むじゅんどうちゃく）、定見も主張もなく筋も通らず、ただ活字の羅列（られつ）に過ぎず、ほとんどは原稿稼ぎといってもいいくらいで、近頃の論説を読んでも後へ残るようなものは滅多にない。<br/><br/>その中での二、三の例を挙げてみるが、まず宗教家である。<br/><br/>彼らの説くところ何百何千年前の骨董的教説に、新しい衣を着せたようなもので、何ら新味はない。<br/><br/>もちろん人々に感動を与えるなどはまずあり得ないといえよう。<br/><br/>また政治家にしても普通の頭なら、精々三十分くらいで結論の出るような問題でも、大勢かかって幾日も練るどころか、何カ月、何年に及んでも結論が得られないのを見てもその頭の悪さ加減が分るのである。<br/><br/>一例として彼（か）の再軍備問題にしても、この可否など実に簡単明瞭であるにかかわらず、擦（す）った揉（も）んだで未（いま）だに結論が出ないにみても肯（うなず）くであろう。<br/><br/>これも智慮（ちりょ）あり信頼出来る指導者がないからでもあろうが困ったものである。<br/><br/>それについて私は常に部下にいっている事は、相談や会議の場合、三十分以上かかるようなら止めた方がいいとしている。<br/><br/>それでも纏（まとま）りそうもない時は、私はワンマン振りを発揮して、一言で片付けてしまう事もよくある。<br/><br/>本教が何事もスピード的に運んでゆくのもそのためである。<br/><br/>次に経済界であるが、これも余りに頭が悪すぎる。<br/><br/>衆知のごとく政府や財界の主脳者始め、日本の商工業者がいつも苦しんでいるのは借金である。<br/><br/>恐らく世界中日本くらい借金インフレの国はないであろう。<br/><br/>この最大原因こそ利潤と利子との釣合せが下手糞（へたくそ）なためと、事業盛衰の判断力、世界の趨勢（すうせい）や国家経済の動向などに見通しがつかなすぎるからである。<br/><br/>それもこれも鈍智のためはもちろん、借金の苦労がそれに拍車をかけるからでもある。<br/><br/> まだ色々あるが、これだけでおよそ分ったであろうが、今一つ言いたい事は、近頃のごとく社会各面における忌わしい問題の多い事である。<br/><br/>交通事故、火災、鉱山の災害、殺傷沙汰、自殺、心中、裁判沙汰等の外、風水害、農村の病虫害等々、要するにそのことごとくは頭脳の明敏を欠く結果で、その原因こそ薬毒であるから、何としてもこれに目覚めさせなければならないと痛感するのである。<br/><br/>遠慮なくいって現在の社会は、毒塊人間が押し合いへシ合い、蠢（うごめ）いているとしか思えない程で、思えばこれを浄め給う神様の御手数こそ、さこそとお察しする次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

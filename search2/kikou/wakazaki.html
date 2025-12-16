@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>wakazaki</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 和歌雑記 瓢箪 『栄光』260号、昭和29(1954)年6月9日発行 近代に至って和歌を短歌とよばれる様になり、叙景と叙情を主として歌われているようである。<br><br>短歌とは思想の美的表現であり、文字によって描く絵画であって、短歌と絵画は霊体になっているといえよう。<br><br>明主様は以前お詠みになった短歌集を「山と水」と御命題になり、我々の宝典として御発表下された。<br><br>それは大自然の凡ゆる絵画美的要素を魂をふるわすような強い言霊美で描き出されているが、この御歌の心をいずれは箱根熱海の御造園に立体化せんとの思召もあって、「山と水」と御命名になったのではないかとも思われる。<br><br> 私はこれを拝読する度に天国に遊ぶ快感に包まれ、夢よりも名画よりも強い美的感動に打たれて涙に胸のつまる事幾度かである。<br><br>誠にこれこそ短歌芸術の紫微宮を示されたものであってその品格の高さ、和やかくも強い言霊美は真善美の極至と申し上ぐべきか、到底古今の歌聖のレベルを以て比する事は出来ぬ。<br><br> そして現在我々は毎月の地上天国や大祭に賜わる御讃歌を拝誦すると一、二年前から一段と尊貴の趣きをまされたように感ずる。<br><br> それは何物も遮るものない高所に在して語らるる如く御歌となって垂れ給う神の御声のように拝せられ、そのお歌からも最高の神位に登らせられていることをはっきりと窺えるのである。<br><br> 最も理解さすに困難と思わるる事柄や、三界の真理神秘や迷蒙解決の鍵も誰人にも分りやすく、白光のような明るさで、しかも和やかな調で喝破されている。<br><br>特に叙景の御歌に至ってはただ幽玄微妙の美しさという外はなく、未だ世にない最高の神智の輝きでなくて何であろう。<br><br> 明主様の御歌は、言霊とその調に最も重きをおかれており、玲瓏玉のような言霊の美と大愛を奏でるような調と相俟って言い知れぬ陶酔的快感によって魂を天国に誘われてゆく。<br><br>和歌は言霊芸術である以上、言霊とその調は生命というべきであり、それによって初めて得もいえぬ味わいが澄み百万言にも勝る感動を与えるのである。<br><br>調とは言わばリズムであり、このリズムこそ凡ゆる芸術の根本であり、凡ゆる一切の物の道でもある。<br><br>和歌における調とは、季節の移り変る大自然の心をリズムとし、冬から春夏秋へと山形に歌うべきものであると御教え給わった事がある。<br><br>明主様の御歌には神韻渺々（びょうびょう）と悠久の世界へ果てもなく響いてゆく感のあるのは、実に言霊と調の高さによるかと思うのである。<br><br> 近代の短歌においては、肝腎な言霊や調を全く無視されて技巧のみに重きをおかれているかのように思われ心動かされるものが少い。<br><br>特に大家の作などには殊更に時代放れのした難解な字句を用い独善的で歌意の分らぬものや、調においても夏から冬になり秋になるというように順序が狂って、読んでかえって不快を覚えるものが屡々ある。<br><br> 古来、達人が一首の歌によって旱天に慈雨を降らしたという伝説があるが、それは決して事実無根な事ではないであろう。<br><br>恐らく、和歌の言霊が龍神を動かしたものとみらるるが、人間の汚れない誠は神意に通ずる故に、自ら調となり歌となって最もよく力を発揮するのではなかろうか。<br><br> よく有名な歌人が一月に二、三首しか作らぬという事を聞いたが、明主様は、御讃歌でも道歌でも、叙情叙景、恋歌等どんな歌でもあれほど勝れた御歌に拘らず決して御苦作なさる事なく、お楽しみにならるる如く御口述になり、詠もうと思えば幾らでも詠めると仰せられている。<br><br>そして歌数も、御作歌の遅速も全く自由無碍に在すのには驚く。<br><br>たしか法難事件の数カ月前「大浄化」の御歌四十六首を僅か一時間足らずで、蚕の口から糸が出るように御口述になった。<br><br>そうすると一首のお歓が一分三秒に当る訳で、いつもながらの超人的神業（みわざ）には驚いたのである。<br><br>又そのように超速度でお詠みになっても、決して濫作になって名歌の風韻を失われるような事はなく、その御歌に示された世の終りの凄じさ、救世主出現と五六七の御代の建設の喜びが切実に心に映ずる、力に満ちた御歌であった事が今でも印象に残っている。<br><br> 又、大日本観音会時代の事、非常に御多忙だった為おくれていた御讃歌を、祭典の時間のかなり迫った間際にお詠みになった。<br><br>その時は来客とお話なされつ、ラジオをお聞きになりつつ「力の主」という題で十数首忽ちのうちにお詠みになったのには、私も不思議に堪えない気がしたのを覚えている。<br><br>聖徳太子はいくつかの事を同時になさったとの事であるが、明主様もまた時に応じて幾種類の事をも容易に遊ばさるるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sublimidade dos Poemas de Meishu-Sama</h2>
 <p>Com o advento da era moderna, os poemas <em>waka</em> passaram a ser denominados <em>tanka</em>, dedicando-se primordialmente a retratar as paisagens e a externar os sentimentos. O <em>tanka</em> representa a manifestação estética do pensamento, uma verdadeira pintura delineada por palavras. Poderíamos dizer que o poema e a pintura constituem, por assim dizer, corpo e alma.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Há uma antiga lenda segundo a qual um mestre poeta, com um único poema, fez cair uma chuva abençoada em tempos de seca. Talvez isso não seja uma fantasia desprovida de fundamento. Provavelmente, o Espírito da Palavra do poema comoveu o Deus Dragão. Com efeito, quando a sinceridade imaculada do ser humano alcança a Vontade Divina, ela se manifesta naturalmente como melodia e canção, liberando assim seu mais pleno poder.</p>
 <p>É comum ouvirmos que poetas de renome compõem apenas dois ou três poemas por mês. Meishu-Sama, contudo, independentemente do tipo de poema — sagrado, didático, lírico, descritivo ou de amor —, compõe obras de excelência sem qualquer esforço aparente, como se estivesse a se deleitar, e afirma que pode criar quantos poemas desejar. A velocidade e o volume de Sua produção são, de fato, espantosos. Lembro-me de que, poucos meses antes do incidente da perseguição, Ele ditou quarenta e seis poemas sobre “A Grande Purificação” em menos de uma hora, com a mesma fluidez com que um bicho-da-seda fia seu casulo. Isso equivale a um poema a cada um minuto e três segundos. Fiquei maravilhado, como sempre, com essa Obra Divina (みわざ) sobre-humana. E mesmo compostos em tal velocidade, seus versos jamais se tornam produções apressadas ou perdem a elegância de uma obra-prima. Guardo até hoje a impressão vívida daqueles poemas, repletos de força, que transmitiam de forma palpável tanto a magnitude do fim do mundo quanto a alegria pela vinda do Messias e pela construção da Era de Miroku (五六七).</p>
 <p>Recordo-me também de outra ocasião, nos tempos da Dai-Nihon Kannon Kai. Estando extremamente atarefado, Meishu-Sama se atrasara para compor os poemas sagrados para o culto, que já estava prestes a começar. Naquele momento, enquanto conversava com um visitante e ouvia rádio, Ele compôs, em um instante, mais de uma dezena de poemas sob o título “O Senhor da Força”. Lembro-me de ter ficado perplexo diante de tal prodígio. Diz-se que o Príncipe Shotoku era capaz de realizar várias tarefas simultaneamente; da mesma forma, Meishu-Sama também executa, conforme a necessidade, múltiplos afazeres com a maior facilidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 和歌雑記 瓢箪 『栄光』260号、昭和29(1954)年6月9日発行 近代に至って和歌を短歌とよばれる様になり、叙景と叙情を主として歌われているようである。<br/><br/>短歌とは思想の美的表現であり、文字によって描く絵画であって、短歌と絵画は霊体になっているといえよう。<br/><br/>明主様は以前お詠みになった短歌集を「山と水」と御命題になり、我々の宝典として御発表下された。<br/><br/>それは大自然の凡ゆる絵画美的要素を魂をふるわすような強い言霊美で描き出されているが、この御歌の心をいずれは箱根熱海の御造園に立体化せんとの思召もあって、「山と水」と御命名になったのではないかとも思われる。<br/><br/> 私はこれを拝読する度に天国に遊ぶ快感に包まれ、夢よりも名画よりも強い美的感動に打たれて涙に胸のつまる事幾度かである。<br/><br/>誠にこれこそ短歌芸術の紫微宮を示されたものであってその品格の高さ、和やかくも強い言霊美は真善美の極至と申し上ぐべきか、到底古今の歌聖のレベルを以て比する事は出来ぬ。<br/><br/> そして現在我々は毎月の地上天国や大祭に賜わる御讃歌を拝誦すると一、二年前から一段と尊貴の趣きをまされたように感ずる。<br/><br/> それは何物も遮るものない高所に在して語らるる如く御歌となって垂れ給う神の御声のように拝せられ、そのお歌からも最高の神位に登らせられていることをはっきりと窺えるのである。<br/><br/> 最も理解さすに困難と思わるる事柄や、三界の真理神秘や迷蒙解決の鍵も誰人にも分りやすく、白光のような明るさで、しかも和やかな調で喝破されている。<br/><br/>特に叙景の御歌に至ってはただ幽玄微妙の美しさという外はなく、未だ世にない最高の神智の輝きでなくて何であろう。<br/><br/> 明主様の御歌は、言霊とその調に最も重きをおかれており、玲瓏玉のような言霊の美と大愛を奏でるような調と相俟って言い知れぬ陶酔的快感によって魂を天国に誘われてゆく。<br/><br/>和歌は言霊芸術である以上、言霊とその調は生命というべきであり、それによって初めて得もいえぬ味わいが澄み百万言にも勝る感動を与えるのである。<br/><br/>調とは言わばリズムであり、このリズムこそ凡ゆる芸術の根本であり、凡ゆる一切の物の道でもある。<br/><br/>和歌における調とは、季節の移り変る大自然の心をリズムとし、冬から春夏秋へと山形に歌うべきものであると御教え給わった事がある。<br/><br/>明主様の御歌には神韻渺々（びょうびょう）と悠久の世界へ果てもなく響いてゆく感のあるのは、実に言霊と調の高さによるかと思うのである。<br/><br/> 近代の短歌においては、肝腎な言霊や調を全く無視されて技巧のみに重きをおかれているかのように思われ心動かされるものが少い。<br/><br/>特に大家の作などには殊更に時代放れのした難解な字句を用い独善的で歌意の分らぬものや、調においても夏から冬になり秋になるというように順序が狂って、読んでかえって不快を覚えるものが屡々ある。<br/><br/> 古来、達人が一首の歌によって旱天に慈雨を降らしたという伝説があるが、それは決して事実無根な事ではないであろう。<br/><br/>恐らく、和歌の言霊が龍神を動かしたものとみらるるが、人間の汚れない誠は神意に通ずる故に、自ら調となり歌となって最もよく力を発揮するのではなかろうか。<br/><br/> よく有名な歌人が一月に二、三首しか作らぬという事を聞いたが、明主様は、御讃歌でも道歌でも、叙情叙景、恋歌等どんな歌でもあれほど勝れた御歌に拘らず決して御苦作なさる事なく、お楽しみにならるる如く御口述になり、詠もうと思えば幾らでも詠めると仰せられている。<br/><br/>そして歌数も、御作歌の遅速も全く自由無碍に在すのには驚く。<br/><br/>たしか法難事件の数カ月前「大浄化」の御歌四十六首を僅か一時間足らずで、蚕の口から糸が出るように御口述になった。<br/><br/>そうすると一首のお歓が一分三秒に当る訳で、いつもながらの超人的神業（みわざ）には驚いたのである。<br/><br/>又そのように超速度でお詠みになっても、決して濫作になって名歌の風韻を失われるような事はなく、その御歌に示された世の終りの凄じさ、救世主出現と五六七の御代の建設の喜びが切実に心に映ずる、力に満ちた御歌であった事が今でも印象に残っている。<br/><br/> 又、大日本観音会時代の事、非常に御多忙だった為おくれていた御讃歌を、祭典の時間のかなり迫った間際にお詠みになった。<br/><br/>その時は来客とお話なされつ、ラジオをお聞きになりつつ「力の主」という題で十数首忽ちのうちにお詠みになったのには、私も不思議に堪えない気がしたのを覚えている。<br/><br/>聖徳太子はいくつかの事を同時になさったとの事であるが、明主様もまた時に応じて幾種類の事をも容易に遊ばさるるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

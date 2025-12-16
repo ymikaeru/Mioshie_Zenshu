@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tosyo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 投書に就て 『救世』51号、昭和25(1950)年2月25日発行 本教に対し、毀誉褒貶（きよほうへん）、種々雑多な投書が当路者または大新聞社等に随分多数来るそうである、先日も某大新聞の記者が、多数の投書中から代表的なものといって持って来られ、その投書の箇条の一々を答弁して貰いたいというので、よくみると、無名なのでこういう無責任な投書の応答は意味がないと断ったが、それでも参考にしたいから話してくれというので、一々聞いてみたところあまりのナンセンスに噴飯どころか、応答さえ出来ない始末である、この忙しい世の中に世間には閑人もあるものかと呆れざるを得なかった、それがため大新聞の記者まで動かし、熱海くんだりまで出張させ迷惑をかけるのであるから一種の罪悪である。<br><br> これをもってみると、こういう閑人は新聞社ばかりではない、宗教に関係ある取締り方面にも無論投書するであろう、しかし、その投書家の意図は那辺（なへん）にあるかを考えてみると、もちろん本教発展によって影響を蒙った徒輩の、嫉視（しっし）羨望（せんぼう）や謀略的意図からであろう。<br><br> また、数ケ月前よりすこぶる大規模なユスリの集団が、本教目がけてあの手この手をもって、相当知名の士までも動かし、多額の運動費を使い、あらゆる手段をつくしたが、本教は頑として相手にしないのでどうする事も出来ないが、今もって諦めきれないとみえ、執拗に投書その他の方法を使い嫌がらせをやっている事も、各方面からの情報でよく判っている、このように本教を目標に、パリサイ人達が嫌がらせや妨害をするのは、何がためであるかというと、全く本教が前例のない急速の発展のためで、一面またやむを得ないといえない事もないのである。<br><br> 特に、日本人現在の島国的根性の小人輩は元より政治家や指導階級、ジャーナリストに至るまで、正義感が乏しく利害と感情に支配され勝ちな人間が多いからでもあろう、真に品性の高い、俯仰（ふぎょう）天地に恥〔愧〕じない人格者は暁の星のごとくである以上、日本再建も容易でない事を痛感するのである。<br><br> 以上のごとく正義を堅持する本教としては、不正者がいかに大仕掛の妨害手段をもって臨み来るとも、一歩も譲り得ないのである、いかに大新聞社であっても非を通そうとする限り断乎として応戦しその非を悟るまで鉾（ほこ）を収めない事を知って貰いたいのである。<br><br> 宗教本来の使命が、善を勧め悪を懲（こら）し、明朗平和な社会を造るにありとすれば、善が悪に勝たねばならない事は言うまでもない、また本教の方針がいかなるものであるかは、本教刊行の出版物に洩さず表示してある以上本教批判に当っては、出来るだけ読了して後、不審な点があれば、その質疑に来るべきである、というのはよく本教に疑問を抱き質疑応答に来訪する人のほとんどは、全然本教の出版物などみていないからである。<br><br> (注) 毀誉褒貶（きよほうへん）、ほめることと、けなすこと。<br><br>さまざまな評判。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Críticas e Detratações</h2>
 <p>Temos recebido um grande volume de correspondências sobre nossa Igreja, contendo tanto louvores quanto censuras, as quais são endereçadas não apenas a nós, mas também aos grandes jornais. Recentemente, um repórter de um importante periódico nos procurou, trazendo consigo uma seleção do que considerava as cartas mais representativas. Solicitou-me que respondesse, ponto por ponto, às alegações ali contidas.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Isso ocorre, em especial, porque a mentalidade insular ainda aflige muitos japoneses. Desde os homens de espírito mesquinho até políticos, membros da elite e jornalistas, são numerosos os que carecem de senso de justiça e se deixam facilmente dominar por interesses próprios e por suas emoções. Indivíduos de caráter verdadeiramente elevado, cuja integridade lhes permite não se envergonhar perante o Céu e a Terra, são tão raros quanto as estrelas da alva. Diante desse quadro, sinto profundamente que a reconstrução do Japão não será uma tarefa fácil.</p>
 <p>Nossa Igreja, por ser defensora intransigente da justiça, não pode ceder um passo sequer, independentemente da magnitude das manobras obstrutivas perpetradas por aqueles que agem de má-fé. Desejo que saibam que, mesmo se tratando de um grande jornal, enquanto este insistir em propagar a inverdade, nós o combateremos com determinação e não deporemos as armas até que seu erro seja reconhecido.</p>
 <p>Se a missão precípua da religião é promover o bem, coibir o mal e edificar uma sociedade radiante e pacífica, torna-se evidente que o bem deve, impreterivelmente, triunfar sobre o mal. Os princípios que norteiam nossa Igreja estão claramente expressos em todas as nossas publicações. Portanto, antes de tecerem críticas, seria de bom-senso que lessem nossos escritos com atenção e, persistindo alguma dúvida, nos procurassem para o devido esclarecimento. Digo isso porque a vasta maioria daqueles que nos procuram para expressar suas objeções jamais teve contato com qualquer uma de nossas obras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 投書に就て 『救世』51号、昭和25(1950)年2月25日発行 本教に対し、毀誉褒貶（きよほうへん）、種々雑多な投書が当路者または大新聞社等に随分多数来るそうである、先日も某大新聞の記者が、多数の投書中から代表的なものといって持って来られ、その投書の箇条の一々を答弁して貰いたいというので、よくみると、無名なのでこういう無責任な投書の応答は意味がないと断ったが、それでも参考にしたいから話してくれというので、一々聞いてみたところあまりのナンセンスに噴飯どころか、応答さえ出来ない始末である、この忙しい世の中に世間には閑人もあるものかと呆れざるを得なかった、それがため大新聞の記者まで動かし、熱海くんだりまで出張させ迷惑をかけるのであるから一種の罪悪である。<br/><br/> これをもってみると、こういう閑人は新聞社ばかりではない、宗教に関係ある取締り方面にも無論投書するであろう、しかし、その投書家の意図は那辺（なへん）にあるかを考えてみると、もちろん本教発展によって影響を蒙った徒輩の、嫉視（しっし）羨望（せんぼう）や謀略的意図からであろう。<br/><br/> また、数ケ月前よりすこぶる大規模なユスリの集団が、本教目がけてあの手この手をもって、相当知名の士までも動かし、多額の運動費を使い、あらゆる手段をつくしたが、本教は頑として相手にしないのでどうする事も出来ないが、今もって諦めきれないとみえ、執拗に投書その他の方法を使い嫌がらせをやっている事も、各方面からの情報でよく判っている、このように本教を目標に、パリサイ人達が嫌がらせや妨害をするのは、何がためであるかというと、全く本教が前例のない急速の発展のためで、一面またやむを得ないといえない事もないのである。<br/><br/> 特に、日本人現在の島国的根性の小人輩は元より政治家や指導階級、ジャーナリストに至るまで、正義感が乏しく利害と感情に支配され勝ちな人間が多いからでもあろう、真に品性の高い、俯仰（ふぎょう）天地に恥〔愧〕じない人格者は暁の星のごとくである以上、日本再建も容易でない事を痛感するのである。<br/><br/> 以上のごとく正義を堅持する本教としては、不正者がいかに大仕掛の妨害手段をもって臨み来るとも、一歩も譲り得ないのである、いかに大新聞社であっても非を通そうとする限り断乎として応戦しその非を悟るまで鉾（ほこ）を収めない事を知って貰いたいのである。<br/><br/> 宗教本来の使命が、善を勧め悪を懲（こら）し、明朗平和な社会を造るにありとすれば、善が悪に勝たねばならない事は言うまでもない、また本教の方針がいかなるものであるかは、本教刊行の出版物に洩さず表示してある以上本教批判に当っては、出来るだけ読了して後、不審な点があれば、その質疑に来るべきである、というのはよく本教に疑問を抱き質疑応答に来訪する人のほとんどは、全然本教の出版物などみていないからである。<br/><br/> (注) 毀誉褒貶（きよほうへん）、ほめることと、けなすこと。<br/><br/>さまざまな評判。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

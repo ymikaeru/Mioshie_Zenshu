@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260905</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月5日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月五日 文明の創造の医学篇だけは大体できあがって、今宗教篇の方に入っているんですが、最初は霊的病気ですね。<br><br>つまり、霊的病気としてはやはり宗教的に説かなければならないから、そこで今宗教的に書き始めたんですが、最初精神病と癲癇の解説です。<br><br>これについて守護神に関係したのを説いた。<br><br>これははっきり分かることですが、非常に結構なんで、読ませるけれど、あとで話でも、もう一回精しく分からせようと思う。<br><br> （御論文「 精神病と癲癇 」のあとの御教え） 眠られないと言うのですが、あれを書いてないが、こういうわけなんです。<br><br>ここ（頭の上）が希薄になり、延髄の固まりが圧迫する。<br><br>するとここ（頭の上）に来る血液が来なくなり希薄になる。<br><br>それで、ここに霊が憑る。<br><br>そこに乗っかる。<br><br>それでいろんな考え事をさせる。<br><br>それで眠られないと言うのは、いろんな考え事をさせるんですね。<br><br>その考え事というのは、副守護神です。<br><br>ここ（頭部）を充実させるには、ここ（延髄）の固まりを溶かすんです。<br><br>連続的に考え事をしていると睡眠不足で眠られなくなる。<br><br>そのような人はここ（延髄）に固まりがあります。<br><br>寝られないで考え事ばかりしていると、ここ（頭部）に憑いている先生がのさばってきて、だんだん考え事ばかりするようになる。<br><br>それが精神病です。<br><br>浄霊すると、そこにいるのが萎縮するというわけなんです。<br><br> 「人」という字の「ノ」は天から下った形です。<br><br>「ノ」の字ですね。<br><br>天皇の「皇」ですね。<br><br>そういう意味です。<br><br>天から下った「日」ですね。<br><br>その「王」です。<br><br>「人」という字もそうです。<br><br>それから「＼」は獣です。<br><br>そこで「ノ」は本当の善で、「＼」は獣で、悪です。<br><br>これが支えている。<br><br>これが人間です。<br><br>ところが今の人は「入」という字です。<br><br>「＼」のはうが抜けている。<br><br>「ノ」が長くなって支えているのですが、今の人間は「＼」が突き出ている。<br><br>そうすると「×」になる。<br><br>「×」は消えちゃう。<br><br>神様はうまくつくられたものと思う。<br><br>この理屈が分かればいい。<br><br>やっぱり霊主体従の形ですね。<br><br> （御論文中「人間向上すれば神となり、下落すれば獣となる」とあり） それですからこれ（上の横棒）とこれ（下の横棒）の間になるわけですね。<br><br>これをすっかり読めば、守護神のことはすっかり分かります。<br><br>それで、正守護神はたいてい一人ですが、一人で間に合わない時がある。<br><br>そういう時は他の祖霊に手伝ってもらう。<br><br>それから狐ですね。<br><br>それに手伝ってもらうというのは、人間に憑って、口を切ったり、知らせたりするのを狐は非常に上手いんです。<br><br>そこで狐に頼むんです。<br><br>お前、こういうことを話してくれとか、言ってくれとか言うんです。<br><br>ところが狐の先生、その通り言うと良いが自分のことを出すんです。<br><br>そこでこっちの方で、祖霊が言うのか狐が言うのか迷うんです。<br><br>それを判識するだけの眼識が出ればいいんです。<br><br>しかし、大体しゃべる骨子が、正しいか正しくないか。<br><br>常識にかなうかどうかで判断すれば、大体間違いないです。<br><br>その他、夢知らせがありますね。<br><br>これはみんな正守護神がやらせるんです。<br><br>これは西洋では守護霊と言うんですね。<br><br>それからごく危急の場合には、正守護神が神様にお願いするわけです。<br><br>そこで神様が力を貸してくださるんです。<br><br>危急の場合なんですが、それが奇蹟と言うんです。<br><br>奇蹟は正守護神がつくるんですね。<br><br>大きい奇蹟は神様から力を借りるんです。<br><br>こういうふうに見れば良く分かる。<br><br>そこで、こういうふうに説いていくと、本当に人間は悪いことをしてはいけない。<br><br>良いことをしなくてはいけないということがはっきり分かる。<br><br>今までの宗教はここまで説かない。<br><br>もっと漠然とした抽象的な説き方です。<br><br>だから徹底して分からない。<br><br>宗教の信者で信仰しながら、かなり間違ったことをする信仰がありますが、これは徹底して説かなかったからですね。<br><br>もっと徹底して説いてあればメシヤ教が出る必要はない。<br><br> いよいよ講和になっておめでたいというわけだけれども、なかなかどうも、ふつうの時の講和と違いますからね。<br><br>講和後はどうなるか分からない。<br><br>なにしろ中共軍――共産軍の方は、今、北朝鮮の方に八十五万集結してますね。<br><br>人間はいくらでもあるので、そういうことができるんです。<br><br>それで八十五万集結してる。<br><br>どういう目的でやるかということです。<br><br>しかし今までのように三十八度線を突破しても、今の米国の機械力にはやっぱりかなわないで死人の山をつくる、ということは分かっているんですね。<br><br>そこで彼の方の計画はどこにあるかということを考えてみると、もしか私がスターリンとすれば――毛沢東とすれば、そうしておいて日本の北端ですね。<br><br>これは樺太や千島にだいぶ前から準備をしてますからね。<br><br>北海道に進撃すると、今度は驚いて、米国の方で、うんとそっちの方に力を分けなければならない。<br><br>そうするとどうしても、朝鮮の方は手薄になりますから、そこで八十五万が怒涛のごとく押してこないとも限らないですね。<br><br>けれども、ソ連の方でそうするには、なにか理屈をつけなければならない。<br><br>その理屈を今度の講和問題の結末か、あるいは講和問題の折衝に対し、どうせソ連は米国と反対のようないろんな厄介なことを言い出すでしょうが、それが通らない場合に、日本をやっつける作戦に出るかもしれない。<br><br>今すぐやらないでも、時の問題ですね。<br><br>そうすると講和になってから喜んでいられるか、びっくりするかちょっと分からないですね。<br><br>そう出るか、あるいは東南アジア――あっちの方にもだいぶ準備してますからね。<br><br>そこに出るか、あるいはイラン、イラクあたりですね。<br><br>イランですね。<br><br>石油問題をきっかけにイランと提携すると、米英の方では黙ってないだろうから、そこで悶着が起る。<br><br>一ぺんに火をつけるかどうか、そいつは分からないが、なにしろこれからは、どうなったって本当の平和は来っこない。<br><br>だから停戦問題の時言ったように、戦争を引き延ばす手段だと言ったが、やっぱりそうだったんですね。<br><br>一時停戦して大いに準備しようという――最もあの勢いでやられてはたまらないです。<br><br>自分の方を立て直すために、一時やったんですね。<br><br>やっぱりマッカーサー元帥の作戦が光っているんですね。<br><br>マッカーサーの作戦は、一挙に満州を爆撃して、中共を根こそぎやっつけるというのが、反対されて覆えされたが、その作戦は私の考えと同じです。<br><br>今でも、その作戦は光っていますね。<br><br>今のやり方はちょうど蛇の生殺しですね。<br><br>一時的で、今度殺す時には非常に骨が折れるということになる。<br><br>そこで、今アメリカの方でもマッカーサーの作戦をいくらか用い始めた。<br><br>やはり満州爆撃もやるでしょうし、だいぶ――原子爆弾も持ってきて準備したようですが、それが共産軍の方では恐いんです。<br><br>それで、作戦を大いに変えなければならないんですね。<br><br>変えると言うと、日本ですからね。<br><br>だから、なかなか油断はできない。<br><br>それで、結局なんだかんだと言って第三次戦争になるんです。<br><br>ただ、それまでいろいろ波瀾がありますね。<br><br>アメリカの方では、極力延ばしておいて、できるだけ準備をするという方針に出てますが、これは結構ですが、その代わりソ連の方でも準備してますからね。<br><br>戦争は延びるだけ大きくなるということを先に言ったが、やはり神様の方は、それでなければならないわけですね。<br><br>今度は、本当の世界の大浄化ですから、生半可（なまはんか）では本当の世界のお浄めはできない。<br><br>だから、うんとお浄めするということは、うんと破壊するということですね。<br><br>大規模な破壊ですね。<br><br>それが本当のお浄めですからね。<br><br>打ち払い焼き払うと言うんですね。<br><br>だから、恐ろしくもあり、ありがたくもあるというわけですね。<br><br>そこで、戦争はそういう具合ですが、その他に――やはりだんだん浄化が強くなりますからね。<br><br>病人が非常に増えるわけですね。<br><br>赤痢なんか非常に多いですね。<br><br>やはり浄化がそれだけ強くなったわけですね。<br><br>信者さんなんかでも病気の浄化が強いようですが、一般の方になったらたいへんです。<br><br>なにしろ今の人間の体をみると、実に毒が多いですからね。<br><br>これはみなさんも良く知っているでしょうがね。<br><br>これが、一ぺんに浄化が起ったら、どうするかという状態ですね。<br><br>それから、社会でも悪い人間が多すぎますからね。<br><br>信者になった人は良いけれども、そうでない人は油断のならない人間ばかりと言って良いくらいですね。<br><br> 今度の「 新しき暴力 」に対して、私は 付録 を書きましたがね。<br><br>なにしろ、あの付録を見れば分かりますがね。<br><br>警察官などのやり方はとうてい信じられないですね。<br><br>ぜんぜん拵（こしら）え事ばかりです。<br><br>だから、この間の新聞にも――殺人なんですがね――あれは警察官がつくったものですね。<br><br>拷問同様なことしてつくったものですね。<br><br>それで起訴されて、一審では無罪で、検事控訴で、二審も無罪です。<br><br>無罪になっても疑いがあるから大いに調べると、検事が言っているが、被告の方では、検事のひどい取り調べを告訴しましたが、ああいうことを聞くと、われわれは良く分かります。<br><br>犯罪製造検事ですね。<br><br>熱心なのは確かに熱心ですね。<br><br>熱心なことは感心します。<br><br>だが、そうなってくると、平沢の事件なんかも、どうなるか分からないように思われてくるですね。<br><br>今もって、平沢はがんばってますが、平沢の言うことも信じられませんが、今の警察官や検事のやり方をみると、どうも平沢は――悪いことはある。<br><br>それは自分でも認めているが――毒殺事件、あの方はどうだか分からないというような気がしてくるんですね。<br><br>あんまり、そういうことは言えませんが、そういうふうに思われるほどのやり方がさかんに行なわれてますからね。<br><br>だから、正しくやっていれば、平沢の問題だって、無論当局を信じますが、信じられないようなやり方をするんで困ってますがね。<br><br> 今度の「新しき暴力」は、付録が出るんですが、あれもできるだけ世間に広めて世論をつくりたいですね。<br><br>今後も、罪のない人が罪にされるかも分からない。<br><br>そういう人を救ってやらなければならない。<br><br>実にかわいそうです。<br><br>やはり救世の意味からね。<br><br>悪人のために善人が苦しむということは救わなければならない。<br><br>救うには世間に知らさなければならない。<br><br>そうして、そういうやり方を改正しなければならないという意味から、宗教家としては似合わしからぬことをやった。<br><br>というわけではないが、今まで悪人がのさばって、善人が引っ込んで、頭を押さえられていたが、これが非常に悪い。<br><br>私はあくまでも、善は助けなければならないと思う。<br><br>大いに善を弘げて、悪人とか――悪はやっちゃいけない、しないようにする。<br><br>と言っても、われわれだけではなかなかだから、そうするんだという機運をつくるんです。<br><br>そうしなければ、本当に良い世の中はできないんです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Manifestação do Espírito Guardião e a Purificação Mundial</h2>
 <p>A seção sobre Medicina da obra "A Criação da Civilização" está praticamente concluída, e agora dedico-me à seção sobre Religião. O ponto de partida são as doenças de natureza espiritual. Evidentemente, as enfermidades espirituais devem ser abordadas sob uma perspectiva religiosa, razão pela qual iniciei a escrita a partir desse prisma. O primeiro tema é um comentário sobre a doença mental e a epilepsia, no qual explano a profunda relação que possuem com o espírito guardião. O texto é bastante elucidativo e creio que sua leitura será proveitosa. Contudo, pretendo aprofundar a explanação oralmente para garantir uma compreensão ainda mais clara.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>A esse respeito, escrevi um apêndice para a recente publicação intitulada "A Nova Violência". Basta lê-lo para compreender. Os métodos empregados pela polícia são absolutamente inacreditáveis, baseados em puras invenções. Recentemente, os jornais noticiaram um caso de assassinato que foi, na verdade, uma farsa montada pela própria polícia. A confissão foi obtida por meios análogos à tortura. O réu foi absolvido no primeiro julgamento e, mesmo após o recurso do promotor, foi novamente declarado inocente na segunda instância. Ainda assim, o promotor insiste que continuará a investigar por suspeitar do réu, enquanto este, por sua vez, o processou pela brutalidade do interrogatório. Ao ouvir tais relatos, compreendemos perfeitamente a situação. Trata-se de promotores que fabricam crimes. Sua dedicação é inegável, e nesse ponto são admiráveis, mas quando as coisas chegam a esse extremo, começamos a nos perguntar sobre o que realmente aconteceu no caso de Teikoku Bank, envolvendo Sadamichi Hirasawa.</p>
 <p>Ele resiste até hoje. Embora não se possa confiar plenamente em suas palavras, ao observarmos as práticas atuais da polícia e da promotoria, uma dúvida emerge: Hirasawa pode ter seus erros, como ele mesmo admite, mas teria ele realmente cometido os envenenamentos? Não posso afirmar categoricamente, mas os métodos utilizados são tão recorrentes que nos levam a pensar dessa forma. Se as autoridades agissem com retidão, obviamente confiaríamos em seu julgamento no caso Hirasawa. O problema é que seus procedimentos nos impedem de fazê-lo.</p>
 <p>O apêndice de "A Nova Violência" será publicado, e meu desejo é que ele seja amplamente divulgado para formar uma forte opinião pública. No futuro, outras pessoas inocentes poderão ser transformadas em culpadas, e temos o dever de salvá-las. É uma situação verdadeiramente lastimável. Essa atitude emana do próprio significado da salvação. Não podemos permitir que pessoas de bem sofram por causa dos malfeitores. Para salvá-las, é preciso que a sociedade tome conhecimento dos fatos, para que esses métodos sejam corrigidos. Por essa razão, fiz algo que pode parecer inadequado para um líder religioso. Mas não o é. Até hoje, o mal prosperou enquanto o bem permaneceu acuado e oprimido, e essa é uma situação perniciosa. Acredito firmemente que o bem deve ser amparado. Devemos expandi-lo ao máximo e fazer com que o mal não seja praticado. Evidentemente, não podemos fazer isso sozinhos. Nosso papel é criar um movimento, uma nova atmosfera. Sem isso, um mundo verdadeiramente bom jamais poderá ser construído.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月5日） 『御教え集』2号、昭和26(1951)年10月25日発行 昭和二十六年九月五日 文明の創造の医学篇だけは大体できあがって、今宗教篇の方に入っているんですが、最初は霊的病気ですね。<br/><br/>つまり、霊的病気としてはやはり宗教的に説かなければならないから、そこで今宗教的に書き始めたんですが、最初精神病と癲癇の解説です。<br/><br/>これについて守護神に関係したのを説いた。<br/><br/>これははっきり分かることですが、非常に結構なんで、読ませるけれど、あとで話でも、もう一回精しく分からせようと思う。<br/><br/> （御論文「 精神病と癲癇 」のあとの御教え） 眠られないと言うのですが、あれを書いてないが、こういうわけなんです。<br/><br/>ここ（頭の上）が希薄になり、延髄の固まりが圧迫する。<br/><br/>するとここ（頭の上）に来る血液が来なくなり希薄になる。<br/><br/>それで、ここに霊が憑る。<br/><br/>そこに乗っかる。<br/><br/>それでいろんな考え事をさせる。<br/><br/>それで眠られないと言うのは、いろんな考え事をさせるんですね。<br/><br/>その考え事というのは、副守護神です。<br/><br/>ここ（頭部）を充実させるには、ここ（延髄）の固まりを溶かすんです。<br/><br/>連続的に考え事をしていると睡眠不足で眠られなくなる。<br/><br/>そのような人はここ（延髄）に固まりがあります。<br/><br/>寝られないで考え事ばかりしていると、ここ（頭部）に憑いている先生がのさばってきて、だんだん考え事ばかりするようになる。<br/><br/>それが精神病です。<br/><br/>浄霊すると、そこにいるのが萎縮するというわけなんです。<br/><br/> 「人」という字の「ノ」は天から下った形です。<br/><br/>「ノ」の字ですね。<br/><br/>天皇の「皇」ですね。<br/><br/>そういう意味です。<br/><br/>天から下った「日」ですね。<br/><br/>その「王」です。<br/><br/>「人」という字もそうです。<br/><br/>それから「＼」は獣です。<br/><br/>そこで「ノ」は本当の善で、「＼」は獣で、悪です。<br/><br/>これが支えている。<br/><br/>これが人間です。<br/><br/>ところが今の人は「入」という字です。<br/><br/>「＼」のはうが抜けている。<br/><br/>「ノ」が長くなって支えているのですが、今の人間は「＼」が突き出ている。<br/><br/>そうすると「×」になる。<br/><br/>「×」は消えちゃう。<br/><br/>神様はうまくつくられたものと思う。<br/><br/>この理屈が分かればいい。<br/><br/>やっぱり霊主体従の形ですね。<br/><br/> （御論文中「人間向上すれば神となり、下落すれば獣となる」とあり） それですからこれ（上の横棒）とこれ（下の横棒）の間になるわけですね。<br/><br/>これをすっかり読めば、守護神のことはすっかり分かります。<br/><br/>それで、正守護神はたいてい一人ですが、一人で間に合わない時がある。<br/><br/>そういう時は他の祖霊に手伝ってもらう。<br/><br/>それから狐ですね。<br/><br/>それに手伝ってもらうというのは、人間に憑って、口を切ったり、知らせたりするのを狐は非常に上手いんです。<br/><br/>そこで狐に頼むんです。<br/><br/>お前、こういうことを話してくれとか、言ってくれとか言うんです。<br/><br/>ところが狐の先生、その通り言うと良いが自分のことを出すんです。<br/><br/>そこでこっちの方で、祖霊が言うのか狐が言うのか迷うんです。<br/><br/>それを判識するだけの眼識が出ればいいんです。<br/><br/>しかし、大体しゃべる骨子が、正しいか正しくないか。<br/><br/>常識にかなうかどうかで判断すれば、大体間違いないです。<br/><br/>その他、夢知らせがありますね。<br/><br/>これはみんな正守護神がやらせるんです。<br/><br/>これは西洋では守護霊と言うんですね。<br/><br/>それからごく危急の場合には、正守護神が神様にお願いするわけです。<br/><br/>そこで神様が力を貸してくださるんです。<br/><br/>危急の場合なんですが、それが奇蹟と言うんです。<br/><br/>奇蹟は正守護神がつくるんですね。<br/><br/>大きい奇蹟は神様から力を借りるんです。<br/><br/>こういうふうに見れば良く分かる。<br/><br/>そこで、こういうふうに説いていくと、本当に人間は悪いことをしてはいけない。<br/><br/>良いことをしなくてはいけないということがはっきり分かる。<br/><br/>今までの宗教はここまで説かない。<br/><br/>もっと漠然とした抽象的な説き方です。<br/><br/>だから徹底して分からない。<br/><br/>宗教の信者で信仰しながら、かなり間違ったことをする信仰がありますが、これは徹底して説かなかったからですね。<br/><br/>もっと徹底して説いてあればメシヤ教が出る必要はない。<br/><br/> いよいよ講和になっておめでたいというわけだけれども、なかなかどうも、ふつうの時の講和と違いますからね。<br/><br/>講和後はどうなるか分からない。<br/><br/>なにしろ中共軍――共産軍の方は、今、北朝鮮の方に八十五万集結してますね。<br/><br/>人間はいくらでもあるので、そういうことができるんです。<br/><br/>それで八十五万集結してる。<br/><br/>どういう目的でやるかということです。<br/><br/>しかし今までのように三十八度線を突破しても、今の米国の機械力にはやっぱりかなわないで死人の山をつくる、ということは分かっているんですね。<br/><br/>そこで彼の方の計画はどこにあるかということを考えてみると、もしか私がスターリンとすれば――毛沢東とすれば、そうしておいて日本の北端ですね。<br/><br/>これは樺太や千島にだいぶ前から準備をしてますからね。<br/><br/>北海道に進撃すると、今度は驚いて、米国の方で、うんとそっちの方に力を分けなければならない。<br/><br/>そうするとどうしても、朝鮮の方は手薄になりますから、そこで八十五万が怒涛のごとく押してこないとも限らないですね。<br/><br/>けれども、ソ連の方でそうするには、なにか理屈をつけなければならない。<br/><br/>その理屈を今度の講和問題の結末か、あるいは講和問題の折衝に対し、どうせソ連は米国と反対のようないろんな厄介なことを言い出すでしょうが、それが通らない場合に、日本をやっつける作戦に出るかもしれない。<br/><br/>今すぐやらないでも、時の問題ですね。<br/><br/>そうすると講和になってから喜んでいられるか、びっくりするかちょっと分からないですね。<br/><br/>そう出るか、あるいは東南アジア――あっちの方にもだいぶ準備してますからね。<br/><br/>そこに出るか、あるいはイラン、イラクあたりですね。<br/><br/>イランですね。<br/><br/>石油問題をきっかけにイランと提携すると、米英の方では黙ってないだろうから、そこで悶着が起る。<br/><br/>一ぺんに火をつけるかどうか、そいつは分からないが、なにしろこれからは、どうなったって本当の平和は来っこない。<br/><br/>だから停戦問題の時言ったように、戦争を引き延ばす手段だと言ったが、やっぱりそうだったんですね。<br/><br/>一時停戦して大いに準備しようという――最もあの勢いでやられてはたまらないです。<br/><br/>自分の方を立て直すために、一時やったんですね。<br/><br/>やっぱりマッカーサー元帥の作戦が光っているんですね。<br/><br/>マッカーサーの作戦は、一挙に満州を爆撃して、中共を根こそぎやっつけるというのが、反対されて覆えされたが、その作戦は私の考えと同じです。<br/><br/>今でも、その作戦は光っていますね。<br/><br/>今のやり方はちょうど蛇の生殺しですね。<br/><br/>一時的で、今度殺す時には非常に骨が折れるということになる。<br/><br/>そこで、今アメリカの方でもマッカーサーの作戦をいくらか用い始めた。<br/><br/>やはり満州爆撃もやるでしょうし、だいぶ――原子爆弾も持ってきて準備したようですが、それが共産軍の方では恐いんです。<br/><br/>それで、作戦を大いに変えなければならないんですね。<br/><br/>変えると言うと、日本ですからね。<br/><br/>だから、なかなか油断はできない。<br/><br/>それで、結局なんだかんだと言って第三次戦争になるんです。<br/><br/>ただ、それまでいろいろ波瀾がありますね。<br/><br/>アメリカの方では、極力延ばしておいて、できるだけ準備をするという方針に出てますが、これは結構ですが、その代わりソ連の方でも準備してますからね。<br/><br/>戦争は延びるだけ大きくなるということを先に言ったが、やはり神様の方は、それでなければならないわけですね。<br/><br/>今度は、本当の世界の大浄化ですから、生半可（なまはんか）では本当の世界のお浄めはできない。<br/><br/>だから、うんとお浄めするということは、うんと破壊するということですね。<br/><br/>大規模な破壊ですね。<br/><br/>それが本当のお浄めですからね。<br/><br/>打ち払い焼き払うと言うんですね。<br/><br/>だから、恐ろしくもあり、ありがたくもあるというわけですね。<br/><br/>そこで、戦争はそういう具合ですが、その他に――やはりだんだん浄化が強くなりますからね。<br/><br/>病人が非常に増えるわけですね。<br/><br/>赤痢なんか非常に多いですね。<br/><br/>やはり浄化がそれだけ強くなったわけですね。<br/><br/>信者さんなんかでも病気の浄化が強いようですが、一般の方になったらたいへんです。<br/><br/>なにしろ今の人間の体をみると、実に毒が多いですからね。<br/><br/>これはみなさんも良く知っているでしょうがね。<br/><br/>これが、一ぺんに浄化が起ったら、どうするかという状態ですね。<br/><br/>それから、社会でも悪い人間が多すぎますからね。<br/><br/>信者になった人は良いけれども、そうでない人は油断のならない人間ばかりと言って良いくらいですね。<br/><br/> 今度の「 新しき暴力 」に対して、私は 付録 を書きましたがね。<br/><br/>なにしろ、あの付録を見れば分かりますがね。<br/><br/>警察官などのやり方はとうてい信じられないですね。<br/><br/>ぜんぜん拵（こしら）え事ばかりです。<br/><br/>だから、この間の新聞にも――殺人なんですがね――あれは警察官がつくったものですね。<br/><br/>拷問同様なことしてつくったものですね。<br/><br/>それで起訴されて、一審では無罪で、検事控訴で、二審も無罪です。<br/><br/>無罪になっても疑いがあるから大いに調べると、検事が言っているが、被告の方では、検事のひどい取り調べを告訴しましたが、ああいうことを聞くと、われわれは良く分かります。<br/><br/>犯罪製造検事ですね。<br/><br/>熱心なのは確かに熱心ですね。<br/><br/>熱心なことは感心します。<br/><br/>だが、そうなってくると、平沢の事件なんかも、どうなるか分からないように思われてくるですね。<br/><br/>今もって、平沢はがんばってますが、平沢の言うことも信じられませんが、今の警察官や検事のやり方をみると、どうも平沢は――悪いことはある。<br/><br/>それは自分でも認めているが――毒殺事件、あの方はどうだか分からないというような気がしてくるんですね。<br/><br/>あんまり、そういうことは言えませんが、そういうふうに思われるほどのやり方がさかんに行なわれてますからね。<br/><br/>だから、正しくやっていれば、平沢の問題だって、無論当局を信じますが、信じられないようなやり方をするんで困ってますがね。<br/><br/> 今度の「新しき暴力」は、付録が出るんですが、あれもできるだけ世間に広めて世論をつくりたいですね。<br/><br/>今後も、罪のない人が罪にされるかも分からない。<br/><br/>そういう人を救ってやらなければならない。<br/><br/>実にかわいそうです。<br/><br/>やはり救世の意味からね。<br/><br/>悪人のために善人が苦しむということは救わなければならない。<br/><br/>救うには世間に知らさなければならない。<br/><br/>そうして、そういうやり方を改正しなければならないという意味から、宗教家としては似合わしからぬことをやった。<br/><br/>というわけではないが、今まで悪人がのさばって、善人が引っ込んで、頭を押さえられていたが、これが非常に悪い。<br/><br/>私はあくまでも、善は助けなければならないと思う。<br/><br/>大いに善を弘げて、悪人とか――悪はやっちゃいけない、しないようにする。<br/><br/>と言っても、われわれだけではなかなかだから、そうするんだという機運をつくるんです。<br/><br/>そうしなければ、本当に良い世の中はできないんです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkaetta</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 返ったリヤカー 『地上天国』3号、昭和24(1949)年4月20日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 静岡県 日本観音教天国会 渡辺清一 私等は光明如来様をお祭りさせて頂き、六人家族の内祖母、弟の外四名御守様を頂いております。<br><br> 昭和二十三年八月十六日、この日いつも留守番をしてくれる祖母が水神様のお祭りで親戚に泊り不在中の出来事です。<br><br>夜十二時頃迄確かにあったリヤカー一台が、翌十七日朝四時半頃盗まれている事に気付ました故、西の方を探して廻りましたが見付かりませんので、今では盗まれた物が出ないのは当り前と思って諦める気持になっておりましたが、妻が東の方も探して見たらと言うのでその気になり段々見てまいりますと、今度出来た東海道の新道の軟かい土の上にリヤカーの跡がはっきりついているのが見えましたので、約十五丁位行くと富士宮街道に出てしまい、その跡は遂に解らなくなりました。<br><br>その時ふと近所に友達の鈴木房吉という者のいる事を思いだし事情を話しましたところが、それは女だろうと言われ驚きました。<br><br>なお色々話を聞きますと鈴木は十六日夜親戚に泊り、朝三時半頃に身延線の踏切のところまで来ますと未だ薄暗いのに女の人がリヤカーを引いて来るので山の畑にでも行くのかと思い「早いねえ山路へ行くのかね」と言葉をかけましたが別に返事もしないので変な女だなあ位で、気にも止めずに通り過ぎましてちょっと来た時に「ガタン」という音がしたので振返って見ると線路にリヤカーの輪がはまり込んで押したり引いたりしていました。<br><br> その時道路を真直ぐ歩いて車が線路にはまる訳がないとなお見ておりますと、そのままの方向で奥村という家の庭に引込みました。<br><br>あの家はよく賭博打ちや色々の家族が四、五世帯いるがこんなに早くなんだろうと不思議に思いながら帰り、まだ早いので又一寝したところへ私が来たのでした。<br><br>早速その家の表庭へ行って見るとリヤカーはないが引込んだ跡と引出した跡がハッキリ付いているのです。<br><br>しかし突然飛込む訳にも行きませんので田村という町会議員を頼みまず隣の牧野家で様子を聞きますと、五時頃リヤカーを引出した人は大石くめ（五十才位）という女で奥村が妾のようにしているという事も解りました。<br><br>奥村の家を尋ねますと妻君は「来ない知らない」の一点張りだったが傍にいた主人が「来た。<br><br>俺は頭が悪いから時間は解らないが自分のところから百五十円の金を持って大宮の親戚へ行ったからすぐ電話します」と言って行き少時してから戻って来て、是非公にしないように内済にして貰いたい。<br><br>たとえ第三者の手に渡っていても取戻すからと、盛にあやまり今から自分が迎えに行くと子供（十三歳位）を連れて出て行きましたが、少しすると不思議に富士宮にいるべきはずの大石くめが突然帰って来まして、そのまま倒れるようにその場に眠って終いました。<br><br>聞くと大石くめはモルヒネ中毒で注射しなければ人の物も自分の物も見境なく盗りたくなり、注射すればいい気持で眠て終うそうです。<br><br>奥村の主人もやはりモヒ中毒だそうです。<br><br> 少時して気がつき色々尋ねると五軒家というところの実家にリヤカーを置いて在るというので女を自転車に乗せて行き、早速取戻させて頂きました。<br><br>ところが富士宮に行った親子がその日の内に又泥棒を働き、親子泥棒だと大変な騒ぎで人の評判では新聞にも出たとの事です。<br><br>一方大石くめは自家にその晩は泊り、又奥村の家に来て泊り込み翌朝奥村主人の物を手当り次第盗んで姿を消して終ったとの事です。<br><br>僅か二日間にかくも大きな御守護を頂き、善悪に降された賞罰を余りにもはっきりと見せて頂きただただ有難く御礼の言葉もありません。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O riquixá que retornou</h2>
 <p>Publicado em "Paraíso Terrestre", edição nº 3, de 20 de abril de 1949.
@@ -105,5 +260,48 @@ Associação Paraíso da Doutrina de Kannon – Província de Shizuoka</p>
 <p>Quando enfim despertou, nós a interrogamos, e ela confessou ter deixado o riquixá na casa de seus pais, em um bairro chamado Goken’ya. Levamo-la na garupa de uma bicicleta até o endereço indicado e, felizmente, conseguimos reaver nosso bem.</p>
 <p>Soubemos, mais tarde, que o pai e o filho que haviam partido para Fujinomiya praticaram outro furto naquele mesmo dia. O caso gerou grande comoção, sendo noticiados como "pai e filho ladrões", e, segundo rumores, a história chegou a ser publicada nos jornais. Quanto a Kume Oishi, após pernoitar em sua própria casa, retornou à residência dos Okumura. Na manhã seguinte, furtou tudo o que pôde do senhor Okumura e desapareceu sem deixar vestígios.</p>
 <p>Em um intervalo de apenas dois dias, recebemos esta imensa proteção e nos foi permitido testemunhar, de forma tão cristalina, a recompensa e a punição que recaem sobre o bem e o mal. Diante de tal evidência, faltam-me palavras para expressar a profundidade de minha gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 返ったリヤカー 『地上天国』3号、昭和24(1949)年4月20日発行 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 静岡県 日本観音教天国会 渡辺清一 私等は光明如来様をお祭りさせて頂き、六人家族の内祖母、弟の外四名御守様を頂いております。<br/><br/> 昭和二十三年八月十六日、この日いつも留守番をしてくれる祖母が水神様のお祭りで親戚に泊り不在中の出来事です。<br/><br/>夜十二時頃迄確かにあったリヤカー一台が、翌十七日朝四時半頃盗まれている事に気付ました故、西の方を探して廻りましたが見付かりませんので、今では盗まれた物が出ないのは当り前と思って諦める気持になっておりましたが、妻が東の方も探して見たらと言うのでその気になり段々見てまいりますと、今度出来た東海道の新道の軟かい土の上にリヤカーの跡がはっきりついているのが見えましたので、約十五丁位行くと富士宮街道に出てしまい、その跡は遂に解らなくなりました。<br/><br/>その時ふと近所に友達の鈴木房吉という者のいる事を思いだし事情を話しましたところが、それは女だろうと言われ驚きました。<br/><br/>なお色々話を聞きますと鈴木は十六日夜親戚に泊り、朝三時半頃に身延線の踏切のところまで来ますと未だ薄暗いのに女の人がリヤカーを引いて来るので山の畑にでも行くのかと思い「早いねえ山路へ行くのかね」と言葉をかけましたが別に返事もしないので変な女だなあ位で、気にも止めずに通り過ぎましてちょっと来た時に「ガタン」という音がしたので振返って見ると線路にリヤカーの輪がはまり込んで押したり引いたりしていました。<br/><br/> その時道路を真直ぐ歩いて車が線路にはまる訳がないとなお見ておりますと、そのままの方向で奥村という家の庭に引込みました。<br/><br/>あの家はよく賭博打ちや色々の家族が四、五世帯いるがこんなに早くなんだろうと不思議に思いながら帰り、まだ早いので又一寝したところへ私が来たのでした。<br/><br/>早速その家の表庭へ行って見るとリヤカーはないが引込んだ跡と引出した跡がハッキリ付いているのです。<br/><br/>しかし突然飛込む訳にも行きませんので田村という町会議員を頼みまず隣の牧野家で様子を聞きますと、五時頃リヤカーを引出した人は大石くめ（五十才位）という女で奥村が妾のようにしているという事も解りました。<br/><br/>奥村の家を尋ねますと妻君は「来ない知らない」の一点張りだったが傍にいた主人が「来た。<br/><br/>俺は頭が悪いから時間は解らないが自分のところから百五十円の金を持って大宮の親戚へ行ったからすぐ電話します」と言って行き少時してから戻って来て、是非公にしないように内済にして貰いたい。<br/><br/>たとえ第三者の手に渡っていても取戻すからと、盛にあやまり今から自分が迎えに行くと子供（十三歳位）を連れて出て行きましたが、少しすると不思議に富士宮にいるべきはずの大石くめが突然帰って来まして、そのまま倒れるようにその場に眠って終いました。<br/><br/>聞くと大石くめはモルヒネ中毒で注射しなければ人の物も自分の物も見境なく盗りたくなり、注射すればいい気持で眠て終うそうです。<br/><br/>奥村の主人もやはりモヒ中毒だそうです。<br/><br/> 少時して気がつき色々尋ねると五軒家というところの実家にリヤカーを置いて在るというので女を自転車に乗せて行き、早速取戻させて頂きました。<br/><br/>ところが富士宮に行った親子がその日の内に又泥棒を働き、親子泥棒だと大変な騒ぎで人の評判では新聞にも出たとの事です。<br/><br/>一方大石くめは自家にその晩は泊り、又奥村の家に来て泊り込み翌朝奥村主人の物を手当り次第盗んで姿を消して終ったとの事です。<br/><br/>僅か二日間にかくも大きな御守護を頂き、善悪に降された賞罰を余りにもはっきりと見せて頂きただただ有難く御礼の言葉もありません。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

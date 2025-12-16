@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyohu4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恐怖を除く 『光』44号、昭和25(1950)年1月7日発行 吾々の目標とするところは、常に言うごとく人類救済にあるのである、としたら、人類救済という事は一言にして言えば、人類社会から一切の恐怖を除く事である、もちろんその最大なる恐怖としては病気であり、貧困であり闘争である。<br><br> 右の三大恐怖の中その主座を占めているものは何といっても病気である、病気の恐怖ほど常に人間を脅かすものはない、何人といえども一生を通じてこの不安から全く免れるものは一人もないといってもよかろう、次に第二の恐怖としては貧乏であるが、その原因の大方は病気からであるのはもちろんで、この病気の恐怖こそはいかに文化が進歩しても減らないのみか、むしろ増しつつあるとさえ見らるる事実である、ところで今日病の原因はほとんど黴菌としているから黴菌の恐怖に至っては昔人（せきじん）には見られない程である、それがため健康診断、各種の予防注射、レントゲン写真等あらゆる手段を講じつつあり、それがため保健所や療養所、官私の病院や国立療養所、町医等々病患を防止するためのあらゆる施設は至れり尽せりと言ってもいい程で、これらに要する莫大な費用と労力は計算の出来ない程で民衆の負担もけだし容易ならぬものがあろう。<br><br> 次に貧困の恐怖であるが、この原因の最大なものは前述のごとく病気であろう、これがため個人としての療病費の多額や、罹病中の職業の放擲（ほうてき）等による損害はもとより特に患者が主人である場合、不幸の結果は遺族の生活難は免れ得ないところである、終戦後犯罪激増の大半はこれらの原因も大いにあろう、もちろんそもそもの原因が戦争のためもあるが、戦争の被害は一時的で病気の方は永久的であるにみて最も深刻性がある。<br><br> 次に戦争の恐怖もいかに大きな悩みであるかは、今現に世界人類が嘗（な）めつつある事実によっても明らかである。<br><br>というのは米ソ間の深刻な摩擦で戦争がいつ勃発するか判らない状勢にまで切迫している事である、しかも原子爆弾という空前な恐るべき武器が表われた今日としては、もし第三次戦争が始まったとしたら、人類の破滅は必至であるとさえ言う学者があるくらいだから想像に難からずで、今日人類にとってこれ程の恐怖はあるまい。<br><br> 以上の三大恐怖の解決こそ人類に与えられたる一大課題である、実に今日までの人類はあまりにも苦悩の絶間ない世界であった、この世に確かに神がありとしたら神の大愛はこのような世界をそう永く許容し給うはずはない。<br><br> 必ずやこのような苦悩の時代は打切りとなって善美なる地上天国が生れなければならないはずである、何よりもこの事を絶対確信している吾らは不動の信念をもって邁進しつつあるのである、キリストの天国は近づけりと予言された意味もこの事でなくて何であろう。<br><br> 以上の意味によって右の三大恐怖の解決こそ宗教の真の使命である事を痛感するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superação do Temor</h2>
 <p>Nosso objetivo, como sempre afirmamos, reside na salvação da humanidade. Ora, a salvação da humanidade, em poucas palavras, consiste em eliminar da sociedade todo e qualquer temor. Evidentemente, os maiores desses temores são a doença, a pobreza e o conflito.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>O temor da guerra, por sua vez, representa uma aflição de imensas proporções, fato que se torna patente pela realidade que a humanidade experimenta no presente. Refiro-me à grave tensão entre os Estados Unidos e a União Soviética, que nos levou a uma situação tão premente que a eclosão de um conflito pode ocorrer a qualquer momento. Ademais, com o surgimento da bomba atômica, uma arma de poder destrutivo sem precedentes, o início de uma terceira guerra mundial nos levaria, segundo afirmam alguns estudiosos, à aniquilação inevitável da espécie humana. Não é difícil, portanto, imaginar a dimensão desse pavor. Na atualidade, não há para a humanidade temor maior que este.</p>
 <p>A solução para esses três grandes temores constitui, pois, a tarefa suprema confiada à humanidade. Em verdade, o mundo em que os seres humanos viveram até hoje tem sido um palco de sofrimentos incessantes. Se Deus verdadeiramente existe, Seu infinito Amor não poderia permitir que um mundo assim perdurasse por muito mais tempo. É imperativo que esta era de aflições chegue ao fim para que um sublime Paraíso Terrestre possa nascer. É com base nesta certeza absoluta que nós prosseguimos em nossa jornada, movidos por uma fé inabalável. Qual outro poderia ser o significado da profecia de Cristo, ao anunciar que "o Reino dos Céus está próximo"?</p>
 <p>Por todas essas razões, compreendemos profundamente que a verdadeira missão da religião é, precisamente, solucionar esses três grandes temores.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恐怖を除く 『光』44号、昭和25(1950)年1月7日発行 吾々の目標とするところは、常に言うごとく人類救済にあるのである、としたら、人類救済という事は一言にして言えば、人類社会から一切の恐怖を除く事である、もちろんその最大なる恐怖としては病気であり、貧困であり闘争である。<br/><br/> 右の三大恐怖の中その主座を占めているものは何といっても病気である、病気の恐怖ほど常に人間を脅かすものはない、何人といえども一生を通じてこの不安から全く免れるものは一人もないといってもよかろう、次に第二の恐怖としては貧乏であるが、その原因の大方は病気からであるのはもちろんで、この病気の恐怖こそはいかに文化が進歩しても減らないのみか、むしろ増しつつあるとさえ見らるる事実である、ところで今日病の原因はほとんど黴菌としているから黴菌の恐怖に至っては昔人（せきじん）には見られない程である、それがため健康診断、各種の予防注射、レントゲン写真等あらゆる手段を講じつつあり、それがため保健所や療養所、官私の病院や国立療養所、町医等々病患を防止するためのあらゆる施設は至れり尽せりと言ってもいい程で、これらに要する莫大な費用と労力は計算の出来ない程で民衆の負担もけだし容易ならぬものがあろう。<br/><br/> 次に貧困の恐怖であるが、この原因の最大なものは前述のごとく病気であろう、これがため個人としての療病費の多額や、罹病中の職業の放擲（ほうてき）等による損害はもとより特に患者が主人である場合、不幸の結果は遺族の生活難は免れ得ないところである、終戦後犯罪激増の大半はこれらの原因も大いにあろう、もちろんそもそもの原因が戦争のためもあるが、戦争の被害は一時的で病気の方は永久的であるにみて最も深刻性がある。<br/><br/> 次に戦争の恐怖もいかに大きな悩みであるかは、今現に世界人類が嘗（な）めつつある事実によっても明らかである。<br/><br/>というのは米ソ間の深刻な摩擦で戦争がいつ勃発するか判らない状勢にまで切迫している事である、しかも原子爆弾という空前な恐るべき武器が表われた今日としては、もし第三次戦争が始まったとしたら、人類の破滅は必至であるとさえ言う学者があるくらいだから想像に難からずで、今日人類にとってこれ程の恐怖はあるまい。<br/><br/> 以上の三大恐怖の解決こそ人類に与えられたる一大課題である、実に今日までの人類はあまりにも苦悩の絶間ない世界であった、この世に確かに神がありとしたら神の大愛はこのような世界をそう永く許容し給うはずはない。<br/><br/> 必ずやこのような苦悩の時代は打切りとなって善美なる地上天国が生れなければならないはずである、何よりもこの事を絶対確信している吾らは不動の信念をもって邁進しつつあるのである、キリストの天国は近づけりと予言された意味もこの事でなくて何であろう。<br/><br/> 以上の意味によって右の三大恐怖の解決こそ宗教の真の使命である事を痛感するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

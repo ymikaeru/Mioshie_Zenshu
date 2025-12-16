@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hanzai1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 犯罪増加と其解決策 『地上天国』2号、昭和24(1949)年3月1日発行 終戦後犯罪の殖えたことは驚くべきものがある。<br><br>今その数字を左に表わしてみよう（昭和二十三年十二月二十日読売新聞記事による）。<br><br> 「大まかな数字をあげると、窃盗の有罪人数は太平洋戦争前後の昭十六、七年は一年間に一万五千人あまりであったが、戦後の二十年九月から二十一年八月までの一年間は五万四千人あまり、二十一年九月から二十二年八月までの一年間は七万四千人あまりになっている。<br><br>約五倍の増加である。<br><br>強盗についてはその殖え方が窃盗より一層顕著である。<br><br>十六、七年は一年間に三百人あまりであったが、二十年九月から二十一年八月までの一年間は一千人あまり、二十一年九月から二十二年八月までの一年間は七千八百人あまりになった。<br><br>十六、七年と二十二年とでは二十五倍の増加である。<br><br>」 以上によってみても明らかであるが、この原因として新聞紙その他の論評をみれば、そのほとんどが戦争後の犯罪増加は世界共通の現象であり、物資不足による生活難、復員者のための人口増加等にあるというが全くその通りで間違いはないが、しかしそれらは実は末梢的のもののみで、その根本に重大主因があることに気付かないのである。<br><br>今その主因なるものを書いてみよう。<br><br> 犯罪者が犯罪を行なう場合について深く検討してみる時、彼らは人の眼を巧妙に避ける。<br><br>つまり人の眼に触れさえしなければ隠しおおせるという心理で、これが窃盗者の考えであるから万一見破〔ら〕れたが最後、どうしても相手を殺害することになり犯行を暗に葬ろうとする。<br><br>これが強盗の心理であることは無数の実例によるも明らかである。<br><br>そうしてこの考え方は何が原因であるかというと、全く宗教信念がないからで恐らく現代日本の社会くらい信仰心の稀薄な時代はかつてなかったであろう。<br><br>しからばなぜ右のような信仰稀薄時代が招来されたかを知る必要がある。<br><br> 日本軍閥が相当以前から戦争準備をしていた事は今日明らかとなったが、もちろん物質的には国防国家と称し平和産業をして漸次軍需工業に切換える一方、青年に対する軍事教練のごときも至れり尽せるの観があった。<br><br>それ以外宗教の圧迫に乗り出し、持に新宗教に対しては無差別的に断〔弾〕圧し、当時の新聞紙を賑わした事はいまだ記憶に新なるところである。<br><br>そうしてこの事はどういう訳かというと、いかなる宗教といえども宗教と名のつく以上平和主義であり、無抵抗主義が建前であるから、その思想なるものは侵略戦争の場合およそ有害となり邪魔となる。<br><br>この理由によって闘争心を大いに鼓吹しなければならない。<br><br>それにはまず宗教心を大いに引抜く必要がある。<br><br>特に青年層ほどしかりであるからそのため当時の軍閥が笛を吹き太鼓を叩いたことは当然のことであった。<br><br>これがため闘争心どころではない、残虐性にまで発展した事が今日の世相の因をなした事で、彼の犯罪者が復員者に多い事実はそれを雄弁に物語っている。<br><br> 以上の意味において現社会に呼吸している青年層は実に災いなるかなである。<br><br>見よ、彼ら青年が叩き込まれたところの忠君愛国思想は崩壊し、貴重なる生命を捧げて勝利に向かって突進さしたその指導者等が、今日のごとき惨めな運命に墜落したる以上、彼らが欺瞞されたという憤激と復員者に対する国民感情の冷たさ、生活苦等々の諸因によって遂に懐疑に陥り、社会を呪い、自暴自棄的になるという事は一面同情すべき点も多分にあるのである。<br><br>といってもただ同情だけでは解決とはならない。<br><br>宣しく強力なる指導者が出て彼らの前途に光明を与え、生きることの喜びを示してこそ真の解決であることはもちろんである。<br><br> 本教団が今現に行ないつつある宗教活動はこの点を重視し、相当の成果をあげつつあるのである。<br><br>それは本教団に入信した人の意外に思うことは青年信者が大部分を占めていることで彼ら青年は異口同音に前述のごとく指導精神を失い、なんらか力強い納得のゆく宗教意欲に燃えているので、一度本教の教義を知るや探し求めていたものはこれなるかなと、あたかも暗夜に灯火を得たごとく入信するのである。<br><br>もちろんその喜びは非常なもので、ここに熱烈なる信仰者となり良青年と一変するのである。<br><br>しかも見えざる神仏の力の表現としての奇蹟に遇い、衷心より信ぜざるを得ないことになり、真に救われるのである。<br><br>この意味においていかなる教育も道徳も、この見えざるものを信ずるという一事がなければ骨抜き以外の何物でもないといえよう。<br><br> 以上説くところによって現在激増せる犯罪を防止する方法は、真の宗教以外にないことを知るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Aumento da Criminalidade e sua Solução</h2>
 <p>É verdadeiramente assombroso o aumento da criminalidade observado desde o fim da guerra. Apresentemos os dados a seguir, extraídos de uma matéria do jornal Yomiuri Shimbun de 20 de dezembro de 1948:</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>A atividade religiosa que nossa Igreja desenvolve no presente momento atribui especial importância a essa questão e já vem colhendo resultados significativos. Um fato que surpreende os recém-ingressos em nossa fé é que a maioria esmagadora de nossos membros é composta por jovens. Em uníssono, esses jovens relatam ter perdido seu norte espiritual, como mencionado anteriormente, e ardiam em anseio por uma religião que lhes oferecesse convicção e força. Ao tomarem contato com os ensinamentos de nossa Igreja, reconhecem neles o que tanto buscavam e ingressam na fé como quem encontra uma luz em meio à noite escura. A alegria que sentem é imensa, transformando-os em fiéis fervorosos e em jovens de bem.</p>
 <p>Ademais, ao vivenciarem os milagres — manifestações do poder invisível de Deus —, eles são levados a crer do fundo do coração, encontrando a verdadeira salvação. Nesse sentido, podemos afirmar que qualquer educação ou código moral, desprovido da crença nesse poder invisível, nada mais é que uma estrutura vazia, sem alma.</p>
 <p>Pelo que foi exposto, torna-se claro que não há outro caminho para conter o alarmante aumento da criminalidade senão por meio da verdadeira religião.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 犯罪増加と其解決策 『地上天国』2号、昭和24(1949)年3月1日発行 終戦後犯罪の殖えたことは驚くべきものがある。<br/><br/>今その数字を左に表わしてみよう（昭和二十三年十二月二十日読売新聞記事による）。<br/><br/> 「大まかな数字をあげると、窃盗の有罪人数は太平洋戦争前後の昭十六、七年は一年間に一万五千人あまりであったが、戦後の二十年九月から二十一年八月までの一年間は五万四千人あまり、二十一年九月から二十二年八月までの一年間は七万四千人あまりになっている。<br/><br/>約五倍の増加である。<br/><br/>強盗についてはその殖え方が窃盗より一層顕著である。<br/><br/>十六、七年は一年間に三百人あまりであったが、二十年九月から二十一年八月までの一年間は一千人あまり、二十一年九月から二十二年八月までの一年間は七千八百人あまりになった。<br/><br/>十六、七年と二十二年とでは二十五倍の増加である。<br/><br/>」 以上によってみても明らかであるが、この原因として新聞紙その他の論評をみれば、そのほとんどが戦争後の犯罪増加は世界共通の現象であり、物資不足による生活難、復員者のための人口増加等にあるというが全くその通りで間違いはないが、しかしそれらは実は末梢的のもののみで、その根本に重大主因があることに気付かないのである。<br/><br/>今その主因なるものを書いてみよう。<br/><br/> 犯罪者が犯罪を行なう場合について深く検討してみる時、彼らは人の眼を巧妙に避ける。<br/><br/>つまり人の眼に触れさえしなければ隠しおおせるという心理で、これが窃盗者の考えであるから万一見破〔ら〕れたが最後、どうしても相手を殺害することになり犯行を暗に葬ろうとする。<br/><br/>これが強盗の心理であることは無数の実例によるも明らかである。<br/><br/>そうしてこの考え方は何が原因であるかというと、全く宗教信念がないからで恐らく現代日本の社会くらい信仰心の稀薄な時代はかつてなかったであろう。<br/><br/>しからばなぜ右のような信仰稀薄時代が招来されたかを知る必要がある。<br/><br/> 日本軍閥が相当以前から戦争準備をしていた事は今日明らかとなったが、もちろん物質的には国防国家と称し平和産業をして漸次軍需工業に切換える一方、青年に対する軍事教練のごときも至れり尽せるの観があった。<br/><br/>それ以外宗教の圧迫に乗り出し、持に新宗教に対しては無差別的に断〔弾〕圧し、当時の新聞紙を賑わした事はいまだ記憶に新なるところである。<br/><br/>そうしてこの事はどういう訳かというと、いかなる宗教といえども宗教と名のつく以上平和主義であり、無抵抗主義が建前であるから、その思想なるものは侵略戦争の場合およそ有害となり邪魔となる。<br/><br/>この理由によって闘争心を大いに鼓吹しなければならない。<br/><br/>それにはまず宗教心を大いに引抜く必要がある。<br/><br/>特に青年層ほどしかりであるからそのため当時の軍閥が笛を吹き太鼓を叩いたことは当然のことであった。<br/><br/>これがため闘争心どころではない、残虐性にまで発展した事が今日の世相の因をなした事で、彼の犯罪者が復員者に多い事実はそれを雄弁に物語っている。<br/><br/> 以上の意味において現社会に呼吸している青年層は実に災いなるかなである。<br/><br/>見よ、彼ら青年が叩き込まれたところの忠君愛国思想は崩壊し、貴重なる生命を捧げて勝利に向かって突進さしたその指導者等が、今日のごとき惨めな運命に墜落したる以上、彼らが欺瞞されたという憤激と復員者に対する国民感情の冷たさ、生活苦等々の諸因によって遂に懐疑に陥り、社会を呪い、自暴自棄的になるという事は一面同情すべき点も多分にあるのである。<br/><br/>といってもただ同情だけでは解決とはならない。<br/><br/>宣しく強力なる指導者が出て彼らの前途に光明を与え、生きることの喜びを示してこそ真の解決であることはもちろんである。<br/><br/> 本教団が今現に行ないつつある宗教活動はこの点を重視し、相当の成果をあげつつあるのである。<br/><br/>それは本教団に入信した人の意外に思うことは青年信者が大部分を占めていることで彼ら青年は異口同音に前述のごとく指導精神を失い、なんらか力強い納得のゆく宗教意欲に燃えているので、一度本教の教義を知るや探し求めていたものはこれなるかなと、あたかも暗夜に灯火を得たごとく入信するのである。<br/><br/>もちろんその喜びは非常なもので、ここに熱烈なる信仰者となり良青年と一変するのである。<br/><br/>しかも見えざる神仏の力の表現としての奇蹟に遇い、衷心より信ぜざるを得ないことになり、真に救われるのである。<br/><br/>この意味においていかなる教育も道徳も、この見えざるものを信ずるという一事がなければ骨抜き以外の何物でもないといえよう。<br/><br/> 以上説くところによって現在激増せる犯罪を防止する方法は、真の宗教以外にないことを知るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

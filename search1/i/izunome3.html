@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>izunome3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,59 +440,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伊都能売の身魂 『地上天国』35号、昭和27(1952)年4月25日発行 私は今まで幾度となく、伊都能売（いづのめ）の身魂の事を言ったり記いたりしたが、余程難しいと見えて、真に行える人は何程もないようである。<br><br>ところが決してそう難しいものではない。<br><br>根本が判って習性にしてしまえば案外容易に実行出来るものである。<br><br>実行出来ないというのは、非常に難しいと思うその先入観念のためである。<br><br>と共にそれ程重要な事と思っていない点もあるように思うから、幾度もかかない訳にはゆかないのである。<br><br> 伊都能売とは一言にしていえば、偏らない主義で、中道を行く事である。<br><br>小乗に非ず大乗に非ず、といって小乗であり、大乗であるという意味である。<br><br>つまり極端に走らず、矢鱈（やたら）に決めてしまわない事である。<br><br>そうかといって決めるべきものはもちろん決めなくてはならないが、その判別が難しいと言えばいえるので、言わば料理のようなもので、甘すぎていけず、辛すぎてもいけないというちょうど良い味である。<br><br>これはまた気候にも言える。<br><br>暑からず寒からずという彼岸頃の陽気で、この頃が一番快いのである。<br><br>というように人間の心の持方も行いも、そういうようになれば、第一人から好かれ、万事旨くゆくのは当然である。<br><br>ところが今日の人間はどうかというと、実に偏りたがる。<br><br>これがよく表われているのが彼の政治面であろう。<br><br>今日右派とか左派とかいって、初めから偏した主義を標榜している。<br><br>従って物の考え方が極端で、しかも我が強いと来ているから、年中争いが絶えない。<br><br>という訳でこれが国家人民に大いにマイナスとなるのである。<br><br>この意味によって政治といえども伊都能売式でなくてはならないのは当然だが、そこに気の付く政治家も政党も仲々出そうもないらしい。<br><br>何となれば吾々に近寄るまでになり得る人はまことに寥々（りょうりょう）たる有様であるからで、また戦争の原因もそうで、この両極端の主義を通そうとする思想から生まれるその結果である事はもちろんである。<br><br> そうして信仰上の争いもよく検討してみると、ヤハリ小乗と大乗、すなわち感情と理性との相違からである。<br><br>だからその場合、経の棒を半分短かくし、緯の棒も半分縮めれば一致するから、円満に解決出来るのである。<br><br>従ってよく考えてみれば仲直りも大して難しいものではないのである。<br><br>それについてこういう事もよくある。<br><br> すなわちいかなる方面にも保守派と進歩派が必ずあって、宗教でもそうである。<br><br>この二者の争いを観ると、前者は古い信者で伝統墨守（ぼくしゅ）的頑（かたく）なで、新しい事を嫌う、まず丁髷（ちょんまげ）信仰ともいえるが、後者の方は進歩的ではあるが、新しさに偏して何事も古きを排斥したがる。<br><br>そこに意見の不一致が起り、相争う事になるが、これらも伊都能売式になれば何なく解決出来るのである。<br><br>そうして肝腎な事は宗教といえども、時代精神を深く知る事である。<br><br>ところが宗教人はどうも時代に無関心で、むしろこれをよいとさえしている傾向が強い。<br><br>何百何千年前の伝統を金科玉条としている。<br><br>なるほど信仰は精神的なもので、経であり、永久不変の真理であるから、曲げられないのはいいが、経綸の方はそうはゆかない。<br><br>これは物質面であるから、時代相応に変遷するのが本当である。<br><br>すなわち精神物質両方の完全な働きで、すなわちどこまでも伊都能売式で行かなくてはならない。<br><br> 右の意味において、今日釈迦やキリストの時代と同じように思って、その教えややり方をそのまま実行しても、現代人の魂を掴む事は到底出来ないのは言うまでもない。<br><br>既成宗教の振わないのもその点にある事を知らねばならない。<br><br>要するに伊都能売の働きこそ、一切の根本的真理である事が分ればいいので私が常に伊都能売の意義を説諭するのもそのためである事を、信者諸君は充分心得て貰いたいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Espírito de Izunome</h2>
 <p>Revista "Paraíso Terrestre", nº 35, 25 de abril de 1952</p>
@@ -100,5 +450,48 @@ function toggleLang(lang) {
 <p>De igual modo, ao analisarmos detidamente as disputas no campo da fé, percebemos que elas também derivam da divergência entre o Pequeno e o Grande Veículo, ou seja, do conflito entre a emoção e a razão. Em tais situações, se cada lado cedesse metade de sua posição, o ponto de encontro seria alcançado, possibilitando uma resolução pacífica. Portanto, refletindo-se com atenção, a reconciliação não se revela uma tarefa tão árdua. A esse respeito, é comum observarmos o seguinte fenômeno.</p>
 <p>Com efeito, em qualquer esfera, invariavelmente existem as correntes conservadora e progressista, e a religião não é exceção. A primeira é composta por fiéis mais antigos, apegados de forma rígida à tradição e avessos a inovações — poderíamos classificá-la como uma fé anacrônica. A segunda, embora progressista, pende para o extremo da novidade, buscando rechaçar tudo o que é antigo. É nesse ponto que surgem as discordâncias e se instalam os conflitos. Contudo, também essas querelas podem ser facilmente solucionadas pelo método de Izunome. O mais crucial, mesmo no âmbito religioso, é compreender profundamente o espírito de cada época. No entanto, os religiosos demonstram, em geral, uma forte tendência à indiferença em relação aos tempos atuais, chegando a considerar tal postura como algo positivo. Tratam tradições de centenas ou milhares de anos como dogmas inabaláveis. É verdade que a fé, por sua natureza espiritual, constitui o eixo vertical, a verdade imutável que não pode ser alterada. Todavia, o mesmo não se aplica à Providência Divina. Esta, por pertencer à esfera material, deve naturalmente transmutar-se conforme a época. Em outras palavras, é na atuação perfeita e conjunta do espírito e da matéria que o princípio de Izunome deve ser invariavelmente aplicado.</p>
 <p>Sob essa ótica, é desnecessário dizer que, se pensarmos que os dias de hoje são idênticos à era de Buda ou de Cristo e tentarmos aplicar seus ensinamentos e práticas de forma literal, será absolutamente impossível cativar a alma do homem moderno. É preciso reconhecer que a estagnação das religiões estabelecidas reside precisamente neste ponto. Em suma, basta que se compreenda que a atuação de Izunome é, em si, a verdade fundamental que rege todas as coisas. É por essa razão que eu sempre me dedico a elucidar o significado de Izunome, e desejo que todos os fiéis o compreendam em sua total profundidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 伊都能売の身魂 『地上天国』35号、昭和27(1952)年4月25日発行 私は今まで幾度となく、伊都能売（いづのめ）の身魂の事を言ったり記いたりしたが、余程難しいと見えて、真に行える人は何程もないようである。<br/><br/>ところが決してそう難しいものではない。<br/><br/>根本が判って習性にしてしまえば案外容易に実行出来るものである。<br/><br/>実行出来ないというのは、非常に難しいと思うその先入観念のためである。<br/><br/>と共にそれ程重要な事と思っていない点もあるように思うから、幾度もかかない訳にはゆかないのである。<br/><br/> 伊都能売とは一言にしていえば、偏らない主義で、中道を行く事である。<br/><br/>小乗に非ず大乗に非ず、といって小乗であり、大乗であるという意味である。<br/><br/>つまり極端に走らず、矢鱈（やたら）に決めてしまわない事である。<br/><br/>そうかといって決めるべきものはもちろん決めなくてはならないが、その判別が難しいと言えばいえるので、言わば料理のようなもので、甘すぎていけず、辛すぎてもいけないというちょうど良い味である。<br/><br/>これはまた気候にも言える。<br/><br/>暑からず寒からずという彼岸頃の陽気で、この頃が一番快いのである。<br/><br/>というように人間の心の持方も行いも、そういうようになれば、第一人から好かれ、万事旨くゆくのは当然である。<br/><br/>ところが今日の人間はどうかというと、実に偏りたがる。<br/><br/>これがよく表われているのが彼の政治面であろう。<br/><br/>今日右派とか左派とかいって、初めから偏した主義を標榜している。<br/><br/>従って物の考え方が極端で、しかも我が強いと来ているから、年中争いが絶えない。<br/><br/>という訳でこれが国家人民に大いにマイナスとなるのである。<br/><br/>この意味によって政治といえども伊都能売式でなくてはならないのは当然だが、そこに気の付く政治家も政党も仲々出そうもないらしい。<br/><br/>何となれば吾々に近寄るまでになり得る人はまことに寥々（りょうりょう）たる有様であるからで、また戦争の原因もそうで、この両極端の主義を通そうとする思想から生まれるその結果である事はもちろんである。<br/><br/> そうして信仰上の争いもよく検討してみると、ヤハリ小乗と大乗、すなわち感情と理性との相違からである。<br/><br/>だからその場合、経の棒を半分短かくし、緯の棒も半分縮めれば一致するから、円満に解決出来るのである。<br/><br/>従ってよく考えてみれば仲直りも大して難しいものではないのである。<br/><br/>それについてこういう事もよくある。<br/><br/> すなわちいかなる方面にも保守派と進歩派が必ずあって、宗教でもそうである。<br/><br/>この二者の争いを観ると、前者は古い信者で伝統墨守（ぼくしゅ）的頑（かたく）なで、新しい事を嫌う、まず丁髷（ちょんまげ）信仰ともいえるが、後者の方は進歩的ではあるが、新しさに偏して何事も古きを排斥したがる。<br/><br/>そこに意見の不一致が起り、相争う事になるが、これらも伊都能売式になれば何なく解決出来るのである。<br/><br/>そうして肝腎な事は宗教といえども、時代精神を深く知る事である。<br/><br/>ところが宗教人はどうも時代に無関心で、むしろこれをよいとさえしている傾向が強い。<br/><br/>何百何千年前の伝統を金科玉条としている。<br/><br/>なるほど信仰は精神的なもので、経であり、永久不変の真理であるから、曲げられないのはいいが、経綸の方はそうはゆかない。<br/><br/>これは物質面であるから、時代相応に変遷するのが本当である。<br/><br/>すなわち精神物質両方の完全な働きで、すなわちどこまでも伊都能売式で行かなくてはならない。<br/><br/> 右の意味において、今日釈迦やキリストの時代と同じように思って、その教えややり方をそのまま実行しても、現代人の魂を掴む事は到底出来ないのは言うまでもない。<br/><br/>既成宗教の振わないのもその点にある事を知らねばならない。<br/><br/>要するに伊都能売の働きこそ、一切の根本的真理である事が分ればいいので私が常に伊都能売の意義を説諭するのもそのためである事を、信者諸君は充分心得て貰いたいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

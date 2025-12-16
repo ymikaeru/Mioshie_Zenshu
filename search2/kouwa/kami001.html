@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神解明篇 １ 001-012 神 001 神の栄枯、一流と一流以下の神の栄枯、 人と生れた神生れぬ神、主神と太陽の人体化 神様でも出世したり落ちたりする。<br><br>今迄日本で一番高かった神様は落ちた。<br><br>下にいた神が上った。<br><br>神でも落ちぶれたのがあり、浪人がある。<br><br>それは二流三流の神で、一流の神は全然ない事はないが滅多にない。<br><br>有為転変は免れぬ。<br><br> 神には人間に生れた神と生れぬ神がある。<br><br>天之御中主大御神は人間に生れぬ。<br><br>表現として人間に生れたものはある。<br><br>その点決められぬ理屈がある。<br><br> 太陽は人間の姿として表われる。<br><br>太陽は人間でもあり、人間といってもいい。<br><br>どっちとも決められぬ。<br><br>（S22.11.14） 002 太霊無極の生誕、高級霊.八百万神.低級霊の再転生 高級霊より低級霊の方が転生の率が多いでしょうか。<br><br>八百万の神は肉体を持って現世に出られる事があるでしょうか。<br><br> 低級霊の方が多い。<br><br>高級霊は少ない。<br><br>霊界に長くいる。<br><br>ズーッと高級霊になると生れ替る執着はない。<br><br>生れ替って来ても、何千年に一遍位生れるようになる。<br><br>低級霊は執着が強い。<br><br>執着がとれると高級霊になる。<br><br>浄化不足のまま生れるから欠陥が種種ある。<br><br>高級霊は殆んど生れない。<br><br>肉体の姿で霊界にいる。<br><br> 極く中心の太霊無極は未だ生れぬ。<br><br>表現は生れた。<br><br>八百万神は全部人間には生れている。<br><br> 003 神様最初の御姿 神様が人体化される前は龍体で御座いましたのでしょうか。<br><br> 最初から人体とか龍体である。<br><br>東洋は龍体から造られた。<br><br>外人は別に造られた。<br><br>この二通りある。<br><br>大抵の神は、幾度か人間に生れた。<br><br>それで人体として表現される事もある。<br><br>神であり、人間でありという事になる。<br><br>（S24.11.2） 004 神々の御姿 神代の神々は現代の人間と同じ様な肉体を御持ちになっておられたもので御座居ましょうか。<br><br>また神々の外に人間が住んでいたもので御座居ましょうか。<br><br> 人間の姿と同じであった。<br><br>ただ今の人より大きい。<br><br>一番大きい時は一丈八尺あった。<br><br>よほど小さくなって一丈から八、九尺位である。<br><br>しかし、再び大きくなる。<br><br>今よりはズーッと大きくなる。<br><br>一番の原因は薬を飲んだためである。<br><br>大先生の御子様は年頃になられるとズーッと大きくなられる。<br><br>人間の中に神代、上中下があり、例えば日本人でも、上は土着の日本人だし、中間帯は渡来した人間で、多くは朝鮮人、支那人である。<br><br>下は土人で川上梟（たける）、長髄彦（ながすねひこ）とか、熊襲（くまそ）等である。<br><br>これは北方から来た。<br><br>コーカサス、蒙古あたりのもので、要するに匪賊で、この残りがアイヌである。<br><br>肉体のすべては神と人間と少しも違わぬ。<br><br>（S24. 1.29） 005 神の愛 神の愛について御教え下さい。<br><br> 限定された愛、忠君愛国主義――国家愛、天皇を重んずるは――。<br><br> 神の愛は世界人類全部を幸福にさす無限の愛である。<br><br>神にもいろいろあり、日本の神は小さい神、第三、五流位の神は限られた愛である。<br><br>大先生の仕事は人類愛で、無限に大きい。<br><br>これが本当のものである。<br><br> 利己愛を次にする。<br><br>自分は天国に救われたいというのが利己愛で、人を天国へ救わなければならぬ、これが神の愛である。<br><br>すると自己が救われる。<br><br>利他愛でなくてはならぬ。<br><br>（S23.12.18） 006 神愛と人愛 神の愛と人間の愛とは違うでしょうか。<br><br> 愛は同じであるが、神の愛は大きく、人間は小さい。<br><br>世界人類を愛するのが神で、人間の愛は小さい局限的で、自分達の仲間とか、小さいのは親子兄弟などのみを愛する。<br><br>自分の一家さえよければよい、他を顧みぬ――これが人間愛である。<br><br>神といえば全部大きい訳でもない。<br><br>大きい神様は世界的大きい愛であるが、神様によっては小さい。<br><br>一国のみを良くしようとする。<br><br>日本の侵略戦争などそうである。<br><br> 人間でも、世界人類を愛する気持なら神の心になる。<br><br> （S24.10.23） 007 不在中の神床、（懐しく慕わし）、神は感情に支配されぬ 開拓に出ている間の仏壇の屏風観音様及び先祖の位牌はどうしたらいいでしょうか。<br><br>留守宅には誰もいなくて、お参りする者がありません。<br><br> 留守になるからとおことわりすればよい。<br><br>神様は感情に支配されぬ。<br><br>神様は怖いものではない。<br><br>懐しい、慕わしいのが本当である。<br><br>人間は、感情のため理屈を無視するものである。<br><br>（S24.11.18） 008 神々化仏とならるる事情、神の怒り 夜の世界においては神としての救いは出来ない。<br><br>神様は仏となって救われた。<br><br>神の中には仏にならぬ方もあったのは、神格によるのもあり、その神の御意志によるものもある。<br><br>八大龍王のごとく、自分は仏になるのも嫌だから龍神になろうという神もあった。<br><br>そんな風でなく、救いのためにはどうしても仏になろうという神もあり、種々で、神様によって各々任意に処されたのである。<br><br> 神様といっても人間の心持と同じ事であって、感情もあり理性もある。<br><br>神の御性質も種々違っており、怒りっぽい神や穏やかな神もある。<br><br>怒りっぽいといっても、神の場合は多くの人を救う意味で怒られるので、人間の怒るのとは違う。<br><br> 四魂の中でも荒魂（あらみたま）があり、怒りを多分に含んでいる。<br><br>怒りも大乗的に怒るのは差支えないどころか必要である。<br><br>とかく家庭内や個人の事で怒るからいけないのである。<br><br> 善い事であっても、世界的にいって善い事でなくては本当でない。<br><br>忠君愛国といっても世界的のそれならいいが、日本的にのみ善い思想はいけない。<br><br>（S23. 8. 4） 009 神のお喜び 観音様に上げるお花はどこに御参拝しても人の方に向けて活けてありますが、観音様の方に向けて活けた方がよろしいのではないでしょうか。<br><br>また生花、盛花、投入れ等のうちいずれの活け方が良いのでしょうか。<br><br> 人間が喜ぶ事を神様はお喜びになる。<br><br>皆わが子であるから、神を拝む人が多くなれば、悪い事をする人はないから、そういう状態をお喜びになる。<br><br>（S24. 6. 7） 010 神に二言なし（天理教脅迫） 近所の天理教布教師の方が私の再縁の妻に対し、あなたの夫は妻に絶対服従しなければならない。<br><br>そして、天理教を信じないでいると、夫である私の目がつぶれてしまいますとか、顔を見ただけでその家族の過去の事を言い当てられるので、半信半疑、恐ろしがっています。<br><br>どうしたらよいでしょう。<br><br>お教え下さい。<br><br> 絶対にこんな事はない。<br><br>脅迫信仰は皆邪神で、恐るるに足らぬ。<br><br>かくのごとくに脅かすのは本人がむしろ同様な目に遇う。<br><br> 神は二言ない。<br><br>一言しかおっしゃらぬものである。<br><br>高級なほどそうである。<br><br>しつっこいのは皆本当のものでない。<br><br> rattail（注） 〔 御光話（S24年8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 011 神智と妙智 神智は男性的、妙智は女性的という意味―― 男の智は厳しく、女の智は穏やかである。<br><br>また、観音力は男であり、妙智力は女である。<br><br> 男は秋であり、女は春である。<br><br> 012 神と願言 神様というものは、お願いする事の正しい事は必ずお聞き届けにならねばならない事になっている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Elucidação sobre Deus (Ensinamentos 001-012)</h2>
 <p><strong>001 A ascensão e a queda dos deuses; deuses que nasceram como seres humanos e os que não nasceram; a personificação de Deus Primordial e do Sol</strong></p>
@@ -142,5 +294,48 @@ function toggleLang(lang) {
 <p>O homem é o outono; a mulher é a primavera.</p>
 <p><strong>012 Deus e as súplicas</strong></p>
 <p>A natureza de Deus é tal que Ele tem por desígnio atender a toda súplica que seja justa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神解明篇 １ 001-012 神 001 神の栄枯、一流と一流以下の神の栄枯、 人と生れた神生れぬ神、主神と太陽の人体化 神様でも出世したり落ちたりする。<br/><br/>今迄日本で一番高かった神様は落ちた。<br/><br/>下にいた神が上った。<br/><br/>神でも落ちぶれたのがあり、浪人がある。<br/><br/>それは二流三流の神で、一流の神は全然ない事はないが滅多にない。<br/><br/>有為転変は免れぬ。<br/><br/> 神には人間に生れた神と生れぬ神がある。<br/><br/>天之御中主大御神は人間に生れぬ。<br/><br/>表現として人間に生れたものはある。<br/><br/>その点決められぬ理屈がある。<br/><br/> 太陽は人間の姿として表われる。<br/><br/>太陽は人間でもあり、人間といってもいい。<br/><br/>どっちとも決められぬ。<br/><br/>（S22.11.14） 002 太霊無極の生誕、高級霊.八百万神.低級霊の再転生 高級霊より低級霊の方が転生の率が多いでしょうか。<br/><br/>八百万の神は肉体を持って現世に出られる事があるでしょうか。<br/><br/> 低級霊の方が多い。<br/><br/>高級霊は少ない。<br/><br/>霊界に長くいる。<br/><br/>ズーッと高級霊になると生れ替る執着はない。<br/><br/>生れ替って来ても、何千年に一遍位生れるようになる。<br/><br/>低級霊は執着が強い。<br/><br/>執着がとれると高級霊になる。<br/><br/>浄化不足のまま生れるから欠陥が種種ある。<br/><br/>高級霊は殆んど生れない。<br/><br/>肉体の姿で霊界にいる。<br/><br/> 極く中心の太霊無極は未だ生れぬ。<br/><br/>表現は生れた。<br/><br/>八百万神は全部人間には生れている。<br/><br/> 003 神様最初の御姿 神様が人体化される前は龍体で御座いましたのでしょうか。<br/><br/> 最初から人体とか龍体である。<br/><br/>東洋は龍体から造られた。<br/><br/>外人は別に造られた。<br/><br/>この二通りある。<br/><br/>大抵の神は、幾度か人間に生れた。<br/><br/>それで人体として表現される事もある。<br/><br/>神であり、人間でありという事になる。<br/><br/>（S24.11.2） 004 神々の御姿 神代の神々は現代の人間と同じ様な肉体を御持ちになっておられたもので御座居ましょうか。<br/><br/>また神々の外に人間が住んでいたもので御座居ましょうか。<br/><br/> 人間の姿と同じであった。<br/><br/>ただ今の人より大きい。<br/><br/>一番大きい時は一丈八尺あった。<br/><br/>よほど小さくなって一丈から八、九尺位である。<br/><br/>しかし、再び大きくなる。<br/><br/>今よりはズーッと大きくなる。<br/><br/>一番の原因は薬を飲んだためである。<br/><br/>大先生の御子様は年頃になられるとズーッと大きくなられる。<br/><br/>人間の中に神代、上中下があり、例えば日本人でも、上は土着の日本人だし、中間帯は渡来した人間で、多くは朝鮮人、支那人である。<br/><br/>下は土人で川上梟（たける）、長髄彦（ながすねひこ）とか、熊襲（くまそ）等である。<br/><br/>これは北方から来た。<br/><br/>コーカサス、蒙古あたりのもので、要するに匪賊で、この残りがアイヌである。<br/><br/>肉体のすべては神と人間と少しも違わぬ。<br/><br/>（S24. 1.29） 005 神の愛 神の愛について御教え下さい。<br/><br/> 限定された愛、忠君愛国主義――国家愛、天皇を重んずるは――。<br/><br/> 神の愛は世界人類全部を幸福にさす無限の愛である。<br/><br/>神にもいろいろあり、日本の神は小さい神、第三、五流位の神は限られた愛である。<br/><br/>大先生の仕事は人類愛で、無限に大きい。<br/><br/>これが本当のものである。<br/><br/> 利己愛を次にする。<br/><br/>自分は天国に救われたいというのが利己愛で、人を天国へ救わなければならぬ、これが神の愛である。<br/><br/>すると自己が救われる。<br/><br/>利他愛でなくてはならぬ。<br/><br/>（S23.12.18） 006 神愛と人愛 神の愛と人間の愛とは違うでしょうか。<br/><br/> 愛は同じであるが、神の愛は大きく、人間は小さい。<br/><br/>世界人類を愛するのが神で、人間の愛は小さい局限的で、自分達の仲間とか、小さいのは親子兄弟などのみを愛する。<br/><br/>自分の一家さえよければよい、他を顧みぬ――これが人間愛である。<br/><br/>神といえば全部大きい訳でもない。<br/><br/>大きい神様は世界的大きい愛であるが、神様によっては小さい。<br/><br/>一国のみを良くしようとする。<br/><br/>日本の侵略戦争などそうである。<br/><br/> 人間でも、世界人類を愛する気持なら神の心になる。<br/><br/> （S24.10.23） 007 不在中の神床、（懐しく慕わし）、神は感情に支配されぬ 開拓に出ている間の仏壇の屏風観音様及び先祖の位牌はどうしたらいいでしょうか。<br/><br/>留守宅には誰もいなくて、お参りする者がありません。<br/><br/> 留守になるからとおことわりすればよい。<br/><br/>神様は感情に支配されぬ。<br/><br/>神様は怖いものではない。<br/><br/>懐しい、慕わしいのが本当である。<br/><br/>人間は、感情のため理屈を無視するものである。<br/><br/>（S24.11.18） 008 神々化仏とならるる事情、神の怒り 夜の世界においては神としての救いは出来ない。<br/><br/>神様は仏となって救われた。<br/><br/>神の中には仏にならぬ方もあったのは、神格によるのもあり、その神の御意志によるものもある。<br/><br/>八大龍王のごとく、自分は仏になるのも嫌だから龍神になろうという神もあった。<br/><br/>そんな風でなく、救いのためにはどうしても仏になろうという神もあり、種々で、神様によって各々任意に処されたのである。<br/><br/> 神様といっても人間の心持と同じ事であって、感情もあり理性もある。<br/><br/>神の御性質も種々違っており、怒りっぽい神や穏やかな神もある。<br/><br/>怒りっぽいといっても、神の場合は多くの人を救う意味で怒られるので、人間の怒るのとは違う。<br/><br/> 四魂の中でも荒魂（あらみたま）があり、怒りを多分に含んでいる。<br/><br/>怒りも大乗的に怒るのは差支えないどころか必要である。<br/><br/>とかく家庭内や個人の事で怒るからいけないのである。<br/><br/> 善い事であっても、世界的にいって善い事でなくては本当でない。<br/><br/>忠君愛国といっても世界的のそれならいいが、日本的にのみ善い思想はいけない。<br/><br/>（S23. 8. 4） 009 神のお喜び 観音様に上げるお花はどこに御参拝しても人の方に向けて活けてありますが、観音様の方に向けて活けた方がよろしいのではないでしょうか。<br/><br/>また生花、盛花、投入れ等のうちいずれの活け方が良いのでしょうか。<br/><br/> 人間が喜ぶ事を神様はお喜びになる。<br/><br/>皆わが子であるから、神を拝む人が多くなれば、悪い事をする人はないから、そういう状態をお喜びになる。<br/><br/>（S24. 6. 7） 010 神に二言なし（天理教脅迫） 近所の天理教布教師の方が私の再縁の妻に対し、あなたの夫は妻に絶対服従しなければならない。<br/><br/>そして、天理教を信じないでいると、夫である私の目がつぶれてしまいますとか、顔を見ただけでその家族の過去の事を言い当てられるので、半信半疑、恐ろしがっています。<br/><br/>どうしたらよいでしょう。<br/><br/>お教え下さい。<br/><br/> 絶対にこんな事はない。<br/><br/>脅迫信仰は皆邪神で、恐るるに足らぬ。<br/><br/>かくのごとくに脅かすのは本人がむしろ同様な目に遇う。<br/><br/> 神は二言ない。<br/><br/>一言しかおっしゃらぬものである。<br/><br/>高級なほどそうである。<br/><br/>しつっこいのは皆本当のものでない。<br/><br/> rattail（注） 〔 御光話（S24年8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 011 神智と妙智 神智は男性的、妙智は女性的という意味―― 男の智は厳しく、女の智は穏やかである。<br/><br/>また、観音力は男であり、妙智力は女である。<br/><br/> 男は秋であり、女は春である。<br/><br/> 012 神と願言 神様というものは、お願いする事の正しい事は必ずお聞き届けにならねばならない事になっている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syujut02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術・総論 未発表『文明の創造』昭和27(1952)年執筆 総論 私はこれまで病気に対し、詳細に直接的解説を与えて来たから、病気なるものの真原因と、既成医学がいかに誤っているかが分ったであろうが、まだ知らなければならない点が種々あるから、これからあらゆる角度から医学の実体を検討し、解剖してみようと思うのである。<br><br> 手術 近来、医学は進歩したといい、取り分け手術の進歩を誇称しているが、私から見ればこれ程の間違いはあるまい。<br><br>考えるまでもなく、手術が進歩したという事は、実は医学が進歩しないという事になる。<br><br>というと不思議に思うであろうが、手術とは言うまでもなく、病に冒された機能を除去する手段であって、病そのものを除去する手段ではない。<br><br>判り易く言えば、病気とその機能とは密接な関係はあるが本質は異（ちが）っている。<br><br>従って真の医学とは病だけを除って、機能は元のままでなくてはならないはずである。<br><br>ところが医学がいかに進歩したといっても、病のみを除り去る事が不可能であるから、止むを得ず二義的手段として、機能をもあわせて除去してしまうのであるから、この事を考えただけでも、手術の進歩とは、医学の無力を表白する以外の何物でもない事が分るであろう。<br><br>こんな分り切った理屈でさえ気がつかないとしたら、今日までの医学者は驚くべき迷蒙に陥っていたのである。<br><br>従って何としても大いに覚醒して、初めからやり直すより外あるまい。<br><br>すなわち医学の再出発である。<br><br>ところが今日までその意味を発見した者がなかったがため、盲目的に邪道を驀進（ばくしん）してきたのであるから、何年経っても人類は、病気苦悩から解放されないにみて明らかであろう。<br><br> 以上の意味において考えてみる時、手術の進歩とは、医術の進歩ではなく、技術の進歩でしかない事が分るであろう。<br><br>そしてなお深く考えて貰いたい事は、造物主すなわち神が造られた万物中最高傑作品としての人間であるとしたら、仮にも神として人体を創造する場合、五臓六腑も、胃も、筋肉も、皮膚も、何も彼も無駄なものは一つも造られていないはずである。<br><br>これは常識で考えても分るであろう。<br><br>ところが驚くべし、二十世紀に入るや、人間の形はしているが、神以上の生物が現れた。<br><br>その生物はいわく、人体内には種々な不要物がある、盲腸も、片方の腎臓も、卵巣も、扁桃腺もそうであるから、そんな物は切って除ってしまう方がいい。<br><br>そうすればそれに関した病気はなくなるから安心ではないか、と言って得々として、メスを振っては切り除ってしまうのである。<br><br>何と素晴らしい超人的、否超神的存在ではなかろうか。<br><br>ところが不思議なるかな、この大胆極まる暴力に対し、現代人は無批判どころか、随喜の涙をこぼしている。<br><br>しかも、人民はおろか、各国の政府までも有難がって、これこそ文化の偉大なる進歩であると心酔し、援助し奨励までしているのであるから、その無智蒙昧さは何と言っていいか言葉はないのである。<br><br>としたらこの現実を見らるる流石の造物主も、呆れて唖然とされ給うと察せらるるのである。<br><br>そうして右の超神的生物こそ、誰あろう近代医学者という人間である。<br><br>としたら全く彼らの人間を見る眼が強度の近視眼にかかっており、近くの唯物科学だけが見えて、その先にある黄金の宝物が見えないのであろう。<br><br> しかし私は、唯物科学を敢（あ）えて非難する者ではない。<br><br>人類はこれによって、いかに大なる恩恵を蒙り、今後といえども蒙るかは、最大級の讃辞を捧げても足りないくらいである。<br><br>といって何も彼もそう考える事が早計であって、唯物科学にも自ずから分野があり、越えてはならない境界線がある。<br><br>ではそれは何かというと、有機物も無機物も同一視する単純な考え方では、駄目であるという事である。<br><br>つまり唯物科学は、生物である人間も他の動物も、無生物である鉱物や植物とを混同している錯覚である。<br><br>というのは本来動物なるものは無生物ではないから、唯物科学の分野に入れてはならないにかかわらず、どう間違えたものか、入れてしまった事である。<br><br>これが根本的誤謬で、それによって進歩して来た医学であってみれば、手術という人体を無生物扱いにするやり方も当然であろう。<br><br>またこういう点も見逃す事が出来ない。<br><br>それは唯物科学の進歩が、余りに素晴しかったため、何も彼もこれによって解決出来るものと信じてしまった科学至上主義である。<br><br>ところが実際上動物はそうはゆかない。<br><br>なるほど医学によって、一時的には効果はあるようだが、根本が誤っている以上、真の効果が挙らないにもかかわらず、それに気付かず、相変らず邪道を進みつつあるのである。<br><br> そうして右のごとく私は生物と無生物の関係を大体かいて来たが、今一層掘下げて見れば生物の中でも人間と他の動物とを同一視してはならない事である。<br><br>といってもこれは根本的ではないが、相当の異いさがある。<br><br>たとえば人間に対（むか）って結核といえば直に神経を起し、悪化したり、死を早めるが、牛の結核を牛に言っても何ら影響もないのである。<br><br>従ってモルモットや二十日鼠を研究して人間に応用しても決して良い結果は得られないのである。<br><br> ここで前に戻って、再び手術について筆を進めるが、なるほど一時手術によって、治ったとしても、それで本当に治ったのではないから、暫くすると必ず何らかの病気が発生するが、医学ではその原因に気が付かないのである。<br><br>そんな訳で手術後の先には余り関心を持たないのである。<br><br>しかし考えてもみるがいい。<br><br>体内の重要機能を除去したとすれば、言わば体内的不具者となるのであるから、全然影響のないはずはない。<br><br>たとえば外的不具者で足一本、手一本どころか、指一本、否指の頭だけ欠損しても、その不自由さは一生涯の悩みの種である。<br><br>いわんや内的不具者においてをやである。<br><br>しかも外的不具者なら、生命に関係はないが、内的のそれは生命に至大の関係があるのは当然である。<br><br>例えば盲腸の手術で、虫様突起を失うとすればどうなるであろうか。<br><br>元来盲腸なるものは、重要な役目をもっている。<br><br>それは人間の背部一面に溜った毒素が、一旦右側腎臓部に溜って固結し、少しずつ盲腸部に移行固結するが、ある程度に達するや急激な浄化が起り、発熱、痛み等が発生し、溶解された毒素は下痢となって排除され、それで治るのであるから、実に結構に出来ている。<br><br>ところがおかしいのは、この際医師は手遅れになると大変だから、一刻も早く手術せよというが、このような事は絶対ないので、手遅れになる程反って治る可能性が多くなる。<br><br>これは理屈ではない、私は何人もそのようにしたが、一人の間違いもなかったのである。<br><br>むしろ手術のため不幸になった例はときたま聞くのである。<br><br> また盲腸炎潜伏を知るのは訳はない。<br><br>医学でもいう通り、臍から右側斜めに一、二寸くらいの辺を指で押すと痛みがあるから直ぐ判る。<br><br>しかし原因はその奥にあるので、盲腸部だけの浄霊では全部の痛みは除れない。<br><br>盲腸炎の場合、右側腎臓部を指で探ると必ず固結があり、押すと痛むからそこを浄霊するや、たちまち無痛となり全治するのである。<br><br>治るまでに早ければ十数分遅くとも三、四十分くらいであって、間もなく下痢があり、それで済んでしまうので、再発等は決してない。<br><br>としたら何と素晴らしい治病法ではなかろうか。<br><br>ところが医学では手術の苦痛も費用も、並大抵ではない。<br><br>その上不具とされ、運の悪い人は手術の跡の傷が容易に治らず、数年かかる者さえある。<br><br>希には手術のため生命を失う者さえあるのだから、我浄霊と比較したら、その異いさは野蛮と文明よりもはなはだしいと言えよう。<br><br>ところが手術によって盲腸炎は治ったとしても、それだけでは済まない。<br><br>前述のごとく盲腸なる機能は、背部一面の毒素の排泄機関であるから、それが失くなった以上、毒素は出口がないから、大部分は腹膜に溜ると共に、腎臓部の固結も大きさを増すから、それがまた腎臓部を圧迫し、腹膜炎に拍車をかける事になる。<br><br>これが主なる悪影響であるが、その他の個所にも溜るのみか、手術後腹力や握力が弱り、持久力や粘り強さなども薄くなり、性欲も減退する。<br><br>これなどは体験者の知るところであろう。<br><br> 次は腎臓剔出であるが、この手術は腎臓結核の場合であって、痛みや血尿があるので、そう決められ剔出するが、この成績も面白くない。<br><br>大抵は何かしら故障が起る。<br><br>その中で一番困るのは、残っている一つの腎臓は二つの負胆を負わされるから、病気が起り易いと供に、剔出する事も出来ず、どうしていいのか判らないという惨めな人もよくある。<br><br>というのは誰しも保有毒素が相当あるから、残った腎臓へ溜結するのである。<br><br>その外全身的には弱体化し、歩行にも困難があり、腰を捻ったり、正坐すら出来ない人もあって、まず半分廃人である。<br><br>ところが最初から浄霊によれば、手も触れずして簡単に全治するのである。<br><br> 次は胃癌の手術であるが、これも仲々厄介である。<br><br>これについて遺憾に思う事は、切開して見ると、癌が見当らないという過失をよく聞くが、患者は全く災難である。<br><br>幸い予定通り切り除っても、大抵は時日が経つと僅かでも残った癌が広がってゆき、再度の手術をするようになるが、三度目になると不可能で、最早致命的である。<br><br>そうして手術が成功しても、縮小した胃と腸と繋ぎ合すので、食物も少しずつ何回も摂らねばならず、しかも医学の統計によれば、手術後の寿命は平均二年半とされている。<br><br>それについて医学はこういうのである。<br><br>どうせ半年か一年で死ぬべものを、手術によって一年でも二年でも延びるとしたら、それだけ有利ではないかと。<br><br>なるほどその通りにゆけばいいが、事実は放っておけば三年も五年も生きられるものを、手術のために縮められる例を、私は幾人となく経験したのである。<br><br>また医学は癌の治療にラジウムの放射をするが、これは反って悪化する。<br><br>というのはラジウムは癌を破壊すると共に組織までも破壊してしまうからである。<br><br> 右の解説は真症胃癌についてであるが、実は真症は少なく、大部分は擬似胃癌であり、擬似はもちろん薬毒が原因である。<br><br>それは薬の性質によるが、一旦吸収された薬は、時を経て毒に変化し胃へ還元し固まる。<br><br>それが癌とされるのであるから、これは浄霊によれば非常に衰弱していない限り、必ず治るのである。<br><br> 右の外卵巣除去、乳癌の手術、中耳炎、瘍疔（ようちょう）、眼科、肋膜炎の穿孔、痔疾、横痃（よこね）、睾丸炎、ひょう疽、脱疽、整形外科手術等々種々あるが、これらも大同小異であるから略すが、ここに二、三の書き残しをかいてみよう。<br><br>それは各種の腫物であるが、これは手術をせず放っておけば、腫れるだけ腫れて自然に穴が穿き、そこから血膿が出て完全に治ってしまうものである。<br><br>ところが患者は痛みに堪え兼ねるので、医療は早く治そうとして手術するが、これが大変な誤りである。<br><br>というのは手術にも時期がある。<br><br>充分腫れてからなら左程の事もないが、そうならない内に行うと、今まで一か所に集中していた膿は、その運動を止めてしまい、他の近接部へ腫れ出すのである。<br><br>これは手術どころか、ちょっと針で穴を穿けたくらいでも、ヤハリ集溜が停止されるので、これは知っておくべき重要事である。<br><br>これについてこういう例があった。<br><br>以前私は頼まれて某外科病院へ行った事がある。<br><br>患者は四十歳くらいの男子で、よく訊いてみると、初め頸部淋巴腺に鶉（うずら）の卵くらいの腫物が出来た。<br><br>早速医者へ往って穴を穿け、膿を出して貰うと、間もなくお隣へ同じような腫物が出来た、それを切るとまたお隣へ出来る、という具合で、ついには反対側の方にも出来、それも次々切ったり出したりする内、ついには腫物の数珠（じゅず）繋ぎとなって、私を招んだのである。<br><br>そんな訳で外部には腫れる場所がなくなったので、今度は内側へ腫れ出した。<br><br>ちょうどその時であったので、私といえどもどうする事も出来ず、断って辞したが、その後数日を経て、咽喉が腫れ塞がり、窒息で死んだとの知らせがあった。<br><br>これらは全く手術のための犠牲者である。<br><br>というのは最初腫物が出来た時、放っておけば段々腫れて、恐らく赤子の頭くらいに大きくなったであろうが、それでも放っておけば、終（つい）には真ッ赤にブヨブヨになって穴が穿き、多量の血膿が出て、完全に治ってしまい、痕跡も残らないのである。<br><br> 次は、近来一部の医師で、脳の手術をするが、これらはもちろん癲癇（てんかん）とか、脳疾患等の場合行うのであるが、これは何らの効果もない。<br><br>なぜなれば頭脳の機質性病患でなく、精神的のものであるからで、つまり霊的原因である。<br><br>これについては霊の項目に詳記するから、ここでは略する事とする。<br><br>次は近頃流行の結核に関する手術療法で、これは肋骨を切り除ったり、空洞のある患者には、合成樹脂の玉を入れたり、横隔膜を手術したりするが、これらは一時的効果で、反って後は悪いのである。<br><br>要するに再三言う通り、手術なるものは、いかに有害無益なものであるかは、医学が一層進歩すれば分るはずであるから、最初に述べたごとく手術のごとき、野蛮的方法は、是非全廃して貰いたいのである。<br><br> (注) 横痃（よこね）両足の付け根のリンパ節が炎症を起して腫れたもの。<br><br>梅毒など性病が原因で起るものが多い。<br><br>便毒。<br><br>横痃（おうげん）。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise Crítica sobre a Cirurgia</h2>
 <p>Até o presente momento, dediquei-me a oferecer uma elucidação detalhada e direta sobre as enfermidades, de modo que a causa primordial das doenças e os equívocos da medicina estabelecida já devem ter se tornado evidentes. Todavia, como ainda há diversos pontos que precisam ser compreendidos, proponho-me, a partir de agora, a examinar e dissecar a realidade da prática médica sob todas as suas perspectivas.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Recentemente, alguns médicos têm realizado cirurgias cerebrais em casos de epilepsia e outras doenças do cérebro. Tais procedimentos, no entanto, não produzem qualquer efeito. A razão é que essas não são doenças de natureza orgânica do cérebro, mas sim de ordem mental, ou seja, de causa espiritual. Este assunto será detalhado no capítulo sobre o espírito, motivo pelo qual o omitirei aqui.</p>
 <p>Há também a terapia cirúrgica para a tuberculose, que se tornou popular ultimamente. Nela, removem-se costelas, inserem-se esferas de resina sintética nas cavidades pulmonares ou opera-se o diafragma. Todos esses métodos produzem apenas um efeito temporário e, em longo prazo, pioram a condição do paciente.</p>
 <p>Em suma, como afirmei reiteradamente, a cirurgia é um procedimento prejudicial e desprovido de real utilidade. À medida que a medicina avançar verdadeiramente, essa realidade se tornará evidente. Portanto, e em consonância com o que expus no início, é imperativo que um método tão bárbaro como a cirurgia seja por completo abolido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術・総論 未発表『文明の創造』昭和27(1952)年執筆 総論 私はこれまで病気に対し、詳細に直接的解説を与えて来たから、病気なるものの真原因と、既成医学がいかに誤っているかが分ったであろうが、まだ知らなければならない点が種々あるから、これからあらゆる角度から医学の実体を検討し、解剖してみようと思うのである。<br/><br/> 手術 近来、医学は進歩したといい、取り分け手術の進歩を誇称しているが、私から見ればこれ程の間違いはあるまい。<br/><br/>考えるまでもなく、手術が進歩したという事は、実は医学が進歩しないという事になる。<br/><br/>というと不思議に思うであろうが、手術とは言うまでもなく、病に冒された機能を除去する手段であって、病そのものを除去する手段ではない。<br/><br/>判り易く言えば、病気とその機能とは密接な関係はあるが本質は異（ちが）っている。<br/><br/>従って真の医学とは病だけを除って、機能は元のままでなくてはならないはずである。<br/><br/>ところが医学がいかに進歩したといっても、病のみを除り去る事が不可能であるから、止むを得ず二義的手段として、機能をもあわせて除去してしまうのであるから、この事を考えただけでも、手術の進歩とは、医学の無力を表白する以外の何物でもない事が分るであろう。<br/><br/>こんな分り切った理屈でさえ気がつかないとしたら、今日までの医学者は驚くべき迷蒙に陥っていたのである。<br/><br/>従って何としても大いに覚醒して、初めからやり直すより外あるまい。<br/><br/>すなわち医学の再出発である。<br/><br/>ところが今日までその意味を発見した者がなかったがため、盲目的に邪道を驀進（ばくしん）してきたのであるから、何年経っても人類は、病気苦悩から解放されないにみて明らかであろう。<br/><br/> 以上の意味において考えてみる時、手術の進歩とは、医術の進歩ではなく、技術の進歩でしかない事が分るであろう。<br/><br/>そしてなお深く考えて貰いたい事は、造物主すなわち神が造られた万物中最高傑作品としての人間であるとしたら、仮にも神として人体を創造する場合、五臓六腑も、胃も、筋肉も、皮膚も、何も彼も無駄なものは一つも造られていないはずである。<br/><br/>これは常識で考えても分るであろう。<br/><br/>ところが驚くべし、二十世紀に入るや、人間の形はしているが、神以上の生物が現れた。<br/><br/>その生物はいわく、人体内には種々な不要物がある、盲腸も、片方の腎臓も、卵巣も、扁桃腺もそうであるから、そんな物は切って除ってしまう方がいい。<br/><br/>そうすればそれに関した病気はなくなるから安心ではないか、と言って得々として、メスを振っては切り除ってしまうのである。<br/><br/>何と素晴らしい超人的、否超神的存在ではなかろうか。<br/><br/>ところが不思議なるかな、この大胆極まる暴力に対し、現代人は無批判どころか、随喜の涙をこぼしている。<br/><br/>しかも、人民はおろか、各国の政府までも有難がって、これこそ文化の偉大なる進歩であると心酔し、援助し奨励までしているのであるから、その無智蒙昧さは何と言っていいか言葉はないのである。<br/><br/>としたらこの現実を見らるる流石の造物主も、呆れて唖然とされ給うと察せらるるのである。<br/><br/>そうして右の超神的生物こそ、誰あろう近代医学者という人間である。<br/><br/>としたら全く彼らの人間を見る眼が強度の近視眼にかかっており、近くの唯物科学だけが見えて、その先にある黄金の宝物が見えないのであろう。<br/><br/> しかし私は、唯物科学を敢（あ）えて非難する者ではない。<br/><br/>人類はこれによって、いかに大なる恩恵を蒙り、今後といえども蒙るかは、最大級の讃辞を捧げても足りないくらいである。<br/><br/>といって何も彼もそう考える事が早計であって、唯物科学にも自ずから分野があり、越えてはならない境界線がある。<br/><br/>ではそれは何かというと、有機物も無機物も同一視する単純な考え方では、駄目であるという事である。<br/><br/>つまり唯物科学は、生物である人間も他の動物も、無生物である鉱物や植物とを混同している錯覚である。<br/><br/>というのは本来動物なるものは無生物ではないから、唯物科学の分野に入れてはならないにかかわらず、どう間違えたものか、入れてしまった事である。<br/><br/>これが根本的誤謬で、それによって進歩して来た医学であってみれば、手術という人体を無生物扱いにするやり方も当然であろう。<br/><br/>またこういう点も見逃す事が出来ない。<br/><br/>それは唯物科学の進歩が、余りに素晴しかったため、何も彼もこれによって解決出来るものと信じてしまった科学至上主義である。<br/><br/>ところが実際上動物はそうはゆかない。<br/><br/>なるほど医学によって、一時的には効果はあるようだが、根本が誤っている以上、真の効果が挙らないにもかかわらず、それに気付かず、相変らず邪道を進みつつあるのである。<br/><br/> そうして右のごとく私は生物と無生物の関係を大体かいて来たが、今一層掘下げて見れば生物の中でも人間と他の動物とを同一視してはならない事である。<br/><br/>といってもこれは根本的ではないが、相当の異いさがある。<br/><br/>たとえば人間に対（むか）って結核といえば直に神経を起し、悪化したり、死を早めるが、牛の結核を牛に言っても何ら影響もないのである。<br/><br/>従ってモルモットや二十日鼠を研究して人間に応用しても決して良い結果は得られないのである。<br/><br/> ここで前に戻って、再び手術について筆を進めるが、なるほど一時手術によって、治ったとしても、それで本当に治ったのではないから、暫くすると必ず何らかの病気が発生するが、医学ではその原因に気が付かないのである。<br/><br/>そんな訳で手術後の先には余り関心を持たないのである。<br/><br/>しかし考えてもみるがいい。<br/><br/>体内の重要機能を除去したとすれば、言わば体内的不具者となるのであるから、全然影響のないはずはない。<br/><br/>たとえば外的不具者で足一本、手一本どころか、指一本、否指の頭だけ欠損しても、その不自由さは一生涯の悩みの種である。<br/><br/>いわんや内的不具者においてをやである。<br/><br/>しかも外的不具者なら、生命に関係はないが、内的のそれは生命に至大の関係があるのは当然である。<br/><br/>例えば盲腸の手術で、虫様突起を失うとすればどうなるであろうか。<br/><br/>元来盲腸なるものは、重要な役目をもっている。<br/><br/>それは人間の背部一面に溜った毒素が、一旦右側腎臓部に溜って固結し、少しずつ盲腸部に移行固結するが、ある程度に達するや急激な浄化が起り、発熱、痛み等が発生し、溶解された毒素は下痢となって排除され、それで治るのであるから、実に結構に出来ている。<br/><br/>ところがおかしいのは、この際医師は手遅れになると大変だから、一刻も早く手術せよというが、このような事は絶対ないので、手遅れになる程反って治る可能性が多くなる。<br/><br/>これは理屈ではない、私は何人もそのようにしたが、一人の間違いもなかったのである。<br/><br/>むしろ手術のため不幸になった例はときたま聞くのである。<br/><br/> また盲腸炎潜伏を知るのは訳はない。<br/><br/>医学でもいう通り、臍から右側斜めに一、二寸くらいの辺を指で押すと痛みがあるから直ぐ判る。<br/><br/>しかし原因はその奥にあるので、盲腸部だけの浄霊では全部の痛みは除れない。<br/><br/>盲腸炎の場合、右側腎臓部を指で探ると必ず固結があり、押すと痛むからそこを浄霊するや、たちまち無痛となり全治するのである。<br/><br/>治るまでに早ければ十数分遅くとも三、四十分くらいであって、間もなく下痢があり、それで済んでしまうので、再発等は決してない。<br/><br/>としたら何と素晴らしい治病法ではなかろうか。<br/><br/>ところが医学では手術の苦痛も費用も、並大抵ではない。<br/><br/>その上不具とされ、運の悪い人は手術の跡の傷が容易に治らず、数年かかる者さえある。<br/><br/>希には手術のため生命を失う者さえあるのだから、我浄霊と比較したら、その異いさは野蛮と文明よりもはなはだしいと言えよう。<br/><br/>ところが手術によって盲腸炎は治ったとしても、それだけでは済まない。<br/><br/>前述のごとく盲腸なる機能は、背部一面の毒素の排泄機関であるから、それが失くなった以上、毒素は出口がないから、大部分は腹膜に溜ると共に、腎臓部の固結も大きさを増すから、それがまた腎臓部を圧迫し、腹膜炎に拍車をかける事になる。<br/><br/>これが主なる悪影響であるが、その他の個所にも溜るのみか、手術後腹力や握力が弱り、持久力や粘り強さなども薄くなり、性欲も減退する。<br/><br/>これなどは体験者の知るところであろう。<br/><br/> 次は腎臓剔出であるが、この手術は腎臓結核の場合であって、痛みや血尿があるので、そう決められ剔出するが、この成績も面白くない。<br/><br/>大抵は何かしら故障が起る。<br/><br/>その中で一番困るのは、残っている一つの腎臓は二つの負胆を負わされるから、病気が起り易いと供に、剔出する事も出来ず、どうしていいのか判らないという惨めな人もよくある。<br/><br/>というのは誰しも保有毒素が相当あるから、残った腎臓へ溜結するのである。<br/><br/>その外全身的には弱体化し、歩行にも困難があり、腰を捻ったり、正坐すら出来ない人もあって、まず半分廃人である。<br/><br/>ところが最初から浄霊によれば、手も触れずして簡単に全治するのである。<br/><br/> 次は胃癌の手術であるが、これも仲々厄介である。<br/><br/>これについて遺憾に思う事は、切開して見ると、癌が見当らないという過失をよく聞くが、患者は全く災難である。<br/><br/>幸い予定通り切り除っても、大抵は時日が経つと僅かでも残った癌が広がってゆき、再度の手術をするようになるが、三度目になると不可能で、最早致命的である。<br/><br/>そうして手術が成功しても、縮小した胃と腸と繋ぎ合すので、食物も少しずつ何回も摂らねばならず、しかも医学の統計によれば、手術後の寿命は平均二年半とされている。<br/><br/>それについて医学はこういうのである。<br/><br/>どうせ半年か一年で死ぬべものを、手術によって一年でも二年でも延びるとしたら、それだけ有利ではないかと。<br/><br/>なるほどその通りにゆけばいいが、事実は放っておけば三年も五年も生きられるものを、手術のために縮められる例を、私は幾人となく経験したのである。<br/><br/>また医学は癌の治療にラジウムの放射をするが、これは反って悪化する。<br/><br/>というのはラジウムは癌を破壊すると共に組織までも破壊してしまうからである。<br/><br/> 右の解説は真症胃癌についてであるが、実は真症は少なく、大部分は擬似胃癌であり、擬似はもちろん薬毒が原因である。<br/><br/>それは薬の性質によるが、一旦吸収された薬は、時を経て毒に変化し胃へ還元し固まる。<br/><br/>それが癌とされるのであるから、これは浄霊によれば非常に衰弱していない限り、必ず治るのである。<br/><br/> 右の外卵巣除去、乳癌の手術、中耳炎、瘍疔（ようちょう）、眼科、肋膜炎の穿孔、痔疾、横痃（よこね）、睾丸炎、ひょう疽、脱疽、整形外科手術等々種々あるが、これらも大同小異であるから略すが、ここに二、三の書き残しをかいてみよう。<br/><br/>それは各種の腫物であるが、これは手術をせず放っておけば、腫れるだけ腫れて自然に穴が穿き、そこから血膿が出て完全に治ってしまうものである。<br/><br/>ところが患者は痛みに堪え兼ねるので、医療は早く治そうとして手術するが、これが大変な誤りである。<br/><br/>というのは手術にも時期がある。<br/><br/>充分腫れてからなら左程の事もないが、そうならない内に行うと、今まで一か所に集中していた膿は、その運動を止めてしまい、他の近接部へ腫れ出すのである。<br/><br/>これは手術どころか、ちょっと針で穴を穿けたくらいでも、ヤハリ集溜が停止されるので、これは知っておくべき重要事である。<br/><br/>これについてこういう例があった。<br/><br/>以前私は頼まれて某外科病院へ行った事がある。<br/><br/>患者は四十歳くらいの男子で、よく訊いてみると、初め頸部淋巴腺に鶉（うずら）の卵くらいの腫物が出来た。<br/><br/>早速医者へ往って穴を穿け、膿を出して貰うと、間もなくお隣へ同じような腫物が出来た、それを切るとまたお隣へ出来る、という具合で、ついには反対側の方にも出来、それも次々切ったり出したりする内、ついには腫物の数珠（じゅず）繋ぎとなって、私を招んだのである。<br/><br/>そんな訳で外部には腫れる場所がなくなったので、今度は内側へ腫れ出した。<br/><br/>ちょうどその時であったので、私といえどもどうする事も出来ず、断って辞したが、その後数日を経て、咽喉が腫れ塞がり、窒息で死んだとの知らせがあった。<br/><br/>これらは全く手術のための犠牲者である。<br/><br/>というのは最初腫物が出来た時、放っておけば段々腫れて、恐らく赤子の頭くらいに大きくなったであろうが、それでも放っておけば、終（つい）には真ッ赤にブヨブヨになって穴が穿き、多量の血膿が出て、完全に治ってしまい、痕跡も残らないのである。<br/><br/> 次は、近来一部の医師で、脳の手術をするが、これらはもちろん癲癇（てんかん）とか、脳疾患等の場合行うのであるが、これは何らの効果もない。<br/><br/>なぜなれば頭脳の機質性病患でなく、精神的のものであるからで、つまり霊的原因である。<br/><br/>これについては霊の項目に詳記するから、ここでは略する事とする。<br/><br/>次は近頃流行の結核に関する手術療法で、これは肋骨を切り除ったり、空洞のある患者には、合成樹脂の玉を入れたり、横隔膜を手術したりするが、これらは一時的効果で、反って後は悪いのである。<br/><br/>要するに再三言う通り、手術なるものは、いかに有害無益なものであるかは、医学が一層進歩すれば分るはずであるから、最初に述べたごとく手術のごとき、野蛮的方法は、是非全廃して貰いたいのである。<br/><br/> (注) 横痃（よこね）両足の付け根のリンパ節が炎症を起して腫れたもの。<br/><br/>梅毒など性病が原因で起るものが多い。<br/><br/>便毒。<br/><br/>横痃（おうげん）。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

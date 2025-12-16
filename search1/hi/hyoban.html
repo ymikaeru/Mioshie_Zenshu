@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hyoban</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,61 +239,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 評判と感情 『栄光』232号、昭和28(1953)年10月28日発行 この評判の善い悪いという事は、人間の運命に案外関係があるのは人の知るところである。<br><br>世間よくアノ人は評判が好いから信用が出来るとか、悪いから気をつけろなどという事が、その人の運命にいかに影響するか分らない程であろう。<br><br>もちろん評判の好いに越した事はないが、これが信仰上にも大いに関係するものであるから、それをかいてみよう。<br><br>というのはこの事を邪神は最も利用するもので、本教なども今までにその意味で狙われたものである。<br><br>その手段として言論機関を利用したり、悪い噂を蒔（ま）いて評判を悪くしようとする。<br><br>これがため本教発展の上に少からず影響を受けるのであるから、この事は中々油断は出来ない。<br><br>特に個人の場合大いに心すべきである。<br><br>何といっても人間は感情に左右されるもので、小さな事でも感情を害（そこ）ねる事が案外不利益で、それには我を通さない事である。<br><br>つまり相手のいう事が少々間違っていても、それに合槌を打ってやる雅量である。<br><br>また何事も勝とうと思わないで負けてやる事で、負けるが勝というのはいい言葉である。<br><br>私はいつもその方針にしているが、結果は反（かえ）っていいものである。<br><br> しかしただ負けるといっても、たまには負けられない事情もあるが、これは別で滅多にはない。<br><br>まず十中八、九は負けた方が得となる。<br><br>彼（か）のキリストが十字架に懸けられる直前“吾世に勝てり”といったのは、この真理を教えたものであろう。<br><br>私の長い年月の経験からいっても負けて負けてともかく今日のようになったのである。<br><br>ところが人間という者は勝ちたい心が一パイで、負けてなるものかと思うのは誰しもだが、そこを反対に考えればいいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reputação e Sentimento</h2>
 <p>É de conhecimento geral que a reputação, seja ela boa ou má, exerce uma influência surpreendente sobre o destino humano. No cotidiano, é comum ouvirmos dizer: “Aquela pessoa tem boa reputação, portanto, é digna de confiança” ou “A reputação dele é péssima, é preciso ter cautela”. A dimensão do impacto que tais julgamentos exercem sobre o destino de um indivíduo é praticamente imensurável. Evidentemente, ter uma boa reputação é sempre preferível, mas o que desejo abordar é a profunda relação que este assunto possui com a vida de fé.</p>
 <p>A razão disso é que os Espíritos Malignos exploram essa dinâmica com maestria, e nossa Igreja, ao longo de sua história, tem sido alvo de suas artimanhas. Seus métodos incluem a manipulação dos meios de comunicação e a disseminação de boatos maldosos, com o intuito de manchar nossa reputação. Em consequência, o progresso de nossa Obra Divina sofre um impacto considerável, o que nos obriga a permanecer vigilantes. Em âmbito individual, essa é uma questão à qual se deve dedicar máxima atenção.</p>
 <p>Afinal, os seres humanos são governados por seus sentimentos. Ferir as emoções de alguém, mesmo por um motivo insignificante, pode gerar prejuízos inesperados. Para evitar tal situação, é fundamental não impor a própria vontade. Isso significa possuir a magnanimidade de concordar com o interlocutor, ainda que suas palavras contenham algum equívoco. Ademais, é crucial não buscar a vitória a todo custo, mas sim saber ceder. O adágio “perder é vencer” encerra uma grande verdade. Eu mesmo sempre adoto essa postura, e os resultados invariavelmente se mostram positivos.</p>
 <p>Contudo, ceder não significa uma submissão incondicional. Existem circunstâncias, embora raras, em que não se pode recuar. Todavia, em oito ou nove de cada dez situações, ceder é a atitude mais vantajosa. As palavras de Cristo, proferidas pouco antes de ser crucificado — “Eu venci o mundo” —, certamente nos ensinam essa mesma verdade. Minha longa experiência de vida também comprova este princípio: foi cedendo continuamente que cheguei à condição em que me encontro hoje. O ser humano, entretanto, está repleto do desejo de vencer. O pensamento “não posso perder” é comum a todos. Basta, no entanto, que se adote a perspectiva oposta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 評判と感情 『栄光』232号、昭和28(1953)年10月28日発行 この評判の善い悪いという事は、人間の運命に案外関係があるのは人の知るところである。<br/><br/>世間よくアノ人は評判が好いから信用が出来るとか、悪いから気をつけろなどという事が、その人の運命にいかに影響するか分らない程であろう。<br/><br/>もちろん評判の好いに越した事はないが、これが信仰上にも大いに関係するものであるから、それをかいてみよう。<br/><br/>というのはこの事を邪神は最も利用するもので、本教なども今までにその意味で狙われたものである。<br/><br/>その手段として言論機関を利用したり、悪い噂を蒔（ま）いて評判を悪くしようとする。<br/><br/>これがため本教発展の上に少からず影響を受けるのであるから、この事は中々油断は出来ない。<br/><br/>特に個人の場合大いに心すべきである。<br/><br/>何といっても人間は感情に左右されるもので、小さな事でも感情を害（そこ）ねる事が案外不利益で、それには我を通さない事である。<br/><br/>つまり相手のいう事が少々間違っていても、それに合槌を打ってやる雅量である。<br/><br/>また何事も勝とうと思わないで負けてやる事で、負けるが勝というのはいい言葉である。<br/><br/>私はいつもその方針にしているが、結果は反（かえ）っていいものである。<br/><br/> しかしただ負けるといっても、たまには負けられない事情もあるが、これは別で滅多にはない。<br/><br/>まず十中八、九は負けた方が得となる。<br/><br/>彼（か）のキリストが十字架に懸けられる直前“吾世に勝てり”といったのは、この真理を教えたものであろう。<br/><br/>私の長い年月の経験からいっても負けて負けてともかく今日のようになったのである。<br/><br/>ところが人間という者は勝ちたい心が一パイで、負けてなるものかと思うのは誰しもだが、そこを反対に考えればいいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

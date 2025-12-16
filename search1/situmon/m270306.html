@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M270306</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年3月6日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月六日 （お伺）渡辺用子（四十三歳）。<br><br>昨年十二月ごろより、夜二時か三時ごろに喘息の発作のような状態になり、御浄霊いたしますと、じき良くなります。<br><br>食欲は変わりありません。<br><br>発作の状態は心臓が煽（あお）り、顔面蒼白になり、全身油汗のようなものが出て冷たくなります。<br><br>以前に病名不明でそうとうの薬毒が入っております。<br><br>六年前に入信。<br><br>この時も同じ状態が三カ月ほど続き、御浄霊で良くなりました。<br><br>その時より較べますと、ずっと良いように思われますが、本人は悪くなったようで、切ないと申します。<br><br>非常に神経質でわがままに思われます点もございます。<br><br>これは霊的に関係がございましょうか。<br><br> 〔御垂示〕 霊的ですね。<br><br>これは死霊が憑るんです。<br><br>その時に本人が読めれば良いですが、さもなければ、側の人が祝詞、御讃歌――それを読んであげると良いね。<br><br>それで治るわけです。<br><br>で、調べてみて、まだ祀っていない霊があれは、さっそく祀ってあげる。<br><br>というようにすれば、別に心配になるものじゃないですよ。<br><br>医者の方でいう心臓神経衰弱と言うんですね。<br><br> （お伺）佐野恒男の次男（三歳）。<br><br>先月二十五日より三十八、九度の熱が出、少量の下痢を日に三、四回いたしておりましたが、二十七日午後、急に引きつけを起し、その日は夕方まで遊びましたが、熱はあまり変化なく、二十八日よりはまったく食欲がなくなり、ただわずかに水を一口ほど、日に十数回飲む程度でございます。<br><br>一昨日の二時ごろより、夢中で大声で「母ちゃん」とか「赤ちゃん」と叫び、あやしても受けつけません。<br><br>それからは、目つきに変わりはありませんが、歯軋（はぎし）りのようなことをし、また手を噛むようなことをいたして暴れます。<br><br>平素より肩が固く、気短かで、気に入らないと手当たりしだいに物を投げたりいたし、気難しい子でございます。<br><br>体にはさほど熱はございません。<br><br>頭、主に後頭部、延髄に熱がございます。<br><br>また昼夜の別なく発作的に騒ぎます。<br><br>これは霊的でございましょうか。<br><br> 〔御垂示〕 これは霊的ですね。<br><br>やっぱり、死んだ赤ん坊の霊ですね。<br><br>身内になければ、親類とかなにかで、つまり迷っているわけですね。<br><br>これも祝詞、御讃歌を聞かしてやるんです。<br><br>そうして前頭部の中を浄霊してやると良いです。<br><br>それでだんだん良くなるわけです。<br><br> （お伺）大滝英子（十七歳）。<br><br>生後六カ月ごろ風邪を引いて、以来高熱が続き、脳膜炎とのことで、注射や薬を続けました。<br><br>以来十五、六年間あらゆる治療、祈祷をいたしました。<br><br>整形手術をし、脊髄注射六本うっておりますが、なんの効果なく、長年寝たままにてダルマ同様でございます。<br><br>昨年夏より御浄霊をいただくようになり、私（父）が入信、御浄霊をいたしております。<br><br>私の父は三十年前に心臓病で死亡、母は昭和十八年脳溢血にて死亡、上の姉は大正九年、下の姉は昭和十七年脳病にて死亡。<br><br>そのため母は熱心な天理教の信仰をいたしておりましたが、母亡き後はお詣りしておりません。<br><br>私の家は臨済宗妙心寺派の檀家で先祖よりお祀りいたしております。<br><br>これは霊的でございましょうか。<br><br>御浄霊の急所につき御垂示のほどお願い申し上げます。<br><br> 〔御垂示〕 これは霊的じゃありませんね。<br><br>つまり脳膜炎の時に、注射と薬で固めたんですね。<br><br>無論氷冷したに違いない。<br><br>脳膜炎というのは前頭部の浄化ですからね。<br><br>ここを固めちゃった。<br><br>そのために手と足が動かなくなったんです。<br><br>やっぱり、この因が中にあるんです。<br><br>あらゆる治療というのが悪いんです。<br><br>これをしなかったらね。<br><br>おまけに整形手術――どこをやったんですかね。<br><br>脊髄注射六本――これも悪いですね。<br><br>このために経過が悪いんです。<br><br>これがなかったら、脳膜炎なんてわけがないですよ。<br><br>これはぜひ治してあげたいですね。<br><br>急所はこの（前頭部）中ですからね。<br><br>この中に固まっているから、これをやれば良いんですが、力を入れちゃいけませんよ。<br><br>力を抜いてね。<br><br>ただ、整形手術を、どういうふうにやったか判りませんかね。<br><br>これさえたいしたことをしてなかったら治りますね。<br><br>手足の筋でも切ったんですか。<br><br>判らないですか。<br><br> 「足の麻痺した部分と、右足の付け根をいたしております。<br><br>」 左は。<br><br> 「いたしておりません。<br><br>」 左も動かないですか。<br><br>それじゃ、ここ（頸部淋巴腺）を中心にやって、これ（頸部淋巴腺）に固まりがあるから、これをやってご覧なさい。<br><br>治るわけです。<br><br>力を入れちゃいけませんよ。<br><br> 「光明如来様はまだでございます。<br><br>」 それじゃ駄目だ。<br><br>光明如来様をお祀りしてある部屋に寝かせるようにするんです。<br><br>そうすると早い。<br><br>そうすると、下手にいっても、片っ方の杖ついて歩けるくらいにはなりますよ。<br><br> （お伺）那須徒一（四十七歳）。<br><br>昭和二十六年一月肋膜炎再発し、生命危篤を御浄霊でお救いいただき、一カ月ほどで教会に通わせていただくようになり、夏には家業（鮎の集荷）もできるようになりましたが、十月三十一日名古屋別院にて明主様に御面会いただきましてより、全身御浄化をいただき、ちょっとした運動にも息切れがして、呼吸困難となり、床に就くようになりました。<br><br>現在は頭重、肩の重圧感があり、痰はヌラのようなものが続いて出ております。<br><br>食欲はございませんが、二杯くらい食べられますが、少しずつ衰弱しております。<br><br>教会より御浄霊に来ていただくようになりましてから、暖かい日は二、三時間は起きておりますが、長くなりますと寒気がいたし疲れます。<br><br>昼間より夜間は用便に起き、動いた後は胸の圧迫感が特にひどく苦しみます。<br><br>なお本人は四年前重い湿性肋膜炎にて四カ月ほど医療を受け捗々しくございませんでしたが、お道にて治していただきました。<br><br>光明如来様は昭和二十六年一月に御奉斎させていただきました。<br><br>御浄霊の急所につき御教示のほどお願い申し上げます。<br><br> 〔御垂示〕 二杯くらいだったら、食欲はなくもないじゃないですか。<br><br>急所をはずれているんだ。<br><br>こんなのはわけなく治るんですがね。<br><br>肋膜というものは再発するに決まったものでね。<br><br>やっぱり、以前に固まっている所があったんです。<br><br>それは、胸から背中から触ってみると、熱い所が必ずありますからね。<br><br>この人は熱がそうとう出るんです。<br><br>肩から頸に熱がある所があるから、そこを浄霊するんです。<br><br>そうすると熱がだんだん冷めてきますからね。<br><br>そうすると、食欲が起ってだんだん治ってきます。<br><br> 咳は。<br><br> 「あまり出ません。<br><br>」 なんでもないですがね。<br><br>あなたは力を入れやしないでしょうね。<br><br>抜いているですね。<br><br> 「私がまいりますと楽になりますが、奥さんや近所の方がいたしますと。<br><br>」 そういう人にやらせなかったら良い。<br><br>あなたがやれば良い。<br><br> 「毎日は行けませんのでございます。<br><br>」 毎日でなくても良い。<br><br>こんなのはわけないです。<br><br> 「昨年一月より五回ほどいたしております。<br><br>」 そうすると一カ月行かない月もあったんですね。<br><br> 「さようでございます。<br><br>」 まだ、今やっている人の霊力が足りないんだ。<br><br>だから溶けないんです。<br><br>あなたがなんとかして助けてやりなさいよ。<br><br>遠いんですか。<br><br> 「一里ほどでございます。<br><br>」 なんでもないじゃないですか。<br><br> 「親戚が反対でございまして。<br><br>」 それだ。<br><br>それで治りが悪いんです。<br><br>それじゃ困るな。<br><br>そういうのを無理にやると、また問題を起しますから、そういうのは逃げた方が良いな。<br><br> 「本人は医者にかかりたくないと申します。<br><br>本人も奥さんも一生懸命でございまして。<br><br>」 お祀りはしてないですね。<br><br> 「お祀りいたしてございます。<br><br>」 その反対者がたくさん――そんなにあると、その霊が邪魔するんです。<br><br>治らないとたいへんだというんじゃないんです。<br><br>治るとたいへんだというんです。<br><br>救世教に自分たちが頭を下げなければならないからね。<br><br>だから始終その想念が邪魔するんでね。<br><br>それで、もしか間違いで治らないことがあると、そうれ見たことかと、それを宣伝する。<br><br>やっぱり邪神ですからね。<br><br>親切な悪魔というやつでね。<br><br>別に命には危険はないんですね。<br><br>衰弱が増すようなら危ないな。<br><br> 「医者に見せるように言ってありますが、一日延ばしにしております。<br><br>」 それは困るな。<br><br>やっばり、お医者さんに診てもらわなければいけないですよ。<br><br> 「親戚は、今なら入院すれば治るとやかましく言います。<br><br>」 そいつは面倒だな。<br><br>やっているのは。<br><br> 「奥さんと近所の人が。<br><br>」 それじゃ治りが悪いから、死にでもすると、そうれ見たことか、宗教に迷って、とんでもないことになったと。<br><br>とにかくこう言ってやるんだね。<br><br>親戚や、そういう周囲の方たちが、みんな賛成して、そういう方から、どうか助けてとお頼みになるなら良いですが、どうもそういう反対者があるところは具合が悪いから、あなたが親戚兄弟に了解をさせて、今言ったようになったら、やってあげます。<br><br>さもなければ、やってあげるわけにいかないからと、はっきり断るなり、他の者が頼むなりして、どっちかですね。<br><br>やるやらないと、はっきりした方が良い。<br><br>そうでなければ問題を起しますよ。<br><br> （お伺）長谷川栄吉（五十三歳）。<br><br>二十五年十月ごろより胃潰瘍で、自宅で療養しておりました。<br><br>本年一月胃癌となり、二月に光明如来様を御奉斎させていただきました。<br><br>最近食欲減退して衰弱を増し、一杯の食事もあまり入らず、時々ヌラを三合くらい吐きます。<br><br>また泡状の時もございます。<br><br>昼夜寝られず坐ったままにて、胃付近が苦しく足が痺れております。<br><br>便は三、四日目に一回少量いたします。<br><br>三月二日に突き上げてまいり、たいへん苦しみました。<br><br>本人は以前信仰しており、薬はあまり使用いたしておりません。<br><br>いかがいたしましたら、よろしゅうございましょうか。<br><br> 〔御垂示〕 これは駄目だな。<br><br>これはよろしく――お断りした方が良いですね。<br><br>これは本当の癌ですよ。<br><br>時々ヌラを――これは立派な癌ですからね。<br><br>それで、一日一杯の食事――これはもう駄目ですね。<br><br>だから家の人に、とうてい見込みはないと言って、よろしく止すというようにした方が良いですね。<br><br> （お伺）堀田寿男（本年一月入信。<br><br>四十三歳）。<br><br>御神体はまだ御奉斎させて戴いておりません。<br><br>三年ほど前に肺結核で七カ月入院いたし、約八十本のマイシンと注射と薬を続け、退院後一年ほど薬を続けておりました。<br><br>昨年十月ごろより咳が多くなり、時々胸を締めつけるようになり、疲れると咽喉が詰まりあげますが、別になにも出ません。<br><br>体も重く感じます。<br><br>昨年十二月末より御浄霊をいただくようになりました。<br><br>御浄霊の箇所につき御垂示お願い申し上げます。<br><br> 〔御垂示〕 これは薬毒ですね。<br><br>今食欲はどうなんですか。<br><br> 「軽く二杯くらいでございます。<br><br>」 衰弱は増すわけじゃないですか。<br><br>増さないですか。<br><br> 「増してはおりません。<br><br>」 衰弱さえ増さなければ必ず治りますよ。<br><br>ただ、これだけの薬の出るために、いずれ大浄化が起りますがね、まだこの人は薬が効いているんですよ。<br><br>薬がまだふつうなんですが、いよいよ――薬は抑えつけですからね――抑えつけが切れると、大浄化が起る。<br><br>そうすると熱、咳、痰ですからね。<br><br>今咳、痰が随分あると、そうすると衰弱の憂いがあるんでね。<br><br>けれども割合に、この人は芯は丈夫なんです。<br><br>だから気長にやったら治るわけですがね。<br><br>気長にね。<br><br>毎日やっているんですか。<br><br> 「さようでございます。<br><br>」 毎日ほどでなくても良いですね。<br><br>一週間に二度でも三度でも良いですよ。<br><br>それで、なるべく大浄化の起るのを延ばした方が良い。<br><br>そうすると、いくらか軽くなるからね。<br><br>それまでに減っていくからね。<br><br>一週間に二度か三度にしなさい。<br><br> 「御浄霊の箇所は、どこを。<br><br>」 引っ詰められるというのは、胸ですね。<br><br> 「さようでございます。<br><br>」 そうすると肋間の間に毒があるんだから、胸から背中――そういう所を押してみて、痛い所があったら、そこに固まりがあるんだから、それが胸を締めつける因だからね。<br><br>痛い所がなければ、熱のある所があります。<br><br>たいてい、そういうのは肋間だな。<br><br>熱がある所があるから、そこを浄霊すれば良い。<br><br>そうすれば、それは割合にわけなく治るんです。<br><br>あとは頸のまわりだな。<br><br>そこに固まりと、熱のある所があります。<br><br>それを浄霊する。<br><br>それで治っていくわけですがね。<br><br> （お伺）木内巴江（二十八歳）。<br><br>頭痛や頸、肩が凝り、顔は常に赤く、怒りやすい性格でございます。<br><br>昭和二十五年十月ごろより、苦痛もなく眼がしだいに見えなくなり、二十三日急に発熱し、耳下腺、延髄、後頭部が非常に苦しく、首が自然に前後に振れ、頭の中がゴンゴン音がして、話し声が聞き取れず、脈拍は結滞し危篤状態でございました。<br><br>その後は眼は赤く腫れ上がり、涙が多量に出るようになり、幾日か続きました。<br><br>御守護いただき熱は下がりましたが、両眼は失明いたしました。<br><br>十二月六日髪を手入れしておりますと、一本残らず抜けてしまいました。<br><br>その後一カ月間は一日三、四回着物を着替える程度の発汗があり、解熱いたしましてより、白い毛が生えてまいり、御浄霊をいただきましてしだいに黒髪に変わり、元通りにさせていただきました。<br><br>眼は瞳孔が白くなっており、視力はまったくございませんが、黒い水玉のご時ものが上がったり下がったりいたしております。<br><br>後頭部は重苦しく、御浄霊をいただきますと眼が痛み涙が出てまいります。<br><br>また時々下痢もいたします。<br><br>御神体、御屏風観音様は御奉斎させていただいております。<br><br>なお、夢で赤い蛇を見ました。<br><br>これは霊的関係がございましょうか、御浄霊の箇所御垂示お願い申し上げます。<br><br> 〔御垂示〕 黒髪に――これは良いな。<br><br>これは別に霊的関係はありませんね。<br><br>これは毒ですよ。<br><br>薬毒が頭に固まっているんです。<br><br>それで毛が抜けて――その毒が固まっているんですから、これは治りますよ。<br><br>黒い水玉――これは目の悪い人は、必ずそういうことはある。<br><br>後頭部――頸と頭ですね。<br><br>涙――こういうのは必ず治りますよ。<br><br>それから、夢で赤い蛇というのは、蛇が救ってもらいたいんです。<br><br>それで、目でも白くなっている目がありますがね。<br><br>ああいうのは、きっと治るものです。<br><br>あれは、膿が固まっているんだからね。<br><br>だから安心して根気良く浄霊をやりなさい。<br><br>浄霊の急所は頭だからね。<br><br>頭の中にうんと毒があるんです。<br><br>それから頸、肩ですね。<br><br>その辺もありますからね。<br><br>それを浄霊して、それで良いです。<br><br>二十八の婦人ですね。<br><br>早く――急いで治さないと、結婚もできないことになっちゃう。<br><br> （お伺）袴田浩司（三号Ｐ46 御伺い）。<br><br>左足踵の魚の目をメスにて疵つけ、その後左足はぜんぜん痛まず、右足の御浄化となり、現在膝のみ屈伸できますが、右腰はぜんぜん動かず、足を開いた形でおります。<br><br>大腿部の上部に固い「しこり」があり、水膿をもち、相当量の排膿がございます。<br><br>また右腕上膊（じょうはく）内側に縦六センチメートル、横三センチメートルくらいが水脹（みずぶく）れより皮膚破れ真っ赤に爛れ、膿が出ておりますが痛みはございません。<br><br>食欲はございます。<br><br>昭和四年に河合雨峰という画家より一筆書きの龍を買い、その時「私は龍に命を取られそうな気がするので、これからは書かないようにする」と言い、その後間もなく他界したとのことです。<br><br>浩司は辰年でございますが、これとなにか関係がございましょうか。<br><br>また軸物の処置につきましてお伺い申し上げます。<br><br> 〔御垂示〕 河合雨峰というのは、私は良く知ってます。<br><br>一筆書きの龍を書いて、それを方々になにして、生活していたんです。<br><br>書家ですがね。<br><br>光明如来様はお祀りしてあるんですね。<br><br> 「お祀りしてございません。<br><br>」 お祀りしなければ駄目ですね。<br><br>お祀りしてから、雨峰の書いた龍神――あれはみんな霊が入ってますからね――それを家にしまっておいて、一年くらい経ってから焼けば良いんです。<br><br>それから、大腿部の上部――毒が多いんですよ。<br><br>方々に固まっているんだ。<br><br>それで動かないんだから、まあ――こういうものは、少し根気良くやれば必ず治りますよ。<br><br>別にたいしたものじゃない。<br><br>それで、光明如来様をお祀りして、その部屋に寝かせるようにする。<br><br>そうすれば、方々から穴があいて出て、すっかり治りますよ。<br><br> （お伺）伊東房子（七号Ｐ69 御伺）。<br><br>さっそく教会よりも御浄霊にまいらせていただき、御神書も拝読させていただきました。<br><br>特に『霊界叢談』を拝読いたしますと非常に楽になると申します。<br><br>咳と痰は出ておりますが、たいした苦痛はなく、夜分はその度に目が醒める程度でございます。<br><br>食事は一杯くらいおいしくいただきます。<br><br>両肺に軽いラッセルが聞こえますが、深く呼吸しましても痛みはございません。<br><br>声は嗄（か）れておりますが、食事にはあまり支障はございません。<br><br>右側腎臓部に「八つ頭」のような固結があり、御浄霊後間もなく多量の下痢がございました。<br><br>翌日は右脚が甲まで浮腫み歩けなくなりましたが、腎臓部の固結はなくなっておりました。<br><br>その翌朝御浄霊を始めますと、急に寒気を催し、しばらくして恢復し、終わると間もなく下痢がございました。<br><br>尿は一日二回程度で、右脚は未だに浮腫んでおります。<br><br>この家は、結核で、祖母の兄弟五名、父の兄弟三名死亡しております。<br><br> 〔御垂示〕 これは良いですよ。<br><br>これは順調ですよ。<br><br>治りますよ。<br><br>やっぱり、腎臓のなにが影響している。<br><br>この固まりが溶けて、足に下がって浮腫んだのだから、これもだんだん取れてきますよ。<br><br>このまま続ければ治ります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Orientações sobre Purificações e Influências Espirituais</h2>
 <p><strong>Consulta de Watanabe Yoko (43 anos):</strong> Desde dezembro do ano passado, ela tem sofrido crises semelhantes a ataques de asma, sempre de madrugada, por volta das duas ou três horas. Ao receber Johrei, a melhora é imediata. Seu apetite permanece inalterado. Durante as crises, ela manifesta palpitações, palidez facial e o corpo fica frio, coberto por uma transpiração oleosa. No passado, devido a uma doença de diagnóstico incerto, ela acumulou uma quantidade considerável de toxinas medicamentosas. Ela ingressou na fé há seis anos. Naquela ocasião, padeceu de um quadro idêntico por cerca de três meses, recuperando-se igualmente através do Johrei. Embora seu estado atual pareça ser bem mais ameno em comparação àquela época, a própria paciente sente-se pior e queixa-se de grande sofrimento. Ademais, ela demonstra ser extremamente nervosa e, por vezes, egoísta. Haveria alguma relação espiritual nesse caso?</p>
@@ -162,5 +314,48 @@ Sem ela, não há como resolver. Primeiro, entronizem a Imagem da Luz Divina. De
 <p><strong>Consulta sobre Ito Fusako (consultada no vol. 7, p. 69):</strong> Logo após a consulta, recebemos Johrei da Igreja e lemos os Escritos Divinos. Ela relata que se sente muito aliviada, especialmente ao ler o “Relatos do Mundo Espiritual”. A tosse e o catarro persistem, mas sem grande sofrimento, apenas o suficiente para acordá-la à noite. Consegue comer com prazer cerca de uma tigela. Auscultam-se leves estertores em ambos os pulmões, mas ela não sente dor ao respirar fundo. A voz está rouca, mas isso não atrapalha muito a alimentação. Havia uma solidificação semelhante a um inhame na região do rim direito, e logo após o Johrei, ela teve uma forte diarreia. No dia seguinte, sua perna direita inchou até o peito do pé e ela não conseguia andar, mas a solidificação no rim havia desaparecido. Na manhã seguinte, ao começar o Johrei, ela sentiu um calafrio súbito, que passou logo depois, e ao terminar, teve outra diarreia. Ela urina cerca de duas vezes ao dia e a perna direita continua inchada. Nesta família, cinco irmãos da avó e três irmãos do pai faleceram de tuberculose.</p>
 <p><strong>Orientação de Meishu-Sama:</strong>
 Está ótimo, a evolução é favorável. Ela será curada. De fato, o problema renal estava influenciando o quadro. A solidificação se dissolveu, desceu para a perna e causou o inchaço. Isso também desaparecerá gradualmente. Continuando o tratamento como está, ela alcançará a cura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S27年3月6日） 『御教え集』8号、昭和27(1952)年4月20日発行 昭和二十七年三月六日 （お伺）渡辺用子（四十三歳）。<br/><br/>昨年十二月ごろより、夜二時か三時ごろに喘息の発作のような状態になり、御浄霊いたしますと、じき良くなります。<br/><br/>食欲は変わりありません。<br/><br/>発作の状態は心臓が煽（あお）り、顔面蒼白になり、全身油汗のようなものが出て冷たくなります。<br/><br/>以前に病名不明でそうとうの薬毒が入っております。<br/><br/>六年前に入信。<br/><br/>この時も同じ状態が三カ月ほど続き、御浄霊で良くなりました。<br/><br/>その時より較べますと、ずっと良いように思われますが、本人は悪くなったようで、切ないと申します。<br/><br/>非常に神経質でわがままに思われます点もございます。<br/><br/>これは霊的に関係がございましょうか。<br/><br/> 〔御垂示〕 霊的ですね。<br/><br/>これは死霊が憑るんです。<br/><br/>その時に本人が読めれば良いですが、さもなければ、側の人が祝詞、御讃歌――それを読んであげると良いね。<br/><br/>それで治るわけです。<br/><br/>で、調べてみて、まだ祀っていない霊があれは、さっそく祀ってあげる。<br/><br/>というようにすれば、別に心配になるものじゃないですよ。<br/><br/>医者の方でいう心臓神経衰弱と言うんですね。<br/><br/> （お伺）佐野恒男の次男（三歳）。<br/><br/>先月二十五日より三十八、九度の熱が出、少量の下痢を日に三、四回いたしておりましたが、二十七日午後、急に引きつけを起し、その日は夕方まで遊びましたが、熱はあまり変化なく、二十八日よりはまったく食欲がなくなり、ただわずかに水を一口ほど、日に十数回飲む程度でございます。<br/><br/>一昨日の二時ごろより、夢中で大声で「母ちゃん」とか「赤ちゃん」と叫び、あやしても受けつけません。<br/><br/>それからは、目つきに変わりはありませんが、歯軋（はぎし）りのようなことをし、また手を噛むようなことをいたして暴れます。<br/><br/>平素より肩が固く、気短かで、気に入らないと手当たりしだいに物を投げたりいたし、気難しい子でございます。<br/><br/>体にはさほど熱はございません。<br/><br/>頭、主に後頭部、延髄に熱がございます。<br/><br/>また昼夜の別なく発作的に騒ぎます。<br/><br/>これは霊的でございましょうか。<br/><br/> 〔御垂示〕 これは霊的ですね。<br/><br/>やっぱり、死んだ赤ん坊の霊ですね。<br/><br/>身内になければ、親類とかなにかで、つまり迷っているわけですね。<br/><br/>これも祝詞、御讃歌を聞かしてやるんです。<br/><br/>そうして前頭部の中を浄霊してやると良いです。<br/><br/>それでだんだん良くなるわけです。<br/><br/> （お伺）大滝英子（十七歳）。<br/><br/>生後六カ月ごろ風邪を引いて、以来高熱が続き、脳膜炎とのことで、注射や薬を続けました。<br/><br/>以来十五、六年間あらゆる治療、祈祷をいたしました。<br/><br/>整形手術をし、脊髄注射六本うっておりますが、なんの効果なく、長年寝たままにてダルマ同様でございます。<br/><br/>昨年夏より御浄霊をいただくようになり、私（父）が入信、御浄霊をいたしております。<br/><br/>私の父は三十年前に心臓病で死亡、母は昭和十八年脳溢血にて死亡、上の姉は大正九年、下の姉は昭和十七年脳病にて死亡。<br/><br/>そのため母は熱心な天理教の信仰をいたしておりましたが、母亡き後はお詣りしておりません。<br/><br/>私の家は臨済宗妙心寺派の檀家で先祖よりお祀りいたしております。<br/><br/>これは霊的でございましょうか。<br/><br/>御浄霊の急所につき御垂示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 これは霊的じゃありませんね。<br/><br/>つまり脳膜炎の時に、注射と薬で固めたんですね。<br/><br/>無論氷冷したに違いない。<br/><br/>脳膜炎というのは前頭部の浄化ですからね。<br/><br/>ここを固めちゃった。<br/><br/>そのために手と足が動かなくなったんです。<br/><br/>やっぱり、この因が中にあるんです。<br/><br/>あらゆる治療というのが悪いんです。<br/><br/>これをしなかったらね。<br/><br/>おまけに整形手術――どこをやったんですかね。<br/><br/>脊髄注射六本――これも悪いですね。<br/><br/>このために経過が悪いんです。<br/><br/>これがなかったら、脳膜炎なんてわけがないですよ。<br/><br/>これはぜひ治してあげたいですね。<br/><br/>急所はこの（前頭部）中ですからね。<br/><br/>この中に固まっているから、これをやれば良いんですが、力を入れちゃいけませんよ。<br/><br/>力を抜いてね。<br/><br/>ただ、整形手術を、どういうふうにやったか判りませんかね。<br/><br/>これさえたいしたことをしてなかったら治りますね。<br/><br/>手足の筋でも切ったんですか。<br/><br/>判らないですか。<br/><br/> 「足の麻痺した部分と、右足の付け根をいたしております。<br/><br/>」 左は。<br/><br/> 「いたしておりません。<br/><br/>」 左も動かないですか。<br/><br/>それじゃ、ここ（頸部淋巴腺）を中心にやって、これ（頸部淋巴腺）に固まりがあるから、これをやってご覧なさい。<br/><br/>治るわけです。<br/><br/>力を入れちゃいけませんよ。<br/><br/> 「光明如来様はまだでございます。<br/><br/>」 それじゃ駄目だ。<br/><br/>光明如来様をお祀りしてある部屋に寝かせるようにするんです。<br/><br/>そうすると早い。<br/><br/>そうすると、下手にいっても、片っ方の杖ついて歩けるくらいにはなりますよ。<br/><br/> （お伺）那須徒一（四十七歳）。<br/><br/>昭和二十六年一月肋膜炎再発し、生命危篤を御浄霊でお救いいただき、一カ月ほどで教会に通わせていただくようになり、夏には家業（鮎の集荷）もできるようになりましたが、十月三十一日名古屋別院にて明主様に御面会いただきましてより、全身御浄化をいただき、ちょっとした運動にも息切れがして、呼吸困難となり、床に就くようになりました。<br/><br/>現在は頭重、肩の重圧感があり、痰はヌラのようなものが続いて出ております。<br/><br/>食欲はございませんが、二杯くらい食べられますが、少しずつ衰弱しております。<br/><br/>教会より御浄霊に来ていただくようになりましてから、暖かい日は二、三時間は起きておりますが、長くなりますと寒気がいたし疲れます。<br/><br/>昼間より夜間は用便に起き、動いた後は胸の圧迫感が特にひどく苦しみます。<br/><br/>なお本人は四年前重い湿性肋膜炎にて四カ月ほど医療を受け捗々しくございませんでしたが、お道にて治していただきました。<br/><br/>光明如来様は昭和二十六年一月に御奉斎させていただきました。<br/><br/>御浄霊の急所につき御教示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 二杯くらいだったら、食欲はなくもないじゃないですか。<br/><br/>急所をはずれているんだ。<br/><br/>こんなのはわけなく治るんですがね。<br/><br/>肋膜というものは再発するに決まったものでね。<br/><br/>やっぱり、以前に固まっている所があったんです。<br/><br/>それは、胸から背中から触ってみると、熱い所が必ずありますからね。<br/><br/>この人は熱がそうとう出るんです。<br/><br/>肩から頸に熱がある所があるから、そこを浄霊するんです。<br/><br/>そうすると熱がだんだん冷めてきますからね。<br/><br/>そうすると、食欲が起ってだんだん治ってきます。<br/><br/> 咳は。<br/><br/> 「あまり出ません。<br/><br/>」 なんでもないですがね。<br/><br/>あなたは力を入れやしないでしょうね。<br/><br/>抜いているですね。<br/><br/> 「私がまいりますと楽になりますが、奥さんや近所の方がいたしますと。<br/><br/>」 そういう人にやらせなかったら良い。<br/><br/>あなたがやれば良い。<br/><br/> 「毎日は行けませんのでございます。<br/><br/>」 毎日でなくても良い。<br/><br/>こんなのはわけないです。<br/><br/> 「昨年一月より五回ほどいたしております。<br/><br/>」 そうすると一カ月行かない月もあったんですね。<br/><br/> 「さようでございます。<br/><br/>」 まだ、今やっている人の霊力が足りないんだ。<br/><br/>だから溶けないんです。<br/><br/>あなたがなんとかして助けてやりなさいよ。<br/><br/>遠いんですか。<br/><br/> 「一里ほどでございます。<br/><br/>」 なんでもないじゃないですか。<br/><br/> 「親戚が反対でございまして。<br/><br/>」 それだ。<br/><br/>それで治りが悪いんです。<br/><br/>それじゃ困るな。<br/><br/>そういうのを無理にやると、また問題を起しますから、そういうのは逃げた方が良いな。<br/><br/> 「本人は医者にかかりたくないと申します。<br/><br/>本人も奥さんも一生懸命でございまして。<br/><br/>」 お祀りはしてないですね。<br/><br/> 「お祀りいたしてございます。<br/><br/>」 その反対者がたくさん――そんなにあると、その霊が邪魔するんです。<br/><br/>治らないとたいへんだというんじゃないんです。<br/><br/>治るとたいへんだというんです。<br/><br/>救世教に自分たちが頭を下げなければならないからね。<br/><br/>だから始終その想念が邪魔するんでね。<br/><br/>それで、もしか間違いで治らないことがあると、そうれ見たことかと、それを宣伝する。<br/><br/>やっぱり邪神ですからね。<br/><br/>親切な悪魔というやつでね。<br/><br/>別に命には危険はないんですね。<br/><br/>衰弱が増すようなら危ないな。<br/><br/> 「医者に見せるように言ってありますが、一日延ばしにしております。<br/><br/>」 それは困るな。<br/><br/>やっばり、お医者さんに診てもらわなければいけないですよ。<br/><br/> 「親戚は、今なら入院すれば治るとやかましく言います。<br/><br/>」 そいつは面倒だな。<br/><br/>やっているのは。<br/><br/> 「奥さんと近所の人が。<br/><br/>」 それじゃ治りが悪いから、死にでもすると、そうれ見たことか、宗教に迷って、とんでもないことになったと。<br/><br/>とにかくこう言ってやるんだね。<br/><br/>親戚や、そういう周囲の方たちが、みんな賛成して、そういう方から、どうか助けてとお頼みになるなら良いですが、どうもそういう反対者があるところは具合が悪いから、あなたが親戚兄弟に了解をさせて、今言ったようになったら、やってあげます。<br/><br/>さもなければ、やってあげるわけにいかないからと、はっきり断るなり、他の者が頼むなりして、どっちかですね。<br/><br/>やるやらないと、はっきりした方が良い。<br/><br/>そうでなければ問題を起しますよ。<br/><br/> （お伺）長谷川栄吉（五十三歳）。<br/><br/>二十五年十月ごろより胃潰瘍で、自宅で療養しておりました。<br/><br/>本年一月胃癌となり、二月に光明如来様を御奉斎させていただきました。<br/><br/>最近食欲減退して衰弱を増し、一杯の食事もあまり入らず、時々ヌラを三合くらい吐きます。<br/><br/>また泡状の時もございます。<br/><br/>昼夜寝られず坐ったままにて、胃付近が苦しく足が痺れております。<br/><br/>便は三、四日目に一回少量いたします。<br/><br/>三月二日に突き上げてまいり、たいへん苦しみました。<br/><br/>本人は以前信仰しており、薬はあまり使用いたしておりません。<br/><br/>いかがいたしましたら、よろしゅうございましょうか。<br/><br/> 〔御垂示〕 これは駄目だな。<br/><br/>これはよろしく――お断りした方が良いですね。<br/><br/>これは本当の癌ですよ。<br/><br/>時々ヌラを――これは立派な癌ですからね。<br/><br/>それで、一日一杯の食事――これはもう駄目ですね。<br/><br/>だから家の人に、とうてい見込みはないと言って、よろしく止すというようにした方が良いですね。<br/><br/> （お伺）堀田寿男（本年一月入信。<br/><br/>四十三歳）。<br/><br/>御神体はまだ御奉斎させて戴いておりません。<br/><br/>三年ほど前に肺結核で七カ月入院いたし、約八十本のマイシンと注射と薬を続け、退院後一年ほど薬を続けておりました。<br/><br/>昨年十月ごろより咳が多くなり、時々胸を締めつけるようになり、疲れると咽喉が詰まりあげますが、別になにも出ません。<br/><br/>体も重く感じます。<br/><br/>昨年十二月末より御浄霊をいただくようになりました。<br/><br/>御浄霊の箇所につき御垂示お願い申し上げます。<br/><br/> 〔御垂示〕 これは薬毒ですね。<br/><br/>今食欲はどうなんですか。<br/><br/> 「軽く二杯くらいでございます。<br/><br/>」 衰弱は増すわけじゃないですか。<br/><br/>増さないですか。<br/><br/> 「増してはおりません。<br/><br/>」 衰弱さえ増さなければ必ず治りますよ。<br/><br/>ただ、これだけの薬の出るために、いずれ大浄化が起りますがね、まだこの人は薬が効いているんですよ。<br/><br/>薬がまだふつうなんですが、いよいよ――薬は抑えつけですからね――抑えつけが切れると、大浄化が起る。<br/><br/>そうすると熱、咳、痰ですからね。<br/><br/>今咳、痰が随分あると、そうすると衰弱の憂いがあるんでね。<br/><br/>けれども割合に、この人は芯は丈夫なんです。<br/><br/>だから気長にやったら治るわけですがね。<br/><br/>気長にね。<br/><br/>毎日やっているんですか。<br/><br/> 「さようでございます。<br/><br/>」 毎日ほどでなくても良いですね。<br/><br/>一週間に二度でも三度でも良いですよ。<br/><br/>それで、なるべく大浄化の起るのを延ばした方が良い。<br/><br/>そうすると、いくらか軽くなるからね。<br/><br/>それまでに減っていくからね。<br/><br/>一週間に二度か三度にしなさい。<br/><br/> 「御浄霊の箇所は、どこを。<br/><br/>」 引っ詰められるというのは、胸ですね。<br/><br/> 「さようでございます。<br/><br/>」 そうすると肋間の間に毒があるんだから、胸から背中――そういう所を押してみて、痛い所があったら、そこに固まりがあるんだから、それが胸を締めつける因だからね。<br/><br/>痛い所がなければ、熱のある所があります。<br/><br/>たいてい、そういうのは肋間だな。<br/><br/>熱がある所があるから、そこを浄霊すれば良い。<br/><br/>そうすれば、それは割合にわけなく治るんです。<br/><br/>あとは頸のまわりだな。<br/><br/>そこに固まりと、熱のある所があります。<br/><br/>それを浄霊する。<br/><br/>それで治っていくわけですがね。<br/><br/> （お伺）木内巴江（二十八歳）。<br/><br/>頭痛や頸、肩が凝り、顔は常に赤く、怒りやすい性格でございます。<br/><br/>昭和二十五年十月ごろより、苦痛もなく眼がしだいに見えなくなり、二十三日急に発熱し、耳下腺、延髄、後頭部が非常に苦しく、首が自然に前後に振れ、頭の中がゴンゴン音がして、話し声が聞き取れず、脈拍は結滞し危篤状態でございました。<br/><br/>その後は眼は赤く腫れ上がり、涙が多量に出るようになり、幾日か続きました。<br/><br/>御守護いただき熱は下がりましたが、両眼は失明いたしました。<br/><br/>十二月六日髪を手入れしておりますと、一本残らず抜けてしまいました。<br/><br/>その後一カ月間は一日三、四回着物を着替える程度の発汗があり、解熱いたしましてより、白い毛が生えてまいり、御浄霊をいただきましてしだいに黒髪に変わり、元通りにさせていただきました。<br/><br/>眼は瞳孔が白くなっており、視力はまったくございませんが、黒い水玉のご時ものが上がったり下がったりいたしております。<br/><br/>後頭部は重苦しく、御浄霊をいただきますと眼が痛み涙が出てまいります。<br/><br/>また時々下痢もいたします。<br/><br/>御神体、御屏風観音様は御奉斎させていただいております。<br/><br/>なお、夢で赤い蛇を見ました。<br/><br/>これは霊的関係がございましょうか、御浄霊の箇所御垂示お願い申し上げます。<br/><br/> 〔御垂示〕 黒髪に――これは良いな。<br/><br/>これは別に霊的関係はありませんね。<br/><br/>これは毒ですよ。<br/><br/>薬毒が頭に固まっているんです。<br/><br/>それで毛が抜けて――その毒が固まっているんですから、これは治りますよ。<br/><br/>黒い水玉――これは目の悪い人は、必ずそういうことはある。<br/><br/>後頭部――頸と頭ですね。<br/><br/>涙――こういうのは必ず治りますよ。<br/><br/>それから、夢で赤い蛇というのは、蛇が救ってもらいたいんです。<br/><br/>それで、目でも白くなっている目がありますがね。<br/><br/>ああいうのは、きっと治るものです。<br/><br/>あれは、膿が固まっているんだからね。<br/><br/>だから安心して根気良く浄霊をやりなさい。<br/><br/>浄霊の急所は頭だからね。<br/><br/>頭の中にうんと毒があるんです。<br/><br/>それから頸、肩ですね。<br/><br/>その辺もありますからね。<br/><br/>それを浄霊して、それで良いです。<br/><br/>二十八の婦人ですね。<br/><br/>早く――急いで治さないと、結婚もできないことになっちゃう。<br/><br/> （お伺）袴田浩司（三号Ｐ46 御伺い）。<br/><br/>左足踵の魚の目をメスにて疵つけ、その後左足はぜんぜん痛まず、右足の御浄化となり、現在膝のみ屈伸できますが、右腰はぜんぜん動かず、足を開いた形でおります。<br/><br/>大腿部の上部に固い「しこり」があり、水膿をもち、相当量の排膿がございます。<br/><br/>また右腕上膊（じょうはく）内側に縦六センチメートル、横三センチメートルくらいが水脹（みずぶく）れより皮膚破れ真っ赤に爛れ、膿が出ておりますが痛みはございません。<br/><br/>食欲はございます。<br/><br/>昭和四年に河合雨峰という画家より一筆書きの龍を買い、その時「私は龍に命を取られそうな気がするので、これからは書かないようにする」と言い、その後間もなく他界したとのことです。<br/><br/>浩司は辰年でございますが、これとなにか関係がございましょうか。<br/><br/>また軸物の処置につきましてお伺い申し上げます。<br/><br/> 〔御垂示〕 河合雨峰というのは、私は良く知ってます。<br/><br/>一筆書きの龍を書いて、それを方々になにして、生活していたんです。<br/><br/>書家ですがね。<br/><br/>光明如来様はお祀りしてあるんですね。<br/><br/> 「お祀りしてございません。<br/><br/>」 お祀りしなければ駄目ですね。<br/><br/>お祀りしてから、雨峰の書いた龍神――あれはみんな霊が入ってますからね――それを家にしまっておいて、一年くらい経ってから焼けば良いんです。<br/><br/>それから、大腿部の上部――毒が多いんですよ。<br/><br/>方々に固まっているんだ。<br/><br/>それで動かないんだから、まあ――こういうものは、少し根気良くやれば必ず治りますよ。<br/><br/>別にたいしたものじゃない。<br/><br/>それで、光明如来様をお祀りして、その部屋に寝かせるようにする。<br/><br/>そうすれば、方々から穴があいて出て、すっかり治りますよ。<br/><br/> （お伺）伊東房子（七号Ｐ69 御伺）。<br/><br/>さっそく教会よりも御浄霊にまいらせていただき、御神書も拝読させていただきました。<br/><br/>特に『霊界叢談』を拝読いたしますと非常に楽になると申します。<br/><br/>咳と痰は出ておりますが、たいした苦痛はなく、夜分はその度に目が醒める程度でございます。<br/><br/>食事は一杯くらいおいしくいただきます。<br/><br/>両肺に軽いラッセルが聞こえますが、深く呼吸しましても痛みはございません。<br/><br/>声は嗄（か）れておりますが、食事にはあまり支障はございません。<br/><br/>右側腎臓部に「八つ頭」のような固結があり、御浄霊後間もなく多量の下痢がございました。<br/><br/>翌日は右脚が甲まで浮腫み歩けなくなりましたが、腎臓部の固結はなくなっておりました。<br/><br/>その翌朝御浄霊を始めますと、急に寒気を催し、しばらくして恢復し、終わると間もなく下痢がございました。<br/><br/>尿は一日二回程度で、右脚は未だに浮腫んでおります。<br/><br/>この家は、結核で、祖母の兄弟五名、父の兄弟三名死亡しております。<br/><br/> 〔御垂示〕 これは良いですよ。<br/><br/>これは順調ですよ。<br/><br/>治りますよ。<br/><br/>やっぱり、腎臓のなにが影響している。<br/><br/>この固まりが溶けて、足に下がって浮腫んだのだから、これもだんだん取れてきますよ。<br/><br/>このまま続ければ治ります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

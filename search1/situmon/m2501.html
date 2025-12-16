@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M2501</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年1月**日） 『御光話録』17号、昭和25(1950)年2月28日発行 ――正月に雑煮を食べて祝う由来について……昔、国常立尊を押し込めたことと関係があるとも聞いておりますがいかがでしょうか。<br><br> この国常立尊のことは大本教で言うんですがね。<br><br>国常立尊は艮の金神とも、また鬼門の金神とも言いますが、その国常立尊を押し込めてその臓腑を煮て食ったことから雑煮を食べるんだって言うんですが、これは嘘とも思えないし、また本当とも思えませんね。<br><br> ――正月に御供え餅を十一日までお供えしておくのはなぜでしょうか。<br><br> 昔ね、これはあるいは江戸だけかもしれませんが、商人が正月に仕事を休んでて、十一日から商売を始めたんです。<br><br>で、この日を「蔵開きの御祝」って言うんですよ。<br><br>十一日まで鏡餅をお供えするのはこれから起ったんでしょうね。<br><br> ――過日の御論文にて、もはや仏界がまったくなくなった由ですが、そうなりましても幽世大神様のお名前はそのままでよろしいのでしょうか。<br><br> これはね、「まったく」なってしまったんじゃなくて、なりつつあるんです。<br><br>一遍に昼の世界になるんじゃなくて、だんだんになって行くんですから、ちょうど、太陽がだんだんに高く上るようにね。<br><br>ですから、まあ仏界の移動が始まったというところですね。<br><br>移動だって一日や二日じゃできませんからね。<br><br>ま、「昼の部に入った」というわけです。<br><br> 幽世大神のお名前は無論この通りですよ。<br><br>幽世大神は霊界が昼になったってありますからね。<br><br>……それから、いままでは第三天国くらいしかなかったんですが、今度初めて最高天国ができるんです。<br><br>その反対に最低地獄というものもなくなってくるんです。<br><br>まあ、キリスト教で言う「煉獄」、仏教で言う「無間地獄」、神道の「根底の国」といったものはなくなってくるんです。<br><br>これを現界で言えば、例えば牢屋なんかなくなる、重い罪を作るような人がいなくなりますからね。<br><br>そうなると一番重い刑罰は重労働ということになるんです。<br><br>だから、地下へ入って石炭を掘ることや火夫（かふ）のような苦しい仕事が重刑になるんです。<br><br>悪いことをする人がいなくなるから重い刑罰もなくなるんです。<br><br> ――恵方（えほう）詣りには大将軍を避けるようですが、大将軍についてお伺い申し上げます。<br><br> 大将軍ってのは国常立尊の息子で、ま、長男ですね。<br><br>○○教は大将軍が神懸ったと言われてますが、それに違いないでしょう。<br><br>大将軍は神代のころはあまり性質がよくなかったんです。<br><br>いまで言うドラ息子的だったんで、親父から勘当されてしまったんです（笑声）。<br><br>しかし、後になって改心していいことをしようとして開いたのが○○教だということですね。<br><br>○○教ではこのことを知ってるかどうですかね。<br><br>まあ、知っていたって言わないでしょうね、値打ちがさがっちゃうから。<br><br>（笑声） で、大将軍ってのは国常立尊のあととりだから、やっぱりおっかないほうの神様なんです。<br><br>国常立尊は始終私を守護してくれてますし、それからまた、観音様の御本体は国常立尊ですからね。<br><br>だから邪神どもが怖がって世に出ないようにしてるんですよ。<br><br>新聞なんかがさかんに観音教を悪く書き立ててるのもこのためなんですね。<br><br>そしてまた、いままで鬼門が悪いと言われてたのも同様の意味ですよ。<br><br> ――大将軍の方角は三年ずつとか申しますが。<br><br> いや、一年でしょう。<br><br> ――朝鮮や支那でも大将軍ということを申すようですが、これは同じでしょうか。<br><br> ええ、同じですね。<br><br> ――賭博心理というものは生活を強く支配するように見られ、先進国でもさかんのようですし国内でも賭博は勿論、株や戦後の宝くじ、競馬、競輪などのスポーツもこの心理に左右されておりますし、さらに企業や、地位名誉を得るために一種の投機的心理の動きによる場合も多いように存ぜられます。<br><br>また、捨鉢的な生活態度もその影響のように考えられます。<br><br>将来昼の世界になりました場合、かかる賭博心理やこれと関連あるような好奇心、多くの恋愛、冒険、投機心などはどのようになりましょうか。<br><br> 投機心理は将来ずっと減りますよ。<br><br>これは悪ですからね。<br><br>その代わりスポーツはずっとさかんになりますね。<br><br>それから、冒険や恋愛は変わりませんね。<br><br>しかし、恋愛だって女房があるのに外に女を作って、女房をおっぽり出すようなことはないですね。<br><br>そんなふうな邪恋はなくなるんですよ。<br><br>人を苦しめるのは邪恋ですからね、だからいけないんです。<br><br> ――賭け事などはいかがでしょうか。<br><br> 賭け事は損した人が苦しむんだからいけせんね。<br><br>ま、宝くじくらいはいいでしょう。<br><br>それから、株もいいけど、相場のために株をやるのはいけませんね。<br><br>投資として、余ってる金を投資してその歩合をもらうことは差し支えありませんがね。<br><br> 競馬や競輪なんかは賭け方がいまのやり方と違ってくるでしょうね。<br><br>例えば、入場料をもっと高くして、馬なら馬に札を入れてそれが当たった場合に賞金がもらえる……というふうになるでしょうね。<br><br>こういう方法なら当たらなくてもたいして損はしませんからね。<br><br>捨鉢的な気持ちなんかはそういう悪いことをするからなるんです。<br><br>だから昼の世界になれば、要するに邪悪が減ってくるんです。<br><br>人間には投機心や競争心があるんだから、それをいいほうへ向けることが必要なんですよ。<br><br> ――歌舞伎役者の女形やオペラの男役になる婦人は霊的に意味がございましょうか。<br><br> 大いにありますね、つまり女形になるような人は女の生まれ変わりなんですよ。<br><br>だから、いい女形になると「のどぼとけ」がないって言われてますね。<br><br>以前新派の某という役者は「のどぼとけ」がなくてまったく女でしたよ。<br><br>オペラの男役なんかも男の生まれ変わりです。<br><br>ターキーなんか男だったんですね（笑声）。<br><br>だから女に人気が出るのは女がその「男性」に惚れるんです。<br><br>同様に同性愛なんかも、二人のうちのいっぽうが男になり他方が女になるんですね。<br><br>だから「あんな男みたいな女のどこがいったいいいんだろう」なんていうような女が女学校ではモテるんですよ。<br><br>（笑声） ――生まれ変わった当人は異性を嫌うものでしょうか。<br><br> そうなんですね。<br><br>……私も前世は女だったんです。<br><br>だから私の体は毛が少なくて、ちょうど女の膚のようですよ（笑声）。<br><br>釈迦も変性女子だったんですね、だから独身でおられたんです。<br><br>まあ、女の分子が多かったんですね。<br><br>そのくせ、お釈迦さんは女を汚らわしいもんだなんて言ったけど、あれはお釈迦さんとしてはムゴイですね（笑声）。<br><br> （『御光話録』三号参照） ――三十四歳の男、七年前胃の付近が歩行のたびに軽痛を感じ尿が少量ずつ二日十数回出ました。<br><br>しだいに肝臓も痛み出し便秘するようになり、医師は肝臓にアメーバー赤痢が入ったとてそうとう注射をいたしましたが効果がありませんでした。<br><br>昭和二十二年二月入信いたしましたが、現在左右肩甲骨、脊柱両側、肝臓などに痛みあり、 御浄霊いただきますと腹部全体に膨脹を来し嘔気を催しますので人工嘔吐をいたしておりますが、 （一）人工嘔吐の是非、（二）腹部が急速に膨脹する原因についてお伺い申し上げます。<br><br> ま、これは毒が背中にあって歩くと胃へ還元するんですね。<br><br>これはもと服んだ薬ですね。<br><br>尿が一日十数回ってのは少し多いけど、たいしたことはないでしょう。<br><br> ――少しずつ出ます。<br><br> 出たくなるんですね。<br><br> ――はい、出たくなりますが少ししか出ません。<br><br> こりゃあ、なんだな、膀胱と尿道の間に毒があるんですね。<br><br>けど、こんなのなんでもないですよ。<br><br>肝臓の痛みもそこの毒のためですし、便秘は……この人食事は。<br><br> ――少のうございます。<br><br> ああ、少ないから便秘するんですよ。<br><br>けど、便秘なんかは差し支えありません、かえって世話なくていいでしょう（笑声）。<br><br>医学では便秘は悪いって言うけどそんなことはありませんよ。<br><br>私も毎日便所へ行くのは面倒くさいから便秘しようとしてやってみたんですが、やっぱりできなかったですね（笑声）。<br><br>アメーバー赤痢なんてのはデタラメですね。<br><br>この人はちょっと当分の間悩むでしょう。<br><br>薬の性質や濃淡は判りませんが、浄化しますね。<br><br>劇痛は浄化ですからね。<br><br>それから、毒が溶けてもそれが濃い場合にはしばらく溜まってるんで腹がふくれるんですね。<br><br>嘔吐は背中の毒が胃に還元してそれが出てくるんです。<br><br>だから人工嘔吐は差し支えありません。<br><br>いずれだんだん毒が減るにつれて治りますよ。<br><br> ――七十三歳の老人、十年前より尿道狭窄のところ、昨夏より腰が痛み尿が流れるようになるとともに臍の直下が瘤のように隆起しだし、ふだんは固く排尿するとゴムマリのように柔らかく小さくなります。<br><br>これは治りましょうか。<br><br> この尿道狭窄ってのは昔淋病をやった人がなるんです。<br><br>淋病ってのは苔みたいなもんでね、発病すると動物になり、治ってる間は植物ですからね。<br><br>この人のは淋菌が植物性になって固まってていくらかふえてるんですね。<br><br>それから小便の濃い人や薬毒の多い人は小便のカスが溜まって狭窄になるんですから、尿道をよく浄霊すればいいんです。<br><br>腰の痛みのほうは腎臓をよくすることですね。<br><br>尿をたれ流すのは尿道の神経が苔のために麻痺してるんだし、臍の下の瘤はちょっと薬毒がそこへ溜まり、やがてそれが小便になって出るんです。<br><br>だから少し気長にやってれば治りますよ。<br><br>このくらいの年になると腎臓が萎縮して働きが悪いから、腎臓をよく浄霊することですね。<br><br> ――従来、発芽促進のため稲、麦などを浸水いたしておりますが、こうした処置はその後の作物の生育にどのような影響がありましょうか。<br><br> これは、ふつうはしなくたっていいんですが、空気や土地が乾燥してる所では水に浸すと発芽が早いですね。<br><br>よく湯殿の湯につけるといいって言いますがね。<br><br>まあそうしなくったっていいですね。<br><br>と言うのは植物にはすべて適期と言ってそれに最も適当した季節があるものなんです。<br><br>だから、季節に遅れたりしたときには水に浸して発芽を早めたらいいでしょうね。<br><br> ――農村では習慣的に浸水をやっておりますが。<br><br> ありゃあ、嘘ですよ。<br><br>いま言ったように作物にはちゃんと適した季節があるんだから、早く蒔けば早く育つかって言うと、そうでもないんです。<br><br>私も以前枝豆でやってみたことがあるんです。<br><br>一度に種を蒔くと一度にたくさん穫れてしまって食べきれないから、二十日おきに種を蒔いてみたんですよ。<br><br>順々に獲って食べられるようにって、こういうわけなんですがね。<br><br>そしたら早く蒔いたほうはあまりできなくて、遅く蒔いたほうがたくさんできたんですよ。<br><br>ですからこういうふうにね、気候の暑い寒いや、なにかいろいろ原因があるから試してみるんですね。<br><br>そしてその土地に一番いい方法をとることですね。<br><br> ――田舎では暦を基準にして種蒔きをいたしますが、これは差し支えないでしょうか。<br><br> 差し支えますね。<br><br>なぜかって、土地によっていろいろ違いますからね。<br><br>昔は田舎のほうはあまり開けてなくて、開けた所だけあの暦を利用したんです。<br><br>だから暦の廃止はいいことですよ。<br><br>すべてが世界的になってきたんですからね。<br><br> ――土素中に含まれている窒素、燐酸、カリのうち、窒素は空中に含まれているとのことですが、燐酸やカリも空中に含まれておりましょうか。<br><br>あるいは土中のみに含まれているものでしょうか。<br><br> これはね、窒素ってのは土霊、地霊ですからね、こんなかにいっさいのものが含まれているんですよ。<br><br>酸素は火の霊、水素は水の霊、窒素は土の霊ですね。<br><br>そして、窒素は始終地上から発散して空中に溜まり、その溜まったのを今度は雨が下へおろすんですね。<br><br>そして地中に入る。<br><br>これを繰り返すんですが、それでちょうどいいんです。<br><br>いまは空中から窒素をとって肥料にしてますが、こんなことをやると窒素が多過ぎてしまうんです。<br><br>一時はいいけどしばらくするとかえって土がやせてきてしまうんですよ。<br><br>このことは本にも書いたでしょ。<br><br>窒素肥料はドイツが第一次大戦のとき発明したんだから、急の間に合わせるためならいいけど、ふだんこれを続けてては土がやせてしまっていけないんです。<br><br>そういうわけで、地霊の中に燐酸もカリもみんな含まれているんですね。<br><br> なによりの証拠はね、今年の稲作が思ったよりできなかったんです。<br><br>不作だったんですね。<br><br>最初の予定より一割くらい減ってますよ。<br><br>この一番の原因は虫の害なんですよ。<br><br>で、虫は肥料から湧くんですからね。<br><br>だから、戦争中は肥料が足りないからできないって言ってたんですが、今度は肥料が多過ぎて虫が湧いてできない……実にバカなもんですよ。<br><br>（笑声） ――一年中で一番日の長い夏至、一番短い冬至の暑寒はその日が最高であるはずですが、実際はどちらも一、二カ月後が最も劇（はげ）しいように感じられます。<br><br>これはなぜでしょうか。<br><br> 夏至と冬至とは寒暑の関係は次で、それよりも日の長い短いってことなんですよ。<br><br>夏至のときは太陽がちょうど真ん中を通り、冬至のときは一番端のほうを通るんですね。<br><br> 寒暑の劇しさがずれるのは、地球が息を吐くときと、太陽の通る道とずれてくるんです。<br><br>そしてこれは、ずれていていいんですね。<br><br>もしずれてなければ、暑いときにはものすごく暑く、寒いときにはまた非常に寒くなるから、まあ、神様がそういうふうに作られたんですね。<br><br> ――最近の新聞に太陽の二十七倍の高熱の星が米国で発見され、この星が太陽と同じくらいの距離にあれば地上の生物は残らず焼死するとのことですが、これには霊的の意味がございましょうか。<br><br> これはデタラメですよ。<br><br>太陽より熱いのなんて絶対ないんです。<br><br>学者ってのはいい加減な推定でやるんでまったく始末が悪い（笑声）。<br><br>また、太陽と同じ距離って言ってもそんなものはあるわけがない。<br><br>火星に人間がいるとか、月世界へ行くなんてこともよく言いますが、あんなことも絶対に嘘で、生物がいるのは地球だけであり、月世界へも絶対に行けないんです。<br><br>行けると思って研究してる人は、ま、一種の道楽ですね（笑声）。<br><br>月ってものは氷結してるんですからね。<br><br>月世界へ行ったら氷結してしまいますよ。<br><br> ――宇宙の大いさについてお伺い申し上げます。<br><br> ああ、これはね、だれでも疑問に思うんで、私もそうですよ。<br><br>この大宇宙は無限で、まったく限りがない。<br><br>ですからね、このことがたいしたことなんだってよく言うんですよ。<br><br>そして宇宙の構造は大きいほうも小さいほうも限りがない。<br><br>小さいほうの黴菌だってどこまで細かいか判らないし、原子力の微粒子だって同様です。<br><br>中間子なんて大きいほうですよ、いまの顕微鏡で見えるんですから。<br><br>浄霊するときこの掌から出る微粒子だって非常に細かくて原子と同じですよ。<br><br>私も今度書きましたが、中間子よりもっと細かいのが霊子です。<br><br>そしてその霊子の中でも一番細かいのが神霊子なんですね。<br><br>さらにその神霊子の中にもいろいろあり、その神霊の階級にもよるんですが、細かいほど強く、見えないほど無限の力がある。<br><br>このことはなかなか簡単には説明できないけど、いずれはもっとはっきり判るようになるんですよ。<br><br> この大宇宙はちょっと想像できませんね。<br><br>なにしろ突き当たりってのがないんだから（笑声）。<br><br>けれども、この大宇宙の中心は地球なんです。<br><br>要するに、こうして万物を存在させ、生きてるものの生命を持続させるために日月星辰があるんですからね。<br><br>宇宙の日月星辰などはすべては地球のためにあるんですよ。<br><br>ですから、この点が判ると地球は実に値打ちがあり、本当に尊いものであり、そしてさらに、この地球をよくしてゆく人間も実に尊いものであることが判ってくるんですよ。<br><br>けど、そいつが判らないから人間を軽蔑するんです。<br><br>まあ、あんまり汚いから軽蔑するようにもなるんで、こういうことが判ると人間ももっと立派になるんですがねえ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Respostas a Dúvidas dos Fiéis</h2>
 <p><strong>P: Em relação à origem do costume de celebrar o Ano-Novo comendo <em>zouni</em>, ouvi dizer que isso estaria relacionado ao aprisionamento da divindade Kuninotokotachi-no-Mikoto. O que o senhor nos diz a respeito?</strong></p>
@@ -143,5 +295,48 @@ function toggleLang(lang) {
 <p><strong>P: Gostaria de perguntar sobre a dimensão do Universo.</strong></p>
 <p>R: Ah, essa é uma dúvida que todos têm, inclusive eu. Este Grande Universo é infinito, não tem limites. Costumo dizer que este é um fato de suma importância. Sua estrutura é ilimitada tanto para o maior quanto para o menor. No microcosmo, não sabemos até que ponto um micróbio pode ser diminuto, e o mesmo vale para as partículas da energia atômica. O méson já é considerado grande, pois é visível com os microscópios atuais. As partículas que emanam da palma da mão durante o Johrei são extremamente finas, da mesma ordem que um átomo. Escrevi recentemente que, ainda menor que o méson, existe o <em>reishi</em>, a partícula espiritual. E a mais sutil dentre as partículas espirituais é o <em>shinreishi</em>, a partícula Divina. Dentro das próprias partículas Divinas há diversas categorias, que variam conforme a hierarquia espiritual, mas quanto mais sutil, mais poderosa; quanto mais invisível, mais infinito é o seu poder. Não é algo que se possa explicar com simplicidade, mas, com o tempo, se tornará mais claro.</p>
 <p>É difícil imaginar a dimensão deste Grande Universo. Afinal, não há um ponto final onde ele termina (risos). No entanto, o centro deste Grande Universo é a Terra. Em suma, os astros, o Sol e a Lua existem para permitir a existência de todas as coisas e para sustentar a vida dos seres vivos. Todos os corpos celestes do Universo existem em função da Terra. Portanto, ao compreender este ponto, percebemos o imenso valor e a sublime nobreza do nosso planeta. E, por extensão, compreendemos também a nobreza do ser humano, que tem a missão de aprimorar este mundo. Contudo, por não compreenderem essa verdade, as pessoas se desprezam umas às outras. É verdade que, por vezes, elas se tornam tão impuras que acabam por merecer esse desprezo. Se todos entendessem isso, a humanidade certamente se tornaria mais digna.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年1月**日） 『御光話録』17号、昭和25(1950)年2月28日発行 ――正月に雑煮を食べて祝う由来について……昔、国常立尊を押し込めたことと関係があるとも聞いておりますがいかがでしょうか。<br/><br/> この国常立尊のことは大本教で言うんですがね。<br/><br/>国常立尊は艮の金神とも、また鬼門の金神とも言いますが、その国常立尊を押し込めてその臓腑を煮て食ったことから雑煮を食べるんだって言うんですが、これは嘘とも思えないし、また本当とも思えませんね。<br/><br/> ――正月に御供え餅を十一日までお供えしておくのはなぜでしょうか。<br/><br/> 昔ね、これはあるいは江戸だけかもしれませんが、商人が正月に仕事を休んでて、十一日から商売を始めたんです。<br/><br/>で、この日を「蔵開きの御祝」って言うんですよ。<br/><br/>十一日まで鏡餅をお供えするのはこれから起ったんでしょうね。<br/><br/> ――過日の御論文にて、もはや仏界がまったくなくなった由ですが、そうなりましても幽世大神様のお名前はそのままでよろしいのでしょうか。<br/><br/> これはね、「まったく」なってしまったんじゃなくて、なりつつあるんです。<br/><br/>一遍に昼の世界になるんじゃなくて、だんだんになって行くんですから、ちょうど、太陽がだんだんに高く上るようにね。<br/><br/>ですから、まあ仏界の移動が始まったというところですね。<br/><br/>移動だって一日や二日じゃできませんからね。<br/><br/>ま、「昼の部に入った」というわけです。<br/><br/> 幽世大神のお名前は無論この通りですよ。<br/><br/>幽世大神は霊界が昼になったってありますからね。<br/><br/>……それから、いままでは第三天国くらいしかなかったんですが、今度初めて最高天国ができるんです。<br/><br/>その反対に最低地獄というものもなくなってくるんです。<br/><br/>まあ、キリスト教で言う「煉獄」、仏教で言う「無間地獄」、神道の「根底の国」といったものはなくなってくるんです。<br/><br/>これを現界で言えば、例えば牢屋なんかなくなる、重い罪を作るような人がいなくなりますからね。<br/><br/>そうなると一番重い刑罰は重労働ということになるんです。<br/><br/>だから、地下へ入って石炭を掘ることや火夫（かふ）のような苦しい仕事が重刑になるんです。<br/><br/>悪いことをする人がいなくなるから重い刑罰もなくなるんです。<br/><br/> ――恵方（えほう）詣りには大将軍を避けるようですが、大将軍についてお伺い申し上げます。<br/><br/> 大将軍ってのは国常立尊の息子で、ま、長男ですね。<br/><br/>○○教は大将軍が神懸ったと言われてますが、それに違いないでしょう。<br/><br/>大将軍は神代のころはあまり性質がよくなかったんです。<br/><br/>いまで言うドラ息子的だったんで、親父から勘当されてしまったんです（笑声）。<br/><br/>しかし、後になって改心していいことをしようとして開いたのが○○教だということですね。<br/><br/>○○教ではこのことを知ってるかどうですかね。<br/><br/>まあ、知っていたって言わないでしょうね、値打ちがさがっちゃうから。<br/><br/>（笑声） で、大将軍ってのは国常立尊のあととりだから、やっぱりおっかないほうの神様なんです。<br/><br/>国常立尊は始終私を守護してくれてますし、それからまた、観音様の御本体は国常立尊ですからね。<br/><br/>だから邪神どもが怖がって世に出ないようにしてるんですよ。<br/><br/>新聞なんかがさかんに観音教を悪く書き立ててるのもこのためなんですね。<br/><br/>そしてまた、いままで鬼門が悪いと言われてたのも同様の意味ですよ。<br/><br/> ――大将軍の方角は三年ずつとか申しますが。<br/><br/> いや、一年でしょう。<br/><br/> ――朝鮮や支那でも大将軍ということを申すようですが、これは同じでしょうか。<br/><br/> ええ、同じですね。<br/><br/> ――賭博心理というものは生活を強く支配するように見られ、先進国でもさかんのようですし国内でも賭博は勿論、株や戦後の宝くじ、競馬、競輪などのスポーツもこの心理に左右されておりますし、さらに企業や、地位名誉を得るために一種の投機的心理の動きによる場合も多いように存ぜられます。<br/><br/>また、捨鉢的な生活態度もその影響のように考えられます。<br/><br/>将来昼の世界になりました場合、かかる賭博心理やこれと関連あるような好奇心、多くの恋愛、冒険、投機心などはどのようになりましょうか。<br/><br/> 投機心理は将来ずっと減りますよ。<br/><br/>これは悪ですからね。<br/><br/>その代わりスポーツはずっとさかんになりますね。<br/><br/>それから、冒険や恋愛は変わりませんね。<br/><br/>しかし、恋愛だって女房があるのに外に女を作って、女房をおっぽり出すようなことはないですね。<br/><br/>そんなふうな邪恋はなくなるんですよ。<br/><br/>人を苦しめるのは邪恋ですからね、だからいけないんです。<br/><br/> ――賭け事などはいかがでしょうか。<br/><br/> 賭け事は損した人が苦しむんだからいけせんね。<br/><br/>ま、宝くじくらいはいいでしょう。<br/><br/>それから、株もいいけど、相場のために株をやるのはいけませんね。<br/><br/>投資として、余ってる金を投資してその歩合をもらうことは差し支えありませんがね。<br/><br/> 競馬や競輪なんかは賭け方がいまのやり方と違ってくるでしょうね。<br/><br/>例えば、入場料をもっと高くして、馬なら馬に札を入れてそれが当たった場合に賞金がもらえる……というふうになるでしょうね。<br/><br/>こういう方法なら当たらなくてもたいして損はしませんからね。<br/><br/>捨鉢的な気持ちなんかはそういう悪いことをするからなるんです。<br/><br/>だから昼の世界になれば、要するに邪悪が減ってくるんです。<br/><br/>人間には投機心や競争心があるんだから、それをいいほうへ向けることが必要なんですよ。<br/><br/> ――歌舞伎役者の女形やオペラの男役になる婦人は霊的に意味がございましょうか。<br/><br/> 大いにありますね、つまり女形になるような人は女の生まれ変わりなんですよ。<br/><br/>だから、いい女形になると「のどぼとけ」がないって言われてますね。<br/><br/>以前新派の某という役者は「のどぼとけ」がなくてまったく女でしたよ。<br/><br/>オペラの男役なんかも男の生まれ変わりです。<br/><br/>ターキーなんか男だったんですね（笑声）。<br/><br/>だから女に人気が出るのは女がその「男性」に惚れるんです。<br/><br/>同様に同性愛なんかも、二人のうちのいっぽうが男になり他方が女になるんですね。<br/><br/>だから「あんな男みたいな女のどこがいったいいいんだろう」なんていうような女が女学校ではモテるんですよ。<br/><br/>（笑声） ――生まれ変わった当人は異性を嫌うものでしょうか。<br/><br/> そうなんですね。<br/><br/>……私も前世は女だったんです。<br/><br/>だから私の体は毛が少なくて、ちょうど女の膚のようですよ（笑声）。<br/><br/>釈迦も変性女子だったんですね、だから独身でおられたんです。<br/><br/>まあ、女の分子が多かったんですね。<br/><br/>そのくせ、お釈迦さんは女を汚らわしいもんだなんて言ったけど、あれはお釈迦さんとしてはムゴイですね（笑声）。<br/><br/> （『御光話録』三号参照） ――三十四歳の男、七年前胃の付近が歩行のたびに軽痛を感じ尿が少量ずつ二日十数回出ました。<br/><br/>しだいに肝臓も痛み出し便秘するようになり、医師は肝臓にアメーバー赤痢が入ったとてそうとう注射をいたしましたが効果がありませんでした。<br/><br/>昭和二十二年二月入信いたしましたが、現在左右肩甲骨、脊柱両側、肝臓などに痛みあり、 御浄霊いただきますと腹部全体に膨脹を来し嘔気を催しますので人工嘔吐をいたしておりますが、 （一）人工嘔吐の是非、（二）腹部が急速に膨脹する原因についてお伺い申し上げます。<br/><br/> ま、これは毒が背中にあって歩くと胃へ還元するんですね。<br/><br/>これはもと服んだ薬ですね。<br/><br/>尿が一日十数回ってのは少し多いけど、たいしたことはないでしょう。<br/><br/> ――少しずつ出ます。<br/><br/> 出たくなるんですね。<br/><br/> ――はい、出たくなりますが少ししか出ません。<br/><br/> こりゃあ、なんだな、膀胱と尿道の間に毒があるんですね。<br/><br/>けど、こんなのなんでもないですよ。<br/><br/>肝臓の痛みもそこの毒のためですし、便秘は……この人食事は。<br/><br/> ――少のうございます。<br/><br/> ああ、少ないから便秘するんですよ。<br/><br/>けど、便秘なんかは差し支えありません、かえって世話なくていいでしょう（笑声）。<br/><br/>医学では便秘は悪いって言うけどそんなことはありませんよ。<br/><br/>私も毎日便所へ行くのは面倒くさいから便秘しようとしてやってみたんですが、やっぱりできなかったですね（笑声）。<br/><br/>アメーバー赤痢なんてのはデタラメですね。<br/><br/>この人はちょっと当分の間悩むでしょう。<br/><br/>薬の性質や濃淡は判りませんが、浄化しますね。<br/><br/>劇痛は浄化ですからね。<br/><br/>それから、毒が溶けてもそれが濃い場合にはしばらく溜まってるんで腹がふくれるんですね。<br/><br/>嘔吐は背中の毒が胃に還元してそれが出てくるんです。<br/><br/>だから人工嘔吐は差し支えありません。<br/><br/>いずれだんだん毒が減るにつれて治りますよ。<br/><br/> ――七十三歳の老人、十年前より尿道狭窄のところ、昨夏より腰が痛み尿が流れるようになるとともに臍の直下が瘤のように隆起しだし、ふだんは固く排尿するとゴムマリのように柔らかく小さくなります。<br/><br/>これは治りましょうか。<br/><br/> この尿道狭窄ってのは昔淋病をやった人がなるんです。<br/><br/>淋病ってのは苔みたいなもんでね、発病すると動物になり、治ってる間は植物ですからね。<br/><br/>この人のは淋菌が植物性になって固まってていくらかふえてるんですね。<br/><br/>それから小便の濃い人や薬毒の多い人は小便のカスが溜まって狭窄になるんですから、尿道をよく浄霊すればいいんです。<br/><br/>腰の痛みのほうは腎臓をよくすることですね。<br/><br/>尿をたれ流すのは尿道の神経が苔のために麻痺してるんだし、臍の下の瘤はちょっと薬毒がそこへ溜まり、やがてそれが小便になって出るんです。<br/><br/>だから少し気長にやってれば治りますよ。<br/><br/>このくらいの年になると腎臓が萎縮して働きが悪いから、腎臓をよく浄霊することですね。<br/><br/> ――従来、発芽促進のため稲、麦などを浸水いたしておりますが、こうした処置はその後の作物の生育にどのような影響がありましょうか。<br/><br/> これは、ふつうはしなくたっていいんですが、空気や土地が乾燥してる所では水に浸すと発芽が早いですね。<br/><br/>よく湯殿の湯につけるといいって言いますがね。<br/><br/>まあそうしなくったっていいですね。<br/><br/>と言うのは植物にはすべて適期と言ってそれに最も適当した季節があるものなんです。<br/><br/>だから、季節に遅れたりしたときには水に浸して発芽を早めたらいいでしょうね。<br/><br/> ――農村では習慣的に浸水をやっておりますが。<br/><br/> ありゃあ、嘘ですよ。<br/><br/>いま言ったように作物にはちゃんと適した季節があるんだから、早く蒔けば早く育つかって言うと、そうでもないんです。<br/><br/>私も以前枝豆でやってみたことがあるんです。<br/><br/>一度に種を蒔くと一度にたくさん穫れてしまって食べきれないから、二十日おきに種を蒔いてみたんですよ。<br/><br/>順々に獲って食べられるようにって、こういうわけなんですがね。<br/><br/>そしたら早く蒔いたほうはあまりできなくて、遅く蒔いたほうがたくさんできたんですよ。<br/><br/>ですからこういうふうにね、気候の暑い寒いや、なにかいろいろ原因があるから試してみるんですね。<br/><br/>そしてその土地に一番いい方法をとることですね。<br/><br/> ――田舎では暦を基準にして種蒔きをいたしますが、これは差し支えないでしょうか。<br/><br/> 差し支えますね。<br/><br/>なぜかって、土地によっていろいろ違いますからね。<br/><br/>昔は田舎のほうはあまり開けてなくて、開けた所だけあの暦を利用したんです。<br/><br/>だから暦の廃止はいいことですよ。<br/><br/>すべてが世界的になってきたんですからね。<br/><br/> ――土素中に含まれている窒素、燐酸、カリのうち、窒素は空中に含まれているとのことですが、燐酸やカリも空中に含まれておりましょうか。<br/><br/>あるいは土中のみに含まれているものでしょうか。<br/><br/> これはね、窒素ってのは土霊、地霊ですからね、こんなかにいっさいのものが含まれているんですよ。<br/><br/>酸素は火の霊、水素は水の霊、窒素は土の霊ですね。<br/><br/>そして、窒素は始終地上から発散して空中に溜まり、その溜まったのを今度は雨が下へおろすんですね。<br/><br/>そして地中に入る。<br/><br/>これを繰り返すんですが、それでちょうどいいんです。<br/><br/>いまは空中から窒素をとって肥料にしてますが、こんなことをやると窒素が多過ぎてしまうんです。<br/><br/>一時はいいけどしばらくするとかえって土がやせてきてしまうんですよ。<br/><br/>このことは本にも書いたでしょ。<br/><br/>窒素肥料はドイツが第一次大戦のとき発明したんだから、急の間に合わせるためならいいけど、ふだんこれを続けてては土がやせてしまっていけないんです。<br/><br/>そういうわけで、地霊の中に燐酸もカリもみんな含まれているんですね。<br/><br/> なによりの証拠はね、今年の稲作が思ったよりできなかったんです。<br/><br/>不作だったんですね。<br/><br/>最初の予定より一割くらい減ってますよ。<br/><br/>この一番の原因は虫の害なんですよ。<br/><br/>で、虫は肥料から湧くんですからね。<br/><br/>だから、戦争中は肥料が足りないからできないって言ってたんですが、今度は肥料が多過ぎて虫が湧いてできない……実にバカなもんですよ。<br/><br/>（笑声） ――一年中で一番日の長い夏至、一番短い冬至の暑寒はその日が最高であるはずですが、実際はどちらも一、二カ月後が最も劇（はげ）しいように感じられます。<br/><br/>これはなぜでしょうか。<br/><br/> 夏至と冬至とは寒暑の関係は次で、それよりも日の長い短いってことなんですよ。<br/><br/>夏至のときは太陽がちょうど真ん中を通り、冬至のときは一番端のほうを通るんですね。<br/><br/> 寒暑の劇しさがずれるのは、地球が息を吐くときと、太陽の通る道とずれてくるんです。<br/><br/>そしてこれは、ずれていていいんですね。<br/><br/>もしずれてなければ、暑いときにはものすごく暑く、寒いときにはまた非常に寒くなるから、まあ、神様がそういうふうに作られたんですね。<br/><br/> ――最近の新聞に太陽の二十七倍の高熱の星が米国で発見され、この星が太陽と同じくらいの距離にあれば地上の生物は残らず焼死するとのことですが、これには霊的の意味がございましょうか。<br/><br/> これはデタラメですよ。<br/><br/>太陽より熱いのなんて絶対ないんです。<br/><br/>学者ってのはいい加減な推定でやるんでまったく始末が悪い（笑声）。<br/><br/>また、太陽と同じ距離って言ってもそんなものはあるわけがない。<br/><br/>火星に人間がいるとか、月世界へ行くなんてこともよく言いますが、あんなことも絶対に嘘で、生物がいるのは地球だけであり、月世界へも絶対に行けないんです。<br/><br/>行けると思って研究してる人は、ま、一種の道楽ですね（笑声）。<br/><br/>月ってものは氷結してるんですからね。<br/><br/>月世界へ行ったら氷結してしまいますよ。<br/><br/> ――宇宙の大いさについてお伺い申し上げます。<br/><br/> ああ、これはね、だれでも疑問に思うんで、私もそうですよ。<br/><br/>この大宇宙は無限で、まったく限りがない。<br/><br/>ですからね、このことがたいしたことなんだってよく言うんですよ。<br/><br/>そして宇宙の構造は大きいほうも小さいほうも限りがない。<br/><br/>小さいほうの黴菌だってどこまで細かいか判らないし、原子力の微粒子だって同様です。<br/><br/>中間子なんて大きいほうですよ、いまの顕微鏡で見えるんですから。<br/><br/>浄霊するときこの掌から出る微粒子だって非常に細かくて原子と同じですよ。<br/><br/>私も今度書きましたが、中間子よりもっと細かいのが霊子です。<br/><br/>そしてその霊子の中でも一番細かいのが神霊子なんですね。<br/><br/>さらにその神霊子の中にもいろいろあり、その神霊の階級にもよるんですが、細かいほど強く、見えないほど無限の力がある。<br/><br/>このことはなかなか簡単には説明できないけど、いずれはもっとはっきり判るようになるんですよ。<br/><br/> この大宇宙はちょっと想像できませんね。<br/><br/>なにしろ突き当たりってのがないんだから（笑声）。<br/><br/>けれども、この大宇宙の中心は地球なんです。<br/><br/>要するに、こうして万物を存在させ、生きてるものの生命を持続させるために日月星辰があるんですからね。<br/><br/>宇宙の日月星辰などはすべては地球のためにあるんですよ。<br/><br/>ですから、この点が判ると地球は実に値打ちがあり、本当に尊いものであり、そしてさらに、この地球をよくしてゆく人間も実に尊いものであることが判ってくるんですよ。<br/><br/>けど、そいつが判らないから人間を軽蔑するんです。<br/><br/>まあ、あんまり汚いから軽蔑するようにもなるんで、こういうことが判ると人間ももっと立派になるんですがねえ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

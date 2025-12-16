@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo20</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教となるまで 自観叢書第9篇『光への道』P.45、昭和24(1949)年12月30日発行 治療をやめたのは十五年末で、それから十九年春まで、おもに治療師養成に専念した。<br><br>ところが世の中は戦時色が段々濃厚になり、十六年十二月八日いよいよ火蓋を切る事になったが、東京は無論爆撃のため焼土と化する事は、以前から判っていたので、前もって信者にも注意を与えていたのである。<br><br>私もその場合の悲惨事を想像し、見聞する事の堪えられないばかりか、全然仕事も出来なくなるので、疎開すべく、かねて心中ひそかに決めておった箱根強羅を探さしたところ、今の神山荘が見当った。<br><br>これは元、藤山雷太氏が建てた家で、嫡子である愛一郎氏から購入する事になったのである。<br><br>代価は当時の事とて十六万円であったが、私の手許には六万円しかなかった。<br><br>がその少し以前、某信者数氏から十万円程の献金があったので、ちょうど過不足なく手に入れる事が出来たのである。<br><br>その時が十九年五月で、間もなく移転したが、それから二ケ月経た七月、熱海に好適な売物があるのでみてくれというので見に行った。<br><br>ところが非常に気に入った。<br><br>それが東山荘である。<br><br>この家は元、山下亀三郎氏の別荘であったが売価七十万円というのであまり高価のため一時は諦めたが、どうも欲しくて堪らない。<br><br>するとこれを聞いた某氏および信者諸氏から、漸次献金があり、右の家を手に入れる事が出来て引移ったのがその年の九月であった。<br><br> 戦時中の事はあまりかく必要がないが、とにかく、奇蹟の多かった事は素晴しいものであった。<br><br>戦禍による災害を蒙ったものはほとんど一人もないといってもいいくらいだ。<br><br>雨霰（あられ）と降る爆弾がその人をよけてゆきいささかの被害もなかった話や、煙に取巻かれ、進退きわまった時、道案内するかのように、煙の幕の一部に人の通るくらいの間隙が出来た事や、飛行機から機銃掃射をされたが、弾はその人を除けて前後左右に落下した事など数限りない生命拾いの体験を、毎日のように聞かされたものである。<br><br> いよいよ終戦当日二十年八月十五日の翌十六日、信者数十名が参拝に来た。<br><br>ほとんどの人はあまりの意外な結果に、精神喪失者のような有様であったが、その時私はこう言った。<br><br>大きな声では言えないが、この結果は、本当からいえば大いに祝わなくてはならないのであるが、今は言えないが段々に判るといったのであった。<br><br>そんな訳で私は嬉しくてならなかった。<br><br>というのは日本は本当の正しい国になる時機が、いよいよ来たからである。<br><br>判りやすくいえば、ヤクザ商売から足を洗って、堅気になったようなものだ。<br><br>それまでの日本はいわば国家的ヤクザといってもいい。<br><br>暴力を揮って弱い者虐めをやり、縄張りを段々拡げて来て、ついに有頂天になってしまったので、神様はアメリカの手を借りて警察権を揮い、大鉄槌を加え、ヤクザ稼業から足を洗わざるを得なくさせたからである。<br><br> 戦時中おもしろい一挿話があった。<br><br>それは特高警察官の一人が来ていわく、「君の方で病気が治るのは、観音様が治すのではない。<br><br>天皇陛下の御稜威（みいつ）で治るのだから、治った場合、天皇陛下に御礼をいうのが本当だ」との事であるから、私は病気の治った人は二重橋前へお礼にゆかなければならないと言った事があった。<br><br>これをみても当時の空気が判るのである。<br><br> 今一つこういう事もあった。<br><br>私はブラックリストに載っていたので、行く先々の警察から、いつも警戒の眼を放されなかった。<br><br>それがため私が熱海へ引移った早々、警察吏がある嫌疑で訪ねて来た時、ラジオが二、三台あったので、それを専門店へ運んで綿密な検査をさせた事があった。<br><br>どういう訳かというと、アメリカと短波で通信しているという疑いからだと聞いて実に滑稽と思った。<br><br>また東山荘の向かい側の家に刑事が張込んでいて、日々出入の多くの信者を詳細に記録したという事もあった。<br><br> その頃、特高主任の歎声を聞いた事がある。<br><br>「岡田の奴を挙げようとして随分査べたが、何にも材料がないので困ってしまう」というので私は笑わずにはおれなかった。<br><br>なぜなれば、材料があるから挙げるので、何にもなければ良民である。<br><br>それを困ったというのは故意に犯罪者にしようとするからである。<br><br>実に解するに苦しむと言った事がある。<br><br>これらによってみても当時、いかに封建的警察制度が人民を苦しめたかが窺（うかが）われるのである。<br><br> 非常に大雑把ではあるが、私が通って来た経路は大体記（か）いたつもりであるが、ただ今言う事の出来ない神秘な事だけは時期を待ってかくつもりである。<br><br>ただ長い間病気治療に従事していた時の興味あるものを抜出してかいてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Trajetória Durante a Guerra e a Missão Divina</h2>
 <p>No final de 1940, cessei minhas atividades de cura e, até a primavera de 1944, dediquei-me principalmente à formação de terapeutas. Entretanto, o clima de guerra no país se intensificava progressivamente, até que, em 8 de dezembro de 1941, o conflito teve seu estopim. Eu já sabia, de antemão, que Tóquio seria inevitavelmente reduzida a cinzas pelos bombardeios, e por isso já havia alertado os fiéis. A simples imaginação de tal tragédia era-me insuportável, sem contar que me seria impossível prosseguir com meu trabalho. Decidi, portanto, buscar refúgio em Hakone-Gora, um lugar que há tempos guardava em meu coração para tal finalidade. Foi então que encontrei a atual propriedade, Kanzanso. A casa fora construída pelo Sr. Raida Fujiyama, e eu a adquiri de seu primogênito, o Sr. Aiichiro. O valor na época era de cento e sessenta mil ienes, contudo, eu dispunha de apenas sessenta mil. Providencialmente, pouco antes, eu havia recebido uma doação de aproximadamente cem mil ienes de alguns fiéis, o que me permitiu adquirir o imóvel sem que nada faltasse ou sobrasse. Isso ocorreu em maio de 1944, e a mudança se deu logo em seguida.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Houve também outro caso. Por constar em uma lista de suspeitos, eu era constantemente vigiado pela polícia em todos os lugares aonde ia. Logo que me mudei para Atami, um policial veio me visitar sob certa suspeita. Ao encontrar dois ou três aparelhos de rádio, ordenou que fossem levados a uma oficina especializada para uma inspeção minuciosa. Soube depois que a suspeita era de que eu estaria me comunicando com os Estados Unidos por ondas curtas, o que achei francamente cômico. Houve também um período em que um detetive ficou de prontidão na casa em frente ao Tozanso, registrando detalhadamente o grande número de fiéis que me visitavam diariamente.</p>
 <p>Certa vez, ouvi o lamento de um chefe da Tokko: "Investigamos o tal Okada exaustivamente para prendê-lo, mas é frustrante não encontrar material algum contra ele". Não pude deixar de rir. Afinal, prende-se alguém quando há provas; se nada existe, trata-se de um cidadão de bem. A frustração dele nascia da intenção deliberada de me transformar em criminoso. É de se ficar perplexo. Esses exemplos revelam o quanto o sistema policial feudal da época oprimia o povo.</p>
 <p>Embora de forma bastante sucinta, creio ter delineado a trajetória que percorri até aqui. Contudo, os assuntos de natureza mística, sobre os quais não posso discorrer no momento, serão revelados por escrito quando o tempo for oportuno. Por ora, pretendo extrair e relatar alguns dos casos mais interessantes do longo período em que me dediquei à cura de doenças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教となるまで 自観叢書第9篇『光への道』P.45、昭和24(1949)年12月30日発行 治療をやめたのは十五年末で、それから十九年春まで、おもに治療師養成に専念した。<br/><br/>ところが世の中は戦時色が段々濃厚になり、十六年十二月八日いよいよ火蓋を切る事になったが、東京は無論爆撃のため焼土と化する事は、以前から判っていたので、前もって信者にも注意を与えていたのである。<br/><br/>私もその場合の悲惨事を想像し、見聞する事の堪えられないばかりか、全然仕事も出来なくなるので、疎開すべく、かねて心中ひそかに決めておった箱根強羅を探さしたところ、今の神山荘が見当った。<br/><br/>これは元、藤山雷太氏が建てた家で、嫡子である愛一郎氏から購入する事になったのである。<br/><br/>代価は当時の事とて十六万円であったが、私の手許には六万円しかなかった。<br/><br/>がその少し以前、某信者数氏から十万円程の献金があったので、ちょうど過不足なく手に入れる事が出来たのである。<br/><br/>その時が十九年五月で、間もなく移転したが、それから二ケ月経た七月、熱海に好適な売物があるのでみてくれというので見に行った。<br/><br/>ところが非常に気に入った。<br/><br/>それが東山荘である。<br/><br/>この家は元、山下亀三郎氏の別荘であったが売価七十万円というのであまり高価のため一時は諦めたが、どうも欲しくて堪らない。<br/><br/>するとこれを聞いた某氏および信者諸氏から、漸次献金があり、右の家を手に入れる事が出来て引移ったのがその年の九月であった。<br/><br/> 戦時中の事はあまりかく必要がないが、とにかく、奇蹟の多かった事は素晴しいものであった。<br/><br/>戦禍による災害を蒙ったものはほとんど一人もないといってもいいくらいだ。<br/><br/>雨霰（あられ）と降る爆弾がその人をよけてゆきいささかの被害もなかった話や、煙に取巻かれ、進退きわまった時、道案内するかのように、煙の幕の一部に人の通るくらいの間隙が出来た事や、飛行機から機銃掃射をされたが、弾はその人を除けて前後左右に落下した事など数限りない生命拾いの体験を、毎日のように聞かされたものである。<br/><br/> いよいよ終戦当日二十年八月十五日の翌十六日、信者数十名が参拝に来た。<br/><br/>ほとんどの人はあまりの意外な結果に、精神喪失者のような有様であったが、その時私はこう言った。<br/><br/>大きな声では言えないが、この結果は、本当からいえば大いに祝わなくてはならないのであるが、今は言えないが段々に判るといったのであった。<br/><br/>そんな訳で私は嬉しくてならなかった。<br/><br/>というのは日本は本当の正しい国になる時機が、いよいよ来たからである。<br/><br/>判りやすくいえば、ヤクザ商売から足を洗って、堅気になったようなものだ。<br/><br/>それまでの日本はいわば国家的ヤクザといってもいい。<br/><br/>暴力を揮って弱い者虐めをやり、縄張りを段々拡げて来て、ついに有頂天になってしまったので、神様はアメリカの手を借りて警察権を揮い、大鉄槌を加え、ヤクザ稼業から足を洗わざるを得なくさせたからである。<br/><br/> 戦時中おもしろい一挿話があった。<br/><br/>それは特高警察官の一人が来ていわく、「君の方で病気が治るのは、観音様が治すのではない。<br/><br/>天皇陛下の御稜威（みいつ）で治るのだから、治った場合、天皇陛下に御礼をいうのが本当だ」との事であるから、私は病気の治った人は二重橋前へお礼にゆかなければならないと言った事があった。<br/><br/>これをみても当時の空気が判るのである。<br/><br/> 今一つこういう事もあった。<br/><br/>私はブラックリストに載っていたので、行く先々の警察から、いつも警戒の眼を放されなかった。<br/><br/>それがため私が熱海へ引移った早々、警察吏がある嫌疑で訪ねて来た時、ラジオが二、三台あったので、それを専門店へ運んで綿密な検査をさせた事があった。<br/><br/>どういう訳かというと、アメリカと短波で通信しているという疑いからだと聞いて実に滑稽と思った。<br/><br/>また東山荘の向かい側の家に刑事が張込んでいて、日々出入の多くの信者を詳細に記録したという事もあった。<br/><br/> その頃、特高主任の歎声を聞いた事がある。<br/><br/>「岡田の奴を挙げようとして随分査べたが、何にも材料がないので困ってしまう」というので私は笑わずにはおれなかった。<br/><br/>なぜなれば、材料があるから挙げるので、何にもなければ良民である。<br/><br/>それを困ったというのは故意に犯罪者にしようとするからである。<br/><br/>実に解するに苦しむと言った事がある。<br/><br/>これらによってみても当時、いかに封建的警察制度が人民を苦しめたかが窺（うかが）われるのである。<br/><br/> 非常に大雑把ではあるが、私が通って来た経路は大体記（か）いたつもりであるが、ただ今言う事の出来ない神秘な事だけは時期を待ってかくつもりである。<br/><br/>ただ長い間病気治療に従事していた時の興味あるものを抜出してかいてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

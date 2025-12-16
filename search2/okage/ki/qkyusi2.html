@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkyusi2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 九死に一生！！自動車諸共谷川に落ちて助かる 『光』4号、昭和24(1949)年4月8日発行 岐阜県 清霊中教会 桑原規雄（22） 二月十二日の事でした。<br><br>私の家へ二台のトラックが来ました。<br><br>兄が薪運搬に頼まれて来たのです。<br><br>その時兄は私に一人では手が廻らぬから奥へ行って薪を積んで来るように命じました。<br><br>五寸程の降雪でうすら寒い朝でした。<br><br>二十町程の林道の急坂路をスリップしながら上って漸く目的地に到着し、汗みどろになって運転手達と自動車一ばいの薪を積んでロープを締め「実に立派な荷物だね」などと笑話を言ったのでしたが、私は余り沢山積み過ぎたのではないかと心配しましたが、運転手達は一向平気ではや出発の準備を始めました。<br><br>私は知らぬながらもトラックの各所を見廻しておりましたが、エンジンが唸り始めたので運転手と助手の間に腰をおろしました。<br><br>行く手はゴーゴーと飛沫をあげて流れる谷川で右は山という急勾配の下り坂を物の二、三分も走って行った時の事でした。<br><br>急に運転手がアッと叫びました途端に「駄目だブレーキが切れた」と言いました。<br><br>次いで急ブレーキを引いて見たが駄目らしいのです。<br><br>自動車は益々加速度がついて来るのです。<br><br> 私は心の中で、アア光明如来様どうぞ私共を……私は必死で手を合わせてしまいました。<br><br>だが依然として自動車は物凄い勢いで走ってとまりません。<br><br>運転手はもう駄目だ、ひっくり返して止めようと思ったのでしょう、急に右の山へぶっつけてしまいました。<br><br>アッという間もあらばこそ自動車は谷川の中へひっくり返ってしまいました。<br><br>途中の私達には後側のガラスが砕けてガチャガチャととび散るやらペンチ、プライヤ、スパナ等道具類がとび出して来るやら、目もあけられない程でおまけに腰掛が外れて体の激しい動揺に目も眩む程でした。<br><br>漸く身体が落着いてみると車の油や、コールタールがタラタラと頭上へ降ってくるので、アア仰向きになったのだなあと初めて意識したのがおかしい位でした。<br><br>途端に私は運転手達の身の上を心配し思わずドキッとして見廻すと、私の足下に運転手が腹這いになっているのです。<br><br>「どうだね、大丈夫ですか」と言うと「うん大丈夫だ」私はホッとしましたが、アア自分達は光明如来様の御利益で助かった、有難いと思う心が一ぱいになって来て、思わず「運転手さん僕は光明如来様のお守を持っていたから大丈夫だったんだよ」と言うと運転手さんは暫く沈黙していたが「オヤ助手公は」と言うと突然「光明如来様どころじゃない、オーイオーイ」と言って呼びました。<br><br>私もフト心配になってしまいました。<br><br>すると助手は道路上に靴を片方持って立っているのでした。<br><br>「どうだね、どうして出て来たんだ」と聞く二人の言葉の終らぬ間に彼は「僕はねえ、車体が横倒しになったトタンにドアーが開いて又一廻転する間にこぼれ落ちたんだ」と呼吸をはずませて言ったので皆一時にドッと笑ってしまいました。<br><br>やはりそれは助かった喜びから漏れた言葉なのでした。<br><br> 私は昭和二十一年の七月三十日に揖斐郡谷汲村の山岸賢司先生のお家へお参りして、愛知県一宮市の渡辺先生よりお光を拝受したのですが、それ以来山岸先生および私の村（本巣郡外山村）の桑原重市先生の御情深い御指導をうけておりまして、光明如来様の力徳と御慈悲のお話をお聞きしていたのですが、この度のようにハッキリと御利益を頂き御救いにあってはもう何も疑うことも出来なくなり、以来本当にありがたく感謝の気持一ぱいでお参りを続けて、先生から種々お話を伺うのが楽しみになり日々の家業も面白く送っております。<br><br>私はいつも思うに自分はどうしてもっと早くこの道を求めなかったのか、又人間はどうしてこんな立派な御教えを御利益を御力徳を信じられないのかと他の皆様の事が思いやられます。<br><br>謹んで御礼申し上げます。<br><br> （昭和二十四年四月八日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Escapada da Morte: Salvo após Cair com o Caminhão em um Rio no Vale</h2>
 <p><strong>Coletânea de Ensaios do Reverendo Jikan Okada</strong>
@@ -104,5 +259,48 @@ function toggleLang(lang) {
 <p>Contudo, ao receber uma proteção tão inequívoca e ser salvo de forma tão clara, todas as minhas dúvidas se dissiparam. Desde aquele dia, uma gratidão imensa preenche meu coração. Participar das reuniões e ouvir os ensinamentos de meus orientadores tornou-se uma grande alegria, e até mesmo as tarefas cotidianas em casa passaram a ter um novo sabor.</p>
 <p>Muitas vezes me pergunto por que não encontrei este Caminho antes e me entristeço ao pensar em tantas pessoas que ainda não conseguem crer nestes Ensinamentos sublimes e no seu poder e virtude. Com o mais profundo respeito, expresso minha gratidão.</p>
 <p>(8 de abril de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 九死に一生！！自動車諸共谷川に落ちて助かる 『光』4号、昭和24(1949)年4月8日発行 岐阜県 清霊中教会 桑原規雄（22） 二月十二日の事でした。<br/><br/>私の家へ二台のトラックが来ました。<br/><br/>兄が薪運搬に頼まれて来たのです。<br/><br/>その時兄は私に一人では手が廻らぬから奥へ行って薪を積んで来るように命じました。<br/><br/>五寸程の降雪でうすら寒い朝でした。<br/><br/>二十町程の林道の急坂路をスリップしながら上って漸く目的地に到着し、汗みどろになって運転手達と自動車一ばいの薪を積んでロープを締め「実に立派な荷物だね」などと笑話を言ったのでしたが、私は余り沢山積み過ぎたのではないかと心配しましたが、運転手達は一向平気ではや出発の準備を始めました。<br/><br/>私は知らぬながらもトラックの各所を見廻しておりましたが、エンジンが唸り始めたので運転手と助手の間に腰をおろしました。<br/><br/>行く手はゴーゴーと飛沫をあげて流れる谷川で右は山という急勾配の下り坂を物の二、三分も走って行った時の事でした。<br/><br/>急に運転手がアッと叫びました途端に「駄目だブレーキが切れた」と言いました。<br/><br/>次いで急ブレーキを引いて見たが駄目らしいのです。<br/><br/>自動車は益々加速度がついて来るのです。<br/><br/> 私は心の中で、アア光明如来様どうぞ私共を……私は必死で手を合わせてしまいました。<br/><br/>だが依然として自動車は物凄い勢いで走ってとまりません。<br/><br/>運転手はもう駄目だ、ひっくり返して止めようと思ったのでしょう、急に右の山へぶっつけてしまいました。<br/><br/>アッという間もあらばこそ自動車は谷川の中へひっくり返ってしまいました。<br/><br/>途中の私達には後側のガラスが砕けてガチャガチャととび散るやらペンチ、プライヤ、スパナ等道具類がとび出して来るやら、目もあけられない程でおまけに腰掛が外れて体の激しい動揺に目も眩む程でした。<br/><br/>漸く身体が落着いてみると車の油や、コールタールがタラタラと頭上へ降ってくるので、アア仰向きになったのだなあと初めて意識したのがおかしい位でした。<br/><br/>途端に私は運転手達の身の上を心配し思わずドキッとして見廻すと、私の足下に運転手が腹這いになっているのです。<br/><br/>「どうだね、大丈夫ですか」と言うと「うん大丈夫だ」私はホッとしましたが、アア自分達は光明如来様の御利益で助かった、有難いと思う心が一ぱいになって来て、思わず「運転手さん僕は光明如来様のお守を持っていたから大丈夫だったんだよ」と言うと運転手さんは暫く沈黙していたが「オヤ助手公は」と言うと突然「光明如来様どころじゃない、オーイオーイ」と言って呼びました。<br/><br/>私もフト心配になってしまいました。<br/><br/>すると助手は道路上に靴を片方持って立っているのでした。<br/><br/>「どうだね、どうして出て来たんだ」と聞く二人の言葉の終らぬ間に彼は「僕はねえ、車体が横倒しになったトタンにドアーが開いて又一廻転する間にこぼれ落ちたんだ」と呼吸をはずませて言ったので皆一時にドッと笑ってしまいました。<br/><br/>やはりそれは助かった喜びから漏れた言葉なのでした。<br/><br/> 私は昭和二十一年の七月三十日に揖斐郡谷汲村の山岸賢司先生のお家へお参りして、愛知県一宮市の渡辺先生よりお光を拝受したのですが、それ以来山岸先生および私の村（本巣郡外山村）の桑原重市先生の御情深い御指導をうけておりまして、光明如来様の力徳と御慈悲のお話をお聞きしていたのですが、この度のようにハッキリと御利益を頂き御救いにあってはもう何も疑うことも出来なくなり、以来本当にありがたく感謝の気持一ぱいでお参りを続けて、先生から種々お話を伺うのが楽しみになり日々の家業も面白く送っております。<br/><br/>私はいつも思うに自分はどうしてもっと早くこの道を求めなかったのか、又人間はどうしてこんな立派な御教えを御利益を御力徳を信じられないのかと他の皆様の事が思いやられます。<br/><br/>謹んで御礼申し上げます。<br/><br/> （昭和二十四年四月八日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

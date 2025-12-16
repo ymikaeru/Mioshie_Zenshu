@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sigono</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 死後の種々相 自観叢書第3編『霊界叢談』P.15、昭和24(1949)年8月25日発行 死にも種々あるが、脳溢血や卒中、心臓麻痺、変死等のため、突如として霊界人となる場合があるが、何も知らない世人は病気の苦痛を知らないからむしろ倖せであるなどというが、これらは非常な誤りで実はこの上ない不幸である。<br><br>それは死の覚悟がないため霊界に往っても自分は死んだとは思わず相変らず生きていると想っている。<br><br>しかるに自分の肉体がないので、遮二無二肉体を求める。<br><br>その場合自己に繋っている霊線をたどるのである。<br><br>霊線は死後といえども血族の繋りがあるから、霊はそれを伝わり人間に憑依しようとするが、憑依せんとする場合衰弱者、産後貧血せる婦人、特に小児には憑依しやすいので多くは小児に憑依する。<br><br>これが真症小児麻痺の原因であり、また癲癇（てんかん）の原因ともなるので、小児麻痺は脳溢血のごとき症状が多いのはそのためであり、癲癇は死の刹那の症状が表われるのである。<br><br>例えば泡を吹くのは水死の霊であり、火を見て発作する火癲癇は火傷死であり、その他変死の状態そのままを表わすもので夢遊病者もそうであり、精神病の原因となる事もある。<br><br> 次に変死について知りおくべき事がある。<br><br>それは他殺自殺等すべて変死者の霊は地縛（じばく）の霊と称し、その死所から暫くの間離脱する事が出来ないのである。<br><br>普通数間または数十間以内の圏内にいるが、淋しさの余り友を呼びたがる。<br><br>世間よく鉄道線路などで轢死者が出来た場所、河川に投身者のあったその岸辺、縊死者のあった木の枝等よく後を引くが右の理によるのである。<br><br>地縛の霊は普通三十年間その場所から離れない事になっているが、遺族の供養次第によっては大いに短縮する事が出来得るから、変死者の霊には特に懇（ねんご）ろなる供養を施すべきである。<br><br>そうしてすべての死者特に自殺者のごときは霊界に往っても死の刹那の苦悩が持続するため大いに後悔するのである。<br><br>何となれば霊界は現界の延長であるからである。<br><br> この理によって死に際し、いかなる立派な善人であっても苦痛が伴う場合中有界または地獄に往くのである。<br><br>また生前孤独の人は霊界に往っても孤独であり、不遇の人はやはり不遇である。<br><br>ただ特に反対の場合もある。<br><br>それはいかなる事かというと、人を苦しめたり、吝嗇（りんしょく）であったり、道に外れた事をして富豪となった人が霊界に往くや、その罪によって反対の結果になる。<br><br>すなわち非常な貧困者となるので大いに後悔するのである。<br><br>これに反し現界にいる時、社会のため人のために財を費やし善徳を積んだ人は霊界に往くや分限者となり、幸福者となるのである。<br><br>またこういう事もある。<br><br>現界において表面はいかに立派な人でも、霊界に行って数ケ月ないし一ケ年位経るうちにその人の想念通りの面貌となるのである。<br><br>なぜなれば霊界は想念の世界で肉体という遮蔽物（しゃへいぶつ）がないから、醜悪なる想念は醜悪なる面貌となり、善徳ある人はその通りの面貌となるのでこれによってみても現界と異なっている事が知らるるのである。<br><br>全く霊界は偏頗（へんぱ）がなく公平であるかが知られるのである。<br><br> 以前こういう例があった。<br><br>その当時私の部下に山田某という青年があった。<br><br>ある日彼は私に向かって「急に大阪へ行かなければならない事が出来たから暇をくれ」というのである。<br><br>見ると彼の顔色挙動等普通ではない。<br><br>私はその理由を質（たず）ねたが、その言語は曖昧不透明である。<br><br>私は霊的に査（しら）べてみようと思った。<br><br>その当時私は霊の研究に興味をもちそれに没頭していたからである。<br><br>まず彼を端座瞑目させて霊査法にかかるや、彼は非常に苦悶の形相を表わしノタ打つのである。<br><br>私の訊問に応じて霊の答は次のごときものである。<br><br>「自分は山田の友人の某という者で、大阪の某会社に勤務中、その社の専務が良からぬ者の甘言を信じ自分をクビにしたので、無念遣る方なく悲観の結果服毒自殺したのである。<br><br>しかるに自分は自殺すれば無に帰すると想っていたところ、無になるどころか死の刹那の苦悩がいつまでも持続しているのであまりの予想外に後悔すると共に、これも専務の奴がもとであるから、復讐すべく山田をして殺害させようと思い、自分が憑依して大阪へ連れて行こうとしたのである」この言葉も苦悶の中から途切れ途切れに語った。<br><br>なお彼は苦悩を除去してもらいたいと懇願するので、私はその不心得を悟し苦悩の払拭法を行うや、霊は非常に楽になったと喜び厚く謝し、兇行を思い止る事を誓い去ったのである。<br><br> 右憑霊中山田は無我であったから、自己の喋舌（しゃべ）った事は全然知らなかった。<br><br>覚醒後私が霊の語ったままを話すと驚くと共に、危険の一歩手前で救われた事を喜んだのであった。<br><br> これによってみても人間はいかなる苦悩にあうも、自殺は決して為すべからざるものである事を識るべきである。<br><br> 特に世人の意外とするところは情死である。<br><br>死んで天国へ行き蓮の台に乗り、たのしく暮そうなどと思うがこれは大違いである。<br><br>それを詳しくかいてみよう。<br><br> 抱き合心中などは霊界へ往くや、霊と霊とが密着して離れないから不便この上なく、しかも他の霊に対し醜態を晒すので後悔する事夥（おびただ）しいのである。<br><br>また普通の情死者はそのその際の想念と行動によって背と背が密着したり、腹と背が密着したりしてすべての自由を欠き、不便極まりないのである。<br><br>また生前最も醜悪なる男女関係、世にいう逆様事などした霊は逆さに密着し一方が立てば一方は逆さとなるというように不便と苦痛は想像も出来ない程である。<br><br>その他人の師表（しひょう）に立つべき僧侶、神官、教育者等の男女の不純関係のごときは、普通人より刑罰の重い事はもちろんである。<br><br> (注)師表（しひょう）、人の手本となる事、人。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Diversas Fases do Pós-Morte</h2>
 <p>Existem múltiplas formas de morrer. Há casos em que a pessoa se torna um habitante do Mundo Espiritual subitamente, acometida por uma hemorragia cerebral, uma parada cardíaca ou alguma outra forma de morte violenta. Pessoas sem o devido conhecimento costumam dizer que tais indivíduos são afortunados, pois não experimentaram o sofrimento de uma doença prolongada. Contudo, tal percepção constitui um equívoco monumental; na verdade, trata-se da maior das infelicidades.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Quando um casal comete suicídio abraçado, seus espíritos permanecem fundidos no Mundo Espiritual, incapazes de se separar, o que lhes causa um transtorno indescritível. Além disso, sentem uma imensa vergonha por sua condição perante os outros espíritos, arrependendo-se amargamente. Em outros casos de duplo suicídio, os espíritos podem ficar presos costas com costas ou ventre com costas, tolhendo-lhes toda a liberdade e causando-lhes enorme desconforto.</p>
 <p>A situação é ainda mais terrível para os espíritos de casais que, em vida, mantiveram relações sexuais consideradas perversas. No Mundo Espiritual, eles ficam fundidos de forma invertida: um fica em pé enquanto o outro pende de cabeça para baixo, num estado de desconforto e agonia inimagináveis.</p>
 <p>Por fim, no caso de relações impuras envolvendo monges, sacerdotes, educadores e outras pessoas que deveriam servir de exemplo e guia para os demais, é natural que sua punição seja ainda mais severa que a das pessoas comuns.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 死後の種々相 自観叢書第3編『霊界叢談』P.15、昭和24(1949)年8月25日発行 死にも種々あるが、脳溢血や卒中、心臓麻痺、変死等のため、突如として霊界人となる場合があるが、何も知らない世人は病気の苦痛を知らないからむしろ倖せであるなどというが、これらは非常な誤りで実はこの上ない不幸である。<br/><br/>それは死の覚悟がないため霊界に往っても自分は死んだとは思わず相変らず生きていると想っている。<br/><br/>しかるに自分の肉体がないので、遮二無二肉体を求める。<br/><br/>その場合自己に繋っている霊線をたどるのである。<br/><br/>霊線は死後といえども血族の繋りがあるから、霊はそれを伝わり人間に憑依しようとするが、憑依せんとする場合衰弱者、産後貧血せる婦人、特に小児には憑依しやすいので多くは小児に憑依する。<br/><br/>これが真症小児麻痺の原因であり、また癲癇（てんかん）の原因ともなるので、小児麻痺は脳溢血のごとき症状が多いのはそのためであり、癲癇は死の刹那の症状が表われるのである。<br/><br/>例えば泡を吹くのは水死の霊であり、火を見て発作する火癲癇は火傷死であり、その他変死の状態そのままを表わすもので夢遊病者もそうであり、精神病の原因となる事もある。<br/><br/> 次に変死について知りおくべき事がある。<br/><br/>それは他殺自殺等すべて変死者の霊は地縛（じばく）の霊と称し、その死所から暫くの間離脱する事が出来ないのである。<br/><br/>普通数間または数十間以内の圏内にいるが、淋しさの余り友を呼びたがる。<br/><br/>世間よく鉄道線路などで轢死者が出来た場所、河川に投身者のあったその岸辺、縊死者のあった木の枝等よく後を引くが右の理によるのである。<br/><br/>地縛の霊は普通三十年間その場所から離れない事になっているが、遺族の供養次第によっては大いに短縮する事が出来得るから、変死者の霊には特に懇（ねんご）ろなる供養を施すべきである。<br/><br/>そうしてすべての死者特に自殺者のごときは霊界に往っても死の刹那の苦悩が持続するため大いに後悔するのである。<br/><br/>何となれば霊界は現界の延長であるからである。<br/><br/> この理によって死に際し、いかなる立派な善人であっても苦痛が伴う場合中有界または地獄に往くのである。<br/><br/>また生前孤独の人は霊界に往っても孤独であり、不遇の人はやはり不遇である。<br/><br/>ただ特に反対の場合もある。<br/><br/>それはいかなる事かというと、人を苦しめたり、吝嗇（りんしょく）であったり、道に外れた事をして富豪となった人が霊界に往くや、その罪によって反対の結果になる。<br/><br/>すなわち非常な貧困者となるので大いに後悔するのである。<br/><br/>これに反し現界にいる時、社会のため人のために財を費やし善徳を積んだ人は霊界に往くや分限者となり、幸福者となるのである。<br/><br/>またこういう事もある。<br/><br/>現界において表面はいかに立派な人でも、霊界に行って数ケ月ないし一ケ年位経るうちにその人の想念通りの面貌となるのである。<br/><br/>なぜなれば霊界は想念の世界で肉体という遮蔽物（しゃへいぶつ）がないから、醜悪なる想念は醜悪なる面貌となり、善徳ある人はその通りの面貌となるのでこれによってみても現界と異なっている事が知らるるのである。<br/><br/>全く霊界は偏頗（へんぱ）がなく公平であるかが知られるのである。<br/><br/> 以前こういう例があった。<br/><br/>その当時私の部下に山田某という青年があった。<br/><br/>ある日彼は私に向かって「急に大阪へ行かなければならない事が出来たから暇をくれ」というのである。<br/><br/>見ると彼の顔色挙動等普通ではない。<br/><br/>私はその理由を質（たず）ねたが、その言語は曖昧不透明である。<br/><br/>私は霊的に査（しら）べてみようと思った。<br/><br/>その当時私は霊の研究に興味をもちそれに没頭していたからである。<br/><br/>まず彼を端座瞑目させて霊査法にかかるや、彼は非常に苦悶の形相を表わしノタ打つのである。<br/><br/>私の訊問に応じて霊の答は次のごときものである。<br/><br/>「自分は山田の友人の某という者で、大阪の某会社に勤務中、その社の専務が良からぬ者の甘言を信じ自分をクビにしたので、無念遣る方なく悲観の結果服毒自殺したのである。<br/><br/>しかるに自分は自殺すれば無に帰すると想っていたところ、無になるどころか死の刹那の苦悩がいつまでも持続しているのであまりの予想外に後悔すると共に、これも専務の奴がもとであるから、復讐すべく山田をして殺害させようと思い、自分が憑依して大阪へ連れて行こうとしたのである」この言葉も苦悶の中から途切れ途切れに語った。<br/><br/>なお彼は苦悩を除去してもらいたいと懇願するので、私はその不心得を悟し苦悩の払拭法を行うや、霊は非常に楽になったと喜び厚く謝し、兇行を思い止る事を誓い去ったのである。<br/><br/> 右憑霊中山田は無我であったから、自己の喋舌（しゃべ）った事は全然知らなかった。<br/><br/>覚醒後私が霊の語ったままを話すと驚くと共に、危険の一歩手前で救われた事を喜んだのであった。<br/><br/> これによってみても人間はいかなる苦悩にあうも、自殺は決して為すべからざるものである事を識るべきである。<br/><br/> 特に世人の意外とするところは情死である。<br/><br/>死んで天国へ行き蓮の台に乗り、たのしく暮そうなどと思うがこれは大違いである。<br/><br/>それを詳しくかいてみよう。<br/><br/> 抱き合心中などは霊界へ往くや、霊と霊とが密着して離れないから不便この上なく、しかも他の霊に対し醜態を晒すので後悔する事夥（おびただ）しいのである。<br/><br/>また普通の情死者はそのその際の想念と行動によって背と背が密着したり、腹と背が密着したりしてすべての自由を欠き、不便極まりないのである。<br/><br/>また生前最も醜悪なる男女関係、世にいう逆様事などした霊は逆さに密着し一方が立てば一方は逆さとなるというように不便と苦痛は想像も出来ない程である。<br/><br/>その他人の師表（しひょう）に立つべき僧侶、神官、教育者等の男女の不純関係のごときは、普通人より刑罰の重い事はもちろんである。<br/><br/> (注)師表（しひょう）、人の手本となる事、人。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

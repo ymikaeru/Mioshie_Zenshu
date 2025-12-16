@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281106</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月6日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月六日 この前話した農業特集号ですが、あれからよく調べてみると、肝腎な中京方面が数量にまだ予想が多いのです。<br><br>予想ではおもしろくないので、やっぱり正確な数量が出ないといけないのです。<br><br>なんだかんだ言って本当に分かるのは、どうしても今月いっぱい過ぎなければ駄目だそうです。<br><br>それに佐渡の方面も去年は非常に良かったのですが、今年はまだ一つも来ませんから、どうしても春早々に出した方がよいと思って、一時延ばしますから、そのつもりでいてもらいたいと思います。<br><br>なにしろ全国的に注目の的になってますから、少しでも不正確な点がありますと、やっぱりアラを見つけようと思っている者もおり、そこを大きく広げて地方新聞に出したり、そういう評判を立てたりするとまずいから、どこから突いても一点の誤りがないというように、できるだけ正確なものにした方がよいわけです。<br><br>なにしろ、科学との戦いですから、隙があると科学の方で切り込んでくるのです。<br><br>世界中が科学を神様のように思っている現在で、その科学をやっつけるのですから、こっちもよほど戦備を怠りなく堂々とやらなければならないのです。<br><br> 『救世教奇蹟集』はこの間『読売新聞』に出しましたが、毎日と朝日は首をひねっているらしいので、よほど困っているらしいです。<br><br>私はそれは百も承知しているのです。<br><br>なにしろ数十万のキリストができているというのですから。<br><br>良いとか悪いとかと批評はできないのですが、中を読んでみると事実に合っているのです。<br><br>というよりも、本人が書いたものですから否定するということはできないし、そうかといって、あんまり桁外れな、思いもつかないことであるために気味が悪いのです。<br><br>私の方からみると実にナンセンスです。<br><br>先方はまじめで、そうとう論議をしているだろうと思いますが、なにしろこっちのやり方があんまり時代よりか離れ過ぎているわけです。<br><br>離れるといっても、上の方に離れているのです。<br><br> 二、三日前にアメリカの『シカゴ・トリビューン』という大きな新聞――アメリカでも大新聞の方でしょう――の東洋総支配人の奥さんで、婦人の記者です――アメリカには婦人で偉いのがいます――なかなか頭が良く、観察や、そういうことが実によく、日本人と違った見方をしていました。<br><br>そうとうに新聞に出すらしいのです。<br><br>随分よく質問し、約二時間ぐらい、いろいろと話をしました。<br><br>これは無論そうとう紙面に出すようです。<br><br>“日本におけるとにかく飛び抜けた存在だ、飛び抜けたものが現われた”というような見方をしているらしいです。<br><br>そして救世教を紹介するのに、自分のところがトップを切りたいという意向なのです。<br><br>当分の間はアメリカの他の新聞がもしか来ても、話をしないことと、広告をしないことと、そういうことを前もって断ったくらいですから、そうとうに認められるだろうと思ってます。<br><br>やはり美術館によって一番心を動かしたらしいのです。<br><br>ああいうようなものは、つまり日本にはまだない、それからその根本は宗教だ、そこで主に宗教的のことを聞きましたが、その中でおもしろいと思ったのは、私が宗教の仕事をしたのは五十ぐらいからで、本当に専門にやるようになったのは約二十年ぐらい前からです。<br><br>ところが釈迦やキリストは、生まれながらというか、ごく若いときに宗教の仕事をやった、私は五十からというのは実に世界に例がない、珍しいと言ってましたが、そういう見方などは、日本人にはちょっと気がつかないようなことだと思います。<br><br>いろんな話をしましたが、結局アメリカは緯の文明の中心であり、日本は経の文明の中心だ、だからどうしても経と緯を結ばなければならない。<br><br>救世教はその結びの仕事をするということは前から決まっているのだから、あなたが来られたのもそういう意味ではないかと思う、というような話をしました。<br><br>それから熱海の地上天国も見せましたが、非常に驚いて感心してました。<br><br>どうも見るもの聞くもの心を打たれる、だからなんと言ってよいか言葉がないと言って、とにかくこういうような構想はアメリカにもないと言うのです。<br><br>それでこういうことを聞いてました。<br><br>“こんな景色の良い所をどうして”と言うから、“私が八、九年前から手に入れてやった”と言うと、“それまで熱海の人がどうして残しておいたか、なにもしなかったということはどうも疑問だ”ということを言ってました。<br><br>“それはここは薮みたいで、こんなような形さえぜんぜん想像もできないほどだった”と言ったので、やっと分かってました。<br><br> とにかくこれからアメリカの方もだんだん燃え始めるだろうと思ってます。<br><br>ハワイの方はますます発展しつつありますから、近き将来ハワイはメシヤ島になるかも分かりません。<br><br>つまりほとんど救世教信者になるとすると、ハワイ島でなくてメシヤ島になるだろうと思ってます。<br><br>そうすると世界的に注目されてきますから、急激にハワイ全島に拡がるということは、よほどの脅威的力があるものに違いないというようなことになって、そこでアメリカなどもだいぶ注目されて発展してくると、そこで初めて日本の新聞とかそういうものが目が覚めてびっくりすることになり、そうすればこっちの出版物でもなんでも喜んで歓迎し、それからまた私の言ったことはなんでも“結構だ、本当だ、それに違いない”と言って感心するというようになります。<br><br>それまでのことです。<br><br>大本教のお筆先に「灯台下は真暗がり、遠国から分りて来るぞよ」というのがありますが、今言ったような意味だろうと思ってます。<br><br>なにしろ日本人は、つまり自信がないのです。<br><br>劣等感が強いのです。<br><br>それも無理がないので、昔は支那文化で、なんでも支那でさえあればよいというのです。<br><br>ですから骨董品でもそうで、唐物といえばたいへん尊ばれたものです。<br><br>それで今茶入などでも唐物といってあります。<br><br>もっとも文字から一切支那の文化を取り入れたのです。<br><br>ですから調べてみると、宮中――皇室の行事やいろんなことは支那のものを写したものです。<br><br>昔から“日本は駄目だ、どうしても外国でできたものでなければ良い物がない”というような、一つの伝統的にそういった信仰というようになっているからして、今でも舶来物でなければ駄目だというのです。<br><br>もっともだいたい今の日本の文化は、みんな舶来ですから無理もないです。<br><br>化粧品の広告も、いやに“アメリカ、アメリカ”と出てます。<br><br>アメリカではやるとか、薬がどうとかとあります。<br><br>ペニシリンの広告に“アメリカ以上の効果がある”とか出てます。<br><br>しかし化粧品などは馬鹿げてます。<br><br>アメリカの婦人と日本の婦人とは皮膚が違います。<br><br>第一食べ物が違います。<br><br>それを同じに思っているのですから、アメリカ崇拝の結果そういうふうになったわけです。<br><br>ところが私はアメリカの文化が間違っているというのですから、よほどくい違っているわけです。<br><br>なにしろアメリカを救うというわけですから、ある時期までは“救世教という奴は変な奴だ”と言うが、そうかといって悪いものとは思えないのです――悪くはないのですから。<br><br>良いものとしても、少し桁外れだし、そんな偉いものが日本から出ることはない、日本人でそんな偉い者はいないと決めているのです。<br><br>特に決めているのは――これは世界的かもしれないが――キリストとか釈迦とか、ああいう人よりか偉い人はもう出るはずがない、地球上に現われるはずがないと固く決めているのです。<br><br>私がキリストや釈迦などはずっと下だと言っても、正気の気違いくらいに思って、どうも少し変だととられるぐらいなもので、そう急には分かるわけがないのです。<br><br>これもあまりに桁違いなのでしかたがないです。<br><br>だから『奇蹟集』などは、いずれは大問題になるべきものです。<br><br> 四、五日前に文部省の宗務課長補佐と朝日、毎日とか、その他のいろんな新聞の記者が六、七人で会いたいというので会いましたが、医学のことを言ったところが、“近ごろよく寿命が延びたということを言うが、これは医学が進歩したのではないか”ということを言ってました。<br><br>それで簡単に説明してやりましたが、なかなか分かりそうもないのです。<br><br>そのことを書いてみました。<br><br> （御論文「寿命が延びた理由」） 【栄光 二三四号】） ところがこれが長く続けばまだよいが、そう長くは続かないのです。<br><br>というのは浄化がだんだん強くなってきますと、そう長いことはありませんが、二、三年ぐらいがせいぜいです。<br><br>それから先は病人がベラボウに増えてくるのです。<br><br>アッチでもコッチでもわけの分からない病人が増えて、いつも言うとおり、医者がちょっと手をつけるとコロッと死んでしまうというような時代が来ると、それからあわて出すのです。<br><br>本当に医学の間違いが分かるのはそれからです。<br><br>それからがこっちの本舞台になるわけです。<br><br>今はそういうときに働く役者を神様は作られるわけです。<br><br>あなた方はみんなそういう人です。<br><br>その時になると体がいくつあっても足りないということになります。<br><br>とにかく医者自信が駄目だということになります。<br><br>注射でもしようものならコロッと行ってしまうということになります。<br><br>その時に“救世教の奴はトンデモナイことを言っていたと思ったら、これだな”と、いよいよそこで頭を下げるのです。<br><br>ちょうど稲作が今年はたいへんな凶作だというので、どこでも青息吐息しているというこれが、病気もやはりそうなるのです。<br><br>ですからいまその準備をしているわけです。<br><br> それから宗教についてちょっとおもしろいことを書いてみました。<br><br> （御論文「生きてる宗教」） 【栄光 二三三号】） それからさっき言った『シカゴ・トリビューン』の記者にこういう話をしたのです。<br><br>地上天国は箱根、熱海に造って、さらに京都に造る。<br><br>その次はハワイにも造るし、それからアメリカにも造り、漸次ヨーロッパから世界中に造ることになる。<br><br>これは今まで公園は世界中どこにもできているが、公園ではあまりに大衆的で、ただ憩いとか、あるいは子供の遊び場といったようなもので、レベルが低いのです。<br><br>ところが地上天国の方はもっとレベルの高いものです。<br><br>要するに美によって人の情操を高めるという考えでやるのだ、私はそういうものが必要だというのです。<br><br>とにかく現在いろいろとそういった娯楽的に見るものとしては、あまりに俗悪過ぎて、要するにそれを見て品性を向上するというよりか、品性を堕落させるものが多いくらいです。<br><br>そういった観覧物がいっぱいですから、その中で品性を高めるべき、要するに高級なものもなくてはならないのです。<br><br>私の言う「地上天国」というのはそれが目的だ。<br><br>だから公園のもっと上等なものです。<br><br>そういうものを世界中に造って、美によって大いに人間の品性を高めるのです。<br><br>そういうつもりだということを話しましたが、非常に共鳴してました。<br><br>そこで救世教は病気を治すということは分かりきった話です。<br><br>それから農作物は食って余るくらいできるということも分かってます。<br><br>それとともに人間の魂を磨き良くするのです。<br><br>ところが今までは魂を磨くというと難行苦行でなくてはいけないと思っていたのです。<br><br>いろんな修行です。<br><br>それがこっちは反対で、楽しみながら魂を磨くというわけです。<br><br>汚い社会、厭なことを聞いたり見たりして、要するに心を始終汚してしまうのです。<br><br>ですから時々はそれを洗濯するわけです。<br><br>つまりその汚れを取るという機関がなくてはならないのです。<br><br>それが「地上天国」です。<br><br>それには美というものですが、美にもいろいろあります。<br><br>ストリップでもやはり美です。<br><br>あれは、神様の造った人間の若い女性というものはすばらしい美です。<br><br>けれどもあの美は、美しいだけで品性を高めるということとはちょっと逆です。<br><br>だからあれもあえて全部否定するということは、道学者的になりますが、ああいうものも見て結構ですが、それとともにまた品性を高める美というものも見なければならないのです。<br><br>それにはどうしても地上天国的のもので、それにはいつも言うとおり天然の美と人工の美です。<br><br>この人工の美ということは、口では言うが、今までは駄目だったのです。<br><br>その記者に言いましたが、立派な芸術家が苦心して作った良い物を、ある一部の特権階級が人の目に触れない所にしまっておいて、少数の自分の関係者に見せるということと、財産保護法の手段としてそういう物を集めるというだけのもので、どうもはなはだ本当ではない。<br><br>それは非常に間違っているから、私はできるだけそういった立派な物を集めて、そうしてそれをだれでも見られる、一人でも多くの人に見せるということが本当なのだから、その目的が主なものだということを言ったが、非常に共鳴してました。<br><br>これは日本人もそうですが、外人は特にそういう美の独占は非常に悪いということを思っているのです。<br><br>ですから国によっては、日本の国宝とか重要文化財ということもいけないと言って、フランスあたりでは、そういった非難があるそうです。<br><br>国宝などといって、自分の国に大事にしまって、外国の人に見せないという考えはどうも良くない、ということを言っているそうです。<br><br>箱根美術館のようにああいった良い物を大衆に見せるということは、非常に共鳴するのです。<br><br>とにかく民主的美術館です。<br><br>ところで今まではほかの個人的美術館というと、まず財産保護のためです。<br><br>これは記者も言ってましたが、他の美術館はようやく春秋二回のわずかの期間見せるだけだから、どうも一種の財産保護のためのようでおもしろくないが、救世教の美術館はそうでなく一般に見せるということは、今まで日本人ではやらないことだ、ということを言ってました。<br><br>そういうこともよく見たと思って感心しました。<br><br>また博物館はどうかというと、博物館は美術が本位でなくて、歴史学的、考古学的のもので学問的の一つの参考品です。<br><br>本当に美術といえば古美術であって、古い方がずっと良いのです。<br><br>それで現代美術の方もこのごろはだいぶ人の目に触れるようになりました。<br><br>それから良い物でも西洋の絵は見られるようになりましたが、日本の古美術というのは、誠に見られないのです。<br><br>これは箱根美術館だけです。<br><br>また支那の東洋美術にしても、それが本当に鑑賞できるのは箱根美術館だけです。<br><br>その意味において外人もようやく認めてきたわけです。<br><br> それから今の 『シカゴ・トリビューン』は、社員が四千二百人で、本社が二十四階だそうです。<br><br>日刊の頁数は六十頁というのですから、ベラボウに大きなものです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Avanço da Obra Divina e a Missão da Beleza</h2>
 <p>A respeito da edição especial sobre agricultura, que mencionei anteriormente, após uma investigação mais aprofundada, constatei que os dados essenciais da região de Chūkyō ainda se baseiam, em grande parte, em estimativas. Contudo, estimativas não são suficientes; é imperativo que disponhamos de números exatos. Disseram-me que, por diversas razões, os dados concretos só estarão disponíveis ao final deste mês. Ademais, a região de Sado, que obteve excelentes resultados no ano passado, até o momento não nos enviou relatório algum. Diante disso, julgo mais prudente adiar a publicação para o início da primavera e peço a vossa compreensão. Sendo esta publicação o centro das atenções em todo o país, qualquer imprecisão, por menor que seja, será explorada por aqueles que buscam falhas em nosso trabalho. Eles não hesitariam em ampliar tais falhas na imprensa local ou em disseminar boatos desfavoráveis, o que seria deveras prejudicial. Portanto, é fundamental que o material seja o mais preciso possível, inatacável sob qualquer aspecto. Trata-se, afinal, de um embate com a ciência, e qualquer brecha em nossa argumentação será imediatamente explorada por ela. No mundo de hoje, onde a ciência é reverenciada como uma divindade, nós, que nos propomos a superá-la, devemos nos preparar com o máximo rigor e agir de maneira imponente.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>E é esta última, a beleza artificial, que até hoje foi tratada de forma inadequada. Eu disse à jornalista que é um grande erro que obras de arte magníficas, criadas com imenso esforço por grandes artistas, sejam guardadas por uma classe privilegiada em locais inacessíveis, para serem mostradas apenas a um círculo restrito de pessoas, ou que sejam colecionadas como mero instrumento de proteção patrimonial. É por isso que meu principal objetivo é reunir o maior número possível dessas obras esplêndidas e torná-las acessíveis a todos, para que o maior número de pessoas possa apreciá-las. Ela concordou veementemente. Não apenas os japoneses, mas especialmente os estrangeiros, consideram o monopólio da beleza algo extremamente negativo. Em países como a França, por exemplo, há críticas ao sistema japonês de Tesouros Nacionais e Bens Culturais de Importância. A ideia de classificar algo como tesouro nacional para guardá-lo zelosamente e não mostrá-lo aos estrangeiros é vista com maus olhos. Por isso, a iniciativa do Museu de Arte de Hakone de exibir obras de tão grande valor ao público em geral encontra enorme ressonância. É, em suma, um museu de arte democrático.</p>
 <p>Em contraste, os outros museus particulares que existem foram criados, em primeiro lugar, para proteger patrimônios. A própria jornalista observou que outros museus abrem seu acervo apenas por um breve período na primavera e no outono, o que lhes confere um caráter de proteção de bens que não é interessante. Ela comentou que a postura do museu da Sekaikyuseikyou, de manter suas portas abertas ao público, é algo que os japoneses não costumavam fazer, e admirei-me por ela ter notado esse detalhe. E quanto aos museus públicos? Estes não têm a arte como foco principal; seu acervo serve como material de referência para estudos históricos e arqueológicos. A verdadeira arte é a arte antiga; as obras mais antigas são consideravelmente superiores. Ultimamente, a arte moderna tem ganhado mais visibilidade, e as pinturas ocidentais também se tornaram acessíveis. No entanto, a antiga arte japonesa permanece praticamente invisível para o público, com exceção do Museu de Arte de Hakone. O mesmo se pode dizer da arte oriental chinesa; o único lugar onde ela pode ser verdadeiramente apreciada é no nosso museu. É por essa razão que os estrangeiros estão, finalmente, começando a nos reconhecer.</p>
 <p>A propósito, o <em>Chicago Tribune</em> possui quatro mil e duzentos funcionários, sua sede é um edifício de vinte e quatro andares e sua edição diária tem sessenta páginas. É uma publicação de uma magnitude colossal.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月6日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月六日 この前話した農業特集号ですが、あれからよく調べてみると、肝腎な中京方面が数量にまだ予想が多いのです。<br/><br/>予想ではおもしろくないので、やっぱり正確な数量が出ないといけないのです。<br/><br/>なんだかんだ言って本当に分かるのは、どうしても今月いっぱい過ぎなければ駄目だそうです。<br/><br/>それに佐渡の方面も去年は非常に良かったのですが、今年はまだ一つも来ませんから、どうしても春早々に出した方がよいと思って、一時延ばしますから、そのつもりでいてもらいたいと思います。<br/><br/>なにしろ全国的に注目の的になってますから、少しでも不正確な点がありますと、やっぱりアラを見つけようと思っている者もおり、そこを大きく広げて地方新聞に出したり、そういう評判を立てたりするとまずいから、どこから突いても一点の誤りがないというように、できるだけ正確なものにした方がよいわけです。<br/><br/>なにしろ、科学との戦いですから、隙があると科学の方で切り込んでくるのです。<br/><br/>世界中が科学を神様のように思っている現在で、その科学をやっつけるのですから、こっちもよほど戦備を怠りなく堂々とやらなければならないのです。<br/><br/> 『救世教奇蹟集』はこの間『読売新聞』に出しましたが、毎日と朝日は首をひねっているらしいので、よほど困っているらしいです。<br/><br/>私はそれは百も承知しているのです。<br/><br/>なにしろ数十万のキリストができているというのですから。<br/><br/>良いとか悪いとかと批評はできないのですが、中を読んでみると事実に合っているのです。<br/><br/>というよりも、本人が書いたものですから否定するということはできないし、そうかといって、あんまり桁外れな、思いもつかないことであるために気味が悪いのです。<br/><br/>私の方からみると実にナンセンスです。<br/><br/>先方はまじめで、そうとう論議をしているだろうと思いますが、なにしろこっちのやり方があんまり時代よりか離れ過ぎているわけです。<br/><br/>離れるといっても、上の方に離れているのです。<br/><br/> 二、三日前にアメリカの『シカゴ・トリビューン』という大きな新聞――アメリカでも大新聞の方でしょう――の東洋総支配人の奥さんで、婦人の記者です――アメリカには婦人で偉いのがいます――なかなか頭が良く、観察や、そういうことが実によく、日本人と違った見方をしていました。<br/><br/>そうとうに新聞に出すらしいのです。<br/><br/>随分よく質問し、約二時間ぐらい、いろいろと話をしました。<br/><br/>これは無論そうとう紙面に出すようです。<br/><br/>“日本におけるとにかく飛び抜けた存在だ、飛び抜けたものが現われた”というような見方をしているらしいです。<br/><br/>そして救世教を紹介するのに、自分のところがトップを切りたいという意向なのです。<br/><br/>当分の間はアメリカの他の新聞がもしか来ても、話をしないことと、広告をしないことと、そういうことを前もって断ったくらいですから、そうとうに認められるだろうと思ってます。<br/><br/>やはり美術館によって一番心を動かしたらしいのです。<br/><br/>ああいうようなものは、つまり日本にはまだない、それからその根本は宗教だ、そこで主に宗教的のことを聞きましたが、その中でおもしろいと思ったのは、私が宗教の仕事をしたのは五十ぐらいからで、本当に専門にやるようになったのは約二十年ぐらい前からです。<br/><br/>ところが釈迦やキリストは、生まれながらというか、ごく若いときに宗教の仕事をやった、私は五十からというのは実に世界に例がない、珍しいと言ってましたが、そういう見方などは、日本人にはちょっと気がつかないようなことだと思います。<br/><br/>いろんな話をしましたが、結局アメリカは緯の文明の中心であり、日本は経の文明の中心だ、だからどうしても経と緯を結ばなければならない。<br/><br/>救世教はその結びの仕事をするということは前から決まっているのだから、あなたが来られたのもそういう意味ではないかと思う、というような話をしました。<br/><br/>それから熱海の地上天国も見せましたが、非常に驚いて感心してました。<br/><br/>どうも見るもの聞くもの心を打たれる、だからなんと言ってよいか言葉がないと言って、とにかくこういうような構想はアメリカにもないと言うのです。<br/><br/>それでこういうことを聞いてました。<br/><br/>“こんな景色の良い所をどうして”と言うから、“私が八、九年前から手に入れてやった”と言うと、“それまで熱海の人がどうして残しておいたか、なにもしなかったということはどうも疑問だ”ということを言ってました。<br/><br/>“それはここは薮みたいで、こんなような形さえぜんぜん想像もできないほどだった”と言ったので、やっと分かってました。<br/><br/> とにかくこれからアメリカの方もだんだん燃え始めるだろうと思ってます。<br/><br/>ハワイの方はますます発展しつつありますから、近き将来ハワイはメシヤ島になるかも分かりません。<br/><br/>つまりほとんど救世教信者になるとすると、ハワイ島でなくてメシヤ島になるだろうと思ってます。<br/><br/>そうすると世界的に注目されてきますから、急激にハワイ全島に拡がるということは、よほどの脅威的力があるものに違いないというようなことになって、そこでアメリカなどもだいぶ注目されて発展してくると、そこで初めて日本の新聞とかそういうものが目が覚めてびっくりすることになり、そうすればこっちの出版物でもなんでも喜んで歓迎し、それからまた私の言ったことはなんでも“結構だ、本当だ、それに違いない”と言って感心するというようになります。<br/><br/>それまでのことです。<br/><br/>大本教のお筆先に「灯台下は真暗がり、遠国から分りて来るぞよ」というのがありますが、今言ったような意味だろうと思ってます。<br/><br/>なにしろ日本人は、つまり自信がないのです。<br/><br/>劣等感が強いのです。<br/><br/>それも無理がないので、昔は支那文化で、なんでも支那でさえあればよいというのです。<br/><br/>ですから骨董品でもそうで、唐物といえばたいへん尊ばれたものです。<br/><br/>それで今茶入などでも唐物といってあります。<br/><br/>もっとも文字から一切支那の文化を取り入れたのです。<br/><br/>ですから調べてみると、宮中――皇室の行事やいろんなことは支那のものを写したものです。<br/><br/>昔から“日本は駄目だ、どうしても外国でできたものでなければ良い物がない”というような、一つの伝統的にそういった信仰というようになっているからして、今でも舶来物でなければ駄目だというのです。<br/><br/>もっともだいたい今の日本の文化は、みんな舶来ですから無理もないです。<br/><br/>化粧品の広告も、いやに“アメリカ、アメリカ”と出てます。<br/><br/>アメリカではやるとか、薬がどうとかとあります。<br/><br/>ペニシリンの広告に“アメリカ以上の効果がある”とか出てます。<br/><br/>しかし化粧品などは馬鹿げてます。<br/><br/>アメリカの婦人と日本の婦人とは皮膚が違います。<br/><br/>第一食べ物が違います。<br/><br/>それを同じに思っているのですから、アメリカ崇拝の結果そういうふうになったわけです。<br/><br/>ところが私はアメリカの文化が間違っているというのですから、よほどくい違っているわけです。<br/><br/>なにしろアメリカを救うというわけですから、ある時期までは“救世教という奴は変な奴だ”と言うが、そうかといって悪いものとは思えないのです――悪くはないのですから。<br/><br/>良いものとしても、少し桁外れだし、そんな偉いものが日本から出ることはない、日本人でそんな偉い者はいないと決めているのです。<br/><br/>特に決めているのは――これは世界的かもしれないが――キリストとか釈迦とか、ああいう人よりか偉い人はもう出るはずがない、地球上に現われるはずがないと固く決めているのです。<br/><br/>私がキリストや釈迦などはずっと下だと言っても、正気の気違いくらいに思って、どうも少し変だととられるぐらいなもので、そう急には分かるわけがないのです。<br/><br/>これもあまりに桁違いなのでしかたがないです。<br/><br/>だから『奇蹟集』などは、いずれは大問題になるべきものです。<br/><br/> 四、五日前に文部省の宗務課長補佐と朝日、毎日とか、その他のいろんな新聞の記者が六、七人で会いたいというので会いましたが、医学のことを言ったところが、“近ごろよく寿命が延びたということを言うが、これは医学が進歩したのではないか”ということを言ってました。<br/><br/>それで簡単に説明してやりましたが、なかなか分かりそうもないのです。<br/><br/>そのことを書いてみました。<br/><br/> （御論文「寿命が延びた理由」） 【栄光 二三四号】） ところがこれが長く続けばまだよいが、そう長くは続かないのです。<br/><br/>というのは浄化がだんだん強くなってきますと、そう長いことはありませんが、二、三年ぐらいがせいぜいです。<br/><br/>それから先は病人がベラボウに増えてくるのです。<br/><br/>アッチでもコッチでもわけの分からない病人が増えて、いつも言うとおり、医者がちょっと手をつけるとコロッと死んでしまうというような時代が来ると、それからあわて出すのです。<br/><br/>本当に医学の間違いが分かるのはそれからです。<br/><br/>それからがこっちの本舞台になるわけです。<br/><br/>今はそういうときに働く役者を神様は作られるわけです。<br/><br/>あなた方はみんなそういう人です。<br/><br/>その時になると体がいくつあっても足りないということになります。<br/><br/>とにかく医者自信が駄目だということになります。<br/><br/>注射でもしようものならコロッと行ってしまうということになります。<br/><br/>その時に“救世教の奴はトンデモナイことを言っていたと思ったら、これだな”と、いよいよそこで頭を下げるのです。<br/><br/>ちょうど稲作が今年はたいへんな凶作だというので、どこでも青息吐息しているというこれが、病気もやはりそうなるのです。<br/><br/>ですからいまその準備をしているわけです。<br/><br/> それから宗教についてちょっとおもしろいことを書いてみました。<br/><br/> （御論文「生きてる宗教」） 【栄光 二三三号】） それからさっき言った『シカゴ・トリビューン』の記者にこういう話をしたのです。<br/><br/>地上天国は箱根、熱海に造って、さらに京都に造る。<br/><br/>その次はハワイにも造るし、それからアメリカにも造り、漸次ヨーロッパから世界中に造ることになる。<br/><br/>これは今まで公園は世界中どこにもできているが、公園ではあまりに大衆的で、ただ憩いとか、あるいは子供の遊び場といったようなもので、レベルが低いのです。<br/><br/>ところが地上天国の方はもっとレベルの高いものです。<br/><br/>要するに美によって人の情操を高めるという考えでやるのだ、私はそういうものが必要だというのです。<br/><br/>とにかく現在いろいろとそういった娯楽的に見るものとしては、あまりに俗悪過ぎて、要するにそれを見て品性を向上するというよりか、品性を堕落させるものが多いくらいです。<br/><br/>そういった観覧物がいっぱいですから、その中で品性を高めるべき、要するに高級なものもなくてはならないのです。<br/><br/>私の言う「地上天国」というのはそれが目的だ。<br/><br/>だから公園のもっと上等なものです。<br/><br/>そういうものを世界中に造って、美によって大いに人間の品性を高めるのです。<br/><br/>そういうつもりだということを話しましたが、非常に共鳴してました。<br/><br/>そこで救世教は病気を治すということは分かりきった話です。<br/><br/>それから農作物は食って余るくらいできるということも分かってます。<br/><br/>それとともに人間の魂を磨き良くするのです。<br/><br/>ところが今までは魂を磨くというと難行苦行でなくてはいけないと思っていたのです。<br/><br/>いろんな修行です。<br/><br/>それがこっちは反対で、楽しみながら魂を磨くというわけです。<br/><br/>汚い社会、厭なことを聞いたり見たりして、要するに心を始終汚してしまうのです。<br/><br/>ですから時々はそれを洗濯するわけです。<br/><br/>つまりその汚れを取るという機関がなくてはならないのです。<br/><br/>それが「地上天国」です。<br/><br/>それには美というものですが、美にもいろいろあります。<br/><br/>ストリップでもやはり美です。<br/><br/>あれは、神様の造った人間の若い女性というものはすばらしい美です。<br/><br/>けれどもあの美は、美しいだけで品性を高めるということとはちょっと逆です。<br/><br/>だからあれもあえて全部否定するということは、道学者的になりますが、ああいうものも見て結構ですが、それとともにまた品性を高める美というものも見なければならないのです。<br/><br/>それにはどうしても地上天国的のもので、それにはいつも言うとおり天然の美と人工の美です。<br/><br/>この人工の美ということは、口では言うが、今までは駄目だったのです。<br/><br/>その記者に言いましたが、立派な芸術家が苦心して作った良い物を、ある一部の特権階級が人の目に触れない所にしまっておいて、少数の自分の関係者に見せるということと、財産保護法の手段としてそういう物を集めるというだけのもので、どうもはなはだ本当ではない。<br/><br/>それは非常に間違っているから、私はできるだけそういった立派な物を集めて、そうしてそれをだれでも見られる、一人でも多くの人に見せるということが本当なのだから、その目的が主なものだということを言ったが、非常に共鳴してました。<br/><br/>これは日本人もそうですが、外人は特にそういう美の独占は非常に悪いということを思っているのです。<br/><br/>ですから国によっては、日本の国宝とか重要文化財ということもいけないと言って、フランスあたりでは、そういった非難があるそうです。<br/><br/>国宝などといって、自分の国に大事にしまって、外国の人に見せないという考えはどうも良くない、ということを言っているそうです。<br/><br/>箱根美術館のようにああいった良い物を大衆に見せるということは、非常に共鳴するのです。<br/><br/>とにかく民主的美術館です。<br/><br/>ところで今まではほかの個人的美術館というと、まず財産保護のためです。<br/><br/>これは記者も言ってましたが、他の美術館はようやく春秋二回のわずかの期間見せるだけだから、どうも一種の財産保護のためのようでおもしろくないが、救世教の美術館はそうでなく一般に見せるということは、今まで日本人ではやらないことだ、ということを言ってました。<br/><br/>そういうこともよく見たと思って感心しました。<br/><br/>また博物館はどうかというと、博物館は美術が本位でなくて、歴史学的、考古学的のもので学問的の一つの参考品です。<br/><br/>本当に美術といえば古美術であって、古い方がずっと良いのです。<br/><br/>それで現代美術の方もこのごろはだいぶ人の目に触れるようになりました。<br/><br/>それから良い物でも西洋の絵は見られるようになりましたが、日本の古美術というのは、誠に見られないのです。<br/><br/>これは箱根美術館だけです。<br/><br/>また支那の東洋美術にしても、それが本当に鑑賞できるのは箱根美術館だけです。<br/><br/>その意味において外人もようやく認めてきたわけです。<br/><br/> それから今の 『シカゴ・トリビューン』は、社員が四千二百人で、本社が二十四階だそうです。<br/><br/>日刊の頁数は六十頁というのですから、ベラボウに大きなものです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

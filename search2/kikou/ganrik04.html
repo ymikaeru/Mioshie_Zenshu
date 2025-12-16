@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganrik04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （四） 神成大教会 岡庭真次郎 『地上天国』43号、昭和27(1952)年12月25日発行 昭和七年四月二十日夜、明主様より特に御話が有りました。<br><br>それは「今に共産党では色々の方法で爆破作業の工作をやってくるから今に大変ですよ。<br><br>」との御話を御漏らし下されましたが、早速四月二十九日共産党が寺院その他を破壊すると言う陰謀露見、上海にては天長節の御祝いの式場へ爆弾を見舞われ、我国の大官の中には爆弾にて負傷、なお又居留民団長など遂に死亡するの大惨事が起ってしまったのであります。<br><br> 昭和七年八月十八月出張先より大森の御屋敷へ帰途につき都電塩町にて乗換えるべく乗車したところ、大木戸まで乗越してしまいましたため、これは何か御用があると感じましたので下車し、夜店や店舗を覗き歩く内、観音様の古い良いのが見当りましたから、ハハーこれを買えと神様が大木戸まで乗越させられたのだと思い、早速買入れて帰り、乗越のお話を致して明主様に御目に掛ければ、「これは鎌倉時代の物で、分院の潮満、潮干の両玉を守護する経綸の御観音様である」との御話に早速献上させて戴きました。<br><br>なお、明主様から「大木戸迄乗越させられたことはやはり御用があったので、このような時ボンヤりしていて帰って終えば御用は出来ず落第である」と御教え賜わりましたが、丁度この時仏画を専門の様にしている渡辺誠と言う画家もいて「非常に古い物だ」と褒められました。<br><br> 八月二十六日明主様には大森分院の床の間に神様と並べて龍宮の乙姫のお軸を御掛け始められ、お祭の後は信者一同に秋草の御題を賜わり、一時間で締切り、明主様には早速御選歌、直ちに御発表、又笑和会の笑冠句も御発表、瓢箪子の名調子に笑いこけ、臍茶わかしての大笑いで終りました。<br><br> 次の日明主様にはいよいよ来月から分院で（この頃大森の御屋敷では二階に大森支部、別館は平家建で大森分院となっておりました）御鎮魂遊ばすように御発表あり、三十日には夜遅くになられてからこの意味を御話下さいましたが、この御話で非常に時期が早まったのだとの御教えを賜りましたが、この頃より前はまだ公然の御治療でないために御収入も乏しく、実に御気の毒であられたので、信者一同にて相談の上「ただで御鎮魂を御願い申し上げることこそ申訳の無い事である」とて御鎮魂を戴いた者は一回五十銭ずつ御神前へ御礼をする事にしたような次第でありましたが、明主様はこの時分に「岡庭さん、私は今はこんなに貧乏しているが、今に私の廻りにはお金なんか降るように来るんですぜ」との御言葉でしたが、いよいよその時は来ました。<br><br> 昭和八年七月十六日明主様には今迄朝寝坊阿呆の御雅号をもって文芸を遊ばされておられましたが、この日より明烏阿呆と御改名遊ばされて、いよいよ明の烏の鳴く夜明が迫って来る意味で有りますが、この頃から明主様には御朝寝を追々と御改正遊ばされるようにおなりになられたのでした。<br><br>このように明主様は御雅号までもその時期によって御改め遊ばされるのであります。<br><br>この時代明主様には御揮毫の際、あるいは御文芸の時暉月と御雅号を御使いになられるので私は不思議で堪らず、何故かと言えば明主様は軍人や戦争や仇討は大の御嫌いであられるのに、日扁の軍の字を御使用に成られるからでした。<br><br>ところがある日この御雅号の字義について御話し下さいました。<br><br>「暉月とは暉の字は日軍即ち私は今日本軍である。<br><br>日は神で神軍とも成る。<br><br>私は悪魔と戦わわばならないから今は暉月となっているのだ。<br><br>又暉はカガヤクであり日であるから暉月は伊都能売尊である（日月）」と御教え賜わり誠に恐縮致しました。<br><br>人間の浅智慧でこのような御疑いを持って何とも申訳の無い事でありました。<br><br>「神様と人間とは作った者と作られた者との相違だ」との御教えがありましたが、人間なんかの浅智慧で深遠微妙の御心が覚れるものではありません。<br><br>そして明主様は大本教を脱退されて後はこの御雅号は御使用遊ばされることはなくなられました。<br><br>この頃は四方八方よりの邪神活躍のために悪口雑口の飛ぶ時代であったためと、又私達の霊魂磨きのため笑和会をお作りになられて笑冠句を大いに奨励になられ、明主様始め私達も笑冠句で大いにその欝憤を吹き飛ばし笑い飛ばしたもので、この夜（七月十六日）には笑和会第十七回月並笑冠句集に選者朝寝坊阿呆改め明烏阿呆と御改名を御使用なされて巻頭には『処女日本いよいよ岩戸も明烏』とそして題は“ざまさみろ”と“大きにお世話様”の二題で、明主様の御追加下された御句『ざまぁみろと言い度いのを糞我慢している私ではある』の御句のようにいかに四方八方からの悪罵を御我慢遊ばされておられるかが良く窺い知る事が出来ると思います。<br><br>と思うと『ざまぁみろと言わない内にガラクタ共みんな谷底へごろごろごろ』又最後の御追加には特に御筆先と御記しの上『誠の者を邪神じゃ曲津（まがつ）じゃと申し、ざまあ見ろと申したなれど見て御座れよ、今にこの方天晴れ表になりたら余りの大きな取違でアフンと致して逆さになりて、ふんのびて、目まい致してお詫びに来るなれどそうなりては赦すという事は出来んから、皆我身の罪であるから往生致そうより仕様はないぞよ、大きにお世話様などと申してはおれんぞよ、改心するなら今であるぞよ、気を付けた上にも気を付け置くぞよ』と言うたようにその頃御邪魔した人達に封する隠よりの御鬱憤を御晴しになられると共に、又一方我々信者に封し御教訓を賜わったのであります。<br><br>このようにして毎月十六日の笑和会開巻の晩は、明主様始め会員一同大いに日頃の欝憤を晴し、一方読者馬太君の天下一品の好調子にあおられ、一層面白く、大いに笑い転げて夜の深み行くさえ知らない位に、楽しく過させて頂き、入選作に対しては御真筆の御色紙、御短冊を頂戴して深夜を醒めやらぬ興奮と楽しかりし思い出の句を口ずさみながら帰らして頂いたのでした。<br><br>私達は明主様の御神格を信じ最後の勝利は必ずこちらと信じいるも余りに四方八方よりの悪罵嘲笑と官憲の飽くなきうるさい干渉やらのため、この笑和会の笑冠句によって大いに日頃の癪の種を吹き飛ばさせて戴いたので、実に有難く楽しい思い出になりました。<br><br>総て笑冠句はたとえその事柄が明主様の御事に立入った句でも御叱り無く御採用下さるため、無論信者さん同志の事柄なぞ平気で投句するので、外部からの鬱憤なぞどんどん晴せるためこれ程楽しい事はありませんでしたが、又一方自分がやられても大笑いしてその笑いの中で大いに反省させられ、誠に有難い結構な御催しでありました。<br><br>思うだに笑いが込上げて来ます。<br><br> ちょうどこの頃と思いますが記帳してあっても見当りませんため、年月日は不明で誠に申訳ない事に存じますが、御許を御願いして実に大変な明主様の御力を拝見させて頂いたそのままを、書かせて頂きます。<br><br>ある日武田さんと云う奥さんが入院して来られました。<br><br>実に長らく医師に掛ったためふらふらで大森の御宅へ来られたのですが、その奥さんの名が悪いからとて明主様が和日（かずひ）と御命名下されて、毎日御浄霊を戴きましたが何としても大病の上の衰弱甚だしきため明主様にも大変な御心配でありました．日々の御浄霊も効なくある日遂に武田さんは死亡致して終いました。<br><br>私達は非常な心配でとても堪りません。<br><br>ところが明主様には御顔の色も変えられず少しも動ぜざる落着払った御姿にて依然として御浄霊の御手を御止めに成らないのです。<br><br>我々はどうなる事かと心配で心配で堪りませんが、明主様は相も変らずじっと御手を掛けられて霊気を送っておられます。<br><br>何とした事か、我々にはサッパリ訳が分りません。<br><br>ただただ我々は心配をしウロウロするのみでありました。<br><br>その後もやや暫く御浄霊を続けておられると、武田さんはパッと眼を開きました。<br><br>「アッ生き返った、生き返った」と一同驚歎の声々、皆「ホッ」と溜息を漏しました。<br><br>これこそ本当に安心して張り詰めた息を急に吐き出したと云うのでありましょうが、何とこれは丸きり武田さんは赤ん坊です。<br><br>物も言わずただキョトンとしております。<br><br>この時明主様は「武田さんは今死んで新しく生れ変ったのだから、今日から一年を一日ずつで成長して、二十八日で元通りの体に成れるのだ。<br><br>今日は生まれた許りの赤ん坊だから物なぞ言えない．なお又余り毒の多い人はこのようにした方が早いのだ、毒を取去るだけでも長く掛るため、特別な神様の御恵みによって早く治して戴けたのだ」との有難い御話で、実にこの方は幸運に恵まれたのです。<br><br>そして又「死んで生まれ変ったのでもう病気は無い。<br><br>ただ二十八日経過すれば立派に元の姿に立帰る事が出来るが、その間は子供の時にやったような事をして行くから、育てた人が見ていれば、この子が幾つの時にはこのような事があった、あのようなことがあったと云うように、昔のことを繰返すことがある」との御言葉で、その日は何も食べずただ牛乳を飲むだけでしたが、このようにしてて毎日御浄霊を戴きつつ二日目は二歳、三日目は三歳でやったような事をやりながら成長して、遂に二十八日目には立派に一人前の奥さんとなり、いそいそと帰宅されたので有ります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Discernimento Sobrenatural de Meishu-Sama</h2>
 <p>Na noite de 20 de abril de 1932, Meishu-Sama proferiu palavras de particular gravidade. Alertou-nos: "Em breve, o Partido Comunista empregará diversos métodos para realizar atentados e sabotagens. Tempos difíceis se aproximam." Com efeito, não tardou para que, em 29 de abril, viesse à tona uma conspiração comunista para destruir templos e outros locais. Em Xangai, um atentado a bomba foi perpetrado durante a cerimônia de comemoração do aniversário do Imperador, resultando em uma terrível tragédia: altas autoridades de nossa nação ficaram feridas e o líder da associação de residentes japoneses veio a falecer.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Aquele período foi marcado pela intensa atividade de espíritos malignos, que se manifestava através de calúnias e maledicências provenientes de todas as direções. Foi nesse contexto, e também para promover o polimento de nossa alma, que Meishu-Sama criou o Showakai, incentivando vigorosamente a prática do Shoukanku, a poesia cômica. Tanto Ele quanto nós nos valíamos dessa arte para extravasar e rir das frustrações. Na noite de 16 de julho, na 17ª Coletânea Mensal do Showakai, Ele assinou pela primeira vez como Ake-garasu Ahou. O poema de abertura era: "Japão, terra virgem; finalmente, a Porta de Pedra se abre com o corvo da manhã". Os temas da noite eram "Bem feito!" e "Muito obrigado pela sua preocupação!". Um dos poemas adicionados por Meishu-Sama revelava o fardo que Ele carregava: "Sou aquele que, com imenso esforço, reprime o desejo de dizer: Bem feito!". Outro, por sua vez, expressava Sua justa indignação: "Antes que eu possa dizer 'Bem feito!', que todo esse lixo role, role, role para o fundo do vale". Ao final, Ele acrescentou uma mensagem de próprio punho, identificando-a como uma revelação divina: "Vocês chamam as pessoas de fé sincera de malignas e perversas, dizendo 'Bem feito!'. Mas aguardem e verão. Quando Minha verdadeira identidade for revelada em toda a sua glória, perceberão o erro colossal que cometeram. Ficarão de ponta-cabeça, atônitos, e virão se desculpar, mas então já não haverá perdão. Tudo é fruto de seus próprios pecados, não havendo outro caminho senão aceitar seu destino. Não poderão mais dizer 'Muito obrigado pela sua preocupação!'. A hora de se arrepender é agora. Estejam atentos, mais do que atentos". Dessa forma, Ele não apenas aliviava a opressão que sofria daqueles que O perseguiam, mas também nos concedia um valioso ensinamento.</p>
 <p>Assim, as noites do dia 16 de cada mês, quando o Showakai se reunia, tornaram-se um bálsamo para todos. Liderados por Meishu-Sama, extravasávamos as tensões acumuladas, e a declamação inigualável de Dokusha Batakun tornava tudo ainda mais hilário. Ríamos até perder a noção do tempo. Os autores dos poemas selecionados recebiam como prêmio caligrafias em shiki-shi e tanzaku, feitas pelo próprio punho de Meishu-Sama. Deixávamos a reunião tarde da noite, com a excitação ainda pulsando, cantarolando os versos daquela noite memorável. Embora nossa fé na vitória final de Meishu-Sama fosse inabalável, a zombaria incessante, as calúnias vindas de todos os lados e a interferência maçante e contínua das autoridades eram um fardo pesado. O Shoukanku foi o meio que Ele nos deu para dissipar essa amargura, e por isso guardo dele uma recordação de imensa gratidão e alegria. A liberdade era total: podíamos até mesmo submeter poemas que abordassem o próprio Meishu-Sama, e Ele jamais se ofendia, acolhendo-os com bom humor. Naturalmente, os versos sobre os colegas de fé eram comuns, o que nos permitia desabafar abertamente. Por outro lado, quando éramos nós o alvo da brincadeira, ríamos de nós mesmos e, em meio ao riso, éramos levados a uma profunda autorreflexão. Era, de fato, um evento maravilhoso e edificante. A simples lembrança me arranca um sorriso.</p>
 <p>Não consigo precisar a data exata, pois, embora tenha o registro, não o encontro, e por isso peço perdão pela imprecisão. Contudo, solicito a vossa vênia para relatar um acontecimento extraordinário no qual testemunhei o imenso poder de Meishu-Sama. Certo dia, uma senhora de sobrenome Takeda foi internada. Ela havia se submetido a longos tratamentos médicos e chegou à residência de Omori em um estado de extrema debilidade. Meishu-Sama considerou seu nome de batismo desfavorável e a renomeou para Kazuhi. Ela recebia Johrei diariamente, mas sua fraqueza era tão severa que causava grande preocupação a Meishu-Sama. Apesar das ministrações, um dia, a senhora Takeda faleceu. Fomos tomados por uma angústia indescritível. Meishu-Sama, todavia, não alterou em nada Sua fisionomia. Com uma serenidade imperturbável, Ele prosseguiu com a ministração de Johrei, sem jamais remover Sua mão. Não sabíamos o que pensar nem o que aconteceria, e a aflição nos dominava. Ele, no entanto, continuava impassível, canalizando a Luz Divina. Após algum tempo, a senhora Takeda abriu os olhos subitamente. "Ressuscitou! Ela ressuscitou!", exclamamos todos, atônitos, soltando um suspiro coletivo de alívio. Ela, porém, era como um bebê recém-nascido: não falava, apenas olhava para o vazio. Foi quando Meishu-Sama nos explicou: "A senhora Takeda acaba de morrer e renascer. A partir de hoje, ela crescerá o equivalente a um ano por dia, e em vinte e oito dias retornará ao seu estado normal. Hoje, ela é apenas um recém-nascido, por isso não pode falar. Para pessoas com grande acúmulo de toxinas, este método é mais rápido. Apenas a purificação já levaria muito tempo; portanto, por uma graça especial de Deus, ela pôde ser curada rapidamente". E acrescentou: "Como morreu e renasceu, a doença já não existe. Ela necessita apenas que transcorram vinte e oito dias para retornar plenamente à sua condição anterior. Durante esse período, ela reviverá ações correspondentes a cada idade de sua infância. Quem a criou poderá reconhecer coisas que ela fazia quando tinha determinada idade". Naquele primeiro dia, ela apenas tomou leite. E assim, recebendo Johrei diariamente, no segundo dia comportou-se como uma criança de dois anos; no terceiro, como uma de três, e foi amadurecendo progressivamente. Ao final do vigésimo oitavo dia, havia se tornado uma mulher plenamente restaurada e retornou ao seu lar, exultante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （四） 神成大教会 岡庭真次郎 『地上天国』43号、昭和27(1952)年12月25日発行 昭和七年四月二十日夜、明主様より特に御話が有りました。<br/><br/>それは「今に共産党では色々の方法で爆破作業の工作をやってくるから今に大変ですよ。<br/><br/>」との御話を御漏らし下されましたが、早速四月二十九日共産党が寺院その他を破壊すると言う陰謀露見、上海にては天長節の御祝いの式場へ爆弾を見舞われ、我国の大官の中には爆弾にて負傷、なお又居留民団長など遂に死亡するの大惨事が起ってしまったのであります。<br/><br/> 昭和七年八月十八月出張先より大森の御屋敷へ帰途につき都電塩町にて乗換えるべく乗車したところ、大木戸まで乗越してしまいましたため、これは何か御用があると感じましたので下車し、夜店や店舗を覗き歩く内、観音様の古い良いのが見当りましたから、ハハーこれを買えと神様が大木戸まで乗越させられたのだと思い、早速買入れて帰り、乗越のお話を致して明主様に御目に掛ければ、「これは鎌倉時代の物で、分院の潮満、潮干の両玉を守護する経綸の御観音様である」との御話に早速献上させて戴きました。<br/><br/>なお、明主様から「大木戸迄乗越させられたことはやはり御用があったので、このような時ボンヤりしていて帰って終えば御用は出来ず落第である」と御教え賜わりましたが、丁度この時仏画を専門の様にしている渡辺誠と言う画家もいて「非常に古い物だ」と褒められました。<br/><br/> 八月二十六日明主様には大森分院の床の間に神様と並べて龍宮の乙姫のお軸を御掛け始められ、お祭の後は信者一同に秋草の御題を賜わり、一時間で締切り、明主様には早速御選歌、直ちに御発表、又笑和会の笑冠句も御発表、瓢箪子の名調子に笑いこけ、臍茶わかしての大笑いで終りました。<br/><br/> 次の日明主様にはいよいよ来月から分院で（この頃大森の御屋敷では二階に大森支部、別館は平家建で大森分院となっておりました）御鎮魂遊ばすように御発表あり、三十日には夜遅くになられてからこの意味を御話下さいましたが、この御話で非常に時期が早まったのだとの御教えを賜りましたが、この頃より前はまだ公然の御治療でないために御収入も乏しく、実に御気の毒であられたので、信者一同にて相談の上「ただで御鎮魂を御願い申し上げることこそ申訳の無い事である」とて御鎮魂を戴いた者は一回五十銭ずつ御神前へ御礼をする事にしたような次第でありましたが、明主様はこの時分に「岡庭さん、私は今はこんなに貧乏しているが、今に私の廻りにはお金なんか降るように来るんですぜ」との御言葉でしたが、いよいよその時は来ました。<br/><br/> 昭和八年七月十六日明主様には今迄朝寝坊阿呆の御雅号をもって文芸を遊ばされておられましたが、この日より明烏阿呆と御改名遊ばされて、いよいよ明の烏の鳴く夜明が迫って来る意味で有りますが、この頃から明主様には御朝寝を追々と御改正遊ばされるようにおなりになられたのでした。<br/><br/>このように明主様は御雅号までもその時期によって御改め遊ばされるのであります。<br/><br/>この時代明主様には御揮毫の際、あるいは御文芸の時暉月と御雅号を御使いになられるので私は不思議で堪らず、何故かと言えば明主様は軍人や戦争や仇討は大の御嫌いであられるのに、日扁の軍の字を御使用に成られるからでした。<br/><br/>ところがある日この御雅号の字義について御話し下さいました。<br/><br/>「暉月とは暉の字は日軍即ち私は今日本軍である。<br/><br/>日は神で神軍とも成る。<br/><br/>私は悪魔と戦わわばならないから今は暉月となっているのだ。<br/><br/>又暉はカガヤクであり日であるから暉月は伊都能売尊である（日月）」と御教え賜わり誠に恐縮致しました。<br/><br/>人間の浅智慧でこのような御疑いを持って何とも申訳の無い事でありました。<br/><br/>「神様と人間とは作った者と作られた者との相違だ」との御教えがありましたが、人間なんかの浅智慧で深遠微妙の御心が覚れるものではありません。<br/><br/>そして明主様は大本教を脱退されて後はこの御雅号は御使用遊ばされることはなくなられました。<br/><br/>この頃は四方八方よりの邪神活躍のために悪口雑口の飛ぶ時代であったためと、又私達の霊魂磨きのため笑和会をお作りになられて笑冠句を大いに奨励になられ、明主様始め私達も笑冠句で大いにその欝憤を吹き飛ばし笑い飛ばしたもので、この夜（七月十六日）には笑和会第十七回月並笑冠句集に選者朝寝坊阿呆改め明烏阿呆と御改名を御使用なされて巻頭には『処女日本いよいよ岩戸も明烏』とそして題は“ざまさみろ”と“大きにお世話様”の二題で、明主様の御追加下された御句『ざまぁみろと言い度いのを糞我慢している私ではある』の御句のようにいかに四方八方からの悪罵を御我慢遊ばされておられるかが良く窺い知る事が出来ると思います。<br/><br/>と思うと『ざまぁみろと言わない内にガラクタ共みんな谷底へごろごろごろ』又最後の御追加には特に御筆先と御記しの上『誠の者を邪神じゃ曲津（まがつ）じゃと申し、ざまあ見ろと申したなれど見て御座れよ、今にこの方天晴れ表になりたら余りの大きな取違でアフンと致して逆さになりて、ふんのびて、目まい致してお詫びに来るなれどそうなりては赦すという事は出来んから、皆我身の罪であるから往生致そうより仕様はないぞよ、大きにお世話様などと申してはおれんぞよ、改心するなら今であるぞよ、気を付けた上にも気を付け置くぞよ』と言うたようにその頃御邪魔した人達に封する隠よりの御鬱憤を御晴しになられると共に、又一方我々信者に封し御教訓を賜わったのであります。<br/><br/>このようにして毎月十六日の笑和会開巻の晩は、明主様始め会員一同大いに日頃の欝憤を晴し、一方読者馬太君の天下一品の好調子にあおられ、一層面白く、大いに笑い転げて夜の深み行くさえ知らない位に、楽しく過させて頂き、入選作に対しては御真筆の御色紙、御短冊を頂戴して深夜を醒めやらぬ興奮と楽しかりし思い出の句を口ずさみながら帰らして頂いたのでした。<br/><br/>私達は明主様の御神格を信じ最後の勝利は必ずこちらと信じいるも余りに四方八方よりの悪罵嘲笑と官憲の飽くなきうるさい干渉やらのため、この笑和会の笑冠句によって大いに日頃の癪の種を吹き飛ばさせて戴いたので、実に有難く楽しい思い出になりました。<br/><br/>総て笑冠句はたとえその事柄が明主様の御事に立入った句でも御叱り無く御採用下さるため、無論信者さん同志の事柄なぞ平気で投句するので、外部からの鬱憤なぞどんどん晴せるためこれ程楽しい事はありませんでしたが、又一方自分がやられても大笑いしてその笑いの中で大いに反省させられ、誠に有難い結構な御催しでありました。<br/><br/>思うだに笑いが込上げて来ます。<br/><br/> ちょうどこの頃と思いますが記帳してあっても見当りませんため、年月日は不明で誠に申訳ない事に存じますが、御許を御願いして実に大変な明主様の御力を拝見させて頂いたそのままを、書かせて頂きます。<br/><br/>ある日武田さんと云う奥さんが入院して来られました。<br/><br/>実に長らく医師に掛ったためふらふらで大森の御宅へ来られたのですが、その奥さんの名が悪いからとて明主様が和日（かずひ）と御命名下されて、毎日御浄霊を戴きましたが何としても大病の上の衰弱甚だしきため明主様にも大変な御心配でありました．日々の御浄霊も効なくある日遂に武田さんは死亡致して終いました。<br/><br/>私達は非常な心配でとても堪りません。<br/><br/>ところが明主様には御顔の色も変えられず少しも動ぜざる落着払った御姿にて依然として御浄霊の御手を御止めに成らないのです。<br/><br/>我々はどうなる事かと心配で心配で堪りませんが、明主様は相も変らずじっと御手を掛けられて霊気を送っておられます。<br/><br/>何とした事か、我々にはサッパリ訳が分りません。<br/><br/>ただただ我々は心配をしウロウロするのみでありました。<br/><br/>その後もやや暫く御浄霊を続けておられると、武田さんはパッと眼を開きました。<br/><br/>「アッ生き返った、生き返った」と一同驚歎の声々、皆「ホッ」と溜息を漏しました。<br/><br/>これこそ本当に安心して張り詰めた息を急に吐き出したと云うのでありましょうが、何とこれは丸きり武田さんは赤ん坊です。<br/><br/>物も言わずただキョトンとしております。<br/><br/>この時明主様は「武田さんは今死んで新しく生れ変ったのだから、今日から一年を一日ずつで成長して、二十八日で元通りの体に成れるのだ。<br/><br/>今日は生まれた許りの赤ん坊だから物なぞ言えない．なお又余り毒の多い人はこのようにした方が早いのだ、毒を取去るだけでも長く掛るため、特別な神様の御恵みによって早く治して戴けたのだ」との有難い御話で、実にこの方は幸運に恵まれたのです。<br/><br/>そして又「死んで生まれ変ったのでもう病気は無い。<br/><br/>ただ二十八日経過すれば立派に元の姿に立帰る事が出来るが、その間は子供の時にやったような事をして行くから、育てた人が見ていれば、この子が幾つの時にはこのような事があった、あのようなことがあったと云うように、昔のことを繰返すことがある」との御言葉で、その日は何も食べずただ牛乳を飲むだけでしたが、このようにしてて毎日御浄霊を戴きつつ二日目は二歳、三日目は三歳でやったような事をやりながら成長して、遂に二十八日目には立派に一人前の奥さんとなり、いそいそと帰宅されたので有ります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

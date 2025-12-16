@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reika081</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界篇 ５ 081-095 顕幽関連２ 081 戦犯者の死後 戦犯者が人道上の犯罪に付いては遺憾の意を表していますが、戦争そのものは止むなく起きた事をあく迄信じているようですが、この事を思って処刑された霊はいかなる生活をするでしょうか。<br><br>（再生後はどうなるでしょうか） 戦犯者は小乗の善で、己の国家や階級のみを考えて他民族を破壊しようが殺そうが（どうなってもいい）構わぬ、日本さえ良ければよいという小乗である。<br><br>この人達は悪を善と間違えて考えた。<br><br>この人達も霊界で判る。<br><br>本当の事を教誨師などが説き聞かす。<br><br>それでその非を悟り改心する。<br><br> こういう人は小乗の善であるから、最初は残らず無罪を主張した。<br><br>あの当時は立派な事をしたと考えたに違いない。<br><br>絶対善と思った。<br><br>（忠君愛国）日本の道徳などすべて小乗の説き方だった。<br><br>これが封建的である。<br><br> 外国は早くから国際的であるから大乗的になった。<br><br>外国は緯であり、水であるから、どうしても博愛的になる。<br><br>東洋は経で火であるから、祖先を祀り、子孫に美田を作る。<br><br>夫婦愛などは重きを置かず、夫婦愛などは非常に淡白で、ひどいのは、私の子供の頃、夫婦で一緒に歩くさえ珍らしかった。<br><br>（夫婦歩きは恥とした）、（経緯の違いである。<br><br>） 外国は夫婦愛が基調となり、隣人愛である。<br><br>しかし祖先を祀らぬ。<br><br>どっちも偏った。<br><br> 日本は小乗に偏って戦争となった。<br><br>故に霊界へ行けばそれを説かれるから判る。<br><br>再生後は皆相当偉い人であるから、悟りもよい。<br><br>悟ってもこの世にいた時の罪は大きい。<br><br> 何千何百万人殺し、何百万人の不幸を作った。<br><br> 今日の悲劇の脚本は殆ど戦争が原因となっている。<br><br>東洋の大部分の人の生命を奪っている。<br><br>その殺人の罪、怨みの想念は大変なもので、改心すれば減るが、減っても地獄で何十年何百年苦しまねば許されぬと思う。<br><br>（S24.12.27） 082 財閥、政治家の霊界相 十五日夜、財閥の死後の実相を霊査致しましたところ、札（さつ）の山の中に埋もれて苦しんで痴呆症となっております。<br><br>大政治家を二名霊査致しましたところ、いずれも最低地獄に呻吟しております。<br><br>なお「わいろ」をとった罪にて胸より常に汚物が流出しているということで御座います。<br><br>右の実否を御垂示御願い申し上げます。<br><br> これは本当である。<br><br>札を拝んでいたため札で苦しむ。<br><br>霊界へ行けばウンと苦しむ。<br><br>寧ろ呑百姓の方が上である。<br><br>親鸞、日蓮なども地獄だし、家康は狸になっている。<br><br>（S25. 5.18） 083 霊界における現界の地位 霊界においては現界での智慧学は役に立つが地位名誉等は役に立たない、とある霊が申しますが、本当で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> この通りである。<br><br>地位名誉は全然なくなり、裸になる。<br><br>（上下引っくり返る事が多くある。<br><br>罪穢の少いのは上である。<br><br>金持は乞食みたいになる。<br><br>霊界は公平である）（S24. 2.21） 084 善行して地獄へ行くものありや、（真の善事） 地獄、極楽について御伺い致します。<br><br> 一、苦しみながら死ぬ人でも極楽へ行く人が御座居ますか。<br><br> 二、楽に死ぬ人は必ず極楽へ行くので御座居ますか。<br><br> 三、生前中の行ないが良くても死後地獄へ行く人が御座居ますか。<br><br> 一、第三篇にすっかり書いてある。<br><br> 極楽へ行けないとしたらどっか悪い所がある筈である。<br><br>善人でも、功利的なのや交換条件でするのもある。<br><br>本当の善事は可哀相な人をみて助けてやる。<br><br>結果など考えぬ。<br><br>これが本当で、神様はお蔭を下さる。<br><br>（S24. 9.15） 085 国家、民族の場合の裁き 霊界も現界も同じである。<br><br>故に民族的差異がある。<br><br> 戦争をした場合、思想的に争った場合、その民族は堕ちる。<br><br>その罪によって地獄へ落ちる。<br><br> そういう変化はある。<br><br>これは個人に同じである。<br><br> 086 俳優の霊界所属、神界の踊り 俳優の所属――人を娯しますもの、神様の方にもある。<br><br>天国でも俳優をする。<br><br> 所属は善悪の量によって決まる。<br><br>俳優の悪としては婦人関係の罪があろう。<br><br> 生きているうちに善い事をするとよほど罪は減る。<br><br> 女形は日常生活が女と同じ（男優は褌、女形は腰巻等）――しかし日常生活の違うのは自分の芸を磨くためだからいい。<br><br> 神界は極く昔は踊りなどあったが、留守番位のもので、暫くは何にもなかった。<br><br>仏界だけが盛んだった。<br><br>現界にも今迄にない事が沢山ある。<br><br> 087 爆死の霊状態 原子爆弾のごとく一瞬にして多数の人命を奪う時、その失われたる人の霊魂はいかなる形態を取りて肉体より離脱するものでしょうか、御尋ね致します。<br><br> 霊魂も肉体と同じ状態である。<br><br>人間の形体はなくなり、コナゴナになり、それが集まって割に早く普通の人間になってから地獄へ行く。<br><br>丁度、原爆でやられたように、身体も動かず口も利けず、冷い。<br><br>遺族の供養などで苦しみも軽くなり、よくなる。<br><br>（S24. 6. 5） 088 唯物主義者の霊的状態 唯物主義者は霊的にはいかなる状態にありましょうか。<br><br> 霊的には痴呆症になっている。<br><br>霊界へ行くと馬鹿である。<br><br>唯物主義者は、上面の頭は非常によく、しん（心）は非常に悪い。<br><br>これが政治などをやってるから、うまく行きっこない。<br><br>忌憚なくいえば「愚かなる者よ汝の名は唯物主義者なり」と言ってよい。<br><br>（S24. 7.16） 089 不具者の霊界状態と再生 生れながらにして手足の不自由ばかりでなく耳、眼、口もきけない極端な不具者が霊界へ帰属した場合の状態はいかように相成るもので御座いましょうか。<br><br>また、その霊が現界へ再生した場合の状態をあわせて御伺い申し上げます。<br><br> 霊界でも当分は不具者である。<br><br>そして霊界の浄化作用があって必ず治る。<br><br>ある期間そのままであるが、霊界は現界の延長で、反って肉体がないから苦しみは増す。<br><br>そうして、病――とれて生れる事がある。<br><br> （霊界は現界よりつらい。<br><br>急病で苦しむのは殴られて苦しんでいる。<br><br>死霊から聞いた） （S *.12.14） 090 不具者の死後 人間は死の瞬間の状態が霊界にも続くという事で御座居ますが、ヘレン・ケラーの場合、やはり盲で御座居ましょうか。<br><br> 当分は盲である。<br><br>年月が経つと盲は治る。<br><br>（S23） 091 佐倉宗五郎の場合 佐倉宗五郎のような場合、霊界ではどうなるので御座いましょうか。<br><br> 変死であるから一時地獄へ行くが、早く救われる。<br><br>神社に祭られているのは、霊界では神格を得、産土神のような役を仰せつかっていると思う。<br><br>神の規則があるから、罪はどこまでもとられねばならぬ。<br><br> rattail（注） 佐倉宗五郎（木内惣五郎）江戸時代の人。<br><br>下総国（今の千葉県）佐倉藩の庄屋。<br><br>貧窮する領民のため、命がけで将軍に直訴をした。<br><br>農民達は藩主の圧政から救われたが、惣五郎ははりつけになり、家族の者も打ち首になった。<br><br>その後、農民を守る神様として、「佐倉宗五郎大明神」の名で各地に祀られるようになる。<br><br>浪曲・講談・歌舞伎で有名。<br><br> 092 稲荷行者の死後 稲荷の行者は死後狐霊の世界へ墜ちるものでしょうか。<br><br> 堕ちる。<br><br>生きている中に畜生に落ちている。<br><br>だから行者などは非常に不倖せが多い。<br><br>病気でも変な病気になる。<br><br>神経痛が多い。<br><br>水を浴びると身体中の毒が塊まる。<br><br>だから行者などの身体はコチコチに固まっている。<br><br>断食、水浴びなどの行は邪道である。<br><br>狐がよく憑くから、生きながら畜生道に堕ちる。<br><br>だから本当は邪道である。<br><br> 093 外国で死んだ霊の帰属 国際結婚して外国に住まっていた者が死んだ場合、霊界はいずれに帰属するものでしょうか。<br><br> また、外遊中死去の場合はいかになりましょうか。<br><br>謹んでお伺い申し上げます。<br><br> 本人次第で、キリスト教で死ねば大抵外国へ生れる。<br><br>そうでないのは帰ってくる。<br><br> 根本は本人の想念。<br><br>外遊中死去したのは必ず帰ってくる。<br><br>（S25. 5.15） 094 処女と罪、子供の天国 天人のお話の際、処女は罪が軽いとの仰せでございましたが、そう致しますと、既婚の女性は罪を作ると言う事になりませんでしょうか。<br><br> 罪ではない。<br><br>汚れがない。<br><br>これもおかしいが、女性は生れて結婚するのが本当である。<br><br> しかし、実際はそういう事はあり得る。<br><br>御木徳一など、女が月経があると汚れてるといって、月経のない女性を近侍にした。<br><br>月経が起ると真偽ははっきり知らぬが、徳一が手をつけると聞いた事がある。<br><br>霊界では処女は良い所へ行くらしい。<br><br>そういう例はよくある。<br><br>故に理屈でなく事実そうなっている。<br><br>子供など天人になると天国で子供の綺麗な花園の仕事などさせられるようだ。<br><br>月経があり、女になると執着の起る点がある。<br><br>恋愛は一つの執着である。<br><br> 095 再生の自覚と子供の霊 人間再生の場合、霊は再生を自覚しておりましょうか。<br><br>また、浄化不十分にて再生し、また霊界に行った場合浄化されるので御座いましょうか。<br><br>また、霊界にて浄化されたる古い霊が再生し、子供にて霊界に行った場合、霊は子供となるのでしょうか。<br><br> 再生は自覚していない。<br><br>前生を知らぬように人間は出来ている。<br><br>自覚していると再生して人間になっても罪を作る。<br><br>大抵の人は罪の方が多い。<br><br>子供で霊界へ行けば子供になる。<br><br>霊界でも育つので、また老人で若返るのもある。<br><br>子供で非常に早く育つのと、相当長い間子供でいるのもある。<br><br>親が徳を積む場合、霊界へ行くと極楽や天国のいろんな仕事をさせられる。<br><br>天使のようなものである。<br><br>子供で羽根が生えて空中を飛ぶのがあるのは実際にそんな事がある。<br><br>霊界でいろんな儀式などの時子供がいろんな役をするのは一つの美観でもある。<br><br>霊界における年齢は、男は二十八から三十位、女は十八位である。<br><br>神様などは年をとらぬ。<br><br>木花咲爺姫のごときは今以て十八歳である。<br><br>（私が富士山へ登った時、一週間経って姫の姿を見たのがある）霊界には時間空間はなく、夜昼もない。<br><br>何年経っても同じである。<br><br> 地獄はそうはゆかぬらしい。<br><br>現界にいたまま続くので、八衢から天国へ行くに従い若くなる。<br><br>年寄は年寄のままである。<br><br>（S23.12.29）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Assuntos Relacionados aos Mundos Espiritual e Material, parte 2</h2>
 <h3>081. O Destino Póstumo dos Criminosos de Guerra</h3>
@@ -151,5 +303,48 @@ function toggleLang(lang) {
 <p>Uma criança que vai para o Mundo Espiritual lá permanece como criança. Contudo, ela continua a se desenvolver, assim como existem idosos que rejuvenescem. Algumas crianças crescem muito rapidamente, enquanto outras permanecem na infância por um longo tempo. Quando os pais acumulam virtudes, seus filhos, no Mundo Espiritual, recebem diversas missões no Paraíso ou no Céu. São como anjos. Há, de fato, crianças que ganham asas e voam pelos céus. Em cerimônias no Mundo Espiritual, a participação de crianças em diversas funções contribui para a beleza do evento.</p>
 <p>A idade no Mundo Espiritual estabiliza-se: para os homens, entre vinte e oito e trinta anos, e para as mulheres, por volta dos dezoito. Os deuses não envelhecem. A Princesa Konohanasakuya, por exemplo, mantém até hoje a aparência de dezoito anos. (Quando escalei o Monte Fuji, após uma semana, tive a visão de sua figura.) No Mundo Espiritual, não existe tempo nem espaço, nem dia ou noite. Os anos passam sem que nada mude.</p>
 <p>No inferno, ao que parece, as coisas não se passam dessa forma. A existência ali é uma continuação do estado em que a pessoa se encontrava no Mundo Material. O rejuvenescimento ocorre à medida que o espírito ascende dos planos inferiores em direção ao Paraíso. Os idosos, portanto, permanecem idosos nesses níveis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界篇 ５ 081-095 顕幽関連２ 081 戦犯者の死後 戦犯者が人道上の犯罪に付いては遺憾の意を表していますが、戦争そのものは止むなく起きた事をあく迄信じているようですが、この事を思って処刑された霊はいかなる生活をするでしょうか。<br/><br/>（再生後はどうなるでしょうか） 戦犯者は小乗の善で、己の国家や階級のみを考えて他民族を破壊しようが殺そうが（どうなってもいい）構わぬ、日本さえ良ければよいという小乗である。<br/><br/>この人達は悪を善と間違えて考えた。<br/><br/>この人達も霊界で判る。<br/><br/>本当の事を教誨師などが説き聞かす。<br/><br/>それでその非を悟り改心する。<br/><br/> こういう人は小乗の善であるから、最初は残らず無罪を主張した。<br/><br/>あの当時は立派な事をしたと考えたに違いない。<br/><br/>絶対善と思った。<br/><br/>（忠君愛国）日本の道徳などすべて小乗の説き方だった。<br/><br/>これが封建的である。<br/><br/> 外国は早くから国際的であるから大乗的になった。<br/><br/>外国は緯であり、水であるから、どうしても博愛的になる。<br/><br/>東洋は経で火であるから、祖先を祀り、子孫に美田を作る。<br/><br/>夫婦愛などは重きを置かず、夫婦愛などは非常に淡白で、ひどいのは、私の子供の頃、夫婦で一緒に歩くさえ珍らしかった。<br/><br/>（夫婦歩きは恥とした）、（経緯の違いである。<br/><br/>） 外国は夫婦愛が基調となり、隣人愛である。<br/><br/>しかし祖先を祀らぬ。<br/><br/>どっちも偏った。<br/><br/> 日本は小乗に偏って戦争となった。<br/><br/>故に霊界へ行けばそれを説かれるから判る。<br/><br/>再生後は皆相当偉い人であるから、悟りもよい。<br/><br/>悟ってもこの世にいた時の罪は大きい。<br/><br/> 何千何百万人殺し、何百万人の不幸を作った。<br/><br/> 今日の悲劇の脚本は殆ど戦争が原因となっている。<br/><br/>東洋の大部分の人の生命を奪っている。<br/><br/>その殺人の罪、怨みの想念は大変なもので、改心すれば減るが、減っても地獄で何十年何百年苦しまねば許されぬと思う。<br/><br/>（S24.12.27） 082 財閥、政治家の霊界相 十五日夜、財閥の死後の実相を霊査致しましたところ、札（さつ）の山の中に埋もれて苦しんで痴呆症となっております。<br/><br/>大政治家を二名霊査致しましたところ、いずれも最低地獄に呻吟しております。<br/><br/>なお「わいろ」をとった罪にて胸より常に汚物が流出しているということで御座います。<br/><br/>右の実否を御垂示御願い申し上げます。<br/><br/> これは本当である。<br/><br/>札を拝んでいたため札で苦しむ。<br/><br/>霊界へ行けばウンと苦しむ。<br/><br/>寧ろ呑百姓の方が上である。<br/><br/>親鸞、日蓮なども地獄だし、家康は狸になっている。<br/><br/>（S25. 5.18） 083 霊界における現界の地位 霊界においては現界での智慧学は役に立つが地位名誉等は役に立たない、とある霊が申しますが、本当で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> この通りである。<br/><br/>地位名誉は全然なくなり、裸になる。<br/><br/>（上下引っくり返る事が多くある。<br/><br/>罪穢の少いのは上である。<br/><br/>金持は乞食みたいになる。<br/><br/>霊界は公平である）（S24. 2.21） 084 善行して地獄へ行くものありや、（真の善事） 地獄、極楽について御伺い致します。<br/><br/> 一、苦しみながら死ぬ人でも極楽へ行く人が御座居ますか。<br/><br/> 二、楽に死ぬ人は必ず極楽へ行くので御座居ますか。<br/><br/> 三、生前中の行ないが良くても死後地獄へ行く人が御座居ますか。<br/><br/> 一、第三篇にすっかり書いてある。<br/><br/> 極楽へ行けないとしたらどっか悪い所がある筈である。<br/><br/>善人でも、功利的なのや交換条件でするのもある。<br/><br/>本当の善事は可哀相な人をみて助けてやる。<br/><br/>結果など考えぬ。<br/><br/>これが本当で、神様はお蔭を下さる。<br/><br/>（S24. 9.15） 085 国家、民族の場合の裁き 霊界も現界も同じである。<br/><br/>故に民族的差異がある。<br/><br/> 戦争をした場合、思想的に争った場合、その民族は堕ちる。<br/><br/>その罪によって地獄へ落ちる。<br/><br/> そういう変化はある。<br/><br/>これは個人に同じである。<br/><br/> 086 俳優の霊界所属、神界の踊り 俳優の所属――人を娯しますもの、神様の方にもある。<br/><br/>天国でも俳優をする。<br/><br/> 所属は善悪の量によって決まる。<br/><br/>俳優の悪としては婦人関係の罪があろう。<br/><br/> 生きているうちに善い事をするとよほど罪は減る。<br/><br/> 女形は日常生活が女と同じ（男優は褌、女形は腰巻等）――しかし日常生活の違うのは自分の芸を磨くためだからいい。<br/><br/> 神界は極く昔は踊りなどあったが、留守番位のもので、暫くは何にもなかった。<br/><br/>仏界だけが盛んだった。<br/><br/>現界にも今迄にない事が沢山ある。<br/><br/> 087 爆死の霊状態 原子爆弾のごとく一瞬にして多数の人命を奪う時、その失われたる人の霊魂はいかなる形態を取りて肉体より離脱するものでしょうか、御尋ね致します。<br/><br/> 霊魂も肉体と同じ状態である。<br/><br/>人間の形体はなくなり、コナゴナになり、それが集まって割に早く普通の人間になってから地獄へ行く。<br/><br/>丁度、原爆でやられたように、身体も動かず口も利けず、冷い。<br/><br/>遺族の供養などで苦しみも軽くなり、よくなる。<br/><br/>（S24. 6. 5） 088 唯物主義者の霊的状態 唯物主義者は霊的にはいかなる状態にありましょうか。<br/><br/> 霊的には痴呆症になっている。<br/><br/>霊界へ行くと馬鹿である。<br/><br/>唯物主義者は、上面の頭は非常によく、しん（心）は非常に悪い。<br/><br/>これが政治などをやってるから、うまく行きっこない。<br/><br/>忌憚なくいえば「愚かなる者よ汝の名は唯物主義者なり」と言ってよい。<br/><br/>（S24. 7.16） 089 不具者の霊界状態と再生 生れながらにして手足の不自由ばかりでなく耳、眼、口もきけない極端な不具者が霊界へ帰属した場合の状態はいかように相成るもので御座いましょうか。<br/><br/>また、その霊が現界へ再生した場合の状態をあわせて御伺い申し上げます。<br/><br/> 霊界でも当分は不具者である。<br/><br/>そして霊界の浄化作用があって必ず治る。<br/><br/>ある期間そのままであるが、霊界は現界の延長で、反って肉体がないから苦しみは増す。<br/><br/>そうして、病――とれて生れる事がある。<br/><br/> （霊界は現界よりつらい。<br/><br/>急病で苦しむのは殴られて苦しんでいる。<br/><br/>死霊から聞いた） （S *.12.14） 090 不具者の死後 人間は死の瞬間の状態が霊界にも続くという事で御座居ますが、ヘレン・ケラーの場合、やはり盲で御座居ましょうか。<br/><br/> 当分は盲である。<br/><br/>年月が経つと盲は治る。<br/><br/>（S23） 091 佐倉宗五郎の場合 佐倉宗五郎のような場合、霊界ではどうなるので御座いましょうか。<br/><br/> 変死であるから一時地獄へ行くが、早く救われる。<br/><br/>神社に祭られているのは、霊界では神格を得、産土神のような役を仰せつかっていると思う。<br/><br/>神の規則があるから、罪はどこまでもとられねばならぬ。<br/><br/> rattail（注） 佐倉宗五郎（木内惣五郎）江戸時代の人。<br/><br/>下総国（今の千葉県）佐倉藩の庄屋。<br/><br/>貧窮する領民のため、命がけで将軍に直訴をした。<br/><br/>農民達は藩主の圧政から救われたが、惣五郎ははりつけになり、家族の者も打ち首になった。<br/><br/>その後、農民を守る神様として、「佐倉宗五郎大明神」の名で各地に祀られるようになる。<br/><br/>浪曲・講談・歌舞伎で有名。<br/><br/> 092 稲荷行者の死後 稲荷の行者は死後狐霊の世界へ墜ちるものでしょうか。<br/><br/> 堕ちる。<br/><br/>生きている中に畜生に落ちている。<br/><br/>だから行者などは非常に不倖せが多い。<br/><br/>病気でも変な病気になる。<br/><br/>神経痛が多い。<br/><br/>水を浴びると身体中の毒が塊まる。<br/><br/>だから行者などの身体はコチコチに固まっている。<br/><br/>断食、水浴びなどの行は邪道である。<br/><br/>狐がよく憑くから、生きながら畜生道に堕ちる。<br/><br/>だから本当は邪道である。<br/><br/> 093 外国で死んだ霊の帰属 国際結婚して外国に住まっていた者が死んだ場合、霊界はいずれに帰属するものでしょうか。<br/><br/> また、外遊中死去の場合はいかになりましょうか。<br/><br/>謹んでお伺い申し上げます。<br/><br/> 本人次第で、キリスト教で死ねば大抵外国へ生れる。<br/><br/>そうでないのは帰ってくる。<br/><br/> 根本は本人の想念。<br/><br/>外遊中死去したのは必ず帰ってくる。<br/><br/>（S25. 5.15） 094 処女と罪、子供の天国 天人のお話の際、処女は罪が軽いとの仰せでございましたが、そう致しますと、既婚の女性は罪を作ると言う事になりませんでしょうか。<br/><br/> 罪ではない。<br/><br/>汚れがない。<br/><br/>これもおかしいが、女性は生れて結婚するのが本当である。<br/><br/> しかし、実際はそういう事はあり得る。<br/><br/>御木徳一など、女が月経があると汚れてるといって、月経のない女性を近侍にした。<br/><br/>月経が起ると真偽ははっきり知らぬが、徳一が手をつけると聞いた事がある。<br/><br/>霊界では処女は良い所へ行くらしい。<br/><br/>そういう例はよくある。<br/><br/>故に理屈でなく事実そうなっている。<br/><br/>子供など天人になると天国で子供の綺麗な花園の仕事などさせられるようだ。<br/><br/>月経があり、女になると執着の起る点がある。<br/><br/>恋愛は一つの執着である。<br/><br/> 095 再生の自覚と子供の霊 人間再生の場合、霊は再生を自覚しておりましょうか。<br/><br/>また、浄化不十分にて再生し、また霊界に行った場合浄化されるので御座いましょうか。<br/><br/>また、霊界にて浄化されたる古い霊が再生し、子供にて霊界に行った場合、霊は子供となるのでしょうか。<br/><br/> 再生は自覚していない。<br/><br/>前生を知らぬように人間は出来ている。<br/><br/>自覚していると再生して人間になっても罪を作る。<br/><br/>大抵の人は罪の方が多い。<br/><br/>子供で霊界へ行けば子供になる。<br/><br/>霊界でも育つので、また老人で若返るのもある。<br/><br/>子供で非常に早く育つのと、相当長い間子供でいるのもある。<br/><br/>親が徳を積む場合、霊界へ行くと極楽や天国のいろんな仕事をさせられる。<br/><br/>天使のようなものである。<br/><br/>子供で羽根が生えて空中を飛ぶのがあるのは実際にそんな事がある。<br/><br/>霊界でいろんな儀式などの時子供がいろんな役をするのは一つの美観でもある。<br/><br/>霊界における年齢は、男は二十八から三十位、女は十八位である。<br/><br/>神様などは年をとらぬ。<br/><br/>木花咲爺姫のごときは今以て十八歳である。<br/><br/>（私が富士山へ登った時、一週間経って姫の姿を見たのがある）霊界には時間空間はなく、夜昼もない。<br/><br/>何年経っても同じである。<br/><br/> 地獄はそうはゆかぬらしい。<br/><br/>現界にいたまま続くので、八衢から天国へ行くに従い若くなる。<br/><br/>年寄は年寄のままである。<br/><br/>（S23.12.29）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

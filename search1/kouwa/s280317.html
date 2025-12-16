@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280317</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月17日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月十七日 今度吉田内閣がああいうことになって、ちょっと思い出したことは、『笑の泉』にありますが、古い笑冠句で「馬鹿野郎、良く考えりゃオレのこと」というのがありますが、今度の吉田さんによく合っているのです。<br><br>なんといっても「馬鹿野郎」問題が直接の動機となって不信任問題から解散となったのですから、「馬鹿野郎」という言葉はたいへんな役目をしたのです。<br><br>ところが後がまずいのです。<br><br>少なくとも、神聖なる議会において、総理大臣が「馬鹿野郎」と言うのは、どうした魔がさしたのか知らないが、総理大臣がそういうことを言うのは珍しいことです。<br><br>それで相手が議員ですから、議員は国民が投票して出した代表ですから、それに馬鹿野郎と言うことは、国民を罵ったということにもなりますから、国民感情としては我慢はできないわけです。<br><br>昨日、毎月ああいう人たちの会をするのですが、現代議士が三人ばかり来て、それについて話をしたのですが、ああいう人たちは、さのみ思っていないのですが、あのくらいのことはたいした問題にするに足りないというような意見でしたが。<br><br>しかしあの人たちは、議場はべつにたいして神聖とは思ってないらしいです。<br><br>なにしろ取っ組み合いの喧嘩をするのですから、馬鹿野郎くらいなんでもないと思っているのです。<br><br>しかし国民感情から言って、国民はどうしても我慢ができないのです。<br><br>その結果、内紛問題が起り、ああいう結果になったということはまずかったのです。<br><br>それも後で「自分はうっかり間違ったことを言って確かに申し訳ない」と言って謝れば良かったのですが、ただ取り消しだけですから、それがおもしろくないのです。<br><br>吉田さんという人は政治家としては立派な人です。<br><br>今でも一番偉いでしょう。<br><br>けれども言い出したことはどこまでも通そうというのが毀（きず）です。<br><br>そのためにいろんな問題を起しているのです。<br><br>去年の福永問題にしろ今度の広川問題にしろ、言い出したことはどこまでも通そうとするのです。<br><br>そこに非常に損なところがあるのです。<br><br>だから例えば「馬鹿野郎」と言ったところで、確かに悪いのですから、悪いことについては謝るというのが本当です。<br><br>しかしそういうことがなくて単に取り消しというだけでは、「べつにそう悪いことを言った覚えはない」という意味が良く現われてますから、それではやっぱり駄目です。<br><br>ですから問題は大きくなったのです。<br><br>ところがそれがために民同派の分党ということになりました。<br><br>それから広川和尚の変なやじり方も、実にどうもお話になりません。<br><br>あの日に急に謝って復党しようとした。<br><br>ところが、民同派の方ではああいうことを知らなかったらしいのです。<br><br>いかにもだらしがないです。<br><br>ところが党の方では、承知できないと言って除名になってしまったということは、そのいきさつは実にまずいです。<br><br>これも昨日代議士たちと話したのですが、とにかく今の政治家はみんな、昔の政治家と違って実におもしろ味がないのです。<br><br>それはどういうわけかと言うと、みんな大学を出て役人になって、とんとん拍子に大臣になり、また国会議員になるというわけで、本当の民間の苦労をしてないのです。<br><br>ですからそれに比べると、昔の政治家は苦労をしてますから、どこかに味があるのです。<br><br>それで民間の苦労をしているのは、広川などは苦労してます。<br><br>しかしこれはいかにもレベルが低いのです。<br><br>なにしろ鉄道の工夫から酒屋の親父をして、それからだんだん来たので、それが残っているので野卑な点があり、それでは困るのです。<br><br>そういうようで今の政治家で、例えば今度の総選挙の結果、吉田さんが駄目になって、第二党、第三党とかになって、そうすると吉田さんが首相になるわけにはいかないが、さてほかにと言ってもいないのです。<br><br>重光さんが、順序でしょうが、この人は大公使の経歴を経てきただけで、政治的の苦労はありません。<br><br>だから結局お坊ちゃんです。<br><br>結局吉田さんもお坊ちゃんです。<br><br>ですからわがまま坊ちゃんの気があるので、自分の言い出したことを通そうという点があるのです。<br><br>それからもう一つは、多数党だからオレの方で思ったことはなんでも通る、頭数で押して行けばなんでも通るという考えがあるのです。<br><br>ところが最初のうちはそれでも良かったが、だんだん減っていったので、今度はそういうわけにはいかないのです。<br><br>そういう欠点も大いに災いしていたのです。<br><br>だからして野党がどんなことを言ってもぜんぜん取り上げないのです。<br><br>野党に了解をさせようという努力が足りなかったのです。<br><br>そういうようで、ただ頭数を頼りにしていたので、そこにつけこんで民同派の鳩山を立てようという連中がきわどいところでやったのですが、なかなかずるいようです。<br><br>こういう話をしているとニュース解説のようになりますから、このくらいにしておきます。<br><br> 今編集している『救世教奇蹟集』ですが、この前書いた「序文」はどうもおもしろくないので、書き直したので、それを読ませます。<br><br> （御論文「救世教奇蹟集 序文」）【栄光 二〇二号】 それから浄霊の場合にあらかじめその順序を知っておいた方がいいのです。<br><br>気がついたことは、二、三日前に女中を浄霊してしまってから、ああそうだ、と思って、それから奥さんを呼んだのです。<br><br>その時にこれはちょっと順序が違ったな、女中の方を先にやるということは間違っているなと思ったが、時間も夕方だから良いだろうと思ってやったのですが、浄霊中に奥さんが変なことを言うのです。<br><br>ふつう言うことでなく、私に対する非常な侮辱のようなことを言うので、注意しましたが、ちょっと考えてみたら順序が違っているためということが分かったのです。<br><br>だからうっかり順序を外すと、やはりなにかあるのです。<br><br>それであらかじめ知っておくべき順序は、つまり理屈に合えば良いのです。<br><br>例えば患者が浄霊に来ますが、その時に一番先にやるのは、一番重い病気の人、つまり苦痛の大きな人を一番先にやれば良いのです。<br><br>それからさのみ苦痛のない人が幾人もいる場合には年齢順にやればよいです。<br><br>そうすれば理屈に合ってます。<br><br>しかし年齢順だからといっても赤ん坊はまた別です。<br><br>ギャーギャー泣いて、いろんなことをするとほかに障りますから、うるさくないように早くすますということは理屈に合ってます。<br><br>そういうことがなにもない時には、まず年齢順からやるというのが理屈に合っているわけです。<br><br>それから常識的に考えると、非常に身分のある人やなんかで、非常に用事が多い人などは先にやる、ということもまた理屈が立ちます。<br><br>それから来た順も必要です。<br><br>どっちにしてよいか分からない場合には来た順です。<br><br>それから来た順でも、苦痛のある人とか重い病気の時は、待っている人に一応断るのです。<br><br>「この人は重いから先にやりますから」ということを一言断ればよいです。<br><br>順序から言うと、第一は病気の重いのからやり、その次が来た順、その次が年齢順で、後は常識的に考えればよいのです。<br><br>そういう順序を乱さなければなおりも良いのです。<br><br>よく効くわけです。<br><br>なぜ、今話した女中と奥さんとの順序が違うとなにかあるのかということは、女中を先にやって奥さんを後にすると、女中の方が上になるのです。<br><br>その時の奥さんの言葉がやはりそういうようなことで、劣等と言いますか、そういうような意味のことを二度か三度言ったのですが、やはり一時的に女中より下というような地位になるわけです。<br><br>それは霊界がそういうようになっているのです。<br><br>こういうことを知って見ると、よくそういうことがあります。<br><br>おかしいなと思うことは、なにか順序が狂うという理由があるのです。<br><br>それで、こういうことはたいへん面倒臭いことのようですが、これが分かると面倒臭いどころでなくて自然に気がつくのです。<br><br>無意識に順序を正しくするようになります。<br><br>そうならなければならないのです。<br><br> それからちょっとおもしろい論文を書きましたから読ませます。<br><br> （御論文「野蛮なる文明」）【栄光 二〇一号】 それから宗教的の話ではないが、私は花を生けるのが好きで、始終各部屋みんな私が生けるのです。<br><br>それでお茶の先生が来て、家内始め女中などに教えてますが、その都度、茶席の花を私が生けますが、私の生け方はあくまで自然なのです。<br><br>今の花は、特に近来おかしいことには、ペンキを塗ったり変なことをしてますが、これはピカソあたりの影響を受けたのでしょう。<br><br>まだ、そう、はやりもしないでしょうが、だいぶ、はやりそうにみえているのです。<br><br>それも一時的のことと思いますが、そういうようで、なにしろ花の生け方の革命と言うとおおげさですが、革命的に知らしたいと思ってます。<br><br>それで私が生けたものを写真にとろうと思ってます。<br><br>一昨日、十ばかり初めて写させて、最初は天然色の幻灯で写して、全国的に支部などで写させるようにするつもりです。<br><br>それで私の生け方は早いのです。<br><br>十ぐらいの花は一時間半ばかりで生けたのです。<br><br>それも、その間に庭を探して枝を切ったりしたのです。<br><br>大体原則としては、私のは五分以内です。<br><br>それで早く生けたほど良いのです。<br><br>そうすると花が生きているのです。<br><br>これはいじくるほど良いとしてますが、そうではないのです。<br><br>やはりこれは作物に肥料をやるのと同じで、自然を無視するからです。<br><br>それで一番気に入った花は、たいてい一分か二分で生かったものです。<br><br>それは花を生ける前に、花器をおいて、その花器と花が合うように見きわめて、枝の長さを切ってパッと生けるのです。<br><br>それは最初からそうは行かないが、その気持ちでやると良い花ができます。<br><br>そういうようにして生かったものは実に良いです。<br><br>自然ですから花が生きているのです。<br><br>そういうようにして生けたのを、今度幻灯で写しますから見れば分かります。<br><br>なるほどこういう生け方が一番良いということが分かります。<br><br>これも一つの真理の具現です。<br><br>私はなんでも趣味があるのと、徹底して研究する主義ですが、あれもよく見ますと、生けてから、まずいと思ったり、まずい枝があるが、一晩おくか数時間おくと、それがちゃんと気に入るようになってくるのです。<br><br>これはいじくった物では駄目だと思います。<br><br>花は生きているから、自分で体を調える働きが出てくるのです。<br><br>それをいじくられると、その働きが出なくなるのです。<br><br>こういうものを見ても、生きているのですから、そこがおもしろいと思います。<br><br>これは花ばかりでなく、木でも実にたいしたものです。<br><br>箱根の庭の木なども全部私が切るのですが、少し切り損なったり、切り過ぎたという時もほうっておくと、木自身で形を良くするのです。<br><br>それから場所によって、岩やなにかの関係で表が見せられないで、横とかで格好が悪いのです。<br><br>そうするといつかしら、前から見ても格好が悪くないように、自然に自身で調えるのです。<br><br>これはおもしろいと思いますが、確かに生きているのです。<br><br>それから松の木なども、上の枝をつめるということは良くないのです。<br><br>おもしろくないのです。<br><br>それで今碧雲荘にある枝を切ったのですが、そうすると、松の木はどうするかと思っていると、その切り口が少しも見えないように枝が被さってきてます。<br><br>そういうようで、生け花もちゃんと自分でなおります。<br><br>この生け方を研究すると良いです。<br><br>第一早いです。<br><br>だから憶劫（おっくう）でなくて良いです。<br><br>今までの生け方は時間がかかるから憶劫です。<br><br>それから季節外れな物を高い金を出して買うということは、およそ馬鹿気たことです。<br><br>その花の、人間で言えば一番油の乗りきったところを狙って用いるのです。<br><br>それが一番良いのです。<br><br>それからもう一つは、できるだけ花を使わないことです。<br><br>これは私の一流ですが、私は実に花は少ないのです。<br><br>ふつう一杯くらいのを、私は三杯くらいに分けてやります。<br><br>できるだけ不必要な花や技を使わない方が効果が大きいのです。<br><br>だから少な過ぎると言う人がありますが、そういうのが良いのです。<br><br>ですからいろんな物を混ぜますが、それはおもしろくありません。<br><br>やっぱり花で絵を画くことと同じなのです。<br><br>そういうことは花の先生は教えません。<br><br>もっとも花の先生も知らないからしようがありません。<br><br>それで部屋の床の大きさから壁の色に合わなければなりません。<br><br>厳密に言うとそういうことになります。<br><br>それから掛物にも、書もあるし絵もありますし、古い物もあるし新しい物もあります。<br><br>それでおもしろいのは、古い掛物に新しい花器では合わないのです。<br><br>それから掛物が渋い物には、花器や花も渋い物をやるのです。<br><br>そうするとたいへん贅沢になりますが、そういうことはないので、花器でも安い物で良いのです。<br><br>それは使いようによるのです。<br><br>それこそドンブリの大きな深い物があったらそれで結構使えます。<br><br>もっともこれは勅使河原でやってます。<br><br>そういうようでなんでもかまわないのです。<br><br>それから花も、あえて花屋で買わなくても、自分の家の庭にあるのでもなんでも良いのです。<br><br>それで私が好んで使うのは竹です。<br><br>これは花屋では使いません。<br><br>これは枯れやすいというのですが、そんなことはないので一週間ぐらいは大丈夫です。<br><br>それで竹を切ってからパッとやると大丈夫です。<br><br>もっとも私のは指から霊が出るからで、その関係もあります。<br><br>それで竹でも切ってからパッと生けると良いのですが、いじくるから駄目なのです。<br><br>竹などはどこにでもありますからいいです。<br><br>それから熊笹を使いますが、これがまた良いのです。<br><br>これを五、六枚やって花を少しやれば実に良いです。<br><br>そういう話はいくらでもありますが、時間がないからこのくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Política, a Ordem no Johrei e a Arte Floral</h2>
 <p>Os recentes acontecimentos envolvendo o gabinete do Primeiro-Ministro Yoshida fizeram-me recordar de um antigo e cômico senryu que consta na coletânea <em>Riso da Fonte</em>: “Seu idiota! Pensando bem, a ofensa é para mim mesmo”. Creio que tal verso se aplica perfeitamente ao caso do senhor Yoshida. Com efeito, a questão do “seu idiota” foi o estopim que desencadeou a moção de desconfiança e a consequente dissolução do parlamento. A palavra “idiota”, portanto, desempenhou um papel de enorme magnitude.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>Os mestres de arranjos florais não ensinam isso, mas, na verdade, eles próprios desconhecem esses princípios. Um arranjo deve harmonizar com o tamanho do <em>tokonoma</em>, com a cor da parede e com o objeto ali exposto. Se quisermos ser rigorosos, é preciso considerar tudo isso. O objeto pode ser uma caligrafia ou uma pintura, antiga ou moderna. E o curioso é que um vaso moderno não combina com um pergaminho antigo. Se o pergaminho tem um tom sóbrio, o vaso e as flores também devem ser sóbrios. Isso pode parecer um luxo, mas não é. Vasos baratos podem ser perfeitamente adequados, tudo depende de como são usados. Até mesmo uma tigela grande e funda pode se transformar em um belo vaso; aliás, o mestre Teshigahara já faz isso. Qualquer recipiente pode servir.</p>
 <p>As flores também não precisam ser compradas em floriculturas; as que crescem no próprio jardim são ótimas. Gosto muito de usar bambu, algo que os floristas não fazem, pois dizem que murcha rápido. Isso não é verdade; ele dura cerca de uma semana. O segredo é cortá-lo e arranjá-lo imediatamente. Claro que, no meu caso, a energia espiritual que emana de minhas mãos também influencia. Mas, mesmo sem isso, se o bambu for arranjado rapidamente, ele se manterá viçoso. É a manipulação excessiva que o estraga. O bambu pode ser encontrado em qualquer lugar, o que o torna muito prático. Também uso folhas de bambu sasa, que produzem um efeito belíssimo. Cinco ou seis folhas com uma única flor criam um arranjo magnífico.</p>
 <p>Poderia falar sobre isso por horas, mas o tempo é curto, então encerrarei por aqui.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月17日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月十七日 今度吉田内閣がああいうことになって、ちょっと思い出したことは、『笑の泉』にありますが、古い笑冠句で「馬鹿野郎、良く考えりゃオレのこと」というのがありますが、今度の吉田さんによく合っているのです。<br/><br/>なんといっても「馬鹿野郎」問題が直接の動機となって不信任問題から解散となったのですから、「馬鹿野郎」という言葉はたいへんな役目をしたのです。<br/><br/>ところが後がまずいのです。<br/><br/>少なくとも、神聖なる議会において、総理大臣が「馬鹿野郎」と言うのは、どうした魔がさしたのか知らないが、総理大臣がそういうことを言うのは珍しいことです。<br/><br/>それで相手が議員ですから、議員は国民が投票して出した代表ですから、それに馬鹿野郎と言うことは、国民を罵ったということにもなりますから、国民感情としては我慢はできないわけです。<br/><br/>昨日、毎月ああいう人たちの会をするのですが、現代議士が三人ばかり来て、それについて話をしたのですが、ああいう人たちは、さのみ思っていないのですが、あのくらいのことはたいした問題にするに足りないというような意見でしたが。<br/><br/>しかしあの人たちは、議場はべつにたいして神聖とは思ってないらしいです。<br/><br/>なにしろ取っ組み合いの喧嘩をするのですから、馬鹿野郎くらいなんでもないと思っているのです。<br/><br/>しかし国民感情から言って、国民はどうしても我慢ができないのです。<br/><br/>その結果、内紛問題が起り、ああいう結果になったということはまずかったのです。<br/><br/>それも後で「自分はうっかり間違ったことを言って確かに申し訳ない」と言って謝れば良かったのですが、ただ取り消しだけですから、それがおもしろくないのです。<br/><br/>吉田さんという人は政治家としては立派な人です。<br/><br/>今でも一番偉いでしょう。<br/><br/>けれども言い出したことはどこまでも通そうというのが毀（きず）です。<br/><br/>そのためにいろんな問題を起しているのです。<br/><br/>去年の福永問題にしろ今度の広川問題にしろ、言い出したことはどこまでも通そうとするのです。<br/><br/>そこに非常に損なところがあるのです。<br/><br/>だから例えば「馬鹿野郎」と言ったところで、確かに悪いのですから、悪いことについては謝るというのが本当です。<br/><br/>しかしそういうことがなくて単に取り消しというだけでは、「べつにそう悪いことを言った覚えはない」という意味が良く現われてますから、それではやっぱり駄目です。<br/><br/>ですから問題は大きくなったのです。<br/><br/>ところがそれがために民同派の分党ということになりました。<br/><br/>それから広川和尚の変なやじり方も、実にどうもお話になりません。<br/><br/>あの日に急に謝って復党しようとした。<br/><br/>ところが、民同派の方ではああいうことを知らなかったらしいのです。<br/><br/>いかにもだらしがないです。<br/><br/>ところが党の方では、承知できないと言って除名になってしまったということは、そのいきさつは実にまずいです。<br/><br/>これも昨日代議士たちと話したのですが、とにかく今の政治家はみんな、昔の政治家と違って実におもしろ味がないのです。<br/><br/>それはどういうわけかと言うと、みんな大学を出て役人になって、とんとん拍子に大臣になり、また国会議員になるというわけで、本当の民間の苦労をしてないのです。<br/><br/>ですからそれに比べると、昔の政治家は苦労をしてますから、どこかに味があるのです。<br/><br/>それで民間の苦労をしているのは、広川などは苦労してます。<br/><br/>しかしこれはいかにもレベルが低いのです。<br/><br/>なにしろ鉄道の工夫から酒屋の親父をして、それからだんだん来たので、それが残っているので野卑な点があり、それでは困るのです。<br/><br/>そういうようで今の政治家で、例えば今度の総選挙の結果、吉田さんが駄目になって、第二党、第三党とかになって、そうすると吉田さんが首相になるわけにはいかないが、さてほかにと言ってもいないのです。<br/><br/>重光さんが、順序でしょうが、この人は大公使の経歴を経てきただけで、政治的の苦労はありません。<br/><br/>だから結局お坊ちゃんです。<br/><br/>結局吉田さんもお坊ちゃんです。<br/><br/>ですからわがまま坊ちゃんの気があるので、自分の言い出したことを通そうという点があるのです。<br/><br/>それからもう一つは、多数党だからオレの方で思ったことはなんでも通る、頭数で押して行けばなんでも通るという考えがあるのです。<br/><br/>ところが最初のうちはそれでも良かったが、だんだん減っていったので、今度はそういうわけにはいかないのです。<br/><br/>そういう欠点も大いに災いしていたのです。<br/><br/>だからして野党がどんなことを言ってもぜんぜん取り上げないのです。<br/><br/>野党に了解をさせようという努力が足りなかったのです。<br/><br/>そういうようで、ただ頭数を頼りにしていたので、そこにつけこんで民同派の鳩山を立てようという連中がきわどいところでやったのですが、なかなかずるいようです。<br/><br/>こういう話をしているとニュース解説のようになりますから、このくらいにしておきます。<br/><br/> 今編集している『救世教奇蹟集』ですが、この前書いた「序文」はどうもおもしろくないので、書き直したので、それを読ませます。<br/><br/> （御論文「救世教奇蹟集 序文」）【栄光 二〇二号】 それから浄霊の場合にあらかじめその順序を知っておいた方がいいのです。<br/><br/>気がついたことは、二、三日前に女中を浄霊してしまってから、ああそうだ、と思って、それから奥さんを呼んだのです。<br/><br/>その時にこれはちょっと順序が違ったな、女中の方を先にやるということは間違っているなと思ったが、時間も夕方だから良いだろうと思ってやったのですが、浄霊中に奥さんが変なことを言うのです。<br/><br/>ふつう言うことでなく、私に対する非常な侮辱のようなことを言うので、注意しましたが、ちょっと考えてみたら順序が違っているためということが分かったのです。<br/><br/>だからうっかり順序を外すと、やはりなにかあるのです。<br/><br/>それであらかじめ知っておくべき順序は、つまり理屈に合えば良いのです。<br/><br/>例えば患者が浄霊に来ますが、その時に一番先にやるのは、一番重い病気の人、つまり苦痛の大きな人を一番先にやれば良いのです。<br/><br/>それからさのみ苦痛のない人が幾人もいる場合には年齢順にやればよいです。<br/><br/>そうすれば理屈に合ってます。<br/><br/>しかし年齢順だからといっても赤ん坊はまた別です。<br/><br/>ギャーギャー泣いて、いろんなことをするとほかに障りますから、うるさくないように早くすますということは理屈に合ってます。<br/><br/>そういうことがなにもない時には、まず年齢順からやるというのが理屈に合っているわけです。<br/><br/>それから常識的に考えると、非常に身分のある人やなんかで、非常に用事が多い人などは先にやる、ということもまた理屈が立ちます。<br/><br/>それから来た順も必要です。<br/><br/>どっちにしてよいか分からない場合には来た順です。<br/><br/>それから来た順でも、苦痛のある人とか重い病気の時は、待っている人に一応断るのです。<br/><br/>「この人は重いから先にやりますから」ということを一言断ればよいです。<br/><br/>順序から言うと、第一は病気の重いのからやり、その次が来た順、その次が年齢順で、後は常識的に考えればよいのです。<br/><br/>そういう順序を乱さなければなおりも良いのです。<br/><br/>よく効くわけです。<br/><br/>なぜ、今話した女中と奥さんとの順序が違うとなにかあるのかということは、女中を先にやって奥さんを後にすると、女中の方が上になるのです。<br/><br/>その時の奥さんの言葉がやはりそういうようなことで、劣等と言いますか、そういうような意味のことを二度か三度言ったのですが、やはり一時的に女中より下というような地位になるわけです。<br/><br/>それは霊界がそういうようになっているのです。<br/><br/>こういうことを知って見ると、よくそういうことがあります。<br/><br/>おかしいなと思うことは、なにか順序が狂うという理由があるのです。<br/><br/>それで、こういうことはたいへん面倒臭いことのようですが、これが分かると面倒臭いどころでなくて自然に気がつくのです。<br/><br/>無意識に順序を正しくするようになります。<br/><br/>そうならなければならないのです。<br/><br/> それからちょっとおもしろい論文を書きましたから読ませます。<br/><br/> （御論文「野蛮なる文明」）【栄光 二〇一号】 それから宗教的の話ではないが、私は花を生けるのが好きで、始終各部屋みんな私が生けるのです。<br/><br/>それでお茶の先生が来て、家内始め女中などに教えてますが、その都度、茶席の花を私が生けますが、私の生け方はあくまで自然なのです。<br/><br/>今の花は、特に近来おかしいことには、ペンキを塗ったり変なことをしてますが、これはピカソあたりの影響を受けたのでしょう。<br/><br/>まだ、そう、はやりもしないでしょうが、だいぶ、はやりそうにみえているのです。<br/><br/>それも一時的のことと思いますが、そういうようで、なにしろ花の生け方の革命と言うとおおげさですが、革命的に知らしたいと思ってます。<br/><br/>それで私が生けたものを写真にとろうと思ってます。<br/><br/>一昨日、十ばかり初めて写させて、最初は天然色の幻灯で写して、全国的に支部などで写させるようにするつもりです。<br/><br/>それで私の生け方は早いのです。<br/><br/>十ぐらいの花は一時間半ばかりで生けたのです。<br/><br/>それも、その間に庭を探して枝を切ったりしたのです。<br/><br/>大体原則としては、私のは五分以内です。<br/><br/>それで早く生けたほど良いのです。<br/><br/>そうすると花が生きているのです。<br/><br/>これはいじくるほど良いとしてますが、そうではないのです。<br/><br/>やはりこれは作物に肥料をやるのと同じで、自然を無視するからです。<br/><br/>それで一番気に入った花は、たいてい一分か二分で生かったものです。<br/><br/>それは花を生ける前に、花器をおいて、その花器と花が合うように見きわめて、枝の長さを切ってパッと生けるのです。<br/><br/>それは最初からそうは行かないが、その気持ちでやると良い花ができます。<br/><br/>そういうようにして生かったものは実に良いです。<br/><br/>自然ですから花が生きているのです。<br/><br/>そういうようにして生けたのを、今度幻灯で写しますから見れば分かります。<br/><br/>なるほどこういう生け方が一番良いということが分かります。<br/><br/>これも一つの真理の具現です。<br/><br/>私はなんでも趣味があるのと、徹底して研究する主義ですが、あれもよく見ますと、生けてから、まずいと思ったり、まずい枝があるが、一晩おくか数時間おくと、それがちゃんと気に入るようになってくるのです。<br/><br/>これはいじくった物では駄目だと思います。<br/><br/>花は生きているから、自分で体を調える働きが出てくるのです。<br/><br/>それをいじくられると、その働きが出なくなるのです。<br/><br/>こういうものを見ても、生きているのですから、そこがおもしろいと思います。<br/><br/>これは花ばかりでなく、木でも実にたいしたものです。<br/><br/>箱根の庭の木なども全部私が切るのですが、少し切り損なったり、切り過ぎたという時もほうっておくと、木自身で形を良くするのです。<br/><br/>それから場所によって、岩やなにかの関係で表が見せられないで、横とかで格好が悪いのです。<br/><br/>そうするといつかしら、前から見ても格好が悪くないように、自然に自身で調えるのです。<br/><br/>これはおもしろいと思いますが、確かに生きているのです。<br/><br/>それから松の木なども、上の枝をつめるということは良くないのです。<br/><br/>おもしろくないのです。<br/><br/>それで今碧雲荘にある枝を切ったのですが、そうすると、松の木はどうするかと思っていると、その切り口が少しも見えないように枝が被さってきてます。<br/><br/>そういうようで、生け花もちゃんと自分でなおります。<br/><br/>この生け方を研究すると良いです。<br/><br/>第一早いです。<br/><br/>だから憶劫（おっくう）でなくて良いです。<br/><br/>今までの生け方は時間がかかるから憶劫です。<br/><br/>それから季節外れな物を高い金を出して買うということは、およそ馬鹿気たことです。<br/><br/>その花の、人間で言えば一番油の乗りきったところを狙って用いるのです。<br/><br/>それが一番良いのです。<br/><br/>それからもう一つは、できるだけ花を使わないことです。<br/><br/>これは私の一流ですが、私は実に花は少ないのです。<br/><br/>ふつう一杯くらいのを、私は三杯くらいに分けてやります。<br/><br/>できるだけ不必要な花や技を使わない方が効果が大きいのです。<br/><br/>だから少な過ぎると言う人がありますが、そういうのが良いのです。<br/><br/>ですからいろんな物を混ぜますが、それはおもしろくありません。<br/><br/>やっぱり花で絵を画くことと同じなのです。<br/><br/>そういうことは花の先生は教えません。<br/><br/>もっとも花の先生も知らないからしようがありません。<br/><br/>それで部屋の床の大きさから壁の色に合わなければなりません。<br/><br/>厳密に言うとそういうことになります。<br/><br/>それから掛物にも、書もあるし絵もありますし、古い物もあるし新しい物もあります。<br/><br/>それでおもしろいのは、古い掛物に新しい花器では合わないのです。<br/><br/>それから掛物が渋い物には、花器や花も渋い物をやるのです。<br/><br/>そうするとたいへん贅沢になりますが、そういうことはないので、花器でも安い物で良いのです。<br/><br/>それは使いようによるのです。<br/><br/>それこそドンブリの大きな深い物があったらそれで結構使えます。<br/><br/>もっともこれは勅使河原でやってます。<br/><br/>そういうようでなんでもかまわないのです。<br/><br/>それから花も、あえて花屋で買わなくても、自分の家の庭にあるのでもなんでも良いのです。<br/><br/>それで私が好んで使うのは竹です。<br/><br/>これは花屋では使いません。<br/><br/>これは枯れやすいというのですが、そんなことはないので一週間ぐらいは大丈夫です。<br/><br/>それで竹を切ってからパッとやると大丈夫です。<br/><br/>もっとも私のは指から霊が出るからで、その関係もあります。<br/><br/>それで竹でも切ってからパッと生けると良いのですが、いじくるから駄目なのです。<br/><br/>竹などはどこにでもありますからいいです。<br/><br/>それから熊笹を使いますが、これがまた良いのです。<br/><br/>これを五、六枚やって花を少しやれば実に良いです。<br/><br/>そういう話はいくらでもありますが、時間がないからこのくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

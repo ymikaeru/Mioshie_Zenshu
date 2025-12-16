@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M240313</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年3月13日） 『御光話録』5号、昭和24(1949)年<b>月</b>日発行 昭和二十四年三月十三日（日） （本日は光陽会、日本会とともに御面会をいただく） ――霊統と血液型とは関係がございましょうか。<br><br> これは関係ありません。<br><br>霊統は一貫して変わりありませんが、血統は混血してごちゃごちゃになっていますからね。<br><br>ちょうど真理ってものは一定不変でしょう。<br><br>具体的に言えば「太陽は東から昇って西へ沈む」というのは真理で、太古からちっとも変わりません。<br><br>ところが道徳は始終変わりますね。<br><br>戦時中の忠君思想なんかはいまではぜんぜんなくなっています。<br><br>これと同じで、霊統は一定不変だが血統は変わってくるのです。<br><br> ――太陽熱が低地ほど強くて、地面に近いほど暖かいのはなぜでしょうか。<br><br> これは逆です。<br><br>太陽熱は低地ほど弱いんですよ。<br><br>低地が暖かいというのはね、地面が太陽熱を吸収するからだとか言いますが、あれは嘘で地熱のためなんです。<br><br>太陽熱は弱いもので、地熱のほうがずっと強いんです。<br><br>だから高山に行くほど寒いというのは地面から遠ざかって地熱が少なくなるからです。<br><br>これから見ても太陽熱は割合弱いということが判ります。<br><br>積った雪が下のほうから溶けるのもそのためです。<br><br>しかし、太陽熱と地熱と密合すると強くなります。<br><br>だから地下をちょっとばかり掘ると涼しいのですが、これは太陽熱から遠ざかるためです。<br><br>これもある程度までで、それ以上掘って行くとだんだん熱くなって、ついには鉄でも溶けるようになります。<br><br>しかしそんなに掘って行ければいいですがね。<br><br>それならアメリカまでも船なんかで行かないでトンネルを作ってエレベ－ターを使えばいい。<br><br>（笑声）地球の中心は熱塊ですからね。<br><br> 温泉なんかこのためですね。<br><br>岩石に割れ目ができてその下を通っている地下水が地熱に熱せられてそれが噴出するんです。<br><br>箱根は山水ですが、熱海は地下水でたいてい地下一千尺くらいの所を川のように流れてます。<br><br>まあ推定すれば幅は十間から二十間の湯の川ですね。<br><br>そしてそこの地層に鉱物があると鉄や硫黄が溶けてその湯に混るわけです。<br><br>世間でよく鉱泉と言って鉄分や硫黄分の混っている温泉があるのはこのためなんです。<br><br> 今度、農園に温泉を掘るつもりです。<br><br>まあ、たいてい湧くつもりですがね。<br><br>これはね、温泉の湧く所は判るんですよ。<br><br>まず、そこに生えている木で判ります。<br><br>勢いがなくて茶色くなってますよ。<br><br>これは硫黄のためですね。<br><br>また土がね、まるっきり違いますしね。<br><br>そこの水でも判ります。<br><br>掘って行ってある程度から下になると石へ鉄や硫黄がずっとついてます。<br><br>もっと下にゆくとまるで鉄の石みたいになってますよ。<br><br>以前、その辺を掘った人がありますが、湯の川の枝の所を掘ったんで駄目でした。<br><br>もっと奥のほうに太いのがあるんです。<br><br>で今度は一番の幹を掘るつもりです。<br><br> ――海の深い所は暖かいのでしょうか。<br><br> いえ、やはり冷たいんです。<br><br>……また、水の霊は冷えるものでね、水の層の下へ行くほど濃くなるので冷たいわけです。<br><br>それから、地熱のガスにはそうとうの力があります。<br><br>だから将来はこれが動力の一番の本になります。<br><br> ――主神から発する火素と太陽から発する火素との差異につきお伺いいたします。<br><br> これは同じものですよ。<br><br>火素は太陽の精気ですから。<br><br>熱の本は太陽で、太陽は主神の御神体ですから、主神の熱のお働きが太陽です。<br><br>まあ夫婦で言えば太陽が男性で月が女性ですね。<br><br>日と月の両方の精気が放射されて人間は生きているわけです。<br><br>昼の世界になると火素はまた強くなります。<br><br>しかし、火は霊ですが、火素は霊のまた霊ですからね、現界に体的にはそんなにはっきりと表われてきません。<br><br>まあ多少は判りますがね、現にこうして私が御浄霊すると、「あついあつい」と言う人があるし、私のいる部屋は暖かいとはだれも言いますね。<br><br> ――月は固体でしょうか、液体でしょうか。<br><br>固体とすれば氷結しているのでしょうか。<br><br> そうです。<br><br>月は氷塊ですよ。<br><br>そして月からも精気を……非常に強い水素を出します。<br><br>これがなかったら人間なんか溶けてしまいます。<br><br> ――三十九歳の女、風邪を引いてからしだいに声が出なくなり、御浄霊を半月続けましたらちょうど発病当時の状態となり、発熱し痛みますがいかがでしょうか。<br><br> ええいいです。<br><br>固まっていたのが溶けてきたんですからね、治りますよ。<br><br>声が出るのは弁の振動ですが、細かく振動すると高い音が出るし、ゆるく振動すると太い低い声が出ます。<br><br>その弁のつけ根へ毒の固まりができたんです。<br><br>それで声が出ないんですから、それを溶かせば声は出るようになります。<br><br> ――その人の祖父は以前猫をしめ殺したことがあり、病人の伯母も同じ状態になっており、霊的のように存じますが…… それは勿論猫の執着がまだ抜けきらないのです。<br><br>だから額と喉とをよく御浄霊するんですね。<br><br> ――額と耳下腺の辺に高熱があり、昨日は下顎が腫れうつむけぬくらいでした。<br><br> ええ非常に結構ですね。<br><br>よく霊の病気と言いますがね、霊体はやはり一致しているものですからね、霊が憑くときはやはりそこに曇りがあるから霊が憑依できるんです。<br><br>だから御浄霊すると曇りがとれて霊が憑けなくなるというわけですね。<br><br> ――御書体（横額）をかけさせていただく場合、順序、位置はいかがいたすべきでしょう。<br><br> これは床の間の真上はいけません。<br><br>真上以外の一番いい所にかければよろしい。<br><br>だから違い棚の上の所など一番いいわけですね。<br><br>ただ私の書いたものをかけてある所には他の人の写真や、他の人の書いた書体などはかけてはいけません。<br><br> ――狭くて違い棚もないような場合は…… どうしてもいい場所がなければ、床の間の端にかけておけばいいです。<br><br> ――「日月」「地上天国」などの御書体の順序はいかがいたすべきでしょうか。<br><br> でたらめはいけません。<br><br>私の書いた字は生きている、生き物ですからね。<br><br>やはり順序は考えなければいけません。<br><br>……「日月」はまあ一番上で「光明界」はその次くらい、「地上天国」は「光明界」の次でいいでしょう。<br><br>「神龍」はずっと下でいいですよ。<br><br>龍のついたのは下でいいですよ、龍は人間の次だから下です。<br><br>「観音光」は、観音は仏で仏の光だからそう上でなくていいですね、「地上天国」の次でいいでしょうね。<br><br>「神世界」はずっと上でなければいけない、これは神様の世界ですからね。<br><br>「光明浄地」、これは下でいいです。<br><br>「神風」は風だからどこでもいいです。<br><br> ――烏について （一）その鳴き声で吉凶が判ると申しますが事実でしょうか。<br><br> （二）烏は霊性が高いと申しますが、その声や形がそれほど美しくないのはなぜでしょうか。<br><br> （一）これは判るんですよ。<br><br>よく判る人があってね、そういう人は「いま烏が仲間を呼んでる」とかなんとか言いますがよく当たりますね。<br><br>まあなんの鳥でもそういうことはありますが、特に烏はそういう点がありますね。<br><br>烏が鳴くと死人があるというのも本当ですね。<br><br> （二）烏は霊性が高いんです、霊感が非常にある鳥でね、昔から天照皇大神のお使いだなどと言いますが、烏は太陽に関係があるんです。<br><br>烏は霊界に行くと烏天狗になり、鳥の中でも一番高くて神様のことをすべてやるんです。<br><br>私の副守護神は烏ですよ。<br><br> ――烏の鳴き声は多くの人が嫌いますが…… ええ、たいていの人は嫌いますね。<br><br>烏は人間の死骸を食べますしね、また人間が死ぬときに鳴いて知らせたりしますからね。<br><br> ――霊性が高いのに多くの人から嫌われるのはなぜでしょうか。<br><br> 人間が嫌うんでしょ。<br><br>……人間なんかなんにも判りはしませんからね。<br><br>例えば芸者を見てご覧なさい。<br><br>なかなかあでやかで美しくていいじゃないですか、見たところはね。<br><br>しかし、実際は多くの家庭騒動なんかこれが元ですからね。<br><br>（笑声）むしろ人間のいいと思うものは悪くて、反対の場合が多いですよ。<br><br> ――女子の高等教育はどの程度にいたすべきでしょうか。<br><br> なるべく高等教育を受けたほうがいいですね。<br><br>せいぜい女子大くらいまでね。<br><br>教育の程度が低いと理解力がなくて困ります。<br><br>実際話せる女というのはめったにないですからね。<br><br>男も低いが、女はもっと低い。<br><br>たいていの人は女子大くらい行くべきです。<br><br>ただ、いまの教育はまずくて倍も時間がかかる。<br><br>あれをうまくやれば半分ですんでしまうんですがね。<br><br>あんなに期間が長くてはいろいろ差し支えが起ります。<br><br>男でもインテリでないといけないですね。<br><br>インテリでないのは理解力がなくて、話をしてもおもしろくないですね…… ――子供は上の子より末子のほうに優秀な子ができる場合が多いようですが、これはいかなるわけでしょうか。<br><br> 子供は親がうつるんです。<br><br>長男なんかを産むころに較べると末の子を産むころは親のほうが経験も積んで智慧もついているから、これがうつって利口になるんです。<br><br>それからもう一つはどうしても最初できた子供は刺激がないのでボーッとしている。<br><br>それで総領の甚六だなんて言われるんです。<br><br>日本ではこんな統計は出てないが、西洋では兄弟の多いほど傑出したのができるという統計があります。<br><br>それは兄弟が多いと待遇も悪くなったりしてそのためかえって磨かれるんです。<br><br> ――礼拝のときの合掌はどんな意味がありましょうか。<br><br> これは自然ですね。<br><br>いろいろ理屈をつけますがね、これはまあ自然にそうなるんですよ。<br><br>挨拶のとき頭を下げるのと同じですね。<br><br> ――無神論者の理論的根拠はなんでしょうか。<br><br> これは唯物観です。<br><br>「見えざるものは信ずべからず」という唯物観ですね。<br><br>だから、以前私は本に書いたことがある、「野蛮人に空気の存在を知らせるよりも、いまの文化人に心霊の存在を信じさせることのほうが難しい」とね。<br><br>……それから、もう一つは副守護神が否定するんです。<br><br>浄霊により治ることはよく判って「はあはあ」と感心していても、どうしても入らない人がありますが、こんなのはきまって副守護神の働きによるのです。<br><br>「そんな馬鹿なことがあるもんか」と副守護神が囁いて邪魔をするんです。<br><br>これから昼の世界になると副守護神の力が弱まりますから、だれでも霊を信ずるようになって行くわけです。<br><br>場所によって発展する所と発展しない所とあるのもこういうわけですね。<br><br>発展する所は明るく、発展しない所はまだ暗いんですよ。<br><br> ――三十二歳の女、四歳のとき囲炉裏に転げ落ちて火傷をいたしましたが、その後だんだん腹が肥大し始め、二、三年前医者に見せたところ卵巣膿腫と言われ手術されましたが、御浄霊により治りましょうか。<br><br> これは、この火傷のためではないと思いますがね。<br><br>腹膜ではないんですか、よく見てご覧なさい。<br><br>腹膜だったら腹部がなだらかにふくれてますが、膿腫だったら急にふくれてますよ。<br><br>（御手で と の形をお示しくださる）これは手術してなければ完全に治りますが、手術しているから元通りにはならないかもしれませんが、そうとうに治癒するでしょう。<br><br> ――真神霊、一霊四魂につき御教示をお願い申し上げます。<br><br> これはよく聞かれますがね、四魂とは荒魂（あらみたま）、奇魂（くしみたま）、幸魂（さきみたま）、和魂（にぎみたま）の四つですが、荒魂とは勇気です。<br><br>よくいけば勇気ですが、悪くいけば強盗なんかそうですね。<br><br>奇魂っていうのは智慧ですね。<br><br>智慧にもいいのと悪いのとある。<br><br>勿論叡智でなければいけません。<br><br>奸智や才智はよくないですね。<br><br>幸魂は慈悲ですね。<br><br>人を幸せにする気持ちです。<br><br>和魂というのは人と親しむ、まあ怒らないことですね。<br><br>人間はこれが平均して働けばいいんですが、この四つが完全に備わっていればたいしたものです。<br><br>そんな人はまずないですね。<br><br>せいぜい三魂か二魂、まあふつうは一つがやっとでしょうね。<br><br> ――私の娘はミッションスクールに行っているのでございますが…… ええ、いいじゃないですか。<br><br> ――学校ではキリストを拝み、家に帰ると観音様を拝むことがなんだか…… キリストも観音様も同じことですよ。<br><br>キリストは西洋の観音様、観音様は東洋のキリストです。<br><br>だから、あんたの娘さんが洋服を着たり、和服を着たりするのと同じだと思えばいいんです。<br><br>（笑声）そのことを詠んだ歌がありますがね。<br><br> 観音も弥勒もメシヤもキリストも人の姿の神にぞありける こういうんでね、同じことなんですよ。<br><br> ――その場合のキリストとイエスの関係はいかがでしょうか。<br><br> それはいまはまだはっきり言えない。<br><br>時期が来れば判るようになります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Ensinamentos em Diálogo</h2>
 <p><strong>P: Haveria alguma relação entre a linhagem espiritual e o tipo sanguíneo?</strong></p>
@@ -145,5 +297,48 @@ function toggleLang(lang) {
 <p>Como vê, são a mesma coisa.</p>
 <p><strong>P: Nesse caso, qual a relação entre Cristo e Jesus?</strong></p>
 <p>Sobre isso, ainda não posso falar com clareza. Quando chegar o momento certo, tudo será compreendido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年3月13日） 『御光話録』5号、昭和24(1949)年**月**日発行 昭和二十四年三月十三日（日） （本日は光陽会、日本会とともに御面会をいただく） ――霊統と血液型とは関係がございましょうか。<br/><br/> これは関係ありません。<br/><br/>霊統は一貫して変わりありませんが、血統は混血してごちゃごちゃになっていますからね。<br/><br/>ちょうど真理ってものは一定不変でしょう。<br/><br/>具体的に言えば「太陽は東から昇って西へ沈む」というのは真理で、太古からちっとも変わりません。<br/><br/>ところが道徳は始終変わりますね。<br/><br/>戦時中の忠君思想なんかはいまではぜんぜんなくなっています。<br/><br/>これと同じで、霊統は一定不変だが血統は変わってくるのです。<br/><br/> ――太陽熱が低地ほど強くて、地面に近いほど暖かいのはなぜでしょうか。<br/><br/> これは逆です。<br/><br/>太陽熱は低地ほど弱いんですよ。<br/><br/>低地が暖かいというのはね、地面が太陽熱を吸収するからだとか言いますが、あれは嘘で地熱のためなんです。<br/><br/>太陽熱は弱いもので、地熱のほうがずっと強いんです。<br/><br/>だから高山に行くほど寒いというのは地面から遠ざかって地熱が少なくなるからです。<br/><br/>これから見ても太陽熱は割合弱いということが判ります。<br/><br/>積った雪が下のほうから溶けるのもそのためです。<br/><br/>しかし、太陽熱と地熱と密合すると強くなります。<br/><br/>だから地下をちょっとばかり掘ると涼しいのですが、これは太陽熱から遠ざかるためです。<br/><br/>これもある程度までで、それ以上掘って行くとだんだん熱くなって、ついには鉄でも溶けるようになります。<br/><br/>しかしそんなに掘って行ければいいですがね。<br/><br/>それならアメリカまでも船なんかで行かないでトンネルを作ってエレベ－ターを使えばいい。<br/><br/>（笑声）地球の中心は熱塊ですからね。<br/><br/> 温泉なんかこのためですね。<br/><br/>岩石に割れ目ができてその下を通っている地下水が地熱に熱せられてそれが噴出するんです。<br/><br/>箱根は山水ですが、熱海は地下水でたいてい地下一千尺くらいの所を川のように流れてます。<br/><br/>まあ推定すれば幅は十間から二十間の湯の川ですね。<br/><br/>そしてそこの地層に鉱物があると鉄や硫黄が溶けてその湯に混るわけです。<br/><br/>世間でよく鉱泉と言って鉄分や硫黄分の混っている温泉があるのはこのためなんです。<br/><br/> 今度、農園に温泉を掘るつもりです。<br/><br/>まあ、たいてい湧くつもりですがね。<br/><br/>これはね、温泉の湧く所は判るんですよ。<br/><br/>まず、そこに生えている木で判ります。<br/><br/>勢いがなくて茶色くなってますよ。<br/><br/>これは硫黄のためですね。<br/><br/>また土がね、まるっきり違いますしね。<br/><br/>そこの水でも判ります。<br/><br/>掘って行ってある程度から下になると石へ鉄や硫黄がずっとついてます。<br/><br/>もっと下にゆくとまるで鉄の石みたいになってますよ。<br/><br/>以前、その辺を掘った人がありますが、湯の川の枝の所を掘ったんで駄目でした。<br/><br/>もっと奥のほうに太いのがあるんです。<br/><br/>で今度は一番の幹を掘るつもりです。<br/><br/> ――海の深い所は暖かいのでしょうか。<br/><br/> いえ、やはり冷たいんです。<br/><br/>……また、水の霊は冷えるものでね、水の層の下へ行くほど濃くなるので冷たいわけです。<br/><br/>それから、地熱のガスにはそうとうの力があります。<br/><br/>だから将来はこれが動力の一番の本になります。<br/><br/> ――主神から発する火素と太陽から発する火素との差異につきお伺いいたします。<br/><br/> これは同じものですよ。<br/><br/>火素は太陽の精気ですから。<br/><br/>熱の本は太陽で、太陽は主神の御神体ですから、主神の熱のお働きが太陽です。<br/><br/>まあ夫婦で言えば太陽が男性で月が女性ですね。<br/><br/>日と月の両方の精気が放射されて人間は生きているわけです。<br/><br/>昼の世界になると火素はまた強くなります。<br/><br/>しかし、火は霊ですが、火素は霊のまた霊ですからね、現界に体的にはそんなにはっきりと表われてきません。<br/><br/>まあ多少は判りますがね、現にこうして私が御浄霊すると、「あついあつい」と言う人があるし、私のいる部屋は暖かいとはだれも言いますね。<br/><br/> ――月は固体でしょうか、液体でしょうか。<br/><br/>固体とすれば氷結しているのでしょうか。<br/><br/> そうです。<br/><br/>月は氷塊ですよ。<br/><br/>そして月からも精気を……非常に強い水素を出します。<br/><br/>これがなかったら人間なんか溶けてしまいます。<br/><br/> ――三十九歳の女、風邪を引いてからしだいに声が出なくなり、御浄霊を半月続けましたらちょうど発病当時の状態となり、発熱し痛みますがいかがでしょうか。<br/><br/> ええいいです。<br/><br/>固まっていたのが溶けてきたんですからね、治りますよ。<br/><br/>声が出るのは弁の振動ですが、細かく振動すると高い音が出るし、ゆるく振動すると太い低い声が出ます。<br/><br/>その弁のつけ根へ毒の固まりができたんです。<br/><br/>それで声が出ないんですから、それを溶かせば声は出るようになります。<br/><br/> ――その人の祖父は以前猫をしめ殺したことがあり、病人の伯母も同じ状態になっており、霊的のように存じますが…… それは勿論猫の執着がまだ抜けきらないのです。<br/><br/>だから額と喉とをよく御浄霊するんですね。<br/><br/> ――額と耳下腺の辺に高熱があり、昨日は下顎が腫れうつむけぬくらいでした。<br/><br/> ええ非常に結構ですね。<br/><br/>よく霊の病気と言いますがね、霊体はやはり一致しているものですからね、霊が憑くときはやはりそこに曇りがあるから霊が憑依できるんです。<br/><br/>だから御浄霊すると曇りがとれて霊が憑けなくなるというわけですね。<br/><br/> ――御書体（横額）をかけさせていただく場合、順序、位置はいかがいたすべきでしょう。<br/><br/> これは床の間の真上はいけません。<br/><br/>真上以外の一番いい所にかければよろしい。<br/><br/>だから違い棚の上の所など一番いいわけですね。<br/><br/>ただ私の書いたものをかけてある所には他の人の写真や、他の人の書いた書体などはかけてはいけません。<br/><br/> ――狭くて違い棚もないような場合は…… どうしてもいい場所がなければ、床の間の端にかけておけばいいです。<br/><br/> ――「日月」「地上天国」などの御書体の順序はいかがいたすべきでしょうか。<br/><br/> でたらめはいけません。<br/><br/>私の書いた字は生きている、生き物ですからね。<br/><br/>やはり順序は考えなければいけません。<br/><br/>……「日月」はまあ一番上で「光明界」はその次くらい、「地上天国」は「光明界」の次でいいでしょう。<br/><br/>「神龍」はずっと下でいいですよ。<br/><br/>龍のついたのは下でいいですよ、龍は人間の次だから下です。<br/><br/>「観音光」は、観音は仏で仏の光だからそう上でなくていいですね、「地上天国」の次でいいでしょうね。<br/><br/>「神世界」はずっと上でなければいけない、これは神様の世界ですからね。<br/><br/>「光明浄地」、これは下でいいです。<br/><br/>「神風」は風だからどこでもいいです。<br/><br/> ――烏について （一）その鳴き声で吉凶が判ると申しますが事実でしょうか。<br/><br/> （二）烏は霊性が高いと申しますが、その声や形がそれほど美しくないのはなぜでしょうか。<br/><br/> （一）これは判るんですよ。<br/><br/>よく判る人があってね、そういう人は「いま烏が仲間を呼んでる」とかなんとか言いますがよく当たりますね。<br/><br/>まあなんの鳥でもそういうことはありますが、特に烏はそういう点がありますね。<br/><br/>烏が鳴くと死人があるというのも本当ですね。<br/><br/> （二）烏は霊性が高いんです、霊感が非常にある鳥でね、昔から天照皇大神のお使いだなどと言いますが、烏は太陽に関係があるんです。<br/><br/>烏は霊界に行くと烏天狗になり、鳥の中でも一番高くて神様のことをすべてやるんです。<br/><br/>私の副守護神は烏ですよ。<br/><br/> ――烏の鳴き声は多くの人が嫌いますが…… ええ、たいていの人は嫌いますね。<br/><br/>烏は人間の死骸を食べますしね、また人間が死ぬときに鳴いて知らせたりしますからね。<br/><br/> ――霊性が高いのに多くの人から嫌われるのはなぜでしょうか。<br/><br/> 人間が嫌うんでしょ。<br/><br/>……人間なんかなんにも判りはしませんからね。<br/><br/>例えば芸者を見てご覧なさい。<br/><br/>なかなかあでやかで美しくていいじゃないですか、見たところはね。<br/><br/>しかし、実際は多くの家庭騒動なんかこれが元ですからね。<br/><br/>（笑声）むしろ人間のいいと思うものは悪くて、反対の場合が多いですよ。<br/><br/> ――女子の高等教育はどの程度にいたすべきでしょうか。<br/><br/> なるべく高等教育を受けたほうがいいですね。<br/><br/>せいぜい女子大くらいまでね。<br/><br/>教育の程度が低いと理解力がなくて困ります。<br/><br/>実際話せる女というのはめったにないですからね。<br/><br/>男も低いが、女はもっと低い。<br/><br/>たいていの人は女子大くらい行くべきです。<br/><br/>ただ、いまの教育はまずくて倍も時間がかかる。<br/><br/>あれをうまくやれば半分ですんでしまうんですがね。<br/><br/>あんなに期間が長くてはいろいろ差し支えが起ります。<br/><br/>男でもインテリでないといけないですね。<br/><br/>インテリでないのは理解力がなくて、話をしてもおもしろくないですね…… ――子供は上の子より末子のほうに優秀な子ができる場合が多いようですが、これはいかなるわけでしょうか。<br/><br/> 子供は親がうつるんです。<br/><br/>長男なんかを産むころに較べると末の子を産むころは親のほうが経験も積んで智慧もついているから、これがうつって利口になるんです。<br/><br/>それからもう一つはどうしても最初できた子供は刺激がないのでボーッとしている。<br/><br/>それで総領の甚六だなんて言われるんです。<br/><br/>日本ではこんな統計は出てないが、西洋では兄弟の多いほど傑出したのができるという統計があります。<br/><br/>それは兄弟が多いと待遇も悪くなったりしてそのためかえって磨かれるんです。<br/><br/> ――礼拝のときの合掌はどんな意味がありましょうか。<br/><br/> これは自然ですね。<br/><br/>いろいろ理屈をつけますがね、これはまあ自然にそうなるんですよ。<br/><br/>挨拶のとき頭を下げるのと同じですね。<br/><br/> ――無神論者の理論的根拠はなんでしょうか。<br/><br/> これは唯物観です。<br/><br/>「見えざるものは信ずべからず」という唯物観ですね。<br/><br/>だから、以前私は本に書いたことがある、「野蛮人に空気の存在を知らせるよりも、いまの文化人に心霊の存在を信じさせることのほうが難しい」とね。<br/><br/>……それから、もう一つは副守護神が否定するんです。<br/><br/>浄霊により治ることはよく判って「はあはあ」と感心していても、どうしても入らない人がありますが、こんなのはきまって副守護神の働きによるのです。<br/><br/>「そんな馬鹿なことがあるもんか」と副守護神が囁いて邪魔をするんです。<br/><br/>これから昼の世界になると副守護神の力が弱まりますから、だれでも霊を信ずるようになって行くわけです。<br/><br/>場所によって発展する所と発展しない所とあるのもこういうわけですね。<br/><br/>発展する所は明るく、発展しない所はまだ暗いんですよ。<br/><br/> ――三十二歳の女、四歳のとき囲炉裏に転げ落ちて火傷をいたしましたが、その後だんだん腹が肥大し始め、二、三年前医者に見せたところ卵巣膿腫と言われ手術されましたが、御浄霊により治りましょうか。<br/><br/> これは、この火傷のためではないと思いますがね。<br/><br/>腹膜ではないんですか、よく見てご覧なさい。<br/><br/>腹膜だったら腹部がなだらかにふくれてますが、膿腫だったら急にふくれてますよ。<br/><br/>（御手で と の形をお示しくださる）これは手術してなければ完全に治りますが、手術しているから元通りにはならないかもしれませんが、そうとうに治癒するでしょう。<br/><br/> ――真神霊、一霊四魂につき御教示をお願い申し上げます。<br/><br/> これはよく聞かれますがね、四魂とは荒魂（あらみたま）、奇魂（くしみたま）、幸魂（さきみたま）、和魂（にぎみたま）の四つですが、荒魂とは勇気です。<br/><br/>よくいけば勇気ですが、悪くいけば強盗なんかそうですね。<br/><br/>奇魂っていうのは智慧ですね。<br/><br/>智慧にもいいのと悪いのとある。<br/><br/>勿論叡智でなければいけません。<br/><br/>奸智や才智はよくないですね。<br/><br/>幸魂は慈悲ですね。<br/><br/>人を幸せにする気持ちです。<br/><br/>和魂というのは人と親しむ、まあ怒らないことですね。<br/><br/>人間はこれが平均して働けばいいんですが、この四つが完全に備わっていればたいしたものです。<br/><br/>そんな人はまずないですね。<br/><br/>せいぜい三魂か二魂、まあふつうは一つがやっとでしょうね。<br/><br/> ――私の娘はミッションスクールに行っているのでございますが…… ええ、いいじゃないですか。<br/><br/> ――学校ではキリストを拝み、家に帰ると観音様を拝むことがなんだか…… キリストも観音様も同じことですよ。<br/><br/>キリストは西洋の観音様、観音様は東洋のキリストです。<br/><br/>だから、あんたの娘さんが洋服を着たり、和服を着たりするのと同じだと思えばいいんです。<br/><br/>（笑声）そのことを詠んだ歌がありますがね。<br/><br/> 観音も弥勒もメシヤもキリストも人の姿の神にぞありける こういうんでね、同じことなんですよ。<br/><br/> ――その場合のキリストとイエスの関係はいかがでしょうか。<br/><br/> それはいまはまだはっきり言えない。<br/><br/>時期が来れば判るようになります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

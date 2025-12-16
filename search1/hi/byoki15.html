@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気に感謝せよ 『明日の医術 第二編』昭和18(1943)年10月5日発行 私はさきに「病気は神の最大なる恩恵である」と言った。<br><br>その理由は最早読者は充分認識されたであろう。<br><br>しかるに世間、闘病などの文字を使用し、病と闘い、病を征服する事を以て治病の要諦と解しているが、これらがいかに誤りであるかは、ここに言う必要はあるまい。<br><br> 私は、病と闘うというその観念は、病に対しいかに作用するかという事を考えてみるのである。<br><br>そうしてこれまでは、病それ自体が苦痛の代名詞となっている。<br><br>従って、闘病心とは苦痛と闘う意味である。<br><br>苦痛を敵視する事である。<br><br>言い換えれば自国内に敵軍が侵入蟠居〔踞〕（ばんきょ）している――その敵を征服し、排撃しようとするのである。<br><br>しかるに、予期のごとくならない場合、病苦以外の敵に勝てないという煩悶や焦燥感が起るのは当然であろう。<br><br>その結果、病苦の外に苦痛を排除せんとしようとする苦痛が加わる訳である。<br><br> しかるに、私の言う病気なるものは、神の恩恵であって、病気なる浄化作用によって、体内の毒素が軽減又は排除さるるのであるという意味を思う時、まことに感謝に堪えない気持が湧くであろう。<br><br>むしろ病気の一層強烈であれかしと願う心にさえなるものである。<br><br>又病気恢復後、毒素軽減による健康増進の希望も起る以上、それがまた一の楽しみとなるのである。<br><br> 右述べたごとき二様の解釈は、精神的にはいかに影響するやというに、闘病観念は病に対する恐怖と、不安焦燥の悩みを生み、天恵観念においては、感謝と希望と楽しみを生むという事になろうから、本医術を知るにおいて、人生の幸福圏内に一歩踏み入ったという訳である。<br><br> 以上のごとき病気の真諦を、日本人全部が認識し得たとしたらどういう状態になるであろう事を想像されたいのである。<br><br>いうまでもなく、最大不安の焦点であったものが、その反対である事を知るにおいて、国民全般がいかに安易な気持を持ちつつ職域奉公に邁進さるるかである。<br><br>能率増進は固より、社会的明朗感は素晴しいものがあろう。<br><br>これによって日本が二十世紀の蓬莱島（ほうらいじま）となるであろう。<br><br>と私は信ずるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gratidão pela Doença</h2>
 <p>Afirmei anteriormente que a doença é a maior bênção de Deus. Creio que os leitores já compreenderam plenamente o motivo de tal afirmação. Contudo, a sociedade utiliza termos como "luta contra a doença", interpretando que o segredo da cura reside em combater e subjugar a enfermidade. Todavia, creio ser desnecessário dissertar aqui sobre o quão equivocada é essa concepção.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Em contrapartida, ao compreender que a doença, tal como a concebo, é uma bênção divina, e que, por meio de seu processo purificador, as toxinas do corpo são atenuadas ou eliminadas, um sentimento de imensa e indescritível gratidão brotará naturalmente. Chega-se, inclusive, a almejar que a enfermidade se manifeste com maior intensidade. Ademais, a esperança de gozar de uma saúde revigorada após a recuperação, graças à diminuição das toxinas, converte-se em mais um motivo de alegria.</p>
 <p>Analisemos, então, o impacto espiritual dessas duas interpretações. A mentalidade de combate à doença gera medo, ansiedade e angústia. Por outro lado, a concepção da enfermidade como uma dádiva celestial desperta gratidão, esperança e alegria. Portanto, conhecer esta arte médica significa, na verdade, adentrar a esfera da verdadeira felicidade na vida.</p>
 <p>Peço que imaginem o que aconteceria se todos os japoneses compreendessem a verdadeira essência da doença, conforme exposto até aqui. Desnecessário dizer que, ao descobrirem que aquilo que era o seu maior foco de ansiedade é, na realidade, o seu oposto, toda a nação poderá seguir adiante, servindo em suas respectivas ocupações com um espírito de imensa tranquilidade. O aumento da produtividade será uma consequência natural, e o sentimento de contentamento social será esplêndido. Creio firmemente que, por este meio, o Japão se tornará a Horaijima (蓬莱島) do século XX.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気に感謝せよ 『明日の医術 第二編』昭和18(1943)年10月5日発行 私はさきに「病気は神の最大なる恩恵である」と言った。<br/><br/>その理由は最早読者は充分認識されたであろう。<br/><br/>しかるに世間、闘病などの文字を使用し、病と闘い、病を征服する事を以て治病の要諦と解しているが、これらがいかに誤りであるかは、ここに言う必要はあるまい。<br/><br/> 私は、病と闘うというその観念は、病に対しいかに作用するかという事を考えてみるのである。<br/><br/>そうしてこれまでは、病それ自体が苦痛の代名詞となっている。<br/><br/>従って、闘病心とは苦痛と闘う意味である。<br/><br/>苦痛を敵視する事である。<br/><br/>言い換えれば自国内に敵軍が侵入蟠居〔踞〕（ばんきょ）している――その敵を征服し、排撃しようとするのである。<br/><br/>しかるに、予期のごとくならない場合、病苦以外の敵に勝てないという煩悶や焦燥感が起るのは当然であろう。<br/><br/>その結果、病苦の外に苦痛を排除せんとしようとする苦痛が加わる訳である。<br/><br/> しかるに、私の言う病気なるものは、神の恩恵であって、病気なる浄化作用によって、体内の毒素が軽減又は排除さるるのであるという意味を思う時、まことに感謝に堪えない気持が湧くであろう。<br/><br/>むしろ病気の一層強烈であれかしと願う心にさえなるものである。<br/><br/>又病気恢復後、毒素軽減による健康増進の希望も起る以上、それがまた一の楽しみとなるのである。<br/><br/> 右述べたごとき二様の解釈は、精神的にはいかに影響するやというに、闘病観念は病に対する恐怖と、不安焦燥の悩みを生み、天恵観念においては、感謝と希望と楽しみを生むという事になろうから、本医術を知るにおいて、人生の幸福圏内に一歩踏み入ったという訳である。<br/><br/> 以上のごとき病気の真諦を、日本人全部が認識し得たとしたらどういう状態になるであろう事を想像されたいのである。<br/><br/>いうまでもなく、最大不安の焦点であったものが、その反対である事を知るにおいて、国民全般がいかに安易な気持を持ちつつ職域奉公に邁進さるるかである。<br/><br/>能率増進は固より、社会的明朗感は素晴しいものがあろう。<br/><br/>これによって日本が二十世紀の蓬莱島（ほうらいじま）となるであろう。<br/><br/>と私は信ずるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

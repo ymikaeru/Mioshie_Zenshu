@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo19</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教は神道か仏教か 『光』11号、昭和24(1949)年5月31日発行 標題のごとき疑問についてよくきかれるから、ここに説明してみるが、そもそも観世音菩薩の御本体は、今は時期尚早のため深くは発表出来ないが、一流の神様には違いないのである。<br><br> ここで神と仏について説明するが、何千年前世が替った時があって、すべての神々は仏として化現された、例えば月読尊は阿弥陀如来となり、天照大神は大日如来と、稚姫君尊は釈迦如来と、伊都能売神は観世音菩薩となったようにである、この期間が夜の世界でいわゆる真如（しんにょ）の世であった、よく仏教では真如実相というが、真如は真如の月すなわち夜の世界で、実相は昼の世界であるから、今までは真如を上に実相を下にしたのである、真如とは読んで字の如く真の如（ごと）しで真ではない、釈尊が仮の娑婆といったのもそういう訳である、仏滅の世が来るといわれたのもその意味である、ゆえに今度霊界が転換すれば昼の世界すなわち実相世界となるのである。<br><br> 右に関連し、法華経の意味を説く必要がある、法華経は読んで字のごとく仏法を華にたとえ一度華を咲かせるという意味で、それによって実を結ぶのである、法華経二十八品（ぼん）のうち二十五番目の観音普門品がそれである。<br><br> 本教出現の理由もここにあるのであって、仏華散って生れた実がわが観音教団であるにみて、本教の出現の密意は窺知（きち）されるであろう、実に生れるべくして生れたのである、この事だけにみても、本教は決して人造的宗教ではなく天の時いよいよ熱して世の転換期における人類苦悩の救済のため呱々（ここ）の声を挙げたのである、この事だけでも既存仏教が本教の真相を認識されたとしたら、本教を援助すべく起上るであろう事も予想されるのである、もちろん釈尊といえども、霊界の極楽浄土において満足され給う事はもちろんである。<br><br> 話は横道へ外れたから本論へ戻るが、前述のごとく主なる神は仏として化現し給うたのであるから昔から神仏同根といい、仏神一如ともいわれたのである、今はちょうど諸々の仏霊は本来の神格に復元されつつある大転換の過渡時代であるから、本教においては神仏両様の御扱いを実行しているゆえんである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Nossa Igreja é Xintoísta ou Budista?</h2>
 <p>Visto que nos questionam com frequência a respeito do tema que intitula este artigo, passarei a elucidá-lo. Primeiramente, embora o momento ainda não seja propício para uma revelação aprofundada sobre a Verdadeira Natureza de Kannon (観音) Bodhisattva, não resta dúvida de que se trata de uma Divindade da mais elevada estirpe.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Em conexão com o exposto, torna-se necessário elucidar o significado do Sutra do Lótus. Conforme seus ideogramas sugerem, o nome expressa a ideia de que a Lei Búdica floresce uma única vez, para, em seguida, frutificar. Dentre os vinte e oito capítulos do Sutra do Lótus, o vigésimo quinto, dedicado a Kannon (観音), representa precisamente essa flor.</p>
 <p>Nisto reside também a razão do surgimento de nossa Igreja. Compreende-se, assim, o profundo desígnio por trás de seu advento ao se perceber que o fruto nascido do desabrochar e fenecer da flor búdica é, justamente, a nossa Ordem de Kannon. Em verdade, ela nasceu por ser chegada a sua hora. Tal fato, por si só, demonstra que nossa Igreja não é uma religião artificialmente criada pelo homem, mas que anunciou seu nascimento no momento celestialmente determinado, na aurora da transição do mundo, com o propósito de salvar a humanidade de seus sofrimentos. Se as escolas budistas tradicionais reconhecessem essa verdade, é de se esperar que se erguessem para nos auxiliar. E, por certo, até mesmo Shakyamuni, no Paraíso da Terra Pura do Mundo Espiritual, contempla este desfecho com plena satisfação.</p>
 <p>Retornando ao ponto central, após esta digressão, conforme mencionei, as principais Divindades manifestaram-se como Budas. Por essa razão, desde a antiguidade, afirma-se que "Deus e Buda possuem a mesma raiz" e que "Buda e Deus são unos em essência". Atualmente, encontramo-nos justamente no período de transição de uma grande mudança, na qual os espíritos dos diversos Budas estão sendo restituídos à sua natureza divina original. Eis o motivo pelo qual, em nossa Igreja, reverenciamos tanto as Divindades quanto os Budas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教は神道か仏教か 『光』11号、昭和24(1949)年5月31日発行 標題のごとき疑問についてよくきかれるから、ここに説明してみるが、そもそも観世音菩薩の御本体は、今は時期尚早のため深くは発表出来ないが、一流の神様には違いないのである。<br/><br/> ここで神と仏について説明するが、何千年前世が替った時があって、すべての神々は仏として化現された、例えば月読尊は阿弥陀如来となり、天照大神は大日如来と、稚姫君尊は釈迦如来と、伊都能売神は観世音菩薩となったようにである、この期間が夜の世界でいわゆる真如（しんにょ）の世であった、よく仏教では真如実相というが、真如は真如の月すなわち夜の世界で、実相は昼の世界であるから、今までは真如を上に実相を下にしたのである、真如とは読んで字の如く真の如（ごと）しで真ではない、釈尊が仮の娑婆といったのもそういう訳である、仏滅の世が来るといわれたのもその意味である、ゆえに今度霊界が転換すれば昼の世界すなわち実相世界となるのである。<br/><br/> 右に関連し、法華経の意味を説く必要がある、法華経は読んで字のごとく仏法を華にたとえ一度華を咲かせるという意味で、それによって実を結ぶのである、法華経二十八品（ぼん）のうち二十五番目の観音普門品がそれである。<br/><br/> 本教出現の理由もここにあるのであって、仏華散って生れた実がわが観音教団であるにみて、本教の出現の密意は窺知（きち）されるであろう、実に生れるべくして生れたのである、この事だけにみても、本教は決して人造的宗教ではなく天の時いよいよ熱して世の転換期における人類苦悩の救済のため呱々（ここ）の声を挙げたのである、この事だけでも既存仏教が本教の真相を認識されたとしたら、本教を援助すべく起上るであろう事も予想されるのである、もちろん釈尊といえども、霊界の極楽浄土において満足され給う事はもちろんである。<br/><br/> 話は横道へ外れたから本論へ戻るが、前述のごとく主なる神は仏として化現し給うたのであるから昔から神仏同根といい、仏神一如ともいわれたのである、今はちょうど諸々の仏霊は本来の神格に復元されつつある大転換の過渡時代であるから、本教においては神仏両様の御扱いを実行しているゆえんである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

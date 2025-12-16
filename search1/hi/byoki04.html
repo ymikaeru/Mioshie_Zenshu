@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気と苦痛 未発表、年代不詳 人間一度病気に罹るとする。<br><br>病気に罹ったと言う意識は苦痛である。<br><br>言わば病気即苦痛である。<br><br>しかし苦痛にも色々の種類がある。<br><br>これまでの医学は病気と苦痛を同じものにみていた。<br><br>それがため苦痛を緩和すればそれだけ病気も緩和すると思っていた。<br><br>この考え方が根本的に間違っている。<br><br>それを説明してみよう。<br><br>ここで最も多い感冒を取上げてみるが、まず熱が出るとする。<br><br>頭が痛いから氷で冷すや幾分楽にはなるが、それは病気が軽減したのではない、苦痛が軽減したのである。<br><br>これが根本的誤謬である。<br><br>それは病気と苦痛とは別々のものであって、実は苦痛を緩和すればする程病気は悪化するのである。<br><br>この説を見た現代人は余りの意外に唖然とするであろう。<br><br>しかし、これこそ絶対動かす事の出来ない真理であって、これを基本としなければ真の医学は生れないのである。<br><br>以下解くところによって何人（なんぴと）といえども衷心（ちゅうしん）から納得して一言の否（いな）を唱うる事も不可能であろう。<br><br>昔の人が自惚（うぬぼ）れと瘡気（かさけ）のない人はないと言ったが、誠に面白い比喩である。<br><br>実際どんな人間でも先天的毒素を保有していないものは一人もないと言っていい、しかも毒素保有量は予想外に多いものである。<br><br>この毒素とは薬剤の変化したもので吾らは薬毒と云う。<br><br>この薬と毒については別の項目に詳説するが、ともかく右の保有毒素は新陳代謝の活動によって、体内の各所に集溜する。<br><br>そうして時日の経過に従って漸次固まってしまう。<br><br>「毒素の集溜の個所としては神経を使う局所であるから、何と云っても上半身、特に首から上である。<br><br>」頭脳を始め、目、鼻、口、耳、咽喉部等々で、これは目の醒めている間ほとんど休む事はない。<br><br>特に最も神経を使うところは頭脳であろう。<br><br>従って、全身の毒素は頭脳に向って不断に集溜すべく動いており、首の周囲に最も集溜するのである。<br><br>それは、目、鼻、口、耳などの神経も実はその根原が頭脳にあるからである。<br><br>ほとんどの人間が首の周りにグリグリや塊りが出来たり肩が凝ったりするのは皆そのためである。<br><br>ところが右のごとく漸次固まった毒素が頂点に達するやどうしても健康に支障を及ぼすので、これの排除作用が始まる、これを浄化作用とも言う。<br><br>造物主は浄化作用に当って巧妙を極める。<br><br>それはまず最初発熱する（この熱については別の項目に詳説する）。<br><br>この熱で塊りが溶けるのである。<br><br>すなわち溶けて液体となった毒素は、一瞬にして肺臓内に入るや、間髪を容れず咽喉を通って外部へ排泄する。<br><br>これが喀痰である。<br><br>喀痰を排泄するポンプ作用が咳と思えばいい。<br><br>ただし後頭部から延髄部付近の毒素は鼻汁となって鼻口から出る。<br><br>そのポンプ作用が嚔（くさめ）である。<br><br>咳の後には痰が出、嚔の後には鼻汁が出るにみても明かである。<br><br>また、首から下の毒素は液体となって排泄される、それが盗汗（ねあせ）である。<br><br>また頭痛とは液体化した毒素がいずれかの口を求めて排泄されようとし、神経を刺戟する、それが痛みである。<br><br>その毒素は肺臓目がけて流入し、痰となって出るのである。<br><br>何よりも吾々が頭脳を浄霊するや、瞬時に咳と痰が出、頭痛は減るのである。<br><br>また節々の痛みとは、人間は常に手足を屈折するので、関節へ固まり、それの浄化が痛みである。<br><br> 右のごとく、人間の病気とは、溜った汚物の掃除である事を説いたのである。<br><br>従って、実は感冒程有難いものはない。<br><br>という事は、病気程有難いとも言えよう。<br><br>この理によって健康不良の原因は、汚物の溜ったためで、病気という清掃作用によって浄められ健康を回復するのである。<br><br>従って、病気の苦痛は、有難い苦痛なので、言わば清掃作用であるから、この苦痛を手をつけずにそのままにしておけば、はなはだしい苦痛はないのである。<br><br>ところが、医学は病気の苦痛を悪い意味に解釈し、止めようとする。<br><br>言い換えれば、自然に出るべきものを、出さないようにするため、自然と人力との衝突が起り、苦痛が増大する。<br><br>この自然抑圧法を治病の方法と錯覚し、進歩し来たったのが今日の医学であるから、いかに誤っていたかが知らるるであろう。<br><br>以上のごとく、毒素が局所に固まるや、浄化作用が起ると説明したが、これには条件を必要とする。<br><br>その条件とは、毒素を排泄する活動力、すなわち浄化力である。<br><br>この浄化力こそある程度の健康体、すなわち新陳代謝が旺盛でなくてはならない。<br><br>これを逆に解した医学は浄化発生を停止させようとする。<br><br>それには新陳代謝を弱らせなければならない。<br><br>それは健康を弱らせなければならない。<br><br>それは健康を弱らす事である。<br><br>その方法として唯一のものは薬剤である。<br><br>元来薬剤とは、実を言えば毒物である。<br><br>毒だから効くのである。<br><br>と云うとおかしいが、毒を服（の）めば身体が弱る。<br><br>弱っただけは浄化も弱るから、それだけは苦痛が減る。<br><br>それを錯覚して薬で病気が治るように思ったのが既成医学であった。<br><br>薬剤に限らず、あらゆる療法も同一で、熱があれば氷で冷し、氷で冷してせっかく溶けかかった毒素を元通り固めようとしたり、絶対安静とは運動を止めるから弱らすには何よりである。<br><br>病人でなくとも健康体でも数ケ月も絶対安静すれば胃は弱り、食欲は減退し、手肢は使わないから痩衰え、大病人になるのは必然である。<br><br>言わんや病人においてをやである。<br><br>また湿布であるがこれも弱体法である。<br><br>人体は口からの呼吸以外全身の皮膚面からも毛細管を通じて呼吸をしている。<br><br>それを止めてしまうのである。<br><br>何よりも湿布をすれば熱は減り、その部の苦痛は軽減するという事は湿布面だけは浄化が停止されるからである。<br><br> 以上のごとくであるから、医学が行うあらゆる方法は人体を弱らせ浄化を停止させ、以って苦痛を軽減させるだけのもので、今日に至ったのであるから、病気を治すと言う意味はいささかもないのである。<br><br>忌憚（きたん）なくいえば、医学とは苦痛を軽減させようとして、実は病気を重くしているのである。<br><br>すなわち精神は治そうとするが行為は治さないようにしているのである。<br><br>嗚呼、何と怖るべき誤謬ではなかろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Doença e a Dor</h2>
 <p>Suponhamos que uma pessoa seja acometida por uma doença. A simples consciência de estar doente já constitui um sofrimento. Pode-se dizer, portanto, que a doença é, em si, uma fonte de dor. Contudo, existem diversas espécies de sofrimento, e a medicina convencional, até hoje, tem considerado a doença e a dor como uma única e mesma coisa. Partindo desse pressuposto, acredita-se que, ao aliviar a dor, a doença também estaria sendo atenuada. Esta concepção é, em sua essência, equivocada.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Como expliquei, a Ação Purificadora se inicia quando as toxinas se solidificam em determinado local, mas para isso é necessária uma condição: a força para expelir essas toxinas, ou seja, o poder de purificação. Esse poder, por sua vez, depende de um corpo com certo grau de saúde e um metabolismo vigoroso. A medicina, raciocinando de forma inversa, tenta interromper a purificação. Para tanto, é preciso debilitar o metabolismo, o que significa debilitar a própria saúde. O método por excelência para alcançar tal objetivo é o uso de medicamentos.</p>
 <p>Em sua essência, os medicamentos são substâncias tóxicas. É justamente por serem tóxicos que produzem efeito. Embora pareça um paradoxo, ao ingerir um veneno, o corpo se enfraquece. Na medida em que o corpo enfraquece, a purificação também perde força e, consequentemente, a dor diminui. Foi esse fenômeno que a medicina estabelecida confundiu com a cura da doença. E não apenas os medicamentos, mas todos os tratamentos seguem o mesmo princípio. Para a febre, usa-se gelo, que volta a solidificar as toxinas que o calor começava a dissolver. O repouso absoluto, ao impedir o movimento, é o meio mais eficaz para debilitar o organismo. Até mesmo um indivíduo sadio, se submetido a meses de repouso absoluto, terá seu estômago enfraquecido, seu apetite diminuído e seus membros atrofiados, tornando-se um grande enfermo. O que não dizer, então, de alguém que já está doente? Os emplastros e compressas são outro método de enfraquecimento, pois bloqueiam a respiração que o corpo realiza através dos poros de toda a pele. Se uma compressa alivia o calor e a dor local, é porque a purificação naquela área foi paralisada.</p>
 <p>Por tudo o que foi exposto, fica claro que todos os métodos empregados pela medicina visam apenas a debilitar o corpo humano para paralisar a purificação e, com isso, atenuar a dor. Eles não possuem, em absoluto, a finalidade de curar a doença. Falando sem rodeios, a medicina, ao tentar aliviar o sofrimento, na realidade agrava a enfermidade. A intenção é curar, mas o ato impede a cura. Ah, que terrível equívoco</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気と苦痛 未発表、年代不詳 人間一度病気に罹るとする。<br/><br/>病気に罹ったと言う意識は苦痛である。<br/><br/>言わば病気即苦痛である。<br/><br/>しかし苦痛にも色々の種類がある。<br/><br/>これまでの医学は病気と苦痛を同じものにみていた。<br/><br/>それがため苦痛を緩和すればそれだけ病気も緩和すると思っていた。<br/><br/>この考え方が根本的に間違っている。<br/><br/>それを説明してみよう。<br/><br/>ここで最も多い感冒を取上げてみるが、まず熱が出るとする。<br/><br/>頭が痛いから氷で冷すや幾分楽にはなるが、それは病気が軽減したのではない、苦痛が軽減したのである。<br/><br/>これが根本的誤謬である。<br/><br/>それは病気と苦痛とは別々のものであって、実は苦痛を緩和すればする程病気は悪化するのである。<br/><br/>この説を見た現代人は余りの意外に唖然とするであろう。<br/><br/>しかし、これこそ絶対動かす事の出来ない真理であって、これを基本としなければ真の医学は生れないのである。<br/><br/>以下解くところによって何人（なんぴと）といえども衷心（ちゅうしん）から納得して一言の否（いな）を唱うる事も不可能であろう。<br/><br/>昔の人が自惚（うぬぼ）れと瘡気（かさけ）のない人はないと言ったが、誠に面白い比喩である。<br/><br/>実際どんな人間でも先天的毒素を保有していないものは一人もないと言っていい、しかも毒素保有量は予想外に多いものである。<br/><br/>この毒素とは薬剤の変化したもので吾らは薬毒と云う。<br/><br/>この薬と毒については別の項目に詳説するが、ともかく右の保有毒素は新陳代謝の活動によって、体内の各所に集溜する。<br/><br/>そうして時日の経過に従って漸次固まってしまう。<br/><br/>「毒素の集溜の個所としては神経を使う局所であるから、何と云っても上半身、特に首から上である。<br/><br/>」頭脳を始め、目、鼻、口、耳、咽喉部等々で、これは目の醒めている間ほとんど休む事はない。<br/><br/>特に最も神経を使うところは頭脳であろう。<br/><br/>従って、全身の毒素は頭脳に向って不断に集溜すべく動いており、首の周囲に最も集溜するのである。<br/><br/>それは、目、鼻、口、耳などの神経も実はその根原が頭脳にあるからである。<br/><br/>ほとんどの人間が首の周りにグリグリや塊りが出来たり肩が凝ったりするのは皆そのためである。<br/><br/>ところが右のごとく漸次固まった毒素が頂点に達するやどうしても健康に支障を及ぼすので、これの排除作用が始まる、これを浄化作用とも言う。<br/><br/>造物主は浄化作用に当って巧妙を極める。<br/><br/>それはまず最初発熱する（この熱については別の項目に詳説する）。<br/><br/>この熱で塊りが溶けるのである。<br/><br/>すなわち溶けて液体となった毒素は、一瞬にして肺臓内に入るや、間髪を容れず咽喉を通って外部へ排泄する。<br/><br/>これが喀痰である。<br/><br/>喀痰を排泄するポンプ作用が咳と思えばいい。<br/><br/>ただし後頭部から延髄部付近の毒素は鼻汁となって鼻口から出る。<br/><br/>そのポンプ作用が嚔（くさめ）である。<br/><br/>咳の後には痰が出、嚔の後には鼻汁が出るにみても明かである。<br/><br/>また、首から下の毒素は液体となって排泄される、それが盗汗（ねあせ）である。<br/><br/>また頭痛とは液体化した毒素がいずれかの口を求めて排泄されようとし、神経を刺戟する、それが痛みである。<br/><br/>その毒素は肺臓目がけて流入し、痰となって出るのである。<br/><br/>何よりも吾々が頭脳を浄霊するや、瞬時に咳と痰が出、頭痛は減るのである。<br/><br/>また節々の痛みとは、人間は常に手足を屈折するので、関節へ固まり、それの浄化が痛みである。<br/><br/> 右のごとく、人間の病気とは、溜った汚物の掃除である事を説いたのである。<br/><br/>従って、実は感冒程有難いものはない。<br/><br/>という事は、病気程有難いとも言えよう。<br/><br/>この理によって健康不良の原因は、汚物の溜ったためで、病気という清掃作用によって浄められ健康を回復するのである。<br/><br/>従って、病気の苦痛は、有難い苦痛なので、言わば清掃作用であるから、この苦痛を手をつけずにそのままにしておけば、はなはだしい苦痛はないのである。<br/><br/>ところが、医学は病気の苦痛を悪い意味に解釈し、止めようとする。<br/><br/>言い換えれば、自然に出るべきものを、出さないようにするため、自然と人力との衝突が起り、苦痛が増大する。<br/><br/>この自然抑圧法を治病の方法と錯覚し、進歩し来たったのが今日の医学であるから、いかに誤っていたかが知らるるであろう。<br/><br/>以上のごとく、毒素が局所に固まるや、浄化作用が起ると説明したが、これには条件を必要とする。<br/><br/>その条件とは、毒素を排泄する活動力、すなわち浄化力である。<br/><br/>この浄化力こそある程度の健康体、すなわち新陳代謝が旺盛でなくてはならない。<br/><br/>これを逆に解した医学は浄化発生を停止させようとする。<br/><br/>それには新陳代謝を弱らせなければならない。<br/><br/>それは健康を弱らせなければならない。<br/><br/>それは健康を弱らす事である。<br/><br/>その方法として唯一のものは薬剤である。<br/><br/>元来薬剤とは、実を言えば毒物である。<br/><br/>毒だから効くのである。<br/><br/>と云うとおかしいが、毒を服（の）めば身体が弱る。<br/><br/>弱っただけは浄化も弱るから、それだけは苦痛が減る。<br/><br/>それを錯覚して薬で病気が治るように思ったのが既成医学であった。<br/><br/>薬剤に限らず、あらゆる療法も同一で、熱があれば氷で冷し、氷で冷してせっかく溶けかかった毒素を元通り固めようとしたり、絶対安静とは運動を止めるから弱らすには何よりである。<br/><br/>病人でなくとも健康体でも数ケ月も絶対安静すれば胃は弱り、食欲は減退し、手肢は使わないから痩衰え、大病人になるのは必然である。<br/><br/>言わんや病人においてをやである。<br/><br/>また湿布であるがこれも弱体法である。<br/><br/>人体は口からの呼吸以外全身の皮膚面からも毛細管を通じて呼吸をしている。<br/><br/>それを止めてしまうのである。<br/><br/>何よりも湿布をすれば熱は減り、その部の苦痛は軽減するという事は湿布面だけは浄化が停止されるからである。<br/><br/> 以上のごとくであるから、医学が行うあらゆる方法は人体を弱らせ浄化を停止させ、以って苦痛を軽減させるだけのもので、今日に至ったのであるから、病気を治すと言う意味はいささかもないのである。<br/><br/>忌憚（きたん）なくいえば、医学とは苦痛を軽減させようとして、実は病気を重くしているのである。<br/><br/>すなわち精神は治そうとするが行為は治さないようにしているのである。<br/><br/>嗚呼、何と怖るべき誤謬ではなかろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

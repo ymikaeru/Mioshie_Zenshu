@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jikyoku3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時局と霊界 『地上天国』21号、昭和26(1951)年2月25日発行 現在世界の状勢は、実に有史以来いまだかつて見ない程の、大規模な危機的様相を呈している。<br><br>もちろん第三次大戦は、絶対免れ得ない事は、世界の人間ほとんどの頭脳を支配している観念であろう。<br><br>何しろ五十以上の国々が、残らず関連している痛切な問題であってみれば、その影響の大きい事もまた空前である。<br><br>しかしこれは誰が目にも映るところの、現在世界の姿であるがこの現世界の一切は霊界が根源であるとしたら霊界の実相が判らなければ、問題の根本は把握出来ないのはもちろんである。<br><br>まずその事を知ってこそ、初めて将来の見通しもつき、心からの安心を得らるるのであるから、今それをかいてみよう。<br><br> そもそも、主神（すしん）の御経綸は、将来地上天国建設のため、物質文化をある程度まで、進歩発達させなければならない。<br><br>この意味において善と悪とを作られたのである。<br><br>何となれば、この善悪の摩擦によって、現在見るがごとき、絢爛（けんらん）たる物質文化が出来上ったからであって、今や天国出現の一歩手前まで来たのである。<br><br>この事は常に私の説くところであるが、本論に入るにさき立って、一応はかかねば、新しく読む人には判り難いからである。<br><br> 霊界においては、人間が創造された時から、既に人間同士の闘争が始まったのである。<br><br>その中で最も強者である者は、その時代の全地域に渉（わた）る一切を専有し、意のままに支配せんとする欲望を抱き、それを実現すべく善悪無差別的暴力を揮（ふる）ったのも、今日と同様である。<br><br>それによって漸次人智は発達し、人口も殖えるに従って、争闘の規模も拡大され、ついに今日に到ったのである。<br><br>ところが今日見るがごとき世界的覇権を握るべく、計画を立てたのは、今から二千数百年以前であって、その主脳者こそ霊界における、一大強力者である○○龍神であったのである。<br><br>この龍神は○○○之尊という神に憑依し、暴虐手段をもって、世界を自由にしようとし、目的のために手段を選ばざる的のやり方で、一時は成功したようだったが、九分九厘で失敗し、ついに主神の厳罰を受け、一応は悔改め善神に立戻ったのであった。<br><br>すると○○龍神は、次々、その時代の力量ある人物に憑依しては、世界征覇の野望を達成しようとし、その都度失敗したが、彼らは懲りる事を知らず、今なお執拗に奮闘しつつあるのである。<br><br>古来からの英雄、豪傑と言われる人物はいずれもそれであった。<br><br>彼らが一時は時代の英雄として、権勢飛ぶ鳥を落す勢いであっても、ついには失敗し、その末路に到っては、哀れ儚（はかな）く滅びてしまったのは史実に明らかである。<br><br>近代に至って、彼のシーザー、ナポレオン、カイゼル、ヒットラー等ももちろんそれであった。<br><br>ここまでかいただけでも、今日の事態の根本は大体判断がつくであろう。<br><br> 私は、右のような英雄を称して、世界の壊し屋の親方と常に言うが、何しろこれまでの世界は真の文明ではなく、人間といえども半分は野蛮性が残っていた以上、霊的に言えばすくなからず罪を犯し、罪穢を積んだのであるから、時々浄化作用の必要が起る。<br><br>それには壊し屋も、掃除屋もなくてはならないから、英雄という掃除屋の出現も、神の経綸の一つの現われでしかない事を知るであろう。<br><br>従って憤慨する事も、絶望する事も、大した意味がない事が判る。<br><br> 最後に私の事を、少しばかりかいてみるが昨年五月から六月にかけて、奇禍のため警察や刑務所生活で悩まされたが、その時の検察官諸君には、いずれも○○龍神の眷属（けんぞく）が憑依して私を責めたので、余り責め方が酷い時は私の守護神がちょっと加減させるので、息がつけたのである。<br><br>という訳で彼ら役人といえども、実は右の霊に思わせられ、させられたのであるから、暫く経つと、あの時どうしてああいうように思われたり、あんな事をする気になったのかと、自分で自分が判らなかった事を、後悔するに決っている。<br><br> 以上は霊界の、ホンの一部をかいたまでであるが、多少の参考になるであろう。<br><br>実はもっと深くかけばなおよく判るが、経綸上今はかく事が出来ないのを遺憾とするのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Conjuntura Mundial e o Mundo Espiritual</h2>
 <p>A conjuntura mundial apresenta, no momento, um panorama de crise em uma escala jamais vista na História. A iminência de uma Terceira Guerra Mundial, por certo, é uma ideia que já domina a mente da maior parte da humanidade. Tratando-se de uma questão premente que envolve, sem exceção, mais de cinquenta nações, a magnitude de suas consequências é igualmente inédita.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Costumo referir-me a tais heróis como “o mestre-de-obras da destruição mundial”. O mundo, até o presente momento, não vivenciou uma civilização genuína; no ser humano, remanescia uma forte índole selvagem. Em termos espirituais, isso significa que as pessoas acumularam grande quantidade de pecados e máculas, o que torna necessária uma ação purificadora periódica. Para tal, são imprescindíveis os agentes de destruição e de limpeza. Desse modo, a manifestação de heróis, na qualidade de agentes dessa faxina, não é senão uma das facetas do Plano Divino. Portanto, compreende-se que indignar-se ou entregar-se ao desespero carece de maior sentido.</p>
 <p>Por fim, permito-me tecer um breve comentário sobre minha própria experiência. Entre os meses de maio e junho do ano passado, em decorrência de um infortúnio singular, padeci sob a custódia da polícia e no sistema prisional. Na ocasião, os promotores encarregados do caso estavam, sem exceção, possuídos por sequazes daquele Deus Dragão e me submeteram a um intenso sofrimento. Nos momentos em que a opressão se tornava excessiva, meu espírito protetor intervinha para atenuar a situação, concedendo-me um instante de alívio. Isso significa que, embora fossem funcionários do governo, na verdade, seus pensamentos e ações eram induzidos pelos referidos espíritos. É certo que, com o tempo, eles se arrependerão de seus atos, questionando-se por que nutriam tais pensamentos e por que se sentiram compelidos a agir daquela maneira, sem compreender a si mesmos.</p>
 <p>O que expus até aqui representa apenas uma ínfima parcela da realidade do Mundo Espiritual, mas creio que servirá como referência. Na verdade, uma abordagem mais aprofundada tornaria tudo ainda mais claro; contudo, por uma questão relacionada ao Plano Divino, sinto-me no dever de não prosseguir com o assunto no momento, o que é de se lamentar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時局と霊界 『地上天国』21号、昭和26(1951)年2月25日発行 現在世界の状勢は、実に有史以来いまだかつて見ない程の、大規模な危機的様相を呈している。<br/><br/>もちろん第三次大戦は、絶対免れ得ない事は、世界の人間ほとんどの頭脳を支配している観念であろう。<br/><br/>何しろ五十以上の国々が、残らず関連している痛切な問題であってみれば、その影響の大きい事もまた空前である。<br/><br/>しかしこれは誰が目にも映るところの、現在世界の姿であるがこの現世界の一切は霊界が根源であるとしたら霊界の実相が判らなければ、問題の根本は把握出来ないのはもちろんである。<br/><br/>まずその事を知ってこそ、初めて将来の見通しもつき、心からの安心を得らるるのであるから、今それをかいてみよう。<br/><br/> そもそも、主神（すしん）の御経綸は、将来地上天国建設のため、物質文化をある程度まで、進歩発達させなければならない。<br/><br/>この意味において善と悪とを作られたのである。<br/><br/>何となれば、この善悪の摩擦によって、現在見るがごとき、絢爛（けんらん）たる物質文化が出来上ったからであって、今や天国出現の一歩手前まで来たのである。<br/><br/>この事は常に私の説くところであるが、本論に入るにさき立って、一応はかかねば、新しく読む人には判り難いからである。<br/><br/> 霊界においては、人間が創造された時から、既に人間同士の闘争が始まったのである。<br/><br/>その中で最も強者である者は、その時代の全地域に渉（わた）る一切を専有し、意のままに支配せんとする欲望を抱き、それを実現すべく善悪無差別的暴力を揮（ふる）ったのも、今日と同様である。<br/><br/>それによって漸次人智は発達し、人口も殖えるに従って、争闘の規模も拡大され、ついに今日に到ったのである。<br/><br/>ところが今日見るがごとき世界的覇権を握るべく、計画を立てたのは、今から二千数百年以前であって、その主脳者こそ霊界における、一大強力者である○○龍神であったのである。<br/><br/>この龍神は○○○之尊という神に憑依し、暴虐手段をもって、世界を自由にしようとし、目的のために手段を選ばざる的のやり方で、一時は成功したようだったが、九分九厘で失敗し、ついに主神の厳罰を受け、一応は悔改め善神に立戻ったのであった。<br/><br/>すると○○龍神は、次々、その時代の力量ある人物に憑依しては、世界征覇の野望を達成しようとし、その都度失敗したが、彼らは懲りる事を知らず、今なお執拗に奮闘しつつあるのである。<br/><br/>古来からの英雄、豪傑と言われる人物はいずれもそれであった。<br/><br/>彼らが一時は時代の英雄として、権勢飛ぶ鳥を落す勢いであっても、ついには失敗し、その末路に到っては、哀れ儚（はかな）く滅びてしまったのは史実に明らかである。<br/><br/>近代に至って、彼のシーザー、ナポレオン、カイゼル、ヒットラー等ももちろんそれであった。<br/><br/>ここまでかいただけでも、今日の事態の根本は大体判断がつくであろう。<br/><br/> 私は、右のような英雄を称して、世界の壊し屋の親方と常に言うが、何しろこれまでの世界は真の文明ではなく、人間といえども半分は野蛮性が残っていた以上、霊的に言えばすくなからず罪を犯し、罪穢を積んだのであるから、時々浄化作用の必要が起る。<br/><br/>それには壊し屋も、掃除屋もなくてはならないから、英雄という掃除屋の出現も、神の経綸の一つの現われでしかない事を知るであろう。<br/><br/>従って憤慨する事も、絶望する事も、大した意味がない事が判る。<br/><br/> 最後に私の事を、少しばかりかいてみるが昨年五月から六月にかけて、奇禍のため警察や刑務所生活で悩まされたが、その時の検察官諸君には、いずれも○○龍神の眷属（けんぞく）が憑依して私を責めたので、余り責め方が酷い時は私の守護神がちょっと加減させるので、息がつけたのである。<br/><br/>という訳で彼ら役人といえども、実は右の霊に思わせられ、させられたのであるから、暫く経つと、あの時どうしてああいうように思われたり、あんな事をする気になったのかと、自分で自分が判らなかった事を、後悔するに決っている。<br/><br/> 以上は霊界の、ホンの一部をかいたまでであるが、多少の参考になるであろう。<br/><br/>実はもっと深くかけばなおよく判るが、経綸上今はかく事が出来ないのを遺憾とするのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

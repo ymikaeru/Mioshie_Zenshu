@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmuiyaku</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無医薬の家健康保険組合より表彰さる 『栄光』215号、昭和28(1953)年7月1日 富山県 大愛中教会 藤井由太郎（47） 明主様、日々の御守護有難うございます。<br><br>昭和二十三年に入信させて頂きましてより数々の御守護を戴きながら、今日まで御礼の御報告もいたしませず誠に申しわけございません。<br><br>この度御入信を御許し戴いておる身の仕合をつくづくと知り、拙き文を顧ず御報告させて頂きますことを御許し御願い申し上げます。<br><br> 大分以前より私の村にて健康保険組合を組織し、全村戸数三百五十戸漏れなく加入されておりますが、過去二カ年の間医師の治療を受けし家庭と医師の治療を一度も受けない家庭の調査がありました。<br><br>その結果左のごとく数字が現われましたので御報告させて戴きます。<br><br> 健康保険組合加入者家庭三百五十戸の内 医師の治療を受けし家庭 三四一戸 医師の治療を一度も受けない家庭 九戸 このような結果となりました。<br><br>無医薬による健康九家庭に対し、砺波町より健康なる家庭として表彰され記念品贈呈がありました。<br><br>その内七家庭は救世教信者の家庭で、後二戸の内一戸は未入信ですが、病気の度毎に御浄霊を戴き救われている家族であります。<br><br>従って全然本教に関係のない家庭は一戸だけと判明いたしました。<br><br>村役場当局でもこの実情を知り、表彰状授与の際は「ぜひ救世教信者の家庭より代表者を出してほしい」との要求がありましたので、私事選出され、その栄に浴さして戴きましたことにより今更ながら明主様の御仁慈溢れる御守護の有難さに家内一同ただただ感謝申し上げております。<br><br>このことにより村の人達も初めて無医薬に日々楽しくくらす本教信者の姿を見て、余りにも偉大なる御守護の事実に驚歎いたし、反対していた人達も本教を見なおし、段々分られるような空気が濃くなってまいりました。<br><br>この喜びを一軒でも多く戴けるよう努力さして戴きます。<br><br>御守護の程伏して御願い申し上げます。<br><br> 明主様まことに有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Agraciado com reconhecimento pela Cooperativa de Seguro-Saúde por um lar sem medicamentos</h2>
 <p><strong>Coletânea de artigos do Reverendo Jikan Okada</strong></p>
@@ -103,5 +258,48 @@ Lares que não receberam nenhum tratamento médico: 9</p>
 <p>Este acontecimento permitiu que os demais moradores do vilarejo testemunhassem a realidade dos seguidores da nossa Fé, que vivem seus dias de forma alegre e saudável, sem depender de remédios. Ficaram maravilhados com a concretude de uma proteção tão grandiosa. Em decorrência disso, mesmo aqueles que antes se opunham passaram a reavaliar nossos princípios, e a atmosfera de compreensão tem se tornado cada vez mais presente.</p>
 <p>Empenhar-me-ei para que ainda mais lares possam receber esta mesma alegria. Rogo humildemente por Vossa contínua proteção.</p>
 <p>Meishu-Sama, muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 無医薬の家健康保険組合より表彰さる 『栄光』215号、昭和28(1953)年7月1日 富山県 大愛中教会 藤井由太郎（47） 明主様、日々の御守護有難うございます。<br/><br/>昭和二十三年に入信させて頂きましてより数々の御守護を戴きながら、今日まで御礼の御報告もいたしませず誠に申しわけございません。<br/><br/>この度御入信を御許し戴いておる身の仕合をつくづくと知り、拙き文を顧ず御報告させて頂きますことを御許し御願い申し上げます。<br/><br/> 大分以前より私の村にて健康保険組合を組織し、全村戸数三百五十戸漏れなく加入されておりますが、過去二カ年の間医師の治療を受けし家庭と医師の治療を一度も受けない家庭の調査がありました。<br/><br/>その結果左のごとく数字が現われましたので御報告させて戴きます。<br/><br/> 健康保険組合加入者家庭三百五十戸の内 医師の治療を受けし家庭 三四一戸 医師の治療を一度も受けない家庭 九戸 このような結果となりました。<br/><br/>無医薬による健康九家庭に対し、砺波町より健康なる家庭として表彰され記念品贈呈がありました。<br/><br/>その内七家庭は救世教信者の家庭で、後二戸の内一戸は未入信ですが、病気の度毎に御浄霊を戴き救われている家族であります。<br/><br/>従って全然本教に関係のない家庭は一戸だけと判明いたしました。<br/><br/>村役場当局でもこの実情を知り、表彰状授与の際は「ぜひ救世教信者の家庭より代表者を出してほしい」との要求がありましたので、私事選出され、その栄に浴さして戴きましたことにより今更ながら明主様の御仁慈溢れる御守護の有難さに家内一同ただただ感謝申し上げております。<br/><br/>このことにより村の人達も初めて無医薬に日々楽しくくらす本教信者の姿を見て、余りにも偉大なる御守護の事実に驚歎いたし、反対していた人達も本教を見なおし、段々分られるような空気が濃くなってまいりました。<br/><br/>この喜びを一軒でも多く戴けるよう努力さして戴きます。<br/><br/>御守護の程伏して御願い申し上げます。<br/><br/> 明主様まことに有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

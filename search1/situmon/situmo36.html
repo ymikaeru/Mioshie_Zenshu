@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo36</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』32号、昭和27(1952)年1月25日発行 （お伺） 高橋光毅八歳（二十四年五月入信）。<br><br>本年就学期の男児でありますが、精神耗弱、頭脳の働きは三、四歳くらいの低脳で、常に夢見るがごとく朦朧としておるようであります。<br><br>身長も五歳くらいです。<br><br>この児は憑霊現象のため（二歳のとき鶏に殺された幼児葱依）昭和二十四年五月、明主様の御垂示を賜り、その霊は離脱いたしましたが、爾来いろいろな異状を呈して現在に至っております。<br><br>前記憑霊現象は四歳のとき二階階段上から八尺下の板間に転落し、前額右眉上部を強打してから後のことであります。<br><br>御浄霊によっていまは癒りましたが、この打撲箇所を御浄霊すると、お光の焦点を反らすように頭を傾ける動作を数年間続けました。<br><br> 変わった点を列記すると 一、蚊帳を吊った最初の夜、床に寝せようとしても嫌だと泣き喚き中に入りません。<br><br>天津祝詞を奉唱しつつ蚊帳と本人を浄霊すると床に入ります。<br><br>このようなことは三日続きました。<br><br> 一、終日独り言をしゃべっております。<br><br>口から出まかせのでたらめを言っております。<br><br> 一、公衆の前に出ることを非常に嫌い、劇場、催物場、理髪店など、およそ人の集まる所には行かず、公衆浴場は嫌い、家庭風呂は入りますが、上体はお湯につかりません。<br><br> 一、悪戯が烈しく、玩具屋に入って売り物の玩具を外に投げるとか、呉服屋に行って反物の上を下駄履きのままで歩き、ゲラゲラ笑って逃げてきます。<br><br>紙を裂くことを好み、絵本などはすぐ切り破るなどの悪習がはなはだしいのであります。<br><br> 一、救世教の上の先生がみえると、姿を見るや脱兎のごとく一目散に逃げ、裏庭の隅に隠れて息を殺しております。<br><br>この際御浄霊をしてやると素直に家の中に入ってきます。<br><br> 一、寺院、仏閣の境内に立ち入ることをいやがり、仏事のとき、衆僧の読経している席へは寄りつきません。<br><br>寺院の本堂などは特に嫌いで、鐘の音を聞くと気違いのごとく泣いて逃げます。<br><br>しかるに神社の参拝は平気であります。<br><br> 一、食物の好みも変わっております。<br><br>ごはんは温かいのしか食べません。<br><br>副食物も、例えば浅草海苔を欲すると三度三度そればかり食べ、一カ年以上も続きました。<br><br>鶏卵、刺身等々同様です。<br><br>このようなときは仏壇にそれを供えて供養していると自然に止みます。<br><br> お菓子は上等品を欲し、甘くてもサッカリン混入のものは食べません。<br><br>お茶を非常に好み、上等の煎茶を望みます。<br><br> 一、特に変わっていることは、外科病院の前は絶対に通りません。<br><br>何町も離れた遠くの道路にいても、その方向に曲がろうとすると、すでにそれを感知して他の方向に逃げます。<br><br>たまたま病院の付近にゆけば、逃げて自宅に帰ります。<br><br>しかるに外科以外の病院はなんともありません。<br><br>また、町中を歩行中、ある家の前に来ると、その前を通りません。<br><br>外科病院、または、この家の中には、なにかこの児にだけ見ゆる恐ろしい物があるように感じられます。<br><br> 一、余念なく遊んでいるとき、突如として腰が立たず、あたかも中風症状のごとくとなったり、または小児麻痺の状態となったことが二、三回ありました。<br><br>この場合御浄霊二、三日にして平癒しております。<br><br> 一、本教に関する重要な話を始めると、側に来てわけの判らぬことをしゃべったり、悪戯をしたりして邪魔をします。<br><br> 一、腹に手を当てると、ゲラゲラ笑って当てさせません。<br><br>御浄霊を嫌がるときと、みずから進んで望むときとがあります。<br><br> 一、四、五歳ごろは、天津祝詞、善言讃詞を暗記して神前で奏上しておりましたが、このごろは勧めても唱えません。<br><br> 一、面相はふつうの子供と変わりなく、白痴的馬鹿面もしておりません。<br><br>良く笑う児であります。<br><br> 父母は有資格者であり、大光明如来様の御神体を奉斉し中教会支部として御奉仕に専念しております。<br><br> ちなみに現在居住しておる家屋宅地は母の生家であり、数百年伝来の旧家でありましたが、その家の子女たちは成年に達すると次々に死亡し、八人の兄弟姉妹が七人まで夭折し、光毅の母親ただ一人生き残り、すでにその父母亡き後は、一家断絶の悲運に遭遇しておる因縁の家であります。<br><br>なお光毅の父は十年前本教に救われるまでは、慢性胃腸病のため、数十年にわたって薬剤を用いた身体であり、母も元来虚弱体質の者であります。<br><br> 右のようです。<br><br>いかなる原因に因るのでしょうか。<br><br>また御浄霊箇所はどこをいたすべきでしょうか。<br><br> （御垂示） これは医学でいう小児精神病といって、たまにはある病気である。<br><br>勿論、幼児の霊の憑依であるが、これは変死の霊で、祀られていないか、あるいは祀り方が間違っているためである。<br><br>そうしてこの憑霊は、外科手術のごとき障害のため死んだ者であり、また祖先からの怨みの霊の復讐もあるが、怨みとは種々な動物霊が殺されたためもある。<br><br>要するにこれをふつうくらいまでになるには、数年以上かかると見ねばならない。<br><br>浄霊の箇所は前頭部から頭の中心を主にし、首の周りを次にすればよい。<br><br>幸い信仰による人助けをしているので治る可能性があるのである。<br><br> （お伺） 五十歳の女（二十六年三月入信）。<br><br>二十三年六月ごろより病床の人となり、いろいろと医薬に頼りたるも腎臓結石の診断を受け、手術前夜にお道の話をしてひとまず手術を思い止めさせ、二週間で御利益をいただいた熱心な信者です。<br><br>ところが二十六年九月二十七日夕方、西南にある浅い井戸へ水くみに行くと煙がもうもうと立ちのぼり、はっと驚き見ると本人の胸より煙の出ていることがわかり、あわててもみ消しました。<br><br>そしてみると御守り「御光様」のケースの下のほうが親指でおさえたほど焼けております。<br><br>これはなにかのお知らせでしょうか。<br><br>また霊的でしょうか。<br><br>お伺い申し上げます。<br><br> （御垂示） これは別段気にするほどのことはないから、早く忘れてしまいなさい。<br><br> （お伺） 畑作において甘藷の裏作に麦（陸稲も同じ）を栽培するのが定石となっておりますが、これに準じて実験致しましたところ、自然農法の成績はあまりよくなく、特に麦は悪いのであります。<br><br>甘藷、麦に限らず一毛作にするのが自然でありましょうか。<br><br>麦収穫後、畑はなにも作らずあけておいたほうがよろしいのでございましょうか。<br><br>お伺い申し上げます。<br><br> （御垂示） 自然農法は、一種類に限るのであるから、連作がもっともいいのである。<br><br>土は無肥料によると、土自体は自由自在に力の発揮ができるから、一種類に対して、それを生育させる力がますます加わる。<br><br>ところがほかの種類を混ぜると、土は新規蒔き直しになるから、どちらも成績が悪くなるのは当然である。<br><br>これで判ったであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O caso da criança com desenvolvimento atípico</h2>
 <p>(Consulta)
@@ -126,5 +278,48 @@ Não há motivo para preocupação com tal acontecimento. Esqueça-o o mais ráp
 Na agricultura, a prática estabelecida é cultivar trigo (ou arroz de sequeiro) após a colheita da batata-doce. Contudo, ao realizar experimentos seguindo esse método, os resultados com a Agricultura Natural não foram muito satisfatórios, especialmente no caso do trigo. Seria mais natural, não apenas para a batata-doce e o trigo, mas de modo geral, praticar a monocultura? Seria preferível deixar o campo em repouso após a colheita do trigo, sem plantar nada?</p>
 <p>(Orientação Divina)
 A Agricultura Natural preconiza o cultivo de uma única espécie, portanto, a plantação consecutiva da mesma cultura é o método mais adequado. Quando não se utilizam fertilizantes, o solo pode manifestar sua força de maneira livre e irrestrita. Com isso, sua capacidade de nutrir uma única espécie vegetal aumenta progressivamente. Todavia, ao se introduzir uma cultura diferente, o solo é forçado a um recomeço. É natural, portanto, que o desempenho de ambas as plantações seja inferior. Com esta explicação, creio que a questão foi esclarecida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』32号、昭和27(1952)年1月25日発行 （お伺） 高橋光毅八歳（二十四年五月入信）。<br/><br/>本年就学期の男児でありますが、精神耗弱、頭脳の働きは三、四歳くらいの低脳で、常に夢見るがごとく朦朧としておるようであります。<br/><br/>身長も五歳くらいです。<br/><br/>この児は憑霊現象のため（二歳のとき鶏に殺された幼児葱依）昭和二十四年五月、明主様の御垂示を賜り、その霊は離脱いたしましたが、爾来いろいろな異状を呈して現在に至っております。<br/><br/>前記憑霊現象は四歳のとき二階階段上から八尺下の板間に転落し、前額右眉上部を強打してから後のことであります。<br/><br/>御浄霊によっていまは癒りましたが、この打撲箇所を御浄霊すると、お光の焦点を反らすように頭を傾ける動作を数年間続けました。<br/><br/> 変わった点を列記すると 一、蚊帳を吊った最初の夜、床に寝せようとしても嫌だと泣き喚き中に入りません。<br/><br/>天津祝詞を奉唱しつつ蚊帳と本人を浄霊すると床に入ります。<br/><br/>このようなことは三日続きました。<br/><br/> 一、終日独り言をしゃべっております。<br/><br/>口から出まかせのでたらめを言っております。<br/><br/> 一、公衆の前に出ることを非常に嫌い、劇場、催物場、理髪店など、およそ人の集まる所には行かず、公衆浴場は嫌い、家庭風呂は入りますが、上体はお湯につかりません。<br/><br/> 一、悪戯が烈しく、玩具屋に入って売り物の玩具を外に投げるとか、呉服屋に行って反物の上を下駄履きのままで歩き、ゲラゲラ笑って逃げてきます。<br/><br/>紙を裂くことを好み、絵本などはすぐ切り破るなどの悪習がはなはだしいのであります。<br/><br/> 一、救世教の上の先生がみえると、姿を見るや脱兎のごとく一目散に逃げ、裏庭の隅に隠れて息を殺しております。<br/><br/>この際御浄霊をしてやると素直に家の中に入ってきます。<br/><br/> 一、寺院、仏閣の境内に立ち入ることをいやがり、仏事のとき、衆僧の読経している席へは寄りつきません。<br/><br/>寺院の本堂などは特に嫌いで、鐘の音を聞くと気違いのごとく泣いて逃げます。<br/><br/>しかるに神社の参拝は平気であります。<br/><br/> 一、食物の好みも変わっております。<br/><br/>ごはんは温かいのしか食べません。<br/><br/>副食物も、例えば浅草海苔を欲すると三度三度そればかり食べ、一カ年以上も続きました。<br/><br/>鶏卵、刺身等々同様です。<br/><br/>このようなときは仏壇にそれを供えて供養していると自然に止みます。<br/><br/> お菓子は上等品を欲し、甘くてもサッカリン混入のものは食べません。<br/><br/>お茶を非常に好み、上等の煎茶を望みます。<br/><br/> 一、特に変わっていることは、外科病院の前は絶対に通りません。<br/><br/>何町も離れた遠くの道路にいても、その方向に曲がろうとすると、すでにそれを感知して他の方向に逃げます。<br/><br/>たまたま病院の付近にゆけば、逃げて自宅に帰ります。<br/><br/>しかるに外科以外の病院はなんともありません。<br/><br/>また、町中を歩行中、ある家の前に来ると、その前を通りません。<br/><br/>外科病院、または、この家の中には、なにかこの児にだけ見ゆる恐ろしい物があるように感じられます。<br/><br/> 一、余念なく遊んでいるとき、突如として腰が立たず、あたかも中風症状のごとくとなったり、または小児麻痺の状態となったことが二、三回ありました。<br/><br/>この場合御浄霊二、三日にして平癒しております。<br/><br/> 一、本教に関する重要な話を始めると、側に来てわけの判らぬことをしゃべったり、悪戯をしたりして邪魔をします。<br/><br/> 一、腹に手を当てると、ゲラゲラ笑って当てさせません。<br/><br/>御浄霊を嫌がるときと、みずから進んで望むときとがあります。<br/><br/> 一、四、五歳ごろは、天津祝詞、善言讃詞を暗記して神前で奏上しておりましたが、このごろは勧めても唱えません。<br/><br/> 一、面相はふつうの子供と変わりなく、白痴的馬鹿面もしておりません。<br/><br/>良く笑う児であります。<br/><br/> 父母は有資格者であり、大光明如来様の御神体を奉斉し中教会支部として御奉仕に専念しております。<br/><br/> ちなみに現在居住しておる家屋宅地は母の生家であり、数百年伝来の旧家でありましたが、その家の子女たちは成年に達すると次々に死亡し、八人の兄弟姉妹が七人まで夭折し、光毅の母親ただ一人生き残り、すでにその父母亡き後は、一家断絶の悲運に遭遇しておる因縁の家であります。<br/><br/>なお光毅の父は十年前本教に救われるまでは、慢性胃腸病のため、数十年にわたって薬剤を用いた身体であり、母も元来虚弱体質の者であります。<br/><br/> 右のようです。<br/><br/>いかなる原因に因るのでしょうか。<br/><br/>また御浄霊箇所はどこをいたすべきでしょうか。<br/><br/> （御垂示） これは医学でいう小児精神病といって、たまにはある病気である。<br/><br/>勿論、幼児の霊の憑依であるが、これは変死の霊で、祀られていないか、あるいは祀り方が間違っているためである。<br/><br/>そうしてこの憑霊は、外科手術のごとき障害のため死んだ者であり、また祖先からの怨みの霊の復讐もあるが、怨みとは種々な動物霊が殺されたためもある。<br/><br/>要するにこれをふつうくらいまでになるには、数年以上かかると見ねばならない。<br/><br/>浄霊の箇所は前頭部から頭の中心を主にし、首の周りを次にすればよい。<br/><br/>幸い信仰による人助けをしているので治る可能性があるのである。<br/><br/> （お伺） 五十歳の女（二十六年三月入信）。<br/><br/>二十三年六月ごろより病床の人となり、いろいろと医薬に頼りたるも腎臓結石の診断を受け、手術前夜にお道の話をしてひとまず手術を思い止めさせ、二週間で御利益をいただいた熱心な信者です。<br/><br/>ところが二十六年九月二十七日夕方、西南にある浅い井戸へ水くみに行くと煙がもうもうと立ちのぼり、はっと驚き見ると本人の胸より煙の出ていることがわかり、あわててもみ消しました。<br/><br/>そしてみると御守り「御光様」のケースの下のほうが親指でおさえたほど焼けております。<br/><br/>これはなにかのお知らせでしょうか。<br/><br/>また霊的でしょうか。<br/><br/>お伺い申し上げます。<br/><br/> （御垂示） これは別段気にするほどのことはないから、早く忘れてしまいなさい。<br/><br/> （お伺） 畑作において甘藷の裏作に麦（陸稲も同じ）を栽培するのが定石となっておりますが、これに準じて実験致しましたところ、自然農法の成績はあまりよくなく、特に麦は悪いのであります。<br/><br/>甘藷、麦に限らず一毛作にするのが自然でありましょうか。<br/><br/>麦収穫後、畑はなにも作らずあけておいたほうがよろしいのでございましょうか。<br/><br/>お伺い申し上げます。<br/><br/> （御垂示） 自然農法は、一種類に限るのであるから、連作がもっともいいのである。<br/><br/>土は無肥料によると、土自体は自由自在に力の発揮ができるから、一種類に対して、それを生育させる力がますます加わる。<br/><br/>ところがほかの種類を混ぜると、土は新規蒔き直しになるから、どちらも成績が悪くなるのは当然である。<br/><br/>これで判ったであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

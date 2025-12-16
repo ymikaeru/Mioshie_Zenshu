@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271101</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月1日） 『御垂示録』15号、昭和27(1952)年11月15日発行 昭和二十七年十一月一日 近来アメリカで、日本美術の良いところが分かってきたので、むやみに狙っているのです。<br><br>それで博物館は、予算が足りないのでしようがない。<br><br>どういうものですか、軍艦を造るときは何億でもありますが、こういうときには馬鹿にしみったれなのです。<br><br>で、こっちもできるだけ何とか食い止めようと思ってうまくやっているのです。<br><br>それでアメリカで一番狙っているのは、伴大納言（ばんだいなごん）という人の巻物で三巻ある。<br><br>鎌倉時代の初期の物です。<br><br>巻物で一番良い物は、こっちにある天平（てんぴょう）の因果経で、二番目が伴大納言の三巻の巻物です。<br><br>今度のアメリカの展覧会に行きましたが、これは去年サンフランシスコのときも行ったのです。<br><br>それを一番狙っているのです。<br><br>ですからあれをどうしても手に入れようと考えております。<br><br> 「隠れた良い物はまだまだございますでしょうから」 それはずいぶんあります。<br><br>日本はたいへんなものです。<br><br>しかし不思議に良い物は、神様がこっちの手に入らせます。<br><br>来年私は浮世絵の展覧会をやろうと思ってますが、浮世絵の最高の物がボツボツ入ってくるのです。<br><br> 話は違うが「アメリカを救う」はもう印刷のほうにまわりましたが、あれは日本かアメリカのどっちか、あるいは両方でそうとう問題になると思います。<br><br>問題になれば大したものです。<br><br>問題になれば売れるに決ってます。<br><br>アメリカあたりで問題になると、何十万か何百万冊かとりますから、そうすると無論ヨーロッパのほうにも売れますから、外貨獲得ということになります。<br><br>あの文章は私はずいぶん骨折って書いたのです。<br><br>あれを本当に見たらアメリカの偉い人、もちろん医者もですが、息が止るだろうと思います。<br><br> 「問題になりましたら、外貨獲得もでございますが、神様のほうにいよいよ凱歌が上がりますわけでございます」 それはそうです。<br><br>外貨獲得は付録のほうです。<br><br>柔らかい言い方ですが、思い切ってやっつけました。<br><br> 「いつかの御言葉にございます通り、今までは五、六の御神業で、今度は七の御神業にかかりますので、体的に見えた御神業ということがございましたが」 そうです。<br><br>ですからこの間言いましたが、五、六は霊で七は体だから、目に見える発展をするわけです。<br><br>そこでだんだん宗教的に発展もしますし、金もドシドシ入りますし、方々にいろんな物ができるとか、そういった目に見える発展はこれからです。<br><br>しかしそれはやっぱり京都のあそこができるに従ってそれが写っていくのです。<br><br>神様のほうの経綸は深いですから、到底想像もつくものではないのです。<br><br>これからは規模も非常に大きくなってくるでしょう。<br><br>本当に社会が“病気は医学では駄目だ”ということが分かれば、それはこっちの発展はたいへんなものです。<br><br>日本中が引っ繰り返ってしまいます。<br><br> 「昨日会長さん方が皆集まりました折、これが少し分かり出してきたら天手古舞（てんてこまい）になるから、信者さんが皆先生になる気持でやらしていただかなければ、と話合いました」 そうですよ。<br><br>もう長いことはありません。<br><br>だいぶん接近して来ました。<br><br>大本教のお筆先にうまいことが書いてあります。<br><br>“上の守護神に分りたら早いぞよ”とあります。<br><br>結局インテリ階級です。<br><br>これが分からなければ駄目です。<br><br> 「日本のほうの分かり方と外国のほうの分かり方を比べてみますと、日本は一番最初下層階級から分かって来たようでございますが」 しかし、それは何でもそうです。<br><br> 「アメリカは御論文でということでまいりますと」 アメリカは反対かも知れません。<br><br>インテリ階級から分かるでしょう。<br><br>というのは、日本はなぜインテリが分からないかというと、今までの宗教というのにろくなものがないからです。<br><br>今までの踊る宗教とか、ウチワ太鼓叩いて南無妙法蓮華経と言うのですが、踊る宗教も日蓮宗です。<br><br>だから日蓮宗は信仰ではずいぶん低級な下劣なものだと宣伝したのです。<br><br>だから新しい宗教ができても、頭から“いや、あんなものだろう”と高を括（くく）ってますから、そのために日本はインテリに開けないのです。<br><br>とここがアメリカはキリスト教一本だから、そういうような悪影響は受けてないのです。<br><br>日本で我々のほうを邪魔したのは、新宗教です。<br><br>学者でもジャーナリストでもありません。<br><br>新宗教です。<br><br> 「その御言葉をいただきますと、また分かるような気がいたします」 だから天理教でもずいぶん信用を落とすようなことをしました。<br><br>“天理王尊”と、こんなことをやってますが、あれを知識階級が見たら入る気がしません。<br><br>私が見てもそうです。<br><br>ですから私は宗教は大嫌いだと言うのです。<br><br>自分だって宗教家ではないかと言うでしょうが、ですから私は宗教ではないと言うのです。<br><br>そうかと言って、無神論はなお悪いです。<br><br>だから宗教の悪いのは始末の良い悪さです。<br><br>一番困るのは善意の悪魔です。<br><br>あるいは親切な悪です。<br><br>私は今医学のことに対して、善意の罪悪ということを書いてますが、行ったことは確かに善意なのです。<br><br>“医は仁術なり”と言って馬鹿に良いですが、結果において罪悪になっている。<br><br>そういったことが今までは非常に多かったのです。<br><br>だから医学というものは善意の罪悪です。<br><br>今度“アメリカを救う”という本が外国に行くということは、やっぱり最後の審判です。<br><br>神様は医学の審判を始めたのです。<br><br>それで医学の今までの罪悪をすっかりさらけ出すことで、みんなを分からせるということは、神様は最後の審判で医学に最初手をつけたわけです。<br><br>最後の審判と言うと天から火の玉が降るように思いたいのです。<br><br>聖書にそういうふうにあるのです。<br><br>しかしそういった現実離れしたようなことがあり得ることはない。<br><br>そういうのはみんな寓意です。<br><br>“あなたは病気は医者にかかりなさい。<br><br>そんな宗教なんかでは危ないから、何でも医者に行きなさい”と言うのは、つまり親切な悪魔という奴です。<br><br> 「名古屋の御面会のときに、エルサレムに四つの門があるということでございましたが、どういうことでございましょうか」 あれは昔こしらえたのです。<br><br>やっぱりキリストよりちょっと前らしいです。<br><br>やっぱりユダヤです。<br><br>将来救世主が現われる、そのときにそれをお迎えするという準備です。<br><br>そのために四つの門をこしらえたのです。<br><br>それで三つの門だけは開けられるが、一つの門だけは“開かずの門”と言って開けられなかった。<br><br>今でもありますが、それで一番不思議に思うことは“開かずの門”の上に十六の菊がついている。<br><br>だからその開かずの門には日本の天皇が行かれるという説もあったのです。<br><br>十六の菊の門〔紋〕といって、菊の花ではないのです。<br><br>四方に神の光が行き渡るというような意味です。<br><br>やっぱり八紘一宇（はっこういちう）というようなものです。<br><br>八紘一宇を戦争の道具に使ったのはたいへんな違いで、あべこべだったわけです。<br><br>それでイスラエルの流れと言いますが、イスラエル民族の十二の流れというのは、十二の支族になったわけです。<br><br>それでその一支族だけが東に向って行って行方不明になったということがあるのですが、一支族が東に行ったということは、支那に行ったのです。<br><br>そうして漢民族、漢の英雄になって、それが日本に渡って来たのです。<br><br>それが瓊瓊杵尊（ににぎのみこと）なのです。<br><br>天孫瓊瓊杵尊です。<br><br>その孫さんが神武天皇です。<br><br>日本は今までそれが統治していたのです。<br><br>そうしてそのイスラエルというのはユダヤの祖先だから、そこで日本というのはユダヤの系統だという説もあるのです。<br><br>木村鷹太郎という人はそういう説を唱えていたのです。<br><br>やっぱりそれは神様の経綸なのです。<br><br>だから何千年何万年前から神様はいろいろな仕組をしていたのです。<br><br>だからやっぱりお筆先にあります。<br><br>「今に世界が唸るぞよ」というのがありますが、メシヤ教というのが本当に分かって来たら、本当に世界は唸ります。<br><br>それでキリストもイスラエルですから、キリスト教も素盞鳴尊の系統なのです。<br><br>今世界の文化というのは、結局ユダヤの文化なのです。<br><br>だからユダヤというのは非常に大きな手柄をしたのです。<br><br>それでユダヤというのを非常に悪いように宣伝したのは戦争前の軍部ですが、むしろ本当から言うとユダヤに感謝して良いくらいのものです。<br><br>今のこういった機械文明とかを考え出したのは、みんなユダヤ人です。<br><br>それでユダヤ人を欧州戦争のときなんか、ドイツはどう間違えたのか、みんなユダヤ人を排斥したので、その偉いのがアメリカやソ連に行ってしまったのです。<br><br>それがいろんなことを考え出してやったのです。<br><br>今アメリカやソ連が新しい武器を作ったり、原子爆弾を作ったりしているのは、結局その系統です。<br><br>アインシュタインというのはアメリカに亡命したのです。<br><br>それでアメリカでは非常に歓待したのです。<br><br>原子爆弾の理論を最初に言ったのはアインシュタインです。<br><br>アインシュタインが「こういう物ができる、原子破壊という物ができる。<br><br>可能だ」ということを唱えたのです。<br><br>だからユダヤ人というのは唯物的に非常に良い頭です。<br><br>ところがそういった良い方面もあるし、また医学のようなあんな馬鹿げたものを作ったのもユダヤ人だから、そこに一つ足りない。<br><br>九分九厘の力しかないのです。<br><br>それで私のほうは一厘のほうだから、九分九厘の間違ったところを訂正する。<br><br>いろんな機械やいろんな薬でやったことを、こう（御浄霊）やれば治るということは、やっぱりそういう意味です。<br><br>今まではユダヤ文化によって世界はほとんど支配されてしまったのです。<br><br>ただ一つ足りなかったために、せっかく作った文化がみんな人間を苦しめる道具になってしまったのです。<br><br>それで一厘というのは、苦しめた文化つまり不幸を生んだ文化を幸福を生む文化にするのです。<br><br>それがメシヤ教です。<br><br>もう少し経つとおもしろいのです。<br><br>今までのは基礎工事なのです。<br><br>これからいよいよ建築に取り掛かるのです。<br><br>基礎工事で、それで模型も造っていたのです。<br><br>箱根が第一の模型で、熱海、京都と第二第三の模型です。<br><br>京都ができると今度は九州です。<br><br>九州ができると、今度は中国です。<br><br> 「中国はどの辺でございましょうか」 北京城です。<br><br>あそこが中心です。<br><br>しかしあそこは木がないのです。<br><br>非常に景色は良いが木だけがないのです。<br><br>だから木を植えなければならない。<br><br>そうなると中国も変ります。<br><br>今の中共政府などもずいぶん変るでしょう。<br><br>無論ソ連の手から離れます。<br><br>それも時期の問題です。<br><br>毛沢東というのは非常に偉い人です。<br><br>だからむしろ毛沢東は共産主義を利用しているようなものです。<br><br>あれでいくと早いですから、もう少し行ってソ連の力を借りなくても良いというときになると、ソ連を離れてしまいます。<br><br> 「チベット辺りには何もできませんのでございましょうか」 いや、できます。<br><br>あそこにも地上天国ができます。<br><br>チベットは良いところです。<br><br>神様の取って置きのところです。<br><br>やっぱりメシヤ教の別院というようなところです。<br><br>チベットと北京に別院を、ということになります。<br><br> 「チベットにユダヤの本拠があるということは、本当でございましょうか」 それは怪しいです。<br><br>小説のようなことを書いたものがずいぶんあります。<br><br> 「しかしチベットと申しますと、財宝的なことで鉱山とかがありますのでございましょうか」 金があります。<br><br>金は世界で一番です。<br><br>それでミロクの世になると非常に金を使います。<br><br>装飾に使うのです。<br><br> 「黄金の甍（いらか）燦々（さんさん）とでございますから」 そうです。<br><br>瓦まで金でというのは、金の板を張るのです。<br><br> 結局根本は人類から病気を除けば良いのです。<br><br>病気がなくなれば、精神的に悪を好まなくなります。<br><br>で、病気をなくすということは、病気の根本を知れば良い。<br><br>そういうことを今度の“アメリカを救う”の本に、分かるように書いてあります。<br><br>あれが分かれば、もうミロクの世の創造が始まるようなものです。<br><br>つまり今までは病気が必要だったということです。<br><br>しかしいよいよ病気の必要がなくなるのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Obra Divina e o Juízo Final da Medicina</h2>
 <p>Recentemente, os americanos passaram a reconhecer o valor da arte japonesa e, por isso, a cobiçam desmedidamente. Os museus, contudo, com seus orçamentos insuficientes, nada podem fazer. É curioso observar como, para construir um navio de guerra, despendem-se centenas de milhões sem hesitação, mas para preservar a cultura, revela-se uma avareza absurda. Diante disso, de nossa parte, estamos fazendo o possível, com habilidade, para conter essa evasão.</p>
@@ -131,5 +283,48 @@ function toggleLang(lang) {
 <p>“Como no verso ‘os telhados dourados refulgem’...”</p>
 <p>Exato. Telhas de ouro significam que os telhados serão revestidos com lâminas de ouro.</p>
 <p>Em última análise, a questão fundamental é eliminar a doença da humanidade. Quando a doença desaparecer, a inclinação espiritual para o mal diminuirá. E para eliminar a doença, basta que se conheça sua causa fundamental. Expliquei isso de forma clara no livro “A Salvação da América”. Quando essa verdade for compreendida, será como o início da criação do Mundo de Miroku. Em outras palavras, até agora, a doença foi necessária. Mas, finalmente, a era de sua necessidade está chegando ao fim.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月1日） 『御垂示録』15号、昭和27(1952)年11月15日発行 昭和二十七年十一月一日 近来アメリカで、日本美術の良いところが分かってきたので、むやみに狙っているのです。<br/><br/>それで博物館は、予算が足りないのでしようがない。<br/><br/>どういうものですか、軍艦を造るときは何億でもありますが、こういうときには馬鹿にしみったれなのです。<br/><br/>で、こっちもできるだけ何とか食い止めようと思ってうまくやっているのです。<br/><br/>それでアメリカで一番狙っているのは、伴大納言（ばんだいなごん）という人の巻物で三巻ある。<br/><br/>鎌倉時代の初期の物です。<br/><br/>巻物で一番良い物は、こっちにある天平（てんぴょう）の因果経で、二番目が伴大納言の三巻の巻物です。<br/><br/>今度のアメリカの展覧会に行きましたが、これは去年サンフランシスコのときも行ったのです。<br/><br/>それを一番狙っているのです。<br/><br/>ですからあれをどうしても手に入れようと考えております。<br/><br/> 「隠れた良い物はまだまだございますでしょうから」 それはずいぶんあります。<br/><br/>日本はたいへんなものです。<br/><br/>しかし不思議に良い物は、神様がこっちの手に入らせます。<br/><br/>来年私は浮世絵の展覧会をやろうと思ってますが、浮世絵の最高の物がボツボツ入ってくるのです。<br/><br/> 話は違うが「アメリカを救う」はもう印刷のほうにまわりましたが、あれは日本かアメリカのどっちか、あるいは両方でそうとう問題になると思います。<br/><br/>問題になれば大したものです。<br/><br/>問題になれば売れるに決ってます。<br/><br/>アメリカあたりで問題になると、何十万か何百万冊かとりますから、そうすると無論ヨーロッパのほうにも売れますから、外貨獲得ということになります。<br/><br/>あの文章は私はずいぶん骨折って書いたのです。<br/><br/>あれを本当に見たらアメリカの偉い人、もちろん医者もですが、息が止るだろうと思います。<br/><br/> 「問題になりましたら、外貨獲得もでございますが、神様のほうにいよいよ凱歌が上がりますわけでございます」 それはそうです。<br/><br/>外貨獲得は付録のほうです。<br/><br/>柔らかい言い方ですが、思い切ってやっつけました。<br/><br/> 「いつかの御言葉にございます通り、今までは五、六の御神業で、今度は七の御神業にかかりますので、体的に見えた御神業ということがございましたが」 そうです。<br/><br/>ですからこの間言いましたが、五、六は霊で七は体だから、目に見える発展をするわけです。<br/><br/>そこでだんだん宗教的に発展もしますし、金もドシドシ入りますし、方々にいろんな物ができるとか、そういった目に見える発展はこれからです。<br/><br/>しかしそれはやっぱり京都のあそこができるに従ってそれが写っていくのです。<br/><br/>神様のほうの経綸は深いですから、到底想像もつくものではないのです。<br/><br/>これからは規模も非常に大きくなってくるでしょう。<br/><br/>本当に社会が“病気は医学では駄目だ”ということが分かれば、それはこっちの発展はたいへんなものです。<br/><br/>日本中が引っ繰り返ってしまいます。<br/><br/> 「昨日会長さん方が皆集まりました折、これが少し分かり出してきたら天手古舞（てんてこまい）になるから、信者さんが皆先生になる気持でやらしていただかなければ、と話合いました」 そうですよ。<br/><br/>もう長いことはありません。<br/><br/>だいぶん接近して来ました。<br/><br/>大本教のお筆先にうまいことが書いてあります。<br/><br/>“上の守護神に分りたら早いぞよ”とあります。<br/><br/>結局インテリ階級です。<br/><br/>これが分からなければ駄目です。<br/><br/> 「日本のほうの分かり方と外国のほうの分かり方を比べてみますと、日本は一番最初下層階級から分かって来たようでございますが」 しかし、それは何でもそうです。<br/><br/> 「アメリカは御論文でということでまいりますと」 アメリカは反対かも知れません。<br/><br/>インテリ階級から分かるでしょう。<br/><br/>というのは、日本はなぜインテリが分からないかというと、今までの宗教というのにろくなものがないからです。<br/><br/>今までの踊る宗教とか、ウチワ太鼓叩いて南無妙法蓮華経と言うのですが、踊る宗教も日蓮宗です。<br/><br/>だから日蓮宗は信仰ではずいぶん低級な下劣なものだと宣伝したのです。<br/><br/>だから新しい宗教ができても、頭から“いや、あんなものだろう”と高を括（くく）ってますから、そのために日本はインテリに開けないのです。<br/><br/>とここがアメリカはキリスト教一本だから、そういうような悪影響は受けてないのです。<br/><br/>日本で我々のほうを邪魔したのは、新宗教です。<br/><br/>学者でもジャーナリストでもありません。<br/><br/>新宗教です。<br/><br/> 「その御言葉をいただきますと、また分かるような気がいたします」 だから天理教でもずいぶん信用を落とすようなことをしました。<br/><br/>“天理王尊”と、こんなことをやってますが、あれを知識階級が見たら入る気がしません。<br/><br/>私が見てもそうです。<br/><br/>ですから私は宗教は大嫌いだと言うのです。<br/><br/>自分だって宗教家ではないかと言うでしょうが、ですから私は宗教ではないと言うのです。<br/><br/>そうかと言って、無神論はなお悪いです。<br/><br/>だから宗教の悪いのは始末の良い悪さです。<br/><br/>一番困るのは善意の悪魔です。<br/><br/>あるいは親切な悪です。<br/><br/>私は今医学のことに対して、善意の罪悪ということを書いてますが、行ったことは確かに善意なのです。<br/><br/>“医は仁術なり”と言って馬鹿に良いですが、結果において罪悪になっている。<br/><br/>そういったことが今までは非常に多かったのです。<br/><br/>だから医学というものは善意の罪悪です。<br/><br/>今度“アメリカを救う”という本が外国に行くということは、やっぱり最後の審判です。<br/><br/>神様は医学の審判を始めたのです。<br/><br/>それで医学の今までの罪悪をすっかりさらけ出すことで、みんなを分からせるということは、神様は最後の審判で医学に最初手をつけたわけです。<br/><br/>最後の審判と言うと天から火の玉が降るように思いたいのです。<br/><br/>聖書にそういうふうにあるのです。<br/><br/>しかしそういった現実離れしたようなことがあり得ることはない。<br/><br/>そういうのはみんな寓意です。<br/><br/>“あなたは病気は医者にかかりなさい。<br/><br/>そんな宗教なんかでは危ないから、何でも医者に行きなさい”と言うのは、つまり親切な悪魔という奴です。<br/><br/> 「名古屋の御面会のときに、エルサレムに四つの門があるということでございましたが、どういうことでございましょうか」 あれは昔こしらえたのです。<br/><br/>やっぱりキリストよりちょっと前らしいです。<br/><br/>やっぱりユダヤです。<br/><br/>将来救世主が現われる、そのときにそれをお迎えするという準備です。<br/><br/>そのために四つの門をこしらえたのです。<br/><br/>それで三つの門だけは開けられるが、一つの門だけは“開かずの門”と言って開けられなかった。<br/><br/>今でもありますが、それで一番不思議に思うことは“開かずの門”の上に十六の菊がついている。<br/><br/>だからその開かずの門には日本の天皇が行かれるという説もあったのです。<br/><br/>十六の菊の門〔紋〕といって、菊の花ではないのです。<br/><br/>四方に神の光が行き渡るというような意味です。<br/><br/>やっぱり八紘一宇（はっこういちう）というようなものです。<br/><br/>八紘一宇を戦争の道具に使ったのはたいへんな違いで、あべこべだったわけです。<br/><br/>それでイスラエルの流れと言いますが、イスラエル民族の十二の流れというのは、十二の支族になったわけです。<br/><br/>それでその一支族だけが東に向って行って行方不明になったということがあるのですが、一支族が東に行ったということは、支那に行ったのです。<br/><br/>そうして漢民族、漢の英雄になって、それが日本に渡って来たのです。<br/><br/>それが瓊瓊杵尊（ににぎのみこと）なのです。<br/><br/>天孫瓊瓊杵尊です。<br/><br/>その孫さんが神武天皇です。<br/><br/>日本は今までそれが統治していたのです。<br/><br/>そうしてそのイスラエルというのはユダヤの祖先だから、そこで日本というのはユダヤの系統だという説もあるのです。<br/><br/>木村鷹太郎という人はそういう説を唱えていたのです。<br/><br/>やっぱりそれは神様の経綸なのです。<br/><br/>だから何千年何万年前から神様はいろいろな仕組をしていたのです。<br/><br/>だからやっぱりお筆先にあります。<br/><br/>「今に世界が唸るぞよ」というのがありますが、メシヤ教というのが本当に分かって来たら、本当に世界は唸ります。<br/><br/>それでキリストもイスラエルですから、キリスト教も素盞鳴尊の系統なのです。<br/><br/>今世界の文化というのは、結局ユダヤの文化なのです。<br/><br/>だからユダヤというのは非常に大きな手柄をしたのです。<br/><br/>それでユダヤというのを非常に悪いように宣伝したのは戦争前の軍部ですが、むしろ本当から言うとユダヤに感謝して良いくらいのものです。<br/><br/>今のこういった機械文明とかを考え出したのは、みんなユダヤ人です。<br/><br/>それでユダヤ人を欧州戦争のときなんか、ドイツはどう間違えたのか、みんなユダヤ人を排斥したので、その偉いのがアメリカやソ連に行ってしまったのです。<br/><br/>それがいろんなことを考え出してやったのです。<br/><br/>今アメリカやソ連が新しい武器を作ったり、原子爆弾を作ったりしているのは、結局その系統です。<br/><br/>アインシュタインというのはアメリカに亡命したのです。<br/><br/>それでアメリカでは非常に歓待したのです。<br/><br/>原子爆弾の理論を最初に言ったのはアインシュタインです。<br/><br/>アインシュタインが「こういう物ができる、原子破壊という物ができる。<br/><br/>可能だ」ということを唱えたのです。<br/><br/>だからユダヤ人というのは唯物的に非常に良い頭です。<br/><br/>ところがそういった良い方面もあるし、また医学のようなあんな馬鹿げたものを作ったのもユダヤ人だから、そこに一つ足りない。<br/><br/>九分九厘の力しかないのです。<br/><br/>それで私のほうは一厘のほうだから、九分九厘の間違ったところを訂正する。<br/><br/>いろんな機械やいろんな薬でやったことを、こう（御浄霊）やれば治るということは、やっぱりそういう意味です。<br/><br/>今まではユダヤ文化によって世界はほとんど支配されてしまったのです。<br/><br/>ただ一つ足りなかったために、せっかく作った文化がみんな人間を苦しめる道具になってしまったのです。<br/><br/>それで一厘というのは、苦しめた文化つまり不幸を生んだ文化を幸福を生む文化にするのです。<br/><br/>それがメシヤ教です。<br/><br/>もう少し経つとおもしろいのです。<br/><br/>今までのは基礎工事なのです。<br/><br/>これからいよいよ建築に取り掛かるのです。<br/><br/>基礎工事で、それで模型も造っていたのです。<br/><br/>箱根が第一の模型で、熱海、京都と第二第三の模型です。<br/><br/>京都ができると今度は九州です。<br/><br/>九州ができると、今度は中国です。<br/><br/> 「中国はどの辺でございましょうか」 北京城です。<br/><br/>あそこが中心です。<br/><br/>しかしあそこは木がないのです。<br/><br/>非常に景色は良いが木だけがないのです。<br/><br/>だから木を植えなければならない。<br/><br/>そうなると中国も変ります。<br/><br/>今の中共政府などもずいぶん変るでしょう。<br/><br/>無論ソ連の手から離れます。<br/><br/>それも時期の問題です。<br/><br/>毛沢東というのは非常に偉い人です。<br/><br/>だからむしろ毛沢東は共産主義を利用しているようなものです。<br/><br/>あれでいくと早いですから、もう少し行ってソ連の力を借りなくても良いというときになると、ソ連を離れてしまいます。<br/><br/> 「チベット辺りには何もできませんのでございましょうか」 いや、できます。<br/><br/>あそこにも地上天国ができます。<br/><br/>チベットは良いところです。<br/><br/>神様の取って置きのところです。<br/><br/>やっぱりメシヤ教の別院というようなところです。<br/><br/>チベットと北京に別院を、ということになります。<br/><br/> 「チベットにユダヤの本拠があるということは、本当でございましょうか」 それは怪しいです。<br/><br/>小説のようなことを書いたものがずいぶんあります。<br/><br/> 「しかしチベットと申しますと、財宝的なことで鉱山とかがありますのでございましょうか」 金があります。<br/><br/>金は世界で一番です。<br/><br/>それでミロクの世になると非常に金を使います。<br/><br/>装飾に使うのです。<br/><br/> 「黄金の甍（いらか）燦々（さんさん）とでございますから」 そうです。<br/><br/>瓦まで金でというのは、金の板を張るのです。<br/><br/> 結局根本は人類から病気を除けば良いのです。<br/><br/>病気がなくなれば、精神的に悪を好まなくなります。<br/><br/>で、病気をなくすということは、病気の根本を知れば良い。<br/><br/>そういうことを今度の“アメリカを救う”の本に、分かるように書いてあります。<br/><br/>あれが分かれば、もうミロクの世の創造が始まるようなものです。<br/><br/>つまり今までは病気が必要だったということです。<br/><br/>しかしいよいよ病気の必要がなくなるのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

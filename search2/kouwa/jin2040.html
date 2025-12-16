@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jin2040</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第二篇 ３ 040-052 方角１ 040 清浄の気、北と天庭 北海道の北端においても、清浄なる霊気は、やはり丑寅の方向から流れているので御座いましょうか。<br><br> これは勿論である。<br><br>北からの霊気は清浄である。<br><br>清浄の気の元は鬼門である。<br><br> キは霊であり、神の霊気。<br><br> 霊気の強いという事は、神の霊気の故である。<br><br> 北は人間でいうと天庭である。<br><br> 霊気の強い元がそうである。<br><br> 041 国祖御出現後も鬼門ありや 仏滅により艮神様はすでにお出ましになられたと承っておりますが、現在鬼門に便所、台所等のあるのは絶対にいけないもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 鬼門はそういう霊気が発生する事に、地球は出来ている。<br><br>地球の汚いものを浄化するように出来ている。<br><br>ただ艮の金神様が御隠退の時、そこへ行かれた。<br><br>それで綺麗にしておかなくてはいけない。<br><br>（S25. 3.18） 042 芦別山と鬼門 北海道北見は芦別山の北方に当ります。<br><br>この場合鬼門はいかようになりましょうか。<br><br> 鬼門はどの場合でも東北である。<br><br> 芦別は、神様が一時御隠退の因縁があるだけである。<br><br> 043 鬼門の位置 鬼門は丑寅の中間の一線で御座いましょうか。<br><br>それとも丑と寅の間を申すのでしょうか。<br><br>御伺い申し上げます。<br><br> 同じ事である。<br><br>（丑と寅の間）（S24. 2. 9） 044 鬼門に塩撒く事 鬼門に塩気をおくと病人の絶え間がないと聞きますが、それは本当でしょうか。<br><br>本当なればその意義をお話し下さい。<br><br> 塩をおいた方がよい。<br><br>浄めのためであるから塩を撒いた方がよい。<br><br>今迄は逆であった。<br><br>邪神が大いに跋扈したので、邪神に都合のいいようにしていた。<br><br>善人が悪人をみれば悪人であるが、悪人は善人をみれば悪人という。<br><br> よく枇杷（や銀杏）を植えると病人が出来るなどというが、これは皆逆で、病人が出た方がよろしいのである。<br><br>浄化作用であるから大いに結構である。<br><br>（S23.10.17） 045 鬼門へ桧（松） 鬼門の方に植えますのは男松、女松でなければ、檜ではいけませんでございましょうか。<br><br> 本当は松の方がよい。<br><br>桧も悪い事はないが松の次である。<br><br>桧は神様に関係した物を作る用途である。<br><br>原始時代、桧を擦り合せて火が出た。<br><br>燧（ひうち）石の前には、桧を用いて火を出した。<br><br>桧の木は、霊の木であるから、神様の――。<br><br> 松は木の王、木のうちの神、龍神にもなる。<br><br> 雄松雌松、また松と柳を植えるといい場合もある。<br><br> 霊的状態が悪いと引越せない。<br><br> 046 鬼門と坤 鬼門を汚す事を戒めているが、これを汚して浄気を遮断すると、一家に悪魔が跳梁し得るのである。<br><br>方角等の事を一般にいうが、これはどこまでも家を中心とすべきでなく、その家の主人のいる居間を基本にすべきである。<br><br>人が住むために家が存する訳である。<br><br> 鬼門を清浄にするには木を植えるといい。<br><br>特に雄松雌松を植えるのが理想的である。<br><br> 坤には池とか井戸とか水をおく。<br><br>石を置くのもよい。<br><br>戌亥は人の出入する所とするのはよい。<br><br>石は外国である。<br><br>建築でも何でも石である。<br><br> 047 教会方位の中心 教会の家屋の場合、その家相方位は右のいずれを中心とすべきものでしょうか。<br><br> 一、御神殿の部屋 二、神様をお祀りしてある床の間 三、その家屋の主人の部屋 右御教示御願い申し上げます。<br><br> 教会としては神殿を個人としては主人の居間を中心に測る。<br><br>（S25. 5. 3） 048 方位の中心 家相の方位を見るには、主人の居間の中心より見よと伺いましたが、床の間のある場合は床の間を中心にすべきか。<br><br>光明如来をお祭りしてある場合は、光明如来を中心にすべきか。<br><br>御教示下さい。<br><br> 構わず主人を中心にすればよい。<br><br>（主人の眠る位置）（S23.10.17） 049 建家の方角と向 家屋を建てるのにどちらの方向に向って建てたらよいでしょうか。<br><br>また馬屋、大小便所、風呂場等は本屋のどの方向に建てたらよいでしょうか。<br><br>御伺い申し上げます。<br><br> 方角はどっちでも構わぬ。<br><br>また何日でもよい。<br><br>その人の霊的地位にあるのであるから、霊的な位が低ければ、どんな事をしてもわるい。<br><br>鬼門だけ避ければ、外はどこでも構わぬ。<br><br> 050 東北の方角へ建築 倉庫を建築致し、そばへ便所を造りたいと考えます。<br><br>現在東北が空地になってありますが、この方角に造って宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 東北はいけない。<br><br>東北は浄くしないといけない。<br><br>清い霊気を妨げる。<br><br>（倉庫だけでなく、どんな建物でもいけない）（S24. 9. 8） 051 本家分家の建築場所 日の出の方向に分家を建てると本家が衰えると御教えを戴いておりますが、本家より高い場所に分家を建てる事はいかがなもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 日の出は上になる。<br><br>本当はいけないが、臨機応変である。<br><br>そう決めて思わなくてよい。<br><br>高低は考えた方がよい。<br><br> 「鳥の家」は、言霊によって避けた。<br><br>（S25. 4.12） rattail（注） 〔 御光話（S25年 4月13日） 『御光話録』19号、昭和25(1950)年6月13日発行〕 『箱根の神仙郷の中の「鳥の家」ってのはそういう意味で名前をつけたんですよ。<br><br>あれは私の家より上でしょ、だから人間ではいけない。<br><br>けど鳥ならかまいませんからね（笑声）。<br><br>神社だって鳥なら屋根に上っても罰は当たりませんからね。<br><br>そのときの事情によって言霊でやり直すって〔の〕もいいんですよ。<br><br>』 052 北向の家 私の家の墓だけ北向きに建っていますので、ずっと以前ある人が「あれは家のためよくない」と言われましたが、一時変えてまたそのままにし、その後ずっと忘れていましたが、その中父は急死し、兄は戦死し、今では私と母二人になりました。<br><br>この頃になって母が昔の事を思い出して気にしています。<br><br>私は別に気に止めも致しませんがどうしたら宜敷しいでしょうか。<br><br>御教示下さい。<br><br> 霊界では北が一番いい。<br><br>だから、北へ向って拝むのが本当はいいのである。<br><br> 気になるなら南向きにする。<br><br>（S24.12.25）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Direções – Parte 1</h2>
 <h2>040 A Aura da Pureza, o Norte e a Sede Celestial</h2>
@@ -142,5 +294,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> O túmulo de minha família é o único voltado para o Norte. Há muito tempo, alguém disse que “isso não é bom para a família”. Chegamos a mudá-lo, mas depois o retornamos à posição original e nos esquecemos do assunto. Desde então, meu pai faleceu subitamente e meu irmão morreu na guerra; hoje, restamos apenas eu e minha mãe. Recentemente, minha mãe relembrou aquele antigo comentário e está preocupada. Eu não dou importância a isso, mas o que seria mais apropriado fazer?</p>
 <p><strong>Meishu-Sama:</strong> No Mundo Espiritual, o Norte é a melhor direção. Portanto, o correto, em essência, é orar voltado para o Norte.</p>
 <p>Contudo, se isso a incomoda, mude a direção para o Sul. (25 de dezembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人事篇 第二篇 ３ 040-052 方角１ 040 清浄の気、北と天庭 北海道の北端においても、清浄なる霊気は、やはり丑寅の方向から流れているので御座いましょうか。<br/><br/> これは勿論である。<br/><br/>北からの霊気は清浄である。<br/><br/>清浄の気の元は鬼門である。<br/><br/> キは霊であり、神の霊気。<br/><br/> 霊気の強いという事は、神の霊気の故である。<br/><br/> 北は人間でいうと天庭である。<br/><br/> 霊気の強い元がそうである。<br/><br/> 041 国祖御出現後も鬼門ありや 仏滅により艮神様はすでにお出ましになられたと承っておりますが、現在鬼門に便所、台所等のあるのは絶対にいけないもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 鬼門はそういう霊気が発生する事に、地球は出来ている。<br/><br/>地球の汚いものを浄化するように出来ている。<br/><br/>ただ艮の金神様が御隠退の時、そこへ行かれた。<br/><br/>それで綺麗にしておかなくてはいけない。<br/><br/>（S25. 3.18） 042 芦別山と鬼門 北海道北見は芦別山の北方に当ります。<br/><br/>この場合鬼門はいかようになりましょうか。<br/><br/> 鬼門はどの場合でも東北である。<br/><br/> 芦別は、神様が一時御隠退の因縁があるだけである。<br/><br/> 043 鬼門の位置 鬼門は丑寅の中間の一線で御座いましょうか。<br/><br/>それとも丑と寅の間を申すのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 同じ事である。<br/><br/>（丑と寅の間）（S24. 2. 9） 044 鬼門に塩撒く事 鬼門に塩気をおくと病人の絶え間がないと聞きますが、それは本当でしょうか。<br/><br/>本当なればその意義をお話し下さい。<br/><br/> 塩をおいた方がよい。<br/><br/>浄めのためであるから塩を撒いた方がよい。<br/><br/>今迄は逆であった。<br/><br/>邪神が大いに跋扈したので、邪神に都合のいいようにしていた。<br/><br/>善人が悪人をみれば悪人であるが、悪人は善人をみれば悪人という。<br/><br/> よく枇杷（や銀杏）を植えると病人が出来るなどというが、これは皆逆で、病人が出た方がよろしいのである。<br/><br/>浄化作用であるから大いに結構である。<br/><br/>（S23.10.17） 045 鬼門へ桧（松） 鬼門の方に植えますのは男松、女松でなければ、檜ではいけませんでございましょうか。<br/><br/> 本当は松の方がよい。<br/><br/>桧も悪い事はないが松の次である。<br/><br/>桧は神様に関係した物を作る用途である。<br/><br/>原始時代、桧を擦り合せて火が出た。<br/><br/>燧（ひうち）石の前には、桧を用いて火を出した。<br/><br/>桧の木は、霊の木であるから、神様の――。<br/><br/> 松は木の王、木のうちの神、龍神にもなる。<br/><br/> 雄松雌松、また松と柳を植えるといい場合もある。<br/><br/> 霊的状態が悪いと引越せない。<br/><br/> 046 鬼門と坤 鬼門を汚す事を戒めているが、これを汚して浄気を遮断すると、一家に悪魔が跳梁し得るのである。<br/><br/>方角等の事を一般にいうが、これはどこまでも家を中心とすべきでなく、その家の主人のいる居間を基本にすべきである。<br/><br/>人が住むために家が存する訳である。<br/><br/> 鬼門を清浄にするには木を植えるといい。<br/><br/>特に雄松雌松を植えるのが理想的である。<br/><br/> 坤には池とか井戸とか水をおく。<br/><br/>石を置くのもよい。<br/><br/>戌亥は人の出入する所とするのはよい。<br/><br/>石は外国である。<br/><br/>建築でも何でも石である。<br/><br/> 047 教会方位の中心 教会の家屋の場合、その家相方位は右のいずれを中心とすべきものでしょうか。<br/><br/> 一、御神殿の部屋 二、神様をお祀りしてある床の間 三、その家屋の主人の部屋 右御教示御願い申し上げます。<br/><br/> 教会としては神殿を個人としては主人の居間を中心に測る。<br/><br/>（S25. 5. 3） 048 方位の中心 家相の方位を見るには、主人の居間の中心より見よと伺いましたが、床の間のある場合は床の間を中心にすべきか。<br/><br/>光明如来をお祭りしてある場合は、光明如来を中心にすべきか。<br/><br/>御教示下さい。<br/><br/> 構わず主人を中心にすればよい。<br/><br/>（主人の眠る位置）（S23.10.17） 049 建家の方角と向 家屋を建てるのにどちらの方向に向って建てたらよいでしょうか。<br/><br/>また馬屋、大小便所、風呂場等は本屋のどの方向に建てたらよいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 方角はどっちでも構わぬ。<br/><br/>また何日でもよい。<br/><br/>その人の霊的地位にあるのであるから、霊的な位が低ければ、どんな事をしてもわるい。<br/><br/>鬼門だけ避ければ、外はどこでも構わぬ。<br/><br/> 050 東北の方角へ建築 倉庫を建築致し、そばへ便所を造りたいと考えます。<br/><br/>現在東北が空地になってありますが、この方角に造って宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 東北はいけない。<br/><br/>東北は浄くしないといけない。<br/><br/>清い霊気を妨げる。<br/><br/>（倉庫だけでなく、どんな建物でもいけない）（S24. 9. 8） 051 本家分家の建築場所 日の出の方向に分家を建てると本家が衰えると御教えを戴いておりますが、本家より高い場所に分家を建てる事はいかがなもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 日の出は上になる。<br/><br/>本当はいけないが、臨機応変である。<br/><br/>そう決めて思わなくてよい。<br/><br/>高低は考えた方がよい。<br/><br/> 「鳥の家」は、言霊によって避けた。<br/><br/>（S25. 4.12） rattail（注） 〔 御光話（S25年 4月13日） 『御光話録』19号、昭和25(1950)年6月13日発行〕 『箱根の神仙郷の中の「鳥の家」ってのはそういう意味で名前をつけたんですよ。<br/><br/>あれは私の家より上でしょ、だから人間ではいけない。<br/><br/>けど鳥ならかまいませんからね（笑声）。<br/><br/>神社だって鳥なら屋根に上っても罰は当たりませんからね。<br/><br/>そのときの事情によって言霊でやり直すって〔の〕もいいんですよ。<br/><br/>』 052 北向の家 私の家の墓だけ北向きに建っていますので、ずっと以前ある人が「あれは家のためよくない」と言われましたが、一時変えてまたそのままにし、その後ずっと忘れていましたが、その中父は急死し、兄は戦死し、今では私と母二人になりました。<br/><br/>この頃になって母が昔の事を思い出して気にしています。<br/><br/>私は別に気に止めも致しませんがどうしたら宜敷しいでしょうか。<br/><br/>御教示下さい。<br/><br/> 霊界では北が一番いい。<br/><br/>だから、北へ向って拝むのが本当はいいのである。<br/><br/> 気になるなら南向きにする。<br/><br/>（S24.12.25）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

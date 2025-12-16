@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281127</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月27日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月二十七日 この間上野の日展を見ましたが、その感想を書いてみたので読ませます。<br><br> （御論文「日展を観て」） 【栄光 二三六号】 今読んだように西洋崇拝はいろんなことにありますが、美術面に影響されるのが一番厄介なのです。<br><br>というこの根本は人種的の見方、つまり日本人より西洋人の方が優秀だと思っている観念がたいへん間違っているのです。<br><br>本当いうと日本人は民族的には世界で一番優秀なのです。<br><br>これを私は日本人に知らせようと思って、終戦前はよく書いたり言ったりしたのですが、最初の『明日の医術』などに出てます。<br><br>あれには“日本は太陽の国で、英国は月の国、米国は星の国”という具合に書いてあります。<br><br>けれども終戦になってからそういうことを言うとたいへんですし、パージにする資格があるというので、随分危なかったのです。<br><br>これはアメリカとしては無理はないのです。<br><br>日本人がああいう戦争を起こしたのは、つまり自分の国の優秀性、八紘一宇というあれが元ですから、それを心配するのはあたりまえです。<br><br>だからそういうことにはぜんぜん触れなかったのですが、しかし今日になってみれば、やはりそういうことを日本人に知らせるということは必要なのです。<br><br>と言ったところで、別に野心があったりして言う意味ではないのです。<br><br>お国自慢とか国粋ということとは違い、本当のことです。<br><br>特に美術などは日本人が一番です。<br><br>これは私みたいに始終美術を扱っているとよく分かりますが、だいたい仏像などでも、これは支那から来たものです。<br><br>支那の北魏時代といって、ちょうど千五百年くらい前で、唐の少し前です。<br><br>その時代に支那では仏像美術が非常に発達して、俗に六朝（りくちょう）時代と言いますが、この時代の仏像が一番良いのです。<br><br>それが唐の時代から日本に入り始めて、奈良朝時代になって俄然として、それをお手本にして日本がまねをしたのですが、ところがまねをするや否や、日本の方がずっと上手になってしまったのです。<br><br> ですから日本の仏教彫刻、あるいは絵画でもそうですが、それは支那のとみると、まるっきり比べものにならないです。<br><br>それでどの点が一番勝れているかというと、日本仏像のお顔は非常に慈悲に満ちて柔らかく品格があるのです。<br><br>それこそ拝む気になるような良いお顔とお姿なのです。<br><br>これは奈良に行けばたくさんあります。<br><br>ところが支那のはなんだか変なのです。<br><br>安ッポイのです。<br><br>間の抜けたような、仏様じみないで人間のような顔なのです。<br><br>明治以後の仏像は人間じみてますが、これはやっぱり思想的にいやしくなったのです。<br><br>そういうようなわけで、日本人の美の感覚というのは、とても勝れているのです。<br><br>ということは、人種的にそうなのですからあたりまえなのです。<br><br>それからみると、他の国、少なくともヨーロッパ人などの美の感覚というのは、日本人から言うとずっと低いのです。<br><br>それで白人はいろいろな機械を作るとか、あるいは組織を作るとか、社会的のいろんな施設とか、そういうことには非常に勝れているのです。<br><br>これは日本人より上なのです。<br><br>ところが美術、芸術ということは日本人の方が上なのです。<br><br>だから日本人は外国の芸術を取り入れて、それ以上立派なものにするという、それが日本人の本当の天分です。<br><br>それを知らないからして、そういうことも日本人の方が劣るという劣等感が、今日の日本画を堕落させたわけです。<br><br>そういうようなわけで、機械とか、実用品は外国の方がよいのです。<br><br>それから装飾品は日本人の方が上だ、というその違いさが、はっきり分かればよいのです。<br><br>ですから今はめちゃめちゃになってしまったわけです。<br><br>ちょうど人間の病気を機械や、木や草や鉱物などをのんで治そうというのと同じことで、おのずから違うという、それを知らないのです。<br><br>そこに西洋文化の誤謬があるわけです。<br><br>それで救世教はそういうことを知らせるのが大きな仕事なのです。<br><br>そうして本当言うと日本文明――と言ったところで、今までの文明ではなく、これから私がこしらえる文明が世界的になれば、初めて地上天国ができるのです。<br><br>それ以外には、どんなことをしても駄目なのです。<br><br>ですからいくら平和とか条約とか連盟とかをしても、それはやっぱり薬で一時押さえをするようなもので、絶対にうまくゆくはずはないです。<br><br>事実、年中世界中は、ヤレ国際連盟とか平和連盟とか、いろんなことを言ってますが、ただそう言いながら、お互いに軍備をドンドン進めて、大戦争を起こす準備をしてます。<br><br>だから世界の平和とか、本当の文明というのは、白人の頭では無理なのです。<br><br>これは日本人の頭でなければ駄目なのです。<br><br>ところが日本人の中にも、本当の日本人というのはごく少ないのです。<br><br>つまり大和民族ですが、これは少ないので、ほとんど支那と朝鮮です。<br><br>私がいつも言うとおり、ちょうど一割ぐらいが日本人の大和民族です。<br><br>ですから八千万のうち八百万が大和民族で、あとの九割は支那系、朝鮮系なのです。<br><br>それでその八百万の系統のうちにもやっぱり上中下に分かれているのです。<br><br>しかし大和民族のごく上等の人もすぐに嬉しがることはできないのです。<br><br>というのは、日本がごく上代に支那、朝鮮に征服されたのですから……。<br><br>それで征服されたために大和民族がその方の家来になったり、援護者になった人がそうとうあるのです。<br><br>だからそういう人は、つまりそういった色に染まっている人がたくさんあるのです。<br><br>それでその色をとっていって本当の純粋の大和民族になるということが、いま神様の方でやられていることなのです。<br><br>それでその優秀な民族が本当の文明、つまり平和の文明を作りあげて、初めて地上天国ができるのです。<br><br>根本はそういうわけなのです。<br><br> この間『ニホン・タイムズ』という、アメリカ人がやっている新聞の婦人記者が来て、今までの文明は地獄を作る文明だ、それで私は天国を作る文明に作り変えるつもりだという話をしましたが、非常に共鳴してました。<br><br>その人の主人というのはＮＨＫの英語放送をやっていて、これも立派な人ですが、その婦人が外字新聞の記者になっているのです。<br><br>すばらしく頭の良い人で、話がとてもよく分かって、自分はこれから米国から偉い人が来たら連れてくるから会ってくれるかと言うから、私の方では喜んで会うから、できるだけそうしてもらいたいということを言ったのです。<br><br>その人は日本に来て四年になるそうですが、日本が非常に好きで、今度日本で家を買って、すべて日本的の生活をしているそうです。<br><br>つまり畳に坐って、食べ物も日本の物で、そうして日本の研究もあるし、日本が好きな点もあるのです。<br><br>美術評論家なので、世界中の美術館をまわって見たけれども、この箱根美術館はすばらしい物だと言うのです。<br><br>どういうわけかというと、世界中には随分立派な物があり、日本に来ても奈良とかに良い物があるが、ただそれだけのもので、一つの雰囲気が作られてない。<br><br>箱根は、美術館ばかりでなく、すべての木や草、石、いろんなものにおいて、非常に巧みに芸術的に造りあげている。<br><br>つまりその感じがなんとも言えない。<br><br>だから自分は帰れなかったというのです。<br><br>だから随分見ていたそうですが、時間がないので中途で止したくらいだそうです。<br><br>つまり気持ちが溶け込んだような気持ちになって、こういうような感じを与える所は世界中にないと言うのです。<br><br>だから非常に嬉しいと言うのです。<br><br>ところが私も、そこを見てもらいたいのが一番の狙い所なのですから、私も非常に満足したわけです。<br><br>そう思っている人もあるでしょうが、そういう具合にはっきりと言った人は今までなかったものですから、私も非常に気持ちがよかったのです。<br><br>それともう一つは、日本人で私のような考えを持っている人は初めてだと言うのです。<br><br>というのは、私の考えとアメリカ人の考えはよく合うわけです。<br><br>ですから私のやることはアメリカ式が非常に多いのです。<br><br>そういうわけで、いろいろな話がありました。<br><br>アメリカ人の金持ちの話が出て、言い訳みたいなことを言ってましたから、私はそれに対して言ってやったのですが、私はアメリカの金持ちが金を集めるということは非常に結構だと思う。<br><br>というのは、私はアメリカ人の一番好きなことは、正義感が強いことだ。<br><br>だからアメリカが世界の平和を維持するうえにおいて、つまり正義を貫くうえにおいては非常に物質がいる。<br><br>その物質を集めるには金がいるから、その意味で金を集めるのだから、非常に結構だという話をしたら、先方でも、ロックフェラー（いまは三代目で、孫の代だそうです）などがふだんから言っていることは、金なんかあってもしようがないというのです。<br><br>それはそうでしょう。<br><br>金は入り過ぎるくらいですから……。<br><br>だから自分は世界を平和にし、多くの人を幸福にする以外にはなにも考えない。<br><br>だからそのための方法はどうすれば一番よいかということを始終考えている。<br><br>というようなことを言ってました。<br><br>それで私は若い時分から、アメリカの金持ちのことを本や雑誌でできるだけ見るようにしてましたから、私の話はかえって先方の知らないようなことを言いました。<br><br>これは話が細かくなりますから、いずれ話すとして、そういうようなわけで、そういった日本にいるアメリカ人の間にだいぶ拡がりつつあるのです。<br><br>だからだんだん日本の有識者――ジャーナリストなどよりも、アメリカの方に早く知れるだろうと思います。<br><br>またそれが一番良いのです。<br><br>それは日本人に知れるよりも一番効果的です。<br><br>今の一切がアメリカ文化の崇拝思想になっているのですから、救世教もアメリカに知れるということが一番効果があるわけです。<br><br>まだいろいろな話がありましたが、このくらいにしておきます。<br><br> これはふだん言っているようなことですが、書き方を変えてみました。<br><br> （御論文「御神意を覚れ」） 【栄光 二三七号】 今殺人原爆と活人原爆というのを書いていますが、これを分かりやすく言うと、これ（浄霊）が活人原爆です。<br><br>それから今の原子爆弾は殺す原爆です。<br><br>それで宇宙というものは、反対な二つの力があって生成化育されているのです。<br><br>だから破壊の力と創造の力です。<br><br>ですから地球は引力と言いますが、斥力もあるのです。<br><br>吸う力と、はね返す力です。<br><br>前に、月の世界に行くとかということで、斥力を利用するという学者の説があったが、これは引力と反対な力ですから結構ですが、とにかく今言ったように殺す原子爆弾と活かす原子爆弾があるわけです。<br><br>それがちょうど時を同じくして生まれたということがおもしろいと思います。<br><br>ですからこれはやはり原子爆弾と同じことです。<br><br>ただここから出る火素は、壊す原子爆弾よりもずっと粒子が細かい、上等なわけです。<br><br>そこで、毒素を固める方法というのが、固まりきった時が破壊になりますから、それと原子爆弾とは同じです。<br><br>ですからラジウムとかレントゲンというのは、やはり固める作用をする物です。<br><br>それのもういっそう激しいものが、固まりを壊す作用になり、それが原子爆弾の原理です。<br><br>ところが私の方のは溶かす力なのです。<br><br>ですから溶かして出す力です。<br><br>これはちょうど今のと反対の力です。<br><br>けれども結局において力のすばらしいのは原子爆弾と同じです。<br><br>ただ働きがアベコベになっているだけです。<br><br>ですからこれ（浄霊）を原子爆弾と思って説明すると一番分かりよいのです。<br><br>つまり人を殺す原子爆弾と活人原子爆弾がちょうど同じ時に現われたということが非常におもしろいのです。<br><br>というのは、いつも言うとおり、最後の審判は破壊と創造が同時に起こるのです。<br><br>だからこれがつまりそれの根本的のものです。<br><br>そういう具合に考えて説明すると、非常によく分かると思って話をしたのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Superioridade Artística Japonesa e a Civilização Vindoura</h2>
 <p>Recentemente, visitei a Exposição Nitten em Ueno e redigi algumas impressões, as quais gostaria de compartilhar.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Atualmente, escrevo sobre a bomba atômica que assassina e a bomba atômica que vivifica. Para simplificar, isto aqui (o Johrei) é a bomba atômica vivificante. A bomba atômica que conhecemos é a que mata. O universo é gerado e mantido pela interação de duas forças opostas: a força da destruição e a força da criação. Assim como a Terra possui uma força de atração, a gravidade, ela também possui uma força de repulsão. Uma força que atrai e outra que repele. Certa vez, um cientista teorizou sobre o uso da força de repulsão para viajar à Lua, o que faz sentido, sendo o oposto da gravidade. De qualquer modo, o ponto central é que existem a bomba atômica que mata e a bomba atômica que vivifica, e é fascinante que ambas tenham surgido na mesma época.</p>
 <p>Em essência, o poder do Johrei é análogo ao da bomba atômica. A diferença é que as partículas de elemento fogo que irradiamos são muito mais sutis e refinadas do que as da bomba destrutiva. O método de solidificação de toxinas leva à destruição quando a solidificação atinge seu ápice; nisso, assemelha-se à bomba atômica. O rádio e os raios X, por exemplo, exercem uma ação de enrijecimento. Quando essa força se intensifica ao extremo, torna-se um poder destrutivo que desintegra o que foi solidificado. Esse é o princípio da bomba atômica. O nosso poder, contudo, é o de dissolver. É uma força que dissolve e expele. Trata-se de uma força diametralmente oposta à outra.</p>
 <p>No entanto, em termos de magnitude, seu poder é tão extraordinário quanto o da bomba atômica; apenas sua função é invertida. Portanto, a maneira mais clara de explicar o Johrei é compará-lo a uma bomba atômica. O fato de a bomba atômica que mata e a bomba atômica que vivifica terem surgido simultaneamente é deveras interessante. Como sempre afirmo, no Juízo Final, a destruição e a criação ocorrem ao mesmo tempo. E esses dois poderes são a manifestação fundamental desse evento. Compreendendo por este prisma, a explicação se torna muito mais clara.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月27日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月二十七日 この間上野の日展を見ましたが、その感想を書いてみたので読ませます。<br/><br/> （御論文「日展を観て」） 【栄光 二三六号】 今読んだように西洋崇拝はいろんなことにありますが、美術面に影響されるのが一番厄介なのです。<br/><br/>というこの根本は人種的の見方、つまり日本人より西洋人の方が優秀だと思っている観念がたいへん間違っているのです。<br/><br/>本当いうと日本人は民族的には世界で一番優秀なのです。<br/><br/>これを私は日本人に知らせようと思って、終戦前はよく書いたり言ったりしたのですが、最初の『明日の医術』などに出てます。<br/><br/>あれには“日本は太陽の国で、英国は月の国、米国は星の国”という具合に書いてあります。<br/><br/>けれども終戦になってからそういうことを言うとたいへんですし、パージにする資格があるというので、随分危なかったのです。<br/><br/>これはアメリカとしては無理はないのです。<br/><br/>日本人がああいう戦争を起こしたのは、つまり自分の国の優秀性、八紘一宇というあれが元ですから、それを心配するのはあたりまえです。<br/><br/>だからそういうことにはぜんぜん触れなかったのですが、しかし今日になってみれば、やはりそういうことを日本人に知らせるということは必要なのです。<br/><br/>と言ったところで、別に野心があったりして言う意味ではないのです。<br/><br/>お国自慢とか国粋ということとは違い、本当のことです。<br/><br/>特に美術などは日本人が一番です。<br/><br/>これは私みたいに始終美術を扱っているとよく分かりますが、だいたい仏像などでも、これは支那から来たものです。<br/><br/>支那の北魏時代といって、ちょうど千五百年くらい前で、唐の少し前です。<br/><br/>その時代に支那では仏像美術が非常に発達して、俗に六朝（りくちょう）時代と言いますが、この時代の仏像が一番良いのです。<br/><br/>それが唐の時代から日本に入り始めて、奈良朝時代になって俄然として、それをお手本にして日本がまねをしたのですが、ところがまねをするや否や、日本の方がずっと上手になってしまったのです。<br/><br/> ですから日本の仏教彫刻、あるいは絵画でもそうですが、それは支那のとみると、まるっきり比べものにならないです。<br/><br/>それでどの点が一番勝れているかというと、日本仏像のお顔は非常に慈悲に満ちて柔らかく品格があるのです。<br/><br/>それこそ拝む気になるような良いお顔とお姿なのです。<br/><br/>これは奈良に行けばたくさんあります。<br/><br/>ところが支那のはなんだか変なのです。<br/><br/>安ッポイのです。<br/><br/>間の抜けたような、仏様じみないで人間のような顔なのです。<br/><br/>明治以後の仏像は人間じみてますが、これはやっぱり思想的にいやしくなったのです。<br/><br/>そういうようなわけで、日本人の美の感覚というのは、とても勝れているのです。<br/><br/>ということは、人種的にそうなのですからあたりまえなのです。<br/><br/>それからみると、他の国、少なくともヨーロッパ人などの美の感覚というのは、日本人から言うとずっと低いのです。<br/><br/>それで白人はいろいろな機械を作るとか、あるいは組織を作るとか、社会的のいろんな施設とか、そういうことには非常に勝れているのです。<br/><br/>これは日本人より上なのです。<br/><br/>ところが美術、芸術ということは日本人の方が上なのです。<br/><br/>だから日本人は外国の芸術を取り入れて、それ以上立派なものにするという、それが日本人の本当の天分です。<br/><br/>それを知らないからして、そういうことも日本人の方が劣るという劣等感が、今日の日本画を堕落させたわけです。<br/><br/>そういうようなわけで、機械とか、実用品は外国の方がよいのです。<br/><br/>それから装飾品は日本人の方が上だ、というその違いさが、はっきり分かればよいのです。<br/><br/>ですから今はめちゃめちゃになってしまったわけです。<br/><br/>ちょうど人間の病気を機械や、木や草や鉱物などをのんで治そうというのと同じことで、おのずから違うという、それを知らないのです。<br/><br/>そこに西洋文化の誤謬があるわけです。<br/><br/>それで救世教はそういうことを知らせるのが大きな仕事なのです。<br/><br/>そうして本当言うと日本文明――と言ったところで、今までの文明ではなく、これから私がこしらえる文明が世界的になれば、初めて地上天国ができるのです。<br/><br/>それ以外には、どんなことをしても駄目なのです。<br/><br/>ですからいくら平和とか条約とか連盟とかをしても、それはやっぱり薬で一時押さえをするようなもので、絶対にうまくゆくはずはないです。<br/><br/>事実、年中世界中は、ヤレ国際連盟とか平和連盟とか、いろんなことを言ってますが、ただそう言いながら、お互いに軍備をドンドン進めて、大戦争を起こす準備をしてます。<br/><br/>だから世界の平和とか、本当の文明というのは、白人の頭では無理なのです。<br/><br/>これは日本人の頭でなければ駄目なのです。<br/><br/>ところが日本人の中にも、本当の日本人というのはごく少ないのです。<br/><br/>つまり大和民族ですが、これは少ないので、ほとんど支那と朝鮮です。<br/><br/>私がいつも言うとおり、ちょうど一割ぐらいが日本人の大和民族です。<br/><br/>ですから八千万のうち八百万が大和民族で、あとの九割は支那系、朝鮮系なのです。<br/><br/>それでその八百万の系統のうちにもやっぱり上中下に分かれているのです。<br/><br/>しかし大和民族のごく上等の人もすぐに嬉しがることはできないのです。<br/><br/>というのは、日本がごく上代に支那、朝鮮に征服されたのですから……。<br/><br/>それで征服されたために大和民族がその方の家来になったり、援護者になった人がそうとうあるのです。<br/><br/>だからそういう人は、つまりそういった色に染まっている人がたくさんあるのです。<br/><br/>それでその色をとっていって本当の純粋の大和民族になるということが、いま神様の方でやられていることなのです。<br/><br/>それでその優秀な民族が本当の文明、つまり平和の文明を作りあげて、初めて地上天国ができるのです。<br/><br/>根本はそういうわけなのです。<br/><br/> この間『ニホン・タイムズ』という、アメリカ人がやっている新聞の婦人記者が来て、今までの文明は地獄を作る文明だ、それで私は天国を作る文明に作り変えるつもりだという話をしましたが、非常に共鳴してました。<br/><br/>その人の主人というのはＮＨＫの英語放送をやっていて、これも立派な人ですが、その婦人が外字新聞の記者になっているのです。<br/><br/>すばらしく頭の良い人で、話がとてもよく分かって、自分はこれから米国から偉い人が来たら連れてくるから会ってくれるかと言うから、私の方では喜んで会うから、できるだけそうしてもらいたいということを言ったのです。<br/><br/>その人は日本に来て四年になるそうですが、日本が非常に好きで、今度日本で家を買って、すべて日本的の生活をしているそうです。<br/><br/>つまり畳に坐って、食べ物も日本の物で、そうして日本の研究もあるし、日本が好きな点もあるのです。<br/><br/>美術評論家なので、世界中の美術館をまわって見たけれども、この箱根美術館はすばらしい物だと言うのです。<br/><br/>どういうわけかというと、世界中には随分立派な物があり、日本に来ても奈良とかに良い物があるが、ただそれだけのもので、一つの雰囲気が作られてない。<br/><br/>箱根は、美術館ばかりでなく、すべての木や草、石、いろんなものにおいて、非常に巧みに芸術的に造りあげている。<br/><br/>つまりその感じがなんとも言えない。<br/><br/>だから自分は帰れなかったというのです。<br/><br/>だから随分見ていたそうですが、時間がないので中途で止したくらいだそうです。<br/><br/>つまり気持ちが溶け込んだような気持ちになって、こういうような感じを与える所は世界中にないと言うのです。<br/><br/>だから非常に嬉しいと言うのです。<br/><br/>ところが私も、そこを見てもらいたいのが一番の狙い所なのですから、私も非常に満足したわけです。<br/><br/>そう思っている人もあるでしょうが、そういう具合にはっきりと言った人は今までなかったものですから、私も非常に気持ちがよかったのです。<br/><br/>それともう一つは、日本人で私のような考えを持っている人は初めてだと言うのです。<br/><br/>というのは、私の考えとアメリカ人の考えはよく合うわけです。<br/><br/>ですから私のやることはアメリカ式が非常に多いのです。<br/><br/>そういうわけで、いろいろな話がありました。<br/><br/>アメリカ人の金持ちの話が出て、言い訳みたいなことを言ってましたから、私はそれに対して言ってやったのですが、私はアメリカの金持ちが金を集めるということは非常に結構だと思う。<br/><br/>というのは、私はアメリカ人の一番好きなことは、正義感が強いことだ。<br/><br/>だからアメリカが世界の平和を維持するうえにおいて、つまり正義を貫くうえにおいては非常に物質がいる。<br/><br/>その物質を集めるには金がいるから、その意味で金を集めるのだから、非常に結構だという話をしたら、先方でも、ロックフェラー（いまは三代目で、孫の代だそうです）などがふだんから言っていることは、金なんかあってもしようがないというのです。<br/><br/>それはそうでしょう。<br/><br/>金は入り過ぎるくらいですから……。<br/><br/>だから自分は世界を平和にし、多くの人を幸福にする以外にはなにも考えない。<br/><br/>だからそのための方法はどうすれば一番よいかということを始終考えている。<br/><br/>というようなことを言ってました。<br/><br/>それで私は若い時分から、アメリカの金持ちのことを本や雑誌でできるだけ見るようにしてましたから、私の話はかえって先方の知らないようなことを言いました。<br/><br/>これは話が細かくなりますから、いずれ話すとして、そういうようなわけで、そういった日本にいるアメリカ人の間にだいぶ拡がりつつあるのです。<br/><br/>だからだんだん日本の有識者――ジャーナリストなどよりも、アメリカの方に早く知れるだろうと思います。<br/><br/>またそれが一番良いのです。<br/><br/>それは日本人に知れるよりも一番効果的です。<br/><br/>今の一切がアメリカ文化の崇拝思想になっているのですから、救世教もアメリカに知れるということが一番効果があるわけです。<br/><br/>まだいろいろな話がありましたが、このくらいにしておきます。<br/><br/> これはふだん言っているようなことですが、書き方を変えてみました。<br/><br/> （御論文「御神意を覚れ」） 【栄光 二三七号】 今殺人原爆と活人原爆というのを書いていますが、これを分かりやすく言うと、これ（浄霊）が活人原爆です。<br/><br/>それから今の原子爆弾は殺す原爆です。<br/><br/>それで宇宙というものは、反対な二つの力があって生成化育されているのです。<br/><br/>だから破壊の力と創造の力です。<br/><br/>ですから地球は引力と言いますが、斥力もあるのです。<br/><br/>吸う力と、はね返す力です。<br/><br/>前に、月の世界に行くとかということで、斥力を利用するという学者の説があったが、これは引力と反対な力ですから結構ですが、とにかく今言ったように殺す原子爆弾と活かす原子爆弾があるわけです。<br/><br/>それがちょうど時を同じくして生まれたということがおもしろいと思います。<br/><br/>ですからこれはやはり原子爆弾と同じことです。<br/><br/>ただここから出る火素は、壊す原子爆弾よりもずっと粒子が細かい、上等なわけです。<br/><br/>そこで、毒素を固める方法というのが、固まりきった時が破壊になりますから、それと原子爆弾とは同じです。<br/><br/>ですからラジウムとかレントゲンというのは、やはり固める作用をする物です。<br/><br/>それのもういっそう激しいものが、固まりを壊す作用になり、それが原子爆弾の原理です。<br/><br/>ところが私の方のは溶かす力なのです。<br/><br/>ですから溶かして出す力です。<br/><br/>これはちょうど今のと反対の力です。<br/><br/>けれども結局において力のすばらしいのは原子爆弾と同じです。<br/><br/>ただ働きがアベコベになっているだけです。<br/><br/>ですからこれ（浄霊）を原子爆弾と思って説明すると一番分かりよいのです。<br/><br/>つまり人を殺す原子爆弾と活人原子爆弾がちょうど同じ時に現われたということが非常におもしろいのです。<br/><br/>というのは、いつも言うとおり、最後の審判は破壊と創造が同時に起こるのです。<br/><br/>だからこれがつまりそれの根本的のものです。<br/><br/>そういう具合に考えて説明すると、非常によく分かると思って話をしたのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gandai07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代医学を嗤う 『栄光』191号、昭和28(1953)年1月14日発行 今回米国におけるストレプトマイシンの発見者として、ノーベル賞まで獲得したワックスマン博士が来朝し、読売新聞社の斡旋（あっせん）で発表講演会が開かれ、専門家並びに多くの識者から歓迎を受けたのは衆知の通りである。<br><br>私はその時の説を読売紙上で読んだので、細かい事は抜きにして、その根本原理をかいてみると大体こうである。<br><br>すなわち同薬は抗菌性物質といい、結核菌を弱らせ衰滅させるに相当効果があり、それがため病勢を弱らせ、諸般の症状がある期間緩和するので、今日のごとく世界的発見として大騒ぎされるようになったのである。<br><br>しかし決して全治の効果のない事は保証出来るがそれらによって近年日本における患者死亡率が、急激に減少したといって喜んでいるのである。<br><br>これを私からみれば問題にはならない。<br><br> それはいつもいうごとく、幼稚極まる現代医学の事とて、無論結核の根本には触れていず、ただ末梢的研究によって出来た薬である以上、一時的効果でしかないのはもちろんである。<br><br>その何よりの証拠は死亡率は減っても、発病率は一向減らないにみて明らかである。<br><br>その結果死にもせず全治もせずという青白い顔のブラブラ人間が益々増えるばかりであるから、国家社会にとってプラスよりマイナスの方が多いのは言うまでもない。<br><br>なるほど新薬によって本当に病気が治り、ピンピンした人間が増え、発病率も減るとしたら、吾々といえども双（もろ）手を挙げて賛意を表するに吝（やぶさ）かではないが、事実は右のごとしとすれば、その盲点に気付かなければならないのである。<br><br> ところがこのように不確実な効果をもって、鬼の首でも奪ったように有難がり、発見者自身はもとより、他の学者までが賞讃するのであるから全く情ないと思う。<br><br>これというのも本当の事が分っていないから、ちょっとした効果でもたちまち有頂天になり、世界的流行とさえなるのである。<br><br>彼（か）のヒドラジットにしてもそうで、最初の勢はどこへやら、近頃は予想外に売れないので、製造元は悲鳴を挙げているそうである。<br><br>しかも注意すべき事は結核の死亡者が減ったとしても、そのため他の病気が増えるという事実で、近来仏蘭西（フランス）始め欧州各国でも結核が減っても癌（擬似癌）やその他の病気が増えたという報告を最近新聞で見たが、これなども大いに考えなくてはなるまい。<br><br>以上によってみても結核は薬で一定期間抑えられても、他の病気に変化する危険があるとしたら、差引二一天作の五（にいちてんさくのご）である。<br><br>医薬が進歩したといっても、全体的にみて一向病人の減らないのがそれをよく物語っている。<br><br> そうして右の原因についてハッキリ言ってみると、医学というものは未（いま）だそれ程進歩していないがため菌のみに囚（とら）われ、菌さえ殺せばいいとしている簡単な考え方である。<br><br>今これに対してその根本原理をかいてみるが、本来菌なるものは実は結果的産物であって本原ではない事である。<br><br>すなわち最初体内の一部に菌発生の温床が出来（この温床については拙著“結核信仰療法”中に詳説してあるから参照されたい）その温床から菌の幼虫が発生し、漸次育って一人前になったものが顕微鏡で見得る菌であるから、結核を撲滅するにはこの温床を潰滅させる事でこれが根本である。<br><br>ところがそこまで分っていないため、菌を殺せる薬ならいいとして、近来のごとく後から後から新薬発見となるのであるから、私に言わせれば徒労以外の何物でもないのである。<br><br>ところが本教浄霊によれば結核は必ず全治する。<br><br>しかも全治後は病気以前よりも、より健康体になるので、これこそ菌の発生源を全滅させるからである。<br><br> 以上によって私が創成した治病原理とその方法こそ最高科学である事が分ったであろう。<br><br>にもかかわらず世人は宗教家の説なるがゆえに何ら検討もせず、非科学と即断するのであるから、全く科学迷信に捉われているからで、一日も早くこの迷信を打破しなければならないと痛感する次第である。<br><br> (注) 二一天作の五（にいちてんさくのご） 旧式そろばんの割り算九九、1を2で割る場合のことば。<br><br>転じて計算のこと。<br><br>物事を半分ずつに割る事。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Escárnio à Medicina Moderna</h2>
 <p>É de notório saber que o Dr. Waksman, laureado com o Prêmio Nobel pela descoberta da estreptomicina nos Estados Unidos, visitou recentemente o Japão, onde foi aclamado em palestras e eventos organizados pelo jornal Yomiuri Shimbun, que contaram com a presença de especialistas e intelectuais. Tendo lido o seu discurso no referido jornal, apresentarei aqui, sem adentrar em pormenores, os fundamentos de sua tese.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Para expor a causa de maneira clara, a medicina, por ainda não ter alcançado um nível de desenvolvimento satisfatório, está aprisionada ao conceito do bacilo, acreditando que basta eliminá-lo. Apresentarei agora o princípio fundamental que rege essa questão. O bacilo, em sua essência, é um produto resultante, e não a causa primária. Primeiramente, forma-se no organismo um foco propício ao seu desenvolvimento (sobre este foco, discorro em detalhes em minha obra “Terapia da Tuberculose pela Fé”; recomendo sua leitura). Desse terreno fértil, nascem as larvas do bacilo que, ao se desenvolverem gradualmente, tornam-se os microrganismos visíveis ao microscópio. Portanto, para erradicar a tuberculose, é essencial eliminar esse foco, pois esta é a abordagem fundamental. Como esse conhecimento ainda não foi alcançado, a busca incessante por novos medicamentos capazes de matar bacilos prossegue, com novas descobertas surgindo uma após a outra. A meu ver, isso não passa de um esforço vão.</p>
 <p>Em contrapartida, por meio do Johrei de nossa Igreja, a tuberculose é invariavelmente curada por completo. Mais do que isso, após a cura, a pessoa se torna ainda mais saudável do que era antes da doença. Isso ocorre porque o Johrei aniquila a própria fonte geradora do bacilo.</p>
 <p>Pelo exposto, creio que se tornou evidente que o princípio de cura que estabeleci e o método que dele deriva constituem a ciência em seu mais elevado grau. Não obstante, como se trata da tese de um líder religioso, as pessoas, sem sequer examiná-la, rotulam-na apressadamente como não científica. Estão, na verdade, cativas da superstição científica. Sinto, pois, a urgência de quebrar o quanto antes os grilhões dessa superstição.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代医学を嗤う 『栄光』191号、昭和28(1953)年1月14日発行 今回米国におけるストレプトマイシンの発見者として、ノーベル賞まで獲得したワックスマン博士が来朝し、読売新聞社の斡旋（あっせん）で発表講演会が開かれ、専門家並びに多くの識者から歓迎を受けたのは衆知の通りである。<br/><br/>私はその時の説を読売紙上で読んだので、細かい事は抜きにして、その根本原理をかいてみると大体こうである。<br/><br/>すなわち同薬は抗菌性物質といい、結核菌を弱らせ衰滅させるに相当効果があり、それがため病勢を弱らせ、諸般の症状がある期間緩和するので、今日のごとく世界的発見として大騒ぎされるようになったのである。<br/><br/>しかし決して全治の効果のない事は保証出来るがそれらによって近年日本における患者死亡率が、急激に減少したといって喜んでいるのである。<br/><br/>これを私からみれば問題にはならない。<br/><br/> それはいつもいうごとく、幼稚極まる現代医学の事とて、無論結核の根本には触れていず、ただ末梢的研究によって出来た薬である以上、一時的効果でしかないのはもちろんである。<br/><br/>その何よりの証拠は死亡率は減っても、発病率は一向減らないにみて明らかである。<br/><br/>その結果死にもせず全治もせずという青白い顔のブラブラ人間が益々増えるばかりであるから、国家社会にとってプラスよりマイナスの方が多いのは言うまでもない。<br/><br/>なるほど新薬によって本当に病気が治り、ピンピンした人間が増え、発病率も減るとしたら、吾々といえども双（もろ）手を挙げて賛意を表するに吝（やぶさ）かではないが、事実は右のごとしとすれば、その盲点に気付かなければならないのである。<br/><br/> ところがこのように不確実な効果をもって、鬼の首でも奪ったように有難がり、発見者自身はもとより、他の学者までが賞讃するのであるから全く情ないと思う。<br/><br/>これというのも本当の事が分っていないから、ちょっとした効果でもたちまち有頂天になり、世界的流行とさえなるのである。<br/><br/>彼（か）のヒドラジットにしてもそうで、最初の勢はどこへやら、近頃は予想外に売れないので、製造元は悲鳴を挙げているそうである。<br/><br/>しかも注意すべき事は結核の死亡者が減ったとしても、そのため他の病気が増えるという事実で、近来仏蘭西（フランス）始め欧州各国でも結核が減っても癌（擬似癌）やその他の病気が増えたという報告を最近新聞で見たが、これなども大いに考えなくてはなるまい。<br/><br/>以上によってみても結核は薬で一定期間抑えられても、他の病気に変化する危険があるとしたら、差引二一天作の五（にいちてんさくのご）である。<br/><br/>医薬が進歩したといっても、全体的にみて一向病人の減らないのがそれをよく物語っている。<br/><br/> そうして右の原因についてハッキリ言ってみると、医学というものは未（いま）だそれ程進歩していないがため菌のみに囚（とら）われ、菌さえ殺せばいいとしている簡単な考え方である。<br/><br/>今これに対してその根本原理をかいてみるが、本来菌なるものは実は結果的産物であって本原ではない事である。<br/><br/>すなわち最初体内の一部に菌発生の温床が出来（この温床については拙著“結核信仰療法”中に詳説してあるから参照されたい）その温床から菌の幼虫が発生し、漸次育って一人前になったものが顕微鏡で見得る菌であるから、結核を撲滅するにはこの温床を潰滅させる事でこれが根本である。<br/><br/>ところがそこまで分っていないため、菌を殺せる薬ならいいとして、近来のごとく後から後から新薬発見となるのであるから、私に言わせれば徒労以外の何物でもないのである。<br/><br/>ところが本教浄霊によれば結核は必ず全治する。<br/><br/>しかも全治後は病気以前よりも、より健康体になるので、これこそ菌の発生源を全滅させるからである。<br/><br/> 以上によって私が創成した治病原理とその方法こそ最高科学である事が分ったであろう。<br/><br/>にもかかわらず世人は宗教家の説なるがゆえに何ら検討もせず、非科学と即断するのであるから、全く科学迷信に捉われているからで、一日も早くこの迷信を打破しなければならないと痛感する次第である。<br/><br/> (注) 二一天作の五（にいちてんさくのご） 旧式そろばんの割り算九九、1を2で割る場合のことば。<br/><br/>転じて計算のこと。<br/><br/>物事を半分ずつに割る事。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

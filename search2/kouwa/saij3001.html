@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij3001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第三篇 １ 001-014 祭式 001 御神体に幽世大神と唱える事 御浄霊の際、天津祝詞の後に五六七大御神守給へ幸倍へ給へ、惟神霊幸倍座せと申し上げて宜敷う御座いましょうか。<br><br>なお霊的のように思われますような場合には、幽世大神守給へ幸倍給へ、惟神霊幸倍座せと申し上げて宜敷う御座いましょうか。<br><br>御伺い申し上げます。<br><br> 御神体に向っては幽世大神は絶対にいけない。<br><br>五六七大御神の一部が幽世大神である。<br><br>幽世大神と唱えるのは五六七大御神を侮辱している事になる。<br><br>霊的の病人に向ってなら構わない。<br><br>（S25. 5.18） 002 御神体拝んで仏界へ通じるか 大光明如来様に善言讃詞、御讃歌を奏上すれば仏壇の方へは奏上しなくともよろしいと承りましたが、神界と違う仏界にいる先祖に、どうして通じるのでしょうか。<br><br> 観音様は神で仏でどっちへでも通ずる融通無碍で、融通菩薩の御名もある。<br><br>（S24. 6. 3） 003 御屏風御観音様と光明如来 先祖の御霊をお祭りするのに光明如来を御迎えし、一方仏壇に千手観音様を御迎えして先祖代々の位牌を御祭りする意味を御教え御願いします。<br><br> 同じ事で、お名前でお働きが違う。<br><br> 光の働きの時は光明如来。<br><br>種々な救いとか、悪魔の手にあったいろいろのものを取戻すのが千手観音のお働きである。<br><br>（S24. 9. 6） 004 御尊影と御神体の礼拝 一 私宅では大光明如来様の御尊像と同じく御書体とを奉斎しておりますが、床の間は一つしかありません。<br><br>この場合にはいずれをお掛けしてお祭りすべきものでしょうか。<br><br>しかしてお納めした一方を他にお掛けする適当な座敷が無い時は同一の座敷の違棚にお掛けしてもよろしいでしょうか。<br><br>または箱にお納めして床の間に置くべきでしょうか。<br><br> 二 私の家では朝礼に際し、大先生を神の前立としてまず大先生の御写真に向って御礼を申し述べてから大光明如来様を礼拝しておりますが、順序はそれでよろしいでしょうか。<br><br> 一、御書体の方を掛ける。<br><br> 二、大先生を後にする。<br><br>（S24.10. 5） 005 不時の際お願いの御称号 暴風雨や火事の時、御神前で祝詞を奏上させて頂きますにはみろくの大御神様に御願い申し上げるので御座いましょうか。<br><br>それとも祓戸四柱の大神様に御願い申し上げるので御座いますか。<br><br>またはみろくの大御神様と祓戸四柱の大神様ともに御願い申し上げるのがよろしゅう御座いますか。<br><br>御教えを御願い申し上げます。<br><br> 直接の御守護ではなく、下の働きの神様にお願いすべきである。<br><br> 光明如来様にお願いすべき事である。<br><br>（S24. 9.12） 006 幽世大御神か幽世大神か 幽世大神と幽世大御神といずれを申し上げるので御座居ましょうか。<br><br>右御伺い申し上げます。<br><br> 大御神は最高の神になる。<br><br>大御神という要はない。<br><br>幽世大神でよい。<br><br>（S25. 3.18） rattail（注） 〔 御光話（S25年 3月18日） 『御光話録』19号、昭和25(1950)年6月13日発行〕掲載 〔 御光話（S23年 8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br>〕 ――幽世大御神と幽世大神とどちらがよろしゅうございましょうか。<br><br> 『御は尊称ですから大神でも大御神でも同じですが、幽世大神でいいです。<br><br>「五六七」のときは御を入れ大御神がよい。<br><br>御を入れるのは五六七大御神と天照大御神のお二人だけでよろしい。<br><br>』 007 神・死者への礼節 お葬式に参列の後で用足しをしたり御墓参りをしてはいけないという理由。<br><br> お葬式とか婚礼とかは人生の重大な儀式であって、参列したらそのまま帰るのが死者に対する礼節である。<br><br>よく死穢といって、死者の傍へ寄ると、死者には汚れがあるから汚れるというが、これは大した事はない。<br><br> 礼節は大事な事で、教導師が他家へ浄霊に行くにも、他所へ寄って用足しして浄霊に行くと効果が薄い。<br><br>これは主客転倒であるからである。<br><br>これは用足しを後にすべきで、神様にお詣りするにもお詣りを先にする。<br><br>それから他の用を足すのは構わぬ。<br><br>それが神に対する礼である。<br><br>（S23.11. 1） rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕掲載 008 冠婚葬祭と天候 冠婚葬祭の折の天候の良否はその人の御霊に関係がありましょうか。<br><br>また家屋の上棟式の場合の天候もその家屋との霊的な関係がありましょうか。<br><br> 冠婚葬祭は天気の良い方がよい。<br><br>上棟式は寧ろ降った方がよい。<br><br>私が箱根に行く時は必ず雨が降るし、熱海へ来る時は照る。<br><br>早雲寮の上棟式は猛雨であった。<br><br>箱根は火であり火は水によって強くなる。<br><br>（S23.11.22） 009 本教の冠婚葬祭式 本教団の信徒にて法要、葬式、結婚式をいたしますにはいかなる方法で致せばいいでしょうか。<br><br>御伺い致します。<br><br> 今迄通りでいい。<br><br>いずれは特別の方法が出来る。<br><br>（S24.11. 7） 010 冠婚葬祭の本教様式 いずれは形式を作るが、今の所坊主や神主に頼むとよい。<br><br>（S23） rattail（注） 〔 御垂示（S28年11月1日） 『御垂示録』26号、昭和28(1953)年11月15日発行〕 『いずれメシヤ会館のほうができてから冠婚葬祭のこともボツボツやるつもりです。<br><br>』 011 例祭日の早延、神定を乱す事 私は去る一月より開拓に出掛けたため、分会長先生の例祭を三月にして戴き四月二十六日に会長先生に例祭をして戴きましたところ、新しくて割目のないコップの底が抜け三宝の上に約二分程の厚さに水が拡がりましたが、同じ三宝にお祭りしてあります屏風観音様は全然濡れなかったのですが、何かお知らせでしょうか。<br><br> 定めた日より早くするのはいいが、遅くなるのはいけない。<br><br>そのためである。<br><br> すべて神仏に関係した事は、早くするのは良いが遅くするのはいけない。<br><br> 本当は早過ぎるのもいけない。<br><br>例祭と定めた日は必ず守らなくてはいけない。<br><br>絶対にその日と決めれば必ずそうなるものだ。<br><br>故障は起らぬ。<br><br>薄弱な考えは邪神に隙を与え、邪魔される。<br><br>固く決心する事である。<br><br> 屏風観音様は必ず仏壇へ入れねばならぬ。<br><br>決めた所へ祭らねばならぬ。<br><br> 神様が決められた事を人間が乱すのは、人間が上になる。<br><br> 神様の月次祭は、その日の場合、一日早くするのはいい。<br><br> rattai（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 012 祭日の延期 十月十日に私の村に徳山神社のお祭りがありましたが、雨のため十一日に延長され、十日には本殿の扉が開きましたのですが、十一には開こうとしても開かず明朝に至るもあかなかったのです。<br><br>何か霊的に関係があるものですか。<br><br> 大いにある。<br><br>十日のお祭りと決っているものは、雨でも風でも、今後絶対に実行しなくてはいけない。<br><br>九日にするのは構わぬ。<br><br>早いのはいいが延ばすのは非常に悪い。<br><br>霊界は非常にキチンとしていて、出鱈目は許さぬ。<br><br>（人間が延ばすと神様の仕事がおくれる。<br><br>人間と違い、神様の御仕事は規則正しい）御仕事がおくれると一日の狂いが十日も遅れる事になる。<br><br> 今後は絶対にせぬとお詫びすればよい。<br><br>（S23.10.17） 013 供物と器―白木と塗り 神様の御用のための三宝は塗り物でも宜しいのでしょうか。<br><br>右御教示御願申し上げます。<br><br> 三宝は、神様の場合は白木が本当である。<br><br>土器も素焼でなくてはいけない。<br><br>つまり、神様は極く古い時代、何千年前か何万年前人間の姿で現界に生れた事があるので――。<br><br> 霊界に長くいて、今以て人間として生れぬ神様がある。<br><br>そこでやはり神代時代に地上で生活した。<br><br>その時のやり方を知っている。<br><br>そういう意味から、どこまでも神代時代の器物を使うのである。<br><br> 必ずしもそれでなくてはならない事はないので、供物はすべて神様の方より人間の方で気持がよいという意味になる。<br><br> 仏の方はすべて塗ったものがいい。<br><br>三宝でも塗ったのがあるが、これは大黒様などには、これで上げるといい。<br><br> rattail（注） 〔 御光話（S23年 6月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年〕掲載 014 仏で拍手せぬ理 神前にては拍手致して参拝致しますが、仏前にては拍手をせず参拝致します。<br><br>その理由を御教示御願い致します。<br><br> また仏壇の鐘を二つ鳴らす意味を御説明御願い申し上げます。<br><br> 仏の形式は印度で出来た。<br><br>釈迦が元祖である。<br><br>仏というものは消極的で、仏教を徹底さすと隠遁生活になる。<br><br>男女同権というが、仏教では、外面女菩薩、内面女夜叉という。<br><br> 山岳仏教というのは（役の行者など）女人禁制で、最近漸く禁を解いて登った。<br><br>その位消極的であるから、拍手などは釣り合わぬ。<br><br> 陰―死―仏道。<br><br>陽―生―神道。<br><br> 生れた時は産土へ詣る。<br><br>そういう点が拍手にも関係する。<br><br> 鉦は、霊は仏界であるから、二つでいい。<br><br>神道でも二つ。<br><br> 五六七の体がない。<br><br>（S24.10.16）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Jikan Okada</h2>
 <h2>Rituais</h2>
@@ -145,5 +297,48 @@ function toggleLang(lang) {
 <p><strong>Meishu-Sama:</strong> As formalidades budistas foram estabelecidas na Índia, tendo Shakyamuni como seu fundador. O budismo é passivo; se aprofundado em sua essência, conduz a uma vida de reclusão. Fala-se em igualdade entre os sexos, mas no budismo há um dito: “por fora, uma Bodhisattva; por dentro, uma yaksha feminina”. O budismo ascético das montanhas, como o de En no Gyoja, proibia a presença de mulheres, e só muito recentemente essa interdição foi suspensa. Tal é o seu grau de passividade, que o ato de bater palmas se torna dissonante.</p>
 <p>Yin — Morte — Caminho Búdico. Yang — Vida — Caminho Divino (Xintoísmo). Ao nascer, a criança é levada à deidade guardiã de sua terra natal. Esses pontos também se relacionam com o ato de bater palmas.</p>
 <p>Quanto ao sino, como o espírito pertence ao Mundo Búdico, dois toques são suficientes. No xintoísmo, também são dois. Não se manifesta o princípio de Miroku (Go-Roku-Shiti). (16 de outubro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第三篇 １ 001-014 祭式 001 御神体に幽世大神と唱える事 御浄霊の際、天津祝詞の後に五六七大御神守給へ幸倍へ給へ、惟神霊幸倍座せと申し上げて宜敷う御座いましょうか。<br/><br/>なお霊的のように思われますような場合には、幽世大神守給へ幸倍給へ、惟神霊幸倍座せと申し上げて宜敷う御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 御神体に向っては幽世大神は絶対にいけない。<br/><br/>五六七大御神の一部が幽世大神である。<br/><br/>幽世大神と唱えるのは五六七大御神を侮辱している事になる。<br/><br/>霊的の病人に向ってなら構わない。<br/><br/>（S25. 5.18） 002 御神体拝んで仏界へ通じるか 大光明如来様に善言讃詞、御讃歌を奏上すれば仏壇の方へは奏上しなくともよろしいと承りましたが、神界と違う仏界にいる先祖に、どうして通じるのでしょうか。<br/><br/> 観音様は神で仏でどっちへでも通ずる融通無碍で、融通菩薩の御名もある。<br/><br/>（S24. 6. 3） 003 御屏風御観音様と光明如来 先祖の御霊をお祭りするのに光明如来を御迎えし、一方仏壇に千手観音様を御迎えして先祖代々の位牌を御祭りする意味を御教え御願いします。<br/><br/> 同じ事で、お名前でお働きが違う。<br/><br/> 光の働きの時は光明如来。<br/><br/>種々な救いとか、悪魔の手にあったいろいろのものを取戻すのが千手観音のお働きである。<br/><br/>（S24. 9. 6） 004 御尊影と御神体の礼拝 一 私宅では大光明如来様の御尊像と同じく御書体とを奉斎しておりますが、床の間は一つしかありません。<br/><br/>この場合にはいずれをお掛けしてお祭りすべきものでしょうか。<br/><br/>しかしてお納めした一方を他にお掛けする適当な座敷が無い時は同一の座敷の違棚にお掛けしてもよろしいでしょうか。<br/><br/>または箱にお納めして床の間に置くべきでしょうか。<br/><br/> 二 私の家では朝礼に際し、大先生を神の前立としてまず大先生の御写真に向って御礼を申し述べてから大光明如来様を礼拝しておりますが、順序はそれでよろしいでしょうか。<br/><br/> 一、御書体の方を掛ける。<br/><br/> 二、大先生を後にする。<br/><br/>（S24.10. 5） 005 不時の際お願いの御称号 暴風雨や火事の時、御神前で祝詞を奏上させて頂きますにはみろくの大御神様に御願い申し上げるので御座いましょうか。<br/><br/>それとも祓戸四柱の大神様に御願い申し上げるので御座いますか。<br/><br/>またはみろくの大御神様と祓戸四柱の大神様ともに御願い申し上げるのがよろしゅう御座いますか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 直接の御守護ではなく、下の働きの神様にお願いすべきである。<br/><br/> 光明如来様にお願いすべき事である。<br/><br/>（S24. 9.12） 006 幽世大御神か幽世大神か 幽世大神と幽世大御神といずれを申し上げるので御座居ましょうか。<br/><br/>右御伺い申し上げます。<br/><br/> 大御神は最高の神になる。<br/><br/>大御神という要はない。<br/><br/>幽世大神でよい。<br/><br/>（S25. 3.18） rattail（注） 〔 御光話（S25年 3月18日） 『御光話録』19号、昭和25(1950)年6月13日発行〕掲載 〔 御光話（S23年 8月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/>〕 ――幽世大御神と幽世大神とどちらがよろしゅうございましょうか。<br/><br/> 『御は尊称ですから大神でも大御神でも同じですが、幽世大神でいいです。<br/><br/>「五六七」のときは御を入れ大御神がよい。<br/><br/>御を入れるのは五六七大御神と天照大御神のお二人だけでよろしい。<br/><br/>』 007 神・死者への礼節 お葬式に参列の後で用足しをしたり御墓参りをしてはいけないという理由。<br/><br/> お葬式とか婚礼とかは人生の重大な儀式であって、参列したらそのまま帰るのが死者に対する礼節である。<br/><br/>よく死穢といって、死者の傍へ寄ると、死者には汚れがあるから汚れるというが、これは大した事はない。<br/><br/> 礼節は大事な事で、教導師が他家へ浄霊に行くにも、他所へ寄って用足しして浄霊に行くと効果が薄い。<br/><br/>これは主客転倒であるからである。<br/><br/>これは用足しを後にすべきで、神様にお詣りするにもお詣りを先にする。<br/><br/>それから他の用を足すのは構わぬ。<br/><br/>それが神に対する礼である。<br/><br/>（S23.11. 1） rattail（注） 〔 妙智之光（地上天国５号） 、昭和24(1949)年6月25日発行〕掲載 008 冠婚葬祭と天候 冠婚葬祭の折の天候の良否はその人の御霊に関係がありましょうか。<br/><br/>また家屋の上棟式の場合の天候もその家屋との霊的な関係がありましょうか。<br/><br/> 冠婚葬祭は天気の良い方がよい。<br/><br/>上棟式は寧ろ降った方がよい。<br/><br/>私が箱根に行く時は必ず雨が降るし、熱海へ来る時は照る。<br/><br/>早雲寮の上棟式は猛雨であった。<br/><br/>箱根は火であり火は水によって強くなる。<br/><br/>（S23.11.22） 009 本教の冠婚葬祭式 本教団の信徒にて法要、葬式、結婚式をいたしますにはいかなる方法で致せばいいでしょうか。<br/><br/>御伺い致します。<br/><br/> 今迄通りでいい。<br/><br/>いずれは特別の方法が出来る。<br/><br/>（S24.11. 7） 010 冠婚葬祭の本教様式 いずれは形式を作るが、今の所坊主や神主に頼むとよい。<br/><br/>（S23） rattail（注） 〔 御垂示（S28年11月1日） 『御垂示録』26号、昭和28(1953)年11月15日発行〕 『いずれメシヤ会館のほうができてから冠婚葬祭のこともボツボツやるつもりです。<br/><br/>』 011 例祭日の早延、神定を乱す事 私は去る一月より開拓に出掛けたため、分会長先生の例祭を三月にして戴き四月二十六日に会長先生に例祭をして戴きましたところ、新しくて割目のないコップの底が抜け三宝の上に約二分程の厚さに水が拡がりましたが、同じ三宝にお祭りしてあります屏風観音様は全然濡れなかったのですが、何かお知らせでしょうか。<br/><br/> 定めた日より早くするのはいいが、遅くなるのはいけない。<br/><br/>そのためである。<br/><br/> すべて神仏に関係した事は、早くするのは良いが遅くするのはいけない。<br/><br/> 本当は早過ぎるのもいけない。<br/><br/>例祭と定めた日は必ず守らなくてはいけない。<br/><br/>絶対にその日と決めれば必ずそうなるものだ。<br/><br/>故障は起らぬ。<br/><br/>薄弱な考えは邪神に隙を与え、邪魔される。<br/><br/>固く決心する事である。<br/><br/> 屏風観音様は必ず仏壇へ入れねばならぬ。<br/><br/>決めた所へ祭らねばならぬ。<br/><br/> 神様が決められた事を人間が乱すのは、人間が上になる。<br/><br/> 神様の月次祭は、その日の場合、一日早くするのはいい。<br/><br/> rattai（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 012 祭日の延期 十月十日に私の村に徳山神社のお祭りがありましたが、雨のため十一日に延長され、十日には本殿の扉が開きましたのですが、十一には開こうとしても開かず明朝に至るもあかなかったのです。<br/><br/>何か霊的に関係があるものですか。<br/><br/> 大いにある。<br/><br/>十日のお祭りと決っているものは、雨でも風でも、今後絶対に実行しなくてはいけない。<br/><br/>九日にするのは構わぬ。<br/><br/>早いのはいいが延ばすのは非常に悪い。<br/><br/>霊界は非常にキチンとしていて、出鱈目は許さぬ。<br/><br/>（人間が延ばすと神様の仕事がおくれる。<br/><br/>人間と違い、神様の御仕事は規則正しい）御仕事がおくれると一日の狂いが十日も遅れる事になる。<br/><br/> 今後は絶対にせぬとお詫びすればよい。<br/><br/>（S23.10.17） 013 供物と器―白木と塗り 神様の御用のための三宝は塗り物でも宜しいのでしょうか。<br/><br/>右御教示御願申し上げます。<br/><br/> 三宝は、神様の場合は白木が本当である。<br/><br/>土器も素焼でなくてはいけない。<br/><br/>つまり、神様は極く古い時代、何千年前か何万年前人間の姿で現界に生れた事があるので――。<br/><br/> 霊界に長くいて、今以て人間として生れぬ神様がある。<br/><br/>そこでやはり神代時代に地上で生活した。<br/><br/>その時のやり方を知っている。<br/><br/>そういう意味から、どこまでも神代時代の器物を使うのである。<br/><br/> 必ずしもそれでなくてはならない事はないので、供物はすべて神様の方より人間の方で気持がよいという意味になる。<br/><br/> 仏の方はすべて塗ったものがいい。<br/><br/>三宝でも塗ったのがあるが、これは大黒様などには、これで上げるといい。<br/><br/> rattail（注） 〔 御光話（S23年 6月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年〕掲載 014 仏で拍手せぬ理 神前にては拍手致して参拝致しますが、仏前にては拍手をせず参拝致します。<br/><br/>その理由を御教示御願い致します。<br/><br/> また仏壇の鐘を二つ鳴らす意味を御説明御願い申し上げます。<br/><br/> 仏の形式は印度で出来た。<br/><br/>釈迦が元祖である。<br/><br/>仏というものは消極的で、仏教を徹底さすと隠遁生活になる。<br/><br/>男女同権というが、仏教では、外面女菩薩、内面女夜叉という。<br/><br/> 山岳仏教というのは（役の行者など）女人禁制で、最近漸く禁を解いて登った。<br/><br/>その位消極的であるから、拍手などは釣り合わぬ。<br/><br/> 陰―死―仏道。<br/><br/>陽―生―神道。<br/><br/> 生れた時は産土へ詣る。<br/><br/>そういう点が拍手にも関係する。<br/><br/> 鉦は、霊は仏界であるから、二つでいい。<br/><br/>神道でも二つ。<br/><br/> 五六七の体がない。<br/><br/>（S24.10.16）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

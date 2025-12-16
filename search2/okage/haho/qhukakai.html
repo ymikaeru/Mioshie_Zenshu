@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhukakai</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不可解な病状急変 生命を救う現実問題を 『救世』50号、昭和25(1950)年2月18日発行 岩手県 進々中教会 教導師 伊藤キス（45） 戦争もたけなわの、昭和十〔九〕年十二月二十六日、妹の結婚式当日、五歳になる私の養女（妹の次女で父親は昭和十五年に死亡）が急に頭が痛いと泣き出し、全く狂人のようになり、わめきさわいで、どうにもなりませんでした。<br><br>これは急性の脳膜炎ということは、一見して素人にもわかる病状でしたので、式の手伝の人々が大変心配して、医者を迎えに走って行きました。<br><br> 私は式の方には手伝もせず、ただ一すじに神様におすがりして、絶対大丈夫と思い、浄霊さして頂いておりましたら医者が見え、矢張り脳膜炎との診断で注射をして帰られました。<br><br> 間もなく急に静かになったので、頭に手を当ててみましたら、何んだかヒヤリと感じましたので、変だな、と思い脈をみましたら非常に不整です。<br><br>驚いて主人を呼び、心臓に手を当ててみますと、鼓動は結滞しております。<br><br>暫くたったら、段々冷たくなり、死相を呈して参りました。<br><br>もう呼吸もせず、脈もすっかり止ってしまいました。<br><br>手伝の人々も今はただ顔を見合わせて、オロオロするのみです。<br><br>自分一人では心許なく、約二十丁はなれた山崎先生のお宅に電話して御浄霊をお願いしましたところ早速かけつけられ、どうもあきらめるより外ない容体だが光明如来様におすがりしてやらして頂きましょうとおっしゃいましたので、先生と私と二人で一生懸命に浄霊さして頂き、主人もまたひたすらに光明如来様を念じつづけておりました。<br><br> やがて一時間半程して、やっと泣き出しましたので、居並ぶ人々も「ああ生きかえった、生きかえった」と大喜びで、ホッとして気がつきますと、十二月末の寒夜に先生も主人も私も上衣なしのシャツに、ビッショリと汗がにじんでおりました。<br><br> この時の感激は、とても筆舌にはつくし得ません。<br><br>全く光明如来様の御利益の偉大さにはただただ驚くばかりで、ああ助けて頂いた、御救の御手をさしのべて頂いた！ と思うと涙がとめどなく流れ、あたりに大勢の人々のいるのさえ打忘れる程でした。<br><br> この約一週間程前主人が、四年前になくなりましたこの子の父が来て、この子を貴殿にお願しておくわけには行かぬから、どうしても一緒に連れて行くと言い、主人は今更やることなどできぬと、はげしい口論をし、はては法にかけてもやらぬと争った夢をみたから、充分注意しているようにと申しておりました際に、このようなことが起きまして、やはり光明如来様が、妙智力でお知らせ賜ったのだと思い当り、妙智力の無限のお働きに、ただ驚嘆するばかりでありました。<br><br> この子は、生れ落ちたその日から私達の手で育てましたが、父親は、この御光を仰ぐ私達のことを理解できず、遂にはうらんでさえおりますうち、一年ほどして急死してしまいました。<br><br>これも矢張り神様の思召しによるものと私は信じております。<br><br> このようなわけで、私達に委ねていることが苦しくて、一緒につれて行こうとかかったものと思いますが、観音力の偉大な御救の前には流石頑固な死霊も、お浄めを頂いてこの子の傍をはなれ去ったものと存じます。<br><br>それを思うにつけて、まだ、この有難い御光に浴さぬ人に一日も早くわからせたいものと念願致しまして精進さして頂きたく存じおります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Súbita e Inexplicável Mudança na Condição da Doente (O Problema Real de Salvar uma Vida)</h2>
 <p><em>Publicado na revista “Kyusei”, nº 50, de 18 de fevereiro de 1950.</em>
@@ -100,5 +255,48 @@ function toggleLang(lang) {
 <p>Cerca de uma semana antes do ocorrido, meu esposo tivera um sonho revelador. Nele, o pai da criança, falecido quatro anos antes, aparecia e dizia que não poderia mais deixá-la aos nossos cuidados e que, por isso, a levaria consigo. Meu esposo, no sonho, discutiu veementemente com ele, afirmando que jamais permitiria tal coisa, e que lutaria até mesmo na justiça para impedi-lo. Em virtude desse sonho, ele me havia alertado para que ficasse extremamente atenta. Com o desenrolar dos fatos, compreendi que aquele sonho fora, na verdade, um aviso concedido por Komyō Nyorai (光明如来) por meio de Seu Myōchiryoku (妙智力), o Poder da Sabedoria. Diante da infinita manifestação desse poder, não me restava senão o mais profundo assombro.</p>
 <p>Criamos esta menina desde o seu nascimento. Contudo, seu pai jamais conseguiu compreender nossa devoção a esta Luz Divina, chegando a nutrir ressentimento por nossa fé. Cerca de um ano depois, ele veio a falecer subitamente. Creio firmemente que também isso se deu segundo a Vontade de Deus.</p>
 <p>Imagino, portanto, que o espírito de seu pai, atormentado por tê-la deixado sob nossa guarda, tenha tentado levá-la consigo. Todavia, diante da grandiosa salvação proporcionada pelo Poder de Kannon (観音), até mesmo um espírito obstinado como o dele foi purificado e, por fim, afastou-se de sua filha. Refletir sobre tais acontecimentos fortalece em mim o anseio de levar esta abençoada Luz Divina, o mais brevemente possível, àqueles que ainda não a conhecem. Por essa razão, desejo devotar-me ainda mais a este sagrado caminho.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不可解な病状急変 生命を救う現実問題を 『救世』50号、昭和25(1950)年2月18日発行 岩手県 進々中教会 教導師 伊藤キス（45） 戦争もたけなわの、昭和十〔九〕年十二月二十六日、妹の結婚式当日、五歳になる私の養女（妹の次女で父親は昭和十五年に死亡）が急に頭が痛いと泣き出し、全く狂人のようになり、わめきさわいで、どうにもなりませんでした。<br/><br/>これは急性の脳膜炎ということは、一見して素人にもわかる病状でしたので、式の手伝の人々が大変心配して、医者を迎えに走って行きました。<br/><br/> 私は式の方には手伝もせず、ただ一すじに神様におすがりして、絶対大丈夫と思い、浄霊さして頂いておりましたら医者が見え、矢張り脳膜炎との診断で注射をして帰られました。<br/><br/> 間もなく急に静かになったので、頭に手を当ててみましたら、何んだかヒヤリと感じましたので、変だな、と思い脈をみましたら非常に不整です。<br/><br/>驚いて主人を呼び、心臓に手を当ててみますと、鼓動は結滞しております。<br/><br/>暫くたったら、段々冷たくなり、死相を呈して参りました。<br/><br/>もう呼吸もせず、脈もすっかり止ってしまいました。<br/><br/>手伝の人々も今はただ顔を見合わせて、オロオロするのみです。<br/><br/>自分一人では心許なく、約二十丁はなれた山崎先生のお宅に電話して御浄霊をお願いしましたところ早速かけつけられ、どうもあきらめるより外ない容体だが光明如来様におすがりしてやらして頂きましょうとおっしゃいましたので、先生と私と二人で一生懸命に浄霊さして頂き、主人もまたひたすらに光明如来様を念じつづけておりました。<br/><br/> やがて一時間半程して、やっと泣き出しましたので、居並ぶ人々も「ああ生きかえった、生きかえった」と大喜びで、ホッとして気がつきますと、十二月末の寒夜に先生も主人も私も上衣なしのシャツに、ビッショリと汗がにじんでおりました。<br/><br/> この時の感激は、とても筆舌にはつくし得ません。<br/><br/>全く光明如来様の御利益の偉大さにはただただ驚くばかりで、ああ助けて頂いた、御救の御手をさしのべて頂いた！ と思うと涙がとめどなく流れ、あたりに大勢の人々のいるのさえ打忘れる程でした。<br/><br/> この約一週間程前主人が、四年前になくなりましたこの子の父が来て、この子を貴殿にお願しておくわけには行かぬから、どうしても一緒に連れて行くと言い、主人は今更やることなどできぬと、はげしい口論をし、はては法にかけてもやらぬと争った夢をみたから、充分注意しているようにと申しておりました際に、このようなことが起きまして、やはり光明如来様が、妙智力でお知らせ賜ったのだと思い当り、妙智力の無限のお働きに、ただ驚嘆するばかりでありました。<br/><br/> この子は、生れ落ちたその日から私達の手で育てましたが、父親は、この御光を仰ぐ私達のことを理解できず、遂にはうらんでさえおりますうち、一年ほどして急死してしまいました。<br/><br/>これも矢張り神様の思召しによるものと私は信じております。<br/><br/> このようなわけで、私達に委ねていることが苦しくて、一緒につれて行こうとかかったものと思いますが、観音力の偉大な御救の前には流石頑固な死霊も、お浄めを頂いてこの子の傍をはなれ去ったものと存じます。<br/><br/>それを思うにつけて、まだ、この有難い御光に浴さぬ人に一日も早くわからせたいものと念願致しまして精進さして頂きたく存じおります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

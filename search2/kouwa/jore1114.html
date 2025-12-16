@@ -1,131 +1,280 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>jore1114</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#EFFFE6">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>jore1114</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （上） ７ 114-131 異常 114 実子浄霊で欠伸 嫁を浄霊します時は別に何でもありませんのに、実子（嫁の夫ではなく）を浄霊しますときは欠伸が沢山出ますが、いかなる訳でございましょうか。<br><br> 欠伸は毒素の霊である。<br><br>非常にいい。<br><br>曇りが排泄さるる場合――。<br><br> 術者が欠伸の出るのは――。<br><br> 霊線の伝わっているのは――、息子の霊線を伝わって浄まる訳である。<br><br>親子は霊線が続いているから伝わって出る。<br><br>欠伸も同じようなものである。<br><br>これは噴門から出る。<br><br>毒素は一旦必ず一個所へ集まる。<br><br>（S24. 2.24） 115 夫の浄霊せるを自宅で知る妻 三輪善龍さんという信者（真宗の住職）が、自宅外で御浄霊致しますと、留守番の奥さんが間違いなく主人が御浄霊した事を知っておりますし、入信以来お寺の仏壇などを少しも掃除をせず、お祭りもして御座いませんでしたので、気にかかって一度大掃除をしてお経をあげましたところ、その翌日から四十度に近い発熱が続きましたが、不思議に苦しみが御座いません。<br><br>四日後全快致しましたところ、その後奥さんは主人が外で御浄霊致しました事がわからなくなりました。<br><br>これはいかなる訳で御座いましょうか。<br><br> 夫婦は最も太い霊線が通じているから敏感の人は判る。<br><br>熱で死んだ霊が憑った。<br><br>（救われたいために）いくらか主人が霊の曇りを引受けたので判らなくなったのである。<br><br>（S25. 1.11） 116 水の霊気の二作用 水の霊気で治病する人は患者の罪を洗うともお聞きし、また「明日の医術」には固めだともお書きになっておられますが、どう解したら宜しいでしょうか。<br><br>右、御教示の程御願い申し上げます。<br><br> 両方の力である。<br><br>水系の人は背負う。<br><br> 浄霊法は火の働き。<br><br>水系の人やってる引受けるのは少ない。<br><br>人の道など引受けるのが多い。<br><br>御木徳一が振替えたのを神に振替えてもらう。<br><br>神がまた月の系統である。<br><br>曇りの物質化は毒素で、キリストは浄化法でない。<br><br>引受ける一番の親玉はキリストで、万人の罪を引受けた。<br><br>キリストは霊の憑いたもの（邪霊）を除るやり方であるから早い。<br><br>贖罪療法である。<br><br> 金田徳光は徳光教、病気を引受ける位沢山あった。<br><br>浄霊法は火で燃やすから益々身体はよくなる。<br><br> 117 心霊療法 世間一般に言われます心霊療法はやはり固め療法だと申されましたが、それ等はラジウムのような放射性能を持つものでしょうか、お伺い申し上げます。<br><br> そういってもよい。<br><br> 水の精は固める方で、冷える方の霊である。<br><br>熱の精は溶かす方で、これは今迄初めてである。<br><br> 心霊療法はラジウムの極く上等のものである。<br><br>（S25. 2.23） 118 患者の苦痛映る 肺結核、腹膜炎、脊椎カリエス等、重病患者を浄霊する時、必ず自分が患者の苦しい部分と同じような苦しみを感じますが、自分の体が先に浄化を頂くので御座居ましょうか。<br><br>それとも、多少自分の曇りのある中は伝わるのでしょうか。<br><br>この頃それが強く感じます。<br><br>どんな真因ですか。<br><br>お伺い致します。<br><br> 身代りになるのである。<br><br> 今迄の治し方は全部月の治し方であった。<br><br>その親玉はキリストである。<br><br>（S24. 9. 5） 119 月系統人の浄霊 月の系統の人が御教修を頂いて御浄霊致します場合、それは日の系統の人より治病効果は薄いので御座いましょうか。<br><br>またそれは冷却による固め療法となるものなのでしょうか。<br><br> 先方の病気をこちらへ写して治すのは月の系統である。<br><br>日は焼けて、水は洗濯と同じである。<br><br>メシヤ教信者はそのような必要はない。<br><br>（S25. 5.13） 120 病苦写る 入信者の婦人、百日咳の子供を抱きますとゲップが出て子供の咳は止まり、すやすや眠ります。<br><br>また、他家の山羊が苦しんで頭を振っておりましたが、その前を見て通りますと頭が痛くなり、山羊は間もなく治ったそうで御座います。<br><br>重病人を御浄霊致しますと、後半日位苦痛で床につきますので思うように御浄霊が出来ません。<br><br>どう致しますれば宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 先方の病気をうつすのである。<br><br>月の系統の人は病気を水で洗うため、汚いものは自分に来る。<br><br> 今度は火で焼くのである。<br><br>一時的で、始終やっているうち治ってくる。<br><br>普通浄霊のようになる。<br><br>（S24.10.11） 121 患部の反映 本年三十五歳、教導師で大光明の御光を拝受している者、他人を浄霊していると相手の患部が全部自分に反映するよう申しますが、いかなる理由によるのでしょうか。<br><br>御教示願います。<br><br> そう長くはない。<br><br>段々普通になるから、そのままにせよ。<br><br>（S *. 7. 8） 122 局部的身代り 佐田正夫と申す信者が黄疸と腹膜炎の患者の御浄霊に行き、その家族の人に教修をお勧め致しました刹那、火鉢の火の粉が飛んで腹に火傷致しましたが着物もシャツも焼けておりませんでした。<br><br>これは何か霊的に意味が御座いましょうか。<br><br>お伺い申し上げます。<br><br> （その人を助けるべき理由があり）局部的に身代りしなくてはならぬ訳があるのである。<br><br>（S25. 5. 1） 123 浄霊を行うとゲップ出る人 御浄霊さして戴く時ゲップが出る人が、御浄霊を戴く時にはゲップが出ません。<br><br>これはいかなる訳で御座いましょうか。<br><br> 先方の病気を引き受ける。<br><br>月の系統の人である。<br><br>月の精気が残っている。<br><br>すると引受ける。<br><br>始終ゲップが出るとだんだんよくなる。<br><br>（S24. 7. 2） 124 浄霊すると欠伸出づ 御浄霊を受けている時は欠伸やゲップが出ませんが、御浄霊をさせていただきますと欠伸やゲップが出る人が御座いますが、いかなる理由で御座いますか。<br><br>御教えお願い致します。<br><br> 病気を引受けるのである。<br><br>水系の人である。<br><br>（S24. 5.22） 125 浄霊の手熱くなる 患者を浄霊中に自分の手が暖かくなります。<br><br>いつもではありませんが、時々感ずるのはどう言う訳でありましょうか。<br><br> こうなるのは当り前である。<br><br>火素が出るのである。<br><br>暖かくなる程いい。<br><br>とても熱くなる。<br><br> 126 浄霊の手の温冷 御浄霊を致します時、浄霊者の掌が暖かくなる人と冷たくなる人がありますが、いかなる訳でしょうか。<br><br>御伺い申します。<br><br> 暖かくなるのが本当である。<br><br>月の系統の人は最初は冷たいが、ある時期へ行くと暖かくなる。<br><br>冷たいのはある期間だけである。<br><br>（S24. 6. 7） 127 浄霊の手冷感 浄霊していると自分の掌が冷たくなる人がありますが、いかなる訳でしょうか。<br><br> 暖かくなるべきものである。<br><br>これは月の系統の人である。<br><br>今迄は月の霊気で治った。<br><br>それで冷たくなるのが本当だった。<br><br>こういう人は月の霊気が多分に残っている人で、月の霊気では自分が病気を引受ける事になる。<br><br>（S24. 1. 7） 128 浄霊の手の温冷 浄霊中に手先の方が温かくなるのと冷たくなるのとありますが、いかなる理由でしょうか。<br><br>御教え願います。<br><br> 暖かくなるのが本当である。<br><br>水の系統の人でも、浄霊するうち、暖かくなる。<br><br>（S24. 2.27） 129 浄霊の手冷たくなる 私は最近御浄霊を致します時に手が大変に冷たくなるのです。<br><br>以前は大変温かくなったのですが、これはいかなる訳で御座居ますか。<br><br> これは逆である。<br><br>暖かくなるのが本当である。<br><br>やはり未だ毒があるからで、毒の性質により冷たくなるのと暖かくなるのとがある。<br><br>今に暖かくなる。<br><br>（S25. 1.27） 130 浄霊の手熱くなる 腰の神経痛患者の頭部を浄霊していますと浄霊者の手が熱くなります。<br><br>その訳を伺います。<br><br> 手が熱くなるのは御光による。<br><br>非常にいいのだから続けてやるとよい。<br><br> 131 浄霊の手の温感 御浄霊の際相手方の患部に手が向った時掌に異状な温か味を感ずるようになりました。<br><br>例えば七月十五日、六人一度に御浄霊に従事の際、頭部及び腰部を浄霊中、特に掌が温かく感じましたので確かめて見ますと、一人は頭痛あり一人は腰痛のあることがわかりました。<br><br>時により感度が異るようです。<br><br>いかなる理由でしょうか。<br><br>御伺い申し上げます。<br><br> 温かくなるのが本当である。<br><br>感受性の強い人はいろいろある。<br><br>（S24. 7.27）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>Coletânea de Teses do Mestre Okada Jikanshi – Volume Johrei (Parte I) – Capítulo 7: Manifestações
+<h2>Coletânea de Teses do Mestre Okada Jikanshi – Volume Johrei (Parte I) – Capítulo 7: Manifestações
                 Incomuns (114-131)</h2>
-            <p><strong>114. Bocejos ao ministrar Johrei ao próprio filho</strong></p>
-            <p><strong>Pergunta:</strong> Quando ministro Johrei à minha nora, não sinto absolutamente nada. Contudo, ao
+<p><strong>114. Bocejos ao ministrar Johrei ao próprio filho</strong></p>
+<p><strong>Pergunta:</strong> Quando ministro Johrei à minha nora, não sinto absolutamente nada. Contudo, ao
                 ministrar ao meu próprio filho, que não é o marido dela, sou tomado por inúmeros bocejos. Qual seria a
                 razão para tal fenômeno?</p>
-            <p><strong>Resposta:</strong> O bocejo é a manifestação espiritual da toxina, sendo um excelente sinal de
+<p><strong>Resposta:</strong> O bocejo é a manifestação espiritual da toxina, sendo um excelente sinal de
                 que as máculas estão sendo expelidas. O fato de o ministrante bocejar indica que a linha espiritual está
                 conectada e que o filho está sendo purificado através dessa conexão. Visto que pais e filhos estão
                 unidos por uma linha espiritual contínua, a purificação se transmite por ela, manifestando-se
                 fisicamente. O bocejo é um desses reflexos, originando-se no cárdia. As toxinas invariavelmente se
                 concentram em um único local antes de serem eliminadas. (24 de fevereiro de 1949)</p>
-            <p><strong>115. Esposa que pressente o Johrei ministrado pelo marido à distância</strong></p>
-            <p><strong>Pergunta:</strong> Um fiel chamado Miwa Zenryu, que é sacerdote da seita Shinshu, relata que,
+<p><strong>115. Esposa que pressente o Johrei ministrado pelo marido à distância</strong></p>
+<p><strong>Pergunta:</strong> Um fiel chamado Miwa Zenryu, que é sacerdote da seita Shinshu, relata que,
                 quando ministra Johrei fora de casa, sua esposa, que permanece no lar, percebe infalivelmente o ato.
                 Ademais, desde que ingressou na Fé, ela havia negligenciado a limpeza do altar budista do templo e a
                 realização dos rituais. Preocupada com a situação, certo dia realizou uma grande limpeza e entoou os
@@ -133,15 +282,15 @@ function toggleLang(lang) {
                 curiosamente, não sentisse sofrimento algum. Após se recuperar completamente em quatro dias, ela perdeu
                 a capacidade de sentir quando seu marido ministrava Johrei fora de casa. Qual a explicação para o
                 ocorrido?</p>
-            <p><strong>Resposta:</strong> Cônjuges são unidos pela mais forte das linhas espirituais; por essa razão,
+<p><strong>Resposta:</strong> Cônjuges são unidos pela mais forte das linhas espirituais; por essa razão,
                 pessoas sensíveis conseguem ter essa percepção. No caso em questão, um espírito que morreu de febre
                 apossou-se dela com o intuito de ser salvo. O marido acabou por absorver parte das máculas desse
                 espírito e, consequentemente, a sensibilidade de sua esposa foi obstruída. (11 de janeiro de 1950)</p>
-            <p><strong>116. A dupla ação da energia espiritual do elemento Água</strong></p>
-            <p><strong>Pergunta:</strong> Ouvi dizer que a cura por meio da energia espiritual do elemento Água purifica
+<p><strong>116. A dupla ação da energia espiritual do elemento Água</strong></p>
+<p><strong>Pergunta:</strong> Ouvi dizer que a cura por meio da energia espiritual do elemento Água purifica
                 os pecados do paciente. Todavia, no livro “Ashita no Ijutsu”, o senhor escreveu que ela atua pela
                 solidificação. Como devo conciliar essas duas explicações? Rogo que me esclareça.</p>
-            <p><strong>Resposta:</strong> Ambas as forças estão presentes. As pessoas do tipo Água tendem a assumir o
+<p><strong>Resposta:</strong> Ambas as forças estão presentes. As pessoas do tipo Água tendem a assumir o
                 fardo das impurezas alheias. O Johrei, por sua vez, é uma atuação do elemento Fogo. Aqueles do tipo Água
                 que o ministram absorvem menos as impurezas do paciente, mas tendem a absorver máculas relacionadas a
                 desvios da conduta humana. Miki Tokuharu transferia as impurezas para si, rogando a Deus que as
@@ -152,108 +301,150 @@ function toggleLang(lang) {
                 redenção. Kaneda Tokumitsu, da Tokumitsu-kyo, também possuía grande capacidade de absorver as doenças
                 alheias. O Johrei, ao contrário, queima as impurezas com o Fogo Divino, e por isso o corpo se fortalece
                 progressivamente.</p>
-            <p><strong>117. Terapia espiritual</strong></p>
-            <p><strong>Pergunta:</strong> O senhor mencionou que as terapias espirituais comuns são, na verdade, métodos
+<p><strong>117. Terapia espiritual</strong></p>
+<p><strong>Pergunta:</strong> O senhor mencionou que as terapias espirituais comuns são, na verdade, métodos
                 de solidificação. Elas possuiriam propriedades radioativas, análogas às do rádio?</p>
-            <p><strong>Resposta:</strong> Pode-se dizer que sim. A essência do elemento Água atua pela solidificação; é
+<p><strong>Resposta:</strong> Pode-se dizer que sim. A essência do elemento Água atua pela solidificação; é
                 o espírito que resfria. A essência do calor, por outro lado, atua pela dissolução, e esta é a primeira
                 vez que se manifesta na história. As terapias espirituais podem ser consideradas uma forma extremamente
                 elevada de radioatividade, como a do rádio. (23 de fevereiro de 1950)</p>
-            <p><strong>118. Reflexo do sofrimento do paciente</strong></p>
-            <p><strong>Pergunta:</strong> Ao ministrar Johrei a pacientes em estado grave, como os que sofrem de
+<p><strong>118. Reflexo do sofrimento do paciente</strong></p>
+<p><strong>Pergunta:</strong> Ao ministrar Johrei a pacientes em estado grave, como os que sofrem de
                 tuberculose, peritonite ou cárie espinhal, invariavelmente sinto um sofrimento análogo nas mesmas partes
                 do meu corpo. Seria um sinal de que meu próprio corpo está recebendo purificação primeiro? Ou essa
                 transmissão ocorre enquanto eu ainda possuir alguma mácula? Ultimamente, tenho sentido essa manifestação
                 com grande intensidade. Qual é a sua causa primordial?</p>
-            <p><strong>Resposta:</strong> Isso ocorre porque você está se tornando um substituto do sofrimento alheio.
+<p><strong>Resposta:</strong> Isso ocorre porque você está se tornando um substituto do sofrimento alheio.
                 Até hoje, todos os métodos de cura pertenciam à linhagem da Lua. O maior expoente dessa linhagem é
                 Cristo. (5 de setembro de 1949)</p>
-            <p><strong>119. O Johrei ministrado por pessoas da linhagem da Lua</strong></p>
-            <p><strong>Pergunta:</strong> Quando uma pessoa da linhagem da Lua recebe a devida formação e passa a
+<p><strong>119. O Johrei ministrado por pessoas da linhagem da Lua</strong></p>
+<p><strong>Pergunta:</strong> Quando uma pessoa da linhagem da Lua recebe a devida formação e passa a
                 ministrar Johrei, o efeito curativo é inferior ao de uma pessoa da linhagem do Sol? Ademais, sua prática
                 se converte em uma terapia de solidificação por resfriamento?</p>
-            <p><strong>Resposta:</strong> O método de transferir a doença do próximo para si a fim de curá-la pertence à
+<p><strong>Resposta:</strong> O método de transferir a doença do próximo para si a fim de curá-la pertence à
                 linhagem da Lua. O Sol queima, enquanto a Água atua como uma lavagem. Os membros da Igreja Messiânica
                 não têm necessidade de recorrer a tal método. (13 de maio de 1950)</p>
-            <p><strong>120. Transferência do sofrimento</strong></p>
-            <p><strong>Pergunta:</strong> Uma fiel relata que, ao segurar uma criança com coqueluche, começa a arrotar;
+<p><strong>120. Transferência do sofrimento</strong></p>
+<p><strong>Pergunta:</strong> Uma fiel relata que, ao segurar uma criança com coqueluche, começa a arrotar;
                 a tosse da criança cessa e ela adormece tranquilamente. Em outra ocasião, ao passar por uma cabra de
                 outra família que sofria e balançava a cabeça, sentiu uma forte dor de cabeça, e o animal, segundo
                 relatos, curou-se logo em seguida. Quando ministra Johrei a pessoas gravemente enfermas, ela fica
                 prostrada pela dor por cerca de meio dia, o que a impede de servir como gostaria. O que ela deve fazer?
                 Rogo seu Ensinamento.</p>
-            <p><strong>Resposta:</strong> Ela está transferindo a doença do outro para si. As pessoas da linhagem da Lua
+<p><strong>Resposta:</strong> Ela está transferindo a doença do outro para si. As pessoas da linhagem da Lua
                 purificam as doenças com água; por isso, a impureza se transfere para elas. Nosso método, no entanto,
                 consiste em queimar com o fogo. Trata-se de um fenômeno temporário. Com a prática contínua, essa
                 tendência diminuirá, e seu Johrei se tornará como o dos demais. (11 de outubro de 1949)</p>
-            <p><strong>121. Reflexo da parte afetada</strong></p>
-            <p><strong>Pergunta:</strong> Um Kyodoshi de trinta e cinco anos, outorgado com o Ohikari de Daikomyo,
+<p><strong>121. Reflexo da parte afetada</strong></p>
+<p><strong>Pergunta:</strong> Um Kyodoshi de trinta e cinco anos, outorgado com o Ohikari de Daikomyo,
                 relata que, ao ministrar Johrei, todos os males do paciente se refletem em seu próprio corpo. Qual seria
                 a razão para tal fenômeno?</p>
-            <p><strong>Resposta:</strong> Isso não perdurará por muito tempo. Gradualmente, a situação se normalizará;
+<p><strong>Resposta:</strong> Isso não perdurará por muito tempo. Gradualmente, a situação se normalizará;
                 portanto, ele deve prosseguir sem alterações. (8 de julho)</p>
-            <p><strong>122. Substituição parcial</strong></p>
-            <p><strong>Pergunta:</strong> Um fiel chamado Sada Masao foi ministrar Johrei a um paciente com icterícia e
+<p><strong>122. Substituição parcial</strong></p>
+<p><strong>Pergunta:</strong> Um fiel chamado Sada Masao foi ministrar Johrei a um paciente com icterícia e
                 peritonite. No exato momento em que recomendava à família que recebesse a formação religiosa, uma
                 centelha saltou do braseiro e causou-lhe uma queimadura no abdômen, embora suas roupas e sua camisa
                 permanecessem intactas. Haveria algum significado espiritual nesse acontecimento?</p>
-            <p><strong>Resposta:</strong> Havia uma razão pela qual aquela pessoa deveria ser salva, e, para tanto, foi
+<p><strong>Resposta:</strong> Havia uma razão pela qual aquela pessoa deveria ser salva, e, para tanto, foi
                 necessário que ocorresse uma substituição parcial e localizada. (1 de maio de 1950)</p>
-            <p><strong>123. Pessoa que arrota ao ministrar Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Há uma pessoa que arrota ao ministrar Johrei, mas não arrota quando o recebe.
+<p><strong>123. Pessoa que arrota ao ministrar Johrei</strong></p>
+<p><strong>Pergunta:</strong> Há uma pessoa que arrota ao ministrar Johrei, mas não arrota quando o recebe.
                 Qual a razão para isso?</p>
-            <p><strong>Resposta:</strong> Ela está absorvendo a doença do próximo. Trata-se de uma pessoa da linhagem da
+<p><strong>Resposta:</strong> Ela está absorvendo a doença do próximo. Trata-se de uma pessoa da linhagem da
                 Lua, que ainda possui resquícios da energia espiritual lunar. É por isso que absorve as impurezas. Com a
                 manifestação contínua do arroto, sua condição melhorará gradualmente. (2 de julho de 1949)</p>
-            <p><strong>124. Bocejos ao ministrar Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Há pessoas que não bocejam nem arrotam ao receber Johrei, mas o fazem ao
+<p><strong>124. Bocejos ao ministrar Johrei</strong></p>
+<p><strong>Pergunta:</strong> Há pessoas que não bocejam nem arrotam ao receber Johrei, mas o fazem ao
                 ministrá-lo. Qual seria o motivo?</p>
-            <p><strong>Resposta:</strong> Elas estão absorvendo a doença. São pessoas do tipo Água. (22 de maio de 1949)
+<p><strong>Resposta:</strong> Elas estão absorvendo a doença. São pessoas do tipo Água. (22 de maio de 1949)
             </p>
-            <p><strong>125. Aquecimento da mão durante o Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Durante a ministração de Johrei, minha mão se aquece. Isso não ocorre sempre,
+<p><strong>125. Aquecimento da mão durante o Johrei</strong></p>
+<p><strong>Pergunta:</strong> Durante a ministração de Johrei, minha mão se aquece. Isso não ocorre sempre,
                 mas o que significa quando o sinto?</p>
-            <p><strong>Resposta:</strong> Esse é o processo natural. Significa que o elemento Fogo está sendo emanado.
+<p><strong>Resposta:</strong> Esse é o processo natural. Significa que o elemento Fogo está sendo emanado.
                 Quanto mais quente, melhor. A mão pode chegar a ficar muito quente.</p>
-            <p><strong>126. Mãos quentes e frias durante o Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Ao ministrar Johrei, a palma da mão de alguns ministrantes se aquece, enquanto
+<p><strong>126. Mãos quentes e frias durante o Johrei</strong></p>
+<p><strong>Pergunta:</strong> Ao ministrar Johrei, a palma da mão de alguns ministrantes se aquece, enquanto
                 a de outros esfria. Qual é a razão dessa diferença?</p>
-            <p><strong>Resposta:</strong> O aquecimento é a manifestação correta. No caso das pessoas da linhagem da
+<p><strong>Resposta:</strong> O aquecimento é a manifestação correta. No caso das pessoas da linhagem da
                 Lua, a mão inicialmente fica fria, mas, ao atingirem determinado estágio, passa a se aquecer. A frieza
                 é, portanto, um fenômeno passageiro. (7 de junho de 1949)</p>
-            <p><strong>127. Sensação de frio na mão que ministra Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Há pessoas cuja palma da mão esfria ao ministrar Johrei. Qual seria o motivo?
+<p><strong>127. Sensação de frio na mão que ministra Johrei</strong></p>
+<p><strong>Pergunta:</strong> Há pessoas cuja palma da mão esfria ao ministrar Johrei. Qual seria o motivo?
             </p>
-            <p><strong>Resposta:</strong> O correto é que a mão se aqueça. Isso ocorre com pessoas da linhagem da Lua.
+<p><strong>Resposta:</strong> O correto é que a mão se aqueça. Isso ocorre com pessoas da linhagem da Lua.
                 Até hoje, a cura se dava pela energia espiritual lunar. Naquela época, portanto, o esfriamento da mão
                 era a manifestação correta. Pessoas que apresentam esse fenômeno ainda possuem um resquício considerável
                 da energia lunar, a qual tem por característica fazer com que o ministrante absorva a doença. (7 de
                 janeiro de 1949)</p>
-            <p><strong>128. Oscilação de temperatura na mão que ministra Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Durante o Johrei, por que a ponta dos dedos ora se aquece, ora se esfria?</p>
-            <p><strong>Resposta:</strong> O aquecimento é a manifestação correta. Mesmo no caso das pessoas do tipo
+<p><strong>128. Oscilação de temperatura na mão que ministra Johrei</strong></p>
+<p><strong>Pergunta:</strong> Durante o Johrei, por que a ponta dos dedos ora se aquece, ora se esfria?</p>
+<p><strong>Resposta:</strong> O aquecimento é a manifestação correta. Mesmo no caso das pessoas do tipo
                 Água, com a prática contínua do Johrei, suas mãos passarão a se aquecer. (27 de fevereiro de 1949)</p>
-            <p><strong>129. Mão que se torna fria ao ministrar Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Ultimamente, ao ministrar Johrei, minhas mãos têm ficado extremamente frias.
+<p><strong>129. Mão que se torna fria ao ministrar Johrei</strong></p>
+<p><strong>Pergunta:</strong> Ultimamente, ao ministrar Johrei, minhas mãos têm ficado extremamente frias.
                 Antes, elas se aqueciam bastante. Qual seria a razão dessa mudança?</p>
-            <p><strong>Resposta:</strong> Trata-se de uma inversão. O correto é que se aqueçam. Isso se deve ao fato de
+<p><strong>Resposta:</strong> Trata-se de uma inversão. O correto é que se aqueçam. Isso se deve ao fato de
                 você ainda possuir toxinas; dependendo da natureza delas, a mão pode tanto esfriar como aquecer. Com o
                 tempo, ela voltará a se aquecer. (27 de janeiro de 1950)</p>
-            <p><strong>130. Aquecimento da mão que ministra Johrei</strong></p>
-            <p><strong>Pergunta:</strong> Ao ministrar Johrei na cabeça de um paciente com dor ciática, minha mão se
+<p><strong>130. Aquecimento da mão que ministra Johrei</strong></p>
+<p><strong>Pergunta:</strong> Ao ministrar Johrei na cabeça de um paciente com dor ciática, minha mão se
                 torna quente. Qual a razão disso?</p>
-            <p><strong>Resposta:</strong> O aquecimento da mão provém da Luz Divina. É um excelente sinal, e, portanto,
+<p><strong>Resposta:</strong> O aquecimento da mão provém da Luz Divina. É um excelente sinal, e, portanto,
                 você deve prosseguir.</p>
-            <p><strong>131. Sensação de calor na palma da mão</strong></p>
-            <p><strong>Pergunta:</strong> Passei a sentir um calor incomum na palma da mão quando a direciono à parte
+<p><strong>131. Sensação de calor na palma da mão</strong></p>
+<p><strong>Pergunta:</strong> Passei a sentir um calor incomum na palma da mão quando a direciono à parte
                 afetada do paciente durante o Johrei. Por exemplo, no dia 15 de julho, enquanto ministrava Johrei a seis
                 pessoas simultaneamente, senti um calor especial na palma da mão ao focar na cabeça e na região lombar.
                 Ao verificar, constatei que uma delas sofria de dor de cabeça e outra, de dor lombar. Aparentemente, a
                 sensibilidade varia conforme a ocasião. Qual seria a razão para isso?</p>
-            <p><strong>Resposta:</strong> O aquecimento é a manifestação correta. Pessoas de grande sensibilidade podem
+<p><strong>Resposta:</strong> O aquecimento é a manifestação correta. Pessoas de grande sensibilidade podem
                 perceber uma variedade de fenômenos. (27 de julho de 1949)</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊篇 （上） ７ 114-131 異常 114 実子浄霊で欠伸 嫁を浄霊します時は別に何でもありませんのに、実子（嫁の夫ではなく）を浄霊しますときは欠伸が沢山出ますが、いかなる訳でございましょうか。<br/><br/> 欠伸は毒素の霊である。<br/><br/>非常にいい。<br/><br/>曇りが排泄さるる場合――。<br/><br/> 術者が欠伸の出るのは――。<br/><br/> 霊線の伝わっているのは――、息子の霊線を伝わって浄まる訳である。<br/><br/>親子は霊線が続いているから伝わって出る。<br/><br/>欠伸も同じようなものである。<br/><br/>これは噴門から出る。<br/><br/>毒素は一旦必ず一個所へ集まる。<br/><br/>（S24. 2.24） 115 夫の浄霊せるを自宅で知る妻 三輪善龍さんという信者（真宗の住職）が、自宅外で御浄霊致しますと、留守番の奥さんが間違いなく主人が御浄霊した事を知っておりますし、入信以来お寺の仏壇などを少しも掃除をせず、お祭りもして御座いませんでしたので、気にかかって一度大掃除をしてお経をあげましたところ、その翌日から四十度に近い発熱が続きましたが、不思議に苦しみが御座いません。<br/><br/>四日後全快致しましたところ、その後奥さんは主人が外で御浄霊致しました事がわからなくなりました。<br/><br/>これはいかなる訳で御座いましょうか。<br/><br/> 夫婦は最も太い霊線が通じているから敏感の人は判る。<br/><br/>熱で死んだ霊が憑った。<br/><br/>（救われたいために）いくらか主人が霊の曇りを引受けたので判らなくなったのである。<br/><br/>（S25. 1.11） 116 水の霊気の二作用 水の霊気で治病する人は患者の罪を洗うともお聞きし、また「明日の医術」には固めだともお書きになっておられますが、どう解したら宜しいでしょうか。<br/><br/>右、御教示の程御願い申し上げます。<br/><br/> 両方の力である。<br/><br/>水系の人は背負う。<br/><br/> 浄霊法は火の働き。<br/><br/>水系の人やってる引受けるのは少ない。<br/><br/>人の道など引受けるのが多い。<br/><br/>御木徳一が振替えたのを神に振替えてもらう。<br/><br/>神がまた月の系統である。<br/><br/>曇りの物質化は毒素で、キリストは浄化法でない。<br/><br/>引受ける一番の親玉はキリストで、万人の罪を引受けた。<br/><br/>キリストは霊の憑いたもの（邪霊）を除るやり方であるから早い。<br/><br/>贖罪療法である。<br/><br/> 金田徳光は徳光教、病気を引受ける位沢山あった。<br/><br/>浄霊法は火で燃やすから益々身体はよくなる。<br/><br/> 117 心霊療法 世間一般に言われます心霊療法はやはり固め療法だと申されましたが、それ等はラジウムのような放射性能を持つものでしょうか、お伺い申し上げます。<br/><br/> そういってもよい。<br/><br/> 水の精は固める方で、冷える方の霊である。<br/><br/>熱の精は溶かす方で、これは今迄初めてである。<br/><br/> 心霊療法はラジウムの極く上等のものである。<br/><br/>（S25. 2.23） 118 患者の苦痛映る 肺結核、腹膜炎、脊椎カリエス等、重病患者を浄霊する時、必ず自分が患者の苦しい部分と同じような苦しみを感じますが、自分の体が先に浄化を頂くので御座居ましょうか。<br/><br/>それとも、多少自分の曇りのある中は伝わるのでしょうか。<br/><br/>この頃それが強く感じます。<br/><br/>どんな真因ですか。<br/><br/>お伺い致します。<br/><br/> 身代りになるのである。<br/><br/> 今迄の治し方は全部月の治し方であった。<br/><br/>その親玉はキリストである。<br/><br/>（S24. 9. 5） 119 月系統人の浄霊 月の系統の人が御教修を頂いて御浄霊致します場合、それは日の系統の人より治病効果は薄いので御座いましょうか。<br/><br/>またそれは冷却による固め療法となるものなのでしょうか。<br/><br/> 先方の病気をこちらへ写して治すのは月の系統である。<br/><br/>日は焼けて、水は洗濯と同じである。<br/><br/>メシヤ教信者はそのような必要はない。<br/><br/>（S25. 5.13） 120 病苦写る 入信者の婦人、百日咳の子供を抱きますとゲップが出て子供の咳は止まり、すやすや眠ります。<br/><br/>また、他家の山羊が苦しんで頭を振っておりましたが、その前を見て通りますと頭が痛くなり、山羊は間もなく治ったそうで御座います。<br/><br/>重病人を御浄霊致しますと、後半日位苦痛で床につきますので思うように御浄霊が出来ません。<br/><br/>どう致しますれば宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 先方の病気をうつすのである。<br/><br/>月の系統の人は病気を水で洗うため、汚いものは自分に来る。<br/><br/> 今度は火で焼くのである。<br/><br/>一時的で、始終やっているうち治ってくる。<br/><br/>普通浄霊のようになる。<br/><br/>（S24.10.11） 121 患部の反映 本年三十五歳、教導師で大光明の御光を拝受している者、他人を浄霊していると相手の患部が全部自分に反映するよう申しますが、いかなる理由によるのでしょうか。<br/><br/>御教示願います。<br/><br/> そう長くはない。<br/><br/>段々普通になるから、そのままにせよ。<br/><br/>（S *. 7. 8） 122 局部的身代り 佐田正夫と申す信者が黄疸と腹膜炎の患者の御浄霊に行き、その家族の人に教修をお勧め致しました刹那、火鉢の火の粉が飛んで腹に火傷致しましたが着物もシャツも焼けておりませんでした。<br/><br/>これは何か霊的に意味が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> （その人を助けるべき理由があり）局部的に身代りしなくてはならぬ訳があるのである。<br/><br/>（S25. 5. 1） 123 浄霊を行うとゲップ出る人 御浄霊さして戴く時ゲップが出る人が、御浄霊を戴く時にはゲップが出ません。<br/><br/>これはいかなる訳で御座いましょうか。<br/><br/> 先方の病気を引き受ける。<br/><br/>月の系統の人である。<br/><br/>月の精気が残っている。<br/><br/>すると引受ける。<br/><br/>始終ゲップが出るとだんだんよくなる。<br/><br/>（S24. 7. 2） 124 浄霊すると欠伸出づ 御浄霊を受けている時は欠伸やゲップが出ませんが、御浄霊をさせていただきますと欠伸やゲップが出る人が御座いますが、いかなる理由で御座いますか。<br/><br/>御教えお願い致します。<br/><br/> 病気を引受けるのである。<br/><br/>水系の人である。<br/><br/>（S24. 5.22） 125 浄霊の手熱くなる 患者を浄霊中に自分の手が暖かくなります。<br/><br/>いつもではありませんが、時々感ずるのはどう言う訳でありましょうか。<br/><br/> こうなるのは当り前である。<br/><br/>火素が出るのである。<br/><br/>暖かくなる程いい。<br/><br/>とても熱くなる。<br/><br/> 126 浄霊の手の温冷 御浄霊を致します時、浄霊者の掌が暖かくなる人と冷たくなる人がありますが、いかなる訳でしょうか。<br/><br/>御伺い申します。<br/><br/> 暖かくなるのが本当である。<br/><br/>月の系統の人は最初は冷たいが、ある時期へ行くと暖かくなる。<br/><br/>冷たいのはある期間だけである。<br/><br/>（S24. 6. 7） 127 浄霊の手冷感 浄霊していると自分の掌が冷たくなる人がありますが、いかなる訳でしょうか。<br/><br/> 暖かくなるべきものである。<br/><br/>これは月の系統の人である。<br/><br/>今迄は月の霊気で治った。<br/><br/>それで冷たくなるのが本当だった。<br/><br/>こういう人は月の霊気が多分に残っている人で、月の霊気では自分が病気を引受ける事になる。<br/><br/>（S24. 1. 7） 128 浄霊の手の温冷 浄霊中に手先の方が温かくなるのと冷たくなるのとありますが、いかなる理由でしょうか。<br/><br/>御教え願います。<br/><br/> 暖かくなるのが本当である。<br/><br/>水の系統の人でも、浄霊するうち、暖かくなる。<br/><br/>（S24. 2.27） 129 浄霊の手冷たくなる 私は最近御浄霊を致します時に手が大変に冷たくなるのです。<br/><br/>以前は大変温かくなったのですが、これはいかなる訳で御座居ますか。<br/><br/> これは逆である。<br/><br/>暖かくなるのが本当である。<br/><br/>やはり未だ毒があるからで、毒の性質により冷たくなるのと暖かくなるのとがある。<br/><br/>今に暖かくなる。<br/><br/>（S25. 1.27） 130 浄霊の手熱くなる 腰の神経痛患者の頭部を浄霊していますと浄霊者の手が熱くなります。<br/><br/>その訳を伺います。<br/><br/> 手が熱くなるのは御光による。<br/><br/>非常にいいのだから続けてやるとよい。<br/><br/> 131 浄霊の手の温感 御浄霊の際相手方の患部に手が向った時掌に異状な温か味を感ずるようになりました。<br/><br/>例えば七月十五日、六人一度に御浄霊に従事の際、頭部及び腰部を浄霊中、特に掌が温かく感じましたので確かめて見ますと、一人は頭痛あり一人は腰痛のあることがわかりました。<br/><br/>時により感度が異るようです。<br/><br/>いかなる理由でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 温かくなるのが本当である。<br/><br/>感受性の強い人はいろいろある。<br/><br/>（S24. 7.27）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

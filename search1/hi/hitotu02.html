@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hitotu02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一つの神秘 『栄光』83号、昭和25(1950)年12月20日発行 先頃、私が入獄中、種々の神秘な事があったが、時期の関係上全部知らせる訳にはゆかないから、追々知らせるとして、今はただ一つだけの事をかいてみよう。<br><br> 忘れもしない、今度の事件で留置されたのは、昭和二十五年五月二十九日であったが、間もなく留置所にいるのは十八日間という神様からのお知らせがあった。<br><br>それは数えてみると六月十五日までとなる。<br><br>ところが当日の二、三日前くらいから一大神秘が起った。<br><br>これもある程度以上は知らせられないから、その中の差支えない部分だけここにかいてみるが、確か六月十三日であった。<br><br>朝から何となく腹が痛いので、そのままにしていたところ、午後になると下腹部一面が猛烈な痛みとなって来た。<br><br>多分急性腹膜炎だろうと思ったのは、何しろ私の身体も、昔の薬毒がまだ相当残っていたから、その塊が溶けはじめたに違いないと思って、自分で浄霊したところ、どうやら我慢出来る程度にはなったが、まだ何となく気持の悪い痛みが続いた。<br><br>いつもなら二、三十分も浄霊すれば治ってしまうのに、この時ばかりは半日経っても、一日経ってもすっきりしない。<br><br>とうとう一晩中大した程でもないが、痛み通しで翌朝になってしまった。<br><br>そこで私も不思議にたえず、神様のお知らせを仰ぐと、これは大きい御経綸のためで、止むを得ないのだから、少しの間我慢せよとの事なので、どうしようもなかった。<br><br>と共に「そうだ」翌六月十五日はちょうど十八日目に当る。<br><br>しかも、私の著書にもある通り、昼の世界になる黎明の第一歩が、昭和六年六月十五日である。<br><br>としたらこれに関連があるに違いない、つまり腹の中を充分清掃するための準備的浄化、という訳がハッキリ判った。<br><br> しかも、面白い事には、十四日の朝素晴らしい神夢を見た。<br><br>それは雪のある富士山の頂上に登ったところ、そこに大して大きくもない宮殿風の家があるので、その家へ入り、座って辺りの雪景色を見ようとすると、目が醒めてしまった。<br><br>と同時に私は今までにない感激を覚えた。<br><br>何しろ昔から、一富士、二鷹、三茄子と言ってこの三つのどの夢をみても、非常に縁起がいいとされているからで、しかも一番好い富士山の夢で、その頂上にまで登ったのだから、恐らくこれくらいいい夢はあるまい。<br><br>私が六十七歳の今日まで、こんな素晴しい夢は見た事がない。<br><br>という訳で嬉しさが込み上げてくる。<br><br>そのため少し残っていた腹の痛みもどこへやら忘れてしまった程だ。<br><br> いよいよ、六月十五日となった。<br><br>すると朝まだき、今日の重大な意義がハッキリして来た。<br><br>というのは以前かいた著書に、私のお腹の中に光の玉があるという事で、これを読んだ人は知っているだろうが、この光の玉には今まで魂がなかった。<br><br>ところがいよいよ今日○から○ったある高位の神様の魂が宿られた、すなわち右の御魂が現世に生誕された事になるのである。<br><br>これからこの神御魂（かむみたま）が段々御育ちになり、成人されるに従って、玉の光は漸次輝きを増し、将来大偉徳を発揮さるるに到るのである。<br><br> そうして面白い事には、翌十六日には朝から食欲が全然ない。<br><br>やっと昼頃になって牛乳だけが欲しくなったので、差入屋に頼んで取寄せ、コップに一杯呑んだが、その美味さは格別だった。<br><br>その時なるほどと思った事は生まれたばかりの赤ン坊だから、乳が呑みたいのは当り前で、確かにこれが型なんだ。<br><br>という訳でいよいよ大経綸の第一歩を踏み出す時となったのである。<br><br>すなわち花が散って実を結ぶという、その実の種の中心のポチが、腹の中へ宿ったので、実に人類始まって以来の大慶事である。<br><br>ところがこのような万人祝福すべき空前の重要神業が、一人の部下もいない陰惨なる牢獄内で行われたという事は、何たる皮肉ではなかろうかと、私はつくづくおもわれたのである。<br><br>この一事によってみても、神様の経綸なるものは、いかに深遠微妙にして、人智を許さないものたる事を知るであろう。<br><br>この前後の経路は法難手記にあるからここでは略す事とする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Acontecimento Místico</h2>
 <p>Recentemente, durante meu encarceramento, vivenciei diversos acontecimentos místicos. Contudo, devido às circunstâncias do momento, não me é possível revelá-los em sua totalidade. Farei isso gradualmente, mas, por ora, desejo relatar apenas um deles.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Finalmente, chegou o dia 15 de junho. Logo ao amanhecer, o profundo significado daquele dia se tornou perfeitamente claro. Conforme já mencionei em escritos anteriores, e como os leitores devem se recordar, existe em meu ventre uma Gema de Luz. Até então, essa gema não possuía uma alma. Naquele dia, contudo, a alma de uma elevada Deidade, vinda dos Céus, nela se alojou. Em outras palavras, essa Alma Divina nasceu no mundo físico. A partir de agora, conforme essa <em>Kamumitama</em> (神御魂) — essa Alma Divina — for crescendo e atingindo a maturidade, a luz da gema brilhará com intensidade cada vez maior, vindo a manifestar, no futuro, um poder e uma virtude extraordinários.</p>
 <p>Curiosamente, no dia seguinte, 16 de junho, eu não senti qualquer apetite pela manhã. Por volta do meio-dia, tive um súbito desejo de beber apenas leite. Pedi que o trouxessem e, ao tomar um copo, seu sabor pareceu-me excepcionalmente delicioso. Naquele instante, compreendi: como um recém-nascido, era natural que desejasse leite. Aquilo era, sem dúvida, um protótipo. Marcava-se, assim, o primeiro passo do grandioso Plano Divino. É como a flor que murcha para dar lugar ao fruto; o núcleo da semente desse fruto acabara de se alojar em meu ventre. Trata-se, em verdade, do mais auspicioso acontecimento desde o início da humanidade.</p>
 <p>Contudo, não pude deixar de refletir sobre a ironia de tudo aquilo. Uma Obra Divina de importância sem precedentes, digna da celebração de toda a humanidade, realizou-se na penumbra de uma cela de prisão, sem a presença de um único discípulo. Este evento, por si só, demonstra quão profundo e sutil é o Plano de Deus, e como ele transcende a compreensão da inteligência humana. Os pormenores dos acontecimentos que precederam e sucederam este fato estão registrados em minhas “Memórias da Perseguição Religiosa”, razão pela qual os omitirei neste relato.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一つの神秘 『栄光』83号、昭和25(1950)年12月20日発行 先頃、私が入獄中、種々の神秘な事があったが、時期の関係上全部知らせる訳にはゆかないから、追々知らせるとして、今はただ一つだけの事をかいてみよう。<br/><br/> 忘れもしない、今度の事件で留置されたのは、昭和二十五年五月二十九日であったが、間もなく留置所にいるのは十八日間という神様からのお知らせがあった。<br/><br/>それは数えてみると六月十五日までとなる。<br/><br/>ところが当日の二、三日前くらいから一大神秘が起った。<br/><br/>これもある程度以上は知らせられないから、その中の差支えない部分だけここにかいてみるが、確か六月十三日であった。<br/><br/>朝から何となく腹が痛いので、そのままにしていたところ、午後になると下腹部一面が猛烈な痛みとなって来た。<br/><br/>多分急性腹膜炎だろうと思ったのは、何しろ私の身体も、昔の薬毒がまだ相当残っていたから、その塊が溶けはじめたに違いないと思って、自分で浄霊したところ、どうやら我慢出来る程度にはなったが、まだ何となく気持の悪い痛みが続いた。<br/><br/>いつもなら二、三十分も浄霊すれば治ってしまうのに、この時ばかりは半日経っても、一日経ってもすっきりしない。<br/><br/>とうとう一晩中大した程でもないが、痛み通しで翌朝になってしまった。<br/><br/>そこで私も不思議にたえず、神様のお知らせを仰ぐと、これは大きい御経綸のためで、止むを得ないのだから、少しの間我慢せよとの事なので、どうしようもなかった。<br/><br/>と共に「そうだ」翌六月十五日はちょうど十八日目に当る。<br/><br/>しかも、私の著書にもある通り、昼の世界になる黎明の第一歩が、昭和六年六月十五日である。<br/><br/>としたらこれに関連があるに違いない、つまり腹の中を充分清掃するための準備的浄化、という訳がハッキリ判った。<br/><br/> しかも、面白い事には、十四日の朝素晴らしい神夢を見た。<br/><br/>それは雪のある富士山の頂上に登ったところ、そこに大して大きくもない宮殿風の家があるので、その家へ入り、座って辺りの雪景色を見ようとすると、目が醒めてしまった。<br/><br/>と同時に私は今までにない感激を覚えた。<br/><br/>何しろ昔から、一富士、二鷹、三茄子と言ってこの三つのどの夢をみても、非常に縁起がいいとされているからで、しかも一番好い富士山の夢で、その頂上にまで登ったのだから、恐らくこれくらいいい夢はあるまい。<br/><br/>私が六十七歳の今日まで、こんな素晴しい夢は見た事がない。<br/><br/>という訳で嬉しさが込み上げてくる。<br/><br/>そのため少し残っていた腹の痛みもどこへやら忘れてしまった程だ。<br/><br/> いよいよ、六月十五日となった。<br/><br/>すると朝まだき、今日の重大な意義がハッキリして来た。<br/><br/>というのは以前かいた著書に、私のお腹の中に光の玉があるという事で、これを読んだ人は知っているだろうが、この光の玉には今まで魂がなかった。<br/><br/>ところがいよいよ今日○から○ったある高位の神様の魂が宿られた、すなわち右の御魂が現世に生誕された事になるのである。<br/><br/>これからこの神御魂（かむみたま）が段々御育ちになり、成人されるに従って、玉の光は漸次輝きを増し、将来大偉徳を発揮さるるに到るのである。<br/><br/> そうして面白い事には、翌十六日には朝から食欲が全然ない。<br/><br/>やっと昼頃になって牛乳だけが欲しくなったので、差入屋に頼んで取寄せ、コップに一杯呑んだが、その美味さは格別だった。<br/><br/>その時なるほどと思った事は生まれたばかりの赤ン坊だから、乳が呑みたいのは当り前で、確かにこれが型なんだ。<br/><br/>という訳でいよいよ大経綸の第一歩を踏み出す時となったのである。<br/><br/>すなわち花が散って実を結ぶという、その実の種の中心のポチが、腹の中へ宿ったので、実に人類始まって以来の大慶事である。<br/><br/>ところがこのような万人祝福すべき空前の重要神業が、一人の部下もいない陰惨なる牢獄内で行われたという事は、何たる皮肉ではなかろうかと、私はつくづくおもわれたのである。<br/><br/>この一事によってみても、神様の経綸なるものは、いかに深遠微妙にして、人智を許さないものたる事を知るであろう。<br/><br/>この前後の経路は法難手記にあるからここでは略す事とする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

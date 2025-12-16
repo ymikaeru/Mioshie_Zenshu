@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M231008</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年10月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br> 昭和二十三年十月八日（金） 熱海別院にて ――無肥料栽培の二年目で獲れた米でございます（現物をご覧に入れる）。<br><br>一升につき二十匁、一俵で二、三升重いようです。<br><br> 四年目くらいから増収になります。<br><br>無肥料でやれば第一花落ちがしない。<br><br>背丈は少し低いが茎は太い。<br><br>肥料をやると弱くなり茎も風に折れたりする。<br><br>見たところは立派ですがね。<br><br>……だんだん無肥料にして行かねば駄目になりますよ。<br><br>最近虫害の多いのも肥料のためです。<br><br>無肥料なら実際手間がいらない。<br><br>消毒薬を使えば虫は死ぬが一緒に土も死んでしまいます。<br><br>まさか土にかからぬように薬を使うわけにはゆきませんからね…… ――果実はいかがでしょうか。<br><br> いいですとも、なんでも……なにしろ薬を使うと弱くなってしまうのです。<br><br>人間も薬を服むととても弱くなるのです。<br><br>しかも化学肥料を使えば米がこれを吸い、そして人間が食べるので体が非常に弱くなるのです。<br><br>……果実なんかも同じだが根の周りの土を固めてはいけない。<br><br>冬の間に根の周りを掘って土を柔らかくしておくといい。<br><br>春になると細い根から養分を吸って大きくなるのですから。<br><br>……堆肥は使ってもいいですよ。<br><br>掘った所へ入れたらよい。<br><br>堆肥は草の葉のほうがいい。<br><br>木の葉は繊維が固いから畑なら土の下へ一尺くらいの厚さに草の葉を入れ、さらにその下に一尺くらい木の葉を入れたらいい。<br><br>堆肥は熱を出し暖めるからいいのです。<br><br>魚の腐ったのや鶏の「フン」もごくいけない。<br><br>木の葉や草ならば自然でしょう。<br><br>そこらにもあるのですから、その自然がいいのですよ。<br><br>雑草はよく伸びるでしょう。<br><br>あれは無肥料だからですよ。<br><br>……田圃へやる水をあたためるのは結構です。<br><br>池へ溜めておくのはいけない。<br><br>かえって冷えてしまうから。<br><br>「日なた」をよけい流してから田へ入れるようにしたらいいのです。<br><br>木やわらの灰もやらぬほうがいい、天から灰なんか降ってこないでしょう。<br><br>肥料に使っている石灰だって灰ですよ、木と石の違いだけです。<br><br>……無論無肥料でやるからって改良は必要ですよ。<br><br>稲なんかも神様が最初作られたときは一穂に五粒くらいだったんですが、いまではだいたい三百粒くらいでしょう。<br><br>人口の増加と平均して米粒のできるのも殖えるのです。<br><br>いま日本は食うだけの米がとれないが本当はとれるべきで、とれないというのは、とれないようなこと、間違ったことをしているからです。<br><br> ――人口に比例いたしますならば大浄化で人間が減れば米も減産でしょうか。<br><br> そうですね……米は減りませんね。<br><br>田地を他に使うとか、米を別なほうに使うとか少ない国に輸出するようになるでしょう。<br><br>祝詞にあるように「五穀稔りて蔵に充ち……」というふうになるのです。<br><br> ――伊勢の内宮および外宮併祀の由来およびその意義についてお伺いいたします。<br><br> 内宮は天照大神、外宮は豊受明神を祀ってますが、天照大神は主食につき非常に関心を持たれ豊受明神に命じて全国に稲を配らせた。<br><br>このとき明神は狐を使って配らせた。<br><br>稲を荷ぐと書いて稲荷というのはそのためで、そのときの功により祀られたのです。<br><br>だから稲荷は百姓が拝むべきで、いま芸者や女郎などが拝むのは狐が堕落したのです。<br><br>勿論ふつうの稲荷神社も豊受明神の御分霊が祀られたのですが、狐のほうが強くて御分霊の力が弱くなり統制がつかなくなった。<br><br>しかも夜の世界で天照大神は御引退になっておられたのでよけい狐が強くなったのです。<br><br>豊川稲荷なんか途中からダキニ天神を祀ったが、これは金毛九尾の狐ですよ。<br><br> ――考える自己は、本、副守護霊のいずれに属するのでしょうか。<br><br> 考えの根本は本霊ですが、副霊も考えを混ぜるんですね。<br><br>そのとき本霊に力があればいいことをし、副霊に力があれば悪いことをするのです。<br><br>平沢なんかは凶行のときは副霊だけになってしまうのです。<br><br>……堀崎捜査課長は今年の三月、御守りをいただいたが、今度平沢の頭を御浄めしたらポロポロ涙を流しそれから間もなく自白したんです。<br><br>それは副霊が少し減り、それだけ人間らしくなる、いわば仏心が出るのです。<br><br>良心が閃くんです。<br><br>ですから帝銀事件は私が解決したのです。<br><br>そのうちに堀崎課長や藤田部長らが私の所へ礼に来るそうです。<br><br>……人間は始終迷っているのですが、これは本副両方の働きです。<br><br>だから両方の中間が人間の考えとなるのです。<br><br>勿論いかなるときも本霊が勝たなければいけない。<br><br>……きれいな細君を見れば、あんな美人と結婚した人はいいなと思い、美しい娘をみれば結婚したいと思う、「思う」ことは差し支えなく、まただれでも「思う」ものです。<br><br>これが副霊の働きです。<br><br>が、これを抑えて行動にまで行かせないのが本霊です。<br><br>思うこと、想念は自由でいい。<br><br>キリスト教ではそういうふうに「思うこと」を罪だというが、それではあまり固すぎます。<br><br>しかし始終思っていると思いが移ります、そうなると執着になるからいけない。<br><br> ――イエス、阿弥陀が贖罪をなした因縁について…… イエスも阿弥陀も月の系統ですが、阿弥陀は贖罪はしてない。<br><br>阿弥陀は月読尊、イエスは素盞嗚尊です。<br><br>月の照ったときは阿弥陀の働き、素盞嗚尊は闇の世界です。<br><br>素盞嗚尊は立派な神様ですが、邪神に負けて悪をしてしまったのです。<br><br>尊は日本で乱暴をしたために、伊弉諾尊に追放せられ外国へ行った。<br><br>それがユダヤであり、そこに住んで十二人の子供を生んだが、その中からキリストが出て、日本で犯した先祖の罪の贖いをしたのです。<br><br> ――既成宗教の信者がお道に入った場合、なにかといままでの信仰が障りになりますがいかにいたしたらよろしいでしょうか。<br><br> これはうっちゃっておけばいいのです。<br><br>ちょうど染め物みたいなものでよく染まると色抜きに手間がかかるようなものです。<br><br>やはり宗教は想念、魂の問題だから改めるのにはそうとうの時間が必要なんですよ。<br><br>まあ他人の色抜きの心配よりご自分の色抜き……反省の必要があるんですよ。<br><br> ――もっか全国的に松が枯れていますが、どんな意味があるのでしょうか。<br><br> 松の枯れることには意味がある。<br><br>六、七年前私は自動車で大磯藤沢の海岸をドライブしたところずいぶん松が枯れていた。<br><br>で、「これは日本に不吉がある、天皇に事がある前兆だろう」と話したことがある。<br><br>松の字は木偏に公と書き「木の王」で皇室に関係がある。<br><br>天皇が今度低い所へ堕ちたからある程度枯れるわけです。<br><br>一番先は琵琶湖の辺りの唐崎の松が枯れたので「なにかあるな」と気がついたのです。<br><br>家の中でも木が枯れるとなにかありますよ。<br><br>松ならそこの主人、他の木ならそこの眷族に関係がある。<br><br> 鬼門のほうに便所がある場合は作り直すべきだが、そんな所へ住むのはその人の霊が低いからです。<br><br>作り直すことができなければ自分の霊を高くすることに努めるべきで、高くなれば自然と他のもっとよい所へ移って行けるようになるのです。<br><br>頼りないようだがこれが絶対の方法です。<br><br> ――教導師同士で恋愛関係になった場合は…… 独り者なら結婚してもよい。<br><br>親が反対のときは約束だけして時機を待てばよい。<br><br>そのうちに神様がちゃんとやってくれるから。<br><br> ――子女がお道の者同士の結婚を希望するのに対して親が反対の場合と、心中もしかねまじきほどに恋愛が熱烈の場合は…… ははあ出ましたね。<br><br>無理に一緒になっても親の怨みなどの想いが来ると難しい。<br><br>だから時機を待つことです。<br><br>神様が親を判らせてくださるから。<br><br>……恋愛は副霊同士の関係です。<br><br>で、その最中は幸福でも、やがてそれが苦しみの動機になります。<br><br>だからその恋愛が正当なものか否かを常に充分に自己批判することで、それをせずにそんな関係を続けてはかえって罪になります。<br><br>自己批判をしても正当であると思えたなら結婚に入るべきです。<br><br>が、その場合親が反対したら我慢して時を待つことです。<br><br> ――二階に御軸をお祀りできないとき階下にお祀りしてもよろしいでしょうか。<br><br> 階下の床の間と二階の床の間が上下に重なっておればよろしいが、そうでなく二階を人間が使っているのならかえって失礼になる。<br><br>これもさっきの鬼門の便所と同様そんな所へ住むのはその人の霊が低いからです。<br><br> 御軸でも「光明如来」のほうは御神体だが、以前書いた「光明」というのは光だけで御神体ではないから御挨拶はしなくてもよろしい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diálogos sobre a Verdade Divina</h2>
 <p>Este é o arroz colhido no segundo ano do cultivo sem fertilizantes (apresenta o grão). Seu peso é superior, com um acréscimo de vinte <em>monme</em> por <em>sho</em>, o que resulta em um aumento de dois a três <em>sho</em> por saca.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Ah, chegamos a esse ponto. Mesmo que se unam à força, o ressentimento dos pais gerará emanações espirituais que trarão dificuldades. Por isso, é preciso esperar o momento certo. Deus fará com que os pais compreendam. O amor romântico é uma relação entre os espíritos secundários. Por isso, embora traga felicidade no momento, ele se torna, invariavelmente, a semente do sofrimento futuro. É crucial, portanto, realizar uma autocrítica constante e profunda para discernir se esse amor é legítimo ou não. Continuar uma relação inadequada sem essa reflexão, ao contrário, gera carma negativo. Se, após a autoanálise, o sentimento se mostrar justo, deve-se prosseguir para o casamento. Mas, se houver oposição dos pais, é preciso ter paciência e esperar o tempo certo.</p>
 <p>Quando não é possível assentar o Eixo Sagrado no segundo andar, podemos fazê-lo no andar de baixo?</p>
 <p>É permissível, desde que o tokonoma inferior esteja alinhado verticalmente com o do andar de cima. Caso contrário, se o segundo andar for utilizado por pessoas, torna-se um ato de desrespeito. Tal como no caso do banheiro no portão do demônio, residir em um lugar assim indica que o nível espiritual da pessoa é baixo. O Eixo Sagrado com a inscrição "Komyo Nyorai" (光明如来) é o Goshintai, o Corpo Divino. Já as caligrafias anteriores, apenas com "Komyo" (光明), representam a Luz, mas não são o Corpo Divino, não havendo, portanto, a necessidade de reverenciá-las formalmente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S23年10月8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/> 昭和二十三年十月八日（金） 熱海別院にて ――無肥料栽培の二年目で獲れた米でございます（現物をご覧に入れる）。<br/><br/>一升につき二十匁、一俵で二、三升重いようです。<br/><br/> 四年目くらいから増収になります。<br/><br/>無肥料でやれば第一花落ちがしない。<br/><br/>背丈は少し低いが茎は太い。<br/><br/>肥料をやると弱くなり茎も風に折れたりする。<br/><br/>見たところは立派ですがね。<br/><br/>……だんだん無肥料にして行かねば駄目になりますよ。<br/><br/>最近虫害の多いのも肥料のためです。<br/><br/>無肥料なら実際手間がいらない。<br/><br/>消毒薬を使えば虫は死ぬが一緒に土も死んでしまいます。<br/><br/>まさか土にかからぬように薬を使うわけにはゆきませんからね…… ――果実はいかがでしょうか。<br/><br/> いいですとも、なんでも……なにしろ薬を使うと弱くなってしまうのです。<br/><br/>人間も薬を服むととても弱くなるのです。<br/><br/>しかも化学肥料を使えば米がこれを吸い、そして人間が食べるので体が非常に弱くなるのです。<br/><br/>……果実なんかも同じだが根の周りの土を固めてはいけない。<br/><br/>冬の間に根の周りを掘って土を柔らかくしておくといい。<br/><br/>春になると細い根から養分を吸って大きくなるのですから。<br/><br/>……堆肥は使ってもいいですよ。<br/><br/>掘った所へ入れたらよい。<br/><br/>堆肥は草の葉のほうがいい。<br/><br/>木の葉は繊維が固いから畑なら土の下へ一尺くらいの厚さに草の葉を入れ、さらにその下に一尺くらい木の葉を入れたらいい。<br/><br/>堆肥は熱を出し暖めるからいいのです。<br/><br/>魚の腐ったのや鶏の「フン」もごくいけない。<br/><br/>木の葉や草ならば自然でしょう。<br/><br/>そこらにもあるのですから、その自然がいいのですよ。<br/><br/>雑草はよく伸びるでしょう。<br/><br/>あれは無肥料だからですよ。<br/><br/>……田圃へやる水をあたためるのは結構です。<br/><br/>池へ溜めておくのはいけない。<br/><br/>かえって冷えてしまうから。<br/><br/>「日なた」をよけい流してから田へ入れるようにしたらいいのです。<br/><br/>木やわらの灰もやらぬほうがいい、天から灰なんか降ってこないでしょう。<br/><br/>肥料に使っている石灰だって灰ですよ、木と石の違いだけです。<br/><br/>……無論無肥料でやるからって改良は必要ですよ。<br/><br/>稲なんかも神様が最初作られたときは一穂に五粒くらいだったんですが、いまではだいたい三百粒くらいでしょう。<br/><br/>人口の増加と平均して米粒のできるのも殖えるのです。<br/><br/>いま日本は食うだけの米がとれないが本当はとれるべきで、とれないというのは、とれないようなこと、間違ったことをしているからです。<br/><br/> ――人口に比例いたしますならば大浄化で人間が減れば米も減産でしょうか。<br/><br/> そうですね……米は減りませんね。<br/><br/>田地を他に使うとか、米を別なほうに使うとか少ない国に輸出するようになるでしょう。<br/><br/>祝詞にあるように「五穀稔りて蔵に充ち……」というふうになるのです。<br/><br/> ――伊勢の内宮および外宮併祀の由来およびその意義についてお伺いいたします。<br/><br/> 内宮は天照大神、外宮は豊受明神を祀ってますが、天照大神は主食につき非常に関心を持たれ豊受明神に命じて全国に稲を配らせた。<br/><br/>このとき明神は狐を使って配らせた。<br/><br/>稲を荷ぐと書いて稲荷というのはそのためで、そのときの功により祀られたのです。<br/><br/>だから稲荷は百姓が拝むべきで、いま芸者や女郎などが拝むのは狐が堕落したのです。<br/><br/>勿論ふつうの稲荷神社も豊受明神の御分霊が祀られたのですが、狐のほうが強くて御分霊の力が弱くなり統制がつかなくなった。<br/><br/>しかも夜の世界で天照大神は御引退になっておられたのでよけい狐が強くなったのです。<br/><br/>豊川稲荷なんか途中からダキニ天神を祀ったが、これは金毛九尾の狐ですよ。<br/><br/> ――考える自己は、本、副守護霊のいずれに属するのでしょうか。<br/><br/> 考えの根本は本霊ですが、副霊も考えを混ぜるんですね。<br/><br/>そのとき本霊に力があればいいことをし、副霊に力があれば悪いことをするのです。<br/><br/>平沢なんかは凶行のときは副霊だけになってしまうのです。<br/><br/>……堀崎捜査課長は今年の三月、御守りをいただいたが、今度平沢の頭を御浄めしたらポロポロ涙を流しそれから間もなく自白したんです。<br/><br/>それは副霊が少し減り、それだけ人間らしくなる、いわば仏心が出るのです。<br/><br/>良心が閃くんです。<br/><br/>ですから帝銀事件は私が解決したのです。<br/><br/>そのうちに堀崎課長や藤田部長らが私の所へ礼に来るそうです。<br/><br/>……人間は始終迷っているのですが、これは本副両方の働きです。<br/><br/>だから両方の中間が人間の考えとなるのです。<br/><br/>勿論いかなるときも本霊が勝たなければいけない。<br/><br/>……きれいな細君を見れば、あんな美人と結婚した人はいいなと思い、美しい娘をみれば結婚したいと思う、「思う」ことは差し支えなく、まただれでも「思う」ものです。<br/><br/>これが副霊の働きです。<br/><br/>が、これを抑えて行動にまで行かせないのが本霊です。<br/><br/>思うこと、想念は自由でいい。<br/><br/>キリスト教ではそういうふうに「思うこと」を罪だというが、それではあまり固すぎます。<br/><br/>しかし始終思っていると思いが移ります、そうなると執着になるからいけない。<br/><br/> ――イエス、阿弥陀が贖罪をなした因縁について…… イエスも阿弥陀も月の系統ですが、阿弥陀は贖罪はしてない。<br/><br/>阿弥陀は月読尊、イエスは素盞嗚尊です。<br/><br/>月の照ったときは阿弥陀の働き、素盞嗚尊は闇の世界です。<br/><br/>素盞嗚尊は立派な神様ですが、邪神に負けて悪をしてしまったのです。<br/><br/>尊は日本で乱暴をしたために、伊弉諾尊に追放せられ外国へ行った。<br/><br/>それがユダヤであり、そこに住んで十二人の子供を生んだが、その中からキリストが出て、日本で犯した先祖の罪の贖いをしたのです。<br/><br/> ――既成宗教の信者がお道に入った場合、なにかといままでの信仰が障りになりますがいかにいたしたらよろしいでしょうか。<br/><br/> これはうっちゃっておけばいいのです。<br/><br/>ちょうど染め物みたいなものでよく染まると色抜きに手間がかかるようなものです。<br/><br/>やはり宗教は想念、魂の問題だから改めるのにはそうとうの時間が必要なんですよ。<br/><br/>まあ他人の色抜きの心配よりご自分の色抜き……反省の必要があるんですよ。<br/><br/> ――もっか全国的に松が枯れていますが、どんな意味があるのでしょうか。<br/><br/> 松の枯れることには意味がある。<br/><br/>六、七年前私は自動車で大磯藤沢の海岸をドライブしたところずいぶん松が枯れていた。<br/><br/>で、「これは日本に不吉がある、天皇に事がある前兆だろう」と話したことがある。<br/><br/>松の字は木偏に公と書き「木の王」で皇室に関係がある。<br/><br/>天皇が今度低い所へ堕ちたからある程度枯れるわけです。<br/><br/>一番先は琵琶湖の辺りの唐崎の松が枯れたので「なにかあるな」と気がついたのです。<br/><br/>家の中でも木が枯れるとなにかありますよ。<br/><br/>松ならそこの主人、他の木ならそこの眷族に関係がある。<br/><br/> 鬼門のほうに便所がある場合は作り直すべきだが、そんな所へ住むのはその人の霊が低いからです。<br/><br/>作り直すことができなければ自分の霊を高くすることに努めるべきで、高くなれば自然と他のもっとよい所へ移って行けるようになるのです。<br/><br/>頼りないようだがこれが絶対の方法です。<br/><br/> ――教導師同士で恋愛関係になった場合は…… 独り者なら結婚してもよい。<br/><br/>親が反対のときは約束だけして時機を待てばよい。<br/><br/>そのうちに神様がちゃんとやってくれるから。<br/><br/> ――子女がお道の者同士の結婚を希望するのに対して親が反対の場合と、心中もしかねまじきほどに恋愛が熱烈の場合は…… ははあ出ましたね。<br/><br/>無理に一緒になっても親の怨みなどの想いが来ると難しい。<br/><br/>だから時機を待つことです。<br/><br/>神様が親を判らせてくださるから。<br/><br/>……恋愛は副霊同士の関係です。<br/><br/>で、その最中は幸福でも、やがてそれが苦しみの動機になります。<br/><br/>だからその恋愛が正当なものか否かを常に充分に自己批判することで、それをせずにそんな関係を続けてはかえって罪になります。<br/><br/>自己批判をしても正当であると思えたなら結婚に入るべきです。<br/><br/>が、その場合親が反対したら我慢して時を待つことです。<br/><br/> ――二階に御軸をお祀りできないとき階下にお祀りしてもよろしいでしょうか。<br/><br/> 階下の床の間と二階の床の間が上下に重なっておればよろしいが、そうでなく二階を人間が使っているのならかえって失礼になる。<br/><br/>これもさっきの鬼門の便所と同様そんな所へ住むのはその人の霊が低いからです。<br/><br/> 御軸でも「光明如来」のほうは御神体だが、以前書いた「光明」というのは光だけで御神体ではないから御挨拶はしなくてもよろしい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

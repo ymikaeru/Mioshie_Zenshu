@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教救いの特異性 自観叢書第4篇『奇蹟物語』P.12、昭和24(1949)年10月5日 本教の使命は地獄で苦しんでいる人達を、天国へ救うので、それによって社会を天国化そうとするのである。<br><br>この意味において、人を天国へ救うには、まず自分が天国に上って天国人となり、大衆を救い上げるのである。<br><br>つまり地獄から天国へ梯子をかけて、手を延ばして一段一段登らしてやるという訳である。<br><br>これが今日までのあらゆる宗教と異なる点で、それはむしろ反対でさえある。<br><br> 周知のごとく、昔から宗教人といえば、粗衣粗食、最低生活に甘んじ、難行苦行を重ね、自分は地獄的状態にありながら衆生を救おうとするのであるから、梯子を逆に用いる訳である。<br><br>すなわち、救う者が救われるものを押し上げてやるのであるから、上から引っ張るよりも押し上げる方が、どのくらい骨が折れるかは、推察さるるであろう。<br><br> ところが、その当時としては、実は天国は出来ていないから止むを得なかったのである。<br><br>もちろんそれは時期尚早のためで、霊界が夜であったからである。<br><br>しかるに、昭和六年以降、漸次霊界は昼になりつつあるので、天国を造る事は容易になったのである。<br><br>否、人間が造るのではない、神様が造るのであるから、自然に時の進むに従い進捗（しんちょく）するので、人間はただ神のまにまに動けばいいのである。<br><br>すなわち、神が設計し、監督し、多数の人間を自由自在に使役するので、私としての役目はまず現場監督と思えば間違いないのである。<br><br>もちろんその一部として現在天国の模型も造っているので、信者諸君はよく知るところである。<br><br> 右のごとくであるから、土地にしても予期もしない時期に、予期もしない位置に、売りたい人が出る、すると私はハハー神様がここを買えというのだなと思うが否や、それだけの金額は別に苦労しないで集ってくる。<br><br>それに準じて、最も適した設計者も土木建築家も、材料も思う通り必要なだけは、判で捺したように入手する。<br><br>庭木一本でも突如として誰かが持ってくる。<br><br>それがちゃんと当て嵌まるような場所がある。<br><br>時には、庭木が数本も数十本も一時に入手するので、私は戸惑いするが、これは神様がなさる事と思うから庭を睨みながら、順々に植えて行くと、過不足なく、きっちり当て嵌まってしまう。<br><br>その度毎に、一切は神様がやられる事が実によく判るのである。<br><br>ある位置にこういう石や木が欲しいと思うと、一日か二日でちゃんと来る。<br><br>これが奇蹟でなくて何であろう。<br><br>こういう事をかけば限りのない程で、追々かく事にするが今はただ片鱗だけをかいたのである。<br><br> この文はすべて人間がやっているのではない。<br><br>神様の経綸のままに、人間がやらされるという事を、判らせるためにかいたのである。<br><br>これらによってみても、神意は地上天国建設の第一歩として、その模型を造られるという事があまりに明らかである。<br><br>しかしながら、模型ばかりではない、人間、個人が天国人とならなければならない。<br><br>否、なり得る時期が来ているのである。<br><br>もちろん、家庭も天国化し、天国的生活者となるのである。<br><br>それで初めて、大衆が苦しんでいる地獄から救い上げ得るのである。<br><br>故に信者に対し、私は常に出来るだけ苦のない生活環境を作るべきで、それが神意に叶うゆえんであるというのである。<br><br>すなわち、病貧争の三苦が除去されなければ本当に人を救う事は出来ない。<br><br>しかしそのような事は、夜の世界では不可能であったが、今日はもはや可能となったのである事を知らなければならない。<br><br>彼の釈尊の唱えた苦の娑婆の時機は最早終ったのである。<br><br>この事の真諦（しんたい）が判ったとしたら、その歓喜は人類の経験にない程絶大なものがあろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Singularidade da Salvação de Nossa Igreja</h2>
 <p>A missão de nossa Igreja consiste em salvar as pessoas que sofrem no inferno, conduzindo-as ao Paraíso e, por meio disso, transformar a própria sociedade em um paraíso. Nesse sentido, para que possamos salvar o próximo, é preciso que primeiramente nós mesmos alcancemos o Paraíso e nos tornemos homens celestiais, para então estarmos aptos a auxiliar a salvação das massas. Isto significa estender uma escada do inferno ao Paraíso, oferecer a mão e auxiliá-los a subir, degrau por degrau. Este é o ponto que nos distingue de todas as religiões que existiram até hoje; em verdade, pode-se dizer que seu método é diametralmente oposto.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Em virtude do que foi exposto, tudo acontece de forma prodigiosa. No que tange aos terrenos, por exemplo, surgem pessoas desejando vender propriedades em locais e momentos totalmente inesperados. Imediatamente compreendo: “Ah, é a Vontade de Deus que eu adquira este lugar”; e, sem que eu precise me esforçar, a quantia exata para a compra se materializa. De modo análogo, os mais competentes arquitetos, engenheiros e todos os materiais necessários surgem na medida exata de nossa necessidade, como se tudo estivesse predestinado. Até mesmo uma única árvore para o jardim é trazida subitamente por alguém, e sempre há um local perfeito esperando por ela. Há ocasiões em que diversas, ou mesmo dezenas, de árvores chegam de uma só vez, o que a princípio me deixa perplexo; contudo, por saber que se trata da obra de Deus, contemplo o jardim e, ao plantá-las em sequência, elas se encaixam com perfeição, sem que sobre ou falte nenhuma. A cada vez, torna-se ainda mais evidente que tudo é realizado por Deus. Se penso que em determinado local seria ideal ter uma pedra ou uma árvore específica, dentro de um ou dois dias, ela aparece. O que seria isto, senão um milagre? Eu poderia relatar inúmeros acontecimentos como este, e o farei paulatinamente, mas, por ora, apresento apenas um vislumbre.</p>
 <p>Escrevi este artigo com o propósito de elucidar que nada disso é obra humana. Pelo contrário, o ser humano é apenas um instrumento que age conforme o Plano Divino. Diante de tais fatos, torna-se sobremaneira evidente que a Vontade de Deus é, como primeiro passo para a construção do Paraíso Terrestre, edificar seu protótipo.</p>
 <p>Todavia, a obra não se limita ao protótipo. É imperativo que cada indivíduo se torne, ele próprio, um homem celestial. Em verdade, o tempo em que isso se tornou possível já chegou. Naturalmente, o lar também deve ser paradisizado, e seus membros devem viver uma vida celestial. Somente então será possível resgatar as massas do inferno onde sofrem. Portanto, sempre oriento os fiéis a criarem para si um ambiente de vida com o mínimo de sofrimento possível, pois tal atitude corresponde à Vontade Divina. Isto é, a salvação autêntica do próximo não pode ser alcançada sem que se eliminem os três grandes sofrimentos: a doença, a pobreza e o conflito. É preciso compreender que, embora tal realização fosse impossível no mundo da Noite, hoje ela se tornou plenamente viável. A era do “mundo de sofrimentos” (Shaba) pregada por Shakyamuni chegou ao fim. Aquele que compreender a essência desta verdade experimentará uma alegria de magnitude avassaladora, jamais antes vivenciada pela humanidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教救いの特異性 自観叢書第4篇『奇蹟物語』P.12、昭和24(1949)年10月5日 本教の使命は地獄で苦しんでいる人達を、天国へ救うので、それによって社会を天国化そうとするのである。<br/><br/>この意味において、人を天国へ救うには、まず自分が天国に上って天国人となり、大衆を救い上げるのである。<br/><br/>つまり地獄から天国へ梯子をかけて、手を延ばして一段一段登らしてやるという訳である。<br/><br/>これが今日までのあらゆる宗教と異なる点で、それはむしろ反対でさえある。<br/><br/> 周知のごとく、昔から宗教人といえば、粗衣粗食、最低生活に甘んじ、難行苦行を重ね、自分は地獄的状態にありながら衆生を救おうとするのであるから、梯子を逆に用いる訳である。<br/><br/>すなわち、救う者が救われるものを押し上げてやるのであるから、上から引っ張るよりも押し上げる方が、どのくらい骨が折れるかは、推察さるるであろう。<br/><br/> ところが、その当時としては、実は天国は出来ていないから止むを得なかったのである。<br/><br/>もちろんそれは時期尚早のためで、霊界が夜であったからである。<br/><br/>しかるに、昭和六年以降、漸次霊界は昼になりつつあるので、天国を造る事は容易になったのである。<br/><br/>否、人間が造るのではない、神様が造るのであるから、自然に時の進むに従い進捗（しんちょく）するので、人間はただ神のまにまに動けばいいのである。<br/><br/>すなわち、神が設計し、監督し、多数の人間を自由自在に使役するので、私としての役目はまず現場監督と思えば間違いないのである。<br/><br/>もちろんその一部として現在天国の模型も造っているので、信者諸君はよく知るところである。<br/><br/> 右のごとくであるから、土地にしても予期もしない時期に、予期もしない位置に、売りたい人が出る、すると私はハハー神様がここを買えというのだなと思うが否や、それだけの金額は別に苦労しないで集ってくる。<br/><br/>それに準じて、最も適した設計者も土木建築家も、材料も思う通り必要なだけは、判で捺したように入手する。<br/><br/>庭木一本でも突如として誰かが持ってくる。<br/><br/>それがちゃんと当て嵌まるような場所がある。<br/><br/>時には、庭木が数本も数十本も一時に入手するので、私は戸惑いするが、これは神様がなさる事と思うから庭を睨みながら、順々に植えて行くと、過不足なく、きっちり当て嵌まってしまう。<br/><br/>その度毎に、一切は神様がやられる事が実によく判るのである。<br/><br/>ある位置にこういう石や木が欲しいと思うと、一日か二日でちゃんと来る。<br/><br/>これが奇蹟でなくて何であろう。<br/><br/>こういう事をかけば限りのない程で、追々かく事にするが今はただ片鱗だけをかいたのである。<br/><br/> この文はすべて人間がやっているのではない。<br/><br/>神様の経綸のままに、人間がやらされるという事を、判らせるためにかいたのである。<br/><br/>これらによってみても、神意は地上天国建設の第一歩として、その模型を造られるという事があまりに明らかである。<br/><br/>しかしながら、模型ばかりではない、人間、個人が天国人とならなければならない。<br/><br/>否、なり得る時期が来ているのである。<br/><br/>もちろん、家庭も天国化し、天国的生活者となるのである。<br/><br/>それで初めて、大衆が苦しんでいる地獄から救い上げ得るのである。<br/><br/>故に信者に対し、私は常に出来るだけ苦のない生活環境を作るべきで、それが神意に叶うゆえんであるというのである。<br/><br/>すなわち、病貧争の三苦が除去されなければ本当に人を救う事は出来ない。<br/><br/>しかしそのような事は、夜の世界では不可能であったが、今日はもはや可能となったのである事を知らなければならない。<br/><br/>彼の釈尊の唱えた苦の娑婆の時機は最早終ったのである。<br/><br/>この事の真諦（しんたい）が判ったとしたら、その歓喜は人類の経験にない程絶大なものがあろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

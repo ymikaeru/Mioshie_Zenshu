@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>butumetu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏滅と五六七の世 未発表『文明の創造』昭和27(1952)年執筆 その後釈尊は素晴らしい予言をされた。<br><br>それは今より数えて五十六億七千万年後仏滅の世となり、次いで弥勒菩薩下生され、弥勒の世を造り給う。<br><br>弥勒の世というのは、居ながらにして千里の先まで身を運ばれ、居ながらにして千里の先の声を聴き、居ながらにして千里の先から欲するものが得られるというので、その頃としては想像もつかない夢の世界である。<br><br>ところが現在の世界は最早右の予言通りになって来ているではないか。<br><br>としたら物質的にはすでに弥勒の世となっているのである。<br><br>ところで今まで仏者が迷ったのは、この五十六億七千万年という数字であった。<br><br>しかしこれはちょっと考えただけでも直ぐ判るはずである。<br><br>何となればいかに釈尊といえども現実的に、五十六億七千万年などという、途方もない先の世の中を予言される訳ないからである。<br><br>それ程先の世の中を予言したとて、何の役にも立たないではないか。<br><br>言うまでもなく、それまでに地球はどうなるか、テンデ見当もつかないであろう。<br><br>これは全く五、六、七という数字を知らせんがためである。<br><br>というのは弥勒の世とは、私の言う五六七（ミロク）の世界であって、この五六七を解釈すれば、五は日であり、六は月であり、七は地の意味になるからで、すなわち順序正しい世界という事である。<br><br>これについて一層深い意味をかいてみよう。<br><br> 今まで夜の世界というのは、日が天に昇っていなかった時の事である。<br><br>もちろん霊界の事象ではあるが、これを小さく地球にたとえてみればよく分る。<br><br>夜は月が上天にあって照らしていたが、段々地球を一周して、西の涯から下って地球の蔭に隠れる。<br><br>すると太陽が東から昇って、中天に輝くとすれば、これが昼間の世界である。<br><br>そうなれば天は火であり、中界は水素の世界であり、地は依然として地であるから、これが五六七の順序である。<br><br>右を一言にして言えば、昼の世界とは、今まで見えなかった日が、中天に輝く姿で、それが五六七の世である。<br><br> また釈尊はある日弟子から、仏教の真髄を訊かれた事があった。<br><br>世尊は「左様一言にしていえば真如である」と仰せられた。<br><br>真如とは無論真如の月の事で、その時既に仏法は月の教えである事を示されたのである。<br><br>そうして真如という文字は、真のごとしとかくのであるから、真ではない訳で、この点もよく考えなくてはならない。<br><br>それから仏典では、実相真如と言われているが、これは逆である。<br><br>何となれば実相とは、真実という意味で、すなわち昼の世界である。<br><br>真如は夜の世界であるから順序からいって真如が先で実相世界は次に生まれるのである。<br><br>今一つ同じような事がある。<br><br>それは経文には三千大千世界とあるが、これも逆であるから、私の善言讃詞の中には大千三千世界と直してある。<br><br>というのは三千世界とは、神幽現の三界であるに対し、これを纏（まと）めて一つにすれば大千世界となる。<br><br>大とは一人とかくのであって主神御一方が主宰され給う意味である。<br><br> 次に釈尊はこういう事もいわれた。<br><br>この世は厭離穢土（えんりえど）であり、火宅（かたく）であり、苦の娑婆でもある。<br><br>また生病老死の四苦があるとも云われ、諸行無常、諸悪滅法等とも言われたので、どれもこれも世をはかなんだ言葉である。<br><br>また一切空とか空々寂々とか、無だとも言われた。<br><br>そこで右の意味を総括してみると、どうせこの世は苦の娑婆だから、苦は脱れられない。<br><br>人間は生まれながらにして、苦しみを背負っているのだ。<br><br>いくら藻掻（もが）いたとて仕方がないから覚るのが肝腎だ。<br><br>つまり諦めである。<br><br>人間がいかに大きな望みを抱いたとて無駄であり、一寸先も分らぬ闇の世であるから、安心など出来ようはずがない。<br><br>そうしてこの世は仮の娑婆だから、いくら骨折って造ったものでも結局は無になり、空になってしまうので、何事も永遠性はない。<br><br>だから一切の欲望は結局一時的煩悩にしか過ぎないのだから、諦める事だ。<br><br>諦め切ってしまえば、真の安心立命を得られるのだと説かれたのであって、これが仏教の真髄であるとしたら全く夜の世界の姿をよく物語っている。<br><br>この意味において万事は昼の世界までの運命でしかない事を、遺憾なく示されている。<br><br>従って人間は実相世界が来るまで待つより仕方ない事で、それが今日までの賢明な考え方であったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Profecia de Shakyamuni e o Advento do Mundo de Miroku</h2>
 <p>Posteriormente, Shakyamuni proferiu uma magnífica profecia. Ele vaticinou que, transcorridos cinco bilhões, seiscentos e setenta milhões de anos, adviria a era do Ocaso do Budismo, seguida pela descida do Bodhisattva Miroku para estabelecer Seu Reino. A Era de Miroku foi descrita como um mundo de sonho, inimaginável para a sua época: um lugar onde seria possível, sem sair de casa, viajar para locais a mil léguas de distância, ouvir vozes de paragens igualmente remotas e obter o que se desejasse de qualquer lugar.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Adicionalmente, Shakyamuni ensinou que este mundo é um lugar impuro e detestável [厭離穢土 (Enri Edo)], uma morada em chamas [火宅 (Kataku)] e um universo de aflições [苦の娑婆 (Ku no Shaba)]. Ele também falou dos Quatro Sofrimentos — nascimento, doença, velhice e morte —, da impermanência de todas as coisas [諸行無常 (Shogyō Mujō)] e da extinção de todo o mal. Todas essas são, inequivocamente, palavras que denotam um profundo desengano perante o mundo. Ele também ensinou que tudo é vazio [一切空 (Issai Kū)], um silêncio vacilante, um nada.</p>
 <p>Ao consolidarmos o significado de tais preceitos, emerge uma conclusão clara: uma vez que este mundo é um lugar de sofrimento, este é inescapável. O ser humano já nasce carregando seu fardo. Lutar contra isso é inútil; o essencial é despertar para essa realidade, ou seja, resignar-se. A 諦め (akirame) – a resignação – torna-se, assim, o caminho. Nutrir grandes esperanças é fútil em um mundo de trevas onde não se pode enxergar um palmo à frente, o que torna a paz de espírito inalcançável. Sendo este um mundo provisório, tudo o que se constrói com grande esforço acaba por se tornar nada, por se reduzir ao vazio, pois nada possui eternidade. Portanto, a única saída é renunciar a todo e qualquer desejo, que não passa de um tormento passageiro. Apenas através da completa resignação, segundo ele, seria possível alcançar a verdadeira paz de espírito e aceitar o seu destino.</p>
 <p>Se essa é a quintessência do Budismo, então ela retrata com fidelidade a realidade do Mundo da Noite. Nesse sentido, seus ensinamentos demonstram, de forma irrefutável, que todas as coisas estavam fadadas a um destino limitado à transição para o Mundo do Dia. Consequentemente, a única atitude sensata para a humanidade, até o presente momento, era aguardar a chegada do mundo da Verdadeira Realidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏滅と五六七の世 未発表『文明の創造』昭和27(1952)年執筆 その後釈尊は素晴らしい予言をされた。<br/><br/>それは今より数えて五十六億七千万年後仏滅の世となり、次いで弥勒菩薩下生され、弥勒の世を造り給う。<br/><br/>弥勒の世というのは、居ながらにして千里の先まで身を運ばれ、居ながらにして千里の先の声を聴き、居ながらにして千里の先から欲するものが得られるというので、その頃としては想像もつかない夢の世界である。<br/><br/>ところが現在の世界は最早右の予言通りになって来ているではないか。<br/><br/>としたら物質的にはすでに弥勒の世となっているのである。<br/><br/>ところで今まで仏者が迷ったのは、この五十六億七千万年という数字であった。<br/><br/>しかしこれはちょっと考えただけでも直ぐ判るはずである。<br/><br/>何となればいかに釈尊といえども現実的に、五十六億七千万年などという、途方もない先の世の中を予言される訳ないからである。<br/><br/>それ程先の世の中を予言したとて、何の役にも立たないではないか。<br/><br/>言うまでもなく、それまでに地球はどうなるか、テンデ見当もつかないであろう。<br/><br/>これは全く五、六、七という数字を知らせんがためである。<br/><br/>というのは弥勒の世とは、私の言う五六七（ミロク）の世界であって、この五六七を解釈すれば、五は日であり、六は月であり、七は地の意味になるからで、すなわち順序正しい世界という事である。<br/><br/>これについて一層深い意味をかいてみよう。<br/><br/> 今まで夜の世界というのは、日が天に昇っていなかった時の事である。<br/><br/>もちろん霊界の事象ではあるが、これを小さく地球にたとえてみればよく分る。<br/><br/>夜は月が上天にあって照らしていたが、段々地球を一周して、西の涯から下って地球の蔭に隠れる。<br/><br/>すると太陽が東から昇って、中天に輝くとすれば、これが昼間の世界である。<br/><br/>そうなれば天は火であり、中界は水素の世界であり、地は依然として地であるから、これが五六七の順序である。<br/><br/>右を一言にして言えば、昼の世界とは、今まで見えなかった日が、中天に輝く姿で、それが五六七の世である。<br/><br/> また釈尊はある日弟子から、仏教の真髄を訊かれた事があった。<br/><br/>世尊は「左様一言にしていえば真如である」と仰せられた。<br/><br/>真如とは無論真如の月の事で、その時既に仏法は月の教えである事を示されたのである。<br/><br/>そうして真如という文字は、真のごとしとかくのであるから、真ではない訳で、この点もよく考えなくてはならない。<br/><br/>それから仏典では、実相真如と言われているが、これは逆である。<br/><br/>何となれば実相とは、真実という意味で、すなわち昼の世界である。<br/><br/>真如は夜の世界であるから順序からいって真如が先で実相世界は次に生まれるのである。<br/><br/>今一つ同じような事がある。<br/><br/>それは経文には三千大千世界とあるが、これも逆であるから、私の善言讃詞の中には大千三千世界と直してある。<br/><br/>というのは三千世界とは、神幽現の三界であるに対し、これを纏（まと）めて一つにすれば大千世界となる。<br/><br/>大とは一人とかくのであって主神御一方が主宰され給う意味である。<br/><br/> 次に釈尊はこういう事もいわれた。<br/><br/>この世は厭離穢土（えんりえど）であり、火宅（かたく）であり、苦の娑婆でもある。<br/><br/>また生病老死の四苦があるとも云われ、諸行無常、諸悪滅法等とも言われたので、どれもこれも世をはかなんだ言葉である。<br/><br/>また一切空とか空々寂々とか、無だとも言われた。<br/><br/>そこで右の意味を総括してみると、どうせこの世は苦の娑婆だから、苦は脱れられない。<br/><br/>人間は生まれながらにして、苦しみを背負っているのだ。<br/><br/>いくら藻掻（もが）いたとて仕方がないから覚るのが肝腎だ。<br/><br/>つまり諦めである。<br/><br/>人間がいかに大きな望みを抱いたとて無駄であり、一寸先も分らぬ闇の世であるから、安心など出来ようはずがない。<br/><br/>そうしてこの世は仮の娑婆だから、いくら骨折って造ったものでも結局は無になり、空になってしまうので、何事も永遠性はない。<br/><br/>だから一切の欲望は結局一時的煩悩にしか過ぎないのだから、諦める事だ。<br/><br/>諦め切ってしまえば、真の安心立命を得られるのだと説かれたのであって、これが仏教の真髄であるとしたら全く夜の世界の姿をよく物語っている。<br/><br/>この意味において万事は昼の世界までの運命でしかない事を、遺憾なく示されている。<br/><br/>従って人間は実相世界が来るまで待つより仕方ない事で、それが今日までの賢明な考え方であったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak31</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核ナンセンス 『地上天国』12号、昭和25(1950)年1月20日発行 この題とこの論文を見た専門家も一般人も、大いに憤慨する人と軽蔑する人と感心する人とがあるであろう。<br><br>しかし私はただ真理そのものを伝えるので、可否は見る人の心々に任せるだけである。<br><br>しかしながら真理である以上、いずれ何年か何十年後には一人残らず承服し、礼讃するであろう事も一点の疑う余地はあるまい。<br><br> さていよいよ本論にとり掛るが、近来、結核の早期発見を奨励しており、その唯一の手段として用いるものにツベルクリンの注射がある。<br><br>そうして反応のないものを陰性といい、紅く腫れるのを陽性といい、陽性に対しては、まず半ケ年間は結核発病の危険がありとなし、その間一ケ月に一度の試験注射を行うを可としている。<br><br>半ケ年を経て異常のないものは一まず注射を解くが、それでも当分三ケ月に一回の注射を勧めるのである。<br><br> したがって、最初の半ケ年の要注意期間中はなるべく過激な運動を避けるよう注意を与える。<br><br>というのはそれを守らないと、発病の危険があるからというのである。<br><br>以上のごとき医学の解釈は果して妥当であるや否やを検討してみよう。<br><br> それに先立ち私の研究とその成果を発表する事にするが、それによって右の可否は一層明らかとなるであろう。<br><br> そもそも私の唱える神霊医学は、病気とは自然に発生するところの浄化作用の過程としているが、結核といえどもその理に漏れるはずはない。<br><br>最初ツベルクリンの注射によって陰性であるという事は、体力劣弱にして浄化発生の力がないからで、それに引換え紅く腫れるのは、浄化力旺盛であるからである。<br><br>すなわち紅く腫脹する理由は、体内に注射液という異物が侵入するためその異物を体内深く侵入せしめざるよう、いわば防衛手段が発生するのである。<br><br>その防衛手段とは血液が異物侵入局部に集中し、異物との闘争を開始する。<br><br>その結果異物の毒分を弱めて、侵入の害から免れようとするのである。<br><br> 右の理は最初陰性であったものが、再三注射するや陰性が陽性に転化する。<br><br>これを医学では陽転というが、この訳は注射液が少量の場合、弱体者は浄化発生の必要が余りないが、多量になる場合はそれを防止するだけの浄化力が発生が必要となるのは当然で、自然は人体擁護の手段を遺憾なく具えているのである。<br><br> そうしていかなる人間といえども、一人も漏れなく先天性及び後天性の種々の毒素を保有している。<br><br>その毒素は平常時は体内あらゆる局所に固結しているが、一度浄化発生するや溶解し始める。<br><br>もちろんその場合発熱、咳嗽、節々の痛み、食欲不振等の初期結核の症状が表わる。<br><br>それによって保有毒素は排泄され、健康体となるのであるから、浄化発生こそ大いに喜ぶべき事で、神の大なる恩恵である。<br><br>ところが医学はこれを反対に解釈し、病気をもって健康上不可なるものとして恐れ、極力鎮圧手段に出る。<br><br>すなわちせっかく毒素排除活動が発ったのを元通り固めようとする。<br><br>それが医学の療法であるから、今日までの医学がいかに誤っていたかを知り得るのである。<br><br> これを一層詳しくかいてみよう。<br><br> 元来、肺臓という機能は、前述のごとく体内各局部の固結毒素が、発熱によって溶解液体化したのを、一旦肺臓が吸収する。<br><br>その毒素は、間もなく喀痰となって、次々体外へ排泄さるるのである。<br><br>その際の咳嗽は、喀痰を吸引するポンプ作用であるから、咳嗽の後は、必ず喀痰が出るにみて明らかである。<br><br>かくして体内の不純物は清掃され、その結果、健康は増進されるのであるから、実に自然は人体の健康保持に対しよく出来ているのである。<br><br> 右の理を知れば、肺患などはあり得るはずはないのである。<br><br>何となれば、右のごとく体内毒素が排泄の際の一時的停留所ともいうべき機能であるからである。<br><br>その理を知らない医学は、右のごとく一時的滞留の喀痰を肺自体から作られたものと解釈する。<br><br>ゆえにその際診断の結果ラッセルを認める。<br><br>ところがラッセルは呼吸による喀痰の響きであり、それを病気と誤り、滞溜喀痰を固める手段をとる。<br><br>その手段とは安静、薬剤使用、湿布、氷冷等で、これを忌揮なくいえばせっかく清掃のために、汚物が肺臓という中途の機関〔器官〕まで来たのを喰止めて、排泄されないよう極力固めようとするのである、それがため、濃度化した喀痰がレントゲン写真に雲翳（うんえい）となって写るや、結核と断定する。<br><br>これが結核の真相である。<br><br> ゆえに、右によって考えれば、結核は全く医学が作るといっても誤りではない。<br><br>何と怖るべきではあるまいか。<br><br>何年経っても結核が減らないばかりか、反って殖える傾向にあるのは前述のごとく全く誤れる結核の解釈によるので、医学が結核の大量生産をしている、という訳になる。<br><br>それについて、昭和二十四年十二月十一日発行報知新聞に次のごとき記事が出ている。<br><br> 「結核の現状を統計で見ると、総死亡千につき結核の死亡率は大正七年の九四、昭和七年の九八から戦争中の十八年は激増して一四一となり、昨年度は一五一となっている」云々。<br><br> ここで特に注意すべき事は、結核菌は感染するとして恐れられており、今日巨額の費用を投じ、この防止手段に官民共に大童（おおわらわ）であるが、これがまた大変な誤りである。<br><br>右のごとく最初のある時期までは菌はないのである。<br><br>しかしながら無菌喀痰といえども排泄されずして、長く滞溜する以上固結するから益々排泄困難となるばかりか人間の体は体温という微生物発生に好条件があるから、喀痰が古くなれば結核菌が自然発生するのは当然である。<br><br>これらも医学の誤謬は結核菌を作り培養するという訳になるから、この点パスツールの菌の自然発生否定の説は全然誤謬である。<br><br> 今一つ見のがすべからざる事は、陽性の際、結核発病を注意するが、この事は逆効果となる。<br><br>何とならばその一言によって患者は地獄の門に入ったと同様、前途不安に襲われる。<br><br>もちろんそのための神経作用によって意気消沈はもとより、食欲不振、不眠、神経衰弱を惹き起すのである。<br><br>中には神経性結核となり、生命を奪わるる者さえ往々見受けるのである。<br><br> また陽性後の強労働を戒めるのは、浄化力が発生するからで、医療の固める目的とは反対であるからである。<br><br>そうして特に水泳を戒めるが、これはこういう訳である。<br><br>水泳のごとき一定動作を持続するものは、一局部に毒素が集溜しやすい、水泳選手の身体を見ればよく判る。<br><br>肩部の一個所に往々卵大の固結をみるのである。<br><br>これが浄化発生によって、発熱を始め、結核初期の症状を呈するからである。<br><br> 前述のごとく、結核菌は自然発生であって、決して感染ではない。<br><br>私は今日まで幾千の人に対し菌の防衛手段をとらないばかりか、むしろ感染するようにしたが、一人の感染者も出ないにみて明らかであるから、この事が判っただけでもいかに救われるであろうかを想うのである。<br><br> この一文を、当局及び専門家に提供すると共に、一日も早くその蒙（もう）を啓かれん事を冀（こいねご）うて止まないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Equívoco da Tuberculose</h2>
 <p>Diante deste título e do presente artigo, tanto especialistas quanto o público leigo manifestarão reações diversas: haverá os que sentirão grande indignação, os que demonstrarão desprezo e os que ficarão admirados. Meu propósito, contudo, é unicamente transmitir a Verdade em sua pureza, cabendo a cada leitor formar seu próprio juízo. Todavia, por se tratar da Verdade, não resta a menor dúvida de que, dentro de alguns anos ou décadas, todos, sem exceção, hão de aceitá-la e reverenciá-la.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>A proibição de trabalhos pesados após um resultado positivo também tem sua razão de ser: o esforço físico estimula o início da purificação, o que contraria o objetivo da medicina de solidificar as toxinas. A natação, em particular, é desaconselhada pelo seguinte motivo: atividades que envolvem movimentos contínuos e repetitivos, como nadar, tendem a concentrar as toxinas em um único local. Isso fica evidente ao se observar o corpo de nadadores. Não é raro encontrar, em um ponto do ombro, uma massa endurecida do tamanho de um ovo. Quando o processo purificador se inicia, essa massa se liquefaz, provocando febre e os demais sintomas da fase inicial da tuberculose.</p>
 <p>Como afirmei anteriormente, o bacilo da tuberculose surge por geração espontânea; ele não é, de modo algum, contagioso. Até hoje, tratei milhares de pessoas e não apenas deixei de adotar quaisquer medidas de prevenção, como, ao contrário, propiciei condições que, segundo a medicina, favoreceriam o contágio. E, no entanto, nenhum caso de infecção foi registrado, o que comprova inequivocamente minha tese. Imagino o alívio que a simples compreensão deste fato trará a inúmeras pessoas.</p>
 <p>Ofereço este artigo às autoridades e aos especialistas, rogando para que despertem o quanto antes da ilusão em que se encontram.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核ナンセンス 『地上天国』12号、昭和25(1950)年1月20日発行 この題とこの論文を見た専門家も一般人も、大いに憤慨する人と軽蔑する人と感心する人とがあるであろう。<br/><br/>しかし私はただ真理そのものを伝えるので、可否は見る人の心々に任せるだけである。<br/><br/>しかしながら真理である以上、いずれ何年か何十年後には一人残らず承服し、礼讃するであろう事も一点の疑う余地はあるまい。<br/><br/> さていよいよ本論にとり掛るが、近来、結核の早期発見を奨励しており、その唯一の手段として用いるものにツベルクリンの注射がある。<br/><br/>そうして反応のないものを陰性といい、紅く腫れるのを陽性といい、陽性に対しては、まず半ケ年間は結核発病の危険がありとなし、その間一ケ月に一度の試験注射を行うを可としている。<br/><br/>半ケ年を経て異常のないものは一まず注射を解くが、それでも当分三ケ月に一回の注射を勧めるのである。<br/><br/> したがって、最初の半ケ年の要注意期間中はなるべく過激な運動を避けるよう注意を与える。<br/><br/>というのはそれを守らないと、発病の危険があるからというのである。<br/><br/>以上のごとき医学の解釈は果して妥当であるや否やを検討してみよう。<br/><br/> それに先立ち私の研究とその成果を発表する事にするが、それによって右の可否は一層明らかとなるであろう。<br/><br/> そもそも私の唱える神霊医学は、病気とは自然に発生するところの浄化作用の過程としているが、結核といえどもその理に漏れるはずはない。<br/><br/>最初ツベルクリンの注射によって陰性であるという事は、体力劣弱にして浄化発生の力がないからで、それに引換え紅く腫れるのは、浄化力旺盛であるからである。<br/><br/>すなわち紅く腫脹する理由は、体内に注射液という異物が侵入するためその異物を体内深く侵入せしめざるよう、いわば防衛手段が発生するのである。<br/><br/>その防衛手段とは血液が異物侵入局部に集中し、異物との闘争を開始する。<br/><br/>その結果異物の毒分を弱めて、侵入の害から免れようとするのである。<br/><br/> 右の理は最初陰性であったものが、再三注射するや陰性が陽性に転化する。<br/><br/>これを医学では陽転というが、この訳は注射液が少量の場合、弱体者は浄化発生の必要が余りないが、多量になる場合はそれを防止するだけの浄化力が発生が必要となるのは当然で、自然は人体擁護の手段を遺憾なく具えているのである。<br/><br/> そうしていかなる人間といえども、一人も漏れなく先天性及び後天性の種々の毒素を保有している。<br/><br/>その毒素は平常時は体内あらゆる局所に固結しているが、一度浄化発生するや溶解し始める。<br/><br/>もちろんその場合発熱、咳嗽、節々の痛み、食欲不振等の初期結核の症状が表わる。<br/><br/>それによって保有毒素は排泄され、健康体となるのであるから、浄化発生こそ大いに喜ぶべき事で、神の大なる恩恵である。<br/><br/>ところが医学はこれを反対に解釈し、病気をもって健康上不可なるものとして恐れ、極力鎮圧手段に出る。<br/><br/>すなわちせっかく毒素排除活動が発ったのを元通り固めようとする。<br/><br/>それが医学の療法であるから、今日までの医学がいかに誤っていたかを知り得るのである。<br/><br/> これを一層詳しくかいてみよう。<br/><br/> 元来、肺臓という機能は、前述のごとく体内各局部の固結毒素が、発熱によって溶解液体化したのを、一旦肺臓が吸収する。<br/><br/>その毒素は、間もなく喀痰となって、次々体外へ排泄さるるのである。<br/><br/>その際の咳嗽は、喀痰を吸引するポンプ作用であるから、咳嗽の後は、必ず喀痰が出るにみて明らかである。<br/><br/>かくして体内の不純物は清掃され、その結果、健康は増進されるのであるから、実に自然は人体の健康保持に対しよく出来ているのである。<br/><br/> 右の理を知れば、肺患などはあり得るはずはないのである。<br/><br/>何となれば、右のごとく体内毒素が排泄の際の一時的停留所ともいうべき機能であるからである。<br/><br/>その理を知らない医学は、右のごとく一時的滞留の喀痰を肺自体から作られたものと解釈する。<br/><br/>ゆえにその際診断の結果ラッセルを認める。<br/><br/>ところがラッセルは呼吸による喀痰の響きであり、それを病気と誤り、滞溜喀痰を固める手段をとる。<br/><br/>その手段とは安静、薬剤使用、湿布、氷冷等で、これを忌揮なくいえばせっかく清掃のために、汚物が肺臓という中途の機関〔器官〕まで来たのを喰止めて、排泄されないよう極力固めようとするのである、それがため、濃度化した喀痰がレントゲン写真に雲翳（うんえい）となって写るや、結核と断定する。<br/><br/>これが結核の真相である。<br/><br/> ゆえに、右によって考えれば、結核は全く医学が作るといっても誤りではない。<br/><br/>何と怖るべきではあるまいか。<br/><br/>何年経っても結核が減らないばかりか、反って殖える傾向にあるのは前述のごとく全く誤れる結核の解釈によるので、医学が結核の大量生産をしている、という訳になる。<br/><br/>それについて、昭和二十四年十二月十一日発行報知新聞に次のごとき記事が出ている。<br/><br/> 「結核の現状を統計で見ると、総死亡千につき結核の死亡率は大正七年の九四、昭和七年の九八から戦争中の十八年は激増して一四一となり、昨年度は一五一となっている」云々。<br/><br/> ここで特に注意すべき事は、結核菌は感染するとして恐れられており、今日巨額の費用を投じ、この防止手段に官民共に大童（おおわらわ）であるが、これがまた大変な誤りである。<br/><br/>右のごとく最初のある時期までは菌はないのである。<br/><br/>しかしながら無菌喀痰といえども排泄されずして、長く滞溜する以上固結するから益々排泄困難となるばかりか人間の体は体温という微生物発生に好条件があるから、喀痰が古くなれば結核菌が自然発生するのは当然である。<br/><br/>これらも医学の誤謬は結核菌を作り培養するという訳になるから、この点パスツールの菌の自然発生否定の説は全然誤謬である。<br/><br/> 今一つ見のがすべからざる事は、陽性の際、結核発病を注意するが、この事は逆効果となる。<br/><br/>何とならばその一言によって患者は地獄の門に入ったと同様、前途不安に襲われる。<br/><br/>もちろんそのための神経作用によって意気消沈はもとより、食欲不振、不眠、神経衰弱を惹き起すのである。<br/><br/>中には神経性結核となり、生命を奪わるる者さえ往々見受けるのである。<br/><br/> また陽性後の強労働を戒めるのは、浄化力が発生するからで、医療の固める目的とは反対であるからである。<br/><br/>そうして特に水泳を戒めるが、これはこういう訳である。<br/><br/>水泳のごとき一定動作を持続するものは、一局部に毒素が集溜しやすい、水泳選手の身体を見ればよく判る。<br/><br/>肩部の一個所に往々卵大の固結をみるのである。<br/><br/>これが浄化発生によって、発熱を始め、結核初期の症状を呈するからである。<br/><br/> 前述のごとく、結核菌は自然発生であって、決して感染ではない。<br/><br/>私は今日まで幾千の人に対し菌の防衛手段をとらないばかりか、むしろ感染するようにしたが、一人の感染者も出ないにみて明らかであるから、この事が判っただけでもいかに救われるであろうかを想うのである。<br/><br/> この一文を、当局及び専門家に提供すると共に、一日も早くその蒙（もう）を啓かれん事を冀（こいねご）うて止まないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

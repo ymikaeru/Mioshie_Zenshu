@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsissei</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 湿性肋膜の盗汗 心配すべきものにあらず 『救世』50号、昭和25(1950)年2月18日発行 茨城県 五六七大教会大暉中教会 鈴木長四郎（24） 私の発病は昭和二十二年四月下旬であった。<br><br>二月末感冒に罹り日頃の体の条件からいってこの位と高をくくっていたが、頭が割れそうに痛み、水鼻はかめどもかめども後を断たず、平常と異った感覚が脳を刺激するに及んで、もしや結核の初期ではないかと校医の門を叩いた。<br><br>その結果は単なる感冒との事で安心感を懐きつつ家路を急いだ。<br><br>安静とアスピリンの治療によってやっと床を去る事が出来た。<br><br>しかしその前後より机に向っているとひどく労働したかのように腰が痛み、殊に就寝時はこの状態がひどくなった。<br><br>なにこれ位の事と思っているうちに春休みになり郷里へ帰った。<br><br>風はさわやかに青草は燃え出る春を毎日気分がすぐれず、その内に肋膜部が痛み、どうしても止らず、医者の診断の結果は湿性肋膜と宣せられ、呆然とし、華かな青春の歓喜から一瞬暗黒の世界へと落込んだ。<br><br> デカダン的になった私は肋膜から水を取り寂しく家へ向った。<br><br>この頃の私は茶褐色の痰を吐き、呼吸困難で、熱は三十八度を前後し、温湿布と絶対安静を重ね、一週間位するとようやく熱も六度台になりましたが、一日の中午後三時頃の体温はいつも七度一、二分の結核熟におびやかされたが、十月も半ば過ぎる頃百米位歩行を許され退院したのでした。<br><br>しかし十二月末、再び感冒になり熱は三十八度線を上下し、右胸に水が溜り、再発かと思いながら一生私はこの身を病床に横たえなければならぬかと思い、人生に悲哀を感じた過去の療養中、特効薬のない事等思い浮べ、安静が唯一の療養と考え、絶対安静に努めた。<br><br>翌年の四月下旬になると一週に一度位三十七度の赤線を越える程度にこぎつけ、早く体力を付けようと毎日卵数個や魚等御飯は茶腕に二杯も食べた。<br><br>そのため却って胃腸をこわし、日頃の下痢はその度を増し、ある時は便秘に悩まされ、胃が垂れ下ったような気がし、胃下垂の状態になり日に日に体は衰弱し、果ては死を覚悟せねばならぬまでに至った。<br><br> その時何処より来られたのか神の福音の御使として、角田先生が今眼前に迫り来る死の断末魔に喘いでいた私を救って下さろうとお出で下され、御浄霊の効果等についてお話をされました。<br><br>早速姉に教修を受けて頂き、姉から御浄霊を受ける事になった。<br><br>信仰に対して絶えず懐疑的でありましたが、生死の一線を浮きつ沈みつ溺れる者藁をもつかむ心地で、ただ偉大な何物かにすがりたい気持で、ひたすら光明如来様におすがりしたのは青葉の燃え出る五月上旬でした。<br><br> 御浄霊を頂きながらも、今迄物質文明が最上至高のものと思って来たので中々御浄霊の理解が出来ず懐疑の日は続きました。<br><br>一週間位経ったある晩のこと姉が頭を御浄霊しているとスーッと頭が冴えて、物質的作用も化学的作用もしないにもかかわらず、室内で霊の放射に依って今迄の苦痛の箇所が燃えるように熱くなり、浄霊後は今迄の体は他人の物のように心地良くなって行くのでした。<br><br>「アア」と思わず感歎の声を発してしまいました。<br><br>姉は毎日学校から帰り疲れた身もいとわず光明如来様に感謝しつつ御浄霊してくれるのです。<br><br>これに答えてか、私も病床で光明如来様朝夕お祈りを申し上げるようになりました。<br><br>その後二、三日するとひどく盗汗が出て驚いて先生にお尋ねしたところ「浄化作用である」と申され安心致しました。<br><br>その後は日増に具合が良く今日に至りました。<br><br>ただ今では罹病前以上の健康体にして戴き、専ら地上天国建設の御事業に出来ないながらもお手伝いさせて頂いております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Suores Noturnos na Pleurisia Úmida Não São Motivo para Preocupação</h2>
 <p>Publicado na revista 'Kyusei', nº 50, em 18 de fevereiro de 1950
@@ -100,5 +255,48 @@ Igreja Daiki da Grande Igreja Miroku, Província de Ibaraki</p>
 <p>Foi nesse momento, quando eu agonizava nos estertores da morte iminente, que o Reverendo Kakuda surgiu, como um mensageiro do Evangelho Divino vindo não sei de onde, para me salvar. Ele me falou sobre os efeitos do Johrei. Imediatamente, pedi que minha irmã participasse do curso de formação para que eu pudesse receber Johrei por meio dela. Embora sempre tivesse sido cético em relação à fé, na minha condição de alguém que flutuava na fronteira entre a vida e a morte, agarrei-me a essa esperança como um náufrago se agarra a um destroço. Com o simples desejo de me amparar em algo grandioso, entreguei-me de corpo e alma a Komyō Nyorai-sama. Isso ocorreu no início de maio, quando o verde tenro das folhas brotava por toda parte.</p>
 <p>Mesmo recebendo Johrei, meus dias de ceticismo persistiram. Tendo sido educado a ver a civilização material como o bem supremo e mais elevado, eu tinha grande dificuldade em compreender a natureza do Johrei. Certa noite, após cerca de uma semana, enquanto minha irmã me ministrava Johrei na cabeça, senti uma clareza súbita me invadir a mente. Embora não houvesse qualquer ação material ou química, as partes do meu corpo que antes doíam tornaram-se quentes como brasas, devido à irradiação espiritual no ambiente. Após o Johrei, senti um bem-estar tão profundo que meu corpo parecia pertencer a outra pessoa. Diante disso, não pude conter um suspiro de admiração: "Ah!".</p>
 <p>Minha irmã, todos os dias, ao voltar da escola, sem se importar com o próprio cansaço, ministrava-me Johrei com um coração transbordante de gratidão a Komyō Nyorai-sama. Em resposta a essa dedicação, também eu passei a orar a Komyō Nyorai-sama, manhã e noite, em meu leito. Passados dois ou três dias, comecei a ter suores noturnos intensos. Assustado, relatei o ocorrido ao Reverendo, que me tranquilizou, explicando: "Trata-se de uma purificação". A partir de então, minha saúde melhorou progressivamente até o dia de hoje. Atualmente, fui abençoado com uma saúde ainda mais robusta do que a que possuía antes de adoecer e, embora minhas capacidades sejam limitadas, dedico-me a servir, da melhor forma que posso, na sagrada Obra de construção do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 湿性肋膜の盗汗 心配すべきものにあらず 『救世』50号、昭和25(1950)年2月18日発行 茨城県 五六七大教会大暉中教会 鈴木長四郎（24） 私の発病は昭和二十二年四月下旬であった。<br/><br/>二月末感冒に罹り日頃の体の条件からいってこの位と高をくくっていたが、頭が割れそうに痛み、水鼻はかめどもかめども後を断たず、平常と異った感覚が脳を刺激するに及んで、もしや結核の初期ではないかと校医の門を叩いた。<br/><br/>その結果は単なる感冒との事で安心感を懐きつつ家路を急いだ。<br/><br/>安静とアスピリンの治療によってやっと床を去る事が出来た。<br/><br/>しかしその前後より机に向っているとひどく労働したかのように腰が痛み、殊に就寝時はこの状態がひどくなった。<br/><br/>なにこれ位の事と思っているうちに春休みになり郷里へ帰った。<br/><br/>風はさわやかに青草は燃え出る春を毎日気分がすぐれず、その内に肋膜部が痛み、どうしても止らず、医者の診断の結果は湿性肋膜と宣せられ、呆然とし、華かな青春の歓喜から一瞬暗黒の世界へと落込んだ。<br/><br/> デカダン的になった私は肋膜から水を取り寂しく家へ向った。<br/><br/>この頃の私は茶褐色の痰を吐き、呼吸困難で、熱は三十八度を前後し、温湿布と絶対安静を重ね、一週間位するとようやく熱も六度台になりましたが、一日の中午後三時頃の体温はいつも七度一、二分の結核熟におびやかされたが、十月も半ば過ぎる頃百米位歩行を許され退院したのでした。<br/><br/>しかし十二月末、再び感冒になり熱は三十八度線を上下し、右胸に水が溜り、再発かと思いながら一生私はこの身を病床に横たえなければならぬかと思い、人生に悲哀を感じた過去の療養中、特効薬のない事等思い浮べ、安静が唯一の療養と考え、絶対安静に努めた。<br/><br/>翌年の四月下旬になると一週に一度位三十七度の赤線を越える程度にこぎつけ、早く体力を付けようと毎日卵数個や魚等御飯は茶腕に二杯も食べた。<br/><br/>そのため却って胃腸をこわし、日頃の下痢はその度を増し、ある時は便秘に悩まされ、胃が垂れ下ったような気がし、胃下垂の状態になり日に日に体は衰弱し、果ては死を覚悟せねばならぬまでに至った。<br/><br/> その時何処より来られたのか神の福音の御使として、角田先生が今眼前に迫り来る死の断末魔に喘いでいた私を救って下さろうとお出で下され、御浄霊の効果等についてお話をされました。<br/><br/>早速姉に教修を受けて頂き、姉から御浄霊を受ける事になった。<br/><br/>信仰に対して絶えず懐疑的でありましたが、生死の一線を浮きつ沈みつ溺れる者藁をもつかむ心地で、ただ偉大な何物かにすがりたい気持で、ひたすら光明如来様におすがりしたのは青葉の燃え出る五月上旬でした。<br/><br/> 御浄霊を頂きながらも、今迄物質文明が最上至高のものと思って来たので中々御浄霊の理解が出来ず懐疑の日は続きました。<br/><br/>一週間位経ったある晩のこと姉が頭を御浄霊しているとスーッと頭が冴えて、物質的作用も化学的作用もしないにもかかわらず、室内で霊の放射に依って今迄の苦痛の箇所が燃えるように熱くなり、浄霊後は今迄の体は他人の物のように心地良くなって行くのでした。<br/><br/>「アア」と思わず感歎の声を発してしまいました。<br/><br/>姉は毎日学校から帰り疲れた身もいとわず光明如来様に感謝しつつ御浄霊してくれるのです。<br/><br/>これに答えてか、私も病床で光明如来様朝夕お祈りを申し上げるようになりました。<br/><br/>その後二、三日するとひどく盗汗が出て驚いて先生にお尋ねしたところ「浄化作用である」と申され安心致しました。<br/><br/>その後は日増に具合が良く今日に至りました。<br/><br/>ただ今では罹病前以上の健康体にして戴き、専ら地上天国建設の御事業に出来ないながらもお手伝いさせて頂いております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

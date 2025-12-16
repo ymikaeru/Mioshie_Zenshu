@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kise001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 １ 001-018 御神体 001 御神体の奇蹟 これは始終ある。<br><br>光明如来様が見せて下さる。<br><br>現実においでになるのを知らすためである。<br><br>これで信仰が深くなる。<br><br>（S23） 002 御書御神体に御神顔拝す 御神体の上部、大光明如来様の大の文字の上方にお観音様のお顔を毎朝拝します訳。<br><br> 文字だけでなく、そこに観音様がおられる事を観音様が示され、教えて下さるのである。<br><br> 003 御神体にお姿見ゆ 私の母は最近大先生の御書体にお姿が拝め、その御姿が御書体によってはっきり見えたり正面、横向きや後向きに色々に拝めるそうです。<br><br>また、分会長先生宅の大光明如来様にはお姿の外に龍神が見え、近頃また他に一体のお姿が見えるそうで御座いますが、このように三体の御姿を拝めるという事があるものでしょうか。<br><br>御伺い致します。<br><br> 無論、あっても当り前である。<br><br>信仰を強くするよういろいろな奇蹟をやられる。<br><br>（S24. 5.26） 004 暗に御神姿を拝す 昨年の十二月、私達の土地の教導所の例祭があり、私も参拝致しました。<br><br>夜の八時頃、丁度御祭りが終ったと思うと停電しました。<br><br>その時、御軸のあたりに観音様の御姿が現われて有難く拝しました。<br><br>これは何か意味があるのでしょうか。<br><br> 奇蹟を見せて下さったのである。<br><br>字でもお姿でも、観音様がお出になる事を知らすために見せて下さったのである。<br><br>人間が信じないから見せて下さるのである。<br><br>（S24. 3.15） 005 御神体の奇蹟（御神霊お入り） お祭りしてある光明如来のお軸に朝日がさし込み、“光”の左の方へ五センチ位の円い光が当り、一分間位の間に“光”の字の中央に入って見えなくなりました。<br><br>その後一週間位を経て次は“明”の字に同様に現われました。<br><br>その意義を教えて頂きたいと存じます。<br><br> 神霊である。<br><br>御神霊が文字へお入りになったのだと思う。<br><br> 神様は丸い。<br><br>吉い事である。<br><br>（S24. 7.27） 006 御神体に男女多数を見る 昨年十一月三日に私方、大光明如来様の御霊鎮めをさせて頂きました。<br><br>丁度その前日に光明如来様の御軸を拝しておりますと、大先生が太い筆で御揮毫中の御姿を拝しました。<br><br>その後は薄暗くして御軸を拝しますと、白い着物を着た厳めしい男の方や、時には女の方も見られます。<br><br>（これは他の家の御軸を拝しましても見受けられます）これはいかなる訳でございましょうか。<br><br> 霊界ではかようになっている。<br><br>大先生のお書きになられたものは、御神霊がうつっている。<br><br> 霊界でもこの教えで救われた者が集ってくる。<br><br>そこの家の高天原――。<br><br>（S25. 1.15） 007 御神体揺れる 御祈りを致しております時に、風もないのに光明如来様の御軸が左右に振れる事がありますが、いかなる意味で御座居ましょうか。<br><br> 神を信じない人に見せるためである。<br><br> 揺れる事はすべていい事である。<br><br>御姿の観音様が抜け出たり、人に話をする事がある。<br><br>（S23.10.25） 008 御神体礼拝時揺れる 私の藤沢の教導所の大光明如来様の御神体が、夕拝の時に限り無風の場合でも前に揺れることが多いのですが、いかなる意味がございましょうか。<br><br>御伺い申し上げます。<br><br> 紙に字を書いたものでなく、光明如来様が生きておられる事を示されたのである。<br><br>（S24. 9. 9） 009 御色紙自揺す―霊の喜び 三月二十九日より奈良へ出張中、私の教導所にて四月五日午後七時頃、御浄霊室にお掛けしてあります大先生様の更生記念の“寿”の御色紙の雲版が左右に揺れました。<br><br>何か霊的なる意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 吉い事である。<br><br>救われて喜んだ霊が知らしたのである。<br><br>霊によっていろんな形をして知らす。<br><br>普通はローソクで知らす。<br><br>知らしたくて仕様のないもので、霊の感謝は大変なものである。<br><br> rattail（注） 〔 御光話（S24年8月特輯号） 『御光話録』11号、昭和24(1949)年8月21日発行〕掲載 010 お供物の三宝倒る 私の所属の教導所及び同所の熱心に布教している教導師五人に、最近度々不思議な事が起ります。<br><br>八月初旬、私がその教導所に泊りました翌朝、大光明如来様御前に、御神酒と御神水と御洗米の御三宝が倒れておました。<br><br>その後、右のごときことが度々起り、ここに泊る人は、最初の夜何者かに首をしめられる恐ろしさに眼が醒めます。<br><br>教導師も同じような事があり、未だに続いて起ります。<br><br>一同大変気にしておりますが、今後どのように致しましたら宜敷う御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 御米やお水は間違っている。<br><br>観音様は人間の御姿で、人間は生米などは食わぬ。<br><br>人間と同じものを上げなくてはいけないと先に言ったはずである。<br><br>何か祟っている死霊である。<br><br>いろんな原因の場合があるからはっきり断定は出来ぬ。<br><br>間違った点はないか査べてみよ。<br><br>（S24. 9. 5） 011 お供への蓮散る 御神体の前にいけさせて頂きました蓮の花がもの凄く揺れまして、その花は散らされてしまいました。<br><br>霊的に何か関係が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 蓮の華は、よせという事であろう。<br><br>仏の花であるから、仏滅だからやめよとの事であろう。<br><br>祖霊がやったものである。<br><br>（S24. 8.22） 012 蝋燭の光と霊示 光明如来の御祭りの際に仏壇中でコトコト音がし、ローソクの光に異常があります。<br><br>その理由をお示し下さい。<br><br> 先祖が喜んでいるので音がする。<br><br>神様を拝んでると、ドシンと音がする事がある。<br><br>音で知らされる事はよくある。<br><br> 神様が勇まれると、ローソクが揺らぐ。<br><br>神様が知らさるる訳である。<br><br> 013 身代り 四月二十八日午後二時過ぎ、風のないのに戸が倒れまして御神体をお切りしましたことを深く御詫び申し上げます。<br><br>同時刻に主人が工場で旋盤の機械にまき込まれるところを、ズボンだけまきこまれて事なきを得ました。<br><br>御守護誠に有難う御座いました。<br><br> これは身代りである。<br><br>（S25. 5. 8） 014 光明如来様、消毒剤の非をお知らせ給う ある信徒の家の光明如来様の御霊鎮めの際に、参拝の全信徒の眼がしかしかと痛み出し、皆が不思議に思いました。<br><br>すると一信徒が穀物の消毒剤の二硫化炭素を買って来て置いたのに気がつき、それを部屋外へ出しますと痛みが止りました。<br><br>右の品は完全に封がしてあり、家へ持ち帰り、封を取って一日になっても以前のような現象はありませんでした。<br><br>総ての物質から霊気が出ているそうですが、右の場合はいかなる訳で目が痛み、また光明如来様の前とそうでない場合と違うのはいかなる理由によるのでしょうか。<br><br>御伺い申し上げます。<br><br> 光明如来様がそういうものを使ってはいけないという事を知らして下さった。<br><br>それで光を強くされた。<br><br>穀物の消毒薬は間違っている。<br><br>薬で病気を作って止めてると同様、間違った耕作をしてるから薬を服ます事となる。<br><br>（S24. 7.27） 015 御神体の揺れと蛇 石川県の信者で、本年六月十八日夜の出来事で御座いますが、御神体に向って善言讃詞を奏上、お詣り致しておりますと、御神体が風もないのに「ガタガタ」と動きました。<br><br>不思議な事と思いながらその夜は明けました。<br><br>翌晩八時頃に御詣り中、フト上の方を見ますと、御神体をお掛けしてあります釘の上に両方より直径一寸五分、長さ三、四尺位の青大将が二匹、釘を中心に頭をＸ型にのせ下を見下している事に気付き驚き、急ぎお詣りをすませ、奥の間に下り、二時間程経て行って見ますと、もうそこにおりません。<br><br>その後今日迄姿を見せませんが、これには何か意味が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 祖霊で蛇になっているのが喜んで御礼に来た。<br><br>本当は床の間（下の方）へ来るのが本当だが、人が気味悪がるから他に来たのである。<br><br>（S24. 8. 1） 016 御奉斎に蛇狂喜 私の家は浄土真宗でありますが、娘病気の際特別の御利益を戴きまして入信し、大光明如来様を御祭りさせて戴きました。<br><br>今月十三日（御盆の日）午後三時頃、娘と孫が大光明如来様の御祀りしてある部屋で昼寝していると、変な気配がするので急に目をさまして見ますと「青い斑点のある六尺以上の蛇」が這い上って来て、大光明如来様の大の字の所に、蛇は頭をすり付けるように二、三度して下に降り、今度はコップの水を三度呑むようにして、次は五六七大黒の写真のある所に這い下り、次は地上天国の御額を掛けてある所に上って行く。<br><br>あまりの事に娘は驚き妹を呼び、咄嗟（とっさ）の事に物差を以て尻尾の方を無意識に二、三回叩くと蛇は漸く下り、後を振り返り振り返り頭を上げて「キャッキャッ」と三回鳴いて庭へ出て行ったそうですが、私が帰ると娘達は大騒ぎでありました。<br><br>婿養子は平素から反対で「御寺があるのに観音様等信仰するから先祖が叱っているのだ」と申しますが、私は「先祖が喜んでいるのだ」と申しておりますがどうでありましょうか。<br><br>御伺い申し上げます。<br><br> 結構な事である。<br><br>蛇になった先祖が非常に喜んで、嬉しいあまり慕って来たのである。<br><br>非常に嬉しかったものである。<br><br>（S24. 8.18） 017 御神体横トカゲ光って見ゆ 電灯の光の弱い所、深夜御書体の前にて善言讃詞を唱えていると、御書体の横にトカゲのようなものが真黒になって現われ、そのフチが白く光って見えるのは何で御座居ましょうか。<br><br>お教え下さい。<br><br> 何かの虫であろうが、祖先の霊で、虫に落ちたものがあり、救ってもらいたいために来た訳である。<br><br>ただ夜の光線とすると、影で黒くなったのかもしれぬ。<br><br>いずれにしても救われに来たものである。<br><br> 縁が光っているのは、大分救われて、霊からいくらか光が出るようになったのである。<br><br> 018 黒い円塊御神体付近に見ゆ 九月上旬夕拝の時光明如来様の「明如」の二字のところに直径一尺位の真黒い円い物が見え、不吉な予感にかられながら天津祝詞、善言讃詞を奉誦し終ると全く消え去りました。<br><br>十月中旬またまた夕拝の折どす黒い煙のような物が御神体の床の間一面に見え、はっと思い前回同様に今度は二度、天津祝詞、善言讃詞を奉誦し終るや全く消え去りました。<br><br>前後二回とも昼間妻と少し信仰上の事で浄化致しておりました。<br><br>この事は私一人見えただけで、妻は知りません。<br><br>いかなる事でしょうか。<br><br>御伺い申し上げます。<br><br> 地獄霊などが救われたいために来る場合、見える時がある。<br><br>悪い意味のみの解釈は出来ぬ。<br><br> 丸い黒い玉は地獄の霊で、雲みたいに沢山来たのである。<br><br> 光明如来様の光と祝詞で救われたのである。<br><br>（S24.11.26）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Reverendo Jikan Okada — Pesquisa de Ensinamentos: Capítulo sobre Milagres e Fenômenos Singulares 1 (001-018) — A Imagem Sagrada</h2>
 <p><strong>001 O Milagre da Imagem Sagrada</strong></p>
@@ -144,5 +296,48 @@ function toggleLang(lang) {
 <p><strong>018 Massa Circular e Negra Vista Próxima à Imagem Sagrada</strong></p>
 <p>No início de setembro, durante o ofício vespertino, vi uma massa perfeitamente redonda e negra, com cerca de trinta centímetros de diâmetro, sobre os ideogramas “Myo Nyo” (明如) da Imagem da Grande Luz Divina. Tive um pressentimento funesto, mas ao concluir a Oração Amatsu-Norito e a Zengen-Sanji, a imagem desapareceu por completo. Em meados de outubro, novamente durante o ofício, uma fumaça escura e densa cobriu todo o espaço do altar. Surpreso, recitei as orações duas vezes, como da vez anterior, e a fumaça se dissipou. Em ambas as ocasiões, durante o dia, eu havia tido pequenas purificações com minha esposa a respeito da fé. Somente eu tive essas visões; minha esposa nada percebeu. O que isso significa?</p>
 <p>Às vezes, espíritos do inferno que anseiam por salvação se aproximam e se tornam visíveis. Não se deve interpretar isso como um sinal exclusivamente negativo. A esfera negra era um espírito do inferno, e a fumaça representava uma multidão deles que se aproximou. Eles foram salvos pela Luz da divindade da Grande Luz Divina e pelas orações.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟奇象篇 １ 001-018 御神体 001 御神体の奇蹟 これは始終ある。<br/><br/>光明如来様が見せて下さる。<br/><br/>現実においでになるのを知らすためである。<br/><br/>これで信仰が深くなる。<br/><br/>（S23） 002 御書御神体に御神顔拝す 御神体の上部、大光明如来様の大の文字の上方にお観音様のお顔を毎朝拝します訳。<br/><br/> 文字だけでなく、そこに観音様がおられる事を観音様が示され、教えて下さるのである。<br/><br/> 003 御神体にお姿見ゆ 私の母は最近大先生の御書体にお姿が拝め、その御姿が御書体によってはっきり見えたり正面、横向きや後向きに色々に拝めるそうです。<br/><br/>また、分会長先生宅の大光明如来様にはお姿の外に龍神が見え、近頃また他に一体のお姿が見えるそうで御座いますが、このように三体の御姿を拝めるという事があるものでしょうか。<br/><br/>御伺い致します。<br/><br/> 無論、あっても当り前である。<br/><br/>信仰を強くするよういろいろな奇蹟をやられる。<br/><br/>（S24. 5.26） 004 暗に御神姿を拝す 昨年の十二月、私達の土地の教導所の例祭があり、私も参拝致しました。<br/><br/>夜の八時頃、丁度御祭りが終ったと思うと停電しました。<br/><br/>その時、御軸のあたりに観音様の御姿が現われて有難く拝しました。<br/><br/>これは何か意味があるのでしょうか。<br/><br/> 奇蹟を見せて下さったのである。<br/><br/>字でもお姿でも、観音様がお出になる事を知らすために見せて下さったのである。<br/><br/>人間が信じないから見せて下さるのである。<br/><br/>（S24. 3.15） 005 御神体の奇蹟（御神霊お入り） お祭りしてある光明如来のお軸に朝日がさし込み、“光”の左の方へ五センチ位の円い光が当り、一分間位の間に“光”の字の中央に入って見えなくなりました。<br/><br/>その後一週間位を経て次は“明”の字に同様に現われました。<br/><br/>その意義を教えて頂きたいと存じます。<br/><br/> 神霊である。<br/><br/>御神霊が文字へお入りになったのだと思う。<br/><br/> 神様は丸い。<br/><br/>吉い事である。<br/><br/>（S24. 7.27） 006 御神体に男女多数を見る 昨年十一月三日に私方、大光明如来様の御霊鎮めをさせて頂きました。<br/><br/>丁度その前日に光明如来様の御軸を拝しておりますと、大先生が太い筆で御揮毫中の御姿を拝しました。<br/><br/>その後は薄暗くして御軸を拝しますと、白い着物を着た厳めしい男の方や、時には女の方も見られます。<br/><br/>（これは他の家の御軸を拝しましても見受けられます）これはいかなる訳でございましょうか。<br/><br/> 霊界ではかようになっている。<br/><br/>大先生のお書きになられたものは、御神霊がうつっている。<br/><br/> 霊界でもこの教えで救われた者が集ってくる。<br/><br/>そこの家の高天原――。<br/><br/>（S25. 1.15） 007 御神体揺れる 御祈りを致しております時に、風もないのに光明如来様の御軸が左右に振れる事がありますが、いかなる意味で御座居ましょうか。<br/><br/> 神を信じない人に見せるためである。<br/><br/> 揺れる事はすべていい事である。<br/><br/>御姿の観音様が抜け出たり、人に話をする事がある。<br/><br/>（S23.10.25） 008 御神体礼拝時揺れる 私の藤沢の教導所の大光明如来様の御神体が、夕拝の時に限り無風の場合でも前に揺れることが多いのですが、いかなる意味がございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 紙に字を書いたものでなく、光明如来様が生きておられる事を示されたのである。<br/><br/>（S24. 9. 9） 009 御色紙自揺す―霊の喜び 三月二十九日より奈良へ出張中、私の教導所にて四月五日午後七時頃、御浄霊室にお掛けしてあります大先生様の更生記念の“寿”の御色紙の雲版が左右に揺れました。<br/><br/>何か霊的なる意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 吉い事である。<br/><br/>救われて喜んだ霊が知らしたのである。<br/><br/>霊によっていろんな形をして知らす。<br/><br/>普通はローソクで知らす。<br/><br/>知らしたくて仕様のないもので、霊の感謝は大変なものである。<br/><br/> rattail（注） 〔 御光話（S24年8月特輯号） 『御光話録』11号、昭和24(1949)年8月21日発行〕掲載 010 お供物の三宝倒る 私の所属の教導所及び同所の熱心に布教している教導師五人に、最近度々不思議な事が起ります。<br/><br/>八月初旬、私がその教導所に泊りました翌朝、大光明如来様御前に、御神酒と御神水と御洗米の御三宝が倒れておました。<br/><br/>その後、右のごときことが度々起り、ここに泊る人は、最初の夜何者かに首をしめられる恐ろしさに眼が醒めます。<br/><br/>教導師も同じような事があり、未だに続いて起ります。<br/><br/>一同大変気にしておりますが、今後どのように致しましたら宜敷う御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 御米やお水は間違っている。<br/><br/>観音様は人間の御姿で、人間は生米などは食わぬ。<br/><br/>人間と同じものを上げなくてはいけないと先に言ったはずである。<br/><br/>何か祟っている死霊である。<br/><br/>いろんな原因の場合があるからはっきり断定は出来ぬ。<br/><br/>間違った点はないか査べてみよ。<br/><br/>（S24. 9. 5） 011 お供への蓮散る 御神体の前にいけさせて頂きました蓮の花がもの凄く揺れまして、その花は散らされてしまいました。<br/><br/>霊的に何か関係が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 蓮の華は、よせという事であろう。<br/><br/>仏の花であるから、仏滅だからやめよとの事であろう。<br/><br/>祖霊がやったものである。<br/><br/>（S24. 8.22） 012 蝋燭の光と霊示 光明如来の御祭りの際に仏壇中でコトコト音がし、ローソクの光に異常があります。<br/><br/>その理由をお示し下さい。<br/><br/> 先祖が喜んでいるので音がする。<br/><br/>神様を拝んでると、ドシンと音がする事がある。<br/><br/>音で知らされる事はよくある。<br/><br/> 神様が勇まれると、ローソクが揺らぐ。<br/><br/>神様が知らさるる訳である。<br/><br/> 013 身代り 四月二十八日午後二時過ぎ、風のないのに戸が倒れまして御神体をお切りしましたことを深く御詫び申し上げます。<br/><br/>同時刻に主人が工場で旋盤の機械にまき込まれるところを、ズボンだけまきこまれて事なきを得ました。<br/><br/>御守護誠に有難う御座いました。<br/><br/> これは身代りである。<br/><br/>（S25. 5. 8） 014 光明如来様、消毒剤の非をお知らせ給う ある信徒の家の光明如来様の御霊鎮めの際に、参拝の全信徒の眼がしかしかと痛み出し、皆が不思議に思いました。<br/><br/>すると一信徒が穀物の消毒剤の二硫化炭素を買って来て置いたのに気がつき、それを部屋外へ出しますと痛みが止りました。<br/><br/>右の品は完全に封がしてあり、家へ持ち帰り、封を取って一日になっても以前のような現象はありませんでした。<br/><br/>総ての物質から霊気が出ているそうですが、右の場合はいかなる訳で目が痛み、また光明如来様の前とそうでない場合と違うのはいかなる理由によるのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 光明如来様がそういうものを使ってはいけないという事を知らして下さった。<br/><br/>それで光を強くされた。<br/><br/>穀物の消毒薬は間違っている。<br/><br/>薬で病気を作って止めてると同様、間違った耕作をしてるから薬を服ます事となる。<br/><br/>（S24. 7.27） 015 御神体の揺れと蛇 石川県の信者で、本年六月十八日夜の出来事で御座いますが、御神体に向って善言讃詞を奏上、お詣り致しておりますと、御神体が風もないのに「ガタガタ」と動きました。<br/><br/>不思議な事と思いながらその夜は明けました。<br/><br/>翌晩八時頃に御詣り中、フト上の方を見ますと、御神体をお掛けしてあります釘の上に両方より直径一寸五分、長さ三、四尺位の青大将が二匹、釘を中心に頭をＸ型にのせ下を見下している事に気付き驚き、急ぎお詣りをすませ、奥の間に下り、二時間程経て行って見ますと、もうそこにおりません。<br/><br/>その後今日迄姿を見せませんが、これには何か意味が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 祖霊で蛇になっているのが喜んで御礼に来た。<br/><br/>本当は床の間（下の方）へ来るのが本当だが、人が気味悪がるから他に来たのである。<br/><br/>（S24. 8. 1） 016 御奉斎に蛇狂喜 私の家は浄土真宗でありますが、娘病気の際特別の御利益を戴きまして入信し、大光明如来様を御祭りさせて戴きました。<br/><br/>今月十三日（御盆の日）午後三時頃、娘と孫が大光明如来様の御祀りしてある部屋で昼寝していると、変な気配がするので急に目をさまして見ますと「青い斑点のある六尺以上の蛇」が這い上って来て、大光明如来様の大の字の所に、蛇は頭をすり付けるように二、三度して下に降り、今度はコップの水を三度呑むようにして、次は五六七大黒の写真のある所に這い下り、次は地上天国の御額を掛けてある所に上って行く。<br/><br/>あまりの事に娘は驚き妹を呼び、咄嗟（とっさ）の事に物差を以て尻尾の方を無意識に二、三回叩くと蛇は漸く下り、後を振り返り振り返り頭を上げて「キャッキャッ」と三回鳴いて庭へ出て行ったそうですが、私が帰ると娘達は大騒ぎでありました。<br/><br/>婿養子は平素から反対で「御寺があるのに観音様等信仰するから先祖が叱っているのだ」と申しますが、私は「先祖が喜んでいるのだ」と申しておりますがどうでありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 結構な事である。<br/><br/>蛇になった先祖が非常に喜んで、嬉しいあまり慕って来たのである。<br/><br/>非常に嬉しかったものである。<br/><br/>（S24. 8.18） 017 御神体横トカゲ光って見ゆ 電灯の光の弱い所、深夜御書体の前にて善言讃詞を唱えていると、御書体の横にトカゲのようなものが真黒になって現われ、そのフチが白く光って見えるのは何で御座居ましょうか。<br/><br/>お教え下さい。<br/><br/> 何かの虫であろうが、祖先の霊で、虫に落ちたものがあり、救ってもらいたいために来た訳である。<br/><br/>ただ夜の光線とすると、影で黒くなったのかもしれぬ。<br/><br/>いずれにしても救われに来たものである。<br/><br/> 縁が光っているのは、大分救われて、霊からいくらか光が出るようになったのである。<br/><br/> 018 黒い円塊御神体付近に見ゆ 九月上旬夕拝の時光明如来様の「明如」の二字のところに直径一尺位の真黒い円い物が見え、不吉な予感にかられながら天津祝詞、善言讃詞を奉誦し終ると全く消え去りました。<br/><br/>十月中旬またまた夕拝の折どす黒い煙のような物が御神体の床の間一面に見え、はっと思い前回同様に今度は二度、天津祝詞、善言讃詞を奉誦し終るや全く消え去りました。<br/><br/>前後二回とも昼間妻と少し信仰上の事で浄化致しておりました。<br/><br/>この事は私一人見えただけで、妻は知りません。<br/><br/>いかなる事でしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 地獄霊などが救われたいために来る場合、見える時がある。<br/><br/>悪い意味のみの解釈は出来ぬ。<br/><br/> 丸い黒い玉は地獄の霊で、雲みたいに沢山来たのである。<br/><br/> 光明如来様の光と祝詞で救われたのである。<br/><br/>（S24.11.26）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

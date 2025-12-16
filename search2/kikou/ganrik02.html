@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganrik02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力２ 神成大教会 岡庭真次郎 『地上天国』41号、昭和27(1952)年10月25日発行 “笑い冠句の会にて” 明主様の大森の御屋敷に私が参上致す様になってから昭和七年一月二十二日に明主様の御予言通り店を取られて御屋敷で専門に御用させて戴く様に成った。<br><br>この間御予言を戴いてから一年八カ月で有りましたが、この間もほとんど毎晩のごとく御屋敷に参上御話を拝聴させて戴く内にも驚くべき事が有りました。<br><br>昭和五年八月御発表になり「来月から天人会を始めて笑冠句をやるから投句する様に」とて御題を発表されましたのですが、私はどんな風に作ったら宜しいやら初めての事とて第一回を拝聴の上でと思い投句は止めましたところが九月十日御発表になられると、実に何とも言い難い非常に愉快なので、明主様も涙を御流しに成られてお笑いになられ、会員たる我我はお腹が痛くなる程笑わされるその面白さに私も第二回目からどんどん投句させで戴き、珍宝と雅眈を頂戴して最初の投句から御短冊を御褒美に戴き、余りに面白いので隣家和泉屋の主人を誘い参上致しました。<br><br>この日もとても面白く、巻開きも終り和泉屋の主人は先に帰って頂き、私は御話を拝聴して真夜中まで御邪魔させて戴くのが例に成っておりますので、御話を御聞きしております内、明主様にはフト思い出されたように『アヽ岡庭さん和泉屋さんは駄目ですぜ』とのお言葉に私はびっくり致しました。<br><br>何故かと言えば和泉屋の主人はその頃ピンピンしていたからです。<br><br>あんな丈夫な親父が何故駄目なのかと実はお疑い申しておりました。<br><br>ところが数カ月後のある朝和泉屋の若主人喜一郎氏が飛込んで来て「叔父さん叔父さんうちの親父は頑固で風邪を引いて声も出なく成っているのに医者にも掛らず頑張っていて困るから意見してくれ」と云うのです。<br><br>丁度よく銀座の兄が店に来ていて「よしよし私が腎者へ連れて行ってやる」と銀座の本多医師方へ連行診断の結果は「喉頭癌だから早速手術しなくては駄目だ」との事にて咽喉の下部に穴を開けてその穴より呼吸する事となり、苦しみ悩みで痩せ細り、その顔は鶏の頭のごとき形となって死んで終ったのでした。<br><br>この家では果物と洋食用に使う西洋野菜と鳥類を販売する者で鳥を締めるため咽喉をやられた事であり、顔まで鳥の顔に変って終った事がよく判ります。<br><br> 明主様の御眼力はただの一度笑冠句拝聴に参上した未信者までもちゃんと御眼に留り、その死を御見通し下されたのを私の不明のため御助けを戴きに参上さす事出来ず誠に申訳の無い事をして終ったのであります。<br><br>ところがこの最後の前の日午前十一時半過に喜一郎氏が又飛込んで来て「叔父さん叔父さんもう駄目だ。<br><br>だけど親戚が皆遠いので電報を打っても間に合わんので困っちゃった」と悲しむので、私はフト思い付き、よしよし私が御観音様に御願いして一昼夜寿命を延して戴いて上げようと早速二階に駆上り御観音様に右の由を奏上致し、ただ今より一昼夜寿命を御延し下さる様に御願い申し上げて店に降りた時正午十二時を打ちました。<br><br>そこで私は店員に言明致しました。<br><br>「隣の親父の寿命は明日の十二時までは大丈夫だよ。<br><br>その代り明日十二時を打てば御観音様に御礼を奏上しなくては成らないから皆そのつもりでいてくれ」と申渡して終いました。<br><br>その内又喜一郎氏が見え「どうだ」と問えば「何だか工合がいい様だ」と言うので「大丈夫だよ、明日のお昼まで寿命を御観音様に御願いしてあるから」と申しますと、変な顔して帰って行きました。<br><br>遂に御願いは見事御聞届け下さいました。<br><br>次の日の正午は鳴って終いましたので私は二階に上り御礼を奏上じて降りて来るのと、喜一郎氏の飛込んで来るのと同時で、「叔父さん叔父さんもう駄目だ」との事に行って見れば早霊魂は、永遠に片山亀次郎氏の体から飛去り、不帰の客とは成っていたのです。<br><br>されどもその顔は相も変らず鶏そのままの姿には変りません。<br><br>鳥の首を締めては売るため鳥の霊に首をやられて死ぬ時は鶏の顔と成って死ぬ。<br><br>このような事を書けば現代文化のお蔭を蒙むった人々には一笑に付されるかも知れませんが、まず第一に数カ月前に明主様には片山氏の死を言明されておられるその御神眼の確実さなど現代医学などにては真似すら出来ないのです。<br><br> 科学万能と口にば称えても、天地の真相すら知らぬ現代学者の学説こそ不思議である。<br><br>第一皆さんの一分一秒たりとも無くて成らない空気は誰が製造するのでしょう。<br><br>ただ人間が空気を吸って酸素を吸収し、炭酸ガスを吐くその炭酸ガスは植物が吸うまではよいが、吸えとも尽きぬ空気はどこから出来て来るか。<br><br>又現代人の非常に恐れる黴菌なぞ空気中には何程でも有るのにこれを恐れざる我々は何の事なく、これを恐れる文化人は病気に罹る。<br><br>又先年までは神国日本とか神の国とか言っていた人々が戦争に負けて急に口をつぐみ、逆に神なぞ無いと断定したのは正に笑止の沙汰であります。<br><br> 又一方科学もて最新の知識を集めて出来上った飛行機も一朝にして三原山腹の露と消えた。<br><br>見よ天地の運行を何万年といえども変らず大暴風の日も大逆風の時も順風の日も天気晴朗の日も規定通り些少の差すらも無く運行されているこれをただの引力位の説にて解決出来得べきものであろうか。<br><br>天地創造の神様は、定めし御苦笑遊ばされておられる事と拝察致します。<br><br> “偉大なる御神眼と御浄霊” 明主様が御商売に御専念なされておられる内に大正九年の財界大恐慌と関東大震災とによりいよいよ御商売をお止めになり、御神業専門に御活躍の御決心を定められて漸次御商売を縮少、店員に分与されて昭和三年からは御神業専門と成られたので有りますが、これこそ時期到来のため神様よりの御啓示と御悟りに成られたためであります。<br><br>明主様は何でも御自由で在られるのですが御神意に反する事や時期の来らざるため御控えになっておられるので、一例として記せば昭和七年のある日雨降りでお困りのため外へ向かわれ「雨止め雨止め」と小さなお声で二回仰せられると雨は止んで終ったのです。<br><br>実に恐れ入った御神力に驚きましたがその後「あれ程のお力がおありなのに何故時々の雨を御止めに成らないので御座いますか」と御伺いすれば「雨でも風でも暴風雨でも皆神様の御心によってあるもので、それを止める事は御神意に反する事で神意の御邪魔をする事になるからやらないだけですよ」との御言葉を頂き誠に恐れ入った次第でありました。<br><br>ちょうどこの時分病気を言霊で御治し遊ばされた事がありましたが、実に大変な御神力で、例えばいかなる頭痛でも又腹痛でもいかに苦しんでいる患者でも誰それ（患者の氏名）の頭とか腹の「痛み去れっ」とおっしゃってフッフッと二回吹かれるとピタッと痛みが治るのでしたから実に簡単であります。<br><br>ある日大宮で治療していた武井良英氏が来た時、明主様は「武井さん、あなたに一度だけ言霊で治療を許すからやって御覧」と御許しなされたのです。<br><br>するとちょうど飛騨友三氏とて酒屋の主人が非常なる腹痛で来たので武井さんは大気取で「飛騨さんそこへ寝ろ俺が今日は治してやる」と寝させて「飛騨友三の腹の痛み去れっ、フッフッ」とやり、どうだ飛騨さんと言えば、飛騨氏は腹の痛みが一時にフッ飛んで終ったので、「アレッおめえでも出来るのか、これはポロクサイ酒屋なんて止めだ」と遂に酒屋を止めて御弟子と成り、後には麹町で明主様の助手と成ったのでありましたが、このように明主様の御口で「一度だけ言霊を許す」とおっしゃれば必ず凡人でも出来るのでいかに明主様の御神格が御高いか又いかに御力があられるかと言う事がよく拝察されるのでありまして、実に恐入った御神力であられます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Infalível Visão Divina de Meishu-Sama</h2>
 <p>Comecei a frequentar a residência de Meishu-Sama em Omori e, em 22 de janeiro do sétimo ano da Era Showa (1932), tal como Ele havia profetizado, perdi minha loja e passei a servi-Lo em tempo integral. Essa mudança ocorreu um ano e oito meses após a Sua predição. Durante esse período, eu tinha o privilégio de comparecer à Sua residência quase todas as noites para ouvir Seus Ensinamentos, e fui testemunha de acontecimentos surpreendentes.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Naquela mesma época, Ele também curava doenças através do poder da palavra. Era uma demonstração de um poder divino verdadeiramente impressionante. Qualquer que fosse a dor de cabeça ou de estômago, por mais intenso que fosse o sofrimento do doente, bastava que Ele dissesse: "Dor na cabeça de Fulano, desapareça!", e soprasse duas vezes, para que a dor cessasse instantaneamente. Era de uma simplicidade espantosa.</p>
 <p>Certo dia, quando o senhor Takei Yoshihide, que atuava em Omiya, veio nos visitar, Meishu-Sama lhe disse: "Senhor Takei, vou lhe conceder a permissão de curar com o poder da palavra uma única vez. Tente". Naquele exato momento, chegou um homem chamado Hida Yuzo, dono de uma loja de saquê, sofrendo de uma dor abdominal excruciante. Com um ar de grande importância, o senhor Takei ordenou: "Senhor Hida, deite-se aqui. Hoje, eu vou curá-lo". Após o homem se deitar, ele proferiu: "Dor no abdômen de Hida Yuzo, desapareça!", e soprou duas vezes. "E então, senhor Hida, como se sente?", perguntou. A dor havia sumido por completo.</p>
 <p>Surpreso, o senhor Hida exclamou: "O quê? Até você consegue fazer isso? Então vou largar esse negócio insignificante de saquê!". E assim, ele fechou sua loja e tornou-se discípulo, vindo mais tarde a ser assistente de Meishu-Sama em Kojimachi. Este episódio revela que, se Meishu-Sama dissesse "Eu lhe concedo este poder uma única vez", até mesmo uma pessoa comum poderia realizar tal milagre. Isso nos permite vislumbrar a imensurável elevação de Sua posição espiritual e a magnitude de Seu poder. É, de fato, um poder divino que inspira o mais profundo temor e reverência.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力２ 神成大教会 岡庭真次郎 『地上天国』41号、昭和27(1952)年10月25日発行 “笑い冠句の会にて” 明主様の大森の御屋敷に私が参上致す様になってから昭和七年一月二十二日に明主様の御予言通り店を取られて御屋敷で専門に御用させて戴く様に成った。<br/><br/>この間御予言を戴いてから一年八カ月で有りましたが、この間もほとんど毎晩のごとく御屋敷に参上御話を拝聴させて戴く内にも驚くべき事が有りました。<br/><br/>昭和五年八月御発表になり「来月から天人会を始めて笑冠句をやるから投句する様に」とて御題を発表されましたのですが、私はどんな風に作ったら宜しいやら初めての事とて第一回を拝聴の上でと思い投句は止めましたところが九月十日御発表になられると、実に何とも言い難い非常に愉快なので、明主様も涙を御流しに成られてお笑いになられ、会員たる我我はお腹が痛くなる程笑わされるその面白さに私も第二回目からどんどん投句させで戴き、珍宝と雅眈を頂戴して最初の投句から御短冊を御褒美に戴き、余りに面白いので隣家和泉屋の主人を誘い参上致しました。<br/><br/>この日もとても面白く、巻開きも終り和泉屋の主人は先に帰って頂き、私は御話を拝聴して真夜中まで御邪魔させて戴くのが例に成っておりますので、御話を御聞きしております内、明主様にはフト思い出されたように『アヽ岡庭さん和泉屋さんは駄目ですぜ』とのお言葉に私はびっくり致しました。<br/><br/>何故かと言えば和泉屋の主人はその頃ピンピンしていたからです。<br/><br/>あんな丈夫な親父が何故駄目なのかと実はお疑い申しておりました。<br/><br/>ところが数カ月後のある朝和泉屋の若主人喜一郎氏が飛込んで来て「叔父さん叔父さんうちの親父は頑固で風邪を引いて声も出なく成っているのに医者にも掛らず頑張っていて困るから意見してくれ」と云うのです。<br/><br/>丁度よく銀座の兄が店に来ていて「よしよし私が腎者へ連れて行ってやる」と銀座の本多医師方へ連行診断の結果は「喉頭癌だから早速手術しなくては駄目だ」との事にて咽喉の下部に穴を開けてその穴より呼吸する事となり、苦しみ悩みで痩せ細り、その顔は鶏の頭のごとき形となって死んで終ったのでした。<br/><br/>この家では果物と洋食用に使う西洋野菜と鳥類を販売する者で鳥を締めるため咽喉をやられた事であり、顔まで鳥の顔に変って終った事がよく判ります。<br/><br/> 明主様の御眼力はただの一度笑冠句拝聴に参上した未信者までもちゃんと御眼に留り、その死を御見通し下されたのを私の不明のため御助けを戴きに参上さす事出来ず誠に申訳の無い事をして終ったのであります。<br/><br/>ところがこの最後の前の日午前十一時半過に喜一郎氏が又飛込んで来て「叔父さん叔父さんもう駄目だ。<br/><br/>だけど親戚が皆遠いので電報を打っても間に合わんので困っちゃった」と悲しむので、私はフト思い付き、よしよし私が御観音様に御願いして一昼夜寿命を延して戴いて上げようと早速二階に駆上り御観音様に右の由を奏上致し、ただ今より一昼夜寿命を御延し下さる様に御願い申し上げて店に降りた時正午十二時を打ちました。<br/><br/>そこで私は店員に言明致しました。<br/><br/>「隣の親父の寿命は明日の十二時までは大丈夫だよ。<br/><br/>その代り明日十二時を打てば御観音様に御礼を奏上しなくては成らないから皆そのつもりでいてくれ」と申渡して終いました。<br/><br/>その内又喜一郎氏が見え「どうだ」と問えば「何だか工合がいい様だ」と言うので「大丈夫だよ、明日のお昼まで寿命を御観音様に御願いしてあるから」と申しますと、変な顔して帰って行きました。<br/><br/>遂に御願いは見事御聞届け下さいました。<br/><br/>次の日の正午は鳴って終いましたので私は二階に上り御礼を奏上じて降りて来るのと、喜一郎氏の飛込んで来るのと同時で、「叔父さん叔父さんもう駄目だ」との事に行って見れば早霊魂は、永遠に片山亀次郎氏の体から飛去り、不帰の客とは成っていたのです。<br/><br/>されどもその顔は相も変らず鶏そのままの姿には変りません。<br/><br/>鳥の首を締めては売るため鳥の霊に首をやられて死ぬ時は鶏の顔と成って死ぬ。<br/><br/>このような事を書けば現代文化のお蔭を蒙むった人々には一笑に付されるかも知れませんが、まず第一に数カ月前に明主様には片山氏の死を言明されておられるその御神眼の確実さなど現代医学などにては真似すら出来ないのです。<br/><br/> 科学万能と口にば称えても、天地の真相すら知らぬ現代学者の学説こそ不思議である。<br/><br/>第一皆さんの一分一秒たりとも無くて成らない空気は誰が製造するのでしょう。<br/><br/>ただ人間が空気を吸って酸素を吸収し、炭酸ガスを吐くその炭酸ガスは植物が吸うまではよいが、吸えとも尽きぬ空気はどこから出来て来るか。<br/><br/>又現代人の非常に恐れる黴菌なぞ空気中には何程でも有るのにこれを恐れざる我々は何の事なく、これを恐れる文化人は病気に罹る。<br/><br/>又先年までは神国日本とか神の国とか言っていた人々が戦争に負けて急に口をつぐみ、逆に神なぞ無いと断定したのは正に笑止の沙汰であります。<br/><br/> 又一方科学もて最新の知識を集めて出来上った飛行機も一朝にして三原山腹の露と消えた。<br/><br/>見よ天地の運行を何万年といえども変らず大暴風の日も大逆風の時も順風の日も天気晴朗の日も規定通り些少の差すらも無く運行されているこれをただの引力位の説にて解決出来得べきものであろうか。<br/><br/>天地創造の神様は、定めし御苦笑遊ばされておられる事と拝察致します。<br/><br/> “偉大なる御神眼と御浄霊” 明主様が御商売に御専念なされておられる内に大正九年の財界大恐慌と関東大震災とによりいよいよ御商売をお止めになり、御神業専門に御活躍の御決心を定められて漸次御商売を縮少、店員に分与されて昭和三年からは御神業専門と成られたので有りますが、これこそ時期到来のため神様よりの御啓示と御悟りに成られたためであります。<br/><br/>明主様は何でも御自由で在られるのですが御神意に反する事や時期の来らざるため御控えになっておられるので、一例として記せば昭和七年のある日雨降りでお困りのため外へ向かわれ「雨止め雨止め」と小さなお声で二回仰せられると雨は止んで終ったのです。<br/><br/>実に恐れ入った御神力に驚きましたがその後「あれ程のお力がおありなのに何故時々の雨を御止めに成らないので御座いますか」と御伺いすれば「雨でも風でも暴風雨でも皆神様の御心によってあるもので、それを止める事は御神意に反する事で神意の御邪魔をする事になるからやらないだけですよ」との御言葉を頂き誠に恐れ入った次第でありました。<br/><br/>ちょうどこの時分病気を言霊で御治し遊ばされた事がありましたが、実に大変な御神力で、例えばいかなる頭痛でも又腹痛でもいかに苦しんでいる患者でも誰それ（患者の氏名）の頭とか腹の「痛み去れっ」とおっしゃってフッフッと二回吹かれるとピタッと痛みが治るのでしたから実に簡単であります。<br/><br/>ある日大宮で治療していた武井良英氏が来た時、明主様は「武井さん、あなたに一度だけ言霊で治療を許すからやって御覧」と御許しなされたのです。<br/><br/>するとちょうど飛騨友三氏とて酒屋の主人が非常なる腹痛で来たので武井さんは大気取で「飛騨さんそこへ寝ろ俺が今日は治してやる」と寝させて「飛騨友三の腹の痛み去れっ、フッフッ」とやり、どうだ飛騨さんと言えば、飛騨氏は腹の痛みが一時にフッ飛んで終ったので、「アレッおめえでも出来るのか、これはポロクサイ酒屋なんて止めだ」と遂に酒屋を止めて御弟子と成り、後には麹町で明主様の助手と成ったのでありましたが、このように明主様の御口で「一度だけ言霊を許す」とおっしゃれば必ず凡人でも出来るのでいかに明主様の御神格が御高いか又いかに御力があられるかと言う事がよく拝察されるのでありまして、実に恐入った御神力であられます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

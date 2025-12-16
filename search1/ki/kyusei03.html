@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyusei03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世の警鐘 『栄光』165号、昭和27(1952)年7月16日発行 あらゆる病気の原因は薬であるという事は、私は常に唱えているところであるが、それを知らない一般は、病気に罹るや、薬で治るものと絶対信じており、良い薬さえ発見すれば治るものとして、各国の専門家はその研究に没頭し、新薬を発見しようとして懸命になっている。<br><br>ところがそのように薬剤万能時代である今日、私の説は薬で病気が治るどころか、反って病気が作られるというのであるから驚く外はなかろうが、しかしこれが真理である以上、まず白紙になってこの文を読んで貰いたいのである。<br><br> 右のごとく薬剤によって病気が作られ、しかもそれを治そうとする薬が拍車をかけるとしたら、これ程重大問題はあるまい。<br><br>重ねていうが病気に罹るや必ず薬を用いて、一時的ではあるが苦痛が緩和するので、それを治る過程と誤認して、今日の医学が出来たのであるから、この事を知って何ら先入観念に捉わるる事なく、病人は現在及び既往の経過を考えて見ればよく分るであろう。<br><br>今一つ云いたい事は、薬害は独り病ばかりではない。<br><br>一切の不幸の原因となる事実である。<br><br>たとえばこの間自殺した作家林房雄氏夫人繁子さんにしても、自殺の原因は夫君の婦人関係もあったようだが、主なる原因は神経衰弱の昂進という事である。<br><br>この神経衰弱という奴もヤハリ薬毒が主因である。<br><br>何よりも同夫人は睡眠薬が効かなくなるくらい、重症不眠症になっていたという事であるから、余程酷い睡眠薬中毒に罹っていたのである。<br><br>また入院をも非常に嫌ったそうだが、これなども前の入院の経験で病院では強い薬を用いるため、その苦痛に懲りたからであろう。<br><br>このように薬害の余波は幾多の悲劇を作っている。<br><br> 以上によって分ったであろうが、人間の苦悩なるもののほとんどは薬毒が原因であって、早い話が彼の感冒の苦痛にしろ、その他の病気による痛み、痒み、不快感等も原因はことごとく薬であるから、もしこの世界から薬がなくなったとしたら、病苦は消滅すると共に、不幸の大半も消滅するのはもちろんである。<br><br>そうなってこそ社会は平和明朗となり、憎しみも争いもなくなり、戦争の脅威さえも解決さるるので、ここに初めて人類待望の安心立命の世界が生まれるのである。<br><br> このような社会になったなら、人間は健康で安心して働けるから、貧乏もなく、心も豊かに生活を楽しむようになり、その結果病院も、製薬業も、医師も、看護婦も、病気に付随する一切の職業は不必要となるから、社会全体のプラスたるや予想もつかない大きなものがあろう。<br><br>その上思想も健全になる以上、犯罪は激減し、警察、裁判所、監獄等の不快なものもなくなり、農業方面も薬害を知って用いないから虫害もなく、金肥人肥も全廃され、農作物の収穫は何倍に増えるか分らない程で、ここに鼓腹撃壌（こふくげきじょう）の時代となり、名実共に地上天国となるのはもちろんである。<br><br> 以上は薬害を赤裸々にかいたのであるが、このように恐るべき薬の害を、何千年もの間人類は気が付かなかったという事は、実に不可思議である。<br><br>全く時の来らなかったためで、それがいよいよ私によって発見されたのであるから、この事が人類全般に知れわたるにおいて、その歓喜たるやいかに素晴しいかである。<br><br>すなわち文化の一大転機であり、空前の大奇蹟である。<br><br>これこそ病貧争絶無の地上天国が近づいた事の何よりの証拠であって、それにはまず薬害を知らせる事こそ根本であるから、この文を警鐘としてここに発表するのである。<br><br> (注) 鼓腹撃壌（こふくげきじょう）中国の尭（ぎよう）の時代に、一老人が腹鼓（はらつづみ）を打ち、大地を踏み鳴らし、太平の世への満足の気持ちを歌ったという「帝王世紀」「十八史略」などにみえる故事から、世の中の太平を楽しむこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Alarme da Salvação</h2>
 <p>Tenho afirmado constantemente que a causa de todas as doenças reside nos medicamentos. O público em geral, todavia, por desconhecer essa verdade, ao adoecer, deposita uma crença absoluta de que será curado por eles. Na esperança de que a descoberta de um bom remédio traga a cura, especialistas de todas as nações mergulham em pesquisas, empenhando-se arduamente na criação de novos fármacos.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Em uma sociedade assim, as pessoas seriam saudáveis e poderiam trabalhar com tranquilidade, eliminando a pobreza e permitindo que todos desfrutassem da vida com o coração enriquecido. Consequentemente, hospitais, indústrias farmacêuticas, médicos, enfermeiros e todas as profissões associadas à doença se tornariam desnecessários. O benefício para o conjunto da sociedade seria de uma magnitude inimaginável. Ademais, com o pensamento tornado sadio, a criminalidade diminuiria drasticamente, e estruturas aflitivas como delegacias, tribunais e presídios deixariam de existir. Na agricultura, a conscientização sobre os danos farmacêuticos levaria ao abandono de seu uso, o que findaria com as pragas. Os fertilizantes químicos e o adubo humano seriam totalmente abolidos, e a colheita das lavouras aumentaria de forma imensurável. Instaurar-se-ia uma era de tamanha paz e prosperidade que as pessoas poderiam viver em pleno contentamento, concretizando-se, em nome e em realidade, o Paraíso Terrestre.</p>
 <p>Expus até aqui, de forma nua e crua, os danos causados pelos medicamentos. É verdadeiramente insondável que a humanidade não tenha se dado conta, por milênios, desses terríveis malefícios. Isso se deve unicamente ao fato de que o tempo ainda não havia chegado. Agora, finalmente, esta verdade foi por mim descoberta. Imaginem a alegria indescritível que tomará conta de toda a humanidade quando este conhecimento se difundir! Trata-se de um ponto de inflexão monumental na cultura, um milagre sem precedentes na história.</p>
 <p>Esta é a maior prova de que o Paraíso Terrestre, um mundo sem doença, pobreza e conflito, está próximo. Para que ele se concretize, a medida fundamental é, antes de tudo, alertar as pessoas sobre os danos causados pelos medicamentos. Por essa razão, publico este texto como um alarme para despertar a consciência de todos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世の警鐘 『栄光』165号、昭和27(1952)年7月16日発行 あらゆる病気の原因は薬であるという事は、私は常に唱えているところであるが、それを知らない一般は、病気に罹るや、薬で治るものと絶対信じており、良い薬さえ発見すれば治るものとして、各国の専門家はその研究に没頭し、新薬を発見しようとして懸命になっている。<br/><br/>ところがそのように薬剤万能時代である今日、私の説は薬で病気が治るどころか、反って病気が作られるというのであるから驚く外はなかろうが、しかしこれが真理である以上、まず白紙になってこの文を読んで貰いたいのである。<br/><br/> 右のごとく薬剤によって病気が作られ、しかもそれを治そうとする薬が拍車をかけるとしたら、これ程重大問題はあるまい。<br/><br/>重ねていうが病気に罹るや必ず薬を用いて、一時的ではあるが苦痛が緩和するので、それを治る過程と誤認して、今日の医学が出来たのであるから、この事を知って何ら先入観念に捉わるる事なく、病人は現在及び既往の経過を考えて見ればよく分るであろう。<br/><br/>今一つ云いたい事は、薬害は独り病ばかりではない。<br/><br/>一切の不幸の原因となる事実である。<br/><br/>たとえばこの間自殺した作家林房雄氏夫人繁子さんにしても、自殺の原因は夫君の婦人関係もあったようだが、主なる原因は神経衰弱の昂進という事である。<br/><br/>この神経衰弱という奴もヤハリ薬毒が主因である。<br/><br/>何よりも同夫人は睡眠薬が効かなくなるくらい、重症不眠症になっていたという事であるから、余程酷い睡眠薬中毒に罹っていたのである。<br/><br/>また入院をも非常に嫌ったそうだが、これなども前の入院の経験で病院では強い薬を用いるため、その苦痛に懲りたからであろう。<br/><br/>このように薬害の余波は幾多の悲劇を作っている。<br/><br/> 以上によって分ったであろうが、人間の苦悩なるもののほとんどは薬毒が原因であって、早い話が彼の感冒の苦痛にしろ、その他の病気による痛み、痒み、不快感等も原因はことごとく薬であるから、もしこの世界から薬がなくなったとしたら、病苦は消滅すると共に、不幸の大半も消滅するのはもちろんである。<br/><br/>そうなってこそ社会は平和明朗となり、憎しみも争いもなくなり、戦争の脅威さえも解決さるるので、ここに初めて人類待望の安心立命の世界が生まれるのである。<br/><br/> このような社会になったなら、人間は健康で安心して働けるから、貧乏もなく、心も豊かに生活を楽しむようになり、その結果病院も、製薬業も、医師も、看護婦も、病気に付随する一切の職業は不必要となるから、社会全体のプラスたるや予想もつかない大きなものがあろう。<br/><br/>その上思想も健全になる以上、犯罪は激減し、警察、裁判所、監獄等の不快なものもなくなり、農業方面も薬害を知って用いないから虫害もなく、金肥人肥も全廃され、農作物の収穫は何倍に増えるか分らない程で、ここに鼓腹撃壌（こふくげきじょう）の時代となり、名実共に地上天国となるのはもちろんである。<br/><br/> 以上は薬害を赤裸々にかいたのであるが、このように恐るべき薬の害を、何千年もの間人類は気が付かなかったという事は、実に不可思議である。<br/><br/>全く時の来らなかったためで、それがいよいよ私によって発見されたのであるから、この事が人類全般に知れわたるにおいて、その歓喜たるやいかに素晴しいかである。<br/><br/>すなわち文化の一大転機であり、空前の大奇蹟である。<br/><br/>これこそ病貧争絶無の地上天国が近づいた事の何よりの証拠であって、それにはまず薬害を知らせる事こそ根本であるから、この文を警鐘としてここに発表するのである。<br/><br/> (注) 鼓腹撃壌（こふくげきじょう）中国の尭（ぎよう）の時代に、一老人が腹鼓（はらつづみ）を打ち、大地を踏み鳴らし、太平の世への満足の気持ちを歌ったという「帝王世紀」「十八史略」などにみえる故事から、世の中の太平を楽しむこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

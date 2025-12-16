@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kururi05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』35号、昭和27(1952)年4月25日発行 （五）狂信地獄 Ｓ君は私の仙人然たる茫洋さを、信仰的覚者であるかのごとく買被り、明主様が御奨励になっている文芸の道の先輩でもあるので、私を家庭における導師とすべく同居せしめたものらしかった。<br><br>私とても彼の溢れる好意に感謝して、何かの助けとならんと願っているにかかわらず、Ｓ家へ来てからはおよそ彼の期待に反する事のみを露呈した。<br><br>同家で最も迷惑したのはまず私の度外れた朝寝であった。<br><br>毎日正午に近く時には一時頃までも寝る。<br><br>家人が起してもなかなか起きない。<br><br>Ｓ君もホトホト愛想をつかし家族の総意もあって、ついに食事だけを支給して他に間借をする事になった。<br><br>私とてもこのような不徳義は心から嫌だった。<br><br>しかしそれは今迄に何度となく正常の睡眠を摂るように努めても、実現するだけの意志の力なくして身に沁み着いた悪習だった。<br><br>否私の朝寝は寧ろ病的で、正に慢性嗜眠症のかなり進んだものだった。<br><br>目が醒めると、目脂が一杯溜って眼瞼を塞いで硬着し開ける事が出来ぬ。<br><br>身体は痙れたように惰（だる）くて起きられぬ。<br><br>いつの聞にか又昏々と寝てしまうのである。<br><br> この症状の最初の兆候の表われた幼時は、一日ブッ通しで寝て三日目の朝日覚めた記憶がある。<br><br>亀岡町で一ヵ月泊った下宿屋からも、東京で最初にとった下宿からも、寝坊と狂人に紛う奇行のために危険視され追出されたが、今また再び犯すまじきその轍を履んだのである。<br><br>この嗜眠症だけでも私は通常の生を営めぬ人間だった。<br><br>勿論時間的制約のある学業など全う出来る筈もない。<br><br>こうして一人前所か半人前にもあたらぬ穀つぶしの身を儚む歎きは年毎に募っていたのである。<br><br> そして又覚醒時は、常に堪えられぬ倦怠と不快感と睡気があり、何事にも飽き易く持続性がなかった。<br><br>頭脳は常に重く朦朧として絶えず何か被さっているようで気分が晴れた事なく、怏々として嗜慾と妄想が横生する重症神経衰弱だった。<br><br>私の身体には強い毒臭があって一間位先からそれと判ると言われる位だったから、身体中に充満していた大量の薬はその頃かなり浄化していたのである。<br><br>このような病状は十六七歳頃から起り初めていたが、その因は生後幾ばくもなくして作ったものであった。<br><br> 私は三四歳の頃手術を受け、いとけない背部深くメスを入れられたが、その時の恐しかった医師の顔、刑場のような病室、母の沈痛な顔等の地獄的印象と、名状し難い背部の苦痛は、童心に刻まれて深い傷手となり、未だに消えない幼時の唯一の記憶である。<br><br>この心の傷手は予後の二三年間薬毒浄化の度にうずいた。<br><br>それは地の底の暗黒へでも引入れられるような絶望的寂寥感であり、残忍に襲われた死の恐怖感であった。<br><br>この傷手は、長づると共にいささかの苦難にも傷きやすくなり、社会に住み難き異常な性格を造り上げる因ともなり、私の人生の価値をいかに減殺したか測り知れぬ。<br><br>実に恐るべきは医学の残忍である。<br><br> 体的病苦は、当然それに相応する霊体病気を伴うた。<br><br>そして肉体と正比例して進行するその苦悩はより深刻であった。<br><br>そのため一途に神を求め信仰に専念する事になったのである。<br><br> 私は、中学へ入学すると間もなく父の死に遇い、後継者として物を思うようになると共に、死に対し人生に対し、深い疑問を抱き異様な恐怖を覚え初めたが、それは今にして思えば手術の時の幼心の傷手が父の死を動機として蘇り、私の生命慾を刺戟したものに違いないのである。<br><br>そして死の恐怖が次第に心に深くコビリ着き消え難い黒雲となり、ついには陰惨な哲学に逢着するようになった。<br><br>人間は箸とる瞬間も死の影につきまとわれている。<br><br>人生は必然来るべき死刑執行の日へ一刻々々進んでゆく処刑者に等しいものだ。<br><br>仏者の言う諸行無常は何としても厳然たる事実なのだ。<br><br>たとえ、学を成し、財を得、名を誇らんとするも死は一瞬にして無にしてしまう。<br><br>その儚なさを思うと、人生に空虚を覚え、堪らない寂寥と悲哀感に襲われ、生命の灯の薄れゆくような心細さに捉われるようになった。<br><br>それはたしかに幼時覚えた寂莫感の成長変化したものであり、ある種の薬毒が頭脳内に浄化している時に襲う病的心理なのである。<br><br> 私は人知れずこの悩みを知り初めてから神にすがり、専ら教典を読み耽り、所定の修業もして一応生死の意義も法悦の味わいも知ったが、思想は次第に若人の世界から離れて、信仰的霊的生活に憧れ孤独に親しむようになりつつも、青少年期の最も旺盛なる慾望はたち得ぬのみか、反って大きく強くなってゆく、それが神への反逆の罪と思える所に又別な地獄的苦しみを加えた。<br><br>勿論、信仰に専念するのも、帰する所、安心立命を与えらるる神を見、神に抱かるる努力であり、死への恐怖や頭脳の朦朧からも逃れたいもがきで、それ自体非常な苦しみであったが、それによって安心らしきものを掴み得たと思うのも束の間、実際に当ると反って深く迷いの間に落ち込み、もがけばもがく程苦しみを増し、病的恐怖心理に拍車をかけるのは不可解であった。<br><br>そして私がこのように求めてむ求め得ぬものを求めている間に、同僚との競争は驚く程懸隔を増してゆく事にも悶々とせねばならなかった。<br><br>そのような苦行を数年続けるうち、私の病的心理はいよいよ救い難いものとなり、あたかも死霊に憑かれたごとく、死の恐怖が呪いの幻影のようにつきまとって、ともすれば悪魔のように心を噛んで恐怖に戦（おのの）かしめ、学業を手につかぬようにする。<br><br>そして遂には極度の黴菌恐怖症のごとく、起り得ぬような恐怖的突発事の幻影を作って小心翼々物に脅えるような変態的妄想が起るようになった。<br><br>このようにして精神も肉体も次第に青春の溌剌さを失った。<br><br> そして東京へ出てから当時一某新宗教の信者であった私はまず修学と信仰の矛盾に当面した。<br><br>元来この宗教では、智慧や学問を軽視否罪悪視さえし、愚者を讃え愚者になる事を強調し又ことさらに狂人視される事を誇りとする風もあった。<br><br>それは唯物主義に対する対立的感情からにすぎぬのであろうが、事実馬鹿になり気狂にならねば信じ得ぬような事も多かった。<br><br>そして社会生活に目隠しし常識を抹殺して、その教義の奴隷となるのが信仰の徹底のように考えられていた。<br><br>従って生命と思う信仰の示す道を完うするためには学問を身につけてはならなかった。<br><br>大学の唯物的学問の修得は、神を否定する思想の養成であり、救われざる努力をするに等しい事になるのであった。<br><br>しかも世は智識万能の社会にまで進んでいる。<br><br>しかし私はいかなる代償を払おうともまず霊肉の苦しみから逃れたかった。<br><br>この解決なくしては何の前進もあり得ぬ。<br><br>いかに苦しみはかさむとも魂の安住のない限りはやはり馬鹿になり狂人になり、信仰の徹底目ざして進む以外道はなかった。<br><br>そのため信仰と社会と病苦と義務と欲望等々あらゆる矛盾相剋の錯雑する地獄の中に、教典以外の一切の書籍と絶縁して救いの探求に努力したが、私の社会に知りたい事、為したい夢、救いの望みさえ一つ一つ信仰によって破壊され、非社会的素質のみが育成されていつの間にか救い難い変質者になってしまった。<br><br> この宗教の二大聖典の中、神の申した事は毛筋の横巾も違わぬと書かれたお筆先は、確かに神の権威に満てる経の厳然たる審判書であって、その千古の名文は正義感を揮い起たしめその予言は恐怖に震えしめたが、あまりにも経一方に過ぎるその教の実行は社会生活に反逆する事になり、孤立的苦しみを生んだ。<br><br>これに全く反して、緯の教典は自由奔放赤裸々なる人間性の中に道を説かんとせられたもののごとく、現代人の耳にも入り易く、智的に説かれてはいるが、徒らに冗漫に流れて、肝腎の真実は掴みようもなく、寧ろ頭脳を混乱せしめた。<br><br>著者自身、嘘かホンマかホンマか嘘か、嘘じゃあるまい誠じゃなかろ、ホンに判らぬ物語りと説かれたごとく、実に荒唐無稽的不徹底極まるもので現実の社会生活から離れしめるのみであった。<br><br>私は百二十巻と称さるるこの物語の過半を六七年間何回も読んだが、結果として得たものは、迷蒙と混乱と錯覚の苦しみであり、精神分裂症的頭脳であった。<br><br>そして私はこの二大教典を社会と没交渉に専読しているうちには、遂に経緯の教典の亡霊と化し完全な寄生虫的無能者となっていた。<br><br> 又この宗教の教主は、霊界物語をお筆先の解説書とし、これが専読を奨励されたため、経の支柱たるお筆先は軽視され無必要化した形となってからは、教風は著るしい乱れを見せ初めた。<br><br> 信徒の多くは、奔放な教主の言動に習い、好んで常軌を逸し、善悪の判別の力を失って愕然として嘘言を吐き、宗門のためなら家庭や社会制度に悪影響する事も、反って善行とされ借金を踏み倒しては貸主の罪穢を除ってやったなどと平然と高言する信者もあるごとき弊害も生じたのである。<br><br>又熱烈な信者ほど病貧争の不幸が累出したが、それを反って神の恵としていた。<br><br>そして自己一人さえ救われず地獄を作りつつある人達が人類救済を唱え、ついには宗教から逸脱してこの宗教によって天下統一するという不穏な独善思想さえ信徒間に唱える者もあり、終に自滅に進んで行ったのである。<br><br> 私もまたその例外でなかった。<br><br>不思議にも神に熱烈な信仰を捧げんとするほど、神をつかめず、善を行わんとする意志が弱く脅迫観念に責められるようになって、頭脳は益々変質朦朧化し、陰惨な恐怖症はいよいよ亢進、不可解な苦悩に生の望みを失い、幾度か自殺を思う事もあった。<br><br>ある時は突如発狂するような衝動に駆られた。<br><br>否客観的にもすでに七八割は異常であった。<br><br>放縦や無軌道も平然と行われそうになり、朝寝も怠惰も度し難いものになった。<br><br>救われた今その苦しみを思出す事も困難であって、そのような苦しみを知らぬ無信仰者や幸福をつくづく羨んだ事もあった。<br><br> 又一方青春の血に沸る慾望の執着は地獄の劫火も絶ち難く思わるる程強まってくる。<br><br>遂には自暴自棄、青い灯赤い燈（ひ）に憧れるようになり、学費はすべてカフェーの貢物になってしまう。<br><br>そして、享楽の次に来るものは幻滅であり、頽廃であり良心の苛責であって、より暗黒へ落ちてゆくのみである。<br><br> これではならぬと益々教典を読誦し信仰に徹せんとする。<br><br>しかしそれは教典によって生じた迷いや苦しみを、同じ教典によって救われんとする努力に過ぎぬのであって、反って益々精神的不具者になるだけのものである。<br><br> その頃信仰の眼目は教主を救世主として主一無適たるべき事を要件とされた。<br><br>そして死生も善悪も超越し、理性を滅し、否定し得ぬ現実を否定するも介意せず、いかなる不幸災難至るとも神の試錬とし、苦難も危険も意とせず、ただただ神の霊示のままに一身を処し一念を通すの徹底がなければならなかった。<br><br>それは明かにすべての幸福と常識の破壊であり、生命の自虐であり、信仰のフワッショである。<br><br>このような信仰に熱烈に精進する程、悦楽も希望も平安もない危険極まる狂信の徒とならねばならなかった。<br><br>本来の苦しみの上にかような地獄を重ねねばならぬ信徒は悲惨なものである。<br><br>それでも一旦最上と信じた道はいかなる悲劇的結果が起ろうとも容易に離れ得ぬのは人間通有の弱点であり、又離脱を厳戒するのが迷信の実態である。<br><br>私もこの迷信者の心理を人一倍もって努力し、遂には自虐的亡国の民となり、絶望懊悩に行くべき道を失った。<br><br>私の辿るべき運命、それは夭折か、自殺か、狂人か、廃人かのいずれかしかなかった。<br><br>もし明主様の御救いを戴かなかったら、数年ならずして、右の運命の決をとっていたに違いない。<br><br> このように狂信に苦しみ、滅亡の運命へ進んだのも結局は自己の霊魂に背負った罪のためであって、罪の赦し主に座す大神の神権に頼らぬ限り救わるる道は絶対になかったのである。<br><br>このいかなる神にも救いようのなかった、世にも珍らしい変質者も、おおけなくも明主様の御赦しを賜わり、お救い頂ける事となった。<br><br>当時の嗜眠症だけでも居住を許さるる家はどこにもある筈はなかった。<br><br>その上にも不潔極まる病体、虫にも等しき無能者、精神病的不具者等々のこの世に住めぬ条件のみさえ何のお咎めもなく、御側近く安住を許され、御救い賜わった御慈悲は底いも知れない。<br><br>爾来常に大御力と御慈悲に包まれ、真に生ける甲斐あるわが身を、この世の最上の幸福者として過さして戴いた。<br><br>又その間幾度か失うべき生命をお救い賜わり、霊肉共に全く別人のごとくして戴き、半人前にも及ばなかった廃人も、一人前に妻子を擁し、病貧争なき天国的家庭になりつつあって、ただあまりにも大き御恵に何の酬ゆすべない苦しみ以外は何の苦悩もない正に讃えようもなき大奇蹟であり、夢の現実である。<br><br> 「お前は最初はとても一人前にはなれぬと思ったが、よくもこれまでになったな」との御言葉を賜わった時は、長い間の広大無辺の御恵みが胸に迫って泣けて泣けてしようがないのであった。<br><br> なお前記の経路のごとく、医学の傷害によって恐怖心の因子を植つけられ、薬毒に犯された頭脳と肉体は恐怖の幻影を作って暗黒を彷い、これを救われんと熱願をかけた宗教は、現実に立脚した何の真理も与えず、いよいよ苦悩を深刻ならしめ自滅への努力を続けさせた。<br><br>それが生命を托するものによって得た結果故に悲惨極まる。<br><br>実に恐るべきは霊体を委ねる宗教と医学の誤謬といわねばならぬ。<br><br>病的想念の湧起するのも自然のままなる成長を妨げた薬毒のためであった。<br><br>この病苦を根本的に艾除（がいじょ）し、健全ならしむる霊体一致の力なくしていかに愛を説き理を諭すとも絶対救う事は出来ぬ。<br><br>万巻の書もて教を説くとも、紛れなき真理を解せしめる頭脳を作り、欣然これを行わしめ幸福の門を開かせる力なくしてどこに救いがあろうか。<br><br> 私は、明主様がこの御力を御発揮になっている事を知って初めて天地開明、心の暗に光明が点ぜられた思いだった。<br><br> 力、力、ああこの大御力、いかなる言葉を尽すとも讃え奉る事は出来ぬ。<br><br>この世初まって以来、かくも尊く有難い御力の発現はなかったのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato de um Inferno de Fanatismo</h2>
 <p>O Sr. S, talvez superestimando minha aura etérea, de anacoreta, e tomando-a por sinal de iluminação espiritual, ou por me considerar um veterano no caminho das artes literárias que Meishu-Sama tanto incentiva, acolheu-me em sua casa para que eu me tornasse uma espécie de guia espiritual em seu lar. Embora eu sentisse uma imensa gratidão por sua transbordante benevolência e desejasse ser-lhe útil de alguma forma, desde minha chegada à residência dos S, tudo o que fiz foi manifestar atitudes que contrariavam frontalmente suas expectativas. O maior transtorno que causei à família foi, sem dúvida, meu hábito descomedido de dormir até tarde.</p>
@@ -116,5 +268,48 @@ function toggleLang(lang) {
 <p>Como relatei anteriormente, os danos causados pela medicina plantaram em mim a semente do medo. Um corpo e uma mente contaminados por toxinas medicamentosas criaram fantasmas de terror que me fizeram vagar na escuridão. A religião à qual recorri em busca de salvação não me ofereceu nenhuma verdade fundamentada na realidade; ao contrário, apenas aprofundou minha agonia e me fez perseverar em um esforço autodestrutivo. O fato de esse ter sido o resultado daquilo em que depositei minha vida torna tudo extremamente trágico. Deve-se dizer que o erro da medicina e da religião, às quais confiamos nosso corpo e espírito, é algo verdadeiramente temível. O surgimento de pensamentos doentios também se devia às toxinas medicamentosas que impediram meu desenvolvimento natural. Sem um poder que una espírito e matéria para erradicar fundamentalmente esse sofrimento e restaurar a saúde, é absolutamente impossível salvar alguém, por mais que se pregue o amor ou se ensine a razão. Mesmo que se explique a doutrina com dez mil volumes, que salvação pode haver sem o poder de forjar uma mente capaz de compreender a verdade inequívoca e de abrir, com alegria, as portas da felicidade?</p>
 <p>Quando soube que Meishu-Sama manifestava esse Poder, foi como se a luz do alvorecer do Céu e da Terra tivesse sido acesa na escuridão da minha alma.</p>
 <p>Poder, Poder, ah, este Grande Poder! Por mais palavras que eu use, jamais serei capaz de exaltá-Lo devidamente. Desde o início deste mundo, jamais houve a manifestação de um Poder tão sublime e sagrado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 クルリ瓢箪 瓢箪 『地上天国』35号、昭和27(1952)年4月25日発行 （五）狂信地獄 Ｓ君は私の仙人然たる茫洋さを、信仰的覚者であるかのごとく買被り、明主様が御奨励になっている文芸の道の先輩でもあるので、私を家庭における導師とすべく同居せしめたものらしかった。<br/><br/>私とても彼の溢れる好意に感謝して、何かの助けとならんと願っているにかかわらず、Ｓ家へ来てからはおよそ彼の期待に反する事のみを露呈した。<br/><br/>同家で最も迷惑したのはまず私の度外れた朝寝であった。<br/><br/>毎日正午に近く時には一時頃までも寝る。<br/><br/>家人が起してもなかなか起きない。<br/><br/>Ｓ君もホトホト愛想をつかし家族の総意もあって、ついに食事だけを支給して他に間借をする事になった。<br/><br/>私とてもこのような不徳義は心から嫌だった。<br/><br/>しかしそれは今迄に何度となく正常の睡眠を摂るように努めても、実現するだけの意志の力なくして身に沁み着いた悪習だった。<br/><br/>否私の朝寝は寧ろ病的で、正に慢性嗜眠症のかなり進んだものだった。<br/><br/>目が醒めると、目脂が一杯溜って眼瞼を塞いで硬着し開ける事が出来ぬ。<br/><br/>身体は痙れたように惰（だる）くて起きられぬ。<br/><br/>いつの聞にか又昏々と寝てしまうのである。<br/><br/> この症状の最初の兆候の表われた幼時は、一日ブッ通しで寝て三日目の朝日覚めた記憶がある。<br/><br/>亀岡町で一ヵ月泊った下宿屋からも、東京で最初にとった下宿からも、寝坊と狂人に紛う奇行のために危険視され追出されたが、今また再び犯すまじきその轍を履んだのである。<br/><br/>この嗜眠症だけでも私は通常の生を営めぬ人間だった。<br/><br/>勿論時間的制約のある学業など全う出来る筈もない。<br/><br/>こうして一人前所か半人前にもあたらぬ穀つぶしの身を儚む歎きは年毎に募っていたのである。<br/><br/> そして又覚醒時は、常に堪えられぬ倦怠と不快感と睡気があり、何事にも飽き易く持続性がなかった。<br/><br/>頭脳は常に重く朦朧として絶えず何か被さっているようで気分が晴れた事なく、怏々として嗜慾と妄想が横生する重症神経衰弱だった。<br/><br/>私の身体には強い毒臭があって一間位先からそれと判ると言われる位だったから、身体中に充満していた大量の薬はその頃かなり浄化していたのである。<br/><br/>このような病状は十六七歳頃から起り初めていたが、その因は生後幾ばくもなくして作ったものであった。<br/><br/> 私は三四歳の頃手術を受け、いとけない背部深くメスを入れられたが、その時の恐しかった医師の顔、刑場のような病室、母の沈痛な顔等の地獄的印象と、名状し難い背部の苦痛は、童心に刻まれて深い傷手となり、未だに消えない幼時の唯一の記憶である。<br/><br/>この心の傷手は予後の二三年間薬毒浄化の度にうずいた。<br/><br/>それは地の底の暗黒へでも引入れられるような絶望的寂寥感であり、残忍に襲われた死の恐怖感であった。<br/><br/>この傷手は、長づると共にいささかの苦難にも傷きやすくなり、社会に住み難き異常な性格を造り上げる因ともなり、私の人生の価値をいかに減殺したか測り知れぬ。<br/><br/>実に恐るべきは医学の残忍である。<br/><br/> 体的病苦は、当然それに相応する霊体病気を伴うた。<br/><br/>そして肉体と正比例して進行するその苦悩はより深刻であった。<br/><br/>そのため一途に神を求め信仰に専念する事になったのである。<br/><br/> 私は、中学へ入学すると間もなく父の死に遇い、後継者として物を思うようになると共に、死に対し人生に対し、深い疑問を抱き異様な恐怖を覚え初めたが、それは今にして思えば手術の時の幼心の傷手が父の死を動機として蘇り、私の生命慾を刺戟したものに違いないのである。<br/><br/>そして死の恐怖が次第に心に深くコビリ着き消え難い黒雲となり、ついには陰惨な哲学に逢着するようになった。<br/><br/>人間は箸とる瞬間も死の影につきまとわれている。<br/><br/>人生は必然来るべき死刑執行の日へ一刻々々進んでゆく処刑者に等しいものだ。<br/><br/>仏者の言う諸行無常は何としても厳然たる事実なのだ。<br/><br/>たとえ、学を成し、財を得、名を誇らんとするも死は一瞬にして無にしてしまう。<br/><br/>その儚なさを思うと、人生に空虚を覚え、堪らない寂寥と悲哀感に襲われ、生命の灯の薄れゆくような心細さに捉われるようになった。<br/><br/>それはたしかに幼時覚えた寂莫感の成長変化したものであり、ある種の薬毒が頭脳内に浄化している時に襲う病的心理なのである。<br/><br/> 私は人知れずこの悩みを知り初めてから神にすがり、専ら教典を読み耽り、所定の修業もして一応生死の意義も法悦の味わいも知ったが、思想は次第に若人の世界から離れて、信仰的霊的生活に憧れ孤独に親しむようになりつつも、青少年期の最も旺盛なる慾望はたち得ぬのみか、反って大きく強くなってゆく、それが神への反逆の罪と思える所に又別な地獄的苦しみを加えた。<br/><br/>勿論、信仰に専念するのも、帰する所、安心立命を与えらるる神を見、神に抱かるる努力であり、死への恐怖や頭脳の朦朧からも逃れたいもがきで、それ自体非常な苦しみであったが、それによって安心らしきものを掴み得たと思うのも束の間、実際に当ると反って深く迷いの間に落ち込み、もがけばもがく程苦しみを増し、病的恐怖心理に拍車をかけるのは不可解であった。<br/><br/>そして私がこのように求めてむ求め得ぬものを求めている間に、同僚との競争は驚く程懸隔を増してゆく事にも悶々とせねばならなかった。<br/><br/>そのような苦行を数年続けるうち、私の病的心理はいよいよ救い難いものとなり、あたかも死霊に憑かれたごとく、死の恐怖が呪いの幻影のようにつきまとって、ともすれば悪魔のように心を噛んで恐怖に戦（おのの）かしめ、学業を手につかぬようにする。<br/><br/>そして遂には極度の黴菌恐怖症のごとく、起り得ぬような恐怖的突発事の幻影を作って小心翼々物に脅えるような変態的妄想が起るようになった。<br/><br/>このようにして精神も肉体も次第に青春の溌剌さを失った。<br/><br/> そして東京へ出てから当時一某新宗教の信者であった私はまず修学と信仰の矛盾に当面した。<br/><br/>元来この宗教では、智慧や学問を軽視否罪悪視さえし、愚者を讃え愚者になる事を強調し又ことさらに狂人視される事を誇りとする風もあった。<br/><br/>それは唯物主義に対する対立的感情からにすぎぬのであろうが、事実馬鹿になり気狂にならねば信じ得ぬような事も多かった。<br/><br/>そして社会生活に目隠しし常識を抹殺して、その教義の奴隷となるのが信仰の徹底のように考えられていた。<br/><br/>従って生命と思う信仰の示す道を完うするためには学問を身につけてはならなかった。<br/><br/>大学の唯物的学問の修得は、神を否定する思想の養成であり、救われざる努力をするに等しい事になるのであった。<br/><br/>しかも世は智識万能の社会にまで進んでいる。<br/><br/>しかし私はいかなる代償を払おうともまず霊肉の苦しみから逃れたかった。<br/><br/>この解決なくしては何の前進もあり得ぬ。<br/><br/>いかに苦しみはかさむとも魂の安住のない限りはやはり馬鹿になり狂人になり、信仰の徹底目ざして進む以外道はなかった。<br/><br/>そのため信仰と社会と病苦と義務と欲望等々あらゆる矛盾相剋の錯雑する地獄の中に、教典以外の一切の書籍と絶縁して救いの探求に努力したが、私の社会に知りたい事、為したい夢、救いの望みさえ一つ一つ信仰によって破壊され、非社会的素質のみが育成されていつの間にか救い難い変質者になってしまった。<br/><br/> この宗教の二大聖典の中、神の申した事は毛筋の横巾も違わぬと書かれたお筆先は、確かに神の権威に満てる経の厳然たる審判書であって、その千古の名文は正義感を揮い起たしめその予言は恐怖に震えしめたが、あまりにも経一方に過ぎるその教の実行は社会生活に反逆する事になり、孤立的苦しみを生んだ。<br/><br/>これに全く反して、緯の教典は自由奔放赤裸々なる人間性の中に道を説かんとせられたもののごとく、現代人の耳にも入り易く、智的に説かれてはいるが、徒らに冗漫に流れて、肝腎の真実は掴みようもなく、寧ろ頭脳を混乱せしめた。<br/><br/>著者自身、嘘かホンマかホンマか嘘か、嘘じゃあるまい誠じゃなかろ、ホンに判らぬ物語りと説かれたごとく、実に荒唐無稽的不徹底極まるもので現実の社会生活から離れしめるのみであった。<br/><br/>私は百二十巻と称さるるこの物語の過半を六七年間何回も読んだが、結果として得たものは、迷蒙と混乱と錯覚の苦しみであり、精神分裂症的頭脳であった。<br/><br/>そして私はこの二大教典を社会と没交渉に専読しているうちには、遂に経緯の教典の亡霊と化し完全な寄生虫的無能者となっていた。<br/><br/> 又この宗教の教主は、霊界物語をお筆先の解説書とし、これが専読を奨励されたため、経の支柱たるお筆先は軽視され無必要化した形となってからは、教風は著るしい乱れを見せ初めた。<br/><br/> 信徒の多くは、奔放な教主の言動に習い、好んで常軌を逸し、善悪の判別の力を失って愕然として嘘言を吐き、宗門のためなら家庭や社会制度に悪影響する事も、反って善行とされ借金を踏み倒しては貸主の罪穢を除ってやったなどと平然と高言する信者もあるごとき弊害も生じたのである。<br/><br/>又熱烈な信者ほど病貧争の不幸が累出したが、それを反って神の恵としていた。<br/><br/>そして自己一人さえ救われず地獄を作りつつある人達が人類救済を唱え、ついには宗教から逸脱してこの宗教によって天下統一するという不穏な独善思想さえ信徒間に唱える者もあり、終に自滅に進んで行ったのである。<br/><br/> 私もまたその例外でなかった。<br/><br/>不思議にも神に熱烈な信仰を捧げんとするほど、神をつかめず、善を行わんとする意志が弱く脅迫観念に責められるようになって、頭脳は益々変質朦朧化し、陰惨な恐怖症はいよいよ亢進、不可解な苦悩に生の望みを失い、幾度か自殺を思う事もあった。<br/><br/>ある時は突如発狂するような衝動に駆られた。<br/><br/>否客観的にもすでに七八割は異常であった。<br/><br/>放縦や無軌道も平然と行われそうになり、朝寝も怠惰も度し難いものになった。<br/><br/>救われた今その苦しみを思出す事も困難であって、そのような苦しみを知らぬ無信仰者や幸福をつくづく羨んだ事もあった。<br/><br/> 又一方青春の血に沸る慾望の執着は地獄の劫火も絶ち難く思わるる程強まってくる。<br/><br/>遂には自暴自棄、青い灯赤い燈（ひ）に憧れるようになり、学費はすべてカフェーの貢物になってしまう。<br/><br/>そして、享楽の次に来るものは幻滅であり、頽廃であり良心の苛責であって、より暗黒へ落ちてゆくのみである。<br/><br/> これではならぬと益々教典を読誦し信仰に徹せんとする。<br/><br/>しかしそれは教典によって生じた迷いや苦しみを、同じ教典によって救われんとする努力に過ぎぬのであって、反って益々精神的不具者になるだけのものである。<br/><br/> その頃信仰の眼目は教主を救世主として主一無適たるべき事を要件とされた。<br/><br/>そして死生も善悪も超越し、理性を滅し、否定し得ぬ現実を否定するも介意せず、いかなる不幸災難至るとも神の試錬とし、苦難も危険も意とせず、ただただ神の霊示のままに一身を処し一念を通すの徹底がなければならなかった。<br/><br/>それは明かにすべての幸福と常識の破壊であり、生命の自虐であり、信仰のフワッショである。<br/><br/>このような信仰に熱烈に精進する程、悦楽も希望も平安もない危険極まる狂信の徒とならねばならなかった。<br/><br/>本来の苦しみの上にかような地獄を重ねねばならぬ信徒は悲惨なものである。<br/><br/>それでも一旦最上と信じた道はいかなる悲劇的結果が起ろうとも容易に離れ得ぬのは人間通有の弱点であり、又離脱を厳戒するのが迷信の実態である。<br/><br/>私もこの迷信者の心理を人一倍もって努力し、遂には自虐的亡国の民となり、絶望懊悩に行くべき道を失った。<br/><br/>私の辿るべき運命、それは夭折か、自殺か、狂人か、廃人かのいずれかしかなかった。<br/><br/>もし明主様の御救いを戴かなかったら、数年ならずして、右の運命の決をとっていたに違いない。<br/><br/> このように狂信に苦しみ、滅亡の運命へ進んだのも結局は自己の霊魂に背負った罪のためであって、罪の赦し主に座す大神の神権に頼らぬ限り救わるる道は絶対になかったのである。<br/><br/>このいかなる神にも救いようのなかった、世にも珍らしい変質者も、おおけなくも明主様の御赦しを賜わり、お救い頂ける事となった。<br/><br/>当時の嗜眠症だけでも居住を許さるる家はどこにもある筈はなかった。<br/><br/>その上にも不潔極まる病体、虫にも等しき無能者、精神病的不具者等々のこの世に住めぬ条件のみさえ何のお咎めもなく、御側近く安住を許され、御救い賜わった御慈悲は底いも知れない。<br/><br/>爾来常に大御力と御慈悲に包まれ、真に生ける甲斐あるわが身を、この世の最上の幸福者として過さして戴いた。<br/><br/>又その間幾度か失うべき生命をお救い賜わり、霊肉共に全く別人のごとくして戴き、半人前にも及ばなかった廃人も、一人前に妻子を擁し、病貧争なき天国的家庭になりつつあって、ただあまりにも大き御恵に何の酬ゆすべない苦しみ以外は何の苦悩もない正に讃えようもなき大奇蹟であり、夢の現実である。<br/><br/> 「お前は最初はとても一人前にはなれぬと思ったが、よくもこれまでになったな」との御言葉を賜わった時は、長い間の広大無辺の御恵みが胸に迫って泣けて泣けてしようがないのであった。<br/><br/> なお前記の経路のごとく、医学の傷害によって恐怖心の因子を植つけられ、薬毒に犯された頭脳と肉体は恐怖の幻影を作って暗黒を彷い、これを救われんと熱願をかけた宗教は、現実に立脚した何の真理も与えず、いよいよ苦悩を深刻ならしめ自滅への努力を続けさせた。<br/><br/>それが生命を托するものによって得た結果故に悲惨極まる。<br/><br/>実に恐るべきは霊体を委ねる宗教と医学の誤謬といわねばならぬ。<br/><br/>病的想念の湧起するのも自然のままなる成長を妨げた薬毒のためであった。<br/><br/>この病苦を根本的に艾除（がいじょ）し、健全ならしむる霊体一致の力なくしていかに愛を説き理を諭すとも絶対救う事は出来ぬ。<br/><br/>万巻の書もて教を説くとも、紛れなき真理を解せしめる頭脳を作り、欣然これを行わしめ幸福の門を開かせる力なくしてどこに救いがあろうか。<br/><br/> 私は、明主様がこの御力を御発揮になっている事を知って初めて天地開明、心の暗に光明が点ぜられた思いだった。<br/><br/> 力、力、ああこの大御力、いかなる言葉を尽すとも讃え奉る事は出来ぬ。<br/><br/>この世初まって以来、かくも尊く有難い御力の発現はなかったのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

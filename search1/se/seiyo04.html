@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seiyo04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学の大革命 未発表、昭和11(1936)年執筆 盲腸炎は切らずに治る 西洋医学は、あらゆる方法を竭（つく）し、解剖分析実験等に由て、全世界の専門家が智能を傾けているに拘わらず、予期の治病能力を挙げ得られないという事実は何が故であろうか。<br><br> 今仮りに、人体の皮下一センチメートルに膿の固結ありとする。<br><br>それを針を用いずメスも用いずして、患者に何ら苦痛なく、その膿の一滴さえ減少する事は出来ないであろう。<br><br>その適例として、彼の盲腸炎における虫様突起の化膿である。<br><br>その膿を排除するに、どうしても手術によらなければ不可能であるという事によってみても瞭（あき）らかである。<br><br> しかるに、我観音力治療法によれば、指頭から発する一種の霊光がその膿結に向って放射する時、その膿は漸次減少してゆくのである。<br><br>そうして、それは患者の目前において、数分にして極めて瞭らかに膿の減少するのを患者自身が知覚出来得るのである。<br><br>そうして、膿結は著しく柔軟化し、それだけ痛みも軽減されるのである。<br><br>従って、時間と回数を重ぬるだけは治癒されるのであって、小なる固結は数分にして解消し、痕を留めざる事もあり、盲腸炎のごときも数十分の治療を施せば痛みは全く去り、解熱し、治癒するのである。<br><br> この事実と比較してみて、我々から言えば、西洋医学の治病力は、その効果の余りに薄弱であるのに驚かざるを得ないのである。<br><br>しかし、見様によっては、それが普通であって、観音力療法が余りに卓越しているのかも知れないのである。<br><br>故に、忌憚なく言えば、西洋医学は児戯に類するとさえ思われる事が屡々（しばしば）あるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura da Apendicite sem Cirurgia</h2>
 <p>Indaga-se por qual motivo a medicina ocidental, a despeito de lançar mão de todos os recursos, como análises anatômicas e experimentos, e de contar com a máxima inteligência de especialistas do mundo inteiro, se mostra incapaz de obter os resultados almejados na cura das doenças.</p>
 <p>Suponhamos, por exemplo, um nódulo purulento localizado a um centímetro sob a pele. Sem o emprego de agulhas ou bisturis e sem infligir qualquer sofrimento ao paciente, seria impossível à medicina reduzir sequer uma gota daquela secreção. O caso da apendicite, com a supuração do apêndice vermiforme, é um exemplo eloquente dessa limitação. Fica, portanto, evidente que a eliminação desse pus depende, impreterivelmente, de uma intervenção cirúrgica.</p>
 <p>Contudo, por meio do nosso método de cura pelo poder de Kannon (観音), quando uma espécie de luz espiritual irradiada pelas pontas dos dedos é direcionada ao nódulo purulento, este começa a se desfazer gradualmente. O mais notável é que, diante de seus próprios olhos, em questão de minutos, o próprio paciente consegue perceber com extrema clareza a diminuição do pus. Concomitantemente, o nódulo se torna muito mais flexível, e a dor é aliviada na mesma proporção. Portanto, à medida que se somam o tempo e o número de sessões, a cura se efetiva. Nódulos menores podem se dissolver em poucos minutos, por vezes sem deixar vestígios, e até mesmo um quadro de apendicite, ao receber um tratamento de algumas dezenas de minutos, tem a dor completamente sanada, a febre cede e a cura se completa.</p>
 <p>Diante da comparação com essa realidade, sob nossa ótica, é impossível não nos surpreendermos com a quão débil é a capacidade curativa da medicina ocidental. Todavia, é possível que, sob outra perspectiva, o seu desempenho seja o padrão considerado normal, e o método de cura pelo poder de Kannon (観音) é que seja extraordinariamente superior. Portanto, para sermos francos, não raro a medicina ocidental chega a nos parecer uma brincadeira de criança.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学の大革命 未発表、昭和11(1936)年執筆 盲腸炎は切らずに治る 西洋医学は、あらゆる方法を竭（つく）し、解剖分析実験等に由て、全世界の専門家が智能を傾けているに拘わらず、予期の治病能力を挙げ得られないという事実は何が故であろうか。<br/><br/> 今仮りに、人体の皮下一センチメートルに膿の固結ありとする。<br/><br/>それを針を用いずメスも用いずして、患者に何ら苦痛なく、その膿の一滴さえ減少する事は出来ないであろう。<br/><br/>その適例として、彼の盲腸炎における虫様突起の化膿である。<br/><br/>その膿を排除するに、どうしても手術によらなければ不可能であるという事によってみても瞭（あき）らかである。<br/><br/> しかるに、我観音力治療法によれば、指頭から発する一種の霊光がその膿結に向って放射する時、その膿は漸次減少してゆくのである。<br/><br/>そうして、それは患者の目前において、数分にして極めて瞭らかに膿の減少するのを患者自身が知覚出来得るのである。<br/><br/>そうして、膿結は著しく柔軟化し、それだけ痛みも軽減されるのである。<br/><br/>従って、時間と回数を重ぬるだけは治癒されるのであって、小なる固結は数分にして解消し、痕を留めざる事もあり、盲腸炎のごときも数十分の治療を施せば痛みは全く去り、解熱し、治癒するのである。<br/><br/> この事実と比較してみて、我々から言えば、西洋医学の治病力は、その効果の余りに薄弱であるのに驚かざるを得ないのである。<br/><br/>しかし、見様によっては、それが普通であって、観音力療法が余りに卓越しているのかも知れないのである。<br/><br/>故に、忌憚なく言えば、西洋医学は児戯に類するとさえ思われる事が屡々（しばしば）あるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

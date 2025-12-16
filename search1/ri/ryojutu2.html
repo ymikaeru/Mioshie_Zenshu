@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ryojutu2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 療術行為届２ 未発表、昭和16(1941)年 療術行為届 本籍地 東京市京橋区京橋一丁目九番地ノ四 現住地 東京市世田谷区玉川上野毛町二三四番地 岡 田 茂 吉 明治十六年一月二十二日生 一、業務所在地 東京市世田谷区玉川上野毛町二三四番地 一、療術行為ノ名称 日本式療法 一、施術方法ノ詳細 別紙ノ通リ 一、料 金 別紙説明ノ通リ 一、履 歴 書 別紙ノ通リ 右の通り療術行為致度候ニ付関係書添付 此段及届候也 右 岡 田 茂 吉 殿 履 歴 書 一、明治三十八年 婦人装身具卸業ヲ創業 一、大正八年 株式会社岡田商店ヲ創立シ社長ニ就ク（資本金弐百万円） 翌九年の経済恐慌を動機トシ社業不振トナリ、十二年ノ大震災ニ遇イ大打撃ヲ受ケ会社解散トナル、是等ニヨッテ実業に興味ヲ失イ、且ツ病弱解決ノ為モアリ宗教ニヨッテ解決セントシ、各宗教ヲ研究シツツ霊ト病気トノ関係ヲ知リ、ツイニ独特ノ治病法ヲ創成シ、昭和九年ヨリ十五年廃業マデ療術行為営業ス、ソノ中間一回禁止命令ヲ受ケ一年有余ニシテ解禁ニ浴ス 一、賞罰 無シ 一、兵役 無シ 右ノ通リ相違無之候也 施術方法 まず、被術者の患部に向って手指又は掌を触れぬ程度に宛〔当〕て振動の形式をなす。<br><br>しかして病患に対する解釈は次のごとし。<br><br> 元来、病患とは人体不断の浄化作用によってそれぞれの局所へ毒素集溜固結する。<br><br>その毒結に対し溶解排除作用が起こる。<br><br>その為の発熱、不快感、痛苦等をいうのである。<br><br>従って、右毒結の溶解と排除作用を促進するを以て、治病の要諦となすのである。<br><br> 人体は物質のみに非ず霊があり、霊と体との密合によって生命があるのであるが故に、肉体に毒素のある場合、霊体にもそのままの曇があるものである。<br><br>故に、その曇を解消するや、霊主体従の法則によって、肉体の毒素は解消又は軽減排除するのである。<br><br> 右の理によって霊体の曇を解消する方法こそ治病の根本であらねばならない。<br><br>しかるに、人間は生まれながらに一種の霊光又は霊波ともいうべきものを保有されいるので、右の霊波を手指に集注し放射せしむるのである。<br><br>この方法によって熟練するに従い、驚くべき治病力を発揮するので、体験者のほとんどが異口同音に称讃するところであり、拙者門弟等の門前市を成す実情によってみても明かである。<br><br> 名称を日本式療法と付した理由は、西洋医学においては、肉体のみを対象として進歩発達したるに反し、本療法においては、前述のごとく霊体を対象とする。<br><br>即ち前者は唯物的療法であるに対し、後者は唯心的療法であり、且つ日本において日本人によって創成されたるを以て、右の名称を適当と思惟したるによる。<br><br> 料金に就て 拙者老齢の為、多数者の治療は困難であるが、今日の重大時局における国民の一員として、今後の余生を国家の御役に立たせたく、皇恩の万分の一にも酬い奉らんと期する次第である。<br><br>従って、右の趣旨によって、皇族、陸海軍高級武官、国家の重臣等の方々において、御召し又は懇請の場合、拙者事情の許す限り御治療申上げる所存にこれあり、料金申受くる意志なきと共に、拙者幸いにも生活上の不安はいささかもこれなき実情なれば、料金決定の必要なしと存ずる次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Declaração de Prática Terapêutica</h2>
 <p><strong>Registro de Atividade Terapêutica</strong></p>
@@ -126,5 +278,48 @@ Mokichi Okada</p>
 <p><strong>Sobre os Honorários</strong></p>
 <p>Em virtude de minha idade avançada, é-me difícil tratar um grande número de pessoas. Contudo, como cidadão diante da grave conjuntura nacional, anseio por dedicar o restante de minha vida a serviço do país, como forma de retribuir, ainda que minimamente, a magnanimidade do Trono Imperial.</p>
 <p>Nesse sentido, e em consonância com o propósito exposto, caso seja solicitado ou convocado por membros da Família Imperial, altos oficiais do Exército e da Marinha ou ministros de Estado, tenho a intenção de ministrar o tratamento na medida em que minhas circunstâncias o permitam. Não tenho a intenção de cobrar honorários, pois, afortunadamente, não possuo qualquer preocupação quanto ao meu sustento. Considero, portanto, desnecessário estabelecer uma tabela de preços.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 療術行為届２ 未発表、昭和16(1941)年 療術行為届 本籍地 東京市京橋区京橋一丁目九番地ノ四 現住地 東京市世田谷区玉川上野毛町二三四番地 岡 田 茂 吉 明治十六年一月二十二日生 一、業務所在地 東京市世田谷区玉川上野毛町二三四番地 一、療術行為ノ名称 日本式療法 一、施術方法ノ詳細 別紙ノ通リ 一、料 金 別紙説明ノ通リ 一、履 歴 書 別紙ノ通リ 右の通り療術行為致度候ニ付関係書添付 此段及届候也 右 岡 田 茂 吉 殿 履 歴 書 一、明治三十八年 婦人装身具卸業ヲ創業 一、大正八年 株式会社岡田商店ヲ創立シ社長ニ就ク（資本金弐百万円） 翌九年の経済恐慌を動機トシ社業不振トナリ、十二年ノ大震災ニ遇イ大打撃ヲ受ケ会社解散トナル、是等ニヨッテ実業に興味ヲ失イ、且ツ病弱解決ノ為モアリ宗教ニヨッテ解決セントシ、各宗教ヲ研究シツツ霊ト病気トノ関係ヲ知リ、ツイニ独特ノ治病法ヲ創成シ、昭和九年ヨリ十五年廃業マデ療術行為営業ス、ソノ中間一回禁止命令ヲ受ケ一年有余ニシテ解禁ニ浴ス 一、賞罰 無シ 一、兵役 無シ 右ノ通リ相違無之候也 施術方法 まず、被術者の患部に向って手指又は掌を触れぬ程度に宛〔当〕て振動の形式をなす。<br/><br/>しかして病患に対する解釈は次のごとし。<br/><br/> 元来、病患とは人体不断の浄化作用によってそれぞれの局所へ毒素集溜固結する。<br/><br/>その毒結に対し溶解排除作用が起こる。<br/><br/>その為の発熱、不快感、痛苦等をいうのである。<br/><br/>従って、右毒結の溶解と排除作用を促進するを以て、治病の要諦となすのである。<br/><br/> 人体は物質のみに非ず霊があり、霊と体との密合によって生命があるのであるが故に、肉体に毒素のある場合、霊体にもそのままの曇があるものである。<br/><br/>故に、その曇を解消するや、霊主体従の法則によって、肉体の毒素は解消又は軽減排除するのである。<br/><br/> 右の理によって霊体の曇を解消する方法こそ治病の根本であらねばならない。<br/><br/>しかるに、人間は生まれながらに一種の霊光又は霊波ともいうべきものを保有されいるので、右の霊波を手指に集注し放射せしむるのである。<br/><br/>この方法によって熟練するに従い、驚くべき治病力を発揮するので、体験者のほとんどが異口同音に称讃するところであり、拙者門弟等の門前市を成す実情によってみても明かである。<br/><br/> 名称を日本式療法と付した理由は、西洋医学においては、肉体のみを対象として進歩発達したるに反し、本療法においては、前述のごとく霊体を対象とする。<br/><br/>即ち前者は唯物的療法であるに対し、後者は唯心的療法であり、且つ日本において日本人によって創成されたるを以て、右の名称を適当と思惟したるによる。<br/><br/> 料金に就て 拙者老齢の為、多数者の治療は困難であるが、今日の重大時局における国民の一員として、今後の余生を国家の御役に立たせたく、皇恩の万分の一にも酬い奉らんと期する次第である。<br/><br/>従って、右の趣旨によって、皇族、陸海軍高級武官、国家の重臣等の方々において、御召し又は懇請の場合、拙者事情の許す限り御治療申上げる所存にこれあり、料金申受くる意志なきと共に、拙者幸いにも生活上の不安はいささかもこれなき実情なれば、料金決定の必要なしと存ずる次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

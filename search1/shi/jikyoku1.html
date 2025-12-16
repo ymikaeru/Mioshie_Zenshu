@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jikyoku1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時局雑感 『地上天国』32号、昭和27(1952)年1月25日発行 今年の正月になってつくづく思われる事は、去年の今頃との異（ちが）いさである。<br><br>衆知のごとく去年は、朝鮮の動乱も酣（たけなわ）にして、前途は暗雲垂れ込め、雨か風か予想すらつかない、無気味な感が濃厚であったからで、それが今年に入って、その様相は緩和された事は事実である。<br><br>とは言え決して明るくなったのではない。<br><br>ちょうど晴れもせず雨にもならず、ドンヨリした鬱陶（うっとう）しい曇り空のようなものである。<br><br>これについて考えてみると、こういう訳であろう。<br><br> 大体、朝鮮問題発生の原因は、言うまでもなくソ連と中共の合作であって、中心はもちろんクレムリンから出ている遠大な計画によるものであるのは言うまでもない。<br><br>それを忖度（そんたく）してみると、まず最初南朝鮮を一挙に攻略し、亜細亜（アジア）制覇の足掛りにしようとしたのであろうが、それ程予想しなかったアメリカが、案外にも真剣になって乗出し、大掛りな援助の手を伸ばし、漸次本腰になって、いかなる犠牲を払っても、中共を押込めてしまわねばならないという態度が、濃厚になって来たので、さしもの中共もこのまま対抗するとしたら、余りに損害が大きくなるばかりなので、何が何でも一時的でも、喰止なければならないとしてソ連へ泣きつき、最初に打った手が、彼のマリク大使の発言であったに違いなかろう。<br><br> という訳で、もちろん心から平和の考えなどあるはずもなく、ただ時を稼ぎながらゆっくり計略を練り、再び起ち上る時期を待つという寸法は容易に汲み取れる。<br><br>しかもソ連の計画は、極力米の力を弱らせるべく、消耗戦術を採っているのであるから、講和になって軍隊を引揚るとしたら、意味のない事になるから、飽くまで国連軍を引きつけて置いて、消耗させなければならない。<br><br>という訳でまず当分は戦争にもならず、平和にもならないという、蛇の生殺し的戦術策を続けるであろう。<br><br>そうして置いてソ連は、他の方面すなわちビルマ、仏印（フランス領インドシナ）等の中東を脅かし、次第によっては事を起すかも知れないし、またヨーロッパの方は、常から憎んでいるユーゴー侵略も時の問題と見ねばなるまいし、東独逸（ドイツ）も無気味な空気を孕んでいるし、イラン、イラク、エジプト等の問題も、直接的ではないが狙いは米国にある。<br><br>というのは英国を困らせる事で、近来英国の財政難の極度に酷いのは右の影響もあるであろう。<br><br>近頃の外電によってみても、国民に対する耐乏政策なども余程深刻になったようだ。<br><br> 今回チャーチル氏の米国訪問も、その点が主であるらしく、つまり経済的援助をト大統領に勧告するのであろう。<br><br>これに付随した日本の中共や国府に対する問題は、付録でしかあるまい。<br><br>こうみてくると今回ほぼ決定したという欧州軍四十七箇師（こし）を作る英軍事費の支出といい、亜細亜における朝鮮はじめ日本、中東方面を援助する費用といい、総計すれば驚くべき莫大な額に上るであろう。<br><br>従ってこれが長く続くとすれば、流石の米国も国力のマイナスは相当なものであろう。<br><br>これでは全くソ連の思う壷にはまる訳で、戦わずしてソ連は勝利の立場になるであろうし、スターリンはほくそえみながら、米国の衰弱を待ちつつ軍備の充実に全力を傾けると共に、最早これなら勝利疑いなしという確信を得たが最後、猛然と起ち上る事になろうから仲々油断は出来ないのである。<br><br> 以上は常識的、推理的に見たままを記いたのであるが、吾々宗教人としては、一般の観方とは根本的に異うのである。<br><br>というのは、神の実在を信じている以上、いかなる問題でも正が勝ち邪が負けるのは当然な帰結であるから、今米とソとを比較してみる時、勝敗は言わずと知れている事で、信者はよく分るであろう。<br><br>従って今後いかなる事態となっても、吾々はいささかの心配も要らないのである。<br><br>しかもその結果吾々の理想とする地上天国、ミロク世界の出現が促進されるとしたら、信ずる者は幸いなりのキリストの聖書も、この事でなくて何であろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Conjuntura Mundial</h2>
 <p>Neste início de ano, ocorre-me uma profunda reflexão sobre o gritante contraste com o mesmo período do ano anterior. Como é de conhecimento geral, em 1951 o conflito na Coreia encontrava-se em seu apogeu, e o futuro se afigurava sombrio, encoberto por nuvens densas. Pairava no ar uma sensação sinistra de incerteza, sem que se pudesse prever o que o destino nos reservava. Embora seja um fato que, neste novo ano, o panorama se abrandou, a verdade é que o horizonte não se tornou mais claro. A situação assemelha-se a um céu nublado, opressivo e melancólico, que não promete nem sol nem chuva. Permitam-me explanar o porquê de tal cenário.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Por conseguinte, o que se pode esperar para o futuro próximo é a continuidade desta tática que se assemelha a deixar a serpente meio morta: uma situação que não é nem de guerra, nem de paz. Enquanto isso, a União Soviética expandirá suas ameaças a outras frentes, como a Birmânia e a Indochina Francesa, onde poderá, a depender das circunstâncias, iniciar novos conflitos. Na Europa, a invasão da Iugoslávia, alvo de antigo ressentimento, deve ser vista como uma questão de tempo. A Alemanha Oriental, por sua vez, está imersa em uma atmosfera sinistra. As crises no Irã, no Iraque e no Egito, embora não sejam confrontos diretos, têm como alvo os Estados Unidos, ao criarem dificuldades para a Grã-Bretanha, cuja extrema crise financeira recente é, em parte, um reflexo dessas pressões. A recente visita de Winston Churchill aos Estados Unidos parece ter como objetivo principal justamente a obtenção de auxílio econômico junto ao presidente Truman, sendo a questão da postura do Japão em relação à China um mero apêndice.</p>
 <p>Se somarmos os custos de formação do exército europeu de quarenta e sete divisões, recém-aprovado, com as despesas de auxílio à Coreia, ao Japão e a outras nações do Oriente, o montante total atingirá uma cifra assombrosa. A persistir tal cenário, até mesmo uma nação como os Estados Unidos sofrerá um decréscimo considerável em seu poderio nacional. Isto corresponde exatamente à armadilha arquitetada pelos soviéticos. Sem sequer entrar em combate, a União Soviética se colocará em posição de vitória. Stálin, com um sorriso dissimulado de satisfação, aguarda o enfraquecimento americano enquanto dedica todos os seus esforços ao fortalecimento de seu arsenal bélico. No momento em que obtiver a convicção de que a vitória é indubitável, ele se levantará com fúria. Portanto, não podemos, de forma alguma, baixar a guarda.</p>
 <p>Até aqui, registrei apenas uma análise baseada no bom senso e na lógica humana. Contudo, para nós, homens de fé, a perspectiva é fundamentalmente distinta. Uma vez que cremos na existência de Deus, a vitória do bem sobre o mal é uma consequência natural e inevitável. Ao compararmos, sob essa ótica, os Estados Unidos e a União Soviética, o resultado do embate torna-se evidente, algo que os membros compreendem perfeitamente. Portanto, independentemente dos desdobramentos futuros, não há o menor motivo para apreensão. E se, como resultado de tudo isso, a concretização de nosso ideal — o Paraíso Terrestre, o Mundo de Miroku — for acelerada, que outro significado poderiam ter as palavras do Cristo nas Sagradas Escrituras: "Bem-aventurados os que creem"?</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時局雑感 『地上天国』32号、昭和27(1952)年1月25日発行 今年の正月になってつくづく思われる事は、去年の今頃との異（ちが）いさである。<br/><br/>衆知のごとく去年は、朝鮮の動乱も酣（たけなわ）にして、前途は暗雲垂れ込め、雨か風か予想すらつかない、無気味な感が濃厚であったからで、それが今年に入って、その様相は緩和された事は事実である。<br/><br/>とは言え決して明るくなったのではない。<br/><br/>ちょうど晴れもせず雨にもならず、ドンヨリした鬱陶（うっとう）しい曇り空のようなものである。<br/><br/>これについて考えてみると、こういう訳であろう。<br/><br/> 大体、朝鮮問題発生の原因は、言うまでもなくソ連と中共の合作であって、中心はもちろんクレムリンから出ている遠大な計画によるものであるのは言うまでもない。<br/><br/>それを忖度（そんたく）してみると、まず最初南朝鮮を一挙に攻略し、亜細亜（アジア）制覇の足掛りにしようとしたのであろうが、それ程予想しなかったアメリカが、案外にも真剣になって乗出し、大掛りな援助の手を伸ばし、漸次本腰になって、いかなる犠牲を払っても、中共を押込めてしまわねばならないという態度が、濃厚になって来たので、さしもの中共もこのまま対抗するとしたら、余りに損害が大きくなるばかりなので、何が何でも一時的でも、喰止なければならないとしてソ連へ泣きつき、最初に打った手が、彼のマリク大使の発言であったに違いなかろう。<br/><br/> という訳で、もちろん心から平和の考えなどあるはずもなく、ただ時を稼ぎながらゆっくり計略を練り、再び起ち上る時期を待つという寸法は容易に汲み取れる。<br/><br/>しかもソ連の計画は、極力米の力を弱らせるべく、消耗戦術を採っているのであるから、講和になって軍隊を引揚るとしたら、意味のない事になるから、飽くまで国連軍を引きつけて置いて、消耗させなければならない。<br/><br/>という訳でまず当分は戦争にもならず、平和にもならないという、蛇の生殺し的戦術策を続けるであろう。<br/><br/>そうして置いてソ連は、他の方面すなわちビルマ、仏印（フランス領インドシナ）等の中東を脅かし、次第によっては事を起すかも知れないし、またヨーロッパの方は、常から憎んでいるユーゴー侵略も時の問題と見ねばなるまいし、東独逸（ドイツ）も無気味な空気を孕んでいるし、イラン、イラク、エジプト等の問題も、直接的ではないが狙いは米国にある。<br/><br/>というのは英国を困らせる事で、近来英国の財政難の極度に酷いのは右の影響もあるであろう。<br/><br/>近頃の外電によってみても、国民に対する耐乏政策なども余程深刻になったようだ。<br/><br/> 今回チャーチル氏の米国訪問も、その点が主であるらしく、つまり経済的援助をト大統領に勧告するのであろう。<br/><br/>これに付随した日本の中共や国府に対する問題は、付録でしかあるまい。<br/><br/>こうみてくると今回ほぼ決定したという欧州軍四十七箇師（こし）を作る英軍事費の支出といい、亜細亜における朝鮮はじめ日本、中東方面を援助する費用といい、総計すれば驚くべき莫大な額に上るであろう。<br/><br/>従ってこれが長く続くとすれば、流石の米国も国力のマイナスは相当なものであろう。<br/><br/>これでは全くソ連の思う壷にはまる訳で、戦わずしてソ連は勝利の立場になるであろうし、スターリンはほくそえみながら、米国の衰弱を待ちつつ軍備の充実に全力を傾けると共に、最早これなら勝利疑いなしという確信を得たが最後、猛然と起ち上る事になろうから仲々油断は出来ないのである。<br/><br/> 以上は常識的、推理的に見たままを記いたのであるが、吾々宗教人としては、一般の観方とは根本的に異うのである。<br/><br/>というのは、神の実在を信じている以上、いかなる問題でも正が勝ち邪が負けるのは当然な帰結であるから、今米とソとを比較してみる時、勝敗は言わずと知れている事で、信者はよく分るであろう。<br/><br/>従って今後いかなる事態となっても、吾々はいささかの心配も要らないのである。<br/><br/>しかもその結果吾々の理想とする地上天国、ミロク世界の出現が促進されるとしたら、信ずる者は幸いなりのキリストの聖書も、この事でなくて何であろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

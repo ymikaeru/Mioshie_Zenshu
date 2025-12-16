@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij1041</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第一篇 ４ 041-059 御奉斎 041 御尊影と御神体の方向 (一) 御軸を御祭りする方向はどちらが一番宜しいでしょうか。<br><br>またどちらが一番悪いでしょうか。<br><br> (二) 大先生様の御写真は御軸の真前に御祭りするのが宜しいでしょうか。<br><br>または横に御祭りすべきでしょうか。<br><br> 右御教示御願い申し上げます。<br><br> (一) 方向は何れでもよい。<br><br>臨機応変でよい。<br><br> (二) 横に祭った方がよい。<br><br>床の上には何にも掛けるべきでない。<br><br>（S24. 1.28） 042 御写真と大黒の祀り場所 大黒様は真中がよい。<br><br>または、出来ぬ場合は観音様の左がいい。<br><br> 床の間の真上には何にも掛けるべきでない。<br><br>御写真は違い棚の方がよい。<br><br>両脇が出来ぬ場合は真中でよい。<br><br>（S23. 6.28） 043 御神体の向 私宅では光明如来様御奉斎の向について―― 何向でも差支えない。<br><br>神様には東西南北などはない。<br><br> 本来無東西。<br><br>何処有南北という。<br><br> rattail（注） 「本来東西なし いずくにか南北あらん」 『迷故三界城』『悟故十方空』『本来無東西』『何処有南北』 ｢小叢林清規（しょうそうりんしんぎ）｣というお経の偈であり、真言宗や禅宗で、棺の蓋や骨壷に書く。<br><br>お遍路さんもこの句を書いた菅笠をかぶる。<br><br> 044 御奉斎の方位 御神体を（御軸）御祭りさせていただく場合、方位に適、不適がありましょうか。<br><br> （例えば未申に御祭りすれば丑寅に面するごとき）御伺い申し上げます。<br><br> こんな事はない。<br><br>方角は構わぬ。<br><br>（S24. 3. 4） 045 御奉斎の要項（八足台、御供え、位置） 左記御祭りの件について―― (一)、床あるいは置床、または床なき場合を通じて八足台の必要の有無。<br><br> (二)、生魚鳥、洗米、塩、あるいは水、お茶等供物の正しい扱方。<br><br> (三)、平常の場合、月並祭、臨時祭等に光明如来、大光明如来、の御取替の正しき扱方。<br><br> (四)、間数多く床が数ケ所ある場合、光明如来、大光明如来、御姿平常いかに御掛けしたらよいのでしょうか。<br><br> (五)、御開眼を御願いした観音像あるいは大黒様像は光明如来、大光来様のいかなる位置に安置したらよいでしょうか。<br><br> (一) 八足台は神道の祀り方。<br><br>観音様の方はお粗末の恰好でないものなら塗ったものでも何でも差支えない。<br><br>床の間などに合ったものならよい。<br><br>何でもよい。<br><br>（置床でもよい） (二) 神道からゆくと塩と水、お米と饌米等上げるが光明如来様はそういうものは要らぬ。<br><br>観音様は人間のお姿であるから人間の食べるものは何でもよい。<br><br>塩や生米等は龍神の食べるものである。<br><br>仏教の間は、神様は大抵龍神になっていた。<br><br>これから、こういう物を上げるのは（本当で？）ない。<br><br>魚などあっさり焼いたものがよく、牛や豚はやめた方がよい。<br><br>すべて煮たり焼いたりした物がよい。<br><br>お祭りの様式は新しいものを作る。<br><br>それまでの間は適当のやり方で何でもよい。<br><br> (四) 大光明如来様は一番の上座で、次は光明如来、次はお姿で文字は上座が本当である。<br><br>お姿は次の順序になる。<br><br> (五) 大黒様は前へ置く。<br><br>御神体のちよっと向って右へおくとなおよい。<br><br>それが本当である。<br><br>臨機応変でよい。<br><br>（S24. 3.16） 046 御奉斎形式（相応） 初めて光明如来様を御奉斎する時の形式的要点を御教え下さい。<br><br> 家が粗末で小さくて祭壇だけ立派なのも本当でない。<br><br>立派な家でつまらぬ祭壇でも嘘である。<br><br>身分に丁度よい形式でお祭りする。<br><br>すべて相応していなくてはいけない。<br><br>相応しないと、お下りにならない。<br><br>形式とはそれらにおいて丁度よい所にある。<br><br> 047 御奉斎の形式 光明如来様御祭込みの形式をあらためて御伺い申し上げます。<br><br>服装その他について。<br><br> 形式は自然に適当な形式が出来てる。<br><br>（S25. 2. 3） 048 御奉斎の仕方 光明如来様、大光明如来様の御神体の正式のお祭り方（御霊鎮の時、毎日の家庭における時）を御教示願います。<br><br> 教導師から聞くとよい。<br><br>（S24. 8. 9） 049 神床を立派にする事 真面目な一信徒、余り豊かでないので順次建て増すつもりでまず六坪程の小さな家を建てましたが、床の間だけは立派にして大光明如来様を御奉斎申し上げたいと申しておりますが宜しゅうございましょうか。<br><br>右御教示御願い申し上げます。<br><br> 家に不釣合なほど立派にする要はない。<br><br>相応の理である。<br><br>（S *.11.23） 050 床の間下の戸棚 床の間の下方に戸棚が付いているために、大光明如来様の御神体の下方を少し巻いたままになっておりますが、差支え御座居ましょうか。<br><br>右御質（たず）ね致します。<br><br> 戸棚をとればよい。<br><br>床が上になっている。<br><br>（S24. 5. 9） 051 床心の窓 御軸を御祭り致したく思いますが、床の間の中央に窓がありますがいかが致しましたらよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 窓を塞ぐといい。<br><br>板張って、壁をぬれ。<br><br> 052 光明如来様御奉斎場所、大黒様の祀り 光明如来様は客間か居間にお祭りするのであるが、居間にお祭りするのが本当である。<br><br> 大黒様は観音様の側へ祀るのが本当である。<br><br>本当は甲子の日にお祭りするのであるが、最初は甲子にお祀りするので、後は光明如来様のお祭りの時に一緒にすればよい。<br><br>（S23） 053 八畳、四半二室の時の奉斎 荒井房吉（戸主、三十二歳）と申す信者で御座いますが、本人は本年一月、妻は昨年十一月入信させて頂きこのたび御神体をお祀りさせて頂きたく存じますが、古い農家で八畳と四畳半の室が御座いますがどちらも床の間が御座いません。<br><br>夫婦は四畳半で生活致しております。<br><br>八畳の間には三尺の押入式の仏壇に御屏風観音様をお祀りさせて頂いておりますがあとは四方が障子と唐紙の押入のみで御座いましてそこに中風の母親が休んでおりますため置床を造って御神体をお祀りさせて頂きたいと存じますが宜しゅう御座いましょうか。<br><br>お伺い申し上げます。<br><br> 四畳半はいけない。<br><br>八畳へ床の間を作る。<br><br>そしてその部屋へ寝かすと中風もよくなる。<br><br>（S25. 5. 2） 054 御奉斎場所 床 私の家は上図のようで現在八畳の床に光明如来様を奉斎して御座います。<br><br>離れの六畳は店の二階で御座敷の中二階になっております。<br><br>御座敷からわずかに高座敷になっております。<br><br>今度大光明如来様を奉斎さして戴きたく存じておりますがいずれの床がよろしいでしょうか。<br><br>六畳の方は三尺床で貧弱です。<br><br> 一番良い所へ祭ればよい。<br><br>二階家の下はいけない。<br><br>それだけである。<br><br>（S24. 8.29） 055 御奉斎の家と神木使用 本年六月私夫婦は生保内教導所において教修を戴き同時に幽世大御神をお迎え致し、本月初め光明如来様をお祀りさせて戴きました。<br><br> 教修を戴くまでは私も妻も時々発作的に頭が変になっておりましたが、教修を戴いてより殆ど平常に復させて戴きました。<br><br>私の家は約二十年前軒下に落雷し、また昨年は家の中に落雷しその時母は即死し私は倒れたまま暫く意識不明となったまま難をまぬがれました。<br><br> 七年前家を増築の際、隣部落の氏神（熊野神社）の建築に使用した神木の余材を「ナゲシ」に使ってあります。<br><br>この神木はそのままでよろしゅうございましょうか。<br><br>またいかに処置すべきでございましょうか。<br><br> 普通はいけないが光明如来様をお祭りしてあれば差支えない。<br><br>ただこれだけする。<br><br>即ち熊野神社へ詣って、いつか知らずお断りなしで使ったのは申訳ないと断ればよい。<br><br>断らぬから眷族が怒る。<br><br>（S24. 7.29） 056 床裏、脇の便所 光明如来様や大光明如来様の御霊鎮めの場合、農村には左記のごとく床裏、床脇便所のある床は勿体なく存じますが御許し願えましょうか。<br><br>お伺い致します。<br><br> 差支えない。<br><br>出来ぬ事は決してお尤めはない。<br><br>（S25. 2. 5） 057 御神体と屋根修理 御軸様を御祭りしてあります御部屋の屋根を修理または塗り変えのために登らなければなりません時は、御軸様はどう致しましたらよろしゅう御座いましょうか。<br><br> そのままで構わぬ。<br><br>御無礼にならぬ。<br><br>（S24. 8.19） 058 御奉斎の屋根へ上る事 光明如来様お祭りしてあって、屋根の雪を降したり修理する時、屋根に登ってよいでしょうか。<br><br> 御神体はお外ししなくともよろしい。<br><br> 修理のためであるから御無礼などない。<br><br> 059 御奉斎の階下に寝る事 二階に光明如来様を御祭りし、階下に寝起きしているのは宜しいでしょうか。<br><br> よろしい。<br><br>（S *.12.15）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Teses do Reverendo Jikan Okada – Assuntos Cerimoniais: A Consagração (041-059)</h2>
 <p><strong>041 A Direção do Retrato e do Objeto de Vossa Divindade</strong></p>
@@ -227,5 +379,48 @@ No espaço diretamente acima da alcova, nada deve ser pendurado. O local mais ap
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第一篇 ４ 041-059 御奉斎 041 御尊影と御神体の方向 (一) 御軸を御祭りする方向はどちらが一番宜しいでしょうか。<br/><br/>またどちらが一番悪いでしょうか。<br/><br/> (二) 大先生様の御写真は御軸の真前に御祭りするのが宜しいでしょうか。<br/><br/>または横に御祭りすべきでしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> (一) 方向は何れでもよい。<br/><br/>臨機応変でよい。<br/><br/> (二) 横に祭った方がよい。<br/><br/>床の上には何にも掛けるべきでない。<br/><br/>（S24. 1.28） 042 御写真と大黒の祀り場所 大黒様は真中がよい。<br/><br/>または、出来ぬ場合は観音様の左がいい。<br/><br/> 床の間の真上には何にも掛けるべきでない。<br/><br/>御写真は違い棚の方がよい。<br/><br/>両脇が出来ぬ場合は真中でよい。<br/><br/>（S23. 6.28） 043 御神体の向 私宅では光明如来様御奉斎の向について―― 何向でも差支えない。<br/><br/>神様には東西南北などはない。<br/><br/> 本来無東西。<br/><br/>何処有南北という。<br/><br/> rattail（注） 「本来東西なし いずくにか南北あらん」 『迷故三界城』『悟故十方空』『本来無東西』『何処有南北』 ｢小叢林清規（しょうそうりんしんぎ）｣というお経の偈であり、真言宗や禅宗で、棺の蓋や骨壷に書く。<br/><br/>お遍路さんもこの句を書いた菅笠をかぶる。<br/><br/> 044 御奉斎の方位 御神体を（御軸）御祭りさせていただく場合、方位に適、不適がありましょうか。<br/><br/> （例えば未申に御祭りすれば丑寅に面するごとき）御伺い申し上げます。<br/><br/> こんな事はない。<br/><br/>方角は構わぬ。<br/><br/>（S24. 3. 4） 045 御奉斎の要項（八足台、御供え、位置） 左記御祭りの件について―― (一)、床あるいは置床、または床なき場合を通じて八足台の必要の有無。<br/><br/> (二)、生魚鳥、洗米、塩、あるいは水、お茶等供物の正しい扱方。<br/><br/> (三)、平常の場合、月並祭、臨時祭等に光明如来、大光明如来、の御取替の正しき扱方。<br/><br/> (四)、間数多く床が数ケ所ある場合、光明如来、大光明如来、御姿平常いかに御掛けしたらよいのでしょうか。<br/><br/> (五)、御開眼を御願いした観音像あるいは大黒様像は光明如来、大光来様のいかなる位置に安置したらよいでしょうか。<br/><br/> (一) 八足台は神道の祀り方。<br/><br/>観音様の方はお粗末の恰好でないものなら塗ったものでも何でも差支えない。<br/><br/>床の間などに合ったものならよい。<br/><br/>何でもよい。<br/><br/>（置床でもよい） (二) 神道からゆくと塩と水、お米と饌米等上げるが光明如来様はそういうものは要らぬ。<br/><br/>観音様は人間のお姿であるから人間の食べるものは何でもよい。<br/><br/>塩や生米等は龍神の食べるものである。<br/><br/>仏教の間は、神様は大抵龍神になっていた。<br/><br/>これから、こういう物を上げるのは（本当で？）ない。<br/><br/>魚などあっさり焼いたものがよく、牛や豚はやめた方がよい。<br/><br/>すべて煮たり焼いたりした物がよい。<br/><br/>お祭りの様式は新しいものを作る。<br/><br/>それまでの間は適当のやり方で何でもよい。<br/><br/> (四) 大光明如来様は一番の上座で、次は光明如来、次はお姿で文字は上座が本当である。<br/><br/>お姿は次の順序になる。<br/><br/> (五) 大黒様は前へ置く。<br/><br/>御神体のちよっと向って右へおくとなおよい。<br/><br/>それが本当である。<br/><br/>臨機応変でよい。<br/><br/>（S24. 3.16） 046 御奉斎形式（相応） 初めて光明如来様を御奉斎する時の形式的要点を御教え下さい。<br/><br/> 家が粗末で小さくて祭壇だけ立派なのも本当でない。<br/><br/>立派な家でつまらぬ祭壇でも嘘である。<br/><br/>身分に丁度よい形式でお祭りする。<br/><br/>すべて相応していなくてはいけない。<br/><br/>相応しないと、お下りにならない。<br/><br/>形式とはそれらにおいて丁度よい所にある。<br/><br/> 047 御奉斎の形式 光明如来様御祭込みの形式をあらためて御伺い申し上げます。<br/><br/>服装その他について。<br/><br/> 形式は自然に適当な形式が出来てる。<br/><br/>（S25. 2. 3） 048 御奉斎の仕方 光明如来様、大光明如来様の御神体の正式のお祭り方（御霊鎮の時、毎日の家庭における時）を御教示願います。<br/><br/> 教導師から聞くとよい。<br/><br/>（S24. 8. 9） 049 神床を立派にする事 真面目な一信徒、余り豊かでないので順次建て増すつもりでまず六坪程の小さな家を建てましたが、床の間だけは立派にして大光明如来様を御奉斎申し上げたいと申しておりますが宜しゅうございましょうか。<br/><br/>右御教示御願い申し上げます。<br/><br/> 家に不釣合なほど立派にする要はない。<br/><br/>相応の理である。<br/><br/>（S *.11.23） 050 床の間下の戸棚 床の間の下方に戸棚が付いているために、大光明如来様の御神体の下方を少し巻いたままになっておりますが、差支え御座居ましょうか。<br/><br/>右御質（たず）ね致します。<br/><br/> 戸棚をとればよい。<br/><br/>床が上になっている。<br/><br/>（S24. 5. 9） 051 床心の窓 御軸を御祭り致したく思いますが、床の間の中央に窓がありますがいかが致しましたらよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 窓を塞ぐといい。<br/><br/>板張って、壁をぬれ。<br/><br/> 052 光明如来様御奉斎場所、大黒様の祀り 光明如来様は客間か居間にお祭りするのであるが、居間にお祭りするのが本当である。<br/><br/> 大黒様は観音様の側へ祀るのが本当である。<br/><br/>本当は甲子の日にお祭りするのであるが、最初は甲子にお祀りするので、後は光明如来様のお祭りの時に一緒にすればよい。<br/><br/>（S23） 053 八畳、四半二室の時の奉斎 荒井房吉（戸主、三十二歳）と申す信者で御座いますが、本人は本年一月、妻は昨年十一月入信させて頂きこのたび御神体をお祀りさせて頂きたく存じますが、古い農家で八畳と四畳半の室が御座いますがどちらも床の間が御座いません。<br/><br/>夫婦は四畳半で生活致しております。<br/><br/>八畳の間には三尺の押入式の仏壇に御屏風観音様をお祀りさせて頂いておりますがあとは四方が障子と唐紙の押入のみで御座いましてそこに中風の母親が休んでおりますため置床を造って御神体をお祀りさせて頂きたいと存じますが宜しゅう御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 四畳半はいけない。<br/><br/>八畳へ床の間を作る。<br/><br/>そしてその部屋へ寝かすと中風もよくなる。<br/><br/>（S25. 5. 2） 054 御奉斎場所 床 私の家は上図のようで現在八畳の床に光明如来様を奉斎して御座います。<br/><br/>離れの六畳は店の二階で御座敷の中二階になっております。<br/><br/>御座敷からわずかに高座敷になっております。<br/><br/>今度大光明如来様を奉斎さして戴きたく存じておりますがいずれの床がよろしいでしょうか。<br/><br/>六畳の方は三尺床で貧弱です。<br/><br/> 一番良い所へ祭ればよい。<br/><br/>二階家の下はいけない。<br/><br/>それだけである。<br/><br/>（S24. 8.29） 055 御奉斎の家と神木使用 本年六月私夫婦は生保内教導所において教修を戴き同時に幽世大御神をお迎え致し、本月初め光明如来様をお祀りさせて戴きました。<br/><br/> 教修を戴くまでは私も妻も時々発作的に頭が変になっておりましたが、教修を戴いてより殆ど平常に復させて戴きました。<br/><br/>私の家は約二十年前軒下に落雷し、また昨年は家の中に落雷しその時母は即死し私は倒れたまま暫く意識不明となったまま難をまぬがれました。<br/><br/> 七年前家を増築の際、隣部落の氏神（熊野神社）の建築に使用した神木の余材を「ナゲシ」に使ってあります。<br/><br/>この神木はそのままでよろしゅうございましょうか。<br/><br/>またいかに処置すべきでございましょうか。<br/><br/> 普通はいけないが光明如来様をお祭りしてあれば差支えない。<br/><br/>ただこれだけする。<br/><br/>即ち熊野神社へ詣って、いつか知らずお断りなしで使ったのは申訳ないと断ればよい。<br/><br/>断らぬから眷族が怒る。<br/><br/>（S24. 7.29） 056 床裏、脇の便所 光明如来様や大光明如来様の御霊鎮めの場合、農村には左記のごとく床裏、床脇便所のある床は勿体なく存じますが御許し願えましょうか。<br/><br/>お伺い致します。<br/><br/> 差支えない。<br/><br/>出来ぬ事は決してお尤めはない。<br/><br/>（S25. 2. 5） 057 御神体と屋根修理 御軸様を御祭りしてあります御部屋の屋根を修理または塗り変えのために登らなければなりません時は、御軸様はどう致しましたらよろしゅう御座いましょうか。<br/><br/> そのままで構わぬ。<br/><br/>御無礼にならぬ。<br/><br/>（S24. 8.19） 058 御奉斎の屋根へ上る事 光明如来様お祭りしてあって、屋根の雪を降したり修理する時、屋根に登ってよいでしょうか。<br/><br/> 御神体はお外ししなくともよろしい。<br/><br/> 修理のためであるから御無礼などない。<br/><br/> 059 御奉斎の階下に寝る事 二階に光明如来様を御祭りし、階下に寝起きしているのは宜しいでしょうか。<br/><br/> よろしい。<br/><br/>（S *.12.15）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

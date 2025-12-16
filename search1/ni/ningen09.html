@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ningen09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間は健康の器 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 よく昔から人は病の器などというが、これほど間違った話はない、吾らはこれを訂正して人は健康の器なりというのである。<br><br>前項に述べたごとく元々人間は健康に造られたものであるからである。<br><br>ところが実は病なるものは人間に付物で、どうしても解決出来ないのが現実で、やむを得ず宿命として諦めてしまったのである。<br><br>もちろん人間一度病に罹るやなかなか簡単には治らない。<br><br>長くかかったり頻繁に病気に罹ったり人によっては健康時よりも罹病時の方が多い事さえある。<br><br>それがため病の器としか思えないのでそのような状態が長く続く事によって病の器などという言葉が出来たのであろう。<br><br>というのは病気の本体が不明であったからで、病気も死の運命も免れ得ないとされて来たのは無理からぬ事であった。<br><br>彼の釈尊の言われた生病老死の諦めもそのためである。<br><br>また今日予防医学という事を言われるが、これらも一度病に犯されるや容易に治し得ないからの窮余の産物としか思えない。<br><br>何となればもし医学が治病能力が絶対であるとしたら、予防医学など考えられ得ないからである。<br><br>ここで再び本論へ戻るが、前述のごとく病原である反自然とはいかなる点であるかを説明してみるが、まず人間罹病するや唯一の方法として薬剤を用いるがこれがそもそもの誤謬である。<br><br>薬剤とは漢方においては草根木皮、洋方においては鉱物植物等から抽出されるもので、これが根本的反自然である。<br><br>考えてもみるがいい。<br><br>右のごとき薬剤の性質は必ず苦味、臭味、酸味等、例外なく人間の嫌忌（けんき）される味をもっている。<br><br>よく昔から「薬の後の口直し」という事がよく物語っている。<br><br>これらの呑み難いのはなぜであろうかを考えるべきで、神は有毒であるから服んでは不可である事を示されているのである。<br><br>彼の苦痛緩和用の麻痺剤としての阿片は罌粟（けし）の花から採るのである。<br><br>元来芥子（けし）の花とは神が人間の眼を楽しませる目的で造られたもので決して人間が服むべく造られたものではない。<br><br>また近時流行薬の一として用いられるペニシリンにしても、原料は植物の苔という事であるが、これらも人間が口へ入れるものとして造られたものではない。<br><br>石または土に美観を添えるためのものである。<br><br>この理によってあらゆる飲食物は人間の嗜好に適するよう造られている以上それを食えばいいので、それが自然である。<br><br>よく何が栄養になるとかないとかいうような事などはもちろん誤りである。<br><br>食物はすべてその土地の気候風土によって幾分の差異はあるが、それがその土地に生れた人間に適すべく生産されているのである。<br><br>黄色人が米を食い、白色人が麦を食うのもそうであり、日本が島国であるという事は魚食を多くせよという事で大陸人は肉食である事もそれでいいのである。<br><br>この理によって農民の菜食も自然に適っている。<br><br>二六時中休みなく労働に堪え得るという事は、菜食が適しているからである。<br><br>その理を知らない栄養学は近来農民に魚肉を食わせようとするが、これを行えば農民の労働力は減少するのである。<br><br>それに引換え漁民は魚食のため持続的労働は出来ない、間歇（かんけつ）的に労働する。<br><br>また魚食は敏感性を高めるので漁業に適するので自然は実によく出来ている。<br><br> 以上は、薬剤と食物の反自然的誤謬を概略かいたが、特に薬剤がいかに有毒であるにかかわらず、なぜ昔から応用したかという根本原理を漸次説き進めてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Ser Humano, um Receptáculo de Saúde</h2>
 <p>É comum, desde a Antiguidade, a crença de que o ser humano é um receptáculo de doenças. Todavia, não há equívoco maior. Nós, por nossa vez, corrigimos essa visão e afirmamos: o ser humano é um receptáculo de saúde. Isto porque, conforme exposto anteriormente, o homem foi originalmente criado para ser saudável.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Seguindo esse raciocínio, todos os alimentos e bebidas foram concebidos para agradar ao paladar humano; portanto, basta que nos alimentemos deles para estarmos em harmonia com o natural. Discussões sobre o que é ou não nutritivo são, evidentemente, um equívoco. Ainda que existam algumas diferenças nos alimentos, decorrentes do clima e das características de cada região, eles são produzidos de forma a se adequarem perfeitamente às pessoas que ali nascem. É por essa razão que os povos asiáticos têm o arroz como base de sua alimentação, enquanto os povos europeus consomem o trigo. A condição insular do Japão sugere uma dieta rica em peixes, ao passo que o consumo de carne pelos povos continentais também se alinha a esse princípio natural.</p>
 <p>Nesse sentido, a dieta vegetariana dos agricultores está em perfeita conformidade com a Natureza. Sua capacidade de suportar o trabalho ininterrupto, dia e noite, deve-se precisamente à adequação desse regime alimentar. A ciência da nutrição, ignorando essa lógica, tem recentemente incentivado os agricultores a consumir peixe e carne. Se tal recomendação for seguida, a capacidade de trabalho desses homens diminuirá. Em contrapartida, os pescadores, cuja dieta se baseia em peixes, não conseguem realizar um trabalho contínuo; sua labuta é intermitente. Adicionalmente, a alimentação à base de peixe aguça a sensibilidade, o que é ideal para a atividade da pesca, demonstrando assim a assombrosa perfeição com que a Natureza opera.</p>
 <p>Até aqui, esbocei em linhas gerais os equívocos antinaturais relacionados aos medicamentos e à alimentação. Doravante, prosseguirei na explanação do princípio fundamental que levou a humanidade a utilizar, desde tempos remotos, substâncias de reconhecida toxicidade como remédios.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間は健康の器 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 よく昔から人は病の器などというが、これほど間違った話はない、吾らはこれを訂正して人は健康の器なりというのである。<br/><br/>前項に述べたごとく元々人間は健康に造られたものであるからである。<br/><br/>ところが実は病なるものは人間に付物で、どうしても解決出来ないのが現実で、やむを得ず宿命として諦めてしまったのである。<br/><br/>もちろん人間一度病に罹るやなかなか簡単には治らない。<br/><br/>長くかかったり頻繁に病気に罹ったり人によっては健康時よりも罹病時の方が多い事さえある。<br/><br/>それがため病の器としか思えないのでそのような状態が長く続く事によって病の器などという言葉が出来たのであろう。<br/><br/>というのは病気の本体が不明であったからで、病気も死の運命も免れ得ないとされて来たのは無理からぬ事であった。<br/><br/>彼の釈尊の言われた生病老死の諦めもそのためである。<br/><br/>また今日予防医学という事を言われるが、これらも一度病に犯されるや容易に治し得ないからの窮余の産物としか思えない。<br/><br/>何となればもし医学が治病能力が絶対であるとしたら、予防医学など考えられ得ないからである。<br/><br/>ここで再び本論へ戻るが、前述のごとく病原である反自然とはいかなる点であるかを説明してみるが、まず人間罹病するや唯一の方法として薬剤を用いるがこれがそもそもの誤謬である。<br/><br/>薬剤とは漢方においては草根木皮、洋方においては鉱物植物等から抽出されるもので、これが根本的反自然である。<br/><br/>考えてもみるがいい。<br/><br/>右のごとき薬剤の性質は必ず苦味、臭味、酸味等、例外なく人間の嫌忌（けんき）される味をもっている。<br/><br/>よく昔から「薬の後の口直し」という事がよく物語っている。<br/><br/>これらの呑み難いのはなぜであろうかを考えるべきで、神は有毒であるから服んでは不可である事を示されているのである。<br/><br/>彼の苦痛緩和用の麻痺剤としての阿片は罌粟（けし）の花から採るのである。<br/><br/>元来芥子（けし）の花とは神が人間の眼を楽しませる目的で造られたもので決して人間が服むべく造られたものではない。<br/><br/>また近時流行薬の一として用いられるペニシリンにしても、原料は植物の苔という事であるが、これらも人間が口へ入れるものとして造られたものではない。<br/><br/>石または土に美観を添えるためのものである。<br/><br/>この理によってあらゆる飲食物は人間の嗜好に適するよう造られている以上それを食えばいいので、それが自然である。<br/><br/>よく何が栄養になるとかないとかいうような事などはもちろん誤りである。<br/><br/>食物はすべてその土地の気候風土によって幾分の差異はあるが、それがその土地に生れた人間に適すべく生産されているのである。<br/><br/>黄色人が米を食い、白色人が麦を食うのもそうであり、日本が島国であるという事は魚食を多くせよという事で大陸人は肉食である事もそれでいいのである。<br/><br/>この理によって農民の菜食も自然に適っている。<br/><br/>二六時中休みなく労働に堪え得るという事は、菜食が適しているからである。<br/><br/>その理を知らない栄養学は近来農民に魚肉を食わせようとするが、これを行えば農民の労働力は減少するのである。<br/><br/>それに引換え漁民は魚食のため持続的労働は出来ない、間歇（かんけつ）的に労働する。<br/><br/>また魚食は敏感性を高めるので漁業に適するので自然は実によく出来ている。<br/><br/> 以上は、薬剤と食物の反自然的誤謬を概略かいたが、特に薬剤がいかに有毒であるにかかわらず、なぜ昔から応用したかという根本原理を漸次説き進めてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohikari3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御光雑記 （三） 馬太（マタイ） 『栄光』173号、昭和27(1952)年9月10日発行 私は、この間頭部毒結の浄化で、頭痛がし眩暈さえ覚え、自分で浄霊する間もなく、所用が出来たので日光殿へ赴き痛んでるまま暫く居る中に、気がついてみると何時の間にか治ってしまっていたかように日光殿へ参拝すると、病気や心の悩みが消えてしまうのは信徒は屡々体験するのであるが、最近はそれがとても顕著に感ぜられるのであって、やはり神の御光が強まられ明るくなったのが、こういう事でもよく判ると思うのである。<br><br> 私はかつて木の香も新しい美術館の三階日本間を拝観さして戴いた事がある。<br><br>それはホンの四五分の間だったが、豪華でいて瀟洒な、明るくて奥床しい、平家にいるような落着いた親しさ、それでいて何か寸毫も犯す事の出来ぬ感があるというか吾々にはとても名状する言葉もない紫微の御部屋の中に在って、頭が少しモヤモヤしていたのもすっかり除れて、清浄な生命伸びやかな、何か幸福の絶頂に至ったような快感に浸ったのである。<br><br>私は昂奮で夢心地のようになって家へ帰ってからフトこのような、明主様の最高の芸術によって成った御部屋の強い御光に満ちた雰囲気の中に包まれれば、どんな病人でも忽ち治ってしまうであろうとも思った。<br><br>そういえば以前明主様が「今に病人をそこに寝かすだけで病気が治ってしまうような部屋が出来る」と仰せられた事があったのを思出す。<br><br>そして日光殿といいこの三階といい建てられた意義はそうでないとしても、明かにそのような働きを持った御部屋の一つの実現といえよう。<br><br> もっとも、現在でも大教会中教会等の御神前はその御光の大いさに応じそのような御かげも戴けるが仮に今明主様の御許しを得て、そのような目的の光明の家が一町村内あるいは一団体内毎にでも出来て多数の病人が収容されるとすれば、集団発生の病気の如き易々として解決されるから何の恐れはない訳であるが、それには医学迷信の一大障壁は未だ牢固としている。<br><br>しかしながらいずれは大浄化時代に入り、世界中病者に埋まり、明主様の御力に依らねば救われる道はない事が普（あまね）く知れ渡る時が必ず来るのであって、そのような超非常事態となれば右のような奇蹟の家の多数出現の可能性も今から考えられる次第である。<br><br>勿論、そうなれば、救いの御光ももっともっと強まるのであるから、そのような奇しき御業も驚く程容易に行われる訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Apontamentos sobre a Luz Divina (III)</h2>
 <p>Recentemente, em meio a uma purificação de toxinas na região da cabeça, sofri com dores e até mesmo tonturas. Sem ter tido a oportunidade de ministrar Johrei a mim mesmo, precisei dirigir-me ao Nikko-den por conta de um compromisso. Permaneci lá por algum tempo, ainda indisposto, quando, de repente, percebi que o mal-estar havia desaparecido por completo, sem que eu me desse conta.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Ao retornar para casa, ainda em um estado de exaltação onírica, ocorreu-me um pensamento. Refleti que, se qualquer enfermo fosse envolvido pela atmosfera daquele recinto, pleno da intensa Luz Divina e concebido pela suprema arte de Meishu-Sama, sua cura seria instantânea. Essa reflexão avivou em minha memória uma antiga predição de Meishu-Sama, que certa vez afirmou: "Chegará o tempo em que construiremos um aposento onde bastará deitar um doente para que ele se cure". Sendo assim, embora o propósito original da construção do Nikko-den e do salão no terceiro andar possa ser outro, é inegável que ambos representam uma concretização dessa notável profecia.</p>
 <p>Certamente, já nos dias de hoje, é possível recebermos graças semelhantes diante dos altares das Grandes e Médias Igrejas, em proporção à intensidade da Luz ali presente. Todavia, imaginemos se, com a permissão de Meishu-Sama, fossem construídas "Casas de Luz" com esse propósito específico em cada vilarejo ou para cada grupo, abrigando um grande número de enfermos. Nesse cenário, surtos de doenças coletivas seriam solucionados com enorme facilidade, eliminando qualquer motivo para temor. Contudo, uma formidável barreira ainda se impõe: a superstição na medicina, que permanece solidamente arraigada.</p>
 <p>Apesar disso, ingressaremos, inevitavelmente, na Era da Grande Purificação. Chegará um tempo em que o mundo estará repleto de doentes e se tornará universalmente sabido que não haverá outro caminho para a salvação senão pelo poder de Meishu-Sama. Diante de uma situação de emergência tão extraordinária, a possibilidade do surgimento de inúmeras "casas de milagres" como as que descrevi torna-se, desde já, plausível. Naturalmente, quando esse momento chegar, a Luz da Salvação será ainda mais potente, e, por conseguinte, tais obras miraculosas se realizarão com uma facilidade surpreendente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御光雑記 （三） 馬太（マタイ） 『栄光』173号、昭和27(1952)年9月10日発行 私は、この間頭部毒結の浄化で、頭痛がし眩暈さえ覚え、自分で浄霊する間もなく、所用が出来たので日光殿へ赴き痛んでるまま暫く居る中に、気がついてみると何時の間にか治ってしまっていたかように日光殿へ参拝すると、病気や心の悩みが消えてしまうのは信徒は屡々体験するのであるが、最近はそれがとても顕著に感ぜられるのであって、やはり神の御光が強まられ明るくなったのが、こういう事でもよく判ると思うのである。<br/><br/> 私はかつて木の香も新しい美術館の三階日本間を拝観さして戴いた事がある。<br/><br/>それはホンの四五分の間だったが、豪華でいて瀟洒な、明るくて奥床しい、平家にいるような落着いた親しさ、それでいて何か寸毫も犯す事の出来ぬ感があるというか吾々にはとても名状する言葉もない紫微の御部屋の中に在って、頭が少しモヤモヤしていたのもすっかり除れて、清浄な生命伸びやかな、何か幸福の絶頂に至ったような快感に浸ったのである。<br/><br/>私は昂奮で夢心地のようになって家へ帰ってからフトこのような、明主様の最高の芸術によって成った御部屋の強い御光に満ちた雰囲気の中に包まれれば、どんな病人でも忽ち治ってしまうであろうとも思った。<br/><br/>そういえば以前明主様が「今に病人をそこに寝かすだけで病気が治ってしまうような部屋が出来る」と仰せられた事があったのを思出す。<br/><br/>そして日光殿といいこの三階といい建てられた意義はそうでないとしても、明かにそのような働きを持った御部屋の一つの実現といえよう。<br/><br/> もっとも、現在でも大教会中教会等の御神前はその御光の大いさに応じそのような御かげも戴けるが仮に今明主様の御許しを得て、そのような目的の光明の家が一町村内あるいは一団体内毎にでも出来て多数の病人が収容されるとすれば、集団発生の病気の如き易々として解決されるから何の恐れはない訳であるが、それには医学迷信の一大障壁は未だ牢固としている。<br/><br/>しかしながらいずれは大浄化時代に入り、世界中病者に埋まり、明主様の御力に依らねば救われる道はない事が普（あまね）く知れ渡る時が必ず来るのであって、そのような超非常事態となれば右のような奇蹟の家の多数出現の可能性も今から考えられる次第である。<br/><br/>勿論、そうなれば、救いの御光ももっともっと強まるのであるから、そのような奇しき御業も驚く程容易に行われる訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

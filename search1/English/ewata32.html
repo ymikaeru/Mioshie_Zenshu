@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ewata32</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ABOUT MYSELF （ 2nd version ） Jikan's Thoughts on the New Philosophy of Life (Jikan Library Book XII) , January 30, 1950 (the 25th year of Showa) The 1st version: Heaven on Earth , No. 7, August 30, 1949 (the 24th year of Showa) Some time ago I wrote a paper entitled "My view of myself", but in this article, I will not be taking that kind of objective view. I will, instead, adopt a rather more subjective and outspoken way. When I consider that nobody can be so happy like me, I am always filled with deep gratitude to God. What is the cause of this situation? Indeed, I am not like other ordinary people, for I have been given a mission of vital importance by God, and I endeavor day and night to carry it out. As you know, O my followers, how very many people I save by these efforts! However, there is some secret of happiness which is not limited to a special person such as me, and anyone can understand and follow it. In giving details of this, let me disclose my basic way of thinking and attitudes. From my earliest days I have always liked to please others, which has become almost my joyful avocation. I am constantly thinking of how others can be happy. My first concern on getting up in the morning is how well my family members are, and if even one of them is unwell I also feel unwell. This is quite different from the common household situation. Usually the first concern in the household is whether the head of the family feels well or not. In my case the situation is quite opposite and I must admit that even I myself find it very odd and even a little bit regrettable point. To hear people arguing in anger or abusing each other, or to hear them grumbling or complaining is my hardest thing in the world. And to hear one and the same thing repeatedly told is also very painful for me. My natural inclination is to stay in peace and want everyone to be happy whatever happens, and to detest tenacious attachment. This is the basis of my personality. This way of thinking constitutes one of the reasons that I am a man of happiness and good fortune. And it is because of this that I say, "If you do not make others happy, you can never be happy yourself." The greatest mission bestowed on me by God is to create Heaven on Earth, which will be realized when the hearts and minds of mine become widespread and expanded into everyone and everywhere. I feel sorry that this writing sounds sort of self-praise but I will be quite happy if it brings some benefit to every one of you. 私というもの(再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『地上天国』7号、昭和24(1949)年8月30日発行 さきに、「私の観た私」という論文を書いたが、先の客観論と違い、今度は主観的にありのままの心境を描いてみようと思う。<br><br> 現在私ほど幸福なものはあるまいとつくづくと思い、神に対し常に感謝で一杯だ。<br><br>これは何に原因するのであろうか。<br><br>なる程私は普通人と違い、特に神から重大使命を負わされ、それを遂行すべく日夜努力しており、それによっていかに多数の人々を救いつつあるかは、信徒諸士の誰もが知るところであろう。<br><br>ところが私のような特殊人でないところの普通人であっても、容易に行われる幸福の秘訣があるから、それを書いてみるが、書くに当ってまず私の常に抱懐している心境を露呈してみよう。<br><br> 私は若い頃から人を喜ばせる事が好きで、ほとんど道楽のようになっている。<br><br>私は常にいかにしたらみんなが幸福になるかということをおもっている。<br><br>これについてこういう事がある。<br><br>私は朝起きるとまず家族の者の御機嫌はどうかという事に関心をもつので、一人でも御機嫌が悪いと私も気持が悪い。<br><br>この点は世間と反対だ。<br><br>世間はよく主人の機嫌が良いか悪いかについて、何よりも先に関心をもつのであるが、私はそれと反対であるから、自分でも不思議のような、残念のような気もする。<br><br>こんな訳で、罵詈怒号（ばりどごう）のような声を聞いたり、愚痴や泣言を聞かされたりする事が何よりも辛いのである。<br><br>また一つ事を繰返し聞かされる事も随分辛い。<br><br>どこまでも平和的、幸福的で執着を嫌う。<br><br>これが私の本性である。<br><br> 以上述べたような結果が、私をして幸福者たらしむる原因の一つの要素であるという理由によって、私は、「人を幸福にしなければ、自分は幸福になり得ない」と常に言うのである。<br><br> 私の最大目標である地上天国とは、この私の心が共通し拡大される事と思っている。<br><br>この文はいささか自画自讃的で心苦しいが、いささかでも裨益（ひえき）するところあれば幸甚（こうじん）である。<br><br> rattail（注） この御論文は 『地上天国』7号 に発表された御論文に明主様御自身により加筆されたものです。<br><br>再録時に細かい「てにをは」や表現に修正が加えられる事は多いのですが、この御論文には「執着を嫌う」という一文が加えられています。<br><br> 参考「私というもの（地上天国）」 ただ昭和２９年刊行のの御神書（宗教篇）には初出の「執着を嫌う」がない方が収録されていることをお断りいたします。<br><br> また ｢私の観た私｣ という御論文は 『地上天国』の前号に発表されたもので 『自観説話集』にはすぐ前のページに収録されています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência de Meu Ser</h2>
 <p>Anteriormente, redigi um ensaio intitulado “Uma Perspectiva sobre Mim Mesmo”. Em contraste com aquela abordagem objetiva, proponho-me, desta vez, a descrever minha disposição de espírito de uma maneira subjetiva e fiel à realidade.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>É precisamente por essa constituição de meu ser, que se revela como um dos pilares de minha felicidade, que costumo afirmar: “Aquele que não faz os outros felizes, jamais poderá sê-lo”.</p>
 <p>O Paraíso Terrestre, que constitui meu objetivo supremo, se concretizará quando este meu sentir for compartilhado e se expandir por toda a parte, alcançando a todos.</p>
 <p>Reconheço que este texto pode soar um tanto como autoelogio, o que me causa certo constrangimento. Contudo, se puder lhes trazer algum benefício, por menor que seja, sentir-me-ei imensamente afortunado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ABOUT MYSELF （ 2nd version ） Jikan's Thoughts on the New Philosophy of Life (Jikan Library Book XII) , January 30, 1950 (the 25th year of Showa) The 1st version: Heaven on Earth , No. 7, August 30, 1949 (the 24th year of Showa) Some time ago I wrote a paper entitled "My view of myself", but in this article, I will not be taking that kind of objective view. I will, instead, adopt a rather more subjective and outspoken way. When I consider that nobody can be so happy like me, I am always filled with deep gratitude to God. What is the cause of this situation? Indeed, I am not like other ordinary people, for I have been given a mission of vital importance by God, and I endeavor day and night to carry it out. As you know, O my followers, how very many people I save by these efforts! However, there is some secret of happiness which is not limited to a special person such as me, and anyone can understand and follow it. In giving details of this, let me disclose my basic way of thinking and attitudes. From my earliest days I have always liked to please others, which has become almost my joyful avocation. I am constantly thinking of how others can be happy. My first concern on getting up in the morning is how well my family members are, and if even one of them is unwell I also feel unwell. This is quite different from the common household situation. Usually the first concern in the household is whether the head of the family feels well or not. In my case the situation is quite opposite and I must admit that even I myself find it very odd and even a little bit regrettable point. To hear people arguing in anger or abusing each other, or to hear them grumbling or complaining is my hardest thing in the world. And to hear one and the same thing repeatedly told is also very painful for me. My natural inclination is to stay in peace and want everyone to be happy whatever happens, and to detest tenacious attachment. This is the basis of my personality. This way of thinking constitutes one of the reasons that I am a man of happiness and good fortune. And it is because of this that I say, "If you do not make others happy, you can never be happy yourself." The greatest mission bestowed on me by God is to create Heaven on Earth, which will be realized when the hearts and minds of mine become widespread and expanded into everyone and everywhere. I feel sorry that this writing sounds sort of self-praise but I will be quite happy if it brings some benefit to every one of you. 私というもの(再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『地上天国』7号、昭和24(1949)年8月30日発行 さきに、「私の観た私」という論文を書いたが、先の客観論と違い、今度は主観的にありのままの心境を描いてみようと思う。<br/><br/> 現在私ほど幸福なものはあるまいとつくづくと思い、神に対し常に感謝で一杯だ。<br/><br/>これは何に原因するのであろうか。<br/><br/>なる程私は普通人と違い、特に神から重大使命を負わされ、それを遂行すべく日夜努力しており、それによっていかに多数の人々を救いつつあるかは、信徒諸士の誰もが知るところであろう。<br/><br/>ところが私のような特殊人でないところの普通人であっても、容易に行われる幸福の秘訣があるから、それを書いてみるが、書くに当ってまず私の常に抱懐している心境を露呈してみよう。<br/><br/> 私は若い頃から人を喜ばせる事が好きで、ほとんど道楽のようになっている。<br/><br/>私は常にいかにしたらみんなが幸福になるかということをおもっている。<br/><br/>これについてこういう事がある。<br/><br/>私は朝起きるとまず家族の者の御機嫌はどうかという事に関心をもつので、一人でも御機嫌が悪いと私も気持が悪い。<br/><br/>この点は世間と反対だ。<br/><br/>世間はよく主人の機嫌が良いか悪いかについて、何よりも先に関心をもつのであるが、私はそれと反対であるから、自分でも不思議のような、残念のような気もする。<br/><br/>こんな訳で、罵詈怒号（ばりどごう）のような声を聞いたり、愚痴や泣言を聞かされたりする事が何よりも辛いのである。<br/><br/>また一つ事を繰返し聞かされる事も随分辛い。<br/><br/>どこまでも平和的、幸福的で執着を嫌う。<br/><br/>これが私の本性である。<br/><br/> 以上述べたような結果が、私をして幸福者たらしむる原因の一つの要素であるという理由によって、私は、「人を幸福にしなければ、自分は幸福になり得ない」と常に言うのである。<br/><br/> 私の最大目標である地上天国とは、この私の心が共通し拡大される事と思っている。<br/><br/>この文はいささか自画自讃的で心苦しいが、いささかでも裨益（ひえき）するところあれば幸甚（こうじん）である。<br/><br/> rattail（注） この御論文は 『地上天国』7号 に発表された御論文に明主様御自身により加筆されたものです。<br/><br/>再録時に細かい「てにをは」や表現に修正が加えられる事は多いのですが、この御論文には「執着を嫌う」という一文が加えられています。<br/><br/> 参考「私というもの（地上天国）」 ただ昭和２９年刊行のの御神書（宗教篇）には初出の「執着を嫌う」がない方が収録されていることをお断りいたします。<br/><br/> また ｢私の観た私｣ という御論文は 『地上天国』の前号に発表されたもので 『自観説話集』にはすぐ前のページに収録されています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

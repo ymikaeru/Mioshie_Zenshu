@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jinkou1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人口増加率低減の問題 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 以上示したところの各国の統計によって、現在日本及び世界の人口問題の趨勢は、ほぼ諒解された事であろう。<br><br>そうして要約してみると次の二点に帰するのである。<br><br> 一、ヨーロッパにおいては十九世紀中葉以後日本においては大正十年以後、増加率低減が始った。<br><br> 二、死亡率減少と増加率減少と平行する原因 一、の原因として私は、世界人類が救世主のごとく思っている『種痘』そのものであると断言する。<br><br> そもそも種痘なるものは、千七百四十九年英国バークレーに生れ千八百二十三年に逝去したエドワード・ジェンナーの発見である事は周知の事である。<br><br>彼は僧侶を父とし、千七百九十二年倫敦（ロンドン）において医学士の資格を得、千七百十年頃よりギリシャの娘達が、痘瘡患者の膿疹中に針を入れ、その膿汁を皮膚にさすと軽い痘瘡になり重い痘瘡より免れる事を得たが、更に牛痘を以て人痘に代り得る事が知れた。<br><br>千七百九十六年五月十四日、彼は彼の実子の腕に牛痘を植えてその成功を確かめ、千七百九十八年いよいよ種痘法を発表したのである。<br><br> 次に我国においては、最初痘苗渡来したのが嘉永二年（一八四九年）である。<br><br>次いで安政五年（一八五八年）神田お玉ケ池に種痘館が開設せられ、又西洋医学所が設立せられ、後に医学所と改称、それが今日の帝大医学部である。<br><br>その後明治初年、長与専斎欧州より帰朝し、痘苗用牝牛によって継種法を伝う。<br><br>その後明治七年六月東京馬喰（ばくろう）町に牛痘種継所が設立され、次で、伝染病研究所において痘苗を製造し、牛痘を以て一般国民に接種、天然痘免疫を獲（う）る事になったのである。<br><br> ここで断っておきたい事は、医学上“免疫”とは“発病しない事”をいうようである。<br><br>しかし一歩を進めて考える時、こういう理論が成立つ。<br><br>発病しないという事は、天然痘毒素が解消して無くなった場合と、天然痘毒素があっても何かの理由によって発病しないという事である。<br><br>それはどういう訳かというと、元来人間は生れながらにして先天的遺伝毒素を保有している。<br><br>即ち天然痘、麻疹（はしか）、百日咳等である。<br><br>特に天然痘の毒素は、悪性な質をもっているので恐れられるのである。<br><br>そうして天然痘が発病するという事は、人体の自然浄化作用によるのである。<br><br>即ち天然痘毒素が外部へ排除されんとして、全身的皮下一面に集溜する――それは内部から外部へ向って圧出されるのである。<br><br>それが皮膚面に発疹状を呈し発疹の粒形一つ一つが破れて膿汁が排泄される。<br><br>その過程を天然痘疾患というのであって、その際の発熱は、毒素を排泄し易からしめんが為の自然溶解作用である。<br><br>故に、痘瘡そのものをみれば右の理由は何人といえども肯（うなずか）れるであろう。<br><br>従って、伝染とは、右のごとき浄化作用を誘導促進せしむる摂理作用なのである。<br><br>この理によって天然痘疾患は“猛毒の排除作用”であるから、これある事によって、人間の健康は保持されるのである。<br><br> しかるに種痘なるものは、この天然痘毒素（以下略して然毒とする）の排除作用を抑止せしめるのである。<br><br>浄化力を薄弱ならしむるのである。<br><br>言い換えれば陽性を陰性化するのである。<br><br>この陰性化した然毒――即ち陰化然毒は、排除の力を失うから体内に残存するのである。<br><br> そうして体内に残存した陰化然毒は、どういう作用をするかというに、これが結核や近眼、腎臓病、扁桃腺炎、頭部疾患、その他あらゆる疾患の原因となるのである。<br><br>のみならず、陰化然毒残存は全身的機能を衰退せしめるから、一般体位低下及び婦人の妊孕率（にんようりつ）低下を促すのである。<br><br>これが即ち人口問題の起ったそもそもの真因である。<br><br> これは何よりも人口統計を見れば如実に表われている。<br><br>即ち欧羅巴（ヨーロッパ）においては、種痘の発見後からであって、統計に示すごとく仏蘭西（フランス）が最も早く、種痘発見後三、四十年を経て、英独は約七、八十年を経た頃から増加率減少の徴候を表わし始めている。<br><br>我国においても欧羅巴とほとんど揆（き）を一にして、一般種痘が行われてから約五、六十年以後に、漸くその兆候が表われてきているのに見ても明かである。<br><br> 今一つ別の例を挙げてみよう。<br><br>それは医学や社会衛生の不完全なる支那人の出生率四○人というのは全く種痘を行わなかった為である事はいうまでもない。<br><br>その他の例として、第十一回オリンピック大会におけるマラソンの一等選手孫基禎氏が半島人であったごとき、昨年の日本体育大会における重量上げ選手が、一二等共半島人であり、同じく昨年福岡から大阪までの駅伝競争において一等が鮮台組であり、極端な不栄養食で不衛生な満州苦力（クーリー）の驚くべき強靭なる生活力等、いかに無種痘民族が頑健なる体力と、強靭なる生活力を有しているかは否み難き事実である。<br><br>種痘民族と無種痘民族とを比較するにおいて、いかに格段の相違あるかは、なお一層の調査を望むのである。<br><br>であるからこのまま現状を続くるにおいてはどうなるであろう。<br><br>それは益々民族の強弱は懸隔（けんかく）を増し、ついに文化民族が滅亡しゆき非文化民族が興隆するという――恐るべき時代が来ないと誰が言い得るであろう。<br><br> そうして、陰化然毒があらゆる病原になっている事を説いてみよう。<br><br>それによって今日までの医学がいかにその根源を誤っていたかという事である。<br><br> まず、病気とは何ぞやという事である。<br><br> 病気とは何ぞや――という事ほど、古往今来人類の頭脳を悩ました問題はないであろう。<br><br>この謎を解こうとして、今日まで全世界幾万の有識者がその一生を捧げたであろう。<br><br>しかも今以てそれを解き得ない事である。<br><br>そうして現在まで解き得たとしているところは、漢方医学においては五臓六腑の調和の破綻、西洋医学においてはウヰルヘヨウの細砲衰滅説から、独逸のコッホ、仏蘭西のパスツール等の細菌発見等で、それらによって今日の医学は構成されたのである。<br><br>故に、今日までのいかなる説といえども一様に“病気なるものは健康を破壊し、生命を脅かすもの”とされている。<br><br>又宗教においては、神の戒告あるいは罪穢による刑罰としている。<br><br>随って病気とは悲しむべきもの、恐るべきもの、呪うべきものとされていたのである。<br><br>しかるに私の説は全然反対であって『病気は、神が人間に与えた最大なる恩恵であって、これあるが為人間の健康は保持され、寿齢は延長される』のであるから、人間は病気に対しては、最大の感謝を捧げなければならない――というのである。<br><br>かような説を読まれたら、恐らくその意外なるに驚嘆せずには居られないであろう。<br><br>しからば、いかなる理由に基くのであるか順次詳説してみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa da Redução Populacional</h2>
 <p>As estatísticas das diversas nações, aqui apresentadas, permitem uma clara compreensão das tendências atuais concernentes ao problema populacional, tanto no Japão quanto no mundo. Em síntese, a questão se resume a dois pontos fundamentais:</p>
@@ -108,5 +260,48 @@ Segundo, a causa pela qual a diminuição da taxa de mortalidade ocorre em paral
 <p>Primeiramente, o que é a doença?</p>
 <p>Poucas questões afligiram tanto a mente humana, desde tempos imemoriais, quanto esta: "O que é a doença?". Na tentativa de desvendar este enigma, dezenas de milhares de sábios em todo o mundo dedicaram suas vidas, sem que, até hoje, uma solução tenha sido alcançada. As conclusões obtidas até o momento são, na medicina oriental, o desequilíbrio na harmonia dos cinco órgãos e seis vísceras; na medicina ocidental, a teoria da degenerescência celular de Virchow e, posteriormente, a descoberta das bactérias por Koch, na Alemanha, e Pasteur, na França, que juntas constituem a base da medicina moderna. Assim, todas as teorias, sem exceção, definem a doença como algo que destrói a saúde e ameaça a vida. As religiões, por sua vez, a interpretam como uma advertência de Deus ou um castigo pelos pecados e máculas.</p>
 <p>Contudo, a minha explanação é diametralmente oposta: "A doença é a maior dádiva concedida por Deus ao homem, pois é através dela que a saúde é mantida e a longevidade, prolongada". Por isso, o ser humano deveria oferecer à doença a sua mais profunda gratidão. Ao lerem tal afirmação, sei que muitos não conseguirão conter o espanto diante de sua natureza tão inesperada. Permitam-me, pois, expor detalhadamente os fundamentos em que se baseia esta teoria.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人口増加率低減の問題 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 以上示したところの各国の統計によって、現在日本及び世界の人口問題の趨勢は、ほぼ諒解された事であろう。<br/><br/>そうして要約してみると次の二点に帰するのである。<br/><br/> 一、ヨーロッパにおいては十九世紀中葉以後日本においては大正十年以後、増加率低減が始った。<br/><br/> 二、死亡率減少と増加率減少と平行する原因 一、の原因として私は、世界人類が救世主のごとく思っている『種痘』そのものであると断言する。<br/><br/> そもそも種痘なるものは、千七百四十九年英国バークレーに生れ千八百二十三年に逝去したエドワード・ジェンナーの発見である事は周知の事である。<br/><br/>彼は僧侶を父とし、千七百九十二年倫敦（ロンドン）において医学士の資格を得、千七百十年頃よりギリシャの娘達が、痘瘡患者の膿疹中に針を入れ、その膿汁を皮膚にさすと軽い痘瘡になり重い痘瘡より免れる事を得たが、更に牛痘を以て人痘に代り得る事が知れた。<br/><br/>千七百九十六年五月十四日、彼は彼の実子の腕に牛痘を植えてその成功を確かめ、千七百九十八年いよいよ種痘法を発表したのである。<br/><br/> 次に我国においては、最初痘苗渡来したのが嘉永二年（一八四九年）である。<br/><br/>次いで安政五年（一八五八年）神田お玉ケ池に種痘館が開設せられ、又西洋医学所が設立せられ、後に医学所と改称、それが今日の帝大医学部である。<br/><br/>その後明治初年、長与専斎欧州より帰朝し、痘苗用牝牛によって継種法を伝う。<br/><br/>その後明治七年六月東京馬喰（ばくろう）町に牛痘種継所が設立され、次で、伝染病研究所において痘苗を製造し、牛痘を以て一般国民に接種、天然痘免疫を獲（う）る事になったのである。<br/><br/> ここで断っておきたい事は、医学上“免疫”とは“発病しない事”をいうようである。<br/><br/>しかし一歩を進めて考える時、こういう理論が成立つ。<br/><br/>発病しないという事は、天然痘毒素が解消して無くなった場合と、天然痘毒素があっても何かの理由によって発病しないという事である。<br/><br/>それはどういう訳かというと、元来人間は生れながらにして先天的遺伝毒素を保有している。<br/><br/>即ち天然痘、麻疹（はしか）、百日咳等である。<br/><br/>特に天然痘の毒素は、悪性な質をもっているので恐れられるのである。<br/><br/>そうして天然痘が発病するという事は、人体の自然浄化作用によるのである。<br/><br/>即ち天然痘毒素が外部へ排除されんとして、全身的皮下一面に集溜する――それは内部から外部へ向って圧出されるのである。<br/><br/>それが皮膚面に発疹状を呈し発疹の粒形一つ一つが破れて膿汁が排泄される。<br/><br/>その過程を天然痘疾患というのであって、その際の発熱は、毒素を排泄し易からしめんが為の自然溶解作用である。<br/><br/>故に、痘瘡そのものをみれば右の理由は何人といえども肯（うなずか）れるであろう。<br/><br/>従って、伝染とは、右のごとき浄化作用を誘導促進せしむる摂理作用なのである。<br/><br/>この理によって天然痘疾患は“猛毒の排除作用”であるから、これある事によって、人間の健康は保持されるのである。<br/><br/> しかるに種痘なるものは、この天然痘毒素（以下略して然毒とする）の排除作用を抑止せしめるのである。<br/><br/>浄化力を薄弱ならしむるのである。<br/><br/>言い換えれば陽性を陰性化するのである。<br/><br/>この陰性化した然毒――即ち陰化然毒は、排除の力を失うから体内に残存するのである。<br/><br/> そうして体内に残存した陰化然毒は、どういう作用をするかというに、これが結核や近眼、腎臓病、扁桃腺炎、頭部疾患、その他あらゆる疾患の原因となるのである。<br/><br/>のみならず、陰化然毒残存は全身的機能を衰退せしめるから、一般体位低下及び婦人の妊孕率（にんようりつ）低下を促すのである。<br/><br/>これが即ち人口問題の起ったそもそもの真因である。<br/><br/> これは何よりも人口統計を見れば如実に表われている。<br/><br/>即ち欧羅巴（ヨーロッパ）においては、種痘の発見後からであって、統計に示すごとく仏蘭西（フランス）が最も早く、種痘発見後三、四十年を経て、英独は約七、八十年を経た頃から増加率減少の徴候を表わし始めている。<br/><br/>我国においても欧羅巴とほとんど揆（き）を一にして、一般種痘が行われてから約五、六十年以後に、漸くその兆候が表われてきているのに見ても明かである。<br/><br/> 今一つ別の例を挙げてみよう。<br/><br/>それは医学や社会衛生の不完全なる支那人の出生率四○人というのは全く種痘を行わなかった為である事はいうまでもない。<br/><br/>その他の例として、第十一回オリンピック大会におけるマラソンの一等選手孫基禎氏が半島人であったごとき、昨年の日本体育大会における重量上げ選手が、一二等共半島人であり、同じく昨年福岡から大阪までの駅伝競争において一等が鮮台組であり、極端な不栄養食で不衛生な満州苦力（クーリー）の驚くべき強靭なる生活力等、いかに無種痘民族が頑健なる体力と、強靭なる生活力を有しているかは否み難き事実である。<br/><br/>種痘民族と無種痘民族とを比較するにおいて、いかに格段の相違あるかは、なお一層の調査を望むのである。<br/><br/>であるからこのまま現状を続くるにおいてはどうなるであろう。<br/><br/>それは益々民族の強弱は懸隔（けんかく）を増し、ついに文化民族が滅亡しゆき非文化民族が興隆するという――恐るべき時代が来ないと誰が言い得るであろう。<br/><br/> そうして、陰化然毒があらゆる病原になっている事を説いてみよう。<br/><br/>それによって今日までの医学がいかにその根源を誤っていたかという事である。<br/><br/> まず、病気とは何ぞやという事である。<br/><br/> 病気とは何ぞや――という事ほど、古往今来人類の頭脳を悩ました問題はないであろう。<br/><br/>この謎を解こうとして、今日まで全世界幾万の有識者がその一生を捧げたであろう。<br/><br/>しかも今以てそれを解き得ない事である。<br/><br/>そうして現在まで解き得たとしているところは、漢方医学においては五臓六腑の調和の破綻、西洋医学においてはウヰルヘヨウの細砲衰滅説から、独逸のコッホ、仏蘭西のパスツール等の細菌発見等で、それらによって今日の医学は構成されたのである。<br/><br/>故に、今日までのいかなる説といえども一様に“病気なるものは健康を破壊し、生命を脅かすもの”とされている。<br/><br/>又宗教においては、神の戒告あるいは罪穢による刑罰としている。<br/><br/>随って病気とは悲しむべきもの、恐るべきもの、呪うべきものとされていたのである。<br/><br/>しかるに私の説は全然反対であって『病気は、神が人間に与えた最大なる恩恵であって、これあるが為人間の健康は保持され、寿齢は延長される』のであるから、人間は病気に対しては、最大の感謝を捧げなければならない――というのである。<br/><br/>かような説を読まれたら、恐らくその意外なるに驚嘆せずには居られないであろう。<br/><br/>しからば、いかなる理由に基くのであるか順次詳説してみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

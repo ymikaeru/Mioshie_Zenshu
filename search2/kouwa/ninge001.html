@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ninge001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 １ 001-012 人の真諦 001 幽体と宿命の枠、霊統、（宿命圏突破） 幽体の上下する枠内は 宿命的に決っているもので御座いましょうか。<br><br>また、魂は金、銀、銅、鉄に相応するもので御座いましょうか。<br><br> 幽体の枠内は宿命と運命と両方になっている。<br><br>宿命の枠内は運命の自由で、最高に行くのは努力次第で行ける。<br><br>極く善い事とか、悪事をすると下の宿命の枠を一段突き破る事が出来る。<br><br>しかしそれ以上は破れぬ。<br><br>これは滅多にない。<br><br>極く少い。<br><br> 霊統は日月地とあるが、月の系統が日の系統へ行く事も、日の系統が月の系統へ行く事も出来ぬ。<br><br>霊統だけはどうする事も出来ない。<br><br>あらゆるものがそうなっている。<br><br>例えば金龍、銀龍、赤龍（金、銀、銅）などと、段階がある。<br><br> 002 幽魂の姿、（五六七の世の服装） 幽魂の幽界における姿はいかなるもので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 人間の姿である。<br><br>副守護神がない。<br><br>本守護神ばかりで、やはり霊界生活をしている。<br><br> 霊界の姿と現界の姿とは違う。<br><br> 五六七の世になると人間がそういう服装をする。<br><br>外出にも洋服は着ない。<br><br>今は地獄の服装である。<br><br> 五六七の世になると、人間が第一、第二、第三となる。<br><br> 003 幽魂の階層、地上天国へは行けない、最低地獄の状態 幽魂は百八十階級ありとすれば、地獄界に存在し苦しむ幽魂もある訳でしょうか。<br><br> 六十、六十、六十と百八十段になっており、一段がまた三段階になっている。<br><br> 普通は八衢で、これは現界が相応する。<br><br> 極善の人でも天国の六十段の一番上へは行けない。<br><br> 一番多く行けるのが中段である。<br><br> 天国へ行く程光と熱が強く、殆ど裸体である。<br><br> 最低地獄は真暗で、光と熱なく、凍結地獄である。<br><br>帝銀の毒殺魔など、こういう所へ行く。<br><br>（S23. 7） 004 幽魂・現身の関係と使命、幽魂・現魂の関係――相違について 幽魂は幽界即ち霊界に働く。<br><br>現魂は現在の魂、現界へ働く身魂、生きてる人の魂で、肉体と同じである。<br><br>一番の元は幽玄界で、これが霊魂の元で、霊線によって生体と繋っている。<br><br>（幽魂が神様に繋り、それが救われる事により現体が救われる）神様はその係の神を通じて幽魂に命ずる。<br><br>それが天職使命であり、自ら使命の事をする事になる。<br><br> 幽魂は人間の良心ともいえる。<br><br> 005 幽魂と魂 幽魂というのは仮につけた。<br><br>魂の根本である。<br><br> 人間の形の中に魂があり、その人間を幽体と言ってもいい。<br><br>（S23.10.14） 006 魂の階級と自由、下段ほど窮屈 魂の段階が違う。<br><br>低い方が霊界で修行して上る。<br><br>百八十段階もある。<br><br>そこで随分違う。<br><br>（ので自由に遇えない）下の段階ほど窮屈で、上へ行くほど自由である。<br><br>（天国は自由）（S21） 007 魂と霊 霊と魂とどう違いますでしょうか。<br><br> 霊は目に見えぬ力で、魂は小さい。<br><br>人間の中心であり、支配者である。<br><br>霊の中心に魂があり、霊の種が魂である。<br><br>妊娠は種が宿る事である。<br><br>魂は良心である。<br><br>心は副守の方、動物霊の事。<br><br>曇るのは動物霊が被いかくす。<br><br>（S24. 8.19） 008 魂と心の働き、（説教の無効） 霊の中心に心があり、心の中に魂があると言う御教えを戴いておりますが、心と魂の区別及び働きについて御教示御願い申します。<br><br> 魂は光がある。<br><br>心が曇ってると良い話を聞いてもシミ込まぬ。<br><br>説教が無効なのは、魂が曇っているからである。<br><br>であるから、世の中は良くならぬ。<br><br>教団は霊を放射すると霊が浄まる。<br><br>すると心の曇りが除れるのである。<br><br>（S24.11.17） 009 小心恐怖症――魂の痩せ 私は小心恐怖症で苦しんでおります。<br><br>また、寝ると歯ぎしりをし、万事積極的に仕事が出来ません。<br><br>何か先祖の因縁でしょうか。<br><br>また、浄霊法を御教え願います。<br><br> これは入信して信仰が進んでゆくと、当然治るべきもので、神様が分り、御守護を戴いている事を知ると、御任せする気分になり、恐怖症はズーッと治る。<br><br>恐怖症は、外界からくる諸々によって霊が弱っている。<br><br>霊が太る、即ち恩頼（ふゆ）とはその事で、殖える――魂が太るようにして戴く。<br><br> 歯ぎしりは副守である。<br><br>魂が痩せていると力がない。<br><br>勇気がないので仕事が出来ぬ。<br><br> 010 霊の曇りと浄化、魂の光、（魂と浄化の関係） 売笑婦の魂について御垂示御願い申し上げます。<br><br>なお、将来はどうなりましょうか。<br><br>御伺い申し上げます。<br><br> 良心そのものを曇りで包んでいるから、制えられ、良心の活動が出来ぬ。<br><br>良心の発揮を制えられているから、心の曇りを除らねばならぬ。<br><br>霊の曇りが除れると、体の毒素は排除される。<br><br>魂を磨くと病気などの浄化が起る。<br><br>魂が光を出すと心の曇りが除れる。<br><br> （注）売笑婦＝売春婦 011 魂の増減 霊界、現界、古今東西を通じて魂の数は増減致すもので御座いましょうか。<br><br> 殖えるが減りはしない。<br><br>（S24. 6. 3） 012 魂と本霊・副霊 魂と申しますと、本霊と副霊の結合したものを申すもので御座いましょうか。<br><br> 魂は本霊である。<br><br>副霊自身の魂は人間自身のそれと関係はない。<br><br>曇ってると副霊がのさばる。<br><br>本霊は四魂の元で、本守護神そのものが四魂である。<br><br>五つのものが魂を構成している。<br><br>手二本、足二本というようなもので、本当の信仰をすると魂に力が出て、本当の活動が出来る。<br><br>前頭部は奇魂（理性）。<br><br>後頭部は幸魂、和魂――親しみ、感情。<br><br>腹は荒魂で、その中心が勇気、胆力である。<br><br> 四魂の働きを妨害するのが副霊である。<br><br> 学者や小説家は前頭部が発達している。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Essência do Ser Humano</h2>
 <h2>001 A esfera do corpo espiritual e os limites da sina; a linhagem espiritual (superação da esfera da sina)</h2>
@@ -138,5 +290,48 @@ function toggleLang(lang) {
 <p>A parte frontal da cabeça corresponde à Alma Miraculosa, a razão. A parte posterior, à Alma da Felicidade e à Alma da Harmonia, que regem o afeto e a emoção. O ventre corresponde à Alma da Bravura, cujo centro é a coragem e a audácia.</p>
 <p>O espírito secundário é aquele que obstrui a atuação das Quatro Almas.</p>
 <p>Eruditos e romancistas possuem a parte frontal da cabeça mais desenvolvida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 １ 001-012 人の真諦 001 幽体と宿命の枠、霊統、（宿命圏突破） 幽体の上下する枠内は 宿命的に決っているもので御座いましょうか。<br/><br/>また、魂は金、銀、銅、鉄に相応するもので御座いましょうか。<br/><br/> 幽体の枠内は宿命と運命と両方になっている。<br/><br/>宿命の枠内は運命の自由で、最高に行くのは努力次第で行ける。<br/><br/>極く善い事とか、悪事をすると下の宿命の枠を一段突き破る事が出来る。<br/><br/>しかしそれ以上は破れぬ。<br/><br/>これは滅多にない。<br/><br/>極く少い。<br/><br/> 霊統は日月地とあるが、月の系統が日の系統へ行く事も、日の系統が月の系統へ行く事も出来ぬ。<br/><br/>霊統だけはどうする事も出来ない。<br/><br/>あらゆるものがそうなっている。<br/><br/>例えば金龍、銀龍、赤龍（金、銀、銅）などと、段階がある。<br/><br/> 002 幽魂の姿、（五六七の世の服装） 幽魂の幽界における姿はいかなるもので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 人間の姿である。<br/><br/>副守護神がない。<br/><br/>本守護神ばかりで、やはり霊界生活をしている。<br/><br/> 霊界の姿と現界の姿とは違う。<br/><br/> 五六七の世になると人間がそういう服装をする。<br/><br/>外出にも洋服は着ない。<br/><br/>今は地獄の服装である。<br/><br/> 五六七の世になると、人間が第一、第二、第三となる。<br/><br/> 003 幽魂の階層、地上天国へは行けない、最低地獄の状態 幽魂は百八十階級ありとすれば、地獄界に存在し苦しむ幽魂もある訳でしょうか。<br/><br/> 六十、六十、六十と百八十段になっており、一段がまた三段階になっている。<br/><br/> 普通は八衢で、これは現界が相応する。<br/><br/> 極善の人でも天国の六十段の一番上へは行けない。<br/><br/> 一番多く行けるのが中段である。<br/><br/> 天国へ行く程光と熱が強く、殆ど裸体である。<br/><br/> 最低地獄は真暗で、光と熱なく、凍結地獄である。<br/><br/>帝銀の毒殺魔など、こういう所へ行く。<br/><br/>（S23. 7） 004 幽魂・現身の関係と使命、幽魂・現魂の関係――相違について 幽魂は幽界即ち霊界に働く。<br/><br/>現魂は現在の魂、現界へ働く身魂、生きてる人の魂で、肉体と同じである。<br/><br/>一番の元は幽玄界で、これが霊魂の元で、霊線によって生体と繋っている。<br/><br/>（幽魂が神様に繋り、それが救われる事により現体が救われる）神様はその係の神を通じて幽魂に命ずる。<br/><br/>それが天職使命であり、自ら使命の事をする事になる。<br/><br/> 幽魂は人間の良心ともいえる。<br/><br/> 005 幽魂と魂 幽魂というのは仮につけた。<br/><br/>魂の根本である。<br/><br/> 人間の形の中に魂があり、その人間を幽体と言ってもいい。<br/><br/>（S23.10.14） 006 魂の階級と自由、下段ほど窮屈 魂の段階が違う。<br/><br/>低い方が霊界で修行して上る。<br/><br/>百八十段階もある。<br/><br/>そこで随分違う。<br/><br/>（ので自由に遇えない）下の段階ほど窮屈で、上へ行くほど自由である。<br/><br/>（天国は自由）（S21） 007 魂と霊 霊と魂とどう違いますでしょうか。<br/><br/> 霊は目に見えぬ力で、魂は小さい。<br/><br/>人間の中心であり、支配者である。<br/><br/>霊の中心に魂があり、霊の種が魂である。<br/><br/>妊娠は種が宿る事である。<br/><br/>魂は良心である。<br/><br/>心は副守の方、動物霊の事。<br/><br/>曇るのは動物霊が被いかくす。<br/><br/>（S24. 8.19） 008 魂と心の働き、（説教の無効） 霊の中心に心があり、心の中に魂があると言う御教えを戴いておりますが、心と魂の区別及び働きについて御教示御願い申します。<br/><br/> 魂は光がある。<br/><br/>心が曇ってると良い話を聞いてもシミ込まぬ。<br/><br/>説教が無効なのは、魂が曇っているからである。<br/><br/>であるから、世の中は良くならぬ。<br/><br/>教団は霊を放射すると霊が浄まる。<br/><br/>すると心の曇りが除れるのである。<br/><br/>（S24.11.17） 009 小心恐怖症――魂の痩せ 私は小心恐怖症で苦しんでおります。<br/><br/>また、寝ると歯ぎしりをし、万事積極的に仕事が出来ません。<br/><br/>何か先祖の因縁でしょうか。<br/><br/>また、浄霊法を御教え願います。<br/><br/> これは入信して信仰が進んでゆくと、当然治るべきもので、神様が分り、御守護を戴いている事を知ると、御任せする気分になり、恐怖症はズーッと治る。<br/><br/>恐怖症は、外界からくる諸々によって霊が弱っている。<br/><br/>霊が太る、即ち恩頼（ふゆ）とはその事で、殖える――魂が太るようにして戴く。<br/><br/> 歯ぎしりは副守である。<br/><br/>魂が痩せていると力がない。<br/><br/>勇気がないので仕事が出来ぬ。<br/><br/> 010 霊の曇りと浄化、魂の光、（魂と浄化の関係） 売笑婦の魂について御垂示御願い申し上げます。<br/><br/>なお、将来はどうなりましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 良心そのものを曇りで包んでいるから、制えられ、良心の活動が出来ぬ。<br/><br/>良心の発揮を制えられているから、心の曇りを除らねばならぬ。<br/><br/>霊の曇りが除れると、体の毒素は排除される。<br/><br/>魂を磨くと病気などの浄化が起る。<br/><br/>魂が光を出すと心の曇りが除れる。<br/><br/> （注）売笑婦＝売春婦 011 魂の増減 霊界、現界、古今東西を通じて魂の数は増減致すもので御座いましょうか。<br/><br/> 殖えるが減りはしない。<br/><br/>（S24. 6. 3） 012 魂と本霊・副霊 魂と申しますと、本霊と副霊の結合したものを申すもので御座いましょうか。<br/><br/> 魂は本霊である。<br/><br/>副霊自身の魂は人間自身のそれと関係はない。<br/><br/>曇ってると副霊がのさばる。<br/><br/>本霊は四魂の元で、本守護神そのものが四魂である。<br/><br/>五つのものが魂を構成している。<br/><br/>手二本、足二本というようなもので、本当の信仰をすると魂に力が出て、本当の活動が出来る。<br/><br/>前頭部は奇魂（理性）。<br/><br/>後頭部は幸魂、和魂――親しみ、感情。<br/><br/>腹は荒魂で、その中心が勇気、胆力である。<br/><br/> 四魂の働きを妨害するのが副霊である。<br/><br/> 学者や小説家は前頭部が発達している。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

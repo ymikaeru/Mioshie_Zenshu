@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syoni10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +241,53 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺 『アメリカを救う』P.90、昭和28(1953)年1月1日発行 この病気は霊的と体的とがあるが、米国に多い小児麻痺はほとんど体的のようである。<br><br>今それを詳しくかいてみるが、生まれながらにして歩行困難な症状は、言うまでもなく親からの遺伝薬毒と、生まれてから入れた薬毒が、足のいずれかの局部に固結するためであるから、よく診査してみると必ず固結があり、圧（お）すと痛むから直ぐ分る。<br><br>その個所は足の裏の一部、甲の横、踵（かかと）、指等がほとんどであるが、稀には鼠蹊部にある場合もある。<br><br>いずれも何ら手当せず、そのまま放任しておけば、長くはかかるが僅かずつ治ってゆくものである。<br><br>ところがそれを知らないから、注射、塗布薬、電気、光線療法等を行うので、反って不治にしてしまうのである。<br><br> 次に霊的の原因をかいてみるが、これは日本に多い症状で、米国には割合少ないようである。<br><br>これは半身不随、つまり片方の手足がブラブラになり、智能低下、言語不能等、中風そのままである。<br><br>これは最初、二、三日間高熱が続いてから発病する場合と、突如としてそうなる場合とがある。<br><br>よく平常通り通学していた児童が朝起きると右の症状になっており、愕然（がくぜん）とするという全く恐ろしい病気である。<br><br>この原因は脳溢血で突如として死んだ老人の霊が憑依するためで、中風と同様であるからよく分る。<br><br>ではなぜそうなるかというと、脳溢血で急死するや、霊界に往（い）っても死に対する霊的知識がないから、自分は相変らず生きていると思うが、肉体がないので遮二無二（しゃにむに）肉体を求めるが、憑霊の原則としては、無縁の者には憑れない事になっているから、自分の霊統を求めるが、その場合小児の方が憑り易いので、多くは孫に憑るもので、これは事実がよく示している。<br><br>従って霊的小児麻痺の場合、よく調べてみると必ず脳溢血で死んだ祖父母の霊か、稀には親戚の老人の霊もある。<br><br>この霊的小児麻痺は、信仰より外に治しようがないのはもちろんである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Paralisia Infantil sob a Ótica Espiritual e Material</h2>
 <p>A paralisia infantil manifesta-se de duas formas: uma de origem espiritual e outra de origem material. A variedade que predomina nos Estados Unidos parece ser, em sua maioria, de natureza material. Explicarei agora em detalhes: os sintomas de dificuldade de locomoção que se apresentam desde o nascimento são, inegavelmente, causados por toxinas medicamentosas hereditárias, somadas àquelas acumuladas após o nascimento, que se solidificam em pontos específicos dos membros inferiores. Um exame cuidadoso revela invariavelmente a presença dessas solidificações, facilmente identificáveis pela dor que provocam ao serem pressionadas. Tais pontos localizam-se comumente em partes da sola do pé, na lateral do peito do pé, no calcanhar ou nos dedos, embora, em casos raros, possam surgir na região da virilha. Se esses quadros fossem deixados à sua própria evolução, sem qualquer intervenção, a cura ocorreria de forma gradual, ainda que levasse tempo. Todavia, por desconhecimento desse princípio, aplicam-se tratamentos como injeções, pomadas, eletroterapia e fototerapia, que acabam, por consequência, tornando a enfermidade incurável.</p>
 <p>Abordemos agora a causa espiritual, sintomatologia mais frequente no Japão e relativamente rara nos Estados Unidos. Ela se manifesta como uma hemiplegia, na qual um dos lados do corpo, braço e perna, perde o tônus muscular, acompanhada de declínio cognitivo e perda da fala — um quadro idêntico ao de um derrame cerebral. O início da doença pode ser precedido por dois ou três dias de febre alta ou pode ocorrer de maneira súbita. Trata-se de uma enfermidade verdadeiramente aterradora, como no caso de uma criança que, após ir à escola normalmente no dia anterior, desperta com os sintomas descritos, para o espanto de todos. A causa reside na possessão pelo espírito de um idoso que faleceu subitamente em decorrência de uma hemorragia cerebral. Quando alguém falece de forma tão abrupta, seu espírito, ao chegar ao Mundo Espiritual sem o devido conhecimento sobre a morte, continua a acreditar que está vivo. Desprovido de um corpo físico, ele busca desesperadamente um receptáculo. Conforme o princípio que rege a possessão, um espírito não pode se alojar em alguém com quem não possua laços espirituais. Portanto, ele procura um descendente de sua própria linhagem. Nesse processo, as crianças, por serem mais suscetíveis, tornam-se o alvo preferencial, sendo os netos os mais comumente afetados, como os fatos demonstram com clareza. Nesse sentido, ao se investigar um caso de paralisia infantil de origem espiritual, constata-se invariavelmente a presença do espírito de um dos avós, falecido por hemorragia cerebral, ou, mais raramente, o de outro parente idoso. É evidente que, para a paralisia infantil de natureza espiritual, não existe outro caminho para a cura senão a fé.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺 『アメリカを救う』P.90、昭和28(1953)年1月1日発行 この病気は霊的と体的とがあるが、米国に多い小児麻痺はほとんど体的のようである。<br/><br/>今それを詳しくかいてみるが、生まれながらにして歩行困難な症状は、言うまでもなく親からの遺伝薬毒と、生まれてから入れた薬毒が、足のいずれかの局部に固結するためであるから、よく診査してみると必ず固結があり、圧（お）すと痛むから直ぐ分る。<br/><br/>その個所は足の裏の一部、甲の横、踵（かかと）、指等がほとんどであるが、稀には鼠蹊部にある場合もある。<br/><br/>いずれも何ら手当せず、そのまま放任しておけば、長くはかかるが僅かずつ治ってゆくものである。<br/><br/>ところがそれを知らないから、注射、塗布薬、電気、光線療法等を行うので、反って不治にしてしまうのである。<br/><br/> 次に霊的の原因をかいてみるが、これは日本に多い症状で、米国には割合少ないようである。<br/><br/>これは半身不随、つまり片方の手足がブラブラになり、智能低下、言語不能等、中風そのままである。<br/><br/>これは最初、二、三日間高熱が続いてから発病する場合と、突如としてそうなる場合とがある。<br/><br/>よく平常通り通学していた児童が朝起きると右の症状になっており、愕然（がくぜん）とするという全く恐ろしい病気である。<br/><br/>この原因は脳溢血で突如として死んだ老人の霊が憑依するためで、中風と同様であるからよく分る。<br/><br/>ではなぜそうなるかというと、脳溢血で急死するや、霊界に往（い）っても死に対する霊的知識がないから、自分は相変らず生きていると思うが、肉体がないので遮二無二（しゃにむに）肉体を求めるが、憑霊の原則としては、無縁の者には憑れない事になっているから、自分の霊統を求めるが、その場合小児の方が憑り易いので、多くは孫に憑るもので、これは事実がよく示している。<br/><br/>従って霊的小児麻痺の場合、よく調べてみると必ず脳溢血で死んだ祖父母の霊か、稀には親戚の老人の霊もある。<br/><br/>この霊的小児麻痺は、信仰より外に治しようがないのはもちろんである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

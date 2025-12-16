@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sizen17</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然を尊重せよ 『結核の革命的療法』昭和26(1951)年8月15日発行 医学では、安静を最も重要とされているが、これは前にも述べたごとく大変な間違いである。<br><br>ではどうするのが一番いいかというと、何よりも自然である。<br><br>自然とは自分の身体を拘束する事なく、無理のないよう気儘（きまま）にする事である。<br><br>例えば熱があって大儀な時は、寝ろという命令を身体がすると思い、寝ればいいのである。<br><br>また寝たくない起きたいと思うのは、起きるべしと命令されたと思い、起きればいいのである。<br><br>歩きたければ歩き、駈出したければ駈出し、大きな声で唄いたければ唄うがいい。<br><br>というように、何でも心の命ずるままにするのが本当である。<br><br>気が向かない、心に満たない事は止すことである。<br><br>要するにどこまでも自然である。<br><br>これが結核に限らず、いかなる病に対しても同じ事がいえる。<br><br> 食物も同様で、食べたい物を食べたい時に食べたいだけ食う。<br><br>これが最もいいのである。<br><br>薬はもちろん不可（いけ）ないが、食物としても薬だからとか、滋養になるとかいって、欲しくないものを我慢して食ったり、欲しいものを我慢して食わなかったりするのも間違っている。<br><br>人体に必要なものは食べたい意欲が起ると共に、食べたくないものは食べるなという訳である。<br><br>そうして結核に特に悪いのは動物性蛋白である。<br><br>少しは差支えないが、なるべく野菜を多く摂る方がよい。<br><br>ところが今日の医学は、栄養は魚鳥獣肉に多いとして奨めるが、これが大変な誤りで、必ず衰弱を増すのである。<br><br>本来栄養とは植物性に多くある。<br><br>考えてもみるがいい。<br><br>動物性のもののみを食っていれば、敗血症などが起って必ず病気になり、生命にかかわる事さえもある。<br><br>それに反して菜食はいくらしても健康にこそなれ、病気には決して罹らないばかりか、長寿者となるに見ても明らかである。<br><br>これについて私の体験をかいてみるが、私は若い頃結核で死の宣告を受けた時、それまで動物性食餌を多量に摂っていたのを、ある動機でその非を覚り、菜食にしてみたところ、それからメキメキ恢復に向かったので、医学の間違っている事を知り、薬も廃めてしまい、三ケ月間絶対菜食を続けたところ、それで病気はスッカリ治り、病気以前よりも健康体となったのである。<br><br>その後他の病気はしたが結核のケの字もなく、六十八歳の今日に到るも矍鑠（かくしゃく）として壮者を凌（しの）ぐものがある。<br><br>もしその時それに気が付かなかったとしたら、無論あの世へ旅立っていたに違いないと、今でも思う度にゾッとするのである。<br><br> 今一つは喀血の場合である。<br><br>これこそ菜食が最もいい。<br><br>以前こういう患者があった。<br><br>肉食するとその翌日必ず喀血するが、菜食をするとすぐ止まるという、実にハッキリしていた。<br><br>これでみても菜食のよい事は間違いないのである。<br><br> 今一つは、医師は疲労と睡眠不足を不可として戒めるが、これも間違っている。<br><br>それは原理を知らないからで、疲労とはもちろん運動のためで、運動すれば足や腰を活動させるから、その部にある毒素に浄化作用が起り、微熱が発生する、微熱が出れば疲労感を催す、それが疲れである。<br><br>しかしそれだけ毒素が減るのだから結構なのである。<br><br>何よりも運動をさかんに行い、常に疲労を繰返す人は健康であるに見ても判るである。<br><br>だから草臥（くたび）れた際足や腰の辺りを触ってみれば必ず微熱があるにみて、それだけ毒が溶ける訳である。<br><br> また睡眠不足は、結核には何ら影響はない、むしろいいくらいである。<br><br>これは事実によってみればよく判る。<br><br>何よりも睡眠不足の階級を見るがいい。<br><br>旅館の従業員や花柳界の人達には、結核が最も少ないと医学でも言われている。<br><br> これについても説明してみるが、睡眠不足だと起きている時間が長くなるから、活動の時が多くなり、浄化が余計起るからそれだけ疲れるのである。<br><br>ところが逆解的医学である以上、睡眠不足を不可とするのである。<br><br>今一つこういう事でも判る。<br><br>それは普通朝は熱が低く、午後三時か四時頃になると熱が出てくる。<br><br>これも右の理と同様で、たとえ寝ていても神経を使うから浄化が起るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Respeito à Natureza como Alicerce da Cura</h2>
 <p>A medicina convencional considera o repouso como o fator mais importante no tratamento da tuberculose, todavia, conforme já mencionei, trata-se de um equívoco monumental. Qual seria, então, a conduta mais acertada? Acima de tudo, seguir o fluxo da Natureza. E o que significa ser natural? Significa não impor restrições ao corpo, agindo livremente, de acordo com a própria vontade e sem qualquer tipo de coação.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Outra recomendação médica que merece ser reavaliada é a proibição do cansaço e da privação de sono. Tal advertência também se origina do desconhecimento do princípio fundamental. A fadiga, obviamente, resulta do movimento. Ao nos exercitarmos, ativamos as pernas e a cintura, o que desencadeia um processo de purificação das toxinas ali acumuladas. Essa ação purificadora gera uma febre sutil, que por sua vez se manifesta como a sensação de cansaço. Contudo, essa sensação indica que as toxinas estão sendo eliminadas, o que é, em essência, algo extremamente positivo. Basta observar que as pessoas que se exercitam com vigor e experimentam o cansaço com frequência são, em geral, as mais saudáveis. De fato, se tocarmos a região das pernas ou da cintura após um esforço, notaremos a presença de uma leve febre, sinal de que as toxinas estão se dissolvendo.</p>
 <p>Da mesma forma, a falta de sono não exerce qualquer influência negativa sobre a tuberculose; ao contrário, pode ser até benéfica. Os fatos falam por si. Observemos as classes profissionais com maior privação de sono, como os funcionários de hotéis e as pessoas que trabalham no mundo do entretenimento noturno. A própria medicina reconhece que a incidência de tuberculose entre esses grupos é extremamente baixa. A explicação é simples: a privação de sono prolonga o tempo em que permanecemos despertos, aumentando o período de atividade. Mais atividade resulta em uma purificação mais intensa e, consequentemente, em maior cansaço. Por interpretar esse fenômeno de maneira invertida, a medicina condena a falta de sono.</p>
 <p>Um último exemplo elucida essa mesma lógica: o ciclo diário da febre. Normalmente, a temperatura corporal é mais baixa pela manhã e se eleva por volta das três ou quatro horas da tarde. Isso ocorre pelo mesmo motivo, pois, mesmo que o corpo esteja em repouso, a atividade mental por si só já é suficiente para estimular o processo de purificação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然を尊重せよ 『結核の革命的療法』昭和26(1951)年8月15日発行 医学では、安静を最も重要とされているが、これは前にも述べたごとく大変な間違いである。<br/><br/>ではどうするのが一番いいかというと、何よりも自然である。<br/><br/>自然とは自分の身体を拘束する事なく、無理のないよう気儘（きまま）にする事である。<br/><br/>例えば熱があって大儀な時は、寝ろという命令を身体がすると思い、寝ればいいのである。<br/><br/>また寝たくない起きたいと思うのは、起きるべしと命令されたと思い、起きればいいのである。<br/><br/>歩きたければ歩き、駈出したければ駈出し、大きな声で唄いたければ唄うがいい。<br/><br/>というように、何でも心の命ずるままにするのが本当である。<br/><br/>気が向かない、心に満たない事は止すことである。<br/><br/>要するにどこまでも自然である。<br/><br/>これが結核に限らず、いかなる病に対しても同じ事がいえる。<br/><br/> 食物も同様で、食べたい物を食べたい時に食べたいだけ食う。<br/><br/>これが最もいいのである。<br/><br/>薬はもちろん不可（いけ）ないが、食物としても薬だからとか、滋養になるとかいって、欲しくないものを我慢して食ったり、欲しいものを我慢して食わなかったりするのも間違っている。<br/><br/>人体に必要なものは食べたい意欲が起ると共に、食べたくないものは食べるなという訳である。<br/><br/>そうして結核に特に悪いのは動物性蛋白である。<br/><br/>少しは差支えないが、なるべく野菜を多く摂る方がよい。<br/><br/>ところが今日の医学は、栄養は魚鳥獣肉に多いとして奨めるが、これが大変な誤りで、必ず衰弱を増すのである。<br/><br/>本来栄養とは植物性に多くある。<br/><br/>考えてもみるがいい。<br/><br/>動物性のもののみを食っていれば、敗血症などが起って必ず病気になり、生命にかかわる事さえもある。<br/><br/>それに反して菜食はいくらしても健康にこそなれ、病気には決して罹らないばかりか、長寿者となるに見ても明らかである。<br/><br/>これについて私の体験をかいてみるが、私は若い頃結核で死の宣告を受けた時、それまで動物性食餌を多量に摂っていたのを、ある動機でその非を覚り、菜食にしてみたところ、それからメキメキ恢復に向かったので、医学の間違っている事を知り、薬も廃めてしまい、三ケ月間絶対菜食を続けたところ、それで病気はスッカリ治り、病気以前よりも健康体となったのである。<br/><br/>その後他の病気はしたが結核のケの字もなく、六十八歳の今日に到るも矍鑠（かくしゃく）として壮者を凌（しの）ぐものがある。<br/><br/>もしその時それに気が付かなかったとしたら、無論あの世へ旅立っていたに違いないと、今でも思う度にゾッとするのである。<br/><br/> 今一つは喀血の場合である。<br/><br/>これこそ菜食が最もいい。<br/><br/>以前こういう患者があった。<br/><br/>肉食するとその翌日必ず喀血するが、菜食をするとすぐ止まるという、実にハッキリしていた。<br/><br/>これでみても菜食のよい事は間違いないのである。<br/><br/> 今一つは、医師は疲労と睡眠不足を不可として戒めるが、これも間違っている。<br/><br/>それは原理を知らないからで、疲労とはもちろん運動のためで、運動すれば足や腰を活動させるから、その部にある毒素に浄化作用が起り、微熱が発生する、微熱が出れば疲労感を催す、それが疲れである。<br/><br/>しかしそれだけ毒素が減るのだから結構なのである。<br/><br/>何よりも運動をさかんに行い、常に疲労を繰返す人は健康であるに見ても判るである。<br/><br/>だから草臥（くたび）れた際足や腰の辺りを触ってみれば必ず微熱があるにみて、それだけ毒が溶ける訳である。<br/><br/> また睡眠不足は、結核には何ら影響はない、むしろいいくらいである。<br/><br/>これは事実によってみればよく判る。<br/><br/>何よりも睡眠不足の階級を見るがいい。<br/><br/>旅館の従業員や花柳界の人達には、結核が最も少ないと医学でも言われている。<br/><br/> これについても説明してみるが、睡眠不足だと起きている時間が長くなるから、活動の時が多くなり、浄化が余計起るからそれだけ疲れるのである。<br/><br/>ところが逆解的医学である以上、睡眠不足を不可とするのである。<br/><br/>今一つこういう事でも判る。<br/><br/>それは普通朝は熱が低く、午後三時か四時頃になると熱が出てくる。<br/><br/>これも右の理と同様で、たとえ寝ていても神経を使うから浄化が起るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

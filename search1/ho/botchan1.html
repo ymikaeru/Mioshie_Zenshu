@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>botchan1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 坊ちゃんを作る健康法 『光』20号、昭和24(1949)年7月30日発行 現代医学の衛生法や健康法は、換言すれば坊ちゃんを作る方法である、というとおかしな話だが、それはこういう訳である。<br><br> 現代医学の健康法として言うところは人間は無理をしてはいけない、睡眠不足もいけない、消化の良い物を食え、物をよく咀嚼（そしゃく）せよ、寒い思いをするな、腹巻をしないと腹が冷える、外出から帰った時は必ず含嗽（うがい）をしろ――等々である。<br><br> ところが、仮に右の通りの健康法を実行するとすれば果して健康になり得るであろうかというと私はその反対である事を明言する、それは必ず虚弱者になる事で、今簡単に解説してみよう。<br><br> まず無理であるが、人間は無理をするだけ健康になるのである、その証拠にはスポーツマンがレコードを作る場合、極端な無理をする、そのため技能が発達する、水泳の古橋君のごときはその最たるものだ、この理によって無理をすると無理の出来ただけ健康が増すのである、何よりも私は今年六十七歳になるが、山野を跋捗（ばっしょう）する場合若い者は私に敵わないので驚いている、もちろん原因は私は無理をするからである。<br><br> 睡眠不足は、結核の原因になるなどというがこれも反対である、その訳は最も睡眠不足の階級としては宿屋、料理屋、待合の女中、芸妓等であろう、ところが事実この階級は結核が一番少ないという事は医学でも言われている、ゆえに私はなるべく睡眠不足の方針をとっている。<br><br> 消化の良い物を食うと、胃の活動力が鈍る、よく噛む事も同様で、造物主は消化の良い物悪い物、多種多様に造られてある以上、それらを適当に食えという意味である、ゆえに烏賊（いか）、海鼠（なまこ）、蛸（たこ）、沢俺（たくあん）、梅干、茄子（なす）等いずれも不消化物と思えるが食いたい物は何でも食うのが本当だ。<br><br> 風邪を引く事を恐れるが、風邪は最も簡単な健康増進法であり、神が与えた唯一の恩恵である事は私が常に唱うる所である。<br><br> 腹巻をすると、腹部の皮膚が軟弱になるから、たまたま外した場合冷えるので、腹巻を用いないと腹の皮膚が丈夫になるから冷っこない、ゆえに私も家族も決して腹巻はしない事にしている。<br><br> 含嗽（うがい）はしない方がよい、何となれば人間の唾は強力な殺菌作用がある、虫類によっては人間の唾で弱るのがある。<br><br>その証拠には蚤（のみ）をとる場合指に唾をつけて蚤をおさえると蚤は弱る、それ程殺菌力ある唾を含嗽で一時的なくすのはむしろ含嗽時は危険という事になる。<br><br> 以上の説明は理屈ではない、実際に即している事ばかりで何人も肯き得るであろう。<br><br>ゆえに医学の健康法は、人間でいえば苦労をさせないようにして甘く育てる坊ちゃん式で、社会へ出ると抵抗力のない役に立たない人間になるのと同様の理である。<br><br> (注) 古橋君（古橋 廣之進）、1928年生まれ。<br><br>日本水泳連盟会長。<br><br>昭和23年、ロンドン五輪の参加を許されなかった日本水泳界は、この年の日本選手権をオリンピックと同じ日程で開催。<br><br>古橋は1500m自由形で、18分37秒0の当時の世界新記録で優勝。<br><br>ロンドンで五輪での優勝記録は19分18秒5だった。<br><br>その後も数々の世界新記録を出し、「フジヤマのトビウオ」とよばれた。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Método de Saúde que Gera Fragilidade</h2>
 <p>Afirmar que os métodos de higiene e saúde da medicina moderna são, em suma, uma fórmula para criar jovens mimados e frágeis, pode soar como um gracejo. Contudo, a lógica por trás desta asserção é bastante clara.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Portanto, os métodos de saúde preconizados pela medicina assemelham-se à criação superprotegida de um jovem abastado, poupado de qualquer adversidade. O resultado, por analogia, é o mesmo: forma-se um ser humano sem resistência e despreparado para os desafios da vida em sociedade.</p>
 <hr/>
 <p>(Nota) Furuhashi Hiromoshin, nascido em 1928, presidiu a Federação Japonesa de Natação. Em 1948, quando a natação japonesa foi impedida de participar das Olimpíadas de Londres, o país realizou seu campeonato nacional nas mesmas datas do evento olímpico. Na ocasião, Furuhashi venceu os 1500m livres com o tempo de 18min37s0, estabelecendo um novo recorde mundial. O tempo do medalhista de ouro em Londres foi de 19min18s5. Posteriormente, Furuhashi estabeleceu inúmeros outros recordes mundiais, sendo apelidado de "O Peixe Voador do Fujiyama".</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 坊ちゃんを作る健康法 『光』20号、昭和24(1949)年7月30日発行 現代医学の衛生法や健康法は、換言すれば坊ちゃんを作る方法である、というとおかしな話だが、それはこういう訳である。<br/><br/> 現代医学の健康法として言うところは人間は無理をしてはいけない、睡眠不足もいけない、消化の良い物を食え、物をよく咀嚼（そしゃく）せよ、寒い思いをするな、腹巻をしないと腹が冷える、外出から帰った時は必ず含嗽（うがい）をしろ――等々である。<br/><br/> ところが、仮に右の通りの健康法を実行するとすれば果して健康になり得るであろうかというと私はその反対である事を明言する、それは必ず虚弱者になる事で、今簡単に解説してみよう。<br/><br/> まず無理であるが、人間は無理をするだけ健康になるのである、その証拠にはスポーツマンがレコードを作る場合、極端な無理をする、そのため技能が発達する、水泳の古橋君のごときはその最たるものだ、この理によって無理をすると無理の出来ただけ健康が増すのである、何よりも私は今年六十七歳になるが、山野を跋捗（ばっしょう）する場合若い者は私に敵わないので驚いている、もちろん原因は私は無理をするからである。<br/><br/> 睡眠不足は、結核の原因になるなどというがこれも反対である、その訳は最も睡眠不足の階級としては宿屋、料理屋、待合の女中、芸妓等であろう、ところが事実この階級は結核が一番少ないという事は医学でも言われている、ゆえに私はなるべく睡眠不足の方針をとっている。<br/><br/> 消化の良い物を食うと、胃の活動力が鈍る、よく噛む事も同様で、造物主は消化の良い物悪い物、多種多様に造られてある以上、それらを適当に食えという意味である、ゆえに烏賊（いか）、海鼠（なまこ）、蛸（たこ）、沢俺（たくあん）、梅干、茄子（なす）等いずれも不消化物と思えるが食いたい物は何でも食うのが本当だ。<br/><br/> 風邪を引く事を恐れるが、風邪は最も簡単な健康増進法であり、神が与えた唯一の恩恵である事は私が常に唱うる所である。<br/><br/> 腹巻をすると、腹部の皮膚が軟弱になるから、たまたま外した場合冷えるので、腹巻を用いないと腹の皮膚が丈夫になるから冷っこない、ゆえに私も家族も決して腹巻はしない事にしている。<br/><br/> 含嗽（うがい）はしない方がよい、何となれば人間の唾は強力な殺菌作用がある、虫類によっては人間の唾で弱るのがある。<br/><br/>その証拠には蚤（のみ）をとる場合指に唾をつけて蚤をおさえると蚤は弱る、それ程殺菌力ある唾を含嗽で一時的なくすのはむしろ含嗽時は危険という事になる。<br/><br/> 以上の説明は理屈ではない、実際に即している事ばかりで何人も肯き得るであろう。<br/><br/>ゆえに医学の健康法は、人間でいえば苦労をさせないようにして甘く育てる坊ちゃん式で、社会へ出ると抵抗力のない役に立たない人間になるのと同様の理である。<br/><br/> (注) 古橋君（古橋 廣之進）、1928年生まれ。<br/><br/>日本水泳連盟会長。<br/><br/>昭和23年、ロンドン五輪の参加を許されなかった日本水泳界は、この年の日本選手権をオリンピックと同じ日程で開催。<br/><br/>古橋は1500m自由形で、18分37秒0の当時の世界新記録で優勝。<br/><br/>ロンドンで五輪での優勝記録は19分18秒5だった。<br/><br/>その後も数々の世界新記録を出し、「フジヤマのトビウオ」とよばれた。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

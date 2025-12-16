@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hanbun02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 半文明半野蛮の世界 『栄光』256号、昭和29(1954)年4月14日発行 現代は最も進歩した文明世界と誰しも思っているだろうが、その内容をよく検討してみると、余りに欠点が多いのは、日々の新聞をみても分る通りで、犯罪者や不幸な人間の記事で埋っている。<br><br>公平に見て、良い事よりも悪い事の方が断然多い事実である。<br><br>最近大問題となった汚職事件などを見ても、検察当局が一度手をつけ始めるや、それからそれへとどこまで拡がってゆくか分らないくらいであるから、今度の事などあるいは氷山の一角で、本当に調べたら政界も財界も、無傷の人間は果して幾人あるであろうか、残らずと言いたい程であろう。<br><br> それについてよく考えてみると意外に思う事がある。<br><br>それはこの事件の関係者のことごとくは、教育の低い田夫野人ならとにかく、いずれも高等教育を受けた文化人のみである事である。<br><br>従ってこれでみると高等教育を受ければ智識は発達し文化的人間となる以上、犯罪など減るばかりと思うが、今回の事実を見る時ただ唖然とするばかりである。<br><br>としたら、実に不可解千万と言わねばならない。<br><br>そこで標題のごとく半文明半野蛮の時代といったのであるが、これを見ても否（いな）と言える人は恐らく一人もあるまい。<br><br>では一体この情勢に対しいかにすればいいかというと、それはあえて難かしい事はない。<br><br>至極簡単である。<br><br>すなわち私が常に唱えている唯物偏重教育に目覚め、唯心教育を勃興（ぼっこう）させる事である。<br><br>分りやすくいえば、形のみを信じ、形なきものは信じないという迷蒙（めいもう）を打破する事であって、その唯一の方法としては、宗教の力によって神の実在を認識させる事である。<br><br> そうしてこの事が指導者階級に分ると共に、国民全般に行き渡るとしたら、犯罪を犯しても人の眼にさえ触れなければいいとする間違った根性が直る以上、犯罪は出来なくなり、明るい良い世の中になるのは分り切った話である。<br><br>ところがこんな簡単明瞭な道理が分らないとみえて、いつになっても法という網や檻を厳重に作って取締るのみであるから、人間を動物扱いにしている訳で、これでは効果のないのは当然である。<br><br>ところが事実はこの法の檻でも、社会秩序が維持出来ないとしたら、その原因はどこにあるかという事に気が付きそうなものだが、一向に気がつかない。<br><br>相変らず社会は半人半獣の人間の集団となっているのである。<br><br>この意味において、最早唯物教育では人間の獣性を取除く事が出来ないのは余りに明らかである。<br><br>故に今までの教育では、結果において獣性を蔽（おお）い隠す技術の進歩でしかない。<br><br>従ってこれではいつになったら真の文明社会が出来るか見当がつかないのである。<br><br>としたらこれを解決するには、どうしても人間の魂から獣性を抜く事であって、それ以外に根本的方法はあり得ない。<br><br> それが宗教であるが、不思議にも高等教育を受ければ受ける程宗教が嫌いになるのはどうしたものか、これが文明の一大欠陥であろう。<br><br>この原因こそ肚の中にある獣性が宗教を忌避（きひ）するためであって、悪は善を好まないからである。<br><br>としたら、現代教育は智能的悪を作るものといってよかろう。<br><br>ところが最早それは赦（ゆる）されない時が来た。<br><br>というのは本教の出現である。<br><br>何となれば本教は神の実在を目に見せ、手に掴ませる事が出来るからである。<br><br>というとそんな素晴しい事はありようはずがないというであろうが、実は訳なく出来るのである。<br><br>本教に接するや立所（たちどころ）に神霊を把握出来るからであって、それが奇蹟である。<br><br>本教が驚くべき奇蹟を無限に現わしつつあるのが何よりの証拠であって、これこそいよいよ神は半文明半野蛮の跛行（はこう）的文明を是正し、唯物唯心の両脚揃って歩むところの真の文明世界を造るべく、神の大経綸は開始されたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Mundo Semicivilizado e Semibárbaro</h2>
 <p>Embora todos considerem a era contemporânea como o apogeu da civilização, ao analisarmos seu conteúdo com mais atenção, percebemos que ela padece de inúmeros defeitos. Isso se torna evidente ao observarmos os jornais diários, cujas páginas estão repletas de notícias sobre criminosos e pessoas em desgraça. Analisando com imparcialidade, é um fato que os acontecimentos negativos superam de maneira avassaladora os positivos. Basta observarmos os recentes escândalos de corrupção que se tornaram um grande problema: uma vez que as autoridades iniciam as investigações, as ramificações se estendem de tal forma que é impossível prever onde irão terminar. É provável que os casos atuais não passem da ponta de um iceberg; se uma apuração completa fosse realizada nos meios político e financeiro, quantos indivíduos sairiam ilesos? Arriscar-me-ia a dizer que praticamente ninguém.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, torna-se por demais evidente que a educação materialista é incapaz de erradicar a bestialidade humana. Por conseguinte, a educação até hoje resultou apenas no aprimoramento da técnica de ocultar essa bestialidade. Assim sendo, é impossível vislumbrar quando uma verdadeira sociedade civilizada poderá ser estabelecida. Para solucionar essa questão, é imprescindível extrair a bestialidade da alma humana; não há outro método fundamental.</p>
 <p>Esse método é a religião. Contudo, é curioso observar que, quanto mais elevada a instrução que uma pessoa recebe, maior sua aversão à religião. Eis aqui uma das maiores falhas da nossa civilização. A causa disso reside precisamente na bestialidade interior, que a leva a repelir a religião, pois o mal não aprecia o bem. Sendo assim, podemos afirmar que a educação moderna tem por efeito criar o mal intelectualizado.</p>
 <p>Entretanto, chegou o tempo em que tal situação não pode mais ser tolerada. E isso se deve ao advento de nossa Igreja. A razão é que nossa Igreja é capaz de fazer com que a existência de Deus seja vista com os próprios olhos e sentida nas próprias mãos. Alguns talvez digam que algo tão extraordinário é impossível, mas, na verdade, isso é realizado sem qualquer dificuldade. Pois, ao entrar em contato com nossos ensinamentos, a pessoa é capaz de apreender imediatamente o Espírito Divino, e isso constitui o milagre. A prova irrefutável disso é o fato de nossa Igreja manifestar, de forma incessante, um número infinito de milagres surpreendentes. Isso é a prova cabal de que, finalmente, o grandioso Plano Divino foi iniciado por Deus, a fim de corrigir esta civilização claudicante, meio bárbara e meio civilizada, e construir um mundo de verdadeira civilização, que caminhe firmemente sobre as duas pernas do materialismo e da espiritualidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 半文明半野蛮の世界 『栄光』256号、昭和29(1954)年4月14日発行 現代は最も進歩した文明世界と誰しも思っているだろうが、その内容をよく検討してみると、余りに欠点が多いのは、日々の新聞をみても分る通りで、犯罪者や不幸な人間の記事で埋っている。<br/><br/>公平に見て、良い事よりも悪い事の方が断然多い事実である。<br/><br/>最近大問題となった汚職事件などを見ても、検察当局が一度手をつけ始めるや、それからそれへとどこまで拡がってゆくか分らないくらいであるから、今度の事などあるいは氷山の一角で、本当に調べたら政界も財界も、無傷の人間は果して幾人あるであろうか、残らずと言いたい程であろう。<br/><br/> それについてよく考えてみると意外に思う事がある。<br/><br/>それはこの事件の関係者のことごとくは、教育の低い田夫野人ならとにかく、いずれも高等教育を受けた文化人のみである事である。<br/><br/>従ってこれでみると高等教育を受ければ智識は発達し文化的人間となる以上、犯罪など減るばかりと思うが、今回の事実を見る時ただ唖然とするばかりである。<br/><br/>としたら、実に不可解千万と言わねばならない。<br/><br/>そこで標題のごとく半文明半野蛮の時代といったのであるが、これを見ても否（いな）と言える人は恐らく一人もあるまい。<br/><br/>では一体この情勢に対しいかにすればいいかというと、それはあえて難かしい事はない。<br/><br/>至極簡単である。<br/><br/>すなわち私が常に唱えている唯物偏重教育に目覚め、唯心教育を勃興（ぼっこう）させる事である。<br/><br/>分りやすくいえば、形のみを信じ、形なきものは信じないという迷蒙（めいもう）を打破する事であって、その唯一の方法としては、宗教の力によって神の実在を認識させる事である。<br/><br/> そうしてこの事が指導者階級に分ると共に、国民全般に行き渡るとしたら、犯罪を犯しても人の眼にさえ触れなければいいとする間違った根性が直る以上、犯罪は出来なくなり、明るい良い世の中になるのは分り切った話である。<br/><br/>ところがこんな簡単明瞭な道理が分らないとみえて、いつになっても法という網や檻を厳重に作って取締るのみであるから、人間を動物扱いにしている訳で、これでは効果のないのは当然である。<br/><br/>ところが事実はこの法の檻でも、社会秩序が維持出来ないとしたら、その原因はどこにあるかという事に気が付きそうなものだが、一向に気がつかない。<br/><br/>相変らず社会は半人半獣の人間の集団となっているのである。<br/><br/>この意味において、最早唯物教育では人間の獣性を取除く事が出来ないのは余りに明らかである。<br/><br/>故に今までの教育では、結果において獣性を蔽（おお）い隠す技術の進歩でしかない。<br/><br/>従ってこれではいつになったら真の文明社会が出来るか見当がつかないのである。<br/><br/>としたらこれを解決するには、どうしても人間の魂から獣性を抜く事であって、それ以外に根本的方法はあり得ない。<br/><br/> それが宗教であるが、不思議にも高等教育を受ければ受ける程宗教が嫌いになるのはどうしたものか、これが文明の一大欠陥であろう。<br/><br/>この原因こそ肚の中にある獣性が宗教を忌避（きひ）するためであって、悪は善を好まないからである。<br/><br/>としたら、現代教育は智能的悪を作るものといってよかろう。<br/><br/>ところが最早それは赦（ゆる）されない時が来た。<br/><br/>というのは本教の出現である。<br/><br/>何となれば本教は神の実在を目に見せ、手に掴ませる事が出来るからである。<br/><br/>というとそんな素晴しい事はありようはずがないというであろうが、実は訳なく出来るのである。<br/><br/>本教に接するや立所（たちどころ）に神霊を把握出来るからであって、それが奇蹟である。<br/><br/>本教が驚くべき奇蹟を無限に現わしつつあるのが何よりの証拠であって、これこそいよいよ神は半文明半野蛮の跛行（はこう）的文明を是正し、唯物唯心の両脚揃って歩むところの真の文明世界を造るべく、神の大経綸は開始されたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

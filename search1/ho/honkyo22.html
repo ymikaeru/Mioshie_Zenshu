@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo22</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教を認識せよ 『光』44号、昭和25(1950)年1月7日発行 世間の評判によれば、本教はすこぶる多額な収入があり、教祖初め幹部は豪奢な生活をしているとの事である、これについてその噂の出所等その真相を発表するのも無駄ではあるまい。<br><br> そもそも右のごとき噂の源はといえば、昨秋当時の新聞を賑わした彼の脱税問題の際、朝日紙が本教資産二、三十億と記いた事や、数ケ月前の文芸春秋に五十五億と出たり、読売紙が一日の収入一千万円以上などと書いた等本教に関心を持つ限りの人は右記事は見たであろう、それらが拡がって今日のごとき誇大な噂となったのであるから、迷惑するのは本教だけである、というのはそういう記事が表われるや、その直後から当分ユスリや金貰い連中が何だ彼んだとうるさくタカって来るにみても明らかである。<br><br> ここで本教の歴史をかいてみるが、昭和十年一月、大日本観音会の名の下に宗教団体として発足したのであるが、当時はすこぶる微々たるもので、信者の数も数十人に過ぎなかった、そうしてこれより先昭和元年頃霊的治療の研究を開始し、特殊の療法を創成し、昭和九年五月民間療法的に創めたのがそもそもで、その翌年一月宗教となり、翌十一年弾圧を受け一年数ケ月浪人生活を続け、昭和十二年秋民間療法専門に再発足したところ、数十人の門弟が出来たため生活の安全を得た事と、当局の取締りがあまりに厳しいので十五年秋廃業する事となった、その後戦争等もあり爾来（じらい）七年間岡田式浄化療法の名によって技術者養成に専心し、数百人の門弟を造ったのである。<br><br> しかるに終戦となるや信教の自由が許されたので、二十二年八月宗教法人の許可を受け、この時から表面的宗教活動に移ったのであるから素晴しい発展を遂げたのも僅々二年有余であって、新聞で言うような馬鹿げた収入があるはずがないのである、本教といえども魔法使でもなければ闇屋でもなく営利事業でもない、収入全部は御利益に対する謝礼と本教事業を支援する意図からの献金であってそれ以外は何にもないのである、しかも本教は搾取は絶対にやらない方針で、収入ことごとくは自発的のもののみである、以上は一点の修飾もなくありのままの事実であるから、新聞や雑誌の記事がいかに誇大的デマであるかは今更言うまでもない。<br><br> そうして収入の使途であるが、本教は創業早々の事とて本山というものがない、およそいかなる宗教といえども本山の無いものは一つもない、という事は信仰的機関がなければ、礼拝したり集合したりする宗教活動が出来ないからである、彼のキリスト教におけるカソリックでさえ昔からローマにバチカン宮殿のごとき壮麗なものをもっているに見て明らかである、従って本教においても本山を建造しない訳にはゆかないので、収入の大部分はこれに当てている、熱海、箱根、小田原における目下建造中の相当規模のものをみれば直ちに首肯（しゅこう）し得るであろう、しかも右の外本教くらい印刷物を多数刊行しているものは外にあるまい、すなわち光新聞、雑誌地上天国その他十数種に上る単行本を見れば判るが、右のごとき出版事業や、その他各地方に派遣する数千に上る布教師の旅費等を合算すれば実に多額に上るので、本教が急速なる発展時代としてはまたやむを得ないのである、かような現状であるから、相当の収入があってもプラスマイナスでいつも不足勝である、昨秋の税金のごときは完納までにいかに全信者が苦心惨澹したかは世間は知る由もないのである。<br><br> よく本教に対し疑惑云々といわれるが、これらは何の疑惑かさっぱり判らない、もし金銭上の疑惑とすれば前述のごとくであるから一点の不審はあるまい、ゆえに右に従えば神社仏閣の賽銭も既成宗教の収入も全部疑惑をかけなければならない事になる、しかし余りに短期間に収入が多いから疑惑があるとすれば実に笑うに堪えない話である、何となれば右は本教の御利益がいかに卓越しているかを見ないからで、実に無責任極まる観方である、それについてその真相を赤裸々にかいてみよう。<br><br> 本教が常に言う通り御利益の顕著なる事は宗教史上いまだ例があるまい、十数年にわたって治癒しない難病や、医師から死の宣告を受けた絶望的患者が、短期間に起死回生健康を恢復したり、医者と薬から離れられない家庭が、本教入信によって無病家族となる等によって、絶大な感謝感激は安閑としてはおられない、その表われが献金となるのであるから、お義理やお付合で出すものより、その額も違うのは当然である。<br><br> 右のような訳で、どうしても世間並より収入は多い事になる、とすれば世間の疑惑なるものはナンセンス以外の何物でもない事になろう、しかも治病以外不良児が優良児となり主人の品行が改善し夫婦円満となり、貧乏からも抜け出られ不幸から幸福へ転換し、歓喜の生活者たる実例は枚挙にいとまがない、しかも日に月に漸増しつつある現況であって、これら多数の生きた事実によってみてもいかに社会全般の福祉に貢献しつつあるかは本教に触れるものの何人も礼讃して止まないところである。<br><br> また、豪奢な生活云々のごときは、これも馬鹿馬鹿しい話で、顕著な御利益のため金銭以外食料品など余る程寄贈されるので、知らない者からみれば豪奢に見えるのである。<br><br> ここで、今一つ言いたい事は、日本人は新しい有能者が出た場合、良い事には眼を蔽い悪い事のみ取上げよってたかって抹殺しようとする悪い癖がある、そういう人に限って常に何か非難攻撃の材料がないかを注視する、たとえば十のものなら正が九で、欠点が一とすれば、その一で九を塗潰し、十全部が欠点ばかりのように宣伝したがる事は人の知るところで新聞のデマ記事などもそれである。<br><br> 右のような訳であるからこれでは卓越した型破りの人物などは到底出られようがない、全く嫉視羨望によるケチな島国根性の表われでしかない、聞く所によれば彼の米国などは日本と反対であるそうだ、これはと思う人物が現れると、それを益々大きくなるように援助を与えるというのだから、同国各界に卓越せる人物が多く出るのは当然であって、それらの人物によってこそ米国今日の大をなしたゆえんであろう、もちろん大人物とはことごとく型破りであるから既成の学理や文化の枠には、ハミ出るに決っている、そのハミ出た面を攻撃の材料とするのであるから、日本に大人物が出ないのは当り前である、特に今日の政治家などを見ればよく判る、国会などでも些末な理屈や揚足とりに汲々（きゅうきゅう）として肝腎な国民の福利に関する面に至ってははなはだ熱が足りないようである、昔のような国会においての大演説や名演説など近来ほとんど聞かないのもその現れであろう。<br><br> 自画自讃ではないが、本教などはよく宗教界の型破りといわれるが、異常の発展もそのためであろう、とすればまず本教を検討する場合、何よりもまず本教出版の全部の印刷物に眼を通す事である、何となれば本教に非難を浴せる人のほとんどは本教の出版物も見ずして新聞のデマ記事や、反対者の偽書、世間の噂等を早呑込みにし、自己判断で是非を云々するのであるから、的外れは当然で、その無責任なる態度は大いに反省の要があろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade Sobre a Nossa Fé</h2>
 <p>Segundo a opinião pública, nossa Fé aufere rendas vultosas, e tanto o Fundador quanto seus principais dirigentes desfrutam de uma vida suntuosa. Diante disso, julgo ser oportuno esclarecer a verdade sobre tais boatos e sua procedência.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Gostaria de abordar mais um ponto. Os japoneses têm o péssimo hábito de, ao se depararem com o surgimento de alguém talentoso e inovador, ignorar suas qualidades e se concentrar unicamente em seus defeitos para, em conjunto, aniquilá-lo. Tais pessoas parecem estar sempre à espreita de material para crítica e ataque. Se um indivíduo possui nove qualidades e um único defeito, elas se apegam a esse defeito para manchar as nove qualidades, propagandeando como se a pessoa fosse inteiramente falha. É sabido que as calúnias da imprensa nascem dessa mesma índole.</p>
 <p>Com essa mentalidade, é impossível que surjam personalidades notáveis e inovadoras. Trata-se de uma mesquinha expressão de inveja e ciúme, própria de uma nação insular. Soube que nos Estados Unidos ocorre o oposto. Lá, quando surge uma personalidade notável, ela recebe apoio para que possa crescer ainda mais. É natural, portanto, que aquele país produza tantos expoentes em diversas áreas; foram essas personalidades que construíram a grandeza da América de hoje. Naturalmente, grandes figuras são, por natureza, iconoclastas, e é inevitável que transgridam os moldes do academicismo e da cultura vigentes. É justamente esse aspecto transgressor que se torna alvo de ataques, e por isso é tão raro o surgimento de grandes vultos no Japão. Basta observar os políticos de hoje. No Parlamento, eles se perdem em minúcias e discussões triviais, demonstrando pouquíssimo empenho nas questões que verdadeiramente importam para o bem-estar do povo. O fato de não ouvirmos mais os grandes e memoráveis discursos de outrora é um reflexo dessa realidade.</p>
 <p>Não o digo por vaidade, mas nossa Fé é frequentemente chamada de inovadora no cenário religioso, e talvez nosso crescimento excepcional se deva a isso. Portanto, antes de nos tecerem críticas, o mínimo que se deveria fazer é ler todas as nossas publicações. A maioria dos que nos atacam, contudo, o faz sem sequer ter lido nossos escritos, baseando-se apenas nas calúnias da imprensa, em panfletos de opositores e em boatos. Sua atitude irresponsável clama por uma profunda reflexão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教を認識せよ 『光』44号、昭和25(1950)年1月7日発行 世間の評判によれば、本教はすこぶる多額な収入があり、教祖初め幹部は豪奢な生活をしているとの事である、これについてその噂の出所等その真相を発表するのも無駄ではあるまい。<br/><br/> そもそも右のごとき噂の源はといえば、昨秋当時の新聞を賑わした彼の脱税問題の際、朝日紙が本教資産二、三十億と記いた事や、数ケ月前の文芸春秋に五十五億と出たり、読売紙が一日の収入一千万円以上などと書いた等本教に関心を持つ限りの人は右記事は見たであろう、それらが拡がって今日のごとき誇大な噂となったのであるから、迷惑するのは本教だけである、というのはそういう記事が表われるや、その直後から当分ユスリや金貰い連中が何だ彼んだとうるさくタカって来るにみても明らかである。<br/><br/> ここで本教の歴史をかいてみるが、昭和十年一月、大日本観音会の名の下に宗教団体として発足したのであるが、当時はすこぶる微々たるもので、信者の数も数十人に過ぎなかった、そうしてこれより先昭和元年頃霊的治療の研究を開始し、特殊の療法を創成し、昭和九年五月民間療法的に創めたのがそもそもで、その翌年一月宗教となり、翌十一年弾圧を受け一年数ケ月浪人生活を続け、昭和十二年秋民間療法専門に再発足したところ、数十人の門弟が出来たため生活の安全を得た事と、当局の取締りがあまりに厳しいので十五年秋廃業する事となった、その後戦争等もあり爾来（じらい）七年間岡田式浄化療法の名によって技術者養成に専心し、数百人の門弟を造ったのである。<br/><br/> しかるに終戦となるや信教の自由が許されたので、二十二年八月宗教法人の許可を受け、この時から表面的宗教活動に移ったのであるから素晴しい発展を遂げたのも僅々二年有余であって、新聞で言うような馬鹿げた収入があるはずがないのである、本教といえども魔法使でもなければ闇屋でもなく営利事業でもない、収入全部は御利益に対する謝礼と本教事業を支援する意図からの献金であってそれ以外は何にもないのである、しかも本教は搾取は絶対にやらない方針で、収入ことごとくは自発的のもののみである、以上は一点の修飾もなくありのままの事実であるから、新聞や雑誌の記事がいかに誇大的デマであるかは今更言うまでもない。<br/><br/> そうして収入の使途であるが、本教は創業早々の事とて本山というものがない、およそいかなる宗教といえども本山の無いものは一つもない、という事は信仰的機関がなければ、礼拝したり集合したりする宗教活動が出来ないからである、彼のキリスト教におけるカソリックでさえ昔からローマにバチカン宮殿のごとき壮麗なものをもっているに見て明らかである、従って本教においても本山を建造しない訳にはゆかないので、収入の大部分はこれに当てている、熱海、箱根、小田原における目下建造中の相当規模のものをみれば直ちに首肯（しゅこう）し得るであろう、しかも右の外本教くらい印刷物を多数刊行しているものは外にあるまい、すなわち光新聞、雑誌地上天国その他十数種に上る単行本を見れば判るが、右のごとき出版事業や、その他各地方に派遣する数千に上る布教師の旅費等を合算すれば実に多額に上るので、本教が急速なる発展時代としてはまたやむを得ないのである、かような現状であるから、相当の収入があってもプラスマイナスでいつも不足勝である、昨秋の税金のごときは完納までにいかに全信者が苦心惨澹したかは世間は知る由もないのである。<br/><br/> よく本教に対し疑惑云々といわれるが、これらは何の疑惑かさっぱり判らない、もし金銭上の疑惑とすれば前述のごとくであるから一点の不審はあるまい、ゆえに右に従えば神社仏閣の賽銭も既成宗教の収入も全部疑惑をかけなければならない事になる、しかし余りに短期間に収入が多いから疑惑があるとすれば実に笑うに堪えない話である、何となれば右は本教の御利益がいかに卓越しているかを見ないからで、実に無責任極まる観方である、それについてその真相を赤裸々にかいてみよう。<br/><br/> 本教が常に言う通り御利益の顕著なる事は宗教史上いまだ例があるまい、十数年にわたって治癒しない難病や、医師から死の宣告を受けた絶望的患者が、短期間に起死回生健康を恢復したり、医者と薬から離れられない家庭が、本教入信によって無病家族となる等によって、絶大な感謝感激は安閑としてはおられない、その表われが献金となるのであるから、お義理やお付合で出すものより、その額も違うのは当然である。<br/><br/> 右のような訳で、どうしても世間並より収入は多い事になる、とすれば世間の疑惑なるものはナンセンス以外の何物でもない事になろう、しかも治病以外不良児が優良児となり主人の品行が改善し夫婦円満となり、貧乏からも抜け出られ不幸から幸福へ転換し、歓喜の生活者たる実例は枚挙にいとまがない、しかも日に月に漸増しつつある現況であって、これら多数の生きた事実によってみてもいかに社会全般の福祉に貢献しつつあるかは本教に触れるものの何人も礼讃して止まないところである。<br/><br/> また、豪奢な生活云々のごときは、これも馬鹿馬鹿しい話で、顕著な御利益のため金銭以外食料品など余る程寄贈されるので、知らない者からみれば豪奢に見えるのである。<br/><br/> ここで、今一つ言いたい事は、日本人は新しい有能者が出た場合、良い事には眼を蔽い悪い事のみ取上げよってたかって抹殺しようとする悪い癖がある、そういう人に限って常に何か非難攻撃の材料がないかを注視する、たとえば十のものなら正が九で、欠点が一とすれば、その一で九を塗潰し、十全部が欠点ばかりのように宣伝したがる事は人の知るところで新聞のデマ記事などもそれである。<br/><br/> 右のような訳であるからこれでは卓越した型破りの人物などは到底出られようがない、全く嫉視羨望によるケチな島国根性の表われでしかない、聞く所によれば彼の米国などは日本と反対であるそうだ、これはと思う人物が現れると、それを益々大きくなるように援助を与えるというのだから、同国各界に卓越せる人物が多く出るのは当然であって、それらの人物によってこそ米国今日の大をなしたゆえんであろう、もちろん大人物とはことごとく型破りであるから既成の学理や文化の枠には、ハミ出るに決っている、そのハミ出た面を攻撃の材料とするのであるから、日本に大人物が出ないのは当り前である、特に今日の政治家などを見ればよく判る、国会などでも些末な理屈や揚足とりに汲々（きゅうきゅう）として肝腎な国民の福利に関する面に至ってははなはだ熱が足りないようである、昔のような国会においての大演説や名演説など近来ほとんど聞かないのもその現れであろう。<br/><br/> 自画自讃ではないが、本教などはよく宗教界の型破りといわれるが、異常の発展もそのためであろう、とすればまず本教を検討する場合、何よりもまず本教出版の全部の印刷物に眼を通す事である、何となれば本教に非難を浴せる人のほとんどは本教の出版物も見ずして新聞のデマ記事や、反対者の偽書、世間の噂等を早呑込みにし、自己判断で是非を云々するのであるから、的外れは当然で、その無責任なる態度は大いに反省の要があろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

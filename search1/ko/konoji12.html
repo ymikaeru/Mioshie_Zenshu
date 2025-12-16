@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>konoji12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実を見よ 『栄光』107号、昭和26(1951)年6月6日発行 左のお蔭話は、特に参考になるから、充分玩味して貰いたいと思う。<br><br>せっかく入信しても、一度信仰を離れるや、神様の御守護がなくなり、災い交々（こもごも）来るという実にいい実例である。<br><br>また現代医学がいかに無効果であるどころか、反って悪化させるという事実である。<br><br>これなども世の中の人は、全然気が付かないのであるから、患者は高い金を費いながら、苦しみ続けるばかりか、お医者さんは一生懸命治そうとして努力するのだが、結果は右のごとしとすれば、全く現代医学は根本的に誤っている事を知るであろう。<br><br>噫（ああ）、この蒙（もう）を啓（ひら）くには、いかにしたらよいであろうか、これが吾々の最大苦悩である。<br><br> 長い苦しみから救われた数々 〔病、貧の苦しみから救われた数々〕 『結核の革命的療法』昭和26(1951)年8月15日タイトル変更掲載 秋田県 十光中教会 虻川キクエ（36） 昭和二十三年十二月頃、産後に神経痛を患い、手足がしぴれたようになり、その上苦痛がひどく、歩く事さえ出来ない状態で御座いました、「若くても中風があるそうだ」という世間の噂に気を落し、人生の半ばにてこの世を終るものやと悲観しておりました、何よりもまず医者へと毎日毎日大きい子供に箱橇に乗せられて病院に通い続けました、いやな注射や薬に毎日が苦しい思いでしたが、一カ月経っても元のような体になれずとうとう劫をにやしてやめてしまいました、日頃の苦しみの晴れぬのを知人や来客に訴え色々な薬を教えられては呑んでおりましたが依然としてはっきりせず、不遇な我が身を歎いておりました。<br><br> ある日ふとした事から町内の信者さんに「手をふれば病気が治る」と薦められそんな馬鹿げた事があるものか、と思いましたが「もし治ったらこの上ない事」と思い入信させて頂く気になりました、三日間の教修中にある急病人が教修会場に来て奇蹟的にも良くなり喜んで感激して帰りました、又もう一人は私のような病気で足を引きづり、体全体が苦しいと言って来ましたがそれもただ数回の御浄霊によって治ってしまいました、これを見て半信半疑ながら先生のお話を聞いていた私は、益々吃驚致しました。<br><br>「ああこれは確かだ、これなら間違いない本当に有難い御力だ」と確信し、三日目には自信たっぷりで有難い御守様を戴きました、その後いつともなく自分の体がすっかり良くなりましたが、家でも子供達が、頭が悪いとか腹が痛いとか色々な浄化がありましたので、恥しいような気持で人目に知れぬように手を振って見ました、中には気のせいやら治ったように思われましたが、幾ら手を振っても中々その効果が見えないので家の人達に「そんな馬鹿な真似するより病院に行った方が早いからやめてくれ」とさんざん悪口や反対を言われ、それでいつともなくすっかり手を振らないようになってしまい、とうとう御守様迄もはずしてしまいました、自分達では先生方のように治せそうもないと諦め、御守様を仏様に上げてお詫びして置きました。<br><br>明けて二十四年の三月二十五日の夜中一時に突然火事に逢い、五軒たちまちのうちに焼けてしまいました。<br><br> 私の家はその中の一軒で土台だけが残ってあとはすっかり焼けてしまいました。<br><br>早速近親や知人達のお世話でようやく家が建てられ、どうにか寝起して参りましたが益々貧苦に悩まされるばかりでした、家の職業は自転車業なので冬になるとすっかり客足が絶えて、まるっきり収入の道がなくなるのでした、でもどうにか過して来ましたが、春の商売の仕入れの為借金をしたり、無尽を取ったりしてかれこれ十七万円位仕入れました。<br><br>その年の七月不幸にも又夜泥棒に入いられて新車二台が盗まれてしまいました、新車一台が一万八千円もする時で、二台で三万六千円というものが盗られましたので、なんとも言えぬ憎らしさ、悲しさで胸が一杯で御座いました、それでも毎日の来客にこのような不幸を言って、客が絶えては大変だと思って表面にはなんの辛さも見せず元気をつけておりました、また同じように十月の夜新車一台盗まれてしまいました、何ということでしょう、千円か二千円で仕入れられる事でなく、何万という金高全く残念で堪りませんでした、また同じように苦しい冬を過ごしている中に、明けて二十五年の二月主人の弟がソ領から帰って間もなく結核で病院に入院してしまいました、いつ治るものやら見通しのつかない程の病人であります、入院して一カ年近くになりますがまだ入院しております、その入院治療費が十万円以上にもなります、同年五月今度は私の子供五女が急に脳膜炎に掛りもうすっかり落胆してしまいました。<br><br>五女が亡くなってまもなく今度は六男がなんだか熱が高く咳もするようなので、余りの心配に医者に見て貰いましたら、小児結核と言われ、もう腰が抜ける程がっかりしてしまいました、医者から早速入院するようにと言われましたが、もうどこをはたいても金がないので入院せずに、なんとか自宅で治療する事が出来ないだろうかとお願い致しましたら「それじゃ、ストレプトマイシンを十本位注射すると子供だから早く治るだろう」と言われました、医者の言う通りマイシンを注射してもらう事になりましたが、夢中になって泣く子供のお尻に看護婦三人でおさえつけて無理矢理に注射するので御座いました、余りのいたいたしさに私も共に泣いてしまいました。<br><br> 毎日このように注射されては可哀相だが、この可愛いい子供をどうにかして助けて貰いたいばっかりと、心を鬼にして毎日通いました、一本のマイシンを大人なら一日にやりますが、子供だから一本を三日に分けてやりました、マイシン一本千百円です、あらゆる生活費を切りつめて、一カ月の間に十本注射してもらいましたが、よくなるどころか日増に悪くなるばかりで御座いました、又医者に相談しましたところ「もう四十本もやったら、良くなるだろう」との事で、主人とも相談して見ますと急いで帰りました、医者の言う通り主人に話しましたが、主人も暗い顔で何とも言いませんでした、もう親たる私から思い切ってこの子供が亡くなってもいいから、これで止めます、これから四十本もマイシンをやってかれこれ、五万円は掛るだろうがそれでも良くならない時は要らぬ金を投げるばかりだ、主人の弟も、まだ入院して数十万の金を費しているし五女にもかけたし、これ以上は、借金の背負倒れになってしまうばかりだ、「どうせ私は、子供に運がないのだ」と諦めて気を益々強く持ったのでした、医者をやめて一週間ばかり経ったある日、町内の入信者で前に奨めてくれた人が、私の家に来て「あなたはあの有難い御守様をどうしておりますか、きっと投げっぱなしでしょう、だから色々な不幸が、次から次へと続くんだよ、もう一度思い直してこの道へ入られたらどうです」と色々有難いお蔭話を話して下さいました、それで今迄の一切の悪事をあやまりお詫びして再びこのお道に縋らせて頂く事になりました。<br><br>早速熱の四十度もある子供を連れて教会の鈴木先生のところに参りました。<br><br> そして一切の悪事をあやまり、大光明如来様にお詫びして、毎日の御熱心な御浄霊を戴きました、二十日も経たぬうちに、もうすっかり元気にさせて頂きました、何とも言われぬ有難い御力に、この可愛い子供が助けられたのです、私も新たに御守様を頂いてもらいました、御屏風観音様も御奉斎させて頂き、仏壇もすっかり直して、お祭りさせて戴きましたら、その後はなんの不幸もないばかりか、御守様を頂いて商売も繁昌し、一家笑って毎日楽しく暮らさせて頂いております。<br><br>有難さにただただ感泣し、御礼の言葉も知らない位です、「明主様有難う御座います」と我が子を抱いては、おいおいと泣けてくるばかりです、明主様有難う御座います、曇り多い私でございますが、お道を知らない為に喜びも感謝もなく、毎日暗く、淋しく人生をはかなんでる人々に一日も早く教えてあげ、共々に明主様にお縋りして、幸福にこの世を送らせて頂きとう御座います。<br><br> 明主様、有難う御座いました、一生懸命させて戴きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Consequências do Afastamento da Fé</h2>
 <p>O relato de graça que se segue é de especial valia e, por isso, desejo que o apreciem com a devida profundidade. Ele constitui um exemplo irrefutável de como, mesmo após abraçar a fé, ao dela se afastar, a pessoa perde a proteção Divina e as calamidades se sucedem.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Desde então, não apenas os infortúnios cessaram, como também nosso comércio prosperou, e hoje vivemos em família, felizes e em harmonia. Minha gratidão é tamanha que as lágrimas correm, e não encontro palavras para expressá-la. “Meishu-Sama, muito obrigada!”, digo enquanto abraço meu filho, chorando copiosamente.</p>
 <p>Meishu-Sama, muito obrigada! Embora eu seja uma pessoa repleta de máculas, desejo ardentemente levar este Ensinamento àqueles que, por desconhecerem o caminho, vivem na escuridão e na tristeza, sem alegria ou gratidão, para que, juntos, possamos nos entregar a Meishu-Sama e alcançar a felicidade nesta vida.</p>
 <p>Meishu-Sama, muito obrigada. Dedicar-me-ei de corpo e alma.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実を見よ 『栄光』107号、昭和26(1951)年6月6日発行 左のお蔭話は、特に参考になるから、充分玩味して貰いたいと思う。<br/><br/>せっかく入信しても、一度信仰を離れるや、神様の御守護がなくなり、災い交々（こもごも）来るという実にいい実例である。<br/><br/>また現代医学がいかに無効果であるどころか、反って悪化させるという事実である。<br/><br/>これなども世の中の人は、全然気が付かないのであるから、患者は高い金を費いながら、苦しみ続けるばかりか、お医者さんは一生懸命治そうとして努力するのだが、結果は右のごとしとすれば、全く現代医学は根本的に誤っている事を知るであろう。<br/><br/>噫（ああ）、この蒙（もう）を啓（ひら）くには、いかにしたらよいであろうか、これが吾々の最大苦悩である。<br/><br/> 長い苦しみから救われた数々 〔病、貧の苦しみから救われた数々〕 『結核の革命的療法』昭和26(1951)年8月15日タイトル変更掲載 秋田県 十光中教会 虻川キクエ（36） 昭和二十三年十二月頃、産後に神経痛を患い、手足がしぴれたようになり、その上苦痛がひどく、歩く事さえ出来ない状態で御座いました、「若くても中風があるそうだ」という世間の噂に気を落し、人生の半ばにてこの世を終るものやと悲観しておりました、何よりもまず医者へと毎日毎日大きい子供に箱橇に乗せられて病院に通い続けました、いやな注射や薬に毎日が苦しい思いでしたが、一カ月経っても元のような体になれずとうとう劫をにやしてやめてしまいました、日頃の苦しみの晴れぬのを知人や来客に訴え色々な薬を教えられては呑んでおりましたが依然としてはっきりせず、不遇な我が身を歎いておりました。<br/><br/> ある日ふとした事から町内の信者さんに「手をふれば病気が治る」と薦められそんな馬鹿げた事があるものか、と思いましたが「もし治ったらこの上ない事」と思い入信させて頂く気になりました、三日間の教修中にある急病人が教修会場に来て奇蹟的にも良くなり喜んで感激して帰りました、又もう一人は私のような病気で足を引きづり、体全体が苦しいと言って来ましたがそれもただ数回の御浄霊によって治ってしまいました、これを見て半信半疑ながら先生のお話を聞いていた私は、益々吃驚致しました。<br/><br/>「ああこれは確かだ、これなら間違いない本当に有難い御力だ」と確信し、三日目には自信たっぷりで有難い御守様を戴きました、その後いつともなく自分の体がすっかり良くなりましたが、家でも子供達が、頭が悪いとか腹が痛いとか色々な浄化がありましたので、恥しいような気持で人目に知れぬように手を振って見ました、中には気のせいやら治ったように思われましたが、幾ら手を振っても中々その効果が見えないので家の人達に「そんな馬鹿な真似するより病院に行った方が早いからやめてくれ」とさんざん悪口や反対を言われ、それでいつともなくすっかり手を振らないようになってしまい、とうとう御守様迄もはずしてしまいました、自分達では先生方のように治せそうもないと諦め、御守様を仏様に上げてお詫びして置きました。<br/><br/>明けて二十四年の三月二十五日の夜中一時に突然火事に逢い、五軒たちまちのうちに焼けてしまいました。<br/><br/> 私の家はその中の一軒で土台だけが残ってあとはすっかり焼けてしまいました。<br/><br/>早速近親や知人達のお世話でようやく家が建てられ、どうにか寝起して参りましたが益々貧苦に悩まされるばかりでした、家の職業は自転車業なので冬になるとすっかり客足が絶えて、まるっきり収入の道がなくなるのでした、でもどうにか過して来ましたが、春の商売の仕入れの為借金をしたり、無尽を取ったりしてかれこれ十七万円位仕入れました。<br/><br/>その年の七月不幸にも又夜泥棒に入いられて新車二台が盗まれてしまいました、新車一台が一万八千円もする時で、二台で三万六千円というものが盗られましたので、なんとも言えぬ憎らしさ、悲しさで胸が一杯で御座いました、それでも毎日の来客にこのような不幸を言って、客が絶えては大変だと思って表面にはなんの辛さも見せず元気をつけておりました、また同じように十月の夜新車一台盗まれてしまいました、何ということでしょう、千円か二千円で仕入れられる事でなく、何万という金高全く残念で堪りませんでした、また同じように苦しい冬を過ごしている中に、明けて二十五年の二月主人の弟がソ領から帰って間もなく結核で病院に入院してしまいました、いつ治るものやら見通しのつかない程の病人であります、入院して一カ年近くになりますがまだ入院しております、その入院治療費が十万円以上にもなります、同年五月今度は私の子供五女が急に脳膜炎に掛りもうすっかり落胆してしまいました。<br/><br/>五女が亡くなってまもなく今度は六男がなんだか熱が高く咳もするようなので、余りの心配に医者に見て貰いましたら、小児結核と言われ、もう腰が抜ける程がっかりしてしまいました、医者から早速入院するようにと言われましたが、もうどこをはたいても金がないので入院せずに、なんとか自宅で治療する事が出来ないだろうかとお願い致しましたら「それじゃ、ストレプトマイシンを十本位注射すると子供だから早く治るだろう」と言われました、医者の言う通りマイシンを注射してもらう事になりましたが、夢中になって泣く子供のお尻に看護婦三人でおさえつけて無理矢理に注射するので御座いました、余りのいたいたしさに私も共に泣いてしまいました。<br/><br/> 毎日このように注射されては可哀相だが、この可愛いい子供をどうにかして助けて貰いたいばっかりと、心を鬼にして毎日通いました、一本のマイシンを大人なら一日にやりますが、子供だから一本を三日に分けてやりました、マイシン一本千百円です、あらゆる生活費を切りつめて、一カ月の間に十本注射してもらいましたが、よくなるどころか日増に悪くなるばかりで御座いました、又医者に相談しましたところ「もう四十本もやったら、良くなるだろう」との事で、主人とも相談して見ますと急いで帰りました、医者の言う通り主人に話しましたが、主人も暗い顔で何とも言いませんでした、もう親たる私から思い切ってこの子供が亡くなってもいいから、これで止めます、これから四十本もマイシンをやってかれこれ、五万円は掛るだろうがそれでも良くならない時は要らぬ金を投げるばかりだ、主人の弟も、まだ入院して数十万の金を費しているし五女にもかけたし、これ以上は、借金の背負倒れになってしまうばかりだ、「どうせ私は、子供に運がないのだ」と諦めて気を益々強く持ったのでした、医者をやめて一週間ばかり経ったある日、町内の入信者で前に奨めてくれた人が、私の家に来て「あなたはあの有難い御守様をどうしておりますか、きっと投げっぱなしでしょう、だから色々な不幸が、次から次へと続くんだよ、もう一度思い直してこの道へ入られたらどうです」と色々有難いお蔭話を話して下さいました、それで今迄の一切の悪事をあやまりお詫びして再びこのお道に縋らせて頂く事になりました。<br/><br/>早速熱の四十度もある子供を連れて教会の鈴木先生のところに参りました。<br/><br/> そして一切の悪事をあやまり、大光明如来様にお詫びして、毎日の御熱心な御浄霊を戴きました、二十日も経たぬうちに、もうすっかり元気にさせて頂きました、何とも言われぬ有難い御力に、この可愛い子供が助けられたのです、私も新たに御守様を頂いてもらいました、御屏風観音様も御奉斎させて頂き、仏壇もすっかり直して、お祭りさせて戴きましたら、その後はなんの不幸もないばかりか、御守様を頂いて商売も繁昌し、一家笑って毎日楽しく暮らさせて頂いております。<br/><br/>有難さにただただ感泣し、御礼の言葉も知らない位です、「明主様有難う御座います」と我が子を抱いては、おいおいと泣けてくるばかりです、明主様有難う御座います、曇り多い私でございますが、お道を知らない為に喜びも感謝もなく、毎日暗く、淋しく人生をはかなんでる人々に一日も早く教えてあげ、共々に明主様にお縋りして、幸福にこの世を送らせて頂きとう御座います。<br/><br/> 明主様、有難う御座いました、一生懸命させて戴きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qudega</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 腕が岩の下敷御浄霊で忽ち抜ける 『光』23号、昭和24(1949)年8月20日発行 長崎県 光宝大教会 田中嘉三郎（57） 昭和二十四年五月六日、私が佐世保区内の西泊町と木鉢町との間を通るトンネル工事の責任者として工事中の出来事であります。<br><br> 午前十一時ごろ突然現場に騒がしい人声、ハッとして駈けつけてみると工夫尾坂が枠入作業中、頭上の土砂が崩れて右腕をスッポリ埋めてしまっている。<br><br>その上に落ちて来た岩は直径一尺五寸くらいもあって、腕は押しつけられたまま、どうしても抜けません。<br><br>重さはかかり、苦しみは増すばかり、皆は鶴嘴で掘り出そうと試みるが一向にききめはない、腕を切るか腐らすか、生命にもかかわるかも知れない。<br><br>その時、ハッと電光のように頭に閃いたのは光明如来様の御光のことなのであります。<br><br>そうだお縋りしてお願いさして頂きましょうと合掌して光明如来様にお願いし、今は人力をもっていかんとも出来ない大岩に向って敢然と掌を翳し地軸にまでも通れとお光を透させて頂きました。<br><br> 約二十分間くらいも御浄霊させて頂いた頃でしよう。<br><br>さしもビクともしなかった腕がヒョイと抜けました。<br><br>本人は最早夢中ですが、私はこれをみて驚きと喜びで胸一ぱいになりました。<br><br>念被観音力とは全くこの事でございましょう。<br><br>しかも引抜いた腕には怪我一つありません。<br><br>ただ圧迫されていたため手頸の所から「く」の字なりに曲って冷くなっています。<br><br>皆の者はそれ医者を呼べ、連れて行けのと騒ぎますが、私は「いや大丈夫、わしに任せろ」と現場から三百米くらい離れた事務所に連れて行き約一時間ばかり御浄霊させて頂きました。<br><br>冷えきった腕は次第に温かくなり、曲っていたのが伸び手頸が自由に動くようになったのです。<br><br>そして痛みもなく、普通の状態にかえりました。<br><br>午後は平常と同様に仕事をやり翌日も何ともありません。<br><br> お光の事を知らない人はただ運がよかった、奇蹟的に助かった、というだけで無関心のうちに救われる機会を自ら逃がしているようであります。<br><br>私のごときものですら光明如来様の御用にお使い頂けるかと思う時、天が下何事が起ろうとも光明如来様におすがりしておれば大丈夫という確信が出来、今にして初めて自分は光明如来様の大船に乗せて頂いていたと知り今までの私の報恩感謝の足らなかった事を恥ずかしく思うと共に、この地上天国建設運動に馳せ参じさせて頂かねば申訳ないと深く決意致しました。<br><br> （昭和二十四年八月二十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Braço preso sob uma rocha é liberado instantaneamente com Johrei</h2>
 <p><em>Publicado na revista ‘Hikari’ nº 23, em 20 de agosto de 1949</em></p>
@@ -98,5 +253,48 @@ function toggleLang(lang) {
 <p>Transcorridos aproximadamente vinte minutos de ministração de Johrei, o braço, que antes se encontrava irremediavelmente preso, desprendeu-se com surpreendente facilidade. O operário, em estado de choque, mal se dava conta do ocorrido, mas meu coração transbordou de assombro e júbilo. Isto é, verdadeiramente, a manifestação do que se conhece por Nenpi Kannon Riki (念被観音力). Ademais, o braço resgatado não apresentava um único ferimento. Contudo, devido à forte compressão, encontrava-se dobrado em um ângulo agudo a partir do pulso e estava completamente gelado.</p>
 <p>Os presentes, em alvoroço, clamavam para que chamássemos um médico ou o levássemos a um hospital. Eu, porém, os tranquilizei, dizendo: "Não se preocupem, podem deixar comigo". Conduzi-o ao nosso escritório, a cerca de trezentos metros do local, e ali ministrei-lhe Johrei por cerca de uma hora. Gradualmente, o braço gelado foi recuperando o calor, a curvatura se desfez e o pulso readquiriu sua mobilidade. A dor cessou por completo e o membro retornou ao seu estado normal. Naquela mesma tarde, ele pôde retomar suas atividades como de costume e, no dia seguinte, não apresentava qualquer sequela.</p>
 <p>Aqueles que desconhecem a Luz Divina atribuem tais acontecimentos à mera sorte ou a um milagre fortuito e, assim, por indiferença, perdem a oportunidade de serem salvos. Ao refletir sobre como até mesmo uma pessoa insignificante como eu pode ser utilizada a serviço de Meishu-Sama, consolida-se em mim a convicção de que, sob Sua proteção, estaremos seguros independentemente do que ocorra neste mundo. Somente agora compreendo que sempre estive a bordo da grande embarcação de Meishu-Sama, e sinto-me envergonhado por minha até então insuficiente gratidão. Ao mesmo tempo, fortaleço minha determinação de que seria imperdoável não me devotar de corpo e alma a este sagrado Movimento de Construção do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 腕が岩の下敷御浄霊で忽ち抜ける 『光』23号、昭和24(1949)年8月20日発行 長崎県 光宝大教会 田中嘉三郎（57） 昭和二十四年五月六日、私が佐世保区内の西泊町と木鉢町との間を通るトンネル工事の責任者として工事中の出来事であります。<br/><br/> 午前十一時ごろ突然現場に騒がしい人声、ハッとして駈けつけてみると工夫尾坂が枠入作業中、頭上の土砂が崩れて右腕をスッポリ埋めてしまっている。<br/><br/>その上に落ちて来た岩は直径一尺五寸くらいもあって、腕は押しつけられたまま、どうしても抜けません。<br/><br/>重さはかかり、苦しみは増すばかり、皆は鶴嘴で掘り出そうと試みるが一向にききめはない、腕を切るか腐らすか、生命にもかかわるかも知れない。<br/><br/>その時、ハッと電光のように頭に閃いたのは光明如来様の御光のことなのであります。<br/><br/>そうだお縋りしてお願いさして頂きましょうと合掌して光明如来様にお願いし、今は人力をもっていかんとも出来ない大岩に向って敢然と掌を翳し地軸にまでも通れとお光を透させて頂きました。<br/><br/> 約二十分間くらいも御浄霊させて頂いた頃でしよう。<br/><br/>さしもビクともしなかった腕がヒョイと抜けました。<br/><br/>本人は最早夢中ですが、私はこれをみて驚きと喜びで胸一ぱいになりました。<br/><br/>念被観音力とは全くこの事でございましょう。<br/><br/>しかも引抜いた腕には怪我一つありません。<br/><br/>ただ圧迫されていたため手頸の所から「く」の字なりに曲って冷くなっています。<br/><br/>皆の者はそれ医者を呼べ、連れて行けのと騒ぎますが、私は「いや大丈夫、わしに任せろ」と現場から三百米くらい離れた事務所に連れて行き約一時間ばかり御浄霊させて頂きました。<br/><br/>冷えきった腕は次第に温かくなり、曲っていたのが伸び手頸が自由に動くようになったのです。<br/><br/>そして痛みもなく、普通の状態にかえりました。<br/><br/>午後は平常と同様に仕事をやり翌日も何ともありません。<br/><br/> お光の事を知らない人はただ運がよかった、奇蹟的に助かった、というだけで無関心のうちに救われる機会を自ら逃がしているようであります。<br/><br/>私のごときものですら光明如来様の御用にお使い頂けるかと思う時、天が下何事が起ろうとも光明如来様におすがりしておれば大丈夫という確信が出来、今にして初めて自分は光明如来様の大船に乗せて頂いていたと知り今までの私の報恩感謝の足らなかった事を恥ずかしく思うと共に、この地上天国建設運動に馳せ参じさせて頂かねば申訳ないと深く決意致しました。<br/><br/> （昭和二十四年八月二十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

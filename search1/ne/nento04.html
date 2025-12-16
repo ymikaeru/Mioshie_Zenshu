@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nento04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 年頭の辞 『栄光』241号、昭和29(1954)年1月1日発行 年頭の辞といえば、いつもお定りのような事をかく事になっているので、余り張合がないが、今年は今までと異（ちが）って大いに張合があるので、書きながらペンもはずむという訳である。<br><br>知らるる通り本教も散花結実満三年を閲（けみ）した今日、大分実も育ったようである。<br><br>というのはまず第一、熱海地上天国中の王者である晴々台上のメシヤ会館も、いよいよ今秋出来上る事となったからで、それと共に、展望台上の水晶殿も同時に出来上るはずである。<br><br>また美術館も一年後れて来年中には出来上る予定であるから、熱海地上天国の完成も大分間近になったのである。<br><br> ところが会館と水晶殿の二つが出来上っただけでもその偉観たるや見る者をして目をそばだてずにはおかないであろう。<br><br>何しろ両方とも日本はおろか外国にも例のない新しい様式の建築であり、それらを取囲む庭園にしても、緑の樹々、色とりどりの花卉等、絢爛たるパラダイス的装いを凝らし、遠く伊豆の海山から三浦半島、房総までの景観を一望に収めるとしたら、恐らく世界に類のない、地上天国の名に背かぬ一大芸術郷が出現するからである。<br><br>そうなった暁、日本の名所というよりも、世界の名所といっても敢（あ）えて言い過ぎではあるまい。<br><br>過般参観した米新聞記者も、激賞と共に、そのように言われたにみても明らかである。<br><br> また美術館はその大きさといい、設備といいすべてが箱根以上の素晴しさであるから、これが錦上花を添え、必ずや世界の話題となるのは、今から期待し得らるるのである。<br><br>それはとにかく、今年から布哇（ハワイ）及びアメリカ方面における本教発展は目覚しきものがあろう。<br><br>もちろん内地においても本教の主眼である神霊医学、自然農法等も漸次一般の注目を引くようになると共に、近き将来世界各国にも共鳴者続出する事となろう。<br><br>以上のごとく神様のプログラムは益々佳境に入る以上、信者諸君もその心構えを以って勇躍されん事である。<br><br>以上本年の抱負をザッとかいてみたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Mensagem de Ano-Novo</h2>
 <p>As mensagens de Ano-Novo costumam seguir um roteiro previsível, o que, de certa forma, lhes subtrai o entusiasmo. Este ano, todavia, a situação é marcadamente distinta, e sinto um vigor tão grande que as palavras fluem com naturalidade pela pena.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Ademais, o Museu de Arte, que em suas dimensões e instalações superará o de Hakone, virá para coroar essa obra. Podemos antever, desde já, que ele se tornará, sem dúvida, um tema de admiração em todo o mundo.</p>
 <p>Para além dessas magníficas obras, o ano que se inicia marcará um avanço notável na expansão de nossa Igreja no Havaí e nos Estados Unidos. Evidentemente, aqui no Japão, os pilares de nossos ensinamentos, como a Medicina Espiritual Divina e a Agricultura Natural, atrairão gradualmente a atenção da sociedade, e, em um futuro próximo, veremos surgir, em número crescente, simpatizantes em diversas nações do mundo.</p>
 <p>Portanto, uma vez que o Plano de Deus adentra uma fase cada vez mais sublime, é imperativo que os senhores, fiéis, preparem seus corações e avancem com renovado vigor. Estas foram, em linhas gerais, as aspirações que nutro para o ano que se inicia.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 年頭の辞 『栄光』241号、昭和29(1954)年1月1日発行 年頭の辞といえば、いつもお定りのような事をかく事になっているので、余り張合がないが、今年は今までと異（ちが）って大いに張合があるので、書きながらペンもはずむという訳である。<br/><br/>知らるる通り本教も散花結実満三年を閲（けみ）した今日、大分実も育ったようである。<br/><br/>というのはまず第一、熱海地上天国中の王者である晴々台上のメシヤ会館も、いよいよ今秋出来上る事となったからで、それと共に、展望台上の水晶殿も同時に出来上るはずである。<br/><br/>また美術館も一年後れて来年中には出来上る予定であるから、熱海地上天国の完成も大分間近になったのである。<br/><br/> ところが会館と水晶殿の二つが出来上っただけでもその偉観たるや見る者をして目をそばだてずにはおかないであろう。<br/><br/>何しろ両方とも日本はおろか外国にも例のない新しい様式の建築であり、それらを取囲む庭園にしても、緑の樹々、色とりどりの花卉等、絢爛たるパラダイス的装いを凝らし、遠く伊豆の海山から三浦半島、房総までの景観を一望に収めるとしたら、恐らく世界に類のない、地上天国の名に背かぬ一大芸術郷が出現するからである。<br/><br/>そうなった暁、日本の名所というよりも、世界の名所といっても敢（あ）えて言い過ぎではあるまい。<br/><br/>過般参観した米新聞記者も、激賞と共に、そのように言われたにみても明らかである。<br/><br/> また美術館はその大きさといい、設備といいすべてが箱根以上の素晴しさであるから、これが錦上花を添え、必ずや世界の話題となるのは、今から期待し得らるるのである。<br/><br/>それはとにかく、今年から布哇（ハワイ）及びアメリカ方面における本教発展は目覚しきものがあろう。<br/><br/>もちろん内地においても本教の主眼である神霊医学、自然農法等も漸次一般の注目を引くようになると共に、近き将来世界各国にも共鳴者続出する事となろう。<br/><br/>以上のごとく神様のプログラムは益々佳境に入る以上、信者諸君もその心構えを以って勇躍されん事である。<br/><br/>以上本年の抱負をザッとかいてみたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

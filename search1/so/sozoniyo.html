@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sozoniyo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 想像による批判 『光』8号、昭和24(1949)年5月8日発行 本教に対し、新聞雑誌が種々の批判的記事を掲げているが、そのほとんどは迷信邪教的に扱っているのは読者の知るところである、ところが彼らはほとんど調査などは行っていない、世間の風聞を本（もと）とした想像的産物であるからたまらない、考えてみれば実に無責任な話である、新聞は事実を報道するなどというのは宗教方面にはあまり通用されていない、なるほど宗教の本質は眼に見えざる空に等しきものであるから、どうにでも想像がしやすいからでもあるが、これらはもっとまじめに責任を感じて、出来る限りの調査検討をなすべきであろう、新宗教必ずしも迷信ばかりではあるまい、中には真に社会大衆に稗益（ひえき）すべきものも必ずあるべきはずである、これら無責任のため多くの不幸に喘ぎつつある人達が救われ損なうという事実も相当あり得るはずである、とすればその罪は不真面目な新聞記事にあるのはもちろんである。<br><br> ここに関して今日実に馬鹿馬鹿しい事は一方で人心悪化を憂え、これを救うのは宗教でなければならないと言いながら、一方では迷信邪教を撲滅すべしというのであるから、こんな矛盾した話はない、こう考えてくると、彼らの論旨は宗教といえば古い既成宗教だけを目標としている事である、ところが既成宗教は御承知の通り日本には山程あって、何百年も前から遺憾なく救霊に努力しつつあるにかかわらず今日のごとき悪世相となるのを防止出来なかったのであるから既成宗教の力では社会悪を防ぎ得ないという試験済のはずである。<br><br> 右によって考うれば、どうしても既成宗教以外に求むるより外はないではないか、ところが前述のごとく新聞人や当局は既成宗教以上のものはないと決めてしまって、新しいものには最初から色眼鏡で見るのであるから、その誤謬に目覚めない限り、人心善化などは思いもよらないのである、この意味において吾らは左のごとき方法を提言する、それは新宗教の中あまり小さいのは未知数としてそのままに置き、ある程度頭角を表わしたものをよく調査検討し、その中の優秀なものを選抜し、大いに援助を与えるべきである。<br><br> それ以外人心悪化を防止する最善の方法はない事を断言するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Críticas Imaginárias</h2>
 <p>Jornais e revistas publicam diversas críticas à nossa Igreja e, como sabem os leitores, a maioria nos trata como uma superstição ou religião maligna. Ocorre que seus autores raramente realizam qualquer investigação. Suas matérias são um produto da imaginação, fundamentadas em boatos populares, o que é inadmissível. Refletindo a respeito, percebemos a imensa irresponsabilidade de tais atos. A premissa de que a imprensa noticia os fatos parece não se aplicar ao campo da religião. É verdade que a essência da religião, por ser invisível e intangível como o vazio, presta-se facilmente a especulações. Ainda assim, esses jornalistas deveriam agir com mais seriedade e senso de responsabilidade, empenhando-se ao máximo em investigar e examinar os fatos. Afinal, nem todas as novas religiões são meras superstições; entre elas, certamente existem aquelas capazes de trazer genuínos benefícios à sociedade. É preciso considerar que, por causa dessa atitude irresponsável, inúmeras pessoas que anseiam por alívio para seus sofrimentos deixam de ser salvas. Nesse caso, a culpa recai, evidentemente, sobre a insinceridade de tais artigos jornalísticos.</p>
 <p>Nesse contexto, deparamo-nos com uma contradição verdadeiramente absurda. Por um lado, lamenta-se a degradação moral das pessoas e afirma-se que apenas a religião pode salvá-las; por outro, clama-se pela erradicação das superstições e religiões malignas. Não há nada mais contraditório. Analisando essa postura, fica evidente que, para tais críticos, o termo "religião" refere-se unicamente às antigas e já estabelecidas. No entanto, como é de conhecimento geral, as religiões estabelecidas existem em profusão no Japão. Apesar de seus incansáveis esforços para salvar almas ao longo de centenas de anos, elas não foram capazes de impedir a deterioração social que presenciamos hoje. Isso demonstra, de forma conclusiva, que a força dessas religiões tradicionais é insuficiente para conter os males da sociedade.</p>
 <p>Diante do exposto, não seria lógico concluir que a solução deve ser buscada fora das religiões tradicionais? Contudo, como mencionei, os jornalistas e as autoridades já decretaram que nada supera as religiões estabelecidas, observando qualquer movimento novo com preconceito desde o início. Enquanto não despertarem para esse equívoco, a almejada melhora do coração humano permanecerá inalcançável. Nesse sentido, propomos o seguinte método: as novas religiões de pequena expressão devem, por ora, ser deixadas em observação, como incógnitas. Aquelas, porém, que já demonstram certa proeminência devem ser minuciosamente investigadas e avaliadas. Feito isso, as mais notáveis dentre elas deveriam ser selecionadas para receber amplo apoio e assistência.</p>
 <p>Afirmo categoricamente que não existe método mais eficaz para conter a crescente degradação moral da humanidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 想像による批判 『光』8号、昭和24(1949)年5月8日発行 本教に対し、新聞雑誌が種々の批判的記事を掲げているが、そのほとんどは迷信邪教的に扱っているのは読者の知るところである、ところが彼らはほとんど調査などは行っていない、世間の風聞を本（もと）とした想像的産物であるからたまらない、考えてみれば実に無責任な話である、新聞は事実を報道するなどというのは宗教方面にはあまり通用されていない、なるほど宗教の本質は眼に見えざる空に等しきものであるから、どうにでも想像がしやすいからでもあるが、これらはもっとまじめに責任を感じて、出来る限りの調査検討をなすべきであろう、新宗教必ずしも迷信ばかりではあるまい、中には真に社会大衆に稗益（ひえき）すべきものも必ずあるべきはずである、これら無責任のため多くの不幸に喘ぎつつある人達が救われ損なうという事実も相当あり得るはずである、とすればその罪は不真面目な新聞記事にあるのはもちろんである。<br/><br/> ここに関して今日実に馬鹿馬鹿しい事は一方で人心悪化を憂え、これを救うのは宗教でなければならないと言いながら、一方では迷信邪教を撲滅すべしというのであるから、こんな矛盾した話はない、こう考えてくると、彼らの論旨は宗教といえば古い既成宗教だけを目標としている事である、ところが既成宗教は御承知の通り日本には山程あって、何百年も前から遺憾なく救霊に努力しつつあるにかかわらず今日のごとき悪世相となるのを防止出来なかったのであるから既成宗教の力では社会悪を防ぎ得ないという試験済のはずである。<br/><br/> 右によって考うれば、どうしても既成宗教以外に求むるより外はないではないか、ところが前述のごとく新聞人や当局は既成宗教以上のものはないと決めてしまって、新しいものには最初から色眼鏡で見るのであるから、その誤謬に目覚めない限り、人心善化などは思いもよらないのである、この意味において吾らは左のごとき方法を提言する、それは新宗教の中あまり小さいのは未知数としてそのままに置き、ある程度頭角を表わしたものをよく調査検討し、その中の優秀なものを選抜し、大いに援助を与えるべきである。<br/><br/> それ以外人心悪化を防止する最善の方法はない事を断言するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

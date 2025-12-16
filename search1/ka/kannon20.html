@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon20</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音様と阿弥陀様 『光明世界』4号、昭和10(1935)年7月25日発行 満州においては紅卍（こうまんじ）というのがあります。<br><br>紅卍とは紅い卍であります。<br><br>又独逸のナチスは赤い旗に白く丸があり、その中へ黒［逆卍］になっております。<br><br>観音会は金［逆卍］であります。<br><br>観音様は、黄金仏であるからであります。<br><br>観音様を守護されている龍神様もまた金なんであります。<br><br>何故にみんな金であるかと申しますと、つまり日本の仏様であるからであります。<br><br>日本の仏様というと仏様の本場は印度ではないかとどなたも思われるでしょう。<br><br>なる程、仏様の出たのは印度であります。<br><br>しかし、外の仏様は印度から出たんでありますが、観音様だけは日本から印度へ渡られたんであります。<br><br>阿弥陀様とお釈迦様とは日本の仏様じゃないのであります。<br><br>それで頭の毛が縮れているんであります。<br><br>観音様はちぢれておりません。<br><br>よく仏像等で古いのになると一寸見るとお釈迦様か観音様か区別の分らないのがありますが、頭の毛を見れば判るんであります。<br><br>阿弥陀様は西方浄土と言いまして、西の方へ浄土を造られたんでお釈迦様の時代には法蔵菩薩にお生れになって、お釈迦様に対し、「衆生が救われ、そして仏になったら皆自分の方へよこす様、私はこれから西方へ浄土を造り、安住させる」という事を約束されたんであります。<br><br>事実、お釈迦様の時代に、印度の西方にそういう所を造り、法蔵菩薩昇天後は霊界に西方浄土が出来たんであります。<br><br> 次に素盞嗚命（すさのをのみこと）という神様がありますが、この素盞嗚命と朝鮮の国と猶太（ユダヤ）と阿弥陀様という事も密接な関係があるのでありますが、これは先へ行って詳しくお話する積りであります。<br><br> 日本で、観音様の祭ってある所には必ずその付近に大仏様があります。<br><br>大仏さんは阿弥陀さんであります。<br><br>これは日本と外国、夫と妻という事になります。<br><br>京都の清水の観音様に対して、奈良の大仏様があり、阿弥陀様と観音様の場合は、阿弥陀様が霊は女で体が男になられ、観音様は霊が男で体が女になられるんであります。<br><br>そしてそういう場合には必ず、観音様は内へ祭ってありまして、阿弥陀様は外へ雨曝（ざら）しに祭ってあるんであります。<br><br>観音様が内におられるという事は、内地とか内国という意味になるんで、位は観音様の方が上ですから、内におられるのであります。<br><br>阿弥陀様が外におられるという事は、外地とか外国とか言う事で、つまり、日本以外においてお働きになっていられる仏様という意味になります。<br><br>又西方阿弥陀如来、東方観世音菩薩とも言われております。<br><br> 上野にも清水観音様があって、傍にやはり大仏様があります。<br><br>又浅草の観音様の傍にも大仏様があります。<br><br>浅草は、特別の場所でありまして、観音堂はとても大きくて、大仏様は又、馬鹿に小さいんでありますが、これも大変な意味があるのであります。<br><br>浅草の観音様は、東京中を御守護されているんでありまして、東京が今日の様に発達したのは無論陛下の大御稜威（おおみいづ）に依る事でありますが、又浅草の観音様の霊的のお力にも依るので、昔は田舎から東京へ来る者は何より彼よりまず第一番に、この浅草の観音様へ詣ったものであります。<br><br> 鎌倉にも、長谷の観音様があるのに対し、矢張り、あの大仏様があります。<br><br>そして、観音様は、黄金で作られ、阿弥陀様は唐金（からがね）であります。<br><br>これも面白いと思うので黄金は日本の金で、唐金はカラ金即ち外国の金という事になります。<br><br> こういう具合に、日本においては、どこにも御夫婦の型が出してあります。<br><br>先刻の御讃歌にありました様に、本来言うと観音様は太陽の光で、阿弥陀様は月の光になるんでありますから、阿弥陀さんが日本へ来、阿弥陀様の教が入ったという事はやはり、西方文明が、日本へ入った宗教的第一歩であったのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Relação entre Kannon e Amida</h2>
 <p>Na Manchúria, existe uma organização conhecida como Kōmanji (紅卍), cujo emblema é a suástica vermelha. De modo análogo, a bandeira nazista da Alemanha exibe uma suástica negra sobre um círculo branco em fundo vermelho. O emblema da nossa Kannon-kai, por sua vez, é a suástica dourada. A razão para tal escolha reside no fato de Kannon (観音) ser um Buda de ouro, e até mesmo o Deus Dragão que o protege é igualmente dourado.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Este padrão se repete em diversos lugares. Em Ueno, próximo ao Templo Kiyomizu Kannon, também existe um Grande Buda. O mesmo ocorre em Asakusa, que é um local de especial significado. Ali, o pavilhão de Kannon é imponente, enquanto a estátua do Grande Buda é surpreendentemente pequena, fato que encerra um profundo simbolismo. A Kannon de Asakusa é a protetora de toda a cidade de Tóquio. Embora o desenvolvimento da capital se deva, evidentemente, à augusta virtude de Sua Majestade, o Imperador, ele também é fruto do poder espiritual de Kannon de Asakusa. Antigamente, era costume que todos que vinham do interior para Tóquio fizessem, antes de qualquer outra coisa, sua primeira peregrinação a este templo.</p>
 <p>Em Kamakura, a mesma dualidade se manifesta: em contraposição à Kannon do Templo Hase-dera, ergue-se o famoso Grande Buda. É interessante notar também a simbologia dos materiais utilizados: as estátuas de Kannon são feitas de ouro, enquanto as de Amida são de bronze, ou <em>karagane</em> (唐金). A própria palavra elucida o significado, pois "ouro" representa o metal do Japão, ao passo que <em>karagane</em> pode ser interpretado como <em>kara-kane</em>, ou seja, o metal "estrangeiro".</p>
 <p>Dessa forma, percebe-se que, em todo o Japão, o modelo da união conjugal se faz presente na disposição dessas deidades. Conforme mencionei anteriormente em um salmo, em sua essência, Kannon representa a luz do Sol, e Amida, a luz da Lua. Portanto, a chegada de Amida e de seus ensinamentos ao Japão pode ser compreendida como o primeiro passo, no âmbito religioso, para a introdução da civilização ocidental em nosso país.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音様と阿弥陀様 『光明世界』4号、昭和10(1935)年7月25日発行 満州においては紅卍（こうまんじ）というのがあります。<br/><br/>紅卍とは紅い卍であります。<br/><br/>又独逸のナチスは赤い旗に白く丸があり、その中へ黒［逆卍］になっております。<br/><br/>観音会は金［逆卍］であります。<br/><br/>観音様は、黄金仏であるからであります。<br/><br/>観音様を守護されている龍神様もまた金なんであります。<br/><br/>何故にみんな金であるかと申しますと、つまり日本の仏様であるからであります。<br/><br/>日本の仏様というと仏様の本場は印度ではないかとどなたも思われるでしょう。<br/><br/>なる程、仏様の出たのは印度であります。<br/><br/>しかし、外の仏様は印度から出たんでありますが、観音様だけは日本から印度へ渡られたんであります。<br/><br/>阿弥陀様とお釈迦様とは日本の仏様じゃないのであります。<br/><br/>それで頭の毛が縮れているんであります。<br/><br/>観音様はちぢれておりません。<br/><br/>よく仏像等で古いのになると一寸見るとお釈迦様か観音様か区別の分らないのがありますが、頭の毛を見れば判るんであります。<br/><br/>阿弥陀様は西方浄土と言いまして、西の方へ浄土を造られたんでお釈迦様の時代には法蔵菩薩にお生れになって、お釈迦様に対し、「衆生が救われ、そして仏になったら皆自分の方へよこす様、私はこれから西方へ浄土を造り、安住させる」という事を約束されたんであります。<br/><br/>事実、お釈迦様の時代に、印度の西方にそういう所を造り、法蔵菩薩昇天後は霊界に西方浄土が出来たんであります。<br/><br/> 次に素盞嗚命（すさのをのみこと）という神様がありますが、この素盞嗚命と朝鮮の国と猶太（ユダヤ）と阿弥陀様という事も密接な関係があるのでありますが、これは先へ行って詳しくお話する積りであります。<br/><br/> 日本で、観音様の祭ってある所には必ずその付近に大仏様があります。<br/><br/>大仏さんは阿弥陀さんであります。<br/><br/>これは日本と外国、夫と妻という事になります。<br/><br/>京都の清水の観音様に対して、奈良の大仏様があり、阿弥陀様と観音様の場合は、阿弥陀様が霊は女で体が男になられ、観音様は霊が男で体が女になられるんであります。<br/><br/>そしてそういう場合には必ず、観音様は内へ祭ってありまして、阿弥陀様は外へ雨曝（ざら）しに祭ってあるんであります。<br/><br/>観音様が内におられるという事は、内地とか内国という意味になるんで、位は観音様の方が上ですから、内におられるのであります。<br/><br/>阿弥陀様が外におられるという事は、外地とか外国とか言う事で、つまり、日本以外においてお働きになっていられる仏様という意味になります。<br/><br/>又西方阿弥陀如来、東方観世音菩薩とも言われております。<br/><br/> 上野にも清水観音様があって、傍にやはり大仏様があります。<br/><br/>又浅草の観音様の傍にも大仏様があります。<br/><br/>浅草は、特別の場所でありまして、観音堂はとても大きくて、大仏様は又、馬鹿に小さいんでありますが、これも大変な意味があるのであります。<br/><br/>浅草の観音様は、東京中を御守護されているんでありまして、東京が今日の様に発達したのは無論陛下の大御稜威（おおみいづ）に依る事でありますが、又浅草の観音様の霊的のお力にも依るので、昔は田舎から東京へ来る者は何より彼よりまず第一番に、この浅草の観音様へ詣ったものであります。<br/><br/> 鎌倉にも、長谷の観音様があるのに対し、矢張り、あの大仏様があります。<br/><br/>そして、観音様は、黄金で作られ、阿弥陀様は唐金（からがね）であります。<br/><br/>これも面白いと思うので黄金は日本の金で、唐金はカラ金即ち外国の金という事になります。<br/><br/> こういう具合に、日本においては、どこにも御夫婦の型が出してあります。<br/><br/>先刻の御讃歌にありました様に、本来言うと観音様は太陽の光で、阿弥陀様は月の光になるんでありますから、阿弥陀さんが日本へ来、阿弥陀様の教が入ったという事はやはり、西方文明が、日本へ入った宗教的第一歩であったのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

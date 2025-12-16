@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis3015</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ２ 015-025 地縛・無縁 015 地縛の霊の供養 踏切などで自殺した地縛の霊を石地蔵などを立てて供養し、後難を除去する等の事を致しますが、この場合地縛の霊が人の供養を受けられるもので御座いましょうか。<br><br> 地縛の霊など人の供養がなければ浮かばれぬ。<br><br>早く救われるよう遺族がよほど供養してやる。<br><br>するとその期間が短縮される。<br><br>地蔵に祀られると霊界における向上が早い。<br><br>地蔵に憑依して善い事をする事になる。<br><br>だから大変善い事である。<br><br> 地縛の霊には祝詞がよい。<br><br>大先生などすぐイキナリそこへお座りになる、すると御光により救われる。<br><br> 016 地縛霊の供養法 地縛の霊がいる現場は、度々同様の事故が起りますが、事故防止をするため供養を致したいと思いますが、供養の方法につき御開示を御願い申し上げます。<br><br> そこで祝詞を奏げてやる。<br><br>事故があった中心へ行って祝詞を上げてやる。<br><br>大先生などそこへ行かれるだけですぐに救われる。<br><br>三回も奏げてやればいい。<br><br>（S24. 5.11） 017 地縛霊の祀り 地縛した霊を救うにはいかにしたらよいでしょうか。<br><br>祭るには仏壇でよろしいでしょうか。<br><br> 祀ってもすぐに仏壇へ入れぬ。<br><br>必ず仏壇へ入るに違いないが。<br><br> 祭れば地縛期間が短縮される。<br><br> 018 無縁仏、人獣同化霊の祀 無縁仏、人獣同化霊を自宅に祭る方法を御教え願います。<br><br> 普通の祀り方でよい。<br><br>年月日、名前など判らぬなら判る程度でよい。<br><br>判る程度で坊さんに戒名つけてもらう。<br><br>そして祀ってもらう。<br><br>人獣同化霊は、やはり人間であるから、人間としての扱いでよい。<br><br>（S24. 1. 7） 019 一、鳥、兎を恐るる子 二、墓地霊の処理 一、私の子供当年五歳になりますが、二歳程度の智能しかありません。<br><br> 現在の住居は数百年の家系を有する妻の生家でありますが、過去四十年間に八人の者が次々に死し、兄弟姉妹もない妻一人のみ生残りました。<br><br>そう言う家系のためか、子供は霊的な病気があり、色々心配しております。<br><br>（先月光明如来は御祭りしました）特に変っている点を申し上げますと、少しも外に出て遊ばず、また鶏や兎を非常に恐れるのです。<br><br>私共が見えない位遠くにいる鶏でもすぐこれを知り恐いと言うて騒ぎます。<br><br> 二、また年齢等いくら教えても「お母ちゃん二つ」と申し承知しません。<br><br> 右の原因と浄霊の方法を御伺い致します。<br><br>近所の人で次のような事を言う者もあります。<br><br>この付近は昔の戦場で現在の家の下には、戦死者の白骨があり、浮ばれぬ亡霊等のため家族が次々に死んだのだ云々……。<br><br> その憑かれて死んだ者の霊が次々に家の者に訴えて来るため悪因縁が循環するのかとも思われます。<br><br> 子供の病気は右に関係がありましょうか。<br><br> 戦場の跡などで霊が残っているのはこういう事がある。<br><br>供養してやるといい。<br><br>付近に石碑を建ててもいい。<br><br>「三界万霊供養」などの石碑―あれがそういう訳である。<br><br>そういう所がなければ、自分の家の仏へ、位牌へ「三界万霊救」とか供養とか書いて、祖先より以下にして供養する。<br><br>または光明如来様をお祭りしお願いしてもよい。<br><br>両方やってもよい。<br><br> 鶏や兎の原因で死んだ霊がそれがシミ付いている。<br><br>二才位で死んだ子供の霊で、その子が母の留守に鶏とか兎に突つかれて死んだものと想像される。<br><br>鶏が突っつき、後から兎が来て突っついたのであろう。<br><br>赤ン坊が死んで執着するとそれで生れる。<br><br>今年死んで来年生れる事もある。<br><br> 020 薬師堂と無縁墓地 数十年前他人より薬師堂を渡され、その周囲に墓地あり、ただ今無縁のようになっていますが、このような件はいかがなものでしょうか。<br><br> 薬師如来は観音様の化身で、これは薬の守護をなされた。<br><br>夜の世界の間は、病気になるととかすより固める方が早かった。<br><br>そこで固める方法をとった。<br><br>観音様もその方法をとった。<br><br> 釈迦も薬草彙本というお経を説いたが、これは草根木皮をとって薬にした。<br><br> 昼間はとかすより固める方が難しい。<br><br> 無縁でも執着の強いのは龍神になって祟る。<br><br>墓を一つにまとめて祭ってやる。<br><br>善言讃詞を奏げてやると功徳になる。<br><br>これは非常に喜ぶのでそうした方が良い。<br><br>障りが別になければ祭らなくとも差支えはない。<br><br> 021 無縁の祀り 「無縁仏を祀れ」との御言葉でございますが、その方法はどのように致すべきでしょうか。<br><br>右御教示御願い申し上げます。<br><br> 仏立講などはやかましくいうが、小さい位牌を作り「諸霊位」とかいて、仏壇の隅へ祀っておく。<br><br>何か機会ある時にやればよい。<br><br>（S24. 4.13） 022 祖霊以外の霊を祀る事 子孫以外の霊魂は仏壇へ上れないでしょうか。<br><br> 先祖以外の霊でも祀ると功徳になる。<br><br>縁もゆかりもないのを祀ってもよい。<br><br>そういう場合は、その家の先祖より下位に祀る。<br><br> 023 続柄不明の仏 私の家には三代前より何かの因縁により続柄不明の他家の仏様を六体も祭ってあります。<br><br> 昨年五月光明如来様を奉斎しましたが、仏壇には未だ屏風観音様を御祭りしてありません。<br><br>この続柄不明の位牌と仏壇の正しき祭り方の御教示願います。<br><br> 非常な功徳になるから結構である。<br><br> 屏風観音様をお祭りしなくてはいけない。<br><br> 一番下座に祀る。<br><br>（S24. 7.25） 024 地獄霊の祀り 肉体と関係の無い地獄の霊が次々と憑依して来て、中には祀ってくれと言われる事が御座いますが、そのような場合、祀らなくてはならないもので御座いましょうか。<br><br>また、一旦祀ってやったらいつ迄も祀ってやらなくてはいけないもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 合同でよろしい。<br><br>（仏に祀るなら小さい位牌でよい）例えば位牌を作ってもよろしい。<br><br>「諸霊位」でよい。<br><br>書いた位牌を作って祀る。<br><br>（大変な功徳になる）（S24. 2.11） 025 既祀無縁の処理 分家と共に無縁仏の株を分ける。<br><br>無縁を一番上へ祀ってる。<br><br>これは下へ下げる。<br><br>返す要はない。<br><br>そのまま祀ってやった方がよい。<br><br> 妙光は龍神と稲荷である。<br><br> 位牌を縛ったのはいけない。<br><br>邪神である。<br><br>少し経ったら（百日位）元の御座へ帰るよう言って処分する。<br><br> 足や腕など祀ってるのがある。<br><br>（S23. 7.21）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>―― Coletânea de ensaios de Okada Jikanshi ―― Consulta aos Ensinamentos: auxílio. Consulta de materiais: Volume sobre a Veneração dos Espíritos, Terceira Parte, 2, 015-025, Espíritos Aprisionados à Terra e Espíritos sem Vínculos Familiares.</h2>
 <h2>015. O sufrágio aos espíritos aprisionados à terra</h2>
@@ -133,5 +285,48 @@ function toggleLang(lang) {
 <p>O espírito Myoko (妙光) é um Ryujin (龍神) e um Inari (稲荷).</p>
 <p>Amarrar um tablete espiritual é um ato incorreto, obra de um espírito maligno. Após um certo tempo, cerca de cem dias, diga ao espírito que retorne ao seu lugar de origem e, então, desfaça-se do objeto.</p>
 <p>Há casos de pessoas que veneram partes do corpo, como pernas e braços. (21 de julho de 1948)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ２ 015-025 地縛・無縁 015 地縛の霊の供養 踏切などで自殺した地縛の霊を石地蔵などを立てて供養し、後難を除去する等の事を致しますが、この場合地縛の霊が人の供養を受けられるもので御座いましょうか。<br/><br/> 地縛の霊など人の供養がなければ浮かばれぬ。<br/><br/>早く救われるよう遺族がよほど供養してやる。<br/><br/>するとその期間が短縮される。<br/><br/>地蔵に祀られると霊界における向上が早い。<br/><br/>地蔵に憑依して善い事をする事になる。<br/><br/>だから大変善い事である。<br/><br/> 地縛の霊には祝詞がよい。<br/><br/>大先生などすぐイキナリそこへお座りになる、すると御光により救われる。<br/><br/> 016 地縛霊の供養法 地縛の霊がいる現場は、度々同様の事故が起りますが、事故防止をするため供養を致したいと思いますが、供養の方法につき御開示を御願い申し上げます。<br/><br/> そこで祝詞を奏げてやる。<br/><br/>事故があった中心へ行って祝詞を上げてやる。<br/><br/>大先生などそこへ行かれるだけですぐに救われる。<br/><br/>三回も奏げてやればいい。<br/><br/>（S24. 5.11） 017 地縛霊の祀り 地縛した霊を救うにはいかにしたらよいでしょうか。<br/><br/>祭るには仏壇でよろしいでしょうか。<br/><br/> 祀ってもすぐに仏壇へ入れぬ。<br/><br/>必ず仏壇へ入るに違いないが。<br/><br/> 祭れば地縛期間が短縮される。<br/><br/> 018 無縁仏、人獣同化霊の祀 無縁仏、人獣同化霊を自宅に祭る方法を御教え願います。<br/><br/> 普通の祀り方でよい。<br/><br/>年月日、名前など判らぬなら判る程度でよい。<br/><br/>判る程度で坊さんに戒名つけてもらう。<br/><br/>そして祀ってもらう。<br/><br/>人獣同化霊は、やはり人間であるから、人間としての扱いでよい。<br/><br/>（S24. 1. 7） 019 一、鳥、兎を恐るる子 二、墓地霊の処理 一、私の子供当年五歳になりますが、二歳程度の智能しかありません。<br/><br/> 現在の住居は数百年の家系を有する妻の生家でありますが、過去四十年間に八人の者が次々に死し、兄弟姉妹もない妻一人のみ生残りました。<br/><br/>そう言う家系のためか、子供は霊的な病気があり、色々心配しております。<br/><br/>（先月光明如来は御祭りしました）特に変っている点を申し上げますと、少しも外に出て遊ばず、また鶏や兎を非常に恐れるのです。<br/><br/>私共が見えない位遠くにいる鶏でもすぐこれを知り恐いと言うて騒ぎます。<br/><br/> 二、また年齢等いくら教えても「お母ちゃん二つ」と申し承知しません。<br/><br/> 右の原因と浄霊の方法を御伺い致します。<br/><br/>近所の人で次のような事を言う者もあります。<br/><br/>この付近は昔の戦場で現在の家の下には、戦死者の白骨があり、浮ばれぬ亡霊等のため家族が次々に死んだのだ云々……。<br/><br/> その憑かれて死んだ者の霊が次々に家の者に訴えて来るため悪因縁が循環するのかとも思われます。<br/><br/> 子供の病気は右に関係がありましょうか。<br/><br/> 戦場の跡などで霊が残っているのはこういう事がある。<br/><br/>供養してやるといい。<br/><br/>付近に石碑を建ててもいい。<br/><br/>「三界万霊供養」などの石碑―あれがそういう訳である。<br/><br/>そういう所がなければ、自分の家の仏へ、位牌へ「三界万霊救」とか供養とか書いて、祖先より以下にして供養する。<br/><br/>または光明如来様をお祭りしお願いしてもよい。<br/><br/>両方やってもよい。<br/><br/> 鶏や兎の原因で死んだ霊がそれがシミ付いている。<br/><br/>二才位で死んだ子供の霊で、その子が母の留守に鶏とか兎に突つかれて死んだものと想像される。<br/><br/>鶏が突っつき、後から兎が来て突っついたのであろう。<br/><br/>赤ン坊が死んで執着するとそれで生れる。<br/><br/>今年死んで来年生れる事もある。<br/><br/> 020 薬師堂と無縁墓地 数十年前他人より薬師堂を渡され、その周囲に墓地あり、ただ今無縁のようになっていますが、このような件はいかがなものでしょうか。<br/><br/> 薬師如来は観音様の化身で、これは薬の守護をなされた。<br/><br/>夜の世界の間は、病気になるととかすより固める方が早かった。<br/><br/>そこで固める方法をとった。<br/><br/>観音様もその方法をとった。<br/><br/> 釈迦も薬草彙本というお経を説いたが、これは草根木皮をとって薬にした。<br/><br/> 昼間はとかすより固める方が難しい。<br/><br/> 無縁でも執着の強いのは龍神になって祟る。<br/><br/>墓を一つにまとめて祭ってやる。<br/><br/>善言讃詞を奏げてやると功徳になる。<br/><br/>これは非常に喜ぶのでそうした方が良い。<br/><br/>障りが別になければ祭らなくとも差支えはない。<br/><br/> 021 無縁の祀り 「無縁仏を祀れ」との御言葉でございますが、その方法はどのように致すべきでしょうか。<br/><br/>右御教示御願い申し上げます。<br/><br/> 仏立講などはやかましくいうが、小さい位牌を作り「諸霊位」とかいて、仏壇の隅へ祀っておく。<br/><br/>何か機会ある時にやればよい。<br/><br/>（S24. 4.13） 022 祖霊以外の霊を祀る事 子孫以外の霊魂は仏壇へ上れないでしょうか。<br/><br/> 先祖以外の霊でも祀ると功徳になる。<br/><br/>縁もゆかりもないのを祀ってもよい。<br/><br/>そういう場合は、その家の先祖より下位に祀る。<br/><br/> 023 続柄不明の仏 私の家には三代前より何かの因縁により続柄不明の他家の仏様を六体も祭ってあります。<br/><br/> 昨年五月光明如来様を奉斎しましたが、仏壇には未だ屏風観音様を御祭りしてありません。<br/><br/>この続柄不明の位牌と仏壇の正しき祭り方の御教示願います。<br/><br/> 非常な功徳になるから結構である。<br/><br/> 屏風観音様をお祭りしなくてはいけない。<br/><br/> 一番下座に祀る。<br/><br/>（S24. 7.25） 024 地獄霊の祀り 肉体と関係の無い地獄の霊が次々と憑依して来て、中には祀ってくれと言われる事が御座いますが、そのような場合、祀らなくてはならないもので御座いましょうか。<br/><br/>また、一旦祀ってやったらいつ迄も祀ってやらなくてはいけないもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 合同でよろしい。<br/><br/>（仏に祀るなら小さい位牌でよい）例えば位牌を作ってもよろしい。<br/><br/>「諸霊位」でよい。<br/><br/>書いた位牌を作って祀る。<br/><br/>（大変な功徳になる）（S24. 2.11） 025 既祀無縁の処理 分家と共に無縁仏の株を分ける。<br/><br/>無縁を一番上へ祀ってる。<br/><br/>これは下へ下げる。<br/><br/>返す要はない。<br/><br/>そのまま祀ってやった方がよい。<br/><br/> 妙光は龍神と稲荷である。<br/><br/> 位牌を縛ったのはいけない。<br/><br/>邪神である。<br/><br/>少し経ったら（百日位）元の御座へ帰るよう言って処分する。<br/><br/> 足や腕など祀ってるのがある。<br/><br/>（S23. 7.21）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

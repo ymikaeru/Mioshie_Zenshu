@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bakudan</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 爆弾を抱いている現代人 『栄光』184号、昭和27(1952)年11月26日発行 この題を見たら少し嚇（おど）かしすぎるように思うかも知れないが、実はいささかも掛引のない正直な説であるから、そのつもりで読まれたいのである。<br><br>これは信者はよく知っているが、現代人でともかく健康らしく働いている人間を調べてみると、例外なく身体中どこもかしこも薬毒の固まりだらけである。<br><br>それがたまたまある部分が溶け始めると、これが病気であるから早速医師に診て貰う。<br><br>すると医師は診察をして、これは大変だ、今は大した事はないが、事によると大病の初めかも知れないといって、早速元通りに固めようとする。<br><br>その固め手段が薬をはじめ種々な方法である。<br><br>というようによく固まる方法が進歩した療法と思っているのだから、大変な世の中である。<br><br> このような訳で、今日の人間は毒が溜り放題溜って、それを念入りに固めてあるのだから、固太りなどといって健康人らしく見えるのが、実は危険な訳である。<br><br>以前私はよく膿の塊が理屈をいって威張っていると笑ったものである。<br><br>もちろん今もその通りどころか益々酷くなりつつある。<br><br>何よりも今日の人間くらい病気に罹り易い者はないから、ヤレ衛生に注意しろ、風邪を引くな、暴飲暴食をするな、栄養食を喰え、冷えるな、疲れるな、睡眠を充分とれ、手を洗え、含嗽（うがい）をしろなどといって煩い事おびただしい。<br><br>丸で人体を毀れ物扱いである。<br><br>忌憚なくいえば一種の恐怖時代といってもよかろう。<br><br>しかしこのままで続いていけば結構だが、そうはゆかない事がある。<br><br>それは霊界の変化である。<br><br>変化とは段々毒が固まらなくなる事で、いくら最新の医療や新薬でも、溶ける力の方が強くなるので、人間はバタバタ斃（たお）れる事になるのは、火をみるよりも明らかである。<br><br>しかしこれを読んでも大抵な人は、そんな馬鹿な事があって堪るものか、脅すにも程があるというかも知れないが、キリストは二千年前すでに予言されている。<br><br>それがすなわち世の終りで前記の通りである。<br><br> しかしこれを信じたくない人は、信じなくともよろしいが、ただ最後の断末魔が来た時、“ヤッしまった、アレ程知らされていたのに俺は何たる馬鹿者であろう”といって臍（ほぞ）を噛んでも追っつかない。<br><br>ゆえに助かりたければ今の内だ。<br><br>ではどうすればいいかというと、大して難しい事はない。<br><br>つまり一遍に毒が溶けるから命が危ないのだから、なしくずしにすれば助かる。<br><br>これが本教の浄霊法であるが、しかし余りに簡単すぎるので、反って信じ難い点もあるし、それだけ価値もある。<br><br>だが霊界の浄化が一日一日強くなる以上、ついには医療でも固まらなくなる。<br><br>だから一刻も早く目をさまし、本教へ来る事である。<br><br>以上を一言にしていえば、現代人は全く毒の爆弾を抱いているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Homem Contemporâneo Portador de uma Bomba</h2>
 <p>Este título, à primeira vista, possa parecer um tanto alarmista. Contudo, trata-se de uma tese honesta e desprovida de qualquer exagero, e rogo que seja lida sob essa perspectiva.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Aqueles que não desejam crer não precisam fazê-lo. Porém, quando chegar a agonia final, de nada valerá o arrependimento tardio, e clamarão para si mesmos: “Ah, se eu soubesse! Fui tantas vezes alertado, que tolo fui por não dar ouvidos”. Portanto, para quem almeja a salvação, a hora é agora. E o que se deve fazer? Não há grande dificuldade. O perigo de vida reside na dissolução abrupta e simultânea de todas as toxinas; a salvação, por sua vez, está em dissolvê-las de forma gradual e controlada.</p>
 <p>Este é precisamente o método de Johrei ensinado por nossa Igreja. Sua simplicidade é tamanha que, para alguns, beira o inacreditável; reside aí, contudo, o seu imenso valor. À medida que a purificação do Mundo Espiritual se intensifica dia após dia, chegará o momento em que nem mesmo a medicina será capaz de impedir a dissolução das toxinas. É imperativo, pois, despertar o quanto antes e buscar o caminho de nossa Igreja.</p>
 <p>Em suma, o homem contemporâneo carrega, de fato, uma bomba de toxinas em seu interior.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 爆弾を抱いている現代人 『栄光』184号、昭和27(1952)年11月26日発行 この題を見たら少し嚇（おど）かしすぎるように思うかも知れないが、実はいささかも掛引のない正直な説であるから、そのつもりで読まれたいのである。<br/><br/>これは信者はよく知っているが、現代人でともかく健康らしく働いている人間を調べてみると、例外なく身体中どこもかしこも薬毒の固まりだらけである。<br/><br/>それがたまたまある部分が溶け始めると、これが病気であるから早速医師に診て貰う。<br/><br/>すると医師は診察をして、これは大変だ、今は大した事はないが、事によると大病の初めかも知れないといって、早速元通りに固めようとする。<br/><br/>その固め手段が薬をはじめ種々な方法である。<br/><br/>というようによく固まる方法が進歩した療法と思っているのだから、大変な世の中である。<br/><br/> このような訳で、今日の人間は毒が溜り放題溜って、それを念入りに固めてあるのだから、固太りなどといって健康人らしく見えるのが、実は危険な訳である。<br/><br/>以前私はよく膿の塊が理屈をいって威張っていると笑ったものである。<br/><br/>もちろん今もその通りどころか益々酷くなりつつある。<br/><br/>何よりも今日の人間くらい病気に罹り易い者はないから、ヤレ衛生に注意しろ、風邪を引くな、暴飲暴食をするな、栄養食を喰え、冷えるな、疲れるな、睡眠を充分とれ、手を洗え、含嗽（うがい）をしろなどといって煩い事おびただしい。<br/><br/>丸で人体を毀れ物扱いである。<br/><br/>忌憚なくいえば一種の恐怖時代といってもよかろう。<br/><br/>しかしこのままで続いていけば結構だが、そうはゆかない事がある。<br/><br/>それは霊界の変化である。<br/><br/>変化とは段々毒が固まらなくなる事で、いくら最新の医療や新薬でも、溶ける力の方が強くなるので、人間はバタバタ斃（たお）れる事になるのは、火をみるよりも明らかである。<br/><br/>しかしこれを読んでも大抵な人は、そんな馬鹿な事があって堪るものか、脅すにも程があるというかも知れないが、キリストは二千年前すでに予言されている。<br/><br/>それがすなわち世の終りで前記の通りである。<br/><br/> しかしこれを信じたくない人は、信じなくともよろしいが、ただ最後の断末魔が来た時、“ヤッしまった、アレ程知らされていたのに俺は何たる馬鹿者であろう”といって臍（ほぞ）を噛んでも追っつかない。<br/><br/>ゆえに助かりたければ今の内だ。<br/><br/>ではどうすればいいかというと、大して難しい事はない。<br/><br/>つまり一遍に毒が溶けるから命が危ないのだから、なしくずしにすれば助かる。<br/><br/>これが本教の浄霊法であるが、しかし余りに簡単すぎるので、反って信じ難い点もあるし、それだけ価値もある。<br/><br/>だが霊界の浄化が一日一日強くなる以上、ついには医療でも固まらなくなる。<br/><br/>だから一刻も早く目をさまし、本教へ来る事である。<br/><br/>以上を一言にしていえば、現代人は全く毒の爆弾を抱いているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271217</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月17日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月十七日 例のストライキですが、今日午前零時に緊急調整令が出て、五十日間停止することになったのですが、この根本は共産党がやっているわけです。<br><br>というのは日本が再軍備をすると、これがソ連にとっては一番不利益なのです。<br><br>それで軍備を造るには石炭と電力を邪魔するのが一番効果的なのです。<br><br>そこでこれを狙ったわけです。<br><br>ですからふつうのストライキと違うのです。<br><br>炭坑鉱夫の要求というのはすばらしいもので、できない相談のような値上げです。<br><br>なにしろ七、八割増しですから、そんなことはできるものではありません。<br><br>そこで中労の中山という人なども骨を折っていろいろ折衝し、経営者の方は今までよりもそうとう賃金を上げてやっても、てんで応じないのです。<br><br>最初のものから一歩も譲歩しないで、どこまでも無期限にやっているということは、ふつうの賃金値上げというような目的ではないということはよく分かります。<br><br>それは軍備に対しての妨害ということがはっきりしてます。<br><br>そうして石炭と電力と、その次に邪魔するのは輸送ですから、交通機関です。<br><br>それで最近になって国鉄が動き出したわけです。<br><br>ですから石炭と電力と鉄道とをうんと妨害すれば、日本の軍備に対する非常な打撃になるわけです。<br><br>そこを狙ったわけです。<br><br>それで、なにしろソ連の狙いどころは日本なのです。<br><br>日本さえやっつけてしまえば、アジアというものを征服できるのですから、そこで極力日本の軍備を弱めるようにしているのです。<br><br>そのために社会党左派の鈴木茂三郎などは、まるで社会党の仮面を被った共産党です。<br><br>そうして、日本を極力軍備をしないで弱くするようにしているのです。<br><br>弱くすると、ソ連が侵略する場合に楽ですから、ソ連が侵略しよいようにしなければならない、という日本の再軍備反対の連中です。<br><br>あとは婦人が軍備反対しているということは、これはそういった大局のことはぜんぜん無頓着で、自分だけの考えです。<br><br>息子や亭主が戦争に行くと非常な悲劇を起すということは、この間の戦争で懲りてますから、それだけの感情と自分の利益だけで反対しているのですからたわいないことですが、とにかく婦人の投票権というのは男より多いのですから、結果からいくと恐るべきものなのです。<br><br>そういうような意味がこのストなのです。<br><br>そこでやむを得ず緊急調整令を出したというわけですが、これは本当からいうと少し遅いのです。<br><br>政府があんまり遠慮しすぎるのです。<br><br>怖がりすぎるのです。<br><br> これはいろいろな事情があるでしょうが、結局、吉田首相の性格でしょう。<br><br>つまりそういった面における胆力がたりないのです。<br><br>それでこれについて、勇気のたりないという点において、政治家というものは非常な不利益をしているのです。<br><br>これは日本ばかりでなく、アメリカのトルーマンという人がやはり吉田首相と似ているところがあります。<br><br>胆力がありません。<br><br>思いきってやることができないのです。<br><br>できるだけ太平無事にして、グズグズして、穏やかに押しつけるというのです。<br><br>しかしそれも相手によります。<br><br>殺人強盗の相手がやってきたら、それをなだめたりすかしたりしてもしようがないのです。<br><br>そういう相手に対しては、こっちも断固としてやらなければならない。<br><br>つまり胆力がないために、こんどアイクが敢然と立たざるを得なくなったわけです。<br><br>それで昨日あたりマッカーサーと面会することになったのでしょうが、結局マッカーサーが最初に言った案よりほかにしようがないのです。<br><br>ところがトルーマンはそれを嫌ってああして左遷してしまったのですが、あの時マッカーサーの言うとおりにやれば、ずっと楽にいったのです。<br><br>というのは、あの時は北鮮軍をやっつけて、今や満州国境まで一気に襲うという時ですから楽にいったのです。<br><br>それで今まで中共の方に時を稼がせたというために先方の力が増しましたから、前からみるとずっと骨が折れるのです。<br><br>しかしこれより後れたら、先方はもっと軍備が固まるからもっと不利益なので、今度は思いきってやるらしいですが、そういうような具合で、その時代によってまた形勢によって、大胆なやり方と柔らかいやり方と言いますか、その両方が必要なのです。<br><br>ですから先の太平洋戦争の時のルーズヴェルトのような思いきったやり方です。<br><br>それから英国のチャーチルです。<br><br>その点においてはスターリンもたいしたものです。<br><br>そういう人たちが思いきってやったために、とうとうドイツはやっつけられたのです。<br><br>日本もやっつけられたわけです。<br><br>そういうようで、その時に応じてのそういったやり方がいろいろあるのです。<br><br>ですから日本のストなども、もっと早いうちに緊急調整令を出して押さえてしまえばいいのです。<br><br>火炎瓶問題も随分大騒ぎをやってましたが、あの時の法律の解釈で火炎瓶は爆発物とみなすかどうかと言ってましたが、爆発物とみなしてそれに対する非常に強い取り締まりを出したためにピタッとおさまったのですが、あれをみても分かるとおり、相手の乱暴な奴などには、それをみて、断固としてやらなければならない。<br><br>それを政府が見のがしたために大きくなって、二進（にっち）も三進（さっち）も行かなくなって、それでやっと緊急調整令を出したということは、どうも手ぬるいということが言えるでしょう。<br><br>それでまた話は違うが、アメリカのアイクが、ここで近々にそうとう思いきった作戦をやるらしいですが、ただ大きくやると、英国はじめヨーロッパの方の国連軍の国々が非常に反対するので、できるだけ戦線を拡げないということを建前としてやるということになってますが、しかし戦争が戦争であり相手が相手ですから、そう御注文どおりにいくかどうかは、はなはだ難しいのです。<br><br>最初のうちは、北鮮に向かって三十八度線からある所まで進撃するという作戦のようです。<br><br>それで今の戦線は二百二十キロで、もう一歩進むと百キロの戦線になるのだそうです。<br><br>そうすると防衛が非常に楽なのです。<br><br>それを第一の目的としているらしいです。<br><br>しかしそう御注文どおりには行くまいと思います。<br><br>先方もなかなか準備ができてきたようですから、下手にまごつくと、いったん進んでも押し返されるかも分かりません。<br><br>ですからマッカーサー元帥の最初の作戦のように、満州爆撃と沿岸封鎖という作戦をとらざるを得なくなります。<br><br>それで満州爆撃をやるとすると、戦争は中国全土に拡がったのと同じです。<br><br>それで今日マッカーサーは台湾に行くという外電があったようですが、この前の時も会いましたが、それは勿論蒋介石に会うためです。<br><br>そこでどうしても戦線が支那全土に拡がったら、国府軍がいよいよ進撃の挙に出るだろうと思います。<br><br>その結果において中共がやっつけられて、蒋介石がふたたび中国全土を攻略するということになるのではないかと思います。<br><br> それで神様の方からいっても、そういうふうになるようになっているわけです。<br><br>どういうわけかと言いますと、今度紅卍字会が私の方に援助を頼んできたのです。<br><br>この紅卍字会というのは前に天津に本部があったのです。<br><br>それで信者は北の方が多かったのです。<br><br>特に満州は一番多かったでしょう。<br><br>ところが中共政府ができてから、ひとたまりもなく追い払われたのです。<br><br>それもなかなか危険なくらいで、幹部の者でそうとう犠牲になった者があるのです。<br><br>ですから命カラガラ台湾に逃げたのです。<br><br>それで台湾で活動しようとしたところが、なにしろ蒋介石の政権はぜんぜんアメリカの厄介になっているので、キリスト教以外はどうもまずいのです。<br><br>ですから蒋介石の部下で主なる人はクリスチャンになっているのです。<br><br>ですから他の宗教が運動するということは非常にいやがるのです。<br><br>そこでどうも具合が悪いのです。<br><br>そうするとフーチですが、これはみなさんに見せますが、フーチによって日本の新宗教と提携してやれというようなことが出たので、いつかも話したとおり、最近静岡県の清水に三五教というのがありますが、そこの幹部に前の南京領事をしていた林出という人がいます。<br><br>その人が紅卍字会とよく知り合っているので、先方から招かれて行ったのかどうか知らないが、台湾に行って話し合った結果、先方でもフーチが出たりして、こっちに来て新宗教といろいろ提携してみたところが、大体紅卍字会のことを知っている宗教というのが、私の方と生長の家と、それから今の三五教です。<br><br>これは元大本教信者であったからで、ほかにはありません。<br><br>というのは、大本教は以前紅卍字会と提携して、そうとう行き来をして、日本にも弘めようとしたことがあったのです。<br><br>そのうちに、あの大本教事件によってそれは駄目になったのです。<br><br>ですから私も一時は紅卍字会の会員になっていたのです。<br><br>それで私が麹町で大本教の分所を経営していたので、そこでフーチなどもしたのです。<br><br>フーチというのは、初めての人にはなにがなんだか分からないでしょう。<br><br>説明も難しいのですが、今に小田原の別院でやらせますから、見てもらえば分かります。<br><br>これは神様の在る無しを知らせるにはもっともよいのです。<br><br>目の前で神様があるということが分かります。<br><br>私はこれをいつか日本人にも見せたいと思っていたことがあります。<br><br> そういうわけで、今度ぜひ私の方に援助をしてもらいたいという申し込みがありましたが、小田原の別院がフーチをやるような場所にちょうどおあつらえになっているのです。<br><br>それをやるについて、紅卍字会のそれをやる係りの人と、やはりフーチによって誰がやれという命令が出るのです。<br><br>そういう人が三人あるのです。<br><br>それもこっちに来て泊まる場所が欲しいと言う。<br><br>ところが小田原の別院にちょうどいい別棟があります。<br><br>それは神様が用意してあったのです。<br><br>それは約二十年ばかり前に、そういうお知らせがあったのです。<br><br>私はその時期を待っていたわけです。<br><br>これは今にもっと詳しく書いて『栄光』に出します。<br><br>とにかくそういうようで、紅卍字会と提携といいますか、この間先方で三五教の人が二人、紅卍字会の中国人が三人ばかり来て会ったのです。<br><br>それで私の方も提携はするが、しかしまだ時期が早いから、もう三年ぐらい先でなければ駄目だ、それまではつなぎの程度に御援助しよう、ということになっているのです。<br><br>先方は中国の方はふさがっているのでもう駄目ですから、日本で弘めたいというつもりなのですが、結局において紅卍字会は中国を救う宗教になるのです。<br><br>それは私の指図によって中国を救うというのが、神様の方の目的なのです。<br><br>しかし今は時期がそこまでいってないから、時期を待つよりほかにしようがない。<br><br>それはどういうわけかと言いますと、中国は、今はそういう宗教宣伝などはできないのです。<br><br>それはちょうど日本と同じで、私が以前から宗教をやりたいと思っても、終戦前はてんでどうすることもできなかった。<br><br>それでしかたなしに浄化療法という民間治療でやっとやっていたようなわけで、宗教的なことはぜんぜん駄目です。<br><br>それが終戦と同時に信教の自由が許されるというわけで、宗教団体をつくったのです。<br><br>いずれ中国も、アメリカが日本にしたと同じように、大いにアメリカの民主政治が施かれるようになるだろうと思います。<br><br>そうして信教の自由が許されて、それからが本当の仕事ができるわけです。<br><br>つまり宗教的の仕事ができるということになるだろうと思います。<br><br>そう考えると、やっぱり結局は中共がやっつけられて蒋介石が政権を握って、それをアメリカが援助するという、日本と同じような形になるだろうと思います。<br><br>それにはまず三年くらい経たなければならない。<br><br>早くて二年、とにかく二、三年は混乱状態が現出すると思います。<br><br>大体そういう経路をとっていくだろうと思いますが、とにかく日本も今のフーチによってインテリがそうとう分かってくると思います。<br><br>これはインテリの無神論者に見せるにはもっともよいのです。<br><br>われわれの方では今まで神の在る無しは、病気なおしと奇蹟が一番の武器でしたが、それにはそうとう暇がかかります。<br><br>フーチを見ると、なにもないのにひとりでに棒が動いて字を書くのです。<br><br>どうしても神様がやるとしか思われません。<br><br>大体そういうような意味で、来年からはそれが大いに役立つと思ってます。<br><br> 話はそのくらいにしておいて、「信仰とストライキ」という論文を書いたので読ませます。<br><br> （御論文「信仰とストライキ」）【栄光 一八七号】 それからこれはたいしたことではないが、話を聞く時に咳をする人がありますが、咳は出るのですから我慢しなくてもいいが、その時はハンカチをあてるとよい。<br><br>話をしている時に咳をすると、咳のために話が邪魔されますから、そこでその音を少なくするために、ハンカチをあてると音がずっと少なくなります。<br><br>それから、アクビが出たいのは、これもしようがないから、やはりハンカチでふさぐとよいです。<br><br>開け放しでやるとみっともありません。<br><br>救世教信者もよいが、まことに礼儀がないというのではいけません。<br><br>やはり行いも大事です。<br><br>これは小さなことのようでも、そういうことはやはり注意するというのが本当です。<br><br> 時間があんまりありませんが、ちょっとおもしろい論文を読ませます。<br><br> （御論文「本教信者の幸福」）【栄光 一八八号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Análise da Conjuntura Mundial e a Missão da Fé</h2>
 <p>A recente greve, como sabem, foi suspensa por um período de cinquenta dias, por meio de um decreto de ajuste emergencial expedido à meia-noite. A raiz desse movimento, na verdade, reside na atuação do Partido Comunista. A razão é que o rearmamento do Japão representa um grande prejuízo para a União Soviética. Nesse sentido, a maneira mais eficaz de obstruir a produção de armamentos é sabotar o fornecimento de carvão e eletricidade, que são precisamente os alvos escolhidos. Por essa razão, a paralisação em curso difere fundamentalmente de uma greve comum.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Encerrando este tema, gostaria de ler um artigo que escrevi, intitulado "Fé e Greve".</p>
 <p>Gostaria de fazer mais uma observação, embora de menor importância. Percebo que algumas pessoas tossem durante as palestras. Compreendo que a tosse seja inevitável, e não é preciso reprimi-la. No entanto, ao tossir, peço que utilizem um lenço para abafar o som. A tosse durante uma explanação pode atrapalhar a audição dos demais, e o lenço ajuda a reduzir consideravelmente o ruído. O mesmo se aplica ao bocejo. Sendo também algo natural, basta cobrir a boca com o lenço. Bocejar de boca aberta é deselegante. Ser um bom fiel da nossa Igreja é importante, mas não podemos ser conhecidos como pessoas sem modos. A conduta também é fundamental. Ainda que pareçam detalhes, ter atenção a essas pequenas coisas é um sinal de verdadeiro aprimoramento.</p>
 <p>Embora o tempo seja escasso, gostaria de ler mais um artigo interessante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月17日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月十七日 例のストライキですが、今日午前零時に緊急調整令が出て、五十日間停止することになったのですが、この根本は共産党がやっているわけです。<br/><br/>というのは日本が再軍備をすると、これがソ連にとっては一番不利益なのです。<br/><br/>それで軍備を造るには石炭と電力を邪魔するのが一番効果的なのです。<br/><br/>そこでこれを狙ったわけです。<br/><br/>ですからふつうのストライキと違うのです。<br/><br/>炭坑鉱夫の要求というのはすばらしいもので、できない相談のような値上げです。<br/><br/>なにしろ七、八割増しですから、そんなことはできるものではありません。<br/><br/>そこで中労の中山という人なども骨を折っていろいろ折衝し、経営者の方は今までよりもそうとう賃金を上げてやっても、てんで応じないのです。<br/><br/>最初のものから一歩も譲歩しないで、どこまでも無期限にやっているということは、ふつうの賃金値上げというような目的ではないということはよく分かります。<br/><br/>それは軍備に対しての妨害ということがはっきりしてます。<br/><br/>そうして石炭と電力と、その次に邪魔するのは輸送ですから、交通機関です。<br/><br/>それで最近になって国鉄が動き出したわけです。<br/><br/>ですから石炭と電力と鉄道とをうんと妨害すれば、日本の軍備に対する非常な打撃になるわけです。<br/><br/>そこを狙ったわけです。<br/><br/>それで、なにしろソ連の狙いどころは日本なのです。<br/><br/>日本さえやっつけてしまえば、アジアというものを征服できるのですから、そこで極力日本の軍備を弱めるようにしているのです。<br/><br/>そのために社会党左派の鈴木茂三郎などは、まるで社会党の仮面を被った共産党です。<br/><br/>そうして、日本を極力軍備をしないで弱くするようにしているのです。<br/><br/>弱くすると、ソ連が侵略する場合に楽ですから、ソ連が侵略しよいようにしなければならない、という日本の再軍備反対の連中です。<br/><br/>あとは婦人が軍備反対しているということは、これはそういった大局のことはぜんぜん無頓着で、自分だけの考えです。<br/><br/>息子や亭主が戦争に行くと非常な悲劇を起すということは、この間の戦争で懲りてますから、それだけの感情と自分の利益だけで反対しているのですからたわいないことですが、とにかく婦人の投票権というのは男より多いのですから、結果からいくと恐るべきものなのです。<br/><br/>そういうような意味がこのストなのです。<br/><br/>そこでやむを得ず緊急調整令を出したというわけですが、これは本当からいうと少し遅いのです。<br/><br/>政府があんまり遠慮しすぎるのです。<br/><br/>怖がりすぎるのです。<br/><br/> これはいろいろな事情があるでしょうが、結局、吉田首相の性格でしょう。<br/><br/>つまりそういった面における胆力がたりないのです。<br/><br/>それでこれについて、勇気のたりないという点において、政治家というものは非常な不利益をしているのです。<br/><br/>これは日本ばかりでなく、アメリカのトルーマンという人がやはり吉田首相と似ているところがあります。<br/><br/>胆力がありません。<br/><br/>思いきってやることができないのです。<br/><br/>できるだけ太平無事にして、グズグズして、穏やかに押しつけるというのです。<br/><br/>しかしそれも相手によります。<br/><br/>殺人強盗の相手がやってきたら、それをなだめたりすかしたりしてもしようがないのです。<br/><br/>そういう相手に対しては、こっちも断固としてやらなければならない。<br/><br/>つまり胆力がないために、こんどアイクが敢然と立たざるを得なくなったわけです。<br/><br/>それで昨日あたりマッカーサーと面会することになったのでしょうが、結局マッカーサーが最初に言った案よりほかにしようがないのです。<br/><br/>ところがトルーマンはそれを嫌ってああして左遷してしまったのですが、あの時マッカーサーの言うとおりにやれば、ずっと楽にいったのです。<br/><br/>というのは、あの時は北鮮軍をやっつけて、今や満州国境まで一気に襲うという時ですから楽にいったのです。<br/><br/>それで今まで中共の方に時を稼がせたというために先方の力が増しましたから、前からみるとずっと骨が折れるのです。<br/><br/>しかしこれより後れたら、先方はもっと軍備が固まるからもっと不利益なので、今度は思いきってやるらしいですが、そういうような具合で、その時代によってまた形勢によって、大胆なやり方と柔らかいやり方と言いますか、その両方が必要なのです。<br/><br/>ですから先の太平洋戦争の時のルーズヴェルトのような思いきったやり方です。<br/><br/>それから英国のチャーチルです。<br/><br/>その点においてはスターリンもたいしたものです。<br/><br/>そういう人たちが思いきってやったために、とうとうドイツはやっつけられたのです。<br/><br/>日本もやっつけられたわけです。<br/><br/>そういうようで、その時に応じてのそういったやり方がいろいろあるのです。<br/><br/>ですから日本のストなども、もっと早いうちに緊急調整令を出して押さえてしまえばいいのです。<br/><br/>火炎瓶問題も随分大騒ぎをやってましたが、あの時の法律の解釈で火炎瓶は爆発物とみなすかどうかと言ってましたが、爆発物とみなしてそれに対する非常に強い取り締まりを出したためにピタッとおさまったのですが、あれをみても分かるとおり、相手の乱暴な奴などには、それをみて、断固としてやらなければならない。<br/><br/>それを政府が見のがしたために大きくなって、二進（にっち）も三進（さっち）も行かなくなって、それでやっと緊急調整令を出したということは、どうも手ぬるいということが言えるでしょう。<br/><br/>それでまた話は違うが、アメリカのアイクが、ここで近々にそうとう思いきった作戦をやるらしいですが、ただ大きくやると、英国はじめヨーロッパの方の国連軍の国々が非常に反対するので、できるだけ戦線を拡げないということを建前としてやるということになってますが、しかし戦争が戦争であり相手が相手ですから、そう御注文どおりにいくかどうかは、はなはだ難しいのです。<br/><br/>最初のうちは、北鮮に向かって三十八度線からある所まで進撃するという作戦のようです。<br/><br/>それで今の戦線は二百二十キロで、もう一歩進むと百キロの戦線になるのだそうです。<br/><br/>そうすると防衛が非常に楽なのです。<br/><br/>それを第一の目的としているらしいです。<br/><br/>しかしそう御注文どおりには行くまいと思います。<br/><br/>先方もなかなか準備ができてきたようですから、下手にまごつくと、いったん進んでも押し返されるかも分かりません。<br/><br/>ですからマッカーサー元帥の最初の作戦のように、満州爆撃と沿岸封鎖という作戦をとらざるを得なくなります。<br/><br/>それで満州爆撃をやるとすると、戦争は中国全土に拡がったのと同じです。<br/><br/>それで今日マッカーサーは台湾に行くという外電があったようですが、この前の時も会いましたが、それは勿論蒋介石に会うためです。<br/><br/>そこでどうしても戦線が支那全土に拡がったら、国府軍がいよいよ進撃の挙に出るだろうと思います。<br/><br/>その結果において中共がやっつけられて、蒋介石がふたたび中国全土を攻略するということになるのではないかと思います。<br/><br/> それで神様の方からいっても、そういうふうになるようになっているわけです。<br/><br/>どういうわけかと言いますと、今度紅卍字会が私の方に援助を頼んできたのです。<br/><br/>この紅卍字会というのは前に天津に本部があったのです。<br/><br/>それで信者は北の方が多かったのです。<br/><br/>特に満州は一番多かったでしょう。<br/><br/>ところが中共政府ができてから、ひとたまりもなく追い払われたのです。<br/><br/>それもなかなか危険なくらいで、幹部の者でそうとう犠牲になった者があるのです。<br/><br/>ですから命カラガラ台湾に逃げたのです。<br/><br/>それで台湾で活動しようとしたところが、なにしろ蒋介石の政権はぜんぜんアメリカの厄介になっているので、キリスト教以外はどうもまずいのです。<br/><br/>ですから蒋介石の部下で主なる人はクリスチャンになっているのです。<br/><br/>ですから他の宗教が運動するということは非常にいやがるのです。<br/><br/>そこでどうも具合が悪いのです。<br/><br/>そうするとフーチですが、これはみなさんに見せますが、フーチによって日本の新宗教と提携してやれというようなことが出たので、いつかも話したとおり、最近静岡県の清水に三五教というのがありますが、そこの幹部に前の南京領事をしていた林出という人がいます。<br/><br/>その人が紅卍字会とよく知り合っているので、先方から招かれて行ったのかどうか知らないが、台湾に行って話し合った結果、先方でもフーチが出たりして、こっちに来て新宗教といろいろ提携してみたところが、大体紅卍字会のことを知っている宗教というのが、私の方と生長の家と、それから今の三五教です。<br/><br/>これは元大本教信者であったからで、ほかにはありません。<br/><br/>というのは、大本教は以前紅卍字会と提携して、そうとう行き来をして、日本にも弘めようとしたことがあったのです。<br/><br/>そのうちに、あの大本教事件によってそれは駄目になったのです。<br/><br/>ですから私も一時は紅卍字会の会員になっていたのです。<br/><br/>それで私が麹町で大本教の分所を経営していたので、そこでフーチなどもしたのです。<br/><br/>フーチというのは、初めての人にはなにがなんだか分からないでしょう。<br/><br/>説明も難しいのですが、今に小田原の別院でやらせますから、見てもらえば分かります。<br/><br/>これは神様の在る無しを知らせるにはもっともよいのです。<br/><br/>目の前で神様があるということが分かります。<br/><br/>私はこれをいつか日本人にも見せたいと思っていたことがあります。<br/><br/> そういうわけで、今度ぜひ私の方に援助をしてもらいたいという申し込みがありましたが、小田原の別院がフーチをやるような場所にちょうどおあつらえになっているのです。<br/><br/>それをやるについて、紅卍字会のそれをやる係りの人と、やはりフーチによって誰がやれという命令が出るのです。<br/><br/>そういう人が三人あるのです。<br/><br/>それもこっちに来て泊まる場所が欲しいと言う。<br/><br/>ところが小田原の別院にちょうどいい別棟があります。<br/><br/>それは神様が用意してあったのです。<br/><br/>それは約二十年ばかり前に、そういうお知らせがあったのです。<br/><br/>私はその時期を待っていたわけです。<br/><br/>これは今にもっと詳しく書いて『栄光』に出します。<br/><br/>とにかくそういうようで、紅卍字会と提携といいますか、この間先方で三五教の人が二人、紅卍字会の中国人が三人ばかり来て会ったのです。<br/><br/>それで私の方も提携はするが、しかしまだ時期が早いから、もう三年ぐらい先でなければ駄目だ、それまではつなぎの程度に御援助しよう、ということになっているのです。<br/><br/>先方は中国の方はふさがっているのでもう駄目ですから、日本で弘めたいというつもりなのですが、結局において紅卍字会は中国を救う宗教になるのです。<br/><br/>それは私の指図によって中国を救うというのが、神様の方の目的なのです。<br/><br/>しかし今は時期がそこまでいってないから、時期を待つよりほかにしようがない。<br/><br/>それはどういうわけかと言いますと、中国は、今はそういう宗教宣伝などはできないのです。<br/><br/>それはちょうど日本と同じで、私が以前から宗教をやりたいと思っても、終戦前はてんでどうすることもできなかった。<br/><br/>それでしかたなしに浄化療法という民間治療でやっとやっていたようなわけで、宗教的なことはぜんぜん駄目です。<br/><br/>それが終戦と同時に信教の自由が許されるというわけで、宗教団体をつくったのです。<br/><br/>いずれ中国も、アメリカが日本にしたと同じように、大いにアメリカの民主政治が施かれるようになるだろうと思います。<br/><br/>そうして信教の自由が許されて、それからが本当の仕事ができるわけです。<br/><br/>つまり宗教的の仕事ができるということになるだろうと思います。<br/><br/>そう考えると、やっぱり結局は中共がやっつけられて蒋介石が政権を握って、それをアメリカが援助するという、日本と同じような形になるだろうと思います。<br/><br/>それにはまず三年くらい経たなければならない。<br/><br/>早くて二年、とにかく二、三年は混乱状態が現出すると思います。<br/><br/>大体そういう経路をとっていくだろうと思いますが、とにかく日本も今のフーチによってインテリがそうとう分かってくると思います。<br/><br/>これはインテリの無神論者に見せるにはもっともよいのです。<br/><br/>われわれの方では今まで神の在る無しは、病気なおしと奇蹟が一番の武器でしたが、それにはそうとう暇がかかります。<br/><br/>フーチを見ると、なにもないのにひとりでに棒が動いて字を書くのです。<br/><br/>どうしても神様がやるとしか思われません。<br/><br/>大体そういうような意味で、来年からはそれが大いに役立つと思ってます。<br/><br/> 話はそのくらいにしておいて、「信仰とストライキ」という論文を書いたので読ませます。<br/><br/> （御論文「信仰とストライキ」）【栄光 一八七号】 それからこれはたいしたことではないが、話を聞く時に咳をする人がありますが、咳は出るのですから我慢しなくてもいいが、その時はハンカチをあてるとよい。<br/><br/>話をしている時に咳をすると、咳のために話が邪魔されますから、そこでその音を少なくするために、ハンカチをあてると音がずっと少なくなります。<br/><br/>それから、アクビが出たいのは、これもしようがないから、やはりハンカチでふさぐとよいです。<br/><br/>開け放しでやるとみっともありません。<br/><br/>救世教信者もよいが、まことに礼儀がないというのではいけません。<br/><br/>やはり行いも大事です。<br/><br/>これは小さなことのようでも、そういうことはやはり注意するというのが本当です。<br/><br/> 時間があんまりありませんが、ちょっとおもしろい論文を読ませます。<br/><br/> （御論文「本教信者の幸福」）【栄光 一八八号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

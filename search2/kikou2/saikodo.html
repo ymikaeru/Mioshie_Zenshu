@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saikodo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 最高度の御教え 光宝大教会 快潮 『栄光』264号、昭和29(1954)年7月7日発行 「偉い先生になるな、有難い先生になれ」と三日も前にメシヤ様から賜わった御言葉を今更のようにしみじみと思い起して瞼にメシヤ様の御姿を浮かべ、想念を大御前に伏せる私でございます。<br><br>十五年の歳月を経た今日未だ以てこの御教えに添い奉ることもできえず彷徨する我が姿に戚然としたものを感じ、沈思再考の一時を過ごさせて戴くのでございました。<br><br> 有難そうな先生のあり方をあれやこれやと想像してみている間に、その想像の姿の中に一貫した驚くべきものがあるのを発見するのでございました。<br><br>まず、怒らない、常に春風駘蕩、偉そうなことを言ったりしたりしない、御奉仕のあり方や御取次の数々の中に決して自分を織込まない、いつも純一無雑の奉仕者のあり方で淡々としている、しかも言われる言葉が気持よく聞けて得をする事が多い。<br><br>叱り方が上手で気持がいい。<br><br> 以上のような想像影の幻がフッと消えて「う！う！ん」と腹の中から声が出るのでございました。<br><br>入れ代って映る現実の私の姿はおよそ及びもつかないものである事に気が付いた吐息であったのかも知れません。<br><br> 「有難い」ということば最高度のものであったのでございます。<br><br>「有難い」と思う想念、感情は御力の本元であらせらるるメシヤ様御一方に捧げ奉る想念であらねばならないものであることを覚らせて戴いたのでございます。<br><br> メシヤ様は私に最高のあり方を御示し下されたもので、恐れ多い事でございました。<br><br>私は御神前に額づいて改めて御願い申し上げたのでございます。<br><br>何卒好ましい先生になれまするよう、よりよき取次者にならせて戴けまするよう、しばし祈念申し上げるのでございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mestre Digno de Gratidão</h2>
 <p>Ainda ressoam em minha alma as palavras que Meishu-Sama me concedeu há apenas três dias: “Não se torne um mestre imponente, mas sim um mestre por quem se é grato”. Ao rememorá-las com profundidade, a sagrada imagem de Meishu-Sama surge em minha mente, e prostro meus pensamentos em reverência à Sua Divina Presença.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Subitamente, essa visão idealizada se desvaneceu, e um som gutural escapou do fundo de meu ser. Em seu lugar, surgiu a imagem da minha realidade, e o som que emiti talvez tenha sido o suspiro de quem constata o quão incomensuravelmente distante se encontra de tal perfeição.</p>
 <p>Compreendi, então, que a palavra “gratidão” encerra em si o mais elevado estado de ser. Fui levado a despertar para a verdade de que o sentimento e o pensamento de gratidão devem ser uma oferenda dedicada unicamente a Meishu-Sama, pois Ele é a Fonte Primordial de todo o Poder Divino.</p>
 <p>Meishu-Sama, com Sua infinita benevolência, havia me revelado a mais sublime forma de ser, o que me encheu de um temor reverencial. Diante do Altar Sagrado, curvei-me e renovei minhas preces. Roguei por alguns instantes para que, por Sua misericórdia, eu pudesse me tornar um mestre mais virtuoso e um instrumento de Johrei cada vez melhor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 最高度の御教え 光宝大教会 快潮 『栄光』264号、昭和29(1954)年7月7日発行 「偉い先生になるな、有難い先生になれ」と三日も前にメシヤ様から賜わった御言葉を今更のようにしみじみと思い起して瞼にメシヤ様の御姿を浮かべ、想念を大御前に伏せる私でございます。<br/><br/>十五年の歳月を経た今日未だ以てこの御教えに添い奉ることもできえず彷徨する我が姿に戚然としたものを感じ、沈思再考の一時を過ごさせて戴くのでございました。<br/><br/> 有難そうな先生のあり方をあれやこれやと想像してみている間に、その想像の姿の中に一貫した驚くべきものがあるのを発見するのでございました。<br/><br/>まず、怒らない、常に春風駘蕩、偉そうなことを言ったりしたりしない、御奉仕のあり方や御取次の数々の中に決して自分を織込まない、いつも純一無雑の奉仕者のあり方で淡々としている、しかも言われる言葉が気持よく聞けて得をする事が多い。<br/><br/>叱り方が上手で気持がいい。<br/><br/> 以上のような想像影の幻がフッと消えて「う！う！ん」と腹の中から声が出るのでございました。<br/><br/>入れ代って映る現実の私の姿はおよそ及びもつかないものである事に気が付いた吐息であったのかも知れません。<br/><br/> 「有難い」ということば最高度のものであったのでございます。<br/><br/>「有難い」と思う想念、感情は御力の本元であらせらるるメシヤ様御一方に捧げ奉る想念であらねばならないものであることを覚らせて戴いたのでございます。<br/><br/> メシヤ様は私に最高のあり方を御示し下されたもので、恐れ多い事でございました。<br/><br/>私は御神前に額づいて改めて御願い申し上げたのでございます。<br/><br/>何卒好ましい先生になれまするよう、よりよき取次者にならせて戴けまするよう、しばし祈念申し上げるのでございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

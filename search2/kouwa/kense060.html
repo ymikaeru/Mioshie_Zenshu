@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kense060</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 建設破壊篇 ４ 060-072 転換期２ 060 日本の恐怖時代、（今世紀の恐怖時代の在り方）、地震と人間の曇り 日本の恐怖時代はいつ頃終了致しますか。<br><br>また、最も烈しいのはいつ頃でしょうか。<br><br>また、それはどのような形で現われますか。<br><br>御伺い致します。<br><br> 日本の恐怖時代は戦争以来今も行われつつあるが、浄化の強くなるのはこれからで、大体二十五年という事になっている。<br><br> これは浄化の形になる。<br><br>浄化とは掃除であるから、汚いものが掃除されるんで、人間の苦しむ事は皆掃除である。<br><br>戦争もインフレも、物資不足も地震も、皆浄化作用である。<br><br> 地震は地殻の収縮であるが、曇りの多い人は災害の起る所へ自ら集まるもので、そこで清算される。<br><br>人間の身体でも膿は一所へ集まるが、それと同じ事で、これを大きく考えればよい。<br><br> 地震の起る事は決っているのであるが、曇りの多い人は、そこへ浄化さるべく集まるのである。<br><br>霊界には曇った所と、それ程ひどくない所などいろいろある。<br><br>曇りの多い人は曇りの多い場所へ行くようになる。<br><br> どのような形で浄化作用は行われるかというと、小三災と大三災で、日本においては、飢病戦が主であるが、風水火も二、三年の中には来るかも知れぬ。<br><br>今迄のそれは局部的のものであった。<br><br>今度はもっと広範囲にあると思う。<br><br> 今度の恐怖時代はノアの洪水のごとく全滅的でなく、今度は火の洗礼で、今の文化を滅さぬ程度に行われると思う。<br><br>しかし、これは予言するように思われるので、今は判らないとしておく。<br><br> 061 最後の審判の表われ方 最後の審判はどの様な形で行われるので御座いましょうか。<br><br> これは、はっきりは言えぬ。<br><br>（浄化が）極端になる。<br><br>表われ方は神秘である。<br><br> 062 地球の浄化 地球の浄化とは―― いろいろで、病気、地震、洪水等、あるいは物質不足等いろいろある。<br><br>戦争等もそうで、米ソの冷い戦争などもそうである。<br><br>風水害等もある。<br><br> 063 大浄化の様相 夜の世より昼の世界への転換には最後の審判即ち一大浄化があるように承っておりますが、現界にはいかなる形によって現れるので御座いましょうか。<br><br>水の洗霊、火の洗霊、天変、地変、病難、災難等のうちどれでしょうか。<br><br>御伺い申し上げます。<br><br> 火の洗霊は霊的で、浄霊――。<br><br> 水の洗霊はノアの洪水である。<br><br> 病気は無論ある。<br><br>これが一番恐ろしい。<br><br> 浄化も最後は一切が一遍に出てくるとみてよい。<br><br>その時こそ信者は大いに働かなくてはならぬ。<br><br> 予言になるから詳しくはいえぬ。<br><br> 病気は直接的に――。<br><br>（S24. 7.17） 064 黎明霊界の現時刻 ただ今霊界の夜明けの状態は現界の時間にして何時頃で御座いましょうか。<br><br> 夏と冬と違うが、間もなく夜が明ける。<br><br>四時と五時の間位である。<br><br> 065 大浄化の特別お伺い会 時節柄政治や戦争等の大浄化の将来につきましては大先生様よりの御指導は頂けない事と存じますが、この点の深い御指示を頂くには他の適当な場所及び機会を得て御伺いさせて頂くべきでしょうか。<br><br>あるいは平常この御席で御伺い申し上げた程度を承知させて頂いておればよいので御座いましょうか。<br><br>右、御教示御願い申し上げます。<br><br> これでよろしい。<br><br>外へ知らすと不公平になり――、神に秘密はない。<br><br>よく別に呼んでコソコソやるが、これは悪の世界のやり方である。<br><br>いかなる時もいかなる人にも――。<br><br> 智慧証覚の進んだ人はお話の深くを悟り得る。<br><br>そのまま判る人あるいは半分位しか判らぬのもある。<br><br>大浄化されれば曇りが除れるから良くなる。<br><br>医学的に健康は違うが、本当の浄化は激しくなるに決っている。<br><br>将来戦争はなくなり、政治も本当の正しい美の政治となる。<br><br>（S23.12.18） 066 救世教になっての浄化 明主様の御写真、大光明如来様を御祀りしている女の信者で御座いますが、大浄化のため最近死亡致しました。<br><br>家族の者は引続いてお祀りするのを嫌っております。<br><br>そこで本人の実家の方では入信致しておりますので御写真並びに御神体を自分の家へ御迎えしてお祀り致したいと申しております。<br><br>どう致しましたら宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> メシヤ教になってからは霊界がよほど違う。<br><br>大体今年に入ってからで――というのは、厳しくなった。<br><br>どうしても改心しなきゃならぬ事となった。<br><br>その代り線に入れば、先より良い事が余計にある。<br><br>（S25. 2.11） 067 浄化激化 浄化が激しくなると言いますが、果して人体に影響しますでしょうか。<br><br>また、その頃は世の中はどう変るでしょうか。<br><br> 浄化激しくなると、人体に影響して病気が殖える。<br><br>その代り吾々の方は病気の治りが早くなる。<br><br>医者では治らなくなる。<br><br>特権階級は落っこちた。<br><br>華族はとられるし、皇族も困っている。<br><br>こうして特権階級は罪をとられた。<br><br>そして本当になった。<br><br>これによっても浄化がいかに強いかが分る。<br><br>政党の運動費などもゴマカしが出来なくなった。<br><br>政党献金なども段々出来なくなる。<br><br>（S23. 8.16） 068 霊現象と転換期 最近木の花会の各教導所を通じて互に関連のあるような霊的現象がありますが、何か大きな転換期に当っているでしょうか。<br><br> ひとり木の花会のみでない。<br><br>人類全体の転換期である。<br><br>（S24. 2.12） 069 本年の見通し 本年度の見通しについて、 一、昭和二十四年、二十五年は大浄化の最高潮の時期だという事を間接的に御伺いしておりますが、どうでございましょうか。<br><br> 二、他宗教でもその様な事を種々申しているようですが、どうでしょうか。<br><br> 三、病気、戦争、経済、天災等について。<br><br> 右、御教示御願い申し上げます。<br><br> 二十五年あたりが転換期であるから、ひどい。<br><br>ユダヤでも言っている。<br><br>（病気ばかりでない） 病気や天災はある。<br><br>注射すると悪くなるような事がある。<br><br>戦争もあろう。<br><br>米ソは戦争によらなくては解決つかぬ。<br><br> 両方共――特にソ連の方は避けているが、避けつつ共産化しつつある。<br><br>朝鮮でも撤廃したが、朝鮮人を共産化して見込みが着いたので引込めた。<br><br>ソ連の共産主義と中共軍の方とは違うが、元は一つのものである。<br><br> 支那を赤化すれば、アジアは大半赤化する。<br><br>後、日本より外ないので、日本を共産化の防壁たらしめんとする。<br><br> 日本の再武装をし、兵隊を日本人から沢山とる事になる。<br><br> 両方で軍備している。<br><br>ソ連は原爆が出来ている。<br><br>（S24. 1. 8） 070 大浄化の時期 肉体的、また、社会的な大浄化は来年あたりから急激に来るのでしょうか。<br><br>あるいは四、五年の間は大浄化の来方も緩慢で、それから急激に来るものでしょうか。<br><br> 右の事は、一同の者多大の関心を持っております事故、何卒御教示を御願い申し上げます。<br><br> よほど前から来ている。<br><br>今来つつある。<br><br>特権階級の没落などそうである。<br><br>今政界の大浄化が来ている。<br><br>急激に来るものではない。<br><br>いかなる事でも一切は急激に来るものはない。<br><br>段々来るものである。<br><br>疥癬は段々なくなる。<br><br>疥癬は緩慢な浄化で、こんな有難い浄化はない。<br><br>緩慢であるから生命に関わらぬ。<br><br>急激なのは天然痘のようなものである。<br><br>しかし大体生命のなくなるもっとひどいのが来る。<br><br>急に天然痘に他の病気が加わるから、天然痘のもっと急激で重いものが来る。<br><br>今、他のいろんな浄化が来ている。<br><br>神様がうまくやっているんであろう。<br><br> 支那の戦争など大浄化で、蒋介石は危い。<br><br>日本はいろんな没落や皇族の生活難、金持の没落等で、朝鮮の浄化とても大変である。<br><br>全般的に来る。<br><br>段々濃厚に強くなる。<br><br>ただいろんな予言はしない。<br><br>一番困るのは「今に大審判が来ると、教団のものだけ助かる」などと言う事で、私の言う通り言わぬ。<br><br>古い宗教は差支えないが、新宗教はすぐに問題になる。<br><br> 071 大浄化と人口激減 信仰雑話「霊線に就て」の御話の中に『今後星の数も、人類の数も、いか程増加するか量り知れないものがあろう』とありますが、来るべき大浄化によります人口の激減との関連につきまして、御垂示御願い申し上げます。<br><br> 大浄化で人口が減っても霊は減らぬ。<br><br>いずれまた殖える。<br><br>これからは善いのが殖えるからそれでよい。<br><br>（S24.10.28） 072 狐霊界の寿命 狐霊は異口同音に「我々の世界はあと一年半だ」と申しますが、その後狐霊その他の邪霊はいかになるものでございましょうか。<br><br> 狐霊で改心するのは助けられる。<br><br>でないと永久に掃溜のような所へ閉鎖される。<br><br>無期徒刑のようなものである。<br><br> 今年の暮から、来年へかけて大変である。<br><br>浄化の最後になる。<br><br>（S24. 5）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Período de Transição 2</h2>
 <h3>060. A Era de Terror do Japão (A natureza da era de terror deste século, os terremotos e as máculas humanas)</h3>
@@ -150,5 +302,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> Os espíritos de raposa dizem, em uníssono: "Nosso mundo só tem mais um ano e meio de existência". O que acontecerá com eles e com os demais espíritos malignos depois disso?</p>
 <p><strong>Meishu-Sama:</strong> Os espíritos de raposa que se converterem serão salvos. Caso contrário, serão confinados eternamente em um lugar semelhante a um depósito de lixo. É como uma sentença de prisão perpétua.</p>
 <p>Do final deste ano até o próximo, o período será muito difícil. Será o ápice da purificação. (Maio de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 建設破壊篇 ４ 060-072 転換期２ 060 日本の恐怖時代、（今世紀の恐怖時代の在り方）、地震と人間の曇り 日本の恐怖時代はいつ頃終了致しますか。<br/><br/>また、最も烈しいのはいつ頃でしょうか。<br/><br/>また、それはどのような形で現われますか。<br/><br/>御伺い致します。<br/><br/> 日本の恐怖時代は戦争以来今も行われつつあるが、浄化の強くなるのはこれからで、大体二十五年という事になっている。<br/><br/> これは浄化の形になる。<br/><br/>浄化とは掃除であるから、汚いものが掃除されるんで、人間の苦しむ事は皆掃除である。<br/><br/>戦争もインフレも、物資不足も地震も、皆浄化作用である。<br/><br/> 地震は地殻の収縮であるが、曇りの多い人は災害の起る所へ自ら集まるもので、そこで清算される。<br/><br/>人間の身体でも膿は一所へ集まるが、それと同じ事で、これを大きく考えればよい。<br/><br/> 地震の起る事は決っているのであるが、曇りの多い人は、そこへ浄化さるべく集まるのである。<br/><br/>霊界には曇った所と、それ程ひどくない所などいろいろある。<br/><br/>曇りの多い人は曇りの多い場所へ行くようになる。<br/><br/> どのような形で浄化作用は行われるかというと、小三災と大三災で、日本においては、飢病戦が主であるが、風水火も二、三年の中には来るかも知れぬ。<br/><br/>今迄のそれは局部的のものであった。<br/><br/>今度はもっと広範囲にあると思う。<br/><br/> 今度の恐怖時代はノアの洪水のごとく全滅的でなく、今度は火の洗礼で、今の文化を滅さぬ程度に行われると思う。<br/><br/>しかし、これは予言するように思われるので、今は判らないとしておく。<br/><br/> 061 最後の審判の表われ方 最後の審判はどの様な形で行われるので御座いましょうか。<br/><br/> これは、はっきりは言えぬ。<br/><br/>（浄化が）極端になる。<br/><br/>表われ方は神秘である。<br/><br/> 062 地球の浄化 地球の浄化とは―― いろいろで、病気、地震、洪水等、あるいは物質不足等いろいろある。<br/><br/>戦争等もそうで、米ソの冷い戦争などもそうである。<br/><br/>風水害等もある。<br/><br/> 063 大浄化の様相 夜の世より昼の世界への転換には最後の審判即ち一大浄化があるように承っておりますが、現界にはいかなる形によって現れるので御座いましょうか。<br/><br/>水の洗霊、火の洗霊、天変、地変、病難、災難等のうちどれでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 火の洗霊は霊的で、浄霊――。<br/><br/> 水の洗霊はノアの洪水である。<br/><br/> 病気は無論ある。<br/><br/>これが一番恐ろしい。<br/><br/> 浄化も最後は一切が一遍に出てくるとみてよい。<br/><br/>その時こそ信者は大いに働かなくてはならぬ。<br/><br/> 予言になるから詳しくはいえぬ。<br/><br/> 病気は直接的に――。<br/><br/>（S24. 7.17） 064 黎明霊界の現時刻 ただ今霊界の夜明けの状態は現界の時間にして何時頃で御座いましょうか。<br/><br/> 夏と冬と違うが、間もなく夜が明ける。<br/><br/>四時と五時の間位である。<br/><br/> 065 大浄化の特別お伺い会 時節柄政治や戦争等の大浄化の将来につきましては大先生様よりの御指導は頂けない事と存じますが、この点の深い御指示を頂くには他の適当な場所及び機会を得て御伺いさせて頂くべきでしょうか。<br/><br/>あるいは平常この御席で御伺い申し上げた程度を承知させて頂いておればよいので御座いましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> これでよろしい。<br/><br/>外へ知らすと不公平になり――、神に秘密はない。<br/><br/>よく別に呼んでコソコソやるが、これは悪の世界のやり方である。<br/><br/>いかなる時もいかなる人にも――。<br/><br/> 智慧証覚の進んだ人はお話の深くを悟り得る。<br/><br/>そのまま判る人あるいは半分位しか判らぬのもある。<br/><br/>大浄化されれば曇りが除れるから良くなる。<br/><br/>医学的に健康は違うが、本当の浄化は激しくなるに決っている。<br/><br/>将来戦争はなくなり、政治も本当の正しい美の政治となる。<br/><br/>（S23.12.18） 066 救世教になっての浄化 明主様の御写真、大光明如来様を御祀りしている女の信者で御座いますが、大浄化のため最近死亡致しました。<br/><br/>家族の者は引続いてお祀りするのを嫌っております。<br/><br/>そこで本人の実家の方では入信致しておりますので御写真並びに御神体を自分の家へ御迎えしてお祀り致したいと申しております。<br/><br/>どう致しましたら宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> メシヤ教になってからは霊界がよほど違う。<br/><br/>大体今年に入ってからで――というのは、厳しくなった。<br/><br/>どうしても改心しなきゃならぬ事となった。<br/><br/>その代り線に入れば、先より良い事が余計にある。<br/><br/>（S25. 2.11） 067 浄化激化 浄化が激しくなると言いますが、果して人体に影響しますでしょうか。<br/><br/>また、その頃は世の中はどう変るでしょうか。<br/><br/> 浄化激しくなると、人体に影響して病気が殖える。<br/><br/>その代り吾々の方は病気の治りが早くなる。<br/><br/>医者では治らなくなる。<br/><br/>特権階級は落っこちた。<br/><br/>華族はとられるし、皇族も困っている。<br/><br/>こうして特権階級は罪をとられた。<br/><br/>そして本当になった。<br/><br/>これによっても浄化がいかに強いかが分る。<br/><br/>政党の運動費などもゴマカしが出来なくなった。<br/><br/>政党献金なども段々出来なくなる。<br/><br/>（S23. 8.16） 068 霊現象と転換期 最近木の花会の各教導所を通じて互に関連のあるような霊的現象がありますが、何か大きな転換期に当っているでしょうか。<br/><br/> ひとり木の花会のみでない。<br/><br/>人類全体の転換期である。<br/><br/>（S24. 2.12） 069 本年の見通し 本年度の見通しについて、 一、昭和二十四年、二十五年は大浄化の最高潮の時期だという事を間接的に御伺いしておりますが、どうでございましょうか。<br/><br/> 二、他宗教でもその様な事を種々申しているようですが、どうでしょうか。<br/><br/> 三、病気、戦争、経済、天災等について。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 二十五年あたりが転換期であるから、ひどい。<br/><br/>ユダヤでも言っている。<br/><br/>（病気ばかりでない） 病気や天災はある。<br/><br/>注射すると悪くなるような事がある。<br/><br/>戦争もあろう。<br/><br/>米ソは戦争によらなくては解決つかぬ。<br/><br/> 両方共――特にソ連の方は避けているが、避けつつ共産化しつつある。<br/><br/>朝鮮でも撤廃したが、朝鮮人を共産化して見込みが着いたので引込めた。<br/><br/>ソ連の共産主義と中共軍の方とは違うが、元は一つのものである。<br/><br/> 支那を赤化すれば、アジアは大半赤化する。<br/><br/>後、日本より外ないので、日本を共産化の防壁たらしめんとする。<br/><br/> 日本の再武装をし、兵隊を日本人から沢山とる事になる。<br/><br/> 両方で軍備している。<br/><br/>ソ連は原爆が出来ている。<br/><br/>（S24. 1. 8） 070 大浄化の時期 肉体的、また、社会的な大浄化は来年あたりから急激に来るのでしょうか。<br/><br/>あるいは四、五年の間は大浄化の来方も緩慢で、それから急激に来るものでしょうか。<br/><br/> 右の事は、一同の者多大の関心を持っております事故、何卒御教示を御願い申し上げます。<br/><br/> よほど前から来ている。<br/><br/>今来つつある。<br/><br/>特権階級の没落などそうである。<br/><br/>今政界の大浄化が来ている。<br/><br/>急激に来るものではない。<br/><br/>いかなる事でも一切は急激に来るものはない。<br/><br/>段々来るものである。<br/><br/>疥癬は段々なくなる。<br/><br/>疥癬は緩慢な浄化で、こんな有難い浄化はない。<br/><br/>緩慢であるから生命に関わらぬ。<br/><br/>急激なのは天然痘のようなものである。<br/><br/>しかし大体生命のなくなるもっとひどいのが来る。<br/><br/>急に天然痘に他の病気が加わるから、天然痘のもっと急激で重いものが来る。<br/><br/>今、他のいろんな浄化が来ている。<br/><br/>神様がうまくやっているんであろう。<br/><br/> 支那の戦争など大浄化で、蒋介石は危い。<br/><br/>日本はいろんな没落や皇族の生活難、金持の没落等で、朝鮮の浄化とても大変である。<br/><br/>全般的に来る。<br/><br/>段々濃厚に強くなる。<br/><br/>ただいろんな予言はしない。<br/><br/>一番困るのは「今に大審判が来ると、教団のものだけ助かる」などと言う事で、私の言う通り言わぬ。<br/><br/>古い宗教は差支えないが、新宗教はすぐに問題になる。<br/><br/> 071 大浄化と人口激減 信仰雑話「霊線に就て」の御話の中に『今後星の数も、人類の数も、いか程増加するか量り知れないものがあろう』とありますが、来るべき大浄化によります人口の激減との関連につきまして、御垂示御願い申し上げます。<br/><br/> 大浄化で人口が減っても霊は減らぬ。<br/><br/>いずれまた殖える。<br/><br/>これからは善いのが殖えるからそれでよい。<br/><br/>（S24.10.28） 072 狐霊界の寿命 狐霊は異口同音に「我々の世界はあと一年半だ」と申しますが、その後狐霊その他の邪霊はいかになるものでございましょうか。<br/><br/> 狐霊で改心するのは助けられる。<br/><br/>でないと永久に掃溜のような所へ閉鎖される。<br/><br/>無期徒刑のようなものである。<br/><br/> 今年の暮から、来年へかけて大変である。<br/><br/>浄化の最後になる。<br/><br/>（S24. 5）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

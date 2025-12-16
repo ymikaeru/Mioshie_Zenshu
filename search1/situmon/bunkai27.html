@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai27</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 光明分会『会報』８月号、昭和24(1949)年8月1日発行 ――俗に丑満時〔丑三つ時〕と申します午前二時より四時までは、なにか霊と人間との間に関係がございましょうか。<br><br> 丑満時は呼吸の一番止まったときで、草木も眠る丑満時と言われ、すべてのものが静止するときで、人間も一番安眠できるのです。<br><br> ――旱魃（かんばつ）のとき「千段焚（せんだんたき）」と申しまして、農民が池や川のほとりで火を焚いて雨乞いを祈りますが、効果があるのでございましょうか。<br><br> 少しはあります。<br><br>花火をたくさん上げる、または大戦後に降雨があるが、これは水気を呼ぶと言われ、雨が降るのです。<br><br> ――水虫は昆虫霊とのことでございますが、「田虫」「いんきん」もやはり昆虫の霊でございましょうか。<br><br>またなぜ水虫は足に憑依するのでございましょうか。<br><br> 水虫は薬毒で重いものであり、重いと下へ垂れ、ごく重いものは足の下に溜まり、それに虫が湧くのです。<br><br>薬を服まなければなく、人造病です。<br><br>いんきん、田虫も薬毒です。<br><br> ――ある家で、七年前仏壇にお祭りしておきました阿弥陀様と不動様の左右の手が折れてから、子供を九人次々肺病で亡くし、妻も死亡し、最後に残った娘も現在胃癌のため明日をも知れない状態にありますが、なにか霊的に障りがあるのでございましょうか。<br><br>またいかに処置いたしましたらよろしゅうございましょうか。<br><br> 胃癌は四〇歳過ぎなければありません。<br><br>霊がついていると、早く直してもらいたいから戒告をします。<br><br>兄弟死は必ずだれかを霊界に次々と連れて行くものです。<br><br>破損した仏像は早く修繕すべきです。<br><br> ――Ｓ・Ｈという信者でございますが、夫養子を迎えましたが、長男が戦死したのみならず、夫も行方不明となりました。<br><br>その後Ｕ・Ｋという人と内縁関係を結び二人の子供がありますが、Ｕ・Ｋは死亡いたしました。<br><br>この場合いかにお祀りいたすのが正しいのでございましょうか。<br><br> 夫養子、後のＵというように順序正しければよろしい。<br><br> ――戦死者の遺骨が還ってまいりましたが、埋葬しようとして木箱の中を開けてみましたところ、白木の位牌に俗名が書いてあるだけでございますが、字が違い当て字でございますので、そのまま埋葬するに忍びません。<br><br>公葬や、お葬式もすんでおりますので、いかがいたしましたらよろしゅうございましょうか。<br><br> ふつうに、僧に頼み戒名をつけ祀ればよい。<br><br>この場合名前の違ったのは意味がないからそれは止めればよろしい。<br><br> ――発狂した子供を、浄霊いたしたくも逃げてしまいます。<br><br>寝ているところを浄霊しましても、すぐ起きます。<br><br>寝ている間に着衣を浄霊しましてもすぐ起きてきてひったくり、塩と灰とでゴシゴシこすります。<br><br>いかがいたしましたらよろしゅうございましょうか。<br><br> 光明如来を祭り、その部屋に寝かせれば治るでしょう。<br><br>子が悪いのは、親が悪いから、親が浄まればだんだん治るでしょう。<br><br> ――栃木市在住の会員（Ｓさん）の宅でございますが、その家に弁天池があり、昔はその他の水で三町歩からの田がどんな日照りにも植え付けができたそうでございますが、一度この池を埋めましたところあまり不幸な変わり事ができますので元の池を掘り直しましたところ、水の出は細いそうでございますが、なにか霊的に関係がございましょうか。<br><br> 龍神が住んでいたのを埋めたからよくない。<br><br>池はきれいに掃除すること。<br><br>お宮を作り名をつけてやりなさい。<br><br>地名を取った名前でもよろしい。<br><br> ――二三歳の娘、御浄霊をいたしましたところ、犬神様の霊が憑っておりまして、昨年その娘の父が実行組合長をしておりまして、米の供出量を決定しましたところ、Ｔという人が、それは不公平だと言って非常に怨み、犬神様へ詣り、その娘を殺してくれと頼まれたので殺そうとして憑っていると申します。<br><br>御浄霊をいたしますと非常に苦しみます。<br><br>いかに話しましても聞き入れず、この娘の命を取るまでは離れないと言います。<br><br>続いて御浄霊をいたしておりましたが、苦しいのであるから「心経」を三回上げてくれ、そうしたら出るからと申しますので、家族の人が上げましたところふつうの状態となりました。<br><br>はたして霊が出たのでございましょうか。<br><br>もしまた憑依いたしましたらいかがいたしまして、よろしゅうございましょうか。<br><br>なお犬神様とはなんでございましょうか。<br><br> 人間が、畜生道に落ち犬になったものです。<br><br>一度神に祀ってもらったことがあり、信仰に入ればだんだん治ります。<br><br> ――七夕と天の川について、御教えをお願い申し上げます。<br><br> 「七夕」は作ったものです。<br><br>星を人格化することは昔からあって、天の川は星の参集で、星の世界にも、人間の多い土地と少ない土地とあるように、星の世界にもそのようなところがあります。<br><br> ――各地方の祭典の際お神輿をかついでお祝いいたしますが、特別に意味がございましょうか。<br><br> その土地の氏子が、年一回ずつ氏神様にお願いして土地を巡視してもらうことになるのです。<br><br> ――ある信者の家で雨洩りのため、御神体に「しみ」がつきましたが、この御神体はこのままお祭りいたしておりましてもよろしゅうございましょうか。<br><br>また夏季、虫がとまり御神体の偶のほうに「しみ」をつけましたのもございますが、いかがいたしましたらよろしゅうございましょうか。<br><br> 不可です。<br><br>一度経師屋に見せ、しみ抜きができればして、さもなくば取り替える。<br><br>家座敷に相応の御神体をお祭りすること。<br><br> ――お光をいただいた方と阿弥陀様の御守りをかけた方と一緒にある木の所で写真を写しましたのでございますが、写していただく二人の位置は、阿弥陀様の御守りをかけている人は木に登り、お光をいただいている方はその下にいて写されましたが、焼き付けしてみますとお光をいただいている方のみ写り他の方は少しも姿が写りません。<br><br>なにか霊的に原因がございましょうか（また焦点は実に良く合っております）。<br><br> 間違っておったから、間違っているほうが、消されたのでしょう。<br><br> ――左ききは霊的になにか意味がございましょうか。<br><br> 右が体、左が霊で、霊主体従、左ききは体主霊従のことをしたからでしょう。<br><br>前生は女で嬶（かかあ）天下であったでしょう。<br><br> ――女児が生後三日くらいでふつうの月経と同様なことがあり、近ごろたびたび右のようなことを聞きますが、これはいかなるわけでございましょうか。<br><br> 生まれるときに親の古血を飲み、それで、二、三日経つと吐血する。<br><br>医者は胃潰瘍と言います。<br><br>馬鹿馬鹿しいことで、この場合「下」から出るのです。<br><br>しばらくすると治ります。<br><br> ――医学でいう「敗血症」というのはどういう原因でなるのでございましょうか。<br><br>また浄霊の方法を御教えのほどお願い申し上げます。<br><br> 血が非常に濁っていて、皮膚に斑点ができるのは濁り血です。<br><br>血管が切れると血が止まらず出放しになり、死ぬこともあります。<br><br>浄霊で簡単に治ります。<br><br> ――富山県地方は、葬式の場合床の間に阿弥陀様のお軸をおかけして式をいたします。<br><br>習慣になっておりますが、この場合御神体はいかようにいたしましたらよろしゅうございましょうか。<br><br> 御神体を外してはいけません。<br><br>その隣りに掛ければよろしい。<br><br> ――甲乙二人の信者さんがありまして、乙は癲癇持ちでございます。<br><br>甲がその癲癇の方を浄霊いたしておりますと、その方に霊が憑り、「家族の者が判らないから、甲の宅へ祀ってもらいたい」と申しますので、甲の宅ではさっそく祀りました。<br><br>すると甲の家族の者が乙の病人と同様の寒気ふるいが起りましたので御浄霊いたしますと楽になります。<br><br>すると乙の方が同様の状態になります。<br><br>このようにしていっぽうが楽になれば他方が苦しむというふうに、交互に続き今日まで数日におよび困っております。<br><br>もっともこれは甲の宅へ乙が浄霊を受けに参ったときのみでございます。<br><br>これはいかなる霊的作用でございましょうか。<br><br>またいかがいたしましたらよろしゅうございましょうか。<br><br> 祀り方が不可で安住できないからでしょう。<br><br>祀るときは家族より小さく一番端に祀ること。<br><br> ――ある家の夫人が病気のとき、大きい「なめくじ」が枕許にいました。<br><br>その夫人が亡くなりましてからお墓へ行きましたら、お墓に、枕許にいたのと同様の「なめくじ」がいました。<br><br>そしてまた赤飯を焚きまして神様にお供えいたしましたら「なめくじ」が赤飯を埋めてしまいました。<br><br>少し経ってみましたら一匹もいませんでした。<br><br>なにか意味がございましょうか。<br><br> 「なめくじ」と亡くなった婦人と関係があって、この婦人の子供かなにか身内のものの霊が「なめくじ」に憑依したのでしょう。<br><br>「なめくじ」についた子供が「なめくじ」に関係あり、一度「なめくじ」に生まれたことがあるのです。<br><br> ――ある妻女が死んだ子供を夢に見ましたところ、顔は生前の子供の顔で、首から下が直径六、七寸の胴体を持つ長さ一丈ほどの鰻で、海の中より自分に抱かれようとしていたと申します。<br><br>その人は以前魚屋をしておりましたことがあり、子供はそのとき生まれたと申しております。<br><br>これはいかなるわけでございましょうか。<br><br> 海の大きな鰻が祟ったのでしょう。<br><br>人間は蛇になるのは下よりだんだんとなり、ついに顔も蛇になるのです。<br><br> ――最近肺結核で亡くなりましたある信者の妻でございますが、結婚直後発病して亡くなるまで実家で病臥しておりましたが、納骨は実家の墓地にいたしましてもよろしゅうございましょうか、お伺い申し上げます。<br><br>実家と婚家の宗旨は違います。<br><br> 実家でよろしい。<br><br>嫁して相当期間経ったのは婚家で、短いときは実家でよろしい。<br><br> ――一七歳の娘でございますが、昨年六月ごろより両足よりしだいに上に向かって小さいソバカスのようなものが一面にできてまいり、ついにお腹の所以下一面にでき、着物を脱ぎますと、できています所は薄黒く見られました。<br><br>その娘が一週間ほど前に突然鼻血を出し、朝早くより午後三時ごろまで出ておりましたが、その間御浄霊させていただきまして止まりました。<br><br>その後食欲進まず、一日置いてふたたび鼻血が半日ほど出て止まりましたが、ついに死亡いたしました。<br><br>一年くらいの間にできましたソバカス様のものはいかなるものでございましょうか。<br><br> 皮膚の表に出るのはたいてい毒血ですが、ソバカスですから霊的でしょう。<br><br>ソバカスができたのは龍神の霊でしょう。<br><br>龍女は早く死ぬと早く人間に生まれ変わってくるから、死にたいのです。<br><br>そのようなこともあります。<br><br> ――「ホクロ」「ソバカス」「クスべ」はどのように違うのでございましょうか。<br><br>特に眼の下、口のまわりなどに「ホクロ」「クスベ」のありますのは意味があるように申しますが、霊的にいかなる意味があるのでございましょうか。<br><br> 口のまわりにあるのは食うに困らない。<br><br>目の下の涙袋の側はよくありません。<br><br>眉毛の中間にあるのは親の財産をつぶし、腕、足にあるのは腕や足をよく使うからです。<br><br>ソバカスは血の中の一つの毒素です。<br><br>若い人に多く、老人になると少なくなります。<br><br> ――蛍の光は化学でもまだ解けぬと言われておりますが、これはいかなるものでございましょうか。<br><br> 光には、日の光と月の光とあり、蛍の光は月の光ですから熱がありません。<br><br>太陽は熱光、蛍は冷光で、熱のあるのは体のほうが多く、赤味が多い。<br><br>熱のないのは体のほうが少なく、赤味も少ないのです。<br><br> ――春夏秋冬は地球の呼吸運動であるとの御教えでございますが、これまでの学問では、地球は自転しながら太陽の周りを公転しているためだと言われておりますが、いかなるものでございましょうか。<br><br> 地球の熱は地熱のほうが多く、地球はまわらないで太陽がまわるのです。<br><br>位の高いのが地球であって、位は太陽、月のほうが下です。<br><br>雪が積もって、溶けるのは、上からでなく下から溶けるのは、地熱のほうが多いからです。<br><br>もし太陽のほうが多ければ上から溶けて、高山の雪は溶けなければならないわけです。<br><br>春夏秋冬の季節は地熱のためです。<br><br> ――非常に驚いたような場合、腰が抜けるというのはいかなるわけでございましょうか。<br><br> あまりないようです。<br><br>一時的の現象です。<br><br> ――正守護神はその人の身辺にて守護しているとの御教えをいただいておりますが、霊の見える人であれば正守護神も見えるのでございましょうか。<br><br> 正守護神はあまり見えません。<br><br>動物霊や死霊は見えます。<br><br>霊は霊界におります。<br><br>だんだん希薄になりますので、見えなくなります。<br><br>正守護神は執着がとられたので希薄になっているので見えないのでしょう。<br><br> ――人間が死ぬ直前に一時よくなることがございますが、いかなるわけでございましょうか。<br><br> 人間死ぬ前に霊が抜けますので、一時楽になりますが、活気がありません。<br><br>嵐の前の静けさというような状態です。<br><br> ――霊が浮いてきて離れません場合、それを鎮めるにはいかにしたらよろしゅうございましょうか。<br><br> 「御鎮り」と言えばよろしい。<br><br>副守護神は臍下丹田（せいかたんでん）と言い、腹にいるのです。<br><br>浮くときは上がってくるから、手を上げ、なで下ろすようにして御鎮りと言います。<br><br> ――惟神霊幸倍坐せの意味につき御教えのほど願い上げます。<br><br> 神のまにまに身魂を大きく、豊かにしていただきたいという意味です。<br><br>体に太い細いのがあるように、魂にも太い細いがあります。<br><br>怯えは細く、大胆は太いのです。<br><br>ずうずうしいのは動物的に太っているので質（たち）が悪い。<br><br> ――ある婦人（信者）で、女児ができるとお乳が充分にあり、男児が生まれると乳が出なくなるそうでございますが、これはなにか霊的に意味がございましょうか。<br><br> 人には男の系統と女の系統とあって、女の系統は女が生まれ、男が生まれると死ぬというような霊統がありますが、右のような霊統でしょう。<br><br>女の霊統は先祖が女の神様で、男の霊統は男の神様です。<br><br> ――出産の際前置胎盤と言って、一命にも関することがございますが、霊的に関係がございましょうか。<br><br>また御浄霊により完全出産ができるものでございましょうか、お伺い申し上げます。<br><br> 浄霊で治ります。<br><br> ――地縛の霊がおられる現場はたびたび同様の事故が起りますが、事故防止をするため供養の方法につき御開示をお願い申し上げます。<br><br> 事故のあった中心に行き、三回くらい祝詞をあげてやるとよい。<br><br> ――仏教にては、「何々家先祖代々之霊位」という位牌を作って祖霊様をお祀りいたしておりますが、神道の形式にてはどのようにしてお祀りしたらよろしゅうございますか。<br><br> 教派神道、神社神道、またはその霊の信仰の程度により祀るとよい。<br><br>そのような信仰をやらぬものは、仏でやってやるとよろしい。<br><br>○○家祖霊神、と祀ればよろしい。<br><br> ――観音様の御姿で、親指と人差し指とで円く結ばれてあるのが拝されますが、いかなる意味がございましょうか、お伺い申し上げます。<br><br> ○は魂を象徴しています。<br><br>中指は不浄を扱うから隠すとの説があります。<br><br>親指は霊で他は体ですから、霊体という意味にもなります。<br><br>太陽も月も地球も丸ですから。<br><br> ――兇党界の三巨頭の霊は、光明世界においてはいかになるのでございましょうか。<br><br> 一カ所に押し込められて出られなくなり、光明界にては活動ができません。<br><br> ――浄土宗や禅宗で、五重とか受戒とか申しまして、五日間の説教や、剃髪の式をいたし、その後血脈と称する証書のようなものをいただき、それを大切に保存しておき、その人の死体とともに葬ることがさかんに行なわれておりますが、なにか霊的に意味がございましょうか、御教えお願いいたします。<br><br> キリスト教で言う「洗礼」で、当教団で言う教修と同じような意味です。<br><br>五日やるから五重、「おさづけ」をいただくから受戒と言います。<br><br>血脈というのは、その開祖と繋がったことになります。<br><br> ――手の平、足の裏がちょうど猫の足のようになっており、「猫罰」などと申しており、松の木の皮状をなしており、長く水に浸していると白くなり薄皮がとれるのです。<br><br>一家族中、母と長女と次男が猫罰であり、父と長男はふつうです。<br><br>またこの家の親類にも七、八軒「猫罰」の人があります。<br><br>猫罰は五代続けば自然消滅すると申して、諦めていますが、この原因はなんに因るのでございましょうか。<br><br>また浄霊により全治可能でしょうか、御教え願います。<br><br> 猫が恨むと言っても、一人くらいはありますが、これはたぶん薬毒でしょう。<br><br>薬毒は、手足に溜まりますから。<br><br>そのようなものです。<br><br>浄霊で治ります。<br><br> ――お角力取りはみんな同じように良く太っておりますが、霊的になにか関係がございましょうか、お伺い申し上げます。<br><br> 霊的でなく体的で、腎臓が悪いために長生きする人はほとんどありません。<br><br>尿毒です。<br><br> ――正月以来同じ夢を数回見ました。<br><br>その夢は自分のほうに向かって馬が暴れてきます。<br><br>それはなにか霊的に関係がございますか。<br><br>もし霊的に関係がございましたらどのようにいたしたらよろしゅうございますか、御教えお願いいたします。<br><br> 信仰に入ると、よくこんな夢を見ます。<br><br>それは馬が救ってもらいたいからやってくるのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e o Mundo Espiritual</h2>
 <p><strong>P: Existe alguma relação especial entre o mundo espiritual e os seres humanos durante o período conhecido popularmente como a "hora do boi" (<em>ushimitsudoki</em>), entre duas e quatro da manhã?</strong></p>
@@ -172,5 +324,48 @@ function toggleLang(lang) {
 <p>R: A causa não é espiritual, mas física. Devido a problemas renais, raramente são longevos. Sofrem de toxinas urêmicas.</p>
 <p><strong>P: Desde o Ano Novo, tenho tido o mesmo sonho repetidas vezes: um cavalo avança furiosamente em minha direção. Isso tem alguma relação espiritual? Se sim, como devo proceder?</strong></p>
 <p>R: Ao ingressar na Fé, é comum ter sonhos como esse. Significa que o espírito do cavalo está se aproximando em busca de salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の鍵 光明分会『会報』８月号、昭和24(1949)年8月1日発行 ――俗に丑満時〔丑三つ時〕と申します午前二時より四時までは、なにか霊と人間との間に関係がございましょうか。<br/><br/> 丑満時は呼吸の一番止まったときで、草木も眠る丑満時と言われ、すべてのものが静止するときで、人間も一番安眠できるのです。<br/><br/> ――旱魃（かんばつ）のとき「千段焚（せんだんたき）」と申しまして、農民が池や川のほとりで火を焚いて雨乞いを祈りますが、効果があるのでございましょうか。<br/><br/> 少しはあります。<br/><br/>花火をたくさん上げる、または大戦後に降雨があるが、これは水気を呼ぶと言われ、雨が降るのです。<br/><br/> ――水虫は昆虫霊とのことでございますが、「田虫」「いんきん」もやはり昆虫の霊でございましょうか。<br/><br/>またなぜ水虫は足に憑依するのでございましょうか。<br/><br/> 水虫は薬毒で重いものであり、重いと下へ垂れ、ごく重いものは足の下に溜まり、それに虫が湧くのです。<br/><br/>薬を服まなければなく、人造病です。<br/><br/>いんきん、田虫も薬毒です。<br/><br/> ――ある家で、七年前仏壇にお祭りしておきました阿弥陀様と不動様の左右の手が折れてから、子供を九人次々肺病で亡くし、妻も死亡し、最後に残った娘も現在胃癌のため明日をも知れない状態にありますが、なにか霊的に障りがあるのでございましょうか。<br/><br/>またいかに処置いたしましたらよろしゅうございましょうか。<br/><br/> 胃癌は四〇歳過ぎなければありません。<br/><br/>霊がついていると、早く直してもらいたいから戒告をします。<br/><br/>兄弟死は必ずだれかを霊界に次々と連れて行くものです。<br/><br/>破損した仏像は早く修繕すべきです。<br/><br/> ――Ｓ・Ｈという信者でございますが、夫養子を迎えましたが、長男が戦死したのみならず、夫も行方不明となりました。<br/><br/>その後Ｕ・Ｋという人と内縁関係を結び二人の子供がありますが、Ｕ・Ｋは死亡いたしました。<br/><br/>この場合いかにお祀りいたすのが正しいのでございましょうか。<br/><br/> 夫養子、後のＵというように順序正しければよろしい。<br/><br/> ――戦死者の遺骨が還ってまいりましたが、埋葬しようとして木箱の中を開けてみましたところ、白木の位牌に俗名が書いてあるだけでございますが、字が違い当て字でございますので、そのまま埋葬するに忍びません。<br/><br/>公葬や、お葬式もすんでおりますので、いかがいたしましたらよろしゅうございましょうか。<br/><br/> ふつうに、僧に頼み戒名をつけ祀ればよい。<br/><br/>この場合名前の違ったのは意味がないからそれは止めればよろしい。<br/><br/> ――発狂した子供を、浄霊いたしたくも逃げてしまいます。<br/><br/>寝ているところを浄霊しましても、すぐ起きます。<br/><br/>寝ている間に着衣を浄霊しましてもすぐ起きてきてひったくり、塩と灰とでゴシゴシこすります。<br/><br/>いかがいたしましたらよろしゅうございましょうか。<br/><br/> 光明如来を祭り、その部屋に寝かせれば治るでしょう。<br/><br/>子が悪いのは、親が悪いから、親が浄まればだんだん治るでしょう。<br/><br/> ――栃木市在住の会員（Ｓさん）の宅でございますが、その家に弁天池があり、昔はその他の水で三町歩からの田がどんな日照りにも植え付けができたそうでございますが、一度この池を埋めましたところあまり不幸な変わり事ができますので元の池を掘り直しましたところ、水の出は細いそうでございますが、なにか霊的に関係がございましょうか。<br/><br/> 龍神が住んでいたのを埋めたからよくない。<br/><br/>池はきれいに掃除すること。<br/><br/>お宮を作り名をつけてやりなさい。<br/><br/>地名を取った名前でもよろしい。<br/><br/> ――二三歳の娘、御浄霊をいたしましたところ、犬神様の霊が憑っておりまして、昨年その娘の父が実行組合長をしておりまして、米の供出量を決定しましたところ、Ｔという人が、それは不公平だと言って非常に怨み、犬神様へ詣り、その娘を殺してくれと頼まれたので殺そうとして憑っていると申します。<br/><br/>御浄霊をいたしますと非常に苦しみます。<br/><br/>いかに話しましても聞き入れず、この娘の命を取るまでは離れないと言います。<br/><br/>続いて御浄霊をいたしておりましたが、苦しいのであるから「心経」を三回上げてくれ、そうしたら出るからと申しますので、家族の人が上げましたところふつうの状態となりました。<br/><br/>はたして霊が出たのでございましょうか。<br/><br/>もしまた憑依いたしましたらいかがいたしまして、よろしゅうございましょうか。<br/><br/>なお犬神様とはなんでございましょうか。<br/><br/> 人間が、畜生道に落ち犬になったものです。<br/><br/>一度神に祀ってもらったことがあり、信仰に入ればだんだん治ります。<br/><br/> ――七夕と天の川について、御教えをお願い申し上げます。<br/><br/> 「七夕」は作ったものです。<br/><br/>星を人格化することは昔からあって、天の川は星の参集で、星の世界にも、人間の多い土地と少ない土地とあるように、星の世界にもそのようなところがあります。<br/><br/> ――各地方の祭典の際お神輿をかついでお祝いいたしますが、特別に意味がございましょうか。<br/><br/> その土地の氏子が、年一回ずつ氏神様にお願いして土地を巡視してもらうことになるのです。<br/><br/> ――ある信者の家で雨洩りのため、御神体に「しみ」がつきましたが、この御神体はこのままお祭りいたしておりましてもよろしゅうございましょうか。<br/><br/>また夏季、虫がとまり御神体の偶のほうに「しみ」をつけましたのもございますが、いかがいたしましたらよろしゅうございましょうか。<br/><br/> 不可です。<br/><br/>一度経師屋に見せ、しみ抜きができればして、さもなくば取り替える。<br/><br/>家座敷に相応の御神体をお祭りすること。<br/><br/> ――お光をいただいた方と阿弥陀様の御守りをかけた方と一緒にある木の所で写真を写しましたのでございますが、写していただく二人の位置は、阿弥陀様の御守りをかけている人は木に登り、お光をいただいている方はその下にいて写されましたが、焼き付けしてみますとお光をいただいている方のみ写り他の方は少しも姿が写りません。<br/><br/>なにか霊的に原因がございましょうか（また焦点は実に良く合っております）。<br/><br/> 間違っておったから、間違っているほうが、消されたのでしょう。<br/><br/> ――左ききは霊的になにか意味がございましょうか。<br/><br/> 右が体、左が霊で、霊主体従、左ききは体主霊従のことをしたからでしょう。<br/><br/>前生は女で嬶（かかあ）天下であったでしょう。<br/><br/> ――女児が生後三日くらいでふつうの月経と同様なことがあり、近ごろたびたび右のようなことを聞きますが、これはいかなるわけでございましょうか。<br/><br/> 生まれるときに親の古血を飲み、それで、二、三日経つと吐血する。<br/><br/>医者は胃潰瘍と言います。<br/><br/>馬鹿馬鹿しいことで、この場合「下」から出るのです。<br/><br/>しばらくすると治ります。<br/><br/> ――医学でいう「敗血症」というのはどういう原因でなるのでございましょうか。<br/><br/>また浄霊の方法を御教えのほどお願い申し上げます。<br/><br/> 血が非常に濁っていて、皮膚に斑点ができるのは濁り血です。<br/><br/>血管が切れると血が止まらず出放しになり、死ぬこともあります。<br/><br/>浄霊で簡単に治ります。<br/><br/> ――富山県地方は、葬式の場合床の間に阿弥陀様のお軸をおかけして式をいたします。<br/><br/>習慣になっておりますが、この場合御神体はいかようにいたしましたらよろしゅうございましょうか。<br/><br/> 御神体を外してはいけません。<br/><br/>その隣りに掛ければよろしい。<br/><br/> ――甲乙二人の信者さんがありまして、乙は癲癇持ちでございます。<br/><br/>甲がその癲癇の方を浄霊いたしておりますと、その方に霊が憑り、「家族の者が判らないから、甲の宅へ祀ってもらいたい」と申しますので、甲の宅ではさっそく祀りました。<br/><br/>すると甲の家族の者が乙の病人と同様の寒気ふるいが起りましたので御浄霊いたしますと楽になります。<br/><br/>すると乙の方が同様の状態になります。<br/><br/>このようにしていっぽうが楽になれば他方が苦しむというふうに、交互に続き今日まで数日におよび困っております。<br/><br/>もっともこれは甲の宅へ乙が浄霊を受けに参ったときのみでございます。<br/><br/>これはいかなる霊的作用でございましょうか。<br/><br/>またいかがいたしましたらよろしゅうございましょうか。<br/><br/> 祀り方が不可で安住できないからでしょう。<br/><br/>祀るときは家族より小さく一番端に祀ること。<br/><br/> ――ある家の夫人が病気のとき、大きい「なめくじ」が枕許にいました。<br/><br/>その夫人が亡くなりましてからお墓へ行きましたら、お墓に、枕許にいたのと同様の「なめくじ」がいました。<br/><br/>そしてまた赤飯を焚きまして神様にお供えいたしましたら「なめくじ」が赤飯を埋めてしまいました。<br/><br/>少し経ってみましたら一匹もいませんでした。<br/><br/>なにか意味がございましょうか。<br/><br/> 「なめくじ」と亡くなった婦人と関係があって、この婦人の子供かなにか身内のものの霊が「なめくじ」に憑依したのでしょう。<br/><br/>「なめくじ」についた子供が「なめくじ」に関係あり、一度「なめくじ」に生まれたことがあるのです。<br/><br/> ――ある妻女が死んだ子供を夢に見ましたところ、顔は生前の子供の顔で、首から下が直径六、七寸の胴体を持つ長さ一丈ほどの鰻で、海の中より自分に抱かれようとしていたと申します。<br/><br/>その人は以前魚屋をしておりましたことがあり、子供はそのとき生まれたと申しております。<br/><br/>これはいかなるわけでございましょうか。<br/><br/> 海の大きな鰻が祟ったのでしょう。<br/><br/>人間は蛇になるのは下よりだんだんとなり、ついに顔も蛇になるのです。<br/><br/> ――最近肺結核で亡くなりましたある信者の妻でございますが、結婚直後発病して亡くなるまで実家で病臥しておりましたが、納骨は実家の墓地にいたしましてもよろしゅうございましょうか、お伺い申し上げます。<br/><br/>実家と婚家の宗旨は違います。<br/><br/> 実家でよろしい。<br/><br/>嫁して相当期間経ったのは婚家で、短いときは実家でよろしい。<br/><br/> ――一七歳の娘でございますが、昨年六月ごろより両足よりしだいに上に向かって小さいソバカスのようなものが一面にできてまいり、ついにお腹の所以下一面にでき、着物を脱ぎますと、できています所は薄黒く見られました。<br/><br/>その娘が一週間ほど前に突然鼻血を出し、朝早くより午後三時ごろまで出ておりましたが、その間御浄霊させていただきまして止まりました。<br/><br/>その後食欲進まず、一日置いてふたたび鼻血が半日ほど出て止まりましたが、ついに死亡いたしました。<br/><br/>一年くらいの間にできましたソバカス様のものはいかなるものでございましょうか。<br/><br/> 皮膚の表に出るのはたいてい毒血ですが、ソバカスですから霊的でしょう。<br/><br/>ソバカスができたのは龍神の霊でしょう。<br/><br/>龍女は早く死ぬと早く人間に生まれ変わってくるから、死にたいのです。<br/><br/>そのようなこともあります。<br/><br/> ――「ホクロ」「ソバカス」「クスべ」はどのように違うのでございましょうか。<br/><br/>特に眼の下、口のまわりなどに「ホクロ」「クスベ」のありますのは意味があるように申しますが、霊的にいかなる意味があるのでございましょうか。<br/><br/> 口のまわりにあるのは食うに困らない。<br/><br/>目の下の涙袋の側はよくありません。<br/><br/>眉毛の中間にあるのは親の財産をつぶし、腕、足にあるのは腕や足をよく使うからです。<br/><br/>ソバカスは血の中の一つの毒素です。<br/><br/>若い人に多く、老人になると少なくなります。<br/><br/> ――蛍の光は化学でもまだ解けぬと言われておりますが、これはいかなるものでございましょうか。<br/><br/> 光には、日の光と月の光とあり、蛍の光は月の光ですから熱がありません。<br/><br/>太陽は熱光、蛍は冷光で、熱のあるのは体のほうが多く、赤味が多い。<br/><br/>熱のないのは体のほうが少なく、赤味も少ないのです。<br/><br/> ――春夏秋冬は地球の呼吸運動であるとの御教えでございますが、これまでの学問では、地球は自転しながら太陽の周りを公転しているためだと言われておりますが、いかなるものでございましょうか。<br/><br/> 地球の熱は地熱のほうが多く、地球はまわらないで太陽がまわるのです。<br/><br/>位の高いのが地球であって、位は太陽、月のほうが下です。<br/><br/>雪が積もって、溶けるのは、上からでなく下から溶けるのは、地熱のほうが多いからです。<br/><br/>もし太陽のほうが多ければ上から溶けて、高山の雪は溶けなければならないわけです。<br/><br/>春夏秋冬の季節は地熱のためです。<br/><br/> ――非常に驚いたような場合、腰が抜けるというのはいかなるわけでございましょうか。<br/><br/> あまりないようです。<br/><br/>一時的の現象です。<br/><br/> ――正守護神はその人の身辺にて守護しているとの御教えをいただいておりますが、霊の見える人であれば正守護神も見えるのでございましょうか。<br/><br/> 正守護神はあまり見えません。<br/><br/>動物霊や死霊は見えます。<br/><br/>霊は霊界におります。<br/><br/>だんだん希薄になりますので、見えなくなります。<br/><br/>正守護神は執着がとられたので希薄になっているので見えないのでしょう。<br/><br/> ――人間が死ぬ直前に一時よくなることがございますが、いかなるわけでございましょうか。<br/><br/> 人間死ぬ前に霊が抜けますので、一時楽になりますが、活気がありません。<br/><br/>嵐の前の静けさというような状態です。<br/><br/> ――霊が浮いてきて離れません場合、それを鎮めるにはいかにしたらよろしゅうございましょうか。<br/><br/> 「御鎮り」と言えばよろしい。<br/><br/>副守護神は臍下丹田（せいかたんでん）と言い、腹にいるのです。<br/><br/>浮くときは上がってくるから、手を上げ、なで下ろすようにして御鎮りと言います。<br/><br/> ――惟神霊幸倍坐せの意味につき御教えのほど願い上げます。<br/><br/> 神のまにまに身魂を大きく、豊かにしていただきたいという意味です。<br/><br/>体に太い細いのがあるように、魂にも太い細いがあります。<br/><br/>怯えは細く、大胆は太いのです。<br/><br/>ずうずうしいのは動物的に太っているので質（たち）が悪い。<br/><br/> ――ある婦人（信者）で、女児ができるとお乳が充分にあり、男児が生まれると乳が出なくなるそうでございますが、これはなにか霊的に意味がございましょうか。<br/><br/> 人には男の系統と女の系統とあって、女の系統は女が生まれ、男が生まれると死ぬというような霊統がありますが、右のような霊統でしょう。<br/><br/>女の霊統は先祖が女の神様で、男の霊統は男の神様です。<br/><br/> ――出産の際前置胎盤と言って、一命にも関することがございますが、霊的に関係がございましょうか。<br/><br/>また御浄霊により完全出産ができるものでございましょうか、お伺い申し上げます。<br/><br/> 浄霊で治ります。<br/><br/> ――地縛の霊がおられる現場はたびたび同様の事故が起りますが、事故防止をするため供養の方法につき御開示をお願い申し上げます。<br/><br/> 事故のあった中心に行き、三回くらい祝詞をあげてやるとよい。<br/><br/> ――仏教にては、「何々家先祖代々之霊位」という位牌を作って祖霊様をお祀りいたしておりますが、神道の形式にてはどのようにしてお祀りしたらよろしゅうございますか。<br/><br/> 教派神道、神社神道、またはその霊の信仰の程度により祀るとよい。<br/><br/>そのような信仰をやらぬものは、仏でやってやるとよろしい。<br/><br/>○○家祖霊神、と祀ればよろしい。<br/><br/> ――観音様の御姿で、親指と人差し指とで円く結ばれてあるのが拝されますが、いかなる意味がございましょうか、お伺い申し上げます。<br/><br/> ○は魂を象徴しています。<br/><br/>中指は不浄を扱うから隠すとの説があります。<br/><br/>親指は霊で他は体ですから、霊体という意味にもなります。<br/><br/>太陽も月も地球も丸ですから。<br/><br/> ――兇党界の三巨頭の霊は、光明世界においてはいかになるのでございましょうか。<br/><br/> 一カ所に押し込められて出られなくなり、光明界にては活動ができません。<br/><br/> ――浄土宗や禅宗で、五重とか受戒とか申しまして、五日間の説教や、剃髪の式をいたし、その後血脈と称する証書のようなものをいただき、それを大切に保存しておき、その人の死体とともに葬ることがさかんに行なわれておりますが、なにか霊的に意味がございましょうか、御教えお願いいたします。<br/><br/> キリスト教で言う「洗礼」で、当教団で言う教修と同じような意味です。<br/><br/>五日やるから五重、「おさづけ」をいただくから受戒と言います。<br/><br/>血脈というのは、その開祖と繋がったことになります。<br/><br/> ――手の平、足の裏がちょうど猫の足のようになっており、「猫罰」などと申しており、松の木の皮状をなしており、長く水に浸していると白くなり薄皮がとれるのです。<br/><br/>一家族中、母と長女と次男が猫罰であり、父と長男はふつうです。<br/><br/>またこの家の親類にも七、八軒「猫罰」の人があります。<br/><br/>猫罰は五代続けば自然消滅すると申して、諦めていますが、この原因はなんに因るのでございましょうか。<br/><br/>また浄霊により全治可能でしょうか、御教え願います。<br/><br/> 猫が恨むと言っても、一人くらいはありますが、これはたぶん薬毒でしょう。<br/><br/>薬毒は、手足に溜まりますから。<br/><br/>そのようなものです。<br/><br/>浄霊で治ります。<br/><br/> ――お角力取りはみんな同じように良く太っておりますが、霊的になにか関係がございましょうか、お伺い申し上げます。<br/><br/> 霊的でなく体的で、腎臓が悪いために長生きする人はほとんどありません。<br/><br/>尿毒です。<br/><br/> ――正月以来同じ夢を数回見ました。<br/><br/>その夢は自分のほうに向かって馬が暴れてきます。<br/><br/>それはなにか霊的に関係がございますか。<br/><br/>もし霊的に関係がございましたらどのようにいたしたらよろしゅうございますか、御教えお願いいたします。<br/><br/> 信仰に入ると、よくこんな夢を見ます。<br/><br/>それは馬が救ってもらいたいからやってくるのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

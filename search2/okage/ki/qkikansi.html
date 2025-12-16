@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkikansi</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 気管支カタルをはじめ大病に窶れた私の更生記 『アメリカを救う』昭和28(1953)年1月1日発行 大阪府 専信中教会 阪田栄三（49） 慢性胃病、肝臓病、気管支加答児（カタル）、関節リウマチ、神経痛等々治り、家畜にまで戴く御神徳の数々にたいして明主様、日々の御守護有難うございます。<br><br>誠に恐縮でございますが、私の戴きました御守護の一端を御報告させて戴きます。<br><br> 私は昭和十七年頃、胸が焼けるようになりまして、医師の診断で胃酸過多症と申され、薬を頂いて服用しますとすぐ治りましたがそれも束の間でした。<br><br>半年後又焼けるようになりましたから前と同様に服薬しましたが、今度は中々思うようにならず、段々と悪い時が多くなりました。<br><br>その内体が衰弱しましたから、あちらの医者こちらの医者と転々と診察を受けますと、胃酸過多症とか慢性胃カタルとか胃拡張、胃下垂云々とまちまちの診断で、毎日服薬しましても効果はなく、胃は段々と張る一方でした。<br><br>それからある市民病院にて「レントゲンを撮って下さい」と申しますと、院長が「これ程の食糧難で誰もが食べても食べても腹が減るのに君のは国策腹だね。<br><br>しかしレントゲンは今毀れている。<br><br>修理ができ次第撮ってあげるから暫く待ってくれ給え」と言われましたが、時日が過ぎる許りで病気はちょっとも楽になりません。<br><br>胃は年中張り詰めてせつない上に、夏は気管支カタル、冬は関節リウマチや神経痛で苦しむので心身共に疲れ、世の中には神も仏もないものかと嘆きながら泥昭生活を続ける中、いよいよ体が衰弱しすぎて働けなくなりました。<br><br>二十六年三月十二日胃腸専門医院で診察を受けますと「長年の胃病から心臓が弱り肝臓が腫れている。<br><br>これは胃癌か肝臓癌又は腸満の一歩手前まできているから気長に静養しないと生命が危ない」との診断でした。<br><br>過去多くの診断の内右の診断が一番確かと信じ、熱心に服薬しますと気のせいか少しずつ楽になるように思いましたが、全快の見通もつかず苦しい泥沼生活を続ける中、救世教で手を翳して貰えばどんな病気でも簡単に癒ると聞きまして「滞るるものは藁をも掴む」のたとえ、早速谷様に浄霊を戴きながら、『地上天国』『信仰雑話』『栄光』新聞等を拝読致しますと不思議に気分が楽になりました。<br><br>私の生きて行く道はこの神様にお縋りするより外にないと信じまして、一切の薬や医師には縁切りして、二十六年八月十六日入信致し御守様を戴きました。<br><br> それから又気管支カタルの浄化をいただきまして有難うございました。<br><br>毎日痰咳で苦しんでおりましたが、八月二十五日の晩はいつもと違って、痰が咽喉へとこみあげて息も出来ないように苦しいので、谷様に一生懸命に御浄霊を戴きますと、昼も晩も痰が出どうしに出ました。<br><br>痰が湧いては咳く、咳いては痰を吐くという始末で、一晩僅か二、三時間眠る位で痰を吐くのに懸命でした。<br><br>これが十日間も続きましたが、別段睡眠不足の疲労も感ぜずに昼は楽に仕事ができ、長年の気管支カタルも以上十日間の大浄化で楽になり、九月六日は御屏風観音様を御奉斎致しました。<br><br>十月十一日岐阜の専信中教会の御例祭にお参りして、先生より御神力の尊さを御指導戴き、なお一層力を得ました。<br><br> 人様に浄霊を致し、「楽になった」「治った」等と言われる度毎に有難く、明主様に感謝しながら日々のすべてをお縋りする次第でございます。<br><br> 十月三十日明主様が京都劇場へお出でになられました時御面会に参じ、その日から毎日胃がムカムカし食事もすすまず、ちょうど御面会の日から一週間目の十一月五日は朝から非常に気分が悪く、御飯は全然受付けず誕がたれ時々胃液まで吐きました。<br><br>二時頃にはちょうど生卵の黄味様のものを二つ吐きまして、後は飴汁様のものをザーッと吐きました。<br><br>この時「アーこれが良く聞く薬毒の浄化なんだな」とつくづく薬毒の恐しさを知りました。<br><br>時々下痢の浄化を戴きました上薬毒の浄化まで戴き、それから追々気分も楽になり食事も美味しくなりました。<br><br>胃が健康になると肝臓の腫脹も引き、関節リウマチや神経痛も起らぬようになりました。<br><br>又本年二月二十八日に五、六回下痢をしまして再び腹の浄化だと思いましたが、二十九日は午前四時より七時までに八回も用便に立ちまして、本格的赤痢と気付き、専ら谷様に御浄霊を戴きますれば一昼夜に二十五、六回も下り、三月一日にも約二十回ありました。<br><br>二日は午前二時頃目を覚すと、盗汗をビッショリかきました。<br><br>同四時頃日を覚すと又もビッショリと寝巻がぬれておりますので不思議に思っておりますと、それまでしぶり通した便通が初めてザーザーと下りました。<br><br>誠に有難い御浄化を戴きまして、その日は四回用便をいたし、三日より平常通りになりました。<br><br> 医学では赤痢は腹の病だと言われ頭痛の種になっておりますが御浄霊では僅か二、三日でケロリと治ります。<br><br> 私も頭の大浄化まで戴きまして心身共に晴々となりました。<br><br> これ皆、明主様の有難き御慈悲によりまして数々の御守護、御浄化を戴きまして、この頃では家内中が無医薬の家庭天国を営み、一人でも多くの人に御神徳の有難さをお伝えしようと念じております。<br><br> 明主様有難うございました。<br><br>謹んで御礼申し上げます。<br><br> （昭和二十七年五月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato da minha recuperação: A superação de graves enfermidades, a começar pela bronquite catarral</h2>
 <p>Publicado em 'Salvar a América', 1º de janeiro de 1953
@@ -103,5 +258,48 @@ Sakata Eizo (49 anos), Igreja Senshin-Tyu, Província de Osaka</p>
 <p>Tudo isso se deve à imensa e sagrada Misericórdia de Meishu-Sama, por meio da qual recebi incontáveis proteções e purificações. Atualmente, toda a minha família vive em um Lar de Paraíso, livre de médicos e medicamentos, e meu desejo é transmitir a grandiosidade da Divina Virtude ao maior número possível de pessoas.</p>
 <p>Muito obrigado, Meishu-Sama. Expresso minha mais respeitosa gratidão.</p>
 <p>(1º de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 気管支カタルをはじめ大病に窶れた私の更生記 『アメリカを救う』昭和28(1953)年1月1日発行 大阪府 専信中教会 阪田栄三（49） 慢性胃病、肝臓病、気管支加答児（カタル）、関節リウマチ、神経痛等々治り、家畜にまで戴く御神徳の数々にたいして明主様、日々の御守護有難うございます。<br/><br/>誠に恐縮でございますが、私の戴きました御守護の一端を御報告させて戴きます。<br/><br/> 私は昭和十七年頃、胸が焼けるようになりまして、医師の診断で胃酸過多症と申され、薬を頂いて服用しますとすぐ治りましたがそれも束の間でした。<br/><br/>半年後又焼けるようになりましたから前と同様に服薬しましたが、今度は中々思うようにならず、段々と悪い時が多くなりました。<br/><br/>その内体が衰弱しましたから、あちらの医者こちらの医者と転々と診察を受けますと、胃酸過多症とか慢性胃カタルとか胃拡張、胃下垂云々とまちまちの診断で、毎日服薬しましても効果はなく、胃は段々と張る一方でした。<br/><br/>それからある市民病院にて「レントゲンを撮って下さい」と申しますと、院長が「これ程の食糧難で誰もが食べても食べても腹が減るのに君のは国策腹だね。<br/><br/>しかしレントゲンは今毀れている。<br/><br/>修理ができ次第撮ってあげるから暫く待ってくれ給え」と言われましたが、時日が過ぎる許りで病気はちょっとも楽になりません。<br/><br/>胃は年中張り詰めてせつない上に、夏は気管支カタル、冬は関節リウマチや神経痛で苦しむので心身共に疲れ、世の中には神も仏もないものかと嘆きながら泥昭生活を続ける中、いよいよ体が衰弱しすぎて働けなくなりました。<br/><br/>二十六年三月十二日胃腸専門医院で診察を受けますと「長年の胃病から心臓が弱り肝臓が腫れている。<br/><br/>これは胃癌か肝臓癌又は腸満の一歩手前まできているから気長に静養しないと生命が危ない」との診断でした。<br/><br/>過去多くの診断の内右の診断が一番確かと信じ、熱心に服薬しますと気のせいか少しずつ楽になるように思いましたが、全快の見通もつかず苦しい泥沼生活を続ける中、救世教で手を翳して貰えばどんな病気でも簡単に癒ると聞きまして「滞るるものは藁をも掴む」のたとえ、早速谷様に浄霊を戴きながら、『地上天国』『信仰雑話』『栄光』新聞等を拝読致しますと不思議に気分が楽になりました。<br/><br/>私の生きて行く道はこの神様にお縋りするより外にないと信じまして、一切の薬や医師には縁切りして、二十六年八月十六日入信致し御守様を戴きました。<br/><br/> それから又気管支カタルの浄化をいただきまして有難うございました。<br/><br/>毎日痰咳で苦しんでおりましたが、八月二十五日の晩はいつもと違って、痰が咽喉へとこみあげて息も出来ないように苦しいので、谷様に一生懸命に御浄霊を戴きますと、昼も晩も痰が出どうしに出ました。<br/><br/>痰が湧いては咳く、咳いては痰を吐くという始末で、一晩僅か二、三時間眠る位で痰を吐くのに懸命でした。<br/><br/>これが十日間も続きましたが、別段睡眠不足の疲労も感ぜずに昼は楽に仕事ができ、長年の気管支カタルも以上十日間の大浄化で楽になり、九月六日は御屏風観音様を御奉斎致しました。<br/><br/>十月十一日岐阜の専信中教会の御例祭にお参りして、先生より御神力の尊さを御指導戴き、なお一層力を得ました。<br/><br/> 人様に浄霊を致し、「楽になった」「治った」等と言われる度毎に有難く、明主様に感謝しながら日々のすべてをお縋りする次第でございます。<br/><br/> 十月三十日明主様が京都劇場へお出でになられました時御面会に参じ、その日から毎日胃がムカムカし食事もすすまず、ちょうど御面会の日から一週間目の十一月五日は朝から非常に気分が悪く、御飯は全然受付けず誕がたれ時々胃液まで吐きました。<br/><br/>二時頃にはちょうど生卵の黄味様のものを二つ吐きまして、後は飴汁様のものをザーッと吐きました。<br/><br/>この時「アーこれが良く聞く薬毒の浄化なんだな」とつくづく薬毒の恐しさを知りました。<br/><br/>時々下痢の浄化を戴きました上薬毒の浄化まで戴き、それから追々気分も楽になり食事も美味しくなりました。<br/><br/>胃が健康になると肝臓の腫脹も引き、関節リウマチや神経痛も起らぬようになりました。<br/><br/>又本年二月二十八日に五、六回下痢をしまして再び腹の浄化だと思いましたが、二十九日は午前四時より七時までに八回も用便に立ちまして、本格的赤痢と気付き、専ら谷様に御浄霊を戴きますれば一昼夜に二十五、六回も下り、三月一日にも約二十回ありました。<br/><br/>二日は午前二時頃目を覚すと、盗汗をビッショリかきました。<br/><br/>同四時頃日を覚すと又もビッショリと寝巻がぬれておりますので不思議に思っておりますと、それまでしぶり通した便通が初めてザーザーと下りました。<br/><br/>誠に有難い御浄化を戴きまして、その日は四回用便をいたし、三日より平常通りになりました。<br/><br/> 医学では赤痢は腹の病だと言われ頭痛の種になっておりますが御浄霊では僅か二、三日でケロリと治ります。<br/><br/> 私も頭の大浄化まで戴きまして心身共に晴々となりました。<br/><br/> これ皆、明主様の有難き御慈悲によりまして数々の御守護、御浄化を戴きまして、この頃では家内中が無医薬の家庭天国を営み、一人でも多くの人に御神徳の有難さをお伝えしようと念じております。<br/><br/> 明主様有難うございました。<br/><br/>謹んで御礼申し上げます。<br/><br/> （昭和二十七年五月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

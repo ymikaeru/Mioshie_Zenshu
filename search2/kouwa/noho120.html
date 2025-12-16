@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>noho120</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農法篇 自然農法 ９ 120-138 病虫害 120 作物の病気 私は本年五月入信した者でありますが、早速無肥料栽培をさせて戴きましたが、作物に病気がついて困りました。<br><br>一生懸命御浄霊を致しましたが遂に治らず、秋となりました。<br><br>いかなる理由でしょうか。<br><br>黴菌のためでしょうか。<br><br>今後御浄霊だけしていればよいのでしょうか。<br><br>御伺い申し上げます。<br><br> 種か土に肥毒が残っている。<br><br>（S24.11. 8） 121 赤錆病、魚肥 赤錆病の麦や魚肥を堆肥としてよきや。<br><br> 魚肥は不可である。<br><br>赤錆病は肥料のためである。<br><br> 122 麦黄変 大麦が近年になく黄色くなりましたが 施肥が原因で御座いましょうか。<br><br>昨今の気候異状のためで御座いましょうか。<br><br> 両方である。<br><br>今迄の金肥等で弱っているから気候の影響を受けやすい。<br><br>有肥の麦は折れやすい。<br><br>作物に肥料をやると弱る。<br><br>人間が薬を服んだから弱ると同じである。<br><br>（S24. 2. 4） 123 黄変せる麦 無肥料耕作で麦を蒔きましたが、非常に黄色くなりました。<br><br>但し蒔付けの時アンモニアを少量やり、その後無肥料にて土入れ四回実施致しました。<br><br> アンモニアをやったのがいけなかった。<br><br>麦が黄色くなったのは、アンモニアのためである。<br><br>麦がアンモニアを吸収したのである。<br><br> 124 赤色となった麦 無肥料栽培で本年初めて麦を作りましたが、大変色が赤くなり、心配しております。<br><br>今後浄霊だけでよいのでしょうか。<br><br>中耕、土寄せ等不要でしょうか。<br><br>御教示下さい。<br><br> 今迄の肥毒が出るのである。<br><br>これを過ぎるとよくなる。<br><br>（S24. 8. 9） 125 害虫駆除法 田畑の害虫駆除する方法―― これは駆除するより発生しないようにするのが本当である。<br><br>主原因は人肥、金肥、消毒剤を使用するためであって、消毒剤などは土へ入って、それを植物が吸収するためである。<br><br>無肥料なら絶対虫害はない。<br><br>雑草を見ればよく判る。<br><br>そして肥料をやると作物は弱る。<br><br>作物が花落ちしたり、実が落ちたりするのは皆肥料のためである。<br><br> 126 駆虫剤使用 穀物、野菜、果樹等の害虫駆除として駆虫剤及び消毒薬を使用しても差支え御座居ませんでしょうか。<br><br>外に薬剤を用いなくて害虫の駆除が出来る方法は御座居ませんか。<br><br>右、御尋ね致します。<br><br> 害虫は肥料から湧くのであるから、肥料をやらなければよい。<br><br> 駆虫剤で殺すと、土中へ入り薬毒となる。<br><br>いわゆる酸性土壌は化学肥料のためで、一時的には良いが、非常に土を悪くする。<br><br>硫安は螟虫の原因になるが、金肥の種類によって虫の種類が出来るのである。<br><br> 127 害虫と薬剤 一昨年頃より柑橘園に矢の根貝殻虫が発生し、その駆除に困っております現在、駆除法として青酸ガス燻蒸を行っておりますが効果なく、ルビロー虫も発生し、松脂合剤にて駆除しておりますが同様効果はありません。<br><br>右の二害虫に対して駆除するにはいかにすれば宜しいでしょうか。<br><br>御教示下さい。<br><br>なお、開園当初より化学肥料は一切使用せず、堆肥と魚肥のみ使用し、戦時中肥料不足の折も海草を施用致しておりました。<br><br>なお、果樹園、畑等に生育雑草中の「スギナ」と言う草に対し、最近水田の除草に使用されている新薬剤二四Ｄを使用して効果がありましょうか。<br><br> まず、頭を変えるべきである。<br><br>（S25. 4.10） 128 ボルドー液で不作 私は本年二十五町歩馬鈴薯を栽培致し、農会の指導により消毒薬「ボルドー液」を六回撒布致しましたが、昨年の三回撒布致したよりもその結果が悪く、薬害の悪いことを先生から御指導戴きましたが、具体的に今後いかように致しましたらよろしいでしょうか。<br><br>御伺い申し上げます。<br><br> 肥料中毒であるから、無肥にすればよい。<br><br>ボルドー液のためである。<br><br> 129 害虫多生 私の村では、稲の害虫（ウンカ）が非常に多く発生しております。<br><br>予防の方法がありましたら御教え願います。<br><br> 肥料のため故無肥料にすればよい。<br><br>肥毒がなくなると増産になる。<br><br> ウンカは人糞、ズイ虫は硫安のようである。<br><br> 霊界が変ったからよけいいけない。<br><br> 130 螟虫の因 道端の草や土堤の草や、藁を田に入れると螟虫及び害虫発生の恐れがありますが、どうでしょう。<br><br> 絶対にそんな事はない。<br><br>螟虫は硫安が多い。<br><br>肥料の近くが一番発生する。<br><br> 無肥料なら発生せぬ。<br><br> 131 螟虫に困る 私は本年初めて稲の無肥料栽培を一反五畝位やりました。<br><br>深さ二尺四、五寸の深田です。<br><br>昨年の藁を反当り八十貫程を施し、去る七月二日に四、五寸位の苗を植付けましたところ、全体の一割位螟虫がわき、困っております。<br><br>暇さえあれば一生懸命御浄霊をしておりますが、今後どうしたらよいでしょうか。<br><br>また、今後、追肥する必要はありませんでしょうか。<br><br>御伺い申し上げます。<br><br> 水田は堆肥の要はない。<br><br>螟虫は硫安などの肥毒である。<br><br>放置しておく。<br><br>最初はこういう風である。<br><br>ある時期へ行くと自然に減ってゆく。<br><br>浄霊してやるとよい。<br><br>（S24. 7.26） 132 油虫の発生原 野菜の油虫の発生の原因―― すべて虫害は肥料から発生する。<br><br>他に日当りが悪いとか、気候が悪いとかでいくらか発生するが少い。<br><br>無肥料の種と無肥料の土にすれば発生はしない。<br><br>（S24.12.13） 133 油虫とれず 無肥料栽培の麦と野菜に発生している油虫を何回も浄霊を致しますけれど中々とれません。<br><br>いかなる理由でしょうか。<br><br>御教え願います。<br><br> 稲なども、三年位は肥料の毒を減らす。<br><br>（S24. 5. 4） 134 害虫で実らぬ木 私の家には相当数の柿の木があります。<br><br>害虫が多くて昨年迄施肥及び消毒薬を使用致しました。<br><br>樹が痩せていて、実らないのが多いのですが、どうしたらよいでしょう。<br><br> また、こんな樹や土地を浄霊したら何年位でよくなるでしょうか。<br><br>御教え下さい。<br><br> 肥料と消毒薬のためであるから、それをやめればよい。<br><br>（S24. 2.17） 135 蜜柑の虫 私は蜜柑作りの青年です。<br><br>蜜柑の木にルビーと言う虫が一ぱいおります。<br><br>どうしたらよろしいでしょうか。<br><br> 肥料をやめればよい。<br><br>（S23.10.26） 136 無肥にして虫発生 本年三月二十一日入信しまして、四月二十一日光明如来様をお迎え致しました者ですが、数年前帰農（元警官）し、本年の稲作四反二畝を全部無肥料耕作に転換しましたところ、苗代の時より稲熱病が発生し、殆ど潰滅の状況にて、他家より普通の苗を貰い受けたものは大した被害もないのです。<br><br>これはいかなる理由で御座いましょうか。<br><br>また、浄霊にて復活致すものか御伺い致します。<br><br> 復活する。<br><br>種が肥毒を食っているのであるから、いずれ科学的にかいて光新聞に出す。<br><br>（S24. 8.25） 137 ザリガニの害 無肥料栽培に関連した事で御座いますが、私の地方には「ザリガニ」が沢山おりますので、苗代の被害も多く、また田植直後にも夥しい被害で困りますので、止むを得ず石灰窒素を使用いたしますが、これは肥料の意味で無くともいけないもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 無論いけない。<br><br>肥料がなくなるとザリガニもいなくなる。<br><br>なぜなら、施肥すると虫が湧く。<br><br>それを食べに来るのである。<br><br>（S25. 5.18） 138 みみずの役目 今迄みみずは田畑の農作物に好影響を与えることと存じておりましたが、一部会員の話によりますと「みみずは稲の苗の根を荒らし、また肥料の多い土地には沢山おり、無肥料の場合は少く、御浄霊を致しましても少くなる」との事ですが、みみずの作用について御伺い申し上げます。<br><br> やはり地の中で立派な役目をしている。<br><br>肥料をやると微虫が湧くから、それを食ってみみずが生長する。<br><br>無肥なら少くなる。<br><br>（S25. 5.13）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Pragas e Doenças na Agricultura</h2>
 <p><strong>120. Doenças nas culturas</strong></p>
@@ -149,5 +301,48 @@ function toggleLang(lang) {
 <p><strong>138. O papel das minhocas</strong></p>
 <p>Até hoje, eu acreditava que as minhocas exerciam uma influência benéfica sobre as culturas agrícolas. No entanto, segundo o relato de alguns membros, elas danificam as raízes das mudas de arroz, proliferam em solos ricos em adubos, são escassas em solos de cultivo natural e seu número diminui com a ministração de Johrei. Gostaria de receber um esclarecimento sobre a função das minhocas.</p>
 <p>Elas de fato desempenham um importante papel no interior do solo. Quando se aplica adubo, surgem microorganismos que servem de alimento para as minhocas, promovendo seu crescimento. Em um solo sem adubos, seu número diminui. (13 de maio de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農法篇 自然農法 ９ 120-138 病虫害 120 作物の病気 私は本年五月入信した者でありますが、早速無肥料栽培をさせて戴きましたが、作物に病気がついて困りました。<br/><br/>一生懸命御浄霊を致しましたが遂に治らず、秋となりました。<br/><br/>いかなる理由でしょうか。<br/><br/>黴菌のためでしょうか。<br/><br/>今後御浄霊だけしていればよいのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 種か土に肥毒が残っている。<br/><br/>（S24.11. 8） 121 赤錆病、魚肥 赤錆病の麦や魚肥を堆肥としてよきや。<br/><br/> 魚肥は不可である。<br/><br/>赤錆病は肥料のためである。<br/><br/> 122 麦黄変 大麦が近年になく黄色くなりましたが 施肥が原因で御座いましょうか。<br/><br/>昨今の気候異状のためで御座いましょうか。<br/><br/> 両方である。<br/><br/>今迄の金肥等で弱っているから気候の影響を受けやすい。<br/><br/>有肥の麦は折れやすい。<br/><br/>作物に肥料をやると弱る。<br/><br/>人間が薬を服んだから弱ると同じである。<br/><br/>（S24. 2. 4） 123 黄変せる麦 無肥料耕作で麦を蒔きましたが、非常に黄色くなりました。<br/><br/>但し蒔付けの時アンモニアを少量やり、その後無肥料にて土入れ四回実施致しました。<br/><br/> アンモニアをやったのがいけなかった。<br/><br/>麦が黄色くなったのは、アンモニアのためである。<br/><br/>麦がアンモニアを吸収したのである。<br/><br/> 124 赤色となった麦 無肥料栽培で本年初めて麦を作りましたが、大変色が赤くなり、心配しております。<br/><br/>今後浄霊だけでよいのでしょうか。<br/><br/>中耕、土寄せ等不要でしょうか。<br/><br/>御教示下さい。<br/><br/> 今迄の肥毒が出るのである。<br/><br/>これを過ぎるとよくなる。<br/><br/>（S24. 8. 9） 125 害虫駆除法 田畑の害虫駆除する方法―― これは駆除するより発生しないようにするのが本当である。<br/><br/>主原因は人肥、金肥、消毒剤を使用するためであって、消毒剤などは土へ入って、それを植物が吸収するためである。<br/><br/>無肥料なら絶対虫害はない。<br/><br/>雑草を見ればよく判る。<br/><br/>そして肥料をやると作物は弱る。<br/><br/>作物が花落ちしたり、実が落ちたりするのは皆肥料のためである。<br/><br/> 126 駆虫剤使用 穀物、野菜、果樹等の害虫駆除として駆虫剤及び消毒薬を使用しても差支え御座居ませんでしょうか。<br/><br/>外に薬剤を用いなくて害虫の駆除が出来る方法は御座居ませんか。<br/><br/>右、御尋ね致します。<br/><br/> 害虫は肥料から湧くのであるから、肥料をやらなければよい。<br/><br/> 駆虫剤で殺すと、土中へ入り薬毒となる。<br/><br/>いわゆる酸性土壌は化学肥料のためで、一時的には良いが、非常に土を悪くする。<br/><br/>硫安は螟虫の原因になるが、金肥の種類によって虫の種類が出来るのである。<br/><br/> 127 害虫と薬剤 一昨年頃より柑橘園に矢の根貝殻虫が発生し、その駆除に困っております現在、駆除法として青酸ガス燻蒸を行っておりますが効果なく、ルビロー虫も発生し、松脂合剤にて駆除しておりますが同様効果はありません。<br/><br/>右の二害虫に対して駆除するにはいかにすれば宜しいでしょうか。<br/><br/>御教示下さい。<br/><br/>なお、開園当初より化学肥料は一切使用せず、堆肥と魚肥のみ使用し、戦時中肥料不足の折も海草を施用致しておりました。<br/><br/>なお、果樹園、畑等に生育雑草中の「スギナ」と言う草に対し、最近水田の除草に使用されている新薬剤二四Ｄを使用して効果がありましょうか。<br/><br/> まず、頭を変えるべきである。<br/><br/>（S25. 4.10） 128 ボルドー液で不作 私は本年二十五町歩馬鈴薯を栽培致し、農会の指導により消毒薬「ボルドー液」を六回撒布致しましたが、昨年の三回撒布致したよりもその結果が悪く、薬害の悪いことを先生から御指導戴きましたが、具体的に今後いかように致しましたらよろしいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 肥料中毒であるから、無肥にすればよい。<br/><br/>ボルドー液のためである。<br/><br/> 129 害虫多生 私の村では、稲の害虫（ウンカ）が非常に多く発生しております。<br/><br/>予防の方法がありましたら御教え願います。<br/><br/> 肥料のため故無肥料にすればよい。<br/><br/>肥毒がなくなると増産になる。<br/><br/> ウンカは人糞、ズイ虫は硫安のようである。<br/><br/> 霊界が変ったからよけいいけない。<br/><br/> 130 螟虫の因 道端の草や土堤の草や、藁を田に入れると螟虫及び害虫発生の恐れがありますが、どうでしょう。<br/><br/> 絶対にそんな事はない。<br/><br/>螟虫は硫安が多い。<br/><br/>肥料の近くが一番発生する。<br/><br/> 無肥料なら発生せぬ。<br/><br/> 131 螟虫に困る 私は本年初めて稲の無肥料栽培を一反五畝位やりました。<br/><br/>深さ二尺四、五寸の深田です。<br/><br/>昨年の藁を反当り八十貫程を施し、去る七月二日に四、五寸位の苗を植付けましたところ、全体の一割位螟虫がわき、困っております。<br/><br/>暇さえあれば一生懸命御浄霊をしておりますが、今後どうしたらよいでしょうか。<br/><br/>また、今後、追肥する必要はありませんでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 水田は堆肥の要はない。<br/><br/>螟虫は硫安などの肥毒である。<br/><br/>放置しておく。<br/><br/>最初はこういう風である。<br/><br/>ある時期へ行くと自然に減ってゆく。<br/><br/>浄霊してやるとよい。<br/><br/>（S24. 7.26） 132 油虫の発生原 野菜の油虫の発生の原因―― すべて虫害は肥料から発生する。<br/><br/>他に日当りが悪いとか、気候が悪いとかでいくらか発生するが少い。<br/><br/>無肥料の種と無肥料の土にすれば発生はしない。<br/><br/>（S24.12.13） 133 油虫とれず 無肥料栽培の麦と野菜に発生している油虫を何回も浄霊を致しますけれど中々とれません。<br/><br/>いかなる理由でしょうか。<br/><br/>御教え願います。<br/><br/> 稲なども、三年位は肥料の毒を減らす。<br/><br/>（S24. 5. 4） 134 害虫で実らぬ木 私の家には相当数の柿の木があります。<br/><br/>害虫が多くて昨年迄施肥及び消毒薬を使用致しました。<br/><br/>樹が痩せていて、実らないのが多いのですが、どうしたらよいでしょう。<br/><br/> また、こんな樹や土地を浄霊したら何年位でよくなるでしょうか。<br/><br/>御教え下さい。<br/><br/> 肥料と消毒薬のためであるから、それをやめればよい。<br/><br/>（S24. 2.17） 135 蜜柑の虫 私は蜜柑作りの青年です。<br/><br/>蜜柑の木にルビーと言う虫が一ぱいおります。<br/><br/>どうしたらよろしいでしょうか。<br/><br/> 肥料をやめればよい。<br/><br/>（S23.10.26） 136 無肥にして虫発生 本年三月二十一日入信しまして、四月二十一日光明如来様をお迎え致しました者ですが、数年前帰農（元警官）し、本年の稲作四反二畝を全部無肥料耕作に転換しましたところ、苗代の時より稲熱病が発生し、殆ど潰滅の状況にて、他家より普通の苗を貰い受けたものは大した被害もないのです。<br/><br/>これはいかなる理由で御座いましょうか。<br/><br/>また、浄霊にて復活致すものか御伺い致します。<br/><br/> 復活する。<br/><br/>種が肥毒を食っているのであるから、いずれ科学的にかいて光新聞に出す。<br/><br/>（S24. 8.25） 137 ザリガニの害 無肥料栽培に関連した事で御座いますが、私の地方には「ザリガニ」が沢山おりますので、苗代の被害も多く、また田植直後にも夥しい被害で困りますので、止むを得ず石灰窒素を使用いたしますが、これは肥料の意味で無くともいけないもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 無論いけない。<br/><br/>肥料がなくなるとザリガニもいなくなる。<br/><br/>なぜなら、施肥すると虫が湧く。<br/><br/>それを食べに来るのである。<br/><br/>（S25. 5.18） 138 みみずの役目 今迄みみずは田畑の農作物に好影響を与えることと存じておりましたが、一部会員の話によりますと「みみずは稲の苗の根を荒らし、また肥料の多い土地には沢山おり、無肥料の場合は少く、御浄霊を致しましても少くなる」との事ですが、みみずの作用について御伺い申し上げます。<br/><br/> やはり地の中で立派な役目をしている。<br/><br/>肥料をやると微虫が湧くから、それを食ってみみずが生長する。<br/><br/>無肥なら少くなる。<br/><br/>（S25. 5.13）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

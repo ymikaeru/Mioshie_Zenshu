@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ji</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痔 『アメリカを救う』P.141、昭和28(1953)年1月1日発行 この病気の原因はもちろん薬毒であるが、その固結個所が後頭部及び股間鼠蹊部が主で、その他全身的にある毒血が、浄化によって溶け、肛門部から出ようとする。<br><br>それが脱肛、痔核、出血、痛み、痒み等の症状である。<br><br>ただ痔瘻（じろう）はちょっと違う。<br><br>これは薬毒の強烈なのが肛門部に溜結し、排泄されようとして小形の腫物になり非常に痛むものである。<br><br>これを放っておけば少しずつ破れた粘膜から滲出、あるいは小穴が穿いて排泄され治るのであるが、これに無知である医学は手術をするが、これが大変な誤りである。<br><br>というのは手術で固結を除くや、必ずその隣にまた出来る。<br><br>また切るというように、ついには蜂の巣のようになり、堪えられぬ程の激痛が続いて苦しむものである。<br><br> ここで注意したい事は、痔瘻に限らずいかなる腫物でも、自然にしておけば腫れるだけ腫れて、末期になると、その部が紅くブヨブヨになって小さな穴が穿き、血膿が出て治るものであるから、いかに大きな腫物でも必ず治るから心配はないのである。<br><br>ところが手術はもちろんだが、針の頭くらいの穴でも穿けたが最後、毒素の集中は停ってしまい隣接部へ腫れる。<br><br>またいじるとその隣へというように、膿のあるだけは幾つでも腫れるので、頸部淋巴腺の場合など呼吸困難となり、生命までも失う事があるから、大いに注意すべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Purificação Através das Hemorroidas e Tumefações</h2>
 <p>A causa desta enfermidade reside, evidentemente, no <em>yakudoku</em> (薬毒). Seus principais pontos de solidificação localizam-se na região occipital e na virilha. Entretanto, o sangue impregnado de toxinas, presente em todo o organismo, ao ser dissolvido pelo processo de purificação, busca uma via de eliminação através da região anal. É desse processo que surgem sintomas como o prolapso, as hemorroidas, o sangramento, a dor e a coceira.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Isso ocorre porque, tão logo a solidificação é removida cirurgicamente, outra se forma invariavelmente em uma área adjacente. Realiza-se uma nova incisão, e o ciclo se repete até que, por fim, a região assume o aspecto de um favo de mel, submetendo o indivíduo a uma dor excruciante e contínua.</p>
 <p>Nesse sentido, é fundamental compreender um princípio que se aplica não apenas às fístulas, mas a toda e qualquer tumefação. Quando se permite que o processo transcorra naturalmente, o inchaço atingirá seu ápice e, em seu estágio final, a área se tornará avermelhada e flácida. Em seguida, um pequeno orifício se abrirá, permitindo a drenagem do pus sanguinolento, o que levará à cura. Portanto, por maior que seja a tumefação, a cura é certa, não havendo motivo para preocupação.</p>
 <p>Contudo, a intervenção cirúrgica é evidentemente perniciosa, mas mesmo a perfuração de um orifício mínimo, do tamanho da cabeça de um alfinete, é suficiente para interromper a concentração das toxinas naquele ponto. Como consequência, a purificação é desviada, e um novo inchaço se manifesta em uma área adjacente. Se este também for violado, o processo se repetirá sucessivamente em outras partes do corpo. Enquanto houver pus a ser eliminado, novas tumefações surgirão. Em casos como o dos gânglios linfáticos cervicais, tal ciclo pode levar a dificuldades respiratórias e até mesmo à perda da vida. Sendo assim, é imperativo ter o máximo de cautela.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痔 『アメリカを救う』P.141、昭和28(1953)年1月1日発行 この病気の原因はもちろん薬毒であるが、その固結個所が後頭部及び股間鼠蹊部が主で、その他全身的にある毒血が、浄化によって溶け、肛門部から出ようとする。<br/><br/>それが脱肛、痔核、出血、痛み、痒み等の症状である。<br/><br/>ただ痔瘻（じろう）はちょっと違う。<br/><br/>これは薬毒の強烈なのが肛門部に溜結し、排泄されようとして小形の腫物になり非常に痛むものである。<br/><br/>これを放っておけば少しずつ破れた粘膜から滲出、あるいは小穴が穿いて排泄され治るのであるが、これに無知である医学は手術をするが、これが大変な誤りである。<br/><br/>というのは手術で固結を除くや、必ずその隣にまた出来る。<br/><br/>また切るというように、ついには蜂の巣のようになり、堪えられぬ程の激痛が続いて苦しむものである。<br/><br/> ここで注意したい事は、痔瘻に限らずいかなる腫物でも、自然にしておけば腫れるだけ腫れて、末期になると、その部が紅くブヨブヨになって小さな穴が穿き、血膿が出て治るものであるから、いかに大きな腫物でも必ず治るから心配はないのである。<br/><br/>ところが手術はもちろんだが、針の頭くらいの穴でも穿けたが最後、毒素の集中は停ってしまい隣接部へ腫れる。<br/><br/>またいじるとその隣へというように、膿のあるだけは幾つでも腫れるので、頸部淋巴腺の場合など呼吸困難となり、生命までも失う事があるから、大いに注意すべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

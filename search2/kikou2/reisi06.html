@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 （六） 五三中教会 茨木よし子 『地上天国』50号、昭和28(1953)年7月25日発行 一月○日 支部の御神前にて十人ばかりの信者さんと夜のお勤をしていますと長蛇の群をなして、ぞろぞろと参集される沢山の人々が見えて来、それに引続き美しい目も覚める様な大きな金銀の水引の包み物が現われ、それが三方にのせられ、その三方を薄いふわふわした白いヴェールをかむり、小柄な婦人が現われ両手で持たれる。<br><br>よくその方の顔を見ると、実はその婦人は私の姿でした。<br><br>ヴェールを冠り白いふわふわした服装の別の私が支部長さんにその三方を恭しくお渡ししている姿でした。<br><br>その様子を周囲の人々が、じっと見ている様が霊視出来ました。<br><br>喜びニコニコ見ている人、不満そうな態の人、いまいましそうな恰好の人、それはそれは大変な人でした。<br><br>あたりはまるで天国かと思われる様な何もかもよくわかる水晶世界の様でした。<br><br>神の御心にそいたてまつる様に一層努力をしようと心からちかい、楽しいお勤を終りました。<br><br>これは理想を霊視させて下さったことと存じます。<br><br> 一月十五日 支部の朝のお勤をいたしていますと、三柱の男神が拝されました。<br><br>中央には背の高い神様、両側にちょっと小柄な神様、いずれも白い服装の古代の神様の様でした。<br><br> 一月十八日 二、三日前から弟が風邪引、肝臓炎の浄化をいただき弱っています。<br><br>今日は運よく日曜日にて私の家の例祭でした。<br><br>幸にして車も降りやみ道路も程よくあき、遠路のところ支部長さんを、はじめ数人の信者さんにお参りをお願いいたしました。<br><br>私の家には昔からの神々様をおまつりしているのですが、未だ元の座にお帰りを願わず、そのままにいたしていますので少々気にかけています。<br><br>御神前に祝詞を奏上するや、メシヤ観音様が、高い所にさっとお現われになり、その下に支部長さんと私が丁寧に御挨拶をしている姿が見えて来、その後に沢山の人々の参拝姿が拝せました。<br><br>善言讃詞を奏上するや、一本の旗を高く掲げてかつぎ、沢山の人々が集い来る様が見えて来る。<br><br>次に緑したたる松の梢に、とまっていた丹頂鶴が羽ばたきをしながら、立ち舞う様に、うっとりしていると、忽ち大きな黒龍が現われその鶴の片足にかぶりつき邪魔をしてしまう。<br><br>私はむっとする心を押えながら霊視していますと、大光明如来様お出ましになられ、優しい御手を差しのべて下さる御姿を拝しますと、その様は忽ち見えなくなり私の心はさっぱりいたしました。<br><br>次に御詠（正月）をおあげいたしていますと、天照大神、皇太神宮の美しい文字が拝され、立派な女神が黄金色のお召し物姿でお現われになり、黄金色の劔も持っていられる。<br><br>百人集の中に出て来られる様な姫や、男の方達が涙を流し集い来られる姿が拝されました。<br><br>次に馬に乗った立派な武士が走り参じ、ひらりと下りて丁寧にひざまづき御挨拶の様である。<br><br>次に墨染の衣、茶色の衣、紫色の衣を着られたお坊さん達が御挨拶に出て来られる様が見えました。<br><br>次に女神が一人子供さんを背負われ、二人は歩かせて出ていらっしゃる様、次には髪の毛のよく伸びた男神が大あわてして走り参じられる様、最後に女神が真中に男神がお二方お出ましになられました。<br><br>女神からはお光がさんさんと輝いている様が拝されました。<br><br>大黒様のお祭をしていただきますと、大黒様が槌をお振りになりますと沢山の大黒様がお集りになられ、そして皆々足踏みをされました。<br><br>大きな袋の中からは、黄金の小判が、さらさらと出て来ました。<br><br>御仏壇の、お勤をいたしますや、男の人で随分弱って寝ている人あり、右の手にて手枕をされている。<br><br>お観音様からは沢山の御手が差しのべられ沢山の人々が引きあげていただく様が目に映りました。<br><br> 一月二十日 支部の例祭にて、多賀会長先生が仏教の起源の御論文を拝読されていますと、先生の前には女神がさっとお現われになられ、その周囲には沢山の神々様がまるく輪をお作りになっていらっしゃり、じっと女神の御様子を拝されていました。<br><br>中にはにっこり微笑なさる神様、おいかりの神様、不満そうな神様、色々様々の御様子が拝され、この様が暫く続きました。<br><br> 一月二十五日 久々し振りに氏神様に支部長さんや信者の方と参拝いたしました。<br><br>留守居の神様らしいお方々が丁寧に答礼なさり、私達の方に対し、じっと頭を下げていらっしゃる様が拝され、何だか神様の方と私達の方とが逆の様な立場でした。<br><br>祝詞が終るや、さっと頭をお上げになられました。<br><br>もはや参拝に来なくてもよく解っているとお思い下さるのであろうか、それとも祝詞が有難くてなのでありましょうか。<br><br>今日は何時もになく丁寧に御礼をなさいました。<br><br> 一月○○○日 信者の家の例祭にて御神前にお参りするや、黒龍が口をあけいるも私達がお参りしているのに気づいたのか弱ってしまう。<br><br>お祭始まるや、大きな黒龍が地に伏し頭を上げ目からぽろぽろ涙を出している。<br><br>善言讃詞を奏上するや、上の方から龍神が、真黒い煙の中に凄い恰好でのた打ちながら火を吹き巻き出て来る。<br><br>その下では女の人々、裸、着物を着ている人、へたばり、はい廻り逃げるのに大騒動の様はまるで地獄の絵葉書の様である。<br><br>御讃歌をおあげいたした時分から恐ろしい光景が、ちょっとおさまり、子供は親に抱かれ助かり生き残った者が集い来る様が見えて来る。<br><br>やがて空には、かりょうびんがが飛びまわり、白の羽衣に下はピンクの羽衣を着た天人の様な人々が、ひらひら舞いまわっていられる。<br><br>そのずっと上の方には綺麗な御殿が見えて来る。<br><br>霞がたなびく気持のよいところである。<br><br>間もなく白い道がさっと現われる。<br><br>その道を上って来る人があるが、大きな黒い虎の様な獣がふうふうと荒息をふっかける様な恰好をして接近するとその人々は驚いておじけてしまう。<br><br>次に大きくて天井まで、とどかれるかと思われる閻魔大王が現われられる。<br><br>その顔は優しい顔になり恐ろしい顔にも見える。<br><br>一人のお婆さん現われ一人一人の着物を皆々受取ってしまわれる。<br><br>裸の人々は一つの会場に入れられる。<br><br>大きな何かを持った鬼達が、それを振廻す。<br><br>皆々縮み振いあがる様である。<br><br>恐ろしい黒雲、赤雲がむらむらと出て来る光景であった。<br><br>一方高い所には楽しい美しい神の世界が拝せる。<br><br>天国と地獄はこれ程の相違があるのかしらと思えました。<br><br> 二月○日 信者の家の例祭にお参りいたしますと、久々し振にこの家の光明如来様が微笑なさりお出ましになるお姿を拝し、懐しい感じがいたしました。<br><br>お勤中沢山の人々が御神前に集り来り、色々様々に感謝の態、お詫びの態で随分賑やかな様が見え、光明如来様大へん御機嫌よく、その様をじっと御覧になられ、温かい御手を差しのべて下さるお姿が何時までも何時までも拝されました。<br><br> 二月五日 明主様のお写真に礼拝しています、と直径一尺位もあるかと思われる金の玉が拝され、その玉の周囲からは金色の御光が光々とさしている様が拝されました。<br><br> 二月○日 信者の家の御仏壇を礼拝していますと、美しい風景の公園の様な場所が現われ、所々に遊んでいる人々を見うける。<br><br>大きな池には美しく蓮花が咲き葉には銀の玉の様な露がギラギラコロコロと動いている腰は、とても感じがよく、まるで天国の様で、私の身体も、その場に吸いつけられてしまいそうである。<br><br> 二月十二日 今晩は支部の大黒様のお祭である。<br><br>最近こうした支部のお祭には黒龍が次々にやって来て邪魔する様が霊視出来ます。<br><br>今晩のお勤の霊視の様は、とても筆にて現わせない。<br><br>迷わされない様に、しっかり明主様におすがりいたします。<br><br>御論文（大恐怖時代来らん）を支部長さんが拝読されるや、明主様がお出ましになられお読み下さるお姿を拝する。<br><br>明主様の御口からは白光が強烈に放射される厳粛な光景が拝されました。<br><br>御神前には立派なお姿にして目もくらまんばかりの服装にて、でっかりとお出ましになられる男神が見えて来る。<br><br>御手の腕輪等も黄金色にてぴかぴか光り輝いている様が霊視出来ました。<br><br> 二月二十三日 豊岡城上支部の例祭に多賀会長先生天津祝詞を奏上されるや大光明如来様お出ましになり細い長さ一米位の棒にて何かお指図をなさるお姿を拝する。<br><br>その前には大きな黒色の風呂敷包を背負う不段着姿の年頃は五十歳前後位と思われる婦人が現われ、いやいやそうな恰好にて、もじもじしながら下してしまい、ひれ伏す様が見えて来る。<br><br>婦人のおろしっぱなしの黒い風呂敷包は黒龍の塊であり、黒龍の眷族共で、うじゃうじゃと黒玉をなしている。<br><br>善言讃詞奏上されるや、多賀会長先生と奥様、そのすぐ後に池内先生と茨木よし子が並び、ずっと引き続いて沢山の信者達が御神前に参拝される様が拝されました。<br><br>あら、会長先生の奥様も御参拝になっていらっしゃるなと急に懐しくなってまいりました。<br><br>次に先日おなくなりになられた池内先生の兄さん池内鉄之助氏羽織袴にて出て来られ筆にて何かお書きになる。<br><br>運筆がスピードなので読みにくいが「大光明如来様のお祭……云云」と書かれたかと思うと見えなくなりました。<br><br>次に白い服装の神々様がさっとお出ましになられ、今までかつて私が拝した事の無い古代の神であろうか髪をちょっと垂れられた男神とも女神とも見分けのつかない神様を中心に沢山の神々様御家来と思えるお方々が出ていらっしゃる様が見えて来ました。<br><br>次に立春祭の御詠を奏上されるや、大光明如来様さっとお出ましになるや、さっと見えなくなり、続いて十二単衣の立派な打掛を召されたお方が扇を前に持ち（その扇は銀色に光って美しい）正面に出て来られその両側には沢山の打掛姿の人で一ぱいである。<br><br>中には烏帽子を冠った男の高貴なお方も拝される。<br><br>一段と低いところ（正面）では一人の男が黒のはっぴに黒のえどはらを付け手拭をくるくる廻し鉢巻を前に、たこ結びに結び、奇妙な手付にて手どり足どり踊り出す。<br><br>とても真面目な顔である。<br><br>暫く一人であったが、やがて沢山続いて同姿の人々が出て来る。<br><br>皆の着ているはっぴは救世教の御奉仕のはっぴであるようだ。<br><br>次に頭をつるつるにそり、墨染の衣（着物）を着られた尼の様な方がずっと地にひれ伏して何時になっても頭をあげない様が見えて来ました。<br><br>次にメシヤ観音様さっとお出ましになられ、その前に今だかつて私が見た事のない大きな黒龍で口のあたりが、ぎゅっととがり、ちょっと白味をおびた頭のやつが、いきなりメシヤ観音様の方に向って行こうとしていますが、強烈な光にて弱ってしまい金色に輝く目からは涙をぼろぼろ流し、ぐったりとしてしまい、見えなくなりました。<br><br>その様が一変して、観音様の様な神様がさっと現われられますと、真紅な太陽が昇り出し、あたり一面太陽の紅い光（紅黄金色）にて何も見えなくなり、とても厳たる光景であった。<br><br>この紅い光の中に一人の男神の様な神様（古代の神の様である）が白い服装でお現われになり、金色の光がさんさんと出ていましたが、だんだん強烈となり、見る見る間に真紅となり、太陽が輝き出す様にだんだん強烈となって、その光が極く細かい微粒子となり、その微粒子は凄い速度のほのお、火の粉と化し、あたりの沢山の人が全部その光（火の粉）で焼きつくされ苦しんでしまう様が目に映り、私はあぜんとしていますと、その凄まじい火の粉の中に先の神様と入れかわり、明主様がさっとお出ましになり、じっと私達の方を御覧になっていらっしゃるお姿は峻厳と申しましょうか、いくら警鐘をならしても、くいあらためない者どもよ、最後は、かくの如くあらんと、お怒りになっていらっしゃるか、どうか存じませんが、私の心は、あれやこれやと働き、この時の明主様のお姿は、この光景にうまくマッチする形容詞が見つかりません。<br><br>場面がかわり大光明如来様お出ましになり、筆をお渡し下さる。<br><br>何百と数限りない人の中で、男の人が「大神様お救い下さい」と書かれる。<br><br>次々と筆は廻される様であった。<br><br>再び太陽の真紅なのが拝され、その辺真紅でまぶしい。<br><br>何も見えなく、あかあかとしていました。<br><br>明主様のお写真を拝しますと先程のお姿と同じである。<br><br>次に大黒様のお祀にて祝詞を奏上するや、大黒様大きなお皿の様な盃に他の大黒様に酒をついでいただかれ、その盃を持たれたまま両手を左右に動かしていらっしゃいましたが、祝詞の終り頃、お飲みになられる。<br><br>袋は前に下されますが、口はしっかりしまっていて小判等は出ませんでした。<br><br>次に会長先生「智恵の光」の御論文を拝読されますと、一人の荒男、多賀会長先生のまん前に現われ、着物はぼろぼろ髪ものび放題にて坐していました。<br><br>ちょっと足のいずまいを悪くしましたが、又正しく坐して聞いていました。<br><br>先生の後の方には太陽が現われ、あたりは明るい。<br><br>次に地上天国十六号「物を識るという事」を拝読されますと、女の人が子供に乳をのませ先生の傍にて聞いていられる様が見えました。<br><br>次に「大恐怖時代来たらん」の御論文を拝読されるや明主様がお出ましになり、強烈な白光が放射されるので、私がすいつけられてしまう様に頭が浄化します。<br><br>次には沢山のペットが現われ病人が一ぱいねている。<br><br>医師が来て聴診器をあて、次々と見てあるく様が見えて来る。<br><br>次は「紅卍会のふうち」のお話をされるや、そこに椅子が現われ、その椅子には多賀先生の傍にいらっしゃった古代の神と思われる男神がおかけになり、傍には人が五、六人集まり何かされる様が見えて来、私はその場所にすーっとすいつけられて行く様で恐ろしいやら有難いやら、身も魂も浄まって行く様な感じが致しました。<br><br>言葉によって何でもついて来られる。<br><br>意志想念によりこんな御力があるのかとよく常に存じているはずであるのが、一層しんみりと感じられました。<br><br>例祭後会長先生が「今日はいつもと違った想念にて御参拝したから、今迄とは違った霊視が出来たでしょう」と云われ、どういうことかは解りませんが以上の霊視が出来ました。<br><br>先生に御報告致しましたら、ただ笑っていられました。<br><br> 二月二十五日 信者の家の例祭にお参りいたしますと、今晩は次の様な状が霊視出来ました。<br><br>立春の御詠を奏上している頃より明主様が光明如来様の前にお出ましになられました。<br><br>その御姿は、とても峻厳でありました。<br><br>明主様のお側には筆にて何か書いていらっしゃる和服姿の男の人が見えて来ました。<br><br>そうこうしていますと明主様が私の霊視日記の御報告書を御覧になっていらっしゃるお姿を拝し、胸がどきんとしました。<br><br>そうこうしていますと、私が何時もメモ致しています常の帳面を御覧下さっているお姿を拝し、もったいないやら有難いやら、おどおどしてきました。<br><br>霊視日記の方は暫くはぐって御覧下さっていました。<br><br>正しい御用が出来ます様、心でお念じしつつ御勤を終りました。<br><br>明主様何時もの様に唆厳なお姿でお出ましになられる。<br><br>有難いなと思っていますと、御浄霊をいただきながら誰か雑談をなされ、いけないことだと思っていましたが、なかなか止められない。<br><br>明主様の御顔は恐ろしいお顔にかわられる。<br><br>お互つつしみ真剣に御浄霊いただかねばならないと恥ずかしくなりました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Diário de Visões Espirituais</h2>
 <p><strong>Coletânea de Ensaios de Jikan Okada — Diário de Visões Espirituais (VI), por Yoshiko Ibaraki, da Unidade Gosan-Naka. Publicado na revista Chijō Tengoku, nº 50, em 25 de julho de 1953.</strong></p>
@@ -135,5 +287,48 @@ function toggleLang(lang) {
 <p><strong>25 de fevereiro</strong></p>
 <p>Esta noite, durante a cerimônia mensal na casa de um fiel, tive a seguinte visão. Desde a entoação do poema sacro do Risshun, Meishu-Sama se manifestou diante de Dai Komyo Nyorai (光明如来). Seu semblante era de extrema severidade. Ao seu lado, um homem em trajes japoneses escrevia algo com um pincel. Nesse momento, vi Meishu-Sama lendo o relatório do meu diário de visões espirituais, e senti meu coração sobressaltar-se. Em seguida, vi que Ele examinava o caderno onde costumo fazer minhas anotações. Senti-me ao mesmo tempo indigna e imensamente grata, e uma grande reverência tomou conta de mim. Ele folheou o diário por algum tempo. Concluí o ofício orando em meu coração para ser capaz de realizar corretamente minha missão.</p>
 <p>Meishu-Sama apareceu novamente com Sua habitual expressão solene. Enquanto eu refletia sobre quão abençoada era, ouvi alguém conversando durante o Johrei. Pensei que aquilo era errado, mas a conversa não cessava. O rosto de Meishu-Sama transformou-se em uma expressão terrível. Senti-me envergonhada e compreendi a necessidade de recebermos Johrei com reverência e seriedade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記 （六） 五三中教会 茨木よし子 『地上天国』50号、昭和28(1953)年7月25日発行 一月○日 支部の御神前にて十人ばかりの信者さんと夜のお勤をしていますと長蛇の群をなして、ぞろぞろと参集される沢山の人々が見えて来、それに引続き美しい目も覚める様な大きな金銀の水引の包み物が現われ、それが三方にのせられ、その三方を薄いふわふわした白いヴェールをかむり、小柄な婦人が現われ両手で持たれる。<br/><br/>よくその方の顔を見ると、実はその婦人は私の姿でした。<br/><br/>ヴェールを冠り白いふわふわした服装の別の私が支部長さんにその三方を恭しくお渡ししている姿でした。<br/><br/>その様子を周囲の人々が、じっと見ている様が霊視出来ました。<br/><br/>喜びニコニコ見ている人、不満そうな態の人、いまいましそうな恰好の人、それはそれは大変な人でした。<br/><br/>あたりはまるで天国かと思われる様な何もかもよくわかる水晶世界の様でした。<br/><br/>神の御心にそいたてまつる様に一層努力をしようと心からちかい、楽しいお勤を終りました。<br/><br/>これは理想を霊視させて下さったことと存じます。<br/><br/> 一月十五日 支部の朝のお勤をいたしていますと、三柱の男神が拝されました。<br/><br/>中央には背の高い神様、両側にちょっと小柄な神様、いずれも白い服装の古代の神様の様でした。<br/><br/> 一月十八日 二、三日前から弟が風邪引、肝臓炎の浄化をいただき弱っています。<br/><br/>今日は運よく日曜日にて私の家の例祭でした。<br/><br/>幸にして車も降りやみ道路も程よくあき、遠路のところ支部長さんを、はじめ数人の信者さんにお参りをお願いいたしました。<br/><br/>私の家には昔からの神々様をおまつりしているのですが、未だ元の座にお帰りを願わず、そのままにいたしていますので少々気にかけています。<br/><br/>御神前に祝詞を奏上するや、メシヤ観音様が、高い所にさっとお現われになり、その下に支部長さんと私が丁寧に御挨拶をしている姿が見えて来、その後に沢山の人々の参拝姿が拝せました。<br/><br/>善言讃詞を奏上するや、一本の旗を高く掲げてかつぎ、沢山の人々が集い来る様が見えて来る。<br/><br/>次に緑したたる松の梢に、とまっていた丹頂鶴が羽ばたきをしながら、立ち舞う様に、うっとりしていると、忽ち大きな黒龍が現われその鶴の片足にかぶりつき邪魔をしてしまう。<br/><br/>私はむっとする心を押えながら霊視していますと、大光明如来様お出ましになられ、優しい御手を差しのべて下さる御姿を拝しますと、その様は忽ち見えなくなり私の心はさっぱりいたしました。<br/><br/>次に御詠（正月）をおあげいたしていますと、天照大神、皇太神宮の美しい文字が拝され、立派な女神が黄金色のお召し物姿でお現われになり、黄金色の劔も持っていられる。<br/><br/>百人集の中に出て来られる様な姫や、男の方達が涙を流し集い来られる姿が拝されました。<br/><br/>次に馬に乗った立派な武士が走り参じ、ひらりと下りて丁寧にひざまづき御挨拶の様である。<br/><br/>次に墨染の衣、茶色の衣、紫色の衣を着られたお坊さん達が御挨拶に出て来られる様が見えました。<br/><br/>次に女神が一人子供さんを背負われ、二人は歩かせて出ていらっしゃる様、次には髪の毛のよく伸びた男神が大あわてして走り参じられる様、最後に女神が真中に男神がお二方お出ましになられました。<br/><br/>女神からはお光がさんさんと輝いている様が拝されました。<br/><br/>大黒様のお祭をしていただきますと、大黒様が槌をお振りになりますと沢山の大黒様がお集りになられ、そして皆々足踏みをされました。<br/><br/>大きな袋の中からは、黄金の小判が、さらさらと出て来ました。<br/><br/>御仏壇の、お勤をいたしますや、男の人で随分弱って寝ている人あり、右の手にて手枕をされている。<br/><br/>お観音様からは沢山の御手が差しのべられ沢山の人々が引きあげていただく様が目に映りました。<br/><br/> 一月二十日 支部の例祭にて、多賀会長先生が仏教の起源の御論文を拝読されていますと、先生の前には女神がさっとお現われになられ、その周囲には沢山の神々様がまるく輪をお作りになっていらっしゃり、じっと女神の御様子を拝されていました。<br/><br/>中にはにっこり微笑なさる神様、おいかりの神様、不満そうな神様、色々様々の御様子が拝され、この様が暫く続きました。<br/><br/> 一月二十五日 久々し振りに氏神様に支部長さんや信者の方と参拝いたしました。<br/><br/>留守居の神様らしいお方々が丁寧に答礼なさり、私達の方に対し、じっと頭を下げていらっしゃる様が拝され、何だか神様の方と私達の方とが逆の様な立場でした。<br/><br/>祝詞が終るや、さっと頭をお上げになられました。<br/><br/>もはや参拝に来なくてもよく解っているとお思い下さるのであろうか、それとも祝詞が有難くてなのでありましょうか。<br/><br/>今日は何時もになく丁寧に御礼をなさいました。<br/><br/> 一月○○○日 信者の家の例祭にて御神前にお参りするや、黒龍が口をあけいるも私達がお参りしているのに気づいたのか弱ってしまう。<br/><br/>お祭始まるや、大きな黒龍が地に伏し頭を上げ目からぽろぽろ涙を出している。<br/><br/>善言讃詞を奏上するや、上の方から龍神が、真黒い煙の中に凄い恰好でのた打ちながら火を吹き巻き出て来る。<br/><br/>その下では女の人々、裸、着物を着ている人、へたばり、はい廻り逃げるのに大騒動の様はまるで地獄の絵葉書の様である。<br/><br/>御讃歌をおあげいたした時分から恐ろしい光景が、ちょっとおさまり、子供は親に抱かれ助かり生き残った者が集い来る様が見えて来る。<br/><br/>やがて空には、かりょうびんがが飛びまわり、白の羽衣に下はピンクの羽衣を着た天人の様な人々が、ひらひら舞いまわっていられる。<br/><br/>そのずっと上の方には綺麗な御殿が見えて来る。<br/><br/>霞がたなびく気持のよいところである。<br/><br/>間もなく白い道がさっと現われる。<br/><br/>その道を上って来る人があるが、大きな黒い虎の様な獣がふうふうと荒息をふっかける様な恰好をして接近するとその人々は驚いておじけてしまう。<br/><br/>次に大きくて天井まで、とどかれるかと思われる閻魔大王が現われられる。<br/><br/>その顔は優しい顔になり恐ろしい顔にも見える。<br/><br/>一人のお婆さん現われ一人一人の着物を皆々受取ってしまわれる。<br/><br/>裸の人々は一つの会場に入れられる。<br/><br/>大きな何かを持った鬼達が、それを振廻す。<br/><br/>皆々縮み振いあがる様である。<br/><br/>恐ろしい黒雲、赤雲がむらむらと出て来る光景であった。<br/><br/>一方高い所には楽しい美しい神の世界が拝せる。<br/><br/>天国と地獄はこれ程の相違があるのかしらと思えました。<br/><br/> 二月○日 信者の家の例祭にお参りいたしますと、久々し振にこの家の光明如来様が微笑なさりお出ましになるお姿を拝し、懐しい感じがいたしました。<br/><br/>お勤中沢山の人々が御神前に集り来り、色々様々に感謝の態、お詫びの態で随分賑やかな様が見え、光明如来様大へん御機嫌よく、その様をじっと御覧になられ、温かい御手を差しのべて下さるお姿が何時までも何時までも拝されました。<br/><br/> 二月五日 明主様のお写真に礼拝しています、と直径一尺位もあるかと思われる金の玉が拝され、その玉の周囲からは金色の御光が光々とさしている様が拝されました。<br/><br/> 二月○日 信者の家の御仏壇を礼拝していますと、美しい風景の公園の様な場所が現われ、所々に遊んでいる人々を見うける。<br/><br/>大きな池には美しく蓮花が咲き葉には銀の玉の様な露がギラギラコロコロと動いている腰は、とても感じがよく、まるで天国の様で、私の身体も、その場に吸いつけられてしまいそうである。<br/><br/> 二月十二日 今晩は支部の大黒様のお祭である。<br/><br/>最近こうした支部のお祭には黒龍が次々にやって来て邪魔する様が霊視出来ます。<br/><br/>今晩のお勤の霊視の様は、とても筆にて現わせない。<br/><br/>迷わされない様に、しっかり明主様におすがりいたします。<br/><br/>御論文（大恐怖時代来らん）を支部長さんが拝読されるや、明主様がお出ましになられお読み下さるお姿を拝する。<br/><br/>明主様の御口からは白光が強烈に放射される厳粛な光景が拝されました。<br/><br/>御神前には立派なお姿にして目もくらまんばかりの服装にて、でっかりとお出ましになられる男神が見えて来る。<br/><br/>御手の腕輪等も黄金色にてぴかぴか光り輝いている様が霊視出来ました。<br/><br/> 二月二十三日 豊岡城上支部の例祭に多賀会長先生天津祝詞を奏上されるや大光明如来様お出ましになり細い長さ一米位の棒にて何かお指図をなさるお姿を拝する。<br/><br/>その前には大きな黒色の風呂敷包を背負う不段着姿の年頃は五十歳前後位と思われる婦人が現われ、いやいやそうな恰好にて、もじもじしながら下してしまい、ひれ伏す様が見えて来る。<br/><br/>婦人のおろしっぱなしの黒い風呂敷包は黒龍の塊であり、黒龍の眷族共で、うじゃうじゃと黒玉をなしている。<br/><br/>善言讃詞奏上されるや、多賀会長先生と奥様、そのすぐ後に池内先生と茨木よし子が並び、ずっと引き続いて沢山の信者達が御神前に参拝される様が拝されました。<br/><br/>あら、会長先生の奥様も御参拝になっていらっしゃるなと急に懐しくなってまいりました。<br/><br/>次に先日おなくなりになられた池内先生の兄さん池内鉄之助氏羽織袴にて出て来られ筆にて何かお書きになる。<br/><br/>運筆がスピードなので読みにくいが「大光明如来様のお祭……云云」と書かれたかと思うと見えなくなりました。<br/><br/>次に白い服装の神々様がさっとお出ましになられ、今までかつて私が拝した事の無い古代の神であろうか髪をちょっと垂れられた男神とも女神とも見分けのつかない神様を中心に沢山の神々様御家来と思えるお方々が出ていらっしゃる様が見えて来ました。<br/><br/>次に立春祭の御詠を奏上されるや、大光明如来様さっとお出ましになるや、さっと見えなくなり、続いて十二単衣の立派な打掛を召されたお方が扇を前に持ち（その扇は銀色に光って美しい）正面に出て来られその両側には沢山の打掛姿の人で一ぱいである。<br/><br/>中には烏帽子を冠った男の高貴なお方も拝される。<br/><br/>一段と低いところ（正面）では一人の男が黒のはっぴに黒のえどはらを付け手拭をくるくる廻し鉢巻を前に、たこ結びに結び、奇妙な手付にて手どり足どり踊り出す。<br/><br/>とても真面目な顔である。<br/><br/>暫く一人であったが、やがて沢山続いて同姿の人々が出て来る。<br/><br/>皆の着ているはっぴは救世教の御奉仕のはっぴであるようだ。<br/><br/>次に頭をつるつるにそり、墨染の衣（着物）を着られた尼の様な方がずっと地にひれ伏して何時になっても頭をあげない様が見えて来ました。<br/><br/>次にメシヤ観音様さっとお出ましになられ、その前に今だかつて私が見た事のない大きな黒龍で口のあたりが、ぎゅっととがり、ちょっと白味をおびた頭のやつが、いきなりメシヤ観音様の方に向って行こうとしていますが、強烈な光にて弱ってしまい金色に輝く目からは涙をぼろぼろ流し、ぐったりとしてしまい、見えなくなりました。<br/><br/>その様が一変して、観音様の様な神様がさっと現われられますと、真紅な太陽が昇り出し、あたり一面太陽の紅い光（紅黄金色）にて何も見えなくなり、とても厳たる光景であった。<br/><br/>この紅い光の中に一人の男神の様な神様（古代の神の様である）が白い服装でお現われになり、金色の光がさんさんと出ていましたが、だんだん強烈となり、見る見る間に真紅となり、太陽が輝き出す様にだんだん強烈となって、その光が極く細かい微粒子となり、その微粒子は凄い速度のほのお、火の粉と化し、あたりの沢山の人が全部その光（火の粉）で焼きつくされ苦しんでしまう様が目に映り、私はあぜんとしていますと、その凄まじい火の粉の中に先の神様と入れかわり、明主様がさっとお出ましになり、じっと私達の方を御覧になっていらっしゃるお姿は峻厳と申しましょうか、いくら警鐘をならしても、くいあらためない者どもよ、最後は、かくの如くあらんと、お怒りになっていらっしゃるか、どうか存じませんが、私の心は、あれやこれやと働き、この時の明主様のお姿は、この光景にうまくマッチする形容詞が見つかりません。<br/><br/>場面がかわり大光明如来様お出ましになり、筆をお渡し下さる。<br/><br/>何百と数限りない人の中で、男の人が「大神様お救い下さい」と書かれる。<br/><br/>次々と筆は廻される様であった。<br/><br/>再び太陽の真紅なのが拝され、その辺真紅でまぶしい。<br/><br/>何も見えなく、あかあかとしていました。<br/><br/>明主様のお写真を拝しますと先程のお姿と同じである。<br/><br/>次に大黒様のお祀にて祝詞を奏上するや、大黒様大きなお皿の様な盃に他の大黒様に酒をついでいただかれ、その盃を持たれたまま両手を左右に動かしていらっしゃいましたが、祝詞の終り頃、お飲みになられる。<br/><br/>袋は前に下されますが、口はしっかりしまっていて小判等は出ませんでした。<br/><br/>次に会長先生「智恵の光」の御論文を拝読されますと、一人の荒男、多賀会長先生のまん前に現われ、着物はぼろぼろ髪ものび放題にて坐していました。<br/><br/>ちょっと足のいずまいを悪くしましたが、又正しく坐して聞いていました。<br/><br/>先生の後の方には太陽が現われ、あたりは明るい。<br/><br/>次に地上天国十六号「物を識るという事」を拝読されますと、女の人が子供に乳をのませ先生の傍にて聞いていられる様が見えました。<br/><br/>次に「大恐怖時代来たらん」の御論文を拝読されるや明主様がお出ましになり、強烈な白光が放射されるので、私がすいつけられてしまう様に頭が浄化します。<br/><br/>次には沢山のペットが現われ病人が一ぱいねている。<br/><br/>医師が来て聴診器をあて、次々と見てあるく様が見えて来る。<br/><br/>次は「紅卍会のふうち」のお話をされるや、そこに椅子が現われ、その椅子には多賀先生の傍にいらっしゃった古代の神と思われる男神がおかけになり、傍には人が五、六人集まり何かされる様が見えて来、私はその場所にすーっとすいつけられて行く様で恐ろしいやら有難いやら、身も魂も浄まって行く様な感じが致しました。<br/><br/>言葉によって何でもついて来られる。<br/><br/>意志想念によりこんな御力があるのかとよく常に存じているはずであるのが、一層しんみりと感じられました。<br/><br/>例祭後会長先生が「今日はいつもと違った想念にて御参拝したから、今迄とは違った霊視が出来たでしょう」と云われ、どういうことかは解りませんが以上の霊視が出来ました。<br/><br/>先生に御報告致しましたら、ただ笑っていられました。<br/><br/> 二月二十五日 信者の家の例祭にお参りいたしますと、今晩は次の様な状が霊視出来ました。<br/><br/>立春の御詠を奏上している頃より明主様が光明如来様の前にお出ましになられました。<br/><br/>その御姿は、とても峻厳でありました。<br/><br/>明主様のお側には筆にて何か書いていらっしゃる和服姿の男の人が見えて来ました。<br/><br/>そうこうしていますと明主様が私の霊視日記の御報告書を御覧になっていらっしゃるお姿を拝し、胸がどきんとしました。<br/><br/>そうこうしていますと、私が何時もメモ致しています常の帳面を御覧下さっているお姿を拝し、もったいないやら有難いやら、おどおどしてきました。<br/><br/>霊視日記の方は暫くはぐって御覧下さっていました。<br/><br/>正しい御用が出来ます様、心でお念じしつつ御勤を終りました。<br/><br/>明主様何時もの様に唆厳なお姿でお出ましになられる。<br/><br/>有難いなと思っていますと、御浄霊をいただきながら誰か雑談をなされ、いけないことだと思っていましたが、なかなか止められない。<br/><br/>明主様の御顔は恐ろしいお顔にかわられる。<br/><br/>お互つつしみ真剣に御浄霊いただかねばならないと恥ずかしくなりました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

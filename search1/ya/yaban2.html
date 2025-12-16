@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yaban2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 野蛮なる文明 『栄光』201号、昭和28(1953)年3月25日発行 この題を見たらちょっと変に思うだろうが、これより外に付けようがないからそうかいたのである。<br><br>というのはまず文明というものの意味である。<br><br>これは考えるまでもなく条件は色々あるであろうが、何といっても第一は人間生命の安全確保であり、それと共に暴力否定の思想である。<br><br>第二は国家社会全般に渉（わた）っての合理性の行われる事であって、それらをこれからかいてみよう。<br><br>右のごとく人間生命の安心感がない限り、文明の文字はあり得ない事は今更言うまでもない。<br><br>すなわち一生涯病気に罹（かか）らない事と、戦争のない世界である。<br><br>このような人類世界が実現してこそ初めて文明の恩恵に浴し、人類最大なる欲求である幸福を得らるるのである。<br><br>ゆえに我救世教が病気のない人間を作る事を建前としているのも、この意味に外ならないのである。<br><br>さればこそ人類はすでに紀元前から病に対し、最大関心を払いつつ来たので、近代に至って西洋医学が創始され、それが驚くべく進歩発達を遂げたので、人間はこれを唯一の病気解決法と信じ、世界各国はこの医学を採用し、今日に至ったのは周知の通りである。<br><br>ところがいつも言う通り、事実はこの医学の進歩なるものは外面だけであって、実際上の効果はほとんどないのであって、これは事実がよく示している。<br><br>見よ現在到るところの病人の氾濫はよくそれを物語っているではないか。<br><br>結核、脳溢血、癌、精神病、小児麻痺等の悪性病気は固（もと）より、各種伝染病のごとき、その対策に常に悲鳴を挙げている現状がよく示している。<br><br> これによって考えねばならない事は、一体医学のなかった野蛮未開時代の人間の健康はどうであったかという事である。<br><br>これに対し私は今日の医学的理論で解釈してみると、こういう事になろう。<br><br>つまりその時代は医学衛生など全然ないから、病気に冒され易く、片っ端から死んでしまうであろうし、栄養なども未知である以上栄養失調となり、肉体は弱り無理な仕事や重労働などには堪えられない事になり、交通機関もないから遠方へ行こうにも早く疲労するから、土地開拓などは思いもよらないであろう。<br><br>そのような弱体人間も医療や薬が生まれたおかげで、今日のごとき健康体になったという事になるので、益々医学を進歩させれば健康は増すのはもちろん、手術の進歩によって大抵な病気は片っ端から臓器を切り除ってしまうから安心なものである。<br><br>としたら大体造物主なる者は間抜な代物（しろもの）で、盲腸などの余計なものを造ったり、一個で済む腎臓を二つも造ったり、扁桃腺やアデノイドなどの不要なものを造ったりするので、吾々利口な人間はそんな危険物は除り去ってしまうのだ、という理屈になろう。<br><br>ところがそんな気狂いじみた高慢な人間も、実は造物主が作ったのであるから、飛んでもない罰当りな奴と造物主も顔を顰（しか）めるであろう。<br><br>この事を考えただけでも科学者の頭脳の程度は分るはずである。<br><br>また黴菌を恐れて消毒や殺菌法に夢中になっており、大病院は至るところに設けられ、ベッドは無数に出来るので、そのための費用や労力、時間等の消費は大変なものであり、そのための税金も巨額に上るであろうが、しかしそうなったとしたら全く医学上の理想世界であろうが、病気の方はどうであろうかを考えてみよう。<br><br>それについてはまず古代人の健康である。<br><br>それに関しての歴史、伝説、文献等をみても分る通り、その時代の人間は現代人とは比べものにならない程の体力強靱であった事は、幾多の遺物によっても想像出来るのである。<br><br>これらによってみても私がいつもいう、医学は人間を弱らせ病気を作るという説に誤りないであろう。<br><br>とすれば現代医学は進歩したように見えても、その実人間の苦悩を増し、文明に対する逆的存在である事が分るであろう。<br><br> 次は戦争であるが、これを批判するに当って断っておきたい事は、これこそ立派な野蛮時代の遺物であり、最も悪質なものである。<br><br>というのは元来野蛮人というものは獣類に最も近いものであって、早くいえば半獣半人である。<br><br>ところが現代文明人をよく検討してみると、内的にはそれと大差ない事を発見する。<br><br>なるほど外容はまことに文化的で、野蛮性などは微塵（みじん）も見えないが、前記のごとく野蛮獣性が心の底に多分に残っており、闘争意識の旺盛である事である。<br><br>現在対抗している米・ソの二大陣営にしても、虎とライオンが睨（にら）み合って、今や咬（かみ）合わんとして牙をムいているようなものであろう。<br><br>ただ異（ちが）うところは流石（さすが）に人間らしく万事が智能的で、進歩せる武器をもち、集団的組織の下に作戦を練り、時の到るを待っているだけの話である。<br><br>しかも獣類より一層始末が悪い事は、虎やライオンなら一匹だけの命のやりとりで済むが、人間の方はそうはゆかない。<br><br>一人の発頭人（ほっとうにん）だけ安全にしておいて、何万何十万の人間生命を犠牲にして勝負を決するのであるから、勝つ方も負ける方も死人の山を築くのであるから、結果からいえば野蛮性は人間様の方が上である。<br><br> 次は現在の社会に合理性が何程ありやという事である。<br><br>なるほど表面からみれば各国それぞれの憲法や政治経済組織、社会機構など学問人智を究（きわ）めて、遺憾なく構成されているが、これを運営する人間の野蛮性は随所に発揮されている。<br><br>というのは一度仮面を脱げばその不合理の多々なる驚く程である。<br><br>例えば政治にしろ、アノ国会の有様を見ても分る通り、普通人よりレベルの高かるべき人達の集りとは思えない程のアノ罵詈雑言（ばりぞうごん）、喧噪（けんそう）等見るに堪えざるものがあり、さながら市井（しせい）の無頼漢（ぶらいかん）共の集りを見るようである。<br><br>とはいうもののこの議会制度なるものは、合理的に万事よく出来ているが、これも野蛮性が打ち壊す訳である。<br><br>また政党員は政党員で自己の利益を第一、党の利益を第二、人民の利益を第三としているとしか思えない。<br><br>この人達が国家の選良といって威張っているのであるから厄介な話である。<br><br>また選挙にしてもそうだ、なるほど法規や取締りは微に入り細に渉って至極厳重であるが、これも表面だけの事で、実際は法規の網の目を潜（くぐ）るのが利口とされている始末である。<br><br> そうして民主国家になったとして喜んでいる日本にしてもそうだ。<br><br>中味と来ては案外で常に役人風を吹き散らし、人権蹂躙（じゅうりん）など屁とも思わない有様は、常に新聞を賑わしている通りで、その非民主的なる事実は第三者には到底想像もつかない程である。<br><br>これこそ外面文明、内心野蛮というより言葉はない。<br><br>その他贈収賄（ぞうしゅうわい）問題にしても衆知の通りで、これらも氷山の一角でしかあるまい。<br><br> 以上思いついたままザットかいただけでこのくらいであるから、他は推（お）して知るべきである。<br><br>これらを綜合してみても、最初に言った通り現在の世相は外面だけの文明であって、内面はまだまだ野蛮性が多分に残っているのであるから、標題の文字は何ら間違ってはいないと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Civilização Bárbara</h2>
 <p>Ao se deparar com este título, talvez o leitor o considere um tanto peculiar. Todavia, não encontrei expressão mais adequada para o que desejo expor. Comecemos, pois, por definir o que é civilização. Embora suas condições sejam múltiplas, a primeira e mais fundamental é, sem dúvida, a garantia da segurança da vida humana, indissociável de uma mentalidade que repudia a violência. A segunda consiste na plena vigência da racionalidade em todos os âmbitos do Estado e da sociedade. A seguir, discorrerei sobre esses pontos.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Os membros dos partidos, por sua vez, parecem priorizar os próprios interesses, seguidos pelos do partido e, somente em terceiro lugar, pelos do povo. É lamentável que indivíduos assim, que se vangloriam de ser a elite da nação, ajam dessa maneira. O mesmo ocorre com as eleições. As leis e a fiscalização são, no papel, extremamente rigorosas e detalhadas, mas isso é apenas fachada. Na prática, contornar as brechas da lei é considerado um sinal de inteligência.</p>
 <p>O mesmo se aplica ao Japão, que se regozija por ter se tornado uma nação democrática. A realidade, entretanto, é surpreendentemente diversa. A arrogância burocrática e o desprezo pelos direitos humanos, que são constantemente noticiados pelos jornais, demonstram um comportamento antidemocrático em um grau que um observador externo dificilmente poderia imaginar. Não há outra forma de descrever tal quadro senão como uma civilização exterior e uma barbárie interior. Os escândalos de suborno e corrupção, de conhecimento público, são apenas a ponta do iceberg.</p>
 <p>O que expus até aqui, de forma espontânea e sem maiores delongas, já é suficiente para que o restante possa ser inferido. Analisando o conjunto, como afirmei no início, a sociedade atual possui apenas um verniz de civilização, enquanto em seu interior ainda reside uma expressiva barbárie. Creio, portanto, que o título deste artigo não contém nenhum equívoco.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 野蛮なる文明 『栄光』201号、昭和28(1953)年3月25日発行 この題を見たらちょっと変に思うだろうが、これより外に付けようがないからそうかいたのである。<br/><br/>というのはまず文明というものの意味である。<br/><br/>これは考えるまでもなく条件は色々あるであろうが、何といっても第一は人間生命の安全確保であり、それと共に暴力否定の思想である。<br/><br/>第二は国家社会全般に渉（わた）っての合理性の行われる事であって、それらをこれからかいてみよう。<br/><br/>右のごとく人間生命の安心感がない限り、文明の文字はあり得ない事は今更言うまでもない。<br/><br/>すなわち一生涯病気に罹（かか）らない事と、戦争のない世界である。<br/><br/>このような人類世界が実現してこそ初めて文明の恩恵に浴し、人類最大なる欲求である幸福を得らるるのである。<br/><br/>ゆえに我救世教が病気のない人間を作る事を建前としているのも、この意味に外ならないのである。<br/><br/>さればこそ人類はすでに紀元前から病に対し、最大関心を払いつつ来たので、近代に至って西洋医学が創始され、それが驚くべく進歩発達を遂げたので、人間はこれを唯一の病気解決法と信じ、世界各国はこの医学を採用し、今日に至ったのは周知の通りである。<br/><br/>ところがいつも言う通り、事実はこの医学の進歩なるものは外面だけであって、実際上の効果はほとんどないのであって、これは事実がよく示している。<br/><br/>見よ現在到るところの病人の氾濫はよくそれを物語っているではないか。<br/><br/>結核、脳溢血、癌、精神病、小児麻痺等の悪性病気は固（もと）より、各種伝染病のごとき、その対策に常に悲鳴を挙げている現状がよく示している。<br/><br/> これによって考えねばならない事は、一体医学のなかった野蛮未開時代の人間の健康はどうであったかという事である。<br/><br/>これに対し私は今日の医学的理論で解釈してみると、こういう事になろう。<br/><br/>つまりその時代は医学衛生など全然ないから、病気に冒され易く、片っ端から死んでしまうであろうし、栄養なども未知である以上栄養失調となり、肉体は弱り無理な仕事や重労働などには堪えられない事になり、交通機関もないから遠方へ行こうにも早く疲労するから、土地開拓などは思いもよらないであろう。<br/><br/>そのような弱体人間も医療や薬が生まれたおかげで、今日のごとき健康体になったという事になるので、益々医学を進歩させれば健康は増すのはもちろん、手術の進歩によって大抵な病気は片っ端から臓器を切り除ってしまうから安心なものである。<br/><br/>としたら大体造物主なる者は間抜な代物（しろもの）で、盲腸などの余計なものを造ったり、一個で済む腎臓を二つも造ったり、扁桃腺やアデノイドなどの不要なものを造ったりするので、吾々利口な人間はそんな危険物は除り去ってしまうのだ、という理屈になろう。<br/><br/>ところがそんな気狂いじみた高慢な人間も、実は造物主が作ったのであるから、飛んでもない罰当りな奴と造物主も顔を顰（しか）めるであろう。<br/><br/>この事を考えただけでも科学者の頭脳の程度は分るはずである。<br/><br/>また黴菌を恐れて消毒や殺菌法に夢中になっており、大病院は至るところに設けられ、ベッドは無数に出来るので、そのための費用や労力、時間等の消費は大変なものであり、そのための税金も巨額に上るであろうが、しかしそうなったとしたら全く医学上の理想世界であろうが、病気の方はどうであろうかを考えてみよう。<br/><br/>それについてはまず古代人の健康である。<br/><br/>それに関しての歴史、伝説、文献等をみても分る通り、その時代の人間は現代人とは比べものにならない程の体力強靱であった事は、幾多の遺物によっても想像出来るのである。<br/><br/>これらによってみても私がいつもいう、医学は人間を弱らせ病気を作るという説に誤りないであろう。<br/><br/>とすれば現代医学は進歩したように見えても、その実人間の苦悩を増し、文明に対する逆的存在である事が分るであろう。<br/><br/> 次は戦争であるが、これを批判するに当って断っておきたい事は、これこそ立派な野蛮時代の遺物であり、最も悪質なものである。<br/><br/>というのは元来野蛮人というものは獣類に最も近いものであって、早くいえば半獣半人である。<br/><br/>ところが現代文明人をよく検討してみると、内的にはそれと大差ない事を発見する。<br/><br/>なるほど外容はまことに文化的で、野蛮性などは微塵（みじん）も見えないが、前記のごとく野蛮獣性が心の底に多分に残っており、闘争意識の旺盛である事である。<br/><br/>現在対抗している米・ソの二大陣営にしても、虎とライオンが睨（にら）み合って、今や咬（かみ）合わんとして牙をムいているようなものであろう。<br/><br/>ただ異（ちが）うところは流石（さすが）に人間らしく万事が智能的で、進歩せる武器をもち、集団的組織の下に作戦を練り、時の到るを待っているだけの話である。<br/><br/>しかも獣類より一層始末が悪い事は、虎やライオンなら一匹だけの命のやりとりで済むが、人間の方はそうはゆかない。<br/><br/>一人の発頭人（ほっとうにん）だけ安全にしておいて、何万何十万の人間生命を犠牲にして勝負を決するのであるから、勝つ方も負ける方も死人の山を築くのであるから、結果からいえば野蛮性は人間様の方が上である。<br/><br/> 次は現在の社会に合理性が何程ありやという事である。<br/><br/>なるほど表面からみれば各国それぞれの憲法や政治経済組織、社会機構など学問人智を究（きわ）めて、遺憾なく構成されているが、これを運営する人間の野蛮性は随所に発揮されている。<br/><br/>というのは一度仮面を脱げばその不合理の多々なる驚く程である。<br/><br/>例えば政治にしろ、アノ国会の有様を見ても分る通り、普通人よりレベルの高かるべき人達の集りとは思えない程のアノ罵詈雑言（ばりぞうごん）、喧噪（けんそう）等見るに堪えざるものがあり、さながら市井（しせい）の無頼漢（ぶらいかん）共の集りを見るようである。<br/><br/>とはいうもののこの議会制度なるものは、合理的に万事よく出来ているが、これも野蛮性が打ち壊す訳である。<br/><br/>また政党員は政党員で自己の利益を第一、党の利益を第二、人民の利益を第三としているとしか思えない。<br/><br/>この人達が国家の選良といって威張っているのであるから厄介な話である。<br/><br/>また選挙にしてもそうだ、なるほど法規や取締りは微に入り細に渉って至極厳重であるが、これも表面だけの事で、実際は法規の網の目を潜（くぐ）るのが利口とされている始末である。<br/><br/> そうして民主国家になったとして喜んでいる日本にしてもそうだ。<br/><br/>中味と来ては案外で常に役人風を吹き散らし、人権蹂躙（じゅうりん）など屁とも思わない有様は、常に新聞を賑わしている通りで、その非民主的なる事実は第三者には到底想像もつかない程である。<br/><br/>これこそ外面文明、内心野蛮というより言葉はない。<br/><br/>その他贈収賄（ぞうしゅうわい）問題にしても衆知の通りで、これらも氷山の一角でしかあるまい。<br/><br/> 以上思いついたままザットかいただけでこのくらいであるから、他は推（お）して知るべきである。<br/><br/>これらを綜合してみても、最初に言った通り現在の世相は外面だけの文明であって、内面はまだまだ野蛮性が多分に残っているのであるから、標題の文字は何ら間違ってはいないと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

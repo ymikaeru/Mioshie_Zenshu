@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reisi15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（15） 五三中教会 茨木よし子 『栄光』251号、昭和29(1954)年3月10日発行 一月二日 昭和二十九年の正月を迎え、明主様に御面会へと出発致しました。<br><br>御面会場に着いた時には信者さん方は一ぱいお入りになり私は後の方でありました。<br><br>伏しおがむ御神前からは強烈な白光が放射され曇り多き私は目のやりどころがなく、まぶしいままに拝していますと白光は極度に強烈となり、まなこくらまんばかりに放射されますと明主様がお出ましになられる様が目に映りました。<br><br>嗚呼有難いこの身に受ける幸と感涙致していますと明主様と入れ代られメシヤ観音様が拝され優しく御手を差しのべて下さる様が目に映りました。<br><br> 霊界人のおすがり致しています様はとても筆にては書き表わせません。<br><br>中には「神の大経綸にまにあい、こんな嬉しいことはない」「救世主様お救い下さい」「大神様大歓喜」と次々に文字にてお知らせ致している様が見えました。<br><br>次には巾一米位もあるかと思われる鉄製のブーリーが五つも物凄い勢いにて回転している傍を子供を連れた婦人が通りかかるが無事に通過致しました。<br><br>次々と綺麗な着物を着た人々がそこを通りかかりますが、わけなく通る人、引き付けられてしまう人、やっとの事で通れる人というように見ている私ははらはらいたしました。<br><br>中には哀れにも引ぎつけられてしまい、きりきりと巻き込まれ血みどろの悲惨な場面が見えて来ました。<br><br>「大神様お手柄をたてさせて下さい」「幕末の武士になり代わりお許しお礼に参上致しました」と跪く武士も見受けられました。<br><br>白髪のぼうぼう生えたお爺さんがにこにこしながらこちちを向かれるとそのお爺さんは大きな煙管を持っていらっしゃり、煙管からは煙がぽっぽっと出ていました。<br><br>霊界にては我先にと、くんず組合ってお光を浴していました。<br><br> 次にメシヤ観音様は御手に「何々大師」「何々如来と書いてある帳面をお持ちになっていらっしゃり、それは一枚の紙が巾五寸、長さ二尺位もあるものでありました。<br><br>次に場面は一変いたし、中心にすらりとお立ちになられる明主様の御前には段々に順序よくお並びになる神々様の情景は、まるで美しく咲く花の模様のように拝されました。<br><br>正面はさっと何も見えなくなり次に紋付姿の男の方々がずらりと御神前の方に向って並ばれる様が目に映り沢山の高貴な方々が出て来られ明主様の御前にてお茶をお注ぎなされていらっしゃる様も見えて来ます。<br><br>一方参拝の信者さん方のあたりを見ますと、どの信者さんの横側にも全部同じような服装のお観音様が（光明如来様のようでもありました）明主様の方を御覧になっていらっしゃる様が見えて来、何と立派な崇高な情景であることかと、ただただ歓喜にひたるばかりでありました。<br><br>常に救世教信者の方々はこうしたお観音様に（お守様）守護して頂く幸福を思い今更のように曇り多き私の魂は目覚めたのか、どくどくと心臓の鼓動を感じました。<br><br>間もなく御参拝が始まりますと霊界では三参九拝する人々で一ぱいでありました。<br><br>その様はいつかの写真で見ましたが宮城前に日本全国からの国民が集まり、ひれ伏し哀願している時の様と同じような感じが致しました。<br><br> 明主様から放射されます白光は益々強烈となり、あたり一面おおわれてしまう光は波うって放射されるように私の目には映りました。<br><br>暫く致しますと明主様は千手観音様と入れ代られました。<br><br>高貴な婦人方が巻物を開かれお読み申し上げておられる様が見え、次から次から順に並んでおられる様が見えて来ました。<br><br>「明主様の御救い」と書けて来ます。<br><br>御詠を奏上していますと馬上の女神が現われ扇をお使いになられておられる様が見えました。<br><br>次々に大光明如来様がお出ましになられました。<br><br>二重橋が見えて来、遥か上空にはメシヤ観音様が押され白光は光々と放射されていました。<br><br>綺麗な花咲くあたりには、稲荷の鳥居が見えて来ました。<br><br>素晴らしき大きな宮が見えて来る。<br><br>これは確かに京都の平安神宮のようでありました。<br><br>「主神様、主神大神」と文字が書けてまいりました。<br><br> 間もなく明主様がお出ましになられますと茶色のふさふさした髪をたらした外国の婦人が沢山見えて来ました。<br><br>明主様お出ましのあたりの霊界の様は金欄、錦等にてすっかりお飾りのしてある座でありました。<br><br>可愛いい子供さんが明主様にたぶれまわっていらっしゃる様が拝されました。<br><br>沢山の反物、純毛の巻束が山程積み出される様、綺麗な目も醒めるような鳥（孔雀のような鳥）が見る間に羽根をひろげてしまう様等恍惚として我を忘れるおもむきでありました。<br><br>次には場面は一変して黒猫が一ぱい集って来る様、武士が沢山集って来て、ちゃんばらをしている様は目をおおいたいようでありました。<br><br>明主様が御講話をなされていらっしゃるあたりでは紋付姿の人々が盛んにメモをしておられる様が見えて来ました。<br><br>明主様の御前には沢山の人の手がのばされる、しまいには握手をされてしまう様が見えて来ました。<br><br>次には屍の山が見えて来る。<br><br>あたりはごったがえしをしていますが暫く致しますと太陽が次第に大きく光々とさし昇る情景が拝されました。<br><br> お正月のしめ縄のはられた神社が見えて来、朱塗の扉が開くと中からどやどやと人が出て来る「主の君」と白光まばゆく書けて来、花は咲き乱れ熱海の地上天国が現われてまいりました。<br><br>金光まばゆく「主神の大経綸」と正面に拝されました稲刈鎌やスコップのような農具が見えて来ました。<br><br>万国旗がひるがえっている様が見えて来ます。<br><br>朱塗の経机が見えて来ますが、それが片っ端からひっくりかえり片付けられてしまう様が見え、僧侶も沢山見えて来ました。<br><br>大きく「世界救世教」と書いたスローガンのようなものが見えて来ました。<br><br>何十万、何百万と数限りない人々が仰ぎ見る明主様のお姿、メシヤ観音様の御姿が次々と見えていました。<br><br>明主様今度は数々の御守護誠に有難うございました。<br><br>謹みて御礼申し上げます。<br><br>二日三日と御面会のお許しを頂きまして誠に有難うございました。<br><br>今度は二日の御報告のみにて終わらせて頂きます。<br><br>次には三日の御報告を申し上げさせて頂きます。<br><br>讃えても讃えつくせぬ明主様、どうか御用がつとまりますように御守護をお願い申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Visões Espirituais na Presença de Meishu-Sama</h2>
 <p>Ao raiar o Ano Novo de 1954, no dia dois de janeiro, parti para uma audiência com Meishu-Sama. Quando cheguei ao local, este já se encontrava repleto de fiéis, de modo que me posicionei ao fundo. Do augusto Altar Divino, emanava uma radiante e intensa luz branca. Diante de tal esplendor, eu, com tantas máculas, mal conseguia fixar o olhar. Enquanto orava, imersa naquela claridade ofuscante, a luz tornou-se ainda mais potente, irradiando a ponto de quase cegar-me, e nesse exato momento, vislumbrei a figura de Meishu-Sama adentrando o recinto. Oh, que indizível felicidade poder receber tamanha graça! Verti lágrimas de gratidão. Nesse instante, a imagem de Meishu-Sama transfigurou-se na de Messias Kannon (観音), a qual contemplei estendendo Sua mão com benevolência.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Logo que Meishu-Sama se fez presente, apareceram muitas mulheres estrangeiras de cabelos castanhos e fartos. O assento de Meishu-Sama no Mundo Espiritual era suntuosamente adornado com brocados de ouro e seda. Pude ver crianças adoráveis que rodeavam Meishu-Sama alegremente. Vi montanhas de tecidos em rolos e fardos de pura lã. Pássaros de uma beleza estonteante, semelhantes a pavões, abriam suas caudas em leque diante dos meus olhos. Eram visões de um êxtase que me fazia esquecer de mim mesma. Contudo, a cena mudou drasticamente: um enxame de gatos pretos surgiu, seguido por uma multidão de samurais que travavam uma violenta batalha de espadas, uma visão da qual desejei desviar o olhar. Durante a palestra de Meishu-Sama, vi homens de <em>montsuki</em> que tomavam notas diligentemente. Inúmeras mãos se estendiam em direção a Ele, até que, finalmente, começaram a apertar-Lhe a mão. Depois, surgiu uma montanha de cadáveres. O entorno era uma completa desordem, mas, após um tempo, contemplei o Sol, que surgia gradualmente, tornando-se imenso e radiante.</p>
 <p>Vislumbrei um santuário com as decorações de Ano Novo e, quando suas portas laqueadas de vermelho se abriram, uma multidão saiu de dentro. As palavras “Soberano Senhor” surgiram em meio a uma luz branca e ofuscante. As flores desabrocharam em profusão, e o Paraíso Terrestre de Atami manifestou-se. Uma luz dourada e resplandecente iluminou as palavras “Grande Plano Divino do Deus Supremo”, que surgiram à minha frente. Vi ferramentas agrícolas, como foices e pás. Bandeiras de todas as nações tremulavam ao vento. Pude ver mesas de sutras laqueadas de vermelho, que eram viradas e removidas uma a uma, e também muitos monges budistas. Um estandarte apareceu, no qual estava escrito em letras garrafais: “Sekai Kyusei Kyo”. Dezenas, centenas de milhares, milhões de pessoas, uma multidão incontável, contemplava a figura de Meishu-Sama e a de Messias Kannon, que se sucediam em minha visão.</p>
 <p>Meishu-Sama, agradeço do fundo do meu coração por Suas inúmeras graças e proteções. Humildemente, expresso minha mais profunda gratidão por me ter sido concedida a permissão de Vossa audiência nos dias dois e três. Este relato se restringe às visões do dia dois; em outra oportunidade, relatarei as do dia três. Ainda que louve Vosso nome incessantemente, minhas palavras jamais serão suficientes para exaltar-Vos, Meishu-Sama. Rogo a Vós que me protejais, para que eu possa ser útil em Vossa grandiosa Obra.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視日記（15） 五三中教会 茨木よし子 『栄光』251号、昭和29(1954)年3月10日発行 一月二日 昭和二十九年の正月を迎え、明主様に御面会へと出発致しました。<br/><br/>御面会場に着いた時には信者さん方は一ぱいお入りになり私は後の方でありました。<br/><br/>伏しおがむ御神前からは強烈な白光が放射され曇り多き私は目のやりどころがなく、まぶしいままに拝していますと白光は極度に強烈となり、まなこくらまんばかりに放射されますと明主様がお出ましになられる様が目に映りました。<br/><br/>嗚呼有難いこの身に受ける幸と感涙致していますと明主様と入れ代られメシヤ観音様が拝され優しく御手を差しのべて下さる様が目に映りました。<br/><br/> 霊界人のおすがり致しています様はとても筆にては書き表わせません。<br/><br/>中には「神の大経綸にまにあい、こんな嬉しいことはない」「救世主様お救い下さい」「大神様大歓喜」と次々に文字にてお知らせ致している様が見えました。<br/><br/>次には巾一米位もあるかと思われる鉄製のブーリーが五つも物凄い勢いにて回転している傍を子供を連れた婦人が通りかかるが無事に通過致しました。<br/><br/>次々と綺麗な着物を着た人々がそこを通りかかりますが、わけなく通る人、引き付けられてしまう人、やっとの事で通れる人というように見ている私ははらはらいたしました。<br/><br/>中には哀れにも引ぎつけられてしまい、きりきりと巻き込まれ血みどろの悲惨な場面が見えて来ました。<br/><br/>「大神様お手柄をたてさせて下さい」「幕末の武士になり代わりお許しお礼に参上致しました」と跪く武士も見受けられました。<br/><br/>白髪のぼうぼう生えたお爺さんがにこにこしながらこちちを向かれるとそのお爺さんは大きな煙管を持っていらっしゃり、煙管からは煙がぽっぽっと出ていました。<br/><br/>霊界にては我先にと、くんず組合ってお光を浴していました。<br/><br/> 次にメシヤ観音様は御手に「何々大師」「何々如来と書いてある帳面をお持ちになっていらっしゃり、それは一枚の紙が巾五寸、長さ二尺位もあるものでありました。<br/><br/>次に場面は一変いたし、中心にすらりとお立ちになられる明主様の御前には段々に順序よくお並びになる神々様の情景は、まるで美しく咲く花の模様のように拝されました。<br/><br/>正面はさっと何も見えなくなり次に紋付姿の男の方々がずらりと御神前の方に向って並ばれる様が目に映り沢山の高貴な方々が出て来られ明主様の御前にてお茶をお注ぎなされていらっしゃる様も見えて来ます。<br/><br/>一方参拝の信者さん方のあたりを見ますと、どの信者さんの横側にも全部同じような服装のお観音様が（光明如来様のようでもありました）明主様の方を御覧になっていらっしゃる様が見えて来、何と立派な崇高な情景であることかと、ただただ歓喜にひたるばかりでありました。<br/><br/>常に救世教信者の方々はこうしたお観音様に（お守様）守護して頂く幸福を思い今更のように曇り多き私の魂は目覚めたのか、どくどくと心臓の鼓動を感じました。<br/><br/>間もなく御参拝が始まりますと霊界では三参九拝する人々で一ぱいでありました。<br/><br/>その様はいつかの写真で見ましたが宮城前に日本全国からの国民が集まり、ひれ伏し哀願している時の様と同じような感じが致しました。<br/><br/> 明主様から放射されます白光は益々強烈となり、あたり一面おおわれてしまう光は波うって放射されるように私の目には映りました。<br/><br/>暫く致しますと明主様は千手観音様と入れ代られました。<br/><br/>高貴な婦人方が巻物を開かれお読み申し上げておられる様が見え、次から次から順に並んでおられる様が見えて来ました。<br/><br/>「明主様の御救い」と書けて来ます。<br/><br/>御詠を奏上していますと馬上の女神が現われ扇をお使いになられておられる様が見えました。<br/><br/>次々に大光明如来様がお出ましになられました。<br/><br/>二重橋が見えて来、遥か上空にはメシヤ観音様が押され白光は光々と放射されていました。<br/><br/>綺麗な花咲くあたりには、稲荷の鳥居が見えて来ました。<br/><br/>素晴らしき大きな宮が見えて来る。<br/><br/>これは確かに京都の平安神宮のようでありました。<br/><br/>「主神様、主神大神」と文字が書けてまいりました。<br/><br/> 間もなく明主様がお出ましになられますと茶色のふさふさした髪をたらした外国の婦人が沢山見えて来ました。<br/><br/>明主様お出ましのあたりの霊界の様は金欄、錦等にてすっかりお飾りのしてある座でありました。<br/><br/>可愛いい子供さんが明主様にたぶれまわっていらっしゃる様が拝されました。<br/><br/>沢山の反物、純毛の巻束が山程積み出される様、綺麗な目も醒めるような鳥（孔雀のような鳥）が見る間に羽根をひろげてしまう様等恍惚として我を忘れるおもむきでありました。<br/><br/>次には場面は一変して黒猫が一ぱい集って来る様、武士が沢山集って来て、ちゃんばらをしている様は目をおおいたいようでありました。<br/><br/>明主様が御講話をなされていらっしゃるあたりでは紋付姿の人々が盛んにメモをしておられる様が見えて来ました。<br/><br/>明主様の御前には沢山の人の手がのばされる、しまいには握手をされてしまう様が見えて来ました。<br/><br/>次には屍の山が見えて来る。<br/><br/>あたりはごったがえしをしていますが暫く致しますと太陽が次第に大きく光々とさし昇る情景が拝されました。<br/><br/> お正月のしめ縄のはられた神社が見えて来、朱塗の扉が開くと中からどやどやと人が出て来る「主の君」と白光まばゆく書けて来、花は咲き乱れ熱海の地上天国が現われてまいりました。<br/><br/>金光まばゆく「主神の大経綸」と正面に拝されました稲刈鎌やスコップのような農具が見えて来ました。<br/><br/>万国旗がひるがえっている様が見えて来ます。<br/><br/>朱塗の経机が見えて来ますが、それが片っ端からひっくりかえり片付けられてしまう様が見え、僧侶も沢山見えて来ました。<br/><br/>大きく「世界救世教」と書いたスローガンのようなものが見えて来ました。<br/><br/>何十万、何百万と数限りない人々が仰ぎ見る明主様のお姿、メシヤ観音様の御姿が次々と見えていました。<br/><br/>明主様今度は数々の御守護誠に有難うございました。<br/><br/>謹みて御礼申し上げます。<br/><br/>二日三日と御面会のお許しを頂きまして誠に有難うございました。<br/><br/>今度は二日の御報告のみにて終わらせて頂きます。<br/><br/>次には三日の御報告を申し上げさせて頂きます。<br/><br/>讃えても讃えつくせぬ明主様、どうか御用がつとまりますように御守護をお願い申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

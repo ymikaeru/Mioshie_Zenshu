@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhatine1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 八年間の結核と併発した網膜炎より 救われた私の喜び 『結核信仰療法』昭和27(1952)年12月1日発行 神奈川県 神栄中教会 森谷幾ノ丞（32） 長年の病苦と絶望より救って頂きました有難さに、心よりの喜びは抑え様もなく、悪文悪筆を顧みずここに御報告を記させて頂きます。<br><br> 想い起せば昭和十三年親子三人睦まじく暮していた私の家庭も、大黒柱と頼む父が腎臓炎となり、病の床についてしまい、医者よ薬よと色々手を尽くしましたが益々悪くなるばかり、最後には神頼みと、ある信仰をして地蔵様を御祀りして朝夕一生懸命お祈り致しましたが何の効も無く、十一月には死んでしまいました。<br><br>残された母は、私がどうやら十九歳になっておりましたので、家事農業を二人でぼつぼつとやっておりましたが、元来丈夫でなかった母も、それから間も無く病の床につき、私の兵隊の事ばかり心配しつづけて、十五年の五月父の後を追って逝ってしまいました。<br><br>兄弟の無い私はただ一人となり仕事も手に付きません。<br><br>その上七月には母の死を早めたといっても過言でない私の徴兵検査が参りました。<br><br>五尺八寸十七貫の体にて甲種合格となり、十六年一月親戚や近所の人に後を頼み総てを捨ててひたすら国のためと満州の部隊に入隊致しました。<br><br>今日考えれば深き神様の思召しだったとつくづく思いますが、何たる事か脚気のため病院生活をしなければならぬ身となり、全快の日を楽しみつつ療養に専念致しておりましたが一進一退、その内胸膜炎を併発し白衣の身にて内地に送還されてしまいました。<br><br>「ああ自分も人の嫌がる肺病の第一期になってしまったか」と夢にも思わなかったその病名にすっかり失望してしまいました。<br><br> 軍医に一身を任せ、服薬注射湿布と治りたい一心にて安静を守っておりましたが又々腹膜炎をも併発、腹部の湿布が又一つふえ、熱は三十八度から四十度と上り、食欲は全く無くなり、日一日と衰弱して全く生ける屍同様となりました。<br><br>「いよいよ死んでしまうのか」と思えば亡き父母の顔が眼の前に浮んで参ります。<br><br>「何んとかしてもう一度守って丈夫にして下さい」と心の中で叫びました。<br><br>駄目かと思った苦しみも奇蹟的に十五日程で少し落着き、大きく腫れた腹もだんだんと小さくなり、楽になったのも束の間、今度は急にいたみも無いのに視力が無くなり、たちまちの内に本も読めなくなり、手紙も書けなくなってしまいました。<br><br>軍医には結核性網膜炎（ソコヒ）と診断され、看護婦からは「全く病気の問屋ね」と言われてしまいました。<br><br>しばらく眼科に掛りましたが一進一退医薬にも頼り無くなり、神も仏も有るものかと思い、どうにでもなれと自暴自棄になり、薬は捨て、注射も断われるだけ断わり、禁止されてる入浴や散歩も無理して内証で行いました。<br><br>しかしながら案外悪くならず、だんだんと良い方に向います。<br><br>その内療養所に送られ相変らず過しております内、ちょっとした反則をして事故退所をさせられてしまいました。<br><br>病院生活一年半懐しい家に帰れるだけでも嬉しく、籠の鳥同様の生活から大空に離された小鳥のような軽い気分になり「あの時死んだと思えば生きて帰れるだけ儲け物」と規則の無い気任せな生活をしておりましたところが、日一日と良くなり、妻を迎え、一カ月余で働けるようになりました。<br><br> 何んとかして幸福な道を歩ませようと日夜我が子のためにと苦労する親の大恩を全く忘れていたと言うよりも、知らなかったような不孝者の私にも、神様はこうしていつも温たかい御手を差延べていて下さったのだと、今更ながらつくづく感じます。<br><br>しかしその時の私には大自然は有難い物だ、反対に医薬は頼りないものと思いましたが、その大自然の創造主たる神様の事など到底考えられませんでした。<br><br>ただ運が良かったのだ位にしか思っていず、働き出したものの一年に二、三回ちょっと無理な事をするとそのために強く弱く眼の方が再発し、その度に暗い陰鬱な気持になりますが幾日かそのままにしておくと癒りますが、友人にも再三の事とて話せず、妻に迄も心配するので話さぬようにして一人行末を考えると不安になり悩んでおりましたが、年一年と経つにつれその悩みは深刻となり「もしこのまま見えなくなったら……」と考えれば考える程、焦れば焦る程、全くいても立ってもおられない気持は、同じ病の方で無ければ想像出来ない苦しみで御座いました。<br><br> いろいろと考えておりましたが外に方法の無いことと思い、やはり医師に頼って舶来の良い薬で徹底的に癒すべきだと考え、昨年十月強い再発で片目ほとんど見えなくなった時、市立病院に行きました。<br><br>医師は「あなたの眼は度々の再発に拘らず失明しないのは奇蹟的だ。<br><br>まあ治療しましょう」と言います。<br><br>私は「現在会社に勤め夜勤もやりますので」と申しますと、「夜勤などは無理だから当分安静にして目をなるべく使わず休みなさい」と言いいつなおるとも言わず、やはり頼りになるような事は言ってくれませんので又々失望してしまいました。<br><br>丁度その時三カ月程前近所の人より救世教の話も聞いて再三すすめられておりましたが、信仰にて父を亡くした私にはあまりに突飛な話で、新聞も読ませて戴きましたが、こんな馬鹿げた事がと、どうしても信じられず、こんな事で治ってたまるかと、忘れたごとく気にもすらしないで過しておりましたが「とにかく食べて味わって下さい」と言われた事を思い出し、物は試しと思っても疑の方が先に立ち御願に行く事も出来ません。<br><br>ある晩叔母が来て「私も近所の人に胃痙攣を治して戴いたが有難い、不思議だ」と話しますので、叔母と妻に御願して貰い、翌日藤沢教会の関根先生にわざわざ家まで来て頂きました。<br><br>丁度私は留守だったので妻が御話を伺って「そんなに悩まず教会へ来なさい、簡単に治ります」と言われたから行ってみたらと言うので、それでは行ってみるだけみようと三信七疑位の気持でしぶしぶ参りました。<br><br>行ってみるとこれが教会かと思われる程さっぱりして御神前など何も飾りがなく、殺風景なので矢張り昔ながらのおまじないをする所位にしか感じませんでした。<br><br> 先生はにこやかな笑顔で楽な気持で「お座りなさい。<br><br>どんな工合です」と言われますので今迄の病状をお話し致しますと「きっとなおります。<br><br>なるべく目を使い、夜勤しても良いです。<br><br>酒も煙草も飲みたければ結構、会社を休まず勤めながら治しなさい」と自信満々たるその御言葉。<br><br>「病気はこうして治すのです。<br><br>どんな病気も良く治ります」と手を翳し始め、病気は神の恩恵である、浄化作用であると、色々とお話をして下さいます。<br><br>医薬に頼りの無くなった私には話は成程と理解出来る気がしましたが、神様なぞ有るのか無いのか分らぬ私には、手を翳すと霊光が出て病気が治るなぞとはどう考えても分りません。<br><br>もし治ったとすれば偶然に運の良い人が治るんだろうと、無理に思おうとします。<br><br>御話は中々面白く興味を持って聞きながら浄霊を続けて戴きます内、長年頭が重かったのが普通であった私が、少し軽くなったようなので、気のせいだろうと思っておりましたが、三十分四十分と経つ内に休も心も本当に軽くなりました。<br><br>余りの不思議さに狐にでもつままれたようで、何か怪しげな術にでも掛けられているのではないかと思われました。<br><br>とにかく良くなった事は否定出来ぬ事実です。<br><br>こんな夢にも思わなかった事がこの世に有ろうとは、ただ「不思議」という一語に尽きてしまいます。<br><br>御暇しての帰途も胸の中が何んとなくはずみ、鼻歌の一つも歌いたくなるような気分をどうする事も出来ませんでした。<br><br>翌日より十日程通っている内、本当に良くなり、今迄考えていた事は裏と表のごとく一変し、長い間の患いも喜びとなり、取越苦労と過越苦労だったと馬鹿らしくさえなり「自分の真に救われる道はこれだ」と初めて気が付きました。<br><br> 今迄は、町で駅で電車の中で、多くの人を見れば皆幸福そうに丈夫そうに、自分のように悩んでいる人は一人もいないように思え、羨望の目で見て来たこの私が、僅かの間にそんな淋しい気持は夢のごとくに消え去り、反対に気の毒な人ばかりのように見えてしまいました。<br><br>十一月二十八日御守様を戴き、一層力強くなり、家庭もぐんと明るく楽しい気持で働けるようになり、風邪など引けば「それ赤飯だ」と大喜びです。<br><br>私のような者が神様の御恵みに依り、誠の信仰に入信する事の出来た身の幸を永久に忘れる事は出来ません。<br><br> 次に入信早々の御浄霊の体験を記させて頂きます。<br><br>私の子（四歳）が脱腸と寝小便のため、早速御浄霊させて頂きますと、最初は工合良かったのですが、その後変化なく二十日程経て中耳炎の浄化を戴きました。<br><br>膿はだんだん多くなり、いくら浄化でもこれで良いのであろうかと教会に行き伺いました。<br><br>「毒素が多いので耳から出るのだから心配ない」と言われ、やっぱりそうだと思っても若干心配になります。<br><br>会社の同僚で中耳炎のひどいのをやった人がいます。<br><br>その人に話しますと「中耳炎は恐ろしい病気だ。<br><br>一日を争い、放って置けば脳膜炎をおこし、馬鹿か気違になり、悪くすると一命にかかわる。<br><br>早く医師の手当を受けるのが良い」と言います。<br><br>御親切は有難いがと御道の話をして、きっと治ると言いますと「飛んでも無い事を言う、それでは子供が可哀相だ。<br><br>僕が子供を連れて行って医者に掛けてやる」と言います。<br><br>それでも私は「まあ見てて下さい」と聞き入れませんのであきらめて「では仕方が無い。<br><br>五日待ってやるからそれで治らなかったら医者に掛けてくれ」と言います。<br><br>「では治ったらどうします」と聞くと同僚は「私は今迄宗教も色々し研究もして来たが、神仏に祈ると良い医師を与えて下さるんだから、やはり医師が病を治すのだと信ずるが、万一治れば君の言う事は何んでも聞く」と言います。<br><br>「よし……」と五日間の約束をして別れました。<br><br>こんな力強くはっきりと約束したがもしかと思うと心配で先生にお話しますと、にこにこしながら「あなたの勝ですよ」と言われました。<br><br>やっぱりそうなのだと神様に御願し、御浄霊しておりましたが、それから三日目頃のひどい事、膿の固りがどろどろと出ます。<br><br>後二日で治るだろうかと又心配しましたが、「神様が付いておられるから大丈夫」と心を励まし、御浄霊を続けましたら四日目には膿がぐんと減り、五日目にはほとんど出ません。<br><br>ほっとした気持で会社に行き「もう大丈夫だ。<br><br>馬鹿にもなりそうも無く、御蔭でほとんど良くなって来た」と言いますと、ただ「ヘェ……」と言ったきり何んとも言いません。<br><br>その間痛みもほとんどなく、悪いという入浴もさせ、何んでも食べさせ元気に遊びながら全快迄二十日掛りましたが、さっぱりと治りました。<br><br> その後も数々の御守護を頂き喜びと感謝の日々を過させて頂いております。<br><br> 悩みに悩んだ病を治して頂き、その上右のごとく病を治す御力を御与え下さいます大慈大悲の明主様の御心を拝察します毎に、数カ月前迄の私のごとく、無神論唯物論を誇らしげに唱え苦の娑婆にこわごわ生活している多くの人々にこの喜びを一日も早く、一人でも多く知らしめ、やがて来る地上天国への道を手に手を取って進ませて頂けるよう御念じしつつ今後共御教導御鞭達の程伏して御願い申し上げます。<br><br>拙き筆ながら、闇夜の中より光明を見出し、真の幸福者となり得た心境を御報告致し、厚く厚く御礼申し上げます。<br><br> 明主様誠に有難う御座いました。<br><br> （二十六年六月十日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Alegria ao Ser Salvo de Oito Anos de Tuberculose e Retinite Concomitante</h2>
 <p>Extraído da publicação "Terapia da Fé para a Tuberculose", de 1º de dezembro de 1952.</p>
@@ -116,5 +271,48 @@ Moriya Ikunojo (32 anos)</p>
 <p>Com esta humilde narrativa, apresento meu relato de como encontrei a luz em meio à escuridão da noite e me tornei verdadeiramente feliz. Meu mais profundo e sincero agradecimento.</p>
 <p>Meishu-Sama, muito obrigado.</p>
 <p>(Submetido em 10 de junho de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 八年間の結核と併発した網膜炎より 救われた私の喜び 『結核信仰療法』昭和27(1952)年12月1日発行 神奈川県 神栄中教会 森谷幾ノ丞（32） 長年の病苦と絶望より救って頂きました有難さに、心よりの喜びは抑え様もなく、悪文悪筆を顧みずここに御報告を記させて頂きます。<br/><br/> 想い起せば昭和十三年親子三人睦まじく暮していた私の家庭も、大黒柱と頼む父が腎臓炎となり、病の床についてしまい、医者よ薬よと色々手を尽くしましたが益々悪くなるばかり、最後には神頼みと、ある信仰をして地蔵様を御祀りして朝夕一生懸命お祈り致しましたが何の効も無く、十一月には死んでしまいました。<br/><br/>残された母は、私がどうやら十九歳になっておりましたので、家事農業を二人でぼつぼつとやっておりましたが、元来丈夫でなかった母も、それから間も無く病の床につき、私の兵隊の事ばかり心配しつづけて、十五年の五月父の後を追って逝ってしまいました。<br/><br/>兄弟の無い私はただ一人となり仕事も手に付きません。<br/><br/>その上七月には母の死を早めたといっても過言でない私の徴兵検査が参りました。<br/><br/>五尺八寸十七貫の体にて甲種合格となり、十六年一月親戚や近所の人に後を頼み総てを捨ててひたすら国のためと満州の部隊に入隊致しました。<br/><br/>今日考えれば深き神様の思召しだったとつくづく思いますが、何たる事か脚気のため病院生活をしなければならぬ身となり、全快の日を楽しみつつ療養に専念致しておりましたが一進一退、その内胸膜炎を併発し白衣の身にて内地に送還されてしまいました。<br/><br/>「ああ自分も人の嫌がる肺病の第一期になってしまったか」と夢にも思わなかったその病名にすっかり失望してしまいました。<br/><br/> 軍医に一身を任せ、服薬注射湿布と治りたい一心にて安静を守っておりましたが又々腹膜炎をも併発、腹部の湿布が又一つふえ、熱は三十八度から四十度と上り、食欲は全く無くなり、日一日と衰弱して全く生ける屍同様となりました。<br/><br/>「いよいよ死んでしまうのか」と思えば亡き父母の顔が眼の前に浮んで参ります。<br/><br/>「何んとかしてもう一度守って丈夫にして下さい」と心の中で叫びました。<br/><br/>駄目かと思った苦しみも奇蹟的に十五日程で少し落着き、大きく腫れた腹もだんだんと小さくなり、楽になったのも束の間、今度は急にいたみも無いのに視力が無くなり、たちまちの内に本も読めなくなり、手紙も書けなくなってしまいました。<br/><br/>軍医には結核性網膜炎（ソコヒ）と診断され、看護婦からは「全く病気の問屋ね」と言われてしまいました。<br/><br/>しばらく眼科に掛りましたが一進一退医薬にも頼り無くなり、神も仏も有るものかと思い、どうにでもなれと自暴自棄になり、薬は捨て、注射も断われるだけ断わり、禁止されてる入浴や散歩も無理して内証で行いました。<br/><br/>しかしながら案外悪くならず、だんだんと良い方に向います。<br/><br/>その内療養所に送られ相変らず過しております内、ちょっとした反則をして事故退所をさせられてしまいました。<br/><br/>病院生活一年半懐しい家に帰れるだけでも嬉しく、籠の鳥同様の生活から大空に離された小鳥のような軽い気分になり「あの時死んだと思えば生きて帰れるだけ儲け物」と規則の無い気任せな生活をしておりましたところが、日一日と良くなり、妻を迎え、一カ月余で働けるようになりました。<br/><br/> 何んとかして幸福な道を歩ませようと日夜我が子のためにと苦労する親の大恩を全く忘れていたと言うよりも、知らなかったような不孝者の私にも、神様はこうしていつも温たかい御手を差延べていて下さったのだと、今更ながらつくづく感じます。<br/><br/>しかしその時の私には大自然は有難い物だ、反対に医薬は頼りないものと思いましたが、その大自然の創造主たる神様の事など到底考えられませんでした。<br/><br/>ただ運が良かったのだ位にしか思っていず、働き出したものの一年に二、三回ちょっと無理な事をするとそのために強く弱く眼の方が再発し、その度に暗い陰鬱な気持になりますが幾日かそのままにしておくと癒りますが、友人にも再三の事とて話せず、妻に迄も心配するので話さぬようにして一人行末を考えると不安になり悩んでおりましたが、年一年と経つにつれその悩みは深刻となり「もしこのまま見えなくなったら……」と考えれば考える程、焦れば焦る程、全くいても立ってもおられない気持は、同じ病の方で無ければ想像出来ない苦しみで御座いました。<br/><br/> いろいろと考えておりましたが外に方法の無いことと思い、やはり医師に頼って舶来の良い薬で徹底的に癒すべきだと考え、昨年十月強い再発で片目ほとんど見えなくなった時、市立病院に行きました。<br/><br/>医師は「あなたの眼は度々の再発に拘らず失明しないのは奇蹟的だ。<br/><br/>まあ治療しましょう」と言います。<br/><br/>私は「現在会社に勤め夜勤もやりますので」と申しますと、「夜勤などは無理だから当分安静にして目をなるべく使わず休みなさい」と言いいつなおるとも言わず、やはり頼りになるような事は言ってくれませんので又々失望してしまいました。<br/><br/>丁度その時三カ月程前近所の人より救世教の話も聞いて再三すすめられておりましたが、信仰にて父を亡くした私にはあまりに突飛な話で、新聞も読ませて戴きましたが、こんな馬鹿げた事がと、どうしても信じられず、こんな事で治ってたまるかと、忘れたごとく気にもすらしないで過しておりましたが「とにかく食べて味わって下さい」と言われた事を思い出し、物は試しと思っても疑の方が先に立ち御願に行く事も出来ません。<br/><br/>ある晩叔母が来て「私も近所の人に胃痙攣を治して戴いたが有難い、不思議だ」と話しますので、叔母と妻に御願して貰い、翌日藤沢教会の関根先生にわざわざ家まで来て頂きました。<br/><br/>丁度私は留守だったので妻が御話を伺って「そんなに悩まず教会へ来なさい、簡単に治ります」と言われたから行ってみたらと言うので、それでは行ってみるだけみようと三信七疑位の気持でしぶしぶ参りました。<br/><br/>行ってみるとこれが教会かと思われる程さっぱりして御神前など何も飾りがなく、殺風景なので矢張り昔ながらのおまじないをする所位にしか感じませんでした。<br/><br/> 先生はにこやかな笑顔で楽な気持で「お座りなさい。<br/><br/>どんな工合です」と言われますので今迄の病状をお話し致しますと「きっとなおります。<br/><br/>なるべく目を使い、夜勤しても良いです。<br/><br/>酒も煙草も飲みたければ結構、会社を休まず勤めながら治しなさい」と自信満々たるその御言葉。<br/><br/>「病気はこうして治すのです。<br/><br/>どんな病気も良く治ります」と手を翳し始め、病気は神の恩恵である、浄化作用であると、色々とお話をして下さいます。<br/><br/>医薬に頼りの無くなった私には話は成程と理解出来る気がしましたが、神様なぞ有るのか無いのか分らぬ私には、手を翳すと霊光が出て病気が治るなぞとはどう考えても分りません。<br/><br/>もし治ったとすれば偶然に運の良い人が治るんだろうと、無理に思おうとします。<br/><br/>御話は中々面白く興味を持って聞きながら浄霊を続けて戴きます内、長年頭が重かったのが普通であった私が、少し軽くなったようなので、気のせいだろうと思っておりましたが、三十分四十分と経つ内に休も心も本当に軽くなりました。<br/><br/>余りの不思議さに狐にでもつままれたようで、何か怪しげな術にでも掛けられているのではないかと思われました。<br/><br/>とにかく良くなった事は否定出来ぬ事実です。<br/><br/>こんな夢にも思わなかった事がこの世に有ろうとは、ただ「不思議」という一語に尽きてしまいます。<br/><br/>御暇しての帰途も胸の中が何んとなくはずみ、鼻歌の一つも歌いたくなるような気分をどうする事も出来ませんでした。<br/><br/>翌日より十日程通っている内、本当に良くなり、今迄考えていた事は裏と表のごとく一変し、長い間の患いも喜びとなり、取越苦労と過越苦労だったと馬鹿らしくさえなり「自分の真に救われる道はこれだ」と初めて気が付きました。<br/><br/> 今迄は、町で駅で電車の中で、多くの人を見れば皆幸福そうに丈夫そうに、自分のように悩んでいる人は一人もいないように思え、羨望の目で見て来たこの私が、僅かの間にそんな淋しい気持は夢のごとくに消え去り、反対に気の毒な人ばかりのように見えてしまいました。<br/><br/>十一月二十八日御守様を戴き、一層力強くなり、家庭もぐんと明るく楽しい気持で働けるようになり、風邪など引けば「それ赤飯だ」と大喜びです。<br/><br/>私のような者が神様の御恵みに依り、誠の信仰に入信する事の出来た身の幸を永久に忘れる事は出来ません。<br/><br/> 次に入信早々の御浄霊の体験を記させて頂きます。<br/><br/>私の子（四歳）が脱腸と寝小便のため、早速御浄霊させて頂きますと、最初は工合良かったのですが、その後変化なく二十日程経て中耳炎の浄化を戴きました。<br/><br/>膿はだんだん多くなり、いくら浄化でもこれで良いのであろうかと教会に行き伺いました。<br/><br/>「毒素が多いので耳から出るのだから心配ない」と言われ、やっぱりそうだと思っても若干心配になります。<br/><br/>会社の同僚で中耳炎のひどいのをやった人がいます。<br/><br/>その人に話しますと「中耳炎は恐ろしい病気だ。<br/><br/>一日を争い、放って置けば脳膜炎をおこし、馬鹿か気違になり、悪くすると一命にかかわる。<br/><br/>早く医師の手当を受けるのが良い」と言います。<br/><br/>御親切は有難いがと御道の話をして、きっと治ると言いますと「飛んでも無い事を言う、それでは子供が可哀相だ。<br/><br/>僕が子供を連れて行って医者に掛けてやる」と言います。<br/><br/>それでも私は「まあ見てて下さい」と聞き入れませんのであきらめて「では仕方が無い。<br/><br/>五日待ってやるからそれで治らなかったら医者に掛けてくれ」と言います。<br/><br/>「では治ったらどうします」と聞くと同僚は「私は今迄宗教も色々し研究もして来たが、神仏に祈ると良い医師を与えて下さるんだから、やはり医師が病を治すのだと信ずるが、万一治れば君の言う事は何んでも聞く」と言います。<br/><br/>「よし……」と五日間の約束をして別れました。<br/><br/>こんな力強くはっきりと約束したがもしかと思うと心配で先生にお話しますと、にこにこしながら「あなたの勝ですよ」と言われました。<br/><br/>やっぱりそうなのだと神様に御願し、御浄霊しておりましたが、それから三日目頃のひどい事、膿の固りがどろどろと出ます。<br/><br/>後二日で治るだろうかと又心配しましたが、「神様が付いておられるから大丈夫」と心を励まし、御浄霊を続けましたら四日目には膿がぐんと減り、五日目にはほとんど出ません。<br/><br/>ほっとした気持で会社に行き「もう大丈夫だ。<br/><br/>馬鹿にもなりそうも無く、御蔭でほとんど良くなって来た」と言いますと、ただ「ヘェ……」と言ったきり何んとも言いません。<br/><br/>その間痛みもほとんどなく、悪いという入浴もさせ、何んでも食べさせ元気に遊びながら全快迄二十日掛りましたが、さっぱりと治りました。<br/><br/> その後も数々の御守護を頂き喜びと感謝の日々を過させて頂いております。<br/><br/> 悩みに悩んだ病を治して頂き、その上右のごとく病を治す御力を御与え下さいます大慈大悲の明主様の御心を拝察します毎に、数カ月前迄の私のごとく、無神論唯物論を誇らしげに唱え苦の娑婆にこわごわ生活している多くの人々にこの喜びを一日も早く、一人でも多く知らしめ、やがて来る地上天国への道を手に手を取って進ませて頂けるよう御念じしつつ今後共御教導御鞭達の程伏して御願い申し上げます。<br/><br/>拙き筆ながら、闇夜の中より光明を見出し、真の幸福者となり得た心境を御報告致し、厚く厚く御礼申し上げます。<br/><br/> 明主様誠に有難う御座いました。<br/><br/> （二十六年六月十日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

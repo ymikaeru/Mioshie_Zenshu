@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gaikaku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 外殻的文化 『明日の医術 第三編』昭和18(1943)年10月23日発行 日本の国力が増大し、国威が八紘に輝くに従って、漸（ようや）く日本人の優秀性が知らるゝに至った事は、まことに喜ぶべき現象である。<br><br>それと共に、日本人の精神力が特に優れているという事も明かになってきた事である。<br><br>言い換えれば、精神力とは霊力であるのは、勿論である。<br><br> 私が長い間、霊的研究によって日本人は世界中のいかなる国民といえども、追随する事を得ない霊性をもっている事を知ったのである。<br><br>故に、本医術が生れたということもそれが為である。<br><br>そうして唯物的方面からいえば、日本人はまだ白人文化の水準を抜けないかも知れないが、霊性においては、比較にならないほど優っているのである。<br><br>従って、本医術は霊的医術である以上、日本人によって生れ、日本人によって大成されなければならない訳である。<br><br>故に、唯物的医学が唯物的人種から生れたとすれば、唯心的医術は唯心的民族から生れなければならない道理である。<br><br> 従って、夜の世界が終末を告げ、昼の世界となるとしたら、唯物的医学――即ち病毒固結医学は行詰（ゆきづま）る事は当然であり、それに反して、唯心的医術――即ち病毒溶解医術の発展となる事もまた当然の帰結であろう。<br><br> そうして弱肉強食的文化、言い換えれば、悪魔的文化から生れるところのものは、悪魔的医術であるべきであり、道義的文化から生れるところのものは、道義的医術であらねばならない。<br><br>さきに説いたごとく、体主霊従と霊主体従との文化の交代である。<br><br>故に、本医術なるものは、生れるべくして生れたのであって全く自然であり、そこに何ら人為的理由はないのである。<br><br> 日本人と欧米人との霊性について、最も解り易くいえば、日本人は、霊六体四であるに対し、西洋人は体六霊四というような訳である。<br><br>故に、来るべき文化は霊五体五となるので、それが真の理想的文化の真髄である。<br><br> そうして体的文化とは、人体にたとえれば肉体文化である。<br><br>肉体はいわば外殻である。<br><br>樹木にたとうれば枝葉であり樹皮である。<br><br>西洋医学の研究と理論が、すべてにおいて外殻的である事である。<br><br>故に、病原は専（もっぱ）ら黴菌となし、黴菌が外部から侵入して発病するというのである。<br><br>この意味において本医術が、病原は西洋医学の外部から内部に向って侵入する説とは反対に、内部から外部へ向って排泄するというのである。<br><br> 故に、西洋医学の唱うる対症療法とは、外部に表われたる症状を抑止、鎮圧する方法で、それは外殻的である。<br><br>しかるに本医術は症状に対するよりも、症状として表われたるその根源そのものを解消するのであるから、根本的である。<br><br> ここで私は文明批評を試みてみよう。<br><br>それは現在までの文化の根本理念なるものは、総てにおいて外殻的であり、枝葉末節的であり、皮相的であるという事である。<br><br>これについて種々の例を挙げてみよう。<br><br> まず政治であるが、その形態が最近までは民主主義であった。<br><br>民主主義とは、実は外殻的綜合力を主とする事である。<br><br>何となれば、大衆なるものは、国家の中心を囲繞（いにょう）する外殻であるからである。<br><br>本来正しい政治とは、中心に絶対権力があって、大衆即ち人民はそれに従属すべきものでなくてはならない。<br><br>故に理論的に正しくいえば右のごとくであるが、我日本は理論以上の皇国であって、即ち―― 上御一人（かみごいちにん）を中心と崇（あが）め奉（たてまつ）り、その大御徳（おおみとく）によって万民が悦服するという国柄である。<br><br>従って国民は、各々その所を得て生を楽しむというのであって、全く理想的中心帰一の姿である。<br><br>次に、国の経済としては、事変前までのような、株主である大多数者の利益を本位とするような機構は勿論外殻的経済である。<br><br>故に今後は、中心であるべき国策のむかう所に追随しなければならない事は勿論である。<br><br> 次に、教育も従来は頗（すこぶ）る多種多様の課目を羅列し、それを一列に詰め込み、試験という関門を成績よく通過しさえすれば出世が出来るという制度であった。<br><br>従って、中心であるべき人間の魂を無視し、真心は閑却され、社会に出でては才智才能さえ優れていればよいという様になって、真の人間を作る事を忘れていたという事は否めないであろう。<br><br> 又法規の条文は益々繁くして、その煩（はん）に堪えない程であり、国民は法規の条文にさえ触れなければよいとして社会に害毒を与え、道徳に反するような行為をも平然として行い、恬（てん）として恥じないというような傾向になり、ここにも魂を忘れてしまったのである。<br><br>私はこの事を充分徹底して説いてみよう。<br><br> 支那の尭舜（ぎょうしゅん）の世は、法三章でよく治ったという事である。<br><br>又我国上代においても彼の聖徳太子の十七箇条の憲法によって治ったという事なども、その理由は、その時代における人間は魂の発露があったからである。<br><br>しかるに近代に到って猶太（ユダヤ）文化の発展は唯物思想を醸成し、それの世界的氾濫となって文化民族の魂が睡眠状態となった事である。<br><br>その結果として、人間は自己の欲望を達成せんとする場合、只管（ひたすら）外殻のみに意を注ぎ、内面的には不正不義も問う所にあらずという思想になった。<br><br>ここにおいて、為政者としては、つい法を以てその不善を取締るより道がなく、ついに法の完備となり、法治国なる名称が生れたのである。<br><br>従って、一方においては法という網を作って制（おさ）えんとすれば一方はその網の目を潜（くぐ）ろうとするのであるから、漸次網の目を緻（こま）かにするより外に方法がない訳で、法規の条文が今日のごとく細密になったのも止むを得なかったのである。<br><br> これらの情勢に対し、私は忌憚（きたん）なくいえば、日本は別としても、最近までの文化民族とはある意味において教育のある野蛮人であり、学問と知識を有する獣でしかなかったともいえよう。<br><br>そうしてこの獣は、ともすれば牙を剥（む）き、爪を瞋（いか）らし、人畜に危害を加えんとするので法律という網を作って押えようとする。<br><br>獣の方ではそれを破ろうとする――そのような状態であった。<br><br>しかるに、獣の中でもライオンのごとき強力なる奴は、国際法規という網を平気で破ってしまって世界中を荒れ廻り、武装なき人間や弱い人間を喰殺しては、その威力を誇ったという――それが即ち彼の英国であったのである。<br><br> この意味において、今日までの文化とは、真の意味の文化ではなかった。<br><br>即ち猶太的、唯物的悪魔的文化であった。<br><br>かような批判に対して、人はあまりにも苛酷に過ぎると思うかも知れないが、誤謬であるとは誰も言えないであろう。<br><br> しかるに、いよいよ天の時来って、この地球上には今日までの文化とは全然反対であるところの、非悪魔的である神の文化が、今や呱々（ここ）の声を挙げんとしている事である。<br><br>それは唯心的で道義的で、人類愛的文化である。<br><br>今我日本が、国を挙げて戦いつつある所のこの戦争なるものの真目的といえども他なし、右のごとき新文化を生まんが為であって、聖戦というゆえんも、ここにありと思うのである。<br><br> 故に、医学においても根本を無視して対症療法に専念し、一時的効果のみを狙えば足りるとし、又は死体解剖や手術、注射等の残虐的方法を進歩と誤解し、今日に到った事も肯（うなずか）るゝであろう。<br><br> 以上のごとき、いずれの方面においても、中心を無視して外殻のみを維（これ）計ったというのが、夜の文化の真相であったのである。<br><br> 又、共産主義もそうである。<br><br>労働者がより少時間の勤労に対し、より多くの賃金を得ようとし、それが不可能である場合、罪を他に転嫁しようとする。<br><br>即ち生産や分配の社会機構が過（あやま）っているといい、それが資本主義経済の欠陥であるとなし、遂には社会革命にまで及ぼそうとしたのである。<br><br>勿論これらの思想は巧妙なるフリーメーソンの謀略によるとはいえ、その中心の魂を忘れ、自己反省を無視しすべては外界の影響によるとなし、罪を他動的に帰するという考え方であった。<br><br> 又官民が一致しなかった事も長いものであった。<br><br>政府は国民の無理解と認識不足をいい、国民は政府の政策や行政機構が悪いといい議会は政府の無能を責め、政府は議会の無理解を云々する等、ここにも自己反省がなく、すべて罪を他に転嫁するという悪風が漲（みなぎ）っていたのである。<br><br> これらの実状を深く考察する時、そのことごとくは自己の魂を忘れている事である。<br><br>魂が輝くにおいては、当然自己反省の正義感が起らなければならないのである。<br><br>人を責むる前に、まず自己を責めなければならないのである。<br><br> 右のごとく魂を忘れる結果はどうなるかというと、人は外面的一時的賞讃を求めるという軽薄的行動を好むようになり、そこに真実性もなく、素朴が軽蔑されるというような社会となるのである。<br><br>これが米英ユダヤ中心の猶太（ユダヤ）的文化の謀略的思想の表われでなくて何であろう。<br><br> 外殻的文化とは、右のごときものであろうと私は思うのである。<br><br> rattail（注） 私の所持する２冊ともにこの後に収録されている「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているためこの御論文も前半数行部分以外は原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cultura da Exterioridade</h2>
 <p>É um fenômeno verdadeiramente alvissareiro que, à medida que o poderio nacional do Japão se expande e seu prestígio resplandece aos quatro cantos do mundo, a superioridade do povo japonês passe a ser gradualmente reconhecida. Paralelamente, tornou-se evidente a especial excelência de sua força espiritual, a qual, evidentemente, é o próprio poder do espírito.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Ao analisarmos profundamente essa realidade, percebemos que a causa de tudo é o esquecimento da própria alma. Quando a alma resplandece, o justo sentimento de autorreflexão deve emergir naturalmente. Antes de acusar os outros, é preciso primeiro acusar a si mesmo.</p>
 <p>Qual é a consequência do esquecimento da alma? As pessoas passam a preferir condutas levianas, buscando o elogio externo e momentâneo, o que resulta em uma sociedade desprovida de veracidade, onde a simplicidade é desprezada. O que seria isso senão a manifestação do pensamento ardiloso da cultura judaica, centrada nos Estados Unidos e na Grã-Bretanha?</p>
 <p>A cultura da exterioridade, a meu ver, consiste exatamente nisto que descrevi.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 外殻的文化 『明日の医術 第三編』昭和18(1943)年10月23日発行 日本の国力が増大し、国威が八紘に輝くに従って、漸（ようや）く日本人の優秀性が知らるゝに至った事は、まことに喜ぶべき現象である。<br/><br/>それと共に、日本人の精神力が特に優れているという事も明かになってきた事である。<br/><br/>言い換えれば、精神力とは霊力であるのは、勿論である。<br/><br/> 私が長い間、霊的研究によって日本人は世界中のいかなる国民といえども、追随する事を得ない霊性をもっている事を知ったのである。<br/><br/>故に、本医術が生れたということもそれが為である。<br/><br/>そうして唯物的方面からいえば、日本人はまだ白人文化の水準を抜けないかも知れないが、霊性においては、比較にならないほど優っているのである。<br/><br/>従って、本医術は霊的医術である以上、日本人によって生れ、日本人によって大成されなければならない訳である。<br/><br/>故に、唯物的医学が唯物的人種から生れたとすれば、唯心的医術は唯心的民族から生れなければならない道理である。<br/><br/> 従って、夜の世界が終末を告げ、昼の世界となるとしたら、唯物的医学――即ち病毒固結医学は行詰（ゆきづま）る事は当然であり、それに反して、唯心的医術――即ち病毒溶解医術の発展となる事もまた当然の帰結であろう。<br/><br/> そうして弱肉強食的文化、言い換えれば、悪魔的文化から生れるところのものは、悪魔的医術であるべきであり、道義的文化から生れるところのものは、道義的医術であらねばならない。<br/><br/>さきに説いたごとく、体主霊従と霊主体従との文化の交代である。<br/><br/>故に、本医術なるものは、生れるべくして生れたのであって全く自然であり、そこに何ら人為的理由はないのである。<br/><br/> 日本人と欧米人との霊性について、最も解り易くいえば、日本人は、霊六体四であるに対し、西洋人は体六霊四というような訳である。<br/><br/>故に、来るべき文化は霊五体五となるので、それが真の理想的文化の真髄である。<br/><br/> そうして体的文化とは、人体にたとえれば肉体文化である。<br/><br/>肉体はいわば外殻である。<br/><br/>樹木にたとうれば枝葉であり樹皮である。<br/><br/>西洋医学の研究と理論が、すべてにおいて外殻的である事である。<br/><br/>故に、病原は専（もっぱ）ら黴菌となし、黴菌が外部から侵入して発病するというのである。<br/><br/>この意味において本医術が、病原は西洋医学の外部から内部に向って侵入する説とは反対に、内部から外部へ向って排泄するというのである。<br/><br/> 故に、西洋医学の唱うる対症療法とは、外部に表われたる症状を抑止、鎮圧する方法で、それは外殻的である。<br/><br/>しかるに本医術は症状に対するよりも、症状として表われたるその根源そのものを解消するのであるから、根本的である。<br/><br/> ここで私は文明批評を試みてみよう。<br/><br/>それは現在までの文化の根本理念なるものは、総てにおいて外殻的であり、枝葉末節的であり、皮相的であるという事である。<br/><br/>これについて種々の例を挙げてみよう。<br/><br/> まず政治であるが、その形態が最近までは民主主義であった。<br/><br/>民主主義とは、実は外殻的綜合力を主とする事である。<br/><br/>何となれば、大衆なるものは、国家の中心を囲繞（いにょう）する外殻であるからである。<br/><br/>本来正しい政治とは、中心に絶対権力があって、大衆即ち人民はそれに従属すべきものでなくてはならない。<br/><br/>故に理論的に正しくいえば右のごとくであるが、我日本は理論以上の皇国であって、即ち―― 上御一人（かみごいちにん）を中心と崇（あが）め奉（たてまつ）り、その大御徳（おおみとく）によって万民が悦服するという国柄である。<br/><br/>従って国民は、各々その所を得て生を楽しむというのであって、全く理想的中心帰一の姿である。<br/><br/>次に、国の経済としては、事変前までのような、株主である大多数者の利益を本位とするような機構は勿論外殻的経済である。<br/><br/>故に今後は、中心であるべき国策のむかう所に追随しなければならない事は勿論である。<br/><br/> 次に、教育も従来は頗（すこぶ）る多種多様の課目を羅列し、それを一列に詰め込み、試験という関門を成績よく通過しさえすれば出世が出来るという制度であった。<br/><br/>従って、中心であるべき人間の魂を無視し、真心は閑却され、社会に出でては才智才能さえ優れていればよいという様になって、真の人間を作る事を忘れていたという事は否めないであろう。<br/><br/> 又法規の条文は益々繁くして、その煩（はん）に堪えない程であり、国民は法規の条文にさえ触れなければよいとして社会に害毒を与え、道徳に反するような行為をも平然として行い、恬（てん）として恥じないというような傾向になり、ここにも魂を忘れてしまったのである。<br/><br/>私はこの事を充分徹底して説いてみよう。<br/><br/> 支那の尭舜（ぎょうしゅん）の世は、法三章でよく治ったという事である。<br/><br/>又我国上代においても彼の聖徳太子の十七箇条の憲法によって治ったという事なども、その理由は、その時代における人間は魂の発露があったからである。<br/><br/>しかるに近代に到って猶太（ユダヤ）文化の発展は唯物思想を醸成し、それの世界的氾濫となって文化民族の魂が睡眠状態となった事である。<br/><br/>その結果として、人間は自己の欲望を達成せんとする場合、只管（ひたすら）外殻のみに意を注ぎ、内面的には不正不義も問う所にあらずという思想になった。<br/><br/>ここにおいて、為政者としては、つい法を以てその不善を取締るより道がなく、ついに法の完備となり、法治国なる名称が生れたのである。<br/><br/>従って、一方においては法という網を作って制（おさ）えんとすれば一方はその網の目を潜（くぐ）ろうとするのであるから、漸次網の目を緻（こま）かにするより外に方法がない訳で、法規の条文が今日のごとく細密になったのも止むを得なかったのである。<br/><br/> これらの情勢に対し、私は忌憚（きたん）なくいえば、日本は別としても、最近までの文化民族とはある意味において教育のある野蛮人であり、学問と知識を有する獣でしかなかったともいえよう。<br/><br/>そうしてこの獣は、ともすれば牙を剥（む）き、爪を瞋（いか）らし、人畜に危害を加えんとするので法律という網を作って押えようとする。<br/><br/>獣の方ではそれを破ろうとする――そのような状態であった。<br/><br/>しかるに、獣の中でもライオンのごとき強力なる奴は、国際法規という網を平気で破ってしまって世界中を荒れ廻り、武装なき人間や弱い人間を喰殺しては、その威力を誇ったという――それが即ち彼の英国であったのである。<br/><br/> この意味において、今日までの文化とは、真の意味の文化ではなかった。<br/><br/>即ち猶太的、唯物的悪魔的文化であった。<br/><br/>かような批判に対して、人はあまりにも苛酷に過ぎると思うかも知れないが、誤謬であるとは誰も言えないであろう。<br/><br/> しかるに、いよいよ天の時来って、この地球上には今日までの文化とは全然反対であるところの、非悪魔的である神の文化が、今や呱々（ここ）の声を挙げんとしている事である。<br/><br/>それは唯心的で道義的で、人類愛的文化である。<br/><br/>今我日本が、国を挙げて戦いつつある所のこの戦争なるものの真目的といえども他なし、右のごとき新文化を生まんが為であって、聖戦というゆえんも、ここにありと思うのである。<br/><br/> 故に、医学においても根本を無視して対症療法に専念し、一時的効果のみを狙えば足りるとし、又は死体解剖や手術、注射等の残虐的方法を進歩と誤解し、今日に到った事も肯（うなずか）るゝであろう。<br/><br/> 以上のごとき、いずれの方面においても、中心を無視して外殻のみを維（これ）計ったというのが、夜の文化の真相であったのである。<br/><br/> 又、共産主義もそうである。<br/><br/>労働者がより少時間の勤労に対し、より多くの賃金を得ようとし、それが不可能である場合、罪を他に転嫁しようとする。<br/><br/>即ち生産や分配の社会機構が過（あやま）っているといい、それが資本主義経済の欠陥であるとなし、遂には社会革命にまで及ぼそうとしたのである。<br/><br/>勿論これらの思想は巧妙なるフリーメーソンの謀略によるとはいえ、その中心の魂を忘れ、自己反省を無視しすべては外界の影響によるとなし、罪を他動的に帰するという考え方であった。<br/><br/> 又官民が一致しなかった事も長いものであった。<br/><br/>政府は国民の無理解と認識不足をいい、国民は政府の政策や行政機構が悪いといい議会は政府の無能を責め、政府は議会の無理解を云々する等、ここにも自己反省がなく、すべて罪を他に転嫁するという悪風が漲（みなぎ）っていたのである。<br/><br/> これらの実状を深く考察する時、そのことごとくは自己の魂を忘れている事である。<br/><br/>魂が輝くにおいては、当然自己反省の正義感が起らなければならないのである。<br/><br/>人を責むる前に、まず自己を責めなければならないのである。<br/><br/> 右のごとく魂を忘れる結果はどうなるかというと、人は外面的一時的賞讃を求めるという軽薄的行動を好むようになり、そこに真実性もなく、素朴が軽蔑されるというような社会となるのである。<br/><br/>これが米英ユダヤ中心の猶太（ユダヤ）的文化の謀略的思想の表われでなくて何であろう。<br/><br/> 外殻的文化とは、右のごときものであろうと私は思うのである。<br/><br/> rattail（注） 私の所持する２冊ともにこの後に収録されている「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているためこの御論文も前半数行部分以外は原本確認は出来ませんでした。<br/><br/>よって岡田茂吉全集によっています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

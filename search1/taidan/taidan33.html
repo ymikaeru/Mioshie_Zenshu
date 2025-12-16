@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan33</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と谷川徹三氏との御対談 (三) 『栄光』213号、昭和28(1953)年6月17日発行 ◇茶器について 谷川氏 箱根美術館は今度は茶の方はなかったですが、茶碗もいろいろ拝見したいですね。<br><br> 明主様 茶道具だけはいじらなければ承知できませんからね。<br><br> 谷川氏 それに美術館のような明るい所では駄目ですね。<br><br>特に井戸茶碗などは茶室の薄暗い所でなければ駄目ですね。<br><br> それについておもしろい話があります。<br><br>去年光悦の不二山が博物館に出ましたが、それを触らなければ承知できないので、館長さんの所に行って触らしてくれと言ったところが、酒井さんから固く言われているから駄目だと言うのです。<br><br>しかしこれをしまうときにはだれかがしまわなければならないから、ということで、それまで待って行ったのです。<br><br>そうしたら、私と同じように断られた人たちがコッソリと来ているのです。<br><br>そのときに引っ繰り返して見ました。<br><br>それから白鶴美術館で、六、七年前に展観があったときに、鴻他家の光悦の毘沙門堂の茶碗があって、どうしても触らなければならないというので、午前中に行ったが、みんながいるうちは駄目だから帰ってからと言うので、三、四時間待って触らしてもらったのです。<br><br>どうしてもそうなりますね。<br><br> 奥様 そして最後にはちょっと口につけなければなりませんね。<br><br> 明主様 触る楽しみですね。<br><br>私は不二を狙ったが、どうしても駄目です。<br><br> 谷川氏 私はそういう茶碗では、不二と雨雲です。<br><br> 明主様 良いですね。<br><br>私は紙屋も好きですね。<br><br>長次郎ではなんですか。<br><br> 谷川氏 大黒です。<br><br>三、四年前に茶道の大展覧会があったときに出てまして、やっぱいじらなければ承知できないので、朝早く博物館に行って夕方まで待ったことがあります。<br><br>あれは何気ない茶碗でいて、実になんとも言えないものです。<br><br>天衣無縫ですね。<br><br> 明主様 それが本当ですね。<br><br> 谷川氏 これは不二に匹敵する物ですね。<br><br>ある意味ではそれ以上とも思います。<br><br>あれくらい品格のある茶碗はありませんね。<br><br>雨雲は親しみやすいですね。<br><br>そこにいくと大黒は品格も高いし不二みたいにおさまりかえってないから、それはなんとも言えませんね。<br><br> 明主様 つまりイヤ味がないのです。<br><br>垢抜けてます。<br><br> 谷川氏 そうです。<br><br>井戸茶碗の良さも結局それですね。<br><br>なんの細工もない、おおらかな素直さですね。<br><br> 明主様 そうですね。<br><br>去年の「あやめ」の茶碗はずいぶんほめられますね。<br><br> 谷川氏 あれも良い茶碗ですね。<br><br> 明主様 雁取はどうですか。<br><br> 谷川氏 私は実物を見ていませんのでよく分かりませんが、少しクズがありますね。<br><br> 明主様 これはご存じですか。<br><br> 谷川氏 今拝見します。<br><br>光悦風ですね……。<br><br>これは膳所（ぜぜ）光悦ですか。<br><br> 明主様 そうです。<br><br> 谷川氏 私は写真だけで実物は見ていませんでしたが。<br><br> 明主様 名器鑑に出ている方が悪いのです。<br><br> 谷川氏 それは有名な話ですね。<br><br>膳所光悦というのは、光悦の中ではぜんぜんかわっているとは聞いておりましたがね。<br><br>この口作りがなんとも言えませんね。<br><br>高台もなんとも言えないが、この口作りは良いですね。<br><br>複雑なものですね。<br><br>形もよいですね。<br><br>乙御前（おとごぜん）という有名な茶碗がありますが、その高台は実に良い物ですが、口作りが少しへナヘナでした。<br><br>口作りはこの方が良いです。<br><br>そうです、これの箱を拝見したいですが。<br><br>膳所光悦でお茶をいただくとは思いませんでしたね。<br><br>これは遠州の箱ですね。<br><br> 奥様 「ふ」がはいっている所は、宗達のチンコロのような感じですね。<br><br> 谷川氏 ちょっとそういうような感じがありますね。<br><br>この茶碗はずいぶん使ってますね。<br><br>茶碗というのは高台を見れば分かります。<br><br>この高台が減っているのは、畳ずれです。<br><br>上の方だけ見ていると非常に新しいものに見えますが、高台を見ると古い茶碗ということが分かります。<br><br>これがすり減っているのは、畳ずれ手ずれとでもいうものですね。<br><br>この高台は実に良いですね。<br><br>そして上のほうにムックリと自然にプッとふくらんでいる点が実に良いですね。<br><br>そして実に素直になって、口作りに来てなんとも言えない複難なものを画いてます。<br><br>そして実に自然に変化があります。<br><br>それがわざとらしくありません。<br><br> 明主様 やっぱり名人芸ですね。<br><br>井戸茶碗ではなんですか。<br><br> 谷川氏 やっぱり喜左衛門井戸ですね。<br><br>それから毘沙門堂です。<br><br> 明主様 筒井筒（つついづつ）はどうですか。<br><br> 谷川氏 あれほどにひどく割れているので、それを気にする人がありますが、その姿の美しさは第一等ですね。<br><br>きれいな点から言うと、細川井戸、有楽井戸ですが、力のある点から言うと、やっぱり喜左衛門です。<br><br>ただ喜左衛門は筒井筒みたいに割れていませんから、きつすぎるのです。<br><br>ちょっと気味が悪いと言う人があるかもしれませんが、私はそうまで感じません。<br><br>それからおもしろいのは、筒井筒は今から三十年ほど前に京都の博物館に長い間出ていたのです。<br><br>そのときはいかにもホコリっぽくなってました。<br><br>ところがこの間嵯峨さんに招ばれて行って見ましたらずっと美しくなってました。<br><br>それは使っているからですね。<br><br>茶碗というのは使ってないと死んでしまうのです。<br><br>これは硯（すずり）でもそうです。<br><br>端渓（たんけい）の硯でも、長い間使ってないと死んでしまうそうです。<br><br>支那などでは、そうなった硯は毎日水をつけてすり、水をつけてすりしていると、三年くらいやると、生き返ってくるそうです。<br><br>それで今の井戸などの美しさというのも、長年使ってきた味がこもっているのでしょうね。<br><br> 明主様 この膳所光悦もそうでしょうね。<br><br> 谷川氏 人間的の美しさというものが出てますね。<br><br> 明主様 まったく微妙なものですね。<br><br> 奥様 お茶をのむために作ったのですから、それを使わなければ死ぬわけですね。<br><br> 谷川氏 そうです。<br><br>持たれることによって茶碗自身にあるものが引き出されるのです。<br><br>こういう焼物というのは世界に類がありませんね。<br><br>それは支那の焼物も世界に類がありませんが、ただ支那にも楽のようなのはありませんね。<br><br>これは日本の天才ですね。<br><br> 明主様 そうですね。<br><br>この間見ましたが、日本にお茶を持ってきた支那の坊さんの物でなんとか言う名前でしたが。<br><br> 谷川氏 青磁ですか。<br><br>天目ですか。<br><br> 明主様 そうではないのです。<br><br>ふつうの薄手の茶碗で支那陶器で言えば越州窯というような、少しネズミを持った物です。<br><br>それから、珠光青磁（じゅこうせいじ）というような色です。<br><br> 谷川氏 それでは栄西禅師ではありませんか。<br><br> 明主様 そうです。<br><br>それを見ましたが、なかなか良い味がありました。<br><br> 谷川氏 栄西禅師が持ってきて、明恵、明恵といろいろ言いますが、その人が伝えたのですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Apreciações sobre Utensílios de Chá</h2>
 <p><strong>Sr. Tanigawa:</strong> Desta vez, não havia uma seção dedicada ao chá no Museu de Arte de Hakone, mas eu gostaria imensamente de poder apreciar também os diversos <em>chawan</em>.</p>
@@ -132,5 +284,48 @@ function toggleLang(lang) {
 <p><strong>Sr. Tanigawa:</strong> Então, não seria a peça do mestre zen Eisai?</p>
 <p><strong>Meishu-Sama:</strong> Sim, essa mesma. Ao observá-la, senti que possuía uma qualidade notável.</p>
 <p><strong>Sr. Tanigawa:</strong> Foi o mestre zen Eisai quem a trouxe. Embora se fale muito em Myōe, foi ele quem a transmitiu.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様と谷川徹三氏との御対談 (三) 『栄光』213号、昭和28(1953)年6月17日発行 ◇茶器について 谷川氏 箱根美術館は今度は茶の方はなかったですが、茶碗もいろいろ拝見したいですね。<br/><br/> 明主様 茶道具だけはいじらなければ承知できませんからね。<br/><br/> 谷川氏 それに美術館のような明るい所では駄目ですね。<br/><br/>特に井戸茶碗などは茶室の薄暗い所でなければ駄目ですね。<br/><br/> それについておもしろい話があります。<br/><br/>去年光悦の不二山が博物館に出ましたが、それを触らなければ承知できないので、館長さんの所に行って触らしてくれと言ったところが、酒井さんから固く言われているから駄目だと言うのです。<br/><br/>しかしこれをしまうときにはだれかがしまわなければならないから、ということで、それまで待って行ったのです。<br/><br/>そうしたら、私と同じように断られた人たちがコッソリと来ているのです。<br/><br/>そのときに引っ繰り返して見ました。<br/><br/>それから白鶴美術館で、六、七年前に展観があったときに、鴻他家の光悦の毘沙門堂の茶碗があって、どうしても触らなければならないというので、午前中に行ったが、みんながいるうちは駄目だから帰ってからと言うので、三、四時間待って触らしてもらったのです。<br/><br/>どうしてもそうなりますね。<br/><br/> 奥様 そして最後にはちょっと口につけなければなりませんね。<br/><br/> 明主様 触る楽しみですね。<br/><br/>私は不二を狙ったが、どうしても駄目です。<br/><br/> 谷川氏 私はそういう茶碗では、不二と雨雲です。<br/><br/> 明主様 良いですね。<br/><br/>私は紙屋も好きですね。<br/><br/>長次郎ではなんですか。<br/><br/> 谷川氏 大黒です。<br/><br/>三、四年前に茶道の大展覧会があったときに出てまして、やっぱいじらなければ承知できないので、朝早く博物館に行って夕方まで待ったことがあります。<br/><br/>あれは何気ない茶碗でいて、実になんとも言えないものです。<br/><br/>天衣無縫ですね。<br/><br/> 明主様 それが本当ですね。<br/><br/> 谷川氏 これは不二に匹敵する物ですね。<br/><br/>ある意味ではそれ以上とも思います。<br/><br/>あれくらい品格のある茶碗はありませんね。<br/><br/>雨雲は親しみやすいですね。<br/><br/>そこにいくと大黒は品格も高いし不二みたいにおさまりかえってないから、それはなんとも言えませんね。<br/><br/> 明主様 つまりイヤ味がないのです。<br/><br/>垢抜けてます。<br/><br/> 谷川氏 そうです。<br/><br/>井戸茶碗の良さも結局それですね。<br/><br/>なんの細工もない、おおらかな素直さですね。<br/><br/> 明主様 そうですね。<br/><br/>去年の「あやめ」の茶碗はずいぶんほめられますね。<br/><br/> 谷川氏 あれも良い茶碗ですね。<br/><br/> 明主様 雁取はどうですか。<br/><br/> 谷川氏 私は実物を見ていませんのでよく分かりませんが、少しクズがありますね。<br/><br/> 明主様 これはご存じですか。<br/><br/> 谷川氏 今拝見します。<br/><br/>光悦風ですね……。<br/><br/>これは膳所（ぜぜ）光悦ですか。<br/><br/> 明主様 そうです。<br/><br/> 谷川氏 私は写真だけで実物は見ていませんでしたが。<br/><br/> 明主様 名器鑑に出ている方が悪いのです。<br/><br/> 谷川氏 それは有名な話ですね。<br/><br/>膳所光悦というのは、光悦の中ではぜんぜんかわっているとは聞いておりましたがね。<br/><br/>この口作りがなんとも言えませんね。<br/><br/>高台もなんとも言えないが、この口作りは良いですね。<br/><br/>複雑なものですね。<br/><br/>形もよいですね。<br/><br/>乙御前（おとごぜん）という有名な茶碗がありますが、その高台は実に良い物ですが、口作りが少しへナヘナでした。<br/><br/>口作りはこの方が良いです。<br/><br/>そうです、これの箱を拝見したいですが。<br/><br/>膳所光悦でお茶をいただくとは思いませんでしたね。<br/><br/>これは遠州の箱ですね。<br/><br/> 奥様 「ふ」がはいっている所は、宗達のチンコロのような感じですね。<br/><br/> 谷川氏 ちょっとそういうような感じがありますね。<br/><br/>この茶碗はずいぶん使ってますね。<br/><br/>茶碗というのは高台を見れば分かります。<br/><br/>この高台が減っているのは、畳ずれです。<br/><br/>上の方だけ見ていると非常に新しいものに見えますが、高台を見ると古い茶碗ということが分かります。<br/><br/>これがすり減っているのは、畳ずれ手ずれとでもいうものですね。<br/><br/>この高台は実に良いですね。<br/><br/>そして上のほうにムックリと自然にプッとふくらんでいる点が実に良いですね。<br/><br/>そして実に素直になって、口作りに来てなんとも言えない複難なものを画いてます。<br/><br/>そして実に自然に変化があります。<br/><br/>それがわざとらしくありません。<br/><br/> 明主様 やっぱり名人芸ですね。<br/><br/>井戸茶碗ではなんですか。<br/><br/> 谷川氏 やっぱり喜左衛門井戸ですね。<br/><br/>それから毘沙門堂です。<br/><br/> 明主様 筒井筒（つついづつ）はどうですか。<br/><br/> 谷川氏 あれほどにひどく割れているので、それを気にする人がありますが、その姿の美しさは第一等ですね。<br/><br/>きれいな点から言うと、細川井戸、有楽井戸ですが、力のある点から言うと、やっぱり喜左衛門です。<br/><br/>ただ喜左衛門は筒井筒みたいに割れていませんから、きつすぎるのです。<br/><br/>ちょっと気味が悪いと言う人があるかもしれませんが、私はそうまで感じません。<br/><br/>それからおもしろいのは、筒井筒は今から三十年ほど前に京都の博物館に長い間出ていたのです。<br/><br/>そのときはいかにもホコリっぽくなってました。<br/><br/>ところがこの間嵯峨さんに招ばれて行って見ましたらずっと美しくなってました。<br/><br/>それは使っているからですね。<br/><br/>茶碗というのは使ってないと死んでしまうのです。<br/><br/>これは硯（すずり）でもそうです。<br/><br/>端渓（たんけい）の硯でも、長い間使ってないと死んでしまうそうです。<br/><br/>支那などでは、そうなった硯は毎日水をつけてすり、水をつけてすりしていると、三年くらいやると、生き返ってくるそうです。<br/><br/>それで今の井戸などの美しさというのも、長年使ってきた味がこもっているのでしょうね。<br/><br/> 明主様 この膳所光悦もそうでしょうね。<br/><br/> 谷川氏 人間的の美しさというものが出てますね。<br/><br/> 明主様 まったく微妙なものですね。<br/><br/> 奥様 お茶をのむために作ったのですから、それを使わなければ死ぬわけですね。<br/><br/> 谷川氏 そうです。<br/><br/>持たれることによって茶碗自身にあるものが引き出されるのです。<br/><br/>こういう焼物というのは世界に類がありませんね。<br/><br/>それは支那の焼物も世界に類がありませんが、ただ支那にも楽のようなのはありませんね。<br/><br/>これは日本の天才ですね。<br/><br/> 明主様 そうですね。<br/><br/>この間見ましたが、日本にお茶を持ってきた支那の坊さんの物でなんとか言う名前でしたが。<br/><br/> 谷川氏 青磁ですか。<br/><br/>天目ですか。<br/><br/> 明主様 そうではないのです。<br/><br/>ふつうの薄手の茶碗で支那陶器で言えば越州窯というような、少しネズミを持った物です。<br/><br/>それから、珠光青磁（じゅこうせいじ）というような色です。<br/><br/> 谷川氏 それでは栄西禅師ではありませんか。<br/><br/> 明主様 そうです。<br/><br/>それを見ましたが、なかなか良い味がありました。<br/><br/> 谷川氏 栄西禅師が持ってきて、明恵、明恵といろいろ言いますが、その人が伝えたのですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

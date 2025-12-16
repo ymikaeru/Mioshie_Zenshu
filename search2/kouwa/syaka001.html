@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syaka001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 １ 001-008 経済 001 地上天国は急に出来ますか、相場は一切の動き（想念）が表われる そんな事はない。<br><br>すべて一切のものは一ぺんに行くものではない。<br><br>和光同塵は今迄大先生のなされた事である。<br><br> いろんなものは育つように行く。<br><br>しかし停止する事なく進んで行く。<br><br>気候とてもそうで、段々暑くなったり、寒くなったりする。<br><br> 人間の方では一ぺんに変えようとする。<br><br>階段を一ぺんに飛上ろうとするものが多い。<br><br>そのために失敗する。<br><br>必ず転落する。<br><br>（二、三段一度に昇ろうとするから）（ヒットラーなどもドイツだけ治めていればよかった）共産主義のごとき、一ぺんにスターリン一代でやろうとするが、これは嘘だからきっと駄目になる。<br><br>相場でも一ぺんにパッとする事がある。<br><br>そこに穴が出来る。<br><br>しかしまた漸次立直る。<br><br>一切のものは漸進的に行くのが真理であって、それに外れたものはない。<br><br> 相場の動きは大したもので一つの真理である。<br><br>多勢の人間の想念等が一つのものに表われるものである。<br><br>一切の動きの反映が表われる。<br><br>他の政治経済等すべてそうなっている。<br><br> ブランコのようなもので、この揺れが今迄は大きくあった。<br><br>（戦争など）その時に人間が苦しむ。<br><br>みろくの世には、そのユレが小さくなる。<br><br> しかし、この揺れがなければ、進歩発達しない。<br><br> （上ったものは必ず下る。<br><br>多く上るものは多く、下る時は勢があるから、今に戦前よりもっと下る。<br><br>暴落する。<br><br>民主中道政治）（S24.11.14） 002 今後の日本経済とストライキ 今後日本の経済界の変化及ストライキの動き等御垂示御願い申し上げます。<br><br> 経済界は段々よくなるが、物価暴落時代――いわゆるデフレが来るから下げは凄い。<br><br>上げる時は十年掛るのが下げは一年である。<br><br>気をつけるべきだ。<br><br>法則として一旦半値になり少し上り、三段になって底をつく。<br><br>そしてもう一段下って本当の底になる。<br><br>これを二段底という。<br><br>（最初一のリズムになっている）ストライキはもっとひどく相当あると思う。<br><br>今は進駐軍の命で中止しているが、今に聞かぬようになる。<br><br> 共産党（ソ連）の世界政策は、ヨーロッパか東洋かどっちを先にしようかというにある。<br><br>ドイツで喰止められたので東亜に来、中国、朝鮮も殆ど赤化状態である。<br><br> ヨーロッパを第二とし、東亜を第一としようとした。<br><br>今残るは日本だけである。<br><br>それで全力を注いで攻撃しようとする。<br><br>今度のストは一つの瀬踏みである。<br><br>試験的になったものであるから前と異い悪質である。<br><br>相当いろいろな工作をする。<br><br>（S24. 6.19） 003 光明世界における勝負事（社会主義の誤り）、配給制、共産主義、理外の理 光明世界にして戴いた時、現界においての勝負事の遊戯は、いかなる程度のものに変り行くので御座いましょうか。<br><br> 人間は出世したいという優越欲が大いにある。<br><br>この競争心はなくてはならぬ。<br><br>この点からいって社会主義は間違っている。<br><br>この競争心を制える。<br><br>なくそうとする。<br><br> 現在の配給制度は、戦争をするため止むを得ず変態的計画をとったもので、それを今以てやっている。<br><br>これが社会主義である。<br><br>これは頭に欠陥があるといわねばならぬ。<br><br>本当のものでないが故に、終戦後は当然やめるべきである。<br><br> その統制に従わぬという事、即ち闇をやる事は悪でない。<br><br>寧ろ善である。<br><br>二合五勺しか配給しないから闇をするんで、実際からいうと米は余るんで、余らないとすれば闇で売る訳がない。<br><br>闇の根本は主食である。<br><br>従って闇は政府が闇を作っているのである。<br><br> 配給制度は社会主義理論である。<br><br>それに気づかずやっている事はよほど頭がわるい。<br><br>民自党の方があたりまえである。<br><br>共産主義は、人民を苦しむだけ苦しめて自暴自棄となる。<br><br>そこを狙って宣伝するやり方である。<br><br> 闇は犯罪ではない。<br><br>闇をせねば生きていけないような政治をしておいてそれを取締っている。<br><br>政府の方が犯罪である。<br><br> またすべて官営にしようとしているが、官営とは昔からいう士族の商法であって、すべて物には理外の理がある。<br><br>やはり商法は、丁稚から上ったものでなくては役に立たない。<br><br> 相場なども全然理屈に外れるもので、理屈とは逆にするものである。<br><br>理屈通りにすると必ず外れるものとしてある。<br><br>世の中には理屈に合わぬ事が沢山ある。<br><br>いわゆるニニンが六も七もある。<br><br>理外の理を知らなくてはならぬ。<br><br> 今の学問は理屈を教えるが、理屈だけでなく、次の理を知らなければならぬ。<br><br> 004 神意通達の法―邪念が遮る、御神書の尊さ、昼は滅せぬものが出来る、悪人の役目、真の民主主義の在り方、神典や仏教の欠陥―諦観思想 神典の主旨に通達するには私達はいかに勤めさせて戴けばよろしゅう御座居ましょうか。<br><br> 神典とは昔ある古事記等である。<br><br> 神よりの現魂への命は誠心ならばひとりでに浮ぶ。<br><br>これが通達である。<br><br>邪念があるとそれを遮ぎる。<br><br> 後は大先生の御言葉を心に入れて判断すれば間違いない。<br><br>そのための今度の御本である。<br><br> 今迄の神典でも仏典でも夜だったので、本当の事が判らずかけなかったために書いてなかった。<br><br>だから名僧のかいたものは浅い。<br><br>キリスト教のは現代的でいくらか判る。<br><br>仏教に至っては殆ど判らぬ。<br><br>言う人が判らぬから判る筈がない。<br><br> この世は火宅とか、厭離穢土とか、仮の娑婆とか、生者必滅、会者定離などと唱えてあるから希望を失う。<br><br>この世は汚ないというのである。<br><br>仏教の悟りというのは諦めである。<br><br>夜の世界は滅する。<br><br>仏教は滅する。<br><br>夜の世界は本当のものが出来ぬ。<br><br>必ず滅する。<br><br>空々寂々だという。<br><br> 昼間になると本当のもの、滅せざるものが出来る。<br><br> 五六七は順序が正しくなる事である。<br><br> 三六九―小中大。<br><br> 汚い所へ蛆がわく。<br><br>強盗不良児など出るのは日本人全体が間違っている。<br><br>皆よくなれば自然に消滅する。<br><br>悪い人間も、どういう役目をしているか判らぬ。<br><br> 民主々義は今迄の封建制打破のためにはいいが、それのみではいけない。<br><br> アメリカは階級制、日本は民主々義を採入れるのでなくては、本当によくならぬ。<br><br> 005 山口県について 山口県は、霊界からいっても日本の入口である。<br><br>故に関門海峡という。<br><br>そこで一番仕事を初める所である。<br><br> 006 日本人の発祥地と沖縄 沖縄本島は住民の言によれば、高天原とはここの事で日本発祥の地と言われ、また風俗、習慣、言語、宗教等は日本古代式で、左のごとき事例があります。<br><br> （イ）文字の読方 與名原（ヨナバル）大城（オオグエイ）中田（ナカンダカリ） （ロ）言葉 ウソガミソオラエ（どうぞ召上り下さいの意味） 沖縄言葉は文字は漢字にて書けば総て候言葉です。<br><br> （ハ）主都 首里の首里城は全く古代的の芸術品です。<br><br> 右により何か古代史あるいは神代史その他神秘に関係がありますのでしょうか。<br><br>御伺い申し上げます。<br><br> 見ても日本語でない。<br><br>日本人の発祥地でもない。<br><br>大和民族の根本地、発祥地は琵琶湖の東の方である。<br><br>ナワは皆龍神の事である。<br><br>それで、オキナワとは、大きい龍神の事である。<br><br>大きい龍神が住んでいたのであろう。<br><br>本来、琉球の玉があったので琉球という。<br><br>この玉が大変な意味がある。<br><br> 古代日本人が渡ったので、必ず日本文化は残っている。<br><br>（S24. 5.25） 007 エアーポケットの霊的理由 箱根の山はエアーポケットと聞きましたが、その急所は何山辺でしょうか。<br><br>これは神秘的な理由が御座いますか。<br><br>なお日本国のエアーポケットは何ケ所位御座いましょうか。<br><br>御伺い申し上げます。<br><br> エアーポケットは、空気が渦巻いている。<br><br> 神秘的な事が全然ない事はない。<br><br> お魚など、龍神が守っている事がある。<br><br>来させないようにしている。<br><br> 飛行機を落すのは悪龍である。<br><br>（S24.12.23） 008 スポーツで名を成す人 スポーツの選手等で、非常に世間の人気を博する人がございますが、これは霊的にはどのような意味でしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 祖霊が守護する。<br><br>そして子孫を助ける場合がある。<br><br>その人が前世に善い事をしたのに、名誉を得られずに死んだ。<br><br>それで今度その得るべき名誉を与えられる。<br><br>（S23. 7.23）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Reverendo Okada Jikanshi – Compêndio dos Ensinamentos: Sociedade e Relações Humanas, 1, 001-008, Economia</h2>
 <h2>001 A Implantação do Paraíso Terrestre será Súbita? O Mercado de Ações como Reflexo de Todos os Movimentos (Pensamentos)</h2>
@@ -258,5 +410,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 １ 001-008 経済 001 地上天国は急に出来ますか、相場は一切の動き（想念）が表われる そんな事はない。<br/><br/>すべて一切のものは一ぺんに行くものではない。<br/><br/>和光同塵は今迄大先生のなされた事である。<br/><br/> いろんなものは育つように行く。<br/><br/>しかし停止する事なく進んで行く。<br/><br/>気候とてもそうで、段々暑くなったり、寒くなったりする。<br/><br/> 人間の方では一ぺんに変えようとする。<br/><br/>階段を一ぺんに飛上ろうとするものが多い。<br/><br/>そのために失敗する。<br/><br/>必ず転落する。<br/><br/>（二、三段一度に昇ろうとするから）（ヒットラーなどもドイツだけ治めていればよかった）共産主義のごとき、一ぺんにスターリン一代でやろうとするが、これは嘘だからきっと駄目になる。<br/><br/>相場でも一ぺんにパッとする事がある。<br/><br/>そこに穴が出来る。<br/><br/>しかしまた漸次立直る。<br/><br/>一切のものは漸進的に行くのが真理であって、それに外れたものはない。<br/><br/> 相場の動きは大したもので一つの真理である。<br/><br/>多勢の人間の想念等が一つのものに表われるものである。<br/><br/>一切の動きの反映が表われる。<br/><br/>他の政治経済等すべてそうなっている。<br/><br/> ブランコのようなもので、この揺れが今迄は大きくあった。<br/><br/>（戦争など）その時に人間が苦しむ。<br/><br/>みろくの世には、そのユレが小さくなる。<br/><br/> しかし、この揺れがなければ、進歩発達しない。<br/><br/> （上ったものは必ず下る。<br/><br/>多く上るものは多く、下る時は勢があるから、今に戦前よりもっと下る。<br/><br/>暴落する。<br/><br/>民主中道政治）（S24.11.14） 002 今後の日本経済とストライキ 今後日本の経済界の変化及ストライキの動き等御垂示御願い申し上げます。<br/><br/> 経済界は段々よくなるが、物価暴落時代――いわゆるデフレが来るから下げは凄い。<br/><br/>上げる時は十年掛るのが下げは一年である。<br/><br/>気をつけるべきだ。<br/><br/>法則として一旦半値になり少し上り、三段になって底をつく。<br/><br/>そしてもう一段下って本当の底になる。<br/><br/>これを二段底という。<br/><br/>（最初一のリズムになっている）ストライキはもっとひどく相当あると思う。<br/><br/>今は進駐軍の命で中止しているが、今に聞かぬようになる。<br/><br/> 共産党（ソ連）の世界政策は、ヨーロッパか東洋かどっちを先にしようかというにある。<br/><br/>ドイツで喰止められたので東亜に来、中国、朝鮮も殆ど赤化状態である。<br/><br/> ヨーロッパを第二とし、東亜を第一としようとした。<br/><br/>今残るは日本だけである。<br/><br/>それで全力を注いで攻撃しようとする。<br/><br/>今度のストは一つの瀬踏みである。<br/><br/>試験的になったものであるから前と異い悪質である。<br/><br/>相当いろいろな工作をする。<br/><br/>（S24. 6.19） 003 光明世界における勝負事（社会主義の誤り）、配給制、共産主義、理外の理 光明世界にして戴いた時、現界においての勝負事の遊戯は、いかなる程度のものに変り行くので御座いましょうか。<br/><br/> 人間は出世したいという優越欲が大いにある。<br/><br/>この競争心はなくてはならぬ。<br/><br/>この点からいって社会主義は間違っている。<br/><br/>この競争心を制える。<br/><br/>なくそうとする。<br/><br/> 現在の配給制度は、戦争をするため止むを得ず変態的計画をとったもので、それを今以てやっている。<br/><br/>これが社会主義である。<br/><br/>これは頭に欠陥があるといわねばならぬ。<br/><br/>本当のものでないが故に、終戦後は当然やめるべきである。<br/><br/> その統制に従わぬという事、即ち闇をやる事は悪でない。<br/><br/>寧ろ善である。<br/><br/>二合五勺しか配給しないから闇をするんで、実際からいうと米は余るんで、余らないとすれば闇で売る訳がない。<br/><br/>闇の根本は主食である。<br/><br/>従って闇は政府が闇を作っているのである。<br/><br/> 配給制度は社会主義理論である。<br/><br/>それに気づかずやっている事はよほど頭がわるい。<br/><br/>民自党の方があたりまえである。<br/><br/>共産主義は、人民を苦しむだけ苦しめて自暴自棄となる。<br/><br/>そこを狙って宣伝するやり方である。<br/><br/> 闇は犯罪ではない。<br/><br/>闇をせねば生きていけないような政治をしておいてそれを取締っている。<br/><br/>政府の方が犯罪である。<br/><br/> またすべて官営にしようとしているが、官営とは昔からいう士族の商法であって、すべて物には理外の理がある。<br/><br/>やはり商法は、丁稚から上ったものでなくては役に立たない。<br/><br/> 相場なども全然理屈に外れるもので、理屈とは逆にするものである。<br/><br/>理屈通りにすると必ず外れるものとしてある。<br/><br/>世の中には理屈に合わぬ事が沢山ある。<br/><br/>いわゆるニニンが六も七もある。<br/><br/>理外の理を知らなくてはならぬ。<br/><br/> 今の学問は理屈を教えるが、理屈だけでなく、次の理を知らなければならぬ。<br/><br/> 004 神意通達の法―邪念が遮る、御神書の尊さ、昼は滅せぬものが出来る、悪人の役目、真の民主主義の在り方、神典や仏教の欠陥―諦観思想 神典の主旨に通達するには私達はいかに勤めさせて戴けばよろしゅう御座居ましょうか。<br/><br/> 神典とは昔ある古事記等である。<br/><br/> 神よりの現魂への命は誠心ならばひとりでに浮ぶ。<br/><br/>これが通達である。<br/><br/>邪念があるとそれを遮ぎる。<br/><br/> 後は大先生の御言葉を心に入れて判断すれば間違いない。<br/><br/>そのための今度の御本である。<br/><br/> 今迄の神典でも仏典でも夜だったので、本当の事が判らずかけなかったために書いてなかった。<br/><br/>だから名僧のかいたものは浅い。<br/><br/>キリスト教のは現代的でいくらか判る。<br/><br/>仏教に至っては殆ど判らぬ。<br/><br/>言う人が判らぬから判る筈がない。<br/><br/> この世は火宅とか、厭離穢土とか、仮の娑婆とか、生者必滅、会者定離などと唱えてあるから希望を失う。<br/><br/>この世は汚ないというのである。<br/><br/>仏教の悟りというのは諦めである。<br/><br/>夜の世界は滅する。<br/><br/>仏教は滅する。<br/><br/>夜の世界は本当のものが出来ぬ。<br/><br/>必ず滅する。<br/><br/>空々寂々だという。<br/><br/> 昼間になると本当のもの、滅せざるものが出来る。<br/><br/> 五六七は順序が正しくなる事である。<br/><br/> 三六九―小中大。<br/><br/> 汚い所へ蛆がわく。<br/><br/>強盗不良児など出るのは日本人全体が間違っている。<br/><br/>皆よくなれば自然に消滅する。<br/><br/>悪い人間も、どういう役目をしているか判らぬ。<br/><br/> 民主々義は今迄の封建制打破のためにはいいが、それのみではいけない。<br/><br/> アメリカは階級制、日本は民主々義を採入れるのでなくては、本当によくならぬ。<br/><br/> 005 山口県について 山口県は、霊界からいっても日本の入口である。<br/><br/>故に関門海峡という。<br/><br/>そこで一番仕事を初める所である。<br/><br/> 006 日本人の発祥地と沖縄 沖縄本島は住民の言によれば、高天原とはここの事で日本発祥の地と言われ、また風俗、習慣、言語、宗教等は日本古代式で、左のごとき事例があります。<br/><br/> （イ）文字の読方 與名原（ヨナバル）大城（オオグエイ）中田（ナカンダカリ） （ロ）言葉 ウソガミソオラエ（どうぞ召上り下さいの意味） 沖縄言葉は文字は漢字にて書けば総て候言葉です。<br/><br/> （ハ）主都 首里の首里城は全く古代的の芸術品です。<br/><br/> 右により何か古代史あるいは神代史その他神秘に関係がありますのでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 見ても日本語でない。<br/><br/>日本人の発祥地でもない。<br/><br/>大和民族の根本地、発祥地は琵琶湖の東の方である。<br/><br/>ナワは皆龍神の事である。<br/><br/>それで、オキナワとは、大きい龍神の事である。<br/><br/>大きい龍神が住んでいたのであろう。<br/><br/>本来、琉球の玉があったので琉球という。<br/><br/>この玉が大変な意味がある。<br/><br/> 古代日本人が渡ったので、必ず日本文化は残っている。<br/><br/>（S24. 5.25） 007 エアーポケットの霊的理由 箱根の山はエアーポケットと聞きましたが、その急所は何山辺でしょうか。<br/><br/>これは神秘的な理由が御座いますか。<br/><br/>なお日本国のエアーポケットは何ケ所位御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> エアーポケットは、空気が渦巻いている。<br/><br/> 神秘的な事が全然ない事はない。<br/><br/> お魚など、龍神が守っている事がある。<br/><br/>来させないようにしている。<br/><br/> 飛行機を落すのは悪龍である。<br/><br/>（S24.12.23） 008 スポーツで名を成す人 スポーツの選手等で、非常に世間の人気を博する人がございますが、これは霊的にはどのような意味でしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 祖霊が守護する。<br/><br/>そして子孫を助ける場合がある。<br/><br/>その人が前世に善い事をしたのに、名誉を得られずに死んだ。<br/><br/>それで今度その得るべき名誉を与えられる。<br/><br/>（S23. 7.23）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

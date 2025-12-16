@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon27</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力とは何ぞや 『光』2号、昭和24(1949)年3月20日発行 昔から妙智力または観音力というがもちろん妙智力は観音力に包含されるものである。<br><br>世に阿弥陀力とか、釈迦力、達磨力などいう言葉がなく、ただ観世音菩薩だけがその力を唱えたという事は不思議であると共になんらか理由がなくてはならないはずである。<br><br>これについて文献もなければ言伝えのごときものもない。<br><br>私は以前からこの事について疑問を抱いていたが、信仰が進むにつれて実にはっきり判る事になったので、それを解説してみよう。<br><br> それについて今一つの疑問がある。<br><br>これはよく聞かれるのであるが、観世音菩薩は男性であられるか女性であられるかという事であるが、この事はまた観音力と密接不離の関係があって、実をいうと世尊は男であり女でありいわば両性を備え給うておらるるのである。<br><br> そうして男女は、男は陽女は陰であり、これも昔から誰も知っているがこれを火水に分ければ男は火で女は水であり、火は経（たて）に燃え水は緯（よこ）に流れる、この経緯が今までは本当に結ばっていなかった。<br><br>それが今度いよいよ結ばるという時が来たのである、という事は私の常に唱える夜の世界が昼の世界に転換する事で、すなわち経緯十字形に結ぶ事になったのである。<br><br> また光とは火と水の密合であって、火素の量が多量である程光は高〔光〕度を増すのである。<br><br>この理によって昼の世界は火素の量が殖えるから光が強くなるのである。<br><br>観世音菩薩の御働きが光明如来と現ぜられるゆえんである。<br><br> 次に最も重要なる点は、経緯を結合する事によって真の力が発生する、力という字は経の棒と緯の棒と結んで曲りその先端が撥ねる、これは結ぶ事によって左進右退的回転力が発生するという意味で、全く文字なるものの意義深きを思わしむるのである。<br><br>以上のごとく観世音菩薩に限り、経緯両性を具備さるるのは、経緯の結合によって力を生ずるのであるから、特に観音力という言葉が唱えらるるゆえんである。<br><br> ついでに、今一つの重要事をかいてみよう。<br><br>光明如来とならせ給うたその御働きの次は、弥勒の御活動をなされるのである。<br><br>前述のごとく、光は火と水であるが、これに土が加わる事によって火水土の御働きとなる。<br><br>元来火と水だけでは霊の御働きだけで体がないが、これに土が加わって初めて火水土の三位一体の力を発揮されるので、これが如意宝珠であり、麻邇（まに）の玉〔摩尼の珠〕である。<br><br>また火は五であり、水は六であり、土は七であるから、五六七の数字をミロクと読むのである、彼の釈尊の予言にある五十六億七千万年後、常楽世界ともいうべき五六七の世が始まるという事は、この五六七すなわち火水土の順序正しき世界が出現するという事でなくて何であろう。<br><br> いかに釈尊が大予言者といえども、実際の五十六億七千万年後というがごとき天文学的数字の未来を予言し給うはずがない、それはなんらの意味をもなさないからである。<br><br>まず予言の価値としては、精々数千年くらいが実際に即する訳である、キリストの二千年後の予言などは最も適切な年数であろう。<br><br> 観世音菩薩の五六七（みろく）は応身弥勒の事で、応身弥勒である事は仏説の通りであるが、今後この応身弥勒の千変万化の御働きこそ、吾ら刮目（かつもく）して見るべきものがあろう。<br><br> そうして五六七の数も三六九も合計十八である、十は結びであり、八は開ける数である、観世音菩薩の御本体は一寸八分の黄金と昔から定まっており、御堂は十八間四面と言う事なども、意義深きを思わしむるものがある。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Natureza do Poder de Kannon</h2>
 <p>Embora desde a antiguidade se fale tanto do Poder da Sabedoria Sublime quanto do Poder de Kannon, o primeiro está, decerto, contido no segundo. É fato curioso, e que por certo encerra uma razão profunda, que não existam expressões como Poder de Amida, Poder de Shaka ou Poder de Darma, e que apenas à Bodhisattva Kannon (観世音菩薩) se atribua tal poder. Não há registros em documentos nem mesmo na tradição oral que esclareçam essa questão. Eu mesmo, por longo tempo, nutri essa dúvida. Contudo, à medida que minha fé se aprofundava, a resposta tornou-se-me extraordinariamente clara, e é sobre ela que passarei a dissertar.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>A profecia de Shakyamuni sobre o advento do Mundo de Miroku (五六七) — também chamado de Paraíso Atemporal — após cinquenta e seis centos de milhões e setenta milhões de anos, não pode significar outra coisa senão o surgimento de um mundo onde os elementos fogo, água e terra se encontrem em sua correta ordenação. Por mais grandioso que Shakyamuni tenha sido como profeta, é inconcebível que ele previsse o futuro com um número de precisão astronômica, pois tal profecia careceria de qualquer significado prático. O valor de uma profecia reside em sua aplicabilidade a uma escala de tempo realista, de no máximo alguns milênios. A profecia de Cristo, para dois mil anos no futuro, é um exemplo de um período perfeitamente apropriado.</p>
 <p>O Miroku (五六七) de Kannon (観世音菩薩) é, na verdade, Ōshin Miroku (応身弥勒), o que está em conformidade com as escrituras budistas. Doravante, a atuação multifacetada e em constante transformação deste Ōshin Miroku é algo que devemos observar com máxima atenção.</p>
 <p>Ademais, tanto a soma de cinco, seis e sete, quanto a de três, seis e nove, resulta em dezoito. O número dez (十) representa a união, e o oito (八), a abertura. Desde a antiguidade, está estabelecido que a forma primordial de Kannon (観世音菩薩) é de ouro e mede um <em>sun</em> e oito <em>bu</em> (一寸八分), e que Seus templos medem dezoito <em>ken</em> por dezoito <em>ken</em> (十八間四面). Tais correspondências nos impelem, uma vez mais, a meditar sobre seu profundo significado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力とは何ぞや 『光』2号、昭和24(1949)年3月20日発行 昔から妙智力または観音力というがもちろん妙智力は観音力に包含されるものである。<br/><br/>世に阿弥陀力とか、釈迦力、達磨力などいう言葉がなく、ただ観世音菩薩だけがその力を唱えたという事は不思議であると共になんらか理由がなくてはならないはずである。<br/><br/>これについて文献もなければ言伝えのごときものもない。<br/><br/>私は以前からこの事について疑問を抱いていたが、信仰が進むにつれて実にはっきり判る事になったので、それを解説してみよう。<br/><br/> それについて今一つの疑問がある。<br/><br/>これはよく聞かれるのであるが、観世音菩薩は男性であられるか女性であられるかという事であるが、この事はまた観音力と密接不離の関係があって、実をいうと世尊は男であり女でありいわば両性を備え給うておらるるのである。<br/><br/> そうして男女は、男は陽女は陰であり、これも昔から誰も知っているがこれを火水に分ければ男は火で女は水であり、火は経（たて）に燃え水は緯（よこ）に流れる、この経緯が今までは本当に結ばっていなかった。<br/><br/>それが今度いよいよ結ばるという時が来たのである、という事は私の常に唱える夜の世界が昼の世界に転換する事で、すなわち経緯十字形に結ぶ事になったのである。<br/><br/> また光とは火と水の密合であって、火素の量が多量である程光は高〔光〕度を増すのである。<br/><br/>この理によって昼の世界は火素の量が殖えるから光が強くなるのである。<br/><br/>観世音菩薩の御働きが光明如来と現ぜられるゆえんである。<br/><br/> 次に最も重要なる点は、経緯を結合する事によって真の力が発生する、力という字は経の棒と緯の棒と結んで曲りその先端が撥ねる、これは結ぶ事によって左進右退的回転力が発生するという意味で、全く文字なるものの意義深きを思わしむるのである。<br/><br/>以上のごとく観世音菩薩に限り、経緯両性を具備さるるのは、経緯の結合によって力を生ずるのであるから、特に観音力という言葉が唱えらるるゆえんである。<br/><br/> ついでに、今一つの重要事をかいてみよう。<br/><br/>光明如来とならせ給うたその御働きの次は、弥勒の御活動をなされるのである。<br/><br/>前述のごとく、光は火と水であるが、これに土が加わる事によって火水土の御働きとなる。<br/><br/>元来火と水だけでは霊の御働きだけで体がないが、これに土が加わって初めて火水土の三位一体の力を発揮されるので、これが如意宝珠であり、麻邇（まに）の玉〔摩尼の珠〕である。<br/><br/>また火は五であり、水は六であり、土は七であるから、五六七の数字をミロクと読むのである、彼の釈尊の予言にある五十六億七千万年後、常楽世界ともいうべき五六七の世が始まるという事は、この五六七すなわち火水土の順序正しき世界が出現するという事でなくて何であろう。<br/><br/> いかに釈尊が大予言者といえども、実際の五十六億七千万年後というがごとき天文学的数字の未来を予言し給うはずがない、それはなんらの意味をもなさないからである。<br/><br/>まず予言の価値としては、精々数千年くらいが実際に即する訳である、キリストの二千年後の予言などは最も適切な年数であろう。<br/><br/> 観世音菩薩の五六七（みろく）は応身弥勒の事で、応身弥勒である事は仏説の通りであるが、今後この応身弥勒の千変万化の御働きこそ、吾ら刮目（かつもく）して見るべきものがあろう。<br/><br/> そうして五六七の数も三六九も合計十八である、十は結びであり、八は開ける数である、観世音菩薩の御本体は一寸八分の黄金と昔から定まっており、御堂は十八間四面と言う事なども、意義深きを思わしむるものがある。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

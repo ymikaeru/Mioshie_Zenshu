@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教事業と社会事業 『光』10号、昭和24(1949)年5月25日発行 社会各方面を観る時、官と民による社会事業は種々あって相当社会の福祉に貢献しつつあり、特に宗教を背景とした社会事業はより効果がある事ももちろんである、ただしかし民間の力では届かないところの結核療養所（私設も幾分はあるが）や民政事業のごときは政府の力による外はない、その他半官半民の赤十字、養老院、養育院、癩療養所のごときはいずれも社会の欠陥を補足している事は充分認め得らるるのである。<br><br> ところが今私の言わんとするところのものは宗教事業であって、これはいまだ余り聞かないところのものである、例えば吾らが今行わんとする結核療養所のごときは従来試みられた事のない神霊による信仰療法を基礎とした科学を超越したもので、これによって日本から結核を追放してしまおうという信念の下に今や着手しつつあるのである、いずれは驚異すべき成果を挙げるであろう事も、今より予想し得らるるのである。<br><br> 次に、無肥料農業であるが、これは再三雑誌や新聞に載せたから略すが無肥料で有肥料よりも驚くべき好成績を挙げ得る事で、目下数万坪の土地を開拓中である。<br><br> 次に、日本美術の世界的進出を目指して目下計画中のものもある、もちろん絵画彫刻はもとよりあらゆる美術工芸品や建築造園等に至るまで、日本美術の海外紹介所ともいうべき、日本建築の粋を蒐（あつ）めた建造物の設計中である、完成の暁は外客は無論であるが、日本人自身も青い鳥の発見によって今更ながら驚くであろう。<br><br> 以上のごとき事業の外未発表の諸々の企画もあるが、いずれも新機軸のものばかりである、何となれば吾らの主義とするところは既に前人の計画や実行に移したものは、その人に委（まか）しておけばよく、別に吾らが実行の必要はないからである。<br><br> もちろん、今後社会人類の福祉を増進すべき線に添うての種々の新企画を漸次発表するつもりである。<br><br> 最後に社会事業の根本意義を書いてみよう、社会事業とか慈善事業とかいうものは、なる程ないよりはマシであるが、端的にいえば一時的救済であって、根本的永遠性のものではない、何となれば社会の敗残者、無縁故者、難病者等の生存を保障するだけで畢竟（ひっきょう）消極的救済であるから、結局において国家の負担となり、マイナスであるからである。<br><br> ゆえに真の救済事業は積極的でなくてはならないが、実は今日まで言うべくして行われなかったのである、それにはどうしても力ある宗教が当らなくてはならない、これで真に救われたとしたら、第一本人の幸福はもとより、それに要する社会事業費も減殺されるばかりか、今度は反対に社会に利益を与える人間になるから、一挙三得という訳である。<br><br> 以上のような救済こそ、宗教の真の使命であって、すなわち吾らが唱える宗教事業である、しかるに既存の宗教においては、遺憾ながら前述のごとく積極的救済が行い得なかったがため、次善的に社会事業によって存在理由を標榜していたのである、また当局も社会も、宗教は無力であるが、せめて社会事業を行うからとの理由で容諾しているというのが、今日の現実であろう。<br><br> ゆえに、本教としては、社会事業のごとき消極的救済は他の機関に委せて積極的独自の救済をもって社会改善に役立つべき覚悟である、これを称して宗教事業というのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Distinção entre Obra Social e Obra Religiosa</h2>
 <p>Ao observarmos os diversos âmbitos da sociedade, deparamo-nos com uma variedade de obras sociais, tanto governamentais quanto privadas, que vêm contribuindo significativamente para o bem-estar coletivo. Naturalmente, aquelas que se fundamentam em preceitos religiosos tendem a apresentar resultados ainda mais eficazes. Contudo, certas iniciativas, como sanatórios para tuberculosos – embora existam alguns de caráter particular – e os projetos de assistência pública, dependem inevitavelmente da atuação do Estado. Ademais, instituições de natureza mista, como a Cruz Vermelha, os asilos para idosos, os orfanatos e os leprosários, desempenham um papel cujo valor é plenamente reconhecível no suprimento das lacunas da nossa sociedade.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>A verdadeira obra de salvação, portanto, deve ser de natureza ativa, mas, na realidade, embora muito se tenha falado a respeito, ela jamais foi efetivamente praticada até hoje. Para realizá-la, é indispensável a atuação de uma religião dotada de autêntico poder. Quando uma pessoa é verdadeiramente salva por este meio, o resultado é um triplo benefício: em primeiro lugar, a felicidade do próprio indivíduo; em segundo, a redução dos custos com a assistência social; e, por fim, a transformação dessa pessoa em um ser humano que contribui para o bem da sociedade.</p>
 <p>Esta forma de salvação constitui a genuína missão da religião e corresponde ao que denominamos obra religiosa. Lamentavelmente, as religiões preexistentes, por serem incapazes de promover a salvação ativa que descrevi, buscaram justificar sua existência por meio da obra social, como uma alternativa secundária. A realidade atual é que tanto as autoridades quanto a sociedade parecem tolerar as religiões não por seu poder espiritual, que consideram ineficaz, mas justamente por reconhecerem nelas ao menos a capacidade de realizar obras sociais.</p>
 <p>Nesse sentido, nossa Igreja assume o compromisso de deixar a salvação passiva, como as obras sociais, a cargo de outras instituições. Nosso dever é contribuir para a reforma da sociedade por meio de uma salvação singular e ativa. A esta missão, damos o nome de obra religiosa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教事業と社会事業 『光』10号、昭和24(1949)年5月25日発行 社会各方面を観る時、官と民による社会事業は種々あって相当社会の福祉に貢献しつつあり、特に宗教を背景とした社会事業はより効果がある事ももちろんである、ただしかし民間の力では届かないところの結核療養所（私設も幾分はあるが）や民政事業のごときは政府の力による外はない、その他半官半民の赤十字、養老院、養育院、癩療養所のごときはいずれも社会の欠陥を補足している事は充分認め得らるるのである。<br/><br/> ところが今私の言わんとするところのものは宗教事業であって、これはいまだ余り聞かないところのものである、例えば吾らが今行わんとする結核療養所のごときは従来試みられた事のない神霊による信仰療法を基礎とした科学を超越したもので、これによって日本から結核を追放してしまおうという信念の下に今や着手しつつあるのである、いずれは驚異すべき成果を挙げるであろう事も、今より予想し得らるるのである。<br/><br/> 次に、無肥料農業であるが、これは再三雑誌や新聞に載せたから略すが無肥料で有肥料よりも驚くべき好成績を挙げ得る事で、目下数万坪の土地を開拓中である。<br/><br/> 次に、日本美術の世界的進出を目指して目下計画中のものもある、もちろん絵画彫刻はもとよりあらゆる美術工芸品や建築造園等に至るまで、日本美術の海外紹介所ともいうべき、日本建築の粋を蒐（あつ）めた建造物の設計中である、完成の暁は外客は無論であるが、日本人自身も青い鳥の発見によって今更ながら驚くであろう。<br/><br/> 以上のごとき事業の外未発表の諸々の企画もあるが、いずれも新機軸のものばかりである、何となれば吾らの主義とするところは既に前人の計画や実行に移したものは、その人に委（まか）しておけばよく、別に吾らが実行の必要はないからである。<br/><br/> もちろん、今後社会人類の福祉を増進すべき線に添うての種々の新企画を漸次発表するつもりである。<br/><br/> 最後に社会事業の根本意義を書いてみよう、社会事業とか慈善事業とかいうものは、なる程ないよりはマシであるが、端的にいえば一時的救済であって、根本的永遠性のものではない、何となれば社会の敗残者、無縁故者、難病者等の生存を保障するだけで畢竟（ひっきょう）消極的救済であるから、結局において国家の負担となり、マイナスであるからである。<br/><br/> ゆえに真の救済事業は積極的でなくてはならないが、実は今日まで言うべくして行われなかったのである、それにはどうしても力ある宗教が当らなくてはならない、これで真に救われたとしたら、第一本人の幸福はもとより、それに要する社会事業費も減殺されるばかりか、今度は反対に社会に利益を与える人間になるから、一挙三得という訳である。<br/><br/> 以上のような救済こそ、宗教の真の使命であって、すなわち吾らが唱える宗教事業である、しかるに既存の宗教においては、遺憾ながら前述のごとく積極的救済が行い得なかったがため、次善的に社会事業によって存在理由を標榜していたのである、また当局も社会も、宗教は無力であるが、せめて社会事業を行うからとの理由で容諾しているというのが、今日の現実であろう。<br/><br/> ゆえに、本教としては、社会事業のごとき消極的救済は他の機関に委せて積極的独自の救済をもって社会改善に役立つべき覚悟である、これを称して宗教事業というのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

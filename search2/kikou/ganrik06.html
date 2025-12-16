@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganrik06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （六） 神成大教会 岡庭真次郎 『地上天国』46号、昭和28(1953)年3月25日発行 明主様には昭和九年五月一日、かねてよりの御望み通りの、東京の中心地麹町区平河町応神堂へ御移転遊ばされた。<br><br>岡田式神霊堂本院と堂々たる看板を御掲げなされ、いよいよ大発展の時期となって来たのであります。<br><br>私は御命令により早速急設電話の申込をなし、その後鎮座祭をやらせて頂きました。<br><br>終って立派な御馳走が出て一同頂戴致し、御手ずから富士山の御額用の立派な画と、やはり御額用の現神(ﾏﾏ)の御書を賜わりました。<br><br>そして麹町分所の月並祭がその晩のため明主様のお供をさせていただきました。<br><br>終って又応神堂へ御供して参上、色々御話を承り、なお又大森の御邸宅に私が住まわせて頂くことになり「応神堂分院と看板を出せ」との実に有難い御許しを賜わりました。<br><br>このことについて私は二月二十日の朝面白い夢を見て、早速明主様に御伺い致したのです。<br><br>その夢は岡庭が一度死んで、その外に今一人の岡庭がいて、それが紫の祭服を頂いて棺の中に入ったが死ぬことが出来ない、というのです。<br><br>明主様は「このような珍らしい夢を見た時は必ず最初に私に話してから後で一般の人々には発表するように」との御注意を下さいました。<br><br>そしてその夢は「岡庭がいよいよ他に一つの官（役目）を頂いて私の御用の一部をやらせて頂く事になるのだ」との御話で誠に有難いことであると思いました。<br><br>今日の大森の御屋敷で御用をさせて頂けることになったのも、夢を見てから二カ月と十日で一つの官を戴けたのであります。<br><br>そして「一方の死んだのは副守護霊の岡庭が死んだことになるのだ」との御話で、しかも応神堂分院と看板を戴けるなんて実に有難い事でありました。<br><br> 昭和九年六月十五日、この日は官幣大社日枝神社の大祭で、明主様も五月一日麹町へ御移転遊ばされたため、同社の氏子と御成りになられましたことでもあり、又一方大切なる御神業のため信者三十六人御供申し上げ、特に御命令により弟岡庭通明が天孫降臨の故事そのまま、猿田彦命と同様に御先導申し上げて御参拝。<br><br>明主様御先達にて祝詞を奏上遊ばされました。<br><br>これこそ昭和六年六月十五日、明主様が房州日本寺に天照大御神様を御迎え遊ばされましてより、満三年の後、天照大御神様はこの日枝神社に御鎮座坐ましたのであります。<br><br>御参拝終って一同は応神堂に御供して御立派な御馳走を戴いたのであります。<br><br>このように世人には知らぬ間に、御神業は一歩一歩堅く進展したのです。<br><br> 昭和九年九月十五日、この日は大切な意味があり、明主様にはこの日桃太郎として御生まれ遊ばされたので、御神業は一段と進展され極めて目出度いことになったのであります。<br><br>この日神様から明主様に千手観音の画像を描くようにとの御神示があられたので、明主様には幅五尺、縦六尺という極大の紙に千手観音の画像を御画きになられるのですが、応神堂では来客も繁く御狭いので到底不可能のために、何とか出来ないものかと御思いになられておられました折に、赤坂田町の金高真城という夫人が以前永の病やその他で非常に御利益を戴かれたため、熱心な信者となられて「自宅に三階を増築し、観音様の御部屋として六畳間が出来上りましたので、明主様に千手観音様の御像御執筆の御部屋として御使い下さいませ」と申出られたので大変御喜びで、早速下絵を御作りになられて、十月五日からいよいよ大千手観音様の雲上蓮華台上の御姿を、御画き初めになられたのであります。<br><br>ところが約三分の二位御画きになられた時は、ちょうど昭和九年十月十一日午後二時頃（九年、十月、十一日二時と数が一つずつ上って行っているのも不思議です）東光男という名刺を持った方が応神堂に来られ、明主様に御面会を求められたのです。<br><br>明主様はその東光男という姓名を御覧になられて、「御神業に関係のあるような面白い名だ」と興味を覚えられて、早速面会を許されたのです。<br><br>すると東氏は「自分はかねてより霊感により、日本に観音力所有者が出るということを、中国道院の本部である五台山にて修業の際知った。<br><br>ところが最近自宅より東の方において見当るとの霊感があったため、渋谷から東というと麹町あたりと見当をつけて麹町へ来て『この辺に観音力を備えた人はおりませんか』と知人に問合せたところ、『さあ観音力を備えているかどうか知らんが、観音様の御力で病気を治すお方がある』と教えられて御訪ねした」との話に、明主様は「あなたの尋ねるのは私だ。<br><br>私の肉体を通じて観音様がお力を現わされる時が来たのだ」と御話になられますと、東氏は大いに喜ばれて、「それでは一つ御写真を写させて戴きたい」とのことに、「どこで写すか」と御聞きになると、「その床の間のお軸を外して床の間に座って下さい」との事故、早速御軸を外されて床の間に正座されたところを投影されて帰りました。<br><br>ちょうどこの時は午後三時半で、麹町区平河町一丁目二番地応神堂の二階九尺の床の間であります。<br><br>翌十二日出来上った御写真を持って来たので拝見すると、その写真は明主様の御体の左側の御腹から非常に強烈なる霊光が発射されて天井に当り、右側に靡きたるその間隙の真中に、ちょうど明主様の御頭上に千手観音様の岩上蓮華台上に安置された御姿の写っている大写真であったのです。<br><br>畏しとも畏し何とも申しようもなく、我々ばただただ有難い極みでありました。<br><br>明主様には以前より「私のお腹の中に観音様が御いでになる」との御言葉でありましたが、今日目前に厳然と実現し、今更ながらでは有りませんが、何共有難く嬉しく手の舞い足の踏むところを知らずと申しても言いつくせません。<br><br>今迄悪口たたいた人々に見せてやりたい気持で一杯です。<br><br>ところが明主様にはそれまで御描きかけになった千手観音様の御姿を、夜分その家の主人が酒に酔って帰り、千手観音様の御絵をズタズタに破ってしまったのです。<br><br>この時明主様は御覚りになられたのです。<br><br>今までの御姿は御写真と多分に違った御姿で、第一半裸体であったが、御霊写真は御衣を纏われていられる。<br><br>これは印度では年中暑い所故裸もよいが、日本ではやはり御衣を纏わねばなりません。<br><br>次に雲の上に乗られた御姿でしたが、これは岩上に坐しますのが本当で、これから現界に御降りになられて御救いに当られる観音様であられるために、雲の上からでは御救いの御業は不適で、下津磐根に御鎮産ましますのが本当なのです。<br><br>次に前のは御円光が御頭を主とした円光であったのが、御写真のは御体全体を包含される大円光であって、これこそ本当で実相に叶った円光であったので、このため画き直すように神様はこの家の主人をお使いになり破らせたのでありました。<br><br>我々はこの御主人の大不敬に驚き、必ず天罰が当ると思っておりますと、明主様には「いやいやこれは神様が金高さんの御主人を使って私に描き直させるために破らせたので、天罰なんてない。<br><br>逆に良いことをしてくれたのだ」と御教え下されたのでありました。<br><br>明主様には早速御霊写真に現われた通りの下絵を急遽作られて、一週間で御画き上げになられたのでありました。<br><br>この千手観音様の御霊写真こそは、実は観音力のいかに偉大なるものかを如実に現わされたもので、撮影の際はマグネシウムの発光を使われたので、一秒の何分の一かわからんパッとした瞬間になされた霊光と、千手観音様の御聖像と、明主様の御姿とを一瞬時に御写真の面に現わさねばならんことで、これこそ観世音菩薩の不可思議力と申し上げるより外にありません。<br><br>誠に想像を超越した、今日までの世界霊写真史上、空前絶後の問題であります。<br><br>ところが又十日後の二十一日に東光男氏が来まして、この度は「赤坂田町の金高氏方の三階の御座敷で今一度御写真を撮らしてくれ」と申し出られたので、又御床の御軸を外されて床の間に端座されて写されたのであります。<br><br>そして又御話をなされていられる内に、机に御手を置かれて御頭をその上にされて御転寝を遊ばされました。<br><br>何思ったか東氏は早速その御姿を写して帰って行きました。<br><br> 明主様がお睡気を催されました、ほんのちょっとの間を狙って撮影されたのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prodigiosa Fotografia Espiritual de Kannon</h2>
 <p>Meishu-Sama, no dia 1º de maio do nono ano da era Showa (1934), concretizou um antigo anseio ao se transferir para o Oushindo, localizado em Hirakawacho, no distrito de Kojimachi, coração de Tóquio. Uma imponente placa com os dizeres "Okada-shiki Shinreido Hon-in" foi instalada, assinalando o início de uma era de grande expansão. Por Sua ordem, encarreguei-me de solicitar imediatamente a instalação de uma linha telefônica e, posteriormente, tive a honra de conduzir a cerimônia de entronização. Ao término, foi-nos servido um magnífico banquete, do qual todos participamos. Das próprias mãos de Meishu-Sama, recebi uma esplêndida pintura do Monte Fuji, destinada a ser emoldurada, e também uma caligrafia de Sua autoria, com os caracteres "Deus Manifesto" (現神), para o mesmo fim. Naquela mesma noite, tive o privilégio de acompanhá-Lo ao Ofício Mensal da sucursal de Kojimachi. Finda a cerimônia, retornamos juntos ao Oushindo, onde pude ouvir Seus valiosos ensinamentos. Para minha imensa gratidão, foi-me então concedida a permissão de residir em Sua antiga casa, em Omori, com a autorização para ali estabelecer uma filial, sob a designação "Sucursal Oushindo".</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Nesse ínterim, ocorreu um fato surpreendente. O quadro de Kannon (観音) de Mil Braços, que Meishu-Sama estava finalizando, foi completamente rasgado pelo dono da casa, que retornara embriagado certa noite. Foi nesse momento que Meishu-Sama compreendeu o desígnio divino por trás do ocorrido. Havia diferenças notáveis entre a Sua pintura e a imagem da fotografia espiritual. Primeiro, Sua representação era de uma deidade seminua, o que, embora adequado ao clima quente da Índia, não condizia com o Japão, onde vestimentas são apropriadas. A fotografia, ao contrário, mostrava Kannon (観音) vestida. Segundo, a pintura A retratava sobre as nuvens, enquanto a fotografia A exibia sobre um rochedo. Isso era fundamental, pois, para descer ao Mundo Material e realizar a salvação, a base em uma rocha é a representação correta, e não a permanência nas nuvens. Terceiro, o halo na pintura concentrava-se ao redor da cabeça, mas o da fotografia espiritual era um grande halo que envolvia todo o corpo — a verdadeira e correta manifestação. Portanto, Deus utilizara o dono da casa para destruir a obra, a fim de que ela fosse refeita em sua forma perfeita. Nós, os discípulos, ficamos consternados com o ato de tamanho desrespeito e temíamos que um castigo divino recaísse sobre o homem. Meishu-Sama, porém, nos ensinou: "De modo algum. Deus usou o senhor Kanetaka para me levar a refazer a pintura. Não haverá castigo; pelo contrário, ele prestou um grande serviço". Imediatamente, Meishu-Sama preparou novos esboços, desta vez baseados fielmente na fotografia espiritual, e concluiu a nova obra em apenas uma semana.</p>
 <p>Essa fotografia espiritual de Kannon (観音) de Mil Braços é, com efeito, uma prova eloquente da magnitude do poder da Deidade. A imagem foi capturada com o uso de um flash de magnésio, em uma fração de segundo. Naquele brevíssimo instante, foi preciso que a luz espiritual, a imagem sagrada de Kannon (観音) e a figura de Meishu-Sama se manifestassem simultaneamente na chapa fotográfica. Tal prodígio só pode ser atribuído ao poder inconcebível de Kanzeon Bosatsu. É um fenômeno que transcende a imaginação, um marco sem precedentes e que jamais se repetirá na história da fotografia espiritual em todo o mundo.</p>
 <p>Dez dias depois, em 21 de outubro, o senhor Toko Otoko retornou. Desta vez, solicitou permissão para tirar mais uma fotografia no aposento do terceiro andar da residência da senhora Kanetaka. Meishu-Sama novamente sentou-se no <em>tokonoma</em> após a remoção do pergaminho. Durante a conversa que se seguiu, Ele pousou as mãos sobre uma escrivaninha, apoiou a cabeça sobre elas e adormeceu por um instante. Percebendo a oportunidade, o senhor Toko rapidamente fotografou aquela cena e retirou-se. Ele capturou a imagem no breve momento em que o sono surpreendeu Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （六） 神成大教会 岡庭真次郎 『地上天国』46号、昭和28(1953)年3月25日発行 明主様には昭和九年五月一日、かねてよりの御望み通りの、東京の中心地麹町区平河町応神堂へ御移転遊ばされた。<br/><br/>岡田式神霊堂本院と堂々たる看板を御掲げなされ、いよいよ大発展の時期となって来たのであります。<br/><br/>私は御命令により早速急設電話の申込をなし、その後鎮座祭をやらせて頂きました。<br/><br/>終って立派な御馳走が出て一同頂戴致し、御手ずから富士山の御額用の立派な画と、やはり御額用の現神(ﾏﾏ)の御書を賜わりました。<br/><br/>そして麹町分所の月並祭がその晩のため明主様のお供をさせていただきました。<br/><br/>終って又応神堂へ御供して参上、色々御話を承り、なお又大森の御邸宅に私が住まわせて頂くことになり「応神堂分院と看板を出せ」との実に有難い御許しを賜わりました。<br/><br/>このことについて私は二月二十日の朝面白い夢を見て、早速明主様に御伺い致したのです。<br/><br/>その夢は岡庭が一度死んで、その外に今一人の岡庭がいて、それが紫の祭服を頂いて棺の中に入ったが死ぬことが出来ない、というのです。<br/><br/>明主様は「このような珍らしい夢を見た時は必ず最初に私に話してから後で一般の人々には発表するように」との御注意を下さいました。<br/><br/>そしてその夢は「岡庭がいよいよ他に一つの官（役目）を頂いて私の御用の一部をやらせて頂く事になるのだ」との御話で誠に有難いことであると思いました。<br/><br/>今日の大森の御屋敷で御用をさせて頂けることになったのも、夢を見てから二カ月と十日で一つの官を戴けたのであります。<br/><br/>そして「一方の死んだのは副守護霊の岡庭が死んだことになるのだ」との御話で、しかも応神堂分院と看板を戴けるなんて実に有難い事でありました。<br/><br/> 昭和九年六月十五日、この日は官幣大社日枝神社の大祭で、明主様も五月一日麹町へ御移転遊ばされたため、同社の氏子と御成りになられましたことでもあり、又一方大切なる御神業のため信者三十六人御供申し上げ、特に御命令により弟岡庭通明が天孫降臨の故事そのまま、猿田彦命と同様に御先導申し上げて御参拝。<br/><br/>明主様御先達にて祝詞を奏上遊ばされました。<br/><br/>これこそ昭和六年六月十五日、明主様が房州日本寺に天照大御神様を御迎え遊ばされましてより、満三年の後、天照大御神様はこの日枝神社に御鎮座坐ましたのであります。<br/><br/>御参拝終って一同は応神堂に御供して御立派な御馳走を戴いたのであります。<br/><br/>このように世人には知らぬ間に、御神業は一歩一歩堅く進展したのです。<br/><br/> 昭和九年九月十五日、この日は大切な意味があり、明主様にはこの日桃太郎として御生まれ遊ばされたので、御神業は一段と進展され極めて目出度いことになったのであります。<br/><br/>この日神様から明主様に千手観音の画像を描くようにとの御神示があられたので、明主様には幅五尺、縦六尺という極大の紙に千手観音の画像を御画きになられるのですが、応神堂では来客も繁く御狭いので到底不可能のために、何とか出来ないものかと御思いになられておられました折に、赤坂田町の金高真城という夫人が以前永の病やその他で非常に御利益を戴かれたため、熱心な信者となられて「自宅に三階を増築し、観音様の御部屋として六畳間が出来上りましたので、明主様に千手観音様の御像御執筆の御部屋として御使い下さいませ」と申出られたので大変御喜びで、早速下絵を御作りになられて、十月五日からいよいよ大千手観音様の雲上蓮華台上の御姿を、御画き初めになられたのであります。<br/><br/>ところが約三分の二位御画きになられた時は、ちょうど昭和九年十月十一日午後二時頃（九年、十月、十一日二時と数が一つずつ上って行っているのも不思議です）東光男という名刺を持った方が応神堂に来られ、明主様に御面会を求められたのです。<br/><br/>明主様はその東光男という姓名を御覧になられて、「御神業に関係のあるような面白い名だ」と興味を覚えられて、早速面会を許されたのです。<br/><br/>すると東氏は「自分はかねてより霊感により、日本に観音力所有者が出るということを、中国道院の本部である五台山にて修業の際知った。<br/><br/>ところが最近自宅より東の方において見当るとの霊感があったため、渋谷から東というと麹町あたりと見当をつけて麹町へ来て『この辺に観音力を備えた人はおりませんか』と知人に問合せたところ、『さあ観音力を備えているかどうか知らんが、観音様の御力で病気を治すお方がある』と教えられて御訪ねした」との話に、明主様は「あなたの尋ねるのは私だ。<br/><br/>私の肉体を通じて観音様がお力を現わされる時が来たのだ」と御話になられますと、東氏は大いに喜ばれて、「それでは一つ御写真を写させて戴きたい」とのことに、「どこで写すか」と御聞きになると、「その床の間のお軸を外して床の間に座って下さい」との事故、早速御軸を外されて床の間に正座されたところを投影されて帰りました。<br/><br/>ちょうどこの時は午後三時半で、麹町区平河町一丁目二番地応神堂の二階九尺の床の間であります。<br/><br/>翌十二日出来上った御写真を持って来たので拝見すると、その写真は明主様の御体の左側の御腹から非常に強烈なる霊光が発射されて天井に当り、右側に靡きたるその間隙の真中に、ちょうど明主様の御頭上に千手観音様の岩上蓮華台上に安置された御姿の写っている大写真であったのです。<br/><br/>畏しとも畏し何とも申しようもなく、我々ばただただ有難い極みでありました。<br/><br/>明主様には以前より「私のお腹の中に観音様が御いでになる」との御言葉でありましたが、今日目前に厳然と実現し、今更ながらでは有りませんが、何共有難く嬉しく手の舞い足の踏むところを知らずと申しても言いつくせません。<br/><br/>今迄悪口たたいた人々に見せてやりたい気持で一杯です。<br/><br/>ところが明主様にはそれまで御描きかけになった千手観音様の御姿を、夜分その家の主人が酒に酔って帰り、千手観音様の御絵をズタズタに破ってしまったのです。<br/><br/>この時明主様は御覚りになられたのです。<br/><br/>今までの御姿は御写真と多分に違った御姿で、第一半裸体であったが、御霊写真は御衣を纏われていられる。<br/><br/>これは印度では年中暑い所故裸もよいが、日本ではやはり御衣を纏わねばなりません。<br/><br/>次に雲の上に乗られた御姿でしたが、これは岩上に坐しますのが本当で、これから現界に御降りになられて御救いに当られる観音様であられるために、雲の上からでは御救いの御業は不適で、下津磐根に御鎮産ましますのが本当なのです。<br/><br/>次に前のは御円光が御頭を主とした円光であったのが、御写真のは御体全体を包含される大円光であって、これこそ本当で実相に叶った円光であったので、このため画き直すように神様はこの家の主人をお使いになり破らせたのでありました。<br/><br/>我々はこの御主人の大不敬に驚き、必ず天罰が当ると思っておりますと、明主様には「いやいやこれは神様が金高さんの御主人を使って私に描き直させるために破らせたので、天罰なんてない。<br/><br/>逆に良いことをしてくれたのだ」と御教え下されたのでありました。<br/><br/>明主様には早速御霊写真に現われた通りの下絵を急遽作られて、一週間で御画き上げになられたのでありました。<br/><br/>この千手観音様の御霊写真こそは、実は観音力のいかに偉大なるものかを如実に現わされたもので、撮影の際はマグネシウムの発光を使われたので、一秒の何分の一かわからんパッとした瞬間になされた霊光と、千手観音様の御聖像と、明主様の御姿とを一瞬時に御写真の面に現わさねばならんことで、これこそ観世音菩薩の不可思議力と申し上げるより外にありません。<br/><br/>誠に想像を超越した、今日までの世界霊写真史上、空前絶後の問題であります。<br/><br/>ところが又十日後の二十一日に東光男氏が来まして、この度は「赤坂田町の金高氏方の三階の御座敷で今一度御写真を撮らしてくれ」と申し出られたので、又御床の御軸を外されて床の間に端座されて写されたのであります。<br/><br/>そして又御話をなされていられる内に、机に御手を置かれて御頭をその上にされて御転寝を遊ばされました。<br/><br/>何思ったか東氏は早速その御姿を写して帰って行きました。<br/><br/> 明主様がお睡気を催されました、ほんのちょっとの間を狙って撮影されたのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

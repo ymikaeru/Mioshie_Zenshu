@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ongyoku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 音曲 自観叢書第5編『自観隨談』P.25、昭和24(1949)年8月30日発行 音曲（おんぎょく）についても少し書いてみよう。<br><br>音曲といえば以前大阪では浄瑠璃といい東京では義太夫という、それが王座を占めていた事は衆知の事で、忘れもしない大正の初め頃彼の有名な豊竹呂昇が大阪から毎月のように来ては、その頃の有楽座の名人会へ出たが彼〔女〕こそ全く名人の名を恥しめないといえよう。<br><br>私は元来義太夫はあまり好きではなかったが呂昇のみはどうしても聴かずにはいられないのでその都度有楽座に聴きに行ったものである。<br><br>実に彼女の美音といい節廻しといい何とも言えない良さで、もちろん艶物（つやもの）が得意であった。<br><br>彼女ほどの名人は恐らく今後も出でないであろう。<br><br>彼女の刺戟によって私も義太夫を習いたくなり某師匠について稽古を始め一ケ年くらい通った事がある。<br><br>それが関東大震災が動機となってやめてしまった。<br><br>それから間もなく彼女は夭折したが洵（まこと）に惜しいものであった。<br><br> その頃東京の寄席などにかかっていた女義（じょぎ）昇菊、昇之助も時々聴きに行った事があった。<br><br>男義（だんぎ）では朝太夫という艶語りがあったが、私は好きで度々聴きに行ったものである。<br><br>関西から伊達太夫、南部太夫が時々東京へ出て来た折二、三度聞いた事がある。<br><br> 近来、筑前琵琶はほとんど廃（すた）れてしまったが以前は仲々人気があった。<br><br>どうも名人が出なくなると寂れるのは何事にも共通しているようだ。<br><br>相撲なども非常に強い双葉山のごときが出ると相撲道が隆盛になるとはよく言われるが全くその通りである。<br><br>大正時代筑前琵琶の名手としては博多の女琵琶師高野旭嵐であった。<br><br>彼女はまず名人に数えらるべきであろう。<br><br>従って、彼女のレコードの売れ高は相当な数に上ったであろう。<br><br>また男では今の映画スター高峰三枝子君の父君である高峰筑風で、独特の節を作り美声とあいまって名声を博したものである。<br><br>その次としては豊田旭穣であった。<br><br>薩摩琵琶では今の錦穣の父君〔ﾏﾏ〕である永田錦心は随分鳴らしたものである。<br><br>しかし私は筑前琵琶の方が好きであった。<br><br> そうして今日の時代としての音曲の司（つかさ）は何といっても長唄であろう。<br><br>長唄も以前は劇のお囃子（はやし）専門であった。<br><br>その頃の名人としては芳村伊十郎であろう。<br><br>彼が広い歌舞伎の場内隅々までも通る力強い美声は今も忘れ難いものがある。<br><br>ところが現在の四代目吉住小三郎師が出て、稀音家（きねや）浄観の絲（いと）とあいまって、劇以外の演奏会形式のものにしたばかりか、研精会を作り長唄をして今日の隆盛ならしめたその功績は蓋（けだ）し斯道（しどう）の恩人と言えよう。<br><br> その他のもので私の記憶に残っているものでは常磐津の林中、清元の延寿大夫がある。<br><br>新内（しんない）は特に私の好きなもので若い頃どちらも盲目で女では若辰、男では紫朝、別に加賀太夫等も名人とまではゆかないが相当聴かれたものである。<br><br>その後ラジオが出来てからは岡本文弥、加賀寿々等も相当良いが何といっても私は御家三亀松の新内が一番好きである。<br><br>彼は新内の名人といっても決して過言ではあるまい。<br><br> 次に音曲ではないが講談落語の事をかくのも無駄ではあるまい。<br><br>私は若い頃どちらも随分聴いたものだが私が好んで聴いたものでは旧（ふる）い所では先代蘆洲、同伯山、同貞吉、松林、伯知、伯円、典山、如燕、邑井一（むらいはじめ）、若燕、燕林等であろう。<br><br>ところがさのみ有名ではなかったが当時坊主頭の南窓という人があったがまず名人に近かった。<br><br>この人の太閤記は天下一品で私は二十日間ブッ通しで聴きに行った事がある。<br><br>また森林黒猿という――これは素人から成った講談師であるが、南窓と同じく名人に近かった。<br><br>ラジオが出来てからの人では二代目伯山、伯鶴、貞山はまず名人に近いといえよう。<br><br>この間死んだ伯龍、ろ山もなかなか巧かった。<br><br>三代目貞山、貞鏡、貞丈等も相当巧いがこれは将来を期待する。<br><br>以上によってみても講談の衰微は実にはなはだしいものでこのまま行ったら将来楽観し難いとさえ危ぶまれるのである。<br><br> 次に落語については古い所では円遊、円生、志ん生、左楽、小勝、小円遊、小三治、円蔵、金語楼、先代小さん、三語楼、つばめ、馬楽等で人情噺としては円朝、円喬、円右等でこの三人は名人に近かった。<br><br>ところが当時怪談噺が得意であった燕枝という落語家があったがこの人の芸は名人の中に入れてもいいと思った。<br><br>そうして今の落語家で是非名人に入れたいと思う人がある。<br><br>それは彼の金語楼である。<br><br>金語楼は今まで聴いた落語家の中第一人者と私は思うが惜しいかな彼は劇団人となったので、彼の名落語は聞く由もない。<br><br>現在ラジオに出現する落語家の中では古い人では柳橋、正蔵、金馬、権太楼、円（まどか）、桃太郎、文治、円馬、右女助等があるが、若手にもなかなか有望なものがある。<br><br>志ん生、歌笑、柳好、円生、痴楽等も将来期待はかけられる。<br><br> その他漫才にも名人はあった。<br><br>死んだミス・ワカナなどはたしかに名人であった。<br><br>漫談家としてはまず大辻司郎を挙げていいであろう。<br><br> （注） 絲（いと）、この場合三味線の事。<br><br> 斯道（しどう）、学問や技芸などで、この道、この分野。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Artes Musicais</h2>
 <p>Permitam-me discorrer brevemente sobre as artes musicais. É de conhecimento geral que, em tempos passados, a arte que em Osaka era conhecida como Joruri (浄瑠璃) e em Tóquio, como Gidayu (義太夫), detinha a primazia. Não me sai da memória que, no início da era Taisho, a célebre Toyotake Roshō vinha de Osaka quase todos os meses para se apresentar nas récitas de mestres do Teatro Yurakuza da época; ela, de fato, em nada desmerecia tal título. Embora eu, a princípio, não nutrisse grande apreço pelo Gidayu, a arte de Roshō era uma exceção à qual eu não podia resistir, e por isso, em cada uma de suas vindas, eu me dirigia ao Yurakuza para ouvi-la. A beleza de sua voz e a maestria de suas modulações melódicas possuíam um encanto indescritível, sendo ela, naturalmente, especialista em peças de caráter romântico. Creio que uma mestra de seu calibre dificilmente surgirá no futuro. Inspirado por ela, também eu desejei aprender Gidayu, e cheguei a frequentar as aulas de um certo mestre por cerca de um ano, mas abandonei a prática por ocasião do Grande Terremoto de Kanto. Pouco tempo depois, ela faleceu prematuramente, o que foi, em verdade, uma perda lastimável.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>A seguir, embora não se tratem de artes musicais, não será de todo inútil escrever sobre o Kodan (講談) e o Rakugo (落語). Em minha juventude, apreciei bastante ambos. Dentre os contadores de histórias de Kodan que eu ouvia com predileção, da velha guarda, posso citar os saudosos Roshū, Hakuzan, Sadakichi, Shōrin, Hakuchi, Hakuun, Tenzan, Joen, Murai Hajime, Jakuun e Enrin. Havia, na época, um artista de cabeça raspada chamado Nansō que, embora não fosse tão famoso, aproximava-se muito do nível de um mestre. Sua performance da Crônica de Taikō era inigualável, e cheguei a assisti-lo por vinte dias consecutivos. Havia também um contador de histórias chamado Shinrin Kokuen — que viera de uma carreira amadora —, cujo talento, assim como o de Nansō, beirava a maestria. Dos artistas da era do rádio, o segundo Hakuzan, Hakutsuru e Teizan podem ser considerados próximos do nível de mestre. Hakuryū e Rozan, falecidos recentemente, também eram bastante hábeis. O terceiro Teizan, Teikyō e Teijō demonstram talento considerável, e depositamos neles nossas esperanças para o futuro. Diante do exposto, o declínio da arte do Kodan revela-se deveras acentuado, a ponto de se temer por seu futuro, caso essa tendência persista.</p>
 <p>Quanto ao Rakugo, da velha guarda recordo-me de Enyū, Enshō, Shinshō, Saraku, Kokatsu, Koenyū, Kosanji, Enzō, Kingorō, o saudoso Kosan, Sangorō, Tsubame e Baraku. No gênero de histórias sobre os sentimentos humanos, destacavam-se Enchō, Enkyō e Enyū, três artistas que se aproximavam da maestria. Havia também, na época, um comediante chamado Enshi, especialista em contos de fantasmas, cuja arte, em minha opinião, merecia um lugar entre os mestres. E, dentre os artistas de hoje, há um a quem eu faria questão de incluir no panteão dos mestres: Kingorō. Considero-o o maior artista de Rakugo que já ouvi, mas, para grande pesar, ele se tornou um homem de teatro e, por essa razão, não temos mais como apreciar suas célebres performances. Dos comediantes que atualmente se apresentam no rádio, entre os veteranos estão Ryūkyō, Shōzō, Kinba, Gontarō, Madoka, Momotarō, Bunji, Enba e Umejo. Entre os mais jovens, também há talentos promissores. Em artistas como Shinshō, Kashō, Ryūkō, Enshō e Chiraku, depositam-se grandes expectativas para o futuro.</p>
 <p>Ademais, também no Manzai (漫才) houve mestres. A falecida Miss Wakana foi, inegavelmente, uma mestra. E entre os artistas de Mandan (漫談), o primeiro nome a ser mencionado é, certamente, o de Ōtsuji Shirō.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 音曲 自観叢書第5編『自観隨談』P.25、昭和24(1949)年8月30日発行 音曲（おんぎょく）についても少し書いてみよう。<br/><br/>音曲といえば以前大阪では浄瑠璃といい東京では義太夫という、それが王座を占めていた事は衆知の事で、忘れもしない大正の初め頃彼の有名な豊竹呂昇が大阪から毎月のように来ては、その頃の有楽座の名人会へ出たが彼〔女〕こそ全く名人の名を恥しめないといえよう。<br/><br/>私は元来義太夫はあまり好きではなかったが呂昇のみはどうしても聴かずにはいられないのでその都度有楽座に聴きに行ったものである。<br/><br/>実に彼女の美音といい節廻しといい何とも言えない良さで、もちろん艶物（つやもの）が得意であった。<br/><br/>彼女ほどの名人は恐らく今後も出でないであろう。<br/><br/>彼女の刺戟によって私も義太夫を習いたくなり某師匠について稽古を始め一ケ年くらい通った事がある。<br/><br/>それが関東大震災が動機となってやめてしまった。<br/><br/>それから間もなく彼女は夭折したが洵（まこと）に惜しいものであった。<br/><br/> その頃東京の寄席などにかかっていた女義（じょぎ）昇菊、昇之助も時々聴きに行った事があった。<br/><br/>男義（だんぎ）では朝太夫という艶語りがあったが、私は好きで度々聴きに行ったものである。<br/><br/>関西から伊達太夫、南部太夫が時々東京へ出て来た折二、三度聞いた事がある。<br/><br/> 近来、筑前琵琶はほとんど廃（すた）れてしまったが以前は仲々人気があった。<br/><br/>どうも名人が出なくなると寂れるのは何事にも共通しているようだ。<br/><br/>相撲なども非常に強い双葉山のごときが出ると相撲道が隆盛になるとはよく言われるが全くその通りである。<br/><br/>大正時代筑前琵琶の名手としては博多の女琵琶師高野旭嵐であった。<br/><br/>彼女はまず名人に数えらるべきであろう。<br/><br/>従って、彼女のレコードの売れ高は相当な数に上ったであろう。<br/><br/>また男では今の映画スター高峰三枝子君の父君である高峰筑風で、独特の節を作り美声とあいまって名声を博したものである。<br/><br/>その次としては豊田旭穣であった。<br/><br/>薩摩琵琶では今の錦穣の父君〔ﾏﾏ〕である永田錦心は随分鳴らしたものである。<br/><br/>しかし私は筑前琵琶の方が好きであった。<br/><br/> そうして今日の時代としての音曲の司（つかさ）は何といっても長唄であろう。<br/><br/>長唄も以前は劇のお囃子（はやし）専門であった。<br/><br/>その頃の名人としては芳村伊十郎であろう。<br/><br/>彼が広い歌舞伎の場内隅々までも通る力強い美声は今も忘れ難いものがある。<br/><br/>ところが現在の四代目吉住小三郎師が出て、稀音家（きねや）浄観の絲（いと）とあいまって、劇以外の演奏会形式のものにしたばかりか、研精会を作り長唄をして今日の隆盛ならしめたその功績は蓋（けだ）し斯道（しどう）の恩人と言えよう。<br/><br/> その他のもので私の記憶に残っているものでは常磐津の林中、清元の延寿大夫がある。<br/><br/>新内（しんない）は特に私の好きなもので若い頃どちらも盲目で女では若辰、男では紫朝、別に加賀太夫等も名人とまではゆかないが相当聴かれたものである。<br/><br/>その後ラジオが出来てからは岡本文弥、加賀寿々等も相当良いが何といっても私は御家三亀松の新内が一番好きである。<br/><br/>彼は新内の名人といっても決して過言ではあるまい。<br/><br/> 次に音曲ではないが講談落語の事をかくのも無駄ではあるまい。<br/><br/>私は若い頃どちらも随分聴いたものだが私が好んで聴いたものでは旧（ふる）い所では先代蘆洲、同伯山、同貞吉、松林、伯知、伯円、典山、如燕、邑井一（むらいはじめ）、若燕、燕林等であろう。<br/><br/>ところがさのみ有名ではなかったが当時坊主頭の南窓という人があったがまず名人に近かった。<br/><br/>この人の太閤記は天下一品で私は二十日間ブッ通しで聴きに行った事がある。<br/><br/>また森林黒猿という――これは素人から成った講談師であるが、南窓と同じく名人に近かった。<br/><br/>ラジオが出来てからの人では二代目伯山、伯鶴、貞山はまず名人に近いといえよう。<br/><br/>この間死んだ伯龍、ろ山もなかなか巧かった。<br/><br/>三代目貞山、貞鏡、貞丈等も相当巧いがこれは将来を期待する。<br/><br/>以上によってみても講談の衰微は実にはなはだしいものでこのまま行ったら将来楽観し難いとさえ危ぶまれるのである。<br/><br/> 次に落語については古い所では円遊、円生、志ん生、左楽、小勝、小円遊、小三治、円蔵、金語楼、先代小さん、三語楼、つばめ、馬楽等で人情噺としては円朝、円喬、円右等でこの三人は名人に近かった。<br/><br/>ところが当時怪談噺が得意であった燕枝という落語家があったがこの人の芸は名人の中に入れてもいいと思った。<br/><br/>そうして今の落語家で是非名人に入れたいと思う人がある。<br/><br/>それは彼の金語楼である。<br/><br/>金語楼は今まで聴いた落語家の中第一人者と私は思うが惜しいかな彼は劇団人となったので、彼の名落語は聞く由もない。<br/><br/>現在ラジオに出現する落語家の中では古い人では柳橋、正蔵、金馬、権太楼、円（まどか）、桃太郎、文治、円馬、右女助等があるが、若手にもなかなか有望なものがある。<br/><br/>志ん生、歌笑、柳好、円生、痴楽等も将来期待はかけられる。<br/><br/> その他漫才にも名人はあった。<br/><br/>死んだミス・ワカナなどはたしかに名人であった。<br/><br/>漫談家としてはまず大辻司郎を挙げていいであろう。<br/><br/> （注） 絲（いと）、この場合三味線の事。<br/><br/> 斯道（しどう）、学問や技芸などで、この道、この分野。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

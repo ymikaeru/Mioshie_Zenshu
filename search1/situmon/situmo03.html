@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>situmo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の業 『光』4号、昭和24(1949)年4月8日発行 乱麻を断つ明快 大先生信徒の質問に答う 大先生には毎日午前十一時より十二時まで一時間、多数信徒に御面会なされるが、その際いかなる疑問難問にても質問せよとの思し召しにて、信徒は質問条項を半紙に書きお答えを願うのである、ずいぶん奇問珍問もあるが、大先生には快刀乱麻を断つごとく、いとも明快に一瀉千里（いっしゃせんり）に片づけらるるのである。<br><br>それについて本年三月七日、七百余人の信徒集合の席場において、左記のごとき質問二十四力条を四十五分間に残らず御解答されたのであるから、実に驚くべきことで、古今東西を通じておそらくこのような例を聞いたことがない。<br><br>参考のためそのときの質問応答全部を記してみよう。<br><br> 問 本年三十七歳の女、十四、五年前夫に先立たれ、ある家へ後妻として嫁ぎました。<br><br>それより頭がたいへん重く時折気持ちが変になります。<br><br>そうして「お山へ帰る」などと申し、浄霊するや頭と胃部が痛み、呼吸が止まりそうに苦しみます。<br><br>先妻の怨みや狐霊のイタズラ、夫の死霊ではないかと思います。<br><br>浄霊方法をお教えください。<br><br> 答 これは夫の霊に狐霊が憑き、二重の憑依と思う。<br><br>これは善言讃詞をせいぜい聞かせ、御讃歌や信仰雑話を読んでやるといい。<br><br>そうすれば霊はだんだん改心して離れることになる。<br><br> 問 甘藷の種薯の植え付け時期をお教えください。<br><br> 答 これは所によってみな異（ちが）う。<br><br>気侯が異うからであるから、その土地の農夫に聞けばよい。<br><br>すべて作物は適期が肝要で私は箱根で枝豆を試作したとき、五月に播いたものはできが悪く、六月に蒔いたものは非常によくできた。<br><br>これでみても適期が肝腎であることが判る。<br><br> 問 無肥料耕作で麦を蒔きましたが、黄色くなりました。<br><br>ただし蒔付けのときアンモニアを少量やり、その後無肥料にいたしました。<br><br> 答 アンモニアのために黄色くなったので、無肥料でほおっておけば青くなって完全にできる。<br><br> 問 昭和二十二年より光明一家になりました。<br><br>ただし九十二歳の祖母さんだけは御守りをいただいておりません。<br><br>この祖母さんは二十年前より聾と盲です。<br><br>二月六日十三歳の曾孫がお詣りに伺いました。<br><br>その夜、夢で観音様にお諭しをいただき、そのときから祖母さんの左乳の下部に黒痣ができました。<br><br>いかなるわけでしょう。<br><br> 答 近親者の霊が浄まれば祖母さんも良くなる。<br><br>一家の者はみんな霊線で繋がっているので、祖母さんが御守りをいただかなくともある程度の御霊徳はある。<br><br>この理によって、一家のうち一人が浄まると、霊線を通じて順次他の者も浄まるのである。<br><br>黒痣は心臓付近にあった毒血が、浄化によって皮膚面へ出たので本当の痣ではない。<br><br> 病気の原因探知 霊的か体的かの判別 問 病気の霊的原因探知法、霊媒によって知ることの可否をお教えください。<br><br> 答 病気の原因が霊的か体的かの判別は難しい。<br><br>これは長い経験によって漸次判るようになる。<br><br>しかし精神病、癲癇、真症小児麻痺はぜんぜん霊的である。<br><br>よく教導師などが思うように治らないと霊的だと言いたがるが、これは謹しむべきで、嘘を言ってはいけない。<br><br>判らなければ判らないと言うべきである。<br><br>昔から「私にはあなたの病気は判らない」と言う医者は名医であると言うが、これは嘘をつかない人格者だからである。<br><br> 問 みろくの御世になっても一年は三百六十五日でしょうか。<br><br> 答 （大先生には大笑される）勿論変わりはしない。<br><br> 問 三月六日地久節（ちきゅうせつ）の意味。<br><br> 答 支那の古書に、天長地久という文字がある。<br><br>そこで天皇の誕生日を天長節と言い皇后のそれを地久節と言ったので、勿論めでたい意味である。<br><br> 問 音痴の原因。<br><br> 答 これは発声機能と頭脳との連絡神経の一部に毒結があり、それに妨害されるからでこれは浄霊によって治る。<br><br> 問 四十三歳の母、結核の夫と死別し現在後妻として他家に嫁いでおりますが、昨春より胸が熱く締めつけられるような苦しみで、昨秋御光りをいただき光明如来様をお祭りし、浄霊をいただいております。<br><br>近ごろだいぶ良くなりましたが、不規則な苦しみあり熱もあり睡眠も不足であり治りましょうか。<br><br> 答 死別した夫の霊がときどき憑依するらしい。<br><br>たびたび祝詞を奏げるようにして浄霊を怠らなければ必ず治る。<br><br> 問 人魂がよく電柱などに当たってその箇所によく蒟蒻（こんにゃく）の柔らかいようなものがついていますが、いかなるわけでありますか。<br><br> 答 神霊でも人霊でも、空間を移動するときは丸くなって行く。<br><br>しかし物に当たって痕跡がつくということはなにかの間違いであろう。<br><br> 問 浦島太郎のお伽噺はいかなる意味か、また玉手箱より煙の出たという解釈。<br><br> 答 木曾の寝覚の床に浦島太郎の持ったという釣竿が祀ってあるのをみても浦島太郎は実在のものであろう。<br><br>これは漁の好きな若者が、沖で難船し、朝鮮に漂着したのである。<br><br>龍宮城というのはそのころの朝鮮の王城であって、王様は須佐嗚尊であった。<br><br>その皇后は乙米姫という御名であった。<br><br>素盞嗚尊は神典にあるごとく、天照大御神の弟神であるから、弟姫をつめて乙姫と唱えられたのである。<br><br>当時夫神は日本に渡来し、出雲朝を打ち樹てたりして不在であったから孤閨（こけい）の淋しさから浦島太郎の眉目秀麗なるに恋慕し寵愛した。<br><br>太郎という名前であったが、後世の作者が浦島という姓をつけたものであろう。<br><br>日本に対し朝鮮は裏になるからである。<br><br>玉手箱は作り事であろう、もし本当なら空箱が残っているはずである。<br><br> 問 眼疾にて医師より白底翳（そこひ）と診断され、通院しているうちに体質からきていると言われ、梅毒の原因ではないかと六〇六号を七本注射しましたが、その結果右眼を失い、一週間後左眼も見えなくなりました。<br><br>一年二カ月浄霊を受けておりますがあまり変化もありません。<br><br>治るでしょうか。<br><br> 答 底翳など眼を多く使う人に多い。<br><br>眼を多く使うと溶解した頭の毒が集溜してくるからである。<br><br> 底翳は眼球の裏で、白底翳は白い膿、青底翳は青い膿、黒底翳は毒血で、いちばん黒底翳が悪性である。<br><br>浄霊は前頭部と眼球を主とし、次は延髄付近、次は肩、腎臓部の順である。<br><br> いままであまり効果がなかったのは眼薬のために固まったためと、浄霊が急所を外れたこと、浄霊者の霊力が弱いことなどである、気長に浄霊をすれば治る。<br><br> 不良児の悩み 親に苦しむ罪があるため 問 不良になった子供の霊的原因およびその解決法。<br><br> 答 不良児のために悩むのは親に苦しまねばならぬ罪があるためで一種の浄化作用でもある。<br><br>故に世のため人のため善徳を積むことによっておのずからが浄まるから相応の理によって不良児も良くなるのである。<br><br>すなわち心配すべき原因が減りまたは消滅するからである。<br><br> 問 御神体（光明如来）の上で寝ては良くないと聞きました。<br><br>ただし真上ではありません。<br><br> 答 これは無論いけない。<br><br>真上でなくも近くはいけない。<br><br>むしろ光明如来様をお祭りしないほうがよい。<br><br>ただし、御神体でない書体ならば差し支えない。<br><br>例えば「光明」の二字ならよろしい。<br><br>また、階上でなくても離れならばお祭りしてもよい。<br><br> 問 姓名の意義またはつけ方について。<br><br> 答 その人の名前の働きによって性質まで違ってくる。<br><br>従って運命にまで影響する。<br><br> 人から名を呼ばれ、自分で名を想うことによって言霊が働くのである。<br><br>いずれ言霊学の本を著すからそれをみれば判る。<br><br>言霊とは言葉の霊で、『聖書』の冒頭に「始めにコトバあり万物これによって造らる」ということがあるが、これは真理で言葉は言霊界に響くと活動が起り、種々の物質まで変化する。<br><br> 世界経済の見透し 問 日本および世界の経済について今後の見透しならびに正しいあり方に閑し御説明願います。<br><br> 答 これは簡単には言えない。<br><br>今日は質問が多いから次の機会に譲る。<br><br>ただ、今後、米ソの関係の動きによって、経済に影響するわけである。<br><br>それは米ソ関係が緩慢になれば、物価は下がり緊迫すれば下がらない。<br><br>それが根本である。<br><br> 問 先日お尋ねいたしました唖娘の家の件、木を伐り取った跡はすでに家が建っており、どの方面に代わりの木を植えたらよろしゅうございますか。<br><br> 答 これはどの方面でもよろしい、伐った箇所のなるたけ近くの植えられる所へ植えればよろしい。<br><br> 問 既設家産にて西廂棟東（せいそうとうとう）は不可なりということが昔より伝えられておりますがいかなる故ですか。<br><br>また西廂のない家は長男があっても家庭にいつかないと言い、それは現実にあるようですが、これは易の関係か、または霊的の関係ですか。<br><br> 答 これはおよそ意味ない。<br><br>たまたま長男がいつかぬことがあったためから言われた迷信であろう。<br><br>強いて言えば、西廂とは、西陽が当たると夏など暑いから廂（ひさし）をつけよ、棟東と言うのは東は朝日はあまり暑くないから廂の要はないという意であろう。<br><br>西洋建築には廂はないが、そういう災いあるを聞かないではないか。<br><br> 霊媒について 問 各地におきまして霊媒研究がさかんに行なわれております。<br><br>人形、ラッパ、蓄音器などを用い、踊らしたり鳴らせたりするそうであります。<br><br>また縄抜けなどもするとか、これはいかなる霊が行ないますか。<br><br> 答 そういうような元祖は亀井三郎という人でこの人は先日私宅へ来た。<br><br>最初立会人（ふつう十人ないし十五人）が霊媒を椅子へ縛りつけ、結び目に紙片をゆわえ封印をする。<br><br>ラッパなど空間へ稲妻型に迅速に動く。<br><br>とうていトリックなどではできない。<br><br>ときどき空間で鳴らす。<br><br> 不思議なのは縄抜けで、これは物質の霊化でふたたび物質に還元するのである。<br><br>右の亀井氏にはバラモンの行者の霊が憑いてやらせるのでこの霊は非常に大きな男で酒好きだそうで、実験後三升くらいは飲むそうで、そのため亀井氏は大酒呑みとなり、近ごろはウィスキー一本を飲まないと酔わないと言っていた。<br><br>霊は明るいと活動ができないので実験は真っ暗な所で種々の器具に夜光液を塗って行なうのである。<br><br>こういうことは一度見てしまえば興味を失い、永続性はない。<br><br> 問 東北地方でよくありますが、浄霊すると立ったまま居睡りしたり、フラフラしたり無意識に笑う人があります。<br><br>お教えください。<br><br> 答 これはおそらく睡眠不足のためであろう。<br><br>私も歩きながら、電車の吊皮にブラ下がりながら、浄霊しながら夢を見ることがよくある。<br><br>これは睡眠が非常に少ないためである。<br><br> 問 私の兄弟は六人あったが世帯をもつと死ぬ。<br><br>現在では私と柿の二人だけです。<br><br>霊的原因をお教えください。<br><br> なお法華教でみてもらいましたら、父が仏壇の上にいた蛇を殺したその祟りだそうです。<br><br>そう言えば兄が死ぬとき「へび、へび」と口走りました。<br><br> 答 これは無論その通りで蛇は青大将であって、これは祖先が執着のため蛇に生まれ、それで仏壇の近くへ寄り経文など聞きたがるのである。<br><br>それに対してはできるだけ祝詞を奏げてやり幽世の大神様に「人間に早く生まれ代わるよう」お願いしてやるとよい。<br><br> 問 昨年三月生まれた子供が障子の目もみることができません。<br><br>昨年から浄霊しております。<br><br>いかなる原因でしょうか。<br><br> 答 前世死の際、変死した霊の再生で、死の際失明したのが、霊界においての浄化不充分のまま生まれたもので、親が信仰を励み、気長に浄霊すれば全部、またはある程度治る。<br><br> 問 シャックリの原因と浄霊法。<br><br> 答 （一）胃の噴門部 （二）横隔膜 （三）延髄部を浄霊すれば治る。<br><br> 問 私は魚鱗鮮〔癬〕（ぎょりんせん）で悩まされておりますが治るでしょうか。<br><br>またなんの霊の憑依でしょうか。<br><br> 答 龍神の転生で世間よくあるが、これは一生治らない。<br><br>龍コケの模様で赤黒紫などの色である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sabedoria que Soluciona o Insolúvel</h2>
 <p>Diariamente, das onze horas ao meio-dia, Meishu-Sama concede uma hora de seu tempo para se encontrar com numerosos fiéis. Nessas ocasiões, por Sua Vontade, é permitido que Lhe seja dirigida qualquer indagação, por mais complexa que pareça. Os fiéis, então, registram suas perguntas em um papel e rogam por uma resposta. Embora surjam questionamentos bastante singulares e até mesmo insólitos, Meishu-Sama os soluciona com notável lucidez, desatando os nós mais complexos com a prontidão de um rio que corre para o mar.</p>
@@ -146,5 +298,48 @@ function toggleLang(lang) {
 <p><strong>Resposta:</strong> Ministre Johrei na cárdia, que é a entrada do estômago; no diafragma; e na região do bulbo. Isso o curará.</p>
 <p><strong>Pergunta:</strong> Sofro de ictiose e gostaria de saber se há cura e qual espírito estaria me obsidiando.</p>
 <p><strong>Resposta:</strong> Trata-se da reencarnação de um Deus-Dragão, um caso relativamente comum no mundo, mas que não tem cura nesta vida. A pele assume um padrão semelhante às escamas de dragão, com tons de vermelho, preto e roxo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 妙智の業 『光』4号、昭和24(1949)年4月8日発行 乱麻を断つ明快 大先生信徒の質問に答う 大先生には毎日午前十一時より十二時まで一時間、多数信徒に御面会なされるが、その際いかなる疑問難問にても質問せよとの思し召しにて、信徒は質問条項を半紙に書きお答えを願うのである、ずいぶん奇問珍問もあるが、大先生には快刀乱麻を断つごとく、いとも明快に一瀉千里（いっしゃせんり）に片づけらるるのである。<br/><br/>それについて本年三月七日、七百余人の信徒集合の席場において、左記のごとき質問二十四力条を四十五分間に残らず御解答されたのであるから、実に驚くべきことで、古今東西を通じておそらくこのような例を聞いたことがない。<br/><br/>参考のためそのときの質問応答全部を記してみよう。<br/><br/> 問 本年三十七歳の女、十四、五年前夫に先立たれ、ある家へ後妻として嫁ぎました。<br/><br/>それより頭がたいへん重く時折気持ちが変になります。<br/><br/>そうして「お山へ帰る」などと申し、浄霊するや頭と胃部が痛み、呼吸が止まりそうに苦しみます。<br/><br/>先妻の怨みや狐霊のイタズラ、夫の死霊ではないかと思います。<br/><br/>浄霊方法をお教えください。<br/><br/> 答 これは夫の霊に狐霊が憑き、二重の憑依と思う。<br/><br/>これは善言讃詞をせいぜい聞かせ、御讃歌や信仰雑話を読んでやるといい。<br/><br/>そうすれば霊はだんだん改心して離れることになる。<br/><br/> 問 甘藷の種薯の植え付け時期をお教えください。<br/><br/> 答 これは所によってみな異（ちが）う。<br/><br/>気侯が異うからであるから、その土地の農夫に聞けばよい。<br/><br/>すべて作物は適期が肝要で私は箱根で枝豆を試作したとき、五月に播いたものはできが悪く、六月に蒔いたものは非常によくできた。<br/><br/>これでみても適期が肝腎であることが判る。<br/><br/> 問 無肥料耕作で麦を蒔きましたが、黄色くなりました。<br/><br/>ただし蒔付けのときアンモニアを少量やり、その後無肥料にいたしました。<br/><br/> 答 アンモニアのために黄色くなったので、無肥料でほおっておけば青くなって完全にできる。<br/><br/> 問 昭和二十二年より光明一家になりました。<br/><br/>ただし九十二歳の祖母さんだけは御守りをいただいておりません。<br/><br/>この祖母さんは二十年前より聾と盲です。<br/><br/>二月六日十三歳の曾孫がお詣りに伺いました。<br/><br/>その夜、夢で観音様にお諭しをいただき、そのときから祖母さんの左乳の下部に黒痣ができました。<br/><br/>いかなるわけでしょう。<br/><br/> 答 近親者の霊が浄まれば祖母さんも良くなる。<br/><br/>一家の者はみんな霊線で繋がっているので、祖母さんが御守りをいただかなくともある程度の御霊徳はある。<br/><br/>この理によって、一家のうち一人が浄まると、霊線を通じて順次他の者も浄まるのである。<br/><br/>黒痣は心臓付近にあった毒血が、浄化によって皮膚面へ出たので本当の痣ではない。<br/><br/> 病気の原因探知 霊的か体的かの判別 問 病気の霊的原因探知法、霊媒によって知ることの可否をお教えください。<br/><br/> 答 病気の原因が霊的か体的かの判別は難しい。<br/><br/>これは長い経験によって漸次判るようになる。<br/><br/>しかし精神病、癲癇、真症小児麻痺はぜんぜん霊的である。<br/><br/>よく教導師などが思うように治らないと霊的だと言いたがるが、これは謹しむべきで、嘘を言ってはいけない。<br/><br/>判らなければ判らないと言うべきである。<br/><br/>昔から「私にはあなたの病気は判らない」と言う医者は名医であると言うが、これは嘘をつかない人格者だからである。<br/><br/> 問 みろくの御世になっても一年は三百六十五日でしょうか。<br/><br/> 答 （大先生には大笑される）勿論変わりはしない。<br/><br/> 問 三月六日地久節（ちきゅうせつ）の意味。<br/><br/> 答 支那の古書に、天長地久という文字がある。<br/><br/>そこで天皇の誕生日を天長節と言い皇后のそれを地久節と言ったので、勿論めでたい意味である。<br/><br/> 問 音痴の原因。<br/><br/> 答 これは発声機能と頭脳との連絡神経の一部に毒結があり、それに妨害されるからでこれは浄霊によって治る。<br/><br/> 問 四十三歳の母、結核の夫と死別し現在後妻として他家に嫁いでおりますが、昨春より胸が熱く締めつけられるような苦しみで、昨秋御光りをいただき光明如来様をお祭りし、浄霊をいただいております。<br/><br/>近ごろだいぶ良くなりましたが、不規則な苦しみあり熱もあり睡眠も不足であり治りましょうか。<br/><br/> 答 死別した夫の霊がときどき憑依するらしい。<br/><br/>たびたび祝詞を奏げるようにして浄霊を怠らなければ必ず治る。<br/><br/> 問 人魂がよく電柱などに当たってその箇所によく蒟蒻（こんにゃく）の柔らかいようなものがついていますが、いかなるわけでありますか。<br/><br/> 答 神霊でも人霊でも、空間を移動するときは丸くなって行く。<br/><br/>しかし物に当たって痕跡がつくということはなにかの間違いであろう。<br/><br/> 問 浦島太郎のお伽噺はいかなる意味か、また玉手箱より煙の出たという解釈。<br/><br/> 答 木曾の寝覚の床に浦島太郎の持ったという釣竿が祀ってあるのをみても浦島太郎は実在のものであろう。<br/><br/>これは漁の好きな若者が、沖で難船し、朝鮮に漂着したのである。<br/><br/>龍宮城というのはそのころの朝鮮の王城であって、王様は須佐嗚尊であった。<br/><br/>その皇后は乙米姫という御名であった。<br/><br/>素盞嗚尊は神典にあるごとく、天照大御神の弟神であるから、弟姫をつめて乙姫と唱えられたのである。<br/><br/>当時夫神は日本に渡来し、出雲朝を打ち樹てたりして不在であったから孤閨（こけい）の淋しさから浦島太郎の眉目秀麗なるに恋慕し寵愛した。<br/><br/>太郎という名前であったが、後世の作者が浦島という姓をつけたものであろう。<br/><br/>日本に対し朝鮮は裏になるからである。<br/><br/>玉手箱は作り事であろう、もし本当なら空箱が残っているはずである。<br/><br/> 問 眼疾にて医師より白底翳（そこひ）と診断され、通院しているうちに体質からきていると言われ、梅毒の原因ではないかと六〇六号を七本注射しましたが、その結果右眼を失い、一週間後左眼も見えなくなりました。<br/><br/>一年二カ月浄霊を受けておりますがあまり変化もありません。<br/><br/>治るでしょうか。<br/><br/> 答 底翳など眼を多く使う人に多い。<br/><br/>眼を多く使うと溶解した頭の毒が集溜してくるからである。<br/><br/> 底翳は眼球の裏で、白底翳は白い膿、青底翳は青い膿、黒底翳は毒血で、いちばん黒底翳が悪性である。<br/><br/>浄霊は前頭部と眼球を主とし、次は延髄付近、次は肩、腎臓部の順である。<br/><br/> いままであまり効果がなかったのは眼薬のために固まったためと、浄霊が急所を外れたこと、浄霊者の霊力が弱いことなどである、気長に浄霊をすれば治る。<br/><br/> 不良児の悩み 親に苦しむ罪があるため 問 不良になった子供の霊的原因およびその解決法。<br/><br/> 答 不良児のために悩むのは親に苦しまねばならぬ罪があるためで一種の浄化作用でもある。<br/><br/>故に世のため人のため善徳を積むことによっておのずからが浄まるから相応の理によって不良児も良くなるのである。<br/><br/>すなわち心配すべき原因が減りまたは消滅するからである。<br/><br/> 問 御神体（光明如来）の上で寝ては良くないと聞きました。<br/><br/>ただし真上ではありません。<br/><br/> 答 これは無論いけない。<br/><br/>真上でなくも近くはいけない。<br/><br/>むしろ光明如来様をお祭りしないほうがよい。<br/><br/>ただし、御神体でない書体ならば差し支えない。<br/><br/>例えば「光明」の二字ならよろしい。<br/><br/>また、階上でなくても離れならばお祭りしてもよい。<br/><br/> 問 姓名の意義またはつけ方について。<br/><br/> 答 その人の名前の働きによって性質まで違ってくる。<br/><br/>従って運命にまで影響する。<br/><br/> 人から名を呼ばれ、自分で名を想うことによって言霊が働くのである。<br/><br/>いずれ言霊学の本を著すからそれをみれば判る。<br/><br/>言霊とは言葉の霊で、『聖書』の冒頭に「始めにコトバあり万物これによって造らる」ということがあるが、これは真理で言葉は言霊界に響くと活動が起り、種々の物質まで変化する。<br/><br/> 世界経済の見透し 問 日本および世界の経済について今後の見透しならびに正しいあり方に閑し御説明願います。<br/><br/> 答 これは簡単には言えない。<br/><br/>今日は質問が多いから次の機会に譲る。<br/><br/>ただ、今後、米ソの関係の動きによって、経済に影響するわけである。<br/><br/>それは米ソ関係が緩慢になれば、物価は下がり緊迫すれば下がらない。<br/><br/>それが根本である。<br/><br/> 問 先日お尋ねいたしました唖娘の家の件、木を伐り取った跡はすでに家が建っており、どの方面に代わりの木を植えたらよろしゅうございますか。<br/><br/> 答 これはどの方面でもよろしい、伐った箇所のなるたけ近くの植えられる所へ植えればよろしい。<br/><br/> 問 既設家産にて西廂棟東（せいそうとうとう）は不可なりということが昔より伝えられておりますがいかなる故ですか。<br/><br/>また西廂のない家は長男があっても家庭にいつかないと言い、それは現実にあるようですが、これは易の関係か、または霊的の関係ですか。<br/><br/> 答 これはおよそ意味ない。<br/><br/>たまたま長男がいつかぬことがあったためから言われた迷信であろう。<br/><br/>強いて言えば、西廂とは、西陽が当たると夏など暑いから廂（ひさし）をつけよ、棟東と言うのは東は朝日はあまり暑くないから廂の要はないという意であろう。<br/><br/>西洋建築には廂はないが、そういう災いあるを聞かないではないか。<br/><br/> 霊媒について 問 各地におきまして霊媒研究がさかんに行なわれております。<br/><br/>人形、ラッパ、蓄音器などを用い、踊らしたり鳴らせたりするそうであります。<br/><br/>また縄抜けなどもするとか、これはいかなる霊が行ないますか。<br/><br/> 答 そういうような元祖は亀井三郎という人でこの人は先日私宅へ来た。<br/><br/>最初立会人（ふつう十人ないし十五人）が霊媒を椅子へ縛りつけ、結び目に紙片をゆわえ封印をする。<br/><br/>ラッパなど空間へ稲妻型に迅速に動く。<br/><br/>とうていトリックなどではできない。<br/><br/>ときどき空間で鳴らす。<br/><br/> 不思議なのは縄抜けで、これは物質の霊化でふたたび物質に還元するのである。<br/><br/>右の亀井氏にはバラモンの行者の霊が憑いてやらせるのでこの霊は非常に大きな男で酒好きだそうで、実験後三升くらいは飲むそうで、そのため亀井氏は大酒呑みとなり、近ごろはウィスキー一本を飲まないと酔わないと言っていた。<br/><br/>霊は明るいと活動ができないので実験は真っ暗な所で種々の器具に夜光液を塗って行なうのである。<br/><br/>こういうことは一度見てしまえば興味を失い、永続性はない。<br/><br/> 問 東北地方でよくありますが、浄霊すると立ったまま居睡りしたり、フラフラしたり無意識に笑う人があります。<br/><br/>お教えください。<br/><br/> 答 これはおそらく睡眠不足のためであろう。<br/><br/>私も歩きながら、電車の吊皮にブラ下がりながら、浄霊しながら夢を見ることがよくある。<br/><br/>これは睡眠が非常に少ないためである。<br/><br/> 問 私の兄弟は六人あったが世帯をもつと死ぬ。<br/><br/>現在では私と柿の二人だけです。<br/><br/>霊的原因をお教えください。<br/><br/> なお法華教でみてもらいましたら、父が仏壇の上にいた蛇を殺したその祟りだそうです。<br/><br/>そう言えば兄が死ぬとき「へび、へび」と口走りました。<br/><br/> 答 これは無論その通りで蛇は青大将であって、これは祖先が執着のため蛇に生まれ、それで仏壇の近くへ寄り経文など聞きたがるのである。<br/><br/>それに対してはできるだけ祝詞を奏げてやり幽世の大神様に「人間に早く生まれ代わるよう」お願いしてやるとよい。<br/><br/> 問 昨年三月生まれた子供が障子の目もみることができません。<br/><br/>昨年から浄霊しております。<br/><br/>いかなる原因でしょうか。<br/><br/> 答 前世死の際、変死した霊の再生で、死の際失明したのが、霊界においての浄化不充分のまま生まれたもので、親が信仰を励み、気長に浄霊すれば全部、またはある程度治る。<br/><br/> 問 シャックリの原因と浄霊法。<br/><br/> 答 （一）胃の噴門部 （二）横隔膜 （三）延髄部を浄霊すれば治る。<br/><br/> 問 私は魚鱗鮮〔癬〕（ぎょりんせん）で悩まされておりますが治るでしょうか。<br/><br/>またなんの霊の憑依でしょうか。<br/><br/> 答 龍神の転生で世間よくあるが、これは一生治らない。<br/><br/>龍コケの模様で赤黒紫などの色である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

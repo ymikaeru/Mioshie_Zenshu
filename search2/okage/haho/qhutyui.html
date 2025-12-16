@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhutyui</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不注意から針をのんで無事救わる 『栄光』164号、昭和27(1952)年7月9日発行 大阪府 神聖中教会 堀 正雄（37） 謹んで有りのまま御報告申し上げます。<br><br> 私は昭和二十六年九月十八日尊きお道に入信させて戴きました一信者でございます。<br><br>続いて妻も入信させて戴きました。<br><br>入信後日浅き私に奇蹟の数々と御利益を戴きまして有難うございます。<br><br>ただ今妻は胸部の大浄化を戴いております故、お道を知らない人々はあれこれと親切に申して下さいますが総てを光明如来様におまかせ申し、一心にお縋り申しております。<br><br> この度昭和二十七年四月十一日正午過ぎ次男弘志（四歳）が不注意から牛乳瓶の中に針を落したのを長男登志夫（十歳）が一緒にのんでしまいました。<br><br>弟のしらせに自分ものんだ事に気が付き、登志夫は泣き出します。<br><br>不思議にも何の苦痛も無く咽喉を通ったのです。<br><br>神様が救って下さる、心配しなくてもよい、と慰めております内心、私の心配は一通りではありませんでした。<br><br>その後何の痛みもなく、翌日登校致し、正午過ぎ帰宅致しました。<br><br>間もなく「父ちゃんお腹が痛い」と申します。<br><br>「虫かな」と申しますので「虫や」と言っているものの心配でたまりませんでした。<br><br>ちょうど一時間過ぎた時、「痛い痛い腹に針が刺さってる。<br><br>早く浄霊して」と泣き出します。<br><br>ああ大変医師に診せようか……そうだ自分は無医薬の救世教の信者だ、何糞、この時ぞと無意識に善言讃詞を奏げて浄霊致しましたところ、有難い事には三分間もせぬ内に楽になり、明主様有難うございますと思わず叫びました。<br><br>ちょうど臍の左より少し下が痛いようです。<br><br>又も痛くなり浄霊致しますと楽になります。<br><br>近所の畑野様に御浄霊御願い致しましたところ「心配しなくとも必ず救って戴けます。<br><br>早速千里丘三哲支部へ御参り、浄霊を受けなさい」と申されました。<br><br>翌日先生宅にお参り致しましたところ、折悪しく先生がお留守でしたが奥様にお話し申し上げ、御浄霊して戴きました。<br><br>浄霊中瞬間でしたが「痛い」と飛び上りました。<br><br>ああ抜けたと思い大光明如来様にお礼申し上げ、帰宅しようと思っていますと又も「痛い痛い」と申し、下腹部を押えて歩きません。<br><br>今度はずっと下腹部が痛いと申します。<br><br>あの瞬間的の痛さこそ昨日より刺さっていた針が動き出したのです。<br><br>何と偉大な御力ではありませんか。<br><br>私は一生懸命浄霊を致しました。<br><br>間もなく歩行出来るようになり、帰宅致し翌日もお参りさせまして聞きますと少しも痛くないと申します。<br><br>これは有難い救って下さる事と安心致しておりますものの、心配はとれません。<br><br>当日学校で痛めばと思い休ませました。<br><br> 私はお参りの帰途田舎に兄がおりましたのでこの出来事を話して置きましたので心配している事と思い実家へ行きますと、父や兄弟一同心配して「神様も結構だが一度医師に診て戴かないともしもの事があれば大へんだ、針をのんでいるのに今まで放って置くなんて……」と異口同音に申します。<br><br>私は世界最高の救世教を信仰している。<br><br>何とか救って下さる一念はあるものの、ではもう一度便を調べた上で、と申して帰宅しました。<br><br>帰れば元気で迎えてくれましてやれ安心。<br><br>「お父ちゃん便が出た調べて」と申します。<br><br>「何、便が出た」いよいよ白か黒か私は恐る恐る調べて見ると見当りません。<br><br>駄目か、なおも隅なく調べたところ何と有難いではありませんか、出た出た大ちゃぼの針が……思わず大光明如来様、明主様有難うございます有難うございますの連続です。<br><br> この時の喜びは筆舌には表わせません。<br><br>登志夫も手を叩いて喜びました。<br><br>ちょうど午後五時過ぎでした。<br><br>嗚呼助かった、病院行が、腹を切るのが。<br><br>その後私は職場に近所の人に針を見せては御神力の偉大さをお話し致しているのでございます。<br><br>今後共微力ながらお道のために尽力させて戴く決心でございます。<br><br> 拙文ながら拝読下され、お道の一端にもなりますれば幸甚と存じます。<br><br> 明主様有難うございました。<br><br> （昭和二十七年六月七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo milagrosamente após engolir uma agulha por descuido (Relato de Graça)</h2>
 <p><strong>Revista Eikou, nº 164, publicada em 9 de julho de 1952</strong>
@@ -109,5 +264,48 @@ function toggleLang(lang) {
 <p>Agradeço a leitura deste meu humilde relato, e sentirei uma felicidade imensa se ele puder, de alguma forma, contribuir para a expansão deste Caminho de Luz.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(7 de junho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不注意から針をのんで無事救わる 『栄光』164号、昭和27(1952)年7月9日発行 大阪府 神聖中教会 堀 正雄（37） 謹んで有りのまま御報告申し上げます。<br/><br/> 私は昭和二十六年九月十八日尊きお道に入信させて戴きました一信者でございます。<br/><br/>続いて妻も入信させて戴きました。<br/><br/>入信後日浅き私に奇蹟の数々と御利益を戴きまして有難うございます。<br/><br/>ただ今妻は胸部の大浄化を戴いております故、お道を知らない人々はあれこれと親切に申して下さいますが総てを光明如来様におまかせ申し、一心にお縋り申しております。<br/><br/> この度昭和二十七年四月十一日正午過ぎ次男弘志（四歳）が不注意から牛乳瓶の中に針を落したのを長男登志夫（十歳）が一緒にのんでしまいました。<br/><br/>弟のしらせに自分ものんだ事に気が付き、登志夫は泣き出します。<br/><br/>不思議にも何の苦痛も無く咽喉を通ったのです。<br/><br/>神様が救って下さる、心配しなくてもよい、と慰めております内心、私の心配は一通りではありませんでした。<br/><br/>その後何の痛みもなく、翌日登校致し、正午過ぎ帰宅致しました。<br/><br/>間もなく「父ちゃんお腹が痛い」と申します。<br/><br/>「虫かな」と申しますので「虫や」と言っているものの心配でたまりませんでした。<br/><br/>ちょうど一時間過ぎた時、「痛い痛い腹に針が刺さってる。<br/><br/>早く浄霊して」と泣き出します。<br/><br/>ああ大変医師に診せようか……そうだ自分は無医薬の救世教の信者だ、何糞、この時ぞと無意識に善言讃詞を奏げて浄霊致しましたところ、有難い事には三分間もせぬ内に楽になり、明主様有難うございますと思わず叫びました。<br/><br/>ちょうど臍の左より少し下が痛いようです。<br/><br/>又も痛くなり浄霊致しますと楽になります。<br/><br/>近所の畑野様に御浄霊御願い致しましたところ「心配しなくとも必ず救って戴けます。<br/><br/>早速千里丘三哲支部へ御参り、浄霊を受けなさい」と申されました。<br/><br/>翌日先生宅にお参り致しましたところ、折悪しく先生がお留守でしたが奥様にお話し申し上げ、御浄霊して戴きました。<br/><br/>浄霊中瞬間でしたが「痛い」と飛び上りました。<br/><br/>ああ抜けたと思い大光明如来様にお礼申し上げ、帰宅しようと思っていますと又も「痛い痛い」と申し、下腹部を押えて歩きません。<br/><br/>今度はずっと下腹部が痛いと申します。<br/><br/>あの瞬間的の痛さこそ昨日より刺さっていた針が動き出したのです。<br/><br/>何と偉大な御力ではありませんか。<br/><br/>私は一生懸命浄霊を致しました。<br/><br/>間もなく歩行出来るようになり、帰宅致し翌日もお参りさせまして聞きますと少しも痛くないと申します。<br/><br/>これは有難い救って下さる事と安心致しておりますものの、心配はとれません。<br/><br/>当日学校で痛めばと思い休ませました。<br/><br/> 私はお参りの帰途田舎に兄がおりましたのでこの出来事を話して置きましたので心配している事と思い実家へ行きますと、父や兄弟一同心配して「神様も結構だが一度医師に診て戴かないともしもの事があれば大へんだ、針をのんでいるのに今まで放って置くなんて……」と異口同音に申します。<br/><br/>私は世界最高の救世教を信仰している。<br/><br/>何とか救って下さる一念はあるものの、ではもう一度便を調べた上で、と申して帰宅しました。<br/><br/>帰れば元気で迎えてくれましてやれ安心。<br/><br/>「お父ちゃん便が出た調べて」と申します。<br/><br/>「何、便が出た」いよいよ白か黒か私は恐る恐る調べて見ると見当りません。<br/><br/>駄目か、なおも隅なく調べたところ何と有難いではありませんか、出た出た大ちゃぼの針が……思わず大光明如来様、明主様有難うございます有難うございますの連続です。<br/><br/> この時の喜びは筆舌には表わせません。<br/><br/>登志夫も手を叩いて喜びました。<br/><br/>ちょうど午後五時過ぎでした。<br/><br/>嗚呼助かった、病院行が、腹を切るのが。<br/><br/>その後私は職場に近所の人に針を見せては御神力の偉大さをお話し致しているのでございます。<br/><br/>今後共微力ながらお道のために尽力させて戴く決心でございます。<br/><br/> 拙文ながら拝読下され、お道の一端にもなりますれば幸甚と存じます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十七年六月七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

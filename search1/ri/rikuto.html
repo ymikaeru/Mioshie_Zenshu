@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rikuto</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 六韜三略の巻 『栄光』119号、昭和26(1951)年8月29日発行 昔から六韜三略（りくとうさんりゃく）の巻という言葉があるが、これには非常に神秘があって、この謎を解く人は今までなかったようである、これを私からいえば、よく絵や彫刻にある観音様の御手に持たれている巻物に当る訳で、これを持経観音の御名で古くから伝えられているが、実は御経ではなく右のごとき神秘貴重なものである、何となれば御経のかいた巻物などは、昔からどこにもあるのでそのように人間の手に持たれるようなものを、観音様とも云われる尊い御方が手にされるはずのない事は判りきった話である、これは全く、仏滅後ミロクの世を御造りになる大経綸の、深い仕組をかかれたものに違いなく、その文字はミロクの神様の御神示をかかれたものであって、これこそ私が現在実行しつつある、多種多様の神業のプログラムで、私が見真実になった時、すでに明（あか）されたものである。<br><br> それについて、まず文字の意味からかいてみるが六踏（支那では六韜とかくが、この意味は六つの兵法という事になっているが、私は特に踏の字を用いたのである）とは六合（りくごう）の意味も含まれているがそれは別として、ここでは分り易く示してみれば、六の文字はいつもいう通り月であり、水であり、五六七（みろく）の真中であって、ちょうど現在の世界、つまり夜の世界で、これを踏んで立つという意味である、三略とは三つの計略ではなく、三つの経綸である。<br><br>すなわち五・六・七、三・六・九、上・中・下、経（たて）・緯（よこ）・伊都能売（いずのめ）という訳である。<br><br> この事について、私は面白い事をかいてみるが、歌舞伎劇中の九代目団十郎の当り狂言であった歌舞伎十八番の中の、菊畑（きくばたけ）一名鬼一法眼（きいちほうげん）三略の巻というのがある、これは有名だから大抵の人は知っているであろうが、まだ見ない人のためにザットかいてみよう、彼の鬼界ケ島へ流された源家の重将俊寛が、島を脱出して窃（ひそ）かに京に上り、身を変じて軍略の指南をしていたところ、相当世に認められるようになったので、平家から招かれ、今でいう参謀格となって仕えていたのである、ところがたまたま牛若丸が虎蔵という偽名を使って奉公に入り込み、軍略を教わりながら豆々しく働いていた、その時牛若丸は一人の智恵内という家来を連れ、智恵内を下男とならせ共に仕えていたが、鬼一法眼に一人の息女があった、名を皆鶴姫といい、どちらも美貌であったからでもあろう、御定まりの恋仲になってしまったのである、そこで牛若丸はかねての熱望していた六踏三略の巻が、法眼の家の土蔵の中に隠されてあるのを知り、皆鶴姫にむかって盗み出すよう頼んだところ、何しろ恋しい男の切なる希望とて、喜んで窃（ひそ）かに土蔵の中から持出して、牛若丸に渡したのである。<br><br> ところがこれには深い意味があったのだ、それは元々鬼一法眼には深い思慮があった事とて、虎蔵の行動を知りながら見て見ぬ振りして、ワザと盗み出さしたのであった、というのは法眼の腹の中は、どこまでも源家再興にあったからである、という訳でこの法眼の深い心持を、団十郎の腹芸的所作（しょさ）でやったのだから、何ともいえない深みのある至芸で今なお私の頭に残っている、劇の内容はそれだけであるが、これを宗教的にみると、仲々神秘が潜んでいるので、それを今かいてみるが、私がいつもいう通り、義経は観音様の化身であったのである、以前私のかいた中に、艮（うしとら）の金神（こんじん）、国常立尊（くにとこたちのみこと）という神様が神代の時御隠退せられ、霊界においては閻魔大王となり、現界においては観世音菩薩と化現され、慈悲を垂れ給い、一切衆生を救われたのである、そういう訳で牛若丸の虎蔵とはすなわち艮で金神様の御名を秘されたものである、そうして鬼一法眼は伊邪那岐（いざなぎの）尊の御役をされたのである、鬼は岐であり、一は神の意味であるからである、これについて以前私は義経に生まれ変ったのだと話した事があるが右の意味にも表われているであろう、従って今日といえども伊邪那岐尊様から随分色々な事に御援けを蒙っているのでこれについての面白い話もあるが、いずれ機を見てかく事とする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Pergaminho do Rikutō Sanryaku</h2>
 <p>A expressão “Pergaminho do Rikutō Sanryaku” é conhecida desde a antiguidade. Contudo, ela encerra um profundo mistério, um enigma que, ao que parece, jamais foi decifrado até hoje. Segundo minha interpretação, corresponde ao pergaminho que a venerável Kannon (観音) segura em Suas mãos nas pinturas e esculturas. Embora essa representação seja conhecida como a de Kannon que segura um sutra, em verdade, não se trata de um sutra, mas de um documento de inestimável valor e profundo mistério. Afinal, pergaminhos com sutras existem em toda parte desde tempos imemoriais; é, portanto, inconcebível que um Ser tão sublime quanto Kannon portasse em Suas mãos algo tão comum. Na realidade, trata-se inequivocamente do registro do profundo Plano Divino para a construção do Mundo de Miroku após a extinção do budismo. Seu texto consiste nas Revelações Divinas do Deus de Miroku e constitui, precisamente, o programa para as múltiplas e variadas Obras Divinas que estou atualmente a executar. Tal programa me foi revelado no momento em que atingi a percepção da Verdade.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>A esse respeito, narrarei algo interessante. No repertório do teatro Kabuki, existe uma peça que foi um grande sucesso do nono Danjūrō, parte das “Dezoito Peças Clássicas do Kabuki”, intitulada Kikubatake (O Campo de Crisântemos), também conhecida como Kiichi Hōgen Sanryaku no Maki (O Pergaminho das Três Estratégias de Kiichi Hōgen). Sendo uma obra famosa, a maioria das pessoas provavelmente a conhece, mas, para aqueles que nunca a viram, farei um breve resumo. Na trama, o proeminente general do clã Genji, Shunkan, exilado na ilha de Kikaigashima, consegue escapar e retorna secretamente a Quioto. Lá, sob nova identidade, torna-se um mestre em estratégia militar, ganhando tal reconhecimento que é convidado pelo clã rival, os Heike, para servir como seu conselheiro-chefe. Ocorre que o jovem Ushiwakamaru, usando o pseudônimo Torazō, infiltra-se como seu servo. Enquanto aprendia táticas militares, trabalhava com afinco. Ushiwakamaru levou consigo um vassalo chamado Chienai, que também se passou por criado. Ora, Kiichi Hōgen tinha uma filha de notável beleza, a princesa Minazuru, e, como era de se esperar, ela e Ushiwakamaru se apaixonaram. Ushiwakamaru, então, descobre que o tão almejado Pergaminho do Rikutō Sanryaku está guardado no depósito da casa de Hōgen. Ele roga à princesa que o furte para ele. Impelida pelo amor que sentia pelo jovem, ela atende ao seu ardente desejo, retira secretamente o pergaminho do depósito e o entrega a Ushiwakamaru.</p>
 <p>Contudo, por trás desse ato havia um profundo significado. Kiichi Hōgen, homem de grande sagacidade, sempre soube das intenções de Torazō e, fingindo ignorância, permitiu deliberadamente que o roubo acontecesse. Isso porque, em seu íntimo, seu verdadeiro propósito era a restauração do clã Genji. A maneira como Danjūrō expressava essa profunda intenção de Hōgen por meio de sua atuação sutil e internalizada — o que se chama de <em>hara-gei</em> — era uma arte de uma profundidade indizível, que permanece viva em minha memória até hoje. O enredo da peça se resume a isso.</p>
 <p>Todavia, ao analisarmos a peça sob uma perspectiva religiosa, descobrimos que ela oculta um notável simbolismo místico, o qual passarei a desvendar. Como sempre afirmo, Yoshitsune era uma manifestação de Kannon (観音). Em um ensinamento anterior, expliquei que o Deus Ushitora no Konjin (艮の金神), Kunitokotachi no Mikoto (国常立尊), retirou-se na era dos deuses. No Mundo Espiritual, Ele tornou-se o Grande Rei Enma e, no Mundo Material, manifestou-se como o Bodhisattva Kanzeon, derramando Sua compaixão para salvar todos os seres vivos. Por essa razão, o nome Torazō, adotado por Ushiwakamaru, é uma referência velada a Ushitora (艮), ocultando assim o nome do Deus Konjin. Kiichi Hōgen, por sua vez, representava o papel da divindade Izanagi no Mikoto (伊邪那岐尊). Isso se deduz de seu nome: o ideograma <em>ki</em> (鬼) corresponde a <em>gi/ki</em> (岐), e <em>ichi</em> (一) significa “deus”. A esse respeito, já mencionei em outra ocasião que fui uma reencarnação de Yoshitsune, e o simbolismo aqui exposto corrobora essa afirmação. Consequentemente, até os dias de hoje, recebo de Izanagi no Mikoto (伊邪那岐尊) auxílio em inúmeras questões. Tenho histórias fascinantes a esse respeito, mas as deixarei para uma oportunidade futura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 六韜三略の巻 『栄光』119号、昭和26(1951)年8月29日発行 昔から六韜三略（りくとうさんりゃく）の巻という言葉があるが、これには非常に神秘があって、この謎を解く人は今までなかったようである、これを私からいえば、よく絵や彫刻にある観音様の御手に持たれている巻物に当る訳で、これを持経観音の御名で古くから伝えられているが、実は御経ではなく右のごとき神秘貴重なものである、何となれば御経のかいた巻物などは、昔からどこにもあるのでそのように人間の手に持たれるようなものを、観音様とも云われる尊い御方が手にされるはずのない事は判りきった話である、これは全く、仏滅後ミロクの世を御造りになる大経綸の、深い仕組をかかれたものに違いなく、その文字はミロクの神様の御神示をかかれたものであって、これこそ私が現在実行しつつある、多種多様の神業のプログラムで、私が見真実になった時、すでに明（あか）されたものである。<br/><br/> それについて、まず文字の意味からかいてみるが六踏（支那では六韜とかくが、この意味は六つの兵法という事になっているが、私は特に踏の字を用いたのである）とは六合（りくごう）の意味も含まれているがそれは別として、ここでは分り易く示してみれば、六の文字はいつもいう通り月であり、水であり、五六七（みろく）の真中であって、ちょうど現在の世界、つまり夜の世界で、これを踏んで立つという意味である、三略とは三つの計略ではなく、三つの経綸である。<br/><br/>すなわち五・六・七、三・六・九、上・中・下、経（たて）・緯（よこ）・伊都能売（いずのめ）という訳である。<br/><br/> この事について、私は面白い事をかいてみるが、歌舞伎劇中の九代目団十郎の当り狂言であった歌舞伎十八番の中の、菊畑（きくばたけ）一名鬼一法眼（きいちほうげん）三略の巻というのがある、これは有名だから大抵の人は知っているであろうが、まだ見ない人のためにザットかいてみよう、彼の鬼界ケ島へ流された源家の重将俊寛が、島を脱出して窃（ひそ）かに京に上り、身を変じて軍略の指南をしていたところ、相当世に認められるようになったので、平家から招かれ、今でいう参謀格となって仕えていたのである、ところがたまたま牛若丸が虎蔵という偽名を使って奉公に入り込み、軍略を教わりながら豆々しく働いていた、その時牛若丸は一人の智恵内という家来を連れ、智恵内を下男とならせ共に仕えていたが、鬼一法眼に一人の息女があった、名を皆鶴姫といい、どちらも美貌であったからでもあろう、御定まりの恋仲になってしまったのである、そこで牛若丸はかねての熱望していた六踏三略の巻が、法眼の家の土蔵の中に隠されてあるのを知り、皆鶴姫にむかって盗み出すよう頼んだところ、何しろ恋しい男の切なる希望とて、喜んで窃（ひそ）かに土蔵の中から持出して、牛若丸に渡したのである。<br/><br/> ところがこれには深い意味があったのだ、それは元々鬼一法眼には深い思慮があった事とて、虎蔵の行動を知りながら見て見ぬ振りして、ワザと盗み出さしたのであった、というのは法眼の腹の中は、どこまでも源家再興にあったからである、という訳でこの法眼の深い心持を、団十郎の腹芸的所作（しょさ）でやったのだから、何ともいえない深みのある至芸で今なお私の頭に残っている、劇の内容はそれだけであるが、これを宗教的にみると、仲々神秘が潜んでいるので、それを今かいてみるが、私がいつもいう通り、義経は観音様の化身であったのである、以前私のかいた中に、艮（うしとら）の金神（こんじん）、国常立尊（くにとこたちのみこと）という神様が神代の時御隠退せられ、霊界においては閻魔大王となり、現界においては観世音菩薩と化現され、慈悲を垂れ給い、一切衆生を救われたのである、そういう訳で牛若丸の虎蔵とはすなわち艮で金神様の御名を秘されたものである、そうして鬼一法眼は伊邪那岐（いざなぎの）尊の御役をされたのである、鬼は岐であり、一は神の意味であるからである、これについて以前私は義経に生まれ変ったのだと話した事があるが右の意味にも表われているであろう、従って今日といえども伊邪那岐尊様から随分色々な事に御援けを蒙っているのでこれについての面白い話もあるが、いずれ機を見てかく事とする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

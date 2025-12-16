@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jibi1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 耳鼻咽喉疾患 『天国の福音』昭和22(1947)年2月5日発行 耳病としては中耳炎、耳鳴、耳垂、聾耳等であり、中耳炎は既説したから省くが、耳鳴は医学上原因不明で治療の方法は無いとされている。<br><br>真因としてはさきに説いたごとく、内耳近接部の頭脳、こめかみ部、延髄部、耳下腺等に溜結せる毒素の緩慢な浄化による溶解のためのその響きである。<br><br>そうして最も多いのは、内耳に近接せる耳下腺末端部の毒結である。<br><br> 耳垂は淋巴腺部の毒結が溶解、耳下腺を通じて排泄せらるるのであるから、放任しておけば自然に膿出し全治するのである。<br><br>しかるに医療を受ける場合、薬液にて洗滌するから、薬毒が粘膜から浸潤し膿となって排泄さるるが故に、同一の事を繰返す場合、三年も五年も病院通いしても治らず懊悩（おうのう）している患者は世間少なくないのである。<br><br>従って右のごとき場合医療をやめて放任しておけば漸次恢復に向うのである。<br><br> 聾耳は先天的と後天的とあり、また体的と霊的との区別がある。<br><br>霊的は後説するから体的を説いてみる。<br><br>これは毒素が耳下腺から内耳へかけ固結し、聴神経を抑圧無力化するためであって、これは本医術によれば治癒しやすいのである。<br><br>ここに注意すべきは、耳痛に対しＯ氏管通風をよく行うが、これは非常に危険である。<br><br>この方法で軽微の聾耳が重症または全聾になった例も往々あるのである。<br><br> 次に鼻病としては蓄膿、肥硬〔厚〕性鼻炎、鼻声、無嗅覚等あるが、原因はいずれも同一であって鼻の両側及び後頭部、特に延髄付近、前頭部より前額部にかけての溜結毒素の浄化である。<br><br>蓄膿は鼻の両側における毒素が原因で常に鼻孔から鼻汁となって排泄せらるるのである。<br><br>そうして鼻側の皮下にある、溜結毒素の多少を知るにはちょっと指圧すれば痛みによって判るが、これも耳垂の場合と等しく放任によって全治する。<br><br>医療は薬液洗滌を行うため、悪化または慢性となるのである。<br><br>肥硬性鼻炎は鼻汁中の毒素が粘膜を刺戟しカタルを起すためであり、鼻孔に小腫物、痛み、痒み、涸（かわ）き等を覚えるのは、矢張り鼻汁中の毒素の刺戟によるのである。<br><br>鼻茸は膿の固結したもので腫物の根のごときものである。<br><br>医療は蓄膿も鼻茸も手術除去を行うが、これは一旦治癒しても必ず再発するもので、ついに手術中毒となる場合が相当ある。<br><br>特に注意すべきは蓄膿手術失敗のため、生命を失う事さえたまたまあるのである。<br><br>しかもこの場合患者は激烈なる苦痛に堪えかね狂乱の極暴れまわって死ぬのであるから恐るべきである。<br><br> 無嗅覚の原因は、鼻の尖端に毒素溜結し、嗅覚神経を麻痺させる場合と、後頭部下辺に毒素溜結のためとである。<br><br>そうして慢性と急性とあり、前者においては自然的緩慢なる毒素溜結であり、後者にあっては麻酔剤使用または瓦斯（ガス）中毒等によるもので急性は簡単に治癒するが慢性は長時日を要するのである。<br><br> 鼻孔閉塞に対してコカイン吸入を行うが、これは慎まねばならない。<br><br>何となれば一時は爽快を覚えるが癖となり、ついに中毒的となるもので、これが長年月に及ぶ時、頭脳に支障を来し、はなはだしきは死の原因となる事さえある。<br><br> 次に咽喉疾患であるが、普通は感冒に伴うもので、これは簡単に治癒するが、恐るべきは喉頭結核である。<br><br>これは最初淋巴腺付近に溜結せる毒素の浄化であるが、医療はこれを極力停止せしめんとして種々の方法を行うため、病毒はついに内部に移行する事となる。<br><br>その結果発声機能を犯し、声嗄れやまたは咽喉を犯し、食物嚥下に支障を来す事になる。<br><br>そうして漸次飲食困難となり、末期には水さえ通らなくなり死に到るのである。<br><br>また医療は手術を行うが、これも不可であって左の一例はそれをよく物語っている。<br><br>四十歳位の男子、最初淋巴腺部に固結が出来、発熱腫脹したので病院に入り手術を受けたところ、まだ疵（きず）が治癒しないうち隣接部へ腫脹が出来、また手術という具合に繰返すうち、今度は反対側へ出来初めたのでまた手術また腫脹という訳で、漸次衰弱ついに死亡したのである。<br><br>これはもちろん手術のためであって、これについて心得おくべき事は、毒結が腫脹の場合、手術または穿孔等によって、排膿を行う時は毒素集溜作用は停止さるるのである。<br><br>従って右の患者の場合、集溜作用を妨害せられた毒素は止むを得ず、隣接部または内部へ排泄口を求めんとして腫脹する。<br><br>この理によっていかなる腫物といえども決して人為的に穿孔または切開し、排膿を行う事は慎しまねばならない。<br><br>腫物がいかに大となるも自然に皮膚が破れて排膿するまで待つべきである。<br><br>しかも実験上手術によるよりも自然排膿の方が、治癒日数も何分の一に短縮されなんらの危険なく痕跡も残さないのである。<br><br>しかるに手術は右と反対で、この患者のごときは、なんら生命に危険なき症状であるに係わらず誤れる医療のために、莫大なる費用と、長時日の苦痛の結果、ついに貴重なる生命をまで犠牲に供した事は、医学の罪過たるもの看過し難いものがある。<br><br> （注） Ｏ(欧)氏管通風、16世紀イタリアの解剖学者B. Eustachi(o) が発見した耳の中と鼻咽腔を繋ぐ管。<br><br>エウスタキオ管（欧氏管，耳管）という。<br><br>このエウスタキオ管がつまると、耳管内の圧力が高まり、難聴や耳の痛みにつながるため、手押しポンプで鼻から空気を送り込み無理やり開通させる方法。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Afecções do Ouvido, Nariz e Garganta</h2>
 <p>Dentre as enfermidades do ouvido, destacam-se a otite média, o zumbido, a secreção e a surdez. Como já abordei a otite média em outra ocasião, passo a discorrer sobre as demais. A medicina considera o zumbido uma condição de causa desconhecida e, consequentemente, sem tratamento eficaz. Sua verdadeira causa, no entanto, conforme explanei anteriormente, reside no som gerado pela dissolução de toxinas, decorrente de um lento processo de purificação. Essas toxinas se encontram solidificadas em áreas próximas ao ouvido interno, como o cérebro, as têmporas, o bulbo raquidiano e as glândulas parótidas. A ocorrência mais frequente é, de fato, a solidificação de toxinas na extremidade da glândula parótida, adjacente ao ouvido interno.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>A perda do olfato pode ter duas origens: o acúmulo de toxinas na ponta do nariz, que paralisa o nervo olfativo, ou a solidificação de toxinas na parte inferior da nuca. Distingue-se entre a forma crônica e a aguda. A primeira decorre de um acúmulo lento e natural de toxinas; a segunda, por sua vez, é resultado do uso de anestésicos ou de intoxicação por gás. Enquanto a forma aguda é de fácil cura, a crônica exige um tratamento prolongado. No que tange à obstrução nasal, é comum o uso de inaladores de cocaína, prática que deve ser evitada a todo custo. Embora proporcione um alívio momentâneo, seu uso se torna um hábito e, por fim, uma dependência. Com o passar dos anos, essa prática pode causar distúrbios cerebrais e, em casos extremos, levar à morte.</p>
 <p>Abordando agora as afecções da garganta, as mais comuns são aquelas associadas a resfriados, que se curam com facilidade. Contudo, a mais temível é a tuberculose laríngea. Sua origem está na purificação de toxinas acumuladas próximo aos gânglios linfáticos. A medicina, porém, em sua tentativa obstinada de interromper esse processo por todos os meios, acaba forçando as toxinas a se moverem para o interior do organismo. Como resultado, a função vocal é comprometida, causando rouquidão, ou a própria garganta é afetada, dificultando a deglutição de alimentos. Progressivamente, alimentar-se e beber tornam-se tarefas árduas até que, no estágio final, nem mesmo a água consegue passar, culminando na morte do paciente.</p>
 <p>A medicina também recorre à cirurgia, o que é igualmente um erro, como bem ilustra o caso a seguir. Um homem de aproximadamente quarenta anos desenvolveu uma massa endurecida e um inchaço febril na região dos gânglios linfáticos. Internado em um hospital, foi submetido a uma cirurgia. Contudo, antes mesmo que a ferida cicatrizasse, um novo inchaço surgiu em uma área adjacente, exigindo outra operação. O ciclo de cirurgias e novos inchaços se repetiu até que a inflamação começou a se manifestar no lado oposto do corpo. Submetido a mais intervenções, o homem foi definhando gradualmente e, por fim, faleceu. A causa de sua morte foi, sem dúvida, a sucessão de cirurgias. O princípio que se deve compreender aqui é que, quando um acúmulo de toxinas se manifesta como inchaço, a drenagem do pus por meios artificiais, como cirurgias ou perfurações, interrompe o processo natural de concentração dessas toxinas. No caso do paciente mencionado, as toxinas, impedidas de se concentrarem em um único ponto, buscaram forçosamente outras vias de saída, deslocando-se para áreas vizinhas ou para o interior do corpo e gerando novos inchaços. Em virtude desse princípio, deve-se evitar a todo custo perfurar ou fazer incisões em qualquer tipo de abscesso para drenar o pus artificialmente. Por maior que o inchaço se torne, o correto é aguardar que a pele se rompa por si mesma e o pus seja expelido naturalmente. A experiência demonstra que a drenagem natural não apenas reduz o tempo de recuperação a uma fração do necessário após uma cirurgia, como também transcorre sem riscos e não deixa cicatrizes. A cirurgia, ao contrário, representa o oposto. O caso desse paciente, que tinha um quadro sem risco de vida, é um exemplo contundente de como um tratamento equivocado o levou a arcar com despesas vultosas e a suportar um longo sofrimento para, ao final, ter sua preciosa vida sacrificada. Trata-se de uma grave transgressão da medicina, algo que não podemos ignorar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 耳鼻咽喉疾患 『天国の福音』昭和22(1947)年2月5日発行 耳病としては中耳炎、耳鳴、耳垂、聾耳等であり、中耳炎は既説したから省くが、耳鳴は医学上原因不明で治療の方法は無いとされている。<br/><br/>真因としてはさきに説いたごとく、内耳近接部の頭脳、こめかみ部、延髄部、耳下腺等に溜結せる毒素の緩慢な浄化による溶解のためのその響きである。<br/><br/>そうして最も多いのは、内耳に近接せる耳下腺末端部の毒結である。<br/><br/> 耳垂は淋巴腺部の毒結が溶解、耳下腺を通じて排泄せらるるのであるから、放任しておけば自然に膿出し全治するのである。<br/><br/>しかるに医療を受ける場合、薬液にて洗滌するから、薬毒が粘膜から浸潤し膿となって排泄さるるが故に、同一の事を繰返す場合、三年も五年も病院通いしても治らず懊悩（おうのう）している患者は世間少なくないのである。<br/><br/>従って右のごとき場合医療をやめて放任しておけば漸次恢復に向うのである。<br/><br/> 聾耳は先天的と後天的とあり、また体的と霊的との区別がある。<br/><br/>霊的は後説するから体的を説いてみる。<br/><br/>これは毒素が耳下腺から内耳へかけ固結し、聴神経を抑圧無力化するためであって、これは本医術によれば治癒しやすいのである。<br/><br/>ここに注意すべきは、耳痛に対しＯ氏管通風をよく行うが、これは非常に危険である。<br/><br/>この方法で軽微の聾耳が重症または全聾になった例も往々あるのである。<br/><br/> 次に鼻病としては蓄膿、肥硬〔厚〕性鼻炎、鼻声、無嗅覚等あるが、原因はいずれも同一であって鼻の両側及び後頭部、特に延髄付近、前頭部より前額部にかけての溜結毒素の浄化である。<br/><br/>蓄膿は鼻の両側における毒素が原因で常に鼻孔から鼻汁となって排泄せらるるのである。<br/><br/>そうして鼻側の皮下にある、溜結毒素の多少を知るにはちょっと指圧すれば痛みによって判るが、これも耳垂の場合と等しく放任によって全治する。<br/><br/>医療は薬液洗滌を行うため、悪化または慢性となるのである。<br/><br/>肥硬性鼻炎は鼻汁中の毒素が粘膜を刺戟しカタルを起すためであり、鼻孔に小腫物、痛み、痒み、涸（かわ）き等を覚えるのは、矢張り鼻汁中の毒素の刺戟によるのである。<br/><br/>鼻茸は膿の固結したもので腫物の根のごときものである。<br/><br/>医療は蓄膿も鼻茸も手術除去を行うが、これは一旦治癒しても必ず再発するもので、ついに手術中毒となる場合が相当ある。<br/><br/>特に注意すべきは蓄膿手術失敗のため、生命を失う事さえたまたまあるのである。<br/><br/>しかもこの場合患者は激烈なる苦痛に堪えかね狂乱の極暴れまわって死ぬのであるから恐るべきである。<br/><br/> 無嗅覚の原因は、鼻の尖端に毒素溜結し、嗅覚神経を麻痺させる場合と、後頭部下辺に毒素溜結のためとである。<br/><br/>そうして慢性と急性とあり、前者においては自然的緩慢なる毒素溜結であり、後者にあっては麻酔剤使用または瓦斯（ガス）中毒等によるもので急性は簡単に治癒するが慢性は長時日を要するのである。<br/><br/> 鼻孔閉塞に対してコカイン吸入を行うが、これは慎まねばならない。<br/><br/>何となれば一時は爽快を覚えるが癖となり、ついに中毒的となるもので、これが長年月に及ぶ時、頭脳に支障を来し、はなはだしきは死の原因となる事さえある。<br/><br/> 次に咽喉疾患であるが、普通は感冒に伴うもので、これは簡単に治癒するが、恐るべきは喉頭結核である。<br/><br/>これは最初淋巴腺付近に溜結せる毒素の浄化であるが、医療はこれを極力停止せしめんとして種々の方法を行うため、病毒はついに内部に移行する事となる。<br/><br/>その結果発声機能を犯し、声嗄れやまたは咽喉を犯し、食物嚥下に支障を来す事になる。<br/><br/>そうして漸次飲食困難となり、末期には水さえ通らなくなり死に到るのである。<br/><br/>また医療は手術を行うが、これも不可であって左の一例はそれをよく物語っている。<br/><br/>四十歳位の男子、最初淋巴腺部に固結が出来、発熱腫脹したので病院に入り手術を受けたところ、まだ疵（きず）が治癒しないうち隣接部へ腫脹が出来、また手術という具合に繰返すうち、今度は反対側へ出来初めたのでまた手術また腫脹という訳で、漸次衰弱ついに死亡したのである。<br/><br/>これはもちろん手術のためであって、これについて心得おくべき事は、毒結が腫脹の場合、手術または穿孔等によって、排膿を行う時は毒素集溜作用は停止さるるのである。<br/><br/>従って右の患者の場合、集溜作用を妨害せられた毒素は止むを得ず、隣接部または内部へ排泄口を求めんとして腫脹する。<br/><br/>この理によっていかなる腫物といえども決して人為的に穿孔または切開し、排膿を行う事は慎しまねばならない。<br/><br/>腫物がいかに大となるも自然に皮膚が破れて排膿するまで待つべきである。<br/><br/>しかも実験上手術によるよりも自然排膿の方が、治癒日数も何分の一に短縮されなんらの危険なく痕跡も残さないのである。<br/><br/>しかるに手術は右と反対で、この患者のごときは、なんら生命に危険なき症状であるに係わらず誤れる医療のために、莫大なる費用と、長時日の苦痛の結果、ついに貴重なる生命をまで犠牲に供した事は、医学の罪過たるもの看過し難いものがある。<br/><br/> （注） Ｏ(欧)氏管通風、16世紀イタリアの解剖学者B. Eustachi(o) が発見した耳の中と鼻咽腔を繋ぐ管。<br/><br/>エウスタキオ管（欧氏管，耳管）という。<br/><br/>このエウスタキオ管がつまると、耳管内の圧力が高まり、難聴や耳の痛みにつながるため、手押しポンプで鼻から空気を送り込み無理やり開通させる方法。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

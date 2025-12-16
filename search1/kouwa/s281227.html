@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281227</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月27日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十七日 いよいよ今年ももうおしまいですが、ちょうど去年の暮れの二十四日に裁判が片づいて、それから明るくなったわけで、今年に入ってからハワイ、アメリカにクワを入れたわけです。<br><br>それに箱根の地上天国も完成したし、熱海のメシヤ会館もとにかく形だけはできましたし、今年は発展の基がだいぶできたような形になってます。<br><br>割合に収穫のあった年とでも言えるわけです。<br><br>ちょうど、散花結実とすれば、実が少し大きくなったわけです。<br><br>来年はこれがまた育ちますから……。<br><br>しかも秋には会館と展望台の上の水晶殿ができあがりますから、また大いに世間の注目を引くとともに、教団も発展するわけです。<br><br>いつも言うとおり、箱根は霊で熱海は体ですから、熱海ができあがるということは体的に大きくなるというわけです。<br><br>御神業というものは、すべて型でやってゆくのですから本元ができ、また形が大きくなるということは、全体的にそうなるわけです。<br><br>熱海は体的ですから、会館ができるということは、ちょうどやはり建築のような具合に、御神業の方もしっかりした様相になって、大きさも目立つように大きくなるわけです。<br><br>こういうわけになるのです。<br><br>支部などでも、建物を少し拡張すると、それだけ教線が拡がるものです。<br><br>だから形も、支部の建築などを相談されることがよくありますが、つまり家相は、四角なら四角のものでも、ちょっとでも凹むものがあるといけないのです。<br><br>凹む形がいけないのです。<br><br>その反対に少しでも出る形があると拡がるわけです。<br><br>家相や土地というものも、運命に非常に影響するのです。<br><br>だからして、やっぱり理屈に合うということもそういうわけで、すべてが順序とか形とか理屈に合うということが、小さいような問題でいて、あんがい結果は大きいのです。<br><br> メシヤ会館をいま建築している椎野という人に、事務所の酒見という人が聞いたことでおもしろいことがあるので読ませます。<br><br> （対談「メシヤ会館現場責任者椎野氏を訪ねて」） 【栄光 二四二号】 これについて思い出すのは法隆寺の五重の塔ですが、この寸法やそういうものがよくできているので専門家の方の驚異になっているのです。<br><br>私は去年の春に京都に行ったときに、五重の塔を一番よく見ましたが、まったくよくでているのです。<br><br>その高さといい、形といい、どこからどこまで申し分ないのです。<br><br>これは聖徳太子が造ったのですが、聖徳太子は私と同じように、ちょっと目で見計らって“こうしろ、ああしろ”と指図したに違いないのです。<br><br>その時には専門的の機械やそういうものがないのですから、目分量でやったに違いないです。<br><br>だから私のやるやり方とだいたい同じわけです。<br><br>というのは、聖徳太子というのは私が生まれたわけなのです。<br><br>それで、千二百年前に生まれて仏教を弘めるということについて、まず一番肝腎なのは、御説教やそういうことでは手緩（てぬる）いので、大衆を教化するということにはまだるっこいのですから、それにはああいった建物とかいろいろな設備で、まず注目を引いて、そこに見物に行くとかお参りに行くということで、知らず知らず仏教なら仏教に心が向くようにする、それが一番効果があるわけです。<br><br>お釈迦さんもそのやり口をしたわけです。<br><br>七堂伽藍などを造ったのはそういうわけです。<br><br>ところがお釈迦さんも聖徳太子も、出が皇太子ですから、すべてにいろいろな便宜があるわけです。<br><br>勿論金もそうですし、それだけの格がありますから……。<br><br>ところが私は素寒貧（すかんぴん）の一平民ですから、その点においては誇ってもよいと思ってます。<br><br>そこで聖徳太子もだいたいお釈迦さんからヒントを得て、ああいうものをやったに違いないです。<br><br>ですから法隆寺というものは七堂伽藍の形なのです。<br><br>そうして、夢殿に救世観音というのがありますが、これは一年に一度開くということになってますが、あそこの位置が聖徳太子の住まわれた居間に当たるのだそうです。<br><br>それを記念に建てたわけです。<br><br>それで「救世観音」というのは「救世（きゅうせい）観音」と書くのですから、やっばり「メシヤ観音」というわけです。<br><br>だからして私が今やりつつあることは、聖徳太子が世界的になったようなものです。<br><br>救世教を開くについて、まず地上天国を造るが、今のところは日本です。<br><br>この間も言ったとおり、西が京都、奈良であって、これは根本は仏教的のもので、仏教で言えば極楽浄土の形を造ったわけです。<br><br>今度は私は、東の箱根、熱海という、ごく良い位置を選定して造ったのですから、西の極楽浄土に対して東の地上天国ということになったわけです。<br><br>仏教の根本は阿弥陀さんですから、阿弥陀さんは西の方で、西方浄土です。<br><br>東の方は「東方観世音菩薩」と言って観音様になるわけです。<br><br>そこで最初は観音教団で出発したのです。<br><br>そうして東に極楽浄土を造らなければならないが、もう仏教の時代は過ぎて、今度は世界的にメシヤの時代になったから、すべてのそういった様式も世界的に造ったわけです。<br><br>そういうふうに見てくると、できるべきときにできたので、別に私がそういうつもりでやったわけでもなく、自然に神様からやらされたわけです。<br><br>だからなんでもかんでも、何万年何十万年も前から準備したということがよく分かります。<br><br> 今美術館ができる方の土地をいろいろ指図しましたが、これは簡単でして、私が二度行って、一回三十分か一時間ですっかり指図しました。<br><br>道についても、もう少しするとすっかりできあがるから分かりますが、これはなかなか難しい所でした。<br><br>ところが行って見ると自然にそういう形になっているのです。<br><br>これは神様は前からそういうふうに準備してあるのです。<br><br>ですからみんなが、ここにこんな立派な道がどうしてできるだろうとびっくりしてますが、それはそういうふうに地形がそうなっているのです。<br><br>だから簡単なものです。<br><br>それから今読んだように、天井の高さにしても、見てちょうどこのくらいの高さがよいというように、すぐに浮かぶのです。<br><br>それはなんということはないので、決まっているようなものです。<br><br>高からず低からずです。<br><br>それから柱も太からず細からずで、チャンと出るのですから、なんでもないのです。<br><br>それからまた階段の所の手摺ですが、ああいう形というのは他にないです。<br><br>これなども、どういうふうにしましょうかと言ってきたが、私も最初はぜんぜん分からないし、考えてもいなかったので、そこで行ってみると、ああいうふうにチャンとできてしまうのです。<br><br>それでああしたのです。<br><br>ところが神様の方の仕事というのは、みんな非常に楽で手間がかからないのです。<br><br>あの手摺なども実に簡単なものです。<br><br>あれなら一番安くできるでしょう。<br><br>ところが形が非常におもしろいと非常に褒められます。<br><br>そういう具合で、不思議と言うよりほかありません。<br><br>そうかといって、その時にならなければ出ないのです。<br><br>前からその設計をといっても駄目なのです。<br><br>私はどうしようかと思っても出ないと止めてしまうのです。<br><br>その代わり時期が来るとスラスラと分かってしまうのです。<br><br>こういうことも「神は順序なり」で、こういうことにも非常に順序があるのです。<br><br>ちょうど土地なども、隣の土地がぜひ欲しいと思っていても、どうしても駄目なのです。<br><br>というのは、その時は必要がないのです。<br><br>ところが必要な時になってくると、先方で買ってくれと申し込んでくるようなものです。<br><br>それはおもしろいものです。<br><br>ですからだいたいのことは前もって見当がつきますが、少し具体的に細かいことなどは、その時にならなければ出てこないのです。<br><br>そういうような具合で、この秋に会館と展望台ができただけでも、世の中が随分びっくりするだろうと思います。<br><br>展望台の方も最初の予定よりもそうとう大きくしました。<br><br>いよいよ知れるとずいぶん来るだろうと思います。<br><br> 水晶殿の中に優に百人ぐらいが腰掛けて、景色を見られるというくらいに広くしました。<br><br>これも世界にないでしょう。<br><br>直径十二間の円を半分に切った半円で、まわりは六尺幅の曲線ガラスで接ぎ合わせてゆくのですが、ガラスではギラギラして、日が当たると景色などは非常に見にくいのです。<br><br>プラスチックですとそういうことがないので、プラスチックでやるつもりです。<br><br>建築雑誌に出ていた最近できた丸い家がありましたが、三尺幅の縁を太い木でやってますから、重苦しくてみられません。<br><br>私の方はさっき言ったとおりで、だいたいプラスチックで接ぐつもりですが、もし具合が悪ければジュラルミンの細いのを使おうと思ってます。<br><br>それから下の高さ、縁の高さとか、屋根とか、私が細かく設計しました。<br><br>屋根は一尺の深さで、円形で平らですが、雨が流れるように、上の方は少し勾配をつけました。<br><br>樋は外に出さないで、少し縁をつけて、すべて外から分からないようにしました。<br><br>できるとなるほどと思うでしょう。<br><br>以前も言ったとおり、まず関東に行ったら日光を見るとともに、どうしても熱海の地上天国を見なければならない、ということになるに違いないです。<br><br>今年の日光見物に行った人は二百四十万と出てましたが、その半分としても百二十万です。<br><br>だから一カ年に百万は大丈夫だと思ってます。<br><br>そういうわけで、外国にもずいぶん知れると思ってます。<br><br>日本に来た外人は必ず来て見るに違いないです。<br><br>美術館ができてからではありますが、もし予定通り一カ年百万来るとすると、一人百円の入場料としてもたいへんな金高になります。<br><br> そうして箱根、熱海の十国峠の道路が悪く、と言っても金がかかりますから容易にできないのですが、駿豆鉄道も中途までケーブルをやろうというので、私の方の瑞泉郷の土地を譲ってくれと言ってきましたが、私はそんなケチなことをしないで、バスの道路を作るのなら大いに賛成して援助もするが、そんなケチなケーブルでは嫌だと、どこまでも突っ張ねました。<br><br>箱根、熱海間というのは、どうしても大道路を作らなければならないのです。<br><br>十国峠となると少なくとも十メートル以上、十二メートルぐらいの道路を作らなければならないです。<br><br>なにしろバスが頻繁で、今でも花見時には、箱根に行こうと思ったところが、両方にバスが止まっていて三十分以上待たされました。<br><br>そういうわけですから、どうしても道路を作らなければならないです。<br><br>もしそういうように収入があったら、その金で道路を作ろうと思ってます。<br><br>こっちは奉仕隊の人もたくさんいますから、箱根、熱海の道路というのは、わけないです。<br><br>私が設計するつもりですが、トンネルを二つぐらい作ったらよいでしょう。<br><br>なにしろまわりに人家がないから割合に簡単にゆきます。<br><br>そうしたら将来すばらしいものです。<br><br>箱根、熱海をそういうように繋いで、両方の地上天国をみんなに大いに楽しませるということだったら、それだけで世界的の名所になるつもりです。<br><br> 浄霊について、病気が良くなるのはどういうわけだろう、ということを聞かれるときに、こういうわけだという簡単な説明を納得がゆくような言い方をする、その一つの参考として書いてみました。<br><br> （御論文「浄霊は科学療法なり」） 【栄光 二四三号】 今読んだだけではちょっと分かりにくいようですが、いずれ『栄光』に出しますから、これをいくども繰り返して読んでいるうちにはっきり分かります。<br><br>はっきり分かるということは、つまり理屈に合っていれば、はっきり分かるのです。<br><br>医学書なら医学書をいくら読んでも、はっきり分かるわけがないので、というのは嘘だからです。<br><br>間違っているからです。<br><br>医学書よりかこの方が難しいようでも、本当の理屈に合っているから必ず分かるのです。<br><br>そうすれば、未信者とかまた浄霊で治った人で、説明を聞きたい人にこれをよく説明してやれば、なるほどと分かります。<br><br>そうすれば迷いがなくなります。<br><br>そうでないと、浄霊で治ってありがたがっていても、やっぱり徹底しないから、再浄化や、この次他の病気が起こったときに医者に行くということになるからして、どうしても徹底して本当に分からせなければならないのです。<br><br>まだ書き方がちょっと完全ではないのですが、なにしろ非常に難しいです。<br><br>ずっと細かく、科学書のように書くとよいのですが、それでは手数がかかったりするので、なるべく切り詰めて、ごく簡単に急所を説明して分からせるというのが一番よいです。<br><br> 浄霊の原理は、そうとうの信者の人でも分かりにくい点があるだろうと思います。<br><br>その一番分かりにくい点は火素の力です。<br><br>急所というのは曇りです。<br><br>曇りというのは水素の中にある不純物で、毒粒子ですが、この毒粒子は細かくてとうてい顕微鏡では見られません。<br><br>それをここ（掌）から出す火で焼くのです。<br><br>水の中にあるものを焼いてしまうのです。<br><br>ところがこの場合の水素というのは、ごく微粒子で、希薄なものです。<br><br>それでこっちから行く火素の熱度というものはたいへんなものです。<br><br>原子爆弾よりももっと高いのです。<br><br>だからこの火素の力に遭えば、原子爆弾でも大丈夫なのです。<br><br>また、それは物質ではないので、物質なら限度があるから弱いのです。<br><br>原子爆弾でも、その力というのは弱いのです。<br><br>それでもっとも強い力というのは、もっとも物質的でないものです。<br><br>要するに目に見えず感じもしないという、ごく希薄であればあるほど力は強いのです。<br><br>ですから一番強いのは風の力です。<br><br>風というのは大きな家でも倒したり吹き飛ばしますが、これは一番目に見えないもので、おそらく、どんな大風でも目に見えません。<br><br>見えるとすれば、それはホコリとか他の物質が見えるのです。<br><br>風そのものは絶対に見えないのです。<br><br>その見えないものがそれほどの力があるのです。<br><br>ですから希薄なものほど強いのです。<br><br>人間でも、人間の考えがたいしたものです。<br><br>大戦争をする英雄の頭の“ああしよう、こうしよう”という考えがたいしたものです。<br><br>スターリンがあれだけ考えていることは、目には見えないから強いのです。<br><br>それが言葉に出ると物質化してくるから、いくらか見えてくるのです。<br><br>ですから考えている、それが一番力が強いのです。<br><br>その考えたものを物質に現わす場合の働きが言葉ですから、言葉の方はそれ以下ということになります。<br><br>そういうようで、目に見えないものほど力が強いのです。<br><br>それで一番目に見えるものの力は馬力という馬の力ですが、これは一番よく見えます。<br><br>これが今の浄霊の原理の急所というわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Concretização do Paraíso e o Princípio do Johrei</h2>
 <p>O ano está prestes a findar. Coincidentemente, no dia vinte e quatro de dezembro do ano passado, o processo judicial que nos afligia foi concluído, inaugurando um período de grande clareza e progresso. Neste ano que se finda, lançamos as bases de nossa Obra no Havaí e nos Estados Unidos. Além disso, concluímos a construção do Paraíso Terrestre de Hakone, e o Salão Messiânico de Atami, ao menos em sua estrutura, também foi finalizado. Este foi, portanto, um ano em que consolidamos significativamente os alicerces para a nossa expansão; pode-se dizer que foi um ano de colheita abundante. Seguindo a analogia do florescer e frutificar, diríamos que o fruto cresceu consideravelmente. No próximo ano, ele continuará a se desenvolver. Ademais, no outono, o Salão e o Palácio de Cristal, sobre o mirante, estarão concluídos, o que certamente atrairá a atenção da sociedade e impulsionará o desenvolvimento de nossa Igreja.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>(Referência à dissertação "O Johrei é uma Terapia Científica", publicada na revista Eikou nº 243)</p>
 <p>Apenas com uma primeira leitura, o texto pode parecer um pouco complexo. Contudo, ele será publicado na revista <em>Eikou</em>, e, ao lê-lo repetidas vezes, a compreensão se tornará clara. A clareza advém do fato de o conteúdo estar em conformidade com a razão. Por mais que se leiam tratados de medicina, jamais se alcançará uma compreensão nítida, pois eles se baseiam em premissas falsas, em equívocos. Embora meu texto possa parecer mais difícil, por estar fundamentado na verdadeira lógica, ele será, inevitavelmente, compreendido. Dessa forma, vocês poderão explicar seus princípios a não-membros ou a pessoas que foram curadas pelo Johrei e desejam entender o processo. Eles certamente compreenderão e suas dúvidas se dissiparão. Sem essa compreensão profunda, mesmo que a pessoa se sinta grata pela cura, sua convicção não será completa. Diante de uma nova purificação ou de outra doença, ela poderá recorrer a um médico. É, portanto, fundamental que a pessoa compreenda a verdade de forma cabal. A redação do texto ainda não está perfeita, pois o assunto é de extrema complexidade. O ideal seria escrevê-lo com o detalhamento de um livro científico, mas isso demandaria um esforço imenso. Por isso, optei por ser o mais conciso possível, explicando os pontos essenciais de maneira simples para facilitar o entendimento.</p>
 <p>Creio que mesmo membros com bastante tempo de fé possam ter dificuldade em compreender certos aspectos do princípio do Johrei. O ponto mais difícil de entender é a força do elemento fogo. O ponto crucial são as máculas. As máculas consistem em impurezas, partículas tóxicas contidas no elemento água. Essas partículas são tão diminutas que não podem ser vistas nem mesmo por um microscópio. Elas são incineradas pelo fogo que emana da palma da mão. O que está na água é queimado. O elemento água, nesse caso, é extremamente rarefeito e composto por partículas finíssimas. A temperatura do elemento fogo que projetamos é, por sua vez, imensurável, imensamente superior à de uma bomba atômica. Por essa razão, a força do elemento fogo é capaz de neutralizar até mesmo os efeitos de uma explosão atômica. Além disso, por não ser matéria, seu poder é ilimitado; a matéria, por sua natureza, é limitada e, portanto, fraca. Mesmo a força de uma bomba atômica é fraca em comparação. A força mais poderosa é, invariavelmente, a menos material. Em suma, quanto mais rarefeito algo for — invisível e imperceptível —, mais forte será. A força do vento, por exemplo, é a mais poderosa. O vento é capaz de derrubar ou arrastar grandes edifícios, mas é completamente invisível. Por mais forte que seja a ventania, o vento em si não pode ser visto; o que vemos são a poeira e outros materiais que ele carrega. Aquilo que é invisível possui um poder imenso. Portanto, quanto mais rarefeita a substância, maior a sua força. No ser humano, o pensamento é algo formidável. Os pensamentos estratégicos de um grande herói de guerra — “farei isto, agirei assim” — possuem um poder extraordinário. Os pensamentos de um homem como Stalin, por serem invisíveis, detêm um poder imenso. Quando esses pensamentos se materializam em palavras, eles se tornam, de certa forma, visíveis, e seu poder diminui. É no estado de puro pensamento que a força atinge seu ápice. A palavra é o instrumento que manifesta o pensamento na matéria e, por conseguinte, possui uma força de ordem inferior. Assim, o invisível é sempre mais poderoso. Em contrapartida, a força mais visível é a do cavalo, o cavalo-vapor, que se pode observar claramente. Eis, em suma, o ponto fundamental do princípio do Johrei.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年12月27日） 『御教え集』29号、昭和29(1954)年1月15日発行 昭和二十八年十二月二十七日 いよいよ今年ももうおしまいですが、ちょうど去年の暮れの二十四日に裁判が片づいて、それから明るくなったわけで、今年に入ってからハワイ、アメリカにクワを入れたわけです。<br/><br/>それに箱根の地上天国も完成したし、熱海のメシヤ会館もとにかく形だけはできましたし、今年は発展の基がだいぶできたような形になってます。<br/><br/>割合に収穫のあった年とでも言えるわけです。<br/><br/>ちょうど、散花結実とすれば、実が少し大きくなったわけです。<br/><br/>来年はこれがまた育ちますから……。<br/><br/>しかも秋には会館と展望台の上の水晶殿ができあがりますから、また大いに世間の注目を引くとともに、教団も発展するわけです。<br/><br/>いつも言うとおり、箱根は霊で熱海は体ですから、熱海ができあがるということは体的に大きくなるというわけです。<br/><br/>御神業というものは、すべて型でやってゆくのですから本元ができ、また形が大きくなるということは、全体的にそうなるわけです。<br/><br/>熱海は体的ですから、会館ができるということは、ちょうどやはり建築のような具合に、御神業の方もしっかりした様相になって、大きさも目立つように大きくなるわけです。<br/><br/>こういうわけになるのです。<br/><br/>支部などでも、建物を少し拡張すると、それだけ教線が拡がるものです。<br/><br/>だから形も、支部の建築などを相談されることがよくありますが、つまり家相は、四角なら四角のものでも、ちょっとでも凹むものがあるといけないのです。<br/><br/>凹む形がいけないのです。<br/><br/>その反対に少しでも出る形があると拡がるわけです。<br/><br/>家相や土地というものも、運命に非常に影響するのです。<br/><br/>だからして、やっぱり理屈に合うということもそういうわけで、すべてが順序とか形とか理屈に合うということが、小さいような問題でいて、あんがい結果は大きいのです。<br/><br/> メシヤ会館をいま建築している椎野という人に、事務所の酒見という人が聞いたことでおもしろいことがあるので読ませます。<br/><br/> （対談「メシヤ会館現場責任者椎野氏を訪ねて」） 【栄光 二四二号】 これについて思い出すのは法隆寺の五重の塔ですが、この寸法やそういうものがよくできているので専門家の方の驚異になっているのです。<br/><br/>私は去年の春に京都に行ったときに、五重の塔を一番よく見ましたが、まったくよくでているのです。<br/><br/>その高さといい、形といい、どこからどこまで申し分ないのです。<br/><br/>これは聖徳太子が造ったのですが、聖徳太子は私と同じように、ちょっと目で見計らって“こうしろ、ああしろ”と指図したに違いないのです。<br/><br/>その時には専門的の機械やそういうものがないのですから、目分量でやったに違いないです。<br/><br/>だから私のやるやり方とだいたい同じわけです。<br/><br/>というのは、聖徳太子というのは私が生まれたわけなのです。<br/><br/>それで、千二百年前に生まれて仏教を弘めるということについて、まず一番肝腎なのは、御説教やそういうことでは手緩（てぬる）いので、大衆を教化するということにはまだるっこいのですから、それにはああいった建物とかいろいろな設備で、まず注目を引いて、そこに見物に行くとかお参りに行くということで、知らず知らず仏教なら仏教に心が向くようにする、それが一番効果があるわけです。<br/><br/>お釈迦さんもそのやり口をしたわけです。<br/><br/>七堂伽藍などを造ったのはそういうわけです。<br/><br/>ところがお釈迦さんも聖徳太子も、出が皇太子ですから、すべてにいろいろな便宜があるわけです。<br/><br/>勿論金もそうですし、それだけの格がありますから……。<br/><br/>ところが私は素寒貧（すかんぴん）の一平民ですから、その点においては誇ってもよいと思ってます。<br/><br/>そこで聖徳太子もだいたいお釈迦さんからヒントを得て、ああいうものをやったに違いないです。<br/><br/>ですから法隆寺というものは七堂伽藍の形なのです。<br/><br/>そうして、夢殿に救世観音というのがありますが、これは一年に一度開くということになってますが、あそこの位置が聖徳太子の住まわれた居間に当たるのだそうです。<br/><br/>それを記念に建てたわけです。<br/><br/>それで「救世観音」というのは「救世（きゅうせい）観音」と書くのですから、やっばり「メシヤ観音」というわけです。<br/><br/>だからして私が今やりつつあることは、聖徳太子が世界的になったようなものです。<br/><br/>救世教を開くについて、まず地上天国を造るが、今のところは日本です。<br/><br/>この間も言ったとおり、西が京都、奈良であって、これは根本は仏教的のもので、仏教で言えば極楽浄土の形を造ったわけです。<br/><br/>今度は私は、東の箱根、熱海という、ごく良い位置を選定して造ったのですから、西の極楽浄土に対して東の地上天国ということになったわけです。<br/><br/>仏教の根本は阿弥陀さんですから、阿弥陀さんは西の方で、西方浄土です。<br/><br/>東の方は「東方観世音菩薩」と言って観音様になるわけです。<br/><br/>そこで最初は観音教団で出発したのです。<br/><br/>そうして東に極楽浄土を造らなければならないが、もう仏教の時代は過ぎて、今度は世界的にメシヤの時代になったから、すべてのそういった様式も世界的に造ったわけです。<br/><br/>そういうふうに見てくると、できるべきときにできたので、別に私がそういうつもりでやったわけでもなく、自然に神様からやらされたわけです。<br/><br/>だからなんでもかんでも、何万年何十万年も前から準備したということがよく分かります。<br/><br/> 今美術館ができる方の土地をいろいろ指図しましたが、これは簡単でして、私が二度行って、一回三十分か一時間ですっかり指図しました。<br/><br/>道についても、もう少しするとすっかりできあがるから分かりますが、これはなかなか難しい所でした。<br/><br/>ところが行って見ると自然にそういう形になっているのです。<br/><br/>これは神様は前からそういうふうに準備してあるのです。<br/><br/>ですからみんなが、ここにこんな立派な道がどうしてできるだろうとびっくりしてますが、それはそういうふうに地形がそうなっているのです。<br/><br/>だから簡単なものです。<br/><br/>それから今読んだように、天井の高さにしても、見てちょうどこのくらいの高さがよいというように、すぐに浮かぶのです。<br/><br/>それはなんということはないので、決まっているようなものです。<br/><br/>高からず低からずです。<br/><br/>それから柱も太からず細からずで、チャンと出るのですから、なんでもないのです。<br/><br/>それからまた階段の所の手摺ですが、ああいう形というのは他にないです。<br/><br/>これなども、どういうふうにしましょうかと言ってきたが、私も最初はぜんぜん分からないし、考えてもいなかったので、そこで行ってみると、ああいうふうにチャンとできてしまうのです。<br/><br/>それでああしたのです。<br/><br/>ところが神様の方の仕事というのは、みんな非常に楽で手間がかからないのです。<br/><br/>あの手摺なども実に簡単なものです。<br/><br/>あれなら一番安くできるでしょう。<br/><br/>ところが形が非常におもしろいと非常に褒められます。<br/><br/>そういう具合で、不思議と言うよりほかありません。<br/><br/>そうかといって、その時にならなければ出ないのです。<br/><br/>前からその設計をといっても駄目なのです。<br/><br/>私はどうしようかと思っても出ないと止めてしまうのです。<br/><br/>その代わり時期が来るとスラスラと分かってしまうのです。<br/><br/>こういうことも「神は順序なり」で、こういうことにも非常に順序があるのです。<br/><br/>ちょうど土地なども、隣の土地がぜひ欲しいと思っていても、どうしても駄目なのです。<br/><br/>というのは、その時は必要がないのです。<br/><br/>ところが必要な時になってくると、先方で買ってくれと申し込んでくるようなものです。<br/><br/>それはおもしろいものです。<br/><br/>ですからだいたいのことは前もって見当がつきますが、少し具体的に細かいことなどは、その時にならなければ出てこないのです。<br/><br/>そういうような具合で、この秋に会館と展望台ができただけでも、世の中が随分びっくりするだろうと思います。<br/><br/>展望台の方も最初の予定よりもそうとう大きくしました。<br/><br/>いよいよ知れるとずいぶん来るだろうと思います。<br/><br/> 水晶殿の中に優に百人ぐらいが腰掛けて、景色を見られるというくらいに広くしました。<br/><br/>これも世界にないでしょう。<br/><br/>直径十二間の円を半分に切った半円で、まわりは六尺幅の曲線ガラスで接ぎ合わせてゆくのですが、ガラスではギラギラして、日が当たると景色などは非常に見にくいのです。<br/><br/>プラスチックですとそういうことがないので、プラスチックでやるつもりです。<br/><br/>建築雑誌に出ていた最近できた丸い家がありましたが、三尺幅の縁を太い木でやってますから、重苦しくてみられません。<br/><br/>私の方はさっき言ったとおりで、だいたいプラスチックで接ぐつもりですが、もし具合が悪ければジュラルミンの細いのを使おうと思ってます。<br/><br/>それから下の高さ、縁の高さとか、屋根とか、私が細かく設計しました。<br/><br/>屋根は一尺の深さで、円形で平らですが、雨が流れるように、上の方は少し勾配をつけました。<br/><br/>樋は外に出さないで、少し縁をつけて、すべて外から分からないようにしました。<br/><br/>できるとなるほどと思うでしょう。<br/><br/>以前も言ったとおり、まず関東に行ったら日光を見るとともに、どうしても熱海の地上天国を見なければならない、ということになるに違いないです。<br/><br/>今年の日光見物に行った人は二百四十万と出てましたが、その半分としても百二十万です。<br/><br/>だから一カ年に百万は大丈夫だと思ってます。<br/><br/>そういうわけで、外国にもずいぶん知れると思ってます。<br/><br/>日本に来た外人は必ず来て見るに違いないです。<br/><br/>美術館ができてからではありますが、もし予定通り一カ年百万来るとすると、一人百円の入場料としてもたいへんな金高になります。<br/><br/> そうして箱根、熱海の十国峠の道路が悪く、と言っても金がかかりますから容易にできないのですが、駿豆鉄道も中途までケーブルをやろうというので、私の方の瑞泉郷の土地を譲ってくれと言ってきましたが、私はそんなケチなことをしないで、バスの道路を作るのなら大いに賛成して援助もするが、そんなケチなケーブルでは嫌だと、どこまでも突っ張ねました。<br/><br/>箱根、熱海間というのは、どうしても大道路を作らなければならないのです。<br/><br/>十国峠となると少なくとも十メートル以上、十二メートルぐらいの道路を作らなければならないです。<br/><br/>なにしろバスが頻繁で、今でも花見時には、箱根に行こうと思ったところが、両方にバスが止まっていて三十分以上待たされました。<br/><br/>そういうわけですから、どうしても道路を作らなければならないです。<br/><br/>もしそういうように収入があったら、その金で道路を作ろうと思ってます。<br/><br/>こっちは奉仕隊の人もたくさんいますから、箱根、熱海の道路というのは、わけないです。<br/><br/>私が設計するつもりですが、トンネルを二つぐらい作ったらよいでしょう。<br/><br/>なにしろまわりに人家がないから割合に簡単にゆきます。<br/><br/>そうしたら将来すばらしいものです。<br/><br/>箱根、熱海をそういうように繋いで、両方の地上天国をみんなに大いに楽しませるということだったら、それだけで世界的の名所になるつもりです。<br/><br/> 浄霊について、病気が良くなるのはどういうわけだろう、ということを聞かれるときに、こういうわけだという簡単な説明を納得がゆくような言い方をする、その一つの参考として書いてみました。<br/><br/> （御論文「浄霊は科学療法なり」） 【栄光 二四三号】 今読んだだけではちょっと分かりにくいようですが、いずれ『栄光』に出しますから、これをいくども繰り返して読んでいるうちにはっきり分かります。<br/><br/>はっきり分かるということは、つまり理屈に合っていれば、はっきり分かるのです。<br/><br/>医学書なら医学書をいくら読んでも、はっきり分かるわけがないので、というのは嘘だからです。<br/><br/>間違っているからです。<br/><br/>医学書よりかこの方が難しいようでも、本当の理屈に合っているから必ず分かるのです。<br/><br/>そうすれば、未信者とかまた浄霊で治った人で、説明を聞きたい人にこれをよく説明してやれば、なるほどと分かります。<br/><br/>そうすれば迷いがなくなります。<br/><br/>そうでないと、浄霊で治ってありがたがっていても、やっぱり徹底しないから、再浄化や、この次他の病気が起こったときに医者に行くということになるからして、どうしても徹底して本当に分からせなければならないのです。<br/><br/>まだ書き方がちょっと完全ではないのですが、なにしろ非常に難しいです。<br/><br/>ずっと細かく、科学書のように書くとよいのですが、それでは手数がかかったりするので、なるべく切り詰めて、ごく簡単に急所を説明して分からせるというのが一番よいです。<br/><br/> 浄霊の原理は、そうとうの信者の人でも分かりにくい点があるだろうと思います。<br/><br/>その一番分かりにくい点は火素の力です。<br/><br/>急所というのは曇りです。<br/><br/>曇りというのは水素の中にある不純物で、毒粒子ですが、この毒粒子は細かくてとうてい顕微鏡では見られません。<br/><br/>それをここ（掌）から出す火で焼くのです。<br/><br/>水の中にあるものを焼いてしまうのです。<br/><br/>ところがこの場合の水素というのは、ごく微粒子で、希薄なものです。<br/><br/>それでこっちから行く火素の熱度というものはたいへんなものです。<br/><br/>原子爆弾よりももっと高いのです。<br/><br/>だからこの火素の力に遭えば、原子爆弾でも大丈夫なのです。<br/><br/>また、それは物質ではないので、物質なら限度があるから弱いのです。<br/><br/>原子爆弾でも、その力というのは弱いのです。<br/><br/>それでもっとも強い力というのは、もっとも物質的でないものです。<br/><br/>要するに目に見えず感じもしないという、ごく希薄であればあるほど力は強いのです。<br/><br/>ですから一番強いのは風の力です。<br/><br/>風というのは大きな家でも倒したり吹き飛ばしますが、これは一番目に見えないもので、おそらく、どんな大風でも目に見えません。<br/><br/>見えるとすれば、それはホコリとか他の物質が見えるのです。<br/><br/>風そのものは絶対に見えないのです。<br/><br/>その見えないものがそれほどの力があるのです。<br/><br/>ですから希薄なものほど強いのです。<br/><br/>人間でも、人間の考えがたいしたものです。<br/><br/>大戦争をする英雄の頭の“ああしよう、こうしよう”という考えがたいしたものです。<br/><br/>スターリンがあれだけ考えていることは、目には見えないから強いのです。<br/><br/>それが言葉に出ると物質化してくるから、いくらか見えてくるのです。<br/><br/>ですから考えている、それが一番力が強いのです。<br/><br/>その考えたものを物質に現わす場合の働きが言葉ですから、言葉の方はそれ以下ということになります。<br/><br/>そういうようで、目に見えないものほど力が強いのです。<br/><br/>それで一番目に見えるものの力は馬力という馬の力ですが、これは一番よく見えます。<br/><br/>これが今の浄霊の原理の急所というわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

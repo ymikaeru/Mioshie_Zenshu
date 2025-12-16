@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis3044</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ４ 044-055 狐霊・地の神 044 胃潰瘍、腹より塊突上ぐ（稲荷を祀る事） 当三十六才の女性、昨年二月より胃潰瘍を患い現在御浄霊を戴いています。<br><br>毎度の事で御座居ますが、先生が御来駕の節、必ず腹部より胸部にかけ玉のごとき物がこみあげ苦しみます。<br><br>光明如来様の御前に出る事を時としては非常に嫌がります。<br><br>当人は過去においていろいろ神様（浅川の吉高稲荷、代々木の清正公様、金食稲荷、ササキ稲荷）を信仰し、当時頂きしササキ稲荷の御守札を現在持っていますが気にしております。<br><br>いかに扱ったら宜しいでしょうか、お伺い申し上げます。<br><br> 稲荷を祀るのは本当は間違っている。<br><br>人間は上であるから下のものを拝む訳で、何にもせぬ方がよい。<br><br>玉のようなものは狐の霊で、まず光明如来様をお祭りする。<br><br>稲荷はそのまま段々萎縮して改心するようになるか、逃げるのがある。<br><br>その上で廃する。<br><br>そして浄霊すれば治る。<br><br> 稲荷は、農業に対し感謝と礼をいうのはいい。<br><br>それ以外は管轄外である。<br><br>産土の眷族で働いてるのもある。<br><br>（S25. 1.26） ―――――――――― 稲荷の祭りは毎月午の日でよろしい。<br><br>毎月一回、月初めがよい。<br><br>（S23） 045 先祖よりの稲荷焼失 先祖からのでなく、親の代よりお祀りしておりました桑原稲荷と申すお稲荷様を、この度火災により焼失してしまいました。<br><br>そのままにしておくのが気になりますがどう致したらよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 光明如来様をお祭りすればよい。<br><br>お祭りして別に何事もなければそれでよい。<br><br>（S25. 4.28） 046 祀りを望む稲荷 信徒の御浄霊をさせて戴いている内、稲荷が憑依して祀って貰いたいとの希望でありますが、その信徒の家の主人が稲荷の霊を信じません。<br><br>その稲荷は以前映画館に祀ってあったもので御座いますが、戦災により映画館は焼失し、その跡の近くへ現在信徒の家は建っております。<br><br>稲荷の希望通り祀ってやるのが宜しゅうございましょうか。<br><br> 主人が反対してはまずい。<br><br>面白くない。<br><br>稲荷はなるべく返した方がよい。<br><br>（S24.12.13） 047 祀った稲荷の今後 借地人一同でお稲荷様をお祭りしておりましたが、戦災でこの地一帯が焼け、世話人も戦災死したりして、現在私が復興致して世話をしております。<br><br>最近入信させて戴き大光明如来様を奉斎させて戴きました。<br><br>今後お稲荷様をどう致したらよろしいでしょうか。<br><br> ほんとうは祀ってやった方がよい。<br><br>祀ってやらぬと障るのもある。<br><br>臨機応変にやればよい。<br><br>（S24. 8.19） 048 お札飛んだ祠堂の霊 前の持主がお祭りした稲荷のお札が風で飛んでしまいました。<br><br>その祠堂には既に霊は抜けてしまっておりましょうか。<br><br> 霊は抜けている。<br><br> 049 稲荷と移転 古屋敷に住っておりました信徒で御座いますが、その土地が水田になりますので、他に敷地を求めて移転する事になりました。<br><br>そこには自分のお祀りした御稲荷様と、前からありました御稲荷様と共に御守りしておりましたが、この度移転と同時に自分のは移しました。<br><br>前からのものはどう致しましたら宜敷う御座いましょうか。<br><br> 御教えを御願い申し上げます。<br><br> 前からのも同じようにする。<br><br>移転して置いてけぼりすると怒って、よく精神病などを起す。<br><br>一緒に移す。<br><br>（S24. 1.21） 050 祖先からの稲荷祠 私の家は現在私で八代になり、曾祖父及祖父が生前御嶽教の熱心な信者でありましたため、昭和三年十一月祖父の十周年に当り、古い稲荷神社の境内へ家の守護神に祭りました。<br><br>毎年一回十一月の命日に稲荷神社と両方御祭りを致しておりますが、別に変った事は御座いませんが、 (1) 先祖は仏のままですが五代、六代の主だけ神たる事の是否。<br><br> (2) 御祭りした二柱の妻は仏のままでおります。<br><br> (3) 家の仏全部神に祭るのが正しいのでしょうか。<br><br>または祭った二柱をに戻すのがよろしいので御座いましょうか。<br><br> 古い稲荷神社なら祖先であるからそれでいい。<br><br> 祖先が稲荷のと、中途で稲荷を祀ったのと両方ある。<br><br> 祖先からのはイジれぬ。<br><br>五、六代も経ているなら変えない方がよい。<br><br>換えると怒ったりなどする。<br><br>（S24. 2.15） 051 稲荷の移祀と名 先祖よりの正一位稲荷が祀ってあるが、外へお祀りしてはいかがでしょうか。<br><br> 稲荷はどこへ祭っても構わぬ。<br><br>ただ手続きが要る。<br><br> 御馳走を上げて不断の守護をよく礼を述べ事情を述べて移す事を断る。<br><br>それを無断ですると怒るのである。<br><br> 狐は新規に祭る時は正一位をつける事になっている。<br><br>（S23） 052 稲荷社祠の位置 ある旅館業の信者の家ですが、周囲に土地が無く、玄関の部屋の壁の途中に棚を造り稲荷を祖父の代よりお祀りしています。<br><br>外にお祀りするには塀の中にごく狭い場所が隅にあるのみですが、そこへうつしましても宜しいでしょうか。<br><br> 玄関へ祀るのは嘘である。<br><br>祖先の霊が稲荷になったのか、祖先が信仰した稲荷かだろうが、外のその場所へ移すのは極よい。<br><br> 053 稲荷を祀る位置 先年母が御目にかけました雷電稲荷大明神、その後吉原に疎開してよりちがい棚にありますが、やはり庭に祭るべきでしょうか。<br><br>また、元の地所にした方が良いでしょうか。<br><br>あるいはもう御社に御納めして良いのでしょうか。<br><br>御教え下さい。<br><br> 稲荷は庭に祀るべきで、室内はいけない。<br><br>狐は穴を掘って住んでいるから、これを家に祀ると地獄に住む事になるから、きっと不幸になる。<br><br>庭に祀る時、人間の座っている高さより二、三尺高く祀る。<br><br>（S23.10.13） 054 地の神と祀方 去年家内中御光を頂き光明如来様も御祭りして布教に熱心な家ですが、長男二十五才は二年前から痔瘻から結核となり、医者に見離されていましたが、本年五月楽に死にました。<br><br>死ぬ前日の晩、叔母が仏壇の前で善言讃詞を奏げている中に叔母に霊が憑り、「己はここの地主だ。<br><br>断りなしに己の土地に家を建て、先祖にばかり供養して己には飯も水も供えない、謝らなければ子供を皆殺してやる」と言いますので、謝ってそれ以来仏壇に御飯と水を供えています。<br><br>なおこの土地は銀行から借りたので地主の事は全然知らないとの事です。<br><br>今後いかにしたら宜敷いでしょうか。<br><br>御教示下さい。<br><br> 地龍――土地に住んでる龍で、良く地の神様という。<br><br>殺した人に怨みを報ゆるのでなく、彼等は住む人に怨みをかける。<br><br>そういう所へ住むのもその人に曇りがあるからで、相応の理である。<br><br>罪穢があるのである。<br><br>よく謝り庭か何かにお宮を作ってやる。<br><br>石で二尺積んで石の宮にし、土地の名がよい。<br><br>生米が好きであるから忘れずに上げる。<br><br>（S24. 7. 5） 055 地の神供養（神は腹減らぬ） ある信者の家庭で、地の神様の霊が出まして「観音様の信仰に入ってから拝んでくれない。<br><br>腹が減っては守護が出来ない」と申しましたそうで御座居ますが、月に何回位御祀りしたら宜敷う御座居ましょうか。<br><br> 地の神とは動物霊である。<br><br>神様には腹の減る事はない。<br><br>かわいそうだから月に一回何か上げてやり、祝詞を奏げるとよい。<br><br>（S24. 7. 2）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Espíritos de Raposa e Deuses da Terra</h2>
 <h3>044 – Úlcera gástrica e uma massa ascendente do abdômen (A questão do culto a Inari)</h3>
@@ -133,5 +285,48 @@ function toggleLang(lang) {
 <h3>055 – A oferenda ao deus da terra (Deus não sente fome)</h3>
 <p>Na casa de um membro, manifestou-se o espírito do deus da terra, queixando-se: "Desde que vocês ingressaram na fé de Kannon (観音), não rezam mais para mim. Com fome, não consigo lhes dar proteção." Quantas vezes por mês seria apropriado realizar uma cerimônia?</p>
 <p>Essa deidade da terra é, na verdade, um espírito animal. Os deuses não sentem fome. Por compaixão, é bom que lhe façam uma oferenda uma vez por mês e entoem a oração. (2 de julho de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第三篇 ４ 044-055 狐霊・地の神 044 胃潰瘍、腹より塊突上ぐ（稲荷を祀る事） 当三十六才の女性、昨年二月より胃潰瘍を患い現在御浄霊を戴いています。<br/><br/>毎度の事で御座居ますが、先生が御来駕の節、必ず腹部より胸部にかけ玉のごとき物がこみあげ苦しみます。<br/><br/>光明如来様の御前に出る事を時としては非常に嫌がります。<br/><br/>当人は過去においていろいろ神様（浅川の吉高稲荷、代々木の清正公様、金食稲荷、ササキ稲荷）を信仰し、当時頂きしササキ稲荷の御守札を現在持っていますが気にしております。<br/><br/>いかに扱ったら宜しいでしょうか、お伺い申し上げます。<br/><br/> 稲荷を祀るのは本当は間違っている。<br/><br/>人間は上であるから下のものを拝む訳で、何にもせぬ方がよい。<br/><br/>玉のようなものは狐の霊で、まず光明如来様をお祭りする。<br/><br/>稲荷はそのまま段々萎縮して改心するようになるか、逃げるのがある。<br/><br/>その上で廃する。<br/><br/>そして浄霊すれば治る。<br/><br/> 稲荷は、農業に対し感謝と礼をいうのはいい。<br/><br/>それ以外は管轄外である。<br/><br/>産土の眷族で働いてるのもある。<br/><br/>（S25. 1.26） ―――――――――― 稲荷の祭りは毎月午の日でよろしい。<br/><br/>毎月一回、月初めがよい。<br/><br/>（S23） 045 先祖よりの稲荷焼失 先祖からのでなく、親の代よりお祀りしておりました桑原稲荷と申すお稲荷様を、この度火災により焼失してしまいました。<br/><br/>そのままにしておくのが気になりますがどう致したらよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 光明如来様をお祭りすればよい。<br/><br/>お祭りして別に何事もなければそれでよい。<br/><br/>（S25. 4.28） 046 祀りを望む稲荷 信徒の御浄霊をさせて戴いている内、稲荷が憑依して祀って貰いたいとの希望でありますが、その信徒の家の主人が稲荷の霊を信じません。<br/><br/>その稲荷は以前映画館に祀ってあったもので御座いますが、戦災により映画館は焼失し、その跡の近くへ現在信徒の家は建っております。<br/><br/>稲荷の希望通り祀ってやるのが宜しゅうございましょうか。<br/><br/> 主人が反対してはまずい。<br/><br/>面白くない。<br/><br/>稲荷はなるべく返した方がよい。<br/><br/>（S24.12.13） 047 祀った稲荷の今後 借地人一同でお稲荷様をお祭りしておりましたが、戦災でこの地一帯が焼け、世話人も戦災死したりして、現在私が復興致して世話をしております。<br/><br/>最近入信させて戴き大光明如来様を奉斎させて戴きました。<br/><br/>今後お稲荷様をどう致したらよろしいでしょうか。<br/><br/> ほんとうは祀ってやった方がよい。<br/><br/>祀ってやらぬと障るのもある。<br/><br/>臨機応変にやればよい。<br/><br/>（S24. 8.19） 048 お札飛んだ祠堂の霊 前の持主がお祭りした稲荷のお札が風で飛んでしまいました。<br/><br/>その祠堂には既に霊は抜けてしまっておりましょうか。<br/><br/> 霊は抜けている。<br/><br/> 049 稲荷と移転 古屋敷に住っておりました信徒で御座いますが、その土地が水田になりますので、他に敷地を求めて移転する事になりました。<br/><br/>そこには自分のお祀りした御稲荷様と、前からありました御稲荷様と共に御守りしておりましたが、この度移転と同時に自分のは移しました。<br/><br/>前からのものはどう致しましたら宜敷う御座いましょうか。<br/><br/> 御教えを御願い申し上げます。<br/><br/> 前からのも同じようにする。<br/><br/>移転して置いてけぼりすると怒って、よく精神病などを起す。<br/><br/>一緒に移す。<br/><br/>（S24. 1.21） 050 祖先からの稲荷祠 私の家は現在私で八代になり、曾祖父及祖父が生前御嶽教の熱心な信者でありましたため、昭和三年十一月祖父の十周年に当り、古い稲荷神社の境内へ家の守護神に祭りました。<br/><br/>毎年一回十一月の命日に稲荷神社と両方御祭りを致しておりますが、別に変った事は御座いませんが、 (1) 先祖は仏のままですが五代、六代の主だけ神たる事の是否。<br/><br/> (2) 御祭りした二柱の妻は仏のままでおります。<br/><br/> (3) 家の仏全部神に祭るのが正しいのでしょうか。<br/><br/>または祭った二柱をに戻すのがよろしいので御座いましょうか。<br/><br/> 古い稲荷神社なら祖先であるからそれでいい。<br/><br/> 祖先が稲荷のと、中途で稲荷を祀ったのと両方ある。<br/><br/> 祖先からのはイジれぬ。<br/><br/>五、六代も経ているなら変えない方がよい。<br/><br/>換えると怒ったりなどする。<br/><br/>（S24. 2.15） 051 稲荷の移祀と名 先祖よりの正一位稲荷が祀ってあるが、外へお祀りしてはいかがでしょうか。<br/><br/> 稲荷はどこへ祭っても構わぬ。<br/><br/>ただ手続きが要る。<br/><br/> 御馳走を上げて不断の守護をよく礼を述べ事情を述べて移す事を断る。<br/><br/>それを無断ですると怒るのである。<br/><br/> 狐は新規に祭る時は正一位をつける事になっている。<br/><br/>（S23） 052 稲荷社祠の位置 ある旅館業の信者の家ですが、周囲に土地が無く、玄関の部屋の壁の途中に棚を造り稲荷を祖父の代よりお祀りしています。<br/><br/>外にお祀りするには塀の中にごく狭い場所が隅にあるのみですが、そこへうつしましても宜しいでしょうか。<br/><br/> 玄関へ祀るのは嘘である。<br/><br/>祖先の霊が稲荷になったのか、祖先が信仰した稲荷かだろうが、外のその場所へ移すのは極よい。<br/><br/> 053 稲荷を祀る位置 先年母が御目にかけました雷電稲荷大明神、その後吉原に疎開してよりちがい棚にありますが、やはり庭に祭るべきでしょうか。<br/><br/>また、元の地所にした方が良いでしょうか。<br/><br/>あるいはもう御社に御納めして良いのでしょうか。<br/><br/>御教え下さい。<br/><br/> 稲荷は庭に祀るべきで、室内はいけない。<br/><br/>狐は穴を掘って住んでいるから、これを家に祀ると地獄に住む事になるから、きっと不幸になる。<br/><br/>庭に祀る時、人間の座っている高さより二、三尺高く祀る。<br/><br/>（S23.10.13） 054 地の神と祀方 去年家内中御光を頂き光明如来様も御祭りして布教に熱心な家ですが、長男二十五才は二年前から痔瘻から結核となり、医者に見離されていましたが、本年五月楽に死にました。<br/><br/>死ぬ前日の晩、叔母が仏壇の前で善言讃詞を奏げている中に叔母に霊が憑り、「己はここの地主だ。<br/><br/>断りなしに己の土地に家を建て、先祖にばかり供養して己には飯も水も供えない、謝らなければ子供を皆殺してやる」と言いますので、謝ってそれ以来仏壇に御飯と水を供えています。<br/><br/>なおこの土地は銀行から借りたので地主の事は全然知らないとの事です。<br/><br/>今後いかにしたら宜敷いでしょうか。<br/><br/>御教示下さい。<br/><br/> 地龍――土地に住んでる龍で、良く地の神様という。<br/><br/>殺した人に怨みを報ゆるのでなく、彼等は住む人に怨みをかける。<br/><br/>そういう所へ住むのもその人に曇りがあるからで、相応の理である。<br/><br/>罪穢があるのである。<br/><br/>よく謝り庭か何かにお宮を作ってやる。<br/><br/>石で二尺積んで石の宮にし、土地の名がよい。<br/><br/>生米が好きであるから忘れずに上げる。<br/><br/>（S24. 7. 5） 055 地の神供養（神は腹減らぬ） ある信者の家庭で、地の神様の霊が出まして「観音様の信仰に入ってから拝んでくれない。<br/><br/>腹が減っては守護が出来ない」と申しましたそうで御座居ますが、月に何回位御祀りしたら宜敷う御座居ましょうか。<br/><br/> 地の神とは動物霊である。<br/><br/>神様には腹の減る事はない。<br/><br/>かわいそうだから月に一回何か上げてやり、祝詞を奏げるとよい。<br/><br/>（S24. 7. 2）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

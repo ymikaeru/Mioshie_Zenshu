@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280405</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月5日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月五日 今選挙戦がさかんで、しきりに公明選挙ということを言われてます。<br><br>この公明選挙と言ったところで、神様が在るということを知らなかったら、なんにもならないのです。<br><br>この前の公明選挙の時も、以前よりかえって悪かったのです。<br><br>そこでそのことを書いてみたのです。<br><br>ことによると『日日新聞』に出すかもしれません。<br><br>まじめに書いても興味を引かないから、ちょっとおもしろく、興味本位に書いてあります。<br><br>それを読ませます。<br><br> （御論文「公明選挙を嗤う」） 時局問題ですが、今世界中を騒がしているのは、ソ連の平和攻勢です。<br><br>ところがこの平和攻勢を非常に喜んで、特にヨーロッパ方面などでは今にも平和が来るように、新聞などにも出ているようです。<br><br>ところがソ連および中共の意図は、前にも休戦会談がずっと続いてありましたが、一時進行不可能になって無期休戦会談になりました。<br><br>それがふたたび開かれたということは、やはり前の休戦会談の続きなのです。<br><br>そうすると、なぜ続けなければならないかというと、やはり時を稼ぐためなのです。<br><br>そこでソ連や中共の方でアメリカの様子をみると、アイゼンハウアーになって、今度は大々的攻撃に出るらしい、いろんな武器を日本に注文したり、台湾を解放したり、朝鮮では韓国軍の兵隊を多くして猛訓練を始めた、おまけに国民軍などが上陸作戦の演習を始めたりして、そこで今そういうように攻撃されては中共軍が危ないのです。<br><br>そこで準備が完成してないから、もう少し延ばさなければならない。<br><br>そうしてまた、中共がへたにやられると、ソ連が大いに手伝わなければならないから、それもたいへんだから、ソ連の方の準備ももっとできなければ、まだ危ないからというので、ソ連が手伝って朝鮮の戦争を延ばすというのが根本なのです。<br><br>だからそれがために平和がどうということはないのです。<br><br>つまり表面は大いに平和攻勢に見せかけて、そうして腹の底は、朝鮮の戦争を延ばすという、要するに時を嫁ぐということが一つと、もう一つはヨーロッパ方面がだいぶ軍備を固めているので、これを崩してやろうというので、大いにヨーロッパ方面にも呼びかけて安心させて、軍備を緩めようという、やはり一種の時稼ぎです。<br><br>それを狙っているにすぎないのです。<br><br> しかしアイゼンハウアーはそれを覚っているような具合で、非常に落ちつきはらって、言うことが冷静で、それに乗るような言葉はないから確かです。<br><br>結局そういうわけで、なにしろソ連というのは世界を平和にするという肚は少しもないのです。<br><br>いくらスターリンが死んでも、世界制覇の目的をやめるわけではないのです。<br><br>ただいよいよとなるとアメリカと正面に向かって戦わなければならないから、それにはよほどの準備が必要ですから、五カ年計画を続けつつ、あくまでも戦備を充実させているわけです。<br><br>だから日本などもうっかり油断してはならないわけです。<br><br>大体ソ連という国は伝統的に世界制覇が目的なのです。<br><br>ただ前のロマノフ朝の時は、やっぱりそういった考えでやっていたところが、邪神の方では、もうそれでは駄目だというので共産主義を作って、レーニン、スターリンという順序でやったのです。<br><br>今度は言わば三代目でマレンコフですが、しかしマレンコフもどうなるか分からないが、とにかくずっと続いてやっているのです。<br><br>そのやり方は、人によって方法が違うわけですが、それが根本ですから、それさえ知っていれば良く分かります。<br><br>日本の政治家たちは本当の商売人はなく、その日暮らしですから、そういう根本を見破ってないから、年中フラフラしてます。<br><br>だから、いつなんどきチャンバラが始まるか分からないです。<br><br>それでその一番のきっかけとしては、本当にソ連が平和政策をやるのなら、まず朝鮮から撤兵すべきです。<br><br>そうして中共と蒋介石の方とは、まず中国を半分くらいにして両方で政権を握るというような案を持ち出せば、まず東洋だけは一時平和攻勢の具体化となりますが、おそらくそこまでの決心はつきかねるのです。<br><br>たとえマレンコフの方でそう思ったところで、毛沢東が、中国全土を掌握したものを、その半分なり三分の一に分けるという考えにはとうていならないから、どうしてもアイゼンハウアーの強行政策によって軍事的に朝鮮から中共軍を追い払って、南北を合併させて、その次に中国の大攻撃をやるというよりしようがないわけです。<br><br> それから今度の『結核信仰療法』はだいぶ売れるようです。<br><br>これが将来なかなか問題になるだろうと思ってますが、そのことをちょっと書いてみました。<br><br> （御論文「結核信仰療法に就いて」）【栄光 二〇四号】 四月八日はお釈迦様の誕生日ですが、この日に私は京都に行くことになってます。<br><br>べつにそういう意味でなくて、去年も一昨年も桜の花時分を見なかったので、今年は桜の咲く時分にと思ったのです。<br><br>それに嵯峨の近所には桜が多いそうです。<br><br>昔から「嵯峨野の花見」ということを言われているくらいですから。<br><br>それに間に合うようにと思って、七日まで面会ですから、次の日に行くとすると八日になりますが、よく考えてみるとお釈迦さんの誕生日になるので、これは大いに意味がなくてはならないと思ったのですが、やっぱり大いに意味があるのです。<br><br>それは、いよいよ仏滅が近寄ってきたので、とにかくお釈迦さんの仕事をするわけです。<br><br>それからいろいろなことがだんだん分かってきましたが、これは今はっきり言うことはできません。<br><br>あっちに行って仕事を見れば分かりますが、仏滅に対して神様はいかに巧妙なやり方をされるかということが分かります。<br><br>それで嵯峨という言葉は、言霊上「シャカ」ということになるのです。<br><br>「シャカ」ということは「逆さ」ということです。<br><br>ですから今までは逆さの世の中というわけです。<br><br>それが今度本当に直るわけです。<br><br>そこで逆さということは体主霊従だったのです。<br><br>日より月の方が地位が上だったのです。<br><br>太陽が隠れていたのです。<br><br>それは夜の世界ですが、だんだん月が沈んで太陽が上に昇るというので逆さが直るわけです。<br><br>ですからお釈迦様の教える時代は逆さであったのです。<br><br>それで「サガ」という言霊は、昔から「嵯峨の釈迦」と言っているくらいですから、日本における仏教の元というわけです。<br><br>ですからあそこには昔から釈迦堂があるのです。<br><br>それでちょうど今度の嵯峨の所は、釈迦堂のすぐ手前ですから、私が嵯峨に行ってお釈迦様の働きをするわけです。<br><br>そこでお釈迦様はいずれ将来仏滅の世が来るということを言われたとおり、いよいよ仏滅の世が来たのです。<br><br>そこでお釈迦様は霊ですから、そういう仕事はできないから、やはり私がそういう仕事をやるというわけで、四月八日に行くようになったのです。<br><br>それでは経綸はどういうようになるかというと、それはいずれあっちに美術館を造りますが、あるいは美術館が一番先になるかもわかりませんが、設計は大体頭にできてます。<br><br>来年あたりから始めるでしょうが、これは割合に簡単にできます。<br><br>それから仏滅の経綸と言いますが、仏を滅ぼすのではなくて仏を救うのです。<br><br>仏界を救うのです。<br><br>つまり京都という所は、そういった意味でお寺がたくさんあるのです。<br><br>ですから奈良、京都と、これが日本における仏教の源地です。<br><br>根本霊場と言いますか。<br><br>そういうわけでそういう経綸があるのです。<br><br>それでこれからあっちがだんだん始まって行きますからおもしろいのです。<br><br>それに経綸はだいぶ早くなりつつありますから、割合に早くなります。<br><br>そうしてこれは割合に楽で、おもしろく行くわけです。<br><br> それから話は違うが、最近精神病が非常に多くなってきたのです。<br><br>日本においてもそうですが、アメリカなどは特に酷いです。<br><br>そこであなた方の方でも精神病をだんだんよけい扱うようになると思いますが、精神病について、そのなおし方を詳しく話そうと思います。<br><br>精神病は私の本に書いてあるとおり、つまり脳貧血が原因なのです。<br><br>そこに霊が憑るのです。<br><br>この一番の因は延髄です。<br><br>精神病の者を見ると必ず延髄に固まりがあります。<br><br>この固まりが溶けるに従ってはっきりしてくるし、おとなしくもなるのです。<br><br>その次に横も関係ありますが、一番は延髄です。<br><br>これは人によって左と右との片方が多いのです。<br><br>それで精神病の最初は不眠が一番の原因なのです。<br><br>それは右の方の延髄です。<br><br>それから不眠に関係なく起るのは、左の延髄の固まりが圧迫して起ると思えばいいです。<br><br>それからよく頭がボーッとする人は左の延髄に固まりがあります。<br><br> それから、ついでに話しますが、目が悪いのは、左と右の延髄の真ん中の後頭部の所ですから、目の悪い人はそこを中心にやればいいです。<br><br>これは実にはっきりしてます。<br><br>目の急所は後頭部のちょっと下の所に必ず固まりがあります。<br><br>そういう人は目が悪いのです。<br><br>近眼もそうです。<br><br>それから右の目の場合は左に固まりがあります。<br><br>これは交感神経が頭を中心に交叉してますから、逆になるわけです。<br><br> それから鼻の悪い人は後頭部から一帯にずっと下まで毒の固まりがあります。<br><br>ちょうど鼻の裏になるわけです。<br><br>だからそこを浄霊すればいいのです。<br><br>それから耳鳴りはみんな知っているでしょうが、延髄をやればきっと良くなります。<br><br>耳の方は目とは違って、右の方なら右の方で良いのです。<br><br>耳鳴りの人は随分ありますが、耳鳴りをなおすのはわけありません。<br><br>延髄の固まりさえ取れば必ずなおります。<br><br> そういうようで精神病はこれからだんだん増えます。<br><br>というのは、霊界が変わってくると霊が浮きやすくなりますから、ちょうど浄化が強くなると固まりが溶けやすくなるのと同じようなもので、霊も落ちついていたものが浮いてくるわけです。<br><br>私の本に「日本人は全部精神病だ」と書いてありますが、どんな偉い人でも発作的の精神病があるのです。<br><br>吉田首相の「馬鹿野郎」も発作的の精神病です。<br><br>後では後悔したでしょうが、総理大臣が発作的に精神病になるのですから、日本人全体が精神病と言っても間違いないでしょう。<br><br>だからいわんや一般人民においてをやです。<br><br>ですから発作的に変なことを言っても、そう恥ずかしいことはありません。<br><br>とにかく精神病は、人ばかりではないので、自分でもおかしいところがあると思ったら、自分で浄霊するのです。<br><br> それから精神病で暴れるのは触らせませんから、そういうのは遠くからで良いですから、遠くからやるのです。<br><br>それでもだいぶ違います。<br><br>それから額も肝腎なのです。<br><br>つまり延髄の血管が圧迫されていると、ここの血液が前頭部に行きますから、前頭部から浄霊する必要があります。<br><br>ですから延髄、淋巴腺、前頭部、頭の中心という順序でやれば必ずなおります。<br><br>ただ人によって、暇がかかるのと割合に早いのとの違いはありますが、ごく質（たち）の悪いのは長くはかかりますが、しかし必ずなおります。<br><br>ですから今病院では精神病が一番満員でしょう。<br><br>とにかく今一番多いのは結核と精神病です。<br><br>結核は今までで充分わかったでしょうが、今日は精神病について詳しく話したのです。<br><br>それでどっちも始末が悪いのは、結核の方は伝染するだろうといって心配するのです。<br><br>信者はそういうことは知っているから平気ですが、一般人としたらその感染を恐れる悲劇というものはたいへんです。<br><br>それから精神病も側の者は結核に負けないくらい始末が悪いのです。<br><br> これから浄化がだんだん強くなりますから、話の種に病気について一番はやりそうな病気を説明する考えです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Discernimento sobre a Época e a Prática da Fé</h2>
 <p>Neste momento, a campanha eleitoral está em plena efervescência, e muito se fala sobre a necessidade de eleições limpas. Contudo, de nada adianta clamar por eleições justas se não se reconhece a existência de Deus. A última eleição dita “limpa” foi, na verdade, pior que as anteriores. Refleti sobre essa questão e redigi um artigo a respeito, que talvez venha a ser publicado no jornal <em>Nichinichi Shimbun</em>. Para não o tornar desinteressante com um tom excessivamente sério, procurei escrevê-lo de forma a despertar a curiosidade do leitor, com um toque de humor. Peço que façam a leitura.</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>Quando o paciente com transtorno mental se mostra violento e não permite o toque, ministrem Johrei a distância. Mesmo assim, haverá um resultado significativo. A região frontal também é crucial. A pressão sobre os vasos sanguíneos do bulbo afeta a circulação na parte frontal do cérebro, tornando necessário ministrar Johrei ali. A sequência correta é: bulbo, glândulas linfáticas, região frontal e o centro da cabeça. Seguindo essa ordem, a cura é certa. A única diferença entre os casos é o tempo necessário para a recuperação; os de natureza mais grave exigem mais tempo, mas a cura é inevitável. Os hospitais, hoje, devem estar lotados de pacientes com transtornos mentais. As duas doenças mais prevalentes atualmente são a tuberculose e os transtornos mentais. Sobre a tuberculose, vocês já receberam explicações suficientes. Hoje, detalhei a questão dos transtornos mentais.</p>
 <p>A dificuldade em ambos os casos reside no fardo que representam para as pessoas ao redor. No caso da tuberculose, há o medo do contágio. Os messiânicos, por conhecerem a verdade, não se preocupam, mas para o público em geral, a tragédia do medo da infecção é imensa. Da mesma forma, conviver com uma pessoa com transtorno mental impõe um fardo tão grande quanto o da tuberculose.</p>
 <p>À medida que a purificação se intensificar, pretendo explicar as doenças mais comuns, para que sirvam de tema para suas conversas e elucidações.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月5日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月五日 今選挙戦がさかんで、しきりに公明選挙ということを言われてます。<br/><br/>この公明選挙と言ったところで、神様が在るということを知らなかったら、なんにもならないのです。<br/><br/>この前の公明選挙の時も、以前よりかえって悪かったのです。<br/><br/>そこでそのことを書いてみたのです。<br/><br/>ことによると『日日新聞』に出すかもしれません。<br/><br/>まじめに書いても興味を引かないから、ちょっとおもしろく、興味本位に書いてあります。<br/><br/>それを読ませます。<br/><br/> （御論文「公明選挙を嗤う」） 時局問題ですが、今世界中を騒がしているのは、ソ連の平和攻勢です。<br/><br/>ところがこの平和攻勢を非常に喜んで、特にヨーロッパ方面などでは今にも平和が来るように、新聞などにも出ているようです。<br/><br/>ところがソ連および中共の意図は、前にも休戦会談がずっと続いてありましたが、一時進行不可能になって無期休戦会談になりました。<br/><br/>それがふたたび開かれたということは、やはり前の休戦会談の続きなのです。<br/><br/>そうすると、なぜ続けなければならないかというと、やはり時を稼ぐためなのです。<br/><br/>そこでソ連や中共の方でアメリカの様子をみると、アイゼンハウアーになって、今度は大々的攻撃に出るらしい、いろんな武器を日本に注文したり、台湾を解放したり、朝鮮では韓国軍の兵隊を多くして猛訓練を始めた、おまけに国民軍などが上陸作戦の演習を始めたりして、そこで今そういうように攻撃されては中共軍が危ないのです。<br/><br/>そこで準備が完成してないから、もう少し延ばさなければならない。<br/><br/>そうしてまた、中共がへたにやられると、ソ連が大いに手伝わなければならないから、それもたいへんだから、ソ連の方の準備ももっとできなければ、まだ危ないからというので、ソ連が手伝って朝鮮の戦争を延ばすというのが根本なのです。<br/><br/>だからそれがために平和がどうということはないのです。<br/><br/>つまり表面は大いに平和攻勢に見せかけて、そうして腹の底は、朝鮮の戦争を延ばすという、要するに時を嫁ぐということが一つと、もう一つはヨーロッパ方面がだいぶ軍備を固めているので、これを崩してやろうというので、大いにヨーロッパ方面にも呼びかけて安心させて、軍備を緩めようという、やはり一種の時稼ぎです。<br/><br/>それを狙っているにすぎないのです。<br/><br/> しかしアイゼンハウアーはそれを覚っているような具合で、非常に落ちつきはらって、言うことが冷静で、それに乗るような言葉はないから確かです。<br/><br/>結局そういうわけで、なにしろソ連というのは世界を平和にするという肚は少しもないのです。<br/><br/>いくらスターリンが死んでも、世界制覇の目的をやめるわけではないのです。<br/><br/>ただいよいよとなるとアメリカと正面に向かって戦わなければならないから、それにはよほどの準備が必要ですから、五カ年計画を続けつつ、あくまでも戦備を充実させているわけです。<br/><br/>だから日本などもうっかり油断してはならないわけです。<br/><br/>大体ソ連という国は伝統的に世界制覇が目的なのです。<br/><br/>ただ前のロマノフ朝の時は、やっぱりそういった考えでやっていたところが、邪神の方では、もうそれでは駄目だというので共産主義を作って、レーニン、スターリンという順序でやったのです。<br/><br/>今度は言わば三代目でマレンコフですが、しかしマレンコフもどうなるか分からないが、とにかくずっと続いてやっているのです。<br/><br/>そのやり方は、人によって方法が違うわけですが、それが根本ですから、それさえ知っていれば良く分かります。<br/><br/>日本の政治家たちは本当の商売人はなく、その日暮らしですから、そういう根本を見破ってないから、年中フラフラしてます。<br/><br/>だから、いつなんどきチャンバラが始まるか分からないです。<br/><br/>それでその一番のきっかけとしては、本当にソ連が平和政策をやるのなら、まず朝鮮から撤兵すべきです。<br/><br/>そうして中共と蒋介石の方とは、まず中国を半分くらいにして両方で政権を握るというような案を持ち出せば、まず東洋だけは一時平和攻勢の具体化となりますが、おそらくそこまでの決心はつきかねるのです。<br/><br/>たとえマレンコフの方でそう思ったところで、毛沢東が、中国全土を掌握したものを、その半分なり三分の一に分けるという考えにはとうていならないから、どうしてもアイゼンハウアーの強行政策によって軍事的に朝鮮から中共軍を追い払って、南北を合併させて、その次に中国の大攻撃をやるというよりしようがないわけです。<br/><br/> それから今度の『結核信仰療法』はだいぶ売れるようです。<br/><br/>これが将来なかなか問題になるだろうと思ってますが、そのことをちょっと書いてみました。<br/><br/> （御論文「結核信仰療法に就いて」）【栄光 二〇四号】 四月八日はお釈迦様の誕生日ですが、この日に私は京都に行くことになってます。<br/><br/>べつにそういう意味でなくて、去年も一昨年も桜の花時分を見なかったので、今年は桜の咲く時分にと思ったのです。<br/><br/>それに嵯峨の近所には桜が多いそうです。<br/><br/>昔から「嵯峨野の花見」ということを言われているくらいですから。<br/><br/>それに間に合うようにと思って、七日まで面会ですから、次の日に行くとすると八日になりますが、よく考えてみるとお釈迦さんの誕生日になるので、これは大いに意味がなくてはならないと思ったのですが、やっぱり大いに意味があるのです。<br/><br/>それは、いよいよ仏滅が近寄ってきたので、とにかくお釈迦さんの仕事をするわけです。<br/><br/>それからいろいろなことがだんだん分かってきましたが、これは今はっきり言うことはできません。<br/><br/>あっちに行って仕事を見れば分かりますが、仏滅に対して神様はいかに巧妙なやり方をされるかということが分かります。<br/><br/>それで嵯峨という言葉は、言霊上「シャカ」ということになるのです。<br/><br/>「シャカ」ということは「逆さ」ということです。<br/><br/>ですから今までは逆さの世の中というわけです。<br/><br/>それが今度本当に直るわけです。<br/><br/>そこで逆さということは体主霊従だったのです。<br/><br/>日より月の方が地位が上だったのです。<br/><br/>太陽が隠れていたのです。<br/><br/>それは夜の世界ですが、だんだん月が沈んで太陽が上に昇るというので逆さが直るわけです。<br/><br/>ですからお釈迦様の教える時代は逆さであったのです。<br/><br/>それで「サガ」という言霊は、昔から「嵯峨の釈迦」と言っているくらいですから、日本における仏教の元というわけです。<br/><br/>ですからあそこには昔から釈迦堂があるのです。<br/><br/>それでちょうど今度の嵯峨の所は、釈迦堂のすぐ手前ですから、私が嵯峨に行ってお釈迦様の働きをするわけです。<br/><br/>そこでお釈迦様はいずれ将来仏滅の世が来るということを言われたとおり、いよいよ仏滅の世が来たのです。<br/><br/>そこでお釈迦様は霊ですから、そういう仕事はできないから、やはり私がそういう仕事をやるというわけで、四月八日に行くようになったのです。<br/><br/>それでは経綸はどういうようになるかというと、それはいずれあっちに美術館を造りますが、あるいは美術館が一番先になるかもわかりませんが、設計は大体頭にできてます。<br/><br/>来年あたりから始めるでしょうが、これは割合に簡単にできます。<br/><br/>それから仏滅の経綸と言いますが、仏を滅ぼすのではなくて仏を救うのです。<br/><br/>仏界を救うのです。<br/><br/>つまり京都という所は、そういった意味でお寺がたくさんあるのです。<br/><br/>ですから奈良、京都と、これが日本における仏教の源地です。<br/><br/>根本霊場と言いますか。<br/><br/>そういうわけでそういう経綸があるのです。<br/><br/>それでこれからあっちがだんだん始まって行きますからおもしろいのです。<br/><br/>それに経綸はだいぶ早くなりつつありますから、割合に早くなります。<br/><br/>そうしてこれは割合に楽で、おもしろく行くわけです。<br/><br/> それから話は違うが、最近精神病が非常に多くなってきたのです。<br/><br/>日本においてもそうですが、アメリカなどは特に酷いです。<br/><br/>そこであなた方の方でも精神病をだんだんよけい扱うようになると思いますが、精神病について、そのなおし方を詳しく話そうと思います。<br/><br/>精神病は私の本に書いてあるとおり、つまり脳貧血が原因なのです。<br/><br/>そこに霊が憑るのです。<br/><br/>この一番の因は延髄です。<br/><br/>精神病の者を見ると必ず延髄に固まりがあります。<br/><br/>この固まりが溶けるに従ってはっきりしてくるし、おとなしくもなるのです。<br/><br/>その次に横も関係ありますが、一番は延髄です。<br/><br/>これは人によって左と右との片方が多いのです。<br/><br/>それで精神病の最初は不眠が一番の原因なのです。<br/><br/>それは右の方の延髄です。<br/><br/>それから不眠に関係なく起るのは、左の延髄の固まりが圧迫して起ると思えばいいです。<br/><br/>それからよく頭がボーッとする人は左の延髄に固まりがあります。<br/><br/> それから、ついでに話しますが、目が悪いのは、左と右の延髄の真ん中の後頭部の所ですから、目の悪い人はそこを中心にやればいいです。<br/><br/>これは実にはっきりしてます。<br/><br/>目の急所は後頭部のちょっと下の所に必ず固まりがあります。<br/><br/>そういう人は目が悪いのです。<br/><br/>近眼もそうです。<br/><br/>それから右の目の場合は左に固まりがあります。<br/><br/>これは交感神経が頭を中心に交叉してますから、逆になるわけです。<br/><br/> それから鼻の悪い人は後頭部から一帯にずっと下まで毒の固まりがあります。<br/><br/>ちょうど鼻の裏になるわけです。<br/><br/>だからそこを浄霊すればいいのです。<br/><br/>それから耳鳴りはみんな知っているでしょうが、延髄をやればきっと良くなります。<br/><br/>耳の方は目とは違って、右の方なら右の方で良いのです。<br/><br/>耳鳴りの人は随分ありますが、耳鳴りをなおすのはわけありません。<br/><br/>延髄の固まりさえ取れば必ずなおります。<br/><br/> そういうようで精神病はこれからだんだん増えます。<br/><br/>というのは、霊界が変わってくると霊が浮きやすくなりますから、ちょうど浄化が強くなると固まりが溶けやすくなるのと同じようなもので、霊も落ちついていたものが浮いてくるわけです。<br/><br/>私の本に「日本人は全部精神病だ」と書いてありますが、どんな偉い人でも発作的の精神病があるのです。<br/><br/>吉田首相の「馬鹿野郎」も発作的の精神病です。<br/><br/>後では後悔したでしょうが、総理大臣が発作的に精神病になるのですから、日本人全体が精神病と言っても間違いないでしょう。<br/><br/>だからいわんや一般人民においてをやです。<br/><br/>ですから発作的に変なことを言っても、そう恥ずかしいことはありません。<br/><br/>とにかく精神病は、人ばかりではないので、自分でもおかしいところがあると思ったら、自分で浄霊するのです。<br/><br/> それから精神病で暴れるのは触らせませんから、そういうのは遠くからで良いですから、遠くからやるのです。<br/><br/>それでもだいぶ違います。<br/><br/>それから額も肝腎なのです。<br/><br/>つまり延髄の血管が圧迫されていると、ここの血液が前頭部に行きますから、前頭部から浄霊する必要があります。<br/><br/>ですから延髄、淋巴腺、前頭部、頭の中心という順序でやれば必ずなおります。<br/><br/>ただ人によって、暇がかかるのと割合に早いのとの違いはありますが、ごく質（たち）の悪いのは長くはかかりますが、しかし必ずなおります。<br/><br/>ですから今病院では精神病が一番満員でしょう。<br/><br/>とにかく今一番多いのは結核と精神病です。<br/><br/>結核は今までで充分わかったでしょうが、今日は精神病について詳しく話したのです。<br/><br/>それでどっちも始末が悪いのは、結核の方は伝染するだろうといって心配するのです。<br/><br/>信者はそういうことは知っているから平気ですが、一般人としたらその感染を恐れる悲劇というものはたいへんです。<br/><br/>それから精神病も側の者は結核に負けないくらい始末が悪いのです。<br/><br/> これから浄化がだんだん強くなりますから、話の種に病気について一番はやりそうな病気を説明する考えです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

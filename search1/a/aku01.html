@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>aku01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪銭身に着かず 『光』14号、昭和24(1949)年6月25日発行 昔から悪銭身に着かずという言葉があるが全くその通りである、それについて私は霊的に解釈してみよう。<br><br> 投機といえば、株式相場を初め、商品の上り下り、競馬の賭等々種々あるが、その中の代表的のものとして株式相場について解釈してみるが、私も無信仰者時代には株相場に手を出し、数年間売ったり買ったりしたが、ついに大失敗をした、それが信仰生活に入る一の動機となった事ももちろんであると共に、霊的方面を知るに及んで決して為（な）すべきものではないという事を知ったのであるから、この一文を相場に関心を持つ人に対し、ぜひ読まれん事を望むのである。<br><br> 相場なるものは、まず百人損をして一人儲かるという事をよくいわれるがその通りである、一時は一獲千金の儲けによって成金となっても、それが長く続く者はまず一人もあるまい、しかも大儲けをする者程大損をするものであって、儲かれば儲かる程その人の前途は断崖が口を開けて待っているようなものである、まず霊的にみればこうである、損を蒙（こうむ）った大多数者は、口惜しい残念だどうかして損を取返したいと思うのは人情である、従ってその怨みの想念がどこへ行くかというと、自分の金を吸いとった人間に行こうとするが、それはどこの誰だか判らないので、自然取引所を目がけて集注するばかりか、それが紙幣に集まるという事になるのである、この際霊眼によって見れば取引所にある紙幣の面には怨みの人間の顔が何千何万となく印画されており、その一つ一つの顔と、その本人とは霊線で繋っているから、取返そうとする想念がそれを常に引っ張っているという訳で、その紙幣は所有主の金庫には決して永く安定してはいない、いつかは引っ張られるから大損をし一文なしになってしまうのである。<br><br> 右は投機ばかりではない、金銭上のあらゆる事に共通するのである、いわば不正によって得た富や与えるべき金銭を与えなかったり、故意に減らしたり、借金を返さなかったりする場合、先方は怨むから矢張り前述のごとく吐き出さざるを得ない事になるのである。<br><br> 今一つ知らなければならない事は、昔から宗教上の建物が、火災のためよく灰燼（かいじん）に帰する事がある、浄財を集めて建築された清き社寺や殿堂、伽藍等が焼失するという事は不可解に思われるが実は理由がある、というのは、その基金を集める場合無理をする、例えば信徒または末寺に対し一定の額を定め強要する事があるが、これは自然ではない、信仰的献金としては本人の自由意志によって任意の額を決めるのが本当である、気持よく献納する事こそ真の浄財になるのである、今一つはその建造物を利用する上においても神仏の御心にかなうようにすべきで、間違った事をしたり、汚したりするような事があってはならないに関わらず、そうでない場合火の洗霊を受ける事になるのである。<br><br> ただし、相場をとる目的でなく、金利すなわち配当をとる目的で買うのは結構であって、これは何ら怨みを買うような事にはならないのみならず、むしろ産業発展のため有要な事であって大に奨励すべきものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Dinheiro Mal Adquirido Não Permanece</h2>
 <p>Há um antigo provérbio que diz que o dinheiro mal adquirido não permanece, e sua veracidade é absoluta. Proponho-me, neste artigo, a oferecer uma interpretação espiritual para essa máxima.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Este princípio, todavia, não se restringe à especulação, aplicando-se a todas as transações financeiras. Refiro-me à apropriação de bens por meios fraudulentos, à retenção de pagamentos devidos, à redução deliberada de valores a serem entregues ou ao não pagamento de dívidas. Em todos esses casos, a parte lesada nutrirá um ressentimento que, tal como descrevi anteriormente, forçará a dissipação do capital indevidamente acumulado.</p>
 <p>Há outro ponto que merece nossa atenção: o fato de edifícios religiosos serem, desde a antiguidade, frequentemente consumidos por incêndios. Pode parecer um contrassenso que templos e santuários, erigidos com base em donativos puros, terminem reduzidos a cinzas. Contudo, existe uma razão para tal. Ocorre que, muitas vezes, durante a arrecadação de fundos, comete-se o erro de estipular e exigir valores fixos de fiéis ou de templos filiados. Essa prática não é natural. A verdadeira doação religiosa deve partir da livre e espontânea vontade do indivíduo, que define o montante a ser ofertado. Somente o dinheiro doado de bom grado se torna um donativo verdadeiramente puro. Ademais, a utilização desses edifícios sagrados deve estar em conformidade com a Vontade de Deus. Quando isso não acontece — quando se praticam atos equivocados ou se profana o local sagrado —, o edifício se torna suscetível de passar por uma purificação pelo fogo.</p>
 <p>É imperativo, no entanto, fazer uma ressalva. A aquisição de ações com o propósito de obter rendimentos, ou seja, dividendos, e não de lucrar com a oscilação do mercado, é uma prática perfeitamente aceitável. Longe de gerar qualquer tipo de ressentimento, essa atitude contribui para o desenvolvimento da indústria, sendo, portanto, algo que deve ser amplamente incentivado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪銭身に着かず 『光』14号、昭和24(1949)年6月25日発行 昔から悪銭身に着かずという言葉があるが全くその通りである、それについて私は霊的に解釈してみよう。<br/><br/> 投機といえば、株式相場を初め、商品の上り下り、競馬の賭等々種々あるが、その中の代表的のものとして株式相場について解釈してみるが、私も無信仰者時代には株相場に手を出し、数年間売ったり買ったりしたが、ついに大失敗をした、それが信仰生活に入る一の動機となった事ももちろんであると共に、霊的方面を知るに及んで決して為（な）すべきものではないという事を知ったのであるから、この一文を相場に関心を持つ人に対し、ぜひ読まれん事を望むのである。<br/><br/> 相場なるものは、まず百人損をして一人儲かるという事をよくいわれるがその通りである、一時は一獲千金の儲けによって成金となっても、それが長く続く者はまず一人もあるまい、しかも大儲けをする者程大損をするものであって、儲かれば儲かる程その人の前途は断崖が口を開けて待っているようなものである、まず霊的にみればこうである、損を蒙（こうむ）った大多数者は、口惜しい残念だどうかして損を取返したいと思うのは人情である、従ってその怨みの想念がどこへ行くかというと、自分の金を吸いとった人間に行こうとするが、それはどこの誰だか判らないので、自然取引所を目がけて集注するばかりか、それが紙幣に集まるという事になるのである、この際霊眼によって見れば取引所にある紙幣の面には怨みの人間の顔が何千何万となく印画されており、その一つ一つの顔と、その本人とは霊線で繋っているから、取返そうとする想念がそれを常に引っ張っているという訳で、その紙幣は所有主の金庫には決して永く安定してはいない、いつかは引っ張られるから大損をし一文なしになってしまうのである。<br/><br/> 右は投機ばかりではない、金銭上のあらゆる事に共通するのである、いわば不正によって得た富や与えるべき金銭を与えなかったり、故意に減らしたり、借金を返さなかったりする場合、先方は怨むから矢張り前述のごとく吐き出さざるを得ない事になるのである。<br/><br/> 今一つ知らなければならない事は、昔から宗教上の建物が、火災のためよく灰燼（かいじん）に帰する事がある、浄財を集めて建築された清き社寺や殿堂、伽藍等が焼失するという事は不可解に思われるが実は理由がある、というのは、その基金を集める場合無理をする、例えば信徒または末寺に対し一定の額を定め強要する事があるが、これは自然ではない、信仰的献金としては本人の自由意志によって任意の額を決めるのが本当である、気持よく献納する事こそ真の浄財になるのである、今一つはその建造物を利用する上においても神仏の御心にかなうようにすべきで、間違った事をしたり、汚したりするような事があってはならないに関わらず、そうでない場合火の洗霊を受ける事になるのである。<br/><br/> ただし、相場をとる目的でなく、金利すなわち配当をとる目的で買うのは結構であって、これは何ら怨みを買うような事にはならないのみならず、むしろ産業発展のため有要な事であって大に奨励すべきものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

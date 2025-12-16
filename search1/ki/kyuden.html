@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyuden</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十三、灸、電気、鍼、按摩、手術 『日本医術講義録』第１篇、昭和10(1935)年執筆 灸治法は、確かに相当の効果はあるものであるが、それ以上に不可なる理由が在るのである。<br><br>それは、人間の肉体は、神の最高芸術品であるから、その曲線、皮膚等の美は、飽くまで保たす様努めるのが本当であって、いよいよその若さを保たすべく、いささかも、汚さざる様になすべきが本当であって、これが、造物主に対し奉り、報恩感謝であり、大神心を安んじ奉る、人間の心構えであらねばならぬ。<br><br>それに何ぞや、婦人等の艶麗珠のごとき、雪の膚に見るも惨（むごた）らしき、焼処の極印を、大中小羅列するに至っては、沙汰の限りである。<br><br>たとえて言えば、園芸家が、美しく花を咲かしたとする。<br><br>その艶（あで）やかな花弁面へ線香を以て、焼穴を作ったのと変りはない。<br><br>その園芸家はいかに嘆くであろう。<br><br>これを思えば、灸治のいかに、間違って居るかが肯（うなず）かれるであろう。<br><br> 故に、灸治に依って、病気治癒の目的は達せられたとしても、神へ対し奉り、冒涜の罪は免るる能わず、いつかは必ず、その罪の清算に依って、相応の苦しみは脱れる事は出来ないのである。<br><br> 電気療法も一時的、相当の効果はあるが、病気を根治する事は出来得ないのである。<br><br>これは多く説明する必要はない。<br><br>霊から治す力がないからであって、体的に一時は良くするのであって、偶々（たまたま）、その病気が治癒する様に見ゆるも、必ず他に、悪結果を及ぼすものである。<br><br> 鍼療は、灸と同じく、神よりの賜り物へ、傷を付ける業であるから不可なのは言うまでもない事で、又その効果も体的療法であるから一時的であって、根本治療にはならないから不可である。<br><br> 按摩は、これだけは確かに保存すべきものである。<br><br>何となれば、人間は、就中（なかんずく）、都会人は、腕と脚の運動が平均しないものである。<br><br>いかなる人といえども、腕を使用するより、脚を使用する方がずっと多いのであるから、腰部より脚部にかけては、良く血液が循環するのであるが、腕より肩にかけては、自然血液の循環が、非常に悪いのは当然である。<br><br>それが為、欝血（うっけつ）して、肩や首筋が凝る結果になるから、これを補うべく、按摩の必要があるのである。<br><br>故に、平常出来るだけ、腕の運動をする方がいいのである。<br><br> 手 術 言うまでもない事であるが、手術程悪いものはないのである。<br><br>しかし、医師に言わしむれば、病症に依っては、手術をせねば、万に一つも助からぬという患者に施すのであるから、これもまた、止むを得ないとの理由があろう。<br><br>しかし、私が多年の経験上、手術をしなくてもいい場合、手術をしたり、手術をした為に、反って病勢を悪化せしめ、遂に、死に到らしめた様な実例が余りにも多いのである。<br><br>手術の為に生命が助かった人より、手術の為に、生命を落した人の方が多いのは、実験上、疑いないところである。<br><br>西洋医学も血を出し、肉を切る手術などと言う、野蛮極まる方法を用いないで、病気を治療する様にならなければ駄目である。<br><br>それについて、手術療法がいかに誤謬であるかの一例を挙げよう。<br><br> 近来、よく、扁桃腺抜除の手術をするが、これらも非常に謬（あやま）っているのである。<br><br>その訳は、人間の血液は、絶えず浄化作用を行われつつその結果として、血液中の不純物が膿汁となって、一旦頸部に溜積さるるのである。<br><br>それが、なおも外部へ排泄せんとする時、扁桃腺なる最も好適の出口を求めるのである。<br><br>故に、扁桃腺抜除の暁は、膿汁は、出口を塞がれたるを以て、淋巴腺又は耳下腺等に、溜積せらるるが故に、却て、扁桃腺よりも、膿汁排泄に非常に困難を来すのである。<br><br>即ち、淋巴腺へ膿汁滞結すれば、瘰癧（るいれき）となり、耳下腺へ滞溜すれば、中耳炎の原因となるからである。<br><br>従って、最も簡易なる膿汁排泄機関を抜除して得々（とくとく）たる、現代医学の愚や、実に恐るべきものがある。<br><br> 故に、手術は、自然の自己治病工作の妨害をする医薬と等しく、折角の自然治癒を妨害して、病気を悪化させるか、又は、より症状の悪い病気に変化させるだけのものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise sobre as Terapias Físicas e a Cirurgia</h2>
 <p>A moxabustão é um método terapêutico que, de fato, apresenta considerável eficácia. Contudo, há uma razão superior que a torna inaceitável. O corpo humano é a obra-prima da arte Divina; portanto, nosso verdadeiro dever é nos esforçarmos para preservar ao máximo a beleza de suas formas e de sua pele. O correto é zelar por sua vitalidade, sem maculá-lo de nenhuma maneira. Essa postura representa nossa gratidão ao Criador e é a atitude que apazigua o coração de Deus.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Desnecessário dizer, não há nada mais nefasto que a cirurgia. Contudo, os médicos poderiam argumentar que tal procedimento é um recurso inevitável, aplicado a pacientes que não teriam a menor chance de sobreviver de outra forma. Todavia, com base em minha vasta experiência, são excessivamente numerosos os casos em que cirurgias foram realizadas desnecessariamente ou que, em vez de ajudar, agravaram o quadro do paciente, levando-o por fim à morte. É um fato experimentalmente inquestionável que o número de pessoas que perderam a vida devido a uma cirurgia supera o daquelas que foram salvas por ela. A medicina ocidental não alcançará seu verdadeiro propósito enquanto não for capaz de tratar as enfermidades sem recorrer a métodos de extrema barbárie, como o derramamento de sangue e o corte da carne. A esse respeito, citarei um exemplo que ilustra o quão equivocada é a terapia cirúrgica.</p>
 <p>Recentemente, a extração das amígdalas tornou-se um procedimento comum, o que constitui um erro gravíssimo. A razão é que o sangue humano passa por um processo de purificação contínuo e, como resultado, suas impurezas transformam-se em pus, que se acumula temporariamente na região do pescoço. Quando o organismo tenta expelir esse pus, ele busca a via de saída mais adequada: as amígdalas. Portanto, uma vez extraídas, o pus, tendo seu canal de eliminação bloqueado, passa a se acumular nos gânglios linfáticos ou nas glândulas parótidas, o que torna sua expulsão muito mais difícil. Ou seja, se o pus se estagna nos gânglios linfáticos, transforma-se em escrofulose; se se concentra nas glândulas parótidas, torna-se a causa da otite média. Assim, é verdadeiramente assustadora a insensatez da medicina moderna, que se orgulha de remover o mais simples dos órgãos de eliminação de pus.</p>
 <p>Logo, a cirurgia, assim como os medicamentos que interferem no trabalho de autocura do organismo, nada mais faz do que obstruir o processo de cura natural. Sua única consequência é agravar a doença existente ou transformá-la em outra de sintomas ainda piores.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十三、灸、電気、鍼、按摩、手術 『日本医術講義録』第１篇、昭和10(1935)年執筆 灸治法は、確かに相当の効果はあるものであるが、それ以上に不可なる理由が在るのである。<br/><br/>それは、人間の肉体は、神の最高芸術品であるから、その曲線、皮膚等の美は、飽くまで保たす様努めるのが本当であって、いよいよその若さを保たすべく、いささかも、汚さざる様になすべきが本当であって、これが、造物主に対し奉り、報恩感謝であり、大神心を安んじ奉る、人間の心構えであらねばならぬ。<br/><br/>それに何ぞや、婦人等の艶麗珠のごとき、雪の膚に見るも惨（むごた）らしき、焼処の極印を、大中小羅列するに至っては、沙汰の限りである。<br/><br/>たとえて言えば、園芸家が、美しく花を咲かしたとする。<br/><br/>その艶（あで）やかな花弁面へ線香を以て、焼穴を作ったのと変りはない。<br/><br/>その園芸家はいかに嘆くであろう。<br/><br/>これを思えば、灸治のいかに、間違って居るかが肯（うなず）かれるであろう。<br/><br/> 故に、灸治に依って、病気治癒の目的は達せられたとしても、神へ対し奉り、冒涜の罪は免るる能わず、いつかは必ず、その罪の清算に依って、相応の苦しみは脱れる事は出来ないのである。<br/><br/> 電気療法も一時的、相当の効果はあるが、病気を根治する事は出来得ないのである。<br/><br/>これは多く説明する必要はない。<br/><br/>霊から治す力がないからであって、体的に一時は良くするのであって、偶々（たまたま）、その病気が治癒する様に見ゆるも、必ず他に、悪結果を及ぼすものである。<br/><br/> 鍼療は、灸と同じく、神よりの賜り物へ、傷を付ける業であるから不可なのは言うまでもない事で、又その効果も体的療法であるから一時的であって、根本治療にはならないから不可である。<br/><br/> 按摩は、これだけは確かに保存すべきものである。<br/><br/>何となれば、人間は、就中（なかんずく）、都会人は、腕と脚の運動が平均しないものである。<br/><br/>いかなる人といえども、腕を使用するより、脚を使用する方がずっと多いのであるから、腰部より脚部にかけては、良く血液が循環するのであるが、腕より肩にかけては、自然血液の循環が、非常に悪いのは当然である。<br/><br/>それが為、欝血（うっけつ）して、肩や首筋が凝る結果になるから、これを補うべく、按摩の必要があるのである。<br/><br/>故に、平常出来るだけ、腕の運動をする方がいいのである。<br/><br/> 手 術 言うまでもない事であるが、手術程悪いものはないのである。<br/><br/>しかし、医師に言わしむれば、病症に依っては、手術をせねば、万に一つも助からぬという患者に施すのであるから、これもまた、止むを得ないとの理由があろう。<br/><br/>しかし、私が多年の経験上、手術をしなくてもいい場合、手術をしたり、手術をした為に、反って病勢を悪化せしめ、遂に、死に到らしめた様な実例が余りにも多いのである。<br/><br/>手術の為に生命が助かった人より、手術の為に、生命を落した人の方が多いのは、実験上、疑いないところである。<br/><br/>西洋医学も血を出し、肉を切る手術などと言う、野蛮極まる方法を用いないで、病気を治療する様にならなければ駄目である。<br/><br/>それについて、手術療法がいかに誤謬であるかの一例を挙げよう。<br/><br/> 近来、よく、扁桃腺抜除の手術をするが、これらも非常に謬（あやま）っているのである。<br/><br/>その訳は、人間の血液は、絶えず浄化作用を行われつつその結果として、血液中の不純物が膿汁となって、一旦頸部に溜積さるるのである。<br/><br/>それが、なおも外部へ排泄せんとする時、扁桃腺なる最も好適の出口を求めるのである。<br/><br/>故に、扁桃腺抜除の暁は、膿汁は、出口を塞がれたるを以て、淋巴腺又は耳下腺等に、溜積せらるるが故に、却て、扁桃腺よりも、膿汁排泄に非常に困難を来すのである。<br/><br/>即ち、淋巴腺へ膿汁滞結すれば、瘰癧（るいれき）となり、耳下腺へ滞溜すれば、中耳炎の原因となるからである。<br/><br/>従って、最も簡易なる膿汁排泄機関を抜除して得々（とくとく）たる、現代医学の愚や、実に恐るべきものがある。<br/><br/> 故に、手術は、自然の自己治病工作の妨害をする医薬と等しく、折角の自然治癒を妨害して、病気を悪化させるか、又は、より症状の悪い病気に変化させるだけのものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

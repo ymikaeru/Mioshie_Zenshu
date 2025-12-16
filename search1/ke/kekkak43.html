@@ -1,127 +1,276 @@
 ﻿<html>
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR" />
-    <title>kekkak43</title>
-    <link href="../../style4.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body bgcolor="#E9FEDA">
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
-                            <font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
-                            <font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
-                            <font size="2">help</font>
-                        </a></td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
-        <input name="hint" type="hidden" value="ひらがな" />
-        <input name="index" type="hidden" value="shiryo" />
-        <input name="config" type="hidden" value="" />
-        <div align="right">
-            <table border="0" cellpadding="0" cellspacing="0" width="90%">
-                <tr>
-                    <td>
-                        <p align="right">
-                            <font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
-                        </p>
-                    </td>
-                    <td align="center" bgcolor="#EFFFE6" width="150">
-                        <font size="2"><input name="query" size="25" type="text" /></font>
-                    </td>
-                    <td bgcolor="#EFFFE6">
-                        <font size="2"><input type="submit" value="検索" /></font>
-                    </td>
-                    <td width="35">　</td>
-                </tr>
-            </table>
-        </div>
-    </form>
-    <blockquote>
-        
-
-
-
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
+<title>kekkak43</title>
+<link href="../../style4.css" rel="stylesheet" type="text/css"/>
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value=""/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>――</strong></font>
+<font face="HG正楷書体-PRO" size="2"><strong> 岡田自観師の論文集 ――</strong>　</font>
+<font face="ＭＳ ゴシック" size="2"><strong>御教え検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td bgcolor="#EFFFE6" width="35"><a href="../../../cgi/msearch.cgi">
+<font size="2">help</font>
+</a></td>
+</tr>
+</table>
+</div>
+</form>
+<form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
+<input name="hint" type="hidden" value="ひらがな"/>
+<input name="index" type="hidden" value="shiryo"/>
+<input name="config" type="hidden" value=""/>
+<div align="right">
+<table border="0" cellpadding="0" cellspacing="0" width="90%">
+<tr>
+<td>
+<p align="right">
+<font face="ＭＳ ゴシック" size="2"><strong>　　　　　　　　　　　　　　　資料検索</strong>：</font>
+</p>
+</td>
+<td align="center" bgcolor="#EFFFE6" width="150">
+<font size="2"><input name="query" size="25" type="text"/></font>
+</td>
+<td bgcolor="#EFFFE6">
+<font size="2"><input type="submit" value="検索"/></font>
+</td>
+<td width="35">　</td>
+</tr>
+</table>
+</div>
+</form>
+<blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は絶対に感染しない 『明日の医術（再版）第一編』昭和18(1943)年2月5日発行 今日、結核は伝染するものとして非常に恐れられている。<br><br>それが為種々の方策が講ぜられているが、その繁雑極まる事と国家及び個人の負担の莫大なる事等は実に驚くべきものがある。<br><br>故に何人といえどもその伝染を恐れ親子夫婦といえども親しく接近し語り合う事さえ医師から禁ぜられている。<br><br>家庭内において一度結核的罹病者発生するや、家族全部が戦々競々としていつ伝染するやも知れずと危倶しつつ日を送るという――その陰惨なる状態は見るに堪えぬものがある。<br><br>なるほど事実感染するものならばいかなる手段方法をつくすも生命には換えられないから致し方ないとするも、私の発見する所によればそれは決して感染する憂はないのである。<br><br>医学で唱える結核菌なるものは伝染するのではなく自然発生である。<br><br>それはいかなる訳かというとさきに詳しく説いた液体毒素即ち喀痰が速（すみやか）に排泄さるるにおいては何ら微生物は発生しないのであるが、誤れる療法によって喀痰は肺臓内に停滞し固結する。<br><br>この固結した喀痰は時日を経るに従い腐敗するのである。<br><br>いかなるものといえども一度腐敗すれば小虫又は微生物が発生するのは原則である。<br><br>たとえば木材が腐敗すれば白蟻が涌（わ）く、いか程精白した白米といえども古くなれば必ず蛆（うじ）が涌く事は人の知る所である。<br><br>この様に腐敗する所無機物から有機物が発生する。<br><br>白米に蛆が涌くのは蛆の卵が他から侵入したものではないのは勿論である。<br><br>故に結核菌といえども自然発生するのであって絶対に伝染するものではないのである。<br><br>これは今後一層科学が進歩発達するにおいて、非伝染という事を発見するに到ると私は信じている。<br><br> 又、感冒についてさきに説いたごとく各局所の凝結毒素の浄化を停止する為に還元して再凝結した毒素にも結核菌が自然発生するのである。<br><br>瘰癧（るいれき）、腎臓結核その他結核性何々という疾患は右の理によるのである。<br><br> 右の説を実証する為私の経験を述べてみよう。<br><br>私の家族は私ら夫婦の外に子女が六人助手その他の使用人数人合計十数人は常に居たのである。<br><br>そうして十数年の間に重症肺結核と診断された患者を常に一人か二人同棲させて治療したのである。<br><br>少くとも弐拾数人はあったであろう。<br><br>勿論一切家族と同様に扱ったので食事の時も食卓を倶（とも）にし食器等も何ら消毒を施さなかったのである。<br><br>それは治療の為と私の説の実験をする為との二つであった。<br><br>その内の数人は私の家で死去した位であるからいずれも重症の者ばかりであった。<br><br>大病院で結核と断定され治癒の見込なしと刻印を付せられたものばかりであった。<br><br>しかるに今以て誰も感染した者はない。<br><br>いずれも健康そのもののような者ばかりである。<br><br>この実験によってみても伝染しないという事は何ら疑を挿（さしはさ）む余地はないのである。<br><br> なお私はいつでも結核菌の感染を試験して貰いたいのである。<br><br>私自身でも私の家族の誰にでも感染するよう実験してもらいたい事を望むのである。<br><br>喜んで試験台に応ずるものである。<br><br> 右のごとき細菌の自然発生説に対して現代の科学者は嗤（わら）うであろう。<br><br>何となれば、彼の独逸の有名なコッホ博士と並び称せられるフランス細菌学の泰斗パスツールによる細菌発見によって、それまで一般学者によって支持せられていた自然発生説が覆えされたからである。<br><br>それはパスツールが、微生物は自然発生ではなく空気の伝播に因るものであるという理論を実験したのであった。<br><br>それは羊肉の搾（しぼ）り汁を二つのガラス瓶に入れた。<br><br>一つは口の曲れるもの一つは口の真直なるものであった。<br><br>しかるに、口の曲れる方は微生物が発生していないのに真直な方は微生物が発生していたという事実であった。<br><br>それ以来自然発生説は消滅し空気に因る発生説が信ぜられ今日に至っているのである。<br><br>しかしながらこの原理については後に霊と物質について詳しく説くつもりであるからここでは簡単に説明しておく事とする。<br><br> そもそも森羅万象の構成は、火素、水素、土素であって、空気は水素を主とし、霊気は火素を主としている。<br><br>しかしながら今日までの科学では霊気即ち火素は未発見である。<br><br>そうして空気は緯（よこ）に流動し、霊気（火気）は経（たて）に上下昇降しているのである。<br><br>そうして、有機体である微生物が自然発生する場合火素即ち熱を要するのである。<br><br>しかしこの熱はガラス又は金属のごとき硬物質にてある程度遮断さるるのである。<br><br>故にパスツールが実験の際口の曲れるガラス瓶が火素の熱を遮断したからである。<br><br> 又十九世紀の医聖といわれるウィルヒョウ博士が細胞病理学を唱えるに及んで近代医学は新時代をかくしたといわれる。<br><br>それによれば人体は皮膚、粘膜、筋肉、骨格、毛髪等すべて無数の細胞から成立っていて、その細胞の一つ一つが生命と生活とを有し各々の細胞の生命と生活とが集って一個の人体を構成しているので、病気というのはつまりそれら細胞が変性しその生活が衰えた状態を指すというのが細胞病理学の大体である。<br><br> 例えば肺結核においては、結核菌が肺の組織中に侵入し繁殖し毒素を出す為にその部分の細胞が変性あるいは破壊され、破壊された細胞は血液中に吸収されて全身の器能に障碍を及ぼし、発熱、盗汗その他の症状を起すというのである。<br><br> 即ち結核患者の熱は結核菌が肺臓内に侵蝕して病竃（びょうそう）部を作り、この病竃部と菌自身から出す毒素の為に発熱中枢が刺戟されて発熱するというのである。<br><br> 右のごとき病理説は根本的に誤謬である。<br><br>言うまでもなく細胞の生活が衰えてそれが病源であるとすれば、新陳代謝の最も旺盛である少年期から青年期に病気は発生しないで老年期になる程発病しなければならないはずではないか。<br><br>この様な余りにも事実と相反する理論が信じられてきたというのはむしろ不思議と思うのである。<br><br> 又肺結核における発熱が結核菌の作用としているが、仮にそれを肯定するとして菌自身から出す毒素の為に発熱中枢が刺戟さるるというが、一体発熱中枢とはいかなる器能であるか医学においては脳にあるとしているが、恐らく全世界のいかなる医学者といえども実証は出来得まい。<br><br> 何となれば、発熱中枢などという機能は脳は固より人体いずれの部分にも全然無いからである。<br><br> 以上のごとき幼稚極まる病理によっていかに研究するといえども解決の出来得ない事は当然である。<br><br>そうして私は大別して肺結核を解決する方法として二つの点を挙げてみよう。<br><br> 一、ただ肺結核のみを減少すべき方法としては国民全体の体位を低下させる事である。<br><br>即ち青年をして老人のごとき体質とする事で即ち近代の白人がそれである。<br><br> 二、結核の特徴である熱を発生しない人間――即ち有毒者でない人間――即ち真の意味における完全健康者を作る事。<br><br> 右のいずれを撰ぶべきや、勿論後者の人間を作るという事――それが真の解決であり私の創成した医術によってのみ可能である。<br><br>しかるに現在行いつつある西洋医学的方法は前者の方法である事を知らねばならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content">
-            <h2>A Tuberculose Jamais é Transmitida por Contágio</h2>
-            <p><em>Ashita no Ijutsu (Reedição), Volume I — Publicado em 5 de fevereiro de 1943</em></p>
-            <p>Atualmente, a tuberculose é extremamente temida por ser considerada uma doença contagiosa. Em virtude
+<h2>A Tuberculose Jamais é Transmitida por Contágio</h2>
+<p><em>Ashita no Ijutsu (Reedição), Volume I — Publicado em 5 de fevereiro de 1943</em></p>
+<p>Atualmente, a tuberculose é extremamente temida por ser considerada uma doença contagiosa. Em virtude
                 desse temor, diversas medidas são implementadas, cujo caráter excessivamente complexo e o fardo
                 financeiro colossal, tanto para o Estado quanto para os indivíduos, são verdadeiramente assombrosos.
                 Consequentemente, todos receiam o contágio a tal ponto que os médicos chegam a proibir até mesmo o
                 contato próximo e a conversação entre pais e filhos ou entre cônjuges. Quando um caso de tuberculose
                 surge em um lar, toda a família passa a viver em um estado de apreensão constante, sob a sombra da
                 dúvida de quando o contágio poderá ocorrer. Essa situação lúgubre é, de fato, penosa de se observar.</p>
-            <p>Certamente, se a doença fosse de fato contagiosa, não haveria alternativa senão recorrer a quaisquer
+<p>Certamente, se a doença fosse de fato contagiosa, não haveria alternativa senão recorrer a quaisquer
                 meios para preservar a vida, que é insubstituível. Todavia, segundo minhas descobertas, não há
                 absolutamente motivo para se preocupar com o contágio. O que a medicina denomina bacilo da tuberculose
                 não é transmitido, mas sim gerado espontaneamente. A razão para tal fenômeno é a seguinte: conforme
@@ -130,17 +279,17 @@ function toggleLang(lang) {
                 permanece estagnado nos pulmões e se solidifica. Com o passar do tempo, esse escarro solidificado entra
                 em estado de putrefação. É um princípio universal que, onde quer que haja putrefação, surjam pequenos
                 insetos ou microrganismos.</p>
-            <p>A título de exemplo, é de conhecimento geral que da madeira em decomposição surgem cupins e que mesmo o
+<p>A título de exemplo, é de conhecimento geral que da madeira em decomposição surgem cupins e que mesmo o
                 arroz mais refinado, ao envelhecer, inevitavelmente gera larvas. Desse modo, a matéria orgânica pode
                 surgir da matéria inorgânica em putrefação. É evidente que as larvas no arroz não provêm de ovos que ali
                 foram depositados externamente. Portanto, o bacilo da tuberculose também se origina por geração
                 espontânea, não sendo, em hipótese alguma, transmitido por contágio. Tenho a convicção de que, com o
                 futuro avanço da ciência, chegar-se-á à descoberta de que a tuberculose não é uma doença contagiosa.</p>
-            <p>Ademais, como expliquei anteriormente a respeito dos resfriados, o bacilo da tuberculose também se
+<p>Ademais, como expliquei anteriormente a respeito dos resfriados, o bacilo da tuberculose também se
                 origina espontaneamente nas toxinas que, após um processo de purificação interrompido, se solidificam
                 novamente em diversas partes do corpo. Doenças como a escrofulose, a tuberculose renal e outras
                 enfermidades com a designação "tuberculosa" obedecem a esse mesmo princípio.</p>
-            <p>Para corroborar esta teoria, permitam-me relatar minha própria experiência. Meu lar sempre foi habitado
+<p>Para corroborar esta teoria, permitam-me relatar minha própria experiência. Meu lar sempre foi habitado
                 por mais de uma dezena de pessoas, incluindo minha esposa, nossos seis filhos, assistentes e outros
                 empregados. Ao longo de mais de uma década, acolhemos e tratamos continuamente um ou dois pacientes
                 diagnosticados com tuberculose pulmonar em estado grave, que viviam conosco. O número total de pacientes
@@ -152,11 +301,11 @@ function toggleLang(lang) {
                 diagnósticos de tuberculose incurável. Contudo, até o presente momento, ninguém de minha família
                 contraiu a doença; todos gozam de perfeita saúde. Diante dessa experiência, não resta a menor margem
                 para dúvida de que a tuberculose não é transmitida por contágio.</p>
-            <p>Acrescento ainda que estou à inteira disposição para que se ponha à prova a teoria do contágio pelo
+<p>Acrescento ainda que estou à inteira disposição para que se ponha à prova a teoria do contágio pelo
                 bacilo da tuberculose. Desejo, inclusive, que realizem experimentos para tentar infectar a mim ou a
                 qualquer membro de minha família. Com grande satisfação, nos ofereceríamos como voluntários para tal
                 teste.</p>
-            <p>Os cientistas modernos provavelmente zombarão desta teoria da geração espontânea de microrganismos. A
+<p>Os cientistas modernos provavelmente zombarão desta teoria da geração espontânea de microrganismos. A
                 razão para tal ceticismo remonta à descoberta das bactérias por Pasteur, o célebre bacteriologista
                 francês, cujo renome se equipara ao do famoso doutor Koch, da Alemanha. Foi essa descoberta que refutou
                 a teoria da geração espontânea, até então amplamente aceita pela comunidade acadêmica. Pasteur
@@ -165,7 +314,7 @@ function toggleLang(lang) {
                 gargalo reto e outro com o gargalo curvado. Constatou-se que, enquanto no frasco de gargalo curvado não
                 houve proliferação de microrganismos, no de gargalo reto eles se desenvolveram. Desde então, a teoria da
                 geração espontânea foi abandonada, e a crença na transmissão pelo ar prevalece até os dias de hoje.</p>
-            <p>Contudo, abordarei este princípio em maior profundidade futuramente, ao dissertar sobre o espírito e a
+<p>Contudo, abordarei este princípio em maior profundidade futuramente, ao dissertar sobre o espírito e a
                 matéria; por ora, limitar-me-ei a uma breve explicação. A constituição de todas as coisas no Universo se
                 baseia nos elementos Fogo, Água e Terra. O ar é composto predominantemente pelo elemento Água, ao passo
                 que a energia espiritual é composta predominantemente pelo elemento Fogo. A ciência, até o momento,
@@ -175,44 +324,86 @@ function toggleLang(lang) {
                 espontânea, é necessária a presença do elemento Fogo, isto é, do calor. Ocorre que esse calor pode ser
                 parcialmente bloqueado por substâncias rígidas como o vidro ou o metal. Foi exatamente por isso que, no
                 experimento de Pasteur, o gargalo curvado do frasco de vidro bloqueou o calor do elemento Fogo.</p>
-            <p>Diz-se também que a medicina moderna inaugurou uma nova era com o advento da patologia celular,
+<p>Diz-se também que a medicina moderna inaugurou uma nova era com o advento da patologia celular,
                 preconizada pelo doutor Virchow, aclamado como o "santo da medicina" do século XIX. Segundo sua teoria,
                 o corpo humano – incluindo pele, mucosas, músculos, esqueleto e cabelos – é constituído por um número
                 incontável de células. Cada uma dessas células possui vida e atividade próprias, e o conjunto de suas
                 vidas e atividades forma o organismo humano. A doença, portanto, seria o estado em que essas células
                 sofrem degeneração e sua vitalidade declina. Eis, em linhas gerais, o fundamento da patologia celular.
             </p>
-            <p>No caso da tuberculose pulmonar, por exemplo, a teoria sustenta que o bacilo invade o tecido pulmonar,
+<p>No caso da tuberculose pulmonar, por exemplo, a teoria sustenta que o bacilo invade o tecido pulmonar,
                 onde se prolifera e libera toxinas. Em consequência, as células daquela região se degeneram ou são
                 destruídas. Essas células destruídas, por sua vez, seriam absorvidas pela corrente sanguínea,
                 comprometendo as funções de todo o organismo e provocando sintomas como febre, suores noturnos, entre
                 outros. Em outras palavras, a febre do paciente com tuberculose seria causada pela estimulação de um
                 "centro regulador da febre", em decorrência das toxinas liberadas tanto pelas lesões que o bacilo cria
                 nos pulmões quanto pelo próprio bacilo.</p>
-            <p>Tal teoria patológica é, em sua essência, um equívoco. Se a causa das doenças fosse o enfraquecimento da
+<p>Tal teoria patológica é, em sua essência, um equívoco. Se a causa das doenças fosse o enfraquecimento da
                 atividade celular, seria lógico supor que elas não ocorreriam durante a infância e a juventude –
                 períodos de metabolismo mais vigoroso –, mas se manifestariam com frequência crescente na velhice. É, no
                 mínimo, surpreendente que uma teoria tão flagrantemente contrária aos fatos tenha sido aceita por tanto
                 tempo.</p>
-            <p>A medicina atribui a febre na tuberculose pulmonar à ação do bacilo. Mesmo que admitíssemos, por
+<p>A medicina atribui a febre na tuberculose pulmonar à ação do bacilo. Mesmo que admitíssemos, por
                 hipótese, a ideia de que as toxinas liberadas por ele estimulam o "centro regulador da febre", permanece
                 a questão: que órgão é esse? A ciência médica afirma que ele se localiza no cérebro, mas duvido que
                 qualquer pesquisador no mundo seja capaz de comprovar sua existência. A verdade é que tal centro
                 funcional simplesmente não existe, nem no cérebro, nem em qualquer outra parte do corpo humano.</p>
-            <p>É natural, portanto, que nenhuma solução possa ser encontrada enquanto a pesquisa se basear em uma
+<p>É natural, portanto, que nenhuma solução possa ser encontrada enquanto a pesquisa se basear em uma
                 patologia tão pueril. Nesse sentido, apresentarei dois caminhos distintos para a erradicação da
                 tuberculose pulmonar.</p>
-            <p>Primeiro: um método que visa unicamente à redução dos casos de tuberculose pulmonar consiste em rebaixar
+<p>Primeiro: um método que visa unicamente à redução dos casos de tuberculose pulmonar consiste em rebaixar
                 a vitalidade geral da população. Em outras palavras, tornar a constituição física dos jovens semelhante
                 à dos idosos, como se observa no homem ocidental moderno.</p>
-            <p>Segundo: criar seres humanos que não desenvolvam febre, o sintoma característico da tuberculose, ou seja,
+<p>Segundo: criar seres humanos que não desenvolvam febre, o sintoma característico da tuberculose, ou seja,
                 pessoas livres de toxinas – em suma, indivíduos verdadeiramente saudáveis.</p>
-            <p>Qual dos dois caminhos devemos escolher? Evidentemente, o segundo: a criação de seres humanos saudáveis.
+<p>Qual dos dois caminhos devemos escolher? Evidentemente, o segundo: a criação de seres humanos saudáveis.
                 Esta é a verdadeira solução, e ela só é possível por meio da arte de curar que eu estabeleci. É
                 imperativo compreender que os métodos da medicina ocidental, atualmente em voga, correspondem, na
                 realidade, ao primeiro caminho.</p>
-        </div>
-    </blockquote>
-</body>
+</div>
+</blockquote>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は絶対に感染しない 『明日の医術（再版）第一編』昭和18(1943)年2月5日発行 今日、結核は伝染するものとして非常に恐れられている。<br/><br/>それが為種々の方策が講ぜられているが、その繁雑極まる事と国家及び個人の負担の莫大なる事等は実に驚くべきものがある。<br/><br/>故に何人といえどもその伝染を恐れ親子夫婦といえども親しく接近し語り合う事さえ医師から禁ぜられている。<br/><br/>家庭内において一度結核的罹病者発生するや、家族全部が戦々競々としていつ伝染するやも知れずと危倶しつつ日を送るという――その陰惨なる状態は見るに堪えぬものがある。<br/><br/>なるほど事実感染するものならばいかなる手段方法をつくすも生命には換えられないから致し方ないとするも、私の発見する所によればそれは決して感染する憂はないのである。<br/><br/>医学で唱える結核菌なるものは伝染するのではなく自然発生である。<br/><br/>それはいかなる訳かというとさきに詳しく説いた液体毒素即ち喀痰が速（すみやか）に排泄さるるにおいては何ら微生物は発生しないのであるが、誤れる療法によって喀痰は肺臓内に停滞し固結する。<br/><br/>この固結した喀痰は時日を経るに従い腐敗するのである。<br/><br/>いかなるものといえども一度腐敗すれば小虫又は微生物が発生するのは原則である。<br/><br/>たとえば木材が腐敗すれば白蟻が涌（わ）く、いか程精白した白米といえども古くなれば必ず蛆（うじ）が涌く事は人の知る所である。<br/><br/>この様に腐敗する所無機物から有機物が発生する。<br/><br/>白米に蛆が涌くのは蛆の卵が他から侵入したものではないのは勿論である。<br/><br/>故に結核菌といえども自然発生するのであって絶対に伝染するものではないのである。<br/><br/>これは今後一層科学が進歩発達するにおいて、非伝染という事を発見するに到ると私は信じている。<br/><br/> 又、感冒についてさきに説いたごとく各局所の凝結毒素の浄化を停止する為に還元して再凝結した毒素にも結核菌が自然発生するのである。<br/><br/>瘰癧（るいれき）、腎臓結核その他結核性何々という疾患は右の理によるのである。<br/><br/> 右の説を実証する為私の経験を述べてみよう。<br/><br/>私の家族は私ら夫婦の外に子女が六人助手その他の使用人数人合計十数人は常に居たのである。<br/><br/>そうして十数年の間に重症肺結核と診断された患者を常に一人か二人同棲させて治療したのである。<br/><br/>少くとも弐拾数人はあったであろう。<br/><br/>勿論一切家族と同様に扱ったので食事の時も食卓を倶（とも）にし食器等も何ら消毒を施さなかったのである。<br/><br/>それは治療の為と私の説の実験をする為との二つであった。<br/><br/>その内の数人は私の家で死去した位であるからいずれも重症の者ばかりであった。<br/><br/>大病院で結核と断定され治癒の見込なしと刻印を付せられたものばかりであった。<br/><br/>しかるに今以て誰も感染した者はない。<br/><br/>いずれも健康そのもののような者ばかりである。<br/><br/>この実験によってみても伝染しないという事は何ら疑を挿（さしはさ）む余地はないのである。<br/><br/> なお私はいつでも結核菌の感染を試験して貰いたいのである。<br/><br/>私自身でも私の家族の誰にでも感染するよう実験してもらいたい事を望むのである。<br/><br/>喜んで試験台に応ずるものである。<br/><br/> 右のごとき細菌の自然発生説に対して現代の科学者は嗤（わら）うであろう。<br/><br/>何となれば、彼の独逸の有名なコッホ博士と並び称せられるフランス細菌学の泰斗パスツールによる細菌発見によって、それまで一般学者によって支持せられていた自然発生説が覆えされたからである。<br/><br/>それはパスツールが、微生物は自然発生ではなく空気の伝播に因るものであるという理論を実験したのであった。<br/><br/>それは羊肉の搾（しぼ）り汁を二つのガラス瓶に入れた。<br/><br/>一つは口の曲れるもの一つは口の真直なるものであった。<br/><br/>しかるに、口の曲れる方は微生物が発生していないのに真直な方は微生物が発生していたという事実であった。<br/><br/>それ以来自然発生説は消滅し空気に因る発生説が信ぜられ今日に至っているのである。<br/><br/>しかしながらこの原理については後に霊と物質について詳しく説くつもりであるからここでは簡単に説明しておく事とする。<br/><br/> そもそも森羅万象の構成は、火素、水素、土素であって、空気は水素を主とし、霊気は火素を主としている。<br/><br/>しかしながら今日までの科学では霊気即ち火素は未発見である。<br/><br/>そうして空気は緯（よこ）に流動し、霊気（火気）は経（たて）に上下昇降しているのである。<br/><br/>そうして、有機体である微生物が自然発生する場合火素即ち熱を要するのである。<br/><br/>しかしこの熱はガラス又は金属のごとき硬物質にてある程度遮断さるるのである。<br/><br/>故にパスツールが実験の際口の曲れるガラス瓶が火素の熱を遮断したからである。<br/><br/> 又十九世紀の医聖といわれるウィルヒョウ博士が細胞病理学を唱えるに及んで近代医学は新時代をかくしたといわれる。<br/><br/>それによれば人体は皮膚、粘膜、筋肉、骨格、毛髪等すべて無数の細胞から成立っていて、その細胞の一つ一つが生命と生活とを有し各々の細胞の生命と生活とが集って一個の人体を構成しているので、病気というのはつまりそれら細胞が変性しその生活が衰えた状態を指すというのが細胞病理学の大体である。<br/><br/> 例えば肺結核においては、結核菌が肺の組織中に侵入し繁殖し毒素を出す為にその部分の細胞が変性あるいは破壊され、破壊された細胞は血液中に吸収されて全身の器能に障碍を及ぼし、発熱、盗汗その他の症状を起すというのである。<br/><br/> 即ち結核患者の熱は結核菌が肺臓内に侵蝕して病竃（びょうそう）部を作り、この病竃部と菌自身から出す毒素の為に発熱中枢が刺戟されて発熱するというのである。<br/><br/> 右のごとき病理説は根本的に誤謬である。<br/><br/>言うまでもなく細胞の生活が衰えてそれが病源であるとすれば、新陳代謝の最も旺盛である少年期から青年期に病気は発生しないで老年期になる程発病しなければならないはずではないか。<br/><br/>この様な余りにも事実と相反する理論が信じられてきたというのはむしろ不思議と思うのである。<br/><br/> 又肺結核における発熱が結核菌の作用としているが、仮にそれを肯定するとして菌自身から出す毒素の為に発熱中枢が刺戟さるるというが、一体発熱中枢とはいかなる器能であるか医学においては脳にあるとしているが、恐らく全世界のいかなる医学者といえども実証は出来得まい。<br/><br/> 何となれば、発熱中枢などという機能は脳は固より人体いずれの部分にも全然無いからである。<br/><br/> 以上のごとき幼稚極まる病理によっていかに研究するといえども解決の出来得ない事は当然である。<br/><br/>そうして私は大別して肺結核を解決する方法として二つの点を挙げてみよう。<br/><br/> 一、ただ肺結核のみを減少すべき方法としては国民全体の体位を低下させる事である。<br/><br/>即ち青年をして老人のごとき体質とする事で即ち近代の白人がそれである。<br/><br/> 二、結核の特徴である熱を発生しない人間――即ち有毒者でない人間――即ち真の意味における完全健康者を作る事。<br/><br/> 右のいずれを撰ぶべきや、勿論後者の人間を作るという事――それが真の解決であり私の創成した医術によってのみ可能である。<br/><br/>しかるに現在行いつつある西洋医学的方法は前者の方法である事を知らねばならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
 
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

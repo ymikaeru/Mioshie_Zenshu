@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jikkanju</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十干十二支の弁 『信仰雑話』P.56、昭和23(1948)年9月5日発行 十干十二支について私はよくきかれるから、ここに大略説明する。<br><br>十干とは木火土金水の五行に対し、一干を陽と陰、すなわち兄と弟に分ける。<br><br>兄をエといい、弟をトという。<br><br>例えば木の兄は甲（きのえ）であり、木の弟は乙（きのと）である。<br><br>昔から世間でとやかくいう丙午（ひのえうま）とは、ヒが陽で、エが陽で、午が陽というように陽が三つ重なる。<br><br>陽は男性であるから、女としては強過ぎるため、いかなる男も負けるという意味である。<br><br>しかしながら封建時代は男性に権力を持たせ、女性は屈従的であったから、女性が強くなると困る訳だが、今日のごとき男女同権の世の中となれば、丙午の妻君といえどもあえて差支えはない訳である。<br><br> 次に十二支であるが、大体人間は最後に造物主から造られた生物であるから、人間にはあらゆる動物の性格、習性、動作等が含まれており、その代表的なもの十二種を選択したものであろう。<br><br>また十二支を何の年、何の月、何の日というように決められてあるが、これらも相当意義があるようである。<br><br>何となれば以前私は天源術を研究した事がある。<br><br>天源術においては人間が受胎した年、すなわち生れ年の九月までは前年の受胎であり、十月以後はその年の受胎であるから、受胎した年を大輪といい、生れた月を中論といい、生れた日を小論といい、これを総称して三輪という。<br><br>何れも十二支が当て嵌るのである。<br><br>例えば大輪が午（うま）で、中論が卯（うさぎ）で、小論は未（ひつじ）という具合であるが、それがなかなかよくあたるのである。<br><br>また畑といって右の三輪以外のものを当て嵌めるが、その場合多く人相によるので、右の三輪、畑等、人相を見れば大体表われているのは、おもしろくもあり不思議でもある。<br><br>そうして同術においては十二支を滋、結、演、豊、奮、止、合、老、緩、惰、練、実という名称になっている。<br><br>これらも深く研究し、長く経験すれば、相当世を裨益（ひえき）するところもあると思ったのである。<br><br> また昔から淘宮（とうきゅう）術といって、右の三輪法を応用し、人間が持って生れた性格の悪い点や悪癖を矯正するのが目的（此事を淘（よな）げるという言葉を用いる）の一種の修養法があるが、今日は余程衰微したようである。<br><br>これらも修行の結果、人格円満となり、親和的となり、処世上益するところもあるが、少くとも自由主義的ではない。<br><br> ついでに易についていうが、易経は周易ともいい支那の周の時代に創成されたというから、今から四、五千年以前である。<br><br>それを彼の孔子が大成したもので、相当根拠があると私はおもっている。<br><br>八卦といって乾（けん）、兌（だ）、離、震、巽（そん）、款（かん）、艮（ごん）、坤（こん）の八種の運命的活動を筮竹によって表わし、その変化を算木の組合せによって判断するのである。<br><br>右の八卦は神道における八カ－－動、静、解、凝、引、弛、合、分（大戸地（おおとのじ）、大戸辺（おおとのべ）、宇比地根（ういじね）、須比地根（すいじね）、生材（いくぐい）、角材（つぬぐい）、面足（おもたる）、惶根（かしこね））と共通するものらしい。<br><br>すなわち天地万有構成の力であって、この力はあらゆる活動の源泉である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise dos Princípios Zodiacais e Divinatórios</h2>
 <p>Visto que frequentemente me indagam sobre os Dez Troncos Celestes e os Doze Ramos Terrestres, passarei a elucidá-los em linhas gerais. Os Dez Troncos Celestes originam-se dos cinco elementos — Madeira, Fogo, Terra, Metal e Água —, sendo cada um deles dividido em uma polaridade Yang e uma Yin, designadas respectivamente como <em>e</em> (兄) e <em>to</em> (弟). Por exemplo, a polaridade Yang da Madeira é 甲 (Kinoe), e sua polaridade Yin é 乙 (Kinoto).</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Outrossim, existiu antigamente uma disciplina de aprimoramento espiritual chamada Tōkyū-jutsu (淘宮術), que aplicava o método dos Três Ramos com o objetivo de corrigir traços negativos de personalidade e maus hábitos — processo este denominado <em>yonageru</em> (淘げる). Ao que parece, tal prática encontra-se hoje em acentuado declínio. Embora seus resultados pudessem conduzir a uma personalidade íntegra e harmoniosa, trazendo benefícios para a vida em sociedade, não se pode considerá-la, no mínimo, uma prática de viés liberal.</p>
 <p>Aproveitando o ensejo, discorrerei sobre o I Ching (易). Também conhecido como Shūeki (周易), por ter sido criado na China durante a dinastia Zhou, sua origem remonta a quatro ou cinco milênios. Foi o célebre Confúcio quem o sistematizou, e, em minha opinião, possui fundamentos bastante sólidos. Essa arte expressa, por meio de varetas de adivinhação, oito tipos de movimentos do destino, conhecidos como os Oito Trigramas: 乾 (ken), 兌 (da), 離 (ri), 震 (shin), 巽 (son), 坎 (kan), 艮 (gon) e 坤 (kon). As mutações desses movimentos são então interpretadas pela combinação de bastões de cálculo.</p>
 <p>Aparentemente, esses Oito Trigramas guardam uma profunda correlação com as oito forças fundamentais do Xintoísmo: 動 (movimento), 静 (quietude), 解 (dissolução), 凝 (condensação), 引 (atração), 弛 (repulsão), 合 (união) e 分 (separação) — representadas respectivamente por Ootono-ji (大戸地), Ootono-be (大戸辺), Uijine (宇比地根), Suijine (須比地根), Ikugui (生材), Tsunugui (角材), Omotaru (面足) e Kashikone (惶根). Trata-se, em suma, da força que constitui o Céu, a Terra e toda a Criação; é a fonte primordial de toda e qualquer atividade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十干十二支の弁 『信仰雑話』P.56、昭和23(1948)年9月5日発行 十干十二支について私はよくきかれるから、ここに大略説明する。<br/><br/>十干とは木火土金水の五行に対し、一干を陽と陰、すなわち兄と弟に分ける。<br/><br/>兄をエといい、弟をトという。<br/><br/>例えば木の兄は甲（きのえ）であり、木の弟は乙（きのと）である。<br/><br/>昔から世間でとやかくいう丙午（ひのえうま）とは、ヒが陽で、エが陽で、午が陽というように陽が三つ重なる。<br/><br/>陽は男性であるから、女としては強過ぎるため、いかなる男も負けるという意味である。<br/><br/>しかしながら封建時代は男性に権力を持たせ、女性は屈従的であったから、女性が強くなると困る訳だが、今日のごとき男女同権の世の中となれば、丙午の妻君といえどもあえて差支えはない訳である。<br/><br/> 次に十二支であるが、大体人間は最後に造物主から造られた生物であるから、人間にはあらゆる動物の性格、習性、動作等が含まれており、その代表的なもの十二種を選択したものであろう。<br/><br/>また十二支を何の年、何の月、何の日というように決められてあるが、これらも相当意義があるようである。<br/><br/>何となれば以前私は天源術を研究した事がある。<br/><br/>天源術においては人間が受胎した年、すなわち生れ年の九月までは前年の受胎であり、十月以後はその年の受胎であるから、受胎した年を大輪といい、生れた月を中論といい、生れた日を小論といい、これを総称して三輪という。<br/><br/>何れも十二支が当て嵌るのである。<br/><br/>例えば大輪が午（うま）で、中論が卯（うさぎ）で、小論は未（ひつじ）という具合であるが、それがなかなかよくあたるのである。<br/><br/>また畑といって右の三輪以外のものを当て嵌めるが、その場合多く人相によるので、右の三輪、畑等、人相を見れば大体表われているのは、おもしろくもあり不思議でもある。<br/><br/>そうして同術においては十二支を滋、結、演、豊、奮、止、合、老、緩、惰、練、実という名称になっている。<br/><br/>これらも深く研究し、長く経験すれば、相当世を裨益（ひえき）するところもあると思ったのである。<br/><br/> また昔から淘宮（とうきゅう）術といって、右の三輪法を応用し、人間が持って生れた性格の悪い点や悪癖を矯正するのが目的（此事を淘（よな）げるという言葉を用いる）の一種の修養法があるが、今日は余程衰微したようである。<br/><br/>これらも修行の結果、人格円満となり、親和的となり、処世上益するところもあるが、少くとも自由主義的ではない。<br/><br/> ついでに易についていうが、易経は周易ともいい支那の周の時代に創成されたというから、今から四、五千年以前である。<br/><br/>それを彼の孔子が大成したもので、相当根拠があると私はおもっている。<br/><br/>八卦といって乾（けん）、兌（だ）、離、震、巽（そん）、款（かん）、艮（ごん）、坤（こん）の八種の運命的活動を筮竹によって表わし、その変化を算木の組合せによって判断するのである。<br/><br/>右の八卦は神道における八カ－－動、静、解、凝、引、弛、合、分（大戸地（おおとのじ）、大戸辺（おおとのべ）、宇比地根（ういじね）、須比地根（すいじね）、生材（いくぐい）、角材（つぬぐい）、面足（おもたる）、惶根（かしこね））と共通するものらしい。<br/><br/>すなわち天地万有構成の力であって、この力はあらゆる活動の源泉である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

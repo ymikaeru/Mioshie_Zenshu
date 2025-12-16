@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270725</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月25日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月二十五日 【御教え】 私は始終邪神と闘っているのです。<br><br>だから一日といえどもなんにもなくて、せいせいするという日はありません。<br><br>それからそれへと問題が起ってくるのです。<br><br>ですから始終闘いです。<br><br>冷たい戦争と言いますが、まあ冷たい戦争です。<br><br>武器を持たない戦争です。<br><br>それを始終やっている。<br><br>ですから今でも裁判の三つや四つしているのですが、みんな悪との闘いです。<br><br>邪神の方では、とにかく私が怖いので、あらん限りのことをやっているのです。<br><br>ですから昔なら、キリストみたいに磔（はりつけ）にならないまでも、遠島くらいはされたわけです。<br><br>その点は今はありがたい御時世になってます。<br><br>とにかく昔のようなひどいことはしないですから、よほど楽に闘っていられるのです。<br><br>宗教というものは、そういうふうな運命がつきまとっているものです。<br><br>かえって力のある宗教ほど、よけいそういうことをされることがあるのです。<br><br>お釈迦さんだけは割合に無事だったのですが、あの人は皇太子という位があったので、社会が非常に見方を違えたのだろうと思います。<br><br>お釈迦さん以外としては、ほとんど迫害されない宗教家はいなかったです。<br><br>だからして今まで悪い意味ばかりで考えてましたが、なにか――つまり抑えつけるとだんだん力を増すのです。<br><br>無事でなんにもないと、さっぱり力は増さないのです。<br><br>やっぱり神様は良い具合に――考えてみるとちょうど一年置きになってます。<br><br>今年なんかはごくわずかですが、でも一つの句切りになったような、多少の影響があるでしょう。<br><br>あとは一昨年――二十五年。<br><br>それから一年間をおいて二十三年です。<br><br>そんなような具合に一年置きです。<br><br>ですからギュウギュウ押す――押すとこっちははね返る。<br><br>力が増すのです。<br><br>そういうふうにギュウギュウやられていながら、教団の方はドンドン発展して行く。<br><br>今度は美術館もできたのですから、その神様のやり方は、なかなかおもしろいと思うのです。<br><br> 『文明の創造』も書きかけてますが、それについて悪というものは必要だったということを書いたのです。<br><br> （御論文「天国建設と悪の追放」）【栄光 一六九号】 それから昨年の事件について、一つ言いたいことは、どうして起ったかということは、これは教団を乗っ取ろうとする陰謀の一団があった。<br><br>陰謀の一団というとおおげさだが、陰謀者があった。<br><br>これがなかなか智恵があって、おまけに私は疥癬で、なんにもできなかった。<br><br>それで任せきりであったために、その隙に乗じて教団乗っ取り策を講じて、それには私と渋井さんをまず追い出すということが一番の狙いであった。<br><br>それで、当局を巧妙な手段で動かしたといぅことは、悪智恵という――凄いものがある。<br><br>とうとう当局を動かして、その当時は、メシヤ教になった当時で、メシヤ教というのはたいへんに怪しからんものだ。<br><br>これを調べたら、なにかあるに違いない。<br><br>それにとうとう乗ってしまって、それでこいつをおおげさにやってみようと、ああいったおおげさにやったのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Batalha Incessante e o Fortalecimento da Obra Divina</h2>
 <p>Eu me encontro em uma luta incessante contra os espíritos malignos. Consequentemente, não há um único dia em que eu possa desfrutar de plena tranquilidade, pois os problemas surgem um após o outro. É, portanto, uma batalha contínua. Assemelha-se ao que se denomina Guerra Fria: um conflito travado sem armas, no qual estou permanentemente engajado.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Estou escrevendo a obra "A Criação da Civilização", na qual abordei justamente a necessidade da existência do mal.</p>
 <p>A esse respeito, gostaria de tecer um comentário sobre o incidente do ano passado. Sua origem reside na conspiração de um indivíduo que pretendia usurpar o controle de nossa Igreja. Talvez "conspiração" soe como um exagero, mas de fato havia um conspirador. Tratava-se de alguém bastante astuto, que se aproveitou de um momento de minha extrema debilidade — eu sofria de sarna e estava impossibilitado de agir. Como eu lhe havia confiado plenas responsabilidades, ele explorou essa vulnerabilidade para traçar seu plano de tomada do poder, cujo primeiro passo seria afastar a mim e ao senhor Shibui.</p>
 <p>A malícia com que manipulou as autoridades para que agissem é algo impressionante. Ele conseguiu convencê-las, precisamente na época em que havíamos adotado o nome "Igreja Messiânica", de que nossa organização era algo suspeito e ultrajante. Instigou-as com a ideia de que, "se investigarem, certamente encontrarão irregularidades". As autoridades acabaram por acreditar em tais alegações e decidiram transformar o caso em um grande espetáculo, o que explica a dimensão exagerada que a investigação tomou.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年7月25日） 『御教え集』12号、昭和27(1952)年8月15日発行 昭和二十七年七月二十五日 【御教え】 私は始終邪神と闘っているのです。<br/><br/>だから一日といえどもなんにもなくて、せいせいするという日はありません。<br/><br/>それからそれへと問題が起ってくるのです。<br/><br/>ですから始終闘いです。<br/><br/>冷たい戦争と言いますが、まあ冷たい戦争です。<br/><br/>武器を持たない戦争です。<br/><br/>それを始終やっている。<br/><br/>ですから今でも裁判の三つや四つしているのですが、みんな悪との闘いです。<br/><br/>邪神の方では、とにかく私が怖いので、あらん限りのことをやっているのです。<br/><br/>ですから昔なら、キリストみたいに磔（はりつけ）にならないまでも、遠島くらいはされたわけです。<br/><br/>その点は今はありがたい御時世になってます。<br/><br/>とにかく昔のようなひどいことはしないですから、よほど楽に闘っていられるのです。<br/><br/>宗教というものは、そういうふうな運命がつきまとっているものです。<br/><br/>かえって力のある宗教ほど、よけいそういうことをされることがあるのです。<br/><br/>お釈迦さんだけは割合に無事だったのですが、あの人は皇太子という位があったので、社会が非常に見方を違えたのだろうと思います。<br/><br/>お釈迦さん以外としては、ほとんど迫害されない宗教家はいなかったです。<br/><br/>だからして今まで悪い意味ばかりで考えてましたが、なにか――つまり抑えつけるとだんだん力を増すのです。<br/><br/>無事でなんにもないと、さっぱり力は増さないのです。<br/><br/>やっぱり神様は良い具合に――考えてみるとちょうど一年置きになってます。<br/><br/>今年なんかはごくわずかですが、でも一つの句切りになったような、多少の影響があるでしょう。<br/><br/>あとは一昨年――二十五年。<br/><br/>それから一年間をおいて二十三年です。<br/><br/>そんなような具合に一年置きです。<br/><br/>ですからギュウギュウ押す――押すとこっちははね返る。<br/><br/>力が増すのです。<br/><br/>そういうふうにギュウギュウやられていながら、教団の方はドンドン発展して行く。<br/><br/>今度は美術館もできたのですから、その神様のやり方は、なかなかおもしろいと思うのです。<br/><br/> 『文明の創造』も書きかけてますが、それについて悪というものは必要だったということを書いたのです。<br/><br/> （御論文「天国建設と悪の追放」）【栄光 一六九号】 それから昨年の事件について、一つ言いたいことは、どうして起ったかということは、これは教団を乗っ取ろうとする陰謀の一団があった。<br/><br/>陰謀の一団というとおおげさだが、陰謀者があった。<br/><br/>これがなかなか智恵があって、おまけに私は疥癬で、なんにもできなかった。<br/><br/>それで任せきりであったために、その隙に乗じて教団乗っ取り策を講じて、それには私と渋井さんをまず追い出すということが一番の狙いであった。<br/><br/>それで、当局を巧妙な手段で動かしたといぅことは、悪智恵という――凄いものがある。<br/><br/>とうとう当局を動かして、その当時は、メシヤ教になった当時で、メシヤ教というのはたいへんに怪しからんものだ。<br/><br/>これを調べたら、なにかあるに違いない。<br/><br/>それにとうとう乗ってしまって、それでこいつをおおげさにやってみようと、ああいったおおげさにやったのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

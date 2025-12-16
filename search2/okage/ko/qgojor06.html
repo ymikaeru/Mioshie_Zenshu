@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgojor06</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御浄霊により中学校対抗バレーボールリーグ戦に優勝す 『栄光』186号、昭和27(1952)年12月10日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岩手県 照明中教会 浅沼トミ子（37） 明主様の宏大無辺なる御守護の下、日々御聖業に、又教職に精進させて戴いている者でございます。<br><br>長い年月、数々の御恵御導きを頂きましても、御礼の御報告もせず、今日に及びましたこと、誠に申しわけなく御詫び申し上げます。<br><br> 次に、今年の七月二十一日、中学校対抗のバレーボール・リーグ戦に参加した時の状況を御報告させて戴きます。<br><br> 心配していた二、三日来の雨も、今日はカラリとあがり、久し振りの上天気に皆陸を輝やかしている。<br><br>いよいよ今日は待望の対抗バレーボール・リーグ戦。<br><br>待ちつ、又怖れもした今日。<br><br>生徒の紺の運動着の背番号の黄色は一きわ浮き立って見える。<br><br>生徒らの躍る心臓を思わせて……。<br><br>やがて試合開始。<br><br>わが内川目中学校男子チームは、去年の覇者との対戦である。<br><br>生徒らは、もうそれを聞いただけでそわそわして落着きが見られない。<br><br>一チーム九人の構成メンバーが一体となり、網の目のような行動をとって行かなければ、絶対に実力を発揮し得ないこの競技である。<br><br> 「落着いて」「しっかり頑張ってね」とは言ったものの、私自身の声も、どこか顛えを帯びていた。<br><br> やがてピーッと審判の笛、一瞬さっと緊張の気がみなぎった。<br><br>攻撃のサーブは相手方からである。<br><br>ものすごい掛声と共に第一球が飛んで来た。<br><br>「アッ」と思っている間にピピーッと笛がなる。<br><br>最も貴重な最初の一点はもう獲得されてしまったのである。<br><br>ともすると、最初の一点がその勝負を決するようなことを度々見もし、経験もされるのである。<br><br>第二球はただ見送り。<br><br>これで相手方二点、今度は第三球目である。<br><br>又失敗かと思ったら、こちらの前衛のセンターがアッという間に攻撃している、ほっとした。<br><br>漸くこれで一点獲得。<br><br>あわて気味のこちらのサーブはあっさり相手方にチャンスを与え、三対一。<br><br>又こちらはそわそわし始めた。<br><br>それからの試合はもう目もあてられないようなもので、来る球来る球を皆失ってしまう。<br><br>到頭十一対三でチェンジコート。<br><br>彼我の得点差は八点。<br><br>もうかなわないと半ば諦めの感情が湧く。<br><br>選手も同じ気持らしく、ただ硬直した感じを受けるのみ。<br><br>そのうちに試合が進んで十七対五という、もうどう頑張ってみたところで、どうにもならないというどん底にまで追い込まれた。<br><br>見ている人達は、「可哀そうにね」とか「場所慣れがしていないから当然なんだろう」とか「今年は例年より弱いようだね。<br><br>練習をしなかったんですか」等と異口同音に言いたいことを言って、変な同情をしたりして、勝手に話し合っている。<br><br>私も、もう駄目なのかも知れないし、第一回戦は完全に味方の負となるのはもう決定的なものであると思うようになった。<br><br>だが同じ負けるにしても、もう少し実力を発揮させて戦わせてみたいものと思う念願が身内にこみ上げて来る。<br><br> 私は知らず識らずのうちに手をかざしていた。<br><br>今私の目の前でサーブをしようとしているその生徒を目指して……。<br><br>やがてその生徒は構えた。<br><br>身構えると同時にものすごい第一球が飛んで行った。<br><br>セーフ。<br><br>敵はただ見過した。<br><br>第二球。<br><br>又猛サーブ。<br><br>味方の得点。<br><br>第三球、第四球。<br><br>次々と名サーブ。<br><br>とうとう十七対十二というスコアになった。<br><br> 余りの喜びに背番号を見たら何と五が書かれているではありませんか。<br><br>このお道では、五は男で雄々しく「出ずる」であり、火であり陽であり、最高の数であり五六七の初めの数でもある。<br><br>この生徒の敢闘ぶりは成程と頷かれた。<br><br>味方の応援団は、やんややんやの拍手喝采の声援。<br><br>もう後五点というところである。<br><br>その時惜しくも敵方のボールに代った。<br><br>十八対十二。<br><br>もう今度こそはと観念した、しかし敵方は相当焦り出している。<br><br>九名の心の動揺が、チームワークがうまくとれていないのを見てもよくわかる。<br><br> 第一球で相手方は又ボールを味方にゆずった。<br><br>十八対十三。<br><br>再びこちらのサーブ。<br><br>私は思いがけない試合ぶりに左手に汗を握り、右手を無心にその生徒の後にかざした。<br><br>果して名サーブ猛サーブ。<br><br>遂に同点というところにまで漕ぎつけた。<br><br>十七対五から十八対十八、皆は夢かとばかり喜びの眼を瞠った。<br><br>ボールはこっちの手にある。<br><br>もうリードである。<br><br>九名の選手の血みどろ汗みどろの奮闘は一つの網の一端をもって操っているようなものである。<br><br>疲れも何も知らないらしい。<br><br>益々意気軒昂である。<br><br>又六番のサーブが続く。<br><br>一球一球慎重に慎重を重ねてタッチをし、じりじりと押して行く。<br><br>とうとう十八対二十。<br><br>俄然形勢は一変してしまった。<br><br>選手以外誰も声を出すものすらない。<br><br>もう一球で――。<br><br>息づまるような緊張の一瞬。<br><br>もう試合終了のホイッスルが高らかに響き渡った。<br><br> 勝った！ 勝った！十七対五から十八対二十一までのし上げての、前古未曾有の試合振りを見せて…… 私はただ有難涙にくれ、灼けつくような炎天の下にいつまでも心密かに合掌していた。<br><br>かくして神の御救いを受け、終始勝敗にこだわることなく敢闘した我校選手は確たる自信を得て、残る二校も見事に退け、喜々として閉会式にのぞみ、並いる人々の割れるような拍手の中にあって、栄の優勝カップをおし戴いた。<br><br> 翌日生徒らの話し合い。<br><br>「勝美（五番）のサーブと光雄（六番）のサーブは不思議な位ものすごかった。<br><br>球がネットにひっかかるなと思っていると、フワッとネットを越して相手方にポタッと落ちている」「あいつは不思議だった。<br><br>そうすると敵の方で全く的がはずれる始末だった」とさも面白そうに、しかも首をかしげかしげ語っていた。<br><br> 以上誠に拙い筆でございますが、喜びの余り、ありのままを御報告させて戴きます。<br><br> 明主様有難うございました。<br><br>謹んで厚く御礼申し上げます。<br><br> （昭和二十七年十二月十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A vitória no campeonato intercolegial de voleibol por meio do Johrei</h2>
 <p>Publicado na revista <em>Eiko</em> nº 186, em 10 de dezembro de 1952
@@ -111,5 +266,48 @@ e na <em>Coletânea de Milagres da Sekai Kyusei Kyo</em>, em 10 de setembro de 1
 <p>Embora este relato seja fruto de uma escrita deveras modesta, permito-me apresentá-lo tal como os fatos ocorreram, movida pela imensa alegria que sinto.</p>
 <p>Muito obrigada, Meishu-Sama. Com profundo respeito, expresso minha mais sincera gratidão.</p>
 <p>(10 de dezembro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御浄霊により中学校対抗バレーボールリーグ戦に優勝す 『栄光』186号、昭和27(1952)年12月10日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岩手県 照明中教会 浅沼トミ子（37） 明主様の宏大無辺なる御守護の下、日々御聖業に、又教職に精進させて戴いている者でございます。<br/><br/>長い年月、数々の御恵御導きを頂きましても、御礼の御報告もせず、今日に及びましたこと、誠に申しわけなく御詫び申し上げます。<br/><br/> 次に、今年の七月二十一日、中学校対抗のバレーボール・リーグ戦に参加した時の状況を御報告させて戴きます。<br/><br/> 心配していた二、三日来の雨も、今日はカラリとあがり、久し振りの上天気に皆陸を輝やかしている。<br/><br/>いよいよ今日は待望の対抗バレーボール・リーグ戦。<br/><br/>待ちつ、又怖れもした今日。<br/><br/>生徒の紺の運動着の背番号の黄色は一きわ浮き立って見える。<br/><br/>生徒らの躍る心臓を思わせて……。<br/><br/>やがて試合開始。<br/><br/>わが内川目中学校男子チームは、去年の覇者との対戦である。<br/><br/>生徒らは、もうそれを聞いただけでそわそわして落着きが見られない。<br/><br/>一チーム九人の構成メンバーが一体となり、網の目のような行動をとって行かなければ、絶対に実力を発揮し得ないこの競技である。<br/><br/> 「落着いて」「しっかり頑張ってね」とは言ったものの、私自身の声も、どこか顛えを帯びていた。<br/><br/> やがてピーッと審判の笛、一瞬さっと緊張の気がみなぎった。<br/><br/>攻撃のサーブは相手方からである。<br/><br/>ものすごい掛声と共に第一球が飛んで来た。<br/><br/>「アッ」と思っている間にピピーッと笛がなる。<br/><br/>最も貴重な最初の一点はもう獲得されてしまったのである。<br/><br/>ともすると、最初の一点がその勝負を決するようなことを度々見もし、経験もされるのである。<br/><br/>第二球はただ見送り。<br/><br/>これで相手方二点、今度は第三球目である。<br/><br/>又失敗かと思ったら、こちらの前衛のセンターがアッという間に攻撃している、ほっとした。<br/><br/>漸くこれで一点獲得。<br/><br/>あわて気味のこちらのサーブはあっさり相手方にチャンスを与え、三対一。<br/><br/>又こちらはそわそわし始めた。<br/><br/>それからの試合はもう目もあてられないようなもので、来る球来る球を皆失ってしまう。<br/><br/>到頭十一対三でチェンジコート。<br/><br/>彼我の得点差は八点。<br/><br/>もうかなわないと半ば諦めの感情が湧く。<br/><br/>選手も同じ気持らしく、ただ硬直した感じを受けるのみ。<br/><br/>そのうちに試合が進んで十七対五という、もうどう頑張ってみたところで、どうにもならないというどん底にまで追い込まれた。<br/><br/>見ている人達は、「可哀そうにね」とか「場所慣れがしていないから当然なんだろう」とか「今年は例年より弱いようだね。<br/><br/>練習をしなかったんですか」等と異口同音に言いたいことを言って、変な同情をしたりして、勝手に話し合っている。<br/><br/>私も、もう駄目なのかも知れないし、第一回戦は完全に味方の負となるのはもう決定的なものであると思うようになった。<br/><br/>だが同じ負けるにしても、もう少し実力を発揮させて戦わせてみたいものと思う念願が身内にこみ上げて来る。<br/><br/> 私は知らず識らずのうちに手をかざしていた。<br/><br/>今私の目の前でサーブをしようとしているその生徒を目指して……。<br/><br/>やがてその生徒は構えた。<br/><br/>身構えると同時にものすごい第一球が飛んで行った。<br/><br/>セーフ。<br/><br/>敵はただ見過した。<br/><br/>第二球。<br/><br/>又猛サーブ。<br/><br/>味方の得点。<br/><br/>第三球、第四球。<br/><br/>次々と名サーブ。<br/><br/>とうとう十七対十二というスコアになった。<br/><br/> 余りの喜びに背番号を見たら何と五が書かれているではありませんか。<br/><br/>このお道では、五は男で雄々しく「出ずる」であり、火であり陽であり、最高の数であり五六七の初めの数でもある。<br/><br/>この生徒の敢闘ぶりは成程と頷かれた。<br/><br/>味方の応援団は、やんややんやの拍手喝采の声援。<br/><br/>もう後五点というところである。<br/><br/>その時惜しくも敵方のボールに代った。<br/><br/>十八対十二。<br/><br/>もう今度こそはと観念した、しかし敵方は相当焦り出している。<br/><br/>九名の心の動揺が、チームワークがうまくとれていないのを見てもよくわかる。<br/><br/> 第一球で相手方は又ボールを味方にゆずった。<br/><br/>十八対十三。<br/><br/>再びこちらのサーブ。<br/><br/>私は思いがけない試合ぶりに左手に汗を握り、右手を無心にその生徒の後にかざした。<br/><br/>果して名サーブ猛サーブ。<br/><br/>遂に同点というところにまで漕ぎつけた。<br/><br/>十七対五から十八対十八、皆は夢かとばかり喜びの眼を瞠った。<br/><br/>ボールはこっちの手にある。<br/><br/>もうリードである。<br/><br/>九名の選手の血みどろ汗みどろの奮闘は一つの網の一端をもって操っているようなものである。<br/><br/>疲れも何も知らないらしい。<br/><br/>益々意気軒昂である。<br/><br/>又六番のサーブが続く。<br/><br/>一球一球慎重に慎重を重ねてタッチをし、じりじりと押して行く。<br/><br/>とうとう十八対二十。<br/><br/>俄然形勢は一変してしまった。<br/><br/>選手以外誰も声を出すものすらない。<br/><br/>もう一球で――。<br/><br/>息づまるような緊張の一瞬。<br/><br/>もう試合終了のホイッスルが高らかに響き渡った。<br/><br/> 勝った！ 勝った！十七対五から十八対二十一までのし上げての、前古未曾有の試合振りを見せて…… 私はただ有難涙にくれ、灼けつくような炎天の下にいつまでも心密かに合掌していた。<br/><br/>かくして神の御救いを受け、終始勝敗にこだわることなく敢闘した我校選手は確たる自信を得て、残る二校も見事に退け、喜々として閉会式にのぞみ、並いる人々の割れるような拍手の中にあって、栄の優勝カップをおし戴いた。<br/><br/> 翌日生徒らの話し合い。<br/><br/>「勝美（五番）のサーブと光雄（六番）のサーブは不思議な位ものすごかった。<br/><br/>球がネットにひっかかるなと思っていると、フワッとネットを越して相手方にポタッと落ちている」「あいつは不思議だった。<br/><br/>そうすると敵の方で全く的がはずれる始末だった」とさも面白そうに、しかも首をかしげかしげ語っていた。<br/><br/> 以上誠に拙い筆でございますが、喜びの余り、ありのままを御報告させて戴きます。<br/><br/> 明主様有難うございました。<br/><br/>謹んで厚く御礼申し上げます。<br/><br/> （昭和二十七年十二月十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

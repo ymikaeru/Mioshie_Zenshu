@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280215</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年2月15日） 『御教え集』19号、昭和28(1953)年3月15日発行 昭和二十八年二月十五日 今朝のラジオニュースによると、アメリカが急に朝鮮の大攻撃をやるとか言ってましたが、アイゼンハウアーはだいぶ急ぐようです。<br><br>この間のうちは、台湾の中立解除をして国民軍を出そうとしましたが、神様の方から言うとそれは嘘なのです。<br><br>やはり朝鮮を先にやらなければならないのです。<br><br>それが順序なのです。<br><br>それで今朝のラジオの放送によると朝鮮を先にやるようですが、これは非常に良いと思います。<br><br>それで朝鮮を片づけて、それから中国に行くというのが順序なのです。<br><br>そして「世界夢物語」に出したとおりのああいう順序で行くわけです。<br><br>しかし日本は今度は割合に恵まれるのです。<br><br>これからは非常に金がはいるようになります。<br><br>まあ景気が良くなるわけです。<br><br>これは先のことですが、日本には使いきれないほど金がはいってくることになっているのです。<br><br>それで世界の大変化がこれから始まって行くわけです。<br><br>それから中国と、今度の京都の嵯峨とは非常に関係があります。<br><br>私は四月に嵯峨に行こうと思ってます。<br><br>そうしてごく最初の敷地の形だけをこしらえようと思ってます。<br><br>非常に仏教に関係があるので、いろいろと事情を考えた結果、四月八日がちょうど良いことになるので、四月八日に行くことにしました。<br><br>それに四月八日はお釈迦さんの誕生日ですから意味があります。<br><br> 「若しもこの世界から「悪」がなくなったら」という論文を書きましたが、ちょっとおもしろいですから読ませます。<br><br> （御論文「若しもこの世界から「悪」がなくなったら」）【栄光 一九七号】 つまりこれがミロクの世の姿なのです。<br><br>夢のような話ですが、世界の大掃除がすむと、こういう世の中の建設になるわけですから、今生まれた人は……ただ生まれただけではしようがないが……救世教信者になった人は、仕合せも仕合せですが、おもしろいです。<br><br>この大きな変化を安心して見物できるわけです。<br><br>しかし見物と言っても、じっとしている見物ではないので、大いに仕事を与えられながら見られるのですから、どんなに愉快か分かりません。<br><br> 今度『救世教奇蹟集』という本を出すつもりで、その「序文」だけ書きました。<br><br>そして今まで発表しただけの奇蹟のすばらしいものを出します。<br><br>それで結局宗教の価値ということですが、つまり宗教ではたいした奇蹟はないので、宗教以上のものでなければならないのです。<br><br>宗教以上というと救世教より他にはありません。<br><br>そこで救世教では他の宗教にない奇蹟が現われるわけです。<br><br>今までの宗教でも奇蹟があるにはあったがごく少ないのです。<br><br>もっとも日蓮上人のような傑物になると顕著な奇蹟はあるが、一般信者にまではそれほど大きな奇蹟はありません。<br><br>しかし救世教では、私の弟子がキリストがやったような奇蹟も行なうし、他の宗教の教祖がやるようなことは、信者さんでも充分現わせるのですから、そこに違いさがあります。<br><br>だから奇蹟の顕著なことと多いことが宗教の値打ちです。<br><br>ところが既成宗教はそういうことがないので、だんだん理屈の宗教になっていったのです。<br><br>一般に対してはお説教宗教です。<br><br>大体お説教というものは宗教ではないのです。<br><br>それは道徳です。<br><br>「人間はこういう気持ちをもて」とか「こういう行いをしなければいけない」と言うが、そういう道理を説いて心を良くするということであっては、本当は宗教より下のものです。<br><br>つまり道徳です。<br><br>ところが奇蹟を現わすことができないから、そういうやり方でお茶を濁していたのです。<br><br>黙っていて立派な人間にするというのが本当の宗教です。<br><br>だから私の方では、あんまりお説教はやりません。<br><br>しかしそれも少しは結構です。<br><br>ところが今までの宗教はお説教専門なのです。<br><br>また、「こういうように養生しなければならない」「こういうものを食って、こういうやり方でなければ、人間は病気がなおって健康にはならない」というのでは本当のやり方ではないのです。<br><br>そういうのではしようがありません。<br><br>黙っていても、疑っていても健康になる、というのが本当のものです。<br><br>というのは、やはり宗教が持つ力です。<br><br>その力を現わしたものが奇蹟となるのです。<br><br>それで奇蹟は科学的にも説けるのです。<br><br>だから本当は奇蹟ではないのです。<br><br>よく奇蹟が現われると言うが、それはどうしても理屈がつかないので「ただ不思議だ」と言うだけです。<br><br>けれども本当は理屈がつくのです。<br><br> それで「いろんな不思議なことがあって命が助かる」ということは、正守護神がやるのです。<br><br>正守護神でも、信仰と霊的因縁によって力の強いのと弱いのがあります。<br><br>それからまた正守護神は一人ひとり人間を護っているが、その人間が徳を施し良いことをたくさんすると、その恵みが正守護神にも授けられます。<br><br>その人が良いことをするのは正守護神が蔭で手伝うからですから、正守護神もそれだけ御神徳を受けるわけです。<br><br>そうすると力を増すから、力が増すと、思うように助けることができるのです。<br><br>ですから奇蹟もたくさん現われるということになります。<br><br>だからこれは正守護神がやるのです。<br><br>ところが中には、正守護神で神格を得ているのがあります。<br><br>神格というのは、神様の位をもらった正守護神なのです。<br><br>そういうのはすばらしい力があります。<br><br>それからまたその人の系統によって、祖先が古くから産土神様に祀られている人は、その産土神様の力を分けてくれますから、そこでその人の働きも大きくなれば、また奇蹟も大きくなります。<br><br>だからその関係が分かれば、奇蹟というのは不思議ではありません。<br><br>ただ目に見えないから奇蹟だと思うのです。<br><br>きわどいところで、死ぬと思ったものが助かるということがありますが、それは正守護神がやっているのですから、別に不思議はありません。<br><br>奇蹟集の「序文」だけを今読ませます。<br><br> （御論文「救世教奇蹟集 序文」）【栄光 一九七号】 それから知っておかなくてはならないことは、漢方薬というものを一般人は割合に軽くみているのです。<br><br>あなた方もそうですが、病人に「あなたのは薬毒だ、薬は随分のんだでしょう」と言うと、「いやそんなにのみません」ということがよくありますが、答える人は漢方薬を薬のように思っていないのです。<br><br>それでだんだん問いつめていくと、「若い時に煎じ薬を少しのみました」と答えるが、漢方薬というのは一回のんでもたいへんなものです。<br><br>土瓶一杯でもたいへんなものです。<br><br>それで今浄化する人をみると漢方薬が非常に多いのです。<br><br>西洋の薬よりも漢方薬の方がよけい害を与えるようです。<br><br>前にも言ったとおり、漢方薬のうちでも非常に毒の多い少ないがありますが、一番毒の強いのはげんのしょうこです。<br><br>げんのしょうこを少しよけいのんだ人は請け合ってはいけないと言ったことがありますが、それはそういうわけです。<br><br>その次はどくだみが非常に悪いのです。<br><br>それから顔色の悪い人はまず漢方薬中毒と思ってもたいてい間違いありません。<br><br>それで中国人は顔色が悪くて黄色い顔色をしてますが、それはやはり漢方薬です。<br><br>だから顔色の悪い人に聞いてみると、必ず漢方薬をたくさんのんでます。<br><br>それで漢方薬中毒が人間の寿命を一番縮めるのです。<br><br>近ごろ日本人の寿命が延びたとか言ってますが、これは漢方薬をやめて西洋の薬をのむようになったので、それが一番の原因です。<br><br>そのくらい漢方薬というのは恐ろしいのです。<br><br>ですから、よく田舎の人などは一々お医者に行くのは不便だというために、草根木皮を持薬といってのむ癖がありますが、そこで田舎の人は割合に顔色が悪く、黄色い顔色をしている人が多いのです。<br><br>これはたいてい漢方薬中毒です。<br><br>それを今書いてます。<br><br>これをよく心得ておいて、これからはその点をよく注意することです。<br><br>なにしろ量が多いのですから、浄霊して溶け出すにも長くかかります。<br><br>そこにいくと西洋の薬は量が少ないから割合に早くすみます。<br><br>だから比べると、むしろ漢方薬の方が長くかかりますから始末が悪いのです。<br><br>漢方薬中毒を大いに注意しなければいけません。<br><br> それで漢方薬にもいろいろありますが、私の父というのは、五十六歳で死にました。<br><br>割合に早死にでしたが、やはり漢方薬中毒です。<br><br>というのは、若い時分から便秘症なので、大黄という薬を約三十年くらいのんだでしょうが、今考えてみますとその中毒で死んだのです。<br><br>そういうようで漢方薬の下剤なども非常に怖いのです。<br><br>それから花柳界の人などはどくだみをたくさんのんでます。<br><br>だからそういう人はとても長くかかります。<br><br>いくら溶かしても溶かしても、薬毒がほとんどきれないほどありますが、それはほとんど漢方薬です。<br><br>それだけを心得てやればいいのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre os Acontecimentos Mundiais e a Natureza dos Milagres</h2>
 <p>Segundo o noticiário radiofônico desta manhã, os Estados Unidos anunciaram subitamente a intenção de desferir um grande ataque à Coreia. Ao que parece, o presidente Eisenhower tem bastante pressa. Recentemente, ele cogitou suspender a neutralidade de Taiwan para mobilizar o exército nacionalista; contudo, sob a perspectiva de Deus, tal movimento era um engodo. A verdade é que a questão da Coreia deve ser resolvida primeiro; esta é a ordem correta dos acontecimentos. A notícia de hoje confirma que procederão primeiramente com a Coreia, o que considero extremamente positivo. Portanto, a sequência apropriada é solucionar o conflito coreano e, somente depois, voltar as atenções para a China. Tudo se desenrolará exatamente na ordem que descrevi em meu artigo "A História de um Sonho Mundial".</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Pode-se afirmar, quase sem erro, que uma pessoa com a pele de má aparência sofre de intoxicação por fitoterapia. Os chineses, por exemplo, têm uma tez amarelada e sem viço, o que também se deve a essa prática. Se perguntarem a alguém com a pele nessas condições, descobrirão que invariavelmente essa pessoa consumiu grandes quantidades de fitoterápicos. A intoxicação por essas ervas é o que mais encurta a vida humana. Recentemente, diz-se que a expectativa de vida dos japoneses aumentou. A principal causa disso é o abandono da fitoterapia chinesa em favor dos medicamentos ocidentais. Tão temível é essa prática.</p>
 <p>Por esse motivo, as pessoas do interior, para quem é inconveniente ir ao médico, costumam ter o hábito de tomar raízes e cascas de árvores como remédio caseiro. Por isso, é comum encontrar no campo pessoas com a pele amarelada e de má aparência. Geralmente, trata-se de intoxicação por fitoterapia. Estou escrevendo sobre isso agora. É fundamental que compreendam bem este assunto e, de agora em diante, prestem muita atenção a esse ponto. Como a quantidade ingerida é grande, leva muito tempo para que a toxina se dissolva através do Johrei. Já os medicamentos ocidentais, por serem em menor quantidade, são eliminados com relativa rapidez. Em comparação, a fitoterapia é mais problemática, pois sua purificação é muito mais demorada. É preciso ter grande cautela com a intoxicação causada por ela.</p>
 <p>Existem diversos tipos de fitoterápicos. Meu pai faleceu aos cinquenta e seis anos, uma morte relativamente precoce, e a causa foi intoxicação por ervas. Ele sofria de constipação crônica desde jovem e, por cerca de trinta anos, tomou um remédio chamado <em>daio</em>. Refletindo hoje, compreendo que ele morreu envenenado por essa substância. Laxantes à base de ervas também são extremamente perigosos. Pessoas do mundo do entretenimento, como as gueixas, consomem muito <em>dokudami</em>, e a purificação delas leva um tempo extraordinário. Por mais que se aplique Johrei, a toxina medicamentosa parece inesgotável, e quase sempre sua origem é a fitoterapia chinesa. Basta que atuem com essa compreensão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年2月15日） 『御教え集』19号、昭和28(1953)年3月15日発行 昭和二十八年二月十五日 今朝のラジオニュースによると、アメリカが急に朝鮮の大攻撃をやるとか言ってましたが、アイゼンハウアーはだいぶ急ぐようです。<br/><br/>この間のうちは、台湾の中立解除をして国民軍を出そうとしましたが、神様の方から言うとそれは嘘なのです。<br/><br/>やはり朝鮮を先にやらなければならないのです。<br/><br/>それが順序なのです。<br/><br/>それで今朝のラジオの放送によると朝鮮を先にやるようですが、これは非常に良いと思います。<br/><br/>それで朝鮮を片づけて、それから中国に行くというのが順序なのです。<br/><br/>そして「世界夢物語」に出したとおりのああいう順序で行くわけです。<br/><br/>しかし日本は今度は割合に恵まれるのです。<br/><br/>これからは非常に金がはいるようになります。<br/><br/>まあ景気が良くなるわけです。<br/><br/>これは先のことですが、日本には使いきれないほど金がはいってくることになっているのです。<br/><br/>それで世界の大変化がこれから始まって行くわけです。<br/><br/>それから中国と、今度の京都の嵯峨とは非常に関係があります。<br/><br/>私は四月に嵯峨に行こうと思ってます。<br/><br/>そうしてごく最初の敷地の形だけをこしらえようと思ってます。<br/><br/>非常に仏教に関係があるので、いろいろと事情を考えた結果、四月八日がちょうど良いことになるので、四月八日に行くことにしました。<br/><br/>それに四月八日はお釈迦さんの誕生日ですから意味があります。<br/><br/> 「若しもこの世界から「悪」がなくなったら」という論文を書きましたが、ちょっとおもしろいですから読ませます。<br/><br/> （御論文「若しもこの世界から「悪」がなくなったら」）【栄光 一九七号】 つまりこれがミロクの世の姿なのです。<br/><br/>夢のような話ですが、世界の大掃除がすむと、こういう世の中の建設になるわけですから、今生まれた人は……ただ生まれただけではしようがないが……救世教信者になった人は、仕合せも仕合せですが、おもしろいです。<br/><br/>この大きな変化を安心して見物できるわけです。<br/><br/>しかし見物と言っても、じっとしている見物ではないので、大いに仕事を与えられながら見られるのですから、どんなに愉快か分かりません。<br/><br/> 今度『救世教奇蹟集』という本を出すつもりで、その「序文」だけ書きました。<br/><br/>そして今まで発表しただけの奇蹟のすばらしいものを出します。<br/><br/>それで結局宗教の価値ということですが、つまり宗教ではたいした奇蹟はないので、宗教以上のものでなければならないのです。<br/><br/>宗教以上というと救世教より他にはありません。<br/><br/>そこで救世教では他の宗教にない奇蹟が現われるわけです。<br/><br/>今までの宗教でも奇蹟があるにはあったがごく少ないのです。<br/><br/>もっとも日蓮上人のような傑物になると顕著な奇蹟はあるが、一般信者にまではそれほど大きな奇蹟はありません。<br/><br/>しかし救世教では、私の弟子がキリストがやったような奇蹟も行なうし、他の宗教の教祖がやるようなことは、信者さんでも充分現わせるのですから、そこに違いさがあります。<br/><br/>だから奇蹟の顕著なことと多いことが宗教の値打ちです。<br/><br/>ところが既成宗教はそういうことがないので、だんだん理屈の宗教になっていったのです。<br/><br/>一般に対してはお説教宗教です。<br/><br/>大体お説教というものは宗教ではないのです。<br/><br/>それは道徳です。<br/><br/>「人間はこういう気持ちをもて」とか「こういう行いをしなければいけない」と言うが、そういう道理を説いて心を良くするということであっては、本当は宗教より下のものです。<br/><br/>つまり道徳です。<br/><br/>ところが奇蹟を現わすことができないから、そういうやり方でお茶を濁していたのです。<br/><br/>黙っていて立派な人間にするというのが本当の宗教です。<br/><br/>だから私の方では、あんまりお説教はやりません。<br/><br/>しかしそれも少しは結構です。<br/><br/>ところが今までの宗教はお説教専門なのです。<br/><br/>また、「こういうように養生しなければならない」「こういうものを食って、こういうやり方でなければ、人間は病気がなおって健康にはならない」というのでは本当のやり方ではないのです。<br/><br/>そういうのではしようがありません。<br/><br/>黙っていても、疑っていても健康になる、というのが本当のものです。<br/><br/>というのは、やはり宗教が持つ力です。<br/><br/>その力を現わしたものが奇蹟となるのです。<br/><br/>それで奇蹟は科学的にも説けるのです。<br/><br/>だから本当は奇蹟ではないのです。<br/><br/>よく奇蹟が現われると言うが、それはどうしても理屈がつかないので「ただ不思議だ」と言うだけです。<br/><br/>けれども本当は理屈がつくのです。<br/><br/> それで「いろんな不思議なことがあって命が助かる」ということは、正守護神がやるのです。<br/><br/>正守護神でも、信仰と霊的因縁によって力の強いのと弱いのがあります。<br/><br/>それからまた正守護神は一人ひとり人間を護っているが、その人間が徳を施し良いことをたくさんすると、その恵みが正守護神にも授けられます。<br/><br/>その人が良いことをするのは正守護神が蔭で手伝うからですから、正守護神もそれだけ御神徳を受けるわけです。<br/><br/>そうすると力を増すから、力が増すと、思うように助けることができるのです。<br/><br/>ですから奇蹟もたくさん現われるということになります。<br/><br/>だからこれは正守護神がやるのです。<br/><br/>ところが中には、正守護神で神格を得ているのがあります。<br/><br/>神格というのは、神様の位をもらった正守護神なのです。<br/><br/>そういうのはすばらしい力があります。<br/><br/>それからまたその人の系統によって、祖先が古くから産土神様に祀られている人は、その産土神様の力を分けてくれますから、そこでその人の働きも大きくなれば、また奇蹟も大きくなります。<br/><br/>だからその関係が分かれば、奇蹟というのは不思議ではありません。<br/><br/>ただ目に見えないから奇蹟だと思うのです。<br/><br/>きわどいところで、死ぬと思ったものが助かるということがありますが、それは正守護神がやっているのですから、別に不思議はありません。<br/><br/>奇蹟集の「序文」だけを今読ませます。<br/><br/> （御論文「救世教奇蹟集 序文」）【栄光 一九七号】 それから知っておかなくてはならないことは、漢方薬というものを一般人は割合に軽くみているのです。<br/><br/>あなた方もそうですが、病人に「あなたのは薬毒だ、薬は随分のんだでしょう」と言うと、「いやそんなにのみません」ということがよくありますが、答える人は漢方薬を薬のように思っていないのです。<br/><br/>それでだんだん問いつめていくと、「若い時に煎じ薬を少しのみました」と答えるが、漢方薬というのは一回のんでもたいへんなものです。<br/><br/>土瓶一杯でもたいへんなものです。<br/><br/>それで今浄化する人をみると漢方薬が非常に多いのです。<br/><br/>西洋の薬よりも漢方薬の方がよけい害を与えるようです。<br/><br/>前にも言ったとおり、漢方薬のうちでも非常に毒の多い少ないがありますが、一番毒の強いのはげんのしょうこです。<br/><br/>げんのしょうこを少しよけいのんだ人は請け合ってはいけないと言ったことがありますが、それはそういうわけです。<br/><br/>その次はどくだみが非常に悪いのです。<br/><br/>それから顔色の悪い人はまず漢方薬中毒と思ってもたいてい間違いありません。<br/><br/>それで中国人は顔色が悪くて黄色い顔色をしてますが、それはやはり漢方薬です。<br/><br/>だから顔色の悪い人に聞いてみると、必ず漢方薬をたくさんのんでます。<br/><br/>それで漢方薬中毒が人間の寿命を一番縮めるのです。<br/><br/>近ごろ日本人の寿命が延びたとか言ってますが、これは漢方薬をやめて西洋の薬をのむようになったので、それが一番の原因です。<br/><br/>そのくらい漢方薬というのは恐ろしいのです。<br/><br/>ですから、よく田舎の人などは一々お医者に行くのは不便だというために、草根木皮を持薬といってのむ癖がありますが、そこで田舎の人は割合に顔色が悪く、黄色い顔色をしている人が多いのです。<br/><br/>これはたいてい漢方薬中毒です。<br/><br/>それを今書いてます。<br/><br/>これをよく心得ておいて、これからはその点をよく注意することです。<br/><br/>なにしろ量が多いのですから、浄霊して溶け出すにも長くかかります。<br/><br/>そこにいくと西洋の薬は量が少ないから割合に早くすみます。<br/><br/>だから比べると、むしろ漢方薬の方が長くかかりますから始末が悪いのです。<br/><br/>漢方薬中毒を大いに注意しなければいけません。<br/><br/> それで漢方薬にもいろいろありますが、私の父というのは、五十六歳で死にました。<br/><br/>割合に早死にでしたが、やはり漢方薬中毒です。<br/><br/>というのは、若い時分から便秘症なので、大黄という薬を約三十年くらいのんだでしょうが、今考えてみますとその中毒で死んだのです。<br/><br/>そういうようで漢方薬の下剤なども非常に怖いのです。<br/><br/>それから花柳界の人などはどくだみをたくさんのんでます。<br/><br/>だからそういう人はとても長くかかります。<br/><br/>いくら溶かしても溶かしても、薬毒がほとんどきれないほどありますが、それはほとんど漢方薬です。<br/><br/>それだけを心得てやればいいのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

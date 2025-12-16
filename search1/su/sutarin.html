@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sutarin</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： スターリンの肚 『栄光』195号、昭和28(1953)年2月11日発行 この題を見ただけでは変な題と思うであろうが、この広い世界にこれ程偉大な存在はあるまいと思う。<br><br>見よ現在鉄のカーテン内もカーテン外の国々の人民も、等しくこの僅か一尺余りの塊が、脅威の的となっているからである。<br><br>何しろ世界中が今最も怯（おび）えている第三次戦争にしても、この肚（はら）一つで有る無しが決るのであるから、この肚を何とかしたいと思うのも当然な話である。<br><br>今度米大統領アイク元帥にしても、狙う中心はこの肚一つであろう。<br><br> ところが常識的に考えれば、右の通りであるとしても、これを宗教的に見ると素晴しい神秘があるのであって、これは誰しも是非聞きたいと思うであろうが、今のところ全部打明けられないのが遺憾である。<br><br>しかしチョッピリだけ言ってみると、マーこうである。<br><br> それは各国の偉い人達が想像しているよりも、もっとズッとドエライ計画が彼の肚の底深く蔵（かく）している事であって、これが人の目につくようになったら最後、大変な事になる。<br><br>ただ問題はその時であるが、それは割合早いようでもあるし、遅いようでもあるが、まず○年先くらいと思えば間違いはあるまい。<br><br>ただどこまでも警告したい事は、ヨーロッパ方面であって、それこそ大変であるが、まだその認識が足りないとみえて、防備の点がはなはだ手温（てぬる）いようであるから、何としてもウンと力を入れなければ千載（せんざい）の悔（くい）を残す事になろう。<br><br>しかしこんな事が分るのは、スターリンと連絡があるのかと怪しむかも知れないが、私には神霊通信社から絶えず電報じゃない、霊報が来るので分るのだから、安心されたいのである。<br><br> (注) アイク・ア元帥（Dwight David Eisenhower、1890-1969） 第三四代アメリカ合衆国大統領（在任 1953-1961）アイゼンハワーの愛称。<br><br>第２次世界大戦時の連合軍最高司令官として、日独伊の枢軸国を破った。<br><br>戦後は朝鮮戦争・インドシナ戦争を解決。<br><br>ＮＡＴＯ軍最高司令官として西ヨーロッパの反共軍事体制を整えた。<br><br>共和党。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Desígnios de Stalin</h2>
 <p>O presente título, por si só, poderá soar estranho; contudo, creio não haver, neste vasto mundo, existência de maior magnitude. Vede: atualmente, todos os povos, tanto os que vivem sob o jugo da Cortina de Ferro quanto os que estão além dela, encaram com igual temor o que se oculta no âmago de um único homem. Afinal, a deflagração ou não da Terceira Guerra Mundial, o conflito que hoje atemoriza o mundo inteiro, depende exclusivamente de seus desígnios. Portanto, é natural que todos anseiem por uma solução para tal impasse. O próprio general Eisenhower, recém-empossado presidente dos Estados Unidos, certamente tem em sua mira, como alvo principal, o que se passa nessa mesma mente.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Em verdade, no recôndito de sua mente, Stalin oculta um plano de proporções muito mais avassaladoras do que supõem os grandes líderes mundiais. Quando tal plano vier à luz, as consequências serão catastróficas. A grande questão reside no momento em que isso ocorrerá. Pode parecer que se dará em breve, ou talvez mais tarde; contudo, não será um erro estimar um prazo de aproximadamente alguns anos.</p>
 <p>O que desejo advertir, com a máxima veemência, diz respeito à Europa. O que ali se desenrolará será terrível e, ao que parece, a consciência desse perigo ainda é insuficiente, pois as medidas de defesa se mostram assaz brandas. Se não houver um empenho resoluto e imediato, um arrependimento milenar será inevitável.</p>
 <p>Diante de tais afirmações, alguns poderão indagar, com desconfiança, se porventura mantenho algum tipo de contato com Stalin. A verdade, no entanto, é que meu conhecimento provém de uma fonte superior: recebo, incessantemente, não telegramas, mas “comunicados espirituais” da Agência de Comunicação Divina. Portanto, fiquem tranquilos, pois a veracidade de minhas palavras está assegurada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： スターリンの肚 『栄光』195号、昭和28(1953)年2月11日発行 この題を見ただけでは変な題と思うであろうが、この広い世界にこれ程偉大な存在はあるまいと思う。<br/><br/>見よ現在鉄のカーテン内もカーテン外の国々の人民も、等しくこの僅か一尺余りの塊が、脅威の的となっているからである。<br/><br/>何しろ世界中が今最も怯（おび）えている第三次戦争にしても、この肚（はら）一つで有る無しが決るのであるから、この肚を何とかしたいと思うのも当然な話である。<br/><br/>今度米大統領アイク元帥にしても、狙う中心はこの肚一つであろう。<br/><br/> ところが常識的に考えれば、右の通りであるとしても、これを宗教的に見ると素晴しい神秘があるのであって、これは誰しも是非聞きたいと思うであろうが、今のところ全部打明けられないのが遺憾である。<br/><br/>しかしチョッピリだけ言ってみると、マーこうである。<br/><br/> それは各国の偉い人達が想像しているよりも、もっとズッとドエライ計画が彼の肚の底深く蔵（かく）している事であって、これが人の目につくようになったら最後、大変な事になる。<br/><br/>ただ問題はその時であるが、それは割合早いようでもあるし、遅いようでもあるが、まず○年先くらいと思えば間違いはあるまい。<br/><br/>ただどこまでも警告したい事は、ヨーロッパ方面であって、それこそ大変であるが、まだその認識が足りないとみえて、防備の点がはなはだ手温（てぬる）いようであるから、何としてもウンと力を入れなければ千載（せんざい）の悔（くい）を残す事になろう。<br/><br/>しかしこんな事が分るのは、スターリンと連絡があるのかと怪しむかも知れないが、私には神霊通信社から絶えず電報じゃない、霊報が来るので分るのだから、安心されたいのである。<br/><br/> (注) アイク・ア元帥（Dwight David Eisenhower、1890-1969） 第三四代アメリカ合衆国大統領（在任 1953-1961）アイゼンハワーの愛称。<br/><br/>第２次世界大戦時の連合軍最高司令官として、日独伊の枢軸国を破った。<br/><br/>戦後は朝鮮戦争・インドシナ戦争を解決。<br/><br/>ＮＡＴＯ軍最高司令官として西ヨーロッパの反共軍事体制を整えた。<br/><br/>共和党。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

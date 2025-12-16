@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280715</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月15日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月十五日 『医学革命の書』の中に入れる論文ですが、これは非常に科学的に説いたのです。<br><br>今の科学、特に医学の考え方は非常に幼椎なものでお話にならないくらいです。<br><br>よく「科学的、科学的」と言いますが、今の医学は科学としてはごく手前のものです。<br><br>これを分かりやすく急所だけを書いたので読ませます。<br><br> （御論文『医学革命の書』「 科学で病気は治らない 」） この後「神霊の解剖」というのを書くつもりです。<br><br>つまり神様を解剖するわけで、随分変わったことですが、神様を解剖するなどというと、今までの人は恐ろしくて罰が当たってはたいへんだと、そういうものに触れる人はないのです。<br><br>けれどもそこまで分からなければ信仰の真髄は本当に分かるわけがありません。<br><br>神様というと、ただ漠然としてありがたいような恐ろしいようなものになって、それに人間は触れることはならないように思われてきたのです。<br><br>というのは、今まで神様を本当に分かっていた人はなかったのです。<br><br>つまりキリストでもお釈迦さんでも、どうも徹底しては分かっていなかったらしいのです。<br><br>神様が分からないと、病気、人間の生命力ということが分からないわけです。<br><br>なにしろ人間の生命は神様が造り、神様が握っているのですから、神様の根本が分からなければ生命に関したことも分からないわけです。<br><br>ですからそれを説いた人もないし経文にもバイブルにもそれはなかったわけです。<br><br>つまり経文やバイブルにしても、もっと低い所です。<br><br>上面（うわつら）の所だけしか説くことができなかったのです。<br><br>ですから見真実といっても、見真実にも浅い深いがあって、深い所までは分からなかったというよりか、分からせなかったのです。<br><br>分からせてはいけなかったのです。<br><br>ところが今度は分からせなければいけなくなったわけです。<br><br>そこで私は知らされたわけです。<br><br>ですから今読んだとおり医学の考え方は、黴菌というものは、顕微鏡の現在の見得る程度は二十万倍というわけですから、二十万倍で分かっただけの黴菌を対照として研究しているわけです。<br><br>ところが顕微鏡が百万倍になっても千万倍になっても、まだ徹底したわけではないのです。<br><br>それ以上まだ小さいのがあるのです。<br><br>私が前にも言ったとおり「今ある黴菌というのは粗いものだ」と言うのはそういう意味で、細かい点においてはどこまであるか、ほとんど無限です。<br><br>一千万倍、一億万倍になっても、もっと細かいのです。<br><br>細かいということは無限ということで、つまり数字で現わすことはできません。<br><br>それが黴菌の本体なのです。<br><br>だから今の科学というのは実に浅い、浅薄なものです。<br><br>これで病気を治そうと思っても、治るわけがないのはあたりまえです。<br><br>それをよく分からせるということが根本なのです。<br><br>それでその無限の小さいそれを浄霊で殺すというのですが、これ（掌）から出る光が無限の細かいものであって、とうてい数字で表わすことはできません。<br><br>そういうわけですから、宇宙というものはすべて無限なのです。<br><br>「至大無外（しだいそとなし）、至小無内（ししょううちなし）」というわけで、ちょうど大空に壁がないようなものです。<br><br>ですから宇宙というものはどのくらい広いものか分からないので、とうてい数字で表わすことはできません。<br><br>大空の広さが無限であるのと同じように、小さいものがまた無限なのです。<br><br> ですから黴菌と言っても、病原菌の小ささというものは無限なのです。<br><br>それを分からせるために今書いたのです。<br><br>その小さいものが無限であるとしたら、やはり無限な力でなければ病気を治すことはできません。<br><br>そこで霊主体従の法則によって、ここならここの病気が治るということは、この細胞というものがまた無限なので、どのくらい細かいか分かりません。<br><br>ですから医学の方では、細胞の数は何万、何千万と言ってますが、これは滑稽なのです。<br><br>細胞一つを作っている細胞がまた何万、何千万あるか分からないくらいで、そのまた一つがそれと同じようにどのくらいあるか分かりません。<br><br>ですからすべて一切は無限なのです。<br><br>その無限であるために分からないので、その分からないところに本当はおもしろさがあるのです。<br><br>よく地球の年齢ということを学者が研究してますが、これは無限ということを知らないからです。<br><br>地球の寿命というものがまた無限なのです。<br><br>ですから人間でも、いくども生まれ変わり死に変わり行くのですから、人間の寿命というのは何万年か何千万年か分かりません。<br><br>霊の方は永久なのですから、早死にを恐れることはありません。<br><br>ただそれが人間の心に記録されてないから、新しく生まれて新しく死ぬように思うので、心細い感じがするのです。<br><br>そういうふうに考えると、まったく医学の研究などというのは実に気の毒なものです。<br><br>これを仏教などでは大づかみには説いてあります。<br><br>「一切無だ」と言いますが、一切無だということは無限という意味を表わしたわけです。<br><br>なぜと言えば、「有る」ということは言えないわけです。<br><br>つまり「有る」ということは唯物的の観念です。<br><br>「無」というと唯物的ではないということを表わしているわけです。<br><br>その意味が分かればよいわけです。<br><br>ここ（掌）から出る霊光も粒子なのです。<br><br>粒子ということは無限的粒子です。<br><br>それでこれが殺菌法です。<br><br>殺菌というのは、霊の曇りがつまり毒ですから、その毒を火素で焼いてしまうというので、それが肉体にもすぐ写るのです。<br><br>つまり霊主体従で、そのままに物質の方も従うというそれで病気は治るわけです。<br><br>これが真理なのですから、治るのがあたりまえなのです。<br><br>だからこれが分かりさえすれば医学者というのは今言ったとおり幼稚園の生徒です。<br><br>本当はもっとひどいのですが、言いようがないので「幼稚園の生徒が大学の講義を聞くような」と言うのですが、本当はもっと離れているのです。<br><br> それからこの間の九州を荒らした台風ですが、これも理屈は同じなのですが、しかし人体とはよほど違うわけです。<br><br>この人体と物質の区別はよほど違うのですが、言わば同じ粒子としても、人間の粒子というものは一番上等なのです。<br><br>それから台風とかそういったものの粒子は上等でなく下等というわけです。<br><br>それで現われ方は、大体浄化作用という点においては一つなのです。<br><br> （御論文「台風の霊的考察」）【栄光 二一九号】 よく、火事の時に火に向かって浄霊すると助かりますが、それは火事で燃えるということは霊に穢れがある、それを浄霊されるのですから、霊界のその穢れた分が減りますから、火は焼く必要がないから他に行くというわけです。<br><br>だから霊さえ分かればチャンと理屈は分かるわけです。<br><br>理屈は今言ったとおりですが、時期ですが、いつも言うとおり昼間の世界になってきますから、その浄化がだんだん強くなってきます。<br><br>世界的にそうなるわけですから、そこでこれから世界的あるいは国内的、個人的と、いろいろな形に現われてくるわけです。<br><br>それはなんにでも現われますが、特に一番厄介なのは農作物、米です。<br><br>米などが今年はイモチ病が各地に非常に現われてます。<br><br>これは肥毒で穢すためです。<br><br>ところが国の方では、昨日の新聞に出てましたが、五カ年計画で合計三千億の金を使って食糧増産させるというのです。<br><br>それでいろんな項目があって箇条書に何力条かありました。<br><br>ところが結果においては、むしろ減収になると思います。<br><br>それは根本に気がつかないからです。<br><br>それで「農業特集号」を日本中の農業に関係のある所に配ったが、しかたがないことではあるが、ぜんぜんと言ってよいほど反響がありません。<br><br>だからどうしても実際的に各村々で実行者が増え、数字で結果を現わして、それを知って初めて、前にこういう新聞を配って読まされた、そうだ、ということになるわけです。<br><br>その時に初めて新聞を読ませた結果が現われるわけです。<br><br>今年あたりは虫害、水害がだんだん増えますから、むしろ減産です。<br><br>それで政府がヤッキとなっていろんな施設をすればするほど減産になります。<br><br>やっぱり医学と同じで、いろんな新薬や方法をやればやるほど逆効果になるわけです。<br><br>ですから最近になって結核がまた非常に増えてきてます。<br><br>これは死亡率は減るのですが、患者数はだんだん増えるのです。<br><br>つい最近なにかの新聞に出てましたが、静岡県でしたかＢＣＧなどで厳密に検査したところが、四割が結核の疑念があるということです。<br><br>それは児童です。<br><br>その危険がある、あるいは疑念があるということは、それで治ってしまうのなら疑念ですんでしまいますが、医学の方で疑念があると言った以上必ず本物になりますが、実はそれから本物にするのです。<br><br>できるだけ過激な運動をするなとか、なにかの薬をのませるとかして弱らせるのですから、だんだん本物になるのです。<br><br>ですから四割から五割、六割というような具合に、日本人はほとんど結核患者の方が多いということになります。<br><br>それから本当に救世教にすがることになるのでしょう。<br><br>けれどもそうならないうちに早く救ってやらなければならないから厄介なのです。<br><br>なにしろ医学迷信、肥料迷信に囚（とら）われきっているのですから、極端にまで行くよりしようがないでしょう。<br><br>お蔭話などを読んでみても、浄霊によって確かに良いということは分かっていて、医者から離れることができないでいるのです。<br><br>そういう人がたくさんおります。<br><br>医者と縁を切るということは、不安で不安でしようがないのです。<br><br>それで医者からなにかやってもらうそれだけ悪くなり、浄霊では良くなりながら分からないのですが、こういうことをみても、医学迷信というものがいかに根強くはいっているか、ということが分かります。<br><br>ですから結核がドンドン増えるということは、大局からみると結構なので、早くそうなると早く分かります。<br><br>しかし霊界の方はドンドン変わってきますから、そういったように早くなるのもだんだん増してきますから、神様がうまい具合にやってくれるには決まってますからよいですが、それについてインテリ連中ほどよけい分からないのですから、そのことを書いてみました。<br><br> （御論文「世のインテリ族に物申す」）【栄光 二二〇号】 病気のことを少し話します。<br><br>この間の「結核を治すには肩を柔らかくする」ということは分かったでしょう。<br><br>それで肩を柔らかくすると、第一食欲を増すから衰弱をしなくてすむというわけです。<br><br>それで今度は頭から頸のまわり、肩という所の毒素が溶けると、いったん胃にはいって、それから下痢になって出るという順序ですが、それがお腹にいったん溜まって、それが男は無論肛門から出るのですが、女はそれがコシケになる方が多いのです。<br><br>これは男は穴が一つで女は二つあるからたいへん便利にはできています。<br><br>その場合に毒の性質によっていろいろに違います。<br><br>早く溶けて下りるのとそうでないもの、これは毒の重い軽いという意味もあります。<br><br>それで重いのは早くいかないからして遅い。<br><br>遅い時に、人間は使う所に固まりやすいのです。<br><br>ですから浄霊を始終やっていると、肩の神経を使うからどうも腕に固まりやすいのです。<br><br>それから割合に背中に固まります。<br><br>それからそれがだんだん下がって行って腰に固まります。<br><br>これが息切れの原因になります。<br><br>背中から脇の下、肋間が息切れの原因なのです。<br><br>それから喘息の原因にもなります。<br><br>だから喘息といっても頭や頸のまわりに非常に原因がありますから、そのつもりで浄霊することです。<br><br>それからこの間一度言いましたが、尾てい骨の付近に溜まった毒素のために、それが息切れの原因になります。<br><br>よく、歩いて息の切れる人、特に坂などを上って息が切れる人は、尾てい骨の付近に溜まった毒素のためなのです。<br><br>というのは腰が重いから、それにつれてやっぱり足が重いのです。<br><br>そうすると骨が折れるから息が切れるというわけです。<br><br>私はこの年でいて山や坂を上るのに非常に速くて、若い者より速いくらいです。<br><br>ですから若い者でも弱い者がいると私の方で加減するくらいです。<br><br>というのはなにかというと、私は始終腰を浄霊してますから、腰が非常に軽いのです。<br><br>つまり坂などを速く上れないということは息が切れるためです。<br><br>というのは、腰が痛んだり圧迫されたりするためです。<br><br>そのために骨が折れて息が切れるのです。<br><br>そういう人は腰の真ん中の所を自分で浄霊するとよいです。<br><br>そうするとウンと良くなります。<br><br>ですから、汽車や電車に乗る時には人より先に乗れるくらいでなくてはならないのです。<br><br>そう言うと意地が悪いようですが、そうではないので、今の人は腰が重いから敏捷にゆかないのです。<br><br>それでこっちは腰が軽いから体が敏捷に運ぶから、人よりか速く乗れるわけで得です。<br><br>しかしこれは自然ですからしかたがありません。<br><br>人を押しのけるのでなくて、先がノロイからこっちが速くなるのです。<br><br>それからもう一つは今の人は頭が悪いというよりか、頭の働きが遅鈍なのです。<br><br>敏捷に働かないのです。<br><br>これはつまり頸や頭の毒のために頭の活動が鈍っているわけです。<br><br>ですから頭も敏捷に働かなければならないのです。<br><br>それで私は体が軽いとともに頭も敏捷に働くのです。<br><br>今もここに出てくる時に、もう一つの羽織を着るとボヤボヤした感じがするのです。<br><br>狼の衣ひきのようになるのです。<br><br>それで襟が少し広そうですから「襟が広い」と言うと、女中が比べてみて「いや同じです、変わりはありません」と言うから、「いやそんなことはない、物指しで比べてみろ」と言うと、物指しで計ってみて、約一分違うのです。<br><br>それはどういうわけかというと、神経が敏捷でないのです。<br><br>そういうことは始終あります。<br><br>だから体が敏捷になるとともに頭も敏捷に働かなければならないのです。<br><br>私はいつも女は気がきかなければいけないと言うのですが、今の女の人の頭は敏捷でありません。<br><br>鈍感です。<br><br>しかし救世教の女の人はそういうことはありません。<br><br>ですから体が敏捷に働くとともに頭も敏捷に働くと得です。<br><br>早く分かりますから、ちょっと見てすぐ分かりますから、間違いが減るわけです。<br><br>だから結局毒素です。<br><br>今は自動車事故とかが非常に多いのですが、これは頭が敏捷に働かないためです。<br><br>というのは薬毒が頭に来ているわけです。<br><br>これは信者はよく知っているから言う必要はないが、結局今のいろんな病気の原因が上から下に下がって行くうちに所々に固まるのです。<br><br>それから肝臓や膵臓は違います。<br><br>これは胃です。<br><br>のんだ薬がだんだん外に流れて行って肝臓に固まると肝臓で、膵臓に行けばこれは糖尿病になります。<br><br>それから変な話ですが、女のコシケにしてもいろいろあります。<br><br>それでコシケが溜まった時に熱が出るのです。<br><br>それで女は下の方に熱が出ると前頭部に反射するのです。<br><br>この前頭部と陰部は非常に関連してます。<br><br>だから女で気がふさぐというのは陰部に熱があるのです。<br><br>そういうのは頭を浄霊するとともに下も浄霊するとずっと良くなります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Puerilidade da Ciência e a Realidade do Mundo Espiritual</h2>
 <p>Trata-se de uma tese, destinada ao “Livro da Revolução da Medicina”, que elaborei sob uma perspectiva eminentemente científica. A visão que a ciência moderna, e em particular a medicina, sustenta é de uma natureza tão pueril que chega a ser descabida. Embora o termo “científico” seja frequentemente invocado, a medicina atual representa apenas os estágios mais incipientes da verdadeira ciência. A seguir, apresentarei a leitura de um trecho que elucida seus pontos cruciais.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Outro ponto é que as pessoas de hoje têm o raciocínio lento, sem agilidade. Isso se deve às toxinas no pescoço e na cabeça, que embotam a atividade cerebral. Assim como o corpo, a mente também precisa ser ágil. Eu, por exemplo, tenho tanto o corpo leve quanto a mente perspicaz. Há pouco, ao vir para cá, ao vestir um outro <em>haori</em>, tive uma sensação de desconforto, de que algo estava errado. Comentei que a gola me parecia mais larga. A assistente comparou as peças e disse que eram iguais. Insisti para que medisse com uma régua, e constataram uma diferença de aproximadamente um <em>bu</em> (cerca de 3 milímetros). Isso ocorre porque os nervos da outra pessoa não possuem a mesma agilidade. Situações como essa acontecem constantemente. Portanto, é vantajoso que, junto com a agilidade do corpo, a mente também trabalhe com perspicácia. Isso nos permite compreender as coisas mais rapidamente, com um simples olhar, e reduz a margem de erro.</p>
 <p>Sempre digo que as mulheres precisam ter a mente desperta, mas as mulheres de hoje, em geral, são mentalmente obtusas. Felizmente, as mulheres da nossa Igreja são diferentes. O elevado número de acidentes de trânsito, por exemplo, é reflexo dessa falta de agilidade mental, causada pelo acúmulo de toxinas de medicamentos na cabeça. Em suma, as toxinas que causam as diversas doenças de hoje descem de cima para baixo e se solidificam em vários pontos do corpo. O fígado e o pâncreas, contudo, são afetados de outra forma. As toxinas dos medicamentos ingeridos se acumulam no estômago e, dali, se espalham. Se forem para o fígado, causam doenças hepáticas; se para o pâncreas, diabetes.</p>
 <p>Por fim, a leucorreia feminina também apresenta variações. Quando as toxinas se acumulam e causam febre na parte inferior do corpo, isso se reflete na região frontal da cabeça. Há uma forte correlação entre a testa e a região genital. Portanto, quando uma mulher se sente deprimida, isso indica a presença de calor em sua região genital. Nesses casos, ministrar Johrei tanto na cabeça quanto na parte inferior do corpo trará um grande alívio.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年7月15日） 『御教え集』24号、昭和28(1953)年8月15日発行 昭和二十八年七月十五日 『医学革命の書』の中に入れる論文ですが、これは非常に科学的に説いたのです。<br/><br/>今の科学、特に医学の考え方は非常に幼椎なものでお話にならないくらいです。<br/><br/>よく「科学的、科学的」と言いますが、今の医学は科学としてはごく手前のものです。<br/><br/>これを分かりやすく急所だけを書いたので読ませます。<br/><br/> （御論文『医学革命の書』「 科学で病気は治らない 」） この後「神霊の解剖」というのを書くつもりです。<br/><br/>つまり神様を解剖するわけで、随分変わったことですが、神様を解剖するなどというと、今までの人は恐ろしくて罰が当たってはたいへんだと、そういうものに触れる人はないのです。<br/><br/>けれどもそこまで分からなければ信仰の真髄は本当に分かるわけがありません。<br/><br/>神様というと、ただ漠然としてありがたいような恐ろしいようなものになって、それに人間は触れることはならないように思われてきたのです。<br/><br/>というのは、今まで神様を本当に分かっていた人はなかったのです。<br/><br/>つまりキリストでもお釈迦さんでも、どうも徹底しては分かっていなかったらしいのです。<br/><br/>神様が分からないと、病気、人間の生命力ということが分からないわけです。<br/><br/>なにしろ人間の生命は神様が造り、神様が握っているのですから、神様の根本が分からなければ生命に関したことも分からないわけです。<br/><br/>ですからそれを説いた人もないし経文にもバイブルにもそれはなかったわけです。<br/><br/>つまり経文やバイブルにしても、もっと低い所です。<br/><br/>上面（うわつら）の所だけしか説くことができなかったのです。<br/><br/>ですから見真実といっても、見真実にも浅い深いがあって、深い所までは分からなかったというよりか、分からせなかったのです。<br/><br/>分からせてはいけなかったのです。<br/><br/>ところが今度は分からせなければいけなくなったわけです。<br/><br/>そこで私は知らされたわけです。<br/><br/>ですから今読んだとおり医学の考え方は、黴菌というものは、顕微鏡の現在の見得る程度は二十万倍というわけですから、二十万倍で分かっただけの黴菌を対照として研究しているわけです。<br/><br/>ところが顕微鏡が百万倍になっても千万倍になっても、まだ徹底したわけではないのです。<br/><br/>それ以上まだ小さいのがあるのです。<br/><br/>私が前にも言ったとおり「今ある黴菌というのは粗いものだ」と言うのはそういう意味で、細かい点においてはどこまであるか、ほとんど無限です。<br/><br/>一千万倍、一億万倍になっても、もっと細かいのです。<br/><br/>細かいということは無限ということで、つまり数字で現わすことはできません。<br/><br/>それが黴菌の本体なのです。<br/><br/>だから今の科学というのは実に浅い、浅薄なものです。<br/><br/>これで病気を治そうと思っても、治るわけがないのはあたりまえです。<br/><br/>それをよく分からせるということが根本なのです。<br/><br/>それでその無限の小さいそれを浄霊で殺すというのですが、これ（掌）から出る光が無限の細かいものであって、とうてい数字で表わすことはできません。<br/><br/>そういうわけですから、宇宙というものはすべて無限なのです。<br/><br/>「至大無外（しだいそとなし）、至小無内（ししょううちなし）」というわけで、ちょうど大空に壁がないようなものです。<br/><br/>ですから宇宙というものはどのくらい広いものか分からないので、とうてい数字で表わすことはできません。<br/><br/>大空の広さが無限であるのと同じように、小さいものがまた無限なのです。<br/><br/> ですから黴菌と言っても、病原菌の小ささというものは無限なのです。<br/><br/>それを分からせるために今書いたのです。<br/><br/>その小さいものが無限であるとしたら、やはり無限な力でなければ病気を治すことはできません。<br/><br/>そこで霊主体従の法則によって、ここならここの病気が治るということは、この細胞というものがまた無限なので、どのくらい細かいか分かりません。<br/><br/>ですから医学の方では、細胞の数は何万、何千万と言ってますが、これは滑稽なのです。<br/><br/>細胞一つを作っている細胞がまた何万、何千万あるか分からないくらいで、そのまた一つがそれと同じようにどのくらいあるか分かりません。<br/><br/>ですからすべて一切は無限なのです。<br/><br/>その無限であるために分からないので、その分からないところに本当はおもしろさがあるのです。<br/><br/>よく地球の年齢ということを学者が研究してますが、これは無限ということを知らないからです。<br/><br/>地球の寿命というものがまた無限なのです。<br/><br/>ですから人間でも、いくども生まれ変わり死に変わり行くのですから、人間の寿命というのは何万年か何千万年か分かりません。<br/><br/>霊の方は永久なのですから、早死にを恐れることはありません。<br/><br/>ただそれが人間の心に記録されてないから、新しく生まれて新しく死ぬように思うので、心細い感じがするのです。<br/><br/>そういうふうに考えると、まったく医学の研究などというのは実に気の毒なものです。<br/><br/>これを仏教などでは大づかみには説いてあります。<br/><br/>「一切無だ」と言いますが、一切無だということは無限という意味を表わしたわけです。<br/><br/>なぜと言えば、「有る」ということは言えないわけです。<br/><br/>つまり「有る」ということは唯物的の観念です。<br/><br/>「無」というと唯物的ではないということを表わしているわけです。<br/><br/>その意味が分かればよいわけです。<br/><br/>ここ（掌）から出る霊光も粒子なのです。<br/><br/>粒子ということは無限的粒子です。<br/><br/>それでこれが殺菌法です。<br/><br/>殺菌というのは、霊の曇りがつまり毒ですから、その毒を火素で焼いてしまうというので、それが肉体にもすぐ写るのです。<br/><br/>つまり霊主体従で、そのままに物質の方も従うというそれで病気は治るわけです。<br/><br/>これが真理なのですから、治るのがあたりまえなのです。<br/><br/>だからこれが分かりさえすれば医学者というのは今言ったとおり幼稚園の生徒です。<br/><br/>本当はもっとひどいのですが、言いようがないので「幼稚園の生徒が大学の講義を聞くような」と言うのですが、本当はもっと離れているのです。<br/><br/> それからこの間の九州を荒らした台風ですが、これも理屈は同じなのですが、しかし人体とはよほど違うわけです。<br/><br/>この人体と物質の区別はよほど違うのですが、言わば同じ粒子としても、人間の粒子というものは一番上等なのです。<br/><br/>それから台風とかそういったものの粒子は上等でなく下等というわけです。<br/><br/>それで現われ方は、大体浄化作用という点においては一つなのです。<br/><br/> （御論文「台風の霊的考察」）【栄光 二一九号】 よく、火事の時に火に向かって浄霊すると助かりますが、それは火事で燃えるということは霊に穢れがある、それを浄霊されるのですから、霊界のその穢れた分が減りますから、火は焼く必要がないから他に行くというわけです。<br/><br/>だから霊さえ分かればチャンと理屈は分かるわけです。<br/><br/>理屈は今言ったとおりですが、時期ですが、いつも言うとおり昼間の世界になってきますから、その浄化がだんだん強くなってきます。<br/><br/>世界的にそうなるわけですから、そこでこれから世界的あるいは国内的、個人的と、いろいろな形に現われてくるわけです。<br/><br/>それはなんにでも現われますが、特に一番厄介なのは農作物、米です。<br/><br/>米などが今年はイモチ病が各地に非常に現われてます。<br/><br/>これは肥毒で穢すためです。<br/><br/>ところが国の方では、昨日の新聞に出てましたが、五カ年計画で合計三千億の金を使って食糧増産させるというのです。<br/><br/>それでいろんな項目があって箇条書に何力条かありました。<br/><br/>ところが結果においては、むしろ減収になると思います。<br/><br/>それは根本に気がつかないからです。<br/><br/>それで「農業特集号」を日本中の農業に関係のある所に配ったが、しかたがないことではあるが、ぜんぜんと言ってよいほど反響がありません。<br/><br/>だからどうしても実際的に各村々で実行者が増え、数字で結果を現わして、それを知って初めて、前にこういう新聞を配って読まされた、そうだ、ということになるわけです。<br/><br/>その時に初めて新聞を読ませた結果が現われるわけです。<br/><br/>今年あたりは虫害、水害がだんだん増えますから、むしろ減産です。<br/><br/>それで政府がヤッキとなっていろんな施設をすればするほど減産になります。<br/><br/>やっぱり医学と同じで、いろんな新薬や方法をやればやるほど逆効果になるわけです。<br/><br/>ですから最近になって結核がまた非常に増えてきてます。<br/><br/>これは死亡率は減るのですが、患者数はだんだん増えるのです。<br/><br/>つい最近なにかの新聞に出てましたが、静岡県でしたかＢＣＧなどで厳密に検査したところが、四割が結核の疑念があるということです。<br/><br/>それは児童です。<br/><br/>その危険がある、あるいは疑念があるということは、それで治ってしまうのなら疑念ですんでしまいますが、医学の方で疑念があると言った以上必ず本物になりますが、実はそれから本物にするのです。<br/><br/>できるだけ過激な運動をするなとか、なにかの薬をのませるとかして弱らせるのですから、だんだん本物になるのです。<br/><br/>ですから四割から五割、六割というような具合に、日本人はほとんど結核患者の方が多いということになります。<br/><br/>それから本当に救世教にすがることになるのでしょう。<br/><br/>けれどもそうならないうちに早く救ってやらなければならないから厄介なのです。<br/><br/>なにしろ医学迷信、肥料迷信に囚（とら）われきっているのですから、極端にまで行くよりしようがないでしょう。<br/><br/>お蔭話などを読んでみても、浄霊によって確かに良いということは分かっていて、医者から離れることができないでいるのです。<br/><br/>そういう人がたくさんおります。<br/><br/>医者と縁を切るということは、不安で不安でしようがないのです。<br/><br/>それで医者からなにかやってもらうそれだけ悪くなり、浄霊では良くなりながら分からないのですが、こういうことをみても、医学迷信というものがいかに根強くはいっているか、ということが分かります。<br/><br/>ですから結核がドンドン増えるということは、大局からみると結構なので、早くそうなると早く分かります。<br/><br/>しかし霊界の方はドンドン変わってきますから、そういったように早くなるのもだんだん増してきますから、神様がうまい具合にやってくれるには決まってますからよいですが、それについてインテリ連中ほどよけい分からないのですから、そのことを書いてみました。<br/><br/> （御論文「世のインテリ族に物申す」）【栄光 二二〇号】 病気のことを少し話します。<br/><br/>この間の「結核を治すには肩を柔らかくする」ということは分かったでしょう。<br/><br/>それで肩を柔らかくすると、第一食欲を増すから衰弱をしなくてすむというわけです。<br/><br/>それで今度は頭から頸のまわり、肩という所の毒素が溶けると、いったん胃にはいって、それから下痢になって出るという順序ですが、それがお腹にいったん溜まって、それが男は無論肛門から出るのですが、女はそれがコシケになる方が多いのです。<br/><br/>これは男は穴が一つで女は二つあるからたいへん便利にはできています。<br/><br/>その場合に毒の性質によっていろいろに違います。<br/><br/>早く溶けて下りるのとそうでないもの、これは毒の重い軽いという意味もあります。<br/><br/>それで重いのは早くいかないからして遅い。<br/><br/>遅い時に、人間は使う所に固まりやすいのです。<br/><br/>ですから浄霊を始終やっていると、肩の神経を使うからどうも腕に固まりやすいのです。<br/><br/>それから割合に背中に固まります。<br/><br/>それからそれがだんだん下がって行って腰に固まります。<br/><br/>これが息切れの原因になります。<br/><br/>背中から脇の下、肋間が息切れの原因なのです。<br/><br/>それから喘息の原因にもなります。<br/><br/>だから喘息といっても頭や頸のまわりに非常に原因がありますから、そのつもりで浄霊することです。<br/><br/>それからこの間一度言いましたが、尾てい骨の付近に溜まった毒素のために、それが息切れの原因になります。<br/><br/>よく、歩いて息の切れる人、特に坂などを上って息が切れる人は、尾てい骨の付近に溜まった毒素のためなのです。<br/><br/>というのは腰が重いから、それにつれてやっぱり足が重いのです。<br/><br/>そうすると骨が折れるから息が切れるというわけです。<br/><br/>私はこの年でいて山や坂を上るのに非常に速くて、若い者より速いくらいです。<br/><br/>ですから若い者でも弱い者がいると私の方で加減するくらいです。<br/><br/>というのはなにかというと、私は始終腰を浄霊してますから、腰が非常に軽いのです。<br/><br/>つまり坂などを速く上れないということは息が切れるためです。<br/><br/>というのは、腰が痛んだり圧迫されたりするためです。<br/><br/>そのために骨が折れて息が切れるのです。<br/><br/>そういう人は腰の真ん中の所を自分で浄霊するとよいです。<br/><br/>そうするとウンと良くなります。<br/><br/>ですから、汽車や電車に乗る時には人より先に乗れるくらいでなくてはならないのです。<br/><br/>そう言うと意地が悪いようですが、そうではないので、今の人は腰が重いから敏捷にゆかないのです。<br/><br/>それでこっちは腰が軽いから体が敏捷に運ぶから、人よりか速く乗れるわけで得です。<br/><br/>しかしこれは自然ですからしかたがありません。<br/><br/>人を押しのけるのでなくて、先がノロイからこっちが速くなるのです。<br/><br/>それからもう一つは今の人は頭が悪いというよりか、頭の働きが遅鈍なのです。<br/><br/>敏捷に働かないのです。<br/><br/>これはつまり頸や頭の毒のために頭の活動が鈍っているわけです。<br/><br/>ですから頭も敏捷に働かなければならないのです。<br/><br/>それで私は体が軽いとともに頭も敏捷に働くのです。<br/><br/>今もここに出てくる時に、もう一つの羽織を着るとボヤボヤした感じがするのです。<br/><br/>狼の衣ひきのようになるのです。<br/><br/>それで襟が少し広そうですから「襟が広い」と言うと、女中が比べてみて「いや同じです、変わりはありません」と言うから、「いやそんなことはない、物指しで比べてみろ」と言うと、物指しで計ってみて、約一分違うのです。<br/><br/>それはどういうわけかというと、神経が敏捷でないのです。<br/><br/>そういうことは始終あります。<br/><br/>だから体が敏捷になるとともに頭も敏捷に働かなければならないのです。<br/><br/>私はいつも女は気がきかなければいけないと言うのですが、今の女の人の頭は敏捷でありません。<br/><br/>鈍感です。<br/><br/>しかし救世教の女の人はそういうことはありません。<br/><br/>ですから体が敏捷に働くとともに頭も敏捷に働くと得です。<br/><br/>早く分かりますから、ちょっと見てすぐ分かりますから、間違いが減るわけです。<br/><br/>だから結局毒素です。<br/><br/>今は自動車事故とかが非常に多いのですが、これは頭が敏捷に働かないためです。<br/><br/>というのは薬毒が頭に来ているわけです。<br/><br/>これは信者はよく知っているから言う必要はないが、結局今のいろんな病気の原因が上から下に下がって行くうちに所々に固まるのです。<br/><br/>それから肝臓や膵臓は違います。<br/><br/>これは胃です。<br/><br/>のんだ薬がだんだん外に流れて行って肝臓に固まると肝臓で、膵臓に行けばこれは糖尿病になります。<br/><br/>それから変な話ですが、女のコシケにしてもいろいろあります。<br/><br/>それでコシケが溜まった時に熱が出るのです。<br/><br/>それで女は下の方に熱が出ると前頭部に反射するのです。<br/><br/>この前頭部と陰部は非常に関連してます。<br/><br/>だから女で気がふさぐというのは陰部に熱があるのです。<br/><br/>そういうのは頭を浄霊するとともに下も浄霊するとずっと良くなります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

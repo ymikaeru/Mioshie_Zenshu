@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkannon3</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音様のお蔭 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 新潟県 日本五六七教日之出会 日山ハル（46） 長岡市郊外で主人はトタン職工、私は五人の子供を育てながら自給程度に畑作りをしています。<br><br>昨年暮より長女が床に臥し難病で苦しんだ末、今年二月観音様に縋り御力の有難さを身に沁みて味いました。<br><br>この御力は総てのものに及ぼされる事を聞き、早速春蒔の白菜、馬鈴薯、さんど豆、夏大根、茄子、胡瓜、里芋、なんばんの種子をお浄霊して、昨年と同じ畠に同じ畝を作って蒔き肥料には手入をしました。<br><br>昨年は白菜、馬鈴薯、夏大根は虫に喰われてほとんど収穫なく花のついた頃より枯れてしまい、胡瓜、南瓜、里芋がどうにか穫れたものの、七人家族の野菜には足らぬ足らぬの毎日でした。<br><br>食糧不足の折、昨年の事が心配の種でしたが今年は白菜、夏大根、さんど豆、胡瓜、茄子は芽の出方が早い上、虫害も受けず気持よくすくすく肥って参りました。<br><br>白菜は近所のよりもずっと大きくなり、家中で食べきれず分け与えました。<br><br>余り大きいので筋があったりして硬いのではないかと思われましたが食べてみると大変軟かでした。<br><br>胡瓜、茄子は沢山なる上、有難い事には木の寿命が長く他の人のが枯れてもなり続けています。<br><br>里芋、南瓜、なんばんは初めは普通でしたが途中より茎が大きく強くなりよく実って来ました。<br><br>昨年の野菜不足に比べると今年は十分作りが出来、又私も子供もお浄霊をいただき身体が軽く気持よく働く事が出来喜んでいます。<br><br>先日も主人が仕事より帰り台所に畠より取込んでおいた南瓜を見てどこから買ったかと言われました。<br><br>増産に一生懸命のお百姓さんにこの御力をお伝えしたいと思っています。<br><br>家族の者も作物も、観音様の慈雨に浴し、気持よく毎日を送る事が出来有難さで一杯です。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Graça de Kannon (観音)</h2>
 <p><em>Extraído da revista "Paraíso Terrestre", edição n.º 2, de 1.º de março de 1949.</em>
@@ -101,5 +256,48 @@ function toggleLang(lang) {
 <p>Em comparação com a penúria de hortaliças do ano anterior, a colheita deste ano foi plenamente satisfatória. Além disso, eu e meus filhos temos recebido Johrei, o que nos proporciona grande bem-estar e leveza para trabalhar com alegria. Recentemente, meu marido, ao voltar do trabalho, viu na cozinha uma abóbora que eu havia colhido na horta e me perguntou onde eu a havia comprado.</p>
 <p>Desejo do fundo do coração compartilhar este sagrado poder com os agricultores, que se dedicam com tanto afinco ao aumento da produção de alimentos.</p>
 <p>Tanto minha família quanto nossas plantações fomos banhados pela chuva misericordiosa de Kannon (観音), o que nos permite viver nossos dias em paz e harmonia. Por tudo isso, meu coração transborda de gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音様のお蔭 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 新潟県 日本五六七教日之出会 日山ハル（46） 長岡市郊外で主人はトタン職工、私は五人の子供を育てながら自給程度に畑作りをしています。<br/><br/>昨年暮より長女が床に臥し難病で苦しんだ末、今年二月観音様に縋り御力の有難さを身に沁みて味いました。<br/><br/>この御力は総てのものに及ぼされる事を聞き、早速春蒔の白菜、馬鈴薯、さんど豆、夏大根、茄子、胡瓜、里芋、なんばんの種子をお浄霊して、昨年と同じ畠に同じ畝を作って蒔き肥料には手入をしました。<br/><br/>昨年は白菜、馬鈴薯、夏大根は虫に喰われてほとんど収穫なく花のついた頃より枯れてしまい、胡瓜、南瓜、里芋がどうにか穫れたものの、七人家族の野菜には足らぬ足らぬの毎日でした。<br/><br/>食糧不足の折、昨年の事が心配の種でしたが今年は白菜、夏大根、さんど豆、胡瓜、茄子は芽の出方が早い上、虫害も受けず気持よくすくすく肥って参りました。<br/><br/>白菜は近所のよりもずっと大きくなり、家中で食べきれず分け与えました。<br/><br/>余り大きいので筋があったりして硬いのではないかと思われましたが食べてみると大変軟かでした。<br/><br/>胡瓜、茄子は沢山なる上、有難い事には木の寿命が長く他の人のが枯れてもなり続けています。<br/><br/>里芋、南瓜、なんばんは初めは普通でしたが途中より茎が大きく強くなりよく実って来ました。<br/><br/>昨年の野菜不足に比べると今年は十分作りが出来、又私も子供もお浄霊をいただき身体が軽く気持よく働く事が出来喜んでいます。<br/><br/>先日も主人が仕事より帰り台所に畠より取込んでおいた南瓜を見てどこから買ったかと言われました。<br/><br/>増産に一生懸命のお百姓さんにこの御力をお伝えしたいと思っています。<br/><br/>家族の者も作物も、観音様の慈雨に浴し、気持よく毎日を送る事が出来有難さで一杯です。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

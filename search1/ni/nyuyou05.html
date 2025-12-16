@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nyuyou05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 乳幼児の健康 『地上天国』4号、昭和24(1949)年5月25日発行 近来、日本における乳幼児の健康が非常に悪く、彼のアメリカに較べて死亡率三十五倍というのであるから実に驚くべきであると共に、一日も早く解決を要すべき重大問題である。<br><br>それにはまず原因が那辺（なへん）にあるかを発見しなければならないが、現在医学上においてその原因なる物はほとんど的外れであるから、何程骨を折っても予期の効果は挙げ得られないのである。<br><br> しからばその原因はどこにあるのであろうかそれについて私の発見をかいてみよう。<br><br>以前私が乳幼児から五、六歳までの小児の病者を取扱った経験によると、都会児童の弱体なる事驚くべき程で、田舎の子供とは格段の相違があった。<br><br>ところが医学での解釈は、都会は空気が悪く、遊び場もなく、交通機関や騒音のため神経を刺戟する等の悪条件に対し、田舎は右と反対に好条件に恵まれているからだというのであるが、なる程それらの理由も相当あるにはあるが、それよりも気のつかないところに最大原因があるのである。<br><br>それについて当時私が扱った病児や弱体児童の母親にこういったのである。<br><br>「あなたの御子さんは、日本人の子ですか、西洋人の子ですか」とまた、私は言葉を次いで「日本人の子は、先祖代々日本流の食物で育って来たのであるのに対し、急激に西洋の児童の食物や育て方をするから、それが弱い原因である」と言うのである。<br><br>ところで最も滑稽なのは、在来の日本菓子を食べさせない。<br><br>特に餡（あん）を嫌う母親がある。<br><br>「なぜ餡を食べさせないか」と聞くと「お医者は疫痢の原因になるからいけない」との事で、私は「それは理屈に合わないではないか、小豆は便通に良いとしてわざわざ煮て食う程である。<br><br>しかもそれを精製し、砂糖を混じえ液体としたのであるから、どこに悪い点があるか」というのである。<br><br>また私は言葉を継いで「お医者さんは西洋の本を読んで直訳するので、西洋には餡がないから本に書いてないのでそう言うのである。<br><br>従ってお医者さんが言う病人の食物なども西洋にある通りの食物、すなわち牛乳、オートミル、バター、林檎、ジャガ芋等によってみても肯くであろう」 以上の理によって成人するに従い、西洋流の食物を漸次的に混ぜる事は差支えないが、乳幼児から五、六歳までは、日本流の食物にする方が確かに健康にいい事は、私の幾多の経験によって断言し得るのである。<br><br> 次に私の経験上、乳幼児に注射を多くすると、発育停止または発育不能となって首などグラグラし、痩せて力なく貧血状を呈するのである。<br><br>これらの幼児を二、三年無薬にすれば、普通児のごとき健康状態となるのである。<br><br> (注) 那辺（なへん）、どの辺、どのあたり。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Saúde dos Lactentes e da Primeira Infância</h2>
 <p>Nos últimos tempos, a saúde dos lactentes e das crianças no Japão tem se deteriorado de forma alarmante. A taxa de mortalidade, espantosamente trinta e cinco vezes superior à dos Estados Unidos, revela a gravidade da situação, configurando um problema que exige solução imediata. Para tanto, é imprescindível que se identifique a verdadeira origem do mal. Contudo, as causas apontadas pela medicina atual estão, em sua maioria, completamente equivocadas. Por essa razão, por mais que se esforcem, os médicos não conseguem obter os resultados esperados.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>E eu prosseguia: “Os médicos simplesmente fazem uma tradução literal dos livros ocidentais. Como o doce de feijão não existe no Ocidente, não há menção a ele nessas obras, e por isso o condenam. Prova disso é que os alimentos que recomendam para os enfermos são exatamente aqueles comuns no Ocidente, como leite, aveia, manteiga, maçãs e batatas”.</p>
 <p>Pelas razões expostas, não há problema em introduzir gradualmente alimentos ocidentais na dieta à medida que a criança se aproxima da vida adulta. Contudo, para os lactentes e até os cinco ou seis anos de idade, manter uma alimentação japonesa é, sem dúvida, mais benéfico para a saúde. Posso afirmá-lo categoricamente, com base em minhas inúmeras experiências.</p>
 <p>Adicionalmente, minha experiência demonstra que a aplicação excessiva de injeções em lactentes acarreta a interrupção ou mesmo a impossibilidade de seu desenvolvimento. A criança pode apresentar o pescoço instável, torna-se emaciada, sem vigor e com aparência anêmica. Se essas crianças forem mantidas sem medicamentos por um período de dois a três anos, elas recuperam um estado de saúde comparável ao de uma criança comum.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 乳幼児の健康 『地上天国』4号、昭和24(1949)年5月25日発行 近来、日本における乳幼児の健康が非常に悪く、彼のアメリカに較べて死亡率三十五倍というのであるから実に驚くべきであると共に、一日も早く解決を要すべき重大問題である。<br/><br/>それにはまず原因が那辺（なへん）にあるかを発見しなければならないが、現在医学上においてその原因なる物はほとんど的外れであるから、何程骨を折っても予期の効果は挙げ得られないのである。<br/><br/> しからばその原因はどこにあるのであろうかそれについて私の発見をかいてみよう。<br/><br/>以前私が乳幼児から五、六歳までの小児の病者を取扱った経験によると、都会児童の弱体なる事驚くべき程で、田舎の子供とは格段の相違があった。<br/><br/>ところが医学での解釈は、都会は空気が悪く、遊び場もなく、交通機関や騒音のため神経を刺戟する等の悪条件に対し、田舎は右と反対に好条件に恵まれているからだというのであるが、なる程それらの理由も相当あるにはあるが、それよりも気のつかないところに最大原因があるのである。<br/><br/>それについて当時私が扱った病児や弱体児童の母親にこういったのである。<br/><br/>「あなたの御子さんは、日本人の子ですか、西洋人の子ですか」とまた、私は言葉を次いで「日本人の子は、先祖代々日本流の食物で育って来たのであるのに対し、急激に西洋の児童の食物や育て方をするから、それが弱い原因である」と言うのである。<br/><br/>ところで最も滑稽なのは、在来の日本菓子を食べさせない。<br/><br/>特に餡（あん）を嫌う母親がある。<br/><br/>「なぜ餡を食べさせないか」と聞くと「お医者は疫痢の原因になるからいけない」との事で、私は「それは理屈に合わないではないか、小豆は便通に良いとしてわざわざ煮て食う程である。<br/><br/>しかもそれを精製し、砂糖を混じえ液体としたのであるから、どこに悪い点があるか」というのである。<br/><br/>また私は言葉を継いで「お医者さんは西洋の本を読んで直訳するので、西洋には餡がないから本に書いてないのでそう言うのである。<br/><br/>従ってお医者さんが言う病人の食物なども西洋にある通りの食物、すなわち牛乳、オートミル、バター、林檎、ジャガ芋等によってみても肯くであろう」 以上の理によって成人するに従い、西洋流の食物を漸次的に混ぜる事は差支えないが、乳幼児から五、六歳までは、日本流の食物にする方が確かに健康にいい事は、私の幾多の経験によって断言し得るのである。<br/><br/> 次に私の経験上、乳幼児に注射を多くすると、発育停止または発育不能となって首などグラグラし、痩せて力なく貧血状を呈するのである。<br/><br/>これらの幼児を二、三年無薬にすれば、普通児のごとき健康状態となるのである。<br/><br/> (注) 那辺（なへん）、どの辺、どのあたり。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

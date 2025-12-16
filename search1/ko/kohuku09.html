@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kohuku09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸福への道 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 凡そ如何なる人間と雖も幸福を希はぬ者は一人もあるまい。<br><br>全く幸福こそ、人間の欲求としての最大のものであり、最後の目標でもあらう。<br><br>そうして幸福の最大条件としては、何といつても病気の無い人間、病人の無い家庭之以外にないであらう事は余りに明白である。<br><br>然し乍ら、今日迄の世界に於て、全く無病たり得る事は不可能であるばかりでなく、現在健康であつても、何時如何なる場合に何等かの病気が発生するかも知れないといふ不安は何人と雖も抱いてゐるのである。<br><br>而も、偶々病気に罹るとして、それが容易に治癒すべきものであるか、或は、容易に治癒し難いものであるかといふ事も全然予測がつかないのであるから、実に不安此上もないのである。<br><br>其様な理由によつて、順調な境遇にある人も成功者になつた人としても病気に対する不安がある為、真の幸福に浸り得られないといふのが事実である。<br><br> そうして、凡ゆる不幸の根源は病気である事は曩に再三説いた通りである。<br><br>貯蓄の目的の大方は、罹病した時の用意であり、健康保険も生命保険もそれが為である。<br><br>孤児院も養老院も共済会も方面事業や、凡ゆる社会事業も、それが為であらう。<br><br> 従而、国家が如何なる理想的政治を行ふも人間の病患を解決なし得ない限り、国民の真の幸福はあり得ないのである。<br><br>洵に健康こそ幸福の根本であり、否幸福の全部であるといつても可いであらう。<br><br>然るに今日迄、根本的に病患の解決をなし得る医術も方法も、全然無かつた事である。<br><br> 私は、大言壮語するのではない。<br><br>私の創成した日本医術と健康法によれば、人間をして病患の不安から解放なし得る事は、既に述べた通りである。<br><br>故に私は、私の医術を知る人にして初めて幸福人となり得るといふ事を断言するのである。<br><br>何千年以来、人類が要望して熄（や）まなかつた所の“幸福への道”は、既に拓かれたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caminho para a Felicidade</h2>
 <p>Certamente não existe um só ser humano que não almeje a felicidade. Com efeito, a felicidade constitui o maior anseio e o objetivo supremo da existência humana. Nesse sentido, a sua condição primordial, de uma clareza insofismável, é a ausência de doenças, tanto no indivíduo quanto no seio familiar.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Conforme já explanei reiteradamente, a raiz de toda a infelicidade reside na doença. A principal finalidade das economias é a preparação para o advento de uma enfermidade; os seguros de saúde e de vida existem pelo mesmo motivo. De igual modo, orfanatos, asilos, associações de auxílio mútuo e todas as demais obras sociais foram, em sua essência, instituídos em função desse mesmo problema.</p>
 <p>Portanto, por mais que uma nação implemente a mais ideal das políticas, a genuína felicidade de seu povo jamais será alcançada enquanto não se puder solucionar a questão das doenças humanas. Em verdade, a saúde é o alicerce da felicidade; quiçá, seria mais correto afirmar que ela é a própria felicidade em sua totalidade. Contudo, até o presente momento, jamais existiu uma arte médica ou um método capaz de oferecer uma solução fundamental para o flagelo das enfermidades.</p>
 <p>Não digo isso por jactância ou exagero. Conforme já mencionei, a Arte Médica Japonesa e o Método de Saúde por mim criados são capazes de libertar o ser humano da angústia gerada pelas doenças. Por essa razão, afirmo categoricamente: somente aquele que conhece a minha arte médica poderá, pela primeira vez, se tornar uma pessoa verdadeiramente feliz. O “Caminho para a Felicidade”, incessantemente almejado pela humanidade ao longo de milênios, acaba de ser desbravado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸福への道 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 凡そ如何なる人間と雖も幸福を希はぬ者は一人もあるまい。<br/><br/>全く幸福こそ、人間の欲求としての最大のものであり、最後の目標でもあらう。<br/><br/>そうして幸福の最大条件としては、何といつても病気の無い人間、病人の無い家庭之以外にないであらう事は余りに明白である。<br/><br/>然し乍ら、今日迄の世界に於て、全く無病たり得る事は不可能であるばかりでなく、現在健康であつても、何時如何なる場合に何等かの病気が発生するかも知れないといふ不安は何人と雖も抱いてゐるのである。<br/><br/>而も、偶々病気に罹るとして、それが容易に治癒すべきものであるか、或は、容易に治癒し難いものであるかといふ事も全然予測がつかないのであるから、実に不安此上もないのである。<br/><br/>其様な理由によつて、順調な境遇にある人も成功者になつた人としても病気に対する不安がある為、真の幸福に浸り得られないといふのが事実である。<br/><br/> そうして、凡ゆる不幸の根源は病気である事は曩に再三説いた通りである。<br/><br/>貯蓄の目的の大方は、罹病した時の用意であり、健康保険も生命保険もそれが為である。<br/><br/>孤児院も養老院も共済会も方面事業や、凡ゆる社会事業も、それが為であらう。<br/><br/> 従而、国家が如何なる理想的政治を行ふも人間の病患を解決なし得ない限り、国民の真の幸福はあり得ないのである。<br/><br/>洵に健康こそ幸福の根本であり、否幸福の全部であるといつても可いであらう。<br/><br/>然るに今日迄、根本的に病患の解決をなし得る医術も方法も、全然無かつた事である。<br/><br/> 私は、大言壮語するのではない。<br/><br/>私の創成した日本医術と健康法によれば、人間をして病患の不安から解放なし得る事は、既に述べた通りである。<br/><br/>故に私は、私の医術を知る人にして初めて幸福人となり得るといふ事を断言するのである。<br/><br/>何千年以来、人類が要望して熄（や）まなかつた所の“幸福への道”は、既に拓かれたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

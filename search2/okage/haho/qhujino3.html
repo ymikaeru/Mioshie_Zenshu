@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhujino3</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治の肺浸潤其上心臓弁膜症三日で治る 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 秋田県 日光中教会 渡辺まさ（26） 不治の病とされていた肺浸潤と心臓弁膜症の私が、有難くも光明如来様の大慈大悲の御手に救われた喜びを、御報告さして頂きます。<br><br> 私は幼い時（六歳）より二十年間の長い年月心臓弁膜症で、いつも何とかして健康者になりたいと苦痛と悩みにどれ程苦しんだか知れません。<br><br>医師に頼り服薬注射あるいは祈祷とあらゆる事をしてみましたが良好なる結果を認める事は出来ず、暗い気持で日々を過さねばなりませんでした。<br><br>小学校当時からボール遊び等出来るはずもなく、陽当りの良い窓辺で学友の嬉々として飛び廻る姿を淋しく眺める時など、ただ眼頭が熱くなってくるのでした。<br><br>学校を終える頃より症状はすすみ、心臓部は重苦しく動悸が激しくなり、床に臥している時が多くなってしまいました。<br><br>それのみか一昨年秋頃より風邪がこじれてしまい体全体がだるく、いつまで経っても治らず、苦しさの余り胸部レントゲン写真を撮って頂きましたところ、肺浸潤と診断され、安静にするようにと申されました。<br><br>その時の私は急に力が抜けとうとう世間が嫌がる肺病にまでと思うと心は千々に乱れ、はりつめていた気拝もくずれて、力なく家に帰って参りました。<br><br>それから後は日毎病状は悪化して行くばかりで、父母達の心配も一通りではございませんでした。<br><br>医師のすすめた気胸療法も何等効果なく、却って重苦しく動悸が激しくなってしまい、もうお薬さえ効かないのかしらと諦めてしまいました。<br><br>病が不治と診断されるほど悲惨な事がございましょうか。<br><br>情けなくなってしまい吾身の不幸に幾夜涙にぬれたか知れません。<br><br>何人かの医師を頼り苦しい日々を送っておりました。<br><br>丁度その頃、近隣の小母さんが来て下さいまして、「どんな病気でもよく治して下さる方が来て下さいましたから」と知らせてくれました。<br><br>「溺れる者は藁をもつかむ」と申しますか、私も助かる見込はないと、一人淋しく死は覚悟しておりましたものの、一日も生き延びたい気持で一杯でした所へ、小母さんが熱心にすすめて下さいますので、ともかくやってみようという気持になりました。<br><br>当時は御浄霊も初めて見る事とてこんな事で病気が治るのかしらと、申訳ない事には半信半疑で御浄霊を受けました。<br><br>ところが有難い事には二度目の御浄霊を頂きました翌朝、あれほど苦しかった胸部もずっと楽にして頂きました。<br><br>三日目には有難い光明如来様のお話、又御先祖の御話等お聞き致しますうちに、私の家でも誤っていた事が解りました。<br><br>それは二十年前に分家になります時、土地の風習により、仏様をお祀りしなくては誰か新しい仏さんが出るとかで、本家から五十年も経った位牌を頂きましたそうで、それをそのままお祀りしてあったのです。<br><br>ところが本家で祀らるべき人が、分家の方だけで祀ってあったのが誤りであった事を、先生から色々お聞きして解りました。<br><br>早速先生にお願いして御先祖様のお祀りをして頂きまして、今までの御位牌は本家の仏壇に帰っていただきますと同時に、何と有難い事でしょう。<br><br>あれ程激しかった動悸は、ずっと落つき、身体はスーッと軽くなったのです。<br><br>長い間病院に通い、医学のよしとするあらゆる療法を試みても、何ら効果のなかった心臓弁膜症と肺浸潤の苦しみが、否効果どころではなく却って年々悪化して来ていたものが、僅か三日間の御浄霊により、そして又仏壇のお祀りにより、いとも簡単に解決されてしまったのです。<br><br>その時の喜びと驚きと有難さ、それは到底筆舌に尽せるものではありません。<br><br> ああ私のような者にまで大慈大悲の光明如来様は尊いお救いの御手を差のべて下さったのでございます。<br><br>この事を知った私は、早速大館にて教修を頂きお守様を胸に掛けさせて頂きました。<br><br>その時の生れ変ったような喜び、尊い光明如来様の大慈大悲により、再び健康な体が与えられた喜び、ただ明主様の限りなき大慈大悲に、感泣するばかりでございました。<br><br> 今はただこの喜びを一人でも多くの方にお伝えし微力ながらもこの有難いお道にお救い頂いた御高恩の万分の一なりとも尽させて頂く決心でございます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Infiltração Pulmonar e Valvulopatia Cardíaca Consideradas Incuráveis, Curadas em Três Dias</h2>
 <p>Publicado em "A Terapia Revolucionária da Tuberculose", 15 de agosto de 1951
@@ -103,5 +258,48 @@ Igreja Nikko-Chū, Província de Akita</p>
 <p>Imediatamente, solicitamos ao ministro que realizasse a cerimônia de retificação do culto aos antepassados. No exato momento em que o antigo registro retornou ao altar da família principal, algo maravilhoso aconteceu. As palpitações, antes tão violentas, acalmaram-se subitamente, e meu corpo foi tomado por uma extraordinária leveza. O sofrimento causado pela valvulopatia cardíaca e pela infiltração pulmonar, que tratamento algum conseguiu aliviar durante anos de idas a hospitais — na verdade, que só piorava a cada ano —, foi solucionado de forma surpreendentemente simples em apenas três dias de Johrei e com a correção do culto no altar. A alegria, o assombro e a gratidão que senti naquele instante transcendem qualquer descrição em palavras.</p>
 <p>Ah, pensar que até mesmo a alguém como eu, Meishu-Sama estendeu Sua sublime mão salvadora, em Sua infinita misericórdia e compaixão! Ciente dessa verdade, dirigi-me prontamente a Odate para participar do curso de formação e receber o sagrado Ohikari. A alegria que senti foi a de renascer. A felicidade de ter recebido um corpo saudável novamente, graças à infinita misericórdia e compaixão de Meishu-Sama... Diante de tamanha graça, eu não podia fazer outra coisa senão chorar de gratidão.</p>
 <p>Agora, meu único desejo é compartilhar esta alegria com o maior número possível de pessoas, dedicando-me, ainda que minhas forças sejam ínfimas, a retribuir nem que seja uma ínfima parcela da imensa graça que recebi ao ser salva por este sagrado Caminho.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治の肺浸潤其上心臓弁膜症三日で治る 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 秋田県 日光中教会 渡辺まさ（26） 不治の病とされていた肺浸潤と心臓弁膜症の私が、有難くも光明如来様の大慈大悲の御手に救われた喜びを、御報告さして頂きます。<br/><br/> 私は幼い時（六歳）より二十年間の長い年月心臓弁膜症で、いつも何とかして健康者になりたいと苦痛と悩みにどれ程苦しんだか知れません。<br/><br/>医師に頼り服薬注射あるいは祈祷とあらゆる事をしてみましたが良好なる結果を認める事は出来ず、暗い気持で日々を過さねばなりませんでした。<br/><br/>小学校当時からボール遊び等出来るはずもなく、陽当りの良い窓辺で学友の嬉々として飛び廻る姿を淋しく眺める時など、ただ眼頭が熱くなってくるのでした。<br/><br/>学校を終える頃より症状はすすみ、心臓部は重苦しく動悸が激しくなり、床に臥している時が多くなってしまいました。<br/><br/>それのみか一昨年秋頃より風邪がこじれてしまい体全体がだるく、いつまで経っても治らず、苦しさの余り胸部レントゲン写真を撮って頂きましたところ、肺浸潤と診断され、安静にするようにと申されました。<br/><br/>その時の私は急に力が抜けとうとう世間が嫌がる肺病にまでと思うと心は千々に乱れ、はりつめていた気拝もくずれて、力なく家に帰って参りました。<br/><br/>それから後は日毎病状は悪化して行くばかりで、父母達の心配も一通りではございませんでした。<br/><br/>医師のすすめた気胸療法も何等効果なく、却って重苦しく動悸が激しくなってしまい、もうお薬さえ効かないのかしらと諦めてしまいました。<br/><br/>病が不治と診断されるほど悲惨な事がございましょうか。<br/><br/>情けなくなってしまい吾身の不幸に幾夜涙にぬれたか知れません。<br/><br/>何人かの医師を頼り苦しい日々を送っておりました。<br/><br/>丁度その頃、近隣の小母さんが来て下さいまして、「どんな病気でもよく治して下さる方が来て下さいましたから」と知らせてくれました。<br/><br/>「溺れる者は藁をもつかむ」と申しますか、私も助かる見込はないと、一人淋しく死は覚悟しておりましたものの、一日も生き延びたい気持で一杯でした所へ、小母さんが熱心にすすめて下さいますので、ともかくやってみようという気持になりました。<br/><br/>当時は御浄霊も初めて見る事とてこんな事で病気が治るのかしらと、申訳ない事には半信半疑で御浄霊を受けました。<br/><br/>ところが有難い事には二度目の御浄霊を頂きました翌朝、あれほど苦しかった胸部もずっと楽にして頂きました。<br/><br/>三日目には有難い光明如来様のお話、又御先祖の御話等お聞き致しますうちに、私の家でも誤っていた事が解りました。<br/><br/>それは二十年前に分家になります時、土地の風習により、仏様をお祀りしなくては誰か新しい仏さんが出るとかで、本家から五十年も経った位牌を頂きましたそうで、それをそのままお祀りしてあったのです。<br/><br/>ところが本家で祀らるべき人が、分家の方だけで祀ってあったのが誤りであった事を、先生から色々お聞きして解りました。<br/><br/>早速先生にお願いして御先祖様のお祀りをして頂きまして、今までの御位牌は本家の仏壇に帰っていただきますと同時に、何と有難い事でしょう。<br/><br/>あれ程激しかった動悸は、ずっと落つき、身体はスーッと軽くなったのです。<br/><br/>長い間病院に通い、医学のよしとするあらゆる療法を試みても、何ら効果のなかった心臓弁膜症と肺浸潤の苦しみが、否効果どころではなく却って年々悪化して来ていたものが、僅か三日間の御浄霊により、そして又仏壇のお祀りにより、いとも簡単に解決されてしまったのです。<br/><br/>その時の喜びと驚きと有難さ、それは到底筆舌に尽せるものではありません。<br/><br/> ああ私のような者にまで大慈大悲の光明如来様は尊いお救いの御手を差のべて下さったのでございます。<br/><br/>この事を知った私は、早速大館にて教修を頂きお守様を胸に掛けさせて頂きました。<br/><br/>その時の生れ変ったような喜び、尊い光明如来様の大慈大悲により、再び健康な体が与えられた喜び、ただ明主様の限りなき大慈大悲に、感泣するばかりでございました。<br/><br/> 今はただこの喜びを一人でも多くの方にお伝えし微力ながらもこの有難いお道にお救い頂いた御高恩の万分の一なりとも尽させて頂く決心でございます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

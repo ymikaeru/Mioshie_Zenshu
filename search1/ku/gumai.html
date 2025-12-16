@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gumai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 愚昧なる医学 未発表、昭和11(1936)年2月25日執筆 西洋医学の蒙昧は、実に驚くべきものがある。<br><br>全世界の医学者と称するものの頭脳は、一種の変質者ではないかとさえ思うのである。<br><br>といって私は、いささかも悪口を言うつもりは無いのである。<br><br>ただ厳粛なる事実はいかん共する事が出来ないからである。<br><br>故に今日の医学なるものが根本的革正をしない限り、恐らく全世界の人類は、千年を出でずして滅亡するかも知れないとさえ危惧するのである。<br><br>何となれば、現代医療は病気を治癒するのでなくて、実に悪化さす方法であり、病気を作る事である。<br><br> この様な事を言えば、狂人の言葉としか思われないかもしれない。<br><br>しかし、私は理論でも仮説でもない。<br><br>全く生きた事実を根拠として言うのであるから、恐らく何人といえども飜然と目覚めない訳にはゆかない事を信ずるのである。<br><br>まず二三の実証を挙げてみよう。<br><br> まず第一は扁桃腺肥大症である。<br><br>この病気は実に医家が作るのであって、そうしておいて手術で抜除しようとするのであるから、全く困った事である。<br><br>それはこうである。<br><br>元来扁桃腺なるものは、人体不断の浄化作用によって作出さるる、その不純物即ち膿が淋巴腺に集注し、それが又外部へ排除されるその排け口が扁桃腺である。<br><br>それが為一旦膿が扁桃腺に集溜されるのである。<br><br>しかし、その際の膿は濃度であるから、排泄を容易ならしむるには稀薄にする必要がある。<br><br>それが為の発熱である。<br><br>故に、発熱のまま放任しておけば、極めて順調に膿は排泄され治癒するのであるのに、医療はそれに不明である為、その熱を薬剤を以て解熱させ、あるいは氷冷法を行うのである。<br><br> 元来、一切の物質は熱に因れば溶解し、冷によれば固結するのが法則であるから、この誤れる医療によって膿は扁桃腺に固結してしまうのである。<br><br>これが扁桃腺肥大である。<br><br>故に、解熱療法を行わなかった明治以前は、扁桃腺肥大なる病気は一人も無かったはずである。<br><br> そればかりではない、もっと怖ろしい事がある。<br><br>扁桃腺肥大によって、膿の唯一の排除口が閉止される結果、淋巴腺へ集溜した膿は、止むを得ず反対の方向へ排泄口を求めるのである。<br><br>それは中耳であって即ち中耳炎である。<br><br>扁桃腺炎より中耳炎の方がいかに重症であるかは、誰もが知っている通りである。<br><br>近来中耳炎患者が激増した原因はこれである。<br><br>そうして中耳炎の治療としては、鼓膜を破るか、耳後部を穿孔するかであるから、その結果は一種の不具者となるのである。<br><br> 次に盲腸炎であるが、これも手術の必要が無いのである。<br><br>この病気は浄化作用の結果としての膿が盲腸部に集溜し、発熱に依って溶解し、大腸を通じて下痢として排泄されるだけのものであるから、放任しておけば完全に、遅くも五六日で治癒するのである。<br><br>全く人体の健康を保つ上における浄化作用の工程であると言ってもよいので、病気とは言えない位のものである。<br><br> それを知らない医学は、又しても氷冷をする。<br><br>それに因って、扁桃腺炎の場合と同じく膿が固結し、浄化作用が停止される結果、危険にさえ瀕するという事になる。<br><br>こうなれば手術をしない訳にはゆかなくなるのであるから、いわば医療が手術の原因を作るという事になるのである。<br><br> それのみではない、膿が充分盲腸部に集溜した時手術をすればいいが、多くの場合、医家は周章して早期に切開する。<br><br>それが為に手術後、膿の後続があるので、それが再手術となり、又手術に因る疵（きず）が容易に治癒しないのもそれである。<br><br>中には二三年にも及んでなお指頭の先位の傷口から絶えず排膿されているという症状も少なくないので、これは医家も屡々（しばしば）経験される所であろう。<br><br> そればかりではない、膿の排泄機関として、最も適切に作られてある盲腸機能が欠除せる結果、自然浄化に因る膿は他の方面即ち各、腸、腎、肝、胃、腹膜等に滞溜する事となるから、種々の疾患が起り易くなるのが実際である。<br><br> 次に最も滑稽であるのは、制帯バンドという珍妙な器械を作って胃の下垂を防ぐ事である。<br><br>これの原因は消化の良い食物を摂らせ、消化薬を用いるからである。<br><br> 本来、胃は普通食を摂り、普通の運動をしておれば、何ら異常なく健康であるのに、前述のごとき誤れる養生法を行う結果、胃は活動の必要がないから、漸次衰退する結果緊張の力が無くなるので下垂するのは当然である。<br><br>それをバンドで窮屈な思いをして防止しようとするのであるから、一方で原因を作りながら、一方で防止するというその愚さは、実に及ぶべからずである。<br><br> 次に今日の病人に与える食物であるが、医家は味噌汁、香の物、餡（あん）等を不可としている事である。<br><br>これはなぜかといえば、現代医学は西洋所産のものであるから、西洋にない食物は医学書には書いてないに決っている。<br><br>それが為直訳医学が奨めないのであると思うのである。<br><br>実は日本人には右の食物は非常に効果があるので、それは誰しも実験すれば、必ず確実である事が判るであろう。<br><br> その他、数限りない程の誤謬は一々挙ぐるの遑（いとま）はないが、右の点だけにみても、現代医学がいかに誤っているか、否いかに恐るべき蒙昧であるかは何ら疑う余地はないであろう。<br><br>これが為に、幾千幾万の人は日々病苦に悩みつつあるであろうし、又貴重なる生命を短縮されつつある人は、幾何（いくばく）に上るか量り知れないであろう。<br><br>それを憶（おも）う時、私は慄然としない訳にはゆかないのである。<br><br>しかもかくのごとき蒙昧医学を、大いに進歩せりと崇信している現代人こそ全く不幸の極みである。<br><br> 噫（ああ）――、これが啓蒙運動こそ、実に観世音菩薩の救世本願の第一歩である、と吾らは思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Insensatez da Medicina</h2>
 <p>A ignorância da medicina ocidental é, de fato, assombrosa. Chego a ponderar se o intelecto daqueles que se denominam médicos em todo o mundo não seria de uma natureza peculiarmente alterada. Não tenho, com isso, a menor intenção de proferir injúrias. Contudo, não se pode negar a realidade dos fatos, que se impõem de maneira solene. Por essa razão, nutro o temor de que, se a medicina atual não passar por uma reforma fundamental, toda a humanidade possa vir a perecer em menos de mil anos.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Outro ponto a ser abordado é a alimentação prescrita aos doentes. Os médicos proíbem o consumo de sopa de missô, conservas e doces de feijão. Por que o fazem? A medicina moderna é um produto ocidental; logo, é natural que alimentos inexistentes no Ocidente não constem em seus manuais. Creio ser esta a razão pela qual essa "medicina de tradução literal" não os recomenda. A verdade é que, para os japoneses, tais alimentos são extremamente benéficos, e qualquer um que os experimente poderá comprovar sua eficácia.</p>
 <p>Existem inúmeros outros equívocos que o tempo não me permite enumerar. Contudo, apenas os pontos aqui expostos já não deixam margem para dúvida sobre o quão equivocada — ou melhor, o quão terrivelmente ignorante — é a medicina moderna. Em razão disso, milhares e dezenas de milhares de pessoas sofrem diariamente com doenças, e é impossível estimar o número daquelas que têm suas preciosas vidas abreviadas. Ao ponderar sobre essa realidade, não posso deixar de sentir um calafrio. E as pessoas de hoje, que veneram essa medicina obscurantista, acreditando que ela representa um grande progresso, encontram-se, na verdade, no auge da infelicidade.</p>
 <p>Ah! Este movimento de esclarecimento é, em verdade, o primeiro passo da Grande Vontade de Salvação de Kannon (観世音菩薩). É nisso que cremos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 愚昧なる医学 未発表、昭和11(1936)年2月25日執筆 西洋医学の蒙昧は、実に驚くべきものがある。<br/><br/>全世界の医学者と称するものの頭脳は、一種の変質者ではないかとさえ思うのである。<br/><br/>といって私は、いささかも悪口を言うつもりは無いのである。<br/><br/>ただ厳粛なる事実はいかん共する事が出来ないからである。<br/><br/>故に今日の医学なるものが根本的革正をしない限り、恐らく全世界の人類は、千年を出でずして滅亡するかも知れないとさえ危惧するのである。<br/><br/>何となれば、現代医療は病気を治癒するのでなくて、実に悪化さす方法であり、病気を作る事である。<br/><br/> この様な事を言えば、狂人の言葉としか思われないかもしれない。<br/><br/>しかし、私は理論でも仮説でもない。<br/><br/>全く生きた事実を根拠として言うのであるから、恐らく何人といえども飜然と目覚めない訳にはゆかない事を信ずるのである。<br/><br/>まず二三の実証を挙げてみよう。<br/><br/> まず第一は扁桃腺肥大症である。<br/><br/>この病気は実に医家が作るのであって、そうしておいて手術で抜除しようとするのであるから、全く困った事である。<br/><br/>それはこうである。<br/><br/>元来扁桃腺なるものは、人体不断の浄化作用によって作出さるる、その不純物即ち膿が淋巴腺に集注し、それが又外部へ排除されるその排け口が扁桃腺である。<br/><br/>それが為一旦膿が扁桃腺に集溜されるのである。<br/><br/>しかし、その際の膿は濃度であるから、排泄を容易ならしむるには稀薄にする必要がある。<br/><br/>それが為の発熱である。<br/><br/>故に、発熱のまま放任しておけば、極めて順調に膿は排泄され治癒するのであるのに、医療はそれに不明である為、その熱を薬剤を以て解熱させ、あるいは氷冷法を行うのである。<br/><br/> 元来、一切の物質は熱に因れば溶解し、冷によれば固結するのが法則であるから、この誤れる医療によって膿は扁桃腺に固結してしまうのである。<br/><br/>これが扁桃腺肥大である。<br/><br/>故に、解熱療法を行わなかった明治以前は、扁桃腺肥大なる病気は一人も無かったはずである。<br/><br/> そればかりではない、もっと怖ろしい事がある。<br/><br/>扁桃腺肥大によって、膿の唯一の排除口が閉止される結果、淋巴腺へ集溜した膿は、止むを得ず反対の方向へ排泄口を求めるのである。<br/><br/>それは中耳であって即ち中耳炎である。<br/><br/>扁桃腺炎より中耳炎の方がいかに重症であるかは、誰もが知っている通りである。<br/><br/>近来中耳炎患者が激増した原因はこれである。<br/><br/>そうして中耳炎の治療としては、鼓膜を破るか、耳後部を穿孔するかであるから、その結果は一種の不具者となるのである。<br/><br/> 次に盲腸炎であるが、これも手術の必要が無いのである。<br/><br/>この病気は浄化作用の結果としての膿が盲腸部に集溜し、発熱に依って溶解し、大腸を通じて下痢として排泄されるだけのものであるから、放任しておけば完全に、遅くも五六日で治癒するのである。<br/><br/>全く人体の健康を保つ上における浄化作用の工程であると言ってもよいので、病気とは言えない位のものである。<br/><br/> それを知らない医学は、又しても氷冷をする。<br/><br/>それに因って、扁桃腺炎の場合と同じく膿が固結し、浄化作用が停止される結果、危険にさえ瀕するという事になる。<br/><br/>こうなれば手術をしない訳にはゆかなくなるのであるから、いわば医療が手術の原因を作るという事になるのである。<br/><br/> それのみではない、膿が充分盲腸部に集溜した時手術をすればいいが、多くの場合、医家は周章して早期に切開する。<br/><br/>それが為に手術後、膿の後続があるので、それが再手術となり、又手術に因る疵（きず）が容易に治癒しないのもそれである。<br/><br/>中には二三年にも及んでなお指頭の先位の傷口から絶えず排膿されているという症状も少なくないので、これは医家も屡々（しばしば）経験される所であろう。<br/><br/> そればかりではない、膿の排泄機関として、最も適切に作られてある盲腸機能が欠除せる結果、自然浄化に因る膿は他の方面即ち各、腸、腎、肝、胃、腹膜等に滞溜する事となるから、種々の疾患が起り易くなるのが実際である。<br/><br/> 次に最も滑稽であるのは、制帯バンドという珍妙な器械を作って胃の下垂を防ぐ事である。<br/><br/>これの原因は消化の良い食物を摂らせ、消化薬を用いるからである。<br/><br/> 本来、胃は普通食を摂り、普通の運動をしておれば、何ら異常なく健康であるのに、前述のごとき誤れる養生法を行う結果、胃は活動の必要がないから、漸次衰退する結果緊張の力が無くなるので下垂するのは当然である。<br/><br/>それをバンドで窮屈な思いをして防止しようとするのであるから、一方で原因を作りながら、一方で防止するというその愚さは、実に及ぶべからずである。<br/><br/> 次に今日の病人に与える食物であるが、医家は味噌汁、香の物、餡（あん）等を不可としている事である。<br/><br/>これはなぜかといえば、現代医学は西洋所産のものであるから、西洋にない食物は医学書には書いてないに決っている。<br/><br/>それが為直訳医学が奨めないのであると思うのである。<br/><br/>実は日本人には右の食物は非常に効果があるので、それは誰しも実験すれば、必ず確実である事が判るであろう。<br/><br/> その他、数限りない程の誤謬は一々挙ぐるの遑（いとま）はないが、右の点だけにみても、現代医学がいかに誤っているか、否いかに恐るべき蒙昧であるかは何ら疑う余地はないであろう。<br/><br/>これが為に、幾千幾万の人は日々病苦に悩みつつあるであろうし、又貴重なる生命を短縮されつつある人は、幾何（いくばく）に上るか量り知れないであろう。<br/><br/>それを憶（おも）う時、私は慄然としない訳にはゆかないのである。<br/><br/>しかもかくのごとき蒙昧医学を、大いに進歩せりと崇信している現代人こそ全く不幸の極みである。<br/><br/> 噫（ああ）――、これが啓蒙運動こそ、実に観世音菩薩の救世本願の第一歩である、と吾らは思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

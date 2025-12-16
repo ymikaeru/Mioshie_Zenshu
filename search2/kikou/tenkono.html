@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenkono</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 天候の奇蹟 馬太 『栄光』183号、昭和27(1952)年11月19日発行 明主様が去る十月十八日御西下遊ばさるるに当って、私も何かじっとしておれない勇躍を覚えて、蔭ながらお伴さして戴いたのであるが、その間私の最も感に堪えなかったものの一つは御聖旅の進めらるる所、どこでも類いない好天にお迎えした事であった。<br><br> まず碧雲荘御出発を御見送り申上げたが、その朝の熱海は、薄着の膚も汗ばみ十月も半ば過ぎとは思えぬ暖かさで、一片の雲もない美しい瑠璃色の空は、無数の天人が喜びに舞うてお出迎えしているかと思うような快感が漲っていた。<br><br> 私は熱海から名古屋までの汽車の窓に爽やかな紺碧の空の続いたのを見、田園や山並に常ならぬ輝きを感じた。<br><br>特に霊山富士は嶺から裾まで雲一つかからぬ全姿を表わし、連山がくっきりと朝宗していたのは全く奇瑞で、どうしても明主様の御通過をお迎えするこよなき祝福の姿としか思えなかった。<br><br>私はこの三年来静岡へ通う車窓から幾十度もこの山を眺めたが、このように美しい全姿を見たのは初めてで、全くただ事とは思われなかった。<br><br>名古屋、京都、奈良でも実に温かい穏かな喜色に満ちた好日和で、来るべき天国世界の陽気は恐らくかようなものであろうかと想われた。<br><br> かように明主様がお出ましになる到るところ広範囲に渉って、理想の天国的陽気に変り万象が自らお迎えする如く動く奇び極まる事実、それはあらゆる神格者の記録にも伝説にも見出だせぬ、およそ開闢以来、かような大御徳の発現があったであろうか。<br><br>この一事によっても明主様がどのような御方であられ、その御仕事がどんなものであるか拝察出来ねばならぬ筈だと思うのである。<br><br> 由来明主様の御仕事に関しては、常に天候の奇蹟のあったのは信徒のよく知る所であるが、最近は特に顕著になって来て、大御光がいよよ強まらせ給うた事が極めてはっきり分るようになった。<br><br>今年、明主様の御位居になっていた間の強羅の温度は、東京とほぼ同位であったし、何度か高い日もあったのは例年にない事であり、熱海へお出でになると熱海の温度が上昇した事がありやかに感ぜられた。<br><br> 先日 「いつまでも 闇の世なりと油断すな 光はすでに雲破りけり」 とお詠みになられたが、吾々には直ちに理解さしていただけると思うのである。<br><br> なおいつも大祭の時の天気の奇蹟は多くの信徒が体験しているが、去る九月の秋季大祭日のそれは、特に著るしかった。<br><br>それまでは定まらぬ空模様が続き、前日には降雨があったが、当日になると強羅では初めてと思わるる程の絶好の日和となり、あまりにはっきりした変化に、地元の人々も大祭と関連する不思議を口々に語り合った由である。<br><br> 又十月熱海へお移りになる日は早朝からの雨で霽れ間もみえなかったのに、午後になるとピタリと止み、一時過ぎ御出発の御車をお送り申し上ると同時にカラリと洗い浄められたように晴れ渡ってしまった。<br><br>その日近所の未信者の家を訪れた時「夜までは止むまいと思ったあの雨が、御出立と同時にこんなに好い天気になるとは実に不思議だ、明主様はたしかに神様ですねえ」と感に堪えて語るを聞いた時、私も眼頭の熱くなるのを覚えた。<br><br> かように時機が進むにつれて御力徳は第三者の眼にさえありやかに映ってくるようになり、明主様は人間以上の尊いお方である事が自ら判って来ざるを得なくなるであろう。<br><br> 今年の立春これからすべて表面的になると仰せられたが、右のような奇蹟も表われ初めた大きい事象の一つといえよう。<br><br> 右について驚くべき事は、今回三日間の御滞在中連日快晴は固より、非常に暖かく、三日目の気象台の放送を聴いたが、その日の全国の温度は、京都市のみは驚く勿れ二十二度であって、次位は鹿児島の十二度、その他はそれ以下であったのにみて、ただ事ではないと私は言葉も出なかったのである。<br><br>恐らこんな事は京都でも初めての事であろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre Climático</h2>
 <p>Quando Meishu-Sama partiu em Sua jornada rumo ao oeste, no último dia 18 de outubro, senti um ânimo tão exultante que não pude conter-me e tive a honra de acompanhá-lo discretamente. Durante esse período, um dos fatos que mais profundamente me tocou foi que, por onde quer que Sua sagrada viagem o levasse, éramos acolhidos por um tempo esplêndido e inigualável.</p>
@@ -109,5 +261,48 @@ Pois a Luz já rompeu as nuvens."</p>
 <hr/>
 <p><em>Batai</em>
 <em>Do Jornal Eikô, nº 183, 19 de novembro de 1952</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 天候の奇蹟 馬太 『栄光』183号、昭和27(1952)年11月19日発行 明主様が去る十月十八日御西下遊ばさるるに当って、私も何かじっとしておれない勇躍を覚えて、蔭ながらお伴さして戴いたのであるが、その間私の最も感に堪えなかったものの一つは御聖旅の進めらるる所、どこでも類いない好天にお迎えした事であった。<br/><br/> まず碧雲荘御出発を御見送り申上げたが、その朝の熱海は、薄着の膚も汗ばみ十月も半ば過ぎとは思えぬ暖かさで、一片の雲もない美しい瑠璃色の空は、無数の天人が喜びに舞うてお出迎えしているかと思うような快感が漲っていた。<br/><br/> 私は熱海から名古屋までの汽車の窓に爽やかな紺碧の空の続いたのを見、田園や山並に常ならぬ輝きを感じた。<br/><br/>特に霊山富士は嶺から裾まで雲一つかからぬ全姿を表わし、連山がくっきりと朝宗していたのは全く奇瑞で、どうしても明主様の御通過をお迎えするこよなき祝福の姿としか思えなかった。<br/><br/>私はこの三年来静岡へ通う車窓から幾十度もこの山を眺めたが、このように美しい全姿を見たのは初めてで、全くただ事とは思われなかった。<br/><br/>名古屋、京都、奈良でも実に温かい穏かな喜色に満ちた好日和で、来るべき天国世界の陽気は恐らくかようなものであろうかと想われた。<br/><br/> かように明主様がお出ましになる到るところ広範囲に渉って、理想の天国的陽気に変り万象が自らお迎えする如く動く奇び極まる事実、それはあらゆる神格者の記録にも伝説にも見出だせぬ、およそ開闢以来、かような大御徳の発現があったであろうか。<br/><br/>この一事によっても明主様がどのような御方であられ、その御仕事がどんなものであるか拝察出来ねばならぬ筈だと思うのである。<br/><br/> 由来明主様の御仕事に関しては、常に天候の奇蹟のあったのは信徒のよく知る所であるが、最近は特に顕著になって来て、大御光がいよよ強まらせ給うた事が極めてはっきり分るようになった。<br/><br/>今年、明主様の御位居になっていた間の強羅の温度は、東京とほぼ同位であったし、何度か高い日もあったのは例年にない事であり、熱海へお出でになると熱海の温度が上昇した事がありやかに感ぜられた。<br/><br/> 先日 「いつまでも 闇の世なりと油断すな 光はすでに雲破りけり」 とお詠みになられたが、吾々には直ちに理解さしていただけると思うのである。<br/><br/> なおいつも大祭の時の天気の奇蹟は多くの信徒が体験しているが、去る九月の秋季大祭日のそれは、特に著るしかった。<br/><br/>それまでは定まらぬ空模様が続き、前日には降雨があったが、当日になると強羅では初めてと思わるる程の絶好の日和となり、あまりにはっきりした変化に、地元の人々も大祭と関連する不思議を口々に語り合った由である。<br/><br/> 又十月熱海へお移りになる日は早朝からの雨で霽れ間もみえなかったのに、午後になるとピタリと止み、一時過ぎ御出発の御車をお送り申し上ると同時にカラリと洗い浄められたように晴れ渡ってしまった。<br/><br/>その日近所の未信者の家を訪れた時「夜までは止むまいと思ったあの雨が、御出立と同時にこんなに好い天気になるとは実に不思議だ、明主様はたしかに神様ですねえ」と感に堪えて語るを聞いた時、私も眼頭の熱くなるのを覚えた。<br/><br/> かように時機が進むにつれて御力徳は第三者の眼にさえありやかに映ってくるようになり、明主様は人間以上の尊いお方である事が自ら判って来ざるを得なくなるであろう。<br/><br/> 今年の立春これからすべて表面的になると仰せられたが、右のような奇蹟も表われ初めた大きい事象の一つといえよう。<br/><br/> 右について驚くべき事は、今回三日間の御滞在中連日快晴は固より、非常に暖かく、三日目の気象台の放送を聴いたが、その日の全国の温度は、京都市のみは驚く勿れ二十二度であって、次位は鹿児島の十二度、その他はそれ以下であったのにみて、ただ事ではないと私は言葉も出なかったのである。<br/><br/>恐らこんな事は京都でも初めての事であろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

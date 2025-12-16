@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taiitei1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体位抵下の真因 『明日の医術（再版）第一編』昭和18(1943)年2月5日発行 以上各般にわたる統計によって、我国における国民体位の低下がいかに寒心すべき趨勢（すうせい）にあるかは了解された事と思う。<br><br>そうして第一篇において詳説したるごとく根本原因は勿論種痘及び薬毒である。<br><br>そうしてその種痘なるものの本来の目的が天然痘疾患を防止するというのであるが、しからば一体天然痘疾患発生の原因である天然痘毒素の原因は何であるか――その発見こそ根本の根本であらねばならない。<br><br> それは私の発見によれば薬毒であるという事である。<br><br>しからば薬毒が然毒となるのはいかなる理由と経路によるかというと、それは薬毒が人体を数代通過する結果一種の毒素化するのでそれが天然痘毒素である。<br><br>即ち遺伝によって成るのであって、医学上遺伝黴毒と名付けられているものは、実はそれを誤ったものである。<br><br>故に何よりも天然痘患者の発疹状態が黴毒性発疹と酷似している事によってみても肯（うなずか）れるであろう。<br><br> 又、医家の診断によって遺伝黴毒とされた患者がその父母、祖父母、曾祖父母にそれらの病歴の無い事実によって憤慨する事がよくあるのであるが、その際医家は感染について、不品行に依らざるも、他の場合偶然的による事があると言われるので、素人である患者は泣寝入に終るという事もよくあるが、実際上不品行以外の感染は極稀（ごくまれ）にはあろうが、まず無いといえよう。<br><br>これらの事実は全く然毒を遺伝黴毒と誤った結果に外ならないのである。<br><br> 又別の例として、我国においては天然痘発生は約千三百年以前、欽明天皇時代以後であるという事である。<br><br>欽明天皇十三年に仏教が渡来してより、初めて各地に疫病が発生したので、時の執権者は仏教渡来によって日本の神々が御怒りになった為であるとなし仏教を禁じたのであったが、それにも拘わらず、疫病は更に減退しないので、仏教に関係はないとして再び許されたという事が史実にある。<br><br>それはどういう訳かというと、仏教渡来以前、既に漢方薬が渡来し、それが疫病の原因となったであろう事を想像されるのである。<br><br>勿論疫病とは天然痘の事である。<br><br> そうして、薬剤によって病気を治癒しようとした先人の意図は全く逆効果となってしまったばかりか、病気治療の方法が「病気発生の原因」となり、それを繰返してついに今日のごとく体位低下の結果を来したのである。<br><br>あたかも聖書中の有名なはなしであるアダム、イヴがエデンの園に在って、禁断の果実を口に入れてから人類の罪が発生したという事と同様である。<br><br> 次に今一つの例として、日本人の寿齢の著しく短くなったという事である。<br><br>畏（おそれ）多き事ながら、神武天皇より景行天皇までの御歴代の御宝算は非常に御長齢であらせられ大方は百歳以上に渉（わた）らせられたという御事は歴史上明かであって、これは全く我国上代において、薬剤なるものが無かったからである――と拝察さるるのである。<br><br> 又、彼の秦の始皇帝が“東海に蓬莱島（ほうらいじま）あり、その島人は、頗（すこぶ）る長命である”というので、いかなる霊薬があるか探し求めよとて、臣の徐福に命じたのである。<br><br>彼は早速、蓬莱島に渡来した。<br><br>勿論、蓬莱島とは我日本の事である。<br><br>徐福が渡来し、いか程探し求めても、霊薬などはあるはずがない。<br><br>何となれば、その時代の日本には、薬剤が無いから長命であったのである。<br><br>ここにおいて、流石の徐福も本国へ還る能（あた）わずやむなく日本において生を終ったとの事である。<br><br>それで、現に今以て徐福の墓は、四国〔和歌山〕の某所に在るという事である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa do Declínio da Constituição Física</h2>
 <p>As estatísticas de diversas áreas revelam a preocupante tendência de declínio da constituição física do nosso povo. Conforme detalhado na primeira parte desta obra, a causa fundamental reside, inquestionavelmente, na vacinação e nos venenos medicinais. Contudo, se o propósito original da vacinação é prevenir a varíola, devemos ir mais fundo e questionar: qual é, afinal, a origem da toxina que causa a própria doença? A elucidação desse ponto é a raiz de toda a questão.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, a intenção de nossos antepassados de curar doenças com medicamentos não apenas resultou em um efeito completamente adverso, mas também transformou o próprio método de tratamento na “causa geradora de doenças”. A repetição desse ciclo culminou no declínio da constituição física que observamos hoje. A situação é análoga à célebre passagem bíblica em que o pecado da humanidade teve início quando Adão e Eva, no Jardim do Éden, provaram o fruto proibido.</p>
 <p>Vejamos, a seguir, outro exemplo: a notável redução da longevidade do povo japonês. Com a devida vênia, a história registra que os imperadores das primeiras gerações, desde o Imperador Jinmu até o Imperador Keiko, tiveram vidas excepcionalmente longas, sendo que a maioria ultrapassou os cem anos de idade. Isto se deve, segundo nossa reverente análise, à completa ausência de medicamentos em nosso país naqueles tempos remotos.</p>
 <p>Adicionalmente, há o conhecido relato sobre o imperador chinês Qin Shi Huang. Ele, ao ouvir que “no mar a leste existe uma ilha chamada Hōraijima (蓬莱島), cujos habitantes são muito longevos”, ordenou a seu vassalo, Jofuku (徐福), que a encontrasse e trouxesse de volta o elixir de tamanha longevidade. Jofuku prontamente viajou para Hōraijima (蓬莱島) — que, naturalmente, era o nosso Japão. Contudo, por mais que procurasse, não havia elixir algum a ser encontrado. A razão é simples: os japoneses daquela era viviam muito porque não existiam medicamentos. Diante disso, o célebre Jofuku, não podendo retornar à sua terra natal, viu-se obrigado a terminar seus dias no Japão. De fato, diz-se que seu túmulo existe até hoje em certo local de Wakayama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体位抵下の真因 『明日の医術（再版）第一編』昭和18(1943)年2月5日発行 以上各般にわたる統計によって、我国における国民体位の低下がいかに寒心すべき趨勢（すうせい）にあるかは了解された事と思う。<br/><br/>そうして第一篇において詳説したるごとく根本原因は勿論種痘及び薬毒である。<br/><br/>そうしてその種痘なるものの本来の目的が天然痘疾患を防止するというのであるが、しからば一体天然痘疾患発生の原因である天然痘毒素の原因は何であるか――その発見こそ根本の根本であらねばならない。<br/><br/> それは私の発見によれば薬毒であるという事である。<br/><br/>しからば薬毒が然毒となるのはいかなる理由と経路によるかというと、それは薬毒が人体を数代通過する結果一種の毒素化するのでそれが天然痘毒素である。<br/><br/>即ち遺伝によって成るのであって、医学上遺伝黴毒と名付けられているものは、実はそれを誤ったものである。<br/><br/>故に何よりも天然痘患者の発疹状態が黴毒性発疹と酷似している事によってみても肯（うなずか）れるであろう。<br/><br/> 又、医家の診断によって遺伝黴毒とされた患者がその父母、祖父母、曾祖父母にそれらの病歴の無い事実によって憤慨する事がよくあるのであるが、その際医家は感染について、不品行に依らざるも、他の場合偶然的による事があると言われるので、素人である患者は泣寝入に終るという事もよくあるが、実際上不品行以外の感染は極稀（ごくまれ）にはあろうが、まず無いといえよう。<br/><br/>これらの事実は全く然毒を遺伝黴毒と誤った結果に外ならないのである。<br/><br/> 又別の例として、我国においては天然痘発生は約千三百年以前、欽明天皇時代以後であるという事である。<br/><br/>欽明天皇十三年に仏教が渡来してより、初めて各地に疫病が発生したので、時の執権者は仏教渡来によって日本の神々が御怒りになった為であるとなし仏教を禁じたのであったが、それにも拘わらず、疫病は更に減退しないので、仏教に関係はないとして再び許されたという事が史実にある。<br/><br/>それはどういう訳かというと、仏教渡来以前、既に漢方薬が渡来し、それが疫病の原因となったであろう事を想像されるのである。<br/><br/>勿論疫病とは天然痘の事である。<br/><br/> そうして、薬剤によって病気を治癒しようとした先人の意図は全く逆効果となってしまったばかりか、病気治療の方法が「病気発生の原因」となり、それを繰返してついに今日のごとく体位低下の結果を来したのである。<br/><br/>あたかも聖書中の有名なはなしであるアダム、イヴがエデンの園に在って、禁断の果実を口に入れてから人類の罪が発生したという事と同様である。<br/><br/> 次に今一つの例として、日本人の寿齢の著しく短くなったという事である。<br/><br/>畏（おそれ）多き事ながら、神武天皇より景行天皇までの御歴代の御宝算は非常に御長齢であらせられ大方は百歳以上に渉（わた）らせられたという御事は歴史上明かであって、これは全く我国上代において、薬剤なるものが無かったからである――と拝察さるるのである。<br/><br/> 又、彼の秦の始皇帝が“東海に蓬莱島（ほうらいじま）あり、その島人は、頗（すこぶ）る長命である”というので、いかなる霊薬があるか探し求めよとて、臣の徐福に命じたのである。<br/><br/>彼は早速、蓬莱島に渡来した。<br/><br/>勿論、蓬莱島とは我日本の事である。<br/><br/>徐福が渡来し、いか程探し求めても、霊薬などはあるはずがない。<br/><br/>何となれば、その時代の日本には、薬剤が無いから長命であったのである。<br/><br/>ここにおいて、流石の徐福も本国へ還る能（あた）わずやむなく日本において生を終ったとの事である。<br/><br/>それで、現に今以て徐福の墓は、四国〔和歌山〕の某所に在るという事である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

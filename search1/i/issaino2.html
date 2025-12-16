@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>issaino2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一切の災は浄化作用なり 未発表、年代不詳 世の中のありとあらゆる災いは、浄化作用である事は常にいっているが、これについて現在国民全体が直面している主なる悩みについて詳しくかいてみよう。<br><br>まず第一は病気であり、第二は食糧不足であり、第三は汚職問題であろう。<br><br>その中で第一の病気については、私は常に余すところなく説いているから省くが、第二第三を説明してみよう。<br><br> この第二も今までに相当かくにはかいたが、まだかき足りない点もあるのでここにかくのである。<br><br>これもいつもいう通り凶作の原因が肥料によって土を汚し、地力を弱らすためであるとしているが、もちろん風水害並びに冷害もこれに起因している。<br><br>風水害としては言うまでもなく、昨年のごとき洪水と高潮による稲の冠水であるが、この原因は以前もかいたごとく、ヤハリ浄化作用の現われであって、つまり肥料によって土を汚し、地力が弱体となった結果、自然はそれを洗い清めて健康土壌にするのであって、これが神の摂理である。<br><br>ちょうど病気の原因が薬毒であり、それが人体を弱らすから、快復させるため自然浄化作用が発生するのと同様である。<br><br> では一体右の理由は何かというと、この大地はその中心の地熱から放射されている地霊すなわち窒素によって、あらゆる植物を健全に生育させるのであるから、土が清浄でなければ地力が衰弱するからである。<br><br>この理によって土壌の不純物を掃滅する、それが自然浄化すなわち風水害である。<br><br>すなわち水害の方は大地の汚れを水で洗う作用で、風害の方は空間に溜った汚濁を吹き払うのであるが、この汚濁にも二つの原因がある。<br><br>一は右のごとく地霊が放射される場合、地表にある不純物が邪魔するからと、今一つは人間が発する言霊（ことたま）である。<br><br>すなわち悪口、不平不満、愚痴等々、つまり悪に属するものは霊界を汚濁させるための浄化である。<br><br>また冷害は肥毒の壁になっている地表が地熱を遮断するからと、害虫を死滅させるためであり、今一つは農民の愛が欠除している反映でもある。<br><br>すなわち愛は熱であるからである。<br><br> 次は今騒がれている汚職問題であるが、これももちろん不正行為によって国民の血税を浪費するからで、実に怪（け）しからん話である。<br><br>それが原因となって、その人の霊が曇るからこれを清浄にすべく浄化作用が発生する。<br><br>つまり因果応報である。<br><br>ところが面白い事には、その浄化の場合は享楽に相当するだけの苦しみであり、しかも利子が付くので、それだけ大きくなるので、これが神律であるから、至公至平一厘の毫差（ごうさ）もない。<br><br>この点人間の法律との異（ちが）いさは天と地であるから、絶対免れ得ないのである。<br><br>従って一日も早くこれに目醒めて心から悔い改め、その償（つぐな）いをするより方法はないのである。<br><br>償いとは世のため、人のため大いに善徳を施す事であって、そうすれば浄化も軽く済み、再び立ち上る事が出来るのである。<br><br>ところがほとんどの人はそれに気付かず、一生懸命誤魔化そうとするのであるから、結果において益々罪は重なるばかりで、一生涯不遇な境遇とならざるを得ないのである。<br><br>何よりも喚（よ）び出し状が来てても、何だかんだと日を延ばそうとするが、これは疾（やま）しい点があるのを表白しているようなものである。<br><br>たとえ罪状を否定しても駄目であるのは知れ切っている。<br><br>しかもこういう卑怯な態度は国民思想にいかに悪影響を及ぼすか判っているはずで、結局罪の上塗りという事になる。<br><br>いつかも言った通り、「愚かなる者よ汝の名は悪人なり」の言葉もよく当てはまる。<br><br> 以上のごとく現在社会の人間ことごとくといいたい程、不幸な運命に喘ぎ苦しみ、地獄社会の有様は、全く間違った想念と行為によって、人間自らが作っているのであるから、その愚及ぶべからずである。<br><br>ところがこの理を諭（おし）える役目の宗教でさえはなはだ冷淡であるのは不可解といってよかろう。<br><br>以上のごとく何から何まで間違った世の中であればこそ、神は私をしてこれを諭（おし）え救い給うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Todas as Calamidades são Ações Purificadoras</h2>
 <p>Conforme tenho constantemente afirmado, todas as calamidades que assolam o mundo constituem ações purificadoras. Neste ensejo, discorrerei em detalhe sobre os principais tormentos que afligem a totalidade de nosso povo. Em primeiro lugar, a doença; em segundo, a escassez de alimentos; e em terceiro, o problema da corrupção. Como já explanei exaustivamente sobre a primeira questão, a da doença, abster-me-ei de repeti-la, concentrando-me na explanação das duas seguintes.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Passemos agora à questão da corrupção, que tanto alarde tem causado em nossa sociedade. Naturalmente, ela também é uma forma de purificação, decorrente do desperdício do dinheiro do povo — fruto de seu sangue — por meio de atos de desonestidade. Trata-se de uma conduta verdadeiramente deplorável. Tais atos maculam o espírito do indivíduo, e, para que este seja purificado, a ação purificadora se manifesta. É a retribuição de causa e efeito. O ponto notável é que o sofrimento decorrente dessa purificação é proporcional ao prazer ilícito desfrutado, e a ele se acrescentam juros, o que o torna ainda maior. Esta é a Lei Divina, de uma justiça e imparcialidade absolutas, sem a mínima margem de erro. Nesse aspecto, a diferença entre ela e as leis humanas é a mesma que há entre o Céu e a Terra; é impossível dela escapar. Portanto, não há outra alternativa senão despertar para essa realidade o quanto antes, arrepender-se sinceramente e buscar a devida reparação. Reparar significa praticar o bem em prol do mundo e do próximo. Agindo assim, a purificação será abrandada, e será possível reerguer-se.</p>
 <p>Contudo, a maioria das pessoas não se dá conta desse princípio e se empenha em dissimular e ocultar suas faltas. Como resultado, seus pecados se tornam cada vez mais pesados, condenando-as a uma existência de infortúnios. Mesmo ao receberem uma intimação, buscam protelar o inevitável com toda sorte de pretextos, o que apenas evidencia sua culpa. É inútil negar as acusações, como bem se sabe. Ademais, essa atitude covarde exerce uma péssima influência sobre a mentalidade do povo, o que, no fim, equivale a acumular mais um pecado sobre os já existentes. Como afirmei em outra ocasião, as palavras "Ó insensato, teu nome é malfeitor!" aplicam-se perfeitamente a tais casos.</p>
 <p>Conforme o exposto, a sociedade atual assemelha-se a um verdadeiro inferno, no qual quase todos os seres humanos gemem e sofrem sob o peso de destinos desafortunados. Essa condição foi inteiramente criada pelos próprios homens, por meio de seus pensamentos e atos equivocados, o que revela uma insensatez sem limites. Todavia, é incompreensível que até mesmo a religião, cuja missão é ensinar este princípio, mostre-se tão indiferente. É precisamente porque o mundo se encontra mergulhado em equívocos de toda ordem que Deus me incumbiu da missão de ensinar esta Verdade e de promover a salvação da humanidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一切の災は浄化作用なり 未発表、年代不詳 世の中のありとあらゆる災いは、浄化作用である事は常にいっているが、これについて現在国民全体が直面している主なる悩みについて詳しくかいてみよう。<br/><br/>まず第一は病気であり、第二は食糧不足であり、第三は汚職問題であろう。<br/><br/>その中で第一の病気については、私は常に余すところなく説いているから省くが、第二第三を説明してみよう。<br/><br/> この第二も今までに相当かくにはかいたが、まだかき足りない点もあるのでここにかくのである。<br/><br/>これもいつもいう通り凶作の原因が肥料によって土を汚し、地力を弱らすためであるとしているが、もちろん風水害並びに冷害もこれに起因している。<br/><br/>風水害としては言うまでもなく、昨年のごとき洪水と高潮による稲の冠水であるが、この原因は以前もかいたごとく、ヤハリ浄化作用の現われであって、つまり肥料によって土を汚し、地力が弱体となった結果、自然はそれを洗い清めて健康土壌にするのであって、これが神の摂理である。<br/><br/>ちょうど病気の原因が薬毒であり、それが人体を弱らすから、快復させるため自然浄化作用が発生するのと同様である。<br/><br/> では一体右の理由は何かというと、この大地はその中心の地熱から放射されている地霊すなわち窒素によって、あらゆる植物を健全に生育させるのであるから、土が清浄でなければ地力が衰弱するからである。<br/><br/>この理によって土壌の不純物を掃滅する、それが自然浄化すなわち風水害である。<br/><br/>すなわち水害の方は大地の汚れを水で洗う作用で、風害の方は空間に溜った汚濁を吹き払うのであるが、この汚濁にも二つの原因がある。<br/><br/>一は右のごとく地霊が放射される場合、地表にある不純物が邪魔するからと、今一つは人間が発する言霊（ことたま）である。<br/><br/>すなわち悪口、不平不満、愚痴等々、つまり悪に属するものは霊界を汚濁させるための浄化である。<br/><br/>また冷害は肥毒の壁になっている地表が地熱を遮断するからと、害虫を死滅させるためであり、今一つは農民の愛が欠除している反映でもある。<br/><br/>すなわち愛は熱であるからである。<br/><br/> 次は今騒がれている汚職問題であるが、これももちろん不正行為によって国民の血税を浪費するからで、実に怪（け）しからん話である。<br/><br/>それが原因となって、その人の霊が曇るからこれを清浄にすべく浄化作用が発生する。<br/><br/>つまり因果応報である。<br/><br/>ところが面白い事には、その浄化の場合は享楽に相当するだけの苦しみであり、しかも利子が付くので、それだけ大きくなるので、これが神律であるから、至公至平一厘の毫差（ごうさ）もない。<br/><br/>この点人間の法律との異（ちが）いさは天と地であるから、絶対免れ得ないのである。<br/><br/>従って一日も早くこれに目醒めて心から悔い改め、その償（つぐな）いをするより方法はないのである。<br/><br/>償いとは世のため、人のため大いに善徳を施す事であって、そうすれば浄化も軽く済み、再び立ち上る事が出来るのである。<br/><br/>ところがほとんどの人はそれに気付かず、一生懸命誤魔化そうとするのであるから、結果において益々罪は重なるばかりで、一生涯不遇な境遇とならざるを得ないのである。<br/><br/>何よりも喚（よ）び出し状が来てても、何だかんだと日を延ばそうとするが、これは疾（やま）しい点があるのを表白しているようなものである。<br/><br/>たとえ罪状を否定しても駄目であるのは知れ切っている。<br/><br/>しかもこういう卑怯な態度は国民思想にいかに悪影響を及ぼすか判っているはずで、結局罪の上塗りという事になる。<br/><br/>いつかも言った通り、「愚かなる者よ汝の名は悪人なり」の言葉もよく当てはまる。<br/><br/> 以上のごとく現在社会の人間ことごとくといいたい程、不幸な運命に喘ぎ苦しみ、地獄社会の有様は、全く間違った想念と行為によって、人間自らが作っているのであるから、その愚及ぶべからずである。<br/><br/>ところがこの理を諭（おし）える役目の宗教でさえはなはだ冷淡であるのは不可解といってよかろう。<br/><br/>以上のごとく何から何まで間違った世の中であればこそ、神は私をしてこれを諭（おし）え救い給うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

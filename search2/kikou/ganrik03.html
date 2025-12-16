@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganrik03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （三） 神成大教会 岡庭真次郎 『地上天国』42号、昭和27(1952)年11月25日発行 前号の如く明主様は言霊で病気治療を御始め遊ばされましたが、ただ単に“痛み去れ”と言霊を御発射毎にピタリと痛みは去るものゝ病毒を取り去る事を主となされる御目的なるため痛みは去っても毒が取れないからと御悟り遊ばされて言霊治療を止められ又普通の御治療に帰られました。<br><br>これより先明主様には今現在のごとき御浄霊の御守様は無く御手代（みてしろ）即ち明主様の御手の代りの意味で御扇子に『萬有の霊体浄むる此扇』と御書き下され、裏面へは御雅号暉月と大書されて御立派な日本紙で封じて下され、昭和五年十月十一日明主様御手づから下され有難く頂戴致し、金欄の袋を作り御手代を納め懐中させて頂き、病人の御治療を御許し下されましたが、この頃は我々弟子は御治療で無く御取次と言う事に成っておりましたが、この御手代で実に病気がよく治ったのでありました。<br><br>昭和六年六月十五日、明主様には奥様始め多数の信者御供して房州の日本寺に天照皇大御神様を御迎えに御出になられました。<br><br>この朝私は四時起床、掃除中東の空より西の空へ曇れる空が真二つに約八寸巾位一直線に切れ、青空の見える不思議を見せられ、これは何か御神業と思いましたのでその晩房州より御帰りの明主様に御話し申し上げましたところ、「あなたは行かれなかったけれど神様の方では行った事に成っているのでその様な不思議を御見せ下されたのだ」との御言葉にて神様の御仁慈深さに実に感激致しました。<br><br>この日仏国が降伏したのも因縁の有る事で有るとの御教えを賜わりました。<br><br>この頃銀座の兄の姪大木美保子が肺を病み、血痰を吐くようになったため、明主様に御願いして治して戴き、忽ち全快致しましたため会員と成りました。<br><br>昭和七年一月元日、銀座の兄が自分の姪がバッヂを胸に着けているのを見て「それは何だ」と問うたところ、「観音様のバッヂだ」と答えたので、「そんな物を着けやがって」と大変な勢で胸から引きむしり火鉢の中へ叩き込み、会の悪口から誠に恐れ多い勿体ない事ながら明主様に対し奉り悪口雑言して夕方帰って行きましたが、正月二日の朝肺病にて鎌倉に静養中の長男が突然容態急変し忽然と死んだので、信仰なき店員すらも昨夕から今朝の出来事とて「あゝ観音様の罰が当った」と一斉にさわぎました。<br><br>その後もこの兄は観音様や明主様の悪口の直後に必ず罰が当りましたが、何としても信仰嫌いのために全滅するより致し方なかったので有ります。<br><br> 又明主様は何事にも小さい型をもって将来への大きな勝利の道を御開きになられるので有ります。<br><br>実に小さい型ながらもその後来るべき時の勝利は大変に大きい事ばかりで、実に世界人類救済のため御尽し遊ばされる御苦労は恐れ多い次第で有ります。<br><br> 又、東北地方より霊憑りのどえらい病人が来ましたが、林檎や梨など一晩に一箱でも盗んで平らげて終う豪の者で。<br><br>三澤と云う男でした。<br><br>明主様が「蜘蛛の霊だ」と御聞かせ下されたので、蔭では皆蜘蛛々々と言ったが、この蜘蛛は雲に通じ、光を隠す物なるため実に御邪魔ばかりしていたのですが、明主様の御手許にはこのような者が澤山入り込んでいた事も皆神様の御用の御邪魔さすべく悪魔から派遣されて御奉仕を名として御邪魔しに来たので、神様の御用に日夜御精励遊ばす明主様も、御並大抵では無かったのであります。<br><br>何程悪魔が御邪魔しても必ずいよいよ最後と思うような時、必ず何時でも御勝ちになられるのは「悪魔は九分九厘で神様は一厘だが、その一厘の力で跳ね反す」と仰せられます通りで、いかに智慧をしぼってもいつでも悪魔は負けて退散するのが例であります。<br><br>昭和七年八月三十日、明主様は私一人に御因縁や神様の事、又明主様の御用の大切なお話を聞かせて戴き、又御大切な御日記をも拝見させて戴き、大体の記憶を筆記致し置きましたのでその大要を書かせて戴きます。<br><br> 昭和二年より、神様が明主様の御肉体を通じて御口述や御筆先を正式に御書き始めになられたのでありますが、明主様も神様の御用の重大なるを知られて昭和二年二月四日節分の日を期し、小間物業を店員に譲られて信仰の道に専念なされる事になられたのであります。<br><br>神様の御用の間にも御隙を見ては御店に御出でに成られて、親しく御導き遊ばされる御様子で、実に御譲りに成って終われた御店の事までも御親切に御世話を遊ばされる御仁慈は、誠に恐れ多い極みでありました。<br><br> なお又昭和二年から明主様には御日記を御書きになるように御決定遊ばされて、それより後は御日記をお書き遊ばすことは一日も御欠きになられず、必ず毎晩きちんと御書きになられるその御性格の几帳面であられるのも実に恐れ入った事で、杜撰な我々は実に申し訳ない事と存じます。<br><br>私はこの古い御日記を拝見させて戴きましたので実に有難い事と感泣致しております次第でありますが、これが明主様の神憑りにお成りになられたり、御筆先を御始め遊ばされた頃の御日常の御一端であります。<br><br>御憑りなされた神様は勿論主神であられる事も間違い無い事であります。<br><br> 明主様が何故梅の花に準えられるかと言いますと富士山に坐（おわし）ます御観音様は兄の花姫尊と申されて女体の御観音様で兄の花（このはな）とは一番先に春に魁けて咲く梅の事であります。<br><br>明主様はこの御観音様の御生れ変りであられるからで、一方富士山麓の浅間神社の御祭神は木の花咲耶姫命（このはなさくやひめのみこと）でこの木の花こそは桜で、梅は日本に準えられ桜は外国に準えられているのが霊界での定められた事であります。<br><br>なお又富士山は昔から霊山とされておりますが、この富士山こそは観音様の御体と言ってもよいのであって尊い御山であります。<br><br>御話はまだ続きます「地上天国を作るにはさほどむずかしい事では無い。<br><br>善と悪とを結べば悪は負けて引込むから善くなるのであって、今まで許してあった悪の世もいよいよ清掃される時が来た訳で今まで悪人のはばった世の中も、時が来たため最早神様も悪はお許しにならんから今後悪い事をすれば必ず早速に見付けられ、罰を受ける事に成るから、これは悪は駄目だと悟って来るのである」と。<br><br>これは観音様が主神の御命令によって、この日本を基点として大光明世界を作られるので、とても想像もつかない天国を御創に成られるのであって、これを善悪無差別、善悪不二の世界と言うのである。<br><br>これによって今迄あった善も悪もいずれも、今日迄はやはり必要であった事もよく解るのであります。<br><br>なお又時期は恐ろしいもので、年号までも昭和と変った。<br><br>昭和の文字はその意味だとの御言葉であります。<br><br>これをもって見てもいよいよ大光明世界即ち真善美の地上天国は必ず開けるのであると、有難い御教えを賜わったのでありました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Clarividência Divina de Meishu-Sama</h2>
 <p>Conforme relatei no número anterior, Meishu-Sama iniciou a cura de doenças por meio do poder da palavra. A cada vez que proferia o comando “Dor, desapareça!”, a dor cessava instantaneamente. Todavia, Ele percebeu que, embora o sofrimento fosse aliviado, a causa primordial da doença — as toxinas — permanecia no corpo. Como Seu objetivo principal era a erradicação completa do mal, e não a mera supressão dos sintomas, Ele abandonou esse método e retornou à sua forma habitual de ministrar a cura. Em um período anterior ao atual Johrei, ministrado por meio do O-mamori, não dispúnhamos de tal amuleto. Em seu lugar, Meishu-Sama utilizava um leque sagrado, que atuava como uma extensão de Sua mão (御手代, <em>miteshiru</em>). Nesse leque, Ele inscreveu o poema: "Este leque purifica o espírito e o corpo de toda a Criação", e no verso, gravou Seu nome artístico, Kiguetsu (暉月), selando-o com um primoroso papel japonês. Em 11 de outubro de 1930 (Showa 5), tive a imensa honra de receber um desses leques diretamente de Suas mãos. Guardei-o em uma bolsa de brocado e, com ele junto ao peito, recebi a permissão para ministrar a cura aos doentes. Naquela época, a prática era denominada “encaminhamento” (御取次, <em>otoritsugui</em>), e por meio daquele leque sagrado, obtínhamos curas verdadeiramente notáveis.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Seus ensinamentos prosseguiram: "A construção do Paraíso na Terra não é algo tão complexo. Basta unir o bem e o mal; o mal, por ser mais fraco, inevitavelmente se retrai, e o bem prevalece. Chegou o momento de purificar o mundo do mal, que até agora fora tolerado. A era em que os iníquos prosperavam chegou ao fim, pois Deus não mais perdoará a maldade. Doravante, quem praticar o mal será imediatamente descoberto e punido. Assim, a humanidade compreenderá que a senda do mal não compensa".</p>
 <p>É Kannon quem, por ordem do Deus Supremo e tendo o Japão como ponto de partida, está edificando um Mundo de Grande Luz. Será um Paraíso de uma magnificência que transcende nossa imaginação, conhecido como o mundo da "não discriminação entre o bem e o mal" e da "não dualidade entre o bem e o mal". Por meio dessa transição, compreendemos que, até o presente momento, tanto o bem quanto o mal tiveram sua razão de existir. O próprio nome da era, que se alterou para Showa (昭和), encerra em si este significado.</p>
 <p>Assim, por meio dessas preciosas palavras, recebemos a sagrada certeza de que o Mundo de Grande Luz — o Paraíso Terrestre da Verdade, do Bem e do Belo — infalivelmente se concretizará.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 （三） 神成大教会 岡庭真次郎 『地上天国』42号、昭和27(1952)年11月25日発行 前号の如く明主様は言霊で病気治療を御始め遊ばされましたが、ただ単に“痛み去れ”と言霊を御発射毎にピタリと痛みは去るものゝ病毒を取り去る事を主となされる御目的なるため痛みは去っても毒が取れないからと御悟り遊ばされて言霊治療を止められ又普通の御治療に帰られました。<br/><br/>これより先明主様には今現在のごとき御浄霊の御守様は無く御手代（みてしろ）即ち明主様の御手の代りの意味で御扇子に『萬有の霊体浄むる此扇』と御書き下され、裏面へは御雅号暉月と大書されて御立派な日本紙で封じて下され、昭和五年十月十一日明主様御手づから下され有難く頂戴致し、金欄の袋を作り御手代を納め懐中させて頂き、病人の御治療を御許し下されましたが、この頃は我々弟子は御治療で無く御取次と言う事に成っておりましたが、この御手代で実に病気がよく治ったのでありました。<br/><br/>昭和六年六月十五日、明主様には奥様始め多数の信者御供して房州の日本寺に天照皇大御神様を御迎えに御出になられました。<br/><br/>この朝私は四時起床、掃除中東の空より西の空へ曇れる空が真二つに約八寸巾位一直線に切れ、青空の見える不思議を見せられ、これは何か御神業と思いましたのでその晩房州より御帰りの明主様に御話し申し上げましたところ、「あなたは行かれなかったけれど神様の方では行った事に成っているのでその様な不思議を御見せ下されたのだ」との御言葉にて神様の御仁慈深さに実に感激致しました。<br/><br/>この日仏国が降伏したのも因縁の有る事で有るとの御教えを賜わりました。<br/><br/>この頃銀座の兄の姪大木美保子が肺を病み、血痰を吐くようになったため、明主様に御願いして治して戴き、忽ち全快致しましたため会員と成りました。<br/><br/>昭和七年一月元日、銀座の兄が自分の姪がバッヂを胸に着けているのを見て「それは何だ」と問うたところ、「観音様のバッヂだ」と答えたので、「そんな物を着けやがって」と大変な勢で胸から引きむしり火鉢の中へ叩き込み、会の悪口から誠に恐れ多い勿体ない事ながら明主様に対し奉り悪口雑言して夕方帰って行きましたが、正月二日の朝肺病にて鎌倉に静養中の長男が突然容態急変し忽然と死んだので、信仰なき店員すらも昨夕から今朝の出来事とて「あゝ観音様の罰が当った」と一斉にさわぎました。<br/><br/>その後もこの兄は観音様や明主様の悪口の直後に必ず罰が当りましたが、何としても信仰嫌いのために全滅するより致し方なかったので有ります。<br/><br/> 又明主様は何事にも小さい型をもって将来への大きな勝利の道を御開きになられるので有ります。<br/><br/>実に小さい型ながらもその後来るべき時の勝利は大変に大きい事ばかりで、実に世界人類救済のため御尽し遊ばされる御苦労は恐れ多い次第で有ります。<br/><br/> 又、東北地方より霊憑りのどえらい病人が来ましたが、林檎や梨など一晩に一箱でも盗んで平らげて終う豪の者で。<br/><br/>三澤と云う男でした。<br/><br/>明主様が「蜘蛛の霊だ」と御聞かせ下されたので、蔭では皆蜘蛛々々と言ったが、この蜘蛛は雲に通じ、光を隠す物なるため実に御邪魔ばかりしていたのですが、明主様の御手許にはこのような者が澤山入り込んでいた事も皆神様の御用の御邪魔さすべく悪魔から派遣されて御奉仕を名として御邪魔しに来たので、神様の御用に日夜御精励遊ばす明主様も、御並大抵では無かったのであります。<br/><br/>何程悪魔が御邪魔しても必ずいよいよ最後と思うような時、必ず何時でも御勝ちになられるのは「悪魔は九分九厘で神様は一厘だが、その一厘の力で跳ね反す」と仰せられます通りで、いかに智慧をしぼってもいつでも悪魔は負けて退散するのが例であります。<br/><br/>昭和七年八月三十日、明主様は私一人に御因縁や神様の事、又明主様の御用の大切なお話を聞かせて戴き、又御大切な御日記をも拝見させて戴き、大体の記憶を筆記致し置きましたのでその大要を書かせて戴きます。<br/><br/> 昭和二年より、神様が明主様の御肉体を通じて御口述や御筆先を正式に御書き始めになられたのでありますが、明主様も神様の御用の重大なるを知られて昭和二年二月四日節分の日を期し、小間物業を店員に譲られて信仰の道に専念なされる事になられたのであります。<br/><br/>神様の御用の間にも御隙を見ては御店に御出でに成られて、親しく御導き遊ばされる御様子で、実に御譲りに成って終われた御店の事までも御親切に御世話を遊ばされる御仁慈は、誠に恐れ多い極みでありました。<br/><br/> なお又昭和二年から明主様には御日記を御書きになるように御決定遊ばされて、それより後は御日記をお書き遊ばすことは一日も御欠きになられず、必ず毎晩きちんと御書きになられるその御性格の几帳面であられるのも実に恐れ入った事で、杜撰な我々は実に申し訳ない事と存じます。<br/><br/>私はこの古い御日記を拝見させて戴きましたので実に有難い事と感泣致しております次第でありますが、これが明主様の神憑りにお成りになられたり、御筆先を御始め遊ばされた頃の御日常の御一端であります。<br/><br/>御憑りなされた神様は勿論主神であられる事も間違い無い事であります。<br/><br/> 明主様が何故梅の花に準えられるかと言いますと富士山に坐（おわし）ます御観音様は兄の花姫尊と申されて女体の御観音様で兄の花（このはな）とは一番先に春に魁けて咲く梅の事であります。<br/><br/>明主様はこの御観音様の御生れ変りであられるからで、一方富士山麓の浅間神社の御祭神は木の花咲耶姫命（このはなさくやひめのみこと）でこの木の花こそは桜で、梅は日本に準えられ桜は外国に準えられているのが霊界での定められた事であります。<br/><br/>なお又富士山は昔から霊山とされておりますが、この富士山こそは観音様の御体と言ってもよいのであって尊い御山であります。<br/><br/>御話はまだ続きます「地上天国を作るにはさほどむずかしい事では無い。<br/><br/>善と悪とを結べば悪は負けて引込むから善くなるのであって、今まで許してあった悪の世もいよいよ清掃される時が来た訳で今まで悪人のはばった世の中も、時が来たため最早神様も悪はお許しにならんから今後悪い事をすれば必ず早速に見付けられ、罰を受ける事に成るから、これは悪は駄目だと悟って来るのである」と。<br/><br/>これは観音様が主神の御命令によって、この日本を基点として大光明世界を作られるので、とても想像もつかない天国を御創に成られるのであって、これを善悪無差別、善悪不二の世界と言うのである。<br/><br/>これによって今迄あった善も悪もいずれも、今日迄はやはり必要であった事もよく解るのであります。<br/><br/>なお又時期は恐ろしいもので、年号までも昭和と変った。<br/><br/>昭和の文字はその意味だとの御言葉であります。<br/><br/>これをもって見てもいよいよ大光明世界即ち真善美の地上天国は必ず開けるのであると、有難い御教えを賜わったのでありました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

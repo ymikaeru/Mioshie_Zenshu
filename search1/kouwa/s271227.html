@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271227</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月27日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月二十七日 事件の判決は新聞でも見られたでしょうが、神様がついているのにどういうわけか。<br><br>そんな間抜けな、そういうことがあるのはおかしいではないかと不思議に思われますが、これは神様からお知らせがありましたが、人間の考えとはぜんぜん違います。<br><br>それは救世教が急激に発展したために恨んだりするのがたくさんありますが、そのうちで一番救世教を憎んでいるのはインテリ、ジャーナリストです。<br><br>「岡田なんて奴は、終戦後の人心の動揺しているのにつけ込んで、うまい教義を作って、瞞して多額の金を巻き上げて贅沢きわまる生活をしている」とか、とにかく新聞雑誌でも非常に収入があって、どうだこうだということを書きたてましたから、「癪に障る、岡田なんて奴は早くやっつけなければならない」という、そういった憎み、それからヤッカミです。<br><br>とにかく無神論者が新宗教を見る場合には、そういう感情で見る点が非常にあります。<br><br>このごろはそうでもないが、以前のこっちを書きたてていた時は、まるで仇みたいに新聞雑誌は書いてました。<br><br>そういうようで、こっちに対するその霊的の妨害はたいへんなものです。<br><br>つまり悪霊です。<br><br> それからそのほかにも、各宗教では「自分の所の信者がいつの間にか救世教の信者になった」とか、それからお医者の方でも「いいお得意だったのが、救世教の方に行ってから、まるっきり音信不通になった」というようで、いろんな恨み憎しみの想念はたいへんなものです。<br><br>ですからどうしてもそれを緩和しなければ、発展するのに霊的の邪魔になるのです。<br><br>それで神様はそれを大いに緩和させなければならないので、時々ああいった事件を起して評判を悪くさせて、打撃を与えるようなことによってそういう想念を緩和させるわけです。<br><br>それも、救われてありがたいという感謝も大きいものですが、しかしそれよりも、憎んだり、ねたんだりする方がずっと多いのです。<br><br>それはこっちの方がよほど発展してからだと感謝の想念の方が多くなりますが、今のところは黒の方の想念が何十倍ですから、どうしても負けてしまうのです。<br><br>ですから今度のような判決になると、彼らは非常に溜飲が下がります。<br><br>「ざまあみやがれ、これで腹の虫がおさまる」という連中がたくさんあります。<br><br>ですからそう考えると、結構だとも言えないが、悪い気持ちでもありません。<br><br>私は人間的には非常に癪に障って憤慨しますが、しかし神様の方から考えるとありがたい。<br><br>これがもし無罪の判決にでもなると「今まで以上にもっとアヤカって発展するだろう、畜生」と言うその方がたいへんです。<br><br>それが霊的に邪魔するのです。<br><br>それですからしてかえって発展が悪くなります。<br><br>それでそういった精神的の悪いことによってそういう邪魔が減りますから、これからの発展にはかえってよくなります。<br><br>また今度の判決のような精神的なことは一時的で、時がたてばだんだん忘れてきます。<br><br>ですからこれからの発展については非常に楽にいくわけです。<br><br>だから人間の見方と神様の見方とは非常に違うのです。<br><br>そう考えてくると刑事、検察官、判事という人たちがやったというのも、結局神様に踊らされたのです。<br><br>ですから神様の方で、私をそういった罪にするようにやったのですから、それはやりきれません。<br><br>しかしその代わり、ああいった酷い罪名にして執行猶予にしたということも、執行猶予になれば煙みたいなもので、また仕事の上においても差し支えませんから、私はあの事件はもうすっかりすんだような気持ちです。<br><br>仕事に差し支えなければよいし、それにかえってプラスになります。<br><br>神様の方では無罪にした方がよければ、ちょっと一捻りです。<br><br>弁護士にしろ被告にしろ、いろいろ証拠をあげて骨折りましたが、常識で言えば当然無罪なのです。<br><br>それがああいう判決であったというのは、神様の深いわけがあるのです。<br><br>それは信者の人は分かりますが、信者以外の人に言うとうまいことを言うと思うでしょうが、大体そういうようなわけですから、そのつもりで。<br><br>しかしそういうことは忘れてしまってもいいです。<br><br>これからいろんな神様の方の仕組みが出てきますから、本当に力強い発展はむしろこれからいよいよ始まりますから、それを楽しみにしていていいと思います。<br><br>それで大いに発展する前にはそういった大きな節が非常にあるものです。<br><br>ですから今までも、どんなことがあっても発展には少しも影響はしません。<br><br>しかもいつかも言ったとおり、「散花結実」で、今は芽がだんだん育っていく時ですから、神様の方は押さえ押さえて、パッといかないようにしているのです。<br><br>ですからその目で見るとジリジリと育っていく形がよく分かるはずです。<br><br> それからちょっと注意しておきますが、浄霊に力を入れないようにするためには、どうしても指が広がりますが、指が広がると霊が集中しません。<br><br>これからは浄霊の時には指をくっつけるようにしてください。<br><br>そうすると非常にいいです。<br><br>ところが、指をくっつけるとどうしても力がはいりますから、力がはいらないようにしてくっつけることです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Significado Espiritual da Sentença Judicial</h2>
 <p>Certamente, os senhores tomaram conhecimento do veredito judicial por meio dos jornais e devem se perguntar: "Como pôde ocorrer tal coisa, se Deus está conosco?". Pode parecer um despropósito, um acontecimento no mínimo estranho. Contudo, recebi uma revelação divina a esse respeito, e a Vontade de Deus difere por completo do raciocínio humano.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Se a Vontade de Deus fosse pela absolvição, bastaria um estalar de dedos para que ocorresse. Tanto os advogados quanto os réus se empenharam arduamente, apresentando diversas provas, e, pelo senso comum, a inocência seria a conclusão lógica. O fato de o veredito ter sido adverso demonstra a existência de uma profunda Providência Divina. Os membros são capazes de compreender isso, mas aqueles que estão de fora certamente pensarão que se trata apenas de uma desculpa engenhosa. De todo modo, essa é a razão fundamental, e gostaria que a tivessem em mente. Contudo, não há problema em esquecerem esses pormenores.</p>
 <p>A partir de agora, diversos desígnios de Deus se manifestarão. A expansão verdadeiramente vigorosa está, de fato, apenas começando, e os senhores podem aguardar seu desdobramento com grande expectativa. É comum que, antes de um grande avanço, surjam momentos decisivos como este. Por isso, até hoje, nenhum acontecimento foi capaz de afetar minimamente nosso crescimento. E, conforme mencionei em outra ocasião, vivemos o princípio do "Sange Ketsujitsu", a fase em que os brotos estão se desenvolvendo gradualmente. Deus os contém para que não irrompam de uma só vez. Sob essa perspectiva, é possível enxergar com clareza a forma de um crescimento lento e constante.</p>
 <p>Gostaria ainda de fazer uma pequena advertência. Na tentativa de não aplicar força durante o Johrei, é natural que os dedos se separem; contudo, quando isso ocorre, a energia espiritual não se concentra. De agora em diante, ao ministrarem Johrei, procurem manter os dedos unidos. O resultado será muito superior. No entanto, ao juntar os dedos, a tendência é tensioná-los. O segredo, portanto, é mantê-los unidos sem aplicar qualquer força.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月27日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月二十七日 事件の判決は新聞でも見られたでしょうが、神様がついているのにどういうわけか。<br/><br/>そんな間抜けな、そういうことがあるのはおかしいではないかと不思議に思われますが、これは神様からお知らせがありましたが、人間の考えとはぜんぜん違います。<br/><br/>それは救世教が急激に発展したために恨んだりするのがたくさんありますが、そのうちで一番救世教を憎んでいるのはインテリ、ジャーナリストです。<br/><br/>「岡田なんて奴は、終戦後の人心の動揺しているのにつけ込んで、うまい教義を作って、瞞して多額の金を巻き上げて贅沢きわまる生活をしている」とか、とにかく新聞雑誌でも非常に収入があって、どうだこうだということを書きたてましたから、「癪に障る、岡田なんて奴は早くやっつけなければならない」という、そういった憎み、それからヤッカミです。<br/><br/>とにかく無神論者が新宗教を見る場合には、そういう感情で見る点が非常にあります。<br/><br/>このごろはそうでもないが、以前のこっちを書きたてていた時は、まるで仇みたいに新聞雑誌は書いてました。<br/><br/>そういうようで、こっちに対するその霊的の妨害はたいへんなものです。<br/><br/>つまり悪霊です。<br/><br/> それからそのほかにも、各宗教では「自分の所の信者がいつの間にか救世教の信者になった」とか、それからお医者の方でも「いいお得意だったのが、救世教の方に行ってから、まるっきり音信不通になった」というようで、いろんな恨み憎しみの想念はたいへんなものです。<br/><br/>ですからどうしてもそれを緩和しなければ、発展するのに霊的の邪魔になるのです。<br/><br/>それで神様はそれを大いに緩和させなければならないので、時々ああいった事件を起して評判を悪くさせて、打撃を与えるようなことによってそういう想念を緩和させるわけです。<br/><br/>それも、救われてありがたいという感謝も大きいものですが、しかしそれよりも、憎んだり、ねたんだりする方がずっと多いのです。<br/><br/>それはこっちの方がよほど発展してからだと感謝の想念の方が多くなりますが、今のところは黒の方の想念が何十倍ですから、どうしても負けてしまうのです。<br/><br/>ですから今度のような判決になると、彼らは非常に溜飲が下がります。<br/><br/>「ざまあみやがれ、これで腹の虫がおさまる」という連中がたくさんあります。<br/><br/>ですからそう考えると、結構だとも言えないが、悪い気持ちでもありません。<br/><br/>私は人間的には非常に癪に障って憤慨しますが、しかし神様の方から考えるとありがたい。<br/><br/>これがもし無罪の判決にでもなると「今まで以上にもっとアヤカって発展するだろう、畜生」と言うその方がたいへんです。<br/><br/>それが霊的に邪魔するのです。<br/><br/>それですからしてかえって発展が悪くなります。<br/><br/>それでそういった精神的の悪いことによってそういう邪魔が減りますから、これからの発展にはかえってよくなります。<br/><br/>また今度の判決のような精神的なことは一時的で、時がたてばだんだん忘れてきます。<br/><br/>ですからこれからの発展については非常に楽にいくわけです。<br/><br/>だから人間の見方と神様の見方とは非常に違うのです。<br/><br/>そう考えてくると刑事、検察官、判事という人たちがやったというのも、結局神様に踊らされたのです。<br/><br/>ですから神様の方で、私をそういった罪にするようにやったのですから、それはやりきれません。<br/><br/>しかしその代わり、ああいった酷い罪名にして執行猶予にしたということも、執行猶予になれば煙みたいなもので、また仕事の上においても差し支えませんから、私はあの事件はもうすっかりすんだような気持ちです。<br/><br/>仕事に差し支えなければよいし、それにかえってプラスになります。<br/><br/>神様の方では無罪にした方がよければ、ちょっと一捻りです。<br/><br/>弁護士にしろ被告にしろ、いろいろ証拠をあげて骨折りましたが、常識で言えば当然無罪なのです。<br/><br/>それがああいう判決であったというのは、神様の深いわけがあるのです。<br/><br/>それは信者の人は分かりますが、信者以外の人に言うとうまいことを言うと思うでしょうが、大体そういうようなわけですから、そのつもりで。<br/><br/>しかしそういうことは忘れてしまってもいいです。<br/><br/>これからいろんな神様の方の仕組みが出てきますから、本当に力強い発展はむしろこれからいよいよ始まりますから、それを楽しみにしていていいと思います。<br/><br/>それで大いに発展する前にはそういった大きな節が非常にあるものです。<br/><br/>ですから今までも、どんなことがあっても発展には少しも影響はしません。<br/><br/>しかもいつかも言ったとおり、「散花結実」で、今は芽がだんだん育っていく時ですから、神様の方は押さえ押さえて、パッといかないようにしているのです。<br/><br/>ですからその目で見るとジリジリと育っていく形がよく分かるはずです。<br/><br/> それからちょっと注意しておきますが、浄霊に力を入れないようにするためには、どうしても指が広がりますが、指が広がると霊が集中しません。<br/><br/>これからは浄霊の時には指をくっつけるようにしてください。<br/><br/>そうすると非常にいいです。<br/><br/>ところが、指をくっつけるとどうしても力がはいりますから、力がはいらないようにしてくっつけることです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

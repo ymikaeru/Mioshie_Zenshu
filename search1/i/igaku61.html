@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku61</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は非科学的なり 未発表、昭和11(1936)年5月29日執筆 西洋医学は科学的だというが、それは間違っている。<br><br>なる程機械的ではあるが、科学的ではない事である。<br><br>何となれば、その診断に当って、その病気の測定方針に確乎たるものがないのである。<br><br> その証拠として、五人の医師に診察を受けるとして、五人共診断が区々（まちまち）であるという事の事実を誰もが知るであろう。<br><br>もし適確なる科学的診断法があれば、それは何人の医師が見ても、同一の診断でなくてはならないのである。<br><br>この一事だけにみても、私のこの説の当否は充分であると思うが、今一歩進んでその真相を暴露してみよう。<br><br> 西洋医学が進歩したというが、実際からいえば、医学としてはいささかも進歩しないどころか、反って退歩否邪道に低迷しているという方が当っているかもしれないのである。<br><br>何となれば医学とは、病気を医する学問であるに拘わらず、医する事が出来ない。<br><br>医するがごとく世人を欺瞞しているのが事実である。<br><br>なる程、医療器械は頗（すこぶ）る巧妙になっている事と療法の複雑多岐に渉った事と、薬剤の種類の増加は僅かにあるが、それらは医学の進歩ではなくて、療法の巧緻化でしかない。<br><br>一面から言えば不必要なまでの複雑化である。<br><br> 又、その外表に世人は幻惑されて、大いに進歩したかの様に錯覚しているだけなのである。<br><br>実際を視よ、病理も病原も衛生も、その根本に向っての何ら発見はなく、十年一日のごとしである。<br><br>病菌の種類の発見は確かにある。<br><br>そうして、それの予防による減少の功績も認めるが、一人の伝染病を予防し得て、十人の他の疾患の増加の事実に盲目である。<br><br>そうして、風邪の原因も熱の本体も不明である。<br><br>人間の病気とは何が故に発生し、何が故に治癒しないかという事も全然不明である。<br><br>その結果として、国民の健康が日に月に退化しつつある事実に直面して焦慮しつつも、どうする事も出来ないのが現在の状態である。<br><br>又、病理といえども、科学的な確定がない。<br><br> 今療病に当ってまず根本としての方法は、病気の診断である。<br><br>病原の探究である。<br><br>その際病原としての発熱は、いずくにあるかを診査する方法を知らない。<br><br>そもそも、発熱は身体のある一部に発生した病素を溶解すべく起ったものであるから、その発熱の根拠だけを治療すれば、速かに全身的に治癒するのであるが、現在医学の診断は、これを発見する事が不可能である。<br><br>それは医療から転じて来た患者を、常に扱いつつある吾々は、医学の診断がはなはだしき疎漏（そろう）と杜撰（ずさん）であって、病原不明かあるいは誤診である事が、少くとも半数以上は確かにある事を知るのである。<br><br>この事について嘗（かつ）て聞いた事がある。<br><br>ある一人の医科大学生が常に、解剖実験を見る時、その診断と余りに相違するのである。<br><br>ほとんど誤りの方が九十％位ある事実に驚いて教授に質問したそうである。<br><br>すると教授の答にいわく、それは君人間の身体を外部から見るんだもの、違うのは当り前だよ、との事であった。<br><br>これによってみるも、いかに出鱈目であるかが判るのである。<br><br>事、人命に関するにおいて信じられない位の事実である。<br><br> 次に、病理及びその原因においては、何ら進歩の跡を見られないのである。<br><br>病理とは何が故の発熱であり、何が故の痛苦であり、何が故の腫物であり、又、それらはいずれから影響し、何の為にそういう現象が現われたかという、それらの闡明（せんめい）である。<br><br>又、原因とはその病理構成以前の否、病理構成状態のその根元の発見である。<br><br>しかるに、それら根元の発見などは、未だ医学ではその端緒をさえ掴んでいない。<br><br>もし医学において原因の説明をすれば、それは牽強付会（けんきょうふかい）でしかあり得ない。<br><br>何ら科学的根拠があり得ないからである。<br><br>医学においては、病理も原因もあらゆる病原は、頗（すこぶ）る単純にも黴菌一点張りである。<br><br>しかも、その黴菌の感染のみによって、病気は発生するものと思っているのだから、発狂や癲癇、中風などの伝染病以外の病気に至っては、その説明は絶対困難である。<br><br>それらを偶々（たまたま）説明してあるものをみれば、噴飯に価するごとき出鱈目さである。<br><br> 以上のごとく、病理も病原も何ら適確なる、科学的根拠がないから、医学の診断なるものは、実にその時における医師の推断が根拠となっている。<br><br>故に、診断が的中するという事は、その医師の推理的頭脳が優秀であるという訳である。<br><br>たとえていえば優秀なる易者は、比較的的中するようなものであり、相場師が前途の騰落を推断するそのようなものであるとも言えると思うのである。<br><br>それがそれぞれの医師によって、診断が違うという原因であると思うのである。<br><br>これにみても西洋医学なるものは、器械的ではあるが、科学的ではないというのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Caráter Anticientífico da Medicina</h2>
 <p>A alegação de que a medicina ocidental é científica é, na verdade, um equívoco. Embora seja inegavelmente mecânica, carece de cientificidade. Isso se deve ao fato de que seus métodos de diagnóstico não se baseiam em princípios sólidos e imutáveis.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Analisemos, em seguida, a patologia e a etiologia, áreas nas quais não se vislumbra qualquer vestígio de avanço. A patologia deveria se dedicar a elucidar a razão da febre, da dor, dos tumores e de como tais fenômenos se manifestam e se interligam. A etiologia, por sua vez, deveria se ocupar da descoberta da raiz que antecede e constitui o estado patológico. No entanto, a medicina sequer arranhou a superfície da investigação dessas causas primordiais. Consequentemente, qualquer explicação que ofereça sobre a origem das doenças não passa de uma interpretação forçada, desprovida de qualquer fundamento científico.</p>
 <p>Para a medicina, a resposta para a patologia, a etiologia e todas as causas de doenças é espantosamente simplista: resume-se a culpar os germes. Por essa razão, quando se trata de enfermidades não contagiosas, como a loucura, a epilepsia ou o derrame, a medicina se vê em absoluta dificuldade para apresentar uma explicação plausível. As raras tentativas de fazê-lo são de uma inconsistência tão risível que beiram o absurdo.</p>
 <p>Como exposto, visto que a patologia e a etiologia carecem de qualquer fundamento científico sólido, o diagnóstico médico nada mais é do que uma conjectura do profissional no momento da consulta. A precisão do diagnóstico depende, portanto, da capacidade de dedução do médico. Poderíamos traçar um paralelo com um adivinho talentoso, cujas previsões são relativamente acertadas, ou com um especulador do mercado financeiro, que infere as futuras altas e baixas. Essa é a verdadeira razão pela qual os diagnósticos variam tanto de um médico para outro. E é por isso que reiteramos: a medicina ocidental, embora mecânica, não é científica.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は非科学的なり 未発表、昭和11(1936)年5月29日執筆 西洋医学は科学的だというが、それは間違っている。<br/><br/>なる程機械的ではあるが、科学的ではない事である。<br/><br/>何となれば、その診断に当って、その病気の測定方針に確乎たるものがないのである。<br/><br/> その証拠として、五人の医師に診察を受けるとして、五人共診断が区々（まちまち）であるという事の事実を誰もが知るであろう。<br/><br/>もし適確なる科学的診断法があれば、それは何人の医師が見ても、同一の診断でなくてはならないのである。<br/><br/>この一事だけにみても、私のこの説の当否は充分であると思うが、今一歩進んでその真相を暴露してみよう。<br/><br/> 西洋医学が進歩したというが、実際からいえば、医学としてはいささかも進歩しないどころか、反って退歩否邪道に低迷しているという方が当っているかもしれないのである。<br/><br/>何となれば医学とは、病気を医する学問であるに拘わらず、医する事が出来ない。<br/><br/>医するがごとく世人を欺瞞しているのが事実である。<br/><br/>なる程、医療器械は頗（すこぶ）る巧妙になっている事と療法の複雑多岐に渉った事と、薬剤の種類の増加は僅かにあるが、それらは医学の進歩ではなくて、療法の巧緻化でしかない。<br/><br/>一面から言えば不必要なまでの複雑化である。<br/><br/> 又、その外表に世人は幻惑されて、大いに進歩したかの様に錯覚しているだけなのである。<br/><br/>実際を視よ、病理も病原も衛生も、その根本に向っての何ら発見はなく、十年一日のごとしである。<br/><br/>病菌の種類の発見は確かにある。<br/><br/>そうして、それの予防による減少の功績も認めるが、一人の伝染病を予防し得て、十人の他の疾患の増加の事実に盲目である。<br/><br/>そうして、風邪の原因も熱の本体も不明である。<br/><br/>人間の病気とは何が故に発生し、何が故に治癒しないかという事も全然不明である。<br/><br/>その結果として、国民の健康が日に月に退化しつつある事実に直面して焦慮しつつも、どうする事も出来ないのが現在の状態である。<br/><br/>又、病理といえども、科学的な確定がない。<br/><br/> 今療病に当ってまず根本としての方法は、病気の診断である。<br/><br/>病原の探究である。<br/><br/>その際病原としての発熱は、いずくにあるかを診査する方法を知らない。<br/><br/>そもそも、発熱は身体のある一部に発生した病素を溶解すべく起ったものであるから、その発熱の根拠だけを治療すれば、速かに全身的に治癒するのであるが、現在医学の診断は、これを発見する事が不可能である。<br/><br/>それは医療から転じて来た患者を、常に扱いつつある吾々は、医学の診断がはなはだしき疎漏（そろう）と杜撰（ずさん）であって、病原不明かあるいは誤診である事が、少くとも半数以上は確かにある事を知るのである。<br/><br/>この事について嘗（かつ）て聞いた事がある。<br/><br/>ある一人の医科大学生が常に、解剖実験を見る時、その診断と余りに相違するのである。<br/><br/>ほとんど誤りの方が九十％位ある事実に驚いて教授に質問したそうである。<br/><br/>すると教授の答にいわく、それは君人間の身体を外部から見るんだもの、違うのは当り前だよ、との事であった。<br/><br/>これによってみるも、いかに出鱈目であるかが判るのである。<br/><br/>事、人命に関するにおいて信じられない位の事実である。<br/><br/> 次に、病理及びその原因においては、何ら進歩の跡を見られないのである。<br/><br/>病理とは何が故の発熱であり、何が故の痛苦であり、何が故の腫物であり、又、それらはいずれから影響し、何の為にそういう現象が現われたかという、それらの闡明（せんめい）である。<br/><br/>又、原因とはその病理構成以前の否、病理構成状態のその根元の発見である。<br/><br/>しかるに、それら根元の発見などは、未だ医学ではその端緒をさえ掴んでいない。<br/><br/>もし医学において原因の説明をすれば、それは牽強付会（けんきょうふかい）でしかあり得ない。<br/><br/>何ら科学的根拠があり得ないからである。<br/><br/>医学においては、病理も原因もあらゆる病原は、頗（すこぶ）る単純にも黴菌一点張りである。<br/><br/>しかも、その黴菌の感染のみによって、病気は発生するものと思っているのだから、発狂や癲癇、中風などの伝染病以外の病気に至っては、その説明は絶対困難である。<br/><br/>それらを偶々（たまたま）説明してあるものをみれば、噴飯に価するごとき出鱈目さである。<br/><br/> 以上のごとく、病理も病原も何ら適確なる、科学的根拠がないから、医学の診断なるものは、実にその時における医師の推断が根拠となっている。<br/><br/>故に、診断が的中するという事は、その医師の推理的頭脳が優秀であるという訳である。<br/><br/>たとえていえば優秀なる易者は、比較的的中するようなものであり、相場師が前途の騰落を推断するそのようなものであるとも言えると思うのである。<br/><br/>それがそれぞれの医師によって、診断が違うという原因であると思うのである。<br/><br/>これにみても西洋医学なるものは、器械的ではあるが、科学的ではないというのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

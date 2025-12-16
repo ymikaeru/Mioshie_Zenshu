@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本式健康法の提唱 （二） 『東方の光』6号、昭和10(1935)年6月 日発行 食餌と営養 今日の医学衛生について特に、この食餌と営養程謬（あやま）って居り活眼を開いて貰わねばならない事を専門学究に向って言いたいのである、それは余りに学理に偏して実際と隔離し過ぎておりはすまいか、なぜなれば余が十数年に渉っての刻苦研鑚の結果は不思議にも、今日の営養学とは、全然相反する結果を生んだのである、それをこれから、私自身の体験から出発して述べてみよう。<br><br> 私自身は、十五六年以前は大の肉食党で、夜食はほとんど洋食で偶（たま）に支那料理を混ぜるという具合で、今日のいわゆる営養学上から言えば、理想的とも言わるのであるが、何ぞ知らんその当時の私は、三十代で体重十三貫をどうしても越えないという情ない状態ばかりか、二六時中風邪と胃腸の悪くない事はないと言う位で、お医者の厄介にならない月は一ケ月も無かったのである、そういう訳であるから、どうかして健康になりたいものと、深呼吸、冷水摩擦、静座法等と当時流行の健康法を片っ端から行ってはみたが、いずれも多少の効果は、あるにはあるが、体質改善というところまでは到底行かなかったのである。<br><br> それがどうだろう肉食の非を知って日本人的食餌即ち魚菜本位に転換した結果、メキメキ体重を増し二三年にして、実に、十五貫五百から、六貫位を往来する程となると共に、段々風邪に罹らなくなり、その上胃腸の苦悩は、全く忘れて、始めて健康の喜びにひたり、爾来十余年頑健なる肉体を以て、活動しつつあるのである。<br><br> これらの体験を得た私は、子供六人をもあわせて十数人の家族に思うまま実験をしたのであるが、勿論皆好成績で私の家から、病魔の影は全く見ないという幸福を享有したのである、特に面白いのは六人の子供に、非営〔栄〕養食を施してみた、即ち家内及び女中に命ずるに、子供等には、特に粗食を与えるように命じたのである、米は七分搗きとし、野菜を多量にして、魚は塩鮭目刺（めざし）等の卑魚を稀に与え、香の物に茶漬、又は香の物に塩結び、自製海苔巻等営養学上からみれば、まず、申し分のない営養不良食を多く与えるようにしたのである、しかるにその成績たるや驚くべし、小中学とも体格は甲、営養は普通又は佳良等にて十六歳の長女を頭に四歳の男児に至るまで、未だ重病と名づくべき病気せしもの、一回も無く、無欠席の賞は毎度頂戴すると言った工合である。<br><br> それらの実地から得た尊い経験を私が八年前からやっている病気治しについて、数百人の患者に試みたる結果、例外なく、好成績を挙げ特に肺肋膜等の患者に対する野菜食が、いかに効果あるかは、世の医家に向って大いに、研究されん事を望みたいのである。<br><br>簡単ではあるが、以上の事実に徴してみて今日大いに発達せるごとくに見ゆる、栄養学がその根本において、一大誤謬のあるということは、私は、断言して憚（はばか）らないのである。<br><br>この事は国民保健上、大問題であるが故に、敢然（かんぜん）起って、――警鐘を鳴らし、斯界（しかい）の学究諸賢は固より、一般世人に向って、一大警告を発するゆえんなのである。<br><br> 私が提唱する、この新栄養食が、一般に行われるとすれば、国家経済上からみても一大福音と言うべきである、彼の我邦の農民が、労働に耐久力のあるのは、全く卑食であるからであって、もし肉食的の栄養食を摂ったとしたら到底、あれだけの労働は出来ない事を私は保証するのである。<br><br> （次号には栄養食の根本原理）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Dieta e a Nutrição</h2>
 <p>No que concerne à medicina e à higiene contemporâneas, desejo dirigir-me aos especialistas para afirmar que, especialmente no campo da dieta e da nutrição, prevalece um grande equívoco, sendo imperativo que abram os olhos para a realidade. A meu ver, a abordagem acadêmica tornou-se excessivamente teórica, afastando-se em demasia da prática. Digo isso porque, surpreendentemente, os resultados de mais de uma década de árdua pesquisa e dedicação levaram a conclusões diametralmente opostas às da ciência da nutrição de hoje. A seguir, passarei a expor minhas constatações, partindo de minha própria vivência.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Embora minha explanação seja breve, os fatos aqui apresentados demonstram que a ciência da nutrição, apesar de seu aparente desenvolvimento, padece de um erro crasso em seus alicerces. Faço esta declaração sem qualquer hesitação. Por se tratar de uma questão de magna importância para a saúde da nação, ergo-me com audácia para soar o alarme, lançando uma grande advertência não apenas aos doutos estudiosos da área, mas à sociedade em geral.</p>
 <p>Se esta nova dieta que proponho for amplamente adotada, representará também um grande benefício do ponto de vista da economia nacional. A notável resistência dos agricultores de nosso país para o trabalho árduo deve-se, integralmente, à sua alimentação frugal. Garanto que eles seriam incapazes de suportar tamanha carga de trabalho se adotassem uma dieta rica em carnes, como a que é preconizada pela ciência da nutrição.</p>
 <p>(No próximo número: Os princípios fundamentais da dieta nutritiva)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本式健康法の提唱 （二） 『東方の光』6号、昭和10(1935)年6月 日発行 食餌と営養 今日の医学衛生について特に、この食餌と営養程謬（あやま）って居り活眼を開いて貰わねばならない事を専門学究に向って言いたいのである、それは余りに学理に偏して実際と隔離し過ぎておりはすまいか、なぜなれば余が十数年に渉っての刻苦研鑚の結果は不思議にも、今日の営養学とは、全然相反する結果を生んだのである、それをこれから、私自身の体験から出発して述べてみよう。<br/><br/> 私自身は、十五六年以前は大の肉食党で、夜食はほとんど洋食で偶（たま）に支那料理を混ぜるという具合で、今日のいわゆる営養学上から言えば、理想的とも言わるのであるが、何ぞ知らんその当時の私は、三十代で体重十三貫をどうしても越えないという情ない状態ばかりか、二六時中風邪と胃腸の悪くない事はないと言う位で、お医者の厄介にならない月は一ケ月も無かったのである、そういう訳であるから、どうかして健康になりたいものと、深呼吸、冷水摩擦、静座法等と当時流行の健康法を片っ端から行ってはみたが、いずれも多少の効果は、あるにはあるが、体質改善というところまでは到底行かなかったのである。<br/><br/> それがどうだろう肉食の非を知って日本人的食餌即ち魚菜本位に転換した結果、メキメキ体重を増し二三年にして、実に、十五貫五百から、六貫位を往来する程となると共に、段々風邪に罹らなくなり、その上胃腸の苦悩は、全く忘れて、始めて健康の喜びにひたり、爾来十余年頑健なる肉体を以て、活動しつつあるのである。<br/><br/> これらの体験を得た私は、子供六人をもあわせて十数人の家族に思うまま実験をしたのであるが、勿論皆好成績で私の家から、病魔の影は全く見ないという幸福を享有したのである、特に面白いのは六人の子供に、非営〔栄〕養食を施してみた、即ち家内及び女中に命ずるに、子供等には、特に粗食を与えるように命じたのである、米は七分搗きとし、野菜を多量にして、魚は塩鮭目刺（めざし）等の卑魚を稀に与え、香の物に茶漬、又は香の物に塩結び、自製海苔巻等営養学上からみれば、まず、申し分のない営養不良食を多く与えるようにしたのである、しかるにその成績たるや驚くべし、小中学とも体格は甲、営養は普通又は佳良等にて十六歳の長女を頭に四歳の男児に至るまで、未だ重病と名づくべき病気せしもの、一回も無く、無欠席の賞は毎度頂戴すると言った工合である。<br/><br/> それらの実地から得た尊い経験を私が八年前からやっている病気治しについて、数百人の患者に試みたる結果、例外なく、好成績を挙げ特に肺肋膜等の患者に対する野菜食が、いかに効果あるかは、世の医家に向って大いに、研究されん事を望みたいのである。<br/><br/>簡単ではあるが、以上の事実に徴してみて今日大いに発達せるごとくに見ゆる、栄養学がその根本において、一大誤謬のあるということは、私は、断言して憚（はばか）らないのである。<br/><br/>この事は国民保健上、大問題であるが故に、敢然（かんぜん）起って、――警鐘を鳴らし、斯界（しかい）の学究諸賢は固より、一般世人に向って、一大警告を発するゆえんなのである。<br/><br/> 私が提唱する、この新栄養食が、一般に行われるとすれば、国家経済上からみても一大福音と言うべきである、彼の我邦の農民が、労働に耐久力のあるのは、全く卑食であるからであって、もし肉食的の栄養食を摂ったとしたら到底、あれだけの労働は出来ない事を私は保証するのである。<br/><br/> （次号には栄養食の根本原理）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

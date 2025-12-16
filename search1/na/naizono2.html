@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>naizono2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 内臓の三位一体と心臓の重要性 『新日本医術書』昭和11(1936)年執筆 内臓の三位一体とは心臓、肺臓、胃を指していうのである。<br><br>この機関〔器官〕こそ全内臓中の基本であると言ってもよいので、最重要な役目を果しているのである。<br><br> 今日までのあらゆる医術は、胃と肺臓に関しては相当研究もされ、その活動へ対しての認識もやや成ってはいるが、独（ひと）り心臓に至っては全く不明であると言ってもよい状態である。<br><br>しかるに実際は、この三臓器中、心臓が最重要な機関である。<br><br>医家が死の直接原因を、心臓麻痺というにみても識るべきである。<br><br>かように最重要である心臓の器〔機〕能活動が判明しなくては、真の治療は確立されるはずがないのである。<br><br> 現代医学は、肺臓の呼吸運動に依って血液を浄化し、それを心臓に送ると言い、血液浄化の法として、清澄なる空気を呼吸せしめんとし、大いに転地療法を奨（すす）めるのである。<br><br>又、飲食物を重要視して、営〔栄〕養と消化の研究には、最大努力を払っているのである。<br><br>かように、肺と胃に対しての、器能活動の研究には、絶えず努力しつつあるに係わらず、独り心臓に対しては、あまり研究をしないようである。<br><br>これはまことに不思議であって、全く心臓なるものの器能の本体が、把握出来ないと諦めた結果であろうか。<br><br>私の研究によれば、この三臓器中心臓のその活動こそ、人間の健康の基本であると言ってもよいので、この心臓の不明である限り、治療法と健康法は決して解決されない事を、私は断言するのである。<br><br> しからば、最重要たる心臓の活動の本質は何であるか、鼓動は何であるかを、詳説してみよう。<br><br>肺臓が一分間何十という呼吸運動をしているのは、今日の医学で説明が付くとしても、心臓の鼓動については何の為であるかを説明し得ないのである。<br><br>例えば、肺患者が転地して、新鮮な空気を吸い、胃には充分なる営〔栄〕養を摂取しても、容易に治らないのは何の為であるか。<br><br>又、海岸居住者にして肺結核に罹病する者がすくなからずあるという事は、いかなる理由によるのであるか。<br><br>これらについても現代医学は、未だ説明が出来ないのである。<br><br>これは全く心臓の器能が不明であるからである。<br><br> この事の説明に対しては最初に、この地球の現象界の組織から説いてゆかねばならない。<br><br>我々が住んでいるこの地上の構成は何であるかと言うと、それは、三つの元素界から成立っている。<br><br>一、霊界、二、空気の世界、三、物質世界である。<br><br>しかるに、今日までの発見では、空気の世界と、物質界の二つのみであって、最重要なる霊界は未だ発見されていないのである。<br><br>この三段の組織を称して、仏語では、三千世界、又は三界といっているのである。<br><br> この三段階の元素を説明してみれば、第一の霊界とは、空気より一層稀薄にして、今日の科学では、これを測定すべき方法がない霊素ともいうべきものである。<br><br>しかし、最近の科学において発見せる電子、陽子、中性子、核等の研究は、この霊界に一歩突入したのであるから、いずれは霊界の実在を認識するまでに到るであろう事は、信じ得らるるのである。<br><br>ただ私の説は、科学よりも一歩先へ前進しているだけである。<br><br> しかして、霊界は火素を主とする太陽霊であり、空気界は水素を主とする太陰霊であり、物質界は土素を主とする物質原〔元〕素である。<br><br>この関係が認識出来得れば心、肺、胃の器能も判明さるるのである。<br><br> 即ち、心臓は火素を即ち霊気を呼吸しつつあるので、それが鼓動である。<br><br>肺臓は水素即ち空気を吸収しつつあるので、それが呼吸である。<br><br>胃は土素から成る食物を吸収しつつあるので、それが伸縮運動である。<br><br>肺と胃の活動は、説明を略して、心臓を主として説明をしてみよう。<br><br> 本来血液は、霊の物質化であるという事は既に述べてある通りで、この人体生命のエネルギーである血液を、不断に活動させつつ、なお浄化の工作をなすその力こそ火素である。<br><br>そうして心臓は絶えずこの火素、一名霊素を吸収しつつあるが、空気にも清濁あるごとく、この霊界にも大いにそれがあるのである。<br><br>故に、この霊界においての清浄という所は、霊素が充ちているのであり、それは、光と熱との量積が、多分に在るという事である。<br><br>しかるにこの霊素が稀薄である所は、反対に汚素が多分に在るのである。<br><br>汚素とは一種の霊的曇である。<br><br>別言すれば、霊界において、霊素の濃度なる所は、晴天のごとき明るさを感じ、霊素の稀薄なる所は、曇り日のごとき陰欝を感ずるものである。<br><br>しからば、霊素、汚素の多少はいかなる原因かというと、霊素の多い条件としては、正しき神霊を奉斎する事であり、又善に属する行為と言葉によるのであって、汚素の原因としては、右と反対に邪神や狐狸の霊を奉斎し、又は、悪に属する行為と言葉を発するが故である。<br><br>故に、この理によって心臓の活動を旺盛にし、その結果たる血液を浄化せんと欲せば、前者の方法を実行すれば良いのであって、そうすればする程、健康を増し、不幸は解消するのである。<br><br>しかるに、現在大部分の宗教は、光と熱を霊射する正神が少なく、大抵は暗黒に相応する邪神が多いのと、しかも、人間の行為と言葉が、悪に属する方が多いから、霊界は曇るばかりであって、全く無明地獄である。<br><br>従って、ここに褄息する人間は、この曇れる汚素を常に心臓が吸収するから心臓は弱り、心臓が弱るから、愛の情動が稀薄になるのである。<br><br>現代の人間に愛が乏しく、滔々（とうとう）として稀薄になるのは、実にこの理によるからである。<br><br> しかしながら、この暗黒界にいよいよ大いなる光と熱の、無限の供給者たる光明如来、即ち観世音菩薩が救世之光となって出現されたのであるから、この御神体を奉斎する時、無量にその火素、即ち、光と熱を放射され給うので、その家の霊界は、漸次曇が消滅して明るくなるのである。<br><br>その結果、そこに住する人間の心臓は、火素の潤沢（じゅんたく）によって活動力が旺盛になるから、愛が湧起するのである。<br><br>その結果は争が無くなり、血液も浄化するから、健康となるのである。<br><br>右のごとく、愛と健康を以て、業務に従事する以上、繁盛と栄達は当然の帰結であって貧は無くなる。<br><br>病貧争絶無の根源は、これに依ても瞭（あき）らかであろう。<br><br> ここで、今一つの基本的解説をする必要がある。<br><br>それは、火と水との性能本質である。<br><br>元来、火は水に依て燃え、水は火に依て流動するのである。<br><br>もし、火を起すべき燃焼物に、全然水が無かったら、火は燃ゆる時間がなく、一瞬に爆発してしまう。<br><br>又、水に火の影響が全然無ければ、凍結のままである。<br><br>火の熱によって解溶するから、流動するのであって、なお進んで蒸気となり、動力発生となるのである。<br><br> 本来、肺臓は水の性能である。<br><br>空気は、酸素、窒素等の原素はあるが、実は、水素が主である。<br><br>故に、肺臓は主として空気、即ち水素吸収機関であるから、冷性であり、理性の発電所である。<br><br>それと反対に、心臓は、火の性能が本質であるから、神霊界の火素（霊素）を吸収しつつあり、熱性であるから、愛と感情の根源である。<br><br>故に、肺臓の水性を活動させんとするには、心臓の活動によって、熱素を充分供給しなくてはならない。<br><br>故に、肺臓の活動が鈍いのは、心臓の愛の熱が少い為であるから、肺患治療に対しては、心臓へ火素を、より吸収させる事である。<br><br>心臓へ火素を潤沢に与えんとすれば、その住する霊界を清浄にするより外なく、それは、正しき神霊を奉斎する一事である。<br><br> この理によって、心臓を強め、心臓病を治癒するには、清浄なる空気を肺臓に与うればよいので、そうすれば肺臓の水性が活動するから、心臓の火性を揺り動かす事によって、心臓は健康になるのである。<br><br> 故に、近来肺患者の激増の原因は、各人の心臓の衰弱が原因である。<br><br>それは、二つの理由がある。<br><br>一は前述の霊界の曇の濃度、即ち、邪神狐狸の奉斎と、悪の行為言葉による影響の為と、今一つは西洋思想である。<br><br> 元来、西洋思想は、科学を基本として成った関係上、理論偏重である。<br><br>その結果として冷性になり、愛の情動が稀薄になるからである。<br><br>肺患者は理性の勝った者が多いので、薄情になりがちである。<br><br>利己的であって、利他愛が少い傾向を帯びているのは、争えない事実である。<br><br> 又、心臓患者はこの反対であって、感情に走り易く、激怒し易いのであるが、近来、実際の心臓病患者は、まことに少いのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Trindade dos Órgãos Internos e a Primazia do Coração</h2>
 <p>A trindade dos órgãos internos refere-se ao coração, aos pulmões e ao estômago. Pode-se afirmar que esses órgãos constituem o alicerce de todo o sistema visceral, desempenhando, portanto, as funções mais cruciais.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Conclui-se, assim, que o drástico aumento no número de pacientes com tuberculose em tempos recentes tem como causa o enfraquecimento do coração de cada indivíduo. Existem duas razões para tal. A primeira é a já mencionada densidade das máculas no Mundo Espiritual, ou seja, a influência gerada pela reverência a espíritos malignos e pela prática de atos e palavras malévolas. A segunda razão é o pensamento ocidental.</p>
 <p>Por ter se desenvolvido com base na ciência, o pensamento ocidental supervaloriza a teoria. Como resultado, torna as pessoas frias e faz com que o sentimento de amor se torne rarefeito. É um fato inegável que muitos pacientes com tuberculose são pessoas em quem a razão predomina, tendendo a ser indiferentes. Apresentam uma inclinação ao egoísmo e uma carência de amor altruísta.</p>
 <p>Os pacientes com doenças cardíacas, por outro lado, representam o oposto: são propensos a agir pela emoção e a se enraivecer com facilidade. Contudo, nos dias de hoje, os casos reais de cardiopatia são, na verdade, bastante raros.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 内臓の三位一体と心臓の重要性 『新日本医術書』昭和11(1936)年執筆 内臓の三位一体とは心臓、肺臓、胃を指していうのである。<br/><br/>この機関〔器官〕こそ全内臓中の基本であると言ってもよいので、最重要な役目を果しているのである。<br/><br/> 今日までのあらゆる医術は、胃と肺臓に関しては相当研究もされ、その活動へ対しての認識もやや成ってはいるが、独（ひと）り心臓に至っては全く不明であると言ってもよい状態である。<br/><br/>しかるに実際は、この三臓器中、心臓が最重要な機関である。<br/><br/>医家が死の直接原因を、心臓麻痺というにみても識るべきである。<br/><br/>かように最重要である心臓の器〔機〕能活動が判明しなくては、真の治療は確立されるはずがないのである。<br/><br/> 現代医学は、肺臓の呼吸運動に依って血液を浄化し、それを心臓に送ると言い、血液浄化の法として、清澄なる空気を呼吸せしめんとし、大いに転地療法を奨（すす）めるのである。<br/><br/>又、飲食物を重要視して、営〔栄〕養と消化の研究には、最大努力を払っているのである。<br/><br/>かように、肺と胃に対しての、器能活動の研究には、絶えず努力しつつあるに係わらず、独り心臓に対しては、あまり研究をしないようである。<br/><br/>これはまことに不思議であって、全く心臓なるものの器能の本体が、把握出来ないと諦めた結果であろうか。<br/><br/>私の研究によれば、この三臓器中心臓のその活動こそ、人間の健康の基本であると言ってもよいので、この心臓の不明である限り、治療法と健康法は決して解決されない事を、私は断言するのである。<br/><br/> しからば、最重要たる心臓の活動の本質は何であるか、鼓動は何であるかを、詳説してみよう。<br/><br/>肺臓が一分間何十という呼吸運動をしているのは、今日の医学で説明が付くとしても、心臓の鼓動については何の為であるかを説明し得ないのである。<br/><br/>例えば、肺患者が転地して、新鮮な空気を吸い、胃には充分なる営〔栄〕養を摂取しても、容易に治らないのは何の為であるか。<br/><br/>又、海岸居住者にして肺結核に罹病する者がすくなからずあるという事は、いかなる理由によるのであるか。<br/><br/>これらについても現代医学は、未だ説明が出来ないのである。<br/><br/>これは全く心臓の器能が不明であるからである。<br/><br/> この事の説明に対しては最初に、この地球の現象界の組織から説いてゆかねばならない。<br/><br/>我々が住んでいるこの地上の構成は何であるかと言うと、それは、三つの元素界から成立っている。<br/><br/>一、霊界、二、空気の世界、三、物質世界である。<br/><br/>しかるに、今日までの発見では、空気の世界と、物質界の二つのみであって、最重要なる霊界は未だ発見されていないのである。<br/><br/>この三段の組織を称して、仏語では、三千世界、又は三界といっているのである。<br/><br/> この三段階の元素を説明してみれば、第一の霊界とは、空気より一層稀薄にして、今日の科学では、これを測定すべき方法がない霊素ともいうべきものである。<br/><br/>しかし、最近の科学において発見せる電子、陽子、中性子、核等の研究は、この霊界に一歩突入したのであるから、いずれは霊界の実在を認識するまでに到るであろう事は、信じ得らるるのである。<br/><br/>ただ私の説は、科学よりも一歩先へ前進しているだけである。<br/><br/> しかして、霊界は火素を主とする太陽霊であり、空気界は水素を主とする太陰霊であり、物質界は土素を主とする物質原〔元〕素である。<br/><br/>この関係が認識出来得れば心、肺、胃の器能も判明さるるのである。<br/><br/> 即ち、心臓は火素を即ち霊気を呼吸しつつあるので、それが鼓動である。<br/><br/>肺臓は水素即ち空気を吸収しつつあるので、それが呼吸である。<br/><br/>胃は土素から成る食物を吸収しつつあるので、それが伸縮運動である。<br/><br/>肺と胃の活動は、説明を略して、心臓を主として説明をしてみよう。<br/><br/> 本来血液は、霊の物質化であるという事は既に述べてある通りで、この人体生命のエネルギーである血液を、不断に活動させつつ、なお浄化の工作をなすその力こそ火素である。<br/><br/>そうして心臓は絶えずこの火素、一名霊素を吸収しつつあるが、空気にも清濁あるごとく、この霊界にも大いにそれがあるのである。<br/><br/>故に、この霊界においての清浄という所は、霊素が充ちているのであり、それは、光と熱との量積が、多分に在るという事である。<br/><br/>しかるにこの霊素が稀薄である所は、反対に汚素が多分に在るのである。<br/><br/>汚素とは一種の霊的曇である。<br/><br/>別言すれば、霊界において、霊素の濃度なる所は、晴天のごとき明るさを感じ、霊素の稀薄なる所は、曇り日のごとき陰欝を感ずるものである。<br/><br/>しからば、霊素、汚素の多少はいかなる原因かというと、霊素の多い条件としては、正しき神霊を奉斎する事であり、又善に属する行為と言葉によるのであって、汚素の原因としては、右と反対に邪神や狐狸の霊を奉斎し、又は、悪に属する行為と言葉を発するが故である。<br/><br/>故に、この理によって心臓の活動を旺盛にし、その結果たる血液を浄化せんと欲せば、前者の方法を実行すれば良いのであって、そうすればする程、健康を増し、不幸は解消するのである。<br/><br/>しかるに、現在大部分の宗教は、光と熱を霊射する正神が少なく、大抵は暗黒に相応する邪神が多いのと、しかも、人間の行為と言葉が、悪に属する方が多いから、霊界は曇るばかりであって、全く無明地獄である。<br/><br/>従って、ここに褄息する人間は、この曇れる汚素を常に心臓が吸収するから心臓は弱り、心臓が弱るから、愛の情動が稀薄になるのである。<br/><br/>現代の人間に愛が乏しく、滔々（とうとう）として稀薄になるのは、実にこの理によるからである。<br/><br/> しかしながら、この暗黒界にいよいよ大いなる光と熱の、無限の供給者たる光明如来、即ち観世音菩薩が救世之光となって出現されたのであるから、この御神体を奉斎する時、無量にその火素、即ち、光と熱を放射され給うので、その家の霊界は、漸次曇が消滅して明るくなるのである。<br/><br/>その結果、そこに住する人間の心臓は、火素の潤沢（じゅんたく）によって活動力が旺盛になるから、愛が湧起するのである。<br/><br/>その結果は争が無くなり、血液も浄化するから、健康となるのである。<br/><br/>右のごとく、愛と健康を以て、業務に従事する以上、繁盛と栄達は当然の帰結であって貧は無くなる。<br/><br/>病貧争絶無の根源は、これに依ても瞭（あき）らかであろう。<br/><br/> ここで、今一つの基本的解説をする必要がある。<br/><br/>それは、火と水との性能本質である。<br/><br/>元来、火は水に依て燃え、水は火に依て流動するのである。<br/><br/>もし、火を起すべき燃焼物に、全然水が無かったら、火は燃ゆる時間がなく、一瞬に爆発してしまう。<br/><br/>又、水に火の影響が全然無ければ、凍結のままである。<br/><br/>火の熱によって解溶するから、流動するのであって、なお進んで蒸気となり、動力発生となるのである。<br/><br/> 本来、肺臓は水の性能である。<br/><br/>空気は、酸素、窒素等の原素はあるが、実は、水素が主である。<br/><br/>故に、肺臓は主として空気、即ち水素吸収機関であるから、冷性であり、理性の発電所である。<br/><br/>それと反対に、心臓は、火の性能が本質であるから、神霊界の火素（霊素）を吸収しつつあり、熱性であるから、愛と感情の根源である。<br/><br/>故に、肺臓の水性を活動させんとするには、心臓の活動によって、熱素を充分供給しなくてはならない。<br/><br/>故に、肺臓の活動が鈍いのは、心臓の愛の熱が少い為であるから、肺患治療に対しては、心臓へ火素を、より吸収させる事である。<br/><br/>心臓へ火素を潤沢に与えんとすれば、その住する霊界を清浄にするより外なく、それは、正しき神霊を奉斎する一事である。<br/><br/> この理によって、心臓を強め、心臓病を治癒するには、清浄なる空気を肺臓に与うればよいので、そうすれば肺臓の水性が活動するから、心臓の火性を揺り動かす事によって、心臓は健康になるのである。<br/><br/> 故に、近来肺患者の激増の原因は、各人の心臓の衰弱が原因である。<br/><br/>それは、二つの理由がある。<br/><br/>一は前述の霊界の曇の濃度、即ち、邪神狐狸の奉斎と、悪の行為言葉による影響の為と、今一つは西洋思想である。<br/><br/> 元来、西洋思想は、科学を基本として成った関係上、理論偏重である。<br/><br/>その結果として冷性になり、愛の情動が稀薄になるからである。<br/><br/>肺患者は理性の勝った者が多いので、薄情になりがちである。<br/><br/>利己的であって、利他愛が少い傾向を帯びているのは、争えない事実である。<br/><br/> 又、心臓患者はこの反対であって、感情に走り易く、激怒し易いのであるが、近来、実際の心臓病患者は、まことに少いのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

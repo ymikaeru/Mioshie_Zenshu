@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hutata01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再び汚職の母体 『栄光』251号、昭和29(1954)年3月10日発行 この題の下に前号に色々かいたが、まだ言い足りない点があるので、再びかいてみようと思うのである。<br><br>というのは目下ジャーナリストがこの問題に対する批判として、各新聞に出ているのを見ると、もっともらしい理屈はかいているが、その実平々凡々、何ら新味はなく、その言うところ相も変らず法規上こういう点を改めよとか、罰則を一層重くしろとか、選挙に金がかかりすぎるからだとかであって、そのいずれもが的（まと）外れであり、これなら確実に効果あると思うような案は一つもない事である。<br><br>何しろ唯物観念が土台となっている以上、これより外に考えようがないからであろうが、このような方策を何遍繰返したとて駄目なのは、すでに試験済となっている。<br><br>何よりも肝腎な無神思想を度外（どがい）しての方法である以上、気の毒ながら徒労以外の何物でもあるまい。<br><br> ここで一層突進んでこの問題を解剖してみるが、分り易くいえばこのスキャンダルはちょうど動物の智能が進み、法の檻を破ろうとしたのを番人に見つけられ、ついに大問題となったのである。<br><br>そこでこれを見たジャーナリストはこれは大変と今までよりも一層頑丈（がんじょう）に、容易に壊されないようにと、その作り方を工夫して教え、注意を与えたのが昨今の新聞論評であろう。<br><br>それやこれやを考えてみると全く文化国家としての一大恥辱ではないかと思う。<br><br>もちろんこの根本は全然見当違いである事はすでに述べた通りであって、原因は檻ではない。<br><br>檻を破ろうとする動物的本能にあるのである。<br><br>従ってその本能を抜いてしまえば、檻を必要としない真の人間になるのは当然であり、この役目としての宗教である。<br><br>以上を読んだら随分酷（ひど）い言い方と憤慨するかも知れないが、これが真理である以上何人も否定は出来ないであろう。<br><br>つまり問題の核心は人間の魂にあるのであるから、この向上こそ真の解決法であり、これ以外にない事はもちろんである。<br><br>ここで今一つのたとえをかいてみるが、有神観念と無神観念と両方並べて、どちらの方が政界を腐敗させるかという事で、これ程明白な話はあるまい。<br><br>ところが遺憾ながら日本の指導階級のほとんどは、無神族で占められている以上、汚職問題や社会悪が絶えないのは致し方ないのである。<br><br> これについての例をアメリカにとってみよう。<br><br>すなわち同国におけるこの種の事件もたまにはあるが、日本と比べたら問題にならない程少いのは誰も知るであろう。<br><br>また社会批判の厳しい事も同様であるから、実に羨しい限りである。<br><br>その原因こそ同国におけるキリスト教のためであって、これについて近頃私の所へ時々訪問されるアメリカ各社の特派記者にしても、談（だん）たまたま信仰問題に触れるや、驚く程適切な質問や意見を吐かれる事で、その信仰に対する理解や、神に対する敬虔（けいけん）な念は驚く程で、私はいつも敬服させられるのである。<br><br>同国政界の明朗な事や、政治家に対する人民の信頼感などにみてもなるほどと頷（うなず）かれる。<br><br>これに比べると日本のそれは、アメリカに比べたら少くとも半世紀は遅れているであろう。<br><br>いつぞやマ元師が日本を十二歳の子供と評したのも宜（むべ）なるかなである。<br><br>という訳で失礼ながら日本のジャーナリスト諸君も、大いに発奮の必要ありと思うのである。<br><br>それは今度のスキャンダルに対する日本新聞の論調がよくそれを語っている。<br><br>というのは神の言葉など一言半句もない事である。<br><br>故にこの問題が、もしアメリカで起ったとしたら、どんなに物凄い輿（よ）論が捲起ったか知れないと思うのである。<br><br> これらによってみても日本文化の低さもそうだが、特にジャーナリストの無神観念が大いに原因している事も否とは言えまい。<br><br>何よりも今日の社会を見れば分るごとく、官公吏（かんこうり）の汚職、一般的社会悪、政界の腐敗、派閥争い、労資の軋轢（あつれき）、危険思想、経済難、生活不安等々、数え上げれば限りがない。<br><br>もちろん一切は原因があって結果がありとすれば、その原因こそ無神思想であるのは言うまでもない。<br><br>しかも右の原因のそのまた原因がある事も知らねばならない。<br><br>すなわち無神思想をして有神思想に導くだけの力ある宗教は日本にない事である。<br><br>そこへゆくとアメリカはキリスト教一本で都合がいいが、日本は八宗九宗その種類の多い事も世界に例がない程である。<br><br>それというのも国民全体をリードする程の偉大なる宗教が出なかったからではある。<br><br>ではそのような立派な宗教はこれからも出ないかというと、決して左に非ずと私は言う。<br><br>それは今や現われんとする超宗教である。<br><br>故にジャーナリスト諸君は炬眼（きょがん）を開いて、この宗教を見出されん事であって、必ずや発見されると共に、あるいはキリスト教以上かも知れなのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Matriz da Corrupção, Revisitada</h2>
 <p>Já discorri sobre este tema na edição anterior, contudo, por sentir que ainda há pontos a serem aprofundados, tomo a liberdade de abordá-lo novamente. Ao observar as críticas que os jornalistas têm publicado nos mais diversos periódicos, noto que, embora apresentem argumentos de aparente lógica, suas análises são, na realidade, superficiais e desprovidas de qualquer novidade. As soluções propostas, invariavelmente, limitam-se a sugerir reformas na legislação, a agravar as penalidades ou a lamentar os custos excessivos das campanhas eleitorais. Todas essas propostas, entretanto, tangenciam a verdadeira questão; não há entre elas uma única medida que prometa um resultado efetivo e definitivo. Talvez isso se deva ao fato de que, tendo por alicerce uma concepção materialista, o pensamento não consiga ir além. A história já demonstrou exaustivamente que a simples repetição de tais estratégias é inútil. Enquanto o método ignorar o ponto fundamental — a ideologia que nega a existência de Deus —, será, lamento dizer, nada além de um labor infrutífero.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>A cobertura da imprensa japonesa sobre o recente escândalo corrobora o que afirmo, pois nela não se encontra uma única menção à palavra Deus. Imagino a formidável reação da opinião pública caso um problema desta magnitude tivesse ocorrido nos Estados Unidos.</p>
 <p>Tais fatos não apenas revelam o baixo nível da cultura japonesa, como também tornam inegável que a mentalidade ateísta dos jornalistas é um dos principais fatores causais. Basta observar a sociedade atual: a corrupção no funcionalismo público, os males sociais generalizados, a decadência política, as disputas entre facções, os atritos entre capital e trabalho, as ideologias perniciosas, as dificuldades econômicas, a insegurança cotidiana — a lista é infindável. Naturalmente, se todo efeito tem uma causa, a causa de tudo isso é, sem dúvida, a ideologia que nega a existência de Deus.</p>
 <p>Contudo, é preciso compreender que existe uma causa anterior a esta: a ausência, no Japão, de uma religião com força suficiente para conduzir as pessoas à fé em Deus. Os Estados Unidos têm a vantagem da unidade em torno do cristianismo, enquanto o Japão possui inúmeras escolas e seitas, uma diversidade sem paralelo no mundo. Isso ocorre porque, até hoje, não surgiu uma religião com a grandeza necessária para liderar toda a nação. Mas estaria o Japão fadado a jamais ter uma religião assim? Afirmo que não. Uma super-religião está prestes a se manifestar. Exorto, portanto, os senhores jornalistas a abrirem seus olhos com acuidade para encontrar essa religião. Certamente a descobrirão e, quiçá, constatarão que ela talvez supere até mesmo o cristianismo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再び汚職の母体 『栄光』251号、昭和29(1954)年3月10日発行 この題の下に前号に色々かいたが、まだ言い足りない点があるので、再びかいてみようと思うのである。<br/><br/>というのは目下ジャーナリストがこの問題に対する批判として、各新聞に出ているのを見ると、もっともらしい理屈はかいているが、その実平々凡々、何ら新味はなく、その言うところ相も変らず法規上こういう点を改めよとか、罰則を一層重くしろとか、選挙に金がかかりすぎるからだとかであって、そのいずれもが的（まと）外れであり、これなら確実に効果あると思うような案は一つもない事である。<br/><br/>何しろ唯物観念が土台となっている以上、これより外に考えようがないからであろうが、このような方策を何遍繰返したとて駄目なのは、すでに試験済となっている。<br/><br/>何よりも肝腎な無神思想を度外（どがい）しての方法である以上、気の毒ながら徒労以外の何物でもあるまい。<br/><br/> ここで一層突進んでこの問題を解剖してみるが、分り易くいえばこのスキャンダルはちょうど動物の智能が進み、法の檻を破ろうとしたのを番人に見つけられ、ついに大問題となったのである。<br/><br/>そこでこれを見たジャーナリストはこれは大変と今までよりも一層頑丈（がんじょう）に、容易に壊されないようにと、その作り方を工夫して教え、注意を与えたのが昨今の新聞論評であろう。<br/><br/>それやこれやを考えてみると全く文化国家としての一大恥辱ではないかと思う。<br/><br/>もちろんこの根本は全然見当違いである事はすでに述べた通りであって、原因は檻ではない。<br/><br/>檻を破ろうとする動物的本能にあるのである。<br/><br/>従ってその本能を抜いてしまえば、檻を必要としない真の人間になるのは当然であり、この役目としての宗教である。<br/><br/>以上を読んだら随分酷（ひど）い言い方と憤慨するかも知れないが、これが真理である以上何人も否定は出来ないであろう。<br/><br/>つまり問題の核心は人間の魂にあるのであるから、この向上こそ真の解決法であり、これ以外にない事はもちろんである。<br/><br/>ここで今一つのたとえをかいてみるが、有神観念と無神観念と両方並べて、どちらの方が政界を腐敗させるかという事で、これ程明白な話はあるまい。<br/><br/>ところが遺憾ながら日本の指導階級のほとんどは、無神族で占められている以上、汚職問題や社会悪が絶えないのは致し方ないのである。<br/><br/> これについての例をアメリカにとってみよう。<br/><br/>すなわち同国におけるこの種の事件もたまにはあるが、日本と比べたら問題にならない程少いのは誰も知るであろう。<br/><br/>また社会批判の厳しい事も同様であるから、実に羨しい限りである。<br/><br/>その原因こそ同国におけるキリスト教のためであって、これについて近頃私の所へ時々訪問されるアメリカ各社の特派記者にしても、談（だん）たまたま信仰問題に触れるや、驚く程適切な質問や意見を吐かれる事で、その信仰に対する理解や、神に対する敬虔（けいけん）な念は驚く程で、私はいつも敬服させられるのである。<br/><br/>同国政界の明朗な事や、政治家に対する人民の信頼感などにみてもなるほどと頷（うなず）かれる。<br/><br/>これに比べると日本のそれは、アメリカに比べたら少くとも半世紀は遅れているであろう。<br/><br/>いつぞやマ元師が日本を十二歳の子供と評したのも宜（むべ）なるかなである。<br/><br/>という訳で失礼ながら日本のジャーナリスト諸君も、大いに発奮の必要ありと思うのである。<br/><br/>それは今度のスキャンダルに対する日本新聞の論調がよくそれを語っている。<br/><br/>というのは神の言葉など一言半句もない事である。<br/><br/>故にこの問題が、もしアメリカで起ったとしたら、どんなに物凄い輿（よ）論が捲起ったか知れないと思うのである。<br/><br/> これらによってみても日本文化の低さもそうだが、特にジャーナリストの無神観念が大いに原因している事も否とは言えまい。<br/><br/>何よりも今日の社会を見れば分るごとく、官公吏（かんこうり）の汚職、一般的社会悪、政界の腐敗、派閥争い、労資の軋轢（あつれき）、危険思想、経済難、生活不安等々、数え上げれば限りがない。<br/><br/>もちろん一切は原因があって結果がありとすれば、その原因こそ無神思想であるのは言うまでもない。<br/><br/>しかも右の原因のそのまた原因がある事も知らねばならない。<br/><br/>すなわち無神思想をして有神思想に導くだけの力ある宗教は日本にない事である。<br/><br/>そこへゆくとアメリカはキリスト教一本で都合がいいが、日本は八宗九宗その種類の多い事も世界に例がない程である。<br/><br/>それというのも国民全体をリードする程の偉大なる宗教が出なかったからではある。<br/><br/>ではそのような立派な宗教はこれからも出ないかというと、決して左に非ずと私は言う。<br/><br/>それは今や現われんとする超宗教である。<br/><br/>故にジャーナリスト諸君は炬眼（きょがん）を開いて、この宗教を見出されん事であって、必ずや発見されると共に、あるいはキリスト教以上かも知れなのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

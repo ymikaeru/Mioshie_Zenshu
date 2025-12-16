@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261201s</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月1日S） 『御垂示録』4号、昭和26(1951)年12月10日発行 昭和二十六年十二月一日 今度、農業特集号をだそうと思って、論文を書いています。<br><br>農林技師で――青森県の方で、三年前から非常に研究していて、確かに良いというのがあった。<br><br>農林省へ、報告したかとか言ってね、あれは一頁くらいになるが、良い資料でね。<br><br>それからお蔭話を見たところが、まだいくらも来てない。<br><br> 「判りますのは、もっと遅れるようでございます」 そうらしいですね。<br><br>やむを得ず遅れるのはしかたがないが、できるだけ早くしてもらいたい。<br><br>特集号にして――駅あたりにポスターをして、新聞を売ろうと思っている。<br><br>つまり「農業の大革命、五カ年継続すれば五割の増産確実」というようなことを書いて、日本中に――できるだけ大々的に知らせようと思う。<br><br> 「ただ配るより、売らしていただいたほうがよろしいようでございます」 いろいろな点でね。<br><br>配るのは――団体ですからね。<br><br>農会とか、日本中の新聞社とか、参衆両議院とか、主なものです。<br><br>農界の原子爆弾ですね。<br><br> 「新潟のほうで、四年間やらしていただいておりますが、今まで黙って見ていた連中が――村で三分の一くらいは――入信はしなくても、一反ずつくらいを来年からやりたいと言っております」 それは良い。<br><br>そういうことの報告を書いて出して下さい。<br><br>つまり、入信者でなく、普通の人がやるようになると、もっと良いんですよ。<br><br> つまり、急を要する問題だからね。<br><br>だから、実行さえすれば――できるだけ多くの百姓が実行すれば良いんだからね。<br><br>あらゆる問題は、それで解決できちゃうんだからね。<br><br>だいたい、二千万石じゃきかない。<br><br>二千四百万石くらい輸入しなければならない。<br><br>金にすれば、千八百億ですからね。<br><br>千八百億煙になっちゃうんですからね。<br><br>たいへんなものです。<br><br>いくら輸出したところで、さっぴきになっちゃう。<br><br>それで、金がないから――金詰まりということになる。<br><br>商工業者も苦しいということになる。<br><br>なにしろ、日本が――これからドッジが来て、一番いけないと言うのは、オーバーローンと言ってね、銀行が――預金より貸し出しが多いんだからね。<br><br>経済界の悪いことがあると、一拠に丸つぶれになる。<br><br>日本はアメリカの資本を借りたがっているが、恐らくアメリカじゃ貸さないだろう。<br><br>そんな不健全な経済では危なくて貸すことができない――と言ったが、そういうわけです。<br><br>ドッジはうまいことを言っている。<br><br>投資インフレだというんです。<br><br>投資といっても、借金ですからね。<br><br>投資インフレというのは体裁良く言ったんだ。<br><br>本当言えば投資借金です。<br><br>日本の今の商工業者くらい、借金の好きなものはない。<br><br>自分の金じゃない、借金するのが本当だと思っている。<br><br>借金から借金につながっているからね。<br><br>だから、一人返さないと、いくらでも――それで延長していく。<br><br>この経済の――固定ということがたいへんな悪いことですね。<br><br>つまり甲から乙が借金して、丙が借りて、丁が借りる。<br><br>丁がもし、ちょっと何かの原因で支払いができない。<br><br>すると丙が迷惑して、乙が返すことができなくなる。<br><br>これが借金インフレすれば――これだけで食い止めるのを――それを食い止められない。<br><br>こういう状態だらかね。<br><br> 「医学の注射と同じことで――」 そうです。<br><br>一時抑えだからね。<br><br>今度、「抑えつけ文化」というのを書いているんだがね。<br><br>何でも押し込めている。<br><br>経済界でも、犯罪が多いが、ああいった――官吏の汚職だとか――みんなそうです。<br><br>一時的ですよね。<br><br>ただ、対症療法的にね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Agricultura Natural como Solução para a Crise Nacional</h2>
 <p>Planejo publicar uma edição especial sobre agricultura e, para tanto, estou redigindo um artigo. Tive acesso a um excelente material, um relatório de um engenheiro agrônomo da província de Aomori que, ao longo de três anos de pesquisa aprofundada, obteve resultados indiscutivelmente positivos. O documento, com cerca de uma página, é de grande valor. Por outro lado, ao verificar os relatos de graças, notei que ainda recebemos poucos.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Ninguém aprecia tanto o endividamento quanto os comerciantes e industriais japoneses de hoje. Eles parecem acreditar que o correto é operar com capital alheio, e não com recursos próprios, vivendo em um ciclo de empréstimos para quitar outros empréstimos. Essa interdependência torna a economia extremamente vulnerável. Se um único devedor na cadeia não consegue honrar seu compromisso, a inadimplência se alastra, prorrogando-se indefinidamente. Essa estagnação econômica é um mal terrível. Imaginemos que A empresta a B, que por sua vez empresta a C, que empresta a D. Se D, por algum motivo, não consegue pagar sua dívida, C se vê em dificuldades e, consequentemente, não pode pagar a B. Nesse cenário de endividamento generalizado, a propagação da crise torna-se incontrolável. Essa é a frágil situação em que nos encontramos.</p>
 <p>"É o mesmo princípio das injeções na medicina..."</p>
 <p>Exatamente. Pois se trata apenas de uma medida paliativa. Inclusive, estou escrevendo um novo artigo intitulado "A Cultura da Supressão". Tudo em nossa sociedade está sendo meramente contido. Isso se manifesta na economia, nos altos índices de criminalidade, na corrupção dos funcionários públicos; tudo segue o mesmo padrão. São soluções temporárias, não é mesmo? Apenas tratamentos sintomáticos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月1日S） 『御垂示録』4号、昭和26(1951)年12月10日発行 昭和二十六年十二月一日 今度、農業特集号をだそうと思って、論文を書いています。<br/><br/>農林技師で――青森県の方で、三年前から非常に研究していて、確かに良いというのがあった。<br/><br/>農林省へ、報告したかとか言ってね、あれは一頁くらいになるが、良い資料でね。<br/><br/>それからお蔭話を見たところが、まだいくらも来てない。<br/><br/> 「判りますのは、もっと遅れるようでございます」 そうらしいですね。<br/><br/>やむを得ず遅れるのはしかたがないが、できるだけ早くしてもらいたい。<br/><br/>特集号にして――駅あたりにポスターをして、新聞を売ろうと思っている。<br/><br/>つまり「農業の大革命、五カ年継続すれば五割の増産確実」というようなことを書いて、日本中に――できるだけ大々的に知らせようと思う。<br/><br/> 「ただ配るより、売らしていただいたほうがよろしいようでございます」 いろいろな点でね。<br/><br/>配るのは――団体ですからね。<br/><br/>農会とか、日本中の新聞社とか、参衆両議院とか、主なものです。<br/><br/>農界の原子爆弾ですね。<br/><br/> 「新潟のほうで、四年間やらしていただいておりますが、今まで黙って見ていた連中が――村で三分の一くらいは――入信はしなくても、一反ずつくらいを来年からやりたいと言っております」 それは良い。<br/><br/>そういうことの報告を書いて出して下さい。<br/><br/>つまり、入信者でなく、普通の人がやるようになると、もっと良いんですよ。<br/><br/> つまり、急を要する問題だからね。<br/><br/>だから、実行さえすれば――できるだけ多くの百姓が実行すれば良いんだからね。<br/><br/>あらゆる問題は、それで解決できちゃうんだからね。<br/><br/>だいたい、二千万石じゃきかない。<br/><br/>二千四百万石くらい輸入しなければならない。<br/><br/>金にすれば、千八百億ですからね。<br/><br/>千八百億煙になっちゃうんですからね。<br/><br/>たいへんなものです。<br/><br/>いくら輸出したところで、さっぴきになっちゃう。<br/><br/>それで、金がないから――金詰まりということになる。<br/><br/>商工業者も苦しいということになる。<br/><br/>なにしろ、日本が――これからドッジが来て、一番いけないと言うのは、オーバーローンと言ってね、銀行が――預金より貸し出しが多いんだからね。<br/><br/>経済界の悪いことがあると、一拠に丸つぶれになる。<br/><br/>日本はアメリカの資本を借りたがっているが、恐らくアメリカじゃ貸さないだろう。<br/><br/>そんな不健全な経済では危なくて貸すことができない――と言ったが、そういうわけです。<br/><br/>ドッジはうまいことを言っている。<br/><br/>投資インフレだというんです。<br/><br/>投資といっても、借金ですからね。<br/><br/>投資インフレというのは体裁良く言ったんだ。<br/><br/>本当言えば投資借金です。<br/><br/>日本の今の商工業者くらい、借金の好きなものはない。<br/><br/>自分の金じゃない、借金するのが本当だと思っている。<br/><br/>借金から借金につながっているからね。<br/><br/>だから、一人返さないと、いくらでも――それで延長していく。<br/><br/>この経済の――固定ということがたいへんな悪いことですね。<br/><br/>つまり甲から乙が借金して、丙が借りて、丁が借りる。<br/><br/>丁がもし、ちょっと何かの原因で支払いができない。<br/><br/>すると丙が迷惑して、乙が返すことができなくなる。<br/><br/>これが借金インフレすれば――これだけで食い止めるのを――それを食い止められない。<br/><br/>こういう状態だらかね。<br/><br/> 「医学の注射と同じことで――」 そうです。<br/><br/>一時抑えだからね。<br/><br/>今度、「抑えつけ文化」というのを書いているんだがね。<br/><br/>何でも押し込めている。<br/><br/>経済界でも、犯罪が多いが、ああいった――官吏の汚職だとか――みんなそうです。<br/><br/>一時的ですよね。<br/><br/>ただ、対症療法的にね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

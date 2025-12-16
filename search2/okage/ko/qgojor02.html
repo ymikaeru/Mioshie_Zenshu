@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgojor02</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御浄霊によって雨漏り止る 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岐阜県 大光中教会 水野さくゑ（35） 日夜限りない御守護を戴きまして有難うございます。<br><br>厚く御礼申し上げます。<br><br>昨夕以来降りしきる雨は今朝九時になっても止む気配もなく、激しい雨音を耳にしながら新なる感謝の涙に咽びつつ、雨漏りに御守護を戴きました事を拙なき筆にて御礼御報告させて戴きます。<br><br> 昭和二十五年九月、この有難いお道に入らせて戴き、十一月美の町の会長先生の御手より、有難い御守様を拝受致しまして以来、数え切れない程の病の浄化に御守護を頂きまして、心から感謝申し上げております。<br><br>元々経済的の御浄化は厳しく、屋根瓦の破損を繕う余裕なぞ全然ございませず、少々の雨にもそれバケツよ、鍋よと大さわぎで、とりわけ夜中のにわか雨には子供を起すも可哀相と、主人と二人で子供を布団にくるんだまま担荷を運ぶようにして仏壇の間へ避難させたのでございます。<br><br>金たらいに当る雨漏りの音のみじめさ、いらだたしさは、御経験のない方にはお分りにならないと思いますが、佗しいものでございます。<br><br>時には、余りに激しい雨滴りにたまりかねた主人が、雨中を屋根に上りすべる瓦を踏みしめて繕った事も幾度かございました。<br><br>しかし、その場所はどうやらなおりましても他の瓦を踏み割ったりずらかしたりしては、結局場所が変るだけで雨漏りは依然として止まないのでございました。<br><br>五月下旬の頃と思います。<br><br>夜中にトタン廂（ひさし）をたたくはげしい雨音にフッと目がさめました。<br><br>嗚呼、「また雨か」と暗い心でじっと耳をすませますといつものように、ポツポツ、ポツポツと天井裏でいやな音が聞えて参ります。<br><br>もうすぐ冷たいものが落ちてくるだろう、仕方がない、主人を起してまた子供達を運ばねばと思いながら起上がろうとしました。<br><br>その時スーッと頭に浮びました数行の文字、それは、いつか『栄光』紙上で拝見しました神戸市の中山様の御報告にある御神徳の数々、雨漏りまで止めて戴くとの記事でございました。<br><br>明主様、大光明如来様、私も雨漏りは悲しゅうございます。<br><br>あのお方のようにお救い下さいませ。<br><br>いまだ主人をもこの御道に引入れる事もなし得ない罪深い私が、このような虫のよい御無理を申し上げては、申訳ないのでございますが、何卒何卒お願い致します。<br><br>奇蹟をおあたえ下さいませ、お救い下さいませ、と、誠にもったいない話でございましたが床の中でお念じ申し上げながら、今に今に落ちてくるであろう冷たいものがと、じっと天井をにらんでいたのでございます。<br><br>ポツポツと音は相変らず聞えています。<br><br> けれども当然落ちなければならないはずの冷たいものは、雨が止むまでついに一滴も落ちてこないのでございました。<br><br>あんなにはげしく聞えていた天井裏の雨水は一体どこへどうなったのでございましょう。<br><br>その夜限りどんなに大きな降雨にも、子供を担荷のように運ぶ必要はなくなりました。<br><br>そうして、長い長い梅雨も無事に過させて戴き、やがて程なく梅雨も明けようとするあの晩、いつものように仏壇に向い善言讃詞を奏げようとしましたところ、位牌の順位が乱れています。<br><br>主人の仕業と直感しましたので、位牌の位置について御教えを戴きました通り諄々と主人に話したのでございます。<br><br>ところが一向信じませぬのみか「家は昔からこの通りだ、お前一人間違った事をするな」と非常に立腹するのでございます。<br><br>私も余り情なくカッとしましたが、いやいや鈴木先生が言い聞かせて下さったのはこの事だおこってはいけない、怒ってはいけない、と、懸命にこらえて遭わず、位牌はそのままにして御祈りの後で、「御承知の通りでございます。<br><br>さぞ御不快の御方もございましょう。<br><br>どうぞ主人に一日も早くこの有難いお道を夢でなりと知らせてやって下さいませ」と心でしみじみと御先祖様にお詫びのお願いをさしていただいたのでございます。<br><br>そしていつの間に眠ったのでございましょう。<br><br>母ちゃん冷たい、との子供の声にハッととび起きました。<br><br>いつの間にか降り出した雨は天井の板目を通して蚊帳を濡らし、子供の夜着はもうかなりぐっしょり濡れております。<br><br>電光のように頭にひらめいた事、それは宵にそのままにしておいた位牌でございます。<br><br>蚊帳も夜具もそのままで仏前に飛んで行き「申訳ございませんでした。<br><br>御先祖様たとえ主人がどのように言いましょうとも正しい事は堂々と正すべきを、私の意気地のない故に御不快をおかけ致しましてすみません。<br><br>どうぞおゆるし下さいませ」と詫びながら、元の位置に順序を正したのでございます。<br><br>そして一生懸命善言讃詞を奉唱したのでございます。<br><br>奇蹟は戴けました。<br><br>あれ程の雨漏りも次第に細まり、果は一滴も落ちなくなったのでございます。<br><br>この事実を目の辺り見て、流石の主人も二度と位牌の位置は乱さなくなりました。<br><br>あの夜から今月まで七カ月余り、いかなる大雨にもバケツの必要は更になく、ただ今も戸外に降りしきる冷たい雨音を耳にしながら家の中は温く、広大無辺の大慈悲に新なる感謝の涙流るるのみでございます。<br><br>明主様有難うございました。<br><br> 有難うございました。<br><br>どうぞいつまでもいつまでもお導き下さいませ。<br><br> （昭和二十六年十二月二十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Milagres da Sekaikyuseikyou (Publicado em 10 de setembro de 1953)</h2>
 <h2>Goteira Cessa pela Graça Divina</h2>
@@ -106,5 +261,48 @@ function toggleLang(lang) {
 <p>Ao testemunhar esse fato com os próprios olhos, até mesmo meu marido, cético como era, nunca mais alterou a posição das placas. Daquela noite até hoje, já se passaram mais de sete meses. Em nenhuma tempestade, por mais forte que fosse, precisamos novamente de um balde. Neste exato momento, enquanto ouço lá fora o som da chuva fria que cai sem cessar, o interior de nossa casa permanece cálido, e meu coração transborda em novas lágrimas de gratidão pela infinita e onipresente Misericórdia Divina.</p>
 <p>Meishu-Sama, muito obrigada. Muito obrigada. Rogo que Vossa Luz continue a nos guiar, hoje e sempre.</p>
 <p>(25 de dezembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御浄霊によって雨漏り止る 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 岐阜県 大光中教会 水野さくゑ（35） 日夜限りない御守護を戴きまして有難うございます。<br/><br/>厚く御礼申し上げます。<br/><br/>昨夕以来降りしきる雨は今朝九時になっても止む気配もなく、激しい雨音を耳にしながら新なる感謝の涙に咽びつつ、雨漏りに御守護を戴きました事を拙なき筆にて御礼御報告させて戴きます。<br/><br/> 昭和二十五年九月、この有難いお道に入らせて戴き、十一月美の町の会長先生の御手より、有難い御守様を拝受致しまして以来、数え切れない程の病の浄化に御守護を頂きまして、心から感謝申し上げております。<br/><br/>元々経済的の御浄化は厳しく、屋根瓦の破損を繕う余裕なぞ全然ございませず、少々の雨にもそれバケツよ、鍋よと大さわぎで、とりわけ夜中のにわか雨には子供を起すも可哀相と、主人と二人で子供を布団にくるんだまま担荷を運ぶようにして仏壇の間へ避難させたのでございます。<br/><br/>金たらいに当る雨漏りの音のみじめさ、いらだたしさは、御経験のない方にはお分りにならないと思いますが、佗しいものでございます。<br/><br/>時には、余りに激しい雨滴りにたまりかねた主人が、雨中を屋根に上りすべる瓦を踏みしめて繕った事も幾度かございました。<br/><br/>しかし、その場所はどうやらなおりましても他の瓦を踏み割ったりずらかしたりしては、結局場所が変るだけで雨漏りは依然として止まないのでございました。<br/><br/>五月下旬の頃と思います。<br/><br/>夜中にトタン廂（ひさし）をたたくはげしい雨音にフッと目がさめました。<br/><br/>嗚呼、「また雨か」と暗い心でじっと耳をすませますといつものように、ポツポツ、ポツポツと天井裏でいやな音が聞えて参ります。<br/><br/>もうすぐ冷たいものが落ちてくるだろう、仕方がない、主人を起してまた子供達を運ばねばと思いながら起上がろうとしました。<br/><br/>その時スーッと頭に浮びました数行の文字、それは、いつか『栄光』紙上で拝見しました神戸市の中山様の御報告にある御神徳の数々、雨漏りまで止めて戴くとの記事でございました。<br/><br/>明主様、大光明如来様、私も雨漏りは悲しゅうございます。<br/><br/>あのお方のようにお救い下さいませ。<br/><br/>いまだ主人をもこの御道に引入れる事もなし得ない罪深い私が、このような虫のよい御無理を申し上げては、申訳ないのでございますが、何卒何卒お願い致します。<br/><br/>奇蹟をおあたえ下さいませ、お救い下さいませ、と、誠にもったいない話でございましたが床の中でお念じ申し上げながら、今に今に落ちてくるであろう冷たいものがと、じっと天井をにらんでいたのでございます。<br/><br/>ポツポツと音は相変らず聞えています。<br/><br/> けれども当然落ちなければならないはずの冷たいものは、雨が止むまでついに一滴も落ちてこないのでございました。<br/><br/>あんなにはげしく聞えていた天井裏の雨水は一体どこへどうなったのでございましょう。<br/><br/>その夜限りどんなに大きな降雨にも、子供を担荷のように運ぶ必要はなくなりました。<br/><br/>そうして、長い長い梅雨も無事に過させて戴き、やがて程なく梅雨も明けようとするあの晩、いつものように仏壇に向い善言讃詞を奏げようとしましたところ、位牌の順位が乱れています。<br/><br/>主人の仕業と直感しましたので、位牌の位置について御教えを戴きました通り諄々と主人に話したのでございます。<br/><br/>ところが一向信じませぬのみか「家は昔からこの通りだ、お前一人間違った事をするな」と非常に立腹するのでございます。<br/><br/>私も余り情なくカッとしましたが、いやいや鈴木先生が言い聞かせて下さったのはこの事だおこってはいけない、怒ってはいけない、と、懸命にこらえて遭わず、位牌はそのままにして御祈りの後で、「御承知の通りでございます。<br/><br/>さぞ御不快の御方もございましょう。<br/><br/>どうぞ主人に一日も早くこの有難いお道を夢でなりと知らせてやって下さいませ」と心でしみじみと御先祖様にお詫びのお願いをさしていただいたのでございます。<br/><br/>そしていつの間に眠ったのでございましょう。<br/><br/>母ちゃん冷たい、との子供の声にハッととび起きました。<br/><br/>いつの間にか降り出した雨は天井の板目を通して蚊帳を濡らし、子供の夜着はもうかなりぐっしょり濡れております。<br/><br/>電光のように頭にひらめいた事、それは宵にそのままにしておいた位牌でございます。<br/><br/>蚊帳も夜具もそのままで仏前に飛んで行き「申訳ございませんでした。<br/><br/>御先祖様たとえ主人がどのように言いましょうとも正しい事は堂々と正すべきを、私の意気地のない故に御不快をおかけ致しましてすみません。<br/><br/>どうぞおゆるし下さいませ」と詫びながら、元の位置に順序を正したのでございます。<br/><br/>そして一生懸命善言讃詞を奉唱したのでございます。<br/><br/>奇蹟は戴けました。<br/><br/>あれ程の雨漏りも次第に細まり、果は一滴も落ちなくなったのでございます。<br/><br/>この事実を目の辺り見て、流石の主人も二度と位牌の位置は乱さなくなりました。<br/><br/>あの夜から今月まで七カ月余り、いかなる大雨にもバケツの必要は更になく、ただ今も戸外に降りしきる冷たい雨音を耳にしながら家の中は温く、広大無辺の大慈悲に新なる感謝の涙流るるのみでございます。<br/><br/>明主様有難うございました。<br/><br/> 有難うございました。<br/><br/>どうぞいつまでもいつまでもお導き下さいませ。<br/><br/> （昭和二十六年十二月二十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

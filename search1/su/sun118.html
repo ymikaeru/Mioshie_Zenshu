@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sun118</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光118号) 『栄光』118号、昭和26(1951)年8月22日発行 ○○が明るくなれば内が暗（やみ）という地口みたいなのが昔からあるが、これを現代に当てはめてみるとこうだろう、いわく、神界が明るくなれば魔界暗で、自由国明るくなれば赤の国は闇、親父の頭が明るくなれば、道楽は止み、とはいかがです △ ▽ 今の世の中はあんまり悪い奴が多いので、腹が立つのを通り越していっそ愉快になるね、今に金魚じゃないが、アップアップ腹を出してみんな御陀仏と来るんだから、その片付け役には奉仕隊の諸君に今から頼んでおきますよ △ ▽ 日本人から嘘を除いたら、後に何が残る、知れた事よメシヤ教信者 △ ▽ 僕はこれほど嘘の多い世の中に、嘘も飾り気もない、ありのままの自己を現わした、真実そのものを発見して愉快になった、というとそんな立派な人間が、現在の日本にあるかと訊くから、確かにあるというと、是非見せてくれというので新宿へ連れて行って見せてやったんだ、ストリップガールを △ ▽ 現在の役人の数は、戦争前より三倍という事で、花柳界のお客は、役人が一番多いそうだ、何と羨しいではないか、ところが人民の方は、親子心中、強窃盗の氾濫、街に出ると骨皮痩衛門（ほねかわやせえもん）や、カンピンタンがウヨウヨ △ ▽ 社会党は実に正直だよ、講和使節など出すのは損だと逃げたんだろうが、なるほど国家より自党の方が大切だから無理はないよ、といったらサゾ怒るだろうが、拙者はその利口を賞めたんだから、怒るどころか御礼を言って貰いたくないよ (注) カンピンタン、乾燥してカラカラのこと。<br><br>干物。<br><br>かえるのカンピンタンなどとい う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Verdades em Poucas Palavras</h2>
 <p>Existe um antigo gracejo que diz: “quando o exterior se ilumina, o interior se obscurece”. Se aplicarmos essa máxima aos tempos modernos, teríamos as seguintes constatações: quando o Mundo Espiritual se ilumina, o mundo demoníaco mergulha nas trevas; quando as nações livres se iluminam, os países comunistas se apagam na escuridão; e quando a cabeça do pai de família clareia, a vida desregrada se arrefece. O que os senhores acham?</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Dizem que o número de funcionários públicos atualmente é o triplo do período pré-guerra, e que eles são os maiores frequentadores dos distritos de entretenimento. Que situação invejável, não é mesmo? O povo, contudo, enfrenta uma realidade de suicídios familiares e uma torrente de roubos e assaltos. Pelas ruas, pululam figuras esqueléticas e pessoas ressequidas pela miséria.</p>
 <p>△ ▽</p>
 <p>O Partido Socialista é, de fato, muito honesto. Provavelmente, esquivaram-se de enviar uma delegação para o tratado de paz por julgarem ser um mau negócio. Ora, não é de se estranhar, já que o próprio partido lhes é mais importante que a nação. Certamente se enfurecerão com minhas palavras. Contudo, como apenas elogiei tamanha astúcia, em vez de se ofenderem, não me surpreenderia se ainda me agradecessem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光118号) 『栄光』118号、昭和26(1951)年8月22日発行 ○○が明るくなれば内が暗（やみ）という地口みたいなのが昔からあるが、これを現代に当てはめてみるとこうだろう、いわく、神界が明るくなれば魔界暗で、自由国明るくなれば赤の国は闇、親父の頭が明るくなれば、道楽は止み、とはいかがです △ ▽ 今の世の中はあんまり悪い奴が多いので、腹が立つのを通り越していっそ愉快になるね、今に金魚じゃないが、アップアップ腹を出してみんな御陀仏と来るんだから、その片付け役には奉仕隊の諸君に今から頼んでおきますよ △ ▽ 日本人から嘘を除いたら、後に何が残る、知れた事よメシヤ教信者 △ ▽ 僕はこれほど嘘の多い世の中に、嘘も飾り気もない、ありのままの自己を現わした、真実そのものを発見して愉快になった、というとそんな立派な人間が、現在の日本にあるかと訊くから、確かにあるというと、是非見せてくれというので新宿へ連れて行って見せてやったんだ、ストリップガールを △ ▽ 現在の役人の数は、戦争前より三倍という事で、花柳界のお客は、役人が一番多いそうだ、何と羨しいではないか、ところが人民の方は、親子心中、強窃盗の氾濫、街に出ると骨皮痩衛門（ほねかわやせえもん）や、カンピンタンがウヨウヨ △ ▽ 社会党は実に正直だよ、講和使節など出すのは損だと逃げたんだろうが、なるほど国家より自党の方が大切だから無理はないよ、といったらサゾ怒るだろうが、拙者はその利口を賞めたんだから、怒るどころか御礼を言って貰いたくないよ (注) カンピンタン、乾燥してカラカラのこと。<br/><br/>干物。<br/><br/>かえるのカンピンタンなどとい う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

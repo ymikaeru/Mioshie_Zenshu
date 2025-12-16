@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei095</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記抄 槐安生 『栄光』95号、昭和26(1951)年3月14日発行 某月某日 Ａ市の繁華街に、食料品を商う西田氏を訪れた、親と子持の二人に、一カ月のうち、二、三回浄霊を依頼されているのだが、こちらが多忙なため、この二、三カ月は、一度ぐらいしか行けない、二人とも、身体のどこが悪いから、と云うのではなく、平生から霊気を入れて置いて貰いたい、というのだが、私を呼ぶ目的は信仰についての話を聴く事にあるのは、こちらも承知しているので、楽しみにしているのである。<br><br> 店員が二人いるが、買物客の絶間がないので、話も浄霊しながら、日常生活に即した事がらを主題に、生活と信仰の一致を一時間位、時々駄洒落を交えて笑わせながら話してくるのが常である。<br><br> 「この間から気が付いたのですが、」と前置きして西田氏から面白い話を聞いた、「貴君が来ると、急に店が忙がしくなり、帰えると、店も暇になる、それも金額の嵩む買物が多いので不思議に思っています。<br><br>」と、言うのだ、そう云われてみれば、いつも、一人や二人の客がいるが、あとから、あとから客がきて浄霊に立つ間がない、やっと無理に座敷へ上っても、「一寸」と云って店へ立つ、ふだんから、このように忙がしい、と思っていただけに「ヘー」と私も返事をしたが、何故、私がゆくとその時だけ特別に良く売れるのか判断がつかない、私のような者でも店にいるだけでお光りが増すから、とも思えるのだが、その家には大光明如来様も奉祀してあり、御書体も数体懸けてあるのである。<br><br> 西田氏は云う、農家の方は自然耕作で御利益がいくらあったか、すぐ計算出来るが、商人は自分の努力と、御利益のケジメが解らない、と思っていたが、矢張りお光りが増せば、それだけの御利益が戴ける、と納得出来ました、何なら毎日家にいて下さい。<br><br> 「それでは日当を沢山貰らって、そうしますか。<br><br>」私も嬉しくなって冗談を云い笑ったが、何か厳粛な事実にぶつかった様な気がした、私は、いけない事だが平生人から、気むずかしい人間と思われ、人に親しまれ難い性格であるが、この他人に好かれない私が店に居るのは邪魔にこそなれ、いい結果が生まれる訳はないのに、反えって繁昌する奇現象は、どうした事であろうか、私には感じられず店主が気付いて、そう云った事は、まんざら御世辞でもないらしく、偶然が重なり会った、としても受取り憎い事である。<br><br> 「お光りが増したから」そう感じた西田氏の言葉こそ真実を伝えたものであるかも知れない。<br><br> 明主様の御直筆が、書かれた意味の御働らきをなさる不可思議を、ただただ有難い、と感謝したのであった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Jikan Okada – Fragmentos do Diário de Johrei</h2>
 <p><strong>Por Kaiansei, publicado na revista Glória, edição nº 95, 14 de março de 1951</strong></p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>“Nesse caso, terei de cobrar uma diária generosa!”, respondi em tom de brincadeira, feliz com a constatação. Rimos juntos, mas, por dentro, eu sentia como se tivesse me deparado com uma verdade solene. Embora não seja algo de que me orgulhe, sou geralmente visto como uma pessoa de trato difícil, com uma personalidade que não cativa facilmente os outros. Sendo assim, a minha presença na loja deveria ser, quando muito, um estorvo, e não a causa de um resultado positivo. Como explicar, então, este fenômeno insólito de, ao contrário do esperado, o estabelecimento prosperar? O fato de o próprio dono da loja ter percebido tal ocorrência, algo que passou despercebido por mim, indicava que suas palavras não eram um mero elogio. Tampouco seria plausível aceitar tudo como uma simples sucessão de coincidências.</p>
 <p>Talvez as palavras do Sr. Nishida, “Foi porque a Luz Divina se intensificou”, expressassem a mais pura verdade.</p>
 <p>Diante do insondável mistério das Caligrafias de Meishu-Sama, que manifestam em obras o poder contido em seu significado, senti brotar em meu coração um sentimento de profunda e sincera gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記抄 槐安生 『栄光』95号、昭和26(1951)年3月14日発行 某月某日 Ａ市の繁華街に、食料品を商う西田氏を訪れた、親と子持の二人に、一カ月のうち、二、三回浄霊を依頼されているのだが、こちらが多忙なため、この二、三カ月は、一度ぐらいしか行けない、二人とも、身体のどこが悪いから、と云うのではなく、平生から霊気を入れて置いて貰いたい、というのだが、私を呼ぶ目的は信仰についての話を聴く事にあるのは、こちらも承知しているので、楽しみにしているのである。<br/><br/> 店員が二人いるが、買物客の絶間がないので、話も浄霊しながら、日常生活に即した事がらを主題に、生活と信仰の一致を一時間位、時々駄洒落を交えて笑わせながら話してくるのが常である。<br/><br/> 「この間から気が付いたのですが、」と前置きして西田氏から面白い話を聞いた、「貴君が来ると、急に店が忙がしくなり、帰えると、店も暇になる、それも金額の嵩む買物が多いので不思議に思っています。<br/><br/>」と、言うのだ、そう云われてみれば、いつも、一人や二人の客がいるが、あとから、あとから客がきて浄霊に立つ間がない、やっと無理に座敷へ上っても、「一寸」と云って店へ立つ、ふだんから、このように忙がしい、と思っていただけに「ヘー」と私も返事をしたが、何故、私がゆくとその時だけ特別に良く売れるのか判断がつかない、私のような者でも店にいるだけでお光りが増すから、とも思えるのだが、その家には大光明如来様も奉祀してあり、御書体も数体懸けてあるのである。<br/><br/> 西田氏は云う、農家の方は自然耕作で御利益がいくらあったか、すぐ計算出来るが、商人は自分の努力と、御利益のケジメが解らない、と思っていたが、矢張りお光りが増せば、それだけの御利益が戴ける、と納得出来ました、何なら毎日家にいて下さい。<br/><br/> 「それでは日当を沢山貰らって、そうしますか。<br/><br/>」私も嬉しくなって冗談を云い笑ったが、何か厳粛な事実にぶつかった様な気がした、私は、いけない事だが平生人から、気むずかしい人間と思われ、人に親しまれ難い性格であるが、この他人に好かれない私が店に居るのは邪魔にこそなれ、いい結果が生まれる訳はないのに、反えって繁昌する奇現象は、どうした事であろうか、私には感じられず店主が気付いて、そう云った事は、まんざら御世辞でもないらしく、偶然が重なり会った、としても受取り憎い事である。<br/><br/> 「お光りが増したから」そう感じた西田氏の言葉こそ真実を伝えたものであるかも知れない。<br/><br/> 明主様の御直筆が、書かれた意味の御働らきをなさる不可思議を、ただただ有難い、と感謝したのであった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

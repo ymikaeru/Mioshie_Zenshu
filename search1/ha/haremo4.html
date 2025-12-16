@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>haremo4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,61 +239,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腫物とその切開に就て 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 腫物には、瘍疔（ようちょう）や其他結核性等種々あるが、大体は同一と見做して可いのである。<br><br>それは腫物のすべては浄化作用によつて、体内の不純物が毒血や膿汁となつて一旦皮下に集溜し、腫脹し、皮膚を破つて排泄せらるるのであるから、全く生理的自然作用といふべきものである以上、放任しておけば、順調に治癒するのである。<br><br>然し乍ら、右の過程は多くは激痛を伴ふものであるから、患者は何等かの方法を施さねば居られないのである。<br><br>本療法によれば二三回の施術によつて、如何なる痛苦と雖も解消するので、患者は驚きと喜びを禁じ得ないのである。<br><br>故に、相当大きな腫物であつて盛んに膿汁を排泄するに拘はらず、些かの痛苦もないので、不思議に思ふのである。<br><br> そうして茲に注意すべきは、腫物に対し切開手術を行ふ場合、折角集溜しつつあつた膿汁は集溜運動を休めるのである。<br><br>切開でなくも針で皮膚を破つただけでも集溜は停止さるるのである。<br><br>其結果は全部の膿血が排泄されずに一旦治癒するのであるが、勿論残存膿血がある以上、其附近に再腫物が出来るのである。<br><br>之は幾多の経験によつて鉄則といつてもいいのである。<br><br>故に腫物の場合、飽迄自然的に、聊かのメスや鍼も用ひぬやう注意すべきであつて、勿論冷す事も温める事も、膏薬を使用する事も不可である。<br><br> 世間よく、腫物を散らすといふが、之は、誤りであつて散るのではなく押込めるのである。<br><br>折角外部へ排泄されんとした膿血を還元させる訳であるから、病気治癒ではなく、その反対である事を知るべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre os Tumores e o Equívoco da Incisão</h2>
 <p>Embora existam diversas manifestações de tumores, como os furúnculos, os carbúnculos ou aqueles de natureza tuberculosa, em sua essência, todos podem ser considerados idênticos. Isto ocorre porque todos os tumores são manifestações do processo de purificação, por meio do qual as impurezas corporais se convertem em sangue com toxinas e pus. Essas substâncias acumulam-se temporariamente sob a pele, provocando inchaço, e são por fim expelidas mediante o rompimento do tecido cutâneo. Sendo esta uma ação fisiológica inteiramente natural, se permitirmos que siga seu curso, a cura ocorrerá de forma harmoniosa.</p>
 <p>Contudo, como o referido processo é frequentemente acompanhado de dor intensa, o paciente sente-se compelido a buscar algum tipo de intervenção. Com o nosso método terapêutico, entretanto, bastam duas ou três aplicações para que qualquer sofrimento, por mais agudo que seja, se dissipe, o que causa no paciente um misto de assombro e alegria. Consequentemente, mesmo diante de um tumor de grandes proporções que expele pus abundantemente, o paciente não experimenta a menor dor, fato que lhe parece extraordinário.</p>
 <p>Nesse sentido, é crucial atentar para o seguinte: ao se realizar uma incisão cirúrgica em um tumor, o pus, que se encontrava em pleno e diligente processo de acúmulo, cessa seu movimento de concentração. O mesmo ocorre com a simples perfuração da pele por uma agulha; a paralisação do acúmulo é imediata. Como resultado, o processo de cura se dá de forma apenas aparente e temporária, pois nem todo o sangue purulento é expelido. Naturalmente, havendo resquícios de toxinas, um novo tumor se formará nas proximidades. Isto pode ser considerado uma regra imutável, confirmada por inúmeras experiências. Portanto, no tratamento de tumores, é imperativo que se proceda de maneira estritamente natural, evitando o uso de qualquer instrumento cortante, como o bisturi ou a agulha. Evidentemente, práticas como resfriar ou aquecer a área, bem como a aplicação de pomadas, são igualmente contraindicadas.</p>
 <p>É comum ouvir a expressão “dissipar um tumor”, o que constitui um grave equívoco. Na verdade, o tumor não se dissipa; suas toxinas são forçadas a retroceder para o interior do organismo. Isso significa que o sangue purulento, que se esforçava para ser expelido, é reabsorvido pelo corpo. É fundamental compreender que tal procedimento não representa a cura da enfermidade, mas, ao contrário, sua supressão e agravamento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腫物とその切開に就て 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 腫物には、瘍疔（ようちょう）や其他結核性等種々あるが、大体は同一と見做して可いのである。<br/><br/>それは腫物のすべては浄化作用によつて、体内の不純物が毒血や膿汁となつて一旦皮下に集溜し、腫脹し、皮膚を破つて排泄せらるるのであるから、全く生理的自然作用といふべきものである以上、放任しておけば、順調に治癒するのである。<br/><br/>然し乍ら、右の過程は多くは激痛を伴ふものであるから、患者は何等かの方法を施さねば居られないのである。<br/><br/>本療法によれば二三回の施術によつて、如何なる痛苦と雖も解消するので、患者は驚きと喜びを禁じ得ないのである。<br/><br/>故に、相当大きな腫物であつて盛んに膿汁を排泄するに拘はらず、些かの痛苦もないので、不思議に思ふのである。<br/><br/> そうして茲に注意すべきは、腫物に対し切開手術を行ふ場合、折角集溜しつつあつた膿汁は集溜運動を休めるのである。<br/><br/>切開でなくも針で皮膚を破つただけでも集溜は停止さるるのである。<br/><br/>其結果は全部の膿血が排泄されずに一旦治癒するのであるが、勿論残存膿血がある以上、其附近に再腫物が出来るのである。<br/><br/>之は幾多の経験によつて鉄則といつてもいいのである。<br/><br/>故に腫物の場合、飽迄自然的に、聊かのメスや鍼も用ひぬやう注意すべきであつて、勿論冷す事も温める事も、膏薬を使用する事も不可である。<br/><br/> 世間よく、腫物を散らすといふが、之は、誤りであつて散るのではなく押込めるのである。<br/><br/>折角外部へ排泄されんとした膿血を還元させる訳であるから、病気治癒ではなく、その反対である事を知るべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

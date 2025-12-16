@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gairo085</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教概観篇 ４ 085-111 仏教３ 085 女は罪深いという事、（男の世界） 既成宗教では女性は特に罪が深いと言われておりますが、何かわけがございますでせうか。<br><br> そんな事はない。<br><br>どっちにしても悪い事をした人は罪が深い。<br><br>そういう点から言うと思う。<br><br>男が権力が上であるから、男の方が罪が多い。<br><br> 英国のある女流小説家で「男の世界」を書いた。<br><br>男が作った世界というのである。<br><br>あらゆるものは男の都合のいいように作った。<br><br>日本は特にそうである。<br><br>女が一番男の罪の原因になっている。<br><br>故に犯罪の裏に女ありという。<br><br>男は女に罪を着せる。<br><br>むしろ今迄の日本は男の方が罪は深いと思う。<br><br>あるいは女は汚れてるという。<br><br>そういう自分は汚れた女から生れて来ている。<br><br>（汚れるというのは月経があるからであろうが、これは神が決めた生理作用である）（S24.11.14） 086 況んや悪人をや 親鸞の言葉に「善人は救われる況んや悪人をや」という事がありますが、それでは悪人の方が救われる事になりはしないでしょうか。<br><br> 悪人は救われる事を諦める事がある。<br><br>（罪を犯したので畳の上では死ねないと諦めてる）そういう者のために言った言葉で、強く言った言葉である。<br><br>字通り解すると大間違いになる。<br><br> 善人は当然救われるが、悪人をまず救う要がある。<br><br> 悪人は諦めているもので、それを救うために言ったのである。<br><br>（S24.10.23） 087 化土の往生 仏教にて念仏を一心に念じても、救われて化土の往生しか出来ないと云う説教師がありましたが、いかなる訳でしょうか。<br><br>お伺い申し上げます。<br><br> 大した事ないという意味である。<br><br>これは本当で、いくら南無阿弥陀仏を唱えても救われぬ時期になっている。<br><br>（S24. 9. 7） 088 人と猫の段階、五劫の意義 これはいい加減なものである。<br><br>（昔真宗の坊さんが言い出したものであろう）六十段なら意味があるが、五十二段なら意味ない。<br><br>人間と猫（動物）は少くとも六十段は違う。<br><br>（一段は変だ、形からいっても一段の違いでない） 未来永劫といって、長い期間を言う。<br><br>人類社会――。<br><br> 五劫というのは、木火土金水を言ったのであろう。<br><br>五劫と永劫と違う。<br><br>劫――（罪を言ったのであらう）濃い罪、五つの罪――。<br><br> これもはっきりしない。<br><br>梵語を漢訳したものを日本語にしたのだから。<br><br>（当にはならぬ） （S23. 8. 7） 089 仏教と牛 「牛に曳かれて善光寺詣り」等の言葉がありますが、仏教と牛とは何か特別の意味が御座いますか。<br><br> 特別な意味はない。<br><br>大した意はない。<br><br> 090 優曇華の予言と吉凶 一、優曇華の花。<br><br> どんな場合に咲きますか、また色によって、良悪を云いますが、なぜですか。<br><br> 二、七夕の意味。<br><br> 一、これは両方ある。<br><br>日本では花でなく虫という。<br><br>本当の優曇華は印度にある。<br><br>大した事ない。<br><br>しかし全然意味のない事はない。<br><br>まれに咲く。<br><br>印度の言伝えによれば、転輪菩薩が表われ、一切衆生を救うという伝説があって、非常に良い事か、悪い事があるという。<br><br>別に気にする要はない。<br><br>いくらか何かあるようだが、信仰している以上何でもない。<br><br> 二、作り事である。<br><br>（S23. 9.16） 091 優曇華咲く 優曇華の花が「地上天国」の御額の上に咲いたのですが、霊界とどういう関係があるのですか。<br><br> 日本で言う優曇華の花は虫である。<br><br>虫の卵という説もあるが、微生物である。<br><br> 印度のは本当の花で、これが咲くと転輪菩薩が現われて、大きな功徳を恵むという伝説がある。<br><br>（日本でもそういう事を言うが、間違っているとはいえぬ） 大して気にかける要はないが、全然なくもない。<br><br>何か変った事はある。<br><br>悪い事としてあるが、浄化であるから善い事としてよい。<br><br>（S23.10.13） 092 優曇華（日本のもの） 「優曇華の花」が咲くと良い事があるとか、悪い事があるとか申しますが、いかなる理由でしょうか。<br><br> 優曇華の花が咲くと、転輪菩薩が表われ慈悲を垂れるという。<br><br>日本の優曇華は虫の卵で、あれが咲くと何か変った事があるという。<br><br>悪い事にしろ善い事にしろ変り事がある。<br><br> しかし、その人に罪があれば悪い事になり、罪がなければ吉い事になる。<br><br>しかし結局はどちらも良い事である。<br><br> 093 優曇華と災難 三千年に一度花を開くと伝えられます優曇華について御教示を御願い申し上げます。<br><br> （印度の伝説である）日本では大きい災難のある場合など咲く。<br><br>悪い方が多い。<br><br> （S23.11.18） 094 優曇華と信仰 優曇華について、昨年親戚に優曇華が咲き、次のような結果となっております。<br><br>私の許にもただ今咲いておりますが、いかなるものか御教え下さい。<br><br> Ａの家、主柱の上敷居に茶色で横に咲き、嫁を失っております。<br><br> Ｂ、兄の家ですが、山のみかんに咲き色は緑、五月発見して十月兄の妻が脳溢血で急逝しております。<br><br> Ｃ、私の家、昨年九月寝間の天井に白で三ケ所咲き、二つの結果を見ておりますから光明如来様に御願いして祈念しております。<br><br>いまだに消えません。<br><br>何だか気懸りで御座居ますから、御教え下さい。<br><br> 優曇華は日本では虫としてある。<br><br>本当の優曇華は印度に咲くもので、大変に芽出度いとしてある。<br><br>日本では不幸の事が多いようである。<br><br>あまりいい事はないようである。<br><br>信仰に入っていれば少しも心配はない。<br><br>もし何かあれば浄化であるから、心配ない。<br><br>（S24. 1.19） 095 優曇華とゴノコッケン 優曇華が家に出来ましたが、昔から、これが出来ると非常によい事か、もしくは悪い事があると親から聞いていたのですが、迷信とは存じますがいかがで御座いますか。<br><br> 優曇華が出ると必ず何かある。<br><br>虫の卵だというが、半動物で、苔のようなものである。<br><br>動物というのもある。<br><br> ゴノコッケンは動物であるが、苔のようになる。<br><br>（S24. 7.18） 096 仏舎利の真偽 法隆寺の仏舎利は本当におしゃかさんの骨で御座居ましょうか。<br><br>お伺い致します。<br><br> 釈迦の骨ではない、贋物である。<br><br>本当の釈迦の骨などなら印度で放す筈はない。<br><br>釈迦の弟子あたりのものであろう。<br><br>（S24.10. 8） 097 舎利の扱い 火葬にして舎利が出来ますがどうしてでしょうか。<br><br> 舎利とは人によってある。<br><br>偉い人はあるとしてある。<br><br>釈迦などは相当数あったという。<br><br>今でも日本などにもあって、非常に尊んでいる。<br><br>骨の小さい豆粒のようなもので、普通の人でもある。<br><br>大して意味はない。<br><br>大切にしてとっておいた方がよい。<br><br>単にとっておくだけである。<br><br> 098 舎利 近頃、法隆寺の宝物について大分問題になっておりますが、五六七の御代になりますと仏舎利などの価値はどうなりますでございましょうか。<br><br> 今でもかけない仏がある。<br><br> 仏のある間は力がある。<br><br>今日ではない。<br><br> 舎利は偉い人に沢山出るという。<br><br>（S24.10.19） 099 祀舎利の処理 「おしゃり」とて砂粒のようなものを寺より譲り受けてお祀りしてあるそうで御座います。<br><br>どう致したら宜しゅう御座いましょうか。<br><br> そのままにしておく。<br><br> 100 托鉢の可否 僧侶の托鉢はしていいものでしょうか、悪いものでしょうか？ 昔はよかったが、今は適合せぬと思う。<br><br>もう一層文化的のものがある。<br><br>自分が食うだけで他人に及ばぬ。<br><br>往来へ、あんな恰好でブラブラしているのは通行の邪魔にもなる。<br><br> 101 断食の功罪 断食の功罪―― これは一種のバラモンの行であるが、人間は三度ないし四度食うように出来ているので、毎日食うべきものである。<br><br>断食してるとその間社会的仕事は何にも出来ぬから、それだけ怠けの罪を犯す事になる。<br><br>故に断食は間違っている。<br><br>一時は良くてもその先が悪い。<br><br> 102 印を切る事 昔から「印を切る」とか申しまして、手の型により法力が違うとか、また神想観等におきましての合掌の仕方に色々型や理義が存在するように聞いておりますが、何か深い理が存するのでございましょうか。<br><br>手の型と法力、また私共が御神体に対しての合掌あるいは浄霊時の合掌法の正しい在り方及び霊的関係、理義等御教え賜りたく御伺い申し上げます。<br><br> 印とか法力とか合掌など大した問題でない。<br><br>行者はよく印をやるが、一種のバラモンである。<br><br>仏教でも釈迦のやり方ではない。<br><br>しかし日蓮宗などは殆どバラモンを採っている。<br><br> 合掌でいい、真言でも印を切る事をよくやる。<br><br>（S24. 7.22） 103 蝦蟇・蟇目の法 蝦蟇の妖術、蝦蟇仙人、あるいは蟇目の祈祷等の事が古来謂われていますが、蝦蟇はどんな霊性能を持っているので御座いますか。<br><br> 人間が蝦蟇になったのは沢山ある。<br><br>神通力があるのがある。<br><br> 三すくみといい、五六七になる。<br><br>蟇目の法といい、天と地を結んでいただくという方法である。<br><br>（していただきたい）蟇目の法をしていただく――。<br><br>（S24. 7. 3） 104 授戒と血脈 浄土宗や禅宗で五重とか授戒とか申しまして五日間の説教や剃髪の式を致し、その後血脈と称する証書のようなものを頂き、それを大切に保存しておきその人の死体と共に葬る事が盛んに行なわれておりますが、何か霊的に意味が御座居ましょうか。<br><br>御教え願い致します。<br><br> キリスト教でいう洗霊、本教でいう教修である。<br><br>五日間やるから五重というのであろう。<br><br>戒めを授けるとは、お守を授ける事であろう。<br><br>剃髪、血脈とは、繋った――という訳であろう。<br><br>（S24. 5.12） 105 引導 禅宗で引導を渡すと申しますが、いかなる意味でございましょうか。<br><br> 霊に言い聞かす。<br><br>改心さす目的で言う。<br><br>（S24. 5.22） 106 除夜の鐘、（百八の意義） 除夜の鐘はいかなる意味が御座いましょうか。<br><br>また、百八ツ撞くのはどう言う訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 仏教では、人間の煩悩は百八つあるという。<br><br>その百八煩悩を鐘を突いて抹消する意味だと思う。<br><br>珠数も百八つある。<br><br>珠数によって煩悩を軽くする事になっている。<br><br> 神様の方でも百八の数を用いる。<br><br>百は十が十、即ち井で、十は霊体結ぶで、それが重なり、霊体となる。<br><br>八は開くで、二重――を開く事になる。<br><br>（S28.12.21） 107 大文字焼 京都の大文字山や箱根の明星ケ岳を始め、日本各地の山々に大の文字を山肌に表わしたものがありますが、これはいかなる訳で御座いましょうか。<br><br>特に大の字を火で焼く日が定められておりますが、これは何かわけがあるのでしょうか。<br><br> 意味がない事もないが、大の意味は今説明は出来ない。<br><br> 強い意味ではない。<br><br>（S24. 8.17） 108 護摩と須弥壇 山伏のような仏教、山岳仏教の一つの行の形式である。<br><br>（山岳仏教は山岳を主とした仏教である）その時行者の掛けた（書いた）のが護摩札という。<br><br>お守のような働きをする。<br><br> 須弥壇は、須弥仙山――最高の仏の住む所という。<br><br>それを台にして須弥仙台という。<br><br>（S23） 109 護摩焚く事 護摩を焚くと言う事は何を意味しているので御座いますか。<br><br> 山岳仏教の行の一形式、護摩焚いて修行し、その時書いたものを護摩札という。<br><br> （S24.12.23） 110 行者の火渡り等 大した事ない。<br><br>御岳の行者がインチキをよくする。<br><br>私の子供の時火渡りをするのを見たが、インチキな仕掛をしている。<br><br>よく針で突いて痛くないとか、火をつかんで熱くないというのがあるが、あれは本当で、行をすれば出来る。<br><br>（S24. 1.27） 111 火渡り・熱湯の行事 御岳教の火祭り等において、火渡りや熱湯を浴びたりいたしますが、熱くないのはいかなる訳で御座いましょうか。<br><br>お伺い申し上げます。<br><br> 火渡り等熱くないのは修錬すればそうなる。<br><br>塩を撒いて焚くと、真中の火が消えるのである。<br><br>熱湯の場合は修錬すれば出来る。<br><br>大いにインチキ性がある。<br><br> バラモン教でやるのと、日本神道でやるのとは違う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A suposta natureza pecaminosa da mulher e o “mundo dos homens”</h2>
 <p><strong>Pergunta:</strong> Nas religiões estabelecidas, afirma-se que a mulher possui uma natureza particularmente pecaminosa. Haveria alguma razão para tal ensinamento?</p>
@@ -186,5 +338,48 @@ function toggleLang(lang) {
 <h2>Os rituais de caminhar sobre o fogo e de se banhar em água fervente</h2>
 <p><strong>Pergunta:</strong> Nos festivais de fogo da seita Ontake-kyo, os praticantes caminham sobre brasas ou se banham em água fervente. Por que eles não sentem o calor?</p>
 <p><strong>Meishu-Sama:</strong> A capacidade de não se queimar ao caminhar sobre o fogo ou em práticas similares é adquirida através de treinamento. Ao espalhar sal sobre as brasas, o fogo no centro se apaga. No caso da água fervente, é algo que se torna possível com a prática. Contudo, há um grande componente de fraude nesses rituais. O que é realizado no bramanismo é diferente do que se faz no xintoísmo japonês.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教概観篇 ４ 085-111 仏教３ 085 女は罪深いという事、（男の世界） 既成宗教では女性は特に罪が深いと言われておりますが、何かわけがございますでせうか。<br/><br/> そんな事はない。<br/><br/>どっちにしても悪い事をした人は罪が深い。<br/><br/>そういう点から言うと思う。<br/><br/>男が権力が上であるから、男の方が罪が多い。<br/><br/> 英国のある女流小説家で「男の世界」を書いた。<br/><br/>男が作った世界というのである。<br/><br/>あらゆるものは男の都合のいいように作った。<br/><br/>日本は特にそうである。<br/><br/>女が一番男の罪の原因になっている。<br/><br/>故に犯罪の裏に女ありという。<br/><br/>男は女に罪を着せる。<br/><br/>むしろ今迄の日本は男の方が罪は深いと思う。<br/><br/>あるいは女は汚れてるという。<br/><br/>そういう自分は汚れた女から生れて来ている。<br/><br/>（汚れるというのは月経があるからであろうが、これは神が決めた生理作用である）（S24.11.14） 086 況んや悪人をや 親鸞の言葉に「善人は救われる況んや悪人をや」という事がありますが、それでは悪人の方が救われる事になりはしないでしょうか。<br/><br/> 悪人は救われる事を諦める事がある。<br/><br/>（罪を犯したので畳の上では死ねないと諦めてる）そういう者のために言った言葉で、強く言った言葉である。<br/><br/>字通り解すると大間違いになる。<br/><br/> 善人は当然救われるが、悪人をまず救う要がある。<br/><br/> 悪人は諦めているもので、それを救うために言ったのである。<br/><br/>（S24.10.23） 087 化土の往生 仏教にて念仏を一心に念じても、救われて化土の往生しか出来ないと云う説教師がありましたが、いかなる訳でしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 大した事ないという意味である。<br/><br/>これは本当で、いくら南無阿弥陀仏を唱えても救われぬ時期になっている。<br/><br/>（S24. 9. 7） 088 人と猫の段階、五劫の意義 これはいい加減なものである。<br/><br/>（昔真宗の坊さんが言い出したものであろう）六十段なら意味があるが、五十二段なら意味ない。<br/><br/>人間と猫（動物）は少くとも六十段は違う。<br/><br/>（一段は変だ、形からいっても一段の違いでない） 未来永劫といって、長い期間を言う。<br/><br/>人類社会――。<br/><br/> 五劫というのは、木火土金水を言ったのであろう。<br/><br/>五劫と永劫と違う。<br/><br/>劫――（罪を言ったのであらう）濃い罪、五つの罪――。<br/><br/> これもはっきりしない。<br/><br/>梵語を漢訳したものを日本語にしたのだから。<br/><br/>（当にはならぬ） （S23. 8. 7） 089 仏教と牛 「牛に曳かれて善光寺詣り」等の言葉がありますが、仏教と牛とは何か特別の意味が御座いますか。<br/><br/> 特別な意味はない。<br/><br/>大した意はない。<br/><br/> 090 優曇華の予言と吉凶 一、優曇華の花。<br/><br/> どんな場合に咲きますか、また色によって、良悪を云いますが、なぜですか。<br/><br/> 二、七夕の意味。<br/><br/> 一、これは両方ある。<br/><br/>日本では花でなく虫という。<br/><br/>本当の優曇華は印度にある。<br/><br/>大した事ない。<br/><br/>しかし全然意味のない事はない。<br/><br/>まれに咲く。<br/><br/>印度の言伝えによれば、転輪菩薩が表われ、一切衆生を救うという伝説があって、非常に良い事か、悪い事があるという。<br/><br/>別に気にする要はない。<br/><br/>いくらか何かあるようだが、信仰している以上何でもない。<br/><br/> 二、作り事である。<br/><br/>（S23. 9.16） 091 優曇華咲く 優曇華の花が「地上天国」の御額の上に咲いたのですが、霊界とどういう関係があるのですか。<br/><br/> 日本で言う優曇華の花は虫である。<br/><br/>虫の卵という説もあるが、微生物である。<br/><br/> 印度のは本当の花で、これが咲くと転輪菩薩が現われて、大きな功徳を恵むという伝説がある。<br/><br/>（日本でもそういう事を言うが、間違っているとはいえぬ） 大して気にかける要はないが、全然なくもない。<br/><br/>何か変った事はある。<br/><br/>悪い事としてあるが、浄化であるから善い事としてよい。<br/><br/>（S23.10.13） 092 優曇華（日本のもの） 「優曇華の花」が咲くと良い事があるとか、悪い事があるとか申しますが、いかなる理由でしょうか。<br/><br/> 優曇華の花が咲くと、転輪菩薩が表われ慈悲を垂れるという。<br/><br/>日本の優曇華は虫の卵で、あれが咲くと何か変った事があるという。<br/><br/>悪い事にしろ善い事にしろ変り事がある。<br/><br/> しかし、その人に罪があれば悪い事になり、罪がなければ吉い事になる。<br/><br/>しかし結局はどちらも良い事である。<br/><br/> 093 優曇華と災難 三千年に一度花を開くと伝えられます優曇華について御教示を御願い申し上げます。<br/><br/> （印度の伝説である）日本では大きい災難のある場合など咲く。<br/><br/>悪い方が多い。<br/><br/> （S23.11.18） 094 優曇華と信仰 優曇華について、昨年親戚に優曇華が咲き、次のような結果となっております。<br/><br/>私の許にもただ今咲いておりますが、いかなるものか御教え下さい。<br/><br/> Ａの家、主柱の上敷居に茶色で横に咲き、嫁を失っております。<br/><br/> Ｂ、兄の家ですが、山のみかんに咲き色は緑、五月発見して十月兄の妻が脳溢血で急逝しております。<br/><br/> Ｃ、私の家、昨年九月寝間の天井に白で三ケ所咲き、二つの結果を見ておりますから光明如来様に御願いして祈念しております。<br/><br/>いまだに消えません。<br/><br/>何だか気懸りで御座居ますから、御教え下さい。<br/><br/> 優曇華は日本では虫としてある。<br/><br/>本当の優曇華は印度に咲くもので、大変に芽出度いとしてある。<br/><br/>日本では不幸の事が多いようである。<br/><br/>あまりいい事はないようである。<br/><br/>信仰に入っていれば少しも心配はない。<br/><br/>もし何かあれば浄化であるから、心配ない。<br/><br/>（S24. 1.19） 095 優曇華とゴノコッケン 優曇華が家に出来ましたが、昔から、これが出来ると非常によい事か、もしくは悪い事があると親から聞いていたのですが、迷信とは存じますがいかがで御座いますか。<br/><br/> 優曇華が出ると必ず何かある。<br/><br/>虫の卵だというが、半動物で、苔のようなものである。<br/><br/>動物というのもある。<br/><br/> ゴノコッケンは動物であるが、苔のようになる。<br/><br/>（S24. 7.18） 096 仏舎利の真偽 法隆寺の仏舎利は本当におしゃかさんの骨で御座居ましょうか。<br/><br/>お伺い致します。<br/><br/> 釈迦の骨ではない、贋物である。<br/><br/>本当の釈迦の骨などなら印度で放す筈はない。<br/><br/>釈迦の弟子あたりのものであろう。<br/><br/>（S24.10. 8） 097 舎利の扱い 火葬にして舎利が出来ますがどうしてでしょうか。<br/><br/> 舎利とは人によってある。<br/><br/>偉い人はあるとしてある。<br/><br/>釈迦などは相当数あったという。<br/><br/>今でも日本などにもあって、非常に尊んでいる。<br/><br/>骨の小さい豆粒のようなもので、普通の人でもある。<br/><br/>大して意味はない。<br/><br/>大切にしてとっておいた方がよい。<br/><br/>単にとっておくだけである。<br/><br/> 098 舎利 近頃、法隆寺の宝物について大分問題になっておりますが、五六七の御代になりますと仏舎利などの価値はどうなりますでございましょうか。<br/><br/> 今でもかけない仏がある。<br/><br/> 仏のある間は力がある。<br/><br/>今日ではない。<br/><br/> 舎利は偉い人に沢山出るという。<br/><br/>（S24.10.19） 099 祀舎利の処理 「おしゃり」とて砂粒のようなものを寺より譲り受けてお祀りしてあるそうで御座います。<br/><br/>どう致したら宜しゅう御座いましょうか。<br/><br/> そのままにしておく。<br/><br/> 100 托鉢の可否 僧侶の托鉢はしていいものでしょうか、悪いものでしょうか？ 昔はよかったが、今は適合せぬと思う。<br/><br/>もう一層文化的のものがある。<br/><br/>自分が食うだけで他人に及ばぬ。<br/><br/>往来へ、あんな恰好でブラブラしているのは通行の邪魔にもなる。<br/><br/> 101 断食の功罪 断食の功罪―― これは一種のバラモンの行であるが、人間は三度ないし四度食うように出来ているので、毎日食うべきものである。<br/><br/>断食してるとその間社会的仕事は何にも出来ぬから、それだけ怠けの罪を犯す事になる。<br/><br/>故に断食は間違っている。<br/><br/>一時は良くてもその先が悪い。<br/><br/> 102 印を切る事 昔から「印を切る」とか申しまして、手の型により法力が違うとか、また神想観等におきましての合掌の仕方に色々型や理義が存在するように聞いておりますが、何か深い理が存するのでございましょうか。<br/><br/>手の型と法力、また私共が御神体に対しての合掌あるいは浄霊時の合掌法の正しい在り方及び霊的関係、理義等御教え賜りたく御伺い申し上げます。<br/><br/> 印とか法力とか合掌など大した問題でない。<br/><br/>行者はよく印をやるが、一種のバラモンである。<br/><br/>仏教でも釈迦のやり方ではない。<br/><br/>しかし日蓮宗などは殆どバラモンを採っている。<br/><br/> 合掌でいい、真言でも印を切る事をよくやる。<br/><br/>（S24. 7.22） 103 蝦蟇・蟇目の法 蝦蟇の妖術、蝦蟇仙人、あるいは蟇目の祈祷等の事が古来謂われていますが、蝦蟇はどんな霊性能を持っているので御座いますか。<br/><br/> 人間が蝦蟇になったのは沢山ある。<br/><br/>神通力があるのがある。<br/><br/> 三すくみといい、五六七になる。<br/><br/>蟇目の法といい、天と地を結んでいただくという方法である。<br/><br/>（していただきたい）蟇目の法をしていただく――。<br/><br/>（S24. 7. 3） 104 授戒と血脈 浄土宗や禅宗で五重とか授戒とか申しまして五日間の説教や剃髪の式を致し、その後血脈と称する証書のようなものを頂き、それを大切に保存しておきその人の死体と共に葬る事が盛んに行なわれておりますが、何か霊的に意味が御座居ましょうか。<br/><br/>御教え願い致します。<br/><br/> キリスト教でいう洗霊、本教でいう教修である。<br/><br/>五日間やるから五重というのであろう。<br/><br/>戒めを授けるとは、お守を授ける事であろう。<br/><br/>剃髪、血脈とは、繋った――という訳であろう。<br/><br/>（S24. 5.12） 105 引導 禅宗で引導を渡すと申しますが、いかなる意味でございましょうか。<br/><br/> 霊に言い聞かす。<br/><br/>改心さす目的で言う。<br/><br/>（S24. 5.22） 106 除夜の鐘、（百八の意義） 除夜の鐘はいかなる意味が御座いましょうか。<br/><br/>また、百八ツ撞くのはどう言う訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 仏教では、人間の煩悩は百八つあるという。<br/><br/>その百八煩悩を鐘を突いて抹消する意味だと思う。<br/><br/>珠数も百八つある。<br/><br/>珠数によって煩悩を軽くする事になっている。<br/><br/> 神様の方でも百八の数を用いる。<br/><br/>百は十が十、即ち井で、十は霊体結ぶで、それが重なり、霊体となる。<br/><br/>八は開くで、二重――を開く事になる。<br/><br/>（S28.12.21） 107 大文字焼 京都の大文字山や箱根の明星ケ岳を始め、日本各地の山々に大の文字を山肌に表わしたものがありますが、これはいかなる訳で御座いましょうか。<br/><br/>特に大の字を火で焼く日が定められておりますが、これは何かわけがあるのでしょうか。<br/><br/> 意味がない事もないが、大の意味は今説明は出来ない。<br/><br/> 強い意味ではない。<br/><br/>（S24. 8.17） 108 護摩と須弥壇 山伏のような仏教、山岳仏教の一つの行の形式である。<br/><br/>（山岳仏教は山岳を主とした仏教である）その時行者の掛けた（書いた）のが護摩札という。<br/><br/>お守のような働きをする。<br/><br/> 須弥壇は、須弥仙山――最高の仏の住む所という。<br/><br/>それを台にして須弥仙台という。<br/><br/>（S23） 109 護摩焚く事 護摩を焚くと言う事は何を意味しているので御座いますか。<br/><br/> 山岳仏教の行の一形式、護摩焚いて修行し、その時書いたものを護摩札という。<br/><br/> （S24.12.23） 110 行者の火渡り等 大した事ない。<br/><br/>御岳の行者がインチキをよくする。<br/><br/>私の子供の時火渡りをするのを見たが、インチキな仕掛をしている。<br/><br/>よく針で突いて痛くないとか、火をつかんで熱くないというのがあるが、あれは本当で、行をすれば出来る。<br/><br/>（S24. 1.27） 111 火渡り・熱湯の行事 御岳教の火祭り等において、火渡りや熱湯を浴びたりいたしますが、熱くないのはいかなる訳で御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 火渡り等熱くないのは修錬すればそうなる。<br/><br/>塩を撒いて焚くと、真中の火が消えるのである。<br/><br/>熱湯の場合は修錬すれば出来る。<br/><br/>大いにインチキ性がある。<br/><br/> バラモン教でやるのと、日本神道でやるのとは違う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

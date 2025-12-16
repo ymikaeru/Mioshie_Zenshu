@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qjosanpu</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 助産婦としての体験報告 『栄光』101号、昭和26(1951)年4月25日発行 大分県 南光中教会 仲町規子（55） 助産婦として取扱った流産の例を二、三報告さして頂きます。<br><br> 一例 三十五歳推定妊娠三カ月にて悪寒発熱悪臭の悪露あるいわゆる、腐敗性流産の妊婦を頭部及び上半身を五、六分仙腸関節より、子宮に向って約二十分恥骨縫際上より子宮に向って、約二十分御浄霊致しましたところ無熱となり、残片様の物、蚕豆（そらまめ）大の物二、三回、小豆大又は米粒大の物数回下りた外、悪露少量ずつ日一日と減じ五日目には全治致しました。<br><br> 二例 四十歳推定妊娠二カ月の流産、陣痛起り、月経倍量位の出血をなし、二、三日来不眠症状ある人、第一例と同様の御浄霊一回にて出血半減不眠治り、二回にて完全に止り、その後異常なし。<br><br> 三例 推定三カ月の妊娠、雨降りの坂道にすべり腎部を突き、それよりガタガタの山道を約二里バスに揺られて帰宅、その夜より出血、翌日往診しましたところ、中程度の出血にて、陣痛頻繁、これも第一例同様の御浄霊にて陣痛は止り、出血普通月経程度になっています。<br><br>「これ位なれば心配はいらないから明日又参ります。<br><br>便所位は自由に行って宜しいから」と言って帰り、翌日より大体前同様の御浄霊にて日に日に出血量は減じ、六日目に完全に治りました。<br><br> 以上の三例に就いて見ましても、今までの医療で行けば大分は掻爬手術をしなければなりません。<br><br>従って大部分は入院し掻爬の為の麻酔剤の注射、その外防腐剤の注射や内服薬等の手当を致しましよう。<br><br>そうして全治するまでに普通一週間位は充分かかりましよう。<br><br>あるいは何かの都合で手術せねばならないとすれば、止血剤や防腐剤の注射や内服薬を使用し、氷冷、安静等にて自然を待つとしても、少くとも鶏卵大、蚕豆大等の凝血や胎盤及び残片様の異物が相当量の出血と共に下りるのが普通で、しかも一週間位では完全に下りて仕舞わぬのが普通であります。<br><br>第一例は既に腐敗していたから別として、他は凝血や胎盤様の物等全然なく、しかも全体として出血量が極めて少く経過も早いので、今までの医学的常識から考えると不思議な感じがしますが、この御道から考えてみますと、有害な物は液体化して排泄せられ、有用の物は組織内に還元するものであろうと推察致します。<br><br>今までの医学的知識から見ますと主な物は未だ残っていて後日出血又は腐敗して母体を害するはずであるのに、その後一カ年を過ぎても何事もなく元気で働いており、又その日より第二の妊娠をして予定通り安産した人もあります。<br><br> 以上第一回報告 （昭和二十六年三月二十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato de Experiência como Parteira (Publicado na revista Glória nº 101, em 25 de abril de 1951)</h2>
 <p><strong>Noriko Nakamachi (55 anos)</strong>
@@ -103,5 +258,48 @@ function toggleLang(lang) {
 <p>Com exceção do primeiro caso, que já se encontrava em estado séptico, nos demais não houve a expulsão de coágulos ou de matéria semelhante à placenta. Além disso, a quantidade total de sangramento foi ínfima e a recuperação, muito rápida. Do ponto de vista do conhecimento médico estabelecido, tais resultados parecem extraordinários. Contudo, sob a ótica deste Caminho Sagrado, podemos inferir que as substâncias nocivas são liquefeitas e expelidas, ao passo que os elementos úteis são reabsorvidos pelos tecidos do organismo. A lógica médica convencional ditaria que os principais resíduos ainda estariam retidos, o que, futuramente, deveria causar hemorragias ou infecções, prejudicando a saúde materna. Todavia, mesmo após um ano, essas pacientes seguem saudáveis e ativas, sem apresentar qualquer complicação. Há, inclusive, o caso de uma delas que engravidou novamente logo em seguida e teve um parto tranquilo na data prevista.</p>
 <p>Primeiro Relatório
 (20 de março de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 助産婦としての体験報告 『栄光』101号、昭和26(1951)年4月25日発行 大分県 南光中教会 仲町規子（55） 助産婦として取扱った流産の例を二、三報告さして頂きます。<br/><br/> 一例 三十五歳推定妊娠三カ月にて悪寒発熱悪臭の悪露あるいわゆる、腐敗性流産の妊婦を頭部及び上半身を五、六分仙腸関節より、子宮に向って約二十分恥骨縫際上より子宮に向って、約二十分御浄霊致しましたところ無熱となり、残片様の物、蚕豆（そらまめ）大の物二、三回、小豆大又は米粒大の物数回下りた外、悪露少量ずつ日一日と減じ五日目には全治致しました。<br/><br/> 二例 四十歳推定妊娠二カ月の流産、陣痛起り、月経倍量位の出血をなし、二、三日来不眠症状ある人、第一例と同様の御浄霊一回にて出血半減不眠治り、二回にて完全に止り、その後異常なし。<br/><br/> 三例 推定三カ月の妊娠、雨降りの坂道にすべり腎部を突き、それよりガタガタの山道を約二里バスに揺られて帰宅、その夜より出血、翌日往診しましたところ、中程度の出血にて、陣痛頻繁、これも第一例同様の御浄霊にて陣痛は止り、出血普通月経程度になっています。<br/><br/>「これ位なれば心配はいらないから明日又参ります。<br/><br/>便所位は自由に行って宜しいから」と言って帰り、翌日より大体前同様の御浄霊にて日に日に出血量は減じ、六日目に完全に治りました。<br/><br/> 以上の三例に就いて見ましても、今までの医療で行けば大分は掻爬手術をしなければなりません。<br/><br/>従って大部分は入院し掻爬の為の麻酔剤の注射、その外防腐剤の注射や内服薬等の手当を致しましよう。<br/><br/>そうして全治するまでに普通一週間位は充分かかりましよう。<br/><br/>あるいは何かの都合で手術せねばならないとすれば、止血剤や防腐剤の注射や内服薬を使用し、氷冷、安静等にて自然を待つとしても、少くとも鶏卵大、蚕豆大等の凝血や胎盤及び残片様の異物が相当量の出血と共に下りるのが普通で、しかも一週間位では完全に下りて仕舞わぬのが普通であります。<br/><br/>第一例は既に腐敗していたから別として、他は凝血や胎盤様の物等全然なく、しかも全体として出血量が極めて少く経過も早いので、今までの医学的常識から考えると不思議な感じがしますが、この御道から考えてみますと、有害な物は液体化して排泄せられ、有用の物は組織内に還元するものであろうと推察致します。<br/><br/>今までの医学的知識から見ますと主な物は未だ残っていて後日出血又は腐敗して母体を害するはずであるのに、その後一カ年を過ぎても何事もなく元気で働いており、又その日より第二の妊娠をして予定通り安産した人もあります。<br/><br/> 以上第一回報告 （昭和二十六年三月二十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qjintuga</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 神通川悲劇の余話 本教否定の先生達切れぬ吊り橋が落ちて遭難 『光』35号、昭和24(1949)年10月25日発行 富山県 大光中教会 藤倉良夫（32） 昭和二十四年九月二十二日正午頃、日頃本教に反対の一群である学校長及び教官等三十二名が吊橋から真逆様に落下し、濁流に呑まれた惨事を御報告申し上げます。<br><br> 大の男が三十三名も一度に通れば五百貫にもなって重いには違いないが、御気の毒と思うと共に何か考えさせられるものが湧くのであります。<br><br> 以下は笹津町の敷島紡績工場に勤務、寮理事の役を持たれ、本教に熱心に御用されている大光中教会の三個珠子さんから、四方町芝草文久氏宅で光明如来様の御祭の際、御話して頂いたものであります。<br><br> 婦負郡の八尾町には神通中教会の支部がありますので、一般は本教をよく知っている訳であります。<br><br>同教官諸公は学校でも常日頃生徒一同を講堂に集めて逆の宣伝して、「この土地に観音教（救世教以前の名称）という信仰が広がっていて、怪しげな事をして、人の病気を治すといっている。<br><br>人間はあんな迷信にとらわれて非科学的な事で病気を治すものではありません。<br><br>どこまでも科学的に、衛生学や、栄養学の知識でもって自分の身体を大切にし、お医者のおっしゃる事をよく守って健全な療養をしなければなりません。<br><br>邪教を迷信しているのは恐ろしい事です。<br><br>社会人心の混迷に乗じて信じさせられるから充分注意して、絶対にそんなものを信仰しないように、皆さんが家に帰ったらお父さんや、お母さんによくお話なさい」という調子で訓示をやり、本教に対し真向から否定した訳であります。<br><br> それがためこの地区では非常に本教を警戒し、信徒も六、七十名程度であるし、又、紡績工場内でも女工二千名の内、信徒は僅か五、六名という状態なのであります。<br><br>十七、八歳の織姫にしろ一般の人達にしろ、かかる先入観による警戒が影響したものと見られます。<br><br> それから遭難のあった前に、この吊橋を農業会のダットサンが脱穀機を満載して通行したり、敷島紡績工場のキャンプ隊三十名が重い荷を背負って、この吊橋を前日夕暮の出発の際と、二十二日朝五時過ぎの帰りと往復しています。<br><br>一時に百名も渡れるように設計が出来ていたのですが、教育者だけが落ちるとは余りにも不思議と思われます。<br><br> 実は本県南部の八尾区域中、右教官一行は当日午前中に婦負郡細入村猪谷小学校で郷土社会学研究会を終り、午後は対岸に渡って断層、背斜、向斜の実地見学をなさんものと記念写真まで撮って、午後零時四十分頃、神通峡の新しい吊橋（巾二米、長さ百四十米）にさしかかった際、吊橋は突然バリバリと大音響を発し、橋諸共に一行は雪崩をうって真逆様に百七十尺下の巌石重畳たる神通川急流に吸い込まれました。<br><br>現場は折からの増水で濁流いよいよ逆巻き、救出甚だ困難を極め、死亡二十名（男十九名、女一名）行方不明九名、重傷二名、軽傷二名という惨憺たる光景に一変したのであります。<br><br>学校長始め遭難者二十名（死亡十五名、行方不明三名、重傷二名）と言われ、その家族は勿論のこと、教え子や一般各方面に惜しまれたり、教育道の本懐と謳われたりしています。<br><br>これに付随して請負者、設計者の業務上過失致死容疑で逮捕、並びに工事完了検査前の渡橋禁止札の責任なすり合い、工事費補助打切の話で、工事者側への床払金に、頭を悩ます村側、労災補償費千数百万円の捻出に腰を抜かす県当局、十八日行った仮検査は事実上の正式検査で、二十六日になすべき県認定検査は補助金請求のための形式的のものであるとか何とか、全く近来流行のテンヤワンヤでありました。<br><br>日頃うんと誹謗した八尾町では、十三名の殉職者を出しているのでありまして、神通中教会々長入江先生宅の両隣が校長で、それが今度二人共濁流に呑まれてしまったそうです。<br><br> 本教を非科学的視して固く妨害し、神霊の厳存をあえて認めず、人をして滅びゆく運命に追い込み、毫も省みる事ない唯物教育者の受くべき審判とさえ言う人もあります。<br><br> この悲惨事に対し、吾々は何かはっきり教えられたような気が致します。<br><br> 私達は一層の敬虔な心をもって、神の御旨に副わねばならないと心を新にいたすのであります。<br><br> （昭和二十四年十月二十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato Adicional sobre a Tragédia do Rio Jintsuu: O desastre com os professores que negavam a Fé e a queda da ponte que não se rompia</h2>
 <p>Revista Hikari, nº 35, publicada em 25 de outubro de 1949
@@ -103,5 +258,48 @@ Fujikura Yoshio (32 anos), da Igreja Daikou-chuu da Província de Toyama</p>
 <p>Diante desta tragédia, sentimos que uma lição clara nos foi transmitida.</p>
 <p>Renovamos em nosso íntimo o propósito de, com um coração ainda mais reverente, nos alinharmos à Vontade Divina.</p>
 <p>(25 de outubro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 神通川悲劇の余話 本教否定の先生達切れぬ吊り橋が落ちて遭難 『光』35号、昭和24(1949)年10月25日発行 富山県 大光中教会 藤倉良夫（32） 昭和二十四年九月二十二日正午頃、日頃本教に反対の一群である学校長及び教官等三十二名が吊橋から真逆様に落下し、濁流に呑まれた惨事を御報告申し上げます。<br/><br/> 大の男が三十三名も一度に通れば五百貫にもなって重いには違いないが、御気の毒と思うと共に何か考えさせられるものが湧くのであります。<br/><br/> 以下は笹津町の敷島紡績工場に勤務、寮理事の役を持たれ、本教に熱心に御用されている大光中教会の三個珠子さんから、四方町芝草文久氏宅で光明如来様の御祭の際、御話して頂いたものであります。<br/><br/> 婦負郡の八尾町には神通中教会の支部がありますので、一般は本教をよく知っている訳であります。<br/><br/>同教官諸公は学校でも常日頃生徒一同を講堂に集めて逆の宣伝して、「この土地に観音教（救世教以前の名称）という信仰が広がっていて、怪しげな事をして、人の病気を治すといっている。<br/><br/>人間はあんな迷信にとらわれて非科学的な事で病気を治すものではありません。<br/><br/>どこまでも科学的に、衛生学や、栄養学の知識でもって自分の身体を大切にし、お医者のおっしゃる事をよく守って健全な療養をしなければなりません。<br/><br/>邪教を迷信しているのは恐ろしい事です。<br/><br/>社会人心の混迷に乗じて信じさせられるから充分注意して、絶対にそんなものを信仰しないように、皆さんが家に帰ったらお父さんや、お母さんによくお話なさい」という調子で訓示をやり、本教に対し真向から否定した訳であります。<br/><br/> それがためこの地区では非常に本教を警戒し、信徒も六、七十名程度であるし、又、紡績工場内でも女工二千名の内、信徒は僅か五、六名という状態なのであります。<br/><br/>十七、八歳の織姫にしろ一般の人達にしろ、かかる先入観による警戒が影響したものと見られます。<br/><br/> それから遭難のあった前に、この吊橋を農業会のダットサンが脱穀機を満載して通行したり、敷島紡績工場のキャンプ隊三十名が重い荷を背負って、この吊橋を前日夕暮の出発の際と、二十二日朝五時過ぎの帰りと往復しています。<br/><br/>一時に百名も渡れるように設計が出来ていたのですが、教育者だけが落ちるとは余りにも不思議と思われます。<br/><br/> 実は本県南部の八尾区域中、右教官一行は当日午前中に婦負郡細入村猪谷小学校で郷土社会学研究会を終り、午後は対岸に渡って断層、背斜、向斜の実地見学をなさんものと記念写真まで撮って、午後零時四十分頃、神通峡の新しい吊橋（巾二米、長さ百四十米）にさしかかった際、吊橋は突然バリバリと大音響を発し、橋諸共に一行は雪崩をうって真逆様に百七十尺下の巌石重畳たる神通川急流に吸い込まれました。<br/><br/>現場は折からの増水で濁流いよいよ逆巻き、救出甚だ困難を極め、死亡二十名（男十九名、女一名）行方不明九名、重傷二名、軽傷二名という惨憺たる光景に一変したのであります。<br/><br/>学校長始め遭難者二十名（死亡十五名、行方不明三名、重傷二名）と言われ、その家族は勿論のこと、教え子や一般各方面に惜しまれたり、教育道の本懐と謳われたりしています。<br/><br/>これに付随して請負者、設計者の業務上過失致死容疑で逮捕、並びに工事完了検査前の渡橋禁止札の責任なすり合い、工事費補助打切の話で、工事者側への床払金に、頭を悩ます村側、労災補償費千数百万円の捻出に腰を抜かす県当局、十八日行った仮検査は事実上の正式検査で、二十六日になすべき県認定検査は補助金請求のための形式的のものであるとか何とか、全く近来流行のテンヤワンヤでありました。<br/><br/>日頃うんと誹謗した八尾町では、十三名の殉職者を出しているのでありまして、神通中教会々長入江先生宅の両隣が校長で、それが今度二人共濁流に呑まれてしまったそうです。<br/><br/> 本教を非科学的視して固く妨害し、神霊の厳存をあえて認めず、人をして滅びゆく運命に追い込み、毫も省みる事ない唯物教育者の受くべき審判とさえ言う人もあります。<br/><br/> この悲惨事に対し、吾々は何かはっきり教えられたような気が致します。<br/><br/> 私達は一層の敬虔な心をもって、神の御旨に副わねばならないと心を新にいたすのであります。<br/><br/> （昭和二十四年十月二十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

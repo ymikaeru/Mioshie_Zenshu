@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkannon4</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音様の救いの御手に 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 五六七教 原田 保 私は昭和二十一年三月に海南島より復員致しまして間もなく、胆石病にて松山赤十字病院に入院致しました。<br><br>が仲々良くならず、二カ月間病院生活を致しました。<br><br>やっとの事で良くなり退院致しましたが、七月再び病名不明の熱病にかかり、二十日間も苦しみぬいて、やれやれ良くなったと思う間もなく、八月四日に現代医学においては不治とされている肺結核に罹病、病床に伏して三日もたたぬ間に、足も腰もたたれぬようになりました。<br><br> それから十日もたたぬ間に床ずれが出来、三十九度から四十度の熱が一カ月もつづき、食は進まず、お粥さえも頂けない有様で、恐ろしい程痩せ細り、毎日医者よ薬よ、水湿布と苦しい安静療法をすること九カ月。<br><br>その暗黒無明、ただ死を待つばかりの苦しみにたえかねて、ある時は母の手当の不足を言い、動かぬ体をもたげ病床を這い出して用便をしたこともあり、又ある時は病苦に堪え兼ねて足も立たぬ体で手のとどき次第、枕元のものをなげちらし、今考えれば自暴自棄申訳のないことばかり平気でやっておりました。<br><br>それからやっと歩くことの出来るようになってから父母に奨められて、北條教導所の胡田先生にお浄めをして戴くことになりました。<br><br>その時医者からはそんなことをしていたならば死んで仕舞うと言われましたが、医学界において不治の病とされているこの肺結核、どうせ死ぬならば父母の良いと言う事をして死ねば父母も心残りはないであろうと、昭和二十二年四月十七日に私の姪に連れられて初めて北條町の胡田先生のところに御厄介になる事になりました。<br><br>その時の姿たるや、頼はこけ肉はおち、顔青ざめて髪はのび道行く人は私をみると鼻をつまんで通る程でございました。<br><br> 先生の御言葉で安静療法等、一切の療養法を断ちぶらぶらと遊んで養生をするようになってからは食は進み、気持は落ちつき、浄化であって身体のよくなる作用だという日々の生活が楽しくなり、五、六日目には先生に散髪しておいでなさいと言われた時には驚きました。<br><br>散髪などして又悪くなりはしないかと心配しましたが、先生がついているのだから大丈夫と思い、町まで散髪に行きましたが何の事もなく、十日目には風呂へ入りましたが気持が良いばかりか、九カ月もの長い間の垢を一時に洗い落して生き帰ったごとくさっぱり致しました。<br><br> その中以前良くなった人々の体験を聞き、現在良くなった人達をみて私もいつになったらあのように元気な身体になるだろうと思っておりました。<br><br>しかし日々快調に向う自分を覚える時、何かしら明るく楽しみを感じておりました。<br><br>丁度その頃やはり私と同じ病気で参りました二十二歳の娘さんがありました。<br><br>胡田先生はその娘さんに、今ならば大丈夫だが放って置くと大変な事になると言われました。<br><br>その娘さん四、五回も来たでしょうか。<br><br>こんな事では良くならないと言ってやめてしまい、その後お医者にかかりました。<br><br>ところが一年たった今日の二人の運命の差はどうでしょう。<br><br>その当時、余りひどくなかった娘さんは今年の五月お気の毒にもなくなりました。<br><br> あの時生死の淵にいた私は村人も驚く程元気になっています。<br><br>この間も麦の供出の時、麦俵一俵担いでみましたが楽々と担ぐ事も出来ましたし、馬鈴薯の供出も二十貫ばかり担いでから、山を下る事が出来ました。<br><br>昨年五月十九日に管長先生から教修を受け、今は観音様のお手伝いをさせて頂いております。<br><br>この有難い観音様の救いの御手に皆さんおすがり致しましょう。<br><br>そして病貧争のない立派な地上天国を作りましょう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Nas Mãos Salvadoras de Kannon</h2>
 <p><em>Publicado na revista "Paraíso Terrestre", nº 1, em 1º de dezembro de 1948, e na "Coletânea Jikan", Volume 1, "A Tuberculose e a Terapia Divina", em 25 de junho de 1949.</em></p>
@@ -99,5 +254,48 @@ function toggleLang(lang) {
 <p>Nesse período, ouvia os testemunhos de pessoas que haviam se recuperado e observava a melhora de outros que ali estavam, indagando-me quando chegaria o dia em que eu também teria um corpo tão vigoroso. Todavia, ao perceber minha própria recuperação progressiva, um sentimento de alegria e otimismo me invadia. Foi nessa mesma época que uma jovem de vinte e dois anos, sofrendo da mesma doença que eu, começou a frequentar o local. O Sr. Koda lhe disse que, se ela perseverasse no tratamento, ficaria bem, mas que, se o abandonasse, as consequências seriam graves. A moça, no entanto, veio apenas quatro ou cinco vezes e desistiu, alegando que aquele método não a curaria, retornando, então, aos cuidados médicos. Vejam, porém, a diferença em nossos destinos um ano depois. Aquela jovem, cujo estado na época era menos grave que o meu, infelizmente faleceu em maio deste ano. E eu, que me encontrava à beira da morte, recuperei a saúde de tal forma que surpreendo os moradores de minha aldeia.</p>
 <p>Recentemente, durante a entrega da safra de trigo, experimentei carregar uma saca e consegui fazê-lo sem qualquer dificuldade. Da mesma forma, na entrega das batatas, carreguei um peso de aproximadamente setenta e cinco quilos montanha abaixo. Em 19 de maio do ano passado, recebi a outorga da permissão para ministrar do Presidente e, hoje, tenho a honra de servir como instrumento de Kannon (観音).</p>
 <p>Entreguemo-nos todos a estas abençoadas mãos salvadoras de Kannon (観音). E, juntos, construiremos um magnífico Paraíso Terrestre, livre da doença, da pobreza e do conflito.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音様の救いの御手に 『地上天国』1号、昭和23(1948)年12月1日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 五六七教 原田 保 私は昭和二十一年三月に海南島より復員致しまして間もなく、胆石病にて松山赤十字病院に入院致しました。<br/><br/>が仲々良くならず、二カ月間病院生活を致しました。<br/><br/>やっとの事で良くなり退院致しましたが、七月再び病名不明の熱病にかかり、二十日間も苦しみぬいて、やれやれ良くなったと思う間もなく、八月四日に現代医学においては不治とされている肺結核に罹病、病床に伏して三日もたたぬ間に、足も腰もたたれぬようになりました。<br/><br/> それから十日もたたぬ間に床ずれが出来、三十九度から四十度の熱が一カ月もつづき、食は進まず、お粥さえも頂けない有様で、恐ろしい程痩せ細り、毎日医者よ薬よ、水湿布と苦しい安静療法をすること九カ月。<br/><br/>その暗黒無明、ただ死を待つばかりの苦しみにたえかねて、ある時は母の手当の不足を言い、動かぬ体をもたげ病床を這い出して用便をしたこともあり、又ある時は病苦に堪え兼ねて足も立たぬ体で手のとどき次第、枕元のものをなげちらし、今考えれば自暴自棄申訳のないことばかり平気でやっておりました。<br/><br/>それからやっと歩くことの出来るようになってから父母に奨められて、北條教導所の胡田先生にお浄めをして戴くことになりました。<br/><br/>その時医者からはそんなことをしていたならば死んで仕舞うと言われましたが、医学界において不治の病とされているこの肺結核、どうせ死ぬならば父母の良いと言う事をして死ねば父母も心残りはないであろうと、昭和二十二年四月十七日に私の姪に連れられて初めて北條町の胡田先生のところに御厄介になる事になりました。<br/><br/>その時の姿たるや、頼はこけ肉はおち、顔青ざめて髪はのび道行く人は私をみると鼻をつまんで通る程でございました。<br/><br/> 先生の御言葉で安静療法等、一切の療養法を断ちぶらぶらと遊んで養生をするようになってからは食は進み、気持は落ちつき、浄化であって身体のよくなる作用だという日々の生活が楽しくなり、五、六日目には先生に散髪しておいでなさいと言われた時には驚きました。<br/><br/>散髪などして又悪くなりはしないかと心配しましたが、先生がついているのだから大丈夫と思い、町まで散髪に行きましたが何の事もなく、十日目には風呂へ入りましたが気持が良いばかりか、九カ月もの長い間の垢を一時に洗い落して生き帰ったごとくさっぱり致しました。<br/><br/> その中以前良くなった人々の体験を聞き、現在良くなった人達をみて私もいつになったらあのように元気な身体になるだろうと思っておりました。<br/><br/>しかし日々快調に向う自分を覚える時、何かしら明るく楽しみを感じておりました。<br/><br/>丁度その頃やはり私と同じ病気で参りました二十二歳の娘さんがありました。<br/><br/>胡田先生はその娘さんに、今ならば大丈夫だが放って置くと大変な事になると言われました。<br/><br/>その娘さん四、五回も来たでしょうか。<br/><br/>こんな事では良くならないと言ってやめてしまい、その後お医者にかかりました。<br/><br/>ところが一年たった今日の二人の運命の差はどうでしょう。<br/><br/>その当時、余りひどくなかった娘さんは今年の五月お気の毒にもなくなりました。<br/><br/> あの時生死の淵にいた私は村人も驚く程元気になっています。<br/><br/>この間も麦の供出の時、麦俵一俵担いでみましたが楽々と担ぐ事も出来ましたし、馬鈴薯の供出も二十貫ばかり担いでから、山を下る事が出来ました。<br/><br/>昨年五月十九日に管長先生から教修を受け、今は観音様のお手伝いをさせて頂いております。<br/><br/>この有難い観音様の救いの御手に皆さんおすがり致しましょう。<br/><br/>そして病貧争のない立派な地上天国を作りましょう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

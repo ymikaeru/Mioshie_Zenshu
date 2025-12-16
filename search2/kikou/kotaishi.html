@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kotaishi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 皇太子殿下御生誕祭と明主様 百地超生 『栄光』189号、昭和28(1953)年1月1日発行 本教では、明主様の御生誕日である十二月二十三日を、意義深き大祭日として毎年御奉祝しているが、そもそもこの御生誕祭行事の始められたのは昭和八年からであった。<br><br>当初は全く何の予定も計画もなかったのであるが、一寸した動機で行われる運びになったのであって、いわば神意のまま始めねばならぬ時が来て始めさせられたのである。<br><br> 言うまでもなく昭和八年十二月二十三日は皇太子殿下の御生誕になられた日でもあったが、その朝珍しいことに、出入の魚屋が真鯛を七、八尾だか持って来たので、明主様にお伺いすると全部買っておけとのことである。<br><br>当時の財政は、今日では想像できぬ程の細さだったので鯛など届けられるのは滅多にないことであった。<br><br>しかも格安で、大きさも揃い、手頃のものだったのであるから単なる遇然ではなかった。<br><br>明主様にはこれ等のことから思いつかれ、御生誕の祝宴を催おさるることとなったようで、測らずも皇太子の御生誕祝と一緒になった訳である。<br><br>お勝手では大急ぎでお赤飯の用意をしていたのを覚えているから急のお話であったに違いない。<br><br>その夜は主だった者三、四名もお居間へ招ぜられ、初めて明生様のお傍で、恐る恐る同じテーブルを囲み当時の吾々としては豪華な饗応に預り、第一回御生誕祭をお祝申し上げた次第である。<br><br> そしてその後継宮明仁の御命名が発表された時、明主様はその御名の神秘的意義や、皇太子様の御因縁、優れた天稟、偉大な御使命等につき種々お話賜わり、大神の御経綸の深甚なるにただただ驚歓の外なかったのである。<br><br>そして翌九年、麹町平河町へお移りになり、五月一日から現界的御仕事をおはじめになったのであるが、その日かその前後の日だったかに、近所の報知新聞支社から、殿下の御写真を持参して置いて行った。<br><br>明主様はそれを御覧になると、近所の道具屋でお買いになった朱の艶消の額縁に入れられたがその大きさも実にピッタリ合っていた。<br><br>そして早速お居間へお掛けになったので私も前年の殿下に関するお話を想起し、転（うた）た明主様の深い思召を偲び奉ったものである。<br><br>そしてその翌年玉川宝山荘へお移りになった時も、御神前の横へお掛けになっていたが、つい数カ月前までそのままになっていたのである。<br><br> かくして十八年余を経た今日、殿下を語る数々の報道にみても多方面に優れた才能を有さるる英邁な御天稟が窺われ、又外国人の印象談等によっても円満な世界人的素質を持たれ、平和的叡智に優れたお方である事が推察される。<br><br>そして去る十一月十日立太子礼を迎えた国民の祝福にも、希望の光を見た如き明るい喜色が漲っていたのも、尋常ならぬ御徳であり、誰も知らぬうち明主様が示された殿下の大き使命の萌芽の表われであって、それが何となく人の心に感ぜられたものと、独りひそかに思うたのである。<br><br>そして時運も十八年前示された通り、未曾有の大変化をもたらしつつ動いているのであって、将来殿下が、文化国家建設と世界平和のため大き業績を造らるることを信じて疑わぬものである。<br><br> なお明主様が、生誕と共にその人の使命を知らるる例を私は他にも知っている。<br><br>実に測り知るべからざるは、最高の神智である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Aniversário Natalício de Sua Alteza, o Príncipe Herdeiro, e Meishu-Sama</h2>
 <p>Em nossa Fé, o dia 23 de dezembro, data do aniversário natalício de Meishu-Sama, é anualmente celebrado como um Grande Culto de profundo significado. Contudo, o início dessas comemorações remonta ao oitavo ano da era Showa (1933). A princípio, não havia qualquer plano ou programação; uma circunstância singular, todavia, deu início à sua realização. Em outras palavras, fomos compelidos a instituí-lo por Vontade Divina, pois o momento oportuno para tal havia chegado.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Posteriormente, quando foi anunciado o nome do príncipe, Tsugu-no-miya Akihito, Meishu-Sama discorreu sobre o significado místico de seu nome, as afinidades espirituais de Sua Alteza, seus dons inatos e sua grandiosa missão. Diante de Suas palavras, não pudemos conter nosso júbilo e admiração pela profundidade do Plano Divino. No ano seguinte, o nono da era Showa, Ele se mudou para Hirakawacho, no distrito de Kojimachi, e em primeiro de maio deu início à Sua obra no plano material. Por volta dessa data, a sucursal do jornal Hochi Shimbun de nossa vizinhança deixou em nossa porta uma fotografia de Sua Alteza. Ao vê-la, Meishu-Sama adquiriu em uma loja local uma moldura em tom vermelhão fosco, que, para nossa surpresa, tinha o tamanho exato da fotografia. Ele a pendurou imediatamente em seus aposentos, e tal gesto me fez recordar Suas palavras sobre o príncipe no ano anterior, levando-me a refletir sobre a profundeza de Suas intenções. Quando Se mudou para o Hozanso, em Tamagawa, no ano subsequente, a fotografia foi colocada ao lado do Altar Divino, onde permaneceu até poucos meses atrás.</p>
 <p>Passados mais de dezoito anos, os inúmeros relatos da imprensa sobre Sua Alteza revelam a genialidade de seus dons inatos e seus múltiplos talentos. Ademais, as impressões de estrangeiros sugerem que Ele possui uma índole cosmopolita e harmoniosa, bem como uma notável sabedoria voltada para a paz. A alegria radiante que contagiou a nação durante a cerimônia de sua investidura como Príncipe Herdeiro, no último dia 10 de novembro, era como um facho de esperança. Tal fato demonstra sua extraordinária virtude e, em meu íntimo, creio que essa comoção popular seja o desabrochar da grandiosa missão do príncipe, anunciada por Meishu-Sama, algo que as pessoas sentiam em seus corações, mesmo sem saber. O curso dos acontecimentos, tal como Meishu-Sama indicara há dezoito anos, segue em direção a uma transformação sem precedentes. Por tudo isso, não tenho dúvida de que, no futuro, Sua Alteza realizará feitos memoráveis para a construção de uma nação alicerçada na cultura e para a concretização da paz mundial.</p>
 <p>Aliás, conheço outros casos em que Meishu-Sama discerniu a missão de uma pessoa no momento de seu nascimento. Verdadeiramente, a suprema sabedoria divina é insondável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 皇太子殿下御生誕祭と明主様 百地超生 『栄光』189号、昭和28(1953)年1月1日発行 本教では、明主様の御生誕日である十二月二十三日を、意義深き大祭日として毎年御奉祝しているが、そもそもこの御生誕祭行事の始められたのは昭和八年からであった。<br/><br/>当初は全く何の予定も計画もなかったのであるが、一寸した動機で行われる運びになったのであって、いわば神意のまま始めねばならぬ時が来て始めさせられたのである。<br/><br/> 言うまでもなく昭和八年十二月二十三日は皇太子殿下の御生誕になられた日でもあったが、その朝珍しいことに、出入の魚屋が真鯛を七、八尾だか持って来たので、明主様にお伺いすると全部買っておけとのことである。<br/><br/>当時の財政は、今日では想像できぬ程の細さだったので鯛など届けられるのは滅多にないことであった。<br/><br/>しかも格安で、大きさも揃い、手頃のものだったのであるから単なる遇然ではなかった。<br/><br/>明主様にはこれ等のことから思いつかれ、御生誕の祝宴を催おさるることとなったようで、測らずも皇太子の御生誕祝と一緒になった訳である。<br/><br/>お勝手では大急ぎでお赤飯の用意をしていたのを覚えているから急のお話であったに違いない。<br/><br/>その夜は主だった者三、四名もお居間へ招ぜられ、初めて明生様のお傍で、恐る恐る同じテーブルを囲み当時の吾々としては豪華な饗応に預り、第一回御生誕祭をお祝申し上げた次第である。<br/><br/> そしてその後継宮明仁の御命名が発表された時、明主様はその御名の神秘的意義や、皇太子様の御因縁、優れた天稟、偉大な御使命等につき種々お話賜わり、大神の御経綸の深甚なるにただただ驚歓の外なかったのである。<br/><br/>そして翌九年、麹町平河町へお移りになり、五月一日から現界的御仕事をおはじめになったのであるが、その日かその前後の日だったかに、近所の報知新聞支社から、殿下の御写真を持参して置いて行った。<br/><br/>明主様はそれを御覧になると、近所の道具屋でお買いになった朱の艶消の額縁に入れられたがその大きさも実にピッタリ合っていた。<br/><br/>そして早速お居間へお掛けになったので私も前年の殿下に関するお話を想起し、転（うた）た明主様の深い思召を偲び奉ったものである。<br/><br/>そしてその翌年玉川宝山荘へお移りになった時も、御神前の横へお掛けになっていたが、つい数カ月前までそのままになっていたのである。<br/><br/> かくして十八年余を経た今日、殿下を語る数々の報道にみても多方面に優れた才能を有さるる英邁な御天稟が窺われ、又外国人の印象談等によっても円満な世界人的素質を持たれ、平和的叡智に優れたお方である事が推察される。<br/><br/>そして去る十一月十日立太子礼を迎えた国民の祝福にも、希望の光を見た如き明るい喜色が漲っていたのも、尋常ならぬ御徳であり、誰も知らぬうち明主様が示された殿下の大き使命の萌芽の表われであって、それが何となく人の心に感ぜられたものと、独りひそかに思うたのである。<br/><br/>そして時運も十八年前示された通り、未曾有の大変化をもたらしつつ動いているのであって、将来殿下が、文化国家建設と世界平和のため大き業績を造らるることを信じて疑わぬものである。<br/><br/> なお明主様が、生誕と共にその人の使命を知らるる例を私は他にも知っている。<br/><br/>実に測り知るべからざるは、最高の神智である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

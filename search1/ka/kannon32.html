@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon32</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,59 +440,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力療病は観念療法に非ず 『東方の光』9号、昭和11(1936)年1月1日発行 医薬療法以外の療法例えば信仰的霊的療法によって、難病が治療せられた事実を見て、多くの批判者は決り切っていうのである。<br><br>それは神仏に頼っているという、患者の観念が一種の安心を得るから、それに依って治病されるのである。<br><br>言わば神経作用である。<br><br>随ってそれは特殊の病気に限られているので、多くは神経系統に属するものであると――こう「さも真相に触れたように」断定するのである。<br><br>もっともこれらは「生長の家」等が主張する病気が無いと思えば治るという説や「人の道」が言っている、お振替又は神宣によって病気が治るというような事から生れた一種の客観的常識批判ともいうべきもので、一面無理のない見方でもある。<br><br>しかるに、我観音力療病においては、右らとは全然――相異している。<br><br>その点を発表したのである。<br><br>それは何かと言うに絶対に精神作用や観念療法でない事である。<br><br>まず一例を挙げてみよう、ここにある患者がある。<br><br>その患者に向って経験済の知人が、観音力治病を奨める。<br><br>その場合患者は、絶対に信用しない。<br><br>そんな方法で治るものかと否定する。<br><br>しかし知人は一回でもいゝから、欺されたと思って行けと飽くまで勧めるので、患者は止むを得ず、その好意に対し断りかねて渋々来るのである。<br><br>その時の患者の態度に見てアリアリと判るのである。<br><br>それに薬剤も器械も用いず、ただ指頭の技術のみであるから、治癒するはずがないと思うのも無理はないのである。<br><br>故に最初は仕方なしに治療を受けているという訳であって、全快の後よくその時の心境を語って、大笑いする事があるのである。<br><br>故に些（いささ）かたりとも軽快になるなどゝは、夢想してもみないのであるから――その際――観念は零である。<br><br>しかるにも係わらず、驚く程速かに軽快に向うのでその時の患者の驚愕は、実に滑稽と思わるゝ程である。<br><br> そうして間もなく治癒されてしまう。<br><br>その不思議さに誰しも人間以外の力、超人的観音力の存在を信じない訳にはゆかないのである。<br><br> この力が素晴しければ素晴らしい程体験のない第三者としては、益々信じられないという困った事実である。<br><br>他の療法はここでは云々しない。<br><br>ただ我観音力療法は絶対に観念の加わらない事を言えばいいのである。<br><br>今一つの例は、観念力の有り様のない小児が、反って能く治癒されるという事実も付加えたいのである。<br><br> 故に我療法は患者が病気が無いと思わなくともいい。<br><br>病気が在ると思っても治癒されてしまう、否自分の病気は治らないと諦めていても、何程疑っていても治癒されてしまうこの不思議なる大事実を知るならば、批判者は何と言うであろうか。<br><br> 今一つを加えよう、それは発狂が治癒される事である。<br><br>狂人に向っては観念療法は到底行わるべくもない事は明かである。<br><br>その他梅毒、癌腫、痔瘻、喘息、脳炎、中風、結核等、観念論者が、想像し得られない病気が、続々治癒される事実である。<br><br> これを要するに、薬剤療法に非ず、物理療法に非ず、信仰や祈祷療法に非ず、観念や精神力に非ずしてあらゆる療法によるも治癒し難い難症の治病率が、八十パーセンテージ以上を挙げつゝあるという、生きた事実である。<br><br> これをここに発表して、世の専門家ないし識者に問いたいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura pelo Poder de Kannon não é uma Terapia Mental (Revista Luz do Oriente, nº 9, 1º de janeiro de 1936)</h2>
 <p>Ao presenciarem a cura de enfermidades graves por meio de terapias que não a medicina convencional, como as de natureza espiritual ou baseadas na fé, muitos críticos apressam-se em oferecer um veredito. Afirmam que o fato de o paciente se apoiar em Deus ou Buda gera uma concepção mental que lhe proporciona certa tranquilidade, e que é por meio desse estado que a cura se concretiza. Trata-se, segundo eles, de um mero efeito neurológico. Consequentemente, restringem a eficácia de tais métodos a doenças específicas, em sua maioria pertencentes ao sistema nervoso. É com ares de quem desvendou a verdade que proferem tal diagnóstico.</p>
@@ -102,5 +452,48 @@ function toggleLang(lang) {
 <p>Acrescento ainda um último ponto: a cura da insanidade mental. É evidente que uma terapia de ordem conceitual jamais poderia ser aplicada a um louco. Ademais, enfermidades que os defensores da teoria mental nem sequer imaginariam passíveis de cura, como sífilis, câncer, fístula anal, asma, encefalite, paralisia decorrente de acidente vascular cerebral e tuberculose, estão sendo curadas sucessivamente.</p>
 <p>Em suma, o que temos é um método que não se baseia em medicamentos, nem em terapias físicas; não é cura pela fé nem pela oração; tampouco depende do poder da mente ou de concepções. E, no entanto, apresentamos uma taxa de sucesso superior a oitenta por cento no tratamento de doenças graves, consideradas incuráveis por todos os outros meios terapêuticos. Este é um fato vivo e pulsante.</p>
 <p>Apresento aqui estes fatos com o intuito de inquirir os especialistas e intelectuais de nosso tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力療病は観念療法に非ず 『東方の光』9号、昭和11(1936)年1月1日発行 医薬療法以外の療法例えば信仰的霊的療法によって、難病が治療せられた事実を見て、多くの批判者は決り切っていうのである。<br/><br/>それは神仏に頼っているという、患者の観念が一種の安心を得るから、それに依って治病されるのである。<br/><br/>言わば神経作用である。<br/><br/>随ってそれは特殊の病気に限られているので、多くは神経系統に属するものであると――こう「さも真相に触れたように」断定するのである。<br/><br/>もっともこれらは「生長の家」等が主張する病気が無いと思えば治るという説や「人の道」が言っている、お振替又は神宣によって病気が治るというような事から生れた一種の客観的常識批判ともいうべきもので、一面無理のない見方でもある。<br/><br/>しかるに、我観音力療病においては、右らとは全然――相異している。<br/><br/>その点を発表したのである。<br/><br/>それは何かと言うに絶対に精神作用や観念療法でない事である。<br/><br/>まず一例を挙げてみよう、ここにある患者がある。<br/><br/>その患者に向って経験済の知人が、観音力治病を奨める。<br/><br/>その場合患者は、絶対に信用しない。<br/><br/>そんな方法で治るものかと否定する。<br/><br/>しかし知人は一回でもいゝから、欺されたと思って行けと飽くまで勧めるので、患者は止むを得ず、その好意に対し断りかねて渋々来るのである。<br/><br/>その時の患者の態度に見てアリアリと判るのである。<br/><br/>それに薬剤も器械も用いず、ただ指頭の技術のみであるから、治癒するはずがないと思うのも無理はないのである。<br/><br/>故に最初は仕方なしに治療を受けているという訳であって、全快の後よくその時の心境を語って、大笑いする事があるのである。<br/><br/>故に些（いささ）かたりとも軽快になるなどゝは、夢想してもみないのであるから――その際――観念は零である。<br/><br/>しかるにも係わらず、驚く程速かに軽快に向うのでその時の患者の驚愕は、実に滑稽と思わるゝ程である。<br/><br/> そうして間もなく治癒されてしまう。<br/><br/>その不思議さに誰しも人間以外の力、超人的観音力の存在を信じない訳にはゆかないのである。<br/><br/> この力が素晴しければ素晴らしい程体験のない第三者としては、益々信じられないという困った事実である。<br/><br/>他の療法はここでは云々しない。<br/><br/>ただ我観音力療法は絶対に観念の加わらない事を言えばいいのである。<br/><br/>今一つの例は、観念力の有り様のない小児が、反って能く治癒されるという事実も付加えたいのである。<br/><br/> 故に我療法は患者が病気が無いと思わなくともいい。<br/><br/>病気が在ると思っても治癒されてしまう、否自分の病気は治らないと諦めていても、何程疑っていても治癒されてしまうこの不思議なる大事実を知るならば、批判者は何と言うであろうか。<br/><br/> 今一つを加えよう、それは発狂が治癒される事である。<br/><br/>狂人に向っては観念療法は到底行わるべくもない事は明かである。<br/><br/>その他梅毒、癌腫、痔瘻、喘息、脳炎、中風、結核等、観念論者が、想像し得られない病気が、続々治癒される事実である。<br/><br/> これを要するに、薬剤療法に非ず、物理療法に非ず、信仰や祈祷療法に非ず、観念や精神力に非ずしてあらゆる療法によるも治癒し難い難症の治病率が、八十パーセンテージ以上を挙げつゝあるという、生きた事実である。<br/><br/> これをここに発表して、世の専門家ないし識者に問いたいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

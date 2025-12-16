@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki22</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気の真因 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 およそ人間がこの世に生をうけるや、遺伝毒素即ち天然痘毒素を重なるものとして種々の毒素を保有している事である。<br><br>そうしてこれらの毒素の支障によって健康が完全に保持出来得ないから、体外へ排泄せらるべく断えず自然浄化作用が行われるように造られているのである。<br><br>そうして自然浄化作用が行われる場合ある程度の苦痛が伴うので、その苦痛を称して、病気と名付けられたのである。<br><br>この例を説明するのに、一般的に最も多い病気――即ち感冒を採り上げてみよう。<br><br>感冒だけはいかなる人といえども経験しない人はないであろうからである。<br><br>そうしてこの病気は今以て医学上原因不明とされているが、私の発見した所によると、これは最も単純なる浄化作用の一種である。<br><br>それはまず感冒に罹るとすると、発熱、頭痛、咳嗽（せき）、鼻汁、喀痰、食欲不振、全身の倦怠感、四肢の痛苦その他である。<br><br>これはどういう訳かというと、不断に行われつつある第一の浄化作用によって、全身の各局所に溜結せる毒素が第二の浄化作用によって排除せられんとする活動が起ったのである。<br><br> ここで、浄化作用なるものを説明する必要がある。<br><br>そもそも浄化作用なるものは――体内の不純物質ともいうべき然毒、尿毒、薬毒等が、漸次的にある一定の局所に集溜し、凝結する作用をいうのである。<br><br>そうして集溜する局所はいかなる所かというに、それは特に神経を使う個所であって、その個所は後段に詳説する事とするが、ともかく右の毒結の排除作用が発生する――それが病気の初めである。<br><br>故に浄化作用を二種に大別されるので、一は――体内一定の局所へ毒素が集溜凝結する作用、二は――一旦凝結した毒素を体外へ排除する作用である。<br><br>故に、前者の場合では、未だ大した苦痛はないから病気とは思わない。<br><br>しかし肩とか首とかが凝るという事はそれであって、次に後者であるその凝りの溶解作用が起る――それが感冒である。<br><br>世間よく肩が凝ると風邪を引くというのは、右の理によるのである。<br><br> 以上説いたごとく、熱は、毒結を排除し易からしめんが為の溶解作用であって、その溶解されて液体化した毒素が即ち鼻汁であり、喀痰である。<br><br>又発汗、尿、下痢等にもなるのである。<br><br>しかし、液体毒素といえどもなお濃度である場合、排除に困難なる為、それの吸引作用が起る。<br><br>それが嚔（くしゃみ）及び咳嗽（せき）である。<br><br>嚔は鼻汁を吸出せんが為、咳嗽は喀痰を吸出せんが為の喞筒（ポンプ）作用ともいうべきものである。<br><br>故に、嚔の後は鼻汁が出て、咳嗽の後は吐痰するにみても明かである。<br><br>そうして食欲不振は発熱と吐痰と服薬の為である。<br><br>又痛苦は、その局所に溜結せる毒素が溶解し、液体毒素となって排除されようとして運動を起し、神経を刺戟するからである。<br><br>咽喉部の痛みは、喀痰中に含まれたる毒素が粘膜に触れる為、粘膜を刺戟して加答児（カタル）を起すからで、声が嗄（か）れるのも右の理によって声帯や粘膜が加答児を起し、発声弁の運転に支障を来す為である。<br><br>頭痛は頸部又は頭部の毒素の、発熱によって溶解した液体毒素の排除作用の刺戟である。<br><br> 右のごときものが感冒であるから、何らの手当も服薬もせず放置しておけば、浄化作用が順調に行われて短時日に完全に治癒するのである。<br><br>故に、感冒ほど容易に浄化作用が行われるという事は、全く天恵的ともいうべきである。<br><br>この理によって、感冒に罹るだけは毒素は軽減するのであるから、感冒を自然治癒で治せば、次の感冒は必ず前よりも軽減し、且つ感冒と感冒との間の期間も漸次延長し、ついには、感冒に罹らなくなるのである。<br><br>それは、無毒になるから感冒の必要が無くなるという訳である。<br><br>この時期に到ると、稀には感冒に罹る事があっても、それは微毒であるから発熱はほとんどなく少量の鼻汁、喀痰位のもので、その他の苦痛はないといってもよい位であるから、日常通り業務に携わっていて、ほとんど知らぬ間に治ってしまうものである。<br><br> しかるに今日までのあらゆる医学上の理論はこれの反対であって、感冒は重病の前奏曲かのように恐れられるのであって、昔から“風邪は万病の基”などといい、今日では結核の門のように恐れられているのである。<br><br>しかし右の理によって、感冒は“万病を免れる因”「結核に罹らぬ方法である」というのが本当である。<br><br>故に、感冒に罹る事はむしろ喜ぶべき事で“感冒に罹るようにする事”こそ、何よりも健康増進の第一条件である。<br><br> 右の理に不明であった今日までのあらゆる療法は、感冒を恐れ、感冒による苦痛を悪化作用と誤認し、抑圧すべきであるとして研究されたのであるから、感冒というせっかくの浄化作用を停止するのである。<br><br>その方法として第一に薬剤を用いる。<br><br>元来、薬剤なるものは全部毒素であって、昔漢方の某大家は『薬は悉（ことごとく）毒である。<br><br>故に、薬を用いて病気を治すのは、毒を以て毒を制する事である』と言ったが、まことに至言である。<br><br> 即ち、薬という毒物を用いるから体内の機能を弱らす、機能が弱るから浄化作用が停止されるのである。<br><br>又氷冷法も浄化作用を停止させるから、発熱や苦痛を軽減させる。<br><br>湿布も同様である。<br><br>元来人体は、鼻孔の外、皮膚の毛細管を通じて呼吸作用が行われているので、湿布はその呼吸を停止させるのであるから、その部の浄化作用が弱まり、苦痛が軽減するのである。<br><br>この様な種々の方法は悉く浄化作用を抑圧停止させるのであるから、苦痛は軽減し、病的症状が減少して、一旦は治癒の状態を呈するのであるが、それは毒素が排除された真の治癒ではなく、せっかく浄化作用の起った毒素を再び凝結せしめるので、いわば“浄化作用発生以前の状態”に還元せしめたまでである。<br><br>従って、時を経れば再び浄化作用が発生するから又風邪を引く、又停止させる。<br><br>また風邪を引くというように繰返すのである。<br><br>事実そういう人が世の中には沢山あるのは誰も知る通りである。<br><br>そうして厄介な事には、薬毒がその都度加わる事になるから、浄化すべき毒素がますます増加する事になる。<br><br>従って、漸次悪性の感冒となるのは当然である。<br><br>その結果として肺炎等が起るのである。<br><br> 元来、肺炎という病気は、浄化作用の強烈なもので、感冒の重症であるといってもよいのである。<br><br>前述のごとく小浄化作用である感冒を抑圧するから、その都度毒素が蓄積増大され、それが一時に反動的に大浄化作用となって現われるのである。<br><br> 右のごとく、その根本において誤謬から出発した現在までの医学である以上、医学が進歩すればする程病者は殖え、体位は低下するのは当然の理である。<br><br>故に、医学の進歩とは病気を治癒させる進歩ではなく、『病気を治癒させない進歩である』といえよう。<br><br>人口増加率減少もその主因は、女子妊孕率の低下である事は学者も認めている所である。<br><br>乳幼児の死亡も結核の増加も、現在の医学の誤謬に因る事は勿論である。<br><br> 次に、第二の人口増加率低減と死亡率減少と平行する――という事はどういう訳かというと、こういう理由によるのである。<br><br> 欧州文明国において、近年伝染病や肺結核が漸減したという事は、社会衛生の進歩によるとされているが、それは一部の理由であって全般的理由とはならないのである。<br><br>勿論衛生施設の完璧がある程度奏効した事にもよるであろうが、それよりも根本原因は体力低下の為である。<br><br>体力が低下した為に伝染病は減る――というと、摩訶不思議なように思うであろうが事実はこうである。<br><br>元来伝染病及び結核等は体力旺盛に因る浄化作用の強烈な為であるから、体力が低下した民族は、浄化作用が強烈に発生し得ないのである。<br><br>支那民族に伝染病の多いという事は、衛生に無関心であるという事よりも体力強盛が原因である――ということになるのである。<br><br> 右の理論を推進めてゆくとこういう事になる。<br><br>今判り易く人間を三種に分けてみよう。<br><br>即ち第一種の人は、完全健康体で無毒であるから、病気が発り得ないのは当然である。<br><br>第二種の人は、有毒者にして体力強盛なるが為浄化作用が起りやすいという人。<br><br>（この種の人が大多数である）第三種の人は、有毒者であっても体力劣弱なる為、浄化作用がおこり得ない。<br><br>起っても微弱である。<br><br>ただこの種の人が運動等によって体力が幾分強盛になった場合起るのである。<br><br>故に、こういう人は早速薬剤を用いて安静にすれば還元するから、一時恢復するのである。<br><br>これらの人は過労を避けようと勉めるものである。<br><br> しかるに、今日の医学は右の理に不明であるから、第二種の人を第三種にしようとするのである。<br><br>その例として、都会の児童や医師の子女即ち、最も医師に触れる機会の多い者ほど弱体者であるという事実と、今日の医学衛生の理論を忠実に守る青白いインテリの多いという事は何よりの実証である。<br><br>もっとも第二種の人を第一種に改善しようとしても、その方法は現代医学では不可能である。<br><br> そうして死とはいかなる理由によるのであるかというと、古来、何人といえども病気によって死ぬとされているが、実は病気に因って死ぬ事は極稀（ごくまれ）であって、大部分は、病気を抑圧するから死ぬのである。<br><br>何となれば再三説いたごとく、浄化作用へ対して抑圧方法を行うから毒素は排除されないで還元し、その上薬毒が加わる、そうして浄化作用と抑圧作用との衝突を繰返す。<br><br>それが衰弱を増進させ、ついに生命を失うまでになるのである。<br><br> 今一つの理由として、文化民族においては、医療施設が完備せる為、発病の場合直ちに医療を行うので、それが右に説くごとく浄化停止と薬毒追増となるから体位を衰耗させる。<br><br>しかるに非文化民族は、発病の場合、ほとんど放任して自然治癒に任せるから、完全に浄化作用が行われる。<br><br>それが体位強盛の原因となるのである。<br><br> 故に、その結果として文化民族は体力が低下する。<br><br>低下するから浄化作用微弱となり、発病の機会が少くなる。<br><br>少くなるから死亡率が低いのである。<br><br>この反対に今日の文化民族が未だ浄化作用が旺盛であった時代は発病の機会が多い。<br><br>多いから医療を受ける。<br><br>医療は逆効果であるから死亡率が高い――という事になるのである。<br><br>これが体力の強盛であって出産率が高い時代は死亡率が多いという真因なのである。<br><br> しかしながら、現代医学の功績も相当ある事は認めない訳にはゆかないが、その功績に何倍する程の誤謬もあるという事が、人口問題やその他の原因となったのである。<br><br>そうして、その誤謬なるものが、いかに驚くべく、怖るべきものであるかを、あらゆる角度から検討してみよう。<br><br> そうして人口問題解決については、その根本原因たる種痘の廃止と、それによる天然痘毒素の解決にある事は言うまでもないが、今直に種痘を廃めるという事は不可能であろうし、又このまま持続するのも、解決に困難ではないのである。<br><br>それは漸減的方法を行う事である。<br><br>即ちまず薬物禁止によってその根源を絶ち、本療法によって浄血者たらしむるのである。<br><br>それによって天然痘疾患は、全く解決さるるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa das Enfermidades</h2>
 <p>Desde o momento em que o ser humano vem ao mundo, ele já é portador de diversas toxinas hereditárias, entre as quais se destacam as da varíola. Em virtude da interferência dessas toxinas, a saúde plena jamais pode ser alcançada, razão pela qual o organismo foi concebido de modo a realizar, incessantemente, um processo natural de purificação para expeli-las. Ocorre que, durante essa ação purificadora, manifesta-se um certo grau de sofrimento, ao qual se convencionou dar o nome de doença.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Como resultado, a vitalidade dos povos civilizados diminui. Com a vitalidade em declínio, os processos de purificação tornam-se mais fracos, e as oportunidades de adoecer diminuem. Por isso, a taxa de mortalidade é baixa. Em contrapartida, na época em que esses mesmos povos ainda possuíam uma purificação vigorosa, as doenças eram mais frequentes. Adoeciam mais, recebiam mais tratamentos médicos, e como estes eram contraproducentes, a taxa de mortalidade era alta. Essa é a verdadeira razão pela qual as eras de grande vitalidade e altas taxas de natalidade também registravam altas taxas de mortalidade.</p>
 <p>Não se pode negar que a medicina moderna possui méritos consideráveis. Contudo, seus equívocos superam em muito suas conquistas, sendo a causa de problemas como a questão populacional, entre outros. Analisemos, sob todos os ângulos, o quão assombrosos e temíveis são esses erros.</p>
 <p>A solução para o problema populacional reside, fundamentalmente, na abolição da vacinação — a causa primordial — e na eliminação das toxinas da varíola. Contudo, abolir a vacinação de imediato seria impraticável. Por outro lado, manter a situação atual também não levará a uma solução. O caminho é um método gradual. Primeiramente, é preciso cortar o mal pela raiz, proibindo o uso de medicamentos, e em seguida, purificar o sangue das pessoas por meio desta terapia sagrada. Dessa forma, as enfermidades causadas pela vacina da varíola serão completamente erradicadas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気の真因 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 およそ人間がこの世に生をうけるや、遺伝毒素即ち天然痘毒素を重なるものとして種々の毒素を保有している事である。<br/><br/>そうしてこれらの毒素の支障によって健康が完全に保持出来得ないから、体外へ排泄せらるべく断えず自然浄化作用が行われるように造られているのである。<br/><br/>そうして自然浄化作用が行われる場合ある程度の苦痛が伴うので、その苦痛を称して、病気と名付けられたのである。<br/><br/>この例を説明するのに、一般的に最も多い病気――即ち感冒を採り上げてみよう。<br/><br/>感冒だけはいかなる人といえども経験しない人はないであろうからである。<br/><br/>そうしてこの病気は今以て医学上原因不明とされているが、私の発見した所によると、これは最も単純なる浄化作用の一種である。<br/><br/>それはまず感冒に罹るとすると、発熱、頭痛、咳嗽（せき）、鼻汁、喀痰、食欲不振、全身の倦怠感、四肢の痛苦その他である。<br/><br/>これはどういう訳かというと、不断に行われつつある第一の浄化作用によって、全身の各局所に溜結せる毒素が第二の浄化作用によって排除せられんとする活動が起ったのである。<br/><br/> ここで、浄化作用なるものを説明する必要がある。<br/><br/>そもそも浄化作用なるものは――体内の不純物質ともいうべき然毒、尿毒、薬毒等が、漸次的にある一定の局所に集溜し、凝結する作用をいうのである。<br/><br/>そうして集溜する局所はいかなる所かというに、それは特に神経を使う個所であって、その個所は後段に詳説する事とするが、ともかく右の毒結の排除作用が発生する――それが病気の初めである。<br/><br/>故に浄化作用を二種に大別されるので、一は――体内一定の局所へ毒素が集溜凝結する作用、二は――一旦凝結した毒素を体外へ排除する作用である。<br/><br/>故に、前者の場合では、未だ大した苦痛はないから病気とは思わない。<br/><br/>しかし肩とか首とかが凝るという事はそれであって、次に後者であるその凝りの溶解作用が起る――それが感冒である。<br/><br/>世間よく肩が凝ると風邪を引くというのは、右の理によるのである。<br/><br/> 以上説いたごとく、熱は、毒結を排除し易からしめんが為の溶解作用であって、その溶解されて液体化した毒素が即ち鼻汁であり、喀痰である。<br/><br/>又発汗、尿、下痢等にもなるのである。<br/><br/>しかし、液体毒素といえどもなお濃度である場合、排除に困難なる為、それの吸引作用が起る。<br/><br/>それが嚔（くしゃみ）及び咳嗽（せき）である。<br/><br/>嚔は鼻汁を吸出せんが為、咳嗽は喀痰を吸出せんが為の喞筒（ポンプ）作用ともいうべきものである。<br/><br/>故に、嚔の後は鼻汁が出て、咳嗽の後は吐痰するにみても明かである。<br/><br/>そうして食欲不振は発熱と吐痰と服薬の為である。<br/><br/>又痛苦は、その局所に溜結せる毒素が溶解し、液体毒素となって排除されようとして運動を起し、神経を刺戟するからである。<br/><br/>咽喉部の痛みは、喀痰中に含まれたる毒素が粘膜に触れる為、粘膜を刺戟して加答児（カタル）を起すからで、声が嗄（か）れるのも右の理によって声帯や粘膜が加答児を起し、発声弁の運転に支障を来す為である。<br/><br/>頭痛は頸部又は頭部の毒素の、発熱によって溶解した液体毒素の排除作用の刺戟である。<br/><br/> 右のごときものが感冒であるから、何らの手当も服薬もせず放置しておけば、浄化作用が順調に行われて短時日に完全に治癒するのである。<br/><br/>故に、感冒ほど容易に浄化作用が行われるという事は、全く天恵的ともいうべきである。<br/><br/>この理によって、感冒に罹るだけは毒素は軽減するのであるから、感冒を自然治癒で治せば、次の感冒は必ず前よりも軽減し、且つ感冒と感冒との間の期間も漸次延長し、ついには、感冒に罹らなくなるのである。<br/><br/>それは、無毒になるから感冒の必要が無くなるという訳である。<br/><br/>この時期に到ると、稀には感冒に罹る事があっても、それは微毒であるから発熱はほとんどなく少量の鼻汁、喀痰位のもので、その他の苦痛はないといってもよい位であるから、日常通り業務に携わっていて、ほとんど知らぬ間に治ってしまうものである。<br/><br/> しかるに今日までのあらゆる医学上の理論はこれの反対であって、感冒は重病の前奏曲かのように恐れられるのであって、昔から“風邪は万病の基”などといい、今日では結核の門のように恐れられているのである。<br/><br/>しかし右の理によって、感冒は“万病を免れる因”「結核に罹らぬ方法である」というのが本当である。<br/><br/>故に、感冒に罹る事はむしろ喜ぶべき事で“感冒に罹るようにする事”こそ、何よりも健康増進の第一条件である。<br/><br/> 右の理に不明であった今日までのあらゆる療法は、感冒を恐れ、感冒による苦痛を悪化作用と誤認し、抑圧すべきであるとして研究されたのであるから、感冒というせっかくの浄化作用を停止するのである。<br/><br/>その方法として第一に薬剤を用いる。<br/><br/>元来、薬剤なるものは全部毒素であって、昔漢方の某大家は『薬は悉（ことごとく）毒である。<br/><br/>故に、薬を用いて病気を治すのは、毒を以て毒を制する事である』と言ったが、まことに至言である。<br/><br/> 即ち、薬という毒物を用いるから体内の機能を弱らす、機能が弱るから浄化作用が停止されるのである。<br/><br/>又氷冷法も浄化作用を停止させるから、発熱や苦痛を軽減させる。<br/><br/>湿布も同様である。<br/><br/>元来人体は、鼻孔の外、皮膚の毛細管を通じて呼吸作用が行われているので、湿布はその呼吸を停止させるのであるから、その部の浄化作用が弱まり、苦痛が軽減するのである。<br/><br/>この様な種々の方法は悉く浄化作用を抑圧停止させるのであるから、苦痛は軽減し、病的症状が減少して、一旦は治癒の状態を呈するのであるが、それは毒素が排除された真の治癒ではなく、せっかく浄化作用の起った毒素を再び凝結せしめるので、いわば“浄化作用発生以前の状態”に還元せしめたまでである。<br/><br/>従って、時を経れば再び浄化作用が発生するから又風邪を引く、又停止させる。<br/><br/>また風邪を引くというように繰返すのである。<br/><br/>事実そういう人が世の中には沢山あるのは誰も知る通りである。<br/><br/>そうして厄介な事には、薬毒がその都度加わる事になるから、浄化すべき毒素がますます増加する事になる。<br/><br/>従って、漸次悪性の感冒となるのは当然である。<br/><br/>その結果として肺炎等が起るのである。<br/><br/> 元来、肺炎という病気は、浄化作用の強烈なもので、感冒の重症であるといってもよいのである。<br/><br/>前述のごとく小浄化作用である感冒を抑圧するから、その都度毒素が蓄積増大され、それが一時に反動的に大浄化作用となって現われるのである。<br/><br/> 右のごとく、その根本において誤謬から出発した現在までの医学である以上、医学が進歩すればする程病者は殖え、体位は低下するのは当然の理である。<br/><br/>故に、医学の進歩とは病気を治癒させる進歩ではなく、『病気を治癒させない進歩である』といえよう。<br/><br/>人口増加率減少もその主因は、女子妊孕率の低下である事は学者も認めている所である。<br/><br/>乳幼児の死亡も結核の増加も、現在の医学の誤謬に因る事は勿論である。<br/><br/> 次に、第二の人口増加率低減と死亡率減少と平行する――という事はどういう訳かというと、こういう理由によるのである。<br/><br/> 欧州文明国において、近年伝染病や肺結核が漸減したという事は、社会衛生の進歩によるとされているが、それは一部の理由であって全般的理由とはならないのである。<br/><br/>勿論衛生施設の完璧がある程度奏効した事にもよるであろうが、それよりも根本原因は体力低下の為である。<br/><br/>体力が低下した為に伝染病は減る――というと、摩訶不思議なように思うであろうが事実はこうである。<br/><br/>元来伝染病及び結核等は体力旺盛に因る浄化作用の強烈な為であるから、体力が低下した民族は、浄化作用が強烈に発生し得ないのである。<br/><br/>支那民族に伝染病の多いという事は、衛生に無関心であるという事よりも体力強盛が原因である――ということになるのである。<br/><br/> 右の理論を推進めてゆくとこういう事になる。<br/><br/>今判り易く人間を三種に分けてみよう。<br/><br/>即ち第一種の人は、完全健康体で無毒であるから、病気が発り得ないのは当然である。<br/><br/>第二種の人は、有毒者にして体力強盛なるが為浄化作用が起りやすいという人。<br/><br/>（この種の人が大多数である）第三種の人は、有毒者であっても体力劣弱なる為、浄化作用がおこり得ない。<br/><br/>起っても微弱である。<br/><br/>ただこの種の人が運動等によって体力が幾分強盛になった場合起るのである。<br/><br/>故に、こういう人は早速薬剤を用いて安静にすれば還元するから、一時恢復するのである。<br/><br/>これらの人は過労を避けようと勉めるものである。<br/><br/> しかるに、今日の医学は右の理に不明であるから、第二種の人を第三種にしようとするのである。<br/><br/>その例として、都会の児童や医師の子女即ち、最も医師に触れる機会の多い者ほど弱体者であるという事実と、今日の医学衛生の理論を忠実に守る青白いインテリの多いという事は何よりの実証である。<br/><br/>もっとも第二種の人を第一種に改善しようとしても、その方法は現代医学では不可能である。<br/><br/> そうして死とはいかなる理由によるのであるかというと、古来、何人といえども病気によって死ぬとされているが、実は病気に因って死ぬ事は極稀（ごくまれ）であって、大部分は、病気を抑圧するから死ぬのである。<br/><br/>何となれば再三説いたごとく、浄化作用へ対して抑圧方法を行うから毒素は排除されないで還元し、その上薬毒が加わる、そうして浄化作用と抑圧作用との衝突を繰返す。<br/><br/>それが衰弱を増進させ、ついに生命を失うまでになるのである。<br/><br/> 今一つの理由として、文化民族においては、医療施設が完備せる為、発病の場合直ちに医療を行うので、それが右に説くごとく浄化停止と薬毒追増となるから体位を衰耗させる。<br/><br/>しかるに非文化民族は、発病の場合、ほとんど放任して自然治癒に任せるから、完全に浄化作用が行われる。<br/><br/>それが体位強盛の原因となるのである。<br/><br/> 故に、その結果として文化民族は体力が低下する。<br/><br/>低下するから浄化作用微弱となり、発病の機会が少くなる。<br/><br/>少くなるから死亡率が低いのである。<br/><br/>この反対に今日の文化民族が未だ浄化作用が旺盛であった時代は発病の機会が多い。<br/><br/>多いから医療を受ける。<br/><br/>医療は逆効果であるから死亡率が高い――という事になるのである。<br/><br/>これが体力の強盛であって出産率が高い時代は死亡率が多いという真因なのである。<br/><br/> しかしながら、現代医学の功績も相当ある事は認めない訳にはゆかないが、その功績に何倍する程の誤謬もあるという事が、人口問題やその他の原因となったのである。<br/><br/>そうして、その誤謬なるものが、いかに驚くべく、怖るべきものであるかを、あらゆる角度から検討してみよう。<br/><br/> そうして人口問題解決については、その根本原因たる種痘の廃止と、それによる天然痘毒素の解決にある事は言うまでもないが、今直に種痘を廃めるという事は不可能であろうし、又このまま持続するのも、解決に困難ではないのである。<br/><br/>それは漸減的方法を行う事である。<br/><br/>即ちまず薬物禁止によってその根源を絶ち、本療法によって浄血者たらしむるのである。<br/><br/>それによって天然痘疾患は、全く解決さるるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

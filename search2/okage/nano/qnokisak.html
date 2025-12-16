@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnokisak</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 軒先迄燃え焼失を免る 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 埼玉県 日本五六七教啓光会 金谷たつ（52） 一月二十二日午前一時四十分頃、突然隣に寝ていた長女に「火事だ」と起されたので反射的に表の方をみますと、僅か一寸程開いている襖の間から道路に面した座敷の障子が真赤にみえましたので、早速表座敷の障子を開けて近所の人々に大声で火災を告げました。<br><br>この騒ぎに階下に寝ていた次女、三女も起きて二階に来て光明如来様に祝詞を上げ始めました。<br><br>私も長女もこれに伍して一心に祝詞を上げました。<br><br>何しろ火事は意外に近く私の家から僅か七、八米の筋向いの二階家です。<br><br>深夜の事故人々は集まらず、火の廻りは意外に早く猛火は私の家の真前の二階に移ってしまいました。<br><br>近隣の半鐘も漸く乱打され始めました。<br><br>この間まったく数分間のように思われましたが、実際はそれほどでもなかったのでしょう。<br><br>私の家も既に類焼を免れない事を私は覚悟しました。<br><br>女手ばかりのところへ長女が病気の為どうにもならず、私はすべてを光明如来様にお任せする事に決め、さらに祝詞を奏上火に向って浄霊いたしておりました。<br><br>火は漸く猛威を揮い私の家も軒下一杯に火がはってまいりました。<br><br>ガラスは次々に音を立てて割れてゆき、階下で誰かが友田屋（私の家の屋号）についたという声をききました時には、流石に心の動揺を禁じ得ませんでしたが、すでにこの期に及んではいたし方がありませんので、更に神に対する信念をつよめ、浄霊を続けておりました。<br><br> この時不思議と申しましては誠に勿体ない事でございますが、軒下をはっていた火が私の家から離れてただガラスの割れる音のみが残りました。<br><br>勿論家の戸は全部しめてありましたので、家の中へはまだ誰も入りませんでしたが、たまりかねてこの時裏木戸を破って大勢の人が入って来て「大切なものから出しましょう」といってくれますので、一応荷物を出してもらう事にし、三女に荷物の番をさせすべては他人の力を借りて荷物も順調に出していただきました。<br><br>火も多少下火になり駈付けた消防ポンプも水を出し始めましたので、私の家は焼けないと人々がいい出しましたので、光明如来様の御力に感銘し神様への信念を一層深くいたしました。<br><br>細い路をへだてて向う三軒が失われた事に対しては、ただお気の毒でなりません。<br><br>この間僅か四、五十分全く夢のようでした。<br><br>再び人手を借りて荷物を家の中へ入れて頂き、幸い失くなった物もなく、総てが終り手伝って下さった人々の話がただ「不思議だった、不思議だった」と言う言葉のみ交わされましたが、私はこの人達に知らせる適当な言葉が見当りませんでした。<br><br>この人達の心がまだ落付いていなかったからです。<br><br>しかし間もなくこの多くの人達がこの尊いお力によって次々救われて行く日の近い事を信じております。<br><br>猛火より救われた私ども一家の喜びを御想像下さい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salva das Chamas sob os Beirais</h2>
 <p>Na madrugada de 22 de janeiro, por volta da uma e quarenta, fui despertada subitamente por minha filha mais velha, que dormia ao meu lado, bradando: “É um incêndio!”. Instintivamente, olhei em direção à fachada e, por uma fresta da porta de correr, avistei o painel de papel da sala que dá para a rua completamente rubro. Sem hesitar, abri-o e alertei a vizinhança em altas vozes. Despertas pelo alvoroço, minha segunda e terceira filhas, que dormiam no andar inferior, subiram e puseram-se a entoar a Oração a Deus Komyo Nyorai. Eu e minha primogênita nos unimos a elas, orando com todo o fervor de nossas almas.</p>
@@ -96,5 +251,48 @@ function toggleLang(lang) {
 <p>Nesse momento, ocorreu algo que me sinto indigna de chamar de milagre, mas as chamas que avançavam sob os beirais subitamente se afastaram de minha casa, restando apenas o som do vidro a se estilhaçar. Naturalmente, todas as portas estavam fechadas e ninguém ainda havia entrado. Impacientes, contudo, um grupo de pessoas arrombou o portão dos fundos e adentrou a residência, oferecendo-se: “Vamos retirar primeiro os objetos de valor!”. Aceitei a ajuda, pedi à minha terceira filha que vigiasse nossos pertences e, com o auxílio de todos, a remoção dos bens transcorreu em ordem.</p>
 <p>O fogo começou a arrefecer, e o caminhão dos bombeiros que chegara ao local iniciou o combate às chamas. Logo, as pessoas ao redor começaram a comentar que minha casa não seria mais atingida. Diante disso, senti-me profundamente comovida pelo Poder de Deus Komyo Nyorai, e minha fé se tornou ainda mais inabalável. Sinto uma imensa consternação pelas três famílias vizinhas, do outro lado da ruela, que perderam suas casas. Todo o episódio, que durou entre quarenta e cinquenta minutos, pareceu um verdadeiro sonho.</p>
 <p>Novamente com a ajuda de todos, trouxemos nossos pertences de volta para dentro. Felizmente, nada se perdeu. Ao final de tudo, as únicas palavras trocadas entre aqueles que nos ajudaram eram: “Foi um milagre, um milagre”. Eu, contudo, não encontrei as palavras adequadas para lhes explicar o ocorrido, pois seus corações ainda estavam agitados demais. Tenho fé, no entanto, que não tardará o dia em que muitas dessas pessoas serão salvas, uma a uma, por este sagrado Poder. Peço que imaginem a imensa alegria de nossa família, que foi resgatada das chamas vorazes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 軒先迄燃え焼失を免る 自観叢書第4篇『奇蹟物語』昭和24(1949)年10月5日発行 埼玉県 日本五六七教啓光会 金谷たつ（52） 一月二十二日午前一時四十分頃、突然隣に寝ていた長女に「火事だ」と起されたので反射的に表の方をみますと、僅か一寸程開いている襖の間から道路に面した座敷の障子が真赤にみえましたので、早速表座敷の障子を開けて近所の人々に大声で火災を告げました。<br/><br/>この騒ぎに階下に寝ていた次女、三女も起きて二階に来て光明如来様に祝詞を上げ始めました。<br/><br/>私も長女もこれに伍して一心に祝詞を上げました。<br/><br/>何しろ火事は意外に近く私の家から僅か七、八米の筋向いの二階家です。<br/><br/>深夜の事故人々は集まらず、火の廻りは意外に早く猛火は私の家の真前の二階に移ってしまいました。<br/><br/>近隣の半鐘も漸く乱打され始めました。<br/><br/>この間まったく数分間のように思われましたが、実際はそれほどでもなかったのでしょう。<br/><br/>私の家も既に類焼を免れない事を私は覚悟しました。<br/><br/>女手ばかりのところへ長女が病気の為どうにもならず、私はすべてを光明如来様にお任せする事に決め、さらに祝詞を奏上火に向って浄霊いたしておりました。<br/><br/>火は漸く猛威を揮い私の家も軒下一杯に火がはってまいりました。<br/><br/>ガラスは次々に音を立てて割れてゆき、階下で誰かが友田屋（私の家の屋号）についたという声をききました時には、流石に心の動揺を禁じ得ませんでしたが、すでにこの期に及んではいたし方がありませんので、更に神に対する信念をつよめ、浄霊を続けておりました。<br/><br/> この時不思議と申しましては誠に勿体ない事でございますが、軒下をはっていた火が私の家から離れてただガラスの割れる音のみが残りました。<br/><br/>勿論家の戸は全部しめてありましたので、家の中へはまだ誰も入りませんでしたが、たまりかねてこの時裏木戸を破って大勢の人が入って来て「大切なものから出しましょう」といってくれますので、一応荷物を出してもらう事にし、三女に荷物の番をさせすべては他人の力を借りて荷物も順調に出していただきました。<br/><br/>火も多少下火になり駈付けた消防ポンプも水を出し始めましたので、私の家は焼けないと人々がいい出しましたので、光明如来様の御力に感銘し神様への信念を一層深くいたしました。<br/><br/>細い路をへだてて向う三軒が失われた事に対しては、ただお気の毒でなりません。<br/><br/>この間僅か四、五十分全く夢のようでした。<br/><br/>再び人手を借りて荷物を家の中へ入れて頂き、幸い失くなった物もなく、総てが終り手伝って下さった人々の話がただ「不思議だった、不思議だった」と言う言葉のみ交わされましたが、私はこの人達に知らせる適当な言葉が見当りませんでした。<br/><br/>この人達の心がまだ落付いていなかったからです。<br/><br/>しかし間もなくこの多くの人達がこの尊いお力によって次々救われて行く日の近い事を信じております。<br/><br/>猛火より救われた私ども一家の喜びを御想像下さい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

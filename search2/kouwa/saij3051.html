@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij3051</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第三篇 ４ 051-067 用語、祭具 051 柱とは―大西愛次郎事件 御霊を数えるのに「柱」と申しますのは、いかなる訳でしょうか。<br><br> 柱は敬語で、神を数える時にいう。<br><br>神柱ともいう。<br><br>人間でも立派な人は神格を得てる。<br><br>人格は上等でない。<br><br>本当をいうと神格者でなくてはならぬ。<br><br>それは柱である。<br><br>人間でも役に立つ人は柱という。<br><br>柱は屋根を支えているもので、屋台骨を支えてる。<br><br>力があって重要なものを支えているもの。<br><br>神様は人間ではないから一人二人という訳にはゆかぬ。<br><br>天皇を柱ともいう。<br><br> 大西愛次郎は、昭和五、五、五までに天皇が退位しなければ大困難あり、天皇の御位も落ちるなどといった。<br><br>五、五、五は午の年、午の月、午の日である。<br><br>これは今想うと当っている。<br><br>天理教の御神楽歌を研究するとそうなると言ってパンフレットにして配布した。<br><br>そのために天理教の信徒を多数吸収した。<br><br>この一派は今再燃しつつある。<br><br>三種の神器は自分の子供で後の天皇は自分だといった。<br><br>この二点がいけなかった。<br><br>かくて起訴され懲役四年かになった、これは根拠のない事ではない。<br><br> rattail（注） 〔 天理本道に就て 『地上天国』14号、昭和25(1950)年3月20日発行〕 052 神道祭式 神道の祖先の祭の様式を御伺い致します。<br><br> これは神主に聞く。<br><br> 私はこういう事は昔から嫌いである。<br><br>（S23.11.16） 053 拍手と玉串、笏 宗教的儀式に付き、拍手、玉串、笏または扇子等はいかなる意味があるもので御座いましょうか。<br><br>御教えの程お願い申し上げます。<br><br> 拍手は神道では四拍手で、いろんな事をいう。<br><br>大本ではタカタカという言霊だという。<br><br>即ち、タカミ―高御産霊、カムミ―神御産霊で、このタタ、カカが転化して父母という。<br><br>これは、霊の神、体の神で、霊体、陰陽を表わすという。<br><br>（根拠ないとはいえない） 玉串は榊へ細く切った御幣を掛ける。<br><br>これはお召物を献げる事になっている。<br><br>御幣は浄める意、祓戸行事から出ている。<br><br>浄める意味で、大本教は松を使うが、松の方がいい。<br><br>榊は栄える木というが、逆さの木ともいう。<br><br>笏や扇子は、扇子は笏の代り、笏は大抵白檀でやる。<br><br>笏は魔除けで、初めは剣であった。<br><br> rattail（注） 〔 妙智の鍵（光明分会７月号） 、昭和24(1949)年7月1日発行〕 ――宗教的儀式につき、柏手、玉串、笏（しゃく）または扇子などはいかなる意味があるものでございましょうか。<br><br> 『拍手は神道では四拍手打ちます。<br><br>これは「タカタカ」という言霊で「タタ」「カカ」のことであり、高皇産霊神（たかみむすびのかみ）、神皇産霊神（かむみむすびのかみ）を表わしております。<br><br>玉串の紙ビラは神の着物であり、玉串はふつう榊ですが松の木のほうがよろしい。<br><br>笏は剣の意味になり、魔を除けることで、ふつう白檀の木で作り、扇子は笏の代用品であります。<br><br>』 054 拍手のいわれ 拍手のいわれについて―― 神道で、タカタカという言霊になるという。<br><br>タカとは高御産霊、神御産霊の事である。<br><br>御祭を初めるからと神様にお知らせする意味が主であると思う。<br><br> 今迄は夜の世界で、日がないから丁寧に四拍手（二）した。<br><br> 三拝九拝は本当である。<br><br> 055 拍手と合掌 既成宗教において神前礼拝に拍手、仏前に合掌を行っておりますが、拍手と合掌の意味について御説明御願い致します。<br><br> 拍手は神道、合掌は仏教である。<br><br>神仏の形式が分れている所が面白い。<br><br> 拍手は四つで、大本教ではタカタカと打つという。<br><br>高御産霊、神御産霊は父母の言霊だからという。<br><br>今迄は二と四になっている。<br><br>月と地のみだった。<br><br> 合掌は自然の動作、人間の本能といった方が合っている。<br><br>理屈は後でつけたものと思う。<br><br>どこの国でも皆一様にする。<br><br> 056 合掌の意義 合掌の意義―― 種々理屈をつけるが、自然の本能で、自然にこうなる。<br><br> rattail（注） 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年<b>月</b>日発行〕 ――礼拝のときの合掌はどんな意味がありましょうか。<br><br> 『これは自然ですね。<br><br>いろいろ理屈をつけますがね、これはまあ自然にそうなるんですよ。<br><br>挨拶のとき頭を下げるのと同じですね。<br><br>』 057 合掌の意義 合掌の意義について御教え願います。<br><br> 自然に手がそうなるのだと思う。<br><br>（S24. 1. 7） 058 三宝とクリ盆 お供え物を致しま時、神様には三宝を、仏様にはくり盆または足のついたくり盆のようなものを用いますが、これにはどんな由来が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 大した謂れはない。<br><br>仏様のはお膳を高くしたのであり、神様の方は、清いというので白木のままにした。<br><br>そして、角張っても具合がわるいから隅を丸くしたのである。<br><br>（S25. 1.22） 059 御幣の意義 神社の御幣は、いかなる意味によって用いられるのでしょうか。<br><br> 御幣は本当はぬさ（箒の形）で、清める意味のものである。<br><br>ぬさから起ったもので、空間に虫や蛇の霊など沢山いるのを、霊眼の見える人が見た事があり、それらを幣で払うと除いてしまう。<br><br>（麻は紙の元になる。<br><br>） シメ縄は、シメ込む事で、神様を押込むる意である。<br><br>一方、悪魔を防ぐ意だともいう。<br><br>これは研究問題である。<br><br>鬼門へ鬼瓦をおく。<br><br> 060 四柱の神（幣） 四柱の神について御伺い申し上げます。<br><br> 四柱の神とは、神道でいう浄めの神である。<br><br>虫鳥などの霊は幣で払うと皆どいてしまう。<br><br> 061 蚊帳と幽霊 蚊帳を吊ると幽霊などが入らないと昔から言われていますが、いかなるわけでございましょうか。<br><br> （麻は紙の元である） 麻というものは非常に不浄を忌む。<br><br> 幽霊は執着であるから不浄である。<br><br>麻のために近よれぬものとみえる。<br><br>神主の上衣など麻が本当である。<br><br> よく聞く話であるが、幽霊は蚊帳の外で動作する。<br><br>地獄の霊は小さい。<br><br>狐の霊は豆粒位で、脇の下に何十匹いた婆さんが以前あった。<br><br>（S *. 2.24） 062 一位の木 神主の持ちますシャクは一位の木にて作ると伺いますが、一位の木は檜よりも霊格が上なので御座いましょうか。<br><br> 一位の木なら、上である訳である。<br><br> 檜はお宮とか宮殿に使う。<br><br>（S24. 9.13） 063 扇子と富士山 扇子は、末広といって縁起のいいものである。<br><br>扇子用いる。<br><br> 富士山なども、白扇の形をしている。<br><br> 064 塩と神事 神事に対して御塩を使いますが、いかなる訳が御座いますか。<br><br>御教示を御願い致します。<br><br> 塩は浄めるのである。<br><br>昔から使う。<br><br>海はどんな汚いものでも浄化する。<br><br>（S24. 6.27） 065 塩の作用 塩をお浄めに用いるわけを御伺い申し上げます。<br><br> 非常に浄める力がある。<br><br> 066 塩の使用 昔からよく物を浄める時などに塩を用いますが意味が御座いますのでしょうか。<br><br> 塩は物を綺麗にするので、浄める意味で用いる。<br><br>深い意味のある訳ではない。<br><br> 海の水は、いかなるものでも浄化してしまう。<br><br>即ち、浄化の力が強いからである。<br><br>（S24. 3.14） rattail（注） 〔 御光話（S24年4月特輯号） 『御光話録』6号、昭和24(1949)年4月23日発行〕 ――物を浄めるのによく塩を撒きますが、これはどんな意味でしょうか。<br><br> 『塩は物を洗うときに使うときれいになるので、これからきたんでしょうが、そんなに深い意味はありませんよ。<br><br>まあ、海の水ってのはいかなるものも浄化して、その力の強烈なものですからね、こんなことからもきたのかもしれません。<br><br>人糞でも海中へ流し込めば、それでもう浄まってしまいますからね。<br><br>』 067 塩の使用と本教 浄め塩と申しまして、縁起のために塩を用いますのは、いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 浄める事に使う習慣になっている。<br><br>大した意味はない。<br><br>気休めで大した意味はない。<br><br>信者はする要はない。<br><br> 神経を休めるというような意味と思う。<br><br> 観音教の信者はそんな事しなくともよい。<br><br>（S23.12.11） rattail（注） 〔 ご存じですか（実生分会１月号） 、昭和24(1949)年1月1日発行〕 ――浄め塩はいかなるわけでしょうか。<br><br> 『従来の習慣上のことでたいした意味はありません。<br><br>私どもは塩で穢れを払うより浄霊で浄めればよいわけです。<br><br>』 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕 ――浄め塩と申しまして縁起のために塩を用いますのはいかなるわけでございましょうか。<br><br> 『塩は浄めに使う習慣となっておりますが、たいしたことはありません。<br><br>むしろ本人の神経を休める気休め程度のものです。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O que é um “Pilar” – O Incidente de Onishi Aijiro</h2>
 <p><strong>Pergunta: Por que razão, ao nos referirmos aos espíritos deificados, utilizamos o classificador “pilar”?</strong></p>
@@ -165,5 +317,48 @@ function toggleLang(lang) {
 <hr/>
 <p>O chamado “sal purificador” é utilizado como um amuleto de boa sorte. Qual a razão disso?</p>
 <p>O uso do sal para purificação tornou-se um costume, mas não é algo de grande importância. Funciona mais como um placebo para tranquilizar os nervos da pessoa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第三篇 ４ 051-067 用語、祭具 051 柱とは―大西愛次郎事件 御霊を数えるのに「柱」と申しますのは、いかなる訳でしょうか。<br/><br/> 柱は敬語で、神を数える時にいう。<br/><br/>神柱ともいう。<br/><br/>人間でも立派な人は神格を得てる。<br/><br/>人格は上等でない。<br/><br/>本当をいうと神格者でなくてはならぬ。<br/><br/>それは柱である。<br/><br/>人間でも役に立つ人は柱という。<br/><br/>柱は屋根を支えているもので、屋台骨を支えてる。<br/><br/>力があって重要なものを支えているもの。<br/><br/>神様は人間ではないから一人二人という訳にはゆかぬ。<br/><br/>天皇を柱ともいう。<br/><br/> 大西愛次郎は、昭和五、五、五までに天皇が退位しなければ大困難あり、天皇の御位も落ちるなどといった。<br/><br/>五、五、五は午の年、午の月、午の日である。<br/><br/>これは今想うと当っている。<br/><br/>天理教の御神楽歌を研究するとそうなると言ってパンフレットにして配布した。<br/><br/>そのために天理教の信徒を多数吸収した。<br/><br/>この一派は今再燃しつつある。<br/><br/>三種の神器は自分の子供で後の天皇は自分だといった。<br/><br/>この二点がいけなかった。<br/><br/>かくて起訴され懲役四年かになった、これは根拠のない事ではない。<br/><br/> rattail（注） 〔 天理本道に就て 『地上天国』14号、昭和25(1950)年3月20日発行〕 052 神道祭式 神道の祖先の祭の様式を御伺い致します。<br/><br/> これは神主に聞く。<br/><br/> 私はこういう事は昔から嫌いである。<br/><br/>（S23.11.16） 053 拍手と玉串、笏 宗教的儀式に付き、拍手、玉串、笏または扇子等はいかなる意味があるもので御座いましょうか。<br/><br/>御教えの程お願い申し上げます。<br/><br/> 拍手は神道では四拍手で、いろんな事をいう。<br/><br/>大本ではタカタカという言霊だという。<br/><br/>即ち、タカミ―高御産霊、カムミ―神御産霊で、このタタ、カカが転化して父母という。<br/><br/>これは、霊の神、体の神で、霊体、陰陽を表わすという。<br/><br/>（根拠ないとはいえない） 玉串は榊へ細く切った御幣を掛ける。<br/><br/>これはお召物を献げる事になっている。<br/><br/>御幣は浄める意、祓戸行事から出ている。<br/><br/>浄める意味で、大本教は松を使うが、松の方がいい。<br/><br/>榊は栄える木というが、逆さの木ともいう。<br/><br/>笏や扇子は、扇子は笏の代り、笏は大抵白檀でやる。<br/><br/>笏は魔除けで、初めは剣であった。<br/><br/> rattail（注） 〔 妙智の鍵（光明分会７月号） 、昭和24(1949)年7月1日発行〕 ――宗教的儀式につき、柏手、玉串、笏（しゃく）または扇子などはいかなる意味があるものでございましょうか。<br/><br/> 『拍手は神道では四拍手打ちます。<br/><br/>これは「タカタカ」という言霊で「タタ」「カカ」のことであり、高皇産霊神（たかみむすびのかみ）、神皇産霊神（かむみむすびのかみ）を表わしております。<br/><br/>玉串の紙ビラは神の着物であり、玉串はふつう榊ですが松の木のほうがよろしい。<br/><br/>笏は剣の意味になり、魔を除けることで、ふつう白檀の木で作り、扇子は笏の代用品であります。<br/><br/>』 054 拍手のいわれ 拍手のいわれについて―― 神道で、タカタカという言霊になるという。<br/><br/>タカとは高御産霊、神御産霊の事である。<br/><br/>御祭を初めるからと神様にお知らせする意味が主であると思う。<br/><br/> 今迄は夜の世界で、日がないから丁寧に四拍手（二）した。<br/><br/> 三拝九拝は本当である。<br/><br/> 055 拍手と合掌 既成宗教において神前礼拝に拍手、仏前に合掌を行っておりますが、拍手と合掌の意味について御説明御願い致します。<br/><br/> 拍手は神道、合掌は仏教である。<br/><br/>神仏の形式が分れている所が面白い。<br/><br/> 拍手は四つで、大本教ではタカタカと打つという。<br/><br/>高御産霊、神御産霊は父母の言霊だからという。<br/><br/>今迄は二と四になっている。<br/><br/>月と地のみだった。<br/><br/> 合掌は自然の動作、人間の本能といった方が合っている。<br/><br/>理屈は後でつけたものと思う。<br/><br/>どこの国でも皆一様にする。<br/><br/> 056 合掌の意義 合掌の意義―― 種々理屈をつけるが、自然の本能で、自然にこうなる。<br/><br/> rattail（注） 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年**月**日発行〕 ――礼拝のときの合掌はどんな意味がありましょうか。<br/><br/> 『これは自然ですね。<br/><br/>いろいろ理屈をつけますがね、これはまあ自然にそうなるんですよ。<br/><br/>挨拶のとき頭を下げるのと同じですね。<br/><br/>』 057 合掌の意義 合掌の意義について御教え願います。<br/><br/> 自然に手がそうなるのだと思う。<br/><br/>（S24. 1. 7） 058 三宝とクリ盆 お供え物を致しま時、神様には三宝を、仏様にはくり盆または足のついたくり盆のようなものを用いますが、これにはどんな由来が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 大した謂れはない。<br/><br/>仏様のはお膳を高くしたのであり、神様の方は、清いというので白木のままにした。<br/><br/>そして、角張っても具合がわるいから隅を丸くしたのである。<br/><br/>（S25. 1.22） 059 御幣の意義 神社の御幣は、いかなる意味によって用いられるのでしょうか。<br/><br/> 御幣は本当はぬさ（箒の形）で、清める意味のものである。<br/><br/>ぬさから起ったもので、空間に虫や蛇の霊など沢山いるのを、霊眼の見える人が見た事があり、それらを幣で払うと除いてしまう。<br/><br/>（麻は紙の元になる。<br/><br/>） シメ縄は、シメ込む事で、神様を押込むる意である。<br/><br/>一方、悪魔を防ぐ意だともいう。<br/><br/>これは研究問題である。<br/><br/>鬼門へ鬼瓦をおく。<br/><br/> 060 四柱の神（幣） 四柱の神について御伺い申し上げます。<br/><br/> 四柱の神とは、神道でいう浄めの神である。<br/><br/>虫鳥などの霊は幣で払うと皆どいてしまう。<br/><br/> 061 蚊帳と幽霊 蚊帳を吊ると幽霊などが入らないと昔から言われていますが、いかなるわけでございましょうか。<br/><br/> （麻は紙の元である） 麻というものは非常に不浄を忌む。<br/><br/> 幽霊は執着であるから不浄である。<br/><br/>麻のために近よれぬものとみえる。<br/><br/>神主の上衣など麻が本当である。<br/><br/> よく聞く話であるが、幽霊は蚊帳の外で動作する。<br/><br/>地獄の霊は小さい。<br/><br/>狐の霊は豆粒位で、脇の下に何十匹いた婆さんが以前あった。<br/><br/>（S *. 2.24） 062 一位の木 神主の持ちますシャクは一位の木にて作ると伺いますが、一位の木は檜よりも霊格が上なので御座いましょうか。<br/><br/> 一位の木なら、上である訳である。<br/><br/> 檜はお宮とか宮殿に使う。<br/><br/>（S24. 9.13） 063 扇子と富士山 扇子は、末広といって縁起のいいものである。<br/><br/>扇子用いる。<br/><br/> 富士山なども、白扇の形をしている。<br/><br/> 064 塩と神事 神事に対して御塩を使いますが、いかなる訳が御座いますか。<br/><br/>御教示を御願い致します。<br/><br/> 塩は浄めるのである。<br/><br/>昔から使う。<br/><br/>海はどんな汚いものでも浄化する。<br/><br/>（S24. 6.27） 065 塩の作用 塩をお浄めに用いるわけを御伺い申し上げます。<br/><br/> 非常に浄める力がある。<br/><br/> 066 塩の使用 昔からよく物を浄める時などに塩を用いますが意味が御座いますのでしょうか。<br/><br/> 塩は物を綺麗にするので、浄める意味で用いる。<br/><br/>深い意味のある訳ではない。<br/><br/> 海の水は、いかなるものでも浄化してしまう。<br/><br/>即ち、浄化の力が強いからである。<br/><br/>（S24. 3.14） rattail（注） 〔 御光話（S24年4月特輯号） 『御光話録』6号、昭和24(1949)年4月23日発行〕 ――物を浄めるのによく塩を撒きますが、これはどんな意味でしょうか。<br/><br/> 『塩は物を洗うときに使うときれいになるので、これからきたんでしょうが、そんなに深い意味はありませんよ。<br/><br/>まあ、海の水ってのはいかなるものも浄化して、その力の強烈なものですからね、こんなことからもきたのかもしれません。<br/><br/>人糞でも海中へ流し込めば、それでもう浄まってしまいますからね。<br/><br/>』 067 塩の使用と本教 浄め塩と申しまして、縁起のために塩を用いますのは、いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 浄める事に使う習慣になっている。<br/><br/>大した意味はない。<br/><br/>気休めで大した意味はない。<br/><br/>信者はする要はない。<br/><br/> 神経を休めるというような意味と思う。<br/><br/> 観音教の信者はそんな事しなくともよい。<br/><br/>（S23.12.11） rattail（注） 〔 ご存じですか（実生分会１月号） 、昭和24(1949)年1月1日発行〕 ――浄め塩はいかなるわけでしょうか。<br/><br/> 『従来の習慣上のことでたいした意味はありません。<br/><br/>私どもは塩で穢れを払うより浄霊で浄めればよいわけです。<br/><br/>』 〔 妙智の鍵（光明分会５月号） 、昭和24(1949)年5月5日発行〕 ――浄め塩と申しまして縁起のために塩を用いますのはいかなるわけでございましょうか。<br/><br/> 『塩は浄めに使う習慣となっておりますが、たいしたことはありません。<br/><br/>むしろ本人の神経を休める気休め程度のものです。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hiroki2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 広吉の霊 霊界叢談 『天国の福音』昭和22(1947)年2月5日発行 私はこれから自分が実験した多くの実例を書くが、何分五感では知るを得ない事象である以上誤りがないとはいえないが、私は出来るだけ正確を期すつもりであるから、読者は信を措いて読まれたいのである。<br><br> 広吉の霊 私は霊的研究と治病の実験を併（あわ）せ行なおうとした最初の頃である。<br><br>それは十九歳になる肺患三期の娘を治療した。<br><br>二回の治療でいささか効果が見え第三回目の時であった。<br><br>私が治療にかかると、側に見ていた娘の母親であるＭ夫人（五十歳位）が突然起上って、中腰になり、その形相物凄く、今特に私に掴みかからん気勢を示し「貴様は貴様はよくも俺が殺そうとした娘をもう一息という所へ横合から出て助けやがったな。<br><br>俺は腹が立って堪らねえから貴様をヒドい目に合わしてやる」というのである。<br><br>もちろん男の声色で、私は吃驚（びっくり）した。<br><br>私は「一体あなたは誰です。<br><br>まあまあ落着いて下さい」と宥（なだ）めたところ、彼は不精不精に座りいわく 「俺は広告という者だ」私は 「いったいあなたは、この肉体と、どういう関係があるのです」 彼「俺はこの家の四代前の先祖の弟で広吉というものだ」 私「では、あなたは何がためにこの娘に憑いて取殺そうとしたのですが」 彼「俺は家出をして死んだものだから無縁で誰も構ってくれない。<br><br>だから祀って貰いたいと、今までこの家の奴等に気を付かせようと思い、病気にしたり種々の事をするが一人も気の付く奴がない。<br><br>癪（しゃく）に触って堪らないからこの娘を殺すのだ。<br><br>そうしたら気がつくだろう」 私「しかしあなたは地獄から出て来たのでしょう」 彼「そうだ俺は永く地獄にいたが、もう地獄は嫌になったから、祀ってもらいたいと抜け出て来たんだ」 私「しかし、あなたはこの娘を取殺したら、今までよりもズーッと酷い地獄へ落ちますが、承知ですか」――と言ったところ、彼はやや驚ろいて 「それは本当か――」 私「本当どころか、私は神様の仕事をしているものだ、嘘は決していえない。<br><br>またあなたを必ず祀って上げる」――と種々説得したところ、彼も漸（ようや）く納得し共に協力して娘の病気を治す事になった。<br><br>彼の挙動及び言語は、江戸ッ子的で淡白で、気持の好い男であった。<br><br>幕末頃の市井（しせい）の一町人で職人らしい風である。<br><br>そうしてＭ夫人は神憑り中無我で、いささかの自己意識もない。<br><br>実に理想的霊媒であった。<br><br>その後娘の病気は順調に治癒に向かいつつあったが、ある日突然Ｍ夫人が訪ねて来た。<br><br> 「私は二、三日前から何か霊が憑ったような気がしますから、一度査（しら）べてもらいたい」というので、早速私は霊査法を行った。<br><br>まず夫人が端座瞑目するや、私はまず祝詞を奏上した。<br><br>夫人は無我の状態に陥ったので、私は質（たず）ねた。<br><br> 「あなたはどなたです」 Ｍ「こなたは神じゃ」 私「何神様で、何の御役ですか」 Ｍ「こなたは魔を払う神じゃ、が名前は言えない」私は思った。<br><br>（かねて神にも真物と贋物があるから気を付けなくてはいけないという事を聞いていたから、あるいは贋神かも知れない。<br><br>騙されてはならない）――と警戒しつつ質ねた。<br><br> 私「あなたは何のためにお出になりましたか」 Ｍ「そなたが治している娘は、今魔が狙っているから、その魔を払う事を教えてやる」 私「それはどうすればよいのですか」 Ｍ「朝夕、艮（うしとら）の方角へ向かって塩を撤き、祝詞を奏上すればよい」続いて私は他の事を聞いたが、それには触れず、 「それだけ知らせれば、最早用はない」と言ってお帰りになった。<br><br>Ｍ夫人は覚醒し、驚いた風で私に聞くのである。<br><br> 「先生御覧になりましたか」私は 「何をですか、別に何にも見えませんでした」と言うと、夫人 「実は、初め先生が祝詞をお奏げになると後の方からゴーッと物凄い音がしたかと思うと、いきなり私の脇へお座りになった方がある。<br><br>見ると非常に大きく座っておられて頭が鴨居まで届き、お顔ははっきりしませんでしたが、黒髪を後へ垂らし、鉢巻をなされており、御召物は木の葉を、細く編んだもので、それが五色の色にキラキラ光り迚（とて）も美しく見えたのです。<br><br>間もなく私に御憑りになったかと思うと、何にも分らなくなりました」との事で、私は、これは本当の神様に違いないと思い、その後査べた所、国常立尊という神様である事が判った。<br><br>その事があってから二、三日後、Ｍ夫人はまた訪ねて来た。<br><br>「また何が憑ったような気がしますから、御査べ願いたい」と言うので、早速霊査に取かかると、今度は前とは全然異（ちが）う。<br><br>私は 「何者か」と訊くと、 「小田原道了権現の眷族である」と言うので、 「何のために憑ったのか」と訊くと、 「お詫びをしたい」と言うのである。<br><br> 「それは、どういう訳か」 「実はこの婦人は道了権現の信者であるが、今度娘がアラ神様の御力で助けられたので腹が立ち、邪魔してやろうと思った。<br><br>所がそれを見顕（あら）わされて申訳がない」と言うのである。<br><br>そう言い終るや夫人は横様に倒れた。<br><br>瞑目のまま、呼吸せわしく唸っておったが、五分位で眼を瞠（みひら）き、 「アア驚いた。<br><br>最初黒い物が、私の身体に入ったかと思うと、また誰かが来て、最初の黒い物を鞭のような物で打擲（ちょうちゃく）すると、黒い物は逃げて行った」というので、私は――「二、三日前の神様の警告された魔というのはこれだな」、とおもった。<br><br>それから娘の病気は日一日と快くなり、遂に全快したのである。<br><br>そこで私も広吉の霊を祀ってやった。<br><br>これより先、ある時広吉の霊が夫人に憑っていわく「自分はお蔭様で近頃は地獄の上の方にいるようになり大きに楽になった」と言って厚く礼をのべ、次いで「お願がある」といい「それは毎朝私の家の台所の流しの隅へ御飯を三粒、お猪口（ちょこ）にでも入れていただきたい」というのでその理由を訊くと、彼は 「霊界では一日飯粒三つで充分である。<br><br>また自分は台所より先へは未だ行けない地位にある」と言う。<br><br>その後暫くして彼は「梯子（はしご）の下まで行けるようになった」と言った。<br><br>それはその頃、私の家では二階に神様を祀ってあったからで、その後「神様の次の部屋まで来られるようになった」と言うので、私は「モウよかろう」と祀ってやった。<br><br>それから二、三日経って、私が事務所で仕事をしていると私に憑依したものがある。<br><br>しかも嬉しくて涙が溢れるような感じなのだ。<br><br>直ちに人気のない部屋に行き、憑依霊に訊いたところ、広吉の霊であった。<br><br>彼いわく 「私は今日御礼に参りました。<br><br>私がどんなに嬉しいかという事はよくお解りでしょう」といいまた、「別にお願いがある」と言うのである。<br><br> 「何か」と訊くと、 「それは、今度祀って戴いてから実に結構でいつまでもこのままの境遇でありたいのです。<br><br>娑婆はモウ凝りごりです。<br><br>娑婆では稼がなければ食う事が出来ず、苦しみばかり多くて実に嫌です。<br><br>再び娑婆へ生まれないよう、どうか神様へお願いして戴きたい」と言い終って厚く礼を述べ帰った。<br><br> これらによって察すると、死ぬ事は満更悪い事ではなく、霊界往きもまた可なりと言うべきである。<br><br>そうして霊界においては礼儀が正しく助けた霊は必ず礼に来る。<br><br>その手段として、人の手を通じて物質で礼をする事もある。<br><br>よく思いがけない所から欲しいものが来たり、貰ったりする事があるが、そういう意味である。<br><br> Ｍ夫人は理想的霊媒で、すくなからぬ収穫を私に与えたが、こういう事もあった。<br><br>ある時嬰児の霊が憑った。<br><br>全く嬰児そのままの泣声を出し、その動作もそうである。<br><br>私は種々質（たず）ねたが、嬰児の事とて語る事が出来ない。<br><br>やむを得ず「文字で書け」と言ったところ、拇指で畳へ平仮名で書いた。<br><br>それによってみると「生まれるや、間もなく簀巻（すまき）にされて川へ放り込まれ溺死し、今日まで無縁になっていたので、祭ってくれ」というので、私が諾（うべな）うと欣（よろこ）んで去った。<br><br>右の文字は霊界の誰かが、嬰児の手をとって書かしたものであろう。<br><br>またある時憑依霊へ対し、何遍聞いても更に口を切らない。<br><br>種々の方法をもって漸く知り得たが、それは松の木の霊で、その前日その家の主人が某省官吏でそこの庭にあった松の木の枝を切って持かえり、神様へ供えたのであったが、その松に憑依していた霊で、彼の要求は「人の踏まない地面を掘り、埋めて祝詞を奏げてもらいたい」というので、その通りにしてやった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Espírito de Hirokichi</h2>
 <p>Apresentarei, a seguir, uma série de relatos verídicos que vivenciei. Por se tratarem de fenômenos imperceptíveis aos cinco sentidos, não posso garantir a ausência de equívocos. Contudo, empenhei-me em ser o mais preciso possível, razão pela qual peço ao leitor que prossiga com a mente aberta e confiante.</p>
@@ -137,5 +289,48 @@ Ele disse: "Vim hoje para agradecer. O senhor certamente pode compreender a imen
 <p>Por esses fatos, pode-se concluir que a morte não é de todo um mal, e a jornada para o Mundo Espiritual pode ser bastante positiva. Ademais, no Mundo Espiritual, a etiqueta é rigorosa: um espírito que recebe ajuda invariavelmente retorna para agradecer. Às vezes, essa gratidão se manifesta materialmente, através das mãos de outras pessoas. É por isso que, com frequência, recebemos aquilo que desejamos de fontes inesperadas.</p>
 <p>A Sra. M, como médium ideal, proporcionou-me inúmeros aprendizados. Certa vez, o espírito de um bebê se manifestou através dela. O choro e os movimentos eram idênticos aos de uma criança pequena. Tentei interrogá-lo, mas, sendo um bebê, ele não conseguia falar. Sem alternativa, pedi-lhe que escrevesse. Com o polegar, ele desenhou caracteres em hiragana no tatame. A mensagem dizia que, logo após nascer, fora enrolado em uma esteira de palha e atirado em um rio, onde se afogou. Desde então, era um espírito desamparado e pedia para ser cultuado. Assenti, e ele partiu satisfeito. As palavras, certamente, foram escritas por algum outro espírito que guiava a mão do bebê.</p>
 <p>Em outra ocasião, um espírito se manifestou, mas, por mais que eu o questionasse, ele se recusava a falar. Após diversas tentativas, consegui finalmente entender: era o espírito de um pinheiro. No dia anterior, o dono da casa, um funcionário do governo, havia cortado um galho de um pinheiro no jardim de seu local de trabalho e o levara para ofertar em seu altar. O espírito que habitava a árvore apegou-se ao galho. Seu pedido era que o enterrassem em um local onde não fosse pisoteado por pessoas e que uma oração fosse proferida. Assim o fiz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 広吉の霊 霊界叢談 『天国の福音』昭和22(1947)年2月5日発行 私はこれから自分が実験した多くの実例を書くが、何分五感では知るを得ない事象である以上誤りがないとはいえないが、私は出来るだけ正確を期すつもりであるから、読者は信を措いて読まれたいのである。<br/><br/> 広吉の霊 私は霊的研究と治病の実験を併（あわ）せ行なおうとした最初の頃である。<br/><br/>それは十九歳になる肺患三期の娘を治療した。<br/><br/>二回の治療でいささか効果が見え第三回目の時であった。<br/><br/>私が治療にかかると、側に見ていた娘の母親であるＭ夫人（五十歳位）が突然起上って、中腰になり、その形相物凄く、今特に私に掴みかからん気勢を示し「貴様は貴様はよくも俺が殺そうとした娘をもう一息という所へ横合から出て助けやがったな。<br/><br/>俺は腹が立って堪らねえから貴様をヒドい目に合わしてやる」というのである。<br/><br/>もちろん男の声色で、私は吃驚（びっくり）した。<br/><br/>私は「一体あなたは誰です。<br/><br/>まあまあ落着いて下さい」と宥（なだ）めたところ、彼は不精不精に座りいわく 「俺は広告という者だ」私は 「いったいあなたは、この肉体と、どういう関係があるのです」 彼「俺はこの家の四代前の先祖の弟で広吉というものだ」 私「では、あなたは何がためにこの娘に憑いて取殺そうとしたのですが」 彼「俺は家出をして死んだものだから無縁で誰も構ってくれない。<br/><br/>だから祀って貰いたいと、今までこの家の奴等に気を付かせようと思い、病気にしたり種々の事をするが一人も気の付く奴がない。<br/><br/>癪（しゃく）に触って堪らないからこの娘を殺すのだ。<br/><br/>そうしたら気がつくだろう」 私「しかしあなたは地獄から出て来たのでしょう」 彼「そうだ俺は永く地獄にいたが、もう地獄は嫌になったから、祀ってもらいたいと抜け出て来たんだ」 私「しかし、あなたはこの娘を取殺したら、今までよりもズーッと酷い地獄へ落ちますが、承知ですか」――と言ったところ、彼はやや驚ろいて 「それは本当か――」 私「本当どころか、私は神様の仕事をしているものだ、嘘は決していえない。<br/><br/>またあなたを必ず祀って上げる」――と種々説得したところ、彼も漸（ようや）く納得し共に協力して娘の病気を治す事になった。<br/><br/>彼の挙動及び言語は、江戸ッ子的で淡白で、気持の好い男であった。<br/><br/>幕末頃の市井（しせい）の一町人で職人らしい風である。<br/><br/>そうしてＭ夫人は神憑り中無我で、いささかの自己意識もない。<br/><br/>実に理想的霊媒であった。<br/><br/>その後娘の病気は順調に治癒に向かいつつあったが、ある日突然Ｍ夫人が訪ねて来た。<br/><br/> 「私は二、三日前から何か霊が憑ったような気がしますから、一度査（しら）べてもらいたい」というので、早速私は霊査法を行った。<br/><br/>まず夫人が端座瞑目するや、私はまず祝詞を奏上した。<br/><br/>夫人は無我の状態に陥ったので、私は質（たず）ねた。<br/><br/> 「あなたはどなたです」 Ｍ「こなたは神じゃ」 私「何神様で、何の御役ですか」 Ｍ「こなたは魔を払う神じゃ、が名前は言えない」私は思った。<br/><br/>（かねて神にも真物と贋物があるから気を付けなくてはいけないという事を聞いていたから、あるいは贋神かも知れない。<br/><br/>騙されてはならない）――と警戒しつつ質ねた。<br/><br/> 私「あなたは何のためにお出になりましたか」 Ｍ「そなたが治している娘は、今魔が狙っているから、その魔を払う事を教えてやる」 私「それはどうすればよいのですか」 Ｍ「朝夕、艮（うしとら）の方角へ向かって塩を撤き、祝詞を奏上すればよい」続いて私は他の事を聞いたが、それには触れず、 「それだけ知らせれば、最早用はない」と言ってお帰りになった。<br/><br/>Ｍ夫人は覚醒し、驚いた風で私に聞くのである。<br/><br/> 「先生御覧になりましたか」私は 「何をですか、別に何にも見えませんでした」と言うと、夫人 「実は、初め先生が祝詞をお奏げになると後の方からゴーッと物凄い音がしたかと思うと、いきなり私の脇へお座りになった方がある。<br/><br/>見ると非常に大きく座っておられて頭が鴨居まで届き、お顔ははっきりしませんでしたが、黒髪を後へ垂らし、鉢巻をなされており、御召物は木の葉を、細く編んだもので、それが五色の色にキラキラ光り迚（とて）も美しく見えたのです。<br/><br/>間もなく私に御憑りになったかと思うと、何にも分らなくなりました」との事で、私は、これは本当の神様に違いないと思い、その後査べた所、国常立尊という神様である事が判った。<br/><br/>その事があってから二、三日後、Ｍ夫人はまた訪ねて来た。<br/><br/>「また何が憑ったような気がしますから、御査べ願いたい」と言うので、早速霊査に取かかると、今度は前とは全然異（ちが）う。<br/><br/>私は 「何者か」と訊くと、 「小田原道了権現の眷族である」と言うので、 「何のために憑ったのか」と訊くと、 「お詫びをしたい」と言うのである。<br/><br/> 「それは、どういう訳か」 「実はこの婦人は道了権現の信者であるが、今度娘がアラ神様の御力で助けられたので腹が立ち、邪魔してやろうと思った。<br/><br/>所がそれを見顕（あら）わされて申訳がない」と言うのである。<br/><br/>そう言い終るや夫人は横様に倒れた。<br/><br/>瞑目のまま、呼吸せわしく唸っておったが、五分位で眼を瞠（みひら）き、 「アア驚いた。<br/><br/>最初黒い物が、私の身体に入ったかと思うと、また誰かが来て、最初の黒い物を鞭のような物で打擲（ちょうちゃく）すると、黒い物は逃げて行った」というので、私は――「二、三日前の神様の警告された魔というのはこれだな」、とおもった。<br/><br/>それから娘の病気は日一日と快くなり、遂に全快したのである。<br/><br/>そこで私も広吉の霊を祀ってやった。<br/><br/>これより先、ある時広吉の霊が夫人に憑っていわく「自分はお蔭様で近頃は地獄の上の方にいるようになり大きに楽になった」と言って厚く礼をのべ、次いで「お願がある」といい「それは毎朝私の家の台所の流しの隅へ御飯を三粒、お猪口（ちょこ）にでも入れていただきたい」というのでその理由を訊くと、彼は 「霊界では一日飯粒三つで充分である。<br/><br/>また自分は台所より先へは未だ行けない地位にある」と言う。<br/><br/>その後暫くして彼は「梯子（はしご）の下まで行けるようになった」と言った。<br/><br/>それはその頃、私の家では二階に神様を祀ってあったからで、その後「神様の次の部屋まで来られるようになった」と言うので、私は「モウよかろう」と祀ってやった。<br/><br/>それから二、三日経って、私が事務所で仕事をしていると私に憑依したものがある。<br/><br/>しかも嬉しくて涙が溢れるような感じなのだ。<br/><br/>直ちに人気のない部屋に行き、憑依霊に訊いたところ、広吉の霊であった。<br/><br/>彼いわく 「私は今日御礼に参りました。<br/><br/>私がどんなに嬉しいかという事はよくお解りでしょう」といいまた、「別にお願いがある」と言うのである。<br/><br/> 「何か」と訊くと、 「それは、今度祀って戴いてから実に結構でいつまでもこのままの境遇でありたいのです。<br/><br/>娑婆はモウ凝りごりです。<br/><br/>娑婆では稼がなければ食う事が出来ず、苦しみばかり多くて実に嫌です。<br/><br/>再び娑婆へ生まれないよう、どうか神様へお願いして戴きたい」と言い終って厚く礼を述べ帰った。<br/><br/> これらによって察すると、死ぬ事は満更悪い事ではなく、霊界往きもまた可なりと言うべきである。<br/><br/>そうして霊界においては礼儀が正しく助けた霊は必ず礼に来る。<br/><br/>その手段として、人の手を通じて物質で礼をする事もある。<br/><br/>よく思いがけない所から欲しいものが来たり、貰ったりする事があるが、そういう意味である。<br/><br/> Ｍ夫人は理想的霊媒で、すくなからぬ収穫を私に与えたが、こういう事もあった。<br/><br/>ある時嬰児の霊が憑った。<br/><br/>全く嬰児そのままの泣声を出し、その動作もそうである。<br/><br/>私は種々質（たず）ねたが、嬰児の事とて語る事が出来ない。<br/><br/>やむを得ず「文字で書け」と言ったところ、拇指で畳へ平仮名で書いた。<br/><br/>それによってみると「生まれるや、間もなく簀巻（すまき）にされて川へ放り込まれ溺死し、今日まで無縁になっていたので、祭ってくれ」というので、私が諾（うべな）うと欣（よろこ）んで去った。<br/><br/>右の文字は霊界の誰かが、嬰児の手をとって書かしたものであろう。<br/><br/>またある時憑依霊へ対し、何遍聞いても更に口を切らない。<br/><br/>種々の方法をもって漸く知り得たが、それは松の木の霊で、その前日その家の主人が某省官吏でそこの庭にあった松の木の枝を切って持かえり、神様へ供えたのであったが、その松に憑依していた霊で、彼の要求は「人の踏まない地面を掘り、埋めて祝詞を奏げてもらいたい」というので、その通りにしてやった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

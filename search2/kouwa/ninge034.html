@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ninge034</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 ３ 034-052 宿命と運命 034 出生階層と霊的順序（階級）の合致（夜と昼）、霊格と誠、執着（霊界の夫婦同棲）、父なし子、後悔の愚 霊界より現界に再生する場合、天国人、中有人、地獄人の順序で生まれて来るのですか。<br><br>また、執着のある場合はどうなるのですか。<br><br> 霊界の地位の通り現界へ生れる。<br><br>たまたま間違って生れても、ある時期を過ぐれば霊的階級の近くになる。<br><br> 今迄は非常に紊れていた。<br><br>夜の世界のため、順序が本当になっていない。<br><br>これからは昼になるから、そういう事はなくなる。<br><br> 順序が正しくなるから、霊体のズレがなくなる。<br><br> 霊が高いというのは誠が多いという事になる。<br><br>特権階級などは体だけ昇っていて、霊は落ちていた。<br><br>今度はその本来の順序に下った。<br><br> 天国にいる霊は現界へ生れ更る時、これからは生れながらに良い所へ生れる。<br><br>中有界は普通。<br><br>地獄の人は地獄界へ生れる。<br><br>父なし子などはこれで、捨子になったりする。<br><br>しかし、今迄は善い霊がこういう目に合う事もあった。<br><br> 執着――、天国へ行けば夫婦は遇えるし、同棲出来る。<br><br>中有界以下では出来ない。<br><br>修行が出来ると神様の許しをうけて短時間遇う事は出来る。<br><br>遇いたいと思わぬと自由に遇えるのである。<br><br> 現世でも執着をとる事が一番いい。<br><br>どんな災難でも、悪い事でも、早く忘れなくてはいけない。<br><br>今迄あった事を後悔などするのは遅れる事になる。<br><br>何でもドシドシ忘れる事である。<br><br>（S23.10.24） 035 職業と霊階級 現在の職業でその人の霊的高下が解るものですか。<br><br>御教示御願い申し上げます。<br><br> 職業所ではない。<br><br>あらゆるもので人間が人間で分らぬ。<br><br>ただその人の行動等によって常識的に判らぬ事はないが、これも決められぬ。<br><br>（行いが正しければ常識で高いと判断してもよいが、決められぬ）（S23.11.18） 036 一家における霊階級の高下と偉人の出生 一家における先祖を初め親、兄弟、子孫の霊位はほぼ同じでしょうか。<br><br> 霊的階級の高下、これは非常に違う。<br><br>一家の中でも非常に偉くなるのと、つまらぬ者になるのといる。<br><br>ただしかし、こうはいえる。<br><br>出たらめに、どこの霊統でも偉い者が出るとは限らない。<br><br> 霊統の高い霊統から、先祖など生れる事がある。<br><br> その間の消息が人間には判らぬ。<br><br> 金と鉄、十八 ―― 霊、上位の少数 外人の言霊は働き方がちがう。<br><br> 鉄のごとき低金属ほど多い。<br><br>沢山の人間に大いに必要なもの、これは程度が低い。<br><br>上のもの程少くなる。<br><br> 金は天国的装飾に使う。<br><br>人間でも偉くなるほど少くなる。<br><br>観音様は一番上位である。<br><br>故に金の一寸八分が御本体である。<br><br>一八――十八。<br><br>木――霊。<br><br>日本は日の国、木の国である。<br><br>気は気持。<br><br> 外は水とする。<br><br>阿弥陀は外に大きく作ってある。<br><br>（S23. 9.22） 037 人格の差異と分霊の差、人の善悪、真の人格者、最高最善のもの、日本の豊変性 真の人格の差異は神の分霊に差異がありましょうか。<br><br>また副霊及び曇りに左右されますでしょうか。<br><br> 神の分霊は全部である。<br><br>その人が悪くなるのは、副霊が勝って神の分霊を囲ってしまうのである。<br><br> 普通、世間でいう善人にも先天性の人もあり、善い事をせねばならぬものと考えて善を行う人がそれである。<br><br>こうした方が徳だという巧利的に考える人格もあり、意気地がなくて悪事が出来ぬという人格者もある。<br><br>本当の人格は信仰がなくては出来ない。<br><br>人に親切にした方が徳だというのは一種の取引となる。<br><br>また気の毒だ、可哀相だとして親切にする人などもある。<br><br> 本当の人格者なら神の守護があるから幸せにならなくてはならぬ筈である。<br><br>しかし本当の人、本当の信仰者は反って悪にみられ易い。<br><br> 分霊は平等でも差別がある。<br><br>馬鹿、利口がある。<br><br>いくら人格者でも馬鹿なら良心を有効に使えぬ。<br><br>古い霊魂ほど利口である。<br><br>新しい霊魂は経験なく、智慧が働かぬ。<br><br> 系統は霊統と同じ事である。<br><br>大体火水土である。<br><br>日本人は大体三種の人間が混っている。<br><br>日本人でも日の系統は極く僅かで朝鮮・支那系が日本人より多い。<br><br> 神様は善いものは少く、悪いもの程多く造ってある。<br><br>鉱物でもプラチナが最も少く、金、銀となる。<br><br>鉄なども金のようであったら役に立たぬ。<br><br>であるから何でも位がある。<br><br>労働者のごときものは多く生れる。<br><br>それで世の中はうまく行く。<br><br> 最高の良いものはエホバで、次は二柱というようになる。<br><br>八百万神は第三以下である。<br><br>そして種々の影響や繋り等により無限に違う。<br><br>平等にして差別がある。<br><br> 世の中に決める事はない。<br><br>決めたら間違う。<br><br>社会主義、共産主義などと決めたらそれだけのものである。<br><br>例えば着物を一つに決めれば冬なら寒い。<br><br>いろいろの変化があり、変化に応ずる変化がある。<br><br>種々の変化があるんで面白い。<br><br>一番変化の多いのは日本で、服でも日本は和服洋服等種々沢山ある。<br><br>気候の変化も多い。<br><br>日本は一番金がかかり贅沢である。<br><br>食物でも西洋から支那料理、お香物……鰻等、日本人位食物の種類の多いのはない。<br><br>であるから本当いうと日本人が一番幸せである。<br><br> 木でも一番種類が多い。<br><br>花なども西洋は少い。<br><br>平和的には日本は非常にいい。<br><br>今迄は戦争をやっていたから悪かった。<br><br>日本は世界のオアシスで、文化融合の土地であるとマッカーサーは言った。<br><br> 日本で初めて経緯が結ばれるのである。<br><br> 038 人格と行為、（真の人格者） 行為は人格の現われと考えられる時と、その反対に考えられる時とありますが、どちらが本当でしょうか。<br><br> 人格の表れが本当である。<br><br>反対は本当でない。<br><br>人格と逆の事をやらなくてはならぬ事もある。<br><br>世の中には人格を高くみせる奴も沢山ある。<br><br>これが偉い人に思われる。<br><br>肝腎な事は小乗と大乗があり、小乗の方が偉くみえる。<br><br>本当の人格は世界主義的で人類の幸福を念願する大乗的人格者が本当である。<br><br>（S24.12. 3） rattail（注） 〔 妙智の光（地上天国16号） 昭和25(1950)年8月15日発行〕に掲載 039 霊位と霊衣 霊位の高さと霊衣の厚さの比率について――。<br><br> 比率は同じである。<br><br> 040 宿命知る事、職業の選択、（宿命と災難） 自分の宿命を知る方法を御教え下さい。<br><br> これは簡単にはゆかぬ。<br><br>一番の方法は無理のない、例えば、結婚の話が出ると、その通り順応する。<br><br>（柔順に、自己の意志混えぬ）それが宿命でないなら壊れるし、宿命ならまとまる。<br><br>一ぺん結婚をする。<br><br>すると死別か生別する。<br><br>それで二度目の結婚をする。<br><br>それが本当のものである。<br><br>大先生は殆ど大抵は二度目である。<br><br>無理はいけない。<br><br>職業なども好き嫌いを言わず、自然にそうなった事をする。<br><br>運命に柔順でなくてはならぬ。<br><br>すると宿命の所へ行くのである。<br><br>自分で逆うと、無駄に苦しんで、宿命へ行くのに手間どる。<br><br>信仰へ行くと宿命の点へ行くのは非常に早い。<br><br>そういう点の信仰の価値は大変なものである。<br><br>私など以前信仰が嫌いだったから、他道（よそみち）を大分歩いた。<br><br> 宿命には苦しむ宿命があり、何月何日にどんな災難があると決まっている。<br><br>節は必ずある。<br><br>私など四年目毎にあり、今度は五回目である。<br><br>一時は苦しいが後発展する。<br><br>その節も御利益を戴いてると少く小さく済む。<br><br>一番小さいのは夢で済む。<br><br>夢で死んだり落ちたりする。<br><br>即ち小さい型で済むのである。<br><br> 運命は自分で作るのだから、気をつけてやれば、災難など免れる。<br><br>過失はよくあるが、これは運命――。<br><br>どこまでも運命と宿命に逆らい、我侭を通すと非常に不幸になる。<br><br>小説の悲劇は殆どそうである。<br><br>（S24. 1. 6） 041 宿命を知る事、（信仰者の宿命） 自分の宿命を知る方法あらば御教え下さい。<br><br> 仲々むつかしい。<br><br>ある時期へ行くと知るものである。<br><br> 信仰は別で、信仰者は神様の御用をする事をすぐに知る。<br><br>神様の御用をするのが宿命である。<br><br> 外の事をするのはまずい。<br><br>（S23.10.15） 042 宿命は判らぬがよい事を知る事 宿命の決定的の枠を人間の霊・体的に知りたいと思いますが、決定された宿命の意味が具体的にどうしても解りかねます。<br><br>甚だお恥かしい事でありますが、私的の考えでは、人間は万物の霊長として森羅万象の生命の原理を知るための努力をしていると思います。<br><br>その原理を知り得た時が、宿命の枠内に達すると云う事になりましょうか。<br><br>御伺い申し上げます。<br><br> 宿命は知らない方がよい。<br><br>神様は知らさぬように人間を造ってある。<br><br>（森羅万象の）生命の原理を知る事は結構だが、これを知ると、知らない方が本当だという事が判る。<br><br> 人間は知る事と知らぬ事があるんでいい。<br><br>例えば寿命である、これを知ると活気がなくなる。<br><br> 宿命は知らぬ方がよいという事を知る事が肝腎である。<br><br>（S24. 6.28） 043 宿命と運命（信仰によって知る） 宿命と運命との相違を承ります。<br><br> 大きくいうと、豊臣秀吉は朝鮮征伐をしたために破綻した。<br><br>日本で関白太政大臣で満足すれば破綻なく、何代も続いたに違いない。<br><br> 信仰して、智慧証覚がある程度ゆくと分るものである。<br><br> 044 宿命破れるか 霊界叢談の「霊層界」御説中「宿命とは（中略）霊層界の上中下三段の、いずれかの一段の圏内に限定され……」と御座居ますが、このいずれかの一段とは この一段の事で御座居ましょうか。<br><br> この一段の事で御座いましょうか。<br><br> なお宿命圏は上界と中界、中界と下界とにまたがる事は無い訳で御座いましょうか。<br><br> 宿命は上中下またがる事がある。<br><br>本当に徳を積んで大きい善事をすると宿命を破る事が出来る。<br><br>しかしこれはちょっとだけである。<br><br> （S25. 3. 3） 045 第一天国へは行けぬ 私の主人は昭和十九年十月二十六日（公報）に戦病死致しました。<br><br>昨年秋より疥癬浄化を戴きました折に、私の導いた信徒の人が私の家に来られ、「今御主人の霊がここに来ておられ、次のように申されました」と話して下さいました。<br><br>「私は今家内の行っている浄霊の御仕事によって霊界における人間の最高の地位におり大変感謝している」と。<br><br>この最高の地位という訳を御教え願います。<br><br> 天国である。<br><br>一段二段三段とあるが、その霊の最上位へ行けた訳である。<br><br>普通人間は大抵第三天国である。<br><br>高級の人間で神格のあるのが第二。<br><br>第一天国へは絶対行けない。<br><br> （S24. 5.15） 046 宿命の三段階 宿命上中下三段階とは、天国、中有界、地獄の事を意味するのでしょうか。<br><br>また、宿命とは、その魂の最初からの因縁か、再生の度に変わるものでしょうか。<br><br> 勿論上中下とは「天国、中有界、地獄」の三段階である。<br><br>地位の三段階である。<br><br> 前世のみの因縁に因るものはある範囲がある。<br><br> 地獄、中界、天界と昇れるが、第三は第二へ行けない。<br><br> 地獄は仮の刑罰である。<br><br>その人次第で天国へ行く。<br><br> 非常に徳を積む場合は第二から第一へ行く事もある。<br><br> 047 宿命圏の変化と所在 宿命圏は生れ替り死に替りしても不変なもので御座いましょうか。<br><br>それともその都度変るものでしょうか。<br><br> また、現在中有界が宿命圏である人は地上天国へ生き残れますか。<br><br>右御伺い申し上げます。<br><br> 大体不変である。<br><br>霊統である。<br><br> 委（くわ）しく話すと意味はあるが、宿命圏はズーッと続いてゆくものである。<br><br> 中有界が宿命という事はない。<br><br>誰でも天国までゆける。<br><br>誰でも第三天国まではゆける。<br><br>天国に宿命圏がある。<br><br> 048 宿命は永劫不変か 宿命は未来永劫変らぬものでございましょうか。<br><br> 未来永劫とはいえない。<br><br>生れた時に決められる。<br><br>善い事をして生れ更る場合は良い宿命に生れるし、罪が残っていて生れ更る場合は悪い宿命を持って生れる。<br><br>例えば天皇のごときは平民になった。<br><br>この次生れれば、民主主義の世なれば、平民に生れる訳である。<br><br>（S .11. 4） 049 魂の宿命と魂磨き 人間の魂にも、例えば金の魂とか銅の魂とかと宿命的な区別があって、銅の魂はいかように磨いても銅以上にはなれないものでございましょうか。<br><br> 宿命は致し方ない。<br><br>日月地の系統があり、神様はそのように作ってあり、その系統的働きがある。<br><br> 050 宿命と運命、（天才と努力） 大先生には運命と宿命とは違うと仰せになっておりますが、同じであると称える人があります。<br><br>運命と宿命の違う点につきまして御教示願います。<br><br> すべて物は霊統は変らぬが血統は変る。<br><br>例えば、天才は宿命で、努力は運命である。<br><br> 弁慶の安宅の関など陥没して無い。<br><br>（S24. 5.23） 051 天職と職業、（御若年の頃の明主様） 天職と職業とはどう違うのでしょうか。<br><br> 天職は宿命で、職業は運命であって、人間の自由になる。<br><br>（自由に選択出来る）与えられたる宿命の最高まで行ける。<br><br>（神様に決められた宿命と人間の自由選択と二つに分けてある所に面白味がある。<br><br>私なども若い時にはこんな事になるとは夢にも思はなかった。<br><br>それに宗教なんて大嫌いの方であった） 人間は宿命や使命が判らぬので、つまらぬと思うが、（失敗なども）いろんな経験になって、決して無駄ではない。<br><br>やはり神様からさせられるので、（やはり自分の宿命に到達させられる）（S23.10.13） 052 天職以外の就職 運命と宿命―― 天職使命は職業で、その最善の所まで行くが、他の職業に転じてもうまくゆかぬ。<br><br> （S23.11. 1）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compêndio de Ensaios do Reverendo Jikan Okada</h2>
 <h2>A Essência Humana, Parte 3</h2>
@@ -183,5 +335,48 @@ function toggleLang(lang) {
 <p>Como o ser humano não compreende sua predestinação ou sua missão, ele pode achar certas experiências insignificantes, como os fracassos. No entanto, elas se convertem em diversas vivências e jamais são em vão. Em última análise, somos guiados por Deus para que alcancemos nossa predestinação.</p>
 <h2>052 Seguir uma Carreira Fora da Vocação</h2>
 <p>Destino e Predestinação — A vocação e a missão se manifestam através da profissão, e a pessoa pode alcançar o ápice dentro dela. Se mudar para outra profissão, contudo, não terá sucesso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 ３ 034-052 宿命と運命 034 出生階層と霊的順序（階級）の合致（夜と昼）、霊格と誠、執着（霊界の夫婦同棲）、父なし子、後悔の愚 霊界より現界に再生する場合、天国人、中有人、地獄人の順序で生まれて来るのですか。<br/><br/>また、執着のある場合はどうなるのですか。<br/><br/> 霊界の地位の通り現界へ生れる。<br/><br/>たまたま間違って生れても、ある時期を過ぐれば霊的階級の近くになる。<br/><br/> 今迄は非常に紊れていた。<br/><br/>夜の世界のため、順序が本当になっていない。<br/><br/>これからは昼になるから、そういう事はなくなる。<br/><br/> 順序が正しくなるから、霊体のズレがなくなる。<br/><br/> 霊が高いというのは誠が多いという事になる。<br/><br/>特権階級などは体だけ昇っていて、霊は落ちていた。<br/><br/>今度はその本来の順序に下った。<br/><br/> 天国にいる霊は現界へ生れ更る時、これからは生れながらに良い所へ生れる。<br/><br/>中有界は普通。<br/><br/>地獄の人は地獄界へ生れる。<br/><br/>父なし子などはこれで、捨子になったりする。<br/><br/>しかし、今迄は善い霊がこういう目に合う事もあった。<br/><br/> 執着――、天国へ行けば夫婦は遇えるし、同棲出来る。<br/><br/>中有界以下では出来ない。<br/><br/>修行が出来ると神様の許しをうけて短時間遇う事は出来る。<br/><br/>遇いたいと思わぬと自由に遇えるのである。<br/><br/> 現世でも執着をとる事が一番いい。<br/><br/>どんな災難でも、悪い事でも、早く忘れなくてはいけない。<br/><br/>今迄あった事を後悔などするのは遅れる事になる。<br/><br/>何でもドシドシ忘れる事である。<br/><br/>（S23.10.24） 035 職業と霊階級 現在の職業でその人の霊的高下が解るものですか。<br/><br/>御教示御願い申し上げます。<br/><br/> 職業所ではない。<br/><br/>あらゆるもので人間が人間で分らぬ。<br/><br/>ただその人の行動等によって常識的に判らぬ事はないが、これも決められぬ。<br/><br/>（行いが正しければ常識で高いと判断してもよいが、決められぬ）（S23.11.18） 036 一家における霊階級の高下と偉人の出生 一家における先祖を初め親、兄弟、子孫の霊位はほぼ同じでしょうか。<br/><br/> 霊的階級の高下、これは非常に違う。<br/><br/>一家の中でも非常に偉くなるのと、つまらぬ者になるのといる。<br/><br/>ただしかし、こうはいえる。<br/><br/>出たらめに、どこの霊統でも偉い者が出るとは限らない。<br/><br/> 霊統の高い霊統から、先祖など生れる事がある。<br/><br/> その間の消息が人間には判らぬ。<br/><br/> 金と鉄、十八 ―― 霊、上位の少数 外人の言霊は働き方がちがう。<br/><br/> 鉄のごとき低金属ほど多い。<br/><br/>沢山の人間に大いに必要なもの、これは程度が低い。<br/><br/>上のもの程少くなる。<br/><br/> 金は天国的装飾に使う。<br/><br/>人間でも偉くなるほど少くなる。<br/><br/>観音様は一番上位である。<br/><br/>故に金の一寸八分が御本体である。<br/><br/>一八――十八。<br/><br/>木――霊。<br/><br/>日本は日の国、木の国である。<br/><br/>気は気持。<br/><br/> 外は水とする。<br/><br/>阿弥陀は外に大きく作ってある。<br/><br/>（S23. 9.22） 037 人格の差異と分霊の差、人の善悪、真の人格者、最高最善のもの、日本の豊変性 真の人格の差異は神の分霊に差異がありましょうか。<br/><br/>また副霊及び曇りに左右されますでしょうか。<br/><br/> 神の分霊は全部である。<br/><br/>その人が悪くなるのは、副霊が勝って神の分霊を囲ってしまうのである。<br/><br/> 普通、世間でいう善人にも先天性の人もあり、善い事をせねばならぬものと考えて善を行う人がそれである。<br/><br/>こうした方が徳だという巧利的に考える人格もあり、意気地がなくて悪事が出来ぬという人格者もある。<br/><br/>本当の人格は信仰がなくては出来ない。<br/><br/>人に親切にした方が徳だというのは一種の取引となる。<br/><br/>また気の毒だ、可哀相だとして親切にする人などもある。<br/><br/> 本当の人格者なら神の守護があるから幸せにならなくてはならぬ筈である。<br/><br/>しかし本当の人、本当の信仰者は反って悪にみられ易い。<br/><br/> 分霊は平等でも差別がある。<br/><br/>馬鹿、利口がある。<br/><br/>いくら人格者でも馬鹿なら良心を有効に使えぬ。<br/><br/>古い霊魂ほど利口である。<br/><br/>新しい霊魂は経験なく、智慧が働かぬ。<br/><br/> 系統は霊統と同じ事である。<br/><br/>大体火水土である。<br/><br/>日本人は大体三種の人間が混っている。<br/><br/>日本人でも日の系統は極く僅かで朝鮮・支那系が日本人より多い。<br/><br/> 神様は善いものは少く、悪いもの程多く造ってある。<br/><br/>鉱物でもプラチナが最も少く、金、銀となる。<br/><br/>鉄なども金のようであったら役に立たぬ。<br/><br/>であるから何でも位がある。<br/><br/>労働者のごときものは多く生れる。<br/><br/>それで世の中はうまく行く。<br/><br/> 最高の良いものはエホバで、次は二柱というようになる。<br/><br/>八百万神は第三以下である。<br/><br/>そして種々の影響や繋り等により無限に違う。<br/><br/>平等にして差別がある。<br/><br/> 世の中に決める事はない。<br/><br/>決めたら間違う。<br/><br/>社会主義、共産主義などと決めたらそれだけのものである。<br/><br/>例えば着物を一つに決めれば冬なら寒い。<br/><br/>いろいろの変化があり、変化に応ずる変化がある。<br/><br/>種々の変化があるんで面白い。<br/><br/>一番変化の多いのは日本で、服でも日本は和服洋服等種々沢山ある。<br/><br/>気候の変化も多い。<br/><br/>日本は一番金がかかり贅沢である。<br/><br/>食物でも西洋から支那料理、お香物……鰻等、日本人位食物の種類の多いのはない。<br/><br/>であるから本当いうと日本人が一番幸せである。<br/><br/> 木でも一番種類が多い。<br/><br/>花なども西洋は少い。<br/><br/>平和的には日本は非常にいい。<br/><br/>今迄は戦争をやっていたから悪かった。<br/><br/>日本は世界のオアシスで、文化融合の土地であるとマッカーサーは言った。<br/><br/> 日本で初めて経緯が結ばれるのである。<br/><br/> 038 人格と行為、（真の人格者） 行為は人格の現われと考えられる時と、その反対に考えられる時とありますが、どちらが本当でしょうか。<br/><br/> 人格の表れが本当である。<br/><br/>反対は本当でない。<br/><br/>人格と逆の事をやらなくてはならぬ事もある。<br/><br/>世の中には人格を高くみせる奴も沢山ある。<br/><br/>これが偉い人に思われる。<br/><br/>肝腎な事は小乗と大乗があり、小乗の方が偉くみえる。<br/><br/>本当の人格は世界主義的で人類の幸福を念願する大乗的人格者が本当である。<br/><br/>（S24.12. 3） rattail（注） 〔 妙智の光（地上天国16号） 昭和25(1950)年8月15日発行〕に掲載 039 霊位と霊衣 霊位の高さと霊衣の厚さの比率について――。<br/><br/> 比率は同じである。<br/><br/> 040 宿命知る事、職業の選択、（宿命と災難） 自分の宿命を知る方法を御教え下さい。<br/><br/> これは簡単にはゆかぬ。<br/><br/>一番の方法は無理のない、例えば、結婚の話が出ると、その通り順応する。<br/><br/>（柔順に、自己の意志混えぬ）それが宿命でないなら壊れるし、宿命ならまとまる。<br/><br/>一ぺん結婚をする。<br/><br/>すると死別か生別する。<br/><br/>それで二度目の結婚をする。<br/><br/>それが本当のものである。<br/><br/>大先生は殆ど大抵は二度目である。<br/><br/>無理はいけない。<br/><br/>職業なども好き嫌いを言わず、自然にそうなった事をする。<br/><br/>運命に柔順でなくてはならぬ。<br/><br/>すると宿命の所へ行くのである。<br/><br/>自分で逆うと、無駄に苦しんで、宿命へ行くのに手間どる。<br/><br/>信仰へ行くと宿命の点へ行くのは非常に早い。<br/><br/>そういう点の信仰の価値は大変なものである。<br/><br/>私など以前信仰が嫌いだったから、他道（よそみち）を大分歩いた。<br/><br/> 宿命には苦しむ宿命があり、何月何日にどんな災難があると決まっている。<br/><br/>節は必ずある。<br/><br/>私など四年目毎にあり、今度は五回目である。<br/><br/>一時は苦しいが後発展する。<br/><br/>その節も御利益を戴いてると少く小さく済む。<br/><br/>一番小さいのは夢で済む。<br/><br/>夢で死んだり落ちたりする。<br/><br/>即ち小さい型で済むのである。<br/><br/> 運命は自分で作るのだから、気をつけてやれば、災難など免れる。<br/><br/>過失はよくあるが、これは運命――。<br/><br/>どこまでも運命と宿命に逆らい、我侭を通すと非常に不幸になる。<br/><br/>小説の悲劇は殆どそうである。<br/><br/>（S24. 1. 6） 041 宿命を知る事、（信仰者の宿命） 自分の宿命を知る方法あらば御教え下さい。<br/><br/> 仲々むつかしい。<br/><br/>ある時期へ行くと知るものである。<br/><br/> 信仰は別で、信仰者は神様の御用をする事をすぐに知る。<br/><br/>神様の御用をするのが宿命である。<br/><br/> 外の事をするのはまずい。<br/><br/>（S23.10.15） 042 宿命は判らぬがよい事を知る事 宿命の決定的の枠を人間の霊・体的に知りたいと思いますが、決定された宿命の意味が具体的にどうしても解りかねます。<br/><br/>甚だお恥かしい事でありますが、私的の考えでは、人間は万物の霊長として森羅万象の生命の原理を知るための努力をしていると思います。<br/><br/>その原理を知り得た時が、宿命の枠内に達すると云う事になりましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 宿命は知らない方がよい。<br/><br/>神様は知らさぬように人間を造ってある。<br/><br/>（森羅万象の）生命の原理を知る事は結構だが、これを知ると、知らない方が本当だという事が判る。<br/><br/> 人間は知る事と知らぬ事があるんでいい。<br/><br/>例えば寿命である、これを知ると活気がなくなる。<br/><br/> 宿命は知らぬ方がよいという事を知る事が肝腎である。<br/><br/>（S24. 6.28） 043 宿命と運命（信仰によって知る） 宿命と運命との相違を承ります。<br/><br/> 大きくいうと、豊臣秀吉は朝鮮征伐をしたために破綻した。<br/><br/>日本で関白太政大臣で満足すれば破綻なく、何代も続いたに違いない。<br/><br/> 信仰して、智慧証覚がある程度ゆくと分るものである。<br/><br/> 044 宿命破れるか 霊界叢談の「霊層界」御説中「宿命とは（中略）霊層界の上中下三段の、いずれかの一段の圏内に限定され……」と御座居ますが、このいずれかの一段とは この一段の事で御座居ましょうか。<br/><br/> この一段の事で御座いましょうか。<br/><br/> なお宿命圏は上界と中界、中界と下界とにまたがる事は無い訳で御座いましょうか。<br/><br/> 宿命は上中下またがる事がある。<br/><br/>本当に徳を積んで大きい善事をすると宿命を破る事が出来る。<br/><br/>しかしこれはちょっとだけである。<br/><br/> （S25. 3. 3） 045 第一天国へは行けぬ 私の主人は昭和十九年十月二十六日（公報）に戦病死致しました。<br/><br/>昨年秋より疥癬浄化を戴きました折に、私の導いた信徒の人が私の家に来られ、「今御主人の霊がここに来ておられ、次のように申されました」と話して下さいました。<br/><br/>「私は今家内の行っている浄霊の御仕事によって霊界における人間の最高の地位におり大変感謝している」と。<br/><br/>この最高の地位という訳を御教え願います。<br/><br/> 天国である。<br/><br/>一段二段三段とあるが、その霊の最上位へ行けた訳である。<br/><br/>普通人間は大抵第三天国である。<br/><br/>高級の人間で神格のあるのが第二。<br/><br/>第一天国へは絶対行けない。<br/><br/> （S24. 5.15） 046 宿命の三段階 宿命上中下三段階とは、天国、中有界、地獄の事を意味するのでしょうか。<br/><br/>また、宿命とは、その魂の最初からの因縁か、再生の度に変わるものでしょうか。<br/><br/> 勿論上中下とは「天国、中有界、地獄」の三段階である。<br/><br/>地位の三段階である。<br/><br/> 前世のみの因縁に因るものはある範囲がある。<br/><br/> 地獄、中界、天界と昇れるが、第三は第二へ行けない。<br/><br/> 地獄は仮の刑罰である。<br/><br/>その人次第で天国へ行く。<br/><br/> 非常に徳を積む場合は第二から第一へ行く事もある。<br/><br/> 047 宿命圏の変化と所在 宿命圏は生れ替り死に替りしても不変なもので御座いましょうか。<br/><br/>それともその都度変るものでしょうか。<br/><br/> また、現在中有界が宿命圏である人は地上天国へ生き残れますか。<br/><br/>右御伺い申し上げます。<br/><br/> 大体不変である。<br/><br/>霊統である。<br/><br/> 委（くわ）しく話すと意味はあるが、宿命圏はズーッと続いてゆくものである。<br/><br/> 中有界が宿命という事はない。<br/><br/>誰でも天国までゆける。<br/><br/>誰でも第三天国まではゆける。<br/><br/>天国に宿命圏がある。<br/><br/> 048 宿命は永劫不変か 宿命は未来永劫変らぬものでございましょうか。<br/><br/> 未来永劫とはいえない。<br/><br/>生れた時に決められる。<br/><br/>善い事をして生れ更る場合は良い宿命に生れるし、罪が残っていて生れ更る場合は悪い宿命を持って生れる。<br/><br/>例えば天皇のごときは平民になった。<br/><br/>この次生れれば、民主主義の世なれば、平民に生れる訳である。<br/><br/>（S .11. 4） 049 魂の宿命と魂磨き 人間の魂にも、例えば金の魂とか銅の魂とかと宿命的な区別があって、銅の魂はいかように磨いても銅以上にはなれないものでございましょうか。<br/><br/> 宿命は致し方ない。<br/><br/>日月地の系統があり、神様はそのように作ってあり、その系統的働きがある。<br/><br/> 050 宿命と運命、（天才と努力） 大先生には運命と宿命とは違うと仰せになっておりますが、同じであると称える人があります。<br/><br/>運命と宿命の違う点につきまして御教示願います。<br/><br/> すべて物は霊統は変らぬが血統は変る。<br/><br/>例えば、天才は宿命で、努力は運命である。<br/><br/> 弁慶の安宅の関など陥没して無い。<br/><br/>（S24. 5.23） 051 天職と職業、（御若年の頃の明主様） 天職と職業とはどう違うのでしょうか。<br/><br/> 天職は宿命で、職業は運命であって、人間の自由になる。<br/><br/>（自由に選択出来る）与えられたる宿命の最高まで行ける。<br/><br/>（神様に決められた宿命と人間の自由選択と二つに分けてある所に面白味がある。<br/><br/>私なども若い時にはこんな事になるとは夢にも思はなかった。<br/><br/>それに宗教なんて大嫌いの方であった） 人間は宿命や使命が判らぬので、つまらぬと思うが、（失敗なども）いろんな経験になって、決して無駄ではない。<br/><br/>やはり神様からさせられるので、（やはり自分の宿命に到達させられる）（S23.10.13） 052 天職以外の就職 運命と宿命―― 天職使命は職業で、その最善の所まで行くが、他の職業に転じてもうまくゆかぬ。<br/><br/> （S23.11. 1）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

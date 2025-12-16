@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>noho051</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農法篇 自然農法 ５ 051-069 技術 051 自然耕作の方針 農民は冬水田に水をたっぷり入れないと不作と言うが、自然耕作では水を入れた方が宜しいか、または水を捨てて乾かすか、出来れば耕した方が宜しいでしょうか。<br><br> 土地の状態により適宜にやればよいのである。<br><br>何にもせず、すてておく方針をとるがよい。<br><br> 052 育苗の仕方 無肥料栽培について―― 稲苗を畑で仕立てて後田に植える、または苗を温床で仕立てて後、一回移植後に田植えをしますが、この方法は自然でないからいけないのでしょうか。<br><br> 水で育てなくてはいけない。<br><br>畑ではいけない。<br><br>温床もあまりよくない。<br><br>山水など割に入る所、極く温度を少くしてやればよい。<br><br>自然に反す。<br><br>電気や放射線をやると良くなるというが皆駄目で、一時はいいがその先は反動的に反って悪くなる。<br><br>（一、二年よくても）故に、決して長く続かぬ。<br><br>長年掛ると煙になる。<br><br> 053 低く粘土質田と植え方 稲作の事ですが、私の方の土は粘土質で深い土地です。<br><br>田圃は低みであります。<br><br>今迄は尺間に植えておりますが、あらく多く植えた方がよろしいでしょうか。<br><br>少し細かく植えた方がよろしいでしょうか。<br><br>お尋ね致します。<br><br> 粘土質は外の土を入れた方がよい。<br><br>堆肥を細かに刻むようにして、ふるって使う。<br><br>稲作は水で緩和するから、大して悪くはない。<br><br> 植え方は、細かく植えた方と、固めて植えた方がよいのと、土地によって種々ある。<br><br>風の強い所は固めてやると折れやすくない。<br><br>それに応じてやる。<br><br> 054 中耕と麦踏み 無肥料耕作に麦踏み、中耕はどう致したらよろしいでしょうか。<br><br> 中耕は特にいい。<br><br>これは土を固まらせないようにする。<br><br>麦踏みは霜が降りて土が浮くから、これを防ぐためである。<br><br>（S23.11.27） rattail（注） 〔 御光話（S23年 4月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br>〕 『耕すのも固まらせないことが必要です。<br><br>麦踏みは霜のためですね、冬を越すから。<br><br>霜は上からでなく下から土をもち上げる。<br><br>だから土がふかふかしてしまう。<br><br>それを防ぐために麦を踏むんだからあれはいい。<br><br>』 055 麦踏みと土入れ 浄霊にて耕作させて戴いております大.小麦の麦踏み及び土入れはいかにしたら宜しいでしょうか。<br><br>これが可否、方法を御垂示さい。<br><br> 麦踏みは、霜の降りる所では土を持上げるからした方がよい。<br><br>土入れも麦踏みをすると低くなるからする。<br><br>どっちもした方がよい。<br><br>霜は降るのが本当で、下からの水気もある。<br><br> 056 麦踏みと川藻 麦類の土入れ及び麦踏み等は自然に反するように思います。<br><br>川藻は肥料としてよろしいでしょうか。<br><br> 自然に反しない。<br><br>土踏みは、無肥料ならその要はない。<br><br> 川藻も必要なく、やらぬ方がよい。<br><br>（S24） 057 麦踏みの可否 麦栽培に寒期の三月頃迄、麦踏み（踏圧作業）を農業会などで奨励していますが、自然の発育力に逆らう理ですが、いかがで御座いましょうか。<br><br>謹んで御伺い申し上げます。<br><br> 霜のため持上るから、結構である。<br><br>（S24.11.26） 058 麦踏みと霜地 無肥料栽培の時、麦踏みはどう致しましたらよろしいもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 麦踏みは結構である。<br><br>霜で持上らぬと麦の根が固まらぬ。<br><br>霜の多い所は大いにやるとよい。<br><br>（S24. 1.21） 059 麦踏み 農作物を浄霊して御神徳を戴いた事を承っておりますが「麦踏み」と言うような事はいかがなもので御座いましょうか。<br><br> 麦踏みはした方がよい。<br><br>霜の降りる時は、土が浮くから土を固めるためにした方がよい。<br><br>土入れもよい。<br><br>（S *. 1.14） 060 不自然耕作 神示の耕作について御尋ね致します。<br><br>砂土の田にて毎年取れた藁全部と青刈紫雲英（レンゲ）全部と、窒素肥料五、六貫目位施しても普通田より三斗位少なくしか穫れませんが、自給肥のみにて増産出来るでしょうか。<br><br>御教え下さい。<br><br> これは勝手なやり方である。<br><br>よく出来っこない。<br><br>これは純然たる無肥で、土を清浄化しなくてはいけない。<br><br> 紫雲英は、人間が見て楽しむために神様が造られたもので、これを肥料に使うのは神意に叛く。<br><br> 藁は土を温めるためで、出来るだけ細かく切る。<br><br>根伸びをよくする。<br><br>つかえるといけない。<br><br>窒素肥料も一時的なものである。<br><br>（S24. 9. 7） 061 促成栽培 促成栽培は自然に反すると思いますが、農業経済上必要と思います。<br><br>無肥料栽培の立場から見ていかようで御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 一時は多収だが、後減収する。<br><br>アドルム中毒と同じである。<br><br>（S25. 5.25） 062 剪定と摘芯 果樹、瓜類等、収穫を良くするために剪定及び摘芯を行いますが、これは反自然に思われますが、無肥料栽培においては、いかがなもので御座いましょうか。<br><br>もし差支えないとすれば、有肥の時と方法は同じでよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 剪定や摘芯する事が反って自然である。<br><br>植物は切られる事を喜ぶ。<br><br>切った方が花もよく咲き、実もよくなる。<br><br>勢いよくなる。<br><br>（S24. 7.21） 063 摘芽や交配 花作りや盆栽などの場合芽を摘んだり撓（たわ）めたり交配などを行いますが、自然に反せぬものでしょうか。<br><br>また施肥によって栽培の効果をあげておりますが、やはり間違いでしょうか。<br><br> 大いに改良する方がよい。<br><br>肥料がいけない。<br><br>果物など、原始時代からいへば、ズーッと殖えている。<br><br>神様が最初に造った時は、貧弱なものであった。<br><br> 施肥は一時的なものである。<br><br>（S24.10.24） rattail（注） 〔 御光話（S23年10月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br>〕 『無論無肥料でやるからって改良は必要ですよ。<br><br>稲なんかも神様が最初作られたときは一穂に五粒くらいだったんですが、いまではだいたい三百粒くらいでしょう。<br><br>人口の増加と平均して米粒のできるのも殖えるのです。<br><br>いま日本は食うだけの米がとれないが本当はとれるべきで、とれないというのは、とれないようなこと、間違ったことをしているからです。<br><br>』 064 接木 観音栽培でも果樹等に対し接木などは必要なものでしょうか。<br><br> 必要とか不必要というものでない。<br><br>肥料の問題である。<br><br>（S24. 8.23） 065 移植の可否 麦、南瓜、菜種等移植をすると良く出来ると言います。<br><br>特に茄子など何回もしますが、どういうものでしょうか。<br><br>蒔き放しでもとれますがどうでしょうか。<br><br> 移植せぬ方がよい。<br><br>根を痛め、土が代るから弱る。<br><br>稲など直播するが、その方がよい。<br><br>南洋では牛の足跡へ蒔く。<br><br>茄子など連作を不可としている。<br><br>（S23.12.26） 066 馬鈴薯の植付け法 馬鈴薯の植付けに今迄は一個のイモを二つないし三つ位に切断し、切口に灰を塗って植えておりましたが、今後はどのように致したらよいのでしょうか。<br><br> 灰を入れぬ方がよい。<br><br> 067 種薯の移入 現在は北海道の種馬鈴薯が当地方でも奨励されておりますが、無肥料栽培が普及すると必要なくなりましょうか。<br><br> 必要ない。<br><br>無肥料でやれば、とてもいいものがとれる。<br><br> 068 雑草の二種 今年で二年目の麦の無肥料栽培を実施致しておりますが、他の有肥栽培の畑では雑草が繁茂しておりますのに、私の方では左程生えておらず、草取りも殆どせずに済み、感謝致しております。<br><br>無肥料栽培にはかかる特徴があるもので御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 今迄の草は、肥料のために生えるのとそうでない草と二種ある。<br><br>これでよい。<br><br>（S25. 5.11） 069 田草取りの時期 田の草を取りますのに、日中の暑い時取った方が良いでしょうか、朝の涼しい時にした方がよいでしょうか。<br><br>また、日中の暑い時と朝の涼しい時草取りをしたのでは、稲の発育や収穫に影響があるものでしょうか。<br><br>御教示下さい。<br><br> どっちでもよい。<br><br>草を育てるものなら取っては具合が悪い事もあるが、（そんな事はない。<br><br>）（S24. 7.25）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Ensaios do Mestre Okada Jikan – Volume sobre Agricultura: Agricultura Natural 5 (Técnicas 051-069)</h2>
 <p><strong>051. Diretriz para o Cultivo Natural</strong></p>
@@ -158,5 +310,48 @@ Do Goshuwa de 8 de outubro de 1948 (Gowaroku (Suplemento), data de publicação 
 <p><strong>069. Época para a Capina dos Arrozais</strong></p>
 <p><strong>Pergunta:</strong> Para a capina dos arrozais, é melhor realizá-la durante o calor do dia ou no frescor da manhã? A escolha do horário influencia o desenvolvimento e a produtividade do arroz? Por favor, instrua-me.</p>
 <p><strong>Resposta:</strong> Tanto faz. Se o objetivo fosse cultivar as ervas daninhas, removê-las poderia ser um problema, mas não é o caso, evidentemente. (25 de julho de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農法篇 自然農法 ５ 051-069 技術 051 自然耕作の方針 農民は冬水田に水をたっぷり入れないと不作と言うが、自然耕作では水を入れた方が宜しいか、または水を捨てて乾かすか、出来れば耕した方が宜しいでしょうか。<br/><br/> 土地の状態により適宜にやればよいのである。<br/><br/>何にもせず、すてておく方針をとるがよい。<br/><br/> 052 育苗の仕方 無肥料栽培について―― 稲苗を畑で仕立てて後田に植える、または苗を温床で仕立てて後、一回移植後に田植えをしますが、この方法は自然でないからいけないのでしょうか。<br/><br/> 水で育てなくてはいけない。<br/><br/>畑ではいけない。<br/><br/>温床もあまりよくない。<br/><br/>山水など割に入る所、極く温度を少くしてやればよい。<br/><br/>自然に反す。<br/><br/>電気や放射線をやると良くなるというが皆駄目で、一時はいいがその先は反動的に反って悪くなる。<br/><br/>（一、二年よくても）故に、決して長く続かぬ。<br/><br/>長年掛ると煙になる。<br/><br/> 053 低く粘土質田と植え方 稲作の事ですが、私の方の土は粘土質で深い土地です。<br/><br/>田圃は低みであります。<br/><br/>今迄は尺間に植えておりますが、あらく多く植えた方がよろしいでしょうか。<br/><br/>少し細かく植えた方がよろしいでしょうか。<br/><br/>お尋ね致します。<br/><br/> 粘土質は外の土を入れた方がよい。<br/><br/>堆肥を細かに刻むようにして、ふるって使う。<br/><br/>稲作は水で緩和するから、大して悪くはない。<br/><br/> 植え方は、細かく植えた方と、固めて植えた方がよいのと、土地によって種々ある。<br/><br/>風の強い所は固めてやると折れやすくない。<br/><br/>それに応じてやる。<br/><br/> 054 中耕と麦踏み 無肥料耕作に麦踏み、中耕はどう致したらよろしいでしょうか。<br/><br/> 中耕は特にいい。<br/><br/>これは土を固まらせないようにする。<br/><br/>麦踏みは霜が降りて土が浮くから、これを防ぐためである。<br/><br/>（S23.11.27） rattail（注） 〔 御光話（S23年 4月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/>〕 『耕すのも固まらせないことが必要です。<br/><br/>麦踏みは霜のためですね、冬を越すから。<br/><br/>霜は上からでなく下から土をもち上げる。<br/><br/>だから土がふかふかしてしまう。<br/><br/>それを防ぐために麦を踏むんだからあれはいい。<br/><br/>』 055 麦踏みと土入れ 浄霊にて耕作させて戴いております大.小麦の麦踏み及び土入れはいかにしたら宜しいでしょうか。<br/><br/>これが可否、方法を御垂示さい。<br/><br/> 麦踏みは、霜の降りる所では土を持上げるからした方がよい。<br/><br/>土入れも麦踏みをすると低くなるからする。<br/><br/>どっちもした方がよい。<br/><br/>霜は降るのが本当で、下からの水気もある。<br/><br/> 056 麦踏みと川藻 麦類の土入れ及び麦踏み等は自然に反するように思います。<br/><br/>川藻は肥料としてよろしいでしょうか。<br/><br/> 自然に反しない。<br/><br/>土踏みは、無肥料ならその要はない。<br/><br/> 川藻も必要なく、やらぬ方がよい。<br/><br/>（S24） 057 麦踏みの可否 麦栽培に寒期の三月頃迄、麦踏み（踏圧作業）を農業会などで奨励していますが、自然の発育力に逆らう理ですが、いかがで御座いましょうか。<br/><br/>謹んで御伺い申し上げます。<br/><br/> 霜のため持上るから、結構である。<br/><br/>（S24.11.26） 058 麦踏みと霜地 無肥料栽培の時、麦踏みはどう致しましたらよろしいもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 麦踏みは結構である。<br/><br/>霜で持上らぬと麦の根が固まらぬ。<br/><br/>霜の多い所は大いにやるとよい。<br/><br/>（S24. 1.21） 059 麦踏み 農作物を浄霊して御神徳を戴いた事を承っておりますが「麦踏み」と言うような事はいかがなもので御座いましょうか。<br/><br/> 麦踏みはした方がよい。<br/><br/>霜の降りる時は、土が浮くから土を固めるためにした方がよい。<br/><br/>土入れもよい。<br/><br/>（S *. 1.14） 060 不自然耕作 神示の耕作について御尋ね致します。<br/><br/>砂土の田にて毎年取れた藁全部と青刈紫雲英（レンゲ）全部と、窒素肥料五、六貫目位施しても普通田より三斗位少なくしか穫れませんが、自給肥のみにて増産出来るでしょうか。<br/><br/>御教え下さい。<br/><br/> これは勝手なやり方である。<br/><br/>よく出来っこない。<br/><br/>これは純然たる無肥で、土を清浄化しなくてはいけない。<br/><br/> 紫雲英は、人間が見て楽しむために神様が造られたもので、これを肥料に使うのは神意に叛く。<br/><br/> 藁は土を温めるためで、出来るだけ細かく切る。<br/><br/>根伸びをよくする。<br/><br/>つかえるといけない。<br/><br/>窒素肥料も一時的なものである。<br/><br/>（S24. 9. 7） 061 促成栽培 促成栽培は自然に反すると思いますが、農業経済上必要と思います。<br/><br/>無肥料栽培の立場から見ていかようで御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 一時は多収だが、後減収する。<br/><br/>アドルム中毒と同じである。<br/><br/>（S25. 5.25） 062 剪定と摘芯 果樹、瓜類等、収穫を良くするために剪定及び摘芯を行いますが、これは反自然に思われますが、無肥料栽培においては、いかがなもので御座いましょうか。<br/><br/>もし差支えないとすれば、有肥の時と方法は同じでよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 剪定や摘芯する事が反って自然である。<br/><br/>植物は切られる事を喜ぶ。<br/><br/>切った方が花もよく咲き、実もよくなる。<br/><br/>勢いよくなる。<br/><br/>（S24. 7.21） 063 摘芽や交配 花作りや盆栽などの場合芽を摘んだり撓（たわ）めたり交配などを行いますが、自然に反せぬものでしょうか。<br/><br/>また施肥によって栽培の効果をあげておりますが、やはり間違いでしょうか。<br/><br/> 大いに改良する方がよい。<br/><br/>肥料がいけない。<br/><br/>果物など、原始時代からいへば、ズーッと殖えている。<br/><br/>神様が最初に造った時は、貧弱なものであった。<br/><br/> 施肥は一時的なものである。<br/><br/>（S24.10.24） rattail（注） 〔 御光話（S23年10月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/>〕 『無論無肥料でやるからって改良は必要ですよ。<br/><br/>稲なんかも神様が最初作られたときは一穂に五粒くらいだったんですが、いまではだいたい三百粒くらいでしょう。<br/><br/>人口の増加と平均して米粒のできるのも殖えるのです。<br/><br/>いま日本は食うだけの米がとれないが本当はとれるべきで、とれないというのは、とれないようなこと、間違ったことをしているからです。<br/><br/>』 064 接木 観音栽培でも果樹等に対し接木などは必要なものでしょうか。<br/><br/> 必要とか不必要というものでない。<br/><br/>肥料の問題である。<br/><br/>（S24. 8.23） 065 移植の可否 麦、南瓜、菜種等移植をすると良く出来ると言います。<br/><br/>特に茄子など何回もしますが、どういうものでしょうか。<br/><br/>蒔き放しでもとれますがどうでしょうか。<br/><br/> 移植せぬ方がよい。<br/><br/>根を痛め、土が代るから弱る。<br/><br/>稲など直播するが、その方がよい。<br/><br/>南洋では牛の足跡へ蒔く。<br/><br/>茄子など連作を不可としている。<br/><br/>（S23.12.26） 066 馬鈴薯の植付け法 馬鈴薯の植付けに今迄は一個のイモを二つないし三つ位に切断し、切口に灰を塗って植えておりましたが、今後はどのように致したらよいのでしょうか。<br/><br/> 灰を入れぬ方がよい。<br/><br/> 067 種薯の移入 現在は北海道の種馬鈴薯が当地方でも奨励されておりますが、無肥料栽培が普及すると必要なくなりましょうか。<br/><br/> 必要ない。<br/><br/>無肥料でやれば、とてもいいものがとれる。<br/><br/> 068 雑草の二種 今年で二年目の麦の無肥料栽培を実施致しておりますが、他の有肥栽培の畑では雑草が繁茂しておりますのに、私の方では左程生えておらず、草取りも殆どせずに済み、感謝致しております。<br/><br/>無肥料栽培にはかかる特徴があるもので御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 今迄の草は、肥料のために生えるのとそうでない草と二種ある。<br/><br/>これでよい。<br/><br/>（S25. 5.11） 069 田草取りの時期 田の草を取りますのに、日中の暑い時取った方が良いでしょうか、朝の涼しい時にした方がよいでしょうか。<br/><br/>また、日中の暑い時と朝の涼しい時草取りをしたのでは、稲の発育や収穫に影響があるものでしょうか。<br/><br/>御教示下さい。<br/><br/> どっちでもよい。<br/><br/>草を育てるものなら取っては具合が悪い事もあるが、（そんな事はない。<br/><br/>）（S24. 7.25）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

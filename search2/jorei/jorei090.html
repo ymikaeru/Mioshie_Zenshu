@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei090</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記抄 槐安生 『栄光』90号、昭和26(1951)年2月7日発行 某月某日 宮川さんが訪ねてきて、暫く信仰から離れたい、と言い難くそうに云った、したくない信仰を、無理に我慢して義理で信仰する必要はないので、それもいいですね、と賛成した、何か云われるかと、予想して来たらしいのに、私が余りにあっさりと賛成したので、反って張合いが抜けたらしい面持ちでいる。<br><br>「何か、急に止めたくなった訳がありそうですね」と尋ねると、次のように信仰を離れる理由を述べた、Ｙ市の場末に、平素は洋傘の修繕業をし、特別の紹介人があった時は、その人の運勢を見る奇人がいる、その人の運勢を見る方法は、姓名だけを書いたものを見て過去を云い当て、性格を当てる、かつて外れた事のない権威者だそうである、その運勢を見る人が云うのには、信仰をした人で、終りを全うした人はないと、誰彼の話をし、あなたも信仰を止めないと、碌なことがない、と云ったそうだ、そう云われて見ると、最近、養子を迎えてから家運が思わしくないのが、信仰のせいであると感じたので、この際当分休みたい、と云うのだ。<br><br>私はおかしくて笑いが止まらなかった。<br><br> 当分、休みたい信仰、随分、重宝な信仰のしかたがあるものである、信仰とは信じて動かないものでなければ、信仰とは云われない、あなたは今まで信仰していたのではないから、休むも止めるのもいいでしょう、止めて磐石の安心が得られるなら、それこそ信仰の極地ですから、なおさらいい事ですと、休むことを励ました。<br><br>運命と信、これは切り離せない関係に結ばれている事を、老婆心から一応お話した。<br><br> 易者が過去を言い当て、未来を予言する事は不思議ではない、しかしそれは予言に止まり、将来すべき危難を如何にして無くし、災難から遁れるには、神を信仰する以外には出来ない事だ。<br><br>易者は災害を予言しても、それから遁れる方法を知りもしないし、勿論、教える事も出来ない、人間の運命を左右する綱の元は神の手に握られている、神にお縋りする純一な信仰心が神に通じて、運命が開けるのである。<br><br> 手相を見る人に云わせれば、生命線が、とうに切れている人が、丈夫で働らいているのを、不思議に思う事があるそうだ、現に信者の中には、そう云う人が大勢いる、これは、信仰がそうさせたのであって、その手相家が下手なのではないのだ。<br><br> 信仰して終りを全うしない、というのは、どう云う意味か解らないし、その信仰が、何を信仰したのか、どの程度の信仰心かも解らない、財産の有無を結果と見るならば、それこそ、主観の相違で、信仰心を持つ者、持たない者の端的な現われであって、外面のみを見て、内面を見ていない謬論でしかない。<br><br> 物質を最上の宝と思う人には、財産を少しでも減らせば、終りを全うしない人と見えるが、いつかは、必ず失われる物的財産の実相を観じ悟達した人にとっては、物質に替える事の出来ない、貴重な財産を得たのである、遥かな信仰の有難さは、そこにあるのである、物質で贖えない安心立命の境地にあれば、無に等しい財産など眼中にはない。<br><br>無縁の人には、この尊い人を、終りを全うしない人と見るかも知れない。<br><br> 多くの財産を持って、なお悩み多き人生を送る人、財産と名付くる物はないとも神の愛にひたって平安の途を行く人、いづれに真の幸福ありやは自明の理である。<br><br>宮川さんは、私の話に、又動揺して、考え直したようであるが、信仰を休むのが又、真の信仰を持つ一つの方法と思い、又、考え直したら、いつでもおいでなさいと、送り帰えした。<br><br>宮川さんの家運の衰微は、養子が商売を替え、時節柄、貸倒れが多くなったのが原因だ、女主人の悲しさ、そこに気付かないのが気の毒である、今後、教導の職務にある者は、信者の人事一般の相談にも乗ってやる気構えがなくては、駄目だと感じた。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre Fé e Destino</h2>
 <p>Certo dia, o senhor Miyagawa veio me visitar e, com evidente hesitação, comunicou seu desejo de afastar-se da fé por um tempo. Ponderei que não há necessidade de se forçar a uma prática religiosa por mera obrigação, quando o coração não a deseja; assim, aquiesci ao seu pedido. Ele, que aparentemente viera preparado para alguma objeção, pareceu desapontado com minha anuência tão imediata.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>De um lado, há aqueles que, possuindo vastas fortunas, vivem mergulhados em aflições. De outro, há os que, desprovidos de bens, caminham em paz, imersos no amor de Deus. A resposta sobre onde reside a verdadeira felicidade é, pois, manifesta.</p>
 <p>Minhas palavras pareceram abalar novamente a convicção do senhor Miyagawa, levando-o a reconsiderar. Todavia, por acreditar que essa pausa poderia ser, paradoxalmente, um caminho para que ele um dia encontre a fé verdadeira, despedi-me e o enviei de volta para casa, dizendo-lhe que, quando repensasse sua decisão, seria sempre bem-vindo.</p>
 <p>A verdadeira causa do declínio nos negócios da família do senhor Miyagawa reside no fato de seu filho adotivo ter mudado de ramo e, devido à conjuntura econômica da época, acumulado dívidas incobráveis. É lastimável a aflição da matriarca da família, que não consegue discernir a raiz de seus problemas. Este episódio me fez sentir que aqueles que se dedicam à orientação espiritual devem estar preparados para aconselhar os fiéis não apenas em questões de fé, mas também nos assuntos práticos de suas vidas. Sem essa disposição, nossa missão se torna incompleta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記抄 槐安生 『栄光』90号、昭和26(1951)年2月7日発行 某月某日 宮川さんが訪ねてきて、暫く信仰から離れたい、と言い難くそうに云った、したくない信仰を、無理に我慢して義理で信仰する必要はないので、それもいいですね、と賛成した、何か云われるかと、予想して来たらしいのに、私が余りにあっさりと賛成したので、反って張合いが抜けたらしい面持ちでいる。<br/><br/>「何か、急に止めたくなった訳がありそうですね」と尋ねると、次のように信仰を離れる理由を述べた、Ｙ市の場末に、平素は洋傘の修繕業をし、特別の紹介人があった時は、その人の運勢を見る奇人がいる、その人の運勢を見る方法は、姓名だけを書いたものを見て過去を云い当て、性格を当てる、かつて外れた事のない権威者だそうである、その運勢を見る人が云うのには、信仰をした人で、終りを全うした人はないと、誰彼の話をし、あなたも信仰を止めないと、碌なことがない、と云ったそうだ、そう云われて見ると、最近、養子を迎えてから家運が思わしくないのが、信仰のせいであると感じたので、この際当分休みたい、と云うのだ。<br/><br/>私はおかしくて笑いが止まらなかった。<br/><br/> 当分、休みたい信仰、随分、重宝な信仰のしかたがあるものである、信仰とは信じて動かないものでなければ、信仰とは云われない、あなたは今まで信仰していたのではないから、休むも止めるのもいいでしょう、止めて磐石の安心が得られるなら、それこそ信仰の極地ですから、なおさらいい事ですと、休むことを励ました。<br/><br/>運命と信、これは切り離せない関係に結ばれている事を、老婆心から一応お話した。<br/><br/> 易者が過去を言い当て、未来を予言する事は不思議ではない、しかしそれは予言に止まり、将来すべき危難を如何にして無くし、災難から遁れるには、神を信仰する以外には出来ない事だ。<br/><br/>易者は災害を予言しても、それから遁れる方法を知りもしないし、勿論、教える事も出来ない、人間の運命を左右する綱の元は神の手に握られている、神にお縋りする純一な信仰心が神に通じて、運命が開けるのである。<br/><br/> 手相を見る人に云わせれば、生命線が、とうに切れている人が、丈夫で働らいているのを、不思議に思う事があるそうだ、現に信者の中には、そう云う人が大勢いる、これは、信仰がそうさせたのであって、その手相家が下手なのではないのだ。<br/><br/> 信仰して終りを全うしない、というのは、どう云う意味か解らないし、その信仰が、何を信仰したのか、どの程度の信仰心かも解らない、財産の有無を結果と見るならば、それこそ、主観の相違で、信仰心を持つ者、持たない者の端的な現われであって、外面のみを見て、内面を見ていない謬論でしかない。<br/><br/> 物質を最上の宝と思う人には、財産を少しでも減らせば、終りを全うしない人と見えるが、いつかは、必ず失われる物的財産の実相を観じ悟達した人にとっては、物質に替える事の出来ない、貴重な財産を得たのである、遥かな信仰の有難さは、そこにあるのである、物質で贖えない安心立命の境地にあれば、無に等しい財産など眼中にはない。<br/><br/>無縁の人には、この尊い人を、終りを全うしない人と見るかも知れない。<br/><br/> 多くの財産を持って、なお悩み多き人生を送る人、財産と名付くる物はないとも神の愛にひたって平安の途を行く人、いづれに真の幸福ありやは自明の理である。<br/><br/>宮川さんは、私の話に、又動揺して、考え直したようであるが、信仰を休むのが又、真の信仰を持つ一つの方法と思い、又、考え直したら、いつでもおいでなさいと、送り帰えした。<br/><br/>宮川さんの家運の衰微は、養子が商売を替え、時節柄、貸倒れが多くなったのが原因だ、女主人の悲しさ、そこに気付かないのが気の毒である、今後、教導の職務にある者は、信者の人事一般の相談にも乗ってやる気構えがなくては、駄目だと感じた。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

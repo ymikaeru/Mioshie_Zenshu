@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hutata07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再びベルグソンに就て 『栄光』113号、昭和26(1951)年7月18日発行 私は以前、フランスの有名な近代哲学者である、彼のアンリ・ベルグソンについてかいた事があるが、今度再びかいてみたい心が起ったので筆をとったのである。<br><br>というのは、よく私に対（むか）って、色々な事を訊（き）いたり、また私の方から話す場合、その意味が簡単に判る人はまことに少ないのであって、事柄としては実に簡単で判りそうなものだが、仲々判らない。<br><br>訊く人は相当の教養がありながら頷（うなず）けないので、私は色々な例を挙げて、くどくどしく並べてやっと判るのである。<br><br>その都度思い出すのは、ベルグソンの哲学である。<br><br> なぜ、簡単な事がそれ程判らないかを考えてみると、こういう理由がある。<br><br>それはベルグソンのいわゆる刹那（せつな）の吾にならないからで、もちろんそれを意識しないからでもあろう。<br><br>彼の説によれば人間は誰でも物心がつき始めると、色々な事を聞いたり、伝説や既成学問を詰め込まれたりするので、一人前になるまでには、それが棒のようなものになって心の中に出来てしまう。<br><br>だから棒以外の説を聞いても、その棒が邪魔をして想念の中へそのまま入らない、だから想念の中が空ッポなら、苦もなく入るから直ぐ判る訳で、よく白紙になれなどといわれるが全くその通りである。<br><br>そうは言うものの棒などに気がつく者はほとんどないらしい、だからこの文を読んだ人は、今からでも刹那の吾となる事である。<br><br>刹那の吾とは、物を見たり聞いたりしたその瞬間、咄嗟（とっさ）の感じを言うのである。<br><br>全く棒が邪魔をする間隙（かんげき）のない、ちょうど子供と同じようにする、よく子供が大人の言葉をきき、返えす言葉に感心させられる事がよくあるが、全く棒の邪魔がないからである。<br><br> この事を彼はまた、直観の哲学ともいった。<br><br>この意味も歪（ゆが）めないで真ッ直に物を見よ、それが正しい観方（みかた）であるという訳で、刹那の吾に付随したものである。<br><br>それからまた彼の哲学には、万物流転という言葉がある。<br><br>これも仲々面白いと思う。<br><br>それは万有一切は一瞬の停滞もなく動いていると言う意味で、例えば去年と今年とは一切がどこか異（ちが）っている。<br><br>世界も社会も同様であり、自分自身の想念も環境もそうである。<br><br>否昨日の自分とも、五分前の自分とも必ず異（ちが）っているところがある。<br><br>としたら昔からいう一寸先は闇という言葉もそれである。<br><br>このように何でもかんでも一秒の停止もなく流動してやまないのである。<br><br> 従って、この理を人間に当はめてみる時、こういう事になろう。<br><br>何かの事にブツかった時、去年の観方も考え方も、今のそれと異っていなければならない。<br><br>大きく見れば終戦前と終戦後とは丸きり異っているではないか、僅かの間に驚異的である。<br><br>ところが多くの人は、何百年前のやり方や、何十年前の考え方が、先祖代々から棒のように続いているから、適確に現在を把握する事が出来ない。<br><br>これを称して封建とか、旧（ふる）い頭とか言うのであろう。<br><br>つまり一切が流転しているのに、御自分だけは泥水のように停滞しているからで、こういう人こそ世の中から置き去りを喰ったり、不幸な運命となるのである。<br><br> 既成宗教が振わないというのも、右の理を考えてみればよく判る。<br><br>この理によって万物流転と少しもズレル事なく、千変万化する事が観世音のお働きでもある。<br><br>観世音の別の御名である応身弥勒とはその意味で、応身とは身をもって応ずる、すなわち外界の事物に対し、自由無碍に応ずる事である。<br><br>無碍光如来の御名もその意味に外ならない。<br><br>判り易く言えば老人に対しては、老人に合うような話をし、婦女子には物柔らかく、智識人には科学的に、一般人には常識的平凡にするというように、いかなる人にも話す場合、先方が理解し、興味が湧き、快く聞くというようにすればいいのである。<br><br>この方針で信仰を勧めるとしたら、案外巧く行くものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Filosofia da Intuição e o Fluxo Universal</h2>
 <p>Já discorri em outra ocasião sobre o célebre filósofo moderno, o francês Henri Bergson, e agora senti o ímpeto de abordá-lo novamente. O que me motiva é o fato de que, ao ser indagado sobre os mais diversos assuntos ou ao expor minhas ideias, são verdadeiramente raros aqueles que as compreendem com simplicidade. Embora os temas sejam, em essência, bastante simples e de fácil apreensão, a compreensão se mostra difícil. Mesmo pessoas de considerável cultura não conseguem assentir, o que me obriga a recorrer a inúmeros exemplos, expondo-os exaustivamente para que, enfim, alcancem o entendimento. Em tais momentos, invariavelmente me recordo da filosofia de Bergson.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Portanto, ao aplicarmos este princípio aos seres humanos, chegamos à seguinte conclusão: diante de qualquer circunstância, nossa perspectiva e nosso modo de pensar devem ser diferentes dos que tínhamos no ano anterior. Observando em larga escala, não são o período anterior e o posterior à guerra completamente distintos? A mudança ocorrida em tão pouco tempo é prodigiosa. Todavia, muitas pessoas são incapazes de apreender o presente de forma precisa porque os métodos de centenas de anos atrás e as ideias de décadas passadas persistem em suas mentes, transmitidos de geração em geração como aquele bastonete rígido. É a isso que se referem termos como "mentalidade feudal" ou "mente retrógrada". Em suma, enquanto tudo ao redor flui em perpétua transformação, esses indivíduos permanecem estagnados como água lamacenta. São precisamente essas pessoas que acabam por ser deixadas para trás pela sociedade e que se deparam com um destino de infortúnios.</p>
 <p>Compreende-se bem o motivo pelo qual as religiões estabelecidas não prosperam quando se reflete sobre o princípio exposto. De acordo com ele, a capacidade de se transformar de mil maneiras, sem jamais se desviar do fluxo universal, é precisamente a atuação de Kannon (観世音). Seu outro nome, Oushin Miroku (応身弥勒), expressa exatamente esse sentido. Oushin (応身) significa "responder com o próprio ser", ou seja, adaptar-se livremente e sem impedimentos aos fenômenos do mundo exterior. O nome Mugai-ko Nyorai (無碍光如来) também encerra este mesmo significado.</p>
 <p>Para dizê-lo de forma simples, ao dialogar com os idosos, devemos usar uma linguagem que lhes seja adequada; com as mulheres e crianças, devemos ser brandos; com os intelectuais, científicos; e com o público em geral, devemos nos ater ao bom senso e à simplicidade. Em suma, ao nos dirigirmos a qualquer pessoa, devemos fazê-lo de modo que ela possa compreender, que seu interesse seja despertado e que ela ouça com satisfação. Se adotarmos esta diretriz para difundir a fé, obteremos um êxito surpreendente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再びベルグソンに就て 『栄光』113号、昭和26(1951)年7月18日発行 私は以前、フランスの有名な近代哲学者である、彼のアンリ・ベルグソンについてかいた事があるが、今度再びかいてみたい心が起ったので筆をとったのである。<br/><br/>というのは、よく私に対（むか）って、色々な事を訊（き）いたり、また私の方から話す場合、その意味が簡単に判る人はまことに少ないのであって、事柄としては実に簡単で判りそうなものだが、仲々判らない。<br/><br/>訊く人は相当の教養がありながら頷（うなず）けないので、私は色々な例を挙げて、くどくどしく並べてやっと判るのである。<br/><br/>その都度思い出すのは、ベルグソンの哲学である。<br/><br/> なぜ、簡単な事がそれ程判らないかを考えてみると、こういう理由がある。<br/><br/>それはベルグソンのいわゆる刹那（せつな）の吾にならないからで、もちろんそれを意識しないからでもあろう。<br/><br/>彼の説によれば人間は誰でも物心がつき始めると、色々な事を聞いたり、伝説や既成学問を詰め込まれたりするので、一人前になるまでには、それが棒のようなものになって心の中に出来てしまう。<br/><br/>だから棒以外の説を聞いても、その棒が邪魔をして想念の中へそのまま入らない、だから想念の中が空ッポなら、苦もなく入るから直ぐ判る訳で、よく白紙になれなどといわれるが全くその通りである。<br/><br/>そうは言うものの棒などに気がつく者はほとんどないらしい、だからこの文を読んだ人は、今からでも刹那の吾となる事である。<br/><br/>刹那の吾とは、物を見たり聞いたりしたその瞬間、咄嗟（とっさ）の感じを言うのである。<br/><br/>全く棒が邪魔をする間隙（かんげき）のない、ちょうど子供と同じようにする、よく子供が大人の言葉をきき、返えす言葉に感心させられる事がよくあるが、全く棒の邪魔がないからである。<br/><br/> この事を彼はまた、直観の哲学ともいった。<br/><br/>この意味も歪（ゆが）めないで真ッ直に物を見よ、それが正しい観方（みかた）であるという訳で、刹那の吾に付随したものである。<br/><br/>それからまた彼の哲学には、万物流転という言葉がある。<br/><br/>これも仲々面白いと思う。<br/><br/>それは万有一切は一瞬の停滞もなく動いていると言う意味で、例えば去年と今年とは一切がどこか異（ちが）っている。<br/><br/>世界も社会も同様であり、自分自身の想念も環境もそうである。<br/><br/>否昨日の自分とも、五分前の自分とも必ず異（ちが）っているところがある。<br/><br/>としたら昔からいう一寸先は闇という言葉もそれである。<br/><br/>このように何でもかんでも一秒の停止もなく流動してやまないのである。<br/><br/> 従って、この理を人間に当はめてみる時、こういう事になろう。<br/><br/>何かの事にブツかった時、去年の観方も考え方も、今のそれと異っていなければならない。<br/><br/>大きく見れば終戦前と終戦後とは丸きり異っているではないか、僅かの間に驚異的である。<br/><br/>ところが多くの人は、何百年前のやり方や、何十年前の考え方が、先祖代々から棒のように続いているから、適確に現在を把握する事が出来ない。<br/><br/>これを称して封建とか、旧（ふる）い頭とか言うのであろう。<br/><br/>つまり一切が流転しているのに、御自分だけは泥水のように停滞しているからで、こういう人こそ世の中から置き去りを喰ったり、不幸な運命となるのである。<br/><br/> 既成宗教が振わないというのも、右の理を考えてみればよく判る。<br/><br/>この理によって万物流転と少しもズレル事なく、千変万化する事が観世音のお働きでもある。<br/><br/>観世音の別の御名である応身弥勒とはその意味で、応身とは身をもって応ずる、すなわち外界の事物に対し、自由無碍に応ずる事である。<br/><br/>無碍光如来の御名もその意味に外ならない。<br/><br/>判り易く言えば老人に対しては、老人に合うような話をし、婦女子には物柔らかく、智識人には科学的に、一般人には常識的平凡にするというように、いかなる人にも話す場合、先方が理解し、興味が湧き、快く聞くというようにすればいいのである。<br/><br/>この方針で信仰を勧めるとしたら、案外巧く行くものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

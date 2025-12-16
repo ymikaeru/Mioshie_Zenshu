@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju10089</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ７ 089-106 嬰児 089 異常出産児の原因 胎児が袋をかぶったまま生れたり、逆児で位置を変えてもすぐ戻ったり、臍帯を首に巻いて生れる訳―― 大きく転ぶなどすると、臍帯が巻きついたりなどする事がある。<br><br>本当に自然の防衛法である。<br><br> 逆子は浄霊で治る。<br><br>袋かぶるのは一時的である。<br><br>憑霊的にどうという事はない。<br><br> 090 逆児の原因と性交 信者の家で子供六人産れた中二人続けて逆児が出来ました。<br><br>逆児はいかなる原因でしょうか。<br><br>霊的原因で御座いましょうか。<br><br>御教示御願い致します。<br><br> 霊的でない。<br><br>性交の技術が間違っている。<br><br>浄霊で簡単に間違っているのが治る。<br><br> 公開では言い難い。<br><br>（S24. 9. 8） 091 逆児の原因 逆児の原因―― 霊的でなく体的であるが、公開の席上では言えない。<br><br>（S24. 4. 2） 092 発育不全・異常便の子 生後五ケ月の松浦篤（あつし）と云う男児、月足らず（九ケ月）で生れ、生ながらに非常に胃腸が弱く、青便、粘液便等の下痢または便秘等が絶えずで、今以て一度も平常な便のあった事はありません。<br><br>母親は乳脚気と云う事で、山羊乳を飲ませておりますので、現在は停乳しております。<br><br>また、今までに医療に従っておりましたが、発育の程度はやっと二ケ月位のもので、比較的に元気はありますが、体は痩せ細って骨と皮ばかりです。<br><br>そして下腹には玉子大の幾分軟かみのある固結があります。<br><br>これが御浄霊を致しますと、逃げるがごとくに腹中を移動致します。<br><br>また、この児が生れる前に母親は二度も流産致しました。<br><br> 大体右のような状態で、現在、御浄霊は三回したのみですから目立って効果は見えません。<br><br>今後なお御浄霊は継続致しますが、この児の病状には霊的の事はないので御座いましょうか。<br><br>腹中の動く固結は霊的のものでしょうか。<br><br>また、このように衰弱致しておりましても、私とこの児の親達とのお縋りいかんによって救って戴けるもので御座いましょうか。<br><br> 甚だ失礼ながら御伺い申し上げます。<br><br> 赤ン坊は随分ひどくとも助かるものである。<br><br>一番悪いのは薬で、浄霊ならなお早い。<br><br> 青便、粘便は結構である。<br><br>毒が出る。<br><br>医師は乳脚気などというが、曖昧極まる。<br><br>毒素――即ち薬を服んだせいで、ある程度で止る。<br><br>便秘は差支えない。<br><br>物をよく噛んで、水分を摂らねば便秘する。<br><br>（便秘したいがうまく成功しない）（自家中毒も嘘である。<br><br>糞が身体中廻ると思っている） 下腹は霊、流産した霊かもしれない。<br><br>山羊の乳は無論いけない。<br><br>（五ケ月以上は祀る）吸わないから乳が出ぬ。<br><br>吸い出したら出る。<br><br>青便は本人の毒か親の乳の毒かである。<br><br>（S24. 6.23） 093 臍の緒の離れ方と健康 出産時、生れた子供の臍の緒が取れます場合、早く離れる子供は生後健康で、遅く離れる子供は虚弱と昔からよく言われますが、何か関係があるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 不完全な所があるから弱いので、身体の方に栄養が足りなかったりなどでそうなる。<br><br>（S24.12. 1） 094 赤ン坊の青尻 生れた赤ン坊の尻が青いのはなぜでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 種々説がある。<br><br>薬毒であって、それが皮膚へ出て来ている。<br><br>血の混っているものである。<br><br>毒血は下へ生理的に下りやすいもので、それが斑点になる。<br><br>（S24. 1.28） 095 青斑尻 幼児の尻に青い斑紋があるのは日本人と蒙古人だけで、西洋人にはないと聞いていますが、いかがな理由で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 毒である。<br><br>日本人特有の毒である。<br><br>漢方薬か食物の毒である。<br><br>（S24. 7.22） 096 難産の子の青痣 当年二十歳の娘（昨年十二月入信）、生れる時、難産で産婆が左の目から頬へ手を当てて出したため、赤くはれ上っており、なお二ケ月後屏風にぶつけ、白目が青くなり、成長するに従って目の周り、頬から耳まで青痣が大きくなって来ました。<br><br>これには霊的原因があるのでしょうか。<br><br>また、治るので御座いましょうか。<br><br>治るとしたらいかように浄霊致しましたなら宜敷いでしょうか。<br><br>御教示下さい。<br><br> 内出血が皮膚へ出て来たのであるから、治る。<br><br>（S24. 7. 5） 097 乳児の経血 女児が生後三日位で普通の月経と同様な事があり、近頃度々右のような事を聞きますが、これはいかなる訳でございましょうか。<br><br>御伺い申し上げます。<br><br> 少しの間で後無くなる。<br><br>生れる時に古血を呑む――それが出る。<br><br> 近頃、喀血をする子がよくあるが、医者は胃潰瘍だと言う。<br><br> そんな筈はないので、これは呑んだ血を出すのである。<br><br>（S24. 5. 2） 098 有歯の出生児 生れながら歯が一本ないし二本生えている赤ん坊がありますが、何か霊的に意味がありましょうか。<br><br> 月がかなり後れたんだと思う。<br><br>発育がいいのである。<br><br> 099 有歯の赤子出産 生れながらに歯の生えていた子供で御座いますが、出産予定は正常にて、上下前歯二本ずつ生えております。<br><br>いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 月後れの出産である。<br><br> 100 有歯の赤子 生れながらに歯の生えた子供が御座いますが、いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 月後れで、上歯のみが発達したものである。<br><br>（S24. 2. 9） 101 喉仏二股 鳥取県の信者近田春子さん（二十五歳）の生後四ケ月になります子供の喉仏が二股となり、その先端が左右の食道壁に触れております。<br><br>お乳をあまり飲まず、発育不良で御座います。<br><br>夫婦共入信しており、入信後の子供との事で御座います。<br><br>昨年五月、長女（三歳）が池に落ち死亡致しておりますが、右の事と関係が御座いましょうか。<br><br>お伺い申し上げます。<br><br> こんな事はよくある。<br><br>薬毒が原因である。<br><br>池に落ちた霊と関係はない。<br><br>（S25. 5.21） 102 奇形的小睾丸 当年六歳の男子、最近気付いたのですが、睾丸が非常に小さく、奇形児のようにも思われる節があります。<br><br>御浄霊により御治し頂けるでしょうか。<br><br> 浄霊してもよいが、大きくなるにつれて治る。<br><br>（S24.12. 3） 103 陰部排便（奇形） 昨年五月生れた女児、便が非常に出にくく、陰部からも出ます。<br><br>どうなっているのでしょうか。<br><br>また、耳の付近から膿が出ます。<br><br>初め浄霊しておりましたが、後医者へ行って死んだそうです。<br><br>その時最後に黒便をし、顔に赤線が十本程出たそうです。<br><br>どう言う因縁でしょうか。<br><br> 奇形である。<br><br>陰部から排便するのは直腸に穴があいていて、そこから漏れるのであろう。<br><br>陰部から放屁するのがある。<br><br> 黒便は、溜っていた便が出る。<br><br>また、血の固まったために黒くなる。<br><br> 赤線は、苦しみのためのイキみに因る。<br><br>（S24. 1.27） 104 生歯遅い小児 本年七歳になる女児、半年程前乳歯が一本自然に抜け、未だ本歯が生えて来ません。<br><br>浄霊は怠っておりませんが、いかがで御座いましょう。<br><br>日時を経れば生えて来るものでしょうか。<br><br>御伺い申し上げます。<br><br> 生えてくる。<br><br>生え方の遅いのは身体の衰弱している点がある。<br><br>（S *. 7. 8） 105 生歯時の発熱 生後十ケ月の女児、下前歯二本、次に上前歯三本生えて参りました。<br><br>ところが、生える毎にその数日前から気むずかしくなり、発熱いたします。<br><br>これは歯の生えるための浄化でしょうか。<br><br>また、歯には無関係の他の浄化でございましょうか。<br><br>お伺い申し上げます。<br><br> 昔から歯が生えるとそういう事が殆どある。<br><br> 毒があるため、刺戟するんで毒が集る。<br><br>毒がなかったらそういう事はない。<br><br>（S25. 1.26） 106 子供の涎と夜泣き 子供が涎が止ると夜泣きをすると言われておりますが、その理由を御伺い申し上げます。<br><br> 涎は子供の浄化作用であるから良い。<br><br>それが止ると、どっかへ集って痛いとか、痒いとか不快になる。<br><br> 大人でも痰や嘔吐などのある時は具合がいい。<br><br>（S24.11.17）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Cura (Parte 10) - 7: Lactentes</h2>
 <p><strong>089 A causa de anormalidades no parto</strong></p>
@@ -145,5 +297,48 @@ function toggleLang(lang) {
 <p><strong>106 A salivação e o choro noturno nas crianças</strong></p>
 <p>Diz-se que, quando a criança para de salivar em excesso, ela passa a chorar durante a noite. Gostaria de saber a razão para isso.</p>
 <p>A salivação é um processo de purificação da criança e, portanto, é benéfica. Quando ela cessa, as toxinas que estavam sendo eliminadas se acumulam em alguma parte do corpo, causando dor, coceira ou outro tipo de desconforto. O mesmo se aplica aos adultos: sentem-se melhor quando conseguem expectorar ou vomitar. (17 de novembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （十） ７ 089-106 嬰児 089 異常出産児の原因 胎児が袋をかぶったまま生れたり、逆児で位置を変えてもすぐ戻ったり、臍帯を首に巻いて生れる訳―― 大きく転ぶなどすると、臍帯が巻きついたりなどする事がある。<br/><br/>本当に自然の防衛法である。<br/><br/> 逆子は浄霊で治る。<br/><br/>袋かぶるのは一時的である。<br/><br/>憑霊的にどうという事はない。<br/><br/> 090 逆児の原因と性交 信者の家で子供六人産れた中二人続けて逆児が出来ました。<br/><br/>逆児はいかなる原因でしょうか。<br/><br/>霊的原因で御座いましょうか。<br/><br/>御教示御願い致します。<br/><br/> 霊的でない。<br/><br/>性交の技術が間違っている。<br/><br/>浄霊で簡単に間違っているのが治る。<br/><br/> 公開では言い難い。<br/><br/>（S24. 9. 8） 091 逆児の原因 逆児の原因―― 霊的でなく体的であるが、公開の席上では言えない。<br/><br/>（S24. 4. 2） 092 発育不全・異常便の子 生後五ケ月の松浦篤（あつし）と云う男児、月足らず（九ケ月）で生れ、生ながらに非常に胃腸が弱く、青便、粘液便等の下痢または便秘等が絶えずで、今以て一度も平常な便のあった事はありません。<br/><br/>母親は乳脚気と云う事で、山羊乳を飲ませておりますので、現在は停乳しております。<br/><br/>また、今までに医療に従っておりましたが、発育の程度はやっと二ケ月位のもので、比較的に元気はありますが、体は痩せ細って骨と皮ばかりです。<br/><br/>そして下腹には玉子大の幾分軟かみのある固結があります。<br/><br/>これが御浄霊を致しますと、逃げるがごとくに腹中を移動致します。<br/><br/>また、この児が生れる前に母親は二度も流産致しました。<br/><br/> 大体右のような状態で、現在、御浄霊は三回したのみですから目立って効果は見えません。<br/><br/>今後なお御浄霊は継続致しますが、この児の病状には霊的の事はないので御座いましょうか。<br/><br/>腹中の動く固結は霊的のものでしょうか。<br/><br/>また、このように衰弱致しておりましても、私とこの児の親達とのお縋りいかんによって救って戴けるもので御座いましょうか。<br/><br/> 甚だ失礼ながら御伺い申し上げます。<br/><br/> 赤ン坊は随分ひどくとも助かるものである。<br/><br/>一番悪いのは薬で、浄霊ならなお早い。<br/><br/> 青便、粘便は結構である。<br/><br/>毒が出る。<br/><br/>医師は乳脚気などというが、曖昧極まる。<br/><br/>毒素――即ち薬を服んだせいで、ある程度で止る。<br/><br/>便秘は差支えない。<br/><br/>物をよく噛んで、水分を摂らねば便秘する。<br/><br/>（便秘したいがうまく成功しない）（自家中毒も嘘である。<br/><br/>糞が身体中廻ると思っている） 下腹は霊、流産した霊かもしれない。<br/><br/>山羊の乳は無論いけない。<br/><br/>（五ケ月以上は祀る）吸わないから乳が出ぬ。<br/><br/>吸い出したら出る。<br/><br/>青便は本人の毒か親の乳の毒かである。<br/><br/>（S24. 6.23） 093 臍の緒の離れ方と健康 出産時、生れた子供の臍の緒が取れます場合、早く離れる子供は生後健康で、遅く離れる子供は虚弱と昔からよく言われますが、何か関係があるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 不完全な所があるから弱いので、身体の方に栄養が足りなかったりなどでそうなる。<br/><br/>（S24.12. 1） 094 赤ン坊の青尻 生れた赤ン坊の尻が青いのはなぜでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 種々説がある。<br/><br/>薬毒であって、それが皮膚へ出て来ている。<br/><br/>血の混っているものである。<br/><br/>毒血は下へ生理的に下りやすいもので、それが斑点になる。<br/><br/>（S24. 1.28） 095 青斑尻 幼児の尻に青い斑紋があるのは日本人と蒙古人だけで、西洋人にはないと聞いていますが、いかがな理由で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 毒である。<br/><br/>日本人特有の毒である。<br/><br/>漢方薬か食物の毒である。<br/><br/>（S24. 7.22） 096 難産の子の青痣 当年二十歳の娘（昨年十二月入信）、生れる時、難産で産婆が左の目から頬へ手を当てて出したため、赤くはれ上っており、なお二ケ月後屏風にぶつけ、白目が青くなり、成長するに従って目の周り、頬から耳まで青痣が大きくなって来ました。<br/><br/>これには霊的原因があるのでしょうか。<br/><br/>また、治るので御座いましょうか。<br/><br/>治るとしたらいかように浄霊致しましたなら宜敷いでしょうか。<br/><br/>御教示下さい。<br/><br/> 内出血が皮膚へ出て来たのであるから、治る。<br/><br/>（S24. 7. 5） 097 乳児の経血 女児が生後三日位で普通の月経と同様な事があり、近頃度々右のような事を聞きますが、これはいかなる訳でございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 少しの間で後無くなる。<br/><br/>生れる時に古血を呑む――それが出る。<br/><br/> 近頃、喀血をする子がよくあるが、医者は胃潰瘍だと言う。<br/><br/> そんな筈はないので、これは呑んだ血を出すのである。<br/><br/>（S24. 5. 2） 098 有歯の出生児 生れながら歯が一本ないし二本生えている赤ん坊がありますが、何か霊的に意味がありましょうか。<br/><br/> 月がかなり後れたんだと思う。<br/><br/>発育がいいのである。<br/><br/> 099 有歯の赤子出産 生れながらに歯の生えていた子供で御座いますが、出産予定は正常にて、上下前歯二本ずつ生えております。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 月後れの出産である。<br/><br/> 100 有歯の赤子 生れながらに歯の生えた子供が御座いますが、いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 月後れで、上歯のみが発達したものである。<br/><br/>（S24. 2. 9） 101 喉仏二股 鳥取県の信者近田春子さん（二十五歳）の生後四ケ月になります子供の喉仏が二股となり、その先端が左右の食道壁に触れております。<br/><br/>お乳をあまり飲まず、発育不良で御座います。<br/><br/>夫婦共入信しており、入信後の子供との事で御座います。<br/><br/>昨年五月、長女（三歳）が池に落ち死亡致しておりますが、右の事と関係が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> こんな事はよくある。<br/><br/>薬毒が原因である。<br/><br/>池に落ちた霊と関係はない。<br/><br/>（S25. 5.21） 102 奇形的小睾丸 当年六歳の男子、最近気付いたのですが、睾丸が非常に小さく、奇形児のようにも思われる節があります。<br/><br/>御浄霊により御治し頂けるでしょうか。<br/><br/> 浄霊してもよいが、大きくなるにつれて治る。<br/><br/>（S24.12. 3） 103 陰部排便（奇形） 昨年五月生れた女児、便が非常に出にくく、陰部からも出ます。<br/><br/>どうなっているのでしょうか。<br/><br/>また、耳の付近から膿が出ます。<br/><br/>初め浄霊しておりましたが、後医者へ行って死んだそうです。<br/><br/>その時最後に黒便をし、顔に赤線が十本程出たそうです。<br/><br/>どう言う因縁でしょうか。<br/><br/> 奇形である。<br/><br/>陰部から排便するのは直腸に穴があいていて、そこから漏れるのであろう。<br/><br/>陰部から放屁するのがある。<br/><br/> 黒便は、溜っていた便が出る。<br/><br/>また、血の固まったために黒くなる。<br/><br/> 赤線は、苦しみのためのイキみに因る。<br/><br/>（S24. 1.27） 104 生歯遅い小児 本年七歳になる女児、半年程前乳歯が一本自然に抜け、未だ本歯が生えて来ません。<br/><br/>浄霊は怠っておりませんが、いかがで御座いましょう。<br/><br/>日時を経れば生えて来るものでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 生えてくる。<br/><br/>生え方の遅いのは身体の衰弱している点がある。<br/><br/>（S *. 7. 8） 105 生歯時の発熱 生後十ケ月の女児、下前歯二本、次に上前歯三本生えて参りました。<br/><br/>ところが、生える毎にその数日前から気むずかしくなり、発熱いたします。<br/><br/>これは歯の生えるための浄化でしょうか。<br/><br/>また、歯には無関係の他の浄化でございましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 昔から歯が生えるとそういう事が殆どある。<br/><br/> 毒があるため、刺戟するんで毒が集る。<br/><br/>毒がなかったらそういう事はない。<br/><br/>（S25. 1.26） 106 子供の涎と夜泣き 子供が涎が止ると夜泣きをすると言われておりますが、その理由を御伺い申し上げます。<br/><br/> 涎は子供の浄化作用であるから良い。<br/><br/>それが止ると、どっかへ集って痛いとか、痒いとか不快になる。<br/><br/> 大人でも痰や嘔吐などのある時は具合がいい。<br/><br/>（S24.11.17）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qjuyon</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 十四米落下奇蹟の生命拾い 『栄光』111号、昭和26(1951)年7月4日発行 山梨県 博愛中教会 小俣信一郎（26） 明主様、日々の御守護を戴きまして誠に有難うございます。<br><br> ここに奇蹟中の奇蹟、当然ない一命を御守護によりましてお救いいただきました喜びを御礼申し上げますと共に、到底筆舌には表現出来得ません事を遺憾と存じますが、余りにも偉大な御守護を体験させて戴きましたので乱文をも省みませず、感謝の御報告をさせていただきます。<br><br> 本年一月二十日から長野県の篠ノ井線、明科、西条、坂北間の鉄道ケーブル架設工事に出張いたしておりました。<br><br>二月二十八日には、仲間の一人が梯子から落ち、相当腰を打った人がありましたので、一同注意しておりました。<br><br>三月八日午後四時四十分頃の出来事でございます。<br><br>その朝、御獄教信者である宿の主人が「まだ一つ大きな災難があるから、皆様も高い所の仕事故、くれぐれも怪我のなきように」と特に注意してくれました。<br><br>現場まで一里余り、この日の作業はケーブルに中乗して、鋼線に金車を三米おきに掛けて行くのでございます。<br><br>その金車の中をロープが入り、ロープの尻とケーブルの先を縛ってケーブルを延すのです。<br><br>この場所は川を横断しますので、電柱と電柱の間が普通の倍（八十米）もあり、たるまないように、もう一本上から吊ってあるのです。<br><br>従って仕事が面倒で、中乗で途中まで行き上から来た線と下の線が合致する所で掛けかえをしなければなりません。<br><br>右手で線をつかみ、左手で掛けかえるのですが、掛けてある線からはずすのに、一尺ぐらい上にあげなければならないのです。<br><br>ちょうど私がその仕事に当っておりました時、一方をはずして上に掛けようとしましたら、一時に体の重みが左片方にかかり、掛けかえようとしても掛からず、初めの内は肘でこたえていましたが、段々力がつき右手だけになりました。<br><br>その間、約七分、体は伸びきりになりました。<br><br>十四米下には川が流れ、川淵は石の入った蛇籠（じゃかご）になっております。<br><br>その時の気持は何とも言い表わしようがございません。<br><br>他の者が助けに来て、手を出すか出さぬ内、こらえにこらえた力も尽き、明主様、明主様と、ただお念じしつつ手を離してしまいました。<br><br>下にいた人達も何しろ高いので、どうする事も出来ず、アッと思ったまま見るに耐えず、皆眼を伏せたそうです。<br><br> ドシーンと落ちた瞬間、ああと吾にかえった時、「御守護だ、救われたのだ、明主様」と茫然としておりました。<br><br>その中、皆死んだものと思い大騒ぎして駈けつけてまいりましたが、非常に驚き「医者へ、医者へ」と心配して下さる時は、平常な気持を取り戻し、「大丈夫です」とことわり、お尻をドシーンとついた響きで、胸が少々痛んでおりました所をその場で自分で浄霊いたしました。<br><br>背負われて宿に帰って参りましたが、お尻が内出血し真黒にはれ上り、左手頸の骨にちょっとひびが入った程度で痛みが全然ありません。<br><br>あまりの御守護にただ熱いものが流れ出るのをどうすることも出来なかったのでございます。<br><br>他に信者はおりませんので、ただ一人で御浄霊をいたしました。<br><br>内出血は血尿となって出まして三日目には二階の上り下りが出来るようになりました。<br><br>後で落ちた現場へ行ってみましたら、その場に居合わした人の話によりますと、線の真下に蛇籠があり、当然そこに落ちるべきところ、不思議なるかな身体は斜に落ちて土の傾斜面の上に落ち、三回ころがって蛇籠のところで止ったそうです。<br><br>落ちた場所から一尺左にはコンクリートで出来た堰があり、一米右の所に電柱の切ったのが上にとんがり出ておりまして、どちらに寄っていましても大怪我をするか、生命がなかった事と思います。<br><br>思い出しても慄然とする程でございます。<br><br>何としましても奇蹟というより外に言葉がございません。<br><br> 有難い御守護に感謝感激、何物にも替え難き命をお助けいただきました喜びの御礼を申し上げさせていただきます。<br><br> 今後は一層地上天国建設に、微力ながらも御役に立たせて戴きたく存じます。<br><br> 明主様、本当に有難うございました。<br><br> （昭和二十六年四月二十一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo milagrosamente de uma queda de catorze metros</h2>
 <p>Publicado no Jornal Eikou nº 111, em 4 de julho de 1951
@@ -105,5 +260,48 @@ Relato de Shinichiro Omata (26 anos), Igreja Hakuaichu de Yamanashi</p>
 <p>De agora em diante, almejo servir, ainda que minhas forças sejam ínfimas, à Obra de Construção do Paraíso Terrestre.</p>
 <p>Meishu-Sama, muito, muito obrigado.</p>
 <p>(21 de abril de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 十四米落下奇蹟の生命拾い 『栄光』111号、昭和26(1951)年7月4日発行 山梨県 博愛中教会 小俣信一郎（26） 明主様、日々の御守護を戴きまして誠に有難うございます。<br/><br/> ここに奇蹟中の奇蹟、当然ない一命を御守護によりましてお救いいただきました喜びを御礼申し上げますと共に、到底筆舌には表現出来得ません事を遺憾と存じますが、余りにも偉大な御守護を体験させて戴きましたので乱文をも省みませず、感謝の御報告をさせていただきます。<br/><br/> 本年一月二十日から長野県の篠ノ井線、明科、西条、坂北間の鉄道ケーブル架設工事に出張いたしておりました。<br/><br/>二月二十八日には、仲間の一人が梯子から落ち、相当腰を打った人がありましたので、一同注意しておりました。<br/><br/>三月八日午後四時四十分頃の出来事でございます。<br/><br/>その朝、御獄教信者である宿の主人が「まだ一つ大きな災難があるから、皆様も高い所の仕事故、くれぐれも怪我のなきように」と特に注意してくれました。<br/><br/>現場まで一里余り、この日の作業はケーブルに中乗して、鋼線に金車を三米おきに掛けて行くのでございます。<br/><br/>その金車の中をロープが入り、ロープの尻とケーブルの先を縛ってケーブルを延すのです。<br/><br/>この場所は川を横断しますので、電柱と電柱の間が普通の倍（八十米）もあり、たるまないように、もう一本上から吊ってあるのです。<br/><br/>従って仕事が面倒で、中乗で途中まで行き上から来た線と下の線が合致する所で掛けかえをしなければなりません。<br/><br/>右手で線をつかみ、左手で掛けかえるのですが、掛けてある線からはずすのに、一尺ぐらい上にあげなければならないのです。<br/><br/>ちょうど私がその仕事に当っておりました時、一方をはずして上に掛けようとしましたら、一時に体の重みが左片方にかかり、掛けかえようとしても掛からず、初めの内は肘でこたえていましたが、段々力がつき右手だけになりました。<br/><br/>その間、約七分、体は伸びきりになりました。<br/><br/>十四米下には川が流れ、川淵は石の入った蛇籠（じゃかご）になっております。<br/><br/>その時の気持は何とも言い表わしようがございません。<br/><br/>他の者が助けに来て、手を出すか出さぬ内、こらえにこらえた力も尽き、明主様、明主様と、ただお念じしつつ手を離してしまいました。<br/><br/>下にいた人達も何しろ高いので、どうする事も出来ず、アッと思ったまま見るに耐えず、皆眼を伏せたそうです。<br/><br/> ドシーンと落ちた瞬間、ああと吾にかえった時、「御守護だ、救われたのだ、明主様」と茫然としておりました。<br/><br/>その中、皆死んだものと思い大騒ぎして駈けつけてまいりましたが、非常に驚き「医者へ、医者へ」と心配して下さる時は、平常な気持を取り戻し、「大丈夫です」とことわり、お尻をドシーンとついた響きで、胸が少々痛んでおりました所をその場で自分で浄霊いたしました。<br/><br/>背負われて宿に帰って参りましたが、お尻が内出血し真黒にはれ上り、左手頸の骨にちょっとひびが入った程度で痛みが全然ありません。<br/><br/>あまりの御守護にただ熱いものが流れ出るのをどうすることも出来なかったのでございます。<br/><br/>他に信者はおりませんので、ただ一人で御浄霊をいたしました。<br/><br/>内出血は血尿となって出まして三日目には二階の上り下りが出来るようになりました。<br/><br/>後で落ちた現場へ行ってみましたら、その場に居合わした人の話によりますと、線の真下に蛇籠があり、当然そこに落ちるべきところ、不思議なるかな身体は斜に落ちて土の傾斜面の上に落ち、三回ころがって蛇籠のところで止ったそうです。<br/><br/>落ちた場所から一尺左にはコンクリートで出来た堰があり、一米右の所に電柱の切ったのが上にとんがり出ておりまして、どちらに寄っていましても大怪我をするか、生命がなかった事と思います。<br/><br/>思い出しても慄然とする程でございます。<br/><br/>何としましても奇蹟というより外に言葉がございません。<br/><br/> 有難い御守護に感謝感激、何物にも替え難き命をお助けいただきました喜びの御礼を申し上げさせていただきます。<br/><br/> 今後は一層地上天国建設に、微力ながらも御役に立たせて戴きたく存じます。<br/><br/> 明主様、本当に有難うございました。<br/><br/> （昭和二十六年四月二十一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

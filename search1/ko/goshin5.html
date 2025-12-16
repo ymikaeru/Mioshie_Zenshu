@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>goshin5</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御神霊 『明日の医術 第三編』昭和18(1943)年10月23日発行 我大日本帝国は、世界唯一の神国であるという事は、日本人として知らねばならない最重要事である。<br><br>しかるに、明治以後滔々（とうとう）として欧米の唯物的文化が流入し来り、それによって科学的方面は、欧米の塁（るい）を摩（ま）すまでに進歩発達したのであるが、惜しいかな、精神文化の方面ははなはだしく閑却され、心ある者をして慨歎（がいたん）せしめつゝあったのである。<br><br>この一方が進み一方が進まないという跛行的文化は、いつかは訂正されなければならないと、吾々はその日の来る事の速かなるを冀（こいねが）うや久しかったのである。<br><br> しかるに近来、時局の進展につれて、漸（ようや）く我国民の間にも唯心的傾向が兆（きざ）し初めたのである。<br><br>それは大東亜戦争勃発するや、随時随所に赫々（かくかく）たる大戦果を挙げた事実によって、大戦果の蔭に、人智では解釈出来得ない奇蹟が余りに多く現われた事である。<br><br>特にその衝（しょう）に当ったところの皇軍勇士諸君に到っては、まざまざと眼に視、耳に聴いた体験によって、口を揃えて奇蹟を称（たた）えるのであった。<br><br>この事は日本人中知らぬものはないであろう。<br><br> 全く畏多（おそれおお）くも大御稜威（おおみいづ）の然らしむる所であると共に、皇祖皇宗の御神霊は固より、八百万の神々の御活動に依る事は明かであって、最早一点の疑を容れる余地はないのである。<br><br>ここにおいて、日本の神国たるゆえんは、最早論議の余地はないであろう。<br><br> 私は近来、我国民に敬神崇祖の念が沸き起った事はまことに慶賀すべき事と思っている。<br><br>その現われとして伊勢神宮を初め明治神宮その他の神社に対し奉り、年々参拝者の激増するという事によってみても明かである。<br><br>その他国民儀礼や靖国神社参拝等も、霊の実在や想念の伝達を何となく信ずるからであろう。<br><br>この傾向によってみても、我国民が漸く唯心的文化に目覚めんとしつゝある事を如実に物語っているのであって、全く時の力に外ならないのである。<br><br> しかしながら、私は霊及び霊界についての私の研究の成果を読む事によって、それは徹底的に真諦を把握し得られ、敬神崇祖の信念は確固不抜のものとなるという事を信ずるのである。<br><br> rattail（注） 私の所持する２冊ともに「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているため原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Espírito Divino</h2>
 <p>O Japão, nosso Grande Império, é a única nação divina do mundo – um fato da mais alta importância que todo japonês deve conhecer. Contudo, desde a Era Meiji, uma torrente de cultura materialista ocidental inundou o país. Em consequência, o campo científico progrediu a ponto de rivalizar com as nações do Ocidente, mas, lamentavelmente, a cultura espiritual foi relegada a um profundo esquecimento, o que levava as pessoas de coração sensível a deplorar tal situação. Há muito ansiávamos pelo dia em que essa cultura claudicante, na qual um aspecto avança enquanto o outro permanece estagnado, seria finalmente corrigida.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Tudo isso ocorre, com a mais profunda reverência, por desígnio do majestoso Poder Divino do Imperador, sendo também uma manifestação evidente da atuação dos Espíritos Divinos dos Ancestrais Imperiais e, por certo, dos oito milhões de deuses. Não resta, pois, a mais ínfima margem para dúvida. Diante disso, a condição do Japão como nação divina torna-se inquestionável.</p>
 <p>Considero, portanto, que o recente despertar do sentimento de reverência a Deus e aos antepassados em nosso povo é um acontecimento verdadeiramente digno de celebração. Uma clara manifestação desse fato é o expressivo aumento anual de peregrinos a santuários como o Grande Santuário de Ise, o Santuário Meiji e outros. Ademais, os ritos cívicos e as visitas ao Santuário Yasukuni provavelmente derivam de uma crença intuitiva na existência dos espíritos e na transmissão dos pensamentos. Essa tendência demonstra fidedignamente que nosso povo principia, enfim, a despertar para a cultura espiritual, o que não é senão o reflexo do poder da Era em que vivemos.</p>
 <p>Não obstante, tenho a firme convicção de que, ao lerem os resultados de minhas pesquisas sobre o espírito e o Mundo Espiritual, as pessoas poderão apreender em sua totalidade a verdade essencial, e a sua fé na reverência a Deus e aos antepassados se tornará inabalável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御神霊 『明日の医術 第三編』昭和18(1943)年10月23日発行 我大日本帝国は、世界唯一の神国であるという事は、日本人として知らねばならない最重要事である。<br/><br/>しかるに、明治以後滔々（とうとう）として欧米の唯物的文化が流入し来り、それによって科学的方面は、欧米の塁（るい）を摩（ま）すまでに進歩発達したのであるが、惜しいかな、精神文化の方面ははなはだしく閑却され、心ある者をして慨歎（がいたん）せしめつゝあったのである。<br/><br/>この一方が進み一方が進まないという跛行的文化は、いつかは訂正されなければならないと、吾々はその日の来る事の速かなるを冀（こいねが）うや久しかったのである。<br/><br/> しかるに近来、時局の進展につれて、漸（ようや）く我国民の間にも唯心的傾向が兆（きざ）し初めたのである。<br/><br/>それは大東亜戦争勃発するや、随時随所に赫々（かくかく）たる大戦果を挙げた事実によって、大戦果の蔭に、人智では解釈出来得ない奇蹟が余りに多く現われた事である。<br/><br/>特にその衝（しょう）に当ったところの皇軍勇士諸君に到っては、まざまざと眼に視、耳に聴いた体験によって、口を揃えて奇蹟を称（たた）えるのであった。<br/><br/>この事は日本人中知らぬものはないであろう。<br/><br/> 全く畏多（おそれおお）くも大御稜威（おおみいづ）の然らしむる所であると共に、皇祖皇宗の御神霊は固より、八百万の神々の御活動に依る事は明かであって、最早一点の疑を容れる余地はないのである。<br/><br/>ここにおいて、日本の神国たるゆえんは、最早論議の余地はないであろう。<br/><br/> 私は近来、我国民に敬神崇祖の念が沸き起った事はまことに慶賀すべき事と思っている。<br/><br/>その現われとして伊勢神宮を初め明治神宮その他の神社に対し奉り、年々参拝者の激増するという事によってみても明かである。<br/><br/>その他国民儀礼や靖国神社参拝等も、霊の実在や想念の伝達を何となく信ずるからであろう。<br/><br/>この傾向によってみても、我国民が漸く唯心的文化に目覚めんとしつゝある事を如実に物語っているのであって、全く時の力に外ならないのである。<br/><br/> しかしながら、私は霊及び霊界についての私の研究の成果を読む事によって、それは徹底的に真諦を把握し得られ、敬神崇祖の信念は確固不抜のものとなるという事を信ずるのである。<br/><br/> rattail（注） 私の所持する２冊ともに「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているため原本確認は出来ませんでした。<br/><br/>よって岡田茂吉全集によっています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

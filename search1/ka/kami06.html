@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神様も御手数が掛る 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 現代人は残らずといいたい程、宗教特に新宗教を蔑視し、信じなければならない程の事実を見せられても、疑いが先に立って中々信じようとしないのは困ったものである。<br><br>この原因こそ医学迷信のコチコチになり切っているためであるのは言うまでもない。<br><br>ところで治った患者自身がかなり分りかけた頃になり、たまたま再浄化が起りでもすると、ソラみた事かと親戚、知人、家族の者達が寄ってたかって御親切にも、“だから病気は医者だ、新宗教なんかで治るものか、インチキ迷信に決っている。<br><br>しかも救世教などは世間から何やかや言われている宗教なんだから、ウッカリ嵌り込んだら大変だ、早く縁を切った方がいい”などと言われるので、それもそうだと気が変ると共に、治った時の事も忘れてしまい、また医師に行くが、元々医療で駄目だから当方へ来たのであるから、快くなるはずはないから前にも増して悪化する。<br><br>しかし神様の大愛は今度は一層分るようにして下さるので、ここに本当に目が覚め救われるのである。<br><br> そのような訳で一度でスラスラ入信する人はまことに少ないが、しかし救わるべき因縁のある人はどうしても神様は離されないから、どんな妨害があっても結局は信者になるので、この御蔭話はよくその経緯を現わしている。<br><br>全く神様の大慈大悲は勿体（もったい）ないくらいである。<br><br> 夢に明主様の御浄霊を戴き奇蹟の前に平伏す 兵庫県 大浄大教会 赤松みのゑ（49） 明主様謹んで御守護御礼の御報告させて戴きます。<br><br> 私は昭和二十八年四月五日明主様の御赦しを戴き入信の栄に浴しました一農夫でございます。<br><br>結婚後は農業に従事致しておりましたが、二十八歳頃に腹膜炎に罹り長い間床に就き医者に頼り、天理教を信仰して恢復を希っておりましたが小康を得ず、本年三月十日頃より腹部に固結が三個も出来暫時痛みが伴なうものですから、医師の診察の結果「脱腸だ」といわれ、又「腹膜だ、子宮だ」と次々に病名が変り、毎日激痛にて苦しみました。<br><br>救世教の話も二年前に聞いておりましたが、既成宗教を種々信仰致しました私には、信仰で病気が治るものではないと敬遠致しておりましたところが、予期もしない三月三十日、中根先生と親戚の宮崎辰夫様が訪問下さいまして先生から御浄霊を戴きました。<br><br>不思議にも段々痛みが無くなり約四十分後には猛烈な痛みもピタリと止り、気分も勝れて参りました。<br><br>そして先生より浄霊の偉大なる御力について詳しく御話を伺い、現代医学迷信の夢より覚醒させて戴きました。<br><br>その後四月五日に有難くも明主様の光明の御手に抱かれる一人とならせて戴きました。<br><br> なにしろ二十日間というものは激痛の為食欲不振で起上る事すら出来なかった私が、教修の当日より不思議にも起上られ、三日間の教修も何等苦しみはなく、御守の拝受日は日野支部迄（約六里）乗物を利用して御参詣させて戴く事が出来ました。<br><br>この日の感謝感激は表現する術を知りません。<br><br> 明主様御西下の際は是非御面会戴かれますようにと連絡も戴いておりましたが、何時激痛が起るか判らないという不安が強く、自分勝手に解釈して御参詣もさして戴かず、気持も落着かずにおましたところ、四月九日の朝より腹部が踵れて来まして苦しくなり、遂に身体全体がバンパンに腫れ上り、小便は止り、意識は薄らぎ、家族、近隣の者は医者に駈けつける始末。<br><br>教会の先生は京都に御参詣なさって御不在、ただ明主様にお任せするより外に術はございません。<br><br>止むなく家人が医師を迎え小便を出してもらいました。<br><br>皆の騒いでいる声にふと気付きました。<br><br>医師は、「一時間もおそければ命の無いところであった」と申して注射をして帰りました。<br><br>その後又も私を暗黒の世界へ誘う様に皆各々に「神様もよいがこんな時にはやはり医者ですね。<br><br>一時間おそければあなたはこの世の人ではなかったのだ、前のは一時的で瞞されていたのだ」と申します。<br><br>遂に私もその言葉につられて妥協してしまいました。<br><br>暫くは苦痛も治まっていましたが、暫時身体が重苦しく感じられ又も腹部の固結は痛み始めました。<br><br>その後十二日に教会より先生がお越し下さいました。<br><br>九日の模様を報告致しましたところ、先生は「それは苦しかったでしょう。<br><br>浄霊さして戴くと奇蹟的に楽にして戴けましたでしょうに」と申されました。<br><br>「その我慢しておれば私は今時分この世におりませんよ。<br><br>もう先生に来て頂かなくとも結構です。<br><br>私は医者にかかります」ときっぱり断ってしまいました。<br><br>先生は「くれぐれもお大切になさいます様に」と言って帰られました。<br><br> 四月十四日頃から段々痛みは増して来て又元通りの激痛に苦しみました。<br><br>医師を呼び寄せ注射しましたが一向によくならず、益々痛みは厳しくなるばかり、その時ふと「これは申訳ないことをしてしまった。<br><br>あんな事申して明主様に御無礼を働き、先生には不快を与えてしまった」と心の中で御詫び申し上げ御念じ致しましたが痛みは止りません。<br><br>いくらお詫びしても神様はお許し下さらないのだ、もう死を待つより外に術は無い、だがまだ死にたくはない。<br><br>こうして苦悩の日は二日過ぎ、十六日の朝は御守様まで外してしまいました。<br><br>自暴自棄になり体を横に投げていましたところが、ちょうど午後二時頃と思います。<br><br>眠気を催した瞬間、美しいお顔の老人が現われ丁寧に腹部を約一時間位御浄霊して下さいました。<br><br>ふと目が覚めると夢でございました。<br><br>夢をたどってみますと、美しい老人と申しますのは、支部に御祀りしてありました明主様の御写真と同じ御方でした。<br><br>有難くも明主様直接御浄霊下さいましたのです。<br><br>思えば御守様まで外してしまった大罪悪人を御許し下さいまして御浄霊戴き、腹部の固結は無くなり痛みは止り、空腹を覚えお食事は何十年ぶりに美味しく頂戴致しました。<br><br>絶大なる御守護に御礼の言葉もございません。<br><br>直に御守様を身体につけさせて戴き、明主様に御詫び申し上げました。<br><br>その後中根先生にもお会いし御詫び申し上げました。<br><br>先生はあれ以来明主様にお任せし良い様にして戴く様御念じして下さっていましたそうです。<br><br>元気な私の顔をみて非常に喜んで下さいました。<br><br>先生は「偉大なる御神徳を戴き今後どうして御報いさして戴きますか。<br><br>新しく生命を戴かれたあなたです。<br><br>私有物ではなく、神有物にならして戴いたのですよ。<br><br>あなたの信仰如何により神様はどの様にでもなさいます」。<br><br>いかなる邪神が歯向かいましょうとも、明主様の御意図の万分の一にでも御報いさせて戴かなくてはならぬ事を肝に銘じ、道行く人、病人を訪ねてこの福音を御伝えさして頂いております。<br><br> 如何ならむ罪も赦させ如何ならむ 罪も尤むる天地の神 御讃歌にございます通り、大変な御無礼を働きましたにも拘りませず御赦し戴きました。<br><br> 嬉しきは地獄にも似し我過去 いつしか忘らひ天国のさま （御讃歌） 明主様何卒大罪を御赦し戴きまして、地上天国建設の大御業に御用の一員として御使いいただきます様謹みて御願い申し上げます。<br><br> 明主様有難うございました。<br><br> （昭和二八年七月二六日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Tenacidade do Amor Divino</h2>
 <p>Na era contemporânea, é digno de nota o desprezo que a quase totalidade das pessoas nutre pela religião, em especial pelas novas correntes religiosas. Mesmo quando confrontados com fatos que deveriam levá-los a crer, a dúvida se antepõe e impede que aceitem a verdade, o que é deveras lamentável. A causa para tal reside, inegavelmente, na arraigada superstição na medicina.</p>
@@ -123,5 +275,48 @@ Dando lugar a um estado celestial.</p>
 <p>Meishu-Sama, rogo humildemente que perdoeis meus graves pecados e que me aceiteis como um instrumento, por mais humilde que seja, em Vossa magna obra de construção do Paraíso Terrestre.</p>
 <p>Meishu-Sama, muito obrigada.</p>
 <p>(26 de julho de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神様も御手数が掛る 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 現代人は残らずといいたい程、宗教特に新宗教を蔑視し、信じなければならない程の事実を見せられても、疑いが先に立って中々信じようとしないのは困ったものである。<br/><br/>この原因こそ医学迷信のコチコチになり切っているためであるのは言うまでもない。<br/><br/>ところで治った患者自身がかなり分りかけた頃になり、たまたま再浄化が起りでもすると、ソラみた事かと親戚、知人、家族の者達が寄ってたかって御親切にも、“だから病気は医者だ、新宗教なんかで治るものか、インチキ迷信に決っている。<br/><br/>しかも救世教などは世間から何やかや言われている宗教なんだから、ウッカリ嵌り込んだら大変だ、早く縁を切った方がいい”などと言われるので、それもそうだと気が変ると共に、治った時の事も忘れてしまい、また医師に行くが、元々医療で駄目だから当方へ来たのであるから、快くなるはずはないから前にも増して悪化する。<br/><br/>しかし神様の大愛は今度は一層分るようにして下さるので、ここに本当に目が覚め救われるのである。<br/><br/> そのような訳で一度でスラスラ入信する人はまことに少ないが、しかし救わるべき因縁のある人はどうしても神様は離されないから、どんな妨害があっても結局は信者になるので、この御蔭話はよくその経緯を現わしている。<br/><br/>全く神様の大慈大悲は勿体（もったい）ないくらいである。<br/><br/> 夢に明主様の御浄霊を戴き奇蹟の前に平伏す 兵庫県 大浄大教会 赤松みのゑ（49） 明主様謹んで御守護御礼の御報告させて戴きます。<br/><br/> 私は昭和二十八年四月五日明主様の御赦しを戴き入信の栄に浴しました一農夫でございます。<br/><br/>結婚後は農業に従事致しておりましたが、二十八歳頃に腹膜炎に罹り長い間床に就き医者に頼り、天理教を信仰して恢復を希っておりましたが小康を得ず、本年三月十日頃より腹部に固結が三個も出来暫時痛みが伴なうものですから、医師の診察の結果「脱腸だ」といわれ、又「腹膜だ、子宮だ」と次々に病名が変り、毎日激痛にて苦しみました。<br/><br/>救世教の話も二年前に聞いておりましたが、既成宗教を種々信仰致しました私には、信仰で病気が治るものではないと敬遠致しておりましたところが、予期もしない三月三十日、中根先生と親戚の宮崎辰夫様が訪問下さいまして先生から御浄霊を戴きました。<br/><br/>不思議にも段々痛みが無くなり約四十分後には猛烈な痛みもピタリと止り、気分も勝れて参りました。<br/><br/>そして先生より浄霊の偉大なる御力について詳しく御話を伺い、現代医学迷信の夢より覚醒させて戴きました。<br/><br/>その後四月五日に有難くも明主様の光明の御手に抱かれる一人とならせて戴きました。<br/><br/> なにしろ二十日間というものは激痛の為食欲不振で起上る事すら出来なかった私が、教修の当日より不思議にも起上られ、三日間の教修も何等苦しみはなく、御守の拝受日は日野支部迄（約六里）乗物を利用して御参詣させて戴く事が出来ました。<br/><br/>この日の感謝感激は表現する術を知りません。<br/><br/> 明主様御西下の際は是非御面会戴かれますようにと連絡も戴いておりましたが、何時激痛が起るか判らないという不安が強く、自分勝手に解釈して御参詣もさして戴かず、気持も落着かずにおましたところ、四月九日の朝より腹部が踵れて来まして苦しくなり、遂に身体全体がバンパンに腫れ上り、小便は止り、意識は薄らぎ、家族、近隣の者は医者に駈けつける始末。<br/><br/>教会の先生は京都に御参詣なさって御不在、ただ明主様にお任せするより外に術はございません。<br/><br/>止むなく家人が医師を迎え小便を出してもらいました。<br/><br/>皆の騒いでいる声にふと気付きました。<br/><br/>医師は、「一時間もおそければ命の無いところであった」と申して注射をして帰りました。<br/><br/>その後又も私を暗黒の世界へ誘う様に皆各々に「神様もよいがこんな時にはやはり医者ですね。<br/><br/>一時間おそければあなたはこの世の人ではなかったのだ、前のは一時的で瞞されていたのだ」と申します。<br/><br/>遂に私もその言葉につられて妥協してしまいました。<br/><br/>暫くは苦痛も治まっていましたが、暫時身体が重苦しく感じられ又も腹部の固結は痛み始めました。<br/><br/>その後十二日に教会より先生がお越し下さいました。<br/><br/>九日の模様を報告致しましたところ、先生は「それは苦しかったでしょう。<br/><br/>浄霊さして戴くと奇蹟的に楽にして戴けましたでしょうに」と申されました。<br/><br/>「その我慢しておれば私は今時分この世におりませんよ。<br/><br/>もう先生に来て頂かなくとも結構です。<br/><br/>私は医者にかかります」ときっぱり断ってしまいました。<br/><br/>先生は「くれぐれもお大切になさいます様に」と言って帰られました。<br/><br/> 四月十四日頃から段々痛みは増して来て又元通りの激痛に苦しみました。<br/><br/>医師を呼び寄せ注射しましたが一向によくならず、益々痛みは厳しくなるばかり、その時ふと「これは申訳ないことをしてしまった。<br/><br/>あんな事申して明主様に御無礼を働き、先生には不快を与えてしまった」と心の中で御詫び申し上げ御念じ致しましたが痛みは止りません。<br/><br/>いくらお詫びしても神様はお許し下さらないのだ、もう死を待つより外に術は無い、だがまだ死にたくはない。<br/><br/>こうして苦悩の日は二日過ぎ、十六日の朝は御守様まで外してしまいました。<br/><br/>自暴自棄になり体を横に投げていましたところが、ちょうど午後二時頃と思います。<br/><br/>眠気を催した瞬間、美しいお顔の老人が現われ丁寧に腹部を約一時間位御浄霊して下さいました。<br/><br/>ふと目が覚めると夢でございました。<br/><br/>夢をたどってみますと、美しい老人と申しますのは、支部に御祀りしてありました明主様の御写真と同じ御方でした。<br/><br/>有難くも明主様直接御浄霊下さいましたのです。<br/><br/>思えば御守様まで外してしまった大罪悪人を御許し下さいまして御浄霊戴き、腹部の固結は無くなり痛みは止り、空腹を覚えお食事は何十年ぶりに美味しく頂戴致しました。<br/><br/>絶大なる御守護に御礼の言葉もございません。<br/><br/>直に御守様を身体につけさせて戴き、明主様に御詫び申し上げました。<br/><br/>その後中根先生にもお会いし御詫び申し上げました。<br/><br/>先生はあれ以来明主様にお任せし良い様にして戴く様御念じして下さっていましたそうです。<br/><br/>元気な私の顔をみて非常に喜んで下さいました。<br/><br/>先生は「偉大なる御神徳を戴き今後どうして御報いさして戴きますか。<br/><br/>新しく生命を戴かれたあなたです。<br/><br/>私有物ではなく、神有物にならして戴いたのですよ。<br/><br/>あなたの信仰如何により神様はどの様にでもなさいます」。<br/><br/>いかなる邪神が歯向かいましょうとも、明主様の御意図の万分の一にでも御報いさせて戴かなくてはならぬ事を肝に銘じ、道行く人、病人を訪ねてこの福音を御伝えさして頂いております。<br/><br/> 如何ならむ罪も赦させ如何ならむ 罪も尤むる天地の神 御讃歌にございます通り、大変な御無礼を働きましたにも拘りませず御赦し戴きました。<br/><br/> 嬉しきは地獄にも似し我過去 いつしか忘らひ天国のさま （御讃歌） 明主様何卒大罪を御赦し戴きまして、地上天国建設の大御業に御用の一員として御使いいただきます様謹みて御願い申し上げます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二八年七月二六日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

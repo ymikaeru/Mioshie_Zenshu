@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,59 +440,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学で病気は治らない 未発表『医学革命の書』昭和28(1953)年執筆 科学の進歩は、科学発見以前の世界と較べたなら、比較にならない程素晴しいのは今更言うまでもないが、さりとて向後（こうご）百年、千年後を想う時、それは想像も出来ない程の超驚異的文明世界である事ももちろんである。<br><br>そこでよく考えてみると、今日までの科学の進歩は、端的にいえば光学の進歩でしかない事である。<br><br>すなわち小さなものが拡大して見える硝子（ガラス）玉の進歩である。<br><br>大は天体観測の望遠鏡から、小は微生物発見の顕微鏡に至るまで、つまり大と小の極端の進歩で、中間はほとんどないといっていい。<br><br>そこで医学に関する面を主としてかいてみるが、現在のところ電子顕微鏡で見得る限度は二十万倍とされている。<br><br>この限度内で把握された微生物すなわち黴菌、またはウイルスを病原としているのが医学の考え方である。<br><br>そこで医学はこの菌を殺滅すれば、病は治るものと信じ、それを建前として研究を進めているのは言うまでもない。<br><br> ところで考えねばならない事は、右のごとく二十万倍以下の菌を対象としており、それ以上の菌を重視しない事である。<br><br>としたらここに問題がある。<br><br>それは真の病原は二十万倍どころではない。<br><br>百万倍か、一千万倍か、科学者は想像もつかないであろう。<br><br>それのみか仮に一千万倍の菌が見えるようになったとしても、それで根本的治病が可能なるかというと、これも分りようはずがない。<br><br>あるいは真の病原は菌の大きさどころではなく、無限であるかも分らない。<br><br>としたら科学がいかに進むとしても、病気を治す事は絶対不可能であるのは断定しても間違いはない。<br><br>それについて言いたい事は、医学は紀元前彼（か）のヒポクラテスが創始したものであって、すでに二千有余年を経ている今日、今もって病気は解決出来ないのである。<br><br>しかし言うであろう。<br><br>十八世紀後半俄然として科学が勃興（ぼっこう）し、それに伴って医学も発達したのであるから、このままで漸次進歩の暁、理想的医学となるに違いないから、それを期待しているのである。<br><br> ところが医学の病理のごとく、病原はことごとく黴菌としている以上、前記のごとく顕微鏡がいかほど進歩し、微生物の極致まで発見されたとしてもそれで解決出来ないのは右によっても明らかである。<br><br>また別の面から見ても、人間の生命は造物主が造られた万有中、最も神秘極まるものであって、他の物質とは根本的に違っている事を知らねばならない。<br><br>これは説明の要はないほど高級な存在である。<br><br>言うまでもなく智性、思想、感情等の思想的面は他の動物には全然ない。<br><br>この意味において人間以外の一切は、科学によって解決出来ると共に、益々進歩発達させねばならないのはもちろんであるというのは一切の物質は人間よりレベルが低く、従属されているものである。<br><br> 従って人間が同一レベルである人間を、自由にする事は真理に外れているから、どうしても人間以上であるＸ（エックス）の力でなければならない。<br><br>だとすれば人間が作った科学をもって、人間の病気を治そうとするのは、いかに見当違いであるかが分るであろう。<br><br>ゆえに治らないのが当然である。<br><br>標題のごとく科学で病気の治らない訳は分ったであろう。<br><br>また次の例を挙げてみると一層ハッキリする。<br><br>昔から至大無外（しだいそとなし）、至少無内（ししょううちなし）という言葉がある。<br><br>もちろん大も小も無限という意味である。<br><br>例えば大空の無限大と共に、微生物の本質も無限小である。<br><br>これを人間にたとえれば想念の無限である。<br><br>宇宙一切、森羅万象いかなる事物でも想念の届かぬところはない。<br><br>これによってみても人間はいかに高級であり、神秘な存在であるかが分るであろう。<br><br> 従って人間の病気といえども、有限である科学では治し得ないと共に、無限の力によらなければ治し得ないのは明々白々たる事実である。<br><br>この理によって医学の誤謬の根本は、人間と他の物質との違いさを知らないところにある。<br><br>としたら、その幼稚なる未開人的といっても過言ではあるまい。<br><br>以上思い切って科学にメスを入れたが、現在のところ私の説は到底信じられないであろうが、科学の理論物理学が実験物理学によって確認されると同様、私の唱える理論が実験上確認されるとしたら、これこそ真理である。<br><br>ただ私の説が余りに飛躍しすぎているので、直（すぐ）に受入れられないだけの事で、承認されるのは時の問題でしかあるまい。<br><br> 以上のごとく無限の病原を、無限力によって万人を救う例として、現在日々数万の患者が救われている。<br><br>例えば医学では絶対不治とされ、死の宣告まで受けた患者が、医学の医の字も知らない人々が数日間の修業によって得た方法をもってすれば、たちまち起死回生的に全治する。<br><br>また彼の盲腸炎の激痛でも、術者が数尺離れた所から、空間に手を翳（かざ）すだけで、二、三十分で痛みは去り、間もなく下痢によって排毒され全治する。<br><br>結核菌を呑んでも感染しない、感冒に罹る程健康は増すとしての喜び、目下流行の赤痢、日本脳炎など、数日間で全治する等々、例は何程でもあるが、これだけで充分であろう。<br><br>従ってこの著を読んだだけでは余りの偉効に到底信ずる事は出来まい。<br><br>ちょうど幼稚園の児童に、大学の講義を聴かせるようなものである。<br><br>この大発見こそ夢の現実化であり、不可能が可能となったのである。<br><br>私は断言する。<br><br>何人といえどもこれを身に着ける事によって、完全健康人となり、安心立命の境地になるのは断言する。<br><br> ゆえにこの事が全世界に知れ渡るとしたら、空前の大センセーションを捲き起すと共に、文明は百八十度の転換となるであろう。<br><br>その時になって臍（ほぞ）を噛むとも間に合わない。<br><br>この例として明治以後西洋文明が国内を風靡するや、今まで嘲笑され下積みになっていた人達が、一挙に新時代を受持つ栄誉を担うに反し、旧思想に捉われ頑迷な丁髷（ちょんまげ）連中は、慌てて後を逐（お）うとも追いつかなかったのと同様である。<br><br>しかもこの大発見たるや、それよりも幾層倍、否幾十層倍大であり、永遠性があるとしたら、徒（いたず）らに躊躇逡巡（ちゅうちょしゅんじゅん）バスに乗遅れないよう敢（あえ）て警告するのである。<br><br> (注) 至大無外（しだいそとなし）、至少無内（ししょううちなし） 中国の周易にある名言。<br><br>最大の宇宙に外界はなく、最小の粒子もとこしえに尽きなく、大もまたやはり無限であり、小もやはりまた無限である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ciência Não Cura Doenças (Da obra inédita “A Revolução da Medicina”, de 1953)</h2>
 <p>É indubitável que o progresso da ciência, quando comparado ao mundo que a precedeu, representa um esplendor incomparável. Contudo, ao projetarmos nosso pensamento para daqui a cem ou mil anos, vislumbramos uma civilização de maravilhas que transcendem a imaginação. Ao refletir sobre isso, percebemos que o avanço científico até hoje, em suma, não passa do avanço da óptica – ou seja, do aprimoramento das lentes que nos permitem enxergar o diminuto de forma ampliada. Trata-se de um progresso nos extremos, desde o telescópio para a observação dos corpos celestes até o microscópio para a descoberta dos microrganismos, com praticamente nada no nível intermediário. Concentrando-me doravante no campo da medicina, o limite de ampliação do microscópio eletrônico é, atualmente, de duzentas mil vezes. A premissa da medicina é que os agentes patogênicos são os microrganismos – bactérias ou vírus – apreendidos dentro desse limite. Desnecessário dizer que a medicina, crendo que a doença pode ser curada pela aniquilação desses germes, avança suas pesquisas tendo tal princípio como alicerce.</p>
@@ -103,5 +453,48 @@ function toggleLang(lang) {
 <p>(Nota)
 至大無外 (shidai soto nashi), 至少無内 (shishō uchi nashi)
 Expressão célebre do I Ching chinês. O universo, em sua máxima grandeza, não possui um exterior; a partícula, em sua mínima dimensão, também é infindável. Assim, tanto o grande quanto o pequeno são, em sua essência, infinitos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学で病気は治らない 未発表『医学革命の書』昭和28(1953)年執筆 科学の進歩は、科学発見以前の世界と較べたなら、比較にならない程素晴しいのは今更言うまでもないが、さりとて向後（こうご）百年、千年後を想う時、それは想像も出来ない程の超驚異的文明世界である事ももちろんである。<br/><br/>そこでよく考えてみると、今日までの科学の進歩は、端的にいえば光学の進歩でしかない事である。<br/><br/>すなわち小さなものが拡大して見える硝子（ガラス）玉の進歩である。<br/><br/>大は天体観測の望遠鏡から、小は微生物発見の顕微鏡に至るまで、つまり大と小の極端の進歩で、中間はほとんどないといっていい。<br/><br/>そこで医学に関する面を主としてかいてみるが、現在のところ電子顕微鏡で見得る限度は二十万倍とされている。<br/><br/>この限度内で把握された微生物すなわち黴菌、またはウイルスを病原としているのが医学の考え方である。<br/><br/>そこで医学はこの菌を殺滅すれば、病は治るものと信じ、それを建前として研究を進めているのは言うまでもない。<br/><br/> ところで考えねばならない事は、右のごとく二十万倍以下の菌を対象としており、それ以上の菌を重視しない事である。<br/><br/>としたらここに問題がある。<br/><br/>それは真の病原は二十万倍どころではない。<br/><br/>百万倍か、一千万倍か、科学者は想像もつかないであろう。<br/><br/>それのみか仮に一千万倍の菌が見えるようになったとしても、それで根本的治病が可能なるかというと、これも分りようはずがない。<br/><br/>あるいは真の病原は菌の大きさどころではなく、無限であるかも分らない。<br/><br/>としたら科学がいかに進むとしても、病気を治す事は絶対不可能であるのは断定しても間違いはない。<br/><br/>それについて言いたい事は、医学は紀元前彼（か）のヒポクラテスが創始したものであって、すでに二千有余年を経ている今日、今もって病気は解決出来ないのである。<br/><br/>しかし言うであろう。<br/><br/>十八世紀後半俄然として科学が勃興（ぼっこう）し、それに伴って医学も発達したのであるから、このままで漸次進歩の暁、理想的医学となるに違いないから、それを期待しているのである。<br/><br/> ところが医学の病理のごとく、病原はことごとく黴菌としている以上、前記のごとく顕微鏡がいかほど進歩し、微生物の極致まで発見されたとしてもそれで解決出来ないのは右によっても明らかである。<br/><br/>また別の面から見ても、人間の生命は造物主が造られた万有中、最も神秘極まるものであって、他の物質とは根本的に違っている事を知らねばならない。<br/><br/>これは説明の要はないほど高級な存在である。<br/><br/>言うまでもなく智性、思想、感情等の思想的面は他の動物には全然ない。<br/><br/>この意味において人間以外の一切は、科学によって解決出来ると共に、益々進歩発達させねばならないのはもちろんであるというのは一切の物質は人間よりレベルが低く、従属されているものである。<br/><br/> 従って人間が同一レベルである人間を、自由にする事は真理に外れているから、どうしても人間以上であるＸ（エックス）の力でなければならない。<br/><br/>だとすれば人間が作った科学をもって、人間の病気を治そうとするのは、いかに見当違いであるかが分るであろう。<br/><br/>ゆえに治らないのが当然である。<br/><br/>標題のごとく科学で病気の治らない訳は分ったであろう。<br/><br/>また次の例を挙げてみると一層ハッキリする。<br/><br/>昔から至大無外（しだいそとなし）、至少無内（ししょううちなし）という言葉がある。<br/><br/>もちろん大も小も無限という意味である。<br/><br/>例えば大空の無限大と共に、微生物の本質も無限小である。<br/><br/>これを人間にたとえれば想念の無限である。<br/><br/>宇宙一切、森羅万象いかなる事物でも想念の届かぬところはない。<br/><br/>これによってみても人間はいかに高級であり、神秘な存在であるかが分るであろう。<br/><br/> 従って人間の病気といえども、有限である科学では治し得ないと共に、無限の力によらなければ治し得ないのは明々白々たる事実である。<br/><br/>この理によって医学の誤謬の根本は、人間と他の物質との違いさを知らないところにある。<br/><br/>としたら、その幼稚なる未開人的といっても過言ではあるまい。<br/><br/>以上思い切って科学にメスを入れたが、現在のところ私の説は到底信じられないであろうが、科学の理論物理学が実験物理学によって確認されると同様、私の唱える理論が実験上確認されるとしたら、これこそ真理である。<br/><br/>ただ私の説が余りに飛躍しすぎているので、直（すぐ）に受入れられないだけの事で、承認されるのは時の問題でしかあるまい。<br/><br/> 以上のごとく無限の病原を、無限力によって万人を救う例として、現在日々数万の患者が救われている。<br/><br/>例えば医学では絶対不治とされ、死の宣告まで受けた患者が、医学の医の字も知らない人々が数日間の修業によって得た方法をもってすれば、たちまち起死回生的に全治する。<br/><br/>また彼の盲腸炎の激痛でも、術者が数尺離れた所から、空間に手を翳（かざ）すだけで、二、三十分で痛みは去り、間もなく下痢によって排毒され全治する。<br/><br/>結核菌を呑んでも感染しない、感冒に罹る程健康は増すとしての喜び、目下流行の赤痢、日本脳炎など、数日間で全治する等々、例は何程でもあるが、これだけで充分であろう。<br/><br/>従ってこの著を読んだだけでは余りの偉効に到底信ずる事は出来まい。<br/><br/>ちょうど幼稚園の児童に、大学の講義を聴かせるようなものである。<br/><br/>この大発見こそ夢の現実化であり、不可能が可能となったのである。<br/><br/>私は断言する。<br/><br/>何人といえどもこれを身に着ける事によって、完全健康人となり、安心立命の境地になるのは断言する。<br/><br/> ゆえにこの事が全世界に知れ渡るとしたら、空前の大センセーションを捲き起すと共に、文明は百八十度の転換となるであろう。<br/><br/>その時になって臍（ほぞ）を噛むとも間に合わない。<br/><br/>この例として明治以後西洋文明が国内を風靡するや、今まで嘲笑され下積みになっていた人達が、一挙に新時代を受持つ栄誉を担うに反し、旧思想に捉われ頑迷な丁髷（ちょんまげ）連中は、慌てて後を逐（お）うとも追いつかなかったのと同様である。<br/><br/>しかもこの大発見たるや、それよりも幾層倍、否幾十層倍大であり、永遠性があるとしたら、徒（いたず）らに躊躇逡巡（ちゅうちょしゅんじゅん）バスに乗遅れないよう敢（あえ）て警告するのである。<br/><br/> (注) 至大無外（しだいそとなし）、至少無内（ししょううちなし） 中国の周易にある名言。<br/><br/>最大の宇宙に外界はなく、最小の粒子もとこしえに尽きなく、大もまたやはり無限であり、小もやはりまた無限である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

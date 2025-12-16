@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>moshimo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： IF "EVIL" DISAPPEARS FROM THIS WORLD Eikoh , No. 197, February 25, 1953 (the 28th year of Showa) It is needless to say at this late that when we examine closely the cause of every kind of human unhappiness, it can all be traced back to evil. So then, I have written this article by the exercise of imagination under the assumption that evil has disappeared from this world. To begin with, sick people would disappear; every single one of us would enjoy health, so there would not be anyone to be absent from work. As I always state, the cause to produce sick people lies in the mistake of medicine, which is, so to speak, sin out of good will; therefore in terms of the result it falls under evil after all. Indeed it has been said since olden days, "Medicine is a benevolent art" and people have thought of medicine as magnificent virtuous work which saves human life; but actually, that is nothing but an utter illusion. Therefore, if this reality is made clear and corrected, it is a matter of course that the world with no disease will emerge, in which people can work in high spirits all through the year, so no doubt there would be neither poverty nor conflicts, and happy families in a peaceful society would come true. It may sound too good to be true; however, we find some difficulty here. For although until that time there would be a transition period in which all the facilities and machines relating to diseases would become unnecessary, and as to the people concerned, neither doctors, nurses nor drug manufacturers and the employees in connected industries would all lose their jobs; this would be a difficult problem to solve. However, considering the benefits which would accrue to the nation and its people eternally, they would have no other choice but to stand it by all means. If the time has come when people do not have any worries about illness, all the troubles as they have now will disappear: for example, "Don't catch cold," "Keep yourself warm," "Be careful of foods," "Nutrition is important," "Wash your hands before eating," "Pay attention to hygiene," "Gargle when you come home," "Keep away from bacteria," etc., so people will be able to live so brightly without any anxiety, behave coolly and unconcernedly among general public as well as in bad air; this is the very life of truly free person. In addition, of the monthly living expenses, healthcare spending will become unnecessary; what a relief people will have for their living! And further, there will be no need to lock the door of each one's house, worry about pickpockets or baggage lifting on a train and the like, so people will be able to enjoy their carefree travels, and if someone comes to ask you for money, because he or she is absolutely sure to return it, you will lend money with a good grace as long as you can afford to, so both side, as a matter of course, can feel good. In any transaction there will be no need for a bond or a receipt, which will save the trouble, and it will be impossible for complaints or lawsuits to occur. Family members will be all healthy, materially affluent, so that peace and harmony would reign over the family and they will enjoy going on a pleasure trip together as a family. As for the head of a family, since he will not drink heavily or spend the two nights away, his wife will not feel anxiety about him, so the domestic disputes will disappear as if they had been old time illusions. And since the children follow their parents' example, so they do something nice to their parents without being told to; now that it's come to this, who cares about democracy or feudalistic thinking? It is because such a bother slips their minds. As for the police and law courts, one tenth of the present number will do. For, since evils will not disappear so rapidly after all, it cannot be helped that there would happen some conflicts and criminals would come out in a way; however, the number of cases will be incomparably smaller than that of today and most crimes will be settled as minor ones. In addition, policemen and judges will decide on cases quite impartially without worrying too much about their honor and sentiments, and at the same time, accused persons will not lie or deceive, so there will be no need for lawyers and cases will, as a matter of course, be settled promptly, and since bribery will disappear, public servants, office workers and school teachers will never feel compunction and be always bright and cheerful, so they will work more efficiently and be able to finish off their work in only a fraction of the time that has been needed so far. The happiest of all is that war will disappear from the world. Since war is the greatest evil, if it disappears, the world will change for the better in all its aspects on an unimaginably big scale. First of all, the economic burden of the people of each country will become a fraction of that of today, they naturally will be happy and their societies become more livable as a matter of course. So far, I have described the world in which evil has disappeared, and yet there are some more points left unwritten that I need to mention. First, the labor in all working places will decrease to only a fraction of that of the present day. Needless to think about it, probably the futility of labor caused by evil in today's society is tremendous, although nobody notices that. Therefore, if even one tenth of evils decreased, the burden of the country would become easier by just that much. Since the budget this year is said to be nine hundred, ninety and six billion yen, only the ten percent decrease of evils would lead substantially to increase of about one hundred billion yen and taxes would be reduced at the same rate, so people would be saved from the tax hell. Furthermore, if the rate deceased by twenty to thirty percent, goods as well as money would be superabundant and it would be enough for human beings to work for less than half the time it takes now, so would be sufficient to work for three hours a day. Then people each would be able to spend the rest of the time on their own hobbies or studies; hereupon people would come to live a meaningful life as a human being for the first time in history, and since the world would become such a place where people live actually in perfect peace and happiness, there would be magnificent edifices built everywhere: to say nothing of gorgeous theaters and development of every kind of recreational facilities, paradises with a profusion of flowers, great national parks which introduce scenic beauty, botanical gardens and unique private garden, etc. would naturally emerge one after another; streets with semi-park outlook and function would be made everywhere and, conjointly with development of transportation facilities, people would enjoy travels several times as much as those of today; every country would compete to establish a splendid palace of art, so the light of culture would be overflowing on earth. Sports would become more and more advanced for human health and promotion of physical beauty, so that big stadiums would be founded at every place. If the world became such a one, human beings would not be routinely treated as today, but rather enjoy doing their jobs because they would work according as their natural self-consciousness tell them to. And their eating habits would also make amazing progress; combined with abundant foods and development of cooking method the diet of common people would improve incomparably much better than today. I have just outlined the imaginable world this much under the assumption that evil has disappeared from this world, and those who read this may consider that it would be fine if the world became such a one, but that it is only a dream and there cannot be any possibility of that coming true, so it is no more than a banquet painted on canvas; however, I affirm that it is possible. For this to be true, it is the fundamental condition to eradicate evils as I have just stated, and everything depends on that. However, it is none other than the Last Judgment impending upon us, through which evils are to be completely expelled. But before that time, there will be a great difficult situation, and only when one can break through the situation one will become a true happy person. Since it is our World Messianity that has emerged for the salvation of human beings, this religion is the very key with which you can open the door to happiness. 若しもこの世界から「悪」がなくなったら 『栄光』197号、昭和28(1953)年2月25日発行 およそ人間一切の不幸の原因を突きつめてみると、ことごとく悪にあることは今更いうまでもないが、そこでも私はこの世界からもし悪が無くなるとしたらという仮定の下に、想像してかいてみたのである。<br><br>それはまず第一病人がなくなることで、誰も彼も健康に恵まれ、仕事を休むようなことはなくなってしまう。<br><br>いつもいう通り病人の出来る原因は医学の誤りにあるので、いわば善意の罪悪であるから、結果からいえばやはり悪に属するわけである。<br><br>なるほど昔から医は仁術なりといって、人の命を助ける立派な善の仕事と思っているのであるが、実はそれは大なる錯覚でしかないのである。<br><br> 従ってこのことがハッキリ分り、是正されるとしたら、ここに病無き世界が出来るのは当然で、人間は年中張切って働けるから、貧乏も争いもなくなり、幸福な家庭、平和な社会となるのは間違いないのである。<br><br>というとまるで牡丹餅（ぼたもち）で頬（ほっ）ペタを叩かれたようなうますぎる話だが、ここに困ることがある。<br><br>というのはそうなるまでには一時的ではあるが、病気に関係ある一切の施設も機械も不要となり、人的には医師も看護婦も、それに付随する製薬関係者を始め、各方面の従業者ことごとくは失業するから、この解決が容易ならぬ問題である。<br><br>しかしこの結果国家国民に及ぼす永遠な利益を考えたら、何としても我慢しない訳にはゆかないであろう。<br><br> その暁（あかつき）人間病気の心配がなくなるとしたら、現在のようにヤレ風邪を引くな、冷えるな、食物に注意しろ、栄養が肝腎だ、外出から帰ったら含嗽（うがい）をしろ、食前には手を洗え、衛生に注意しろ、黴菌を防止しろなどという面倒なことは一切なくなり、人間は何ら心配なく、伸び伸びとして多人数の中でも、空気の悪い所でも薄着でも平気の平左（へいざ）で、いとも朗らかに生きていられるので、これこそ本当の自由人の生活である。<br><br>しかも毎月の生活費中医療費がなくなるだけでも、どんなに楽になるか知れないであろう。<br><br> また各家の戸締も要らず、汽車や電車に乗っても、掏摸（すり）や置引の心配もなく至極気楽な旅となるであろうし、また金借りが来ても返すに決っているから、余裕さえあれば快く貸してやるから双方気持がいいのはもちろんであり、何の取引でも判証文や受取なども要らないから、手数も省（はぶ）け苦情や裁判沙汰なども起りようがなくなるし、家族一同健康であるから物質は豊かで、和気藹々（あいあい）たる家庭となり、家族連れの物見遊山（ものみゆさん）なども大いに楽しみとなろう。<br><br>主人は主人で大酒を飲んだり外泊したりしないから、妻君の心配もなく、家庭争議など昔の夢と消えてしまう。<br><br>また子供も親に見習うから教えなくとも親孝行をするし、こうなっては民主主義も封建思想もヘチマもあったものではない。<br><br>そんな面倒臭いことは忘れてしまうからである。<br><br> それから警察や裁判所は、今の十分の一で事足りるであろう。<br><br>というのは悪といえどもそう早くなくなるわけにもゆくまいから、ヤハリある程度の争いや犯罪者も出るには出るであろうが、今日のそれとは比較にならない程少なくなり、ほとんどは軽犯罪くらいで済むであろう。<br><br>しかも警察官も裁判官も、今日のような面目や感情などにこだわることなく、至極公平に裁くと共に、被告も嘘や誤魔化しをいわないから、弁護士の必要もなくなり、簡単に迅速に運ぶのはもちろん、贈収賄などもなくなるから、官公吏（かんこうり）、会社員、学校教員なども、何ら気が咎（とが）めることなく、いつも明朗であるから、仕事の能率は上り、今までの何分の一の時間で片付くであろう。<br><br> ここで最も大きな幸（さいわい）は、戦争がなくなることである。<br><br>戦争こそ最大なる悪であるから、これがなくなるとしたら、世界はあらゆる面における好変は想像もつかない程大きなものがあろう。<br><br>第一各国民の経済的負担は今より何分の一に減るであろうから、いやでも人間は幸福となり、住みよい社会となるのはもちろんである。<br><br> 以上悪のなくなった世界をかいてみたのであるが、まだ少しかき残したことがあるからかいてみるが、まず何よりも一切の労力が何分の一に減ることである。<br><br>考えるまでもなく、今日の社会は悪による労力の無駄は誰も気付かないが、実は大変なものであろう。<br><br>従って悪が一割減ったとしても、国家はそれだけ楽になる。<br><br>今年の政府予算九千九百六十億というのであるから、一割減っただけでも約一千億はプラスになるわけで、その割で税金も減ることになるから税金地獄からも救われるであろうし、その上二割となり、三割となるとしたら、金も物資もあり余って、人間は今までの半分以下の働きで充分であるから、まず一日三時間働けば済むことになろう。<br><br>そこで後の時間はそれぞれ自己の趣味や勉強の時間に当てればいいので、ここに初めて人間としての生甲斐ある人生となり、文字通り鼓腹撃壌（こふくげきじょう）の世の中となる以上、至る所壮麗なる大建築が出来、華麗な劇場やあらゆる娯楽機関の発達は固（もと）より、百花爛漫（ひゃっからんまん）たるパラダイス、山水を取入れた大国立公園や植物園、特殊の私的庭園等々も続々出来るのはもちろん、半公園式街路も方々に出来、交通機関の発達と相まって、人間旅行の楽しみは今日の何倍となるであろうし、壮麗な美術の殿堂は、各国競って設けることになるから、文化の光は地上に漲（みなぎ）るであろう。<br><br> そうして人間は健康と肉体美増進のためと、競争意識を満足させるため等でスポーツは益々旺（さか）んになり、大グランドは各地に設置されるであろう。<br><br>以上のごとき世界となるとしたら人間は今日のごとく機械的に扱われることなく、自己意識のままに働くからむしろ楽しみとさえなるのである。<br><br>また食生活においてもその進歩は素晴しく、豊富なる食料と調理の進歩と相まって、一般人民の食生活は現在とは比較にならない程改善されるであろう。<br><br> まずザットかいただけでこのくらいであるが、これを読む人はなるほどそうなったら結構には違いないが、それは単なる夢であって、実現の可能性はあるわけがないから、絵にかいた御馳走にすぎないというかも知れないが、私はその可能を断言するのである。<br><br>それには前記のごとく悪の絶滅が根本条件であるから問題はそれ次第である。<br><br>ところがそれこそ今や正に来たらんとする最後の審判であって、これによって悪は全く追放されるのである。<br><br>ただそうなるまでには一大難関があるので、それを突破してこそ真の幸福者となるのである。<br><br>その救いとして現われたのが我救世教であるから、本教こそ幸福の門を開く鍵である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>E se o Mal Desaparecesse Deste Mundo</h2>
 <p>É desnecessário reiterar, a esta altura, que um exame aprofundado das causas de toda a infelicidade humana invariavelmente nos conduz à sua origem: o mal. Nesse sentido, decidi exercitar a imaginação para descrever, no presente artigo, como seria o mundo se o mal desaparecesse por completo.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Os esportes se tornariam cada vez mais avançados para a promoção da saúde e da beleza física humana, e grandes estádios seriam fundados em toda parte. Nesse mundo, os seres humanos não seriam tratados de forma mecânica como hoje; ao contrário, encontrariam prazer em suas ocupações, pois trabalhariam segundo a orientação de sua própria consciência. Seus hábitos alimentares também progrediriam de forma espantosa; a combinação de alimentos abundantes com o desenvolvimento da culinária melhoraria a dieta do povo de maneira incomparável.</p>
 <p>Esbocei brevemente o mundo que se pode imaginar sob a premissa de que o mal desapareceu. Aqueles que leem estas palavras talvez considerem que seria maravilhoso se o mundo se tornasse assim, mas que tudo não passa de um sonho, sem qualquer possibilidade de se concretizar — nada mais que um banquete pintado sobre tela.</p>
 <p>Eu, porém, afirmo que isso é possível. Para que tal se realize, a condição fundamental, como já afirmei, é a erradicação do mal. Tudo depende disso. E é precisamente isso que ocorrerá por meio do Juízo Final, que se aproxima de nós, e pelo qual o mal será completamente expulso. Contudo, antes que esse tempo chegue, haverá uma grande e difícil provação. Somente aquele que conseguir superá-la se tornará uma pessoa verdadeiramente feliz. É para a salvação da humanidade que surgiu a nossa Sekaikyuseikyou (救世教). Portanto, esta religião é a verdadeira chave com a qual se pode abrir a porta para a felicidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： IF "EVIL" DISAPPEARS FROM THIS WORLD Eikoh , No. 197, February 25, 1953 (the 28th year of Showa) It is needless to say at this late that when we examine closely the cause of every kind of human unhappiness, it can all be traced back to evil. So then, I have written this article by the exercise of imagination under the assumption that evil has disappeared from this world. To begin with, sick people would disappear; every single one of us would enjoy health, so there would not be anyone to be absent from work. As I always state, the cause to produce sick people lies in the mistake of medicine, which is, so to speak, sin out of good will; therefore in terms of the result it falls under evil after all. Indeed it has been said since olden days, "Medicine is a benevolent art" and people have thought of medicine as magnificent virtuous work which saves human life; but actually, that is nothing but an utter illusion. Therefore, if this reality is made clear and corrected, it is a matter of course that the world with no disease will emerge, in which people can work in high spirits all through the year, so no doubt there would be neither poverty nor conflicts, and happy families in a peaceful society would come true. It may sound too good to be true; however, we find some difficulty here. For although until that time there would be a transition period in which all the facilities and machines relating to diseases would become unnecessary, and as to the people concerned, neither doctors, nurses nor drug manufacturers and the employees in connected industries would all lose their jobs; this would be a difficult problem to solve. However, considering the benefits which would accrue to the nation and its people eternally, they would have no other choice but to stand it by all means. If the time has come when people do not have any worries about illness, all the troubles as they have now will disappear: for example, "Don't catch cold," "Keep yourself warm," "Be careful of foods," "Nutrition is important," "Wash your hands before eating," "Pay attention to hygiene," "Gargle when you come home," "Keep away from bacteria," etc., so people will be able to live so brightly without any anxiety, behave coolly and unconcernedly among general public as well as in bad air; this is the very life of truly free person. In addition, of the monthly living expenses, healthcare spending will become unnecessary; what a relief people will have for their living! And further, there will be no need to lock the door of each one's house, worry about pickpockets or baggage lifting on a train and the like, so people will be able to enjoy their carefree travels, and if someone comes to ask you for money, because he or she is absolutely sure to return it, you will lend money with a good grace as long as you can afford to, so both side, as a matter of course, can feel good. In any transaction there will be no need for a bond or a receipt, which will save the trouble, and it will be impossible for complaints or lawsuits to occur. Family members will be all healthy, materially affluent, so that peace and harmony would reign over the family and they will enjoy going on a pleasure trip together as a family. As for the head of a family, since he will not drink heavily or spend the two nights away, his wife will not feel anxiety about him, so the domestic disputes will disappear as if they had been old time illusions. And since the children follow their parents' example, so they do something nice to their parents without being told to; now that it's come to this, who cares about democracy or feudalistic thinking? It is because such a bother slips their minds. As for the police and law courts, one tenth of the present number will do. For, since evils will not disappear so rapidly after all, it cannot be helped that there would happen some conflicts and criminals would come out in a way; however, the number of cases will be incomparably smaller than that of today and most crimes will be settled as minor ones. In addition, policemen and judges will decide on cases quite impartially without worrying too much about their honor and sentiments, and at the same time, accused persons will not lie or deceive, so there will be no need for lawyers and cases will, as a matter of course, be settled promptly, and since bribery will disappear, public servants, office workers and school teachers will never feel compunction and be always bright and cheerful, so they will work more efficiently and be able to finish off their work in only a fraction of the time that has been needed so far. The happiest of all is that war will disappear from the world. Since war is the greatest evil, if it disappears, the world will change for the better in all its aspects on an unimaginably big scale. First of all, the economic burden of the people of each country will become a fraction of that of today, they naturally will be happy and their societies become more livable as a matter of course. So far, I have described the world in which evil has disappeared, and yet there are some more points left unwritten that I need to mention. First, the labor in all working places will decrease to only a fraction of that of the present day. Needless to think about it, probably the futility of labor caused by evil in today's society is tremendous, although nobody notices that. Therefore, if even one tenth of evils decreased, the burden of the country would become easier by just that much. Since the budget this year is said to be nine hundred, ninety and six billion yen, only the ten percent decrease of evils would lead substantially to increase of about one hundred billion yen and taxes would be reduced at the same rate, so people would be saved from the tax hell. Furthermore, if the rate deceased by twenty to thirty percent, goods as well as money would be superabundant and it would be enough for human beings to work for less than half the time it takes now, so would be sufficient to work for three hours a day. Then people each would be able to spend the rest of the time on their own hobbies or studies; hereupon people would come to live a meaningful life as a human being for the first time in history, and since the world would become such a place where people live actually in perfect peace and happiness, there would be magnificent edifices built everywhere: to say nothing of gorgeous theaters and development of every kind of recreational facilities, paradises with a profusion of flowers, great national parks which introduce scenic beauty, botanical gardens and unique private garden, etc. would naturally emerge one after another; streets with semi-park outlook and function would be made everywhere and, conjointly with development of transportation facilities, people would enjoy travels several times as much as those of today; every country would compete to establish a splendid palace of art, so the light of culture would be overflowing on earth. Sports would become more and more advanced for human health and promotion of physical beauty, so that big stadiums would be founded at every place. If the world became such a one, human beings would not be routinely treated as today, but rather enjoy doing their jobs because they would work according as their natural self-consciousness tell them to. And their eating habits would also make amazing progress; combined with abundant foods and development of cooking method the diet of common people would improve incomparably much better than today. I have just outlined the imaginable world this much under the assumption that evil has disappeared from this world, and those who read this may consider that it would be fine if the world became such a one, but that it is only a dream and there cannot be any possibility of that coming true, so it is no more than a banquet painted on canvas; however, I affirm that it is possible. For this to be true, it is the fundamental condition to eradicate evils as I have just stated, and everything depends on that. However, it is none other than the Last Judgment impending upon us, through which evils are to be completely expelled. But before that time, there will be a great difficult situation, and only when one can break through the situation one will become a true happy person. Since it is our World Messianity that has emerged for the salvation of human beings, this religion is the very key with which you can open the door to happiness. 若しもこの世界から「悪」がなくなったら 『栄光』197号、昭和28(1953)年2月25日発行 およそ人間一切の不幸の原因を突きつめてみると、ことごとく悪にあることは今更いうまでもないが、そこでも私はこの世界からもし悪が無くなるとしたらという仮定の下に、想像してかいてみたのである。<br/><br/>それはまず第一病人がなくなることで、誰も彼も健康に恵まれ、仕事を休むようなことはなくなってしまう。<br/><br/>いつもいう通り病人の出来る原因は医学の誤りにあるので、いわば善意の罪悪であるから、結果からいえばやはり悪に属するわけである。<br/><br/>なるほど昔から医は仁術なりといって、人の命を助ける立派な善の仕事と思っているのであるが、実はそれは大なる錯覚でしかないのである。<br/><br/> 従ってこのことがハッキリ分り、是正されるとしたら、ここに病無き世界が出来るのは当然で、人間は年中張切って働けるから、貧乏も争いもなくなり、幸福な家庭、平和な社会となるのは間違いないのである。<br/><br/>というとまるで牡丹餅（ぼたもち）で頬（ほっ）ペタを叩かれたようなうますぎる話だが、ここに困ることがある。<br/><br/>というのはそうなるまでには一時的ではあるが、病気に関係ある一切の施設も機械も不要となり、人的には医師も看護婦も、それに付随する製薬関係者を始め、各方面の従業者ことごとくは失業するから、この解決が容易ならぬ問題である。<br/><br/>しかしこの結果国家国民に及ぼす永遠な利益を考えたら、何としても我慢しない訳にはゆかないであろう。<br/><br/> その暁（あかつき）人間病気の心配がなくなるとしたら、現在のようにヤレ風邪を引くな、冷えるな、食物に注意しろ、栄養が肝腎だ、外出から帰ったら含嗽（うがい）をしろ、食前には手を洗え、衛生に注意しろ、黴菌を防止しろなどという面倒なことは一切なくなり、人間は何ら心配なく、伸び伸びとして多人数の中でも、空気の悪い所でも薄着でも平気の平左（へいざ）で、いとも朗らかに生きていられるので、これこそ本当の自由人の生活である。<br/><br/>しかも毎月の生活費中医療費がなくなるだけでも、どんなに楽になるか知れないであろう。<br/><br/> また各家の戸締も要らず、汽車や電車に乗っても、掏摸（すり）や置引の心配もなく至極気楽な旅となるであろうし、また金借りが来ても返すに決っているから、余裕さえあれば快く貸してやるから双方気持がいいのはもちろんであり、何の取引でも判証文や受取なども要らないから、手数も省（はぶ）け苦情や裁判沙汰なども起りようがなくなるし、家族一同健康であるから物質は豊かで、和気藹々（あいあい）たる家庭となり、家族連れの物見遊山（ものみゆさん）なども大いに楽しみとなろう。<br/><br/>主人は主人で大酒を飲んだり外泊したりしないから、妻君の心配もなく、家庭争議など昔の夢と消えてしまう。<br/><br/>また子供も親に見習うから教えなくとも親孝行をするし、こうなっては民主主義も封建思想もヘチマもあったものではない。<br/><br/>そんな面倒臭いことは忘れてしまうからである。<br/><br/> それから警察や裁判所は、今の十分の一で事足りるであろう。<br/><br/>というのは悪といえどもそう早くなくなるわけにもゆくまいから、ヤハリある程度の争いや犯罪者も出るには出るであろうが、今日のそれとは比較にならない程少なくなり、ほとんどは軽犯罪くらいで済むであろう。<br/><br/>しかも警察官も裁判官も、今日のような面目や感情などにこだわることなく、至極公平に裁くと共に、被告も嘘や誤魔化しをいわないから、弁護士の必要もなくなり、簡単に迅速に運ぶのはもちろん、贈収賄などもなくなるから、官公吏（かんこうり）、会社員、学校教員なども、何ら気が咎（とが）めることなく、いつも明朗であるから、仕事の能率は上り、今までの何分の一の時間で片付くであろう。<br/><br/> ここで最も大きな幸（さいわい）は、戦争がなくなることである。<br/><br/>戦争こそ最大なる悪であるから、これがなくなるとしたら、世界はあらゆる面における好変は想像もつかない程大きなものがあろう。<br/><br/>第一各国民の経済的負担は今より何分の一に減るであろうから、いやでも人間は幸福となり、住みよい社会となるのはもちろんである。<br/><br/> 以上悪のなくなった世界をかいてみたのであるが、まだ少しかき残したことがあるからかいてみるが、まず何よりも一切の労力が何分の一に減ることである。<br/><br/>考えるまでもなく、今日の社会は悪による労力の無駄は誰も気付かないが、実は大変なものであろう。<br/><br/>従って悪が一割減ったとしても、国家はそれだけ楽になる。<br/><br/>今年の政府予算九千九百六十億というのであるから、一割減っただけでも約一千億はプラスになるわけで、その割で税金も減ることになるから税金地獄からも救われるであろうし、その上二割となり、三割となるとしたら、金も物資もあり余って、人間は今までの半分以下の働きで充分であるから、まず一日三時間働けば済むことになろう。<br/><br/>そこで後の時間はそれぞれ自己の趣味や勉強の時間に当てればいいので、ここに初めて人間としての生甲斐ある人生となり、文字通り鼓腹撃壌（こふくげきじょう）の世の中となる以上、至る所壮麗なる大建築が出来、華麗な劇場やあらゆる娯楽機関の発達は固（もと）より、百花爛漫（ひゃっからんまん）たるパラダイス、山水を取入れた大国立公園や植物園、特殊の私的庭園等々も続々出来るのはもちろん、半公園式街路も方々に出来、交通機関の発達と相まって、人間旅行の楽しみは今日の何倍となるであろうし、壮麗な美術の殿堂は、各国競って設けることになるから、文化の光は地上に漲（みなぎ）るであろう。<br/><br/> そうして人間は健康と肉体美増進のためと、競争意識を満足させるため等でスポーツは益々旺（さか）んになり、大グランドは各地に設置されるであろう。<br/><br/>以上のごとき世界となるとしたら人間は今日のごとく機械的に扱われることなく、自己意識のままに働くからむしろ楽しみとさえなるのである。<br/><br/>また食生活においてもその進歩は素晴しく、豊富なる食料と調理の進歩と相まって、一般人民の食生活は現在とは比較にならない程改善されるであろう。<br/><br/> まずザットかいただけでこのくらいであるが、これを読む人はなるほどそうなったら結構には違いないが、それは単なる夢であって、実現の可能性はあるわけがないから、絵にかいた御馳走にすぎないというかも知れないが、私はその可能を断言するのである。<br/><br/>それには前記のごとく悪の絶滅が根本条件であるから問題はそれ次第である。<br/><br/>ところがそれこそ今や正に来たらんとする最後の審判であって、これによって悪は全く追放されるのである。<br/><br/>ただそうなるまでには一大難関があるので、それを突破してこそ真の幸福者となるのである。<br/><br/>その救いとして現われたのが我救世教であるから、本教こそ幸福の門を開く鍵である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

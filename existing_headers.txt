@@ -1,0 +1,1194 @@
+31:## 2\. A Rã e a Chuva
+47:## 3\. O Arco-Íris de Maio
+63:## 4\. Lírios na Penumbra
+79:## 5\. Canção do Plantio
+95:## 6\. Pirilampos
+111:## 7\. Aroma Verde
+127:## 8\. Reflexo no Lago
+143:## 9\. Expansão da Alma
+159:## 10\. O Tempo das Flores
+175:## 11\. Luzes de Pesca
+191:## 12\. Ipomeias ao Crepúsculo
+207:## 13\. A Chuva que Nutre
+221:## 14\. O Crescimento do Povo
+237:## 15\. A Morada Eterna
+253:## 16\. A Lua no Coração Sincero
+269:## 17\. O Fuji em Musashino
+285:## 18\. A Luz da Poesia
+301:## 19\. A Árvore de Sala
+317:## 20\. Budas de Pedra e Musgo
+333:## 21\. Canto dos Pássaros
+349:## 22\. O Paraíso dos Poetas
+365:## 23\. A Vista do Donkairo
+381:## 24\. Vento de Verão
+397:## 25\. A Adoração do Sol
+413:## 26\. Esquecimento de Si
+429:## 27\. O Templo da Origem do Sol
+443:## 28\. A Partida com Companheiros
+459:## 29\. A Chegada ao Sopé
+475:## 30\. A Subida à Luz de Lanternas
+491:## 31\. O Portão do Templo
+507:## 32\. O Templo na Montanha
+523:## 33\. O Banho Restaurador
+539:## 34\. Noite no Templo Zen
+555:## 35\. Liderança
+571:## 36\. Escuridão e Luz
+587:## 37\. O Cume do Kenkonzan
+603:## 38\. A Curva da Montanha
+619:## 39\. O Mundo Flutuante
+635:## 40\. O Despertar da Terra
+651:## 41\. Mirante das Dez Províncias
+667:## 42\. O Farol e a Névoa
+683:## 43\. Pintura em Tinta Nanquim
+699:## 44\. O Caminho de Volta
+715:## 45\. Os Arhats de Pedra
+731:## 46\. A Montanha dos Budas
+745:## 47\. O Bosque de Sala
+761:## 48\. A Imagem do Yakushi Nyorai
+777:## 49\. A Fundação Sagrada
+791:## 50\. A Presença da Compaixão Antiga
+807:## 51\. O Sabor da Montanha
+823:## 52\. O Jardim Inesgotável
+839:## 53\. Sarau no Gramado
+855:## 54\. O Pinheiro e a Tartaruga
+871:## 55\. O Brilho do Céu
+887:## 56\. O Templo Nago Kannon
+903:## 57\. O Mirante de Kannon
+919:## 58\. A Partida de Trem
+935:## 59\. A Pintura de Gauguin
+951:## 60\. O Conforto do Viajante
+967:## 61\. A Memória da Viagem
+983:## 62\. Gelo e Fogo (Amor Virtual)
+999:## 63\. A Deusa de Face Lunar
+1015:## 64\. O Amor Além do Tempo
+1031:## 65\. O Silêncio do Coração Solitário
+1377:## 87\. O Verso Prateado do Álamo
+1393:## 88\. A Íris Púrpura
+1409:## 89\. O Anseio por Itako
+1425:## 90\. A Veneza do Oriente
+1441:## 91\. O Entrelaçar das Águas
+1457:## 92\. A Calmaria e as Velas Brancas
+1473:## 93\. Luzes no Crepúsculo
+1489:## 94\. O Véu de Névoa
+1505:## 95\. A Dança da Garça ao Luar
+1521:## 96\. Peregrinação a Kashima e Katori
+1537:## 97\. O Silêncio dos Cedros Milenares
+1551:## 98\. O Sussurro da Chuva Noturna
+1567:## 99\. A Íris Púrpura sob a Chuva
+1583:## 100\. O Coral dos Campos de Arroz
+1599:## 101\. O Canto do Vale Nebuloso
+1615:## 102\. A Jangada na Bruma Branca
+1631:## 103\. Arco-íris e Chuva
+1647:## 104\. O Pescador Errante
+1663:## 105\. O Dia de Arte e Silêncio
+1679:## 106\. A Ascensão ao Monte Haruna
+1695:## 107\. Deixando a Chuva para Trás
+1709:## 108\. A Travessia na Neblina
+1725:## 109\. O Caminho Oculto
+1741:## 110\. A Trilha Incerta
+1757:## 111\. O Rastejar ao Cume
+1773:## 112\. O Lago em Silêncio
+1789:## 113\. Acima das Nuvens
+1805:## 114\. A Montanha dos Tempos Antigos
+1821:## 115\. A Decepção em Ikaho
+1837:## 116\. A Tristeza da Lembrança
+1853:## 117\. As Sombras da Cidade Termal
+1867:## 118\. A Busca Frustrada pela Pureza
+1883:## 119\. O Batismo do Orvalho
+1899:## 120\. O Espelho Negro
+1915:## 121\. O Ataque da Neblina
+1931:## 122\. A Dança das Nuvens
+1947:## 123\. Alvorada em Ikaho
+1963:## 124\. O Carmesim na Bruma
+1979:## 125\. Púrpuras de Shin'etsu
+1995:## 126\. O Monte Haruna-Fuji
+2011:## 127\. Fumaça e Espírito da Montanha
+2025:## 128\. O Raio e os Fios Negros
+2041:## 129\. A Busca Frustrada na Vila dos Vagalumes
+2057:## 130\. Luz da Terra e Luz do Céu
+2073:## 131\. O Eco do Trovão e o Rastro da Luz
+2089:## 132\. Nuvens Velozes
+2105:## 133\. O Rugido nas Bordas das Nuvens
+2121:## 134\. O Alívio do Calor
+2137:## 135\. A Gaiola de Vagalumes
+2153:## 136\. Luz na Escuridão Absoluta
+2169:## 137\. Vento no Rio e o Desaparecer
+2185:## 138\. O Voo Solitário para o Além
+2201:## 139\. Costurando a Escuridão
+2217:## 140\. O Fogo da Paixão
+2233:## 141\. A Luz na Sombra
+2249:## 142\. A Alma que Arde em Segredo
+2265:## 143\. O Amor Universal
+2281:## 144\. As Asas na Luz do Luar
+2295:## 145\. O Paredão Azul
+2311:## 146\. O Céu de Cristal
+2327:## 147\. A Sombra na Varanda
+2343:## 148\. O Jardim de Prata
+2359:## 149\. O Orvalho e a Lua Poente
+2375:## 150\. O Prenúncio do Outono
+2391:## 151\. Estilhaços de Luz no Mar
+2407:## 152\. O Errante sob a Lua
+2423:## 153\. Do Caos à Calma
+2439:## 154\. A Locomotiva e o Luar
+2455:## 155\. O Banho de Luz na Calçada
+2471:## 156\. A Beleza Industrial
+2487:## 157\. O Quarto Iluminado
+2503:## 158\. O Gigante Silencioso
+2519:## 159\. Pegadas de Luz
+2535:## 160\. A Sombra do Muro
+2551:## 161\. A Trilha do Hagi
+2567:## 162\. O Espelho de Ueno
+2583:## 163\. O Mar de Telhados
+2599:## 164\. O Cenário Celestial
+2613:## 165\. A Discrição do Passeio
+2629:## 166\. Trilhos ao Luar
+2645:## 167\. O Deus dos Oceanos
+2661:## 168\. O Mar Imutável
+2677:## 169\. O Rugido nas Rochas
+2693:## 170\. O Barco na Vastidão
+2709:## 171\. Restos da Tempestade
+2725:## 172\. O Canto do Chidori
+2741:## 173\. A Espuma Branca do Penhasco
+2757:## 174\. O Vento Leste na Baía
+2773:## 175\. Dança de Velas e Pássaros
+2789:## 176\. Sombras Longas na Areia
+2805:## 177\. O Manto de Névoa
+2821:## 178\. A Colcha de Água
+2837:## 179\. O Perfume da Maré
+2853:## 180\. O Mar que Engole Ilhas
+2869:## 181\. O Brilho Pós-Tempestade
+2885:## 182\. Janela do Trem e Ondas
+2901:## 183\. Luzes na Vila Distante
+2917:## 184\. A Escuridão Sonora
+2933:## 185\. O Pinheiro no Abismo
+2949:## 186\. O Tempo Geológico
+2965:## 187\. A Ilha Ilusória
+2981:## 188\. Pedras Molhadas
+2995:## 189\. O Renascer da Luz
+3011:## 190\. O Voto de Vida
+3027:## 191\. O Desejo Eterno do Tanabata
+3043:## 192\. O Encontro Sem Nuvens
+3059:## 193\. O Voto no Rio Celestial
+3075:## 194\. A Ponte da Saudade
+3091:## 195\. O Juramento das Oito Ilhas
+3107:## 196\. A Brevidade do Encontro
+3123:## 197\. As Folhas de Bambu ao Luar
+3139:## 198\. O Amor nas Estrelas
+3155:## 199\. A Minha Própria História
+3171:## 200\. Os Gansos Selvagens
+3187:## 201\. A Alma do Inseto
+3203:## 202\. O Grilo Matsumushi
+3219:## 203\. O Fim do Outono
+3235:## 204\. O Concerto sob a Lua Cheia
+3251:## 205\. O Inseto que Bebe Orvalho
+3267:## 206\. A Mariposa Inoportuna
+3283:## 207\. Entre o Sono e a Vigília
+3299:## 208\. O Som Cristalino
+3315:## 209\. O Incômodo no Paraíso
+3331:## 210\. O Humor do Louva-a-Deus
+3347:## 211\. Não Julgueis
+3363:## 212\. Alegria na Perseguição
+3379:## 213\. O Olhar da Formiga
+3395:## 214\. A Oração pelo Inimigo
+3411:## 215\. Aos Fariseus de Hoje
+3427:## 216\. A Estrada de Terra Vermelha
+3443:## 217\. As Cores do Outono
+3459:## 218\. A Morte na Tarde de Outono
+3473:## 219\. A Memória da Chuva
+3489:## 220\. As Cores do Declínio
+3505:## 221\. A Névoa e o Capim Prateado
+3521:## 222\. O Caminho Púrpura
+3537:## 223\. O Sorriso da Campânula
+3553:## 224\. O Caos do Fim de Verão
+3569:## 225\. Os Caquis Maduros
+3585:## 226\. O Voo da Cotovia no Arrozal
+3601:## 227\. O Canto Final da Cigarra
+3617:## 228\. O Campo de Batalha
+3633:## 229\. O Inseto Aquático
+3649:## 230\. A Frieza da Terra
+3665:## 231\. O Contraste Azul e Vermelho
+3681:## 232\. A Libélula em Repouso
+3697:## 233\. Luzes de Marunouchi
+3711:## 234\. A Pintura Viva
+3723:## 235\. A Cena de Gauguin
+3735:## 236\. O Céu Recortado
+3747:## 237\. O Conforto do Outono
+3759:## 238\. O Solista no Caos
+3771:## 239\. Olhares de Criança
+3783:## 240\. O Azul da Liberdade
+3795:## 241\. A Pressa da Libélula
+3807:## 242\. O Tapete de Joias
+3819:## 243\. A Dança das Folhas
+3831:## 244\. Os Fantasmas do Balanço (Crítica Política)
+3843:## 245\. Degraus da História
+3855:## 246\. A Falta de Sabedoria
+3867:## 247\. A Luta Fútil
+3879:## 248\. A Meia Remendada
+3891:## 249\. Luzes e Sombras da Cidade
+3903:## 250\. Para Onde Ides?
+3915:## 251\. A Lógica do Vício
+3927:## 252\. O Mundo como Pintura
+3937:## 253\. A Cura pela Lua
+3949:## 254\. O Tecido de Luz
+3961:## 255\. Luz ou Névoa?
+3973:## 256\. Sombras de Ginkgo
+3985:## 257\. O Salgueiro e a Lua
+3997:## 258\. A Pintura de Tinta (Sumi-e)
+4007:## 259\. A Lua e o Crepúsculo
+4023:## 260\. A Cena de Cinema
+4039:## 261\. Madrugada Sonora
+4055:## 262\. O Desejo do Amigo
+4071:## 263\. A Flor que Desafia a Lua
+4087:## 264\. Lírios na Névoa de Luz
+4103:## 265\. O Momento Estático
+4119:## 266\. O Peregrino de Outono
+4135:## 267\. A Plenitude no Jardim
+4151:## 268\. O Vulto na Ponte
+4167:## 269\. A Montanha de Kannon
+4183:## 270\. O Auge do Outono
+4199:## 271\. A Voz da Cachoeira Kegon
+4215:## 272\. O Espelho do Lago
+4231:## 273\. Luz entre as Bétulas
+4247:## 274\. Nuvens de Cobalto
+4263:## 275\. O Fogo nas Rochas
+4279:## 276\. Nikko Supera a Primavera
+4295:## 277\. O Contraste Dourado
+4311:## 278\. O Lago Yunoko
+4327:## 279\. O Manto da Noite
+4343:## 280\. A Estrada Sinuosa
+4359:## 281\. O Rastejar das Cores
+4375:## 282\. O Vermelho da Tramazeira
+4391:## 283\. O Verão que Resta
+4407:## 284\. O Degrade da Natureza
+4423:## 285\. Senjogahara
+4439:## 286\. O Vórtice Carmesim
+4455:## 287\. O Véu de Água e Fogo
+4471:## 288\. O Perigo e a Glória
+4485:## 289\. A Cachoeira ao Anoitecer
+4501:## 290\. A Passagem Súbita
+4515:## 291\. A Necessidade do Ídolo
+4527:## 292\. A Ironia do Ateísmo
+4539:## 293\. O Brilho da História
+4551:## 294\. Pão e Ídolos
+4563:## 295\. O Trono da Pirâmide
+4575:## 296\. Olhos para Ver
+4587:## 297\. A Espera pelo Messias
+4599:## 298\. O Limite do Passado
+4611:## 299\. Letra Morta
+4621:## 300\. A China que Ruge
+4633:## 301\. O Lago Antigo e as Flores
+4649:## 302\. O Pequeno Templo Vermelho
+4665:## 303\. O Pântano ao Anoitecer
+4681:## 304\. O Lago das Lendas
+4697:## 305\. O Bosque Silencioso
+4713:## 306\. Pescadores no Céu
+4729:## 307\. O Canto do Yoshikiri
+4745:## 308\. O Salgueiro Imóvel
+4761:## 309\. Musashino Encontrado
+4777:## 310\. A Vastidão de Musashino
+4793:## 311\. O Camponês e o Céu
+4809:## 312\. O Campo de Berinjelas
+4825:## 313\. O Verde que Resiste
+4841:## 314\. O Vento Kogarashi
+4857:## 315\. As Libélulas na Antena
+4873:## 316\. O Som da Carroça
+4889:## 317\. O Sabor do Outono
+4905:## 318\. A Árvore de Laca Vermelha
+4919:## 319\. O Campo Dourado
+4935:## 320\. O Outono da Janela
+4951:## 321\. Reflexos no Caminho
+4967:## 322\. O Vento nos Arrozais Tardios
+4983:## 323\. Nuvens na Água
+4999:## 324\. A Tragédia do Lótus
+5015:## 325\. O Quadro Vivo
+5031:## 326\. As Cerejeiras de Outono
+5047:## 327\. A Cor de Milho
+5063:## 328\. A Luz em Poeira
+5079:## 329\. O Crisântemo na Casa Rural
+5095:## 330\. Paredes Brancas
+5111:## 331\. O Monte Tsukuba
+5127:## 332\. O Funicular
+5143:## 333\. A Visão do Topo
+5159:## 334\. O Monte Fuji ao Longe
+5175:## 335\. A Estrada Branca
+5191:## 336\. Pedras Estranhas
+5207:## 337\. O Dia Perfeito
+5223:## 338\. A Face Ardente da Montanha
+5239:## 339\. O Santuário e o Cume
+5255:## 340\. A Despedida com o Corvo
+5271:## 341\. A Memória das Estações
+5287:## 342\. A Força do Pinheiro
+5303:## 343\. O Sol Pálido nos Restos
+5319:## 344\. A Mosca no Inverno
+5335:## 345\. A Mão Rígida
+5351:## 346\. O Corvo e o Ninho
+5367:## 347\. O Último Crisântemo
+5383:## 348\. Caquis no Inverno
+5397:## 349\. A Lei do Samsara
+5413:## 350\. O Sussurro das Folhas
+5429:## 351\. A Dança Louca no Asfalto
+5445:## 352\. O Som dos Passos na Floresta
+5461:## 353\. A Espessura do Tempo
+5477:## 354\. O Caminho Sem Pegadas
+5493:## 355\. A Oferenda na Terra Limpa
+5509:## 356\. O Vermelho na Água
+5525:## 357\. A Nudez Súbita
+5541:## 358\. O Som da Geada
+5557:## 359\. O Cão no Vento
+5573:## 360\. O Caminho Macio
+5589:## 361\. O Muro e o Tempo
+5605:## 362\. Aves na Água Fria
+5621:## 363\. A Lua após a Tempestade
+5637:## 364\. O Menino e as Folhas
+5653:## 365\. O Menino Travesso
+5667:## 366\. Os Pardais na Neve
+5683:## 367\. Folhas Vivas ao Vento
+5699:## 368\. O Despertar Ruidoso
+5715:## 369\. O Novo Ano
+5731:## 370\. O Galo na Penumbra
+5747:## 371\. A Voz na Neblina
+5763:## 372\. O Céu Rubi
+5779:## 373\. Luzes Sagradas
+5795:## 374\. O Grito no Silêncio
+5809:## 375\. O Vento nas Frestas
+5825:## 376\. O Frio nas Costas
+5841:## 377\. O Choro dos Fios
+5857:## 378\. Passos no Gelo
+5873:## 379\. O Brilho da Geada
+5889:## 380\. As Mãos Frias
+5905:## 381\. Arrumando o Quarto Sozinho
+5921:## 382\. O Som do Geta
+5937:## 383\. Mexendo no Braseiro
+5953:## 384\. A Neve Silenciosa
+5967:## 385\. A Pressa de Dezembro
+5983:## 386\. O Sorriso da Folga
+5999:## 387\. A Passagem dos Dias
+6015:## 388\. A Saudade da Criança
+6029:## 389\. O Jardim no Inverno
+6043:## 390\. O Perfil Dele (Auto-reflexão?)
+6059:## 391\. A Aproximação do Gênio
+6075:## 392\. O Brilho do Gênio na Tolice
+6091:## 393\. O Perfume da Juventude
+6107:## 394\. O Suspiro
+6123:## 395\. A Presença Dela
+6139:## 396\. A Ameixeira Branca
+6155:## 397\. Olhos de Estrela
+6171:## 398\. O Dilema do Amor
+6187:## 399\. A Deusa do Paraíso
+6203:## 400\. O Temor da Paixão
+6219:## 401\. O Olhar Desviado
+6235:## 402\. A Cerejeira Dobrada
+6249:## 403\. As Seis Pétalas do Inverno
+6265:## 404\. O Rio Azul na Neve
+6281:## 405\. Luz na Escuridão
+6297:## 406\. O Vento Bagunceiro
+6313:## 407\. O Guarda-Chuva Vermelho
+6329:## 408\. O Cãozinho na Neve
+6345:## 409\. O Trem com Neve no Telhado
+6361:## 410\. Os Alpes Eternos
+6377:## 411\. A Lixeira Soterrada
+6393:## 412\. O Pardal na Lixeira
+6409:## 413\. O Pó de Neve do Pinheiro
+6425:## 414\. O Poste Revelado
+6441:## 415\. Neve de Primavera
+6457:## 416\. O Som do Degelo
+6473:## 417\. O Vulto na Neve
+6487:## 418\. A Fúria que Virou Riso
+6499:## 419\. O Silêncio de Ouro
+6511:## 420\. Transformando a Traição
+6523:## 421\. A Incapacidade de Odiar
+6535:## 422\. O Fanático
+6547:## 423\. Alegria Sem Motivo
+6559:## 424\. A Sintonia
+6571:## 425\. O Filtro da Mente
+6583:## 426\. Olhos Frios
+6595:## 427\. A Ordem e a Luz
+6605:## 428\. Neve Flutuante
+6617:## 429\. Poeira de Diamante
+6629:## 430\. O Pinheiro Magnífico
+6641:## 431\. Linhas Suaves
+6653:## 432\. O Desenho a Traço (Hakubyou)
+6665:## 433\. Jazz Visual
+6677:## 434\. A Nuvem que se Move
+6689:## 435\. O Eixo da Terra
+6701:## 436\. O Vórtice Urbano
+6713:## 437\. O Código das Estrelas
+6725:## 438\. O Sono do Bebê
+6737:## 439\. A Vibração da Primavera
+6749:## 440\. O Gato ao Sol
+6761:## 441\. A Fumaça
+6773:## 442\. O Mar Sonolento
+6789:## 443\. O Barqueiro e o Broto
+6805:## 444\. A Costura dos Pássaros
+6821:## 445\. A Ilusão das Ovelhas
+6837:## 446\. A Sombra da Borboleta
+6853:## 447\. Chuva de Primavera
+6869:## 448\. O Boi e a Borboleta
+6885:## 449\. A Camélia Caída
+6901:## 450\. A Folha Nova e a Velha
+6915:## 451\. A Borboleta na Ilusão
+6931:## 452\. O Prazer do Degelo
+6947:## 453\. A Aprovação da Primavera
+6963:## 454\. A Calma na Distância
+6977:## 455\. O Sino no Crepúsculo
+6993:## 456\. A Nuvem no Topo
+7009:## 457\. Agulhas de Prata
+7025:## 458\. O Trigo e a Cotovia
+7041:## 459\. Corvos na Torre
+7055:## 460\. O Vento Ainda Frio
+7071:## 461\. A Lembrança da Neve na Flor
+7087:## 462\. O Roxo da Tarde
+7103:## 463\. A Terra Preparada
+7119:## 464\. O Broto na Grama Morta
+7135:## 465\. O Salgueiro Gato
+7151:## 466\. A Mão e a Primavera
+7167:## 467\. O Salgueiro ao Sol
+7183:## 468\. A Ameixeira Vermelha
+7199:## 469\. A Fumaça na Vila das Ameixeiras
+7215:## 470\. O Bosque de Perfume
+7231:## 471\. Colhendo Samambaias
+7247:## 472\. A Névoa de Pincel
+7263:## 473\. O Verde Diluído
+7277:## 474\. O Canto do Rouxinol
+7293:## 475\. A Bruma Efêmera
+7309:## 476\. A Dança de Março (Verso Livre)
+7321:## 477\. A Atração das Cerejeiras
+7333:## 478\. O Verde da Paz
+7345:## 479\. A Poeira no Ombro de Buda
+7361:## 480\. O Guarda na Poeira
+7377:## 481\. Pó de Prata
+7393:## 482\. O Antiquário Empoeirado
+7409:## 483\. As Árvores de Plátano
+7425:## 484\. A Água na Calçada
+7439:## 485\. A Lua de Veludo
+7455:## 486\. A Manhã Desliza
+7471:## 487\. A Tela de Prata da Chuva
+7487:## 488\. A Consciência da Primavera
+7503:## 489\. A Ilusão da Boia
+7515:## 490\. O Batimento Cardíaco
+7527:## 491\. A Linha que Corta o Mar
+7539:## 492\. Preso à Vara
+7549:## 493\. A Respiração das Estrelas
+7561:## 494\. A Névoa que Engole
+7571:## 495\. A Noite das Flores Caindo
+7587:## 496\. O Rio Tone
+7603:## 497\. A Alegria do Broto
+7619:## 498\. O Roxo da Tarde na Vila
+7635:## 499\. A Névoa e as Pétalas
+7651:## 500\. O Amarelo da Colza
+7667:## 501\. O Pessegueiro na Névoa
+7683:## 502\. A Primavera Ocupa Tudo
+7699:## 503\. A Cotovia que Sobe
+7715:## 504\. A Bruma nas Montanhas
+7729:## 505\. O Tédio da Repetição
+7741:## 506\. O Ideal Flutuante
+7753:## 507\. O Chumbo no Coração
+7765:## 508\. A Força da Esperança
+7777:## 509\. O Saber e o Não Fazer
+7789:## 510\. O Vazio Compartilhado
+7801:## 511\. O Desejo de Explosão
+7811:## 512\. A Cidade de Atami
+7827:## 513\. A Rua das Lembranças
+7843:## 514\. O Banho Noturno
+7859:## 515\. O Banheiro Moderno
+7875:## 516\. O Rouxinol Silencioso
+7891:## 517\. Fumaça e Mar
+7907:## 518\. O Som do Shamisen
+7921:## 519\. O Olhar do Peixe
+7937:## 520\. A Beleza Jovem e a Velhice
+7953:## 521\. A Multidão que Desaparece
+7969:## 522\. A Curva da Estrada
+7985:## 523\. A Casa Nova
+7999:## 524\. O Sino e as Ondas
+8015:## 525\. O Sino na Torre Púrpura
+8031:## 526\. Onde o Som Morre?
+8047:## 527\. Saudade de Edo
+8061:## 528\. O Cheiro do Musgo
+8077:## 529\. Flores no Musgo
+8093:## 530\. O Musgo de Veludo
+8107:## 531\. Vento Poka-Poka
+8123:## 532\. O Aroma do Cravo
+8139:## 533\. O Vento Brincalhão
+8155:## 534\. A Água Luminosa
+8171:## 535\. Vapor após a Chuva
+8187:## 536\. O Homem de Primavera
+8201:## 537\. O Céu Azul sobre o Branco
+8217:## 538\. Cerejeira da Manhã
+8233:## 539\. O Rio Sumida
+8249:## 540\. A Cerejeira na Ladeira
+8265:## 541\. Cerejeira no Campo de Trigo
+8281:## 542\. O Monte Yoshino
+8297:## 543\. Primavera no Bonde
+8313:## 544\. A Montanha Invisível
+8329:## 545\. A Cerejeira Jovem na Rua
+8345:## 546\. O Redemoinho de Pétalas
+8361:## 547\. A Lua e as Flores Caindo
+8377:## 548\. O Coração da Flor
+8393:## 549\. A Tristeza da Árvore Jovem
+8407:## 550\. As Folhas Novas
+8419:## 551\. Flores Acumuladas
+8431:## 552\. A Pressa da Glicínia
+8443:## 553\. O Dique Verde
+8455:## 554\. Pétalas ao Vento
+8467:## 555\. O Resto da Primavera
+8479:## 556\. A Busca pelo Verde
+8491:## 557\. A Montanha Deserta
+8503:## 558\. A Flor de Renge
+8515:## 559\. A Luz do Início do Verão
+8527:## 560\. A Pétala na Nuca
+8537:## 561\. O Jacinto no Banco
+8551:## 562\. Milhares de Pessegueiros
+8567:## 563\. O Túnel de Flores
+8583:## 564\. O Musgo e a Flor
+8599:## 565\. Terra, Flor e Trigo
+8615:## 566\. O Fim do Dia no Pomar
+8629:## 567\. A Janela do Trem
+8645:## 568\. Trilhos entre o Verde
+8661:## 569\. O Mar Invisível
+8677:## 570\. A Cor Local de Noto
+8693:## 571\. Poças de Chuva na Montanha
+8709:## 572\. Cedros e Cerejeiras
+8725:## 573\. Flores Desconhecidas
+8741:## 574\. A Despedida da Paisagem
+8757:## 575\. A Estrela Vésper
+8771:## 576\. Rostos Cansados
+8783:## 577\. A Mulher que Dorme
+8795:## 578\. O Som do Trem
+8807:## 579\. A Solidão da Bagagem
+8819:## 580\. O Choro do Bebê
+8831:## 581\. Luzes na Escuridão
+8843:## 582\. O Bêbado
+8855:## 583\. Objetos nos Olhos
+8867:## 584\. Fumaça e Eletricidade
+8877:## 585\. Início do Outono
+8893:## 586\. O Vento Frio do Hagi
+8909:## 587\. A Campânula no Quarto
+8925:## 588\. O Capim Oculto
+8941:## 589\. A Tristeza do Entardecer
+8957:## 590\. Pétalas Caídas
+8973:## 591\. Fujibakama
+8989:## 592\. O Vento no Kuzu
+9005:## 593\. A Dália e a Borboleta
+9021:## 594\. O Outono Profundo
+9037:## 595\. O Tempo da Dália
+9067:## 597\. O Ataque da Cidade
+9083:## 598\. A Ambição de Shinjuku
+9099:## 599\. Visão Estreita
+9115:## 600\. A Estranha Prosperidade
+9131:## 601\. O Jovem Americanizado
+9147:## 602\. O Túnel Grotesco
+9163:## 603\. O Toque do Braseiro
+9179:## 604\. Conversa Lenta
+9195:## 605\. O Respeito ao Fogo
+9211:## 606\. O Braseiro de Pau-Rosa
+9227:## 607\. O Fogo da Conversa
+9243:## 608\. O Cigarro e a Almofada
+9259:## 609\. O Rosto na Cinza
+9279:## 610\. Vidros Cintilantes
+9297:## 611\. O Capim e a Terra Vermelha
+9313:## 612\. A Libélula no Espelho
+9329:## 613\. O Caos das Flores de Cosmos
+9345:## 614\. A Bandeira no Topo
+9361:## 615\. A Casa Rural de Outono
+9377:## 616\. A Esteira e a Libélula
+9393:## 617\. As Flores de Shion
+9409:## 618\. O Susto na Caminhada
+9425:## 619\. O Reflexo na Água
+9441:## 620\. O Enxame no Céu
+9457:## 621\. O Visitante na Mesa
+9473:## 622\. O Olho da Libélula
+9489:## 623\. Nuvens e Libélulas
+9505:## 624\. O Jogo da Captura
+9519:## 625\. O Som da Geada
+9535:## 626\. O Vendedor Noturno
+9551:## 627\. O Barco-Casa
+9567:## 628\. O Bosque de Inverno
+9583:## 629\. Arrepios de Frio
+9599:## 630\. O Som do Geta na Lua
+9613:## 631\. Folhas na Geada
+9629:## 632\. O Vento no Colarinho
+9645:## 633\. Ramos Finos
+9661:## 634\. Nanten Vermelho
+9677:## 635\. O Vermelho no Chão
+9693:## 636\. Fogo de Folhas
+9709:## 637\. A Folha de Yatsude
+9740:## 638\. A Defesa do Cotidiano
+9756:## 639\. A Alquimia da Memória
+9772:## 640\. A Vitória Vazia
+9788:## 641\. A Bênção ao Insatisfeito
+9804:## 642\. Rejeição ao Ateísmo
+9820:## 643\. O Mistério Humano
+9840:## 644\. Luzes de Ginza
+9858:## 645\. O Jovem "Estrangeiro"
+9874:## 646\. Beleza Artificial
+9890:## 647\. Perfume de Heliotrópio
+9906:## 648\. O Salgueiro Regulador
+9922:## 649\. O Jazz que Corta o Espaço
+9938:## 650\. O Vento Seco e o Concreto
+9954:## 651\. A Tristeza do Brilho
+9970:## 652\. O Espelho da Tarde
+9986:## 654\. Transparência de Inverno
+10002:## 653\. O Retorno ao Crepúsculo
+10018:## 655\. Névoa de Geada
+10034:## 656\. O Som do Frio
+10050:## 657\. A Alameda ao Luar
+10066:## 658\. Corvos na Neve
+10082:## 659\. Êxtase nas Águas Termais
+10098:## 660\. O Desejo de Yutori
+10114:## 661\. A Esperança na Geada
+10130:## 662\. A Espera do Ano Novo
+10146:## 663\. O Frio da Espera
+10162:## 664\. Decorações de Pinho
+10178:## 665\. O Coração de Menino
+10194:## 666\. Em Meio à Multidão com a Esposa
+10210:## 667\. Transcendência no Fim de Ano
+10226:## 668\. A Luz da Restauração (Ano Novo)
+10238:## 662\. A Espera do Ano Novo
+10254:## 663\. O Frio da Espera
+10270:## 664\. Decorações de Pinho
+10286:## 665\. O Coração de Menino
+10302:## 666\. Em Meio à Multidão com a Esposa
+10322:## 667\. Transcendência em Dezembro
+10342:## 668\. Luz Jovem da Ressurreição
+10358:## 669\. O Amanhecer Carmesim
+10386:## 670\. O Mar como Espelho
+10428:## 672\. Ondas da Manhã
+10444:## 673\. A Névoa de Miho
+10466:## 674\. O Templo Honmonji (Ikegami)
+10482:## 675\. O Lago Senzoku
+10498:## 676\. O Jardim Hakkeien
+10514:## 677\. Magome no Inverno
+10534:## 678\. A Velha Estrada (Samezu)
+10566:## 680\. A Ponte Yatsuyama
+10582:## 681\. Gaivotas da Manhã
+10598:## 682\. O Santuário de Shinagawa
+10618:## 683\. O Fim dos Arrozais de Waseda
+10634:## 684\. O Templo Kishimojin (Zoshigaya)
+10650:## 685\. Bois no Asfalto (Mejiro)
+10670:## 686\. O Hipódromo
+10686:## 687\. O Novo Bairro Residencial
+10702:## 688\. Meguro Fudo no Inverno
+10718:## 689\. Os Pardais de Himonya
+10738:## 690\. O Neon de Mitsukoshi
+10754:## 691\. A Torrente de Shinjuku
+10774:## 692\. O Rio das Folhas Vermelhas
+10792:## 693\. Vestígios de Edo (Árvore Antiga)
+10808:## 694\. Memória da Nevasca de Flores (Asukayama)
+10824:## 695\. O Templo e o Bonde (Tabata)
+10840:## 696\. A Vista Perdida (Dokanyama)
+10856:## 697\. Campos e Bosques (Wadahori \- Suginami)
+10872:## 698\. A Luz que Treme (Horinouchi)
+10890:## 699\. O Templo na Charneca (Mabashi)
+10910:## 700\. O Verde na Desolação (Sunamura)
+10926:## 701\. A Costura do Céu (Kameido)
+10942:## 702\. O Abraço da Névoa (Ponte Kasai)
+10958:## 703\. O Azul Abissal (Rio Arakawa)
+10974:## 704\. Luz Fraca no Canavial (Rio Nakagawa)
+10990:## 705\. Chaminés e Juncos (Kanegafuchi)
+11006:## 706\. A Estrada Histórica (Senju)
+11022:## 707\. O Templo Envelhecido (Nishiarai Daishi)
+11038:## 708\. A Promessa no Horizonte (Arakawa Embankment)
+11052:## 709\. O Rio da Maré
+11068:## 710\. O Céu Maculado
+11084:## 711\. A Garça e a Bruma
+11100:## 712\. Bodhisattvas Esquecidos
+11116:## 713\. A Calmaria do Crepúsculo
+11132:## 714\. Silêncio após o Trovão
+11148:## 715\. O Eco do Progresso
+11164:## 716\. O Monte Tsukuba
+11180:## 717\. O Templo Esquecido
+11196:## 718\. O Vapor da Primavera
+11212:## 719\. A Maré Cheia
+11228:## 720\. Folhas Rubras no Santuário
+11244:## 721\. O Caminho de Musgo
+11260:## 722\. A Carroça de Daikon
+11276:## 723\. O Passado Distante
+11292:## 724\. Encostas de Terra Vermelha
+11308:## 725\. O Torii e as Asas de Prata
+11324:## 726\. A Mudança do Eu
+11340:## 727\. Névoa sobre o Rio Rokugo
+11356:## 728\. Flores de Genge
+11372:## 729\. O Orvalho no Túmulo
+11388:## 730\. O Templo Imutável
+11404:## 731\. As Pontes de Akabane
+11420:## 732\. O Lago Sanpoji
+11436:## 733\. Em Busca da Primavera
+11452:## 734\. O Rio Negro
+11468:## 735\. Casas na Solidão
+11484:## 736\. O Barco na Bruma
+11500:## 737\. A Lua Fria na Cidade Vazia
+11516:## 738\. O Peso da Neve
+11532:## 739\. A Dança da Neve
+11548:## 740\. O Silêncio da Fatsia
+11564:## 741\. O Estrondo da Avalanche
+11580:## 742\. O Encanto na Neve
+11596:## 743\. O Eco da Primavera
+11612:## 744\. A Neve que Desaparece
+11628:## 745\. O Salgueiro no Vaso
+11644:## 746\. Alegria Matinal
+11660:## 747\. O Verde e a Colheita
+11676:## 748\. A Primavera Infiltra-se
+11692:## 749\. A Prece do Camponês
+11708:## 750\. O Fogo do Julgamento
+11724:## 751\. Emergência Sem Precedentes
+11740:## 752\. O Rugido do Dragão
+11756:## 753\. O Semblante Trágico
+11772:## 754\. A Ameaça dos Céus
+11788:## 755\. A Terra Queimada
+11804:## 756\. A Insuportável Emoção
+11820:## 757\. O Parto do Armagedom
+11836:## 758\. O Paroxismo da Nação
+11852:## 759\. O Céu Indeciso
+11868:## 760\. O Azul de Musashino
+11884:## 761\. Céu e Eu
+11900:## 762\. O Céu Polido
+11916:## 763\. Ennui de Primavera
+11932:## 764\. O Vento da Cidade
+11948:## 765\. Dores do Parto Planetário
+11964:## 766\. O Peso da Inocência
+11980:## 767\. A Ceia Modesta
+11996:## 768\. A Vitrine dos Sonhos
+12012:## 769\. A Natureza Sensível
+12028:## 770\. O Olhar Gélido
+12044:## 771\. Almas Gêmeas
+12060:## 772\. Trinta Anos de Luta
+12076:## 773\. A Verdadeira Amizade
+12092:## 774\. O Abismo
+12108:## 775\. Os Intelectuais Pálidos
+12124:## 776\. O Destino de Marx
+12140:## 777\. A Ironia de Shaw
+12156:## 778\. A Bactéria Sem Cura
+12172:## 779\. O Fim dos Paliativos
+12188:## 780\. Vermelho e Branco
+12204:## 781\. A Mutação Cósmica
+12220:## 782\. Deputados Soldados
+12236:## 783\. O Fabricante de Robôs
+12252:## 784\. O Fim dos Partidos
+12266:## 789\. As Camélias Caídas
+12282:## 790\. A Manhã Clara e o Salgueiro
+12298:## 791\. O Vento que Entra
+12314:## 792\. Nuvens de Flores
+12330:## 793\. O Verde do Pinheiro e a Flor
+12346:## 794\. Sensualidade do Orvalho
+12362:## 795\. Hesitação na Busca da Ameixeira
+12378:## 796\. A Rotina Comum
+12394:## 797\. A Janela Redonda
+12412:## 798\. Luz de Início da Primavera
+12428:## 784\. O Fim dos Partidos
+12448:## 785\. O Olhar dos Ditadores
+12464:## 786\. A Balança de Chiang Kai-shek
+12484:## 787\. Chuva de Primavera e Saudade
+12500:## 788\. A Cerejeira do Vizinho
+12520:## 806\. A Lembrança da Colheita de Ervas
+12536:## 807\. O Portão do Coração
+12552:## 808\. A Chuva que Penetra a Alma
+12568:## 809\. Folhas de Nêspera na Chuva
+12584:## 810\. Pescadores Solitários
+12600:## 811\. A Jangada no Rio Azul
+12616:## 812\. Silhuetas na Chuva
+12632:## 813\. Gotas na Cerejeira Verde
+12648:## 814\. Luzes de Neon Borradas
+12664:## 815\. Gotas de Vidro
+12680:## 816\. A Queda da Paulownia
+12696:## 817\. O Musgo e o Salgueiro
+12712:## 818\. A Cor do Musgo
+12728:## 819\. O Azul do Musgo
+12744:## 820\. O Jardim Intocado
+12760:## 821\. O Musgo na Água
+12776:## 822\. O Perfume na Bruma
+12792:## 823\. O Frio de Maio
+12808:## 824\. A Lua da Alvorada
+12824:## 825\. O Som da Roda na Madrugada
+12840:## 826\. Respirando o Vazio
+12860:## 847\. O Cair das Flores de Paulownia
+12876:## 848\. Queda Sem Vento
+12896:## 849\. A Lua e as Folhas de Caqui
+12912:## 850\. A Montanha Nítida
+12928:## 851\. O Mastro e o Crescente
+12944:## 852\. A Lua no Pico
+12960:## 853\. O Lago Espelhado
+12980:## 854\. A Lua Laranja
+12996:## 855\. A Lua no Arrozal Escuro
+13012:## 856\. A Lua de Dois Dias
+13028:## 857\. Fumaça e Lua
+13044:## 858\. A Claridade nas Nuvens
+13064:## 859\. O Ídolo no Horizonte
+13080:## 860\. O Menino Mimado
+13096:## 861\. O Desprezo pelos Eruditos
+13112:## 862\. O Acrobata
+13132:## 863\. O Canto das Rãs e a Lua
+13152:## 864\. Pisando na Sombra
+13172:## 865\. A Mulher de Yukata
+13188:## 866\. A Curva na Areia
+13204:## 867\. A Mulher de Gaze (Sha)
+13220:## 868\. A Ilusão da Noite
+13236:## 869\. O Rosto Branco no Crepúsculo
+13252:## 870\. Canelas Vermelhas ao Pôr do Sol
+13272:## 871\. A Flor da Seca
+13288:## 872\. Floração Discreta
+13304:## 873\. Luz Pálida e Trapoeraba
+13320:## 874\. O Perfume da Manhã
+13336:## 875\. A Pequena Vida
+13356:## 876\. O Lago como Pedra de Afiar
+13372:## 877\. O Brilho Através da Mata
+13388:## 878\. Onde Vive o Dragão
+13404:## 879\. A Lancha na Neblina
+13420:## 880\. O Pântano das Cinco Cores
+13436:## 881\. O Lago que Incha
+13456:## 882\. O Banho de Névoa
+13472:## 883\. A Queda do Céu
+13488:## 884\. Tecido de Água e Rocha
+13504:## 885\. Andorinhas na Cachoeira
+13520:## 886\. O Sol no Musgo Molhado
+13540:## 887\. O Abismo do Destino
+13560:## 888\. Cartazes de Verão
+13580:## 889\. O Rosto na Neblina
+13596:## 890\. O Perfume Verde
+13612:## 891\. O Destino da Mulher
+13628:## 892\. O Universo Silencioso
+13644:## 893\. O Diálogo da Flor
+13660:## 894\. O Auge do Verão
+13680:## 895\. O Monge Silencioso
+13696:## 896\. O Vento no Corredor
+13712:## 897\. Trepadeiras na Pedra
+13728:## 898\. Cigarras Higurashi
+13744:## 899\. A Coruja na Noite
+13764:## 900\. O Prenúncio da Tempestade
+13780:## 901\. O Dia Sem Chuva
+13796:## 902\. O Jardim Lavado
+13812:## 903\. O Hóspede na Chuva
+13828:## 904\. A Lua Pós-Chuva
+13844:## 905\. Gotas Roxas
+13864:## 906\. Asfalto em Chamas
+13880:## 907\. O Vendedor de Peixinhos Dourados
+13896:## 908\. A Força do Sol
+13912:## 909\. Estagnação ao Meio-Dia
+13928:## 910\. O Girassol Valente
+13948:## 911\. Os Destinos da Juventude
+13964:## 912\. A Verdade sobre as Estudantes
+13980:## 913\. Educação Moderna
+13996:## 914\. O Paradoxo da Medicina
+14016:## 915\. O Arco-íris Súbito
+14036:## 916\. O Fundo do Rio Tama
+14056:## 917\. O Perigo da Escuridão
+14076:## 918\. Nanten e o Céu Azul
+14092:## 919\. Ilusão de Primavera
+14108:## 920\. A Flor de Chá
+14124:## 921\. Pássaros no Veranico
+14140:## 922\. O Escrevedeira e a Sombra
+14160:## 923\. Vento da Tarde no Banho
+14176:## 924\. Nuvens de Outono
+14192:## 925\. O Outono nas Sombras
+14208:## 926\. A Correnteza Subterrânea
+14224:## 927\. Minha Sombra no Capim
+14240:## 928\. Regando a Chuva
+14256:## 929\. O Pinheiro Espera a Lua
+14276:## 930\. O Canto da Alvorada
+14292:## 931\. Luzes no Sopé
+14308:## 932\. O Caminho Plano
+14324:## 933\. A Sinfonia da Casa Natal
+14340:## 934\. Ecos no Bosque de Kunugi
+14360:## 935\. Rega ao Luar
+14376:## 936\. A Cascata de Flores no Muro
+14392:## 937\. O Templo das Monjas
+14408:## 938\. O Primeiro Outono na Nova Casa
+14424:## 939\. Flores na Água
+14440:## 940\. Mangas Molhadas de Orvalho
+14460:## 941\. A Voz que se Eleva
+14476:## 942\. O Silêncio da Sabedoria
+14492:## 943\. O Sonho Radiante
+14508:## 944\. A Alegria da Compreensão
+14528:## 945\. O Livro Didático do Privilégio
+14544:## 946\. O Quádruplo Embate
+14564:## 947\. A Criança e a Cigarra
+14584:## 948\. A Grande Esperança e a Pequena Dúvida
+14604:## 949\. O Vento no Automóvel
+14624:## 950\. O Silêncio do Bambuzal
+14640:## 951\. A Esposa Costurando
+14656:## 952\. Sombras Longas da Torre
+14672:## 953\. O Ginkgo Dourado
+14688:## 954\. Crianças na Relva
+14704:## 955\. O Grilo na Varanda
+14720:## 956\. O Feijão-Jacinto na Janela
+14736:## 957\. A Cidade Residencial
+14756:## 958\. O Olhar para o Beiral
+14772:## 959\. Vermelho e Roxo
+14788:## 960\. Sobre o Arroz Seco
+14804:## 961\. Emaranhadas no Vento
+14820:## 962\. A Sombra no Fundo do Rio
+14840:## 963\. A Fumaça do Sanma
+14856:## 964\. O Céu nas Folhas de Castanheiro
+14872:## 965\. Pássaros Migratórios
+14888:## 966\. A Nuvem e o Pássaro no Lago
+14904:## 967\. O Grito do Verdureiro
+14920:## 968\. A Cura pelo Céu
+14936:## 969\. Clareza Interior
+14956:## 970\. A Beleza do Nada
+14972:## 971\. A Lua no Capim Susuki
+14988:## 972\. Fuji ao Longe
+15004:## 973\. O Eco do Trem
+15020:## 974\. Sombras de Pinheiro Vermelho
+15040:## 975\. A Sombra Solitária da Elite
+15060:## 976\. A Dança de Hitler
+15080:## 977\. Chuva no Caos das Flores
+15096:## 978\. Tremor ao Vento Suave
+15112:## 979\. A Cor que Desbota
+15128:## 980\. O Jardim Brilhante e as Libélulas
+15144:## 981\. O Tempo para a Arte
+15160:## 982\. O Convite da Flor
+15180:## 983\. Manhã Fria e Escura
+15196:## 984\. Coração Estreito e a Lua
+15212:## 985\. A Lua no Rio Selvagem
+15228:## 986\. O Som da Cozinha no Crepúsculo
+15244:## 987\. O Pinheiro Poda do e o Pôr do Sol
+15260:## 988\. A Colina Fria
+15276:## 989\. A Cerejeira do Vizinho
+15296:## 990\. Libélulas e Milho
+15316:## 991\. O Canto Triste e o Amor
+15336:## 992\. As Chamas Restantes no Monte Takao
+15356:## 993\. O Toque da Natureza
+15372:## 994\. A Beleza do Rio Tama
+15388:## 995\. As Cores da Mata Mista
+15404:## 996\. Dálias Escarlates
+15420:## 997\. A Bruma nos Arrozais Maduros
+15436:## 998\. Mãos Cheias de Susuki
+15452:## 999\. Luzes Distantes
+15472:## 1000\. O Outono Evidente
+15488:## 1001\. O Sol Frio no Lótus Seco
+15504:## 1002\. Caqui Maduro e Canção
+15524:## 1003\. O Fim do Mundo
+15540:## 1004\. O Silêncio Forçado
+15556:## 1005\. O Julgamento e a Solidão
+15572:## 1006\. Esperando os Ouvintes
+15588:## 1007\. Preparação Silenciosa
+15608:## 1008\. Reconhecimento
+15624:## 1009\. O Produtor da Crise
+15640:## 1010\. Punhos no Bolso
+15660:## 1011\. Esperando o Tempo do Céu
+15680:## 1012\. O Aroma do Outono
+15700:## 1013\. A Lua e o Bosque Seco
+15716:## 1014\. A Casa na Tempestade
+15732:## 1015\. O Bambu-anão ao Vento
+15748:## 1016\. O Salgueiro Açoitado
+15764:## 1017\. O Campo Retorcido
+15780:## 1018\. Chuva Após o Vento
+15800:## 1019\. O Silêncio do Templo Zen
+15816:## 1020\. A Vastidão e os Corvos
+15832:## 1021\. Pétalas no Tokonoma
+15848:## 1022\. A Flor Secreta da Nespereira
+15864:## 1023\. A Lua na Água do Arrozal
+15884:## 1024\. O Político e o Devedor
+15900:## 1025\. A Mídia e o Comunismo
+15916:## 1026\. Cães e Madames
+15936:## 1027\. O Edifício Negro e a Lua
+15952:## 1028\. A Garça no Pântano
+15972:## 1029\. O Pardal no Vidro
+15992:## 1030\. Reforma Fundamental?
+16008:## 1031\. Ação de Fachada
+16024:## 1032\. A Sombra dos Quatrocentos
+16040:## 1033\. Dissolução Rápida
+16056:## 1034\. O Terremoto Invisível
+16076:## 1035\. A Alegria do Comum
+16092:## 1036\. Crianças ao Sol
+16108:## 1037\. O Som da Peteca
+16128:## 1038\. O Vazio Pós-Festa
+16144:## 1039\. A Vista de Três Anos
+16160:## 1040\. O Cheiro do Almoço
+16176:## 1041\. O Choro da Criança e o Poema
+16192:## 1042\. Conversa até o Galo Cantar
+16212:## 1043\. A Sombra no Shoji Novo
+16228:## 1044\. O Vento Tsukuba
+16244:## 1045\. A Dança dos Passarinhos
+16260:## 1046\. Pardais na Geada
+16276:## 1047\. O Dragão de Gelo
+16292:## 1048\. O Sol Indiferente
+16312:## 1049\. Sem Clima para Jogos
+16332:## 1050\. Pintura de Korin
+16352:## 1051\. Pressentimento Luminoso
+16372:## 1052\. O Despertar Morno
+16388:## 1053\. A Névoa nos Olhos
+16404:## 1054\. O Narciso Resgatado
+16420:## 1055\. O Resto de Neve
+16436:## 1056\. Plátanos Após a Chuva
+16452:## 1057\. A Cotovia e a Bruma
+16468:## 1058\. Café da Manhã com Ameixeiras
+16484:## 1059\. O Rio e as Cerejeiras
+16500:## 1060\. A Altura das Ervas
+16516:## 1061\. O Brotar do Fuki
+16532:## 1062\. O Peso do Orvalho
+16548:## 1063\. Bambu na Chuva
+16564:## 1064\. O Vento no Trigo
+16580:## 1065\. A Chuva Verde
+16596:## 1066\. A Paz da Tarde
+16616:## 1067\. O Hábito do Riso e do Choro
+16632:## 1068\. O Desejo pela Montanha
+16652:## 1069\. Escola para Diretores
+16668:## 1070\. A Moda da Conversão (Tenkō)
+16684:## 1071\. Política no Vulcão
+16700:## 1072\. O Dilema do Jornalista
+16716:## 1073\. A Festa Perigosa
+16736:## 1074\. O Movimento no Bambu
+16756:## 1075\. O Fim dos Tempos
+16776:## 1076\. A Alegria da Varanda
+16796:## 1077\. O Cheiro do Salgueiro
+16816:## 1078\. Passeio com a Esposa
+16832:## 1079\. A Cerejeira na Casa Vazia
+16848:## 1080\. O Observador Solitário
+16864:## 1081\. O Ladrão de Flores
+16880:## 1082\. Fugindo da Multidão
+16896:## 1083\. Pétalas ao Vento do Rio
+16912:## 1084\. Felicidade Despreocupada
+16928:## 1085\. A Neve de Flores na Tarde
+16948:## 1086\. Tarde Vazia e Feliz
+16964:## 1087\. O Céu no Vidro
+16980:## 1088\. Olhar Distraído
+16996:## 1089\. A Borboleta Perdida
+17012:## 1090\. A Mulher com Prímulas
+17028:## 1091\. O Corvo e as Nuvens
+17048:## 1092\. Pombos e Jacintos
+17064:## 1093\. O Pombo Bebendo Água
+17080:## 1094\. Pés Vermelhos na Chuva
+17100:## 1095\. Sombras no Shoji
+17120:## 1096\. Lágrimas na Alvorada
+17136:## 1097\. O Dono do Céu e da Terra
+17152:## 1098\. O Pássaro no Céu Infinito
+17168:## 1099\. O Voo do Dragão
+17184:## 1100\. A Luz na Escuridão
+17204:## 1101\. Dias Lentos, Governo Lento
+17220:## 1102\. Os Anciãos e a Crise
+17236:## 1103\. Definição de Privilégio
+17252:## 1104\. A Falta de Caráter
+17268:## 1105\. O Medo da Pureza
+17288:## 1106\. A Alegria Solitária
+17308:## 1107\. Insônia de Luz e Dor
+17328:## 1108\. Nuvem de Mosquitos? Não, Andorinhas\!
+17348:## 1109\. O Banho Noturno
+17368:## 1110\. O Brilho de Maio no Carro
+17388:## 1111\. O Céu do Perdão
+17404:## 1112\. A Contradição do Desejo
+17420:## 1113\. A Gratidão aos Servidores
+17436:## 1114\. O Abismo entre Sonho e Realidade
+17452:## 1115\. A Mulher de Rosto Longo
+17468:## 1116\. A Mudança para Kojimachi
+17488:## 1117\. O Verde-Azulado de Junho
+17504:## 1118\. Suor e Arrozal
+17520:## 1119\. A Colina para Morar
+17536:## 1120\. O Pássaro e a Amoreira
+17552:## 1121\. Potros na Alameda
+17568:## 1122\. A Paulownia no Portal Antigo
+17588:## 1123\. O Verde que Penetra
+17608:## 1124\. A Tristeza do Mundo Material
+17628:## 1125\. Pesca de Haze em Odaiba
+17648:## 1126\. O Prazer da Destruição?
+17664:## 1127\. A Alegria de Não Pedir Emprestado
+17680:## 1128\. A Impaciência pela Flor
+17696:## 1129\. Fumaça no Silêncio
+17712:## 1130\. Pêssego e Caneta
+17732:## 1131\. Capricho em Shinjuku
+17748:## 1132\. Histórias de Amor
+17764:## 1133\. A Morte pela Injeção
+17780:## 1134\. O Desejo no Corredor do Hospital
+17796:## 1135\. O Mosquito
+17816:## 1136\. Gente de Coração Pequeno
+17836:## 1137\. O Mendigo e a Luz
+17856:## 1138\. O Desejo de Trabalhar
+17876:## 1139\. O Caminho do Céu
+17896:## 1140\. Esporte e Outono
+17916:## 1141\. O Crisântemo na Varanda
+17930:## 1142\. Pintando Kannon
+17944:## 1143\. O Quimono de Sarja
+17958:## 1144\. O Gafanhoto no Teto
+17968:## 1145\. Manhã Após a Chuva Longa
+17978:## 1146\. A Lembrança das Crianças
+17988:## 1147\. A Voz do Gato na Noite
+17998:## 1148\. A Crise nas Aldeias
+18012:## 1149\. O Destino Extremo
+18022:## 1150\. Ouvindo a Calúnia
+18032:## 1151\. A Ilusão da Mentira
+18048:## 1152\. A Felicidade no Mundo dos Maus
+18064:## 1153\. A Memória do Amor
+18080:## 1154\. O Choque com o Intelectual
+18096:## 1155\. O Segundo Charuto
+18112:## 1156\. O Olhar do Outro
+18132:## 1157\. O Fim do Dia
+18152:## 1158\. A Luz da Gratidão
+18172:## 1159\. Corvos no Vendaval
+18192:## 1160\. O Braseiro que Apaga
+18212:## 1161\. Fantasia e Realidade
+18232:## 1162\. Salgueiros e Carros
+18248:## 1163\. O Vermelho do Nanten
+18264:## 1164\. O Tambor de Hatsu-uma
+18280:## 1165\. A Primavera no Vaso
+18296:## 1166\. O Corvo Solitário
+18312:## 1167\. O Pinheiro na Alcova
+18332:## 1168\. A Rapidez do Destino
+18348:## 1169\. Hesitação com o Subordinado
+18364:## 1170\. A Alegria da Salvação
+18380:## 1171\. A Tristeza da Ganância
+18396:## 1172\. A Manhã na Cama
+18412:## 1173\. A Solidão da Mentira
+18428:## 1174\. O Calor Humano
+18448:## 1175\. O Caminho Seguro
+18468:## 1176\. Fios Elétricos na Geada
+18484:## 1177\. O Prédio Monstruoso
+18500:## 1178\. O Vento Uivante e o Palácio
+18516:## 1179\. O Fundo do Mar Seco
+18532:## 1180\. O Disco de Prata
+18548:## 1181\. A Cidade Cinza
+18568:## 1182\. A Mudança do Homem
+18588:## 1183\. A Primavera Interior
+18608:## 1184\. A Maquiagem e o Sorriso
+18624:## 1185\. O Sorriso é Vida
+18640:## 1186\. A Jovem que Partiu
+18656:## 1187\. O Olhar de Esguelha
+18676:## 1188\. O Verde no Declive
+18692:## 1189\. O Verde que Arde
+18708:## 1190\. O Som da Água na Terra
+18724:## 1191\. O Salgueiro Chorão
+18740:## 1192\. Chuva e Perfume de Dafne
+18756:## 1193\. Hóspedes e Chuva
+18772:## 1194\. A Cidade Nostálgica na Chuva
+18788:## 1195\. Gotas no Fio Elétrico
+18808:## 1196\. O Pescador Imóvel
+18828:## 1197\. O Kototama da Luz
+18848:## 1198\. A Alegria do Progresso
+18864:## 1199\. O Gosto pela Ocupação
+18880:## 1200\. O Desejo de Rever
+18896:## 1201\. A Alegria da Salvação
+18912:## 1202\. O Prazer do Tabaco
+18928:## 1203\. O Bonsai de Kaido
+18944:## 1204\. Saudade da Primavera
+18960:## 1205\. Jantar do Campo
+18980:## 1206\. O Marido Eremita
+18996:## 1207\. O Rabugento Amável
+19012:## 1208\. O Sorriso que Desarma
+19028:## 1209\. O Mundo Brilhante
+19044:## 1210\. O Lugar Único
+19064:## 1211\. A Alegria da Mudança
+19080:## 1212\. O Paradoxo do Hóspede
+19096:## 1213\. A Missão na Nova Casa
+19112:## 1214\. Lembrando a Juventude
+19128:## 1215\. A Leveza do Aluguel
+19148:## 1216\. Mudança para a Arte
+19168:## 1217\. Passeio Matinal
+19188:## 1218\. A Montanha de Cerejeiras
+19208:## 1219\. No Terraço da Loja de Departamentos
+19224:## 1220\. O Salgueiro no Fosso
+19240:## 1221\. O Cheiro da Grama Verde
+19256:## 1222\. Vento Perfumado na Cidade
+19272:## 1223\. Caminhada com Roupa de Verão
+19292:## 1224\. O Poder de um Cartão Postal
+19308:## 1225\. A Tristeza da Mentira
+19324:## 1226\. A Cadeira de Vime
+19340:## 1227\. O Sonho do Ouro
+19356:## 1228\. O Cansaço da Hospitalidade
+19372:## 1229\. A Certeza da Alegria
+19392:## 1230\. O Rio Branco e as Colinas Sem Fim
+19408:## 1231\. A Flor Nadeshiko nas Pedras
+19424:## 1232\. O Vento de Junho
+19440:## 1233\. Cestos de Pedra Molhados
+19456:## 1234\. Os Pescadores na Chuva
+19472:## 1235\. O Sonho da Casa na Colina
+19488:## 1236\. Juncos Jovens
+19504:## 1237\. As Flores de Cebolinha
+19520:## 1238\. Os Peixes Ayu Dançam?

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280425</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月25日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月二十五日 昨夜、木原さんを中心にした座談会の報告を読みましたが、最近割合に教修者が少ないということについて、教修者が増えて発展するようないろいろな方法を考えなければならない、ということをいろいろ言ってましたが、それはみんな間違ってはいませんが、一番肝腎なところを忘れているというか、気がつかないのです。<br><br>それはなにかというと、いつも言うとおり大乗と小乗なのです。<br><br>この小乗的考え方がいけないのです。<br><br>前から言っているとおり、救世教は大乗でなければいけないというのです。<br><br>だから発展するしないは、大乗と小乗の関係なのです。<br><br>小乗的な人は発展しないのです。<br><br>大乗的な人は発展するのです。<br><br>これはひとり宗教ばかりではなく、なんでもそうです。<br><br>今一番発展している国はアメリカですが、アメリカは大乗的だからです。<br><br>日本は小乗的だから、始終貧乏で苦しんでいるのです。<br><br>私はよく裁判があって行って思ったことは、アメリカの裁判は、仮に罪があるとすると、この人は罪人にした方が国家のためになるか、あるいは罪人にしない方が国家のためになるか、ということを標準にするのだそうです。<br><br>それでいろいろな事業をする人などは、どこかに法に触れることが少しはあります。<br><br>それがなかったら、それまで気を配っていては、アメリカのような大きな仕事はできませんから、少しは法規に触れる場合があるので引っ張られる、そうすると、この人間は法規上の罪にした方が国のためになるか、アメリカ発展のためになるかということを考えるのです。<br><br>それは、大きな罪はそうはゆかないが、小さなことは罪にしようがしまいがたいしたことはないので、裁判官の口先一つでよいくらいなものです。<br><br>それで無罪にした方がアメリカのためになるということを標準にして決めるのです。<br><br>だから私の裁判で鵜沢博士ともう一人の弁護士はその方針でやったのです。<br><br>「岡田という人間は世の中のためになることをしている、非常に実行力のある人だから、こういう人は助けて、仕事をさせるようにした方が日本のためになる」ということをしきりに言ったが、裁判官にはそんなことはぜんぜん耳にはいらないので、ただ法律第何条に触れるというので罪人にするのです。<br><br>だから日本は発展しないのが本当なのです。<br><br>それは大きな、国家の害になるようなことでなく、小さな条文にでも触れると、それをたいへんなものにするのです。<br><br>だから一つの欠点があると、九つの良いことがあっても、九つの良いことを見ないで一つの欠点で消してしまうのです。<br><br>それが日本の欠点です。<br><br>これは法律のことですが、信仰もそうで、屁のようなことで大きなことを忘れてしまうのです。<br><br>だから発展しないとすると、そういうことが必ずあります。<br><br>私は今まで見てますが、小乗的の人は必ず発展しないのです。<br><br>窮屈な感じがします。<br><br>あなたはこういうことをしてはいけない、神様の思し召しにかなわない、というようなことを言うと窮屈になります。<br><br>そうでなく、自由でゆったりとした気持ちにならなければならないのです。<br><br>またそうするのが神様の思し召しにかなうのです。<br><br>神様は小さな欠点はとらないのです。<br><br>ただこの人間は一人でも多くの人を救うか救わないかという手柄を主にするのです。<br><br>だから仮にその人の欠点が三つあり、働きが七つあると、差し引き四つはプラスになるから、そういう人は神様の御守護が強いのです。<br><br>それで一つの欠点とすると、六つのプラスになるから非常に御神徳があることになります。<br><br>もう一つは、それと同じことですが、小乗信仰と大乗信仰の違いさは、小乗信仰は自分が救われようとするのです。<br><br>自分はどうでもよい、世の中の苦しんでいるこの人たちを救わなければならないというのが大乗信仰です。<br><br>だから自分が救われようということは捨てて、多くの人を救わなければ、とてもかわいそうで見ていられないということを、本人が始終思って念願するのです。<br><br>そういうのが本当の信仰です。<br><br>ところが自分が救われよう救われようとしているのですが、それは自己愛ですから、そういうのは神様はあまり御守護されないのです。<br><br>それからそういう人は、人からちょっとでも悪口を言われたりすると気にかけるのですが、それは自己愛だからです。<br><br>人からなにを言われても、そんなことは気にしないで、神様にお気に入られればよいのです。<br><br>だから人を相手にせず、神様を相手にしろと言うのです。<br><br>だからその点ちょっとしたことですが、たいへんな違いです。<br><br>だからどこまでも大乗信仰です。<br><br>それで大乗信仰の人は、人が良いとか悪いとか、そういうことは言わないのです。<br><br>小乗信仰の人に限って、あそこがいけない、ここがいけないということを始終思ったり口に出したりするのですが、それがいけないのです。<br><br>第一人が良いとか悪いということは分かるわけはないのです。<br><br> それについてこういうことがあるのです。<br><br>私は映画を見る時に、長唄の吉住小三郎さんが私と並んで見ているが、それをたいへん気にする人があるようで、小三郎さんの所に無名の投書がたびたび来るそうです。<br><br>私は最初は気にしなかったが、このごろたびたび来るので、これはいかんと思ったのです。<br><br>ところがそれを良いと思って手紙を出すのですが、それは小乗信仰の信者の誰かです。<br><br>というのは「明主様の隣に坐って、いくら名人と言っても、芸人がもったいない。<br><br>それは明主様でなく、奥様の師匠だから、奥様がそういう具合に言うのだ、映画を見せるのだ」というように解釈しているのです。<br><br>ところがあれは私がやっているのです。<br><br>なぜと言うと、とにかくああいった日本の芸能界では長唄が一番なのです。<br><br>これはみんな知っているでしょうが、社会で一番重要に扱われているのです。<br><br>その長唄のうちではあの人が名人です。<br><br>これも誰も知っているでしょう。<br><br>だからあの人だけは放送局で頼みに行っても、なかなかウンと言わないのです。<br><br>今年になってから、何年かの記念というので一度出ましたが、それで放送局では何回も頼みに行って、やっと承知したのです。<br><br>ですからあの人が救世教の余興に出るということは、世間ではなかなかそういうことはないのです。<br><br>ですからあの人が出るために、救世教の余興というものにたいへんな値打ちが出るのです。<br><br>それから私はああいう芸能家に重きをおくのです。<br><br>だからたとえ大臣だろうが代議士だろうが、会いたいと言っても会いませんが、芸能家の名人にはどんな時でも喜んで会います。<br><br>なぜかというと、芸能家、美術家の偉い人というのは、そのためにどのくらい人が楽しめるか分からないのです。<br><br>またかけがえがないのです。<br><br>あれくらいの名人というのはいないのですから、そのくらいの人とすると、国の宝です。<br><br>美術家でも、その人が死ぬと代わりがないのです。<br><br>ところが国務大臣にしても、たいていな大臣は代わりがいくらでもあるのです。<br><br>総理大臣は別ですが、なにしろ吉田さんが内閣を作ってからでも、大臣が変わったのはたいへんなもので、百人近くではないですか。<br><br>それほど代わりがあるのです。<br><br>ですからイギリスで言っていますが「大臣を選ぶのにそう手数はいらない、紙を丸めて議場に投げて、当たった者でよい」というようなことを言っています。<br><br>ところが芸術家というのはかけがえがないのですから、非常に貴いのです。<br><br>私は小三郎さんは特に優遇してます。<br><br>それで映画などは非常に楽しみにしてますから、始終言いつけて映画があるたびに電話をかけて車で迎えにやっているのです。<br><br>そういうようにしている私の心を知らないで、手紙をやるということはけしからんです。<br><br>私の考えをぜんぜん妨害しているので、邪神にやられているのです。<br><br>ですから小乗信仰というのは実際困ります。<br><br>これはその一例です。<br><br>しかしその人はそれを良いと思っているのです。<br><br>だから咎めるということにはならないが、その間違った考え方はどうしても直さなければならないのです。<br><br>ですから人間の考えで判断して分かるような、私のやることはそんな単純なことではないのです。<br><br>なにごとでも非常に深いのですから、あれが良いとか悪いとか批評したり、そういう考えを持つということは、とんでもないことです。<br><br> だから大本教のお筆先に「細工は流々仕上げを御覧（ごろう）じろ」というのがあります。<br><br>ですから私は神様の計画どおりにやっているのですから、それを人間の目で見て善悪ということはぜんぜん分かるわけはないし、それをなんとか批判しようと思う心そのものが、ぜんぜん信仰から離れているのです。<br><br>従って今年なども自然栽培についての報告がありますが、明主様はああおっしゃるが、昔から百姓はこうやることになっていると、つまり昔式のやり方をいくぶんでもしただけは悪くなっているので、私の言ったとおりのそのままをやっていない人は成績が悪いのです。<br><br>このごろは分かってきたようですが、そういうようで、今までの信仰では本当の大乗というのはなかったのです。<br><br>だから信仰は大乗信仰でなければならないのです。<br><br>小乗の人は経が長いので、緯が短いのです。<br><br>このために広がらないから発展しないのです。<br><br>やはりバッジにあるように十の字で、両方同じでなければならないのです。<br><br>経もあり緯もありでなければならないのです。<br><br>だから善悪の批判もよいですが、決めるのがいけないのです。<br><br>決めるから間違ってしまうのです。<br><br>それは信仰には限らないので、神様が世界を経綸されるのは実に深いのです。<br><br>だからあれが悪いとか、このやり方が良いとか悪いとか、そういう批評は本当はできるものではないのです。<br><br>ところがそれをぜんぜん批評したり、なにもしないというのは、それもいけないのです。<br><br>それは世の中の政治などはそれでよいのです。<br><br>しかし神様のこと、私がやっている仕事だけはぜんぜん分からないのです。<br><br>だから信仰のことだけは決めないで、あるがままにするのです。<br><br>それから座談会の中に「頑張るというのがいけない」とありましたが、それはまったくそうで、頑張るということが、人間の力を主にすることだからいけないのです。<br><br>だから頑張らないでフワフワとしていた方がよいのです。<br><br>浄霊に力を入れないでやるということと同じです。<br><br>また私は腹に力を入れないということを言っているのもそういうことです。<br><br>世の中の習慣はたいていあべこべのことが多いのです。<br><br>今言ったように、大臣や代議士より美術家の方に重きをおくということは、今までの考え方とは違いますが、よく考えてみればどっちが道理に合うかということも分かるわけです。<br><br>今までのいろんな考え方、道徳というものとは非常に違いがあるのです。<br><br>私は余興の時にはいつでも『忠臣蔵』をやってはいけないと言ってますが、このくらい間違ったことはないから、それで私は嫌いなのです。<br><br>それでよく武士道などというのは、あべこべのことが多いのです。<br><br>それはその当時の権力者が自分に都合のよい道徳を作ったのです。<br><br>だから非常に公平な人間の扱い方ではないわけです。<br><br>だから今度論文に書いてますが、無論共産主義は亡びる、それから民主主義も亡びるということを書いてあります。<br><br>共産主義は間違っているが、民主主義も間違っているのです。<br><br>とにかく何々主義というのがいけないのです。<br><br>今までの世の中はみんなそうなってますから、今までの習慣や道徳ということにぜんぜん捉われないで、神様の智慧、神智によって物事を見るというようにすると、本当の真理が分かるわけです。<br><br>お説教はそのくらいにしておきましょう。<br><br> 美術館についてちょっと書いてみましたが、しゃべるよりは要領良く書いたつもりですから、今読ませます。<br><br> （御論文「神技の美術館」）【栄光 二〇七号】 それから今の共産主義とかいろいろなことについて、ざっと書きました。<br><br> （御論文「これから世界はどうなる」）【栄光 二〇六号】 今読んだとおりで、つまり今までの社会というのはいろんな思想の人間に考え出させたのです。<br><br>そうしてそれを実験してみると、結局どれもこれもうまく行かないのです。<br><br>これは私は、大本教信者時代に分かったのですが、大教の教祖様の出口なお刀自は経の信仰、つまり小乗信仰です。<br><br>ですから実に厳しいのです。<br><br>そこで教祖様は「イヅの御霊」とも言われたのです。<br><br>「イヅ」というのは厳しいのです。<br><br>それから聖師様の出口王仁三郎は緯で、「ミズの御霊」です。<br><br>教祖様は経、聖師様は緯だということになっていたのです。<br><br>それで最初は「イヅの御霊」つまり厳しいやり方によって失敗したわけです。<br><br>ですから教祖様は始終きちんと坐って、体を少しも乱さないのです。<br><br>しかし厳しいと言っても、やはり神様ですから愛はあります。<br><br>だからその厳しさを人には強要しないで、御自分で守っていたのです。<br><br>おもしろいことがあったのですが、教祖様はどんな人にも同じような待遇をされるのです。<br><br>それである信者が「教祖様はどんな人にも同じ待遇をされているが、やはり好きな方と嫌いな方があるでしょうが、それを伺いたい」と言ったところが、「ワシも好きな人と嫌いな人が大いにあるが、そういう別けへだてをすると、嫌いな人は非常にいやな思いをする、それがつらいから同じようにしている」と言われたのです。<br><br>御自分には厳しくても、人には厳しくしないという、そこにやはり神様としての愛があります。<br><br>だからそれに似たことは、私もよく言われます。<br><br>私は忙しく自分の仕事をしてますが、それで家内やほかの者が遊んだりしてますが、よく世の中の亭主は、自分が働いている時に女房子供が遊んだりしていると、それがシャクに障って叱ったりしますが、私はそういうことはぜんぜん、わざとやらないどころか、そういう気はないのです。<br><br>私はむしろ、自分がいくら骨を折っても、ほかの者が気持ち良く愉快に遊ぶばかりでなく、いろんなそういう生活をしていると、非常に気持ちが良いのです。<br><br>ですから自分がいくら忙しくても苦しくても、別になんとも思いません。<br><br>これは私は別に修行のためにそうするのではないので、そういう生活のためなのですから、私の道楽のようなものです。<br><br>人が喜んで満足しているのを見るのが愉快でたまらないので、そういうようにやっているのです。<br><br>そういうようで、教祖様にはそういう点が非常にあったのです。<br><br>ところが聖師様という人はぜんぜん反対で、大体生活も始終寝ているのです。<br><br>信者がお目にかかりに行っても、寝ている方が多いのです。<br><br>それでワシは「ミズの御霊」で水なのだから、きちんと坐っていると苦しいと言って、歌を作るにも文章を作るにも、横に寝ていて筆記させるのです。<br><br>これはおもしろいものです。<br><br>ところがそういう緯のやり方ですから非常に拡がったのですが、そのために災いされて失敗されたのです。<br><br>これが一つの型になっているのです。<br><br>ですからお筆先に「大本は世界の型であるぞよ」というのがありますが、確かにそうです。<br><br>それで東洋は精神的ですから、「イヅの御霊」で、それが失敗したのです。<br><br>それで西洋文明に負けたのです。<br><br>ところが西洋文明も経ですから、それによって失敗するわけです。<br><br>そこで東洋の精神文明と西洋の物質文明の両方がきっちりと結ぶことが、今言う伊都能売（いづのめ）式です。<br><br>それが人類の目的です。<br><br>そこで良い世界ができるのです。<br><br>その結ぶ中心の仕事をするのが救世教です。<br><br>ですから結局世界は、あらゆる思想、あらゆる主義というものが間違っているということを知って、今書いてあったような、経にあらず緯にあらずという、これが世界をリードするわけです。<br><br>そうすると、ほかの主義思想はいけないということを人類が覚るということがこれから出てくるのです。<br><br>つまりいろいろな失敗の悩みが世界的に出てくるのです。<br><br>それで救世教が、「こうやることが本当だ、これが真理だ」ということを世界中に宣伝して、それで初めて「なるほど」と気がついて、それが一つの根本思想になって地上天国ができるわけです。<br><br>そういうわけですから、共産主義もスターリンがいた時が、まずとにかく華やかだったのです。<br><br>それからアメリカが資本主義によって世界を非常にリードしてますが、これがいずれは共産主義と同じように没落すると思います。<br><br>今の話は大体を話したわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência do Grande Veículo na Fé</h2>
 <p>Li o relatório do simpósio de ontem à noite, conduzido pelo senhor Kihara. Nele, discutia-se a recente e relativa escassez de pessoas em formação na Fé e a necessidade de se conceberem diversos métodos para fomentar seu aumento e, consequentemente, a expansão da Obra. Embora tais deliberações não estejam equivocadas, elas se esquecem ou não percebem o ponto mais primordial. E qual seria? Como sempre digo, trata-se da distinção entre o Grande e o Pequeno Veículo. É essa mentalidade do Pequeno Veículo que se revela um obstáculo. Conforme venho afirmando, a Sekaikyuseikyou deve, impreterivelmente, trilhar o Grande Veículo. Portanto, a questão da expansão está intrinsecamente ligada a essa dualidade: aqueles que adotam uma perspectiva restrita, do Pequeno Veículo, não progridem; já os que abraçam a visão ampla, do Grande Veículo, prosperam.</p>
@@ -118,5 +270,48 @@ function toggleLang(lang) {
 <p>A solução é a união precisa entre a civilização espiritual do Oriente e a civilização material do Ocidente. Esse é o caminho de Izunome (伊都能売), o objetivo da humanidade. É a partir dessa união que um mundo melhor surgirá. E a missão de ser o centro dessa união cabe à Sekaikyuseikyou.</p>
 <p>No final, o mundo inteiro perceberá que todas as ideologias e "ismos" estavam equivocados. E a filosofia que descrevi, que não é nem vertical nem horizontal, mas a síntese de ambos, passará a liderar o mundo. A humanidade despertará para o erro das demais doutrinas e ideologias, e isso se manifestará a partir de agora. As aflições decorrentes dos fracassos se tornarão um fenômeno global. Então, a Sekaikyuseikyou proclamará ao mundo: "Este é o caminho correto, esta é a Verdade". Somente então as pessoas dirão "De fato!" e compreenderão. Esse se tornará o pensamento fundamental sobre o qual o Paraíso Terrestre será construído.</p>
 <p>Por essa razão, o comunismo teve seu apogeu enquanto Stalin estava vivo. E a América, que lidera o mundo com seu capitalismo, acredito que, em algum momento, entrará em declínio, assim como o comunismo. O que acabo de expor é um panorama geral da situação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年4月25日） 『御教え集』21号、昭和28(1953)年5月15日発行 昭和二十八年四月二十五日 昨夜、木原さんを中心にした座談会の報告を読みましたが、最近割合に教修者が少ないということについて、教修者が増えて発展するようないろいろな方法を考えなければならない、ということをいろいろ言ってましたが、それはみんな間違ってはいませんが、一番肝腎なところを忘れているというか、気がつかないのです。<br/><br/>それはなにかというと、いつも言うとおり大乗と小乗なのです。<br/><br/>この小乗的考え方がいけないのです。<br/><br/>前から言っているとおり、救世教は大乗でなければいけないというのです。<br/><br/>だから発展するしないは、大乗と小乗の関係なのです。<br/><br/>小乗的な人は発展しないのです。<br/><br/>大乗的な人は発展するのです。<br/><br/>これはひとり宗教ばかりではなく、なんでもそうです。<br/><br/>今一番発展している国はアメリカですが、アメリカは大乗的だからです。<br/><br/>日本は小乗的だから、始終貧乏で苦しんでいるのです。<br/><br/>私はよく裁判があって行って思ったことは、アメリカの裁判は、仮に罪があるとすると、この人は罪人にした方が国家のためになるか、あるいは罪人にしない方が国家のためになるか、ということを標準にするのだそうです。<br/><br/>それでいろいろな事業をする人などは、どこかに法に触れることが少しはあります。<br/><br/>それがなかったら、それまで気を配っていては、アメリカのような大きな仕事はできませんから、少しは法規に触れる場合があるので引っ張られる、そうすると、この人間は法規上の罪にした方が国のためになるか、アメリカ発展のためになるかということを考えるのです。<br/><br/>それは、大きな罪はそうはゆかないが、小さなことは罪にしようがしまいがたいしたことはないので、裁判官の口先一つでよいくらいなものです。<br/><br/>それで無罪にした方がアメリカのためになるということを標準にして決めるのです。<br/><br/>だから私の裁判で鵜沢博士ともう一人の弁護士はその方針でやったのです。<br/><br/>「岡田という人間は世の中のためになることをしている、非常に実行力のある人だから、こういう人は助けて、仕事をさせるようにした方が日本のためになる」ということをしきりに言ったが、裁判官にはそんなことはぜんぜん耳にはいらないので、ただ法律第何条に触れるというので罪人にするのです。<br/><br/>だから日本は発展しないのが本当なのです。<br/><br/>それは大きな、国家の害になるようなことでなく、小さな条文にでも触れると、それをたいへんなものにするのです。<br/><br/>だから一つの欠点があると、九つの良いことがあっても、九つの良いことを見ないで一つの欠点で消してしまうのです。<br/><br/>それが日本の欠点です。<br/><br/>これは法律のことですが、信仰もそうで、屁のようなことで大きなことを忘れてしまうのです。<br/><br/>だから発展しないとすると、そういうことが必ずあります。<br/><br/>私は今まで見てますが、小乗的の人は必ず発展しないのです。<br/><br/>窮屈な感じがします。<br/><br/>あなたはこういうことをしてはいけない、神様の思し召しにかなわない、というようなことを言うと窮屈になります。<br/><br/>そうでなく、自由でゆったりとした気持ちにならなければならないのです。<br/><br/>またそうするのが神様の思し召しにかなうのです。<br/><br/>神様は小さな欠点はとらないのです。<br/><br/>ただこの人間は一人でも多くの人を救うか救わないかという手柄を主にするのです。<br/><br/>だから仮にその人の欠点が三つあり、働きが七つあると、差し引き四つはプラスになるから、そういう人は神様の御守護が強いのです。<br/><br/>それで一つの欠点とすると、六つのプラスになるから非常に御神徳があることになります。<br/><br/>もう一つは、それと同じことですが、小乗信仰と大乗信仰の違いさは、小乗信仰は自分が救われようとするのです。<br/><br/>自分はどうでもよい、世の中の苦しんでいるこの人たちを救わなければならないというのが大乗信仰です。<br/><br/>だから自分が救われようということは捨てて、多くの人を救わなければ、とてもかわいそうで見ていられないということを、本人が始終思って念願するのです。<br/><br/>そういうのが本当の信仰です。<br/><br/>ところが自分が救われよう救われようとしているのですが、それは自己愛ですから、そういうのは神様はあまり御守護されないのです。<br/><br/>それからそういう人は、人からちょっとでも悪口を言われたりすると気にかけるのですが、それは自己愛だからです。<br/><br/>人からなにを言われても、そんなことは気にしないで、神様にお気に入られればよいのです。<br/><br/>だから人を相手にせず、神様を相手にしろと言うのです。<br/><br/>だからその点ちょっとしたことですが、たいへんな違いです。<br/><br/>だからどこまでも大乗信仰です。<br/><br/>それで大乗信仰の人は、人が良いとか悪いとか、そういうことは言わないのです。<br/><br/>小乗信仰の人に限って、あそこがいけない、ここがいけないということを始終思ったり口に出したりするのですが、それがいけないのです。<br/><br/>第一人が良いとか悪いということは分かるわけはないのです。<br/><br/> それについてこういうことがあるのです。<br/><br/>私は映画を見る時に、長唄の吉住小三郎さんが私と並んで見ているが、それをたいへん気にする人があるようで、小三郎さんの所に無名の投書がたびたび来るそうです。<br/><br/>私は最初は気にしなかったが、このごろたびたび来るので、これはいかんと思ったのです。<br/><br/>ところがそれを良いと思って手紙を出すのですが、それは小乗信仰の信者の誰かです。<br/><br/>というのは「明主様の隣に坐って、いくら名人と言っても、芸人がもったいない。<br/><br/>それは明主様でなく、奥様の師匠だから、奥様がそういう具合に言うのだ、映画を見せるのだ」というように解釈しているのです。<br/><br/>ところがあれは私がやっているのです。<br/><br/>なぜと言うと、とにかくああいった日本の芸能界では長唄が一番なのです。<br/><br/>これはみんな知っているでしょうが、社会で一番重要に扱われているのです。<br/><br/>その長唄のうちではあの人が名人です。<br/><br/>これも誰も知っているでしょう。<br/><br/>だからあの人だけは放送局で頼みに行っても、なかなかウンと言わないのです。<br/><br/>今年になってから、何年かの記念というので一度出ましたが、それで放送局では何回も頼みに行って、やっと承知したのです。<br/><br/>ですからあの人が救世教の余興に出るということは、世間ではなかなかそういうことはないのです。<br/><br/>ですからあの人が出るために、救世教の余興というものにたいへんな値打ちが出るのです。<br/><br/>それから私はああいう芸能家に重きをおくのです。<br/><br/>だからたとえ大臣だろうが代議士だろうが、会いたいと言っても会いませんが、芸能家の名人にはどんな時でも喜んで会います。<br/><br/>なぜかというと、芸能家、美術家の偉い人というのは、そのためにどのくらい人が楽しめるか分からないのです。<br/><br/>またかけがえがないのです。<br/><br/>あれくらいの名人というのはいないのですから、そのくらいの人とすると、国の宝です。<br/><br/>美術家でも、その人が死ぬと代わりがないのです。<br/><br/>ところが国務大臣にしても、たいていな大臣は代わりがいくらでもあるのです。<br/><br/>総理大臣は別ですが、なにしろ吉田さんが内閣を作ってからでも、大臣が変わったのはたいへんなもので、百人近くではないですか。<br/><br/>それほど代わりがあるのです。<br/><br/>ですからイギリスで言っていますが「大臣を選ぶのにそう手数はいらない、紙を丸めて議場に投げて、当たった者でよい」というようなことを言っています。<br/><br/>ところが芸術家というのはかけがえがないのですから、非常に貴いのです。<br/><br/>私は小三郎さんは特に優遇してます。<br/><br/>それで映画などは非常に楽しみにしてますから、始終言いつけて映画があるたびに電話をかけて車で迎えにやっているのです。<br/><br/>そういうようにしている私の心を知らないで、手紙をやるということはけしからんです。<br/><br/>私の考えをぜんぜん妨害しているので、邪神にやられているのです。<br/><br/>ですから小乗信仰というのは実際困ります。<br/><br/>これはその一例です。<br/><br/>しかしその人はそれを良いと思っているのです。<br/><br/>だから咎めるということにはならないが、その間違った考え方はどうしても直さなければならないのです。<br/><br/>ですから人間の考えで判断して分かるような、私のやることはそんな単純なことではないのです。<br/><br/>なにごとでも非常に深いのですから、あれが良いとか悪いとか批評したり、そういう考えを持つということは、とんでもないことです。<br/><br/> だから大本教のお筆先に「細工は流々仕上げを御覧（ごろう）じろ」というのがあります。<br/><br/>ですから私は神様の計画どおりにやっているのですから、それを人間の目で見て善悪ということはぜんぜん分かるわけはないし、それをなんとか批判しようと思う心そのものが、ぜんぜん信仰から離れているのです。<br/><br/>従って今年なども自然栽培についての報告がありますが、明主様はああおっしゃるが、昔から百姓はこうやることになっていると、つまり昔式のやり方をいくぶんでもしただけは悪くなっているので、私の言ったとおりのそのままをやっていない人は成績が悪いのです。<br/><br/>このごろは分かってきたようですが、そういうようで、今までの信仰では本当の大乗というのはなかったのです。<br/><br/>だから信仰は大乗信仰でなければならないのです。<br/><br/>小乗の人は経が長いので、緯が短いのです。<br/><br/>このために広がらないから発展しないのです。<br/><br/>やはりバッジにあるように十の字で、両方同じでなければならないのです。<br/><br/>経もあり緯もありでなければならないのです。<br/><br/>だから善悪の批判もよいですが、決めるのがいけないのです。<br/><br/>決めるから間違ってしまうのです。<br/><br/>それは信仰には限らないので、神様が世界を経綸されるのは実に深いのです。<br/><br/>だからあれが悪いとか、このやり方が良いとか悪いとか、そういう批評は本当はできるものではないのです。<br/><br/>ところがそれをぜんぜん批評したり、なにもしないというのは、それもいけないのです。<br/><br/>それは世の中の政治などはそれでよいのです。<br/><br/>しかし神様のこと、私がやっている仕事だけはぜんぜん分からないのです。<br/><br/>だから信仰のことだけは決めないで、あるがままにするのです。<br/><br/>それから座談会の中に「頑張るというのがいけない」とありましたが、それはまったくそうで、頑張るということが、人間の力を主にすることだからいけないのです。<br/><br/>だから頑張らないでフワフワとしていた方がよいのです。<br/><br/>浄霊に力を入れないでやるということと同じです。<br/><br/>また私は腹に力を入れないということを言っているのもそういうことです。<br/><br/>世の中の習慣はたいていあべこべのことが多いのです。<br/><br/>今言ったように、大臣や代議士より美術家の方に重きをおくということは、今までの考え方とは違いますが、よく考えてみればどっちが道理に合うかということも分かるわけです。<br/><br/>今までのいろんな考え方、道徳というものとは非常に違いがあるのです。<br/><br/>私は余興の時にはいつでも『忠臣蔵』をやってはいけないと言ってますが、このくらい間違ったことはないから、それで私は嫌いなのです。<br/><br/>それでよく武士道などというのは、あべこべのことが多いのです。<br/><br/>それはその当時の権力者が自分に都合のよい道徳を作ったのです。<br/><br/>だから非常に公平な人間の扱い方ではないわけです。<br/><br/>だから今度論文に書いてますが、無論共産主義は亡びる、それから民主主義も亡びるということを書いてあります。<br/><br/>共産主義は間違っているが、民主主義も間違っているのです。<br/><br/>とにかく何々主義というのがいけないのです。<br/><br/>今までの世の中はみんなそうなってますから、今までの習慣や道徳ということにぜんぜん捉われないで、神様の智慧、神智によって物事を見るというようにすると、本当の真理が分かるわけです。<br/><br/>お説教はそのくらいにしておきましょう。<br/><br/> 美術館についてちょっと書いてみましたが、しゃべるよりは要領良く書いたつもりですから、今読ませます。<br/><br/> （御論文「神技の美術館」）【栄光 二〇七号】 それから今の共産主義とかいろいろなことについて、ざっと書きました。<br/><br/> （御論文「これから世界はどうなる」）【栄光 二〇六号】 今読んだとおりで、つまり今までの社会というのはいろんな思想の人間に考え出させたのです。<br/><br/>そうしてそれを実験してみると、結局どれもこれもうまく行かないのです。<br/><br/>これは私は、大本教信者時代に分かったのですが、大教の教祖様の出口なお刀自は経の信仰、つまり小乗信仰です。<br/><br/>ですから実に厳しいのです。<br/><br/>そこで教祖様は「イヅの御霊」とも言われたのです。<br/><br/>「イヅ」というのは厳しいのです。<br/><br/>それから聖師様の出口王仁三郎は緯で、「ミズの御霊」です。<br/><br/>教祖様は経、聖師様は緯だということになっていたのです。<br/><br/>それで最初は「イヅの御霊」つまり厳しいやり方によって失敗したわけです。<br/><br/>ですから教祖様は始終きちんと坐って、体を少しも乱さないのです。<br/><br/>しかし厳しいと言っても、やはり神様ですから愛はあります。<br/><br/>だからその厳しさを人には強要しないで、御自分で守っていたのです。<br/><br/>おもしろいことがあったのですが、教祖様はどんな人にも同じような待遇をされるのです。<br/><br/>それである信者が「教祖様はどんな人にも同じ待遇をされているが、やはり好きな方と嫌いな方があるでしょうが、それを伺いたい」と言ったところが、「ワシも好きな人と嫌いな人が大いにあるが、そういう別けへだてをすると、嫌いな人は非常にいやな思いをする、それがつらいから同じようにしている」と言われたのです。<br/><br/>御自分には厳しくても、人には厳しくしないという、そこにやはり神様としての愛があります。<br/><br/>だからそれに似たことは、私もよく言われます。<br/><br/>私は忙しく自分の仕事をしてますが、それで家内やほかの者が遊んだりしてますが、よく世の中の亭主は、自分が働いている時に女房子供が遊んだりしていると、それがシャクに障って叱ったりしますが、私はそういうことはぜんぜん、わざとやらないどころか、そういう気はないのです。<br/><br/>私はむしろ、自分がいくら骨を折っても、ほかの者が気持ち良く愉快に遊ぶばかりでなく、いろんなそういう生活をしていると、非常に気持ちが良いのです。<br/><br/>ですから自分がいくら忙しくても苦しくても、別になんとも思いません。<br/><br/>これは私は別に修行のためにそうするのではないので、そういう生活のためなのですから、私の道楽のようなものです。<br/><br/>人が喜んで満足しているのを見るのが愉快でたまらないので、そういうようにやっているのです。<br/><br/>そういうようで、教祖様にはそういう点が非常にあったのです。<br/><br/>ところが聖師様という人はぜんぜん反対で、大体生活も始終寝ているのです。<br/><br/>信者がお目にかかりに行っても、寝ている方が多いのです。<br/><br/>それでワシは「ミズの御霊」で水なのだから、きちんと坐っていると苦しいと言って、歌を作るにも文章を作るにも、横に寝ていて筆記させるのです。<br/><br/>これはおもしろいものです。<br/><br/>ところがそういう緯のやり方ですから非常に拡がったのですが、そのために災いされて失敗されたのです。<br/><br/>これが一つの型になっているのです。<br/><br/>ですからお筆先に「大本は世界の型であるぞよ」というのがありますが、確かにそうです。<br/><br/>それで東洋は精神的ですから、「イヅの御霊」で、それが失敗したのです。<br/><br/>それで西洋文明に負けたのです。<br/><br/>ところが西洋文明も経ですから、それによって失敗するわけです。<br/><br/>そこで東洋の精神文明と西洋の物質文明の両方がきっちりと結ぶことが、今言う伊都能売（いづのめ）式です。<br/><br/>それが人類の目的です。<br/><br/>そこで良い世界ができるのです。<br/><br/>その結ぶ中心の仕事をするのが救世教です。<br/><br/>ですから結局世界は、あらゆる思想、あらゆる主義というものが間違っているということを知って、今書いてあったような、経にあらず緯にあらずという、これが世界をリードするわけです。<br/><br/>そうすると、ほかの主義思想はいけないということを人類が覚るということがこれから出てくるのです。<br/><br/>つまりいろいろな失敗の悩みが世界的に出てくるのです。<br/><br/>それで救世教が、「こうやることが本当だ、これが真理だ」ということを世界中に宣伝して、それで初めて「なるほど」と気がついて、それが一つの根本思想になって地上天国ができるわけです。<br/><br/>そういうわけですから、共産主義もスターリンがいた時が、まずとにかく華やかだったのです。<br/><br/>それからアメリカが資本主義によって世界を非常にリードしてますが、これがいずれは共産主義と同じように没落すると思います。<br/><br/>今の話は大体を話したわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

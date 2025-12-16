@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kinyoku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 禁欲 『信仰雑話』P.31、昭和23(1948)年9月5日発行 昔から立派な宗教家たらんとするには、禁欲生活をしなければならないように想われ、それが真理を悟り、魂を磨く最良の方法とさえ思われていた。<br><br>しかし私は反対である。<br><br>以下判りやすくかいてみよう。<br><br> そもそも、森羅万象一切は人間のために存在している事である。<br><br>見よ、春の花、秋の紅葉、百鳥の囀り、虫の啼く声、明媚なる山水、月の夜の風情や温泉等々は、何が故に存在するのであろうかという事を考えなくてはならない。<br><br>いうまでもなく、神が人間を楽しませるために造られたものでなくて何であろう。<br><br>また人間が謡う美しき声や、舞踊や、文学芸術等も、もちろんそれによって当人も楽しみ、他人をも楽しませるのである。<br><br>それのみではない、人間生活においてあらゆる美味なる食物はもとより、建築、庭園、衣服等も必要のためのみではない。<br><br>より娯しむべき要素が含まれている。<br><br>飲食を楽しむことによって、栄養となり、生命が保持される。<br><br>住居も衣食も必要だけの目的であれば、甚だ殺風景のもので済む訳である。<br><br>子供を造る事も必要の目的のみでない事は言うまでもない。<br><br>以上のごとく大自然も、人為的のあらゆる物も、一方それを楽しむべき本能を神が人間に与えられている以上、それを娯しむのが本当である。<br><br>それを拒否し、生存上必要のもののみに満足するという禁欲主義は、深き神の恩恵に対する背反的考え方である。<br><br>また他の方面をみる時、今日までの特権者が利他的観念に乏しく、自分や自分一族の者のみの快楽に専心し、社会や他人を顧慮せず、衆とともに楽しむという、人類愛的思想の発露が余りにもなかった。<br><br>それは神の恩恵を独占する訳になろう。<br><br>この意味においても、私は富豪の大庭園を開放し、美術品を公開し、衆とともに楽しむべきが神慮に応えるゆえんであると思う。<br><br>翻って想うに、いにしえの聖者が粗衣粗食極端なる禁欲生活をなし、「祖師は紙衣の五十年」的生活に尊き一生を捧げたという事は、神の恩恵に叛く訳になろう。<br><br>それに気付かない世人は、宗教家を観る時、禁欲者でなくては有難くないように思う傾向があるのは遺憾である。<br><br>私は前述のごとく、禁欲に反対であるから普通人と同様の生活を営んでおり、これが神意に添うものと考えている。<br><br>従って地上天国とは、人類総体の生活が向上し、芸術その他の清い楽しみは大いに発達する世界をいうのである。<br><br> また真善美という事は、真とは偽りのない事であり、善とは正しい行であり、美とは美しい事であるから、禁欲生活においては善はあるが、真と美がないばかりか、返って文化の進歩を阻止する事にもなるのではないかと思う。<br><br>彼のインドの社会が精神生活のみに偏した結果、今日のごとき文化に遅れ、沈滞せる国運を来たした事を考えるべきであろう。<br><br> （注）紙衣（かみこ）、紙製の衣服。<br><br>厚紙に柿渋を引き乾かしたものを揉み、晒して作る。<br><br>修行僧や貧しい家庭で使用された。<br><br>貧しさを表す言葉。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Ascetismo e a Vontade Divina</h2>
 <p>Desde tempos imemoriais, acreditava-se que um estilo de vida ascético era condição indispensável para se tornar um religioso exemplar, sendo considerado o método supremo para alcançar a verdade e purificar a alma. Todavia, discordo de tal concepção e, a seguir, procurarei elucidar meu ponto de vista de forma clara.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Ao refletir sobre o passado, a vida de extrema abnegação dos antigos sábios, que se vestiam com trajes rústicos e se alimentavam de forma frugal, pode ser vista, em certo sentido, como uma afronta à graça de Deus. É lamentável que as pessoas comuns, alheias a essa verdade, tenham a tendência de não considerar um religioso como digno de reverência a menos que ele seja um asceta.</p>
 <p>Conforme mencionei, por me opor ao ascetismo, levo uma vida semelhante à das pessoas comuns, convicto de que essa é a maneira de seguir a Vontade de Deus. Sendo assim, o Paraíso Terrestre que preconizo é um mundo onde o padrão de vida de toda a humanidade se eleva, e onde os prazeres puros, como a arte e outras formas de deleite, florescem em sua plenitude.</p>
 <p>Ademais, consideremos o princípio da Verdade, do Bem e do Belo. A vida ascética, embora possa conter o Bem, manifestado na conduta correta, carece da Verdade e do Belo. Arrisco dizer que, ao contrário, ela pode até mesmo obstar o progresso da cultura. Basta observar o caso da sociedade indiana, cujo foco excessivo na vida espiritual resultou em um atraso cultural e na estagnação que hoje aflige o destino daquela nação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 禁欲 『信仰雑話』P.31、昭和23(1948)年9月5日発行 昔から立派な宗教家たらんとするには、禁欲生活をしなければならないように想われ、それが真理を悟り、魂を磨く最良の方法とさえ思われていた。<br/><br/>しかし私は反対である。<br/><br/>以下判りやすくかいてみよう。<br/><br/> そもそも、森羅万象一切は人間のために存在している事である。<br/><br/>見よ、春の花、秋の紅葉、百鳥の囀り、虫の啼く声、明媚なる山水、月の夜の風情や温泉等々は、何が故に存在するのであろうかという事を考えなくてはならない。<br/><br/>いうまでもなく、神が人間を楽しませるために造られたものでなくて何であろう。<br/><br/>また人間が謡う美しき声や、舞踊や、文学芸術等も、もちろんそれによって当人も楽しみ、他人をも楽しませるのである。<br/><br/>それのみではない、人間生活においてあらゆる美味なる食物はもとより、建築、庭園、衣服等も必要のためのみではない。<br/><br/>より娯しむべき要素が含まれている。<br/><br/>飲食を楽しむことによって、栄養となり、生命が保持される。<br/><br/>住居も衣食も必要だけの目的であれば、甚だ殺風景のもので済む訳である。<br/><br/>子供を造る事も必要の目的のみでない事は言うまでもない。<br/><br/>以上のごとく大自然も、人為的のあらゆる物も、一方それを楽しむべき本能を神が人間に与えられている以上、それを娯しむのが本当である。<br/><br/>それを拒否し、生存上必要のもののみに満足するという禁欲主義は、深き神の恩恵に対する背反的考え方である。<br/><br/>また他の方面をみる時、今日までの特権者が利他的観念に乏しく、自分や自分一族の者のみの快楽に専心し、社会や他人を顧慮せず、衆とともに楽しむという、人類愛的思想の発露が余りにもなかった。<br/><br/>それは神の恩恵を独占する訳になろう。<br/><br/>この意味においても、私は富豪の大庭園を開放し、美術品を公開し、衆とともに楽しむべきが神慮に応えるゆえんであると思う。<br/><br/>翻って想うに、いにしえの聖者が粗衣粗食極端なる禁欲生活をなし、「祖師は紙衣の五十年」的生活に尊き一生を捧げたという事は、神の恩恵に叛く訳になろう。<br/><br/>それに気付かない世人は、宗教家を観る時、禁欲者でなくては有難くないように思う傾向があるのは遺憾である。<br/><br/>私は前述のごとく、禁欲に反対であるから普通人と同様の生活を営んでおり、これが神意に添うものと考えている。<br/><br/>従って地上天国とは、人類総体の生活が向上し、芸術その他の清い楽しみは大いに発達する世界をいうのである。<br/><br/> また真善美という事は、真とは偽りのない事であり、善とは正しい行であり、美とは美しい事であるから、禁欲生活においては善はあるが、真と美がないばかりか、返って文化の進歩を阻止する事にもなるのではないかと思う。<br/><br/>彼のインドの社会が精神生活のみに偏した結果、今日のごとき文化に遅れ、沈滞せる国運を来たした事を考えるべきであろう。<br/><br/> （注）紙衣（かみこ）、紙製の衣服。<br/><br/>厚紙に柿渋を引き乾かしたものを揉み、晒して作る。<br/><br/>修行僧や貧しい家庭で使用された。<br/><br/>貧しさを表す言葉。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

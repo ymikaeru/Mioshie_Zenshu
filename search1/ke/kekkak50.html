@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak50</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核亡国論 『栄光』91号、昭和26(1951)年2月14日発行 今日本において、結核は非常な勢いをもって蔓延しつつある事は衆知の通りである。<br><br>しかも始末の悪い事は、実際上患者の総数も、死亡率も本当の事は全然判らないのである。<br><br>何となれば当局が発表した数字によれば、二十年前も患者数百五十万、一割の死亡とみて十五万と言われたが、十年前も同じ数であり、今も同数である。<br><br>としたらいかに出鱈目（でたらめ）であるかが判るであろう。<br><br>しかし実はこれも無理はないかも知れない。<br><br>というのは結核は伝染病とされてる以上、出来るだけ世間に知られないようにする。<br><br>万が一死亡しても死亡診断書は、特別の事情のない限り、他の病気にして届けるのは、今日常識とさえなっているくらいだから、正確な数字は到底得られないのは当然である。<br><br>それについて、去る一月二十六日発行の日本婦人新聞に、左のごとき記事が出ていた。<br><br> 病おし、教壇に 捨ておけぬ「結核教員」 東京都教育庁では都内全部の高、中、小学校に現在勤務中の教職員について、結核検診を行い、昨年暮までに全員終了した。<br><br>これによると、結核に冒されて教壇に立っている者が、意外に多い事が判り、早急に対策を考える事になった。<br><br> すなわち都立教職員約三万一千名中、六カ月から二カ年程度長期欠席によって、休養を必要とする者が、二万六千七百名以上もあり、既に二年以上欠席し退職させられたものも百余名もあるという状態である。<br><br>これらのうちには特に悪質で生徒への感染危険の者もあるので、直ちに休養をさせねばならぬ者も、相当数あるものとみられている。<br><br> それで東京都では昨年秋の長野県の学童集団結核の例もあるので、患者に対して直ちに休養するよう所属学校長に勧告する事になっている。<br><br>しかし現在都立教員結核療養所は増築中の五十床（一床二十万円）を合せても百三十床しかないので、二十六年度予算で湘南方面の旅館かホテルを買収して二百床を増設する計画を進めている。<br><br> また現行法では教員の休職は二年しか認められておらず、それ以上になると退職するか、さもなければ病気のまま教壇に立つかの二道しかあたえられていない。<br><br>ところが結核の完全療養には二年間では無理なので、教育庁では更に一年の休養期間を認めるよう教育委員会とはかり研究中である。<br><br> 右の事実をみて、驚き怖れないものはあるまい。<br><br>これでみると都立教員ほとんど全部と言っていいくらい結核容疑者である。<br><br>実にこれほど重大問題はあるまい。<br><br>としたら一体どうしたらいいのか、この人達は最も結核が感染し易い、小学児童に接するにおいてをやである。<br><br>何よりも昨年末、長野県の某村で小学児童を検診したところ、百人中八十一人の結核容疑者があったので、県下の大問題となったという新聞記事があった。<br><br>その後各地における同様の記事が、頻々（ひんぴん）新聞に出ているに見ても事態はもはや放って置けないところまで差迫っている。<br><br>従ってこのままで解決出来ないとしたら、まず次代の国民の大部分は、結核患者または結核容疑者たる事は間違いあるまい。<br><br>といってこの危険を完全に防止するには現在の結核教員全部を隔離しなければならないが、これは実際上到底出来ない相談である。<br><br>こうみて来ると、今や前へも後へも行けないというジレンマに陥っている現状である。<br><br> しかも右の記事にあるごとく、結核教員は六カ月ないし二カ年の療養を要すと云っているが、実はそれでも足りないというのである。<br><br>しかも現在あたう限りの設備をしても、たった二百床しか出来ないという始末では、患者の数からみて、全然問題にはならない。<br><br>しかしながら、右の日数で完全に治ればまだいいとしても、事実はそう易々と治らない事は、今日までの幾多の実例に徴（ちょう）するも極めて明らかである。<br><br>まず吾々の推定によれば百人中八、九十パーセントは、散々（さんざん）療養の結果、死亡する事はまず間違いはあるまい、としたらこれらに要する国家のマイナスは、すこぶる大きなものがあろう。<br><br> しかも、右はひとり小学校教員だけの問題ではない。<br><br>実は現在の日本人全体に渉（わた）って結核患者は益々増加しつつあるのは事実である、としたらどうしても判らない事がある。<br><br>これほど国民衛生が発達し、近来結核検診も段々行き渡り、早期発見の方法も大いに進歩したのであるから、それに準じて結核は漸減しなければならないはずである。<br><br>にもかかわらず現実はそれを裏切って嘲笑するかのごとく、益々増えつつある。<br><br>これほど理屈に合わない話はないではないか、ところがいまだ理屈に合わない事がある。<br><br>それはこの矛盾に対して、当局も専門家も何ら疑いを起さないばかりか、益々同一方法を猪突的に拡充している事である。<br><br> ここで、吾々はこの事実に対し、冷静に検討してみよう。<br><br>まず結果論から言ってみれば今まで当局が行って来た結核対策なるものは、あるいは反対方法ではないかという疑問である。<br><br>もしこの疑問が起らないとすれば、このまま結果も何も眼に入らない程に、現代医学を盲信しきっているためと言えよう。<br><br>従って、このままで推移するとすれば、数十年を待たずして日本人全体が結核患者となる時が来ないと誰か言い得よう。<br><br>実に由々しき大問題である。<br><br>恐らく第三次戦争よりも、むしろ大きいかも知れない。<br><br>最後に、吾々は警告したい事がある。<br><br>それは、現在の結核対策の全然誤っている事で、その証拠は右のごとく事実が示している。<br><br>ところが吾々の浄霊療法によれば、容易に短時日にしかも確実に撲滅し得る事で、この生きた実例は本教刊行の新聞、雑誌に掲載しきれない程多く集って来る。<br><br>ただしかし最も困難である事は、右のごとく実際を示し、結核を完全に治すといっても、仲々受入れられない現代人の頭脳である。<br><br>何よりも現代人の考え方の最も間違っている点は、事実よりも理屈の方を重視する傾向である。<br><br>これが妨害となっているので、この点に目覚め、白紙となって充分検討する事を切望してやまないものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Tuberculose como Ameaça à Nação</h2>
 <p>É do conhecimento geral que a tuberculose se alastra pelo Japão com uma força avassaladora. Contudo, o aspecto mais grave deste cenário é a completa impossibilidade de se conhecer os números reais, tanto do total de pacientes quanto da taxa de mortalidade. Afinal, segundo os dados divulgados pelas autoridades, há vinte anos, o número de doentes era estimado em um milhão e quinhentos mil, com uma taxa de mortalidade de 10%, resultando em cento e cinquenta mil óbitos. Há dez anos, os números eram os mesmos e, hoje, permanecem inalterados. Tal fato evidencia a absoluta falta de fidedignidade dessas estatísticas.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>O problema, todavia, não se restringe aos professores do ensino fundamental. É fato que o número de tuberculosos aumenta incessantemente em toda a população japonesa. Nesse sentido, há algo que se torna incompreensível. Com o avanço da saúde pública e a crescente disseminação dos exames de diagnóstico, que possibilitam a detecção precoce, seria lógico esperar que a incidência da tuberculose diminuísse gradualmente. No entanto, a realidade contraria essa lógica, como que a escarnecer de nossos esforços, mostrando um aumento contínuo da doença. Haveria algo mais incoerente? Sim, há. O mais desconcertante é que, diante dessa contradição, nem as autoridades nem os especialistas levantam qualquer questionamento. Pelo contrário, persistem em expandir os mesmos métodos, avançando cegamente na direção errada.</p>
 <p>Propomos, aqui, uma análise serena desses fatos. Partindo dos resultados, surge uma dúvida: seriam as medidas antituberculose adotadas pelas autoridades, na verdade, contraproducentes? Se tal questionamento não emerge, só pode ser devido a uma fé cega na medicina moderna, a ponto de ignorar completamente os resultados práticos. Se essa tendência persistir, quem poderá negar que chegará o dia, em poucas décadas, em que toda a população japonesa será acometida pela tuberculose? Trata-se de um problema de gravidade monumental, talvez ainda maior que uma Terceira Guerra Mundial.</p>
 <p>Para concluir, gostaríamos de fazer um alerta. As atuais políticas de combate à tuberculose estão completamente equivocadas, como os fatos demonstram de forma irrefutável. Em contrapartida, nossa terapia Johrei é capaz de erradicá-la de maneira fácil, rápida e segura. Os testemunhos vivos que comprovam essa eficácia chegam em número tão grande que mal cabem em nossos jornais e revistas. A maior dificuldade, contudo, reside na mentalidade do homem moderno, que se recusa a aceitar essa realidade, ainda que a apresentemos com provas concretas. O erro mais fundamental do pensamento contemporâneo é a tendência de valorizar mais a teoria do que os fatos. É este o obstáculo que nos impede de avançar. Por isso, rogamos fervorosamente que as pessoas despertem para essa verdade e se disponham a reexaminar a questão com a mente aberta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核亡国論 『栄光』91号、昭和26(1951)年2月14日発行 今日本において、結核は非常な勢いをもって蔓延しつつある事は衆知の通りである。<br/><br/>しかも始末の悪い事は、実際上患者の総数も、死亡率も本当の事は全然判らないのである。<br/><br/>何となれば当局が発表した数字によれば、二十年前も患者数百五十万、一割の死亡とみて十五万と言われたが、十年前も同じ数であり、今も同数である。<br/><br/>としたらいかに出鱈目（でたらめ）であるかが判るであろう。<br/><br/>しかし実はこれも無理はないかも知れない。<br/><br/>というのは結核は伝染病とされてる以上、出来るだけ世間に知られないようにする。<br/><br/>万が一死亡しても死亡診断書は、特別の事情のない限り、他の病気にして届けるのは、今日常識とさえなっているくらいだから、正確な数字は到底得られないのは当然である。<br/><br/>それについて、去る一月二十六日発行の日本婦人新聞に、左のごとき記事が出ていた。<br/><br/> 病おし、教壇に 捨ておけぬ「結核教員」 東京都教育庁では都内全部の高、中、小学校に現在勤務中の教職員について、結核検診を行い、昨年暮までに全員終了した。<br/><br/>これによると、結核に冒されて教壇に立っている者が、意外に多い事が判り、早急に対策を考える事になった。<br/><br/> すなわち都立教職員約三万一千名中、六カ月から二カ年程度長期欠席によって、休養を必要とする者が、二万六千七百名以上もあり、既に二年以上欠席し退職させられたものも百余名もあるという状態である。<br/><br/>これらのうちには特に悪質で生徒への感染危険の者もあるので、直ちに休養をさせねばならぬ者も、相当数あるものとみられている。<br/><br/> それで東京都では昨年秋の長野県の学童集団結核の例もあるので、患者に対して直ちに休養するよう所属学校長に勧告する事になっている。<br/><br/>しかし現在都立教員結核療養所は増築中の五十床（一床二十万円）を合せても百三十床しかないので、二十六年度予算で湘南方面の旅館かホテルを買収して二百床を増設する計画を進めている。<br/><br/> また現行法では教員の休職は二年しか認められておらず、それ以上になると退職するか、さもなければ病気のまま教壇に立つかの二道しかあたえられていない。<br/><br/>ところが結核の完全療養には二年間では無理なので、教育庁では更に一年の休養期間を認めるよう教育委員会とはかり研究中である。<br/><br/> 右の事実をみて、驚き怖れないものはあるまい。<br/><br/>これでみると都立教員ほとんど全部と言っていいくらい結核容疑者である。<br/><br/>実にこれほど重大問題はあるまい。<br/><br/>としたら一体どうしたらいいのか、この人達は最も結核が感染し易い、小学児童に接するにおいてをやである。<br/><br/>何よりも昨年末、長野県の某村で小学児童を検診したところ、百人中八十一人の結核容疑者があったので、県下の大問題となったという新聞記事があった。<br/><br/>その後各地における同様の記事が、頻々（ひんぴん）新聞に出ているに見ても事態はもはや放って置けないところまで差迫っている。<br/><br/>従ってこのままで解決出来ないとしたら、まず次代の国民の大部分は、結核患者または結核容疑者たる事は間違いあるまい。<br/><br/>といってこの危険を完全に防止するには現在の結核教員全部を隔離しなければならないが、これは実際上到底出来ない相談である。<br/><br/>こうみて来ると、今や前へも後へも行けないというジレンマに陥っている現状である。<br/><br/> しかも右の記事にあるごとく、結核教員は六カ月ないし二カ年の療養を要すと云っているが、実はそれでも足りないというのである。<br/><br/>しかも現在あたう限りの設備をしても、たった二百床しか出来ないという始末では、患者の数からみて、全然問題にはならない。<br/><br/>しかしながら、右の日数で完全に治ればまだいいとしても、事実はそう易々と治らない事は、今日までの幾多の実例に徴（ちょう）するも極めて明らかである。<br/><br/>まず吾々の推定によれば百人中八、九十パーセントは、散々（さんざん）療養の結果、死亡する事はまず間違いはあるまい、としたらこれらに要する国家のマイナスは、すこぶる大きなものがあろう。<br/><br/> しかも、右はひとり小学校教員だけの問題ではない。<br/><br/>実は現在の日本人全体に渉（わた）って結核患者は益々増加しつつあるのは事実である、としたらどうしても判らない事がある。<br/><br/>これほど国民衛生が発達し、近来結核検診も段々行き渡り、早期発見の方法も大いに進歩したのであるから、それに準じて結核は漸減しなければならないはずである。<br/><br/>にもかかわらず現実はそれを裏切って嘲笑するかのごとく、益々増えつつある。<br/><br/>これほど理屈に合わない話はないではないか、ところがいまだ理屈に合わない事がある。<br/><br/>それはこの矛盾に対して、当局も専門家も何ら疑いを起さないばかりか、益々同一方法を猪突的に拡充している事である。<br/><br/> ここで、吾々はこの事実に対し、冷静に検討してみよう。<br/><br/>まず結果論から言ってみれば今まで当局が行って来た結核対策なるものは、あるいは反対方法ではないかという疑問である。<br/><br/>もしこの疑問が起らないとすれば、このまま結果も何も眼に入らない程に、現代医学を盲信しきっているためと言えよう。<br/><br/>従って、このままで推移するとすれば、数十年を待たずして日本人全体が結核患者となる時が来ないと誰か言い得よう。<br/><br/>実に由々しき大問題である。<br/><br/>恐らく第三次戦争よりも、むしろ大きいかも知れない。<br/><br/>最後に、吾々は警告したい事がある。<br/><br/>それは、現在の結核対策の全然誤っている事で、その証拠は右のごとく事実が示している。<br/><br/>ところが吾々の浄霊療法によれば、容易に短時日にしかも確実に撲滅し得る事で、この生きた実例は本教刊行の新聞、雑誌に掲載しきれない程多く集って来る。<br/><br/>ただしかし最も困難である事は、右のごとく実際を示し、結核を完全に治すといっても、仲々受入れられない現代人の頭脳である。<br/><br/>何よりも現代人の考え方の最も間違っている点は、事実よりも理屈の方を重視する傾向である。<br/><br/>これが妨害となっているので、この点に目覚め、白紙となって充分検討する事を切望してやまないものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

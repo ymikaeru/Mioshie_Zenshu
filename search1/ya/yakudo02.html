@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakudo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒 『明日の医術 第一編』昭和18(1943)年10月5日発行 今日まで、西洋医学においては二千五百年以前ヒポクラテス創始の医道以来、又支那の医祖伏羲（ふくぎ）が、五千年前創始せられた医道は固よりその他幾千万の病気療養の方法はことごとく浄化作用停止又は一時的苦痛軽減の方法以外には出でなかった事は再三述べた通りである。<br><br>そうして最も効果ありとしたものが、薬剤療法であった。<br><br> そうして薬毒なるものは、ただに浄化作用停止だけではなく、その人間の健康に及ぼす悪影響は実に想像されない程の恐るべきものがある。<br><br>私の長い経験によれば、あらゆる痛苦はことごとく薬毒の結果であって、痛みも発熱も不快感も疲労も神経衰弱も原因はそれであり、全身的新陳代謝の衰耗も機能の弛緩も、ことごとく薬毒の結果である。<br><br>従って、人間の健康の良否も病気の軽重も〃薬毒の多寡に因る〃というも過言ではないのである。<br><br> 今日まで、人間が一度病気に罹るや、浄化作用を薬毒によって停止するが、それ以外、薬毒なる新しい毒素を追増するのである。<br><br>その例として、何よりも周知の事実は、医師が医療を行いつつ、余病が発生するという事である。<br><br>最初の病気を治癒する目的であるに拘わらず、第二第三の病気が発生するという事ははなはだ不合理ではあるまいか。<br><br>即ちその療法が適正であるならば、最初の病気が軽減しつつ余病など発生すべき訳はないはずである。<br><br>即ち拾の病気と仮定して、時日を経るに従い、九となり八となり七となるように、漸次軽減しなければならないはずである。<br><br>しかるに何ぞや治療を施しつつあるに関わらず、十一となり、十二となり、十三となる――というように増加するとはまことに不可解極まる話である。<br><br>これに対し、患者も医家も、何らの疑念を起さないのであるが、これは全く、医学が一種の迷信化するまでに到ったためであると思うのである。<br><br> 故に、私はこう想像するのである。<br><br>日本人が薬剤使用を全く中止し拾年経たなら恐らく病人は半減するであろう。<br><br>従って日本人の寿齢は延長し、数十年を経るにおいて平均寿齢八拾歳位は易々たるものであろう。<br><br>何となれば短命とは病気に因る死であるからである。<br><br>いわゆる不自然死である。<br><br>病気が減少すれば自然死が増加する。<br><br>自然死といえば、少くとも九拾歳以上でなければならないはずである。<br><br>又人間が死に際会して苦痛が伴うという事は、天寿ではないからであって、天寿を全うして死ぬという場合は、たとえば樹木が樹齢尽きて自然にたおれるがごとく、いささかの苦痛もないのが当然である。<br><br>そうして死の苦痛の原因は何か、言うまでもなく、薬剤その他の方法によって浄化作用の停止を行うからである。<br><br>即ち自然である浄化作用を、不自然なる抑止をする――その摩擦が苦痛となるのであって、しかも、衰弱し切った肉体であるにおいて、苦痛は倍加するという訳である。<br><br> 古（いにしえ）から〃人は病の器〃という言葉があるが、これは大いに謬（あやま）っている。<br><br>実は〃人は健康の器〃であり、健康が原則であらねばならないのである。<br><br>神は人間をして、神の理想をこの地上に顕現せんが為に生ませられたものである――と私は信ずるのである。<br><br>従って、その使命を遂行するにおいて不健康であってはならない。<br><br>故に不健康という事は、人間が何らかの過誤即ち神の摂埋に反しているからで、その過誤の最大なるものが〃薬剤使用〃である。<br><br> 次に、今一度私の事を言わして貰おう。<br><br>元来私自身は、生れながらにして頗（すこぶ）る虚弱者であったから、四拾歳位までは、人並以上の薬剤崇拝者で、ほとんど薬びたりという程で、それまでは、健康時より罹病時の方が多かったのである。<br><br>しかるにたまたまある動機によって薬毒の恐るべき事を知り、断然廃めたのであった。<br><br>それから年一年健康に向い、二拾数年後の今日では、実に壮者を凌ぐほどの健康体である。<br><br>又私の家族十数人も、今日稀（まれ）にみる健康体の者ばかりである。<br><br>その他私の説を信じ、それを実行している人達は例外なく、年々健康になりつつあり、健康家族が造られつつあるに察（み）ても、疑う余地はないのである。<br><br> 私はここで、今一つ重大な事を述べなくてはならない。<br><br>それは薬毒保有者は、左のごとき悪影響を受ける事であって、それが多量ほどはなはだしいのであるが、世人は全然気が付かない事である。<br><br> 一、常に不快感のある事。<br><br> 二、頭脳の活動が鈍くなる事。<br><br> 三、身体の動作が弛緩する事。<br><br> 右の三項目について詳説してみよう。<br><br> 一、の不快感は、薬毒集溜個所に微熱があるから、局部的又は全身的に悪寒があるので、常に普通以上寒がるのである。<br><br>又、何事を為すにも億劫（おっくう）がり、寝る事を好み物に倦（あ）き易く長く一つ事に携わる事が出来ないのである。<br><br>そうして物事の解釈はすべて悲観的となり、常識を欠き、陰欝を好み、従って、晴天の日より雨天の日を好むのである。<br><br>又腹立ち易く、はなはだしいのは自暴自棄的になったり、又常にクヨクヨとして、いささかの事も気にかかり、ヒステリー的ともなり、自分で間違っている事を知りながら、どうする事も出来ないという状態で、又それを煩悶するという事になり、最もはなはだしいのは厭世的となり、廃人同様となる人さえある。<br><br> 一家にこういう人が出来ると、他の者まで影響を受けて、家庭は暗く、争いの絶間がないので、人生の幸福を得る事は到底期し難いのである。<br><br> 二、現代人は非常に頭脳が鈍くなっている。<br><br>従って、記憶の悪い事も夥（おびただ）しい。<br><br>故に、今日重要なる地位にある人の講演が、ほとんど原稿なしではやれないというようになっているが以前は原稿を持つ事は恥のようにされたという事を聞いている。<br><br> 幕末期、彼の杉田玄白や高野長英等の人々が蘭学を翻訳するに当って、参考書も碌々（ろくろく）ないのにともかくやり遂げたという事は、余程頭脳が良かったに相違ないと思う。<br><br>現代人にはそういう人はほとんどないであろう。<br><br>又弁慶が安宅（あたか）の関において、白紙に向って勧進帳を詠んだごとき、稗田阿礼（ひえだのあれ）があれ程浩瀚（こうかん）な古事記全巻を記憶していたごとき実に日本人の頭脳の優れている事は、世界無比であろう。<br><br> 又、現代人は簡単明瞭な所説では、充分頭へ入らないようである。<br><br>くどくどしく、微に入り細に渉り、又種々の例証を挙げて説かなければ、会得が出来ないようである。<br><br>本来、頭脳の良い人は、一言でその意を悟り得るのである。<br><br>昔の諺に〃一を聞いて十を知る〃という事があるが、現代人は〃十を聞いて一を知る〃のが関の山であろう。<br><br>又、実際よりも理論を重んずる傾向があり、その為に、医学なども理論に偏し、実際を無視したがるのである。<br><br> 又、政府が新しい施設や政策を行う場合、国民に対してラジオや新聞やポスター等、これでもかこれでもかと宣伝に努力しても、国民が速かに理解し実行しないという事実は全く今日の国民全般の頭脳が鈍くなっているからであると惟（おも）うのである。<br><br> 三、現代人の動作の遅鈍なる事は、またはなはだしいのである。<br><br>これは、国民の大部分がそうであるから気が付かないのである。<br><br>特に、都会人の歩行の遅い事は驚く程である。<br><br>これは身体が鈍重である為である。<br><br> 昔の武士や武芸者等が、咄嗟（とっさ）の場合、飛鳥のごとく身をカワしたり、又飛脚屋が一日二十里を平気で日帰りしたりしたというような芸当は、現代人には到底出来得ないであろう。<br><br> 元来、日本人は、外国人に比べて非常に身が軽く、動作が敏捷（びんしょう）であるのである。<br><br>日本人の飛行家が特に優秀であるのは、何よりの証拠であろう。<br><br> 従って、人間の不幸も争いも、その根本は、薬毒にあるといっても過言ではないのである。<br><br>故に、薬毒のない人間の社会が出現するとしたらいかに明朗であるかを私は想像するのである。<br><br>全く薬毒が無くなった人間は、頭脳明晰で、爽快感に充ち、生々溌剌としているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Veneno dos Remédios: A Causa Primordial do Sofrimento</h2>
 <p>Conforme tenho reiterado, todos os métodos terapêuticos concebidos até hoje — quer na medicina ocidental, consagrada há dois mil e quinhentos anos pelo juramento de Hipócrates, quer na medicina chinesa, iniciada pelo ancestral Fuxi há cinco milênios — não passaram, em sua totalidade, de artifícios para interromper o processo de purificação ou para mitigar temporariamente o sofrimento. Nesse contexto, a terapia medicamentosa foi considerada a mais eficaz.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>O terceiro ponto é a morosidade dos movimentos do homem moderno, que também atingiu um nível alarmante. Como a maioria da população se encontra nesse estado, o problema passa despercebido. Em particular, a lentidão com que os habitantes das cidades caminham é surpreendente, consequência de um corpo pesado e entorpecido. As proezas dos antigos samurais e mestres de artes marciais, que em um instante se esquivavam como pássaros em voo, ou dos mensageiros a pé, que percorriam oitenta quilômetros em um único dia, seriam simplesmente impossíveis para o homem de hoje.</p>
 <p>Originalmente, o povo japonês, em comparação com os estrangeiros, possui um corpo muito mais leve e movimentos mais ágeis. A excelência dos aviadores japoneses é a prova mais eloquente disso.</p>
 <p>Portanto, não é um excesso dizer que a raiz da infelicidade e dos conflitos humanos reside no veneno dos remédios. Imagino quão radiante seria uma sociedade composta por seres humanos livres desse mal. Uma pessoa completamente livre do yakudoku (薬毒) possui uma mente clara, um sentimento de júbilo e uma vitalidade transbordante.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒 『明日の医術 第一編』昭和18(1943)年10月5日発行 今日まで、西洋医学においては二千五百年以前ヒポクラテス創始の医道以来、又支那の医祖伏羲（ふくぎ）が、五千年前創始せられた医道は固よりその他幾千万の病気療養の方法はことごとく浄化作用停止又は一時的苦痛軽減の方法以外には出でなかった事は再三述べた通りである。<br/><br/>そうして最も効果ありとしたものが、薬剤療法であった。<br/><br/> そうして薬毒なるものは、ただに浄化作用停止だけではなく、その人間の健康に及ぼす悪影響は実に想像されない程の恐るべきものがある。<br/><br/>私の長い経験によれば、あらゆる痛苦はことごとく薬毒の結果であって、痛みも発熱も不快感も疲労も神経衰弱も原因はそれであり、全身的新陳代謝の衰耗も機能の弛緩も、ことごとく薬毒の結果である。<br/><br/>従って、人間の健康の良否も病気の軽重も〃薬毒の多寡に因る〃というも過言ではないのである。<br/><br/> 今日まで、人間が一度病気に罹るや、浄化作用を薬毒によって停止するが、それ以外、薬毒なる新しい毒素を追増するのである。<br/><br/>その例として、何よりも周知の事実は、医師が医療を行いつつ、余病が発生するという事である。<br/><br/>最初の病気を治癒する目的であるに拘わらず、第二第三の病気が発生するという事ははなはだ不合理ではあるまいか。<br/><br/>即ちその療法が適正であるならば、最初の病気が軽減しつつ余病など発生すべき訳はないはずである。<br/><br/>即ち拾の病気と仮定して、時日を経るに従い、九となり八となり七となるように、漸次軽減しなければならないはずである。<br/><br/>しかるに何ぞや治療を施しつつあるに関わらず、十一となり、十二となり、十三となる――というように増加するとはまことに不可解極まる話である。<br/><br/>これに対し、患者も医家も、何らの疑念を起さないのであるが、これは全く、医学が一種の迷信化するまでに到ったためであると思うのである。<br/><br/> 故に、私はこう想像するのである。<br/><br/>日本人が薬剤使用を全く中止し拾年経たなら恐らく病人は半減するであろう。<br/><br/>従って日本人の寿齢は延長し、数十年を経るにおいて平均寿齢八拾歳位は易々たるものであろう。<br/><br/>何となれば短命とは病気に因る死であるからである。<br/><br/>いわゆる不自然死である。<br/><br/>病気が減少すれば自然死が増加する。<br/><br/>自然死といえば、少くとも九拾歳以上でなければならないはずである。<br/><br/>又人間が死に際会して苦痛が伴うという事は、天寿ではないからであって、天寿を全うして死ぬという場合は、たとえば樹木が樹齢尽きて自然にたおれるがごとく、いささかの苦痛もないのが当然である。<br/><br/>そうして死の苦痛の原因は何か、言うまでもなく、薬剤その他の方法によって浄化作用の停止を行うからである。<br/><br/>即ち自然である浄化作用を、不自然なる抑止をする――その摩擦が苦痛となるのであって、しかも、衰弱し切った肉体であるにおいて、苦痛は倍加するという訳である。<br/><br/> 古（いにしえ）から〃人は病の器〃という言葉があるが、これは大いに謬（あやま）っている。<br/><br/>実は〃人は健康の器〃であり、健康が原則であらねばならないのである。<br/><br/>神は人間をして、神の理想をこの地上に顕現せんが為に生ませられたものである――と私は信ずるのである。<br/><br/>従って、その使命を遂行するにおいて不健康であってはならない。<br/><br/>故に不健康という事は、人間が何らかの過誤即ち神の摂埋に反しているからで、その過誤の最大なるものが〃薬剤使用〃である。<br/><br/> 次に、今一度私の事を言わして貰おう。<br/><br/>元来私自身は、生れながらにして頗（すこぶ）る虚弱者であったから、四拾歳位までは、人並以上の薬剤崇拝者で、ほとんど薬びたりという程で、それまでは、健康時より罹病時の方が多かったのである。<br/><br/>しかるにたまたまある動機によって薬毒の恐るべき事を知り、断然廃めたのであった。<br/><br/>それから年一年健康に向い、二拾数年後の今日では、実に壮者を凌ぐほどの健康体である。<br/><br/>又私の家族十数人も、今日稀（まれ）にみる健康体の者ばかりである。<br/><br/>その他私の説を信じ、それを実行している人達は例外なく、年々健康になりつつあり、健康家族が造られつつあるに察（み）ても、疑う余地はないのである。<br/><br/> 私はここで、今一つ重大な事を述べなくてはならない。<br/><br/>それは薬毒保有者は、左のごとき悪影響を受ける事であって、それが多量ほどはなはだしいのであるが、世人は全然気が付かない事である。<br/><br/> 一、常に不快感のある事。<br/><br/> 二、頭脳の活動が鈍くなる事。<br/><br/> 三、身体の動作が弛緩する事。<br/><br/> 右の三項目について詳説してみよう。<br/><br/> 一、の不快感は、薬毒集溜個所に微熱があるから、局部的又は全身的に悪寒があるので、常に普通以上寒がるのである。<br/><br/>又、何事を為すにも億劫（おっくう）がり、寝る事を好み物に倦（あ）き易く長く一つ事に携わる事が出来ないのである。<br/><br/>そうして物事の解釈はすべて悲観的となり、常識を欠き、陰欝を好み、従って、晴天の日より雨天の日を好むのである。<br/><br/>又腹立ち易く、はなはだしいのは自暴自棄的になったり、又常にクヨクヨとして、いささかの事も気にかかり、ヒステリー的ともなり、自分で間違っている事を知りながら、どうする事も出来ないという状態で、又それを煩悶するという事になり、最もはなはだしいのは厭世的となり、廃人同様となる人さえある。<br/><br/> 一家にこういう人が出来ると、他の者まで影響を受けて、家庭は暗く、争いの絶間がないので、人生の幸福を得る事は到底期し難いのである。<br/><br/> 二、現代人は非常に頭脳が鈍くなっている。<br/><br/>従って、記憶の悪い事も夥（おびただ）しい。<br/><br/>故に、今日重要なる地位にある人の講演が、ほとんど原稿なしではやれないというようになっているが以前は原稿を持つ事は恥のようにされたという事を聞いている。<br/><br/> 幕末期、彼の杉田玄白や高野長英等の人々が蘭学を翻訳するに当って、参考書も碌々（ろくろく）ないのにともかくやり遂げたという事は、余程頭脳が良かったに相違ないと思う。<br/><br/>現代人にはそういう人はほとんどないであろう。<br/><br/>又弁慶が安宅（あたか）の関において、白紙に向って勧進帳を詠んだごとき、稗田阿礼（ひえだのあれ）があれ程浩瀚（こうかん）な古事記全巻を記憶していたごとき実に日本人の頭脳の優れている事は、世界無比であろう。<br/><br/> 又、現代人は簡単明瞭な所説では、充分頭へ入らないようである。<br/><br/>くどくどしく、微に入り細に渉り、又種々の例証を挙げて説かなければ、会得が出来ないようである。<br/><br/>本来、頭脳の良い人は、一言でその意を悟り得るのである。<br/><br/>昔の諺に〃一を聞いて十を知る〃という事があるが、現代人は〃十を聞いて一を知る〃のが関の山であろう。<br/><br/>又、実際よりも理論を重んずる傾向があり、その為に、医学なども理論に偏し、実際を無視したがるのである。<br/><br/> 又、政府が新しい施設や政策を行う場合、国民に対してラジオや新聞やポスター等、これでもかこれでもかと宣伝に努力しても、国民が速かに理解し実行しないという事実は全く今日の国民全般の頭脳が鈍くなっているからであると惟（おも）うのである。<br/><br/> 三、現代人の動作の遅鈍なる事は、またはなはだしいのである。<br/><br/>これは、国民の大部分がそうであるから気が付かないのである。<br/><br/>特に、都会人の歩行の遅い事は驚く程である。<br/><br/>これは身体が鈍重である為である。<br/><br/> 昔の武士や武芸者等が、咄嗟（とっさ）の場合、飛鳥のごとく身をカワしたり、又飛脚屋が一日二十里を平気で日帰りしたりしたというような芸当は、現代人には到底出来得ないであろう。<br/><br/> 元来、日本人は、外国人に比べて非常に身が軽く、動作が敏捷（びんしょう）であるのである。<br/><br/>日本人の飛行家が特に優秀であるのは、何よりの証拠であろう。<br/><br/> 従って、人間の不幸も争いも、その根本は、薬毒にあるといっても過言ではないのである。<br/><br/>故に、薬毒のない人間の社会が出現するとしたらいかに明朗であるかを私は想像するのである。<br/><br/>全く薬毒が無くなった人間は、頭脳明晰で、爽快感に充ち、生々溌剌としているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

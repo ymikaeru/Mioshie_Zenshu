@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jasin2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 邪神というもの 未発表、昭和26(1951)年10月1日執筆 世の中の一般の人は神といえばただ有難いもの、人間以上の尊いものと思い込んで一途（いちず）に礼拝し崇めているが、こういう人達に知らせたい事は、単に神といっても彼の本居宣長のいわれた通り狐、狸、天狗、龍神等もあり、むしろ邪神の方が多いくらいであり、その証拠には世の中には善人よりも悪人の方がずっと多いのが何よりの証拠であり、つまり神界と人間界と並行しているのが世の中の実相であるからである。<br><br>ところで邪神なるものは目に見えない霊ではあるが、仲々油断のならないものである。<br><br>というのは邪神はあらゆる人に憑依して悪い考えを起させ、悪い智慧を与え悪い事をさせようとする。<br><br>しかし悪いといっても詐欺や泥棒、喧嘩や暴力、放火、人殺し等は、誰が見ても悪であるから反って始末がいいくらいだが、それらと異（ちが）って善の仮面を被って悪を行わせる、こいつが最も恐ろしいのである。<br><br>例えば自分はいい政治家になって、国家社会のために大いに尽したいと思うが、それには大臣級にならなければ駄目だとして、何よりも金を得ようとする。<br><br>だから少々不正でも見つからないようにやればいいと思って実行すると、案外にも暴露して飛んでもない結果になり、信用はガタ落ち、当分は世の中に出られないという事になる。<br><br>そういう人も今日目の前に沢山いるから諸君はわかっていよう。<br><br> そうかと思うと科学さえ発達させれば、人類の福祉は増進すると思い、それには神を否定する事が肝腎と思い、宗教は迷信として排斥する。<br><br>また芸術は文化を向上させ、人間の趣味を豊かにさせるコンマ以上のものとして得々としているが、それには違いないが、近来流行しているような妙な文字〔学？〕や絵画はその逆効果が厄介だ。<br><br>また共産主義などもそうであって、共産社会を作れば大衆が幸福となり理想世界が出来ると思って、中には涙ぐましい程に活動をしている者もいる。<br><br> また最も恐るべきは、無神論者のジャーナリストである。<br><br>彼らは共産主義者と同様宗教を阿片（アヘン）とみているようだ。<br><br>取り分け新宗教とさえいえば、何ら研究もせずしてインチキ迷信と断じ、軽蔑的に扱い社会から排斥されるようにかき立てる。<br><br>これが社会人心を健全にする事と思っているのだから困ったものだ。<br><br>これらも逆効果以外の何物でもないのである。<br><br> 以上のごとく私は数例を挙げてみたが、その根本はさきに述べたごとく邪神が憑依し、善と思わせて悪を行わせるものであるから、この点に充分注意して瞞（だま）されないようにされたい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ameaça dos Espíritos Malignos</h2>
 <p>No geral, as pessoas creem que a palavra “Deus” se refere unicamente a algo sagrado, a um ser sublime e superior ao homem, e por isso o reverenciam e cultuam indiscriminadamente. Contudo, é preciso alertá-las de que, conforme assinalou Motoori Norinaga, a designação “divindade” abrange espíritos de diversas naturezas, como os de raposas, cães-guaxinins, <em>tengu</em> e dragões. Na verdade, os Espíritos Malignos são muito mais numerosos, e a prova irrefutável disso reside no fato de que, no mundo, os maus superam em muito o número dos bons. Isso ocorre porque a realidade do mundo é um reflexo do paralelismo entre o Mundo Espiritual e o mundo humano.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Temos também o caso daqueles que, convictos de que o progresso da ciência por si só garantirá o bem-estar da humanidade, consideram essencial negar a existência de Deus e rechaçam a religião como mera superstição. Da mesma forma, há artistas que se orgulham de sua arte, considerando-a um instrumento sublime para a elevação da cultura e o enriquecimento do espírito humano. Embora haja verdade nisso, certas tendências recentes, como as estranhas manifestações literárias e pictóricas em voga, produzem um incômodo efeito reverso. O mesmo se aplica ao comunismo. Seus adeptos creem que a construção de uma sociedade comunista trará felicidade às massas e dará origem a um mundo ideal. Entre eles, há indivíduos que se dedicam a essa causa com um fervor comovente.</p>
 <p>Ademais, os mais temíveis são os jornalistas ateus. Aparentemente, tal como os comunistas, eles enxergam a religião como o ópio do povo. Basta que se mencione o termo “nova religião” para que, sem qualquer investigação, a rotulem de superstição fraudulenta, tratando-a com desprezo e incitando a sociedade a bani-la de seu meio. O mais grave é que acreditam estar, com isso, contribuindo para a sanidade da mente e do coração da sociedade. Ora, tais atitudes não produzem senão o efeito contrário ao que se propõe.</p>
 <p>Apresentei, assim, alguns exemplos para ilustrar que a causa fundamental, conforme mencionei anteriormente, reside na atuação de Espíritos Malignos que, ao possuírem os seres humanos, os levam a praticar o mal sob a ilusão de estarem praticando o bem. Portanto, rogo-lhes que tenham máxima atenção a este ponto para não se deixarem iludir.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 邪神というもの 未発表、昭和26(1951)年10月1日執筆 世の中の一般の人は神といえばただ有難いもの、人間以上の尊いものと思い込んで一途（いちず）に礼拝し崇めているが、こういう人達に知らせたい事は、単に神といっても彼の本居宣長のいわれた通り狐、狸、天狗、龍神等もあり、むしろ邪神の方が多いくらいであり、その証拠には世の中には善人よりも悪人の方がずっと多いのが何よりの証拠であり、つまり神界と人間界と並行しているのが世の中の実相であるからである。<br/><br/>ところで邪神なるものは目に見えない霊ではあるが、仲々油断のならないものである。<br/><br/>というのは邪神はあらゆる人に憑依して悪い考えを起させ、悪い智慧を与え悪い事をさせようとする。<br/><br/>しかし悪いといっても詐欺や泥棒、喧嘩や暴力、放火、人殺し等は、誰が見ても悪であるから反って始末がいいくらいだが、それらと異（ちが）って善の仮面を被って悪を行わせる、こいつが最も恐ろしいのである。<br/><br/>例えば自分はいい政治家になって、国家社会のために大いに尽したいと思うが、それには大臣級にならなければ駄目だとして、何よりも金を得ようとする。<br/><br/>だから少々不正でも見つからないようにやればいいと思って実行すると、案外にも暴露して飛んでもない結果になり、信用はガタ落ち、当分は世の中に出られないという事になる。<br/><br/>そういう人も今日目の前に沢山いるから諸君はわかっていよう。<br/><br/> そうかと思うと科学さえ発達させれば、人類の福祉は増進すると思い、それには神を否定する事が肝腎と思い、宗教は迷信として排斥する。<br/><br/>また芸術は文化を向上させ、人間の趣味を豊かにさせるコンマ以上のものとして得々としているが、それには違いないが、近来流行しているような妙な文字〔学？〕や絵画はその逆効果が厄介だ。<br/><br/>また共産主義などもそうであって、共産社会を作れば大衆が幸福となり理想世界が出来ると思って、中には涙ぐましい程に活動をしている者もいる。<br/><br/> また最も恐るべきは、無神論者のジャーナリストである。<br/><br/>彼らは共産主義者と同様宗教を阿片（アヘン）とみているようだ。<br/><br/>取り分け新宗教とさえいえば、何ら研究もせずしてインチキ迷信と断じ、軽蔑的に扱い社会から排斥されるようにかき立てる。<br/><br/>これが社会人心を健全にする事と思っているのだから困ったものだ。<br/><br/>これらも逆効果以外の何物でもないのである。<br/><br/> 以上のごとく私は数例を挙げてみたが、その根本はさきに述べたごとく邪神が憑依し、善と思わせて悪を行わせるものであるから、この点に充分注意して瞞（だま）されないようにされたい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

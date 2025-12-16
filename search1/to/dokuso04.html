@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>dokuso04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒素療法 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 病気は、自然浄化作用であるという事は述べた通りである。<br><br>故に、人間は、病気という、浄化作用があるから、健康を保っていると言ってもよいのである。<br><br>であるから真の病気治療とは、病気を外部へ排泄する事であって、内へ押込む事ではない。<br><br>例えば、腫物が出来ようとする場合、それを散らそうとするが、それが、大変な誤りである。<br><br>肉体自身の自然浄化作用が、折角、内部の汚物（膿）を排除しようとして、皮膚面にまで、押し出して来たのを、再び元へ、押込めようとするのであるから、もし、その目的通りに内部へ還元したなら、その汚物は、内臓へ絡んで、内臓の病気を起す事になる。<br><br>故に、飽くまでも、外部へ膿を排泄し、残余の無いように、しなければならないのである。<br><br> 膿の排泄であるところの、浄化作用が起るという事は、それは、その人がより健康で、生活力が、旺盛であるからである。<br><br>それが不純物である膿を、排除しようとする。<br><br>その現象としての病気発生であって、それに伴う苦痛である。<br><br>故に、苦痛があればあるだけ、肉体は浄化されつつある訳である。<br><br>随って、その場合として余病などは、決して、起るべきはずが無いのである。<br><br>しかるに、実際は、医療中、よく余病が起るのであって、はなはだしいのは、幾つもの余病が起るという事は、排泄さるるべき汚物を、押込めるからである。<br><br>例えば、ある一部に病気が起るとするとそれを散らそうと、氷冷法などを行う、それが為、そこへの膿の集溜運動は、停止されるから、膿の残部は、他の方面へ、方向転換をする。<br><br>それが他の部分へ余病となって表れるのである。<br><br>その一例として中耳炎を氷冷するとする。<br><br>熱に因って溶解された膿が、中耳に向って進行し、そこから外部へ出ようとする、それを氷冷によって、停止をさすから、膿はたちまち、方向転換をし、小脳へ向って、進行する。<br><br>その結果が、脳膜炎である。<br><br>手当をしなければ、中耳炎で済むべきものを、手当をして反て、脳膜炎という余病を併発さすのである。<br><br>医学の誤謬は、実に、及ぶべからざるものがある。<br><br> 故に、今日までのあらゆる療法は、病気を治癒しようとする場合、薬剤やその他の方法に依って実は、血液を汚濁させようとするのである。<br><br>それは、血液は汚濁すればする程、浄化作用の力が、弱まるからである。<br><br>浄化作用が、弱まっただけは、病気現象が衰退するのは、理の当然である。<br><br>即ち、病気が一時引込むのである。<br><br>それがちょうど、病気が治癒されるように、見えるのである。<br><br>動物の血や、牛乳を飲むとか、蝮、蛇等を呑むとか、注射で、薬液を血液に注入する等は、いずれもみな、血液を汚濁させるのである。<br><br>それによって、病気を引込ませるのであり、それを、軽快又は、治癒と誤認するのである。<br><br>故に、一旦、治癒の形を呈するも、時日を経過するにおいて、再び、自然浄化による、病気発生となるが、今度は、本来の病気以外、血液汚濁療法の、その膿化の排泄も加わるから捲土重来（けんどちょうらい）的に病勢は強まるのは、当然である。<br><br> かくのごとく、今日までの療法は、根本的治癒ではなく、一時的逆療法であって、その根本に気が付かなかった事は、蒙昧（もうまい）であったとも言える。<br><br>人類を短命ならしめた真因は、ここにあるのである。<br><br>今日のほとんどと言いたい程膿と毒血によって弱体化しつつある現状は、これに外はないのである。<br><br>しかも、それに気の付かない、近代の日本人が、益々、薬剤や動物性食餌を求めようとするのは、全く戦慄そのものである。<br><br>これを他の事でたとえてみよう、ある一国に、敵が侵入したとする。<br><br>その侵入した敵を、味方の軍勢が段々、国境付近にまで、追詰めて、今一息という時、別の敵が、他の方面から侵入して来るのである。<br><br>その新しい敵の、後背からの脅威によって、国境にまで敵を追詰めていた味方の軍勢は、後退するの止むを得ない事になる。<br><br>そこで、国境に追詰められていた敵は、俄然として踵（きびす）を返し、再び内部へ侵入して来る。<br><br>それと同じ訳である。<br><br> これを以て、真の治療としては、味方に声援を与えて、一挙に敵を国境外へ、放逐してしまう事でなければならない。<br><br> この道理を考える時、今日までの治療方法は、いかに誤っているかという事が、判るであろう、故に、世間よく効く薬というのは、最もよく血液を溷濁（こんだく）させる力のある訳である。<br><br>彼のサルバルサンが、一時的にも卓越せる効果があるという事は、元来が、恐るべき毒薬である砒素（ひそ）を原料として、作られるからである。<br><br>今、自然排除によって、黴毒が発疹等の現象を呈するや、サルバルサンを注射する時は、前述の理によって、その現象は速かに、引込むのである。<br><br>サルバルサンの効果が一時的であるというのは、この様な訳である。<br><br>昔有名なる漢方医先生の著にはその事が書いてある。<br><br>元来病に効くのは、薬ではなくて、毒である。<br><br>毒であるから効くのである。<br><br>それは、毒を以て毒を制するという訳であると、いうのであるが、実にその通りであって、私の言う、毒素療法の意味である。<br><br> かように、今日までの間違った治療が、段々人間の血液を汚濁させ不健康ならしめ、ついには、生命をまで短縮したのである。<br><br>病気が起れば、毒素療法をし、又、病気が起れば、毒素療法をしては、ともかくも一時的安易を得て来たのである。<br><br>言い換えれば、汚物を排除しようとすれば、それを引込める。<br><br>又、排除されようとすれば引込めるという手段を、執って来たものであるから時の経過によって免る事の出来ない最後の自然大浄化によって、たおれるのは当然である。<br><br>その時は、加重されての多量の猛毒であるから、肉体が浄化作用に堪えられないからである。<br><br>吾々が、今日の人間が、膿塊毒血であるというのも、この理を知れば、能（よ）く肯（うなず）けるであろう、世間一旦、病に罹るや、治療後相当長い間虚弱であるのは、毒素療法の為である。<br><br>彼の窒扶斯（チフス）のごとき、薬剤を用いずして治癒されたものは、予後、頗（すこぶ）る健康になるのも、この毒素療法に依らないからである。<br><br> 今日の人間体内に、堆積しつつある膿毒に対（むか）って、新日本医術による、不思議な光波を放射する時、完全に浄化作用が行われるのである。<br><br>そうして現在、この光波以外に血液を浄化すべき方法は、全世界に無い事を断言して慣らないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio da Purificação e o Equívoco da Terapêutica Moderna</h2>
 <p>Conforme já elucidei, a doença é um processo de purificação natural. Poder-se-ia, portanto, afirmar que o ser humano mantém a saúde precisamente por possuir essa capacidade purificadora chamada doença. Nesse sentido, a verdadeira terapêutica consiste em expelir a enfermidade para o exterior, e não em reprimi-la no interior do corpo.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Dessa forma, os tratamentos equivocados praticados até hoje foram, gradualmente, contaminando o sangue dos seres humanos, minando sua saúde e, por fim, abreviando suas vidas. A cada vez que uma doença surgia, aplicava-se a terapêutica por intoxicação; quando a doença ressurgia, recorria-se novamente a ela, obtendo-se sempre um alívio passageiro. Em outras palavras, toda vez que o organismo tentava expelir as impurezas, essa tentativa era reprimida. Esse ciclo de supressão se repete até que, com o passar do tempo, sobrevém a inevitável e derradeira grande purificação natural, levando o indivíduo ao colapso. Nessa altura, a carga de venenos potencializados é tão avassaladora que o corpo físico não consegue suportar o processo.</p>
 <p>Ao compreender essa lógica, torna-se perfeitamente inteligível nossa afirmação de que o ser humano de hoje é uma massa de pus e sangue tóxico. A debilidade prolongada que se observa em doentes após o tratamento de enfermidades como a febre tifoide é consequência direta dessa terapêutica por intoxicação. Em contrapartida, quando a mesma doença é curada sem o uso de medicamentos, o paciente desfruta de uma saúde excelente no período de convalescença, precisamente por não ter sido submetido a tal método.</p>
 <p>Agora, ao irradiarmos a prodigiosa Onda de Luz da Nova Medicina Japonesa sobre as toxinas purulentas acumuladas no corpo humano, o processo de purificação se realiza de maneira completa. E ouso afirmar, com absoluta convicção, que não existe em todo o mundo, fora esta Onda de Luz, nenhum outro método capaz de purificar o sangue.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒素療法 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 病気は、自然浄化作用であるという事は述べた通りである。<br/><br/>故に、人間は、病気という、浄化作用があるから、健康を保っていると言ってもよいのである。<br/><br/>であるから真の病気治療とは、病気を外部へ排泄する事であって、内へ押込む事ではない。<br/><br/>例えば、腫物が出来ようとする場合、それを散らそうとするが、それが、大変な誤りである。<br/><br/>肉体自身の自然浄化作用が、折角、内部の汚物（膿）を排除しようとして、皮膚面にまで、押し出して来たのを、再び元へ、押込めようとするのであるから、もし、その目的通りに内部へ還元したなら、その汚物は、内臓へ絡んで、内臓の病気を起す事になる。<br/><br/>故に、飽くまでも、外部へ膿を排泄し、残余の無いように、しなければならないのである。<br/><br/> 膿の排泄であるところの、浄化作用が起るという事は、それは、その人がより健康で、生活力が、旺盛であるからである。<br/><br/>それが不純物である膿を、排除しようとする。<br/><br/>その現象としての病気発生であって、それに伴う苦痛である。<br/><br/>故に、苦痛があればあるだけ、肉体は浄化されつつある訳である。<br/><br/>随って、その場合として余病などは、決して、起るべきはずが無いのである。<br/><br/>しかるに、実際は、医療中、よく余病が起るのであって、はなはだしいのは、幾つもの余病が起るという事は、排泄さるるべき汚物を、押込めるからである。<br/><br/>例えば、ある一部に病気が起るとするとそれを散らそうと、氷冷法などを行う、それが為、そこへの膿の集溜運動は、停止されるから、膿の残部は、他の方面へ、方向転換をする。<br/><br/>それが他の部分へ余病となって表れるのである。<br/><br/>その一例として中耳炎を氷冷するとする。<br/><br/>熱に因って溶解された膿が、中耳に向って進行し、そこから外部へ出ようとする、それを氷冷によって、停止をさすから、膿はたちまち、方向転換をし、小脳へ向って、進行する。<br/><br/>その結果が、脳膜炎である。<br/><br/>手当をしなければ、中耳炎で済むべきものを、手当をして反て、脳膜炎という余病を併発さすのである。<br/><br/>医学の誤謬は、実に、及ぶべからざるものがある。<br/><br/> 故に、今日までのあらゆる療法は、病気を治癒しようとする場合、薬剤やその他の方法に依って実は、血液を汚濁させようとするのである。<br/><br/>それは、血液は汚濁すればする程、浄化作用の力が、弱まるからである。<br/><br/>浄化作用が、弱まっただけは、病気現象が衰退するのは、理の当然である。<br/><br/>即ち、病気が一時引込むのである。<br/><br/>それがちょうど、病気が治癒されるように、見えるのである。<br/><br/>動物の血や、牛乳を飲むとか、蝮、蛇等を呑むとか、注射で、薬液を血液に注入する等は、いずれもみな、血液を汚濁させるのである。<br/><br/>それによって、病気を引込ませるのであり、それを、軽快又は、治癒と誤認するのである。<br/><br/>故に、一旦、治癒の形を呈するも、時日を経過するにおいて、再び、自然浄化による、病気発生となるが、今度は、本来の病気以外、血液汚濁療法の、その膿化の排泄も加わるから捲土重来（けんどちょうらい）的に病勢は強まるのは、当然である。<br/><br/> かくのごとく、今日までの療法は、根本的治癒ではなく、一時的逆療法であって、その根本に気が付かなかった事は、蒙昧（もうまい）であったとも言える。<br/><br/>人類を短命ならしめた真因は、ここにあるのである。<br/><br/>今日のほとんどと言いたい程膿と毒血によって弱体化しつつある現状は、これに外はないのである。<br/><br/>しかも、それに気の付かない、近代の日本人が、益々、薬剤や動物性食餌を求めようとするのは、全く戦慄そのものである。<br/><br/>これを他の事でたとえてみよう、ある一国に、敵が侵入したとする。<br/><br/>その侵入した敵を、味方の軍勢が段々、国境付近にまで、追詰めて、今一息という時、別の敵が、他の方面から侵入して来るのである。<br/><br/>その新しい敵の、後背からの脅威によって、国境にまで敵を追詰めていた味方の軍勢は、後退するの止むを得ない事になる。<br/><br/>そこで、国境に追詰められていた敵は、俄然として踵（きびす）を返し、再び内部へ侵入して来る。<br/><br/>それと同じ訳である。<br/><br/> これを以て、真の治療としては、味方に声援を与えて、一挙に敵を国境外へ、放逐してしまう事でなければならない。<br/><br/> この道理を考える時、今日までの治療方法は、いかに誤っているかという事が、判るであろう、故に、世間よく効く薬というのは、最もよく血液を溷濁（こんだく）させる力のある訳である。<br/><br/>彼のサルバルサンが、一時的にも卓越せる効果があるという事は、元来が、恐るべき毒薬である砒素（ひそ）を原料として、作られるからである。<br/><br/>今、自然排除によって、黴毒が発疹等の現象を呈するや、サルバルサンを注射する時は、前述の理によって、その現象は速かに、引込むのである。<br/><br/>サルバルサンの効果が一時的であるというのは、この様な訳である。<br/><br/>昔有名なる漢方医先生の著にはその事が書いてある。<br/><br/>元来病に効くのは、薬ではなくて、毒である。<br/><br/>毒であるから効くのである。<br/><br/>それは、毒を以て毒を制するという訳であると、いうのであるが、実にその通りであって、私の言う、毒素療法の意味である。<br/><br/> かように、今日までの間違った治療が、段々人間の血液を汚濁させ不健康ならしめ、ついには、生命をまで短縮したのである。<br/><br/>病気が起れば、毒素療法をし、又、病気が起れば、毒素療法をしては、ともかくも一時的安易を得て来たのである。<br/><br/>言い換えれば、汚物を排除しようとすれば、それを引込める。<br/><br/>又、排除されようとすれば引込めるという手段を、執って来たものであるから時の経過によって免る事の出来ない最後の自然大浄化によって、たおれるのは当然である。<br/><br/>その時は、加重されての多量の猛毒であるから、肉体が浄化作用に堪えられないからである。<br/><br/>吾々が、今日の人間が、膿塊毒血であるというのも、この理を知れば、能（よ）く肯（うなず）けるであろう、世間一旦、病に罹るや、治療後相当長い間虚弱であるのは、毒素療法の為である。<br/><br/>彼の窒扶斯（チフス）のごとき、薬剤を用いずして治癒されたものは、予後、頗（すこぶ）る健康になるのも、この毒素療法に依らないからである。<br/><br/> 今日の人間体内に、堆積しつつある膿毒に対（むか）って、新日本医術による、不思議な光波を放射する時、完全に浄化作用が行われるのである。<br/><br/>そうして現在、この光波以外に血液を浄化すべき方法は、全世界に無い事を断言して慣らないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

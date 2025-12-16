@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sonen064</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 想念言霊篇 ４ 064-077 想念、行為 064 悪印象を消す神光、御奉斎の尊さ 現世に再生の度数が多い程、経験が豊かになり智能が発達するとの御教えを戴いておりますが、執着がとれて霊界に永くおります場合は、現世的知識が発達しないもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> （霊界へ行けば全然なくなるが、元あったものは消えはしない）善悪共に一度あった事は何年経とうが消えるものでない。<br><br>空間で、霊界へ印象される。<br><br>その為（ ）なる。<br><br>しかし、神様をお祭りすると、神の光によって悪い印象は消える。<br><br>そこに信仰者の――。<br><br>（S24. 7.21） 065 想念の印象 人間のやった事は霊界へ印象される。<br><br>鎌倉は武士が沢山いて戦ったりなどしたが、鎌倉の霊界にはそういう気分がする。<br><br>また鎌倉へ行ってると、いい意味で昔の鎌倉時代の感じが出ている。<br><br>京都、奈良も同様である。<br><br> 空間に、そんな記録があるのである。<br><br> 人間が悪い事をすると、霊線によって幽庁に通じ、記録され残っている。<br><br> 空間の霊界にも、人間の行為の記録が残る。<br><br>であるから――。<br><br> 066 想念の記録、想念行動の記録器と雰囲気 （人間が悪い事をすると霊線によって幽庁に通じ、記録され残っている） 空間の霊界にも人間の行為の記録が残る。<br><br>であるから、今に人間の想念や行動を記録する機械が出来ると思う。<br><br> 一軒の家でも、始終喧嘩している家は感じが悪いのは、その家の霊界に悪い想念や行ないが記録されているのを感ずるからである。<br><br>また、史蹟などを訪れるとその時代の雰囲気が漂っているのは、昔作られた雰囲気が残っているからである。<br><br> すべて想念は霊界へ反映して、曇りや悪気になるのである。<br><br> 人間が善い事をするようになると、善い記録が残るから、感じがよくなる。<br><br>故に信者の家へ行くのと普通の家へ行くのと感じが違うのは、そういう訳である。<br><br>（S23. 6.24） 067 製作と想念、愛玩や崇敬の理念、井戸、利久茶杓 古刀、古物類には現在なおその製作者の想念が写り、その想念のままに活動致しているものでしょうか。<br><br>また、現在その所有者の人格のいかんによりその物質霊や想念の活動もおのずから変化されて行くものでしょうか。<br><br> 古物と刀とは違う。<br><br>人を切った刀は切られた人が憑いている事がある。<br><br>古物には愛玩した人の霊は憑いている。<br><br>製作者の想念は気を入れて作ったものには憑いている。<br><br> 村正のごときは切る一方の想念で作った。<br><br>正宗は天下泰平の想念で作った。<br><br>だから反って切る気にならぬという。<br><br>昔の人は霊が強かった。<br><br>そのため美術品なども強い引きつけるものがある。<br><br>今の人は霊が弱い。<br><br>昔の六百年、八百年前のものでも出来たてのようである。<br><br>今以て霊がシミついている。<br><br>一生懸命やったり愛玩すると、段々その人の霊が移る。<br><br> 井戸茶碗は、朝鮮の飯茶碗であるが、秀吉が朝鮮征伐で分捕って珍重した。<br><br>秀吉の時代は茶器への愛着を感じた。<br><br>領地よりも有難がり、茶碗を奪るために戦った事もある。<br><br>朝鮮征伐も、茶碗が欲しくてやったという人もある。<br><br> 愛玩する人の想念は沢山入っている。<br><br>これは目に見えぬ想念である。<br><br> 仏画など、人が礼拝、崇敬すると、有難いという意力が濃くなって放射するので、見ただけで有難くなる。<br><br> また、製作者と所有者の人格によって違う。<br><br>不昧公のごときもいい。<br><br> 利久などの茶杓は自然の気品をもっている。<br><br>光琳の茶杓でもその気分が含まれている。<br><br> （S24.11.25） 068 想念界と意志交換 想念界とは―― 想う世界、物質的行動に表わさぬ世界。<br><br>言葉は下の方の霊界で、上の霊界は目だけで判る。<br><br>現界のように諄々（くどくど）しくない。<br><br>（S25. 3.28） 069 相性と年齢・星、（想念と働き）、副守の興味 縁結びや夫婦関係の良し悪しを、年齢や星にこだわって考える習慣がございますが、やはり意味のあることでございましょうか。<br><br> ないとはいえない。<br><br>相性、十二支（エト）等によっていくらかある。<br><br>自分とか夫婦とか――。<br><br>人間は思うとその働きが出る。<br><br>想念によって大いに左右される。<br><br>自分で作るものである。<br><br>相性や星まわりなど、思うとそうなる。<br><br>信仰者は、信仰する神の力の強弱と信仰によりズーッとちがう。<br><br>観音教団など信仰は絶対大丈夫である。<br><br>御守護のない人はいろんな霊にやられる。<br><br>病気も精神作用が関係する。<br><br>副守護神はいたずらなもので、食物が古いとか、食べると中毒するなどと聞くと、急に腹が痛む事がある。<br><br>これは副守護神が面白がってやる。<br><br>本人がそう思うと痛い事などをする。<br><br>それを副霊が面白がる。<br><br>よく神経というのが副霊の悪戯である。<br><br>人を騙し苦しむ事に副霊は興味をもつ。<br><br>（S *. 2. 4） 070 想念と地獄極楽 想念界中に地獄極楽ありや―― 想念は自由であるから一切ある。<br><br>善い想念は極楽界へ、その想念は想念界で天国へ行く。<br><br>悪い想念は地獄界へ通ずる。<br><br> 千手観音は、種々の物の救いと、実権を握る。<br><br>如意輪は、如意宝珠を使う事。<br><br> 071 一人で何人も思う事―想と念、思う事と行動 一人で同時に二人の異性を思うという事を神様は御許し下さるでしょうか。<br><br> 一人で二人を思う、これは仕方ない。<br><br>しかしどっちかが強く思う。<br><br>両方同じ事はない。<br><br>神様はそういう想念を与えてある。<br><br>これは多くを思う方がよい。<br><br>神様は世界人類を思う。<br><br>ただ行為に表わさなかったならば、どんなに思ってもよい。<br><br>行為に表わすと罪悪に思う。<br><br>思わないようにしても思えるものは仕方ない。<br><br>念は祈る事。<br><br>念と想は違う。<br><br> 072 考える自己の主体、（悪想の執着、御光と平沢自白） 神あるいは守護霊・本霊・副霊等もろもろの事について考える自己と言うものは、本人の本守護霊に属しているものでございましょうか。<br><br>それとも何か別のものでございましょうか。<br><br> 考える根本は本霊で、副霊は考えを混ぜる。<br><br>本霊に力があれば、善い事をする。<br><br>副霊に力があれば悪い事をする。<br><br>（平沢のごときは副霊強く、あんな大それた事を平気でした。<br><br>あの事件の時堀崎課長は私の御光を受けているので、堀崎の友人消防課長塩谷氏が信者である。<br><br>堀崎がお浄めしたら、平沢は涙を出して、それから自白し出した） 人間は本・副霊の中間が人間の考えである。<br><br>始終善をするか悪をするか迷っている。<br><br>どっちが勝つかで、勿論いかなる場合も善が勝たなくてはならぬ。<br><br>どんな人でも心では悪を自由に思う。<br><br>しかし、それを制する本霊が働けば行動にしない。<br><br>しかしただ思うだけは構わぬ。<br><br>行動に表わさねばいい。<br><br>悪を始終思うと執着になる。<br><br>すると悪い。<br><br> あそこの妻君は綺麗だ、あの娘はいいと思うのは本能だから構わぬ。<br><br>キリストは想念だけでもいけないという。<br><br>（S24.10. 8） 073 精神統一と想念の自由 祝詞を奏げても種々な邪念が出てくるものである。<br><br>一番統一出来るのは、碁、将棋、芝居の鑑賞である。<br><br> 想念は自由である。<br><br>キリストは、心で思うだけでも姦淫の罪になる――というが、神様でない以上これは無理である。<br><br> 要は行動で表わせば罪になる。<br><br>（S23.10.17） 074 天候の予言、（想念と豊凶、災難） 農作物の豊凶を毎年五月熱田神宮様のおためしとして一般参拝者に公開されますが、今年は天候も不順で凶年だと言われております。<br><br>いかようものでしょうか。<br><br> 熱田さんでは判らぬ。<br><br>もし当れば気象台で利用すべきである。<br><br>こういう事は当ってもいけない。<br><br>豊作とか不作は人間がする。<br><br>豊作に感謝の気持ちで、日本中の人間が立派な気持でやればとても良く出来る。<br><br>皆間違った了見を持っているから不作になる。<br><br>故に、人間が作っているから仕方ない。<br><br>災難でも天候でも、皆人間が作るのが真理である。<br><br>（S24. 5. 6） 075 豊凶作と想念 豊作とか不作は人間がする。<br><br>日本中の人間が農作に感謝の気持で、立派な気持でやればよく出来る。<br><br>とてもよく出来る。<br><br>皆間違った了見を持ってるから不作になる。<br><br>故に人間が作っているから仕方ない。<br><br>災難でも天候でも、皆人間が作る。<br><br>これが真理である。<br><br>（S *.11.16） 076 今年の気候 過日御面会を頂きました際、本年は火素が強くなるとの御教示を頂きました。<br><br>その後火事が頗る多い事を新聞等を見ても知られますが、本年今後の気候も例年より相当高温多雨になるのでは御座いませんでしょうか。<br><br>作る作物に関係が御座いますので、御教示御願い申し上げます。<br><br> こういう理屈にはなるが、日本人の心掛け一つである。<br><br>厳しくなければよい。<br><br>人間の想念が気候に表われる。<br><br>（S24. 5.17） 077 琵琶湖の不漁と荒れ 琵琶湖が春以来近年になく荒れる日が多く不漁ですが、何か原因がありましょうか。<br><br> 琵琶湖付近にいる人の心が曇ってるので、湖の龍神が絶えず浄化作用をしているのである。<br><br> 故に、漁をする人が、悪い言葉や、悪い心を持たぬようにする。<br><br>漁師自身が不漁の原因を作っているのである。<br><br> 人間はとかく罪を他に転嫁しようとするが、皆人間自身が作るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Ensaios do Mestre Okada Jikanshi — Ensinamentos Sobre o Pensamento e o Poder da Palavra (Sounen Kotodama)</h2>
 <h2>064. A Luz Divina que apaga as más impressões e o sublime valor de se consagrar a Deus</h2>
@@ -144,5 +296,48 @@ function toggleLang(lang) {
 <p>Desde a primavera, o Lago Biwa tem apresentado uma agitação incomum, e a pesca tem sido escassa. Haveria alguma causa para isso?</p>
 <p>O coração das pessoas que vivem nas proximidades do Lago Biwa está encoberto por nuvens espirituais, e, por essa razão, o Deus Dragão do lago realiza uma purificação constante. Portanto, os pescadores devem evitar proferir palavras negativas e nutrir maus pensamentos. São os próprios pescadores que estão criando a causa da escassez.</p>
 <p>O ser humano tende a transferir a culpa para os outros, mas, na verdade, tudo é criado por ele mesmo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 想念言霊篇 ４ 064-077 想念、行為 064 悪印象を消す神光、御奉斎の尊さ 現世に再生の度数が多い程、経験が豊かになり智能が発達するとの御教えを戴いておりますが、執着がとれて霊界に永くおります場合は、現世的知識が発達しないもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> （霊界へ行けば全然なくなるが、元あったものは消えはしない）善悪共に一度あった事は何年経とうが消えるものでない。<br/><br/>空間で、霊界へ印象される。<br/><br/>その為（ ）なる。<br/><br/>しかし、神様をお祭りすると、神の光によって悪い印象は消える。<br/><br/>そこに信仰者の――。<br/><br/>（S24. 7.21） 065 想念の印象 人間のやった事は霊界へ印象される。<br/><br/>鎌倉は武士が沢山いて戦ったりなどしたが、鎌倉の霊界にはそういう気分がする。<br/><br/>また鎌倉へ行ってると、いい意味で昔の鎌倉時代の感じが出ている。<br/><br/>京都、奈良も同様である。<br/><br/> 空間に、そんな記録があるのである。<br/><br/> 人間が悪い事をすると、霊線によって幽庁に通じ、記録され残っている。<br/><br/> 空間の霊界にも、人間の行為の記録が残る。<br/><br/>であるから――。<br/><br/> 066 想念の記録、想念行動の記録器と雰囲気 （人間が悪い事をすると霊線によって幽庁に通じ、記録され残っている） 空間の霊界にも人間の行為の記録が残る。<br/><br/>であるから、今に人間の想念や行動を記録する機械が出来ると思う。<br/><br/> 一軒の家でも、始終喧嘩している家は感じが悪いのは、その家の霊界に悪い想念や行ないが記録されているのを感ずるからである。<br/><br/>また、史蹟などを訪れるとその時代の雰囲気が漂っているのは、昔作られた雰囲気が残っているからである。<br/><br/> すべて想念は霊界へ反映して、曇りや悪気になるのである。<br/><br/> 人間が善い事をするようになると、善い記録が残るから、感じがよくなる。<br/><br/>故に信者の家へ行くのと普通の家へ行くのと感じが違うのは、そういう訳である。<br/><br/>（S23. 6.24） 067 製作と想念、愛玩や崇敬の理念、井戸、利久茶杓 古刀、古物類には現在なおその製作者の想念が写り、その想念のままに活動致しているものでしょうか。<br/><br/>また、現在その所有者の人格のいかんによりその物質霊や想念の活動もおのずから変化されて行くものでしょうか。<br/><br/> 古物と刀とは違う。<br/><br/>人を切った刀は切られた人が憑いている事がある。<br/><br/>古物には愛玩した人の霊は憑いている。<br/><br/>製作者の想念は気を入れて作ったものには憑いている。<br/><br/> 村正のごときは切る一方の想念で作った。<br/><br/>正宗は天下泰平の想念で作った。<br/><br/>だから反って切る気にならぬという。<br/><br/>昔の人は霊が強かった。<br/><br/>そのため美術品なども強い引きつけるものがある。<br/><br/>今の人は霊が弱い。<br/><br/>昔の六百年、八百年前のものでも出来たてのようである。<br/><br/>今以て霊がシミついている。<br/><br/>一生懸命やったり愛玩すると、段々その人の霊が移る。<br/><br/> 井戸茶碗は、朝鮮の飯茶碗であるが、秀吉が朝鮮征伐で分捕って珍重した。<br/><br/>秀吉の時代は茶器への愛着を感じた。<br/><br/>領地よりも有難がり、茶碗を奪るために戦った事もある。<br/><br/>朝鮮征伐も、茶碗が欲しくてやったという人もある。<br/><br/> 愛玩する人の想念は沢山入っている。<br/><br/>これは目に見えぬ想念である。<br/><br/> 仏画など、人が礼拝、崇敬すると、有難いという意力が濃くなって放射するので、見ただけで有難くなる。<br/><br/> また、製作者と所有者の人格によって違う。<br/><br/>不昧公のごときもいい。<br/><br/> 利久などの茶杓は自然の気品をもっている。<br/><br/>光琳の茶杓でもその気分が含まれている。<br/><br/> （S24.11.25） 068 想念界と意志交換 想念界とは―― 想う世界、物質的行動に表わさぬ世界。<br/><br/>言葉は下の方の霊界で、上の霊界は目だけで判る。<br/><br/>現界のように諄々（くどくど）しくない。<br/><br/>（S25. 3.28） 069 相性と年齢・星、（想念と働き）、副守の興味 縁結びや夫婦関係の良し悪しを、年齢や星にこだわって考える習慣がございますが、やはり意味のあることでございましょうか。<br/><br/> ないとはいえない。<br/><br/>相性、十二支（エト）等によっていくらかある。<br/><br/>自分とか夫婦とか――。<br/><br/>人間は思うとその働きが出る。<br/><br/>想念によって大いに左右される。<br/><br/>自分で作るものである。<br/><br/>相性や星まわりなど、思うとそうなる。<br/><br/>信仰者は、信仰する神の力の強弱と信仰によりズーッとちがう。<br/><br/>観音教団など信仰は絶対大丈夫である。<br/><br/>御守護のない人はいろんな霊にやられる。<br/><br/>病気も精神作用が関係する。<br/><br/>副守護神はいたずらなもので、食物が古いとか、食べると中毒するなどと聞くと、急に腹が痛む事がある。<br/><br/>これは副守護神が面白がってやる。<br/><br/>本人がそう思うと痛い事などをする。<br/><br/>それを副霊が面白がる。<br/><br/>よく神経というのが副霊の悪戯である。<br/><br/>人を騙し苦しむ事に副霊は興味をもつ。<br/><br/>（S *. 2. 4） 070 想念と地獄極楽 想念界中に地獄極楽ありや―― 想念は自由であるから一切ある。<br/><br/>善い想念は極楽界へ、その想念は想念界で天国へ行く。<br/><br/>悪い想念は地獄界へ通ずる。<br/><br/> 千手観音は、種々の物の救いと、実権を握る。<br/><br/>如意輪は、如意宝珠を使う事。<br/><br/> 071 一人で何人も思う事―想と念、思う事と行動 一人で同時に二人の異性を思うという事を神様は御許し下さるでしょうか。<br/><br/> 一人で二人を思う、これは仕方ない。<br/><br/>しかしどっちかが強く思う。<br/><br/>両方同じ事はない。<br/><br/>神様はそういう想念を与えてある。<br/><br/>これは多くを思う方がよい。<br/><br/>神様は世界人類を思う。<br/><br/>ただ行為に表わさなかったならば、どんなに思ってもよい。<br/><br/>行為に表わすと罪悪に思う。<br/><br/>思わないようにしても思えるものは仕方ない。<br/><br/>念は祈る事。<br/><br/>念と想は違う。<br/><br/> 072 考える自己の主体、（悪想の執着、御光と平沢自白） 神あるいは守護霊・本霊・副霊等もろもろの事について考える自己と言うものは、本人の本守護霊に属しているものでございましょうか。<br/><br/>それとも何か別のものでございましょうか。<br/><br/> 考える根本は本霊で、副霊は考えを混ぜる。<br/><br/>本霊に力があれば、善い事をする。<br/><br/>副霊に力があれば悪い事をする。<br/><br/>（平沢のごときは副霊強く、あんな大それた事を平気でした。<br/><br/>あの事件の時堀崎課長は私の御光を受けているので、堀崎の友人消防課長塩谷氏が信者である。<br/><br/>堀崎がお浄めしたら、平沢は涙を出して、それから自白し出した） 人間は本・副霊の中間が人間の考えである。<br/><br/>始終善をするか悪をするか迷っている。<br/><br/>どっちが勝つかで、勿論いかなる場合も善が勝たなくてはならぬ。<br/><br/>どんな人でも心では悪を自由に思う。<br/><br/>しかし、それを制する本霊が働けば行動にしない。<br/><br/>しかしただ思うだけは構わぬ。<br/><br/>行動に表わさねばいい。<br/><br/>悪を始終思うと執着になる。<br/><br/>すると悪い。<br/><br/> あそこの妻君は綺麗だ、あの娘はいいと思うのは本能だから構わぬ。<br/><br/>キリストは想念だけでもいけないという。<br/><br/>（S24.10. 8） 073 精神統一と想念の自由 祝詞を奏げても種々な邪念が出てくるものである。<br/><br/>一番統一出来るのは、碁、将棋、芝居の鑑賞である。<br/><br/> 想念は自由である。<br/><br/>キリストは、心で思うだけでも姦淫の罪になる――というが、神様でない以上これは無理である。<br/><br/> 要は行動で表わせば罪になる。<br/><br/>（S23.10.17） 074 天候の予言、（想念と豊凶、災難） 農作物の豊凶を毎年五月熱田神宮様のおためしとして一般参拝者に公開されますが、今年は天候も不順で凶年だと言われております。<br/><br/>いかようものでしょうか。<br/><br/> 熱田さんでは判らぬ。<br/><br/>もし当れば気象台で利用すべきである。<br/><br/>こういう事は当ってもいけない。<br/><br/>豊作とか不作は人間がする。<br/><br/>豊作に感謝の気持ちで、日本中の人間が立派な気持でやればとても良く出来る。<br/><br/>皆間違った了見を持っているから不作になる。<br/><br/>故に、人間が作っているから仕方ない。<br/><br/>災難でも天候でも、皆人間が作るのが真理である。<br/><br/>（S24. 5. 6） 075 豊凶作と想念 豊作とか不作は人間がする。<br/><br/>日本中の人間が農作に感謝の気持で、立派な気持でやればよく出来る。<br/><br/>とてもよく出来る。<br/><br/>皆間違った了見を持ってるから不作になる。<br/><br/>故に人間が作っているから仕方ない。<br/><br/>災難でも天候でも、皆人間が作る。<br/><br/>これが真理である。<br/><br/>（S *.11.16） 076 今年の気候 過日御面会を頂きました際、本年は火素が強くなるとの御教示を頂きました。<br/><br/>その後火事が頗る多い事を新聞等を見ても知られますが、本年今後の気候も例年より相当高温多雨になるのでは御座いませんでしょうか。<br/><br/>作る作物に関係が御座いますので、御教示御願い申し上げます。<br/><br/> こういう理屈にはなるが、日本人の心掛け一つである。<br/><br/>厳しくなければよい。<br/><br/>人間の想念が気候に表われる。<br/><br/>（S24. 5.17） 077 琵琶湖の不漁と荒れ 琵琶湖が春以来近年になく荒れる日が多く不漁ですが、何か原因がありましょうか。<br/><br/> 琵琶湖付近にいる人の心が曇ってるので、湖の龍神が絶えず浄化作用をしているのである。<br/><br/> 故に、漁をする人が、悪い言葉や、悪い心を持たぬようにする。<br/><br/>漁師自身が不漁の原因を作っているのである。<br/><br/> 人間はとかく罪を他に転嫁しようとするが、皆人間自身が作るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

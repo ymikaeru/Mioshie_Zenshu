@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon15</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人種の霊的考察（下） 『地上天国』24号、昭和26(1951)年5月25日発行 以上のごとく、日本民族は大体四種に分けられる。<br><br>そしてまず大和民族からかいてみるが、これはさきに述べたごとく、先天的平和主義で闘争を嫌う事はなはだしく、それがため当時の天下は、実によく治まっていたのである。<br><br>もちろん未開時代であるから、文化も至極幼稚ではあったが、不自由な生活の中でも、鼓腹撃壌（こふくげきじょう）の世の中であったには違いない。<br><br>加うるに外敵に窺われる心配もないから、長い間奏平の夢を貪（むさぼ）って来たのである。<br><br>ところが一度素盞嗚尊の渡来に遭うや、一たまりもなく平和の夢は破られ、社会情勢は一変してしまった。<br><br>それが数百年続いた揚句、今度は神武天皇との闘争を経て、一段落着いたとしても、社会の底流には両派の反目が表面に現われないだけで、何となく無気味の空気を漂わせていたのはもちろんである。<br><br>また人口が殖えるに従い、ようやく諸般の制度施設等も始まって来たので、僅かながらも年貢を取上げるに至ったのである。<br><br>そのような訳で有名な仁徳天皇の御製である「高き屋に上りて見れば煙り立つ、民の竃（かまど）は賑はひにけり」と詠じられたのは、余りに人民が豊かでないので、天皇は今日で言えば徴税を緩められたのであろう。<br><br> ところが、最初に述べたように、千余年の間は大した波乱もなく、まず鎮静期ともいうべき時代を経てから、ここに一大革命的変化が起ったのである。<br><br>外でもない彼の欽明天皇十三年に、仏教が渡来した事である。<br><br>これによって俄然として画期的文化の興隆となった。<br><br>それは仏教芸術が生れた事である。<br><br>そうして推古、飛鳥、天平、白鳳等の時代に亘って、絢爛たる華が咲いたのはもちろんで、彼の聖徳太子の天才的建造物として、印度（インド）の七堂伽藍（がらん）を模した法隆寺と言い、次で東大寺に建立した大仏といい、当時における仏教芸術の、いかに旺（さか）んであったかを物語っており、今もなお我民族の誇りとして、世界的に光を放っている。<br><br>以上によってみても不世出の平和の偉人としては何といっても聖徳太子にまず指を屈すべきで、太子こそ大和民族の典型的聖者といってよかろう。<br><br> 次いで、藤原時代に入って、ようやく天孫、出雲の両民族の争いの萌芽（ほうが）は、人々の眼に触れはじめた。<br><br>すなわち戦国時代に近づいた事である。<br><br>しかしながら一方大和民族中の優れた人々は、文学的に活躍し始めた。<br><br>源氏物語、枕草子、徒然草のごとき名著や、万葉、古今、伊勢物語等の、日本独自の文学も次々現われて来た。<br><br>紫式部、兼好、人麿、西行、芭蕉等はもとより、能筆家としては貫之、道風、行成等の輩出もこの頃からである。<br><br> また、美術においても、大和民族の特質を表わして来た。<br><br>仏教芸術としての兆殿司（ちょうでんす）、巨勢金岡（こぜのかなおか）、鳥羽僧正等の絵画や、空海、行基（ぎょうき）等の彫刻、その他無名の蒔絵師等であるが、蒔絵は天平頃から、既に見るべきものが生まれた。<br><br>この技術は外国には全くなく、最も誇るに足る日本独特の美術である。<br><br> ここで忘れてならない功績者としては、足利義満並びに義政であろう。<br><br>金閣寺、銀閣寺を造ったのは有名であるが、その他当時支那美術を旺んに輸入した。<br><br>特に宋元時代の名画に目を付け、優れたものを選び、東山御物として保存に努めた事によって、今なお国宝や重要美術として文化財を豊かにした業績は、高く評価してもよかろう。<br><br>そうして支那の絵画を範として成った日本絵画の基礎はこの時からで、それが狩野派の始めである。<br><br>次いで鎌倉期に入るや、それまで微々としていた彫刻も、ここで完成の域に達した。<br><br>主に仏教的のものではあるが、有名な運慶もその時代の巨匠である。<br><br> その後、戦乱が続いたので、平和的文化の方は、相当期間鎮滞状態であったが、彼の豊臣秀吉が天下をほぼ平定するに及んで、俄然として平和文化の躍進となった。<br><br>面白い事にはヨーロッパの文芸復興期とほぼ時を同じゅうしたのも、一種の神秘と言えるであろう。<br><br>当時名人巨匠雲のごとく輩出したのは人の知るところで、絵画においては宗達の独創的技術や、蒔絵、楽焼、書における光悦、茶道の利休、建築、庭園、華道の小堀遠州等々、いわゆる桃山時代の芸術として、今なお燦（さん）として輝いている。<br><br>その後約二百年を経て元禄時代となり、ここに桃山期に次いでの、絢爛たる平和文化の再現となった事で彼の光琳、乾山等の巨匠の出たのもこの時である。<br><br>その後に到って絵画の名人としては、抱一および栖鳳を私は推奨したい。<br><br> ここで陶工について、いささかかいてみるが、日本においではそう古くはない。<br><br>鎌倉期頃からで、尾張の瀬戸、九州の有田等に始められ、その後京都にも移ったが、この地で不朽の名作を残したのは彼の仁清（にんせい）である。<br><br>また朝鮮陶器を範として成った楽焼の祖としての、長次郎も逸する事は出来ない。<br><br>他は余り見るべきものはないが、珍什名器の蒐集保存整理に、功績を残したのは松平不昧（ふまい）公であろう。<br><br> 以上は、極く大体であるが、右の外名人巨匠も相当あるにはあったが、それらをここにかかないのは理由がある。<br><br>というのはこの文の主旨は民族的批判であるから、支那を範としたものを、わざと避けたので、今までかいた人達は、日本独特の芸術家を選んだのである。<br><br> 次に、天孫族と出雲族を詳しくかくべきだが、これは歴史上余りにも知れ亘っているから略す事にしたのである。<br><br>言うまでもなく有名な武将は、ほとんど両族から出たので、ただ天孫系には多くの学者が出た。<br><br>もちろん漢学者であるが面白い事には勤王家に学者が多く、維新の鴻業（こうぎょう）に大いに役立った。<br><br>それというのは天孫系が出雲系に圧迫され、危うくなったのを救わんがためであったのはもちろんで、右の漢学者に対し和歌のごとき仮名書き文学は、大和民族系と思えばいいのである。<br><br>しかしこっちは戦争に無関係であったため、武人のように華かな存在ではないから、注意をされなかったのである。<br><br> 最後にかかねばならないのは、仁徳天皇、応神天皇、光明皇后、光明天皇は大和民族の御系統である。<br><br>次に、土匪（どひ）の系統であるが、この種族こそ祖先が、神武天皇に征服されたためその怨恨が今もなお残っており、この種族が彼の共産主義者である。<br><br>終戦前共産主義者が天皇に対し、いかに反感を抱いていたかは、右の因縁によるので、従って天皇制時代には、天皇の直属である軍人や官吏に対しても、従順でなかったのはそのためである。<br><br>また誰も不思議に思う事は、日本に生まれ、日本の米を食みながら、外国であるソ連に忠誠であり、祖国である日本に悪意を抱いているという一事である。<br><br>これも右の因縁を知ればなるほどと頷（うなず）くであろう。<br><br>彼らにとっては、ロシヤこそ祖国であるからである。<br><br> 今一つ知っておくべき事は、日本人中にも特に天皇に対し、極めて忠誠である分子と、割合薄い者とがあるのは、前者は真の天孫系であり、後者は出雲系であるからである。<br><br>これについて最も近い例としては、彼の二・二六事件である。<br><br>この事件をよく吟味すれば、その傾向が著しく現われていた事が判るが、これはいずれ詳しくかくつもりである。<br><br>最後に、霊統と系統との区別をかいてみるが、世人は霊統も系統も同じように思っているが、決してそうではない。<br><br>すなわち霊統とは魂の繋がりをいうので、これは永久不変一貫して変らないが、系統はそうではなく、いくらでも変るのである。<br><br>変るとはいわゆる混血である。<br><br>従って日本の四民族といえども、長い間にどのくらい混血して来たか判らないが、実は混血する程いいのである。<br><br>何となれば、種々の性格が混ざる以上、聡明な人間が出来る訳である。<br><br>ちょうど人間で言えば、色々な苦労をし、世の中の経験を多く積んだのと同様の意味である。<br><br>ゆえに世間では純血を貴いとしているが、これは反対で、昔から婚約の相手は遠く離れた程いいとしていたり、血族結婚を不可とするのは、そのために外ならないのである。<br><br>また白人特にアメリカ人に優秀な人間が多く出るのは、混血が東洋人よりもずっと多いからである。<br><br>これを最も判り易くいうと、機（はた）のようなもので、経（たて）糸が霊系で動かないが、緯（よこ）糸は体系であるから左右へ動くのと同様である。<br><br> 次に、四民族の数についていえば、天孫系が一番多く、出雲系がその次で、ずっと減っているのがコーカサス系であり、大和民族は最も少なく、まず私の推定では、百人中一人くらいとみればよかろう。<br><br> (注) 鼓腹撃壌（こふくげきじょう） 中国の尭（ぎよう）の時代に、一老人が腹鼓（はらつづみ）を打ち、大地を踏み鳴らし、太平の世への満足の気持ちを歌ったという「帝王世紀」「十八史略」などにみえる故事から、世の中の太平を楽しむこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise Espiritual da Etnia Japonesa – Parte Final</h2>
 <p>Conforme exposto anteriormente, a etnia japonesa pode ser classificada, em linhas gerais, em quatro tipos distintos. Comecemos, pois, pelo povo de Yamato. Este, como já mencionado, era de índole preponderantemente pacífica e avesso a contendas, o que permitiu que, naqueles tempos, o mundo vivesse em notável harmonia. Naturalmente, tratava-se de uma era primitiva, com uma cultura bastante rudimentar; contudo, mesmo em meio a uma vida de poucas comodidades, não há dúvida de que desfrutavam de uma existência de paz e contentamento. Ademais, livres da ameaça de inimigos externos, puderam por longo tempo entregar-se a um sonho de tranquilidade.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Para finalizar, gostaria de esclarecer a distinção entre linhagem espiritual – <em>reito</em> (霊統) – e linhagem sanguínea – <em>keito</em> (系統). As pessoas costumam pensar que ambas são a mesma coisa, mas isso é um equívoco. A linhagem espiritual refere-se à conexão das almas; esta é permanente, imutável e contínua. A linhagem sanguínea, por sua vez, não possui essa constância e pode se alterar inúmeras vezes. Essa alteração ocorre por meio da miscigenação.</p>
 <p>Sendo assim, embora seja impossível determinar o grau de miscigenação ocorrido entre os quatro povos do Japão ao longo dos séculos, a verdade é que, quanto maior a mistura, melhor. A combinação de diferentes características resulta, logicamente, em indivíduos mais sagazes. É um processo análogo ao de uma pessoa que acumula sabedoria ao passar por diversas provações e experiências de vida. Portanto, embora a sociedade tenda a valorizar a pureza de sangue, o correto é o oposto. O antigo costume de buscar cônjuges em locais distantes e a proibição de casamentos consanguíneos existem precisamente por essa razão. Ademais, a razão pela qual tantos indivíduos excepcionais surgem entre os povos brancos, especialmente entre os americanos, é o fato de sua miscigenação ser muito mais acentuada que a dos povos orientais. Para ilustrar de forma simples, podemos pensar em um tear: os fios da urdidura representam a linhagem espiritual, que é fixa, enquanto os fios da trama, que representam a linhagem física, movem-se de um lado para o outro.</p>
 <p>Por fim, quanto à proporção de cada um dos quatro povos, a linhagem Tenson é a mais numerosa, seguida pela Izumo. A linhagem caucasiana apresenta um número bem menor, e a do povo de Yamato é a mais rara de todas. Minha estimativa é que corresponda a aproximadamente uma pessoa em cada cem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人種の霊的考察（下） 『地上天国』24号、昭和26(1951)年5月25日発行 以上のごとく、日本民族は大体四種に分けられる。<br/><br/>そしてまず大和民族からかいてみるが、これはさきに述べたごとく、先天的平和主義で闘争を嫌う事はなはだしく、それがため当時の天下は、実によく治まっていたのである。<br/><br/>もちろん未開時代であるから、文化も至極幼稚ではあったが、不自由な生活の中でも、鼓腹撃壌（こふくげきじょう）の世の中であったには違いない。<br/><br/>加うるに外敵に窺われる心配もないから、長い間奏平の夢を貪（むさぼ）って来たのである。<br/><br/>ところが一度素盞嗚尊の渡来に遭うや、一たまりもなく平和の夢は破られ、社会情勢は一変してしまった。<br/><br/>それが数百年続いた揚句、今度は神武天皇との闘争を経て、一段落着いたとしても、社会の底流には両派の反目が表面に現われないだけで、何となく無気味の空気を漂わせていたのはもちろんである。<br/><br/>また人口が殖えるに従い、ようやく諸般の制度施設等も始まって来たので、僅かながらも年貢を取上げるに至ったのである。<br/><br/>そのような訳で有名な仁徳天皇の御製である「高き屋に上りて見れば煙り立つ、民の竃（かまど）は賑はひにけり」と詠じられたのは、余りに人民が豊かでないので、天皇は今日で言えば徴税を緩められたのであろう。<br/><br/> ところが、最初に述べたように、千余年の間は大した波乱もなく、まず鎮静期ともいうべき時代を経てから、ここに一大革命的変化が起ったのである。<br/><br/>外でもない彼の欽明天皇十三年に、仏教が渡来した事である。<br/><br/>これによって俄然として画期的文化の興隆となった。<br/><br/>それは仏教芸術が生れた事である。<br/><br/>そうして推古、飛鳥、天平、白鳳等の時代に亘って、絢爛たる華が咲いたのはもちろんで、彼の聖徳太子の天才的建造物として、印度（インド）の七堂伽藍（がらん）を模した法隆寺と言い、次で東大寺に建立した大仏といい、当時における仏教芸術の、いかに旺（さか）んであったかを物語っており、今もなお我民族の誇りとして、世界的に光を放っている。<br/><br/>以上によってみても不世出の平和の偉人としては何といっても聖徳太子にまず指を屈すべきで、太子こそ大和民族の典型的聖者といってよかろう。<br/><br/> 次いで、藤原時代に入って、ようやく天孫、出雲の両民族の争いの萌芽（ほうが）は、人々の眼に触れはじめた。<br/><br/>すなわち戦国時代に近づいた事である。<br/><br/>しかしながら一方大和民族中の優れた人々は、文学的に活躍し始めた。<br/><br/>源氏物語、枕草子、徒然草のごとき名著や、万葉、古今、伊勢物語等の、日本独自の文学も次々現われて来た。<br/><br/>紫式部、兼好、人麿、西行、芭蕉等はもとより、能筆家としては貫之、道風、行成等の輩出もこの頃からである。<br/><br/> また、美術においても、大和民族の特質を表わして来た。<br/><br/>仏教芸術としての兆殿司（ちょうでんす）、巨勢金岡（こぜのかなおか）、鳥羽僧正等の絵画や、空海、行基（ぎょうき）等の彫刻、その他無名の蒔絵師等であるが、蒔絵は天平頃から、既に見るべきものが生まれた。<br/><br/>この技術は外国には全くなく、最も誇るに足る日本独特の美術である。<br/><br/> ここで忘れてならない功績者としては、足利義満並びに義政であろう。<br/><br/>金閣寺、銀閣寺を造ったのは有名であるが、その他当時支那美術を旺んに輸入した。<br/><br/>特に宋元時代の名画に目を付け、優れたものを選び、東山御物として保存に努めた事によって、今なお国宝や重要美術として文化財を豊かにした業績は、高く評価してもよかろう。<br/><br/>そうして支那の絵画を範として成った日本絵画の基礎はこの時からで、それが狩野派の始めである。<br/><br/>次いで鎌倉期に入るや、それまで微々としていた彫刻も、ここで完成の域に達した。<br/><br/>主に仏教的のものではあるが、有名な運慶もその時代の巨匠である。<br/><br/> その後、戦乱が続いたので、平和的文化の方は、相当期間鎮滞状態であったが、彼の豊臣秀吉が天下をほぼ平定するに及んで、俄然として平和文化の躍進となった。<br/><br/>面白い事にはヨーロッパの文芸復興期とほぼ時を同じゅうしたのも、一種の神秘と言えるであろう。<br/><br/>当時名人巨匠雲のごとく輩出したのは人の知るところで、絵画においては宗達の独創的技術や、蒔絵、楽焼、書における光悦、茶道の利休、建築、庭園、華道の小堀遠州等々、いわゆる桃山時代の芸術として、今なお燦（さん）として輝いている。<br/><br/>その後約二百年を経て元禄時代となり、ここに桃山期に次いでの、絢爛たる平和文化の再現となった事で彼の光琳、乾山等の巨匠の出たのもこの時である。<br/><br/>その後に到って絵画の名人としては、抱一および栖鳳を私は推奨したい。<br/><br/> ここで陶工について、いささかかいてみるが、日本においではそう古くはない。<br/><br/>鎌倉期頃からで、尾張の瀬戸、九州の有田等に始められ、その後京都にも移ったが、この地で不朽の名作を残したのは彼の仁清（にんせい）である。<br/><br/>また朝鮮陶器を範として成った楽焼の祖としての、長次郎も逸する事は出来ない。<br/><br/>他は余り見るべきものはないが、珍什名器の蒐集保存整理に、功績を残したのは松平不昧（ふまい）公であろう。<br/><br/> 以上は、極く大体であるが、右の外名人巨匠も相当あるにはあったが、それらをここにかかないのは理由がある。<br/><br/>というのはこの文の主旨は民族的批判であるから、支那を範としたものを、わざと避けたので、今までかいた人達は、日本独特の芸術家を選んだのである。<br/><br/> 次に、天孫族と出雲族を詳しくかくべきだが、これは歴史上余りにも知れ亘っているから略す事にしたのである。<br/><br/>言うまでもなく有名な武将は、ほとんど両族から出たので、ただ天孫系には多くの学者が出た。<br/><br/>もちろん漢学者であるが面白い事には勤王家に学者が多く、維新の鴻業（こうぎょう）に大いに役立った。<br/><br/>それというのは天孫系が出雲系に圧迫され、危うくなったのを救わんがためであったのはもちろんで、右の漢学者に対し和歌のごとき仮名書き文学は、大和民族系と思えばいいのである。<br/><br/>しかしこっちは戦争に無関係であったため、武人のように華かな存在ではないから、注意をされなかったのである。<br/><br/> 最後にかかねばならないのは、仁徳天皇、応神天皇、光明皇后、光明天皇は大和民族の御系統である。<br/><br/>次に、土匪（どひ）の系統であるが、この種族こそ祖先が、神武天皇に征服されたためその怨恨が今もなお残っており、この種族が彼の共産主義者である。<br/><br/>終戦前共産主義者が天皇に対し、いかに反感を抱いていたかは、右の因縁によるので、従って天皇制時代には、天皇の直属である軍人や官吏に対しても、従順でなかったのはそのためである。<br/><br/>また誰も不思議に思う事は、日本に生まれ、日本の米を食みながら、外国であるソ連に忠誠であり、祖国である日本に悪意を抱いているという一事である。<br/><br/>これも右の因縁を知ればなるほどと頷（うなず）くであろう。<br/><br/>彼らにとっては、ロシヤこそ祖国であるからである。<br/><br/> 今一つ知っておくべき事は、日本人中にも特に天皇に対し、極めて忠誠である分子と、割合薄い者とがあるのは、前者は真の天孫系であり、後者は出雲系であるからである。<br/><br/>これについて最も近い例としては、彼の二・二六事件である。<br/><br/>この事件をよく吟味すれば、その傾向が著しく現われていた事が判るが、これはいずれ詳しくかくつもりである。<br/><br/>最後に、霊統と系統との区別をかいてみるが、世人は霊統も系統も同じように思っているが、決してそうではない。<br/><br/>すなわち霊統とは魂の繋がりをいうので、これは永久不変一貫して変らないが、系統はそうではなく、いくらでも変るのである。<br/><br/>変るとはいわゆる混血である。<br/><br/>従って日本の四民族といえども、長い間にどのくらい混血して来たか判らないが、実は混血する程いいのである。<br/><br/>何となれば、種々の性格が混ざる以上、聡明な人間が出来る訳である。<br/><br/>ちょうど人間で言えば、色々な苦労をし、世の中の経験を多く積んだのと同様の意味である。<br/><br/>ゆえに世間では純血を貴いとしているが、これは反対で、昔から婚約の相手は遠く離れた程いいとしていたり、血族結婚を不可とするのは、そのために外ならないのである。<br/><br/>また白人特にアメリカ人に優秀な人間が多く出るのは、混血が東洋人よりもずっと多いからである。<br/><br/>これを最も判り易くいうと、機（はた）のようなもので、経（たて）糸が霊系で動かないが、緯（よこ）糸は体系であるから左右へ動くのと同様である。<br/><br/> 次に、四民族の数についていえば、天孫系が一番多く、出雲系がその次で、ずっと減っているのがコーカサス系であり、大和民族は最も少なく、まず私の推定では、百人中一人くらいとみればよかろう。<br/><br/> (注) 鼓腹撃壌（こふくげきじょう） 中国の尭（ぎよう）の時代に、一老人が腹鼓（はらつづみ）を打ち、大地を踏み鳴らし、太平の世への満足の気持ちを歌ったという「帝王世紀」「十八史略」などにみえる故事から、世の中の太平を楽しむこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

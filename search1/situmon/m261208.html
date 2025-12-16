@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M261208</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年12月8日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月八日 （お伺）丹久子（二十三歳）六歳の八月ごろに皮膚病（白アザ）で医診を受けましたところ、この病気には薬はないと言われ、太陽灯および紫外線を四、五カ月ほどいたし、アザに薬名不明の注射を二カ月いたしましたが治らず、その後病気は拡がり、右捷毛（まつげ）が全部白くなり、頭部右側四分ほど白アザで、毛は根本より一寸五分くらい白く、それより先は黒くなっております。<br><br>現在患部に熱があり、フケがたくさん出ます。<br><br>午後になりますと、顔に熱が出てまいります。<br><br>また肩、腰に熱があるようでございます。<br><br>御浄霊は入信（昭和二十六年四月）の時より信徒の方にいただいております。<br><br>なお、家族のうち本人のみ入信。<br><br>御神体、御屏風観音様は御奉斎いたしておりません。<br><br> 〔御垂示〕 皮膚病というのは、霊的以外は薬毒ですがね。<br><br>この白アザも薬毒ですよ。<br><br>霊的のアザですね――あれは生まれつきです。<br><br>それはちょっと治りません。<br><br>これは、親が服んだ薬毒ですから、治るんですが――太陽灯、紫外線――これをやってから固めてあるから、治り悪くなるんですよ。<br><br>それから、薬名不明の――これがやっぱり禍しますね。<br><br>腕ならたいしたことはないが、患部とすると、やっぱりたいへん悪影響します。<br><br>捷毛が白くなるのは、無論薬毒ですよ。<br><br>これは気長にやれば治りますね。<br><br>それで、光明如来様をお祀りして、その部屋に寝るようにして、良くお願いするとずっと良く治りますね。<br><br>この年頃だから、早く治さなければ、売れ口の方に関係する。<br><br>まあ、そういうふうにされた方が良いですね。<br><br> （お伺）進藤仲子（四十六歳）十年前子宮外妊娠にて開腹手術を行ないました。<br><br>本年九月腹膜炎の症状となり、医診を受けましたところ、子宮筋腫ならびに結核性腹膜炎で手術不可能と言われ、ペニシリン、ストレプトマイシン四十本を打ってみるより方法なしとのことで、不安になり、御浄霊でとおすがりいたし、今日に至っております。<br><br>なお、五年ほど前に一度御守り様をお受けいたしましたが、一時的で信仰より遠ざかっておりましたが、九月に改めて入信いたし御浄霊をさせていただいております。<br><br>腹膜は、御守護いただき一カ月ほどで治りました。<br><br>その後一カ月、二月中旬より腹部がしだいに腫れてまいり、下旬には乳下から下腹部まで、指で押してもへこまぬほどに固く大きく腫れましたが、そのころからやや排除が始まり、下痢と下りものが続き、腹部も柔らかくなりました。<br><br>現在はガスを非常に出しており、下痢と下りものは前ほどでないようでございます。<br><br>食欲はありますが、胸部の圧迫感のため一日三杯足らずです。<br><br>苦痛は、胸と腹部の圧迫感、横腹の吊れるような痛み、浮腫みのための足のだるさなどでございます。<br><br>右につき御浄霊の要点を御教示お願い申し上げます。<br><br> 〔御垂示〕 これは腎臓ですよ。<br><br>腎臓萎縮ですね。<br><br>だから、腎臓部に囲まりがあるから、そこを精密に浄霊して、次はお腹ですね。<br><br>そうすれば治るわけですがね。<br><br>それだけのものですね。<br><br>力をできるだけ抜いてやれば、腎臓も良く溶けますからね。<br><br> （お伺）娘幸子（二十九歳）幼少より象皮病（主に手足）にて悩んでおります。<br><br>入信前は漢方薬「どくだみ」を二年くらい服用いたし、また電気療法も一年いたしましたが効果なく、三年以前より一週間に三回ほど御浄霊をいただいており、お蔭様で両手はたいへん柔らかくなりましたが、最近両脚の方に御浄化いただき、皮膚が以前より黒く固くなり、ヒビ割れし、重く疲れるようになりました。<br><br>クリームを脚全体にすり込むといくぶん楽になります。<br><br>ヒビ割れの場所に絆創膏を貼っておりますが、今後御霊紙を貼らしていただきたいと思いますが、いかがなものでございましょうか。<br><br>また御浄霊の箇所を御教示お願い申し上げます。<br><br> 〔御垂示〕 効果なく――こういうことをして、治らないようにしているんですから、恐いですよ。<br><br>クリーム――これはいけないですね。<br><br>こうすると治らないですよ。<br><br>今後御霊紙を――結構ですよ。<br><br>いかがなもので――まあ、治りたいと思ったら御霊紙を貼りなさい。<br><br>クリーム、絆創膏――治らないばかりか、よけい悪くなります。<br><br>薬毒が滲み込んでね。<br><br>クリームというが、薬毒が入ってます。<br><br>クリーム中毒というのは恐ろしいものです。<br><br>皮膚が青くなります。<br><br>それでまた、クリームをやらなければならないと言って、やりますがね。<br><br>薬毒です。<br><br> 「親の薬毒でございましょうか。<br><br>」 親の薬毒も本人の薬毒もあります。<br><br>だから、やっぱり薬によるのではなく、その人によるんですね。<br><br>割れるなんてのは、蛇か蝮蛇（まむし）の毒かもしれませんね。<br><br>あれは、よくそうなります。<br><br>ふつうの薬ではないですね。<br><br>蝮蛇か蛇ですね。<br><br>まあ、気長にやればだんだん少しずつ良くなります。<br><br> （お伺）橋並芳野（五十四歳）二十年ほど前腰痛にて医診の結果、子宮に毒結の固まりがあると言われ、薬剤を二回ほど服用、人婦湯を服用し治りましたが、以後四、五回腰痛があり、人婦湯服用を続けておりましたところ、本年四月腰痛の激痛のため医診を受けましたが、子宮癌とのことでさっそく。<br><br>医大にて手術の予定のところに、お道のお話を聞き、養子の佐一が入信し御浄霊をいただいておりました。<br><br>本人も六月八日入信いたし、娘も九月に入信、御神体ならびに御屏風観音様も御奉斎させていただきました。<br><br>七月ごろより下腹部の激痛の御浄化いただき、背部と尾てい骨の御浄霊にて楽にさせていただき、なお本人は脳溢血症状にて、話中聞き取り悪い点がありましたが、前後頭部、延髄の御浄霊により普通状態にならせていただきました。<br><br>下りものは八月に一回少量ありました。<br><br>下腹部の痛みは今月まで続いております。<br><br>家族の者の、腹および背部の御浄霊一時間ほどで一時楽になりますが、私（教師）が尾てい骨と背部を二十分くらいいたしますと、痛みが取れますが、また痛みます。<br><br>なお鳩尾より臍に固結があり、痛む時は固結の脈拍が非常に高くなります。<br><br>御浄霊の箇所を御教示お願い申し上げます。<br><br> 〔御垂示〕 人婦湯――これは漢方薬だね。<br><br>これは子宮癌じゃありません。<br><br>子宮癌は痛まないんです――本当の癌ならね。<br><br>これはやはり毒血ですね。<br><br>月経みたいなものです。<br><br>やっぱり、薬毒も混じってますからね。<br><br>ですから気長にやったら治りますね。<br><br>癌は――少し痛みますが、強い痛みはないものなんです。<br><br>痛みがあるものなら治り良いんですよ。<br><br>治るものですからね。<br><br>従って、痛むものほど安心なんです。<br><br>痛まないものほど治らない――ということはないが、治り悪いんです。<br><br>こういう人なんか、割合に早く治るわけですがね。<br><br>これもできるだけ力を抜いて――箇所は痛い所だけで良いんです。<br><br>そうして、下の方に溜まっているから、上のほうの毒が下りていくんです。<br><br>ですから――頭から背中ですね。<br><br>そういう所を良く調べて、熱とか痛み――固まりがあるから、それから溶けて下にいって、腹に固まるとかなんですね。<br><br> （お伺）重歳幸太郎（四十七歳）八月に肺浸潤と診断され、マイシン四十本打ち、絶対安静をしておりましたが、お道のお話を聞かれると同時に医療を全廃し、ひたすらお道にすがって御浄霊いただいております。<br><br>本月二十四日ごろより咳の御浄化で、連日一升余の痰の排泄もなくなりました。<br><br>最近胸、咽喉、下腹に痛みを覚え、食欲はあり、体力旺盛ですが、咳のため不眠が多く漸次衰弱しております。<br><br>御浄霊は全頭部、淋巴腺、背部などを主としていたしております。<br><br>従来の信仰として真言宗、不動様、最上稲荷などで、霊動はございません。<br><br>家族は未入信。<br><br>御神体、御屏風観音様は御奉斎いたしておりません。<br><br>既往症としては、昨年狭心症で医療を受け、大酒家のため、飲酒後の服薬、淋病などでかなり薬剤を用いております。<br><br>御浄霊の箇所の御教え賜りたくお願い申し上げます。<br><br> 〔御垂示〕 これは薬毒ですね。<br><br>薬毒の排泄ですね。<br><br>咳があんまり出るというのは、浄霊する人が見当違いをやっている。<br><br>これは、良く調べてみると良いですよ。<br><br>咳は方々から出るが、その時一番出る急所を見つけると良い。<br><br>ところが、的はずれだと、よけい咳が出ます。<br><br>そこの――治っただけずつは平均浄化が起ります。<br><br>だから、やっているうちに、だんだん咳が減っていくというのが本当です。<br><br>だから、咳がよけい出るというのは、見当違いだから、良く調べてみると良い。<br><br>咳が最も出るのは、ここ（頸部淋巴腺）ですね――たいてい、ここか。<br><br>延髄は咳は少ないです。<br><br>これは水っぱなの方です。<br><br>あとは肩ですね。<br><br>背中も無論ありますよ。<br><br>左の方がきっと多いです。<br><br>それを浄霊するんですね。<br><br>それで、その時に――大体触ってみて一番熱のある所が――そこから咳が出るんですから、そこを発見する。<br><br>そうすれば、この人は治り良い質だから、治りますよ。<br><br>急所さえ見つければ割合早く咳は減っていきますからね。<br><br>それが一番肝腎ですね。<br><br> （お伺）結婚前までは順調に月経がございましたが、結婚後は半年に一回か、一年に一回少量しかありません。<br><br>いかなるわけでございましょうか。<br><br>同家は主人も弟妹ともワキガがありますのは、同家の因縁のためでございましょうか。<br><br> 〔御垂示〕 ワキガとは関係ありませんよ。<br><br>しかし、これはおかしいですね。<br><br>結婚すると、かえって順調になるのがあたりまえですがね。<br><br>これは少し変ですね。<br><br>しかし、月経の不順というのは、下腹に固まりがあって、喇叭（らっぱ）管の入口を圧迫するのと、あとは貧血ですね。<br><br>その二つの理由です。<br><br>そこで、下腹に固まりがあるかどうか、それを見て、固まりがあればそれを浄霊する。<br><br>その固まりは腎臓から出ているんですから腎臓を良く浄霊する。<br><br>あとは貧血ですがね。<br><br>この人は顔色はどうですか、悪いんですか。<br><br> 「至って健康で、顔色もよろしゅうございます。<br><br>」 下腹は。<br><br> 「見たことがございません。<br><br>」 押してみてご覧なさい。<br><br>あるいは、本人に押さしても良いです。<br><br>下腹ですよ。<br><br>こんなはずはないですがね。<br><br> （お伺）赤羽義治（未入信）の飼牛が非常に涙をこぼしますので、目を開いてみましたところ、黒玉の中に細い糸のような一寸くらいの虫がおり、獣医に診せたところ、さっそく針を入れて出そうとしたが、取れずに失明して白く腫れました。<br><br>その後頼まれて御浄霊をいたしましたところ、五日ほどで黒玉が見え出しましたが、やはり虫はピンピンしています。<br><br>その後御浄霊をしていると虫は見えなくなりました。<br><br>これは霊的でございましょうか。<br><br> 〔御垂示〕 おもしろいね。<br><br>これは随分変だね。<br><br>虫はピンピンというんだからね。<br><br>これは、霊的にも言えるけれども、なにかの折に眼に入った虫が、そこに食いついて、だんだん育っていった。<br><br>そうして、つまり浄霊したために、そういう虫はみんな毒を食うんだから、毒を食ってしまったので、それで弱ったというんで、別にたいしたことはないですよ。<br><br> （お伺）昭和十二年再婚し、実子千鶴子を養子縁組、長女に入籍いたしました。<br><br>千鶴子は十九年に女学校を卒業いたしましたが、神経衰弱となり、初めは、夜になると起きて私になにか言い、暴れておりました。<br><br>阪大の博士には精神分裂症と言われ、手術をするように言われましたが、いたしておりません。<br><br>カルモチン、プロパリンを連日用いておりました。<br><br>二十四年六月に入信。<br><br>八月に御屏風観音様、本年七月大光明如来様を御奉斎させていただきました。<br><br>主人は信仰に反対で、千鶴子のことで言い争いをいたし、それより家へ帰りません。<br><br>また私の弟妹が変死いたしておりますが、霊的関係がございましょうか。<br><br> 〔御垂示〕 この、妹、弟――二人ですかね。<br><br>これは関係がありますね。<br><br>この霊が憑っているんですね。<br><br>ちょっとふつうと違いますがね。<br><br>変死した時に、よほどショックを与えられたんですね。<br><br>それで、霊界に行ってもはっきりしないんですよ。<br><br>それが憑ったんですね。<br><br>その霊を救わなければならない。<br><br>第一番に、主人が反対ということでは、本当に治るわけにはいきませんね。<br><br>主人が信仰に入って妻君が反対している場合は始末が良いんです。<br><br>一家の主人が権を握っているから、一軒の家に病人があるというのは、主人の責任であり、主人の勢力の中にできた――なんだからね。<br><br>だから、まず主人が信仰に入るよりしようがないですね。<br><br>しかし、入れようと思っても入るわけじゃないから、奥さんが一生懸命お願いして時節を待つんです。<br><br>そうすると神様が、主人が入るような段取りにしてくれます。<br><br>それよりしかたがないですね。<br><br>苦しむというのは、主人にも罪があるんですからね。<br><br>しかし、無理に主人を信仰に入れると、逆効果になりますから、今言ったようにすれば良いです。<br><br> （お伺）田中省吾（四十二歳）、昭和六年五月満州にて流行性脳脊髄膜炎で入院し、七年五月ごろより松葉杖で歩行でき、九年春、歩行もふつうになりましたが、十七年ごろより再発し、電気マッサージ、ペニシリン四十本いたしましたが、立つことができません。<br><br>家業は写真屋でございます。<br><br>御浄霊を頼まれ、七十回ほどさせていただきましたが、たいして変化もございません。<br><br>本人も家族も信仰心がございません。<br><br>一週間ほど前に近所からいただいたリンゴに「優曇華（うどんげ）の花」が咲いておりました。<br><br>三、四年前にもそういうことがあり、母が中風ですぐ死んだそうで、たいへん心配しておりまして、天津祝詞と善言讃詞を奏上いたしました。<br><br>御浄霊の箇所および「優曇華の花」につき御教示賜りたくお願い申し上げます。<br><br> 〔御垂示〕 信仰心がない――これはいけませんね。<br><br>こういう考え方はね。<br><br>七十回もやって、信仰心が起らないような人間なら止した方が良いですよ。<br><br>これは、いくらやっても駄目ですよ。<br><br>最初は誰も信仰心がなくても良いですがね。<br><br>これだけ行くうちには、神様の話もしたでしょうが、これだけやってもこういうのは――そういうことに無駄骨折るのは、神様に対してもったいないですよ。<br><br>だから止めた方が良いですよ。<br><br>もう一つは、御神書――新聞とか雑誌とか――読まして、そうして信仰心の起らないのは、ほったらかして良いですよ。<br><br>あれを読んで、少しも信仰心が起らないのは、要するに頭脳が麻痺しているんだから――あれを読めば解るように書いてあるんだから、そいつに心が動かないようだったら駄目ですね。<br><br>そうかといって、ぜんぜん駄目ではない場合もある。<br><br>時節がある。<br><br>ああこれだなと言ってくることがありますからね。<br><br>読ませるだけは必要ですから、そこで、感じないような人は、まずほったらかしておくという方が能率的ですよ。<br><br>こんなに――七十回も行ってやるということは、能率的でない。<br><br>無駄骨というわけですから、かえってもったいないですよ。<br><br> （お伺）上坂たか（三十九歳）、今年春ごろより気分すぐれず全身だるく、食欲はなく衰弱の気味でございました。<br><br>五月ごろより下腹部が、固く大きく張ってまいりましたが、一カ月ほどで、やや柔らかくなり、今度は腹部全体が張り、腹膜の症状となりました。<br><br>八月末には小さくなりましたが、食欲が出ず、時々腹痛を感じました。<br><br>九月に入り、急に高熱が出て全身だるく、食欲なく骨と皮ばかりの状態となりました。<br><br>未入信の親戚や知人の反対を押しきり御浄霊いただいております。<br><br>最近は食欲は感じますが、食べようとするとお腹がいっぱいになり入りません。<br><br>無理に食べますとお腹が痛んで苦しみます。<br><br>御浄霊いただきますと止まりますが、止めますと三、四時間は痛みます。<br><br>腹部に大小三つの長めの固まりがあり、移動したり消えたりいたします。<br><br>娘のころから胃の背面、背骨が五個くらい外部に飛び出し、痛みは感じませんが、時々ちぎるようなだるさとたとえようのない苦しみを覚えます。<br><br>御浄霊は胃部の背面、飛び出した脊柱、左腎臓部、頸部ならびに耳下腺を主にさせていただいております。<br><br>なお、一家全部入信し御神体、御屏風観音様を御奉斎させていただいております。<br><br>御浄霊の箇所、腹部の固まり、食欲を感じても食べられないことにつき御教示のほどお願い申し上げます。<br><br> 〔御垂示〕 これはお腹に固まりがあるんですがね。<br><br>動けば蛇ですけれどもね。<br><br>蛇が悪い目的でやっているんですね。<br><br>けれども、もう食べられなければならないんですがね。<br><br>このくらい良くなればね。<br><br>これはその辺に毒素が非常によけいあるんですよ。<br><br>つまり、毒素があるんで、そういった邪霊が憑きやすいんですからね。<br><br>両方ですね。<br><br>これは、背中も肝腎だけれども、やっぱり腹の方からもやらなければならないです。<br><br>力が入るんじゃないかな。<br><br>力を抜くと非常に溶けやすい。<br><br>だから力を抜いてやってご覧なさい。<br><br>もう一息で治るんですがね。<br><br>外部に飛び出し――これは、あんまり関係しません。<br><br>これは、こっちが治ってからで良いです。<br><br>時々ちぎるような――これは、浄化が起るんだが――そういう時にやった方が良いですね。<br><br>そうすると治りが早いんです。<br><br>それから頭ですね。<br><br>頭が食欲に関係することがあります。<br><br>後頭部ですね。<br><br>頭を試しにやってみて――固まりがあれば、それを溶かす。<br><br>それから、熱い所ですね。<br><br>そうすれば、もう一息で良くなるわけですがね。<br><br> （お伺）五十三歳の信者。<br><br>昭和二十五年秋、腹部に湯呑み大の固結ができ、本年春医師に「腸間膜何々」と言われ、切開手術のうえ大小二十一個の固結を取りました。<br><br>本年夏ふたたび同じ所に大きい固結ができ、本年十一月入信し御浄霊をいただきましてより、激痛一回、小水が濁り、便秘がなくなり、腹部内でゴーゴーという音が聞こえるようになりました。<br><br>働くと苦しく、歩行困難になります。<br><br>なお、腹部に固結が発生したころに、南方にて長男戦病死の公報がありました。<br><br>これはいかなる原因でございましょうか。<br><br> 〔御垂示〕 便秘がなくなり――おかしいな。<br><br>これは霊的と関係ありませんよ。<br><br>お腹に、最初二十一個の――これはつまり、やっぱり医者の方で言う結核性腹膜とか、そういったようなものですがね。<br><br>膿の固まりですよ。<br><br>それを浄霊すると、一つ一つ取れていきますが、手術で止めましたからね。<br><br>止めると反動が起りますから、大きい固結というのはそれですよ。<br><br>ゴーゴー――これは溶けたわけですね。<br><br>気長にやれば治らないことはありませんよ。<br><br>これはやっぱり、元は薬毒ですよ。<br><br>腎臓を良くやってやるんですね。<br><br>病気は簡単なものですね。<br><br> （お伺）谷本豊子（二十九歳）腎臓病が悪化し、医師に見離され、御浄霊にて御守護いただき、入信いたしました。<br><br>お腹の御浄化で、だんだん張って臨月くらいになり、心臓も苦しくなりましたが、動くことはできました。<br><br>上下に汚物をたくさん出し、お腹はふつうになりましたが、三カ月ほどすると、再浄化いただき、前の半分くらいに張り、たいへん苦しく、足はぜんぜん立たなくなり、横にもなれず座ったままです。<br><br>下痢はしておりますが、出るのを感じません。<br><br>膝に薄赤色の斑点ができ、破れそうになり、お腹の上部に水ぶくれができて、汁が少しずつ出ております。<br><br>お道のことは、母親だけ少し解っておりますが、父親および家族全部は解っておりません。<br><br>御先祖は祀っておりません。<br><br>お祀りするように話ましたが、その気持ちはございません。<br><br>里に帰っておりますが、嫁入り先はぜんぜん解りません。<br><br>御浄霊の箇所御垂示のほどお願い申し上げます。<br><br> 〔御垂示〕 これは薬毒ですよ。<br><br>薬毒がたくさんあるんで、いろんな形になるんですね。<br><br>ですから、一番悪い所、悪い所をやって気長にやっていれば、だんだん治ってきますよ。<br><br>側の者が反対するだけは、治りが遅いけれども、これはしかたがありませんね。<br><br> （お伺）私の娘さい子（未入信。<br><br>三十歳）本年二月十七日無事二度目のお産をいたしましたが、四日目に自分で便所に行こうとして二、三歩、歩きかけました時、急に目まいを感じ、足に力が入らず、気が遠くなりかけ、そのまま床につきました。<br><br>御浄霊を一週間いただきましたが、はかばかしくございません。<br><br>私一人の入信のため、家族は反対で、米子病院に一週間通い電気および注射などをいたし、かえって悪化いたしましたので、家で灸および漢方薬などをいたしましたが、同じ状態でございます。<br><br>九月よりふたたび御浄霊をいただくようになりましたが、変化ございません。<br><br>頭部中央、後頭部が痛み、見たところは元気ですが、力が入りません。<br><br>月経も産後五カ月目よりありましたが、不順でございます。<br><br>月経前三、四日は特に頭痛激しく起きていることができません。<br><br>対談や大声や物のキシム音などはたいへん堪えられません。<br><br>食事はふつうでございます。<br><br>御浄霊の箇所を御垂示のほどお願い申し上げます。<br><br>なお、私が娘を浄霊いたしますと、その直後に私の目がタダレたようになります。<br><br>しかし、他の人の場合はさほどひどくはございません。<br><br>これはいかなるわけでございましょうか。<br><br> 〔御垂示〕 便所に行こうとして――これはいかんな。<br><br>産後は、絶対にこういう軽はずみをしてはいけませんね。<br><br>一週間は寝たっきりで、一週間経ってから座るくらいで、二週間経ってから歩くと、それでなんともないんです。<br><br>これは、早く歩きすぎたんです。<br><br>これは脳貧血ですよ。<br><br>月経は五カ月目より――早すぎたな。<br><br>大声――これは脳貧血の特徴ですね。<br><br>これは、別にたいしたことはない。<br><br>やっぱり浄霊に力が入るんじゃないかな。<br><br>非常に効きが悪いようですね。<br><br>ここ（頸部淋巴腺）を大いにやらなければならないね。<br><br>そんなものですね。<br><br>ここをやってご覧なさい。<br><br>それで良いでしょう。<br><br> （お伺）馬場利美（本年四月入信。<br><br>二十三歳）昨年四月ごろより右足第二関節炎になり、三カ月電気治療を受け、その後自宅にて注射を半年続けておりますうちに、関節がだんだん曲がらなくなり、いつも熱を持つようになりました。<br><br>本年三月より御浄霊をいただいておりますが、一時はだいぶ曲がるようになりましたが、四十日くらい前よりだんだん腫れ、激痛に足を動かすことも不可能となりました。<br><br>一昨年当人の姉が、右足骨膜と肺結核にて死亡いたしておりますが、霊的関係がございましょうか。<br><br>また御浄霊はどこをさせていただきましたらよろしいでしょうか。<br><br> 〔御垂示〕 これは、結構じゃありませんか。<br><br>これは――だいぶ曲がるようになった――上っ側の毒が取れたから曲がるようになった。<br><br>四十日くらい前より――というのは、芯が溶けてきたんだ。<br><br>激痛――これは結構です。<br><br>これはそこを浄霊していれば、どんどん腫れて、穴が開いて血膿が出て治ります。<br><br>結構です。<br><br>肺結核で――あるいは、この――姉さんが憑って起ったのかもしれないが、これは問題ではありません。<br><br>やはり、この人は毒があるんだから、そこに寄って行ったんだから、姉さんの霊が憑っていても、両方治すことになるから結構です。<br><br>腫れてくればなんでもないんですよ。<br><br>じきに治りますよ。<br><br> （お伺）西村延子（二十八歳）昭和二十二年四月左乳、背に細かい水泡ができ、痛みましたが医者にかからず、油薬と粉末を少し用い、五月中旬ごろ跡形を残し膿が少し出て治り、それと前後して水を欲するようになり、六月の終わりには一日五、六升くらい飲んでおりました。<br><br>最初ビタミンＢの不足とて一カ月注射を続けましたが、少しも良くならないため、他の医師にかかり入院し、尿崩症（にょうほうしょう）という病気で、脳下垂体後葉ホルモン不足に因る症状とのことでしたが、原因不明で治療法なしとのことで、牛の脳下垂体のホルモンを注射、また山羊のホルモン注射をいたしますと〇・五ＣＣで約七時間は平常となりますが、注射なしでおりますと一日七、八升、多い時は一斗近く飲みます。<br><br>水を二時間以上飲まずにおりますと苦しく、口中は乾き、胸が焼け、頭痛がし、堪えられなくなります。<br><br>夏は特に冷たい水を欲し、冬でも水の方がおいしく感じます。<br><br>ひどい時は夜中でも一時間ごとに水を飲み、激しい時は一度に三合ほど飲みますと、左の胸の辺りが冷たくなります。<br><br>排尿の方も一時間半くらいに多量いたします。<br><br>それより三年灸、指圧、鍼をいたしましたが、良くなりません。<br><br>昨年夏に左肺浸潤と言われ、マイシン三本、パスを少し服みましたが、嘔吐のために止めました。<br><br>本年七月お道のお話をお聞きし、八月に御守り様をいただき毎日御浄霊をいただいておりますが、あまり変化はございません。<br><br>光明如来様、御屏風観音様は、まだ御奉斎いたしておりません。<br><br>なお、亡父（陸軍少佐で、急性腹膜炎にて三日の病で死亡）の石碑を二十五回忌に建て、三カ月ほどしてよりこの状態になりました。<br><br>この関係がございましょうか。<br><br>どのようにいたしましたらよろしゅうございましょうか。<br><br> 〔御垂示〕 これは、大霊的ですよ。<br><br>これは龍神が憑っているんですよ。<br><br>そうとう大きなやつが憑っているんです。<br><br>これかも――亡父の石碑――亡父の霊かもしれませんね。<br><br>なにか、非常に執着を持っている。<br><br>それで蛇になっちゃったんですね。<br><br>それで――大きい蛇なんです。<br><br>それで水を欲しがる。<br><br>蛇というのは、非常に焼けるんです――体が熱くなるんですね。<br><br>ですから、飲まなければいられない。<br><br>そこで、蛇というのは執着の罪ですからね。<br><br>執着のそれを取っていくんですからね。<br><br>やっぱり前頭部を良く浄霊して、それから御神書をできるだけ聞かしてやる。<br><br>肺浸潤というのは、薬毒で作ったものですよ。<br><br>お医者にこしらえてもらった。<br><br>こんなことは問題ではないですがね。<br><br>そうしてやるんですね。<br><br>そうして龍神が救われるに従って治っていくわけですね。<br><br>これは治りますよ。<br><br>一番肝腎なのは、光明如来様をお祀りしなければ駄目だね。<br><br>お祀りしてその部屋に寝るようにする。<br><br>そうすると、ずっと早く治ります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre Johrei e a Causa das Doenças</h2>
 <p><strong>Pergunta:</strong> Tane Hisako, de 23 anos. Por volta dos seis anos de idade, fui diagnosticada com uma doença de pele (manchas brancas) e, na ocasião, o médico informou que não havia medicamento para tal condição. Submeti-me a tratamentos com lâmpada solar e raios ultravioleta por cerca de quatro a cinco meses e recebi injeções de um medicamento desconhecido nas manchas por dois meses, mas não obtive cura. Desde então, a doença se alastrou: todos os cílios do meu olho direito embranqueceram e, no lado direito da cabeça, uma área de manchas brancas se formou, onde os cabelos nascem brancos por cerca de cinco centímetros antes de voltarem à cor preta. Atualmente, sinto calor na região afetada e tenho muita caspa. Durante a tarde, meu rosto também esquenta, e sinto uma sensação de calor nos ombros e na cintura. Tenho recebido Johrei de outros membros desde que ingressei na fé, em abril de 1951. Sou a única fiel em minha família e não possuímos o Goshintai nem o Gobyobu Kannon-sama em nosso lar.</p>
@@ -128,5 +280,48 @@ function toggleLang(lang) {
 <p><strong>Orientação de Meishu-Sama:</strong> Ora, isso é excelente. A articulação voltou a dobrar porque as toxinas superficiais foram eliminadas. O inchaço e a dor intensa dos últimos quarenta dias significam que o núcleo do problema começou a se dissolver. A dor aguda é um ótimo sinal. Continuem ministrando Johrei nesse local. O inchaço aumentará ainda mais, um orifício se abrirá, pus e sangue serão expelidos, e a cura virá. É um processo excelente. Quanto à irmã falecida, é possível que o espírito dela esteja atuando, mas isso não é o mais importante. A verdade é que este jovem possui toxinas acumuladas, o que atraiu o espírito da irmã. Mesmo que haja essa influência espiritual, o tratamento cura ambas as causas. Portanto, está tudo bem. Quando o inchaço se manifesta, a solução está próxima. A cura virá em breve.</p>
 <p><strong>Pergunta:</strong> Nishimura Nobuko, de 28 anos. Em abril de 1957, surgiram pequenas bolhas d'água no meu seio esquerdo e nas costas, acompanhadas de dor. Não procurei um médico, apenas usei um óleo medicinal e um pó. Em meados de maio, as bolhas secaram, deixando cicatrizes e eliminando um pouco de pus. Na mesma época, comecei a sentir uma sede intensa. No final de junho, eu já bebia de cinco a seis litros de água por dia. Inicialmente, diagnosticaram deficiência de vitamina B, e recebi injeções por um mês, sem melhora. Procurei outro médico, fui internada e diagnosticada com diabetes insípido, uma condição causada pela deficiência do hormônio do lobo posterior da hipófise. A causa era desconhecida e não havia tratamento. Recebi injeções de hormônio de hipófise bovina e também de cabra. Uma dose de 0,5 cc normalizava meu estado por cerca de sete horas, mas, sem a injeção, eu bebia de sete a oito litros de água por dia, chegando a quase dezoito litros nos piores dias. Se fico mais de duas horas sem beber, sinto um sofrimento terrível, com a boca seca, queimação no peito e dor de cabeça. No verão, desejo especialmente água gelada, e mesmo no inverno, a água parece mais saborosa. Nos momentos mais críticos, bebo água a cada hora, mesmo durante a noite, chegando a ingerir mais de meio litro de uma só vez, o que me causa uma sensação de frio no lado esquerdo do peito. Também urino grandes volumes a cada hora e meia. Por três anos, tentei moxabustão, shiatsu e acupuntura, sem sucesso. No verão passado, fui diagnosticada com infiltração no pulmão esquerdo, tomei três injeções de um antibiótico e um pouco de outro medicamento, mas tive de parar por causa dos vômitos. Em julho deste ano, ouvi falar sobre nossa fé e, em agosto, recebi o Ohikari. Tenho recebido Johrei diariamente, mas não noto muitas mudanças. Ainda não consagrei a imagem de Komyō Nyorai-sama nem o Gobyobu Kannon-sama. Meu falecido pai, major do Exército, morreu de peritonite aguda após três dias de doença. Construímos um monumento em sua memória no 25º aniversário de sua morte, e meu estado se agravou três meses depois. Haveria alguma relação? O que devo fazer?</p>
 <p><strong>Orientação de Meishu-Sama:</strong> Este é um caso eminentemente espiritual. Um espírito de dragão está atuando sobre ela, um espírito bastante poderoso. A construção do monumento para o pai pode ter sido o gatilho; talvez seja o espírito do próprio pai, que nutre um apego muito forte e, por isso, se transformou em uma serpente de grande porte. É por essa razão que ela sente tanta sede. O corpo das serpentes espirituais queima intensamente, por isso elas precisam beber constantemente. A condição de serpente é resultado do pecado do apego. O Johrei atuará para eliminar esse apego. Portanto, ministre Johrei diligentemente na parte frontal da cabeça e, ao mesmo tempo, faça com que ela ouça a leitura dos Escritos Divinos o máximo possível. A infiltração pulmonar foi criada pelo yakudoku, um presente dos médicos. Não é um problema relevante. Procedendo dessa forma, à medida que o espírito de dragão for salvo, a cura se manifestará. Ela será curada. O ponto mais crucial, contudo, é a consagração da imagem de Komyō Nyorai-sama. Sem isso, a cura não será completa. Consagrem a imagem e façam com que ela durma no mesmo ambiente. Assim, a recuperação será muito mais rápida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御教え （S26年12月8日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月八日 （お伺）丹久子（二十三歳）六歳の八月ごろに皮膚病（白アザ）で医診を受けましたところ、この病気には薬はないと言われ、太陽灯および紫外線を四、五カ月ほどいたし、アザに薬名不明の注射を二カ月いたしましたが治らず、その後病気は拡がり、右捷毛（まつげ）が全部白くなり、頭部右側四分ほど白アザで、毛は根本より一寸五分くらい白く、それより先は黒くなっております。<br/><br/>現在患部に熱があり、フケがたくさん出ます。<br/><br/>午後になりますと、顔に熱が出てまいります。<br/><br/>また肩、腰に熱があるようでございます。<br/><br/>御浄霊は入信（昭和二十六年四月）の時より信徒の方にいただいております。<br/><br/>なお、家族のうち本人のみ入信。<br/><br/>御神体、御屏風観音様は御奉斎いたしておりません。<br/><br/> 〔御垂示〕 皮膚病というのは、霊的以外は薬毒ですがね。<br/><br/>この白アザも薬毒ですよ。<br/><br/>霊的のアザですね――あれは生まれつきです。<br/><br/>それはちょっと治りません。<br/><br/>これは、親が服んだ薬毒ですから、治るんですが――太陽灯、紫外線――これをやってから固めてあるから、治り悪くなるんですよ。<br/><br/>それから、薬名不明の――これがやっぱり禍しますね。<br/><br/>腕ならたいしたことはないが、患部とすると、やっぱりたいへん悪影響します。<br/><br/>捷毛が白くなるのは、無論薬毒ですよ。<br/><br/>これは気長にやれば治りますね。<br/><br/>それで、光明如来様をお祀りして、その部屋に寝るようにして、良くお願いするとずっと良く治りますね。<br/><br/>この年頃だから、早く治さなければ、売れ口の方に関係する。<br/><br/>まあ、そういうふうにされた方が良いですね。<br/><br/> （お伺）進藤仲子（四十六歳）十年前子宮外妊娠にて開腹手術を行ないました。<br/><br/>本年九月腹膜炎の症状となり、医診を受けましたところ、子宮筋腫ならびに結核性腹膜炎で手術不可能と言われ、ペニシリン、ストレプトマイシン四十本を打ってみるより方法なしとのことで、不安になり、御浄霊でとおすがりいたし、今日に至っております。<br/><br/>なお、五年ほど前に一度御守り様をお受けいたしましたが、一時的で信仰より遠ざかっておりましたが、九月に改めて入信いたし御浄霊をさせていただいております。<br/><br/>腹膜は、御守護いただき一カ月ほどで治りました。<br/><br/>その後一カ月、二月中旬より腹部がしだいに腫れてまいり、下旬には乳下から下腹部まで、指で押してもへこまぬほどに固く大きく腫れましたが、そのころからやや排除が始まり、下痢と下りものが続き、腹部も柔らかくなりました。<br/><br/>現在はガスを非常に出しており、下痢と下りものは前ほどでないようでございます。<br/><br/>食欲はありますが、胸部の圧迫感のため一日三杯足らずです。<br/><br/>苦痛は、胸と腹部の圧迫感、横腹の吊れるような痛み、浮腫みのための足のだるさなどでございます。<br/><br/>右につき御浄霊の要点を御教示お願い申し上げます。<br/><br/> 〔御垂示〕 これは腎臓ですよ。<br/><br/>腎臓萎縮ですね。<br/><br/>だから、腎臓部に囲まりがあるから、そこを精密に浄霊して、次はお腹ですね。<br/><br/>そうすれば治るわけですがね。<br/><br/>それだけのものですね。<br/><br/>力をできるだけ抜いてやれば、腎臓も良く溶けますからね。<br/><br/> （お伺）娘幸子（二十九歳）幼少より象皮病（主に手足）にて悩んでおります。<br/><br/>入信前は漢方薬「どくだみ」を二年くらい服用いたし、また電気療法も一年いたしましたが効果なく、三年以前より一週間に三回ほど御浄霊をいただいており、お蔭様で両手はたいへん柔らかくなりましたが、最近両脚の方に御浄化いただき、皮膚が以前より黒く固くなり、ヒビ割れし、重く疲れるようになりました。<br/><br/>クリームを脚全体にすり込むといくぶん楽になります。<br/><br/>ヒビ割れの場所に絆創膏を貼っておりますが、今後御霊紙を貼らしていただきたいと思いますが、いかがなものでございましょうか。<br/><br/>また御浄霊の箇所を御教示お願い申し上げます。<br/><br/> 〔御垂示〕 効果なく――こういうことをして、治らないようにしているんですから、恐いですよ。<br/><br/>クリーム――これはいけないですね。<br/><br/>こうすると治らないですよ。<br/><br/>今後御霊紙を――結構ですよ。<br/><br/>いかがなもので――まあ、治りたいと思ったら御霊紙を貼りなさい。<br/><br/>クリーム、絆創膏――治らないばかりか、よけい悪くなります。<br/><br/>薬毒が滲み込んでね。<br/><br/>クリームというが、薬毒が入ってます。<br/><br/>クリーム中毒というのは恐ろしいものです。<br/><br/>皮膚が青くなります。<br/><br/>それでまた、クリームをやらなければならないと言って、やりますがね。<br/><br/>薬毒です。<br/><br/> 「親の薬毒でございましょうか。<br/><br/>」 親の薬毒も本人の薬毒もあります。<br/><br/>だから、やっぱり薬によるのではなく、その人によるんですね。<br/><br/>割れるなんてのは、蛇か蝮蛇（まむし）の毒かもしれませんね。<br/><br/>あれは、よくそうなります。<br/><br/>ふつうの薬ではないですね。<br/><br/>蝮蛇か蛇ですね。<br/><br/>まあ、気長にやればだんだん少しずつ良くなります。<br/><br/> （お伺）橋並芳野（五十四歳）二十年ほど前腰痛にて医診の結果、子宮に毒結の固まりがあると言われ、薬剤を二回ほど服用、人婦湯を服用し治りましたが、以後四、五回腰痛があり、人婦湯服用を続けておりましたところ、本年四月腰痛の激痛のため医診を受けましたが、子宮癌とのことでさっそく。<br/><br/>医大にて手術の予定のところに、お道のお話を聞き、養子の佐一が入信し御浄霊をいただいておりました。<br/><br/>本人も六月八日入信いたし、娘も九月に入信、御神体ならびに御屏風観音様も御奉斎させていただきました。<br/><br/>七月ごろより下腹部の激痛の御浄化いただき、背部と尾てい骨の御浄霊にて楽にさせていただき、なお本人は脳溢血症状にて、話中聞き取り悪い点がありましたが、前後頭部、延髄の御浄霊により普通状態にならせていただきました。<br/><br/>下りものは八月に一回少量ありました。<br/><br/>下腹部の痛みは今月まで続いております。<br/><br/>家族の者の、腹および背部の御浄霊一時間ほどで一時楽になりますが、私（教師）が尾てい骨と背部を二十分くらいいたしますと、痛みが取れますが、また痛みます。<br/><br/>なお鳩尾より臍に固結があり、痛む時は固結の脈拍が非常に高くなります。<br/><br/>御浄霊の箇所を御教示お願い申し上げます。<br/><br/> 〔御垂示〕 人婦湯――これは漢方薬だね。<br/><br/>これは子宮癌じゃありません。<br/><br/>子宮癌は痛まないんです――本当の癌ならね。<br/><br/>これはやはり毒血ですね。<br/><br/>月経みたいなものです。<br/><br/>やっぱり、薬毒も混じってますからね。<br/><br/>ですから気長にやったら治りますね。<br/><br/>癌は――少し痛みますが、強い痛みはないものなんです。<br/><br/>痛みがあるものなら治り良いんですよ。<br/><br/>治るものですからね。<br/><br/>従って、痛むものほど安心なんです。<br/><br/>痛まないものほど治らない――ということはないが、治り悪いんです。<br/><br/>こういう人なんか、割合に早く治るわけですがね。<br/><br/>これもできるだけ力を抜いて――箇所は痛い所だけで良いんです。<br/><br/>そうして、下の方に溜まっているから、上のほうの毒が下りていくんです。<br/><br/>ですから――頭から背中ですね。<br/><br/>そういう所を良く調べて、熱とか痛み――固まりがあるから、それから溶けて下にいって、腹に固まるとかなんですね。<br/><br/> （お伺）重歳幸太郎（四十七歳）八月に肺浸潤と診断され、マイシン四十本打ち、絶対安静をしておりましたが、お道のお話を聞かれると同時に医療を全廃し、ひたすらお道にすがって御浄霊いただいております。<br/><br/>本月二十四日ごろより咳の御浄化で、連日一升余の痰の排泄もなくなりました。<br/><br/>最近胸、咽喉、下腹に痛みを覚え、食欲はあり、体力旺盛ですが、咳のため不眠が多く漸次衰弱しております。<br/><br/>御浄霊は全頭部、淋巴腺、背部などを主としていたしております。<br/><br/>従来の信仰として真言宗、不動様、最上稲荷などで、霊動はございません。<br/><br/>家族は未入信。<br/><br/>御神体、御屏風観音様は御奉斎いたしておりません。<br/><br/>既往症としては、昨年狭心症で医療を受け、大酒家のため、飲酒後の服薬、淋病などでかなり薬剤を用いております。<br/><br/>御浄霊の箇所の御教え賜りたくお願い申し上げます。<br/><br/> 〔御垂示〕 これは薬毒ですね。<br/><br/>薬毒の排泄ですね。<br/><br/>咳があんまり出るというのは、浄霊する人が見当違いをやっている。<br/><br/>これは、良く調べてみると良いですよ。<br/><br/>咳は方々から出るが、その時一番出る急所を見つけると良い。<br/><br/>ところが、的はずれだと、よけい咳が出ます。<br/><br/>そこの――治っただけずつは平均浄化が起ります。<br/><br/>だから、やっているうちに、だんだん咳が減っていくというのが本当です。<br/><br/>だから、咳がよけい出るというのは、見当違いだから、良く調べてみると良い。<br/><br/>咳が最も出るのは、ここ（頸部淋巴腺）ですね――たいてい、ここか。<br/><br/>延髄は咳は少ないです。<br/><br/>これは水っぱなの方です。<br/><br/>あとは肩ですね。<br/><br/>背中も無論ありますよ。<br/><br/>左の方がきっと多いです。<br/><br/>それを浄霊するんですね。<br/><br/>それで、その時に――大体触ってみて一番熱のある所が――そこから咳が出るんですから、そこを発見する。<br/><br/>そうすれば、この人は治り良い質だから、治りますよ。<br/><br/>急所さえ見つければ割合早く咳は減っていきますからね。<br/><br/>それが一番肝腎ですね。<br/><br/> （お伺）結婚前までは順調に月経がございましたが、結婚後は半年に一回か、一年に一回少量しかありません。<br/><br/>いかなるわけでございましょうか。<br/><br/>同家は主人も弟妹ともワキガがありますのは、同家の因縁のためでございましょうか。<br/><br/> 〔御垂示〕 ワキガとは関係ありませんよ。<br/><br/>しかし、これはおかしいですね。<br/><br/>結婚すると、かえって順調になるのがあたりまえですがね。<br/><br/>これは少し変ですね。<br/><br/>しかし、月経の不順というのは、下腹に固まりがあって、喇叭（らっぱ）管の入口を圧迫するのと、あとは貧血ですね。<br/><br/>その二つの理由です。<br/><br/>そこで、下腹に固まりがあるかどうか、それを見て、固まりがあればそれを浄霊する。<br/><br/>その固まりは腎臓から出ているんですから腎臓を良く浄霊する。<br/><br/>あとは貧血ですがね。<br/><br/>この人は顔色はどうですか、悪いんですか。<br/><br/> 「至って健康で、顔色もよろしゅうございます。<br/><br/>」 下腹は。<br/><br/> 「見たことがございません。<br/><br/>」 押してみてご覧なさい。<br/><br/>あるいは、本人に押さしても良いです。<br/><br/>下腹ですよ。<br/><br/>こんなはずはないですがね。<br/><br/> （お伺）赤羽義治（未入信）の飼牛が非常に涙をこぼしますので、目を開いてみましたところ、黒玉の中に細い糸のような一寸くらいの虫がおり、獣医に診せたところ、さっそく針を入れて出そうとしたが、取れずに失明して白く腫れました。<br/><br/>その後頼まれて御浄霊をいたしましたところ、五日ほどで黒玉が見え出しましたが、やはり虫はピンピンしています。<br/><br/>その後御浄霊をしていると虫は見えなくなりました。<br/><br/>これは霊的でございましょうか。<br/><br/> 〔御垂示〕 おもしろいね。<br/><br/>これは随分変だね。<br/><br/>虫はピンピンというんだからね。<br/><br/>これは、霊的にも言えるけれども、なにかの折に眼に入った虫が、そこに食いついて、だんだん育っていった。<br/><br/>そうして、つまり浄霊したために、そういう虫はみんな毒を食うんだから、毒を食ってしまったので、それで弱ったというんで、別にたいしたことはないですよ。<br/><br/> （お伺）昭和十二年再婚し、実子千鶴子を養子縁組、長女に入籍いたしました。<br/><br/>千鶴子は十九年に女学校を卒業いたしましたが、神経衰弱となり、初めは、夜になると起きて私になにか言い、暴れておりました。<br/><br/>阪大の博士には精神分裂症と言われ、手術をするように言われましたが、いたしておりません。<br/><br/>カルモチン、プロパリンを連日用いておりました。<br/><br/>二十四年六月に入信。<br/><br/>八月に御屏風観音様、本年七月大光明如来様を御奉斎させていただきました。<br/><br/>主人は信仰に反対で、千鶴子のことで言い争いをいたし、それより家へ帰りません。<br/><br/>また私の弟妹が変死いたしておりますが、霊的関係がございましょうか。<br/><br/> 〔御垂示〕 この、妹、弟――二人ですかね。<br/><br/>これは関係がありますね。<br/><br/>この霊が憑っているんですね。<br/><br/>ちょっとふつうと違いますがね。<br/><br/>変死した時に、よほどショックを与えられたんですね。<br/><br/>それで、霊界に行ってもはっきりしないんですよ。<br/><br/>それが憑ったんですね。<br/><br/>その霊を救わなければならない。<br/><br/>第一番に、主人が反対ということでは、本当に治るわけにはいきませんね。<br/><br/>主人が信仰に入って妻君が反対している場合は始末が良いんです。<br/><br/>一家の主人が権を握っているから、一軒の家に病人があるというのは、主人の責任であり、主人の勢力の中にできた――なんだからね。<br/><br/>だから、まず主人が信仰に入るよりしようがないですね。<br/><br/>しかし、入れようと思っても入るわけじゃないから、奥さんが一生懸命お願いして時節を待つんです。<br/><br/>そうすると神様が、主人が入るような段取りにしてくれます。<br/><br/>それよりしかたがないですね。<br/><br/>苦しむというのは、主人にも罪があるんですからね。<br/><br/>しかし、無理に主人を信仰に入れると、逆効果になりますから、今言ったようにすれば良いです。<br/><br/> （お伺）田中省吾（四十二歳）、昭和六年五月満州にて流行性脳脊髄膜炎で入院し、七年五月ごろより松葉杖で歩行でき、九年春、歩行もふつうになりましたが、十七年ごろより再発し、電気マッサージ、ペニシリン四十本いたしましたが、立つことができません。<br/><br/>家業は写真屋でございます。<br/><br/>御浄霊を頼まれ、七十回ほどさせていただきましたが、たいして変化もございません。<br/><br/>本人も家族も信仰心がございません。<br/><br/>一週間ほど前に近所からいただいたリンゴに「優曇華（うどんげ）の花」が咲いておりました。<br/><br/>三、四年前にもそういうことがあり、母が中風ですぐ死んだそうで、たいへん心配しておりまして、天津祝詞と善言讃詞を奏上いたしました。<br/><br/>御浄霊の箇所および「優曇華の花」につき御教示賜りたくお願い申し上げます。<br/><br/> 〔御垂示〕 信仰心がない――これはいけませんね。<br/><br/>こういう考え方はね。<br/><br/>七十回もやって、信仰心が起らないような人間なら止した方が良いですよ。<br/><br/>これは、いくらやっても駄目ですよ。<br/><br/>最初は誰も信仰心がなくても良いですがね。<br/><br/>これだけ行くうちには、神様の話もしたでしょうが、これだけやってもこういうのは――そういうことに無駄骨折るのは、神様に対してもったいないですよ。<br/><br/>だから止めた方が良いですよ。<br/><br/>もう一つは、御神書――新聞とか雑誌とか――読まして、そうして信仰心の起らないのは、ほったらかして良いですよ。<br/><br/>あれを読んで、少しも信仰心が起らないのは、要するに頭脳が麻痺しているんだから――あれを読めば解るように書いてあるんだから、そいつに心が動かないようだったら駄目ですね。<br/><br/>そうかといって、ぜんぜん駄目ではない場合もある。<br/><br/>時節がある。<br/><br/>ああこれだなと言ってくることがありますからね。<br/><br/>読ませるだけは必要ですから、そこで、感じないような人は、まずほったらかしておくという方が能率的ですよ。<br/><br/>こんなに――七十回も行ってやるということは、能率的でない。<br/><br/>無駄骨というわけですから、かえってもったいないですよ。<br/><br/> （お伺）上坂たか（三十九歳）、今年春ごろより気分すぐれず全身だるく、食欲はなく衰弱の気味でございました。<br/><br/>五月ごろより下腹部が、固く大きく張ってまいりましたが、一カ月ほどで、やや柔らかくなり、今度は腹部全体が張り、腹膜の症状となりました。<br/><br/>八月末には小さくなりましたが、食欲が出ず、時々腹痛を感じました。<br/><br/>九月に入り、急に高熱が出て全身だるく、食欲なく骨と皮ばかりの状態となりました。<br/><br/>未入信の親戚や知人の反対を押しきり御浄霊いただいております。<br/><br/>最近は食欲は感じますが、食べようとするとお腹がいっぱいになり入りません。<br/><br/>無理に食べますとお腹が痛んで苦しみます。<br/><br/>御浄霊いただきますと止まりますが、止めますと三、四時間は痛みます。<br/><br/>腹部に大小三つの長めの固まりがあり、移動したり消えたりいたします。<br/><br/>娘のころから胃の背面、背骨が五個くらい外部に飛び出し、痛みは感じませんが、時々ちぎるようなだるさとたとえようのない苦しみを覚えます。<br/><br/>御浄霊は胃部の背面、飛び出した脊柱、左腎臓部、頸部ならびに耳下腺を主にさせていただいております。<br/><br/>なお、一家全部入信し御神体、御屏風観音様を御奉斎させていただいております。<br/><br/>御浄霊の箇所、腹部の固まり、食欲を感じても食べられないことにつき御教示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 これはお腹に固まりがあるんですがね。<br/><br/>動けば蛇ですけれどもね。<br/><br/>蛇が悪い目的でやっているんですね。<br/><br/>けれども、もう食べられなければならないんですがね。<br/><br/>このくらい良くなればね。<br/><br/>これはその辺に毒素が非常によけいあるんですよ。<br/><br/>つまり、毒素があるんで、そういった邪霊が憑きやすいんですからね。<br/><br/>両方ですね。<br/><br/>これは、背中も肝腎だけれども、やっぱり腹の方からもやらなければならないです。<br/><br/>力が入るんじゃないかな。<br/><br/>力を抜くと非常に溶けやすい。<br/><br/>だから力を抜いてやってご覧なさい。<br/><br/>もう一息で治るんですがね。<br/><br/>外部に飛び出し――これは、あんまり関係しません。<br/><br/>これは、こっちが治ってからで良いです。<br/><br/>時々ちぎるような――これは、浄化が起るんだが――そういう時にやった方が良いですね。<br/><br/>そうすると治りが早いんです。<br/><br/>それから頭ですね。<br/><br/>頭が食欲に関係することがあります。<br/><br/>後頭部ですね。<br/><br/>頭を試しにやってみて――固まりがあれば、それを溶かす。<br/><br/>それから、熱い所ですね。<br/><br/>そうすれば、もう一息で良くなるわけですがね。<br/><br/> （お伺）五十三歳の信者。<br/><br/>昭和二十五年秋、腹部に湯呑み大の固結ができ、本年春医師に「腸間膜何々」と言われ、切開手術のうえ大小二十一個の固結を取りました。<br/><br/>本年夏ふたたび同じ所に大きい固結ができ、本年十一月入信し御浄霊をいただきましてより、激痛一回、小水が濁り、便秘がなくなり、腹部内でゴーゴーという音が聞こえるようになりました。<br/><br/>働くと苦しく、歩行困難になります。<br/><br/>なお、腹部に固結が発生したころに、南方にて長男戦病死の公報がありました。<br/><br/>これはいかなる原因でございましょうか。<br/><br/> 〔御垂示〕 便秘がなくなり――おかしいな。<br/><br/>これは霊的と関係ありませんよ。<br/><br/>お腹に、最初二十一個の――これはつまり、やっぱり医者の方で言う結核性腹膜とか、そういったようなものですがね。<br/><br/>膿の固まりですよ。<br/><br/>それを浄霊すると、一つ一つ取れていきますが、手術で止めましたからね。<br/><br/>止めると反動が起りますから、大きい固結というのはそれですよ。<br/><br/>ゴーゴー――これは溶けたわけですね。<br/><br/>気長にやれば治らないことはありませんよ。<br/><br/>これはやっぱり、元は薬毒ですよ。<br/><br/>腎臓を良くやってやるんですね。<br/><br/>病気は簡単なものですね。<br/><br/> （お伺）谷本豊子（二十九歳）腎臓病が悪化し、医師に見離され、御浄霊にて御守護いただき、入信いたしました。<br/><br/>お腹の御浄化で、だんだん張って臨月くらいになり、心臓も苦しくなりましたが、動くことはできました。<br/><br/>上下に汚物をたくさん出し、お腹はふつうになりましたが、三カ月ほどすると、再浄化いただき、前の半分くらいに張り、たいへん苦しく、足はぜんぜん立たなくなり、横にもなれず座ったままです。<br/><br/>下痢はしておりますが、出るのを感じません。<br/><br/>膝に薄赤色の斑点ができ、破れそうになり、お腹の上部に水ぶくれができて、汁が少しずつ出ております。<br/><br/>お道のことは、母親だけ少し解っておりますが、父親および家族全部は解っておりません。<br/><br/>御先祖は祀っておりません。<br/><br/>お祀りするように話ましたが、その気持ちはございません。<br/><br/>里に帰っておりますが、嫁入り先はぜんぜん解りません。<br/><br/>御浄霊の箇所御垂示のほどお願い申し上げます。<br/><br/> 〔御垂示〕 これは薬毒ですよ。<br/><br/>薬毒がたくさんあるんで、いろんな形になるんですね。<br/><br/>ですから、一番悪い所、悪い所をやって気長にやっていれば、だんだん治ってきますよ。<br/><br/>側の者が反対するだけは、治りが遅いけれども、これはしかたがありませんね。<br/><br/> （お伺）私の娘さい子（未入信。<br/><br/>三十歳）本年二月十七日無事二度目のお産をいたしましたが、四日目に自分で便所に行こうとして二、三歩、歩きかけました時、急に目まいを感じ、足に力が入らず、気が遠くなりかけ、そのまま床につきました。<br/><br/>御浄霊を一週間いただきましたが、はかばかしくございません。<br/><br/>私一人の入信のため、家族は反対で、米子病院に一週間通い電気および注射などをいたし、かえって悪化いたしましたので、家で灸および漢方薬などをいたしましたが、同じ状態でございます。<br/><br/>九月よりふたたび御浄霊をいただくようになりましたが、変化ございません。<br/><br/>頭部中央、後頭部が痛み、見たところは元気ですが、力が入りません。<br/><br/>月経も産後五カ月目よりありましたが、不順でございます。<br/><br/>月経前三、四日は特に頭痛激しく起きていることができません。<br/><br/>対談や大声や物のキシム音などはたいへん堪えられません。<br/><br/>食事はふつうでございます。<br/><br/>御浄霊の箇所を御垂示のほどお願い申し上げます。<br/><br/>なお、私が娘を浄霊いたしますと、その直後に私の目がタダレたようになります。<br/><br/>しかし、他の人の場合はさほどひどくはございません。<br/><br/>これはいかなるわけでございましょうか。<br/><br/> 〔御垂示〕 便所に行こうとして――これはいかんな。<br/><br/>産後は、絶対にこういう軽はずみをしてはいけませんね。<br/><br/>一週間は寝たっきりで、一週間経ってから座るくらいで、二週間経ってから歩くと、それでなんともないんです。<br/><br/>これは、早く歩きすぎたんです。<br/><br/>これは脳貧血ですよ。<br/><br/>月経は五カ月目より――早すぎたな。<br/><br/>大声――これは脳貧血の特徴ですね。<br/><br/>これは、別にたいしたことはない。<br/><br/>やっぱり浄霊に力が入るんじゃないかな。<br/><br/>非常に効きが悪いようですね。<br/><br/>ここ（頸部淋巴腺）を大いにやらなければならないね。<br/><br/>そんなものですね。<br/><br/>ここをやってご覧なさい。<br/><br/>それで良いでしょう。<br/><br/> （お伺）馬場利美（本年四月入信。<br/><br/>二十三歳）昨年四月ごろより右足第二関節炎になり、三カ月電気治療を受け、その後自宅にて注射を半年続けておりますうちに、関節がだんだん曲がらなくなり、いつも熱を持つようになりました。<br/><br/>本年三月より御浄霊をいただいておりますが、一時はだいぶ曲がるようになりましたが、四十日くらい前よりだんだん腫れ、激痛に足を動かすことも不可能となりました。<br/><br/>一昨年当人の姉が、右足骨膜と肺結核にて死亡いたしておりますが、霊的関係がございましょうか。<br/><br/>また御浄霊はどこをさせていただきましたらよろしいでしょうか。<br/><br/> 〔御垂示〕 これは、結構じゃありませんか。<br/><br/>これは――だいぶ曲がるようになった――上っ側の毒が取れたから曲がるようになった。<br/><br/>四十日くらい前より――というのは、芯が溶けてきたんだ。<br/><br/>激痛――これは結構です。<br/><br/>これはそこを浄霊していれば、どんどん腫れて、穴が開いて血膿が出て治ります。<br/><br/>結構です。<br/><br/>肺結核で――あるいは、この――姉さんが憑って起ったのかもしれないが、これは問題ではありません。<br/><br/>やはり、この人は毒があるんだから、そこに寄って行ったんだから、姉さんの霊が憑っていても、両方治すことになるから結構です。<br/><br/>腫れてくればなんでもないんですよ。<br/><br/>じきに治りますよ。<br/><br/> （お伺）西村延子（二十八歳）昭和二十二年四月左乳、背に細かい水泡ができ、痛みましたが医者にかからず、油薬と粉末を少し用い、五月中旬ごろ跡形を残し膿が少し出て治り、それと前後して水を欲するようになり、六月の終わりには一日五、六升くらい飲んでおりました。<br/><br/>最初ビタミンＢの不足とて一カ月注射を続けましたが、少しも良くならないため、他の医師にかかり入院し、尿崩症（にょうほうしょう）という病気で、脳下垂体後葉ホルモン不足に因る症状とのことでしたが、原因不明で治療法なしとのことで、牛の脳下垂体のホルモンを注射、また山羊のホルモン注射をいたしますと〇・五ＣＣで約七時間は平常となりますが、注射なしでおりますと一日七、八升、多い時は一斗近く飲みます。<br/><br/>水を二時間以上飲まずにおりますと苦しく、口中は乾き、胸が焼け、頭痛がし、堪えられなくなります。<br/><br/>夏は特に冷たい水を欲し、冬でも水の方がおいしく感じます。<br/><br/>ひどい時は夜中でも一時間ごとに水を飲み、激しい時は一度に三合ほど飲みますと、左の胸の辺りが冷たくなります。<br/><br/>排尿の方も一時間半くらいに多量いたします。<br/><br/>それより三年灸、指圧、鍼をいたしましたが、良くなりません。<br/><br/>昨年夏に左肺浸潤と言われ、マイシン三本、パスを少し服みましたが、嘔吐のために止めました。<br/><br/>本年七月お道のお話をお聞きし、八月に御守り様をいただき毎日御浄霊をいただいておりますが、あまり変化はございません。<br/><br/>光明如来様、御屏風観音様は、まだ御奉斎いたしておりません。<br/><br/>なお、亡父（陸軍少佐で、急性腹膜炎にて三日の病で死亡）の石碑を二十五回忌に建て、三カ月ほどしてよりこの状態になりました。<br/><br/>この関係がございましょうか。<br/><br/>どのようにいたしましたらよろしゅうございましょうか。<br/><br/> 〔御垂示〕 これは、大霊的ですよ。<br/><br/>これは龍神が憑っているんですよ。<br/><br/>そうとう大きなやつが憑っているんです。<br/><br/>これかも――亡父の石碑――亡父の霊かもしれませんね。<br/><br/>なにか、非常に執着を持っている。<br/><br/>それで蛇になっちゃったんですね。<br/><br/>それで――大きい蛇なんです。<br/><br/>それで水を欲しがる。<br/><br/>蛇というのは、非常に焼けるんです――体が熱くなるんですね。<br/><br/>ですから、飲まなければいられない。<br/><br/>そこで、蛇というのは執着の罪ですからね。<br/><br/>執着のそれを取っていくんですからね。<br/><br/>やっぱり前頭部を良く浄霊して、それから御神書をできるだけ聞かしてやる。<br/><br/>肺浸潤というのは、薬毒で作ったものですよ。<br/><br/>お医者にこしらえてもらった。<br/><br/>こんなことは問題ではないですがね。<br/><br/>そうしてやるんですね。<br/><br/>そうして龍神が救われるに従って治っていくわけですね。<br/><br/>これは治りますよ。<br/><br/>一番肝腎なのは、光明如来様をお祀りしなければ駄目だね。<br/><br/>お祀りしてその部屋に寝るようにする。<br/><br/>そうすると、ずっと早く治ります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

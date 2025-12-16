@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sadozada</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 「自然栽培の佐渡」座談会 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 光陽中教会 場 所 新潟県佐渡郡河原田町諏訪町 光陽中教会三條支部河原田出張所 日 時 昭和二十八年二月十五日 司 会 石井富造 発言者 小田タツ、片岡勘作、上坂辰雄、松本富造、山本シカ、名畑貞一、土屋秋三郎、土田ナオ、土屋スエ、伊藤正雄、北見新太郎（外参会者四十数名） 速 記 今井直子 自然栽培田十八カ所（一年目よりを含む） 平均収量 対照有肥田平均収量 三石一斗一升 二石七斗二升 御浄霊行わずただ自然栽培法実施 日本海の孤島「佐渡情話」で有名な観光の島佐渡ケ島。<br><br>全島産米二十四万石の内八割五分以上を産み出す国仲平野四千町歩に、一年増に自然栽培の黄金の稲波が多くなり、しかも無浄霊で一年目より減収者一名もなく、昨年より信者以外の方も実施する者多くなり、ナントそれが全部好成績、勿論割当供出百％、病虫害、労働力、肥料高も何のその、女子も子供も誰れにも出来て、技術も不要、奇術も不要、徳になっても毒にはならぬ、天国的栽培者の座談会を御紹介申し上げます。<br><br> ◎農業委員長の改心 司会 この前一度座談会を開かせて頂きましたが、昨年度の自然栽培の影響はいかがです。<br><br> 伊藤 今日まで自然栽培を何度も実施しようと致しましたが、父が農業委員長の職に在り、肥料会社の代弁者のような状態で、頑固に反対されて来ました。<br><br>昨年農業特集号を佐渡へも配布して頂いてより父の考えも変り、試験的と言っては申し訳ございませんが、一枚の田を半分に区切り、半分自然半分有肥にして耕作しました。<br><br>結果は余りにも明らかで、有肥は病虫害の揚句ほとんど倒伏して、自然は分蘖も多く粒数も多く粃（しいな）もありません。<br><br>勿論病虫害、倒伏も無く、誰の眼にも有肥より三、四割増収は間違い無いと太鼓判を捺（お）され、有肥と自然との余りの差に今年より全部自然栽培に切替えると言っております。<br><br>収穫量の結果は、父が自然栽培法が断然優秀なりと見極めがついたのと、今まで反対したのが照れ臭かったのと思います。<br><br>有肥の米を一緒にしてしまいました。<br><br> 小田 河原田町農家は五十四戸です。<br><br>供出米は約千俵です。<br><br>その中で有肥は二等米が五俵です。<br><br>そこへ五十五歳のお婆さんの土田さんが供出した十四俵が全部二等米となったから、さすがの農業委員長も転向せざるを得なくなったのです。<br><br> 司会 新潟では一戸百俵二百俵と供出しますが、一万俵集っても二等米はほとんど昨年は無いとの事です。<br><br> 山本 （Ｋ村村長夫人） 私のところでは昨年肥料やって稲株も無くなり消えてしまいました。<br><br>全部穂が黒くなって溶けてしまい、八反歩耕作して、ヤット一俵出来ました。<br><br>残りは牛や鶏や豚も食べません。<br><br> 司会 夜昼の転換によりいよいよお浄化も強くなり、肥毒の浄化が著しくなるという神様の御教えとも思われます。<br><br>自然栽培の新聞を家の人に見せて上げなさい。<br><br> 山本 家人も今年は何を売っても肥料だけは買わねばならんと言っていたが、最近は今年は肥料は絶対にやらないと言っております。<br><br> 一同 今年は肥料しては絶対駄目だ。<br><br> ◎無浄霊 司会 前回の座談会に今年こそは御浄霊を徹底的にさせて頂くとありましたが…… 松本 このことは真先にお詫び申し上げなければならないことです。<br><br> スエ 信者さんで無くても誰にも出来ると奨めた手前、自分だけ御浄霊させて頂くのも変ですし、無浄霊、オール自然です。<br><br>又私の田の回りに一般の自然栽培実施者の田が並んでおりますので手を翳すことも出来ません。<br><br> 司会 一般の方の成績はいかがですか。<br><br> スエ 私の田の上を米穀検査員が一枚実施しておりますが、非常に良い成績でした。<br><br> 片岡 私の家内の兄は未信者ですが昨年初めて自然栽培して、有肥の普通作を上廻る成績にて喜んでおります。<br><br> 北見 私も初年目ですが一反歩について二俵の増収です。<br><br> 上坂 私も初年目ですが有肥とは段違いです。<br><br> 松本 有肥栽培はここ二、三年全部失敗している。<br><br> 司会 新潟でも四年前が最高の収穫で、一年毎に漸次収穫量が下降しております。<br><br>特に昨年は悪かった。<br><br>反当六俵位のところが多かった。<br><br> 名畑 一般人は今年は肥料やらずに上手にやったと言っている。<br><br> ◎誰でもできる簡単確実農法 松本 自然こそ確実安全栽培法です。<br><br>病虫害、天候不良等考えることはありません。<br><br>有肥の人は田植が終ると直ぐ追肥の心配です。<br><br>自然は植付が終ると米を穫ったも同然です。<br><br> 司会 女性の信者さんが大分作っておりますが男子の方より成績良いようですね。<br><br> 小田 主人に亡くなられ主婦には天籟の慈雨です。<br><br>子供相手に百姓して、家庭の用事、肥料運搬、撒布、ヤレ村の用と一人三役位は覚悟しなければなりません。<br><br>大勢の人数の家庭でも、春から秋までの忙しい時期には暇はありませんが、自然栽培なればこそ大して忙しい思いもせずにやって出られます。<br><br> 土屋 有肥は土地により同一条件で栽培は不可能だ、東北の栽培法を関西でそのまま真似することはできぬが、自然栽培は同一条件で日本中否、世界中どこでも作れる。<br><br> ◎自然対有肥 司会 自然栽培に就いて昨年十日目毎に調査された中に、お気付になられた点とか有肥と自然の比較、又失敗談、新発見などありましたことと思います。<br><br>何んでも結構御発表願います。<br><br> ◎有肥苗を自然田に用いた場合 スエ 自然苗が足らないので有肥苗を貰って不足箇所を補いましたが、有肥苗は全部稲熱病に罹りました。<br><br>又自然田に有肥苗の混じっていたところもありましたが、その二、三株が全部稲熱病になり恐しいものです。<br><br>自然田に有肥苗用いた田は、一反歩につき一俵の減収です。<br><br> 松本 どんなに小さくも自然苗が宜しい。<br><br>有肥は最初は元気が良いが一月も経ると、だんだん元気が無くなって来る。<br><br> ◎堆肥について 松本 自然栽培を始めた当時は堆肥に重点を置いて多く用いたためか、軟弱となり分蘖も多過ぎて実入りも悪かった。<br><br>現在は縄、俵、蓆等農業に必要な物を造りて余りを田圃にお返しするようにしております。<br><br> 土屋 これは私の失敗談ですが、夏季畑の雑草の除草しますが、この草を堆肥にすれば田へ使えるのに捨てるとは勿体ないと、他人の捨てた雑草まで拾い集めて田に入れた。<br><br>田は四年目であり秋の収穫を楽しみにしていたところが予想に反して不作です。<br><br>畑の肥毒を吸った草を、しかも草は畑へ藁は田への御教えをウッカリ失念したため、三反歩程は不作でした。<br><br>御教えこそ真理であり、逆らうとてきめんで、それでも御守護頂き、平均して村の有肥作を上廻り、超過供出も一石ばかり出させて頂きました。<br><br> ◎除 草 松本 田植後一番苦しい行事は田の草取りですが、自然栽培のお蔭で全く天国です。<br><br>佐渡は普通四回から五回は取ります。<br><br>自然栽培三、四年になりますと草も生えなくなりますので除草も二回位で済みます。<br><br>普通家族総出で田一巡除草するに四日は掛ります。<br><br>真夏の忙しい盛り四回取るところを二回で済み、家族全員丸々八日間は天国気分です。<br><br>最初自然栽培に反対した家族も最近は百万円貰っても有肥は嫌だと言っております。<br><br> 上坂 月例祭も忙しいからお参りさせて頂けないということは自然栽培者にはない訳です。<br><br> 一同 そうです。<br><br> ◎土用前後の地温と稲の関係 名畑 昨年十日目毎に田の調査の時、地中計にて地温を調べましていかに地温と作物と密接な関係あるかを御報告申し上げます。<br><br> 地中計を耕土の底まで差込み検温します時、自然田と有肥田では一度五分から三度位、自然田が地温が高く、この状態が土用まで続きます。<br><br>一週間位の成育の後れは自然の場合地温高きゆえ追いつきます。<br><br> 土用中旬より稲は幼穂形成期に入りますが、地温は今度は逆に有肥が高くなり、自然は低くなります。<br><br>その現象は土用前とは反対です。<br><br>有肥はこの頃より地温、気温高いため無効分蘖が始まります。<br><br>草丈は徒長します。<br><br>これに反し自然は外気の温度が高いにかかわらず有肥より低くなり、為に幼穂形成期に入った稲は分蘖、草丈の成長を止め、穂の結実に活動が移行します。<br><br>有肥は刈取って見ると藁の割合に米が無い。<br><br>自然はハチ切れるように米が実るのは、自然栽培が全く自然の理に叶う方法なればこそと教えて頂きました。<br><br>温度の低い秋に万物実るのは自然の法則であり、神様の大御心に叶ってこそ米を人間は戴けるのでは無いか、と地温より教えて頂きました。<br><br> 苦労と心配と藁の欲しき方はどうぞ有肥栽培で、米の欲しきお方は自然栽培をお奨め致します。<br><br> スエ 株を抜いて見ますと自然の稲の根は放射状に行っているが、有肥は平面的に根が張っております。<br><br>風が吹けば倒伏するのは当然です。<br><br> ◎病虫害の比（自然こそ神霊予防法也） 土屋 病虫害の原因こそ肥毒だということがハッキリ判らせて頂きました。<br><br>昨年の佐渡で病虫害の被害の無い有肥田は一枚もありません。<br><br>私の自然田の周囲もその通り、黒椿像（くろちんぞう）虫、青虫、ツマグロヨコパイの大量発生にて、ＢＨＣ剤を全部の田圃に撒布、当然全部の虫が私の田へ襲いかかって来るものと思っておりましたが一匹も来ません。<br><br>五寸程離れた有肥田は実に惨澹たるものです。<br><br>人間の黴菌と同じく綺麗なものには決してつきません。<br><br> 北見 野菜を作っても最初は虫も付くが、いつの間にかいなくなる。<br><br>どうも肥料から生まれた虫には自然の味は不味いらしい。<br><br> 片岡 虫が好かんとはそのことを言ったのだ（笑）。<br><br>今年の佐渡の自然は病虫害全然無し、これは農業委員が田を廻って良く知っとる。<br><br> ◎一般の影響 片岡 篤農家の隣には必ず自然田在り、篤農家は負けてはなるかと肥料する。<br><br>又その結果が病虫害になるので困っている。<br><br> 土屋 同じ田に肥料して作り、収穫になると少いので、別の方法を講じなければ駄目だと言っている。<br><br> 松本 肥料もせぬ連中が、肥料した者より沢山米を穫り、肥料した者が少いなんて馬鹿馬鹿しいから今年は肥料せぬと言う連中が大分多くなっている。<br><br> 片岡 私のところに来る農業委員も一般より自然田が遥かに上廻っていることは語りもし又認めている。<br><br> 土屋 最近の自然栽培田を見て私の村では肥料を買うことをひかえている。<br><br>その訳は無肥料している人もいるのだから、肥料は余りせんでも米は獲れる、と言う安心感を抱いている。<br><br>結局自然対象であり、一般も経済的にも損したと言っている。<br><br>今年は自然栽培の影響は実に大であり楽しみです。<br><br> ◎百姓道とは肥料するものなり？ 土屋 肥料迷信は恐しいものです。<br><br>一般人は、百姓道とは肥料して成育させ、虫害に罹れば予防する。<br><br>それで残っただけを収穫するのが百姓道なりとの観念を持している信仰です。<br><br>誰か違ったことをする者を異端者視する。<br><br> 松本 人間は不作だと、天候が悪い、雨が多過ぎる、日が照り過ぎると悪いことは自然に全部転嫁する。<br><br>米が沢山穫れれば肥料の量が良かった、耕作方法が良かった、と人力のためにする。<br><br>神様こそ良い災難だ。<br><br> 片岡 人事を尽すより神事を尽すことが肝要だ、昔より五穀（五石）と言うから自然栽培も最低五石以上採れねば駄目だ。<br><br> 松本 佐渡の自然も昨年度で基礎がヤッと固まった感じだ。<br><br>今年こそ五石を最低目標に頑張りましょう。<br><br> 司会 時間も来ましたのでこれまでにいたします。<br><br> 名畑 最後に 「おけさ」を一節 ハア「毒はこやしでこやしは毒でよ それをする人、気の毒だ」 ハア「佐渡のおけさと自然の米はよ 誰も知らない人はない」
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Mesa-redonda: "A Agricultura Natural na Ilha de Sado"</h2>
 <p>Publicado na revista Eikou, nº 198, em 4 de março de 1953
@@ -165,5 +317,48 @@ Produção média de campos de controle com fertilizantes: 2,72 koku
 <p><strong>Nahata:</strong> Para finalizar, gostaria de cantar um verso da canção “Okesa”:</p>
 <p><em>“Ah, o veneno é adubo, e o adubo é veneno; que pena de quem o usa, coitado.”</em></p>
 <p><em>“Ah, o Okesa de Sado e o arroz natural; hoje, não há quem não os conheça.”</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 「自然栽培の佐渡」座談会 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 光陽中教会 場 所 新潟県佐渡郡河原田町諏訪町 光陽中教会三條支部河原田出張所 日 時 昭和二十八年二月十五日 司 会 石井富造 発言者 小田タツ、片岡勘作、上坂辰雄、松本富造、山本シカ、名畑貞一、土屋秋三郎、土田ナオ、土屋スエ、伊藤正雄、北見新太郎（外参会者四十数名） 速 記 今井直子 自然栽培田十八カ所（一年目よりを含む） 平均収量 対照有肥田平均収量 三石一斗一升 二石七斗二升 御浄霊行わずただ自然栽培法実施 日本海の孤島「佐渡情話」で有名な観光の島佐渡ケ島。<br/><br/>全島産米二十四万石の内八割五分以上を産み出す国仲平野四千町歩に、一年増に自然栽培の黄金の稲波が多くなり、しかも無浄霊で一年目より減収者一名もなく、昨年より信者以外の方も実施する者多くなり、ナントそれが全部好成績、勿論割当供出百％、病虫害、労働力、肥料高も何のその、女子も子供も誰れにも出来て、技術も不要、奇術も不要、徳になっても毒にはならぬ、天国的栽培者の座談会を御紹介申し上げます。<br/><br/> ◎農業委員長の改心 司会 この前一度座談会を開かせて頂きましたが、昨年度の自然栽培の影響はいかがです。<br/><br/> 伊藤 今日まで自然栽培を何度も実施しようと致しましたが、父が農業委員長の職に在り、肥料会社の代弁者のような状態で、頑固に反対されて来ました。<br/><br/>昨年農業特集号を佐渡へも配布して頂いてより父の考えも変り、試験的と言っては申し訳ございませんが、一枚の田を半分に区切り、半分自然半分有肥にして耕作しました。<br/><br/>結果は余りにも明らかで、有肥は病虫害の揚句ほとんど倒伏して、自然は分蘖も多く粒数も多く粃（しいな）もありません。<br/><br/>勿論病虫害、倒伏も無く、誰の眼にも有肥より三、四割増収は間違い無いと太鼓判を捺（お）され、有肥と自然との余りの差に今年より全部自然栽培に切替えると言っております。<br/><br/>収穫量の結果は、父が自然栽培法が断然優秀なりと見極めがついたのと、今まで反対したのが照れ臭かったのと思います。<br/><br/>有肥の米を一緒にしてしまいました。<br/><br/> 小田 河原田町農家は五十四戸です。<br/><br/>供出米は約千俵です。<br/><br/>その中で有肥は二等米が五俵です。<br/><br/>そこへ五十五歳のお婆さんの土田さんが供出した十四俵が全部二等米となったから、さすがの農業委員長も転向せざるを得なくなったのです。<br/><br/> 司会 新潟では一戸百俵二百俵と供出しますが、一万俵集っても二等米はほとんど昨年は無いとの事です。<br/><br/> 山本 （Ｋ村村長夫人） 私のところでは昨年肥料やって稲株も無くなり消えてしまいました。<br/><br/>全部穂が黒くなって溶けてしまい、八反歩耕作して、ヤット一俵出来ました。<br/><br/>残りは牛や鶏や豚も食べません。<br/><br/> 司会 夜昼の転換によりいよいよお浄化も強くなり、肥毒の浄化が著しくなるという神様の御教えとも思われます。<br/><br/>自然栽培の新聞を家の人に見せて上げなさい。<br/><br/> 山本 家人も今年は何を売っても肥料だけは買わねばならんと言っていたが、最近は今年は肥料は絶対にやらないと言っております。<br/><br/> 一同 今年は肥料しては絶対駄目だ。<br/><br/> ◎無浄霊 司会 前回の座談会に今年こそは御浄霊を徹底的にさせて頂くとありましたが…… 松本 このことは真先にお詫び申し上げなければならないことです。<br/><br/> スエ 信者さんで無くても誰にも出来ると奨めた手前、自分だけ御浄霊させて頂くのも変ですし、無浄霊、オール自然です。<br/><br/>又私の田の回りに一般の自然栽培実施者の田が並んでおりますので手を翳すことも出来ません。<br/><br/> 司会 一般の方の成績はいかがですか。<br/><br/> スエ 私の田の上を米穀検査員が一枚実施しておりますが、非常に良い成績でした。<br/><br/> 片岡 私の家内の兄は未信者ですが昨年初めて自然栽培して、有肥の普通作を上廻る成績にて喜んでおります。<br/><br/> 北見 私も初年目ですが一反歩について二俵の増収です。<br/><br/> 上坂 私も初年目ですが有肥とは段違いです。<br/><br/> 松本 有肥栽培はここ二、三年全部失敗している。<br/><br/> 司会 新潟でも四年前が最高の収穫で、一年毎に漸次収穫量が下降しております。<br/><br/>特に昨年は悪かった。<br/><br/>反当六俵位のところが多かった。<br/><br/> 名畑 一般人は今年は肥料やらずに上手にやったと言っている。<br/><br/> ◎誰でもできる簡単確実農法 松本 自然こそ確実安全栽培法です。<br/><br/>病虫害、天候不良等考えることはありません。<br/><br/>有肥の人は田植が終ると直ぐ追肥の心配です。<br/><br/>自然は植付が終ると米を穫ったも同然です。<br/><br/> 司会 女性の信者さんが大分作っておりますが男子の方より成績良いようですね。<br/><br/> 小田 主人に亡くなられ主婦には天籟の慈雨です。<br/><br/>子供相手に百姓して、家庭の用事、肥料運搬、撒布、ヤレ村の用と一人三役位は覚悟しなければなりません。<br/><br/>大勢の人数の家庭でも、春から秋までの忙しい時期には暇はありませんが、自然栽培なればこそ大して忙しい思いもせずにやって出られます。<br/><br/> 土屋 有肥は土地により同一条件で栽培は不可能だ、東北の栽培法を関西でそのまま真似することはできぬが、自然栽培は同一条件で日本中否、世界中どこでも作れる。<br/><br/> ◎自然対有肥 司会 自然栽培に就いて昨年十日目毎に調査された中に、お気付になられた点とか有肥と自然の比較、又失敗談、新発見などありましたことと思います。<br/><br/>何んでも結構御発表願います。<br/><br/> ◎有肥苗を自然田に用いた場合 スエ 自然苗が足らないので有肥苗を貰って不足箇所を補いましたが、有肥苗は全部稲熱病に罹りました。<br/><br/>又自然田に有肥苗の混じっていたところもありましたが、その二、三株が全部稲熱病になり恐しいものです。<br/><br/>自然田に有肥苗用いた田は、一反歩につき一俵の減収です。<br/><br/> 松本 どんなに小さくも自然苗が宜しい。<br/><br/>有肥は最初は元気が良いが一月も経ると、だんだん元気が無くなって来る。<br/><br/> ◎堆肥について 松本 自然栽培を始めた当時は堆肥に重点を置いて多く用いたためか、軟弱となり分蘖も多過ぎて実入りも悪かった。<br/><br/>現在は縄、俵、蓆等農業に必要な物を造りて余りを田圃にお返しするようにしております。<br/><br/> 土屋 これは私の失敗談ですが、夏季畑の雑草の除草しますが、この草を堆肥にすれば田へ使えるのに捨てるとは勿体ないと、他人の捨てた雑草まで拾い集めて田に入れた。<br/><br/>田は四年目であり秋の収穫を楽しみにしていたところが予想に反して不作です。<br/><br/>畑の肥毒を吸った草を、しかも草は畑へ藁は田への御教えをウッカリ失念したため、三反歩程は不作でした。<br/><br/>御教えこそ真理であり、逆らうとてきめんで、それでも御守護頂き、平均して村の有肥作を上廻り、超過供出も一石ばかり出させて頂きました。<br/><br/> ◎除 草 松本 田植後一番苦しい行事は田の草取りですが、自然栽培のお蔭で全く天国です。<br/><br/>佐渡は普通四回から五回は取ります。<br/><br/>自然栽培三、四年になりますと草も生えなくなりますので除草も二回位で済みます。<br/><br/>普通家族総出で田一巡除草するに四日は掛ります。<br/><br/>真夏の忙しい盛り四回取るところを二回で済み、家族全員丸々八日間は天国気分です。<br/><br/>最初自然栽培に反対した家族も最近は百万円貰っても有肥は嫌だと言っております。<br/><br/> 上坂 月例祭も忙しいからお参りさせて頂けないということは自然栽培者にはない訳です。<br/><br/> 一同 そうです。<br/><br/> ◎土用前後の地温と稲の関係 名畑 昨年十日目毎に田の調査の時、地中計にて地温を調べましていかに地温と作物と密接な関係あるかを御報告申し上げます。<br/><br/> 地中計を耕土の底まで差込み検温します時、自然田と有肥田では一度五分から三度位、自然田が地温が高く、この状態が土用まで続きます。<br/><br/>一週間位の成育の後れは自然の場合地温高きゆえ追いつきます。<br/><br/> 土用中旬より稲は幼穂形成期に入りますが、地温は今度は逆に有肥が高くなり、自然は低くなります。<br/><br/>その現象は土用前とは反対です。<br/><br/>有肥はこの頃より地温、気温高いため無効分蘖が始まります。<br/><br/>草丈は徒長します。<br/><br/>これに反し自然は外気の温度が高いにかかわらず有肥より低くなり、為に幼穂形成期に入った稲は分蘖、草丈の成長を止め、穂の結実に活動が移行します。<br/><br/>有肥は刈取って見ると藁の割合に米が無い。<br/><br/>自然はハチ切れるように米が実るのは、自然栽培が全く自然の理に叶う方法なればこそと教えて頂きました。<br/><br/>温度の低い秋に万物実るのは自然の法則であり、神様の大御心に叶ってこそ米を人間は戴けるのでは無いか、と地温より教えて頂きました。<br/><br/> 苦労と心配と藁の欲しき方はどうぞ有肥栽培で、米の欲しきお方は自然栽培をお奨め致します。<br/><br/> スエ 株を抜いて見ますと自然の稲の根は放射状に行っているが、有肥は平面的に根が張っております。<br/><br/>風が吹けば倒伏するのは当然です。<br/><br/> ◎病虫害の比（自然こそ神霊予防法也） 土屋 病虫害の原因こそ肥毒だということがハッキリ判らせて頂きました。<br/><br/>昨年の佐渡で病虫害の被害の無い有肥田は一枚もありません。<br/><br/>私の自然田の周囲もその通り、黒椿像（くろちんぞう）虫、青虫、ツマグロヨコパイの大量発生にて、ＢＨＣ剤を全部の田圃に撒布、当然全部の虫が私の田へ襲いかかって来るものと思っておりましたが一匹も来ません。<br/><br/>五寸程離れた有肥田は実に惨澹たるものです。<br/><br/>人間の黴菌と同じく綺麗なものには決してつきません。<br/><br/> 北見 野菜を作っても最初は虫も付くが、いつの間にかいなくなる。<br/><br/>どうも肥料から生まれた虫には自然の味は不味いらしい。<br/><br/> 片岡 虫が好かんとはそのことを言ったのだ（笑）。<br/><br/>今年の佐渡の自然は病虫害全然無し、これは農業委員が田を廻って良く知っとる。<br/><br/> ◎一般の影響 片岡 篤農家の隣には必ず自然田在り、篤農家は負けてはなるかと肥料する。<br/><br/>又その結果が病虫害になるので困っている。<br/><br/> 土屋 同じ田に肥料して作り、収穫になると少いので、別の方法を講じなければ駄目だと言っている。<br/><br/> 松本 肥料もせぬ連中が、肥料した者より沢山米を穫り、肥料した者が少いなんて馬鹿馬鹿しいから今年は肥料せぬと言う連中が大分多くなっている。<br/><br/> 片岡 私のところに来る農業委員も一般より自然田が遥かに上廻っていることは語りもし又認めている。<br/><br/> 土屋 最近の自然栽培田を見て私の村では肥料を買うことをひかえている。<br/><br/>その訳は無肥料している人もいるのだから、肥料は余りせんでも米は獲れる、と言う安心感を抱いている。<br/><br/>結局自然対象であり、一般も経済的にも損したと言っている。<br/><br/>今年は自然栽培の影響は実に大であり楽しみです。<br/><br/> ◎百姓道とは肥料するものなり？ 土屋 肥料迷信は恐しいものです。<br/><br/>一般人は、百姓道とは肥料して成育させ、虫害に罹れば予防する。<br/><br/>それで残っただけを収穫するのが百姓道なりとの観念を持している信仰です。<br/><br/>誰か違ったことをする者を異端者視する。<br/><br/> 松本 人間は不作だと、天候が悪い、雨が多過ぎる、日が照り過ぎると悪いことは自然に全部転嫁する。<br/><br/>米が沢山穫れれば肥料の量が良かった、耕作方法が良かった、と人力のためにする。<br/><br/>神様こそ良い災難だ。<br/><br/> 片岡 人事を尽すより神事を尽すことが肝要だ、昔より五穀（五石）と言うから自然栽培も最低五石以上採れねば駄目だ。<br/><br/> 松本 佐渡の自然も昨年度で基礎がヤッと固まった感じだ。<br/><br/>今年こそ五石を最低目標に頑張りましょう。<br/><br/> 司会 時間も来ましたのでこれまでにいたします。<br/><br/> 名畑 最後に 「おけさ」を一節 ハア「毒はこやしでこやしは毒でよ それをする人、気の毒だ」 ハア「佐渡のおけさと自然の米はよ 誰も知らない人はない」</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

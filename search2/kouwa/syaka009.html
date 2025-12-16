@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syaka009</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 ２ 009-021 動植物・奇象 009 特産植物と京都辺の地 農産物における特産物、例えば京都市上加茂の「加茂なす」「すぐき」の蕪等を隣村で栽培しても同様のものは出来ませぬが、右の原因について御教えを御願い申し上げます。<br><br> 土の成分が一個所へ固まる。<br><br>すべての物は一個所へ固まる性質のものである。<br><br> あらゆるものは一個所へ凝結するもので、それが方々へ特殊性能が出来る。<br><br> 日本でも京都辺の土は非常に良い。<br><br>特に植物は優秀なものが出来る。<br><br>地殻や地熱の放射状態がよい。<br><br> 霊的に言っても、日本は龍神の形になっている。<br><br>京都辺は胸部になる。<br><br>一番綺麗な所である。<br><br> （二十三年） （竹松等は京都がよい。<br><br>膚が綺麗である。<br><br>竹は外国にない） 010 妖精 私共の一信徒から質問された事ですが、重症患者を浄霊していると障子の破れ目などが皆花に見え、その中に何百とも知れぬ人の顔がはっきり見えるので、患者にそれを尋ねるとやはり見えるというのです。<br><br>こんな事に二、三回出あったそうです。<br><br>これはどんな霊的意味があるのでしょうか。<br><br> 妖精である。<br><br>妖精は、顔は子供の顔だと思う。<br><br>花が咲いてる所に子供が沢山踊っている。<br><br>人間が行くと逃げる。<br><br> あらゆるものは生物化する。<br><br>大友黒主の桜が亀になったり、三十三間堂のお柳など、訳があって、花が来た時、それに憑いて来たものと思う。<br><br>（S24. 3.20） 011 人間と蜘蛛（殺してよいもの） 私は「くも」が大嫌いですが、殺すのも何だか気味が悪いような気も致しますが、殺さない方がよろしいでしょうか。<br><br>御伺い申し上げます。<br><br> 殺してもよい。<br><br>蜘蛛に憑依したり、人間がなったりするのもある。<br><br>歌舞伎の土蜘蛛など蜘蛛の霊が人間になって悪い事をする。<br><br>これは大きい蜘蛛である。<br><br>畳二畳敷位あったのもいた。<br><br>人間がなったり、蜘蛛が人間になったりした。<br><br> 醜い姿のものは殺してよい。<br><br>綺麗な姿のものは殺してはいけない。<br><br>例えば鳥のごとき人間の目を楽しますのと、虫を食う役目である。<br><br>（S24. 7. 8） 012 頭上より火の玉昇る（神の霊線） 私が本年一月七日茨城県取手の補助教修をさせて頂きました時、その終了後、居合せた二名の信者が異口同音、教修中一受教者の頭上二尺程の所より金モールようのものが振動し、その後直径約二寸程の火の玉のようなものが次々と上昇するのを見たと申し出ました。<br><br>また本月五日よりの成城支部における教修の際には、第二日目の早朝、受教者が目を醒ました時に、眼前二、三尺の所を雲にかこまれたごとき火の玉が、三ケ程次々と横に流れては消えるのを見ましたと申し出ました。<br><br>これはどのような訳で御座居ましょうか。<br><br> 神様から光の霊線のようなものを下さる。<br><br>それが見えたのであろう。<br><br>近頃多くなった。<br><br>（火の玉）火の系統の神が段々表われる。<br><br>それで光が見える位強くなった訳である。<br><br> 今後、こんな事が沢山あるようになる。<br><br>（S *. 2. 4） 013 光玉飛び大音を聞く（乙姫） 一月二十六日午後七時半頃、直径一尺位の火の玉が西から東へ三間位の青のろを引いて飛び、何万燭光もあるような光を発し、火花を散らして消え、五分位後大きな音を聞きました。<br><br>これはいかなる訳でしょうか。<br><br> 火の系統の龍神である。<br><br>人間に知らすためにやったものと思う。<br><br>神（ ）昼間になったため――。<br><br> 断定は出来ぬが、一月二十六日は龍宮の乙姫の誕生日である。<br><br>乙姫に関係がある。<br><br> 霊界が昼間になるに従い、火素が殖えたため、こういう事が出来る。<br><br> 014 白骨水と化す（土の本質） 嘗て墓に埋められておりました骨壺を八年程経て掘出しましたら、壺は密封されておりましたが、白骨変じて全くの清澄そのもののごとき水と化しておりました。<br><br>これはいかなるわけで御座いましょうか。<br><br>またこれから観ますと、骨は水素の霊の体化したもののように考えられますが、そう考えましてもよろしいもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> これは珍らしい。<br><br>こういう事はたまにはある。<br><br>ない事はない。<br><br>寧ろこれが本当である。<br><br>水になるのはいい。<br><br>何か信仰したのであろう。<br><br> 本当は人間の身体は水であるし、霊は火であるし、体は土であるが、土も根本は水である。<br><br> 創造の場合、軽きものは天となり、重きものは地となったとなっているが――。<br><br> 土は水が固修して出来たものである。<br><br>（S24.10. 2） 015 大音して家揺れる、音による知らせ 昭和二十三年四月十八日、光明如来様を御祭りさせて戴きました。<br><br>昨年十二月頃より夜十時頃二回位小さい地震でも起ったかのようにみしみし音がして家が揺れるのです。<br><br>それが毎晩なのです。<br><br>何か霊的に原因があるのでしょうか。<br><br>御伺い致します。<br><br> 木の割れるような音、ドーンという大きい音など、お宮などによくある。<br><br>何かの霊が何か知らせたいとか、要求したい場合があって、知らせたい場合は、夢だとか、浮ぶとか、霊で知らすなどのような事がある。<br><br> 喜びを知らす時は音でよく知らす。<br><br>喜びを知らすならすぐなくなる。<br><br>霊が知らせたいが方法なく音によって知らす。<br><br>も少し待てば何か判る。<br><br> 大龍など大きいのが来る時は、シューッと音がする。<br><br>（S24. 2.25） 016 霊の思念物質化 去る六月二十二日は他界いたしました長男の満三年に当り、十三日に両親の命日でありますので仏間の写真の硝子を掃きましたところ、長男の向って右側に文字が四ツ浮き出ています。<br><br>不思議に思いながら日々気をつけていましたが、命日頃には次第にハッキリ見えて参りましたが、判断いたしかねて二十九日岩松先生に見て頂きまして、「長生和楽」と判明いたしました。<br><br>この文字が三日目の七月一日から薄くなり、一週間位で殆ど見えなくなりました。<br><br>この現象につき御教え願上げます。<br><br> 長男が霊界で救われて有難いのである。<br><br>霊界を信じさせるためにやったもので、霊が強く思念するとある程度物質化する。<br><br>（S24. 7.18） 017 仏壇より御讃歌聞ゆ（霊の意志と言霊） お祖父さんとお祖母さんが入信なさっておられ、御屏風観音様をお祀りさせて戴いている家で御座いますが、先日未入信のお嫁さんが、御仏壇の中から何とも言えぬ静かな御讃歌をお奏げしている声をきかせて頂きました。<br><br>それから三、四日たち近所の方が御浄霊をいただきに参りまして、やはりお仏間の方から実によい声で善言讃詞をお奏げしておられる声を聞かせていただきました。<br><br>これはいかなるわけで御座いましょうか。<br><br>お伺い申し上げます。<br><br>（以前この家は日蓮宗の熱心な信者でした） 霊でやるのが聞えた。<br><br>霊が聞かせたいという気持で言霊発すると、いくらか言霊が濃くなる。<br><br> 祖霊も信仰に入ってるのを知らせたいためだと思う。<br><br>（S24.11. 2） 018 壁に手の痕跡（怨念）、負ける事 私の村の某古寺（曹洞宗）の事で御座いますが、明治初年の頃の事と聞いております話に、当時その寺の住職の世話をしておった老婆が、永の病床についたのに誰も面倒を見てくれないので、到頭自殺しようと決心、その時「ああくやしい」と右掌をその寝室の戸板にピタリとつけたとか。<br><br>ところがその痕跡が歴然とつき、どうしても消えないで、現在ではその寺の名物になっております。<br><br>それは私も何回も見ました。<br><br>これは霊的にいかなる訳があるもので御座いましょうか。<br><br> 執念である。<br><br>手なら掌から出て印象される。<br><br>全く怨みの想念は恐ろしい。<br><br>そのために霊も行く所へ行けない。<br><br>京都の血天井のごときもそれである。<br><br>普通の血液と違う。<br><br>口惜しいなどいう想念は悪に属し、悪霊となるので、霊の毒素のようになっている。<br><br>だから人から怨まれる事はいけない。<br><br>感謝を受けるようでなくてはいけない。<br><br>負けるは勝つというのはそれで、くやしいくやしいの想念は塊ってくる。<br><br>負けた方はそういう障りがないから反って運がよい。<br><br>恐怖もない。<br><br>徳川家康などは負けて逃げたから天下をとり、長く続いた。<br><br>秀吉などは勝ったから、怨みの想念があるから、没落が早かった。<br><br>（S24. 3. 4） 019 胸より香煙みゆ（全身不随意）、救われし霊と線香 二十二才の男、十三年前より全身不随で一日五、六回発作を起す人、二ケ月以前より浄霊を施しております。<br><br>本人も家人も入信して、物を喰べるにも上手に喰べられるようになりましたが、四月二日浄霊中その本人の右の胸のあたりから線香の煙りのようなものが立昇りました。<br><br>何を意味するものでしょうか。<br><br> 中風の霊である。<br><br>二十や三十で中風の起る筈はない。<br><br>五、六回の発作のあるのはそのためである。<br><br>霊界の線香の煙がみえたので、良い香りがする事があるが、霊が救われたためそれを見せたのである。<br><br>霊の居所と線香の在所と違う。<br><br>霊が救われてると線香が届く。<br><br> 神様が来られると、いい香りのするものである。<br><br> 020 烏窓つつき知らす（祖霊） 昨年四月頃、私の取扱っている信者の家の付近へ（石川県石川郡松任町）毎日五、六羽の烏が飛んで来て家並に一羽ずつ止り、朝八時頃から九時頃までの間に窓硝子を割るまでつつき、そこを動きません。<br><br>戸を開けるとまた次の戸に移りまた割ります。<br><br>追ってもまたすぐ来ます。<br><br> 御浄霊致しますとすぐ逃げますがまた来ます。<br><br>これが一週間続きました。<br><br>これはいかなる理由でありましょうか。<br><br>御伺い申し上げます。<br><br> 祖先で、天狗界へ行っている者で、烏を使って子孫に知らせたのである。<br><br> しかし、済んだからもうよい。<br><br>（S25. 1.15） 021 汗かく阿弥陀（転生人霊） 宇都宮の一向寺に「汗かき阿弥陀如来」という国宝の仏像が御座いまして、昔からこの仏像は何か凶事異変の前には必ず汗を流すと伝えられております。<br><br>付近の人の語るところによりますと、日清、日露戦争、関東大震災、近くは太平洋戦直前にも汗をかき変事を知らせたと申し、今なお参詣人が少くないようで御座いますが、何か訳が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 悪い事をしたり、罪を犯したりする人で、死の時に改心し、世の中の人に尽さなければならぬと決心し、本願を起す。<br><br>そういう霊が地蔵や阿弥陀などに憑り、変事を知らすなどし、大勢の人のためになるようする。<br><br>人間が動物になって、また人霊になったものなどもよくある。<br><br>（そういう事をする）（S24. 8.21）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Mestre Jikan Okada</h2>
 <h2>009 - Plantas de Origem Controlada e a Região de Kyoto</h2>
@@ -149,5 +301,48 @@ function toggleLang(lang) {
 <p><strong>Pergunta:</strong> No Templo Ikko-ji, em Utsunomiya, existe uma estátua considerada Tesouro Nacional, conhecida como "Amida Nyorai que Soa". Diz a tradição que esta imagem derrama suor sempre que uma grande calamidade está para ocorrer. Moradores locais afirmam que ela suou antes das guerras Sino-Japonesa e Russo-Japonesa, do Grande Terremoto de Kanto e, mais recentemente, pouco antes da Guerra do Pacífico, alertando sobre os eventos vindouros. Até hoje, a estátua atrai muitos peregrinos. Haveria uma explicação para isso?</p>
 <p><strong>Meishu-Sama:</strong> Existem espíritos de pessoas que, embora tenham praticado o mal ou cometido pecados em vida, arrependeram-se no momento da morte e fizeram o voto de servir à humanidade. Tais espíritos agregam-se a estátuas de Jizo, Amida e outras divindades para, por meio delas, alertar sobre calamidades e, assim, beneficiar um grande número de pessoas.</p>
 <p>Também é comum que seres humanos reencarnem como animais e, posteriormente, retornem como espíritos humanos, realizando atos semelhantes.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会人事篇 ２ 009-021 動植物・奇象 009 特産植物と京都辺の地 農産物における特産物、例えば京都市上加茂の「加茂なす」「すぐき」の蕪等を隣村で栽培しても同様のものは出来ませぬが、右の原因について御教えを御願い申し上げます。<br/><br/> 土の成分が一個所へ固まる。<br/><br/>すべての物は一個所へ固まる性質のものである。<br/><br/> あらゆるものは一個所へ凝結するもので、それが方々へ特殊性能が出来る。<br/><br/> 日本でも京都辺の土は非常に良い。<br/><br/>特に植物は優秀なものが出来る。<br/><br/>地殻や地熱の放射状態がよい。<br/><br/> 霊的に言っても、日本は龍神の形になっている。<br/><br/>京都辺は胸部になる。<br/><br/>一番綺麗な所である。<br/><br/> （二十三年） （竹松等は京都がよい。<br/><br/>膚が綺麗である。<br/><br/>竹は外国にない） 010 妖精 私共の一信徒から質問された事ですが、重症患者を浄霊していると障子の破れ目などが皆花に見え、その中に何百とも知れぬ人の顔がはっきり見えるので、患者にそれを尋ねるとやはり見えるというのです。<br/><br/>こんな事に二、三回出あったそうです。<br/><br/>これはどんな霊的意味があるのでしょうか。<br/><br/> 妖精である。<br/><br/>妖精は、顔は子供の顔だと思う。<br/><br/>花が咲いてる所に子供が沢山踊っている。<br/><br/>人間が行くと逃げる。<br/><br/> あらゆるものは生物化する。<br/><br/>大友黒主の桜が亀になったり、三十三間堂のお柳など、訳があって、花が来た時、それに憑いて来たものと思う。<br/><br/>（S24. 3.20） 011 人間と蜘蛛（殺してよいもの） 私は「くも」が大嫌いですが、殺すのも何だか気味が悪いような気も致しますが、殺さない方がよろしいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 殺してもよい。<br/><br/>蜘蛛に憑依したり、人間がなったりするのもある。<br/><br/>歌舞伎の土蜘蛛など蜘蛛の霊が人間になって悪い事をする。<br/><br/>これは大きい蜘蛛である。<br/><br/>畳二畳敷位あったのもいた。<br/><br/>人間がなったり、蜘蛛が人間になったりした。<br/><br/> 醜い姿のものは殺してよい。<br/><br/>綺麗な姿のものは殺してはいけない。<br/><br/>例えば鳥のごとき人間の目を楽しますのと、虫を食う役目である。<br/><br/>（S24. 7. 8） 012 頭上より火の玉昇る（神の霊線） 私が本年一月七日茨城県取手の補助教修をさせて頂きました時、その終了後、居合せた二名の信者が異口同音、教修中一受教者の頭上二尺程の所より金モールようのものが振動し、その後直径約二寸程の火の玉のようなものが次々と上昇するのを見たと申し出ました。<br/><br/>また本月五日よりの成城支部における教修の際には、第二日目の早朝、受教者が目を醒ました時に、眼前二、三尺の所を雲にかこまれたごとき火の玉が、三ケ程次々と横に流れては消えるのを見ましたと申し出ました。<br/><br/>これはどのような訳で御座居ましょうか。<br/><br/> 神様から光の霊線のようなものを下さる。<br/><br/>それが見えたのであろう。<br/><br/>近頃多くなった。<br/><br/>（火の玉）火の系統の神が段々表われる。<br/><br/>それで光が見える位強くなった訳である。<br/><br/> 今後、こんな事が沢山あるようになる。<br/><br/>（S *. 2. 4） 013 光玉飛び大音を聞く（乙姫） 一月二十六日午後七時半頃、直径一尺位の火の玉が西から東へ三間位の青のろを引いて飛び、何万燭光もあるような光を発し、火花を散らして消え、五分位後大きな音を聞きました。<br/><br/>これはいかなる訳でしょうか。<br/><br/> 火の系統の龍神である。<br/><br/>人間に知らすためにやったものと思う。<br/><br/>神（ ）昼間になったため――。<br/><br/> 断定は出来ぬが、一月二十六日は龍宮の乙姫の誕生日である。<br/><br/>乙姫に関係がある。<br/><br/> 霊界が昼間になるに従い、火素が殖えたため、こういう事が出来る。<br/><br/> 014 白骨水と化す（土の本質） 嘗て墓に埋められておりました骨壺を八年程経て掘出しましたら、壺は密封されておりましたが、白骨変じて全くの清澄そのもののごとき水と化しておりました。<br/><br/>これはいかなるわけで御座いましょうか。<br/><br/>またこれから観ますと、骨は水素の霊の体化したもののように考えられますが、そう考えましてもよろしいもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> これは珍らしい。<br/><br/>こういう事はたまにはある。<br/><br/>ない事はない。<br/><br/>寧ろこれが本当である。<br/><br/>水になるのはいい。<br/><br/>何か信仰したのであろう。<br/><br/> 本当は人間の身体は水であるし、霊は火であるし、体は土であるが、土も根本は水である。<br/><br/> 創造の場合、軽きものは天となり、重きものは地となったとなっているが――。<br/><br/> 土は水が固修して出来たものである。<br/><br/>（S24.10. 2） 015 大音して家揺れる、音による知らせ 昭和二十三年四月十八日、光明如来様を御祭りさせて戴きました。<br/><br/>昨年十二月頃より夜十時頃二回位小さい地震でも起ったかのようにみしみし音がして家が揺れるのです。<br/><br/>それが毎晩なのです。<br/><br/>何か霊的に原因があるのでしょうか。<br/><br/>御伺い致します。<br/><br/> 木の割れるような音、ドーンという大きい音など、お宮などによくある。<br/><br/>何かの霊が何か知らせたいとか、要求したい場合があって、知らせたい場合は、夢だとか、浮ぶとか、霊で知らすなどのような事がある。<br/><br/> 喜びを知らす時は音でよく知らす。<br/><br/>喜びを知らすならすぐなくなる。<br/><br/>霊が知らせたいが方法なく音によって知らす。<br/><br/>も少し待てば何か判る。<br/><br/> 大龍など大きいのが来る時は、シューッと音がする。<br/><br/>（S24. 2.25） 016 霊の思念物質化 去る六月二十二日は他界いたしました長男の満三年に当り、十三日に両親の命日でありますので仏間の写真の硝子を掃きましたところ、長男の向って右側に文字が四ツ浮き出ています。<br/><br/>不思議に思いながら日々気をつけていましたが、命日頃には次第にハッキリ見えて参りましたが、判断いたしかねて二十九日岩松先生に見て頂きまして、「長生和楽」と判明いたしました。<br/><br/>この文字が三日目の七月一日から薄くなり、一週間位で殆ど見えなくなりました。<br/><br/>この現象につき御教え願上げます。<br/><br/> 長男が霊界で救われて有難いのである。<br/><br/>霊界を信じさせるためにやったもので、霊が強く思念するとある程度物質化する。<br/><br/>（S24. 7.18） 017 仏壇より御讃歌聞ゆ（霊の意志と言霊） お祖父さんとお祖母さんが入信なさっておられ、御屏風観音様をお祀りさせて戴いている家で御座いますが、先日未入信のお嫁さんが、御仏壇の中から何とも言えぬ静かな御讃歌をお奏げしている声をきかせて頂きました。<br/><br/>それから三、四日たち近所の方が御浄霊をいただきに参りまして、やはりお仏間の方から実によい声で善言讃詞をお奏げしておられる声を聞かせていただきました。<br/><br/>これはいかなるわけで御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/>（以前この家は日蓮宗の熱心な信者でした） 霊でやるのが聞えた。<br/><br/>霊が聞かせたいという気持で言霊発すると、いくらか言霊が濃くなる。<br/><br/> 祖霊も信仰に入ってるのを知らせたいためだと思う。<br/><br/>（S24.11. 2） 018 壁に手の痕跡（怨念）、負ける事 私の村の某古寺（曹洞宗）の事で御座いますが、明治初年の頃の事と聞いております話に、当時その寺の住職の世話をしておった老婆が、永の病床についたのに誰も面倒を見てくれないので、到頭自殺しようと決心、その時「ああくやしい」と右掌をその寝室の戸板にピタリとつけたとか。<br/><br/>ところがその痕跡が歴然とつき、どうしても消えないで、現在ではその寺の名物になっております。<br/><br/>それは私も何回も見ました。<br/><br/>これは霊的にいかなる訳があるもので御座いましょうか。<br/><br/> 執念である。<br/><br/>手なら掌から出て印象される。<br/><br/>全く怨みの想念は恐ろしい。<br/><br/>そのために霊も行く所へ行けない。<br/><br/>京都の血天井のごときもそれである。<br/><br/>普通の血液と違う。<br/><br/>口惜しいなどいう想念は悪に属し、悪霊となるので、霊の毒素のようになっている。<br/><br/>だから人から怨まれる事はいけない。<br/><br/>感謝を受けるようでなくてはいけない。<br/><br/>負けるは勝つというのはそれで、くやしいくやしいの想念は塊ってくる。<br/><br/>負けた方はそういう障りがないから反って運がよい。<br/><br/>恐怖もない。<br/><br/>徳川家康などは負けて逃げたから天下をとり、長く続いた。<br/><br/>秀吉などは勝ったから、怨みの想念があるから、没落が早かった。<br/><br/>（S24. 3. 4） 019 胸より香煙みゆ（全身不随意）、救われし霊と線香 二十二才の男、十三年前より全身不随で一日五、六回発作を起す人、二ケ月以前より浄霊を施しております。<br/><br/>本人も家人も入信して、物を喰べるにも上手に喰べられるようになりましたが、四月二日浄霊中その本人の右の胸のあたりから線香の煙りのようなものが立昇りました。<br/><br/>何を意味するものでしょうか。<br/><br/> 中風の霊である。<br/><br/>二十や三十で中風の起る筈はない。<br/><br/>五、六回の発作のあるのはそのためである。<br/><br/>霊界の線香の煙がみえたので、良い香りがする事があるが、霊が救われたためそれを見せたのである。<br/><br/>霊の居所と線香の在所と違う。<br/><br/>霊が救われてると線香が届く。<br/><br/> 神様が来られると、いい香りのするものである。<br/><br/> 020 烏窓つつき知らす（祖霊） 昨年四月頃、私の取扱っている信者の家の付近へ（石川県石川郡松任町）毎日五、六羽の烏が飛んで来て家並に一羽ずつ止り、朝八時頃から九時頃までの間に窓硝子を割るまでつつき、そこを動きません。<br/><br/>戸を開けるとまた次の戸に移りまた割ります。<br/><br/>追ってもまたすぐ来ます。<br/><br/> 御浄霊致しますとすぐ逃げますがまた来ます。<br/><br/>これが一週間続きました。<br/><br/>これはいかなる理由でありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 祖先で、天狗界へ行っている者で、烏を使って子孫に知らせたのである。<br/><br/> しかし、済んだからもうよい。<br/><br/>（S25. 1.15） 021 汗かく阿弥陀（転生人霊） 宇都宮の一向寺に「汗かき阿弥陀如来」という国宝の仏像が御座いまして、昔からこの仏像は何か凶事異変の前には必ず汗を流すと伝えられております。<br/><br/>付近の人の語るところによりますと、日清、日露戦争、関東大震災、近くは太平洋戦直前にも汗をかき変事を知らせたと申し、今なお参詣人が少くないようで御座いますが、何か訳が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 悪い事をしたり、罪を犯したりする人で、死の時に改心し、世の中の人に尽さなければならぬと決心し、本願を起す。<br/><br/>そういう霊が地蔵や阿弥陀などに憑り、変事を知らすなどし、大勢の人のためになるようする。<br/><br/>人間が動物になって、また人霊になったものなどもよくある。<br/><br/>（そういう事をする）（S24. 8.21）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

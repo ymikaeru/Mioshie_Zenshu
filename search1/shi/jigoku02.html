@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jigoku02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地獄から天国へ 『栄光』256号、昭和29(1954)年4月14日発行 この婦人は長い間の地獄の境遇から、一躍天国に救われたその経路を詳しくかいたもので、一般人にとっては好適な参考資料であろう。<br><br>この人は最初ちょっと腕が痛んだだけなので、浄霊なら二、三回で治るし、放っておいてもまず二、三カ月で全治するものを、医療を受け注射をされたため再発し、前より悪化の状態になり、その上どくだみを多量に飲んだため、ついに不治の難症となったのである。<br><br>以上のごとくこのどくだみなるものは、その名のごとく毒溜めであって非常に悪いものだが、それが分らないため再び医療を受け、注射を射たれる等で益々悪化し、迷いに迷い色々な療法をすればする程悪くなるばかりで、地獄の責苦にあっていたのである。<br><br> ところがたまたま浄霊を受けるやたちまち一変、天国生活に救われたのであるから、その感謝の気持は文字に溢れている。<br><br>このような不幸な人が充満している今日の世の中は、全く生地獄である。<br><br>この事実を読んで何の感じもないとしたら、医学迷信の亡者というより言葉はない。<br><br> 誤診による苦悩の過去より更生させて戴いた喜び 岡山県 栄光中教会 坂本 操（27） 明主様日々の御守護誠に有難うございます。<br><br>私は昨年一月十七日の入信でございます。<br><br> 忘れも致しません夢多い学窓生活を送っていました十六歳の時でした。<br><br>突然肩から腕にかけて押されるような激しい痛みを感じました。<br><br>それはほんの一分か二分間で止ったのですが、気掛りなので診察を受けましたところ「感冒をこじらしたのが原因ですから注射を射ちます」でその後半年位は痛みも起きませんでしたのでいつしか忘れておりましたが、又痛むようになり以前より激しくその都度注射していましたが良くならず、痛む日と痛む日までの期間が接近してまいりました。<br><br>注射では駄目だと思いましたので民間療法を調べましてどくだみが一番良いと思い、暇さえあれば採集してお茶代用に服用致しました。<br><br>薬と思えばいやな臭いもさして苦にはなりませんでした。<br><br>初め頃は気のせいか体の調子が良くなっているような気もしましたが、いつとはなしに顔色は生気を失い少しの労働にも疲労感を覚えるようになりました。<br><br>戦時中でしたから学校ではマラソンや分列式が毎日のように行われましたが、私は息切れの為まるで苦行をするようでした。<br><br> 各地で診療を受けましたが、医師の言葉は各々違っておりました。<br><br>ロイマチス、カッケ、心臓病、カリエス等である医師はレントゲン写真を二枚もとって「背骨が縮んでいるから直に入院して二カ月は安静を要します」と申されましたが、私は重病でない限り、入院などする気になれませんでした。<br><br>健康保険に加入していましたので貧しくともお金の心配はありませんでしたので、当然入院するところでしたのに何となく気が進まないままよしましたのは、今考えますと全く幸いでございます。<br><br>又ある医師は「私の診たところではあなたには病気と名の付く程のものはありません」と申されました。<br><br>何となく医師も頼りなくなりまして医学書を求めて研究致しましたところ、圧迫性脊髄炎で、これで余病を起していることが分りました。<br><br> それで鍼灸を二カ月程つづけまして小康を得まして嫁ぎましたが、体の悪い私にはすべてのことが負担となり、人知れぬ苦労を致しまして別れてしまいました。<br><br>女の子が一人おりまして私が連れております。<br><br>「子供まであるのに」と随分忠告も受けましたが、私は「いくら体が弱くても一人の子供位は養っていけるだろう、妻として嫁としての生活をつづけるよりはましだ。<br><br>このままだったら、私は二、三年の内には死ぬようになるかも知れない」と真剣に考えていたのです。<br><br>嫁ぎ先は常識からみても普通の家より楽にさせて戴ける家でしたが、私の体はメリヤスのシャツ一枚洗うにも息切れと疲労で卒倒しそうなことは度々でした。<br><br>外見は病人のようには見えませんので苦労が多かったのでございます。<br><br> 子供も実家へあずけて私は某会社へ働きに出ました。<br><br>そして一年程はどうやら無事つとめましたがとうとう本格的再発となり、毎日手の放せない機械作業中に肩や腕、背、胸等が五分間程石で押えるように痛むので休暇をとりまして、一週間は高熱で夜着がぐっしょりぬれる程の発汗で床に就きました。<br><br>薬を飲む動作さえ大儀でございましたので、何の手当もせず休みたいだけ休みましたら思いの外早く起きられましたが心配なので、その後病院通いをして注射を受けつつ働いておりました。<br><br>ある日の事です。<br><br>いつも無痛でありました注射が、その日に限ってとても痛いのです。<br><br>それで看護婦さんに言いますと「同じ薬ですからそんなはずはありませんがね」といってかまわず射たれました。<br><br>八分位薬が入った時激烈な痛みが全身をおそいました。<br><br>たとえれば火の中で身を焼かれてでもいるようでございました。<br><br>そして一瞬にして頭の血が下降して眼の球がぐるっと一回転したように感じ意識を失って倒れました。<br><br>柔かい絹の服を着てフワフワと空を舞うように……そして何かしらポカポカと暖かく、小鳥や蝶の遊んでいるような場所でどこからか流れて来る音楽に陶酔しています時、強い力で体をゆり起されてばっと眼を開きました。<br><br>不思議なことには人の姿も室の中にも視界の現象はすべて真逆様になって眼に映りました。<br><br>驚きと恐ろしさでさぞ異様な顔をしたことでしょう。<br><br>でもそれはちょっとの間でしたので逆様からどうなって正常になったのか判りません。<br><br>気が付いてみますと皆正常になっていました。<br><br> そしてカンフルを一本射ちまして以来どんなことがあっても注射など真平だと思いました。<br><br>ですから子供の予防注射の時等特に注意深く針をにらみつけていました。<br><br>子供が入学期になり遠方の会社を退職しまして田舎へ帰りましたが、体は良くなるどころか三日に一日は頭痛に苦しみ全くのぶらぶら人間になってしまいました。<br><br>その後知人よりその宗の信仰をすすめられましたのでしばらく信仰致しましたが、私の性質にぴったりと来ない点もございましたので離れましたけれど、未知の世界をはっきりと知りたい、この世界をはっきりと知りたい、この世の中にはどの様な神秘が存在しているか分らない、そんな思いに取りつかれて毎日仕事も手につかずにおりましたところ、幸いにも救世教の有難いお話をききました。<br><br>暫くして一月十七日お守様を拝受致しました。<br><br>そして数冊の御神書も拝読心の琴線にふれ、人間の真実の生き方を教えて戴きまして喜びに私の胸は高鳴りました。<br><br>万人に分りよく、しかも広範囲に亘ってお説き下さいました信仰の醍醐味……そして三十一文字に表現されました御神意の素晴しさはただただ感激の外はございません。<br><br>体も生まれ変ったように元気になりました。<br><br>初めて竹田会長先生に御浄霊を戴きました日の夜、実に驚く程多量の痰を排泄致しまして目に見えて元気になり、十年も十五年も前の種々の薬毒が様々の形で浄化しておりますが、苦痛はほとんど無いと申してもいい位です。<br><br>三日に一日だった頭痛も入信後は一年半の間に軽いのを二回しかしていません。<br><br>私ばかりではございません。<br><br>仔犬の全身やけど、父の足の負傷と腫物、妹の急性中耳炎等お救い戴きました。<br><br>御浄霊をさせて頂きますと父は石油のような尿を一升程排泄して全治し、妹は注射ばかりしていたのですが、一進一退で何回も繰返して遂に浄霊を求めました。<br><br>四十分間浄霊させて戴きましたところ夜の間に膿が流れ出て痛みが止りましたので、朝もう一度御浄霊致しましたところ何時問も多量の膿が出て全治しました。<br><br>又他の妹がつわりで衰弱し食物が胃袋に落着かず「人工流産をしなさい」と言われていたのですが御浄霊しますと「胸のあたりに固っていた物がすーっと下降した様だ」と言って急に食物が美味しくなり、一日で元気を取戻しました。<br><br>今では可愛いい女児の母となっております。<br><br>その他子供のチフスの予防注射後の頭痛を浄霊致しまして鼻血を排泄させて戴き、又頭から噴水のように出血している裂傷も一指もふれずに全治させて戴きました。<br><br>「病を浄化作用と知って安心立命を得、善を楽しみつつ幸福を得る道はただ一つ救世教あるのみ」と声を大にして叫びたいのでございます。<br><br>明主様有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Do Inferno ao Paraíso: Um Testemunho de Salvação</h2>
 <p>O relato a seguir, escrito por esta senhora, detalha a trajetória de sua salvação, que a conduziu de longos anos de sofrimento infernal a um salto para o paraíso. Constitui, portanto, um valioso testemunho para o público em geral.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>E as bênçãos não se limitaram a mim. O cachorro da família, que sofreu queimaduras por todo o corpo; meu pai, com um ferimento e um tumor na perna; minha irmã, com otite média aguda — todos foram salvos. Após receber Johrei, meu pai eliminou cerca de um litro e oitocentos de uma urina com aspecto de petróleo e se curou completamente. Minha irmã, que dependia de injeções, não apresentava melhora consistente, com recaídas constantes, até que finalmente pediu para receber Johrei. Após quarenta minutos de Johrei, durante a noite, o pus começou a drenar e a dor cessou. Na manhã seguinte, ministrei Johrei novamente, e uma grande quantidade de pus foi expelida por horas, resultando na cura total. Outra irmã, debilitada pelos enjoos da gravidez, não conseguia reter nenhum alimento e havia sido aconselhada a fazer um aborto terapêutico. Ao receber Johrei, ela disse: “Senti como se algo que estava preso no meu peito descesse suavemente”. Imediatamente, o apetite voltou e, em um único dia, ela recuperou as forças. Hoje, é mãe de uma linda menina. Além disso, por meio do Johrei, curei a dor de cabeça de uma criança após a vacina contra febre tifoide, que expeliu sangue pelo nariz, e também um corte profundo na cabeça, que sangrava como uma fonte, sem sequer tocar no ferimento.</p>
 <p>Desejo clamar em alta voz: “O único caminho para alcançar a paz de espírito, compreendendo que a doença é um processo de purificação, e para encontrar a felicidade desfrutando da prática do bem, é a Sekaikyuseikyou!”.</p>
 <p>Muito obrigada, Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地獄から天国へ 『栄光』256号、昭和29(1954)年4月14日発行 この婦人は長い間の地獄の境遇から、一躍天国に救われたその経路を詳しくかいたもので、一般人にとっては好適な参考資料であろう。<br/><br/>この人は最初ちょっと腕が痛んだだけなので、浄霊なら二、三回で治るし、放っておいてもまず二、三カ月で全治するものを、医療を受け注射をされたため再発し、前より悪化の状態になり、その上どくだみを多量に飲んだため、ついに不治の難症となったのである。<br/><br/>以上のごとくこのどくだみなるものは、その名のごとく毒溜めであって非常に悪いものだが、それが分らないため再び医療を受け、注射を射たれる等で益々悪化し、迷いに迷い色々な療法をすればする程悪くなるばかりで、地獄の責苦にあっていたのである。<br/><br/> ところがたまたま浄霊を受けるやたちまち一変、天国生活に救われたのであるから、その感謝の気持は文字に溢れている。<br/><br/>このような不幸な人が充満している今日の世の中は、全く生地獄である。<br/><br/>この事実を読んで何の感じもないとしたら、医学迷信の亡者というより言葉はない。<br/><br/> 誤診による苦悩の過去より更生させて戴いた喜び 岡山県 栄光中教会 坂本 操（27） 明主様日々の御守護誠に有難うございます。<br/><br/>私は昨年一月十七日の入信でございます。<br/><br/> 忘れも致しません夢多い学窓生活を送っていました十六歳の時でした。<br/><br/>突然肩から腕にかけて押されるような激しい痛みを感じました。<br/><br/>それはほんの一分か二分間で止ったのですが、気掛りなので診察を受けましたところ「感冒をこじらしたのが原因ですから注射を射ちます」でその後半年位は痛みも起きませんでしたのでいつしか忘れておりましたが、又痛むようになり以前より激しくその都度注射していましたが良くならず、痛む日と痛む日までの期間が接近してまいりました。<br/><br/>注射では駄目だと思いましたので民間療法を調べましてどくだみが一番良いと思い、暇さえあれば採集してお茶代用に服用致しました。<br/><br/>薬と思えばいやな臭いもさして苦にはなりませんでした。<br/><br/>初め頃は気のせいか体の調子が良くなっているような気もしましたが、いつとはなしに顔色は生気を失い少しの労働にも疲労感を覚えるようになりました。<br/><br/>戦時中でしたから学校ではマラソンや分列式が毎日のように行われましたが、私は息切れの為まるで苦行をするようでした。<br/><br/> 各地で診療を受けましたが、医師の言葉は各々違っておりました。<br/><br/>ロイマチス、カッケ、心臓病、カリエス等である医師はレントゲン写真を二枚もとって「背骨が縮んでいるから直に入院して二カ月は安静を要します」と申されましたが、私は重病でない限り、入院などする気になれませんでした。<br/><br/>健康保険に加入していましたので貧しくともお金の心配はありませんでしたので、当然入院するところでしたのに何となく気が進まないままよしましたのは、今考えますと全く幸いでございます。<br/><br/>又ある医師は「私の診たところではあなたには病気と名の付く程のものはありません」と申されました。<br/><br/>何となく医師も頼りなくなりまして医学書を求めて研究致しましたところ、圧迫性脊髄炎で、これで余病を起していることが分りました。<br/><br/> それで鍼灸を二カ月程つづけまして小康を得まして嫁ぎましたが、体の悪い私にはすべてのことが負担となり、人知れぬ苦労を致しまして別れてしまいました。<br/><br/>女の子が一人おりまして私が連れております。<br/><br/>「子供まであるのに」と随分忠告も受けましたが、私は「いくら体が弱くても一人の子供位は養っていけるだろう、妻として嫁としての生活をつづけるよりはましだ。<br/><br/>このままだったら、私は二、三年の内には死ぬようになるかも知れない」と真剣に考えていたのです。<br/><br/>嫁ぎ先は常識からみても普通の家より楽にさせて戴ける家でしたが、私の体はメリヤスのシャツ一枚洗うにも息切れと疲労で卒倒しそうなことは度々でした。<br/><br/>外見は病人のようには見えませんので苦労が多かったのでございます。<br/><br/> 子供も実家へあずけて私は某会社へ働きに出ました。<br/><br/>そして一年程はどうやら無事つとめましたがとうとう本格的再発となり、毎日手の放せない機械作業中に肩や腕、背、胸等が五分間程石で押えるように痛むので休暇をとりまして、一週間は高熱で夜着がぐっしょりぬれる程の発汗で床に就きました。<br/><br/>薬を飲む動作さえ大儀でございましたので、何の手当もせず休みたいだけ休みましたら思いの外早く起きられましたが心配なので、その後病院通いをして注射を受けつつ働いておりました。<br/><br/>ある日の事です。<br/><br/>いつも無痛でありました注射が、その日に限ってとても痛いのです。<br/><br/>それで看護婦さんに言いますと「同じ薬ですからそんなはずはありませんがね」といってかまわず射たれました。<br/><br/>八分位薬が入った時激烈な痛みが全身をおそいました。<br/><br/>たとえれば火の中で身を焼かれてでもいるようでございました。<br/><br/>そして一瞬にして頭の血が下降して眼の球がぐるっと一回転したように感じ意識を失って倒れました。<br/><br/>柔かい絹の服を着てフワフワと空を舞うように……そして何かしらポカポカと暖かく、小鳥や蝶の遊んでいるような場所でどこからか流れて来る音楽に陶酔しています時、強い力で体をゆり起されてばっと眼を開きました。<br/><br/>不思議なことには人の姿も室の中にも視界の現象はすべて真逆様になって眼に映りました。<br/><br/>驚きと恐ろしさでさぞ異様な顔をしたことでしょう。<br/><br/>でもそれはちょっとの間でしたので逆様からどうなって正常になったのか判りません。<br/><br/>気が付いてみますと皆正常になっていました。<br/><br/> そしてカンフルを一本射ちまして以来どんなことがあっても注射など真平だと思いました。<br/><br/>ですから子供の予防注射の時等特に注意深く針をにらみつけていました。<br/><br/>子供が入学期になり遠方の会社を退職しまして田舎へ帰りましたが、体は良くなるどころか三日に一日は頭痛に苦しみ全くのぶらぶら人間になってしまいました。<br/><br/>その後知人よりその宗の信仰をすすめられましたのでしばらく信仰致しましたが、私の性質にぴったりと来ない点もございましたので離れましたけれど、未知の世界をはっきりと知りたい、この世界をはっきりと知りたい、この世の中にはどの様な神秘が存在しているか分らない、そんな思いに取りつかれて毎日仕事も手につかずにおりましたところ、幸いにも救世教の有難いお話をききました。<br/><br/>暫くして一月十七日お守様を拝受致しました。<br/><br/>そして数冊の御神書も拝読心の琴線にふれ、人間の真実の生き方を教えて戴きまして喜びに私の胸は高鳴りました。<br/><br/>万人に分りよく、しかも広範囲に亘ってお説き下さいました信仰の醍醐味……そして三十一文字に表現されました御神意の素晴しさはただただ感激の外はございません。<br/><br/>体も生まれ変ったように元気になりました。<br/><br/>初めて竹田会長先生に御浄霊を戴きました日の夜、実に驚く程多量の痰を排泄致しまして目に見えて元気になり、十年も十五年も前の種々の薬毒が様々の形で浄化しておりますが、苦痛はほとんど無いと申してもいい位です。<br/><br/>三日に一日だった頭痛も入信後は一年半の間に軽いのを二回しかしていません。<br/><br/>私ばかりではございません。<br/><br/>仔犬の全身やけど、父の足の負傷と腫物、妹の急性中耳炎等お救い戴きました。<br/><br/>御浄霊をさせて頂きますと父は石油のような尿を一升程排泄して全治し、妹は注射ばかりしていたのですが、一進一退で何回も繰返して遂に浄霊を求めました。<br/><br/>四十分間浄霊させて戴きましたところ夜の間に膿が流れ出て痛みが止りましたので、朝もう一度御浄霊致しましたところ何時問も多量の膿が出て全治しました。<br/><br/>又他の妹がつわりで衰弱し食物が胃袋に落着かず「人工流産をしなさい」と言われていたのですが御浄霊しますと「胸のあたりに固っていた物がすーっと下降した様だ」と言って急に食物が美味しくなり、一日で元気を取戻しました。<br/><br/>今では可愛いい女児の母となっております。<br/><br/>その他子供のチフスの予防注射後の頭痛を浄霊致しまして鼻血を排泄させて戴き、又頭から噴水のように出血している裂傷も一指もふれずに全治させて戴きました。<br/><br/>「病を浄化作用と知って安心立命を得、善を楽しみつつ幸福を得る道はただ一つ救世教あるのみ」と声を大にして叫びたいのでございます。<br/><br/>明主様有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

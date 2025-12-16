@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkyosan</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 共産主義から転じて信仰へ 『栄光』124号、昭和26(1951)年10月3日発行 北海道 旭光中教会 高橋重雄（31） 嬉しきは 地獄にも似し我過去 いつしか忘らひ 天国のさま 明主様有難う御座居ます。<br><br>ただ嬉しさにありのままを書きまして御礼申し上げます。<br><br> 私は昭和十七年十二月召集され、軍隊生活満二年九カ月、終戦と同時にソ連の抑留者となり、満三年十一カ月を経て来た者で御座居ます。<br><br> 在ソ間、民主化運動に専心し、将校打倒の闘争、警察憲兵打倒組織――収容所内組織の拡大強化に勉め、在ソ中は特別な教育を受けて共産主義的思想革命を毎日の生活におり入れ、この中から得た信念として共産制度の社会こそ、吾々人類の理想的な楽園であり、弁証法的唯物論は最大の宝であると思っておりました。<br><br> 唯心論、又は宗教等は特権階級者が一般人民を、戦争にかりたてるべく道具として、使用していた物と思い、宗教に対して限りなき憎しみを持っていたのです。<br><br>勿論宗教では世を幸福にする事は出来ない、人類の最大の幸福は物が充足し、その物質の反映によって幸福は得られるものと思い、この制度を日本にも建設しようと思って、昭和二十四年八月私は帰還して参りましたのです、現在の職場においても、ありとあらゆる場所においても、私は共産主義的宣伝をしておりました、ところが同じ職場に現在の道源先生がおられまして、休みの時間等を利用して『栄光』新聞を見せたり、色々と御話をして、手を振ればどんな病気でも治る、又田畑に金肥を施さなくても自然農法で二割も三割も、作物が増収する事が出来る御話をしておられました、私はこのお話に対して「手を振っただけで病気が治ったり、作物が出来たりする位なら、医者も薬も肥料もいらない、そんな馬鹿馬鹿しい事があるものか迷信も休み休みに言え」と言った位でした。<br><br> ところが二十五年の二月に不注意から風邪を引き、悪寒がし、三十八度近い高熱が出まして、風邪薬とノーシンを服用して高熱と悪寒を防ぎましたが、この度は頭が重く鼻の具合が悪くなり、二週間位になると鼻から黄色い膿のような鼻汁が出て来ました、私は心配の余り診療所に行き、外科の医師に診察して戴きましたところ、蓄膿症のようだから市立病院の耳鼻科に行きなさいと言われ、その足で市立病院に行って診察して戴きましたが、同じごとく「蓄膿症だから毎日通院しなさい」と言われ、毎日病院に通って洗って頂きましたが少しも良くならずかえって頭痛は激しく、鼻は中から何かおし上げられるように痛くなって来ました。<br><br>この事を医師に話しますと、「あなたは悪性蓄膿症だから入院手術をしなければいけない」と言われたのです、入院すると言っても復員して間の無い私としては、入院費すらあろうはずが有りません、出来る事なら入院せずに治そうと思い、人様の良いと言う事は色々やって見ましたが良くなるどころか益々悪化して、鼻先、前頭部や目のまわりまで痛くなり煙草を吸えば睡気がさし、本を読んでも五分と続ける事が出来ず、この苦しみは筆や言葉に表す事が出来ません、本当に希望を失って手術を唯一の望として、倒れるまで働いて入院費を作ろうと、痛いのをじっと堪えて毎日一生懸命働らくより外に、道は見出しえませんでした。<br><br> その当時、私の妻の母親が産後の無理から永年頭が痛み、鼻も悪くて悩んでおりましたとこりろ、手を振って病気が治る事を教えられ、浄霊をして戴いたら良くなったから、蓄膿症ならきっと良くなると言われ、浄霊を奨められました、奨められても中々その気になれず、しかしいつまで疑っても、試して見なければ「百聞は一見に如かず」と言うごとく、私もようやく試して見る気になり、道源先生に「私の蓄膿症は治りますか」と尋ねたところ「きっと良くなりますよ」と自信を持って言われたのです、私は医師でも手術をしなければ治らぬと言われているのに、余りにもはっきり「良くなる」と言われて腹立ちまぎれに「あなたはこの教に入信してから何年になる」と尋ねましたら「三年になる」と答えられ「その間風邪薬はおろか、いかなる予防注射もしておりません」との事です、この医学万能の社会において、三年間も無医薬にて過す家庭は不思議でなりません、何かその根拠があるはずだと思い、その根拠を突止めてやろうと思って一度浄霊を受けて見たくなり……今にして思えば全く申し訳のない事で御座居ますが、最初はそんな考えからともかく御浄霊を受けたので御座居ます。<br><br> 御浄霊を受けて見ましたところ、あれほど苦しかった頭や鼻が大分楽になったような気持がしましたので、これも気のせいだろうと思いつつも、苦しさに負けて毎日の御浄霊を受けました、その度毎に頭が楽になって行き一週間目には鼻から膿が大量に出て、一日一合も出るようになり、心配の余りお尋ねしますと「これが浄化作用と言うものですから何も心配する事は無い、出るだけ出した方が良くなります」と言われ、それ迄に浄化作用のお話を聞いておりましたが、身をもって体験さして戴いたのは初めてで、余りの意外さに驚く外は有りませんでした。<br><br> 毎日御浄化を戴く度に苦しかった痛みは次第に良くなり、あれ程疑っておりました私も、目前の奇蹟に、神様の偉大な御守護に、ただただ驚きの目を見はって、今迄の御無礼を神様に何んとお詫び申し上げて良いやら眼頭にたまる涙をどうする事も出来ませんでした。<br><br> この偉大な御力にすがれば必ず治ると、自信の付いた私は嬉しさの余り、丁度内地より御指導にお見えになられました澤田先生より、二十六年三月十八日、旭光教会において教修を受け、入信させて戴きました 長き世を 迷ひ迷ひて来つる吾 神の光に 目覚めし嬉しさ 私の今の気持は明主様の御讃歌そのままの気持で御座居ます、入信してまず妻よりと思い、毎日御浄霊させて戴く中に大変な御守護を戴き、四月には妻も入信させて頂きました。<br><br> その後光明如来様を御受けして、旭光教会中村先生御足労のもとに御奉斎をさせて戴き、続いて地上天国の横書体も御掛させて戴きました、わずかの間に暗黒生活より一路光明の生活に変らせて戴いたので御座居ます。<br><br> この救世教の病、貧、争絶無のスローガンこそ、我等の長い間の待望で有り、この世最大最初の偉大なスローガンである事が確実に私は見出す事が出来ました、いかに共産主義制度が進歩し科学がいかに発達しようとて病貧争は絶対に絶無にする事は出来得ない、人間の幸福の最大の目的は健康で有る事等、次第に明瞭に私の胸にはっきりと明示されました、私はここに無信仰より信仰へと、百八十度の転換を致しまして御神業に御用させて戴き、新しい希望と感激をしっかと胸に抱きしめつつ、御使命に進ませて頂いております。<br><br> 世の共産主義者よ、神は無しと思える人々よ、あるいは病に苦しむ人々よ、救世教を疑うならば生証人は幾人でもいる、理屈を言わずにまず身をもって体験し、一日も早く本教を理解して、病貧争に苦しむ人の救われん事を希望すると共に明主様の理想とされる輝かしい地上天国を造り上げるよう努力致しましょう。<br><br> 私も及ばずながら御神業の万分の一にも、謹しみて報い奉るべき覚悟で御座います、絶大なる御守護を戴きまして甦りました嬉しさをつたなき文をもちまして厚く御礼申し上げます。<br><br> 明主様、有難う御座いました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Do Comunismo à Fé</h2>
 <p><strong>Publicado na revista Eikou, nº 124, em 3 de outubro de 1951</strong>
@@ -119,5 +274,48 @@ Que júbilo, despertar enfim para a Luz de Deus!</p>
 <p>Aos comunistas deste mundo, àqueles que creem na inexistência de Deus e a todos que sofrem com doenças, eu lhes digo: se duvidam da Sekaikyuseikyou, saibam que existem inúmeras testemunhas vivas. Em vez de se prenderem a teorias, experimentem por si mesmos. Espero que compreendam estes ensinamentos o mais rápido possível e que busquem a salvação para os que padecem com a doença, a pobreza e o conflito. Esforcemo-nos juntos para construir o radiante Paraíso Terrestre idealizado por Meishu-Sama.</p>
 <p>Ainda que minhas capacidades sejam limitadas, estou determinado a retribuir, com devoção, ainda que uma ínfima parcela da Obra Divina. Com estas palavras singelas, expresso minha mais profunda gratidão pela imensa proteção Divina que me permitiu renascer.</p>
 <p>Meishu-Sama, muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 共産主義から転じて信仰へ 『栄光』124号、昭和26(1951)年10月3日発行 北海道 旭光中教会 高橋重雄（31） 嬉しきは 地獄にも似し我過去 いつしか忘らひ 天国のさま 明主様有難う御座居ます。<br/><br/>ただ嬉しさにありのままを書きまして御礼申し上げます。<br/><br/> 私は昭和十七年十二月召集され、軍隊生活満二年九カ月、終戦と同時にソ連の抑留者となり、満三年十一カ月を経て来た者で御座居ます。<br/><br/> 在ソ間、民主化運動に専心し、将校打倒の闘争、警察憲兵打倒組織――収容所内組織の拡大強化に勉め、在ソ中は特別な教育を受けて共産主義的思想革命を毎日の生活におり入れ、この中から得た信念として共産制度の社会こそ、吾々人類の理想的な楽園であり、弁証法的唯物論は最大の宝であると思っておりました。<br/><br/> 唯心論、又は宗教等は特権階級者が一般人民を、戦争にかりたてるべく道具として、使用していた物と思い、宗教に対して限りなき憎しみを持っていたのです。<br/><br/>勿論宗教では世を幸福にする事は出来ない、人類の最大の幸福は物が充足し、その物質の反映によって幸福は得られるものと思い、この制度を日本にも建設しようと思って、昭和二十四年八月私は帰還して参りましたのです、現在の職場においても、ありとあらゆる場所においても、私は共産主義的宣伝をしておりました、ところが同じ職場に現在の道源先生がおられまして、休みの時間等を利用して『栄光』新聞を見せたり、色々と御話をして、手を振ればどんな病気でも治る、又田畑に金肥を施さなくても自然農法で二割も三割も、作物が増収する事が出来る御話をしておられました、私はこのお話に対して「手を振っただけで病気が治ったり、作物が出来たりする位なら、医者も薬も肥料もいらない、そんな馬鹿馬鹿しい事があるものか迷信も休み休みに言え」と言った位でした。<br/><br/> ところが二十五年の二月に不注意から風邪を引き、悪寒がし、三十八度近い高熱が出まして、風邪薬とノーシンを服用して高熱と悪寒を防ぎましたが、この度は頭が重く鼻の具合が悪くなり、二週間位になると鼻から黄色い膿のような鼻汁が出て来ました、私は心配の余り診療所に行き、外科の医師に診察して戴きましたところ、蓄膿症のようだから市立病院の耳鼻科に行きなさいと言われ、その足で市立病院に行って診察して戴きましたが、同じごとく「蓄膿症だから毎日通院しなさい」と言われ、毎日病院に通って洗って頂きましたが少しも良くならずかえって頭痛は激しく、鼻は中から何かおし上げられるように痛くなって来ました。<br/><br/>この事を医師に話しますと、「あなたは悪性蓄膿症だから入院手術をしなければいけない」と言われたのです、入院すると言っても復員して間の無い私としては、入院費すらあろうはずが有りません、出来る事なら入院せずに治そうと思い、人様の良いと言う事は色々やって見ましたが良くなるどころか益々悪化して、鼻先、前頭部や目のまわりまで痛くなり煙草を吸えば睡気がさし、本を読んでも五分と続ける事が出来ず、この苦しみは筆や言葉に表す事が出来ません、本当に希望を失って手術を唯一の望として、倒れるまで働いて入院費を作ろうと、痛いのをじっと堪えて毎日一生懸命働らくより外に、道は見出しえませんでした。<br/><br/> その当時、私の妻の母親が産後の無理から永年頭が痛み、鼻も悪くて悩んでおりましたとこりろ、手を振って病気が治る事を教えられ、浄霊をして戴いたら良くなったから、蓄膿症ならきっと良くなると言われ、浄霊を奨められました、奨められても中々その気になれず、しかしいつまで疑っても、試して見なければ「百聞は一見に如かず」と言うごとく、私もようやく試して見る気になり、道源先生に「私の蓄膿症は治りますか」と尋ねたところ「きっと良くなりますよ」と自信を持って言われたのです、私は医師でも手術をしなければ治らぬと言われているのに、余りにもはっきり「良くなる」と言われて腹立ちまぎれに「あなたはこの教に入信してから何年になる」と尋ねましたら「三年になる」と答えられ「その間風邪薬はおろか、いかなる予防注射もしておりません」との事です、この医学万能の社会において、三年間も無医薬にて過す家庭は不思議でなりません、何かその根拠があるはずだと思い、その根拠を突止めてやろうと思って一度浄霊を受けて見たくなり……今にして思えば全く申し訳のない事で御座居ますが、最初はそんな考えからともかく御浄霊を受けたので御座居ます。<br/><br/> 御浄霊を受けて見ましたところ、あれほど苦しかった頭や鼻が大分楽になったような気持がしましたので、これも気のせいだろうと思いつつも、苦しさに負けて毎日の御浄霊を受けました、その度毎に頭が楽になって行き一週間目には鼻から膿が大量に出て、一日一合も出るようになり、心配の余りお尋ねしますと「これが浄化作用と言うものですから何も心配する事は無い、出るだけ出した方が良くなります」と言われ、それ迄に浄化作用のお話を聞いておりましたが、身をもって体験さして戴いたのは初めてで、余りの意外さに驚く外は有りませんでした。<br/><br/> 毎日御浄化を戴く度に苦しかった痛みは次第に良くなり、あれ程疑っておりました私も、目前の奇蹟に、神様の偉大な御守護に、ただただ驚きの目を見はって、今迄の御無礼を神様に何んとお詫び申し上げて良いやら眼頭にたまる涙をどうする事も出来ませんでした。<br/><br/> この偉大な御力にすがれば必ず治ると、自信の付いた私は嬉しさの余り、丁度内地より御指導にお見えになられました澤田先生より、二十六年三月十八日、旭光教会において教修を受け、入信させて戴きました 長き世を 迷ひ迷ひて来つる吾 神の光に 目覚めし嬉しさ 私の今の気持は明主様の御讃歌そのままの気持で御座居ます、入信してまず妻よりと思い、毎日御浄霊させて戴く中に大変な御守護を戴き、四月には妻も入信させて頂きました。<br/><br/> その後光明如来様を御受けして、旭光教会中村先生御足労のもとに御奉斎をさせて戴き、続いて地上天国の横書体も御掛させて戴きました、わずかの間に暗黒生活より一路光明の生活に変らせて戴いたので御座居ます。<br/><br/> この救世教の病、貧、争絶無のスローガンこそ、我等の長い間の待望で有り、この世最大最初の偉大なスローガンである事が確実に私は見出す事が出来ました、いかに共産主義制度が進歩し科学がいかに発達しようとて病貧争は絶対に絶無にする事は出来得ない、人間の幸福の最大の目的は健康で有る事等、次第に明瞭に私の胸にはっきりと明示されました、私はここに無信仰より信仰へと、百八十度の転換を致しまして御神業に御用させて戴き、新しい希望と感激をしっかと胸に抱きしめつつ、御使命に進ませて頂いております。<br/><br/> 世の共産主義者よ、神は無しと思える人々よ、あるいは病に苦しむ人々よ、救世教を疑うならば生証人は幾人でもいる、理屈を言わずにまず身をもって体験し、一日も早く本教を理解して、病貧争に苦しむ人の救われん事を希望すると共に明主様の理想とされる輝かしい地上天国を造り上げるよう努力致しましょう。<br/><br/> 私も及ばずながら御神業の万分の一にも、謹しみて報い奉るべき覚悟で御座います、絶大なる御守護を戴きまして甦りました嬉しさをつたなき文をもちまして厚く御礼申し上げます。<br/><br/> 明主様、有難う御座いました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

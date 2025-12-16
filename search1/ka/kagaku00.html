@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku00</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学が迷信を作る(再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』41号、昭和24(1949)年12月24日発行 相変らずジャーナリストは、馬鹿の一つ覚えのように新宗教は残らず迷信邪教と決めている。<br><br>いわく、終戦後の人心混乱に乗じ迷信邪教が横行して、人心を惑わすとは怪しからんと言うだけで、何のためにそういう現象が現れたかという事などには言及せず、何らの検討を加えようともしない。<br><br>新宗教は十ぱ一からげに邪教と見なし、世間の噂や自己判断のみで頭から断定するというのであるから、彼らの物の考え方の単純さには呆れざるを得ないのである。<br><br>ゆえに吾らの責務の一面として彼らに対しても、一大啓蒙の必要を痛感するのである。<br><br> しかしながら右に対し、吾々は彼らの態度を一概に否定をしようとは思わない。<br><br>何となれば、彼らの根本観念が唯物主観を通じて観るのであるからである。<br><br>彼らはもちろん眼に見えざることごとくは迷信と断ずるのであるが、吾らといえども彼らと同じ立場となればもちろんそういうであろう。<br><br>しかしながら仮に不可視的存在を否定するとしたら、世の中は一体どうなるであろう。<br><br>唯物主観の結果大変な事になろう。<br><br>それは人間間の情愛も恋愛も親子兄弟の関係も、利害と打算で決めてしまうからで、石の牢獄のごとき冷たい社会となるであろう。<br><br>そのような社会はマサカ彼らといえども希望するはずはあるまい。<br><br>としたら彼らの考え方は中途半端で、徹底味がない事になる。<br><br> 次に実際面を客観してみるが、それは案外にも高等教育を受けたインテリ層に案外迷信の多い事実である。<br><br>以前世界各国の迷信の種類を調査した表を見た事があるが、彼の最も科学教育の盛んとされているドイツが、最も迷信の数が多いという事であった。<br><br>このように迷信は科学と正比例しているという事に注目さるべきである。<br><br>しからばこれらは何に原因するかというと、吾らの見解によればこうである。<br><br>長い間学校で唯物教育を叩き込まれたので、唯物教育とは理屈が基本であるから、一度学校を出て社会人となるや、現実はあまりにも理屈に合わない事ばかりで、大抵は懐疑に陥る、もちろん理屈通りやったもの程成績が悪いからである、そこで賢い者は考える。<br><br>すなわち新しい社会学という学問を学ぼうとするが、そういう学校はないから独学で始める。<br><br>ところが早くて数年、遅いのは数十年かかって卒業するのである。<br><br>いわば第二の学問である。<br><br>せっかく習い覚えた第一学問とはおよそ反対であるが、実際的であり確実性があるから処世に応用すると今度はうまくゆく。<br><br>優れた者は社会学博士となる。<br><br>そういう人は酸いも甘いも噛み分けた苦労人となる。<br><br>しかしこの苦労人博士になる頃は老年期に入るので、多くは今一歩というところで大方は平凡におわってしまうのである。<br><br>しかし中には傑出した大博士もある。<br><br>今の吉田首相などはそれで、彼の苦労人的、人を食ったような態度も、老練な政治的手腕もその現れである。<br><br> 以上によってみても迷信の原因は判ったであろう。<br><br>一言にしていえば、絶対信じた学理を実行して失敗し懐疑に陥る。<br><br>その時多くは迷信邪教に走りやすいが、本当に解決してくれる宗教はまずないと言ってよかろう。<br><br>してみれば実際と遊離した学理に罪がある訳である。<br><br>この理によって迷信を作る者は、実は現代科学教育の一面といっても否とは言えまい。<br><br> 最後に今一つ言う事がある。<br><br>それは彼らの言うごとき、今日迷信邪教の氾濫も確かに事実であるのは吾らも認めるが、全部が全部そう決めてかかるところに誤りがある。<br><br>多くの迷信の中にも幾つかは必ず迷信でないものもあるに違いない。<br><br>とすれば迷信ならざるものを迷信と断ずる事も、一種の迷信である。<br><br>この点を吾らは警告したいのである。<br><br>ゆえにジャーナリスト諸君に要望したいのは、迷信邪教に対しては大いに筆誅するを可とするが、迷信邪教ならざるものを迷信邪教と誤認する事の危険を言いたいのである。<br><br>それは文化の進歩の阻害者となるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ciência que Gera Superstição</h2>
 <p>Invariavelmente, os jornalistas, com uma teimosia obtusa, rotulam toda e qualquer nova religião como superstição e seita maligna. Limitam-se a bradar que é um ultraje o fato de, aproveitando-se da confusão mental do pós-guerra, tais crenças se alastrarem e iludirem o povo. Contudo, jamais se aprofundam nas causas subjacentes a esse fenômeno, abstendo-se de qualquer análise criteriosa. Consideram todas as novas religiões como um bloco monolítico de seitas malignas, proferindo seu veredito com base unicamente em boatos e em seu juízo pessoal. A simplicidade de seu raciocínio é, de fato, desconcertante. Nesse sentido, sentimos profundamente que uma de nossas responsabilidades é a de promover um grande esclarecimento direcionado também a eles.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Qual seria, então, a causa desse fenômeno? Segundo nosso ponto de vista, a explicação é a seguinte: durante anos, os indivíduos são doutrinados nas escolas com uma educação materialista, cujo alicerce é a lógica. No entanto, ao ingressarem na vida social, deparam-se com uma realidade que, em sua maior parte, desafia essa mesma lógica, o que os lança em um estado de ceticismo. Naturalmente, aqueles que mais se apegam à teoria obtêm os piores resultados práticos. É nesse ponto que os mais sagazes resolvem buscar uma nova disciplina — uma espécie de “ciência social” da vida real — que, por não ser ensinada em nenhuma instituição, precisa ser aprendida de forma autodidata. Essa segunda formação pode levar de poucos anos a décadas para ser concluída. Embora seus preceitos sejam quase o oposto daqueles da primeira formação acadêmica, eles são práticos e eficazes, e sua aplicação na vida cotidiana finalmente traz o sucesso. Os mais notáveis se tornam verdadeiros “doutores em ciência social”, homens experimentados que conhecem os sabores doces e amargos da vida. Contudo, quando atingem esse grau de sabedoria, geralmente já se encontram na velhice e, por isso, a maioria termina seus dias de forma comum, a um passo de realizar algo grandioso. Há, todavia, exceções notáveis, como o atual primeiro-ministro Yoshida. Sua postura de homem vivido, por vezes cínica, e sua habilidade política magistral são manifestações desse profundo aprendizado.</p>
 <p>Pelo exposto, a origem da superstição torna-se clara. Em suma: o indivíduo crê absolutamente em uma teoria acadêmica, aplica-a e fracassa, mergulhando no ceticismo. Nesse momento de vulnerabilidade, muitos se inclinam para a superstição e para as seitas malignas, pois é seguro afirmar que quase não existem religiões capazes de oferecer uma solução verdadeira. A culpa, portanto, recai sobre o conhecimento teórico desvinculado da realidade prática. Seguindo essa linha de raciocínio, não se pode negar que quem gera a superstição é, na verdade, uma das facetas da própria educação científica moderna.</p>
 <p>Por fim, resta-me tecer uma última consideração. Admitimos, assim como os jornalistas, que o flagelo das superstições e das seitas malignas é, de fato, uma realidade em nossos dias. O erro, contudo, reside em pressupor que absolutamente tudo se enquadra nessa categoria. Em meio a tantas crenças, é inevitável que existam algumas que não são supersticiosas. Sendo assim, julgar como superstição aquilo que não o é, constitui, em si, uma outra forma de superstição. É sobre este ponto que desejamos alertar. Portanto, nosso apelo aos senhores jornalistas é o seguinte: é justo que empreguem a força de sua pena para censurar as verdadeiras superstições e seitas malignas; todavia, gostaríamos de adverti-los sobre o perigo de rotular equivocadamente como tal aquilo que não o é. Uma atitude indiscriminada como essa representa um obstáculo ao progresso da cultura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学が迷信を作る(再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』41号、昭和24(1949)年12月24日発行 相変らずジャーナリストは、馬鹿の一つ覚えのように新宗教は残らず迷信邪教と決めている。<br/><br/>いわく、終戦後の人心混乱に乗じ迷信邪教が横行して、人心を惑わすとは怪しからんと言うだけで、何のためにそういう現象が現れたかという事などには言及せず、何らの検討を加えようともしない。<br/><br/>新宗教は十ぱ一からげに邪教と見なし、世間の噂や自己判断のみで頭から断定するというのであるから、彼らの物の考え方の単純さには呆れざるを得ないのである。<br/><br/>ゆえに吾らの責務の一面として彼らに対しても、一大啓蒙の必要を痛感するのである。<br/><br/> しかしながら右に対し、吾々は彼らの態度を一概に否定をしようとは思わない。<br/><br/>何となれば、彼らの根本観念が唯物主観を通じて観るのであるからである。<br/><br/>彼らはもちろん眼に見えざることごとくは迷信と断ずるのであるが、吾らといえども彼らと同じ立場となればもちろんそういうであろう。<br/><br/>しかしながら仮に不可視的存在を否定するとしたら、世の中は一体どうなるであろう。<br/><br/>唯物主観の結果大変な事になろう。<br/><br/>それは人間間の情愛も恋愛も親子兄弟の関係も、利害と打算で決めてしまうからで、石の牢獄のごとき冷たい社会となるであろう。<br/><br/>そのような社会はマサカ彼らといえども希望するはずはあるまい。<br/><br/>としたら彼らの考え方は中途半端で、徹底味がない事になる。<br/><br/> 次に実際面を客観してみるが、それは案外にも高等教育を受けたインテリ層に案外迷信の多い事実である。<br/><br/>以前世界各国の迷信の種類を調査した表を見た事があるが、彼の最も科学教育の盛んとされているドイツが、最も迷信の数が多いという事であった。<br/><br/>このように迷信は科学と正比例しているという事に注目さるべきである。<br/><br/>しからばこれらは何に原因するかというと、吾らの見解によればこうである。<br/><br/>長い間学校で唯物教育を叩き込まれたので、唯物教育とは理屈が基本であるから、一度学校を出て社会人となるや、現実はあまりにも理屈に合わない事ばかりで、大抵は懐疑に陥る、もちろん理屈通りやったもの程成績が悪いからである、そこで賢い者は考える。<br/><br/>すなわち新しい社会学という学問を学ぼうとするが、そういう学校はないから独学で始める。<br/><br/>ところが早くて数年、遅いのは数十年かかって卒業するのである。<br/><br/>いわば第二の学問である。<br/><br/>せっかく習い覚えた第一学問とはおよそ反対であるが、実際的であり確実性があるから処世に応用すると今度はうまくゆく。<br/><br/>優れた者は社会学博士となる。<br/><br/>そういう人は酸いも甘いも噛み分けた苦労人となる。<br/><br/>しかしこの苦労人博士になる頃は老年期に入るので、多くは今一歩というところで大方は平凡におわってしまうのである。<br/><br/>しかし中には傑出した大博士もある。<br/><br/>今の吉田首相などはそれで、彼の苦労人的、人を食ったような態度も、老練な政治的手腕もその現れである。<br/><br/> 以上によってみても迷信の原因は判ったであろう。<br/><br/>一言にしていえば、絶対信じた学理を実行して失敗し懐疑に陥る。<br/><br/>その時多くは迷信邪教に走りやすいが、本当に解決してくれる宗教はまずないと言ってよかろう。<br/><br/>してみれば実際と遊離した学理に罪がある訳である。<br/><br/>この理によって迷信を作る者は、実は現代科学教育の一面といっても否とは言えまい。<br/><br/> 最後に今一つ言う事がある。<br/><br/>それは彼らの言うごとき、今日迷信邪教の氾濫も確かに事実であるのは吾らも認めるが、全部が全部そう決めてかかるところに誤りがある。<br/><br/>多くの迷信の中にも幾つかは必ず迷信でないものもあるに違いない。<br/><br/>とすれば迷信ならざるものを迷信と断ずる事も、一種の迷信である。<br/><br/>この点を吾らは警告したいのである。<br/><br/>ゆえにジャーナリスト諸君に要望したいのは、迷信邪教に対しては大いに筆誅するを可とするが、迷信邪教ならざるものを迷信邪教と誤認する事の危険を言いたいのである。<br/><br/>それは文化の進歩の阻害者となるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

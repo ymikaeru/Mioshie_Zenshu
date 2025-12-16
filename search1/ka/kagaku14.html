@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学は迷信か 未発表、年代不詳 私は常に科学迷信を戒（いまし）めているが、恐らく今日の世の中で、そんな事をいう人は一人もないであろう。<br><br>事程それ自体がそれを物語っている。<br><br>なるほど科学は結構であり、有り難いものであるのは分りきっているが、その反面また飛んでもない罪を犯している事も見逃せないのである。<br><br>現代人はよい面のみを見て悪い面に気が付かないのは、全く科学が迷信化したためといえよう。<br><br>科学でなるほど人事百般解決出来るものと、科学で解決出来ないものとの差別ある事に気付かないのが現代文明の根本的欠陥であって、それをハッキリ分らせるのが現代の悩みを救う最重要な点である。<br><br> それについて私は出来るだけ分りやすく説いてみるが、まず人間生活に関した有形無形のあらゆるものを一纏（まと）めにして、横に線を引いてみる。<br><br>そうして線から下のものは下級の存在とし、上のものを上級の存在として別けてみると、もちろん下は科学で解決が出来、上は科学では解決出来ないのである。<br><br>すなわち下としては、政治、経済、芸術等の物質面であり、上は宗教、哲学、思想、医学、特殊芸術等であるのである。<br><br>このように分けられて、それぞれの進歩発展を促（うなが）す事こそ、真の文化のあり方であって、これによって、平和幸福な社会が生まれるのが当然である。<br><br> ところがこの分り切った理屈が、今日まで分らなかったのである。<br><br>というのはそこまで文化が進んでいなかったからであって、その原因としては十九世紀以来の、驚異的唯物科学の進歩によって、人々は眩惑されてしまい、右の線など全然気が付かず、遮二無二（しゃにむに）何でもかんでも科学さえ進歩させれば解決出来るものと思い込んでしまった結果、知らず識らず科学は迷信化したのである。<br><br>それがため科学の枠から逸脱してしまい、一切は科学で解決出来るものとして、変態的進歩の迷路に入り込んでしまったのである。<br><br>その結果現在プラスよりもマイナスの方が多いにかかわらず、それに気がつかない結果、病苦、悪思想、貧困、社会混乱、戦争の恐怖等々さながら生地獄といっていい世界である。<br><br> ここにおいて神の大愛は、これを救うべく私という者を選びその衝（しょう）に当らせ給うたのである。<br><br>これを端的にいえば、人類は今以って野蛮未開人的分子が相当残っており、つまり半文明半野蛮時代から脱却されないのである。<br><br>この意において私の仕事はこの野蛮性を除去し、純粋な真の文明を創造するのである。<br><br>もちろんその根本としては、科学の迷信分子をことごとく指摘し、特に識者の覚醒を促（うなが）すのである。<br><br>といっても単なる理屈だけでは駄目であるから、事実を以って分らせるのである。<br><br> 現在私は驚くべき奇蹟を表わしつつあるのがそれであって、人々は驚嘆しつつあるが、これは科学が幼稚だからであって、その原因が分らないからで、分ってみれば奇蹟でも何でもない。<br><br>あり得べき事実を、あり得るようにしたからである。<br><br>ツマリこれが真の文化であり、合理的であるからである。<br><br> 以上によって現代科学にある迷信分子が、ハッキリ分ったであろう。<br><br>従ってこの科学迷信を分らせる、それが我救世教であって、しかもその方法たるや学校教育などと違って、実に簡単にして短時日に会得される、という理想的文化教育である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Será a Ciência uma Superstição?</h2>
 <p>Tenho constantemente advertido contra a superstição científica, e, no mundo contemporâneo, sou, porventura, o único a proferir tal advertência, o que, por si só, já é bastante eloquente. Certamente, a ciência é magnífica e benéfica, isso é inegável. Contudo, não podemos ignorar os crimes atrozes que ela também comete. O fato de o homem moderno enxergar apenas o seu lado positivo, ignorando o negativo, deve-se precisamente à sua transformação em superstição. A incapacidade de discernir entre aquilo que a ciência pode de fato solucionar e aquilo que transcende seu alcance constitui a falha primordial da civilização moderna. Esclarecer essa distinção é, portanto, o ponto mais crucial para redimir a humanidade de suas aflições.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>É nesse ponto que o Grande Amor de Deus, visando salvar a humanidade, escolheu a mim e me incumbiu desta nobre missão. Para dizer de forma direta, a humanidade ainda conserva consideráveis resquícios de barbárie e selvageria; em outras palavras, ela ainda não conseguiu se libertar de uma era que é metade civilizada, metade bárbara. Nesse sentido, minha missão consiste em erradicar essa barbárie e criar uma civilização pura e verdadeira. Evidentemente, o alicerce para tal feito é apontar todos os elementos de superstição presentes na ciência, conclamando, em especial, ao despertar dos intelectuais. Contudo, a mera argumentação teórica não é suficiente. Por isso, faço com que as pessoas compreendam por meio de fatos concretos.</p>
 <p>Os milagres assombrosos que venho manifestando atualmente são a prova disso. As pessoas se maravilham, mas isso ocorre apenas porque a ciência ainda é infantil e desconhece suas causas. Uma vez que se compreenda o princípio, percebe-se que não se trata de milagre algum. Trata-se apenas da concretização de um fato que sempre foi possível. Em suma, nisto consiste a verdadeira cultura, pois ela é inteiramente racional.</p>
 <p>Pelo que foi exposto, creio que os elementos supersticiosos presentes na ciência moderna tornaram-se evidentes. Portanto, a missão de nossa Sekaikyuseikyou é justamente desvendar essa superstição científica. E o nosso método, ao contrário da educação formal, é um modelo ideal de educação cultural, pois é extraordinariamente simples e pode ser assimilado em um curto espaço de tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学は迷信か 未発表、年代不詳 私は常に科学迷信を戒（いまし）めているが、恐らく今日の世の中で、そんな事をいう人は一人もないであろう。<br/><br/>事程それ自体がそれを物語っている。<br/><br/>なるほど科学は結構であり、有り難いものであるのは分りきっているが、その反面また飛んでもない罪を犯している事も見逃せないのである。<br/><br/>現代人はよい面のみを見て悪い面に気が付かないのは、全く科学が迷信化したためといえよう。<br/><br/>科学でなるほど人事百般解決出来るものと、科学で解決出来ないものとの差別ある事に気付かないのが現代文明の根本的欠陥であって、それをハッキリ分らせるのが現代の悩みを救う最重要な点である。<br/><br/> それについて私は出来るだけ分りやすく説いてみるが、まず人間生活に関した有形無形のあらゆるものを一纏（まと）めにして、横に線を引いてみる。<br/><br/>そうして線から下のものは下級の存在とし、上のものを上級の存在として別けてみると、もちろん下は科学で解決が出来、上は科学では解決出来ないのである。<br/><br/>すなわち下としては、政治、経済、芸術等の物質面であり、上は宗教、哲学、思想、医学、特殊芸術等であるのである。<br/><br/>このように分けられて、それぞれの進歩発展を促（うなが）す事こそ、真の文化のあり方であって、これによって、平和幸福な社会が生まれるのが当然である。<br/><br/> ところがこの分り切った理屈が、今日まで分らなかったのである。<br/><br/>というのはそこまで文化が進んでいなかったからであって、その原因としては十九世紀以来の、驚異的唯物科学の進歩によって、人々は眩惑されてしまい、右の線など全然気が付かず、遮二無二（しゃにむに）何でもかんでも科学さえ進歩させれば解決出来るものと思い込んでしまった結果、知らず識らず科学は迷信化したのである。<br/><br/>それがため科学の枠から逸脱してしまい、一切は科学で解決出来るものとして、変態的進歩の迷路に入り込んでしまったのである。<br/><br/>その結果現在プラスよりもマイナスの方が多いにかかわらず、それに気がつかない結果、病苦、悪思想、貧困、社会混乱、戦争の恐怖等々さながら生地獄といっていい世界である。<br/><br/> ここにおいて神の大愛は、これを救うべく私という者を選びその衝（しょう）に当らせ給うたのである。<br/><br/>これを端的にいえば、人類は今以って野蛮未開人的分子が相当残っており、つまり半文明半野蛮時代から脱却されないのである。<br/><br/>この意において私の仕事はこの野蛮性を除去し、純粋な真の文明を創造するのである。<br/><br/>もちろんその根本としては、科学の迷信分子をことごとく指摘し、特に識者の覚醒を促（うなが）すのである。<br/><br/>といっても単なる理屈だけでは駄目であるから、事実を以って分らせるのである。<br/><br/> 現在私は驚くべき奇蹟を表わしつつあるのがそれであって、人々は驚嘆しつつあるが、これは科学が幼稚だからであって、その原因が分らないからで、分ってみれば奇蹟でも何でもない。<br/><br/>あり得べき事実を、あり得るようにしたからである。<br/><br/>ツマリこれが真の文化であり、合理的であるからである。<br/><br/> 以上によって現代科学にある迷信分子が、ハッキリ分ったであろう。<br/><br/>従ってこの科学迷信を分らせる、それが我救世教であって、しかもその方法たるや学校教育などと違って、実に簡単にして短時日に会得される、という理想的文化教育である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

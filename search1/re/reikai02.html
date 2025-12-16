@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reikai02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界と現界 自観叢書第3編『霊界叢談』P.7、昭和24(1949)年8月25日発行 そもそも、宗教に関心を持つ場合まず徹底的に理解するには、どうしても霊界と現界との関係を知らねばならない。<br><br>何となれば宗教信仰の対象は神仏であり、神仏とは霊であるからで肉眼では見る能わざる以上、理論のみによって実態を把握せんとしてもそれは木によって魚を求むるの愚である。<br><br>しかしながらこの世界には神も仏も立派に実在している以上、否定し去る事ももちろん不可能である。<br><br>ちょうど野蛮人に向かって空気の存在を認識させようとしてもすこぶる困難であると同様現代人の大多数に霊の実在を認識させる事の困難さはもちろんである。<br><br>私はまず前提として霊界の構成、霊界人の生活等にわたってなるべく深く説明してみよう。<br><br> そもそも人間とは肉体と霊体との二原素から成立っており、人間が死するや霊肉離脱し霊は直ちに霊界に入り霊界生活が始まるが、離脱の場合極善者は額から、極悪者は蹠（あし）の爪先から、一般人は腹部の中央臍部辺から霊は脱出するのであって、仏教においては死ぬ事を往生というが、これは霊界からみれば生まれ往く訳だからである。<br><br>また死ぬ前を生前といい神道にては帰幽といい転帰というのも同様の理である。<br><br>そうして、霊界人となるや昔から言われている通り、まず三途の川を渡り閻魔の庁に行くのであるが、これは事実であって私が多数の霊から聞いたそれは一致している。<br><br>閻魔の庁とは現界における法廷と同じである。<br><br>しかも三途の川を渡り終るや屍衣の色が変化する。<br><br>すなわち罪穢の最も少なきものは白、次は各薄色、青、黄、赤、黒というように、罪穢の軽重に従い右のごとき色彩となるのである。<br><br>ただ紫だけは神衣としてある。<br><br>閻魔の庁においては祓戸（はらいど）の神が主任となり、各冥官が審問に当たり、それぞれ相応の賞罰を決めるのであるが、その際極善人は天国または極楽に、極悪人は地獄へ堕つるのであって、普通人は中有界（ちゅうゆうかい）、神道にては八衢（やちまた）、仏教にては六道の辻と称する所に行くのであるが、大多数はこの中有界に行き、ここで修行するのである。<br><br>修行を受ける第一は教誨師の講話を聞くので、それによって改心の出来たものは天国へ行き、しからざるものは地獄行きとなるのである。<br><br>右の修養期間は、大体三十年を限度とし行き先が決まるのである。<br><br>教誨師は各宗教の教師が当たる事になっている。<br><br> ここで霊界の構成についてかくが、霊界は上中下の三段階になっている。<br><br>その一段はまた三段に分けられ合計九段階である。<br><br>すなわち上段が天国、中段が中有界、下段が地獄となっており、現界は中有界に相当する故に、仏語の六道辻とは極楽の三道、地獄の三道へ行く訳で、神道の八衢とは右のほかに、上は最高天国、下は根底の国が加わるのである。<br><br>そうして天国と地獄の様相を端的に説明すれば、最高天国に昇る程光と熱が強烈になり、ほとんど裸体同様の生活であって、昔から絵画彫刻に見るごとく至尊仏は裸体である。<br><br>これに反し最低地獄に落つる程光と熱が稀薄となり、極最低は暗黒、無明、凍結状態である。<br><br>故にこの苦しみにあうや、いかに極悪非道の霊といえども改心せざるを得ないのである。<br><br>以上はごく大体の説明であるが、現代人が見たら荒唐無稽の説と思うかも知れないが、私は二十数年にわたり多数の霊から霊媒を通じ、または他のあらゆる方法によって調査研究し、多数の一致した点をとって得たところの解説であるから、読者におかれても相当の信頼をもって読まれん事を望むのである。<br><br>彼の釈尊の地獄極楽説も、ダンテの神曲も決して作為的のものではない事を、私は信ずるのである。<br><br> 右のごとく、上中下三段階へ往く霊に対し、死人の面貌を見ればおよそ判るのである。<br><br>すなわち、なんら苦悶の相がなく鮮花色を呈しさながら生けるがごときは天国行きであり、陰欝なる淋しき面貌をし蒼白色、黄青色、つまり一般死人の状態は中有界行きであり、苦悶の相著しく、暗黒色または青黒色を呈するものは、もちろん地獄行きである。<br><br> 以上は、霊界における基礎的知識を得るためのものであるが、順次各面にわたっての私の経験によって得たる霊的事象を書いてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Os Fundamentos do Mundo Espiritual</h2>
 <p>Aquele que se debruça sobre os estudos da religião, para obter uma compreensão profunda, deve, primeiramente, conhecer a relação entre o Mundo Espiritual e o Mundo Material. Isso porque o objeto da fé religiosa é Deus, uma existência de natureza espiritual e, portanto, invisível aos olhos carnais. Tentar apreender sua realidade valendo-se apenas da teoria é uma insensatez comparável a buscar peixes em uma árvore. Contudo, como Deus e as divindades existem neste mundo de forma concreta e manifesta, é igualmente impossível negar sua existência. Tal como se afigura extremamente árduo fazer um homem primitivo reconhecer a existência do ar, é natural que haja grande dificuldade em levar a maioria das pessoas de hoje a reconhecer a realidade do espírito. Nesse sentido, tomarei como premissa a tarefa de explicar, da forma mais aprofundada possível, a constituição do Mundo Espiritual e a vida de seus habitantes.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Sei que, para o homem moderno, tais explanações podem soar fantasiosas ou inverossímeis. Contudo, o que aqui apresento é o resultado de mais de duas décadas de pesquisa e investigação, durante as quais ouvi o relato de inúmeros espíritos por meio de médiuns e de todos os outros métodos ao meu alcance. Trata-se de uma síntese de pontos convergentes obtidos a partir de um vasto número de relatos. Portanto, rogo ao leitor que receba estas palavras com a devida confiança. Estou convicto de que tanto os sermões de Shakamuni sobre o Inferno e o Paraíso quanto a <em>Divina Comédia</em> de Dante não são meras obras de ficção.</p>
 <p>Em consonância com o que foi exposto, é possível ter uma noção do destino de um espírito ao observar a fisionomia do falecido. Aqueles cujo semblante não exibe qualquer sinal de agonia, apresentando uma coloração rosada e uma aparência vívida, como se ainda estivessem vivos, destinam-se ao Paraíso. Aqueles cuja face é sombria e melancólica, com tons pálido-azulados ou amarelados — a aparência comum de um corpo sem vida —, seguem para o Mundo Intermediário. Por fim, aqueles cujo rosto expressa agonia acentuada e exibe uma coloração escura ou negro-azulada, rumam, indubitavelmente, para o Inferno.</p>
 <p>O exposto até aqui constitui o conhecimento fundamental sobre o Mundo Espiritual. A partir de agora, passarei a relatar, sucessivamente, os fenômenos espirituais que pude constatar por meio de minhas próprias experiências nas mais diversas áreas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界と現界 自観叢書第3編『霊界叢談』P.7、昭和24(1949)年8月25日発行 そもそも、宗教に関心を持つ場合まず徹底的に理解するには、どうしても霊界と現界との関係を知らねばならない。<br/><br/>何となれば宗教信仰の対象は神仏であり、神仏とは霊であるからで肉眼では見る能わざる以上、理論のみによって実態を把握せんとしてもそれは木によって魚を求むるの愚である。<br/><br/>しかしながらこの世界には神も仏も立派に実在している以上、否定し去る事ももちろん不可能である。<br/><br/>ちょうど野蛮人に向かって空気の存在を認識させようとしてもすこぶる困難であると同様現代人の大多数に霊の実在を認識させる事の困難さはもちろんである。<br/><br/>私はまず前提として霊界の構成、霊界人の生活等にわたってなるべく深く説明してみよう。<br/><br/> そもそも人間とは肉体と霊体との二原素から成立っており、人間が死するや霊肉離脱し霊は直ちに霊界に入り霊界生活が始まるが、離脱の場合極善者は額から、極悪者は蹠（あし）の爪先から、一般人は腹部の中央臍部辺から霊は脱出するのであって、仏教においては死ぬ事を往生というが、これは霊界からみれば生まれ往く訳だからである。<br/><br/>また死ぬ前を生前といい神道にては帰幽といい転帰というのも同様の理である。<br/><br/>そうして、霊界人となるや昔から言われている通り、まず三途の川を渡り閻魔の庁に行くのであるが、これは事実であって私が多数の霊から聞いたそれは一致している。<br/><br/>閻魔の庁とは現界における法廷と同じである。<br/><br/>しかも三途の川を渡り終るや屍衣の色が変化する。<br/><br/>すなわち罪穢の最も少なきものは白、次は各薄色、青、黄、赤、黒というように、罪穢の軽重に従い右のごとき色彩となるのである。<br/><br/>ただ紫だけは神衣としてある。<br/><br/>閻魔の庁においては祓戸（はらいど）の神が主任となり、各冥官が審問に当たり、それぞれ相応の賞罰を決めるのであるが、その際極善人は天国または極楽に、極悪人は地獄へ堕つるのであって、普通人は中有界（ちゅうゆうかい）、神道にては八衢（やちまた）、仏教にては六道の辻と称する所に行くのであるが、大多数はこの中有界に行き、ここで修行するのである。<br/><br/>修行を受ける第一は教誨師の講話を聞くので、それによって改心の出来たものは天国へ行き、しからざるものは地獄行きとなるのである。<br/><br/>右の修養期間は、大体三十年を限度とし行き先が決まるのである。<br/><br/>教誨師は各宗教の教師が当たる事になっている。<br/><br/> ここで霊界の構成についてかくが、霊界は上中下の三段階になっている。<br/><br/>その一段はまた三段に分けられ合計九段階である。<br/><br/>すなわち上段が天国、中段が中有界、下段が地獄となっており、現界は中有界に相当する故に、仏語の六道辻とは極楽の三道、地獄の三道へ行く訳で、神道の八衢とは右のほかに、上は最高天国、下は根底の国が加わるのである。<br/><br/>そうして天国と地獄の様相を端的に説明すれば、最高天国に昇る程光と熱が強烈になり、ほとんど裸体同様の生活であって、昔から絵画彫刻に見るごとく至尊仏は裸体である。<br/><br/>これに反し最低地獄に落つる程光と熱が稀薄となり、極最低は暗黒、無明、凍結状態である。<br/><br/>故にこの苦しみにあうや、いかに極悪非道の霊といえども改心せざるを得ないのである。<br/><br/>以上はごく大体の説明であるが、現代人が見たら荒唐無稽の説と思うかも知れないが、私は二十数年にわたり多数の霊から霊媒を通じ、または他のあらゆる方法によって調査研究し、多数の一致した点をとって得たところの解説であるから、読者におかれても相当の信頼をもって読まれん事を望むのである。<br/><br/>彼の釈尊の地獄極楽説も、ダンテの神曲も決して作為的のものではない事を、私は信ずるのである。<br/><br/> 右のごとく、上中下三段階へ往く霊に対し、死人の面貌を見ればおよそ判るのである。<br/><br/>すなわち、なんら苦悶の相がなく鮮花色を呈しさながら生けるがごときは天国行きであり、陰欝なる淋しき面貌をし蒼白色、黄青色、つまり一般死人の状態は中有界行きであり、苦悶の相著しく、暗黒色または青黒色を呈するものは、もちろん地獄行きである。<br/><br/> 以上は、霊界における基礎的知識を得るためのものであるが、順次各面にわたっての私の経験によって得たる霊的事象を書いてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

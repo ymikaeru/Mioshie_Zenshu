@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>haikek06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺結核治癒の過程 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 まず、結核における第一期第二期の症状としては、微熱、咳嗽、喀痰、盗汗、疲労感、食欲不振等であるが、この程度の病症なれば、自然治癒によっても治るのである。<br><br>その方法としては、なるべく苦痛にならない程度の運動をするのである。<br><br>そうする事によって右のごとき症状が増進するのは勿論である。<br><br>しかしながら、それが浄化作用促進となるから、漸次病症は軽快、治癒に向うのである。<br><br>そうして食事は出来るだけ菜食が良いのである。<br><br>これについて、私の体験をかいてみよう。<br><br> 私は、十五歳の時、肋膜炎を病み、医療により一年位で全快、暫らく健康であったが、また再発したのである。<br><br>しかるに今回は経過捗々（はかばか）しくなく漸次悪化し、一年余経た頃、ついに肺結核三期と断定せられた。<br><br>その時がちょうど十八歳であった。<br><br>そうして最後に診察を受けたのが故入沢達吉博士で、同博士は綿密に診察の結果、最早治癒の見込なしと断定せられたのである。<br><br>そこで私は決心した。<br><br>それはどうせ自分はこのままでは死ぬに決っているとすれば、何らか変った方法で、奇蹟的に治すより外に仕方がないと意（おも）い、それを探し求めたのである。<br><br>その頃私は画を描くのを唯一の楽しみにしていたので、古い画譜など見ていると、その時、漢方医学で使った種々の薬草を書いた本があったので、それを見ていた時ハッと気がついたのである。<br><br>それは何であるかというと私は今日まで、動物性栄養食を盛んに摂っていた。<br><br>勿論、牛鳥肉等は固より、粥までも牛乳で煮て食うという訳で、特にその頃の医家は、栄養といえば動物性の物に限ると唱えたのであったから、私もそのまま実行した訳である。<br><br>しかるに、右の本をみて思った事は、野菜にも薬や栄養があるという事である。<br><br>そう考えると、昔の戦国時代などはほとんど菜食であったらしい。<br><br>史実に覧るような英雄豪傑が雲のごとく輩出したのであるから、これは菜食もいいかも知れない。<br><br>特に日本人はそうあるべきであると思ったので、断然実行すべく意を決したのである。<br><br>しかしながら、慎重を期し、試験的に一日だけ菜食を試みたところ非常に具合が良いので、二日三日と続けるうち益々よくここにおいて西洋医学の誤りを知り、一週間目位には薬剤も放棄したのである。<br><br>その様にして一ケ月位経たところ、病気はほとんど全快し、遂に、菜食を三ケ月続けたのであった。<br><br>その結果、罹病以前より健康になったので、その後他の病気には罹ったが、結核的症状だけはないにみて全く全快した事は明かであり、四十余年経た六十余歳の今日矍鑠（かくしゃく）として壮者を凌ぐ健康に見ても、結核は完全に治癒すべきものである事を知るであろう。<br><br>右の事実は結核患者に対し、参考となると思うのである。<br><br>そうして、右は自然治癒による過程であるが、本療法を施術するにおいて、その何分の一に短縮せらるるかはいうまでもないのである。<br><br> 次に、第三期以上の結核に対し、解説してみよう。<br><br> 結核治癒の過程において、他の疾患に見るを得ない特異性がある事である。<br><br>それは第三期以上の患者に限るといっていいので、それについて私は説明してみよう。<br><br> まず、三期以後の結核患者が本治療を受けるや、非常なる好結果を顕わし、短時日にしてすべての病的症状は軽快し、全快期の幾（ちか）きを想わしめ歓喜していると、急に高熱、咳嗽、喀痰、食欲不振等の症状が次々発生するので驚くのである。<br><br>そうしてこの再発的症状は頗（すこぶ）る執拗（しつよう）ではあるが、治療により病毒が排泄し、症状が軽減するに拘わらず、衰弱の為斃（たお）れるという例がよくあるのである。<br><br> 右はいかなる訳かというと、結核患者が、最初発生した浄化作用を医療によって抑圧するので、浄化力は漸次微弱となるから、一時は快方に向うごとく見ゆるのであるが、真の治癒ではないから、遂には一進一退の経過を持続しつつ、いつ快方に向うや見当がつかなくなるというようになるが、多くはそのころ本療法を受けるのであるが、その場合、最初の浄化作用以後追増した毒素を溶解するので、一時的効果が顕われるのである。<br><br>従って、患者は食欲増進し、徐々ながら運動も行うから、漸次浄化力が再現し最初の浄化作用発生時と同様の状態となるのである。<br><br>しかるに、最初の浄化作用発生時のごとき健康状態であれば、浄化作用終了まで体力が充分持続なし得る為全快するのであるが、長時日の誤療によって衰弱したのであるから、一時軽快したといえども、旺盛なる浄化作用に堪え得られずして、衰弱死に到るのである。<br><br> 故に、三期以上の結核患者を治療する場合右のごとき悪結果を来さない為にはどうすればよいかという事を書いてみよう。<br><br> まず、一旦軽快して再浄化が起った場合、それは例外なく左の症状を呈するものである。<br><br>それは、左右いずれかの延髄部が特に腫脹しており、そこに高熱の発生がある。<br><br>そうして右が腫脹していれば右の腎臓部に大固結があり、左が腫脹していれば左の腎臓部に大固結があるものである。<br><br>従って、延髄部が両方相平均している人は稀である。<br><br>勿論、一方の腎臓部に固結がある場合、他の腎臓部も若干は必ずあるものである。<br><br>又腎臓部に固結があれば、化膿性腹膜炎が必ずあるものであって特に結核患者は著るしいのである。<br><br> それが又食欲不振の原因でもある。<br><br>故に、再浄化発生の場合、まず第一に腎臓部の固結が溶解縮小しただけは、延髄部と腹膜部の毒結は、非常に溶解し易くなるのである。<br><br>そうして右のごとく腎臓部を第一とし、延髄部、腹膜部を次とし、胃部、肝臓部等の治療を行うのであって、場合により一日数回位行うのである、そうする事によって極めて好結果を挙げ、順調なる治癒過程をとるようになるから、三期といえども全治するのである。<br><br> 右のごとく、腎臓を主とする治療によって結核は完全に治癒するのであるから、もし意のごとき好結果の表われない場合、それは腎臓部の毒素溶解が不充分であるから一層、腎臓部の治療を徹底さすにおいて、初めて予期の成果が顕われるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Processo de Cura da Tuberculose</h2>
 <p>Nos estágios iniciais da tuberculose, o primeiro e o segundo, manifestam-se sintomas como febre baixa, tosse, expectoração, sudorese noturna, fadiga e inapetência. Nesse quadro, a cura pode ser alcançada por meios naturais. Um método para tal consiste em praticar exercícios leves, na medida em que não causem sofrimento. Naturalmente, tal prática intensificará, em um primeiro momento, os referidos sintomas. Contudo, esse processo acelera a ação purificadora, de modo que, gradualmente, o quadro clínico se atenua, conduzindo à plena recuperação. Adicionalmente, uma dieta predominantemente vegetariana é sobremaneira benéfica.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Quando a purificação secundária se manifesta, ela invariavelmente apresenta os seguintes sinais: um inchaço acentuado e febril em um dos lados da região do bulbo raquidiano. Se o lado direito estiver inchado, significa que há uma grande concentração de toxinas solidificadas na região do rim direito; se o inchaço for no lado esquerdo, a concentração se encontra no rim esquerdo. É raro que ambos os lados estejam equilibrados. Ademais, a presença de toxinas em um dos rins implica, via de regra, a existência de uma quantidade menor no outro. Onde há toxinas renais, há também, invariavelmente, peritonite purulenta, um quadro especialmente acentuado em pacientes tuberculosos e que constitui uma das causas da inapetência.</p>
 <p>Nesse sentido, ao eclodir a purificação secundária, a prioridade absoluta é dissolver e reduzir a solidificação de toxinas na região dos rins. À medida que se obtém êxito nessa tarefa, as toxinas localizadas no bulbo e no peritônio tornam-se muito mais fáceis de dissolver. A sequência correta do tratamento é, portanto: em primeiro lugar, a região dos rins; em seguida, o bulbo e o peritônio; e, posteriormente, as áreas do estômago, fígado e outras. Dependendo do caso, o tratamento pode ser aplicado várias vezes ao dia. Seguindo esse método, obtêm-se resultados excelentes e o processo de cura transcorre de forma harmoniosa, possibilitando a recuperação completa mesmo em casos de terceiro estágio.</p>
 <p>Como exposto, o tratamento focado nos rins é o que permite a cura completa da tuberculose. Se, porventura, os resultados não corresponderem às expectativas, isso indica que a dissolução das toxinas renais foi insuficiente. Nesse caso, é imperativo intensificar o tratamento nessa área específica até que o êxito almejado finalmente se manifeste.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肺結核治癒の過程 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 まず、結核における第一期第二期の症状としては、微熱、咳嗽、喀痰、盗汗、疲労感、食欲不振等であるが、この程度の病症なれば、自然治癒によっても治るのである。<br/><br/>その方法としては、なるべく苦痛にならない程度の運動をするのである。<br/><br/>そうする事によって右のごとき症状が増進するのは勿論である。<br/><br/>しかしながら、それが浄化作用促進となるから、漸次病症は軽快、治癒に向うのである。<br/><br/>そうして食事は出来るだけ菜食が良いのである。<br/><br/>これについて、私の体験をかいてみよう。<br/><br/> 私は、十五歳の時、肋膜炎を病み、医療により一年位で全快、暫らく健康であったが、また再発したのである。<br/><br/>しかるに今回は経過捗々（はかばか）しくなく漸次悪化し、一年余経た頃、ついに肺結核三期と断定せられた。<br/><br/>その時がちょうど十八歳であった。<br/><br/>そうして最後に診察を受けたのが故入沢達吉博士で、同博士は綿密に診察の結果、最早治癒の見込なしと断定せられたのである。<br/><br/>そこで私は決心した。<br/><br/>それはどうせ自分はこのままでは死ぬに決っているとすれば、何らか変った方法で、奇蹟的に治すより外に仕方がないと意（おも）い、それを探し求めたのである。<br/><br/>その頃私は画を描くのを唯一の楽しみにしていたので、古い画譜など見ていると、その時、漢方医学で使った種々の薬草を書いた本があったので、それを見ていた時ハッと気がついたのである。<br/><br/>それは何であるかというと私は今日まで、動物性栄養食を盛んに摂っていた。<br/><br/>勿論、牛鳥肉等は固より、粥までも牛乳で煮て食うという訳で、特にその頃の医家は、栄養といえば動物性の物に限ると唱えたのであったから、私もそのまま実行した訳である。<br/><br/>しかるに、右の本をみて思った事は、野菜にも薬や栄養があるという事である。<br/><br/>そう考えると、昔の戦国時代などはほとんど菜食であったらしい。<br/><br/>史実に覧るような英雄豪傑が雲のごとく輩出したのであるから、これは菜食もいいかも知れない。<br/><br/>特に日本人はそうあるべきであると思ったので、断然実行すべく意を決したのである。<br/><br/>しかしながら、慎重を期し、試験的に一日だけ菜食を試みたところ非常に具合が良いので、二日三日と続けるうち益々よくここにおいて西洋医学の誤りを知り、一週間目位には薬剤も放棄したのである。<br/><br/>その様にして一ケ月位経たところ、病気はほとんど全快し、遂に、菜食を三ケ月続けたのであった。<br/><br/>その結果、罹病以前より健康になったので、その後他の病気には罹ったが、結核的症状だけはないにみて全く全快した事は明かであり、四十余年経た六十余歳の今日矍鑠（かくしゃく）として壮者を凌ぐ健康に見ても、結核は完全に治癒すべきものである事を知るであろう。<br/><br/>右の事実は結核患者に対し、参考となると思うのである。<br/><br/>そうして、右は自然治癒による過程であるが、本療法を施術するにおいて、その何分の一に短縮せらるるかはいうまでもないのである。<br/><br/> 次に、第三期以上の結核に対し、解説してみよう。<br/><br/> 結核治癒の過程において、他の疾患に見るを得ない特異性がある事である。<br/><br/>それは第三期以上の患者に限るといっていいので、それについて私は説明してみよう。<br/><br/> まず、三期以後の結核患者が本治療を受けるや、非常なる好結果を顕わし、短時日にしてすべての病的症状は軽快し、全快期の幾（ちか）きを想わしめ歓喜していると、急に高熱、咳嗽、喀痰、食欲不振等の症状が次々発生するので驚くのである。<br/><br/>そうしてこの再発的症状は頗（すこぶ）る執拗（しつよう）ではあるが、治療により病毒が排泄し、症状が軽減するに拘わらず、衰弱の為斃（たお）れるという例がよくあるのである。<br/><br/> 右はいかなる訳かというと、結核患者が、最初発生した浄化作用を医療によって抑圧するので、浄化力は漸次微弱となるから、一時は快方に向うごとく見ゆるのであるが、真の治癒ではないから、遂には一進一退の経過を持続しつつ、いつ快方に向うや見当がつかなくなるというようになるが、多くはそのころ本療法を受けるのであるが、その場合、最初の浄化作用以後追増した毒素を溶解するので、一時的効果が顕われるのである。<br/><br/>従って、患者は食欲増進し、徐々ながら運動も行うから、漸次浄化力が再現し最初の浄化作用発生時と同様の状態となるのである。<br/><br/>しかるに、最初の浄化作用発生時のごとき健康状態であれば、浄化作用終了まで体力が充分持続なし得る為全快するのであるが、長時日の誤療によって衰弱したのであるから、一時軽快したといえども、旺盛なる浄化作用に堪え得られずして、衰弱死に到るのである。<br/><br/> 故に、三期以上の結核患者を治療する場合右のごとき悪結果を来さない為にはどうすればよいかという事を書いてみよう。<br/><br/> まず、一旦軽快して再浄化が起った場合、それは例外なく左の症状を呈するものである。<br/><br/>それは、左右いずれかの延髄部が特に腫脹しており、そこに高熱の発生がある。<br/><br/>そうして右が腫脹していれば右の腎臓部に大固結があり、左が腫脹していれば左の腎臓部に大固結があるものである。<br/><br/>従って、延髄部が両方相平均している人は稀である。<br/><br/>勿論、一方の腎臓部に固結がある場合、他の腎臓部も若干は必ずあるものである。<br/><br/>又腎臓部に固結があれば、化膿性腹膜炎が必ずあるものであって特に結核患者は著るしいのである。<br/><br/> それが又食欲不振の原因でもある。<br/><br/>故に、再浄化発生の場合、まず第一に腎臓部の固結が溶解縮小しただけは、延髄部と腹膜部の毒結は、非常に溶解し易くなるのである。<br/><br/>そうして右のごとく腎臓部を第一とし、延髄部、腹膜部を次とし、胃部、肝臓部等の治療を行うのであって、場合により一日数回位行うのである、そうする事によって極めて好結果を挙げ、順調なる治癒過程をとるようになるから、三期といえども全治するのである。<br/><br/> 右のごとく、腎臓を主とする治療によって結核は完全に治癒するのであるから、もし意のごとき好結果の表われない場合、それは腎臓部の毒素溶解が不充分であるから一層、腎臓部の治療を徹底さすにおいて、初めて予期の成果が顕われるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

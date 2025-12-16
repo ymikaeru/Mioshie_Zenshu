@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 科学に先行の浄霊 『救世』50号、昭和25(1950)年2月18日発行 毒血を排除せよ 大浄化で安産できる 岐阜県 五六七大教会善栄中教会 伊藤喜代子（30） 私は昨年二月十三日早朝より悪寒戦慄と共に発熱し、夕方には昏睡状態に陥入り危険状態が続きどうする術もなく早速分会長先生に御守護をお願いし、家内中一心に光明如来様におすがり下さり漸く正気に還り発音も可能となったのです。<br><br>延髄の大浄化との事で頭痛の辛さと嘔吐の激しさは骨身にこたえる激痛で、生れて初めての苦しみでした。<br><br>浄霊して頂きますと大変楽にはなりますが、又暫くするとずきずきと脈うつごとき激しい痛みで、目をあく力もなく聴覚もにぶってまいりました。<br><br>引続いて脊髄部に激痛を覚え、脚へ病毒が下るのか引吊ったようになり、体中どこもかしこも痛くて寝返りするのも大変で、又少しずつ飲む水と重湯も体を動かすとすぐ吐いてしまう有様で、益々衰弱するばかりの状態が七十日も続いたのでした。<br><br> その上妊娠九カ月の事とて時々お腹が冷たく感ずる時がありこの苦しみと衰弱に早産させてはと主人も心配する有様でしたが、衰弱が甚だしいため最早やそれすらも出来ない絶望の状態となりましたが、ひたすらにお縋り致し、その間本部へ御守護のお願いさせて頂き又後藤先生、小坂先生の御浄霊を度々頂く中、少しずつ楽になり真黒な大便が多量に排泄されて以来頭痛も軽減し、嘔吐するのも少し遠のき漸く愁眉を開きました。<br><br>その中四月二十八日に後藤先生に御浄霊頂く中、死んだ叔母の霊や流産した子供の霊の供養をして頂いたら嘘のように頭痛も忘れ、食事も皆受付けるようになり、数日にして家の中位は歩けるようになり、力づきの早さは今迄の病後に比し驚くばかりでございました。<br><br>その時の嬉しさは言語に絶し思わず光明如来様に御礼申上げ「如何ならむいたつきとても念ずれば疾く癒します観世音かも」の御讃歌を捧げさせて頂き感謝の涙に咽ぶのみで御座いました。<br><br> もう十日目位からは畑に出たので、近隣の人達が吃驚したような次第で以来すっかり元気恢復し少し肥えて来ました。<br><br>その上五月二十日には女児を安産させて頂きました。<br><br>お隣りの産婆さんが間に合い兼ねるようないとも楽な出産で、産後の肥立ちもよく、母子共に順調でお乳もたっぷりあり、大病直後とは思えぬ安産に重ね重ねの御守護、誠に有難う御座いました。<br><br>八十日に渡るさしもの大浄化の果、よみ返った心身はもう以前の私でなく「如何にして嗚呼如何にして酬ゆべき生命賜ひし事を思へば」のお歌にお示し下さるごとく、御恩の万分の一にもと御偉業に一層御協力させて頂くべくお誓い申上げます。<br><br> 右の批判 右の患者は最初脳膜炎であって激しい嘔吐はそのためである、すべて脳に関する病気の重い軽いは嘔吐の回数で判断するのが一番正確である、まず二、三回くらいの嘔吐ならいいが、五、六回以上は生命の危険信号と思っていい、この患者などは医療のみをしたら、死はまぬかれなかったであろう、次に黒便が出てから、頭痛が軽減したというのは、原因である毒血が出たのですべて脳疾患は毒血のためであるから、痔出血なども出血後は脳の軽快を覚えるのである、しかも妊娠の末期であるからどこからみても危険であった訳でいかに浄霊が偉大なる効果を現すかである。<br><br> ＊ ＊ ＊ 不可解な病状急変 生命を救う現実問題を 岩手県 進々中教会 教導師 伊藤キス（45） 戦争もたけなわの、昭和十〔九〕年十二月二十六日、妹の結婚式当日、五歳になる私の養女（妹の次女で父親は昭和十五年に死亡）が急に頭が痛いと泣き出し、全く狂人のようになり、わめきさわいで、どうにもなりませんでした。<br><br>これは急性の脳膜炎ということは、一見して素人にもわかる病状でしたので、式の手伝の人々が大変心配して、医者を迎えに走って行きました。<br><br> 私は式の方には手伝もせず、ただ一すじに神様におすがりして、絶対大丈夫と思い、浄霊さして頂いておりましたら医者が見え、矢張り脳膜炎との診断で注射をして帰られました。<br><br> 間もなく急に静かになったので、頭に手を当ててみましたら、何んだかヒヤリと感じましたので、変だな、と思い脈をみましたら非常に不整です。<br><br>驚いて主人を呼び、心臓に手を当ててみますと、鼓動は結滞しております。<br><br>暫くたったら、段々冷たくなり、死相を呈して参りました。<br><br>もう呼吸もせず、脈もすっかり止ってしまいました。<br><br>手伝の人々も今はただ顔を見合わせて、オロオロするのみです。<br><br>自分一人では心許なく、約二十丁はなれた山崎先生のお宅に電話して御浄霊をお願いしましたところ早速かけつけられ、どうもあきらめるより外ない容体だが光明如来様におすがりしてやらして頂きましょうとおっしゃいましたので、先生と私と二人で一生懸命に浄霊さして頂き、主人もまたひたすらに光明如来様を念じつづけておりました。<br><br> やがて一時間半程して、やっと泣き出しましたので、居並ぶ人々も「ああ生きかえった、生きかえった」と大喜びで、ホッとして気がつきますと、十二月末の寒夜に先生も主人も私も上衣なしのシャツに、ビッショリと汗がにじんでおりました。<br><br> この時の感激は、とても筆舌にはつくし得ません。<br><br>全く光明如来様の御利益の偉大さにはただただ驚くばかりで、ああ助けて頂いた、御救の御手をさしのべて頂いた！ と思うと涙がとめどなく流れ、あたりに大勢の人々のいるのさえ打忘れる程でした。<br><br> この約一週間程前主人が、四年前になくなりましたこの子の父が来て、この子を貴殿にお願しておくわけには行かぬから、どうしても一緒に連れて行くと言い、主人は今更やることなどできぬと、はげしい口論をし、はては法にかけてもやらぬと争った夢をみたから、充分注意しているようにと申しておりました際に、このようなことが起きまして、やはり光明如来様が、妙智力でお知らせ賜ったのだと思い当り、妙智力の無限のお働きに、ただ驚嘆するばかりでありました。<br><br> この子は、生れ落ちたその日から私達の手で育てましたが、父親は、この御光を仰ぐ私達のことを理解できず、遂にはうらんでさえおりますうち、一年ほどして急死してしまいました。<br><br>これも矢張り神様の思召しによるものと私は信じております。<br><br> このようなわけで、私達に委ねていることが苦しくて、一緒につれて行こうとかかったものと思いますが、観音力の偉大な御救の前には流石頑固な死霊も、お浄めを頂いてこの子の傍をはなれ去ったものと存じます。<br><br>それを思うにつけて、まだ、この有難い御光に浴さぬ人に一日も早くわからせたいものと念願致しまして精進さして頂きたく存じおります。<br><br> この実例について注目すべきは、医療である、もちろん、脳膜炎には違いないが、注射をするや間もなく全身冷たくなり死の状態を呈したというのは不可解である、吾らの経験上脳膜炎の初期としてはそういう事はあり得ないにみて、どうしても注射のためとしか考えようがない。<br><br> また他の病気に対しても注射後間もなく死んだという例はよく聞く所で尊い人命に関する以上、この点最も慎重に診療すべき事を臨床家に希望したいのである、なるほど医学の新発見も肝腎であるが、現実問題の方は一そう重大事であるからである。<br><br> ＊ ＊ ＊ 湿性肋膜の盗汗 心配すべきものにあらず 茨城県 五六七大教会大暉中教会 鈴木長四郎（24） 私の発病は昭和二十二年四月下旬であった。<br><br>二月末感冒に罹り日頃の体の条件からいってこの位と高をくくっていたが、頭が割れそうに痛み、水鼻はかめどもかめども後を断たず、平常と異った感覚が脳を刺激するに及んで、もしや結核の初期ではないかと校医の門を叩いた。<br><br>その結果は単なる感冒との事で安心感を懐きつつ家路を急いだ。<br><br>安静とアスピリンの治療によってやっと床を去る事が出来た。<br><br>しかしその前後より机に向っているとひどく労働したかのように腰が痛み、殊に就寝時はこの状態がひどくなった。<br><br>なにこれ位の事と思っているうちに春休みになり郷里へ帰った。<br><br>風はさわやかに青草は燃え出る春を毎日気分がすぐれず、その内に肋膜部が痛み、どうしても止らず、医者の診断の結果は湿性肋膜と宣せられ、呆然とし、華かな青春の歓喜から一瞬暗黒の世界へと落込んだ。<br><br> デカダン的になった私は肋膜から水を取り寂しく家へ向った。<br><br>この頃の私は茶褐色の痰を吐き、呼吸困難で、熱は三十八度を前後し、温湿布と絶対安静を重ね、一週間位するとようやく熱も六度台になりましたが、一日の中午後三時頃の体温はいつも七度一、二分の結核熟におびやかされたが、十月も半ば過ぎる頃百米位歩行を許され退院したのでした。<br><br>しかし十二月末、再び感冒になり熱は三十八度線を上下し、右胸に水が溜り、再発かと思いながら一生私はこの身を病床に横たえなければならぬかと思い、人生に悲哀を感じた過去の療養中、特効薬のない事等思い浮べ、安静が唯一の療養と考え、絶対安静に努めた。<br><br>翌年の四月下旬になると一週に一度位三十七度の赤線を越える程度にこぎつけ、早く体力を付けようと毎日卵数個や魚等御飯は茶腕に二杯も食べた。<br><br>そのため却って胃腸をこわし、日頃の下痢はその度を増し、ある時は便秘に悩まされ、胃が垂れ下ったような気がし、胃下垂の状態になり日に日に体は衰弱し、果ては死を覚悟せねばならぬまでに至った。<br><br> その時何処より来られたのか神の福音の御使として、角田先生が今眼前に迫り来る死の断末魔に喘いでいた私を救って下さろうとお出で下され、御浄霊の効果等についてお話をされました。<br><br>早速姉に教修を受けて頂き、姉から御浄霊を受ける事になった。<br><br>信仰に対して絶えず懐疑的でありましたが、生死の一線を浮きつ沈みつ溺れる者藁をもつかむ心地で、ただ偉大な何物かにすがりたい気持で、ひたすら光明如来様におすがりしたのは青葉の燃え出る五月上旬でした。<br><br> 御浄霊を頂きながらも、今迄物質文明が最上至高のものと思って来たので中々御浄霊の理解が出来ず懐疑の日は続きました。<br><br>一週間位経ったある晩のこと姉が頭を御浄霊しているとスーッと頭が冴えて、物質的作用も化学的作用もしないにもかかわらず、室内で霊の放射に依って今迄の苦痛の箇所が燃えるように熱くなり、浄霊後は今迄の体は他人の物のように心地良くなって行くのでした。<br><br>「アア」と思わず感歎の声を発してしまいました。<br><br>姉は毎日学校から帰り疲れた身もいとわず光明如来様に感謝しつつ御浄霊してくれるのです。<br><br>これに答えてか、私も病床で光明如来様朝夕お祈りを申し上げるようになりました。<br><br>その後二、三日するとひどく盗汗が出て驚いて先生にお尋ねしたところ「浄化作用である」と申され安心致しました。<br><br>その後は日増に具合が良く今日に至りました。<br><br>ただ今では罹病前以上の健康体にして戴き、専ら地上天国建設の御事業に出来ないながらもお手伝いさせて頂いております。<br><br> 医療は固める方法という事は、常に吾らが言う通りで右の患者がよくそれを物語っている、また動物性食物過量の結果、下痢が続き消化薬を多く服用したとみえて胃下垂を起す等医療によって漸次悪化し死を覚悟する程度までになったのである、また多量の盗汗（ねあせ）があって快方に向かった事は湿性肋膜の水が汗によって排泄されたのである、医学ではこの盗汗を嫌うが、これは大いに間違っている事を右によって知るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grandeza do Johrei Ante as Limitações da Ciência</h2>
 <p><strong>Relato de Ito Kiyoko (30 anos)</strong>
@@ -126,5 +278,48 @@ Igreja Daiki, ligada à Grande Igreja Goroku-shichi da Província de Ibaraki</p>
 <p>Dois ou três dias depois, comecei a ter suores noturnos intensos. Preocupado, consultei o ministro, que me tranquilizou, explicando tratar-se de uma ação purificadora. A partir de então, melhorei a cada dia, e hoje gozo de uma saúde superior à que tinha antes de adoecer. Dedico-me agora, ainda que de forma limitada, a auxiliar na sagrada obra de construção do Paraíso Terrestre.</p>
 <p><strong>Análise do caso precedente</strong></p>
 <p>A medicina é um método solidificante, e este paciente é um exemplo claro do que sempre afirmamos. O consumo excessivo de alimentos de origem animal resultou em diarreia e, ao que parece, o uso de muitos medicamentos digestivos provocou a gastroptose. Desse modo, o tratamento médico foi agravando gradualmente sua condição, até levá-lo a um estado em que se preparava para a morte. Por outro lado, a recuperação se iniciou após a manifestação de intensos suores noturnos. Isso ocorreu porque o líquido da pleurisia úmida foi expelido através do suor. A medicina considera esses suores um mau sinal, mas este caso comprova o quão equivocada é essa visão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： おかげばなし批判 科学に先行の浄霊 『救世』50号、昭和25(1950)年2月18日発行 毒血を排除せよ 大浄化で安産できる 岐阜県 五六七大教会善栄中教会 伊藤喜代子（30） 私は昨年二月十三日早朝より悪寒戦慄と共に発熱し、夕方には昏睡状態に陥入り危険状態が続きどうする術もなく早速分会長先生に御守護をお願いし、家内中一心に光明如来様におすがり下さり漸く正気に還り発音も可能となったのです。<br/><br/>延髄の大浄化との事で頭痛の辛さと嘔吐の激しさは骨身にこたえる激痛で、生れて初めての苦しみでした。<br/><br/>浄霊して頂きますと大変楽にはなりますが、又暫くするとずきずきと脈うつごとき激しい痛みで、目をあく力もなく聴覚もにぶってまいりました。<br/><br/>引続いて脊髄部に激痛を覚え、脚へ病毒が下るのか引吊ったようになり、体中どこもかしこも痛くて寝返りするのも大変で、又少しずつ飲む水と重湯も体を動かすとすぐ吐いてしまう有様で、益々衰弱するばかりの状態が七十日も続いたのでした。<br/><br/> その上妊娠九カ月の事とて時々お腹が冷たく感ずる時がありこの苦しみと衰弱に早産させてはと主人も心配する有様でしたが、衰弱が甚だしいため最早やそれすらも出来ない絶望の状態となりましたが、ひたすらにお縋り致し、その間本部へ御守護のお願いさせて頂き又後藤先生、小坂先生の御浄霊を度々頂く中、少しずつ楽になり真黒な大便が多量に排泄されて以来頭痛も軽減し、嘔吐するのも少し遠のき漸く愁眉を開きました。<br/><br/>その中四月二十八日に後藤先生に御浄霊頂く中、死んだ叔母の霊や流産した子供の霊の供養をして頂いたら嘘のように頭痛も忘れ、食事も皆受付けるようになり、数日にして家の中位は歩けるようになり、力づきの早さは今迄の病後に比し驚くばかりでございました。<br/><br/>その時の嬉しさは言語に絶し思わず光明如来様に御礼申上げ「如何ならむいたつきとても念ずれば疾く癒します観世音かも」の御讃歌を捧げさせて頂き感謝の涙に咽ぶのみで御座いました。<br/><br/> もう十日目位からは畑に出たので、近隣の人達が吃驚したような次第で以来すっかり元気恢復し少し肥えて来ました。<br/><br/>その上五月二十日には女児を安産させて頂きました。<br/><br/>お隣りの産婆さんが間に合い兼ねるようないとも楽な出産で、産後の肥立ちもよく、母子共に順調でお乳もたっぷりあり、大病直後とは思えぬ安産に重ね重ねの御守護、誠に有難う御座いました。<br/><br/>八十日に渡るさしもの大浄化の果、よみ返った心身はもう以前の私でなく「如何にして嗚呼如何にして酬ゆべき生命賜ひし事を思へば」のお歌にお示し下さるごとく、御恩の万分の一にもと御偉業に一層御協力させて頂くべくお誓い申上げます。<br/><br/> 右の批判 右の患者は最初脳膜炎であって激しい嘔吐はそのためである、すべて脳に関する病気の重い軽いは嘔吐の回数で判断するのが一番正確である、まず二、三回くらいの嘔吐ならいいが、五、六回以上は生命の危険信号と思っていい、この患者などは医療のみをしたら、死はまぬかれなかったであろう、次に黒便が出てから、頭痛が軽減したというのは、原因である毒血が出たのですべて脳疾患は毒血のためであるから、痔出血なども出血後は脳の軽快を覚えるのである、しかも妊娠の末期であるからどこからみても危険であった訳でいかに浄霊が偉大なる効果を現すかである。<br/><br/> ＊ ＊ ＊ 不可解な病状急変 生命を救う現実問題を 岩手県 進々中教会 教導師 伊藤キス（45） 戦争もたけなわの、昭和十〔九〕年十二月二十六日、妹の結婚式当日、五歳になる私の養女（妹の次女で父親は昭和十五年に死亡）が急に頭が痛いと泣き出し、全く狂人のようになり、わめきさわいで、どうにもなりませんでした。<br/><br/>これは急性の脳膜炎ということは、一見して素人にもわかる病状でしたので、式の手伝の人々が大変心配して、医者を迎えに走って行きました。<br/><br/> 私は式の方には手伝もせず、ただ一すじに神様におすがりして、絶対大丈夫と思い、浄霊さして頂いておりましたら医者が見え、矢張り脳膜炎との診断で注射をして帰られました。<br/><br/> 間もなく急に静かになったので、頭に手を当ててみましたら、何んだかヒヤリと感じましたので、変だな、と思い脈をみましたら非常に不整です。<br/><br/>驚いて主人を呼び、心臓に手を当ててみますと、鼓動は結滞しております。<br/><br/>暫くたったら、段々冷たくなり、死相を呈して参りました。<br/><br/>もう呼吸もせず、脈もすっかり止ってしまいました。<br/><br/>手伝の人々も今はただ顔を見合わせて、オロオロするのみです。<br/><br/>自分一人では心許なく、約二十丁はなれた山崎先生のお宅に電話して御浄霊をお願いしましたところ早速かけつけられ、どうもあきらめるより外ない容体だが光明如来様におすがりしてやらして頂きましょうとおっしゃいましたので、先生と私と二人で一生懸命に浄霊さして頂き、主人もまたひたすらに光明如来様を念じつづけておりました。<br/><br/> やがて一時間半程して、やっと泣き出しましたので、居並ぶ人々も「ああ生きかえった、生きかえった」と大喜びで、ホッとして気がつきますと、十二月末の寒夜に先生も主人も私も上衣なしのシャツに、ビッショリと汗がにじんでおりました。<br/><br/> この時の感激は、とても筆舌にはつくし得ません。<br/><br/>全く光明如来様の御利益の偉大さにはただただ驚くばかりで、ああ助けて頂いた、御救の御手をさしのべて頂いた！ と思うと涙がとめどなく流れ、あたりに大勢の人々のいるのさえ打忘れる程でした。<br/><br/> この約一週間程前主人が、四年前になくなりましたこの子の父が来て、この子を貴殿にお願しておくわけには行かぬから、どうしても一緒に連れて行くと言い、主人は今更やることなどできぬと、はげしい口論をし、はては法にかけてもやらぬと争った夢をみたから、充分注意しているようにと申しておりました際に、このようなことが起きまして、やはり光明如来様が、妙智力でお知らせ賜ったのだと思い当り、妙智力の無限のお働きに、ただ驚嘆するばかりでありました。<br/><br/> この子は、生れ落ちたその日から私達の手で育てましたが、父親は、この御光を仰ぐ私達のことを理解できず、遂にはうらんでさえおりますうち、一年ほどして急死してしまいました。<br/><br/>これも矢張り神様の思召しによるものと私は信じております。<br/><br/> このようなわけで、私達に委ねていることが苦しくて、一緒につれて行こうとかかったものと思いますが、観音力の偉大な御救の前には流石頑固な死霊も、お浄めを頂いてこの子の傍をはなれ去ったものと存じます。<br/><br/>それを思うにつけて、まだ、この有難い御光に浴さぬ人に一日も早くわからせたいものと念願致しまして精進さして頂きたく存じおります。<br/><br/> この実例について注目すべきは、医療である、もちろん、脳膜炎には違いないが、注射をするや間もなく全身冷たくなり死の状態を呈したというのは不可解である、吾らの経験上脳膜炎の初期としてはそういう事はあり得ないにみて、どうしても注射のためとしか考えようがない。<br/><br/> また他の病気に対しても注射後間もなく死んだという例はよく聞く所で尊い人命に関する以上、この点最も慎重に診療すべき事を臨床家に希望したいのである、なるほど医学の新発見も肝腎であるが、現実問題の方は一そう重大事であるからである。<br/><br/> ＊ ＊ ＊ 湿性肋膜の盗汗 心配すべきものにあらず 茨城県 五六七大教会大暉中教会 鈴木長四郎（24） 私の発病は昭和二十二年四月下旬であった。<br/><br/>二月末感冒に罹り日頃の体の条件からいってこの位と高をくくっていたが、頭が割れそうに痛み、水鼻はかめどもかめども後を断たず、平常と異った感覚が脳を刺激するに及んで、もしや結核の初期ではないかと校医の門を叩いた。<br/><br/>その結果は単なる感冒との事で安心感を懐きつつ家路を急いだ。<br/><br/>安静とアスピリンの治療によってやっと床を去る事が出来た。<br/><br/>しかしその前後より机に向っているとひどく労働したかのように腰が痛み、殊に就寝時はこの状態がひどくなった。<br/><br/>なにこれ位の事と思っているうちに春休みになり郷里へ帰った。<br/><br/>風はさわやかに青草は燃え出る春を毎日気分がすぐれず、その内に肋膜部が痛み、どうしても止らず、医者の診断の結果は湿性肋膜と宣せられ、呆然とし、華かな青春の歓喜から一瞬暗黒の世界へと落込んだ。<br/><br/> デカダン的になった私は肋膜から水を取り寂しく家へ向った。<br/><br/>この頃の私は茶褐色の痰を吐き、呼吸困難で、熱は三十八度を前後し、温湿布と絶対安静を重ね、一週間位するとようやく熱も六度台になりましたが、一日の中午後三時頃の体温はいつも七度一、二分の結核熟におびやかされたが、十月も半ば過ぎる頃百米位歩行を許され退院したのでした。<br/><br/>しかし十二月末、再び感冒になり熱は三十八度線を上下し、右胸に水が溜り、再発かと思いながら一生私はこの身を病床に横たえなければならぬかと思い、人生に悲哀を感じた過去の療養中、特効薬のない事等思い浮べ、安静が唯一の療養と考え、絶対安静に努めた。<br/><br/>翌年の四月下旬になると一週に一度位三十七度の赤線を越える程度にこぎつけ、早く体力を付けようと毎日卵数個や魚等御飯は茶腕に二杯も食べた。<br/><br/>そのため却って胃腸をこわし、日頃の下痢はその度を増し、ある時は便秘に悩まされ、胃が垂れ下ったような気がし、胃下垂の状態になり日に日に体は衰弱し、果ては死を覚悟せねばならぬまでに至った。<br/><br/> その時何処より来られたのか神の福音の御使として、角田先生が今眼前に迫り来る死の断末魔に喘いでいた私を救って下さろうとお出で下され、御浄霊の効果等についてお話をされました。<br/><br/>早速姉に教修を受けて頂き、姉から御浄霊を受ける事になった。<br/><br/>信仰に対して絶えず懐疑的でありましたが、生死の一線を浮きつ沈みつ溺れる者藁をもつかむ心地で、ただ偉大な何物かにすがりたい気持で、ひたすら光明如来様におすがりしたのは青葉の燃え出る五月上旬でした。<br/><br/> 御浄霊を頂きながらも、今迄物質文明が最上至高のものと思って来たので中々御浄霊の理解が出来ず懐疑の日は続きました。<br/><br/>一週間位経ったある晩のこと姉が頭を御浄霊しているとスーッと頭が冴えて、物質的作用も化学的作用もしないにもかかわらず、室内で霊の放射に依って今迄の苦痛の箇所が燃えるように熱くなり、浄霊後は今迄の体は他人の物のように心地良くなって行くのでした。<br/><br/>「アア」と思わず感歎の声を発してしまいました。<br/><br/>姉は毎日学校から帰り疲れた身もいとわず光明如来様に感謝しつつ御浄霊してくれるのです。<br/><br/>これに答えてか、私も病床で光明如来様朝夕お祈りを申し上げるようになりました。<br/><br/>その後二、三日するとひどく盗汗が出て驚いて先生にお尋ねしたところ「浄化作用である」と申され安心致しました。<br/><br/>その後は日増に具合が良く今日に至りました。<br/><br/>ただ今では罹病前以上の健康体にして戴き、専ら地上天国建設の御事業に出来ないながらもお手伝いさせて頂いております。<br/><br/> 医療は固める方法という事は、常に吾らが言う通りで右の患者がよくそれを物語っている、また動物性食物過量の結果、下痢が続き消化薬を多く服用したとみえて胃下垂を起す等医療によって漸次悪化し死を覚悟する程度までになったのである、また多量の盗汗（ねあせ）があって快方に向かった事は湿性肋膜の水が汗によって排泄されたのである、医学ではこの盗汗を嫌うが、これは大いに間違っている事を右によって知るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

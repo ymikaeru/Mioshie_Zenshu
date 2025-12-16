@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270815</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月15日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月十五日 今度アメリカから帰ってきた人で、あちらの大学に行っていた信者がありますが、その人がこの間あっちの病人の状態をいろいろ細かく統計的に書いてきたのを昨夜読んだのですが『栄光』にも出すし、それから小冊子のような物を作ってアメリカに配ろうと思っている。<br><br>たいへんな病人なのです。<br><br>日本に負けないくらいなものです。<br><br>現在医者にかかっている人が千七、八百万人いる――人口が一億五千万人ですから、一割強がお医者の御厄介になっている。<br><br>それで一番多いのは胃癌、小児麻痺――これはアメリカ特有のものです。<br><br>それから結核がなかなか多いです。<br><br>その他にも肝臓だとか喘息だとかいろいろな病気がありますが、一番困っているのは小児麻痺です。<br><br>小児麻痺も、聞いてみると、ほとんど疑似小児麻痺です。<br><br>霊の憑らないものです。<br><br>たいてい足が痛くて動かない――先の、死んだルーズヴェルトなんかそれでしたが、それなのです。<br><br>原因は無論薬毒です。<br><br>大体注射です。<br><br>それにぜんぜん気がつかないので、やっぱり薬で治そうとするが治るはずはないのです。<br><br>そういうこと――病気の原因を精しく書いて、アメリカ人を救わなければならないと思っているのです。<br><br>今このままで行ったら、もう百年くらいでアメリカ人は亡びてしまうでしょう。<br><br>そのため、病気のためにいろいろな方面に影響を及ぼしているのです。<br><br>で、強い薬を服んで一時抑えをやっているのです。<br><br>一時抑えが効かなくなったらたいへんです。<br><br>つまり薬の迷信にかかっているので実にかわいそうなものです。<br><br>今、世界ではアメリカが医学は一番進歩している。<br><br>ドイツを凌いでいるということになってますが、結論としては医学が進歩するから病人が増えるのです。<br><br>そこに気がつかないのですから厄介なものです。<br><br>ところで、だんだん霊界が変わってくるに従って、浄化が強くなって病気が起る。<br><br>そうするとまた強い薬で抑えようとするが、抑えきれないから薬の毒をよけい強めるわけです。<br><br>ところがまた、霊的にはよけい浄化が強くなるから、薬と浄化との闘いです。<br><br>現にもう闘っているわけです。<br><br>ヒドラジドなんかも、この間――ある病院での研究によると、用いた後は一時良くなる。<br><br>そうするとたいてい二、三週間、長いので二カ月くらいで、いったん減った菌がまた増えてくる。<br><br>その菌は非常に強い菌なのです。<br><br>それで、そういった菌が強くなる――つまり悪化するのが、今までの統計では約三割増えてます。<br><br>で、まだ今は三割ですが、これがだんだん浄化が強くなると、五割六割にもなって、結局あれを使ってはいけないということになります。<br><br>いつか書いた「結核新薬を嗤う」というあの論文の通りになります。<br><br>そんなような具合で、いずれはアメリカあたりでたいへんな問題になると思います。<br><br>その前に警告を与えておこうと思ってます。<br><br>そうしていずれ英文『栄光』というのを作ろうと思っている。<br><br>今のところの予定は、ハワイでちょうど適当な人がありますから、そういう人にハワイで発行させて、こっちの『栄光』の翻訳と、特にアメリカ向きの記事も書こうと思っている。<br><br>そうしてアメリカ人を救うということの仕事をしなければならない。<br><br>やはり今世界をリードしているのはアメリカですから、世界を救うということは、まずアメリカ人に分からせるということが一番効果がありますから、そういう方法をとろうと思ってます。<br><br>それで、かえってアメリカの方が分かってくると日本人が分かるのです。<br><br>どうしてもやっぱり輸入しなければ駄目なのです。<br><br>舶来中毒にかかっているから、やっぱり舶来迷信でしょう。<br><br>他のものはそうでもないが、ああいった学説とかいうものは、やっぱり舶来迷信にかかっている。<br><br>まあその迷信を利用するよりないのです。<br><br> 講和以前はそういうことは、やはり言えなかったのですが、もう講和になれば言っても差し支えないのです。<br><br>とにかく日本人というものは、非常に霊的に優秀なのです。<br><br>これはいっそう深く話しすると分かるのですが、日本人というものは、なぜ優秀か――だんだんそういうことも話します。<br><br>もう、世界では一番なのです。<br><br>ですから美術でもそうです。<br><br>今、美術は日本が世界一というような世界的な世論になってます。<br><br>今度アメリカで日本の美術の大展覧会を開催するので、それについてこの間来たウォーナー博士、フリーヤー〔フリアー〕という個人の美術館の館長のウェンリーという人、それからニューヨークのメトロポリタン博物館――これはアメリカでは一番ですが、そこの東洋美術部長のプリースト氏、ウェンリー氏とプリースト氏はこの間来て非常に褒めてました。<br><br>ウェンリーという人に、この美術館でここがいけないという所がなにかあったら遠慮なく言ってくれと言ったところが、別にたいしてないが、皿みたいな物を見ると疲れるから、自分の所では目の角度に合わしたような陳列の仕方にしている。<br><br>と、そんなものだと言ってましたが、それは私も承知してますが、巻物だとか皿は、立てては、やはりおもしろくないのです。<br><br>皿としての意義が違うのです。<br><br>皿は上から見るのが、皿としての鑑賞の仕方で、こう（立てる）やっては額みたいになって、どうも感じが良くない。<br><br>巻物でも同じです。<br><br>でも、巻物はいくらか斜めに拡げてあるから良いのです。<br><br>その人は日本通で、ごはんをごちそうしましたが、坐って――その時一番うまいと言ったのは鰻です。<br><br>蒲焼きです。<br><br>それからテンプラを食べ、奥さんと両方ですが、箸で食べているのですから、よほど日本趣味が多いのです。<br><br>そういう人はアメリカ人でもそうとうあるようですが、特に日本美術と日本建築、こういうことに非常に関心を持ってます。<br><br>そんなような具合で、日本人の美術的感覚はとにかく断然世界一です。<br><br>日本の次は支那ですが、全般的には日本人の方がずっと上です。<br><br>これはだんだん話しますが、西洋では、そういった美術とかいう気性の高いものは、日本人ほどにはいかないです。<br><br>とにかく――今朝もラジオの「趣味の手帳」で亀井勝一郎という人が昨日、今日、明日と、奈良の仏像についての批評をしましたが、今日は法隆寺の中宮にある弥勒菩薩を話してましたが、あれは観音だろうという説もあると言ってましたが、弥勒菩薩と観音様は同じで、その区別を知らないのだが、あれをロダンの彫刻と比較して言ってましたが、ロダンのは「考える人」という彫刻ですが、考えるのにロダンのは苦悩が表われている。<br><br>苦心が表われている。<br><br>ところが中宮寺にある観音様――弥勒菩薩というのですが、考えるというよりか、瞑想にふけっているという、いかにも穏やかな柔らかい感じがする。<br><br>と、そんなことを言ってましたが、これは上手い評です。<br><br>実際日本美術というものは、そういった平和の感じを非常に良く出しているのです。<br><br> また私は、終戦直後『栄光』に出そうと思って、音楽のことを書いたことがあります。<br><br>歌うということは、日本の音楽が歌うのだ。<br><br>西洋の音楽は、男の方は吠える、それから女の方は悲鳴を上げる、というように書いたのです。<br><br>で、歌うというのは、日本の音楽は本当に歌うのだというように書いた。<br><br>ところが『栄光』の編集をしている人が、つまり「日本人の優秀性」を書くと、進駐軍の方があるから、今のところは止した方が良いというので止しましたが、とにかく美術というものは、平和の感覚を表わすのが本当です。<br><br>つまり苦悶とか、あるいは闘争とか、そういうものを表わすということは、本当の芸術としての本質ではないのです。<br><br> 話は横道に外れましたが、日本美術というものは、まだまだドンドン世界に認められます。<br><br>今度なんかも、先方はだいぶ要求が多いのですが、良い物を見せてくれと言っている。<br><br>日本でもなかなかそれに応じかねるのです。<br><br>それは日本にはすばらしい物がありますが、ある程度まで以上の物は承諾しないだろうと思ってます。<br><br>こっちにもそういったような物は四、五点ありますから、言ってこないかと思ってます。<br><br>承知することもできないだろうと思ってます。<br><br>一つか二つは良いですが――。<br><br>向こうではたいへんな大仕掛けなことをやって、品物を運ぶのに間違いがあってはたいへんですから、軍艦で運ぶのだそうです。<br><br>で、向こうの主催者は、ワシントンの博物館、それから今のニューヨークのメトロポリタン博物館、ボストン、シアトル、それからシカゴですか――五カ所の博物館と美術館が主催者なのです。<br><br>それでアメリカじゅう約十カ所くらいを順次に開催して、一年の予定です。<br><br>あっちの人は今日本の美術に対して非常に憧れているのです。<br><br>今まで支那美術は知ってますが、日本美術は本当に知らないのです。<br><br>去年のサンフランシスコの展覧会でびっくりして、もう一つあれ以上のものをしてもらいたいという要求になったのです。<br><br>そんなような具合ですから、まあおもしろいのです。<br><br> 今度私は――医学について日本は優秀どころではないのです。<br><br>まるで桁が違っているのですが、それも大いに吹き込もうと思っている。<br><br>それから農作物。<br><br>それからだんだん政治、社会、経済問題、そういうのもだんだん『文明の創造』の論文の中に書いていきます。<br><br>というのは、いつかも話した経緯の結びの時期になってきたのです。<br><br>アメリカが経で日本が経でそれが結ばるという、そんなことがそういった面から基づいていくわけです。<br><br>やっぱりバッジもそれを表わしているのです。<br><br>神様の方ではもう決まっているのです。<br><br> それから、よく社会事業について、メシヤ教は社会事業をやらないのはどういうわけか、ということを時々聞かれる、という話をよく耳にするのです。<br><br>それについて徹底的に書いておいたのです。<br><br> （御論文「本教と社会事業」）【栄光 一七一号】 これは少し強い言い方ですが、ずっと先のこと――予言です。<br><br>それを書いてみたのです。<br><br> （御論文「医学関係者に警告する」）【栄光 一七一号】 これもちょっとおもしろく書いてあります。<br><br> （御論文「宗教と妨害」）【栄光 一七二号】 今読んだようなわけで、宗教として法人になって発足したのが二十二年の八月ですから、今年はちょうど五年目になるのです。<br><br>五年目でのこの発展ぶりというのは、例がないと思うのです。<br><br>そのころは――最初は「観音教」と言ったのですが、ほとんど世の中で知っている人はないくらいです。<br><br>それが、その翌年の秋、脱税問題が起ってから、知れ方は悪いのですが、とにかく知れるには知れたのです。<br><br>やっぱり、あれも一つの神様の仕組みなのです。<br><br>そんなわけで、良いことは知れにくいのですが、悪いことの方は悪事千里で知れるのが早いのです。<br><br>悪事千里なんていって――こっちは悪にされた方です。<br><br>そんなわけで、わずか五年でこれだけの発展をしたのですから、実にすばらしいものです。<br><br>感慨無量というところです。<br><br>ですからこういうふうで後五年もしたら、無論世界的に発展します。<br><br>なにしろ世界を救うのですから、そのくらいの早さでいかなければとうてい駄目です。<br><br>そんなようなわけで、本当言うとこれからがおもしろくなるのです。<br><br>これからが本舞台になるわけです。<br><br>今までは楽屋で支度していたようなものです。<br><br>やっぱり世界的にならなければ、本舞台ではないのです。<br><br>日本だけでは、やはり今までの――在来の宗教と同じです。<br><br>ところがメシヤ教は在来の宗教ではないと言っているのです。<br><br>宗教以上のものだと言っているのですから、世界的に飛躍するということがあたりまえなので、神様の方ではちゃんとそう決まっているのですから、いよいよこれから脂がのってくるわけです。<br><br>時間が来ましたから。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Missão Divina de Salvar o Mundo</h2>
 <p>Recentemente, li o relatório que recebi de um fiel que retornou dos Estados Unidos, onde frequentava a universidade. Trata-se de um minucioso levantamento estatístico sobre a alarmante situação dos doentes naquele país. Pretendo não apenas publicá-lo na revista "Eikou", mas também compilá-lo em um pequeno manual para ser distribuído na América. O número de enfermos é assombroso, uma situação que em nada difere da do Japão. Atualmente, entre dezessete e dezoito milhões de pessoas recebem tratamento médico — o que, numa população de cento e cinquenta milhões, significa que mais de dez por cento dos habitantes dependem da medicina. As enfermidades mais prevalentes são o câncer de estômago e a poliomielite — esta, uma aflição peculiarmente americana. A tuberculose também apresenta uma incidência bastante elevada. Além destas, há diversas outras doenças, como as hepáticas e a asma, mas a que mais causa sofrimento é, sem dúvida, a poliomielite.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>E este também. (Referência ao artigo "A Religião e os Obstáculos" [Revista Eikou nº 172]).</p>
 <p>Conforme o que acabo de ler, nossa Igreja foi oficialmente registrada como entidade religiosa em agosto de 1947. Completamos este ano, portanto, nosso quinto aniversário. Um desenvolvimento desta magnitude em apenas cinco anos é algo que considero sem precedentes. Naquela época, quando começamos sob o nome de "Kannon Kyo" (観音教), éramos praticamente desconhecidos. A notoriedade, ainda que por vias negativas, veio no outono do ano seguinte, com o incidente da acusação de sonegação fiscal. Contudo, passamos a ser conhecidos. Aquilo também fez parte do plano de Deus. As boas novas demoram a se espalhar, mas, como diz o ditado, as más notícias viajam rápido. Fomos nós as vítimas da maledicência. Ter alcançado este desenvolvimento em apenas cinco anos é algo verdadeiramente esplêndido. Sinto uma emoção indescritível.</p>
 <p>A este ritmo, dentro de mais cinco anos, nossa expansão mundial será uma certeza. Afinal, nossa missão é salvar o mundo, e para tal, é imperativo avançar com esta celeridade. O verdadeiro espetáculo começa agora. Estamos adentrando o palco principal. Até o momento, estávamos nos bastidores, em preparação. A atuação restrita ao Japão não constitui o palco principal; seria o mesmo que as religiões convencionais. Nós, porém, afirmamos que a Igreja Messiânica não é uma religião convencional, mas algo que a supera. Portanto, é natural que alcancemos uma projeção mundial. Assim foi determinado por Deus. A partir de agora, entraremos em nosso período mais pujante e produtivo. Meu tempo se esgotou.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年8月15日） 『御教え集』13号、昭和27(1952)年9月25日発行 昭和二十七年八月十五日 今度アメリカから帰ってきた人で、あちらの大学に行っていた信者がありますが、その人がこの間あっちの病人の状態をいろいろ細かく統計的に書いてきたのを昨夜読んだのですが『栄光』にも出すし、それから小冊子のような物を作ってアメリカに配ろうと思っている。<br/><br/>たいへんな病人なのです。<br/><br/>日本に負けないくらいなものです。<br/><br/>現在医者にかかっている人が千七、八百万人いる――人口が一億五千万人ですから、一割強がお医者の御厄介になっている。<br/><br/>それで一番多いのは胃癌、小児麻痺――これはアメリカ特有のものです。<br/><br/>それから結核がなかなか多いです。<br/><br/>その他にも肝臓だとか喘息だとかいろいろな病気がありますが、一番困っているのは小児麻痺です。<br/><br/>小児麻痺も、聞いてみると、ほとんど疑似小児麻痺です。<br/><br/>霊の憑らないものです。<br/><br/>たいてい足が痛くて動かない――先の、死んだルーズヴェルトなんかそれでしたが、それなのです。<br/><br/>原因は無論薬毒です。<br/><br/>大体注射です。<br/><br/>それにぜんぜん気がつかないので、やっぱり薬で治そうとするが治るはずはないのです。<br/><br/>そういうこと――病気の原因を精しく書いて、アメリカ人を救わなければならないと思っているのです。<br/><br/>今このままで行ったら、もう百年くらいでアメリカ人は亡びてしまうでしょう。<br/><br/>そのため、病気のためにいろいろな方面に影響を及ぼしているのです。<br/><br/>で、強い薬を服んで一時抑えをやっているのです。<br/><br/>一時抑えが効かなくなったらたいへんです。<br/><br/>つまり薬の迷信にかかっているので実にかわいそうなものです。<br/><br/>今、世界ではアメリカが医学は一番進歩している。<br/><br/>ドイツを凌いでいるということになってますが、結論としては医学が進歩するから病人が増えるのです。<br/><br/>そこに気がつかないのですから厄介なものです。<br/><br/>ところで、だんだん霊界が変わってくるに従って、浄化が強くなって病気が起る。<br/><br/>そうするとまた強い薬で抑えようとするが、抑えきれないから薬の毒をよけい強めるわけです。<br/><br/>ところがまた、霊的にはよけい浄化が強くなるから、薬と浄化との闘いです。<br/><br/>現にもう闘っているわけです。<br/><br/>ヒドラジドなんかも、この間――ある病院での研究によると、用いた後は一時良くなる。<br/><br/>そうするとたいてい二、三週間、長いので二カ月くらいで、いったん減った菌がまた増えてくる。<br/><br/>その菌は非常に強い菌なのです。<br/><br/>それで、そういった菌が強くなる――つまり悪化するのが、今までの統計では約三割増えてます。<br/><br/>で、まだ今は三割ですが、これがだんだん浄化が強くなると、五割六割にもなって、結局あれを使ってはいけないということになります。<br/><br/>いつか書いた「結核新薬を嗤う」というあの論文の通りになります。<br/><br/>そんなような具合で、いずれはアメリカあたりでたいへんな問題になると思います。<br/><br/>その前に警告を与えておこうと思ってます。<br/><br/>そうしていずれ英文『栄光』というのを作ろうと思っている。<br/><br/>今のところの予定は、ハワイでちょうど適当な人がありますから、そういう人にハワイで発行させて、こっちの『栄光』の翻訳と、特にアメリカ向きの記事も書こうと思っている。<br/><br/>そうしてアメリカ人を救うということの仕事をしなければならない。<br/><br/>やはり今世界をリードしているのはアメリカですから、世界を救うということは、まずアメリカ人に分からせるということが一番効果がありますから、そういう方法をとろうと思ってます。<br/><br/>それで、かえってアメリカの方が分かってくると日本人が分かるのです。<br/><br/>どうしてもやっぱり輸入しなければ駄目なのです。<br/><br/>舶来中毒にかかっているから、やっぱり舶来迷信でしょう。<br/><br/>他のものはそうでもないが、ああいった学説とかいうものは、やっぱり舶来迷信にかかっている。<br/><br/>まあその迷信を利用するよりないのです。<br/><br/> 講和以前はそういうことは、やはり言えなかったのですが、もう講和になれば言っても差し支えないのです。<br/><br/>とにかく日本人というものは、非常に霊的に優秀なのです。<br/><br/>これはいっそう深く話しすると分かるのですが、日本人というものは、なぜ優秀か――だんだんそういうことも話します。<br/><br/>もう、世界では一番なのです。<br/><br/>ですから美術でもそうです。<br/><br/>今、美術は日本が世界一というような世界的な世論になってます。<br/><br/>今度アメリカで日本の美術の大展覧会を開催するので、それについてこの間来たウォーナー博士、フリーヤー〔フリアー〕という個人の美術館の館長のウェンリーという人、それからニューヨークのメトロポリタン博物館――これはアメリカでは一番ですが、そこの東洋美術部長のプリースト氏、ウェンリー氏とプリースト氏はこの間来て非常に褒めてました。<br/><br/>ウェンリーという人に、この美術館でここがいけないという所がなにかあったら遠慮なく言ってくれと言ったところが、別にたいしてないが、皿みたいな物を見ると疲れるから、自分の所では目の角度に合わしたような陳列の仕方にしている。<br/><br/>と、そんなものだと言ってましたが、それは私も承知してますが、巻物だとか皿は、立てては、やはりおもしろくないのです。<br/><br/>皿としての意義が違うのです。<br/><br/>皿は上から見るのが、皿としての鑑賞の仕方で、こう（立てる）やっては額みたいになって、どうも感じが良くない。<br/><br/>巻物でも同じです。<br/><br/>でも、巻物はいくらか斜めに拡げてあるから良いのです。<br/><br/>その人は日本通で、ごはんをごちそうしましたが、坐って――その時一番うまいと言ったのは鰻です。<br/><br/>蒲焼きです。<br/><br/>それからテンプラを食べ、奥さんと両方ですが、箸で食べているのですから、よほど日本趣味が多いのです。<br/><br/>そういう人はアメリカ人でもそうとうあるようですが、特に日本美術と日本建築、こういうことに非常に関心を持ってます。<br/><br/>そんなような具合で、日本人の美術的感覚はとにかく断然世界一です。<br/><br/>日本の次は支那ですが、全般的には日本人の方がずっと上です。<br/><br/>これはだんだん話しますが、西洋では、そういった美術とかいう気性の高いものは、日本人ほどにはいかないです。<br/><br/>とにかく――今朝もラジオの「趣味の手帳」で亀井勝一郎という人が昨日、今日、明日と、奈良の仏像についての批評をしましたが、今日は法隆寺の中宮にある弥勒菩薩を話してましたが、あれは観音だろうという説もあると言ってましたが、弥勒菩薩と観音様は同じで、その区別を知らないのだが、あれをロダンの彫刻と比較して言ってましたが、ロダンのは「考える人」という彫刻ですが、考えるのにロダンのは苦悩が表われている。<br/><br/>苦心が表われている。<br/><br/>ところが中宮寺にある観音様――弥勒菩薩というのですが、考えるというよりか、瞑想にふけっているという、いかにも穏やかな柔らかい感じがする。<br/><br/>と、そんなことを言ってましたが、これは上手い評です。<br/><br/>実際日本美術というものは、そういった平和の感じを非常に良く出しているのです。<br/><br/> また私は、終戦直後『栄光』に出そうと思って、音楽のことを書いたことがあります。<br/><br/>歌うということは、日本の音楽が歌うのだ。<br/><br/>西洋の音楽は、男の方は吠える、それから女の方は悲鳴を上げる、というように書いたのです。<br/><br/>で、歌うというのは、日本の音楽は本当に歌うのだというように書いた。<br/><br/>ところが『栄光』の編集をしている人が、つまり「日本人の優秀性」を書くと、進駐軍の方があるから、今のところは止した方が良いというので止しましたが、とにかく美術というものは、平和の感覚を表わすのが本当です。<br/><br/>つまり苦悶とか、あるいは闘争とか、そういうものを表わすということは、本当の芸術としての本質ではないのです。<br/><br/> 話は横道に外れましたが、日本美術というものは、まだまだドンドン世界に認められます。<br/><br/>今度なんかも、先方はだいぶ要求が多いのですが、良い物を見せてくれと言っている。<br/><br/>日本でもなかなかそれに応じかねるのです。<br/><br/>それは日本にはすばらしい物がありますが、ある程度まで以上の物は承諾しないだろうと思ってます。<br/><br/>こっちにもそういったような物は四、五点ありますから、言ってこないかと思ってます。<br/><br/>承知することもできないだろうと思ってます。<br/><br/>一つか二つは良いですが――。<br/><br/>向こうではたいへんな大仕掛けなことをやって、品物を運ぶのに間違いがあってはたいへんですから、軍艦で運ぶのだそうです。<br/><br/>で、向こうの主催者は、ワシントンの博物館、それから今のニューヨークのメトロポリタン博物館、ボストン、シアトル、それからシカゴですか――五カ所の博物館と美術館が主催者なのです。<br/><br/>それでアメリカじゅう約十カ所くらいを順次に開催して、一年の予定です。<br/><br/>あっちの人は今日本の美術に対して非常に憧れているのです。<br/><br/>今まで支那美術は知ってますが、日本美術は本当に知らないのです。<br/><br/>去年のサンフランシスコの展覧会でびっくりして、もう一つあれ以上のものをしてもらいたいという要求になったのです。<br/><br/>そんなような具合ですから、まあおもしろいのです。<br/><br/> 今度私は――医学について日本は優秀どころではないのです。<br/><br/>まるで桁が違っているのですが、それも大いに吹き込もうと思っている。<br/><br/>それから農作物。<br/><br/>それからだんだん政治、社会、経済問題、そういうのもだんだん『文明の創造』の論文の中に書いていきます。<br/><br/>というのは、いつかも話した経緯の結びの時期になってきたのです。<br/><br/>アメリカが経で日本が経でそれが結ばるという、そんなことがそういった面から基づいていくわけです。<br/><br/>やっぱりバッジもそれを表わしているのです。<br/><br/>神様の方ではもう決まっているのです。<br/><br/> それから、よく社会事業について、メシヤ教は社会事業をやらないのはどういうわけか、ということを時々聞かれる、という話をよく耳にするのです。<br/><br/>それについて徹底的に書いておいたのです。<br/><br/> （御論文「本教と社会事業」）【栄光 一七一号】 これは少し強い言い方ですが、ずっと先のこと――予言です。<br/><br/>それを書いてみたのです。<br/><br/> （御論文「医学関係者に警告する」）【栄光 一七一号】 これもちょっとおもしろく書いてあります。<br/><br/> （御論文「宗教と妨害」）【栄光 一七二号】 今読んだようなわけで、宗教として法人になって発足したのが二十二年の八月ですから、今年はちょうど五年目になるのです。<br/><br/>五年目でのこの発展ぶりというのは、例がないと思うのです。<br/><br/>そのころは――最初は「観音教」と言ったのですが、ほとんど世の中で知っている人はないくらいです。<br/><br/>それが、その翌年の秋、脱税問題が起ってから、知れ方は悪いのですが、とにかく知れるには知れたのです。<br/><br/>やっぱり、あれも一つの神様の仕組みなのです。<br/><br/>そんなわけで、良いことは知れにくいのですが、悪いことの方は悪事千里で知れるのが早いのです。<br/><br/>悪事千里なんていって――こっちは悪にされた方です。<br/><br/>そんなわけで、わずか五年でこれだけの発展をしたのですから、実にすばらしいものです。<br/><br/>感慨無量というところです。<br/><br/>ですからこういうふうで後五年もしたら、無論世界的に発展します。<br/><br/>なにしろ世界を救うのですから、そのくらいの早さでいかなければとうてい駄目です。<br/><br/>そんなようなわけで、本当言うとこれからがおもしろくなるのです。<br/><br/>これからが本舞台になるわけです。<br/><br/>今までは楽屋で支度していたようなものです。<br/><br/>やっぱり世界的にならなければ、本舞台ではないのです。<br/><br/>日本だけでは、やはり今までの――在来の宗教と同じです。<br/><br/>ところがメシヤ教は在来の宗教ではないと言っているのです。<br/><br/>宗教以上のものだと言っているのですから、世界的に飛躍するということがあたりまえなので、神様の方ではちゃんとそう決まっているのですから、いよいよこれから脂がのってくるわけです。<br/><br/>時間が来ましたから。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

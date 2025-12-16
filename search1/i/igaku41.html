@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku41</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の神聖化 『明日の医術 第二編』昭和18(1943)年10月5日発行 私は現代医学の構成について、常に不可解に思っている事がある。<br><br>それは何であるかというと、医学に対し、専門家以外の者、即ち第三者をして一歩も容喙（ようかい）せしめないようになっている事である。<br><br>臨床上において特に然りである。<br><br>即ち病気や健康、衛生に関するあらゆる部面に、第三者の容喙する事を以て危険とさえされている。<br><br>その著るしい現われとしては、素人療法は危険であるとか、民間療術者を非医者なるが故に擯斥（ひんせき）しようとする傾向も多分にあるようである。<br><br>かように西洋医学以外のものを危険視し、価値を認めないという態度はいかなる訳であろうかを考えてみるに、多分その理由としては、科学に立脚していないからというのであろう。<br><br>従って、そのものの効果いかんは全然問題にしないというのが実情であって、その独善的なる、ほとんど医学を神聖化してしまっているかとさえ思えるのである。<br><br> しかるに吾々としては「病気は治ればいい」と言うのである。<br><br>「病気が治って完全健康体になる」ただそれだけである。<br><br>それ以外に何を求め、何を望む必要があるであろうか。<br><br>吾々の生命も肉体も、その保健は現実の問題である。<br><br>この現実を破壊する学理も科学もあり得ない。<br><br>この意味において私は、病気が治ればそれは真の医学であり、治らなければ非医学だと思うのである。<br><br>故に、治る医術を信ずる事が正信であり、治らざる医学を信ずる事が迷信である事はいうまでもない。<br><br>又病原を徹底的に説明し得られ、現実といささかの矛盾も来さないものが真の医学であり、病原は不明として説明し得ず、現実と齟齬（そご）するという医術は非医学である。<br><br> 医博国島貴八郎氏の著書「結核と人生」の中にこう出ている。<br><br>「彼のチブスが、百年前も全治に四週間を要したが、今日でもやはり四週間を要し、肺炎も同様でやはり一週間を要するという訳であるから、治療医学の進歩はいささかも認め得られないのである」というにみても明かであろう。<br><br> そうして神聖化されたる医学によって、たとえ、医療の結果、医家の言のごとく快方に向わざる場合といえども、その理由を訊（たず）ねる者は滅多にないのである。<br><br>又誤診誤療によって不幸に陥る場合、相当の疑をもちつつも何らの抗議も苦情も言われないのである。<br><br>それは医学の神聖を冒涜（ぼうとく）するかのように見られ、又医術を施行する上に支障を及ぼすという理由で、法的にも不問に付するという傾向である。<br><br>注射後即時に死亡したという例も吾らは余りに多く聞かされている。<br><br>チブスの予防注射後反ってチブスに犯されたという例もすくなくないようである。<br><br> そうして学問至上主義の弊（へい）は、ここにも現われている。<br><br>それは研究の為として、かなり大胆と思われるような手術や新薬の応用である。<br><br>それによって幾多の尊い人命が犠牲になっているであろう。<br><br>もしこれら隠れたる事実が明かにされたら人々はいかに驚くであろうか。<br><br>しかし、それは神秘の殿堂を覗く由もない機構となっている以上致方ないのである。<br><br>医学者は言うであろう。<br><br>たとえ一人の生命を犠牲にしても、万人の生命を助ければいいではないかと、それに対し私は、万人を殺しても一人も助け得られないではないかと思うのである。<br><br> 又こういう原因もある。<br><br>いうまでもなく現在の日本の医学は独逸（ドイツ）医学である。<br><br>独逸医学を学ぶ最初の頁には「もし病原の判らざる場合まずメスを以て皮膚と肉を切り開いてみるべし」と出ているそうである。<br><br>忠実なる医家はこの教を丸呑みにして手術をするのであろう。<br><br>切り開いて病気が無かったという事実は、よく聞く所で、その犠牲になった患者はまことに気の毒なものである。<br><br>しかし、切り開いて何も無かったから元通りに縫い、疵（きず）は癒えたとしても、全体の健康にすくなからず悪影響を及ぼす事は、私の多くの経験によって知らるるのである。<br><br> 再三言うがごとく、西洋医学はまっしぐらに邪道を進んでいるのであるから、進歩する程人類に対する危険率は増加するという結果にならざるを得ないのである。<br><br>しかるに、人類は全く西洋医学に盲信してしまって、誤謬の片鱗だも観破し得られないから、まことに歎かわしいのである。<br><br>前述のごとき国島医博の言のごとく、百年以前と今日と比べて、いささかの進歩もないとすれば、医学に携わる多数者の労力及び資材等の消耗が、人類にとって何らの稗益する所がない訳である。<br><br>私をして忌憚（きたん）なく言わしむれば、右のごとき大消耗によって得るところのものは、福利に非ずして人類の健康を弱め、病者を氾濫させ、生命を脅かすというのでありとすれば驚かざるを得ないのである。<br><br> 私は、医学に携わる多くの人達が目覚めなければならない時が、必ず近き将来に来るべき事を信ずるのである。<br><br>その時いかにすべきやという事も考慮しなければならない問題である。<br><br> しかしながら、相当経験をもち、堪能である医家にして、西洋医学の行詰りに対し目覚めている者の相当多い事も私は知っている。<br><br>従って、ある時期に至れば本医術を肯定し、この医術によって国民の健康を解決すべきであるとする医家の続出する事も、私は充分信じて疑わないのである。<br><br>ただしかし、現在としては医家としても行掛りや地位や経済問題等の種々なる障碍の為、遅疑する人達もある訳であるが、これら良心的医家の決意を促したいのである。<br><br>ここで一番困る事は、西洋医学を絶対無上のものと盲信し、それ以上の優れたる医術はないとし、又生れるべくもないと確（かた）く定めている医家の未だ多数ある事である。<br><br>これらの人達の啓蒙こそ、今後における最も努力を要する問題であろう。<br><br>しかしながらあらゆる事物の転換期に当っては、いかなるものといえども大勢に抗する事は不可能である事を知れば問題はないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sacralização da Medicina</h2>
 <p>Há um aspecto na constituição da medicina moderna que sempre considerei incompreensível. Refiro-me ao fato de que ela está estruturada de modo a não permitir a mais ínfima ingerência de qualquer pessoa que não seja um especialista, ou seja, de terceiros. Isto é particularmente verdadeiro no âmbito clínico. Qualquer intromissão de terceiros em assuntos relacionados a doenças, saúde e higiene chega a ser considerada perigosa. Manifestações notórias desse pensamento são as afirmações de que as terapias leigas são arriscadas ou a forte tendência a rechaçar os praticantes de tratamentos populares pelo simples fato de não serem médicos. Ao ponderar sobre os motivos dessa atitude, que considera perigoso e desprovido de valor tudo o que não pertença à medicina ocidental, concluo que a razão mais provável é a ausência de um embasamento científico. A realidade, portanto, é que a eficácia de tais práticas é completamente ignorada. Esse dogmatismo é de tal ordem que nos leva a crer que a medicina foi praticamente sacralizada.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Como tenho afirmado reiteradamente, a medicina ocidental avança resolutamente por um caminho equivocado. Portanto, quanto mais ela progride, maior se torna, inevitavelmente, o grau de periculosidade que representa para a humanidade. É verdadeiramente lamentável que a humanidade acredite nela de forma cega, incapaz de discernir a mais ínfima de suas falácias. Se, como afirmou o já mencionado doutor Kunishima, não houve o menor progresso em cem anos, então o dispêndio de esforço e de recursos por parte de tantos profissionais da área não trouxe qualquer benefício à humanidade. Se me permitem falar sem rodeios, o que se obtém com esse vultoso dispêndio não é o bem-estar, mas sim o enfraquecimento da saúde da humanidade, a proliferação de doentes e a ameaça à própria vida. Como não se espantar diante de tal realidade?</p>
 <p>Estou convicto de que, em um futuro próximo, chegará inevitavelmente o tempo em que muitos dos que se dedicam à medicina deverão despertar. É um problema que também exige nossa reflexão sobre como deveremos agir nesse momento.</p>
 <p>Sei, no entanto, que existe um número considerável de médicos experientes e competentes que já despertaram para o impasse em que se encontra a medicina ocidental. Por essa razão, não tenho a menor dúvida de que, ao chegar um determinado momento, surgirão sucessivamente médicos que reconhecerão esta Arte Médica e a adotarão para solucionar os problemas de saúde da nação. Contudo, na presente situação, há aqueles que ainda hesitam em virtude de diversos obstáculos, como compromissos profissionais, status e questões financeiras. Gostaria, pois, de exortar esses médicos de boa consciência a tomarem sua decisão. O maior problema, aqui, é o grande número de médicos que ainda creem cegamente na medicina ocidental como algo absoluto e insuperável, firmemente convencidos de que nenhuma arte médica superior a ela existe ou poderá vir a existir. A conscientização dessas pessoas será, por certo, a questão que exigirá maior esforço daqui para a frente. Todavia, se compreendermos que, nos períodos de transição de todas as coisas, nada nem ninguém pode se opor à grande corrente dos tempos, não haverá problema algum.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の神聖化 『明日の医術 第二編』昭和18(1943)年10月5日発行 私は現代医学の構成について、常に不可解に思っている事がある。<br/><br/>それは何であるかというと、医学に対し、専門家以外の者、即ち第三者をして一歩も容喙（ようかい）せしめないようになっている事である。<br/><br/>臨床上において特に然りである。<br/><br/>即ち病気や健康、衛生に関するあらゆる部面に、第三者の容喙する事を以て危険とさえされている。<br/><br/>その著るしい現われとしては、素人療法は危険であるとか、民間療術者を非医者なるが故に擯斥（ひんせき）しようとする傾向も多分にあるようである。<br/><br/>かように西洋医学以外のものを危険視し、価値を認めないという態度はいかなる訳であろうかを考えてみるに、多分その理由としては、科学に立脚していないからというのであろう。<br/><br/>従って、そのものの効果いかんは全然問題にしないというのが実情であって、その独善的なる、ほとんど医学を神聖化してしまっているかとさえ思えるのである。<br/><br/> しかるに吾々としては「病気は治ればいい」と言うのである。<br/><br/>「病気が治って完全健康体になる」ただそれだけである。<br/><br/>それ以外に何を求め、何を望む必要があるであろうか。<br/><br/>吾々の生命も肉体も、その保健は現実の問題である。<br/><br/>この現実を破壊する学理も科学もあり得ない。<br/><br/>この意味において私は、病気が治ればそれは真の医学であり、治らなければ非医学だと思うのである。<br/><br/>故に、治る医術を信ずる事が正信であり、治らざる医学を信ずる事が迷信である事はいうまでもない。<br/><br/>又病原を徹底的に説明し得られ、現実といささかの矛盾も来さないものが真の医学であり、病原は不明として説明し得ず、現実と齟齬（そご）するという医術は非医学である。<br/><br/> 医博国島貴八郎氏の著書「結核と人生」の中にこう出ている。<br/><br/>「彼のチブスが、百年前も全治に四週間を要したが、今日でもやはり四週間を要し、肺炎も同様でやはり一週間を要するという訳であるから、治療医学の進歩はいささかも認め得られないのである」というにみても明かであろう。<br/><br/> そうして神聖化されたる医学によって、たとえ、医療の結果、医家の言のごとく快方に向わざる場合といえども、その理由を訊（たず）ねる者は滅多にないのである。<br/><br/>又誤診誤療によって不幸に陥る場合、相当の疑をもちつつも何らの抗議も苦情も言われないのである。<br/><br/>それは医学の神聖を冒涜（ぼうとく）するかのように見られ、又医術を施行する上に支障を及ぼすという理由で、法的にも不問に付するという傾向である。<br/><br/>注射後即時に死亡したという例も吾らは余りに多く聞かされている。<br/><br/>チブスの予防注射後反ってチブスに犯されたという例もすくなくないようである。<br/><br/> そうして学問至上主義の弊（へい）は、ここにも現われている。<br/><br/>それは研究の為として、かなり大胆と思われるような手術や新薬の応用である。<br/><br/>それによって幾多の尊い人命が犠牲になっているであろう。<br/><br/>もしこれら隠れたる事実が明かにされたら人々はいかに驚くであろうか。<br/><br/>しかし、それは神秘の殿堂を覗く由もない機構となっている以上致方ないのである。<br/><br/>医学者は言うであろう。<br/><br/>たとえ一人の生命を犠牲にしても、万人の生命を助ければいいではないかと、それに対し私は、万人を殺しても一人も助け得られないではないかと思うのである。<br/><br/> 又こういう原因もある。<br/><br/>いうまでもなく現在の日本の医学は独逸（ドイツ）医学である。<br/><br/>独逸医学を学ぶ最初の頁には「もし病原の判らざる場合まずメスを以て皮膚と肉を切り開いてみるべし」と出ているそうである。<br/><br/>忠実なる医家はこの教を丸呑みにして手術をするのであろう。<br/><br/>切り開いて病気が無かったという事実は、よく聞く所で、その犠牲になった患者はまことに気の毒なものである。<br/><br/>しかし、切り開いて何も無かったから元通りに縫い、疵（きず）は癒えたとしても、全体の健康にすくなからず悪影響を及ぼす事は、私の多くの経験によって知らるるのである。<br/><br/> 再三言うがごとく、西洋医学はまっしぐらに邪道を進んでいるのであるから、進歩する程人類に対する危険率は増加するという結果にならざるを得ないのである。<br/><br/>しかるに、人類は全く西洋医学に盲信してしまって、誤謬の片鱗だも観破し得られないから、まことに歎かわしいのである。<br/><br/>前述のごとき国島医博の言のごとく、百年以前と今日と比べて、いささかの進歩もないとすれば、医学に携わる多数者の労力及び資材等の消耗が、人類にとって何らの稗益する所がない訳である。<br/><br/>私をして忌憚（きたん）なく言わしむれば、右のごとき大消耗によって得るところのものは、福利に非ずして人類の健康を弱め、病者を氾濫させ、生命を脅かすというのでありとすれば驚かざるを得ないのである。<br/><br/> 私は、医学に携わる多くの人達が目覚めなければならない時が、必ず近き将来に来るべき事を信ずるのである。<br/><br/>その時いかにすべきやという事も考慮しなければならない問題である。<br/><br/> しかしながら、相当経験をもち、堪能である医家にして、西洋医学の行詰りに対し目覚めている者の相当多い事も私は知っている。<br/><br/>従って、ある時期に至れば本医術を肯定し、この医術によって国民の健康を解決すべきであるとする医家の続出する事も、私は充分信じて疑わないのである。<br/><br/>ただしかし、現在としては医家としても行掛りや地位や経済問題等の種々なる障碍の為、遅疑する人達もある訳であるが、これら良心的医家の決意を促したいのである。<br/><br/>ここで一番困る事は、西洋医学を絶対無上のものと盲信し、それ以上の優れたる医術はないとし、又生れるべくもないと確（かた）く定めている医家の未だ多数ある事である。<br/><br/>これらの人達の啓蒙こそ、今後における最も努力を要する問題であろう。<br/><br/>しかしながらあらゆる事物の転換期に当っては、いかなるものといえども大勢に抗する事は不可能である事を知れば問題はないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

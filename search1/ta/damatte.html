@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>damatte</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 黙っては居られない 『栄光』113号、昭和26(1951)年7月18日発行 吾々からみると、現在の医学は実に不可解である。<br><br>まずそれについて言うが、吾々の考え方は、良いものは良い、悪いものは悪い、効果のあるものは認めるべきで、効果のないものは考え直すべきだ。<br><br>治るものは真の医術であり、治らないものは真の医術ではない。<br><br>というのが本当の観方と思う。<br><br>ところが最もいけないのは、色眼鏡で物を見る事である。<br><br>それと共にいささかも感情も交えたり、曲げたりしてはいけない。<br><br>絶対厳正公平に観、事実に立脚して批判する、これが正しい態度である。<br><br> 右のような目をもって見る時、現代医学の診断も療法も、遺憾ながら余りに情ないと言えよう。<br><br>従って何とかして一日も早く、医学の蒙（もう）を目醒めさせたいものである。<br><br>そうでなければ、人間は実に可哀想で見ていられないくらいである。<br><br>左記の例はそれをよく物語っているから、活眼を開いて、よく読まれたいのである。<br><br> まちまちな医診よりも信頼すべき浄霊 論より証拠治ればいい 東京都 生和中教会 高木克之（17） 私はまちまちな診断から遂に病名不詳のまま医師に見放されたのを、御浄霊により実に簡単に御救い頂きましたおかげを、御報告させて頂きます。<br><br> 私は本年三月中旬頃風邪を引き、二日程、会社を休んだだけで、服薬により治癒、再び出勤致しました、ところが一週間程すると、妙に身体がだるくなり、食欲なく腹痛を覚えました、早速近所の医師の診察を受けますと、医師は「扁桃腺が大きく腫れて、白いぶつぶつが出来ている」といい、又「チフス」の疑いがあるともいって、血液をとったりツベルクリンやら血沈やらの検査を致しました、そして「腸も悪いようだから、お粥を食べた方がよい」と色々の注意を受けました、二日程して、会社から帰宅後再び医師に診てもらいに行きました、すると今度は、「熱が出たから、明日から会社は休んだ方がよい」といわれ次の日は休みましたが、一日中、家で起きておりました、そしてその晩、再三、医診を受けに行きますと、医師は「これは急性肺炎になるかも知れない」といって、ペニシリン注射をされ「明日からは絶対安静にしなければ駄目だ！」と言渡されました、この時の熱は三十九度二分でした、しかし注射をしても、扁桃腺の具合がよくなっただけで熱は一向に下らず、三十八度を越しておりました、四月に入ると、今度は心臓の具合が悪くなって来ましたので、その旨を医師に申しましたところ、医師は「どうもよく判らないから、もう一人の医師に診てもらって下さい」といわれますので、急に心配になり、早速別の医師に診察をお願い致しました、ところがその医師は打診をしただけで――右肺肺浸潤――と診断され、翌日Ｘ線写真をとりました。<br><br> 写真は一週間後に出来るとの事でしたが、その間、私は段々と衰弱するようでした、さていよいよ写真が出来て見ますと、肺は何ともなく淋巴腺が少々腫れている程度でした、その写真を以前の医師に見せに行きますと医師は「熱の原因が判然としないので、熱は急に下げない方がよいだろう」といわれ「身体が弱っているから、これを打とう」と葡萄糖とカルシウム注射を打たれました、するとどうでしょう、今迄、一日四回位あった小便が、一日一回になってしまい、腹がはって苦しく、大便までも出なくなってしまいました、熱は三十八度を上下しておりましたが、四月下旬、遂に三十九度を突破してしまいました。<br><br>医師は驚いて「こう熱が出てしまっては、判らないから、別のよい医院で診てもらって下さい」と、又しても見放されてしまいました。<br><br>この時位、私は憤慨した事はありません、といっても頼みとするのはお医者さんだけでしたから、翌々日はリヤカーに載せられて、赤羽の○○診療所に行き、診察を乞いました、そこでもＸ線透視をかけられましたが、矢張り淋巴腺が少し腫れている、といわれただけでした、その上「脚気がひどい」ともいわれ、全く情なくなってしまいました、ストレプトマイシン注射の相談をされましたが、その時は打ちませんでした。<br><br> 今になって思えば、反って御守護であった訳でした。<br><br>この日です！ 祖母が弟妹達の病気の時にはいつも治療を受けに連れて行く、中十条の救世教の先生をお尋ねして、私の病気の事を相談してくれたのです、先生は都合により翌日は来て下さるとの早速の御返事でした。<br><br>その間、私は色々と考え続けました、今迄の医療と迷信に近い浄霊とやらの事を、でも結局、経験上薬物に頼る事の無駄である事を、つくづく感じておりましたので、翌日先生がお見えになられて色々のお話の後「私を信ずるか、医療を信ずるか、どちらにするか？」と言葉強く問われましたので私は速座に「先生を信じます！」と申しました、そこで早速、御浄霊を頂きましたが、大変気分がよくなりその晩から食事も進むようになり、その夜は一日一回だった小便が二回になりました、次の日も先生は来て下さいまして、御浄霊を頂きました、浄霊二日目から小便も一日五回となり、食欲も出て来ました、又熱も四十度を越すような事もありましたが、少しも気分は悪い訳でなく、翌日は代理で關川先生が見えられ、御浄霊を頂きました、その晩は腹が鳴り出し、翌日の朝はかなり軟便がありました、私は気分のよいまま、近所の人達の止めるのもきかず、その日は床屋さんへ行って来ました、その翌日は大変食欲も出て来て、とても寝てなどいられない気持になりました、小便は一日六回となり、顔のむくみもすっかりとれたようでした、御浄霊を頂くようになってから六日目、一カ月間床にあった私が歩いて、教会まで通えるようになりました。<br><br> 五月になってから、朝起きる時、今迄になかった痰がしきりに出るようになり、又、時々血痰も交えて出ました、痰の多量に出た後はさっぱりして、非常に気分もよく、とても病人臭く寝てはいられない気持になると共に、教会で先生より、御浄化に付いて、詳細にその意味を伺いましたので、病勢の変化にも大して神経を使わないようになりました、現在で九日目、もうほとんど元気で、血色もよくなったと人様にいわれますので、とにかく五月の五日、まず祖母が「お守」を頂かして頂きました、私も近く入信致す積りです。<br><br>「会社に出てもよい」と申される先生の御言葉は自信に満ちておりましたが、大事をとって、会社は当分休ませて頂く事にして毎日元気に教会へ通っております、危く結核の宣告を下される前に、私は御教えと御力とにより救われました訳です、何とも有難い次第であると思い、この上は一生懸命、御神業の御手伝いに精進致したいと存じております。<br><br> 明主様、ありがとう御座いました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Não Posso Permanecer Calado</h2>
 <p>Do nosso ponto de vista, a medicina contemporânea é, de fato, incompreensível. Primeiramente, gostaria de discorrer sobre este ponto. Nosso pensamento se alicerça sobre uma premissa límpida: o que é bom, é bom; o que é mau, é mau. Aquilo que surte efeito deve ser reconhecido, e o que se mostra ineficaz deve ser reavaliado. A arte da cura genuína é a que restaura a saúde; a que não o faz não pode ser considerada como tal. Creio que esta seja a perspectiva correta.</p>
@@ -116,5 +268,48 @@ Katsuyuki Takagi (17 anos)</p>
 <p>Hoje, no nono dia, estou praticamente recuperado e as pessoas comentam como minha aparência está mais corada. Diante de tamanha graça, no dia cinco de maio, minha avó recebeu o seu Ohikari. Em breve, eu também ingressarei na fé. As palavras do ministro, "Você já pode voltar a trabalhar", soavam plenas de confiança, mas, por precaução, decidi me afastar da empresa por mais um tempo, dedicando-me a ir à igreja todos os dias, cheio de vigor.</p>
 <p>Fui salvo pelos Ensinamentos e pelo poder Divino antes que me sentenciassem, talvez, com um diagnóstico de tuberculose. Sou imensamente grato por essa dádiva e, daqui para frente, desejo me devotar com todas as minhas forças para servir na Obra Divina.</p>
 <p>Meishu-Sama, muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 黙っては居られない 『栄光』113号、昭和26(1951)年7月18日発行 吾々からみると、現在の医学は実に不可解である。<br/><br/>まずそれについて言うが、吾々の考え方は、良いものは良い、悪いものは悪い、効果のあるものは認めるべきで、効果のないものは考え直すべきだ。<br/><br/>治るものは真の医術であり、治らないものは真の医術ではない。<br/><br/>というのが本当の観方と思う。<br/><br/>ところが最もいけないのは、色眼鏡で物を見る事である。<br/><br/>それと共にいささかも感情も交えたり、曲げたりしてはいけない。<br/><br/>絶対厳正公平に観、事実に立脚して批判する、これが正しい態度である。<br/><br/> 右のような目をもって見る時、現代医学の診断も療法も、遺憾ながら余りに情ないと言えよう。<br/><br/>従って何とかして一日も早く、医学の蒙（もう）を目醒めさせたいものである。<br/><br/>そうでなければ、人間は実に可哀想で見ていられないくらいである。<br/><br/>左記の例はそれをよく物語っているから、活眼を開いて、よく読まれたいのである。<br/><br/> まちまちな医診よりも信頼すべき浄霊 論より証拠治ればいい 東京都 生和中教会 高木克之（17） 私はまちまちな診断から遂に病名不詳のまま医師に見放されたのを、御浄霊により実に簡単に御救い頂きましたおかげを、御報告させて頂きます。<br/><br/> 私は本年三月中旬頃風邪を引き、二日程、会社を休んだだけで、服薬により治癒、再び出勤致しました、ところが一週間程すると、妙に身体がだるくなり、食欲なく腹痛を覚えました、早速近所の医師の診察を受けますと、医師は「扁桃腺が大きく腫れて、白いぶつぶつが出来ている」といい、又「チフス」の疑いがあるともいって、血液をとったりツベルクリンやら血沈やらの検査を致しました、そして「腸も悪いようだから、お粥を食べた方がよい」と色々の注意を受けました、二日程して、会社から帰宅後再び医師に診てもらいに行きました、すると今度は、「熱が出たから、明日から会社は休んだ方がよい」といわれ次の日は休みましたが、一日中、家で起きておりました、そしてその晩、再三、医診を受けに行きますと、医師は「これは急性肺炎になるかも知れない」といって、ペニシリン注射をされ「明日からは絶対安静にしなければ駄目だ！」と言渡されました、この時の熱は三十九度二分でした、しかし注射をしても、扁桃腺の具合がよくなっただけで熱は一向に下らず、三十八度を越しておりました、四月に入ると、今度は心臓の具合が悪くなって来ましたので、その旨を医師に申しましたところ、医師は「どうもよく判らないから、もう一人の医師に診てもらって下さい」といわれますので、急に心配になり、早速別の医師に診察をお願い致しました、ところがその医師は打診をしただけで――右肺肺浸潤――と診断され、翌日Ｘ線写真をとりました。<br/><br/> 写真は一週間後に出来るとの事でしたが、その間、私は段々と衰弱するようでした、さていよいよ写真が出来て見ますと、肺は何ともなく淋巴腺が少々腫れている程度でした、その写真を以前の医師に見せに行きますと医師は「熱の原因が判然としないので、熱は急に下げない方がよいだろう」といわれ「身体が弱っているから、これを打とう」と葡萄糖とカルシウム注射を打たれました、するとどうでしょう、今迄、一日四回位あった小便が、一日一回になってしまい、腹がはって苦しく、大便までも出なくなってしまいました、熱は三十八度を上下しておりましたが、四月下旬、遂に三十九度を突破してしまいました。<br/><br/>医師は驚いて「こう熱が出てしまっては、判らないから、別のよい医院で診てもらって下さい」と、又しても見放されてしまいました。<br/><br/>この時位、私は憤慨した事はありません、といっても頼みとするのはお医者さんだけでしたから、翌々日はリヤカーに載せられて、赤羽の○○診療所に行き、診察を乞いました、そこでもＸ線透視をかけられましたが、矢張り淋巴腺が少し腫れている、といわれただけでした、その上「脚気がひどい」ともいわれ、全く情なくなってしまいました、ストレプトマイシン注射の相談をされましたが、その時は打ちませんでした。<br/><br/> 今になって思えば、反って御守護であった訳でした。<br/><br/>この日です！ 祖母が弟妹達の病気の時にはいつも治療を受けに連れて行く、中十条の救世教の先生をお尋ねして、私の病気の事を相談してくれたのです、先生は都合により翌日は来て下さるとの早速の御返事でした。<br/><br/>その間、私は色々と考え続けました、今迄の医療と迷信に近い浄霊とやらの事を、でも結局、経験上薬物に頼る事の無駄である事を、つくづく感じておりましたので、翌日先生がお見えになられて色々のお話の後「私を信ずるか、医療を信ずるか、どちらにするか？」と言葉強く問われましたので私は速座に「先生を信じます！」と申しました、そこで早速、御浄霊を頂きましたが、大変気分がよくなりその晩から食事も進むようになり、その夜は一日一回だった小便が二回になりました、次の日も先生は来て下さいまして、御浄霊を頂きました、浄霊二日目から小便も一日五回となり、食欲も出て来ました、又熱も四十度を越すような事もありましたが、少しも気分は悪い訳でなく、翌日は代理で關川先生が見えられ、御浄霊を頂きました、その晩は腹が鳴り出し、翌日の朝はかなり軟便がありました、私は気分のよいまま、近所の人達の止めるのもきかず、その日は床屋さんへ行って来ました、その翌日は大変食欲も出て来て、とても寝てなどいられない気持になりました、小便は一日六回となり、顔のむくみもすっかりとれたようでした、御浄霊を頂くようになってから六日目、一カ月間床にあった私が歩いて、教会まで通えるようになりました。<br/><br/> 五月になってから、朝起きる時、今迄になかった痰がしきりに出るようになり、又、時々血痰も交えて出ました、痰の多量に出た後はさっぱりして、非常に気分もよく、とても病人臭く寝てはいられない気持になると共に、教会で先生より、御浄化に付いて、詳細にその意味を伺いましたので、病勢の変化にも大して神経を使わないようになりました、現在で九日目、もうほとんど元気で、血色もよくなったと人様にいわれますので、とにかく五月の五日、まず祖母が「お守」を頂かして頂きました、私も近く入信致す積りです。<br/><br/>「会社に出てもよい」と申される先生の御言葉は自信に満ちておりましたが、大事をとって、会社は当分休ませて頂く事にして毎日元気に教会へ通っております、危く結核の宣告を下される前に、私は御教えと御力とにより救われました訳です、何とも有難い次第であると思い、この上は一生懸命、御神業の御手伝いに精進致したいと存じております。<br/><br/> 明主様、ありがとう御座いました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

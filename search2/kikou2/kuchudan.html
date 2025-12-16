@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kuchudan</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様との空中談話 泉野三六 『地上天国』64号、昭和29(1954)年11月15日発行 今度という今度は完全に参りました。<br><br>と、いうのは外でもありませんが、私が最も信頼している先輩に、ものの見事にズッテンどうと背負い投げを食らったのです。<br><br>実際は、まだこの問題の結論は出ていないのですが、どうも私の予感がそれを察知して割出していますので大体間違いないと思います。<br><br> 勿論、これは私の大失敗でありまして、ここまでくるまでに、十分な計画を立て、先方とも遺憾なく連絡を取って、それぞれの準備も進められたのでしたが、突如として訪れた招かれざる客、即ち台風十二号によって、これが表面化したのです。<br><br>ここで台風十二号についてちょっと申し上げますと、私は誰にも「絶対大丈夫」を唱えてきたのです。<br><br>それは、台風の前兆である余波の風が少しも「ハダ」に感じないのです。<br><br>この前の台風の時など、痛いぐらい余波の風がハダを突き刺したものですが、今度の十二号のそれは全然感じないのです、だから私は逢う人ごとに「大丈夫」を宣言してきたのです。<br><br>この余波と人体に感じる関係については専門家の御意見を承りたいと思います。<br><br>どなたか御教示下さい。<br><br> 先にも申し上げましたように、結論は出ていませんので、ハッキリした問題の内容は申し上げ兼ねるのですが、大体は御賢察下さい。<br><br> まあ早く一言で申し上げますと「裏切られた」ということになりましょうか。<br><br>裏切られたということ自体は文字ですと、たった五字ですし、活字になりますと恐らく何の変哲もないようですが、実のところこれは大変で、裏切ることより裏切られた方が如何に辛く、またブスッと魂に響くものであるかを初めて痛感したような次第です。<br><br>この裏切られたがために、そのことに想念が集中して、起きていても寝ころんでいても、四六時中そのことばかり考えさせられているのです。<br><br>何もかも私の不行届で起きたことで、この責任は一切私にあるのだ――と思いあきらめてはいますものの、あきらめようとすればする程、その想念、つまり裏切られたという想念が横からグイと顔を出してくるのです。<br><br>大体今迄ですとこんな悪想念は一刀両断の元にサッパリとやってしまうのですが、今度のはどうしてもそう簡単に参らぬのです。<br><br>何故だろうかと自問自答もしてみました。<br><br>この結論もそう簡単には出てこないのです。<br><br>それがですよ、今度という今度は、この悪連鎖と申しましょうか悪循環が私の五体をがんじがらめに十重二十重と取り巻いてしまったのです。<br><br>何とかしてこんな悪循環から寸刻も早く逃げだそうと焦れば焦るだけそれとは反対に深い方へ、暗い谷間へグングン落入って行くのです。<br><br>仕事に熱中している時には、忘れていても、ちょっと隙ができると、またぞろ思い出しているのです。<br><br>家にいても同じことで、どうもならんのです。<br><br>こんな場合普通でしたらジャパン・ウィスキー（焼酎）を二合ぐらいひっかけて吹ッ飛ばしてしまうのですが、今度はそれも全然欲しくないのです。<br><br>欲しくないどとろか、その気さえ起らないのです。<br><br>こんな状態が毎日々々繰返されますと参るのは当然です。<br><br>丁度十日目ぐらいには悪戦苦闘の末、刀折れ、矢尽きたという感じで、精神だけがナニクソと頑張っていても体が思うようにならなくなったのです。<br><br>二日間床について寝るということでなく、家でゴロゴロやっているうちに、突如として霊夢と申しましょうか、明主様の御姿が現われ、温顔に微笑をもらされているのです。<br><br>夢かうつつか判らぬままに空中談話が始まったのです。<br><br> 明主様 「いくら悪意でやった事でなくても、結果からいえばやはり失敗です。<br><br>ことは簡単ですよ。<br><br>一番大切なこと即ち“神意”によるものかどうかということを忘れてはいけません。<br><br>中心は何といっても“神意”に合致するかどうかということですよ」 私 「そうです。<br><br>その通りです。<br><br>神意ということをスッカリ忘れて、飛んだところへ想念を集中していました。<br><br>申訳ありません。<br><br>神意を無視した責任は私にあるのです」 明主様 「私は何かを計画しても決して焦らない。<br><br>多角面から客観 し、熟慮に熟慮を重ね、如何なる点から見ても、誰から見られても正しく、それが社会人類のためになり、有益であり、かつそのことに永遠の生命があると確認する、これが第一の条件、そして十分な準備万端を調え時節到来を待つ、それが第二の条件、これは何事かをなさんとする人間は常に心掛けることです」 私 「全く申訳ありません。<br><br>一番大切な神意がなへんにあるかさえ忘れるような私です、どうそ御許し下さい」 明主様 「ちょっとした節（ふし）で、この節がだんだん重なってくると本物になるわけですから、まあ大いにやるべしというところですな」 私 「いや、恐れ入りました。<br><br>思いがけない大きな節でした。<br><br>一時は一体どこへ連れられて行くのだろうと自分ながらハラハラしていました」 明主様 「これが慢性になると“心配執着”にとりつかれるのです、取越苦労の執着、過越苦労の執着……これなんかどうもあまり感心しませんね、ハヽヽヽ」 私 「よく判らしていただいている積りでも、結局は、つもりだけでして、身につかないものですから直ぐ参ってしまうのです」 明主様 「悪いことも浄化作用と思って間違いない、この浄化作用がすんだら後は晴々とします。<br><br>ただ、信仰者として、如何なる悪いこと、または悪い目に会っても、結構々々とそれらを万事受入れられるだけの心の余裕は持たなくてはいかんですよ、殊にメシヤ教の連中は……」 私 「明主様はかつて“私の腹には光の玉がある。<br><br>これはある最高の神様の魂であるから、私の言動すべては神様自身が、私を自由自在に動かしているのである。<br><br>つまり、神と人との区別がない、これが真の神人合一である”と仰言っておられますが、ある最高の神様について何卒御神名を御聞かせいただけませんか」 明主様 「そのことについては、御神書にも書いてあるのですが、御神名は時所位により、その時の事情により違ってくるわけで、一概にいえませんね」 私 「そういたしますと、御神書中に“万能の神は、観世音菩薩またの御名、光明如来と顕現され、応身弥勒と化し、救世主の御手を通じ……云々”とありますが、その万能の神と思って差支えないのでありますか」 明主様 「その通りです。<br><br>万能の神様は臨機応変に救世の大業に顕現され、自由自在の御活動をなさり、多々益々奇蹟を示されるのです、この真意が理解されるか、されぬかでは雲泥の相違がありますからね、これは根本問題ですからな。<br><br>案外燈台下暗しという感なきにしもあらずですよ。<br><br>ハヽヽヽ」 私 「メシヤ教ではないのですが、これはＡ教団の教主のことなのですが、私の目から見ますとちっとも霊能力はないのです、まあ神様の取次者ぐらいと思っているのですが、御本人は結構神様気取りでいるのですね、おかしくてしようがないんですが、余りにも本人は大真面目なものですから、おかしくっても笑うに笑えぬのです。<br><br>」 明主様 「これは恐いですよ。<br><br>早くいえば“自分自身を裁く”ということを忘れているのですな。<br><br>その結果が慢心、脱線ということになるのです。<br><br>私の目から見れば誰でも神の取次者ですよ。<br><br>そのことは本人も知ってはいても、つい内輪のものがちやほやすると、ズルズルと何時のまにか神様ぶりを気取ったりするんです。<br><br>神様を頭にいただくべき人間が、神様を座布団と思っている。<br><br>いや、こりや案外多いのですよ。<br><br>私は常にメシヤ教の信者には、毎日のように自分自身を裁いていかなければならぬといっているのです」 私 「この間の苦闘中に、真夜中でしたか、どうしても寝つかれないのです。<br><br>あたりがシーンとしておりまして、その中でただコツコツと心臓の鼓動を聞きました時、有難いことだ、生命体といいますか、コトコトと心臓の鼓動にしばし耳を傾けていたのです。<br><br>その時ふと、御教え中の、人間の体に霊と体とあり、その霊には霊そのものに宿る生命体があり、体にも体そのものに宿る生命体があるのだということに気づいたのですが、それでいいのでしょうか」 明主様 「それはそれでいいのですが、も一つあるのです。<br><br>霊の生命体、体の生命体のほかに力の生命体というのがあるのです。<br><br>これは腕力というような意味でなしに、もっと高度のものです。<br><br>この三つの生命体が五体に宿っていて、まあ仮りにある人の霊の生命体が七としますか、体の生命体を五、力の生命体を三というように仮定してみますと、まあまあこの人は大体平均点以上だといえるのです。<br><br>ところが、これが反対に、主導権が力の生命体七、体を五、霊を三とした場合、これはもう無茶苦茶です。<br><br>現在の日本人を見ていますと、どうも残念ながら後者に属するものばかりで、それがために大いに人間改造をやるという点からいえば、中々やり甲斐のある大業と思ってるわけです」 私 「そういたしますと、人間とは霊、体、力の三位一体の生命体があるということになりますが……」 明主様 「その通りです。<br><br>その三原素が判ると判らぬとでは大問題ですよ。<br><br>あなたはこの三原素は人間ばかりと思っているようですが、それは違うのです。<br><br>人間は勿論のこと、天地宇宙間の一切のものにその三原素は備っているのですよ」 私 「それは気づきませんでした。<br><br>霊、体、力の三原素は天地宇宙一切にあるのですか――」 明主様 「私はよく人間は宇宙の縮図であり、移写であると教えてきたのですが、これは中々むずかしく判らぬのも無理からぬことです。<br><br>がしかし、そういう組織であるということに間違いないことは事実ですから、これだけは念頭に入れてもらえばいいわけです。<br><br>私は書物で、手っ取り早く、人間を中心にした霊、体、力の生命体ということをあらゆる面から説いているのです。<br><br>この三原素の組織と活用――これがつかめたら当然天地宇宙一切の真相がつかめるのです」 私 「その組織と活用につきまして何か特別に御教えいただきたいと思いますが――」 明主様 「これは簡単にいきませんよ。<br><br>あなたがどの程度のものか、それも判らぬしね。<br><br>説くにしても、受入れる人の程度によりけりで、あまり高いことをいってもいかんし、またあまり低いことをいってもいかんし、中々むずかしい問題ですが、中級程度としていえることは、霊とは生命体の本源であり、心の本体ということ、体は肉体のことですが、このほかに肉体そのままの形体である精霊があることに気づく人は少ないのです。<br><br>これを正しく識るには、直観的な悟りと、科学的究明との二方法があるわけで、各人各様に悟りて究明すべきでしょう。<br><br>力ですが、これも精神的な面と肉体的な面とのはたらきがあるのですよ。<br><br>人間に例を取るならば、人間の精神的な力とは何かということと、肉体的な力は何かということ、この真相が判れば、それ自体が神様の力であるということに気づくはずです」 私 「あまり微妙すぎて恐いぐらいですが、それらの活用と申しますか、その方は……」 明主様 「一口に活用と簡単にいっても、そう簡単にいきませんよ。<br><br>霊、体、力それぞれにこれは千変万化の活用があるのですよ。<br><br>極く簡単にいえることは、人間の肉体を動かす場合、これを動かすのはいわゆる肉体霊であり、また肉体想念ともいえるものがあるのです。<br><br>ところが、よくよく考えてみますと肉体霊にしろ、肉体想念にしろ、それを操る想念があることに気づくのです。<br><br>これが私がよく説いている副守護神と守護神というのです。<br><br>なおその上に、この副守護神や守護神を体として動かしている霊があり、その奥にもまたその奥にも同じような霊があるのです。<br><br>霊界の百八十段階説については神書に述べてあります。<br><br>要は天地宇宙間には一定の法則があり、一切は黙々としていても一定の規準のもとに一毛の狂いもなく、また一瞬の遅滞もなく流転しているということが判ればいいのですよ」 私 「どうもぼんくら頭では中々むずかしすぎて判りかねますので、一応取りまとめたところで……」 明主様 「むずかしく考えるからむずかしく取れるので、大体世の中そのものがむずかしくできていますがね、ハヽヽヽ。<br><br>人間の体は現界に呼吸していることはみんな知っていますね、だとすると霊は霊界で呼吸しているといえるのです。<br><br>前にもいったように、霊界の状態がそのまま体に映る道理が判るでしょう、これとは反対に、人間の魂は全大宇宙に感応することもできるわけであります。<br><br>だから人間の運命の根本は霊界にあると断言できるのであります。<br><br>私が提唱している“浄霊”は、直接に霊に向って霊光を注いで霊を浄めるのですから、その効果はとても体的とは比重〔較〕にならないのです。<br><br>これは実に最高の科学療法で、世界最高のものです」 私 「大体悟らしていただきました。<br><br>有難う御座いました。<br><br>御教えによりますと、霊界の移写が現界であるとのことで御座いますが、この筆法でいきますと、現界の事象もこれまた霊界へ反映するとみていいのでありますか」 明主様 「その通りです。<br><br>大体ですよ、人間とはそもそもが、神様の御目的である理想世界を作るべき役目といいますか、大きな使命があるのをスッカリ忘れて、畜生道に踏みこんでいるのですよ。<br><br>この情ない現状がそのまま霊界に移写されるとしたら、どういうことになりますか。<br><br>考えてみてもゾッと寒気をもよおします。<br><br>この腐りきった人心を救うには、いまのところ目にもの見せる“奇蹟”よりほかないと思っています。<br><br>そこで、私は全信徒を総動員して奇蹟を随処に行わしているのです。<br><br>これも実のところ考えようによっては奇蹟でもなんでもないのです。<br><br>先にいった、最高級の科学療法の一片鱗にすぎないのです。<br><br>こんなことをしなくても、もっと他に方法はあるのですが、現在のところでは、この方法が一番適切だと考えてやらしているのです。<br><br>奇蹟による神の存在や神の認識、社会悪や人間悪の追放――こんなことによらなければ人心の改革ができぬところに私としても何か割切れぬものがあるのですが、どうも世人は奇蹟を高く評価していますので、この方法を取っているのです。<br><br>日本新建設のためシッカリたのみます」 以上は一瞬のできごとであるが、考えてみると何千時間、いや何万時間ものように思えたのです。<br><br>そして雲か煙りかのように何時のまにやら明主様の御姿は見えません。<br><br>ハッと思ってガバとはね起き、一潟千里に御教えは独専すべきであらずとペンを取った次第です。<br><br> そして、私はこれは大変だ、神様に祈ることも大切には相違ないし、また真理にひれふすのもいいだろうが、それだけで満足してはならぬ、これはただ半面の真実に過ぎぬということを御教えを通して悟らしていただいたのであります。<br><br> つまり大きな“生命体”は絶えず進展し、生命し、循環してやまぬということであります。<br><br>人間はたえず霊界から動かされてはいるが、それと同時に、人間の動きが霊界に大きな反映を投げかけていることを忘れてはならぬということであります。<br><br>原因が結果を生み、結果がまた原因を生むということと、霊界が現実界に移り、現実界が霊界に移り、これがまた現実界に響いてくかという不二循環の実相を心に銘記しなければならぬということをつくづく悟らしていただいた次第です。<br><br>どうやら一つの節を脱皮できました。<br><br> 明主様、有難う御座いました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Conversa Espiritual com Meishu-Sama</h2>
 <p>Desta vez, e de forma definitiva, fui completamente vencido. O motivo não é outro senão o golpe fulminante que recebi de um veterano em quem depositava a mais absoluta confiança. Embora a questão ainda não esteja concluída, minha intuição já antecipa o desfecho, e creio que não me engano.</p>
@@ -132,5 +284,48 @@ function toggleLang(lang) {
 <p>A outra metade é que a grande “Entidade Vital” está em constante avanço, vida e circulação. O ser humano, embora seja movido pelo Mundo Espiritual, não pode esquecer que suas ações, ao mesmo tempo, projetam um grande reflexo sobre esse mesmo mundo. A causa gera o efeito, e o efeito, por sua vez, torna-se uma nova causa. O Mundo Espiritual se reflete no mundo material, e o mundo material se reflete no Mundo Espiritual, reverberando novamente na realidade física. Gravei em meu coração a verdade sobre essa circulação inseparável.</p>
 <p>Sinto que finalmente superei um grande obstáculo em minha jornada.</p>
 <p>Meishu-Sama, muito obrigado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様との空中談話 泉野三六 『地上天国』64号、昭和29(1954)年11月15日発行 今度という今度は完全に参りました。<br/><br/>と、いうのは外でもありませんが、私が最も信頼している先輩に、ものの見事にズッテンどうと背負い投げを食らったのです。<br/><br/>実際は、まだこの問題の結論は出ていないのですが、どうも私の予感がそれを察知して割出していますので大体間違いないと思います。<br/><br/> 勿論、これは私の大失敗でありまして、ここまでくるまでに、十分な計画を立て、先方とも遺憾なく連絡を取って、それぞれの準備も進められたのでしたが、突如として訪れた招かれざる客、即ち台風十二号によって、これが表面化したのです。<br/><br/>ここで台風十二号についてちょっと申し上げますと、私は誰にも「絶対大丈夫」を唱えてきたのです。<br/><br/>それは、台風の前兆である余波の風が少しも「ハダ」に感じないのです。<br/><br/>この前の台風の時など、痛いぐらい余波の風がハダを突き刺したものですが、今度の十二号のそれは全然感じないのです、だから私は逢う人ごとに「大丈夫」を宣言してきたのです。<br/><br/>この余波と人体に感じる関係については専門家の御意見を承りたいと思います。<br/><br/>どなたか御教示下さい。<br/><br/> 先にも申し上げましたように、結論は出ていませんので、ハッキリした問題の内容は申し上げ兼ねるのですが、大体は御賢察下さい。<br/><br/> まあ早く一言で申し上げますと「裏切られた」ということになりましょうか。<br/><br/>裏切られたということ自体は文字ですと、たった五字ですし、活字になりますと恐らく何の変哲もないようですが、実のところこれは大変で、裏切ることより裏切られた方が如何に辛く、またブスッと魂に響くものであるかを初めて痛感したような次第です。<br/><br/>この裏切られたがために、そのことに想念が集中して、起きていても寝ころんでいても、四六時中そのことばかり考えさせられているのです。<br/><br/>何もかも私の不行届で起きたことで、この責任は一切私にあるのだ――と思いあきらめてはいますものの、あきらめようとすればする程、その想念、つまり裏切られたという想念が横からグイと顔を出してくるのです。<br/><br/>大体今迄ですとこんな悪想念は一刀両断の元にサッパリとやってしまうのですが、今度のはどうしてもそう簡単に参らぬのです。<br/><br/>何故だろうかと自問自答もしてみました。<br/><br/>この結論もそう簡単には出てこないのです。<br/><br/>それがですよ、今度という今度は、この悪連鎖と申しましょうか悪循環が私の五体をがんじがらめに十重二十重と取り巻いてしまったのです。<br/><br/>何とかしてこんな悪循環から寸刻も早く逃げだそうと焦れば焦るだけそれとは反対に深い方へ、暗い谷間へグングン落入って行くのです。<br/><br/>仕事に熱中している時には、忘れていても、ちょっと隙ができると、またぞろ思い出しているのです。<br/><br/>家にいても同じことで、どうもならんのです。<br/><br/>こんな場合普通でしたらジャパン・ウィスキー（焼酎）を二合ぐらいひっかけて吹ッ飛ばしてしまうのですが、今度はそれも全然欲しくないのです。<br/><br/>欲しくないどとろか、その気さえ起らないのです。<br/><br/>こんな状態が毎日々々繰返されますと参るのは当然です。<br/><br/>丁度十日目ぐらいには悪戦苦闘の末、刀折れ、矢尽きたという感じで、精神だけがナニクソと頑張っていても体が思うようにならなくなったのです。<br/><br/>二日間床について寝るということでなく、家でゴロゴロやっているうちに、突如として霊夢と申しましょうか、明主様の御姿が現われ、温顔に微笑をもらされているのです。<br/><br/>夢かうつつか判らぬままに空中談話が始まったのです。<br/><br/> 明主様 「いくら悪意でやった事でなくても、結果からいえばやはり失敗です。<br/><br/>ことは簡単ですよ。<br/><br/>一番大切なこと即ち“神意”によるものかどうかということを忘れてはいけません。<br/><br/>中心は何といっても“神意”に合致するかどうかということですよ」 私 「そうです。<br/><br/>その通りです。<br/><br/>神意ということをスッカリ忘れて、飛んだところへ想念を集中していました。<br/><br/>申訳ありません。<br/><br/>神意を無視した責任は私にあるのです」 明主様 「私は何かを計画しても決して焦らない。<br/><br/>多角面から客観 し、熟慮に熟慮を重ね、如何なる点から見ても、誰から見られても正しく、それが社会人類のためになり、有益であり、かつそのことに永遠の生命があると確認する、これが第一の条件、そして十分な準備万端を調え時節到来を待つ、それが第二の条件、これは何事かをなさんとする人間は常に心掛けることです」 私 「全く申訳ありません。<br/><br/>一番大切な神意がなへんにあるかさえ忘れるような私です、どうそ御許し下さい」 明主様 「ちょっとした節（ふし）で、この節がだんだん重なってくると本物になるわけですから、まあ大いにやるべしというところですな」 私 「いや、恐れ入りました。<br/><br/>思いがけない大きな節でした。<br/><br/>一時は一体どこへ連れられて行くのだろうと自分ながらハラハラしていました」 明主様 「これが慢性になると“心配執着”にとりつかれるのです、取越苦労の執着、過越苦労の執着……これなんかどうもあまり感心しませんね、ハヽヽヽ」 私 「よく判らしていただいている積りでも、結局は、つもりだけでして、身につかないものですから直ぐ参ってしまうのです」 明主様 「悪いことも浄化作用と思って間違いない、この浄化作用がすんだら後は晴々とします。<br/><br/>ただ、信仰者として、如何なる悪いこと、または悪い目に会っても、結構々々とそれらを万事受入れられるだけの心の余裕は持たなくてはいかんですよ、殊にメシヤ教の連中は……」 私 「明主様はかつて“私の腹には光の玉がある。<br/><br/>これはある最高の神様の魂であるから、私の言動すべては神様自身が、私を自由自在に動かしているのである。<br/><br/>つまり、神と人との区別がない、これが真の神人合一である”と仰言っておられますが、ある最高の神様について何卒御神名を御聞かせいただけませんか」 明主様 「そのことについては、御神書にも書いてあるのですが、御神名は時所位により、その時の事情により違ってくるわけで、一概にいえませんね」 私 「そういたしますと、御神書中に“万能の神は、観世音菩薩またの御名、光明如来と顕現され、応身弥勒と化し、救世主の御手を通じ……云々”とありますが、その万能の神と思って差支えないのでありますか」 明主様 「その通りです。<br/><br/>万能の神様は臨機応変に救世の大業に顕現され、自由自在の御活動をなさり、多々益々奇蹟を示されるのです、この真意が理解されるか、されぬかでは雲泥の相違がありますからね、これは根本問題ですからな。<br/><br/>案外燈台下暗しという感なきにしもあらずですよ。<br/><br/>ハヽヽヽ」 私 「メシヤ教ではないのですが、これはＡ教団の教主のことなのですが、私の目から見ますとちっとも霊能力はないのです、まあ神様の取次者ぐらいと思っているのですが、御本人は結構神様気取りでいるのですね、おかしくてしようがないんですが、余りにも本人は大真面目なものですから、おかしくっても笑うに笑えぬのです。<br/><br/>」 明主様 「これは恐いですよ。<br/><br/>早くいえば“自分自身を裁く”ということを忘れているのですな。<br/><br/>その結果が慢心、脱線ということになるのです。<br/><br/>私の目から見れば誰でも神の取次者ですよ。<br/><br/>そのことは本人も知ってはいても、つい内輪のものがちやほやすると、ズルズルと何時のまにか神様ぶりを気取ったりするんです。<br/><br/>神様を頭にいただくべき人間が、神様を座布団と思っている。<br/><br/>いや、こりや案外多いのですよ。<br/><br/>私は常にメシヤ教の信者には、毎日のように自分自身を裁いていかなければならぬといっているのです」 私 「この間の苦闘中に、真夜中でしたか、どうしても寝つかれないのです。<br/><br/>あたりがシーンとしておりまして、その中でただコツコツと心臓の鼓動を聞きました時、有難いことだ、生命体といいますか、コトコトと心臓の鼓動にしばし耳を傾けていたのです。<br/><br/>その時ふと、御教え中の、人間の体に霊と体とあり、その霊には霊そのものに宿る生命体があり、体にも体そのものに宿る生命体があるのだということに気づいたのですが、それでいいのでしょうか」 明主様 「それはそれでいいのですが、も一つあるのです。<br/><br/>霊の生命体、体の生命体のほかに力の生命体というのがあるのです。<br/><br/>これは腕力というような意味でなしに、もっと高度のものです。<br/><br/>この三つの生命体が五体に宿っていて、まあ仮りにある人の霊の生命体が七としますか、体の生命体を五、力の生命体を三というように仮定してみますと、まあまあこの人は大体平均点以上だといえるのです。<br/><br/>ところが、これが反対に、主導権が力の生命体七、体を五、霊を三とした場合、これはもう無茶苦茶です。<br/><br/>現在の日本人を見ていますと、どうも残念ながら後者に属するものばかりで、それがために大いに人間改造をやるという点からいえば、中々やり甲斐のある大業と思ってるわけです」 私 「そういたしますと、人間とは霊、体、力の三位一体の生命体があるということになりますが……」 明主様 「その通りです。<br/><br/>その三原素が判ると判らぬとでは大問題ですよ。<br/><br/>あなたはこの三原素は人間ばかりと思っているようですが、それは違うのです。<br/><br/>人間は勿論のこと、天地宇宙間の一切のものにその三原素は備っているのですよ」 私 「それは気づきませんでした。<br/><br/>霊、体、力の三原素は天地宇宙一切にあるのですか――」 明主様 「私はよく人間は宇宙の縮図であり、移写であると教えてきたのですが、これは中々むずかしく判らぬのも無理からぬことです。<br/><br/>がしかし、そういう組織であるということに間違いないことは事実ですから、これだけは念頭に入れてもらえばいいわけです。<br/><br/>私は書物で、手っ取り早く、人間を中心にした霊、体、力の生命体ということをあらゆる面から説いているのです。<br/><br/>この三原素の組織と活用――これがつかめたら当然天地宇宙一切の真相がつかめるのです」 私 「その組織と活用につきまして何か特別に御教えいただきたいと思いますが――」 明主様 「これは簡単にいきませんよ。<br/><br/>あなたがどの程度のものか、それも判らぬしね。<br/><br/>説くにしても、受入れる人の程度によりけりで、あまり高いことをいってもいかんし、またあまり低いことをいってもいかんし、中々むずかしい問題ですが、中級程度としていえることは、霊とは生命体の本源であり、心の本体ということ、体は肉体のことですが、このほかに肉体そのままの形体である精霊があることに気づく人は少ないのです。<br/><br/>これを正しく識るには、直観的な悟りと、科学的究明との二方法があるわけで、各人各様に悟りて究明すべきでしょう。<br/><br/>力ですが、これも精神的な面と肉体的な面とのはたらきがあるのですよ。<br/><br/>人間に例を取るならば、人間の精神的な力とは何かということと、肉体的な力は何かということ、この真相が判れば、それ自体が神様の力であるということに気づくはずです」 私 「あまり微妙すぎて恐いぐらいですが、それらの活用と申しますか、その方は……」 明主様 「一口に活用と簡単にいっても、そう簡単にいきませんよ。<br/><br/>霊、体、力それぞれにこれは千変万化の活用があるのですよ。<br/><br/>極く簡単にいえることは、人間の肉体を動かす場合、これを動かすのはいわゆる肉体霊であり、また肉体想念ともいえるものがあるのです。<br/><br/>ところが、よくよく考えてみますと肉体霊にしろ、肉体想念にしろ、それを操る想念があることに気づくのです。<br/><br/>これが私がよく説いている副守護神と守護神というのです。<br/><br/>なおその上に、この副守護神や守護神を体として動かしている霊があり、その奥にもまたその奥にも同じような霊があるのです。<br/><br/>霊界の百八十段階説については神書に述べてあります。<br/><br/>要は天地宇宙間には一定の法則があり、一切は黙々としていても一定の規準のもとに一毛の狂いもなく、また一瞬の遅滞もなく流転しているということが判ればいいのですよ」 私 「どうもぼんくら頭では中々むずかしすぎて判りかねますので、一応取りまとめたところで……」 明主様 「むずかしく考えるからむずかしく取れるので、大体世の中そのものがむずかしくできていますがね、ハヽヽヽ。<br/><br/>人間の体は現界に呼吸していることはみんな知っていますね、だとすると霊は霊界で呼吸しているといえるのです。<br/><br/>前にもいったように、霊界の状態がそのまま体に映る道理が判るでしょう、これとは反対に、人間の魂は全大宇宙に感応することもできるわけであります。<br/><br/>だから人間の運命の根本は霊界にあると断言できるのであります。<br/><br/>私が提唱している“浄霊”は、直接に霊に向って霊光を注いで霊を浄めるのですから、その効果はとても体的とは比重〔較〕にならないのです。<br/><br/>これは実に最高の科学療法で、世界最高のものです」 私 「大体悟らしていただきました。<br/><br/>有難う御座いました。<br/><br/>御教えによりますと、霊界の移写が現界であるとのことで御座いますが、この筆法でいきますと、現界の事象もこれまた霊界へ反映するとみていいのでありますか」 明主様 「その通りです。<br/><br/>大体ですよ、人間とはそもそもが、神様の御目的である理想世界を作るべき役目といいますか、大きな使命があるのをスッカリ忘れて、畜生道に踏みこんでいるのですよ。<br/><br/>この情ない現状がそのまま霊界に移写されるとしたら、どういうことになりますか。<br/><br/>考えてみてもゾッと寒気をもよおします。<br/><br/>この腐りきった人心を救うには、いまのところ目にもの見せる“奇蹟”よりほかないと思っています。<br/><br/>そこで、私は全信徒を総動員して奇蹟を随処に行わしているのです。<br/><br/>これも実のところ考えようによっては奇蹟でもなんでもないのです。<br/><br/>先にいった、最高級の科学療法の一片鱗にすぎないのです。<br/><br/>こんなことをしなくても、もっと他に方法はあるのですが、現在のところでは、この方法が一番適切だと考えてやらしているのです。<br/><br/>奇蹟による神の存在や神の認識、社会悪や人間悪の追放――こんなことによらなければ人心の改革ができぬところに私としても何か割切れぬものがあるのですが、どうも世人は奇蹟を高く評価していますので、この方法を取っているのです。<br/><br/>日本新建設のためシッカリたのみます」 以上は一瞬のできごとであるが、考えてみると何千時間、いや何万時間ものように思えたのです。<br/><br/>そして雲か煙りかのように何時のまにやら明主様の御姿は見えません。<br/><br/>ハッと思ってガバとはね起き、一潟千里に御教えは独専すべきであらずとペンを取った次第です。<br/><br/> そして、私はこれは大変だ、神様に祈ることも大切には相違ないし、また真理にひれふすのもいいだろうが、それだけで満足してはならぬ、これはただ半面の真実に過ぎぬということを御教えを通して悟らしていただいたのであります。<br/><br/> つまり大きな“生命体”は絶えず進展し、生命し、循環してやまぬということであります。<br/><br/>人間はたえず霊界から動かされてはいるが、それと同時に、人間の動きが霊界に大きな反映を投げかけていることを忘れてはならぬということであります。<br/><br/>原因が結果を生み、結果がまた原因を生むということと、霊界が現実界に移り、現実界が霊界に移り、これがまた現実界に響いてくかという不二循環の実相を心に銘記しなければならぬということをつくづく悟らしていただいた次第です。<br/><br/>どうやら一つの節を脱皮できました。<br/><br/> 明主様、有難う御座いました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

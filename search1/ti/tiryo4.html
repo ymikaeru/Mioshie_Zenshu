@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tiryo4</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 治療方法 『新日本医術書』昭和11(1936)年2月8日執筆 今、療術を施さんとする時、術者は患者に膝を触るる位接近すべし。<br><br>まず初め、拍手を三つ音のせぬ位軽く打ち、観世音菩薩を念じ、左手を患者の右肩へ軽く宛（あ）て、患者の頭を少し下げしめ、右手の人差指を以て、その頭脳の中心点へ向って「この者清まれ」と、三度空中へ書くべし。<br><br>書くが否や直ちに口先にて、フーッフーッフーッと二、三度息を吹掛け、右手を開いたまま頭上一寸位の空中を、出来る丈速く左右に擦るようにしては息を吹きかける。<br><br>この時間一分間位にてよし。<br><br> 最初にこれを行う訳は、元来、人間全体の根源は頭脳にあり、いわゆる病原の中府ともいうべき所であるから、まずこれを浄めて取掛るのである。<br><br> 次に患者に対（むか）って、既往の症状、経過、苦痛の個所等、成可（なるべ）く詳細に訊ね、それによって患部の病原を、指頭を以て綿密に探査しつつ、探り当てるのである。<br><br>病原発見と共にその場所へ向って治療を施すのである。<br><br> 治療上の原則としては、最初患部へ向って右の人差指を以て、「この中清まれ」と三回書き頭脳の時と同じく、掌を迅速に摩擦するごとく動かすのである。<br><br>この場合皮膚に触れてもよし、触れなくても宜（よ）いのである。<br><br>かくのごとくして数回繰返し、指頭を患部に軽く当て、指頭に霊を集注させ、病原を溶すごとき心持を以て軽圧するのである。<br><br>この場合病原はほとんど水膿溜結であり、指頭にて触圧せば多少の痛みがあるので、よく判るのである。<br><br>かくして息にて塵埃（じんあい）を吹払うごとく、治療中、何回となく吹けばよいのである。<br><br>これを繰返す裡（うち）に、病原たる膿結は必ず多少共溶解するものである。<br><br>溶解しただけは患者は軽快を感じ、それだけ治癒したのである。<br><br>ただし、右は原則を示したのであって、実地としては適宜、按配（あんばい）してよいので、場合により掌を利用してもよいのである。<br><br>療術せんとする時首に懸る観音力御守こそは、霊光の受信機とも言うべきものであって、この御守を通して、観音力霊光が術者の指頭及び掌より放射参透するのである。<br><br> 次に施術する場合の心の持方について、一言せんに、この患者を治癒せば、観音運動の為になるとか、又は物質を提供するならんなど想像する事は、大変不可であって、ただ患者の病苦が除去され、治癒され救われるよう、念願するだけが良いのである。<br><br>何となれば、観世音菩薩の大慈悲は、一切衆生を無差別的に救わせられる大御心であるから、人に依っての別け隔ては決して無いのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Prática da Terapia Divina</h2>
 <p>Ao iniciar a ministração da terapia, o ministrante deve aproximar-se do paciente a ponto de seus joelhos quase se tocarem. Primeiramente, baterá palmas três vezes, com tal leveza que quase não produzam som, e mentalizará Kannon (観世音菩薩). Em seguida, pousará com suavidade a mão esquerda sobre o ombro direito do paciente, inclinando-lhe levemente a cabeça. Com o dedo indicador da mão direita direcionado ao centro do cérebro, deverá escrever no ar por três vezes as palavras "Purifica-te". Imediatamente após, soprará duas ou três vezes e, mantendo a mão direita espalmada, a movimentará no ar o mais rápido possível de um lado para o outro, a cerca de três centímetros acima da cabeça, como se estivesse a friccionar o espaço, soprando novamente. A duração deste procedimento inicial é de aproximadamente um minuto.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>O princípio fundamental da terapia consiste em, primeiramente, direcionar o dedo indicador direito para a área afetada e escrever no ar "Purifica-te em teu interior" por três vezes, tal como foi feito sobre a cabeça. Em seguida, movimenta-se a palma da mão com rapidez, como se friccionasse o ar, sendo indiferente tocar ou não a pele do paciente. Este gesto deve ser repetido algumas vezes. Subsequentemente, o ministrante pousará levemente a ponta do dedo sobre o local, concentrando a energia espiritual na extremidade do dedo e aplicando uma suave pressão, com a intenção de dissolver o foco da doença. Geralmente, a origem da enfermidade se apresenta como nódoas de pus e toxinas, facilmente identificáveis por uma leve dor ao serem pressionadas. Durante todo o processo, deve-se soprar sobre o local repetidas vezes, como quem remove a poeira. Com a persistência nesta prática, tais nódoas purulentas se dissolverão, ainda que parcialmente. A sensação de alívio experimentada pelo paciente será proporcional à dissolução alcançada, correspondendo à parcela de cura obtida. Todavia, cumpre ressaltar que o exposto constitui o princípio geral, podendo ser adaptado conforme a necessidade de cada caso, inclusive com a utilização da palma da mão.</p>
 <p>É fundamental compreender que, durante a ministração, o amuleto do Poder de Kannon (観音力御守) que se traz ao pescoço atua como um verdadeiro receptor da Luz Espiritual. É por meio deste sagrado amuleto que a Luz Espiritual do Poder de Kannon irradia e penetra através das pontas dos dedos e da palma da mão do ministrante.</p>
 <p>Por fim, uma palavra sobre a correta atitude mental durante a ministração. É terminantemente inadmissível nutrir pensamentos como: "Se eu curar este paciente, será benéfico para o movimento de Kannon" ou "Talvez ele me ofereça uma gratificação material". O único anseio que se deve ter é o de que o sofrimento do enfermo seja extirpado e que ele alcance a cura e a salvação. A razão para tal reside na Grande Compaixão de Kannon, cujo Divino Coração almeja salvar todos os seres vivos sem qualquer discriminação, não fazendo jamais distinção entre uma pessoa e outra.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 治療方法 『新日本医術書』昭和11(1936)年2月8日執筆 今、療術を施さんとする時、術者は患者に膝を触るる位接近すべし。<br/><br/>まず初め、拍手を三つ音のせぬ位軽く打ち、観世音菩薩を念じ、左手を患者の右肩へ軽く宛（あ）て、患者の頭を少し下げしめ、右手の人差指を以て、その頭脳の中心点へ向って「この者清まれ」と、三度空中へ書くべし。<br/><br/>書くが否や直ちに口先にて、フーッフーッフーッと二、三度息を吹掛け、右手を開いたまま頭上一寸位の空中を、出来る丈速く左右に擦るようにしては息を吹きかける。<br/><br/>この時間一分間位にてよし。<br/><br/> 最初にこれを行う訳は、元来、人間全体の根源は頭脳にあり、いわゆる病原の中府ともいうべき所であるから、まずこれを浄めて取掛るのである。<br/><br/> 次に患者に対（むか）って、既往の症状、経過、苦痛の個所等、成可（なるべ）く詳細に訊ね、それによって患部の病原を、指頭を以て綿密に探査しつつ、探り当てるのである。<br/><br/>病原発見と共にその場所へ向って治療を施すのである。<br/><br/> 治療上の原則としては、最初患部へ向って右の人差指を以て、「この中清まれ」と三回書き頭脳の時と同じく、掌を迅速に摩擦するごとく動かすのである。<br/><br/>この場合皮膚に触れてもよし、触れなくても宜（よ）いのである。<br/><br/>かくのごとくして数回繰返し、指頭を患部に軽く当て、指頭に霊を集注させ、病原を溶すごとき心持を以て軽圧するのである。<br/><br/>この場合病原はほとんど水膿溜結であり、指頭にて触圧せば多少の痛みがあるので、よく判るのである。<br/><br/>かくして息にて塵埃（じんあい）を吹払うごとく、治療中、何回となく吹けばよいのである。<br/><br/>これを繰返す裡（うち）に、病原たる膿結は必ず多少共溶解するものである。<br/><br/>溶解しただけは患者は軽快を感じ、それだけ治癒したのである。<br/><br/>ただし、右は原則を示したのであって、実地としては適宜、按配（あんばい）してよいので、場合により掌を利用してもよいのである。<br/><br/>療術せんとする時首に懸る観音力御守こそは、霊光の受信機とも言うべきものであって、この御守を通して、観音力霊光が術者の指頭及び掌より放射参透するのである。<br/><br/> 次に施術する場合の心の持方について、一言せんに、この患者を治癒せば、観音運動の為になるとか、又は物質を提供するならんなど想像する事は、大変不可であって、ただ患者の病苦が除去され、治癒され救われるよう、念願するだけが良いのである。<br/><br/>何となれば、観世音菩薩の大慈悲は、一切衆生を無差別的に救わせられる大御心であるから、人に依っての別け隔ては決して無いのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

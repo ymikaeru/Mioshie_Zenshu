@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270125</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月25日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月二十五日 【御教え】 これはよくある話ですけれども、霊界に行って天国を見せてもらって、それから助かるという、それが非常にはっきりしているので、今読ませます。<br><br> （「生命の継ぎ足し」のあとの御教え）【栄光 一四二号】 これは、この人の寿命が来ていたんですよ。<br><br>つまり、この日に死ぬ事になっていたんですね。<br><br>それですから、死ぬ型ですましていただいたんですね。<br><br>だから、題を「生命の継ぎ足し」としたんです。<br><br>この人の命は神様から継ぎ足していただいたんです。<br><br>こういう人は、よく私事をすると、パッと死んじゃう事があるんです。<br><br>継ぎ足していただいたのは、神様の事をしなければならないんです。<br><br>そのために継ぎ足してくださったんですからね。<br><br>私有財産じゃないからね。<br><br>この中に――なにをお念じして良いか解らないような――とありますが、おかしいんですよ。<br><br>その時明主様をお念じすれば、もっと早く助かったんですね。<br><br>あわてたんですが、あわてても、あわてるほど明主様にお願いするという気持ちが起らなくちゃしようがないです。<br><br> この間、静岡県内に、地方の宣伝班ですね。<br><br>出掛ける時に、やっぱり私の話の代わりに、なにか書いてくれと言うんで、急いで書いたんですが、それを今読ませます。<br><br> （御論文「舌に代えて」） 「農業特集号」は三十日にできますからね。<br><br>来月から、大いに宣伝しようと思っている。<br><br>まず、各大臣から国会議員、各新聞社、農事試験場、農会――そういったような、農業に関係のある諸団体や、地方の篤農家だとか――そういう方面に配るわけです。<br><br>まあ、配るだけで約一万くらいになるかもしれません。<br><br>そうすると、そうとう反響があると思いますね。<br><br>今まで夢にも思わない話ですからね。<br><br>なんとしてもびっくりするだろうと思いますね。<br><br>で、各所から集まったお蔭話ですけれどもね。<br><br>なかなかあらゆる面にわたって――量の増えることや質の良いことですね。<br><br>地方のある所なんかでは、農業品評会に出してあるのが一等で色んな褒美をたくさんもらった。<br><br>それで総代になって答辞を読んだとか、そんなことがあったりして――それらは質ですね。<br><br>そうかと思うと、一般は非常に被害があって、品評会に出すことができないので、品評会に出すのはメシヤ教の信者だけなので、それじゃ話にならないので、取り止めになったというのもある。<br><br>神様は、なかなか如才なくあらゆる結果を現わしてあるんですね。<br><br>随分――そういった実例が、今もって毎日来てますが、紙面に限りがあるから、いつもの八頁では足りないから、もう二頁足して出すことになりましたがね。<br><br>なんとしても農業問題ですね。<br><br>食糧問題――これを解決しなければしようがないですね。<br><br>今年なんか、硫安は相場が千円というんですね。<br><br>去年で、一番高い時が八百五十円でしたが、たいてい普通七百円台でしたがね。<br><br>それが今年は千円で、まだ上がると言うんですからね。<br><br>どうしても千百円になるだろうと言ってます。<br><br>それも良いが、それを買ってわざわざ穫れなくするんですからね。<br><br>馬鹿という言葉じゃ、ぴったりしないですが、それ以上の言葉がないですからね。<br><br>馬鹿の馬鹿と言うよりないですね。<br><br>全く見てはいられないですね。<br><br>どうして人間が無知蒙昧になったかと思ってね。<br><br>全く文化的野蛮人ですね。<br><br>だから、どうしても知らせなければならない。<br><br>それで段々方々からの実例を読んでみても、私が最初から言っている説とぴったりしてますね。<br><br>全部総合した結論を言うと、まず最初の年――一年目は、たいてい一割減産ですね。<br><br>それから、平年作というのと、一割くらい増えるのもあります。<br><br>そのうちで一番多いのは、平年作ですね。<br><br>ですから、肥料代と手数代だけ儲かるんですね。<br><br>それが一番多いですね。<br><br>それで、減産と増えるのと同じくらいですがね。<br><br>一年目は平年作とみて良い。<br><br>ただ、一年目でも、虫害と風水害のある所は非常に少ないです。<br><br>他の有肥の方が多いです。<br><br>だから、平年作でも、有利な訳ですね。<br><br>それから、二年目になると、平均五分か一割増える。<br><br>それから三年目になると一割以上、二割くらい増える。<br><br>ごく悪いので平年作のちょっと良いのですね。<br><br>無論、肥料代の節約と虫害、風水害の少ないだけは得ですね。<br><br>それから、普通作――平年作でも、他はずっと――二割も三割も落ちているんです。<br><br>ですから、それだけ増えていると言っても良いですね。<br><br>大体二割くらい増えるのが普通ですね。<br><br>ところが、今まで正確に四年五年なんてのはないんです。<br><br>中には、三年で五割も六割も増えるというのがありますがね。<br><br>そういうのを総合してみると、五年にして五割というのは間違いない数字ですね。<br><br>ただ、越後の方の報告で、四年で平年作からちょっと増えたくらいの報告が二人かあったが、これは調べなければならない。<br><br> 小川さん知っているかね。<br><br>調べてください。<br><br>そんな馬鹿なことはない。<br><br>肥料をやりすぎて、肥料が抜けるのに暇がかかったか。<br><br>それから、堆肥といって、越後地方じゃオワイを薄めて堆肥にかけている。<br><br>だから、以前越後の方で、成績が上がらないので聞いてみると、堆肥といっても、堆肥ばかりじゃない。<br><br>薄い糞尿をかけている。<br><br>それかもしれないから、良く調べてもらいたい。<br><br> 「土の部分が薄く、すぐ下が石になっておりまして。<br><br>」 根伸びがないんだね。<br><br> 「さようでございます。<br><br>土の部分が薄いから、肥（こやし）をたくさんやって穫るというようにいたしております。<br><br>」 そんなわけですから、「農業特集号」が出たら、できるだけ配布してもらいたい事と、それから本当に堆肥のみで五割増産するという事は、確信をもって宣伝してもらいたいと思う。<br><br> それから、こういうのがあったです。<br><br>年々非常に良くできていたが――一年も少し増えて、二年も少し穫れて、三年目はいっそう良く穫れた。<br><br>最初から良いので、今年はうんと穫れると思った。<br><br>それで、土用中に堆肥をうんとした方が良いと思って、枯れ草をうんと入れた。<br><br>それで、良いのは良いが、枯れ草を土用中に入れたのがいけなかったというのが、本人も解って、書いてあったが、堆肥中毒にかかっていた。<br><br>本当言うと、堆肥もいらないくらいなものです。<br><br>土ばかりで良いんです。<br><br>稲作は、気候が寒い所は、暖めるために藁を切ってやる。<br><br>ところが、中には藁を五、六寸に切ってやってある。<br><br>これじゃしようがないですよ。<br><br>だから私の言うのは、せいぜい一分か二分くらいです。<br><br>それを土に切り混ぜると、早く腐って、まんべんなくいきますからね。<br><br>だから、長いとちょっとしかいかない。<br><br>それに根伸びが悪い。<br><br>それを、長いと思って、今度は二、三寸にしてやったが、それじゃしようがない。<br><br>そうしていくと、どんどん増産になるんです。<br><br>五割増産というのは、私は内輪に言っているんですよ。<br><br>本当言うと、十割は大丈夫ですよ。<br><br>あるいはもっといくかもしれない。<br><br> 今度の報告に、穂に穂が出るというのがありますが、これは本当なんです。<br><br>自然栽培にすると、そうなるんです。<br><br>今度も書いておきましたが、今一茎に平均百二、三十粒ですね。<br><br>上等で二百粒ですが、これが、穂に穂が出ると、三百ないし五百粒ですね。<br><br>そうすると、三倍ですね。<br><br>これは大丈夫です。<br><br>そうすると、今の六千万石としても、一億八千万石か、あるいはもっと増えるかもしれない。<br><br>神様は――人口が増えるだけずつは、生るのが増えるんです。<br><br> 最近、四国の愛媛県ですかね。<br><br>鶏が一日に十二個卵を生んだのがあった。<br><br>その鶏は、一カ月一日三個平均は生んでいるんですからね。<br><br>それを、大いに増やす手段を考えていると、ラジオでも言うし、新聞にも出てましたが、どういうわけで、そうなるかと言うとね。<br><br>今にそうなるんです。<br><br>今までに一番生んだのは、一日に一つですね。<br><br>一年に三百六十個――これが最高でしたが、今に一日三個生むようになる、これが最初の示唆ですよ。<br><br>時々、度外れな作物ができますが、これは神様が、こうなるということを示してある。<br><br>今の耕地面積で、一億になっても二億になっても平気なんです。<br><br>産児制限なんか必要はないんです。<br><br>それを知らないから――算盤の計算ですから、そういうことも心配するんですが、そういうことも今度書きましたがね。<br><br>どのくらい解るか、どのくらい反響があるかということは、おもしろい試験だと思ってます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Extensão da Vida e a Verdadeira Abundância da Terra</h2>
 <p>Este é um relato que se ouve com frequência, mas o caso de alguém que, após visitar o Mundo Espiritual e vislumbrar o Paraíso, alcança a salvação é extraordinariamente nítido. Por essa razão, pedirei que o leiam agora.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Quando falo em um aumento de 50%, estou sendo modesto. Na verdade, um aumento de 100% é perfeitamente possível, e talvez até mais.</p>
 <p>No último relatório, há um testemunho sobre “espigas que brotam de outras espigas”. Isso é real. Com a agricultura natural, esse fenômeno ocorre. Como escrevi na publicação, uma haste de arroz comum produz, em média, de 120 a 130 grãos, e as melhores, 200. Com o surgimento de espigas sobre espigas, esse número salta para 300 a 500 grãos. Isso significa que a produção pode triplicar. É um fato. Desse modo, a colheita atual poderia alcançar um volume três vezes maior, ou talvez superar essa marca. Deus permite que a produção de alimentos aumente na mesma proporção do crescimento populacional.</p>
 <p>Recentemente, na província de Ehime, em Shikoku, se não me engano, uma galinha botou doze ovos em um único dia. Essa mesma ave já vinha mantendo uma média de três ovos diários há um mês. O rádio e os jornais noticiaram o fato, especulando sobre como ampliar esse fenômeno. A explicação é simples: no futuro, será assim. Até hoje, o máximo que uma galinha produzia era um ovo por dia, totalizando cerca de 360 por ano. Em breve, a média será de três ovos diários. Este é o primeiro sinal. Ocasionalmente, surgem colheitas ou produtos de origem animal fora do comum; são manifestações de Deus, que nos mostra como as coisas serão. Com a área de cultivo que possuímos, o Japão poderá sustentar uma população de cem ou duzentos milhões de habitantes sem dificuldade alguma. O controle de natalidade é totalmente desnecessário. O problema é que as pessoas desconhecem essa verdade e se apegam a cálculos meramente humanos, gerando preocupações infundadas. Escrevi sobre isso também na nova publicação. Será um teste interessante observar o quanto as pessoas compreenderão e qual será a repercussão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月25日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月二十五日 【御教え】 これはよくある話ですけれども、霊界に行って天国を見せてもらって、それから助かるという、それが非常にはっきりしているので、今読ませます。<br/><br/> （「生命の継ぎ足し」のあとの御教え）【栄光 一四二号】 これは、この人の寿命が来ていたんですよ。<br/><br/>つまり、この日に死ぬ事になっていたんですね。<br/><br/>それですから、死ぬ型ですましていただいたんですね。<br/><br/>だから、題を「生命の継ぎ足し」としたんです。<br/><br/>この人の命は神様から継ぎ足していただいたんです。<br/><br/>こういう人は、よく私事をすると、パッと死んじゃう事があるんです。<br/><br/>継ぎ足していただいたのは、神様の事をしなければならないんです。<br/><br/>そのために継ぎ足してくださったんですからね。<br/><br/>私有財産じゃないからね。<br/><br/>この中に――なにをお念じして良いか解らないような――とありますが、おかしいんですよ。<br/><br/>その時明主様をお念じすれば、もっと早く助かったんですね。<br/><br/>あわてたんですが、あわてても、あわてるほど明主様にお願いするという気持ちが起らなくちゃしようがないです。<br/><br/> この間、静岡県内に、地方の宣伝班ですね。<br/><br/>出掛ける時に、やっぱり私の話の代わりに、なにか書いてくれと言うんで、急いで書いたんですが、それを今読ませます。<br/><br/> （御論文「舌に代えて」） 「農業特集号」は三十日にできますからね。<br/><br/>来月から、大いに宣伝しようと思っている。<br/><br/>まず、各大臣から国会議員、各新聞社、農事試験場、農会――そういったような、農業に関係のある諸団体や、地方の篤農家だとか――そういう方面に配るわけです。<br/><br/>まあ、配るだけで約一万くらいになるかもしれません。<br/><br/>そうすると、そうとう反響があると思いますね。<br/><br/>今まで夢にも思わない話ですからね。<br/><br/>なんとしてもびっくりするだろうと思いますね。<br/><br/>で、各所から集まったお蔭話ですけれどもね。<br/><br/>なかなかあらゆる面にわたって――量の増えることや質の良いことですね。<br/><br/>地方のある所なんかでは、農業品評会に出してあるのが一等で色んな褒美をたくさんもらった。<br/><br/>それで総代になって答辞を読んだとか、そんなことがあったりして――それらは質ですね。<br/><br/>そうかと思うと、一般は非常に被害があって、品評会に出すことができないので、品評会に出すのはメシヤ教の信者だけなので、それじゃ話にならないので、取り止めになったというのもある。<br/><br/>神様は、なかなか如才なくあらゆる結果を現わしてあるんですね。<br/><br/>随分――そういった実例が、今もって毎日来てますが、紙面に限りがあるから、いつもの八頁では足りないから、もう二頁足して出すことになりましたがね。<br/><br/>なんとしても農業問題ですね。<br/><br/>食糧問題――これを解決しなければしようがないですね。<br/><br/>今年なんか、硫安は相場が千円というんですね。<br/><br/>去年で、一番高い時が八百五十円でしたが、たいてい普通七百円台でしたがね。<br/><br/>それが今年は千円で、まだ上がると言うんですからね。<br/><br/>どうしても千百円になるだろうと言ってます。<br/><br/>それも良いが、それを買ってわざわざ穫れなくするんですからね。<br/><br/>馬鹿という言葉じゃ、ぴったりしないですが、それ以上の言葉がないですからね。<br/><br/>馬鹿の馬鹿と言うよりないですね。<br/><br/>全く見てはいられないですね。<br/><br/>どうして人間が無知蒙昧になったかと思ってね。<br/><br/>全く文化的野蛮人ですね。<br/><br/>だから、どうしても知らせなければならない。<br/><br/>それで段々方々からの実例を読んでみても、私が最初から言っている説とぴったりしてますね。<br/><br/>全部総合した結論を言うと、まず最初の年――一年目は、たいてい一割減産ですね。<br/><br/>それから、平年作というのと、一割くらい増えるのもあります。<br/><br/>そのうちで一番多いのは、平年作ですね。<br/><br/>ですから、肥料代と手数代だけ儲かるんですね。<br/><br/>それが一番多いですね。<br/><br/>それで、減産と増えるのと同じくらいですがね。<br/><br/>一年目は平年作とみて良い。<br/><br/>ただ、一年目でも、虫害と風水害のある所は非常に少ないです。<br/><br/>他の有肥の方が多いです。<br/><br/>だから、平年作でも、有利な訳ですね。<br/><br/>それから、二年目になると、平均五分か一割増える。<br/><br/>それから三年目になると一割以上、二割くらい増える。<br/><br/>ごく悪いので平年作のちょっと良いのですね。<br/><br/>無論、肥料代の節約と虫害、風水害の少ないだけは得ですね。<br/><br/>それから、普通作――平年作でも、他はずっと――二割も三割も落ちているんです。<br/><br/>ですから、それだけ増えていると言っても良いですね。<br/><br/>大体二割くらい増えるのが普通ですね。<br/><br/>ところが、今まで正確に四年五年なんてのはないんです。<br/><br/>中には、三年で五割も六割も増えるというのがありますがね。<br/><br/>そういうのを総合してみると、五年にして五割というのは間違いない数字ですね。<br/><br/>ただ、越後の方の報告で、四年で平年作からちょっと増えたくらいの報告が二人かあったが、これは調べなければならない。<br/><br/> 小川さん知っているかね。<br/><br/>調べてください。<br/><br/>そんな馬鹿なことはない。<br/><br/>肥料をやりすぎて、肥料が抜けるのに暇がかかったか。<br/><br/>それから、堆肥といって、越後地方じゃオワイを薄めて堆肥にかけている。<br/><br/>だから、以前越後の方で、成績が上がらないので聞いてみると、堆肥といっても、堆肥ばかりじゃない。<br/><br/>薄い糞尿をかけている。<br/><br/>それかもしれないから、良く調べてもらいたい。<br/><br/> 「土の部分が薄く、すぐ下が石になっておりまして。<br/><br/>」 根伸びがないんだね。<br/><br/> 「さようでございます。<br/><br/>土の部分が薄いから、肥（こやし）をたくさんやって穫るというようにいたしております。<br/><br/>」 そんなわけですから、「農業特集号」が出たら、できるだけ配布してもらいたい事と、それから本当に堆肥のみで五割増産するという事は、確信をもって宣伝してもらいたいと思う。<br/><br/> それから、こういうのがあったです。<br/><br/>年々非常に良くできていたが――一年も少し増えて、二年も少し穫れて、三年目はいっそう良く穫れた。<br/><br/>最初から良いので、今年はうんと穫れると思った。<br/><br/>それで、土用中に堆肥をうんとした方が良いと思って、枯れ草をうんと入れた。<br/><br/>それで、良いのは良いが、枯れ草を土用中に入れたのがいけなかったというのが、本人も解って、書いてあったが、堆肥中毒にかかっていた。<br/><br/>本当言うと、堆肥もいらないくらいなものです。<br/><br/>土ばかりで良いんです。<br/><br/>稲作は、気候が寒い所は、暖めるために藁を切ってやる。<br/><br/>ところが、中には藁を五、六寸に切ってやってある。<br/><br/>これじゃしようがないですよ。<br/><br/>だから私の言うのは、せいぜい一分か二分くらいです。<br/><br/>それを土に切り混ぜると、早く腐って、まんべんなくいきますからね。<br/><br/>だから、長いとちょっとしかいかない。<br/><br/>それに根伸びが悪い。<br/><br/>それを、長いと思って、今度は二、三寸にしてやったが、それじゃしようがない。<br/><br/>そうしていくと、どんどん増産になるんです。<br/><br/>五割増産というのは、私は内輪に言っているんですよ。<br/><br/>本当言うと、十割は大丈夫ですよ。<br/><br/>あるいはもっといくかもしれない。<br/><br/> 今度の報告に、穂に穂が出るというのがありますが、これは本当なんです。<br/><br/>自然栽培にすると、そうなるんです。<br/><br/>今度も書いておきましたが、今一茎に平均百二、三十粒ですね。<br/><br/>上等で二百粒ですが、これが、穂に穂が出ると、三百ないし五百粒ですね。<br/><br/>そうすると、三倍ですね。<br/><br/>これは大丈夫です。<br/><br/>そうすると、今の六千万石としても、一億八千万石か、あるいはもっと増えるかもしれない。<br/><br/>神様は――人口が増えるだけずつは、生るのが増えるんです。<br/><br/> 最近、四国の愛媛県ですかね。<br/><br/>鶏が一日に十二個卵を生んだのがあった。<br/><br/>その鶏は、一カ月一日三個平均は生んでいるんですからね。<br/><br/>それを、大いに増やす手段を考えていると、ラジオでも言うし、新聞にも出てましたが、どういうわけで、そうなるかと言うとね。<br/><br/>今にそうなるんです。<br/><br/>今までに一番生んだのは、一日に一つですね。<br/><br/>一年に三百六十個――これが最高でしたが、今に一日三個生むようになる、これが最初の示唆ですよ。<br/><br/>時々、度外れな作物ができますが、これは神様が、こうなるということを示してある。<br/><br/>今の耕地面積で、一億になっても二億になっても平気なんです。<br/><br/>産児制限なんか必要はないんです。<br/><br/>それを知らないから――算盤の計算ですから、そういうことも心配するんですが、そういうことも今度書きましたがね。<br/><br/>どのくらい解るか、どのくらい反響があるかということは、おもしろい試験だと思ってます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

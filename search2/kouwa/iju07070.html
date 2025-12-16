@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju07070</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （七） ６ 080-095 中毒 080 食い合せ（生梅中毒） 世間でよく食べ合せと言う事を申しますが、これはいかなる理由で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 世間で言う程はない。<br><br>いくらかあるが大した事はない。<br><br>例えば、生梅などは腫物になる。<br><br>梅菌という。<br><br>餅草の毒に当ると恐ろしい。<br><br>柿もそうである。<br><br> 鰻と梅干も大した事はない。<br><br> 食物の毒はある。<br><br> 普通の物を食べた、それによってどうという事はあまりない。<br><br>一色でも毒のあるのは恐い。<br><br>生梅はよくあたる。<br><br>梅にあてられたのは梅毒と同じ症状になる。<br><br>餅草と間違えて食う草に大毒がある。<br><br>紫牡蛎などもある。<br><br>（S23.12.11） 081 食い合せについて 昔言うほどの事はない。<br><br>殆どないといっていい。<br><br> 鰻と梅干など、何でもないという。<br><br>最初から毒は毒で、毒でないものはない、と決っているようである。<br><br>（S24. 2.12） 082 食い合せと体質 (一)、食物の食い合せにつきまして御教え下さいませ。<br><br>例えば鰻と梅干を食すると中毒するとの事で御座いますが、いかがなもので御座いますか。<br><br> (二)、日本脳炎に罹った人を浄霊する場合はいかにしたらよいでしょうか。<br><br>御教示御願いします。<br><br> (一)、中毒はしない。<br><br>生梅は鰻と一緒に食しなくとも中毒する。<br><br>恐ろしい。<br><br>その人の体質にもよる。<br><br>（S24. 6. 8） 083 食い合せ（紫茄子、餅草） 昔からよく食い合せをすると下痢をするとか、命にかかわると申しますが、どんな具合な御浄化でしょうか。<br><br> 食い合せなどはない。<br><br>たまたま食べた時に腹が痛かったりなどした時、食物に原因を帰するのである。<br><br> ただ一色でも中毒する事はある。<br><br>紫茄子とか餅草など、間違えてよく似た毒草を食う事があり、そのために死ぬ事もある。<br><br> 生梅などは人により中毒する人としない人とある。<br><br>それは身体中がデキ物だらけとなり、梅毒のようになる。<br><br>それで梅毒の名称があると言われている。<br><br>（S24. 6.29） 084 自家中毒―魚類 魚類等により自家中毒を起し、蕁麻疹的症状になる人がありますが、なぜでしょうか。<br><br> 自家中毒は変だが、食物中毒である。<br><br>多く赤い魚（鰹等）で蕁麻疹的症状が起る。<br><br>大抵一日である。<br><br>一昼夜で終る。<br><br>浄霊で非常に速く治る。<br><br>蕁麻疹は殆どカルシュウム中毒である。<br><br>（S24. 1.18） 085 鯖の中毒 鯖のいきぐされなどと申しまして、鯖にあたる事が御座いますが、漁師の話では「えさ」が悪いとあたると申しますが、これは鯖の毒によるもので御座いましょうか。<br><br>それとも浄化を誘発されるもので御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 誘発ではない。<br><br>弱い人はあたるという事はある。<br><br>毒にあたるのである。<br><br>光った魚はあたるという。<br><br> その人の身体に、特殊の毒のある人はいろんなものがあたる。<br><br>始終浄霊していると治る。<br><br>（S25. 3.22） 086 メチルアルコール失明医療 メチールによる失明は回復致しますでしょうか。<br><br> きっと治る。<br><br>医者へ行かなければいい。<br><br>ただ医者へ行くので見えなくなるし、つぶれる。<br><br> 中毒というものはすべて時日が経てば消えるものである。<br><br> 087 メチールによる失明と治癒 五十四歳の男子（土木建築業）、丸三年前メチルアルコール（飲量二合位）のため両眼共失明致しました。<br><br>今迄にはあらゆる医療の効なく、約二ケ年前より放任致しておりましたが、本年七月初めより浄霊致しております。<br><br>その結果浄霊毎に涙が流れ、段々と涙の量が多くなり、痛みがとても強く、ネットリした涙が出て参ります。<br><br>二ケ月目の現在、煙草の火、暗中にするマッチの火等が、確かに細かく小さく見えるようになりました。<br><br>眼球の外面は実に美しく変りありません。<br><br>最近両眼共いつとなく丸型、角型等型を変えて、実に美しい型が目全般に無数に見えて参りました。<br><br>右はいかなる徴候でしょうか。<br><br>また、今後いかにしたら早く救われるでありましょうか。<br><br>御伺い申し上げます。<br><br> すっかり治る。<br><br>喜んでよい。<br><br>どんどん治っている。<br><br>毒素が溶けて目から出る。<br><br>メチールでなくて目薬で失明する。<br><br>眼薬を点すと毒が滲み込みドシドシ固まる。<br><br>ネットリした涙の出るのも治りつつある。<br><br>（S24. 8.18） 088 メチールによる眼痛 四年前メチールにて眼を痛めました。<br><br>浄霊の結果やや物が見えるようになりましたが、浄霊の箇所をお教え下さい。<br><br> 目の奥と頭の方をやればよい。<br><br>延髄もやる。<br><br>メチールは必ず治る。<br><br>（S24） 089 メチール禍の失明 私は昭和二十一年、メチール禍にて失明致し、医療を受けましたが効無く、二十三年四月よりは信仰に頼って参りました。<br><br>昨年十月、本教会のお話を伺い、早速家内と共に入信教修を受け、ただ一筋にお縋り致し、本日御参拝させていただき、御礼申し上げます。<br><br>爾来浄霊を続け、現在では少し瞳孔が動くそうです。<br><br>いつも目の上の方に青白い光が輝いており、側面には時々赤き提灯のごときものが現れます。<br><br>なお自分の影が映り、自分の動作と共に動く事もあります。<br><br>右はいかなるものでしょうか。<br><br>御教え御願い申し上げます。<br><br> メチール禍の目は割合い簡単に治る。<br><br>薬をつけたために遅いのである。<br><br>よくなるまでには変化があるが、変化があった方がよい。<br><br>（S24. 1.25） 090 メチールで失明 四十四歳になります男子、去る昭和二十一年一月三日、メチールを飲酒致し、同月六日両眼共失明致しました。<br><br>その後あらゆる手当を致しましたが効果なく、加えて脊髄より漿液を五、六回取りました。<br><br>ただ今、浄霊を頂きましてより一ケ月になります。<br><br>結果は特に眼の浄霊中さされるような痛みを感じ涙、目脂等出るようになり、最近は一尺位の所で手など動くのが分るようにさせて頂きました。<br><br>なお、下痢もさせて頂いております。<br><br>何卒宜しく御守護御願い申し上げます。<br><br> 中毒症状は年月が経てば必ず治る。<br><br>原子爆弾症状のごときもそうである。<br><br>（S25. 3.28） 091 メチール中毒 メチールで眼の見えなくなった人は見えるようになるでしょうか。<br><br> 一時的のものであるから治る。<br><br>但し医者で固めたものは駄目である。<br><br>すべて中毒は消えてしまうものである。<br><br>浄霊すれば早く消える。<br><br>（S24.11.26） 092 メチール中毒不治の原因 メチールにて三年前より眼がつぶれましたが、この御浄霊にて治りますか。<br><br> 浄霊で治る。<br><br>中毒性のものは必ず治る。<br><br>医者にかかったために治らぬのである。<br><br>毒を固めたのである。<br><br>薬っ気がなくなるに従って治る。<br><br> 093 モルヒネ中毒 今年三十一歳の主人公ですが、十四年間もモルヒネ注射をしたそうであります。<br><br>先月御光を戴きまして、浄霊時はとてもよい気持だと申しておりますが、中毒症状の故か直ぐ医者に走って仕舞います。<br><br>いかなる理由でありましょうか。<br><br>御伺い申し上げます。<br><br> 癖が強く着いている。<br><br>それで我慢出来ず医者へ行く。<br><br>十年以上のは――。<br><br> 094 阿片中毒 四十五歳の男（支那人）、三年前に阿片を暫く喫み、一時やめましたが、最近また喫み始め、中毒状態にあります。<br><br>今度喫むのを止め、御浄霊にてお救い頂きたいと申し、三回程致しました。<br><br>発作は軽くなって参りました。<br><br>御浄霊の急所はどこにございましょうか。<br><br> 頭全体をやればよい。<br><br> 神様の本を読ませる。<br><br> 薬を服んでいい気持になるのは副守護神である。<br><br>（S25. 5.13） 095 食中毒と浄化による下痢の特異点 食中毒による下痢と腹膜その他の浄化による下痢との鑑別につき御垂示御願い申し上げます。<br><br> 中毒によるものは一時的で、食物の下痢が終れば治る。<br><br> 浄化による下痢の方は度々あって、長い。<br><br>（S24. 9. 9）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compêndio de artigos do reverendo Jikan Okada – Pesquisa de Ensinamentos: ajuda / Pesquisa de materiais: Tratado sobre a Arte de Curar (7)</h2>
 <h3>6. Intoxicações (080-095)</h3>
@@ -145,5 +297,48 @@ function toggleLang(lang) {
 <p><strong>095. Diferença entre a diarreia por intoxicação alimentar e a por purificação</strong></p>
 <p><strong>Pergunta:</strong> Gostaríamos de receber seus ensinamentos sobre como diferenciar a diarreia causada por intoxicação alimentar daquela que ocorre por purificação do peritônio ou de outras áreas.</p>
 <p><strong>Meishu-Sama:</strong> A diarreia causada por intoxicação alimentar é temporária e cessa assim que o alimento tóxico é expelido. Por outro lado, a diarreia decorrente da purificação é recorrente e prolongada. (9 de setembro de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （七） ６ 080-095 中毒 080 食い合せ（生梅中毒） 世間でよく食べ合せと言う事を申しますが、これはいかなる理由で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 世間で言う程はない。<br/><br/>いくらかあるが大した事はない。<br/><br/>例えば、生梅などは腫物になる。<br/><br/>梅菌という。<br/><br/>餅草の毒に当ると恐ろしい。<br/><br/>柿もそうである。<br/><br/> 鰻と梅干も大した事はない。<br/><br/> 食物の毒はある。<br/><br/> 普通の物を食べた、それによってどうという事はあまりない。<br/><br/>一色でも毒のあるのは恐い。<br/><br/>生梅はよくあたる。<br/><br/>梅にあてられたのは梅毒と同じ症状になる。<br/><br/>餅草と間違えて食う草に大毒がある。<br/><br/>紫牡蛎などもある。<br/><br/>（S23.12.11） 081 食い合せについて 昔言うほどの事はない。<br/><br/>殆どないといっていい。<br/><br/> 鰻と梅干など、何でもないという。<br/><br/>最初から毒は毒で、毒でないものはない、と決っているようである。<br/><br/>（S24. 2.12） 082 食い合せと体質 (一)、食物の食い合せにつきまして御教え下さいませ。<br/><br/>例えば鰻と梅干を食すると中毒するとの事で御座いますが、いかがなもので御座いますか。<br/><br/> (二)、日本脳炎に罹った人を浄霊する場合はいかにしたらよいでしょうか。<br/><br/>御教示御願いします。<br/><br/> (一)、中毒はしない。<br/><br/>生梅は鰻と一緒に食しなくとも中毒する。<br/><br/>恐ろしい。<br/><br/>その人の体質にもよる。<br/><br/>（S24. 6. 8） 083 食い合せ（紫茄子、餅草） 昔からよく食い合せをすると下痢をするとか、命にかかわると申しますが、どんな具合な御浄化でしょうか。<br/><br/> 食い合せなどはない。<br/><br/>たまたま食べた時に腹が痛かったりなどした時、食物に原因を帰するのである。<br/><br/> ただ一色でも中毒する事はある。<br/><br/>紫茄子とか餅草など、間違えてよく似た毒草を食う事があり、そのために死ぬ事もある。<br/><br/> 生梅などは人により中毒する人としない人とある。<br/><br/>それは身体中がデキ物だらけとなり、梅毒のようになる。<br/><br/>それで梅毒の名称があると言われている。<br/><br/>（S24. 6.29） 084 自家中毒―魚類 魚類等により自家中毒を起し、蕁麻疹的症状になる人がありますが、なぜでしょうか。<br/><br/> 自家中毒は変だが、食物中毒である。<br/><br/>多く赤い魚（鰹等）で蕁麻疹的症状が起る。<br/><br/>大抵一日である。<br/><br/>一昼夜で終る。<br/><br/>浄霊で非常に速く治る。<br/><br/>蕁麻疹は殆どカルシュウム中毒である。<br/><br/>（S24. 1.18） 085 鯖の中毒 鯖のいきぐされなどと申しまして、鯖にあたる事が御座いますが、漁師の話では「えさ」が悪いとあたると申しますが、これは鯖の毒によるもので御座いましょうか。<br/><br/>それとも浄化を誘発されるもので御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 誘発ではない。<br/><br/>弱い人はあたるという事はある。<br/><br/>毒にあたるのである。<br/><br/>光った魚はあたるという。<br/><br/> その人の身体に、特殊の毒のある人はいろんなものがあたる。<br/><br/>始終浄霊していると治る。<br/><br/>（S25. 3.22） 086 メチルアルコール失明医療 メチールによる失明は回復致しますでしょうか。<br/><br/> きっと治る。<br/><br/>医者へ行かなければいい。<br/><br/>ただ医者へ行くので見えなくなるし、つぶれる。<br/><br/> 中毒というものはすべて時日が経てば消えるものである。<br/><br/> 087 メチールによる失明と治癒 五十四歳の男子（土木建築業）、丸三年前メチルアルコール（飲量二合位）のため両眼共失明致しました。<br/><br/>今迄にはあらゆる医療の効なく、約二ケ年前より放任致しておりましたが、本年七月初めより浄霊致しております。<br/><br/>その結果浄霊毎に涙が流れ、段々と涙の量が多くなり、痛みがとても強く、ネットリした涙が出て参ります。<br/><br/>二ケ月目の現在、煙草の火、暗中にするマッチの火等が、確かに細かく小さく見えるようになりました。<br/><br/>眼球の外面は実に美しく変りありません。<br/><br/>最近両眼共いつとなく丸型、角型等型を変えて、実に美しい型が目全般に無数に見えて参りました。<br/><br/>右はいかなる徴候でしょうか。<br/><br/>また、今後いかにしたら早く救われるでありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> すっかり治る。<br/><br/>喜んでよい。<br/><br/>どんどん治っている。<br/><br/>毒素が溶けて目から出る。<br/><br/>メチールでなくて目薬で失明する。<br/><br/>眼薬を点すと毒が滲み込みドシドシ固まる。<br/><br/>ネットリした涙の出るのも治りつつある。<br/><br/>（S24. 8.18） 088 メチールによる眼痛 四年前メチールにて眼を痛めました。<br/><br/>浄霊の結果やや物が見えるようになりましたが、浄霊の箇所をお教え下さい。<br/><br/> 目の奥と頭の方をやればよい。<br/><br/>延髄もやる。<br/><br/>メチールは必ず治る。<br/><br/>（S24） 089 メチール禍の失明 私は昭和二十一年、メチール禍にて失明致し、医療を受けましたが効無く、二十三年四月よりは信仰に頼って参りました。<br/><br/>昨年十月、本教会のお話を伺い、早速家内と共に入信教修を受け、ただ一筋にお縋り致し、本日御参拝させていただき、御礼申し上げます。<br/><br/>爾来浄霊を続け、現在では少し瞳孔が動くそうです。<br/><br/>いつも目の上の方に青白い光が輝いており、側面には時々赤き提灯のごときものが現れます。<br/><br/>なお自分の影が映り、自分の動作と共に動く事もあります。<br/><br/>右はいかなるものでしょうか。<br/><br/>御教え御願い申し上げます。<br/><br/> メチール禍の目は割合い簡単に治る。<br/><br/>薬をつけたために遅いのである。<br/><br/>よくなるまでには変化があるが、変化があった方がよい。<br/><br/>（S24. 1.25） 090 メチールで失明 四十四歳になります男子、去る昭和二十一年一月三日、メチールを飲酒致し、同月六日両眼共失明致しました。<br/><br/>その後あらゆる手当を致しましたが効果なく、加えて脊髄より漿液を五、六回取りました。<br/><br/>ただ今、浄霊を頂きましてより一ケ月になります。<br/><br/>結果は特に眼の浄霊中さされるような痛みを感じ涙、目脂等出るようになり、最近は一尺位の所で手など動くのが分るようにさせて頂きました。<br/><br/>なお、下痢もさせて頂いております。<br/><br/>何卒宜しく御守護御願い申し上げます。<br/><br/> 中毒症状は年月が経てば必ず治る。<br/><br/>原子爆弾症状のごときもそうである。<br/><br/>（S25. 3.28） 091 メチール中毒 メチールで眼の見えなくなった人は見えるようになるでしょうか。<br/><br/> 一時的のものであるから治る。<br/><br/>但し医者で固めたものは駄目である。<br/><br/>すべて中毒は消えてしまうものである。<br/><br/>浄霊すれば早く消える。<br/><br/>（S24.11.26） 092 メチール中毒不治の原因 メチールにて三年前より眼がつぶれましたが、この御浄霊にて治りますか。<br/><br/> 浄霊で治る。<br/><br/>中毒性のものは必ず治る。<br/><br/>医者にかかったために治らぬのである。<br/><br/>毒を固めたのである。<br/><br/>薬っ気がなくなるに従って治る。<br/><br/> 093 モルヒネ中毒 今年三十一歳の主人公ですが、十四年間もモルヒネ注射をしたそうであります。<br/><br/>先月御光を戴きまして、浄霊時はとてもよい気持だと申しておりますが、中毒症状の故か直ぐ医者に走って仕舞います。<br/><br/>いかなる理由でありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 癖が強く着いている。<br/><br/>それで我慢出来ず医者へ行く。<br/><br/>十年以上のは――。<br/><br/> 094 阿片中毒 四十五歳の男（支那人）、三年前に阿片を暫く喫み、一時やめましたが、最近また喫み始め、中毒状態にあります。<br/><br/>今度喫むのを止め、御浄霊にてお救い頂きたいと申し、三回程致しました。<br/><br/>発作は軽くなって参りました。<br/><br/>御浄霊の急所はどこにございましょうか。<br/><br/> 頭全体をやればよい。<br/><br/> 神様の本を読ませる。<br/><br/> 薬を服んでいい気持になるのは副守護神である。<br/><br/>（S25. 5.13） 095 食中毒と浄化による下痢の特異点 食中毒による下痢と腹膜その他の浄化による下痢との鑑別につき御垂示御願い申し上げます。<br/><br/> 中毒によるものは一時的で、食物の下痢が終れば治る。<br/><br/> 浄化による下痢の方は度々あって、長い。<br/><br/>（S24. 9. 9）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

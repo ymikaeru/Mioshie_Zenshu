@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kouyaku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 膏薬張の救い 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 病気になっても、医者にかかれない人や貧乏で食えない人、可愛相な老人、孤児等を救う機関は、益々（ますます）、社会的に完備してゆく、救世軍は、慈善鍋で貧民を喜ばせる、それらの事は、確に良い事だ、無いよりも在った方が、どれ程いいか判らない。<br><br> しかし、それら不幸な人達が、後から後から手の廻らない程出来るという、その根元の浄化の方がヨリ重大な事ではなかろうか。<br><br> そこに宗教の使命がある。<br><br>警官の数は、人口の増加率よりも増えるそうだ。<br><br>裁判官はとても手が足りないので、出来るだけ早期判決を下す方針にしたという事だ。<br><br>監獄も、気狂病院も、どんどん建て増してゆく。<br><br>これらも社会情勢に対する、止むを得ない施設ではあるが、名誉ではない。<br><br> こういう社会の事象を観る時、宗教家として、安閑としては居られないはずだ、それら社会悪の真因は、どこに在るのか一切の事は原因が在って、結果が在るのだ、しかし原因よりも、その結果を救う事が、社会事業や、警察や裁判所の専門的仕事である。<br><br>あらゆる罪悪と不幸の原因は何か。<br><br>それは人間の魂である。<br><br>その魂を浄化してこそ、社会は良くなるのである。<br><br>宗教としての使命も、そこにある。<br><br>これこそ他の何物も企及（ききゅう）し難い権威であり、それが宗教の貴い存在意義である。<br><br>これを他所（よそ）にして、宗教の意義は無いのだ。<br><br> とはいうが、今日の宗教家も、相当活動はしている。<br><br>説教所、教会、寺院、布教師、教誨師、説教師など、幾十万か、数え切れない程ある。<br><br>それだのに、社会悪が、いよいよ益々（ますます）増えるという事は不思議な話だ、教化する者の、努力が足りないのか、怠けているのか、否、なかなかそうではない。<br><br>彼らは、教壇に、路傍に、個人に、声を嗄（か）らして努力している。<br><br>それだのに、期待する結果が得られないという事は、そこに、何かなくてはならない。<br><br> それらの難問を、悉（ことごと）く解いてしまう、力の宗教が、我観音会で観音運動である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Causa Primordial dos Males Sociais</h2>
 <p>As instituições de amparo àqueles que, enfermos, não podem consultar um médico, ou que, em virtude da pobreza, não têm o que comer, bem como aos idosos e órfãos em situação de desamparo, encontram-se socialmente cada vez mais consolidadas. O Exército de Salvação, por exemplo, alegra os pobres com suas refeições beneficentes. Tais iniciativas são, inegavelmente, louváveis; sua existência é infinitamente preferível à sua ausência.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>A missão da religião fundamenta-se exatamente nisso. Trata-se de uma autoridade que nenhum outro campo do saber pode sequer aspirar alcançar, e é aí que se encontra sua nobre e sublime razão de existir. Ignorar esse propósito é privar a religião de seu próprio significado.</p>
 <p>Embora assim o seja, os religiosos da atualidade demonstram considerável atividade. Existem inúmeros, senão centenas de milhares de centros de pregação, igrejas, templos, missionários, capelães e pregadores. Causa estranheza, portanto, que os males sociais se agravem cada vez mais. Seria por falta de esforço ou por negligência da parte daqueles que se dedicam a instruir? De modo algum. Eles se empenham arduamente nos púlpitos, nas ruas e no trato individual, bradando suas palavras até a exaustão. Se, apesar de tamanha dedicação, os resultados esperados não se concretizam, é porque algo essencial lhes falta.</p>
 <p>A religião de poder, capaz de solucionar integralmente todas essas complexas questões, é o Movimento de Kannon (観音) de nossa Kannon-kai (観音会).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 膏薬張の救い 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 病気になっても、医者にかかれない人や貧乏で食えない人、可愛相な老人、孤児等を救う機関は、益々（ますます）、社会的に完備してゆく、救世軍は、慈善鍋で貧民を喜ばせる、それらの事は、確に良い事だ、無いよりも在った方が、どれ程いいか判らない。<br/><br/> しかし、それら不幸な人達が、後から後から手の廻らない程出来るという、その根元の浄化の方がヨリ重大な事ではなかろうか。<br/><br/> そこに宗教の使命がある。<br/><br/>警官の数は、人口の増加率よりも増えるそうだ。<br/><br/>裁判官はとても手が足りないので、出来るだけ早期判決を下す方針にしたという事だ。<br/><br/>監獄も、気狂病院も、どんどん建て増してゆく。<br/><br/>これらも社会情勢に対する、止むを得ない施設ではあるが、名誉ではない。<br/><br/> こういう社会の事象を観る時、宗教家として、安閑としては居られないはずだ、それら社会悪の真因は、どこに在るのか一切の事は原因が在って、結果が在るのだ、しかし原因よりも、その結果を救う事が、社会事業や、警察や裁判所の専門的仕事である。<br/><br/>あらゆる罪悪と不幸の原因は何か。<br/><br/>それは人間の魂である。<br/><br/>その魂を浄化してこそ、社会は良くなるのである。<br/><br/>宗教としての使命も、そこにある。<br/><br/>これこそ他の何物も企及（ききゅう）し難い権威であり、それが宗教の貴い存在意義である。<br/><br/>これを他所（よそ）にして、宗教の意義は無いのだ。<br/><br/> とはいうが、今日の宗教家も、相当活動はしている。<br/><br/>説教所、教会、寺院、布教師、教誨師、説教師など、幾十万か、数え切れない程ある。<br/><br/>それだのに、社会悪が、いよいよ益々（ますます）増えるという事は不思議な話だ、教化する者の、努力が足りないのか、怠けているのか、否、なかなかそうではない。<br/><br/>彼らは、教壇に、路傍に、個人に、声を嗄（か）らして努力している。<br/><br/>それだのに、期待する結果が得られないという事は、そこに、何かなくてはならない。<br/><br/> それらの難問を、悉（ことごと）く解いてしまう、力の宗教が、我観音会で観音運動である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

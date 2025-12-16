@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ningenno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間の定命 百地超生 『栄光』129号、昭和26(1951)年11月7日発行 近時、医学の進歩を自ら称うる如く、寿命を延長せる事をしばしば発表されるが、そこに空虚な響を感ずるのは吾々のみであろうか、否、吾々としてはそれが医学の進歩によって得られた結果である限り、寧ろ竦然（しょうぜん）たる感に襲われるのである。<br><br> 何となれば、それは医学の原理である浄化停止の進歩によって捷（か）ち得た成功である以上、医学が浄化力に抗し得ぬ時至った場合の必滅を予約し、爆発的人口激減時代の溝を深める事を意味するからである、現に浄化力はいよいよ加速度的に新薬新療法を次々無効ならしめつつあるにみても、日に月に不可抗力的強化へ進行しつつある事が明知さるるのである。<br><br> 結局医学による寿命延長とは、より深い病原を抱かせ、一時生命力たる浄化を起し得ぬ程弱体化する方法の成功である、即ち強健な生を与うるのではなく、より弱衰せる生を延長するに過ぎぬ、更生的真健康の喜びのない、消沈灰色の生命を延長されて何の幸福があり、世に何をプラスし得るであろう。<br><br>かくの如き弱命の延長を今後益々謳歌さるるとすれば、虫の如き廃人的生命のみ殖えて国力は低下する外ないであろう、吾々はまず何よりも、最も医学の普及発達せる世界の文明国民の現実をありのまま直視すべきである。<br><br> 明主様はかつて寿の真理について左の如く御許示になった事がある。<br><br> 「人間本来の天寿は百二十歳である、人間は天地の縮図であり小宇宙であって、四季の気候は人生の経路によくあてはまっている、即ち、一年を十二カ月に分ければ、春夏秋冬は三月ずつである、それを人間に当はめてみると、一歳より三十歳までが春分、三十一歳より六十歳までが夏分、六十一歳より九十歳までが秋分、九十一歳より百二十歳までが冬分となるのである（すべて陰暦による） 右の四季の状態はまことに人生行路の起伏をよく現わしているのである、まず人間呱々の声を挙げて出生するや、芽出度いとして大いに祝う、この時はちょうど正月元旦新年の誕生を寿ぐのと同じである、そして漸くそれぞれの学校を卒え丁年ともなれば、男は世に出て花を咲かさんと、女も又春風に遇って花の蕾が綻びようとする様である、それが三十を越えて夏分に入るや、益々花の盛りとなるのである、花によっては早く咲く花と遅く咲く花とあるが、これも人間によくあてはまる、早く成功する男子もあり、おそく結婚する女子もあるようなものである、そうして四十を超え五十を超えて、男子はいよいよ信用を得、活動の旺盛期に入り、女は幾人かの子女を得て一家茂り栄ゆる状は、ちょうど四、五月頃から花は散っても、葉や枝がいよよ茂るのと同じである、そうして、六十を超えるに及んで実りの時期となる、若い頃から苦心惨澹した事業が漸く実を結ばんとし、女は又苦労して育てた子供等が漸く一人前となって、親のため役に立つ頃となるのである、それがちょうど植付の頃から種々の手をつくして稔らせた稲の収穫期のようなものである、その秋の収穫も過ぎていよいよ九十を越ゆれば冬季に入るので、それからは功成り名遂げて静かに余生を送る、それが人生の真の順序である。<br><br> 故に百二十歳まで生きるのが本当であって紀元四世紀頃まではそれに近かった、しかるに人間が罪穢を構成した事と、支那から漢方医学が渡来し、人間が薬剤を服用するようになってから追々寿齢が短縮したのである。<br><br> 以上はおよそ十五六年前、本教が未だ世界の名を冠せぎる大日本観音会当時の御垂示であるから、すべて日本人を標準としてお説き下されたものかと思うが、寿齢短縮の根因については人類共通のものであるべきは、事実を本として検討する時必ず明かになるであろう。<br><br> 次に、右の如き短命の根因も、天の時致って本教浄霊法が創始されたのであるから、これからは漸次人間の罪穢は払拭され、体内に残存せる薬毒が減少してゆくので復び寿齢は延びてゆくのである。<br><br> それについては、本教入信者といえども、祖先以来の不浄が体内に残っている関係上理想の百二十歳は難しいであろうが、九十歳以上は必ず生きられるのである…と付説せられたのである。<br><br> 右は寿命の通常の原則を御説きになったもので、古代はそれ以上の寿を得るものも少くなかったし、近世においても特殊の法によって可能である事もお説きになっていた、又根拠ある古文書には百歳を超えて妊娠した記録さえあってこの御教を証している。<br><br> 以上によっても今仮に人寿五十歳としてもそれは人類自らが神を離れて犯した誤りによって寿命の過半七十年の生命力を削ってしまった訳で、実に恐るべき反則である。<br><br> 従って、医学がもし人類に変化を与えるとすればそれは天寿を極度に短縮された年齢を人為的に上下さすにすぎない事を知るのである。<br><br> なお前記御教御発表の頃に比すれば、大御光の強さ格段の相違あり、天則又厳として表面に行わるるに至ったと共に、短縮法もはるかに深刻化している現在、寿命長短の神秘は微妙であるが、絶望の病も本教によって更生し御教を遵奉するものは必ず溌剌たる新生命と栄光が与えられるのは、厳然たる事実である、全く有史以来ない事である、今後世界に真理が具現され、再び百二十歳の定命を得る時人生はもっとゆったりと如何に楽しいものとなるであろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Longevidade Humana</h2>
 <p>Recentemente, a medicina, em um ato de autoproclamação de seu progresso, anuncia com frequência a extensão da longevidade humana. Contudo, indago-me se somos os únicos a perceber um eco de vacuidade em tais declarações. Na verdade, como seguidores desta Obra Divina, ao considerarmos que tais resultados derivam do avanço da medicina, somos tomados por uma sensação de profundo assombro.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>O que foi exposto é o princípio geral da longevidade. Na Antiguidade, não eram poucos os que ultrapassavam essa idade, e Meishu-Sama também ensinou que, mesmo nos tempos modernos, isso é possível por meio de métodos especiais. Ademais, documentos antigos e fidedignos registram até mesmo casos de mulheres que engravidaram com mais de cem anos, o que corrobora este Ensinamento.</p>
 <p>Com base no que foi apresentado, ainda que consideremos uma expectativa de vida de cinquenta anos, isso significa que a própria humanidade, ao se afastar de Deus, suprimiu mais da metade de sua força vital, ou seja, setenta anos. Trata-se de uma transgressão verdadeiramente aterradora. Consequentemente, a única alteração que a medicina pode proporcionar à humanidade é apenas uma oscilação artificial da idade dentro desse tempo de vida já drasticamente reduzido.</p>
 <p>Em comparação com a época em que o referido Ensinamento foi revelado, a intensidade da Grande Luz Divina é hoje incomparavelmente maior. A Lei Divina atua de forma mais manifesta e rigorosa, ao mesmo tempo que os métodos para abreviar a vida também se tornaram muito mais severos. O mistério da longevidade é, portanto, sutil. Contudo, é um fato irrefutável que, através de nossa Igreja, até mesmo doenças tidas como sem esperança alcançam a cura, e àqueles que seguem os Ensinamentos são invariavelmente concedidas uma nova e vibrante vida e a glória divina. É um acontecimento sem precedentes na história. No futuro, quando a Verdade se manifestar plenamente no mundo e a humanidade recuperar a longevidade de cento e vinte anos, quão mais serena e aprazível a vida se tornará</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間の定命 百地超生 『栄光』129号、昭和26(1951)年11月7日発行 近時、医学の進歩を自ら称うる如く、寿命を延長せる事をしばしば発表されるが、そこに空虚な響を感ずるのは吾々のみであろうか、否、吾々としてはそれが医学の進歩によって得られた結果である限り、寧ろ竦然（しょうぜん）たる感に襲われるのである。<br/><br/> 何となれば、それは医学の原理である浄化停止の進歩によって捷（か）ち得た成功である以上、医学が浄化力に抗し得ぬ時至った場合の必滅を予約し、爆発的人口激減時代の溝を深める事を意味するからである、現に浄化力はいよいよ加速度的に新薬新療法を次々無効ならしめつつあるにみても、日に月に不可抗力的強化へ進行しつつある事が明知さるるのである。<br/><br/> 結局医学による寿命延長とは、より深い病原を抱かせ、一時生命力たる浄化を起し得ぬ程弱体化する方法の成功である、即ち強健な生を与うるのではなく、より弱衰せる生を延長するに過ぎぬ、更生的真健康の喜びのない、消沈灰色の生命を延長されて何の幸福があり、世に何をプラスし得るであろう。<br/><br/>かくの如き弱命の延長を今後益々謳歌さるるとすれば、虫の如き廃人的生命のみ殖えて国力は低下する外ないであろう、吾々はまず何よりも、最も医学の普及発達せる世界の文明国民の現実をありのまま直視すべきである。<br/><br/> 明主様はかつて寿の真理について左の如く御許示になった事がある。<br/><br/> 「人間本来の天寿は百二十歳である、人間は天地の縮図であり小宇宙であって、四季の気候は人生の経路によくあてはまっている、即ち、一年を十二カ月に分ければ、春夏秋冬は三月ずつである、それを人間に当はめてみると、一歳より三十歳までが春分、三十一歳より六十歳までが夏分、六十一歳より九十歳までが秋分、九十一歳より百二十歳までが冬分となるのである（すべて陰暦による） 右の四季の状態はまことに人生行路の起伏をよく現わしているのである、まず人間呱々の声を挙げて出生するや、芽出度いとして大いに祝う、この時はちょうど正月元旦新年の誕生を寿ぐのと同じである、そして漸くそれぞれの学校を卒え丁年ともなれば、男は世に出て花を咲かさんと、女も又春風に遇って花の蕾が綻びようとする様である、それが三十を越えて夏分に入るや、益々花の盛りとなるのである、花によっては早く咲く花と遅く咲く花とあるが、これも人間によくあてはまる、早く成功する男子もあり、おそく結婚する女子もあるようなものである、そうして四十を超え五十を超えて、男子はいよいよ信用を得、活動の旺盛期に入り、女は幾人かの子女を得て一家茂り栄ゆる状は、ちょうど四、五月頃から花は散っても、葉や枝がいよよ茂るのと同じである、そうして、六十を超えるに及んで実りの時期となる、若い頃から苦心惨澹した事業が漸く実を結ばんとし、女は又苦労して育てた子供等が漸く一人前となって、親のため役に立つ頃となるのである、それがちょうど植付の頃から種々の手をつくして稔らせた稲の収穫期のようなものである、その秋の収穫も過ぎていよいよ九十を越ゆれば冬季に入るので、それからは功成り名遂げて静かに余生を送る、それが人生の真の順序である。<br/><br/> 故に百二十歳まで生きるのが本当であって紀元四世紀頃まではそれに近かった、しかるに人間が罪穢を構成した事と、支那から漢方医学が渡来し、人間が薬剤を服用するようになってから追々寿齢が短縮したのである。<br/><br/> 以上はおよそ十五六年前、本教が未だ世界の名を冠せぎる大日本観音会当時の御垂示であるから、すべて日本人を標準としてお説き下されたものかと思うが、寿齢短縮の根因については人類共通のものであるべきは、事実を本として検討する時必ず明かになるであろう。<br/><br/> 次に、右の如き短命の根因も、天の時致って本教浄霊法が創始されたのであるから、これからは漸次人間の罪穢は払拭され、体内に残存せる薬毒が減少してゆくので復び寿齢は延びてゆくのである。<br/><br/> それについては、本教入信者といえども、祖先以来の不浄が体内に残っている関係上理想の百二十歳は難しいであろうが、九十歳以上は必ず生きられるのである…と付説せられたのである。<br/><br/> 右は寿命の通常の原則を御説きになったもので、古代はそれ以上の寿を得るものも少くなかったし、近世においても特殊の法によって可能である事もお説きになっていた、又根拠ある古文書には百歳を超えて妊娠した記録さえあってこの御教を証している。<br/><br/> 以上によっても今仮に人寿五十歳としてもそれは人類自らが神を離れて犯した誤りによって寿命の過半七十年の生命力を削ってしまった訳で、実に恐るべき反則である。<br/><br/> 従って、医学がもし人類に変化を与えるとすればそれは天寿を極度に短縮された年齢を人為的に上下さすにすぎない事を知るのである。<br/><br/> なお前記御教御発表の頃に比すれば、大御光の強さ格段の相違あり、天則又厳として表面に行わるるに至ったと共に、短縮法もはるかに深刻化している現在、寿命長短の神秘は微妙であるが、絶望の病も本教によって更生し御教を遵奉するものは必ず溌剌たる新生命と栄光が与えられるのは、厳然たる事実である、全く有史以来ない事である、今後世界に真理が具現され、再び百二十歳の定命を得る時人生はもっとゆったりと如何に楽しいものとなるであろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

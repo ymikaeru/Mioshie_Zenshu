@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byonin</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病人氾濫の布哇 『栄光』211号、昭和28(1953)年6月3日発行 本教海外宣伝の第一歩として選んだのが、彼（か）の布哇（ハワイ）であって、約二カ月前から樋口、安食（あじき）の両布教師が、同地を根拠として活躍し始めたのはすでに知る通りであるが、最近の別項通信にあるごとく、予期以上の成果を挙げつつあるのは、まことに慶賀の至りである。<br><br>そうして文中にもあるごとく、ハワイ在住の人達の健康の余りに酷（ひど）い事実で、全く日本人以上とさえ思えるのである。<br><br>これこそ誤れる医学のためであることは言うまでもないが、私はかねてから同地の文化は大体米国式である以上、医学による被害者も定めし多いだろうと想像はしていたが、これ程とは思わなかったので、愕然（がくぜん）としたのである。<br><br>従ってもし本教の救いがなかったとしたら、どうなったか分らないと思う時、慄然（りつぜん）とせざるを得ないのである。<br><br>何よりも一度本教の出現によって偉大なる神の力を知るや、旱天（かんてん）の慈雨に遇（あ）ったごとく、大衆の救いを求める声は騒然として起り、燎原（りょうげん）の火のごとき勢をもって拡がりつつあるその状況は、まことに素晴しいものがある。<br><br>そのため日々活躍しつつある両君が、嬉しい悲鳴を挙げているというのであるからこの勢をもって進むとしたら、近き将来ハワイ全土は世界最初の地上天国となるかも知れないとさえ期待が湧くのである。<br><br> この事実によって推察出来る事は、米国の現状である。<br><br>無論罹病者の多い事はハワイと同様か、あるいはそれ以上かも知れないと思う。<br><br>そうして予定のごとく近々ロスアンゼルスを根拠として、同国への救いの手も延びる事になっているから、始まったらこれまた予想以上の成果を挙げるであろう。<br><br>これについて先頃発行した彼の“アメリカを救う”の著書であるが、この著を編集の時私は不思議に思う程気が急いて、約一カ月で出来上ったくらいで、今までこんなに早く出来た例はなかったのである。<br><br>今これを考えてみても、全く神様が非常にお急ぎになったとしか思えないので、これによってみても米国における健康的危機は、一日も猶予（ゆうよ）出来ないからであろう。<br><br>しかし人間的には何程急いでも同国の法規や宗教関係何やかや相当の難関もあるので、全アメリカ人の耳へ入るようになるまでには、相当の時日を要すると思われるが、これもまた止むを得ないのである。<br><br> 何しろ知っての通り、今日同国が医学の進歩を誇示し、唯物的方法、諸般の施設等々、至れり尽せりで、特に近来のごとく新薬の続出、手術の進歩等にみても、同国人の健康状態は非常な速度をもって悪化しつつあるのは想像に難からないのである。<br><br>一方霊界は日に日に明るくなりつつあり、浄化はいよいよ旺盛となる以上危機は刻々迫り、最後に到ってはどうにもならない事態となり、病に斃（たお）れる者数知れずという一大恐怖時代が出現するのはもちろんである。<br><br>しかし今日このような事をいっても、私の頭脳を疑いたくなるだろうが、私は確信をもって今から警告するのである。<br><br>ゆえに万一私のいう事が的中したとしたら、第三次戦争どころの騒ぎではない。<br><br>キリストのいった世の終りはいよいよ来たと思う事になろう。<br><br> ここで日本人にも警告したい事は、その時になってこの大惨事を対岸の火災視する事は出来ない。<br><br>というのはアメリカ程ではないにしても、日本も相当惨害は免（まぬが）れないからで、あらかじめ覚悟をしておく必要があろう。<br><br>しかし幸（さいわい）な事にはそれを予知している本教は、この大危難を救うべく幾十万もの救いの戦士を準備しているから、大いに意を強うして可なりである。<br><br>ゆえに米国とは比較にならない程多く助かるので、この点日本は大いに恵まれている訳である。<br><br>ところが今まで右のような大異変の来る事と、その救いの大使命を帯びている本教の実体を知らないがため、本教を世間並の新宗教と思い蔑視している人々や、その謬見（びゅうけん）に引っ掛かっている人こそ憐れなる小羊である。<br><br>しかもこういう人はインテリ側に多い現在、この人達こそまことに気の毒なものである。<br><br>従ってこの文を読んだ人は速（すみや）かに本教に来って、来るべき大危機を免るべく素直に信ずる事である。<br><br>しかしこんな事を今日いっても、信仰を弘めんがための嚇（おど）し文句くらいにしか採るまいが本教に限ってそんな必要はいささかもない。<br><br>なぜなれば本教の病気治しは医学とは比較にならない程素晴しいので、ドシドシ発展しつつある現状であるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Avassaladora Onda de Enfermidades no Havaí</h2>
 <p>Como marco inaugural de nossa propaganda no exterior, escolhemos o Havaí. Conforme já é de conhecimento, há cerca de dois meses os missionários Higuchi e Ajiki iniciaram ali suas atividades e, segundo informações recentes, vêm alcançando resultados que superam todas as expectativas, o que é motivo de imensa celebração. Consta em seus relatos um fato estarrecedor: a condição de saúde dos habitantes locais é tão precária que parece ser ainda pior que a dos próprios japoneses. Tal situação, não é preciso dizer, é o fruto inequívoco da medicina equivocada. Eu já imaginava que, sendo a cultura havaiana predominantemente norte-americana, o número de vítimas da medicina seria considerável; todavia, a realidade revelou-se tão grave que me deixou estarrecido. Sinto um calafrio ao ponderar sobre o que teria sido daquele povo se a salvação de nossa Igreja não houvesse chegado.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Como todos sabem, os Estados Unidos ostentam o progresso de sua medicina, seus métodos materialistas e suas múltiplas instituições com um aparato de extremo zelo e perfeição. No entanto, especialmente diante da recente proliferação de novos medicamentos e do avanço das técnicas cirúrgicas, não é difícil imaginar que o estado de saúde de seu povo se deteriora em velocidade alarmante. Paralelamente, o Mundo Espiritual se ilumina dia após dia e a purificação se intensifica, fazendo com que a crise se aproxime a cada instante. Ao final, chegará um momento em que nada mais poderá ser feito, e advirá uma era de imenso terror, na qual um número incontável de pessoas sucumbirá às doenças. Naturalmente, ao fazer tais afirmações hoje, muitos poderão duvidar de minha sanidade, mas lanço este alerta com a mais profunda convicção. Se minhas palavras se confirmarem, será uma comoção muito superior à de uma Terceira Guerra Mundial. As pessoas pensarão que o fim dos tempos anunciado por Cristo finalmente chegou.</p>
 <p>Gostaria de estender um alerta também ao povo japonês: quando esse dia chegar, não poderão observar essa grande calamidade como um incêndio em terra alheia. Embora a situação não seja tão grave quanto a dos Estados Unidos, o Japão não escapará de danos consideráveis, sendo necessário que todos se preparem de antemão. Felizmente, nossa Igreja, que já prevê essa grande provação, está preparando dezenas de milhares de guerreiros da salvação, o que deve fortalecer imensamente o espírito de todos. Por essa razão, no Japão, um número incomparavelmente maior de pessoas será salvo; sob esse aspecto, nossa nação é grandemente abençoada.</p>
 <p>Contudo, aqueles que desconhecem a iminência dessa grande transformação e a verdadeira natureza de nossa Igreja, com sua sublime missão salvadora, insistem em nos desprezar, tratando-nos como uma religião nova como tantas outras. As pessoas que se deixam aprisionar por essa visão equivocada são cordeiros dignos de compaixão. O mais lamentável é que tal atitude é frequente justamente entre os intelectuais. Portanto, àqueles que leem estas palavras, recomendo que venham prontamente à nossa Igreja e creiam com um coração sincero, a fim de se livrarem da grande crise que se avizinha. Sei que, nos dias de hoje, muitos poderão interpretar este apelo como mero artifício intimidatório para propagar a fé. Nossa Igreja, todavia, não tem a menor necessidade de recorrer a tais expedientes. E a razão é simples: a eficácia de nossa Igreja na cura de doenças é tão extraordinária, incomparavelmente superior à da medicina, que já nos encontramos em um processo de franca e constante expansão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病人氾濫の布哇 『栄光』211号、昭和28(1953)年6月3日発行 本教海外宣伝の第一歩として選んだのが、彼（か）の布哇（ハワイ）であって、約二カ月前から樋口、安食（あじき）の両布教師が、同地を根拠として活躍し始めたのはすでに知る通りであるが、最近の別項通信にあるごとく、予期以上の成果を挙げつつあるのは、まことに慶賀の至りである。<br/><br/>そうして文中にもあるごとく、ハワイ在住の人達の健康の余りに酷（ひど）い事実で、全く日本人以上とさえ思えるのである。<br/><br/>これこそ誤れる医学のためであることは言うまでもないが、私はかねてから同地の文化は大体米国式である以上、医学による被害者も定めし多いだろうと想像はしていたが、これ程とは思わなかったので、愕然（がくぜん）としたのである。<br/><br/>従ってもし本教の救いがなかったとしたら、どうなったか分らないと思う時、慄然（りつぜん）とせざるを得ないのである。<br/><br/>何よりも一度本教の出現によって偉大なる神の力を知るや、旱天（かんてん）の慈雨に遇（あ）ったごとく、大衆の救いを求める声は騒然として起り、燎原（りょうげん）の火のごとき勢をもって拡がりつつあるその状況は、まことに素晴しいものがある。<br/><br/>そのため日々活躍しつつある両君が、嬉しい悲鳴を挙げているというのであるからこの勢をもって進むとしたら、近き将来ハワイ全土は世界最初の地上天国となるかも知れないとさえ期待が湧くのである。<br/><br/> この事実によって推察出来る事は、米国の現状である。<br/><br/>無論罹病者の多い事はハワイと同様か、あるいはそれ以上かも知れないと思う。<br/><br/>そうして予定のごとく近々ロスアンゼルスを根拠として、同国への救いの手も延びる事になっているから、始まったらこれまた予想以上の成果を挙げるであろう。<br/><br/>これについて先頃発行した彼の“アメリカを救う”の著書であるが、この著を編集の時私は不思議に思う程気が急いて、約一カ月で出来上ったくらいで、今までこんなに早く出来た例はなかったのである。<br/><br/>今これを考えてみても、全く神様が非常にお急ぎになったとしか思えないので、これによってみても米国における健康的危機は、一日も猶予（ゆうよ）出来ないからであろう。<br/><br/>しかし人間的には何程急いでも同国の法規や宗教関係何やかや相当の難関もあるので、全アメリカ人の耳へ入るようになるまでには、相当の時日を要すると思われるが、これもまた止むを得ないのである。<br/><br/> 何しろ知っての通り、今日同国が医学の進歩を誇示し、唯物的方法、諸般の施設等々、至れり尽せりで、特に近来のごとく新薬の続出、手術の進歩等にみても、同国人の健康状態は非常な速度をもって悪化しつつあるのは想像に難からないのである。<br/><br/>一方霊界は日に日に明るくなりつつあり、浄化はいよいよ旺盛となる以上危機は刻々迫り、最後に到ってはどうにもならない事態となり、病に斃（たお）れる者数知れずという一大恐怖時代が出現するのはもちろんである。<br/><br/>しかし今日このような事をいっても、私の頭脳を疑いたくなるだろうが、私は確信をもって今から警告するのである。<br/><br/>ゆえに万一私のいう事が的中したとしたら、第三次戦争どころの騒ぎではない。<br/><br/>キリストのいった世の終りはいよいよ来たと思う事になろう。<br/><br/> ここで日本人にも警告したい事は、その時になってこの大惨事を対岸の火災視する事は出来ない。<br/><br/>というのはアメリカ程ではないにしても、日本も相当惨害は免（まぬが）れないからで、あらかじめ覚悟をしておく必要があろう。<br/><br/>しかし幸（さいわい）な事にはそれを予知している本教は、この大危難を救うべく幾十万もの救いの戦士を準備しているから、大いに意を強うして可なりである。<br/><br/>ゆえに米国とは比較にならない程多く助かるので、この点日本は大いに恵まれている訳である。<br/><br/>ところが今まで右のような大異変の来る事と、その救いの大使命を帯びている本教の実体を知らないがため、本教を世間並の新宗教と思い蔑視している人々や、その謬見（びゅうけん）に引っ掛かっている人こそ憐れなる小羊である。<br/><br/>しかもこういう人はインテリ側に多い現在、この人達こそまことに気の毒なものである。<br/><br/>従ってこの文を読んだ人は速（すみや）かに本教に来って、来るべき大危機を免るべく素直に信ずる事である。<br/><br/>しかしこんな事を今日いっても、信仰を弘めんがための嚇（おど）し文句くらいにしか採るまいが本教に限ってそんな必要はいささかもない。<br/><br/>なぜなれば本教の病気治しは医学とは比較にならない程素晴しいので、ドシドシ発展しつつある現状であるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

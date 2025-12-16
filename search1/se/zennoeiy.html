@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zennoeiy</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善の英雄と悪の英雄 『地上天国』37号、昭和27(1952)年6月25日発行 昔から各時代、各民族には幾多の英雄、豪傑、聖者、偉人等が出たが、これら頭角を現した人々の事蹟を冷静に検討してみると、大体において二つの型がある。<br><br>まず一の方は人の目をそば立て、歴史に遺るような大きな事蹟を残した英雄、豪傑型で、そのほとんどは目的のために手段を選ばず式のやり方であった。<br><br>そうしてその欲望が大きければ大きい程、例外なく戦争という暴虐手段にうったえている。<br><br>これを忌憚なくいえば大仕掛な殺人強盗であり、厳正にいえば悪の大物である。<br><br> ところでそれとは反対に、悪の手段を嫌って飽くまで愛と慈悲によって、人類の不幸を救おうとして、たとえ生命を犠牲にしてまでも悔いないという尊むべき人がある。<br><br>すなわちこれこそ善の英雄であって、今日といえども史上燦と輝いており、幾世紀を経てもなお多くの善男善女から、随喜渇仰（かつごう）の的とされており、その教えに帰依する者の多いのは衆知の通りである。<br><br>ゆえに前者を悪の英雄とすれば、後者は善の英雄といってもいい、しかしながら右のいずれも人類に遺した功績に至っては一様に決め難い点もあるが、それは神の経綸の深くして人智をもってしては、到底測り難いからである。<br><br> ところで今私が造営している熱海、箱根の聖地にしろ、見た人の多くは主に未信者であるが「先生は秀吉と同じようですね」というから、私はこういうのである。<br><br>なるほど大胆な企画で庭園や建築などを造っている有様を見たら、そう思うかも知れないが、その根本は丸きり違っている。<br><br>というのは秀吉はなるほど造園、建築等大規模な経営を行い、桃山時代を彩（いろど）った芸術文化、特に茶の湯などの日本趣味文化を利休に命じ完成させた等、賞讃すべき幾多の功績を遺したが、それを成し遂げ得た力というものは、ヤハリ戦争によって獲得したものであるから、赤裸々に言えば大々的殺人強盗であった事は否み得ないであろう。<br><br>もちろん不世出の英雄的天才で、特に智能に優れ、経綸の大手腕は他に追随する者はないが、帰するところヤハリ悪の英雄であった。<br><br>彼の石川五右衛門が捕えられた時、俺などは小さな泥棒で、太閤殿下とは比べものにはならない。<br><br>殿下は天下を盗った大泥棒ではないかと、啖呵（たんか）を切ったという話があるが、これなども一理あると思うのである。<br><br>次に出たのが彼の家康であるが、この人も厳密に言えば秀吉の天下を奪ったのだから、言わば物したものを物した訳であって、ヤハリ悪の英雄といってよかろう。<br><br>ところが善の英雄に至ってはいささかも非難する点はないが、そうかといって全面的に賞讃する訳にはゆかない。<br><br>というのは善の英雄は確かに人類を救い、偉大な功績はあったが、そのほとんどは精神的活動の一面でしかなかった。<br><br>物質面の方はまことに閑却されていたのであるが、その中でともかく彼の釈尊が在世中祇園精舎を作った事と、法蔵菩薩が極楽浄土を造った事と、聖徳太子が仏教美術を生んだくらいで、その他には見るべきものがなかったようである。<br><br>なるほど時代の未開であったためもあろうが、世界を動かす程の物心両面の力を発揮した偉人は、一人もなかった事は確かである。<br><br>こう考えてくると、偉い人というのは今までのところ、物質的英雄と精神的英雄との二者に分れていたのである。<br><br> ところが私に至っては、右のどちらにも偏らないで、両方兼ねている人間といってもよかろう。<br><br>つまり精神的には善の英雄型で、物質的には悪の英雄型であるが、しかし後者は物の面だけの悪であって、内容は全然別である。<br><br>そうして今のところ私が造っているものを、秀吉に準（なぞ）らえるのはいいが、いずれはこんな小さなものではなく、世界的に秀吉型を拡充するのは間違いないのである。<br><br>それは神は何万年以前からすでに充分準備されていたからであって、それが今や着々実現しつつあるのである。<br><br>従って自分でいうのもおかしいが、私という者は世界肇（はじま）って以来ない大英雄型と思って貰えばいいのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre os Heróis do Bem e os Heróis do Mal</h2>
 <p>Ao longo da história, em todas as épocas e entre todos os povos, surgiram inúmeros heróis, personalidades ilustres, santos e grandes vultos. Contudo, ao analisarmos serenamente suas realizações, percebemos que eles se enquadram, em linhas gerais, em duas categorias distintas. A primeira compreende o tipo de herói ou personalidade notável cujos feitos grandiosos, perpetuados na história, despertaram a admiração geral. Quase invariavelmente, sua conduta pautava-se pelo princípio de que os fins justificam os meios. Nesse sentido, quanto maior a ambição que os movia, mais invariavelmente recorriam ao meio tirânico da guerra. Se quisermos ser francos, suas ações não passavam de assassinato e latrocínio em grande escala; em uma análise rigorosa, eram os grandes expoentes do mal.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Vejamos agora o meu caso. Seja em Atami ou em Hakone, muitos dos que visitam os protótipos do Paraíso Terrestre que estou a construir — em sua maioria, não membros — comentam: "O senhor se parece com Hideyoshi". A essa observação, costumo responder da seguinte forma: De fato, ao observarem a audácia dos projetos paisagísticos e arquitetônicos, é natural que pensem assim. Contudo, o fundamento de minha obra é radicalmente distinto. Hideyoshi, é verdade, deixou um legado de inúmeras realizações admiráveis. Empreendeu projetos de jardinagem e arquitetura em grande escala e, ao incumbir Rikyu de aperfeiçoar a cerimônia do chá e outras expressões da cultura japonesa, deu cor e forma à arte e à cultura da era Momoyama. Contudo, a força que lhe permitiu realizar tais feitos foi obtida por meio da guerra, o que o torna, em uma análise nua e crua, um assassino e ladrão em grande escala — fato que não se pode negar. Embora fosse um gênio de talento incomparável, dotado de notável inteligência e de uma capacidade de planejamento estratégico sem paralelos, em última análise, não passou de um herói do mal. Há uma anedota segundo a qual o famoso ladrão Ishikawa Goemon, ao ser capturado, teria bradado: "Eu sou apenas um pequeno ladrão, nada que se compare a Sua Excelência, o Taiko. Não seria ele o grande ladrão que roubou o país inteiro?". Penso que há um fundo de verdade nessa história. Seu sucessor, Ieyasu, também pode ser classificado como um herói do mal, pois, a rigor, usurpou o poder de Hideyoshi, apropriando-se do que já havia sido conquistado.</p>
 <p>Passando aos heróis do bem, embora não haja nada a lhes recriminar, tampouco podemos elogiá-los sem reservas. Isso porque, apesar de seus feitos grandiosos em prol da salvação da humanidade, sua atuação se restringiu quase que inteiramente à esfera espiritual. A dimensão material da vida foi, de fato, negligenciada. Dentre eles, podemos citar as poucas exceções, como a construção do monastério Gion Shoja por Shakyamuni durante sua vida; a criação da Terra Pura pelo Bodhisattva Hozo; e o florescimento da arte budista promovido pelo Príncipe Shotoku. Fora esses exemplos, parece não haver outros dignos de nota. É provável que a falta de desenvolvimento da época tenha sido um fator, mas é inegável que, até hoje, não surgiu um único grande homem que tenha demonstrado poder para mover o mundo tanto no plano material quanto no espiritual. Dessa forma, constatamos que, até o presente momento, as grandes personalidades da história se dividiram em duas categorias: os heróis do espírito e os heróis da matéria.</p>
 <p>No que me diz respeito, creio poder afirmar que sou alguém que não pende para nenhum dos lados, mas que concilia ambos. Em outras palavras, sou do tipo "herói do bem" no aspecto espiritual e do tipo "herói do mal" no aspecto material. Contudo, este último se manifesta apenas na aparência, na grandiosidade das obras, pois sua essência é completamente distinta. Assim, por enquanto, é compreensível que comparem o que estou construindo com as obras de Hideyoshi; no entanto, posso assegurar que minha atuação não se limitará a essa pequena escala. É certo que expandirei o modelo de Hideyoshi em âmbito mundial. Isso se concretizará porque Deus já vem preparando tudo minuciosamente há dezenas de milhares de anos, e agora esse plano está sendo realizado passo a passo. Portanto, embora possa soar pretensioso de minha parte, gostaria que me vissem como um grande herói de um tipo jamais visto desde o início do mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善の英雄と悪の英雄 『地上天国』37号、昭和27(1952)年6月25日発行 昔から各時代、各民族には幾多の英雄、豪傑、聖者、偉人等が出たが、これら頭角を現した人々の事蹟を冷静に検討してみると、大体において二つの型がある。<br/><br/>まず一の方は人の目をそば立て、歴史に遺るような大きな事蹟を残した英雄、豪傑型で、そのほとんどは目的のために手段を選ばず式のやり方であった。<br/><br/>そうしてその欲望が大きければ大きい程、例外なく戦争という暴虐手段にうったえている。<br/><br/>これを忌憚なくいえば大仕掛な殺人強盗であり、厳正にいえば悪の大物である。<br/><br/> ところでそれとは反対に、悪の手段を嫌って飽くまで愛と慈悲によって、人類の不幸を救おうとして、たとえ生命を犠牲にしてまでも悔いないという尊むべき人がある。<br/><br/>すなわちこれこそ善の英雄であって、今日といえども史上燦と輝いており、幾世紀を経てもなお多くの善男善女から、随喜渇仰（かつごう）の的とされており、その教えに帰依する者の多いのは衆知の通りである。<br/><br/>ゆえに前者を悪の英雄とすれば、後者は善の英雄といってもいい、しかしながら右のいずれも人類に遺した功績に至っては一様に決め難い点もあるが、それは神の経綸の深くして人智をもってしては、到底測り難いからである。<br/><br/> ところで今私が造営している熱海、箱根の聖地にしろ、見た人の多くは主に未信者であるが「先生は秀吉と同じようですね」というから、私はこういうのである。<br/><br/>なるほど大胆な企画で庭園や建築などを造っている有様を見たら、そう思うかも知れないが、その根本は丸きり違っている。<br/><br/>というのは秀吉はなるほど造園、建築等大規模な経営を行い、桃山時代を彩（いろど）った芸術文化、特に茶の湯などの日本趣味文化を利休に命じ完成させた等、賞讃すべき幾多の功績を遺したが、それを成し遂げ得た力というものは、ヤハリ戦争によって獲得したものであるから、赤裸々に言えば大々的殺人強盗であった事は否み得ないであろう。<br/><br/>もちろん不世出の英雄的天才で、特に智能に優れ、経綸の大手腕は他に追随する者はないが、帰するところヤハリ悪の英雄であった。<br/><br/>彼の石川五右衛門が捕えられた時、俺などは小さな泥棒で、太閤殿下とは比べものにはならない。<br/><br/>殿下は天下を盗った大泥棒ではないかと、啖呵（たんか）を切ったという話があるが、これなども一理あると思うのである。<br/><br/>次に出たのが彼の家康であるが、この人も厳密に言えば秀吉の天下を奪ったのだから、言わば物したものを物した訳であって、ヤハリ悪の英雄といってよかろう。<br/><br/>ところが善の英雄に至ってはいささかも非難する点はないが、そうかといって全面的に賞讃する訳にはゆかない。<br/><br/>というのは善の英雄は確かに人類を救い、偉大な功績はあったが、そのほとんどは精神的活動の一面でしかなかった。<br/><br/>物質面の方はまことに閑却されていたのであるが、その中でともかく彼の釈尊が在世中祇園精舎を作った事と、法蔵菩薩が極楽浄土を造った事と、聖徳太子が仏教美術を生んだくらいで、その他には見るべきものがなかったようである。<br/><br/>なるほど時代の未開であったためもあろうが、世界を動かす程の物心両面の力を発揮した偉人は、一人もなかった事は確かである。<br/><br/>こう考えてくると、偉い人というのは今までのところ、物質的英雄と精神的英雄との二者に分れていたのである。<br/><br/> ところが私に至っては、右のどちらにも偏らないで、両方兼ねている人間といってもよかろう。<br/><br/>つまり精神的には善の英雄型で、物質的には悪の英雄型であるが、しかし後者は物の面だけの悪であって、内容は全然別である。<br/><br/>そうして今のところ私が造っているものを、秀吉に準（なぞ）らえるのはいいが、いずれはこんな小さなものではなく、世界的に秀吉型を拡充するのは間違いないのである。<br/><br/>それは神は何万年以前からすでに充分準備されていたからであって、それが今や着々実現しつつあるのである。<br/><br/>従って自分でいうのもおかしいが、私という者は世界肇（はじま）って以来ない大英雄型と思って貰えばいいのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

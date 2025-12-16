@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsizen11</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培による野菜の増収 『自然農法解説』昭和26(1951)年1月15日発行 三重県 五六七大教会光栄中教会 北村四郎（31） 自然栽培満二年を経過致しまして、その体験を御報告させて頂きます。<br><br>現在一般世の人が霜踏む寒冷の朝、炎熱の候、朝はとくより夕は星を頂き汲々と働いて一粒の実、一株の野菜でもと増産に骨を砕き、照る日、曇る夜空を心配し肥料の購入に奔走し、汚穢にまみれ病害の予防消毒、虫害の駆除に苦心し、春夏秋冬、血の滲む努力を続けながら減収という悲しい現実、これに加えて実収以上の事前供出割当と多額の課税、肥料代に追われて悩める時にあたって農耕者にとって、正に「天国の福音」明主様の神示の自然栽培法出でて、農耕に一大改革のなされる事は一点の疑いなき事を、身をもって体験させていただいております。<br><br>大光明如来様の玉の御光輝き、歓喜と光明の農耕に従事出来得る私の喜びのままに、今日迄短日月の体験ではありますが、その優秀なる成績を御報告させて頂きました。<br><br> 一、甘藷 品種「護国」昨年六月中旬移植、畝幅三尺、植幅一尺七、八寸（一尺位が好適）六月末と七月初に中耕除草す。<br><br>八月末に拳大になりました。<br><br> 蔓少く、茎太く強靭、十月二十九日収穫、反当七百五十貫、植幅をもう少し縮めて、堆肥を入れれば増収確実の自信がある。<br><br>有肥料のものは平均五百貫。<br><br> ほとんどが見た感じより目方があります、小さなものはほとんどありません、昨年も一昨年も堆肥も何も用いず連作のもの。<br><br> 二、大豆 昨年七月初旬播種、畝幅二尺五寸、播幅一尺、発芽良好、七月中旬、八月中旬に中耕除草、発育良好、病虫害少く、十月二十六日収穫、一畝で二斗二升ある。<br><br> 根、茎共有肥より太く実が密集し、一本植が成績よく、一本の木で一合のものが大部分あり、まだ増収の自信は充分にある。<br><br>有肥の倍以上の収穫。<br><br> 三、小豆 昨年七月初旬播種、畝幅二尺五寸、播幅一尺、二－三粒位、七月中旬、八月中旬中耕除草す。<br><br>虫害少く、発芽発育共に良好、十月二十八日収穫、四畝で一俵あり、粒大にして虫喰少く、色澤のよさ見る人ことごとく驚嘆す。<br><br> 四、里芋 昨年三月下旬植付、三尺畝、植幅一尺五寸位、六月初旬、七月中旬、八月下旬の三回中耕除草、空豆の茎約十貫を二、三寸に切り畝の腹へ入れる（六月第一回中耕の時）十月三十日収穫、約十歩の面積で小芋十五貫、親芋約十貫、収量も大きさも有肥より五割以上の増収の優良さです。<br><br> 五、人参 品種「国府鮮紅大長」昨年六月下旬播種、畝幅二尺五寸、七、八、九月の間に数回間引中耕除草、十一月初旬間引いたものでビール缶の太さ位あります。<br><br>見る人は皆赤大根かと言う位でした。<br><br> 六、粟 六月初旬適期にやや遅れて播種、十月中旬刈入、五歩の面積で七升ありました。<br><br>実は密集し、穂丈長く太く見事な秋の稔を見ると、人々が口を揃えてこれが無肥料とは思えないと言う程でした。<br><br> 七、生姜も密集し、唐辛子も実ばかりと言った好成績で御座います。<br><br> 疏菜専門家から見れば、成績は劣るかも知れませんが、私の地方としましては、右のいずれも有肥を凌ぐ良結果を収め、特に味覚においては、いかなる耕作法にも、専門家にもひけは取らないでしょう。<br><br> 以上一部分ではありますが、自然栽培の絶対的にして、これ以上の耕作法なき事を今だ迷える方々の御参考になればと考え、この優秀なる事を御報告させて頂きました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Aumento da Produção de Hortaliças por meio da Agricultura Natural</h2>
 <p><em>Explanação sobre a Agricultura Natural, publicado em 15 de janeiro de 1951</em>
@@ -109,5 +264,48 @@ Semeado no início de junho, um pouco depois da época ideal. A colheita ocorreu
 O gengibre também cresceu de forma densa, e as pimentas produziram tantos frutos que mal se viam as folhas, ambos com resultados igualmente excelentes.</p>
 <p>Para um especialista em horticultura, meus resultados podem parecer modestos; contudo, em minha região, todos os cultivos mencionados superaram os métodos que utilizam fertilizantes. E, especialmente no que tange ao sabor, posso afirmar que não perdem em nada para qualquer outro método de cultivo ou para a produção de qualquer especialista.</p>
 <p>Embora este seja apenas um relato parcial, escrevi-o na esperança de que sirva de referência para aqueles que ainda hesitam, demonstrando a superioridade absoluta da Agricultura Natural e a inexistência de um método de cultivo que a supere. Foi com esse intuito que apresentei este relatório sobre seus excelentes resultados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 自然栽培による野菜の増収 『自然農法解説』昭和26(1951)年1月15日発行 三重県 五六七大教会光栄中教会 北村四郎（31） 自然栽培満二年を経過致しまして、その体験を御報告させて頂きます。<br/><br/>現在一般世の人が霜踏む寒冷の朝、炎熱の候、朝はとくより夕は星を頂き汲々と働いて一粒の実、一株の野菜でもと増産に骨を砕き、照る日、曇る夜空を心配し肥料の購入に奔走し、汚穢にまみれ病害の予防消毒、虫害の駆除に苦心し、春夏秋冬、血の滲む努力を続けながら減収という悲しい現実、これに加えて実収以上の事前供出割当と多額の課税、肥料代に追われて悩める時にあたって農耕者にとって、正に「天国の福音」明主様の神示の自然栽培法出でて、農耕に一大改革のなされる事は一点の疑いなき事を、身をもって体験させていただいております。<br/><br/>大光明如来様の玉の御光輝き、歓喜と光明の農耕に従事出来得る私の喜びのままに、今日迄短日月の体験ではありますが、その優秀なる成績を御報告させて頂きました。<br/><br/> 一、甘藷 品種「護国」昨年六月中旬移植、畝幅三尺、植幅一尺七、八寸（一尺位が好適）六月末と七月初に中耕除草す。<br/><br/>八月末に拳大になりました。<br/><br/> 蔓少く、茎太く強靭、十月二十九日収穫、反当七百五十貫、植幅をもう少し縮めて、堆肥を入れれば増収確実の自信がある。<br/><br/>有肥料のものは平均五百貫。<br/><br/> ほとんどが見た感じより目方があります、小さなものはほとんどありません、昨年も一昨年も堆肥も何も用いず連作のもの。<br/><br/> 二、大豆 昨年七月初旬播種、畝幅二尺五寸、播幅一尺、発芽良好、七月中旬、八月中旬に中耕除草、発育良好、病虫害少く、十月二十六日収穫、一畝で二斗二升ある。<br/><br/> 根、茎共有肥より太く実が密集し、一本植が成績よく、一本の木で一合のものが大部分あり、まだ増収の自信は充分にある。<br/><br/>有肥の倍以上の収穫。<br/><br/> 三、小豆 昨年七月初旬播種、畝幅二尺五寸、播幅一尺、二－三粒位、七月中旬、八月中旬中耕除草す。<br/><br/>虫害少く、発芽発育共に良好、十月二十八日収穫、四畝で一俵あり、粒大にして虫喰少く、色澤のよさ見る人ことごとく驚嘆す。<br/><br/> 四、里芋 昨年三月下旬植付、三尺畝、植幅一尺五寸位、六月初旬、七月中旬、八月下旬の三回中耕除草、空豆の茎約十貫を二、三寸に切り畝の腹へ入れる（六月第一回中耕の時）十月三十日収穫、約十歩の面積で小芋十五貫、親芋約十貫、収量も大きさも有肥より五割以上の増収の優良さです。<br/><br/> 五、人参 品種「国府鮮紅大長」昨年六月下旬播種、畝幅二尺五寸、七、八、九月の間に数回間引中耕除草、十一月初旬間引いたものでビール缶の太さ位あります。<br/><br/>見る人は皆赤大根かと言う位でした。<br/><br/> 六、粟 六月初旬適期にやや遅れて播種、十月中旬刈入、五歩の面積で七升ありました。<br/><br/>実は密集し、穂丈長く太く見事な秋の稔を見ると、人々が口を揃えてこれが無肥料とは思えないと言う程でした。<br/><br/> 七、生姜も密集し、唐辛子も実ばかりと言った好成績で御座います。<br/><br/> 疏菜専門家から見れば、成績は劣るかも知れませんが、私の地方としましては、右のいずれも有肥を凌ぐ良結果を収め、特に味覚においては、いかなる耕作法にも、専門家にもひけは取らないでしょう。<br/><br/> 以上一部分ではありますが、自然栽培の絶対的にして、これ以上の耕作法なき事を今だ迷える方々の御参考になればと考え、この優秀なる事を御報告させて頂きました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

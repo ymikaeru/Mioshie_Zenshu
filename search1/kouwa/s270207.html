@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270207</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年2月7日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月七日 【御教え】 二、三日前に箱根の美術館を見に行って、その時感じたままを書いてみたんですがね。<br><br>今読ませます （御論文「私の美術修業」のあとの御教え）【栄光 一四四号】 今読んだ通り、日本美術というものは見られないんですよ。<br><br>日本美術を見せる所は一つもないんです。<br><br>それで、日本は世界の美術国であり、日本人は非常に美術に秀れていると言っても、できた物を見られないとしたら、おかしな話です。<br><br>ですから、外国人でも日本美術は知らないんですよ。<br><br>見たことがないからね。<br><br>少しは見るけれども、本当の良い物はほとんど見られないですね。<br><br>ただ、写真か図録で見るくらいです。<br><br>ところが写真も、天然色はごく少ないですからね。<br><br>たいていふつうの白黒写真ですから――やっぱり、美術品は色が判らなければ、おもしろくないんです。<br><br>ただ、形だけではね。<br><br>そうすると、しかたがないから――外国人なんか、支那美術を蒐集します。<br><br>非常に趣味を持っている。<br><br>ですから、この間サンフランシスコで、講和会議の時に展覧会した――あれは日本から百数十点出品しましたが、あれも私が後で、博物館で展示会がありましたので行って見たところが、日本の仏教美術ですね。<br><br>大体三分の二は仏教関係の物ですね。<br><br>だから、外国人は日本の仏教――特に彫刻ですね。<br><br>これは非常に驚いている。<br><br>ですから、欲しがっていますよ。<br><br>欲しがっているけれども、仏教美術の良い物は、みんなお寺にあるんですよ。<br><br>ですから、外人が見ようとしても、一軒一軒お寺を尋ねるわけにもいかないし、お寺の本尊様になっているから見られないですね。<br><br>他には、日本の陶器とか蒔絵はほとんど出なかったですね。<br><br>ところで、日本の美術で特色ある物ですね。<br><br>それは、絵では琳派ですね。<br><br>光琳、宗達、乾山ですね。<br><br>これは世界に誇るべき物なんです。<br><br>ところが、この間のサンフランシスコなんかは、琳派物なんか一つもないですね。<br><br>陶器では仁清、乾山、鍋島です。<br><br>で、日本画は琳派と、あとは土佐派ですね――大和絵ですね。<br><br>それから浮世絵――それだけが日本独特な物です。<br><br>日本の古い物は狩野派が多いですが、それは支那の宋元時代の模倣ですからね。<br><br>模倣と言うが、それにヒントを得て――まあそれを倣ったようなものですから、日本画としては、さっき言った琳派と大和絵と浮世絵ですね。<br><br>陶器は、今言う仁清、乾山、鍋島。<br><br>あとの陶器は、やはり支那、朝鮮の模倣なんです。<br><br>あと日本に良い物がありますが――柿右衛門なんかも支那のいろいろな模倣ですね。<br><br>ですから私は、柿右衛門は有名ですが、あまり重きをおいてないんです。<br><br>あとは尾張物と言って、茶器なんかに多いですが、尾張の、唐津とか志野、織部、瀬戸ですね。<br><br>そういう尾張の陶器はなかなか良い物があります。<br><br>特色がありますが、これは朝鮮から習ったんです。<br><br>朝鮮の職人が来て教えて行ったんですからね。<br><br>あといろいろな物は、みんな支那から入っているんです。<br><br>だから、日本の特色というと、今言う絵と陶器ですね。<br><br>あとは蒔絵ですが、蒔絵は本当の、日本の一番の特色ですね。<br><br>日本でなくちゃないんですからね。<br><br>そういう物なんかも、ほとんど出ないんですがね。<br><br>よく、蒔絵はアメリカに行くと壊れちゃうと言うが、漆器類は乾燥を一番嫌う。<br><br>ところがアメリカの空気というのは、特に乾燥している。<br><br>特にシカゴ辺りが一番乾燥している。<br><br>そこに行くと、みんな駄目です。<br><br>バラバラになっちゃう。<br><br>ところが、それはできが悪いからで、本当にできが良い物は、絶対にそういうことはないですね。<br><br>そういう良い物を出せば良いが、出品する人もアメリカは漆器が壊れるということを聞いて、本当のことを知らないで、出さないというのが多いですがね。<br><br>今言ったのが日本的美術ですね。<br><br>そういう物を、箱根は主にして出すつもりです。<br><br>ですから、今度の箱根の美術館を見ると、日本人でありながら、日本でこんな良い物ができたのかなと思う人が、随分あると思います。<br><br>外人なんか、たいしたものだ。<br><br>日本美術は良いものだということが解るだろうと思う。<br><br>浮世絵なんかも、外国人が大騒ぎするのは版画ですが、版画はそうたいした物はないですが、肉筆物を見るきっかけがないし、見てもわずかずつで、手に入れることができないから、外人は解らないから、版画が良いとしたんです。<br><br>ですから浮世絵の版画は随分外国人が欲しがって、良い物は高いですよ。<br><br>版画の初版で良い物になると、一枚十万円、二十万円のがありますからね。<br><br>肉筆物はその何分の一ですから、それで私は肉筆を集めた。<br><br>安くて良いものですからね。<br><br>今は高くなってきましたがね。<br><br>一流品を私は随分集めました。<br><br>そういうものを見せると、非常に驚くだろうと思います。<br><br> で、今度なんかもロサンゼルスで、支那の陶器の展覧会がありますがね。<br><br>支那の宋時代の――宋磁器というのを主にしている。<br><br>そうして日本にも依頼が来て、日本でも十五点出すが、ついこの間発送しましたが、支那の宋時代の陶器というのはたいしたものですね。<br><br>やはり、箱根に出しますがね。<br><br>最高の物を出したいが、最高の物は出せない。<br><br>最高の物はアメリカの美術館にあるんです。<br><br>これはとうてい、支那にも日本にもないんです。<br><br>その次の物はありますがね。<br><br>その次の物は、今度美術館に出しますがね。<br><br>支那の一番美術の良い物ができた時代は宋ですね。<br><br>特に北宋の方が良いですね。<br><br>ずっと古いのは唐ですがね。<br><br>唐時代もかなり良い物ができましたが、なんと言っても宋ですね。<br><br>宋は今から九百何十年前ですね。<br><br>約千年前ですね。<br><br>千年から――宋時代というのは百八十年続いた。<br><br>ですから、ちょうど日本の弘仁から藤原時代ですね。<br><br>それがちょうど合っている。<br><br>日本でも、最初仏教美術ですが、仏教美術は推古から飛鳥、白鳳、天平――千二、三百年前が良い物ができたですが、今見てもすばらしい物ですが、仏教美術ですからね。<br><br>藤原時代に仏教美術もあったが、それ以後いろいろな物ができたですね。<br><br>平安朝ですね。<br><br>その時が、支那の宋時代に当たりますからね。<br><br>それで、よく日本と時代が合っているんです。<br><br>それで日本が、足利時代になって、義満、義政が非常に支那美術を尊重して、輸入したですね。<br><br>それでその時に、いろんな宋時代の良い物を輸入した。<br><br>それが、今日本に残っているんです。<br><br>そこで、アメリカでも数がないんで、今度の展覧会でも、日本に勧誘したんです。<br><br>ですから支那陶器というのはアメリカ、イギリスでは非常に研究してあるんです。<br><br>それは、支那陶器の学者というのは、向こうにもチョイチョイあります。<br><br>ですから、日本の、どの陶器はどこになにがあるということは、ちゃんと調査してある。<br><br>今度、個人の物でも、どこのなにと、ちゃんと指定が来て、十五点送ったんですがね。<br><br>支那陶器は知っているんですが、日本の物は知らないんです。<br><br>今度は、そうとうなるほどと思うような物を出すつもりですがね。<br><br>それで、支那は宋時代には陶器ばかりでなく、あらゆる文化が発展したですね。<br><br>支那でも偉い坊さんですね。<br><br>それも宋時代が一番出た。<br><br>宋時代にはいろんな王様が、美術を奨励したんですね。<br><br>その時にできたのが、たいへん良い物ができた。<br><br>今、支那で、それを作ろうとしても、ぜんぜん駄目だそうです。<br><br>ぜんぜん分からないそうですね。<br><br>土だとか、薬だとか、ぜんぜん分からないそうです。<br><br>支那は、その次に明の時代ですね。<br><br>明というのは、そうとう長かったんですがね。<br><br>明の時代といっても一番最初宣徳という年号ですが、その時そうとう良い物ができたんです。<br><br>宋時代のは無地物がほとんどだったですね。<br><br>明の時代には、赤い物だとかですね。<br><br>正徳、嘉靖、成化、万暦と――こういう具合に良い物ができたんです。<br><br>その時一番良い物ができたのは嘉靖ですね。<br><br>嘉靖の赤い物は、日本の柿右衛門とか、伊万里とかでまねしたものです。<br><br>支那は近代になっては、康煕年間、乾隆――この時代になると、非常に巧みになってますが、とても安っぽくて見られないですね。<br><br>ちょうど日本では、向こうの明時代が桃山時代になりますからね。<br><br>桃山が高価な良い物ができたのとよく似ているんです。<br><br>藤原、鎌倉、それから桃山、それから元禄、それから明治と、これだけが良い物ができてますね。<br><br>日本は昭和になってから、戦争もありましたが、ガタガタになっている。<br><br>そんなわけで――学校の美術品の講座みたいですが――ですから箱根の美術館というものは、その点において世界一だと思ってます。<br><br>とにかく日本美術を見せるという所はないんですからね。<br><br>だから、知れたら随分見に来る人が、たくさんあるだろうと思う。<br><br>外人は箱根に来た以上は必ず見るというようになりますね。<br><br>美術館の話はそれくらいにしておきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Posição da Arte Japonesa no Mundo</h2>
 <p>Há dois ou três dias, estive em Hakone para inspecionar o Museu de Arte e decidi registrar por escrito as impressões que tive na ocasião. Conforme o texto que acabam de ouvir, a arte japonesa, na prática, não pode ser apreciada. Não existe sequer um local dedicado a exibi-la. Embora o Japão seja reconhecido como uma nação de grande relevância artística e seu povo, dotado de notável talento, é no mínimo paradoxal que as obras-primas que cria permaneçam inacessíveis. Por conseguinte, mesmo os estrangeiros desconhecem a arte japonesa, simplesmente por não terem onde contemplá-la.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Existe um paralelo interessante: a dinastia Ming na China corresponde ao período Momoyama no Japão, época em que também foram criadas obras suntuosas e de grande valor. Os períodos de ouro da arte japonesa foram Fujiwara, Kamakura, Momoyama, Genroku e Meiji. A partir da era Showa, em parte devido à guerra, houve um declínio acentuado.</p>
 <p>Esta explanação se assemelhou a uma aula de história da arte, mas serve para contextualizar. Por todas essas razões, acredito que o Museu de Arte de Hakone será o melhor do mundo em sua proposta. Afinal, não há outro lugar dedicado a exibir a verdadeira arte japonesa. Tenho certeza de que, uma vez que se torne conhecido, atrairá um número imenso de visitantes. Para os estrangeiros que vierem a Hakone, a visita ao museu se tornará obrigatória.</p>
 <p>Mas, por ora, encerro aqui minhas considerações sobre o museu.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年2月7日） 『御教え集』7号、昭和27(1952)年3月20日発行 昭和二十七年二月七日 【御教え】 二、三日前に箱根の美術館を見に行って、その時感じたままを書いてみたんですがね。<br/><br/>今読ませます （御論文「私の美術修業」のあとの御教え）【栄光 一四四号】 今読んだ通り、日本美術というものは見られないんですよ。<br/><br/>日本美術を見せる所は一つもないんです。<br/><br/>それで、日本は世界の美術国であり、日本人は非常に美術に秀れていると言っても、できた物を見られないとしたら、おかしな話です。<br/><br/>ですから、外国人でも日本美術は知らないんですよ。<br/><br/>見たことがないからね。<br/><br/>少しは見るけれども、本当の良い物はほとんど見られないですね。<br/><br/>ただ、写真か図録で見るくらいです。<br/><br/>ところが写真も、天然色はごく少ないですからね。<br/><br/>たいていふつうの白黒写真ですから――やっぱり、美術品は色が判らなければ、おもしろくないんです。<br/><br/>ただ、形だけではね。<br/><br/>そうすると、しかたがないから――外国人なんか、支那美術を蒐集します。<br/><br/>非常に趣味を持っている。<br/><br/>ですから、この間サンフランシスコで、講和会議の時に展覧会した――あれは日本から百数十点出品しましたが、あれも私が後で、博物館で展示会がありましたので行って見たところが、日本の仏教美術ですね。<br/><br/>大体三分の二は仏教関係の物ですね。<br/><br/>だから、外国人は日本の仏教――特に彫刻ですね。<br/><br/>これは非常に驚いている。<br/><br/>ですから、欲しがっていますよ。<br/><br/>欲しがっているけれども、仏教美術の良い物は、みんなお寺にあるんですよ。<br/><br/>ですから、外人が見ようとしても、一軒一軒お寺を尋ねるわけにもいかないし、お寺の本尊様になっているから見られないですね。<br/><br/>他には、日本の陶器とか蒔絵はほとんど出なかったですね。<br/><br/>ところで、日本の美術で特色ある物ですね。<br/><br/>それは、絵では琳派ですね。<br/><br/>光琳、宗達、乾山ですね。<br/><br/>これは世界に誇るべき物なんです。<br/><br/>ところが、この間のサンフランシスコなんかは、琳派物なんか一つもないですね。<br/><br/>陶器では仁清、乾山、鍋島です。<br/><br/>で、日本画は琳派と、あとは土佐派ですね――大和絵ですね。<br/><br/>それから浮世絵――それだけが日本独特な物です。<br/><br/>日本の古い物は狩野派が多いですが、それは支那の宋元時代の模倣ですからね。<br/><br/>模倣と言うが、それにヒントを得て――まあそれを倣ったようなものですから、日本画としては、さっき言った琳派と大和絵と浮世絵ですね。<br/><br/>陶器は、今言う仁清、乾山、鍋島。<br/><br/>あとの陶器は、やはり支那、朝鮮の模倣なんです。<br/><br/>あと日本に良い物がありますが――柿右衛門なんかも支那のいろいろな模倣ですね。<br/><br/>ですから私は、柿右衛門は有名ですが、あまり重きをおいてないんです。<br/><br/>あとは尾張物と言って、茶器なんかに多いですが、尾張の、唐津とか志野、織部、瀬戸ですね。<br/><br/>そういう尾張の陶器はなかなか良い物があります。<br/><br/>特色がありますが、これは朝鮮から習ったんです。<br/><br/>朝鮮の職人が来て教えて行ったんですからね。<br/><br/>あといろいろな物は、みんな支那から入っているんです。<br/><br/>だから、日本の特色というと、今言う絵と陶器ですね。<br/><br/>あとは蒔絵ですが、蒔絵は本当の、日本の一番の特色ですね。<br/><br/>日本でなくちゃないんですからね。<br/><br/>そういう物なんかも、ほとんど出ないんですがね。<br/><br/>よく、蒔絵はアメリカに行くと壊れちゃうと言うが、漆器類は乾燥を一番嫌う。<br/><br/>ところがアメリカの空気というのは、特に乾燥している。<br/><br/>特にシカゴ辺りが一番乾燥している。<br/><br/>そこに行くと、みんな駄目です。<br/><br/>バラバラになっちゃう。<br/><br/>ところが、それはできが悪いからで、本当にできが良い物は、絶対にそういうことはないですね。<br/><br/>そういう良い物を出せば良いが、出品する人もアメリカは漆器が壊れるということを聞いて、本当のことを知らないで、出さないというのが多いですがね。<br/><br/>今言ったのが日本的美術ですね。<br/><br/>そういう物を、箱根は主にして出すつもりです。<br/><br/>ですから、今度の箱根の美術館を見ると、日本人でありながら、日本でこんな良い物ができたのかなと思う人が、随分あると思います。<br/><br/>外人なんか、たいしたものだ。<br/><br/>日本美術は良いものだということが解るだろうと思う。<br/><br/>浮世絵なんかも、外国人が大騒ぎするのは版画ですが、版画はそうたいした物はないですが、肉筆物を見るきっかけがないし、見てもわずかずつで、手に入れることができないから、外人は解らないから、版画が良いとしたんです。<br/><br/>ですから浮世絵の版画は随分外国人が欲しがって、良い物は高いですよ。<br/><br/>版画の初版で良い物になると、一枚十万円、二十万円のがありますからね。<br/><br/>肉筆物はその何分の一ですから、それで私は肉筆を集めた。<br/><br/>安くて良いものですからね。<br/><br/>今は高くなってきましたがね。<br/><br/>一流品を私は随分集めました。<br/><br/>そういうものを見せると、非常に驚くだろうと思います。<br/><br/> で、今度なんかもロサンゼルスで、支那の陶器の展覧会がありますがね。<br/><br/>支那の宋時代の――宋磁器というのを主にしている。<br/><br/>そうして日本にも依頼が来て、日本でも十五点出すが、ついこの間発送しましたが、支那の宋時代の陶器というのはたいしたものですね。<br/><br/>やはり、箱根に出しますがね。<br/><br/>最高の物を出したいが、最高の物は出せない。<br/><br/>最高の物はアメリカの美術館にあるんです。<br/><br/>これはとうてい、支那にも日本にもないんです。<br/><br/>その次の物はありますがね。<br/><br/>その次の物は、今度美術館に出しますがね。<br/><br/>支那の一番美術の良い物ができた時代は宋ですね。<br/><br/>特に北宋の方が良いですね。<br/><br/>ずっと古いのは唐ですがね。<br/><br/>唐時代もかなり良い物ができましたが、なんと言っても宋ですね。<br/><br/>宋は今から九百何十年前ですね。<br/><br/>約千年前ですね。<br/><br/>千年から――宋時代というのは百八十年続いた。<br/><br/>ですから、ちょうど日本の弘仁から藤原時代ですね。<br/><br/>それがちょうど合っている。<br/><br/>日本でも、最初仏教美術ですが、仏教美術は推古から飛鳥、白鳳、天平――千二、三百年前が良い物ができたですが、今見てもすばらしい物ですが、仏教美術ですからね。<br/><br/>藤原時代に仏教美術もあったが、それ以後いろいろな物ができたですね。<br/><br/>平安朝ですね。<br/><br/>その時が、支那の宋時代に当たりますからね。<br/><br/>それで、よく日本と時代が合っているんです。<br/><br/>それで日本が、足利時代になって、義満、義政が非常に支那美術を尊重して、輸入したですね。<br/><br/>それでその時に、いろんな宋時代の良い物を輸入した。<br/><br/>それが、今日本に残っているんです。<br/><br/>そこで、アメリカでも数がないんで、今度の展覧会でも、日本に勧誘したんです。<br/><br/>ですから支那陶器というのはアメリカ、イギリスでは非常に研究してあるんです。<br/><br/>それは、支那陶器の学者というのは、向こうにもチョイチョイあります。<br/><br/>ですから、日本の、どの陶器はどこになにがあるということは、ちゃんと調査してある。<br/><br/>今度、個人の物でも、どこのなにと、ちゃんと指定が来て、十五点送ったんですがね。<br/><br/>支那陶器は知っているんですが、日本の物は知らないんです。<br/><br/>今度は、そうとうなるほどと思うような物を出すつもりですがね。<br/><br/>それで、支那は宋時代には陶器ばかりでなく、あらゆる文化が発展したですね。<br/><br/>支那でも偉い坊さんですね。<br/><br/>それも宋時代が一番出た。<br/><br/>宋時代にはいろんな王様が、美術を奨励したんですね。<br/><br/>その時にできたのが、たいへん良い物ができた。<br/><br/>今、支那で、それを作ろうとしても、ぜんぜん駄目だそうです。<br/><br/>ぜんぜん分からないそうですね。<br/><br/>土だとか、薬だとか、ぜんぜん分からないそうです。<br/><br/>支那は、その次に明の時代ですね。<br/><br/>明というのは、そうとう長かったんですがね。<br/><br/>明の時代といっても一番最初宣徳という年号ですが、その時そうとう良い物ができたんです。<br/><br/>宋時代のは無地物がほとんどだったですね。<br/><br/>明の時代には、赤い物だとかですね。<br/><br/>正徳、嘉靖、成化、万暦と――こういう具合に良い物ができたんです。<br/><br/>その時一番良い物ができたのは嘉靖ですね。<br/><br/>嘉靖の赤い物は、日本の柿右衛門とか、伊万里とかでまねしたものです。<br/><br/>支那は近代になっては、康煕年間、乾隆――この時代になると、非常に巧みになってますが、とても安っぽくて見られないですね。<br/><br/>ちょうど日本では、向こうの明時代が桃山時代になりますからね。<br/><br/>桃山が高価な良い物ができたのとよく似ているんです。<br/><br/>藤原、鎌倉、それから桃山、それから元禄、それから明治と、これだけが良い物ができてますね。<br/><br/>日本は昭和になってから、戦争もありましたが、ガタガタになっている。<br/><br/>そんなわけで――学校の美術品の講座みたいですが――ですから箱根の美術館というものは、その点において世界一だと思ってます。<br/><br/>とにかく日本美術を見せるという所はないんですからね。<br/><br/>だから、知れたら随分見に来る人が、たくさんあるだろうと思う。<br/><br/>外人は箱根に来た以上は必ず見るというようになりますね。<br/><br/>美術館の話はそれくらいにしておきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

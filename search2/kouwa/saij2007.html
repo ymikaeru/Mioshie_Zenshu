@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij2007</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ２ 007-023 大黒様 007 観音様と大黒様（みろく大黒天） 大黒様と観音様の関係――。<br><br> 金銀財宝は観音様自ら扱われなく、大黒様にやらせる。<br><br>大きい程よい。<br><br>渋井先生は欲張って大きいのを作った。<br><br>私の家にも大きいのがある。<br><br>これには神秘がある。<br><br>十何年前、赤字が二、三ケ月続いた時、観音様にお任せして置いたら、ある銀行員が文久何年とか作の大黒様をもって来たのでいただいたら、それから黒字となった。<br><br>それから趣味を持ち五十程手に入れた。<br><br> ある時信者で、青山の高樹町山田元吉という古物商の店頭に、人間の顔より大きい三、四百年前の大黒様を譲って貰おうとした。<br><br>十二月初め私も見に行った。<br><br>主にたのんでも絶対に譲ってくれなかったが、十二月大晦日に譲るから来てくれと言うのだった。<br><br>その理由は夢をみて、大黒様が紫雲にのって、その家を出て行く夢をみた。<br><br>そしてお金がなくて大晦日が越せぬから、いくらでもいいから金を貰いたいという訳である。<br><br>それでお礼金として三百円包んでやった。<br><br>これからまた一層大きく金が入るようになった。<br><br> 布袋和尚は支那の坊主で大黒様とは関係ない。<br><br> 008 大黒様拝む事 御神前へ大黒様をお祀り致して御座います場合、御神体へお詣り致します事によりまして特別に大黒様にお願い致さなくても御守護（物資）頂けると考えますがいかがなもので御座いましょうか。<br><br>お伺い申し上げます。<br><br> 勿論そうである。<br><br>光明如来様の御差図で働くのであるから、特別拝まなくてもよい。<br><br>（S25. 4.22） 009 大黒様の祀り方（称え言） 大黒様のお祭りの致し方をお教え願います。<br><br> 特にどうという形式はない。<br><br>光明如来様をお祭りした後、もっと簡単にすればよい。<br><br>祝詞も奏げなくていい。<br><br>「大黒天様守給へ幸倍給へ」と称えるだけでよい。<br><br>大黒様は観音様の御命令で働くのであるから、直接人間の願いを聞く訳でない。<br><br>御挨拶程度でよい。<br><br>（S23.10.17） 010 天照大神と恵比須 大阪の今宮戎神社や西宮戎神社のごとく、有名な恵比須様には付近に広田神社（祭神は天照大御神）が奉斎されてある由、なお従来恵比須様には有名な神社があるのに、大黒様にはあまり有名なお宮がない理由。<br><br> 天照大神の息子の蛭子尊を祭ったのが恵比寿である。<br><br>それで近くへお祭りする。<br><br> 011 観音像と法華 観音様は唐金はウソである。<br><br>木彫で金箔を塗る。<br><br> 法華経は必ず一代のもので、決して長くは続かぬ。<br><br> ――――――――――― 日蓮―すぐの処置は面白くない。<br><br>本当は嘘で，光明如来様上座、日蓮下座にする。<br><br>（S23） rattail（注） 唐金＝青銅。<br><br>ブロンズ。<br><br> 012 ヒビある大黒御開眼 大黒様（柳の木）のお開眼をお願い致したく存じておりますが、その大黒様は素人の拵えたもので出来映はあまり良くなく、また頭の方にちょっとヒビが出ておりますが、お開眼のお願い出来得ましょうか。<br><br> 構わぬ。<br><br>開眼して戴ける。<br><br>（S24. 6. 3） 013 大きい大黒様開眼 御開眼願のため持参出来ない程の大きさの大黒様の御開眼はどうして御願いしたらよいでしょうか。<br><br> 遠くても構わぬ。<br><br>（S24. 4.22） 014 大黒様塗直し 御開眼してある大黒様を塗り直した場合、再度の御開眼をして頂いた方が宜しいでしょうか。<br><br>御伺い申し上げます。<br><br> 眼さえ手を付けなければそのままでよい。<br><br>（S24. 8.23） rattail（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕掲載 015 お屏風の前に大黒様 仏壇の千手観音様の御前に大黒様をお祀りするのはいかがなもので御座居ましょうか。<br><br> これはいけない。<br><br>全然意味が違う。<br><br>（S24.10.24） 016 大黒様と本床逆床 御大黒様をお祭りする時、御観音様の御神体の向ってどちら側にお祭りするべきでしょうか。<br><br>また床の間の本床、逆床によっても違うものでしょうか。<br><br> 向って右側。<br><br>本床、逆床はアベコベにしてるのがある。<br><br>同じでいい。<br><br> 厳粛でやる事は無理である。<br><br>（S24. 5.23） 017 大黒様の奉斎個所 大先生様御宅にては大黒天像を御神体及び御神号の直前にお祭りして御座いませんが、一般家庭にあってはどこへ安置しお祭りしたのが一番よろしいのでしょうか。<br><br> 床の間の向って右、本部は意味が別である。<br><br>（S24. 7. 3） 018 大黒様の奉祀場所とお供 御神前に大黒様をお祭りする場合、御神体の正中か右か左か、いずれが正しいのでしょうか。<br><br>また床の間の都合によりいずれでもよろしいものでしょうか、なお御供えは大黒様にも御供えした方がよろしいでしょうか。<br><br> 向って右、真中は不可である。<br><br> お供えはお祭りの時に両方へお供えすればよい。<br><br> 019 大黒様の唱号 私共の家に御奉斎の大黒天神様に朝夕の御挨拶を「五六七大黒天神守り給へ幸倍給へ惟神霊幸倍座世」と申し上げて宜しゅうございましょうか。<br><br>お伺い申し上げます。<br><br> 五六七大黒天の名をつけたならいいが、普通なら大黒天神でいい。<br><br>大黒天様でもいい。<br><br>（S25. 4. 8） rattail（注） 〔 御光話（S25年 4月 8日） 『御光話録』19号、昭和25(1950)年6月13日発行〕掲載 020 大黒様の称号と甲子 お大黒様にお詣り致します時、何とお称え申し上げて宜敷いので御座いましょうか。<br><br> 大黒天様を唱えればよい。<br><br> 大黒天は印度名、甲子―子の日、鼠は外から引いてくるという。<br><br>（S24.11.13） 021 大黒様称え言 前の観音会時代大黒様を「みろく大黒天神守り給へ幸へ給へ」と御拝み申し上げましたが此頃新しい方から質問が御座います。<br><br>大黒様を御拝みした方がよろしゅう御座いましょうか。<br><br>また御拝み致すとしましたら御神名を御教示御願い申し上げます。<br><br> 称え言はなくともよい。<br><br>願言はよい。<br><br>ミロク大黒天――。<br><br>（S23.12.18） 022 大黒様祀る数 大黒様は沢山お祀りしてもよいとの御言葉でございましたが、その際やはり床の間でしょうか。<br><br> 一つでよろしい。<br><br>あまり小さいのはいけない。<br><br> rattail（注） 〔 御光話（S24年 4月23日） 『御光話録』7号、昭和24(1949)年<b>月</b>日発行〕掲載 ――大黒様はたくさんお祀りしてもよいとのお言葉でございましたが、たくさんお祀りする場合やはり床の間がよろしいでしょうか。<br><br> 『大黒様はそんなにたくさんなくちゃいかんていうことはありませんよ。<br><br>多いのがいいんなら百も二百も並べなくちゃいけないじゃないですか。<br><br>一つでいいですよ。<br><br>ただあまり小さいのはいけませんがね。<br><br>床の間にちょうどいいくらいの大きさでなくちゃあね。<br><br>だからここでもあれ一つですよ。<br><br>多いほうがいいなら、大黒様をこの辺にいっぱいぶら下げておきますよ、お雛様みたいにね。<br><br>（笑声）』 〔 御光話（S23年 4月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br>〕 『大黒様はいくつあってもよい。<br><br>以前私の所には五十体くらいあった。<br><br>別に欲張ったわけではないですが、のちに人に分けてあげました。<br><br>大黒様は大きいほうがよい。<br><br>小さいのが数あるより大きいの一つのほうがよい。<br><br>』 023 大黒様多置 大黒様は幾つも床の間へ置く人がありますがいかがなもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 差支えないが、程度問題である。<br><br>（S24.12.23）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Mestre Okada Jikan</h2>
 <h2>Daikoku-sama</h2>
@@ -149,5 +301,48 @@ function toggleLang(lang) {
 <h3>023 Acomodar Múltiplas Imagens de Daikoku</h3>
 <p><strong>Pergunta:</strong> Algumas pessoas colocam várias imagens de Daikoku-sama no tokonoma. Gostaria de saber se isso é apropriado.</p>
 <p><strong>Resposta:</strong> Não há objeção, mas é uma questão de bom senso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ２ 007-023 大黒様 007 観音様と大黒様（みろく大黒天） 大黒様と観音様の関係――。<br/><br/> 金銀財宝は観音様自ら扱われなく、大黒様にやらせる。<br/><br/>大きい程よい。<br/><br/>渋井先生は欲張って大きいのを作った。<br/><br/>私の家にも大きいのがある。<br/><br/>これには神秘がある。<br/><br/>十何年前、赤字が二、三ケ月続いた時、観音様にお任せして置いたら、ある銀行員が文久何年とか作の大黒様をもって来たのでいただいたら、それから黒字となった。<br/><br/>それから趣味を持ち五十程手に入れた。<br/><br/> ある時信者で、青山の高樹町山田元吉という古物商の店頭に、人間の顔より大きい三、四百年前の大黒様を譲って貰おうとした。<br/><br/>十二月初め私も見に行った。<br/><br/>主にたのんでも絶対に譲ってくれなかったが、十二月大晦日に譲るから来てくれと言うのだった。<br/><br/>その理由は夢をみて、大黒様が紫雲にのって、その家を出て行く夢をみた。<br/><br/>そしてお金がなくて大晦日が越せぬから、いくらでもいいから金を貰いたいという訳である。<br/><br/>それでお礼金として三百円包んでやった。<br/><br/>これからまた一層大きく金が入るようになった。<br/><br/> 布袋和尚は支那の坊主で大黒様とは関係ない。<br/><br/> 008 大黒様拝む事 御神前へ大黒様をお祀り致して御座います場合、御神体へお詣り致します事によりまして特別に大黒様にお願い致さなくても御守護（物資）頂けると考えますがいかがなもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 勿論そうである。<br/><br/>光明如来様の御差図で働くのであるから、特別拝まなくてもよい。<br/><br/>（S25. 4.22） 009 大黒様の祀り方（称え言） 大黒様のお祭りの致し方をお教え願います。<br/><br/> 特にどうという形式はない。<br/><br/>光明如来様をお祭りした後、もっと簡単にすればよい。<br/><br/>祝詞も奏げなくていい。<br/><br/>「大黒天様守給へ幸倍給へ」と称えるだけでよい。<br/><br/>大黒様は観音様の御命令で働くのであるから、直接人間の願いを聞く訳でない。<br/><br/>御挨拶程度でよい。<br/><br/>（S23.10.17） 010 天照大神と恵比須 大阪の今宮戎神社や西宮戎神社のごとく、有名な恵比須様には付近に広田神社（祭神は天照大御神）が奉斎されてある由、なお従来恵比須様には有名な神社があるのに、大黒様にはあまり有名なお宮がない理由。<br/><br/> 天照大神の息子の蛭子尊を祭ったのが恵比寿である。<br/><br/>それで近くへお祭りする。<br/><br/> 011 観音像と法華 観音様は唐金はウソである。<br/><br/>木彫で金箔を塗る。<br/><br/> 法華経は必ず一代のもので、決して長くは続かぬ。<br/><br/> ――――――――――― 日蓮―すぐの処置は面白くない。<br/><br/>本当は嘘で，光明如来様上座、日蓮下座にする。<br/><br/>（S23） rattail（注） 唐金＝青銅。<br/><br/>ブロンズ。<br/><br/> 012 ヒビある大黒御開眼 大黒様（柳の木）のお開眼をお願い致したく存じておりますが、その大黒様は素人の拵えたもので出来映はあまり良くなく、また頭の方にちょっとヒビが出ておりますが、お開眼のお願い出来得ましょうか。<br/><br/> 構わぬ。<br/><br/>開眼して戴ける。<br/><br/>（S24. 6. 3） 013 大きい大黒様開眼 御開眼願のため持参出来ない程の大きさの大黒様の御開眼はどうして御願いしたらよいでしょうか。<br/><br/> 遠くても構わぬ。<br/><br/>（S24. 4.22） 014 大黒様塗直し 御開眼してある大黒様を塗り直した場合、再度の御開眼をして頂いた方が宜しいでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 眼さえ手を付けなければそのままでよい。<br/><br/>（S24. 8.23） rattail（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕掲載 015 お屏風の前に大黒様 仏壇の千手観音様の御前に大黒様をお祀りするのはいかがなもので御座居ましょうか。<br/><br/> これはいけない。<br/><br/>全然意味が違う。<br/><br/>（S24.10.24） 016 大黒様と本床逆床 御大黒様をお祭りする時、御観音様の御神体の向ってどちら側にお祭りするべきでしょうか。<br/><br/>また床の間の本床、逆床によっても違うものでしょうか。<br/><br/> 向って右側。<br/><br/>本床、逆床はアベコベにしてるのがある。<br/><br/>同じでいい。<br/><br/> 厳粛でやる事は無理である。<br/><br/>（S24. 5.23） 017 大黒様の奉斎個所 大先生様御宅にては大黒天像を御神体及び御神号の直前にお祭りして御座いませんが、一般家庭にあってはどこへ安置しお祭りしたのが一番よろしいのでしょうか。<br/><br/> 床の間の向って右、本部は意味が別である。<br/><br/>（S24. 7. 3） 018 大黒様の奉祀場所とお供 御神前に大黒様をお祭りする場合、御神体の正中か右か左か、いずれが正しいのでしょうか。<br/><br/>また床の間の都合によりいずれでもよろしいものでしょうか、なお御供えは大黒様にも御供えした方がよろしいでしょうか。<br/><br/> 向って右、真中は不可である。<br/><br/> お供えはお祭りの時に両方へお供えすればよい。<br/><br/> 019 大黒様の唱号 私共の家に御奉斎の大黒天神様に朝夕の御挨拶を「五六七大黒天神守り給へ幸倍給へ惟神霊幸倍座世」と申し上げて宜しゅうございましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 五六七大黒天の名をつけたならいいが、普通なら大黒天神でいい。<br/><br/>大黒天様でもいい。<br/><br/>（S25. 4. 8） rattail（注） 〔 御光話（S25年 4月 8日） 『御光話録』19号、昭和25(1950)年6月13日発行〕掲載 020 大黒様の称号と甲子 お大黒様にお詣り致します時、何とお称え申し上げて宜敷いので御座いましょうか。<br/><br/> 大黒天様を唱えればよい。<br/><br/> 大黒天は印度名、甲子―子の日、鼠は外から引いてくるという。<br/><br/>（S24.11.13） 021 大黒様称え言 前の観音会時代大黒様を「みろく大黒天神守り給へ幸へ給へ」と御拝み申し上げましたが此頃新しい方から質問が御座います。<br/><br/>大黒様を御拝みした方がよろしゅう御座いましょうか。<br/><br/>また御拝み致すとしましたら御神名を御教示御願い申し上げます。<br/><br/> 称え言はなくともよい。<br/><br/>願言はよい。<br/><br/>ミロク大黒天――。<br/><br/>（S23.12.18） 022 大黒様祀る数 大黒様は沢山お祀りしてもよいとの御言葉でございましたが、その際やはり床の間でしょうか。<br/><br/> 一つでよろしい。<br/><br/>あまり小さいのはいけない。<br/><br/> rattail（注） 〔 御光話（S24年 4月23日） 『御光話録』7号、昭和24(1949)年**月**日発行〕掲載 ――大黒様はたくさんお祀りしてもよいとのお言葉でございましたが、たくさんお祀りする場合やはり床の間がよろしいでしょうか。<br/><br/> 『大黒様はそんなにたくさんなくちゃいかんていうことはありませんよ。<br/><br/>多いのがいいんなら百も二百も並べなくちゃいけないじゃないですか。<br/><br/>一つでいいですよ。<br/><br/>ただあまり小さいのはいけませんがね。<br/><br/>床の間にちょうどいいくらいの大きさでなくちゃあね。<br/><br/>だからここでもあれ一つですよ。<br/><br/>多いほうがいいなら、大黒様をこの辺にいっぱいぶら下げておきますよ、お雛様みたいにね。<br/><br/>（笑声）』 〔 御光話（S23年 4月 8日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/>〕 『大黒様はいくつあってもよい。<br/><br/>以前私の所には五十体くらいあった。<br/><br/>別に欲張ったわけではないですが、のちに人に分けてあげました。<br/><br/>大黒様は大きいほうがよい。<br/><br/>小さいのが数あるより大きいの一つのほうがよい。<br/><br/>』 023 大黒様多置 大黒様は幾つも床の間へ置く人がありますがいかがなもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 差支えないが、程度問題である。<br/><br/>（S24.12.23）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

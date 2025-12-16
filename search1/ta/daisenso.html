@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>daisenso</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大戦争と浄化作用 『明日の医術 第三編』昭和18(1943)年10月23日発行 私は前篇において、病気も天文現象も浄化作用であるといったが、戦争なるものも、勿論浄化作用である。<br><br>昔からの歴史の推移に対し心を潜めて観る時、ソロモンの栄華も、希臘（ギリシャ）の文明も、古都ソドムの崩壊もポンペイの埋没等も勿論その内面的に堆積せる罪穢が極度に達したからである。<br><br>又、今次の大戦は枢軸国と反枢軸国とが全世界を舞台として雌雄を決せんとする実に人類史上空前の大事変である事は今更いうまでもないが、かような大戦争が起ったという事は起るべき理由があって起ったのである。<br><br>しからば、その理由とは何ぞや、一言にしていえば、世界的大浄化作用である。<br><br>泰西文化が今日のごとく発達したというその内面には、何世紀もの罪穢が堆積し、それが極度に達したからである。<br><br>彼のアングロサクソンが、亜細亜を初め世界到るところの弱小民族を虐げ、その富を強奪しては、自国のみの利益を計り、絢爛たる文化に酔っていた――その罪悪に対し、いつかは清算の時が来なければならなかったのである。<br><br>即ち、外形的には豪壮華麗なる都市といえども、霊的には限りなき醜悪の都市であり、崩壊の運命が迫っていたのである。<br><br>倫敦（ロンドン）の破壊もそれの表われであり、いずれは紐育（ニューヨーク）の摩天楼といえども、跡方（あとかた）もなくなる時が来ないと誰が言い得るであろう。<br><br>従って、彼が東亜から駆逐されてしまうという事は、勿論わが皇国の大御稜威（おおみいづ）と、忠勇なる国民の為である事は言うまでもないが、又彼等が犯しつゝあった多年の罪悪の年の明きが来たとも言えるであろう。<br><br>右の結果として、永い間虐げられつゝあった東亜諸民族が、ここに八紘為宇の大御徳の庇護の下に皇道楽土たる日の近づきつゝある事も自然の推移であり、来るべくして来り、成るべくして成るのである。<br><br>ちょうど、浄化作用によって毒素溜結が排除し、健全なる姿に還る事であって、人体の病気に対するそれと同様の意味である。<br><br> 故に、浄化作用とは不正・不合理によって堆積せる汚穢が排泄されて、清く正しい本然の姿に還る事である。<br><br> 又、世界を人体にたとえれば、日本は心臓で欧米は肺臓で、亜細亜、濠州、阿弗利加（アフリカ）等は胃に相応するのである。<br><br> 故に、この意味によって、祓戸（はらいど）の神の世界的大祓（おおはらい）が行われる結果、心臓である日本の国力が強盛となり、それによって肺臓である欧米各国が新生命を注入され、正しく躍動する事となるのである。<br><br>勿論それは日本固有の道義的文化によって、欧米人を覚醒させ、ここに、自我的悪性でない――共存共栄的、善的文化が発展するのである。<br><br>又、胃に相応する原料資材の生産地は、大いに開発せられる事になるであろう。<br><br>人体と同じく、腎臓の活動によって心臓が健全となり、肺臓の活動となり、胃が強健になるという事と同様の意味である。<br><br>又面白い事には、心臓は左肺に包まれている。<br><br>これは、日独伊同盟の形であり、左肺に比し右肺が大きいのは、米英の意味にとれるのである。<br><br>従って、大戦争終了後は右肺である国家も心臓及び左肺と共同して、恒久の平和を樹立し、人類永遠の平和を増進せしむるようになるのは必然であって、ここに世界一丸即ち八紘為宇の大理念の実現となるのである。<br><br>即ち、人体にたとえれば心臓、肺臓、胃の臓が共に健全になり、それによって、全身的機能の活動となり、理想的健康体となることゝ同様である。<br><br> rattail（注） 私の所持する２冊ともに「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているため原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Guerra e a Ação Purificadora</h2>
 <p>Conforme afirmei em ensaio anterior, tanto as doenças quanto os fenômenos astronômicos são manifestações da ação purificadora. A guerra, naturalmente, não é exceção. Ao observarmos com atenção o desenrolar da História, percebemos que o esplendor de Salomão, a civilização grega, a ruína da antiga cidade de Sodoma e o soterramento de Pompeia ocorreram, indubitavelmente, porque a mácula dos pecados acumulados em seu âmago atingiu o seu ápice.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Um fato curioso a se notar é que o coração é envolvido pelo pulmão esquerdo, o que representa a aliança entre Japão, Alemanha e Itália. O fato de o pulmão direito ser maior que o esquerdo pode ser interpretado como uma alusão aos Estados Unidos e à Grã-Bretanha.</p>
 <p>Sendo assim, após o término da Grande Guerra, é inevitável que as nações que constituem o pulmão direito também venham a cooperar com o coração e com o pulmão esquerdo para estabelecer uma paz duradoura e promover o bem-estar eterno da humanidade. Nesse momento, concretizar-se-á a grande realização do ideal do mundo como um só lar, ou seja, o princípio Hakkō Ichiu (八紘為宇).</p>
 <p>Retomando a analogia com o corpo humano, será o momento em que coração, pulmões e estômago se tornarão plenamente sadios, resultando na ativação harmoniosa das funções de todo o organismo e na manifestação de um corpo idealmente saudável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大戦争と浄化作用 『明日の医術 第三編』昭和18(1943)年10月23日発行 私は前篇において、病気も天文現象も浄化作用であるといったが、戦争なるものも、勿論浄化作用である。<br/><br/>昔からの歴史の推移に対し心を潜めて観る時、ソロモンの栄華も、希臘（ギリシャ）の文明も、古都ソドムの崩壊もポンペイの埋没等も勿論その内面的に堆積せる罪穢が極度に達したからである。<br/><br/>又、今次の大戦は枢軸国と反枢軸国とが全世界を舞台として雌雄を決せんとする実に人類史上空前の大事変である事は今更いうまでもないが、かような大戦争が起ったという事は起るべき理由があって起ったのである。<br/><br/>しからば、その理由とは何ぞや、一言にしていえば、世界的大浄化作用である。<br/><br/>泰西文化が今日のごとく発達したというその内面には、何世紀もの罪穢が堆積し、それが極度に達したからである。<br/><br/>彼のアングロサクソンが、亜細亜を初め世界到るところの弱小民族を虐げ、その富を強奪しては、自国のみの利益を計り、絢爛たる文化に酔っていた――その罪悪に対し、いつかは清算の時が来なければならなかったのである。<br/><br/>即ち、外形的には豪壮華麗なる都市といえども、霊的には限りなき醜悪の都市であり、崩壊の運命が迫っていたのである。<br/><br/>倫敦（ロンドン）の破壊もそれの表われであり、いずれは紐育（ニューヨーク）の摩天楼といえども、跡方（あとかた）もなくなる時が来ないと誰が言い得るであろう。<br/><br/>従って、彼が東亜から駆逐されてしまうという事は、勿論わが皇国の大御稜威（おおみいづ）と、忠勇なる国民の為である事は言うまでもないが、又彼等が犯しつゝあった多年の罪悪の年の明きが来たとも言えるであろう。<br/><br/>右の結果として、永い間虐げられつゝあった東亜諸民族が、ここに八紘為宇の大御徳の庇護の下に皇道楽土たる日の近づきつゝある事も自然の推移であり、来るべくして来り、成るべくして成るのである。<br/><br/>ちょうど、浄化作用によって毒素溜結が排除し、健全なる姿に還る事であって、人体の病気に対するそれと同様の意味である。<br/><br/> 故に、浄化作用とは不正・不合理によって堆積せる汚穢が排泄されて、清く正しい本然の姿に還る事である。<br/><br/> 又、世界を人体にたとえれば、日本は心臓で欧米は肺臓で、亜細亜、濠州、阿弗利加（アフリカ）等は胃に相応するのである。<br/><br/> 故に、この意味によって、祓戸（はらいど）の神の世界的大祓（おおはらい）が行われる結果、心臓である日本の国力が強盛となり、それによって肺臓である欧米各国が新生命を注入され、正しく躍動する事となるのである。<br/><br/>勿論それは日本固有の道義的文化によって、欧米人を覚醒させ、ここに、自我的悪性でない――共存共栄的、善的文化が発展するのである。<br/><br/>又、胃に相応する原料資材の生産地は、大いに開発せられる事になるであろう。<br/><br/>人体と同じく、腎臓の活動によって心臓が健全となり、肺臓の活動となり、胃が強健になるという事と同様の意味である。<br/><br/>又面白い事には、心臓は左肺に包まれている。<br/><br/>これは、日独伊同盟の形であり、左肺に比し右肺が大きいのは、米英の意味にとれるのである。<br/><br/>従って、大戦争終了後は右肺である国家も心臓及び左肺と共同して、恒久の平和を樹立し、人類永遠の平和を増進せしむるようになるのは必然であって、ここに世界一丸即ち八紘為宇の大理念の実現となるのである。<br/><br/>即ち、人体にたとえれば心臓、肺臓、胃の臓が共に健全になり、それによって、全身的機能の活動となり、理想的健康体となることゝ同様である。<br/><br/> rattail（注） 私の所持する２冊ともに「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているため原本確認は出来ませんでした。<br/><br/>よって岡田茂吉全集によっています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

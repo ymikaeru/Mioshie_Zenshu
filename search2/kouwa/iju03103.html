@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju03103</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（三）中体病理 ７ 103-109 固結物 103 脳内のデキモノ 脳内に「デキモノ」が出来、病名不明の患者、御守護を戴き一週間位で立ち上るようになりました。<br><br>患者の妻は教修を戴き、私と共に御浄めしておりますが、最近御浄化が一進一退になりましたが、この後の御浄化の経過はいかがなもので御座居ましょうか。<br><br>御守護を御願い申し上げます。<br><br> これは治る。<br><br>脳内に毒塊があり、デキモノになっている。<br><br>それを溶かすと体の毒がまた寄ってくる。<br><br>根よくやれば治る。<br><br> 104 疣と浄霊（顔面） 顔面の疣を浄霊致しましたら益々多くなります。<br><br>いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 出るだけ出れば治ってくる。<br><br>（S24. 5.26） 105 骨腫（硬腫物） この一ケ月間に左のような症状の子供二人を見ました。<br><br>（いずれも信者さんの子供で、十歳前後です）それは左腕の後上部に突然硬い瘤様の隆起が出来、中が大変硬く、痛みもかゆみもありません。<br><br>医者は骨腫と申します。<br><br>数回浄霊しますと外側から少しずつ柔かくなりますが、中々とれません。<br><br>これはいかなるもので御座いましょうか。<br><br>（二人共虚弱児です）御伺い申し上げます。<br><br> 痛まぬ薬毒である。<br><br>治る。<br><br>骨腫など嘘である。<br><br>（S24. 8.18） 106 肝臓下の玉と運動 私は二十年間胃腸病により、昭和二十一年六月頃光明如来様を御祭りさせて頂きました。<br><br>約二ケ月位後、肝臓下の腹中に卵位の玉が出来、その後毎日御浄霊を頂いておりますが次第に大きく、ただ今では、握り拳程に大きく、浄霊を受けますと玉を中心にして腹全体が張って来ますが、いかなるものでしょうか。<br><br>御教え下さい。<br><br> 本当は毒素が集って来たので結構な症状である。<br><br>年とっているので浄化力が微弱である。<br><br>浄霊すれば小便や下痢になって出る。<br><br>なるべく運動した方がよい。<br><br>（S25. 5.27） 107 右腹の塊 三十二歳の女、四、五年前右腹に大きな塊が出来、順次大きくなり、現在握り拳大となっております。<br><br>（半月程前より浄霊をしている信徒）原因と御浄霊法を御教示下さい。<br><br> 右腹というと腹の真中へ寄った所であって卵巣膿腫等で、単純なものである。<br><br>端へ寄っていれば子宮筋腫等である。<br><br> 右腎臓をよく浄霊すると自然に治る。<br><br>（S24. 6.28） 108 下腹部の瘤 左下腹部内の瘤（生れたての赤ン坊の頭大）についての御伺い――。<br><br> 一昨年（昭和二十二年六月）肉腫と診断され、直ちに開腹手術を実行しなければならぬと言われ、私も開腹せずとも治る方法を求めあちこち探しました。<br><br>去年（三月より七月一杯）千葉県の実姉と相談し産婦人科にかかり注射療法を受けました。<br><br>それでやや良好に見えましたが、退院して今日に至るも瘤は依然として禍をなし、腰が時々非常に痛みますので、困却しております。<br><br>そのためこの度大光明如来様へのお縋りを五十嵐先生に奨められ、御光を戴き、治療の全きを期そうとするものでありますが、右につき御教示お願い申し上げます。<br><br> 一、左下腹部内に瘤が出来ているため左足に浮腫がある事。<br><br> 一、毎月あるべきものが発病以来止っている事。<br><br> 一、時間的に三十分と立っていられぬ事。<br><br> 一、入湯して暖めると腰腹が痛んで来る事。<br><br> 一、この病気のため床についた事はありません。<br><br> 一、頭痛も起きた事はありません。<br><br> 一、仕事をつめて実行するとすぐ瘤が痛んで来ます。<br><br> 一、右のようですから病気前の健全の時のように仕事の気力がありません。<br><br> 腹の病の因は後ろにある。<br><br>それを気長にやれば治る。<br><br>肉腫ではない。<br><br>腰痛する故腎臓である。<br><br>尾てい骨付近に瘤あり、それを浄霊する。<br><br>（S24. 2.20） 109 臀部の瘤 私は十年程前からだと思いますが、右臀部に小さな瘤様のものが出来、別に痛くもなかったので何の手当もせずにおりましたが、だんだんと肥大しまして、今は一掴みもある位です。<br><br>一昨年頃から浄霊を戴いております。<br><br>この頃夜寝ていたり (ﾏﾏ) 、また、時々痛むようになりました。<br><br>これは霊的か病的か御教示下さい。<br><br>私の実父が馬に噛まれて私と同じ所におできのようになっておりました。<br><br>固まったままで化膿もしていませんでした。<br><br> 痛んでくればしめたものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Medicina (Três) - Patologia do Corpo Medial: Massas Solidificadas</h2>
 <p><strong>103. Massa Intracraniana</strong></p>
@@ -129,5 +281,48 @@ function toggleLang(lang) {
 <p><strong>109. Nódulo nas Nádegas</strong></p>
 <p>Há cerca de dez anos, percebi o surgimento de um pequeno nódulo em minha nádega direita. Como não sentia dor, não realizei nenhum tratamento, mas a massa cresceu progressivamente e hoje alcançou o volume que se pode segurar com uma mão. Venho recebendo Johrei há dois anos. Recentemente, o local começou a doer de forma intermitente, inclusive durante a noite. Gostaria de saber se a natureza deste problema é espiritual ou física. Adicionalmente, meu falecido pai teve algo semelhante no mesmo local, originado por uma mordida de cavalo. A lesão dele endureceu, mas nunca supurou.</p>
 <p>O fato de ter começado a doer é um excelente sinal.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇（三）中体病理 ７ 103-109 固結物 103 脳内のデキモノ 脳内に「デキモノ」が出来、病名不明の患者、御守護を戴き一週間位で立ち上るようになりました。<br/><br/>患者の妻は教修を戴き、私と共に御浄めしておりますが、最近御浄化が一進一退になりましたが、この後の御浄化の経過はいかがなもので御座居ましょうか。<br/><br/>御守護を御願い申し上げます。<br/><br/> これは治る。<br/><br/>脳内に毒塊があり、デキモノになっている。<br/><br/>それを溶かすと体の毒がまた寄ってくる。<br/><br/>根よくやれば治る。<br/><br/> 104 疣と浄霊（顔面） 顔面の疣を浄霊致しましたら益々多くなります。<br/><br/>いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 出るだけ出れば治ってくる。<br/><br/>（S24. 5.26） 105 骨腫（硬腫物） この一ケ月間に左のような症状の子供二人を見ました。<br/><br/>（いずれも信者さんの子供で、十歳前後です）それは左腕の後上部に突然硬い瘤様の隆起が出来、中が大変硬く、痛みもかゆみもありません。<br/><br/>医者は骨腫と申します。<br/><br/>数回浄霊しますと外側から少しずつ柔かくなりますが、中々とれません。<br/><br/>これはいかなるもので御座いましょうか。<br/><br/>（二人共虚弱児です）御伺い申し上げます。<br/><br/> 痛まぬ薬毒である。<br/><br/>治る。<br/><br/>骨腫など嘘である。<br/><br/>（S24. 8.18） 106 肝臓下の玉と運動 私は二十年間胃腸病により、昭和二十一年六月頃光明如来様を御祭りさせて頂きました。<br/><br/>約二ケ月位後、肝臓下の腹中に卵位の玉が出来、その後毎日御浄霊を頂いておりますが次第に大きく、ただ今では、握り拳程に大きく、浄霊を受けますと玉を中心にして腹全体が張って来ますが、いかなるものでしょうか。<br/><br/>御教え下さい。<br/><br/> 本当は毒素が集って来たので結構な症状である。<br/><br/>年とっているので浄化力が微弱である。<br/><br/>浄霊すれば小便や下痢になって出る。<br/><br/>なるべく運動した方がよい。<br/><br/>（S25. 5.27） 107 右腹の塊 三十二歳の女、四、五年前右腹に大きな塊が出来、順次大きくなり、現在握り拳大となっております。<br/><br/>（半月程前より浄霊をしている信徒）原因と御浄霊法を御教示下さい。<br/><br/> 右腹というと腹の真中へ寄った所であって卵巣膿腫等で、単純なものである。<br/><br/>端へ寄っていれば子宮筋腫等である。<br/><br/> 右腎臓をよく浄霊すると自然に治る。<br/><br/>（S24. 6.28） 108 下腹部の瘤 左下腹部内の瘤（生れたての赤ン坊の頭大）についての御伺い――。<br/><br/> 一昨年（昭和二十二年六月）肉腫と診断され、直ちに開腹手術を実行しなければならぬと言われ、私も開腹せずとも治る方法を求めあちこち探しました。<br/><br/>去年（三月より七月一杯）千葉県の実姉と相談し産婦人科にかかり注射療法を受けました。<br/><br/>それでやや良好に見えましたが、退院して今日に至るも瘤は依然として禍をなし、腰が時々非常に痛みますので、困却しております。<br/><br/>そのためこの度大光明如来様へのお縋りを五十嵐先生に奨められ、御光を戴き、治療の全きを期そうとするものでありますが、右につき御教示お願い申し上げます。<br/><br/> 一、左下腹部内に瘤が出来ているため左足に浮腫がある事。<br/><br/> 一、毎月あるべきものが発病以来止っている事。<br/><br/> 一、時間的に三十分と立っていられぬ事。<br/><br/> 一、入湯して暖めると腰腹が痛んで来る事。<br/><br/> 一、この病気のため床についた事はありません。<br/><br/> 一、頭痛も起きた事はありません。<br/><br/> 一、仕事をつめて実行するとすぐ瘤が痛んで来ます。<br/><br/> 一、右のようですから病気前の健全の時のように仕事の気力がありません。<br/><br/> 腹の病の因は後ろにある。<br/><br/>それを気長にやれば治る。<br/><br/>肉腫ではない。<br/><br/>腰痛する故腎臓である。<br/><br/>尾てい骨付近に瘤あり、それを浄霊する。<br/><br/>（S24. 2.20） 109 臀部の瘤 私は十年程前からだと思いますが、右臀部に小さな瘤様のものが出来、別に痛くもなかったので何の手当もせずにおりましたが、だんだんと肥大しまして、今は一掴みもある位です。<br/><br/>一昨年頃から浄霊を戴いております。<br/><br/>この頃夜寝ていたり (ﾏﾏ) 、また、時々痛むようになりました。<br/><br/>これは霊的か病的か御教示下さい。<br/><br/>私の実父が馬に噛まれて私と同じ所におできのようになっておりました。<br/><br/>固まったままで化膿もしていませんでした。<br/><br/> 痛んでくればしめたものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

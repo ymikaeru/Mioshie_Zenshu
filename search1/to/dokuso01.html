@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>dokuso01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒素とは何か 未発表『医学革命の書』昭和28(1953)年執筆 病気の原因は体内に溜った薬毒の固結が、溶解排除される苦痛である事と、医学はその苦痛を逆解し、溶けようとする毒素を固める事であるが、それには毒を体内に入れて弱らす事である。<br><br>というのは毒素排除すなわち浄化作用なるものは、人間が健康であればある程旺盛なものであるからである。<br><br>そこで浄化作用を停止する事で、それには健康を弱らす事である。<br><br>その理を知らない人間は、昔からその毒を探し求め飲ませたところ、からだが弱り、浄化が弱り、苦痛が軽減したのでそれで治ると思い、有難いものとして薬と名付け、病気の場合これを唯一のものとして用いたのである。<br><br>これについて有名な漢〔蘭〕方の名医杉田玄白のいった事は、「薬は毒である。<br><br>治病に薬を飲ませるのは、毒をもって毒を制するのだ」との言葉は至言である。<br><br>ただいささか徹底しない点は、毒をもって毒を出さないようにするといった方がなおハッキリする。<br><br>この理によって毒の排除を止めるに毒をもってする以上、古い毒素の上に新しい毒素を追加するので、古い毒の固りの外に新しい毒の固りが増えるから、最初より浄化が悪性となる。<br><br>それに対しまた新しい毒を入れるから、段々毒が増えてゆき、からだは弱る上に弱るので、浄化の力も弱くなる。<br><br>こうなった人は顔色悪く、風邪引き易く、元気なく、常に医者と薬に浸りきりになり、生ける屍のごとくなって、年が年中苦しみ通しであって、一人前の仕事など到底出来ない哀れな者である。<br><br>しかもそうなってもその原因が分らないから、相変らず次から次へ医師を取換え、新薬を探し求め、灸や禁厭（まじない）、民間療法、信仰等に遍歴しているが、それでも根本が分らないため、散々金を使った揚句（あげく）、苦しみながらあの世行となるので、この因はといえば医学の誤りであるから、この罪悪こそ驚くべく恐るべきもので、結果からいえば医学は悲劇の製造元であるといってもいい。<br><br> このように私は思い切って赤裸々にかいたが、これを読んだ医学関係者は何と思うであろう。<br><br>中には憤慨する者もあるであろうが、全人類救済上止む事を得ないので、小の虫を殺して大の虫を助ける訳であって、これこそ神の大愛によるのであるから、むしろその恩恵に感謝すべきである。<br><br>その結果病なき人間が増えるとしたら、この世界はどうなるであろうか。<br><br>今までの地獄世界は一転して、地上天国、極楽世界となるのは必然で、想像するだに歓喜幸福の希望が湧くであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Equívoco da Medicina e a Verdadeira Causa da Doença</h2>
 <p>A causa das doenças reside no sofrimento decorrente da dissolução e eliminação de toxinas medicamentosas solidificadas no corpo. A medicina, todavia, interpreta equivocadamente esse processo e, em vez de o favorecer, busca solidificar novamente as toxinas que estão em vias de dissolução, introduzindo novos venenos no organismo com o propósito de debilitá-lo. Isso ocorre porque o processo de eliminação de toxinas — a purificação — é tanto mais vigoroso quanto mais saudável for o indivíduo. Portanto, para interromper a purificação, é preciso minar a saúde da pessoa.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Mesmo nesse estado deplorável, por não compreender a causa de seu mal, continua a peregrinar de médico em médico, buscando novos fármacos, recorrendo a moxabustão, a sortilégios, a terapias populares e até a diversas práticas de fé. Todavia, por ignorar a raiz do problema, após despender fortunas, acaba por fazer sua passagem para o outro mundo em meio a grande agonia. A causa primordial de tal infortúnio reside no equívoco da medicina. Seu erro constitui um crime de proporções assustadoras e aterradoras; analisando seus resultados, não seria exagero afirmar que a medicina se tornou uma fábrica de tragédias.</p>
 <p>Exponho estes fatos de forma deliberadamente franca e direta, ciente de que, ao lê-los, alguns profissionais da área médica poderão sentir-se ultrajados. Contudo, tal atitude é indispensável para a salvação de toda a humanidade. Corresponde a sacrificar o interesse menor em prol do bem maior, um ato que, em sua essência, manifesta o Grande Amor de Deus. Por essa razão, em vez de ressentimento, deveriam ser gratos por esta dádiva.</p>
 <p>Se, como resultado, o número de pessoas livres de doenças aumentar, como se tornará este mundo? O mundo infernal que conhecemos se transformará, inevitavelmente, em um Paraíso Terrestre, um mundo de suprema felicidade. A simples imaginação de tal realidade é suficiente para fazer brotar em nós a esperança de uma era de alegria e bem-aventurança.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 毒素とは何か 未発表『医学革命の書』昭和28(1953)年執筆 病気の原因は体内に溜った薬毒の固結が、溶解排除される苦痛である事と、医学はその苦痛を逆解し、溶けようとする毒素を固める事であるが、それには毒を体内に入れて弱らす事である。<br/><br/>というのは毒素排除すなわち浄化作用なるものは、人間が健康であればある程旺盛なものであるからである。<br/><br/>そこで浄化作用を停止する事で、それには健康を弱らす事である。<br/><br/>その理を知らない人間は、昔からその毒を探し求め飲ませたところ、からだが弱り、浄化が弱り、苦痛が軽減したのでそれで治ると思い、有難いものとして薬と名付け、病気の場合これを唯一のものとして用いたのである。<br/><br/>これについて有名な漢〔蘭〕方の名医杉田玄白のいった事は、「薬は毒である。<br/><br/>治病に薬を飲ませるのは、毒をもって毒を制するのだ」との言葉は至言である。<br/><br/>ただいささか徹底しない点は、毒をもって毒を出さないようにするといった方がなおハッキリする。<br/><br/>この理によって毒の排除を止めるに毒をもってする以上、古い毒素の上に新しい毒素を追加するので、古い毒の固りの外に新しい毒の固りが増えるから、最初より浄化が悪性となる。<br/><br/>それに対しまた新しい毒を入れるから、段々毒が増えてゆき、からだは弱る上に弱るので、浄化の力も弱くなる。<br/><br/>こうなった人は顔色悪く、風邪引き易く、元気なく、常に医者と薬に浸りきりになり、生ける屍のごとくなって、年が年中苦しみ通しであって、一人前の仕事など到底出来ない哀れな者である。<br/><br/>しかもそうなってもその原因が分らないから、相変らず次から次へ医師を取換え、新薬を探し求め、灸や禁厭（まじない）、民間療法、信仰等に遍歴しているが、それでも根本が分らないため、散々金を使った揚句（あげく）、苦しみながらあの世行となるので、この因はといえば医学の誤りであるから、この罪悪こそ驚くべく恐るべきもので、結果からいえば医学は悲劇の製造元であるといってもいい。<br/><br/> このように私は思い切って赤裸々にかいたが、これを読んだ医学関係者は何と思うであろう。<br/><br/>中には憤慨する者もあるであろうが、全人類救済上止む事を得ないので、小の虫を殺して大の虫を助ける訳であって、これこそ神の大愛によるのであるから、むしろその恩恵に感謝すべきである。<br/><br/>その結果病なき人間が増えるとしたら、この世界はどうなるであろうか。<br/><br/>今までの地獄世界は一転して、地上天国、極楽世界となるのは必然で、想像するだに歓喜幸福の希望が湧くであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

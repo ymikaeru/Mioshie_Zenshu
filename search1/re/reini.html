@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reini</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊に税金がかかる 『地上天国』4号、昭和24(1949)年5月25日発行 この標題を見た人は合点がゆかないであろうが、以下の説明によってなる程と納得がゆくはずである。<br><br>本教団に対し、全国の新聞を賑わした彼の税金問題は大抵の人は知っているであろう。<br><br>実に二五二四万四八三二円一八銭也（既納税額を含む）という箆棒（べらぼう）な税金をかけられたので流石（さすが）の吾々も仰天したのである。<br><br>この高額の税金は昭和二十一年一月から二十三年十二月まで三年間に対する課税である。<br><br>二十一年二十二年は収入は僅かであった。<br><br>その訳は二十二年七月までは浄化療法と唱える民間療術であったからで、それが翌八月から宗教法人日本観音教団の名の下に宗教的活動に入り、それから収入が殖え始めたという訳で、二十二年八月から二十三年十二月までの僅々十四ケ月間に対する課税が主なるもので、その分が概算千五百万円くらいになろう。<br><br>この取調べに対して数人の税務官が、毎日出張して一ケ月余もかかったのであるから、決して誤算などありようはずがなくまず正確である事は太鼓判を押してもよかろう。<br><br> 以上のような多額の税金をかけられたその基本収入が何千万円というのであるから、誰しも驚くと共に、一体全体どんな不思議の謎があるという事は、本教団を知る限りの人は、誰しも知りたいであろう。<br><br>そこで吾らとその収入の基礎的原因である謎の正体をここに赤裸々に露呈してみるのである。<br><br> そもそも、本教団はいうまでもなく宗教団体である以上、十数万に及ぶところの信徒が御利益に対する感謝の財物や御利益を願うための奉納金、参拝の御賽銭金が全収入で、これは一般宗教と同様である。<br><br>ただ違うところは開教誠に僅かな期間に驚くべき収入があった事で、これが問題になるのである。<br><br>しかしこれによってみてもいかに本教信者の御利益が素晴しいかという事が推定される訳で、それをここにはっきりさせようとするのである。<br><br> そもそも、本教団においては本教の創始者として吾らが尊敬の的ともいうべき、岡田大先生が揮毫なされるところの文字の不思議である。<br><br>光の一字を書かれた幅一尺、丈二反三寸の紙片を折り畳んでお守に掛け、あるいは光明如来と書かれた巾一尺二寸、丈三尺五寸の縦の幅（ふく）を床の間へ掛け、礼拝する事によって実に驚くべき奇蹟が起り、顕著な御利益を戴けるという。<br><br>第三者としては到底理解出来得ない程の事実である。<br><br>そのため感謝感激のあまり財物をお礼として献上するしそれが教団の全収入である。<br><br>この不思議な現象に対し、大先生の説明によれば「神霊が自分の手を通して文字に印せられるのである。<br><br>その文字へ霊線によって不断にある高級神霊が霊界における観世音を通し、自分の霊体をまた通し、お守をまたまた通しお守拝受者の霊体を通して病患を初め種々の物体に放射され、驚くべき効果を挙げるのである。<br><br>つまり無機物が有機的存在となって活動するのである。<br><br>これらを現代人に理解させる事は誠に至難で、今の所これ以上の説明は不可能である。<br><br>右のように自分のやっている事は全く見えざる力の行使であるから、結果であるところの御利益をもって実証するより外致し方ないであろう」 以上のごとく文字が生物のごとく躍動し、見えざる力の活動となり、それによって生れた収入が課税の対象となったのであるから、課税の原因は霊すなわち空である事に間違いはないとすれば実におかしな話で、世界のどこを探しても、この霊に対して何千万円の課税の対象になった例は恐らくないであろう。<br><br> しかしながらよく考えてみれば、現在の政治は一切が唯物一点張りで作った法規が元であり霊などという見えざるものは、テンデ問題にしないのであるがら、この場合霊と税とは全く矛盾している訳である。<br><br>とはいうものの当局は収入そのものだけを見て、その収入の生れた原因などはどうでもよい。<br><br>ただより多くの納税を得なければ国家の経済が成立たないという緊迫せる今日の状況であってみれば、吾らも国民の一員としてまた止むを得ないところと諦めて、一生懸命に納税を済せる事に目下努力中である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Imposto sobre o Mundo Espiritual</h2>
 <p>À primeira vista, o título deste artigo poderá causar estranheza; contudo, a explanação que se segue certamente elucidará a questão e trará pleno entendimento. A maioria das pessoas deve ter conhecimento do caso tributário envolvendo nossa Igreja, que mobilizou a imprensa nacional. Fomos notificados de uma cobrança de impostos na soma exorbitante de 25.244.832,18 ienes (incluindo valores já pagos), um montante que, como era de se esperar, deixou-nos estarrecidos.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Sobre esse fenômeno extraordinário, o Grande Mestre oferece a seguinte explicação: “O espírito de Deus utiliza minha mão para se imprimir nos ideogramas. A partir deles, uma linha espiritual invisível conecta-se ininterruptamente a um elevado espírito divino que, através de Kannon (観音) no Mundo Espiritual, de meu próprio corpo espiritual e, por fim, do amuleto, irradia sua força sobre o corpo espiritual de quem o possui, atuando sobre doenças e diversas outras aflições materiais com uma eficácia surpreendente. Em suma, a matéria inorgânica adquire uma existência orgânica e passa a atuar. Tornar isso compreensível para o homem moderno é, de fato, uma tarefa árdua, e, por ora, não há explicação mais profunda que se possa oferecer. O que realizo é inteiramente o exercício de uma força invisível, e não há outra forma de comprovação senão por meio dos resultados concretos: as graças alcançadas.”</p>
 <p>Portanto, os ideogramas pulsam com vida, tornando-se uma manifestação da força invisível, e a receita gerada por essa atividade tornou-se o objeto da tributação. Conclui-se, assim, que a causa geradora do imposto é o espírito – ou seja, algo imaterial. Trata-se de uma situação verdadeiramente singular; possivelmente, não há precedente em parte alguma do mundo para a aplicação de um imposto de dezenas de milhões sobre o espírito.</p>
 <p>Contudo, ao refletirmos, percebemos que a política atual se fundamenta em leis construídas sob uma ótica estritamente materialista, que ignora por completo a existência de realidades invisíveis como o espírito. Nesse sentido, a tributação do espírito representa um profundo paradoxo. Todavia, as autoridades fiscais observam apenas a receita em si, sem se interessarem por sua origem. Dada a premente situação econômica do país, que exige a máxima arrecadação para que o Estado se mantenha, nós, como cidadãos, compreendemos ser nosso dever resignar-nos ao que nos parece inevitável. E assim, estamos, no momento, empenhando todos os nossos esforços para cumprir com nossa obrigação fiscal.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊に税金がかかる 『地上天国』4号、昭和24(1949)年5月25日発行 この標題を見た人は合点がゆかないであろうが、以下の説明によってなる程と納得がゆくはずである。<br/><br/>本教団に対し、全国の新聞を賑わした彼の税金問題は大抵の人は知っているであろう。<br/><br/>実に二五二四万四八三二円一八銭也（既納税額を含む）という箆棒（べらぼう）な税金をかけられたので流石（さすが）の吾々も仰天したのである。<br/><br/>この高額の税金は昭和二十一年一月から二十三年十二月まで三年間に対する課税である。<br/><br/>二十一年二十二年は収入は僅かであった。<br/><br/>その訳は二十二年七月までは浄化療法と唱える民間療術であったからで、それが翌八月から宗教法人日本観音教団の名の下に宗教的活動に入り、それから収入が殖え始めたという訳で、二十二年八月から二十三年十二月までの僅々十四ケ月間に対する課税が主なるもので、その分が概算千五百万円くらいになろう。<br/><br/>この取調べに対して数人の税務官が、毎日出張して一ケ月余もかかったのであるから、決して誤算などありようはずがなくまず正確である事は太鼓判を押してもよかろう。<br/><br/> 以上のような多額の税金をかけられたその基本収入が何千万円というのであるから、誰しも驚くと共に、一体全体どんな不思議の謎があるという事は、本教団を知る限りの人は、誰しも知りたいであろう。<br/><br/>そこで吾らとその収入の基礎的原因である謎の正体をここに赤裸々に露呈してみるのである。<br/><br/> そもそも、本教団はいうまでもなく宗教団体である以上、十数万に及ぶところの信徒が御利益に対する感謝の財物や御利益を願うための奉納金、参拝の御賽銭金が全収入で、これは一般宗教と同様である。<br/><br/>ただ違うところは開教誠に僅かな期間に驚くべき収入があった事で、これが問題になるのである。<br/><br/>しかしこれによってみてもいかに本教信者の御利益が素晴しいかという事が推定される訳で、それをここにはっきりさせようとするのである。<br/><br/> そもそも、本教団においては本教の創始者として吾らが尊敬の的ともいうべき、岡田大先生が揮毫なされるところの文字の不思議である。<br/><br/>光の一字を書かれた幅一尺、丈二反三寸の紙片を折り畳んでお守に掛け、あるいは光明如来と書かれた巾一尺二寸、丈三尺五寸の縦の幅（ふく）を床の間へ掛け、礼拝する事によって実に驚くべき奇蹟が起り、顕著な御利益を戴けるという。<br/><br/>第三者としては到底理解出来得ない程の事実である。<br/><br/>そのため感謝感激のあまり財物をお礼として献上するしそれが教団の全収入である。<br/><br/>この不思議な現象に対し、大先生の説明によれば「神霊が自分の手を通して文字に印せられるのである。<br/><br/>その文字へ霊線によって不断にある高級神霊が霊界における観世音を通し、自分の霊体をまた通し、お守をまたまた通しお守拝受者の霊体を通して病患を初め種々の物体に放射され、驚くべき効果を挙げるのである。<br/><br/>つまり無機物が有機的存在となって活動するのである。<br/><br/>これらを現代人に理解させる事は誠に至難で、今の所これ以上の説明は不可能である。<br/><br/>右のように自分のやっている事は全く見えざる力の行使であるから、結果であるところの御利益をもって実証するより外致し方ないであろう」 以上のごとく文字が生物のごとく躍動し、見えざる力の活動となり、それによって生れた収入が課税の対象となったのであるから、課税の原因は霊すなわち空である事に間違いはないとすれば実におかしな話で、世界のどこを探しても、この霊に対して何千万円の課税の対象になった例は恐らくないであろう。<br/><br/> しかしながらよく考えてみれば、現在の政治は一切が唯物一点張りで作った法規が元であり霊などという見えざるものは、テンデ問題にしないのであるがら、この場合霊と税とは全く矛盾している訳である。<br/><br/>とはいうものの当局は収入そのものだけを見て、その収入の生れた原因などはどうでもよい。<br/><br/>ただより多くの納税を得なければ国家の経済が成立たないという緊迫せる今日の状況であってみれば、吾らも国民の一員としてまた止むを得ないところと諦めて、一生懸命に納税を済せる事に目下努力中である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

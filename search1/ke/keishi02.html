@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>keishi02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 軽視出来ない事実 自観叢書10編『神示の健康法』、昭和25(1950)年4月20日発行 『光』27号、昭和24(1949)年9月17日発行の論文に加筆掲載 今回の全米水上選手権大会における成績は実に意外である。<br><br>マサカ日本がこれ程強く、アメリカとの差がこんなに著るしいとは誰が思ったであろう。<br><br>もっとも巨豪古橋が昨年驚くべきレコードを作ったので、相当の期待はしていたがこれほどとは思わなかった。<br><br>それまで世界の水上選手権は米国が握っていたからである。<br><br> この事実に対し、米国の専門家は、その原因が日本選手の猛練習にあるといい、八時間も継続練習を続けるとは驚いたといっている、これについて、吾らの見解をかいてみよう。<br><br> 真の原因は体力の相違である、というとちょっと不思議に聞えるが、これまでは米人の方が日本人より体力は優っていると誰しも思っていたのであるが、何ぞ知らん、今回の競泳によってみれば日本人の体力の方が優っているという事実を認めない訳にはゆかない。<br><br>とすればこの原因を充分突止める必要があろう。<br><br>実をいうと、第一は食物の関係である。<br><br>それは米人の肉食多用に対し日本人の方は菜食が多い事実である。<br><br>というのは肉食者は体力が外部に偏り、内部は弱化するのである。<br><br>その事実として短距離の場合、米国は強いが、長距離になると日本人の方が強いのは、耐久力、すなわち、息切れが少ない点である。<br><br>この事について左の記事はよくそれが表われている、八月二十日毎日新聞記載（ロスアンゼルス電話）「前略、外国選手は初めはよく飛ばすが百を過ぎると目に見えて落ちて来る、泳法はいいのだが、ブルム、ジョーンズなど四百で最初の五十、百は物凄いが二百からは全くダメだった、これは練習不足以外の何物でもないと思う、八百リレーは丸山、村山が特に好調、浜口も自信たっぷりで飛出した、古橋は四百の決勝のあとにもかかわらず、前半一分一秒四、後半一分六秒三という驚異的な成績で、これが世界記録樹立の主因となったと思う」 右の練習のためという事も無論間違いはないが、長時間の練習に堪えるのも、体力強靭のためである、それについてこういう事がある。<br><br> これは外国登山家の話だが、登山一週間前から絶対菜食を摂るそうである。<br><br>また私が以前の著書に、日本の農民が菜食だからアレ丈の労働に堪える、もし肉食だとしたら、直に参ってしまうと記した事がある。<br><br>また、菜食者の長命である事は事実であって、彼の有名な英国の文豪ショウ翁は、今年九十三歳で、矍鑠（かくしゃく）としているのは、彼が菜食のためである。<br><br>また、禅僧の長命もそうである。<br><br>十数年前百十二歳で死んだ禅僧、鳥栖越山師のごときは、死の直前まで矍鑠としていたという事は死の直前十数人の人に一々遺言したとの事である。<br><br> これら幾多の事実によっても菜食がいかに人間の健康にいいか判るであろう、今日栄養は肉食の方が勝っているように想っているのはいかに誤りであるかを知るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Fato que Não Pode Ser Ignorado</h2>
 <p>O resultado do recente Campeonato Norte-Americano de Natação foi, na verdade, surpreendente. Quem poderia imaginar que o Japão se mostraria tão forte e que a diferença em relação aos Estados Unidos seria tão notável? Embora o assombroso recorde estabelecido no ano anterior pelo grande nadador Furuhashi tenha gerado considerável expectativa, ninguém previa um desempenho de tal magnitude. A surpresa se justifica, pois, até então, a hegemonia mundial da natação pertencia inquestionavelmente aos norte-americanos.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>A alegação de que o resultado se deve ao treino não está, por certo, equivocada. Contudo, a própria capacidade de suportar longas horas de prática decorre de uma constituição física robusta. A esse respeito, existem outros fatos dignos de nota. Ouve-se dizer, por exemplo, que os alpinistas estrangeiros adotam uma dieta estritamente vegetariana uma semana antes de iniciarem uma escalada. Eu mesmo já registrei em um de meus livros anteriores que os agricultores japoneses suportam seu árduo trabalho justamente por terem uma dieta vegetariana; se consumissem carne, sucumbiriam rapidamente ao esforço.</p>
 <p>Ademais, é um fato que os vegetarianos desfrutam de maior longevidade. O célebre escritor britânico Bernard Shaw, por exemplo, aos seus noventa e três anos, mantém-se lúcido e vigoroso, e atribui-se tal vitalidade à sua dieta vegetariana. O mesmo se aplica à longevidade dos monges zen-budistas. Um exemplo notável é o do monge Tosu Etsuzan, que faleceu há mais de uma década aos cento e doze anos. Diz-se que ele se manteve perfeitamente lúcido até o fim, tanto que, em seu leito de morte, dirigiu suas últimas palavras, uma a uma, a mais de dez pessoas.</p>
 <p>Esses inúmeros fatos demonstram quão benéfica é a dieta vegetariana para a saúde humana. Fica evidente, portanto, o grande equívoco da crença contemporânea de que uma alimentação à base de carne é nutricionalmente superior.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 軽視出来ない事実 自観叢書10編『神示の健康法』、昭和25(1950)年4月20日発行 『光』27号、昭和24(1949)年9月17日発行の論文に加筆掲載 今回の全米水上選手権大会における成績は実に意外である。<br/><br/>マサカ日本がこれ程強く、アメリカとの差がこんなに著るしいとは誰が思ったであろう。<br/><br/>もっとも巨豪古橋が昨年驚くべきレコードを作ったので、相当の期待はしていたがこれほどとは思わなかった。<br/><br/>それまで世界の水上選手権は米国が握っていたからである。<br/><br/> この事実に対し、米国の専門家は、その原因が日本選手の猛練習にあるといい、八時間も継続練習を続けるとは驚いたといっている、これについて、吾らの見解をかいてみよう。<br/><br/> 真の原因は体力の相違である、というとちょっと不思議に聞えるが、これまでは米人の方が日本人より体力は優っていると誰しも思っていたのであるが、何ぞ知らん、今回の競泳によってみれば日本人の体力の方が優っているという事実を認めない訳にはゆかない。<br/><br/>とすればこの原因を充分突止める必要があろう。<br/><br/>実をいうと、第一は食物の関係である。<br/><br/>それは米人の肉食多用に対し日本人の方は菜食が多い事実である。<br/><br/>というのは肉食者は体力が外部に偏り、内部は弱化するのである。<br/><br/>その事実として短距離の場合、米国は強いが、長距離になると日本人の方が強いのは、耐久力、すなわち、息切れが少ない点である。<br/><br/>この事について左の記事はよくそれが表われている、八月二十日毎日新聞記載（ロスアンゼルス電話）「前略、外国選手は初めはよく飛ばすが百を過ぎると目に見えて落ちて来る、泳法はいいのだが、ブルム、ジョーンズなど四百で最初の五十、百は物凄いが二百からは全くダメだった、これは練習不足以外の何物でもないと思う、八百リレーは丸山、村山が特に好調、浜口も自信たっぷりで飛出した、古橋は四百の決勝のあとにもかかわらず、前半一分一秒四、後半一分六秒三という驚異的な成績で、これが世界記録樹立の主因となったと思う」 右の練習のためという事も無論間違いはないが、長時間の練習に堪えるのも、体力強靭のためである、それについてこういう事がある。<br/><br/> これは外国登山家の話だが、登山一週間前から絶対菜食を摂るそうである。<br/><br/>また私が以前の著書に、日本の農民が菜食だからアレ丈の労働に堪える、もし肉食だとしたら、直に参ってしまうと記した事がある。<br/><br/>また、菜食者の長命である事は事実であって、彼の有名な英国の文豪ショウ翁は、今年九十三歳で、矍鑠（かくしゃく）としているのは、彼が菜食のためである。<br/><br/>また、禅僧の長命もそうである。<br/><br/>十数年前百十二歳で死んだ禅僧、鳥栖越山師のごときは、死の直前まで矍鑠としていたという事は死の直前十数人の人に一々遺言したとの事である。<br/><br/> これら幾多の事実によっても菜食がいかに人間の健康にいいか判るであろう、今日栄養は肉食の方が勝っているように想っているのはいかに誤りであるかを知るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

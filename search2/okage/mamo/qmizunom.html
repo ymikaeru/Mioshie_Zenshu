@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qmizunom</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水呑み百姓の救わるる道は唯一つ 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 宮崎県 光宝大教会 長友俊幸（26） 水呑百姓の名に洩れず、過ぎにし貧乏の明け暮れは、夢多き青年の前途を真暗くしました。<br><br>耕作面積の狭い上に相当の肥料代を支払っていきますと、食べるだけが精一杯、来る年も来る年も同じようなことの反覆でございました。<br><br> 敗戦と言う冷厳な事の前には「兵隊で飯を食う」とひそかに抱いた希望も、無惨に打ち砕かれてしまったのでございます。<br><br>いかにして、と日夜悩み続けた私でございましたが、妹の蓄膿症でお蔭を戴き、それに刺戟されて入信さして戴いた私でございました。<br><br> その頃はまだ日本浄化療法と言われていた頃で自然農法の事を御教え戴いておりませんでした。<br><br>暫く経って初めて御教えを戴いたのでございましたが、観音教を極端に嫌い「そうしたことをするなら叩き出す」と父が申しますので、是と信じながら我慢してひたすら時期を待ったのでございます。<br><br>と突然父が他界しましたので、母にもよく話しまして、遂に心に画いていた無肥料栽培（自然農法）の試作を麦から始めさして戴いたのでございます。<br><br>「そんなことをして出来るはずがない」と言う母を辛うじて納得させて播種したのでございましたが、例外なく発芽した麦は真黄色です「火を点けたら燃えるだろう」と聞えよがしに語り合う村人達「迷信邪教に踊らされる大馬鹿者が、正手には二人いる」（一人は支部長の長友先生のこと）酔ったまぎれに家の前でどなられたり「お前のような不幸者はおらんわい、六十になった母を干し殺すか」等と言われますと、ああこれに一握りの硫安を撒いたら、とどれ程思ったか分りませんでした。<br><br>「穂が出るもんか」「気が狂ったんだろう」「どら息子」「馬鹿たれ」と罵倒された私でございました。<br><br>でも私は頑としてそれに応ぜず、必ずやり遂げると固く心で誓いました。<br><br>先駆者は叩かれるのが必定、道なき道を踏み分けて進む身には荊あらん、葛も絡まん。<br><br>でもでも御浄霊の神秘を体験さして戴いている私には、御守護により何物をも恐れざる安心感を戴いていたのでございます。<br><br> 生きとし生けるもの皆に、御恵を給う神様であらせられるのだもの、農作物にも、ちゃんとお蔭が戴けると御教えを戴いているのだもの、必ずや神秘のあろうことは信ぜられました。<br><br>もし私が御浄霊の奇蹟を体験さして戴いていなかったら、そして又会長先生並びに先輩諸先生の御激励を賜わらなかったならあるいは私のこの壮挙は挫折していたかも分りません。<br><br>かくするうちに容赦なく日は過ぎて小さな麦が穂を出しましたが「肥毒（酷く）やられた」と長友先生が笑わせられました。<br><br>「雲雀が寝て食うわ」「扱ぐ」ことも出来んわ」と人から嘲られたのでございました。<br><br>なる程人様の半分も穫れないのですから言われるのも無理ありません。<br><br>でも前途には燦々たる光明がある「三年先を見ているがいい」と何の悔むところがありましょう。<br><br>ひたすらに明主様をお念じ申し上げ、土地の御浄霊を怠りませんでした。<br><br>「雲雀の寝て食う麦」の噂は次々に飛んで、遂に私は村一番の大馬鹿者にされました。<br><br>「馬鹿でもいいさ、沢山とれる様に努力研究するのが馬鹿で、肥料代稼ぎの百姓に右へならえするのが利口なら」と、私は馬鹿の尊称を笑って受ける程、心は落ちついて来た自分を見出して嬉しく思いました。<br><br>「道端作人」と言われただけに、父は稀代の負けず嫌いで、道路に面した田園には夜間に、金肥、人糞等をまき散らしたもので、それに対する肥毒の浄化は特に激しいのが当然でございます。<br><br> いよいよ稲の試作となりますと、麦に懲りた母は私の壮挙を思い止らすべく、泣いたり、怒ったりして諌めました。<br><br>あまり度々のことでございますので申訳なくも母と口論し、家を飛び出すとまで言い放った私でございました。<br><br>しかし「るな三訓」を思い出したり、あるいは又「如何ならむ事も耐へて時を待つ」の御歌を思い起して、涙をのんで我慢して来たのでございます。<br><br>「お前はお母さんが可哀相だと思わないのか。<br><br>苦労してミルクで育てて貰ったこと等も知らないで」「思います。<br><br>だから早く沢山穫れるような御蔭を戴いて、一日も早くお母さんに楽をして戴きたいからこそ、馬鹿と嘲られながらも屈することなく一生懸命になってやらして戴くのです。<br><br>これは決して自分一人で発明したものでなく、神示により、明主様が理論的に我々にまで納得のゆく様にお諭し下さったもので、少しの嘘もなく数多くの体験者もあり、確たる見透しがついていればこそ決行できるのです。<br><br>黙って任せなさい。<br><br>私ももう子供でもない。<br><br>男一匹親を食わせずにはおかないから」と母の進言を退けてまいりました。<br><br>稲作は麦のような見苦しさはありませんでした。<br><br>「昨年の肥料が残っていたからだ」と、その結果をうやむやに葬り去らんとする村人達の卑劣さよ、生育期には何と言った、植付けの苗を何と言って笑ろうた、三年目より本格化すると微笑しながら、じっとこらえた私を何んと罵った。<br><br>でもいい、私は私なりにこれと信じた道を歩くのだ、と戻しながら土地の御浄霊を継続したのでございます。<br><br>『無肥料栽培』のプリント『自然農法解説』と次々尊い御本を辱（かたじけの）うし、自信満々真理遂行に黙々として驀進致しました。<br><br>ああ、かくして三年「なよなよと遠き黄金のうねりかな」誰が詠んだか豊穣の秋を称える名句、ああその中に更に又一際目立って一区を画す曲線は、私の自然栽培田でした。<br><br> 収穫間際、突如として南九州に上陸したルース台風は五十米の速さで猛威を振い、倒壊家屋までできた程でございました。<br><br>嵐の後の静けさの中に何事もなかったようにしているのは、私の田園でした。<br><br>「あたりめえだよ」「俺らの田圃は明主様の御守護があるんだもの」「明主様のお蔭」と立札でも立てておきたい衝動をじっと抑えつつ合掌し、御礼を申し上げた私でございました。<br><br>「天然色の写真に撮りたいね」と仰言った坂井満之助先生のお言葉が真に有難く、明るく、私の耳に響きました。<br><br>「泣くな」と教えられても涙は溢れます。<br><br>幾重にも幾重にも厚く厚く御礼を申し上げます。<br><br>悪口言うた人達の推薦で品評会に出す筈のところルース台風で他の稲が全部倒れましたので、比べる相手がなく出品不能となりましたことはかえすがえすも残念でなりません。<br><br>私の稲は予想を上廻る収穫で、まだほんの一部しか扱（しご）き落してはおりませんが、昨年より籾一俵の増収でございます。<br><br> 泣いて欺いた母の顔も晴やかです。<br><br>「無肥料で出来たら首渡す」と言った人々の首も、まだ、あずけたままでございますが、あれ程悪罵雑言を賜わりながら「それみたことか、いい態だ」とは信仰者として私は言わないのでございます。<br><br>「一日も早く目覚められ幸福者となって戴くよう念じて止みません」。<br><br>小学を出たばかりの百姓のせがれであり、二十六歳の若僧だから、ああ言った手前真似するのが「てれ臭い」と仰言るなら、大いに考え直して戴きとう存じます。<br><br>私は悪口雑言の代償を求めてはおりません「道の為世の為人の為のみを時非おもふ真人」たるべく懸命の努力をさして戴くのみでございます。<br><br> どうか皆様、現実をもっと直視して下さい。<br><br>少しでも早く、幸福になって下さいと、結果を通して皆様に叫びたいのでございます。<br><br>「三年経てば吸収されていた肥料が無くなるから減収する」と仰言った人々の理論は考え直す必要が起ったのでございます。<br><br> 「事実」、「事実」程正直なものはないはずでございます。<br><br>百姓も何時迄も百姓でなく、二百姓、三百姓にならなければ生涯幸福と言うことは考えられないではありませんか。<br><br>徒らに税金と肥料代稼ぎの労働に水呑百姓に甘んずる事なく、地上天国御建設の大理想に参画さして戴こうではありませんか。<br><br> （昭和二十六年十一月二十一日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O único caminho para a salvação do agricultor indigente</h2>
 <p><em>Artigo de Okada Jikan-shi — Coletânea de Teses — Publicado na revista Eikou nº 141, 30 de janeiro de 1952 (Compilado no “Comentário sobre a Agricultura Natural”)</em></p>
@@ -110,5 +265,48 @@ function toggleLang(lang) {
 <p>Por favor, todos, encarem a realidade com mais franqueza. Por meio destes resultados, clamo a vós para que alcancem a felicidade o quanto antes. A teoria daqueles que afirmavam que “em três anos a produção diminuiria, pois os nutrientes do adubo seriam esgotados” precisa ser reavaliada.</p>
 <p>O “fato”, não há nada mais honesto que o fato. O agricultor não pode resignar-se a ser apenas um agricultor; se não aspirar a tornar-se duzentos, trezentos agricultores em um só, jamais poderá conceber uma vida de felicidade. Não seria mais sensato, em vez de nos conformarmos a ser agricultores indigentes, labutando em vão para pagar impostos e adubos, participarmos do sublime ideal da construção do Paraíso Terrestre?</p>
 <p><em>(Submetido em 21 de novembro de 1951)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 水呑み百姓の救わるる道は唯一つ 『栄光』141号、昭和27(1952)年1月30日 （革）自然農法解説に収録 宮崎県 光宝大教会 長友俊幸（26） 水呑百姓の名に洩れず、過ぎにし貧乏の明け暮れは、夢多き青年の前途を真暗くしました。<br/><br/>耕作面積の狭い上に相当の肥料代を支払っていきますと、食べるだけが精一杯、来る年も来る年も同じようなことの反覆でございました。<br/><br/> 敗戦と言う冷厳な事の前には「兵隊で飯を食う」とひそかに抱いた希望も、無惨に打ち砕かれてしまったのでございます。<br/><br/>いかにして、と日夜悩み続けた私でございましたが、妹の蓄膿症でお蔭を戴き、それに刺戟されて入信さして戴いた私でございました。<br/><br/> その頃はまだ日本浄化療法と言われていた頃で自然農法の事を御教え戴いておりませんでした。<br/><br/>暫く経って初めて御教えを戴いたのでございましたが、観音教を極端に嫌い「そうしたことをするなら叩き出す」と父が申しますので、是と信じながら我慢してひたすら時期を待ったのでございます。<br/><br/>と突然父が他界しましたので、母にもよく話しまして、遂に心に画いていた無肥料栽培（自然農法）の試作を麦から始めさして戴いたのでございます。<br/><br/>「そんなことをして出来るはずがない」と言う母を辛うじて納得させて播種したのでございましたが、例外なく発芽した麦は真黄色です「火を点けたら燃えるだろう」と聞えよがしに語り合う村人達「迷信邪教に踊らされる大馬鹿者が、正手には二人いる」（一人は支部長の長友先生のこと）酔ったまぎれに家の前でどなられたり「お前のような不幸者はおらんわい、六十になった母を干し殺すか」等と言われますと、ああこれに一握りの硫安を撒いたら、とどれ程思ったか分りませんでした。<br/><br/>「穂が出るもんか」「気が狂ったんだろう」「どら息子」「馬鹿たれ」と罵倒された私でございました。<br/><br/>でも私は頑としてそれに応ぜず、必ずやり遂げると固く心で誓いました。<br/><br/>先駆者は叩かれるのが必定、道なき道を踏み分けて進む身には荊あらん、葛も絡まん。<br/><br/>でもでも御浄霊の神秘を体験さして戴いている私には、御守護により何物をも恐れざる安心感を戴いていたのでございます。<br/><br/> 生きとし生けるもの皆に、御恵を給う神様であらせられるのだもの、農作物にも、ちゃんとお蔭が戴けると御教えを戴いているのだもの、必ずや神秘のあろうことは信ぜられました。<br/><br/>もし私が御浄霊の奇蹟を体験さして戴いていなかったら、そして又会長先生並びに先輩諸先生の御激励を賜わらなかったならあるいは私のこの壮挙は挫折していたかも分りません。<br/><br/>かくするうちに容赦なく日は過ぎて小さな麦が穂を出しましたが「肥毒（酷く）やられた」と長友先生が笑わせられました。<br/><br/>「雲雀が寝て食うわ」「扱ぐ」ことも出来んわ」と人から嘲られたのでございました。<br/><br/>なる程人様の半分も穫れないのですから言われるのも無理ありません。<br/><br/>でも前途には燦々たる光明がある「三年先を見ているがいい」と何の悔むところがありましょう。<br/><br/>ひたすらに明主様をお念じ申し上げ、土地の御浄霊を怠りませんでした。<br/><br/>「雲雀の寝て食う麦」の噂は次々に飛んで、遂に私は村一番の大馬鹿者にされました。<br/><br/>「馬鹿でもいいさ、沢山とれる様に努力研究するのが馬鹿で、肥料代稼ぎの百姓に右へならえするのが利口なら」と、私は馬鹿の尊称を笑って受ける程、心は落ちついて来た自分を見出して嬉しく思いました。<br/><br/>「道端作人」と言われただけに、父は稀代の負けず嫌いで、道路に面した田園には夜間に、金肥、人糞等をまき散らしたもので、それに対する肥毒の浄化は特に激しいのが当然でございます。<br/><br/> いよいよ稲の試作となりますと、麦に懲りた母は私の壮挙を思い止らすべく、泣いたり、怒ったりして諌めました。<br/><br/>あまり度々のことでございますので申訳なくも母と口論し、家を飛び出すとまで言い放った私でございました。<br/><br/>しかし「るな三訓」を思い出したり、あるいは又「如何ならむ事も耐へて時を待つ」の御歌を思い起して、涙をのんで我慢して来たのでございます。<br/><br/>「お前はお母さんが可哀相だと思わないのか。<br/><br/>苦労してミルクで育てて貰ったこと等も知らないで」「思います。<br/><br/>だから早く沢山穫れるような御蔭を戴いて、一日も早くお母さんに楽をして戴きたいからこそ、馬鹿と嘲られながらも屈することなく一生懸命になってやらして戴くのです。<br/><br/>これは決して自分一人で発明したものでなく、神示により、明主様が理論的に我々にまで納得のゆく様にお諭し下さったもので、少しの嘘もなく数多くの体験者もあり、確たる見透しがついていればこそ決行できるのです。<br/><br/>黙って任せなさい。<br/><br/>私ももう子供でもない。<br/><br/>男一匹親を食わせずにはおかないから」と母の進言を退けてまいりました。<br/><br/>稲作は麦のような見苦しさはありませんでした。<br/><br/>「昨年の肥料が残っていたからだ」と、その結果をうやむやに葬り去らんとする村人達の卑劣さよ、生育期には何と言った、植付けの苗を何と言って笑ろうた、三年目より本格化すると微笑しながら、じっとこらえた私を何んと罵った。<br/><br/>でもいい、私は私なりにこれと信じた道を歩くのだ、と戻しながら土地の御浄霊を継続したのでございます。<br/><br/>『無肥料栽培』のプリント『自然農法解説』と次々尊い御本を辱（かたじけの）うし、自信満々真理遂行に黙々として驀進致しました。<br/><br/>ああ、かくして三年「なよなよと遠き黄金のうねりかな」誰が詠んだか豊穣の秋を称える名句、ああその中に更に又一際目立って一区を画す曲線は、私の自然栽培田でした。<br/><br/> 収穫間際、突如として南九州に上陸したルース台風は五十米の速さで猛威を振い、倒壊家屋までできた程でございました。<br/><br/>嵐の後の静けさの中に何事もなかったようにしているのは、私の田園でした。<br/><br/>「あたりめえだよ」「俺らの田圃は明主様の御守護があるんだもの」「明主様のお蔭」と立札でも立てておきたい衝動をじっと抑えつつ合掌し、御礼を申し上げた私でございました。<br/><br/>「天然色の写真に撮りたいね」と仰言った坂井満之助先生のお言葉が真に有難く、明るく、私の耳に響きました。<br/><br/>「泣くな」と教えられても涙は溢れます。<br/><br/>幾重にも幾重にも厚く厚く御礼を申し上げます。<br/><br/>悪口言うた人達の推薦で品評会に出す筈のところルース台風で他の稲が全部倒れましたので、比べる相手がなく出品不能となりましたことはかえすがえすも残念でなりません。<br/><br/>私の稲は予想を上廻る収穫で、まだほんの一部しか扱（しご）き落してはおりませんが、昨年より籾一俵の増収でございます。<br/><br/> 泣いて欺いた母の顔も晴やかです。<br/><br/>「無肥料で出来たら首渡す」と言った人々の首も、まだ、あずけたままでございますが、あれ程悪罵雑言を賜わりながら「それみたことか、いい態だ」とは信仰者として私は言わないのでございます。<br/><br/>「一日も早く目覚められ幸福者となって戴くよう念じて止みません」。<br/><br/>小学を出たばかりの百姓のせがれであり、二十六歳の若僧だから、ああ言った手前真似するのが「てれ臭い」と仰言るなら、大いに考え直して戴きとう存じます。<br/><br/>私は悪口雑言の代償を求めてはおりません「道の為世の為人の為のみを時非おもふ真人」たるべく懸命の努力をさして戴くのみでございます。<br/><br/> どうか皆様、現実をもっと直視して下さい。<br/><br/>少しでも早く、幸福になって下さいと、結果を通して皆様に叫びたいのでございます。<br/><br/>「三年経てば吸収されていた肥料が無くなるから減収する」と仰言った人々の理論は考え直す必要が起ったのでございます。<br/><br/> 「事実」、「事実」程正直なものはないはずでございます。<br/><br/>百姓も何時迄も百姓でなく、二百姓、三百姓にならなければ生涯幸福と言うことは考えられないではありませんか。<br/><br/>徒らに税金と肥料代稼ぎの労働に水呑百姓に甘んずる事なく、地上天国御建設の大理想に参画さして戴こうではありませんか。<br/><br/> （昭和二十六年十一月二十一日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

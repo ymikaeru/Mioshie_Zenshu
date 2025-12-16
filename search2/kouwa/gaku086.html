@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gaku086</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ６ 086-104 動物の霊作用 086 猫の自殺 光明如来のお祭り致しますと、飼猫が集まり来り、光明如来を慕うがごとくに見え、そして順次痩せ衰え死に到るのが諸所に起る現象です。<br><br>これにつき御説明を御願い致します。<br><br> これは理屈はある。<br><br>あり得べき事である。<br><br>人間が猫に落ちたもので、猫の希望は、再び人間に生れ代る事であるが、それで光明如来様の御前に集り、また、悪い物を食うとか、絶食するとか、猫の出来る手段で自殺するのである。<br><br> 087 白鼠出現、他の鼠出なくなる 私の家に三月頃より目の赤い大きな白ねずみが一匹おります。<br><br>人がおりましても昼でもチョロチョロ出て参ります。<br><br>白ねずみがいるようになりまして、今迄困らされておりました他のねずみは出なくなりました。<br><br>私の家と何か因縁がございますでしょうか。<br><br> ある。<br><br>人間が鼠に生れたもので、昔商店の番頭でもしていたのであろう。<br><br>この家の祖先であろう。<br><br>他の鼠が出ないのは、その白鼠が睨んでいるからで、度々食物をやった方がよい。<br><br>（S25. 5.16） 088 蛞蝓についての奇象（人間の転生はない） 笹野あいと申す信者で御座いますが、このお宅は以前、現在住んでおります所より一丁ばかり離れました所に住んでおりましたが、元住んでおりました所の井戸を、当人が転居致しましてすぐ家主が井戸側（土管）を掘り出して終いまして、水溜りのようになっておりました。<br><br>そこに蛞蝓がおりましたが、これを笹野さんの子供達が遊びに行き石を投げ込んで埋めてしまいました。<br><br>するとそこにいました蛞蝓が笹野さんの家の障子の桟を這い、いつの間にか床の間の御神体をお祭りしてある所を這い廻った跡がついておりました。<br><br>これは霊的に何か意味が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 蛞蝓も蛇、蛙と共に三すくみといって、霊的に普通のものとは違う。<br><br>人間が蛞蝓になるのは滅多にない。<br><br>しかし、人間が動物になり、動物が蛞蝓になる事はない事もない。<br><br>人間は虫にもなる。<br><br> 光明如来様に救われたいために来たのかもしれない。<br><br>御神体の紙の所でも、醜くなければよい。<br><br> 蛞蝓は、物質の霊化をするし、霊の物質化もする。<br><br>塩をかけると消えてしまい、いつか横へ出る事がある。<br><br>実に霊的である。<br><br>（S25. 2. 2） 089 怒った亀 ある家で田植の休憩時、その日は雨天でしたが、休んでいる所に大きな亀が出て来たので、主人がこれを取って「肉は酒の肴に甲は煙草入にして利用しよう」と申しました。<br><br>ところが自分の簑に火が付き大火傷を致し、馬は堀の中に落ち込み前歯二本抜けてしまいました。<br><br>その後主人が物を背負って坂道を歩いている時、ふとした事で転び腰を痛め、立つ事も出来なくなり、医者にかかっていましたが、現在は打った所から液が出て苦しみますので、この亀を近くの溜池に放してやりました。<br><br>その後は凶事は起りませんが霊的関係でしょうか。<br><br> これは人間が亀に生れたものである。<br><br> 亀は特に霊的動物であって、人間と同じような感情を持ってるもので、亀が怒ったが、放してやったので収った。<br><br> すべて人間に危害を加えぬ限り殺してはいけない。<br><br>危害を加えれば、正当防衛になる。<br><br> 090 虫腹膜患者のみに這う 夜、「エンドウ虫」が沢山部屋に入り、腹膜の悪い病人にだけ這い上るそうで御座居ますが、何か訳が御座居ますでしょうか。<br><br> 腹膜などは毛細管から汁が出る。<br><br>それを好むのであろう。<br><br>（S24. 6.22） 091 鼠の霊力 夜分寝ている時に、床の上に「ねずみ」が昇ったためにうなされたり、苦しめられたり致します訳をお教え下さい。<br><br> 鼠は天井にいて、人間を睨むと、人間はうなされたり、苦しんだりする。<br><br>こういう事がある。<br><br> 鼠は、かような霊的力をもっている。<br><br> 鼠が出ないようにする外はない。<br><br> 092 白鼠（他動物の転生せるもの） ある信者の宅に数匹の鼠がいつも一緒になって遊んでおます。<br><br>珍らしくその中に一匹の白鼠がいますが、霊的に意味がありましょうか。<br><br> すべて動物は古くなると、毛が白くなる。<br><br>この鼠は兎か白猫の生れ代ったものである。<br><br> 白猫などは、ウンと鼠を食うと、その怨みで鼠に生れるのである。<br><br> 093 鼠いなくなる 私の家に二月頃より鼠がいなくなりましたがなぜでしょうか。<br><br> 何かの事情がある。<br><br>火事の前に鼠がいなくなる事は余計あるが必ずしもそうでない。<br><br>（S24. 6. 6） 094 白鼠死す 私の家に昨年末頃より白ネズミが現れ（一匹）、大分成長致しましたが人にも恐れず、動作も緩慢な為猫に喰われたか、本年になって見えなくなりました。<br><br>私は一月十一日入信、主人は結核で寝ております。<br><br>凶（わる）い前兆ではないでしょうか。<br><br>御教示願います。<br><br> （神様にお願いして、時を待つ）？（S25. 1.16） 095 蜘蛛の災 邪神は多く蜘蛛を使う。<br><br>大きい蜘蛛は邪神が憑依する。<br><br>この人を苦しめようとの邪霊か邪神かが憑ってやったと思えばよい。<br><br>蜘蛛は気をつけるべきである。<br><br> 096 人間と蜘蛛、蜘蛛の夢 最近入信の信者、教習第三日目の終り頃、左肩に大きな蜘蛛がいる感じがし、今迄にも身内のものが死ぬとか生れるとかの時には、やはり大きな蜘蛛を夢で見ましたが、いかなる訳でしょう。<br><br> 人間は虫に生れ代る事があり、特に蜘蛛に生れる事がある。<br><br>また蜘蛛が人間に憑依したり、人間が蜘蛛に憑依したりする。<br><br> 芝居などで土蜘蛛をやるが、あれは蜘蛛が人間に化けるのであるが、ああいう事はあったとみえる。<br><br> クモで迷っているのがあり、無論それは祖霊である。<br><br>クモになって知らせたので、救われたいのと、喜びを知らせた訳で――。<br><br> やがて修業が出来ると、人間に生れるのである。<br><br> 097 蜘蛛と人間 蜘蛛と人間の関係について――。<br><br> 蜘蛛は虫をとる。<br><br>それだけの働きしている。<br><br>小さい虫など食ってるが、それだけ役に立っている。<br><br> 098 八割の犬 昔から八割の犬を飼うと「主人が負ける」とか「病人が絶えない」とか言いますが、何か意味が御座居ましょうか。<br><br> 人間の生れ変りで、犬が人間の上になるから負ける。<br><br>入信すれば上になるから、こんな事はない。<br><br>（S24. 8.19） 099 亀と大漁 昔から海亀がとれると、殺さないでその亀にお酒を沢山呑ませて海に離してやると、次の漁には非常な大漁との事で御座います。<br><br>このような亀にはいかなる働きがあるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 亀は非常に霊的なもので、普通のものと違う。<br><br>御馳走して助けると、お礼として助ける。<br><br>（S25. 1.11） 100 みみずに小便 「みみず」に小便をかけますと、その子供の陰部が赤くはれますが、これは霊的に来るので御座いましょうか。<br><br>それとも毒素の浄化で御座いましょうか。<br><br>御伺い申し上げます。<br><br> みみずは霊的である。<br><br>霊的に来る。<br><br>みみずの生霊が怒る。<br><br>みみずは龍神の一種である。<br><br>（S23.12.11） 101 蚯蚓に小便 子供が蚯蚓に小便をかけると男根がよく腫れますが、霊的にどのような原因があるものでしょうか。<br><br> みみずの霊が怒る。<br><br>みみずは龍神の一種である。<br><br>龍神は汚される事を非常に嫌う。<br><br>（S24. 8.23） rattail（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 102 河童 河童――。<br><br> 存在している。<br><br> 河童という特殊のものがあった。<br><br>感情も人間と同じようだし、喜怒哀楽なども同じようである。<br><br>昔は相当あった。<br><br>一番蛙に似ている。<br><br>ヌラヌラして真蒼い。<br><br> 103 兎は鳥 兎は一羽二羽と数えますが何かわけが御座いますのでしょうか。<br><br> 兎は鳥の部へ入っているからである。<br><br>兎は駈ける時に飛ぶ。<br><br>脚二本で飛ぶ訳である。<br><br>（S24. 3.14） 104 河童の感情、性格 河童は胡瓜を好む。<br><br>河童は義理固いもので助けるときっと礼をする。<br><br> 非常に角力が好きで、いくら投げても投げても掛ってくる。<br><br> 記録に見えているが、よほど人間の感情のようなものを持っている。<br><br> 身体はヌルヌルしており、子供位の大きさで、根気のいいもので、頭の皿に水が入っている。<br><br> rattail（注） 〔 御光話（S23年 7月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br><br>〕 ――河童というものはよく聞きますが、その霊は存在しているのでしょうか。<br><br> 『河童の霊はあります。<br><br>あれは角力が好きでいくら投げられても立ち上がっては組みついてきます。<br><br>その代わりこっちでよく面倒みてやると向こうもなついていろいろ世話をしてくれます。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ação Espiritual dos Animais</h2>
 <p><strong>086 O Suicídio do Gato</strong></p>
@@ -152,5 +304,48 @@ function toggleLang(lang) {
 <p>O Kappa aprecia pepinos. É um ser que preza a lealdade e, quando ajudado, certamente retribui o favor. Ele é um grande apreciador de sumô; por mais que seja derrubado, ele sempre se levanta e volta a lutar. Conforme os registros indicam, ele possui sentimentos muito próximos aos dos humanos. Seu corpo é pegajoso, tem o tamanho aproximado de uma criança, é muito perseverante e possui uma depressão na cabeça que contém água.</p>
 <p><strong>Pergunta de um fiel:</strong> Ouvimos muito sobre o Kappa. O seu espírito realmente existe?</p>
 <p><strong>Resposta de Meishu-Sama:</strong> "O espírito do Kappa existe, sim. Ele adora sumô e, por mais que você o derrube, ele se levanta e o agarra novamente. Em contrapartida, se você cuidar bem dele, ele se apega e o ajuda de várias maneiras."</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 学問篇 ６ 086-104 動物の霊作用 086 猫の自殺 光明如来のお祭り致しますと、飼猫が集まり来り、光明如来を慕うがごとくに見え、そして順次痩せ衰え死に到るのが諸所に起る現象です。<br/><br/>これにつき御説明を御願い致します。<br/><br/> これは理屈はある。<br/><br/>あり得べき事である。<br/><br/>人間が猫に落ちたもので、猫の希望は、再び人間に生れ代る事であるが、それで光明如来様の御前に集り、また、悪い物を食うとか、絶食するとか、猫の出来る手段で自殺するのである。<br/><br/> 087 白鼠出現、他の鼠出なくなる 私の家に三月頃より目の赤い大きな白ねずみが一匹おります。<br/><br/>人がおりましても昼でもチョロチョロ出て参ります。<br/><br/>白ねずみがいるようになりまして、今迄困らされておりました他のねずみは出なくなりました。<br/><br/>私の家と何か因縁がございますでしょうか。<br/><br/> ある。<br/><br/>人間が鼠に生れたもので、昔商店の番頭でもしていたのであろう。<br/><br/>この家の祖先であろう。<br/><br/>他の鼠が出ないのは、その白鼠が睨んでいるからで、度々食物をやった方がよい。<br/><br/>（S25. 5.16） 088 蛞蝓についての奇象（人間の転生はない） 笹野あいと申す信者で御座いますが、このお宅は以前、現在住んでおります所より一丁ばかり離れました所に住んでおりましたが、元住んでおりました所の井戸を、当人が転居致しましてすぐ家主が井戸側（土管）を掘り出して終いまして、水溜りのようになっておりました。<br/><br/>そこに蛞蝓がおりましたが、これを笹野さんの子供達が遊びに行き石を投げ込んで埋めてしまいました。<br/><br/>するとそこにいました蛞蝓が笹野さんの家の障子の桟を這い、いつの間にか床の間の御神体をお祭りしてある所を這い廻った跡がついておりました。<br/><br/>これは霊的に何か意味が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 蛞蝓も蛇、蛙と共に三すくみといって、霊的に普通のものとは違う。<br/><br/>人間が蛞蝓になるのは滅多にない。<br/><br/>しかし、人間が動物になり、動物が蛞蝓になる事はない事もない。<br/><br/>人間は虫にもなる。<br/><br/> 光明如来様に救われたいために来たのかもしれない。<br/><br/>御神体の紙の所でも、醜くなければよい。<br/><br/> 蛞蝓は、物質の霊化をするし、霊の物質化もする。<br/><br/>塩をかけると消えてしまい、いつか横へ出る事がある。<br/><br/>実に霊的である。<br/><br/>（S25. 2. 2） 089 怒った亀 ある家で田植の休憩時、その日は雨天でしたが、休んでいる所に大きな亀が出て来たので、主人がこれを取って「肉は酒の肴に甲は煙草入にして利用しよう」と申しました。<br/><br/>ところが自分の簑に火が付き大火傷を致し、馬は堀の中に落ち込み前歯二本抜けてしまいました。<br/><br/>その後主人が物を背負って坂道を歩いている時、ふとした事で転び腰を痛め、立つ事も出来なくなり、医者にかかっていましたが、現在は打った所から液が出て苦しみますので、この亀を近くの溜池に放してやりました。<br/><br/>その後は凶事は起りませんが霊的関係でしょうか。<br/><br/> これは人間が亀に生れたものである。<br/><br/> 亀は特に霊的動物であって、人間と同じような感情を持ってるもので、亀が怒ったが、放してやったので収った。<br/><br/> すべて人間に危害を加えぬ限り殺してはいけない。<br/><br/>危害を加えれば、正当防衛になる。<br/><br/> 090 虫腹膜患者のみに這う 夜、「エンドウ虫」が沢山部屋に入り、腹膜の悪い病人にだけ這い上るそうで御座居ますが、何か訳が御座居ますでしょうか。<br/><br/> 腹膜などは毛細管から汁が出る。<br/><br/>それを好むのであろう。<br/><br/>（S24. 6.22） 091 鼠の霊力 夜分寝ている時に、床の上に「ねずみ」が昇ったためにうなされたり、苦しめられたり致します訳をお教え下さい。<br/><br/> 鼠は天井にいて、人間を睨むと、人間はうなされたり、苦しんだりする。<br/><br/>こういう事がある。<br/><br/> 鼠は、かような霊的力をもっている。<br/><br/> 鼠が出ないようにする外はない。<br/><br/> 092 白鼠（他動物の転生せるもの） ある信者の宅に数匹の鼠がいつも一緒になって遊んでおます。<br/><br/>珍らしくその中に一匹の白鼠がいますが、霊的に意味がありましょうか。<br/><br/> すべて動物は古くなると、毛が白くなる。<br/><br/>この鼠は兎か白猫の生れ代ったものである。<br/><br/> 白猫などは、ウンと鼠を食うと、その怨みで鼠に生れるのである。<br/><br/> 093 鼠いなくなる 私の家に二月頃より鼠がいなくなりましたがなぜでしょうか。<br/><br/> 何かの事情がある。<br/><br/>火事の前に鼠がいなくなる事は余計あるが必ずしもそうでない。<br/><br/>（S24. 6. 6） 094 白鼠死す 私の家に昨年末頃より白ネズミが現れ（一匹）、大分成長致しましたが人にも恐れず、動作も緩慢な為猫に喰われたか、本年になって見えなくなりました。<br/><br/>私は一月十一日入信、主人は結核で寝ております。<br/><br/>凶（わる）い前兆ではないでしょうか。<br/><br/>御教示願います。<br/><br/> （神様にお願いして、時を待つ）？（S25. 1.16） 095 蜘蛛の災 邪神は多く蜘蛛を使う。<br/><br/>大きい蜘蛛は邪神が憑依する。<br/><br/>この人を苦しめようとの邪霊か邪神かが憑ってやったと思えばよい。<br/><br/>蜘蛛は気をつけるべきである。<br/><br/> 096 人間と蜘蛛、蜘蛛の夢 最近入信の信者、教習第三日目の終り頃、左肩に大きな蜘蛛がいる感じがし、今迄にも身内のものが死ぬとか生れるとかの時には、やはり大きな蜘蛛を夢で見ましたが、いかなる訳でしょう。<br/><br/> 人間は虫に生れ代る事があり、特に蜘蛛に生れる事がある。<br/><br/>また蜘蛛が人間に憑依したり、人間が蜘蛛に憑依したりする。<br/><br/> 芝居などで土蜘蛛をやるが、あれは蜘蛛が人間に化けるのであるが、ああいう事はあったとみえる。<br/><br/> クモで迷っているのがあり、無論それは祖霊である。<br/><br/>クモになって知らせたので、救われたいのと、喜びを知らせた訳で――。<br/><br/> やがて修業が出来ると、人間に生れるのである。<br/><br/> 097 蜘蛛と人間 蜘蛛と人間の関係について――。<br/><br/> 蜘蛛は虫をとる。<br/><br/>それだけの働きしている。<br/><br/>小さい虫など食ってるが、それだけ役に立っている。<br/><br/> 098 八割の犬 昔から八割の犬を飼うと「主人が負ける」とか「病人が絶えない」とか言いますが、何か意味が御座居ましょうか。<br/><br/> 人間の生れ変りで、犬が人間の上になるから負ける。<br/><br/>入信すれば上になるから、こんな事はない。<br/><br/>（S24. 8.19） 099 亀と大漁 昔から海亀がとれると、殺さないでその亀にお酒を沢山呑ませて海に離してやると、次の漁には非常な大漁との事で御座います。<br/><br/>このような亀にはいかなる働きがあるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 亀は非常に霊的なもので、普通のものと違う。<br/><br/>御馳走して助けると、お礼として助ける。<br/><br/>（S25. 1.11） 100 みみずに小便 「みみず」に小便をかけますと、その子供の陰部が赤くはれますが、これは霊的に来るので御座いましょうか。<br/><br/>それとも毒素の浄化で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> みみずは霊的である。<br/><br/>霊的に来る。<br/><br/>みみずの生霊が怒る。<br/><br/>みみずは龍神の一種である。<br/><br/>（S23.12.11） 101 蚯蚓に小便 子供が蚯蚓に小便をかけると男根がよく腫れますが、霊的にどのような原因があるものでしょうか。<br/><br/> みみずの霊が怒る。<br/><br/>みみずは龍神の一種である。<br/><br/>龍神は汚される事を非常に嫌う。<br/><br/>（S24. 8.23） rattail（注） 〔 御光話（S24年 8月23日） 『御光話録』14号、昭和24(1949)年11月20日発行〕 102 河童 河童――。<br/><br/> 存在している。<br/><br/> 河童という特殊のものがあった。<br/><br/>感情も人間と同じようだし、喜怒哀楽なども同じようである。<br/><br/>昔は相当あった。<br/><br/>一番蛙に似ている。<br/><br/>ヌラヌラして真蒼い。<br/><br/> 103 兎は鳥 兎は一羽二羽と数えますが何かわけが御座いますのでしょうか。<br/><br/> 兎は鳥の部へ入っているからである。<br/><br/>兎は駈ける時に飛ぶ。<br/><br/>脚二本で飛ぶ訳である。<br/><br/>（S24. 3.14） 104 河童の感情、性格 河童は胡瓜を好む。<br/><br/>河童は義理固いもので助けるときっと礼をする。<br/><br/> 非常に角力が好きで、いくら投げても投げても掛ってくる。<br/><br/> 記録に見えているが、よほど人間の感情のようなものを持っている。<br/><br/> 身体はヌルヌルしており、子供位の大きさで、根気のいいもので、頭の皿に水が入っている。<br/><br/> rattail（注） 〔 御光話（S23年 7月28日） 『御光話録（補）』発行年月日不明、推定昭和26年頃。<br/><br/>〕 ――河童というものはよく聞きますが、その霊は存在しているのでしょうか。<br/><br/> 『河童の霊はあります。<br/><br/>あれは角力が好きでいくら投げられても立ち上がっては組みついてきます。<br/><br/>その代わりこっちでよく面倒みてやると向こうもなついていろいろ世話をしてくれます。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

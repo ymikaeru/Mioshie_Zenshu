@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saigono3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 最後の審判 『地上天国』12号、昭和25(1950)年1月20日発行 キリストのいった最後の審判とは、いついかなる形によって現れるものであろうかはこれは基督者（きりすとしゃ）はもとより一般人も知らんとするところであろう。<br><br>いよいよ時期切迫の折柄、その片鱗をここに発表するのである。<br><br>しかしこれは私個人の見解ではない。<br><br>全く霊感によるのであるから、一の参考とし学説として読まれん事である。<br><br> 一体、最後の審判なるものは事実あるであろうかを、まず決めるべきである。<br><br>そうして仮にも世界をリードしている文化国民を中心に、数億の尊信者が絶対帰依している、キリストともいわるる大聖者があり得ざる事をあるといって予言するはずはない。<br><br>もし本当にないとしたら、単なる嘘つきという事になる。<br><br>したがって、基督者ならぬ吾らといえども一点の疑いなく確信しているのである。<br><br>また私がこれだけは信じている、彼の大本教祖のお筆先にいわく「神の申した事は、毛筋の横幅も違わんぞよ」という言葉はそのまま審判の予言に当はめても間違いないと思うのである。<br><br>また善悪についてこういうお筆先がある。<br><br>「悪は根絶やしに致して善の世に致すぞよ」「悪の世は済みたぞよ」「悪の世は九分九厘で厘止りに致し、一厘の仕組で善の世に振替えるぞよ」「いよいよ世の切替時が来るぞよ」とあるのはいずれも最後の審判の意味でなくて何であろう。<br><br>吾らが常にいうこれがいわゆる夜昼転換の事である。<br><br>またお筆先に、「この世の大峠が来るから身魂を磨いておいて下されよ」というところもある。<br><br>これは夜昼の転換期を言ったもので、それを越すためには濁った身魂では駄目だという意味である。<br><br> 以上によって聖書の審判を基礎としお筆先の意味を検討する時、こういう結論になろう。<br><br>「すなわち大危機が迫っており、それを乗越すには心が浄（きよ）くなければならない。<br><br>悪人は転落して、永遠に滅びる」という意味である。<br><br>とすれば、どうしても正しい信仰によって魂を浄め無事に乗越さなければならないのである。<br><br>しかしながら、世の中にはそんな馬鹿な事があって堪るものか。<br><br>神も仏も人間が造ったもので、現実にそんなものはあるはずがないという。<br><br>唯物主義者は仲々信じられまいが、その時になっていかに周章（あわ）てふためき神に縋るといえども最早手遅れで、どうにもならない事になるのは、火をみるよりも明らかである。<br><br>もちろん神の大愛は一人でも多くを救わせ給うのであるから、神意を体する吾らとしては、繰返し繰返し筆に口に警告を与えているのである。<br><br> この事をお筆先には、「神は助けようと思って、筆先でなんぼ知らしてやれども、いつも鳴く烏（からす）の声と油断を致していると、今に栃麺棒（とちめんぼう）をふるって、逆さになってお詫びをせんならん時が来るが、その時になっては、神はそんな者にかもうてはおれんから、身から出た錆とあきらめて往生致そうより仕様がないぞよ」とあるのは、それをよく言い表していると思うのである。<br><br>これについて、ノアの洪水の事を概略かいてみよう。<br><br> これは数千年か、あるいは数万年以前の出来事であろうが、無論古代ヨーロッパのある国に、ノアという名の兄弟があった。<br><br>その兄が今日でいう神憑りになってこういう事を示された。<br><br>それは、近く大洪水があるから、世人に向かって、大いに警告せよ。<br><br>というので兄弟はすこぶる熱心に民衆に向かって警告を与えたが、誰も信じようとはしない。<br><br>数年かかってようやく六人の信ずるものが出来た。<br><br>神はまた方舟を造れと命じた。<br><br>方舟というのは銀杏の実の形をした舟で、すなわち蓋（ふた）があるのである。<br><br>ところが暫くして果せるかな、長雨が続いた。<br><br>この雨を百日降ったという説と、四十日という説があるが、とにかく長期間の豪雨には違いなかった。<br><br>漸次水量は増し、人家はことごとく水中に没し、僅かに山の頂のみが残った。<br><br>人々は争うて舟をやり、または高山の上に登ったが、意外にも猛獣毒蛇も人間と同様助からんとして、高山に、あるいは舟に登って来た。<br><br>空腹のため残らずの人間を喰殺したのであるが、方舟には蓋があるから、登る事が出来ず、八人だけは助かったのである。<br><br>その八人の子孫が、今日の白人の祖という事になっている。<br><br> 次に、新約聖書に、ヨハネは水の洗霊をなし、キリストは火の洗霊をするという事が出ているが、ノアの洪水がヨハネの水の洗霊であるとすれば、キリストの火の洗霊は、いよいよ来らんとする最後の審判でなくてならない事になる。<br><br>しかしながら水とは体的であり、火とは霊であるから、吾らが今行っている、霊をもって霊を浄める方法こそ、全く火の洗霊である。<br><br>すると霊から体に移写するのであるから、火の洗霊が体的にいかに影響するか、これこそ空前の変異でなくてはならない。<br><br>といっても危機は悪に対してのみ表われ、善には危機はない事を知らねばならない。<br><br> この文を無信仰者に提供するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Juízo Final</h2>
 <p>A natureza do Juízo Final, profetizado por Cristo, bem como a época e a forma como se manifestará, é uma questão que certamente desperta o interesse não apenas dos cristãos, mas do público em geral. Agora que o momento se aproxima com urgência, revelarei aqui alguns de seus pormenores. Contudo, esta não é uma interpretação pessoal; procede, na sua totalidade, da inspiração espiritual e, como tal, peço que seja lida a título de referência e aprofundamento.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>A esse respeito, permitam-me narrar brevemente a história do Dilúvio de Noé. O evento ocorreu há milhares, ou talvez dezenas de milhares de anos, em uma antiga nação europeia onde viviam dois irmãos. O mais velho, que hoje chamaríamos de canal mediúnico, recebeu uma revelação divina: um grande dilúvio se aproximava, e ele deveria alertar a humanidade. Os irmãos dedicaram-se com fervor a essa missão, mas ninguém lhes dava crédito. Após anos de pregação, conseguiram apenas seis seguidores. Deus ordenou-lhes, ademais, a construção de uma arca, uma embarcação com o formato de uma semente de ginkgo, ou seja, dotada de uma cobertura. Tal como anunciado, um longo período de chuvas torrenciais se iniciou — algumas tradições falam em cem dias, outras em quarenta, mas a torrente foi, inegavelmente, prolongada. As águas subiram gradualmente, submergindo todas as moradias e deixando apenas os cumes das montanhas à vista. Desesperadas, as pessoas tentavam alcançar os pontos mais altos em barcos ou a nado. Contudo, para sua desgraça, feras e serpentes venenosas, buscando igualmente a salvação, também alcançaram esses refúgios. Famintos, os animais acabaram por devorar todos os seres humanos. A arca, por possuir uma cobertura, impediu a entrada das feras, e assim, as oito pessoas a bordo foram salvas. Diz-se que os descendentes desses oito sobreviventes são os ancestrais da raça branca.</p>
 <p>Passemos agora ao Novo Testamento, onde se afirma que João Batista realizou o batismo com água, ao passo que Cristo realizaria o batismo com fogo. Se o Dilúvio de Noé representa o batismo com água, o batismo com fogo de Cristo só pode ser o Juízo Final que se avizinha. Entretanto, a água simboliza o elemento físico, enquanto o fogo, o espiritual. Sendo assim, o método que praticamos atualmente, de purificar o espírito por meio do espírito, corresponde precisamente ao batismo com fogo. E como o espírito se reflete na matéria, o efeito físico desse batismo espiritual será uma transformação sem precedentes na história. É fundamental compreender, todavia, que essa crise se manifestará unicamente sobre o mal; para o bem, não haverá crise alguma.</p>
 <p>Ofereço este texto àqueles que não possuem fé.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 最後の審判 『地上天国』12号、昭和25(1950)年1月20日発行 キリストのいった最後の審判とは、いついかなる形によって現れるものであろうかはこれは基督者（きりすとしゃ）はもとより一般人も知らんとするところであろう。<br/><br/>いよいよ時期切迫の折柄、その片鱗をここに発表するのである。<br/><br/>しかしこれは私個人の見解ではない。<br/><br/>全く霊感によるのであるから、一の参考とし学説として読まれん事である。<br/><br/> 一体、最後の審判なるものは事実あるであろうかを、まず決めるべきである。<br/><br/>そうして仮にも世界をリードしている文化国民を中心に、数億の尊信者が絶対帰依している、キリストともいわるる大聖者があり得ざる事をあるといって予言するはずはない。<br/><br/>もし本当にないとしたら、単なる嘘つきという事になる。<br/><br/>したがって、基督者ならぬ吾らといえども一点の疑いなく確信しているのである。<br/><br/>また私がこれだけは信じている、彼の大本教祖のお筆先にいわく「神の申した事は、毛筋の横幅も違わんぞよ」という言葉はそのまま審判の予言に当はめても間違いないと思うのである。<br/><br/>また善悪についてこういうお筆先がある。<br/><br/>「悪は根絶やしに致して善の世に致すぞよ」「悪の世は済みたぞよ」「悪の世は九分九厘で厘止りに致し、一厘の仕組で善の世に振替えるぞよ」「いよいよ世の切替時が来るぞよ」とあるのはいずれも最後の審判の意味でなくて何であろう。<br/><br/>吾らが常にいうこれがいわゆる夜昼転換の事である。<br/><br/>またお筆先に、「この世の大峠が来るから身魂を磨いておいて下されよ」というところもある。<br/><br/>これは夜昼の転換期を言ったもので、それを越すためには濁った身魂では駄目だという意味である。<br/><br/> 以上によって聖書の審判を基礎としお筆先の意味を検討する時、こういう結論になろう。<br/><br/>「すなわち大危機が迫っており、それを乗越すには心が浄（きよ）くなければならない。<br/><br/>悪人は転落して、永遠に滅びる」という意味である。<br/><br/>とすれば、どうしても正しい信仰によって魂を浄め無事に乗越さなければならないのである。<br/><br/>しかしながら、世の中にはそんな馬鹿な事があって堪るものか。<br/><br/>神も仏も人間が造ったもので、現実にそんなものはあるはずがないという。<br/><br/>唯物主義者は仲々信じられまいが、その時になっていかに周章（あわ）てふためき神に縋るといえども最早手遅れで、どうにもならない事になるのは、火をみるよりも明らかである。<br/><br/>もちろん神の大愛は一人でも多くを救わせ給うのであるから、神意を体する吾らとしては、繰返し繰返し筆に口に警告を与えているのである。<br/><br/> この事をお筆先には、「神は助けようと思って、筆先でなんぼ知らしてやれども、いつも鳴く烏（からす）の声と油断を致していると、今に栃麺棒（とちめんぼう）をふるって、逆さになってお詫びをせんならん時が来るが、その時になっては、神はそんな者にかもうてはおれんから、身から出た錆とあきらめて往生致そうより仕様がないぞよ」とあるのは、それをよく言い表していると思うのである。<br/><br/>これについて、ノアの洪水の事を概略かいてみよう。<br/><br/> これは数千年か、あるいは数万年以前の出来事であろうが、無論古代ヨーロッパのある国に、ノアという名の兄弟があった。<br/><br/>その兄が今日でいう神憑りになってこういう事を示された。<br/><br/>それは、近く大洪水があるから、世人に向かって、大いに警告せよ。<br/><br/>というので兄弟はすこぶる熱心に民衆に向かって警告を与えたが、誰も信じようとはしない。<br/><br/>数年かかってようやく六人の信ずるものが出来た。<br/><br/>神はまた方舟を造れと命じた。<br/><br/>方舟というのは銀杏の実の形をした舟で、すなわち蓋（ふた）があるのである。<br/><br/>ところが暫くして果せるかな、長雨が続いた。<br/><br/>この雨を百日降ったという説と、四十日という説があるが、とにかく長期間の豪雨には違いなかった。<br/><br/>漸次水量は増し、人家はことごとく水中に没し、僅かに山の頂のみが残った。<br/><br/>人々は争うて舟をやり、または高山の上に登ったが、意外にも猛獣毒蛇も人間と同様助からんとして、高山に、あるいは舟に登って来た。<br/><br/>空腹のため残らずの人間を喰殺したのであるが、方舟には蓋があるから、登る事が出来ず、八人だけは助かったのである。<br/><br/>その八人の子孫が、今日の白人の祖という事になっている。<br/><br/> 次に、新約聖書に、ヨハネは水の洗霊をなし、キリストは火の洗霊をするという事が出ているが、ノアの洪水がヨハネの水の洗霊であるとすれば、キリストの火の洗霊は、いよいよ来らんとする最後の審判でなくてならない事になる。<br/><br/>しかしながら水とは体的であり、火とは霊であるから、吾らが今行っている、霊をもって霊を浄める方法こそ、全く火の洗霊である。<br/><br/>すると霊から体に移写するのであるから、火の洗霊が体的にいかに影響するか、これこそ空前の変異でなくてはならない。<br/><br/>といっても危機は悪に対してのみ表われ、善には危機はない事を知らねばならない。<br/><br/> この文を無信仰者に提供するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

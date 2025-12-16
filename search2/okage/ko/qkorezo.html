@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkorezo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： これぞ救い ―― 身を以て体験した医学の恐ろしさ ―― 『栄光』140号、昭和27(1952)年1月16日発行 『結核信仰療法』昭和27(1952)年12月1日発行 『アメリカを救う』昭和28(1953)年1月1日発行 東京都 博愛中教会 松井政司（32） シベリヤの捕虜生活の苦難の道をたどり、帰国の喜びも束の間、病魔におそわれ生きる希望もなく、この世に神は絶対になきものと一家心中まで覚悟した私の目前に救世の光は輝き始めたのです。<br><br>疑いつつうけた浄霊に奇しくも再起の喜びを得、感謝感激の余り拙文も省みず御礼申し上げます。<br><br> 思い起せば六年前、終戦と同時に緑鬱蒼と生い茂るシベリヤの奥地に連行され、想像だもしなかった捕虜生活が始ったのです。<br><br>九月中旬早や降雪、気温は下り、毎食飯盒（はんごう）の蓋一杯に高粱あるいは玉蜀黍等へ塩を入れて炊いた物、塩鰊のスープ、塩鰈等が渡され、なれぬ食物に初めは咽喉を通らなかったのが、いつしかやっと咽喉を通るようになり、捕虜生活も板について来た十月、十一月には野菜の配給は少しもなく、手あたり次第とってたべた青草も枯野原と化し、雪にとざされてしまうと、同時に食糧不足栄養失調のため、体の自由がきかなくなり、次第に寒さ加わり、肉も凍る厳寒にたえかねてバタバタ倒れてゆきました。<br><br> 「皆頑張ろう。<br><br>忍耐だ。<br><br>我慢だ。<br><br>帰るまでは」を合言葉に頑張りぬいていた気力も潰え果て、妻を子をそして故郷に思いを馳せつつ、異郷の空に夢なくも一人二人と散ってゆくのでした。<br><br>そして五、六百人収容の病院で日に一割以上の死亡者を出す様になり、死屍は屋外の一カ所に集められ、それがカチカチに凍ると軍医がタポール（鍼）を持って来て頭から腹まで立割り、どこを調べるでもなく解剖したことにして、死亡診断書を書いて行って仕舞う。<br><br>後の死体を日本人の兵隊が南京袋に詰めて橇ではこび、各処に掘られた穴に投込む由、同胞のこの痛々しい姿に、誰か暗涙に咽ばざる人があるでしょうか。<br><br>この惨劇に目をおおいつつ、こんな事が赦されて神仏があるのだろうか。<br><br>寂寞（じゃくまく）さを感じつつも、一日千秋の思いで無事の復員を待っているだろう家族を思うと、崩れゆく心に鞭打って森林の奥深く膝まで没す雪の中で、杖をひき、伐材の作業に頑張り続けました。<br><br>苦労に苦労を重ねて満二年、やっとシベリヤの山奥にも民主グループの声高く、作業も、食糧も楽になったとき、ハラショラボータ（作業良好）として政治部員より帰国の内命を受け、患者の中に加えられ、懐しの故郷へ元気で帰る事が出来ました。<br><br>しかし、長いシベリヤ生活に病気一つしなかった私が故郷へ帰りやれやれと腰を伸したのも束の間、二十二年九月に帰り、同年十二月には左鼠蹊腺が腫れ上り、三鷹診療所にて第四期性病だろうとの診断、早速硼酸湿布、ズルファミンの服薬致し、一週間で散ってしまったとホッと一息致しましたら、翌年一月尿道と直腸の間に穴があき小便の半分は肛門へ廻るようになり、慶応病院へ通院中二月には左睾丸が腫れ、激痛加わり、三週間程病室のあくのを待って手術（切取）致しました。<br><br>この間ペニシリン三〇万単位五本、ザルブロ二〇ＣＣ十本注射致しました。<br><br>手術の痕口も治らぬ内に、左湿性胸膜となり、ザルブロ三〇本うち、三カ月で治癒の形をとり勤めに出て一カ月、今度は右睾丸が腫れ上り、片方だけは何とかして助けたいと、ペニシリン三〇万単位五本、ザルブロ十五本荘射しましたが痛みは益々加わり、卵大に腫れ、ついに又手術を言渡されました。<br><br>手術せずなおるものならと、ダイヤジン五十粒程のみましたが、やはり腫れと痛みは退かず、止むをえず入院手術を受けました。<br><br>幸い子供は男児が一人ありましたものの、無慙に切取られた睾丸を見て、一生子供は一人より授からぬかと思うと、いつしかハラハラと頬を濡らす涙を止めようもありませんでした。<br><br>三カ月して又左胸膜が再発、六カ月休養して勤めに出て五カ月、又しても再発、医師より絶対安静を申し渡され遂に立つ事の出来ぬ体となり、二十四年十二月には右肺も侵され、同時に腸結核も発病せし診断を受けた時は、一時に希望も消え、ただただ悲歎の涙に暮れました。<br><br> 近所の子供は「肺病、肺病」と寄りつかず、罪なき子まで相手にされず一人淋しく遊ぶ姿を見ては、父故にと思えば吾運命に女々しく泣くのみ。<br><br>あの捕虜の苦しみもこの子のために親子しての楽しい生活を夢見つつ、頑張りぬいて来たのではないか。<br><br>生きたい、もう一度元気になりたい。<br><br>再起を念願して最後の財布もはたきストレプトマイシン五本を入手致し、一日に二回の注射で解熱し始め、ザルプロ、ザルピタール静脈注射八〇本にて二十五年三月四月と発熱もなく、嗚呼これで助かった、後は恢復を待つのみと夫婦手を取って嬉し泣きに泣きました。<br><br>が又々五月発熱、腸は痛み、下痢は増し、背中、胸はたえ難き激痛、氷枕ははなされず、右肺に空洞が出来手術するより方法なしといわれ、うちのめされたような衝動をおさえ、入院を御願い致しましたが、いつまで待っても部屋はあきません。<br><br> 最早や恢復の望みも夢、一日も早く死のう、皆さんの御迷惑を無くせねば申し訳ない。<br><br>一枚二枚と手放された着物も今は薬代に変るものさえなく、病苦と経済苦とにせめられて前途は死あるのみ、それよりただ自殺の機会を待ちました。<br><br> 「父を許してくれ」も心の内、青酸加里を入れたアンパンを手に「坊や良い物上げるよ」と差出せば、飛び来たり喜ぶ吾子。<br><br>皆さんいかに心を鬼にしても渡す事が出来ましょうか。<br><br>手は震え、「待て！」と叫ぶ心の声、ハッと吾に帰る悪夢のような瞬間から呼び覚された時、罪の探さにとめどなくこみ上げる嗚咽。<br><br>今日は死のう明日は死のう、と準備しながらも、無心に微笑で眠りおる子供の顔を見ると決心も鈍り、もう一日もう一日親の務めを果してと夫婦して涙に暮れました。<br><br>死を覚悟しながらも生延びたい生への欲望故に、パスをのみ続けておりました。<br><br> 二十六年三月十六日実家の前の篠原さんが、母より「政司が死にそうです。<br><br>何とか助けて下さいと依頼された」と来宅下さいました。<br><br>そして救世教の御話を御聞かせ下さいましたが、シベリヤ生活より神仏に合掌致す事が出来なくなっておりました私には、尊き御話も信ずることは出来ませんでしたが、夜を徹してお話し下さる篠原さんの誠心に動かされ、「どうせ死を覚悟していた私です。<br><br>薬をやめるのはいと易き事です。<br><br>それでは信じなくてもよいでしょうか」と言った時は夜はしらじらと明け初めていました。<br><br>「結構です。<br><br>ただ御浄霊を頂くと種々変化がありますが、その時驚いて間違った手当をして自ら墓穴を掘らないように」と申されます。<br><br>助かるものなら今一度元気になりたい、子供のために…… 御浄霊を頂きましていつになくグッスリと眠られ、翌朝は床の上に起上り食事も出来ました。<br><br>今までは呼吸苦しく、便所に行くのもやっとだったのに、二十分三十分過ぎても疲れる事なく、本当に不思議だと妻と話合っておりました。<br><br>それより毎日御浄霊を受け、一週間後には庭へ散歩も出来る程になり、嗚呼助かった、業病治る。<br><br>きっと治して頂けると感じ、心よりただただ有難うございました、と合掌致す事が出来る様になりました。<br><br>嘔吐下痢の激しい浄化も三、四回あり日増に元気が加わって参りました。<br><br> 「有難い御守様を頂きなさい」と、篠原さんが妻の御礼を貸して下さり、御厚意により夫婦そろって教修を受けさせて頂けるようになり、三鷹の教修会場へ行きました。<br><br>行く時はフラッとしていた体も、一日の教修を終り一歩外に踏出せば足がシャンとして歩みの軽き事、不思議！ 駅の階段さえ元気の時と変らぬように昇降出来ました。<br><br>有難い御守護と感謝申し上げる許りでした。<br><br>三日間終始涙で拝聴致し、御守様を拝受致します時は、手は震え、神人合一、観念の神にはあらず、現実の神、神はこの世に厳然とおられたのだ、穢れ多き吾身にも御分霊が宿らせたまう随喜の涙にひれふしてしまいました。<br><br>「もう二度と死ぬなんて考えを起しません。<br><br>お救い下さい」と涙で後の声は消え、篠原さんが「お目出度う」と申された時は声も出ませんでした。<br><br>なみいる方々も皆涙を流して喜んで下さいました。<br><br> 戦争、捕虜生活、病床、幾度か吾子と共に死を決した絶望のドン底の姿、走馬灯のように過ぎし日がうかんでくる。<br><br>真理を知らぬがために我と吾身をさいなんでいた過去、最初は鼠蹊腺部が腫れただけであるのに、浄化停止のために再発に再発を重ね、肉を切り、医師から見放されるまで医薬に対する不信がなぜおきなかったのだろうか。<br><br>犯罪、戦慄すべき戦争も元を正せば薬剤のためとは。<br><br>世界人類の知らざるところに不幸の種が根強くはられている。<br><br>分れば分る程一つ一つが驚異でした。<br><br>今ここに真理は開明され、不幸を生んだ文明は幸福を生む文明と切替えられる時期が到来している事、真善美調和した天国の出現……苦しみが大きかっただけに救われし喜びもまた一入でした。<br><br> 入信翌日より三人五人と毎日御浄霊に飛び廻らせて頂いており、全く夢の様でございます。<br><br>それよりは一途に光明如来様に御縋り申し上げ、度々御浄化を頂き、日増に健康になりつつあります。<br><br> 国分寺支部の旬並祭、月並祭にはかかさず参拝致しておりますが、その日出掛ける前一回二回と必ず嘔吐の浄化を頂き、罪穢多き身を浄めて御参りさせて頂けます御意に、その度毎に明主様への感謝を深めさせて頂いております。<br><br> 五月一日には熱海へ、七月一日には強羅へ御参拝させて頂き、親しく明主様の御顔を拝し、地獄世界より救われしこの身の仕合せを心より感謝申し上げました。<br><br>あれ程無神論者で疑った頑固な私が申し訳なく、感無量でございました。<br><br>この絶大なる救世の御力を未だ知らざる世の人々に、一人でも多く一日も早くお知らせ申し上げねばと、固く固く明主様にお善い申し上げた次第でございます。<br><br> （昭和二十六年九月十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esta é a Salvação — O horror da medicina vivenciado na própria pele</h2>
 <p><strong>Publicado na Revista Eikou, nº 140, em 16 de janeiro de 1952</strong>
@@ -113,5 +268,48 @@ function toggleLang(lang) {
 <p>Jamais falto aos cultos mensais e sazonais da filial de Kokubunji. Nesses dias, antes de sair, sou agraciado com uma ou duas purificações em forma de vômito, permitindo-me comparecer purificado de minhas máculas. A cada vez que isso acontece, minha gratidão a Meishu-Sama se aprofunda.</p>
 <p>Em 1º de maio, peregrinei a Atami e, em 1º de julho, a Gora, onde pude contemplar pessoalmente o semblante de Meishu-Sama. Agradeci do fundo do meu coração pela felicidade de ter sido salvo do mundo do inferno. Senti-me imensamente envergonhado por ter sido um ateu tão cético e teimoso, e a emoção tomou conta de mim. Foi então que, de forma solene e inabalável, firmei meu compromisso com Meishu-Sama de levar esta mensagem ao maior número de pessoas, o mais rápido possível, para que conheçam o poder absoluto da salvação.</p>
 <p>(15 de setembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： これぞ救い ―― 身を以て体験した医学の恐ろしさ ―― 『栄光』140号、昭和27(1952)年1月16日発行 『結核信仰療法』昭和27(1952)年12月1日発行 『アメリカを救う』昭和28(1953)年1月1日発行 東京都 博愛中教会 松井政司（32） シベリヤの捕虜生活の苦難の道をたどり、帰国の喜びも束の間、病魔におそわれ生きる希望もなく、この世に神は絶対になきものと一家心中まで覚悟した私の目前に救世の光は輝き始めたのです。<br/><br/>疑いつつうけた浄霊に奇しくも再起の喜びを得、感謝感激の余り拙文も省みず御礼申し上げます。<br/><br/> 思い起せば六年前、終戦と同時に緑鬱蒼と生い茂るシベリヤの奥地に連行され、想像だもしなかった捕虜生活が始ったのです。<br/><br/>九月中旬早や降雪、気温は下り、毎食飯盒（はんごう）の蓋一杯に高粱あるいは玉蜀黍等へ塩を入れて炊いた物、塩鰊のスープ、塩鰈等が渡され、なれぬ食物に初めは咽喉を通らなかったのが、いつしかやっと咽喉を通るようになり、捕虜生活も板について来た十月、十一月には野菜の配給は少しもなく、手あたり次第とってたべた青草も枯野原と化し、雪にとざされてしまうと、同時に食糧不足栄養失調のため、体の自由がきかなくなり、次第に寒さ加わり、肉も凍る厳寒にたえかねてバタバタ倒れてゆきました。<br/><br/> 「皆頑張ろう。<br/><br/>忍耐だ。<br/><br/>我慢だ。<br/><br/>帰るまでは」を合言葉に頑張りぬいていた気力も潰え果て、妻を子をそして故郷に思いを馳せつつ、異郷の空に夢なくも一人二人と散ってゆくのでした。<br/><br/>そして五、六百人収容の病院で日に一割以上の死亡者を出す様になり、死屍は屋外の一カ所に集められ、それがカチカチに凍ると軍医がタポール（鍼）を持って来て頭から腹まで立割り、どこを調べるでもなく解剖したことにして、死亡診断書を書いて行って仕舞う。<br/><br/>後の死体を日本人の兵隊が南京袋に詰めて橇ではこび、各処に掘られた穴に投込む由、同胞のこの痛々しい姿に、誰か暗涙に咽ばざる人があるでしょうか。<br/><br/>この惨劇に目をおおいつつ、こんな事が赦されて神仏があるのだろうか。<br/><br/>寂寞（じゃくまく）さを感じつつも、一日千秋の思いで無事の復員を待っているだろう家族を思うと、崩れゆく心に鞭打って森林の奥深く膝まで没す雪の中で、杖をひき、伐材の作業に頑張り続けました。<br/><br/>苦労に苦労を重ねて満二年、やっとシベリヤの山奥にも民主グループの声高く、作業も、食糧も楽になったとき、ハラショラボータ（作業良好）として政治部員より帰国の内命を受け、患者の中に加えられ、懐しの故郷へ元気で帰る事が出来ました。<br/><br/>しかし、長いシベリヤ生活に病気一つしなかった私が故郷へ帰りやれやれと腰を伸したのも束の間、二十二年九月に帰り、同年十二月には左鼠蹊腺が腫れ上り、三鷹診療所にて第四期性病だろうとの診断、早速硼酸湿布、ズルファミンの服薬致し、一週間で散ってしまったとホッと一息致しましたら、翌年一月尿道と直腸の間に穴があき小便の半分は肛門へ廻るようになり、慶応病院へ通院中二月には左睾丸が腫れ、激痛加わり、三週間程病室のあくのを待って手術（切取）致しました。<br/><br/>この間ペニシリン三〇万単位五本、ザルブロ二〇ＣＣ十本注射致しました。<br/><br/>手術の痕口も治らぬ内に、左湿性胸膜となり、ザルブロ三〇本うち、三カ月で治癒の形をとり勤めに出て一カ月、今度は右睾丸が腫れ上り、片方だけは何とかして助けたいと、ペニシリン三〇万単位五本、ザルブロ十五本荘射しましたが痛みは益々加わり、卵大に腫れ、ついに又手術を言渡されました。<br/><br/>手術せずなおるものならと、ダイヤジン五十粒程のみましたが、やはり腫れと痛みは退かず、止むをえず入院手術を受けました。<br/><br/>幸い子供は男児が一人ありましたものの、無慙に切取られた睾丸を見て、一生子供は一人より授からぬかと思うと、いつしかハラハラと頬を濡らす涙を止めようもありませんでした。<br/><br/>三カ月して又左胸膜が再発、六カ月休養して勤めに出て五カ月、又しても再発、医師より絶対安静を申し渡され遂に立つ事の出来ぬ体となり、二十四年十二月には右肺も侵され、同時に腸結核も発病せし診断を受けた時は、一時に希望も消え、ただただ悲歎の涙に暮れました。<br/><br/> 近所の子供は「肺病、肺病」と寄りつかず、罪なき子まで相手にされず一人淋しく遊ぶ姿を見ては、父故にと思えば吾運命に女々しく泣くのみ。<br/><br/>あの捕虜の苦しみもこの子のために親子しての楽しい生活を夢見つつ、頑張りぬいて来たのではないか。<br/><br/>生きたい、もう一度元気になりたい。<br/><br/>再起を念願して最後の財布もはたきストレプトマイシン五本を入手致し、一日に二回の注射で解熱し始め、ザルプロ、ザルピタール静脈注射八〇本にて二十五年三月四月と発熱もなく、嗚呼これで助かった、後は恢復を待つのみと夫婦手を取って嬉し泣きに泣きました。<br/><br/>が又々五月発熱、腸は痛み、下痢は増し、背中、胸はたえ難き激痛、氷枕ははなされず、右肺に空洞が出来手術するより方法なしといわれ、うちのめされたような衝動をおさえ、入院を御願い致しましたが、いつまで待っても部屋はあきません。<br/><br/> 最早や恢復の望みも夢、一日も早く死のう、皆さんの御迷惑を無くせねば申し訳ない。<br/><br/>一枚二枚と手放された着物も今は薬代に変るものさえなく、病苦と経済苦とにせめられて前途は死あるのみ、それよりただ自殺の機会を待ちました。<br/><br/> 「父を許してくれ」も心の内、青酸加里を入れたアンパンを手に「坊や良い物上げるよ」と差出せば、飛び来たり喜ぶ吾子。<br/><br/>皆さんいかに心を鬼にしても渡す事が出来ましょうか。<br/><br/>手は震え、「待て！」と叫ぶ心の声、ハッと吾に帰る悪夢のような瞬間から呼び覚された時、罪の探さにとめどなくこみ上げる嗚咽。<br/><br/>今日は死のう明日は死のう、と準備しながらも、無心に微笑で眠りおる子供の顔を見ると決心も鈍り、もう一日もう一日親の務めを果してと夫婦して涙に暮れました。<br/><br/>死を覚悟しながらも生延びたい生への欲望故に、パスをのみ続けておりました。<br/><br/> 二十六年三月十六日実家の前の篠原さんが、母より「政司が死にそうです。<br/><br/>何とか助けて下さいと依頼された」と来宅下さいました。<br/><br/>そして救世教の御話を御聞かせ下さいましたが、シベリヤ生活より神仏に合掌致す事が出来なくなっておりました私には、尊き御話も信ずることは出来ませんでしたが、夜を徹してお話し下さる篠原さんの誠心に動かされ、「どうせ死を覚悟していた私です。<br/><br/>薬をやめるのはいと易き事です。<br/><br/>それでは信じなくてもよいでしょうか」と言った時は夜はしらじらと明け初めていました。<br/><br/>「結構です。<br/><br/>ただ御浄霊を頂くと種々変化がありますが、その時驚いて間違った手当をして自ら墓穴を掘らないように」と申されます。<br/><br/>助かるものなら今一度元気になりたい、子供のために…… 御浄霊を頂きましていつになくグッスリと眠られ、翌朝は床の上に起上り食事も出来ました。<br/><br/>今までは呼吸苦しく、便所に行くのもやっとだったのに、二十分三十分過ぎても疲れる事なく、本当に不思議だと妻と話合っておりました。<br/><br/>それより毎日御浄霊を受け、一週間後には庭へ散歩も出来る程になり、嗚呼助かった、業病治る。<br/><br/>きっと治して頂けると感じ、心よりただただ有難うございました、と合掌致す事が出来る様になりました。<br/><br/>嘔吐下痢の激しい浄化も三、四回あり日増に元気が加わって参りました。<br/><br/> 「有難い御守様を頂きなさい」と、篠原さんが妻の御礼を貸して下さり、御厚意により夫婦そろって教修を受けさせて頂けるようになり、三鷹の教修会場へ行きました。<br/><br/>行く時はフラッとしていた体も、一日の教修を終り一歩外に踏出せば足がシャンとして歩みの軽き事、不思議！ 駅の階段さえ元気の時と変らぬように昇降出来ました。<br/><br/>有難い御守護と感謝申し上げる許りでした。<br/><br/>三日間終始涙で拝聴致し、御守様を拝受致します時は、手は震え、神人合一、観念の神にはあらず、現実の神、神はこの世に厳然とおられたのだ、穢れ多き吾身にも御分霊が宿らせたまう随喜の涙にひれふしてしまいました。<br/><br/>「もう二度と死ぬなんて考えを起しません。<br/><br/>お救い下さい」と涙で後の声は消え、篠原さんが「お目出度う」と申された時は声も出ませんでした。<br/><br/>なみいる方々も皆涙を流して喜んで下さいました。<br/><br/> 戦争、捕虜生活、病床、幾度か吾子と共に死を決した絶望のドン底の姿、走馬灯のように過ぎし日がうかんでくる。<br/><br/>真理を知らぬがために我と吾身をさいなんでいた過去、最初は鼠蹊腺部が腫れただけであるのに、浄化停止のために再発に再発を重ね、肉を切り、医師から見放されるまで医薬に対する不信がなぜおきなかったのだろうか。<br/><br/>犯罪、戦慄すべき戦争も元を正せば薬剤のためとは。<br/><br/>世界人類の知らざるところに不幸の種が根強くはられている。<br/><br/>分れば分る程一つ一つが驚異でした。<br/><br/>今ここに真理は開明され、不幸を生んだ文明は幸福を生む文明と切替えられる時期が到来している事、真善美調和した天国の出現……苦しみが大きかっただけに救われし喜びもまた一入でした。<br/><br/> 入信翌日より三人五人と毎日御浄霊に飛び廻らせて頂いており、全く夢の様でございます。<br/><br/>それよりは一途に光明如来様に御縋り申し上げ、度々御浄化を頂き、日増に健康になりつつあります。<br/><br/> 国分寺支部の旬並祭、月並祭にはかかさず参拝致しておりますが、その日出掛ける前一回二回と必ず嘔吐の浄化を頂き、罪穢多き身を浄めて御参りさせて頂けます御意に、その度毎に明主様への感謝を深めさせて頂いております。<br/><br/> 五月一日には熱海へ、七月一日には強羅へ御参拝させて頂き、親しく明主様の御顔を拝し、地獄世界より救われしこの身の仕合せを心より感謝申し上げました。<br/><br/>あれ程無神論者で疑った頑固な私が申し訳なく、感無量でございました。<br/><br/>この絶大なる救世の御力を未だ知らざる世の人々に、一人でも多く一日も早くお知らせ申し上げねばと、固く固く明主様にお善い申し上げた次第でございます。<br/><br/> （昭和二十六年九月十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

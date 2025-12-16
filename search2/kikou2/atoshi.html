@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>atoshi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： あと始末 槐安生 『栄光』167号、昭和27(1952)年7月30日発行 一インチの紙面も貴重な「栄光」紙上に、いわば、己の醜を曝らしているようなものである拙文、とりわけ浄霊日記には、読者から激励やら注文やらを戴くことがしばしばある。<br><br>今日もはるばる米沢から上京した信者から、貴君の浄霊日記に、明主様の御想念が素晴しい。<br><br>と書いてあるのを読んだので、お願いの筋があって参上した。<br><br>それは、米沢市座頭町の人で浜田義男という者が、現在、比律賓（フィリピン）で死刑の宣告を受け刑務所に収容されているが、この者は同じ部隊にいた同性同名の人と間違われたための濡衣であるが、肝心の本人の方は戦死しているので、人違いである事を証明する手段がない。<br><br>一週間ばかり前の毎日新聞に、刑務所で撮った写真が出ていてその中に浜田義男の顔も見えていた。<br><br>この奥さんは、古い熱心な信者であるが、この人が浄霊日記を読んで、明主様の御想念で御守護を戴き、死刑が延期となり内地へ送られるようになれたら、と相談された。<br><br>そこで貴君から明主様にお願い申し上げて戴きたく、わざわざ上京した。<br><br>と来意を告げた。<br><br> 信者として、又御家族の方としてまことにもっともなお願いで御同情申し上げるがそれの出来る私の職分でも立場でもないので、と、お断わりしたのであったが、今日の新聞を見るとあちらでも、政府や民間人の嘆願に応えて、日本の内地で服役させたり、死刑囚の再審査もしてくれるらしいからまだ望みの網が切れたわけではない。<br><br>と、元気づけたが私は思わずあと始末は、いつになつたら完了するのか。<br><br>と、つぷやいた。<br><br> 戦争が終って七年。<br><br>待望の独立国になったとは云え戦勝国への賠償もこれからだし、中共、ソ連にいる捕虜返還問題も片付く見透しは付かない。<br><br>焼跡に家は建ったものの、昔日の俤かげは更になく、戦争で親兄弟を失なった家庭へは、その本人を還えさぬ限り、慰籍の方法はあっても完全な跡始末とは云えまい。<br><br> 跡始末の付かないのは、敗戦国の日本ではなく、戦勝国としても同じだが、ここで考えさせられる事は、人間というものが、どれだけ自己の行為の跡始末が出来るかということである。<br><br> 犯した罪に対しては、法律の定めるところに従って罰金、服役等の償いの形式はあっても、被害を受けた側は、それで償ぐなわれたとは思うまい。<br><br>まして法網にかからぬ悪徳行為に至ってはなお更のことであるが、善と思って行なった結果が予期に反して悪になった場合は、本人が善事を行ったと思う意識があるだけに、その跡始末は付けようがないであろう。<br><br> 偉い政治家や著名な財界人によくある事だが、次から次へと妾、手かけを造っても、それぞれチャンと跡始末をつけたから、醜聞を起さずに済んだ。<br><br>などと公言しているのを聞くのは苦々しい限りであるが、これなども愛情を金銭に替えて世間態を胡魔化しただけで完全な償い、とは云い難くその犯した罪は抹消できるものではない。<br><br> 犯した一つの罪悪というものは決してそれ一つだけに止まっているものではなくそれに関連して幾つもの罪悪の波紋をよぶことになる。<br><br>この有形無形の汲紋まで審く事の出来るのは法官ではなく、神様だけであって、ましてこの間接に与えた被害までを償い、跡始末をした者はないであろう。<br><br>法律や道徳に背いたことの跡始末でさえ完全に出来ない。<br><br>としたら逆理を真理として信じて行ったことの跡始末は、一体どうして付けることが出来るだろうか。<br><br>世には、間違っている事に気付かずして真理と思い込み、犯ちを重ねていることは沢山ある。<br><br>これらに対して、それは真理でなく逆理である。<br><br>との教えの数々を、私たちは明主様から戴いているが、そのうち最も大きな間違の一つである、薬毒のことに例を執っても、この誤まった方法で人命を損ねた事は大変なものである。<br><br>これは医学者も患者も、逆理を真理と見た誤謬からであるが、この跡始末は、どういうふうに付けるのであろうか。<br><br>面子に拘泥することなく、潔ぎよく明主様の軍門に降って明主様の教える真理に服せば、一応その誤ちにピリオドは打てても、損った人命を償うことは出来ず、まして完全な跡始末が出来よう筈がない。<br><br> 私などもメシヤ教に入信する迄は、逆理、背理を真理と思い、若くして白髪になるほど薬を入れている。<br><br>浄化はこの跡始末の一つであろう。<br><br>メシヤ教の信者である私にして、この跡始末は、いつになったら完了するのか、思えばまことに肌寒いものがあるが、このほか御先祖様の因縁も背負い至らぬために無意識にする悪い行為もあるであろう。<br><br>かく考えると、人間には完全に跡始末の出来るものは、何一つとしてないらしい。<br><br> 私は出来ないながらも、神様のおん前に、絶えざる反省と悔い改めを続け、御神業の一端なりとも御手伝いさせて戴いて、せめて跡始末ならぬ、逆理を真理と信じて犯したことの償をしたいものである。<br><br>と考えている。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Reparação das Consequências</h2>
 <p>Apesar da modéstia destes meus escritos, que expõem minhas próprias falhas nas preciosas páginas da revista Eikou, não raro recebo incentivos e considerações dos leitores, especialmente sobre meu Diário de Johrei. Hoje mesmo, um fiel vindo da distante Yonezawa procurou-me com um propósito específico. Disse ele ter lido em meu diário uma passagem sobre a magnificência do pensamento de Meishu-Sama, o que o motivou a vir rogar-me um favor.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Se somos incapazes de reparar por completo as faltas que reconhecemos, como poderíamos então lidar com as consequências de atos praticados sob a convicção de uma falsa verdade? O mundo está repleto de pessoas que, sem se darem conta de seu engano, acumulam erros acreditando estar no caminho certo. Meishu-Sama nos legou inúmeros Ensinamentos que desvelam essas inverdades, e dentre os equívocos mais graves está a questão do yakudoku (薬毒). As vidas ceifadas por esse método equivocado representam um dano de proporções incalculáveis. Tanto médicos quanto pacientes foram vítimas desse erro de tomar a inverdade por verdade. Como, então, reparar tal situação? Ainda que, deixando o orgulho de lado, tais pessoas se rendessem humildemente à verdade ensinada por Meishu-Sama, pondo um ponto final em seu erro, as vidas perdidas não poderiam ser restituídas. Uma reparação completa seria, portanto, impossível.</p>
 <p>Eu mesmo, antes de ingressar na fé, acreditei na inverdade como se fosse verdade e consumi tantos medicamentos que meus cabelos encaneceram precocemente. As purificações que vivencio são, sem dúvida, parte desse processo de acerto de contas. Ao pensar em quando ele enfim se concluirá, um calafrio percorre minha espinha. Ademais, carrego as máculas de meus antepassados e, por minhas imperfeições, certamente cometo erros de forma inconsciente. Diante de tudo isso, parece evidente que não há nada que o ser humano possa reparar em sua totalidade.</p>
 <p>Mesmo ciente de minha incapacidade, persisto em meu propósito de contínua reflexão e arrependimento diante de Deus. Desejo ardentemente poder servir, ainda que minimamente, na Obra Divina, como forma de expiar, senão de reparar, os atos que cometi quando tomava a inverdade por verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： あと始末 槐安生 『栄光』167号、昭和27(1952)年7月30日発行 一インチの紙面も貴重な「栄光」紙上に、いわば、己の醜を曝らしているようなものである拙文、とりわけ浄霊日記には、読者から激励やら注文やらを戴くことがしばしばある。<br/><br/>今日もはるばる米沢から上京した信者から、貴君の浄霊日記に、明主様の御想念が素晴しい。<br/><br/>と書いてあるのを読んだので、お願いの筋があって参上した。<br/><br/>それは、米沢市座頭町の人で浜田義男という者が、現在、比律賓（フィリピン）で死刑の宣告を受け刑務所に収容されているが、この者は同じ部隊にいた同性同名の人と間違われたための濡衣であるが、肝心の本人の方は戦死しているので、人違いである事を証明する手段がない。<br/><br/>一週間ばかり前の毎日新聞に、刑務所で撮った写真が出ていてその中に浜田義男の顔も見えていた。<br/><br/>この奥さんは、古い熱心な信者であるが、この人が浄霊日記を読んで、明主様の御想念で御守護を戴き、死刑が延期となり内地へ送られるようになれたら、と相談された。<br/><br/>そこで貴君から明主様にお願い申し上げて戴きたく、わざわざ上京した。<br/><br/>と来意を告げた。<br/><br/> 信者として、又御家族の方としてまことにもっともなお願いで御同情申し上げるがそれの出来る私の職分でも立場でもないので、と、お断わりしたのであったが、今日の新聞を見るとあちらでも、政府や民間人の嘆願に応えて、日本の内地で服役させたり、死刑囚の再審査もしてくれるらしいからまだ望みの網が切れたわけではない。<br/><br/>と、元気づけたが私は思わずあと始末は、いつになつたら完了するのか。<br/><br/>と、つぷやいた。<br/><br/> 戦争が終って七年。<br/><br/>待望の独立国になったとは云え戦勝国への賠償もこれからだし、中共、ソ連にいる捕虜返還問題も片付く見透しは付かない。<br/><br/>焼跡に家は建ったものの、昔日の俤かげは更になく、戦争で親兄弟を失なった家庭へは、その本人を還えさぬ限り、慰籍の方法はあっても完全な跡始末とは云えまい。<br/><br/> 跡始末の付かないのは、敗戦国の日本ではなく、戦勝国としても同じだが、ここで考えさせられる事は、人間というものが、どれだけ自己の行為の跡始末が出来るかということである。<br/><br/> 犯した罪に対しては、法律の定めるところに従って罰金、服役等の償いの形式はあっても、被害を受けた側は、それで償ぐなわれたとは思うまい。<br/><br/>まして法網にかからぬ悪徳行為に至ってはなお更のことであるが、善と思って行なった結果が予期に反して悪になった場合は、本人が善事を行ったと思う意識があるだけに、その跡始末は付けようがないであろう。<br/><br/> 偉い政治家や著名な財界人によくある事だが、次から次へと妾、手かけを造っても、それぞれチャンと跡始末をつけたから、醜聞を起さずに済んだ。<br/><br/>などと公言しているのを聞くのは苦々しい限りであるが、これなども愛情を金銭に替えて世間態を胡魔化しただけで完全な償い、とは云い難くその犯した罪は抹消できるものではない。<br/><br/> 犯した一つの罪悪というものは決してそれ一つだけに止まっているものではなくそれに関連して幾つもの罪悪の波紋をよぶことになる。<br/><br/>この有形無形の汲紋まで審く事の出来るのは法官ではなく、神様だけであって、ましてこの間接に与えた被害までを償い、跡始末をした者はないであろう。<br/><br/>法律や道徳に背いたことの跡始末でさえ完全に出来ない。<br/><br/>としたら逆理を真理として信じて行ったことの跡始末は、一体どうして付けることが出来るだろうか。<br/><br/>世には、間違っている事に気付かずして真理と思い込み、犯ちを重ねていることは沢山ある。<br/><br/>これらに対して、それは真理でなく逆理である。<br/><br/>との教えの数々を、私たちは明主様から戴いているが、そのうち最も大きな間違の一つである、薬毒のことに例を執っても、この誤まった方法で人命を損ねた事は大変なものである。<br/><br/>これは医学者も患者も、逆理を真理と見た誤謬からであるが、この跡始末は、どういうふうに付けるのであろうか。<br/><br/>面子に拘泥することなく、潔ぎよく明主様の軍門に降って明主様の教える真理に服せば、一応その誤ちにピリオドは打てても、損った人命を償うことは出来ず、まして完全な跡始末が出来よう筈がない。<br/><br/> 私などもメシヤ教に入信する迄は、逆理、背理を真理と思い、若くして白髪になるほど薬を入れている。<br/><br/>浄化はこの跡始末の一つであろう。<br/><br/>メシヤ教の信者である私にして、この跡始末は、いつになったら完了するのか、思えばまことに肌寒いものがあるが、このほか御先祖様の因縁も背負い至らぬために無意識にする悪い行為もあるであろう。<br/><br/>かく考えると、人間には完全に跡始末の出来るものは、何一つとしてないらしい。<br/><br/> 私は出来ないながらも、神様のおん前に、絶えざる反省と悔い改めを続け、御神業の一端なりとも御手伝いさせて戴いて、せめて跡始末ならぬ、逆理を真理と信じて犯したことの償をしたいものである。<br/><br/>と考えている。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

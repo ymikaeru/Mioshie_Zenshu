@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280615</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 箱根地上天国完成記念祭御講話 （S28年6月15日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月十五日 （箱根地上天国完成記念祭御教） いよいよ地上天国の模型が完成したので、その記念祝典という意味ですが、つまり真善美のうちの美の型ができたわけです。<br><br>ところで昔からいろいろな宗教がありましたが、真善はあったが美は作らなかったのです。<br><br>なぜ美を作らなかったかというと、本当の天国の宗教でなかったからです。<br><br>時期が夜の世界のために天国を造ることができなかったのです。<br><br>そこで美が欠けていたというわけです。<br><br>それについて書きましたから、今読ませます。<br><br> （御論文「神仙郷地上天国の大いなる意義」）【栄光 二一六号】 この終わりの所にあったことがたいへんなのです。<br><br>以前も言ったことがありますが、「ゴーラ」というのは「ゴ」は「火」です。<br><br>それで「ゴー」と引っ張るのはパッとした火でなく、持続的な火です。<br><br>「ラ」は「螺旋」といって渦巻く働きです。<br><br>火は左進右退ですから、これから左進右退のリズムが霊界に始まるのです。<br><br>そうすると霊気というのは、太陽の霊気は火素だからして、この渦巻きの中にある汚いものはみんな整理されるわけです。<br><br>今までは霊界があべこべの右進左退の渦巻きだったのです。<br><br>そしてこれは月の精のリズムですから、言わばごく弱かったのです。<br><br>つまり夜の世界のリズムだったのです。<br><br>だから汚いものや間違ったもの、悪に相当するものはある程度は許されていたのです。<br><br>しかし今度の太陽の世界は、昼間の光線と同じですから、どんなものでも分かってしまうから、汚いものはみんなお取り払いになるわけです。<br><br>このことは、汚いものにとっては怖いことです。<br><br>しかしきれいなものは、あべこべにありがたいのです。<br><br>それが最後の審判なのです。<br><br>ですから今日を契機として、いよいよ最後の審判にはいって行くのです。<br><br>だからだんだんそれが形に現われて行きますから、よく分かります。<br><br>それとともに、どうしても救世教にお辞儀しなかったら、つまり生きて行けないことになるわけです。<br><br>随分バタバタする者がたくさんできるでしょうが、これは神様がやっていることで、私がやるのでないから、どうもしかたがありません。<br><br>その前に一応は知らせなければならないというので、それが『聖書』にある「普（あまね）く天国の福音を宣べ伝えらるべし、しかる後末期到る」というこれです。<br><br>そこで「天国の福音を普く宣べ伝えられる」ということは、『アメリカを救う』はそのごく最初の一段ですが、今度『世界救世教奇蹟集』が出、その次には『医学の革命書』が出ますが、これはみんな英文にして世界中に配るわけです。<br><br>それから最後に『文明の創造』が出るわけですが、これらが天国の福音となって、世界中に読ませるわけですが、これを全部読ませるまでに行くか、それとも、『医学の革命書』だけは充分ですが、『文明の創造』が間に合うかどうかということは、ちょっと分かりません。<br><br>そういうわけで、いよいよ霊界が一大転換をするのです。<br><br>それが現界に写るからして、そのつもりでいなければなりません。<br><br> それで、「力」ということについて話をしますが、今までの世界は本当の力というものが出なかったのです。<br><br>力といっても、それはいろいろあります。<br><br>人間の力の「腕力」。<br><br>それから兇器を使ったりして大いに暴れるのは「暴力」。<br><br>それから馬の力の「馬力」。<br><br>それから今は「機械力」で、これが非常な活動をして世界的にいろんな文化を進歩させていますが、これも結構です。<br><br>ところが現代の宗教のような力は「微力」と言います。<br><br>はなはだ弱い力です。<br><br>それから人間を大いに自由にしているのが「政治力」。<br><br>それから「金力」ですが、この「金力」というのがなかなか恐ろしいものです。<br><br>この金力を善が握れば結構ですが、今までの金力は悪の方が多いのです。<br><br>善もありますが悪の方が量が多かったのです。<br><br>この金力に私なども随分いじめられました。<br><br>それからいろいろ問題にされたり裁判所に引っ張られたり、言論機関が大いに圧迫したりするのは「権力」。<br><br>それから「経済力」というこれも、今までは良い方より悪い方に使った方が多いです。<br><br>そこで「金力」は「経済力」に付随してますが、「金力」というのは、たいへんな力を持っているのです。<br><br>ソ連が共産主義によって世界の覇権を握ろうとし、朝鮮戦争を起して、それをアメリカがくい止めましたが、アメリカのなんの力がくい止めたかというと「金力」です。<br><br>それは他にもいろいろありますが、そのもっとも根本的力と言いますか、それは「金力」で止めていたと言うか、「金力」で平和を維持したというわけです。<br><br>だから今までの世界では「金力」が一番力があったわけです。<br><br>それから戦争をやるのは「戦力」。<br><br>その戦力を行使すると「破壊力」。<br><br>それからまた文化の力というものには、学問の力の「学力」。<br><br>その学んだ結果の智恵の「智力」。<br><br>智恵にもいろいろありますが、これは前にも言ったから、今は言いません。<br><br>それから「智力」を応用して考える「思考力」。<br><br>それから「筆力」。<br><br>筆の力ですが、これがまた恐ろしいのです。<br><br>今の世界は「金力」が主で、「筆力」がその次と言ってもよいと思います。<br><br>それから「宣伝力」。<br><br>これもたいへんな力があるものです。<br><br>それから引く力の「引力」。<br><br>押さえる「圧力」。<br><br>まだまだたくさんありますが、大体そのくらいで分かると思います。<br><br>ただ、今までなかったのは神の力の、「神力」です。<br><br>ぜんぜんないことはないが、薄かったのです。<br><br>強く発揮ができなかったのです。<br><br>というのは夜の世界のため、つまり月の光は、光からいっても太陽の六十分の一ですから、よほど弱かったのです。<br><br>それがいよいよ時期が来て、今度は火の力、太陽の力になってきたのです。<br><br>それが昼間の世界というのです。<br><br>それで浄霊して病気が治るということは、太陽の力だからです。<br><br>今までは、救世教のように病気を治すという力はなかったのです。<br><br>というのは月の力だからして、見らるるとおり、本当に病気を治す力はないし、それからまた病気というものの根本はなにかということも発見されていなかったということは、力もないし光も薄いから、つまり見得ることができなかったのです。<br><br> それが根本だから、それが分かれば浄霊で病気が治るということは、わけなく分かるわけです。<br><br>それで救世教の信者はキリストと同じような奇蹟は毎日のようにやっているということだけでも、その力たるやたいへんなものです。<br><br>それで今までは、宗教が本当に救うことはできなかったのです。<br><br>現在救われているのは各宗の教団の方です。<br><br>仏教にしても、仏教がその信者を救っているのではなくて、その本尊が信者から救われているのです。<br><br>これは別に悪口を言うわけではないので、事実を言っているのです。<br><br>というのは、闇の世ですと月の光だけでも結構なのです。<br><br>だから闇の夜道を歩いている人は、月の光によって、とにかく安全に歩けるというわけです。<br><br>そこにだんだん太陽が出てくると、月の光は薄れてき、ついにはなくなるというようなわけですから、そこで霊界では非常に明るくなってきているから、月の光というものがもう駄目になったというわけで、それが現われているわけです。<br><br>だからして結局火の力を行使することは、私という者が出て、初めてその力を与えられたのです。<br><br>つまり「力」です。<br><br>ところが「力」というものと「光」というものとは同じなのです。<br><br>つまり「火」と「水」の密合したものが「光」でありまた「力」なのです。<br><br>だから「力」という字はよくできてます。<br><br>経と緯、火と水が十の字に組むのです。<br><br>そうするとそこにズーッと曲線がつながって、跳ね返ってますが、とにかく文字というものは神様が造ったのですが、実によくできてます。<br><br>ですから文字と言霊が分かれば、宇宙のいろいろな神秘は分かるわけです。<br><br>私はそういったことを書こうと思ってますが、どうしても書けないのです。<br><br>やっぱり神様はどうしても、それを分からしてはいけないことがあるとみえます。<br><br>そこで経が先で緯が来て結ばり、曲がって、跳ね返っているが、これは左進右退のリズムが現われてます。<br><br>ですからさっき言ったとおり、この地上天国の模型が中心になって、左進右退的活動が始まるということは、これが真の力なのであります。<br><br>つまり救世教というものは力の宗教と言ってもよいのです。<br><br>この力が本当の神力です。<br><br>経緯結んだ火と水の力です。<br><br>「カ」は「火」で、「ミ」は「水」ですから、「カミ」の力です。<br><br>この力を行使したという人は世界肇（はじ）まって以来ないのです。<br><br>それで言霊から言うと「シン」の言霊返しは「ス」になりますから「神力」は「主の力」とも言えます。<br><br>それでいつも［ス］は○にヽと書きますが、チョンが火で、丸が水になります。<br><br>太陽の黒点はチョンになります。<br><br>学者はあの黒点を研究してますが、それは今言ったことなのですから、こっちは別に研究の必要はありません。<br><br>この太陽の黒点のチョンがたいへんなものです。<br><br>つまり宇宙の魂です。<br><br>果物なら種です。<br><br>それで今までの世界はチョンがなかったのです。<br><br>丸だけだったのです。<br><br>要するに空だったのです。<br><br>それでいよいよ私が世界にチョンを入れるわけです。<br><br>この神仙郷はチョンなのです。<br><br>ヽなのです。<br><br>その意味において非常に重要なわけなのです。<br><br>その始まりの今日は非常な意味があります。<br><br> それから六月十五日というのは天照大御神様の誕生日になりますが、誕生日ということは日が出るわけです。<br><br>これは私の本にあります。<br><br>前に房州の日本寺に行った時が昭和六年六月十五日ですが、これがつまり日本の日の出になるわけです。<br><br>そしてそれが世界の黎明です。<br><br>その時もいろいろな神秘なことがありました。<br><br>それから三月と三日たった九月十八日に満州事変が起りましたが、この満州事変ということがたいへんな意味があるのですが、これについてもそのうちに書きます。<br><br>それから日本寺という寺の名前も、これは日の本で、あそこから日が出たのですから、寺の名前も、日本寺となっており、この名前はほかにありません。<br><br>おまけに乾坤山というのですが、乾坤という文字は「天地」ということですから、あの寺というのはたいへんな意味だったのです。<br><br>そこで非常に神秘なことがありました。<br><br>これはまだ書いてありませんが、もうそろそろ書いてよい時期ですから、もうじき書きます。<br><br> それから一昨々年の静岡の裁判で、警察に留置されている間にすばらしい神秘なことがありました、そのことを簡単にお話しますと、連れて行かれたのが五月二十九日かで、その時神様に、ここにいるのはいつまでだと訊いたところが、十八日間だというので数えてみれば六月十五日になります。<br><br>その日は非常な神秘なことがあったのです。<br><br>それは天照大御神様が生まれるというわけです。<br><br>これは一言だけ言いますが、その時おもしろいのは、差し入れする弁当屋の内儀さんが非常に太った人で、たいへん世話を焼いてくれたのですが、この人は踊りを習っていて、前の晩大いに踊ったのです。<br><br>明くる日に自慢そうに話をしましたが、それはなにかというと、岩戸開きの時の天宇豆売命（あめのうずめのみことが）舞い踊り、足をあまり高く上げたため陰戸が見えたので大勢の神々が大いに笑った声を聞かれ、天照大御神様は岩の戸を細目にお開けになったのを逸（いち）早く手力男命（たぢからをのみこと）が御手を取られ外にお現われになったことが『古事記』に出ていますが、この型であります。<br><br> それで六月十五日の朝方に夢を見ましたが、前にも話した通り富士山に登ったことでそれが関連してます。<br><br>それから、ここに渋井さんもいますが、あの時引っ張られた連中は五人なのです。<br><br>それで岩戸開きの時には五伴男（いつとものを）といって、五人の男の神がお供になるのです。<br><br>まだいろいろありますが、そういう岩戸開きの型があったのです。<br><br>それで今日は、ちょうど三年目になるわけです。<br><br>やはり神様のことは、非常な神秘なことが関連しているのでおもしろいです。<br><br>ですからこれからだんだんリズムが拡がって行くにつれて、それが具体的に現われます。<br><br>それでリズムというのは最初小さく、だんだん大きくなって世界的になって行くのですが、とにかくすばらしいわけです。<br><br>またおもしろいわけです。<br><br>信者の人などもそのつもりで、世の中を見ていると分かります。<br><br> 今日はこれだけにしておきます。<br><br> それから話は違いますが、結核は必ず治ると言いたいことを今日発表しようと思います。<br><br>今まで大体そうは思ってましたが、やっぱり時期があって、どうもその気にならなかったのです。<br><br>というのは、これはみんな経験しているでしょうが、病気がだんだん治って行くのに、衰弱のために倒れて行くというのがほとんどです。<br><br>だから結核でも、病気が重くなって死ぬということはほとんどありません。<br><br>みんな衰弱で死ぬのです。<br><br>病気はだんだんよくなって行っていて、衰弱のためにやられるのです。<br><br>そういうわけですから、衰弱さえせず命さえ続いていれば、だんだん毒素は減って行きますから治るわけです。<br><br>では衰弱はなにかというと食べ物です。<br><br>食べ物さえ食べていればよいのです。<br><br>なにしろ食べ物が少ないのと、熱のために食欲がなかったり、咳をしたり睡眠がとれないということでやられて行くのです。<br><br>ですから、むしろ食欲が減らないようにするのです。<br><br>それには肩です。<br><br>結核の人は必ず肩が固くてコチコチです。<br><br>結核の人で肩が柔らかいという人はありません。<br><br>拳骨を入れたような人がありますし、まるで骨としか思われないような人がありますが、これが食欲に一番関係するのです。<br><br>だから結核の人はなにがなんでも肩を柔らかくすることです。<br><br>それを溶かすことです。<br><br>そうして肩さえ柔らかくなれば必ず食欲が出ます。<br><br>だから結核とは肩の凝った病気と思っていれば間違いありません。<br><br>そうすると按摩さんがよいように思うようなことになりますが、按摩さんは一時ですから、除ることはできません。<br><br>よくスポーツマンなどが割合に早死にだということ、それから必ず結核で死ぬのですが、このことは私は前に書いたことがありますが、やはり肩が凝っているためです。<br><br>特に水泳の選手がそうです。<br><br>非常に肩が凝っています。<br><br>これは腕を使いますから、どうしても毒が肩に固まります。<br><br>そういうわけで、つまり肩を柔らかくするということを、一つ心得てやることです。<br><br>そうして肩が柔らかくなれば、必ず食欲は出るし、熱も減ります。<br><br>肩からの熱が一番多いのです。<br><br>それで肩が柔らかくなれば、ここ（頸）も柔らかくなります。<br><br>ですから大体結核というものは胸の病気ではありません。<br><br>肩と頸の病気なのです。<br><br>だからここで溶けたものが肺にはいって痰になって出るのですが、医学の方ではここ（頸、肩）の方を見ないのです。<br><br>ここのが溶けて肺にはいって痰になって出る、その出ている所を見て、胸の病と言うのですが、こっちの方が元なのです。<br><br>だから結核は肩というように思っていることです。<br><br> それからついでに話しますが、息切れはどこに原因があるかというと、これもよく知っておくとよいです。<br><br>これは肋間です。<br><br>息切れのある人は横腹に毒が多いですが、押してみると必ず痛い所があります。<br><br>骨に固まっているというのが多いのです。<br><br>それで歩いたり急いだりすると、肋骨にからんでいた毒素の固まりが、少しでも溶けますが、溶けると出そうとして肺が引っ張るのです。<br><br>それが息切れです。<br><br>だから特に喘息などはそうです。<br><br>よく肺病の人に息切れが多いですが、あれは肩が少し溶けたものがここに来て固まるのですから、やはり元は肩にあります。<br><br>結局結核は肩が第一、それから頸のまわり、それから肋骨付近と思って、その浄霊をすれば、まず治ると言ってよいです。<br><br>ただ衰弱がある程度を越えて過ぎていると、浄霊を始めても間に合わないことがありますから、それだけは心得ておかなければいけません。<br><br>やはり肩をやっても、肩で溶けたものがいったん肺にはいって痰になって出るのですから、衰弱しきっているのをやっても間に合いませんから、それだけは心得ておくとよいです。<br><br>それから食欲がないということは、肩のためということを知っていればよいです。<br><br>ですから胃を浄霊するより肩を浄霊した方が食欲はつきます。<br><br> それからもう一つは頭ですが、結核の熱というのは頭が多いですから、これは肩をやれば頭もよくなります。<br><br>けれども前頭部を触ってみれば熱があるのは分かりますから、それも一緒にやれば、より早く治るというわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Inauguração do Mundo do Dia e a Manifestação do Poder Divino</h2>
 <p>Com a iminente conclusão do protótipo do Paraíso Terrestre, celebramos hoje sua cerimônia comemorativa. O que se concretizou, em suma, foi o modelo do Belo, que, junto da Verdade e do Bem, compõe a mais elevada tríade. Cumpre notar que, ao longo da história, as diversas religiões manifestaram a Verdade e o Bem, mas jamais foram capazes de materializar o Belo. A razão para tal lacuna reside no fato de não serem, em sua plenitude, religiões do Paraíso, pois a Era do Mundo da Noite impedia a sua construção. Por conseguinte, o Belo permanecia ausente. Escrevi a respeito desse tema, e solicitarei que o texto seja lido a seguir.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>O princípio fundamental é, portanto, flexibilizar os ombros. Quando isso é alcançado, o apetite retorna e a febre diminui, pois grande parte da febre provém dos ombros. Flexibilizando os ombros, o pescoço também se torna flexível. Conclui-se, assim, que a tuberculose não é uma doença do peito, mas sim dos ombros e do pescoço. As toxinas dissolvidas nessa região descem para os pulmões e são expelidas como catarro. A medicina, contudo, não observa a origem do problema nos ombros e no pescoço; ela foca apenas no local da manifestação, os pulmões, e diagnostica erroneamente uma doença pulmonar. Lembrem-se, portanto: a causa da tuberculose está nos ombros.</p>
 <p>Aproveitando o ensejo, falarei também sobre a causa da falta de ar, um conhecimento útil. A origem está no espaço intercostal. Pessoas com falta de ar possuem muitas toxinas acumuladas na região lateral do tronco. Ao pressionar a área, certamente encontrarão pontos doloridos, frequentemente toxinas solidificadas junto às costelas. Ao caminhar ou se apressar, esses nódulos de toxinas se dissolvem um pouco. Para expelir essa toxina dissolvida, os pulmões são tracionados, o que causa a falta de ar. A asma, em particular, segue esse mesmo princípio. É comum que pacientes com tuberculose sofram de falta de ar, pois toxinas que se dissolvem nos ombros descem e se solidificam nessa região. A origem, portanto, continua sendo os ombros.</p>
 <p>Em suma, para tratar a tuberculose, deve-se focar o Johrei nos ombros, na região do pescoço e na área das costelas. Com esse procedimento, a cura é praticamente certa. No entanto, se a debilidade do paciente já tiver ultrapassado um certo limite, pode ser que o Johrei, mesmo iniciado, não chegue a tempo. É preciso ter essa consciência. Mesmo purificando os ombros, as toxinas dissolvidas precisam passar pelos pulmões para serem expelidas como catarro, e um corpo extremamente debilitado pode não suportar o processo. Saibam também que a falta de apetite é causada pelos ombros; por isso, purificar os ombros é mais eficaz para restaurar o apetite do que purificar o estômago. Por fim, há a cabeça. A febre da tuberculose frequentemente se concentra na cabeça, mas ela também melhora com a purificação dos ombros. Contudo, ao tocar a testa do paciente, é possível sentir o calor. Purificar a testa simultaneamente acelerará a recuperação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 箱根地上天国完成記念祭御講話 （S28年6月15日） 『御教え集』23号、昭和28(1953)年7月15日発行 昭和二十八年六月十五日 （箱根地上天国完成記念祭御教） いよいよ地上天国の模型が完成したので、その記念祝典という意味ですが、つまり真善美のうちの美の型ができたわけです。<br/><br/>ところで昔からいろいろな宗教がありましたが、真善はあったが美は作らなかったのです。<br/><br/>なぜ美を作らなかったかというと、本当の天国の宗教でなかったからです。<br/><br/>時期が夜の世界のために天国を造ることができなかったのです。<br/><br/>そこで美が欠けていたというわけです。<br/><br/>それについて書きましたから、今読ませます。<br/><br/> （御論文「神仙郷地上天国の大いなる意義」）【栄光 二一六号】 この終わりの所にあったことがたいへんなのです。<br/><br/>以前も言ったことがありますが、「ゴーラ」というのは「ゴ」は「火」です。<br/><br/>それで「ゴー」と引っ張るのはパッとした火でなく、持続的な火です。<br/><br/>「ラ」は「螺旋」といって渦巻く働きです。<br/><br/>火は左進右退ですから、これから左進右退のリズムが霊界に始まるのです。<br/><br/>そうすると霊気というのは、太陽の霊気は火素だからして、この渦巻きの中にある汚いものはみんな整理されるわけです。<br/><br/>今までは霊界があべこべの右進左退の渦巻きだったのです。<br/><br/>そしてこれは月の精のリズムですから、言わばごく弱かったのです。<br/><br/>つまり夜の世界のリズムだったのです。<br/><br/>だから汚いものや間違ったもの、悪に相当するものはある程度は許されていたのです。<br/><br/>しかし今度の太陽の世界は、昼間の光線と同じですから、どんなものでも分かってしまうから、汚いものはみんなお取り払いになるわけです。<br/><br/>このことは、汚いものにとっては怖いことです。<br/><br/>しかしきれいなものは、あべこべにありがたいのです。<br/><br/>それが最後の審判なのです。<br/><br/>ですから今日を契機として、いよいよ最後の審判にはいって行くのです。<br/><br/>だからだんだんそれが形に現われて行きますから、よく分かります。<br/><br/>それとともに、どうしても救世教にお辞儀しなかったら、つまり生きて行けないことになるわけです。<br/><br/>随分バタバタする者がたくさんできるでしょうが、これは神様がやっていることで、私がやるのでないから、どうもしかたがありません。<br/><br/>その前に一応は知らせなければならないというので、それが『聖書』にある「普（あまね）く天国の福音を宣べ伝えらるべし、しかる後末期到る」というこれです。<br/><br/>そこで「天国の福音を普く宣べ伝えられる」ということは、『アメリカを救う』はそのごく最初の一段ですが、今度『世界救世教奇蹟集』が出、その次には『医学の革命書』が出ますが、これはみんな英文にして世界中に配るわけです。<br/><br/>それから最後に『文明の創造』が出るわけですが、これらが天国の福音となって、世界中に読ませるわけですが、これを全部読ませるまでに行くか、それとも、『医学の革命書』だけは充分ですが、『文明の創造』が間に合うかどうかということは、ちょっと分かりません。<br/><br/>そういうわけで、いよいよ霊界が一大転換をするのです。<br/><br/>それが現界に写るからして、そのつもりでいなければなりません。<br/><br/> それで、「力」ということについて話をしますが、今までの世界は本当の力というものが出なかったのです。<br/><br/>力といっても、それはいろいろあります。<br/><br/>人間の力の「腕力」。<br/><br/>それから兇器を使ったりして大いに暴れるのは「暴力」。<br/><br/>それから馬の力の「馬力」。<br/><br/>それから今は「機械力」で、これが非常な活動をして世界的にいろんな文化を進歩させていますが、これも結構です。<br/><br/>ところが現代の宗教のような力は「微力」と言います。<br/><br/>はなはだ弱い力です。<br/><br/>それから人間を大いに自由にしているのが「政治力」。<br/><br/>それから「金力」ですが、この「金力」というのがなかなか恐ろしいものです。<br/><br/>この金力を善が握れば結構ですが、今までの金力は悪の方が多いのです。<br/><br/>善もありますが悪の方が量が多かったのです。<br/><br/>この金力に私なども随分いじめられました。<br/><br/>それからいろいろ問題にされたり裁判所に引っ張られたり、言論機関が大いに圧迫したりするのは「権力」。<br/><br/>それから「経済力」というこれも、今までは良い方より悪い方に使った方が多いです。<br/><br/>そこで「金力」は「経済力」に付随してますが、「金力」というのは、たいへんな力を持っているのです。<br/><br/>ソ連が共産主義によって世界の覇権を握ろうとし、朝鮮戦争を起して、それをアメリカがくい止めましたが、アメリカのなんの力がくい止めたかというと「金力」です。<br/><br/>それは他にもいろいろありますが、そのもっとも根本的力と言いますか、それは「金力」で止めていたと言うか、「金力」で平和を維持したというわけです。<br/><br/>だから今までの世界では「金力」が一番力があったわけです。<br/><br/>それから戦争をやるのは「戦力」。<br/><br/>その戦力を行使すると「破壊力」。<br/><br/>それからまた文化の力というものには、学問の力の「学力」。<br/><br/>その学んだ結果の智恵の「智力」。<br/><br/>智恵にもいろいろありますが、これは前にも言ったから、今は言いません。<br/><br/>それから「智力」を応用して考える「思考力」。<br/><br/>それから「筆力」。<br/><br/>筆の力ですが、これがまた恐ろしいのです。<br/><br/>今の世界は「金力」が主で、「筆力」がその次と言ってもよいと思います。<br/><br/>それから「宣伝力」。<br/><br/>これもたいへんな力があるものです。<br/><br/>それから引く力の「引力」。<br/><br/>押さえる「圧力」。<br/><br/>まだまだたくさんありますが、大体そのくらいで分かると思います。<br/><br/>ただ、今までなかったのは神の力の、「神力」です。<br/><br/>ぜんぜんないことはないが、薄かったのです。<br/><br/>強く発揮ができなかったのです。<br/><br/>というのは夜の世界のため、つまり月の光は、光からいっても太陽の六十分の一ですから、よほど弱かったのです。<br/><br/>それがいよいよ時期が来て、今度は火の力、太陽の力になってきたのです。<br/><br/>それが昼間の世界というのです。<br/><br/>それで浄霊して病気が治るということは、太陽の力だからです。<br/><br/>今までは、救世教のように病気を治すという力はなかったのです。<br/><br/>というのは月の力だからして、見らるるとおり、本当に病気を治す力はないし、それからまた病気というものの根本はなにかということも発見されていなかったということは、力もないし光も薄いから、つまり見得ることができなかったのです。<br/><br/> それが根本だから、それが分かれば浄霊で病気が治るということは、わけなく分かるわけです。<br/><br/>それで救世教の信者はキリストと同じような奇蹟は毎日のようにやっているということだけでも、その力たるやたいへんなものです。<br/><br/>それで今までは、宗教が本当に救うことはできなかったのです。<br/><br/>現在救われているのは各宗の教団の方です。<br/><br/>仏教にしても、仏教がその信者を救っているのではなくて、その本尊が信者から救われているのです。<br/><br/>これは別に悪口を言うわけではないので、事実を言っているのです。<br/><br/>というのは、闇の世ですと月の光だけでも結構なのです。<br/><br/>だから闇の夜道を歩いている人は、月の光によって、とにかく安全に歩けるというわけです。<br/><br/>そこにだんだん太陽が出てくると、月の光は薄れてき、ついにはなくなるというようなわけですから、そこで霊界では非常に明るくなってきているから、月の光というものがもう駄目になったというわけで、それが現われているわけです。<br/><br/>だからして結局火の力を行使することは、私という者が出て、初めてその力を与えられたのです。<br/><br/>つまり「力」です。<br/><br/>ところが「力」というものと「光」というものとは同じなのです。<br/><br/>つまり「火」と「水」の密合したものが「光」でありまた「力」なのです。<br/><br/>だから「力」という字はよくできてます。<br/><br/>経と緯、火と水が十の字に組むのです。<br/><br/>そうするとそこにズーッと曲線がつながって、跳ね返ってますが、とにかく文字というものは神様が造ったのですが、実によくできてます。<br/><br/>ですから文字と言霊が分かれば、宇宙のいろいろな神秘は分かるわけです。<br/><br/>私はそういったことを書こうと思ってますが、どうしても書けないのです。<br/><br/>やっぱり神様はどうしても、それを分からしてはいけないことがあるとみえます。<br/><br/>そこで経が先で緯が来て結ばり、曲がって、跳ね返っているが、これは左進右退のリズムが現われてます。<br/><br/>ですからさっき言ったとおり、この地上天国の模型が中心になって、左進右退的活動が始まるということは、これが真の力なのであります。<br/><br/>つまり救世教というものは力の宗教と言ってもよいのです。<br/><br/>この力が本当の神力です。<br/><br/>経緯結んだ火と水の力です。<br/><br/>「カ」は「火」で、「ミ」は「水」ですから、「カミ」の力です。<br/><br/>この力を行使したという人は世界肇（はじ）まって以来ないのです。<br/><br/>それで言霊から言うと「シン」の言霊返しは「ス」になりますから「神力」は「主の力」とも言えます。<br/><br/>それでいつも［ス］は○にヽと書きますが、チョンが火で、丸が水になります。<br/><br/>太陽の黒点はチョンになります。<br/><br/>学者はあの黒点を研究してますが、それは今言ったことなのですから、こっちは別に研究の必要はありません。<br/><br/>この太陽の黒点のチョンがたいへんなものです。<br/><br/>つまり宇宙の魂です。<br/><br/>果物なら種です。<br/><br/>それで今までの世界はチョンがなかったのです。<br/><br/>丸だけだったのです。<br/><br/>要するに空だったのです。<br/><br/>それでいよいよ私が世界にチョンを入れるわけです。<br/><br/>この神仙郷はチョンなのです。<br/><br/>ヽなのです。<br/><br/>その意味において非常に重要なわけなのです。<br/><br/>その始まりの今日は非常な意味があります。<br/><br/> それから六月十五日というのは天照大御神様の誕生日になりますが、誕生日ということは日が出るわけです。<br/><br/>これは私の本にあります。<br/><br/>前に房州の日本寺に行った時が昭和六年六月十五日ですが、これがつまり日本の日の出になるわけです。<br/><br/>そしてそれが世界の黎明です。<br/><br/>その時もいろいろな神秘なことがありました。<br/><br/>それから三月と三日たった九月十八日に満州事変が起りましたが、この満州事変ということがたいへんな意味があるのですが、これについてもそのうちに書きます。<br/><br/>それから日本寺という寺の名前も、これは日の本で、あそこから日が出たのですから、寺の名前も、日本寺となっており、この名前はほかにありません。<br/><br/>おまけに乾坤山というのですが、乾坤という文字は「天地」ということですから、あの寺というのはたいへんな意味だったのです。<br/><br/>そこで非常に神秘なことがありました。<br/><br/>これはまだ書いてありませんが、もうそろそろ書いてよい時期ですから、もうじき書きます。<br/><br/> それから一昨々年の静岡の裁判で、警察に留置されている間にすばらしい神秘なことがありました、そのことを簡単にお話しますと、連れて行かれたのが五月二十九日かで、その時神様に、ここにいるのはいつまでだと訊いたところが、十八日間だというので数えてみれば六月十五日になります。<br/><br/>その日は非常な神秘なことがあったのです。<br/><br/>それは天照大御神様が生まれるというわけです。<br/><br/>これは一言だけ言いますが、その時おもしろいのは、差し入れする弁当屋の内儀さんが非常に太った人で、たいへん世話を焼いてくれたのですが、この人は踊りを習っていて、前の晩大いに踊ったのです。<br/><br/>明くる日に自慢そうに話をしましたが、それはなにかというと、岩戸開きの時の天宇豆売命（あめのうずめのみことが）舞い踊り、足をあまり高く上げたため陰戸が見えたので大勢の神々が大いに笑った声を聞かれ、天照大御神様は岩の戸を細目にお開けになったのを逸（いち）早く手力男命（たぢからをのみこと）が御手を取られ外にお現われになったことが『古事記』に出ていますが、この型であります。<br/><br/> それで六月十五日の朝方に夢を見ましたが、前にも話した通り富士山に登ったことでそれが関連してます。<br/><br/>それから、ここに渋井さんもいますが、あの時引っ張られた連中は五人なのです。<br/><br/>それで岩戸開きの時には五伴男（いつとものを）といって、五人の男の神がお供になるのです。<br/><br/>まだいろいろありますが、そういう岩戸開きの型があったのです。<br/><br/>それで今日は、ちょうど三年目になるわけです。<br/><br/>やはり神様のことは、非常な神秘なことが関連しているのでおもしろいです。<br/><br/>ですからこれからだんだんリズムが拡がって行くにつれて、それが具体的に現われます。<br/><br/>それでリズムというのは最初小さく、だんだん大きくなって世界的になって行くのですが、とにかくすばらしいわけです。<br/><br/>またおもしろいわけです。<br/><br/>信者の人などもそのつもりで、世の中を見ていると分かります。<br/><br/> 今日はこれだけにしておきます。<br/><br/> それから話は違いますが、結核は必ず治ると言いたいことを今日発表しようと思います。<br/><br/>今まで大体そうは思ってましたが、やっぱり時期があって、どうもその気にならなかったのです。<br/><br/>というのは、これはみんな経験しているでしょうが、病気がだんだん治って行くのに、衰弱のために倒れて行くというのがほとんどです。<br/><br/>だから結核でも、病気が重くなって死ぬということはほとんどありません。<br/><br/>みんな衰弱で死ぬのです。<br/><br/>病気はだんだんよくなって行っていて、衰弱のためにやられるのです。<br/><br/>そういうわけですから、衰弱さえせず命さえ続いていれば、だんだん毒素は減って行きますから治るわけです。<br/><br/>では衰弱はなにかというと食べ物です。<br/><br/>食べ物さえ食べていればよいのです。<br/><br/>なにしろ食べ物が少ないのと、熱のために食欲がなかったり、咳をしたり睡眠がとれないということでやられて行くのです。<br/><br/>ですから、むしろ食欲が減らないようにするのです。<br/><br/>それには肩です。<br/><br/>結核の人は必ず肩が固くてコチコチです。<br/><br/>結核の人で肩が柔らかいという人はありません。<br/><br/>拳骨を入れたような人がありますし、まるで骨としか思われないような人がありますが、これが食欲に一番関係するのです。<br/><br/>だから結核の人はなにがなんでも肩を柔らかくすることです。<br/><br/>それを溶かすことです。<br/><br/>そうして肩さえ柔らかくなれば必ず食欲が出ます。<br/><br/>だから結核とは肩の凝った病気と思っていれば間違いありません。<br/><br/>そうすると按摩さんがよいように思うようなことになりますが、按摩さんは一時ですから、除ることはできません。<br/><br/>よくスポーツマンなどが割合に早死にだということ、それから必ず結核で死ぬのですが、このことは私は前に書いたことがありますが、やはり肩が凝っているためです。<br/><br/>特に水泳の選手がそうです。<br/><br/>非常に肩が凝っています。<br/><br/>これは腕を使いますから、どうしても毒が肩に固まります。<br/><br/>そういうわけで、つまり肩を柔らかくするということを、一つ心得てやることです。<br/><br/>そうして肩が柔らかくなれば、必ず食欲は出るし、熱も減ります。<br/><br/>肩からの熱が一番多いのです。<br/><br/>それで肩が柔らかくなれば、ここ（頸）も柔らかくなります。<br/><br/>ですから大体結核というものは胸の病気ではありません。<br/><br/>肩と頸の病気なのです。<br/><br/>だからここで溶けたものが肺にはいって痰になって出るのですが、医学の方ではここ（頸、肩）の方を見ないのです。<br/><br/>ここのが溶けて肺にはいって痰になって出る、その出ている所を見て、胸の病と言うのですが、こっちの方が元なのです。<br/><br/>だから結核は肩というように思っていることです。<br/><br/> それからついでに話しますが、息切れはどこに原因があるかというと、これもよく知っておくとよいです。<br/><br/>これは肋間です。<br/><br/>息切れのある人は横腹に毒が多いですが、押してみると必ず痛い所があります。<br/><br/>骨に固まっているというのが多いのです。<br/><br/>それで歩いたり急いだりすると、肋骨にからんでいた毒素の固まりが、少しでも溶けますが、溶けると出そうとして肺が引っ張るのです。<br/><br/>それが息切れです。<br/><br/>だから特に喘息などはそうです。<br/><br/>よく肺病の人に息切れが多いですが、あれは肩が少し溶けたものがここに来て固まるのですから、やはり元は肩にあります。<br/><br/>結局結核は肩が第一、それから頸のまわり、それから肋骨付近と思って、その浄霊をすれば、まず治ると言ってよいです。<br/><br/>ただ衰弱がある程度を越えて過ぎていると、浄霊を始めても間に合わないことがありますから、それだけは心得ておかなければいけません。<br/><br/>やはり肩をやっても、肩で溶けたものがいったん肺にはいって痰になって出るのですから、衰弱しきっているのをやっても間に合いませんから、それだけは心得ておくとよいです。<br/><br/>それから食欲がないということは、肩のためということを知っていればよいです。<br/><br/>ですから胃を浄霊するより肩を浄霊した方が食欲はつきます。<br/><br/> それからもう一つは頭ですが、結核の熱というのは頭が多いですから、これは肩をやれば頭もよくなります。<br/><br/>けれども前頭部を触ってみれば熱があるのは分かりますから、それも一緒にやれば、より早く治るというわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

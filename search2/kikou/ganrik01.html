@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganrik01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 神成大教会 岡庭真次郎 『地上天国』40号、昭和27(1952)年9月25日発行 この記事を書かせて頂く初め何と題名を付けたらよろしいかと考えると、何としても頭脳に明主様の御眼力と出て来るので、誠に恐多く又申訳御座いませんが、御許し賜わりとうう御座います。<br><br> 明主様が未だ大森の御屋敷にて宗教や病気治療に専門に御取材りに成られた昭和四年頃から、その以前特に顕著な御力を発揮せられた実に、偉大な御眼力（と申させて頂きます）のお話から追々と御側近にて御伺い致した中から変った御話を書かせて頂きたいとペンを執らせて頂きました。<br><br> 関東大震災の有った大正十二年の五月に明主様は小間物問屋岡田商店社長であられ、御店は横町に、御屋敷は京橋の大鋸（おおが）町に在られたのですが、その御屋敷を突然三万六千五百円で御売却（常時時価五万円以上）、大森八景園の御屋敷を御買いになられて、パッと御移転遊ばされて終われた。<br><br>この突然の出来事に驚かれた御親戚の皆様は、「なぜそんな安値で売って終ったか」と盛んに御難詰なされたのですが、明主様は平然と、「そんな事を言うけれど、今にみんなここへ来なきゃあならんのですぜ」とおっしゃられたので、御親戚の皆様はただあきれられて、申される御言葉も無く引さがられてしまわれたのでありました。<br><br>ところが九月一日皆さん御承知のあの関東大震災で、東京は一日にして焼土と化し、焼死、圧死者その数を知らずという大悲惨事が突発、たよりに頼りし科学もて築き上げられた大東京は影も留めず、宿るに家無く、飢ゆるも食無く、着の身着のままの罹災者は万止む無く田舎の親戚知人を求めて去って行ったのです。<br><br> 明主様はかねて「東京は火の海になる」との神様よりの御啓示に依られたため御店も仕入を手控えられ、注文あれば作って売るという式になされたため大損害を免れ得られたのでありました。<br><br>一方御親戚の反対なされた皆様はいかがかと言えば、皆御焼出されとなられて、シャツ一枚で焼け残りの品物を負われ皆大森の御座敷へ上って来られ、「とうとう御前の言う通りになって終った」と頭を下げられて終ったのです。<br><br>明主様にはこの年五月『東京は火の海になる』と言う神様よりの御啓示と同時に早速避難の実行と御店の仕入等万端に渉られて御実行なされたため御被害も至極少なくて終ったのです。<br><br>明主様にはこの御啓示を御受けになられても一般市民の難儀を御心に止められても、その頃の軍部官僚の強烈なる弾圧を思われる時、いかんとも人々に知らせようもなく、又神を信ぜぬせ人なるため実行不可能なるを察せられ、救う術すら無い世の中を非常に御歎き遊ばされたのです。<br><br> 仮に東京市民の半分がこれを信じて実行したとすれば莫大な利益であり、又死人傷者のいかに少なくて済んだかを思う時、今後における大難大浄化こそ一層悲しまれてならないのです」明主様がこの時大悲惨事の来る事を世間に御発表遊ばされたとすれば如何。<br><br>必ずこの頃の強暴なりし官憲の手によって逮捕され、厳しい咎めを受けられた事は必定で、自分から神国日本を口癖にしながら神を知らざる今の日本人を思う時、益々今後の問題こそと心が痛むのであります。<br><br> これより先大正三年頃から明主様には神様から御啓示があられて御書取になられ、又御口述の場合は奥様が御書きになられたのですが、この時分にすでに五十万年以前より今後の事までの一切と、御自分の御神格まで御存じの御身分に御成り遊ばされて終われたのでありますが、何としても不思議で、御自分で御自分の御使命を疑われてお筆先を取出されては御覧になられ又仕舞い込まれるというようになされ、果は疑問の余り縁の下に投込まれて終われたのですが、又ハテナと御取出しになられ又投込まれると言う訳で終いには「ハテナ」と名付けられたとの御話でありました。<br><br>その内に大本教の宣伝ビラを御覧になられて、ハテナこれは私の神様と同じような事だと興味を覚えられて、この講演を御聞きになられて益々興味々覚え、終に綾部まで御出掛になられて、出口王仁三郎師に御面会の段取とはなられたのでありました。<br><br> 明主様を御覧になると出口師は「岡田さん、あなたがねえ、仮にコップに水を入れ、これが薬だから飲めと言えば、それが薬になるんやぜ」とさすが当代としては一流の霊格者たる出口師、遂に明主様の大神格者で在らせられる事を即座に見破られたのでありました。<br><br> 明主様もこの時ハッとされ、ここにおいて御確信を得られたのでありますから、「出口師は私を見出してくれた恩人だ」との御言葉を御伺い致し宜（むべ）なる哉（かな）と感じたのであります。<br><br>その出口師も御自分の地位に満足されてか明主様の御許に参画されないために遂にあのような大弾圧となり、御気の毒な最後となられたのも昔からの因縁で何とも致し方ない事でありますが、昭和十年に至り遂にあのような大弾圧となり潰滅し、昭和二十二年には出口師も寂しく他界されて終ったのであります。<br><br>かねてよりこの出口王仁三郎師は世界の重要な国や人物の型をなし居る人との事を御伺い致しましたが、出口師は○○○の型であるとかの御教を賜わりました。<br><br> 明主様はこの釈迦やキリストの預言をこの世に実現遊ばさるべく御現われ遊ばされた、神定の御立役者で在られる以上、地上天国実現は決定的で、ただ、今暫くの時期を待たれるばかりである。<br><br>昭和五年五月私は弟通明が肋膜を患い、三度目の肋膜を医者より見離されて終ったために誠に申し訳無い事ではありますが、溺れる者は藁をもの例えで大森の明主様の邸宅へ御願いに参上致しました。<br><br>その頃は鎮魂と言ってまず天津祝詞を御奏上の上御治療下さいました。<br><br>二日目に朝御目に掛ると、明主様は私の顔を見られて、「岡庭さん、あなたがねえ、今にここを（大森の御治療所の事）やるんですぜ」との御言葉でした。<br><br>ところが私は御目に掛って僅か二日目の朝の事でまだまだ御疑い申し上げておりました事ゆえ誠に失礼な儀ですが本当に致し兼ねて「アヽそうですか」と空返事のごとく申し上げました。<br><br>明主様は「サアやりましょう」と弟通明を御鎮魂下さいましたが、暫くして「もうこれで治りましたよ」との御言葉です。<br><br>驚いて別室に連行して「どうだ」と聞けば、弟は「もう何ともない。<br><br>有難いから御礼に御掃除番に置いて頂きたい」との事ゆえ、早速明主様に御願い申し上げましたところ、御許が戴けましたのでその日から御用させて戴き、その後一度も病気など罹らず四十八歳の今日水上の鉱山でピンピン御用させて頂いております。<br><br>次に私も弟が御用させて頂いておりますため毎晩のごとくに御屋敷に参上御話を拝聴きせて戴く内、昭和七年一月二十二日、明主様御予言通り御屋敷で専門に御用させて戴ける有難い事になりました。<br><br>御言葉を戴いてより一年八ヵ月余で事実となって来ました。<br><br>明主様が御口から御出しになられた御言葉は必ずこの通り実現されるのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Clarividência de Meishu-Sama</h2>
 <p>Ao iniciar a escrita deste artigo, ponderei longamente sobre qual título seria mais apropriado. Inevitavelmente, a expressão “A Clarividência de Meishu-Sama” emergiu em minha mente. Embora seja de uma ousadia imensa, pela qual peço sinceras desculpas, rogo a permissão de Vossa Senhoria para assim proceder.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Meishu-Sama então disse: “Vamos começar”, e iniciou o tratamento de meu irmão. Pouco depois, declarou: “Pronto, ele já está curado”. Surpreso, levei meu irmão a outra sala e perguntei: “E então, como se sente?”. Ele respondeu: “Não sinto mais nada. Sou tão grato que gostaria de pedir para ficar e servir na limpeza como forma de retribuição”. Imediatamente transmiti seu pedido a Meishu-Sama, que o acolheu. A partir daquele dia, meu irmão começou a servir e, hoje, aos quarenta e oito anos, dedica na mina de Mizukami, com saúde e vigor, sem jamais ter adoecido novamente.</p>
 <p>Como meu irmão passou a servir na residência, eu também passei a frequentá-la quase todas as noites para ouvir os Ensinamentos. Em 22 de janeiro de 1932, conforme predito por Meishu-Sama, tive a imensa permissão de passar a me dedicar exclusivamente em sua residência. E, de fato, um ano e oito meses após aquela predição, a realidade se concretizou.</p>
 <p>Toda palavra proferida por Meishu-Sama se cumpre infalivelmente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 明主様の御眼力 神成大教会 岡庭真次郎 『地上天国』40号、昭和27(1952)年9月25日発行 この記事を書かせて頂く初め何と題名を付けたらよろしいかと考えると、何としても頭脳に明主様の御眼力と出て来るので、誠に恐多く又申訳御座いませんが、御許し賜わりとうう御座います。<br/><br/> 明主様が未だ大森の御屋敷にて宗教や病気治療に専門に御取材りに成られた昭和四年頃から、その以前特に顕著な御力を発揮せられた実に、偉大な御眼力（と申させて頂きます）のお話から追々と御側近にて御伺い致した中から変った御話を書かせて頂きたいとペンを執らせて頂きました。<br/><br/> 関東大震災の有った大正十二年の五月に明主様は小間物問屋岡田商店社長であられ、御店は横町に、御屋敷は京橋の大鋸（おおが）町に在られたのですが、その御屋敷を突然三万六千五百円で御売却（常時時価五万円以上）、大森八景園の御屋敷を御買いになられて、パッと御移転遊ばされて終われた。<br/><br/>この突然の出来事に驚かれた御親戚の皆様は、「なぜそんな安値で売って終ったか」と盛んに御難詰なされたのですが、明主様は平然と、「そんな事を言うけれど、今にみんなここへ来なきゃあならんのですぜ」とおっしゃられたので、御親戚の皆様はただあきれられて、申される御言葉も無く引さがられてしまわれたのでありました。<br/><br/>ところが九月一日皆さん御承知のあの関東大震災で、東京は一日にして焼土と化し、焼死、圧死者その数を知らずという大悲惨事が突発、たよりに頼りし科学もて築き上げられた大東京は影も留めず、宿るに家無く、飢ゆるも食無く、着の身着のままの罹災者は万止む無く田舎の親戚知人を求めて去って行ったのです。<br/><br/> 明主様はかねて「東京は火の海になる」との神様よりの御啓示に依られたため御店も仕入を手控えられ、注文あれば作って売るという式になされたため大損害を免れ得られたのでありました。<br/><br/>一方御親戚の反対なされた皆様はいかがかと言えば、皆御焼出されとなられて、シャツ一枚で焼け残りの品物を負われ皆大森の御座敷へ上って来られ、「とうとう御前の言う通りになって終った」と頭を下げられて終ったのです。<br/><br/>明主様にはこの年五月『東京は火の海になる』と言う神様よりの御啓示と同時に早速避難の実行と御店の仕入等万端に渉られて御実行なされたため御被害も至極少なくて終ったのです。<br/><br/>明主様にはこの御啓示を御受けになられても一般市民の難儀を御心に止められても、その頃の軍部官僚の強烈なる弾圧を思われる時、いかんとも人々に知らせようもなく、又神を信ぜぬせ人なるため実行不可能なるを察せられ、救う術すら無い世の中を非常に御歎き遊ばされたのです。<br/><br/> 仮に東京市民の半分がこれを信じて実行したとすれば莫大な利益であり、又死人傷者のいかに少なくて済んだかを思う時、今後における大難大浄化こそ一層悲しまれてならないのです」明主様がこの時大悲惨事の来る事を世間に御発表遊ばされたとすれば如何。<br/><br/>必ずこの頃の強暴なりし官憲の手によって逮捕され、厳しい咎めを受けられた事は必定で、自分から神国日本を口癖にしながら神を知らざる今の日本人を思う時、益々今後の問題こそと心が痛むのであります。<br/><br/> これより先大正三年頃から明主様には神様から御啓示があられて御書取になられ、又御口述の場合は奥様が御書きになられたのですが、この時分にすでに五十万年以前より今後の事までの一切と、御自分の御神格まで御存じの御身分に御成り遊ばされて終われたのでありますが、何としても不思議で、御自分で御自分の御使命を疑われてお筆先を取出されては御覧になられ又仕舞い込まれるというようになされ、果は疑問の余り縁の下に投込まれて終われたのですが、又ハテナと御取出しになられ又投込まれると言う訳で終いには「ハテナ」と名付けられたとの御話でありました。<br/><br/>その内に大本教の宣伝ビラを御覧になられて、ハテナこれは私の神様と同じような事だと興味を覚えられて、この講演を御聞きになられて益々興味々覚え、終に綾部まで御出掛になられて、出口王仁三郎師に御面会の段取とはなられたのでありました。<br/><br/> 明主様を御覧になると出口師は「岡田さん、あなたがねえ、仮にコップに水を入れ、これが薬だから飲めと言えば、それが薬になるんやぜ」とさすが当代としては一流の霊格者たる出口師、遂に明主様の大神格者で在らせられる事を即座に見破られたのでありました。<br/><br/> 明主様もこの時ハッとされ、ここにおいて御確信を得られたのでありますから、「出口師は私を見出してくれた恩人だ」との御言葉を御伺い致し宜（むべ）なる哉（かな）と感じたのであります。<br/><br/>その出口師も御自分の地位に満足されてか明主様の御許に参画されないために遂にあのような大弾圧となり、御気の毒な最後となられたのも昔からの因縁で何とも致し方ない事でありますが、昭和十年に至り遂にあのような大弾圧となり潰滅し、昭和二十二年には出口師も寂しく他界されて終ったのであります。<br/><br/>かねてよりこの出口王仁三郎師は世界の重要な国や人物の型をなし居る人との事を御伺い致しましたが、出口師は○○○の型であるとかの御教を賜わりました。<br/><br/> 明主様はこの釈迦やキリストの預言をこの世に実現遊ばさるべく御現われ遊ばされた、神定の御立役者で在られる以上、地上天国実現は決定的で、ただ、今暫くの時期を待たれるばかりである。<br/><br/>昭和五年五月私は弟通明が肋膜を患い、三度目の肋膜を医者より見離されて終ったために誠に申し訳無い事ではありますが、溺れる者は藁をもの例えで大森の明主様の邸宅へ御願いに参上致しました。<br/><br/>その頃は鎮魂と言ってまず天津祝詞を御奏上の上御治療下さいました。<br/><br/>二日目に朝御目に掛ると、明主様は私の顔を見られて、「岡庭さん、あなたがねえ、今にここを（大森の御治療所の事）やるんですぜ」との御言葉でした。<br/><br/>ところが私は御目に掛って僅か二日目の朝の事でまだまだ御疑い申し上げておりました事ゆえ誠に失礼な儀ですが本当に致し兼ねて「アヽそうですか」と空返事のごとく申し上げました。<br/><br/>明主様は「サアやりましょう」と弟通明を御鎮魂下さいましたが、暫くして「もうこれで治りましたよ」との御言葉です。<br/><br/>驚いて別室に連行して「どうだ」と聞けば、弟は「もう何ともない。<br/><br/>有難いから御礼に御掃除番に置いて頂きたい」との事ゆえ、早速明主様に御願い申し上げましたところ、御許が戴けましたのでその日から御用させて戴き、その後一度も病気など罹らず四十八歳の今日水上の鉱山でピンピン御用させて頂いております。<br/><br/>次に私も弟が御用させて頂いておりますため毎晩のごとくに御屋敷に参上御話を拝聴きせて戴く内、昭和七年一月二十二日、明主様御予言通り御屋敷で専門に御用させて戴ける有難い事になりました。<br/><br/>御言葉を戴いてより一年八ヵ月余で事実となって来ました。<br/><br/>明主様が御口から御出しになられた御言葉は必ずこの通り実現されるのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

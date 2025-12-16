@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohomori</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大森時代 自観叢書第9篇『光への道』P.17、昭和24(1949)年12月30日発行 いよいよ全身全霊を打込み、神の命のまま進む事となった。<br><br>何しろ神の意図が半分、自己意識が半分というような訳で、普通人より心強い気もするが、普通人より心細い気もする。<br><br>もちろんそれ程の経済的余裕もなく、まず数ケ月維持するくらいの程度しかなく、確実な収入の見込もない、実に不安定極まる生活ではあるが、しかし絶間ない奇蹟や神示のおもしろさで、経済不安など忘れてしまう程で実に、歓喜の生活であった。<br><br>ただまっしぐらに霊的研究と病気治療に専念したのであった。<br><br> 病気治療といっても医学を修得した私でもなく、ただ種々な病気にかかり病院へ入院した事三回、医師から見放された重病二回あり、四十歳頃までは健康の時より病気の時の方が多いくらいで、全く病気の問屋であったため、その都度医学書を読み耽ったまでである。<br><br>ざっとその種類をかいてみると、十二、三歳頃までは、腺病質のいわゆる虚弱児童で、薬餌に親しみ通しであった。<br><br>それでも小学校だけはどうやら終えたが、子供ながらも、他の健康児童をみると実に羨しかったものである。<br><br>しかし不思議にも学校の成績はよく、大抵主席か二番より下らなかった。<br><br>十四歳で小学校をおえ画家の目的で美術学校予備校に入学したが、数ケ月後眼病に罹ったので中退、二ケ年有名な眼科医を巡ったが、ついに治癒せず諦めてしまった。<br><br>ところが間もなく肋膜炎に罹り、大学病院施療科に入院、穿孔排水したところ、二百グラム余り出た。<br><br>これは半ケ年くらいで治癒したが、その後一ケ年を経て再発、種々の医療を施したが、漸次悪化し、一年余すぎた頃肺結核となり、当時有名な入沢達吉博士の診断を受けたところ、不治の宣告をされた。<br><br>それが菜食療法で全治したのである。<br><br> その後数年間一切を放擲（ほうてき）し、健康恢復に努めたので、漸次恢復し、ようやく自信を得るに至ったので、二十五歳独立して小間物屋を創（はじ）めた。<br><br>素人であり、しかも母と親戚の娘と私との三人暮しで、九尺間口の借家で店の事は一切万事私一人でやったのである。<br><br>当時の模様をざっとかいてみるが、朝起きるや、掃除一切はもちろん商品の仕入れも販売も私一人でやったのだから大変である。<br><br>しかも全然経験がないから、商品の用途さえ分らない。<br><br>その都度母に聞くのである。<br><br>これは何という名前だ、頭のどこにさすものだというような訳で、化粧品から油、元結に至るまで、俗に種類の多い事を小間物店というくらいだから、覚える事は容易ではない。<br><br>その間客は絶えず買いに来る。<br><br>当時、スキ油一ケ、元結一束など一銭であったので、一銭の客にも一々有難うをいい頭を下げるのだから堪らない。<br><br>それがため半ケ年くらい経った頃とうとう重症な脳貧血に罹ってしまった。<br><br>何しろ電車通りへゆくとその音響のため、眩暈がして倒れたり、また十分も人と談話をすると、口が利けなくなるというくらいであるから、その苦痛ははなはだしいものであった。<br><br>二、三ケ月医療を受けたが効果がないので、人の奨めで灸療法を受けたところ、やや軽快に向かい、その先生から運動を勧められ、晴天の時は一里以上の歩行をした。<br><br>それが効果を奏し、二、三ケ月でほとんど全快したのである。<br><br>ところがその空白を埋めるため馬力をかけた事と、商売の方も相当熟錬したので非常に繁昌した。<br><br>しかし前途を見る時、小売より問屋の方が有望と思えたので、多少儲けた金で創めたところ、すこぶる順調に発展十年くらいで一流の問屋となったのである。<br><br>その間にも一年に数回くらい病気に罹った。<br><br>その中で重症なチブスに罹った時は遺言までしたくらいで、入院三ケ月で全治した。<br><br>また痔出血で入院一ケ月、その他胃病、リョウマチ、尿道炎、頻繁な扁桃腺炎、神経衰弱、頭痛、猛烈な腸カタル等々数え切れない程である。<br><br> それから間もなく失敗、その結果信仰に触れる事になったのは別項の通りである。<br><br>ここで私の生れた頃の事をかいてみるが、私の生れたのは東京都浅草橋場という町の貧民窟であった。<br><br>今も微かに覚えているが、親父は古道具屋で店が三畳くらい、居間が四畳半くらいの二間きりであった。<br><br>そこから十町くらいある浅草公園に毎晩夜店を出しに行ったものである。<br><br>私が物心がついてから父からよく聞いた話であるが、今夜幾らか儲けないと、明日の釜の蓋（ふた）が開かないというので、雨の降らない限り、小さい荷車へ僅かばかりのガラクタを積んで母は私を背負い、車の後押しをしながら行ったという事である。<br><br>そんな訳で赤貧洗うがごとく、母は今でいう栄養失調という訳で、乳が碌々（ろくろく）出ないので近所に蓮宗寺という寺の妻君に乳貰いに行ったものである。<br><br>それから私が小学校を出る頃、家計もようやく多少の余裕が出来るようになったので、美術学校へも入れたのである。<br><br>従って子供の頃と、世帯を持ってからも、相当期間貧乏の味と金の有難味を充分植えつけられたので、それが非常に役立っており、今もって無駄と贅沢は出来ないのであるから、むしろその頃の逆境に感謝している次第である。<br><br> その後の病気をかいてみるが、別項のごとき歯痛や心臓弁膜症、疥癬等も随分苦しんだもので特に歯痛で悩んだのは、大変なもので左にかいてみる。<br><br> 今から三十五年程前、私は慢性歯痛で苦しんだ事がある。<br><br>何しろ一本の歯の痛みさえつらいのに、毎日四本も痛むのだから堪らない。<br><br>当時米国で長く開業していた有名な某歯科医に、一年くらいかかってあらゆる薬をつけたが治るどころか、益々悪くなるばかりだ。<br><br>ある日右の歯科医はこう言った、「私が知っている限りの薬はみんなつけたが治らないから、これ以上どうしようもない。<br><br>来月私の友達がアメリカから帰ってくるので、いくつか新しい薬をもって来るだろうから、それをつけてみるより外に方法がない」と言うのである。<br><br> この程の歯痛の原因が偶然なある事により、薬毒という事が判ったのでピッタリやめてしまった。<br><br>ところがそれから段々よくなって今日に至った。<br><br>右のある事についていずれ詳しくかくが、当時私は余りの苦痛に何度自殺を企てたか判らないくらいで、右のある事は私の生命を救ってくれたのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Alicerce das Minhas Provações</h2>
 <p>Chegara o momento de me lançar de corpo e alma, a fim de seguir unicamente a Vontade Divina. Nesse estado, em que a intenção de Deus e a minha própria consciência se mesclavam, eu me sentia, por um lado, mais fortalecido que um homem comum, mas, por outro, mais desamparado. Evidentemente, eu não dispunha de grandes recursos financeiros; possuía apenas o suficiente para me manter por alguns meses, sem qualquer perspectiva de renda fixa. Era, em verdade, uma existência de extrema instabilidade. Contudo, o fascínio dos milagres e das revelações divinas que se sucediam ininterruptamente era tão grande que me fazia esquecer por completo a insegurança material. Em realidade, era uma vida de júbilo. Dediquei-me, portanto, com afinco e sem desvios, à pesquisa espiritual e à cura de doenças.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Permitam-me agora relatar outra enfermidade que me acometeu, bem como as dores de dente, a endocardite e a sarna que, como mencionei, me causaram grande sofrimento. O tormento com a dor de dente foi particularmente terrível, como descrevo a seguir.</p>
 <p>Há cerca de trinta e cinco anos, padeci de uma dor de dente crônica. Se a dor em um único dente já é um tormento, imaginem o sofrimento de ter quatro dentes doendo simultaneamente, dia após dia. Fui tratado por um renomado dentista que exercera a profissão por muitos anos nos Estados Unidos. Durante quase um ano, ele aplicou todos os medicamentos de que dispunha, mas meu estado, longe de melhorar, apenas se agravava. Certo dia, ele me disse: "Já utilizei todos os medicamentos que conheço, sem sucesso. Não há mais nada que eu possa fazer. No próximo mês, um amigo meu retornará da América e talvez traga alguns remédios novos. Nossa única esperança é experimentá-los".</p>
 <p>Por meio de uma certa descoberta acidental, compreendi que a causa de tamanha aflição era o yakudoku (薬毒), ou seja, a intoxicação medicamentosa. Imediatamente, suspendi por completo o uso de fármacos. A partir de então, a dor começou a ceder gradualmente, até desaparecer por completo. Naquela época, o sofrimento era tão atroz que perdi a conta de quantas vezes cogitei o suicídio. Essa descoberta, sobre a qual detalharei em outra oportunidade, foi o que verdadeiramente salvou a minha vida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大森時代 自観叢書第9篇『光への道』P.17、昭和24(1949)年12月30日発行 いよいよ全身全霊を打込み、神の命のまま進む事となった。<br/><br/>何しろ神の意図が半分、自己意識が半分というような訳で、普通人より心強い気もするが、普通人より心細い気もする。<br/><br/>もちろんそれ程の経済的余裕もなく、まず数ケ月維持するくらいの程度しかなく、確実な収入の見込もない、実に不安定極まる生活ではあるが、しかし絶間ない奇蹟や神示のおもしろさで、経済不安など忘れてしまう程で実に、歓喜の生活であった。<br/><br/>ただまっしぐらに霊的研究と病気治療に専念したのであった。<br/><br/> 病気治療といっても医学を修得した私でもなく、ただ種々な病気にかかり病院へ入院した事三回、医師から見放された重病二回あり、四十歳頃までは健康の時より病気の時の方が多いくらいで、全く病気の問屋であったため、その都度医学書を読み耽ったまでである。<br/><br/>ざっとその種類をかいてみると、十二、三歳頃までは、腺病質のいわゆる虚弱児童で、薬餌に親しみ通しであった。<br/><br/>それでも小学校だけはどうやら終えたが、子供ながらも、他の健康児童をみると実に羨しかったものである。<br/><br/>しかし不思議にも学校の成績はよく、大抵主席か二番より下らなかった。<br/><br/>十四歳で小学校をおえ画家の目的で美術学校予備校に入学したが、数ケ月後眼病に罹ったので中退、二ケ年有名な眼科医を巡ったが、ついに治癒せず諦めてしまった。<br/><br/>ところが間もなく肋膜炎に罹り、大学病院施療科に入院、穿孔排水したところ、二百グラム余り出た。<br/><br/>これは半ケ年くらいで治癒したが、その後一ケ年を経て再発、種々の医療を施したが、漸次悪化し、一年余すぎた頃肺結核となり、当時有名な入沢達吉博士の診断を受けたところ、不治の宣告をされた。<br/><br/>それが菜食療法で全治したのである。<br/><br/> その後数年間一切を放擲（ほうてき）し、健康恢復に努めたので、漸次恢復し、ようやく自信を得るに至ったので、二十五歳独立して小間物屋を創（はじ）めた。<br/><br/>素人であり、しかも母と親戚の娘と私との三人暮しで、九尺間口の借家で店の事は一切万事私一人でやったのである。<br/><br/>当時の模様をざっとかいてみるが、朝起きるや、掃除一切はもちろん商品の仕入れも販売も私一人でやったのだから大変である。<br/><br/>しかも全然経験がないから、商品の用途さえ分らない。<br/><br/>その都度母に聞くのである。<br/><br/>これは何という名前だ、頭のどこにさすものだというような訳で、化粧品から油、元結に至るまで、俗に種類の多い事を小間物店というくらいだから、覚える事は容易ではない。<br/><br/>その間客は絶えず買いに来る。<br/><br/>当時、スキ油一ケ、元結一束など一銭であったので、一銭の客にも一々有難うをいい頭を下げるのだから堪らない。<br/><br/>それがため半ケ年くらい経った頃とうとう重症な脳貧血に罹ってしまった。<br/><br/>何しろ電車通りへゆくとその音響のため、眩暈がして倒れたり、また十分も人と談話をすると、口が利けなくなるというくらいであるから、その苦痛ははなはだしいものであった。<br/><br/>二、三ケ月医療を受けたが効果がないので、人の奨めで灸療法を受けたところ、やや軽快に向かい、その先生から運動を勧められ、晴天の時は一里以上の歩行をした。<br/><br/>それが効果を奏し、二、三ケ月でほとんど全快したのである。<br/><br/>ところがその空白を埋めるため馬力をかけた事と、商売の方も相当熟錬したので非常に繁昌した。<br/><br/>しかし前途を見る時、小売より問屋の方が有望と思えたので、多少儲けた金で創めたところ、すこぶる順調に発展十年くらいで一流の問屋となったのである。<br/><br/>その間にも一年に数回くらい病気に罹った。<br/><br/>その中で重症なチブスに罹った時は遺言までしたくらいで、入院三ケ月で全治した。<br/><br/>また痔出血で入院一ケ月、その他胃病、リョウマチ、尿道炎、頻繁な扁桃腺炎、神経衰弱、頭痛、猛烈な腸カタル等々数え切れない程である。<br/><br/> それから間もなく失敗、その結果信仰に触れる事になったのは別項の通りである。<br/><br/>ここで私の生れた頃の事をかいてみるが、私の生れたのは東京都浅草橋場という町の貧民窟であった。<br/><br/>今も微かに覚えているが、親父は古道具屋で店が三畳くらい、居間が四畳半くらいの二間きりであった。<br/><br/>そこから十町くらいある浅草公園に毎晩夜店を出しに行ったものである。<br/><br/>私が物心がついてから父からよく聞いた話であるが、今夜幾らか儲けないと、明日の釜の蓋（ふた）が開かないというので、雨の降らない限り、小さい荷車へ僅かばかりのガラクタを積んで母は私を背負い、車の後押しをしながら行ったという事である。<br/><br/>そんな訳で赤貧洗うがごとく、母は今でいう栄養失調という訳で、乳が碌々（ろくろく）出ないので近所に蓮宗寺という寺の妻君に乳貰いに行ったものである。<br/><br/>それから私が小学校を出る頃、家計もようやく多少の余裕が出来るようになったので、美術学校へも入れたのである。<br/><br/>従って子供の頃と、世帯を持ってからも、相当期間貧乏の味と金の有難味を充分植えつけられたので、それが非常に役立っており、今もって無駄と贅沢は出来ないのであるから、むしろその頃の逆境に感謝している次第である。<br/><br/> その後の病気をかいてみるが、別項のごとき歯痛や心臓弁膜症、疥癬等も随分苦しんだもので特に歯痛で悩んだのは、大変なもので左にかいてみる。<br/><br/> 今から三十五年程前、私は慢性歯痛で苦しんだ事がある。<br/><br/>何しろ一本の歯の痛みさえつらいのに、毎日四本も痛むのだから堪らない。<br/><br/>当時米国で長く開業していた有名な某歯科医に、一年くらいかかってあらゆる薬をつけたが治るどころか、益々悪くなるばかりだ。<br/><br/>ある日右の歯科医はこう言った、「私が知っている限りの薬はみんなつけたが治らないから、これ以上どうしようもない。<br/><br/>来月私の友達がアメリカから帰ってくるので、いくつか新しい薬をもって来るだろうから、それをつけてみるより外に方法がない」と言うのである。<br/><br/> この程の歯痛の原因が偶然なある事により、薬毒という事が判ったのでピッタリやめてしまった。<br/><br/>ところがそれから段々よくなって今日に至った。<br/><br/>右のある事についていずれ詳しくかくが、当時私は余りの苦痛に何度自殺を企てたか判らないくらいで、右のある事は私の生命を救ってくれたのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

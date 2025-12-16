@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音運動は一切に渉る粛正運動なり 『東方の光』8号、昭和10(1935)年10月21日発行 最近選挙粛正について官民共に大童（おおわらわ）となっているが、これも結構には違いないが、独り選挙のみに限らず、あらゆる方面の粛正（しゅくせい）が緊要事であろう事は誰もが知っているはずである。<br><br> 社会各般の粛正が行われていないで独り選挙のみ粛正され得る道理がない、しからばいかにして全般の粛正を成し得るかという――その根本的成案であるが、それについて今直ちに実行し得てしかも我が神国日本に最も適切なる方法の有ることを識者に向って戒告をしたいのである。<br><br> 近来漸（ようや）く、欧米の唯物思想の謬（あやま）っている事、我日本の特異なる国状に適しない事に目覚めて、日本精神を、宗教精神を、植え付けなければならないという事に、気が付いて来たのは、喜ぶべき現象である。<br><br>その一歩として、学校教育に、宗教を採り入れるのが、最良の方法であるとの見解の下に、それを行おうとしたいが、困難な支障に打（ぶ）つかるのであって、実際問題として、実行し得ない点があるというのである。<br><br>それは何かというと、欧米は、宗教といえば、大体基督（キリスト）教だけと言うてもよいのであるから、頗（すこぶ）る実行し易いのである。<br><br>しかるに我国においては、神仏耶の三教があり、その三教の内に、何宗何派も在って、互に融和しておらないのであるから、これら信徒の子女をして、一つの宗教に帰依させる事は、絶対不可能である。<br><br>故に実現の可能性は、今のところ、まず無いのであると、この種の論者はいうのである。<br><br> しかるに、これらの論は枝葉のみに捉われて根元に眼を蔽（おお）うているようである。<br><br>何となれば、我皇国日本には、畏れ多くも天祖天照皇大御神の御神霊が厳然と、暉（かがや）きいますのであるから、何ら遅疑するの要はない。<br><br>速かにこの天祖の御神霊を奉斎し拝み奉ればいいのである。<br><br>この事については、日本国民中一人の反対者あるはずはない。<br><br>万一反対する者在らば、それは、日本人ではないからである。<br><br> 内閣に神床（かんどこ）を造り、閣議の前、まず恭々（うやうや）しく祝詞を奏上拝み奉り、しかる後、重要審議に中（あた）らば神霊の加護を受けて、必ずや、公正妥当なる議決をなし得るであろう。<br><br>しかして、これが祭政一致の具体化なのである。<br><br>なお進んで、各官庁、役所、学校工場などに及ぼせば、その国民教化の上に及ぼす効果や、蓋（けだ）し予想外に、甚大なるものがあると思うのである。<br><br>今日においてこれらの方策は、むしろ遅かりしというべきであるがその遅かった原因としていかに長い間欧米の唯物思想に、幻惑されていたかを知らるのである。<br><br> この事以上に根本的効果ある粛正も、教化も無いであろうことを断言して憚（はばか）らないのである、しかも費用も多額を要せず、今直ちに実行し得る良法として社会に向って私はここに提唱する次第なのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Alicerce da Purificação Nacional</h2>
 <p>Recentemente, a purificação do processo eleitoral tem mobilizado intensamente tanto o governo quanto o povo. Embora tal esforço seja, sem dúvida, louvável, todos hão de convir que a necessidade de um saneamento se estende, de forma premente, a todos os âmbitos da vida nacional. É ilógico supor que apenas as eleições possam ser retificadas enquanto as demais esferas da sociedade permanecem como estão. Diante disso, emerge a questão fundamental: como realizar uma purificação integral? Gostaria, pois, de advertir os homens de discernimento de que existe um método para tal, de aplicação imediata e perfeitamente adequado ao nosso divino país, o Japão.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Tais argumentos, porém, prendem-se apenas aos ramos e às folhas, ignorando a raiz do problema. Com efeito, por que hesitar? Em nosso Império, o Japão, resplandece, solene e augusto, o Divino Espírito de nossa Ancestral Celestial, a Deusa Amaterasu Omikami. Basta que nos apressemos a reverenciá-Lo e a cultuá-Lo. Diante de tal proposta, não poderá haver um único cidadão japonês que se oponha. E, se porventura alguém o fizer, não será um verdadeiro japonês.</p>
 <p>A materialização dessa reverência começaria pela instalação de um altar divino no Gabinete de Ministros. Antes de qualquer deliberação importante, os membros do governo deveriam, em atitude de profunda deferência, entoar a oração ritualística. Agindo assim, certamente receberiam a proteção do Divino Espírito e alcançariam decisões justas e apropriadas, concretizando a verdadeira união entre a religião e o governo. Estendendo-se essa prática aos demais ministérios, repartições públicas, escolas e fábricas, os seus efeitos sobre a formação moral do povo seriam, creio eu, de uma magnitude muito além do que se pode prever. Na verdade, a adoção de tais medidas já se faz tardia, e essa demora revela o quão profundamente estivemos iludidos, por um longo período, pelo pensamento materialista ocidental.</p>
 <p>Ouso afirmar, sem qualquer hesitação, que não existe método mais fundamental ou eficaz para a purificação e a edificação de nosso povo. Trata-se de uma solução que, além de não exigir vultosos recursos, pode ser implementada de imediato. É, portanto, como uma boa-nova que a proponho hoje à sociedade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音運動は一切に渉る粛正運動なり 『東方の光』8号、昭和10(1935)年10月21日発行 最近選挙粛正について官民共に大童（おおわらわ）となっているが、これも結構には違いないが、独り選挙のみに限らず、あらゆる方面の粛正（しゅくせい）が緊要事であろう事は誰もが知っているはずである。<br/><br/> 社会各般の粛正が行われていないで独り選挙のみ粛正され得る道理がない、しからばいかにして全般の粛正を成し得るかという――その根本的成案であるが、それについて今直ちに実行し得てしかも我が神国日本に最も適切なる方法の有ることを識者に向って戒告をしたいのである。<br/><br/> 近来漸（ようや）く、欧米の唯物思想の謬（あやま）っている事、我日本の特異なる国状に適しない事に目覚めて、日本精神を、宗教精神を、植え付けなければならないという事に、気が付いて来たのは、喜ぶべき現象である。<br/><br/>その一歩として、学校教育に、宗教を採り入れるのが、最良の方法であるとの見解の下に、それを行おうとしたいが、困難な支障に打（ぶ）つかるのであって、実際問題として、実行し得ない点があるというのである。<br/><br/>それは何かというと、欧米は、宗教といえば、大体基督（キリスト）教だけと言うてもよいのであるから、頗（すこぶ）る実行し易いのである。<br/><br/>しかるに我国においては、神仏耶の三教があり、その三教の内に、何宗何派も在って、互に融和しておらないのであるから、これら信徒の子女をして、一つの宗教に帰依させる事は、絶対不可能である。<br/><br/>故に実現の可能性は、今のところ、まず無いのであると、この種の論者はいうのである。<br/><br/> しかるに、これらの論は枝葉のみに捉われて根元に眼を蔽（おお）うているようである。<br/><br/>何となれば、我皇国日本には、畏れ多くも天祖天照皇大御神の御神霊が厳然と、暉（かがや）きいますのであるから、何ら遅疑するの要はない。<br/><br/>速かにこの天祖の御神霊を奉斎し拝み奉ればいいのである。<br/><br/>この事については、日本国民中一人の反対者あるはずはない。<br/><br/>万一反対する者在らば、それは、日本人ではないからである。<br/><br/> 内閣に神床（かんどこ）を造り、閣議の前、まず恭々（うやうや）しく祝詞を奏上拝み奉り、しかる後、重要審議に中（あた）らば神霊の加護を受けて、必ずや、公正妥当なる議決をなし得るであろう。<br/><br/>しかして、これが祭政一致の具体化なのである。<br/><br/>なお進んで、各官庁、役所、学校工場などに及ぼせば、その国民教化の上に及ぼす効果や、蓋（けだ）し予想外に、甚大なるものがあると思うのである。<br/><br/>今日においてこれらの方策は、むしろ遅かりしというべきであるがその遅かった原因としていかに長い間欧米の唯物思想に、幻惑されていたかを知らるのである。<br/><br/> この事以上に根本的効果ある粛正も、教化も無いであろうことを断言して憚（はばか）らないのである、しかも費用も多額を要せず、今直ちに実行し得る良法として社会に向って私はここに提唱する次第なのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

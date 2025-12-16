@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270626</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年6月26日） 『御教え集』11号、昭和27(1952)年7月15日発行 昭和二十七年六月二十六日 【御教え】 昨夜の映画で、博物館のがあったんですが、これは理研の文化映画なんです。<br><br>博物館のはほとんど仏像です。<br><br>それから、あとは奈良が主で京都あたりのお寺、桂の離宮とか――古美術的なものです。<br><br>そういう映画で、これは珍しいです。<br><br>今までそういった映画はないですからね。<br><br>それだけ世の中が美術ということに関心を持ってきたわけなんです。<br><br>フランスあたりと油絵の交換とか、そういうことが新聞に出てますが、そんなような具合で、なんとなく美術というものが人の注目を引くようになってきました。<br><br>で、理研の映画をやっている人の話では、博物館を写して――フランスにあるカンヌという所で、毎年文化コンクールがあるんだそうですが――写しかけたがあとたいしたものがないので、それでしかたなしに、奈良やあっちの方のものを写してまとめたわけだと言うんです。<br><br> ところがここの美術館は――ここの庭もいろいろ取り込めてでしょうが、大丈夫、コンクールに出す映画が撮れるというので――二十日くらいかかるそうですが、この九月に撮って文化コンクールに出す話になっているんです。<br><br>そぅいうわけであってみると、まあ博物館以上ということは、確かなんです。<br><br>そうすると日本では、博物館がそういった美術に対しては一番としてあるんですが、それ以上とすれば、日本一はもう間違いない話です。<br><br> そういう美術館を造ったというのは、計画をそう思いついたのは二、三年前からなんです。<br><br>そうすると驚くほど早いんです。<br><br>早いというのは、これは私から言っては、はなはだ変ですが、つまり頭の良い悪いなんです。<br><br>私は、自分ではそう頭が良いとは思わないです。<br><br>忘れることもあるし、いろいろまごつくこともあるしね。<br><br>しかし一般の人から較べるとすばらしく良いんです。<br><br>そうするとふつうの人がすばらしく頭が悪いというわけです。<br><br>そういうことが言える。<br><br>いろいろ考えてくると結局頭の問題です。<br><br>大体人間の幸不幸はこれは頭です。<br><br>不仕合せになるのは頭が悪いんです。<br><br>一番頭が悪いのは悪人ですよ。<br><br>これは、悪いことで成功すると思う――悪いことで幸福になると思う、その錯覚ですね。<br><br>悪いことをすると駄目になる、ということに気がつかない頭の悪さです。<br><br>ですから私は、悪いことをする人間は非常に頭が悪いと思う。<br><br>それで人間が偉い偉くないとか、あるいは名前がある人とか、名前が出ている人とか出ていない人とかいうことは、あまり関係ないです。<br><br>つまり幸福ですね。<br><br>なにも、名前を得たら幸福というわけじゃないです。<br><br>そこで同じ頭が悪くても、悪さにもいろいろ差別があります。<br><br>非常に悪いのと、それほどでもない――今、出世している人とか著名な人は悪いなりにも、少ないです。<br><br>良いとは言えないが。<br><br> それについて気がついたのは、最近マッカーサーが非常に評判が良いというんです。<br><br>どこに評判の良い元があるかというと、今度国連軍の方で、鴨緑江（おうりょっこう）を渡った所を爆撃しましたが、あれなんです。<br><br>あれはマッカーサーが主張した案なんです。<br><br>それを、いけないと言って、マッカーサーを抑えつけたんです。<br><br>しかしその戦法を今度実行したんです。<br><br>そうするとやっぱりマッカーサーは偉かった。<br><br>一年前にちゃんとその案を主張したということにおいて、マッカーサーの人気が非常に良くなっている。<br><br>あるいは、今のところはタフトを後援してますが、マッカーサーが、大統領に出るような匂いもしているそうです。<br><br>そうすると私があの当時からマッカーサーを褒めてました――あの政策は非常に良いと言ってましたが、やはりそうなるわけです。<br><br>トルーマンという人も偉い人ですが、その点において非常に頭が悪いです。<br><br>せっかく、共産軍をあそこまで追いつめておきながら、マッカーサーが大胆に満州を爆撃するというのを止めたんですから、蛇の生殺しにしたんです。<br><br>だから今もって停戦会談なんか、グズグズしてます。<br><br>あれなんかも、いずれ今に協議がまとまる、とかなんとか唱える偉い人がアメリカにありましたが、ところが私は先からあれは駄目だと言っている。<br><br>つまりソ連の消耗戦術です。<br><br>止めてしまえば、アメリカは引き上げますから、アメリカの消耗は駄目なんです。<br><br>ところが闘えば勝ち目はないから、闘わないようにして、アメリカの軍隊をどこまでもあそこに止めて戦力を消耗するというので、グズグズしているんです。<br><br>それに気がつきそうなものですが、気がつかないで――妥協ができると思っているんですが――今ようやく気がつきかけてきたんです。<br><br>そのくらい頭が悪い。<br><br>すべてがそうです。<br><br> これはアメリカに限らず日本でも、その頭の悪さは同じことですが――今でもしきりに解散論を唱えてますが、あれは承知してやっているのかもしれませんが――改進党でも社会党でも、どうも頭が悪いんです。<br><br>とにかく内閣が失敗するとか政治が悪いとか言って、とうてい維持できない。<br><br>国民の世論が轟々として、収拾がつかないという、そういう声になった時に解散論を唱えると、ワッと言って、そうなりますが、今のように無事に行って――それに吉田はなかなかうまくやるもんですから、とにかく吉田以外に政治を担当するという人はないですから、後釜の目当てのつかないうちに解散しても国民はついて行かないですからね。<br><br>一人よがりで笛吹いているようなもので、国民はソッポ向いてます。<br><br>それから共産党がしきりに工場を焼き打ちしたり巡査をなにしてますが、あんなことをしても逆効果です。<br><br>そうすると、だんだん警察予備隊を増やしていくし、政府の方も厳重にしてきますから、だんだん共産党は手も足も出ないようになる。<br><br>彼らはなるほど地下に潜って姿をくらますのは上手いですよ――今もって徳田以下潜ってますが、あれは実に頭が良いです。<br><br>ところが肝腎なことは、暴動を起して社会を困らせてしまおうという目的です。<br><br>ところがそれに踊っているのは日傭人夫や学生の若い者です。<br><br>これは要するに小児病の具体化です。<br><br>どうも頭が悪い。<br><br>仮に、やるとすれば油断させて――おとなしくしていて一挙にやると、それは効果があるでしょう。<br><br>しかし、それをやられても困ります。<br><br>そんなようでああして騒いで、自分だけやっているのは効果はないです。<br><br>あそこに非常に頭の悪さがあるんです。<br><br>それから共産党が騒いでますが、もっと野蛮蒙昧な国――それからもう一つは、非常に政治が悪くて、貧乏やいろんなことのために国民が食うや食わずにいるという状態とすれば、共産主義はそうとうそれに興味を持たれるんです。<br><br>ところが日本は今それほどの困窮にはなっていないし、それからまたこういうことが良い、こういう思想が良いか悪いかという、そういう判断力からいっても、とにかく日本人はそうとう進んでますから、いくら共産主義で踊らせようとしても、それに引っかからないです。<br><br>で、とにかく文化の発達した国――ヨーロッパでも日本でも共産党が非常に社会から嫌われている。<br><br>だんだん議員なんかの数が減っていく。<br><br>ひとしきりイタリアなんか共産党がはばったが、年々共産党の議員が減っていく。<br><br>そうしてくると成功の見込みは少なくなるんです。<br><br>というのは、文化の発達した国民は判断力がありますから、なかなか丸呑みにしないで批判しますから、批判してみると、どうも共産党がおもしろくない。<br><br>これで幸福な社会になろうとは思えない。<br><br>そこでだんだん人気がなくなってくる。<br><br>だから、それにうまく成功したのは中共です。<br><br>支那です。<br><br>ところが中国はまだ教育の程度が低いし、それだけの隙がありますから、そこでまあ成功したんです。<br><br>そのやり方を日本に持ってきても、それは成功しないですよ。<br><br>それもスターリンあたりはだいぶ感づいてきたんで、近来非常に日本に対する優遇政策を取ってきたんです。<br><br>一方で社会を混乱させようとしているが、一方では政府や有識階級には妥協政策をやってます。<br><br>そういう政策を見つめてみると、やっぱり頭が悪いです。<br><br>だから日本ではまず共産主義は成功しないということは言えるんです。<br><br> この間アメリカのブレーデンという宗教の研究調査に来た人ですが、強羅ホテルで一時間ばかり会談した時に、共産主義についてどう思うかと質問されたが、近き将来亡びるから私は問題にしないと言ったらびっくりしてました。<br><br>おそらくそのように言う人はないでしょう。<br><br>なぜ亡びるかというから、それは根本が悪だから――自己の団体、階級の利益を計って人類全般の幸福を計らない。<br><br>そうすれば悪だから亡びるよりしようがないから、私の方は別に問題にしない。<br><br>そういうわけで、成功するか成功しないかは、思想なり問題なりの根本がはっきり解れば、なんでもない話です。<br><br>そういうわけですから、ものを批判したり見る場合に、本当に人類のためになると、あるいは世界全体が幸福になるという、そういったものは必ず成功する。<br><br>そうでないのは、一時的に良くても失敗する、というように判断すれば決して間違いない。<br><br>ところがそういう簡単な理屈がなかなか解らないんです。<br><br>というのは、頭が悪いその原因は、いつも言う通り、やたらに薬毒を身体に入れて始終心配ばかりするから、頭に毒素が上って、それで頭が悪いんです。<br><br>だから教育や学問で一生懸命頭を良くしようとする。<br><br>頭を良くしようとするからして、それだけは良くなるが、そのために頭を使って薬を入れるから、その薬毒が頭に来て悪くなる。<br><br>というわけですから、今の人間は理屈はうまいことを言うが、その理屈は浅いんです。<br><br>外部から注ぎ込むやり方ですから、だから上っ面は非常に発達するが、内部の方は毒を頭に注ぎ込んでますから悪い、こういう状態です。<br><br>だから、「上面（うわつら）利巧の芯馬鹿」――こういう人間がたくさんできている。<br><br> 三十日と一日に美術愛好家、それからそういう方面で著名な人を招ぶことになってます。<br><br>まあ外国人もそうとう――新聞記者やなにか来ます。<br><br>で、しゃべったことを翻訳するよりか、原稿を書いてもらって翻訳した方がずっと正確で楽だというので、書いてもらいたいというから書いたので、それを読ませます。<br><br> （御論文「美術館建設の意義」）【栄光 一六四号】 これは薬毒についてですが、信者でもよほど古い人は徹底しているが、新しい人はなかなか薬毒に気がつかない人が随分あるんです。<br><br>とにかく薬毒に気がついて徹底するのが一番肝腎なんです。<br><br>薬毒の恐ろしさを書いてみたんです。<br><br> （御論文「薬毒の恐怖」） この間ラジオかでちょっと聞きましたが、今病気の数は千百幾つというんです。<br><br>だから、昔は四百四病と言ったが、ずっと増えたわけです。<br><br>三倍になった。<br><br>で、そういうふうに病気の種類が増えるということは、ちょっと考えるとおかしいんです。<br><br>ところが病気の原因が薬ということが分かれば、なんでもなく分かります。<br><br>つまり薬の種類が増えたから、病気の数が増えたんです。<br><br>とにかくそういうような具合で、なんの病気でもまず薬を考えてみる。<br><br>そうすると分かります。<br><br>よく信者の人なんかで、どうも治らない、しつこい、憑霊現象ではないか、なんの霊でしょう。<br><br>と、よく聞くことがあるが、それよりか薬毒の方がずっと多いんです。<br><br>それからもう一つは、憑霊といっても、そういう霊は悪霊ですが、悪霊が憑くのは頭が曇っている。<br><br>曇っているというのは薬毒です。<br><br>薬毒で曇ると、そこに霊が憑くんです。<br><br>ですから憑霊をどうしようこうしよう、解決しようということは気にはしなくて良いんです。<br><br>それより薬毒を取っちゃおうと考える。<br><br>それが根本です。<br><br>精神病というと霊に違いないが、因は薬毒です。<br><br>精神病は不眠になる。<br><br>不眠が因ということは延髄に固まりがある。<br><br>延髄に固まりがあるということは薬毒です。<br><br>だから、精神病でもなんでも、そういった心の病気も全部薬毒です。<br><br>そこで人間不幸の原因も薬毒なんです。<br><br>だから薬を身体に入れなかったらその人は仕合せです。<br><br>いろんな災難なんかはないんです。<br><br>霊が曇っているから、曇り相応の浄化が来るんです。<br><br>災難というのは浄化です。<br><br>そうすると薬毒で血が濁っているから霊が曇るんです。<br><br>だからこの根本は薬をなくすることです。<br><br>そうすると地上天国ができるんです。<br><br>だから浄霊というのは曇りを取ることですよ。<br><br>薬で逆に曇らせたのを浄霊で取るんです。<br><br>ですから浄霊すると血を吐いたり、鼻血を出したり、下からくだったりしますが、それはそういうわけです。<br><br> これはやっぱりそれに関係した、伝染病のことです。<br><br> （御論文「伝染病恐るるに足らず」）【栄光 一六四号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Inteligência e a Causa da Infelicidade</h2>
 <p>Ontem à noite, assisti a um filme cultural produzido pelo Instituto Riken, cujo tema era o acervo de um museu. A maior parte das obras exibidas eram estátuas de Buda, com foco principal em Nara e nos templos da região de Quioto, como o Palácio de Katsura — um compêndio de arte clássica. Filmes dessa natureza são uma raridade; até então, nunca havia sido produzida uma película com tal enfoque. Isso demonstra, por si só, como o interesse pela arte tem despertado na sociedade. Vemos nos jornais notícias sobre intercâmbios de pinturas a óleo com a França e outras iniciativas que, gradualmente, colocam as artes no centro das atenções. Segundo o realizador do filme, a intenção inicial era filmar o museu para inscrevê-lo no concurso cultural que ocorre anualmente em Cannes, na França. Contudo, ao perceberem que o material não seria suficiente, decidiram complementar as filmagens com o acervo de Nara e de outras localidades.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Ouvi no rádio outro dia que o número de doenças catalogadas atualmente é de mil e cento e poucas. Antigamente, falava-se em 404 doenças, o que significa que esse número aumentou drasticamente, chegando a triplicar. À primeira vista, o aumento na variedade de enfermidades parece estranho. Contudo, quando se compreende que a causa das doenças são os remédios, tudo se torna claro: o número de doenças aumentou porque o número de remédios aumentou. Diante de qualquer enfermidade, portanto, devemos primeiro considerar a influência dos medicamentos. Muitas vezes, membros se queixam: “Não melhoro de jeito nenhum, a doença é persistente. Será um fenômeno espiritual? Que espírito poderia ser?”. Contudo, a causa é, com muito mais frequência, o <em>yakudoku</em> (薬毒). Além disso, mesmo nos casos de manifestação espiritual, os espíritos que se apegam são malignos, e eles só conseguem fazê-lo porque a mente da pessoa está obscurecida. E o que a obscurece é o <em>yakudoku</em> (薬毒). Quando o veneno a turva, o espírito se manifesta. Portanto, não é preciso se preocupar em como resolver a questão espiritual. A abordagem correta é pensar em eliminar o <em>yakudoku</em> (薬毒). Essa é a solução fundamental. As doenças mentais, por exemplo, embora pareçam ser de origem espiritual, têm como causa primária o veneno dos remédios. Elas provocam insônia, que, por sua vez, é causada por nódulos no bulbo raquidiano. E esses nódulos são formados pelo <em>yakudoku</em> (薬毒). Sendo assim, todas as doenças da mente, sem exceção, têm origem no veneno dos medicamentos. A causa da infelicidade humana também é o <em>yakudoku</em> (薬毒). Uma pessoa que não introduz remédios em seu corpo será feliz e não sofrerá diversas calamidades. Os infortúnios são purificações que ocorrem de acordo com o grau de obscurecimento do espírito. E o espírito se obscurece porque o sangue está impuro devido ao <em>yakudoku</em> (薬毒). Portanto, a solução fundamental é eliminar os remédios. Quando o fizermos, o Paraíso Terrestre se concretizará. O Johrei atua exatamente nisto: ele remove o obscurecimento que os remédios causaram. É por essa razão que, ao receber Johrei, a pessoa pode expelir sangue pela boca, ter sangramentos nasais ou evacuações, pois o corpo está eliminando as toxinas.</p>
 <p>Este último artigo também está relacionado ao tema. Trata das doenças contagiosas.</p>
 <p>(Lê o artigo “As Doenças Contagiosas Não São de Temer”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年6月26日） 『御教え集』11号、昭和27(1952)年7月15日発行 昭和二十七年六月二十六日 【御教え】 昨夜の映画で、博物館のがあったんですが、これは理研の文化映画なんです。<br/><br/>博物館のはほとんど仏像です。<br/><br/>それから、あとは奈良が主で京都あたりのお寺、桂の離宮とか――古美術的なものです。<br/><br/>そういう映画で、これは珍しいです。<br/><br/>今までそういった映画はないですからね。<br/><br/>それだけ世の中が美術ということに関心を持ってきたわけなんです。<br/><br/>フランスあたりと油絵の交換とか、そういうことが新聞に出てますが、そんなような具合で、なんとなく美術というものが人の注目を引くようになってきました。<br/><br/>で、理研の映画をやっている人の話では、博物館を写して――フランスにあるカンヌという所で、毎年文化コンクールがあるんだそうですが――写しかけたがあとたいしたものがないので、それでしかたなしに、奈良やあっちの方のものを写してまとめたわけだと言うんです。<br/><br/> ところがここの美術館は――ここの庭もいろいろ取り込めてでしょうが、大丈夫、コンクールに出す映画が撮れるというので――二十日くらいかかるそうですが、この九月に撮って文化コンクールに出す話になっているんです。<br/><br/>そぅいうわけであってみると、まあ博物館以上ということは、確かなんです。<br/><br/>そうすると日本では、博物館がそういった美術に対しては一番としてあるんですが、それ以上とすれば、日本一はもう間違いない話です。<br/><br/> そういう美術館を造ったというのは、計画をそう思いついたのは二、三年前からなんです。<br/><br/>そうすると驚くほど早いんです。<br/><br/>早いというのは、これは私から言っては、はなはだ変ですが、つまり頭の良い悪いなんです。<br/><br/>私は、自分ではそう頭が良いとは思わないです。<br/><br/>忘れることもあるし、いろいろまごつくこともあるしね。<br/><br/>しかし一般の人から較べるとすばらしく良いんです。<br/><br/>そうするとふつうの人がすばらしく頭が悪いというわけです。<br/><br/>そういうことが言える。<br/><br/>いろいろ考えてくると結局頭の問題です。<br/><br/>大体人間の幸不幸はこれは頭です。<br/><br/>不仕合せになるのは頭が悪いんです。<br/><br/>一番頭が悪いのは悪人ですよ。<br/><br/>これは、悪いことで成功すると思う――悪いことで幸福になると思う、その錯覚ですね。<br/><br/>悪いことをすると駄目になる、ということに気がつかない頭の悪さです。<br/><br/>ですから私は、悪いことをする人間は非常に頭が悪いと思う。<br/><br/>それで人間が偉い偉くないとか、あるいは名前がある人とか、名前が出ている人とか出ていない人とかいうことは、あまり関係ないです。<br/><br/>つまり幸福ですね。<br/><br/>なにも、名前を得たら幸福というわけじゃないです。<br/><br/>そこで同じ頭が悪くても、悪さにもいろいろ差別があります。<br/><br/>非常に悪いのと、それほどでもない――今、出世している人とか著名な人は悪いなりにも、少ないです。<br/><br/>良いとは言えないが。<br/><br/> それについて気がついたのは、最近マッカーサーが非常に評判が良いというんです。<br/><br/>どこに評判の良い元があるかというと、今度国連軍の方で、鴨緑江（おうりょっこう）を渡った所を爆撃しましたが、あれなんです。<br/><br/>あれはマッカーサーが主張した案なんです。<br/><br/>それを、いけないと言って、マッカーサーを抑えつけたんです。<br/><br/>しかしその戦法を今度実行したんです。<br/><br/>そうするとやっぱりマッカーサーは偉かった。<br/><br/>一年前にちゃんとその案を主張したということにおいて、マッカーサーの人気が非常に良くなっている。<br/><br/>あるいは、今のところはタフトを後援してますが、マッカーサーが、大統領に出るような匂いもしているそうです。<br/><br/>そうすると私があの当時からマッカーサーを褒めてました――あの政策は非常に良いと言ってましたが、やはりそうなるわけです。<br/><br/>トルーマンという人も偉い人ですが、その点において非常に頭が悪いです。<br/><br/>せっかく、共産軍をあそこまで追いつめておきながら、マッカーサーが大胆に満州を爆撃するというのを止めたんですから、蛇の生殺しにしたんです。<br/><br/>だから今もって停戦会談なんか、グズグズしてます。<br/><br/>あれなんかも、いずれ今に協議がまとまる、とかなんとか唱える偉い人がアメリカにありましたが、ところが私は先からあれは駄目だと言っている。<br/><br/>つまりソ連の消耗戦術です。<br/><br/>止めてしまえば、アメリカは引き上げますから、アメリカの消耗は駄目なんです。<br/><br/>ところが闘えば勝ち目はないから、闘わないようにして、アメリカの軍隊をどこまでもあそこに止めて戦力を消耗するというので、グズグズしているんです。<br/><br/>それに気がつきそうなものですが、気がつかないで――妥協ができると思っているんですが――今ようやく気がつきかけてきたんです。<br/><br/>そのくらい頭が悪い。<br/><br/>すべてがそうです。<br/><br/> これはアメリカに限らず日本でも、その頭の悪さは同じことですが――今でもしきりに解散論を唱えてますが、あれは承知してやっているのかもしれませんが――改進党でも社会党でも、どうも頭が悪いんです。<br/><br/>とにかく内閣が失敗するとか政治が悪いとか言って、とうてい維持できない。<br/><br/>国民の世論が轟々として、収拾がつかないという、そういう声になった時に解散論を唱えると、ワッと言って、そうなりますが、今のように無事に行って――それに吉田はなかなかうまくやるもんですから、とにかく吉田以外に政治を担当するという人はないですから、後釜の目当てのつかないうちに解散しても国民はついて行かないですからね。<br/><br/>一人よがりで笛吹いているようなもので、国民はソッポ向いてます。<br/><br/>それから共産党がしきりに工場を焼き打ちしたり巡査をなにしてますが、あんなことをしても逆効果です。<br/><br/>そうすると、だんだん警察予備隊を増やしていくし、政府の方も厳重にしてきますから、だんだん共産党は手も足も出ないようになる。<br/><br/>彼らはなるほど地下に潜って姿をくらますのは上手いですよ――今もって徳田以下潜ってますが、あれは実に頭が良いです。<br/><br/>ところが肝腎なことは、暴動を起して社会を困らせてしまおうという目的です。<br/><br/>ところがそれに踊っているのは日傭人夫や学生の若い者です。<br/><br/>これは要するに小児病の具体化です。<br/><br/>どうも頭が悪い。<br/><br/>仮に、やるとすれば油断させて――おとなしくしていて一挙にやると、それは効果があるでしょう。<br/><br/>しかし、それをやられても困ります。<br/><br/>そんなようでああして騒いで、自分だけやっているのは効果はないです。<br/><br/>あそこに非常に頭の悪さがあるんです。<br/><br/>それから共産党が騒いでますが、もっと野蛮蒙昧な国――それからもう一つは、非常に政治が悪くて、貧乏やいろんなことのために国民が食うや食わずにいるという状態とすれば、共産主義はそうとうそれに興味を持たれるんです。<br/><br/>ところが日本は今それほどの困窮にはなっていないし、それからまたこういうことが良い、こういう思想が良いか悪いかという、そういう判断力からいっても、とにかく日本人はそうとう進んでますから、いくら共産主義で踊らせようとしても、それに引っかからないです。<br/><br/>で、とにかく文化の発達した国――ヨーロッパでも日本でも共産党が非常に社会から嫌われている。<br/><br/>だんだん議員なんかの数が減っていく。<br/><br/>ひとしきりイタリアなんか共産党がはばったが、年々共産党の議員が減っていく。<br/><br/>そうしてくると成功の見込みは少なくなるんです。<br/><br/>というのは、文化の発達した国民は判断力がありますから、なかなか丸呑みにしないで批判しますから、批判してみると、どうも共産党がおもしろくない。<br/><br/>これで幸福な社会になろうとは思えない。<br/><br/>そこでだんだん人気がなくなってくる。<br/><br/>だから、それにうまく成功したのは中共です。<br/><br/>支那です。<br/><br/>ところが中国はまだ教育の程度が低いし、それだけの隙がありますから、そこでまあ成功したんです。<br/><br/>そのやり方を日本に持ってきても、それは成功しないですよ。<br/><br/>それもスターリンあたりはだいぶ感づいてきたんで、近来非常に日本に対する優遇政策を取ってきたんです。<br/><br/>一方で社会を混乱させようとしているが、一方では政府や有識階級には妥協政策をやってます。<br/><br/>そういう政策を見つめてみると、やっぱり頭が悪いです。<br/><br/>だから日本ではまず共産主義は成功しないということは言えるんです。<br/><br/> この間アメリカのブレーデンという宗教の研究調査に来た人ですが、強羅ホテルで一時間ばかり会談した時に、共産主義についてどう思うかと質問されたが、近き将来亡びるから私は問題にしないと言ったらびっくりしてました。<br/><br/>おそらくそのように言う人はないでしょう。<br/><br/>なぜ亡びるかというから、それは根本が悪だから――自己の団体、階級の利益を計って人類全般の幸福を計らない。<br/><br/>そうすれば悪だから亡びるよりしようがないから、私の方は別に問題にしない。<br/><br/>そういうわけで、成功するか成功しないかは、思想なり問題なりの根本がはっきり解れば、なんでもない話です。<br/><br/>そういうわけですから、ものを批判したり見る場合に、本当に人類のためになると、あるいは世界全体が幸福になるという、そういったものは必ず成功する。<br/><br/>そうでないのは、一時的に良くても失敗する、というように判断すれば決して間違いない。<br/><br/>ところがそういう簡単な理屈がなかなか解らないんです。<br/><br/>というのは、頭が悪いその原因は、いつも言う通り、やたらに薬毒を身体に入れて始終心配ばかりするから、頭に毒素が上って、それで頭が悪いんです。<br/><br/>だから教育や学問で一生懸命頭を良くしようとする。<br/><br/>頭を良くしようとするからして、それだけは良くなるが、そのために頭を使って薬を入れるから、その薬毒が頭に来て悪くなる。<br/><br/>というわけですから、今の人間は理屈はうまいことを言うが、その理屈は浅いんです。<br/><br/>外部から注ぎ込むやり方ですから、だから上っ面は非常に発達するが、内部の方は毒を頭に注ぎ込んでますから悪い、こういう状態です。<br/><br/>だから、「上面（うわつら）利巧の芯馬鹿」――こういう人間がたくさんできている。<br/><br/> 三十日と一日に美術愛好家、それからそういう方面で著名な人を招ぶことになってます。<br/><br/>まあ外国人もそうとう――新聞記者やなにか来ます。<br/><br/>で、しゃべったことを翻訳するよりか、原稿を書いてもらって翻訳した方がずっと正確で楽だというので、書いてもらいたいというから書いたので、それを読ませます。<br/><br/> （御論文「美術館建設の意義」）【栄光 一六四号】 これは薬毒についてですが、信者でもよほど古い人は徹底しているが、新しい人はなかなか薬毒に気がつかない人が随分あるんです。<br/><br/>とにかく薬毒に気がついて徹底するのが一番肝腎なんです。<br/><br/>薬毒の恐ろしさを書いてみたんです。<br/><br/> （御論文「薬毒の恐怖」） この間ラジオかでちょっと聞きましたが、今病気の数は千百幾つというんです。<br/><br/>だから、昔は四百四病と言ったが、ずっと増えたわけです。<br/><br/>三倍になった。<br/><br/>で、そういうふうに病気の種類が増えるということは、ちょっと考えるとおかしいんです。<br/><br/>ところが病気の原因が薬ということが分かれば、なんでもなく分かります。<br/><br/>つまり薬の種類が増えたから、病気の数が増えたんです。<br/><br/>とにかくそういうような具合で、なんの病気でもまず薬を考えてみる。<br/><br/>そうすると分かります。<br/><br/>よく信者の人なんかで、どうも治らない、しつこい、憑霊現象ではないか、なんの霊でしょう。<br/><br/>と、よく聞くことがあるが、それよりか薬毒の方がずっと多いんです。<br/><br/>それからもう一つは、憑霊といっても、そういう霊は悪霊ですが、悪霊が憑くのは頭が曇っている。<br/><br/>曇っているというのは薬毒です。<br/><br/>薬毒で曇ると、そこに霊が憑くんです。<br/><br/>ですから憑霊をどうしようこうしよう、解決しようということは気にはしなくて良いんです。<br/><br/>それより薬毒を取っちゃおうと考える。<br/><br/>それが根本です。<br/><br/>精神病というと霊に違いないが、因は薬毒です。<br/><br/>精神病は不眠になる。<br/><br/>不眠が因ということは延髄に固まりがある。<br/><br/>延髄に固まりがあるということは薬毒です。<br/><br/>だから、精神病でもなんでも、そういった心の病気も全部薬毒です。<br/><br/>そこで人間不幸の原因も薬毒なんです。<br/><br/>だから薬を身体に入れなかったらその人は仕合せです。<br/><br/>いろんな災難なんかはないんです。<br/><br/>霊が曇っているから、曇り相応の浄化が来るんです。<br/><br/>災難というのは浄化です。<br/><br/>そうすると薬毒で血が濁っているから霊が曇るんです。<br/><br/>だからこの根本は薬をなくすることです。<br/><br/>そうすると地上天国ができるんです。<br/><br/>だから浄霊というのは曇りを取ることですよ。<br/><br/>薬で逆に曇らせたのを浄霊で取るんです。<br/><br/>ですから浄霊すると血を吐いたり、鼻血を出したり、下からくだったりしますが、それはそういうわけです。<br/><br/> これはやっぱりそれに関係した、伝染病のことです。<br/><br/> （御論文「伝染病恐るるに足らず」）【栄光 一六四号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

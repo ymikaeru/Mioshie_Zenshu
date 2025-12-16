@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkannon1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音耕作の御利益について 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 岐阜県 日本五六七教大光会 西部君子（25） 私はただ今三重県北牟婁郡へ開拓に行っておりますが、観音耕作の御利益を御報告申上ます。<br><br> 不安な現在の世に信仰程楽しい事はありません。<br><br>私達も観音様を信仰させて戴いておりますが、不治とされた病気から離れ、家中の者が病苦から救われています。<br><br>信仰等と言うと老人や不治の病人のする事のように思われますが、職場職場に働きつつ、いとも簡単に御利益は戴けるのです。<br><br>私の家も田畑八反ばかりの農作をしていますが、今年こそは御利益を戴こうと麦や馬鈴薯等あらゆる作物を観音耕作にしてみました。<br><br> まず作物の種に浄霊して蒔付けました。<br><br>そうして後は配給で分けて貰っただけの肥料を処々に播き散らし、主に堆肥をやり時々草をひいてやる程度です。<br><br>どの田も畑も手入が行届かず、草も相当生えておりましたが、刈り取ってみて皆がびっくりしました。<br><br>第一麦などはとても実がよく想像以上でした。<br><br>馬鈴薯などは甘藷大の大きさに出来ていました。<br><br> 農家の方々が皆観音耕作をしたならば高値な闇肥料は買わず手間は省け増収は出来、供出も喜んで出来、消費者にも喜んで戴けると思います。<br><br> 金肥の多い田より実がよく増収出来た事に観音力をはっきりみせて戴きました。<br><br>信仰も観音耕作も決して難かしいものではありません。<br><br> 御希望の方はどんどん御尋ね下さい。<br><br>先生方の御骨折に対して感謝致します。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Graça da Agricultura Kannon</h2>
 <p><em>Do jornal “Chijo Tengoku”, nº 2, 1º de março de 1949</em>
@@ -97,5 +252,48 @@ Igreja Daikokai da Nihon Miroku Kyo, Província de Gifu</p>
 <p>Nossa família se dedica à agricultura e, neste ano, com o firme propósito de testemunhar essa graça, decidimos aplicar os princípios da Agricultura Kannon a todas as nossas culturas, como o trigo e a batata. O processo iniciou-se ministrando Johrei (浄霊) às sementes antes do plantio. Posteriormente, utilizamos apenas a cota de fertilizantes que nos foi distribuída pelo governo, aplicando-a de forma esparsa, e complementamos o solo principalmente com composto orgânico, realizando a capina apenas ocasionalmente. Embora nossos campos não tenham recebido o cuidado ideal e estivessem tomados por uma quantidade considerável de ervas daninhas, o resultado da colheita causou o assombro de todos. O trigo, por exemplo, apresentou grãos de uma qualidade muito acima do que poderíamos imaginar, e as batatas atingiram o tamanho de batatas-doces.</p>
 <p>Vislumbro que, se todos os agricultores adotassem a Agricultura Kannon, seriam capazes de prosperar sem a necessidade de adquirir os dispendiosos fertilizantes do mercado negro. Consequentemente, não apenas reduziriam seu trabalho e aumentariam a produção, mas também poderiam cumprir com satisfação as cotas governamentais e, ao mesmo tempo, alegrar os consumidores. O fato de nossa colheita ter superado em volume e qualidade a de campos que utilizam fartos adubos químicos foi uma demonstração inequívoca do Poder de Kannon (観音). Assim, fica evidente que tanto a fé quanto a Agricultura Kannon não são, de modo algum, práticas difíceis.</p>
 <p>Aqueles que desejarem aprofundar-se no assunto, sintam-se inteiramente à vontade para nos procurar. Finalizo expressando minha mais profunda gratidão aos ministros por sua incansável dedicação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 観音耕作の御利益について 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 岐阜県 日本五六七教大光会 西部君子（25） 私はただ今三重県北牟婁郡へ開拓に行っておりますが、観音耕作の御利益を御報告申上ます。<br/><br/> 不安な現在の世に信仰程楽しい事はありません。<br/><br/>私達も観音様を信仰させて戴いておりますが、不治とされた病気から離れ、家中の者が病苦から救われています。<br/><br/>信仰等と言うと老人や不治の病人のする事のように思われますが、職場職場に働きつつ、いとも簡単に御利益は戴けるのです。<br/><br/>私の家も田畑八反ばかりの農作をしていますが、今年こそは御利益を戴こうと麦や馬鈴薯等あらゆる作物を観音耕作にしてみました。<br/><br/> まず作物の種に浄霊して蒔付けました。<br/><br/>そうして後は配給で分けて貰っただけの肥料を処々に播き散らし、主に堆肥をやり時々草をひいてやる程度です。<br/><br/>どの田も畑も手入が行届かず、草も相当生えておりましたが、刈り取ってみて皆がびっくりしました。<br/><br/>第一麦などはとても実がよく想像以上でした。<br/><br/>馬鈴薯などは甘藷大の大きさに出来ていました。<br/><br/> 農家の方々が皆観音耕作をしたならば高値な闇肥料は買わず手間は省け増収は出来、供出も喜んで出来、消費者にも喜んで戴けると思います。<br/><br/> 金肥の多い田より実がよく増収出来た事に観音力をはっきりみせて戴きました。<br/><br/>信仰も観音耕作も決して難かしいものではありません。<br/><br/> 御希望の方はどんどん御尋ね下さい。<br/><br/>先生方の御骨折に対して感謝致します。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

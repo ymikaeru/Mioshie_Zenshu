@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>watasi12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の告白 自観叢書第4篇『奇蹟物語』P.9、昭和24(1949)年10月5日 よく私が質（き）かれる事に、「大先生は、観音信仰がよほど熱烈であられたと想像される」というのは、ほとんど紋切型といってもいい。<br><br>この想像は信者としても大部分はそうであろう。<br><br>いわんや第三者においてをやである。<br><br>ところが驚くなかれ、私は観音信仰は全然なかったのである。<br><br>ただ観音様はいかにも眉目秀麗、円満なる御容姿と、何宗でも祭られてあるその固着や、偏頗（へんぱ）のない点に好感を持っていたまでである。<br><br>ところが前項の初めに書いたごとく、私の傍に観音様の霊が始終付いておられる事を知って驚くと共に、この時を契機として観音様に関しての奇蹟が起こり始めた。<br><br>これらも追々（おいおい）発表するが、そのような訳で、ついには観音様の御本体は伊都能売（いずのめ）という神様である事を知り、いずれ時機が来れば、観世音菩薩はある期間救いのため化身されたのであるから、最後には元の神位に復帰さるるという事なども判ったのである。<br><br>そうして昭和元年から観音様は始終私の肉体に懸られ、私に種々な事を教えられ、命じられ、自由自在に私の肉体を使われるのである。<br><br>全く私を機関として一切衆生を救わせ給うのである。<br><br> 以上のごとくであるから、私が観音を信仰して今日のようになったのではない。<br><br>全く観音様の方で私を道具に使われるのである。<br><br>このような訳で私というものは、観音様の身代りといってもよかろう。<br><br>故に観音様という主人が思い通り使われるので、私としては全然自由がない。<br><br>といって観音様が揮われる妙智力は自由無碍であるから、その点また別でもある。<br><br>一言にしていえば普通人より自由がなく、普通人より大自由があるという訳で、この心境はなかなか説明がし難い。<br><br>普通人には想像すら出来ないからである。<br><br>今一つ私の変っていると思う事は、昔からの開祖や聖者等はすべて何事も神秘にする傾向があった。<br><br>恐らく自分の心境を赤裸々に述べた例はほとんどなかったであろう。<br><br>もっともそうする方が有難味がよけいある事も考えられる。<br><br>しかし私はそういうやり方はどうも好まない。<br><br>もっとも時代の関係もあろう。<br><br>何しろ今日は神でも信仰でも、科学的に究明されなければ承知しないのである。<br><br>そういう智性人が社会を指導している現状だから、幽玄神秘的では一般を判らせる事は至難である。<br><br>観音様もその点を鑑みられ、私のやり方のような方法をとられたものであろう。<br><br> それについてこういうおもしろい事がある。<br><br>あまり古くはない頃、本教団をある種の目的のため、潰してしまうと宣言し、あの手この手を用いた人があった。<br><br>それをまた頻々（ひんぴん）と報（しら）せてくれる人もあった。<br><br>その都度私は笑いが止まらなかった、というのは観音様を相手に喧嘩しようとするのだから、実に大胆だか無謀だか馬鹿だか、批評の言葉はない。<br><br>そこで、何でも自由におやりなさい、私は傍観者として眺めているからと、彼の使者に言った事もあった。<br><br> また本教団へ対して種々の野心を抱いたり、種々の誤解をする人などが数え切れない程あった。<br><br>今日は余程減ったが、何しろ一時は本教が急激に世の中へ喧伝されるようになったので、うるさい程善悪共にいろいろな人が来てテンヤワンヤであったのは、止むを得ない過渡期の現象でもあった。<br><br>しかし、その渦中に置かれた私は、いつも心は落ついている。<br><br>何となれば観音様はどれもこれもどういう風に解決なさるかという事に深い興味をもっていたからである。<br><br> 今一つおもしろい事は、世界の状勢や、社会の推移、個人の運命等、必要な事は前もって種々な形で知らされるので実におもしろいのである。<br><br>その中の幾分かは発表する事があるが、これも露骨には言えない。<br><br>なぜなれば政治に関した事や世界の偉い人の事、天災地変、既成宗教の運命等々であるから、種々の誤解を招くおそれがあるからである。<br><br> まだ種々かきたい事があるが、この項はこのくらいで筆をおく事にする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Missão como Instrumento de Kannon</h2>
 <p>Com frequência, sou inquirido sobre uma suposição que já se tornou quase um lugar-comum: “O senhor deve ter sido um devoto extremamente fervoroso de Kannon”. Essa impressão é compartilhada pela maioria dos membros e, com maior razão, por aqueles que não pertencem à nossa Obra. No entanto, e por mais surpreendente que pareça, a verdade é que eu jamais nutri qualquer tipo de devoção particular a Kannon. Meu sentimento resumia-se a um profundo apreço por seu semblante de sublime beleza e harmonia, bem como por seu caráter universal, isento de dogmatismos e sectarismos, que permite sua veneração em diversas tradições religiosas.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Inúmeras foram também as pessoas que nutriam ambições desmedidas ou que, por diversos motivos, desenvolveram interpretações equivocadas a respeito de nossa Obra. Embora a situação tenha melhorado consideravelmente, houve um tempo em que a rápida expansão de nossos ensinamentos atraiu uma multidão de pessoas, bem e mal-intencionadas, o que gerou um período de grande alvoroço e confusão. Foi um fenômeno inevitável daquela fase de transição. No entanto, mesmo imerso no centro desse turbilhão, meu coração permanecia sempre sereno. A razão era minha profunda curiosidade em observar de que maneira Kannon solucionaria cada uma daquelas situações.</p>
 <p>Outro fato fascinante é que informações relevantes sobre o panorama mundial, as transformações da sociedade e até mesmo o destino de indivíduos me são reveladas antecipadamente das mais diversas formas. Por vezes, chego a divulgar uma pequena parcela dessas revelações, mas não posso fazê-lo de maneira explícita, pois frequentemente envolvem questões políticas, personalidades de destaque global, catástrofes naturais e o futuro de religiões estabelecidas, o que acarreta o risco de gerar graves mal-entendidos.</p>
 <p>Haveria muito mais a relatar, mas, por ora, concluirei aqui este tópico.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の告白 自観叢書第4篇『奇蹟物語』P.9、昭和24(1949)年10月5日 よく私が質（き）かれる事に、「大先生は、観音信仰がよほど熱烈であられたと想像される」というのは、ほとんど紋切型といってもいい。<br/><br/>この想像は信者としても大部分はそうであろう。<br/><br/>いわんや第三者においてをやである。<br/><br/>ところが驚くなかれ、私は観音信仰は全然なかったのである。<br/><br/>ただ観音様はいかにも眉目秀麗、円満なる御容姿と、何宗でも祭られてあるその固着や、偏頗（へんぱ）のない点に好感を持っていたまでである。<br/><br/>ところが前項の初めに書いたごとく、私の傍に観音様の霊が始終付いておられる事を知って驚くと共に、この時を契機として観音様に関しての奇蹟が起こり始めた。<br/><br/>これらも追々（おいおい）発表するが、そのような訳で、ついには観音様の御本体は伊都能売（いずのめ）という神様である事を知り、いずれ時機が来れば、観世音菩薩はある期間救いのため化身されたのであるから、最後には元の神位に復帰さるるという事なども判ったのである。<br/><br/>そうして昭和元年から観音様は始終私の肉体に懸られ、私に種々な事を教えられ、命じられ、自由自在に私の肉体を使われるのである。<br/><br/>全く私を機関として一切衆生を救わせ給うのである。<br/><br/> 以上のごとくであるから、私が観音を信仰して今日のようになったのではない。<br/><br/>全く観音様の方で私を道具に使われるのである。<br/><br/>このような訳で私というものは、観音様の身代りといってもよかろう。<br/><br/>故に観音様という主人が思い通り使われるので、私としては全然自由がない。<br/><br/>といって観音様が揮われる妙智力は自由無碍であるから、その点また別でもある。<br/><br/>一言にしていえば普通人より自由がなく、普通人より大自由があるという訳で、この心境はなかなか説明がし難い。<br/><br/>普通人には想像すら出来ないからである。<br/><br/>今一つ私の変っていると思う事は、昔からの開祖や聖者等はすべて何事も神秘にする傾向があった。<br/><br/>恐らく自分の心境を赤裸々に述べた例はほとんどなかったであろう。<br/><br/>もっともそうする方が有難味がよけいある事も考えられる。<br/><br/>しかし私はそういうやり方はどうも好まない。<br/><br/>もっとも時代の関係もあろう。<br/><br/>何しろ今日は神でも信仰でも、科学的に究明されなければ承知しないのである。<br/><br/>そういう智性人が社会を指導している現状だから、幽玄神秘的では一般を判らせる事は至難である。<br/><br/>観音様もその点を鑑みられ、私のやり方のような方法をとられたものであろう。<br/><br/> それについてこういうおもしろい事がある。<br/><br/>あまり古くはない頃、本教団をある種の目的のため、潰してしまうと宣言し、あの手この手を用いた人があった。<br/><br/>それをまた頻々（ひんぴん）と報（しら）せてくれる人もあった。<br/><br/>その都度私は笑いが止まらなかった、というのは観音様を相手に喧嘩しようとするのだから、実に大胆だか無謀だか馬鹿だか、批評の言葉はない。<br/><br/>そこで、何でも自由におやりなさい、私は傍観者として眺めているからと、彼の使者に言った事もあった。<br/><br/> また本教団へ対して種々の野心を抱いたり、種々の誤解をする人などが数え切れない程あった。<br/><br/>今日は余程減ったが、何しろ一時は本教が急激に世の中へ喧伝されるようになったので、うるさい程善悪共にいろいろな人が来てテンヤワンヤであったのは、止むを得ない過渡期の現象でもあった。<br/><br/>しかし、その渦中に置かれた私は、いつも心は落ついている。<br/><br/>何となれば観音様はどれもこれもどういう風に解決なさるかという事に深い興味をもっていたからである。<br/><br/> 今一つおもしろい事は、世界の状勢や、社会の推移、個人の運命等、必要な事は前もって種々な形で知らされるので実におもしろいのである。<br/><br/>その中の幾分かは発表する事があるが、これも露骨には言えない。<br/><br/>なぜなれば政治に関した事や世界の偉い人の事、天災地変、既成宗教の運命等々であるから、種々の誤解を招くおそれがあるからである。<br/><br/> まだ種々かきたい事があるが、この項はこのくらいで筆をおく事にする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

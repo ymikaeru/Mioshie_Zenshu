@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ningen01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間 『世界救世教早わかり』昭和25(1950)年11月20日発行 一体、人間というものは、何のために何の必要あって、誰がこの世の中に生れさせたものであろうか、少し物を考える人なら、この事が一番先に、頭に浮んで来なければならない。<br><br>これが判らなければ、どんなに七難しい理屈を解かれても、額に青筋を立てて捲くし立てられても、頭痛の種を頂戴するだけで、屁の突支棒（つっかえぼう）にもなるまい。<br><br>ところが今までは猫も杓子（しゃくし）も、ヤレ文化とか、ヤレ科学とか、丸で蚊に喰われるような名前の学問を、神様のように有難がって来たんだ。<br><br>ところがこの神様はどういうものか、サッパリ人間については教えて呉れない。<br><br>たった一人ダーウィンというオッサンが出て来て、進化論という本をかいた。<br><br>それを見ると人間の先祖はアミーバーという黴菌みたいなものだとした。<br><br>そこまではいいとしてこれからが大変だ。<br><br>というのは、アミーバーが段々進化して蜥蜴（とかげ）となり、大蜥蜴となり、猿となり、類人猿となり、それから人間様になったんだというんだから奇々妙々大魔術である。<br><br>それが本当とすればゴリラやチンバンジーやオランウータンなどは、間もなく人間様に進化するんだから、この進化し立ての人間が、アフリカ辺りの蕃地には、ウヨウヨいなければならないはずだが、一向そんな話は聞いた事がない。<br><br>とすればこの有名な進化論も眉唾物でしかあるまい。<br><br> そこで、吾々が唱える人間説を一つかいてみるが、手近なところでまず自分自身である。<br><br>一体俺という者は、どういう訳で何をするためにこの世に生れて来たものであろうか。<br><br>何も生れたいと思って、生れて来たものでもない。<br><br>ただ親が生んでしまったんだ。<br><br>といって親とても俺を作ろうと思ったんじゃあるまい。<br><br>偶然に宿り、月満ちて生れたまでである。<br><br>こんな判り切った事が、実は真理なんだから真理というものは案外平々凡々たるもので、当り前すぎるくらいだ。<br><br>これを昔から宿命というが巧い言葉だと感心する。<br><br>ところが人間という奴、大人になって世の中の事が段々判ってくると、一番知りたくなるのは、なぜ人間が生れるかという事だ。<br><br>しかし進化論以外、宗教の方でもチョッピリ説くには説いたが、余り漠然としていてサッパリ掴みどこがない。<br><br>そこで拙者は今人間について、みんなが知りたいと思いそうな事を、判りやすくかいてみよう。<br><br> ここに、男と女がいる。<br><br>するとどこから誰がそうするのが判らないが、アミーバーのような目に見えない人間の種が、植付けられるのだ。<br><br>それが段々大きくなり、オギャーと生れるやまた段々大きくなり、一人前の人間になる。<br><br>すると働かなければ飯が食えないように出来ているので、一生懸命働くんだが、人によりズルイ奴もあり、怠ける奴もあり、泣く奴も、笑う奴も、生意気な奴も、理屈を捏（こね）る奴もあり、また出世をする奴も、失敗する奴も、種々様々な人間が出来てしまうんだから、人間という代物も随分手数のかかる生物だ。<br><br>そうして今言ったように人間は食わなければ生きられないように出来ていて、食い物もチャンと具（そな）わっている。<br><br>何者がそうしたのか分らないが、山からも海からも平地からも、食いたい美味いものはお誹え通り揃っている。<br><br>太陽も空気も水も、一切人間に必要なものばかりで、一つも無駄はない。<br><br>無駄と想うのは、その使い途が判らないからで、判る程そこまで人智が発達していないんだから、人間様もあんまり威張れたものではない。<br><br>ところが人間に必要がなくなったものは自然淘汰といって、無くなって消えてしまう。<br><br>そうかといって、新しく生れてくるものもある。<br><br>昔人力車という便利なものが生れて来たが、自動車というそれ以上便利なものが生れたので、淘汰されてしまった。<br><br>行灯が電灯に、木と紙の家が鉄とセメントの家というように学問でいう新陳代謝である。<br><br> このような具合で、何だ彼んだと言いながら、地球は段々拓けてゆく、どんな山の中でも、海の涯でも行けないところはないようになった。<br><br>昔テクテク一月掛りで歩いたところも、今は寝ながら一時間で行けるというんだから、この分でいったらどこまで拓けるか見当がつかない程だ。<br><br>こうかいてみると、どこか人間の目に見えないところに、何者かドエライお方がいて、人間を作り自由自在に働かせ、段々地球を立派なものにしているとしか思えない。<br><br>どう考えてもそれより他に考えようがない。<br><br>としたらまず人間は威張る事も、文句を言う事も出来ない。<br><br>恐れ入ってその何者様に頭を下げる事だ。<br><br>しかもその何者様は人間の命まで自由自在にされるんだから、お気に入れば無事だが、お気に入らないとなると、いつ何時命を召上げられてしまうか判らない。<br><br>だから精々お気に入られるように努めるのが長生きの秘訣である。<br><br> そうして人間という奴、何でも判らなければ承知しないという厄介な代物で学問というものを作って智慧を磨いたんだ。<br><br>なぜ学問を作ったかというと、極く昔は信仰という目に見えない空気みたいのものが出来て、これを見えない神様というものがあると言って、いろんな事を教えた。<br><br>第一この世の中には、造物主という得体の知ない変な御方がいて、一切を作ったんだというのである。<br><br>その時代の人間は、こんな簡単な、この御託宣でも有難がって、随喜の涙を零（こぼ）したらしい。<br><br>ところが人間という奴段々小賢しくなって来ると、目に見えもしない空気か煙みたいなものは、信じられないという理屈を言い出し、科学というヤヤコしいものをデッチ上げてしまった。<br><br>ところがこいつはハッキリ目に見えるんだから、人間共は鼻高々となって、へンどんなもんじゃいと言ったかどうだか知らないが、遂々（とうとう）この科学という奴に人間様は虜にされてしまった。<br><br>またこいつ仲々気の利いた奴で、色々な面白い便利なものを作ったんで、人間を有頂天にしてしまったのはいいがおこがましくも、自分の領分以外何でも彼んでも判ったように自惚れてしまって一々理屈をつけたんだ。<br><br>ヤレ天文がどうだとか、人間の病気はこうだとか言って、大自然の上っ面をチョッピリ知ったくらいで慢心してしまい、ついには月の世界まで行けるんだといって、目下準備中というんだから、吾々否何者様も呆れ返って物もいえない次第で御座ろう。<br><br> 以上のように、科学というものを、神様以上に崇めて来たんだから、御利益イヤチコでサゾ結構な世の中になっていなければならないはずだのに、これはまた意外も意外、世界中の人間共はみんな青くなってビクビクしているんだから驚いた。<br><br>これを御覧になった何者様は、ソーレみた事かと言って、鼻の先で笑ってもいられない。<br><br>というのは元々人間は、みんな何者様の子供なんだから、助けてやらなけりゃ可哀想だという御思召で、メシヤという居酒屋の親父みたいな、名前の人間を何者様の代理として、今働かせているんだから有難いでは御座らぬか。<br><br> そこでメシヤの親父は、早速この事を大勢に知らして目を醒まさせようとしているが、何しろ今までの人間共は、科学という神様を有難がっていたんだから、メシヤの言う事は間違っている。<br><br>第一メシヤなどというのは、飛んでもない贋神だよ、だからそんなものに騙されては大変だと言って、警戒オサオサ怠りなしだ。<br><br>それかと言って、実のところ内心はビクビクものらしい。<br><br>なぜかと言えば、科学の神様は色々結構な便利なものを作ってはくれたが、肝腎要めの安心というものを作って呉れなかった。<br><br>そこで人間共はこんなはずではなかったと、少々疑いが起って来たんだが、何しろ長い間惚れ込んで来た恋人みたいな科学様なので今更思い返す事も出来ず、一生懸命科学様を頼りにして噛りついているのが今の有様だ。<br><br>そんな訳で科学信者共は贋神などのホザク事は、とても耳障りになるので、五月蝿（うるさ）い気味の悪い奴だ。<br><br>エーやっつけてしまえというので、霊界のギャング共を総動員し、贋神退治をやらせたんだ。<br><br>これがどなたも御存知の通りのメシヤ教の法難、受難、税難という訳である。<br><br>ところがよく考えてみれば、先様も心細くなったんで、最後のあがきと言う奴であろう。<br><br> そこで可哀想なのは人間小羊の群なんだ。<br><br>というのは、今までの世の中は、科学という結構な道具を、神様から授けて下さったんだが人間の中には、了見の悪い奴もいて、そいつらが人間を倖せにするための道具を、自分勝手に欲の爪を伸ばして、小羊共を酷（いじ）める道具に使ったんだから堪らない。<br><br>ところが善人の方では、科学を善い方に使い、倖せな世界を作ろうとすると、悪者の方は、そうはさせじと邪魔をするので、年中ゴタゴタしており、その間に挟まった、哀れな小羊共は年中泣きの涙で、ピーピーしているんだから可哀想なものだよ。<br><br>その上長い間の事とて、科学という道具にも間違いな点が出来たり、黴だらけになったところもあるので、今度は天の神様が、凄い腕を揮われて、科学を悪者の手から取戻し、善人に使わせたり、間違いは治して下されたり、汚れたところは奇麗に掃除をされて、いよいよこの世ながらの天国浄土をお造りなさろうとされるのである。<br><br> 何しろ、天の神様は、メシヤの親父に色々これからの事を、御指図なさるので親父も向鉢巻、尻ひっぱしょり、水鼻をこすりこすり、獅子奮迅の大活動、いよいよ面白くなって来たので御座る。<br><br>こんな素晴しい、後にも先にもない、地上天国を作るという、尻（けつ）メドの小っぽけな奴は、聞いただけで目がくらみそうな大仕事、せっかく人間と生れたからにゃ、お手伝せずにはおられまい。<br><br>もし外ずれたら万古末代まで名折れになったり臍（ほぞ）を噛むのは知れた事、グズグズしてはおられまい。<br><br>サアサア、イラッシャイ、イラッシャイ、いいと知ったら思い切って実行するこそ男で御座る、とお勧め申す次第なり。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Existência Humana</h2>
 <p>Afinal, com que propósito e por qual necessidade o ser humano foi trazido à existência neste mundo, e por quem? Para o indivíduo que se dispõe a refletir minimamente, esta indagação deveria ser a primeira a emergir em sua mente. Sem a compreensão de tal questão, quaisquer teorias complexas ou raciocínios intrincados, ainda que defendidos com o mais fervoroso ardor, de nada servirão, senão como um fardo para o intelecto.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Ademais, com o passar do tempo, a própria ciência acumulou falhas e impurezas. Por isso, o Deus Celestial, manifestando Seu grandioso poder, está agora a resgatá-la das mãos dos maus para entregá-la aos justos. Ele corrige seus erros, purifica suas máculas e, assim, dará início à construção do Paraíso na Terra.</p>
 <p>O Deus Celestial transmite Suas diretrizes ao Messias, que, por sua vez, atua com empenho sobre-humano. O momento torna-se cada vez mais sublime. A grandiosa obra de edificar o Reino dos Céus na Terra, um acontecimento sem precedentes na História, é uma tarefa tão monumental que sua simples menção poderia ofuscar um espírito mesquinho.</p>
 <p>Já que recebemos a graça de nascer como seres humanos, como poderíamos nos eximir de colaborar? Ficar de fora significaria uma desonra eterna e um arrependimento amargo. Portanto, não há tempo para hesitações! Avante! Vinde a nós! Agir com determinação ao reconhecer o bem é a verdadeira marca de um ser humano de valor. Eis a nossa sincera recomendação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間 『世界救世教早わかり』昭和25(1950)年11月20日発行 一体、人間というものは、何のために何の必要あって、誰がこの世の中に生れさせたものであろうか、少し物を考える人なら、この事が一番先に、頭に浮んで来なければならない。<br/><br/>これが判らなければ、どんなに七難しい理屈を解かれても、額に青筋を立てて捲くし立てられても、頭痛の種を頂戴するだけで、屁の突支棒（つっかえぼう）にもなるまい。<br/><br/>ところが今までは猫も杓子（しゃくし）も、ヤレ文化とか、ヤレ科学とか、丸で蚊に喰われるような名前の学問を、神様のように有難がって来たんだ。<br/><br/>ところがこの神様はどういうものか、サッパリ人間については教えて呉れない。<br/><br/>たった一人ダーウィンというオッサンが出て来て、進化論という本をかいた。<br/><br/>それを見ると人間の先祖はアミーバーという黴菌みたいなものだとした。<br/><br/>そこまではいいとしてこれからが大変だ。<br/><br/>というのは、アミーバーが段々進化して蜥蜴（とかげ）となり、大蜥蜴となり、猿となり、類人猿となり、それから人間様になったんだというんだから奇々妙々大魔術である。<br/><br/>それが本当とすればゴリラやチンバンジーやオランウータンなどは、間もなく人間様に進化するんだから、この進化し立ての人間が、アフリカ辺りの蕃地には、ウヨウヨいなければならないはずだが、一向そんな話は聞いた事がない。<br/><br/>とすればこの有名な進化論も眉唾物でしかあるまい。<br/><br/> そこで、吾々が唱える人間説を一つかいてみるが、手近なところでまず自分自身である。<br/><br/>一体俺という者は、どういう訳で何をするためにこの世に生れて来たものであろうか。<br/><br/>何も生れたいと思って、生れて来たものでもない。<br/><br/>ただ親が生んでしまったんだ。<br/><br/>といって親とても俺を作ろうと思ったんじゃあるまい。<br/><br/>偶然に宿り、月満ちて生れたまでである。<br/><br/>こんな判り切った事が、実は真理なんだから真理というものは案外平々凡々たるもので、当り前すぎるくらいだ。<br/><br/>これを昔から宿命というが巧い言葉だと感心する。<br/><br/>ところが人間という奴、大人になって世の中の事が段々判ってくると、一番知りたくなるのは、なぜ人間が生れるかという事だ。<br/><br/>しかし進化論以外、宗教の方でもチョッピリ説くには説いたが、余り漠然としていてサッパリ掴みどこがない。<br/><br/>そこで拙者は今人間について、みんなが知りたいと思いそうな事を、判りやすくかいてみよう。<br/><br/> ここに、男と女がいる。<br/><br/>するとどこから誰がそうするのが判らないが、アミーバーのような目に見えない人間の種が、植付けられるのだ。<br/><br/>それが段々大きくなり、オギャーと生れるやまた段々大きくなり、一人前の人間になる。<br/><br/>すると働かなければ飯が食えないように出来ているので、一生懸命働くんだが、人によりズルイ奴もあり、怠ける奴もあり、泣く奴も、笑う奴も、生意気な奴も、理屈を捏（こね）る奴もあり、また出世をする奴も、失敗する奴も、種々様々な人間が出来てしまうんだから、人間という代物も随分手数のかかる生物だ。<br/><br/>そうして今言ったように人間は食わなければ生きられないように出来ていて、食い物もチャンと具（そな）わっている。<br/><br/>何者がそうしたのか分らないが、山からも海からも平地からも、食いたい美味いものはお誹え通り揃っている。<br/><br/>太陽も空気も水も、一切人間に必要なものばかりで、一つも無駄はない。<br/><br/>無駄と想うのは、その使い途が判らないからで、判る程そこまで人智が発達していないんだから、人間様もあんまり威張れたものではない。<br/><br/>ところが人間に必要がなくなったものは自然淘汰といって、無くなって消えてしまう。<br/><br/>そうかといって、新しく生れてくるものもある。<br/><br/>昔人力車という便利なものが生れて来たが、自動車というそれ以上便利なものが生れたので、淘汰されてしまった。<br/><br/>行灯が電灯に、木と紙の家が鉄とセメントの家というように学問でいう新陳代謝である。<br/><br/> このような具合で、何だ彼んだと言いながら、地球は段々拓けてゆく、どんな山の中でも、海の涯でも行けないところはないようになった。<br/><br/>昔テクテク一月掛りで歩いたところも、今は寝ながら一時間で行けるというんだから、この分でいったらどこまで拓けるか見当がつかない程だ。<br/><br/>こうかいてみると、どこか人間の目に見えないところに、何者かドエライお方がいて、人間を作り自由自在に働かせ、段々地球を立派なものにしているとしか思えない。<br/><br/>どう考えてもそれより他に考えようがない。<br/><br/>としたらまず人間は威張る事も、文句を言う事も出来ない。<br/><br/>恐れ入ってその何者様に頭を下げる事だ。<br/><br/>しかもその何者様は人間の命まで自由自在にされるんだから、お気に入れば無事だが、お気に入らないとなると、いつ何時命を召上げられてしまうか判らない。<br/><br/>だから精々お気に入られるように努めるのが長生きの秘訣である。<br/><br/> そうして人間という奴、何でも判らなければ承知しないという厄介な代物で学問というものを作って智慧を磨いたんだ。<br/><br/>なぜ学問を作ったかというと、極く昔は信仰という目に見えない空気みたいのものが出来て、これを見えない神様というものがあると言って、いろんな事を教えた。<br/><br/>第一この世の中には、造物主という得体の知ない変な御方がいて、一切を作ったんだというのである。<br/><br/>その時代の人間は、こんな簡単な、この御託宣でも有難がって、随喜の涙を零（こぼ）したらしい。<br/><br/>ところが人間という奴段々小賢しくなって来ると、目に見えもしない空気か煙みたいなものは、信じられないという理屈を言い出し、科学というヤヤコしいものをデッチ上げてしまった。<br/><br/>ところがこいつはハッキリ目に見えるんだから、人間共は鼻高々となって、へンどんなもんじゃいと言ったかどうだか知らないが、遂々（とうとう）この科学という奴に人間様は虜にされてしまった。<br/><br/>またこいつ仲々気の利いた奴で、色々な面白い便利なものを作ったんで、人間を有頂天にしてしまったのはいいがおこがましくも、自分の領分以外何でも彼んでも判ったように自惚れてしまって一々理屈をつけたんだ。<br/><br/>ヤレ天文がどうだとか、人間の病気はこうだとか言って、大自然の上っ面をチョッピリ知ったくらいで慢心してしまい、ついには月の世界まで行けるんだといって、目下準備中というんだから、吾々否何者様も呆れ返って物もいえない次第で御座ろう。<br/><br/> 以上のように、科学というものを、神様以上に崇めて来たんだから、御利益イヤチコでサゾ結構な世の中になっていなければならないはずだのに、これはまた意外も意外、世界中の人間共はみんな青くなってビクビクしているんだから驚いた。<br/><br/>これを御覧になった何者様は、ソーレみた事かと言って、鼻の先で笑ってもいられない。<br/><br/>というのは元々人間は、みんな何者様の子供なんだから、助けてやらなけりゃ可哀想だという御思召で、メシヤという居酒屋の親父みたいな、名前の人間を何者様の代理として、今働かせているんだから有難いでは御座らぬか。<br/><br/> そこでメシヤの親父は、早速この事を大勢に知らして目を醒まさせようとしているが、何しろ今までの人間共は、科学という神様を有難がっていたんだから、メシヤの言う事は間違っている。<br/><br/>第一メシヤなどというのは、飛んでもない贋神だよ、だからそんなものに騙されては大変だと言って、警戒オサオサ怠りなしだ。<br/><br/>それかと言って、実のところ内心はビクビクものらしい。<br/><br/>なぜかと言えば、科学の神様は色々結構な便利なものを作ってはくれたが、肝腎要めの安心というものを作って呉れなかった。<br/><br/>そこで人間共はこんなはずではなかったと、少々疑いが起って来たんだが、何しろ長い間惚れ込んで来た恋人みたいな科学様なので今更思い返す事も出来ず、一生懸命科学様を頼りにして噛りついているのが今の有様だ。<br/><br/>そんな訳で科学信者共は贋神などのホザク事は、とても耳障りになるので、五月蝿（うるさ）い気味の悪い奴だ。<br/><br/>エーやっつけてしまえというので、霊界のギャング共を総動員し、贋神退治をやらせたんだ。<br/><br/>これがどなたも御存知の通りのメシヤ教の法難、受難、税難という訳である。<br/><br/>ところがよく考えてみれば、先様も心細くなったんで、最後のあがきと言う奴であろう。<br/><br/> そこで可哀想なのは人間小羊の群なんだ。<br/><br/>というのは、今までの世の中は、科学という結構な道具を、神様から授けて下さったんだが人間の中には、了見の悪い奴もいて、そいつらが人間を倖せにするための道具を、自分勝手に欲の爪を伸ばして、小羊共を酷（いじ）める道具に使ったんだから堪らない。<br/><br/>ところが善人の方では、科学を善い方に使い、倖せな世界を作ろうとすると、悪者の方は、そうはさせじと邪魔をするので、年中ゴタゴタしており、その間に挟まった、哀れな小羊共は年中泣きの涙で、ピーピーしているんだから可哀想なものだよ。<br/><br/>その上長い間の事とて、科学という道具にも間違いな点が出来たり、黴だらけになったところもあるので、今度は天の神様が、凄い腕を揮われて、科学を悪者の手から取戻し、善人に使わせたり、間違いは治して下されたり、汚れたところは奇麗に掃除をされて、いよいよこの世ながらの天国浄土をお造りなさろうとされるのである。<br/><br/> 何しろ、天の神様は、メシヤの親父に色々これからの事を、御指図なさるので親父も向鉢巻、尻ひっぱしょり、水鼻をこすりこすり、獅子奮迅の大活動、いよいよ面白くなって来たので御座る。<br/><br/>こんな素晴しい、後にも先にもない、地上天国を作るという、尻（けつ）メドの小っぽけな奴は、聞いただけで目がくらみそうな大仕事、せっかく人間と生れたからにゃ、お手伝せずにはおられまい。<br/><br/>もし外ずれたら万古末代まで名折れになったり臍（ほぞ）を噛むのは知れた事、グズグズしてはおられまい。<br/><br/>サアサア、イラッシャイ、イラッシャイ、いいと知ったら思い切って実行するこそ男で御座る、とお勧め申す次第なり。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

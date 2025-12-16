@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hurimuku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 振り向く勿れ 『地上天国』42号、昭和27(1952)年11月25日発行 それは明主様が東京にお住いになり、民間療法の名で御救いを垂れられていた当時の事である。<br><br>明主様はたしか昭和十五六年頃から主なるお弟子には東京の灰燼すべきを窃かに警告せられていたが、その後十六年太平洋戦が始まり、緒戦の華々しい大勝利の報道に国民が熱狂していた頃には大都市在住の信徒一般にも疎開の用意をするよう荐りにお奨めになっていた。<br><br>そしてお言葉のまま直ちに疎開して、戦火からも飢からも守られて新たな栄えを与えられた信徒も数多くあったし、疎開のお言葉は戴かずとも御守護厚く火焔の真中から逃れたり何等戦火の被害を蒙らぬ大奇蹟も枚挙に遑（いとま）ない程あったが、中には御言葉を軽視してあたら救わるべき生命までも失った異例の人もあった。<br><br> 吾々が最も意外だったのは、当時のいわば幹部級の地位にあった深川区のＭ君の惨事であった。<br><br>同君には深川辺は最も危険性が多いからと再三早期疎開をお奨めになっていたが彼の曖昧な御返事には御言葉に順おうとする熱意が欠けているのが見受けられた。<br><br>私が彼と最後に遇ったのは強羅の旅館であったから、明主様が箱根御移居後の十九年七、八月であったであろう。<br><br>勿論在京信徒の大部分は疎開を完了し、空襲も漸く本格的になる頃であった。<br><br>私はその時疎開先の事を訊ねたが「探してはいるが適当な家がない」と答える彼の恬然たる態度を解しかねたのを記憶している。<br><br>未だその頃までなら探せば家はある筈だからやはり真剣に疎開の意志はなかったのである。<br><br>その後下町一帯の大空襲があったが、信徒の奇跡を通常事としていた吾々はさして後の安否を思わなかったが、いっかな姿をみせなくなったのを訝っているうちに行方不明の情報があり、熱海へ移ってから、田舎でただ一人生残った長女が訪ねて来て、Ｍ君親子五名焼死の確認を号泣と共に語り茫然としているのを慰める言葉もなかったのである。<br><br> そしてＭ君の悲劇は吾々に貴重な教訓を提供した。<br><br>即ち明主様の御言葉は如何に絶対のものであり、御指示への向背はかくも大きい運命の相違を結果するかである。<br><br>言うまでもなく彼がもし明主様の御救いの言葉を素直に遵守したならばこの様な目を蔽う悲惨事に遇わなかった。<br><br>彼が御言葉に従わなかった事は御救いへの反逆であり、一家心中的自殺行為であったので誰を怨みようもないのである。<br><br> 吾々が長い信仰生活において絶望的行詰りや深刻な苦悩に沈淪した際その根因を深くたずねると、最も安易に栄ゆべき御指示の道を離れ、自ら作る苦難の道を進んでいる事を発見する事幾度か知れぬし、右の例の如く遂に気付かずに滅する人の例も幾多見聞した。<br><br>たとえお言葉が眼前の利害を無視するものと思わるるとも、それは御救いの決定的進路であって、それに対する批判や検討、臆測を容るる余地は全くない。<br><br>如何なる権力も金力もその絶対性を曲げる事は出来ない。<br><br>吾々はただそのまま遵守する以外最上の道はない事を知るべきである。<br><br> なお元来Ｍ君は貧窮のドン底から御救を知って入信し、治病の御力を賜わってから生活も安定し、布教専一に営々努力する事約七年、多数の弟子も出来、深川を中心とする広い地盤も出来、順調な発展に慣れていつしか神への感謝奉仕は外形のみのものとなり、内面は信仰とは異なったものとなっていた。<br><br>そしてこの努力の結晶に執着を抱き、たとえ明主様の御言葉でも、これをすてて、他へ疎開する気になれなかったというのが争うべからざる事情の一つであった。<br><br>この欲望と執着が暗雲となって御言葉の御光を遮り神の守護を絶ったのである。<br><br>そして折角危機の前に神の御声に向いかけながら、滅せらるべき眼前の利得に振向いてそれに固着してしまった訳であり、御言葉以上に重んじた欲望は滅びを招く具としかならなかった。<br><br> 明主様は夙（つと）に、恐るべき文化の迷夢の本体を明かにし、史上空前の危機を警告されると共に絶対的救いの道を造られ、目に耳に信不信を超越する実証を示されているが、今なお迷夢に固着する自殺行為者のあるを吾等は歎く。<br><br> そして今や最後の時と最後の御救いを普（あまね）く人類に告げられんとしている。<br><br>人々は振り返る事なく神の福音のまま直進され歓喜幸福の方舟に乗られん事を切望するものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Não se voltem para trás</h2>
 <p>Este relato remonta ao período em que Meishu-Sama residia em Tóquio, oferecendo a salvação sob a designação de terapia popular. Por volta de 1940 ou 1941, Ele já havia, em particular, alertado Seus principais discípulos de que Tóquio seria reduzida a cinzas. Posteriormente, com o início da Guerra do Pacífico em 1941, e enquanto a nação se inebriava com as notícias de retumbantes vitórias iniciais, Meishu-Sama passou a recomendar insistentemente que também os membros em geral, residentes nas grandes cidades, se preparassem para a evacuação.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Originalmente, o senhor M. encontrou a salvação quando se encontrava no mais profundo abismo da pobreza. Após ingressar na fé e receber a graça da cura, sua vida se estabilizou. Por cerca de sete anos, dedicou-se com afinco à difusão, formou um grande número de discípulos e estabeleceu uma ampla base de atuação centrada em Fukagawa. Com o tempo, habituado a esse progresso constante, sua gratidão e seu serviço a Deus tornaram-se meramente protocolares, e seu interior se distanciou da verdadeira fé. Ele desenvolveu um forte apego ao que considerava o fruto de seus esforços e, mesmo diante das palavras de Meishu-Sama, não conseguiu se desvencilhar de tudo para se retirar. Essa foi, inegavelmente, uma das razões de sua ruína. Esse desejo e esse apego se tornaram nuvens escuras que obstruíram a Luz emanada de Suas palavras, interrompendo a proteção Divina. E assim, embora estivesse diante da voz de Deus em um momento crítico, ele se voltou para os ganhos imediatos que estavam fadados à destruição, apegando-se a eles. O desejo que ele valorizou mais do que as palavras do Mestre tornou-se unicamente o instrumento que o conduziu à perdição.</p>
 <p>Há muito Meishu-Sama vem elucidando a verdadeira natureza do temível sonho ilusório da civilização e, além de alertar sobre a crise sem precedentes na história, criou o caminho da salvação absoluta. E, apesar de Ele apresentar, aos nossos olhos e ouvidos, provas que transcendem a crença e a descrença, lamentamos que ainda existam aqueles que, em um ato suicida, insistem em se apegar a essa ilusão.</p>
 <p>Agora, Ele se prepara para anunciar a toda a humanidade a hora final e a salvação derradeira. Nosso mais profundo anseio é que as pessoas avancem resolutamente, seguindo o evangelho de Deus sem olhar para trás, a fim de embarcar na Arca da Felicidade e da Alegria.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 振り向く勿れ 『地上天国』42号、昭和27(1952)年11月25日発行 それは明主様が東京にお住いになり、民間療法の名で御救いを垂れられていた当時の事である。<br/><br/>明主様はたしか昭和十五六年頃から主なるお弟子には東京の灰燼すべきを窃かに警告せられていたが、その後十六年太平洋戦が始まり、緒戦の華々しい大勝利の報道に国民が熱狂していた頃には大都市在住の信徒一般にも疎開の用意をするよう荐りにお奨めになっていた。<br/><br/>そしてお言葉のまま直ちに疎開して、戦火からも飢からも守られて新たな栄えを与えられた信徒も数多くあったし、疎開のお言葉は戴かずとも御守護厚く火焔の真中から逃れたり何等戦火の被害を蒙らぬ大奇蹟も枚挙に遑（いとま）ない程あったが、中には御言葉を軽視してあたら救わるべき生命までも失った異例の人もあった。<br/><br/> 吾々が最も意外だったのは、当時のいわば幹部級の地位にあった深川区のＭ君の惨事であった。<br/><br/>同君には深川辺は最も危険性が多いからと再三早期疎開をお奨めになっていたが彼の曖昧な御返事には御言葉に順おうとする熱意が欠けているのが見受けられた。<br/><br/>私が彼と最後に遇ったのは強羅の旅館であったから、明主様が箱根御移居後の十九年七、八月であったであろう。<br/><br/>勿論在京信徒の大部分は疎開を完了し、空襲も漸く本格的になる頃であった。<br/><br/>私はその時疎開先の事を訊ねたが「探してはいるが適当な家がない」と答える彼の恬然たる態度を解しかねたのを記憶している。<br/><br/>未だその頃までなら探せば家はある筈だからやはり真剣に疎開の意志はなかったのである。<br/><br/>その後下町一帯の大空襲があったが、信徒の奇跡を通常事としていた吾々はさして後の安否を思わなかったが、いっかな姿をみせなくなったのを訝っているうちに行方不明の情報があり、熱海へ移ってから、田舎でただ一人生残った長女が訪ねて来て、Ｍ君親子五名焼死の確認を号泣と共に語り茫然としているのを慰める言葉もなかったのである。<br/><br/> そしてＭ君の悲劇は吾々に貴重な教訓を提供した。<br/><br/>即ち明主様の御言葉は如何に絶対のものであり、御指示への向背はかくも大きい運命の相違を結果するかである。<br/><br/>言うまでもなく彼がもし明主様の御救いの言葉を素直に遵守したならばこの様な目を蔽う悲惨事に遇わなかった。<br/><br/>彼が御言葉に従わなかった事は御救いへの反逆であり、一家心中的自殺行為であったので誰を怨みようもないのである。<br/><br/> 吾々が長い信仰生活において絶望的行詰りや深刻な苦悩に沈淪した際その根因を深くたずねると、最も安易に栄ゆべき御指示の道を離れ、自ら作る苦難の道を進んでいる事を発見する事幾度か知れぬし、右の例の如く遂に気付かずに滅する人の例も幾多見聞した。<br/><br/>たとえお言葉が眼前の利害を無視するものと思わるるとも、それは御救いの決定的進路であって、それに対する批判や検討、臆測を容るる余地は全くない。<br/><br/>如何なる権力も金力もその絶対性を曲げる事は出来ない。<br/><br/>吾々はただそのまま遵守する以外最上の道はない事を知るべきである。<br/><br/> なお元来Ｍ君は貧窮のドン底から御救を知って入信し、治病の御力を賜わってから生活も安定し、布教専一に営々努力する事約七年、多数の弟子も出来、深川を中心とする広い地盤も出来、順調な発展に慣れていつしか神への感謝奉仕は外形のみのものとなり、内面は信仰とは異なったものとなっていた。<br/><br/>そしてこの努力の結晶に執着を抱き、たとえ明主様の御言葉でも、これをすてて、他へ疎開する気になれなかったというのが争うべからざる事情の一つであった。<br/><br/>この欲望と執着が暗雲となって御言葉の御光を遮り神の守護を絶ったのである。<br/><br/>そして折角危機の前に神の御声に向いかけながら、滅せらるべき眼前の利得に振向いてそれに固着してしまった訳であり、御言葉以上に重んじた欲望は滅びを招く具としかならなかった。<br/><br/> 明主様は夙（つと）に、恐るべき文化の迷夢の本体を明かにし、史上空前の危機を警告されると共に絶対的救いの道を造られ、目に耳に信不信を超越する実証を示されているが、今なお迷夢に固着する自殺行為者のあるを吾等は歎く。<br/><br/> そして今や最後の時と最後の御救いを普（あまね）く人類に告げられんとしている。<br/><br/>人々は振り返る事なく神の福音のまま直進され歓喜幸福の方舟に乗られん事を切望するものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

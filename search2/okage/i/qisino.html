@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qisino</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医師の失敗せる子宮癌の大手術 御浄霊にて救わる 『栄光』169号、昭和27(1952)年8月13日発行 大阪府 春光中教会 渡辺ミツエ（40） 私昭和二十五年二月頃より下腹が脹るようで気持悪く思っておりましたが、大した事もないのでそのままにしておりましたところ、三月末頃より茶色がかったものが下り出しました。<br><br>日の経過するに従い段々下り物が多量になり、食欲不振、衰弱して行く様にありますので、近所の医師に診て貰いましたが、はっきりした事は分らず、警察病院へ紹介されました。<br><br>診察の結果「子宮に小さい出来物が出来ているから取って調べて見なければ分らない。<br><br>暫く通う様に」と言われ、それからというものは、毎日不安な気持で通いました。<br><br> 五月十五日出来物を取って貰い「子宮癌」と聞かされた時は、谷底へ突落されて行く様でした。<br><br>医師は手後れしないうちに手術をと勧められますので、医学を信じ、よくなりたい一心から手術をしました。<br><br>手術は順調よく五日目に糸を取って貰い喜んでおりましたが、一週間経過し十日経過しても、尿道より管を差し込んで貰わなければ、尿が出ません。<br><br>医師は、「手術後尿が出にくくなるが、出来るだけ自分の力で出す様に」と申されますので、色々と気分を変えたり、神様に念じ毎日毎日泣く様にして出す様努めましたが、一滴の尿も出ません。<br><br>手術して十八日夜半、尿の様なものが下ります。<br><br>もしや膀胱を傷め、そこから尿がもれているのではないかと驚き医師に様子を話しますと「別に心配する事はない」と言われるだけですが、段々酷くなる一方で、尿道へ管を差込んで貰っても一滴の尿も出なくなってしまいました。<br><br> 助かりたい一心から手術をしたのに、反って動きの出来ない身体になってしまって、余りの情無さに、手術の時、いっそ知らぬ間に死んでしまった方が良かったと思った位でした。<br><br> 手術後一カ月の時医師は退院してもよいと言われましたが、どうして、こんな身で退院出来ましょう。<br><br>その魅入院致しておりましたが一向よくなりませんので、手術して五十日目退院致しました。<br><br>退院後は、肉体的精神的に苦しみは増すばかりでした。<br><br> ある日、知人に勧められて町の医師に診察を受けましたところ「医者の失敗です。<br><br>膀胱に二カ所傷穴があります。<br><br>お気の毒ですが仕方ありません。<br><br>出来るだけ好きな物を食べ、好きな事をして自分の身体の事は忘れるように」と言われます。<br><br>最後の一厘に希望をかけていた私は、あふれる涙を拭いもやらず、どうして帰宅したのか分りませんでした。<br><br>医師の無責任に憤りを感じましたが後の祭りの事とて如何様ともし難く、毎日毎日が地獄の様な明け暮れでございました。<br><br>八月初め義妹が「神様にお縋りしては」と申しますので半信半疑の中にお願いし、信者の方より松下先生を紹介して戴きました。<br><br>御浄霊を戴くうち今までにない身も心も軽くなって行く様です。<br><br>先生に有難いお道のお話を承り、ただただ救われたい一心から八月十六日妹達に手を引かれ教会に参拝させて頂き、高垣先生より教修を頂き入信させて頂きました。<br><br> それからは薬注射一切止めて、妹に連れられ教会へ参拝させて頂くのが楽しみとなり、家では日に二回、三回と御浄霊を頂きました。<br><br>お蔭で入信後軽い御浄化を度々頂き、食事も美味しく、少しずつ身体も楽にならせて戴きましたが依然として膀胱の傷は治りません。<br><br>医師に見放された身体をこれ程元気にさせて頂き、有難いと思いながらも、せめて今一度昔の様な身体になりたいと、自分の罪をお詫びして、一生懸命お念じ申しました。<br><br>「ただ一心にお縋りなさい。<br><br>必ず神様は御救い下さいます」とおっしゃって下さる先生のお言葉を頼りとし一心にお縋り申しました。<br><br>十一月二十二日午前三時頃より右の横腹から腰にかけてひどい痛みです。<br><br>妹に浄霊を頂いておりましたが、段々激しくなり、寝ても起きてもいられず、夜の明けるのを待って先生に来て頂きました。<br><br>早速御浄霊を頂き、一時間程で痛みを取って頂きました。<br><br> 二十三日三時ちょうど前日御浄化を頂いた同じ時間にふと目を覚ましますと、尿の漏れがいつもより少く御不浄へ行きたくなりますので行きますと尿道より尿が出ます。<br><br>余りの嬉しさに夢ではないかと思い、一時間程たって又行きました。<br><br>膀胱からも漏れますが、やはり尿道から出ます。<br><br>余りの嬉しさに思わず明主様、大光明如来様（御神体）有難うございますと嬉し泣きに泣いてしまいました。<br><br> この時の嬉しさをお察し下さいませ。<br><br>半年ぶりに尿道より尿が出るようになったのです。<br><br>天にも昇る思い、到底拙ない私の筆では書き表わす事は出来ません。<br><br>それからは嬉しさに寝られず夜明を待って高垣先生宅へお電話で御守護頂いた事をお知らせ致しました。<br><br>高垣先生、松下先生は御自分の事の様に喜んで下さいました。<br><br> 主人より妹と二人で御面会を頂く事を許してくれました。<br><br>しかしその喜びの後に今まで一心に御面会を頂きさえすればと思い、他の事は忘れ勝ちになっておりました私が、夢から醒めた様に未だ私は尿が半分漏っている事に気が付いたのでございます。<br><br>しかも三月十八日春季大祭は真近に迫っております。<br><br>教会の先生方は「御心配いりません。<br><br>神様は宜しくして下さいます」と。<br><br>しかし人事ではありません。<br><br>又も私は「明主様どうぞ御守護下さいませ」と一生懸命念ずるのみでした。<br><br>ところが又々私は大御守護を頂いたのです。<br><br> ああ明主様有難うございます。<br><br>それは三月十五日朝より今度は何事もない様に完全に尿道より尿を出して頂く事が出来るようになりました。<br><br>しかも御面会三日前日であります。<br><br> このようにして待望の十八日、初めて思いが叶い、明主様に御面会させて頂きました私の嬉しさは、どう御報告させて頂いてよいのか全く感慨無量でございました。<br><br> 三月十九日無事御参詣を済まして下さった御礼参りに教会へ参拝し、その帰途、警察病院へ紹介して下さった医師の奥さんに偶然出遇い問われるままに有難い光明如来様のお蔭で救われた事を話しますと、不思議そうに「手術の所がですか？」「本当に良くなられたのですか」と言われ、手術の時医師の失敗で膀胱にも傷つけられ、尿道も切られ、医師達も助かる可能性はないと言われていた事を聞きました。<br><br>今更ながら驚き、二の句が出ませんでした。<br><br> この時以後今日まで七回コーヒーの様な吐き物を出しましたが、その大浄化の都度神様は私を幸福にして下さる為だと喜んですごさせて頂いております。<br><br> 明主様に霊体共に救って頂き、真の幸福者にさせて頂き、人様まで御助けさせて頂いてただただ有難さ勿体なさに感激の涙に浸るのみでございます。<br><br> 明主様有難うございました。<br><br> （昭和二十七年五月二十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salva pelo Johrei de uma grande cirurgia de câncer de útero malsucedida</h2>
 <p><strong>Revista Eikou, nº 169, publicada em 13 de agosto de 1952</strong>
@@ -113,5 +268,48 @@ function toggleLang(lang) {
 <p>Por ter me salvado de corpo e espírito, me tornado uma pessoa verdadeiramente feliz e ainda me concedido a permissão de auxiliar o próximo, só posso imergir em lágrimas de gratidão e reverência.</p>
 <p>Meishu-Sama, muito obrigada.</p>
 <p>(27 de maio de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 医師の失敗せる子宮癌の大手術 御浄霊にて救わる 『栄光』169号、昭和27(1952)年8月13日発行 大阪府 春光中教会 渡辺ミツエ（40） 私昭和二十五年二月頃より下腹が脹るようで気持悪く思っておりましたが、大した事もないのでそのままにしておりましたところ、三月末頃より茶色がかったものが下り出しました。<br/><br/>日の経過するに従い段々下り物が多量になり、食欲不振、衰弱して行く様にありますので、近所の医師に診て貰いましたが、はっきりした事は分らず、警察病院へ紹介されました。<br/><br/>診察の結果「子宮に小さい出来物が出来ているから取って調べて見なければ分らない。<br/><br/>暫く通う様に」と言われ、それからというものは、毎日不安な気持で通いました。<br/><br/> 五月十五日出来物を取って貰い「子宮癌」と聞かされた時は、谷底へ突落されて行く様でした。<br/><br/>医師は手後れしないうちに手術をと勧められますので、医学を信じ、よくなりたい一心から手術をしました。<br/><br/>手術は順調よく五日目に糸を取って貰い喜んでおりましたが、一週間経過し十日経過しても、尿道より管を差し込んで貰わなければ、尿が出ません。<br/><br/>医師は、「手術後尿が出にくくなるが、出来るだけ自分の力で出す様に」と申されますので、色々と気分を変えたり、神様に念じ毎日毎日泣く様にして出す様努めましたが、一滴の尿も出ません。<br/><br/>手術して十八日夜半、尿の様なものが下ります。<br/><br/>もしや膀胱を傷め、そこから尿がもれているのではないかと驚き医師に様子を話しますと「別に心配する事はない」と言われるだけですが、段々酷くなる一方で、尿道へ管を差込んで貰っても一滴の尿も出なくなってしまいました。<br/><br/> 助かりたい一心から手術をしたのに、反って動きの出来ない身体になってしまって、余りの情無さに、手術の時、いっそ知らぬ間に死んでしまった方が良かったと思った位でした。<br/><br/> 手術後一カ月の時医師は退院してもよいと言われましたが、どうして、こんな身で退院出来ましょう。<br/><br/>その魅入院致しておりましたが一向よくなりませんので、手術して五十日目退院致しました。<br/><br/>退院後は、肉体的精神的に苦しみは増すばかりでした。<br/><br/> ある日、知人に勧められて町の医師に診察を受けましたところ「医者の失敗です。<br/><br/>膀胱に二カ所傷穴があります。<br/><br/>お気の毒ですが仕方ありません。<br/><br/>出来るだけ好きな物を食べ、好きな事をして自分の身体の事は忘れるように」と言われます。<br/><br/>最後の一厘に希望をかけていた私は、あふれる涙を拭いもやらず、どうして帰宅したのか分りませんでした。<br/><br/>医師の無責任に憤りを感じましたが後の祭りの事とて如何様ともし難く、毎日毎日が地獄の様な明け暮れでございました。<br/><br/>八月初め義妹が「神様にお縋りしては」と申しますので半信半疑の中にお願いし、信者の方より松下先生を紹介して戴きました。<br/><br/>御浄霊を戴くうち今までにない身も心も軽くなって行く様です。<br/><br/>先生に有難いお道のお話を承り、ただただ救われたい一心から八月十六日妹達に手を引かれ教会に参拝させて頂き、高垣先生より教修を頂き入信させて頂きました。<br/><br/> それからは薬注射一切止めて、妹に連れられ教会へ参拝させて頂くのが楽しみとなり、家では日に二回、三回と御浄霊を頂きました。<br/><br/>お蔭で入信後軽い御浄化を度々頂き、食事も美味しく、少しずつ身体も楽にならせて戴きましたが依然として膀胱の傷は治りません。<br/><br/>医師に見放された身体をこれ程元気にさせて頂き、有難いと思いながらも、せめて今一度昔の様な身体になりたいと、自分の罪をお詫びして、一生懸命お念じ申しました。<br/><br/>「ただ一心にお縋りなさい。<br/><br/>必ず神様は御救い下さいます」とおっしゃって下さる先生のお言葉を頼りとし一心にお縋り申しました。<br/><br/>十一月二十二日午前三時頃より右の横腹から腰にかけてひどい痛みです。<br/><br/>妹に浄霊を頂いておりましたが、段々激しくなり、寝ても起きてもいられず、夜の明けるのを待って先生に来て頂きました。<br/><br/>早速御浄霊を頂き、一時間程で痛みを取って頂きました。<br/><br/> 二十三日三時ちょうど前日御浄化を頂いた同じ時間にふと目を覚ましますと、尿の漏れがいつもより少く御不浄へ行きたくなりますので行きますと尿道より尿が出ます。<br/><br/>余りの嬉しさに夢ではないかと思い、一時間程たって又行きました。<br/><br/>膀胱からも漏れますが、やはり尿道から出ます。<br/><br/>余りの嬉しさに思わず明主様、大光明如来様（御神体）有難うございますと嬉し泣きに泣いてしまいました。<br/><br/> この時の嬉しさをお察し下さいませ。<br/><br/>半年ぶりに尿道より尿が出るようになったのです。<br/><br/>天にも昇る思い、到底拙ない私の筆では書き表わす事は出来ません。<br/><br/>それからは嬉しさに寝られず夜明を待って高垣先生宅へお電話で御守護頂いた事をお知らせ致しました。<br/><br/>高垣先生、松下先生は御自分の事の様に喜んで下さいました。<br/><br/> 主人より妹と二人で御面会を頂く事を許してくれました。<br/><br/>しかしその喜びの後に今まで一心に御面会を頂きさえすればと思い、他の事は忘れ勝ちになっておりました私が、夢から醒めた様に未だ私は尿が半分漏っている事に気が付いたのでございます。<br/><br/>しかも三月十八日春季大祭は真近に迫っております。<br/><br/>教会の先生方は「御心配いりません。<br/><br/>神様は宜しくして下さいます」と。<br/><br/>しかし人事ではありません。<br/><br/>又も私は「明主様どうぞ御守護下さいませ」と一生懸命念ずるのみでした。<br/><br/>ところが又々私は大御守護を頂いたのです。<br/><br/> ああ明主様有難うございます。<br/><br/>それは三月十五日朝より今度は何事もない様に完全に尿道より尿を出して頂く事が出来るようになりました。<br/><br/>しかも御面会三日前日であります。<br/><br/> このようにして待望の十八日、初めて思いが叶い、明主様に御面会させて頂きました私の嬉しさは、どう御報告させて頂いてよいのか全く感慨無量でございました。<br/><br/> 三月十九日無事御参詣を済まして下さった御礼参りに教会へ参拝し、その帰途、警察病院へ紹介して下さった医師の奥さんに偶然出遇い問われるままに有難い光明如来様のお蔭で救われた事を話しますと、不思議そうに「手術の所がですか？」「本当に良くなられたのですか」と言われ、手術の時医師の失敗で膀胱にも傷つけられ、尿道も切られ、医師達も助かる可能性はないと言われていた事を聞きました。<br/><br/>今更ながら驚き、二の句が出ませんでした。<br/><br/> この時以後今日まで七回コーヒーの様な吐き物を出しましたが、その大浄化の都度神様は私を幸福にして下さる為だと喜んですごさせて頂いております。<br/><br/> 明主様に霊体共に救って頂き、真の幸福者にさせて頂き、人様まで御助けさせて頂いてただただ有難さ勿体なさに感激の涙に浸るのみでございます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十七年五月二十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reika061</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界篇 ４ 061-080 顕幽関連１ 061 生死の真義、（霊の死） 現界で死ぬ事は霊界に生れる事になりますが、現界に生まれる事は霊界ではどういう風になりますので御座いましょうか。<br><br> 霊界で死ぬ事になる。<br><br>現界へ生れる。<br><br>人間は本来霊界が本元で、現界は一時的仕事をするために生れる。<br><br>霊界を本位にしなくてはならぬ。<br><br>それで往生などという語がある。<br><br>現界に生まれれば再生である。<br><br>（S23.10.19） 生と死は霊界現界を往来する事。<br><br>霊に生死はない。<br><br>いくら苦しくても霊は死ぬ事が出来ない。<br><br>（S23. 5） 062 死を嫌う 現在は一般に人間の死を気持の悪い嫌な事だという風に考えておりますが、昼の世界においては死に対する考え方ももっと気楽な自然なものに変わりはしないでしょうか。<br><br> ミロクの御世になっているから死ぬのはイヤだ――。<br><br>ただ、霊界を知っているから、今のような事はない。<br><br>（S25. 5.23） 063 再生の時の霊界関係――祖霊の感情 仏壇の霊は朝晩顔を合わせて談合しているものでしょうか。<br><br>また、家族の一人が帰幽する時親類縁者が集まって悲しむと同様に、仏壇の誰かが現世に転生する際、霊界の家族は悲哀を感ずるものでしょうか。<br><br> 霊界では悲哀を感ずる事はない。<br><br>信仰や想念や地位が違うと誰が生れ替るか分らぬ。<br><br>一つの団体ならすぐ分る。<br><br>誰が生れ替るか判る。<br><br>祝う位である。<br><br>（S24. 6. 3） 064 霊界で見る出生 現界に生まれる事は霊界ではどんな状態になるもので御座居ましょうか。<br><br> 霊界で亡くなる。<br><br>本人がいなくなる。<br><br>霊界での生活がなくなるのである。<br><br>（S24. 7. 2） 065 臨終に約せる言葉と霊への義務、（言葉と想念による霊の満足） 先般御伺い申し上げました――、「自分の横に誰か寝ていると、自分は咳がしたくないのに彼が咳をすると自分も咳をする云々……」と申しておりました松下景春（二十五歳）は五月三十日死去致しました。<br><br>その息を引取る際種々な事を申しました。<br><br> 一、最も苦しそうに見えた日、息を長く吐きますと、笑いながら「昨日は大変楽な日であった。<br><br>今日もこれから大分歩かねばならぬ」と楽しそうに申しました。<br><br> 二、我が家の啖も吐かねばならぬから後もう四度吐かねばならぬ。<br><br>これが出ると全部塵を大神様に奉ることになる。<br><br> 三、先祖の位牌を祭ることをやかましく請求し、最初の一人が移るからと申し、御祭りをする頃には二人移ると云い、式が終って一時間後笑って亡くなりました。<br><br> 四、当日朝から、水がなくなったから飲んじゃいけないと管長先生が言われたと言って、死ぬまで何にも飲みませんでした。<br><br>また、「渡（ワタシ）についたからどれを渡る」と何度も申します。<br><br>私は「霊界は肉体のない世界だから自由無碍なる筈、どれでも渡りなさい」と申しますと、「私はわかっているが先生はどうする」と何度も聞きますので、私も返事に困り「霊の世界は自由だから貴君の行くところへはどこでも一緒に行ってあげますよ」と云って善言讃詞を唱えてあげましたら「嬉しい嬉しい」と繰返しながら亡くなりました。<br><br>大本教の霊界の本に渡は天国行だと書いてありましたが本当でしょうか。<br><br>また、一緒に行ってあげると言った私は今後どういう気持で霊を慰めてやれば宜しいでしょうか。<br><br> 大した事ではない。<br><br>一緒に行って上げるといっても気にかける要はない。<br><br>その言葉で、その想念で行ってやった事になり、霊は満足する。<br><br>（S24. 6.18） 066 霊の生殖作用 霊の生殖作用につきある霊に聞きましたが、それによりますと男の霊は左の手を女の霊の右肩にかけ、女の霊は右の手を男の左肩へ懸けると申しますが、右は正しいでしょうか。<br><br> 霊界では生殖作用でない。<br><br>行なわれないから退化する。<br><br>肩に手をかけたり、額と額を合わしたりするのは嘘ではない。<br><br>両方の想念で宿る。<br><br>（聖霊に感ずるなど嘘だが、霊界では合う――そうである）（S24.10.19） 067 霊界で生れた霊 霊界で生れた霊は霊界のどこで生活致しているでしょうか。<br><br>御伺い申し上げます。<br><br> 霊界で生れたのはすぐに誰かの身体に宿る。<br><br>霊界で生れて、そのままいる事はない。<br><br> （S24. 9. 5） 068 新生霊 霊には新生と再生とがある由、信仰雑話で御伺い致しますが、新生とはいかなる場合を申しますでしょうか。<br><br>御教え下さい。<br><br> 霊界において一種の生殖作用があり、人間の霊子が生れる。<br><br>新生霊は働きが鈍い。<br><br>古い程頭がいい。<br><br>利口である。<br><br>（S24. 2.26） 069 胎児の霊界称 現界で胎児という事を霊界では何と呼称するものでしょうか。<br><br> 霊界からいってもやはり胎児である。<br><br>（S24.11.19） 070 生死ある理由、（転生と罪の関係） 人間生死のある理由をお教え下さい。<br><br> 人間のみでなく一切に生死がある。<br><br>この生死がなくては困るんで――、生れる人がある。<br><br> 石なども死石というのがあって、死石はボロボロ欠ける。<br><br>石にも霊の憑依している事があって、龍神なども石へ憑く場合がある。<br><br>水の傍の石とか、浅い水の石に憑く事がある。<br><br> 人間の身体も使っているうちに古くなると朽ちて、使い途にならぬようになると、霊が抜けて霊界へ行くのである。<br><br>そして、現界でいろいろの事をやって霊が汚れ切ってしまう。<br><br>これを罪穢という。<br><br> それを洗うのだが、ある程度洗うとまた生まれ更る。<br><br>生きているうち簡単でない。<br><br>深い罪がある。<br><br>これは執着であって、この執着が強いと蛇になる。<br><br>人を騙したのは狐になる。<br><br>かくのごとく獣のような行ないをすると獣になる。<br><br>慈悲も情もない。<br><br>獣のような事をすると獣になって再生するのである。<br><br> 女で嘘ついたり女郎を長くやったものは狐になる。<br><br>二号や三号になり、ブラブラしてうまい物食ってるものは猫になる。<br><br>これは猫と同じ行為である。<br><br>忠実な人間は馬になる。<br><br>探偵やスパイ等は犬になる。<br><br> 一旦四足となり、人間に生れたのは転生という。<br><br>再生は人間が人間に生れ代ったものである。<br><br> 霊の入っている間は人間である。<br><br>ヒトは霊止（ヒト）である。<br><br>体はカラ、霊のカラ、力という字はチカラ、チは霊である。<br><br>霊体密着して力が生れるのである。<br><br>霊体結ぶと力が出る。<br><br> 071 霊の浄化と再生、（再生の自由） 死後、その霊が現界に執着が強い場合、現界に再生する事もあるように伺っておりますが、このような場合、幽世大御神の御意志はどのようになっておりますので御座いましょうか。<br><br> 霊は勝手に再生する事が出来るから、浄化が完全に行なはれない中に生れて来る。<br><br>勿論ある期間は出来ない。<br><br>不具者などは、生に対する執着が強いため、完全に浄化が行なわれない中に生れてくるためである。<br><br> 現界で汚れて、霊界で洗濯するようなもので、長くいればいる程きれいになる。<br><br> （S23.11.24） 072 現界の記憶持つか 霊界人は現界時代の記憶を持っているでしょうか。<br><br> 現界の記憶を持っている人と持っていない人と両方ある。<br><br>死ぬ時に普通に死ぬのは持っている。<br><br>非常に娑婆や、娑婆の人間に執着を持っているのが多い。<br><br>（夫婦相和した人は執着がある）死ぬ状態が非常に衝撃のあった場合、例えば爆弾で死ぬような場合、霊は粉微塵になる。<br><br>そしてやがて人間の形になるが、その衝撃で記憶を消失する。<br><br>これが一番変化する。<br><br>半分位消失するのやあるいは少し消失する等種々ある。<br><br>爆弾等で死んだのは当分痴呆症のようになる。<br><br>（S23.10.13） 073 現世の記憶 前世の記憶は、再生した場合、生れる時に喪失するとの御教えを頂いておりますが、霊界に行った場合、現世の記憶は全部覚えておるもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 霊界に行った時、現世の記憶は相当ある。<br><br>非常な苦痛とか急死（爆死等）などの場合、記憶を喪失する。<br><br>また、霊界を信じなかった場合もやはり記憶喪失というよりは痴呆症のようになる。<br><br>苦痛でなく死んだ霊は現界の事を大抵知っているし、執着の強い霊は、現界以上に非常に記憶している。<br><br>全然忘れっきりにならぬが、段々時が経つにつれ、執着も記憶も薄れるが、生れ更ると全然忘れる。<br><br> （再生の時霊界の事は判らぬ。<br><br>運命も運勢も判らぬ方がよい。<br><br>予言も漠然とした予言ならよい）（S24. 6.21） 074 現世苦楽の記憶 霊が霊界へ行った場合、現世の苦楽等は記憶しているものでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 記憶している。<br><br>忘れた方がよい。<br><br>であるから、一生懸命忘れようと努めるものである。<br><br> （S24. 5.23） 075 霊界の自己意識 霊界に入り生存中の自己意識はあるものでしょうか。<br><br> 自己意識はある。<br><br>あり過ぎて困る事がある。<br><br>（執着であるから）生存中の意識は抜けた方がよい。<br><br>（向上するに従い生存中の意識はなくなる）（S23.10.17） 076 病死霊の天国へ行く場合 「天国の福音」の中に、肺病で死んだ娘が天国から天人になって現界の兄に禁酒をすすめた事が書かれてございますが、 一、病死した霊が天人になる事があるのでございましょうか。<br><br> 二、これは大先生様が祀って下さったからで、我々が浄霊してなくなった人には絶対にそういう事はないのでございましょうか。<br><br> 三、もしあるとすれば、どういう場合でございましょうか。<br><br> 右、御教示御願い申し上げます。<br><br> 肺病で死んだ娘で――病死した霊でも、子供の霊とか処女の霊は天人になり易い。<br><br>罪が少ない。<br><br>特に大先生がお祀りになったのは天国ですぐ救われる。<br><br>普通の人ではそういかぬ。<br><br> 既成宗教で祀った霊より教団の人が祀った方が早い。<br><br>霊になった病気は非常に治り易い。<br><br>浄霊した霊の病気は特に早い。<br><br>軽い罪は八衢で改心すれば消える。<br><br>（S23.10.18） rattail（注） 〔 御光話（S23年10月18日） 『御光話録（補）』発行年月日不明〕 ――『天国の福音』中に肺病で死んだ娘の霊が天人になって兄に忠告に来たと拝見いたしますが、病死した霊も天人になれましょうか。<br><br>またこれは大先生がお祀りくださったためでしょうか。<br><br> 『病死した霊でも子供や処女は非常に天人になりやすい、汚れが少ないから。<br><br>特に私が祀ったのは天国ですぐに救われる。<br><br>ふつうの人ではそうは行かないが、しかしこの道の信者が祀ってやれば、ほかの宗教の人が祀るよりずっと早く救われます。<br><br>また病死しても霊界ではずっと治りやすい。<br><br>』 〔 霊界の構成 『天国の福音』昭和22(1947)年2月5日発行〕 このほか、『明日の医術』、『霊界叢談』にも収録 077 曇りと死後の浄化 大浄化に依るも浄化し切れず、曇りを持って霊界に入った霊はいかにして浄化されますか。<br><br> 霊界で続いて浄化される。<br><br>ゆっくりされればいいが、死んでも「激しく続く」（？）――。<br><br> 信仰へ入ると全然違う。<br><br>ズーッと早くなる。<br><br>世の中で罪穢を犯したものは、どんな偉い人でも、霊界へ行けば地獄へ行くし浄化される。<br><br> 078 赤痢で他界の霊状態 赤痢で他界致しました者は霊界でもやはり赤痢状態が永続致しますもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> ある時期まで永続するが、赤痢などはじきに治る。<br><br>霊界では薬で止めないから（一ケ月も経てば）治る。<br><br>（S24. 8.12） 079 病死でも天国へ行けた娘 「天国の福音」の中に、肺病で死んだ娘が死後天国に上り、天人になって現界へ来降し、兄に禁酒を奨めた実例の事が御座いますが、若くして死んだこの霊が天国に上ったのはどういう訳で御座いましょうか。<br><br> 大先生が御手をお掛けになったからである。<br><br>（S23） 080 死者が家族の病気持って行く 神経痛及び胃病等の病人が、身内の年寄りに、病気を持って行ってくれと御願い致して置きますと、その年寄の死後癒ると申しますが、何か霊的に理由がありましょうか。<br><br> これはあり得る訳である。<br><br>但し、年寄りが、代って罪を持って行ってやろうという想念がなくてはダメである。<br><br>薬毒など気づかず――。<br><br>（S24. 4. 2） rattail（注） 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行 神経痛、胃病などの病人が年寄りに向かって「私の病気を持って行ってくれ」と頼むと、その年寄りの死後病気が治ると申しますが、これは霊的にいかなることになりましょうか。<br><br> 『こういうこともたまにはあるでしょうがね、だれでも彼でもってわけには行きませんよ。<br><br>年寄りが承知して、「かわいそうだから俺が持って行ってやろう」っていう想念がなくちゃあね。<br><br>しかしそれでも、そのいくぶんかを担当するくらいのところでしょう。<br><br>それに薬毒なんかが入ってればこんなわけには行かないでしょう。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Verdadeiro Significado da Vida e da Morte (A Morte do Espírito)</h2>
 <p><strong>061</strong> Morrer no Mundo Físico significa nascer no Mundo Espiritual. Contudo, o que representa o nascimento no Mundo Físico sob a perspectiva do Mundo Espiritual?</p>
@@ -168,5 +320,48 @@ function toggleLang(lang) {
 <h2>A Crença de que os Falecidos Levam as Doenças dos Familiares</h2>
 <p><strong>080</strong> Diz-se que, se uma pessoa que sofre de nevralgia, problemas de estômago ou outras doenças pedir a um parente idoso que leve sua enfermidade consigo, ela se cura após a morte desse parente. Existe alguma razão espiritual para isso?</p>
 <p>Isso é, de fato, possível. Contudo, é fundamental que o idoso tenha o pensamento de assumir o sofrimento em seu lugar. Se ele não estiver ciente, por exemplo, das toxinas medicamentosas envolvidas, o efeito não se concretizará. (2 de abril de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界篇 ４ 061-080 顕幽関連１ 061 生死の真義、（霊の死） 現界で死ぬ事は霊界に生れる事になりますが、現界に生まれる事は霊界ではどういう風になりますので御座いましょうか。<br/><br/> 霊界で死ぬ事になる。<br/><br/>現界へ生れる。<br/><br/>人間は本来霊界が本元で、現界は一時的仕事をするために生れる。<br/><br/>霊界を本位にしなくてはならぬ。<br/><br/>それで往生などという語がある。<br/><br/>現界に生まれれば再生である。<br/><br/>（S23.10.19） 生と死は霊界現界を往来する事。<br/><br/>霊に生死はない。<br/><br/>いくら苦しくても霊は死ぬ事が出来ない。<br/><br/>（S23. 5） 062 死を嫌う 現在は一般に人間の死を気持の悪い嫌な事だという風に考えておりますが、昼の世界においては死に対する考え方ももっと気楽な自然なものに変わりはしないでしょうか。<br/><br/> ミロクの御世になっているから死ぬのはイヤだ――。<br/><br/>ただ、霊界を知っているから、今のような事はない。<br/><br/>（S25. 5.23） 063 再生の時の霊界関係――祖霊の感情 仏壇の霊は朝晩顔を合わせて談合しているものでしょうか。<br/><br/>また、家族の一人が帰幽する時親類縁者が集まって悲しむと同様に、仏壇の誰かが現世に転生する際、霊界の家族は悲哀を感ずるものでしょうか。<br/><br/> 霊界では悲哀を感ずる事はない。<br/><br/>信仰や想念や地位が違うと誰が生れ替るか分らぬ。<br/><br/>一つの団体ならすぐ分る。<br/><br/>誰が生れ替るか判る。<br/><br/>祝う位である。<br/><br/>（S24. 6. 3） 064 霊界で見る出生 現界に生まれる事は霊界ではどんな状態になるもので御座居ましょうか。<br/><br/> 霊界で亡くなる。<br/><br/>本人がいなくなる。<br/><br/>霊界での生活がなくなるのである。<br/><br/>（S24. 7. 2） 065 臨終に約せる言葉と霊への義務、（言葉と想念による霊の満足） 先般御伺い申し上げました――、「自分の横に誰か寝ていると、自分は咳がしたくないのに彼が咳をすると自分も咳をする云々……」と申しておりました松下景春（二十五歳）は五月三十日死去致しました。<br/><br/>その息を引取る際種々な事を申しました。<br/><br/> 一、最も苦しそうに見えた日、息を長く吐きますと、笑いながら「昨日は大変楽な日であった。<br/><br/>今日もこれから大分歩かねばならぬ」と楽しそうに申しました。<br/><br/> 二、我が家の啖も吐かねばならぬから後もう四度吐かねばならぬ。<br/><br/>これが出ると全部塵を大神様に奉ることになる。<br/><br/> 三、先祖の位牌を祭ることをやかましく請求し、最初の一人が移るからと申し、御祭りをする頃には二人移ると云い、式が終って一時間後笑って亡くなりました。<br/><br/> 四、当日朝から、水がなくなったから飲んじゃいけないと管長先生が言われたと言って、死ぬまで何にも飲みませんでした。<br/><br/>また、「渡（ワタシ）についたからどれを渡る」と何度も申します。<br/><br/>私は「霊界は肉体のない世界だから自由無碍なる筈、どれでも渡りなさい」と申しますと、「私はわかっているが先生はどうする」と何度も聞きますので、私も返事に困り「霊の世界は自由だから貴君の行くところへはどこでも一緒に行ってあげますよ」と云って善言讃詞を唱えてあげましたら「嬉しい嬉しい」と繰返しながら亡くなりました。<br/><br/>大本教の霊界の本に渡は天国行だと書いてありましたが本当でしょうか。<br/><br/>また、一緒に行ってあげると言った私は今後どういう気持で霊を慰めてやれば宜しいでしょうか。<br/><br/> 大した事ではない。<br/><br/>一緒に行って上げるといっても気にかける要はない。<br/><br/>その言葉で、その想念で行ってやった事になり、霊は満足する。<br/><br/>（S24. 6.18） 066 霊の生殖作用 霊の生殖作用につきある霊に聞きましたが、それによりますと男の霊は左の手を女の霊の右肩にかけ、女の霊は右の手を男の左肩へ懸けると申しますが、右は正しいでしょうか。<br/><br/> 霊界では生殖作用でない。<br/><br/>行なわれないから退化する。<br/><br/>肩に手をかけたり、額と額を合わしたりするのは嘘ではない。<br/><br/>両方の想念で宿る。<br/><br/>（聖霊に感ずるなど嘘だが、霊界では合う――そうである）（S24.10.19） 067 霊界で生れた霊 霊界で生れた霊は霊界のどこで生活致しているでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊界で生れたのはすぐに誰かの身体に宿る。<br/><br/>霊界で生れて、そのままいる事はない。<br/><br/> （S24. 9. 5） 068 新生霊 霊には新生と再生とがある由、信仰雑話で御伺い致しますが、新生とはいかなる場合を申しますでしょうか。<br/><br/>御教え下さい。<br/><br/> 霊界において一種の生殖作用があり、人間の霊子が生れる。<br/><br/>新生霊は働きが鈍い。<br/><br/>古い程頭がいい。<br/><br/>利口である。<br/><br/>（S24. 2.26） 069 胎児の霊界称 現界で胎児という事を霊界では何と呼称するものでしょうか。<br/><br/> 霊界からいってもやはり胎児である。<br/><br/>（S24.11.19） 070 生死ある理由、（転生と罪の関係） 人間生死のある理由をお教え下さい。<br/><br/> 人間のみでなく一切に生死がある。<br/><br/>この生死がなくては困るんで――、生れる人がある。<br/><br/> 石なども死石というのがあって、死石はボロボロ欠ける。<br/><br/>石にも霊の憑依している事があって、龍神なども石へ憑く場合がある。<br/><br/>水の傍の石とか、浅い水の石に憑く事がある。<br/><br/> 人間の身体も使っているうちに古くなると朽ちて、使い途にならぬようになると、霊が抜けて霊界へ行くのである。<br/><br/>そして、現界でいろいろの事をやって霊が汚れ切ってしまう。<br/><br/>これを罪穢という。<br/><br/> それを洗うのだが、ある程度洗うとまた生まれ更る。<br/><br/>生きているうち簡単でない。<br/><br/>深い罪がある。<br/><br/>これは執着であって、この執着が強いと蛇になる。<br/><br/>人を騙したのは狐になる。<br/><br/>かくのごとく獣のような行ないをすると獣になる。<br/><br/>慈悲も情もない。<br/><br/>獣のような事をすると獣になって再生するのである。<br/><br/> 女で嘘ついたり女郎を長くやったものは狐になる。<br/><br/>二号や三号になり、ブラブラしてうまい物食ってるものは猫になる。<br/><br/>これは猫と同じ行為である。<br/><br/>忠実な人間は馬になる。<br/><br/>探偵やスパイ等は犬になる。<br/><br/> 一旦四足となり、人間に生れたのは転生という。<br/><br/>再生は人間が人間に生れ代ったものである。<br/><br/> 霊の入っている間は人間である。<br/><br/>ヒトは霊止（ヒト）である。<br/><br/>体はカラ、霊のカラ、力という字はチカラ、チは霊である。<br/><br/>霊体密着して力が生れるのである。<br/><br/>霊体結ぶと力が出る。<br/><br/> 071 霊の浄化と再生、（再生の自由） 死後、その霊が現界に執着が強い場合、現界に再生する事もあるように伺っておりますが、このような場合、幽世大御神の御意志はどのようになっておりますので御座いましょうか。<br/><br/> 霊は勝手に再生する事が出来るから、浄化が完全に行なはれない中に生れて来る。<br/><br/>勿論ある期間は出来ない。<br/><br/>不具者などは、生に対する執着が強いため、完全に浄化が行なわれない中に生れてくるためである。<br/><br/> 現界で汚れて、霊界で洗濯するようなもので、長くいればいる程きれいになる。<br/><br/> （S23.11.24） 072 現界の記憶持つか 霊界人は現界時代の記憶を持っているでしょうか。<br/><br/> 現界の記憶を持っている人と持っていない人と両方ある。<br/><br/>死ぬ時に普通に死ぬのは持っている。<br/><br/>非常に娑婆や、娑婆の人間に執着を持っているのが多い。<br/><br/>（夫婦相和した人は執着がある）死ぬ状態が非常に衝撃のあった場合、例えば爆弾で死ぬような場合、霊は粉微塵になる。<br/><br/>そしてやがて人間の形になるが、その衝撃で記憶を消失する。<br/><br/>これが一番変化する。<br/><br/>半分位消失するのやあるいは少し消失する等種々ある。<br/><br/>爆弾等で死んだのは当分痴呆症のようになる。<br/><br/>（S23.10.13） 073 現世の記憶 前世の記憶は、再生した場合、生れる時に喪失するとの御教えを頂いておりますが、霊界に行った場合、現世の記憶は全部覚えておるもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 霊界に行った時、現世の記憶は相当ある。<br/><br/>非常な苦痛とか急死（爆死等）などの場合、記憶を喪失する。<br/><br/>また、霊界を信じなかった場合もやはり記憶喪失というよりは痴呆症のようになる。<br/><br/>苦痛でなく死んだ霊は現界の事を大抵知っているし、執着の強い霊は、現界以上に非常に記憶している。<br/><br/>全然忘れっきりにならぬが、段々時が経つにつれ、執着も記憶も薄れるが、生れ更ると全然忘れる。<br/><br/> （再生の時霊界の事は判らぬ。<br/><br/>運命も運勢も判らぬ方がよい。<br/><br/>予言も漠然とした予言ならよい）（S24. 6.21） 074 現世苦楽の記憶 霊が霊界へ行った場合、現世の苦楽等は記憶しているものでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 記憶している。<br/><br/>忘れた方がよい。<br/><br/>であるから、一生懸命忘れようと努めるものである。<br/><br/> （S24. 5.23） 075 霊界の自己意識 霊界に入り生存中の自己意識はあるものでしょうか。<br/><br/> 自己意識はある。<br/><br/>あり過ぎて困る事がある。<br/><br/>（執着であるから）生存中の意識は抜けた方がよい。<br/><br/>（向上するに従い生存中の意識はなくなる）（S23.10.17） 076 病死霊の天国へ行く場合 「天国の福音」の中に、肺病で死んだ娘が天国から天人になって現界の兄に禁酒をすすめた事が書かれてございますが、 一、病死した霊が天人になる事があるのでございましょうか。<br/><br/> 二、これは大先生様が祀って下さったからで、我々が浄霊してなくなった人には絶対にそういう事はないのでございましょうか。<br/><br/> 三、もしあるとすれば、どういう場合でございましょうか。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 肺病で死んだ娘で――病死した霊でも、子供の霊とか処女の霊は天人になり易い。<br/><br/>罪が少ない。<br/><br/>特に大先生がお祀りになったのは天国ですぐ救われる。<br/><br/>普通の人ではそういかぬ。<br/><br/> 既成宗教で祀った霊より教団の人が祀った方が早い。<br/><br/>霊になった病気は非常に治り易い。<br/><br/>浄霊した霊の病気は特に早い。<br/><br/>軽い罪は八衢で改心すれば消える。<br/><br/>（S23.10.18） rattail（注） 〔 御光話（S23年10月18日） 『御光話録（補）』発行年月日不明〕 ――『天国の福音』中に肺病で死んだ娘の霊が天人になって兄に忠告に来たと拝見いたしますが、病死した霊も天人になれましょうか。<br/><br/>またこれは大先生がお祀りくださったためでしょうか。<br/><br/> 『病死した霊でも子供や処女は非常に天人になりやすい、汚れが少ないから。<br/><br/>特に私が祀ったのは天国ですぐに救われる。<br/><br/>ふつうの人ではそうは行かないが、しかしこの道の信者が祀ってやれば、ほかの宗教の人が祀るよりずっと早く救われます。<br/><br/>また病死しても霊界ではずっと治りやすい。<br/><br/>』 〔 霊界の構成 『天国の福音』昭和22(1947)年2月5日発行〕 このほか、『明日の医術』、『霊界叢談』にも収録 077 曇りと死後の浄化 大浄化に依るも浄化し切れず、曇りを持って霊界に入った霊はいかにして浄化されますか。<br/><br/> 霊界で続いて浄化される。<br/><br/>ゆっくりされればいいが、死んでも「激しく続く」（？）――。<br/><br/> 信仰へ入ると全然違う。<br/><br/>ズーッと早くなる。<br/><br/>世の中で罪穢を犯したものは、どんな偉い人でも、霊界へ行けば地獄へ行くし浄化される。<br/><br/> 078 赤痢で他界の霊状態 赤痢で他界致しました者は霊界でもやはり赤痢状態が永続致しますもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> ある時期まで永続するが、赤痢などはじきに治る。<br/><br/>霊界では薬で止めないから（一ケ月も経てば）治る。<br/><br/>（S24. 8.12） 079 病死でも天国へ行けた娘 「天国の福音」の中に、肺病で死んだ娘が死後天国に上り、天人になって現界へ来降し、兄に禁酒を奨めた実例の事が御座いますが、若くして死んだこの霊が天国に上ったのはどういう訳で御座いましょうか。<br/><br/> 大先生が御手をお掛けになったからである。<br/><br/>（S23） 080 死者が家族の病気持って行く 神経痛及び胃病等の病人が、身内の年寄りに、病気を持って行ってくれと御願い致して置きますと、その年寄の死後癒ると申しますが、何か霊的に理由がありましょうか。<br/><br/> これはあり得る訳である。<br/><br/>但し、年寄りが、代って罪を持って行ってやろうという想念がなくてはダメである。<br/><br/>薬毒など気づかず――。<br/><br/>（S24. 4. 2） rattail（注） 御光話（S24年7月特輯号） 『御光話録』9号、昭和24(1949)年7月30日発行 神経痛、胃病などの病人が年寄りに向かって「私の病気を持って行ってくれ」と頼むと、その年寄りの死後病気が治ると申しますが、これは霊的にいかなることになりましょうか。<br/><br/> 『こういうこともたまにはあるでしょうがね、だれでも彼でもってわけには行きませんよ。<br/><br/>年寄りが承知して、「かわいそうだから俺が持って行ってやろう」っていう想念がなくちゃあね。<br/><br/>しかしそれでも、そのいくぶんかを担当するくらいのところでしょう。<br/><br/>それに薬毒なんかが入ってればこんなわけには行かないでしょう。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

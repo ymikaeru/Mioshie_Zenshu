@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tensaiji</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天才児童はどうして出来るか 『救世』53号、昭和25(1950)年3月11日発行 先頃新聞を賑わした、六歳で素晴しい絵を描くという児童があったが、こういう豆児童はどうして生まれるかを書いてみるが、天才児童は昔からも時々現れるもので、西洋においても有名な音楽家等が六、七歳頃からピアノやヴァイオリンをよく弾いたり十歳を越してから大作曲を現すというような話もよく聞くのである、彼のシューベルトなども十何歳から三十一歳の死ぬまでの間に五百種以上の作曲をしたと言うのであるから、驚くべき天才であったに違いない、かような大天才の生まれるのは何か特別の原因がなくてはならないはずで、それをかいてみよう。<br><br> これはもちろん霊的であって、唯物科学では全然見当がつかないから致し方ないとしても、この原因を知る事も必要事であろう、その意味で吾らは霊科学から解説するのである、この原因については、例えば音楽大家の霊の再生と憑依とのこの二つと思えばいい。<br><br> 今年に大音楽家があるとする、死後霊界に行っても好きな音楽は忘れる事が出来ない、その強い執着のため速く再生する、これがその一つで、別な一つとしては再生するまで待ち切れないため、自分の系統の者を探し求めてその児童に憑るので、手指の動くのを待って六、七歳頃になれば憑るのである、何しろ大音楽家であるから驚くべき技能を発揮する訳である、ところが、この場合縁のない者へは憑る事が出来ないから、自分の霊統の者特に児童に憑る、それは成人者より幼時ほど憑依しやすいからで、また思い通り自由に駆使されるからでもある、考えてもみるがいい、六つや七つの子供が普通であったら、成人者のような技能は有るはずがないが、以上のような訳を知れば天才児童も神童も出来るのもあえて不思議はないのである、しかし天才児童のことごとくが大成するとは限らない、中にはある年齢まででその後は普通になる者も往々あるが、これら再生ではなく憑依霊の場合に限るのである、という事は再生の方は、その霊自体が人間であるから変りようがないが、憑依霊の方は神の使命や祖霊の思惑のため、ある時期までで許されたものであるからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem das Crianças-Prodígio</h2>
 <p>Recentemente, a imprensa noticiou o caso de uma criança de seis anos que realiza pinturas magníficas. Abordarei, neste artigo, a origem desses pequenos gênios, pois, com efeito, crianças-prodígio surgem esporadicamente desde a Antiguidade. No Ocidente, são bem conhecidos os relatos de músicos célebres que, por volta dos seis ou sete anos, já dominavam o piano ou o violino, e que, pouco depois dos dez, compunham grandes obras. Schubert, por exemplo, criou mais de quinhentas composições entre a adolescência e sua morte, aos trinta e um anos; é inegável que se tratava de um gênio assombroso. A manifestação de talentos tão extraordinários deve, necessariamente, possuir uma causa específica, a qual passarei a elucidar.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A segunda possibilidade, a do encosto, manifesta-se quando o espírito não consegue aguardar o tempo necessário para uma nova encarnação. Movido por essa impaciência, ele busca um descendente de sua linhagem espiritual e passa a atuar sobre a criança. Aguardando o momento em que as mãos do pequeno adquirem destreza suficiente, por volta dos seis ou sete anos, o espírito inicia sua influência, manifestando, através dele, a habilidade surpreendente que possuía em vida.</p>
 <p>É crucial compreender, entretanto, que tal encosto não ocorre aleatoriamente. O espírito só pode influenciar um membro de sua própria linhagem espiritual, dando preferência às crianças. A razão para tal escolha é dupla: os infantes são mais receptivos à influência espiritual do que os adultos e, ademais, podem ser conduzidos com maior liberdade e precisão. Basta refletir por um momento: seria impossível para uma criança de seis ou sete anos, em condições normais, possuir a técnica de um adulto. Portanto, ao se compreenderem esses mecanismos espirituais, a existência de crianças-prodígio e de meninos-gênios deixa de ser um mistério.</p>
 <p>Contudo, é preciso salientar que nem todas as crianças-prodígio alcançam o pleno desenvolvimento de seu talento na vida adulta. Não raro, algumas demonstram genialidade até certa idade e, posteriormente, tornam-se pessoas comuns. Esses casos restringem-se exclusivamente às situações de encosto espiritual, jamais ocorrendo com os espíritos reencarnados. A lógica é clara: no caso da reencarnação, o próprio espírito é a pessoa, de modo que sua essência não se altera. Já o espírito que atua por encosto tem sua permissão para tal condicionada a um período específico, seja para o cumprimento de uma missão Divina, seja para atender aos desígnios de seus antepassados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天才児童はどうして出来るか 『救世』53号、昭和25(1950)年3月11日発行 先頃新聞を賑わした、六歳で素晴しい絵を描くという児童があったが、こういう豆児童はどうして生まれるかを書いてみるが、天才児童は昔からも時々現れるもので、西洋においても有名な音楽家等が六、七歳頃からピアノやヴァイオリンをよく弾いたり十歳を越してから大作曲を現すというような話もよく聞くのである、彼のシューベルトなども十何歳から三十一歳の死ぬまでの間に五百種以上の作曲をしたと言うのであるから、驚くべき天才であったに違いない、かような大天才の生まれるのは何か特別の原因がなくてはならないはずで、それをかいてみよう。<br/><br/> これはもちろん霊的であって、唯物科学では全然見当がつかないから致し方ないとしても、この原因を知る事も必要事であろう、その意味で吾らは霊科学から解説するのである、この原因については、例えば音楽大家の霊の再生と憑依とのこの二つと思えばいい。<br/><br/> 今年に大音楽家があるとする、死後霊界に行っても好きな音楽は忘れる事が出来ない、その強い執着のため速く再生する、これがその一つで、別な一つとしては再生するまで待ち切れないため、自分の系統の者を探し求めてその児童に憑るので、手指の動くのを待って六、七歳頃になれば憑るのである、何しろ大音楽家であるから驚くべき技能を発揮する訳である、ところが、この場合縁のない者へは憑る事が出来ないから、自分の霊統の者特に児童に憑る、それは成人者より幼時ほど憑依しやすいからで、また思い通り自由に駆使されるからでもある、考えてもみるがいい、六つや七つの子供が普通であったら、成人者のような技能は有るはずがないが、以上のような訳を知れば天才児童も神童も出来るのもあえて不思議はないのである、しかし天才児童のことごとくが大成するとは限らない、中にはある年齢まででその後は普通になる者も往々あるが、これら再生ではなく憑依霊の場合に限るのである、という事は再生の方は、その霊自体が人間であるから変りようがないが、憑依霊の方は神の使命や祖霊の思惑のため、ある時期までで許されたものであるからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

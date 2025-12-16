@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sekai07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界的丁髷時代 『栄光』155号、昭和27(1952)年5月7日発行 現代人が近代文化の恩恵を蒙っており、あらゆる点において、生活上どのくらい安心と利便を得ているか分からない程である。<br><br>とはいうもののほとんど想像もつかないところに、大きな不安の原因が伏在している事に気が付かないのであるから、困ったものである。<br><br>万人がもしこの真相が分かったとしたら、一大驚愕と共に眼を覚まし、ここに真の文明が生まれ、人類は無限の幸福に浴する事となろう。<br><br>ではその不安とは何かというと、何よりも医学衛生に関する面であって、現在各国共結核をはじめ、各種伝染病その他の病気に悩まされている事実である。<br><br>それがため日常生活においても、ヤレ何の食物は栄養があり、ビタミンを含んでいるから食えとか、何は消化が悪いから胃をこわすとか、食過ぎは毒だとか、さほど食いたくもない物でも薬だから喰えとか、ヤレ鉄分を含んでるからいいなどと、その煩わしい事おびただしい。<br><br>何しろ盲目的に医学を信用し切っているのだからどうしようもないのである。<br><br>それが人民ばかりではなく、政府も同様であるから、常に奨励までしているという訳で、この有様を吾々からみればその馬鹿らしさに呆れるばかりである。<br><br> いつも言う通り、ビタミンの多い物を食えば、体内のビタミン生産機能は退化するし、栄養を余り摂れば逆作用によって身体は弱るし、消化のいい物やよく噛んで食うと胃の活動が鈍って胃病になる。<br><br>というように何から何まで反対の事を行っている。<br><br>そうかと思うと外出から帰ると、ヤレ手を洗え、うがいをしろなどと言うが、この面倒臭さも悩みの一つで、しかも何の意味もなさないで、反って神経質となり、健康を弱らすだけである。<br><br>また寒い思いをすると風邪を引くから用心しろとか、冷えると身体にさわるなどといわれて、常にビクビクものである。<br><br>もちろん吾々の唱える風邪は万病を免れる因で、人間第一の健康法などとの真理は夢にも思えないし、たまたまそれを言ってやっても、信ずる者はほとんどないくらいで、その他女性にしても腹や腰の周りに、何枚もの繊維品を捲きつけるので窮屈でもあり、不格好でもあり、動作の不便も並大抵ではないが、それをよいとしている。<br><br>また子供を育てるにもこわれ物のように大事にし、ちょっとした病気でも直ぐ医者にかかり、薬毒をつぎ込まれる。<br><br>驚いた事には近頃は生まれて間もない赤ん坊でさえ、無暗に注射を打たれ、弱らされている有り様である。<br><br> また予防のためと称して種々の注射をされ、幼児の内から薬毒を詰め込むのだからたまらない。<br><br>いずれは浄化作用が発生し、各種の病原となるのは当然で近来小児結核や小児喘息、小児麻痺等が増えているのはよくそれを物語っている。<br><br>そういう訳で子供を育てるのにも、楽しみよりも心配の方が多いくらいであるから、何と情ない世の中ではなかろうか、というのはその原因が全く科学文化中毒に罹って、本当の事が分からなくなっているからである。<br><br>というのは科学の考え方は何事も人為的にやるのが進歩した方法と思い、自然を無視するからである。<br><br>本来科学で解決出来る物と、自然でなくては解決出来ないものとの区別のある事に盲目だからで、忌憚なくいえば、現在は文化的野蛮時代といっても過言ではあるまい。<br><br> 私はこの文化的蒙昧を目醒めさせようとして私は絶えず筆に口に、現在努力しつつあるのであるが何しろ長い間の根強い世界的迷信となっていることとて、容易な業ではない。<br><br>ちょうど明治維新当時の丁髷（ちょんまげ）連中を済度するのと同様で、今日はそれが世界的に押し拡がったのであるから、なおさら始末が悪いのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Paradoxo da Civilização Moderna</h2>
 <p>O homem contemporâneo, imerso nos benefícios da cultura moderna, usufrui de um nível de segurança e conveniência em sua vida cotidiana que seria difícil mensurar. Contudo, o que a maioria ignora é a existência de uma fonte de profunda intranquilidade, oculta em um domínio que sequer poderiam imaginar. Se a humanidade viesse a compreender essa verdade, despertaria de um longo torpor em meio a um assombro monumental, e a partir de então, uma genuína civilização emergiria, banhando a todos em infinita felicidade.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Ademais, sob o pretexto da prevenção, uma sucessão de vacinas é aplicada, impregnando o organismo infantil com toxinas desde a mais tenra idade. É inevitável que, com o tempo, surjam purificações, que se manifestarão como as mais diversas enfermidades. O aumento recente da tuberculose, da asma e da paralisia infantis é um testemunho eloquente dessa realidade. Diante de tal panorama, a tarefa de criar os filhos tornou-se uma fonte muito maior de preocupações do que de alegrias. Que tempos lamentáveis vivemos!</p>
 <p>A raiz de todos esses males reside em uma verdadeira intoxicação pela cultura científica, que tornou as pessoas incapazes de discernir a verdade. A mentalidade científica parte do pressuposto de que a intervenção artificial em tudo representa progresso, demonstrando um profundo desprezo pela Natureza. Ela é cega para a distinção fundamental entre aquilo que pode ser resolvido pela ciência e aquilo que apenas a Natureza é capaz de solucionar. Falando sem rodeios, não seria exagero classificar a era atual como um período de barbárie cultural.</p>
 <p>É para despertar a humanidade dessa obscuridade cultural que eu me empenho incessantemente, por meio da palavra escrita e falada. Trata-se, contudo, de uma tarefa hercúlea, pois enfrentamos uma superstição mundial, com raízes antigas e profundas. A situação assemelha-se à dos tempos da Restauração Meiji, quando foi preciso demover os homens de sua obstinação em manter o chonmage (丁髷), o tradicional coque de samurai. A diferença é que, hoje, essa mentalidade anacrônica se alastrou pelo mundo inteiro, tornando o problema infinitamente mais complexo e desafiador.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界的丁髷時代 『栄光』155号、昭和27(1952)年5月7日発行 現代人が近代文化の恩恵を蒙っており、あらゆる点において、生活上どのくらい安心と利便を得ているか分からない程である。<br/><br/>とはいうもののほとんど想像もつかないところに、大きな不安の原因が伏在している事に気が付かないのであるから、困ったものである。<br/><br/>万人がもしこの真相が分かったとしたら、一大驚愕と共に眼を覚まし、ここに真の文明が生まれ、人類は無限の幸福に浴する事となろう。<br/><br/>ではその不安とは何かというと、何よりも医学衛生に関する面であって、現在各国共結核をはじめ、各種伝染病その他の病気に悩まされている事実である。<br/><br/>それがため日常生活においても、ヤレ何の食物は栄養があり、ビタミンを含んでいるから食えとか、何は消化が悪いから胃をこわすとか、食過ぎは毒だとか、さほど食いたくもない物でも薬だから喰えとか、ヤレ鉄分を含んでるからいいなどと、その煩わしい事おびただしい。<br/><br/>何しろ盲目的に医学を信用し切っているのだからどうしようもないのである。<br/><br/>それが人民ばかりではなく、政府も同様であるから、常に奨励までしているという訳で、この有様を吾々からみればその馬鹿らしさに呆れるばかりである。<br/><br/> いつも言う通り、ビタミンの多い物を食えば、体内のビタミン生産機能は退化するし、栄養を余り摂れば逆作用によって身体は弱るし、消化のいい物やよく噛んで食うと胃の活動が鈍って胃病になる。<br/><br/>というように何から何まで反対の事を行っている。<br/><br/>そうかと思うと外出から帰ると、ヤレ手を洗え、うがいをしろなどと言うが、この面倒臭さも悩みの一つで、しかも何の意味もなさないで、反って神経質となり、健康を弱らすだけである。<br/><br/>また寒い思いをすると風邪を引くから用心しろとか、冷えると身体にさわるなどといわれて、常にビクビクものである。<br/><br/>もちろん吾々の唱える風邪は万病を免れる因で、人間第一の健康法などとの真理は夢にも思えないし、たまたまそれを言ってやっても、信ずる者はほとんどないくらいで、その他女性にしても腹や腰の周りに、何枚もの繊維品を捲きつけるので窮屈でもあり、不格好でもあり、動作の不便も並大抵ではないが、それをよいとしている。<br/><br/>また子供を育てるにもこわれ物のように大事にし、ちょっとした病気でも直ぐ医者にかかり、薬毒をつぎ込まれる。<br/><br/>驚いた事には近頃は生まれて間もない赤ん坊でさえ、無暗に注射を打たれ、弱らされている有り様である。<br/><br/> また予防のためと称して種々の注射をされ、幼児の内から薬毒を詰め込むのだからたまらない。<br/><br/>いずれは浄化作用が発生し、各種の病原となるのは当然で近来小児結核や小児喘息、小児麻痺等が増えているのはよくそれを物語っている。<br/><br/>そういう訳で子供を育てるのにも、楽しみよりも心配の方が多いくらいであるから、何と情ない世の中ではなかろうか、というのはその原因が全く科学文化中毒に罹って、本当の事が分からなくなっているからである。<br/><br/>というのは科学の考え方は何事も人為的にやるのが進歩した方法と思い、自然を無視するからである。<br/><br/>本来科学で解決出来る物と、自然でなくては解決出来ないものとの区別のある事に盲目だからで、忌憚なくいえば、現在は文化的野蛮時代といっても過言ではあるまい。<br/><br/> 私はこの文化的蒙昧を目醒めさせようとして私は絶えず筆に口に、現在努力しつつあるのであるが何しろ長い間の根強い世界的迷信となっていることとて、容易な業ではない。<br/><br/>ちょうど明治維新当時の丁髷（ちょんまげ）連中を済度するのと同様で、今日はそれが世界的に押し拡がったのであるから、なおさら始末が悪いのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hiruno</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 昼の世界に転換の科学的証明 『救世』179号、昭和27(1952)年10月22日発行 この間ラジオの学校新聞の時聴いた話だが、最近スエーデンのハルマンという学者が、面白い研究を発表した。<br><br>というのは五十年以前の地球の温度を今日と較べると、今日の方が約十度高くなったという実に驚くべき報告である。<br><br>なぜなればもしこの割合で暖かくなるとすれば、右の十倍とみて五百年経ったら百度暖かくなる訳だからで、到底信じ得られない話である。<br><br>ところがここで考えなくてはならない事は、もっと古い時代にそのような変化があったとすれば、その時すでに百何十度の炎熱となるから、人類は全滅した訳である。<br><br>しかしそれらしい記録もないのであるから、何としても割切れない話である。<br><br>そう考えてくると、どうしても数十年くらい前から変化し始めたと見ねばなるまい。<br><br>そうでなければ理屈が合わない。<br><br> この事について私は常に唱える夜の世界が、昼の世界に転換するという重大な意義である。<br><br>それが日本においては明治に入った頃からであって、漸次進んで昭和六年六月十五日に到って、この日からいよいよ地球の霊界が黎明期に入ったのである。<br><br>その日私は三十余人の弟子を連れて、房州鋸山にある乾坤山（けんこんざん）日本寺という有名な山寺に前日登って一泊し、翌十五日暁の午前五時頂きに登ってある神事を行ったのである。<br><br>その後それに関連した種々の奇蹟が起ったという事も、以前著書にかいたから信者は読んだであろうが、それらの事を科学的に証明したのが、前記温度の高くなった報告である。<br><br> しかし今後このままの割合で暖かくなる事はないから安心していい。<br><br>というのはある程度までで済むからである。<br><br>右のごとく最近に至っていかに火素が増量し、浄化も強くなったかが分るであろう。<br><br>無論火素といっても本来霊的であるから、体的熱量はないと思うであろうが、ある程度の体的熱量はあるので、何よりも私の浄霊である。<br><br>信者数百人に対し十分ないし二十分浄霊する場合、中には非常に熱くなって、汗ダクダクになる人さえよくあると共に、冬など私の部屋へ入ると暖かいとよく云われる事がある。<br><br>ところが火素の増量は独り病気に限らずあらゆる面にも影響を受けるのであるから、これが世界的クライマックスになった時が世の終りである。<br><br>これについても大いに神秘があるがまだ時期が早いから、いずれ発表するつもりである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Comprovação Científica da Transição para o Mundo do Dia</h2>
 <p>Recentemente, em uma transmissão de rádio, tomei conhecimento de um relato fascinante apresentado por um acadêmico sueco chamado Hallman. Ele anunciou os resultados de uma pesquisa extraordinária, segundo a qual a temperatura da Terra hoje é cerca de dez graus mais elevada do que era há cinquenta anos. Trata-se de uma constatação verdadeiramente assombrosa. Pois, se o aquecimento prosseguisse a essa mesma proporção, dentro de quinhentos anos — dez vezes aquele período — a temperatura teria aumentado em cem graus, um cenário evidentemente inconcebível.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Este fenômeno corrobora o que venho constantemente apregoando: a profunda transição do Mundo da Noite para o Mundo do Dia. No Japão, esse processo teve início na era Meiji e avançou gradualmente até o dia 15 de junho do sexto ano da era Showa (1931), data em que o Mundo Espiritual da Terra ingressou em seu período da alvorada. Na véspera daquele dia, acompanhado por mais de trinta discípulos, subi ao célebre templo na montanha conhecido como Kenkonzan (乾坤山) Nihon-ji, no Monte Nokogiri, em Boshu, onde pernoitamos. Na manhã seguinte, ao alvorecer do dia quinze, às cinco horas, realizamos uma cerimônia divina no cume da montanha. Conforme já relatei em escritos anteriores, que por certo meus seguidores já leram, diversos milagres se sucederam em decorrência daquele ato. A referida notícia sobre a elevação da temperatura vem, portanto, comprovar cientificamente tais acontecimentos.</p>
 <p>Contudo, não há motivo para alarme, pois o aquecimento não prosseguirá indefinidamente nesse ritmo; ele cessará ao atingir um determinado patamar. Os fatos expostos demonstram o quão intensamente o Elemento Fogo aumentou nos últimos tempos, e com ele, o poder da purificação. Naturalmente, poder-se-ia supor que, sendo o Elemento Fogo de natureza primordialmente espiritual, ele não possuiria calor físico. Todavia, ele detém, sim, um certo grau de termalidade corpórea, e a maior prova disso é o Johrei que ministro. Ao aplicar Johrei em centenas de fiéis por um período de dez a vinte minutos, não é raro que alguns sintam um calor intenso, chegando a ficar banhados em suor. Da mesma forma, durante o inverno, é comum que as pessoas, ao entrarem em minha sala, comentem sobre a sua agradável calidez.</p>
 <p>O aumento do Elemento Fogo, no entanto, não se restringe a influenciar a saúde, mas reverbera em absolutamente todas as esferas da existência. Quando este processo atingir seu clímax em escala global, presenciaremos o fim do mundo. A este respeito, reside um profundo mistério, mas, por não ser ainda o momento oportuno, abstenho-me de elaborá-lo. Tenciono, contudo, revelá-lo no devido tempo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 昼の世界に転換の科学的証明 『救世』179号、昭和27(1952)年10月22日発行 この間ラジオの学校新聞の時聴いた話だが、最近スエーデンのハルマンという学者が、面白い研究を発表した。<br/><br/>というのは五十年以前の地球の温度を今日と較べると、今日の方が約十度高くなったという実に驚くべき報告である。<br/><br/>なぜなればもしこの割合で暖かくなるとすれば、右の十倍とみて五百年経ったら百度暖かくなる訳だからで、到底信じ得られない話である。<br/><br/>ところがここで考えなくてはならない事は、もっと古い時代にそのような変化があったとすれば、その時すでに百何十度の炎熱となるから、人類は全滅した訳である。<br/><br/>しかしそれらしい記録もないのであるから、何としても割切れない話である。<br/><br/>そう考えてくると、どうしても数十年くらい前から変化し始めたと見ねばなるまい。<br/><br/>そうでなければ理屈が合わない。<br/><br/> この事について私は常に唱える夜の世界が、昼の世界に転換するという重大な意義である。<br/><br/>それが日本においては明治に入った頃からであって、漸次進んで昭和六年六月十五日に到って、この日からいよいよ地球の霊界が黎明期に入ったのである。<br/><br/>その日私は三十余人の弟子を連れて、房州鋸山にある乾坤山（けんこんざん）日本寺という有名な山寺に前日登って一泊し、翌十五日暁の午前五時頂きに登ってある神事を行ったのである。<br/><br/>その後それに関連した種々の奇蹟が起ったという事も、以前著書にかいたから信者は読んだであろうが、それらの事を科学的に証明したのが、前記温度の高くなった報告である。<br/><br/> しかし今後このままの割合で暖かくなる事はないから安心していい。<br/><br/>というのはある程度までで済むからである。<br/><br/>右のごとく最近に至っていかに火素が増量し、浄化も強くなったかが分るであろう。<br/><br/>無論火素といっても本来霊的であるから、体的熱量はないと思うであろうが、ある程度の体的熱量はあるので、何よりも私の浄霊である。<br/><br/>信者数百人に対し十分ないし二十分浄霊する場合、中には非常に熱くなって、汗ダクダクになる人さえよくあると共に、冬など私の部屋へ入ると暖かいとよく云われる事がある。<br/><br/>ところが火素の増量は独り病気に限らずあらゆる面にも影響を受けるのであるから、これが世界的クライマックスになった時が世の終りである。<br/><br/>これについても大いに神秘があるがまだ時期が早いから、いずれ発表するつもりである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

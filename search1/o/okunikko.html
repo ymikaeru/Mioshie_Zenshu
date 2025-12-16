@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okunikko</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奥日光から塩原へ 自観叢書第5編『自観隨談』P.14、昭和24(1949)年8月30日発行 私は四十歳頃から山が好きになり、機会ある毎に各所の山に登ったのである。<br><br>もっともその頃から健康快復のためもあった。<br><br>関東付近の主なる山は大抵登ったが今その中で最も興味ある経験を一つかいてみよう。<br><br> 大正十二年すなわち関東大震災のあった時の八月半ば頃、奥日光から塩原温泉へ抜けようとしてプランを立てた。<br><br>その頃奥日光の山案内として有名な宮川という男に案内させた。<br><br>ところが最初予定のコースは、湯本から五里の川俣温泉で一泊、それから七里の湯西川温泉へ一泊、塩原へ抜けるのであった。<br><br>予定通り川俣温泉へ昼頃着いたが、ここは鬼怒川上流の最も静寂なところで宿屋が一軒あるだけで外に人家はない。<br><br>そそり立つ岩壁青き渓流等、全く塵外の仙境である。<br><br>途中草鞋（わらじ）ばきで岩を這い上る程の所があるので都人で行く者はほとんどない。<br><br>温泉はもちろん男女混浴で、最初私一人湯に浸っていると暫くして三十前後の三人の女連が入って来た。<br><br>彼女達は私のいる事など知らぬ気に、湯槽（ゆぶね）に浸ったので私の方がキマリが悪かったくらいだ。<br><br>ところが彼女の方から言葉をかけた「旦那はドチラからです」。<br><br>私「東京からだ。<br><br>君達はどこから来たのか？」。<br><br>彼女達「私達は栃木県の○○村の者で、この温泉は子供が出来ると聞いて来たんです」という。<br><br>そんな事をキッカケに種々世間話に花が咲いたが、これも山奥の温泉巡りの一人旅の淋しさを癒してくれた忘れ難い一挿話でもある。<br><br> 翌朝八時、そこを出発し湯西川へ向かったがこれからが種々の話題を生む事になった。<br><br>それは行けども行けども山また山で、越す程に行くほどに反って山は深く、道もはっきりしなくなって来た、というのは幾歳かの落葉が積りつもって路を埋め人の通った跡もない。<br><br>宮川がいうには「旦那これは道を間違えやした、先刻道標（みちしるべ）を見た時、湯西川行きの文字の棒杭が倒れかかっていたため間違えたのです。<br><br>申し訳ありません。<br><br>生憎地図を忘れて来たのでもしかすると今晩は野宿になるかもしれません」という。<br><br>私も当惑したが後へ戻る事も出来ず、ママよ行く所まで行けと肚（はら）を決めた。<br><br>暫くすると宮川はフト立止り、「ハハー熊が出やがった、この足跡は熊で、まあ相当大きい。<br><br>二十貫以上ありやしょう」というので私は吃驚した。<br><br>宮川に「君大丈夫か？」と訊くと、彼は「このナイフがありやすから（海軍ナイフ）大丈夫です」というので、私もやや胸を下した。<br><br>「それじゃ用心のため肚を拵（こしら）えておこう」と道端の石へ腰かけ、弁当をつかい始めた。<br><br>その辺一帯熊笹が繁茂しているので時々ガサガサと音がする。<br><br>熊じゃないかと聞くと、「あれはこの辺に沢山いる山兎でガス」というので安心した。<br><br>昼食後当てのない途をまた歩き出した。<br><br>二、三時間後、急に喉が涸いて我慢が出来ないが山が高いため水がない。<br><br>アノ山を越したらキットあるだろう。<br><br>と、水を楽しみに山を越しても水の影もない。<br><br>また見はるかす山を越しても駄目という訳で、四つか五つの山を越すうちにだんだん低くなって遂に道端に滴（したた）り落る山水を認めた。<br><br>ヤレ嬉しやと思い切り呑んで渇きが医（い）えたので元気恢復し、歩き続けたその頃、ちょうど西山に夕陽が舂（うすづ）き始めると共に、四辺霧に蔽（おお）われた。<br><br>その時は朝の八時から十時間、約十里を歩いたのである。<br><br>その間、道を聞きたくも一人の人間にも遇わなかったのであるから、いかに人跡未踏の土地であるかが判る。<br><br>今一息行って人に遇わなければ野宿と決心していたところ、幸い遥かの木々の間に藁屋根が見えた。<br><br>ヤレ嬉しやとその小屋へ近づいてみると、一木樵（きこり）小屋で三、四人の荒くれ男がいた。<br><br>事情を話すとそれなら今晩ここへ泊りなさいというが、どうも気味が悪くて泊る気にはなれないのでよく聞くと、「これから一里下ると○○村というのがある、そこは宿屋はないが村長の家に頼んだら泊めてくれるだろう」というのでその村へたどり着き村長に頼んだところ、「病人がいるので応じられない」と態よく謝られてしまった。<br><br>村長は言葉をつぎ、「これから一里半行くと湯の花温泉というのがある」というのでヤレ有難いとくたびれ切った足を再び引ずり引ずり幸い月夜でもあったので、やっと湯の花温泉へついた。<br><br>足の裏をみると一面豆で埋っている。<br><br>それもその筈で都合十三里歩いたのである。<br><br>しかしともかく一風呂浴び、生き返った心地になった。<br><br>何しろ都会人なんかはほとんど来た事がないそうで、言葉もよく判らない。<br><br>宮川の和訳でヤッと意志が通ずるという訳で、女中は座敷へ入ると立ったまんま話をするのである。<br><br>「サイダーはないか？」と聞くと、「そんなものはシンネー」というのだから推して知るべきだ。<br><br>膳が出たのでみれば、名も知れない数種の茸でほとんど箸が着けられないから、鶏卵を貰ってヤッと夕飯を済ましたという訳である。<br><br>「汽車に一番近いところはどこだ？」と聞くと、「ここから二十三里ある、そこは会津若松だ」というのでガッカリした。<br><br>「会津まで何で行くか？」と聞くと、「馬車がある」という。<br><br>「では塩原まで何里か？」と聞くと、「十七里だが馬車がない」という。<br><br>私は迷ったが最初の予定通り塩原行きに決め、翌朝になると、足の裏の豆の痛さで歩く事が出来ないから馬を頼み、馬上裕（ゆた）かにといいたいが、馬は初めてなのでヘナヘナ腰でともかく歩き始めた。<br><br>ところが大きな馬蠅や虻が幾十匹となく群がり、馬は絶えず尻尾で追払うが、人間には尻尾がないから困った、というのは、靴下の上から刺すので掻くて仕方がない。<br><br>一計を案じ、木の枝を折って足の廻りにつけたので、幾分効果はあったが今度は馬の背中へ群がって来るので、馬はハネようとする。<br><br>私は扇子で引っきりなしに叩いては殺しつつ、ようやく六里の途を進みある小村へ着いた。<br><br>これから道が登りになるから馬はここまでだというので、やむなく馬を返した。<br><br>あんまり蠅や虻を叩いたので扇子は血だらけになってバラバラになってしまった。<br><br> それから途は登りになったが、有難い事には足の裏の豆が大分治ってどうやら歩けるようになった。<br><br>一時間くらいで峠を越し、後は坦々たる山道である。<br><br>夕暮近く戸数二、三十戸くらいの三依村という寒村に着いた。<br><br>聞いてみると宿屋が一軒あるというので、そこを訪ね、「部屋はあるか？」と訊くと、「満員だ」というからガッカリしたが、野宿する訳にもゆかないからよく事情を語り頼んだところ、「それでは……」といい、蠶（かいこ）が散らばっている部屋を片づけて案内されやっとくたびれた足をさする事が出来た。<br><br>私は「満員だというのに馬鹿に静かではないか」と質（き）くと、妻君らしいのが、「客席は一間で、一人のお客で満員になった」というので思わず吹き出した。<br><br>全く便所みたいだ。<br><br>おもしろい事には「お客様これから肴を採ってくるべえから」といって下男らしいのが出て行った。<br><br>暫くすると、「カジカをとって来た」というので、見ると鯊（はぜ）のような魚で、早速煮てくれたが、なかなか味は良かった。<br><br>客の顔をみてから溝川へ肴をとりにゆくという呑気さは山村なるかなと微笑を禁じ得なかった。<br><br> 翌朝塩原へ行くべく昨日の経験から馬を頼んだ。<br><br>おもしろいのは馬子がこの家の妻君であった。<br><br>私は馬に乗りボツボツ歩き始めると、白馬で馬鹿に老馬らしいので、妻君に訊くと、果してよほどの老人じゃない老馬で、何だか危ないような気がした。<br><br>それから一里ばかりゆくと左手が岩磐で、道巾は四尺くらい、右手は千仭（せんじん）の谷川があり一目見てゾッとした。<br><br>妻君いわく。<br><br>「これから少し行くと危ない所にかかるから馬に気を付けてくれ、馬が驚くと谷へ落ちる危険がある」という。<br><br>私は驚いて「今まで落ちた者はあるか」と訊くと「三年ばかり前、馬諸共人間が二人落ちて全部死んだ」と言うので、これは大変と馬を降りて歩いた。<br><br>一里ばかり行くと、二間幅くらいの道へ出たのでまた馬に乗ったが、数丁歩くと少し急な坂になり、そこを下りかかると馬は膝をついたかと思うと、私は一廻転し、もんどりうって道端へ転落し、腰をイヤという程打った。<br><br>なる程これが道幅が狭かったらお仕舞いだったかも知れないと思って慄然とした。<br><br>そこで「塩原まで後何里か？」と聞くと、「一里半だ」という。<br><br>彼女は再び馬に乗る事を勧めたが、「約束だけの料金をやるから勘弁してくれ」といって馬を返し、一里半歩いて昼頃塩原へ着き、塩の湯の旅館で昼食をしたため帰京したのであったが、この旅行の中二度危ない事があった。<br><br>一つは前記の馬の転んだ時で、この路の一方は数丈の岩壁の下が渓流であったからである。<br><br>今一つは湯の花温泉へ行く時会津田代山を通ったのである。<br><br>ところが宿屋で聞くと、田代山は時々熊が出るので、土地の人も恐れて容易には行かない所なので、私等の無謀に驚いたというわけで、知らぬ事とは言いながら、話を聞いて冷汗三斗という訳であった。<br><br> （注） 舂（うすづ）く、夕日が山に入ろうとする（ころ）。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Recordações de uma Travessia de Okunikko a Shiobara</h2>
 <p>A partir dos meus quarenta anos, desenvolvi um grande apreço pelas montanhas, aproveitando toda oportunidade que surgia para me dedicar ao alpinismo. Essa prática, em parte, visava também à recuperação de minha saúde. Embora eu tenha escalado a maioria dos picos proeminentes da região de Kanto, gostaria de relatar agora uma das experiências mais notáveis que vivenciei.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>A partir dali, o caminho começou a subir, mas, felizmente, as bolhas em meus pés haviam melhorado, e eu conseguia caminhar. Após cerca de uma hora, cruzamos o cume, e a trilha se tornou plana e agradável. Próximo ao entardecer, chegamos a Miyori, um vilarejo desolado com vinte ou trinta casas. Fui informado de que havia uma única estalagem e para lá me dirigi. "Há quartos disponíveis?", perguntei. "Estamos lotados", responderam, para minha decepção. Como não poderia pernoitar na rua, expliquei minhas circunstâncias e insisti. O dono cedeu: "Bem, nesse caso...". Ele então limpou um quarto onde havia bichos-da-seda espalhados e me acomodou. Finalmente pude descansar minhas pernas fatigadas. "Para um lugar lotado, está muito silencioso, não acha?", comentei. A esposa do dono respondeu: "Temos apenas um quarto para hóspedes. Com um único cliente, já estamos lotados". Não pude conter o riso. Era realmente como um banheiro. O mais curioso foi quando um empregado disse: "Senhor, vou buscar o acompanhamento para sua refeição", e saiu. Pouco depois, voltou dizendo: "Pesquei uns <em>kajika</em>". Olhei e vi que eram peixes parecidos com o <em>haze</em>. Eles os prepararam prontamente, e o sabor era excelente. Não pude deixar de sorrir com a placidez da vida na aldeia, onde se vai pescar o jantar no riacho depois de ver o rosto do hóspede.</p>
 <p>Na manhã seguinte, para ir a Shiobara, aprendi com a experiência do dia anterior e pedi um cavalo. O curioso é que a condutora era a própria dona da estalagem. Montei e começamos a andar lentamente. O cavalo era branco e parecia extremamente velho. Perguntei à mulher, e ela confirmou que o animal era, de fato, muito idoso, o que me deixou apreensivo. Após avançarmos cerca de um <em>ri</em>, o caminho se estreitou para aproximadamente quatro <em>shaku</em> de largura, com um paredão rochoso à esquerda e um vale de mil <em>jin</em> à direita. A visão me causou um arrepio. A mulher advertiu: "Daqui a pouco passaremos por um trecho perigoso. Por favor, tenha cuidado com o cavalo. Se ele se assustar, há risco de cairmos no vale". Alarmado, perguntei: "Alguém já caiu aqui?". "Há uns três anos, duas pessoas caíram com seus cavalos e todos morreram", respondeu ela. Diante disso, desmontei imediatamente e segui a pé. Cerca de um <em>ri</em> depois, a estrada se alargou para uns dois <em>ken</em>, e voltei a montar. Porém, após algumas centenas de metros, chegamos a uma descida íngreme. Assim que começamos a descer, o cavalo fraquejou e, antes que eu percebesse, dei uma cambalhota e fui arremessado à beira da estrada, batendo as costas com violência. Estremeci ao pensar que, se o caminho fosse estreito naquele ponto, poderia ter sido meu fim. "Quanto falta para Shiobara?", perguntei. "Um <em>ri</em> e meio", ela respondeu. Embora ela insistisse para que eu montasse novamente, eu disse: "Pagarei o valor combinado, mas, por favor, me perdoe", e dispensei o cavalo. Caminhei o último trecho e cheguei a Shiobara por volta do meio-dia, onde almocei em uma pousada em Shio-no-yu antes de retornar a Tóquio.</p>
 <p>Nessa viagem, enfrentei duas situações de grande perigo. A primeira foi a queda do cavalo, em um trecho onde, de um lado, havia um desfiladeiro de várias dezenas de metros que terminava em um riacho. A segunda ocorreu quando, a caminho de Yunohana Onsen, atravessamos a montanha Aizu-Tashiro. Ao chegar à estalagem, soube que ursos apareciam com frequência naquela montanha e que até os moradores locais a temiam e evitavam. Todos ficaram espantados com nossa imprudência. Embora tenhamos agido por ignorância, ao ouvir o relato, um suor frio me escorreu pela espinha.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奥日光から塩原へ 自観叢書第5編『自観隨談』P.14、昭和24(1949)年8月30日発行 私は四十歳頃から山が好きになり、機会ある毎に各所の山に登ったのである。<br/><br/>もっともその頃から健康快復のためもあった。<br/><br/>関東付近の主なる山は大抵登ったが今その中で最も興味ある経験を一つかいてみよう。<br/><br/> 大正十二年すなわち関東大震災のあった時の八月半ば頃、奥日光から塩原温泉へ抜けようとしてプランを立てた。<br/><br/>その頃奥日光の山案内として有名な宮川という男に案内させた。<br/><br/>ところが最初予定のコースは、湯本から五里の川俣温泉で一泊、それから七里の湯西川温泉へ一泊、塩原へ抜けるのであった。<br/><br/>予定通り川俣温泉へ昼頃着いたが、ここは鬼怒川上流の最も静寂なところで宿屋が一軒あるだけで外に人家はない。<br/><br/>そそり立つ岩壁青き渓流等、全く塵外の仙境である。<br/><br/>途中草鞋（わらじ）ばきで岩を這い上る程の所があるので都人で行く者はほとんどない。<br/><br/>温泉はもちろん男女混浴で、最初私一人湯に浸っていると暫くして三十前後の三人の女連が入って来た。<br/><br/>彼女達は私のいる事など知らぬ気に、湯槽（ゆぶね）に浸ったので私の方がキマリが悪かったくらいだ。<br/><br/>ところが彼女の方から言葉をかけた「旦那はドチラからです」。<br/><br/>私「東京からだ。<br/><br/>君達はどこから来たのか？」。<br/><br/>彼女達「私達は栃木県の○○村の者で、この温泉は子供が出来ると聞いて来たんです」という。<br/><br/>そんな事をキッカケに種々世間話に花が咲いたが、これも山奥の温泉巡りの一人旅の淋しさを癒してくれた忘れ難い一挿話でもある。<br/><br/> 翌朝八時、そこを出発し湯西川へ向かったがこれからが種々の話題を生む事になった。<br/><br/>それは行けども行けども山また山で、越す程に行くほどに反って山は深く、道もはっきりしなくなって来た、というのは幾歳かの落葉が積りつもって路を埋め人の通った跡もない。<br/><br/>宮川がいうには「旦那これは道を間違えやした、先刻道標（みちしるべ）を見た時、湯西川行きの文字の棒杭が倒れかかっていたため間違えたのです。<br/><br/>申し訳ありません。<br/><br/>生憎地図を忘れて来たのでもしかすると今晩は野宿になるかもしれません」という。<br/><br/>私も当惑したが後へ戻る事も出来ず、ママよ行く所まで行けと肚（はら）を決めた。<br/><br/>暫くすると宮川はフト立止り、「ハハー熊が出やがった、この足跡は熊で、まあ相当大きい。<br/><br/>二十貫以上ありやしょう」というので私は吃驚した。<br/><br/>宮川に「君大丈夫か？」と訊くと、彼は「このナイフがありやすから（海軍ナイフ）大丈夫です」というので、私もやや胸を下した。<br/><br/>「それじゃ用心のため肚を拵（こしら）えておこう」と道端の石へ腰かけ、弁当をつかい始めた。<br/><br/>その辺一帯熊笹が繁茂しているので時々ガサガサと音がする。<br/><br/>熊じゃないかと聞くと、「あれはこの辺に沢山いる山兎でガス」というので安心した。<br/><br/>昼食後当てのない途をまた歩き出した。<br/><br/>二、三時間後、急に喉が涸いて我慢が出来ないが山が高いため水がない。<br/><br/>アノ山を越したらキットあるだろう。<br/><br/>と、水を楽しみに山を越しても水の影もない。<br/><br/>また見はるかす山を越しても駄目という訳で、四つか五つの山を越すうちにだんだん低くなって遂に道端に滴（したた）り落る山水を認めた。<br/><br/>ヤレ嬉しやと思い切り呑んで渇きが医（い）えたので元気恢復し、歩き続けたその頃、ちょうど西山に夕陽が舂（うすづ）き始めると共に、四辺霧に蔽（おお）われた。<br/><br/>その時は朝の八時から十時間、約十里を歩いたのである。<br/><br/>その間、道を聞きたくも一人の人間にも遇わなかったのであるから、いかに人跡未踏の土地であるかが判る。<br/><br/>今一息行って人に遇わなければ野宿と決心していたところ、幸い遥かの木々の間に藁屋根が見えた。<br/><br/>ヤレ嬉しやとその小屋へ近づいてみると、一木樵（きこり）小屋で三、四人の荒くれ男がいた。<br/><br/>事情を話すとそれなら今晩ここへ泊りなさいというが、どうも気味が悪くて泊る気にはなれないのでよく聞くと、「これから一里下ると○○村というのがある、そこは宿屋はないが村長の家に頼んだら泊めてくれるだろう」というのでその村へたどり着き村長に頼んだところ、「病人がいるので応じられない」と態よく謝られてしまった。<br/><br/>村長は言葉をつぎ、「これから一里半行くと湯の花温泉というのがある」というのでヤレ有難いとくたびれ切った足を再び引ずり引ずり幸い月夜でもあったので、やっと湯の花温泉へついた。<br/><br/>足の裏をみると一面豆で埋っている。<br/><br/>それもその筈で都合十三里歩いたのである。<br/><br/>しかしともかく一風呂浴び、生き返った心地になった。<br/><br/>何しろ都会人なんかはほとんど来た事がないそうで、言葉もよく判らない。<br/><br/>宮川の和訳でヤッと意志が通ずるという訳で、女中は座敷へ入ると立ったまんま話をするのである。<br/><br/>「サイダーはないか？」と聞くと、「そんなものはシンネー」というのだから推して知るべきだ。<br/><br/>膳が出たのでみれば、名も知れない数種の茸でほとんど箸が着けられないから、鶏卵を貰ってヤッと夕飯を済ましたという訳である。<br/><br/>「汽車に一番近いところはどこだ？」と聞くと、「ここから二十三里ある、そこは会津若松だ」というのでガッカリした。<br/><br/>「会津まで何で行くか？」と聞くと、「馬車がある」という。<br/><br/>「では塩原まで何里か？」と聞くと、「十七里だが馬車がない」という。<br/><br/>私は迷ったが最初の予定通り塩原行きに決め、翌朝になると、足の裏の豆の痛さで歩く事が出来ないから馬を頼み、馬上裕（ゆた）かにといいたいが、馬は初めてなのでヘナヘナ腰でともかく歩き始めた。<br/><br/>ところが大きな馬蠅や虻が幾十匹となく群がり、馬は絶えず尻尾で追払うが、人間には尻尾がないから困った、というのは、靴下の上から刺すので掻くて仕方がない。<br/><br/>一計を案じ、木の枝を折って足の廻りにつけたので、幾分効果はあったが今度は馬の背中へ群がって来るので、馬はハネようとする。<br/><br/>私は扇子で引っきりなしに叩いては殺しつつ、ようやく六里の途を進みある小村へ着いた。<br/><br/>これから道が登りになるから馬はここまでだというので、やむなく馬を返した。<br/><br/>あんまり蠅や虻を叩いたので扇子は血だらけになってバラバラになってしまった。<br/><br/> それから途は登りになったが、有難い事には足の裏の豆が大分治ってどうやら歩けるようになった。<br/><br/>一時間くらいで峠を越し、後は坦々たる山道である。<br/><br/>夕暮近く戸数二、三十戸くらいの三依村という寒村に着いた。<br/><br/>聞いてみると宿屋が一軒あるというので、そこを訪ね、「部屋はあるか？」と訊くと、「満員だ」というからガッカリしたが、野宿する訳にもゆかないからよく事情を語り頼んだところ、「それでは……」といい、蠶（かいこ）が散らばっている部屋を片づけて案内されやっとくたびれた足をさする事が出来た。<br/><br/>私は「満員だというのに馬鹿に静かではないか」と質（き）くと、妻君らしいのが、「客席は一間で、一人のお客で満員になった」というので思わず吹き出した。<br/><br/>全く便所みたいだ。<br/><br/>おもしろい事には「お客様これから肴を採ってくるべえから」といって下男らしいのが出て行った。<br/><br/>暫くすると、「カジカをとって来た」というので、見ると鯊（はぜ）のような魚で、早速煮てくれたが、なかなか味は良かった。<br/><br/>客の顔をみてから溝川へ肴をとりにゆくという呑気さは山村なるかなと微笑を禁じ得なかった。<br/><br/> 翌朝塩原へ行くべく昨日の経験から馬を頼んだ。<br/><br/>おもしろいのは馬子がこの家の妻君であった。<br/><br/>私は馬に乗りボツボツ歩き始めると、白馬で馬鹿に老馬らしいので、妻君に訊くと、果してよほどの老人じゃない老馬で、何だか危ないような気がした。<br/><br/>それから一里ばかりゆくと左手が岩磐で、道巾は四尺くらい、右手は千仭（せんじん）の谷川があり一目見てゾッとした。<br/><br/>妻君いわく。<br/><br/>「これから少し行くと危ない所にかかるから馬に気を付けてくれ、馬が驚くと谷へ落ちる危険がある」という。<br/><br/>私は驚いて「今まで落ちた者はあるか」と訊くと「三年ばかり前、馬諸共人間が二人落ちて全部死んだ」と言うので、これは大変と馬を降りて歩いた。<br/><br/>一里ばかり行くと、二間幅くらいの道へ出たのでまた馬に乗ったが、数丁歩くと少し急な坂になり、そこを下りかかると馬は膝をついたかと思うと、私は一廻転し、もんどりうって道端へ転落し、腰をイヤという程打った。<br/><br/>なる程これが道幅が狭かったらお仕舞いだったかも知れないと思って慄然とした。<br/><br/>そこで「塩原まで後何里か？」と聞くと、「一里半だ」という。<br/><br/>彼女は再び馬に乗る事を勧めたが、「約束だけの料金をやるから勘弁してくれ」といって馬を返し、一里半歩いて昼頃塩原へ着き、塩の湯の旅館で昼食をしたため帰京したのであったが、この旅行の中二度危ない事があった。<br/><br/>一つは前記の馬の転んだ時で、この路の一方は数丈の岩壁の下が渓流であったからである。<br/><br/>今一つは湯の花温泉へ行く時会津田代山を通ったのである。<br/><br/>ところが宿屋で聞くと、田代山は時々熊が出るので、土地の人も恐れて容易には行かない所なので、私等の無謀に驚いたというわけで、知らぬ事とは言いながら、話を聞いて冷汗三斗という訳であった。<br/><br/> （注） 舂（うすづ）く、夕日が山に入ろうとする（ころ）。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

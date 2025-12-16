@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zennino</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 善意の愚 瓢箪 『栄光』214号、昭和28(1953)年6月24日発行 明主様は 善意の罪悪の恐るべきをお説きになり、小乗的信仰を不断にお戒めになっていられるが、長い間明主様にお仕えさして戴いた吾々自身とても、信仰的善意による誤りの恐るべき事をイヤというほど体験している。<br><br>特に吾々の痛恨極りないのは、吾々の善意の誤失は、皮肉にも最も尊崇し御尽し奉らんとする明主様に御迷惑をおかけする結果となる者であって、今思い出るままの一、二の例を挙げてみても竦然（しょうぜん）として心戦（おのの）くを覚ゆるのである。<br><br> たしか明主様が麹町から玉川上野毛へ御移転になって間もない昭和十一年だったと思う。<br><br>ある朝所轄の玉川警察から二名の警官が訪ねて来て、明主様に是非にと御面会を求めた。<br><br>それは未だ早朝で明主様もお寝みになっていたので、その由を告げ誰かがお起しする事もせず御面会を拒絶したとの事で、とにかく警官は帰ったのである。<br><br> 吾々としては、明主様は人類を滅亡の運命からお救い下さるただ一人の御方であって、毎日尊い御救いの御劇務にお疲れの御身を折角お休めになっているものを、誰が何といってもお起しする訳にはゆかぬ。<br><br>たとえ高位高官にある人でも、充分御休養をお摂り戴く様配慮すべきものである。<br><br>という善意の主観的理屈からそうしたのであろう。<br><br>しかし、警官の方としては一民間人の駈出しの宗教家の分際で、堂々たる大邸宅に住み、国家の公務を以て面会を求むるを拒否するとは許すべからざる不遜であり、官憲侮辱である。<br><br>いつかは懲しめてやるという位の内心少からず憤懣を抱いて帰ったものに違いないのである。<br><br>そしてその後暫く経ってから起ったのが彼の大宮事件であり玉川事件であった。<br><br> 勿論、右の警官の感情を害した事は、この事件の直接原因ではなかったとしても、当局の誤解を深からしめ、取調べを苛酷なものとし御聖苦を重からしめた因ともなったのは争えない事であろうと思ったのである。<br><br> 善意は哀れ愚に陥入り易く、又その愚に強き進行性を与える。<br><br>悪の愚は善の愚に勝るが、悪に敗北する善意の愚は誠に悲惨なものがある。<br><br>善意にして叡智の輝きがなければそれは善意の悪となり小乗の善である。<br><br>吾々は常に自己の愚を警戒し、尊い神智の御導きに頼る事を忘れてはならないと思う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Insensatez da Boa Intenção</h2>
 <p>Meishu-Sama nos admoesta constantemente sobre a temível natureza do pecado oriundo da boa intenção e nos previne contra a fé de cunho individualista. Nós mesmos, que tivemos a sublime honra de servi-Lo por longos anos, vivenciamos inúmeras vezes o quão terríveis podem ser os erros cometidos em nome de uma boa intenção religiosa. O mais doloroso e lamentável é constatar que nossas falhas bem-intencionadas, por ironia, acabam por causar transtornos justamente a Meishu-Sama, a quem mais reverenciamos e a quem desejamos servir com total dedicação. A mera lembrança de um ou dois exemplos faz-me tremer de pavor.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Contudo, na ótica dos policiais, a situação era outra. Um líder religioso iniciante, habitando uma suntuosa residência, que se atrevia a recusar uma audiência solicitada em função de assuntos oficiais do Estado, constituía um ato de insolência imperdoável, um ultraje à autoridade. Não há dúvida de que partiram com um profundo ressentimento, determinados a, em algum momento, fazê-Lo pagar pela afronta. E, passado algum tempo, eclodiram o Incidente de Omiya e o Incidente de Tamagawa.</p>
 <p>Naturalmente, ofender aqueles policiais talvez não tenha sido a causa direta dos incidentes. Todavia, parece-me inegável que tal atitude aprofundou os equívocos das autoridades, tornou os interrogatórios mais severos e, consequentemente, intensificou os sagrados sofrimentos por que Meishu-Sama passou.</p>
 <p>A boa intenção, lastimavelmente, tende a incorrer em insensatez, conferindo a esta um forte caráter progressivo. Embora a insensatez do mal supere a do bem, a insensatez da boa intenção que sucumbe ao mal é verdadeiramente trágica. Quando à boa intenção falta o brilho da sabedoria, ela se converte no mal da boa intenção, no bem de cunho individualista. Devemos, portanto, vigiar constantemente nossa própria insensatez e jamais nos esquecermos de confiar na sublime orientação da Sabedoria Divina.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 善意の愚 瓢箪 『栄光』214号、昭和28(1953)年6月24日発行 明主様は 善意の罪悪の恐るべきをお説きになり、小乗的信仰を不断にお戒めになっていられるが、長い間明主様にお仕えさして戴いた吾々自身とても、信仰的善意による誤りの恐るべき事をイヤというほど体験している。<br/><br/>特に吾々の痛恨極りないのは、吾々の善意の誤失は、皮肉にも最も尊崇し御尽し奉らんとする明主様に御迷惑をおかけする結果となる者であって、今思い出るままの一、二の例を挙げてみても竦然（しょうぜん）として心戦（おのの）くを覚ゆるのである。<br/><br/> たしか明主様が麹町から玉川上野毛へ御移転になって間もない昭和十一年だったと思う。<br/><br/>ある朝所轄の玉川警察から二名の警官が訪ねて来て、明主様に是非にと御面会を求めた。<br/><br/>それは未だ早朝で明主様もお寝みになっていたので、その由を告げ誰かがお起しする事もせず御面会を拒絶したとの事で、とにかく警官は帰ったのである。<br/><br/> 吾々としては、明主様は人類を滅亡の運命からお救い下さるただ一人の御方であって、毎日尊い御救いの御劇務にお疲れの御身を折角お休めになっているものを、誰が何といってもお起しする訳にはゆかぬ。<br/><br/>たとえ高位高官にある人でも、充分御休養をお摂り戴く様配慮すべきものである。<br/><br/>という善意の主観的理屈からそうしたのであろう。<br/><br/>しかし、警官の方としては一民間人の駈出しの宗教家の分際で、堂々たる大邸宅に住み、国家の公務を以て面会を求むるを拒否するとは許すべからざる不遜であり、官憲侮辱である。<br/><br/>いつかは懲しめてやるという位の内心少からず憤懣を抱いて帰ったものに違いないのである。<br/><br/>そしてその後暫く経ってから起ったのが彼の大宮事件であり玉川事件であった。<br/><br/> 勿論、右の警官の感情を害した事は、この事件の直接原因ではなかったとしても、当局の誤解を深からしめ、取調べを苛酷なものとし御聖苦を重からしめた因ともなったのは争えない事であろうと思ったのである。<br/><br/> 善意は哀れ愚に陥入り易く、又その愚に強き進行性を与える。<br/><br/>悪の愚は善の愚に勝るが、悪に敗北する善意の愚は誠に悲惨なものがある。<br/><br/>善意にして叡智の輝きがなければそれは善意の悪となり小乗の善である。<br/><br/>吾々は常に自己の愚を警戒し、尊い神智の御導きに頼る事を忘れてはならないと思う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

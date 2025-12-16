@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271107</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月7日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月七日 どこの宗教でもみんな病院を作っていますが、それについてメシヤ教ではぜんぜん病院を作らないということを、できるだけ徹底して書いたので今読ませます。<br><br> （御論文「宗教と病院」）【栄光 一八一号】 それから注意したいことは、お医者さんにかかっていながら、こっちの浄霊で病気が治った場合に、お医者さんはびっくりして、こんなはずはない、どうして治ったのですか、と、よく聞きますが、そういう時にあんまり正直に言うとお医者さんも気を悪くするとか、あるいはなにか差し障りがあるように思って本当のことを言わないで、いい加減のことを言う人がよくあるのですが、以前はそういうことであんまり刺激して、妨害されてはいけないので加減したこともありましたが、今日ではそんな必要はないのです。<br><br>ないどころか、大いにメシヤ教の浄霊という方法で治ったということを、はっきり言った方が良いのです。<br><br>嘘ではなく本当なのですから、なるべく詳しくありのままを言うのです。<br><br>そうしてお医者さんに、どうせ分かりゃしませんが、とにかく一つの刺激を与えておくのです。<br><br>そうすると、これがあっちでもこっちでもあるとお医者さん同士で、メシヤ教というのは不思議だ、われわれの方で治らないようなものをドンドン治している。<br><br>これは問題だという、そういったお医者さん仲間で評判になると、非常に良いのです。<br><br>というのは、今度の『アメリカを救う』という本が出ると、随分問題になると思います。<br><br>ところがふだんから、それは君嘘じゃないよ、僕はこういう経験がある。<br><br>そういうようなことをお医者さんでも言う人があるでしょうから、そうすると本に書いてあることをそうとう信頼をもって読みますから、良いことになりますから、これからは今言ったような方針でやらなければならないと思って、ちょっと注意したのです。<br><br> それからこの間京都に行く時に名古屋に寄って、名古屋の体育館の会場で「東方の光」について話をしたのです。<br><br>それはあの時だけしか話しませんから、今度『栄光』にもっと詳しく書いて出そうと思ってます。<br><br>それを読ませます。<br><br> （御論文「東方の光」）【栄光 一八二号】 「東方の光」ということが一番肝腎なのです。<br><br>私のことを「お光様」と言い出したのは『静岡新聞』なのです。<br><br>『静岡新聞』が初めて「お光様」ということを書いたのです。<br><br>それで私はうまいことを言うなと思ったのです。<br><br>それはいくらか侮辱のようにも聞こえますが、またすばらしく立派な文字になってますから、それが一般に「お光様」と言われるようになったのです。<br><br>ですからあれも神様から言わせられたものです。<br><br>で、今言ったように私のお腹に光の玉があって、その光がたいへんなものなのです。<br><br>今まで西から東に、文化と言いますか、なにからなにまで向こうから来たのです。<br><br>これは逆であったわけです。<br><br>東が霊で西が体ですから、体主霊従というのはそこから来たといっても良いです。<br><br>そのために体的文化が発達してきたという、本当の幸福な文化はできなかったというのは逆であったからです。<br><br>始終言う医学でもそうです。<br><br>体を治すと言うのです。<br><br>こっちは霊を治すのです。<br><br>ですからこっちは浄霊で、医学の方は浄体と言いたいが、「浄」でなく「濁」です。<br><br>ですから当然東から霊的文化が生まれなければならないのです。<br><br>それで、それに対して霊的は中心ですが、やはり霊ばかりではしようがないので、体が肝腎なのです。<br><br>そこで西から作った体の文化を、東から出た本当の、つまり中身です。<br><br>それによって西の文化を、今まで悪いことに使っていたのを良いことに使うように変えるのです。<br><br>爆弾を落とす飛行機を、早く旅行のできるようにする。<br><br>人間を苦しめたものを楽しむものにするということが、やはり東から出なければならないのです。<br><br>ですからそう考えれば別に不思議もなければ、変わってもいません。<br><br>ところが今までは西の文化ばかりで、それが本当のように思うから、それと反対の東の文化がちょっと分かりにくいのです。<br><br>こんなこと（御浄霊）をして病気が治るということが分からないというのは、そういうようなわけです。<br><br> それで、房州の乾坤山日本寺というのは、とにかく乾坤山というのは天地乾坤といって宇宙を言うのです。<br><br>それから日本寺というのは、日の本寺ですが、こういうのも神様がそういう名前をつけたというのはおもしろいと思います。<br><br>お寺の名前で日本寺というのはありません。<br><br>で、あそこから日の神様、天照大御神が出られたのです。<br><br>それで日蓮上人は七百数十年前ですが、今年は日蓮上人の七百年祭といっているが、あれは法華経を唱えてから七百年です。<br><br>それで清澄山というのは日本寺から一、二里東の方ですが、その時が最奥天国の霊界に日が出たのです。<br><br>それからだんだん現界に写るまでにそれだけの年限がかかったのです。<br><br>それで日本寺のある所は保田という所です。<br><br>「ホタ」というのは、「ホト」という言葉が転化したのです。<br><br>「ホト」というのは女の陰部です。<br><br>『古事記』にありますが、なんとかいう女の神様に、天から槍が落ちてきて「ホト」に怪我をさせたということがあります。<br><br>それで東京湾というものが女の陰部になるわけです。<br><br>それで東京が子宮にあたるのです。<br><br>ですから体的にはそういうわけなのです。<br><br>それで私は東京から生まれたというわけなのです。<br><br>これは細かく話すともっとおもしろいのですが、大体それで分かると思います。<br><br>それで富士山が臍になるのです。<br><br>日本の国というのは龍の形ですが、これは国常立尊という神様が大地を造る時に龍神になって造られたその形なのです。<br><br>それが日本の形になっている。<br><br>で、瀬戸内海は口を開いている所です。<br><br>それで山陰山陽が上の方になって、四国が顎になるわけです。<br><br>それで九州を呑み込んでいる形なのです。<br><br>九州というのは世界の型なのです。<br><br>北海道から千島の方が尾になって、日本海が背中になって大平洋が腹になっている。<br><br>これからそういう神秘がいろいろありますから分かってきます。<br><br>ちょうど出雲が鼻になるのです。<br><br>それで素盞嗚尊が朝鮮から出雲に渡来して、あそこで日本を統治されたということは、あそこが鼻になるのです。<br><br>それで鼻が素盞嗚尊になるのです。<br><br>ですからいろいろなことにそういうことが現われてきます。<br><br>始めということを「ハナ」とよく言います。<br><br>それから越後の方は「コシの国」で腰というわけです。<br><br>そこで越後の新発田は肛門になるのです。<br><br>それであそこは後ろですが、前の方は東京になる。<br><br>そうすると女ばかりですが、やはり男と女と両方になる。<br><br>将来は伊都能売になる。<br><br>それで伊豆半島が男の道具になる。<br><br>そんなわけでいろんな神秘はなかなかおもしろいのです。<br><br>で、日本はつまり霊的の根本になるわけです。<br><br>ですから富士山なんかは日本の臍ばかりでなく世界の臍になるのです。<br><br>富士山がちょうど地軸の大黒柱みたいな中心なのです。<br><br>ですからあれはただ形の良いというばかりでなく、そういったような重大な意味があるのです。<br><br>ですから世界中の今までの文化は西でできた文化ですが、それが日本に来た。<br><br>それはめちゃくちゃにできたものですが、それを日本ですっかり整理して本当の良いものにして、それをまた西の方に、さっき「濁水が押し寄せて来たのをきれいにして押し返す」ということがありましたが、そういう意味です。<br><br>そうしていろんな悪の目的に作ったものを、今度はすっかり清いものにして世界中に押し戻すわけです。<br><br>それがメシヤ教の仕事なのです。<br><br>とてつもない大きなものです。<br><br>そういうようなわけで、私は先に大本教にいた時分に、ある所で講演した時にこういう話をしたことがあります。<br><br>その時分にフォードの自動車会社が方々に支社を作って、車は車、エンジンはエンジン、ボディーはボディーと専門的にこしらえる工場を持って、そこから本社の方に送って本社の方で組み立てて、完全な自動車として売り出すという組織になってますが、日本はちょうどそういったフォード会社と同じようなもので、方々でできた文化を組み立てて、本当に使い道になるようにして、そうして人間がそのお蔭をこうむるというように考えれば良く分かる。<br><br>ですから日本には支那文化も西洋文化も、各国の文化がみんな入っている。<br><br>それをみんな組み立てて本当のものにして、世界中の人間の役に立てるというように考えると一番良く分かる、と言って講演したことがありますが、それが日本の使命なのです。<br><br> それから日本は太陽の国ですからして、太陽の光は白です。<br><br>白ですが、ふつう太陽の光は七色といって、道具があって回転すると白になりますが、あれと同じです。<br><br>日本の天皇の「皇」という「すべる」という字は、白の王と書いてありますが、あれが日本を「すべる」という意味なのですが、字も実によくできているのです。<br><br>「皇」の字は白の王としてありますが、白というのは「ノ」の字が天から天降ったという形です。<br><br>そうして日ですから、つまり「ス」が天から下がった。<br><br>それで王というのは日月地を貫くというのですから、あの字一字でもそれだけの意味が含まれている。<br><br>そこに各国のそれぞれの色がありますからその色を日本で総合した総合文化、そうして白にする。<br><br>だから今まで思想でも宗教でもなんでも、その国の特有の色があるのです。<br><br>ところが日本はそういう色を総合して、白にして、それがつまり本当のミロクの代の文化になるわけです。<br><br>そういう根本を知っていれば、日本という国はいかに尊い、たいした国かということが分かりますが、それを知らないから例の劣等感という、外国の方が上だ、どうも日本人の方が劣っているように思いたがるのです。<br><br>それは根本を知らないからで、その根本を私はだんだん知らせようと思ってます。<br><br>ところが講和前は、日本の優秀性なんかを言うと、アメリカがにらみますから言うことはできない。<br><br>そうかといって天皇制時代にはそういうことは言えない。<br><br>うっかり言うとたいへんなことになります。<br><br>ようやく今日はそういうことが言えるようになったのです。<br><br>こういう時節というものも、やっぱり神様がこしらえたのです。<br><br>日本人がそういうことをだんだん知ると、劣等感はなくなりますし、自尊心が起ってきます。<br><br>日本人は立派な使命を持っている、日本が世界を救うのだ、という気持ちだけでも、日本人は汚いことや悪いことはよほどできにくくなります。<br><br>やっぱり劣等感なんかがあるために、悪いことやなにかをする。<br><br>つまり政治家などが汚い闇的なことを好んでするということは、やはり自分を安っぽいものに思っているのです。<br><br>ですから人間はうぬぼれてはいけないが、自分の導いことと大きな使命を持っていることを知るということが一番立派な人間になるのです。<br><br>ですから今度の選挙も、アメリカは公明選挙ということは言いません。<br><br>公明選挙ということは言う必要がないからです。<br><br>別に、民主党の方ではだいぶ買収したという話は聞いたことはぜんぜんないでしょう。<br><br>ところが日本は今年が今までの選挙違反では一番多かった。<br><br>ところが今年は公明選挙と言っているが、かえって公明選挙ということは言わない方が良い。<br><br>というのは逆効果になっている。<br><br>というのは日本人というのは、今言う自信がない、自尊心がないのです。<br><br>その点が一番なわけです。<br><br>そうかといって先の戦争の時の軍部などは大いに自尊心はあったのです。<br><br>その自尊心が違っていたのです。<br><br>人を殺す方の自尊心だったのです。<br><br>悪い意味の自尊心です。<br><br>これを良い意味の自尊心に変えるわけです。<br><br>ですからメシヤ教は大いにそういった自尊心を知らせたいと思っているのです。<br><br>そういういろんなことも、これからだんだん本当のことが言えます。<br><br>ですからあらゆるものを良く外国と比べてみると、日本という国がいかに尊い国かということがだんだん分かってきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Significado da Luz do Oriente</h2>
 <p>Todas as religiões, invariavelmente, constroem hospitais. No que concerne a este ponto, escrevi um artigo expondo detalhadamente por que a Igreja Messiânica se abstém por completo de tal prática. Solicito que procedam à sua leitura.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>O Japão é a nação do Sol, e a luz solar é branca. Embora se diga que a luz do Sol possui sete cores, quando estas são rotacionadas em um disco, o resultado é o branco. O mesmo princípio se aplica aqui. O ideograma para “Imperador” (皇), pronunciado “suberu”, é composto por “branco” (白) sobre “rei” (王). Ele encerra o significado de “governar o Japão”, e sua estrutura é de uma precisão notável. O caractere “branco” (白) representa a letra “no” (ノ) descendo do céu, simbolizando o Sol. O ideograma “rei” (王) representa a conexão entre o Céu, o Homem e a Terra. Um único caractere contém todo esse profundo significado. Cada nação possui sua cor característica, e o Japão tem a incumbência de unificar essas cores, transformando-as no branco. Essa será a cultura unificada, a cultura sintética. Todas as ideologias e religiões existentes até hoje carregam a cor peculiar de sua nação de origem. O Japão, no entanto, irá sintetizar todas essas cores no branco, que representa a autêntica cultura da Era de Miroku.</p>
 <p>Aquele que compreende esses fundamentos percebe quão nobre e grandiosa é a nação japonesa. Aquele que os ignora, por outro lado, desenvolve o conhecido complexo de inferioridade, a tendência a supervalorizar o estrangeiro e a se julgar inferior. Isso decorre do desconhecimento da verdade fundamental, e minha intenção é revelá-la gradualmente. Antes do tratado de paz, era impossível falar sobre a superioridade japonesa, pois isso atrairia a hostilidade dos americanos. E, na era do sistema imperial, tais declarações também eram impensáveis e poderiam acarretar graves consequências. Somente agora, finalmente, tornou-se possível abordar esses assuntos. A própria chegada deste tempo foi obra de Deus. À medida que o povo japonês tomar consciência desses fatos, o complexo de inferioridade desaparecerá, dando lugar ao amor-próprio. A consciência de possuir uma nobre missão, a convicção de que o Japão salvará o mundo, inibirá consideravelmente a prática de atos ignóbeis e malignos. É justamente a presença de um complexo de inferioridade que leva as pessoas a cometerem atos reprováveis. O fato de políticos, por exemplo, se entregarem a práticas obscuras e corruptas revela que eles próprios se veem como pessoas de pouco valor. O ser humano não deve ser arrogante, mas o caminho para se tornar uma pessoa verdadeiramente nobre é conhecer sua própria dignidade e a grandiosidade de sua missão.</p>
 <p>Veja-se o caso das recentes eleições. Nos Estados Unidos, não se fala em “eleições limpas”, pois a lisura do processo é pressuposta. Jamais se ouviu falar de compra de votos em larga escala pelo Partido Democrata, por exemplo. No Japão, por outro lado, este ano registrou o maior número de infrações eleitorais da história. Embora se promova o ideal de “eleições limpas”, talvez fosse melhor não mencioná-lo, pois isso está gerando um efeito reverso. A raiz do problema reside naquilo que venho mencionando: a ausência de autoconfiança e de amor-próprio no povo japonês. Esse é o ponto crucial. O militarismo do período da guerra, é verdade, possuía um grande amor-próprio, mas este estava desvirtuado. Era um orgulho fundamentado na capacidade de matar, um amor-próprio nefasto. Nossa missão é transmutar esse amor-próprio nefasto em sua forma virtuosa. A Igreja Messiânica anseia por despertar essa nobre consciência. Sobre esses e muitos outros assuntos, poderei, doravante, expor gradualmente a verdade. Uma análise comparativa criteriosa entre o Japão e as demais nações revelará, pouco a pouco, quão sagrada é a nossa pátria.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年11月7日） 『御教え集』16号、昭和27(1952)年12月15日発行 昭和二十七年十一月七日 どこの宗教でもみんな病院を作っていますが、それについてメシヤ教ではぜんぜん病院を作らないということを、できるだけ徹底して書いたので今読ませます。<br/><br/> （御論文「宗教と病院」）【栄光 一八一号】 それから注意したいことは、お医者さんにかかっていながら、こっちの浄霊で病気が治った場合に、お医者さんはびっくりして、こんなはずはない、どうして治ったのですか、と、よく聞きますが、そういう時にあんまり正直に言うとお医者さんも気を悪くするとか、あるいはなにか差し障りがあるように思って本当のことを言わないで、いい加減のことを言う人がよくあるのですが、以前はそういうことであんまり刺激して、妨害されてはいけないので加減したこともありましたが、今日ではそんな必要はないのです。<br/><br/>ないどころか、大いにメシヤ教の浄霊という方法で治ったということを、はっきり言った方が良いのです。<br/><br/>嘘ではなく本当なのですから、なるべく詳しくありのままを言うのです。<br/><br/>そうしてお医者さんに、どうせ分かりゃしませんが、とにかく一つの刺激を与えておくのです。<br/><br/>そうすると、これがあっちでもこっちでもあるとお医者さん同士で、メシヤ教というのは不思議だ、われわれの方で治らないようなものをドンドン治している。<br/><br/>これは問題だという、そういったお医者さん仲間で評判になると、非常に良いのです。<br/><br/>というのは、今度の『アメリカを救う』という本が出ると、随分問題になると思います。<br/><br/>ところがふだんから、それは君嘘じゃないよ、僕はこういう経験がある。<br/><br/>そういうようなことをお医者さんでも言う人があるでしょうから、そうすると本に書いてあることをそうとう信頼をもって読みますから、良いことになりますから、これからは今言ったような方針でやらなければならないと思って、ちょっと注意したのです。<br/><br/> それからこの間京都に行く時に名古屋に寄って、名古屋の体育館の会場で「東方の光」について話をしたのです。<br/><br/>それはあの時だけしか話しませんから、今度『栄光』にもっと詳しく書いて出そうと思ってます。<br/><br/>それを読ませます。<br/><br/> （御論文「東方の光」）【栄光 一八二号】 「東方の光」ということが一番肝腎なのです。<br/><br/>私のことを「お光様」と言い出したのは『静岡新聞』なのです。<br/><br/>『静岡新聞』が初めて「お光様」ということを書いたのです。<br/><br/>それで私はうまいことを言うなと思ったのです。<br/><br/>それはいくらか侮辱のようにも聞こえますが、またすばらしく立派な文字になってますから、それが一般に「お光様」と言われるようになったのです。<br/><br/>ですからあれも神様から言わせられたものです。<br/><br/>で、今言ったように私のお腹に光の玉があって、その光がたいへんなものなのです。<br/><br/>今まで西から東に、文化と言いますか、なにからなにまで向こうから来たのです。<br/><br/>これは逆であったわけです。<br/><br/>東が霊で西が体ですから、体主霊従というのはそこから来たといっても良いです。<br/><br/>そのために体的文化が発達してきたという、本当の幸福な文化はできなかったというのは逆であったからです。<br/><br/>始終言う医学でもそうです。<br/><br/>体を治すと言うのです。<br/><br/>こっちは霊を治すのです。<br/><br/>ですからこっちは浄霊で、医学の方は浄体と言いたいが、「浄」でなく「濁」です。<br/><br/>ですから当然東から霊的文化が生まれなければならないのです。<br/><br/>それで、それに対して霊的は中心ですが、やはり霊ばかりではしようがないので、体が肝腎なのです。<br/><br/>そこで西から作った体の文化を、東から出た本当の、つまり中身です。<br/><br/>それによって西の文化を、今まで悪いことに使っていたのを良いことに使うように変えるのです。<br/><br/>爆弾を落とす飛行機を、早く旅行のできるようにする。<br/><br/>人間を苦しめたものを楽しむものにするということが、やはり東から出なければならないのです。<br/><br/>ですからそう考えれば別に不思議もなければ、変わってもいません。<br/><br/>ところが今までは西の文化ばかりで、それが本当のように思うから、それと反対の東の文化がちょっと分かりにくいのです。<br/><br/>こんなこと（御浄霊）をして病気が治るということが分からないというのは、そういうようなわけです。<br/><br/> それで、房州の乾坤山日本寺というのは、とにかく乾坤山というのは天地乾坤といって宇宙を言うのです。<br/><br/>それから日本寺というのは、日の本寺ですが、こういうのも神様がそういう名前をつけたというのはおもしろいと思います。<br/><br/>お寺の名前で日本寺というのはありません。<br/><br/>で、あそこから日の神様、天照大御神が出られたのです。<br/><br/>それで日蓮上人は七百数十年前ですが、今年は日蓮上人の七百年祭といっているが、あれは法華経を唱えてから七百年です。<br/><br/>それで清澄山というのは日本寺から一、二里東の方ですが、その時が最奥天国の霊界に日が出たのです。<br/><br/>それからだんだん現界に写るまでにそれだけの年限がかかったのです。<br/><br/>それで日本寺のある所は保田という所です。<br/><br/>「ホタ」というのは、「ホト」という言葉が転化したのです。<br/><br/>「ホト」というのは女の陰部です。<br/><br/>『古事記』にありますが、なんとかいう女の神様に、天から槍が落ちてきて「ホト」に怪我をさせたということがあります。<br/><br/>それで東京湾というものが女の陰部になるわけです。<br/><br/>それで東京が子宮にあたるのです。<br/><br/>ですから体的にはそういうわけなのです。<br/><br/>それで私は東京から生まれたというわけなのです。<br/><br/>これは細かく話すともっとおもしろいのですが、大体それで分かると思います。<br/><br/>それで富士山が臍になるのです。<br/><br/>日本の国というのは龍の形ですが、これは国常立尊という神様が大地を造る時に龍神になって造られたその形なのです。<br/><br/>それが日本の形になっている。<br/><br/>で、瀬戸内海は口を開いている所です。<br/><br/>それで山陰山陽が上の方になって、四国が顎になるわけです。<br/><br/>それで九州を呑み込んでいる形なのです。<br/><br/>九州というのは世界の型なのです。<br/><br/>北海道から千島の方が尾になって、日本海が背中になって大平洋が腹になっている。<br/><br/>これからそういう神秘がいろいろありますから分かってきます。<br/><br/>ちょうど出雲が鼻になるのです。<br/><br/>それで素盞嗚尊が朝鮮から出雲に渡来して、あそこで日本を統治されたということは、あそこが鼻になるのです。<br/><br/>それで鼻が素盞嗚尊になるのです。<br/><br/>ですからいろいろなことにそういうことが現われてきます。<br/><br/>始めということを「ハナ」とよく言います。<br/><br/>それから越後の方は「コシの国」で腰というわけです。<br/><br/>そこで越後の新発田は肛門になるのです。<br/><br/>それであそこは後ろですが、前の方は東京になる。<br/><br/>そうすると女ばかりですが、やはり男と女と両方になる。<br/><br/>将来は伊都能売になる。<br/><br/>それで伊豆半島が男の道具になる。<br/><br/>そんなわけでいろんな神秘はなかなかおもしろいのです。<br/><br/>で、日本はつまり霊的の根本になるわけです。<br/><br/>ですから富士山なんかは日本の臍ばかりでなく世界の臍になるのです。<br/><br/>富士山がちょうど地軸の大黒柱みたいな中心なのです。<br/><br/>ですからあれはただ形の良いというばかりでなく、そういったような重大な意味があるのです。<br/><br/>ですから世界中の今までの文化は西でできた文化ですが、それが日本に来た。<br/><br/>それはめちゃくちゃにできたものですが、それを日本ですっかり整理して本当の良いものにして、それをまた西の方に、さっき「濁水が押し寄せて来たのをきれいにして押し返す」ということがありましたが、そういう意味です。<br/><br/>そうしていろんな悪の目的に作ったものを、今度はすっかり清いものにして世界中に押し戻すわけです。<br/><br/>それがメシヤ教の仕事なのです。<br/><br/>とてつもない大きなものです。<br/><br/>そういうようなわけで、私は先に大本教にいた時分に、ある所で講演した時にこういう話をしたことがあります。<br/><br/>その時分にフォードの自動車会社が方々に支社を作って、車は車、エンジンはエンジン、ボディーはボディーと専門的にこしらえる工場を持って、そこから本社の方に送って本社の方で組み立てて、完全な自動車として売り出すという組織になってますが、日本はちょうどそういったフォード会社と同じようなもので、方々でできた文化を組み立てて、本当に使い道になるようにして、そうして人間がそのお蔭をこうむるというように考えれば良く分かる。<br/><br/>ですから日本には支那文化も西洋文化も、各国の文化がみんな入っている。<br/><br/>それをみんな組み立てて本当のものにして、世界中の人間の役に立てるというように考えると一番良く分かる、と言って講演したことがありますが、それが日本の使命なのです。<br/><br/> それから日本は太陽の国ですからして、太陽の光は白です。<br/><br/>白ですが、ふつう太陽の光は七色といって、道具があって回転すると白になりますが、あれと同じです。<br/><br/>日本の天皇の「皇」という「すべる」という字は、白の王と書いてありますが、あれが日本を「すべる」という意味なのですが、字も実によくできているのです。<br/><br/>「皇」の字は白の王としてありますが、白というのは「ノ」の字が天から天降ったという形です。<br/><br/>そうして日ですから、つまり「ス」が天から下がった。<br/><br/>それで王というのは日月地を貫くというのですから、あの字一字でもそれだけの意味が含まれている。<br/><br/>そこに各国のそれぞれの色がありますからその色を日本で総合した総合文化、そうして白にする。<br/><br/>だから今まで思想でも宗教でもなんでも、その国の特有の色があるのです。<br/><br/>ところが日本はそういう色を総合して、白にして、それがつまり本当のミロクの代の文化になるわけです。<br/><br/>そういう根本を知っていれば、日本という国はいかに尊い、たいした国かということが分かりますが、それを知らないから例の劣等感という、外国の方が上だ、どうも日本人の方が劣っているように思いたがるのです。<br/><br/>それは根本を知らないからで、その根本を私はだんだん知らせようと思ってます。<br/><br/>ところが講和前は、日本の優秀性なんかを言うと、アメリカがにらみますから言うことはできない。<br/><br/>そうかといって天皇制時代にはそういうことは言えない。<br/><br/>うっかり言うとたいへんなことになります。<br/><br/>ようやく今日はそういうことが言えるようになったのです。<br/><br/>こういう時節というものも、やっぱり神様がこしらえたのです。<br/><br/>日本人がそういうことをだんだん知ると、劣等感はなくなりますし、自尊心が起ってきます。<br/><br/>日本人は立派な使命を持っている、日本が世界を救うのだ、という気持ちだけでも、日本人は汚いことや悪いことはよほどできにくくなります。<br/><br/>やっぱり劣等感なんかがあるために、悪いことやなにかをする。<br/><br/>つまり政治家などが汚い闇的なことを好んでするということは、やはり自分を安っぽいものに思っているのです。<br/><br/>ですから人間はうぬぼれてはいけないが、自分の導いことと大きな使命を持っていることを知るということが一番立派な人間になるのです。<br/><br/>ですから今度の選挙も、アメリカは公明選挙ということは言いません。<br/><br/>公明選挙ということは言う必要がないからです。<br/><br/>別に、民主党の方ではだいぶ買収したという話は聞いたことはぜんぜんないでしょう。<br/><br/>ところが日本は今年が今までの選挙違反では一番多かった。<br/><br/>ところが今年は公明選挙と言っているが、かえって公明選挙ということは言わない方が良い。<br/><br/>というのは逆効果になっている。<br/><br/>というのは日本人というのは、今言う自信がない、自尊心がないのです。<br/><br/>その点が一番なわけです。<br/><br/>そうかといって先の戦争の時の軍部などは大いに自尊心はあったのです。<br/><br/>その自尊心が違っていたのです。<br/><br/>人を殺す方の自尊心だったのです。<br/><br/>悪い意味の自尊心です。<br/><br/>これを良い意味の自尊心に変えるわけです。<br/><br/>ですからメシヤ教は大いにそういった自尊心を知らせたいと思っているのです。<br/><br/>そういういろんなことも、これからだんだん本当のことが言えます。<br/><br/>ですからあらゆるものを良く外国と比べてみると、日本という国がいかに尊い国かということがだんだん分かってきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgosin02</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御神体、御書の奇蹟 吾子の眼に映ずる神の御姿 『栄光』151号、昭和27(1952)年4月9日発行 神奈川県 明成中教会 森 明代子（33） この度、御神体並びに御書の御文字の中に、神様のお姿が拝されるという御恵を吾子を通じ頂きました事につき、謹みて御報告をさせて頂きます。<br><br> 昨年十一月三日、二、三日前より次男光一（六歳、昭和二十四年八月御守様拝受）が下痢の御浄化を頂いており「今日は僕寝てようかな」と申しますので、御浄霊をさせて頂きましたところ、御神体に「のんのんさんがみてる、のんのんさんが見てる」と申します。<br><br>私はびっくりしました。<br><br>ああ、お姿が拝めるのだと直感し「だって御神体は御文字だけでしょう」と申しますと、じっと御神体を見て「お母ちゃんほらこっちを、ちゃんと僕の方見てるだろう、僕の方見てるだろう」と繰返して申します。<br><br>「どこにいらっしゃるの」と聞き返しますと、大光明如来様の「明」の御文字の所を指差して「ここにちゃんといるじゃないか」と申します。<br><br>子供の言葉はそのまま私にも本当に尊い響きをもって感じられ、思わず合掌致しました。<br><br> 同月二日の御参拝日に、御本部にて教師会の折、会長先生様に申し上げまして、御本部の御神体を拝ませて頂きました。<br><br>光一は背のびするようにして、「明」と「如」の所を指差し「二人いる二人いる」と申します。<br><br>今度は御書体につき拝ませて頂きました。<br><br>明成の御額は「成」に、日月は「日」、円通自在は「円」、地上天国は「地」、天地開明は「開」、大経綸は「大」、経の御書、大神力は「力」、散花結実は「結」、両手で高く抱き上げて子供の指差す御文字を皆一斉に見守るのでした。<br><br>御色紙、御短冊は御落款の「主印」、会長先生の資格証は、明主様の「主」の御文字でございました。<br><br> 又、支部及び自宅の御神体は「明」、地上天国は「地」、御色紙等は前と同じでございました。<br><br> その後、二十一日御神苑御参拝の折、建設の御額を拝し、私は気付かずにおりましたところ「建」の御文字を指して、「お母ちゃんここにも、のんのさんいますね」と申します。<br><br> その間子供の状態は別に普段と変りなく、御浄化も軽く済ませて頂いておりましたので特に御浄霊も頂かずに過させて頂いておりました。<br><br>その後は別に聞きもせずにおりましたが、一月になって再び聞いてみましたが「もう、のんのちゃんいない」と申しました。<br><br>六歳の子供の事ゆえ、どんなお姿？ と申しましてもはっきりした表現が出来ず、ただ両足を組んでその足をなめているような恰好を致します。<br><br>御本部のお姿は支部や自宅の御神体のお姿とは違うと申します。<br><br>勿論字などわからぬまま、指差した御文字を指で形を示して見せます。<br><br> 今まで、お光の見えるおかげ話を種々拝読させて頂きましたが、私も吾子の口からそうした奇蹟をみせて頂き、ただただ有難さと驚きとに胸一ぱいの気持でした。<br><br>川柳に、負うた子に浅瀬を教えられて渡るという意味の句がありましたが、この度の御恵も、神様が無心なる子供を通じて私達に神の実在をお知らせ下され、お救い下さる大愛の御恵であると存じます。<br><br>再びかような奇蹟を頂ける事はないと思うと、勿体ないと思われる許りで日々御神前に額ずきますごとに、そのことが脳裡に甦り、一層お道に精進させて頂けますよう御祈念申し上げさせて頂いております。<br><br> 御神体はもとより、御書体のすべてに尊き大御霊魂を戴き、御守護を賜わっていることを思うと、神様の御用をさせて頂く身の幸福に、ただただ感涙に咽ぶばかりでございます。<br><br>微力ではございますが、一層お道のため御奉仕の誠をいたさせて頂き、この尊いお道を世の多くの人々に伝えさせて頂けますよう念願しております。<br><br>明主様誠に有難うございました。<br><br> （昭和二十七年三月十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Sagrada Imagem de Deus Refletida nos Olhos de Meu Filho</h2>
 <p><strong>Coletânea de Artigos do Reverendo Jikan Okada</strong>
@@ -103,5 +258,48 @@ function toggleLang(lang) {
 <p>A simples lembrança de que uma sublime Alma Divina habita não apenas no Altar Sagrado, mas em toda a caligrafia de Meishu-Sama, protegendo-nos constantemente, faz com que me embargue em lágrimas de gratidão. Diante da imensa felicidade que é poder servir a Deus, sinto-me comovida. Embora minha capacidade seja ínfima, rogo para poder dedicar-me com ainda mais sinceridade ao serviço da Obra Divina e transmitir este Caminho sagrado ao maior número de pessoas.</p>
 <p>Meishu-Sama, muito, muito obrigada.</p>
 <p>(15 de março de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御神体、御書の奇蹟 吾子の眼に映ずる神の御姿 『栄光』151号、昭和27(1952)年4月9日発行 神奈川県 明成中教会 森 明代子（33） この度、御神体並びに御書の御文字の中に、神様のお姿が拝されるという御恵を吾子を通じ頂きました事につき、謹みて御報告をさせて頂きます。<br/><br/> 昨年十一月三日、二、三日前より次男光一（六歳、昭和二十四年八月御守様拝受）が下痢の御浄化を頂いており「今日は僕寝てようかな」と申しますので、御浄霊をさせて頂きましたところ、御神体に「のんのんさんがみてる、のんのんさんが見てる」と申します。<br/><br/>私はびっくりしました。<br/><br/>ああ、お姿が拝めるのだと直感し「だって御神体は御文字だけでしょう」と申しますと、じっと御神体を見て「お母ちゃんほらこっちを、ちゃんと僕の方見てるだろう、僕の方見てるだろう」と繰返して申します。<br/><br/>「どこにいらっしゃるの」と聞き返しますと、大光明如来様の「明」の御文字の所を指差して「ここにちゃんといるじゃないか」と申します。<br/><br/>子供の言葉はそのまま私にも本当に尊い響きをもって感じられ、思わず合掌致しました。<br/><br/> 同月二日の御参拝日に、御本部にて教師会の折、会長先生様に申し上げまして、御本部の御神体を拝ませて頂きました。<br/><br/>光一は背のびするようにして、「明」と「如」の所を指差し「二人いる二人いる」と申します。<br/><br/>今度は御書体につき拝ませて頂きました。<br/><br/>明成の御額は「成」に、日月は「日」、円通自在は「円」、地上天国は「地」、天地開明は「開」、大経綸は「大」、経の御書、大神力は「力」、散花結実は「結」、両手で高く抱き上げて子供の指差す御文字を皆一斉に見守るのでした。<br/><br/>御色紙、御短冊は御落款の「主印」、会長先生の資格証は、明主様の「主」の御文字でございました。<br/><br/> 又、支部及び自宅の御神体は「明」、地上天国は「地」、御色紙等は前と同じでございました。<br/><br/> その後、二十一日御神苑御参拝の折、建設の御額を拝し、私は気付かずにおりましたところ「建」の御文字を指して、「お母ちゃんここにも、のんのさんいますね」と申します。<br/><br/> その間子供の状態は別に普段と変りなく、御浄化も軽く済ませて頂いておりましたので特に御浄霊も頂かずに過させて頂いておりました。<br/><br/>その後は別に聞きもせずにおりましたが、一月になって再び聞いてみましたが「もう、のんのちゃんいない」と申しました。<br/><br/>六歳の子供の事ゆえ、どんなお姿？ と申しましてもはっきりした表現が出来ず、ただ両足を組んでその足をなめているような恰好を致します。<br/><br/>御本部のお姿は支部や自宅の御神体のお姿とは違うと申します。<br/><br/>勿論字などわからぬまま、指差した御文字を指で形を示して見せます。<br/><br/> 今まで、お光の見えるおかげ話を種々拝読させて頂きましたが、私も吾子の口からそうした奇蹟をみせて頂き、ただただ有難さと驚きとに胸一ぱいの気持でした。<br/><br/>川柳に、負うた子に浅瀬を教えられて渡るという意味の句がありましたが、この度の御恵も、神様が無心なる子供を通じて私達に神の実在をお知らせ下され、お救い下さる大愛の御恵であると存じます。<br/><br/>再びかような奇蹟を頂ける事はないと思うと、勿体ないと思われる許りで日々御神前に額ずきますごとに、そのことが脳裡に甦り、一層お道に精進させて頂けますよう御祈念申し上げさせて頂いております。<br/><br/> 御神体はもとより、御書体のすべてに尊き大御霊魂を戴き、御守護を賜わっていることを思うと、神様の御用をさせて頂く身の幸福に、ただただ感涙に咽ぶばかりでございます。<br/><br/>微力ではございますが、一層お道のため御奉仕の誠をいたさせて頂き、この尊いお道を世の多くの人々に伝えさせて頂けますよう念願しております。<br/><br/>明主様誠に有難うございました。<br/><br/> （昭和二十七年三月十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>heiwa02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 平和の英雄 『栄光』199号、昭和28(1953)年3月11日発行 今日英雄という言葉を聞いただけでも、何かしら崇拝の念が起るのは誰しもそうだろうが、その半面どうも割切れないものを感ずるのも私ばかりではあるまい。<br><br>というのは一抹（いちまつ）の哀愁の湧く事である。<br><br>考えるまでもなく、英雄というものの史実に現われた事績をみても分る通り、彼らが歴史の舞台の上に、華やかに躍ったその裏には、自己の利欲のためその時代の大衆を犠牲にし、恐るべき惨害を与えたその罪禍は打ち消す事は出来ないからである。<br><br>といっても一面また吾々にとって感謝してもいい面もある。<br><br>それは今日文学、劇、映画等に見る彼らが創作したシナリオの、いかに吾々を楽しませてくれるかである。<br><br> それはそれとして、どうも世の中では英雄と偉人とを混同しているようである。<br><br>というのは彼（か）のキリスト、釈迦、マホメットの三大聖者にしても、なるほど偉人には違いないが、英雄ではない。<br><br>これはちょっと考えても分る通り、彼らの業績である。<br><br>彼らが聖者として精神的に飽くまで人類を救おうとしたのは今更言うまでもないが、これを科学と対照してみる時、今日のごとき絢爛（けんらん）たる文化を創造されたのは無論科学の業績ではあるが、これは表面に現われたものであって、別の面における宗教家の活動も見逃してはならないのである。<br><br>とはいうもののこの方は目に見えないためか、余り関心を持たれなかった。<br><br>それどころかどちらも相反するものと誤られた事であって、このためどのくらい人類不幸の原因を作ったか知れない。<br><br>ところが事実は物質と精神、表と裏、陽と陰といったように、両々相まって現在のごとく文明は進歩発達して来たのであって、もちろんこれは主神（すしん）の経綸であったのである。<br><br>そうして人的からいえば物質面は英雄と学者の功績であり、精神面は宗教的聖者の功績であったのである。<br><br> しかし以上のごとくにして文明はこれまで発展はして来たものの、これ以上の期待は最早かけられないのであって、それは文明の行詰りである。<br><br>事実人類の不幸不安は増すばかりであるに見て分る通り、このままでは人類の理想たる平和幸福の世界は、いつになったら実現するや見当もつかないのである。<br><br>従ってどうしても現在文明の一大飛躍によって、一層高度の文明を築き上げねばならないのは言うまでもない。<br><br>ところが幸いなるかなその時は来たのである。<br><br>すなわち私という者に神はその根本を明確に知らされ給うと共に、大いなる力をも与えられたのであって、今やその実行に取り掛ったのである。<br><br>というと余りにも大言壮語的なので驚くであろうし、自画自讃と思うかも知れないが、真実であるからどうにもならないので、何よりも今後の世界の推移と、これに伴（ともな）う私の仕事を刮目（かつもく）すれば、右の言の偽りない事が分るであろう。<br><br> 話は後〔前〕へ戻るが、科学と宗教について今少し言いたい事は今日までの宗教は根本が小乗的である事である。<br><br>すなわちどの開祖の言説もそれ程深くはなかった。<br><br>何よりも迷いが多く真の安心立命は得られなかったにみて分るであろう。<br><br>これも時期の関係上止むを得ないが、私は最高神から無限絶対の根本まで知らされたのである。<br><br>しかしこれは今説く事は許されないから、ある程度までかくのである。<br><br>それについてあらゆる既成宗教を見ても分る通り、その救いの方法としては、文字による聖典と言葉による説教との大体この二つであろう。<br><br>その他としては山岳や土地の開発などを主なるものとし、建造物、宗教芸術品等が、遺産として残されているのであって、深く検討してみる時、今後の世界をリードする程の力はあり得ないと思うのである。<br><br> ここで私の事をかかねばならないが、私は知らるるごとく現在小規模ながら日本における箱根、熱海、京都三箇所の風光明媚（めいび）なる所を選んで聖地とし、地上天国の模型を造っている。<br><br>その構想は内外の特長を調和したパラダイス、山水の美を取入れた大庭園、美術の殿堂、宗教的型破りの建築物等の外、医学、農業の革命的啓発に専念しており、また驚異的無数の奇蹟によって神の実在を万人に認識させる等、前人未踏の方法によって教線を拡げつつあるのである。<br><br>もちろんそのことごとくはいかなる宗教にも全然なかったところの物ばかりであって、これこそ真善美完（まった）き世界の重要なる基礎的経綸であるのである。<br><br> 次に言いたい事は、今後における本教の建設的諸般の事業であるが、これも最後までの設計は私の頭の中に出来上っており、時を待つばかりになっている。<br><br>といっても時の進むに従い、漸次具体化するのは言うまでもないが、それは想像もつかない程の大規模なものであって、言わば新文明世界の創造であるから、これにみても本教は宗教ではないので、適当な命名さえ出来ないのである。<br><br>しかも今日まで神示通り運んで来たので、その正確さに私自身も驚いているくらいである。<br><br>何よりも本教の歴史を見ても分る通り、本教が宗教として発足したのが去る昭和二十二年八月であるから、僅々（きんきん）六カ年にして今日見るがごとき素晴しい発展振りであって、その間（かん）といえども官憲の圧迫、ジャーナリストの無理解、種々の妨害に遭いながらも以上のごとくであるとしたら、到底人間業とは思われないのである。<br><br>もちろん今後といえども神定（かんさだめ）のプログラム通りに進むに違いないと共に、いずれは世界を舞台としての大神劇の幕が切って落されるであろうから、この事を考えただけでも興味津々（しんしん）たるものがあり、しかも驚嘆すべき奇蹟も続出するであろうし、血湧き肉躍るような場面も展開されるであろうから、刮目（かつもく）して待たれたいのである。<br><br>つまり私という者は平和の英雄であると思っているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Herói da Paz</h2>
 <p>A simples menção da palavra “herói” desperta em nós, invariavelmente, um sentimento de reverência. Contudo, creio não ser o único a sentir, ao mesmo tempo, uma sensação indefinível, um certo tom de melancolia. Não é preciso refletir muito para compreender a razão disso. Ao observarmos os feitos dos heróis registrados na história, percebemos que, por trás de sua atuação esplendorosa no palco dos acontecimentos, sacrificaram as massas em prol de sua própria cobiça e causaram calamidades terríveis. Seu rastro de iniquidades é indelével. Contudo, há um aspecto pelo qual podemos lhes ser gratos: refiro-me ao deleite que nos proporcionam as narrativas de seus feitos, imortalizadas na literatura, no teatro e no cinema.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O que desejo abordar a seguir são os múltiplos empreendimentos construtivos de nossa Igreja para o futuro. O projeto final já está inteiramente delineado em minha mente, apenas aguardando o momento oportuno para sua execução. Naturalmente, ele se materializará de forma gradual, conforme o tempo avance. Trata-se de algo em uma escala que transcende a imaginação, pois representa, em essência, a criação de uma nova civilização. Por essa razão, nossa Obra não pode ser classificada como uma mera religião; de fato, não consigo sequer encontrar um nome que lhe seja apropriado. Até hoje, tudo transcorreu com exatidão conforme as revelações divinas, a ponto de eu mesmo me surpreender. Basta observar a história de nossa Igreja: sua fundação como entidade religiosa ocorreu em agosto de 1947. Em apenas seis anos, alcançou o notável desenvolvimento que vemos hoje, e isso apesar de ter enfrentado a opressão das autoridades, a incompreensão da imprensa e toda sorte de obstáculos. Tal feito não poderia ser obra de um ser humano.</p>
 <p>No futuro, não tenho dúvida de que tudo prosseguirá conforme o programa estabelecido por Deus, e em breve as cortinas se abrirão para um grandioso drama divino, cujo palco será o mundo inteiro. A simples contemplação desse porvir já é fascinante. Milagres assombrosos continuarão a ocorrer em sucessão, e cenas de tirar o fôlego se descortinarão. Peço, pois, que aguardem e observem com máxima atenção.</p>
 <p>Em suma, considero-me um herói da paz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 平和の英雄 『栄光』199号、昭和28(1953)年3月11日発行 今日英雄という言葉を聞いただけでも、何かしら崇拝の念が起るのは誰しもそうだろうが、その半面どうも割切れないものを感ずるのも私ばかりではあるまい。<br/><br/>というのは一抹（いちまつ）の哀愁の湧く事である。<br/><br/>考えるまでもなく、英雄というものの史実に現われた事績をみても分る通り、彼らが歴史の舞台の上に、華やかに躍ったその裏には、自己の利欲のためその時代の大衆を犠牲にし、恐るべき惨害を与えたその罪禍は打ち消す事は出来ないからである。<br/><br/>といっても一面また吾々にとって感謝してもいい面もある。<br/><br/>それは今日文学、劇、映画等に見る彼らが創作したシナリオの、いかに吾々を楽しませてくれるかである。<br/><br/> それはそれとして、どうも世の中では英雄と偉人とを混同しているようである。<br/><br/>というのは彼（か）のキリスト、釈迦、マホメットの三大聖者にしても、なるほど偉人には違いないが、英雄ではない。<br/><br/>これはちょっと考えても分る通り、彼らの業績である。<br/><br/>彼らが聖者として精神的に飽くまで人類を救おうとしたのは今更言うまでもないが、これを科学と対照してみる時、今日のごとき絢爛（けんらん）たる文化を創造されたのは無論科学の業績ではあるが、これは表面に現われたものであって、別の面における宗教家の活動も見逃してはならないのである。<br/><br/>とはいうもののこの方は目に見えないためか、余り関心を持たれなかった。<br/><br/>それどころかどちらも相反するものと誤られた事であって、このためどのくらい人類不幸の原因を作ったか知れない。<br/><br/>ところが事実は物質と精神、表と裏、陽と陰といったように、両々相まって現在のごとく文明は進歩発達して来たのであって、もちろんこれは主神（すしん）の経綸であったのである。<br/><br/>そうして人的からいえば物質面は英雄と学者の功績であり、精神面は宗教的聖者の功績であったのである。<br/><br/> しかし以上のごとくにして文明はこれまで発展はして来たものの、これ以上の期待は最早かけられないのであって、それは文明の行詰りである。<br/><br/>事実人類の不幸不安は増すばかりであるに見て分る通り、このままでは人類の理想たる平和幸福の世界は、いつになったら実現するや見当もつかないのである。<br/><br/>従ってどうしても現在文明の一大飛躍によって、一層高度の文明を築き上げねばならないのは言うまでもない。<br/><br/>ところが幸いなるかなその時は来たのである。<br/><br/>すなわち私という者に神はその根本を明確に知らされ給うと共に、大いなる力をも与えられたのであって、今やその実行に取り掛ったのである。<br/><br/>というと余りにも大言壮語的なので驚くであろうし、自画自讃と思うかも知れないが、真実であるからどうにもならないので、何よりも今後の世界の推移と、これに伴（ともな）う私の仕事を刮目（かつもく）すれば、右の言の偽りない事が分るであろう。<br/><br/> 話は後〔前〕へ戻るが、科学と宗教について今少し言いたい事は今日までの宗教は根本が小乗的である事である。<br/><br/>すなわちどの開祖の言説もそれ程深くはなかった。<br/><br/>何よりも迷いが多く真の安心立命は得られなかったにみて分るであろう。<br/><br/>これも時期の関係上止むを得ないが、私は最高神から無限絶対の根本まで知らされたのである。<br/><br/>しかしこれは今説く事は許されないから、ある程度までかくのである。<br/><br/>それについてあらゆる既成宗教を見ても分る通り、その救いの方法としては、文字による聖典と言葉による説教との大体この二つであろう。<br/><br/>その他としては山岳や土地の開発などを主なるものとし、建造物、宗教芸術品等が、遺産として残されているのであって、深く検討してみる時、今後の世界をリードする程の力はあり得ないと思うのである。<br/><br/> ここで私の事をかかねばならないが、私は知らるるごとく現在小規模ながら日本における箱根、熱海、京都三箇所の風光明媚（めいび）なる所を選んで聖地とし、地上天国の模型を造っている。<br/><br/>その構想は内外の特長を調和したパラダイス、山水の美を取入れた大庭園、美術の殿堂、宗教的型破りの建築物等の外、医学、農業の革命的啓発に専念しており、また驚異的無数の奇蹟によって神の実在を万人に認識させる等、前人未踏の方法によって教線を拡げつつあるのである。<br/><br/>もちろんそのことごとくはいかなる宗教にも全然なかったところの物ばかりであって、これこそ真善美完（まった）き世界の重要なる基礎的経綸であるのである。<br/><br/> 次に言いたい事は、今後における本教の建設的諸般の事業であるが、これも最後までの設計は私の頭の中に出来上っており、時を待つばかりになっている。<br/><br/>といっても時の進むに従い、漸次具体化するのは言うまでもないが、それは想像もつかない程の大規模なものであって、言わば新文明世界の創造であるから、これにみても本教は宗教ではないので、適当な命名さえ出来ないのである。<br/><br/>しかも今日まで神示通り運んで来たので、その正確さに私自身も驚いているくらいである。<br/><br/>何よりも本教の歴史を見ても分る通り、本教が宗教として発足したのが去る昭和二十二年八月であるから、僅々（きんきん）六カ年にして今日見るがごとき素晴しい発展振りであって、その間（かん）といえども官憲の圧迫、ジャーナリストの無理解、種々の妨害に遭いながらも以上のごとくであるとしたら、到底人間業とは思われないのである。<br/><br/>もちろん今後といえども神定（かんさだめ）のプログラム通りに進むに違いないと共に、いずれは世界を舞台としての大神劇の幕が切って落されるであろうから、この事を考えただけでも興味津々（しんしん）たるものがあり、しかも驚嘆すべき奇蹟も続出するであろうし、血湧き肉躍るような場面も展開されるであろうから、刮目（かつもく）して待たれたいのである。<br/><br/>つまり私という者は平和の英雄であると思っているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qyakudo4</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 薬毒を如実に体験 肺病、胃病治る 『結核の革命的療法』昭和26(1951)年8月15日発行 愛知県 一心中教会 柴田とよ（33） 私は一昨年十一月頃から微熱が出、肩が凝るというよりも何かで圧迫されるような気持で気分がすぐれず、食欲減じ、医師の診断の結果、左肺浸潤として絶対安静を命ぜられました。<br><br> その後は、医師の仰せのままに、栄養と薬、注射と養生第一に毎日を送りながらあっちこっちと医師も三、四人代え、診察もして頂きましたがはかばかしくなく、気分的にも少しも良くならないばかりか、強い注射の結果却って胃腸を痛めてしまいました。<br><br>そうなると胸以上に胃の痛みが苦痛となり、胃腸専門の病院に通うかたわらラジウム療法が良いと聞き、そちらへも毎日根気よく通ってもみ、人様が良いといわれる事なら何でも一応はためしてもみましたがなかなか胃の痛みが去らず、食欲が一そう減ずるばかりで夜も寝れず、ほとほと困っていた所へ、知人から注射でとてもよく治る医師を知っているからと聞かされ、喜んでお願いしてみたところ、胃潰瘍の初期だが十本も打てばよろしいでしようと言われ、早速続けているうち、本当に八本目頃から今迄の苦痛がなくなり急に元気になり、嬉しさのあまり外出したり少々家の事などで動き出したら一度にぶり返し、又々以前のように苦しみ、毎日ウンウンうなって注射で一応おさえていただきましたが今度は安静を命ぜられ、家の中を歩くのにも注意し、その間食物も軽いお魚、栄養のある、消化の良い物ばかりで三カ月あまり過したがあまりはかばかしくなく、苦痛と憂苦の日を送っていたところ、近所の伴さんから御浄霊の事を伺いましたが、何だか手をふった位でどうして病気が治り得ようと、即座に一笑してしまいました。<br><br>それから二、三日過すうち、痛みが夜昼となく続いて、食物もろくろくとれず、苦しまぎれにお願いに行きましたところ、その日、早速一心中教会の朝倉先生がお出で下さいまして、その時は幾分期待をかけて第一回目の御浄霊をしていただきました。<br><br>それが十一月十八日です。<br><br>翌日もお伺いして、先生の側でお待ちしている中、全身悪寒がして来ました。<br><br>それでもどうにか御浄霊をすませ、家へかえり、熱を計ったところ、三十九度の高熱です。<br><br>今迄長い間病身で過して参りましたが、三十九度以上の高熱は初めてですので、一時はズイ分驚きながらも、伴さんにお知らせして御浄霊を頂きましたが一向に熱は下らずまたまた先生にお願して一時間余も御浄霊していただきましたが変りありません。<br><br>その翌日も四十度以上の高熱と盗汗がつづきます。<br><br>ただ不思議な事は、それほど熱がありながら、頭を冷してほしいとは一度も思いません。<br><br>半信半疑の思いで、皆々様からの心配のあまり近所の医師に一度診ていただいてはといわれるまま診察して頂き、解熱剤を夜になって一服服用しましたところ、三十分もすぎると、ひどい胃の激痛になやまされ、熱だけは平熱に下ったが、三時間もするとまた元の高熱に戻ります。<br><br>益々不思議にかられながら、その翌日今度は一服の半分を服用してみたところ、やはり前夜と同様胃の激痛です。<br><br>長年薬と注射に頼っていた私も、初めて薬がいかに毒だという事を実際にみせつけられ、その後は朝倉先生と伴さんのお二人様の、誠を以ての御浄霊を続けて頂く中一週間目から徐々に熱も下り出し、食欲も少しずつ出てまいりました。<br><br>二十八日丁度十日目に、市野先生がわざわざお出で下され、種々不思議な有難いお話を伺いながら御浄霊をして頂き、その後、日に日に元気が出て来て、熱も盗汗もだんだんなくなり、気分的にも大変よく、不思議な事には高熱を出して以来、以前の胃痛はどこへやらほとんどなくなり、半分疑いながらも、目に見えない大きい神様のお力をみせられ、いよいよ私はこれで救われるのだと自信をもって来るようになりました。<br><br>ようやく寝床を上げると同時に、十二月十六日から三日間、無事御教修をいただき、有難いお守様を頂いた時は、もう今迄の迷いも疑いもなく、ただただ救われた嬉しさと有難さに、嬉し涙の出るのをどうする事も出来ませんでした。<br><br>三日間も寝床をはなれて、急に座り通しで翌日はさぞ疲れが出て、また寝床かと思っていたにも拘わらず、不思議に朝起きても何と気分のすがすがしい事でございましょう。<br><br>今迄長い間ろくろく外出も出来なかった私が、翌日遠方の病院に入院していられる人をお見舞に行く事が出来ました。<br><br>過去一カ年間、見舞われるばかりで、他人様をお見舞するという事は不可能だった。<br><br>私のその時の嬉しさもまた格別で、急に世の中が明るくなったような気持でうきうきしてとても朗らかになり、その日以来救われる道はただ一つ、明主様におすがり申すと同時におまかせ申すより他にない事を知らしめて戴き、感謝の日々をすごさせて頂いています。<br><br> 私ばかりでなく、主人が二十年来毎日頭痛に悩まされ、放した事のないノーシンの服用も私のような初心の者のしばらくの御浄霊で、必要もなくなり、過日主人も入信さして頂き、一家感謝の日々をすごさせて頂いています。<br><br>これも全く光明如来様の大慈悲と心よりお喜びさせて頂いており、今後も一そうこの有難い光明如来様におすがりし、病になやまされていられる方々に、一人でも多くこの御力の尊さをお知らせ致そうと、微力ながら御手伝いさせていただいています。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Experiência Real com o Veneno dos Remédios (A Cura da Tuberculose e de Doenças Estomacais)</h2>
 <p>Publicado em "O Tratamento Revolucionário da Tuberculose" em 15 de agosto de 1951
@@ -99,5 +254,48 @@ Província de Aichi - Igreja Ittyushin - Toyo Shibata (33 anos)</p>
 <p>Diante de um fenômeno tão intrigante, no dia seguinte resolvi tomar apenas metade da dose do medicamento. O resultado foi idêntico: a mesma dor atroz no estômago. Foi nesse momento que eu, que por tantos anos dependi de remédios e injeções, compreendi na prática o quão tóxicos eles são. A partir daquele instante, abandonei os medicamentos e continuei a receber o Johrei sincero e dedicado do Reverendo Asakura e da senhora Ban. Após uma semana, a febre começou a baixar gradualmente, e meu apetite, aos poucos, retornou. No dia 28, completando dez dias, o Reverendo Ichino fez a gentileza de vir à minha casa. Enquanto me ministrava Johrei, ouvi dele relatos maravilhosos e repletos de gratidão. Desde então, minha recuperação se acelerou. A febre e a sudorese noturna desapareceram progressivamente, meu estado de espírito melhorou consideravelmente e, para minha surpresa, as antigas dores de estômago, que me afligiam desde antes da febre alta, simplesmente se desvaneceram. Aquele poder divino, invisível aos olhos, dissipou minhas últimas dúvidas e me trouxe a certeza de que, por meio deste caminho, eu seria salva.</p>
 <p>Assim que pude me levantar do leito, participei das Aulas de Iniciação durante três dias, de 16 a 18 de dezembro, e tive a graça de receber o sagrado Ohikari. Naquele momento, toda a hesitação e incerteza se foram, e fui tomada por uma alegria e uma gratidão tão profundas que não pude conter as lágrimas. Eu esperava que, após passar três dias sentada depois de tanto tempo acamada, o cansaço me forçaria a voltar para a cama no dia seguinte. Contudo, para minha surpresa, despertei sentindo-me extraordinariamente revigorada. Eu, que por tanto tempo não podia sequer sair de casa, no dia seguinte já pude visitar uma pessoa que estava internada em um hospital distante. Durante todo o ano anterior, eu apenas recebia visitas; visitar alguém era algo impensável. A alegria que senti naquele momento foi indescritível. O mundo de repente pareceu mais claro e luminoso, e meu coração se encheu de um contentamento radiante. Naquele dia, compreendi que o único caminho para a salvação é entregar-se e confiar plenamente em Meishu-Sama. Desde então, meus dias têm sido de pura gratidão.</p>
 <p>A graça não se limitou a mim. Meu marido, que por vinte anos padecia de dores de cabeça diárias e nunca dispensava seus analgésicos, foi curado após receber Johrei de mim, uma iniciante. Recentemente, ele também ingressou na fé, e hoje nossa família vive em um estado de gratidão constante. Atribuímos essa felicidade inteiramente à imensa compaixão de Komyō Nyorai-sama. Com o coração transbordando de alegria, e apegando-me ainda mais a este caminho sagrado, dedico-me agora, com minhas humildes forças, a transmitir a grandiosidade deste poder divino ao maior número possível de pessoas que sofrem com doenças.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 薬毒を如実に体験 肺病、胃病治る 『結核の革命的療法』昭和26(1951)年8月15日発行 愛知県 一心中教会 柴田とよ（33） 私は一昨年十一月頃から微熱が出、肩が凝るというよりも何かで圧迫されるような気持で気分がすぐれず、食欲減じ、医師の診断の結果、左肺浸潤として絶対安静を命ぜられました。<br/><br/> その後は、医師の仰せのままに、栄養と薬、注射と養生第一に毎日を送りながらあっちこっちと医師も三、四人代え、診察もして頂きましたがはかばかしくなく、気分的にも少しも良くならないばかりか、強い注射の結果却って胃腸を痛めてしまいました。<br/><br/>そうなると胸以上に胃の痛みが苦痛となり、胃腸専門の病院に通うかたわらラジウム療法が良いと聞き、そちらへも毎日根気よく通ってもみ、人様が良いといわれる事なら何でも一応はためしてもみましたがなかなか胃の痛みが去らず、食欲が一そう減ずるばかりで夜も寝れず、ほとほと困っていた所へ、知人から注射でとてもよく治る医師を知っているからと聞かされ、喜んでお願いしてみたところ、胃潰瘍の初期だが十本も打てばよろしいでしようと言われ、早速続けているうち、本当に八本目頃から今迄の苦痛がなくなり急に元気になり、嬉しさのあまり外出したり少々家の事などで動き出したら一度にぶり返し、又々以前のように苦しみ、毎日ウンウンうなって注射で一応おさえていただきましたが今度は安静を命ぜられ、家の中を歩くのにも注意し、その間食物も軽いお魚、栄養のある、消化の良い物ばかりで三カ月あまり過したがあまりはかばかしくなく、苦痛と憂苦の日を送っていたところ、近所の伴さんから御浄霊の事を伺いましたが、何だか手をふった位でどうして病気が治り得ようと、即座に一笑してしまいました。<br/><br/>それから二、三日過すうち、痛みが夜昼となく続いて、食物もろくろくとれず、苦しまぎれにお願いに行きましたところ、その日、早速一心中教会の朝倉先生がお出で下さいまして、その時は幾分期待をかけて第一回目の御浄霊をしていただきました。<br/><br/>それが十一月十八日です。<br/><br/>翌日もお伺いして、先生の側でお待ちしている中、全身悪寒がして来ました。<br/><br/>それでもどうにか御浄霊をすませ、家へかえり、熱を計ったところ、三十九度の高熱です。<br/><br/>今迄長い間病身で過して参りましたが、三十九度以上の高熱は初めてですので、一時はズイ分驚きながらも、伴さんにお知らせして御浄霊を頂きましたが一向に熱は下らずまたまた先生にお願して一時間余も御浄霊していただきましたが変りありません。<br/><br/>その翌日も四十度以上の高熱と盗汗がつづきます。<br/><br/>ただ不思議な事は、それほど熱がありながら、頭を冷してほしいとは一度も思いません。<br/><br/>半信半疑の思いで、皆々様からの心配のあまり近所の医師に一度診ていただいてはといわれるまま診察して頂き、解熱剤を夜になって一服服用しましたところ、三十分もすぎると、ひどい胃の激痛になやまされ、熱だけは平熱に下ったが、三時間もするとまた元の高熱に戻ります。<br/><br/>益々不思議にかられながら、その翌日今度は一服の半分を服用してみたところ、やはり前夜と同様胃の激痛です。<br/><br/>長年薬と注射に頼っていた私も、初めて薬がいかに毒だという事を実際にみせつけられ、その後は朝倉先生と伴さんのお二人様の、誠を以ての御浄霊を続けて頂く中一週間目から徐々に熱も下り出し、食欲も少しずつ出てまいりました。<br/><br/>二十八日丁度十日目に、市野先生がわざわざお出で下され、種々不思議な有難いお話を伺いながら御浄霊をして頂き、その後、日に日に元気が出て来て、熱も盗汗もだんだんなくなり、気分的にも大変よく、不思議な事には高熱を出して以来、以前の胃痛はどこへやらほとんどなくなり、半分疑いながらも、目に見えない大きい神様のお力をみせられ、いよいよ私はこれで救われるのだと自信をもって来るようになりました。<br/><br/>ようやく寝床を上げると同時に、十二月十六日から三日間、無事御教修をいただき、有難いお守様を頂いた時は、もう今迄の迷いも疑いもなく、ただただ救われた嬉しさと有難さに、嬉し涙の出るのをどうする事も出来ませんでした。<br/><br/>三日間も寝床をはなれて、急に座り通しで翌日はさぞ疲れが出て、また寝床かと思っていたにも拘わらず、不思議に朝起きても何と気分のすがすがしい事でございましょう。<br/><br/>今迄長い間ろくろく外出も出来なかった私が、翌日遠方の病院に入院していられる人をお見舞に行く事が出来ました。<br/><br/>過去一カ年間、見舞われるばかりで、他人様をお見舞するという事は不可能だった。<br/><br/>私のその時の嬉しさもまた格別で、急に世の中が明るくなったような気持でうきうきしてとても朗らかになり、その日以来救われる道はただ一つ、明主様におすがり申すと同時におまかせ申すより他にない事を知らしめて戴き、感謝の日々をすごさせて頂いています。<br/><br/> 私ばかりでなく、主人が二十年来毎日頭痛に悩まされ、放した事のないノーシンの服用も私のような初心の者のしばらくの御浄霊で、必要もなくなり、過日主人も入信さして頂き、一家感謝の日々をすごさせて頂いています。<br/><br/>これも全く光明如来様の大慈悲と心よりお喜びさせて頂いており、今後も一そうこの有難い光明如来様におすがりし、病になやまされていられる方々に、一人でも多くこの御力の尊さをお知らせ致そうと、微力ながら御手伝いさせていただいています。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

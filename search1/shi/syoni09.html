@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syoni09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺 『天国の福音』昭和22(1947)年2月5日発行 この病気は真症と擬似と両方あるが、医学ではその区別を知らず混同している。<br><br>しからば真症とは何か、というと、原因は霊的で、その多くは脳溢血で急死した霊の憑依である。<br><br>従ってその症状は脳溢血と同様で言語不能、半身不随等である。<br><br>そうして発病は幼時と少年期とが多く突如として発病する。<br><br>今まで学校の成績もよくなんら異状なき健康児が、高熱、痙攣を起こし脳溢血的となるので実に恐るべき疾患である。<br><br>なぜ死霊が憑依するやというに、重症脳溢血は発病と共に死の転機が速かなるため、霊は死の覚悟がないから、霊界人となってもその想念は生きているつもりでいるが肉体が無い。<br><br>従って無意識に肉体を求めるが、その場合他人には憑依出来ないから近親者に憑く。<br><br>何となれば近親者はすべて霊線の繋りがあるから、その霊線を辿（たど）って憑依するのである。<br><br>ここでこの霊線について説明してみるが、夫婦間は最も太く、親子、兄弟、親類、子弟、友人等縁の薄くなるに従って細るのである。<br><br>そうして死霊憑依の場合、成人者より小児の方が憑依しやすい事と、たまたま感冒等によって高熱、食欲不振等、衰弱時を好機とするのである。<br><br>その場合、祖父母の霊は孫に憑る事が多く反って親の霊が子に憑る事は少ないのである。<br><br>この事についておもしろいのは医学上においても遺伝性疾患は一代おきになっている事である。<br><br>彼の癲癇もそうであり、人間の性格においても、両親よりも祖父母に似る方が多いのはそのためである。<br><br>右の外変死のごとき突然死の霊も憑依して小児麻痺となる事がある。<br><br>この場合も死の覚悟がないため、脳溢血と同様、人間を求め霊線を通じて憑依するので、もちろん死の刹那の状態を表わすのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre a Paralisia Infantil</h2>
 <p>Esta enfermidade se manifesta em duas formas: a verdadeira e a análoga. Entretanto, a medicina, por desconhecer tal distinção, acaba por confundi-las. Qual seria, então, a forma verdadeira? Sua causa é de natureza espiritual e reside, na maioria dos casos, na possessão por um espírito que faleceu subitamente em decorrência de uma hemorragia cerebral. Por conseguinte, os sintomas assemelham-se aos de uma hemorragia cerebral, como a perda da fala e a paralisia de um lado do corpo. A doença costuma manifestar-se de modo repentino durante a infância e a juventude. É uma moléstia verdadeiramente temível, pois uma criança saudável, com bom desempenho escolar e sem qualquer anomalia pregressa, é subitamente acometida por febre alta e convulsões, desenvolvendo um quadro clínico análogo ao da hemorragia cerebral.</p>
 <p>Questiona-se por que os espíritos de pessoas falecidas realizam a possessão. Nos casos de hemorragia cerebral grave, a transição para a morte é tão célere que o espírito não tem tempo de se preparar. Desse modo, mesmo ao ingressar no Mundo Espiritual, sua consciência permanece convicta de que ainda está vivo, embora desprovido de um corpo físico. Portanto, o espírito passa a buscar, inconscientemente, um corpo material. Contudo, como não lhe é possível apossar-se de um estranho, ele se liga a um parente próximo. Isso ocorre porque todos os parentes próximos estão unidos por laços espirituais, e é seguindo esses laços que a possessão se efetiva.</p>
 <p>Passo a explicar, neste ponto, a natureza desses laços espirituais. O vínculo mais forte é o que une os cônjuges, tornando-se progressivamente mais tênue entre pais e filhos, irmãos, demais parentes, mestre e discípulo, e amigos. Ademais, no fenômeno da possessão, as crianças são alvos mais fáceis que os adultos, e os espíritos aproveitam momentos de debilidade, como os períodos de febre alta e perda de apetite causados por um resfriado, por exemplo. Nessas circunstâncias, é comum que os espíritos dos avós se apossem dos netos, sendo, em contrapartida, raro que o espírito de um pai se aposse do próprio filho. Um fato curioso a esse respeito é que, mesmo no campo da medicina, observa-se que as doenças hereditárias frequentemente saltam uma geração. O mesmo se aplica à epilepsia. Da mesma forma, no que tange à personalidade, é por essa razão que os indivíduos tendem a se assemelhar mais aos avós do que aos próprios pais.</p>
 <p>Além dos casos mencionados, espíritos de pessoas que tiveram morte súbita, como em acidentes, também podem causar a paralisia infantil por meio da possessão. Nessas situações, à semelhança do que ocorre na hemorragia cerebral, a ausência de preparação para a morte leva o espírito a buscar um ser humano, ligando-se a ele através do laço espiritual. Naturalmente, ele manifestará no possuído o estado em que se encontrava no exato momento de seu falecimento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺 『天国の福音』昭和22(1947)年2月5日発行 この病気は真症と擬似と両方あるが、医学ではその区別を知らず混同している。<br/><br/>しからば真症とは何か、というと、原因は霊的で、その多くは脳溢血で急死した霊の憑依である。<br/><br/>従ってその症状は脳溢血と同様で言語不能、半身不随等である。<br/><br/>そうして発病は幼時と少年期とが多く突如として発病する。<br/><br/>今まで学校の成績もよくなんら異状なき健康児が、高熱、痙攣を起こし脳溢血的となるので実に恐るべき疾患である。<br/><br/>なぜ死霊が憑依するやというに、重症脳溢血は発病と共に死の転機が速かなるため、霊は死の覚悟がないから、霊界人となってもその想念は生きているつもりでいるが肉体が無い。<br/><br/>従って無意識に肉体を求めるが、その場合他人には憑依出来ないから近親者に憑く。<br/><br/>何となれば近親者はすべて霊線の繋りがあるから、その霊線を辿（たど）って憑依するのである。<br/><br/>ここでこの霊線について説明してみるが、夫婦間は最も太く、親子、兄弟、親類、子弟、友人等縁の薄くなるに従って細るのである。<br/><br/>そうして死霊憑依の場合、成人者より小児の方が憑依しやすい事と、たまたま感冒等によって高熱、食欲不振等、衰弱時を好機とするのである。<br/><br/>その場合、祖父母の霊は孫に憑る事が多く反って親の霊が子に憑る事は少ないのである。<br/><br/>この事についておもしろいのは医学上においても遺伝性疾患は一代おきになっている事である。<br/><br/>彼の癲癇もそうであり、人間の性格においても、両親よりも祖父母に似る方が多いのはそのためである。<br/><br/>右の外変死のごとき突然死の霊も憑依して小児麻痺となる事がある。<br/><br/>この場合も死の覚悟がないため、脳溢血と同様、人間を求め霊線を通じて憑依するので、もちろん死の刹那の状態を表わすのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

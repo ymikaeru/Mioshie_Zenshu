@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教と私 『地上天国』18号、昭和25(1950)年11月25日発行 本教は、信者になればよく判るが、今までの宗教とは全然異（ちが）っていると言っていい。<br><br>ではどこが異っているかというと、今はまだ全貌を詳しくかく訳にはゆかないから、ある程度をかいてみよう。<br><br> まず、今までの宗教をよく観ると、大体二種類あるようだ。<br><br>一つは宗教とは言えない程の至極単純なもので、一口に言えば有難信心である。<br><br>この種の信仰は、衆知のごとく時々お詣りに行って、その都度お札を戴いたり、護摩を焚いたり、御守を貰ったり、オミクジを引き、懐の温い人は御神楽（おかぐら）などをあげたりして、御賽銭や寄付を献（ささ）げともかく何となく有難い、いい気持になって帰って来るという程度で、これらはまず一般通俗的信仰で、俗にいう神信心である。<br><br>こういう信仰も背景は大抵しかるべき宗教組織になっているからやはり宗教には違いない。<br><br> それから今一つの方であるが、これは純信仰ともいうべきもので、全信徒を宗団の戸籍簿に載せ、また専門的に宗教業務に携っている役員や、教師、宣伝係等も多数おり、純然たる宗教である。<br><br>この種の信者は有難信心と異い真剣味があり、深くなると全身全霊を打込んで熱烈な信仰活動をする。<br><br>もちろんこういう宗教にも古いのと新しいのがある。<br><br>古い方は時世の変ったためもあろうが、多くは活気が乏しく沈滞勝である。<br><br>中には現状維持がやっとというものさえあるとはよく聞くところである。<br><br>新しい方は幕末頃から明治へかけて興った宗教で、今一番活気があるようで発展もしている。<br><br>しかしこれらは神道が多く、仏教方面では僅かに日蓮宗の一部が気を吐いているくらいで、他はいかにも活気がない。<br><br> そうしてあらゆる既成宗教を一瞥する時、形式は色々あるが、大体はその教祖の立教精神や御筆先等を土台として、それを布衍（ふえん）して説いたものである。<br><br>信徒としても常に神仏の御加護を受けている以上、奉仕の誠を捧げているのはもちろんである。<br><br>といっても信仰にも厚薄があるから一様には言えない。<br><br>そうしてどの宗教もそうであるが、人間の幸福感を満足させようとし、よりよい世界の実現を目的としているのは吾らも大いに同感であるが、多くは精神的面を主としており、現当利益には割合関心をもたないようである。<br><br> 本当の救い ところが、本教に到っては、右のごとき精神的救いも、決して疎かにはしていないが、事実人間を本当に救うには、心の面だけでは完璧とは言えない。<br><br>どうしても物質の面を救わなくてはならない。<br><br>という建前で、この点が他教と大いに異（ちが）うところである。<br><br>よしんば人間として精神的に救われたとしても、観念だけでは真の幸福は得られない。<br><br>今日のように複雑悪化している社会としたら、そのような幸福はいつ破壊されるか知れないからでそれがよく事実に表われている。<br><br>たとえば病気に罹ったり、泥棒に入られて物を盗られたり、悪い奴に騙され損をしたり、高い税金をかけられて困るという等である。<br><br>税金も元をただせば悪人がいるから、警察や裁判所が必要であり、病気が多いからその防止に費用が掛り、間違った人間が大戦争をやったために大損害を受けたので、それを償うための費用も税金となるという訳でまだ色々あるが、そのような次第で仲々安心立命などは思いもよらないのである。<br><br>このような世の中であってみれば、唯心唯物の両面が救われなければ真の幸福は得られるはずはない。<br><br>そこで本教はその名のごとく、物心両面の救いを世に行っているのである。<br><br> それが個人的には現当利益であり、社会的には文化の改善である。<br><br>ところが神示によれば現代文化には、驚くべき誤謬が内在しており、しかも世界中それに気のつく者が一人もないというのである。<br><br>しかもその誤謬たるや、意外にも可と信じて行っている事が、実は逆であってそのため大きな被害を人類は蒙っているのである。<br><br>一言にして言えば福祉増進と思ってする事が、不幸増進という結果になっている。<br><br> 何よりも事実がそれをよく証明している。<br><br>これ程文化が発達しながら、人類の幸福は更に伴わないばかりか、苦悩は増大の傾向にさえある。<br><br>そうして何千年前から偉人や聖者、碩学（せきがく）等の傑出した人物が輩出し、智脳を絞り努力に努力を重ねて成った現代文化であるとしたら、最高峯の文化といえよう。<br><br>従ってこれ程の文化の内面に、著しい誤謬などありようはずはないと思うであろう。<br><br>ところが前述のごとく、一大誤謬を知った私としては、一日も早く、一人でも多く解らせ、幸福を頒（わか）ち与えると共に、新しい理想的新文化の世界たらしめん指針を与えたいので、これが神の御意志である。<br><br> ここで私という者について、いささか言わして貰うがまず私の経歴からいえば、無論世間ありふれた平凡人である。<br><br>しかしながら、私はまた人類史上類例のない不思議な運命をもっている。<br><br>と言うのは既に世界に知れ亘っている大宗教家としての、釈迦や、基督（キリスト）や、マホメットなどとは全く異う救世の大使命を行うべく、この世に生まれさせられたのである。<br><br>というのはそれら偉人の出来なかった事が、私には出来る力を与えられている。<br><br>もちろんこれは現実で信者諸君の知る通りである。<br><br> 例えば、まず私は知りたいと思う事は何でも分る。<br><br>神幽現三界は元より、過、現、未、に亘って重要なる事はことごとく分るのである。<br><br>もちろん人類を救い、天国を造る範囲内であるのは言うまでもない、だから一年先はこうなる、数年先はこうなるという世の中の推移も自分の運命も判るのだから面白いとも言える。<br><br>しかも今日までの経験によっても大体はその通り実現する。<br><br>つまり夢が現実化すのである。<br><br>また私は色々な事を常に計画し実行しているが、すべて思い通りになる。<br><br>例えば文学上の事でも論文をかこうと思うと、いくらでもスラスラ出てくる。<br><br>御承知のごとく作歌も好きだが、面白い程数が出来る。<br><br>一時間に五十首くらいは雑作ない。<br><br>その他俳句も川柳も冠句も小説や戯曲もかきたいが、暇がないからかかないだけだ。<br><br>諷刺文も滑稽文学も作るが、これは始終発表しているから読者は知っているであろう。<br><br>信者が奏上する祝詞も私が作ったのだが、祝詞の文章など全然知らなかったが、ともかくアノ通り出来たのである。<br><br>またこれもみんな知る通り、私は大規模な地上天国の模型を作っているが、石でも木でも花でも、一切私が選んで考案する。<br><br>もちろん庭園も建築の設計も装飾もそうである。<br><br>目下設計中の地上天国晴々台に建つメシヤ会館は、現在全世界の建築界を風靡しているフランスのコルビュジェ式だが、それより一層新しい様式にしたもので、完成の暁は世界から注目に値するものとなろう。<br><br>建築でも庭園でもその場所に立って空間を見つめていると、目前に彷彿（ほうふつ）として現れ来るので、至極簡単で考える必要もないくらいだ。<br><br>もちろん私は習った事も教わった事もないのだが、やろうと思えば即座に良い考えが浮ぶ。<br><br>また花も活け、絵もかき、書もかくが、絵だけは少し習ったが、他は純然たる素人である。<br><br>政治も、教育も、経済も、哲学も、医学も今より一世紀くらい先のものが判っている。<br><br>特に現在の文化面の根本がいかに間違っているかが解るので、速く改革したら人類はいかに救われ、幸福な世界になるかを想うと、ジッとしてはおれないくらいだ。<br><br>しかし時節が来ない中はどうにもならない。<br><br>今はまだ天国を造る上に、根本である健康に関する問題と、農業に関する事だけの誤った点を、神示のまま指摘しているのである。<br><br> 霊の行使 特に最も自分で不思議に思う事は、私は霊を行使して信者に病気を治さしているが実によく治る。<br><br>医学で一月くらいかかる病気でも、一日か二日くらいで治る事がよくある。<br><br>そればかりではない。<br><br>自分の病気も自分で治す事が出来る。<br><br>私のかいた文字からはその文字の意味通りの活動が起る。<br><br>また私はあらゆる病源が根本的に判る。<br><br>それによると現代医学の病理解釈など気の毒な程低いと思う。<br><br>私から言えば医術とは云えない、単なる苦痛緩和法でしかないから、まず今のままでは病気を治す医学とはならないであろう。<br><br>彼のキリストを初め種々の聖者が病気に対する奇蹟を行ったが、そのほとんどは一人対一人のそれであるから、幾億の民衆を救う事は到底出来ない。<br><br>従って全人類を救うとしたら、治病の力を一人一人に無制限に与えなくてはならない。<br><br>それを私は今現に実行しつつ驚異的成果を挙げている。<br><br>何よりも本教の発展がよくそれを物語っているといえよう。<br><br>この事はさきに述べたごとく、キリストでも釈迦でも出来なかった神業である。<br><br> このように大聖者の力より私の力の方が優れているなどとはかきたくないが、ただ私は有りのままの事実をかくだけである。<br><br>これも時期が来たので神様がそうさせるのであろう。<br><br>そうして神様からこんな大きな力を与えられたのは、何がためであるかを考えてみる時、そこに私の使命の重大さが感じられてくる。<br><br>もちろん神の意図なるものは、何事も必要以外のものは作られない。<br><br>ことごとく必要によって作り、必要によって消滅する。<br><br>これは私が常にいうところの真理であってみれば、私という者の天の使命はハッキリ浮び上って来る。<br><br>私は常にあらゆる神秘を知らされ、深遠な妙智力を無限に与えられている。<br><br>それを普（あまね）く人類に知らせ、理想的新文化を作るべく神の指示によって動いている。<br><br>特に神意によれば現代は人智が発達しているから、昔のような単純な説き方では納得しない。<br><br>どうしても実証的奇蹟を見せると共に、現代人に受入れらる理論を説かねばならないという訳で、神は蔭から奇蹟を旺んに表わしてくれるのである。<br><br>このように一方では誤りを知らせ、一方では奇蹟によってその裏付をされるのであるから、神慮の洪大なるただ感謝感激あるのみである。<br><br>何よりも今現に私が実行しつつある神業を見れば、右の言の真実である事は疑う余地はあるまい。<br><br> 以上によってみても、これ程の大規模な絶対的救いの業は古往今来人類は夢にも想わなかったであろう。<br><br>ゆえにもしこの事を知らされてなお目醒めないとすれば、心の盲目であり、未来永劫救われるはずはないのである。<br><br>しかも近き将来世の終りという一大危機に見舞われるとしたら、準備のない人達は、周章狼狽いかに悔改むるか、しかしそうなってはすでに遅しである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Salvação e a Singularidade de Nossa Fé</h2>
 <p>Nossa Fé, como bem compreendem seus seguidores, difere fundamentalmente de todas as religiões que a precederam. Embora não seja possível, no momento, revelar sua totalidade, descreverei em que consistem algumas de suas principais distinções para que se tenha uma noção mais clara.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Cristo e outros santos realizaram milagres de cura, mas eram, em sua maioria, atos individuais, de uma pessoa para outra, o que torna impossível salvar bilhões de pessoas. Para salvar toda a humanidade, é imperativo que o poder de curar seja outorgado a cada indivíduo, de forma ilimitada. É isso que venho realizando, com resultados assombrosos. O próprio desenvolvimento de Nossa Fé é a maior prova disso. Trata-se, como mencionei, de uma Obra Divina que nem Cristo nem Buda puderam realizar.</p>
 <p>Não é meu desejo escrever que meu poder supera o dos grandes santos do passado; limito-me a relatar os fatos como eles são. Faço-o porque o tempo chegou, e Deus assim o determina. Ao refletir sobre o motivo pelo qual Deus me concedeu um poder tão imenso, sinto a magnitude de minha missão. A intenção divina é clara: nada é criado sem necessidade. Tudo é criado por necessidade e por necessidade é extinto. Sendo esta a verdade que sempre proclamo, minha missão celestial se revela com clareza. Constantemente, são-me revelados todos os mistérios e sou agraciado com uma profunda e ilimitada sabedoria. Atuo sob a orientação de Deus para partilhar esse conhecimento com toda a humanidade e construir uma nova e ideal civilização. A Vontade Divina indica que, na era atual, o intelecto humano está desenvolvido, e as pessoas não se convencem mais com explanações simplistas como as do passado. É preciso, portanto, apresentar milagres que sirvam como prova, ao mesmo tempo que se expõe uma teoria lógica, capaz de ser compreendida pelo homem moderno. Para isso, Deus atua ocultamente, manifestando milagres de forma abundante. Por um lado, os erros são revelados; por outro, os milagres os comprovam. Diante da grandiosidade da Providência Divina, só me resta a gratidão e a emoção. Basta observar a Obra Divina que estou realizando para que não reste a menor dúvida sobre a veracidade de minhas palavras.</p>
 <p>Por tudo isso, pode-se afirmar que uma obra de salvação tão grandiosa e absoluta como esta jamais foi sequer sonhada pela humanidade em toda a sua história. Portanto, se alguém, mesmo tomando conhecimento destes fatos, não despertar, estará cego de alma e não poderá ser salvo por toda a eternidade. E quando, em um futuro próximo, o mundo se deparar com a grande crise do fim de uma era, aqueles que não estiverem preparados entrarão em pânico e se arrependerão. Contudo, quando esse momento chegar, será tarde demais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教と私 『地上天国』18号、昭和25(1950)年11月25日発行 本教は、信者になればよく判るが、今までの宗教とは全然異（ちが）っていると言っていい。<br/><br/>ではどこが異っているかというと、今はまだ全貌を詳しくかく訳にはゆかないから、ある程度をかいてみよう。<br/><br/> まず、今までの宗教をよく観ると、大体二種類あるようだ。<br/><br/>一つは宗教とは言えない程の至極単純なもので、一口に言えば有難信心である。<br/><br/>この種の信仰は、衆知のごとく時々お詣りに行って、その都度お札を戴いたり、護摩を焚いたり、御守を貰ったり、オミクジを引き、懐の温い人は御神楽（おかぐら）などをあげたりして、御賽銭や寄付を献（ささ）げともかく何となく有難い、いい気持になって帰って来るという程度で、これらはまず一般通俗的信仰で、俗にいう神信心である。<br/><br/>こういう信仰も背景は大抵しかるべき宗教組織になっているからやはり宗教には違いない。<br/><br/> それから今一つの方であるが、これは純信仰ともいうべきもので、全信徒を宗団の戸籍簿に載せ、また専門的に宗教業務に携っている役員や、教師、宣伝係等も多数おり、純然たる宗教である。<br/><br/>この種の信者は有難信心と異い真剣味があり、深くなると全身全霊を打込んで熱烈な信仰活動をする。<br/><br/>もちろんこういう宗教にも古いのと新しいのがある。<br/><br/>古い方は時世の変ったためもあろうが、多くは活気が乏しく沈滞勝である。<br/><br/>中には現状維持がやっとというものさえあるとはよく聞くところである。<br/><br/>新しい方は幕末頃から明治へかけて興った宗教で、今一番活気があるようで発展もしている。<br/><br/>しかしこれらは神道が多く、仏教方面では僅かに日蓮宗の一部が気を吐いているくらいで、他はいかにも活気がない。<br/><br/> そうしてあらゆる既成宗教を一瞥する時、形式は色々あるが、大体はその教祖の立教精神や御筆先等を土台として、それを布衍（ふえん）して説いたものである。<br/><br/>信徒としても常に神仏の御加護を受けている以上、奉仕の誠を捧げているのはもちろんである。<br/><br/>といっても信仰にも厚薄があるから一様には言えない。<br/><br/>そうしてどの宗教もそうであるが、人間の幸福感を満足させようとし、よりよい世界の実現を目的としているのは吾らも大いに同感であるが、多くは精神的面を主としており、現当利益には割合関心をもたないようである。<br/><br/> 本当の救い ところが、本教に到っては、右のごとき精神的救いも、決して疎かにはしていないが、事実人間を本当に救うには、心の面だけでは完璧とは言えない。<br/><br/>どうしても物質の面を救わなくてはならない。<br/><br/>という建前で、この点が他教と大いに異（ちが）うところである。<br/><br/>よしんば人間として精神的に救われたとしても、観念だけでは真の幸福は得られない。<br/><br/>今日のように複雑悪化している社会としたら、そのような幸福はいつ破壊されるか知れないからでそれがよく事実に表われている。<br/><br/>たとえば病気に罹ったり、泥棒に入られて物を盗られたり、悪い奴に騙され損をしたり、高い税金をかけられて困るという等である。<br/><br/>税金も元をただせば悪人がいるから、警察や裁判所が必要であり、病気が多いからその防止に費用が掛り、間違った人間が大戦争をやったために大損害を受けたので、それを償うための費用も税金となるという訳でまだ色々あるが、そのような次第で仲々安心立命などは思いもよらないのである。<br/><br/>このような世の中であってみれば、唯心唯物の両面が救われなければ真の幸福は得られるはずはない。<br/><br/>そこで本教はその名のごとく、物心両面の救いを世に行っているのである。<br/><br/> それが個人的には現当利益であり、社会的には文化の改善である。<br/><br/>ところが神示によれば現代文化には、驚くべき誤謬が内在しており、しかも世界中それに気のつく者が一人もないというのである。<br/><br/>しかもその誤謬たるや、意外にも可と信じて行っている事が、実は逆であってそのため大きな被害を人類は蒙っているのである。<br/><br/>一言にして言えば福祉増進と思ってする事が、不幸増進という結果になっている。<br/><br/> 何よりも事実がそれをよく証明している。<br/><br/>これ程文化が発達しながら、人類の幸福は更に伴わないばかりか、苦悩は増大の傾向にさえある。<br/><br/>そうして何千年前から偉人や聖者、碩学（せきがく）等の傑出した人物が輩出し、智脳を絞り努力に努力を重ねて成った現代文化であるとしたら、最高峯の文化といえよう。<br/><br/>従ってこれ程の文化の内面に、著しい誤謬などありようはずはないと思うであろう。<br/><br/>ところが前述のごとく、一大誤謬を知った私としては、一日も早く、一人でも多く解らせ、幸福を頒（わか）ち与えると共に、新しい理想的新文化の世界たらしめん指針を与えたいので、これが神の御意志である。<br/><br/> ここで私という者について、いささか言わして貰うがまず私の経歴からいえば、無論世間ありふれた平凡人である。<br/><br/>しかしながら、私はまた人類史上類例のない不思議な運命をもっている。<br/><br/>と言うのは既に世界に知れ亘っている大宗教家としての、釈迦や、基督（キリスト）や、マホメットなどとは全く異う救世の大使命を行うべく、この世に生まれさせられたのである。<br/><br/>というのはそれら偉人の出来なかった事が、私には出来る力を与えられている。<br/><br/>もちろんこれは現実で信者諸君の知る通りである。<br/><br/> 例えば、まず私は知りたいと思う事は何でも分る。<br/><br/>神幽現三界は元より、過、現、未、に亘って重要なる事はことごとく分るのである。<br/><br/>もちろん人類を救い、天国を造る範囲内であるのは言うまでもない、だから一年先はこうなる、数年先はこうなるという世の中の推移も自分の運命も判るのだから面白いとも言える。<br/><br/>しかも今日までの経験によっても大体はその通り実現する。<br/><br/>つまり夢が現実化すのである。<br/><br/>また私は色々な事を常に計画し実行しているが、すべて思い通りになる。<br/><br/>例えば文学上の事でも論文をかこうと思うと、いくらでもスラスラ出てくる。<br/><br/>御承知のごとく作歌も好きだが、面白い程数が出来る。<br/><br/>一時間に五十首くらいは雑作ない。<br/><br/>その他俳句も川柳も冠句も小説や戯曲もかきたいが、暇がないからかかないだけだ。<br/><br/>諷刺文も滑稽文学も作るが、これは始終発表しているから読者は知っているであろう。<br/><br/>信者が奏上する祝詞も私が作ったのだが、祝詞の文章など全然知らなかったが、ともかくアノ通り出来たのである。<br/><br/>またこれもみんな知る通り、私は大規模な地上天国の模型を作っているが、石でも木でも花でも、一切私が選んで考案する。<br/><br/>もちろん庭園も建築の設計も装飾もそうである。<br/><br/>目下設計中の地上天国晴々台に建つメシヤ会館は、現在全世界の建築界を風靡しているフランスのコルビュジェ式だが、それより一層新しい様式にしたもので、完成の暁は世界から注目に値するものとなろう。<br/><br/>建築でも庭園でもその場所に立って空間を見つめていると、目前に彷彿（ほうふつ）として現れ来るので、至極簡単で考える必要もないくらいだ。<br/><br/>もちろん私は習った事も教わった事もないのだが、やろうと思えば即座に良い考えが浮ぶ。<br/><br/>また花も活け、絵もかき、書もかくが、絵だけは少し習ったが、他は純然たる素人である。<br/><br/>政治も、教育も、経済も、哲学も、医学も今より一世紀くらい先のものが判っている。<br/><br/>特に現在の文化面の根本がいかに間違っているかが解るので、速く改革したら人類はいかに救われ、幸福な世界になるかを想うと、ジッとしてはおれないくらいだ。<br/><br/>しかし時節が来ない中はどうにもならない。<br/><br/>今はまだ天国を造る上に、根本である健康に関する問題と、農業に関する事だけの誤った点を、神示のまま指摘しているのである。<br/><br/> 霊の行使 特に最も自分で不思議に思う事は、私は霊を行使して信者に病気を治さしているが実によく治る。<br/><br/>医学で一月くらいかかる病気でも、一日か二日くらいで治る事がよくある。<br/><br/>そればかりではない。<br/><br/>自分の病気も自分で治す事が出来る。<br/><br/>私のかいた文字からはその文字の意味通りの活動が起る。<br/><br/>また私はあらゆる病源が根本的に判る。<br/><br/>それによると現代医学の病理解釈など気の毒な程低いと思う。<br/><br/>私から言えば医術とは云えない、単なる苦痛緩和法でしかないから、まず今のままでは病気を治す医学とはならないであろう。<br/><br/>彼のキリストを初め種々の聖者が病気に対する奇蹟を行ったが、そのほとんどは一人対一人のそれであるから、幾億の民衆を救う事は到底出来ない。<br/><br/>従って全人類を救うとしたら、治病の力を一人一人に無制限に与えなくてはならない。<br/><br/>それを私は今現に実行しつつ驚異的成果を挙げている。<br/><br/>何よりも本教の発展がよくそれを物語っているといえよう。<br/><br/>この事はさきに述べたごとく、キリストでも釈迦でも出来なかった神業である。<br/><br/> このように大聖者の力より私の力の方が優れているなどとはかきたくないが、ただ私は有りのままの事実をかくだけである。<br/><br/>これも時期が来たので神様がそうさせるのであろう。<br/><br/>そうして神様からこんな大きな力を与えられたのは、何がためであるかを考えてみる時、そこに私の使命の重大さが感じられてくる。<br/><br/>もちろん神の意図なるものは、何事も必要以外のものは作られない。<br/><br/>ことごとく必要によって作り、必要によって消滅する。<br/><br/>これは私が常にいうところの真理であってみれば、私という者の天の使命はハッキリ浮び上って来る。<br/><br/>私は常にあらゆる神秘を知らされ、深遠な妙智力を無限に与えられている。<br/><br/>それを普（あまね）く人類に知らせ、理想的新文化を作るべく神の指示によって動いている。<br/><br/>特に神意によれば現代は人智が発達しているから、昔のような単純な説き方では納得しない。<br/><br/>どうしても実証的奇蹟を見せると共に、現代人に受入れらる理論を説かねばならないという訳で、神は蔭から奇蹟を旺んに表わしてくれるのである。<br/><br/>このように一方では誤りを知らせ、一方では奇蹟によってその裏付をされるのであるから、神慮の洪大なるただ感謝感激あるのみである。<br/><br/>何よりも今現に私が実行しつつある神業を見れば、右の言の真実である事は疑う余地はあるまい。<br/><br/> 以上によってみても、これ程の大規模な絶対的救いの業は古往今来人類は夢にも想わなかったであろう。<br/><br/>ゆえにもしこの事を知らされてなお目醒めないとすれば、心の盲目であり、未来永劫救われるはずはないのである。<br/><br/>しかも近き将来世の終りという一大危機に見舞われるとしたら、準備のない人達は、周章狼狽いかに悔改むるか、しかしそうなってはすでに遅しである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

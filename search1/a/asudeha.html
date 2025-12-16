@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>asudeha</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明日では遅すぎる 『栄光』160号、昭和27(1952)年6月11日発行 これは時々ある事だが、最早死の直前にまで追込められた病人で、お蔭を頂き一旦快くなって喜んでいると、再浄化が発って迷い始め、前の事を忘れて、再び医療に縋るが、無論成績が悪いので、再び浄霊を求めに来るが、こういう人はほとんど助からないものである。<br><br>これはどういう訳かというと、神様は無い命を一度は繋いで下さるが、それを離すと、二度は決して繋いで下さらないからで、これが神律であるから致方ないのである。<br><br>従って信者はこの事をよく心得て中途で迷って、再び縋って来ても、気の毒だがそのつもりで扱うべきである。<br><br>左の一例はよくそれを示しているので、この文を添えた訳である。<br><br> 明日では遅すぎる 南光中教会 尾崎和三郎 私は最近、身のひきしまるような、異様な体験を致しました。<br><br>その事を、御報告して、一般信徒の方や、未入信の人々に訴えたいと思うのです。<br><br> その人が中津の出張所に来たのは、たしか去年の暮だったと思うのです。<br><br>心臓が悪いと言っておりました。<br><br>確かに尿で全身がはれ上ったような、色の黒く、黄色い五十を幾つか越えた年頃の婦人でした。<br><br> 階段をあがって来た時は急が止ってしまって、苦しそうでした。<br><br> 翌日、その人が、子宮癌で医者の見離した病人を連れて見えました。<br><br>昨日、御浄霊を戴いてから、ずっと呼吸も楽に成り、結果が良いのだそうです。<br><br> それから四、五日か、一週間も続けたでしょうか、人の話では、心臓も楽に成ったので山に出て働いているとの事で、出張所には来なく成ったのです。<br><br>私も余り気にも止めず、それから一カ月半程、子宮癌の人に力をとられて、去った人を追いかける事もしませんでした。<br><br>その間に、子宮癌の方は、多量の下りものがあり、結果が良くて二カ月もたった頃には起きあがって庭の掃除等も出来るように成りました。<br><br>まだ下りものがしていた頃、御守りも戴いて、必死に御縋り致されたのです。<br><br>子宮癌の全快を喜びながら、私もあちこちと布教に、とぴ歩いておりました。<br><br>中津周辺の農村にも、ぼつぼつ信者さんが出来て参りました。<br><br> 今年に入って、四月のある日、私が二、三の信徒さんと一緒に、耶馬渓沿線に行っております後に、心臓病の人が、再び教会に見えたのだそうです。<br><br> 翌日私は、その人を待ちかまえておりました。<br><br>私にも気に成るところがあったからです。<br><br> まるで地獄から這い上って来たようにしおれて、その人はやって来ました。<br><br> 「心臓が再発して暫く医者に通って見ましたが、どうにも成らない」との事でした。<br><br> その人が話し出したのはこうです。<br><br> 「自分には子供がなく、他人の子を貰って、今ではその子に養われているが、月に二百円の煙草代しかくれない。<br><br>私はどうしても神様に縋らねばならないのです。<br><br>御守りも、是非戴きたい。<br><br>私は煙草を止めたのでした。<br><br>そして高い敷居でしたが、先生に御願いに上ったのです。<br><br>私は御守りが戴きたいのです」とまるでつかれたように口走るのです。<br><br> それから毎日、浄霊を戴きに来ました。<br><br>しかし、以前よりも病気は悪化し、それにひどく衰弱もしておりました。<br><br>私もその人の一心に負けて、出来る事なら今ふ度元気に成れるようにと、御願いしておりました。<br><br> 四月二十五日、とうとう二千五百円だけの献金を作って来ました。<br><br>その頃はずっと寝たっきりで、こちらから毎日出向いてあげたのです。<br><br>「これだけのお金が出来ましたから、これで先生に御願いだけして置いて下さい。<br><br>後は又どうにか致しますから」と、まるで血の出るような苦労だったに違い有りません。<br><br>私は何も言わず、中教会へ参り、その旨話して御願い致しました。<br><br> 二十八日、中教会の御用も済ませて中津へ帰って来ましたところ、どうもあの家の様子が変だった、もしかしたら、死んだのではと留守を頼んだ信者の人が言うのです。<br><br>すぐ行って貰ったところ、矢張り亡くなっておりました。<br><br>もう、どうしようも有りません。<br><br> その人の一生は、不幸のまま最後に御守りを戴く事だけを念願にしておりましたのに、それもとうとう間に合いませんでした。<br><br> 私はその人の為に、その人への餞（はなむけ）としてこの一文を綴ったのです。<br><br> 人の死なんとするや……それではもう遅すぎるのです。<br><br>明日ですら遅すぎるかも知れません。<br><br> 元気なうちに、感ずるところがあったらすぐ、御守りも戴きましょう。<br><br>神様へも御縋りする事です。<br><br>その事が出来なかったばっかりに不幸に打ちひしがれたまま、最後の願いも達せない間に死んで行った人が、ここにあるのです。<br><br>良く考えてあげて下さい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Amanhã será Tarde Demais</h2>
 <p>Há uma ocorrência relativamente comum que merece nossa atenção. Refere-se ao caso do doente que, já encurralado à beira da morte, recebe a graça Divina, melhora temporariamente e se rejubila. Contudo, quando se manifesta uma nova purificação, ele começa a hesitar e, esquecendo-se do que lhe fora concedido, recorre mais uma vez aos tratamentos médicos. Naturalmente, os resultados são insatisfatórios, e ele retorna em busca do Johrei. Pessoas que agem dessa forma, todavia, raramente alcançam a salvação.</p>
@@ -110,5 +262,48 @@ Igreja Nanko Naka</p>
 <p>Escrevi estas linhas como uma última homenagem a ela.</p>
 <p>Quando uma pessoa está prestes a morrer... já é tarde demais. Talvez até mesmo o amanhã seja tarde demais.</p>
 <p>Enquanto gozam de saúde, no momento em que sentirem o chamado em seus corações, recebam o Ohikari. Apeguem-se a Deus. Aqui está o exemplo de alguém que, abatida pela desventura, partiu sem realizar seu último desejo, unicamente por não ter sido capaz de fazê-lo a tempo. Peço que reflitam profundamente sobre isso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明日では遅すぎる 『栄光』160号、昭和27(1952)年6月11日発行 これは時々ある事だが、最早死の直前にまで追込められた病人で、お蔭を頂き一旦快くなって喜んでいると、再浄化が発って迷い始め、前の事を忘れて、再び医療に縋るが、無論成績が悪いので、再び浄霊を求めに来るが、こういう人はほとんど助からないものである。<br/><br/>これはどういう訳かというと、神様は無い命を一度は繋いで下さるが、それを離すと、二度は決して繋いで下さらないからで、これが神律であるから致方ないのである。<br/><br/>従って信者はこの事をよく心得て中途で迷って、再び縋って来ても、気の毒だがそのつもりで扱うべきである。<br/><br/>左の一例はよくそれを示しているので、この文を添えた訳である。<br/><br/> 明日では遅すぎる 南光中教会 尾崎和三郎 私は最近、身のひきしまるような、異様な体験を致しました。<br/><br/>その事を、御報告して、一般信徒の方や、未入信の人々に訴えたいと思うのです。<br/><br/> その人が中津の出張所に来たのは、たしか去年の暮だったと思うのです。<br/><br/>心臓が悪いと言っておりました。<br/><br/>確かに尿で全身がはれ上ったような、色の黒く、黄色い五十を幾つか越えた年頃の婦人でした。<br/><br/> 階段をあがって来た時は急が止ってしまって、苦しそうでした。<br/><br/> 翌日、その人が、子宮癌で医者の見離した病人を連れて見えました。<br/><br/>昨日、御浄霊を戴いてから、ずっと呼吸も楽に成り、結果が良いのだそうです。<br/><br/> それから四、五日か、一週間も続けたでしょうか、人の話では、心臓も楽に成ったので山に出て働いているとの事で、出張所には来なく成ったのです。<br/><br/>私も余り気にも止めず、それから一カ月半程、子宮癌の人に力をとられて、去った人を追いかける事もしませんでした。<br/><br/>その間に、子宮癌の方は、多量の下りものがあり、結果が良くて二カ月もたった頃には起きあがって庭の掃除等も出来るように成りました。<br/><br/>まだ下りものがしていた頃、御守りも戴いて、必死に御縋り致されたのです。<br/><br/>子宮癌の全快を喜びながら、私もあちこちと布教に、とぴ歩いておりました。<br/><br/>中津周辺の農村にも、ぼつぼつ信者さんが出来て参りました。<br/><br/> 今年に入って、四月のある日、私が二、三の信徒さんと一緒に、耶馬渓沿線に行っております後に、心臓病の人が、再び教会に見えたのだそうです。<br/><br/> 翌日私は、その人を待ちかまえておりました。<br/><br/>私にも気に成るところがあったからです。<br/><br/> まるで地獄から這い上って来たようにしおれて、その人はやって来ました。<br/><br/> 「心臓が再発して暫く医者に通って見ましたが、どうにも成らない」との事でした。<br/><br/> その人が話し出したのはこうです。<br/><br/> 「自分には子供がなく、他人の子を貰って、今ではその子に養われているが、月に二百円の煙草代しかくれない。<br/><br/>私はどうしても神様に縋らねばならないのです。<br/><br/>御守りも、是非戴きたい。<br/><br/>私は煙草を止めたのでした。<br/><br/>そして高い敷居でしたが、先生に御願いに上ったのです。<br/><br/>私は御守りが戴きたいのです」とまるでつかれたように口走るのです。<br/><br/> それから毎日、浄霊を戴きに来ました。<br/><br/>しかし、以前よりも病気は悪化し、それにひどく衰弱もしておりました。<br/><br/>私もその人の一心に負けて、出来る事なら今ふ度元気に成れるようにと、御願いしておりました。<br/><br/> 四月二十五日、とうとう二千五百円だけの献金を作って来ました。<br/><br/>その頃はずっと寝たっきりで、こちらから毎日出向いてあげたのです。<br/><br/>「これだけのお金が出来ましたから、これで先生に御願いだけして置いて下さい。<br/><br/>後は又どうにか致しますから」と、まるで血の出るような苦労だったに違い有りません。<br/><br/>私は何も言わず、中教会へ参り、その旨話して御願い致しました。<br/><br/> 二十八日、中教会の御用も済ませて中津へ帰って来ましたところ、どうもあの家の様子が変だった、もしかしたら、死んだのではと留守を頼んだ信者の人が言うのです。<br/><br/>すぐ行って貰ったところ、矢張り亡くなっておりました。<br/><br/>もう、どうしようも有りません。<br/><br/> その人の一生は、不幸のまま最後に御守りを戴く事だけを念願にしておりましたのに、それもとうとう間に合いませんでした。<br/><br/> 私はその人の為に、その人への餞（はなむけ）としてこの一文を綴ったのです。<br/><br/> 人の死なんとするや……それではもう遅すぎるのです。<br/><br/>明日ですら遅すぎるかも知れません。<br/><br/> 元気なうちに、感ずるところがあったらすぐ、御守りも戴きましょう。<br/><br/>神様へも御縋りする事です。<br/><br/>その事が出来なかったばっかりに不幸に打ちひしがれたまま、最後の願いも達せない間に死んで行った人が、ここにあるのです。<br/><br/>良く考えてあげて下さい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

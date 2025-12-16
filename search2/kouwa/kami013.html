@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami013</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神解明篇 ２ 013-023 御神格 013 御の字奉唱する大神様 御浄化を軽く済ませていただくよう御軸に祝詞を奏上する場合の最後は、日月地大御神か幽世大御神かどちらが本当でありますか。<br><br>また、幽世大神と幽世大御神とはいずれを申し上げるべきでしょうか。<br><br>右御教示御願い申し上げます。<br><br> 五六七大御神が本当である。<br><br>ただ病人で憑霊のためと思われるような場合は幽世の大神を称うる。<br><br>大御神でなくていい。<br><br>御軸に向っては五六七大御神と唱う。<br><br>御の字は尊称であるから御の字を入れた方がよい。<br><br>御の字を入れるのは、五六七大御神、天照大御神御二人でよい。<br><br>（S23. 8.28） rattail（注） 〔 御光話（S23年 8月28日 ）『御光話録』発行年月日不明、推定昭和26年頃。<br><br>〕 幽世大御神と幽世大神とどちらがよろしゅうございましょうか。<br><br> 『御は尊称ですから大神でも大御神でも同じですが、幽世大神でいいです。<br><br>「五六七」のときは御を入れ大御神がよい。<br><br>御を入れるのは五六七大御神と天照大御神のお二人だけでよろしい。<br><br>』 〔 御光話（S25年3月18日 ）『御光話録』19号、昭和25(1950)年6月13日発行〕 「幽世大御神」と「幽世大神」とではどちらがよろしいでしょうか。<br><br> 『大御神のほうがよけい尊敬してるわけですけど、大御神って言う必要はないですね。<br><br>「幽世大神」でいいですね。<br><br>大御神って言うと最高の神様のことになるんですが、幽世大神様は最高の神様ではありませんからね。<br><br>』 014 御神名と御働き、大光明如来と幽世大神 大光明如来様と称えた場合と幽世之大御神様と称えた場合の御働きの違いについて御説明下さい。<br><br> お名前の通り働かる。<br><br>名前は非常に重大なもので、その職名の業務のみを扱うようなもので、神名通りの働きをせられる。<br><br>一つ神で、いろいろな御名になるが、その時の働きをなさる。<br><br>（S24.10.23） 015 神のお働きと御名と想念（稲荷の産土神）、本教の高さ 氏神様なら例え稲荷明神でも天神様でもお参りすべきでしょうか。<br><br>またそれらでも産土神としての守護があるもので御座いましょうか。<br><br> 稲荷でも天神様でも、産土神となるとそれだけの地位と働きをされるから、同じに考えてよい。<br><br>宜しく人間で区別せず、産土神とすべきである。<br><br> 稲荷でも立派な稲荷がいる。<br><br> 神仏でも御名前が非常に肝腎である。<br><br> 観世音様は御本体は日月地大神様でも、観音では素晴しいお働きは出来ぬ。<br><br> 人間でも会社の社長となれば社長だけの事をし、他へ手は出せぬ。<br><br> 神仏も御名によりお働きに区別が出来る。<br><br>であるから、名によって解釈すれば判る。<br><br>人間が悪魔と思って言うと悪魔の働きになる。<br><br>ある物に対し、仏と思えばそうなるが、拝むのをやめると段々力が鈍って元のものになる。<br><br> 観音様でも人間が崇めないと力が薄くなるし、お働きも減る。<br><br> 皆拝む事によって違ってくる。<br><br> お守様でもいい加減にすると光が弱くなる。<br><br>人間の想念でいろいろになる。<br><br> 成金なども皆が羨しがるその想念が悪魔になり、黒いものになり、その人を落とそうと狙う。<br><br>その人に徳がなかったり、徳を積まなかったりすると落ちる。<br><br>社会的に貢献し、徳を積むと、感謝の気持は光となり、神仏の形などになって助けるから安全でいられる。<br><br> こういう人は大抵益々罪を作る人が多いから、好い運勢にならぬ。<br><br>特権階級などはよく間違った事をし、徳を施さぬから、曇りが取巻いて落ちなくてはならぬ事になる。<br><br>三菱重工業などは一番多い時は職工二十万といったが、その職工の怨みによって落ちた。<br><br>三井、岩崎もそうである。<br><br> 明治天皇のお隠れになった時は、（私も）二重橋前で祈念した。<br><br>全国でも祈願した。<br><br>日本人の大部分が祈ったにも係わらず死んだ。<br><br>これは日清、日露の大戦で、残虐行為を受けた支那人、朝鮮人などが非常に怨み、それが日本の中心の天皇へ行っている。<br><br>何十年も怨んでいるのが多い。<br><br>それで祈念時間と人数より怨みのそれが多いから駄目だった。<br><br>日韓併合なども大変な怨みである。<br><br>それが大正天皇にまで及んだ。<br><br>そのため脳が悪く、天皇の勤めが出来なかったのも、怨みが続いたそのためと思うのである。<br><br> 日本はその罪滅ぼしをしなくてはよくならない。<br><br>それで戦いに負け、朝鮮、台湾、樺太（カラフト）等領有したものを返し、それでどれだけ罪滅ぼししたか判らぬ。<br><br>それでよほど罪が消えた。<br><br> いかなる国でも神は公平で、神国の方がお尤めはひどい。<br><br>高級な身魂ほどお尤めはひどい。<br><br> 知ってやった行為は罪が重いというのと同じである。<br><br>日本が神国なればなるほど酷い。<br><br>希望通り神風は吹いた。<br><br> 人間は、自分の都合のいい解釈をしたがる。<br><br>神風の吹くよう祈ったのも、泥棒して捕まらぬよう祈ったと同じ事である。<br><br> 鰯の頭も信心から、という事は間違っている。<br><br>鰯の頭は頭で、それだけのものである。<br><br> 本教の信仰は上へ行くほどよく判るからどんな人と理論をしても負けない。<br><br>ピラミッドの形になっており、今迄は下の方しか判らなかった。<br><br>釈迦の説いた見真実はそれより上である。<br><br> 今迄は、夜の世であったから、それ以上の事は知らされなかった。<br><br>世界の謎、秘密、神秘等も、これから判る。<br><br> 016 神位と神衣の色（祖霊の夢） 私の父は入信させていただいておりますが、不熱心であります。<br><br>ある時、私は仏壇に向って御先祖に、私のなす事に間違いがありましたら御聞かせ下さい、と一心に御願い致しました。<br><br>その夜はろくろく眠れず、朝に炊事をして火をたきつけていて、うとうと眠ってしまいました。<br><br>眼の前に高い階段があり、その階段を昇り上るとお堂があって畳が一枚敷いてありました。<br><br>奥から二人、白装束で白い頭巾を被って神様のような人が、一人は立ち、一人は座り、「ほめてつかわす。<br><br>褒美を取らす」と言って、御書体位の包を下さったのです。<br><br>目が醒めました。<br><br>この神様とはどういう神様でしょうか、御伺い致します。<br><br> 先祖で、霊界で神格を得、下位の神になった人である。<br><br>信仰を熱心にするのを喜んで賞められた訳である。<br><br>白装束は浄衣であり、白が一番下の位である事は、霊界でも、現界でもそうである。<br><br>最高級の神は紫に赤袴である。<br><br>それに金の刺繍などがしてある。<br><br> 017 御浄霊中信者のみ大音を聞く（御神格と音の大きさ） 浄霊中の時等付近（その床下、天井、屋外等）にびっくりする程大きな音が「ドカン」として、調べて見ても何もなく、この音は信者以外のものや、信者でも熱心でないものには聞こえないと言う報告が時時寄せられますが、この音は何の音で、いかなる場合に起る音で御座いましょうか。<br><br> 神様（産土位の神）が来られる時にそのような音をさす事がある。<br><br> ドシーンとかミリミリとか、お宮などで音がする事がある。<br><br> 神様が来たお知らせで、大きい一流の神は凄い、ゴーッという音である。<br><br> ローソクがヒラヒラするのは霊が喜びを知らす。<br><br> 018 高級神霊の神懸の場合 霊界叢談中に、広吉の霊のところで、大先生が御研究中、Ｍ夫人に国常立尊がおかかりになったり、広吉のような地獄の霊が憑ったりしたところが御座いますが、同じ霊媒にこのような現象は普通ではあり得ない事と存ぜられますが、いかなるもので御座居ましょうか。<br><br> 通常でない。<br><br>私の場合、特別の使命があるためである。<br><br>普通はお憑りにならぬ。<br><br>重要な事はお頼みする。<br><br>（S24. 9. 9） 019 御本体と御分霊御力の差、拝者の多少と御扱方による相違 同一の神仏を各地に御祀りしてある場合、その御分霊の御力には差があるものでしょうか。<br><br>右御教示御願い申し上げます。<br><br> 差がある。<br><br>人間次第で差がつく。<br><br>拝む人が多い宮と少ない宮と違う。<br><br>拝む人数が多い程、崇める程神威――光が違う。<br><br>人間の扱い方次第で変る。<br><br>また立派なお宮にすれば神の神格が違う。<br><br> （人間と同じ事である。<br><br>崇める程威光が出る） 仏壇なども立派なのはいいが、家に相応しなくてはいけない。<br><br>お筆先に「今の人民、神の住居を粗末にして神を蔑ろにする」とある。<br><br>身分も家に相応するのがいい。<br><br>（以前平塚の百姓で、大光明如来様を祭ってあったのが雨で汚れた。<br><br>身分と相応しなかったので変えてやった。<br><br>鰯の頭も信心からというが、人間の想念によって形が出来る） 拝むとそのものの形が霊的に出来る。<br><br>観音様と思うと観音様が形造られる。<br><br>反対に悪魔も作る。<br><br>怨みの想念が塊ると一種の悪霊になって、人間を使って禍いをする事がある。<br><br>三越の専務のごとき、それである。<br><br> 怨みの祟りを 打消すだけの善い事をしていなくてはいけない。<br><br>（神の御守護がないとやられる。<br><br>浜口内閣の井上準之助は恨みの想念でやられた。<br><br>よく人間でなく病気で死ぬ。<br><br>今、税務署長など恨みでやられる。<br><br>明治天皇など支那やソ連の怨みでやられた。<br><br>怨みを受けるのはいけない） rattal（注） 〔 御光話（S24年2月18日 ）『御光話録』4号、昭和24(1949)年＊月＊日発行〕 020 霊界の夜昼と神の光と想念、行り方 霊界には夜昼はない。<br><br>神様の光は一定している。<br><br>人間のやり方で強くなったり弱くなったりする。<br><br>人間の想い方で違う。<br><br> 神様の方は人間界とはよほど違う事がある。<br><br>人間界の常識では分らぬ。<br><br> 何かを神と想って拝むと神の形になる。<br><br>それは拝まぬと元の物になる。<br><br>いわゆる「鰯の頭も信心」である。<br><br>（S23.11.14） 021 神と仏の関係 神と仏との御関係を御説明下さい。<br><br> カは火、ミは水。<br><br>神とは火と水、または火（日）の身という事であるから、昼間は神の代で、仏が元の神に戻らるるのである。<br><br> 観音様の周りには化仏が取巻いている。<br><br>化仏とは神の化身されたものである。<br><br> 観世音は光明如来と化現される――と祝詞にある。<br><br>つまり同じものである。<br><br> 022 分霊と化身、仏滅と化身、観音と御名、（神社祭神分霊の真相） 分霊と化身について―― 分霊とはわけみたまといい、人間にはないが神様はいくつにも霊を分けられる。<br><br>しかし神社で同じ神様を方々で祭る場合、神の分霊というが、本当をいうと家来の直系とか傍系などのもある。<br><br>しかし独一真神とか高皇産霊、神皇産霊神とかはそうではないが、伊邪諾尊、伊邪冊尊、天照大神などは人体をもって現われ給うた神であるから、爪や頭髪を分けて祭られたのである。<br><br> 化身で一番大きい事は、仏は全部神の化身であって、夜の世界の間は仏の世であるから神々は全部仏に化身された。<br><br>天照大神が大日如来、月読の尊が阿弥陀如来、若姫君尊が釈迦如来というようにである。<br><br>随って、仏滅という事は、仏が皆元の神にかえる事である。<br><br> 善言讃詞に、観世音菩薩光明如来と現じ応身弥勒と化し、とあるが、観音は伊都能売の神であり、ミロクの神の化身である。<br><br>従って、いずれは観音という御名もなくなる時が来る。<br><br>霊界では既に殆どなくなっている。<br><br> rattal（注） 〔 妙智之光『地上天国』4号 、昭和24(1949)年5月25日発行〕 023 分霊と化身（化仏、入信者は菩薩） 分霊と化身について―― 分霊とは分け身魂といい、人間にはないが神様はいくつにも霊を分けられる。<br><br>神社で同じ神様を方々で祭る場合神の分霊というが、本当言うと直系とか傍系などという神様が祭られている。<br><br> しかし、独一真神とか高御産霊とか神御産霊とかはそうではないが、伊邪諾尊、伊邪冊尊、天照大神などは人体を持って表われ給うた神であるから、人間として個性を持っておられるから、それはやはり傍系の神などが代りに祭られる事となろう。<br><br> 化身で一番大きい事は、仏は全部神の化身である事である。<br><br>夜の世界の間は仏になっていたので、神々は全部仏に化身された。<br><br>天照大神が大日如来になられたごとくである。<br><br> また化仏という字が観音経に沢山見られるが、化とは化ける事――即ち化身する事である。<br><br>諸子とても化仏であって、信仰に入った人は仏教でいう菩薩に相応するのである。<br><br> 仏滅という事は、仏が皆元の神に遷る事である。<br><br>善言讃詞に観世音菩薩光明如来と現じ応身弥勒と化し、とあるが、観音は伊都能売の神であり、弥勒の神の化身である。<br><br>従って、いずれは観音という御名もなくなる時が来る。<br><br>霊界では既に殆んどなくなっている。<br><br> （神界は、これから、新しい構成をする）（S23. 9.21） rattail（注） 〔 妙智之光『地上天国』4号 、昭和24(1949)年5月25日発行〕
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Volume da Elucidação sobre Deus 2 / 013-023 A Dignidade Divina</h2>
 <h2>013 O Uso do Honorífico ‘O’ ao Entoar o Nome Divino</h2>
@@ -297,5 +449,48 @@ function toggleLang(lang) {
 <br/>
 </font></p>
 </blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神解明篇 ２ 013-023 御神格 013 御の字奉唱する大神様 御浄化を軽く済ませていただくよう御軸に祝詞を奏上する場合の最後は、日月地大御神か幽世大御神かどちらが本当でありますか。<br/><br/>また、幽世大神と幽世大御神とはいずれを申し上げるべきでしょうか。<br/><br/>右御教示御願い申し上げます。<br/><br/> 五六七大御神が本当である。<br/><br/>ただ病人で憑霊のためと思われるような場合は幽世の大神を称うる。<br/><br/>大御神でなくていい。<br/><br/>御軸に向っては五六七大御神と唱う。<br/><br/>御の字は尊称であるから御の字を入れた方がよい。<br/><br/>御の字を入れるのは、五六七大御神、天照大御神御二人でよい。<br/><br/>（S23. 8.28） rattail（注） 〔 御光話（S23年 8月28日 ）『御光話録』発行年月日不明、推定昭和26年頃。<br/><br/>〕 幽世大御神と幽世大神とどちらがよろしゅうございましょうか。<br/><br/> 『御は尊称ですから大神でも大御神でも同じですが、幽世大神でいいです。<br/><br/>「五六七」のときは御を入れ大御神がよい。<br/><br/>御を入れるのは五六七大御神と天照大御神のお二人だけでよろしい。<br/><br/>』 〔 御光話（S25年3月18日 ）『御光話録』19号、昭和25(1950)年6月13日発行〕 「幽世大御神」と「幽世大神」とではどちらがよろしいでしょうか。<br/><br/> 『大御神のほうがよけい尊敬してるわけですけど、大御神って言う必要はないですね。<br/><br/>「幽世大神」でいいですね。<br/><br/>大御神って言うと最高の神様のことになるんですが、幽世大神様は最高の神様ではありませんからね。<br/><br/>』 014 御神名と御働き、大光明如来と幽世大神 大光明如来様と称えた場合と幽世之大御神様と称えた場合の御働きの違いについて御説明下さい。<br/><br/> お名前の通り働かる。<br/><br/>名前は非常に重大なもので、その職名の業務のみを扱うようなもので、神名通りの働きをせられる。<br/><br/>一つ神で、いろいろな御名になるが、その時の働きをなさる。<br/><br/>（S24.10.23） 015 神のお働きと御名と想念（稲荷の産土神）、本教の高さ 氏神様なら例え稲荷明神でも天神様でもお参りすべきでしょうか。<br/><br/>またそれらでも産土神としての守護があるもので御座いましょうか。<br/><br/> 稲荷でも天神様でも、産土神となるとそれだけの地位と働きをされるから、同じに考えてよい。<br/><br/>宜しく人間で区別せず、産土神とすべきである。<br/><br/> 稲荷でも立派な稲荷がいる。<br/><br/> 神仏でも御名前が非常に肝腎である。<br/><br/> 観世音様は御本体は日月地大神様でも、観音では素晴しいお働きは出来ぬ。<br/><br/> 人間でも会社の社長となれば社長だけの事をし、他へ手は出せぬ。<br/><br/> 神仏も御名によりお働きに区別が出来る。<br/><br/>であるから、名によって解釈すれば判る。<br/><br/>人間が悪魔と思って言うと悪魔の働きになる。<br/><br/>ある物に対し、仏と思えばそうなるが、拝むのをやめると段々力が鈍って元のものになる。<br/><br/> 観音様でも人間が崇めないと力が薄くなるし、お働きも減る。<br/><br/> 皆拝む事によって違ってくる。<br/><br/> お守様でもいい加減にすると光が弱くなる。<br/><br/>人間の想念でいろいろになる。<br/><br/> 成金なども皆が羨しがるその想念が悪魔になり、黒いものになり、その人を落とそうと狙う。<br/><br/>その人に徳がなかったり、徳を積まなかったりすると落ちる。<br/><br/>社会的に貢献し、徳を積むと、感謝の気持は光となり、神仏の形などになって助けるから安全でいられる。<br/><br/> こういう人は大抵益々罪を作る人が多いから、好い運勢にならぬ。<br/><br/>特権階級などはよく間違った事をし、徳を施さぬから、曇りが取巻いて落ちなくてはならぬ事になる。<br/><br/>三菱重工業などは一番多い時は職工二十万といったが、その職工の怨みによって落ちた。<br/><br/>三井、岩崎もそうである。<br/><br/> 明治天皇のお隠れになった時は、（私も）二重橋前で祈念した。<br/><br/>全国でも祈願した。<br/><br/>日本人の大部分が祈ったにも係わらず死んだ。<br/><br/>これは日清、日露の大戦で、残虐行為を受けた支那人、朝鮮人などが非常に怨み、それが日本の中心の天皇へ行っている。<br/><br/>何十年も怨んでいるのが多い。<br/><br/>それで祈念時間と人数より怨みのそれが多いから駄目だった。<br/><br/>日韓併合なども大変な怨みである。<br/><br/>それが大正天皇にまで及んだ。<br/><br/>そのため脳が悪く、天皇の勤めが出来なかったのも、怨みが続いたそのためと思うのである。<br/><br/> 日本はその罪滅ぼしをしなくてはよくならない。<br/><br/>それで戦いに負け、朝鮮、台湾、樺太（カラフト）等領有したものを返し、それでどれだけ罪滅ぼししたか判らぬ。<br/><br/>それでよほど罪が消えた。<br/><br/> いかなる国でも神は公平で、神国の方がお尤めはひどい。<br/><br/>高級な身魂ほどお尤めはひどい。<br/><br/> 知ってやった行為は罪が重いというのと同じである。<br/><br/>日本が神国なればなるほど酷い。<br/><br/>希望通り神風は吹いた。<br/><br/> 人間は、自分の都合のいい解釈をしたがる。<br/><br/>神風の吹くよう祈ったのも、泥棒して捕まらぬよう祈ったと同じ事である。<br/><br/> 鰯の頭も信心から、という事は間違っている。<br/><br/>鰯の頭は頭で、それだけのものである。<br/><br/> 本教の信仰は上へ行くほどよく判るからどんな人と理論をしても負けない。<br/><br/>ピラミッドの形になっており、今迄は下の方しか判らなかった。<br/><br/>釈迦の説いた見真実はそれより上である。<br/><br/> 今迄は、夜の世であったから、それ以上の事は知らされなかった。<br/><br/>世界の謎、秘密、神秘等も、これから判る。<br/><br/> 016 神位と神衣の色（祖霊の夢） 私の父は入信させていただいておりますが、不熱心であります。<br/><br/>ある時、私は仏壇に向って御先祖に、私のなす事に間違いがありましたら御聞かせ下さい、と一心に御願い致しました。<br/><br/>その夜はろくろく眠れず、朝に炊事をして火をたきつけていて、うとうと眠ってしまいました。<br/><br/>眼の前に高い階段があり、その階段を昇り上るとお堂があって畳が一枚敷いてありました。<br/><br/>奥から二人、白装束で白い頭巾を被って神様のような人が、一人は立ち、一人は座り、「ほめてつかわす。<br/><br/>褒美を取らす」と言って、御書体位の包を下さったのです。<br/><br/>目が醒めました。<br/><br/>この神様とはどういう神様でしょうか、御伺い致します。<br/><br/> 先祖で、霊界で神格を得、下位の神になった人である。<br/><br/>信仰を熱心にするのを喜んで賞められた訳である。<br/><br/>白装束は浄衣であり、白が一番下の位である事は、霊界でも、現界でもそうである。<br/><br/>最高級の神は紫に赤袴である。<br/><br/>それに金の刺繍などがしてある。<br/><br/> 017 御浄霊中信者のみ大音を聞く（御神格と音の大きさ） 浄霊中の時等付近（その床下、天井、屋外等）にびっくりする程大きな音が「ドカン」として、調べて見ても何もなく、この音は信者以外のものや、信者でも熱心でないものには聞こえないと言う報告が時時寄せられますが、この音は何の音で、いかなる場合に起る音で御座いましょうか。<br/><br/> 神様（産土位の神）が来られる時にそのような音をさす事がある。<br/><br/> ドシーンとかミリミリとか、お宮などで音がする事がある。<br/><br/> 神様が来たお知らせで、大きい一流の神は凄い、ゴーッという音である。<br/><br/> ローソクがヒラヒラするのは霊が喜びを知らす。<br/><br/> 018 高級神霊の神懸の場合 霊界叢談中に、広吉の霊のところで、大先生が御研究中、Ｍ夫人に国常立尊がおかかりになったり、広吉のような地獄の霊が憑ったりしたところが御座いますが、同じ霊媒にこのような現象は普通ではあり得ない事と存ぜられますが、いかなるもので御座居ましょうか。<br/><br/> 通常でない。<br/><br/>私の場合、特別の使命があるためである。<br/><br/>普通はお憑りにならぬ。<br/><br/>重要な事はお頼みする。<br/><br/>（S24. 9. 9） 019 御本体と御分霊御力の差、拝者の多少と御扱方による相違 同一の神仏を各地に御祀りしてある場合、その御分霊の御力には差があるものでしょうか。<br/><br/>右御教示御願い申し上げます。<br/><br/> 差がある。<br/><br/>人間次第で差がつく。<br/><br/>拝む人が多い宮と少ない宮と違う。<br/><br/>拝む人数が多い程、崇める程神威――光が違う。<br/><br/>人間の扱い方次第で変る。<br/><br/>また立派なお宮にすれば神の神格が違う。<br/><br/> （人間と同じ事である。<br/><br/>崇める程威光が出る） 仏壇なども立派なのはいいが、家に相応しなくてはいけない。<br/><br/>お筆先に「今の人民、神の住居を粗末にして神を蔑ろにする」とある。<br/><br/>身分も家に相応するのがいい。<br/><br/>（以前平塚の百姓で、大光明如来様を祭ってあったのが雨で汚れた。<br/><br/>身分と相応しなかったので変えてやった。<br/><br/>鰯の頭も信心からというが、人間の想念によって形が出来る） 拝むとそのものの形が霊的に出来る。<br/><br/>観音様と思うと観音様が形造られる。<br/><br/>反対に悪魔も作る。<br/><br/>怨みの想念が塊ると一種の悪霊になって、人間を使って禍いをする事がある。<br/><br/>三越の専務のごとき、それである。<br/><br/> 怨みの祟りを 打消すだけの善い事をしていなくてはいけない。<br/><br/>（神の御守護がないとやられる。<br/><br/>浜口内閣の井上準之助は恨みの想念でやられた。<br/><br/>よく人間でなく病気で死ぬ。<br/><br/>今、税務署長など恨みでやられる。<br/><br/>明治天皇など支那やソ連の怨みでやられた。<br/><br/>怨みを受けるのはいけない） rattal（注） 〔 御光話（S24年2月18日 ）『御光話録』4号、昭和24(1949)年＊月＊日発行〕 020 霊界の夜昼と神の光と想念、行り方 霊界には夜昼はない。<br/><br/>神様の光は一定している。<br/><br/>人間のやり方で強くなったり弱くなったりする。<br/><br/>人間の想い方で違う。<br/><br/> 神様の方は人間界とはよほど違う事がある。<br/><br/>人間界の常識では分らぬ。<br/><br/> 何かを神と想って拝むと神の形になる。<br/><br/>それは拝まぬと元の物になる。<br/><br/>いわゆる「鰯の頭も信心」である。<br/><br/>（S23.11.14） 021 神と仏の関係 神と仏との御関係を御説明下さい。<br/><br/> カは火、ミは水。<br/><br/>神とは火と水、または火（日）の身という事であるから、昼間は神の代で、仏が元の神に戻らるるのである。<br/><br/> 観音様の周りには化仏が取巻いている。<br/><br/>化仏とは神の化身されたものである。<br/><br/> 観世音は光明如来と化現される――と祝詞にある。<br/><br/>つまり同じものである。<br/><br/> 022 分霊と化身、仏滅と化身、観音と御名、（神社祭神分霊の真相） 分霊と化身について―― 分霊とはわけみたまといい、人間にはないが神様はいくつにも霊を分けられる。<br/><br/>しかし神社で同じ神様を方々で祭る場合、神の分霊というが、本当をいうと家来の直系とか傍系などのもある。<br/><br/>しかし独一真神とか高皇産霊、神皇産霊神とかはそうではないが、伊邪諾尊、伊邪冊尊、天照大神などは人体をもって現われ給うた神であるから、爪や頭髪を分けて祭られたのである。<br/><br/> 化身で一番大きい事は、仏は全部神の化身であって、夜の世界の間は仏の世であるから神々は全部仏に化身された。<br/><br/>天照大神が大日如来、月読の尊が阿弥陀如来、若姫君尊が釈迦如来というようにである。<br/><br/>随って、仏滅という事は、仏が皆元の神にかえる事である。<br/><br/> 善言讃詞に、観世音菩薩光明如来と現じ応身弥勒と化し、とあるが、観音は伊都能売の神であり、ミロクの神の化身である。<br/><br/>従って、いずれは観音という御名もなくなる時が来る。<br/><br/>霊界では既に殆どなくなっている。<br/><br/> rattal（注） 〔 妙智之光『地上天国』4号 、昭和24(1949)年5月25日発行〕 023 分霊と化身（化仏、入信者は菩薩） 分霊と化身について―― 分霊とは分け身魂といい、人間にはないが神様はいくつにも霊を分けられる。<br/><br/>神社で同じ神様を方々で祭る場合神の分霊というが、本当言うと直系とか傍系などという神様が祭られている。<br/><br/> しかし、独一真神とか高御産霊とか神御産霊とかはそうではないが、伊邪諾尊、伊邪冊尊、天照大神などは人体を持って表われ給うた神であるから、人間として個性を持っておられるから、それはやはり傍系の神などが代りに祭られる事となろう。<br/><br/> 化身で一番大きい事は、仏は全部神の化身である事である。<br/><br/>夜の世界の間は仏になっていたので、神々は全部仏に化身された。<br/><br/>天照大神が大日如来になられたごとくである。<br/><br/> また化仏という字が観音経に沢山見られるが、化とは化ける事――即ち化身する事である。<br/><br/>諸子とても化仏であって、信仰に入った人は仏教でいう菩薩に相応するのである。<br/><br/> 仏滅という事は、仏が皆元の神に遷る事である。<br/><br/>善言讃詞に観世音菩薩光明如来と現じ応身弥勒と化し、とあるが、観音は伊都能売の神であり、弥勒の神の化身である。<br/><br/>従って、いずれは観音という御名もなくなる時が来る。<br/><br/>霊界では既に殆んどなくなっている。<br/><br/> （神界は、これから、新しい構成をする）（S23. 9.21） rattail（注） 〔 妙智之光『地上天国』4号 、昭和24(1949)年5月25日発行〕</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

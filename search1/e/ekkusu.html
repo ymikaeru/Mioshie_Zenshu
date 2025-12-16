@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ekkusu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： Ｘの説明 未発表『医学革命の書』昭和28(1953)年執筆 前項によって治病上最も重要なのは、今日まで地球上になかったＸ（エックス）なるものであるが、ではなぜ私を通じて発揮される事になったかという理由をかいてみるが、前項にかいたごとく神は人類不幸の原因である病なるものを絶滅するについての必要な条件としては、病理の開明と確実な治病法が生れなければならないのは言うまでもない。<br><br>すなわち病理は浄化作用であり、治病法は浄霊であるのはもちろんである。<br><br> そこで神は私を選び、智慧と力とを与えられたのである。<br><br>これがさきにかいたごとく私の文字で作られる御守を使用する事であって、換言すれば無形の原子爆弾であって、しかも霊界における火素が日に月に増量しつつあるため、それに伴い霊の曇りも溶け易くなりつつある事は、私に伝達されつつある火素が漸次増量強化されるからである。<br><br>それは私始め数万の弟子達の浄霊の力が日に月に強くなりつつある事によっても分る通り、治病力も著しく増して来たのである。<br><br> ところが面白い事にはこの影響は医学の方へは反対に現われてくる。<br><br>というのはすでに説いたごとく医学は溶けようとする毒素を固める方法であるから、火素が増えるに従い段々固まらなくなるから、固めるには漸次強い力が必要となる。<br><br>それにはこれまでよりも薬の毒を強めなければならないが、これもある程度以上強めると副作用が起るから、この副作用を起らないようには毒素を加減しなければならないから、これがまた厄介であって、これが薬剤の進歩である。<br><br>従ってこの進歩はもちろん病を治す進歩ではなく、病を一時的固める進歩である事はもちろんで、これによってみても医療の逆である事が分るであろう。<br><br>以上の理によって新薬の進歩とは毒素を強めた割合に副作用がない事で、つまり固め方法の進歩である。<br><br>その結果結核などの死亡が減ったというのもこのためであって、それは事実が示している。<br><br>というのは死亡率が減った割合に患者及び発病者はいささかも減らないのにみるも明らかである。<br><br>これについてもこの際私は警告すべき重大事がある。<br><br> それは霊界が昼になるに従い、浄化力が旺盛となるから毒素が固らなくなる。<br><br>そこで薬の毒素を益々強烈にしなければならないのは当然で、最早この限度に来ている事であって、これ以上は危険線に入る以上、固める力よりも溶ける力の方が勝つ事になるから、そうなると結核を始めあらゆる病気は飛躍的激増となり、患者と死者の増加のため、空前の修羅場（しゅらば）が現出するであろう。<br><br>これこそ私が以前から唱えている恐怖時代である。<br><br>こうなったら最後医師が手を触れるや、たちまち悪化または死となるから、医師の恐怖時代ともなろう。<br><br>ここに至って医師が医療を放棄せざるを得なくなる。<br><br>そこでこの惨害から免れる道を求める事になるから、ここに至って私の説が初めて光り出し、万人救いを求めるべく、本教目指し蝟集（いしゅう）するであろうから、その時の多忙なる到底想像がつかないと共に、漸次世界的となり、神の御目的である救世済民の大偉業が達成するであろう。<br><br> (注) 蝟集（いしゅう） 「蝟」はハリネズミの事で、ハリネズミの毛のように多くの物が一時に寄り集まることをいう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Transição do Mundo e a Crise da Medicina</h2>
 <p>Conforme exposto no capítulo anterior, o elemento de suprema importância para a cura das doenças é o fator X, algo até então inexistente sobre a face da Terra. Explicarei, a seguir, o motivo pelo qual tal poder se manifesta por meu intermédio.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A esse respeito, há uma advertência de suma importância que devo fazer. À medida que o Mundo Espiritual adentra a Era do Dia, o poder de purificação se tornará tão intenso que as toxinas não mais poderão ser solidificadas. Naturalmente, a toxicidade dos remédios precisará ser cada vez mais elevada, mas já estamos no limite. Qualquer avanço para além dessa fronteira de risco significará que o poder de dissolução superará o de solidificação.</p>
 <p>Quando isso ocorrer, todas as enfermidades, a começar pela tuberculose, aumentarão de forma exponencial. O crescimento no número de doentes e de mortos dará origem a um cenário de carnificina sem precedentes. Esta é a Era do Terror que venho anunciando há tanto tempo. Nesse ponto derradeiro, ao simples toque de um médico, o paciente sofrerá uma piora imediata ou virá a óbito. Advirá, assim, uma Era do Terror também para os médicos, que não terão alternativa senão abandonar a prática da medicina.</p>
 <p>Será então que as pessoas, em busca de um caminho para escapar dessa calamidade, verão finalmente a luz em meus ensinamentos. Multidões afluirão à nossa Igreja, almejando a salvação. A atividade frenética desse período será algo simplesmente inimaginável. O movimento se tornará gradualmente mundial, e a magna obra de Deus, a salvação de toda a humanidade, será enfim consumada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： Ｘの説明 未発表『医学革命の書』昭和28(1953)年執筆 前項によって治病上最も重要なのは、今日まで地球上になかったＸ（エックス）なるものであるが、ではなぜ私を通じて発揮される事になったかという理由をかいてみるが、前項にかいたごとく神は人類不幸の原因である病なるものを絶滅するについての必要な条件としては、病理の開明と確実な治病法が生れなければならないのは言うまでもない。<br/><br/>すなわち病理は浄化作用であり、治病法は浄霊であるのはもちろんである。<br/><br/> そこで神は私を選び、智慧と力とを与えられたのである。<br/><br/>これがさきにかいたごとく私の文字で作られる御守を使用する事であって、換言すれば無形の原子爆弾であって、しかも霊界における火素が日に月に増量しつつあるため、それに伴い霊の曇りも溶け易くなりつつある事は、私に伝達されつつある火素が漸次増量強化されるからである。<br/><br/>それは私始め数万の弟子達の浄霊の力が日に月に強くなりつつある事によっても分る通り、治病力も著しく増して来たのである。<br/><br/> ところが面白い事にはこの影響は医学の方へは反対に現われてくる。<br/><br/>というのはすでに説いたごとく医学は溶けようとする毒素を固める方法であるから、火素が増えるに従い段々固まらなくなるから、固めるには漸次強い力が必要となる。<br/><br/>それにはこれまでよりも薬の毒を強めなければならないが、これもある程度以上強めると副作用が起るから、この副作用を起らないようには毒素を加減しなければならないから、これがまた厄介であって、これが薬剤の進歩である。<br/><br/>従ってこの進歩はもちろん病を治す進歩ではなく、病を一時的固める進歩である事はもちろんで、これによってみても医療の逆である事が分るであろう。<br/><br/>以上の理によって新薬の進歩とは毒素を強めた割合に副作用がない事で、つまり固め方法の進歩である。<br/><br/>その結果結核などの死亡が減ったというのもこのためであって、それは事実が示している。<br/><br/>というのは死亡率が減った割合に患者及び発病者はいささかも減らないのにみるも明らかである。<br/><br/>これについてもこの際私は警告すべき重大事がある。<br/><br/> それは霊界が昼になるに従い、浄化力が旺盛となるから毒素が固らなくなる。<br/><br/>そこで薬の毒素を益々強烈にしなければならないのは当然で、最早この限度に来ている事であって、これ以上は危険線に入る以上、固める力よりも溶ける力の方が勝つ事になるから、そうなると結核を始めあらゆる病気は飛躍的激増となり、患者と死者の増加のため、空前の修羅場（しゅらば）が現出するであろう。<br/><br/>これこそ私が以前から唱えている恐怖時代である。<br/><br/>こうなったら最後医師が手を触れるや、たちまち悪化または死となるから、医師の恐怖時代ともなろう。<br/><br/>ここに至って医師が医療を放棄せざるを得なくなる。<br/><br/>そこでこの惨害から免れる道を求める事になるから、ここに至って私の説が初めて光り出し、万人救いを求めるべく、本教目指し蝟集（いしゅう）するであろうから、その時の多忙なる到底想像がつかないと共に、漸次世界的となり、神の御目的である救世済民の大偉業が達成するであろう。<br/><br/> (注) 蝟集（いしゅう） 「蝟」はハリネズミの事で、ハリネズミの毛のように多くの物が一時に寄り集まることをいう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

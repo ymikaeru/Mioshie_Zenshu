@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon32</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本は文明か野蛮か 『栄光』159号、昭和27(1952)年6月4日発行 この標題を見た人は、私の頭脳を疑うかも知れない。<br><br>なぜなれば日本は戦には負けたが、依然として、文明国の仲間に入っている事は確かだからである。<br><br>そうしてまず野蛮国といえば彼のアフリカを始め、地球上には色々の国があるが、よく考えてみると、これらは単なる野蛮国ではなく、野蛮未開国というのが本当であろう。<br><br>ただ日本は未開の二字だけはたしかに除れたが、野蛮の二字は依然としてそのまま残っているのが事実である。<br><br> 何よりも私は近頃の世相をみて、つくづくそう思われるのは、余りにも野蛮的な事が多すぎるからである。<br><br>何かというと集団的暴力を奮って社会を騒がしたり、人々を脅かし、殴り合い、兇器の奪い合い等々、怪我をしたりさせたりしているというように、実に不安極まる社会である。<br><br>しかも将来文明の指導者たるべき、最高学府の学徒までがその仲間になって騒ぐのだから、全く情ない話である。<br><br>そうかと思うと市井（しせい）の巷（ちまた）などでも、運チャンの首締め、殴打で人事不名にして、僅かな金を奪ったり、またちょっとした事で人を殺したり、中には親子、兄弟の殺傷沙汰さえ往々あるのだから、全く野蛮極まる世相で、日々の新聞に一つや二つ出ていない事はないくらいである。<br><br> その他強窃盗、強姦、スリや放火、喧嘩、殺傷沙汰等、数えあげればキリがない程で、これが文明世界であるかと疑いたくなる。<br><br>私はむしろ獣に近い社会といった方がよいとさえ思うのである。<br><br>という訳で実際現代人はまだ文明の何たるかを知らないようである。<br><br>なるほど近代文明は機械の発達によって非常に便利になり、社会組織や機構などが科学的に巧妙に仕組まれるようになったので、単に見た目には驚異的進歩であるので、これが文明というもののあり方と思ってしまい、随喜の涙をこぼしているのが大部分であろう。<br><br>ところが何ぞ知らん、吾々からみればこれは文明の表面だけで、裏面は文明どころか、野蛮がまだ大いに残っていると思わざるを得ないのである。<br><br> これを分り易くするため、歴史的順序をかいてみるが、そもそも人類は原始時代から未開野蛮時代を経、それから宗教や学問の発達によって文明が生まれたには違いないと共に、野蛮の方も減りそうなものだが、事実は減るどころではない。<br><br>という訳で変な言葉だが、今日は文化的野蛮時代と言った方が適切であろう。<br><br>従って真の文明時代とはこれから出来る世界であって、この時代こそ全人類の待望する平和幸福な世界である。<br><br>だが喜ぶべし、その時代はすでに目前に迫ったのである。<br><br>それはその時代を造る役目として生まれたのが我がメシヤ教であるから、本教の今行っている事業を見ればよく分る。<br><br>その第一着手としては、文明の裏に潜んでいる幾多の誤謬を指摘し、暴露すると共に、真の文明というものを教えているのである。<br><br>ゆえにそれを信じさせるための手段として、神は旺（さか）んに私に奇蹟を行わせ、神の実在を信じさせているのである。<br><br>こうみてくると本教は既成観念で考えるような、あり来たりの宗教ではなく、全く新しい文明世界の創造者であり、世界歴史大転換期における神の一大経綸の担当者である事が分るであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Japão é Civilizado ou Bárbaro?</h2>
 <p>Aqueles que lerem este título poderão questionar o meu discernimento. Afinal, apesar da derrota na guerra, o Japão inegavelmente figura entre as nações civilizadas. Ao pensarmos em nações bárbaras, talvez nos venham à mente as da África e outras tantas espalhadas pelo globo. Contudo, refletindo com mais profundidade, percebemos que o termo mais adequado não seria apenas “bárbaras”, mas sim “bárbaras e primitivas”. O Japão, por sua vez, embora tenha superado a condição de nação primitiva, a verdade é que ainda conserva os traços da barbárie.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Para facilitar a compreensão, farei uma breve retrospectiva histórica. Desde o princípio, a humanidade evoluiu da era primitiva, atravessou um período bárbaro e incivilizado e, com o desenvolvimento da religião e do saber, deu origem à civilização. Seria de se esperar que, com isso, a barbárie diminuísse; todavia, a realidade é que ela não apenas persistiu, como se manifesta de novas formas. Por mais estranho que possa parecer, seria mais apropriado denominar a era atual de “era da barbárie cultural”.</p>
 <p>Portanto, a verdadeira era da civilização é o mundo que está por vir, um mundo de paz e felicidade ansiosamente aguardado por toda a humanidade. E alegrem-se, pois essa era já se avizinha! Digo isso porque a nossa Igreja Messiânica nasceu com a missão de edificar essa nova era, o que fica claro ao se observar a obra que estamos realizando.</p>
 <p>Como primeiro passo, estamos apontando e expondo os inúmeros equívocos ocultos por trás da civilização aparente, ao mesmo tempo em que ensinamos o que é a verdadeira civilização. Nesse sentido, Deus me faz realizar milagres incessantemente, como um meio para que as pessoas creiam em Sua existência real. Analisando sob este prisma, compreende-se que nossa Igreja não é uma religião convencional, presa a conceitos preestabelecidos, mas sim a criadora de um mundo de civilização inteiramente novo e a executora do grandioso Plano Divino neste grande momento de transição da história mundial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本は文明か野蛮か 『栄光』159号、昭和27(1952)年6月4日発行 この標題を見た人は、私の頭脳を疑うかも知れない。<br/><br/>なぜなれば日本は戦には負けたが、依然として、文明国の仲間に入っている事は確かだからである。<br/><br/>そうしてまず野蛮国といえば彼のアフリカを始め、地球上には色々の国があるが、よく考えてみると、これらは単なる野蛮国ではなく、野蛮未開国というのが本当であろう。<br/><br/>ただ日本は未開の二字だけはたしかに除れたが、野蛮の二字は依然としてそのまま残っているのが事実である。<br/><br/> 何よりも私は近頃の世相をみて、つくづくそう思われるのは、余りにも野蛮的な事が多すぎるからである。<br/><br/>何かというと集団的暴力を奮って社会を騒がしたり、人々を脅かし、殴り合い、兇器の奪い合い等々、怪我をしたりさせたりしているというように、実に不安極まる社会である。<br/><br/>しかも将来文明の指導者たるべき、最高学府の学徒までがその仲間になって騒ぐのだから、全く情ない話である。<br/><br/>そうかと思うと市井（しせい）の巷（ちまた）などでも、運チャンの首締め、殴打で人事不名にして、僅かな金を奪ったり、またちょっとした事で人を殺したり、中には親子、兄弟の殺傷沙汰さえ往々あるのだから、全く野蛮極まる世相で、日々の新聞に一つや二つ出ていない事はないくらいである。<br/><br/> その他強窃盗、強姦、スリや放火、喧嘩、殺傷沙汰等、数えあげればキリがない程で、これが文明世界であるかと疑いたくなる。<br/><br/>私はむしろ獣に近い社会といった方がよいとさえ思うのである。<br/><br/>という訳で実際現代人はまだ文明の何たるかを知らないようである。<br/><br/>なるほど近代文明は機械の発達によって非常に便利になり、社会組織や機構などが科学的に巧妙に仕組まれるようになったので、単に見た目には驚異的進歩であるので、これが文明というもののあり方と思ってしまい、随喜の涙をこぼしているのが大部分であろう。<br/><br/>ところが何ぞ知らん、吾々からみればこれは文明の表面だけで、裏面は文明どころか、野蛮がまだ大いに残っていると思わざるを得ないのである。<br/><br/> これを分り易くするため、歴史的順序をかいてみるが、そもそも人類は原始時代から未開野蛮時代を経、それから宗教や学問の発達によって文明が生まれたには違いないと共に、野蛮の方も減りそうなものだが、事実は減るどころではない。<br/><br/>という訳で変な言葉だが、今日は文化的野蛮時代と言った方が適切であろう。<br/><br/>従って真の文明時代とはこれから出来る世界であって、この時代こそ全人類の待望する平和幸福な世界である。<br/><br/>だが喜ぶべし、その時代はすでに目前に迫ったのである。<br/><br/>それはその時代を造る役目として生まれたのが我がメシヤ教であるから、本教の今行っている事業を見ればよく分る。<br/><br/>その第一着手としては、文明の裏に潜んでいる幾多の誤謬を指摘し、暴露すると共に、真の文明というものを教えているのである。<br/><br/>ゆえにそれを信じさせるための手段として、神は旺（さか）んに私に奇蹟を行わせ、神の実在を信じさせているのである。<br/><br/>こうみてくると本教は既成観念で考えるような、あり来たりの宗教ではなく、全く新しい文明世界の創造者であり、世界歴史大転換期における神の一大経綸の担当者である事が分るであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290407</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年4月7日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月七日 大祭のときに“今までのミロクは五六七で、これからは三六九になる”ということを言いましたが、五日の参拝者が三百六十九名なのです。<br><br>神様は“ヘン、ドンナモンジャイ”というところをお見せになったのだろうと思います。<br><br>神様は自由自在ですから、時々そういうおもしろいような奇蹟をやられます。<br><br>これが一人一人集めても、そうきっちりと数がゆくものではないのですが、それが、まるっきり偶然のように数が揃うということをみても……。<br><br>神様は霊に言いつけて一人一人引っ張ってくるのですから、そうすると“明日は行かないはずだったが、とても行きたくてたまらない。<br><br>我慢ができない”また多い場合には“お前は今日はちょっと止せ”となって、ちょうどよい数だけを集めるのですが、実に神様の力と言いますか、腕前と言いますか、どんなことでもできるということが思われるのです。<br><br> 今大騒ぎをやっている水爆ということなども、少しも恐れることはないのです。<br><br>あんなものは神様の方ではわけないのです。<br><br>水爆を止めようとすることも、破裂させようとすることも、神様の方では指一本もかからないのです。<br><br>しかしあれも神様の方での深い仕組みがあるのです。<br><br>あれは神様がやっているので、悪魔がやっているのではないのです。<br><br>仮に悪魔がやっているとしても、悪魔が神様に使われてやっているのですから、元は神様です。<br><br>ですからいずれ“アレが良かった、ありがたかった”ということになるのです。<br><br>その点、日本人として一番分かりやすいのは、広島、長崎の原爆を、日本人は大いに感謝しなければならないのです。<br><br>アメリカにお礼を言ってよいのです。<br><br>というのは、もしかあの時に原爆がなかったらどうなるかということを考えてみれば分かります。<br><br>あれまでは、各都市を順繰りに爆弾で爆破してきたのですが、もしあの時に原子爆弾が出なかったら、日本はなかなか降伏しませんから、結局日本の主な都市は全部やられます。<br><br>ところが、ただ広島、長崎の二つを犠牲にしただけで、あれで止めることができたのですから、“原爆日本を救う”というわけです。<br><br>あと復興するにしても、あれ以上もっと壊されて、それとともに人間が何十何百万死ぬか分からないですから、そうなってからの復興ではたいへんなのですから、あの程度で止めてくれたということは、日本を救った第一の功労者は原子爆弾です。<br><br>あの当時は、とんでもない恐ろしい物を持ってきやがったと言って憤慨もし、いろいろ愚痴もこぼしましたが、それを大局から考えてみると、今言ったとおりですから、今の水素爆弾が将来どんなに大きな働きをするか分からないです。<br><br>なにしろ神様は、もう時期が近寄ってきたので、予想外のことをやります。<br><br>だから救世教信者ならだいたい分かるが、そうでない人だったらテンデ分かるはずがないです。<br><br> そういうわけで、最近いろんな霊的の事柄が出てきたのです。<br><br>この間は、キリストやいろいろな偉い開祖、教祖などの神懸りのことを言ったけれども、あれは京都の方の若い女性ですが、今度は熱海にいる若い女の人が、やはり霊憑りでいろいろそういうことを言われたのですが、それが京都の人とよく合っているのです。<br><br>新しい点もありますから今読ませます。<br><br> （御報告） これをみると、キリストはキリストらしい、バイブルの書き方みたいなことを言われているので、おもしろいと思います。<br><br>バイブルのいやにくどい所などがよく似てます。<br><br>そういうわけで、今までは光を持った人間が現われなかったのです。<br><br>つまりヨハネが二千七百五十年地下に苦しんだということは、光というものがなかったからです。<br><br>それで、光を受けなければ救われないのです。<br><br>神仏も、つまりこの光をいただきたがって、今霊界ではたいへんなのです。<br><br>それで今度奈良に行くについて、あっちの各海、湖水、池などの龍神が次々と京都の人に憑って、その報告が来ました。<br><br>そういうようなわけで、まあ、光を憧れているわけです。<br><br> それで、今読んだ中に“神ならぬ神”ということを言ってますが、これは非常におもしろいと思います。<br><br>実際今まで神といって拝んでいたのは、実は本当は神ではなかったのです。<br><br>ですから“神ならぬ神”というのは、うまく言いまわしたものです。<br><br>そういうわけで、「聖夜」といって、キリストの聖歌でしょうが、これはあまりにキリストを讃えたので、かえってキリストとしては苦しんでいるのです。<br><br>そこで歌詞を教えたのですが、これで非常におもしろいと思うのは、私は、メシヤ会館ができたら、前から言っているとおり、ヘンデルの作った「救世主」という歌をお祭りやなにかのときには歌って、オーケストラもやるつもりで、舞台の下の所にオーケストラボックスをこしらえましたが、歌うその歌詞は、ヘンデルのような外国語では具合が悪いですから、どうしても日本の言葉でなければならないのです。<br><br>私が作ろうと思っていたのですが、ところが私が作るということは嘘なのです。<br><br>私は歌うのでなくて、歌われる方なのですから……。<br><br>だから讃えるということが、自分が自分を讃えるようなことになってしまうから、どうしてもなにかしかるべき歌詞が欲しいなと思っていたのです。<br><br>そうかといって、適当に作れる人はないのです。<br><br>ところがキリストが作ってくれたのですから、実に結構なのです。<br><br>そこで私も一安心したわけです。<br><br>この歌詞もなかなか良くできてます。<br><br>簡単で実に讃える心持ち、気持ちがよく表われてます。<br><br>ですからこれを採用するつもりです。<br><br>そういうようなわけで、これからは、ああいう“神ならぬ神”たちが大いに活動始めますから、どんなことがあるか分からないです。<br><br>いよいよ本舞台になったわけです。<br><br>今年から表になるということの最初の一つの現われです。<br><br> もう一つおもしろい、ちょっとしたなにがあるのですが、この間ハワイで英語教修をした時に、聞き手が四十人ばかりあって、その時に外人は十人ばかりだそうですが、その中で最近信者になった、アメリカの人で、ちょっとおもしろいことを言ったのを書いてありますから、読ませます。<br><br>樋口さんの報告の中にある一節です。<br><br> （「ハワイ通信」十八） 【栄光 二五七号】 今の“世界を救う聖者が八人目に出る”ということは、伝説にあるのです。<br><br>仏教のほうでは釈迦が八人目だということになっているのですが、それは仏教に都合のよいように作ったものです。<br><br>釈迦は「八」ということはないのです。<br><br>釈迦は「七」で、七人目なのです。<br><br>というのは五六七のミロクとして、釈迦が七のミロクになるのです。<br><br>釈迦はどこまでも「七」の数字で支配される人です。<br><br>だからつまり「地」は「七」ですからして、地のミロクです。<br><br>私は伊都能売ですから「八」になるのです。<br><br>伊都能売というのは、数でいうと「五」「三」ですから「八」になるのです。<br><br>そして「八」という数字は富士山になるわけです。<br><br>ですから「八」という数字を書くと、富士山の形になります。<br><br>それで私は大和民族の宗家になるのですが、大和民族というのは、今の駿河の付近が発祥地なのです（本当は富士山の上なのですが）。<br><br>富士山の麓なのです。<br><br>だから昔は富士山が本当の神様の山として、あそこの上にいまでも木の花咲爺姫が祀ってありますが、そういった意味で、私は富士山と非常に因縁があるのです。<br><br>それで静岡の裁判であっちの留置所に入ったときに大きな神秘なことがあったということも、そういう因縁なのです。<br><br>そうしてあのときも話したとおり、夢で、私が富士山に乗っかって景色を見るという話もしましたが、その時が私が生まれた、第二の誕生です。<br><br>そこで、出てから「散花結実」ということを言いましたが、花が散って実を結ぶで、「散花結実」ということは種が宿ったということです。<br><br>それから私の力とかいろんな、そういうことが違ってしまったわけです。<br><br>それからが本当に開けたわけです。<br><br>ですからあの時に救世教というものはすっかり壊れてしまったわけです。<br><br>もうこれで駄目だというくらいに見えたのですが、それが花が散るという形です。<br><br>それはその当時よく話しましたが、そういうようなわけで、今の八人目ということも合っているのです。<br><br> それから一週間ばかり前に例のアメリカのグリリ夫妻が、駐留軍の『星条旗』（スターズ・アンド・ストライプス）の主筆の人を連れてきて、いろいろ話し合ったのです。<br><br>私は五分か十分ぐらい会うつもりだったのですが、話をすると、話がばかにおもしろくなって一時間以上話をしました。<br><br>私は近ごろときどきアメリカの人と話をしますが、話が実によく分かるのです。<br><br>間に通訳が入っていながら、日本人と話をするよりもよく合うのです。<br><br>ちょうど私の考えとアメリカの人の考えが一致しているのです。<br><br>だから両方でうなずき合ってます。<br><br>ところがどうも日本の新聞記者と話をしていると、先方で分かったのか分からないのかということがよくありますが、アメリカの人はイエス、ノーでやってくるからはっきりしてます。<br><br>また先方でも、一、二回会うと非常に共鳴して、信者でなくても、私に対する一つのファンみたいになってしまうのです。<br><br>その時もいろんな話がありましたが、その話の中で印象に残っているのは、グリリ夫妻が言ったことで“美術館の品物を集めるには、まず五十年はかかるだろう”ということから、“どのくらいかかったか”と言うからして、“戦後ボツボツ集め始めて、本当に集まったのはまる三年ぐらいなものだ”と言ったところが、驚いて“どうしても分からない。<br><br>その理由を聞かしてくれ”と言うので、“理由というよりか、奇蹟で集まったのだ”と言ったのですが、それが分からないのです。<br><br>しかし、霊界における作者やそういう人たちが骨折って、救世教に、御用をさせてもらったというように説くと、これは信者でないとちょっと分かりにくいですから、一番分かりやすく言おうと思って“つまり集まるのも、集まったということはつまり金の力だ。<br><br>その金が集まったということは、医者から見放された病人や、死ぬばかりになっていたのが助かるというようなことで、その感謝の気持ちでみんなが金を献げた、それが集まって買うことができた”というように説明したのです。<br><br>そこで阿部さんが“というのは、弟子や信者が病気を治すことができるという、これが非常に大きなものだ。<br><br>一人対一人ではないので、治す人を作るということが、今まで例がなかった”という話をしたので、また非常に驚いて、“自分は今まで世界でのいろんな偉い人を見たり聞いたりしたことは随分あったが、みんな、つまり一人対一人か、あるいはただ教えというようなわけで、釈迦、キリスト以上という人の話は聞いたことがない。<br><br>ところがキリストぐらいの奇蹟をやる弟子を多く作るということは、おそらく見たことも聞いたこともない。<br><br>そういう点において実に驚いた”というようなことを言ってました。<br><br>そこでやっぱりアメリカの人らしいことを言います。<br><br>“明主様をどうこうと批評はできない。<br><br>もし相手を批評するとしたら、相手と同程度かそれ以上の人でなければ批評はできない。<br><br>ところが明主様は人間よりずっと上としたら、ただそれをありのまま感じるだけのことで、批評ということはできない”ということを言ってましたが、これは非常に正直な言い方です。<br><br>日本人はあんまりそういうふうには言わないのです。<br><br>言わないどころではない、テンデ考え方が違ってしまっているのです。<br><br>日本の新聞記者とすれば、まず“救世教という、岡田という奴はなかなかだ。<br><br>戦後の混乱状態に便乗して、うまく大勢を瞞しやがって、金を儲けて、こんなものを造るナンテ、これは怪物だ、腕のある奴だ”というように思うでしょう。<br><br>下から上を見上げるような言い方は決してしないです。<br><br>新聞雑誌を見ても分かるとおり、ちゃかしたような、愚弄したような見方をします。<br><br>それはちょうど新聞記者自身の方が“救世教の岡田という奴より上だ、だからオレの筆の先でいい加減に書くだけの人間だ”というように見ているわけです。<br><br>だからアメリカの人との違いさというものはたいへんなものだと思います。<br><br>そのことを書いてみました。<br><br> （御論文「迷信非迷信」） 【栄光 二五八号】 原爆と水爆についても話をするつもりだったのですが、この次に話をするとして、今日はこれだけにしておきます。<br><br>これは一番知りたいことです。<br><br>ところで神様の方から見たアレについて、そうとう知っておく必要がありますから、それはこの次にします。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Soberania Divina e a Missão do Oitavo Salvador</h2>
 <p>Durante o Grande Culto, afirmei que o Miroku, até então simbolizado pelos números cinco, seis e sete, passaria a ser representado por três, seis e nove. E, de fato, o número de peregrinos no dia cinco foi de trezentos e sessenta e nove. Creio que, com isso, Deus nos demonstrou Sua magnitude, como a dizer: “Vejam do que sou capaz”. Por ser livre e soberano, Ele por vezes realiza milagres admiráveis como este. Mesmo que tentássemos reunir as pessoas uma a uma, seria impossível alcançar um número tão exato. O fato de essa cifra ter se manifestado de forma aparentemente casual revela a Vontade Divina. Deus compele o espírito de cada um, atraindo-os. Assim, uma pessoa que não planejava vir sente um desejo irresistível e pensa: “Eu não ia, mas sinto uma vontade incontrolável de ir, não consigo me conter”. Em outras situações, para ajustar a contagem, alguém pode receber a intuição: “É melhor que você não vá hoje”. Desse modo, Ele reúne o número exato de pessoas. Diante disso, somos levados a refletir sobre o poder, ou melhor, a maestria de Deus, que Lhe permite realizar absolutamente tudo.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>A lenda sobre a vinda do oitavo salvador do mundo, mencionada no relato, de fato existe. No budismo, afirma-se que Shakyamuni foi o oitavo, mas essa é uma interpretação adaptada para a conveniência da própria doutrina. Shakyamuni não corresponde ao número “oito”. Ele é o “sete”, o sétimo. Ele representa o Miroku do cinco-seis-sete, sendo, portanto, o Miroku do número sete. Shakyamuni é uma pessoa regida, em todos os aspectos, pelo número sete. E como o “sete” simboliza a Terra, ele é o Miroku da Terra. Eu, por ser Izunome, correspondo ao “oito”. Izunome, em termos numéricos, é a soma de “cinco” e “três”, resultando em “oito”. E o número “oito” se manifesta na forma do Monte Fuji. De fato, ao escrevermos o ideograma para “oito” (八), ele se assemelha ao contorno do Monte Fuji. Por essa razão, eu sou o patriarca da etnia Yamato, cujo local de origem se situa nas proximidades da atual província de Suruga (embora, na verdade, seja o topo do Monte Fuji). Foi no sopé do Monte Fuji. Antigamente, essa montanha era reverenciada como a verdadeira montanha de Deus, e até hoje a divindade Konohanasakuya-hime é ali cultuada. Nesse sentido, possuo um profundo laço espiritual com o Monte Fuji. O grandioso e místico evento que ocorreu quando estive detido em Shizuoka, durante o processo judicial, também está relacionado a esse laço. Conforme relatei na época, tive um sonho no qual eu estava sobre o Monte Fuji, contemplando a paisagem. Aquele momento marcou o meu segundo nascimento. Ao ser libertado, anunciei o princípio do “Sange Ketsujitsu” — o florescer que se desfaz para frutificar. Isso significava que a semente havia sido plantada. A partir de então, meu poder e diversos outros aspectos se transformaram. Foi o início da verdadeira expansão. Naquela ocasião, a Sekaikyuseikyou pareceu ter sido completamente aniquilada, a ponto de se pensar que era o fim. Contudo, aquilo representava o desabrochar das flores que precisam murchar para dar lugar ao fruto. Falei muito sobre isso na época. Dessa forma, a menção ao oitavo salvador está, de fato, correta.</p>
 <p>Há cerca de uma semana, o casal Grilli, dos Estados Unidos, trouxe-me o editor-chefe do jornal das forças de ocupação, o “Stars and Stripes”, e tivemos uma longa conversa. Minha intenção era recebê-los por apenas cinco ou dez minutos, mas o diálogo se tornou tão interessante que se estendeu por mais de uma hora. Ultimamente, tenho conversado com alguns norte-americanos e percebo que eles me compreendem muito bem. Mesmo com um intérprete mediando, a sintonia é maior do que a que sinto com os japoneses. Meus pensamentos e os deles coincidem perfeitamente, e ambos concordamos com acenos de cabeça. Em contrapartida, quando converso com jornalistas japoneses, frequentemente fico na dúvida se eles entenderam ou não. Os americanos, com seu “sim” ou “não”, são muito claros. Além disso, após um ou dois encontros, eles demonstram grande afinidade e, mesmo sem se tornarem membros, desenvolvem uma espécie de admiração por mim. Naquela conversa, diversos assuntos foram abordados, mas o que mais me marcou foi um comentário do casal Grilli. Eles disseram que levaria pelo menos cinquenta anos para reunir a coleção do museu de arte. Quando me perguntaram quanto tempo eu levei, respondi: “Comecei a colecionar gradualmente após a guerra, mas a maior parte do acervo foi reunida em cerca de três anos”. Eles ficaram estupefatos e insistiram: “Não conseguimos entender. Por favor, explique-nos o motivo”. Eu disse: “Mais do que um motivo, foi um milagre que as reuniu”. Contudo, essa explicação não lhes bastava. Para que pudessem compreender, pois explicar que os próprios artistas no Mundo Espiritual se empenharam para que suas obras servissem à Obra Divina seria difícil para não-membros, usei a lógica mais acessível: “A capacidade de reunir as obras dependeu do poder financeiro. E esse capital se formou graças à gratidão de pessoas que, desenganadas pela medicina ou à beira da morte, foram salvas. Foram os donativos de gratidão delas que permitiram a aquisição das peças”. Então, o Sr. Abe complementou: “O fator decisivo é que os discípulos e membros também podem curar doenças. Não se trata de uma relação de um para um; o fato de ele formar pessoas que curam é algo sem precedentes na história”. Diante disso, a surpresa deles foi ainda maior. O editor disse: “Já vi e ouvi falar de muitas pessoas notáveis ao redor do mundo, mas todas atuavam individualmente ou apenas transmitiam ensinamentos. Nunca ouvi falar de alguém que superasse Shakyamuni ou Cristo. No entanto, formar um grande número de discípulos capazes de realizar milagres semelhantes aos de Cristo é algo que eu jamais vi ou ouvi. Nesse ponto, estou verdadeiramente impressionado”. Em seguida, ele expressou um pensamento tipicamente americano: “Não me sinto em posição de avaliar o Sr. Okada. Para criticar alguém, é preciso estar no mesmo nível ou acima dessa pessoa. Se Meishu-Sama está em um patamar muito acima do humano, tudo o que posso fazer é sentir e aceitar as coisas como são, sem emitir julgamentos”. Essa é uma colocação de uma honestidade notável. Os japoneses raramente se expressam dessa maneira. Na verdade, a mentalidade é completamente diferente. Um jornalista japonês provavelmente pensaria: “Esse tal de Okada, da Sekaikyuseikyou, é um sujeito esperto. Aproveitando-se do caos do pós-guerra, ele cometeu um estelionato em grande escala, enriqueceu e construiu tudo isso. É um monstro, um homem ardiloso”. Jamais adotariam uma postura de quem olha de baixo para cima. Basta observar os jornais e revistas para notar o tom jocoso e desdenhoso com que nos tratam. É como se o próprio jornalista se considerasse superior a “esse tal de Okada da Sekaikyuseikyou” e, portanto, se sentisse no direito de escrever o que bem entende sobre ele. A diferença em relação aos americanos é, a meu ver, abissal.</p>
 <p>Eu pretendia discorrer também sobre as bombas atômica e de hidrogênio, mas deixarei para uma próxima oportunidade. É um assunto sobre o qual todos têm grande curiosidade. É fundamental que conheçam a perspectiva Divina sobre esses eventos, mas abordarei o tema em outro momento.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S29年4月7日） 『御教え集』33号、昭和29(1954)年5月15日発行 昭和二十九年四月七日 大祭のときに“今までのミロクは五六七で、これからは三六九になる”ということを言いましたが、五日の参拝者が三百六十九名なのです。<br/><br/>神様は“ヘン、ドンナモンジャイ”というところをお見せになったのだろうと思います。<br/><br/>神様は自由自在ですから、時々そういうおもしろいような奇蹟をやられます。<br/><br/>これが一人一人集めても、そうきっちりと数がゆくものではないのですが、それが、まるっきり偶然のように数が揃うということをみても……。<br/><br/>神様は霊に言いつけて一人一人引っ張ってくるのですから、そうすると“明日は行かないはずだったが、とても行きたくてたまらない。<br/><br/>我慢ができない”また多い場合には“お前は今日はちょっと止せ”となって、ちょうどよい数だけを集めるのですが、実に神様の力と言いますか、腕前と言いますか、どんなことでもできるということが思われるのです。<br/><br/> 今大騒ぎをやっている水爆ということなども、少しも恐れることはないのです。<br/><br/>あんなものは神様の方ではわけないのです。<br/><br/>水爆を止めようとすることも、破裂させようとすることも、神様の方では指一本もかからないのです。<br/><br/>しかしあれも神様の方での深い仕組みがあるのです。<br/><br/>あれは神様がやっているので、悪魔がやっているのではないのです。<br/><br/>仮に悪魔がやっているとしても、悪魔が神様に使われてやっているのですから、元は神様です。<br/><br/>ですからいずれ“アレが良かった、ありがたかった”ということになるのです。<br/><br/>その点、日本人として一番分かりやすいのは、広島、長崎の原爆を、日本人は大いに感謝しなければならないのです。<br/><br/>アメリカにお礼を言ってよいのです。<br/><br/>というのは、もしかあの時に原爆がなかったらどうなるかということを考えてみれば分かります。<br/><br/>あれまでは、各都市を順繰りに爆弾で爆破してきたのですが、もしあの時に原子爆弾が出なかったら、日本はなかなか降伏しませんから、結局日本の主な都市は全部やられます。<br/><br/>ところが、ただ広島、長崎の二つを犠牲にしただけで、あれで止めることができたのですから、“原爆日本を救う”というわけです。<br/><br/>あと復興するにしても、あれ以上もっと壊されて、それとともに人間が何十何百万死ぬか分からないですから、そうなってからの復興ではたいへんなのですから、あの程度で止めてくれたということは、日本を救った第一の功労者は原子爆弾です。<br/><br/>あの当時は、とんでもない恐ろしい物を持ってきやがったと言って憤慨もし、いろいろ愚痴もこぼしましたが、それを大局から考えてみると、今言ったとおりですから、今の水素爆弾が将来どんなに大きな働きをするか分からないです。<br/><br/>なにしろ神様は、もう時期が近寄ってきたので、予想外のことをやります。<br/><br/>だから救世教信者ならだいたい分かるが、そうでない人だったらテンデ分かるはずがないです。<br/><br/> そういうわけで、最近いろんな霊的の事柄が出てきたのです。<br/><br/>この間は、キリストやいろいろな偉い開祖、教祖などの神懸りのことを言ったけれども、あれは京都の方の若い女性ですが、今度は熱海にいる若い女の人が、やはり霊憑りでいろいろそういうことを言われたのですが、それが京都の人とよく合っているのです。<br/><br/>新しい点もありますから今読ませます。<br/><br/> （御報告） これをみると、キリストはキリストらしい、バイブルの書き方みたいなことを言われているので、おもしろいと思います。<br/><br/>バイブルのいやにくどい所などがよく似てます。<br/><br/>そういうわけで、今までは光を持った人間が現われなかったのです。<br/><br/>つまりヨハネが二千七百五十年地下に苦しんだということは、光というものがなかったからです。<br/><br/>それで、光を受けなければ救われないのです。<br/><br/>神仏も、つまりこの光をいただきたがって、今霊界ではたいへんなのです。<br/><br/>それで今度奈良に行くについて、あっちの各海、湖水、池などの龍神が次々と京都の人に憑って、その報告が来ました。<br/><br/>そういうようなわけで、まあ、光を憧れているわけです。<br/><br/> それで、今読んだ中に“神ならぬ神”ということを言ってますが、これは非常におもしろいと思います。<br/><br/>実際今まで神といって拝んでいたのは、実は本当は神ではなかったのです。<br/><br/>ですから“神ならぬ神”というのは、うまく言いまわしたものです。<br/><br/>そういうわけで、「聖夜」といって、キリストの聖歌でしょうが、これはあまりにキリストを讃えたので、かえってキリストとしては苦しんでいるのです。<br/><br/>そこで歌詞を教えたのですが、これで非常におもしろいと思うのは、私は、メシヤ会館ができたら、前から言っているとおり、ヘンデルの作った「救世主」という歌をお祭りやなにかのときには歌って、オーケストラもやるつもりで、舞台の下の所にオーケストラボックスをこしらえましたが、歌うその歌詞は、ヘンデルのような外国語では具合が悪いですから、どうしても日本の言葉でなければならないのです。<br/><br/>私が作ろうと思っていたのですが、ところが私が作るということは嘘なのです。<br/><br/>私は歌うのでなくて、歌われる方なのですから……。<br/><br/>だから讃えるということが、自分が自分を讃えるようなことになってしまうから、どうしてもなにかしかるべき歌詞が欲しいなと思っていたのです。<br/><br/>そうかといって、適当に作れる人はないのです。<br/><br/>ところがキリストが作ってくれたのですから、実に結構なのです。<br/><br/>そこで私も一安心したわけです。<br/><br/>この歌詞もなかなか良くできてます。<br/><br/>簡単で実に讃える心持ち、気持ちがよく表われてます。<br/><br/>ですからこれを採用するつもりです。<br/><br/>そういうようなわけで、これからは、ああいう“神ならぬ神”たちが大いに活動始めますから、どんなことがあるか分からないです。<br/><br/>いよいよ本舞台になったわけです。<br/><br/>今年から表になるということの最初の一つの現われです。<br/><br/> もう一つおもしろい、ちょっとしたなにがあるのですが、この間ハワイで英語教修をした時に、聞き手が四十人ばかりあって、その時に外人は十人ばかりだそうですが、その中で最近信者になった、アメリカの人で、ちょっとおもしろいことを言ったのを書いてありますから、読ませます。<br/><br/>樋口さんの報告の中にある一節です。<br/><br/> （「ハワイ通信」十八） 【栄光 二五七号】 今の“世界を救う聖者が八人目に出る”ということは、伝説にあるのです。<br/><br/>仏教のほうでは釈迦が八人目だということになっているのですが、それは仏教に都合のよいように作ったものです。<br/><br/>釈迦は「八」ということはないのです。<br/><br/>釈迦は「七」で、七人目なのです。<br/><br/>というのは五六七のミロクとして、釈迦が七のミロクになるのです。<br/><br/>釈迦はどこまでも「七」の数字で支配される人です。<br/><br/>だからつまり「地」は「七」ですからして、地のミロクです。<br/><br/>私は伊都能売ですから「八」になるのです。<br/><br/>伊都能売というのは、数でいうと「五」「三」ですから「八」になるのです。<br/><br/>そして「八」という数字は富士山になるわけです。<br/><br/>ですから「八」という数字を書くと、富士山の形になります。<br/><br/>それで私は大和民族の宗家になるのですが、大和民族というのは、今の駿河の付近が発祥地なのです（本当は富士山の上なのですが）。<br/><br/>富士山の麓なのです。<br/><br/>だから昔は富士山が本当の神様の山として、あそこの上にいまでも木の花咲爺姫が祀ってありますが、そういった意味で、私は富士山と非常に因縁があるのです。<br/><br/>それで静岡の裁判であっちの留置所に入ったときに大きな神秘なことがあったということも、そういう因縁なのです。<br/><br/>そうしてあのときも話したとおり、夢で、私が富士山に乗っかって景色を見るという話もしましたが、その時が私が生まれた、第二の誕生です。<br/><br/>そこで、出てから「散花結実」ということを言いましたが、花が散って実を結ぶで、「散花結実」ということは種が宿ったということです。<br/><br/>それから私の力とかいろんな、そういうことが違ってしまったわけです。<br/><br/>それからが本当に開けたわけです。<br/><br/>ですからあの時に救世教というものはすっかり壊れてしまったわけです。<br/><br/>もうこれで駄目だというくらいに見えたのですが、それが花が散るという形です。<br/><br/>それはその当時よく話しましたが、そういうようなわけで、今の八人目ということも合っているのです。<br/><br/> それから一週間ばかり前に例のアメリカのグリリ夫妻が、駐留軍の『星条旗』（スターズ・アンド・ストライプス）の主筆の人を連れてきて、いろいろ話し合ったのです。<br/><br/>私は五分か十分ぐらい会うつもりだったのですが、話をすると、話がばかにおもしろくなって一時間以上話をしました。<br/><br/>私は近ごろときどきアメリカの人と話をしますが、話が実によく分かるのです。<br/><br/>間に通訳が入っていながら、日本人と話をするよりもよく合うのです。<br/><br/>ちょうど私の考えとアメリカの人の考えが一致しているのです。<br/><br/>だから両方でうなずき合ってます。<br/><br/>ところがどうも日本の新聞記者と話をしていると、先方で分かったのか分からないのかということがよくありますが、アメリカの人はイエス、ノーでやってくるからはっきりしてます。<br/><br/>また先方でも、一、二回会うと非常に共鳴して、信者でなくても、私に対する一つのファンみたいになってしまうのです。<br/><br/>その時もいろんな話がありましたが、その話の中で印象に残っているのは、グリリ夫妻が言ったことで“美術館の品物を集めるには、まず五十年はかかるだろう”ということから、“どのくらいかかったか”と言うからして、“戦後ボツボツ集め始めて、本当に集まったのはまる三年ぐらいなものだ”と言ったところが、驚いて“どうしても分からない。<br/><br/>その理由を聞かしてくれ”と言うので、“理由というよりか、奇蹟で集まったのだ”と言ったのですが、それが分からないのです。<br/><br/>しかし、霊界における作者やそういう人たちが骨折って、救世教に、御用をさせてもらったというように説くと、これは信者でないとちょっと分かりにくいですから、一番分かりやすく言おうと思って“つまり集まるのも、集まったということはつまり金の力だ。<br/><br/>その金が集まったということは、医者から見放された病人や、死ぬばかりになっていたのが助かるというようなことで、その感謝の気持ちでみんなが金を献げた、それが集まって買うことができた”というように説明したのです。<br/><br/>そこで阿部さんが“というのは、弟子や信者が病気を治すことができるという、これが非常に大きなものだ。<br/><br/>一人対一人ではないので、治す人を作るということが、今まで例がなかった”という話をしたので、また非常に驚いて、“自分は今まで世界でのいろんな偉い人を見たり聞いたりしたことは随分あったが、みんな、つまり一人対一人か、あるいはただ教えというようなわけで、釈迦、キリスト以上という人の話は聞いたことがない。<br/><br/>ところがキリストぐらいの奇蹟をやる弟子を多く作るということは、おそらく見たことも聞いたこともない。<br/><br/>そういう点において実に驚いた”というようなことを言ってました。<br/><br/>そこでやっぱりアメリカの人らしいことを言います。<br/><br/>“明主様をどうこうと批評はできない。<br/><br/>もし相手を批評するとしたら、相手と同程度かそれ以上の人でなければ批評はできない。<br/><br/>ところが明主様は人間よりずっと上としたら、ただそれをありのまま感じるだけのことで、批評ということはできない”ということを言ってましたが、これは非常に正直な言い方です。<br/><br/>日本人はあんまりそういうふうには言わないのです。<br/><br/>言わないどころではない、テンデ考え方が違ってしまっているのです。<br/><br/>日本の新聞記者とすれば、まず“救世教という、岡田という奴はなかなかだ。<br/><br/>戦後の混乱状態に便乗して、うまく大勢を瞞しやがって、金を儲けて、こんなものを造るナンテ、これは怪物だ、腕のある奴だ”というように思うでしょう。<br/><br/>下から上を見上げるような言い方は決してしないです。<br/><br/>新聞雑誌を見ても分かるとおり、ちゃかしたような、愚弄したような見方をします。<br/><br/>それはちょうど新聞記者自身の方が“救世教の岡田という奴より上だ、だからオレの筆の先でいい加減に書くだけの人間だ”というように見ているわけです。<br/><br/>だからアメリカの人との違いさというものはたいへんなものだと思います。<br/><br/>そのことを書いてみました。<br/><br/> （御論文「迷信非迷信」） 【栄光 二五八号】 原爆と水爆についても話をするつもりだったのですが、この次に話をするとして、今日はこれだけにしておきます。<br/><br/>これは一番知りたいことです。<br/><br/>ところで神様の方から見たアレについて、そうとう知っておく必要がありますから、それはこの次にします。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

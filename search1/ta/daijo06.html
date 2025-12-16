@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>daijo06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大乗と小乗 『栄光』81号、昭和25(1950)年12月6日発行 大乗と小乗についてよく質（き）かれるが、この事については以前にも相当かいた事があったが、どうもまだ徹底しないようだから再び筆を執ったのである。<br><br> まず根本から説いてみるが、大乗は緯（よこ）で小乗は経（たて）である。<br><br>すなわち大乗は水で、小乗は火である。<br><br>だから大乗はどこまでも拡がるから無限大である。<br><br>小乗は深くして高くはあるが狭い事になる。<br><br>たとえばキリスト教は大乗だから世界的に拡がったが、それに引換え仏教は小乗だから拡がらない。<br><br>孤立的になる。<br><br>また大乗は唯物的で、小乗は精神的であるから、キリスト教によって白人文明は物質的に発展したが、仏教は精神文明であるから隠遁的で、一時は発展したが漸次衰えつつある。<br><br> また卑近な例ではあるが、日本が米国に負けたのは、日本は火でありアメリカは水であるから、どうしても火の日本は水のアメリカに消されてしまう。<br><br>以上のように今日までの世界は、火の経と水の緯とが対立的であった。<br><br>これについて今一つこういう点も見逃す事は出来ない。<br><br>それは彼の共産主義も火であるから、赤い色である。<br><br>とすればこれもアメリカの水と対立している訳である。<br><br>だから最後に世界は、経と緯と必ず結ぶ事になる、すなわち十字形である。<br><br>この十字形文化こそ理想世界の完成であって、キリスト教の十字もそれを暗示したものである、なるほどキリストの受難である十字架も、そういう意味もあるが、これは小さい。<br><br>神ともあろうものがそんな小さい意味だけではない、右のような大きな意味も示唆している事を知らねばならない。<br><br> また、十字形とは経は霊で、緯は体であるから、どちらに偏っても本当ではない。<br><br>前述のごとく両方が結んでこそ完璧である。<br><br>すなわち大乗にして小乗、小乗にして大乗であらねばならない。<br><br>そのように結んだ真中が伊都能売（いずのめ）という観音様のお働きになる、観音様は男であり女であるというのも、その意味に外ならない。<br><br>ゆえに十字の真中に心をおくとすれば、千変万化融通無碍の働きが出来るのである。<br><br>すなわち心魂を中心におく時はいとも小さいが、一度経緯へ拡がればいか程でも大きくなる。<br><br>そうして経の働きは厳として犯すべからざる父のごとく、緯の働きは自由自在で春のごとく、何人（なんぴと）も懐かしむ母のごとくでなければならない。<br><br>また気候にしても冬は小乗であり、夏は大乗であるからどちらも極端で、春と秋が好い気候であるからこれが十字型の真中であり、中性である。<br><br>だからこの時を彼岸（ひがん）と言うのは、理想である彼方の岸、すなわち天国浄土的の気候であるから、お祝いをしたり、お寺詣りをして霊を慰めるのである。<br><br> 以上によって、大乗小乗の大体は理解されたであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Mahayana e Hinayana</h2>
 <p>Recebo frequentes perguntas a respeito do Mahayana e do Hinayana. Embora já tenha escrito consideravelmente sobre o assunto, percebo que a compreensão ainda não se aprofundou como deveria. Por essa razão, tomo a pena mais uma vez para elucidar esta questão.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Portanto, ao posicionar o coração no centro da cruz, torna-se possível atuar com infinita flexibilidade e adaptação. A alma, quando centrada em si mesma, é diminuta; contudo, ao expandir-se nas direções vertical e horizontal, pode alcançar uma grandeza incomensurável. A atuação vertical deve ser rigorosa e inviolável como a de um pai, ao passo que a atuação horizontal deve ser livre e plena como a primavera, acolhedora como uma mãe por quem todos anseiam.</p>
 <p>O mesmo princípio se aplica ao clima: o inverno é Hinayana, e o verão, Mahayana. Ambos representam extremos. A primavera e o outono, com seu clima ameno, correspondem ao centro da cruz, à neutralidade. É por essa razão que esses períodos são chamados de Higan (彼岸), pois representam a “outra margem”, a margem ideal — em outras palavras, um clima que se assemelha ao do Paraíso, da Terra Pura. Este é o motivo pelo qual se realizam celebrações e visitas aos templos durante essa época, a fim de confortar os espíritos de nossos antepassados.</p>
 <p>Creio que, com esta explanação, os aspectos gerais do Mahayana e do Hinayana foram devidamente compreendidos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大乗と小乗 『栄光』81号、昭和25(1950)年12月6日発行 大乗と小乗についてよく質（き）かれるが、この事については以前にも相当かいた事があったが、どうもまだ徹底しないようだから再び筆を執ったのである。<br/><br/> まず根本から説いてみるが、大乗は緯（よこ）で小乗は経（たて）である。<br/><br/>すなわち大乗は水で、小乗は火である。<br/><br/>だから大乗はどこまでも拡がるから無限大である。<br/><br/>小乗は深くして高くはあるが狭い事になる。<br/><br/>たとえばキリスト教は大乗だから世界的に拡がったが、それに引換え仏教は小乗だから拡がらない。<br/><br/>孤立的になる。<br/><br/>また大乗は唯物的で、小乗は精神的であるから、キリスト教によって白人文明は物質的に発展したが、仏教は精神文明であるから隠遁的で、一時は発展したが漸次衰えつつある。<br/><br/> また卑近な例ではあるが、日本が米国に負けたのは、日本は火でありアメリカは水であるから、どうしても火の日本は水のアメリカに消されてしまう。<br/><br/>以上のように今日までの世界は、火の経と水の緯とが対立的であった。<br/><br/>これについて今一つこういう点も見逃す事は出来ない。<br/><br/>それは彼の共産主義も火であるから、赤い色である。<br/><br/>とすればこれもアメリカの水と対立している訳である。<br/><br/>だから最後に世界は、経と緯と必ず結ぶ事になる、すなわち十字形である。<br/><br/>この十字形文化こそ理想世界の完成であって、キリスト教の十字もそれを暗示したものである、なるほどキリストの受難である十字架も、そういう意味もあるが、これは小さい。<br/><br/>神ともあろうものがそんな小さい意味だけではない、右のような大きな意味も示唆している事を知らねばならない。<br/><br/> また、十字形とは経は霊で、緯は体であるから、どちらに偏っても本当ではない。<br/><br/>前述のごとく両方が結んでこそ完璧である。<br/><br/>すなわち大乗にして小乗、小乗にして大乗であらねばならない。<br/><br/>そのように結んだ真中が伊都能売（いずのめ）という観音様のお働きになる、観音様は男であり女であるというのも、その意味に外ならない。<br/><br/>ゆえに十字の真中に心をおくとすれば、千変万化融通無碍の働きが出来るのである。<br/><br/>すなわち心魂を中心におく時はいとも小さいが、一度経緯へ拡がればいか程でも大きくなる。<br/><br/>そうして経の働きは厳として犯すべからざる父のごとく、緯の働きは自由自在で春のごとく、何人（なんぴと）も懐かしむ母のごとくでなければならない。<br/><br/>また気候にしても冬は小乗であり、夏は大乗であるからどちらも極端で、春と秋が好い気候であるからこれが十字型の真中であり、中性である。<br/><br/>だからこの時を彼岸（ひがん）と言うのは、理想である彼方の岸、すなわち天国浄土的の気候であるから、お祝いをしたり、お寺詣りをして霊を慰めるのである。<br/><br/> 以上によって、大乗小乗の大体は理解されたであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

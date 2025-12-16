@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinbutu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神仏はあるか 『天国の福音』昭和22(1947)年2月5日発行 私がこの偉大なる医術を発見し得たという事は、霊の実在を知り得た事がその動機である。<br><br>すなわち、霊を治療する事によって体の病気が治るという原理であるがこれは、将来の文化に対する一大示唆とみねばなるまい。<br><br>実に科学の一大革命である。<br><br>何となれば病気治療以外のあらゆる部面に対してもこの原理を応用する時、人類福祉の増進は測り知れないものがあろう。<br><br>それのみではない。<br><br>この原理の研究を推進（すす）めてゆく時、宗教の実体にまで及ぶであろう事も予想し得らるるのである。<br><br> 神は有るか無いかという事の論争も、数千年前から今日に及んでなお解決し得られないでいつも古くして新しい問題となっている。<br><br>それはもちろん無に等しい霊である神を、唯物的観点からのみ取り扱う一般人には判りようがないのは当然である。<br><br>しかるに私の提唱する霊科学によれば、神の実在といえども知り得ると共に、人間死後と再生の問題、霊界の実相、憑霊現象等々、未知の世界（私はこれを第二世界ともいう）における種々の問題についても解決されるであろう。<br><br> 私は、まず既往における私の思想の推移から説く必要がある。<br><br>私は若い頃から極端な唯物主義者であった。<br><br>その事について二、三の例をあげてみるが、私がいかに唯物主義者であったかという事は、四十歳位まで神仏に決して掌を合わせた事がない。<br><br>何となれば、神社の本体などというものは、大工や指物師がお宮と称する檜（ひのき）で箱様のものを作り、その中へ鏡か石塊あるいは紙へ文字を書いたものなどを入れる。<br><br>それを人間がうやうやしく拝むという事は、およそ意味がない。<br><br>馬鹿馬鹿しいにも程があるという考え方であったからである。<br><br>また仏にしても、技術家が紙へ描いたり、木や石や金属等で観音とか阿弥陀、釈迦等の姿を刻んだものを拝む。<br><br>しかも観音や阿弥陀等は実在しない。<br><br>いわば人間の空想で作り上げたものに違いないから、なおさら意味がない。<br><br>いずれも偶像崇拝以外の何ものでもないというのが持論であった。<br><br>その頃私はドイツの有名な哲学者オイケンの説を読んだ事があった。<br><br>それによれば「本来人間は何かを礼拝しなければ満足が出来ないという本能を有している。<br><br>そのため人間自身がなんらかの偶像を作りそれを飾って拝み自己満足にふけるのである。<br><br>その証拠には祭壇へあげる供物は神のほうへ向けずして人間のほうへ向けるという事によってみても判るのである」という説に大いに共鳴したのであった。<br><br> 以上のような私の思想は国家観にも及び、古き寺院の多いイタリアなどの国は衰退しつつあるに反し、アメリカのごとき寺院の少ない国家は非常な発展をするという現実であるから、神社仏閣等は国家発展の障害物とさえ思われたのである。<br><br>しかるにその当時私は毎月救世軍へ若干の寄付をしていたため、時々牧師が訪ねてきてはキリスト教を奨めた。<br><br>牧師は「救世軍へ寄付する方は大抵クリスチャンであるが、あなたはクリスチャンでもないのにいかなる動機からであるか」ときくのである。<br><br>そこで私は「救世軍は出獄者を悔い改めさせ、悪人を善人にする。<br><br>従って救世軍がなかったとしたら、出獄者の誰かが私の家へ盗みに入ったかも知れない。<br><br>しかるにその災難を救世軍が未然に防いでくれたとしたら、それに感謝し、その事業をたすけるべきが至当ではないか」と説明したのである。<br><br>まだそのほかにもこれに似たような事は種々あったがともあれ私は善行はしたいが、神仏は信じないというのがその頃の心境であった。<br><br>従っていかに見えざるものは信ずべからずという信念の強さが判るであろう。<br><br> その当時、私は事業に相当成功し得意の絶頂にあったが、悪い部下のため大失敗し、その上先妻の不幸にあい、破産もし、数回の差し押えをも受ける等、惨澹（さんたん）たる運命は私を奈落の底におとしてしまった。<br><br>その結果、大抵のものの行くべき所へ私も行ったのである。<br><br>それは宗教である。<br><br>私も型のごとく神道や仏教方面に救いを求めざるを得なくなった。<br><br>それがついに神仏の実在、霊界の存在、死後の生活等、霊的方面の知識を得るに到って、以前の自分を省み、その愚をわらうようになったのである。<br><br>そのような訳で、目覚めてからの人生観は百八十度の転換をなし、人は神仏の加護を受ける事と、「霊の実在を知らなければ空虚な人間でしかない」事を悟ったのである。<br><br>また道徳を説くに当たっても「霊の実在を認識させなければ無益の説法でしかない」事も知り得たのである。<br><br>この意味において読者よ、順次説く所の霊的事象に対し活眼を開かれん事を望む次第である。<br><br> DO GODS AND BUDDHAS EXIST? That I was able to discover this great method of medicine [Johrei], which was motivated by my having been able to know the real existence of spirits. In other words, the principle that physical illness is cured by treating the spirit, which we must regard as a suggestion of great importance for the coming civilization. Indeed, it is a big scientific revolution. That is because when this principle is applied also to every phase other than the treatment for illness, advancement of human welfare will be immeasurable. Furthermore, we can anticipate that if the study of this principle is driven forward, it will reach to as far as what religion really is. The dispute as to whether God exists or not has yet to be settled for thousands of years, and it has been an age-old question all the time. Because people are generally tend to see everything only from a materialistic point of view, it is no wonder that they cannot recognize God, being a sprit, which is physically no different from nothing. However, based on the spiritual science which I advocate, even the real existence of God can be known; at the same time, various problems in the unknown world (which I also call the second world): the problem of the after life and restoration to life of human beings, the reality of spiritual world, the phenomena of possession by spirits, etc. will be solved as well. I first need to explain the transition of my thoughts in the past. I had been an extreme materialist since my young days. To take some examples of how materialistic I was, I had never prayed to gods or buddhas until I was about forty. For I thought such a thing as the object of worship in a Shinto shrine was actually a mirror, a stone or a piece of paper on which some characters were written and they were put in a box-like miniature shrine made of cypress by carpenters or joiners; it was totally meaningless for people to worship such artificial things and there was nothing more stupid than these customs in the world. And as regards buddhas, I hold in the same way that people prayed the objects in the shape of Kannon, Amida, Shakyamuni or the like, which were painted on the paper or carved from wood, stone or metal by artisans; in addition, it was all the more meaningless because there was no real existence of Kannon, Amida, etc., which had to be, in a sense, what humans made up from their imagination and all of them were nothing but the worship of idols; such was my pet theory. In those days, I read a view of Rudolf Eucken, a famous German philosopher, and agreed entirely with him. According to his view, "Man has originally an instinct that he cannot be satisfied unless he has something to worship. For this reason, man makes some idol for himself, adorning and praying to it, he indulges in self-satisfaction. The evidence which supports my view is that the votive offerings on alters are set toward men, not toward gods." Such was my thinking as described above, which extended to the view of nations. It seemed to me that countries like Italy, where there were a lot of old temples, were on the decline, while countries like America, where there were few temples, had developed very much; this fact showed that temples, shrines and the like were obstacles to the development of nations. However, in those days I made some contribution to the Salvation Army every month, so its minister sometimes came to me and recommended Christianity. He said to me, "Those who contribute to the Salvation Army are usually Christians, but you are not a Christians, so why do you contribute to us?" I answered, "You Salvation Army make released prisoners repent of their sins and convert evil people to good people. Therefore, without the Salvation Army, someone of released prisoners would have broken into my house. Yet, if the Salvation Army prevented the disaster for me, then is it very reasonable for me to thank them and help them with their activities in some way?" There were many other things like this, and in any case, I wanted to do good but did not believe in gods or buddhas; that was my frame of mind in those days. So you will understand how strongly I held the belief that we must not believe in invisible things. In those days, I was very successful in business and on the crest of a wave, but owing to the disloyalty of my subordinate, I was a complete failure in my business, and in addition to that, I met with the death of my former wife, went bankrupt, had my properties seized several times, and so forth. Suffering that terrible fate, I fell into an abyss. This consequence led me to where most people had to go to ask for salvation. That was a religion. I could not help asking Shintoism or Buddhism for salvation as a usual pattern. As a result, however, I finally came to acquire the knowledge of spiritual sphere: about the reality of gods and buddhas, the existence of the spiritual world, the life after death and so forth, and reflecting what I had been before, I laughed myself off because of the silliness. This is how my view of life after that conversion made a radical change, and realized that man receives protection from gods and buddhas and that "Unless man knows the real existence of spirits, he would be no better than an empty person." I was also able to know that in teaching morality, "Without getting the listener to recognize the real existence of spirits, the teaching is no more than a useless sermon." In this sense, my readers, I hope your eyes will be opened to the spiritual phenomena which I will explain successively.
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Existirão Deus e os Budas?</h2>
 <p>A descoberta desta grandiosa arte de cura foi motivada pelo meu conhecimento da realidade do espírito. O princípio subjacente é que, ao curarmos o espírito, a doença do corpo físico também é sanada. Tal premissa deve ser vista como uma inspiração de suma importância para a civilização vindoura; na verdade, representa uma autêntica revolução científica. Isso porque, ao aplicarmos este princípio a todas as outras esferas da vida, para além do tratamento de doenças, o progresso no bem-estar da humanidade será imensurável. E não apenas isso. É possível antever que, à medida que aprofundarmos o estudo deste princípio, alcançaremos a própria essência da religião.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Naquele período, eu desfrutava de grande êxito nos negócios e me encontrava no auge da minha carreira. Contudo, devido à deslealdade de um subordinado, sofri um fracasso retumbante. Somou-se a isso o infortúnio da morte de minha primeira esposa, a falência e o confisco de meus bens por diversas vezes. Um destino tão desolador me arrastou ao fundo do abismo. Como resultado, segui o caminho que a maioria das pessoas trilha em tais circunstâncias: a religião. Tal como era de se esperar, não tive outra alternativa senão buscar a salvação no xintoísmo e no budismo.</p>
 <p>Foi assim que, finalmente, adquiri conhecimento sobre a esfera espiritual: a realidade de Deus e dos Budas, a existência do Mundo Espiritual, a vida após a morte e outros temas correlatos. Ao refletir sobre quem eu fora no passado, passei a rir de minha própria insensatez. Por essa razão, minha visão da vida após esse despertar passou por uma reviravolta de cento e oitenta graus. Compreendi que o ser humano recebe a proteção de Deus e dos Budas e que, “sem o conhecimento da realidade do espírito, não passamos de pessoas vazias”. Percebi também que, ao ensinar sobre moralidade, “se não levarmos o ouvinte a reconhecer a realidade do espírito, o ensinamento não passa de um sermão inútil”.</p>
 <p>Nesse sentido, caros leitores, desejo ardentemente que abram os olhos da alma para os fenômenos espirituais que passarei a expor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神仏はあるか 『天国の福音』昭和22(1947)年2月5日発行 私がこの偉大なる医術を発見し得たという事は、霊の実在を知り得た事がその動機である。<br/><br/>すなわち、霊を治療する事によって体の病気が治るという原理であるがこれは、将来の文化に対する一大示唆とみねばなるまい。<br/><br/>実に科学の一大革命である。<br/><br/>何となれば病気治療以外のあらゆる部面に対してもこの原理を応用する時、人類福祉の増進は測り知れないものがあろう。<br/><br/>それのみではない。<br/><br/>この原理の研究を推進（すす）めてゆく時、宗教の実体にまで及ぶであろう事も予想し得らるるのである。<br/><br/> 神は有るか無いかという事の論争も、数千年前から今日に及んでなお解決し得られないでいつも古くして新しい問題となっている。<br/><br/>それはもちろん無に等しい霊である神を、唯物的観点からのみ取り扱う一般人には判りようがないのは当然である。<br/><br/>しかるに私の提唱する霊科学によれば、神の実在といえども知り得ると共に、人間死後と再生の問題、霊界の実相、憑霊現象等々、未知の世界（私はこれを第二世界ともいう）における種々の問題についても解決されるであろう。<br/><br/> 私は、まず既往における私の思想の推移から説く必要がある。<br/><br/>私は若い頃から極端な唯物主義者であった。<br/><br/>その事について二、三の例をあげてみるが、私がいかに唯物主義者であったかという事は、四十歳位まで神仏に決して掌を合わせた事がない。<br/><br/>何となれば、神社の本体などというものは、大工や指物師がお宮と称する檜（ひのき）で箱様のものを作り、その中へ鏡か石塊あるいは紙へ文字を書いたものなどを入れる。<br/><br/>それを人間がうやうやしく拝むという事は、およそ意味がない。<br/><br/>馬鹿馬鹿しいにも程があるという考え方であったからである。<br/><br/>また仏にしても、技術家が紙へ描いたり、木や石や金属等で観音とか阿弥陀、釈迦等の姿を刻んだものを拝む。<br/><br/>しかも観音や阿弥陀等は実在しない。<br/><br/>いわば人間の空想で作り上げたものに違いないから、なおさら意味がない。<br/><br/>いずれも偶像崇拝以外の何ものでもないというのが持論であった。<br/><br/>その頃私はドイツの有名な哲学者オイケンの説を読んだ事があった。<br/><br/>それによれば「本来人間は何かを礼拝しなければ満足が出来ないという本能を有している。<br/><br/>そのため人間自身がなんらかの偶像を作りそれを飾って拝み自己満足にふけるのである。<br/><br/>その証拠には祭壇へあげる供物は神のほうへ向けずして人間のほうへ向けるという事によってみても判るのである」という説に大いに共鳴したのであった。<br/><br/> 以上のような私の思想は国家観にも及び、古き寺院の多いイタリアなどの国は衰退しつつあるに反し、アメリカのごとき寺院の少ない国家は非常な発展をするという現実であるから、神社仏閣等は国家発展の障害物とさえ思われたのである。<br/><br/>しかるにその当時私は毎月救世軍へ若干の寄付をしていたため、時々牧師が訪ねてきてはキリスト教を奨めた。<br/><br/>牧師は「救世軍へ寄付する方は大抵クリスチャンであるが、あなたはクリスチャンでもないのにいかなる動機からであるか」ときくのである。<br/><br/>そこで私は「救世軍は出獄者を悔い改めさせ、悪人を善人にする。<br/><br/>従って救世軍がなかったとしたら、出獄者の誰かが私の家へ盗みに入ったかも知れない。<br/><br/>しかるにその災難を救世軍が未然に防いでくれたとしたら、それに感謝し、その事業をたすけるべきが至当ではないか」と説明したのである。<br/><br/>まだそのほかにもこれに似たような事は種々あったがともあれ私は善行はしたいが、神仏は信じないというのがその頃の心境であった。<br/><br/>従っていかに見えざるものは信ずべからずという信念の強さが判るであろう。<br/><br/> その当時、私は事業に相当成功し得意の絶頂にあったが、悪い部下のため大失敗し、その上先妻の不幸にあい、破産もし、数回の差し押えをも受ける等、惨澹（さんたん）たる運命は私を奈落の底におとしてしまった。<br/><br/>その結果、大抵のものの行くべき所へ私も行ったのである。<br/><br/>それは宗教である。<br/><br/>私も型のごとく神道や仏教方面に救いを求めざるを得なくなった。<br/><br/>それがついに神仏の実在、霊界の存在、死後の生活等、霊的方面の知識を得るに到って、以前の自分を省み、その愚をわらうようになったのである。<br/><br/>そのような訳で、目覚めてからの人生観は百八十度の転換をなし、人は神仏の加護を受ける事と、「霊の実在を知らなければ空虚な人間でしかない」事を悟ったのである。<br/><br/>また道徳を説くに当たっても「霊の実在を認識させなければ無益の説法でしかない」事も知り得たのである。<br/><br/>この意味において読者よ、順次説く所の霊的事象に対し活眼を開かれん事を望む次第である。<br/><br/> DO GODS AND BUDDHAS EXIST? That I was able to discover this great method of medicine [Johrei], which was motivated by my having been able to know the real existence of spirits. In other words, the principle that physical illness is cured by treating the spirit, which we must regard as a suggestion of great importance for the coming civilization. Indeed, it is a big scientific revolution. That is because when this principle is applied also to every phase other than the treatment for illness, advancement of human welfare will be immeasurable. Furthermore, we can anticipate that if the study of this principle is driven forward, it will reach to as far as what religion really is. The dispute as to whether God exists or not has yet to be settled for thousands of years, and it has been an age-old question all the time. Because people are generally tend to see everything only from a materialistic point of view, it is no wonder that they cannot recognize God, being a sprit, which is physically no different from nothing. However, based on the spiritual science which I advocate, even the real existence of God can be known; at the same time, various problems in the unknown world (which I also call the second world): the problem of the after life and restoration to life of human beings, the reality of spiritual world, the phenomena of possession by spirits, etc. will be solved as well. I first need to explain the transition of my thoughts in the past. I had been an extreme materialist since my young days. To take some examples of how materialistic I was, I had never prayed to gods or buddhas until I was about forty. For I thought such a thing as the object of worship in a Shinto shrine was actually a mirror, a stone or a piece of paper on which some characters were written and they were put in a box-like miniature shrine made of cypress by carpenters or joiners; it was totally meaningless for people to worship such artificial things and there was nothing more stupid than these customs in the world. And as regards buddhas, I hold in the same way that people prayed the objects in the shape of Kannon, Amida, Shakyamuni or the like, which were painted on the paper or carved from wood, stone or metal by artisans; in addition, it was all the more meaningless because there was no real existence of Kannon, Amida, etc., which had to be, in a sense, what humans made up from their imagination and all of them were nothing but the worship of idols; such was my pet theory. In those days, I read a view of Rudolf Eucken, a famous German philosopher, and agreed entirely with him. According to his view, "Man has originally an instinct that he cannot be satisfied unless he has something to worship. For this reason, man makes some idol for himself, adorning and praying to it, he indulges in self-satisfaction. The evidence which supports my view is that the votive offerings on alters are set toward men, not toward gods." Such was my thinking as described above, which extended to the view of nations. It seemed to me that countries like Italy, where there were a lot of old temples, were on the decline, while countries like America, where there were few temples, had developed very much; this fact showed that temples, shrines and the like were obstacles to the development of nations. However, in those days I made some contribution to the Salvation Army every month, so its minister sometimes came to me and recommended Christianity. He said to me, "Those who contribute to the Salvation Army are usually Christians, but you are not a Christians, so why do you contribute to us?" I answered, "You Salvation Army make released prisoners repent of their sins and convert evil people to good people. Therefore, without the Salvation Army, someone of released prisoners would have broken into my house. Yet, if the Salvation Army prevented the disaster for me, then is it very reasonable for me to thank them and help them with their activities in some way?" There were many other things like this, and in any case, I wanted to do good but did not believe in gods or buddhas; that was my frame of mind in those days. So you will understand how strongly I held the belief that we must not believe in invisible things. In those days, I was very successful in business and on the crest of a wave, but owing to the disloyalty of my subordinate, I was a complete failure in my business, and in addition to that, I met with the death of my former wife, went bankrupt, had my properties seized several times, and so forth. Suffering that terrible fate, I fell into an abyss. This consequence led me to where most people had to go to ask for salvation. That was a religion. I could not help asking Shintoism or Buddhism for salvation as a usual pattern. As a result, however, I finally came to acquire the knowledge of spiritual sphere: about the reality of gods and buddhas, the existence of the spiritual world, the life after death and so forth, and reflecting what I had been before, I laughed myself off because of the silliness. This is how my view of life after that conversion made a radical change, and realized that man receives protection from gods and buddhas and that "Unless man knows the real existence of spirits, he would be no better than an empty person." I was also able to know that in teaching morality, "Without getting the listener to recognize the real existence of spirits, the teaching is no more than a useless sermon." In this sense, my readers, I hope your eyes will be opened to the spiritual phenomena which I will explain successively.</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

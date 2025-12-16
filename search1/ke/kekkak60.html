@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak60</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は絶対に感染しない 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 今日、結核は伝染するものとして非常に恐れられてゐる。<br><br>それが為種々の方策が講ぜられてゐるが、其繁雑極まる事と国家及び個人の負担の莫大なる事等は実に驚くべきものがある。<br><br>故に何人と雖も其伝染を恐れ親子夫婦と雖も親しく接近し語り合ふ事さへ医師から禁ぜられてゐる。<br><br>家庭内に於て一度結核の罹病者発生するや、家族全部が戦々兢々として何時伝染するやも知れずと危惧しつつ日を送るといふ―その陰惨なる状態は見るに堪えぬものがある。<br><br>成程事実感染するものならば如何なる手段方法を竭（つく）すも生命には換へられないから致し方ないとするも、私の発見する所によればそれは決して感染する憂はないのである。<br><br>医学で唱える結核菌なるものは伝染するのではなく自然発生である。<br><br>それは如何なる訳かといふと曩に詳しく説いた液体毒素即ち喀痰が速に排泄さるるに於ては何等微生物は発生しないのであるが、誤れる療法によつて喀痰は肺臓内に停滞し固結する。<br><br>此固結した喀痰は時日を経るに従ひ腐敗するのである。<br><br>如何なるものと雖も一度腐敗すれば小虫又は微生物が発生するのは原則である。<br><br>例へば木材が腐敗すれば白蟻が涌く、如何程精白した白米と雖も古くなれば必ず蛆が涌く事は人の知る所である。<br><br>此様に腐敗する所無機物から有機物が発生する。<br><br>白米に蛆が涌くのは蛆の卵が他から侵入したものではないのは勿論である。<br><br>故に結核菌と雖も自然発生するのであつて絶対に伝染するものではないのである。<br><br>之は今後一層科学が進歩発達するに於て、非伝染といふ事を発見するに到ると私は信じてゐる。<br><br> 又、感冒に就て曩に説いた如く各局所の凝結毒素の浄化を停止する為に還元して再凝結した毒素にも結核菌が自然発生するのである。<br><br>瘰癧（るいれき）、腎臓結核其他結核性何何といふ疾患は右の理によるのである。<br><br> 右の説を実證する為私の経験を述べてみよう。<br><br>私の家族は私等夫婦の外に子女が六人助手其他の使用人数人合計十数人は常に居たのである。<br><br>そうして十数年の間に重症肺結核と診断された患者を常に一人か二人同棲させて治療したのである。<br><br>少くとも弍拾数人はあつたであらう。<br><br>勿論一切家族と同様に扱つたので食事の時も食卓を倶にし食器等も何等消毒を施さなかつたのである。<br><br>それは治療の為と私の説の実験をする為との二つであつた。<br><br>その内の数人は私の家で死去した位であるから何れも重症の者ばかりであつた。<br><br>大病院で結核と断定され治癒の見込なしと刻印を附せられたものばかりであつた。<br><br>然るに今以て誰も感染した者はない。<br><br>何れも健康そのもののやうな者ばかりである。<br><br>此実験によつてみても伝染しないといふ事は何等疑を挿む余地はないのである。<br><br> 尚私は何時でも結核菌の感染を試験して貰ひたいのである。<br><br>私自身でも私の家族の誰にでも感染するやう実験してもらいたい事を望むのである。<br><br>喜んで試験台に応ずるものである。<br><br> 右の如き細菌の自然発生説に対して現代の科学者は嗤ふであらう。<br><br>何となれば、彼の独逸の有名なコッホ博士と並び称せられるフランスの細菌学の泰斗パスツールによる細菌発見によつて、それまで一般学者によつて支持せられてゐた自然発生説が覆へされたからである。<br><br>それはパスツールが、微生物は自然発生ではなく空気の伝播に因るものであるといふ理論を実験したのであつた。<br><br>それは羊肉の搾り汁を二つのガラス瓶に入れた。<br><br>一つは口の曲れるもの一つは口の真直なるものであつた。<br><br>然るに、口の曲れる方は微生物が発生してゐないのに真直な方は微生物が発生してゐたといふ事実であつた。<br><br>それ以来自然発生説は消滅し空気に因る発生説が信ぜられ今日に至つてゐるのである。<br><br>然乍ら此原理に就て後に霊と物質に就て詳しく説くつもりであるから茲では簡単に説明しておく事とする。<br><br> 抑々森羅万象の構成は、火素、水素、土素であつて、空気は水素を主とし、霊気は火素を主としてゐる。<br><br>然乍ら今日迄の科学では霊気即ち火素は未発見である。<br><br>そうして空気は緯に流動し、霊気（火気）は経に上下昇降してゐるのである。<br><br>そうして、有機体である微生物が自然発生する場合火素即ち熱を要するのである。<br><br>然し此熱はガラス又は金属の如き硬物質にて或程度遮断さるるのである。<br><br>故にパスツールが実験の際口の曲れるガラス瓶が火素の熱を遮断したからである。<br><br> 又十九世紀の医聖といはれるウィルヒョウ博士が細胞病理学を唱へるに及んで近代医学は新時代を劃したといはれる。<br><br>それによれば人体は皮膚、粘膜、筋肉、骨格、毛髪等すべて無数の細胞から成立つてゐて、その細胞の一つ一つが生命と生活とを有し各々の細胞の生命と生活とが集つて一個の人体を構成してゐるので、病気といふのはつまりそれ等細胞が変性しその生活が衰へた状態を指すといふのが細胞病理学の大体である。<br><br> 例へば肺結核に於ては、結核菌が肺の組織中に侵入し繁殖し毒素を出す為にその部分の細胞が変性或は破壊され、破壊された細胞は血液中に吸収されて全身の器能に障碍を及ぼし、発熱、盗汗其他の症状を起すといふのである。<br><br> 即ち結核患者の熱は結核菌が肺臓内に侵蝕して病竃（びょうそう）部を作り、此病竃部と菌自身から出す毒素の為に発熱中枢が刺戟されて発熱するといふのである。<br><br> 右の如き病理説は根本的に誤謬である。<br><br>言ふまでもなく細胞の生活が衰へてそれが病源であるとすれば、新陳代謝の最も旺盛である少年期から青年期に病気は発生しないで老年期になる程発病しなければならない筈ではないか。<br><br>此様な余りにも事実と相反する理論が信じられてきたといふのは寧ろ不思議と思ふのである。<br><br> 又肺結核に於ける発熱が結核菌の作用としてゐるが、仮にそれを肯定するとして菌自身から出す毒素の為に発熱中枢が刺戟さるるといふが、一体発熱中枢とは如何なる器能であるか医学に於ては脳にあるとしてゐるが、恐らく全世界の如何なる医学者と雖も実證は出来得まい。<br><br>何となれば、発熱中枢などといふ機能は脳は固より人体何れの部分にも全然無いからである。<br><br> 以上の如き幼稚極まる病理によつて如何に研究すると雖も解決の出来得ない事は当然である。<br><br>そうして私は大別して肺結核を解決する方法として二つの点を挙げてみよう。<br><br> 一、ただ肺結核のみを減少すべき方法としては国民全体の体位を低下させる事である。<br><br>即ち青年をして老人の如き体質とする事で即ち近代の白人がそれである。<br><br> 二、結核の特徴である熱を発生しない人間―即ち有毒者でない人間―即ち真の意味に於ける完全健康者を作る事。<br><br> 右の何れを撰ぶべきや、勿論後者の人間を作るといふ事―それが真の解決であり私の創成した医術によつてのみ可能である。<br><br>然るに現在行ひつつある西洋医学的方法は前者の方法である事を知らねばならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade sobre o Contágio da Tuberculose</h2>
 <p>Atualmente, a tuberculose é sobremaneira temida por ser considerada uma doença contagiosa. Em virtude disso, são concebidas as mais diversas contramedidas, cuja complexidade e o vultoso ônus que impõem ao Estado e aos indivíduos são verdadeiramente assombrosos. O temor do contágio é tão difundido que os médicos chegam a proibir o convívio próximo e o diálogo até mesmo entre pais e filhos ou entre cônjuges. A simples ocorrência de um caso de tuberculose no seio familiar lança todos os seus membros em um estado de constante sobressalto, vivendo sob a apreensão de um possível contágio. Tal quadro de desolação é, de fato, penoso de se observar.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>A primeira seria rebaixar a constituição física de toda a nação, tornando os jovens semelhantes aos idosos em termos de vitalidade, o que, em essência, corresponde ao estado dos ocidentais modernos.</p>
 <p>A segunda seria formar seres humanos que não desenvolvam febre, ou seja, seres sem toxinas, que representem o verdadeiro significado de saúde plena.</p>
 <p>Qual dos dois caminhos devemos escolher? Evidentemente, a resposta reside em formar o segundo tipo de ser humano. Essa é a verdadeira solução, e ela só é possível por meio da arte de cura que eu criei. É imperativo que se compreenda que o método da medicina ocidental, atualmente em prática, corresponde precisamente ao primeiro caminho.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は絶対に感染しない 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 今日、結核は伝染するものとして非常に恐れられてゐる。<br/><br/>それが為種々の方策が講ぜられてゐるが、其繁雑極まる事と国家及び個人の負担の莫大なる事等は実に驚くべきものがある。<br/><br/>故に何人と雖も其伝染を恐れ親子夫婦と雖も親しく接近し語り合ふ事さへ医師から禁ぜられてゐる。<br/><br/>家庭内に於て一度結核の罹病者発生するや、家族全部が戦々兢々として何時伝染するやも知れずと危惧しつつ日を送るといふ―その陰惨なる状態は見るに堪えぬものがある。<br/><br/>成程事実感染するものならば如何なる手段方法を竭（つく）すも生命には換へられないから致し方ないとするも、私の発見する所によればそれは決して感染する憂はないのである。<br/><br/>医学で唱える結核菌なるものは伝染するのではなく自然発生である。<br/><br/>それは如何なる訳かといふと曩に詳しく説いた液体毒素即ち喀痰が速に排泄さるるに於ては何等微生物は発生しないのであるが、誤れる療法によつて喀痰は肺臓内に停滞し固結する。<br/><br/>此固結した喀痰は時日を経るに従ひ腐敗するのである。<br/><br/>如何なるものと雖も一度腐敗すれば小虫又は微生物が発生するのは原則である。<br/><br/>例へば木材が腐敗すれば白蟻が涌く、如何程精白した白米と雖も古くなれば必ず蛆が涌く事は人の知る所である。<br/><br/>此様に腐敗する所無機物から有機物が発生する。<br/><br/>白米に蛆が涌くのは蛆の卵が他から侵入したものではないのは勿論である。<br/><br/>故に結核菌と雖も自然発生するのであつて絶対に伝染するものではないのである。<br/><br/>之は今後一層科学が進歩発達するに於て、非伝染といふ事を発見するに到ると私は信じてゐる。<br/><br/> 又、感冒に就て曩に説いた如く各局所の凝結毒素の浄化を停止する為に還元して再凝結した毒素にも結核菌が自然発生するのである。<br/><br/>瘰癧（るいれき）、腎臓結核其他結核性何何といふ疾患は右の理によるのである。<br/><br/> 右の説を実證する為私の経験を述べてみよう。<br/><br/>私の家族は私等夫婦の外に子女が六人助手其他の使用人数人合計十数人は常に居たのである。<br/><br/>そうして十数年の間に重症肺結核と診断された患者を常に一人か二人同棲させて治療したのである。<br/><br/>少くとも弍拾数人はあつたであらう。<br/><br/>勿論一切家族と同様に扱つたので食事の時も食卓を倶にし食器等も何等消毒を施さなかつたのである。<br/><br/>それは治療の為と私の説の実験をする為との二つであつた。<br/><br/>その内の数人は私の家で死去した位であるから何れも重症の者ばかりであつた。<br/><br/>大病院で結核と断定され治癒の見込なしと刻印を附せられたものばかりであつた。<br/><br/>然るに今以て誰も感染した者はない。<br/><br/>何れも健康そのもののやうな者ばかりである。<br/><br/>此実験によつてみても伝染しないといふ事は何等疑を挿む余地はないのである。<br/><br/> 尚私は何時でも結核菌の感染を試験して貰ひたいのである。<br/><br/>私自身でも私の家族の誰にでも感染するやう実験してもらいたい事を望むのである。<br/><br/>喜んで試験台に応ずるものである。<br/><br/> 右の如き細菌の自然発生説に対して現代の科学者は嗤ふであらう。<br/><br/>何となれば、彼の独逸の有名なコッホ博士と並び称せられるフランスの細菌学の泰斗パスツールによる細菌発見によつて、それまで一般学者によつて支持せられてゐた自然発生説が覆へされたからである。<br/><br/>それはパスツールが、微生物は自然発生ではなく空気の伝播に因るものであるといふ理論を実験したのであつた。<br/><br/>それは羊肉の搾り汁を二つのガラス瓶に入れた。<br/><br/>一つは口の曲れるもの一つは口の真直なるものであつた。<br/><br/>然るに、口の曲れる方は微生物が発生してゐないのに真直な方は微生物が発生してゐたといふ事実であつた。<br/><br/>それ以来自然発生説は消滅し空気に因る発生説が信ぜられ今日に至つてゐるのである。<br/><br/>然乍ら此原理に就て後に霊と物質に就て詳しく説くつもりであるから茲では簡単に説明しておく事とする。<br/><br/> 抑々森羅万象の構成は、火素、水素、土素であつて、空気は水素を主とし、霊気は火素を主としてゐる。<br/><br/>然乍ら今日迄の科学では霊気即ち火素は未発見である。<br/><br/>そうして空気は緯に流動し、霊気（火気）は経に上下昇降してゐるのである。<br/><br/>そうして、有機体である微生物が自然発生する場合火素即ち熱を要するのである。<br/><br/>然し此熱はガラス又は金属の如き硬物質にて或程度遮断さるるのである。<br/><br/>故にパスツールが実験の際口の曲れるガラス瓶が火素の熱を遮断したからである。<br/><br/> 又十九世紀の医聖といはれるウィルヒョウ博士が細胞病理学を唱へるに及んで近代医学は新時代を劃したといはれる。<br/><br/>それによれば人体は皮膚、粘膜、筋肉、骨格、毛髪等すべて無数の細胞から成立つてゐて、その細胞の一つ一つが生命と生活とを有し各々の細胞の生命と生活とが集つて一個の人体を構成してゐるので、病気といふのはつまりそれ等細胞が変性しその生活が衰へた状態を指すといふのが細胞病理学の大体である。<br/><br/> 例へば肺結核に於ては、結核菌が肺の組織中に侵入し繁殖し毒素を出す為にその部分の細胞が変性或は破壊され、破壊された細胞は血液中に吸収されて全身の器能に障碍を及ぼし、発熱、盗汗其他の症状を起すといふのである。<br/><br/> 即ち結核患者の熱は結核菌が肺臓内に侵蝕して病竃（びょうそう）部を作り、此病竃部と菌自身から出す毒素の為に発熱中枢が刺戟されて発熱するといふのである。<br/><br/> 右の如き病理説は根本的に誤謬である。<br/><br/>言ふまでもなく細胞の生活が衰へてそれが病源であるとすれば、新陳代謝の最も旺盛である少年期から青年期に病気は発生しないで老年期になる程発病しなければならない筈ではないか。<br/><br/>此様な余りにも事実と相反する理論が信じられてきたといふのは寧ろ不思議と思ふのである。<br/><br/> 又肺結核に於ける発熱が結核菌の作用としてゐるが、仮にそれを肯定するとして菌自身から出す毒素の為に発熱中枢が刺戟さるるといふが、一体発熱中枢とは如何なる器能であるか医学に於ては脳にあるとしてゐるが、恐らく全世界の如何なる医学者と雖も実證は出来得まい。<br/><br/>何となれば、発熱中枢などといふ機能は脳は固より人体何れの部分にも全然無いからである。<br/><br/> 以上の如き幼稚極まる病理によつて如何に研究すると雖も解決の出来得ない事は当然である。<br/><br/>そうして私は大別して肺結核を解決する方法として二つの点を挙げてみよう。<br/><br/> 一、ただ肺結核のみを減少すべき方法としては国民全体の体位を低下させる事である。<br/><br/>即ち青年をして老人の如き体質とする事で即ち近代の白人がそれである。<br/><br/> 二、結核の特徴である熱を発生しない人間―即ち有毒者でない人間―即ち真の意味に於ける完全健康者を作る事。<br/><br/> 右の何れを撰ぶべきや、勿論後者の人間を作るといふ事―それが真の解決であり私の創成した医術によつてのみ可能である。<br/><br/>然るに現在行ひつつある西洋医学的方法は前者の方法である事を知らねばならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

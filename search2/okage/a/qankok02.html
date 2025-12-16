@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qankok02</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 暗黒の肺結核より救はれて 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 日本五六七教会春陽会 教導師 荒川正尊（21） 命の親と頼みし医学を去り、療養の友としていた沢山な薬品を捨て、ただ一筋に大光明如来様を頼り、今日あるを喜びつつ感謝の一端を御報告申させていただきます。<br><br>嬉しさの余り長文にわたります事をお許し下さい。<br><br> 去る昭和二十一年九月三十日、母校の小学校で児童と体操の最中、大量なる喀血をなし、その後は六カ月間転々として医師に見離され、十里程離れた名古屋の久端病院長に最後の断を下され、二十二年四月には最早霊界ゆきと半ば生に対する一種の諦に似た自分をいかに更生しようと努力しても何うしても自分から遠去かる正しい心を引付ける事が出来ませんでした。<br><br> 父も胸の病にて死亡致しておりますので、家人からは感染するからと、同室は勿論兄弟の会話すら遠慮せねばならず、まるで虫や動物のように、くさい薬で消毒され食膳も一人淋しく向わねばならず、食は進まず肉や卵や魚で盛られた食膳でさえ、箸は進まず、大切な身体は細り精神的にも健康の美を呪い、はた又恨み果てはただ空ろなる世界と言うか、茫然とした姿になり若人の心は千々に乱れあるいは死生の間をさ迷い苦しい闘病生活でした。<br><br>数回に渉る大量なる喀血、又胸からの痔瘻で極度の痛みで軽い咳一つするのでさえ、痛みが頭に響く有様で自他共に死の近み来るのをどうする事も出来ませんでした。<br><br> 絶対安静の療養当時近所の五六七教会信者の方から色々とお話を戴きましても、その当時は、いかなる事があろうとも医学を頼り不治の病を追っているより方法は無いと信じただひたすらにお金を出して少しでも良い注射をと、既存療法とは知りつつも高価な「ペニシリン」やら、他の薬を飲んでおりました。<br><br> 医師の言葉のままに治療したのに身体は細り痔の痛みは強まるばかりで底なき沼へでも引きずり込まれてでも行くような気がして不安の日々でした。<br><br>力なく弱り行く私を見た伯母が五六七教会教修を受けて二カ月目に私の枕元で不思議な治病力の話をして下さいました。<br><br> 初めはその話もどこかの迷信位いに思っておりましたが、治らぬ物を治ると偽りは言えぬものだと一度痔の悩みだけでも試してみようと思い立ち母の留守を見込で伯母と二人で半里程離れた近澤ぬい先生のもとへ参りました。<br><br>母に勝る愛の持主の先生から誠の道をお話しいただき痔の痛みも弱まり「ウタガッテモ治ル」この不思議な妙智力には何一つ議論も出ませんでした。<br><br> その後、ある時は誠、ある時は愛と熱とを持ってこの救世の道のいかに大切な事かを知らされ、三月に教修をいただいてから六カ月目には出張の出来るようになり不安だった四月も無事にすぎ、五月八日から四日間喀血の大浄化をいただき人の判別の出来なかつた一時すらありましたが、御霊紙をいただき五、六名で浄霊いただき、五日目には先生の宅まで一人で参上させていただき、医学での喀血後の安静など全く不用なるを自分の体で知らせていただきました。<br><br>八月二日には全身浄化をいただき、以前の病状になるかと思つておりましたが、朝家を出たまま先生のお宅で十一日間御世話いただく内に元気になり、その月の中旬から手、足、腹部、腰との浄化を十一月中旬頃までいただいておりました。<br><br>十月には願望の大先生の御面会並に本部への参拝も無事に済ませていただき、今日までに十一回までも御面会のさせていただけます事を喜んでおります。<br><br> その年（昭和二十二年）の十二月渋井管長先生が名古屋にお出で下さいました時に御願い申して、紀州の勝浦方面へ開拓に立たせていただき、大阪までの車中夜中急に咽喉がかわき、殆ど声が出なくなりキップを求めるのに相手に通じぬ程でしたが、御浄霊をいただく中に三カ月程で言葉は通じ得るようになり、五月中旬腸結核の病状で最初の内は下痢をしておりましたが、数日の間にドロドロの液のようなものが下り、自分自身驚きましたが、何糞これが浄化だと家人の反対をよそに、お茶がけで食べてみて数日に及び下痢しても茶漬で何共ないので増々力強くなり、その後は不思議と身体は軽くなり、驚く程身体が使いよくなり、この間教修後渡辺先生より数回にもわたり力強い御指導をいただき、私初め先生方の前ではよく理解しているようで本当の救世の道を知らなかった母が、近頃では進んで浄霊や布教のため人々に勧めて歩くようになり、小学校五年生の妹一人の本当の観音一家にどうやらさせていただきました。<br><br> 渡辺先生並に近澤先生の御親切なる御指導により今では健康人同様に、朝早くから夜おそくまで御用に専心させていただいており、この有難い救いの道を一刻も早く多くの人に理解していただこうと精進しております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo da escuridão da tuberculose pulmonar</h2>
 <p><strong>Publicado em "Paraíso Terrestre" nº 2, em 1º de março de 1949.</strong>
@@ -101,5 +256,48 @@ function toggleLang(lang) {
 <p>Em dezembro daquele mesmo ano de 1947, por ocasião da visita do Reverendo Shibui a Nagoia, solicitei permissão para iniciar um trabalho de difusão pioneira na região de Katsuura, em Kishu. Durante a viagem de trem para Osaka, minha garganta subitamente secou, e perdi quase que por completo a voz; mal consegui me fazer entender para comprar a passagem. Contudo, após cerca de três meses recebendo Johrei, minha fala tornou-se novamente inteligível. Em meados de maio, manifestaram-se sintomas de tuberculose intestinal. No início, tive diarreia, que em poucos dias se transformou na evacuação de um líquido lodoso. Embora eu mesmo tenha me assustado, pensei: “Isto é purificação!”. Contrariando a oposição de meus familiares, alimentei-me apenas com arroz coberto com chá. Mesmo com a diarreia persistindo por vários dias, a refeição não me causava mal-estar, o que fortaleceu ainda mais minha convicção. Depois disso, meu corpo tornou-se surpreendentemente leve e funcional, para meu grande espanto. Nesse ínterim, recebi por diversas vezes as vigorosas orientações do Reverendo Watanabe.</p>
 <p>Minha mãe, que antes parecia compreender os Ensinamentos na presença dos ministros, mas em seu íntimo não conhecia o verdadeiro caminho da salvação, ultimamente passou a se dedicar à difusão e a recomendar o Johrei às pessoas. Com minha irmã mais nova, que está na quinta série, também trilhando este caminho, finalmente nos tornamos uma verdadeira família de Kannon (観音).</p>
 <p>Graças à amável orientação do Reverendo Watanabe e da senhora Chikasawa, hoje levo uma vida semelhante à de uma pessoa plenamente saudável, dedicando-me ao serviço divino desde o alvorecer até tarde da noite. Empenho-me com afinco para que o maior número possível de pessoas possa compreender, o quanto antes, este sublime caminho de salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 暗黒の肺結核より救はれて 『地上天国』2号、昭和24(1949)年3月1日発行 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 愛知県 日本五六七教会春陽会 教導師 荒川正尊（21） 命の親と頼みし医学を去り、療養の友としていた沢山な薬品を捨て、ただ一筋に大光明如来様を頼り、今日あるを喜びつつ感謝の一端を御報告申させていただきます。<br/><br/>嬉しさの余り長文にわたります事をお許し下さい。<br/><br/> 去る昭和二十一年九月三十日、母校の小学校で児童と体操の最中、大量なる喀血をなし、その後は六カ月間転々として医師に見離され、十里程離れた名古屋の久端病院長に最後の断を下され、二十二年四月には最早霊界ゆきと半ば生に対する一種の諦に似た自分をいかに更生しようと努力しても何うしても自分から遠去かる正しい心を引付ける事が出来ませんでした。<br/><br/> 父も胸の病にて死亡致しておりますので、家人からは感染するからと、同室は勿論兄弟の会話すら遠慮せねばならず、まるで虫や動物のように、くさい薬で消毒され食膳も一人淋しく向わねばならず、食は進まず肉や卵や魚で盛られた食膳でさえ、箸は進まず、大切な身体は細り精神的にも健康の美を呪い、はた又恨み果てはただ空ろなる世界と言うか、茫然とした姿になり若人の心は千々に乱れあるいは死生の間をさ迷い苦しい闘病生活でした。<br/><br/>数回に渉る大量なる喀血、又胸からの痔瘻で極度の痛みで軽い咳一つするのでさえ、痛みが頭に響く有様で自他共に死の近み来るのをどうする事も出来ませんでした。<br/><br/> 絶対安静の療養当時近所の五六七教会信者の方から色々とお話を戴きましても、その当時は、いかなる事があろうとも医学を頼り不治の病を追っているより方法は無いと信じただひたすらにお金を出して少しでも良い注射をと、既存療法とは知りつつも高価な「ペニシリン」やら、他の薬を飲んでおりました。<br/><br/> 医師の言葉のままに治療したのに身体は細り痔の痛みは強まるばかりで底なき沼へでも引きずり込まれてでも行くような気がして不安の日々でした。<br/><br/>力なく弱り行く私を見た伯母が五六七教会教修を受けて二カ月目に私の枕元で不思議な治病力の話をして下さいました。<br/><br/> 初めはその話もどこかの迷信位いに思っておりましたが、治らぬ物を治ると偽りは言えぬものだと一度痔の悩みだけでも試してみようと思い立ち母の留守を見込で伯母と二人で半里程離れた近澤ぬい先生のもとへ参りました。<br/><br/>母に勝る愛の持主の先生から誠の道をお話しいただき痔の痛みも弱まり「ウタガッテモ治ル」この不思議な妙智力には何一つ議論も出ませんでした。<br/><br/> その後、ある時は誠、ある時は愛と熱とを持ってこの救世の道のいかに大切な事かを知らされ、三月に教修をいただいてから六カ月目には出張の出来るようになり不安だった四月も無事にすぎ、五月八日から四日間喀血の大浄化をいただき人の判別の出来なかつた一時すらありましたが、御霊紙をいただき五、六名で浄霊いただき、五日目には先生の宅まで一人で参上させていただき、医学での喀血後の安静など全く不用なるを自分の体で知らせていただきました。<br/><br/>八月二日には全身浄化をいただき、以前の病状になるかと思つておりましたが、朝家を出たまま先生のお宅で十一日間御世話いただく内に元気になり、その月の中旬から手、足、腹部、腰との浄化を十一月中旬頃までいただいておりました。<br/><br/>十月には願望の大先生の御面会並に本部への参拝も無事に済ませていただき、今日までに十一回までも御面会のさせていただけます事を喜んでおります。<br/><br/> その年（昭和二十二年）の十二月渋井管長先生が名古屋にお出で下さいました時に御願い申して、紀州の勝浦方面へ開拓に立たせていただき、大阪までの車中夜中急に咽喉がかわき、殆ど声が出なくなりキップを求めるのに相手に通じぬ程でしたが、御浄霊をいただく中に三カ月程で言葉は通じ得るようになり、五月中旬腸結核の病状で最初の内は下痢をしておりましたが、数日の間にドロドロの液のようなものが下り、自分自身驚きましたが、何糞これが浄化だと家人の反対をよそに、お茶がけで食べてみて数日に及び下痢しても茶漬で何共ないので増々力強くなり、その後は不思議と身体は軽くなり、驚く程身体が使いよくなり、この間教修後渡辺先生より数回にもわたり力強い御指導をいただき、私初め先生方の前ではよく理解しているようで本当の救世の道を知らなかった母が、近頃では進んで浄霊や布教のため人々に勧めて歩くようになり、小学校五年生の妹一人の本当の観音一家にどうやらさせていただきました。<br/><br/> 渡辺先生並に近澤先生の御親切なる御指導により今では健康人同様に、朝早くから夜おそくまで御用に専心させていただいており、この有難い救いの道を一刻も早く多くの人に理解していただこうと精進しております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

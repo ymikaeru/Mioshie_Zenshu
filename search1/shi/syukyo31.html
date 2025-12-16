@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo31</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教は奇蹟なり 『光』12号、昭和24(1949)年6月11日発行 宗教と奇蹟は切っても切れない関係にある事は、昔から幾多の文献によっても明らかである、もし奇蹟のない宗教でありとすれば、それは最早宗教とは言われない、何となれば奇蹟は神が造るのであって、人間の力では一個の奇蹟も造られ得ないからである、ゆえに奇蹟のない宗教は宗教としての存在価値はない訳である、ただ形式だけがいかに宗教的であっても、それは宗教的価値を喪失しているといってもいい。<br><br> 以上の意味において偉大なる宗教程奇蹟が多く顕われる事は当然である、奇蹟とは換言すれば予期もしなかった利益が現われる事である、それによって衷心から信仰心が湧起し入信し不幸から救われる、これが真の宗教でなくて何であろう、百の理論よりも一の事実に如（し）かない事は今更言う必要はない、今日の世相は、敗戦による結果とは言いながら、社会悪の激増はもちろん、特に将来の日本を担うべき青年層が不健全なる思想に禍いされ混迷裡にある事実は寒心に堪えないものがある、その原因を衝けば唯物思想を金科玉条として教育された結果で、この誤謬に目覚めない限り到底この問題は解決され得るはずがない、しからば唯物思想を打破するにはどうしたらよいかというともちろん宗教心に目覚めなければならないが、それには根本として見えざるところの神を認めしむる事は常に吾らが唱導するところである、とすればその方法はただ奇蹟あるのみである、奇蹟とはもちろん人間業では不可能とされたものが可能となり理論では絶対解釈が出来得ない事実を眼の前で見せられるとすればいかなる疑惑も一遍に煙散夢消するのは当然である。<br><br> ゆえに標題のごとく「宗教は奇蹟であり奇蹟は宗教であり」と言い得るのである、したがって奇跡によって神の存在を認識せしめ、唯心思想を育くむ以外、平和日本建設も社会悪追放も、予期の成果は挙げ得るはずはない。<br><br> 人文史上、本教くらい奇蹟の多い宗教はいまだ見聞した事はあるまい、この意味において世界の大転換期に当って、唯心的魂を喪失した世界に対し奇蹟の息吹によって、眠れる魂を揺り動かすのが本教の目的である。<br><br> 万能の神は、観世音菩薩またの御名光明如来の御手を通じて、自由無碍なる御活力を駆使し、多々益々奇蹟を示し給い、本教を機関として、救世の大業を行わせ給いつつあるのである。<br><br> RELIGION IS A MIRACLE That religion is inseparable from miracles is manifest in itself as well as evidenced in a lot of old documents. If a religion had no miracles, it could not be called a religion any longer. This is because miracles are what God creates and even a single miracle cannot be created by the human power. Therefore, what is called a religion but with no miracles has no significance of being as a religion, for however religious its formalities appear, it cannot possibly have any significance as religion. In this context, it is quite natural that the greater a religion is, the more miracles it shows. To put it in other words, it is a miracle that unexpected benefit emerges and because of this, a faith in God surges up from the bottom of the heart, comes to believe in God and attains salvation from unhappiness. What can this be other than true religion? There is no need to say this now, but a hundred theories is no more worthy than a single fact. The present state of things in Japan may be the result of losing the war, but, not to mention the sudden increase of social evils, the fact that among others, the young generation who are to shoulder the future of Japan have suffered unsound ideas and fallen into a desperate confusion is cause for the greatest anxiety. When we hit on the cause of this, we find it the result of their education which recognizes no other authority than materialism, and as long as we are unaware of this fallacy, we cannot possibly be able to solve this problem at all. So then, what should we do to explode this materialism? Of course, people must become aware of religious sense, and what allows this to happen is to make them recognize the existence of God being basically invisible, which we constantly advocate. And the method for it is none other than miracles, because miracles make it possible what has been considered to be humanly impossible and if the facts are displayed before their eyes which is absolutely impossible to be explained by scientific theories, as a matter of course, any doubt will be scattered like smoke instantly. Therefore, we can say, "Religion is a miracle and a miracle is religion." as the title above. Accordingly, except making people recognize the existence of God and cultivating spiritualism, the expected result cannot be brought as to building a peaceful Japan as well as vanishing social evils. In human history, no religion has probably not been recorded that showed as many miracles as ours. In this meaning, at this time when we are coming into the great turning point of the world, the purpose of our religion is to shake sleeping souls up by the inspiration of miracles against the world which has lost spiritualistic souls. The Omnipotent God, through the hand of Kanzeon Bosatsu or otherwise named Komyo Nyorai, exerts his supreme power free from all obstacles, demonstrates many and many more miracles , and is doing the great work, the salvation of the world, setting this religion of ours as his own organ.
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião é um Milagre</h2>
 <p>Que a religião e o milagre mantêm entre si uma relação indissociável é um fato manifesto em inúmeros documentos da Antiguidade. Se uma religião não apresenta milagres, ela já não pode ser considerada como tal, pois os milagres são obras de Deus, e a força humana é incapaz de criar um único sequer. Por conseguinte, uma doutrina desprovida de milagres carece de qualquer valor existencial como religião. Ainda que suas formalidades pareçam devotadas, pode-se afirmar que ela perdeu toda a sua significância espiritual.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Portanto, podemos afirmar, como expressa o título, que “a Religião é um milagre, e o milagre é a Religião”. Consequentemente, sem levar as pessoas a reconhecer a existência de Deus por meio dos milagres e, assim, nutrir uma mentalidade espiritual, jamais alcançaremos os resultados almejados na construção de um Japão pacífico e na erradicação dos males sociais.</p>
 <p>Nos anais da história humana, creio que jamais se ouviu falar de uma religião com tantos milagres quanto a nossa. Nesse contexto, neste grande momento de transição para o mundo, o propósito de nossa Igreja é, por meio do sopro dos milagres, despertar as almas adormecidas de uma humanidade que perdeu sua essência espiritual.</p>
 <p>O Deus Onipotente, por intermédio de Kannon (観世音菩薩), também denominada Komyo Nyorai (光明如来), manifesta Seu poder supremo e ilimitado, operando um número cada vez maior de milagres, e utiliza nossa Igreja como Seu instrumento para realizar a magna obra da Salvação do Mundo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教は奇蹟なり 『光』12号、昭和24(1949)年6月11日発行 宗教と奇蹟は切っても切れない関係にある事は、昔から幾多の文献によっても明らかである、もし奇蹟のない宗教でありとすれば、それは最早宗教とは言われない、何となれば奇蹟は神が造るのであって、人間の力では一個の奇蹟も造られ得ないからである、ゆえに奇蹟のない宗教は宗教としての存在価値はない訳である、ただ形式だけがいかに宗教的であっても、それは宗教的価値を喪失しているといってもいい。<br/><br/> 以上の意味において偉大なる宗教程奇蹟が多く顕われる事は当然である、奇蹟とは換言すれば予期もしなかった利益が現われる事である、それによって衷心から信仰心が湧起し入信し不幸から救われる、これが真の宗教でなくて何であろう、百の理論よりも一の事実に如（し）かない事は今更言う必要はない、今日の世相は、敗戦による結果とは言いながら、社会悪の激増はもちろん、特に将来の日本を担うべき青年層が不健全なる思想に禍いされ混迷裡にある事実は寒心に堪えないものがある、その原因を衝けば唯物思想を金科玉条として教育された結果で、この誤謬に目覚めない限り到底この問題は解決され得るはずがない、しからば唯物思想を打破するにはどうしたらよいかというともちろん宗教心に目覚めなければならないが、それには根本として見えざるところの神を認めしむる事は常に吾らが唱導するところである、とすればその方法はただ奇蹟あるのみである、奇蹟とはもちろん人間業では不可能とされたものが可能となり理論では絶対解釈が出来得ない事実を眼の前で見せられるとすればいかなる疑惑も一遍に煙散夢消するのは当然である。<br/><br/> ゆえに標題のごとく「宗教は奇蹟であり奇蹟は宗教であり」と言い得るのである、したがって奇跡によって神の存在を認識せしめ、唯心思想を育くむ以外、平和日本建設も社会悪追放も、予期の成果は挙げ得るはずはない。<br/><br/> 人文史上、本教くらい奇蹟の多い宗教はいまだ見聞した事はあるまい、この意味において世界の大転換期に当って、唯心的魂を喪失した世界に対し奇蹟の息吹によって、眠れる魂を揺り動かすのが本教の目的である。<br/><br/> 万能の神は、観世音菩薩またの御名光明如来の御手を通じて、自由無碍なる御活力を駆使し、多々益々奇蹟を示し給い、本教を機関として、救世の大業を行わせ給いつつあるのである。<br/><br/> RELIGION IS A MIRACLE That religion is inseparable from miracles is manifest in itself as well as evidenced in a lot of old documents. If a religion had no miracles, it could not be called a religion any longer. This is because miracles are what God creates and even a single miracle cannot be created by the human power. Therefore, what is called a religion but with no miracles has no significance of being as a religion, for however religious its formalities appear, it cannot possibly have any significance as religion. In this context, it is quite natural that the greater a religion is, the more miracles it shows. To put it in other words, it is a miracle that unexpected benefit emerges and because of this, a faith in God surges up from the bottom of the heart, comes to believe in God and attains salvation from unhappiness. What can this be other than true religion? There is no need to say this now, but a hundred theories is no more worthy than a single fact. The present state of things in Japan may be the result of losing the war, but, not to mention the sudden increase of social evils, the fact that among others, the young generation who are to shoulder the future of Japan have suffered unsound ideas and fallen into a desperate confusion is cause for the greatest anxiety. When we hit on the cause of this, we find it the result of their education which recognizes no other authority than materialism, and as long as we are unaware of this fallacy, we cannot possibly be able to solve this problem at all. So then, what should we do to explode this materialism? Of course, people must become aware of religious sense, and what allows this to happen is to make them recognize the existence of God being basically invisible, which we constantly advocate. And the method for it is none other than miracles, because miracles make it possible what has been considered to be humanly impossible and if the facts are displayed before their eyes which is absolutely impossible to be explained by scientific theories, as a matter of course, any doubt will be scattered like smoke instantly. Therefore, we can say, "Religion is a miracle and a miracle is religion." as the title above. Accordingly, except making people recognize the existence of God and cultivating spiritualism, the expected result cannot be brought as to building a peaceful Japan as well as vanishing social evils. In human history, no religion has probably not been recorded that showed as many miracles as ours. In this meaning, at this time when we are coming into the great turning point of the world, the purpose of our religion is to shake sleeping souls up by the inspiration of miracles against the world which has lost spiritualistic souls. The Omnipotent God, through the hand of Kanzeon Bosatsu or otherwise named Komyo Nyorai, exerts his supreme power free from all obstacles, demonstrates many and many more miracles , and is doing the great work, the salvation of the world, setting this religion of ours as his own organ.</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

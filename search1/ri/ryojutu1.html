@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ryojutu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 療術行為届・施術方法 未発表、昭和12(1937)年8月4日 指圧療法と按摩術の差異 本療法を施さんとする際、施術者は自己の精神力（思念力）を絶えず指頭に集注す。<br><br>それに依って指頭より一種の放射霊力を生ず。<br><br>是を一部の学者は人体電気と称す。<br><br>此人体電気が病者の患部に浸透するに於て、指技と相俟って欝〔鬱〕血は散じ、血行は促進さるるを以て、苦痛の軽減と爽快感は実験に徴して瞭かなり。<br><br>彼の掌療法も同一の原理にして、此技術は熟練するに従い、放射霊の集注は倍々濃度を増すものにして、之が治病に効果ある事は、近年欧米に於ても発見唱導せらるる事実を観ても明なる処なり。<br><br> 然るに、按摩術は右の如き精神力は全然応用せず、単に手及び指技の熟練による方法なるを以て、全く本療法と異るものなり。<br><br> 施術方法 先ズ患者ノ患部ニ向ッテ一指又ハ二、三指ヲ用イチ軽ク触レ、又ハ極メテ軽ク指頭ニテ繰返シ繰返シ軽圧スル。<br><br>時間ハ普通参拾分乃至壱時間トス。<br><br> 右ノ指技ニヨリ人体電気ノ放射ト相俟ッテ血行ヲ促進セシメ新陳代謝ヲ旺盛ナラシム。<br><br>元来患者又ハ弱体者ハ身体孰（いず）レカノ部分ニ必ズ大小濃淡多少ノ欝〔鬱〕血部分アルモノナレバ、其部ヲ施術スルニ従イ欝血ハ漸次解消ニ向ウヲ以テ、苦痛ハ軽減シ爽快感ヲ起シ全身的器〔機〕能ハ活溌トナルベク、其結果トシテ病患ノ勢力八挫折衰退ニ嚮（むか）イ、弱体者ハ徐々ニ体質改善サレ行クハ、実験上瞭カナリ。<br><br>従而医療ト併用スル場合聊（いささ）カモ危険ナク補助的効果ハ鮮小ナラザルモノト思惟ス。<br><br> （昭和十二年八月四日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Distinção entre a Terapia Divina e a Massagem Convencional</h2>
 <p>No momento de aplicar esta terapia, é imperativo que o terapeuta concentre continuamente seu poder espiritual, isto é, a força de seu pensamento, nas pontas dos dedos. Por meio dessa concentração, emana das extremidades digitais uma espécie de poder espiritual irradiante, que certos acadêmicos denominam eletricidade do corpo humano. A penetração dessa energia na área afetada do paciente, aliada à técnica digital, promove a dispersão das congestões sanguíneas e estimula a circulação. A experiência comprova inequivocamente tanto a redução da dor quanto a manifestação de uma profunda sensação de bem-estar.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Através dessa técnica digital, em sinergia com a irradiação da eletricidade corporal, a circulação sanguínea é estimulada e o metabolismo, revigorado. É fundamental compreender que pacientes ou indivíduos de constituição frágil invariavelmente apresentam, em alguma parte do corpo, pontos de congestão sanguínea de maior ou menor tamanho, densidade e quantidade. À medida que se trata essa área, a congestão se desfaz gradualmente. Por conseguinte, a dor é aliviada, uma sensação de bem-estar se manifesta e as funções de todo o organismo se revitalizam. Como resultado, o poder da enfermidade é subjugado e entra em declínio, enquanto a constituição da pessoa debilitada se aprimora paulatinamente — um fato empiricamente comprovado.</p>
 <p>Portanto, quando utilizada em conjunto com tratamentos médicos, esta terapia não acarreta o menor risco, e creio que seu efeito coadjuvante é, sem dúvida, notável.</p>
 <p>(4 de agosto de 1937)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 療術行為届・施術方法 未発表、昭和12(1937)年8月4日 指圧療法と按摩術の差異 本療法を施さんとする際、施術者は自己の精神力（思念力）を絶えず指頭に集注す。<br/><br/>それに依って指頭より一種の放射霊力を生ず。<br/><br/>是を一部の学者は人体電気と称す。<br/><br/>此人体電気が病者の患部に浸透するに於て、指技と相俟って欝〔鬱〕血は散じ、血行は促進さるるを以て、苦痛の軽減と爽快感は実験に徴して瞭かなり。<br/><br/>彼の掌療法も同一の原理にして、此技術は熟練するに従い、放射霊の集注は倍々濃度を増すものにして、之が治病に効果ある事は、近年欧米に於ても発見唱導せらるる事実を観ても明なる処なり。<br/><br/> 然るに、按摩術は右の如き精神力は全然応用せず、単に手及び指技の熟練による方法なるを以て、全く本療法と異るものなり。<br/><br/> 施術方法 先ズ患者ノ患部ニ向ッテ一指又ハ二、三指ヲ用イチ軽ク触レ、又ハ極メテ軽ク指頭ニテ繰返シ繰返シ軽圧スル。<br/><br/>時間ハ普通参拾分乃至壱時間トス。<br/><br/> 右ノ指技ニヨリ人体電気ノ放射ト相俟ッテ血行ヲ促進セシメ新陳代謝ヲ旺盛ナラシム。<br/><br/>元来患者又ハ弱体者ハ身体孰（いず）レカノ部分ニ必ズ大小濃淡多少ノ欝〔鬱〕血部分アルモノナレバ、其部ヲ施術スルニ従イ欝血ハ漸次解消ニ向ウヲ以テ、苦痛ハ軽減シ爽快感ヲ起シ全身的器〔機〕能ハ活溌トナルベク、其結果トシテ病患ノ勢力八挫折衰退ニ嚮（むか）イ、弱体者ハ徐々ニ体質改善サレ行クハ、実験上瞭カナリ。<br/><br/>従而医療ト併用スル場合聊（いささ）カモ危険ナク補助的効果ハ鮮小ナラザルモノト思惟ス。<br/><br/> （昭和十二年八月四日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

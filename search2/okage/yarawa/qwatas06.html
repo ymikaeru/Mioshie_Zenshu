@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qwatas06</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 私の闘病記 〔肺浸潤より斯く救わる〕 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 岐阜県 八光中教会 宇野幸一（23） 私は幼少の時から病弱で、感冒、咽喉カタル、扁桃腺炎、中耳炎等はもとより肺炎、狸紅熱（小学校六年当時）までもわずらい、随分親を泣かせました。<br><br>幼時の思出といえば、医療を受けたり保養のための避暑等がほとんどで、全く病気には神経が鋭くなっていて、僅かな病状にも医者だ薬だと騒ぎ、平常時でさえも肝油を始め種々の消化剤栄養剤を欠かした事はありません。<br><br>それを今顧みますに――もし薬が健康に益あるならば、自分は余程健康になっていただろうし、そうでなくとも平常から要心していたのだから、順次健康にならなければならなかった訳だが――と述懐せざるを得ません。<br><br> そんな私が昭和十七年（中学二年）の夏には、突然に出始めた血尿に腎蔵結核の診断を下され、手術せぬばならぬ所を、ともかくも薬で治しました。<br><br>しかしその直後より頭痛、倦怠感、微熱、食欲不振、脚の惰気等がするようになり、又々医者通いを余儀なくされ、医師から肺浸潤と宣せられた時には、とうとう自分も不治の病にまでなったのか、俺はもう駄目だという心情に前途を閉されてしまいました。<br><br>それでも初めの間は誰もが辿るように医者をかえ、新薬を求め、人の勧める療法をあさって快復すべくつくしたのですが少しも効なく、不安の明暮を送るようになり、終にはどうにでもなれという捨鉢的な気持にまでなってしまいました。<br><br> そのような陰惨な生活を続けていた昭和十九年八月のある日、身内に当るＯ氏のすすめにより、母が疑半分で入信（当時は浄化療法でしたから受講といっていました）しました。<br><br>その頃私は、自分の身体が医学ではどうにもならぬのに、母が入信した事を敗して（これまでには、一家の不健康のためもあって種々の信仰や療法を次々行ったにも拘わらず皆良くなくて長続きせず、半年ないし二年位で止めていたためもあったのですが）「物好きに又そんなものを受けたりして、きっと半年位でやめてしまうだろうに」などと不届きな事を言っていましたが、しかし浄霊を受けると、何となく体が爽快になるのには頭を下げざるを得なくなりました。<br><br>先生にも御浄霊をお願すると「出来るだけ身体を使うように、その方が早く健康になれる」との仰せに、「そんな事をしたら大変だ」と思いましたが、とにかく御浄霊を暫くつづけてお願していました。<br><br>その間に「先生があのように言われるのは成程本当だな」と考えられるようになり一カ月も続けない間に少々無理な事でも進んで行うようになりました。<br><br>その頃になって、これこそ本当に健康になる道だという信念が湧くようになり、それ迄の暗雲は拭うように消え去りました。<br><br>これは医者を頼り、衛生には特に注意していながら、常に病んでいた私には大きな驚喜にも値し、その後は先生の御浄霊を戴き、お話を聞く事が何よりの楽しみになってしまいました。<br><br> 又母の入信当時、弟は小学三年生の身で小児結核と診られ、入手困難な注射薬を無理に整え、医師に頼んで注射を続けている最中であったのを中止し、浄霊するようになってから半月と経たないうちに、もう飛廻るようになったのには家中おどろきました。<br><br>その他母は入信日浅くして種々の奇蹟を見せつけられ（これもかきたいのですが、あまり長くなるので省きます）それによって父も入信し、二十年一月には私も入信さして頂き非常な安心感を得て、一途におすがりして参りました。<br><br> 以後度々浄化を戴き、その都度健康も増進するという喜ばしい結果となって来ましたが、ここにその浄化の経緯をかかして戴きます。<br><br> 初め御浄霊を続けていただくようになってから二カ月程は順次楽になり（少々無理な事でも行うようになった事は前記の通りですが）食欲もついて体力が随分快復したと思われる頃初の浄化を頂きました。<br><br>頭痛と微熱、全身の倦怠に、さては再発したのではなかろうかという不安が起り、先生におたずねしますと「それが浄化なのだから心配しなくともよい」と聞かされ有難いとも思い、いやだなとも考え何ともいいようのない気持で、御浄霊をつづけてお願していました。<br><br>不安なようで安心なちょっと説明のつかない気持のまま、浄化は随分長く続きました。<br><br>しかしすっかり終って暫く経った時には、頭を始め全身が爽やかになり食欲も進んで、結核などをやった者とは思えぬ体力にまでなっていました。<br><br>この嬉しさは一人でに口に出て、学校では無口で評判だった私が、友人に語り聞かせた程で、学校の帰路を不調法な口調で得意気に語った事を今も忘れません。<br><br>そして日中は学校農場（学時の学徒動員中を、弱体者のみ学校の農場で働いていました）に一人前働き夜はおそくまで、当時の明主様の医術に関する御著述を読み耽ったものでした。<br><br>この時初めて先生の言を疑った事を申訳なく思うと共に、浄化を感謝する気持が湧いて来ました。<br><br>その後も頭痛、発熱、咳嗽、下痢等種々の浄化を頂きましたが、前の時は随分長く続き苦痛も激しかったものが、何回か浄化している間に順次期間は短かくなり、楽に多量の毒素が、痰、鼻汁、下痢、赤く色づいた尿、汗等になって排泄出来るようになって来ました。<br><br>そしてその浄化のすむ度毎に必ずそれ以前にも増した楽な身体になっていますので、次第に浄化を待つようにもなり、遂にわざと浄化するように体を使い、寝不足までするようになりました。<br><br>このようになって「病気とは浄化作用であって、体内の毒素の排除される作業であり、それによって浄化発生前よりも健康になる。<br><br>故に病気は神の恩恵である」と先生方より聞かされていた事がはっきりと自分の体をもって知る事が出来ました。<br><br> このような御救いに与り、初めは病人に手を出す事に臆病であった私も、人を救いの道に導き、悩める人々が救われ、喜ばれる事をもって自分の喜びとするようになり、それが神様に対する御奉公である事を知り、一人でも多くこの苦悩の現世から救われるよう力を尽さねばならぬという心情に燃え、今日に及びました。<br><br>近頃にも感冒の浄化を頂き、一週間程頭痛発熱がつづきましたが、（勿論一日も寝る事なく平常通り働きもすれば、夜更かしもし、入浴もしました）浄化発生より三日目位から五日間程にわたり、多量の鼻汁と喀痰を出し、すっかり良くなりました。<br><br>それ以来とても頭が軽く、爽快な気分で御用に勤しんでいます。<br><br>明主様は栄光新聞九十号にも「結核なんか何でもない」と題して、風邪こそ体の大掃除であり、万病を免る因だ――と御発表になられましたが、私は自分の体を通じて、一点の疑い所か絶対の真理である事を信じ、これを特に浄化を恐れている方や、本教を疑っておられる方々にお伝えします。<br><br>風邪を引かないように特に注意しながらも、常に不健康であった過去や、肺浸潤で悩みつづけていた当時を顧みます時、今日の幸を一入有難く感ずると共に、ただただ感謝の外ありません。<br><br>かかる上は、なおいっそう人類救済の御聖業の御手伝いに、神の下僕としてひたすら進ませて頂きたい念願で一ぱいです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Minha Luta Contra a Doença (Como Fui Salvo da Infiltração Pulmonar)</h2>
 <p>Publicado em "A Terapia Revolucionária da Tuberculose", 15 de agosto de 1951, e "A Terapia da Tuberculose pela Fé", 1º de dezembro de 1952.</p>
@@ -100,5 +255,48 @@ function toggleLang(lang) {
 <p>Posteriormente, vivenciei outras purificações, que se manifestaram como dores de cabeça, febre, tosse e diarreia. Contudo, observei que, enquanto a primeira fora longa e bastante dolorosa, as seguintes tornaram-se progressivamente mais curtas e brandas. Grandes quantidades de toxinas eram expelidas através de expectoração, secreção nasal, fezes líquidas, urina de coloração avermelhada e suor. Como após cada processo purificador meu corpo se tornava invariavelmente mais leve e saudável do que antes, passei a aguardar com expectativa pelas purificações. Cheguei ao ponto de, deliberadamente, esforçar-me mais e dormir menos, a fim de provocá-las. Foi por meio dessa vivência que pude compreender, em meu próprio corpo, a verdade que os ministros nos ensinavam: "A doença é o processo de purificação, a eliminação das toxinas acumuladas no organismo. Por meio dela, tornamo-nos mais saudáveis do que éramos antes. Portanto, a doença é uma bênção de Deus".</p>
 <p>Agraciado com tamanha salvação, eu, que antes temia até mesmo o contato com pessoas doentes, passei a encontrar minha alegria em conduzir outros a este caminho, em ver os aflitos serem salvos e recuperarem o contentamento. Compreendi que esta é a minha forma de servir a Deus e senti arder em meu peito o desejo de me empenhar para que o maior número possível de pessoas seja salvo deste mundo de sofrimento. Recentemente, tive uma purificação sob a forma de um resfriado, com dores de cabeça e febre que duraram cerca de uma semana. Em nenhum momento, porém, precisei me acamar; continuei trabalhando normalmente, dormindo tarde e até tomando banho. Do terceiro ao oitavo dia do processo, expeli uma quantidade extraordinária de secreção nasal e expectoração, e então fiquei completamente restabelecido. Desde então, sinto a mente muito mais leve e dedico-me às minhas atividades com uma disposição renovada.</p>
 <p>No jornal Eikô, edição de número 90, Meishu-Sama publicou um artigo intitulado "A Tuberculose não é Nada", no qual nos ensina que o resfriado é a grande limpeza do corpo e o meio pelo qual evitamos todas as doenças. Por meio de minha própria experiência, atesto que esta não é apenas uma crença, mas uma verdade absoluta, isenta de qualquer dúvida. Desejo transmitir esta certeza especialmente àqueles que temem a purificação ou que ainda nutrem desconfiança em relação a estes Ensinamentos. Ao recordar meu passado, quando vivia constantemente enfermo apesar de todas as precauções, e a época em que definhava sob o jugo da infiltração pulmonar, a felicidade que sinto hoje se torna ainda mais preciosa. Não tenho palavras para expressar minha gratidão. Diante de tamanha graça, meu único anseio é poder seguir adiante, com toda a sinceridade, como um humilde servo de Deus, auxiliando na Obra Divina de salvação da humanidade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 私の闘病記 〔肺浸潤より斯く救わる〕 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 岐阜県 八光中教会 宇野幸一（23） 私は幼少の時から病弱で、感冒、咽喉カタル、扁桃腺炎、中耳炎等はもとより肺炎、狸紅熱（小学校六年当時）までもわずらい、随分親を泣かせました。<br/><br/>幼時の思出といえば、医療を受けたり保養のための避暑等がほとんどで、全く病気には神経が鋭くなっていて、僅かな病状にも医者だ薬だと騒ぎ、平常時でさえも肝油を始め種々の消化剤栄養剤を欠かした事はありません。<br/><br/>それを今顧みますに――もし薬が健康に益あるならば、自分は余程健康になっていただろうし、そうでなくとも平常から要心していたのだから、順次健康にならなければならなかった訳だが――と述懐せざるを得ません。<br/><br/> そんな私が昭和十七年（中学二年）の夏には、突然に出始めた血尿に腎蔵結核の診断を下され、手術せぬばならぬ所を、ともかくも薬で治しました。<br/><br/>しかしその直後より頭痛、倦怠感、微熱、食欲不振、脚の惰気等がするようになり、又々医者通いを余儀なくされ、医師から肺浸潤と宣せられた時には、とうとう自分も不治の病にまでなったのか、俺はもう駄目だという心情に前途を閉されてしまいました。<br/><br/>それでも初めの間は誰もが辿るように医者をかえ、新薬を求め、人の勧める療法をあさって快復すべくつくしたのですが少しも効なく、不安の明暮を送るようになり、終にはどうにでもなれという捨鉢的な気持にまでなってしまいました。<br/><br/> そのような陰惨な生活を続けていた昭和十九年八月のある日、身内に当るＯ氏のすすめにより、母が疑半分で入信（当時は浄化療法でしたから受講といっていました）しました。<br/><br/>その頃私は、自分の身体が医学ではどうにもならぬのに、母が入信した事を敗して（これまでには、一家の不健康のためもあって種々の信仰や療法を次々行ったにも拘わらず皆良くなくて長続きせず、半年ないし二年位で止めていたためもあったのですが）「物好きに又そんなものを受けたりして、きっと半年位でやめてしまうだろうに」などと不届きな事を言っていましたが、しかし浄霊を受けると、何となく体が爽快になるのには頭を下げざるを得なくなりました。<br/><br/>先生にも御浄霊をお願すると「出来るだけ身体を使うように、その方が早く健康になれる」との仰せに、「そんな事をしたら大変だ」と思いましたが、とにかく御浄霊を暫くつづけてお願していました。<br/><br/>その間に「先生があのように言われるのは成程本当だな」と考えられるようになり一カ月も続けない間に少々無理な事でも進んで行うようになりました。<br/><br/>その頃になって、これこそ本当に健康になる道だという信念が湧くようになり、それ迄の暗雲は拭うように消え去りました。<br/><br/>これは医者を頼り、衛生には特に注意していながら、常に病んでいた私には大きな驚喜にも値し、その後は先生の御浄霊を戴き、お話を聞く事が何よりの楽しみになってしまいました。<br/><br/> 又母の入信当時、弟は小学三年生の身で小児結核と診られ、入手困難な注射薬を無理に整え、医師に頼んで注射を続けている最中であったのを中止し、浄霊するようになってから半月と経たないうちに、もう飛廻るようになったのには家中おどろきました。<br/><br/>その他母は入信日浅くして種々の奇蹟を見せつけられ（これもかきたいのですが、あまり長くなるので省きます）それによって父も入信し、二十年一月には私も入信さして頂き非常な安心感を得て、一途におすがりして参りました。<br/><br/> 以後度々浄化を戴き、その都度健康も増進するという喜ばしい結果となって来ましたが、ここにその浄化の経緯をかかして戴きます。<br/><br/> 初め御浄霊を続けていただくようになってから二カ月程は順次楽になり（少々無理な事でも行うようになった事は前記の通りですが）食欲もついて体力が随分快復したと思われる頃初の浄化を頂きました。<br/><br/>頭痛と微熱、全身の倦怠に、さては再発したのではなかろうかという不安が起り、先生におたずねしますと「それが浄化なのだから心配しなくともよい」と聞かされ有難いとも思い、いやだなとも考え何ともいいようのない気持で、御浄霊をつづけてお願していました。<br/><br/>不安なようで安心なちょっと説明のつかない気持のまま、浄化は随分長く続きました。<br/><br/>しかしすっかり終って暫く経った時には、頭を始め全身が爽やかになり食欲も進んで、結核などをやった者とは思えぬ体力にまでなっていました。<br/><br/>この嬉しさは一人でに口に出て、学校では無口で評判だった私が、友人に語り聞かせた程で、学校の帰路を不調法な口調で得意気に語った事を今も忘れません。<br/><br/>そして日中は学校農場（学時の学徒動員中を、弱体者のみ学校の農場で働いていました）に一人前働き夜はおそくまで、当時の明主様の医術に関する御著述を読み耽ったものでした。<br/><br/>この時初めて先生の言を疑った事を申訳なく思うと共に、浄化を感謝する気持が湧いて来ました。<br/><br/>その後も頭痛、発熱、咳嗽、下痢等種々の浄化を頂きましたが、前の時は随分長く続き苦痛も激しかったものが、何回か浄化している間に順次期間は短かくなり、楽に多量の毒素が、痰、鼻汁、下痢、赤く色づいた尿、汗等になって排泄出来るようになって来ました。<br/><br/>そしてその浄化のすむ度毎に必ずそれ以前にも増した楽な身体になっていますので、次第に浄化を待つようにもなり、遂にわざと浄化するように体を使い、寝不足までするようになりました。<br/><br/>このようになって「病気とは浄化作用であって、体内の毒素の排除される作業であり、それによって浄化発生前よりも健康になる。<br/><br/>故に病気は神の恩恵である」と先生方より聞かされていた事がはっきりと自分の体をもって知る事が出来ました。<br/><br/> このような御救いに与り、初めは病人に手を出す事に臆病であった私も、人を救いの道に導き、悩める人々が救われ、喜ばれる事をもって自分の喜びとするようになり、それが神様に対する御奉公である事を知り、一人でも多くこの苦悩の現世から救われるよう力を尽さねばならぬという心情に燃え、今日に及びました。<br/><br/>近頃にも感冒の浄化を頂き、一週間程頭痛発熱がつづきましたが、（勿論一日も寝る事なく平常通り働きもすれば、夜更かしもし、入浴もしました）浄化発生より三日目位から五日間程にわたり、多量の鼻汁と喀痰を出し、すっかり良くなりました。<br/><br/>それ以来とても頭が軽く、爽快な気分で御用に勤しんでいます。<br/><br/>明主様は栄光新聞九十号にも「結核なんか何でもない」と題して、風邪こそ体の大掃除であり、万病を免る因だ――と御発表になられましたが、私は自分の体を通じて、一点の疑い所か絶対の真理である事を信じ、これを特に浄化を恐れている方や、本教を疑っておられる方々にお伝えします。<br/><br/>風邪を引かないように特に注意しながらも、常に不健康であった過去や、肺浸潤で悩みつづけていた当時を顧みます時、今日の幸を一入有難く感ずると共に、ただただ感謝の外ありません。<br/><br/>かかる上は、なおいっそう人類救済の御聖業の御手伝いに、神の下僕としてひたすら進ませて頂きたい念願で一ぱいです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

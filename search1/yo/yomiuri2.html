@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yomiuri2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 読売新聞に質す 埼玉の投書事件に就て 『光』29号、昭和24(1949)年10月1日発行 本教浄霊の治病効果は、人類史上いまだかつてない威力を発揮しつつある事実は、経験する者の等しく感激するところであるにかかわらず、この事実を殊更に眼を蔽うて見ないようにしている者も少なくないことは、新発見のいかなるものも同様の過程を踏む事は、むしろ普通事といっていい、ところがたまたま本教浄霊が予期したような結果がない場合があるとすると、奇貨措〔居〕くべしとなし、待っていたかのように針小棒大に誇張して、為（ため）にしようとするもののあるのは困った世相である、しかしながらいかなる完全な医学でも、百人の病人が全部治癒するという事は絶対あり得ない、例えば百人中九十九人が治って一人が治らない場合があるとすると、その一人だけを大々的誇張して天下に宣伝し、九十九の善を一の悪をもって抹殺しようと企てる悪行為者もある。<br><br> 右の事実は、最近読売新聞埼玉地方版に掲載された記事である、天下の大新聞と目されている読売紙のごときが、右のごとき不徳をあえてするという事は到底信じ得られないところで、実に不可解極まる話である、これは全く一方的悪意の投書をそのまま信じて碌々（ろくろく）調査もしない事によるのはもちろんで、その無責任さは断じて許すべからざるものがある、しかも驚くべき事はこの記事はほとんど捏造で、その投書家なるものは埼玉県下数種の新聞に右のごとき中傷的記事を出さしめ、本教浄霊がさも社会に害があるごとく思わしめる謀略的行為であるというのは、右記事が出るや間もなく、彼ら一味の使者が来り、近く埼玉県から問題が起り、当局の大断〔弾〕圧があるから、それを未然に防ぐべく運動をしなければ危険である、といい、暗に運動費の必要を匂わしめるのである。<br><br> 右の事実によって推察すれば、本教を故意に傷つけて金銭を目的とする巧妙なるユスリ的行為以外の何物でもないのである、ところが、かような悪徳者の援助的行為をしたのは、誰あろう天下の読売新聞であるとは、唖然として言うべき言葉はないのである、吾らの調査によれば、読売紙の埼玉県浦和支局が発震〔信〕地であるらしいから、マサカ同支局長がユスリ輩から買収されたものとは信じられないが、少なくとも調査不充分の責任は免れ得まい、何となれば、一方的のみの材料によって記事を作ったからである、とすればこの際同社において充分調査の上、善処さるべきが至当であると思うのである、言うまでもなく、吾らの主旨は是を是とし非を非とし、善を勧め、悪を懲（こら）す事であって、これが真の宗教本来の使命と信ずるからである。<br><br> (注) 奇貨（きか）居（お）くべし、史記、呂不韋が秦の始皇帝の父親（子楚）を援助するときの言葉「掘り出し物だ。<br><br>今が買いどきだ」という意味。<br><br>この故事から、得がたい機会だからこれをうまく利用しなければならない。<br><br>という意味で使う。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Interpelação ao Jornal Yomiuri sobre o Incidente em Saitama</h2>
 <p>A eficácia curativa do Johrei de nossa Igreja manifesta um poder sem precedentes na história da humanidade, um fato que comove profundamente todos que o experienciam. Todavia, não são poucos os que, deliberadamente, se recusam a enxergar essa realidade. Tal resistência, contudo, é um processo comum a toda e qualquer nova descoberta.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>O mais assombroso, porém, é que o referido artigo é praticamente uma invenção. Trata-se de uma manobra ardilosa, na qual o autor da carta fez publicar matérias difamatórias em diversos jornais da província de Saitama para criar a falsa impressão de que o Johrei de nossa Igreja é prejudicial à sociedade. De fato, logo após a publicação, emissários desse grupo nos procuraram, alertando sobre a iminência de um grave problema com as autoridades de Saitama, que resultaria em uma severa repressão. Afirmaram que, para evitar tal desfecho, seria necessário iniciar um movimento de prevenção, sugerindo veladamente a necessidade de fundos para tal campanha.</p>
 <p>Diante desses fatos, pode-se inferir que não se trata de outra coisa senão de um engenhoso esquema de extorsão, cujo objetivo é denegrir propositalmente nossa Igreja para obter vantagens financeiras. Contudo, que o cúmplice de tais indivíduos inescrupulosos tenha sido justamente o renomado Yomiuri Shimbun, é um fato que nos deixa atônitos e sem palavras. Nossas investigações apontam que a sucursal de Urawa, em Saitama, foi a origem da notícia. Embora nos recusemos a crer que o chefe dessa sucursal tenha sido subornado pelos extorsionários, a responsabilidade pela investigação insuficiente é inegável, visto que o artigo foi redigido com base em informações unilaterais. Diante disso, consideramos justo e imperativo que a empresa investigue o caso a fundo e tome as devidas providências.</p>
 <p>Desnecessário dizer que nosso propósito fundamental é afirmar o certo como certo e o errado como errado, promovendo o bem e corrigindo o mal. Cremos firmemente que essa é a missão primordial de uma verdadeira religião.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 読売新聞に質す 埼玉の投書事件に就て 『光』29号、昭和24(1949)年10月1日発行 本教浄霊の治病効果は、人類史上いまだかつてない威力を発揮しつつある事実は、経験する者の等しく感激するところであるにかかわらず、この事実を殊更に眼を蔽うて見ないようにしている者も少なくないことは、新発見のいかなるものも同様の過程を踏む事は、むしろ普通事といっていい、ところがたまたま本教浄霊が予期したような結果がない場合があるとすると、奇貨措〔居〕くべしとなし、待っていたかのように針小棒大に誇張して、為（ため）にしようとするもののあるのは困った世相である、しかしながらいかなる完全な医学でも、百人の病人が全部治癒するという事は絶対あり得ない、例えば百人中九十九人が治って一人が治らない場合があるとすると、その一人だけを大々的誇張して天下に宣伝し、九十九の善を一の悪をもって抹殺しようと企てる悪行為者もある。<br/><br/> 右の事実は、最近読売新聞埼玉地方版に掲載された記事である、天下の大新聞と目されている読売紙のごときが、右のごとき不徳をあえてするという事は到底信じ得られないところで、実に不可解極まる話である、これは全く一方的悪意の投書をそのまま信じて碌々（ろくろく）調査もしない事によるのはもちろんで、その無責任さは断じて許すべからざるものがある、しかも驚くべき事はこの記事はほとんど捏造で、その投書家なるものは埼玉県下数種の新聞に右のごとき中傷的記事を出さしめ、本教浄霊がさも社会に害があるごとく思わしめる謀略的行為であるというのは、右記事が出るや間もなく、彼ら一味の使者が来り、近く埼玉県から問題が起り、当局の大断〔弾〕圧があるから、それを未然に防ぐべく運動をしなければ危険である、といい、暗に運動費の必要を匂わしめるのである。<br/><br/> 右の事実によって推察すれば、本教を故意に傷つけて金銭を目的とする巧妙なるユスリ的行為以外の何物でもないのである、ところが、かような悪徳者の援助的行為をしたのは、誰あろう天下の読売新聞であるとは、唖然として言うべき言葉はないのである、吾らの調査によれば、読売紙の埼玉県浦和支局が発震〔信〕地であるらしいから、マサカ同支局長がユスリ輩から買収されたものとは信じられないが、少なくとも調査不充分の責任は免れ得まい、何となれば、一方的のみの材料によって記事を作ったからである、とすればこの際同社において充分調査の上、善処さるべきが至当であると思うのである、言うまでもなく、吾らの主旨は是を是とし非を非とし、善を勧め、悪を懲（こら）す事であって、これが真の宗教本来の使命と信ずるからである。<br/><br/> (注) 奇貨（きか）居（お）くべし、史記、呂不韋が秦の始皇帝の父親（子楚）を援助するときの言葉「掘り出し物だ。<br/><br/>今が買いどきだ」という意味。<br/><br/>この故事から、得がたい機会だからこれをうまく利用しなければならない。<br/><br/>という意味で使う。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

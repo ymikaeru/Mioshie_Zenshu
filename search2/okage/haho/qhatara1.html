@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhatara1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 働きつつ肺患を救われて 〔重症の肺患癒え復職〕 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 東京都 日光中教会 村井利典（31） 謹んで御礼かたがた御報告させて戴きます。<br><br>私は満三十一歳の大工で御座いまして、二十四年七月御教修を戴き、昨年一月一日、光明如来様を御奉斎させて戴きました者で御座居ます。<br><br>二十四年四月当時自分で数えても三十数個、大はピンポン球位から小は小豆位の空洞を認め、医師からは切断もしくは切開の上、整形手術を受けなければと言われておりました。<br><br>これより三年前人工気胸に通院中、医家の専門書を盗読したり、折々の医師の言葉を綜合してみますと二期よりも悪く三期よりは肺組織がやや健全という状態で御座居ました。<br><br> さて私は十八歳の折結核の初期と診断され、第一回の療養を初めましたが、三年目毎に再発致しまして、昭和十九年四月第四回目の折喀血をして、遂に床についたままになりました。<br><br>絶対安静を命ぜられ一カ年後空襲で罹災し、郷里に帰るまで屋外に出た事がない有様で御座いました。<br><br>郷里で人工気胸を初め、最高の時は一千ＣＣを入気して右肺を全部押し縮めてしまい、極く少量の運動は許されるようになりました。<br><br>しかし何分にも狭い郷土のこととて肺病患者と厭られ、他家との交際すら心遣いせねばならぬ有様で御座居ました。<br><br>近親者とて同じ事で、病気の苦痛よりもその方の苦痛がより大きく、母の血の結晶たる開墾畠も投げ捨てて自殺的行為と知りつつ上京、肺患を隠して仕事を見付け歩くという仕末になりました。<br><br>それでもなお母親の慈愛で無い中から一通りの医療を受けたので御座いましたが、一昨年四月、いよいよ前記の状態に陥入り、生命の保証すら判らない手術を強制され「経過がよくて精々事務仕事位出来よう」との宣告を受けました時の私の胸中いかばかりか、御察し下さいませ。<br><br>この時近所の知人宅に布教に御越しの井澤様と言う信者さんに御会いして、御浄霊をして戴きました。<br><br>最初はたった三百米そこそこの道を三十分もかかって、骨と皮ばかりにやつれた肉体を毎夜搬んで、御願いしたもので御座いましたが、一カ月半日にはこの三百米の道のりの過半は駈足で通える程にまで恢復致し、御教修の御話を賜わり早速御受け致したいと思いましたが、家計これを許さず、そのまま一カ月経ち半月分の生活費をさき衣類を売却しましたが工面できず、もう一月延ばそうかと迷いました。<br><br>そして次の衣類売却に専念致しましたがなかなか売れず困っておりましたところを、ある方の御同情により立替えて戴き、待望の御守様を予定より一カ月早く戴く事が出来ました。<br><br>三日目の教修を終り御守様を戴いて帰りますと、早速御守護が御座居ました。<br><br>肺病故に借家を追い立てられて心安まる部屋すらなかった身に、四畳半一間と翌日から手伝いに来て欲しいと言う仕事とが与えられたので御座居ます。<br><br>翌日から喜びに苦痛を忘れて、毎日大工仕事を致し、帰りには必ず井澤様宅へ御寄り致したので御座居ます。<br><br>当時の御話を聞きますと、私が入った部屋は一晩中臭かったとの事で御座います。<br><br> かくのごとくにして十月には母も教修を戴き、家で浄霊して戴けるようになり、身体の調子も順調に良くなり、昨年末には一通り空洞の整理と浸潤を消滅させて戴けたので御座います。<br><br>十一月一日と十二月一日の二回喀血が御座いましたが、仕事はその度に仕易くなり、一軒の請負仕事を完了致しましたので、早速御神体を御願い致し、昨年一月一日より御奉斎させて戴きました。<br><br> なお、前記御教修の費用調達に関し、更に次のような御守護を戴きました。<br><br>私が二十四年四月上旬、臥床前にある人から仏壇の作製を依頼されておりました。<br><br>勤務先が農機具工場で大工が出来ます故、再発で寝付いてからも先方で早く入用の事と思い、部下二名と農機具の師となる人に作製を依頼致しましたが、三人とも一時間もせぬ中に頭痛がして出来なくなり何回しても同じなので、七月迄そのままに捨置いておりました。<br><br>教修料を得たさの一念（初めは家計の一助たらんとする積りでしたが）に初めから作り直しましたが、病状にはなんの変化もなく二日で完成させて戴き、厚い御守護を戴きました。<br><br>ただ今は時々軽い御浄化を戴きつつ、益々元気で仕事に励ませて戴き近所の方々に御道の話をさせて戴いております。<br><br>未だ未だ曇り多き身の事とて何の御役にも立ちませず誠に申訳ないとは思いながら、御救い戴きました御恩の万分の一にも御報い申し上げたいと、それのみ念願致しております。<br><br> 以上誠に拙文にて恐縮で御座いますが、感謝感激の一端をここに申し述べさせて戴きました次第で御座居ます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo de uma enfermidade pulmonar sem deixar de trabalhar (A cura de uma grave afecção pulmonar e o retorno ao ofício)</h2>
 <p><strong>Publicado em "A Terapêutica Revolucionária da Tuberculose", 15 de agosto de 1951</strong>
@@ -102,5 +257,48 @@ function toggleLang(lang) {
 <p>Adicionalmente, gostaria de relatar outra maravilhosa Proteção Divina que recebi referente à obtenção dos fundos para o Curso de Iniciação. Em abril de 1949, pouco antes de ficar acamado, um cliente havia me encomendado a fabricação de um oratório budista. Como eu trabalhava em uma fábrica de implementos agrícolas onde também exercia a carpintaria, mesmo após a recidiva que me prendeu ao leito, preocupei-me com o prazo e pedi a dois subordinados e a um mestre que o construíssem. Contudo, os três, sem exceção, sentiam dores de cabeça após menos de uma hora de trabalho e eram forçados a parar. A situação repetiu-se diversas vezes, e o oratório permaneceu inacabado até julho. Foi então que, movido pelo único e fervoroso desejo de obter o donativo para o curso, decidi refazê-lo desde o início. Para minha surpresa, não senti qualquer alteração em meu estado de saúde e, recebendo uma imensa Proteção, concluí a obra em apenas dois dias.</p>
 <p>Atualmente, enquanto recebo purificações leves de tempos em tempos, sinto-me cada vez mais saudável e dedico-me com vigor ao meu trabalho, compartilhando os Ensinamentos com as pessoas de minha vizinhança. Ciente de que sou uma pessoa com inúmeras máculas e que ainda não sou de grande utilidade, sinto-me verdadeiramente consternado. Todavia, meu único e mais sincero desejo é poder retribuir, ainda que minimamente, uma ínfima parcela da imensa graça da salvação que me foi concedida.</p>
 <p>Embora minhas palavras sejam simples e despretensiosas, foi com o coração transbordando de emoção que me permiti expressar aqui uma parte de minha profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 働きつつ肺患を救われて 〔重症の肺患癒え復職〕 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 東京都 日光中教会 村井利典（31） 謹んで御礼かたがた御報告させて戴きます。<br/><br/>私は満三十一歳の大工で御座いまして、二十四年七月御教修を戴き、昨年一月一日、光明如来様を御奉斎させて戴きました者で御座居ます。<br/><br/>二十四年四月当時自分で数えても三十数個、大はピンポン球位から小は小豆位の空洞を認め、医師からは切断もしくは切開の上、整形手術を受けなければと言われておりました。<br/><br/>これより三年前人工気胸に通院中、医家の専門書を盗読したり、折々の医師の言葉を綜合してみますと二期よりも悪く三期よりは肺組織がやや健全という状態で御座居ました。<br/><br/> さて私は十八歳の折結核の初期と診断され、第一回の療養を初めましたが、三年目毎に再発致しまして、昭和十九年四月第四回目の折喀血をして、遂に床についたままになりました。<br/><br/>絶対安静を命ぜられ一カ年後空襲で罹災し、郷里に帰るまで屋外に出た事がない有様で御座いました。<br/><br/>郷里で人工気胸を初め、最高の時は一千ＣＣを入気して右肺を全部押し縮めてしまい、極く少量の運動は許されるようになりました。<br/><br/>しかし何分にも狭い郷土のこととて肺病患者と厭られ、他家との交際すら心遣いせねばならぬ有様で御座居ました。<br/><br/>近親者とて同じ事で、病気の苦痛よりもその方の苦痛がより大きく、母の血の結晶たる開墾畠も投げ捨てて自殺的行為と知りつつ上京、肺患を隠して仕事を見付け歩くという仕末になりました。<br/><br/>それでもなお母親の慈愛で無い中から一通りの医療を受けたので御座いましたが、一昨年四月、いよいよ前記の状態に陥入り、生命の保証すら判らない手術を強制され「経過がよくて精々事務仕事位出来よう」との宣告を受けました時の私の胸中いかばかりか、御察し下さいませ。<br/><br/>この時近所の知人宅に布教に御越しの井澤様と言う信者さんに御会いして、御浄霊をして戴きました。<br/><br/>最初はたった三百米そこそこの道を三十分もかかって、骨と皮ばかりにやつれた肉体を毎夜搬んで、御願いしたもので御座いましたが、一カ月半日にはこの三百米の道のりの過半は駈足で通える程にまで恢復致し、御教修の御話を賜わり早速御受け致したいと思いましたが、家計これを許さず、そのまま一カ月経ち半月分の生活費をさき衣類を売却しましたが工面できず、もう一月延ばそうかと迷いました。<br/><br/>そして次の衣類売却に専念致しましたがなかなか売れず困っておりましたところを、ある方の御同情により立替えて戴き、待望の御守様を予定より一カ月早く戴く事が出来ました。<br/><br/>三日目の教修を終り御守様を戴いて帰りますと、早速御守護が御座居ました。<br/><br/>肺病故に借家を追い立てられて心安まる部屋すらなかった身に、四畳半一間と翌日から手伝いに来て欲しいと言う仕事とが与えられたので御座居ます。<br/><br/>翌日から喜びに苦痛を忘れて、毎日大工仕事を致し、帰りには必ず井澤様宅へ御寄り致したので御座居ます。<br/><br/>当時の御話を聞きますと、私が入った部屋は一晩中臭かったとの事で御座います。<br/><br/> かくのごとくにして十月には母も教修を戴き、家で浄霊して戴けるようになり、身体の調子も順調に良くなり、昨年末には一通り空洞の整理と浸潤を消滅させて戴けたので御座います。<br/><br/>十一月一日と十二月一日の二回喀血が御座いましたが、仕事はその度に仕易くなり、一軒の請負仕事を完了致しましたので、早速御神体を御願い致し、昨年一月一日より御奉斎させて戴きました。<br/><br/> なお、前記御教修の費用調達に関し、更に次のような御守護を戴きました。<br/><br/>私が二十四年四月上旬、臥床前にある人から仏壇の作製を依頼されておりました。<br/><br/>勤務先が農機具工場で大工が出来ます故、再発で寝付いてからも先方で早く入用の事と思い、部下二名と農機具の師となる人に作製を依頼致しましたが、三人とも一時間もせぬ中に頭痛がして出来なくなり何回しても同じなので、七月迄そのままに捨置いておりました。<br/><br/>教修料を得たさの一念（初めは家計の一助たらんとする積りでしたが）に初めから作り直しましたが、病状にはなんの変化もなく二日で完成させて戴き、厚い御守護を戴きました。<br/><br/>ただ今は時々軽い御浄化を戴きつつ、益々元気で仕事に励ませて戴き近所の方々に御道の話をさせて戴いております。<br/><br/>未だ未だ曇り多き身の事とて何の御役にも立ちませず誠に申訳ないとは思いながら、御救い戴きました御恩の万分の一にも御報い申し上げたいと、それのみ念願致しております。<br/><br/> 以上誠に拙文にて恐縮で御座いますが、感謝感激の一端をここに申し述べさせて戴きました次第で御座居ます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

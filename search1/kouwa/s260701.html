@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s260701</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行 昭和二十六年七月一日 私は世界一になるつもりですから――金持ちも世界一にね。<br><br>アメリカの金持ちはだれかと思って、調べてみたいと思ってね。<br><br>それより上になれば良いんだからね。<br><br>医学のほうじゃ世界一だがね。<br><br>医学と宗教は世界一です。<br><br> なお宗教と言うと、今までのは野暮臭い、爺臭い。<br><br>いやに湿っぽいんですがね。<br><br>天理教なんかと来たら、いやに湿っぽいからね――着物を着てね。<br><br> 「天理教のほうで、メシヤ教の力は一時的だから、迷っちゃいけないと言われておりましたが、今後の天理教の目的は病院を作ることだということで、がっかりして、入信いたしました人がございます」 だいたい、天理教があれだけできたのは病気治しです。<br><br>先には良く治ったんです。<br><br>昭和六年から治らなくなった。<br><br>天理教は月の神様ですからね。<br><br>だから女が教主になった。<br><br>素盞嗚尊の系統です。<br><br>今までは月の神様の系統ですからね。<br><br>だから、お釈迦さんを変性女子（へんじょうにょし）と言った。<br><br>キリストも女の系統ですね。<br><br>素盞嗚尊の系統です。<br><br>ですから、男の系統は救世教が初めてですよ。<br><br>大本教の教祖も女ですね。<br><br>代々女です。<br><br>夜の世界じゃ、女が――月が、一番です。<br><br>月の光で、ともかく闇がそれだけ明るかったからね。<br><br>昼間になると月の光が要らなくなるからね。<br><br>それで、昭和六年から病気が治らなくなった――天理教はね。<br><br>その結果病院を作るとか、病気は医者が治すとか言い出してきた。<br><br>だから、別に天理教が嘘言ったわけでもなく、間違ったわけでもない。<br><br>時期が違ったということです。<br><br>それで、そうなる。<br><br> メシヤ教だって、観音会時代はそう治らなかったですよ。<br><br>私が治すのが、いまみんなが治すくらいだったですからね。<br><br>それは、まだ太陽が出ていなかったからです。<br><br>年々太陽が出てくるから奇蹟が出る。<br><br>だから、日が経つに従って、今までよりよけい治り、奇蹟もある。<br><br>それに引き替え、月の系統のほうはだんだん反対になる。<br><br>日本人全部が信者になると言ったが、そうです。<br><br>太陽が上って月を拝む人はないからね。<br><br>しかし、そうかと言って、月というものは、ぜんぜんなくなったのではない。<br><br>あるのだから――前は月が主だったのが、今度は太陽が主になった。<br><br>月がなくては――水がないと、火は燃えないから。<br><br>そこで、明の字ですね。<br><br>明主と言うのはそういう意味です。<br><br>明治というのも、そういう意味なんです。<br><br>明治から昭和――私は明治に生まれたんですね。<br><br> だいぶ、これから集団的に信者になる者が、次々できますね。<br><br>今度、九州でありましたね。<br><br> 「二、三百くらいできる予定でございます。<br><br>地元の地方新聞と有力者が主になっております」 「最近光が強くございまして、年寄りで、私の近親の者でございますが、めまいの少し強いようなので倒れまして、お蔭様で浄霊をさせていただきまして、なんともございませんでしたが、だんだんひどくなることが現実に見えるようで、またずばぬけたお蔭が多くございます」 まだまだ増えますよ。<br><br>今年からは現界の昼間になるんだからね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Alvorecer da Era do Dia</h2>
 <p>Tenho a intenção de me tornar o número um do mundo, e isso inclui a riqueza. Cheguei a pensar em pesquisar quem é o homem mais rico da América, pois basta superá-lo. No campo da medicina, já sou o número um. A medicina e a religião que represento são as mais elevadas do mundo.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>“A expectativa é de que se formem grupos de duzentos a trezentos novos fiéis. A iniciativa está sendo liderada por jornais locais e por personalidades influentes da região.”</p>
 <p>“Recentemente, a Luz Divina tem se intensificado de tal forma que um parente próximo, já idoso, chegou a desmaiar acometido por uma forte tontura. Felizmente, graças a Deus, pude ministrar-lhe Johrei e ele se restabeleceu sem maiores problemas. Contudo, é visível que os processos de purificação se tornam cada vez mais rigorosos. Em paralelo a isso, temos testemunhado um número crescente de graças extraordinárias.”</p>
 <p>E aumentarão ainda mais. Pois, a partir deste ano, tem início a Era do Dia no Mundo Material.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行 昭和二十六年七月一日 私は世界一になるつもりですから――金持ちも世界一にね。<br/><br/>アメリカの金持ちはだれかと思って、調べてみたいと思ってね。<br/><br/>それより上になれば良いんだからね。<br/><br/>医学のほうじゃ世界一だがね。<br/><br/>医学と宗教は世界一です。<br/><br/> なお宗教と言うと、今までのは野暮臭い、爺臭い。<br/><br/>いやに湿っぽいんですがね。<br/><br/>天理教なんかと来たら、いやに湿っぽいからね――着物を着てね。<br/><br/> 「天理教のほうで、メシヤ教の力は一時的だから、迷っちゃいけないと言われておりましたが、今後の天理教の目的は病院を作ることだということで、がっかりして、入信いたしました人がございます」 だいたい、天理教があれだけできたのは病気治しです。<br/><br/>先には良く治ったんです。<br/><br/>昭和六年から治らなくなった。<br/><br/>天理教は月の神様ですからね。<br/><br/>だから女が教主になった。<br/><br/>素盞嗚尊の系統です。<br/><br/>今までは月の神様の系統ですからね。<br/><br/>だから、お釈迦さんを変性女子（へんじょうにょし）と言った。<br/><br/>キリストも女の系統ですね。<br/><br/>素盞嗚尊の系統です。<br/><br/>ですから、男の系統は救世教が初めてですよ。<br/><br/>大本教の教祖も女ですね。<br/><br/>代々女です。<br/><br/>夜の世界じゃ、女が――月が、一番です。<br/><br/>月の光で、ともかく闇がそれだけ明るかったからね。<br/><br/>昼間になると月の光が要らなくなるからね。<br/><br/>それで、昭和六年から病気が治らなくなった――天理教はね。<br/><br/>その結果病院を作るとか、病気は医者が治すとか言い出してきた。<br/><br/>だから、別に天理教が嘘言ったわけでもなく、間違ったわけでもない。<br/><br/>時期が違ったということです。<br/><br/>それで、そうなる。<br/><br/> メシヤ教だって、観音会時代はそう治らなかったですよ。<br/><br/>私が治すのが、いまみんなが治すくらいだったですからね。<br/><br/>それは、まだ太陽が出ていなかったからです。<br/><br/>年々太陽が出てくるから奇蹟が出る。<br/><br/>だから、日が経つに従って、今までよりよけい治り、奇蹟もある。<br/><br/>それに引き替え、月の系統のほうはだんだん反対になる。<br/><br/>日本人全部が信者になると言ったが、そうです。<br/><br/>太陽が上って月を拝む人はないからね。<br/><br/>しかし、そうかと言って、月というものは、ぜんぜんなくなったのではない。<br/><br/>あるのだから――前は月が主だったのが、今度は太陽が主になった。<br/><br/>月がなくては――水がないと、火は燃えないから。<br/><br/>そこで、明の字ですね。<br/><br/>明主と言うのはそういう意味です。<br/><br/>明治というのも、そういう意味なんです。<br/><br/>明治から昭和――私は明治に生まれたんですね。<br/><br/> だいぶ、これから集団的に信者になる者が、次々できますね。<br/><br/>今度、九州でありましたね。<br/><br/> 「二、三百くらいできる予定でございます。<br/><br/>地元の地方新聞と有力者が主になっております」 「最近光が強くございまして、年寄りで、私の近親の者でございますが、めまいの少し強いようなので倒れまして、お蔭様で浄霊をさせていただきまして、なんともございませんでしたが、だんだんひどくなることが現実に見えるようで、またずばぬけたお蔭が多くございます」 まだまだ増えますよ。<br/><br/>今年からは現界の昼間になるんだからね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

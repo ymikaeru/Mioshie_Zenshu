@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hitoha03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,60 +239,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人は人を咎むる勿れ 『救世』55号、昭和25(1950)年3月25日発行 時々人を咎（とが）める事の可否について質（き）かれるから、ここにかいてみるが、実をいえば人を咎める権能は神のみが有せられるものであって、人が人を咎めるという事は実は人が神の地位を犯す事となるのである、また別の面からみるも、人を咎めた結果は良い事はまずない、大抵は逆効果となるものである。<br><br> 私の事をいうが、私は人が間違った事をしてる場合、見て見ぬ振りをして放っておく、すると間違った事はいつか頭をブッつける時が来る、そこで自ら眼が覚め心から悔改めるものである、これをたとえていえば、坂から大石が転っている際、それを止めようとするようなもので、決して止まるものではない、もし無理に止めようとすると怪我（けが）をするのがオチである、ゆえに落ちるのを待って落ちてから徐（おもむ）ろに上げればいいのである、といってもその場合そういう事をすると結局失敗するという事は話してやった方がいい、それによって頭をブッつけた時、ハハアー以前言われた事はこれだなと早く悟るからである、以上のごとく人間が人間を咎め権力や何かで無理に制えつけたり脅かしたり、また戒律などで縛るのは一時的で、いつかは必ず反動があり、結局は面白くない、どうしても当人自身が非を悟って心から悔改めるのでなくては本物ではないのである。<br><br> この事は医学にも当はまる、現代医療は病気に対し種々な唯物的責道具で、病気を止めようとするがなるほど一時は止め得ても必ず反動が起って再発する、それが初めの病気より悪質である、ゆえに吾らの神療法のごとく全然責道具など用いないで、病人自身有する良能の力で自然に治させるゆえに、その良能力を増させる方法こそ真の医術である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ninguém É Dado o Direito de Julgar</h2>
 <p>Frequentemente me questionam sobre a validade de se julgar o próximo e gostaria, portanto, de abordar este assunto. A prerrogativa de julgar, em verdade, pertence unicamente a Deus. Quando o ser humano se arvora no direito de julgar seu semelhante, comete a transgressão de usurpar uma atribuição divina. Ademais, sob outra perspectiva, a prática de julgar outrem raramente produz bons resultados; na maioria das vezes, revela-se contraproducente.</p>
 <p>Falando por experiência própria, quando percebo que alguém está a cometer um erro, eu me abstenho de intervir e deixo que a situação siga seu curso. Pois, inevitavelmente, chegará o momento em que essa pessoa “baterá com a cabeça na parede”, por assim dizer. É nesse instante que ela despertará por si mesma e se arrependerá sinceramente. Tal situação pode ser comparada a uma grande rocha rolando ladeira abaixo. Tentar detê-la em seu curso é uma iniciativa inútil e perigosa, pois quem o fizer certamente se ferirá. O mais sensato, portanto, é aguardar que a rocha cesse seu movimento por si só para, então, com tranquilidade, removê-la do caminho. Contudo, isso não significa omissão completa. É aconselhável alertar a pessoa de que sua atitude a conduzirá ao fracasso. Desse modo, quando o revés ocorrer, ela compreenderá mais rapidamente, pensando: “Ah, era a isto que se referiam”. Como se pode depreender, quando um ser humano julga outro e utiliza de poder, ameaças ou preceitos rígidos para coagi-lo, obtém apenas um resultado temporário. Invariavelmente, surgirá uma reação adversa, e as consequências serão negativas. A verdadeira correção só ocorre quando o próprio indivíduo, por meio de sua própria consciência, reconhece seu erro e se arrepende de coração.</p>
 <p>Este mesmo princípio se aplica de forma análoga à medicina. A medicina contemporânea, diante da enfermidade, emprega uma variedade de métodos materialistas e agressivos na tentativa de suprimir a doença. Embora possa obter um alívio momentâneo, invariavelmente ocorre uma reação adversa que leva à reincidência, manifestando-se de forma ainda mais severa que a moléstia original. Por essa razão, nossa terapia divina prescinde completamente de tais instrumentos. Ela atua de modo a permitir que o próprio doente se cure naturalmente, por meio da força de sua capacidade inata de recuperação. Assim sendo, a verdadeira arte médica consiste em fortalecer essa capacidade intrínseca do ser humano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人は人を咎むる勿れ 『救世』55号、昭和25(1950)年3月25日発行 時々人を咎（とが）める事の可否について質（き）かれるから、ここにかいてみるが、実をいえば人を咎める権能は神のみが有せられるものであって、人が人を咎めるという事は実は人が神の地位を犯す事となるのである、また別の面からみるも、人を咎めた結果は良い事はまずない、大抵は逆効果となるものである。<br/><br/> 私の事をいうが、私は人が間違った事をしてる場合、見て見ぬ振りをして放っておく、すると間違った事はいつか頭をブッつける時が来る、そこで自ら眼が覚め心から悔改めるものである、これをたとえていえば、坂から大石が転っている際、それを止めようとするようなもので、決して止まるものではない、もし無理に止めようとすると怪我（けが）をするのがオチである、ゆえに落ちるのを待って落ちてから徐（おもむ）ろに上げればいいのである、といってもその場合そういう事をすると結局失敗するという事は話してやった方がいい、それによって頭をブッつけた時、ハハアー以前言われた事はこれだなと早く悟るからである、以上のごとく人間が人間を咎め権力や何かで無理に制えつけたり脅かしたり、また戒律などで縛るのは一時的で、いつかは必ず反動があり、結局は面白くない、どうしても当人自身が非を悟って心から悔改めるのでなくては本物ではないのである。<br/><br/> この事は医学にも当はまる、現代医療は病気に対し種々な唯物的責道具で、病気を止めようとするがなるほど一時は止め得ても必ず反動が起って再発する、それが初めの病気より悪質である、ゆえに吾らの神療法のごとく全然責道具など用いないで、病人自身有する良能の力で自然に治させるゆえに、その良能力を増させる方法こそ真の医術である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

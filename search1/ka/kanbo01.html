@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kanbo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 感冒・結核は治る 自観叢書第1篇『結核と神霊療法』P.11、昭和24(1949)年6月25日発行 これを説くに当って、本会〔ﾏﾏ〕からいえば霊体両面にわたって徹底すべきであるが、霊の方面は信仰者以外、全面的に理解し難い憾（うら）みがありその点を考慮して第三者にも理解し得るよう書く事にしたため、幾分不徹底の嫌いなきにも非ず、しかしこれはやむを得ないのである。<br><br> 結核といえば、まず第一は肺患であり、次いで喉頭、腸等がおもなるものであるが、何といっても肺結核が断然問題の焦点である。<br><br>しからば肺結核なるものはいかなる原因によって発病するものであるかを深くメスを入れて説いてみるが、それについてあらかじめ断わっておきたい事は、これまでの医学の説とは余りに違うから、読者はそのつもりで全然白紙になって熟読されん事である。<br><br> そもそも、人間の病患の中何人といえども必ず罹病するものは彼の感冒である。<br><br>いかなる健康者といえども、生涯の中に一度や二度感冒に罹らないものはないであろう。<br><br>しかるに進歩したという現代医学がいまだ感冒の原因すら不明であるという事はなぜであろうか、実に意外という外はない。<br><br>ところが結核の真因は感冒にあるのであるから、何よりも感冒の原因が判らない以上結核の真因が判るはずはない、故にまず、私は最もこの難問題である感冒の原因から書いてみよう。<br><br> そもそも、いかなる人間といえども、毒素のないものは恐らく一人もあるまい、オギアと生れた時すでに天然痘、麻疹（はしか）、百日咳等の先天性病毒は多少なりとも必ず保有している。<br><br>特に最も著るしいのは天然痘の毒素である（これを略して然毒とかく）。<br><br>この然毒は彼の種痘によって天然痘発生を防止するが、単なる防止しただけであって決して然毒を消滅したのではない。<br><br>依然として然毒はそのままである、いささかも滅ってはいない。<br><br>種痘によってただ発生の力を弱らしたまでで、この事が最も肝心な点である。<br><br>しからばこの保有然毒はいかになりゆくかというと、年月を経て人体の各局所に集溜し固結するのである。<br><br>それはいかなる訳かというと、人間が神経を集注する個所へあらゆる毒素が集注するのは原則である。<br><br>したがって人間が神経を最も使うところの上半身特に首から上を診（み）ればよく判る、脳を使い、眼を耳を鼻口等は最も使うところで、その結果然毒を主にあらゆる毒素は上昇し、頭部淋巴腺付近に集溜し、漸次固結するのである。<br><br>この理によって淋巴腺に固結のないものはほとんどないといってもいい。<br><br>見よ、児童が学校へ入学する頃から淋巴腺腫脹が始まり、扁桃腺、アデノイド、中耳炎、脳膜炎、脳炎等が起りやすく、腺病質となったりするのも、早期入学によって頭脳を酷使し始めたからである（早期入学の害は別の機会に詳論する）。<br><br> 右のごとく、集溜毒素は時日によって固結するが、この固結はある程度に達するや、ここに自然浄化作用が発生する。<br><br>この浄化作用こそ人間の健康を保持すべき摂理作用であって、実に神の恩恵ともいうべき貴重なものである。<br><br> ここで浄化作用なるものの詳細を説明してみるが、固結毒素（以下毒結という）の排除作用が発生するのである。<br><br>その場合まず毒結排除をやすからしむるため溶解作用が起こる。<br><br>そのための発熱である。<br><br>発熱によって毒結が溶解し液体化しそれがまず肺臓内に浸潤しある時間帯溜する。<br><br>ところが固結が液体化してもまだ濃度であるため、今一層液体化の第二次発熱が起こる。<br><br>それで初めて理想的液体となり、それを排除するため咳嗽というポンプ作用が起こる。<br><br>咳嗽の後に必ず吐痰をするのはそれである。<br><br>自然は実によく出来ている。<br><br>その際医診によればラッセルが聞え、レントゲン写真には滞溜喀痰が写るから、肺浸潤、肺門淋巴腺、肺尖カタル等の、診断を下すが、これ程の誤りはない、何となれば肺臓内にある喀痰は、第二次溶解作用によって外部へ排泄さるるまでの暫定的のものであるからこの際肺臓は健全であって、なんら異常はないのである。<br><br>故になんら手当もせず放任しておけば喀痰は自然に出るだけ出て治癒してしまう。<br><br>しかもそれだけ病毒が減った以上、寒冒以前よりも健康体になるのは当然である。<br><br> 寒冒の場合の頭痛は、頭脳内にある毒結が強力浄化である第一次発熱によって、一旦肺臓内に滞溜するのは前同様である。<br><br>その際液体が肺臓内へ移行する作用が、神経を刺戟する、それの痛みである。<br><br>その他後頭部、延髄付近の毒結溶解は、クシャミというポンプ作用によって鼻汁となり、また浅部の毒素は発汗となり、上半身のそれは盗汗（ねあせ）となり、下半身のそれは多く尿となるのである。<br><br>この理が判れば感冒なるものは、いかに有難いかが、知らるるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio da Purificação e a Natureza das Enfermidades</h2>
 <p>Ao abordar o tema em questão, o ideal seria elucidá-lo de maneira exaustiva, abrangendo tanto o aspecto espiritual quanto o material. Contudo, ciente de que a dimensão espiritual é de difícil compreensão para aqueles que não partilham de nossa fé, optei por uma abordagem que pudesse ser entendida por todos. Em virtude dessa escolha, a exposição pode parecer, em certa medida, incompleta, o que, todavia, é inevitável.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Passo agora a detalhar esse processo. A purificação inicia-se com uma ação de dissolução, que visa facilitar a eliminação das toxinas solidificadas, doravante denominadas nódulos tóxicos. Para tanto, surge a febre. O calor dissolve os nódulos, transformando-os em líquido, que se infiltra nos pulmões, onde permanece temporariamente. Como essa substância ainda é densa, uma segunda onda de febre se faz necessária para torná-la mais fluida. Atingida a consistência ideal, entra em ação o mecanismo de bombeamento da tosse, que impulsiona a expectoração do catarro. A natureza é, de fato, perfeita em seus desígnios.</p>
 <p>Nesse estágio, os exames médicos podem detectar ruídos pulmonares e as radiografias podem revelar o acúmulo de secreção, levando a diagnósticos como infiltração pulmonar, linfadenopatia hilar ou catarro apical. Tais diagnósticos, porém, são um grande equívoco. O catarro nos pulmões é apenas um estado transitório, aguardando a expulsão pelo segundo processo de dissolução; os pulmões em si encontram-se perfeitamente sãos. Portanto, se nada for feito e se permitir que o processo siga seu curso natural, todo o catarro será expelido e a cura se dará espontaneamente. E, como uma porção das toxinas foi eliminada, é natural que a pessoa se torne ainda mais saudável do que era antes do resfriado.</p>
 <p>No caso dos resfriados, a dor de cabeça resulta da estimulação dos nervos durante a migração das toxinas liquefeitas do cérebro para os pulmões. Já a dissolução dos nódulos tóxicos localizados na nuca e na região do bulbo raquidiano desencadeia o espirro, um mecanismo de bombeamento que os expele sob a forma de coriza. As toxinas mais superficiais, por sua vez, são eliminadas através da transpiração; as do tronco superior saem como suores noturnos, e as do tronco inferior, majoritariamente, pela urina. Ao se compreender este princípio, torna-se evidente quão valioso é o processo que chamamos de resfriado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 感冒・結核は治る 自観叢書第1篇『結核と神霊療法』P.11、昭和24(1949)年6月25日発行 これを説くに当って、本会〔ﾏﾏ〕からいえば霊体両面にわたって徹底すべきであるが、霊の方面は信仰者以外、全面的に理解し難い憾（うら）みがありその点を考慮して第三者にも理解し得るよう書く事にしたため、幾分不徹底の嫌いなきにも非ず、しかしこれはやむを得ないのである。<br/><br/> 結核といえば、まず第一は肺患であり、次いで喉頭、腸等がおもなるものであるが、何といっても肺結核が断然問題の焦点である。<br/><br/>しからば肺結核なるものはいかなる原因によって発病するものであるかを深くメスを入れて説いてみるが、それについてあらかじめ断わっておきたい事は、これまでの医学の説とは余りに違うから、読者はそのつもりで全然白紙になって熟読されん事である。<br/><br/> そもそも、人間の病患の中何人といえども必ず罹病するものは彼の感冒である。<br/><br/>いかなる健康者といえども、生涯の中に一度や二度感冒に罹らないものはないであろう。<br/><br/>しかるに進歩したという現代医学がいまだ感冒の原因すら不明であるという事はなぜであろうか、実に意外という外はない。<br/><br/>ところが結核の真因は感冒にあるのであるから、何よりも感冒の原因が判らない以上結核の真因が判るはずはない、故にまず、私は最もこの難問題である感冒の原因から書いてみよう。<br/><br/> そもそも、いかなる人間といえども、毒素のないものは恐らく一人もあるまい、オギアと生れた時すでに天然痘、麻疹（はしか）、百日咳等の先天性病毒は多少なりとも必ず保有している。<br/><br/>特に最も著るしいのは天然痘の毒素である（これを略して然毒とかく）。<br/><br/>この然毒は彼の種痘によって天然痘発生を防止するが、単なる防止しただけであって決して然毒を消滅したのではない。<br/><br/>依然として然毒はそのままである、いささかも滅ってはいない。<br/><br/>種痘によってただ発生の力を弱らしたまでで、この事が最も肝心な点である。<br/><br/>しからばこの保有然毒はいかになりゆくかというと、年月を経て人体の各局所に集溜し固結するのである。<br/><br/>それはいかなる訳かというと、人間が神経を集注する個所へあらゆる毒素が集注するのは原則である。<br/><br/>したがって人間が神経を最も使うところの上半身特に首から上を診（み）ればよく判る、脳を使い、眼を耳を鼻口等は最も使うところで、その結果然毒を主にあらゆる毒素は上昇し、頭部淋巴腺付近に集溜し、漸次固結するのである。<br/><br/>この理によって淋巴腺に固結のないものはほとんどないといってもいい。<br/><br/>見よ、児童が学校へ入学する頃から淋巴腺腫脹が始まり、扁桃腺、アデノイド、中耳炎、脳膜炎、脳炎等が起りやすく、腺病質となったりするのも、早期入学によって頭脳を酷使し始めたからである（早期入学の害は別の機会に詳論する）。<br/><br/> 右のごとく、集溜毒素は時日によって固結するが、この固結はある程度に達するや、ここに自然浄化作用が発生する。<br/><br/>この浄化作用こそ人間の健康を保持すべき摂理作用であって、実に神の恩恵ともいうべき貴重なものである。<br/><br/> ここで浄化作用なるものの詳細を説明してみるが、固結毒素（以下毒結という）の排除作用が発生するのである。<br/><br/>その場合まず毒結排除をやすからしむるため溶解作用が起こる。<br/><br/>そのための発熱である。<br/><br/>発熱によって毒結が溶解し液体化しそれがまず肺臓内に浸潤しある時間帯溜する。<br/><br/>ところが固結が液体化してもまだ濃度であるため、今一層液体化の第二次発熱が起こる。<br/><br/>それで初めて理想的液体となり、それを排除するため咳嗽というポンプ作用が起こる。<br/><br/>咳嗽の後に必ず吐痰をするのはそれである。<br/><br/>自然は実によく出来ている。<br/><br/>その際医診によればラッセルが聞え、レントゲン写真には滞溜喀痰が写るから、肺浸潤、肺門淋巴腺、肺尖カタル等の、診断を下すが、これ程の誤りはない、何となれば肺臓内にある喀痰は、第二次溶解作用によって外部へ排泄さるるまでの暫定的のものであるからこの際肺臓は健全であって、なんら異常はないのである。<br/><br/>故になんら手当もせず放任しておけば喀痰は自然に出るだけ出て治癒してしまう。<br/><br/>しかもそれだけ病毒が減った以上、寒冒以前よりも健康体になるのは当然である。<br/><br/> 寒冒の場合の頭痛は、頭脳内にある毒結が強力浄化である第一次発熱によって、一旦肺臓内に滞溜するのは前同様である。<br/><br/>その際液体が肺臓内へ移行する作用が、神経を刺戟する、それの痛みである。<br/><br/>その他後頭部、延髄付近の毒結溶解は、クシャミというポンプ作用によって鼻汁となり、また浅部の毒素は発汗となり、上半身のそれは盗汗（ねあせ）となり、下半身のそれは多く尿となるのである。<br/><br/>この理が判れば感冒なるものは、いかに有難いかが、知らるるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

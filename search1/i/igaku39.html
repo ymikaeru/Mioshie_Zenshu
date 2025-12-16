@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku39</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の実体 『栄光』252号、昭和29(1954)年3月17日発行 私は常に医学が病気を作り、薬は毒物であるという事を唱えているが、これが真理であるのは、事実が遺憾なく示している。<br><br>左記の患者はそれをハッキリ現わしているから、ここに載せたのである。<br><br> 医学迷信より目覚め 肺結核をお救い頂く 長野県 開明中教会 加藤英子（21） 明主様一言御礼を述べさせて頂きます。<br><br>忘れもしません、昭和二十七年十二月十三日、胸が痛みますのでお医者へ診てもらいに行きました。<br><br>診察の結果肋膜と診断された時の私はすっかり悲観してしまいました。<br><br>医者は「今日から絶対に安静するように」と言われ注射を二本致しました。<br><br>帰路についた私は自然に流れ出る涙に茫然として通行の人の顔も見えず、ただ悲しい思いで家に帰りました。<br><br> その日の夜は一睡も眠れず、それからというものは毎日毎日寒い日もお医者に通い通しました。<br><br>医者ではいつも注射をうち薬をのみ、同じ療法をくりかえしました。<br><br>私は毎日地獄に住む思いで送りました。<br><br>いつしか寒い冬も過ぎ去り六月の季節になりましたが、もう半年も床で過ごしてしまい日が一日一日過ぎて行くだけだが、私の病気の状態は一向に快方に向わずかえって以前よりも悪くなって来るようで、神経が悪いように思わしめるのかと思いましたが、どう考えても逆に悪くなっているとしか考えられません。<br><br>毎日薬と注射をやらぬ日とてなく、一刻も早く床から離れて家の庭先でも良いから掃除位したいものと思うのですが、胸の病気はますます重くなる許り、だんだんやせて行く身体を見ては何時全快の日が来るのかしら、今の状態のようでは、いっそあの世へ消えた方がどんなにか幸福かと思い、何回決心したか知れません。<br><br> ある日、岡谷の太田さんがわざわざ私の家まで来て下さいました。<br><br>お話をお聞き致しましたところ、非常に有難い神様がありますから、神様の道に入りませんかと勧めて下さいました。<br><br>私は最初は意味が分りませんでした。<br><br>ただ手を上げて光が出るのかしら、又不思議で考えられませんでした。<br><br>私は一夜考えてみました。<br><br>薬をのんでも治らない、注射をしても良くならないことは余りにも自分の身体が実証しているので、自分でもよくわかりました。<br><br>たとえ薬で治ったとしても一時的で到底安心して働くことはできないことも考えられました。<br><br>私は早速翌日支部をお訪ねしてみようという決心がついて、翌日教会へ行ってみました。<br><br> 中島先生から、明主様の偉大なる御力の御話をお聞き致し、私は全身の生き返ったような気が致しました。<br><br>果して私のような無信心、無信仰者が神様から救って頂けるとは夢にも思いませんでした。<br><br>それがどうでしょうか、三回目の御浄霊を受けましたところ、御浄化が大変はげしくなって参りました。<br><br>痰が出る咳が出る、恐ろしい程はげしい御浄化でしたが一時的の苦しさは明らかでした。<br><br>一時苦しみましたが後はすっかり気持が良く息苦しかった胸が全く息苦しくありませんでした。<br><br>今考えてみれば薬は病気を作るもとである恐ろしい薬毒ではありませんか。<br><br>医者に通っているまでは道を歩くにも息苦しく、部屋を掃除することもできなかった私が、今はどうでしょう。<br><br>姪の赤ちゃんをお守し台所のお仕事もしもうすっかり健康になりました。<br><br>昭和二十八年八月十二日に私は入信の御許しを頂戴し有難い御守様を拝受させて頂きました。<br><br>長い間医学迷信に苦しんだ私の救われた嬉しさ、この喜び、感謝感激の念で一杯でした。<br><br> その後医者に診察してもらい確実に全治しているとの太鼓判をおされ就職も決定するという全く有難いおかげを頂き、一日の生活を明るく楽しい安心感を持って日々を送らせて頂いております。<br><br>この有難いお道に結ばれた私の幸福、身に余る御守護の数々は言葉で表現できない感謝でございます。<br><br> 明主様偉大なる御守護有難うございました。<br><br>今後共よろしく御願い申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Realidade da Medicina</h2>
 <p>Eu tenho afirmado constantemente que a medicina cria doenças e que os remédios são substâncias tóxicas. Os fatos demonstram, de maneira irrefutável, que esta é a mais pura verdade. O relato da fiel a seguir ilustra essa realidade com clareza, motivo pelo qual decidi publicá-lo.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>No dia 12 de agosto de 1953, recebi a permissão para ingressar na fé e me foi outorgado o sagrado Ohikari. A alegria de ser salva após tanto tempo de sofrimento sob a superstição médica, essa felicidade, essa gratidão, transbordavam em meu coração.</p>
 <p>Posteriormente, procurei um médico, que me examinou e deu o atestado definitivo de minha cura completa. Consegui até mesmo um emprego. Passei a viver meus dias com alegria, serenidade e uma profunda sensação de segurança. A felicidade de ter sido guiada a este caminho sagrado e as inúmeras graças e proteções que recebo superam minha capacidade de expressão; são uma gratidão que as palavras não podem traduzir.</p>
 <p>Meishu-Sama, muito obrigada por Vossa imensa proteção. Rogo que continue a me guiar e proteger.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の実体 『栄光』252号、昭和29(1954)年3月17日発行 私は常に医学が病気を作り、薬は毒物であるという事を唱えているが、これが真理であるのは、事実が遺憾なく示している。<br/><br/>左記の患者はそれをハッキリ現わしているから、ここに載せたのである。<br/><br/> 医学迷信より目覚め 肺結核をお救い頂く 長野県 開明中教会 加藤英子（21） 明主様一言御礼を述べさせて頂きます。<br/><br/>忘れもしません、昭和二十七年十二月十三日、胸が痛みますのでお医者へ診てもらいに行きました。<br/><br/>診察の結果肋膜と診断された時の私はすっかり悲観してしまいました。<br/><br/>医者は「今日から絶対に安静するように」と言われ注射を二本致しました。<br/><br/>帰路についた私は自然に流れ出る涙に茫然として通行の人の顔も見えず、ただ悲しい思いで家に帰りました。<br/><br/> その日の夜は一睡も眠れず、それからというものは毎日毎日寒い日もお医者に通い通しました。<br/><br/>医者ではいつも注射をうち薬をのみ、同じ療法をくりかえしました。<br/><br/>私は毎日地獄に住む思いで送りました。<br/><br/>いつしか寒い冬も過ぎ去り六月の季節になりましたが、もう半年も床で過ごしてしまい日が一日一日過ぎて行くだけだが、私の病気の状態は一向に快方に向わずかえって以前よりも悪くなって来るようで、神経が悪いように思わしめるのかと思いましたが、どう考えても逆に悪くなっているとしか考えられません。<br/><br/>毎日薬と注射をやらぬ日とてなく、一刻も早く床から離れて家の庭先でも良いから掃除位したいものと思うのですが、胸の病気はますます重くなる許り、だんだんやせて行く身体を見ては何時全快の日が来るのかしら、今の状態のようでは、いっそあの世へ消えた方がどんなにか幸福かと思い、何回決心したか知れません。<br/><br/> ある日、岡谷の太田さんがわざわざ私の家まで来て下さいました。<br/><br/>お話をお聞き致しましたところ、非常に有難い神様がありますから、神様の道に入りませんかと勧めて下さいました。<br/><br/>私は最初は意味が分りませんでした。<br/><br/>ただ手を上げて光が出るのかしら、又不思議で考えられませんでした。<br/><br/>私は一夜考えてみました。<br/><br/>薬をのんでも治らない、注射をしても良くならないことは余りにも自分の身体が実証しているので、自分でもよくわかりました。<br/><br/>たとえ薬で治ったとしても一時的で到底安心して働くことはできないことも考えられました。<br/><br/>私は早速翌日支部をお訪ねしてみようという決心がついて、翌日教会へ行ってみました。<br/><br/> 中島先生から、明主様の偉大なる御力の御話をお聞き致し、私は全身の生き返ったような気が致しました。<br/><br/>果して私のような無信心、無信仰者が神様から救って頂けるとは夢にも思いませんでした。<br/><br/>それがどうでしょうか、三回目の御浄霊を受けましたところ、御浄化が大変はげしくなって参りました。<br/><br/>痰が出る咳が出る、恐ろしい程はげしい御浄化でしたが一時的の苦しさは明らかでした。<br/><br/>一時苦しみましたが後はすっかり気持が良く息苦しかった胸が全く息苦しくありませんでした。<br/><br/>今考えてみれば薬は病気を作るもとである恐ろしい薬毒ではありませんか。<br/><br/>医者に通っているまでは道を歩くにも息苦しく、部屋を掃除することもできなかった私が、今はどうでしょう。<br/><br/>姪の赤ちゃんをお守し台所のお仕事もしもうすっかり健康になりました。<br/><br/>昭和二十八年八月十二日に私は入信の御許しを頂戴し有難い御守様を拝受させて頂きました。<br/><br/>長い間医学迷信に苦しんだ私の救われた嬉しさ、この喜び、感謝感激の念で一杯でした。<br/><br/> その後医者に診察してもらい確実に全治しているとの太鼓判をおされ就職も決定するという全く有難いおかげを頂き、一日の生活を明るく楽しい安心感を持って日々を送らせて頂いております。<br/><br/>この有難いお道に結ばれた私の幸福、身に余る御守護の数々は言葉で表現できない感謝でございます。<br/><br/> 明主様偉大なる御守護有難うございました。<br/><br/>今後共よろしく御願い申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

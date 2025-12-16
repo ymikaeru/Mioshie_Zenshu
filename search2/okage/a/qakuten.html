@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qakuten</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 悪天候に強い自然四年の稲 町の供米一手に引受く 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 青森県 十光中教会 椛沢熊吉（68） 昭和二十二年十二月六十二歳の老骨に有難いお守様をお授け頂き、明主様の御教えのまま自然農法で全耕地、即ち水田一町一反、畑二反五畝を自然農法にて四カ年実行させて頂き、ここに御報告申し上げます。<br><br>昨二十七年度は天候のお浄化きびしく、当下北方面は有肥田においては種子もとれないほどの大不作で、大畑区内は平均して平年作の半分位で反収六、七斗位でした。<br><br>ところが自然農法の私のところでは、一カ所の四反九畝は水不足のため、土は固く割れ、除草もろくにできない状態で、前年度よりは少しおちましたが、他の方の六反一畝は前年度以上で、平均反収二石強で立派な出来でございました。<br><br>そして大畑町の供米量の大半を私のところで受け持たして頂き、郡内で一番先に完遂さして頂きました。<br><br>そして町長より感謝状と記念品を供出者を代表して頂きました。<br><br>明主様、本当に有難うございました。<br><br>今年度は五年目でもあり、より以上一生懸命に御教えのままに実行さして頂き、一日も早く迷い苦しめる有肥農家に目覚めて頂くように頑張らして頂きます。<br><br>そして食糧不足を一日も早く解決さして頂き、肥毒の入らないおいしい食物を鱈腹人々に食って頂きたいと思っております。<br><br>自然農法を実行することによって農家は肥料代と手間代が省け、増収によって経済苦から解放され、その上子々孫々まで肥毒のない清浄な田畑を残さして頂けるのですから、この上ない仕合せと歓びであると信じております。<br><br>自然農法の有難さにただただ嬉し涙で一杯の私であります。<br><br>昨年の九月九日には先生方の御案内で、青森県上北郡、下北郡、大湊、三戸、田子、田名部、北海道余市方面、秋田県大館市方面から、本州最北端のここ大畑まで、自然農法四年目の水稲の成育状態を見学にお出で下さいまして、本当に有難く衷心より御礼申し上げます。<br><br>見学終ってから座談会に移りましたが、その時大畑町の有力者で、有肥栽培の篤農家吉田鉄之助さんがいわれるには 「今日、椛沢さんの自然農法の水稲を見さして貰って実に恐れ入りました。<br><br>今年のように天候が悪いのに、畔一本隔てた隣の有肥田の方は半作又は三分作であるのに、椛沢さんの自然農法は全然病気もなく平年作の倍以上であるのには全く驚きました。<br><br>実は農林省統計局の金崎技官がこちらにおられた時三カ年私に自然農法の話をすすめるのでしたが、私は 「無肥に有肥が負けてたまるものか」とつねに反撥し、いろいろと栽培方法を研究してやって来ましたが、今日ただ今、全然無肥に及ばぬことをこの眼で見せられ、心底から兜をぬいで降参します。<br><br>金崎様が今こちらにおられたならば酒を買ってお詫びするのですが、北海道に転任になられたのでいたし方ございませんが、早速手紙でお詫びいたし、私も来年（二十八年度）から自然農法に切り替えますから、皆さんもやって下さい」と、二度も三度も繰り返し繰り返し話されました。<br><br>吉田さんは未入信ですが、私もこの話を聞いていて目頭が熱くなりました。<br><br>明主様の御教えにございますように、世の中は善悪の戦いです。<br><br>そして双方とも勢いを増し、しのぎをけずっている有様です。<br><br>ところが明主様の御教えを実行さして頂くことによって、善が悪を救うことになるとはじめて覚らして頂きました。<br><br>明主様、本当にありがとうございました。<br><br>明主様の御教えはどこまでも自然でございますから、田も秋うちがよいとの御教えに従って二十六年度には一カ所（田地は四カ所にわかれております）を何とかして秋うちしてみたいと思い、十一月末藁を切って、人夫をたのみ秋うちをはじめました。<br><br>その日の夕方は雪が降って、一枚の田はうち残るかと思いましたが、人夫の人達が頑張って下さいましてやっと打ち終らして頂きました。<br><br>それからすぐ根雪となってしまいました。<br><br>その秋うちしたところが特別昨年度は成績がよかったのです。<br><br>昨年度は全反別を秋うちの心組みで、半分脱穀して藁を機械で切り、約半分の田地に入れて秋うちをやりました。<br><br>後少し雪が降りましたが、残りを脱殻している中に雪も解け、十一月二十五、六日頃よりお天気となり、この分では全反秋うちが出来ると思い、藁を切りながら人夫を雇い二十八、二十九、三十日と仕事して貰いました。<br><br>三十日の夜はまわりの山々には雪が降りましたが田園には雪がなく、十二月一日には 「人夫を二、三人増してやらないと、このお天気は待っていないかも知れないよ」と教えられて、人夫を増してやりました。<br><br>その日の夕方は非常に凍てつき、鍬に土が凍って固まり、仕事も出来ないほどでしたが、やっと夕方おそくまでに全反別を打ち起さして頂きました。<br><br>その翌日は一尺余りも雪が積り、とうとう根雪になってしまいました。<br><br>二カ年とも秋耕ちが天気に恵まれ、人夫の方々も驚いておられました。<br><br>明主様、こうして未入信の人夫の方々にもお力の偉大さを感じさせて頂きまして本当にありがとうございました。<br><br>数々の有難い御教えとお力の偉大さに、一人二人と周囲がお救い頂ける姿にただただ感泣するばかりでございます。<br><br>今後一段と罪をお許し頂き、地上天国建設の御神業に自然農法を通して御用させて頂けますように衷心よりお願い申し上げます。<br><br> （昭和二十八年一月十五日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O arroz da Agricultura Natural, em seu quarto ano, resiste às intempéries e supre toda a cota de arroz do município</h2>
 <p><strong>Revista Eikou, nº 198, 4 de março de 1953</strong>
@@ -106,5 +261,48 @@ Província de Aomori, Igreja Toko-Chuu, Kumakichi Kabasawa (68 anos)</p>
 <p>Nos dois anos, fomos abençoados com o tempo exato para concluir a aradura de outono, o que deixou os próprios trabalhadores maravilhados. Desta forma, Meishu-Sama, permitistes que até mesmo os trabalhadores não membros sentissem a grandiosidade de Vosso poder. Muito obrigado.</p>
 <p>Diante de tantos Ensinamentos sublimes e da magnitude de Vosso poder, meu coração transborda em lágrimas de gratidão ao testemunhar, uma a uma, as pessoas ao meu redor sendo salvas. Rogo do fundo de minha alma que meus pecados continuem a ser perdoados e que eu possa ser útil na Obra Divina de construção do Paraíso Terrestre, por meio da Agricultura Natural.</p>
 <p>(Submetido em 15 de janeiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 悪天候に強い自然四年の稲 町の供米一手に引受く 『栄光』198号、昭和28(1953)年3月4日 （革）自然農法解説に収録 青森県 十光中教会 椛沢熊吉（68） 昭和二十二年十二月六十二歳の老骨に有難いお守様をお授け頂き、明主様の御教えのまま自然農法で全耕地、即ち水田一町一反、畑二反五畝を自然農法にて四カ年実行させて頂き、ここに御報告申し上げます。<br/><br/>昨二十七年度は天候のお浄化きびしく、当下北方面は有肥田においては種子もとれないほどの大不作で、大畑区内は平均して平年作の半分位で反収六、七斗位でした。<br/><br/>ところが自然農法の私のところでは、一カ所の四反九畝は水不足のため、土は固く割れ、除草もろくにできない状態で、前年度よりは少しおちましたが、他の方の六反一畝は前年度以上で、平均反収二石強で立派な出来でございました。<br/><br/>そして大畑町の供米量の大半を私のところで受け持たして頂き、郡内で一番先に完遂さして頂きました。<br/><br/>そして町長より感謝状と記念品を供出者を代表して頂きました。<br/><br/>明主様、本当に有難うございました。<br/><br/>今年度は五年目でもあり、より以上一生懸命に御教えのままに実行さして頂き、一日も早く迷い苦しめる有肥農家に目覚めて頂くように頑張らして頂きます。<br/><br/>そして食糧不足を一日も早く解決さして頂き、肥毒の入らないおいしい食物を鱈腹人々に食って頂きたいと思っております。<br/><br/>自然農法を実行することによって農家は肥料代と手間代が省け、増収によって経済苦から解放され、その上子々孫々まで肥毒のない清浄な田畑を残さして頂けるのですから、この上ない仕合せと歓びであると信じております。<br/><br/>自然農法の有難さにただただ嬉し涙で一杯の私であります。<br/><br/>昨年の九月九日には先生方の御案内で、青森県上北郡、下北郡、大湊、三戸、田子、田名部、北海道余市方面、秋田県大館市方面から、本州最北端のここ大畑まで、自然農法四年目の水稲の成育状態を見学にお出で下さいまして、本当に有難く衷心より御礼申し上げます。<br/><br/>見学終ってから座談会に移りましたが、その時大畑町の有力者で、有肥栽培の篤農家吉田鉄之助さんがいわれるには 「今日、椛沢さんの自然農法の水稲を見さして貰って実に恐れ入りました。<br/><br/>今年のように天候が悪いのに、畔一本隔てた隣の有肥田の方は半作又は三分作であるのに、椛沢さんの自然農法は全然病気もなく平年作の倍以上であるのには全く驚きました。<br/><br/>実は農林省統計局の金崎技官がこちらにおられた時三カ年私に自然農法の話をすすめるのでしたが、私は 「無肥に有肥が負けてたまるものか」とつねに反撥し、いろいろと栽培方法を研究してやって来ましたが、今日ただ今、全然無肥に及ばぬことをこの眼で見せられ、心底から兜をぬいで降参します。<br/><br/>金崎様が今こちらにおられたならば酒を買ってお詫びするのですが、北海道に転任になられたのでいたし方ございませんが、早速手紙でお詫びいたし、私も来年（二十八年度）から自然農法に切り替えますから、皆さんもやって下さい」と、二度も三度も繰り返し繰り返し話されました。<br/><br/>吉田さんは未入信ですが、私もこの話を聞いていて目頭が熱くなりました。<br/><br/>明主様の御教えにございますように、世の中は善悪の戦いです。<br/><br/>そして双方とも勢いを増し、しのぎをけずっている有様です。<br/><br/>ところが明主様の御教えを実行さして頂くことによって、善が悪を救うことになるとはじめて覚らして頂きました。<br/><br/>明主様、本当にありがとうございました。<br/><br/>明主様の御教えはどこまでも自然でございますから、田も秋うちがよいとの御教えに従って二十六年度には一カ所（田地は四カ所にわかれております）を何とかして秋うちしてみたいと思い、十一月末藁を切って、人夫をたのみ秋うちをはじめました。<br/><br/>その日の夕方は雪が降って、一枚の田はうち残るかと思いましたが、人夫の人達が頑張って下さいましてやっと打ち終らして頂きました。<br/><br/>それからすぐ根雪となってしまいました。<br/><br/>その秋うちしたところが特別昨年度は成績がよかったのです。<br/><br/>昨年度は全反別を秋うちの心組みで、半分脱穀して藁を機械で切り、約半分の田地に入れて秋うちをやりました。<br/><br/>後少し雪が降りましたが、残りを脱殻している中に雪も解け、十一月二十五、六日頃よりお天気となり、この分では全反秋うちが出来ると思い、藁を切りながら人夫を雇い二十八、二十九、三十日と仕事して貰いました。<br/><br/>三十日の夜はまわりの山々には雪が降りましたが田園には雪がなく、十二月一日には 「人夫を二、三人増してやらないと、このお天気は待っていないかも知れないよ」と教えられて、人夫を増してやりました。<br/><br/>その日の夕方は非常に凍てつき、鍬に土が凍って固まり、仕事も出来ないほどでしたが、やっと夕方おそくまでに全反別を打ち起さして頂きました。<br/><br/>その翌日は一尺余りも雪が積り、とうとう根雪になってしまいました。<br/><br/>二カ年とも秋耕ちが天気に恵まれ、人夫の方々も驚いておられました。<br/><br/>明主様、こうして未入信の人夫の方々にもお力の偉大さを感じさせて頂きまして本当にありがとうございました。<br/><br/>数々の有難い御教えとお力の偉大さに、一人二人と周囲がお救い頂ける姿にただただ感泣するばかりでございます。<br/><br/>今後一段と罪をお許し頂き、地上天国建設の御神業に自然農法を通して御用させて頂けますように衷心よりお願い申し上げます。<br/><br/> （昭和二十八年一月十五日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

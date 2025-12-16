@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学の使命 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 人間が、科学の力に依って、機械の進歩は言わずもがな、有生物である植物の種子を改良したり、科学的肥料を与えて、増大又は増産させたり、花の色を思うまま、変化させたり果実を大きく生らせたりする事は、驚くべき進歩である。<br><br>又、動物や家畜を改良したり、鶏に卵を多く産ませたり、最近は、牛や馬の精虫を、飛行機で輸送して、受胎させるという、驚くべき報告さえあるのである。<br><br>その他、小禽（ことり）や金魚等までも、欲するままに改変出来る程に、進歩した事である。<br><br>それは人間を、形而上の存在とすれば、それらあらゆるものは形而下のものであるから、人間の意思のままに出来得るのは、当然な事である、森羅万象に対する自然法則は、そうなっているからである。<br><br> それであればこそ、人間が、人間を自由にする事は、出来得ないのである。<br><br>それは同じレベルの存在である人間同志だからであって、もし、人間を自由にするものがあるとすれば、それは人間ではない、人間以上のある物であって、超人間、又は、神と名付くべきものである。<br><br> この理によって、科学は人間が造ったのであるから、同じレベルの存在である人間を自由にする事は、法則が許さないのである。<br><br>随って、その科学から成立ったところの医学で、人間の病患を治癒し、健康を増進させようとしてもそれは、自然法則に反する訳である。<br><br> この事に現代人は、目覚めなければならない、今日の社会において、この自然法則に背反する事物も多くあるが、その中で、医学は、その最たるものである。<br><br>故に、人間の病患を治するその力こそは、人間以上のある者でなくてはならない事は、まことに自明な理である。<br><br>ちょうど、動物や植物を、自由にする力は、動植物自身には無い、それは、動植物以上の存在である、人間が有っているのみである。<br><br>又、言い換えれば、人間と同じレベルの科学で、人間を治そうとするのは、下剋上でもあり、共産主義的でもあろう事である。<br><br>共産主義を作った猶太（ユダヤ）人が、医学を作ったという事は、面白い事である。<br><br> 人間の病気を治すべきものは、人間以上のある存在であるとすれば、それは、神である。<br><br>故に科学は僭上（せんじょう）にも、その神のみが有（も）ち給う、治病権を犯しているのである。<br><br>それの現われとしての西洋医学は、人間をして、神に対する様に、拝跪（はいき）さしている。<br><br> 猶太人の生んだ共産主義は、絶対に神を否定している。<br><br>そうしておいて一方、科学を神の王座にまで登らせて、人間に拝跪させようとしている。<br><br>そればかりではない、科学は、その産物である医学を以て、ついに人間の生命をさえ、自由にしてしまった事で、世界中の大部分の人間は、この医学の掌中に、握られてしまったのである。<br><br>人間の生命は、元々創造神の御手のものであって、決して科学の手中に、あるべきものではない。<br><br>それが、今日はどうであろう、人間の生命の所有主である――神の手から、科学は、奪取してしまって、思うがままに自由にしている。<br><br>日本人の平均寿齢、四十余歳までに、短縮されてしまっていても、なお未だ眼覚めないばかりか、益々崇信している事である。<br><br> 矢張り、科学は科学としての、自（おのずか）らなる使命がある。<br><br>それは、人間より以下の存在への進歩発達、それが、真の使命である。<br><br>故に、私達の運動は、立入るべからざるところへ立入って、自然法則を破って、軌を脱している科学を、科学本来の使命へ戻してやる事である、つまり科学に奪取されている、人間の生命と霊魂を、再び、本来の所有主である神へ、返還さす事である。<br><br>それに依って始めて、人類の生命は延長し、病無き時代が来るのである。<br><br>その具体化としての事業が、本療病術であり、これが吾らの、天よりの使命である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Missão da Ciência</h2>
 <p>É inegável o espantoso progresso que o ser humano alcançou por meio do poder da ciência. Para além do avanço das máquinas, tornamo-nos capazes de aprimorar as sementes de seres vivos como as plantas, de aumentar sua produção e seu tamanho com fertilizantes científicos, de alterar a cor das flores conforme nosso desejo e de cultivar frutos maiores. Tal progresso é, de fato, notável. De igual modo, conseguimos aperfeiçoar animais e rebanhos, fazer com que galinhas produzam mais ovos e, recentemente, há relatos surpreendentes de que o sêmen de touros e cavalos é transportado por avião para fins de inseminação. Chegamos ao ponto de poder modificar até mesmo pequenas aves e peixes ornamentais segundo nossa vontade. Tudo isso é perfeitamente natural, pois, se considerarmos o ser humano uma existência de plano superior, todos esses seres e elementos pertencem a um plano inferior. As leis da natureza que regem o universo determinam que o superior possa dominar o inferior.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Qual é, contudo, a realidade atual? A ciência usurpou das mãos de Deus a vida humana e agora a manipula a seu bel-prazer. Mesmo diante da evidência de que a expectativa de vida do povo japonês foi reduzida para pouco mais de quarenta anos, as pessoas não apenas se recusam a despertar, como aprofundam ainda mais sua fé cega na medicina.</p>
 <p>Todavia, a ciência possui uma missão que lhe é intrínseca e legítima. Essa missão consiste em promover o progresso e o desenvolvimento de tudo o que existe em um plano inferior ao do ser humano. Portanto, o objetivo de nosso movimento é reconduzir a ciência – que invadiu um domínio que não lhe pertence e, ao violar a lei da natureza, descarrilou-se – de volta à sua missão original. Em outras palavras, nossa finalidade é restituir a vida e a alma humanas, hoje usurpadas pela ciência, ao seu legítimo proprietário: Deus.</p>
 <p>Somente assim a vida da humanidade poderá ser prolongada e uma era livre de doenças finalmente se manifestará. A concretização dessa grandiosa obra é a nossa arte de cura, e esta é a missão celestial que nos foi confiada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学の使命 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 人間が、科学の力に依って、機械の進歩は言わずもがな、有生物である植物の種子を改良したり、科学的肥料を与えて、増大又は増産させたり、花の色を思うまま、変化させたり果実を大きく生らせたりする事は、驚くべき進歩である。<br/><br/>又、動物や家畜を改良したり、鶏に卵を多く産ませたり、最近は、牛や馬の精虫を、飛行機で輸送して、受胎させるという、驚くべき報告さえあるのである。<br/><br/>その他、小禽（ことり）や金魚等までも、欲するままに改変出来る程に、進歩した事である。<br/><br/>それは人間を、形而上の存在とすれば、それらあらゆるものは形而下のものであるから、人間の意思のままに出来得るのは、当然な事である、森羅万象に対する自然法則は、そうなっているからである。<br/><br/> それであればこそ、人間が、人間を自由にする事は、出来得ないのである。<br/><br/>それは同じレベルの存在である人間同志だからであって、もし、人間を自由にするものがあるとすれば、それは人間ではない、人間以上のある物であって、超人間、又は、神と名付くべきものである。<br/><br/> この理によって、科学は人間が造ったのであるから、同じレベルの存在である人間を自由にする事は、法則が許さないのである。<br/><br/>随って、その科学から成立ったところの医学で、人間の病患を治癒し、健康を増進させようとしてもそれは、自然法則に反する訳である。<br/><br/> この事に現代人は、目覚めなければならない、今日の社会において、この自然法則に背反する事物も多くあるが、その中で、医学は、その最たるものである。<br/><br/>故に、人間の病患を治するその力こそは、人間以上のある者でなくてはならない事は、まことに自明な理である。<br/><br/>ちょうど、動物や植物を、自由にする力は、動植物自身には無い、それは、動植物以上の存在である、人間が有っているのみである。<br/><br/>又、言い換えれば、人間と同じレベルの科学で、人間を治そうとするのは、下剋上でもあり、共産主義的でもあろう事である。<br/><br/>共産主義を作った猶太（ユダヤ）人が、医学を作ったという事は、面白い事である。<br/><br/> 人間の病気を治すべきものは、人間以上のある存在であるとすれば、それは、神である。<br/><br/>故に科学は僭上（せんじょう）にも、その神のみが有（も）ち給う、治病権を犯しているのである。<br/><br/>それの現われとしての西洋医学は、人間をして、神に対する様に、拝跪（はいき）さしている。<br/><br/> 猶太人の生んだ共産主義は、絶対に神を否定している。<br/><br/>そうしておいて一方、科学を神の王座にまで登らせて、人間に拝跪させようとしている。<br/><br/>そればかりではない、科学は、その産物である医学を以て、ついに人間の生命をさえ、自由にしてしまった事で、世界中の大部分の人間は、この医学の掌中に、握られてしまったのである。<br/><br/>人間の生命は、元々創造神の御手のものであって、決して科学の手中に、あるべきものではない。<br/><br/>それが、今日はどうであろう、人間の生命の所有主である――神の手から、科学は、奪取してしまって、思うがままに自由にしている。<br/><br/>日本人の平均寿齢、四十余歳までに、短縮されてしまっていても、なお未だ眼覚めないばかりか、益々崇信している事である。<br/><br/> 矢張り、科学は科学としての、自（おのずか）らなる使命がある。<br/><br/>それは、人間より以下の存在への進歩発達、それが、真の使命である。<br/><br/>故に、私達の運動は、立入るべからざるところへ立入って、自然法則を破って、軌を脱している科学を、科学本来の使命へ戻してやる事である、つまり科学に奪取されている、人間の生命と霊魂を、再び、本来の所有主である神へ、返還さす事である。<br/><br/>それに依って始めて、人類の生命は延長し、病無き時代が来るのである。<br/><br/>その具体化としての事業が、本療病術であり、これが吾らの、天よりの使命である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

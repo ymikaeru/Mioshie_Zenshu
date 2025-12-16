@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai14</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（14） 樋口喜代子 『栄光』243号、昭和29(1954)年1月13日発行 明主様に御守護の御礼とその後の様子の御報告を申し上げさせて戴きます。<br><br>二十三日の御誕生祭にはハワイの信者のために特に勿体なき御詠を御下げ渡しいただきましたことを厚く御礼申し上げます。<br><br> 尊き御歌の数々にかくもハワイの救いに御心をおくだき遊ばされる大御心に胸迫る有難さを覚えます。<br><br>早速御礼申し上ぐべきところを今日まで延引いたしましたことを申訳なくここに深く御詫び申し上げます。<br><br> 御守護によりまして二十三日には記念すべき御誕生の祝典を滞りなく行わせていただきましたことを御礼申し上げます。<br><br>当日の模様を簡単に御報告申し上げますと、教会の改築が多少後れておりまして、当日は未完成の建物の中でそれでも関係者一同の熱意ある努力により、どうやら会場と階下のホールを使用するだけに間に合わすことができました。<br><br>ハワイは冬期は雨が多く、前日まで毎日のように降りましたため立木を掘り起したり、新しい道路の工事中のため土がぬかるみになり、自動車の駐車ができなくなり心配いたしておりましたが、当日は御守護により朝から珍しい晴天で、すっかり土も乾き万事好都合に運ばせていただきました。<br><br>二十三日はウィークデー（週間の間の日）で一般の人は殆んど仕事に出ておりますので、一人でも多く列席できるようにと祭典は夜にさせていただきました。<br><br>午後六時丁度あたりは夕闇にとざされ、教会から眼下に見下すホノルルの街が、白、赤、黄、緑、の灯に色どられる頃開式となり、参集者はオアフ島各地は勿論、遠くハワイ島、マウイ島、カワイ島からも初めてホノルルの本部へお参りに出る信者さんもあり、信者とその家族、又日頃浄霊を受けている人も併せて参集者は約千百名にのぼり、広いと思った会場を埋めつくして階段にまで溢れ、全く立錐の余地なき盛況で、御信者の一同も驚くばかりでございました。<br><br> こうして海外における初の意義深き御生誕の御祭は幕を開けられ、一同の唱和する天津祝詞、善言讃詞、御讃歌の言霊は光のつぶてとなってハワイ八島の霊界はもとより、アメリカ本土までも鳴り響けとばかり奏上させていただきました時は万感胸に迫るものがございました。<br><br>一年前のハワイを思い比べてお救いにあずかった人々の心は明主様の有難き御出現に感謝を新にし、地上天国建設の大聖業に参加を許された光栄に胸ふくらませて御言葉の如く御守護のもとに、ハワイに世界にさきがけて天国の雛型をつくらせていただきたいものと、改めてお誓いをさせていただいたのでございます。<br><br>式後階下の大ホールで感謝の奉納演芸会をさせて戴きました。<br><br>初めての素人演芸会であり、充分な準備の時もありませんでしたので誠にささやかなものながら、五月に催されたピクニックの時とは違い、少しずつ救世教の意味を分らせていただいただけに救世教色豊かに、明主様への感謝と天国建設の意味の盛られたものが多く、楽しい感謝の一夜を過ごさせていただきました。<br><br>この夜御本部からおともいたしました映画「天国の苑」「大建設」を映させていただき、御信者の皆様はフィルムを通して、初めて明主様の御姿を拝し、御声に接して深い感銘を受けて十時半に散会させていただきました。<br><br> この御祭を一つの節として、又々ハワイの霊界は一段と明るくなり、なお一層おかげも顕著にいただけますことと存じます。<br><br>色々と御守護をいただきましたことを改めて厚く御礼申し上げます。<br><br> 今日の日曜日（二十七日）に本年最後の日曜参拝をさせていただきました。<br><br>御浄霊は二十九日を最後として今年の活動を終らせていただきます。<br><br>教修会は総て来年に持越しにさせていただきます。<br><br> この一年を省みまして、海外における初めての布教という大任を帯びて布哇に参りましてから、ただ無我夢中で過ごしてしまった感じでございますが、及ばずながらどうやら大過なく御用の一端をさせていただけましたことは御守護の外はございません。<br><br>しかし至りませぬ数多くの点を想起いたししみじみと御詫びの心でおります。<br><br>残る二、三日の間に一年の整理をさせていただき、来年こそはもっとしっかり御用をさせていただきたいものと御念じいたしております。<br><br> 教会の工事は予定より少々後れ気味ではございますが、割合に順調に進んでおります。<br><br>経費の都合で総てを内輪にし差当り是非必要な点に重点をおいて工事を進めております。<br><br>新教会ヘの引移りは約一ヵ月先になる見込みでございます。<br><br>右明主様に御礼と御報告を申し上げていただきたく、御願い申し上げます。<br><br>又管長先生はじめ理事の諸先生にくれぐれもよろしく御礼申し上げて下さいませ。<br><br> では皆様御元気で、さようなら。<br><br> （十二月二十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Gratidão e Relatório de Atividades do Havaí</h2>
 <p>Permita-me, primeiramente, expressar minha mais profunda gratidão pela constante proteção de Meishu-Sama e relatar os acontecimentos subsequentes. Agradeço imensamente pelo poema de valor inestimável que Vossa Senhoria se dignou a conceder especialmente aos fiéis do Havaí, por ocasião do Vosso Natalício, no dia 23. Sinto meu coração transbordar de emoção diante de Vossa magnânima benevolência, que dedica tamanha atenção à salvação do Havaí por meio de tão nobres versos. Apresento, aqui, minhas sinceras desculpas pela demora em manifestar este agradecimento, que deveria ter sido enviado prontamente.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Rogo que este relatório e meus agradecimentos sejam transmitidos a Meishu-Sama. Peço, igualmente, que estenda meus cumprimentos e gratidão ao reverendíssimo presidente e aos demais senhores diretores.</p>
 <p>Despeço-me, desejando a todos muita saúde.</p>
 <p>(27 de dezembro)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（14） 樋口喜代子 『栄光』243号、昭和29(1954)年1月13日発行 明主様に御守護の御礼とその後の様子の御報告を申し上げさせて戴きます。<br/><br/>二十三日の御誕生祭にはハワイの信者のために特に勿体なき御詠を御下げ渡しいただきましたことを厚く御礼申し上げます。<br/><br/> 尊き御歌の数々にかくもハワイの救いに御心をおくだき遊ばされる大御心に胸迫る有難さを覚えます。<br/><br/>早速御礼申し上ぐべきところを今日まで延引いたしましたことを申訳なくここに深く御詫び申し上げます。<br/><br/> 御守護によりまして二十三日には記念すべき御誕生の祝典を滞りなく行わせていただきましたことを御礼申し上げます。<br/><br/>当日の模様を簡単に御報告申し上げますと、教会の改築が多少後れておりまして、当日は未完成の建物の中でそれでも関係者一同の熱意ある努力により、どうやら会場と階下のホールを使用するだけに間に合わすことができました。<br/><br/>ハワイは冬期は雨が多く、前日まで毎日のように降りましたため立木を掘り起したり、新しい道路の工事中のため土がぬかるみになり、自動車の駐車ができなくなり心配いたしておりましたが、当日は御守護により朝から珍しい晴天で、すっかり土も乾き万事好都合に運ばせていただきました。<br/><br/>二十三日はウィークデー（週間の間の日）で一般の人は殆んど仕事に出ておりますので、一人でも多く列席できるようにと祭典は夜にさせていただきました。<br/><br/>午後六時丁度あたりは夕闇にとざされ、教会から眼下に見下すホノルルの街が、白、赤、黄、緑、の灯に色どられる頃開式となり、参集者はオアフ島各地は勿論、遠くハワイ島、マウイ島、カワイ島からも初めてホノルルの本部へお参りに出る信者さんもあり、信者とその家族、又日頃浄霊を受けている人も併せて参集者は約千百名にのぼり、広いと思った会場を埋めつくして階段にまで溢れ、全く立錐の余地なき盛況で、御信者の一同も驚くばかりでございました。<br/><br/> こうして海外における初の意義深き御生誕の御祭は幕を開けられ、一同の唱和する天津祝詞、善言讃詞、御讃歌の言霊は光のつぶてとなってハワイ八島の霊界はもとより、アメリカ本土までも鳴り響けとばかり奏上させていただきました時は万感胸に迫るものがございました。<br/><br/>一年前のハワイを思い比べてお救いにあずかった人々の心は明主様の有難き御出現に感謝を新にし、地上天国建設の大聖業に参加を許された光栄に胸ふくらませて御言葉の如く御守護のもとに、ハワイに世界にさきがけて天国の雛型をつくらせていただきたいものと、改めてお誓いをさせていただいたのでございます。<br/><br/>式後階下の大ホールで感謝の奉納演芸会をさせて戴きました。<br/><br/>初めての素人演芸会であり、充分な準備の時もありませんでしたので誠にささやかなものながら、五月に催されたピクニックの時とは違い、少しずつ救世教の意味を分らせていただいただけに救世教色豊かに、明主様への感謝と天国建設の意味の盛られたものが多く、楽しい感謝の一夜を過ごさせていただきました。<br/><br/>この夜御本部からおともいたしました映画「天国の苑」「大建設」を映させていただき、御信者の皆様はフィルムを通して、初めて明主様の御姿を拝し、御声に接して深い感銘を受けて十時半に散会させていただきました。<br/><br/> この御祭を一つの節として、又々ハワイの霊界は一段と明るくなり、なお一層おかげも顕著にいただけますことと存じます。<br/><br/>色々と御守護をいただきましたことを改めて厚く御礼申し上げます。<br/><br/> 今日の日曜日（二十七日）に本年最後の日曜参拝をさせていただきました。<br/><br/>御浄霊は二十九日を最後として今年の活動を終らせていただきます。<br/><br/>教修会は総て来年に持越しにさせていただきます。<br/><br/> この一年を省みまして、海外における初めての布教という大任を帯びて布哇に参りましてから、ただ無我夢中で過ごしてしまった感じでございますが、及ばずながらどうやら大過なく御用の一端をさせていただけましたことは御守護の外はございません。<br/><br/>しかし至りませぬ数多くの点を想起いたししみじみと御詫びの心でおります。<br/><br/>残る二、三日の間に一年の整理をさせていただき、来年こそはもっとしっかり御用をさせていただきたいものと御念じいたしております。<br/><br/> 教会の工事は予定より少々後れ気味ではございますが、割合に順調に進んでおります。<br/><br/>経費の都合で総てを内輪にし差当り是非必要な点に重点をおいて工事を進めております。<br/><br/>新教会ヘの引移りは約一ヵ月先になる見込みでございます。<br/><br/>右明主様に御礼と御報告を申し上げていただきたく、御願い申し上げます。<br/><br/>又管長先生はじめ理事の諸先生にくれぐれもよろしく御礼申し上げて下さいませ。<br/><br/> では皆様御元気で、さようなら。<br/><br/> （十二月二十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

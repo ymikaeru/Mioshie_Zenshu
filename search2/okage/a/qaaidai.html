@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qaaidai</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 嗚呼偉大なる哉神様の御力！！ 『栄光』175号、昭和27(1952)年9月24日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 山口県 明輪中教会 井上ミチ子（39） 謹んで次男紀行の御守護の御報告をさせて戴きますと共に心から御礼申し上げます。<br><br> 本年の一月二十五日八歳になる紀行が目を赤く腫らしているのを見て、悪化しては大変とすぐ近くの眼科医院に連れて行きました。<br><br>結膜炎との事で眼を洗い薬をさされ「暫く通って来る様に」との事に毎日通院しておりましたが、はかばかしくございませんでしたので医者を替えましたところ、「これは高貴薬だがお宅のお子さんだけには特別にしてあげましょう」と言われて劇薬をさされました。<br><br>その翌日からというものは今まではただ赤いだけでございましたのに急に目星が両眼共に六、七個も出来、眼球一面には白い膜が破り、視力は減退しだんだん悪化して参りました。<br><br>一カ月余り通院した頃にはまさに失明一歩手前の様な状態でございましたが、たまたまその頃私方に参りました兄（兄は当時既に入信致しておりました）から「こんな事をしておっては大変だ、早く教会へ連れて行き御浄霊を戴く様に」と奨められましたが、心が決まらぬままにその日も病院へ参りましたところ「経過が悪いから今日はペニシリンをうちましょう」との事にかつて後頭部に腫物の出来ました折、やはりペニシリンをうった時の子供の苦しみを思い出し「どうぞそれだけは」とお断りし、帰り道早速文ヶ丘支部へ御参りさせて戴きました。<br><br>御浄霊を戴き御話を伺う内に最初左程悪くもなかったのに病院へ行き出してから段々悪くなった事等思い合わせて、明主様にお縋りさせて戴こうと決心し早速入信させて戴きました。<br><br>教会へ通って御浄霊を戴いている内に御浄化を戴き、両眼球とも一面に青い膜が張り全然眼を開く事が出来なくなり、歩く事すら出来なくなりましたので背負って毎日お参りさせて戴いておりました。<br><br>その姿を見て親類の者や近所の人達は「そんな事をしておって治るものか、お可哀相に悪くなったらどうする……」と医者へ行く様に奨められましたが、きっぱりと断ってただひたすら大光明如来様へ一切をお任せし、お縋り致しておりました。<br><br>毎月の例祭には中教会にも御参詣させて戴き、中教会長先生の懇ろな御浄霊を頂く様になりましてからは少しずつよくさせて戴いておりましたが、子供が目が眩しい眩しいと言い、暗い隅に顔を覆って終日じっとしております。<br><br>時々手探りで歩いても物につまずくのを、心ない周囲の人達に笑われ、その哀れな姿を見るにつけても、人の子の親として身を切られる思いでございました。<br><br>殊に学期が始っても行く事が出来ず、本当に代ってやれるものなら代ってやりたいと何度思ったかも分りません。<br><br>周囲の人は益々嘲笑し気違いとののしられ「子を盲にする」とまで言われました。<br><br>その四面楚歌の中で、ともすれば崩れそうになる弱い心を鞭打ち、「今にきっと良くして戴けるから……必ず御守護を戴けるから……」との先生方の御励ましの言葉を力にひたすら明主様にお念じし続けたものでございました。<br><br>そして遂に奇蹟の御守護を戴きました。<br><br>会長先生の御親切な御配慮に依り明主様へ御守護の御願い致しましたところ、その日四月二十五日にどうしても開かなかった眼が開いたのでございます。<br><br>嗚呼御守護が戴けたのだと思うと心から嬉しさが胸に込み上げ、熱いものが二滴三滴と頻を伝わるのをどうする事も出来ませんでした。<br><br>早速教会へお参りさせて戴き、御神前にて遥か熱海におられます明主様へ心から御礼申し上げました。<br><br> それから今日まで四十幾日再び閉じる事もなく、それどころか一日一日と日に増して良くして戴き、膜も少し宛消えて行き、黒瞳が現われて参りました。<br><br>今頃ではつまずく事もなく一日中戸外で遊び戯れております。<br><br>その明るい笑顔を見るにつけてもあの浄化中の苦しかった事がまるで夢の様に思われます。<br><br>もしあのまま医療を続けていたら今頃は幼き失明者として、生まれもつかぬ片端の身にさせられてどんなにか親も子も悲しみ欺いた事でございましょう。<br><br> 明主様有難うございます。<br><br> （昭和二七年七月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Ah, quão grandioso é o Poder de Deus!!</h2>
 <p><em>Publicado na revista Eikou, n.º 175, em 24 de setembro de 1952</em>
@@ -103,5 +258,48 @@ function toggleLang(lang) {
 <p>Desde então, por mais de quarenta dias, seus olhos não voltaram a se fechar. Ao contrário, a melhora tem sido diária e constante: a membrana vem desaparecendo pouco a pouco, e suas pupilas voltaram a ser visíveis. Hoje, ele brinca o dia inteiro fora de casa, sem mais tropeçar. Ao ver seu sorriso radiante, todo o sofrimento daquela purificação parece um pesadelo distante. Reflito sobre o que teria acontecido se houvéssemos prosseguido com o tratamento médico. A esta altura, meu filho seria uma criança cega, condenado a uma deficiência que não lhe era de nascença, e quanta dor e desilusão teríamos sofrido, pais e filho, vítimas de um verdadeiro estelionato.</p>
 <p>Meishu-Sama, muito obrigada.</p>
 <p>(1 de julho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help ―― お か げ 話 ―― 資料検索 ： 嗚呼偉大なる哉神様の御力！！ 『栄光』175号、昭和27(1952)年9月24日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 山口県 明輪中教会 井上ミチ子（39） 謹んで次男紀行の御守護の御報告をさせて戴きますと共に心から御礼申し上げます。<br/><br/> 本年の一月二十五日八歳になる紀行が目を赤く腫らしているのを見て、悪化しては大変とすぐ近くの眼科医院に連れて行きました。<br/><br/>結膜炎との事で眼を洗い薬をさされ「暫く通って来る様に」との事に毎日通院しておりましたが、はかばかしくございませんでしたので医者を替えましたところ、「これは高貴薬だがお宅のお子さんだけには特別にしてあげましょう」と言われて劇薬をさされました。<br/><br/>その翌日からというものは今まではただ赤いだけでございましたのに急に目星が両眼共に六、七個も出来、眼球一面には白い膜が破り、視力は減退しだんだん悪化して参りました。<br/><br/>一カ月余り通院した頃にはまさに失明一歩手前の様な状態でございましたが、たまたまその頃私方に参りました兄（兄は当時既に入信致しておりました）から「こんな事をしておっては大変だ、早く教会へ連れて行き御浄霊を戴く様に」と奨められましたが、心が決まらぬままにその日も病院へ参りましたところ「経過が悪いから今日はペニシリンをうちましょう」との事にかつて後頭部に腫物の出来ました折、やはりペニシリンをうった時の子供の苦しみを思い出し「どうぞそれだけは」とお断りし、帰り道早速文ヶ丘支部へ御参りさせて戴きました。<br/><br/>御浄霊を戴き御話を伺う内に最初左程悪くもなかったのに病院へ行き出してから段々悪くなった事等思い合わせて、明主様にお縋りさせて戴こうと決心し早速入信させて戴きました。<br/><br/>教会へ通って御浄霊を戴いている内に御浄化を戴き、両眼球とも一面に青い膜が張り全然眼を開く事が出来なくなり、歩く事すら出来なくなりましたので背負って毎日お参りさせて戴いておりました。<br/><br/>その姿を見て親類の者や近所の人達は「そんな事をしておって治るものか、お可哀相に悪くなったらどうする……」と医者へ行く様に奨められましたが、きっぱりと断ってただひたすら大光明如来様へ一切をお任せし、お縋り致しておりました。<br/><br/>毎月の例祭には中教会にも御参詣させて戴き、中教会長先生の懇ろな御浄霊を頂く様になりましてからは少しずつよくさせて戴いておりましたが、子供が目が眩しい眩しいと言い、暗い隅に顔を覆って終日じっとしております。<br/><br/>時々手探りで歩いても物につまずくのを、心ない周囲の人達に笑われ、その哀れな姿を見るにつけても、人の子の親として身を切られる思いでございました。<br/><br/>殊に学期が始っても行く事が出来ず、本当に代ってやれるものなら代ってやりたいと何度思ったかも分りません。<br/><br/>周囲の人は益々嘲笑し気違いとののしられ「子を盲にする」とまで言われました。<br/><br/>その四面楚歌の中で、ともすれば崩れそうになる弱い心を鞭打ち、「今にきっと良くして戴けるから……必ず御守護を戴けるから……」との先生方の御励ましの言葉を力にひたすら明主様にお念じし続けたものでございました。<br/><br/>そして遂に奇蹟の御守護を戴きました。<br/><br/>会長先生の御親切な御配慮に依り明主様へ御守護の御願い致しましたところ、その日四月二十五日にどうしても開かなかった眼が開いたのでございます。<br/><br/>嗚呼御守護が戴けたのだと思うと心から嬉しさが胸に込み上げ、熱いものが二滴三滴と頻を伝わるのをどうする事も出来ませんでした。<br/><br/>早速教会へお参りさせて戴き、御神前にて遥か熱海におられます明主様へ心から御礼申し上げました。<br/><br/> それから今日まで四十幾日再び閉じる事もなく、それどころか一日一日と日に増して良くして戴き、膜も少し宛消えて行き、黒瞳が現われて参りました。<br/><br/>今頃ではつまずく事もなく一日中戸外で遊び戯れております。<br/><br/>その明るい笑顔を見るにつけてもあの浄化中の苦しかった事がまるで夢の様に思われます。<br/><br/>もしあのまま医療を続けていたら今頃は幼き失明者として、生まれもつかぬ片端の身にさせられてどんなにか親も子も悲しみ欺いた事でございましょう。<br/><br/> 明主様有難うございます。<br/><br/> （昭和二七年七月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

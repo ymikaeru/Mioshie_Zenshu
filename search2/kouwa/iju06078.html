@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju06078</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （六） 病気諸症状 ５ 060-086 近代病、新病種 078 精神分裂症の原因 精神分裂症の御浄霊はどこでしょうか。<br><br> 分裂症は前頭部に霊が憑る。<br><br>頸部に塊がある。<br><br>それを溶解すれば治る。<br><br>（S24. 4.13） 079 精神分裂症 私の家族は主人の母と今春高等学校を卒えた二十四歳の伜の三人暮しで御座います。<br><br>伜は生来憂鬱な性分で、大学病院で診察の結果は軽度の精神分裂症と申され、心を痛めております。<br><br>去る六月五日芦屋の岡田先生の御導きにて三名共入信させて戴き、光明如来様も御祭りさせて戴きましたが、伜は未だ御教への理解薄く、私共の誠が足りぬためか、未だよき御報告も出来ず、誠に申し訳なき次第で御座います。<br><br>伜は先生の御浄霊を受ける時は落着いて終り迄受けますが、私や母の場合は途中で嫌になってしまう場合が多く、困っております。<br><br>この状態は祖霊の関係で御座いましょうか。<br><br>また、今後いかにしたらよろしいのでしょうか。<br><br>御教示御願い申し上げます。<br><br> 精神分裂症というのはフロイトの精神分析学から来ているが精神が分裂するとすれば、あらゆる人間は皆あっちの事こっちの事を考えるから分裂する訳である。<br><br> 唯物的学問を唯心的にするにはなかなか骨である。<br><br>（S24. 7.18） 080 二重人格 二重人格と云うのは憑霊現象でしょうか。<br><br> 医学では精神分裂症という。<br><br>ジキルとハイド――。<br><br>（S24. 7.23） 081 自己意識失う ある大学生、頭がすぐれてよく、運動も出来、健康体でありますが、時々人の物と自分の物との判別がつかず、下宿先で悪意なくして無意識に人の物を取って来る性癖があります。<br><br>人に騒がれて初めて気がつき、自分でもどうした事かわからず、遂に病院で診断を受けましたところ、頭の中に腫物が出来ておりますとの事、レントゲン写真の結果では次第に大きくなって行きますそうで、三年の命と宣告をうけました。<br><br>このお道でお救い頂けませんで御座いましょうか。<br><br> 医者は脳切開するが、成績はないようである。<br><br>浄霊法によりよく治る。<br><br>目脂や鼻汁などになって出る。<br><br>（S23.12. 8） 082 マラリヤ マラリヤ病は風土病と申されますが、時間的に発熱する等はいかなる訳でしょうか。<br><br> 本当のマラリヤは南洋で、蚊の媒介によって発生する。<br><br>出征軍人などが日本へ帰って罹るのは、あれはマラリヤではない。<br><br>日本にはマラリヤはない。<br><br>軍が出征前注射する、その浄化作用で、身体の局部々々に薬毒が固まったもので、多く（鉄砲操作のため）腰に固まっている。<br><br>大抵頸、脇の下等にある。<br><br>神経の集注する所で固まる。<br><br>軍人は健康で体力旺盛であるから浄化が強い。<br><br>そのために熱が出る。<br><br>肺病は夕方熱が出るようなもので、一つの循環（生理）作用である。<br><br>チフスなどは午後四時にきっと高熱が出る。<br><br>季節により差異あり、病気によっては約束みたいにある。<br><br>日本でいうマラリヤはマラリヤでない。<br><br>すぐ治る。<br><br>一週間で治る。<br><br>人間の病気は一日おきに良くなったり悪くなったりする。<br><br>四十八時間が節になっている。<br><br> マラリヤは――実は本当のマラリヤは治りすぎて困るものである。<br><br>先に精神病者で、仙台の脳病院でマラリヤ療法を受けた。<br><br>黴毒の黴菌は四十度以上の熱で死ぬという。<br><br>遺伝黴毒と称し、注射受けた。<br><br>熱を出す。<br><br>マラリヤ療法は菌を注射する。<br><br>熱が段々出なくなる。<br><br>マラリヤ療法は治りすぎて困るといった。<br><br>これを見ても治り易い事が判る。<br><br>（S23） 083 マラリヤと頭重・狭胸感 私が浄霊している四十歳の男、戦地にてマラリヤを病み、四ケ年前帰宅して間もなく再発しましたが、半年程で治りました。<br><br>家の者は三人も御光を戴き、本人も留守中御光を戴いております。<br><br>その後普通に働けるようになりましたが、また浄化しましたので今度は御浄霊を続けておりますが、近頃は漁業中昼頃より急に頭が重くなり、背筋が寒く、胸が締めつけられるように苦しくなりますので、遂に帰宅します。<br><br>一時は意識もなくなりますが一時間位浄霊しますと楽になります。<br><br>右はいかなる理由でしょうか。<br><br>余り浄化が長引きますので心配でありますが、いかにしたら御救い戴けましょうか。<br><br>因みにこの人の先妻はある事情で女の子を残して離別され、その後精神病になり、十年位前に死亡致しております。<br><br>右、霊的関係でしょうか。<br><br>御伺い致します。<br><br> マラリヤは南洋にいる間だけのもので、非常に治りいい。<br><br>日本へ来て起るのは、出発前の注射の浄化である。<br><br> 頭重は注射の薬毒の浄化で、発熱する。<br><br>強いので意識がなくなる。<br><br> 先妻の精神病とは関係はない。<br><br>単なる注射薬の浄化である。<br><br>その都度浄霊しているうちよくなる。<br><br>安心して根気よくやる。<br><br>（S24.11.26） 084 ワイル氏病 ワイル氏病は風土病で御座いましょうか。<br><br>特に漁業地に多く発生するように伺っております。<br><br>霊的に関係が御座いましょうか。<br><br> 霊的関係はない。<br><br>ワイル氏が発見した。<br><br>バセドー氏病というようなもの。<br><br> 風土病というのは誤魔化しで、風土病とはその土地に身体が適合すべき作用で、適合しない毒の浄化作用である。<br><br>地方によって起る。<br><br>（S24. 8. 1） 085 リチャード氏病と手淫 医学的に云うリチャード氏病とはいかなる浄化作用でございましょうか。<br><br>御伺い申し上げます。<br><br> 新しい病気である。<br><br>近来、発見者の名のついた病気が多い。<br><br>毒が固まり、筋を引張るのである。<br><br>骨の場合ある。<br><br> 手淫は頭を悪くする。<br><br>（S24.11.28） 086 ネフローゼ 二十四歳の青年、三ケ月前より具合悪く、医療を受けしところ、ネフローゼとて百人に一人の割の珍しい病気とかで、注射、服薬を四日置きに致し、また牛乳療法、塩断ち、絶対安静を言い渡されました。<br><br>四月中旬より御浄霊を始めました。<br><br>その時の状態は脳天から小脳一帯尿毒でぶよぶよ致しており、また下半身は腹部膨脹、両足浮腫、特に陰茎腫脹しておりました。<br><br>御浄霊を致しましてからは頭部のぶよぶよは殆ど取れました。<br><br>外は大した変化もありません。<br><br>現在の症状は大小便とも一日二、三回、別に苦痛はなく、食欲もあります。<br><br>どこを主に御浄霊致したら宜しいでしょうか。<br><br> 腎臓が元である。<br><br>（S24. 5.13）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Mestre Okada Jikan</h2>
 <h3>A Arte da Cura (Parte 6) - Sintomas de Diversas Doenças</h3>
@@ -127,5 +279,48 @@ function toggleLang(lang) {
 <h2>Nefrose</h2>
 <p><strong>Pergunta:</strong> Um jovem de vinte e quatro anos começou a se sentir mal há três meses. Após buscar tratamento médico, foi diagnosticado com nefrite, uma doença rara que acomete uma em cada cem pessoas. Ele recebeu injeções e medicação a cada quatro dias, e foi-lhe prescrita uma terapia à base de leite, corte total de sal e repouso absoluto. Começamos a ministrar-lhe Johrei em meados de abril. Na ocasião, toda a região de seu cérebro, do topo à nuca, estava edemaciada devido à uremia. A parte inferior de seu corpo apresentava distensão abdominal, edema em ambas as pernas e, notadamente, um inchaço no pênis. Com o Johrei, o edema da cabeça praticamente desapareceu, mas não houve grandes alterações no resto do corpo. Seus sintomas atuais são: urina e fezes de duas a três vezes por dia, sem dor, e bom apetite. Onde devo concentrar o Johrei?</p>
 <p><strong>Meishu-Sama:</strong> A origem está nos rins. (13 de maio de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （六） 病気諸症状 ５ 060-086 近代病、新病種 078 精神分裂症の原因 精神分裂症の御浄霊はどこでしょうか。<br/><br/> 分裂症は前頭部に霊が憑る。<br/><br/>頸部に塊がある。<br/><br/>それを溶解すれば治る。<br/><br/>（S24. 4.13） 079 精神分裂症 私の家族は主人の母と今春高等学校を卒えた二十四歳の伜の三人暮しで御座います。<br/><br/>伜は生来憂鬱な性分で、大学病院で診察の結果は軽度の精神分裂症と申され、心を痛めております。<br/><br/>去る六月五日芦屋の岡田先生の御導きにて三名共入信させて戴き、光明如来様も御祭りさせて戴きましたが、伜は未だ御教への理解薄く、私共の誠が足りぬためか、未だよき御報告も出来ず、誠に申し訳なき次第で御座います。<br/><br/>伜は先生の御浄霊を受ける時は落着いて終り迄受けますが、私や母の場合は途中で嫌になってしまう場合が多く、困っております。<br/><br/>この状態は祖霊の関係で御座いましょうか。<br/><br/>また、今後いかにしたらよろしいのでしょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 精神分裂症というのはフロイトの精神分析学から来ているが精神が分裂するとすれば、あらゆる人間は皆あっちの事こっちの事を考えるから分裂する訳である。<br/><br/> 唯物的学問を唯心的にするにはなかなか骨である。<br/><br/>（S24. 7.18） 080 二重人格 二重人格と云うのは憑霊現象でしょうか。<br/><br/> 医学では精神分裂症という。<br/><br/>ジキルとハイド――。<br/><br/>（S24. 7.23） 081 自己意識失う ある大学生、頭がすぐれてよく、運動も出来、健康体でありますが、時々人の物と自分の物との判別がつかず、下宿先で悪意なくして無意識に人の物を取って来る性癖があります。<br/><br/>人に騒がれて初めて気がつき、自分でもどうした事かわからず、遂に病院で診断を受けましたところ、頭の中に腫物が出来ておりますとの事、レントゲン写真の結果では次第に大きくなって行きますそうで、三年の命と宣告をうけました。<br/><br/>このお道でお救い頂けませんで御座いましょうか。<br/><br/> 医者は脳切開するが、成績はないようである。<br/><br/>浄霊法によりよく治る。<br/><br/>目脂や鼻汁などになって出る。<br/><br/>（S23.12. 8） 082 マラリヤ マラリヤ病は風土病と申されますが、時間的に発熱する等はいかなる訳でしょうか。<br/><br/> 本当のマラリヤは南洋で、蚊の媒介によって発生する。<br/><br/>出征軍人などが日本へ帰って罹るのは、あれはマラリヤではない。<br/><br/>日本にはマラリヤはない。<br/><br/>軍が出征前注射する、その浄化作用で、身体の局部々々に薬毒が固まったもので、多く（鉄砲操作のため）腰に固まっている。<br/><br/>大抵頸、脇の下等にある。<br/><br/>神経の集注する所で固まる。<br/><br/>軍人は健康で体力旺盛であるから浄化が強い。<br/><br/>そのために熱が出る。<br/><br/>肺病は夕方熱が出るようなもので、一つの循環（生理）作用である。<br/><br/>チフスなどは午後四時にきっと高熱が出る。<br/><br/>季節により差異あり、病気によっては約束みたいにある。<br/><br/>日本でいうマラリヤはマラリヤでない。<br/><br/>すぐ治る。<br/><br/>一週間で治る。<br/><br/>人間の病気は一日おきに良くなったり悪くなったりする。<br/><br/>四十八時間が節になっている。<br/><br/> マラリヤは――実は本当のマラリヤは治りすぎて困るものである。<br/><br/>先に精神病者で、仙台の脳病院でマラリヤ療法を受けた。<br/><br/>黴毒の黴菌は四十度以上の熱で死ぬという。<br/><br/>遺伝黴毒と称し、注射受けた。<br/><br/>熱を出す。<br/><br/>マラリヤ療法は菌を注射する。<br/><br/>熱が段々出なくなる。<br/><br/>マラリヤ療法は治りすぎて困るといった。<br/><br/>これを見ても治り易い事が判る。<br/><br/>（S23） 083 マラリヤと頭重・狭胸感 私が浄霊している四十歳の男、戦地にてマラリヤを病み、四ケ年前帰宅して間もなく再発しましたが、半年程で治りました。<br/><br/>家の者は三人も御光を戴き、本人も留守中御光を戴いております。<br/><br/>その後普通に働けるようになりましたが、また浄化しましたので今度は御浄霊を続けておりますが、近頃は漁業中昼頃より急に頭が重くなり、背筋が寒く、胸が締めつけられるように苦しくなりますので、遂に帰宅します。<br/><br/>一時は意識もなくなりますが一時間位浄霊しますと楽になります。<br/><br/>右はいかなる理由でしょうか。<br/><br/>余り浄化が長引きますので心配でありますが、いかにしたら御救い戴けましょうか。<br/><br/>因みにこの人の先妻はある事情で女の子を残して離別され、その後精神病になり、十年位前に死亡致しております。<br/><br/>右、霊的関係でしょうか。<br/><br/>御伺い致します。<br/><br/> マラリヤは南洋にいる間だけのもので、非常に治りいい。<br/><br/>日本へ来て起るのは、出発前の注射の浄化である。<br/><br/> 頭重は注射の薬毒の浄化で、発熱する。<br/><br/>強いので意識がなくなる。<br/><br/> 先妻の精神病とは関係はない。<br/><br/>単なる注射薬の浄化である。<br/><br/>その都度浄霊しているうちよくなる。<br/><br/>安心して根気よくやる。<br/><br/>（S24.11.26） 084 ワイル氏病 ワイル氏病は風土病で御座いましょうか。<br/><br/>特に漁業地に多く発生するように伺っております。<br/><br/>霊的に関係が御座いましょうか。<br/><br/> 霊的関係はない。<br/><br/>ワイル氏が発見した。<br/><br/>バセドー氏病というようなもの。<br/><br/> 風土病というのは誤魔化しで、風土病とはその土地に身体が適合すべき作用で、適合しない毒の浄化作用である。<br/><br/>地方によって起る。<br/><br/>（S24. 8. 1） 085 リチャード氏病と手淫 医学的に云うリチャード氏病とはいかなる浄化作用でございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 新しい病気である。<br/><br/>近来、発見者の名のついた病気が多い。<br/><br/>毒が固まり、筋を引張るのである。<br/><br/>骨の場合ある。<br/><br/> 手淫は頭を悪くする。<br/><br/>（S24.11.28） 086 ネフローゼ 二十四歳の青年、三ケ月前より具合悪く、医療を受けしところ、ネフローゼとて百人に一人の割の珍しい病気とかで、注射、服薬を四日置きに致し、また牛乳療法、塩断ち、絶対安静を言い渡されました。<br/><br/>四月中旬より御浄霊を始めました。<br/><br/>その時の状態は脳天から小脳一帯尿毒でぶよぶよ致しており、また下半身は腹部膨脹、両足浮腫、特に陰茎腫脹しておりました。<br/><br/>御浄霊を致しましてからは頭部のぶよぶよは殆ど取れました。<br/><br/>外は大した変化もありません。<br/><br/>現在の症状は大小便とも一日二、三回、別に苦痛はなく、食欲もあります。<br/><br/>どこを主に御浄霊致したら宜しいでしょうか。<br/><br/> 腎臓が元である。<br/><br/>（S24. 5.13）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>iju06026</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （六） 病気諸症状 ２ 026-043 咳、息切れ 026 霊的の排痰ありや カリエスのごとく霊的原因で痰が出ると言う場合がございましょうか。<br><br> ある。<br><br>カリエスや肺結核など、長く病気しているのは、霊の物質化したものが痰になる。<br><br> 普通の痰は薬毒で、薬が体内に長くあると痰になる。<br><br> 未だ薬の匂いがするような生々しい痰もある。<br><br>（S23.10.28） 027 夜の咳嗽 三十三歳の女子、昭和二十三年十二月、風邪にて右肋骨下部付近に痛みを感じ、咳、悪寒、発熱がありまして、翌年九月レントゲン診断の結果、胸が悪いと言われました。<br><br>その頃実家にて御浄霊を頂き、発汗等の御浄化を頂きまして、喀血も痰もありませんでした。<br><br>一時大分元気にならせて頂きましたが、二十五年初め頃再浄化にて激しい下痢を一週間程続けました。<br><br>日々衰弱を増し、食欲が余りありません。<br><br>五月に入信させて頂いてよりやや元気になりましたが、夜中に激しき咳のため眠られません。<br><br>なお、発病二年前に胃痙攣と胆嚢炎を病み、注射にて良くなりましたが、右の状態、良くなるものでしょうか。<br><br>また、御浄霊法をお教え下さい。<br><br> これも薬毒である。<br><br>夜中に咳が出るのは見当違いをしているからである。<br><br>頭と頸筋をよく浄霊する。<br><br>（S25. 5.27） 028 就寝時発咳の理（火と水） 夜寝ましてから咳が多く出るのはいかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 咳は火の働きであり、寝るのは水の働きで、火は水によって動く理による。<br><br>（S24. 8.12） 029 就起床時発咳す 五十六歳の男子、夜床に入ると必ず一回か二回咳をする。<br><br>また、朝起きる時も二回か三回咳をします。<br><br>五年来浄霊していますが、浄霊法は―― 霊的ではない。<br><br>浄化である。<br><br>痰の小さい、固いのは、大抵二、三回咳が出る。<br><br>心配すべきでない。<br><br>結構である。<br><br> 030 執拗な激咳（急所） 三十八歳の女、八月末頃より昼夜の差別なく咳が出て、夜は一層激しく、階上から無意識に二度落ちました。<br><br>すりきず程度でありました。<br><br>右はいかなる原因でありますか。<br><br>御教示願います。<br><br> どこかに塊があって、それが溶けても固いために肺へ引っ張れぬのである。<br><br>数個所に毒があるであろう。<br><br>頭から出る咳が一番多いから、頭や頸の周りを浄霊せよ。<br><br>頭のが溶けるとすぐに肺へ入る。<br><br>それを咳で引っ張る。<br><br>それで、平均浄化で他の方も溶けて咳が出るのである。<br><br> 浄霊が見当違いをしているであろう。<br><br>（S24.10. 8） 031 肺浸潤空咳・衰弱防ぐには（食事） 妻ひさゑ（三十八歳）、昨年七月末、出産後二日目より発熱、三十九度前後の高熱約半ケ月程続き、その後三十七、八度の熱が打続き、咳多く、医師は肺浸潤と診察、医師の言に従い絶対安静を守り、本年一月末日迄医薬に依存致しましたが一向快方に向わず、二月上旬より御浄霊を受けるようになりましてから一ケ月程にして少しずつ良き方に向いましたが、四月上旬、浄化を戴き、以前の病状に戻り、咽喉がいせらこく、引っ切りなしに咳を催し、ただ空咳ばかりにて苦痛甚だしく相成り、衰弱して参りました。<br><br>ただ今、特に呼吸困難にて、夜間身体を延ばして寝ることが殆ど出来ませんので、従って安眠されず、為に余計衰弱の度が加わり、食事は普通御飯を軽く一杯半と玉子一ケを戴いております。<br><br>以上の病状ですが、全快が出来るでしょうか。<br><br>御伺い申し上げます。<br><br>（S25. 5. 6） ―――――――――― 五年前の肺浸潤が再発以来、喀血を二十五、六回し、本年三月初めより浄霊を受け、やや良好に向っておりましたが、三月末教導所へ参拝した翌日から悪寒と四十度の発熱と腹痛が伴い、時には七転八倒の苦しみをします。<br><br>奥さんが入信されて少し楽になっておられましたが、続いて薬毒の浄化で食欲がなく、時々先生の御浄霊をいただかれますと大変楽になり、食欲も出ますが、何分衰弱しているため、教導所へ通う事も出来ず、奥さんの浄霊を受けられました。<br><br>奥さんも一生懸命御用しておられますが、病人は衰弱して行かれます。<br><br>治るもので御座いましょうか。<br><br>また、母と兄さんが結核で死んでおられますが霊的関係も御教え御願い申し上げます。<br><br> 空咳は痰が固い。<br><br>痰を引上げても出て来ぬ。<br><br> 浄霊が的外れで、固い所は他にある。<br><br>そこをやって咳が軽くなればよい。<br><br>野菜を多く食うほどよい。<br><br>甘いものを食べる。<br><br>衰弱を防ぐには野菜と甘味が一番いい。<br><br>そして、急所にふれぬと危い。<br><br>（S25. 5. 6） 032 空咳苦の原因 痰の出ない咳はなぜ苦しいのでしょうか。<br><br> 痰が固い。<br><br>肺の中へ古い痰が固まっている。<br><br>（S24. 7.15） 033 腹痛・痰切れず（固痰） 二十八歳の男子、本年三月頃より腹部に激痛がありましたので、御浄霊を致しますと大分よくなりましたが、未だ多少腹痛が残り、言語も不自由する時もあり、頭痛も波状的にあります。<br><br>痰も中々切れず、絶えず口中がさっぱり致しません。<br><br>霊的でしょうか。<br><br>原因と御浄霊の箇所を御教え下さい。<br><br> 腹の真後ろのちょっと上の方に痛い塊がある。<br><br>それを浄霊する。<br><br> 頭の浄化は離してやれば治る。<br><br> 痰が古くて固まっているのである。<br><br> 痰は方々から出る。<br><br>頭からも首の周りからも出る。<br><br>（S24. 8.17） 034 浄霊して痰・鼻汁出でず 幾ら御浄霊しても痰も鼻汁も出て来ないのはいかなる訳でしょう。<br><br>その人に相当深い曇りがあるためで御座いましょうか。<br><br>また、この曇りを解消するのにはいかなる方法を取るべきでしょうか。<br><br> 強く固まっている。<br><br>浄霊をし、大いに運動すればよい。<br><br>（S23. 7.13） 035 痰の毒・声嗄れ（浄霊個所） 昨年三月入信致した者ですが、本年一月中頃より御浄化を戴き、咳が大変に出ましたところ、今月初めより咽喉が痛み、今日に至るも相変らず痛んで声も出ません。<br><br>何か霊的な原因があるのでしょうか。<br><br>また、もしあるとしたらいかにしたらよろしいでしょうか。<br><br>浄霊する時は主としてどこをしたらよいのでしょうか。<br><br> 咳が出ると痰が出る。<br><br>痰に毒がある。<br><br>痰が固いと咳がよく出る。<br><br>このためカタルを起す。<br><br> 固いのは古い痰の腐った塊であり、喉の粘膜に物がシミたりして痛む。<br><br>弁の根元へカタルを起し、声が嗄れたりなどする。<br><br>こういう痰は頭が多い。<br><br>頭を浄霊すると咳が出る。<br><br>そ他腎臓、股などにある。<br><br>（S24. 2.26） 036 喉痛・食通らず（有毒の痰） 十三年程前肺病を観音様に救って戴き、開拓に従事させて戴いておりましたが、四ケ月以前より浄化を戴きました。<br><br>現在は咽喉が痛み、食物が殆ど通りません。<br><br>その原因と浄霊法を御伺い申し上げます。<br><br> 出る痰に毒があり、喉を毒が通る時、粘膜にカタルを起さすのである。<br><br>因は痰の毒である。<br><br>それで喉頭結核などになる。<br><br>肺病の痰は固まる。<br><br> 後ろから気長にやる。<br><br>また、痰の元を探ってする。<br><br>頭を浄霊しても出る。<br><br>触って熱い所が痰の元であるから、触ってみるとよい。<br><br>（S24. 8. 9） 037 痰を呑む事 子供達が痰を呑み込んだ時はどうなるのでしょうか。<br><br> 差支えない。<br><br>元へ戻る事はない。<br><br>大小便で出る。<br><br>（S23.12.22） 038 痰を呑む―無害 子供が痰を出しながら呑んでしまう事がありますが、その害はいかがなもので御座いましょうか。<br><br> 無害である。<br><br>元へ戻る事は決してない。<br><br>糞便になって出る。<br><br>（S .12.15） 039 呼吸脈搏と天体の関係 健康体の正常なる呼吸（一分間一八～二○）と脈搏（六○～七○）は太陽、月球の運行との関係によるもので御座いましょうか。<br><br> 運行と関係はあるが、直接密接に関係はない。<br><br>ちょうどその位でいいように出来ている。<br><br>日と月による。<br><br>人間でも熱の高い時は呼吸は強くなる。<br><br> 月球と太陽の運行とかけちがう。<br><br>（S24. 5） 040 チフスの熱と脈 チフスの浄化の場合、熱に比し脈の少ないのはいかなるためでしょうか。<br><br> 腸へ発熱する。<br><br>心臓から遠くなるためである。<br><br>例えば、手足に熱のある場合は脈にあまり関係がない。<br><br>心臓に近く熱が出ると脈が非常に強く、足とか手なら脈はそう高くない。<br><br> であるから距離の関係である。<br><br>一局所に熱が出ると放射状になる。<br><br>故に体温計は測り方によって五分位違う事もある。<br><br>近頃は口中で計る事もある。<br><br> 041 呼吸長短ある理由 呼吸の長い人と短い人がありますが、いかなる訳で御座いましょうか。<br><br> 肺の大小による。<br><br>肺膜の延びる人、延びぬ人とある。<br><br>水泳なども肺である。<br><br>（S24. 7.15） 042 息切れの特色（息切れと起伏） 二十五歳の女子、結核にて起きると息切れがし、寝ますととれます。<br><br>いかなるわけでございましょうか。<br><br> 息切れはそういうもので、寝ると楽になる。<br><br> 043 息切れと耳後動悸の原因 私の妻（四十二歳）は十年前に心臓を患い、漢方薬にて治りましたが、仕事はしていても余り丈夫ではありませんでした。<br><br>昨年四歳の子供が脳炎にて死の寸前、本教にて御救いを戴きましたので、早速夫婦と子供が入信、光明如来様も奉斎させて戴きました。<br><br>妻が本年五月御面会後御浄化を戴き、私が浄霊させて頂いておりますが、歩行の際、息切れし、右耳の後方が動悸を打って困ります。<br><br>御浄霊法を御教示を御願い申し上げます。<br><br> 背中の心臓の裏に塊があろう。<br><br>浄霊しているうち熱が出て、痰、咳が出る。<br><br>（S24. 7.16）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Arte da Cura (VI) – Diversos Sintomas de Doenças 2: Tosse e Falta de Ar (026-043)</h2>
 <p><strong>026 A existência de expectoração de origem espiritual</strong></p>
@@ -147,5 +299,48 @@ function toggleLang(lang) {
 <p><strong>043 Causa da falta de ar e da palpitação atrás da orelha</strong></p>
 <p><strong>Pergunta:</strong> Minha esposa, de 42 anos, teve um problema cardíaco há dez anos, tratado com medicina oriental. Embora trabalhasse, nunca foi muito robusta. No ano passado, nosso filho de quatro anos, à beira da morte por encefalite, foi salvo por nossa religião. Imediatamente, o casal e o filho ingressaram na Fé e consagramos a Imagem da Luz Divina. Em maio deste ano, após uma audiência com o senhor, minha esposa iniciou um processo de purificação. Eu mesmo estou lhe ministrando Johrei, mas ela sofre de falta de ar ao caminhar e de uma incômoda palpitação atrás da orelha direita. Rogo que me ensine o método de Johrei.</p>
 <p><strong>Meishu-Sama:</strong> Provavelmente, há um nódulo de toxinas nas costas, na altura do coração. Com a ministração contínua do Johrei, surgirão febre, escarro e tosse.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術篇 （六） 病気諸症状 ２ 026-043 咳、息切れ 026 霊的の排痰ありや カリエスのごとく霊的原因で痰が出ると言う場合がございましょうか。<br/><br/> ある。<br/><br/>カリエスや肺結核など、長く病気しているのは、霊の物質化したものが痰になる。<br/><br/> 普通の痰は薬毒で、薬が体内に長くあると痰になる。<br/><br/> 未だ薬の匂いがするような生々しい痰もある。<br/><br/>（S23.10.28） 027 夜の咳嗽 三十三歳の女子、昭和二十三年十二月、風邪にて右肋骨下部付近に痛みを感じ、咳、悪寒、発熱がありまして、翌年九月レントゲン診断の結果、胸が悪いと言われました。<br/><br/>その頃実家にて御浄霊を頂き、発汗等の御浄化を頂きまして、喀血も痰もありませんでした。<br/><br/>一時大分元気にならせて頂きましたが、二十五年初め頃再浄化にて激しい下痢を一週間程続けました。<br/><br/>日々衰弱を増し、食欲が余りありません。<br/><br/>五月に入信させて頂いてよりやや元気になりましたが、夜中に激しき咳のため眠られません。<br/><br/>なお、発病二年前に胃痙攣と胆嚢炎を病み、注射にて良くなりましたが、右の状態、良くなるものでしょうか。<br/><br/>また、御浄霊法をお教え下さい。<br/><br/> これも薬毒である。<br/><br/>夜中に咳が出るのは見当違いをしているからである。<br/><br/>頭と頸筋をよく浄霊する。<br/><br/>（S25. 5.27） 028 就寝時発咳の理（火と水） 夜寝ましてから咳が多く出るのはいかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 咳は火の働きであり、寝るのは水の働きで、火は水によって動く理による。<br/><br/>（S24. 8.12） 029 就起床時発咳す 五十六歳の男子、夜床に入ると必ず一回か二回咳をする。<br/><br/>また、朝起きる時も二回か三回咳をします。<br/><br/>五年来浄霊していますが、浄霊法は―― 霊的ではない。<br/><br/>浄化である。<br/><br/>痰の小さい、固いのは、大抵二、三回咳が出る。<br/><br/>心配すべきでない。<br/><br/>結構である。<br/><br/> 030 執拗な激咳（急所） 三十八歳の女、八月末頃より昼夜の差別なく咳が出て、夜は一層激しく、階上から無意識に二度落ちました。<br/><br/>すりきず程度でありました。<br/><br/>右はいかなる原因でありますか。<br/><br/>御教示願います。<br/><br/> どこかに塊があって、それが溶けても固いために肺へ引っ張れぬのである。<br/><br/>数個所に毒があるであろう。<br/><br/>頭から出る咳が一番多いから、頭や頸の周りを浄霊せよ。<br/><br/>頭のが溶けるとすぐに肺へ入る。<br/><br/>それを咳で引っ張る。<br/><br/>それで、平均浄化で他の方も溶けて咳が出るのである。<br/><br/> 浄霊が見当違いをしているであろう。<br/><br/>（S24.10. 8） 031 肺浸潤空咳・衰弱防ぐには（食事） 妻ひさゑ（三十八歳）、昨年七月末、出産後二日目より発熱、三十九度前後の高熱約半ケ月程続き、その後三十七、八度の熱が打続き、咳多く、医師は肺浸潤と診察、医師の言に従い絶対安静を守り、本年一月末日迄医薬に依存致しましたが一向快方に向わず、二月上旬より御浄霊を受けるようになりましてから一ケ月程にして少しずつ良き方に向いましたが、四月上旬、浄化を戴き、以前の病状に戻り、咽喉がいせらこく、引っ切りなしに咳を催し、ただ空咳ばかりにて苦痛甚だしく相成り、衰弱して参りました。<br/><br/>ただ今、特に呼吸困難にて、夜間身体を延ばして寝ることが殆ど出来ませんので、従って安眠されず、為に余計衰弱の度が加わり、食事は普通御飯を軽く一杯半と玉子一ケを戴いております。<br/><br/>以上の病状ですが、全快が出来るでしょうか。<br/><br/>御伺い申し上げます。<br/><br/>（S25. 5. 6） ―――――――――― 五年前の肺浸潤が再発以来、喀血を二十五、六回し、本年三月初めより浄霊を受け、やや良好に向っておりましたが、三月末教導所へ参拝した翌日から悪寒と四十度の発熱と腹痛が伴い、時には七転八倒の苦しみをします。<br/><br/>奥さんが入信されて少し楽になっておられましたが、続いて薬毒の浄化で食欲がなく、時々先生の御浄霊をいただかれますと大変楽になり、食欲も出ますが、何分衰弱しているため、教導所へ通う事も出来ず、奥さんの浄霊を受けられました。<br/><br/>奥さんも一生懸命御用しておられますが、病人は衰弱して行かれます。<br/><br/>治るもので御座いましょうか。<br/><br/>また、母と兄さんが結核で死んでおられますが霊的関係も御教え御願い申し上げます。<br/><br/> 空咳は痰が固い。<br/><br/>痰を引上げても出て来ぬ。<br/><br/> 浄霊が的外れで、固い所は他にある。<br/><br/>そこをやって咳が軽くなればよい。<br/><br/>野菜を多く食うほどよい。<br/><br/>甘いものを食べる。<br/><br/>衰弱を防ぐには野菜と甘味が一番いい。<br/><br/>そして、急所にふれぬと危い。<br/><br/>（S25. 5. 6） 032 空咳苦の原因 痰の出ない咳はなぜ苦しいのでしょうか。<br/><br/> 痰が固い。<br/><br/>肺の中へ古い痰が固まっている。<br/><br/>（S24. 7.15） 033 腹痛・痰切れず（固痰） 二十八歳の男子、本年三月頃より腹部に激痛がありましたので、御浄霊を致しますと大分よくなりましたが、未だ多少腹痛が残り、言語も不自由する時もあり、頭痛も波状的にあります。<br/><br/>痰も中々切れず、絶えず口中がさっぱり致しません。<br/><br/>霊的でしょうか。<br/><br/>原因と御浄霊の箇所を御教え下さい。<br/><br/> 腹の真後ろのちょっと上の方に痛い塊がある。<br/><br/>それを浄霊する。<br/><br/> 頭の浄化は離してやれば治る。<br/><br/> 痰が古くて固まっているのである。<br/><br/> 痰は方々から出る。<br/><br/>頭からも首の周りからも出る。<br/><br/>（S24. 8.17） 034 浄霊して痰・鼻汁出でず 幾ら御浄霊しても痰も鼻汁も出て来ないのはいかなる訳でしょう。<br/><br/>その人に相当深い曇りがあるためで御座いましょうか。<br/><br/>また、この曇りを解消するのにはいかなる方法を取るべきでしょうか。<br/><br/> 強く固まっている。<br/><br/>浄霊をし、大いに運動すればよい。<br/><br/>（S23. 7.13） 035 痰の毒・声嗄れ（浄霊個所） 昨年三月入信致した者ですが、本年一月中頃より御浄化を戴き、咳が大変に出ましたところ、今月初めより咽喉が痛み、今日に至るも相変らず痛んで声も出ません。<br/><br/>何か霊的な原因があるのでしょうか。<br/><br/>また、もしあるとしたらいかにしたらよろしいでしょうか。<br/><br/>浄霊する時は主としてどこをしたらよいのでしょうか。<br/><br/> 咳が出ると痰が出る。<br/><br/>痰に毒がある。<br/><br/>痰が固いと咳がよく出る。<br/><br/>このためカタルを起す。<br/><br/> 固いのは古い痰の腐った塊であり、喉の粘膜に物がシミたりして痛む。<br/><br/>弁の根元へカタルを起し、声が嗄れたりなどする。<br/><br/>こういう痰は頭が多い。<br/><br/>頭を浄霊すると咳が出る。<br/><br/>そ他腎臓、股などにある。<br/><br/>（S24. 2.26） 036 喉痛・食通らず（有毒の痰） 十三年程前肺病を観音様に救って戴き、開拓に従事させて戴いておりましたが、四ケ月以前より浄化を戴きました。<br/><br/>現在は咽喉が痛み、食物が殆ど通りません。<br/><br/>その原因と浄霊法を御伺い申し上げます。<br/><br/> 出る痰に毒があり、喉を毒が通る時、粘膜にカタルを起さすのである。<br/><br/>因は痰の毒である。<br/><br/>それで喉頭結核などになる。<br/><br/>肺病の痰は固まる。<br/><br/> 後ろから気長にやる。<br/><br/>また、痰の元を探ってする。<br/><br/>頭を浄霊しても出る。<br/><br/>触って熱い所が痰の元であるから、触ってみるとよい。<br/><br/>（S24. 8. 9） 037 痰を呑む事 子供達が痰を呑み込んだ時はどうなるのでしょうか。<br/><br/> 差支えない。<br/><br/>元へ戻る事はない。<br/><br/>大小便で出る。<br/><br/>（S23.12.22） 038 痰を呑む―無害 子供が痰を出しながら呑んでしまう事がありますが、その害はいかがなもので御座いましょうか。<br/><br/> 無害である。<br/><br/>元へ戻る事は決してない。<br/><br/>糞便になって出る。<br/><br/>（S .12.15） 039 呼吸脈搏と天体の関係 健康体の正常なる呼吸（一分間一八～二○）と脈搏（六○～七○）は太陽、月球の運行との関係によるもので御座いましょうか。<br/><br/> 運行と関係はあるが、直接密接に関係はない。<br/><br/>ちょうどその位でいいように出来ている。<br/><br/>日と月による。<br/><br/>人間でも熱の高い時は呼吸は強くなる。<br/><br/> 月球と太陽の運行とかけちがう。<br/><br/>（S24. 5） 040 チフスの熱と脈 チフスの浄化の場合、熱に比し脈の少ないのはいかなるためでしょうか。<br/><br/> 腸へ発熱する。<br/><br/>心臓から遠くなるためである。<br/><br/>例えば、手足に熱のある場合は脈にあまり関係がない。<br/><br/>心臓に近く熱が出ると脈が非常に強く、足とか手なら脈はそう高くない。<br/><br/> であるから距離の関係である。<br/><br/>一局所に熱が出ると放射状になる。<br/><br/>故に体温計は測り方によって五分位違う事もある。<br/><br/>近頃は口中で計る事もある。<br/><br/> 041 呼吸長短ある理由 呼吸の長い人と短い人がありますが、いかなる訳で御座いましょうか。<br/><br/> 肺の大小による。<br/><br/>肺膜の延びる人、延びぬ人とある。<br/><br/>水泳なども肺である。<br/><br/>（S24. 7.15） 042 息切れの特色（息切れと起伏） 二十五歳の女子、結核にて起きると息切れがし、寝ますととれます。<br/><br/>いかなるわけでございましょうか。<br/><br/> 息切れはそういうもので、寝ると楽になる。<br/><br/> 043 息切れと耳後動悸の原因 私の妻（四十二歳）は十年前に心臓を患い、漢方薬にて治りましたが、仕事はしていても余り丈夫ではありませんでした。<br/><br/>昨年四歳の子供が脳炎にて死の寸前、本教にて御救いを戴きましたので、早速夫婦と子供が入信、光明如来様も奉斎させて戴きました。<br/><br/>妻が本年五月御面会後御浄化を戴き、私が浄霊させて頂いておりますが、歩行の際、息切れし、右耳の後方が動悸を打って困ります。<br/><br/>御浄霊法を御教示を御願い申し上げます。<br/><br/> 背中の心臓の裏に塊があろう。<br/><br/>浄霊しているうち熱が出て、痰、咳が出る。<br/><br/>（S24. 7.16）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

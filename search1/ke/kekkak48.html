@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak48</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核半減記念祝いに就て 『栄光』161号、昭和27(1952)年6月18日発行 先日、日本における結核死亡率が半減したというので記念祝いをしたが、これを吾々からみると余りに軽率どころか、馬鹿馬鹿しいとさえ思われるのである。<br><br>というのは、なるほど死亡率は半減したが、患者の数は少しも減らないのみか、依然として増加の傾向にあるので、この点深く考えてみるべきである。<br><br>なるほど患者の数が減ったなら、それこそどんな御祝いしても、吾々も喜んで賛成したいが、死亡者だけの減少では、到底楽観は出来難いのである。<br><br>これも医学は根本が分っていないから仕方がないが、実は喜ぶどころか悲観した方がいいくらいである。<br><br>それを今詳しく解説するが、これが分ったなら冷汗三斗の人が随分あるであろう。<br><br> いつもいう通り、近来ストマイ〔ストレプトマイシン〕、パス〔パラ‐アミノ‐サリチル酸〕等次々新薬が出るが、これらの薬効は毒物による浄化作用停止の力を強めたまでで、一時的に病気症状が減るから利くと思うだけで、実は小康を得るにすぎないのである。<br><br>従って単に死ぬのが延びただけで、もちろん長くは続かないから安心は出来ないので、これが死亡率は減っても患者の数は減らない根本原因である。<br><br>では今まで通りにしていれば、今後どうなるかというと、無論時の経つに従い再び浄化が起り始め、患者の数も増すので、再び薬を用いるが、今度は以前程に効かないから、毒を一層強めた薬が出来る事になるのはもちろんで、ちょうど麻薬中毒患者と同様である。<br><br>そうしている中にいよいよ効かなくなり、ついには全然効果がなくなると共に、今までの強い薬毒の浄化も加わって、悪性結核激発となり、急死する者数知れずという事になろうから、今よりも幾層倍の結核患者が出来るであろう。<br><br> 以上のような訳でその時になったなら、今度の記念祝典を憶い出して身が縮むであろう。<br><br>私はこのような悲観的な事は言いたくはないが、そうなるのは今から判っている以上、警告せざるを得ないのである。<br><br>ここで重ねて言うが、今日のごとき死亡率半減期間は一時的であるから、来年、再来年というように、再び頭をもち上げ始めるのはもちろんであるから、当局も一般人も大いに周章（あわ）て出し、結局今日の新薬が恐怖時代を作った事になるのである。<br><br>としたらその迷言たるや言うべき言葉はないのである。<br><br>しかも文化の発達した米国の医学者達までが、依然としてその迷言に目覚めない今日、ここに神様は大慈大悲の大御心によって、私をして世界に知らしめんとなし給うのである。<br><br> ここで今一つ重要な事がある。<br><br>右のごとく新薬の効果によって、直に死なない半病人が増えるから、毀れ物扱いをされなければならないような消極的健康人が氾濫し、元気よく長時間働く事も出来ず、軽作業がやっとくらいの人間がおびただしい数に上るであろう。<br><br>としたら国家全体から見ても由々しき大問題である。<br><br> そこへゆくと本教浄霊は、保有しているだけの毒素を溶かして排泄させるのであるから、真の健康者となるから、これ程素晴しい福音はないであろう。<br><br>従って当局も医家もこれを知ったなら、私情や私利を度外し、一日も早く吾々の仕事に参加すべきで、これこそ最も賢明であり、医学者否文化人としての真のあり方であろう。<br><br>いずれはそうせざるを得ない事になるのは明らかであるから、好むと好まざるとにかかわらず、断然百八十度の転換を勧めて止まないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a comemoração da redução da mortalidade por tuberculose</h2>
 <p>Recentemente, o Japão celebrou a redução pela metade do índice de mortalidade por tuberculose. Sob nossa ótica, contudo, tal comemoração não é apenas precipitada, mas beira o irrisório. Com efeito, embora o número de óbitos tenha diminuído, o de doentes não sofreu a menor redução; pelo contrário, segue uma inequívoca tendência de aumento. Este é um ponto que merece profunda reflexão.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Há ainda outro ponto de suma importância. Com o efeito desses novos fármacos, aumentará o número de enfermos crônicos que não chegam a falecer imediatamente. Surgirá uma multidão de pessoas com saúde precária, que precisarão ser tratadas com extremo cuidado, como se fossem objetos frágeis. Serão incapazes de trabalhar vigorosamente por longos períodos, limitando-se a tarefas leves. Em termos nacionais, isto representa um gravíssimo problema.</p>
 <p>Em contrapartida, o Johrei de nossa Igreja atua dissolvendo e expelindo as toxinas acumuladas no organismo, permitindo que a pessoa se torne verdadeiramente saudável. Porventura existirá evangelho mais sublime que este? Portanto, ao tomarem conhecimento deste fato, as autoridades e a classe médica deveriam deixar de lado o personalismo e o interesse próprio para, o quanto antes, participar de nosso trabalho. Esta seria a atitude mais sábia e a verdadeira postura de um médico — ou melhor, de um intelectual.</p>
 <p>É evidente que, no futuro, não lhes restará outra alternativa. Sendo assim, quer queiram, quer não, recomendo veementemente que realizem uma conversão de cento e oitenta graus em seu modo de pensar e agir.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核半減記念祝いに就て 『栄光』161号、昭和27(1952)年6月18日発行 先日、日本における結核死亡率が半減したというので記念祝いをしたが、これを吾々からみると余りに軽率どころか、馬鹿馬鹿しいとさえ思われるのである。<br/><br/>というのは、なるほど死亡率は半減したが、患者の数は少しも減らないのみか、依然として増加の傾向にあるので、この点深く考えてみるべきである。<br/><br/>なるほど患者の数が減ったなら、それこそどんな御祝いしても、吾々も喜んで賛成したいが、死亡者だけの減少では、到底楽観は出来難いのである。<br/><br/>これも医学は根本が分っていないから仕方がないが、実は喜ぶどころか悲観した方がいいくらいである。<br/><br/>それを今詳しく解説するが、これが分ったなら冷汗三斗の人が随分あるであろう。<br/><br/> いつもいう通り、近来ストマイ〔ストレプトマイシン〕、パス〔パラ‐アミノ‐サリチル酸〕等次々新薬が出るが、これらの薬効は毒物による浄化作用停止の力を強めたまでで、一時的に病気症状が減るから利くと思うだけで、実は小康を得るにすぎないのである。<br/><br/>従って単に死ぬのが延びただけで、もちろん長くは続かないから安心は出来ないので、これが死亡率は減っても患者の数は減らない根本原因である。<br/><br/>では今まで通りにしていれば、今後どうなるかというと、無論時の経つに従い再び浄化が起り始め、患者の数も増すので、再び薬を用いるが、今度は以前程に効かないから、毒を一層強めた薬が出来る事になるのはもちろんで、ちょうど麻薬中毒患者と同様である。<br/><br/>そうしている中にいよいよ効かなくなり、ついには全然効果がなくなると共に、今までの強い薬毒の浄化も加わって、悪性結核激発となり、急死する者数知れずという事になろうから、今よりも幾層倍の結核患者が出来るであろう。<br/><br/> 以上のような訳でその時になったなら、今度の記念祝典を憶い出して身が縮むであろう。<br/><br/>私はこのような悲観的な事は言いたくはないが、そうなるのは今から判っている以上、警告せざるを得ないのである。<br/><br/>ここで重ねて言うが、今日のごとき死亡率半減期間は一時的であるから、来年、再来年というように、再び頭をもち上げ始めるのはもちろんであるから、当局も一般人も大いに周章（あわ）て出し、結局今日の新薬が恐怖時代を作った事になるのである。<br/><br/>としたらその迷言たるや言うべき言葉はないのである。<br/><br/>しかも文化の発達した米国の医学者達までが、依然としてその迷言に目覚めない今日、ここに神様は大慈大悲の大御心によって、私をして世界に知らしめんとなし給うのである。<br/><br/> ここで今一つ重要な事がある。<br/><br/>右のごとく新薬の効果によって、直に死なない半病人が増えるから、毀れ物扱いをされなければならないような消極的健康人が氾濫し、元気よく長時間働く事も出来ず、軽作業がやっとくらいの人間がおびただしい数に上るであろう。<br/><br/>としたら国家全体から見ても由々しき大問題である。<br/><br/> そこへゆくと本教浄霊は、保有しているだけの毒素を溶かして排泄させるのであるから、真の健康者となるから、これ程素晴しい福音はないであろう。<br/><br/>従って当局も医家もこれを知ったなら、私情や私利を度外し、一日も早く吾々の仕事に参加すべきで、これこそ最も賢明であり、医学者否文化人としての真のあり方であろう。<br/><br/>いずれはそうせざるを得ない事になるのは明らかであるから、好むと好まざるとにかかわらず、断然百八十度の転換を勧めて止まないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

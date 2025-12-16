@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kanbo04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 感冒と肺炎・結核は治る 自観叢書第1篇『結核と神霊療法』P.14、昭和24(1949)年6月25日発行 前項のごとく、感冒は実に簡易な浄化作用であるから、人間は出来るだけ感冒にかかるべきで、これほど有効な衛生法はない。<br><br>全く天の与えた唯一の健康法である。<br><br>しかるに今日までの病理学においては反対の解釈である。<br><br>すなわちあらゆる疾患の前奏曲が感冒として恐れられている。<br><br>従って、人間は感冒にかからない事をもって健康の第一義としており、万一感冒にかかるや、あらゆる浄化停止手段を行う。<br><br>その方法として下熱剤、咳止剤、消化剤、各種の注射等の外、氷冷、湿布、吸入、安静等を行いせっかく発生した浄化を極力停止しようとする。<br><br>その主なるものが薬剤の服用または注射等々である。<br><br> 元来薬というものは世の中に決してない。<br><br>全部毒物である以上、体内に入れば衰弱を増すのは当然である。<br><br>もちろんその他のあらゆる方法もことごとく浄化停止手段で、衰弱促進であるから、病気すなわち浄化苦は軽減する。<br><br>それを治癒と思う事が誤謬の根本であって、実は病気が真に治癒されたのではない。<br><br>浄化発生以前の状態に還元せしめたまでである。<br><br>何よりの証拠は、感冒全治後暫く経つと必ずまた感冒にかかる、という事は保有毒素が依然としてあるからで、そのため排除作用が必ず起こる。<br><br>ところがまた浄化停止を行う、また発生する、また停止するというように繰返す。<br><br>しかも発生毎に薬毒を入れるから毒素は漸次累加する。<br><br>この増加した多量の毒素に対し一挙に大排除作用が起こる。<br><br>もちろん普通感冒の何倍にも当る、いわば大感冒である、これがいわゆる肺炎である。<br><br>故に肺炎の症状といえば肺臓内に多量の喀痰が発現し、喘音がはなはだしく、高熱、胸部の不快感、頭痛等、種々の苦悩症状は感冒症状と同様でただ猛烈であるだけの異（ちが）いである。<br><br>これも放任しておけば大抵は治るが、最も強烈なるものは生命の危険は免れないのである。<br><br>右のごとく肺炎は特に浄化猛烈であるところへ、医療は浄化停止を強烈に行うから、浄化とその停止との激しい摩擦を生む。<br><br>患者は非常の苦悩を伴い迅速に衰弱が加わり、死を早むる結果となるのである。<br><br> 以上によってみても肺炎の原因は全く感冒の再三の浄化停止が原因であるから、出来るだけ感冒にかかるようにし、発病の場合自然放任をするようにすれば、肺炎という病気は人類から跡を絶つに至る事はもちろんである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Causa da Pneumonia</h2>
 <p>Conforme exposto anteriormente, o resfriado constitui, em verdade, um processo purificador de grande simplicidade. Por essa razão, o ser humano deveria contrair resfriados com a maior frequência possível, pois não existe método de saneamento mais eficaz. Trata-se do único e verdadeiro método de saúde concedido pelo Céu. Contudo, a patologia moderna adota uma interpretação diametralmente oposta, na qual o resfriado é temido como o prelúdio de todas as enfermidades.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Portanto, os sintomas da pneumonia, como a abundante expectoração nos pulmões, a respiração sibilante, a febre alta, o desconforto no peito e a dor de cabeça, são análogos aos do resfriado, distinguindo-se apenas por sua maior intensidade. Se deixada evoluir naturalmente, a pneumonia também se resolve na maioria dos casos; contudo, em suas manifestações mais severas, pode efetivamente apresentar risco à vida.</p>
 <p>Conforme o exposto, a pneumonia é um processo purificador particularmente intenso, e a medicina, por sua vez, atua de forma igualmente enérgica para interrompê-lo. Tal oposição gera um atrito violento entre a força purificadora e sua supressão. O paciente, submetido a um sofrimento extremo, enfraquece com rapidez, o que acaba por abreviar sua vida.</p>
 <p>Pelo exposto, torna-se evidente que a causa da pneumonia reside unicamente na interrupção recorrente da purificação dos resfriados. Sendo assim, se as pessoas passarem a contrair resfriados com maior frequência e, ao manifestá-los, permitirem que sigam seu curso natural, a enfermidade conhecida como pneumonia será, sem qualquer dúvida, erradicada da face da Terra.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 感冒と肺炎・結核は治る 自観叢書第1篇『結核と神霊療法』P.14、昭和24(1949)年6月25日発行 前項のごとく、感冒は実に簡易な浄化作用であるから、人間は出来るだけ感冒にかかるべきで、これほど有効な衛生法はない。<br/><br/>全く天の与えた唯一の健康法である。<br/><br/>しかるに今日までの病理学においては反対の解釈である。<br/><br/>すなわちあらゆる疾患の前奏曲が感冒として恐れられている。<br/><br/>従って、人間は感冒にかからない事をもって健康の第一義としており、万一感冒にかかるや、あらゆる浄化停止手段を行う。<br/><br/>その方法として下熱剤、咳止剤、消化剤、各種の注射等の外、氷冷、湿布、吸入、安静等を行いせっかく発生した浄化を極力停止しようとする。<br/><br/>その主なるものが薬剤の服用または注射等々である。<br/><br/> 元来薬というものは世の中に決してない。<br/><br/>全部毒物である以上、体内に入れば衰弱を増すのは当然である。<br/><br/>もちろんその他のあらゆる方法もことごとく浄化停止手段で、衰弱促進であるから、病気すなわち浄化苦は軽減する。<br/><br/>それを治癒と思う事が誤謬の根本であって、実は病気が真に治癒されたのではない。<br/><br/>浄化発生以前の状態に還元せしめたまでである。<br/><br/>何よりの証拠は、感冒全治後暫く経つと必ずまた感冒にかかる、という事は保有毒素が依然としてあるからで、そのため排除作用が必ず起こる。<br/><br/>ところがまた浄化停止を行う、また発生する、また停止するというように繰返す。<br/><br/>しかも発生毎に薬毒を入れるから毒素は漸次累加する。<br/><br/>この増加した多量の毒素に対し一挙に大排除作用が起こる。<br/><br/>もちろん普通感冒の何倍にも当る、いわば大感冒である、これがいわゆる肺炎である。<br/><br/>故に肺炎の症状といえば肺臓内に多量の喀痰が発現し、喘音がはなはだしく、高熱、胸部の不快感、頭痛等、種々の苦悩症状は感冒症状と同様でただ猛烈であるだけの異（ちが）いである。<br/><br/>これも放任しておけば大抵は治るが、最も強烈なるものは生命の危険は免れないのである。<br/><br/>右のごとく肺炎は特に浄化猛烈であるところへ、医療は浄化停止を強烈に行うから、浄化とその停止との激しい摩擦を生む。<br/><br/>患者は非常の苦悩を伴い迅速に衰弱が加わり、死を早むる結果となるのである。<br/><br/> 以上によってみても肺炎の原因は全く感冒の再三の浄化停止が原因であるから、出来るだけ感冒にかかるようにし、発病の場合自然放任をするようにすれば、肺炎という病気は人類から跡を絶つに至る事はもちろんである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

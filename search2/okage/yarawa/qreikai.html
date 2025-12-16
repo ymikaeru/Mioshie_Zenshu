@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qreikai</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 霊界人次々御救い戴く 『栄光』204号、昭和28(1953)年4月15日発行 島根県 隆光中教会 杠（ゆずりは）美年子（30） 明主様 昭和二十四年十二月十三日入信以来、明主様の厚き御守護によりましてこの濁世にありながら何の不安もなく、毎日を楽しく明るく過させて頂いておりますことを衷心より感謝申し上げております。<br><br> 本当に罪多い私ではございますが、日々頂きます御守護の中から二、三拙筆をも省みませず御報告させて頂きます。<br><br> 私結婚後間もなく主人が満一年七カ月と、生後四カ月の二人の男の子と、八十歳になる祖母を残して結核にて昭和二十四年二月に亡くなりましてより、身体の弱い子を心配しっつ貧と争に悩みながら淋しく暮しておりましたが、市から戴く扶助料では乳の無い子をかかえてどうしてもやって行けず、その年の八月実家の母に来て貰い勤めに出る事に致しましたが、弱い子供はかわるがわる発熱下痢等にて病院へ連れて行かねばなりませんので、勤め先は始終遅刻、あるいは早退をしなければならず、その辛かった事何に替え様もありませんでした。<br><br>そうしている内に十一月実家の兄よりこの尊い神様の御話を聞き、やはり何かに頼らねばならないからというので十一月十八日の松江南田町支部の月例祭にお参りさせて頂きました。<br><br>ちょうどその頃下の子供が中耳炎をしていましたので早速石坂会長先生より御浄霊を頂きました。<br><br>ところがそれまで膿がじくじく出ていましたのが翌日からはピッタリ止ってしまいました。<br><br>これは不思議と思い二、三日通わせて頂き、杉谷支部長先生より御浄霊を頂きすっかりなおして頂きました。<br><br>それでこれは不思議だ、有難いと思いとにかく入信させて頂こうと十二月十三日支部にて杉谷先生より教修を頂き有難い御守様を拝受させて頂きました。<br><br>これよりは子供も病院通い等一切止めただ御浄霊一筋にて参りました。<br><br>御蔭様にて度々御浄化を頂きながら、その都度元気にさせて頂き、その頃は子供の検査に連れて出てもいつも栄養失調と言われていた二人の子供はすっかり元気にさして頂き、毎日いたずらをして遊んでおり、私も安心して勤めに出させて頂いております。<br><br>これも明主様の御守護のお蔭と感謝申し上げております。<br><br> ところが罪多い私には未だ未だ試練がやって参りました。<br><br>それは二十四年の末頃から家を出てくれと家主より矢の催促です。<br><br>この家の不自由な時代にどうして替る家がありましよう。<br><br>おまけに子供連れは嫌われます。<br><br>仕方がありませんのでとうとう実家の一間を借り受けて住む事になり現在の所へ移りました。<br><br>兄も熱心に信仰させて頂き、御神体、御尊影、御屏風観音様を御奉斎させて頂いております。<br><br>私も一日も早く御奉斎させて頂きたく思いながら未だお許しが頂けず、御神体は御奉斎させて頂いておりませんが、御屏風観音様は一昨年五月御奉斎させて頂き、毎日御讃歌、御論文を拝読させて頂いております。<br><br>ところが明主様の御教えの如く御屏風観音様を御奉斎させて頂き、毎日御論文等を読ませて頂く事によって如何に霊界にて先祖の霊が早く救われるかという事を覚らせて頂きました。<br><br> その一つは昨年五月、私に憑霊現象がありまして生死不明であった主人の生母が憑り「自分は二十年余り前朝鮮にて自殺し、その罪と元看護婦をしていた罪とによって地獄に落ちて苦しんでいたが、光明如来様に救われて今は天国に上り、又私の主人ももういい所へ行って皆楽しく暮している。<br><br>これもあなたが信仰するお蔭だ」と大変よろこび「御恩返しをしなければ」と言っておりました。<br><br> その二は九月初め、仏前にて御神書『霊界叢談』を拝読させて頂いておりますと急に頭から肩の方が重くなった様な感が致しそれが二、三日続きました。<br><br>兄より御浄霊を受けさせて頂きますと、はたして憑霊現象あり、主人の祖父が出て参りました。<br><br>それによりますと「自分は今地獄にいる。<br><br>この人（私）がこの信仰に入って毎日拝んでくれるけど何糞と思っていたところが、この間から霊界叢談を読むのでわしの気持も変って来た。<br><br>初めはあんな事を言ってと思って居たが、だんだん聞いているうちに成程わしが悪かった。<br><br>これではいけない。<br><br>これからうんと聞いて一心に修行し、よくなろうと思っている。<br><br>ところがわしは今地獄の一番下の方にいるのでなかなか上れないが、その中きっといい所へ出させて貰えるだろう。<br><br>わしが地獄にいるのは昔医者をしていたからなッ、それでだよ。<br><br>わしはそんな積りじゃなかったが仕方がない。<br><br>やはり医者は駄目だ」とその後いろいろの事を言い「最後にこれからわしも一心におすがりするから毎日よく拝んでくれ、わしの願いはそれだけだ」と言っておりました。<br><br>これによりましても医は仁術なりと言って人助けをしていい様に思っていましたのに、霊界に行けば豈計らんや罪作りにて地獄行きとは…… 次にこの罪多い私も永い間の念願が叶い、この度明主様の御西下に際し御面会のお許しを頂きました事を深く感謝致しておりますが、その時頂きました御守護も御報告させて頂きます。<br><br> それは今の祖父の憑霊より少し以前から頭が重く延髄後頭部が一日五、六回ずつ浄化し脳天は締め付ける様な感が致しておりましたが、御面会によりましてすっかりなおして頂きました。<br><br>これによりまして明主様の御霊光がいかにお強く、御面会させて頂く事によってますます浄められ、御面会させて頂く事のいかに大切な事かという事も覚らせて頂きました。<br><br> 明主様本当に有難うございました。<br><br>厚く厚く御礼申し上げ今日の御報告を終らせて頂きます。<br><br> （昭和二十八年二月二十七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação Sucessiva de Espíritos do Mundo Espiritual</h2>
 <p><strong>(Medicina do Amanhã)</strong></p>
@@ -109,5 +264,48 @@ function toggleLang(lang) {
 <p>Meishu-Sama, muito, muito obrigada.</p>
 <p>Com estas palavras, encerro meu relato, expressando minha mais profunda e sincera gratidão.</p>
 <p><em>(27 de fevereiro de 1953)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 霊界人次々御救い戴く 『栄光』204号、昭和28(1953)年4月15日発行 島根県 隆光中教会 杠（ゆずりは）美年子（30） 明主様 昭和二十四年十二月十三日入信以来、明主様の厚き御守護によりましてこの濁世にありながら何の不安もなく、毎日を楽しく明るく過させて頂いておりますことを衷心より感謝申し上げております。<br/><br/> 本当に罪多い私ではございますが、日々頂きます御守護の中から二、三拙筆をも省みませず御報告させて頂きます。<br/><br/> 私結婚後間もなく主人が満一年七カ月と、生後四カ月の二人の男の子と、八十歳になる祖母を残して結核にて昭和二十四年二月に亡くなりましてより、身体の弱い子を心配しっつ貧と争に悩みながら淋しく暮しておりましたが、市から戴く扶助料では乳の無い子をかかえてどうしてもやって行けず、その年の八月実家の母に来て貰い勤めに出る事に致しましたが、弱い子供はかわるがわる発熱下痢等にて病院へ連れて行かねばなりませんので、勤め先は始終遅刻、あるいは早退をしなければならず、その辛かった事何に替え様もありませんでした。<br/><br/>そうしている内に十一月実家の兄よりこの尊い神様の御話を聞き、やはり何かに頼らねばならないからというので十一月十八日の松江南田町支部の月例祭にお参りさせて頂きました。<br/><br/>ちょうどその頃下の子供が中耳炎をしていましたので早速石坂会長先生より御浄霊を頂きました。<br/><br/>ところがそれまで膿がじくじく出ていましたのが翌日からはピッタリ止ってしまいました。<br/><br/>これは不思議と思い二、三日通わせて頂き、杉谷支部長先生より御浄霊を頂きすっかりなおして頂きました。<br/><br/>それでこれは不思議だ、有難いと思いとにかく入信させて頂こうと十二月十三日支部にて杉谷先生より教修を頂き有難い御守様を拝受させて頂きました。<br/><br/>これよりは子供も病院通い等一切止めただ御浄霊一筋にて参りました。<br/><br/>御蔭様にて度々御浄化を頂きながら、その都度元気にさせて頂き、その頃は子供の検査に連れて出てもいつも栄養失調と言われていた二人の子供はすっかり元気にさして頂き、毎日いたずらをして遊んでおり、私も安心して勤めに出させて頂いております。<br/><br/>これも明主様の御守護のお蔭と感謝申し上げております。<br/><br/> ところが罪多い私には未だ未だ試練がやって参りました。<br/><br/>それは二十四年の末頃から家を出てくれと家主より矢の催促です。<br/><br/>この家の不自由な時代にどうして替る家がありましよう。<br/><br/>おまけに子供連れは嫌われます。<br/><br/>仕方がありませんのでとうとう実家の一間を借り受けて住む事になり現在の所へ移りました。<br/><br/>兄も熱心に信仰させて頂き、御神体、御尊影、御屏風観音様を御奉斎させて頂いております。<br/><br/>私も一日も早く御奉斎させて頂きたく思いながら未だお許しが頂けず、御神体は御奉斎させて頂いておりませんが、御屏風観音様は一昨年五月御奉斎させて頂き、毎日御讃歌、御論文を拝読させて頂いております。<br/><br/>ところが明主様の御教えの如く御屏風観音様を御奉斎させて頂き、毎日御論文等を読ませて頂く事によって如何に霊界にて先祖の霊が早く救われるかという事を覚らせて頂きました。<br/><br/> その一つは昨年五月、私に憑霊現象がありまして生死不明であった主人の生母が憑り「自分は二十年余り前朝鮮にて自殺し、その罪と元看護婦をしていた罪とによって地獄に落ちて苦しんでいたが、光明如来様に救われて今は天国に上り、又私の主人ももういい所へ行って皆楽しく暮している。<br/><br/>これもあなたが信仰するお蔭だ」と大変よろこび「御恩返しをしなければ」と言っておりました。<br/><br/> その二は九月初め、仏前にて御神書『霊界叢談』を拝読させて頂いておりますと急に頭から肩の方が重くなった様な感が致しそれが二、三日続きました。<br/><br/>兄より御浄霊を受けさせて頂きますと、はたして憑霊現象あり、主人の祖父が出て参りました。<br/><br/>それによりますと「自分は今地獄にいる。<br/><br/>この人（私）がこの信仰に入って毎日拝んでくれるけど何糞と思っていたところが、この間から霊界叢談を読むのでわしの気持も変って来た。<br/><br/>初めはあんな事を言ってと思って居たが、だんだん聞いているうちに成程わしが悪かった。<br/><br/>これではいけない。<br/><br/>これからうんと聞いて一心に修行し、よくなろうと思っている。<br/><br/>ところがわしは今地獄の一番下の方にいるのでなかなか上れないが、その中きっといい所へ出させて貰えるだろう。<br/><br/>わしが地獄にいるのは昔医者をしていたからなッ、それでだよ。<br/><br/>わしはそんな積りじゃなかったが仕方がない。<br/><br/>やはり医者は駄目だ」とその後いろいろの事を言い「最後にこれからわしも一心におすがりするから毎日よく拝んでくれ、わしの願いはそれだけだ」と言っておりました。<br/><br/>これによりましても医は仁術なりと言って人助けをしていい様に思っていましたのに、霊界に行けば豈計らんや罪作りにて地獄行きとは…… 次にこの罪多い私も永い間の念願が叶い、この度明主様の御西下に際し御面会のお許しを頂きました事を深く感謝致しておりますが、その時頂きました御守護も御報告させて頂きます。<br/><br/> それは今の祖父の憑霊より少し以前から頭が重く延髄後頭部が一日五、六回ずつ浄化し脳天は締め付ける様な感が致しておりましたが、御面会によりましてすっかりなおして頂きました。<br/><br/>これによりまして明主様の御霊光がいかにお強く、御面会させて頂く事によってますます浄められ、御面会させて頂く事のいかに大切な事かという事も覚らせて頂きました。<br/><br/> 明主様本当に有難うございました。<br/><br/>厚く厚く御礼申し上げ今日の御報告を終らせて頂きます。<br/><br/> （昭和二十八年二月二十七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

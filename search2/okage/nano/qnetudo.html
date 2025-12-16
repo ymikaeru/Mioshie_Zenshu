@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnetudo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 熱度九百度､長さ百二十米の 熱鉄に巻き込まれ一命を救わる 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 神奈川県 長生中教会 長谷川義介（37） 今思い出しても戦慄するような、肌に粟を生じる恐ろしさでございます。<br><br> 明主様より、これ以上の御守護はないとまでの御守護を戴きまして、罪穢多き私ごときに御怒りもなく、入信依頼数々の御守護を賜わります事は、何と恐れ多い事でございましょう。<br><br>厚く厚く御礼申し上げますと共に御報告をさせて戴きます。<br><br>顧みますれば一月七日午前六時五分の出来事でございます。<br><br>私達の工場は圧延と申しまして、九十キロの鋼材を加熱炉に入れ引出します時は千百度位あります。<br><br>それを線材に圧延致します。<br><br>機械は五百馬力と八百馬力のロールで、一方は七百回一方は二百五十回の速さで熱鉄を噛み込みはき出すのであります。<br><br>一秒に約六、七米延び、それを鉄箸にてつかみ次のロールに噛み込ませる仕事でございます。<br><br>私は片側の班長を務めており、欠勤のない時は、ただ機械の調子を見たり、班員に注意をする程度でございますが、その日は正月の七草にて、欠勤者が多きため、私も鉄箸を取り熱鉄操作に当り、作業中不馴でその上素人である二、三人を相手に作業致しています途中、ちょっとの不注意から、延び行く熱鉄が、順調に延ばすべく置いてあるアングルにからんだため、アアと思う瞬間目にも止らぬ速さで、熱鉄のからまったアングルは、大音響と共に鉄砂塵を上げて私の立っていた右足を払い転換して頭上に落下して参りました。<br><br>足を払われた私は後に倒れながら、一瞬私の脳裡にひらめいたのは、明主様の御尊顔でございました。<br><br>するとどこからともなく右に伏せと言う、声ともつかぬ思いが頭の隅から発せられ、間髪をいれず命ぜられたままに打伏せ、頭上の熱鉄は不気味な音を立てて引掛けたものを巻込みつつ機械に当り、飛び散るのがはっきり目に映りました。<br><br>何しろ百度の鉄材が頭上一尺に近い所を一秒七米の速さで、百二十米の長さが通り去る間は、生心地なくただ右手で胸の御守様をしっかりと押え、運命は神様におまかせ致すより外にどうする事も出来ませんでした。<br><br>熱鉄が延び行くよう、噛み入るよう、鉄の行動が通り過ぎる間を、生死の岐路にありながら、はっきりと不断と変る事なく見分けられました。<br><br>安堵の気持も束の間で、猛け狂った熱鉄の最後が、頭に触りましたのを感じ、右手にて払いのけましたが、熱鉄は頭から首へ落ちて来て、じりじりと髪は焼け脇の下を通り床に落ちました。<br><br>大嵐の後の様に、荒れた広場に足を引きずりながら出ると、部下は顔色を変えて走り寄り、泣いて無事を喜んでくれました。<br><br>ですが私の気持は平常と変る事なく、とり騒ぐ皆の行動がおかしい位でした。<br><br>その内の一人がどこか怪我をされてはいないかと、ズボンを巻き上げて見ましたところ、どうでしょう。<br><br>全然気が付かなかったのに、あに計らんや、膝下に鈎の手に百五十ミリに及ぶ切傷でした。<br><br>骨まで見ゆる程の重傷でした。<br><br>ぱっくり開いた傷はものすごく、見ている者の中で貧血を起す人さえありました。<br><br>肩や背の衣服の火を消してくれる者や、頭髪を直してくれる者、足の傷口に手拭をあててくれる者とあり、とにかく医師に縫ってもらわねばと自動車にて、病院に担ぎ込まれてしまいました。<br><br>医師にもひどい怪我だと言われて、二十五針縫いそのまま自動車にて家に帰りました。<br><br>すぐ支部の西村先生にお願い申し上げ御浄霊をして戴きました。<br><br>これだけの怪我をしているのにも拘らず、全然痛みもなく、どこを怪我したと思われるようにて二度吃驚です。<br><br>医師はこれ程の傷でしたらどうしても一カ月はたっぷりかかりましょう、と言われましたが、何と十日でこれ程の傷が全快しましたのでございます。<br><br>今までに他工場では巻き込まれて助かった者は、一人もいないとまで言われましたのが、ただ足の傷一カ所で、それも無痛であり、短時日にて再び職場に出られたのは類がないと言われました。<br><br>これも人間の力のみでは死を防止する事は不可能と思われます。<br><br>ひとえに明主様の御守護の賜物とただただ感謝致します外、何ものもございません。<br><br>大愛深き明主様有難うございました。<br><br>厚く厚く御礼申し上げますと共に、地上天国建設に人類救済の御目的に、より以上御協力させて戴きまして御恩報じをさせて頂きます。<br><br> （昭和二十八年二月十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo de ser envolvido por uma barra de ferro de 120 metros a 900 graus de temperatura</h2>
 <p><em>Coletânea de Milagres da Sekaikyuseikyo</em>, publicação de 10 de setembro de 1953
@@ -106,5 +261,48 @@ Província de Kanagawa, Igreja Tyossei-Naka, Yoshisuke Hasegawa (37 anos)</p>
 <p>É evidente que a força humana, por si só, seria incapaz de evitar a morte em tal circunstância. Isso foi, sem sombra de dúvida, uma dádiva da imensa proteção de Meishu-Sama, e por ela minha gratidão é infinita.</p>
 <p>Agradeço do fundo do coração ao magnânimo e misericordioso Meishu-Sama. Como forma de retribuir por esta graça imensurável, dedicarei-me ainda mais a colaborar com a Vossa nobre causa da construção do Paraíso Terrestre e da salvação da humanidade.</p>
 <p>(15 de fevereiro de 1953)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 熱度九百度､長さ百二十米の 熱鉄に巻き込まれ一命を救わる 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 神奈川県 長生中教会 長谷川義介（37） 今思い出しても戦慄するような、肌に粟を生じる恐ろしさでございます。<br/><br/> 明主様より、これ以上の御守護はないとまでの御守護を戴きまして、罪穢多き私ごときに御怒りもなく、入信依頼数々の御守護を賜わります事は、何と恐れ多い事でございましょう。<br/><br/>厚く厚く御礼申し上げますと共に御報告をさせて戴きます。<br/><br/>顧みますれば一月七日午前六時五分の出来事でございます。<br/><br/>私達の工場は圧延と申しまして、九十キロの鋼材を加熱炉に入れ引出します時は千百度位あります。<br/><br/>それを線材に圧延致します。<br/><br/>機械は五百馬力と八百馬力のロールで、一方は七百回一方は二百五十回の速さで熱鉄を噛み込みはき出すのであります。<br/><br/>一秒に約六、七米延び、それを鉄箸にてつかみ次のロールに噛み込ませる仕事でございます。<br/><br/>私は片側の班長を務めており、欠勤のない時は、ただ機械の調子を見たり、班員に注意をする程度でございますが、その日は正月の七草にて、欠勤者が多きため、私も鉄箸を取り熱鉄操作に当り、作業中不馴でその上素人である二、三人を相手に作業致しています途中、ちょっとの不注意から、延び行く熱鉄が、順調に延ばすべく置いてあるアングルにからんだため、アアと思う瞬間目にも止らぬ速さで、熱鉄のからまったアングルは、大音響と共に鉄砂塵を上げて私の立っていた右足を払い転換して頭上に落下して参りました。<br/><br/>足を払われた私は後に倒れながら、一瞬私の脳裡にひらめいたのは、明主様の御尊顔でございました。<br/><br/>するとどこからともなく右に伏せと言う、声ともつかぬ思いが頭の隅から発せられ、間髪をいれず命ぜられたままに打伏せ、頭上の熱鉄は不気味な音を立てて引掛けたものを巻込みつつ機械に当り、飛び散るのがはっきり目に映りました。<br/><br/>何しろ百度の鉄材が頭上一尺に近い所を一秒七米の速さで、百二十米の長さが通り去る間は、生心地なくただ右手で胸の御守様をしっかりと押え、運命は神様におまかせ致すより外にどうする事も出来ませんでした。<br/><br/>熱鉄が延び行くよう、噛み入るよう、鉄の行動が通り過ぎる間を、生死の岐路にありながら、はっきりと不断と変る事なく見分けられました。<br/><br/>安堵の気持も束の間で、猛け狂った熱鉄の最後が、頭に触りましたのを感じ、右手にて払いのけましたが、熱鉄は頭から首へ落ちて来て、じりじりと髪は焼け脇の下を通り床に落ちました。<br/><br/>大嵐の後の様に、荒れた広場に足を引きずりながら出ると、部下は顔色を変えて走り寄り、泣いて無事を喜んでくれました。<br/><br/>ですが私の気持は平常と変る事なく、とり騒ぐ皆の行動がおかしい位でした。<br/><br/>その内の一人がどこか怪我をされてはいないかと、ズボンを巻き上げて見ましたところ、どうでしょう。<br/><br/>全然気が付かなかったのに、あに計らんや、膝下に鈎の手に百五十ミリに及ぶ切傷でした。<br/><br/>骨まで見ゆる程の重傷でした。<br/><br/>ぱっくり開いた傷はものすごく、見ている者の中で貧血を起す人さえありました。<br/><br/>肩や背の衣服の火を消してくれる者や、頭髪を直してくれる者、足の傷口に手拭をあててくれる者とあり、とにかく医師に縫ってもらわねばと自動車にて、病院に担ぎ込まれてしまいました。<br/><br/>医師にもひどい怪我だと言われて、二十五針縫いそのまま自動車にて家に帰りました。<br/><br/>すぐ支部の西村先生にお願い申し上げ御浄霊をして戴きました。<br/><br/>これだけの怪我をしているのにも拘らず、全然痛みもなく、どこを怪我したと思われるようにて二度吃驚です。<br/><br/>医師はこれ程の傷でしたらどうしても一カ月はたっぷりかかりましょう、と言われましたが、何と十日でこれ程の傷が全快しましたのでございます。<br/><br/>今までに他工場では巻き込まれて助かった者は、一人もいないとまで言われましたのが、ただ足の傷一カ所で、それも無痛であり、短時日にて再び職場に出られたのは類がないと言われました。<br/><br/>これも人間の力のみでは死を防止する事は不可能と思われます。<br/><br/>ひとえに明主様の御守護の賜物とただただ感謝致します外、何ものもございません。<br/><br/>大愛深き明主様有難うございました。<br/><br/>厚く厚く御礼申し上げますと共に、地上天国建設に人類救済の御目的に、より以上御協力させて戴きまして御恩報じをさせて頂きます。<br/><br/> （昭和二十八年二月十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

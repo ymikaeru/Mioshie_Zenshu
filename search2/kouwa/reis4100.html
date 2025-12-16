@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reis4100</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ７ 100-123 墓所２ 100 子と父の墓の大小 子供の墓（既に出来ている）より、父の墓を小さくしては不可でしょうか。<br><br> 父の墓より子の墓を大きくしてはいけない。<br><br>位置を下の場所へ祭るのはいい。<br><br> 101 墓地の玉垣 墓地の玉垣を造り、それより家に不幸が絶えぬのですが、取り除くべきでありましょうか。<br><br> 玉垣は造るべきである。<br><br>（S24. 5.25） 102 墓石の屋根 墓石に屋根を造れば不幸が続くとの事で御座いますが、霊的に何か意味が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 意味という訳でない。<br><br>墓石に屋根を作るのは嘘である。<br><br>屋根は人間の住む家にし、雨露を凌ぐためにする。<br><br>霊になればそれは問題でない。<br><br>霊を扱うのに、体を扱うような事をするので、手数の掛るのは止めた方がよい。<br><br>（人間以上）今一つ位のある神は屋根を作る。<br><br>一般庶民が作るのは嘘である。<br><br>（S24. 7.21） 103 人姿の墓石何度も倒る ある信者の御宅で四、五代前に子守を雇い、その子守が亡くなりましたので実家へ帰さず、家の墓地へ骨を納めました。<br><br>そして人間の姿を刻んだ墓石を立ててありますが、最近この墓石が何度となく倒れ、その度毎に家の誰かが頭を病みます。<br><br>墓石を元通り立てると頭がなおるそうで御座居ますが、人間の姿を刻んだ墓石に何か関係があるので御座居ましょうか。<br><br>御伺い申し上げます。<br><br> 文字の墓石でなくてはいけない。<br><br>それを知らしてるのである。<br><br>本人は反って苦しいのである。<br><br>祖先より立派にしてはいけない。<br><br>位置を下にしたり、字を小さくしたりする。<br><br> 骨長ければそのままでもよい。<br><br>（S24. 6. 2） 104 墓地の大木、骨刺すを知らす ある家で主人が大変頭が痛く、続いて腰が痛くなりましたので、ある神様に見て貰いましたところ、墓地に大木の根が来ているから、祖霊が知らせているとの事で御座いましたので、墓地を掘り起して見ますと、松の木の根が頭蓋骨と腰骨を貫いていましたので、早速根本を切り取り始末を致しましたところ、病気が全快したとの事で御座います。<br><br>こんな事はあり得る事で御座いましょうか。<br><br>またあると致しますと、現在林の中に土葬にする地方が御座いますが、どう致しますれば宜敷う御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> こういう事はある。<br><br>死んだ骸は、ある時期まで、霊界の霊と霊線が通じている。<br><br>それでこういう事があるとある程度霊にも苦痛があるので、こういう事をして気づかしたのである。<br><br> 墓のまわりに大木などあってはいけない。<br><br>墓の近くにある場合は、墓の方へ行く根を切ればよい。<br><br>（S25. 2.11） 105 墓の移転 屋敷内に墓があったのを家を建てるのに移転しました。<br><br>それから次々と死人が出たり不具者が出来たりして、現在子供二人不具者があります。<br><br>主人は今度の戦争で戦死しました。<br><br> 石塔はそのままで移転したところにあってよろしいのでしょうか。<br><br>またその因縁を切るにはいかにしたらよいのでしょうか。<br><br>私は最近御光を戴いたもので御座いますが御教え下さい。<br><br> 移転する必要のある場合は、言葉で先祖へ向ってお願する。<br><br>そうすれば差支えない。<br><br>止むを得ぬ事は仕方ない。<br><br>霊も納得する。<br><br>そうすれば何でもない。<br><br>そうしないのは、先祖の納得がゆかぬのではないか。<br><br>因縁は切らぬようにすべきで、切ってはいけない。<br><br>よくお詫びして、光明如来様にお願して、祖先が承知するようして戴く。<br><br> 106 墓石除去、骨在所不明 土木工事のため墓石を取除きましたので、骨の在り場が判明しないのですが、どうすれば良いでしょうか。<br><br> これは無断強制立退のようなものである。<br><br>墓石を取除く時に、お断りしなくてはいけない。<br><br>無断でやれば腹が立つ訳だ。<br><br>（S24. 4.28） 107 新墓地への移転 以前よりの墓地が狭いため、この度寺の近くへ新墓地を求めました。<br><br>以前の墓地は一年五ケ月土葬して御座いますが、新墓地へ移したいと思います。<br><br>この際いかが致したらよろしう御座いましょうか。<br><br> 分家だから構わぬ。<br><br>祖先があると簡単にゆかぬ。<br><br>（S24. 8. 9） 108 墓地移転 東京にお墓がありまして、住所は新潟のため思うようにお墓参りが出来ないので御座います。<br><br>お墓を移すことの良否をお教え下さい。<br><br> 最近死亡した子供のお骨は、新潟のお寺にお預けして御座います。<br><br> やむを得ぬ事情なら、移転するもよい。<br><br>（S24. 6.29） 109 墓地のみの変更 私の郷里高野山付近では、死体を埋葬いたしますと一年忌に石碑をその埋葬した上に建てます。<br><br>ところが私の妻が三年前に亡くなりまして、ただ今迄石碑を建てておりません。<br><br>私は今度分家を致しまして、転宅と同時に近くのお寺にて墓地を求め、妻の石碑を（遺骨を埋葬していない）新しい墓地に建てたいと思います。<br><br>いかがなもので御座いましょうか。<br><br>この場合の注意をお伺い申し上げます。<br><br> 差つかえない。<br><br>高野山が遠いためであるからお墓詣りなど行くのに便利な必要から――という理由があれば祟ったりなどしない。<br><br>霊を無視するような事は怒る。<br><br>（S25. 1.17） 110 動墓と災 私の先祖は伊勢の山田奉行を務めておりました頃、遠藤と名乗っておりましたが、中村家を嗣ぎましてから遠藤の姓を廃籍致し、中村家を嗣ぎ、分家して現在に至ったのですが、私のところには現在、遠藤家と中村家の先祖をお祭りしております。<br><br>私は普段体が悪いので、ある所でお伺い致しますと、先祖の墓を動かしたからと言われました。<br><br>私もお墓を動かしたと言う事を聞いておりましたが、確実な事は分りませんが、本当に動かした事が悪かったのでしょうか。<br><br>動かしたのは両家共で御座います。<br><br>いかがなものでしょうか。<br><br> 動かして悪い事はない。<br><br>不可抗力の事情、止むに止まれず動かすのは差支えない。<br><br>それは祖先としてよく知っており理解する。<br><br>人間の勝手で動かすと怒る。<br><br>それで気づかせようとしていろいろやる。<br><br>これは古くなっているから今更必要ない。<br><br>詫びればよい。<br><br>この信仰に入れば差支えない。<br><br>（S24. 3. 4） 111 墓移動 先祖代々の墓を移動するにはどう致したらよいでしょうか。<br><br> 理由があれば霊も移動を承知する。<br><br>（S24. 2.20） 112 墓石移動して家運傾き霊に襲わる 安田ミヱ、女、二十九才、この人の家は三代前迄は豊かで地所も相当持っておりましたが、段々悲運におちいり、家屋敷も人手に渡り、わずかの家になりました。<br><br>今から十五年程前に土地がせまいために、先祖の墓石を寺に納めてしまい、その後は堆肥の置場所にしてあります。<br><br> 二年前入信、昨年二月に光明如来様の御祭りをさせて頂きましたところ、最近左のような事実がありましたので、墓石と何か関係がありましょうか。<br><br>またどうしたら良いでしょうか。<br><br> 一、八才の女児、夜中に急にふるえ出し、真赤な顔をし、歯を喰いしばり、苦しそうな状態であったのが、御光を頂いた一同が御浄霊をさせて頂きましたが治らず、祝詞を奏げますと終りの頃には右の子供が一緒に唱和するようになり、治ってしまいました。<br><br>後で子供に聞いてみると、白い着物を着たおじいさんが来て、手を掴んで連れて行こうとしましたので恐しかったと言いました。<br><br> 二、母親はある夜中に、苦しそうにうめき声を出しますので、揺り起してみますと、次の夢を見たと申します。<br><br> 「買物の帰りに男の人がついて来て、家に入ると同時におぶさってしまいました。<br><br>いくら叫んでも離れず苦しいので、一生懸命娘の名を呼んでいたのだ」とまたこの夢以来毎晩のごとく「寝床の上に人が上って来て苦しくて困る」と言います。<br><br>またこの母親は咳がひどく、体が疲れ、特に二ケ月前に転んで肩から腰を痛めて、さわる事も出来なかったのが、御浄霊で楽になりました。<br><br> 先からあった所を移動するには、手続きをしなくてはいけない。<br><br>寺に納めても墓石へ来る事が出来ず困る。<br><br>白衣の人は祖先の一人である。<br><br>連れてゆこうとしたために苦しんだ。<br><br>祝詞を奏げたので満足した。<br><br>おぶさったのは、男の子が霊界で育った、子供の時の想念が残っていておぶさったのである。<br><br> 墓詣りして許してもらいたいといって断る。<br><br>そして善言讃詞を奏げる。<br><br>でないと、墓石はうつっても、うつる事ができない。<br><br>（S24. 5. 4） 113 墓地へ校舎建築 中学校舎建築に付、祖先代々の墓を移転致すのでありますが、墓つちを持って移転するを可とする僧と、骨まで持って行くべく言う僧と二人ありますが、いずれがよろしきや御伺い申し上げます。<br><br> 骨まで持ってゆく方がよい。<br><br>土だけ持って行っても仕様がない。<br><br>後へ学校など建て、骨があると執着のある霊は嫌がる。<br><br>霊は潔癖になるので、死後汚ないものや醜いものがあるのを嫌がる。<br><br> 寺の跡などへ建てると、死人が出来たりなどする。<br><br>（S24.10.23） 114 墓地の土を移す事 田舎の墓地を東京に移したいと思いますが、お坊さんの話によれば、その墓地の土を持って来れば宜しいとの事ですが、それで宜しいでしょうか。<br><br>なお宗旨の変更はありません。<br><br> 理由があれば差支えない。<br><br>（S24.12. 3） 115 遠隔地の墓 私の祖先の墓は生地にあり、弟の墓は現住地にあり、生地と七、八十里離れているので、御用の都合で一年に一度か、二年に一度位しか御詣り出来ません。<br><br>法事の時参れない場合は、仏壇の祖先の霊に御ことわり申し上げれば宜敷いでしょうか。<br><br>またもし現住地を替る場合、墓はそのままとし御寺に御願して置けば、祖先の霊に失礼にはなりませんでしょうか。<br><br> また私と妻はそれぞれ先祖代々の位牌を作りました。<br><br>そのまま仏壇に御祭して宜敷いでしょうか。<br><br>それとも御寺かどこかで御霊入をして頂かなければならないでしょうか。<br><br>あわせて御教示を御願い致します。<br><br> 遠くにあってどうしても行けぬ場合は、誰か代りをやる。<br><br>代りがなければ祖霊に断わる。<br><br>誠が通ずればよい。<br><br>身魂入など意味ない。<br><br>家で戒名にお供えし拝めばよい。<br><br>（位牌は霊界名）（S24. 6.28） 116 墓地遠隔と宗派の別 私の家は元浄土真宗で、父は分家を創立しましたので、郷里の島根県に母、長兄及び三兄だけの墓がありました。<br><br>七年前父が死去した時は東京に住んでおりましたので、遠方のため次兄が一家の墓を宗旨違いでしたが、東京の禅宗の寺（母の実家の菩提寺）に移しました。<br><br>その後二兄は持病で死亡し、私が不在のため母方の親戚が二兄を禅宗で葬りました。<br><br>それ故位牌は、二兄は禅宗の戒名ですが他は全部浄土真宗であります。<br><br> (一) 私が改めて墓を祀り直すには、父の郷里迄行かねばなりませんか。<br><br> (二) また二兄の戒名を改めるにはいかにしたらよいでしょうか。<br><br>御教え下さい。<br><br> (三) 出来る事なら東京付近の浄土真宗の寺に墓を移したいと考えてますが、現状のままで差支えないでしょうか。<br><br>御伺いします。<br><br> 浄土真宗で祀られた霊が多いから、それで祀るのもよく、遠いから近くへ祀るのもまた良い。<br><br>出来るだけそうしてやった方がよい。<br><br>（S24. 5.17） 117 霊の救いの効果（遠隔墓） 墓参に行かなくとも、善言讃詞をその霊に奏げてやる気持で奏げる。<br><br>そうすると離れていても霊へは届く。<br><br> 出来るだけ祀ってやった方が功徳になる。<br><br> 霊の感謝は非常なもので、きっとお道のため働くから、寧ろ生きた人間より霊を救った方が効果的である。<br><br> 118 墓場を作らぬ家 元士族（知行百石取の武士）の家庭でありますが、先祖よりの言い伝えにて「墓場を造ると必ず家庭に異変がある」と言われ、代々墓を造らずにありますが、いかがでしょうか。<br><br>この家の一統は総て同様にしておりますが、霊的に何かあるのでしょうか。<br><br>御教示願います。<br><br> 墓場を作る事を嫌がる霊があるとみえる。<br><br>何事もなかったらそれでよい。<br><br>（作りたくなったお知らせがある。<br><br>）（S24. 8. 8） 119 別々の墓 父母と妻の墓があり、お参りしておりますが、私の息子が戦死し他のお寺へ墓を造りお参りしております。<br><br>別れていてもよいでしょうか。<br><br>お教え下さい。<br><br> これはよくない。<br><br>外へ祀るのが本当である。<br><br>事情により一時はそうしてもいいが、将来は一緒にしなくてはいけない。<br><br>（S24.12.27） 120 納骨せるものの墓 私の父並びに兄の墓はなく、京都西大谷納骨所に納骨してありますが、墓は造った方が良いでしょうか。<br><br>御教示下さい。<br><br> そのままでよい。<br><br>ただ仏様だけは作る。<br><br>お屏風観音様をお祭りすればよい。<br><br>（S *. 7. 8） 121 古墳発掘 神聖なる土地を発掘し、科学的にもとづく研究を達せんとする学者と、信仰の対象を単なる物として扱われる信仰への侮辱を感ずる宗教家、この解決はいかになさるべきでしょうか。<br><br> ツタンカーメンの墓などはすごい。<br><br>査べると必ず死ぬ。<br><br>やりたければやる。<br><br>科学者の立場ではやるのが本当である。<br><br>汚して困るのももっともである。<br><br>（S24. 9.23） 122 古墳発掘の怪―解決の道 左記について御伺い申し上げます。<br><br> （イ）私はただ今奈良県にて潅漑用溜池を築造している者ですが、私のしている工事場は飛鳥朝以前の古墳が散在し、これを取壊して十年以前より工事を初めましたが、現在所員で発狂状態の人があり、家族が不動様信者に見てもらいますと、数多く今迄に取壊した古墳の内、一人の立派な方と祖霊が懸っておられるとの事で、その時古墳の霊が言った事は、 （１）今迄に所長を二人殺し、今この者に懸っている事。<br><br> （２）今合同で祀っている所は大変いづらいので、他所にて自分一人祀ってもらいたい事。<br><br> （３）一人祀らないなら今の事務所の幹部を殺すこと。<br><br> （４）以前自分を祀っておった五輪塔の石を土の中から掘り出す事。<br><br> 等をその信者が神憑りになって言ったそうです。<br><br>この内事務所の所長が二人死んだ事と合同祀した事は事実でありまして、事実と一致しております。<br><br> 右の不動様の信者の言は信じねばならないでしょうか。<br><br>もし信ずるとすれば、 （１）古墳の霊はどうお祀したら良いでしょうか。<br><br> （２）五輪塔の石は数多い古墳の事です故見当が付きにくく、どこに埋れているか解りませんがどうしたら良いでしょうか。<br><br>また今後、工事上古墳を壊す場合はどうしたら良いでしょうか。<br><br> なお人夫三人が工事中変死し、子供一人が水死し、一人が爆破の石で心臓が破れて死んでおりますが、これらの霊はどうしたらよいでしょうか。<br><br> 古墳の石棺、土器はどう処置すべきでしょうか。<br><br> （ロ）ただ今所員で杉本廣成と言う者が、昨年八月頃より大変喋り出し一月末頃頭痛がすると言って帰宅し、発狂し十三日程普通人と同じ状態が続き、六日間失神状態になり、周期的にこの状態が起ります。<br><br>失神する時は半日位で除々に黙り込み、食事をとるのみで六日過ぎ、良くなる時は半時間位で普通人となります。<br><br>失神の時は食事は臭、色、湯気を嫌いこれらのあるものは食しません。<br><br> （１）これは祖霊、古墳霊が懸るためでしょうか。<br><br> （２）どうすれば良くなるでしょうか。<br><br> 自分も昨年神経衰弱を起し、浄霊により良くなして戴きました。<br><br>今から思うと古墳霊が憑いておったのでしょう。<br><br>無き命助けて戴き有難う御座いました。<br><br> 不動信者の言った事は本当である。<br><br>古墳には偉い人がある。<br><br>偉い霊が祟っているのである。<br><br>人間で偉いのは霊界へ行っても力がある。<br><br> 霊のいう通りにしてやる。<br><br>五輪塔が判らなかったらよく光明如来様にお願して、五輪の塔を掘らして戴くようお願してすると自然にその気がして掘る事になる。<br><br>霊の言う通りにしてやる。<br><br>この人に関係があるから祀ってやる。<br><br>戒名でいい。<br><br>それに関係した人は出来るだけ入信するといい。<br><br>箱根辺り随分危い事がある。<br><br>（S25. 4.17） 123 祀った墓石の処置 昭和十四年、土掘作業中「享祿二年十一月吉日妙西禅尼」と書いた墓石が掘出されましたので、そこにお堂を建てお祭してありますが、作業中邪魔になりますが、処分致すにはどう致したらよろしゅう御座居ますか。<br><br>お伺い申し上げます。<br><br> 邪魔でない所へ移す。<br><br>事情を言って断るのである。<br><br>人の踏んだり近よったりせぬ所へ囲いをしてやる。<br><br>（S24. 6. 2）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Túmulos 2</h2>
 <p><strong>100. O tamanho do túmulo do filho em relação ao do pai</strong></p>
@@ -180,5 +332,48 @@ Eu mesmo sofri de esgotamento nervoso no ano passado e fui curado pelo Johrei. R
 <p><strong>123. O destino de uma lápide encontrada e cultuada</strong></p>
 <p><em>Pergunta:</em> Em 1939, durante uma escavação, foi encontrada uma lápide com a inscrição “Myosai Zenni, um dia auspicioso de novembro, segundo ano da era Kyoroku” (1529). Construímos um pequeno santuário no local para cultuá-la. Contudo, ela se tornou um obstáculo para o trabalho. Como devemos proceder para removê-la? Rogo por seus esclarecimentos.</p>
 <p><em>Resposta:</em> Transfiram-na para um local onde não cause transtorno. Expliquem a situação e peçam permissão ao espírito. Escolham um lugar onde não seja pisoteada ou perturbada por pessoas e cerquem-no devidamente. (2 de junho de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊祀篇 第四篇 ７ 100-123 墓所２ 100 子と父の墓の大小 子供の墓（既に出来ている）より、父の墓を小さくしては不可でしょうか。<br/><br/> 父の墓より子の墓を大きくしてはいけない。<br/><br/>位置を下の場所へ祭るのはいい。<br/><br/> 101 墓地の玉垣 墓地の玉垣を造り、それより家に不幸が絶えぬのですが、取り除くべきでありましょうか。<br/><br/> 玉垣は造るべきである。<br/><br/>（S24. 5.25） 102 墓石の屋根 墓石に屋根を造れば不幸が続くとの事で御座いますが、霊的に何か意味が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 意味という訳でない。<br/><br/>墓石に屋根を作るのは嘘である。<br/><br/>屋根は人間の住む家にし、雨露を凌ぐためにする。<br/><br/>霊になればそれは問題でない。<br/><br/>霊を扱うのに、体を扱うような事をするので、手数の掛るのは止めた方がよい。<br/><br/>（人間以上）今一つ位のある神は屋根を作る。<br/><br/>一般庶民が作るのは嘘である。<br/><br/>（S24. 7.21） 103 人姿の墓石何度も倒る ある信者の御宅で四、五代前に子守を雇い、その子守が亡くなりましたので実家へ帰さず、家の墓地へ骨を納めました。<br/><br/>そして人間の姿を刻んだ墓石を立ててありますが、最近この墓石が何度となく倒れ、その度毎に家の誰かが頭を病みます。<br/><br/>墓石を元通り立てると頭がなおるそうで御座居ますが、人間の姿を刻んだ墓石に何か関係があるので御座居ましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 文字の墓石でなくてはいけない。<br/><br/>それを知らしてるのである。<br/><br/>本人は反って苦しいのである。<br/><br/>祖先より立派にしてはいけない。<br/><br/>位置を下にしたり、字を小さくしたりする。<br/><br/> 骨長ければそのままでもよい。<br/><br/>（S24. 6. 2） 104 墓地の大木、骨刺すを知らす ある家で主人が大変頭が痛く、続いて腰が痛くなりましたので、ある神様に見て貰いましたところ、墓地に大木の根が来ているから、祖霊が知らせているとの事で御座いましたので、墓地を掘り起して見ますと、松の木の根が頭蓋骨と腰骨を貫いていましたので、早速根本を切り取り始末を致しましたところ、病気が全快したとの事で御座います。<br/><br/>こんな事はあり得る事で御座いましょうか。<br/><br/>またあると致しますと、現在林の中に土葬にする地方が御座いますが、どう致しますれば宜敷う御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> こういう事はある。<br/><br/>死んだ骸は、ある時期まで、霊界の霊と霊線が通じている。<br/><br/>それでこういう事があるとある程度霊にも苦痛があるので、こういう事をして気づかしたのである。<br/><br/> 墓のまわりに大木などあってはいけない。<br/><br/>墓の近くにある場合は、墓の方へ行く根を切ればよい。<br/><br/>（S25. 2.11） 105 墓の移転 屋敷内に墓があったのを家を建てるのに移転しました。<br/><br/>それから次々と死人が出たり不具者が出来たりして、現在子供二人不具者があります。<br/><br/>主人は今度の戦争で戦死しました。<br/><br/> 石塔はそのままで移転したところにあってよろしいのでしょうか。<br/><br/>またその因縁を切るにはいかにしたらよいのでしょうか。<br/><br/>私は最近御光を戴いたもので御座いますが御教え下さい。<br/><br/> 移転する必要のある場合は、言葉で先祖へ向ってお願する。<br/><br/>そうすれば差支えない。<br/><br/>止むを得ぬ事は仕方ない。<br/><br/>霊も納得する。<br/><br/>そうすれば何でもない。<br/><br/>そうしないのは、先祖の納得がゆかぬのではないか。<br/><br/>因縁は切らぬようにすべきで、切ってはいけない。<br/><br/>よくお詫びして、光明如来様にお願して、祖先が承知するようして戴く。<br/><br/> 106 墓石除去、骨在所不明 土木工事のため墓石を取除きましたので、骨の在り場が判明しないのですが、どうすれば良いでしょうか。<br/><br/> これは無断強制立退のようなものである。<br/><br/>墓石を取除く時に、お断りしなくてはいけない。<br/><br/>無断でやれば腹が立つ訳だ。<br/><br/>（S24. 4.28） 107 新墓地への移転 以前よりの墓地が狭いため、この度寺の近くへ新墓地を求めました。<br/><br/>以前の墓地は一年五ケ月土葬して御座いますが、新墓地へ移したいと思います。<br/><br/>この際いかが致したらよろしう御座いましょうか。<br/><br/> 分家だから構わぬ。<br/><br/>祖先があると簡単にゆかぬ。<br/><br/>（S24. 8. 9） 108 墓地移転 東京にお墓がありまして、住所は新潟のため思うようにお墓参りが出来ないので御座います。<br/><br/>お墓を移すことの良否をお教え下さい。<br/><br/> 最近死亡した子供のお骨は、新潟のお寺にお預けして御座います。<br/><br/> やむを得ぬ事情なら、移転するもよい。<br/><br/>（S24. 6.29） 109 墓地のみの変更 私の郷里高野山付近では、死体を埋葬いたしますと一年忌に石碑をその埋葬した上に建てます。<br/><br/>ところが私の妻が三年前に亡くなりまして、ただ今迄石碑を建てておりません。<br/><br/>私は今度分家を致しまして、転宅と同時に近くのお寺にて墓地を求め、妻の石碑を（遺骨を埋葬していない）新しい墓地に建てたいと思います。<br/><br/>いかがなもので御座いましょうか。<br/><br/>この場合の注意をお伺い申し上げます。<br/><br/> 差つかえない。<br/><br/>高野山が遠いためであるからお墓詣りなど行くのに便利な必要から――という理由があれば祟ったりなどしない。<br/><br/>霊を無視するような事は怒る。<br/><br/>（S25. 1.17） 110 動墓と災 私の先祖は伊勢の山田奉行を務めておりました頃、遠藤と名乗っておりましたが、中村家を嗣ぎましてから遠藤の姓を廃籍致し、中村家を嗣ぎ、分家して現在に至ったのですが、私のところには現在、遠藤家と中村家の先祖をお祭りしております。<br/><br/>私は普段体が悪いので、ある所でお伺い致しますと、先祖の墓を動かしたからと言われました。<br/><br/>私もお墓を動かしたと言う事を聞いておりましたが、確実な事は分りませんが、本当に動かした事が悪かったのでしょうか。<br/><br/>動かしたのは両家共で御座います。<br/><br/>いかがなものでしょうか。<br/><br/> 動かして悪い事はない。<br/><br/>不可抗力の事情、止むに止まれず動かすのは差支えない。<br/><br/>それは祖先としてよく知っており理解する。<br/><br/>人間の勝手で動かすと怒る。<br/><br/>それで気づかせようとしていろいろやる。<br/><br/>これは古くなっているから今更必要ない。<br/><br/>詫びればよい。<br/><br/>この信仰に入れば差支えない。<br/><br/>（S24. 3. 4） 111 墓移動 先祖代々の墓を移動するにはどう致したらよいでしょうか。<br/><br/> 理由があれば霊も移動を承知する。<br/><br/>（S24. 2.20） 112 墓石移動して家運傾き霊に襲わる 安田ミヱ、女、二十九才、この人の家は三代前迄は豊かで地所も相当持っておりましたが、段々悲運におちいり、家屋敷も人手に渡り、わずかの家になりました。<br/><br/>今から十五年程前に土地がせまいために、先祖の墓石を寺に納めてしまい、その後は堆肥の置場所にしてあります。<br/><br/> 二年前入信、昨年二月に光明如来様の御祭りをさせて頂きましたところ、最近左のような事実がありましたので、墓石と何か関係がありましょうか。<br/><br/>またどうしたら良いでしょうか。<br/><br/> 一、八才の女児、夜中に急にふるえ出し、真赤な顔をし、歯を喰いしばり、苦しそうな状態であったのが、御光を頂いた一同が御浄霊をさせて頂きましたが治らず、祝詞を奏げますと終りの頃には右の子供が一緒に唱和するようになり、治ってしまいました。<br/><br/>後で子供に聞いてみると、白い着物を着たおじいさんが来て、手を掴んで連れて行こうとしましたので恐しかったと言いました。<br/><br/> 二、母親はある夜中に、苦しそうにうめき声を出しますので、揺り起してみますと、次の夢を見たと申します。<br/><br/> 「買物の帰りに男の人がついて来て、家に入ると同時におぶさってしまいました。<br/><br/>いくら叫んでも離れず苦しいので、一生懸命娘の名を呼んでいたのだ」とまたこの夢以来毎晩のごとく「寝床の上に人が上って来て苦しくて困る」と言います。<br/><br/>またこの母親は咳がひどく、体が疲れ、特に二ケ月前に転んで肩から腰を痛めて、さわる事も出来なかったのが、御浄霊で楽になりました。<br/><br/> 先からあった所を移動するには、手続きをしなくてはいけない。<br/><br/>寺に納めても墓石へ来る事が出来ず困る。<br/><br/>白衣の人は祖先の一人である。<br/><br/>連れてゆこうとしたために苦しんだ。<br/><br/>祝詞を奏げたので満足した。<br/><br/>おぶさったのは、男の子が霊界で育った、子供の時の想念が残っていておぶさったのである。<br/><br/> 墓詣りして許してもらいたいといって断る。<br/><br/>そして善言讃詞を奏げる。<br/><br/>でないと、墓石はうつっても、うつる事ができない。<br/><br/>（S24. 5. 4） 113 墓地へ校舎建築 中学校舎建築に付、祖先代々の墓を移転致すのでありますが、墓つちを持って移転するを可とする僧と、骨まで持って行くべく言う僧と二人ありますが、いずれがよろしきや御伺い申し上げます。<br/><br/> 骨まで持ってゆく方がよい。<br/><br/>土だけ持って行っても仕様がない。<br/><br/>後へ学校など建て、骨があると執着のある霊は嫌がる。<br/><br/>霊は潔癖になるので、死後汚ないものや醜いものがあるのを嫌がる。<br/><br/> 寺の跡などへ建てると、死人が出来たりなどする。<br/><br/>（S24.10.23） 114 墓地の土を移す事 田舎の墓地を東京に移したいと思いますが、お坊さんの話によれば、その墓地の土を持って来れば宜しいとの事ですが、それで宜しいでしょうか。<br/><br/>なお宗旨の変更はありません。<br/><br/> 理由があれば差支えない。<br/><br/>（S24.12. 3） 115 遠隔地の墓 私の祖先の墓は生地にあり、弟の墓は現住地にあり、生地と七、八十里離れているので、御用の都合で一年に一度か、二年に一度位しか御詣り出来ません。<br/><br/>法事の時参れない場合は、仏壇の祖先の霊に御ことわり申し上げれば宜敷いでしょうか。<br/><br/>またもし現住地を替る場合、墓はそのままとし御寺に御願して置けば、祖先の霊に失礼にはなりませんでしょうか。<br/><br/> また私と妻はそれぞれ先祖代々の位牌を作りました。<br/><br/>そのまま仏壇に御祭して宜敷いでしょうか。<br/><br/>それとも御寺かどこかで御霊入をして頂かなければならないでしょうか。<br/><br/>あわせて御教示を御願い致します。<br/><br/> 遠くにあってどうしても行けぬ場合は、誰か代りをやる。<br/><br/>代りがなければ祖霊に断わる。<br/><br/>誠が通ずればよい。<br/><br/>身魂入など意味ない。<br/><br/>家で戒名にお供えし拝めばよい。<br/><br/>（位牌は霊界名）（S24. 6.28） 116 墓地遠隔と宗派の別 私の家は元浄土真宗で、父は分家を創立しましたので、郷里の島根県に母、長兄及び三兄だけの墓がありました。<br/><br/>七年前父が死去した時は東京に住んでおりましたので、遠方のため次兄が一家の墓を宗旨違いでしたが、東京の禅宗の寺（母の実家の菩提寺）に移しました。<br/><br/>その後二兄は持病で死亡し、私が不在のため母方の親戚が二兄を禅宗で葬りました。<br/><br/>それ故位牌は、二兄は禅宗の戒名ですが他は全部浄土真宗であります。<br/><br/> (一) 私が改めて墓を祀り直すには、父の郷里迄行かねばなりませんか。<br/><br/> (二) また二兄の戒名を改めるにはいかにしたらよいでしょうか。<br/><br/>御教え下さい。<br/><br/> (三) 出来る事なら東京付近の浄土真宗の寺に墓を移したいと考えてますが、現状のままで差支えないでしょうか。<br/><br/>御伺いします。<br/><br/> 浄土真宗で祀られた霊が多いから、それで祀るのもよく、遠いから近くへ祀るのもまた良い。<br/><br/>出来るだけそうしてやった方がよい。<br/><br/>（S24. 5.17） 117 霊の救いの効果（遠隔墓） 墓参に行かなくとも、善言讃詞をその霊に奏げてやる気持で奏げる。<br/><br/>そうすると離れていても霊へは届く。<br/><br/> 出来るだけ祀ってやった方が功徳になる。<br/><br/> 霊の感謝は非常なもので、きっとお道のため働くから、寧ろ生きた人間より霊を救った方が効果的である。<br/><br/> 118 墓場を作らぬ家 元士族（知行百石取の武士）の家庭でありますが、先祖よりの言い伝えにて「墓場を造ると必ず家庭に異変がある」と言われ、代々墓を造らずにありますが、いかがでしょうか。<br/><br/>この家の一統は総て同様にしておりますが、霊的に何かあるのでしょうか。<br/><br/>御教示願います。<br/><br/> 墓場を作る事を嫌がる霊があるとみえる。<br/><br/>何事もなかったらそれでよい。<br/><br/>（作りたくなったお知らせがある。<br/><br/>）（S24. 8. 8） 119 別々の墓 父母と妻の墓があり、お参りしておりますが、私の息子が戦死し他のお寺へ墓を造りお参りしております。<br/><br/>別れていてもよいでしょうか。<br/><br/>お教え下さい。<br/><br/> これはよくない。<br/><br/>外へ祀るのが本当である。<br/><br/>事情により一時はそうしてもいいが、将来は一緒にしなくてはいけない。<br/><br/>（S24.12.27） 120 納骨せるものの墓 私の父並びに兄の墓はなく、京都西大谷納骨所に納骨してありますが、墓は造った方が良いでしょうか。<br/><br/>御教示下さい。<br/><br/> そのままでよい。<br/><br/>ただ仏様だけは作る。<br/><br/>お屏風観音様をお祭りすればよい。<br/><br/>（S *. 7. 8） 121 古墳発掘 神聖なる土地を発掘し、科学的にもとづく研究を達せんとする学者と、信仰の対象を単なる物として扱われる信仰への侮辱を感ずる宗教家、この解決はいかになさるべきでしょうか。<br/><br/> ツタンカーメンの墓などはすごい。<br/><br/>査べると必ず死ぬ。<br/><br/>やりたければやる。<br/><br/>科学者の立場ではやるのが本当である。<br/><br/>汚して困るのももっともである。<br/><br/>（S24. 9.23） 122 古墳発掘の怪―解決の道 左記について御伺い申し上げます。<br/><br/> （イ）私はただ今奈良県にて潅漑用溜池を築造している者ですが、私のしている工事場は飛鳥朝以前の古墳が散在し、これを取壊して十年以前より工事を初めましたが、現在所員で発狂状態の人があり、家族が不動様信者に見てもらいますと、数多く今迄に取壊した古墳の内、一人の立派な方と祖霊が懸っておられるとの事で、その時古墳の霊が言った事は、 （１）今迄に所長を二人殺し、今この者に懸っている事。<br/><br/> （２）今合同で祀っている所は大変いづらいので、他所にて自分一人祀ってもらいたい事。<br/><br/> （３）一人祀らないなら今の事務所の幹部を殺すこと。<br/><br/> （４）以前自分を祀っておった五輪塔の石を土の中から掘り出す事。<br/><br/> 等をその信者が神憑りになって言ったそうです。<br/><br/>この内事務所の所長が二人死んだ事と合同祀した事は事実でありまして、事実と一致しております。<br/><br/> 右の不動様の信者の言は信じねばならないでしょうか。<br/><br/>もし信ずるとすれば、 （１）古墳の霊はどうお祀したら良いでしょうか。<br/><br/> （２）五輪塔の石は数多い古墳の事です故見当が付きにくく、どこに埋れているか解りませんがどうしたら良いでしょうか。<br/><br/>また今後、工事上古墳を壊す場合はどうしたら良いでしょうか。<br/><br/> なお人夫三人が工事中変死し、子供一人が水死し、一人が爆破の石で心臓が破れて死んでおりますが、これらの霊はどうしたらよいでしょうか。<br/><br/> 古墳の石棺、土器はどう処置すべきでしょうか。<br/><br/> （ロ）ただ今所員で杉本廣成と言う者が、昨年八月頃より大変喋り出し一月末頃頭痛がすると言って帰宅し、発狂し十三日程普通人と同じ状態が続き、六日間失神状態になり、周期的にこの状態が起ります。<br/><br/>失神する時は半日位で除々に黙り込み、食事をとるのみで六日過ぎ、良くなる時は半時間位で普通人となります。<br/><br/>失神の時は食事は臭、色、湯気を嫌いこれらのあるものは食しません。<br/><br/> （１）これは祖霊、古墳霊が懸るためでしょうか。<br/><br/> （２）どうすれば良くなるでしょうか。<br/><br/> 自分も昨年神経衰弱を起し、浄霊により良くなして戴きました。<br/><br/>今から思うと古墳霊が憑いておったのでしょう。<br/><br/>無き命助けて戴き有難う御座いました。<br/><br/> 不動信者の言った事は本当である。<br/><br/>古墳には偉い人がある。<br/><br/>偉い霊が祟っているのである。<br/><br/>人間で偉いのは霊界へ行っても力がある。<br/><br/> 霊のいう通りにしてやる。<br/><br/>五輪塔が判らなかったらよく光明如来様にお願して、五輪の塔を掘らして戴くようお願してすると自然にその気がして掘る事になる。<br/><br/>霊の言う通りにしてやる。<br/><br/>この人に関係があるから祀ってやる。<br/><br/>戒名でいい。<br/><br/>それに関係した人は出来るだけ入信するといい。<br/><br/>箱根辺り随分危い事がある。<br/><br/>（S25. 4.17） 123 祀った墓石の処置 昭和十四年、土掘作業中「享祿二年十一月吉日妙西禅尼」と書いた墓石が掘出されましたので、そこにお堂を建てお祭してありますが、作業中邪魔になりますが、処分致すにはどう致したらよろしゅう御座居ますか。<br/><br/>お伺い申し上げます。<br/><br/> 邪魔でない所へ移す。<br/><br/>事情を言って断るのである。<br/><br/>人の踏んだり近よったりせぬ所へ囲いをしてやる。<br/><br/>（S24. 6. 2）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

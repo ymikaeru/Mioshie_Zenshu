@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qnoinosi</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 野猪の被害に就ての御利益 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教光栄会 高辻善助（44） 私の家は有難い御守護を日々賜り深く深く感謝の日を送らせて頂いております。<br><br>その一つ二つを広く皆様に知って頂きたく拙き文にて御報告させて頂きます。<br><br> 私の村は山村なので田はあちらこちらの谷間谷間に点在しており、稲作は申す迄もなく田畑の小麦、馬鈴薯、甘藷とあらゆる作物を野猪のために荒され農家の者は年中防備に四苦八苦の手をつくし、その果に大きな被害を受けてホトホト手をやいております。<br><br>その中でも一番皆が困るのは稲作の防猪です。<br><br>皆が田のそばに番小屋を作り九月上旬の晩秋蚕の盛喰期より十一月の中旬頃迄の永い間雨の夜も嵐の夜も一夜も休まず毎夜毎夜番小屋に泊り、ほとんど寝ずの番をしていながらなおかつ雨降りの夜などには荒されるのが常習なのです。<br><br>私も昨年迄は人一倍の努力をもって防猪をやっては荒され困っておりましたが、昨年は観音様にて防猪して頂けるような話を聞きましたので泊りにも行かず、一生懸命に毎日夕方になると田へ行っては浄霊をして何とかして何とかしてと思っておりましたが、その中に余り来たことのない田迄一度通って行きましたが、荒してないのでさては有難いお蔭だと喜んでおりました。<br><br>ところが今度は二回目に来て一回目に通った所を一通り荒し廻って行きました。<br><br>さて困った、隣りの者は皆鵜の目鷹の目で見詰め腹を抱えて笑っているではないかと泣き出したくなりましたので桑名教導所のお祭りに参詣して水谷先生に詳細をお話してお訊ねいたし、自分にて何とかしてと思っても駄目だと言う事に気づかせて頂き一切を観音様にお縋りしお任せして御教の御用に一心になり、田は水加減を見に行った時浄霊する程度で防猪のことは捨てておきましたが、暫くの間は来ないのでお任せしてよかったと喜んだのもつかのま、又々毎夜のごとく荒し廻り今迄にない一番の大荒しをされて他の人々の蔭口と大笑いを受け、農家班にて検見に田を廻った時などは本当に穴へでも入りたい思いで後から小さくなって行きました。<br><br>皆の者も「これは皆無作だなあ」と言って見る田が二、三枚もあり、かり取るに大手間取りで困ったものだと悪口されながら私も内心ホトホト泣いておりましたが、いよいよかりに掛りましたところ、全くお蔭様にも案外早くかり終り、稲も大荒されたにしては多くあるように思え内心には幾分の光明を見出し喜びながらそれでも摺ってみる迄は心配でしたが、いよいよ摺ってマスに入れてみてアッと驚きました。<br><br>一昨年はほとんど被害なく穫りましたのに全収を比較すると昨年の全収の方が約二俵程多いではありませんか、余りの不思議とうれしさに早速光明如来様の前にて大慈大悲の観音様の深き御恵みを感涙にむせぴながら家内と共に感謝し深くお礼申上ました。<br><br>いかなる事も一心にお願いしてお縋りすればよい事に気づかせて頂いた喜びを感謝いたしております。<br><br> なお妻が節分の夜より毎日のごとく次々の浄化を頂きましたが、その度毎に上の先生を通じお縋りしては浄化を楽にすまさせて頂き、尊き種々の体験を妻の身体を持って覚得させて頂き有難く喜んでおりましたところ、三男も三月中旬と四月中旬に重症の肺炎の浄化を頂き三日程はお茶を少し飲むのみにて高熱に苦しみおりましたが、二回共光明如来様のお祭りに先生に来て頂きましたので、御浄霊をして頂きましたらその夕方より御飯を食べ出し、二、三日後には前よりも元気はよくなり健康にして頂き深き御恵みに浸り感涙にむせびおります。<br><br>他の子供も次々と浄化を頂き私も先日高熱の風邪にて浄化を頂きましたが、一ノ宮の本部へ参詣して翌日快癒させて頂く等有難い種々の御守護と御恵みを身をもって体験させて頂き一家揃って喜びの日々を感謝致しております。<br><br>ただ有難い有難いと感謝を捧げて万分の一にも報ゆべく励まして頂いております。<br><br>農作物も田畑共無肥料耕作を実行しております。<br><br>他の人様に少しでも早く知って頂くように努力いたしております。<br><br>誠のみしるし受けさせ給えと念願申上ます。<br><br>拙なき筆にて私の誠心感謝の心を表わせませんところお許し下さい。<br><br>愚な御報告ながら世の皆様へ知って頂ければこの上なき幸せとするところです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Graça Diante dos Prejuízos Causados por Javalis Selvagens</h2>
 <p>Coleção Jikan, Volume II: "O Método de Cultivo sem Adubos"
@@ -105,5 +260,48 @@ Igreja Kooei da Sekaikyuseikyou de Mie</p>
 <p>Ademais, desde a noite do Setsubun, minha esposa passou por sucessivas purificações. A cada vez, recorríamos em oração por intermédio de nosso superior e as purificações transcorriam de forma branda. Através do corpo de minha esposa, pude aprender valiosas experiências, pelas quais sou imensamente grato. Nosso terceiro filho também passou por duas purificações de uma pneumonia grave, em meados de março e abril. Por cerca de três dias, sofreu com febre alta, ingerindo apenas um pouco de chá. Em ambas as ocasiões, recebemos a visita do reverendo para o ofício a Komyo Nyorai, e ele pôde ministrar Johrei ao menino. Na mesma noite, ele já começou a comer e, em dois ou três dias, estava mais forte e saudável do que antes. Sentimo-nos imersos nessa profunda graça, com lágrimas de gratidão. Os outros filhos também passaram por purificações, e eu mesmo, recentemente, purifiquei com uma febre alta decorrente de um resfriado, mas obtive a cura completa no dia seguinte a uma visita à Sede de Ichinomiya.</p>
 <p>Nossa família inteira tem vivenciado na própria pele essas inúmeras e abençoadas formas de proteção e graça, e por isso nossos dias são plenos de alegria e gratidão. Resta-nos apenas expressar nossa mais profunda e sincera gratidão e nos empenhar para retribuir, ainda que minimamente, uma ínfima parcela de tão grandes bênçãos. Já praticamos o cultivo sem adubos em todas as nossas plantações e nos esforçamos para que mais pessoas conheçam essa verdade o quanto antes. Oramos para que o verdadeiro símbolo da fé nos seja concedido.</p>
 <p>Perdoem-me pela simplicidade de minha escrita, incapaz de traduzir a plenitude de minha sincera gratidão. Embora seja um relato singelo, minha maior felicidade será se ele puder, de alguma forma, chegar ao conhecimento do maior número de pessoas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 野猪の被害に就ての御利益 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 三重県 日本五六七教光栄会 高辻善助（44） 私の家は有難い御守護を日々賜り深く深く感謝の日を送らせて頂いております。<br/><br/>その一つ二つを広く皆様に知って頂きたく拙き文にて御報告させて頂きます。<br/><br/> 私の村は山村なので田はあちらこちらの谷間谷間に点在しており、稲作は申す迄もなく田畑の小麦、馬鈴薯、甘藷とあらゆる作物を野猪のために荒され農家の者は年中防備に四苦八苦の手をつくし、その果に大きな被害を受けてホトホト手をやいております。<br/><br/>その中でも一番皆が困るのは稲作の防猪です。<br/><br/>皆が田のそばに番小屋を作り九月上旬の晩秋蚕の盛喰期より十一月の中旬頃迄の永い間雨の夜も嵐の夜も一夜も休まず毎夜毎夜番小屋に泊り、ほとんど寝ずの番をしていながらなおかつ雨降りの夜などには荒されるのが常習なのです。<br/><br/>私も昨年迄は人一倍の努力をもって防猪をやっては荒され困っておりましたが、昨年は観音様にて防猪して頂けるような話を聞きましたので泊りにも行かず、一生懸命に毎日夕方になると田へ行っては浄霊をして何とかして何とかしてと思っておりましたが、その中に余り来たことのない田迄一度通って行きましたが、荒してないのでさては有難いお蔭だと喜んでおりました。<br/><br/>ところが今度は二回目に来て一回目に通った所を一通り荒し廻って行きました。<br/><br/>さて困った、隣りの者は皆鵜の目鷹の目で見詰め腹を抱えて笑っているではないかと泣き出したくなりましたので桑名教導所のお祭りに参詣して水谷先生に詳細をお話してお訊ねいたし、自分にて何とかしてと思っても駄目だと言う事に気づかせて頂き一切を観音様にお縋りしお任せして御教の御用に一心になり、田は水加減を見に行った時浄霊する程度で防猪のことは捨てておきましたが、暫くの間は来ないのでお任せしてよかったと喜んだのもつかのま、又々毎夜のごとく荒し廻り今迄にない一番の大荒しをされて他の人々の蔭口と大笑いを受け、農家班にて検見に田を廻った時などは本当に穴へでも入りたい思いで後から小さくなって行きました。<br/><br/>皆の者も「これは皆無作だなあ」と言って見る田が二、三枚もあり、かり取るに大手間取りで困ったものだと悪口されながら私も内心ホトホト泣いておりましたが、いよいよかりに掛りましたところ、全くお蔭様にも案外早くかり終り、稲も大荒されたにしては多くあるように思え内心には幾分の光明を見出し喜びながらそれでも摺ってみる迄は心配でしたが、いよいよ摺ってマスに入れてみてアッと驚きました。<br/><br/>一昨年はほとんど被害なく穫りましたのに全収を比較すると昨年の全収の方が約二俵程多いではありませんか、余りの不思議とうれしさに早速光明如来様の前にて大慈大悲の観音様の深き御恵みを感涙にむせぴながら家内と共に感謝し深くお礼申上ました。<br/><br/>いかなる事も一心にお願いしてお縋りすればよい事に気づかせて頂いた喜びを感謝いたしております。<br/><br/> なお妻が節分の夜より毎日のごとく次々の浄化を頂きましたが、その度毎に上の先生を通じお縋りしては浄化を楽にすまさせて頂き、尊き種々の体験を妻の身体を持って覚得させて頂き有難く喜んでおりましたところ、三男も三月中旬と四月中旬に重症の肺炎の浄化を頂き三日程はお茶を少し飲むのみにて高熱に苦しみおりましたが、二回共光明如来様のお祭りに先生に来て頂きましたので、御浄霊をして頂きましたらその夕方より御飯を食べ出し、二、三日後には前よりも元気はよくなり健康にして頂き深き御恵みに浸り感涙にむせびおります。<br/><br/>他の子供も次々と浄化を頂き私も先日高熱の風邪にて浄化を頂きましたが、一ノ宮の本部へ参詣して翌日快癒させて頂く等有難い種々の御守護と御恵みを身をもって体験させて頂き一家揃って喜びの日々を感謝致しております。<br/><br/>ただ有難い有難いと感謝を捧げて万分の一にも報ゆべく励まして頂いております。<br/><br/>農作物も田畑共無肥料耕作を実行しております。<br/><br/>他の人様に少しでも早く知って頂くように努力いたしております。<br/><br/>誠のみしるし受けさせ給えと念願申上ます。<br/><br/>拙なき筆にて私の誠心感謝の心を表わせませんところお許し下さい。<br/><br/>愚な御報告ながら世の皆様へ知って頂ければこの上なき幸せとするところです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

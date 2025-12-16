@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kusuri07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬の逆効果 未発表『医学革命の書』昭和28(1953)年執筆 次に薬の逆効果をかいてみるが、再三述べたごとく、今日まで広い世界に薬で病が治った例（ため）しは一人もない事である。<br><br>もちろん治るという事は、手術もせず薬だけで再びその病気が起らないまでに根治する事であって、これが本当の治り方である。<br><br>ところが事実はそのことごとくが一時的効果でしかないのは、一例を挙げれば彼（か）の喘息（ぜんそく）である。<br><br>この病気に対する特効薬エフェドリンのごとき注射にしても、なるほど最初は一本でピタリと止まるが、それはある期間だけの事で、暫くするとまた起るというように、その期間も漸次狭（せば）まり、初めの内は一ケ月に一回で済んだものが、三週間、二週間、一週間というようになり、ついには一日数回から数十回に及ぶ者さえある。<br><br>そうなると自分で注射器を握り、その都度（つど）射つのであるが、こうなると最早死の一歩手前に来た訳で、まず助からないとみてよかろう。<br><br>ところが喘息ばかりではない、あらゆる注射もそうであるから、実に恐るべき問題である。<br><br>もちろん服薬も同様であって、世間よく薬好きの人とか、薬の問屋、薬詰めなどといわれている人もよくあるが、こういう人は死にもせず、健康にもならず、中途半端で年中ブラブラしていて、生きているのは名ばかりである。<br><br>ところがそういう人の言い条（じょう）がいい。<br><br>「私が生きているのは全く薬のおかげです」としているが、実は薬のために健康になれないのを反対に解釈したので、薬迷信が骨の髄まで沁み込んでいるためである。<br><br>これを一層判り易くいえば、いかなる薬でも麻薬中毒と作用は異ならない。<br><br>ただ麻薬は薬の効いてる間が短いから頻繁に射つので、普通の薬は効いてる間が長いため気が付かないまでである。<br><br>この理によって麻薬は急性、普通薬は慢性と思えはよく分るであろう。<br><br> そうして薬について医学の解釈であるが、それはどんな薬でも余毒は自然に排泄消滅するものとしている考え方で、これが大変な誤りである。<br><br>というのは元来人間の消化器〔機〕能は、消化される物とされない物とは自ら区別されている。<br><br>すなわち消化されるものとしては、昔から決っている五穀、野菜、魚鳥獣肉等で、それらは人間の味覚と合っているからよく分る。<br><br>これが自然に叶った食餌法である以上、これを実行していれば病気に罹るはずはなく、いつも健康であるべきである。<br><br>それだのに何ぞや、アレが薬になるとか、これは毒だなどといって、人間が勝手に決め、食いたい物を食わず、食いたくない物を我慢して食うなど、その愚なる呆れる外はないのである。<br><br>また昔から良薬は口に苦しというが、これも間違っている。<br><br>苦いという事は毒だから、口に入れるなとその物自体が示している訳で、毒だから浄化が停止され、一時快くなるので効くと誤ったのである。<br><br> 元来消化器能なるものは、定められた食物以外は処理出来ないよう造られている以上、薬は異物であるから処理されないに決っている。<br><br>それが体内に残存し、毒化し、病原となるので、この理を知っただけでも、人間は大いに救われるのである。<br><br>しかも薬剤の原料はことごとく毒である事は、専門家もよく知っている。<br><br>それは新薬研究の場合、必ず毒物を原料とする。<br><br>彼の梅毒の特効薬六○六号にしても、耳掻一杯で致死量という猛毒亜砒酸（あひさん）である。<br><br>また近来流行のペニシリンにしても、原料は水苔であるから毒物ではないが、人間の口へ入れるべきものではない。<br><br>魚の餌として神が造られたものであるから、人間に役立つはずはない。<br><br>またよく薬の分量を決め、破ると中毒の危険があるとしているが、これも毒だからである。<br><br>以上によって薬と名の付くものはことごとく毒であり異物である以上、消化吸収されず、体内に残って病原となるという簡単な理屈が分らないというのは、全く医薬迷信の虜になっているからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ilusão da Cura pelos Remédios</h2>
 <p>A seguir, abordarei o efeito reverso dos medicamentos. Conforme tenho reiterado, jamais houve, em todo o mundo, um único caso de uma doença curada por meio de remédios. Evidentemente, a cura genuína consiste na erradicação completa da enfermidade, unicamente com medicamentos e sem intervenção cirúrgica, de modo que ela jamais retorne. Contudo, a realidade demonstra que os resultados obtidos são invariavelmente temporários. Tomemos como exemplo a asma.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Ora, se o aparelho digestivo foi criado para processar exclusivamente os alimentos para os quais foi destinado, é inquestionável que os medicamentos, por serem corpos estranhos, não são processados. Consequentemente, eles permanecem no organismo, onde se tornam toxinas e originam novas enfermidades. A simples compreensão deste princípio já representa uma grande salvação para a humanidade.</p>
 <p>Ademais, os próprios especialistas sabem perfeitamente que a matéria-prima de todos os fármacos é, invariavelmente, tóxica. No desenvolvimento de um novo medicamento, a pesquisa sempre parte de substâncias venenosas. O famoso Salvarsan 606, tratamento de efeito fulminante para a sífilis, é, na verdade, ácido arsenioso, um veneno tão letal que uma quantidade ínfima é suficiente para causar a morte. Mesmo a penicilina, de uso tão difundido atualmente, embora sua matéria-prima seja o mofo-d’água e não um veneno, não é algo que o ser humano deva ingerir. Trata-se de algo criado por Deus para servir de alimento aos peixes, sendo impossível, portanto, que seja útil aos seres humanos. O fato de as dosagens dos remédios serem rigorosamente estabelecidas, com alertas sobre o risco de intoxicação caso sejam excedidas, é mais uma prova de que são venenos.</p>
 <p>Em suma, tudo aquilo que leva o nome de remédio é, sem exceção, uma substância tóxica e um corpo estranho. Por conseguinte, não é digerido nem absorvido, acumulando-se no corpo e tornando-se a causa de novas doenças. A incapacidade de compreender uma lógica tão elementar demonstra o quão profundamente as pessoas se tornaram prisioneiras da crendice na medicina.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬の逆効果 未発表『医学革命の書』昭和28(1953)年執筆 次に薬の逆効果をかいてみるが、再三述べたごとく、今日まで広い世界に薬で病が治った例（ため）しは一人もない事である。<br/><br/>もちろん治るという事は、手術もせず薬だけで再びその病気が起らないまでに根治する事であって、これが本当の治り方である。<br/><br/>ところが事実はそのことごとくが一時的効果でしかないのは、一例を挙げれば彼（か）の喘息（ぜんそく）である。<br/><br/>この病気に対する特効薬エフェドリンのごとき注射にしても、なるほど最初は一本でピタリと止まるが、それはある期間だけの事で、暫くするとまた起るというように、その期間も漸次狭（せば）まり、初めの内は一ケ月に一回で済んだものが、三週間、二週間、一週間というようになり、ついには一日数回から数十回に及ぶ者さえある。<br/><br/>そうなると自分で注射器を握り、その都度（つど）射つのであるが、こうなると最早死の一歩手前に来た訳で、まず助からないとみてよかろう。<br/><br/>ところが喘息ばかりではない、あらゆる注射もそうであるから、実に恐るべき問題である。<br/><br/>もちろん服薬も同様であって、世間よく薬好きの人とか、薬の問屋、薬詰めなどといわれている人もよくあるが、こういう人は死にもせず、健康にもならず、中途半端で年中ブラブラしていて、生きているのは名ばかりである。<br/><br/>ところがそういう人の言い条（じょう）がいい。<br/><br/>「私が生きているのは全く薬のおかげです」としているが、実は薬のために健康になれないのを反対に解釈したので、薬迷信が骨の髄まで沁み込んでいるためである。<br/><br/>これを一層判り易くいえば、いかなる薬でも麻薬中毒と作用は異ならない。<br/><br/>ただ麻薬は薬の効いてる間が短いから頻繁に射つので、普通の薬は効いてる間が長いため気が付かないまでである。<br/><br/>この理によって麻薬は急性、普通薬は慢性と思えはよく分るであろう。<br/><br/> そうして薬について医学の解釈であるが、それはどんな薬でも余毒は自然に排泄消滅するものとしている考え方で、これが大変な誤りである。<br/><br/>というのは元来人間の消化器〔機〕能は、消化される物とされない物とは自ら区別されている。<br/><br/>すなわち消化されるものとしては、昔から決っている五穀、野菜、魚鳥獣肉等で、それらは人間の味覚と合っているからよく分る。<br/><br/>これが自然に叶った食餌法である以上、これを実行していれば病気に罹るはずはなく、いつも健康であるべきである。<br/><br/>それだのに何ぞや、アレが薬になるとか、これは毒だなどといって、人間が勝手に決め、食いたい物を食わず、食いたくない物を我慢して食うなど、その愚なる呆れる外はないのである。<br/><br/>また昔から良薬は口に苦しというが、これも間違っている。<br/><br/>苦いという事は毒だから、口に入れるなとその物自体が示している訳で、毒だから浄化が停止され、一時快くなるので効くと誤ったのである。<br/><br/> 元来消化器能なるものは、定められた食物以外は処理出来ないよう造られている以上、薬は異物であるから処理されないに決っている。<br/><br/>それが体内に残存し、毒化し、病原となるので、この理を知っただけでも、人間は大いに救われるのである。<br/><br/>しかも薬剤の原料はことごとく毒である事は、専門家もよく知っている。<br/><br/>それは新薬研究の場合、必ず毒物を原料とする。<br/><br/>彼の梅毒の特効薬六○六号にしても、耳掻一杯で致死量という猛毒亜砒酸（あひさん）である。<br/><br/>また近来流行のペニシリンにしても、原料は水苔であるから毒物ではないが、人間の口へ入れるべきものではない。<br/><br/>魚の餌として神が造られたものであるから、人間に役立つはずはない。<br/><br/>またよく薬の分量を決め、破ると中毒の危険があるとしているが、これも毒だからである。<br/><br/>以上によって薬と名の付くものはことごとく毒であり異物である以上、消化吸収されず、体内に残って病原となるという簡単な理屈が分らないというのは、全く医薬迷信の虜になっているからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hukai0</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,61 +239,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不快感及び嘔吐 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 ここに、不快感といっても種々あって、その症状は一定していないが、重（おも）なる症状を記せば、嘔気、痙攣、悪寒、船車の酔、朦朧（もうろう）感、焦燥感等であろう。<br><br>そうして最も多いのは嘔気であろう。<br><br>この症状は、原因としては脳貧血に因る胃の反射作用と、高熱、食物中毒及び薬剤中毒、溜飲、幽門狭窄（ゆうもんきょうさく）等である。<br><br> 右の内、最初の三つは説明の要はあるまいから、後の三つについて説明してみよう。<br><br>即ち薬剤中毒に因る嘔気は、薬液が胃の粘膜から一旦吸収されて、胃の周囲に浸潤滞溜したものが、時日を経て毒素となって胃に還元し、胃中に凝結する。<br><br>それが浄化作用によって溶解し、嘔気を催し嘔吐するのである。<br><br>その際嘔吐の液が服用した薬剤の臭いがするのである。<br><br> 次に、溜飲は胆汁の排泄であるが、これは、不断に胃中に流入しつつある胆汁が、食物の停滞又は薬剤の妨害に遇って、消化を援（たす）けるという役目に支障を来し、排泄嘔吐するのである。<br><br> 次に、幽門狭窄に因る嘔吐は、胃によって消化されたものが腸に流下する場合、狭窄の為通過し難いので、逆に上方に戻ろうとする。<br><br>それが嘔気となるのである。<br><br>故に、この症状は固形物は不可であるが、流動物なら嘔気が起らないにみて瞭（あきら）かである。<br><br>それは、幽門狭窄に因る流下孔が狭くとも、流動物なら通過するからである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Mal-Estar e o Vômito</h2>
 <p>O mal-estar abrange uma variedade de sensações, cujos sintomas não são uniformes. Entre as manifestações mais proeminentes, encontram-se a náusea, as convulsões, os calafrios, o enjoo de movimento, a sensação de torpor e o sentimento de angústia. Dentre estas, a náusea é, sem dúvida, a mais frequente. As causas desse sintoma incluem a ação reflexa do estômago decorrente de anemia cerebral, febre alta, intoxicação alimentar, intoxicação medicamentosa, refluxo biliar e estenose pilórica.</p>
 <p>Dentre as causas mencionadas, as três primeiras dispensam maiores explicações. Dedicar-me-ei, portanto, a elucidar as três últimas. No que tange à intoxicação medicamentosa, o processo se dá da seguinte maneira: o medicamento é inicialmente absorvido pela mucosa gástrica e, em seguida, se infiltra e acumula nos tecidos ao redor do estômago. Com o passar do tempo, essa substância se converte em toxina, retorna ao estômago e ali se solidifica. Posteriormente, por meio da Ação Purificadora, essa massa tóxica se dissolve, provocando a náusea que culmina no vômito. É característico, nessa ocasião, que o líquido expelido exale o odor do fármaco originalmente ingerido.</p>
 <p>Em segundo lugar, o refluxo biliar consiste na expulsão da bile. Este fenômeno ocorre quando a bile, que flui continuamente para o interior do estômago, encontra um obstáculo, seja pela estagnação de alimentos, seja pela interferência de medicamentos. Tal obstrução a impede de cumprir sua função de auxiliar a digestão, e, como resultado, a bile é expelida através do vômito.</p>
 <p>Por fim, o vômito causado pela estenose pilórica se manifesta quando o alimento digerido no estômago, ao tentar passar para o intestino, encontra dificuldade devido ao estreitamento da passagem. Consequentemente, o fluxo é revertido, gerando um movimento retrógrado que dá origem à náusea. Torna-se evidente, portanto, que quem padece desta condição não tolera alimentos sólidos, ao passo que os líquidos não provocam o mal-estar, pois conseguem atravessar o orifício do piloro, mesmo que este se encontre estreitado.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不快感及び嘔吐 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 ここに、不快感といっても種々あって、その症状は一定していないが、重（おも）なる症状を記せば、嘔気、痙攣、悪寒、船車の酔、朦朧（もうろう）感、焦燥感等であろう。<br/><br/>そうして最も多いのは嘔気であろう。<br/><br/>この症状は、原因としては脳貧血に因る胃の反射作用と、高熱、食物中毒及び薬剤中毒、溜飲、幽門狭窄（ゆうもんきょうさく）等である。<br/><br/> 右の内、最初の三つは説明の要はあるまいから、後の三つについて説明してみよう。<br/><br/>即ち薬剤中毒に因る嘔気は、薬液が胃の粘膜から一旦吸収されて、胃の周囲に浸潤滞溜したものが、時日を経て毒素となって胃に還元し、胃中に凝結する。<br/><br/>それが浄化作用によって溶解し、嘔気を催し嘔吐するのである。<br/><br/>その際嘔吐の液が服用した薬剤の臭いがするのである。<br/><br/> 次に、溜飲は胆汁の排泄であるが、これは、不断に胃中に流入しつつある胆汁が、食物の停滞又は薬剤の妨害に遇って、消化を援（たす）けるという役目に支障を来し、排泄嘔吐するのである。<br/><br/> 次に、幽門狭窄に因る嘔吐は、胃によって消化されたものが腸に流下する場合、狭窄の為通過し難いので、逆に上方に戻ろうとする。<br/><br/>それが嘔気となるのである。<br/><br/>故に、この症状は固形物は不可であるが、流動物なら嘔気が起らないにみて瞭（あきら）かである。<br/><br/>それは、幽門狭窄に因る流下孔が狭くとも、流動物なら通過するからである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

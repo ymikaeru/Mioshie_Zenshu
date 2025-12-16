@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seikatu2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生活を娯しむ 『光』27号、昭和24(1949)年9月17日発行 今度、社会党党首片山氏が帰朝第一声にいわく、目下欧米各地の民衆は戦争に懲り懲りし、戦争を避けるに懸命で、畢竟（ひっきょう）、生活を楽しむという事に目標を置いているという事だ、この生活を楽しむという言葉は、いわゆる、みろくの世の実相であって、吾らの理想でもある。<br><br> ところが、今日の世界は生活を楽しむどころではない、そんな事は痴人の夢で現実は生活を苦しむ以外の何物でもない。<br><br> 眼を開いて、この社会を見る時人間を取巻いているものは、数知れないところの苦悩である、国際関係は元より、一国の政治も経済も教育も思想も、一として良いものはなく、苦悩の原因のみである。<br><br> 以上のような、今日の地獄世界に対し、一切を解決し、人類を救済するという事は、難事中の難事である、今日までの宗教でも科学でも教育、道徳、何々主義、何々運動でも効果はない、ちょうど燃えつつある大火事をバケツの水で消そうとするようなものである、しからば、この世界を真に救い得るものは何であるかというと、空前の大きな力でなくてはならない。<br><br> しかしながら、諸君よ、右の夢が、具体化そうとしている、すなわち本教の出現である、万能の神の力である、数千年来全人類が期待していた救世の力である。<br><br>この力が出現した以上、初めて片山氏の言のごとき、生活を楽しむ時代が来るのだ、それが眼前に迫っている、とはいうものの仲々信じ難いのは無理はないが、吾らは絶対の確信をもって活動しつつあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Desfrutar da Vida</h2>
 <p>Recentemente, o senhor Katayama, líder do Partido Socialista, em seu primeiro pronunciamento ao regressar ao Japão, relatou que o povo da Europa e da América, exausto da guerra, empenha-se com todas as forças para evitá-la. Seu objetivo primordial, em suma, é desfrutar da vida. Esta expressão, "desfrutar da vida", representa a verdadeira face do Mundo de Miroku, sendo, portanto, o nosso mais elevado ideal.</p>
 <p>Contudo, o mundo atual está longe de permitir que se desfrute da vida. Tal anseio não passa do sonho de um insensato, pois a realidade nada mais é do que uma sucessão de sofrimentos. Ao abrirmos os olhos para a sociedade que nos cerca, constatamos que o ser humano está envolto por incontáveis aflições. As relações internacionais, a política, a economia, a educação e as correntes ideológicas de uma nação – absolutamente nada se encontra em bom estado. Pelo contrário, tudo se tornou apenas fonte de angústia.</p>
 <p>Diante de um mundo infernal como o de hoje, a missão de solucionar todos os problemas e salvar a humanidade revela-se a mais árdua de todas as tarefas. As religiões, a ciência, a educação, a moral, as diversas ideologias e os movimentos sociais que existiram até hoje se mostraram ineficazes. Seus esforços assemelham-se à tentativa de apagar um incêndio de vastas proporções com um simples balde de água. Sendo assim, o que poderia verdadeiramente salvar este mundo? A resposta reside em uma força de magnitude sem precedentes.</p>
 <p>Todavia, meus caros, esse sonho está prestes a se concretizar. Refiro-me ao advento de nossa Igreja, que manifesta o poder do Deus Onipotente. Trata-se da força salvadora que toda a humanidade anseia há milênios. Com o surgimento desse poder, finalmente se tornará possível a era em que se desfruta da vida, como mencionou o senhor Katayama. Essa nova era se aproxima a olhos vistos. É natural que, a princípio, seja difícil acreditar em tal afirmação. Contudo, nós prosseguimos em nossas atividades, amparados por uma convicção absoluta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生活を娯しむ 『光』27号、昭和24(1949)年9月17日発行 今度、社会党党首片山氏が帰朝第一声にいわく、目下欧米各地の民衆は戦争に懲り懲りし、戦争を避けるに懸命で、畢竟（ひっきょう）、生活を楽しむという事に目標を置いているという事だ、この生活を楽しむという言葉は、いわゆる、みろくの世の実相であって、吾らの理想でもある。<br/><br/> ところが、今日の世界は生活を楽しむどころではない、そんな事は痴人の夢で現実は生活を苦しむ以外の何物でもない。<br/><br/> 眼を開いて、この社会を見る時人間を取巻いているものは、数知れないところの苦悩である、国際関係は元より、一国の政治も経済も教育も思想も、一として良いものはなく、苦悩の原因のみである。<br/><br/> 以上のような、今日の地獄世界に対し、一切を解決し、人類を救済するという事は、難事中の難事である、今日までの宗教でも科学でも教育、道徳、何々主義、何々運動でも効果はない、ちょうど燃えつつある大火事をバケツの水で消そうとするようなものである、しからば、この世界を真に救い得るものは何であるかというと、空前の大きな力でなくてはならない。<br/><br/> しかしながら、諸君よ、右の夢が、具体化そうとしている、すなわち本教の出現である、万能の神の力である、数千年来全人類が期待していた救世の力である。<br/><br/>この力が出現した以上、初めて片山氏の言のごとき、生活を楽しむ時代が来るのだ、それが眼前に迫っている、とはいうものの仲々信じ難いのは無理はないが、吾らは絶対の確信をもって活動しつつあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

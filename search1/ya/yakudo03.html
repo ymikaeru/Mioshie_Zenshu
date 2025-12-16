@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakudo03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒 『天国の福音』昭和22(1947)年2月5日発行 今日まで、西洋医学においては二千五百年以前ヒポクラテス創始の医道以来、また支那の医祖伏羲（ふくぎ）によって五千年前創始せられた医道はもとより用ゆる病気治療の方法は、ことごとく浄化作用の停止以外には出でなかった事は既に述べた通りである。<br><br>そうして浄化停止に最も効果ありとしたものが薬剤使用であった。<br><br>しかるに薬剤なるものの本質はことごとく有毒物であって、人体を毒作用によって衰弱せしむるのである。<br><br>この事に不明であった今日までの世界人類は、薬剤なるものは何か神秘的治病力を有するもののごとく思われたのである。<br><br>薬剤に対し神薬とか霊薬とかの名称を付したのもそうした心理によるのであろう。<br><br>これはもちろん病気の本体が全然未知であったからで、それがすなわち病気を悪い意味に解釈し、薬剤を良き意味に解釈したのである。<br><br>実に逆理に気が付かなかったのである。<br><br>しかしながら日本においても徳川末期の漢方医の大家杉田玄白はいった。<br><br>「元来世の中に薬なるものはない。<br><br>薬というのはことごとく毒である。<br><br>故に薬によって病を治すのではない。<br><br>実は毒をもって毒を制するのである」――とは洵（まこと）に先覚的至言である。<br><br>また現在の薬学といえども毒物の研究を本意としている事である。<br><br> そうして薬剤は効力発生後消滅すべきものと医学は信じているが、それは非常のあやまりで実は体内にいつまでも残存する。<br><br>何となれば人間として飲食すべき物質は造物主が自然に決定しているのである。<br><br>それは人間が生命保持のためとして造られたる食物である以上、必ず味わいなるものをもっている事と、消化機能なるものは、天与の食物に順応すべき性能に造られているものである。<br><br>従ってそれ以外の異物は消化機能の役目以外のものである以上消化せずして残存するのは当然である。<br><br>これについて二、三の実例をあげてみよう。<br><br> 私は以前、某病院の看護婦長を永年勤めていた婦人から聞いた話であるが、四十余歳の男子、なんらの原因もなしに突然死んだのである。<br><br>その死因を疑問として解剖に付したところ、その者の腸管内に黒色の小粒物が多量堆積しており、それが死因という事が分った。<br><br>しかるにそれは便秘のため永年にわたり下剤として服んだその丸薬が堆積したのであって、それがため腸閉塞かあるいは腸の蠕動（ぜんどう）休止のためと想像され得るが、とにかく死因は下剤の丸薬である事は間違いないという事になったそうである。<br><br> 次に、右と同様な原因によって急死した五十歳位の男子があったが、ただ違うのはこの者は下剤ではなく胃散のごとき消化薬の連続服用が原因であって、解剖の結果、胃の底部及び腸管内は消化薬の堆積おびただしかったそうである。<br><br> 次に、私の弟子が治療した胃病患者があった。<br><br>それは胃の下部に小さな数個の塊があって幾分の不快が常にあった、しかるに本療法の施術を受けるや間もなく数回の嘔吐をなし、それと共に右の塊は消失し、不快感は去ったが嘔吐の際ヌラのごときものが出て、それがナメクジの臭いがするのである。<br><br>その人は十数年以前ナメクジを数匹呑んだ事があったそうで、全くそのナメクジが消滅せずして残存していたものである。<br><br> また今一つは歌う職業の婦人で、声を美しくせんがためナメクジを二匹呑んだ。<br><br>しかるに数年を経て胃部の左方に癌のごとき小塊が出来、漸次膨張し、入院手術を受けたところ、驚くべし一匹のナメクジは死んで固結となっており、他の一匹の方は生きていて腹の中で育って非常に大きくなっていたそうである。<br><br> 以上によってみても、異物である薬剤が残存する事は疑いない事実である。<br><br> そうして薬毒が病原になるという事実について一般に気のつかない事がある。<br><br>それは医師が医療を行いつつありながら余病発生という一事である。<br><br>もし医療が真に効果あるものとすれば、治療するに従い順次全治に向うから、余病などの発生はない筈である。<br><br>すなわち仮に最初三つの病気があれば二つとなり、一つとなり全治するという順序でなければならない筈であるに拘わらず、反って一つの病気が二となり三に殖えるという事は洵（まこと）に理屈に合わぬ話である。<br><br>それ等の事実に対し、医師も患者も何等疑念をさしはさまないという事は不思議というべきである。<br><br>これの事によってみても世人がいかに医学を過信し、一種の迷信化している事で、私はいつも嘆かざるを得ないのである。<br><br> 右の理によって人類から薬剤を取去ったとしたら、病気なるものは漸次消滅すべきは断じて疑いない所である。<br><br> そうして私が幾多の患者を取扱った経験上薬毒の多少によって病気の軽重を判別するのであるが、洵に正確である。<br><br>そうして薬毒多有者は左のごとき症状を呈するものである。<br><br> 常に不快感がある。<br><br>すなわち薬毒集溜個所に微熱があるからでそのため軽微な悪寒があり、普通人以上に寒がりである。<br><br>また物に億劫がり、横臥する事を好み、根気が薄く長く一つ事に携わる事が出来ない。<br><br>そうして頭脳が散漫で集注力がない。<br><br>また物事の解釈はすべて悲観的であり、常識を欠き陰欝を好み、明るい所より暗い所を好むから、晴天の日より雨天の日を好むのである。<br><br>また腹立やすく、自暴自棄的となり勝ちで、いささかの事が気に懸るからヒステリー的ともなり、物事に対し自分で間違っている事を知りながら、それを矯（た）める事が出来ないばかりか、反ってその様な精神状態を煩悶するという事になる。<br><br>はなはだしくなると厭世の結果自殺を企図したり、また精神変質の結果廃人同様となる者さえある。<br><br>一家にこういう人があると、他の者まで影響を受け家庭は暗く争いの絶間がないという訳で、幸福生活などは到底期し得ないのである。<br><br> また現代人は非常に頭脳が鈍くなっている。<br><br>それは今日重要なる地位にある人の講演がほとんど原稿なしではやれないという始末である。<br><br>これ等は講演の意味が前後撞着したり、順序を誤ったり、また渋滞を防ぐためでもあろうが、自分自信の頭脳に自信が持てないからでもあろう。<br><br> また現代人の多数は、簡単な所説では頭に入り難い。<br><br>くどくどしく微に入り細にわたって種々の例証を挙げて説かなければ納得が出来ないのである。<br><br>本来頭脳が良ければ一事を聞いて、それに関連する事を類推なし得る訳である。<br><br>また今日世界の文明国とされている政府はもちろん民間の諸機関に至るまで、すべての問題に対し何回もの会議をなし、多数者の頭脳を鳩（あつ）め種々練らなければ適切なる答案を得られないというのが実情で、会議外交などという言葉も現われる位である。<br><br>特に日本の官庁や会社等における頻繁なる会議は、よくそれを物語っているが、全く時間の浪費はおびただしいものがあろう。<br><br> また政府が新しい施設や政策を行う場合、国民に対しラジオ、新聞、ポスター等、あの手この手と執拗に宣伝しなければ、国民の頭脳に入らないというのも同様の理由である。<br><br> これらをもってみても、文化の進歩に逆比例する頭脳の現代人から、薬剤除去の方法を講ずる事こそ最も喫緊（きっきん）時であろう。<br><br> 以上述べたごとき理論と実例によって、読者はいかに薬剤のおそるべきかを覚り得たであろう。<br><br> （注）喫緊、差し迫って大切な事。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza dos Medicamentos e suas Consequências</h2>
 <p>Conforme já expus anteriormente, tanto a medicina ocidental, inaugurada por Hipócrates há dois mil e quinhentos anos, quanto a medicina chinesa, iniciada pelo imperador Fuxi há cinco milênios, fundamentaram seus métodos terapêuticos, sem exceção, na interrupção do processo purificador. Para tal finalidade, o recurso mais eficaz sempre foi o uso de medicamentos.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Ademais, a maioria das pessoas de hoje tem dificuldade em assimilar exposições simples; exige explanações prolixas e meticulosas, com múltiplos exemplos, para se convencer de algo. Uma mente verdadeiramente perspicaz, ao ouvir um fato, é capaz de inferir por analogia todas as suas correlações. Atualmente, tanto os governos das nações ditas civilizadas quanto as instituições privadas necessitam de inúmeras reuniões, aglutinando o intelecto de muitas pessoas e debatendo exaustivamente os temas para obter uma resposta adequada. Essa é a realidade, tanto que surgiram expressões como "diplomacia de conferências". As frequentes reuniões nos órgãos governamentais e nas empresas japonesas ilustram bem essa situação, representando um enorme desperdício de tempo. O mesmo raciocínio se aplica à necessidade de o governo recorrer a insistentes campanhas publicitárias — por meio do rádio, de jornais e de cartazes — para que novas políticas e medidas sejam compreendidas pela população.</p>
 <p>Considerando tudo isso, conceber um método para eliminar os medicamentos do homem moderno, cujo intelecto se deteriora em proporção inversa ao avanço da civilização, é a tarefa mais premente de nossa era.</p>
 <p>Por meio da teoria e dos exemplos aqui apresentados, espero que o leitor tenha podido compreender quão verdadeiramente temíveis são os medicamentos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒 『天国の福音』昭和22(1947)年2月5日発行 今日まで、西洋医学においては二千五百年以前ヒポクラテス創始の医道以来、また支那の医祖伏羲（ふくぎ）によって五千年前創始せられた医道はもとより用ゆる病気治療の方法は、ことごとく浄化作用の停止以外には出でなかった事は既に述べた通りである。<br/><br/>そうして浄化停止に最も効果ありとしたものが薬剤使用であった。<br/><br/>しかるに薬剤なるものの本質はことごとく有毒物であって、人体を毒作用によって衰弱せしむるのである。<br/><br/>この事に不明であった今日までの世界人類は、薬剤なるものは何か神秘的治病力を有するもののごとく思われたのである。<br/><br/>薬剤に対し神薬とか霊薬とかの名称を付したのもそうした心理によるのであろう。<br/><br/>これはもちろん病気の本体が全然未知であったからで、それがすなわち病気を悪い意味に解釈し、薬剤を良き意味に解釈したのである。<br/><br/>実に逆理に気が付かなかったのである。<br/><br/>しかしながら日本においても徳川末期の漢方医の大家杉田玄白はいった。<br/><br/>「元来世の中に薬なるものはない。<br/><br/>薬というのはことごとく毒である。<br/><br/>故に薬によって病を治すのではない。<br/><br/>実は毒をもって毒を制するのである」――とは洵（まこと）に先覚的至言である。<br/><br/>また現在の薬学といえども毒物の研究を本意としている事である。<br/><br/> そうして薬剤は効力発生後消滅すべきものと医学は信じているが、それは非常のあやまりで実は体内にいつまでも残存する。<br/><br/>何となれば人間として飲食すべき物質は造物主が自然に決定しているのである。<br/><br/>それは人間が生命保持のためとして造られたる食物である以上、必ず味わいなるものをもっている事と、消化機能なるものは、天与の食物に順応すべき性能に造られているものである。<br/><br/>従ってそれ以外の異物は消化機能の役目以外のものである以上消化せずして残存するのは当然である。<br/><br/>これについて二、三の実例をあげてみよう。<br/><br/> 私は以前、某病院の看護婦長を永年勤めていた婦人から聞いた話であるが、四十余歳の男子、なんらの原因もなしに突然死んだのである。<br/><br/>その死因を疑問として解剖に付したところ、その者の腸管内に黒色の小粒物が多量堆積しており、それが死因という事が分った。<br/><br/>しかるにそれは便秘のため永年にわたり下剤として服んだその丸薬が堆積したのであって、それがため腸閉塞かあるいは腸の蠕動（ぜんどう）休止のためと想像され得るが、とにかく死因は下剤の丸薬である事は間違いないという事になったそうである。<br/><br/> 次に、右と同様な原因によって急死した五十歳位の男子があったが、ただ違うのはこの者は下剤ではなく胃散のごとき消化薬の連続服用が原因であって、解剖の結果、胃の底部及び腸管内は消化薬の堆積おびただしかったそうである。<br/><br/> 次に、私の弟子が治療した胃病患者があった。<br/><br/>それは胃の下部に小さな数個の塊があって幾分の不快が常にあった、しかるに本療法の施術を受けるや間もなく数回の嘔吐をなし、それと共に右の塊は消失し、不快感は去ったが嘔吐の際ヌラのごときものが出て、それがナメクジの臭いがするのである。<br/><br/>その人は十数年以前ナメクジを数匹呑んだ事があったそうで、全くそのナメクジが消滅せずして残存していたものである。<br/><br/> また今一つは歌う職業の婦人で、声を美しくせんがためナメクジを二匹呑んだ。<br/><br/>しかるに数年を経て胃部の左方に癌のごとき小塊が出来、漸次膨張し、入院手術を受けたところ、驚くべし一匹のナメクジは死んで固結となっており、他の一匹の方は生きていて腹の中で育って非常に大きくなっていたそうである。<br/><br/> 以上によってみても、異物である薬剤が残存する事は疑いない事実である。<br/><br/> そうして薬毒が病原になるという事実について一般に気のつかない事がある。<br/><br/>それは医師が医療を行いつつありながら余病発生という一事である。<br/><br/>もし医療が真に効果あるものとすれば、治療するに従い順次全治に向うから、余病などの発生はない筈である。<br/><br/>すなわち仮に最初三つの病気があれば二つとなり、一つとなり全治するという順序でなければならない筈であるに拘わらず、反って一つの病気が二となり三に殖えるという事は洵（まこと）に理屈に合わぬ話である。<br/><br/>それ等の事実に対し、医師も患者も何等疑念をさしはさまないという事は不思議というべきである。<br/><br/>これの事によってみても世人がいかに医学を過信し、一種の迷信化している事で、私はいつも嘆かざるを得ないのである。<br/><br/> 右の理によって人類から薬剤を取去ったとしたら、病気なるものは漸次消滅すべきは断じて疑いない所である。<br/><br/> そうして私が幾多の患者を取扱った経験上薬毒の多少によって病気の軽重を判別するのであるが、洵に正確である。<br/><br/>そうして薬毒多有者は左のごとき症状を呈するものである。<br/><br/> 常に不快感がある。<br/><br/>すなわち薬毒集溜個所に微熱があるからでそのため軽微な悪寒があり、普通人以上に寒がりである。<br/><br/>また物に億劫がり、横臥する事を好み、根気が薄く長く一つ事に携わる事が出来ない。<br/><br/>そうして頭脳が散漫で集注力がない。<br/><br/>また物事の解釈はすべて悲観的であり、常識を欠き陰欝を好み、明るい所より暗い所を好むから、晴天の日より雨天の日を好むのである。<br/><br/>また腹立やすく、自暴自棄的となり勝ちで、いささかの事が気に懸るからヒステリー的ともなり、物事に対し自分で間違っている事を知りながら、それを矯（た）める事が出来ないばかりか、反ってその様な精神状態を煩悶するという事になる。<br/><br/>はなはだしくなると厭世の結果自殺を企図したり、また精神変質の結果廃人同様となる者さえある。<br/><br/>一家にこういう人があると、他の者まで影響を受け家庭は暗く争いの絶間がないという訳で、幸福生活などは到底期し得ないのである。<br/><br/> また現代人は非常に頭脳が鈍くなっている。<br/><br/>それは今日重要なる地位にある人の講演がほとんど原稿なしではやれないという始末である。<br/><br/>これ等は講演の意味が前後撞着したり、順序を誤ったり、また渋滞を防ぐためでもあろうが、自分自信の頭脳に自信が持てないからでもあろう。<br/><br/> また現代人の多数は、簡単な所説では頭に入り難い。<br/><br/>くどくどしく微に入り細にわたって種々の例証を挙げて説かなければ納得が出来ないのである。<br/><br/>本来頭脳が良ければ一事を聞いて、それに関連する事を類推なし得る訳である。<br/><br/>また今日世界の文明国とされている政府はもちろん民間の諸機関に至るまで、すべての問題に対し何回もの会議をなし、多数者の頭脳を鳩（あつ）め種々練らなければ適切なる答案を得られないというのが実情で、会議外交などという言葉も現われる位である。<br/><br/>特に日本の官庁や会社等における頻繁なる会議は、よくそれを物語っているが、全く時間の浪費はおびただしいものがあろう。<br/><br/> また政府が新しい施設や政策を行う場合、国民に対しラジオ、新聞、ポスター等、あの手この手と執拗に宣伝しなければ、国民の頭脳に入らないというのも同様の理由である。<br/><br/> これらをもってみても、文化の進歩に逆比例する頭脳の現代人から、薬剤除去の方法を講ずる事こそ最も喫緊（きっきん）時であろう。<br/><br/> 以上述べたごとき理論と実例によって、読者はいかに薬剤のおそるべきかを覚り得たであろう。<br/><br/> （注）喫緊、差し迫って大切な事。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

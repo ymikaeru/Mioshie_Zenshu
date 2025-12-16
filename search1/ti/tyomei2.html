@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyomei2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 長命の秘訣 『天国の福音』昭和22(1947)年2月5日発行 およそ世の中に長寿を冀（こいねが）わぬ者は一人もあるまい。<br><br>しからば長命者たらんとする確実なる方法ありやと問えば、私はありと答える。<br><br>昔から長命の秘訣として唱えられたものに、食物、飲酒、入浴、運動、禁性欲等を挙げるが、いずれも幾分の効果はあろうが、確実でない事はもちろんである。<br><br>今私が提唱するこの長寿法こそ、理論からも実際からも効果百パーセントと思うのでここに解説するのである。<br><br>私といえども九十歳を超えてからはこの健康法を実行すべく期している。<br><br> 前項栄養食の項において説いたごとく、人体機能には必要栄養素を製出すべき活作用があるのであるから、その機能の活動を旺盛にする事こそ、健康上主要条件であらねばならぬ。<br><br>彼の幼少年時代はその機能の活動が最も旺盛であるから発育するのである。<br><br>この理によって長寿を得んとするには機能を若返えらすのである。<br><br>それにはまず栄養機能を小児のごとく旺盛にする事である。<br><br>しかしその様な魔法遣い的な事が実際上出来得るかというに私は可能を断言する。<br><br> その方法とは何か、それは極端な粗食をするのである。<br><br>そうする事によって、栄養機能は猛烈な活動力を起さなければ必要な栄養分が摂れない事になる。<br><br>自然それは小児の機能のごとき活動力が再発生する訳である。<br><br>言い換えれば機能をまず若返らせるのである。<br><br>機能が若返えれば全身的若返えらざるを得ない道理である。<br><br> これについて例を挙げてみよう。<br><br>昔から禅僧の長命は人の知る所であるが、禅僧に限って極端な粗食である。<br><br>昭和初年頃遷化（せんげ）した当時有名な東京滝野川某寺の住職鳥巣越山師は百十二歳の長寿を保ったが死のその朝「膿の死期は今夕五時頃だからその前にみんなを招んで呉れ」というので一族を招び寄せたところ一人一人に言葉をかけた後、おもむろに合掌し眠るがごとき往生を遂げだそうである。<br><br>師も一般禅僧のごとく粗食家であった事はもちろんである。<br><br> ここで自然死と不自然死について一言するが自然死とは自然に死期が到って死ぬ事で、不自然死とは病気その他の原因によって死ぬ事である。<br><br>まず現代人の寿齢としては、九十歳以下が不自然で、それ以上が自然死としたら、余り間違いはあるまい。<br><br> これも長命法の参考になると思うから書くが私は以前仙人に関する事をしらべた事があるが仙人は実際存在していたのは事実である。<br><br>日本における文献は彼の平田篤胤（ひらたあつたね）の書いた寅吉物語でここでは略すが、近代では瑞慶仙人の事績も傑出したものであろう。<br><br>現にその弟子である後藤道明氏のごときは東京都下中野に住居され、種々の仙術的霊覚を発揮し相当知られている。<br><br>しかしながら何といっても仙人の本場は朝鮮であろう。<br><br>私はある本で朝鮮における仙人の修行法を読んだがそれによれば仙人たらんとするには、まず食物は松葉を細末にし、それに蕎麦粉を混ぜ水でよく練り饅頭のごとき大きさにしたものを一日に三つ食うのである。<br><br>そうしてそれを何年か続け、その次は二つにし、ついには一日一個にするのである。<br><br>大抵の者はそこまでは出来るが、その次が大変である。<br><br>それはどうするかというと全然何も食わない。<br><br>ただ水だけで生きるのであるが、これは非常に困難で、多くはここで落第するそうである。<br><br>しかし稀には実行出来得る人があるので、そういう人が本当の仙人になるのだそうである。<br><br>昔から仙人は霞を食って生きるというが、これらを指したものであろう。<br><br>そうして仙人の修行が積むに従って非常に身体が軽くなり、山野を獣のごとく馳駆し得るのである。<br><br> これについて私の体験をかいてみよう。<br><br>私は若い頃肺患に罹り、これを治すべく三月あまり絶対菜食をした事がある。<br><br>鰹節さえも用いなかった。<br><br>不思議な事には身体が非常に軽くなり、高所から地上を見ても恐怖心が起らずよく屋根位の高さから飛下りた事を今でも覚えている。<br><br>その後普通食になるに従って、漸次普通状態になったが、後肉食を盛んにした。<br><br>その頃は身体が重く病気に罹りやすくなったので、肉を制限した所治ったのである。<br><br> またある本に仙人の寿命の事が書いてあった。<br><br>それは一番長命のレコードは八百歳で、それは一人であったが、五、六百歳は数人あった。<br><br>二、三百歳は仙人では早死の方であると書いてあった。<br><br>また竹内宿禰（たけのうちすくね）の系図を見た事があったが、その中で一番長命であったのは三百四十九歳という人が一人あって、三百歳以上は数人おり、二百歳以上は十数人あったが、近代に到り漸次短縮し徳川末期頃はようやく百歳台を保っていたが、明治に入ってから百歳を割り八、九十歳になってしまった。<br><br>これらの事を研究したらおもしろいと思うが、その記録の中に竹内家は代々石楠花（しゃくなげ）の葉を煎じて飲んだという事が出ているが、これは長寿に関係があったかそれ共それが漸次短命になった原因であるかいずれかであろう。<br><br> 次に、私の想像であるが、上代の日本人はほとんど菜食であったのは事実である。<br><br>それが生物を食い始めたのは貝類からであった事は我国の各地から発見される貝塚が証明している。<br><br>その時代の先住民族は魚獲に幼稚であったので、多採獲の容易である貝類を求めたのであろう。<br><br>その後魚獲法が進歩し、漸次魚食を多くするようになったが、それでも百歳以上の寿齢は困難ではなかった事は、歴史によってみても明らかである。<br><br>その後漢方薬の渡来や明治以後の肉食等によって現今のごとき日本人の平均寿齢四十余歳というごとき短命になったのである。<br><br> また秦の始皇帝が長寿を得んため、その臣徐福に向い、東海に蓬莱島あり、その島の人民は非常に長寿であるとの由だから、いかなる霊薬があるか調査せよと命じたので（もちろん蓬莱島とは日本のことである）彼は日本に渡来し各地を調べたが霊薬などは全然なかったので、ついに帰国を見合せ四国〔和歌山〕の某所で逝去し今でもその墳墓が存在しているそうである。<br><br>これらの事によってみてもその頃の日本人は無薬であったから、長寿を得たのである。<br><br> rattail（注） 鳥巣越山、鳥栖越山禅師との混同か、 鳥巣禅師、鳥彙道林（ちょうかどうりん）中国唐代の禅僧。<br><br>杭州の秦望山中の松の木の上で坐禅をしているので、その姿が鳥の巣のようだと言って鳥巣禅師と呼ばれた。<br><br>唐の詩人白居易(白楽天)が師事した事で有名。<br><br> 平田篤胤（ひらたあつたね、1776-1843）秋田県秋田市生まれ古代日本の純粋な神道を追求した国学者。<br><br> 竹内宿裲（たけのうちのすくね）。<br><br>成務（せいむ）天皇により、日本最初の大臣（おおおみ）に任じられた豪族で、以降、仲哀、神功皇后、応神、仁徳と五人の天皇につかえたといわれる。<br><br>伝説によると３００才以上も生きたことになる。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Segredo da Longevidade</h2>
 <p>Certamente, não há no mundo uma única pessoa que não almeje a longevidade. Se me perguntassem, então, se existe um método infalível para alcançá-la, eu responderia afirmativamente. Desde tempos imemoriais, diversos segredos para uma vida longa foram propostos, como o controle da alimentação e da bebida, os banhos, o exercício físico e a abstinência sexual. Embora todos possam apresentar alguma eficácia, é evidente que não são métodos garantidos. O método que proponho agora, contudo, possui uma eficácia de cem por cento, tanto na teoria quanto na prática, e por essa razão o explicarei em detalhe. Eu mesmo pretendo adotá-lo quando ultrapassar os noventa anos de idade.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Li também em outro livro sobre a longevidade dos <em>sennin</em>. O recorde pertencia a um único indivíduo que viveu oitocentos anos. Vários outros alcançaram quinhentos a seiscentos anos, e viver entre duzentos e trezentos anos era considerado morrer cedo para um <em>sennin</em>. Em outra ocasião, tive a oportunidade de examinar a genealogia de Takenouchi no Sukune (竹内宿禰). Nela, constava uma pessoa que viveu trezentos e quarenta e nove anos, além de várias que ultrapassaram os trezentos e mais de uma dezena que superaram os duzentos. Com o passar das gerações, a longevidade foi diminuindo, até que, no final do período Tokugawa, mal se mantinha na casa dos cem anos. Já na era Meiji, a expectativa de vida caiu para oitenta ou noventa anos. Seria fascinante aprofundar a pesquisa sobre esses fatos. O registro mencionava que, por gerações, a família Takenouchi consumia uma infusão de folhas de rododendro (<em>shakunage</em> - 石楠花). Resta saber se isso contribuiu para sua longevidade ou se foi a causa de seu gradual declínio.</p>
 <p>A seguir, apresento uma conjectura minha. É um fato que os japoneses da Antiguidade eram, em sua maioria, vegetarianos. Os sambaquis (<em>kaizuka</em>), encontrados em várias partes do país, comprovam que o primeiro alimento de origem animal que consumiram foram os mariscos. Presume-se que os povos daquela época, com suas técnicas de pesca ainda rudimentares, recorriam aos mariscos pela facilidade de coleta. Com o aprimoramento dos métodos de pesca, o consumo de peixe aumentou gradualmente. Mesmo assim, a história nos mostra que atingir mais de cem anos não era algo incomum. Foi somente após a introdução da medicina chinesa e, sobretudo, com o advento do consumo de carne a partir da era Meiji, que a expectativa de vida média do povo japonês decaiu para os atuais quarenta e poucos anos.</p>
 <p>Outro exemplo histórico é o do imperador Qin Shi Huang da China, que, desejoso de obter a longevidade, ordenou a seu vassalo Xu Fu que investigasse a ilha de Hōrai, no mar oriental — que naturalmente se refere ao Japão. Dizia-se que seus habitantes eram extremamente longevos, e o imperador queria descobrir qual elixir eles possuíam. Xu Fu viajou ao Japão e percorreu diversas regiões, mas não encontrou qualquer remédio milagroso. Desistindo de retornar, ele acabou por falecer em um local na província de Wakayama, onde seu túmulo supostamente existe até hoje. Esse episódio revela que os japoneses daquela época alcançavam a longevidade precisamente por não fazerem uso de medicamentos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 長命の秘訣 『天国の福音』昭和22(1947)年2月5日発行 およそ世の中に長寿を冀（こいねが）わぬ者は一人もあるまい。<br/><br/>しからば長命者たらんとする確実なる方法ありやと問えば、私はありと答える。<br/><br/>昔から長命の秘訣として唱えられたものに、食物、飲酒、入浴、運動、禁性欲等を挙げるが、いずれも幾分の効果はあろうが、確実でない事はもちろんである。<br/><br/>今私が提唱するこの長寿法こそ、理論からも実際からも効果百パーセントと思うのでここに解説するのである。<br/><br/>私といえども九十歳を超えてからはこの健康法を実行すべく期している。<br/><br/> 前項栄養食の項において説いたごとく、人体機能には必要栄養素を製出すべき活作用があるのであるから、その機能の活動を旺盛にする事こそ、健康上主要条件であらねばならぬ。<br/><br/>彼の幼少年時代はその機能の活動が最も旺盛であるから発育するのである。<br/><br/>この理によって長寿を得んとするには機能を若返えらすのである。<br/><br/>それにはまず栄養機能を小児のごとく旺盛にする事である。<br/><br/>しかしその様な魔法遣い的な事が実際上出来得るかというに私は可能を断言する。<br/><br/> その方法とは何か、それは極端な粗食をするのである。<br/><br/>そうする事によって、栄養機能は猛烈な活動力を起さなければ必要な栄養分が摂れない事になる。<br/><br/>自然それは小児の機能のごとき活動力が再発生する訳である。<br/><br/>言い換えれば機能をまず若返らせるのである。<br/><br/>機能が若返えれば全身的若返えらざるを得ない道理である。<br/><br/> これについて例を挙げてみよう。<br/><br/>昔から禅僧の長命は人の知る所であるが、禅僧に限って極端な粗食である。<br/><br/>昭和初年頃遷化（せんげ）した当時有名な東京滝野川某寺の住職鳥巣越山師は百十二歳の長寿を保ったが死のその朝「膿の死期は今夕五時頃だからその前にみんなを招んで呉れ」というので一族を招び寄せたところ一人一人に言葉をかけた後、おもむろに合掌し眠るがごとき往生を遂げだそうである。<br/><br/>師も一般禅僧のごとく粗食家であった事はもちろんである。<br/><br/> ここで自然死と不自然死について一言するが自然死とは自然に死期が到って死ぬ事で、不自然死とは病気その他の原因によって死ぬ事である。<br/><br/>まず現代人の寿齢としては、九十歳以下が不自然で、それ以上が自然死としたら、余り間違いはあるまい。<br/><br/> これも長命法の参考になると思うから書くが私は以前仙人に関する事をしらべた事があるが仙人は実際存在していたのは事実である。<br/><br/>日本における文献は彼の平田篤胤（ひらたあつたね）の書いた寅吉物語でここでは略すが、近代では瑞慶仙人の事績も傑出したものであろう。<br/><br/>現にその弟子である後藤道明氏のごときは東京都下中野に住居され、種々の仙術的霊覚を発揮し相当知られている。<br/><br/>しかしながら何といっても仙人の本場は朝鮮であろう。<br/><br/>私はある本で朝鮮における仙人の修行法を読んだがそれによれば仙人たらんとするには、まず食物は松葉を細末にし、それに蕎麦粉を混ぜ水でよく練り饅頭のごとき大きさにしたものを一日に三つ食うのである。<br/><br/>そうしてそれを何年か続け、その次は二つにし、ついには一日一個にするのである。<br/><br/>大抵の者はそこまでは出来るが、その次が大変である。<br/><br/>それはどうするかというと全然何も食わない。<br/><br/>ただ水だけで生きるのであるが、これは非常に困難で、多くはここで落第するそうである。<br/><br/>しかし稀には実行出来得る人があるので、そういう人が本当の仙人になるのだそうである。<br/><br/>昔から仙人は霞を食って生きるというが、これらを指したものであろう。<br/><br/>そうして仙人の修行が積むに従って非常に身体が軽くなり、山野を獣のごとく馳駆し得るのである。<br/><br/> これについて私の体験をかいてみよう。<br/><br/>私は若い頃肺患に罹り、これを治すべく三月あまり絶対菜食をした事がある。<br/><br/>鰹節さえも用いなかった。<br/><br/>不思議な事には身体が非常に軽くなり、高所から地上を見ても恐怖心が起らずよく屋根位の高さから飛下りた事を今でも覚えている。<br/><br/>その後普通食になるに従って、漸次普通状態になったが、後肉食を盛んにした。<br/><br/>その頃は身体が重く病気に罹りやすくなったので、肉を制限した所治ったのである。<br/><br/> またある本に仙人の寿命の事が書いてあった。<br/><br/>それは一番長命のレコードは八百歳で、それは一人であったが、五、六百歳は数人あった。<br/><br/>二、三百歳は仙人では早死の方であると書いてあった。<br/><br/>また竹内宿禰（たけのうちすくね）の系図を見た事があったが、その中で一番長命であったのは三百四十九歳という人が一人あって、三百歳以上は数人おり、二百歳以上は十数人あったが、近代に到り漸次短縮し徳川末期頃はようやく百歳台を保っていたが、明治に入ってから百歳を割り八、九十歳になってしまった。<br/><br/>これらの事を研究したらおもしろいと思うが、その記録の中に竹内家は代々石楠花（しゃくなげ）の葉を煎じて飲んだという事が出ているが、これは長寿に関係があったかそれ共それが漸次短命になった原因であるかいずれかであろう。<br/><br/> 次に、私の想像であるが、上代の日本人はほとんど菜食であったのは事実である。<br/><br/>それが生物を食い始めたのは貝類からであった事は我国の各地から発見される貝塚が証明している。<br/><br/>その時代の先住民族は魚獲に幼稚であったので、多採獲の容易である貝類を求めたのであろう。<br/><br/>その後魚獲法が進歩し、漸次魚食を多くするようになったが、それでも百歳以上の寿齢は困難ではなかった事は、歴史によってみても明らかである。<br/><br/>その後漢方薬の渡来や明治以後の肉食等によって現今のごとき日本人の平均寿齢四十余歳というごとき短命になったのである。<br/><br/> また秦の始皇帝が長寿を得んため、その臣徐福に向い、東海に蓬莱島あり、その島の人民は非常に長寿であるとの由だから、いかなる霊薬があるか調査せよと命じたので（もちろん蓬莱島とは日本のことである）彼は日本に渡来し各地を調べたが霊薬などは全然なかったので、ついに帰国を見合せ四国〔和歌山〕の某所で逝去し今でもその墳墓が存在しているそうである。<br/><br/>これらの事によってみてもその頃の日本人は無薬であったから、長寿を得たのである。<br/><br/> rattail（注） 鳥巣越山、鳥栖越山禅師との混同か、 鳥巣禅師、鳥彙道林（ちょうかどうりん）中国唐代の禅僧。<br/><br/>杭州の秦望山中の松の木の上で坐禅をしているので、その姿が鳥の巣のようだと言って鳥巣禅師と呼ばれた。<br/><br/>唐の詩人白居易(白楽天)が師事した事で有名。<br/><br/> 平田篤胤（ひらたあつたね、1776-1843）秋田県秋田市生まれ古代日本の純粋な神道を追求した国学者。<br/><br/> 竹内宿裲（たけのうちのすくね）。<br/><br/>成務（せいむ）天皇により、日本最初の大臣（おおおみ）に任じられた豪族で、以降、仲哀、神功皇后、応神、仁徳と五人の天皇につかえたといわれる。<br/><br/>伝説によると３００才以上も生きたことになる。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

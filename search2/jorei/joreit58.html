@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>joreiT58</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 野辺送り ＜隠坊・メシヤ教を語る＞ 槐安生 『地上天国』56号、昭和29(1954)年1月25日発行 旦那は救世教の方ですね。<br><br>どうして解るって、そのバッチに覚えがあるんですよ。<br><br>救世教っていうのは大そうあらたかな神様だそうですわ。<br><br>いや……別に御世辞を並べて御心付けを戴こうなんて、そんなさもしい根性でいっているんじゃありませんよ。<br><br>そう……もうかれこれ二年ぐらい前のことでしたかね、旦那と同じバッチを付けた人が骨あげに見えましてね、それで救世教ってえことを知ったんです。<br><br> あたしが受持ったその時の仏さまは、まだ子供で、確か、十六か七だったと覚えていますが、その時の仏さまが素直に焼けたのを見ましてね。<br><br>骨あげの御世話をしながら、失礼ですがこの仏さまは子供さんながら信心深かった人のようですね。<br><br>と言ったところ、どうしてそれが解るか、って訊かれたんです。<br><br> 旦那がたは御存知ないでしょうが、仏さまを焼いているとき、その様子を窯の後ろの穴から見るんです。<br><br>中を覗かなくったって重油で何時間、石炭なら何時間、薪では何時間と、時計を見ていれば解るんですが、万が一、火を落してから骨になっていなけりゃあ大変ですから、念のため覗いて見るんです。<br><br>いつか新聞に出たから知っていなさるでしょうが、男の仏を焼いていたら、その腹の中から赤ん坊が三人も出たことがありましたよ。<br><br>あたしゃびっくりして火を落し、すぐその筋へ届け出たんです。<br><br>そうしたら、それが医者の仕業と分って大騒ぎになったこともありました。<br><br>あれなんかも、あたし等が窯の後ろから見ていると知っていれば、やらなかったでしょうね。<br><br>話が飛んでもないところへ行っちまいましたが、そうやって窯の後から見ていると、その仏さまが信心をしでいた人か、無信心の人だったかが分るんですよ。<br><br>どうして分るかっていうと、旦那も火鉢の上でスルメを焼いたことがありましょう。<br><br>スルメを金網の上に乗せて灸るとジリジリって丸く反って仕舞いましょう。<br><br>人間もそれと同じようになるんでさあ……。<br><br>スルメよりもっと暴れるかも知れませんね。<br><br>水商売で、さんざ男を欺した女なんかが一番苦しみますね。<br><br>それが悟りを開いた坊さんとか、神信心をした人なんかだと、ちっとも苦しまずに奇麗に焼けるんです。<br><br> あたしも初めは変に思いましたよ。<br><br>人間、死んで仕舞えば血が通よっているわけじゃあなし、撲られようと蹴飛ばされようと、痛くも痒くもないものが、熱いのだけは感じるのか、どうか知りませんが、とにかく、窯の中で苦しむんです。<br><br>物理学の法則ですって……そんな難かしいことはあたしにゃ解りませんがね、その物理の法則とやらなら、人間だれでも同じ訳でしょう。<br><br>それが神信心をした人と、根っからの無信心の仏さまとで違うっていうのはどういう訳でしょう。<br><br>……何んなら一遍、実地を覗いて見ませんか。<br><br>真っ平ですか……ハッハッハ……そりゃあそうですよ。<br><br>一遍みようもんなら四、五日飯がのどを通りゃしませんし、第一死ぬのが余計におっかなくなりますからね。<br><br> その時の子供さんですか……それがちっとも苦しまずに綺麗に骨になりましたんで、つい、あたしゃあお喋りなもんですから、骨あげに来た人たちにいったんです。<br><br>すると、その方たちも、へえ……って聞いていましたが、そのバッチを付けていた女の人が、いいえ……あの子は信者ではなかったんですが、最後迄……ええ、何んとかいったな、病気を治すやりかた。<br><br>そうそうその浄霊ってえのをやって貰らっていたからでしょう。<br><br>有難いお救いを戴いてよござんしたね。<br><br>と喜んでいましたよ。<br><br>救世教のその浄霊ってのをやって貰えば、信心のない者でも断末魔の苦しみがなく、死に貌も綺麗で、硬直もなく、骨も白くて綺麗。<br><br>……へえ……そういうもんですかね。<br><br>それをやって貰らったから、その子供さんが悟りを開いた人と同じ様な大往生ができたんですか。<br><br>成程、えらい宗旨の神様が出られたもんですね。<br><br>あたしはその後きょう迄、そのバッチを覚えていてそれを付けた人を。<br><br>と気を付けていたんですがなかなか出喰わさず、今日やっと旦那に遇ったっていう訳でさあ……今日の仏は信仰心のなかった人……それじゃあ苦しみますね。<br><br>一遍、あたし等の話を聞けば、信心するっていうことがどんなに大事か、ってえことが分るんですがねえ。<br><br>……ヘヘ……私にも信者になれって……それは駄目ですよ旦那。<br><br>皆さんの仲間へ入れて貰らっても皆さんの方で気持を悪るがって、お前の顔を見ると飯がまずくなるなんていわれますからね。<br><br>隠坊をしているうちは遠慮しましょう。<br><br>これでも正式には東京都の吏員ですが……余計なお喋べりをして仕舞いました。<br><br>どうも御苦労さんでした。<br><br>ではお大事に……。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Fé Vista Através das Chamas</h2>
 <p>O senhor é membro da Sekaikyuseikyou, não é mesmo? Sei por causa desse emblema que o senhor usa; já o conheço. Dizem que a Sekaikyuseikyou cultua um Deus de poder extraordinário. E não, não estou dizendo isso com a sórdida intenção de elogiá-lo para receber uma gratificação. Foi há cerca de dois anos, se não me engano, que uma pessoa com um emblema igual ao seu esteve aqui para o recolhimento das cinzas. Foi assim que vim a conhecer a Sekaikyuseikyou.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Segundo me disseram, quando se recebe o Johrei da Sekaikyuseikyou, mesmo quem não possui fé é poupado da agonia da morte, seu semblante se mantém sereno, não há rigidez cadavérica e os ossos ficam brancos e puros. Foi por ter recebido essa graça que o jovem pôde ter uma passagem tão tranquila, como a de um ser iluminado. Compreendi, então, que havia surgido um Deus de uma religião verdadeiramente elevada. Desde aquele dia, guardei a imagem daquele emblema na memória, sempre atento, na esperança de encontrar outra pessoa que o usasse. Contudo, só hoje, finalmente, tive a oportunidade de encontrá-lo, meu senhor.</p>
 <p>O falecido de hoje não tinha fé... Portanto, certamente padecerá. Se as pessoas pudessem ouvir o que tenho a dizer, talvez compreendessem a imensa importância de se ter fé. (sorriso) O senhor está me convidando para ser membro? Ah, isso não seria possível. Mesmo que me aceitassem em seu grupo, os senhores acabariam se sentindo incomodados. Diriam: "Olhar para o seu rosto estraga o apetite". Enquanto eu exercer esta função, é melhor que eu me abstenha. Embora pareça um trabalho lúgubre, sou oficialmente um funcionário da prefeitura de Tóquio.</p>
 <p>Perdoe-me por ter falado demais. Muito obrigado por sua atenção. Passe bem.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 野辺送り ＜隠坊・メシヤ教を語る＞ 槐安生 『地上天国』56号、昭和29(1954)年1月25日発行 旦那は救世教の方ですね。<br/><br/>どうして解るって、そのバッチに覚えがあるんですよ。<br/><br/>救世教っていうのは大そうあらたかな神様だそうですわ。<br/><br/>いや……別に御世辞を並べて御心付けを戴こうなんて、そんなさもしい根性でいっているんじゃありませんよ。<br/><br/>そう……もうかれこれ二年ぐらい前のことでしたかね、旦那と同じバッチを付けた人が骨あげに見えましてね、それで救世教ってえことを知ったんです。<br/><br/> あたしが受持ったその時の仏さまは、まだ子供で、確か、十六か七だったと覚えていますが、その時の仏さまが素直に焼けたのを見ましてね。<br/><br/>骨あげの御世話をしながら、失礼ですがこの仏さまは子供さんながら信心深かった人のようですね。<br/><br/>と言ったところ、どうしてそれが解るか、って訊かれたんです。<br/><br/> 旦那がたは御存知ないでしょうが、仏さまを焼いているとき、その様子を窯の後ろの穴から見るんです。<br/><br/>中を覗かなくったって重油で何時間、石炭なら何時間、薪では何時間と、時計を見ていれば解るんですが、万が一、火を落してから骨になっていなけりゃあ大変ですから、念のため覗いて見るんです。<br/><br/>いつか新聞に出たから知っていなさるでしょうが、男の仏を焼いていたら、その腹の中から赤ん坊が三人も出たことがありましたよ。<br/><br/>あたしゃびっくりして火を落し、すぐその筋へ届け出たんです。<br/><br/>そうしたら、それが医者の仕業と分って大騒ぎになったこともありました。<br/><br/>あれなんかも、あたし等が窯の後ろから見ていると知っていれば、やらなかったでしょうね。<br/><br/>話が飛んでもないところへ行っちまいましたが、そうやって窯の後から見ていると、その仏さまが信心をしでいた人か、無信心の人だったかが分るんですよ。<br/><br/>どうして分るかっていうと、旦那も火鉢の上でスルメを焼いたことがありましょう。<br/><br/>スルメを金網の上に乗せて灸るとジリジリって丸く反って仕舞いましょう。<br/><br/>人間もそれと同じようになるんでさあ……。<br/><br/>スルメよりもっと暴れるかも知れませんね。<br/><br/>水商売で、さんざ男を欺した女なんかが一番苦しみますね。<br/><br/>それが悟りを開いた坊さんとか、神信心をした人なんかだと、ちっとも苦しまずに奇麗に焼けるんです。<br/><br/> あたしも初めは変に思いましたよ。<br/><br/>人間、死んで仕舞えば血が通よっているわけじゃあなし、撲られようと蹴飛ばされようと、痛くも痒くもないものが、熱いのだけは感じるのか、どうか知りませんが、とにかく、窯の中で苦しむんです。<br/><br/>物理学の法則ですって……そんな難かしいことはあたしにゃ解りませんがね、その物理の法則とやらなら、人間だれでも同じ訳でしょう。<br/><br/>それが神信心をした人と、根っからの無信心の仏さまとで違うっていうのはどういう訳でしょう。<br/><br/>……何んなら一遍、実地を覗いて見ませんか。<br/><br/>真っ平ですか……ハッハッハ……そりゃあそうですよ。<br/><br/>一遍みようもんなら四、五日飯がのどを通りゃしませんし、第一死ぬのが余計におっかなくなりますからね。<br/><br/> その時の子供さんですか……それがちっとも苦しまずに綺麗に骨になりましたんで、つい、あたしゃあお喋りなもんですから、骨あげに来た人たちにいったんです。<br/><br/>すると、その方たちも、へえ……って聞いていましたが、そのバッチを付けていた女の人が、いいえ……あの子は信者ではなかったんですが、最後迄……ええ、何んとかいったな、病気を治すやりかた。<br/><br/>そうそうその浄霊ってえのをやって貰らっていたからでしょう。<br/><br/>有難いお救いを戴いてよござんしたね。<br/><br/>と喜んでいましたよ。<br/><br/>救世教のその浄霊ってのをやって貰えば、信心のない者でも断末魔の苦しみがなく、死に貌も綺麗で、硬直もなく、骨も白くて綺麗。<br/><br/>……へえ……そういうもんですかね。<br/><br/>それをやって貰らったから、その子供さんが悟りを開いた人と同じ様な大往生ができたんですか。<br/><br/>成程、えらい宗旨の神様が出られたもんですね。<br/><br/>あたしはその後きょう迄、そのバッチを覚えていてそれを付けた人を。<br/><br/>と気を付けていたんですがなかなか出喰わさず、今日やっと旦那に遇ったっていう訳でさあ……今日の仏は信仰心のなかった人……それじゃあ苦しみますね。<br/><br/>一遍、あたし等の話を聞けば、信心するっていうことがどんなに大事か、ってえことが分るんですがねえ。<br/><br/>……ヘヘ……私にも信者になれって……それは駄目ですよ旦那。<br/><br/>皆さんの仲間へ入れて貰らっても皆さんの方で気持を悪るがって、お前の顔を見ると飯がまずくなるなんていわれますからね。<br/><br/>隠坊をしているうちは遠慮しましょう。<br/><br/>これでも正式には東京都の吏員ですが……余計なお喋べりをして仕舞いました。<br/><br/>どうも御苦労さんでした。<br/><br/>ではお大事に……。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

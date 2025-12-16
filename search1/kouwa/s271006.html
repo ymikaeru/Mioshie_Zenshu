@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271006</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月6日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月六日 この間、「院展」と「青龍展」に行ってみて、あんまり酷いので書かずにいられないから、書いて『栄光』に出して日本画の主なる先生たちに送るつもりです。<br><br>なにしろ日本画というものは亡びてしまうのです。<br><br>それを書いてみたのです。<br><br>言いたいことを言ったわけです。<br><br> （御論文「今や亡びんとする日本画」）【栄光 一七八号】 これはちょっとおもしろい論文です。<br><br> （御論文「 運命は自由に作られる 」）【地上天国 四十一号】 今読んだ通り、すべての苦しみは浄化です。<br><br>それで霊の曇りが除れるのです。<br><br>そこで今までの宗教での難行苦行というのが、その方法なのです。<br><br>というのは、ふつう世間で苦しむのは、やむを得ずなるのです。<br><br>苦しみの方がぶつかってくるのです。<br><br>ところが難行苦行というのは、自分で一生懸命苦しむのです。<br><br>それでも魂が磨けるのです。<br><br>それでバラモン教の方は、苦しんで悟りが開けるといっているのですが、苦しんで悟りが開けるということは、曇りがなくなると悟りが開けるのです。<br><br>つまり曇りがないから、物事が良く分かるのです。<br><br>すると悟りが開けるのです。<br><br>悟りが開けるということは、物事が分かることです。<br><br>つまり真理が分かるわけです。<br><br>けれども真理にもいろいろあるのです。<br><br>やっぱり上中下あります。<br><br>だから、みんなが真理と思っているところが、ごく下の真理というのが多いです。<br><br>それで前よりも魂が浄まるのです。<br><br>迷いが少なくなってくる、判断力が出てくる。<br><br>しかし、迷いというものは、ぜんぜんなくなるということはないのです。<br><br>どんな偉い人でも……私でもあります。<br><br>ただ迷いがなくなるのが早いのと遅いのとの違いです。<br><br>私などは、迷っても半日くらいです。<br><br>私は、物事をみるとすぐ結論が分かるのです。<br><br>ですから、こうして庭や建築とかいろいろなことをみても、すぐパッと分かるのです。<br><br>首をひねるようなことはありません。<br><br>もしその時パッと出ないと、考えないでほったらかしておくのです。<br><br>それはやはり時があって、なにかの時にパッと分かるのです。<br><br>というのは順序があって、神様の方で、早過ぎると知らせないのです。<br><br>それで時期が来ると分かるわけです。<br><br>ですから迷わないで分かるわけです。<br><br>ところが今の人は霊が曇ってますから、どんな偉い人でも始終迷いに迷い、考えに考えているのです。<br><br>で、あんまり考えたりするのに、ろくな智慧は出ないのです。<br><br>だからやり損なったり、自分で求めて失敗を作っているのです。<br><br>特に政治家方面などは……よく新聞なんかに出てますが、実にあまりに智慧がなさすぎる。<br><br>ということをよく感じますが、それは霊が曇っているからです。<br><br>そこで人間は、その曇りをできるだけ除ると、健康になるばかりでなくやっぱり頭が良くなります。<br><br>そこで頭を良くするのに、つまり曇りを除るのに難行苦行をしなくても除れるというのは、おそらくメシヤ教だけだろうと思います。<br><br>これはつまり天国的宗教、昼間の宗教だから、明るいから早く曇りが除れ、魂が磨けるから智慧証覚が得られるというわけです。<br><br> すなわち病気を治す場合に、疑ってもなんでも治るということは、つまり難行苦行ということはいらないというのと、理屈は一つです。<br><br>他力です。<br><br>他動的です。<br><br>そこにすばらしい値打ちがあるわけです。<br><br>そんなわけだから運というものは、霊の曇りと平均するものです。<br><br>つまり曇りのあるだけは、どうしても苦しみはぶつかってくるのですから、一切は相応の理といって、すべてなんでも食い違いはないのです。<br><br>人間には、食い違いがあるように見えるのは、つまり人間が上っ面だけを見て判断するからです。<br><br>仮に一家にどうしても信仰に入らない人があって、その人が反対したりするが、そうすると反対された人の方は、始終やきもきしてますが、そのやきもきする方に曇りがある。<br><br>その人に曇りがなくなって魂が浄まると、他の人が悩み苦しめることはできなくなる。<br><br>するとその人は信仰に入ることになる。<br><br>あの畜生、人を酷い目に遭わせやがる、あいつのためにとんでもないことになった、あいつはとんでもない損をさせた。<br><br>またいくら言っても入らないとか、そういうのはやっぱり御自分を見なければいけない。<br><br>それはそれだけの曇りがこっちにあるからなのです。<br><br>それによってこっちの曇りを除ってくれるのです。<br><br>ですから自分を酷い目に遭わせたり苦しめたりするという人は、自分の曇りを除ってくれているわけです。<br><br>浄化作用の仕事をやってくれているわけです。<br><br>そこまで来ると、感謝してもよいことになってくるのです。<br><br>この間裁判所で、公判がすんだ時に被告の感想を言わせたのですが、ほかの人は今まで間違った調べをして、検事や検察官はけしからんと、今までの言い足りない不満足を言ってましたが、私は今まで検察官やなにかのお蔭で、私はたいへん磨かれた、そのために教団も堅実になった、大いに御苦労であった、それを感謝する。<br><br>ということを言ったのです。<br><br>で、なにも迎合したり、そんなような意味ではないのです。<br><br>今言うように、大乗的に考えればそうなるのですから、大いに感謝してよいのです。<br><br>だから、考え方というのはそこの点です。<br><br>そういう考え方が信仰の価値なのです。<br><br>価値ではない、それが芯です。<br><br>本当なのです。<br><br>だからこっちに反対する奴は、私も一時は癪に障ったが、考えてみると、そのためにかえって結果が良かった、というように言いましたが、それが本当なのです。<br><br>ですから、思うようにいかないということは、まだ自分に霊的に資格がないのです。<br><br>で、霊が浄まって魂が浄まれば思うようにいくのです。<br><br>そういうふうにできているのです。<br><br>思うようにいかないということは、それはまだ自分に曇りがあるのです。<br><br>その曇りを苦しんで除らないで、愉快に除るというのがメシヤ教の真髄です。<br><br>それには人を助けるのです。<br><br>そうすると人の感謝によってその人は始終光を受けますから、それでこっちの魂が浄まるのです。<br><br>つまり難行苦行の代わりに人を喜ばせ、人を助ける、それによって同じ結果を得られるというわけです。<br><br>そこで人を助けるには、やっぱり話や説明やなにかが上手くできなければならないから、そのために御神書を読む。<br><br>また御神書によって、いろんな真理を知りますから魂も浄まります。<br><br>それとともに人を救う力もそれだけ出ます。<br><br>そうして人を救い、喜ばせながら、自分も向上するということになるのです。<br><br>大本教のお筆先におもしろいことが言ってあります。<br><br>艮の金神は神代の時に人から嫌われて押込められたのです。<br><br>それで、「今に返報返しを致すぞよ」……仇討ちです。<br><br>それだけでは神様も人間みたいですが、けれども「艮の金神は喜ばして返報返しを致すぞよ」そういうのがある。<br><br>喜ばして返報返しをするというのが非常におもしろいです。<br><br>仇討ちといっても、忠臣蔵のように上野介が首を取るというのではないのです。<br><br>先方を喜ばすというのですから逆です。<br><br>これが本当です。<br><br>ですから私は大祭の余興の時に、講談の貞丈（ていじょう）に「忠臣蔵をやってはいかん」と条件をつけたのです。<br><br>これは喜ばせて返報返しをするのとは逆です。<br><br>私はそういうのは嫌いです。<br><br>仇討ちという思想は非常に悪いのです。<br><br>これを日本から絶対に除かなければいけないのです。<br><br>けれども日本人はそれに非常に憧れるのです。<br><br>曾我兄弟とか……と。<br><br>その仇討ち思想を除らなければ、世界は平和にはならないのです。<br><br>個人としても争いが絶えないわけです。<br><br>支那の言葉に「怨に報ゆるに徳を以てする」というのは非常に良いです。<br><br>それから蒋介石が終戦後日本に非常に好意をもっているのです。<br><br>日本に対しても良くしなければいけないというので、蒋介石は今もって日本から代償を取ろうとは思っていないのです。<br><br>そのために今も台湾だけでも地位を保っていられるというわけでしょう。<br><br>そんなような具合で、ただ信者は浄化作用というと、病気だけに限るように思うきらいがありますから、それで話したのです。<br><br>あらゆる苦しみというのは、全部自分にあるということを知れば良いのです。<br><br> 時間がないから短い論文を読ませます。<br><br> （御論文「爆弾を抱いている現代人」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza da Purificação e a Construção do Destino</h2>
 <p>Recentemente, tive a oportunidade de visitar as exposições “Inten” e “Seiryuten”, e a impressão que me causaram foi tão desoladora que me senti compelido a escrever a respeito. Pretendo publicar o artigo na revista Eikou e enviá-lo aos principais mestres de pintura japonesa. A verdade é que a pintura tradicional japonesa, como a conhecemos, está à beira da extinção. Foi sobre essa iminente perda que discorri, expressando tudo o que sentia.</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>Mencionei tudo isso porque há uma tendência entre os fiéis de associarem a purificação exclusivamente à doença. É fundamental compreender que todos os sofrimentos, sem exceção, têm sua origem em nós mesmos.</p>
 <p>Como o tempo é curto, peço que leiam um artigo breve.</p>
 <p>(Leitura do artigo “O Homem Moderno e a Bomba que Carrega”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月6日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月六日 この間、「院展」と「青龍展」に行ってみて、あんまり酷いので書かずにいられないから、書いて『栄光』に出して日本画の主なる先生たちに送るつもりです。<br/><br/>なにしろ日本画というものは亡びてしまうのです。<br/><br/>それを書いてみたのです。<br/><br/>言いたいことを言ったわけです。<br/><br/> （御論文「今や亡びんとする日本画」）【栄光 一七八号】 これはちょっとおもしろい論文です。<br/><br/> （御論文「 運命は自由に作られる 」）【地上天国 四十一号】 今読んだ通り、すべての苦しみは浄化です。<br/><br/>それで霊の曇りが除れるのです。<br/><br/>そこで今までの宗教での難行苦行というのが、その方法なのです。<br/><br/>というのは、ふつう世間で苦しむのは、やむを得ずなるのです。<br/><br/>苦しみの方がぶつかってくるのです。<br/><br/>ところが難行苦行というのは、自分で一生懸命苦しむのです。<br/><br/>それでも魂が磨けるのです。<br/><br/>それでバラモン教の方は、苦しんで悟りが開けるといっているのですが、苦しんで悟りが開けるということは、曇りがなくなると悟りが開けるのです。<br/><br/>つまり曇りがないから、物事が良く分かるのです。<br/><br/>すると悟りが開けるのです。<br/><br/>悟りが開けるということは、物事が分かることです。<br/><br/>つまり真理が分かるわけです。<br/><br/>けれども真理にもいろいろあるのです。<br/><br/>やっぱり上中下あります。<br/><br/>だから、みんなが真理と思っているところが、ごく下の真理というのが多いです。<br/><br/>それで前よりも魂が浄まるのです。<br/><br/>迷いが少なくなってくる、判断力が出てくる。<br/><br/>しかし、迷いというものは、ぜんぜんなくなるということはないのです。<br/><br/>どんな偉い人でも……私でもあります。<br/><br/>ただ迷いがなくなるのが早いのと遅いのとの違いです。<br/><br/>私などは、迷っても半日くらいです。<br/><br/>私は、物事をみるとすぐ結論が分かるのです。<br/><br/>ですから、こうして庭や建築とかいろいろなことをみても、すぐパッと分かるのです。<br/><br/>首をひねるようなことはありません。<br/><br/>もしその時パッと出ないと、考えないでほったらかしておくのです。<br/><br/>それはやはり時があって、なにかの時にパッと分かるのです。<br/><br/>というのは順序があって、神様の方で、早過ぎると知らせないのです。<br/><br/>それで時期が来ると分かるわけです。<br/><br/>ですから迷わないで分かるわけです。<br/><br/>ところが今の人は霊が曇ってますから、どんな偉い人でも始終迷いに迷い、考えに考えているのです。<br/><br/>で、あんまり考えたりするのに、ろくな智慧は出ないのです。<br/><br/>だからやり損なったり、自分で求めて失敗を作っているのです。<br/><br/>特に政治家方面などは……よく新聞なんかに出てますが、実にあまりに智慧がなさすぎる。<br/><br/>ということをよく感じますが、それは霊が曇っているからです。<br/><br/>そこで人間は、その曇りをできるだけ除ると、健康になるばかりでなくやっぱり頭が良くなります。<br/><br/>そこで頭を良くするのに、つまり曇りを除るのに難行苦行をしなくても除れるというのは、おそらくメシヤ教だけだろうと思います。<br/><br/>これはつまり天国的宗教、昼間の宗教だから、明るいから早く曇りが除れ、魂が磨けるから智慧証覚が得られるというわけです。<br/><br/> すなわち病気を治す場合に、疑ってもなんでも治るということは、つまり難行苦行ということはいらないというのと、理屈は一つです。<br/><br/>他力です。<br/><br/>他動的です。<br/><br/>そこにすばらしい値打ちがあるわけです。<br/><br/>そんなわけだから運というものは、霊の曇りと平均するものです。<br/><br/>つまり曇りのあるだけは、どうしても苦しみはぶつかってくるのですから、一切は相応の理といって、すべてなんでも食い違いはないのです。<br/><br/>人間には、食い違いがあるように見えるのは、つまり人間が上っ面だけを見て判断するからです。<br/><br/>仮に一家にどうしても信仰に入らない人があって、その人が反対したりするが、そうすると反対された人の方は、始終やきもきしてますが、そのやきもきする方に曇りがある。<br/><br/>その人に曇りがなくなって魂が浄まると、他の人が悩み苦しめることはできなくなる。<br/><br/>するとその人は信仰に入ることになる。<br/><br/>あの畜生、人を酷い目に遭わせやがる、あいつのためにとんでもないことになった、あいつはとんでもない損をさせた。<br/><br/>またいくら言っても入らないとか、そういうのはやっぱり御自分を見なければいけない。<br/><br/>それはそれだけの曇りがこっちにあるからなのです。<br/><br/>それによってこっちの曇りを除ってくれるのです。<br/><br/>ですから自分を酷い目に遭わせたり苦しめたりするという人は、自分の曇りを除ってくれているわけです。<br/><br/>浄化作用の仕事をやってくれているわけです。<br/><br/>そこまで来ると、感謝してもよいことになってくるのです。<br/><br/>この間裁判所で、公判がすんだ時に被告の感想を言わせたのですが、ほかの人は今まで間違った調べをして、検事や検察官はけしからんと、今までの言い足りない不満足を言ってましたが、私は今まで検察官やなにかのお蔭で、私はたいへん磨かれた、そのために教団も堅実になった、大いに御苦労であった、それを感謝する。<br/><br/>ということを言ったのです。<br/><br/>で、なにも迎合したり、そんなような意味ではないのです。<br/><br/>今言うように、大乗的に考えればそうなるのですから、大いに感謝してよいのです。<br/><br/>だから、考え方というのはそこの点です。<br/><br/>そういう考え方が信仰の価値なのです。<br/><br/>価値ではない、それが芯です。<br/><br/>本当なのです。<br/><br/>だからこっちに反対する奴は、私も一時は癪に障ったが、考えてみると、そのためにかえって結果が良かった、というように言いましたが、それが本当なのです。<br/><br/>ですから、思うようにいかないということは、まだ自分に霊的に資格がないのです。<br/><br/>で、霊が浄まって魂が浄まれば思うようにいくのです。<br/><br/>そういうふうにできているのです。<br/><br/>思うようにいかないということは、それはまだ自分に曇りがあるのです。<br/><br/>その曇りを苦しんで除らないで、愉快に除るというのがメシヤ教の真髄です。<br/><br/>それには人を助けるのです。<br/><br/>そうすると人の感謝によってその人は始終光を受けますから、それでこっちの魂が浄まるのです。<br/><br/>つまり難行苦行の代わりに人を喜ばせ、人を助ける、それによって同じ結果を得られるというわけです。<br/><br/>そこで人を助けるには、やっぱり話や説明やなにかが上手くできなければならないから、そのために御神書を読む。<br/><br/>また御神書によって、いろんな真理を知りますから魂も浄まります。<br/><br/>それとともに人を救う力もそれだけ出ます。<br/><br/>そうして人を救い、喜ばせながら、自分も向上するということになるのです。<br/><br/>大本教のお筆先におもしろいことが言ってあります。<br/><br/>艮の金神は神代の時に人から嫌われて押込められたのです。<br/><br/>それで、「今に返報返しを致すぞよ」……仇討ちです。<br/><br/>それだけでは神様も人間みたいですが、けれども「艮の金神は喜ばして返報返しを致すぞよ」そういうのがある。<br/><br/>喜ばして返報返しをするというのが非常におもしろいです。<br/><br/>仇討ちといっても、忠臣蔵のように上野介が首を取るというのではないのです。<br/><br/>先方を喜ばすというのですから逆です。<br/><br/>これが本当です。<br/><br/>ですから私は大祭の余興の時に、講談の貞丈（ていじょう）に「忠臣蔵をやってはいかん」と条件をつけたのです。<br/><br/>これは喜ばせて返報返しをするのとは逆です。<br/><br/>私はそういうのは嫌いです。<br/><br/>仇討ちという思想は非常に悪いのです。<br/><br/>これを日本から絶対に除かなければいけないのです。<br/><br/>けれども日本人はそれに非常に憧れるのです。<br/><br/>曾我兄弟とか……と。<br/><br/>その仇討ち思想を除らなければ、世界は平和にはならないのです。<br/><br/>個人としても争いが絶えないわけです。<br/><br/>支那の言葉に「怨に報ゆるに徳を以てする」というのは非常に良いです。<br/><br/>それから蒋介石が終戦後日本に非常に好意をもっているのです。<br/><br/>日本に対しても良くしなければいけないというので、蒋介石は今もって日本から代償を取ろうとは思っていないのです。<br/><br/>そのために今も台湾だけでも地位を保っていられるというわけでしょう。<br/><br/>そんなような具合で、ただ信者は浄化作用というと、病気だけに限るように思うきらいがありますから、それで話したのです。<br/><br/>あらゆる苦しみというのは、全部自分にあるということを知れば良いのです。<br/><br/> 時間がないから短い論文を読ませます。<br/><br/> （御論文「爆弾を抱いている現代人」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

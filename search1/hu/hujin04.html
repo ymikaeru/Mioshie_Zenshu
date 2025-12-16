@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hujin04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 婦人病 未発表『文明の創造』昭和27(1952)年執筆 一口に婦人病といっても、種類の多いのは衆知のごとくであるが、何といっても子宮病が主であろう。<br><br>子宮の役目としては、月経と妊娠の二つであるが、月経についての病気といえば、まず月経痛と月経不順であるが、前者は月経時、一日ないし数日にわたって、多少の痛みがある。<br><br>これは何が原因かというと、経血が喇叭（らっぱ）管を通ろうとする際、喇叭管の入口が狭いので、拡がろうとするその痛みである。<br><br>なぜ喇叭管口が狭いかというと、下腹部のその辺に毒結があり、圧迫しているからで、これを溶解排除させれば容易に治るのである。<br><br>もちろん医学ではどうにもならないので、長年苦しんでいる女性もよくあり、実に可愛想というの外はない。<br><br> また月経不順と一口に言うが、これには遅れ勝ちと不規則なのと、経血の多い少ないとがあるが、この原因のほとんどは貧血及び濁血のためであって、真の健康にさえなれば必ず順調になるのである。<br><br>ここで是非知っておかねばならない事は、結核患者の月経異常である。<br><br>これは月経が普通にある間は、病気は軽い証拠で、決して心配はないが、病気が進むに従い貧血し漸次量が減って遅れ勝ちとなり、末期に至ると例外なく無月経となるのであるから、婦人患者の結核の軽重を知るには、月経によるのが最も正確である。<br><br>ついでに今一つの関連した事であるが、病気が重くなり、月経が減る頃は陰毛まで抜け、最後には無毛となる者さえある。<br><br> 次は妊娠であるが、これは婦人にとっては病気ではなく、むしろ健康な証拠であるが、近頃は妊娠するや婦人の多くは、喜ぶよりも反って恐れたり心配したりするが、これも一面無理はない、なぜなれば妊娠中色々な故障や病気が起り易いからで、大抵の人は悪阻（つわり）の苦しみはもちろん、結核、バセドー氏病等のある人は、医師は危険であるとして、人工流産させたり、また人によっては出産となるや、難産の場合さえあるので、本当に安心の出来る人などまずないといってもよかろう。<br><br>これについて考えなければならない事は、右のような種々の障害は実は変則であって、恐らく昔の婦人はそういう事は余りなかったようで、記録等にも見当らないのである。<br><br>としたら医学の進歩とは逆効果で、理屈に合わない話だが、これがすなわち医学の盲点である。<br><br>逆効果とは全く薬剤のためであって薬剤多用者程成績が悪いのである。<br><br>しかも自分ばかりではなく、早産、死産の外、生まれた赤ん坊にまで影響するので、近年多い弱体嬰児（えいじ）や発育不良がそれである。<br><br>そうして本当から言えば婦人が妊娠し、子を産むという事は、婦人に与えられた立派な役目であるから順調に経過し、無事に出産するのが当然であり、故障など起るはずがないのに、起るというのはそこに何らか間違った点があるからで、その間違った点に気が付き改めればいいので、今それらについて詳しくかいてみよう。<br><br> 妊娠の場合、最も悩みとされているのは悪阻であろう。<br><br>この症状は今更説明の要のない程誰も知っているが、重いのになると生命までも危なくなるので、仲々馬鹿にならないものである。<br><br>この原因も医学では判っていないが、これは至極簡単な理由である。<br><br>すなわち子宮が膨脹する場合邪魔しているものがある。<br><br>それは臍部から胃にかけての毒素の溜結で、それが膨脹のため、その排除作用が起る。<br><br>これが悪阻であって、何よりも頻繁な嘔吐によってそれが排除されるのである。<br><br>この毒素は然毒と薬毒とであって、出るだけ出てしまえば完全に治るが、医学では原因も判らず、判っても出す方法がないから、気休め程度の手段か、堕胎させる以外方法はないのである。<br><br> その他よくあるものに妊娠腎がある。<br><br>もちろん症状は浮腫（むくみ）であるが、これは医学でも言う通り、腎臓障害すなわち腎臓萎縮である。<br><br>この原因もさきにかいたごとく、平常から腎臓背部に毒結がありその圧迫があるところへ、妊娠のため前方からも圧迫されるので、腎臓は言わば挟み打ちとなって萎縮し、全部の尿が処理されず、溢れて浮腫となるのであるから、背部の毒結を浄霊溶解すれば、腎臓の負担が軽くなり、治るのは当然である。<br><br>ところが医学ではどうする事も出来ないので、重症の場合親の生命には代えられぬとして人工流産させるが、せっかく出来た大切な赤子を犠牲にするのだから、実に気の毒な話である。<br><br>しかもこの時は大抵八、九ケ月頃であるから、なおさら親は悲嘆に暮れるのである。<br><br> ここで妊娠についての医学の考え方についてかいてみるが、前述のごとく結核やバセドー氏病等の病気のある婦人に対し、危険として流産させるのは大いに間違っている。<br><br>何となれば妊娠するという事は、その人の健康状態が無事に出産出来るだけの体力があるからで、言わば母になる資格が具（そなわ）っている訳である。<br><br>そうでなければ、決して妊娠するはずはない。<br><br>これらも医学の考え方が唯物一方に偏しているからで、人間本来の神性を無視し、動物と同一視する誤りである。<br><br>これは理窟ではない。<br><br>私は今まで右の理由によって、妊娠した婦人に、どんな持病があっても差支えないと、ただ浄霊だけでことごとく無事に出産させ、一人の過ちさえなかったのである。<br><br>この事だけでも、医学の考え方を、大いに変えなければならないと思うのである。<br><br> 次に婦人病の個々についてかいてみるが、何と言っても子宮の病が王座を占めている。<br><br>まず子宮内膜炎であるが、これは子宮の内壁に加答児（カタル）が出来る。<br><br>つまり毒素が下降して、子宮内壁から排除されようとする湿疹のようなものであり、今一つは下降毒素が内壁の粘膜を刺戟し、加答児を発（おこ）させるので、どちらも気長に放っておけば必ず治るのである。<br><br>ところが滑稽なのは、この際よく掻爬（そうは）をするが、これは何にもならない。<br><br>というのはホンの一時的の効果で、毒素のある間は後から後から汚すからである。<br><br>これについて私はいつもいう事は、子宮掻爬は歯糞を除るようなもので、物を食えば直に汚れると同様で、それも歯を磨くくらいの簡単な事ならいいが、婦人として最も羞恥の場所を指で触れさせるのであるから、断然廃めた方がいいと思う。<br><br>また子宮実質炎というのは、子宮の周囲に毒素溜結し、それに浄化が起って、微熱、軽痛、不快感等で、これも放っておいても治るが、浄霊すれば短期間で全治するのである。<br><br> よく不妊娠の場合、子宮後屈とか前屈とかいって手術を勧めるが、なるほどこれは子宮の位置が不良となり、子宮口が外れるので、妊娠不能となるのは、医学のいう通りである。<br><br>では前後屈の原因は何かというと、毒素溜結が子宮の前か後からか圧迫するためで、医学は手術によってその毒素を除り、一時は正常な位置に復すが、日を経るに従い再び毒素が溜結、元通りになるので、一時的効果としたら、大袈裟な手術までするのはツマラヌ話である。<br><br>今一つ考えて貰いたい事は、よく医学の診断で、後屈のため妊娠不能と云われた者が、手術もせずそのままにしておいて、妊娠した例もよく聞くのである。<br><br>以前私は大学病院でそういわれた婦人が、その後三人の子を生んだという事を本人から聞いたのであるが、これなども医学の研究がまだ不充分であるからで、多くの人に迷惑をかける以上、充分確信を得るまでは、言わない方が良心的だと思うのである。<br><br> 次は子宮癌であるが、真症は滅多にないもので、普通医師から子宮癌の診断を受けた者でも、ほとんど癌ではなく、子宮外部に溜った濁血の塊である。<br><br>そうして医学では更年期以後出血がある場合は、まず癌の疑いを起せと言われるそうだが、私の経験上この説は誤りである。<br><br>なぜなればその年頃癌と診断された患者を、今まで幾人も浄霊したが、間もなく大量の出血があり、癌とされていた手に触るる程の塊も消散してしまうからである。<br><br>これによってみても子宮癌と診断された患者は、ほとんど経血の古い塊と思えば、まず間違いあるまい。<br><br>これらも医学が今一層進歩したら必ず分る時が来るに違いない。<br><br> 次に子宮筋腫であるが、これはその名のごとく子宮を牽引している両側の筋が、腫れるというよりも、その一部に固結が出来るので、その浄化による苦痛であって、医療は手術によって除去するが、幸いそれで治る場合もあるにはあるが、多くはその付近に再発しがちである。<br><br>この病気も浄霊によれば根治されるが、相当日数を要するものである。<br><br> 次に卵巣の病気であるが、これはほとんど卵巣膿腫と卵巣水腫とであって、症状もよく似ている。<br><br>ただ固い柔らかいがあり、人により軽重の差もはなはだしい。<br><br>従って悪性かまたは医療の結果によってはすこぶる膨大となり、臨月よりも大きくなる場合がある。<br><br>医療では手術によって割合容易に除去され得るが、これで卵巣だけの病気は治るが、他に影響を及ぼすから厄介である。<br><br>最も始末の悪いのは性格が一変する事で、一つなら左程でもないが、二つとも除去されると、ほとんど男性化してしまうと共に、一生涯不妊となるのは言うまでもない。<br><br>この外目に障害を起す事もあり、盲目同様になる者さえある。<br><br>また何となく身体全体が弱り、人生観まで変って、陰欝（いんうつ）になったり自棄的となったりする。<br><br>現在医学では手術より方法がないから止むを得ないが、これも浄霊によれば完治するのである。<br><br>原因は薬毒と萎縮腎による余剰尿が溜るので、前者は膿腫となり、後者は水腫となるので、いずれも腎臓の活動を促進させれば治るのである。<br><br> ここで婦人病について、根本原因を書いてみるが、もともと婦人病の一切は、体内に保有している毒素が、漸次下降するためであって、下腹部に溜れば子宮、卵巣、喇叭管、膀胱等の障害となり、なお下降すれば痔疾、並びに一般陰部の病原となるので、これらは後にかく不感症の原因中に詳説するから、ここでは婦人によくある白帯下（こしけ）についてのみかいてみるが、元来婦人の白帯下は非常に多いもので、随分悩んでいる人もあるが、実はこれは非常によいのである。<br><br>というのは諸々の毒素が液体となって排泄されるからで、出るだけ出れば下腹部全体は、非常に快くなるものである。<br><br>それを知らない医師も一般人も心配して停めようとするが、これが最も悪く、反って病気を保存させるようなものであるから、注意すべきである。<br><br> 次に近来大分喧（やかま）しく云われているものに彼の不感症があるが、これは医学でも全然判っていないし、婦人にとってはこれ程将来の運命に関わる重要なものはないから、なるべく詳しくかいてみよう。<br><br>人も知る通りせっかく結婚しても、何より肝腎な夫からの愛情を受入れ難いので、どうしても夫婦円満にゆかず破綻を生じ易いのである。<br><br>そうでなければ夫は外に愛人を作ったり、また不妊になったりするので、結局不幸な運命になる婦人が案外多いようである。<br><br>としたら何としても全治させなければならないが、困った事にはこれを人に相談する訳にもゆかずといって医療では全然治せないから、満足な家庭も作り得ず、独身者より外（ほか）道はない事により、独り悶々の日を送っている女性も少なくないようで、実に同情に堪えないのである。<br><br>ところが浄霊によれば必ず治るのであるから、女性にとってこれ程の大きな福音はあるまい。<br><br>ではまずその原因その他についてかいてみるが、一番の原因は言うまでもなく萎縮腎であって、腎臓は医学でもいうごとく、ホルモンの製造元であるから、腎臓が萎縮すれば活動が鈍り、ホルモンが不足となる。<br><br>それはさきにかいたごとく、腎臓背部にある固結のためであるから、それを溶かせば治るのである。<br><br>また今一つの原因は、陰部を中心に周囲全体に絶えず下降する毒素が溜る事である。<br><br>そのため下腹部に溜れば、前述のごとく子宮はじめ、種々の障害となり、なお下降すれば痔疾、膣痙攣、掻痒症、粘膜の加答児（カタル）、尿道障害、全面的湿疹や糜爛（びらん）、痛み、臭気、不快感等に苦しむのである。<br><br>特に摂護腺部に腫れや固結が出来たり、左右のいずれかの大小陰唇部に毒結が出来、それが鼠蹊部にまで及んで、足の運動を妨げられたりする。<br><br>特に摂護腺部の故障は大いに悪いが、これらすべての診断は、自分自身で押してみればよく判る。<br><br>必ず痛みまたは塊がある。<br><br>といっても場所が場所だけに、浄霊も自分かまたは夫に行って貰えば、それで結構治ってゆくのである。<br><br>但し相当長引くから、そのつもりで気長に根気よくやれば段々快くなってゆき、希望も湧くと共に、必ず全治するものである。<br><br>以上のごとくであるから、この事を知ったなら、いかに天下の女性は喜ぶであろうか、これ程素晴らしい救いはないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise sobre as Enfermidades Femininas</h2>
 <p>O termo "enfermidades femininas", embora abranja um vasto espectro de condições, como é de conhecimento geral, refere-se primordialmente às doenças do útero. As funções uterinas essenciais são duas: a menstruação e a gestação. No que tange às patologias menstruais, destacam-se a dismenorreia e a irregularidade do ciclo. A primeira manifesta-se por dores de intensidade variável durante um ou mais dias do período menstrual. Qual seria a sua causa? A dor origina-se da tentativa do sangue menstrual de atravessar as trompas de Falópio, cujas entradas se encontram estreitadas. Essa constrição ocorre devido à presença de nódulos de toxinas que pressionam a região, e a sua dissolução e eliminação resultam na cura completa. A medicina convencional, por sua vez, mostra-se impotente diante desse quadro, e não são poucas as mulheres que padecem por longos anos, uma situação verdadeiramente lamentável.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Gostaria de expor, neste ponto, a causa fundamental das enfermidades femininas. A totalidade delas se origina da descida gradual das toxinas acumuladas no corpo. Quando se concentram no baixo-ventre, geram distúrbios no útero, nos ovários, nas trompas de Falópio, na bexiga etc. Se descem ainda mais, tornam-se a causa de hemorroidas e de outras afecções da região genital. Explicarei isso em detalhe mais adiante, ao tratar da frigidez. Por ora, abordarei apenas a leucorreia, uma queixa muito comum entre as mulheres. Embora muitas se preocupem com essa condição, a verdade é que ela é extremamente benéfica, pois representa a eliminação de diversas toxinas em forma líquida. Uma vez que toda a secreção tenha sido expelida, a região do baixo-ventre experimentará uma grande sensação de bem-estar. Tanto os médicos quanto o público em geral, por ignorância, tentam suprimir a leucorreia, o que é um grave erro, pois equivale a conservar a doença no corpo. É um ponto que exige muita atenção.</p>
 <p>Por fim, há uma questão que tem sido amplamente discutida recentemente: a chamada frigidez. A medicina não tem a menor compreensão sobre o assunto, e para uma mulher, poucas coisas são tão cruciais para o seu destino. Por isso, tentarei explicá-la da forma mais detalhada possível. Como é sabido, mesmo após o casamento, a dificuldade em corresponder à afeição do marido, que é o pilar da relação, impede a harmonia conjugal e pode facilmente levar à ruína do matrimônio. Em outros casos, o marido pode buscar uma amante, ou a mulher pode se tornar infértil. Consequentemente, o número de mulheres que acabam por trilhar um destino infeliz é surpreendentemente alto. Diante disso, a cura se torna imperativa. O dilema é que não se trata de um problema que possa ser discutido abertamente, e a medicina é completamente ineficaz. Incapazes de construir um lar feliz, sem outra alternativa senão a solidão, muitas mulheres vivem seus dias em angústia silenciosa. É uma situação que desperta profunda compaixão. O Johrei, entretanto, oferece a cura definitiva, e não poderia haver evangelho maior para o público feminino.</p>
 <p>Passemos às suas causas. A principal, sem dúvida, é a atrofia renal. Como a própria medicina afirma, os rins são a fonte produtora de hormônios. Quando atrofiados, sua atividade diminui, resultando em deficiência hormonal. A causa da atrofia, como já expliquei, são os nódulos de toxinas na região posterior aos rins. A dissolução desses nódulos leva à cura. Outra causa importante é o acúmulo de toxinas que descem continuamente e se depositam em toda a região genital. No baixo-ventre, causam os distúrbios uterinos já mencionados. Mais abaixo, provocam hemorroidas, vaginismo, prurido, secreção catarral na mucosa, distúrbios uretrais, eczemas generalizados, erosões, dor, odor e uma sensação geral de desconforto. Particularmente, podem surgir inchaços ou nódulos na região parauretral, ou nódulos de toxinas nos pequenos ou grandes lábios, de um lado ou de ambos, que podem se estender até a virilha, dificultando o movimento das pernas. As afecções na região parauretral são especialmente prejudiciais. O diagnóstico de todas essas condições pode ser feito pela própria mulher, apalpando a área; ela certamente encontrará pontos doloridos ou nódulos. Sendo uma região tão íntima, o Johrei pode ser aplicado pela própria pessoa ou pelo marido, o que é suficiente para promover a cura. Contudo, o tratamento pode ser longo, e é preciso ter essa consciência, agindo com paciência e perseverança. Gradualmente, a melhora virá, a esperança renascerá, e a cura completa será alcançada. Ao tomarem conhecimento disso, imaginem a alegria que tomará conta das mulheres em todo o mundo. Não há salvação mais maravilhosa do que esta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 婦人病 未発表『文明の創造』昭和27(1952)年執筆 一口に婦人病といっても、種類の多いのは衆知のごとくであるが、何といっても子宮病が主であろう。<br/><br/>子宮の役目としては、月経と妊娠の二つであるが、月経についての病気といえば、まず月経痛と月経不順であるが、前者は月経時、一日ないし数日にわたって、多少の痛みがある。<br/><br/>これは何が原因かというと、経血が喇叭（らっぱ）管を通ろうとする際、喇叭管の入口が狭いので、拡がろうとするその痛みである。<br/><br/>なぜ喇叭管口が狭いかというと、下腹部のその辺に毒結があり、圧迫しているからで、これを溶解排除させれば容易に治るのである。<br/><br/>もちろん医学ではどうにもならないので、長年苦しんでいる女性もよくあり、実に可愛想というの外はない。<br/><br/> また月経不順と一口に言うが、これには遅れ勝ちと不規則なのと、経血の多い少ないとがあるが、この原因のほとんどは貧血及び濁血のためであって、真の健康にさえなれば必ず順調になるのである。<br/><br/>ここで是非知っておかねばならない事は、結核患者の月経異常である。<br/><br/>これは月経が普通にある間は、病気は軽い証拠で、決して心配はないが、病気が進むに従い貧血し漸次量が減って遅れ勝ちとなり、末期に至ると例外なく無月経となるのであるから、婦人患者の結核の軽重を知るには、月経によるのが最も正確である。<br/><br/>ついでに今一つの関連した事であるが、病気が重くなり、月経が減る頃は陰毛まで抜け、最後には無毛となる者さえある。<br/><br/> 次は妊娠であるが、これは婦人にとっては病気ではなく、むしろ健康な証拠であるが、近頃は妊娠するや婦人の多くは、喜ぶよりも反って恐れたり心配したりするが、これも一面無理はない、なぜなれば妊娠中色々な故障や病気が起り易いからで、大抵の人は悪阻（つわり）の苦しみはもちろん、結核、バセドー氏病等のある人は、医師は危険であるとして、人工流産させたり、また人によっては出産となるや、難産の場合さえあるので、本当に安心の出来る人などまずないといってもよかろう。<br/><br/>これについて考えなければならない事は、右のような種々の障害は実は変則であって、恐らく昔の婦人はそういう事は余りなかったようで、記録等にも見当らないのである。<br/><br/>としたら医学の進歩とは逆効果で、理屈に合わない話だが、これがすなわち医学の盲点である。<br/><br/>逆効果とは全く薬剤のためであって薬剤多用者程成績が悪いのである。<br/><br/>しかも自分ばかりではなく、早産、死産の外、生まれた赤ん坊にまで影響するので、近年多い弱体嬰児（えいじ）や発育不良がそれである。<br/><br/>そうして本当から言えば婦人が妊娠し、子を産むという事は、婦人に与えられた立派な役目であるから順調に経過し、無事に出産するのが当然であり、故障など起るはずがないのに、起るというのはそこに何らか間違った点があるからで、その間違った点に気が付き改めればいいので、今それらについて詳しくかいてみよう。<br/><br/> 妊娠の場合、最も悩みとされているのは悪阻であろう。<br/><br/>この症状は今更説明の要のない程誰も知っているが、重いのになると生命までも危なくなるので、仲々馬鹿にならないものである。<br/><br/>この原因も医学では判っていないが、これは至極簡単な理由である。<br/><br/>すなわち子宮が膨脹する場合邪魔しているものがある。<br/><br/>それは臍部から胃にかけての毒素の溜結で、それが膨脹のため、その排除作用が起る。<br/><br/>これが悪阻であって、何よりも頻繁な嘔吐によってそれが排除されるのである。<br/><br/>この毒素は然毒と薬毒とであって、出るだけ出てしまえば完全に治るが、医学では原因も判らず、判っても出す方法がないから、気休め程度の手段か、堕胎させる以外方法はないのである。<br/><br/> その他よくあるものに妊娠腎がある。<br/><br/>もちろん症状は浮腫（むくみ）であるが、これは医学でも言う通り、腎臓障害すなわち腎臓萎縮である。<br/><br/>この原因もさきにかいたごとく、平常から腎臓背部に毒結がありその圧迫があるところへ、妊娠のため前方からも圧迫されるので、腎臓は言わば挟み打ちとなって萎縮し、全部の尿が処理されず、溢れて浮腫となるのであるから、背部の毒結を浄霊溶解すれば、腎臓の負担が軽くなり、治るのは当然である。<br/><br/>ところが医学ではどうする事も出来ないので、重症の場合親の生命には代えられぬとして人工流産させるが、せっかく出来た大切な赤子を犠牲にするのだから、実に気の毒な話である。<br/><br/>しかもこの時は大抵八、九ケ月頃であるから、なおさら親は悲嘆に暮れるのである。<br/><br/> ここで妊娠についての医学の考え方についてかいてみるが、前述のごとく結核やバセドー氏病等の病気のある婦人に対し、危険として流産させるのは大いに間違っている。<br/><br/>何となれば妊娠するという事は、その人の健康状態が無事に出産出来るだけの体力があるからで、言わば母になる資格が具（そなわ）っている訳である。<br/><br/>そうでなければ、決して妊娠するはずはない。<br/><br/>これらも医学の考え方が唯物一方に偏しているからで、人間本来の神性を無視し、動物と同一視する誤りである。<br/><br/>これは理窟ではない。<br/><br/>私は今まで右の理由によって、妊娠した婦人に、どんな持病があっても差支えないと、ただ浄霊だけでことごとく無事に出産させ、一人の過ちさえなかったのである。<br/><br/>この事だけでも、医学の考え方を、大いに変えなければならないと思うのである。<br/><br/> 次に婦人病の個々についてかいてみるが、何と言っても子宮の病が王座を占めている。<br/><br/>まず子宮内膜炎であるが、これは子宮の内壁に加答児（カタル）が出来る。<br/><br/>つまり毒素が下降して、子宮内壁から排除されようとする湿疹のようなものであり、今一つは下降毒素が内壁の粘膜を刺戟し、加答児を発（おこ）させるので、どちらも気長に放っておけば必ず治るのである。<br/><br/>ところが滑稽なのは、この際よく掻爬（そうは）をするが、これは何にもならない。<br/><br/>というのはホンの一時的の効果で、毒素のある間は後から後から汚すからである。<br/><br/>これについて私はいつもいう事は、子宮掻爬は歯糞を除るようなもので、物を食えば直に汚れると同様で、それも歯を磨くくらいの簡単な事ならいいが、婦人として最も羞恥の場所を指で触れさせるのであるから、断然廃めた方がいいと思う。<br/><br/>また子宮実質炎というのは、子宮の周囲に毒素溜結し、それに浄化が起って、微熱、軽痛、不快感等で、これも放っておいても治るが、浄霊すれば短期間で全治するのである。<br/><br/> よく不妊娠の場合、子宮後屈とか前屈とかいって手術を勧めるが、なるほどこれは子宮の位置が不良となり、子宮口が外れるので、妊娠不能となるのは、医学のいう通りである。<br/><br/>では前後屈の原因は何かというと、毒素溜結が子宮の前か後からか圧迫するためで、医学は手術によってその毒素を除り、一時は正常な位置に復すが、日を経るに従い再び毒素が溜結、元通りになるので、一時的効果としたら、大袈裟な手術までするのはツマラヌ話である。<br/><br/>今一つ考えて貰いたい事は、よく医学の診断で、後屈のため妊娠不能と云われた者が、手術もせずそのままにしておいて、妊娠した例もよく聞くのである。<br/><br/>以前私は大学病院でそういわれた婦人が、その後三人の子を生んだという事を本人から聞いたのであるが、これなども医学の研究がまだ不充分であるからで、多くの人に迷惑をかける以上、充分確信を得るまでは、言わない方が良心的だと思うのである。<br/><br/> 次は子宮癌であるが、真症は滅多にないもので、普通医師から子宮癌の診断を受けた者でも、ほとんど癌ではなく、子宮外部に溜った濁血の塊である。<br/><br/>そうして医学では更年期以後出血がある場合は、まず癌の疑いを起せと言われるそうだが、私の経験上この説は誤りである。<br/><br/>なぜなればその年頃癌と診断された患者を、今まで幾人も浄霊したが、間もなく大量の出血があり、癌とされていた手に触るる程の塊も消散してしまうからである。<br/><br/>これによってみても子宮癌と診断された患者は、ほとんど経血の古い塊と思えば、まず間違いあるまい。<br/><br/>これらも医学が今一層進歩したら必ず分る時が来るに違いない。<br/><br/> 次に子宮筋腫であるが、これはその名のごとく子宮を牽引している両側の筋が、腫れるというよりも、その一部に固結が出来るので、その浄化による苦痛であって、医療は手術によって除去するが、幸いそれで治る場合もあるにはあるが、多くはその付近に再発しがちである。<br/><br/>この病気も浄霊によれば根治されるが、相当日数を要するものである。<br/><br/> 次に卵巣の病気であるが、これはほとんど卵巣膿腫と卵巣水腫とであって、症状もよく似ている。<br/><br/>ただ固い柔らかいがあり、人により軽重の差もはなはだしい。<br/><br/>従って悪性かまたは医療の結果によってはすこぶる膨大となり、臨月よりも大きくなる場合がある。<br/><br/>医療では手術によって割合容易に除去され得るが、これで卵巣だけの病気は治るが、他に影響を及ぼすから厄介である。<br/><br/>最も始末の悪いのは性格が一変する事で、一つなら左程でもないが、二つとも除去されると、ほとんど男性化してしまうと共に、一生涯不妊となるのは言うまでもない。<br/><br/>この外目に障害を起す事もあり、盲目同様になる者さえある。<br/><br/>また何となく身体全体が弱り、人生観まで変って、陰欝（いんうつ）になったり自棄的となったりする。<br/><br/>現在医学では手術より方法がないから止むを得ないが、これも浄霊によれば完治するのである。<br/><br/>原因は薬毒と萎縮腎による余剰尿が溜るので、前者は膿腫となり、後者は水腫となるので、いずれも腎臓の活動を促進させれば治るのである。<br/><br/> ここで婦人病について、根本原因を書いてみるが、もともと婦人病の一切は、体内に保有している毒素が、漸次下降するためであって、下腹部に溜れば子宮、卵巣、喇叭管、膀胱等の障害となり、なお下降すれば痔疾、並びに一般陰部の病原となるので、これらは後にかく不感症の原因中に詳説するから、ここでは婦人によくある白帯下（こしけ）についてのみかいてみるが、元来婦人の白帯下は非常に多いもので、随分悩んでいる人もあるが、実はこれは非常によいのである。<br/><br/>というのは諸々の毒素が液体となって排泄されるからで、出るだけ出れば下腹部全体は、非常に快くなるものである。<br/><br/>それを知らない医師も一般人も心配して停めようとするが、これが最も悪く、反って病気を保存させるようなものであるから、注意すべきである。<br/><br/> 次に近来大分喧（やかま）しく云われているものに彼の不感症があるが、これは医学でも全然判っていないし、婦人にとってはこれ程将来の運命に関わる重要なものはないから、なるべく詳しくかいてみよう。<br/><br/>人も知る通りせっかく結婚しても、何より肝腎な夫からの愛情を受入れ難いので、どうしても夫婦円満にゆかず破綻を生じ易いのである。<br/><br/>そうでなければ夫は外に愛人を作ったり、また不妊になったりするので、結局不幸な運命になる婦人が案外多いようである。<br/><br/>としたら何としても全治させなければならないが、困った事にはこれを人に相談する訳にもゆかずといって医療では全然治せないから、満足な家庭も作り得ず、独身者より外（ほか）道はない事により、独り悶々の日を送っている女性も少なくないようで、実に同情に堪えないのである。<br/><br/>ところが浄霊によれば必ず治るのであるから、女性にとってこれ程の大きな福音はあるまい。<br/><br/>ではまずその原因その他についてかいてみるが、一番の原因は言うまでもなく萎縮腎であって、腎臓は医学でもいうごとく、ホルモンの製造元であるから、腎臓が萎縮すれば活動が鈍り、ホルモンが不足となる。<br/><br/>それはさきにかいたごとく、腎臓背部にある固結のためであるから、それを溶かせば治るのである。<br/><br/>また今一つの原因は、陰部を中心に周囲全体に絶えず下降する毒素が溜る事である。<br/><br/>そのため下腹部に溜れば、前述のごとく子宮はじめ、種々の障害となり、なお下降すれば痔疾、膣痙攣、掻痒症、粘膜の加答児（カタル）、尿道障害、全面的湿疹や糜爛（びらん）、痛み、臭気、不快感等に苦しむのである。<br/><br/>特に摂護腺部に腫れや固結が出来たり、左右のいずれかの大小陰唇部に毒結が出来、それが鼠蹊部にまで及んで、足の運動を妨げられたりする。<br/><br/>特に摂護腺部の故障は大いに悪いが、これらすべての診断は、自分自身で押してみればよく判る。<br/><br/>必ず痛みまたは塊がある。<br/><br/>といっても場所が場所だけに、浄霊も自分かまたは夫に行って貰えば、それで結構治ってゆくのである。<br/><br/>但し相当長引くから、そのつもりで気長に根気よくやれば段々快くなってゆき、希望も湧くと共に、必ず全治するものである。<br/><br/>以上のごとくであるから、この事を知ったなら、いかに天下の女性は喜ぶであろうか、これ程素晴らしい救いはないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s270426</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月26日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月二十六日 【御教え】 自然栽培について、今度佐渡の方から報告が来たんです。<br><br>座談会です。<br><br>これは、私の言った通りにやって また、その通りの結果を得られているんですから、これを大いに参考にした方が良いと思うんです。<br><br>その中で一番 肝腎なことは、私の説には浄霊しなくても増収する。<br><br>増産になるということを書いてある。<br><br>あれを忘れている――というよりか、あまり軽く見ている人が多いんですよ。<br><br>そのためになんでもかんでも、浄霊しなくてはいけないように思ってやっているんですが、そうではないんですよ。<br><br>それは私の考えといくらか食い違っているんですね。<br><br>浄霊しなくても増産になる。<br><br>浄霊をしなくては増産にならないとしたら、それを見た隣の百姓やなんかは、信仰に入らなければ増産にならないということになって、自然栽培やなんかを実行しないようになるんですよ。<br><br>やっぱり、一つの宗教宣伝だ。<br><br>巧妙な宗教宣伝だと解釈されるんですね。<br><br>それではおもしろくない。<br><br>そうすると、食糧増産するのが遅れるわけですね。<br><br>信仰に入らなくても、肥料さえなくすれば良いというのだと、ドンドン実行しますから、普及するのが早いわけですね。<br><br>私は信仰を宣伝するために利用する意志はないんですからね。<br><br>日本が早く食糧増産になるようにという点を祈念としているんですから、その点を考え違いしないようにしてもらわなければならない。<br><br>病気を治す方は、信仰によって大いに効果がある。<br><br>健康になる。<br><br>これは結構ですが、自然栽培の方は、ぜんぜんそういうことを一緒にしないで、信仰でなく栽培法だけの改良で充分増産になるんですから、それで良いわけなので、早く日本中――そういう自然栽培の人を多くして、増産になるようにするということが肝腎なんです。<br><br> それから、先にこういう人があった。<br><br>これは新聞にも出てますが、堆肥が良いと思って水田にまで堆肥をうんと入れて、失敗ではないけれども、前年より減った――減収したという例がありましたがね。<br><br>ああいう具合にどうも堆肥に囚われすぎるんですね。<br><br>囚われるということは、土の威力を無視することになるのです。<br><br>ですから今度はなにも――堆肥もいらないんです。<br><br>それから浄霊の必要もないんですよ。<br><br>ただ、浄霊するというわけは、肥毒を減らす効果があるんです。<br><br>それですから、肥料のある間は浄霊は結構ですが、五、六年も経てば肥毒はなくなりますから、そうすれば浄霊しなくても良いんです。<br><br>そういうふうに考えていれば間違いないです。<br><br>今読ませます。<br><br> （御論文「自然農法の勝利」） この中で、ちょっとおかしな所がある。<br><br>畑ですね。<br><br>畑作の方はまだそうしないという意味のことがありましたが、これはなにか間違っているんじゃないかと思うんですよ。<br><br>畑の方が、自然栽培は水田よりもよけい効果があるんですよ。<br><br>というのは、水田の方は大雨が降ったりすると、荒れますから肥毒が流れるんです。<br><br>ところが畑の方は肥毒が流れないから害をするんです。<br><br>そこで畑の方が水田よりもいっそう効果がある。<br><br>これはやった人は知っているでしょうが、イモとか豆とかは一、二年で倍になるんですね。<br><br>もう一つは、米の本質――種類ですね。<br><br>これは、まだ知らないだろうが、神様は最初米を作られたのは一つなんですよ。<br><br>それがだんだん年代が経つに従って、いろいろ分かれてきた。<br><br>それはどういうわけかというと、土地の――土がみな違うんです。<br><br>それと気候ですね。<br><br>それから水の多い少ないとかですね。<br><br>土の変化ということも、精しく言うといろいろあるんですが、一番気のつかないことは地霊ですね。<br><br>地球の中心の火ですね。<br><br>火から始終霊気が立っているので、それが地層を通って地殻を通して発散している。<br><br>その時に地殻の変化がいろいろある。<br><br>厚い所と薄い所がある。<br><br>それからまた亀裂がある。<br><br>そのために亀裂の所からは地霊が強く発散するわけですね。<br><br>そうすると、土に変化を起す。<br><br>鉱物というのは亀裂の所から霊気が強く発散しますから、硬化作用が強いので、鉱物が発生する。<br><br>これはぜんぜん学問にもないので、思いもつかないんですが、本当はそうです。<br><br>そこで地層の厚い薄いが非常に関係がある。<br><br>地球上でも、日本は地層が割合薄い。<br><br>というのは、日本は新しくできたですからね。<br><br>これは「信仰雑話」にも書いてあります。<br><br>地層が薄いから地霊が強く出るので、日本の土というのは非常に肥えている。<br><br>世界中で一番肥えている。<br><br>そこで、日本で自然栽培をやれば良く穫れる。<br><br>それを知らないために、いろんなことで地力を殺しちゃうから、収穫がなくなる。<br><br>それで今日のように輸入しなければならない。<br><br>一カ年に千万石も――人間の食うだけ足りないというのは、そういうわけです。<br><br> それからもう一つは、その土地に生える木の多い少ないはたいへん関係がある。<br><br>日本は木が多いですからね。<br><br>雨が降って、木の汁が流れていって土に変化を起させる。<br><br>それから山がたくさんある。<br><br>山の蔭になったり、いろいろして土に変化を及ぼす。<br><br>そんなようないろんな関係があって、そこで稲の品種が違ってくるんです。<br><br>品種が違ってきて、それで良いんですがね。<br><br>それを、北海道にできたものを本土に持って行って植えるとか、九州にできたものを関東に持って行って植えるというのが間違っている。<br><br>種というのは、その土地に適当したようにできている。<br><br>北海道のジャガイモなんかが良いといって、こっちに持ってきて植えるのは間違っている。<br><br>あっちは広いので肥料が行き渡らないから良いので、こっちでも肥料をやらなければ成績は良くなる。<br><br>そんなことを知らないから、かわいそうなものです。<br><br>品種なんてどっちでも良い、一年でも無肥料で育った種なら良いんです。<br><br>そのくらいにしておきましょう。<br><br> 私が今度――明後日奈良、京都方面に行くんですが、それはなんの目的かというと、私が去年あたりから、日本の仏教芸術を研究してみると、日本の彫刻、特に木彫ですね。<br><br>これが非常に優秀なものなんです。<br><br>私は驚いたですね。<br><br>しかも奈良朝時代にすでに立派なものができている。<br><br>この間の三越であった興福寺の展覧会に出ている阿修羅なんかは、たいていの人は見たでしょうから知っているでしょうが、実に良い作ですね。<br><br>他にもいろいろありましたが、あれが千二、三百年前にできたんですから、たいしたものですね。<br><br>ですから、あの時分にできた彫刻でも、力士なんていう力を入れたものとか、帝釈天、多聞天という力を入れたものはすばらしいものです。<br><br>それが空想的にできたものですがね。<br><br>ところがロダンなんていうのは、大体写生ですね。<br><br>ロダンは力の彫刻としては有名になってますが、日本の力の彫刻なんかと較べるとロダンの方は足下にもおっつかないくらいです。<br><br>そういう、日本にすばらしいものがありながら、それを無視してロダンなんかを崇拝しているのは、実際おかしくなるんですね。<br><br>ですから日本はすばらしい美術品があると思う。<br><br>日本人の美術的感覚というものは世界一です。<br><br>ですからこれを大いに外国に知らせる必要がある。<br><br>これは戦争の道具を自慢するのと違って、平和的の文化財を自慢するんだから、どんなに自慢しても外国で変な目で見る心配はないんですから、大いに誇張して良いと思うんですね。<br><br>それで、その木彫ですね。<br><br>それが奈良、京都に一番集まっている――お寺ですね。<br><br>お寺は、私などから見ると美術館ですよ。<br><br>ですから、美術というと、みんなお寺のものを珍重しますからね。<br><br>そういうようなふうで、私の目的は、京都に一大美術館を造ろうと思うんです。<br><br>そうして、美術品は京都、奈良にたくさんあるけれども、それを見るとしても一々お寺をまわって歩かなければならないし、たいへんですからね。<br><br>それに、お寺で――見せるお寺もあるし、見せないお寺もありますからね。<br><br>仮に外人がお寺を見たいとしても、一々まわっていては、予定があって、全部を見られるわけのものじゃないから、そういうものを一堂に集めて一遍に見られるようにしなくてはならないですね。<br><br>それに、なにしろ大きいものが多いですからね。<br><br>それこそ四畳半いっぱいくらいのものがたくさんありますからね。<br><br>大きな美術館を造らなければならない。<br><br>東京に運ぶのは困難ですからね。<br><br>ですから京都に運ぶのはわけないから、どうしても京都に美術館を造らなければならない。<br><br>各お寺にあるものを美術館に集めて、一遍に見られるようにしなくてはならない。<br><br>しかもお寺に見に行くと、一々坊さんが案内して薄暗い廊下を通って――そういう仏像がある所は薄暗い所のために、良く見られないのです。<br><br>それを美術館で鑑賞できると良いですね。<br><br>それで、そういった日本の秀れたものを世界に知らせることになりますからね。<br><br>入場料を取ってやっても、随分来ると思います。<br><br>その収入を各お寺にみんな分配しようと思うんですよ。<br><br>そうすると、実際お寺は、今財政に困っているのがたくさんありますから、一挙両得だろうと思います。<br><br>しかもそういった寺の修繕もしなければならないのです。<br><br>美術品の良いものが置いてあっても、雨漏りの修繕や、風が入ったりして、政府でも非常に心配して、文化保護とかやってますが、なにしろ金がかかりますからね。<br><br>これは、気の毒なくらい予算が少ないので、修繕ができないんですよ。<br><br>ですから、美術品を保護する意味からいっても、非常に肝腎だろうと思います。<br><br>そんな意味で、京都に美術館を造るのに適当な土地があるようですから、それを見たいと思ってます。<br><br>有名なお寺を――大体連絡が取れましたから、それを見る。<br><br>そういう目的が主なるものです。<br><br>で、霊的にはまだ別の意味があるんです。<br><br>これは、簡単に言えば、仏界を大いに救わなければならないですね。<br><br>仏様が苦しんでいるのが随分たくさんあるんです。<br><br>そういうのを救うには、やっぱりそういうような方法もやらなければならないので、そんなような意味もあるんです。<br><br>これはあまり言うと、やっぱり信者以外では、中には誤解する人がないこともないでしょうから、あまり言わないが、そんなようないろいろな意味があるんです。<br><br>結局箱根、熱海の美術館では、そういった仏教的なことは、場所もいりますし、今言った運ぶこともできないので、そういうものは避けて、一般の美術品を並べるつもりですがね。<br><br>京都の方はそういう意味で、そのために京都という都市が非常な恵みを受けるだろうと思ってます。<br><br>だから、解れば大いに――京都市なども援助しても良いと思いますけれども、もっとも援助は受けたいとは思いませんが、大いに感謝することになるでしょう。<br><br>まだ、それについて話すべきことがありますが、これは――京都で一遍講演会を開きますから、その時にもっと精しく話します。<br><br> （御論文「大いに注意すべき事」）【栄光 一五六号】 もう一つはこういう例があったんですがね。<br><br>二十年近く前ですが、私は宝山荘にいる時分に、ある部屋の床の間の前に行くと、みんな気持ちが悪くなる。<br><br>どうも不思議でしようがない。<br><br>それから調べてみると、床の間の柱に雲版が掛かっていた。<br><br>それに色紙が――誰かが書いたのを――色紙を雲版に入れて掛けてあった。<br><br>それは歌かなにか、発句だか――その人はそういうことをやっている人で、それが掛かっている。<br><br>それで、私がそれを取って見た。<br><br>すると、その下に私の色紙があった。<br><br>それでその色紙を取って、私の色紙だけを掛けた。<br><br>それからなんともなかった。<br><br>そんなことがあったんです。<br><br> （御論文「医学迷信」） （御論文「唯物主義が悪人を作る」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Agricultura Natural e a Missão da Arte</h2>
 <p>Recebi um relatório da província de Sado sobre a Agricultura Natural, o qual gostaria de compartilhar, pois considero que suas conclusões podem servir de grande referência a todos. A experiência ali relatada seguiu precisamente minhas orientações e, como esperado, obteve os resultados previstos.</p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Há, ainda, uma dimensão espiritual mais profunda nesta missão. Dito de forma simples, é imperativo que salvemos o Mundo Búdico, pois um número considerável de Budas se encontra em sofrimento. Adotar medidas como esta é uma das maneiras de auxiliá-los. Contudo, não me aprofundarei neste ponto, pois pessoas alheias à nossa fé poderiam incorrer em mal-entendidos.</p>
 <p>Os museus de Hakone e Atami, devido às limitações de espaço e à impossibilidade de transportar essas grandes obras budistas, se concentrarão em obras de arte de caráter geral. O museu de Kyoto, por outro lado, terá essa vocação específica, e acredito que a cidade será imensamente abençoada por essa iniciativa. Se as autoridades municipais compreendessem seu alcance, talvez até oferecessem apoio, embora eu não pretenda solicitá-lo. Certamente, terão muitos motivos para gratidão no futuro. Há mais a ser dito sobre este assunto, mas o farei em maior detalhe durante a palestra que proferirei em Kyoto.</p>
 <p>Para ilustrar um ponto, permitam-me relatar uma ocorrência de quase vinte anos atrás, quando eu residia em Hozanso. Havia um cômodo onde todos que se aproximavam do <em>tokonoma</em> sentiam um mal-estar inexplicável. Intrigado, investiguei e descobri que, no pilar do <em>tokonoma</em>, estava pendurado um <em>unpan</em> (雲版), e neste, uma caligrafia em um <em>shikishi</em> (色紙), provavelmente um poema ou um <em>haiku</em> de autoria de alguém que se dedicava a essa arte. Tomei-o em minhas mãos para observá-lo e descobri, por baixo, um <em>shikishi</em> de minha autoria. Removi, então, o primeiro e deixei apenas o meu. A partir daquele momento, a sensação desagradável cessou por completo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年4月26日） 『御教え集』9号、昭和27(1952)年5月15日発行 昭和二十七年四月二十六日 【御教え】 自然栽培について、今度佐渡の方から報告が来たんです。<br/><br/>座談会です。<br/><br/>これは、私の言った通りにやって また、その通りの結果を得られているんですから、これを大いに参考にした方が良いと思うんです。<br/><br/>その中で一番 肝腎なことは、私の説には浄霊しなくても増収する。<br/><br/>増産になるということを書いてある。<br/><br/>あれを忘れている――というよりか、あまり軽く見ている人が多いんですよ。<br/><br/>そのためになんでもかんでも、浄霊しなくてはいけないように思ってやっているんですが、そうではないんですよ。<br/><br/>それは私の考えといくらか食い違っているんですね。<br/><br/>浄霊しなくても増産になる。<br/><br/>浄霊をしなくては増産にならないとしたら、それを見た隣の百姓やなんかは、信仰に入らなければ増産にならないということになって、自然栽培やなんかを実行しないようになるんですよ。<br/><br/>やっぱり、一つの宗教宣伝だ。<br/><br/>巧妙な宗教宣伝だと解釈されるんですね。<br/><br/>それではおもしろくない。<br/><br/>そうすると、食糧増産するのが遅れるわけですね。<br/><br/>信仰に入らなくても、肥料さえなくすれば良いというのだと、ドンドン実行しますから、普及するのが早いわけですね。<br/><br/>私は信仰を宣伝するために利用する意志はないんですからね。<br/><br/>日本が早く食糧増産になるようにという点を祈念としているんですから、その点を考え違いしないようにしてもらわなければならない。<br/><br/>病気を治す方は、信仰によって大いに効果がある。<br/><br/>健康になる。<br/><br/>これは結構ですが、自然栽培の方は、ぜんぜんそういうことを一緒にしないで、信仰でなく栽培法だけの改良で充分増産になるんですから、それで良いわけなので、早く日本中――そういう自然栽培の人を多くして、増産になるようにするということが肝腎なんです。<br/><br/> それから、先にこういう人があった。<br/><br/>これは新聞にも出てますが、堆肥が良いと思って水田にまで堆肥をうんと入れて、失敗ではないけれども、前年より減った――減収したという例がありましたがね。<br/><br/>ああいう具合にどうも堆肥に囚われすぎるんですね。<br/><br/>囚われるということは、土の威力を無視することになるのです。<br/><br/>ですから今度はなにも――堆肥もいらないんです。<br/><br/>それから浄霊の必要もないんですよ。<br/><br/>ただ、浄霊するというわけは、肥毒を減らす効果があるんです。<br/><br/>それですから、肥料のある間は浄霊は結構ですが、五、六年も経てば肥毒はなくなりますから、そうすれば浄霊しなくても良いんです。<br/><br/>そういうふうに考えていれば間違いないです。<br/><br/>今読ませます。<br/><br/> （御論文「自然農法の勝利」） この中で、ちょっとおかしな所がある。<br/><br/>畑ですね。<br/><br/>畑作の方はまだそうしないという意味のことがありましたが、これはなにか間違っているんじゃないかと思うんですよ。<br/><br/>畑の方が、自然栽培は水田よりもよけい効果があるんですよ。<br/><br/>というのは、水田の方は大雨が降ったりすると、荒れますから肥毒が流れるんです。<br/><br/>ところが畑の方は肥毒が流れないから害をするんです。<br/><br/>そこで畑の方が水田よりもいっそう効果がある。<br/><br/>これはやった人は知っているでしょうが、イモとか豆とかは一、二年で倍になるんですね。<br/><br/>もう一つは、米の本質――種類ですね。<br/><br/>これは、まだ知らないだろうが、神様は最初米を作られたのは一つなんですよ。<br/><br/>それがだんだん年代が経つに従って、いろいろ分かれてきた。<br/><br/>それはどういうわけかというと、土地の――土がみな違うんです。<br/><br/>それと気候ですね。<br/><br/>それから水の多い少ないとかですね。<br/><br/>土の変化ということも、精しく言うといろいろあるんですが、一番気のつかないことは地霊ですね。<br/><br/>地球の中心の火ですね。<br/><br/>火から始終霊気が立っているので、それが地層を通って地殻を通して発散している。<br/><br/>その時に地殻の変化がいろいろある。<br/><br/>厚い所と薄い所がある。<br/><br/>それからまた亀裂がある。<br/><br/>そのために亀裂の所からは地霊が強く発散するわけですね。<br/><br/>そうすると、土に変化を起す。<br/><br/>鉱物というのは亀裂の所から霊気が強く発散しますから、硬化作用が強いので、鉱物が発生する。<br/><br/>これはぜんぜん学問にもないので、思いもつかないんですが、本当はそうです。<br/><br/>そこで地層の厚い薄いが非常に関係がある。<br/><br/>地球上でも、日本は地層が割合薄い。<br/><br/>というのは、日本は新しくできたですからね。<br/><br/>これは「信仰雑話」にも書いてあります。<br/><br/>地層が薄いから地霊が強く出るので、日本の土というのは非常に肥えている。<br/><br/>世界中で一番肥えている。<br/><br/>そこで、日本で自然栽培をやれば良く穫れる。<br/><br/>それを知らないために、いろんなことで地力を殺しちゃうから、収穫がなくなる。<br/><br/>それで今日のように輸入しなければならない。<br/><br/>一カ年に千万石も――人間の食うだけ足りないというのは、そういうわけです。<br/><br/> それからもう一つは、その土地に生える木の多い少ないはたいへん関係がある。<br/><br/>日本は木が多いですからね。<br/><br/>雨が降って、木の汁が流れていって土に変化を起させる。<br/><br/>それから山がたくさんある。<br/><br/>山の蔭になったり、いろいろして土に変化を及ぼす。<br/><br/>そんなようないろんな関係があって、そこで稲の品種が違ってくるんです。<br/><br/>品種が違ってきて、それで良いんですがね。<br/><br/>それを、北海道にできたものを本土に持って行って植えるとか、九州にできたものを関東に持って行って植えるというのが間違っている。<br/><br/>種というのは、その土地に適当したようにできている。<br/><br/>北海道のジャガイモなんかが良いといって、こっちに持ってきて植えるのは間違っている。<br/><br/>あっちは広いので肥料が行き渡らないから良いので、こっちでも肥料をやらなければ成績は良くなる。<br/><br/>そんなことを知らないから、かわいそうなものです。<br/><br/>品種なんてどっちでも良い、一年でも無肥料で育った種なら良いんです。<br/><br/>そのくらいにしておきましょう。<br/><br/> 私が今度――明後日奈良、京都方面に行くんですが、それはなんの目的かというと、私が去年あたりから、日本の仏教芸術を研究してみると、日本の彫刻、特に木彫ですね。<br/><br/>これが非常に優秀なものなんです。<br/><br/>私は驚いたですね。<br/><br/>しかも奈良朝時代にすでに立派なものができている。<br/><br/>この間の三越であった興福寺の展覧会に出ている阿修羅なんかは、たいていの人は見たでしょうから知っているでしょうが、実に良い作ですね。<br/><br/>他にもいろいろありましたが、あれが千二、三百年前にできたんですから、たいしたものですね。<br/><br/>ですから、あの時分にできた彫刻でも、力士なんていう力を入れたものとか、帝釈天、多聞天という力を入れたものはすばらしいものです。<br/><br/>それが空想的にできたものですがね。<br/><br/>ところがロダンなんていうのは、大体写生ですね。<br/><br/>ロダンは力の彫刻としては有名になってますが、日本の力の彫刻なんかと較べるとロダンの方は足下にもおっつかないくらいです。<br/><br/>そういう、日本にすばらしいものがありながら、それを無視してロダンなんかを崇拝しているのは、実際おかしくなるんですね。<br/><br/>ですから日本はすばらしい美術品があると思う。<br/><br/>日本人の美術的感覚というものは世界一です。<br/><br/>ですからこれを大いに外国に知らせる必要がある。<br/><br/>これは戦争の道具を自慢するのと違って、平和的の文化財を自慢するんだから、どんなに自慢しても外国で変な目で見る心配はないんですから、大いに誇張して良いと思うんですね。<br/><br/>それで、その木彫ですね。<br/><br/>それが奈良、京都に一番集まっている――お寺ですね。<br/><br/>お寺は、私などから見ると美術館ですよ。<br/><br/>ですから、美術というと、みんなお寺のものを珍重しますからね。<br/><br/>そういうようなふうで、私の目的は、京都に一大美術館を造ろうと思うんです。<br/><br/>そうして、美術品は京都、奈良にたくさんあるけれども、それを見るとしても一々お寺をまわって歩かなければならないし、たいへんですからね。<br/><br/>それに、お寺で――見せるお寺もあるし、見せないお寺もありますからね。<br/><br/>仮に外人がお寺を見たいとしても、一々まわっていては、予定があって、全部を見られるわけのものじゃないから、そういうものを一堂に集めて一遍に見られるようにしなくてはならないですね。<br/><br/>それに、なにしろ大きいものが多いですからね。<br/><br/>それこそ四畳半いっぱいくらいのものがたくさんありますからね。<br/><br/>大きな美術館を造らなければならない。<br/><br/>東京に運ぶのは困難ですからね。<br/><br/>ですから京都に運ぶのはわけないから、どうしても京都に美術館を造らなければならない。<br/><br/>各お寺にあるものを美術館に集めて、一遍に見られるようにしなくてはならない。<br/><br/>しかもお寺に見に行くと、一々坊さんが案内して薄暗い廊下を通って――そういう仏像がある所は薄暗い所のために、良く見られないのです。<br/><br/>それを美術館で鑑賞できると良いですね。<br/><br/>それで、そういった日本の秀れたものを世界に知らせることになりますからね。<br/><br/>入場料を取ってやっても、随分来ると思います。<br/><br/>その収入を各お寺にみんな分配しようと思うんですよ。<br/><br/>そうすると、実際お寺は、今財政に困っているのがたくさんありますから、一挙両得だろうと思います。<br/><br/>しかもそういった寺の修繕もしなければならないのです。<br/><br/>美術品の良いものが置いてあっても、雨漏りの修繕や、風が入ったりして、政府でも非常に心配して、文化保護とかやってますが、なにしろ金がかかりますからね。<br/><br/>これは、気の毒なくらい予算が少ないので、修繕ができないんですよ。<br/><br/>ですから、美術品を保護する意味からいっても、非常に肝腎だろうと思います。<br/><br/>そんな意味で、京都に美術館を造るのに適当な土地があるようですから、それを見たいと思ってます。<br/><br/>有名なお寺を――大体連絡が取れましたから、それを見る。<br/><br/>そういう目的が主なるものです。<br/><br/>で、霊的にはまだ別の意味があるんです。<br/><br/>これは、簡単に言えば、仏界を大いに救わなければならないですね。<br/><br/>仏様が苦しんでいるのが随分たくさんあるんです。<br/><br/>そういうのを救うには、やっぱりそういうような方法もやらなければならないので、そんなような意味もあるんです。<br/><br/>これはあまり言うと、やっぱり信者以外では、中には誤解する人がないこともないでしょうから、あまり言わないが、そんなようないろいろな意味があるんです。<br/><br/>結局箱根、熱海の美術館では、そういった仏教的なことは、場所もいりますし、今言った運ぶこともできないので、そういうものは避けて、一般の美術品を並べるつもりですがね。<br/><br/>京都の方はそういう意味で、そのために京都という都市が非常な恵みを受けるだろうと思ってます。<br/><br/>だから、解れば大いに――京都市なども援助しても良いと思いますけれども、もっとも援助は受けたいとは思いませんが、大いに感謝することになるでしょう。<br/><br/>まだ、それについて話すべきことがありますが、これは――京都で一遍講演会を開きますから、その時にもっと精しく話します。<br/><br/> （御論文「大いに注意すべき事」）【栄光 一五六号】 もう一つはこういう例があったんですがね。<br/><br/>二十年近く前ですが、私は宝山荘にいる時分に、ある部屋の床の間の前に行くと、みんな気持ちが悪くなる。<br/><br/>どうも不思議でしようがない。<br/><br/>それから調べてみると、床の間の柱に雲版が掛かっていた。<br/><br/>それに色紙が――誰かが書いたのを――色紙を雲版に入れて掛けてあった。<br/><br/>それは歌かなにか、発句だか――その人はそういうことをやっている人で、それが掛かっている。<br/><br/>それで、私がそれを取って見た。<br/><br/>すると、その下に私の色紙があった。<br/><br/>それでその色紙を取って、私の色紙だけを掛けた。<br/><br/>それからなんともなかった。<br/><br/>そんなことがあったんです。<br/><br/> （御論文「医学迷信」） （御論文「唯物主義が悪人を作る」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

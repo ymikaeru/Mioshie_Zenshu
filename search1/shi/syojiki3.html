@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syojiki3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正直者が馬鹿をみるとは嘘だ 『地上天国』3号、昭和24(1949)年4月20日発行 この標題のごとき言葉は大分前から聞くのであるが、この言葉を深く考える時、はなはだ面白くない響きを社会人心に与えやしないかと思う。<br><br>しかし事実その通りであるなら致し方ないとしても、私の経験上この言葉のような事実は絶対にない事を保証する。<br><br>これに関し以下論じてみよう。<br><br> 世の中をつくづくみる時、人事百般にわたって二種類の見方がある。<br><br>すなわち一は一時的見方であり、一は永遠的見方である。<br><br>ところが一般人は一時的の結果によって善悪の判断を下したがる。<br><br>たとえば一時的巧く人を騙したり、物を誤魔化したりする不正直者の成功をみて眩惑され「正直者は馬鹿をみる」と決めるのであるが、これらを今少し長い眼で見なくてはならない。<br><br>そうすると必ずボロを出し、恥を掻き、破たん者となる事は決定的と言ってもいいくらい確実である。<br><br>これに引換え正直者はたとえ一時は誤解を受け損をしたり不利な立場に置かれても、時たち日を経るに従い、必ずその真相が明らかになるもので、これまた決定的といってもいいくらいである。<br><br>これについて私の体験を述べてみよう。<br><br> まず私の体験から書いてみるが、私というものは、若い頃から、自分で言ってはおかしいが実に正直である。<br><br>どうしても嘘がつけない。<br><br>若い頃「君のような正直者は成功は覚束（おぼつか）ないから、心を入れ替え出来るだけ巧く嘘をつかなければ世渡りも成功も難しい」と、よく言われたものである。<br><br>私もなる程と思って一時は一生懸命嘘をついてみるがどうもいけない。<br><br>苦しくてたまらない。<br><br>人生が暗くなり不愉快な日ばかり送るのである。<br><br>そんな訳だからもちろん結果のいいはずがない。<br><br>その頃私は商人であったから、なおさら駆引や嘘がいいはずであるが、どうも良くないので、遂に意を決して私本来の性格である正直主義で通してみる事に決意した。<br><br>ところが面白い事にはそれから予想外に結果が良く、第一業界の信用を増し、トントン拍子に成功し、一時は相当の資産を作ったのである。<br><br>そのため調子づいてあんまり手を伸ばし過ぎたところへ経済界のパニックに遇い、再び起つ能（あた）わざるまでに転落した結果、宗教生活に入ったのである。<br><br> けれども一旦決意した正直主義は飽くまで通して今も変らない。<br><br>もちろん結果は良い。<br><br>もっとも長い間には誤解を受けたり非難を浴びたり、迫害をこうむったり、波瀾重畳茨の道を越えては来たが信用はいささかも落ちなかった事は、正直の御蔭であると今も痛切に思っている。<br><br>このような訳で現代人はどうも物の観方が一時的で一時的結果に幻惑されがちである。<br><br>ゆえに人間は何事を観察する場合でも、永遠的の眼で観なければならないのである。<br><br> この事はあらゆる事に当はまる。<br><br>たとえば政治家にしても、一時的に政権を獲得しようとして無理をする。<br><br>ちょうど熟柿（じゅくし）の落ちるのを待ち切れないで、青い中にモギ取り渋くて失敗するようなものである。<br><br>こういう諺（ことわざ）もある。<br><br>大政治家は百年後を思い、中政治家は十年後を思い、下政治家は一年後を思うというのであるが、全くその通りである。<br><br>ところが今日はこの下政治家が一番多いように思われるのは困ったものである。<br><br>また私の唱える無肥料栽培にしても、今までの農業は金肥や人肥を施すと一時は成績が良いが、土を殺すから土は段々痩せてくる。<br><br>それが気がつかないで、肥料の一時的効果に幻惑され、遂に肥料中毒に人も土も罹ってしまうのである。<br><br>この理は現代医学にて当はまる。<br><br>薬剤や機械的療法は一時は効果を奏するが、時が経つと逆作用が起こり悪化するが、最初の一時的効果に眩惑されて飽くまで同一方法をとるその結果益々増悪するという事になるのである。<br><br> 最初に述べた一時的と永遠的との物の観方について注意を促したのである。<br><br> （注）金肥・人肥、人や家畜の糞尿。<br><br>農業生産のための重要な肥料として利用された。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Mentira por Trás do Ditado “O Honesto Sempre Leva a Pior”</h2>
 <p>Há muito tempo se ouve um ditado como o que intitula este artigo. Ao refletir profundamente sobre ele, percebo a ressonância sobremaneira perniciosa que tal ideia pode exercer sobre o espírito da sociedade. Se correspondesse à realidade, nada haveria a fazer; contudo, com base em minha própria experiência, posso garantir que tal premissa é absolutamente falsa. A esse respeito, passarei a discorrer a seguir.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Todavia, o princípio da honestidade, uma vez por mim abraçado, jamais foi abandonado e permanece inalterado até hoje. Os resultados, evidentemente, são positivos. É verdade que, ao longo de muitos anos, enfrentei incompreensões, fui alvo de severas críticas e sofri perseguições, trilhando um caminho árduo e cheio de percalços. Contudo, minha credibilidade jamais foi abalada, e atribuo essa graça, com profunda convicção, à minha fidelidade à honestidade. Por essas razões, reafirmo que o homem contemporâneo tende a ter uma visão imediatista, deixando-se iludir por resultados momentâneos. Portanto, é fundamental que, ao observar qualquer fato da vida, o ser humano o faça sob a perspectiva da eternidade.</p>
 <p>Este princípio se aplica a todas as esferas da vida. Tomemos como exemplo os políticos. Na ânsia de conquistar o poder a curto prazo, muitos forçam situações insustentáveis. Assemelham-se àqueles que, impacientes, colhem um caqui ainda verde, em vez de esperar que amadureça e caia por si. O resultado é o fracasso, o sabor adstringente da frustração. Há um provérbio que ilustra bem esta questão: “O grande estadista pensa nos próximos cem anos; o político mediano, nos próximos dez; e o político inferior, no próximo ano”. É lamentável constatar que, em nossos dias, a última categoria parece ser a mais numerosa. O mesmo se observa em minha proposta de Agricultura Natural. A agricultura convencional, ao utilizar fertilizantes químicos e adubos de origem animal, obtém bons resultados momentâneos, mas, ao mesmo tempo, mata o solo, que se torna progressivamente mais pobre e estéril. Sem se darem conta disso, os agricultores se deixam iludir pelo efeito temporário do adubo e acabam por intoxicar a si mesmos e à terra. Essa mesma lógica se aplica à medicina moderna. Medicamentos e terapias mecanicistas podem apresentar uma eficácia aparente, mas, com o tempo, geram reações adversas que agravam o quadro clínico. Ofuscados pelo alívio inicial, muitos insistem no mesmo tratamento, o que resulta em uma piora contínua de sua condição.</p>
 <p>Com o exposto, busquei chamar a atenção para a distinção fundamental entre a visão temporal e a visão eterna, tal como mencionei no início.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正直者が馬鹿をみるとは嘘だ 『地上天国』3号、昭和24(1949)年4月20日発行 この標題のごとき言葉は大分前から聞くのであるが、この言葉を深く考える時、はなはだ面白くない響きを社会人心に与えやしないかと思う。<br/><br/>しかし事実その通りであるなら致し方ないとしても、私の経験上この言葉のような事実は絶対にない事を保証する。<br/><br/>これに関し以下論じてみよう。<br/><br/> 世の中をつくづくみる時、人事百般にわたって二種類の見方がある。<br/><br/>すなわち一は一時的見方であり、一は永遠的見方である。<br/><br/>ところが一般人は一時的の結果によって善悪の判断を下したがる。<br/><br/>たとえば一時的巧く人を騙したり、物を誤魔化したりする不正直者の成功をみて眩惑され「正直者は馬鹿をみる」と決めるのであるが、これらを今少し長い眼で見なくてはならない。<br/><br/>そうすると必ずボロを出し、恥を掻き、破たん者となる事は決定的と言ってもいいくらい確実である。<br/><br/>これに引換え正直者はたとえ一時は誤解を受け損をしたり不利な立場に置かれても、時たち日を経るに従い、必ずその真相が明らかになるもので、これまた決定的といってもいいくらいである。<br/><br/>これについて私の体験を述べてみよう。<br/><br/> まず私の体験から書いてみるが、私というものは、若い頃から、自分で言ってはおかしいが実に正直である。<br/><br/>どうしても嘘がつけない。<br/><br/>若い頃「君のような正直者は成功は覚束（おぼつか）ないから、心を入れ替え出来るだけ巧く嘘をつかなければ世渡りも成功も難しい」と、よく言われたものである。<br/><br/>私もなる程と思って一時は一生懸命嘘をついてみるがどうもいけない。<br/><br/>苦しくてたまらない。<br/><br/>人生が暗くなり不愉快な日ばかり送るのである。<br/><br/>そんな訳だからもちろん結果のいいはずがない。<br/><br/>その頃私は商人であったから、なおさら駆引や嘘がいいはずであるが、どうも良くないので、遂に意を決して私本来の性格である正直主義で通してみる事に決意した。<br/><br/>ところが面白い事にはそれから予想外に結果が良く、第一業界の信用を増し、トントン拍子に成功し、一時は相当の資産を作ったのである。<br/><br/>そのため調子づいてあんまり手を伸ばし過ぎたところへ経済界のパニックに遇い、再び起つ能（あた）わざるまでに転落した結果、宗教生活に入ったのである。<br/><br/> けれども一旦決意した正直主義は飽くまで通して今も変らない。<br/><br/>もちろん結果は良い。<br/><br/>もっとも長い間には誤解を受けたり非難を浴びたり、迫害をこうむったり、波瀾重畳茨の道を越えては来たが信用はいささかも落ちなかった事は、正直の御蔭であると今も痛切に思っている。<br/><br/>このような訳で現代人はどうも物の観方が一時的で一時的結果に幻惑されがちである。<br/><br/>ゆえに人間は何事を観察する場合でも、永遠的の眼で観なければならないのである。<br/><br/> この事はあらゆる事に当はまる。<br/><br/>たとえば政治家にしても、一時的に政権を獲得しようとして無理をする。<br/><br/>ちょうど熟柿（じゅくし）の落ちるのを待ち切れないで、青い中にモギ取り渋くて失敗するようなものである。<br/><br/>こういう諺（ことわざ）もある。<br/><br/>大政治家は百年後を思い、中政治家は十年後を思い、下政治家は一年後を思うというのであるが、全くその通りである。<br/><br/>ところが今日はこの下政治家が一番多いように思われるのは困ったものである。<br/><br/>また私の唱える無肥料栽培にしても、今までの農業は金肥や人肥を施すと一時は成績が良いが、土を殺すから土は段々痩せてくる。<br/><br/>それが気がつかないで、肥料の一時的効果に幻惑され、遂に肥料中毒に人も土も罹ってしまうのである。<br/><br/>この理は現代医学にて当はまる。<br/><br/>薬剤や機械的療法は一時は効果を奏するが、時が経つと逆作用が起こり悪化するが、最初の一時的効果に眩惑されて飽くまで同一方法をとるその結果益々増悪するという事になるのである。<br/><br/> 最初に述べた一時的と永遠的との物の観方について注意を促したのである。<br/><br/> （注）金肥・人肥、人や家畜の糞尿。<br/><br/>農業生産のための重要な肥料として利用された。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

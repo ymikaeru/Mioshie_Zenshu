@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhigaimo</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 被害妄想狂と結核より救わる 『結核の革命的療法』昭和26(1951)年8月15日発行 山口県 明輪中教会 園田美智子（20） 私は昨年三月入信さして頂きまして以来、ずい分と奇蹟をみせていただき数え切れない程の御守護を戴いて参りました。<br><br>病気に対する何の不安も苦しみもないこの頃を思うにつけても、日々を注射や薬の辛さに過した四年間の事が想い出されます。<br><br>昭和十九年私達は学徒動員の名の下に神戸製鋼に勤める事になりました。<br><br>勤め始めてから一月もすぎた頃身体検査があり、私は虚弱の故をもって不合格を言渡され学校に帰る事になったので、一度医師に診てもらうと、「今どこと言って悪い所はないが」と言ってＡＯという注射を打つようにすすめられたので、三カ月位通ってＡＯを打っていましたが、何か不安なので医者を代えてみたところ、レントゲンの結果肺門淋巴腺といわれ、なおＡＯは絶対不可といわれたので、驚いて前の医者をやめ一カ年休校して毎日医者通いを続けましたが、さしたる変化もないままにあちこちと医者を変え、薬を変えて療養に努めましたが段々わるくなるばかりで、それに医者を代える毎に肺門淋巴腺炎といい肺浸潤といって一定しませんので馬鹿らしくなり、又疎開もしましたので医者を休み、自宅で療養致しておりました。<br><br>その後終戦となったので又帰って参り、父の親友である鍋島博士に一カ年通い、ついには絶対安静を言渡されてしまいましたが、そのうちに結核よりももっと恐ろしいものにかかっている自分に気づきました。<br><br>それは神経衰弱と申しましょうか、被害妄想狂とでもいうのでしょうか。<br><br>とにかく世の中のすべてが恐ろしく、ひどい時は畳一枚恐くて歩けないのです。<br><br>言い度い事も言えず、仕たいことも出来ず、たえず心の中で、誰かが何か悪い事があるとささやいているようで、いらいらして絶えず神経は極度に尖り、発狂しそうになるのをじっと制えることの苦しさというものは並大抵ではありませんでした。<br><br> それはもう健全な頭では到底解する事の出来ない程、悲惨なものでございました。<br><br>それを人に訴える事も出来ず、よしんば訴えたところで分ってはもらえず自分一人でなやみ苦しみました。<br><br>このため私は精神的にへトヘトに疲れてしまい、この世に生きる事さえいやになって、こんな辛い思いをする位なら、いっそ死んだ方がいいと思うようになりました。<br><br>レントゲンに写しては自分の胸が次第に悪化してゆくのを他人事のように冷然と眺めて、両親の歎きもよそに「ああだんだんわるくなって来た。<br><br>もう少しで死ねるだろう」と、それを秘かな喜びにさえした私でございました。<br><br>「この世に未練はない。<br><br>ただ肺は痛まないので苦しまずに死ねるのが一ばんの倖せだ」と自分も思い、人にも語っていた私でした。<br><br>その時母が「従妹が脳脊髄膜炎になり、それが手を振って治り、又近所の小児麻痺の人が今では走れるようになったそうだから、是非お詣りしなさい」とすすめるのを、そんな馬鹿な事とも思いましたし、もし本当に治ったら、折角死ぬ日を待っているのに体のみ治って、この精神的苦しみが続いたのでは、それこそたまらないと思ってことわりました。<br><br> 半月程して思い直して、宗教なら精神的な苦しみもとってくれるかも知れないと不遜な考えでお詣りしました。<br><br>それから三月、あれ程苦しんだ被害妄想狂から知らぬまに解放されている自分に気づき、今更のように驚きました。<br><br>又絶対安静を言渡されていた自分が、御浄霊を頂いた翌日から軽い仕事が出来、今では人に負けぬだけの仕事が出来るようになった事を考えるとまるで夢のようでございます。<br><br>このお道をあの時に知らなかったなら、今頃は発狂しているか、死んでいるかであろうと思うと、ゾッとするようでございます。<br><br>それにつけても光明如来様のお慈悲、明主様のおかげを感ぜずにおられません。<br><br>あまりにも大きい御恵みにお報いする事など、とても望むべくもない事でございますが、せめてものお手伝いの真似事でもさしていただきたく、馬場先生の下で御用させていただいています、愚かな私故たどたどしく思う事の半分も言えませんが、私のような苦しみに喘いでおられる方の御参考にもなればと存じ、乏しい私の経験を述べさせていただきあわせて御礼申上げさしていただきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação do Delírio de Perseguição e da Tuberculose</h2>
 <p><strong>Publicado em "A Terapia Revolucionária da Tuberculose", 15 de agosto de 1951</strong>
@@ -98,5 +253,48 @@ function toggleLang(lang) {
 <p>Observava com frieza, como se se tratasse de outra pessoa, a progressiva deterioração de meus pulmões revelada nas radiografias. Ignorando o lamento de meus pais, chegava a sentir uma alegria secreta ao pensar: "Ah, está piorando. Em breve, poderei morrer". Eu costumava dizer a mim mesma e aos outros: "Não tenho mais apego a este mundo. Minha única felicidade é saber que, como os pulmões não doem, poderei morrer sem sofrimento". Foi nesse estado de espírito que minha mãe me exortou: "Sua prima, que sofria de meningoencefalite, foi curada, e aquele nosso vizinho com paralisia infantil agora consegue até correr. Você precisa visitar o templo!". A princípio, considerei a sugestão um disparate. Além disso, recusei por um motivo mais profundo: se porventura meu corpo fosse curado, mas meu tormento espiritual persistisse, seria uma situação insuportável, justo quando eu aguardava ansiosamente o dia de minha morte.</p>
 <p>Cerca de quinze dias depois, reconsiderei. Com o pensamento um tanto insolente de que uma religião talvez pudesse aliviar meu sofrimento mental, decidi fazer a visita. Três meses se passaram. Foi então que, para meu completo espanto, percebi que havia sido libertada daquele delírio de perseguição que tanto me atormentara, e a cura ocorrera sem que eu sequer notasse. Ademais, parece-me um sonho pensar que eu, a quem fora prescrito repouso absoluto, pude realizar tarefas leves já no dia seguinte a receber Johrei pela primeira vez. Hoje, sou capaz de trabalhar tanto quanto qualquer outra pessoa.</p>
 <p>Estremeço ao pensar que, se não tivesse encontrado este sagrado caminho, a esta altura eu já estaria morta ou teria enlouquecido. Diante de tudo isso, não posso deixar de sentir a imensa misericórdia de Deus e a profunda gratidão a Meishu-Sama. Retribuir uma dádiva tão grandiosa é algo que sequer ouso almejar. No entanto, com o desejo de ao menos poder oferecer uma ínfima colaboração, tenho a honra de servir sob a orientação do Reverendo Baba. Sendo uma pessoa de poucas luzes, minhas palavras são hesitantes e não expressam nem metade do que sinto. Contudo, na esperança de que minha humilde experiência possa servir de referência para aqueles que padecem de sofrimentos semelhantes ao meu, tomei a liberdade de relatá-la, expressando, ao mesmo tempo, minha mais profunda gratidão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 被害妄想狂と結核より救わる 『結核の革命的療法』昭和26(1951)年8月15日発行 山口県 明輪中教会 園田美智子（20） 私は昨年三月入信さして頂きまして以来、ずい分と奇蹟をみせていただき数え切れない程の御守護を戴いて参りました。<br/><br/>病気に対する何の不安も苦しみもないこの頃を思うにつけても、日々を注射や薬の辛さに過した四年間の事が想い出されます。<br/><br/>昭和十九年私達は学徒動員の名の下に神戸製鋼に勤める事になりました。<br/><br/>勤め始めてから一月もすぎた頃身体検査があり、私は虚弱の故をもって不合格を言渡され学校に帰る事になったので、一度医師に診てもらうと、「今どこと言って悪い所はないが」と言ってＡＯという注射を打つようにすすめられたので、三カ月位通ってＡＯを打っていましたが、何か不安なので医者を代えてみたところ、レントゲンの結果肺門淋巴腺といわれ、なおＡＯは絶対不可といわれたので、驚いて前の医者をやめ一カ年休校して毎日医者通いを続けましたが、さしたる変化もないままにあちこちと医者を変え、薬を変えて療養に努めましたが段々わるくなるばかりで、それに医者を代える毎に肺門淋巴腺炎といい肺浸潤といって一定しませんので馬鹿らしくなり、又疎開もしましたので医者を休み、自宅で療養致しておりました。<br/><br/>その後終戦となったので又帰って参り、父の親友である鍋島博士に一カ年通い、ついには絶対安静を言渡されてしまいましたが、そのうちに結核よりももっと恐ろしいものにかかっている自分に気づきました。<br/><br/>それは神経衰弱と申しましょうか、被害妄想狂とでもいうのでしょうか。<br/><br/>とにかく世の中のすべてが恐ろしく、ひどい時は畳一枚恐くて歩けないのです。<br/><br/>言い度い事も言えず、仕たいことも出来ず、たえず心の中で、誰かが何か悪い事があるとささやいているようで、いらいらして絶えず神経は極度に尖り、発狂しそうになるのをじっと制えることの苦しさというものは並大抵ではありませんでした。<br/><br/> それはもう健全な頭では到底解する事の出来ない程、悲惨なものでございました。<br/><br/>それを人に訴える事も出来ず、よしんば訴えたところで分ってはもらえず自分一人でなやみ苦しみました。<br/><br/>このため私は精神的にへトヘトに疲れてしまい、この世に生きる事さえいやになって、こんな辛い思いをする位なら、いっそ死んだ方がいいと思うようになりました。<br/><br/>レントゲンに写しては自分の胸が次第に悪化してゆくのを他人事のように冷然と眺めて、両親の歎きもよそに「ああだんだんわるくなって来た。<br/><br/>もう少しで死ねるだろう」と、それを秘かな喜びにさえした私でございました。<br/><br/>「この世に未練はない。<br/><br/>ただ肺は痛まないので苦しまずに死ねるのが一ばんの倖せだ」と自分も思い、人にも語っていた私でした。<br/><br/>その時母が「従妹が脳脊髄膜炎になり、それが手を振って治り、又近所の小児麻痺の人が今では走れるようになったそうだから、是非お詣りしなさい」とすすめるのを、そんな馬鹿な事とも思いましたし、もし本当に治ったら、折角死ぬ日を待っているのに体のみ治って、この精神的苦しみが続いたのでは、それこそたまらないと思ってことわりました。<br/><br/> 半月程して思い直して、宗教なら精神的な苦しみもとってくれるかも知れないと不遜な考えでお詣りしました。<br/><br/>それから三月、あれ程苦しんだ被害妄想狂から知らぬまに解放されている自分に気づき、今更のように驚きました。<br/><br/>又絶対安静を言渡されていた自分が、御浄霊を頂いた翌日から軽い仕事が出来、今では人に負けぬだけの仕事が出来るようになった事を考えるとまるで夢のようでございます。<br/><br/>このお道をあの時に知らなかったなら、今頃は発狂しているか、死んでいるかであろうと思うと、ゾッとするようでございます。<br/><br/>それにつけても光明如来様のお慈悲、明主様のおかげを感ぜずにおられません。<br/><br/>あまりにも大きい御恵みにお報いする事など、とても望むべくもない事でございますが、せめてものお手伝いの真似事でもさしていただきたく、馬場先生の下で御用させていただいています、愚かな私故たどたどしく思う事の半分も言えませんが、私のような苦しみに喘いでおられる方の御参考にもなればと存じ、乏しい私の経験を述べさせていただきあわせて御礼申上げさしていただきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

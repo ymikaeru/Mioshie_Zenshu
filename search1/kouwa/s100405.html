@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s100405</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年4月5日 天津金木（あまつかなぎ）は、天照大神様が押し込められしためお身代わりとしてお作りになり伝えられたるものにして、これが判れば、森羅万象すべてのことはみな判るのである。<br><br>されど、いま書物などによってこれを知ることは絶対できないのである。<br><br>昔は口伝えにより伝えられ、稗田阿礼（ひえだのあれ）まで伝えられた宇宙の魂のごときものである。<br><br>私は、浦和にて古文書を見たるとき、霊感により知ったのである。<br><br>私は五十万年以前より五千年前までの歴史を知っているのである。<br><br>それは、神憑りになったとき知らされたのである。<br><br> 昔の古い文書は神武天皇がお焼きになってしまったのであるが、そのとき、一人の家来が一部の物を持って逃げ、これを隠して土の中にいけ込んで置いた。<br><br>それが今に伝えられた。<br><br>これは、武内宿禰の家に伝えられ、例の天津教の武内家にあるものにして、武内家には、その中にあった三種の神器の本物を持っているのであるが、宮内省に献上しようとしたとき宮内省では受け付けなかったのである。<br><br> いよいよ大光明世界を建設するのは、二十五年くらい後のことにして、これは世界統一の時のことにして、日本だけなれば、まだ早くできるのである。<br><br> 日光東照宮を型として戦場ケ原に一大神殿が建立される。<br><br>その柱のごときは、大理石の丸柱の上に金にて龍などを書きたる雄大なるものにして、その時分になれば、金などなにほどでも出るのである。<br><br>地軸は金の柱にて、直径十里くらいは太さがある。<br><br>これをもってしてもなにほど今後において出るか判らんのである。<br><br>この時のことを祝詞に書いてあるのであって、瓦のごときも金なのである。<br><br>「多宝仏塔聳（そそ）り建ち 七堂迦藍は霞みつつ 黄金の甍燦燦と」とあるごとくに事実なのである。<br><br>戦場ケ原は海抜四千尺の高原にして、三里四方平面の地にして、川あり滝あり、実に立派な所である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Gênese do Conhecimento Divino e a Edificação do Mundo de Luz</h2>
 <p>O Amatsukanagi é um legado, criado em substituição à Deusa Amaterasu Omikami durante seu período de reclusão. Aquele que o compreende, torna-se capaz de decifrar todos os mistérios do universo. Contudo, é absolutamente impossível obter tal conhecimento por meio dos livros existentes na atualidade. Antigamente, sua transmissão ocorria unicamente pela via oral, sendo um conhecimento que chegou até Hieda no Are (稗田阿礼) e que pode ser considerado a própria alma do universo. Eu mesmo tive acesso a essa verdade por meio da inspiração espiritual, ao examinar um antigo manuscrito em Urawa. Possuo o conhecimento da história desde quinhentos mil anos até cinco mil anos antes de nossa era, revelação que me foi concedida em estado de possessão divina.</p>
 <p>Os antigos documentos foram, em sua maioria, incinerados por ordem do Imperador Jimmu. Todavia, um de seus servos logrou escapar com uma parte desses escritos, ocultando-os sob a terra. A esses registros que sobreviveram, devemos a transmissão de tal conhecimento até os dias de hoje. Tais documentos foram legados à família de Takeuchi Sukune (武内宿禰) e se encontram, atualmente, sob a posse da família Takeuchi, da religião Amatsukyo. Essa linhagem detém os autênticos Três Tesouros Sagrados, que faziam parte do acervo. Contudo, quando tentaram ofertá-los à Agência da Casa Imperial, a doação foi recusada.</p>
 <p>A construção do Mundo de Grande Luz se concretizará em aproximadamente vinte e cinco anos. Esse evento coincidirá com a unificação do mundo; se o projeto se restringisse apenas ao Japão, sua realização poderia ser antecipada.</p>
 <p>Um grandioso Templo Divino será erguido em Senjogahara, tendo como modelo o Santuário Nikko Toshogu. Suas colunas serão de uma magnificência ímpar: pilares circulares de mármore, adornados com dragões e outros motivos pintados em ouro. Pois, quando essa era chegar, o ouro jorrará da terra em abundância ilimitada. O próprio eixo terrestre é uma coluna de ouro, com um diâmetro de aproximadamente dez <em>ri</em>. A partir dessa constatação, é impossível prever a vastidão das riquezas que ainda estão por emergir. Essa era vindoura já se encontra descrita nas orações Norito, nas quais até mesmo as telhas são de ouro. É uma realidade, conforme prediz o verso: “O Pagode de Muitos Tesouros se eleva imponente, os sete salões do templo se velam na bruma, e os beirais de ouro refulgem intensamente”. Senjogahara é um planalto a quatro mil <em>shaku</em> acima do nível do mar. Trata-se de uma área plana de três <em>ri</em> quadrados, agraciada com rios e cachoeiras — um lugar, de fato, esplêndido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年4月5日 天津金木（あまつかなぎ）は、天照大神様が押し込められしためお身代わりとしてお作りになり伝えられたるものにして、これが判れば、森羅万象すべてのことはみな判るのである。<br/><br/>されど、いま書物などによってこれを知ることは絶対できないのである。<br/><br/>昔は口伝えにより伝えられ、稗田阿礼（ひえだのあれ）まで伝えられた宇宙の魂のごときものである。<br/><br/>私は、浦和にて古文書を見たるとき、霊感により知ったのである。<br/><br/>私は五十万年以前より五千年前までの歴史を知っているのである。<br/><br/>それは、神憑りになったとき知らされたのである。<br/><br/> 昔の古い文書は神武天皇がお焼きになってしまったのであるが、そのとき、一人の家来が一部の物を持って逃げ、これを隠して土の中にいけ込んで置いた。<br/><br/>それが今に伝えられた。<br/><br/>これは、武内宿禰の家に伝えられ、例の天津教の武内家にあるものにして、武内家には、その中にあった三種の神器の本物を持っているのであるが、宮内省に献上しようとしたとき宮内省では受け付けなかったのである。<br/><br/> いよいよ大光明世界を建設するのは、二十五年くらい後のことにして、これは世界統一の時のことにして、日本だけなれば、まだ早くできるのである。<br/><br/> 日光東照宮を型として戦場ケ原に一大神殿が建立される。<br/><br/>その柱のごときは、大理石の丸柱の上に金にて龍などを書きたる雄大なるものにして、その時分になれば、金などなにほどでも出るのである。<br/><br/>地軸は金の柱にて、直径十里くらいは太さがある。<br/><br/>これをもってしてもなにほど今後において出るか判らんのである。<br/><br/>この時のことを祝詞に書いてあるのであって、瓦のごときも金なのである。<br/><br/>「多宝仏塔聳（そそ）り建ち 七堂迦藍は霞みつつ 黄金の甍燦燦と」とあるごとくに事実なのである。<br/><br/>戦場ケ原は海抜四千尺の高原にして、三里四方平面の地にして、川あり滝あり、実に立派な所である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

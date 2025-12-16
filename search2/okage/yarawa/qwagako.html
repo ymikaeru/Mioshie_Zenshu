@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qwagako</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 吾子の小児麻痺救われ 薬毒の恐ろしさを知る 『アメリカを救う』昭和28(1953)年1月1日発行 岡山県 陽光中教会 渡辺忠雄（38） 私は男二人女一人の三人の子持でございますが、末っ子の幸則（四歳）は上の二人に比べて生まれつき元気でよく肥えていました。<br><br>ところが今年旧正月の二日に風邪引らしい熱を出してぐんぐん熱が昇り、仕方がないので近くの医者を呼んで診て貰いましたところ「余り熱が激しいから肺炎になるかも知れん。<br><br>ペニシリンを一本注射して置けば大丈夫だ」との事で、転ばぬ先の杖と思い込んで早速うって貰いました。<br><br>新薬の効果はてきめん、熱がぐんぐん下ってすやすやと眠り出しました。<br><br>有難い薬が出来て病気も心配ない、肺炎なんか問題じゃないなあ、と思って安心して寝ました。<br><br> ところが朝になって驚きました。<br><br>熱は無いんですが泣く顔は物凄く、左目はぽかんと開いたまま右の目だけつむっているし、口は右へ引き吊って「へ」の字を逆さまにして曲げたような形、右半面は泣き顔で、左半面は無表情、人形そのままの顔、私は暫く見とれて考えこみました。<br><br>あまりの変化に何が何だか判らなくなったのです。<br><br>妻は「どうしようか、どうしょうか」と言うんですがどうする事も出来ず、矢張り医者に掛るより方法はないと朝食も食べずに医者へ行きました。<br><br>医者も首をひねって「子供のこんなのは初めてです。<br><br>大人の顔面神経麻痺というのと同じだ。<br><br>注射を気長にやっていれば治る」と言って注射をしてくれました。<br><br>二、三日通いましたが何だか心細くなったので中央病院の診断を受けに行って見ました。<br><br>そして小児麻痺の病名を付けられ、毎日毎日雨の日も風の日も、やれ皮下注射だ、脊髄注射、電気治療と通いました。<br><br>朝起きると子供はもう泣いております。<br><br>お菓子をやっても玩具を見せても釣られなくなりました。<br><br>「好いべべは着ん。<br><br>お母ちゃんもべべ脱いでおんぶして……」「背中の注射せずに手々だけ注射する」と必死になって頼むようにまでなりました。<br><br>そして連れて行く親も連れられて行く子も辛抱出来なくなり、あまり効果もないのに毎日注射代やら電気治療代やら金ばかりが気にかかり、遂に病院も次第に頼りなくなり、ある日医者に尋ねたところ、医者は「早い子は三周間か五週間で治る。<br><br>一年も通えば治りゃせんかと思うが、必ず治るとは請合えん」と当にならない返事なので、もう仕方がないと諦めて病院通いをやめました。<br><br>その当時の病状は泣いたり笑ったりすると顔の半面がゆがみ、言葉もはっきりせず、足もとぼとぼと頼りない歩き振りでした。<br><br> ちょうどこのような時に、十数年来の胃の痛みで苦しんでいた私は、信者の丸山さんから御浄霊を頂き、たった一回で痛みが軽くなった不思議さに教会へお参りする事になり、その二日目（四月三十日）に子供の病状を話しました。<br><br>私のは胃の痛みだから治るだろうが、小児麻痺は駄目なんだろうと思って話したんですが、案に反し「治りますよ。<br><br>明日から一緒に連れてきなさい」と言われました。<br><br>その時ちょうど子供は下痢をしておりましたので、下痢だけでも治して貰おうと思って毎日連れて参りました。<br><br>自分の胃が日に日によくなるので、その中に子供も必ずよくなると信じられるようになりました。<br><br> 五月三日には私が入信、有難い御守様を頂き、朝は教会で晩は家で私が御浄霊させて頂きました。<br><br>ところが子供の下痢は次第に激しくなり、身体は次第に痩せ細って顔色も悪くなってくる。<br><br>近所の者は蔭口をたたく、度々迷いそうになるんですが、どうしても信ぜざるを得ない事実は私の身体に表われて来ます。<br><br>私の胃病の苦しさは私の毎日の下痢の度に軽減して行く事実です。<br><br>どうしても神様はないとは思われません。<br><br>子供の便も大変な異臭がある。<br><br>――着せた着物にまで臭気がうつり、三日と着せていられない。<br><br>しかもその臭気が不思議と薬の臭いなのです。<br><br>「治る、大丈夫治して頂ける」と信じていました。<br><br>そして母と妻を信じさせるよう薬毒の恐ろしさについて話しました。<br><br> 悪くなってから小川先生が毎日通って下さいました。<br><br>そして浄霊を受ける度に血色を盛り返し、元気を恢復する子供を見て、又先生の態度、自分を忘れた惟神の真心に家族一同異存なく信じさせて頂けました。<br><br>その後近所の人が心配して「親は信仰でなおっても、子供だけは医者へ行かんと取返しのつかん事になる。<br><br>おばあさんはどうしてあんな事させとく？」とか「お母ちゃんはあれ程悪い子供を見殺しにするのか」とか、何度も忠告らしい事を言われますが、動じなくなりました。<br><br>一時は泣く声も出ず、坐る事も出来ず、眠っているのか死んでいるのかと鼻の穴を耳であたった事も度々でした。<br><br>二日三日と生死の境を彷うように思われましたが、四日五日と経つにつれて声も次第に元気になり、顔色も日増に恢復、一カ月後には前よりも元気で、顔の引吊りも半減、言葉遣いもすっかり変って来ました。<br><br>そして日増に肥えて足の動きも人並になりました。<br><br>先々月血便の浄化が連続三日続きましたが、血便しながら走り廻って遊んでおりました。<br><br>現在でも時々下痢の御浄化を戴きますが、その度に健康を増し、小児麻痺の症状は最近すっかり全快、言葉遣いなど大人そこのけで、御神前で御礼をして「かむながらたまちはへませ」と拝んでおります。<br><br>そうした子供を見る度に、遠い昔のようにも又つい昨日か一昨日のことのようにも思われ、あまりに大きな御守護、明主様の御恩に熱いものが込上げて来て、御神体の御文字がかすんで拝せられます。<br><br> 入信以来幾多の御蔭を頂いた中から次男Ｙの戴いた御蔭を御報告させて頂きました。<br><br> 明主様有難う御座いました。<br><br> （昭和二十六年十一月十八日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação de Meu Filho da Paralisia Infantil e a Descoberta do Pavoroso Mal do Yakudoku</h2>
 <p><strong>Publicado na Coletânea “Salvar a América”, em 1º de janeiro de 1953</strong>
@@ -105,5 +260,48 @@ function toggleLang(lang) {
 <p>Dentre as inúmeras graças que recebemos desde que ingressei na fé, permito-me relatar esta, concedida ao meu segundo filho.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(18 de novembro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 吾子の小児麻痺救われ 薬毒の恐ろしさを知る 『アメリカを救う』昭和28(1953)年1月1日発行 岡山県 陽光中教会 渡辺忠雄（38） 私は男二人女一人の三人の子持でございますが、末っ子の幸則（四歳）は上の二人に比べて生まれつき元気でよく肥えていました。<br/><br/>ところが今年旧正月の二日に風邪引らしい熱を出してぐんぐん熱が昇り、仕方がないので近くの医者を呼んで診て貰いましたところ「余り熱が激しいから肺炎になるかも知れん。<br/><br/>ペニシリンを一本注射して置けば大丈夫だ」との事で、転ばぬ先の杖と思い込んで早速うって貰いました。<br/><br/>新薬の効果はてきめん、熱がぐんぐん下ってすやすやと眠り出しました。<br/><br/>有難い薬が出来て病気も心配ない、肺炎なんか問題じゃないなあ、と思って安心して寝ました。<br/><br/> ところが朝になって驚きました。<br/><br/>熱は無いんですが泣く顔は物凄く、左目はぽかんと開いたまま右の目だけつむっているし、口は右へ引き吊って「へ」の字を逆さまにして曲げたような形、右半面は泣き顔で、左半面は無表情、人形そのままの顔、私は暫く見とれて考えこみました。<br/><br/>あまりの変化に何が何だか判らなくなったのです。<br/><br/>妻は「どうしようか、どうしょうか」と言うんですがどうする事も出来ず、矢張り医者に掛るより方法はないと朝食も食べずに医者へ行きました。<br/><br/>医者も首をひねって「子供のこんなのは初めてです。<br/><br/>大人の顔面神経麻痺というのと同じだ。<br/><br/>注射を気長にやっていれば治る」と言って注射をしてくれました。<br/><br/>二、三日通いましたが何だか心細くなったので中央病院の診断を受けに行って見ました。<br/><br/>そして小児麻痺の病名を付けられ、毎日毎日雨の日も風の日も、やれ皮下注射だ、脊髄注射、電気治療と通いました。<br/><br/>朝起きると子供はもう泣いております。<br/><br/>お菓子をやっても玩具を見せても釣られなくなりました。<br/><br/>「好いべべは着ん。<br/><br/>お母ちゃんもべべ脱いでおんぶして……」「背中の注射せずに手々だけ注射する」と必死になって頼むようにまでなりました。<br/><br/>そして連れて行く親も連れられて行く子も辛抱出来なくなり、あまり効果もないのに毎日注射代やら電気治療代やら金ばかりが気にかかり、遂に病院も次第に頼りなくなり、ある日医者に尋ねたところ、医者は「早い子は三周間か五週間で治る。<br/><br/>一年も通えば治りゃせんかと思うが、必ず治るとは請合えん」と当にならない返事なので、もう仕方がないと諦めて病院通いをやめました。<br/><br/>その当時の病状は泣いたり笑ったりすると顔の半面がゆがみ、言葉もはっきりせず、足もとぼとぼと頼りない歩き振りでした。<br/><br/> ちょうどこのような時に、十数年来の胃の痛みで苦しんでいた私は、信者の丸山さんから御浄霊を頂き、たった一回で痛みが軽くなった不思議さに教会へお参りする事になり、その二日目（四月三十日）に子供の病状を話しました。<br/><br/>私のは胃の痛みだから治るだろうが、小児麻痺は駄目なんだろうと思って話したんですが、案に反し「治りますよ。<br/><br/>明日から一緒に連れてきなさい」と言われました。<br/><br/>その時ちょうど子供は下痢をしておりましたので、下痢だけでも治して貰おうと思って毎日連れて参りました。<br/><br/>自分の胃が日に日によくなるので、その中に子供も必ずよくなると信じられるようになりました。<br/><br/> 五月三日には私が入信、有難い御守様を頂き、朝は教会で晩は家で私が御浄霊させて頂きました。<br/><br/>ところが子供の下痢は次第に激しくなり、身体は次第に痩せ細って顔色も悪くなってくる。<br/><br/>近所の者は蔭口をたたく、度々迷いそうになるんですが、どうしても信ぜざるを得ない事実は私の身体に表われて来ます。<br/><br/>私の胃病の苦しさは私の毎日の下痢の度に軽減して行く事実です。<br/><br/>どうしても神様はないとは思われません。<br/><br/>子供の便も大変な異臭がある。<br/><br/>――着せた着物にまで臭気がうつり、三日と着せていられない。<br/><br/>しかもその臭気が不思議と薬の臭いなのです。<br/><br/>「治る、大丈夫治して頂ける」と信じていました。<br/><br/>そして母と妻を信じさせるよう薬毒の恐ろしさについて話しました。<br/><br/> 悪くなってから小川先生が毎日通って下さいました。<br/><br/>そして浄霊を受ける度に血色を盛り返し、元気を恢復する子供を見て、又先生の態度、自分を忘れた惟神の真心に家族一同異存なく信じさせて頂けました。<br/><br/>その後近所の人が心配して「親は信仰でなおっても、子供だけは医者へ行かんと取返しのつかん事になる。<br/><br/>おばあさんはどうしてあんな事させとく？」とか「お母ちゃんはあれ程悪い子供を見殺しにするのか」とか、何度も忠告らしい事を言われますが、動じなくなりました。<br/><br/>一時は泣く声も出ず、坐る事も出来ず、眠っているのか死んでいるのかと鼻の穴を耳であたった事も度々でした。<br/><br/>二日三日と生死の境を彷うように思われましたが、四日五日と経つにつれて声も次第に元気になり、顔色も日増に恢復、一カ月後には前よりも元気で、顔の引吊りも半減、言葉遣いもすっかり変って来ました。<br/><br/>そして日増に肥えて足の動きも人並になりました。<br/><br/>先々月血便の浄化が連続三日続きましたが、血便しながら走り廻って遊んでおりました。<br/><br/>現在でも時々下痢の御浄化を戴きますが、その度に健康を増し、小児麻痺の症状は最近すっかり全快、言葉遣いなど大人そこのけで、御神前で御礼をして「かむながらたまちはへませ」と拝んでおります。<br/><br/>そうした子供を見る度に、遠い昔のようにも又つい昨日か一昨日のことのようにも思われ、あまりに大きな御守護、明主様の御恩に熱いものが込上げて来て、御神体の御文字がかすんで拝せられます。<br/><br/> 入信以来幾多の御蔭を頂いた中から次男Ｙの戴いた御蔭を御報告させて頂きました。<br/><br/> 明主様有難う御座いました。<br/><br/> （昭和二十六年十一月十八日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（九） 安食晴彦 米国本土も本格的な救いの第一歩 （樋口先生ハワイより米国ロスに出発） 『栄光』224号、昭和28(1953)年9月2日発行 長らく御無音に打過ぎまことに申訳ございません。<br><br>八月六日樋口先生無事ロスアンジェルスに出発なさいました。<br><br> 明主様御写真、大光明如来様、御守様百体、御屏風観音様、御霊紙等お供なさり、飛行場に頭のうずもれる程首にレイをかけられて発って行かれる先生を見送りつつ、ただ無量の感を禁じ得ませんでした。<br><br>次第に展び行く救世主の御光は遂にアメリカ本土に本格的な救いとして、苦悩にあえぐ人々の上に展ばされて行くことを考えた時、目頭の熱くなるのを覚えました。<br><br>本日頃は喜びの面会より早や真剣な布教へと進まれておられることと存じます。<br><br>さて簡単に近況お知らせ申し上げます。<br><br> まず組織の方は御守護によりまして順調に進んでいる様子であります。<br><br>組織の書類は日本でいう大蔵省、検事局、県政府と三カ所の許可を得なければなりませんが、八月五日の調べでは大蔵省は無事に通過したとの由、明十日に私が弁護士を訪問してその後の経過を聞くつもりでおります。<br><br>うまく行って八月下旬には許可がおりるだろうと思います。<br><br>それと同時に日本より布教師の招請手続きとなります。<br><br>招請に際しては当地より約一千弗（旅費、仕度金以外のものが少々入ります）を送りませから、これですべてをして頂くこととなります。<br><br>交通は色々な物を持って来て頂く関係上船にお願いすると思います。<br><br> この度、御守護によりまして素晴しい教会の家が見付かりました。<br><br>これはマノアという高台になっている所で、バンクーヴー通りに沿った、元ダクター・ウォールという富豪の家で主人が死亡した為、この度家及び広い土地を分譲することになりました。<br><br>この土地は中心街に大変近く、それでいてホノルル市の半分が一望の下に見下すことが出来ます。<br><br>左手にダイアモソドヘッド、正面にワイキキ、右に繁華街という如く、開けているという意味では理想的な場所で神様が御用意あられたことと思います。<br><br>土地が一万七千八百スクェアフィート、それに大変広い二階建の家がついて四万五千ドルです。<br><br>初めにその中の幾分かを払い、後は分割払いとなりますが、将来この家の二階をよく改造すれば永久的な本部として使用することが出来ると存じます。<br><br>今の家よりの引越しは先生が帰布の上、二階を小々改造して御神前を造り、それからのことで一カ月又は二カ月先の見込みです。<br><br> 次に先生御留守中は私が代理として布教させて頂きますが、約一カ月の間に三教修程をさせて頂きます。<br><br>ただいまでは表オアフ島のホノルル、アイエア、ワイパフ、ポール・シティーよりオアフ島の真中のワヒアワ（信者百名以上）より裏オアフに伸び、ワイルア（一日浄霊に行くと、七十名位来ます）カフク、ライムといった様にぐんぐんと伸びて行っております。<br><br>忙しいことは全く目の廻る様です。<br><br>ただ今では教会に私一人、まだ自炊生活が続いております。<br><br>休日でも訪問者、特別の浄霊依頼者、急病の人等で事務の仕事の出来るのは殆んど夜九時以後になるという次第にて、御本部への通信も思うにまかせず御無礼御託び申し上げます。<br><br>当地は日本と人心が余程違い非常に親切で単純である反面に嫉妬心、功名心が強く、その意味では教養が低いとも考えられます。<br><br>役員間のことで大変むずかしいこともありますが、不思議と積極的な協力者をお与えいただいております。<br><br> （八月十三日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Expansão da Luz Divina no Havaí e na América</h2>
 <p>Peço sinceras desculpas pela longa ausência de notícias. No dia seis de agosto, o reverendo Higuchi partiu em segurança para Los Angeles. Em sua companhia, levava a fotografia de Meishu-Sama, a Imagem da Luz Divina – Daikoomyo Nyorai (大光明如来様) –, uma centena de O-Mamori (御守様), a imagem de Kannon (観音) em biombo e as Folhas Sagradas. Ao observá-lo no aeroporto, com o pescoço coberto por tantos colares de flores que quase lhe ocultavam o rosto, fui tomado por uma emoção indescritível.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>O volume de trabalho é verdadeiramente vertiginoso. No momento, encontro-me sozinho na igreja, cuidando inclusive de minhas próprias refeições. Mesmo nos dias de descanso, o fluxo de visitantes, as solicitações especiais de Johrei e os atendimentos de urgência são tantos que as tarefas administrativas só podem ser iniciadas após as nove da noite. Em virtude dessas circunstâncias, a comunicação com a Sede Mundial não tem sido tão frequente quanto eu desejaria, razão pela qual reitero minhas escusas.</p>
 <p>O povo daqui difere consideravelmente do japonês. São, em geral, extremamente gentis e de índole simples; em contrapartida, demonstram por vezes uma forte inclinação à inveja e à busca por proeminência, o que, sob certo aspecto, pode ser interpretado como uma menor sofisticação cultural. Enfrentamos, por conseguinte, desafios complexos na relação entre os membros da diretoria, mas, por uma graça misteriosa, Deus tem nos abençoado com a chegada de colaboradores verdadeiramente dedicados e proativos.</p>
 <p>(13 de agosto)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（九） 安食晴彦 米国本土も本格的な救いの第一歩 （樋口先生ハワイより米国ロスに出発） 『栄光』224号、昭和28(1953)年9月2日発行 長らく御無音に打過ぎまことに申訳ございません。<br/><br/>八月六日樋口先生無事ロスアンジェルスに出発なさいました。<br/><br/> 明主様御写真、大光明如来様、御守様百体、御屏風観音様、御霊紙等お供なさり、飛行場に頭のうずもれる程首にレイをかけられて発って行かれる先生を見送りつつ、ただ無量の感を禁じ得ませんでした。<br/><br/>次第に展び行く救世主の御光は遂にアメリカ本土に本格的な救いとして、苦悩にあえぐ人々の上に展ばされて行くことを考えた時、目頭の熱くなるのを覚えました。<br/><br/>本日頃は喜びの面会より早や真剣な布教へと進まれておられることと存じます。<br/><br/>さて簡単に近況お知らせ申し上げます。<br/><br/> まず組織の方は御守護によりまして順調に進んでいる様子であります。<br/><br/>組織の書類は日本でいう大蔵省、検事局、県政府と三カ所の許可を得なければなりませんが、八月五日の調べでは大蔵省は無事に通過したとの由、明十日に私が弁護士を訪問してその後の経過を聞くつもりでおります。<br/><br/>うまく行って八月下旬には許可がおりるだろうと思います。<br/><br/>それと同時に日本より布教師の招請手続きとなります。<br/><br/>招請に際しては当地より約一千弗（旅費、仕度金以外のものが少々入ります）を送りませから、これですべてをして頂くこととなります。<br/><br/>交通は色々な物を持って来て頂く関係上船にお願いすると思います。<br/><br/> この度、御守護によりまして素晴しい教会の家が見付かりました。<br/><br/>これはマノアという高台になっている所で、バンクーヴー通りに沿った、元ダクター・ウォールという富豪の家で主人が死亡した為、この度家及び広い土地を分譲することになりました。<br/><br/>この土地は中心街に大変近く、それでいてホノルル市の半分が一望の下に見下すことが出来ます。<br/><br/>左手にダイアモソドヘッド、正面にワイキキ、右に繁華街という如く、開けているという意味では理想的な場所で神様が御用意あられたことと思います。<br/><br/>土地が一万七千八百スクェアフィート、それに大変広い二階建の家がついて四万五千ドルです。<br/><br/>初めにその中の幾分かを払い、後は分割払いとなりますが、将来この家の二階をよく改造すれば永久的な本部として使用することが出来ると存じます。<br/><br/>今の家よりの引越しは先生が帰布の上、二階を小々改造して御神前を造り、それからのことで一カ月又は二カ月先の見込みです。<br/><br/> 次に先生御留守中は私が代理として布教させて頂きますが、約一カ月の間に三教修程をさせて頂きます。<br/><br/>ただいまでは表オアフ島のホノルル、アイエア、ワイパフ、ポール・シティーよりオアフ島の真中のワヒアワ（信者百名以上）より裏オアフに伸び、ワイルア（一日浄霊に行くと、七十名位来ます）カフク、ライムといった様にぐんぐんと伸びて行っております。<br/><br/>忙しいことは全く目の廻る様です。<br/><br/>ただ今では教会に私一人、まだ自炊生活が続いております。<br/><br/>休日でも訪問者、特別の浄霊依頼者、急病の人等で事務の仕事の出来るのは殆んど夜九時以後になるという次第にて、御本部への通信も思うにまかせず御無礼御託び申し上げます。<br/><br/>当地は日本と人心が余程違い非常に親切で単純である反面に嫉妬心、功名心が強く、その意味では教養が低いとも考えられます。<br/><br/>役員間のことで大変むずかしいこともありますが、不思議と積極的な協力者をお与えいただいております。<br/><br/> （八月十三日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

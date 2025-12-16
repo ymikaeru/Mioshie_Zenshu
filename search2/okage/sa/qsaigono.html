@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsaigono</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 最後の救い 『結核の革命的療法』昭和26(1951)年8月15日発行 岐阜県 大光中教会 山口端三（27） 現代医学では不治の病とされている肺結核を治して頂き、今日あるを喜びつつ感謝の一端を御報告させて頂きます。<br><br> 顧みれば昭和十九年七月十八日呉海兵団で作業中、突然胸苦しき眩暈を感じ同時に血痰を吐きその場に倒れてしまいました。<br><br>それより一週間程は四十度の高熱にて食事も通らず、右胸部が猛烈に痛み寝返りは勿論、話をしてさえも胸に響くので、横向になり歯を喰いしばって辛抱しました。<br><br>その時私達の部隊は戦地へ出発する十日程前でしたから班長が「診察を受けると内地に残されるから」と診察許可が出ませんので、私も無茶とは思いながらも内地にいて肺病で死ぬより戦地で死んだ方がよいと悲壮な気持で出発しました。<br><br>戦地に着いてからもなお苦しく、微熱が続き胸部に圧迫を感ずるので、診察の結果肺浸潤の疑いにて、海軍病院に入院しレントゲンの検診を受けたところ、病原解らず一カ月程してから急性気管支炎と出鱈目な病名をつけてもらいました。<br><br>以後入院生活一カ年の翌二十年七月四日、全員退院にて海兵団に帰り敗戦の八月二十四日復員しましたが、その年の二月風邪が因で再発し、血痰が毎日出るようになり、右肺浸潤と診断され二日おきに通院し一カ月で微熱と血痰が出なくなりました。<br><br>それ以後は医師の言葉に従い静養して約一カ年程してから無理のないような仕事をしましたが、二カ月もすると又々悪くなり朝洗顔する度に血痰が出るようになりました。<br><br>すぐ病院に駆付け、レントゲンの結果左の肺も悪くなり、両肺とも冒されていると診断されたのです。<br><br>その時の気持は何とも言えない恐しい真暗闇につき落されたようで、力ない足取りで家に帰りました。<br><br>今度は前に悪かった時と違い、日増しに痰や盗汗が多くなり、熱は午後になると決って三十七度三分前後出るので、心配のあまり通院するのを止めて自宅で絶対安静につとめ、カルシウム注射一本、ビタミンＢ注射二本ずつ毎日五カ月間続けました。<br><br>それに治りたい一心から苦い青松葉を生のままかんで汁を吸ったり、貝を粉にして飲んだり「にんにく」を生のまま喰ったり、良いと言われる事は種々やりましたが、病気は悪化する一方で少しも良くならず、熱は三十八度を上下するようになりました。<br><br>家人からは感染するからと何もかも全部別扱いにされるのです。<br><br>自分自身肺病故致し方ないとは思いながらも、余りにも冷たい仕草につい腹が立ち、夜は到底眠れず睡眠剤を十日間服用しましたが全く効果なく、身体は日増に衰弱し精神的にも世の中を呪い恨み、医者も薬も自分にはもう駄目だと思い飲むのを中止してしまいました。<br><br>その当時知人で汚血療法をやっている人があり、強いられるままに四カ月間毎日のように受けましたが、最初は気持がよいように思われましたが病気は却って悪化し、歩行するのが困難になり、食事も進まず衰弱も激しくなりましたのでやめてしまいました。<br><br>注射や薬を諦めた現在は、楽になる方法は死より他にないと思い、幾度自殺を計ったか知れません。<br><br>しかし父母の悲しみ、心に潜む生への執着のため、それも出来ず精神的にでも楽にして頂ける宗教はないものかと無神論者の私もいよいよ神仏に縋る気持になり、知人より教わった弘法様へお願いすることに致しました。<br><br>早速母に連れられ一時間余り汽車に乗って苦しい身体を無理矢理にお大師様の元に着きました。<br><br>祈祷をして頂きました所「あなたは結核の第三期だから私の所にいるなら来年八月迄に治してやるがそれでなければそれ迄に死んでしまう」と言う事で治りたい一心で入所することに決心して、入所している人にいろいろお話を聞きましたら、入所したら病が治る迄家に帰れないとの事、外出は許されない事、食事は一日お米一合を粥にして二食に頂く事など聞いて吃驚しました。<br><br>そればかりではありません。<br><br>期日前に家に帰りたくも「家へ帰ると不幸の災難で死ぬ」と言われるので気持が悪くて帰ることも出来ないとみんな不平不満を抱いており「あなたもよく考えてみた方が良い」と言われたので神仏が信じられなくなり、暗い気持で足を引ずるようにして家へ帰りました。<br><br>期待した弘法様も駄目にて宗教に縋ろうとする気もいつしかなくなり、健康の美を呪い世の中を呪い果ては家人を恨み、親兄弟にまで当り散らし毎日を怒っては泣き泣いては悲しみ、文字通り自暴自棄になり苦しい日々を送っておりました。<br><br>病勢は日一日と悪化しどうする術もなく死のちょっと手前となってしまいました。<br><br>ああその時にこの私にも光明如来様の救いの手が延べられました。<br><br>母が近所で光明如来様の有難い話を聞いて来て最後の頼みだとて浄霊を受ける事を勧めましたが、私は汚血療法や弘法様と同じようなことで迷信だと言って受けつけなかったのです。<br><br>それでも余り母が頼むので遂に自分の「我」を折って浄霊を受けてみました。<br><br>忘れも致しません。<br><br>昭和二十三年二月二十三日の午後一時頃でした。<br><br>木股先生より病気は神様から与えられた自然の浄化作用である事を教えて頂き、心配していた熱や痰、盗汗などは浄化作用の結果である事が判りました。<br><br>一回の浄霊にて身体が大層軽くなり便所へ行くのもとても楽になり、その日より生れ変ったような爽かな気分になってしまいました。<br><br>三日目にはもう近くの教会までフラフラながらも歩いて行く事が出来、教会の鈴木照子先生より今迄の手当法の間違っていた事を聞かされ、今迄四年間苦しみに苦しんだ病苦から解放される事が出来、嬉し涙に咽んだのでございます。<br><br>翌月三月十九日教会の臨時祭で会長先生がおみえになり、早速入信させて頂きました。<br><br>お守様を頂戴しました時にはただただ有難涙で胸が一杯でした。<br><br>それ以来鈴木先生の御指導を受け、毎日毎日病気で苦しんでいる人を訪問して浄霊をさせて頂きましたところ、どうでしょう、医師から絶対安静を命ぜられた重病人が数限りない程起き上れたのでございます。<br><br>これこそ光明如来様の大慈大悲のお力でなくてなんでありましょう。<br><br>このような宏大無辺なお力に優るものがこの世に又とございますでしょうか。<br><br>終日浄霊のために街を歩きましたが少しの苦痛も感ぜず、家人は勿論隣人や友人も皆驚きました。<br><br>四月中頃より浄化を頂き、血痰や盗汗が盛んに出ましたが、一日も休まず受ける浄霊のために差程の苦痛もなく、一カ月程で前以上気持のよい軽い身体になりました。<br><br>医師からは絶対安静を命ぜられ、弘法様には昨年八月迄に死ぬと言われた私が、昨年七月には明主様に御面会させて頂きました。<br><br>あの日の喜び、あの日の感激は筆や口では表わす事が到底出来ません。<br><br> ただただ、明主様、有難うございました。<br><br>この一言の外にございません。<br><br> 聖恩の万分の一にもお報い致したくこの有難い救いの道へ一人でもお誘いしたいとそれのみに努力致しております。<br><br> 明主様有難うございました。<br><br>そして直接御指導下さいます会長先生始め諸先生方に厚く厚く御礼申上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Terapia Revolucionária da Tuberculose (Publicado em 15 de agosto de 1951)</h2>
 <p><strong>Coletânea de Artigos do Reverendo Jikan Okada</strong></p>
@@ -111,5 +266,48 @@ Hatazo Yamaguchi (27 anos)</p>
 <p>Apenas posso dizer: muito obrigado, Meishu-Sama. Não há outras palavras.</p>
 <p>Desejando retribuir, ainda que minimamente, esta graça incomensurável, esforço-me unicamente para convidar o maior número possível de pessoas para este sagrado caminho da salvação.</p>
 <p>Muito obrigado, Meishu-Sama. Agradeço também, do fundo do coração, ao presidente e a todos os ministros que me orientam diretamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 最後の救い 『結核の革命的療法』昭和26(1951)年8月15日発行 岐阜県 大光中教会 山口端三（27） 現代医学では不治の病とされている肺結核を治して頂き、今日あるを喜びつつ感謝の一端を御報告させて頂きます。<br/><br/> 顧みれば昭和十九年七月十八日呉海兵団で作業中、突然胸苦しき眩暈を感じ同時に血痰を吐きその場に倒れてしまいました。<br/><br/>それより一週間程は四十度の高熱にて食事も通らず、右胸部が猛烈に痛み寝返りは勿論、話をしてさえも胸に響くので、横向になり歯を喰いしばって辛抱しました。<br/><br/>その時私達の部隊は戦地へ出発する十日程前でしたから班長が「診察を受けると内地に残されるから」と診察許可が出ませんので、私も無茶とは思いながらも内地にいて肺病で死ぬより戦地で死んだ方がよいと悲壮な気持で出発しました。<br/><br/>戦地に着いてからもなお苦しく、微熱が続き胸部に圧迫を感ずるので、診察の結果肺浸潤の疑いにて、海軍病院に入院しレントゲンの検診を受けたところ、病原解らず一カ月程してから急性気管支炎と出鱈目な病名をつけてもらいました。<br/><br/>以後入院生活一カ年の翌二十年七月四日、全員退院にて海兵団に帰り敗戦の八月二十四日復員しましたが、その年の二月風邪が因で再発し、血痰が毎日出るようになり、右肺浸潤と診断され二日おきに通院し一カ月で微熱と血痰が出なくなりました。<br/><br/>それ以後は医師の言葉に従い静養して約一カ年程してから無理のないような仕事をしましたが、二カ月もすると又々悪くなり朝洗顔する度に血痰が出るようになりました。<br/><br/>すぐ病院に駆付け、レントゲンの結果左の肺も悪くなり、両肺とも冒されていると診断されたのです。<br/><br/>その時の気持は何とも言えない恐しい真暗闇につき落されたようで、力ない足取りで家に帰りました。<br/><br/>今度は前に悪かった時と違い、日増しに痰や盗汗が多くなり、熱は午後になると決って三十七度三分前後出るので、心配のあまり通院するのを止めて自宅で絶対安静につとめ、カルシウム注射一本、ビタミンＢ注射二本ずつ毎日五カ月間続けました。<br/><br/>それに治りたい一心から苦い青松葉を生のままかんで汁を吸ったり、貝を粉にして飲んだり「にんにく」を生のまま喰ったり、良いと言われる事は種々やりましたが、病気は悪化する一方で少しも良くならず、熱は三十八度を上下するようになりました。<br/><br/>家人からは感染するからと何もかも全部別扱いにされるのです。<br/><br/>自分自身肺病故致し方ないとは思いながらも、余りにも冷たい仕草につい腹が立ち、夜は到底眠れず睡眠剤を十日間服用しましたが全く効果なく、身体は日増に衰弱し精神的にも世の中を呪い恨み、医者も薬も自分にはもう駄目だと思い飲むのを中止してしまいました。<br/><br/>その当時知人で汚血療法をやっている人があり、強いられるままに四カ月間毎日のように受けましたが、最初は気持がよいように思われましたが病気は却って悪化し、歩行するのが困難になり、食事も進まず衰弱も激しくなりましたのでやめてしまいました。<br/><br/>注射や薬を諦めた現在は、楽になる方法は死より他にないと思い、幾度自殺を計ったか知れません。<br/><br/>しかし父母の悲しみ、心に潜む生への執着のため、それも出来ず精神的にでも楽にして頂ける宗教はないものかと無神論者の私もいよいよ神仏に縋る気持になり、知人より教わった弘法様へお願いすることに致しました。<br/><br/>早速母に連れられ一時間余り汽車に乗って苦しい身体を無理矢理にお大師様の元に着きました。<br/><br/>祈祷をして頂きました所「あなたは結核の第三期だから私の所にいるなら来年八月迄に治してやるがそれでなければそれ迄に死んでしまう」と言う事で治りたい一心で入所することに決心して、入所している人にいろいろお話を聞きましたら、入所したら病が治る迄家に帰れないとの事、外出は許されない事、食事は一日お米一合を粥にして二食に頂く事など聞いて吃驚しました。<br/><br/>そればかりではありません。<br/><br/>期日前に家に帰りたくも「家へ帰ると不幸の災難で死ぬ」と言われるので気持が悪くて帰ることも出来ないとみんな不平不満を抱いており「あなたもよく考えてみた方が良い」と言われたので神仏が信じられなくなり、暗い気持で足を引ずるようにして家へ帰りました。<br/><br/>期待した弘法様も駄目にて宗教に縋ろうとする気もいつしかなくなり、健康の美を呪い世の中を呪い果ては家人を恨み、親兄弟にまで当り散らし毎日を怒っては泣き泣いては悲しみ、文字通り自暴自棄になり苦しい日々を送っておりました。<br/><br/>病勢は日一日と悪化しどうする術もなく死のちょっと手前となってしまいました。<br/><br/>ああその時にこの私にも光明如来様の救いの手が延べられました。<br/><br/>母が近所で光明如来様の有難い話を聞いて来て最後の頼みだとて浄霊を受ける事を勧めましたが、私は汚血療法や弘法様と同じようなことで迷信だと言って受けつけなかったのです。<br/><br/>それでも余り母が頼むので遂に自分の「我」を折って浄霊を受けてみました。<br/><br/>忘れも致しません。<br/><br/>昭和二十三年二月二十三日の午後一時頃でした。<br/><br/>木股先生より病気は神様から与えられた自然の浄化作用である事を教えて頂き、心配していた熱や痰、盗汗などは浄化作用の結果である事が判りました。<br/><br/>一回の浄霊にて身体が大層軽くなり便所へ行くのもとても楽になり、その日より生れ変ったような爽かな気分になってしまいました。<br/><br/>三日目にはもう近くの教会までフラフラながらも歩いて行く事が出来、教会の鈴木照子先生より今迄の手当法の間違っていた事を聞かされ、今迄四年間苦しみに苦しんだ病苦から解放される事が出来、嬉し涙に咽んだのでございます。<br/><br/>翌月三月十九日教会の臨時祭で会長先生がおみえになり、早速入信させて頂きました。<br/><br/>お守様を頂戴しました時にはただただ有難涙で胸が一杯でした。<br/><br/>それ以来鈴木先生の御指導を受け、毎日毎日病気で苦しんでいる人を訪問して浄霊をさせて頂きましたところ、どうでしょう、医師から絶対安静を命ぜられた重病人が数限りない程起き上れたのでございます。<br/><br/>これこそ光明如来様の大慈大悲のお力でなくてなんでありましょう。<br/><br/>このような宏大無辺なお力に優るものがこの世に又とございますでしょうか。<br/><br/>終日浄霊のために街を歩きましたが少しの苦痛も感ぜず、家人は勿論隣人や友人も皆驚きました。<br/><br/>四月中頃より浄化を頂き、血痰や盗汗が盛んに出ましたが、一日も休まず受ける浄霊のために差程の苦痛もなく、一カ月程で前以上気持のよい軽い身体になりました。<br/><br/>医師からは絶対安静を命ぜられ、弘法様には昨年八月迄に死ぬと言われた私が、昨年七月には明主様に御面会させて頂きました。<br/><br/>あの日の喜び、あの日の感激は筆や口では表わす事が到底出来ません。<br/><br/> ただただ、明主様、有難うございました。<br/><br/>この一言の外にございません。<br/><br/> 聖恩の万分の一にもお報い致したくこの有難い救いの道へ一人でもお誘いしたいとそれのみに努力致しております。<br/><br/> 明主様有難うございました。<br/><br/>そして直接御指導下さいます会長先生始め諸先生方に厚く厚く御礼申上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

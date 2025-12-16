@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinpo01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 進歩的宗教 『光』34号、昭和24(1949)年11月5日発行 つくづく現在社会を見る時、日進月歩の今日いかなるものといえども、進歩から外れているものは一つもない、ところが不思議な事には、人類に最も関連の深い宗教分野のみは、いささかの進歩もみられないで旧態依然たるどころか、むしろその逆でさえある、何よりの証拠は既成宗教がよくいう言葉に、本道に帰れ、すなわち開祖の出発点へまで戻れというのである、とすれば横道へ外れたから元の道へ戻すという訳で、仮にこれを繰返すとしたら何らの進歩もない、実に文化の進歩と矛盾する訳である、既成宗教に何ら人を惹きつける力がなくなり現状維持に汲々たる有様は、それをよく物語っている。<br><br> なるほど、今日現存するいずれの宗教といえどもキリスト教は別とし、その開教当時は、新宗教としての宿命ともいうべき迫害や圧迫に逢いつつも、ともかく新しい息吹によって溌剌たる発展があり、華やかな時代も通っては来たが、年を経るに従って漸次沈滞の気運に陥りつつあるのはそのほとんどであろう、とすれば、これは何によるかを検討する必要がある。<br><br> それはいうまでもなく、時代の進歩に沿わないからで、教祖の教えを金科玉条として堅持する中いつか時代と掛離れてしまう、その結果、漸次溝が大きくなり、ついに今日のごとき無力の非難を浴びせられるようになったのであろう、一切は原因があって結果があるとすれば、既成宗教たるもの大いに反省の必要があろう。<br><br>いつまでも超然たり得るはずがないからである。<br><br> これに鑑（かんが）み、本教の根本義とするところはすべてが進歩的である、時代に即している事である、本教が既成宗教的形式を度外視し、形式のために要する時間や費用を避けるという事も右の点にあるからである、実際上形式のための負担は何らの利益とはならないからで、神仏といえども喜ばれるはずはあるまい。<br><br> 以上の意味において現代人の生活をよりよく改善し、指導的役割を遂行する事こそ真の宗教の使命であるべきで、一言にしていえば、進歩的宗教こそ現代人を救い得る価値あるものというべきであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião Progressista</h2>
 <p>Ao observar atentamente a sociedade contemporânea, constato que, no incessante progresso dos nossos dias, não há um único setor que se mantenha alheio à evolução. Paradoxalmente, contudo, é apenas no campo da religião, o mais intimamente ligado à humanidade, que não se vislumbra o menor avanço. Na verdade, as religiões não apenas permanecem estagnadas, como parecem trilhar o caminho do retrocesso. A prova mais contundente reside no apelo que frequentemente fazem para que seus fiéis “retornem ao caminho original”, ou seja, ao ponto de partida de seu fundador. Tal premissa revela que houve um desvio e que se faz necessário voltar atrás. Se esse ciclo se repetir indefinidamente, não haverá progresso algum, o que representa uma flagrante contradição com o avanço da cultura. A incapacidade das religiões estabelecidas de atrair as pessoas e sua preocupação constante com a mera manutenção do status quo ilustram com perfeição essa realidade.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>A causa é manifesta: a incapacidade de acompanhar o progresso de seu tempo. Ao se apegarem aos ensinamentos de seus fundadores como se fossem dogmas imutáveis, essas religiões acabaram por se desvincular da realidade de cada época. Em consequência, o abismo entre elas e a sociedade se aprofundou gradativamente, culminando na atual situação, em que são alvo de críticas por sua ineficácia. Se tudo o que existe obedece à lei de causa e efeito, as religiões estabelecidas necessitam de uma profunda reflexão, pois não lhes é dado permanecer impassíveis e distantes da realidade indefinidamente.</p>
 <p>Diante desse panorama, o princípio fundamental de nossa fé é ser progressista em todos os seus aspectos e estar em plena sintonia com a era em que vivemos. É por essa razão que nossa Igreja desconsidera os formalismos estéreis das religiões tradicionais, evitando o desperdício de tempo e recursos que eles acarretam. Na prática, o fardo dos rituais não proporciona benefício algum, e é certo que nem mesmo Deus se alegraria com eles.</p>
 <p>Pelas razões expostas, a verdadeira missão da religião deve ser a de aprimorar concretamente a vida do homem moderno e de exercer um papel de liderança espiritual. Em suma, somente uma religião progressista possui o mérito e a capacidade de salvar a humanidade de hoje.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 進歩的宗教 『光』34号、昭和24(1949)年11月5日発行 つくづく現在社会を見る時、日進月歩の今日いかなるものといえども、進歩から外れているものは一つもない、ところが不思議な事には、人類に最も関連の深い宗教分野のみは、いささかの進歩もみられないで旧態依然たるどころか、むしろその逆でさえある、何よりの証拠は既成宗教がよくいう言葉に、本道に帰れ、すなわち開祖の出発点へまで戻れというのである、とすれば横道へ外れたから元の道へ戻すという訳で、仮にこれを繰返すとしたら何らの進歩もない、実に文化の進歩と矛盾する訳である、既成宗教に何ら人を惹きつける力がなくなり現状維持に汲々たる有様は、それをよく物語っている。<br/><br/> なるほど、今日現存するいずれの宗教といえどもキリスト教は別とし、その開教当時は、新宗教としての宿命ともいうべき迫害や圧迫に逢いつつも、ともかく新しい息吹によって溌剌たる発展があり、華やかな時代も通っては来たが、年を経るに従って漸次沈滞の気運に陥りつつあるのはそのほとんどであろう、とすれば、これは何によるかを検討する必要がある。<br/><br/> それはいうまでもなく、時代の進歩に沿わないからで、教祖の教えを金科玉条として堅持する中いつか時代と掛離れてしまう、その結果、漸次溝が大きくなり、ついに今日のごとき無力の非難を浴びせられるようになったのであろう、一切は原因があって結果があるとすれば、既成宗教たるもの大いに反省の必要があろう。<br/><br/>いつまでも超然たり得るはずがないからである。<br/><br/> これに鑑（かんが）み、本教の根本義とするところはすべてが進歩的である、時代に即している事である、本教が既成宗教的形式を度外視し、形式のために要する時間や費用を避けるという事も右の点にあるからである、実際上形式のための負担は何らの利益とはならないからで、神仏といえども喜ばれるはずはあるまい。<br/><br/> 以上の意味において現代人の生活をよりよく改善し、指導的役割を遂行する事こそ真の宗教の使命であるべきで、一言にしていえば、進歩的宗教こそ現代人を救い得る価値あるものというべきであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

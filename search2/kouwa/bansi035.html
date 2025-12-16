@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bansi035</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ３ 035-054 神名解 035 天津神、国津神とは 天津神、国津神について御垂示お願い申し上げます。<br><br> 天系と地系とある。<br><br>天津神は天系、国津神は地系である。<br><br> 天系の神は天照大神が最高の神で、素盞嗚尊、月読尊等もそうで、日と月の系統の神である。<br><br> 地の系統は国常立之神で、金勝要神、大己貴命、少名彦命等等である。<br><br> 神の事をいうと、結局国粋主義になり易い。<br><br>どこの国でもお国自慢があり、それぞれ神の国と思っている。<br><br>ただそれを軍部が利用した。<br><br> 天之御中主大神が最高で全体を支配される。<br><br>支那は盤古大神である。<br><br> 036 天津神、国津神 天津神、国津神について―― 天津神とは天系の神で、神世において殆んど隠退されたが、今度はお出ましになる。<br><br>国常立尊は天系の神である。<br><br>大本教のお筆先に「天より高く咲く花」という事がある。<br><br> 国常立尊の半分が観音様になられる。<br><br>それを産んだのが西王母で、これは阿弥陀の化身である。<br><br> こうもいえる。<br><br>国常立尊が奇魂、和魂のごとき慈悲の霊を以て観音様と現じ、人間を使って救いの業をなされたが、これは日本ではいけないので、印度でなされたといっていい。<br><br>それで南海大士になられた。<br><br>（S23） 037 南向の神（天神、地神） 私が北支におりました当時、中国人が葬儀の場合黄色で紙の質の悪い別紙紙幣を商人から買っているのも度々見かけました。<br><br>また中国では神様を野外の場合総て南向きにお祭りしてありましたが、これには根拠があるのでしょうか。<br><br> 南向が本当で、北は霊、南は体で、北の神は日の神様、天津神、南は体的で国津神である。<br><br>霊は上で、北は霊気が強い。<br><br>キが満ちている。<br><br>北へ向って拝むのは立派に意味がある。<br><br> 東と西では東は霊、西は体で、東北は鬼門で艮、一番いい気がある。<br><br>故に鬼門を嫌って邪神がハバリ、人間が間違った事をしているからお裁きを受ける。<br><br>立派な事をしていれば鬼門へ越すのが一番いい。<br><br> 038 光明世界の神名 光明世界において天照大神様の御尊名はそのままでしょうか。<br><br> 別に代える要はない。<br><br>あるいは、いろんな神の名を総合して名がつくかもしれない。<br><br> 天照大神は太陽の表現神であるから、現在でも弥勒の世になっても同じである。<br><br> 039 天地の神 天地の神とは一つの形容詞である。<br><br>歌によくある。<br><br>最高の神という意味もある。<br><br>いろんな神を総合していう訳である。<br><br> 「汝が耳は木耳なるや天地の誠説けども聞かむともせず」 天地の誠――いろんなものに天地を使う。<br><br>久方の――というがごとしである。<br><br>天に関する事は久方の――である。<br><br>（S23. 6.23） 040 神々の名（天照、素盞嗚、瓊々杵）、言霊的解説 神々様の御名前は普通の言葉と違いますが、どういう訳で御座いましょうか。<br><br> スは主神、素盞嗚のごときは――、サは助ける働きで、ノオは宛字、王になった事があるから王といった。<br><br> 天照――天を照らす。<br><br> 瓊々杵尊は――握る事。<br><br>（S23） 041 山の神とは 山の神と申して狼を祭神として祀ってある所がありますが、これについて御説明を御願い致します。<br><br> 狼は山の神の使という事になっている。<br><br>武蔵の三峯神社は狼が働いている。<br><br>武州、甲州などでは、盗賊除けの神として狼を祀っている。<br><br>山の神はそれだけのもので、大した関係はない。<br><br>本当は山の神は天狗である。<br><br>元は鞍馬山の猿田彦が総大将であった。<br><br>その土地に――。<br><br>大抵は人天であるが、偶には鷲、鷹などもある。<br><br> 042 神格と今の世、十和田龍神、（明主様に対する世遇） 十和田湖の主、男装坊が変生男子の御霊とあらわれて今日活躍しているとしてありますが、いかなる神格にてあらわれているものでしょうか。<br><br> 神格は不明である。<br><br>今は誰でも判らぬ。<br><br>五六七世になってみないと判らぬ。<br><br>これからその人の働きによって定まる訳であって、働きが未知数である。<br><br>しかし相当の位にはなる訳である。<br><br>現在は千差万別である。<br><br> 反って本当の神は今迄落ちた。<br><br>それが終戦になって第一段は直った。<br><br>特権階級は割合に霊的に低い。<br><br> 霊的に高い方が低い所にいた。<br><br>私などまるで罪人同様である。<br><br>そして低い身魂が威張った。<br><br>「世は逆様になりている。<br><br>今度は本様になる」とお筆先にもある。<br><br> 十和田湖の主が上ったのは約二十年位前である。<br><br>金色の龍が昇るのを三十人位の人が見た。<br><br>金色に昇天してゆくのを見、暴風があった。<br><br>（S23） 043 神と願言、（弁天や稲荷信頼し得べきや） 世間ではよく弁財天や稲荷等を守護神として祀りますが、これは信頼出来る事でございましょうか。<br><br>またその場合、その守護神はその人の本副並びに正守護神とどんな関係でございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> （信頼出来る。<br><br>お願いすれば御利益くれる）弁天様などにも――、願言を届けない訳にはゆかない。<br><br>もし叶えねば、神の役目がすまぬ。<br><br>しかし大抵の神は神力がないから、充分叶える事が出来ぬ。<br><br>しかし正守護神の力を増さしむるとか、副守護神に言いつけたりはしてくれる。<br><br>（命令はする。<br><br>――間接的の守護）豊川稲荷など守護神を貰うという事を言う。<br><br>すると狐の眷族が憑く。<br><br>そして種々悪い事をしてくれる。<br><br>正神系の神は正しい事でなくては利益をくれぬ。<br><br>（S23.12. 8） 044 天馬 龍神は馬になる。<br><br>馬は獣の中の龍神である。<br><br>石摺など斑――まだらである。<br><br>神様は大抵白馬に乗る。<br><br>（S23. 7.22） 045 神の使う虫類 過日『神様はよく虫を御使いになる』と承りましたが、どんな虫を御使いになられるのでしょうか。<br><br> 蝶々を使う。<br><br>また、八ツ手、百足虫に憑依する。<br><br>（S23. 7.13） 046 内宮外宮併祀の由来 伊勢の内宮、外宮併祀の由来及びその意義につき御教示御願い申し上げます。<br><br> 内宮は天照大神、外宮は豊受明神で五穀の神である。<br><br> 天照大神様は人間の食物――主食に付き関心をもたれ、豊受明神に命じ日本中稲を間配れと御命があり、御一人では駄目なので狐を使われた。<br><br>故に稲を荷ぐと書く。<br><br>その功により祀る。<br><br>（稲荷大明神となる）百姓が祀るもので、それだけが役目である。<br><br>（現今は花柳界でも祀っている。<br><br>狐が堕落した）豊受神宮は天照大神の家来筋である。<br><br>伏見が大体大本である。<br><br>夜の世界は、神の力が弱くなり、眷族、家来――狐などの統制がつかなかった。<br><br>豊川のごときは中途で荼吉尼（だきに）天神を祀った。<br><br>これは金毛九尾である。<br><br>それから繁昌した。<br><br>（山口県は日本の入口で、狐は日本へここから悪事を始める）（S24.10. 8） 047 神社の将来 全国に散在鎮祭される神社は 数年後どう言う具合になり行きますか。<br><br> これから経済的に困ると思う。<br><br>神社神道などは相当戦争に利用されたから、今後発展すると思えぬ。<br><br> 産土さんは無いと困るから残る訳である。<br><br> 048 真如と今の神社と寺 真如の意味説明をお願い致します。<br><br> 真如の月といい、月の事をいう。<br><br>仏教は真如で月の教え、夜の時代の教えで、仏滅後弥勒が出生するという。<br><br> 仏教は今印度に三十万人しかいない。<br><br>支那もそうで、日本だけが幾分残っているが、これは怪しいものである。<br><br>復興出来る寺は少ない。<br><br> 神社は神武天皇以後に出来た新しいものである。<br><br>これから新しい神社が出来る。<br><br> 氏神も系統が違う。<br><br>今迄の神は朝鮮、支那系である。<br><br>（S23.11.27） 049 産土神参拝の礼に来る 本年九月四日、小桜姫を祀ってあります三崎の浜諸磯（はまもろいそ）の小桜神社へお詣りしました時、祝詞を奏上致しました。<br><br>それから一ケ月後の十月四日の朝方、美しい姿にて夢に現われ「非常に有難い祝詞を頂戴致しました、もう一度頂きたいのですが、神社へ行けなければ思い出した時に上げて頂きたい」と告げたのですが、神社へ行って祝詞を奏上致すべきでしょうか。<br><br>私の家の仏前にて奏上してもよろしゅう御座居ましょうか。<br><br>御尋ねさせて頂きます。<br><br> 行く要はない。<br><br>お詣りに行った礼に来たのであって、また行って上げるのは反って観音様に御無礼になる。<br><br> 小桜姫は霊界でよく働いている。<br><br>ただ産土神だけのものである。<br><br>月に一ぺんお祭りの日に祝詞を奏げるのは結構である。<br><br> 050 産土神と邪神の占領 左の事につきまして御教示を御願い申し上げます。<br><br> 一、産土神が邪神の妨害を受けてお働きになれないでいる事が御座いましょうか。<br><br> 二、産土神の社を邪神が占領している事が御座いますでしょうか。<br><br> 三、産土神が邪神そのものである事が御座いますでしょうか。<br><br> こういう事は皆ある。<br><br>受けても徹底的妨害は出来ぬ。<br><br> 一、そういう時は産土神に力がない。<br><br>あまりひどいのは、産土神を外へ移してくれる。<br><br> 二、占領もある期間で、長い事は出来ぬ。<br><br>無信仰者が多い土地なら、参拝者がないと、神の力が薄くなる。<br><br> 三、邪神が占領した時は、そのものになる。<br><br>ある程度妨害を受ける。<br><br>（S24. 9.29） 051 産土神が救われる 三崎近郷の三ケ所の氏神様が時々夢に現われて、土地と氏子を救ってくれよと申されますが、現在の布教伝道の外に何か特別の事を要求されているので御座いましょうか。<br><br> 伝道だけでよい。<br><br>信者が多くなれば産土神も救われる。<br><br>産土神やその他の神も救う力はなく煩悶している。<br><br>それで教団へ頼む。<br><br>月の系統の神様だからである。<br><br>（S24. 5） 052 転居と氏神への挨拶 転居等の際、氏神様へはどのような方式をとればよいでしょうか。<br><br>また、仏壇の移動について、何か心得べき点がありましたらお教え下さい。<br><br> 産土様に今迄の礼を言い、感謝し、新規の産土様へ氏子として引越して来た挨拶をする。<br><br>それが本当である。<br><br>転居等の時は氏神同志で通ずる。<br><br> 仏壇は鄭重に移動すればよい。<br><br>（S23.10.13） 053 西洋に産土神ありや 日本では結婚の場合、霊界で産土神が両者をお結びになるとお伺いいたしましたが、西洋においても産土神に相応するお方が有るので御座いましょうか。<br><br>お伺い申し上げます。<br><br> 西洋には産土神はないと思う。<br><br>それで自由結婚になったので、緯だからである。<br><br> 西洋は人為的の事が多い。<br><br>日本は経であるから、種（いろ）んな事を神様がやられる点がある。<br><br>日本は今迄経が過ぎた。<br><br> これからは見合い結婚でも恋愛結婚でもよいという事になる。<br><br> 054 産土焼失時の宮詣り、今迄の神社 氏神様が天神様ですが、戦災にあわれて未だ復興致しませんのですが、子供の宮詣りはどうすればよろしいでしょうか。<br><br> 産土様の仮の宮も出来ていないなら、教導所の神様に奏上すればよい。<br><br>御礼を言い、今後の御守護をお願いする。<br><br>段々そうなる。<br><br> 神にも種々の系統があり、その系統の神が隠退になり、押込められていた新しい神が出る。<br><br>今迄出た神は日本の神ではない。<br><br>支那や朝鮮の神で、それは今度は本国へ帰られる。<br><br> 天神様は菅原道真で、本当の日本の神でない。<br><br>神に祀られる資格はなくなったのである。<br><br> （S23. 8.16）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Explicação dos Nomes Divinos</h2>
 <h2>035 O que são os Deuses Celestes e os Deuses Terrestres?</h2>
@@ -188,5 +340,48 @@ function toggleLang(lang) {
 <p>Se ainda não houver um santuário provisório para o Deus-Guardião da Terra Natal, basta dirigir uma oração ao Deus de nossa Igreja. Agradeça e peça por sua proteção futura. Gradualmente, as coisas se encaminharão para isso.</p>
 <p>Existem várias linhagens de deuses. Os deuses de linhagens que se retiraram ou foram suprimidos darão lugar a novos deuses que agora se manifestam. As divindades que atuaram até hoje não são deuses do Japão, mas da China e da Coreia, e agora retornarão aos seus países de origem.</p>
 <p>Tenjin-sama é Sugawara no Michizane e não é um verdadeiro deus do Japão. Ele perdeu a qualificação para ser consagrado como divindade. (16 de agosto de 1948)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 万神篇 ３ 035-054 神名解 035 天津神、国津神とは 天津神、国津神について御垂示お願い申し上げます。<br/><br/> 天系と地系とある。<br/><br/>天津神は天系、国津神は地系である。<br/><br/> 天系の神は天照大神が最高の神で、素盞嗚尊、月読尊等もそうで、日と月の系統の神である。<br/><br/> 地の系統は国常立之神で、金勝要神、大己貴命、少名彦命等等である。<br/><br/> 神の事をいうと、結局国粋主義になり易い。<br/><br/>どこの国でもお国自慢があり、それぞれ神の国と思っている。<br/><br/>ただそれを軍部が利用した。<br/><br/> 天之御中主大神が最高で全体を支配される。<br/><br/>支那は盤古大神である。<br/><br/> 036 天津神、国津神 天津神、国津神について―― 天津神とは天系の神で、神世において殆んど隠退されたが、今度はお出ましになる。<br/><br/>国常立尊は天系の神である。<br/><br/>大本教のお筆先に「天より高く咲く花」という事がある。<br/><br/> 国常立尊の半分が観音様になられる。<br/><br/>それを産んだのが西王母で、これは阿弥陀の化身である。<br/><br/> こうもいえる。<br/><br/>国常立尊が奇魂、和魂のごとき慈悲の霊を以て観音様と現じ、人間を使って救いの業をなされたが、これは日本ではいけないので、印度でなされたといっていい。<br/><br/>それで南海大士になられた。<br/><br/>（S23） 037 南向の神（天神、地神） 私が北支におりました当時、中国人が葬儀の場合黄色で紙の質の悪い別紙紙幣を商人から買っているのも度々見かけました。<br/><br/>また中国では神様を野外の場合総て南向きにお祭りしてありましたが、これには根拠があるのでしょうか。<br/><br/> 南向が本当で、北は霊、南は体で、北の神は日の神様、天津神、南は体的で国津神である。<br/><br/>霊は上で、北は霊気が強い。<br/><br/>キが満ちている。<br/><br/>北へ向って拝むのは立派に意味がある。<br/><br/> 東と西では東は霊、西は体で、東北は鬼門で艮、一番いい気がある。<br/><br/>故に鬼門を嫌って邪神がハバリ、人間が間違った事をしているからお裁きを受ける。<br/><br/>立派な事をしていれば鬼門へ越すのが一番いい。<br/><br/> 038 光明世界の神名 光明世界において天照大神様の御尊名はそのままでしょうか。<br/><br/> 別に代える要はない。<br/><br/>あるいは、いろんな神の名を総合して名がつくかもしれない。<br/><br/> 天照大神は太陽の表現神であるから、現在でも弥勒の世になっても同じである。<br/><br/> 039 天地の神 天地の神とは一つの形容詞である。<br/><br/>歌によくある。<br/><br/>最高の神という意味もある。<br/><br/>いろんな神を総合していう訳である。<br/><br/> 「汝が耳は木耳なるや天地の誠説けども聞かむともせず」 天地の誠――いろんなものに天地を使う。<br/><br/>久方の――というがごとしである。<br/><br/>天に関する事は久方の――である。<br/><br/>（S23. 6.23） 040 神々の名（天照、素盞嗚、瓊々杵）、言霊的解説 神々様の御名前は普通の言葉と違いますが、どういう訳で御座いましょうか。<br/><br/> スは主神、素盞嗚のごときは――、サは助ける働きで、ノオは宛字、王になった事があるから王といった。<br/><br/> 天照――天を照らす。<br/><br/> 瓊々杵尊は――握る事。<br/><br/>（S23） 041 山の神とは 山の神と申して狼を祭神として祀ってある所がありますが、これについて御説明を御願い致します。<br/><br/> 狼は山の神の使という事になっている。<br/><br/>武蔵の三峯神社は狼が働いている。<br/><br/>武州、甲州などでは、盗賊除けの神として狼を祀っている。<br/><br/>山の神はそれだけのもので、大した関係はない。<br/><br/>本当は山の神は天狗である。<br/><br/>元は鞍馬山の猿田彦が総大将であった。<br/><br/>その土地に――。<br/><br/>大抵は人天であるが、偶には鷲、鷹などもある。<br/><br/> 042 神格と今の世、十和田龍神、（明主様に対する世遇） 十和田湖の主、男装坊が変生男子の御霊とあらわれて今日活躍しているとしてありますが、いかなる神格にてあらわれているものでしょうか。<br/><br/> 神格は不明である。<br/><br/>今は誰でも判らぬ。<br/><br/>五六七世になってみないと判らぬ。<br/><br/>これからその人の働きによって定まる訳であって、働きが未知数である。<br/><br/>しかし相当の位にはなる訳である。<br/><br/>現在は千差万別である。<br/><br/> 反って本当の神は今迄落ちた。<br/><br/>それが終戦になって第一段は直った。<br/><br/>特権階級は割合に霊的に低い。<br/><br/> 霊的に高い方が低い所にいた。<br/><br/>私などまるで罪人同様である。<br/><br/>そして低い身魂が威張った。<br/><br/>「世は逆様になりている。<br/><br/>今度は本様になる」とお筆先にもある。<br/><br/> 十和田湖の主が上ったのは約二十年位前である。<br/><br/>金色の龍が昇るのを三十人位の人が見た。<br/><br/>金色に昇天してゆくのを見、暴風があった。<br/><br/>（S23） 043 神と願言、（弁天や稲荷信頼し得べきや） 世間ではよく弁財天や稲荷等を守護神として祀りますが、これは信頼出来る事でございましょうか。<br/><br/>またその場合、その守護神はその人の本副並びに正守護神とどんな関係でございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> （信頼出来る。<br/><br/>お願いすれば御利益くれる）弁天様などにも――、願言を届けない訳にはゆかない。<br/><br/>もし叶えねば、神の役目がすまぬ。<br/><br/>しかし大抵の神は神力がないから、充分叶える事が出来ぬ。<br/><br/>しかし正守護神の力を増さしむるとか、副守護神に言いつけたりはしてくれる。<br/><br/>（命令はする。<br/><br/>――間接的の守護）豊川稲荷など守護神を貰うという事を言う。<br/><br/>すると狐の眷族が憑く。<br/><br/>そして種々悪い事をしてくれる。<br/><br/>正神系の神は正しい事でなくては利益をくれぬ。<br/><br/>（S23.12. 8） 044 天馬 龍神は馬になる。<br/><br/>馬は獣の中の龍神である。<br/><br/>石摺など斑――まだらである。<br/><br/>神様は大抵白馬に乗る。<br/><br/>（S23. 7.22） 045 神の使う虫類 過日『神様はよく虫を御使いになる』と承りましたが、どんな虫を御使いになられるのでしょうか。<br/><br/> 蝶々を使う。<br/><br/>また、八ツ手、百足虫に憑依する。<br/><br/>（S23. 7.13） 046 内宮外宮併祀の由来 伊勢の内宮、外宮併祀の由来及びその意義につき御教示御願い申し上げます。<br/><br/> 内宮は天照大神、外宮は豊受明神で五穀の神である。<br/><br/> 天照大神様は人間の食物――主食に付き関心をもたれ、豊受明神に命じ日本中稲を間配れと御命があり、御一人では駄目なので狐を使われた。<br/><br/>故に稲を荷ぐと書く。<br/><br/>その功により祀る。<br/><br/>（稲荷大明神となる）百姓が祀るもので、それだけが役目である。<br/><br/>（現今は花柳界でも祀っている。<br/><br/>狐が堕落した）豊受神宮は天照大神の家来筋である。<br/><br/>伏見が大体大本である。<br/><br/>夜の世界は、神の力が弱くなり、眷族、家来――狐などの統制がつかなかった。<br/><br/>豊川のごときは中途で荼吉尼（だきに）天神を祀った。<br/><br/>これは金毛九尾である。<br/><br/>それから繁昌した。<br/><br/>（山口県は日本の入口で、狐は日本へここから悪事を始める）（S24.10. 8） 047 神社の将来 全国に散在鎮祭される神社は 数年後どう言う具合になり行きますか。<br/><br/> これから経済的に困ると思う。<br/><br/>神社神道などは相当戦争に利用されたから、今後発展すると思えぬ。<br/><br/> 産土さんは無いと困るから残る訳である。<br/><br/> 048 真如と今の神社と寺 真如の意味説明をお願い致します。<br/><br/> 真如の月といい、月の事をいう。<br/><br/>仏教は真如で月の教え、夜の時代の教えで、仏滅後弥勒が出生するという。<br/><br/> 仏教は今印度に三十万人しかいない。<br/><br/>支那もそうで、日本だけが幾分残っているが、これは怪しいものである。<br/><br/>復興出来る寺は少ない。<br/><br/> 神社は神武天皇以後に出来た新しいものである。<br/><br/>これから新しい神社が出来る。<br/><br/> 氏神も系統が違う。<br/><br/>今迄の神は朝鮮、支那系である。<br/><br/>（S23.11.27） 049 産土神参拝の礼に来る 本年九月四日、小桜姫を祀ってあります三崎の浜諸磯（はまもろいそ）の小桜神社へお詣りしました時、祝詞を奏上致しました。<br/><br/>それから一ケ月後の十月四日の朝方、美しい姿にて夢に現われ「非常に有難い祝詞を頂戴致しました、もう一度頂きたいのですが、神社へ行けなければ思い出した時に上げて頂きたい」と告げたのですが、神社へ行って祝詞を奏上致すべきでしょうか。<br/><br/>私の家の仏前にて奏上してもよろしゅう御座居ましょうか。<br/><br/>御尋ねさせて頂きます。<br/><br/> 行く要はない。<br/><br/>お詣りに行った礼に来たのであって、また行って上げるのは反って観音様に御無礼になる。<br/><br/> 小桜姫は霊界でよく働いている。<br/><br/>ただ産土神だけのものである。<br/><br/>月に一ぺんお祭りの日に祝詞を奏げるのは結構である。<br/><br/> 050 産土神と邪神の占領 左の事につきまして御教示を御願い申し上げます。<br/><br/> 一、産土神が邪神の妨害を受けてお働きになれないでいる事が御座いましょうか。<br/><br/> 二、産土神の社を邪神が占領している事が御座いますでしょうか。<br/><br/> 三、産土神が邪神そのものである事が御座いますでしょうか。<br/><br/> こういう事は皆ある。<br/><br/>受けても徹底的妨害は出来ぬ。<br/><br/> 一、そういう時は産土神に力がない。<br/><br/>あまりひどいのは、産土神を外へ移してくれる。<br/><br/> 二、占領もある期間で、長い事は出来ぬ。<br/><br/>無信仰者が多い土地なら、参拝者がないと、神の力が薄くなる。<br/><br/> 三、邪神が占領した時は、そのものになる。<br/><br/>ある程度妨害を受ける。<br/><br/>（S24. 9.29） 051 産土神が救われる 三崎近郷の三ケ所の氏神様が時々夢に現われて、土地と氏子を救ってくれよと申されますが、現在の布教伝道の外に何か特別の事を要求されているので御座いましょうか。<br/><br/> 伝道だけでよい。<br/><br/>信者が多くなれば産土神も救われる。<br/><br/>産土神やその他の神も救う力はなく煩悶している。<br/><br/>それで教団へ頼む。<br/><br/>月の系統の神様だからである。<br/><br/>（S24. 5） 052 転居と氏神への挨拶 転居等の際、氏神様へはどのような方式をとればよいでしょうか。<br/><br/>また、仏壇の移動について、何か心得べき点がありましたらお教え下さい。<br/><br/> 産土様に今迄の礼を言い、感謝し、新規の産土様へ氏子として引越して来た挨拶をする。<br/><br/>それが本当である。<br/><br/>転居等の時は氏神同志で通ずる。<br/><br/> 仏壇は鄭重に移動すればよい。<br/><br/>（S23.10.13） 053 西洋に産土神ありや 日本では結婚の場合、霊界で産土神が両者をお結びになるとお伺いいたしましたが、西洋においても産土神に相応するお方が有るので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 西洋には産土神はないと思う。<br/><br/>それで自由結婚になったので、緯だからである。<br/><br/> 西洋は人為的の事が多い。<br/><br/>日本は経であるから、種（いろ）んな事を神様がやられる点がある。<br/><br/>日本は今迄経が過ぎた。<br/><br/> これからは見合い結婚でも恋愛結婚でもよいという事になる。<br/><br/> 054 産土焼失時の宮詣り、今迄の神社 氏神様が天神様ですが、戦災にあわれて未だ復興致しませんのですが、子供の宮詣りはどうすればよろしいでしょうか。<br/><br/> 産土様の仮の宮も出来ていないなら、教導所の神様に奏上すればよい。<br/><br/>御礼を言い、今後の御守護をお願いする。<br/><br/>段々そうなる。<br/><br/> 神にも種々の系統があり、その系統の神が隠退になり、押込められていた新しい神が出る。<br/><br/>今迄出た神は日本の神ではない。<br/><br/>支那や朝鮮の神で、それは今度は本国へ帰られる。<br/><br/> 天神様は菅原道真で、本当の日本の神でない。<br/><br/>神に祀られる資格はなくなったのである。<br/><br/> （S23. 8.16）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

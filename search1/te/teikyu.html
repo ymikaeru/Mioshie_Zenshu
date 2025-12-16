@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>teikyu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 低級宗教 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 前項に述べたごとく現当利益その物は、必ずしも、低級宗教ではないのである。<br><br>しかしながら実際、低級宗教はあるにはある、しかも、その害毒たるや、恐るべきものであって、むしろ、その筋の取締りをさえ乞いたいのである。<br><br> それは、彼の稲荷下ろし、飯綱（いづな）使い等のごとく、祈祷その他の方法によって、神下りをやる類（たぐい）である。<br><br>これらの方法をみるに、神下りと称して、盛んに手を振り、眼を釣り上げ、その異態なる姿は、正気の沙汰とは思われない程である。<br><br>しかるにこの奇怪なる情態が、現わるる事を神下りと称して、非常に喜ぶのである。<br><br>その時、何々尊とか、何神とか、高級の神の名を僭称（せんしょう）し、さも高級の神霊なるがごとく、殊更に威圧するごとき態度を装い、周囲の者に対し、命令的に、種々の妖言を述べるのである。<br><br> しかるに、その周囲に集れる愚夫愚婦は、真の神と信じて三拝九拝し、その御託宣に、随喜の涙をこぼすのであるが、不思議や、この神下りの予言は、当る事もあるが、外れる事も多いのであって、冷静なる頭脳を以て、常識的に批判すれば、直にインチキを看破されるのであるが、迷わされてる人達は当った事だけを有難がり、外れた方は目を閉じて尤（とが）めないという、一種の変態心理になってしまっている。<br><br>これら神下りによって、何神など僭称するのは、その悉（ことごと）くが、狐狸の霊であるのだから、驚かざるを得ないのである。<br><br> それは、真の神懸りは、少しも平常と異なるなく、手を振ったり、異様な態度は、全然無いのが本当であって、神が懸りしや、否や、ほとんど、見分が付かない位である。<br><br>又、言う言葉も、常識からみて、いささかも脱線的でなく、飽くまで、穏かに、謙遜的態度であり奥床しさがある、随って異様な形や普通人と異る態度、言葉を吐くのは、全部狐狸の霊が愚かなる人間を偽り、誑（たぶらか）すものと心得て、間違いないのである。<br><br> こういう霊懸りになるものは、婦人に多く、一度、これらの霊に侵さるるや、己は高級の神格を得たごとく、自惚れて終い、婦人のごときは、家庭を打捨て、夫に叛（そむ）き、吾子をさえ顧みぬようになり、神様気取になって、人を眼下に見下し、実に手の付けられぬ事になるのである、ある程度で、止まればよいが、一歩進むにおいては、純然たる発狂状態にまで進むのである。<br><br> この類（たぐい）の信仰は、社会に相当多く、随って、世人を懦毒（だどく）する点も、なかなか軽視出来ないのである。<br><br>これをこそ、低級宗教と言って間違いないのである。<br><br> 又今一つは、狐狸、天狗等を拝む信仰であって、こういうのは、御利益一点張りの信仰で、己一人の利益さえ計ればいいので商売繁昌は元より相場で儲けたいとか、馬券を当てて貰いたいとか花柳界の女が、旦那や、情人に遇わせてくれとかを祈願する類であって、あえて社会を良くしようとか、人を救いたいとか、言う様な利他的の意志による信仰では無いのである。<br><br> これらも、立派な低級宗教であると言えるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Discernimento sobre as Religiões Inferiores</h2>
 <p>Conforme exposto anteriormente, a obtenção de graças imediatas, por si só, não caracteriza necessariamente uma religião inferior. Todavia, tais religiões de fato existem, e sua influência nefasta é tão assustadora que se chega a almejar a intervenção das autoridades competentes para coibi-las.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Esse tipo de possessão espiritual acomete com maior frequência as mulheres. Uma vez subjugadas por tais espíritos, elas se envaidecem como se houvessem alcançado um elevado grau de divindade. Chegam a abandonar seus lares, a se rebelar contra os maridos e a negligenciar os próprios filhos. Assumindo ares de divindade, passam a desprezar os outros, tornando-se absolutamente intratáveis. Fosse possível deter o processo em um estágio inicial, o dano seria menor; contudo, quando avança, pode culminar em um estado de pura insanidade.</p>
 <p>Crenças dessa natureza são bastante difundidas na sociedade, e seu poder de corromper as pessoas não pode ser subestimado. Eis o que, sem sombra de dúvida, se define como uma religião inferior.</p>
 <p>Existe, ademais, outra categoria, que consiste na veneração de raposas, tengus e entidades semelhantes. Esta se caracteriza por ser uma fé centrada exclusivamente na obtenção de vantagens pessoais. O único objetivo é o benefício próprio, seja a prosperidade nos negócios, o lucro em especulações financeiras, o acerto em apostas ou, no caso de mulheres da vida galante, o desejo de encontrar um patrono ou amante. Não se trata, de forma alguma, de uma fé que brota do anseio altruísta de aprimorar a sociedade ou de salvar o próximo. Tais práticas, portanto, também constituem um claro exemplo de religião inferior.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 低級宗教 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 前項に述べたごとく現当利益その物は、必ずしも、低級宗教ではないのである。<br/><br/>しかしながら実際、低級宗教はあるにはある、しかも、その害毒たるや、恐るべきものであって、むしろ、その筋の取締りをさえ乞いたいのである。<br/><br/> それは、彼の稲荷下ろし、飯綱（いづな）使い等のごとく、祈祷その他の方法によって、神下りをやる類（たぐい）である。<br/><br/>これらの方法をみるに、神下りと称して、盛んに手を振り、眼を釣り上げ、その異態なる姿は、正気の沙汰とは思われない程である。<br/><br/>しかるにこの奇怪なる情態が、現わるる事を神下りと称して、非常に喜ぶのである。<br/><br/>その時、何々尊とか、何神とか、高級の神の名を僭称（せんしょう）し、さも高級の神霊なるがごとく、殊更に威圧するごとき態度を装い、周囲の者に対し、命令的に、種々の妖言を述べるのである。<br/><br/> しかるに、その周囲に集れる愚夫愚婦は、真の神と信じて三拝九拝し、その御託宣に、随喜の涙をこぼすのであるが、不思議や、この神下りの予言は、当る事もあるが、外れる事も多いのであって、冷静なる頭脳を以て、常識的に批判すれば、直にインチキを看破されるのであるが、迷わされてる人達は当った事だけを有難がり、外れた方は目を閉じて尤（とが）めないという、一種の変態心理になってしまっている。<br/><br/>これら神下りによって、何神など僭称するのは、その悉（ことごと）くが、狐狸の霊であるのだから、驚かざるを得ないのである。<br/><br/> それは、真の神懸りは、少しも平常と異なるなく、手を振ったり、異様な態度は、全然無いのが本当であって、神が懸りしや、否や、ほとんど、見分が付かない位である。<br/><br/>又、言う言葉も、常識からみて、いささかも脱線的でなく、飽くまで、穏かに、謙遜的態度であり奥床しさがある、随って異様な形や普通人と異る態度、言葉を吐くのは、全部狐狸の霊が愚かなる人間を偽り、誑（たぶらか）すものと心得て、間違いないのである。<br/><br/> こういう霊懸りになるものは、婦人に多く、一度、これらの霊に侵さるるや、己は高級の神格を得たごとく、自惚れて終い、婦人のごときは、家庭を打捨て、夫に叛（そむ）き、吾子をさえ顧みぬようになり、神様気取になって、人を眼下に見下し、実に手の付けられぬ事になるのである、ある程度で、止まればよいが、一歩進むにおいては、純然たる発狂状態にまで進むのである。<br/><br/> この類（たぐい）の信仰は、社会に相当多く、随って、世人を懦毒（だどく）する点も、なかなか軽視出来ないのである。<br/><br/>これをこそ、低級宗教と言って間違いないのである。<br/><br/> 又今一つは、狐狸、天狗等を拝む信仰であって、こういうのは、御利益一点張りの信仰で、己一人の利益さえ計ればいいので商売繁昌は元より相場で儲けたいとか、馬券を当てて貰いたいとか花柳界の女が、旦那や、情人に遇わせてくれとかを祈願する類であって、あえて社会を良くしようとか、人を救いたいとか、言う様な利他的の意志による信仰では無いのである。<br/><br/> これらも、立派な低級宗教であると言えるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

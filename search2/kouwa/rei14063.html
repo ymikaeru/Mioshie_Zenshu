@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei14063</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（四） ４ 063-087 祟り２ 063 金神の祟りという事 よく屋敷の中を修理したりしますと急に体が悪くなり、行者のような人に見て戴きますと、金神様の祟りですと申されますが、ほんとうにあるものでしょうか。<br><br>また、金神様はどういう目的で屋敷の中にいるのでしょうか。<br><br>お伺い申し上げます。<br><br> 金神は沢山いる。<br><br>一番の総統領、総帥は艮の金神様で、眷族は沢山いる。<br><br>それが金神になっている。<br><br>よく転んだり、躓いたりするのは艮神の祟りなりというが、これは種々な霊がやるので、龍神、狐霊の類で、家のどこかに憑依しているのが祟る。<br><br> 金神様は神であるから、そう祟るなどという事は当らぬ。<br><br>（S24. 1.14） 064 金神の祟り 金神様の祟り等と申し、御嶽教ではその除（よ）けを致します。<br><br>相当な重病人でもその除けを致します。<br><br>金神様の除け等が果して出来るもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 金神の祟りというのは狐か狸の類である。<br><br>御馳走を食いたいためにイタズラするのである、食物を上げて拝むから、金神除けという御嶽教は――。<br><br> 半分迷信である。<br><br>何にもせぬ方がよい。<br><br>何にもやらなければ先方も諦める。<br><br> 065 姫金神の祟り 私の村の某家（未信者）で工場を新築致しました所、子供が次々と三人死にました。<br><br>見てもらいますと、姫金神の祟りとの事で、八人殺さなければ済まないと申します。<br><br>姫金神様というのはいかなる神様でどうしたらこの家は救われるで御座居ましょうか。<br><br>御教示御願い申し上げます。<br><br> 姫金神など何万もいる。<br><br>こういうのは蛇である。<br><br>工場敷地に何かある。<br><br> 066 赤蛇の怨み・執着、神と人霊の速度 赤い蛇は、人間が蛇になったものである。<br><br>（執着による）怨みの霊である。<br><br>奥さんの生命をとらなくちゃならぬと狙ったのである。<br><br>これはお浄めしても効果はない。<br><br>霊的でも効果のない場合はあるが、別の意になる。<br><br>夫が正当でない婦人関係のあった場合、その罪穢を贖罪すべく、浄化される。<br><br> 蛇を殺した祟りのものをやった事がある。<br><br>二十年位前、その人が始終胃がわるい。<br><br>その人の父が畑を耕作している時、蛇が真二つになった。<br><br>その霊が祟っている。<br><br>お腹をすると腹中を廻り、音がする。<br><br> 執着の強い霊は見える。<br><br>お岩のように非常に執着の強いために眼に見える。<br><br>執着が除れると、霊が稀薄になるから見えない。<br><br>偉い神様ほど稀薄で軽い。<br><br>上になるほど移動が早い。<br><br>霊の重いのは東京大阪間を三分位、修行を積むと一分位、普通の神は一秒位、最高の神は一瞬である。<br><br>普通の光より早い。<br><br>（S23） 067 臍の緒首に巻く（異常出産、蛇） 四歳になる子が生れる時に臍の緒が一結び結ばれて生れ、今年生れた子は首に五巻まいて浄霊の御蔭で生れましたが、何か因縁によるものでしょうか。<br><br> 因縁は蛇である。<br><br>蛇がアダしたのである。<br><br>信仰が深くなるに従い、そういう事はなくなる。<br><br> 068 蛇霊の処置 親類の人が十年前に私宅の屋敷蛇を殺して以来病人並びに死人が四年間に四人出ました。<br><br>困り果てて日蓮行者に見てもらったら蛇の怨みと判り、屋敷外に宮を作り祀ったらその後死人は出なくなりました。<br><br>今後どのようにしたら良いでしょうか。<br><br> 蛇は先祖で、それを殺したので怒った。<br><br>そのまま続けていたらよい。<br><br>信仰がある程度まで行ったら処分してもよい。<br><br>（その中人間に再生する） 光明如来様に、先に霊界へ行った龍神が一日も早く人間に生れるよう祈る。<br><br> 三年位祭って、その後やめてもよい。<br><br>（S24. 3.17） 069 眼病三代続く（蛇の祟り） 十九歳より今日迄眼病で苦しんでおりましたが、浄霊を受けてより良くなりました。<br><br>当家三代眼病が続きますが、いかなる訳でしょうか。<br><br> 三十六歳、蛇の祟りである。<br><br>蛇を殺すと頭を叩くんで眼を潰す。<br><br>故に憑ると眼がつむれない。<br><br>浄化なら三代続く事はない。<br><br>こういうのは蛇を祀ると直ちに治る事がある。<br><br>（S23.12.16） 070 結婚後死す兄弟（蛇の祟り） 私の兄弟は六人あったが世帯を持ってから次々に死んでいき、現在では私と姉の二人だけになりました。<br><br>この霊的原因をお教え下さい。<br><br>なお、法華教にてみて貰いましたら、父が仏壇の上にいた蛇を殺したその祟りとかいう事です。<br><br>そういえば兄は蛇々々と言いつつ死にました。<br><br> これは無論お父さんが殺した蛇の祟りである。<br><br>青大将はよく、仏様の近くへ寄りたがるものである。<br><br>また、祝詞を奏げると聞きに来るものである。<br><br> 祝詞を奏げ、幽世の大神様に「人間に生れ代ってくるよう」お願いしてやるとよい。<br><br> 071 唖続出の家（木龍祟り） 栃木県小塩江村小倉のある家にて次々唖で御座いますが、何か霊的関係が御座居ましょうか。<br><br>御教えを御願い申し上げます。<br><br> 木龍が祟っている。<br><br>桜も祟る。<br><br> 信仰で治す外はない。<br><br>（S24. 5.22） 072 兄弟で眼病、前方見えず、蛇の祟り解決の道 六人兄弟の中、長兄、四男、長女の三名が悪質の眼病で、その中四男は死亡しました。<br><br>長兄は二十五年前頃よりだんだん見えなくなり、視野が非常に小さく、前方は全く見えませんが横は人の顔ぐらい見えます。<br><br>長女は医者に全然かからず、やはり視野が小さく、針の穴に糸が通る外は見えません。<br><br>毎日御浄霊していますが、まだ変化ありません。<br><br>三十年位前、父が病気の時、病室の天井を大きな蛇が通っているのを見て恐れ、近所の子供を呼んで殺したそうです。<br><br> 蛇が怒ってそういう事をするのである 光明如来様の御部屋へ寝かすようにし、出来るだけ徳を積むと、蛇は救われる。<br><br>病気治しをするといい。<br><br> 073 蛞蝓多数蝋をなめる 福井市のある家で、毎夜十二時頃になると、ナメクジ五十匹位が出て、ローソク及びマッチの硫黄を全部食べてしまいます。<br><br>ナメクジの色も種々あり、いくら予防方法を講じても駄目との事で御座います。<br><br>何か霊的に障りでも御座いませんでしょうか。<br><br>御伺い申し上げます。<br><br> ナメクジに何か霊が憑いている。<br><br>（人間でない）動物か何か沢山殺したものがナメクジに生れたものである。<br><br>干乾みたいにして殺したものの霊であり、硫黄などのこういうものの好きな霊である。<br><br> 祝詞を奏げてやる。<br><br>信仰に入り、言い聞かせるといい。<br><br>蛇などはよく人語が判る。<br><br>（S24. 8.11） 074 鳥の啼き声のみ発す―再生 二十歳の男子、鳥の啼き声しか云う事が出来ません。<br><br>それは鳥の霊が憑依したものでしょうか。<br><br>鳥の生れ変りでしょうか。<br><br> 鳥が祟ったもので、殺された鳥の生れ代りで、多くの鳥が一匹になって生れ替る。<br><br>普通の鳥の生れ代りと違う。<br><br>（S24. 6.19） 075 四、五歳より足立たぬ家 京都府何鹿郡豊里村のある家で、子供が生れると痙攣が起り、四、五歳から足が段々立たなくなってしまいます。<br><br>長男だけは漸く国民学校六年を卒えましたが、その後やはり足が立たなくなりました。<br><br>末子は本年十四歳の女子で、坐ったままよく前に倒れ、額を強く打ちますが、平気で痛がりません。<br><br>四人兄弟共現在は大便を「オカワ」で取っている状態です。<br><br>いかなる因縁でしょうか。<br><br> これはよほどの祟りである。<br><br> 足が立たぬため発育しないのであるが、オカワでとった習慣が残っている。<br><br> 祖霊が多くの人の足を害した罪で、足に祟っている。<br><br>狐、兎等、ワナで鼠とりのような調子で、動物をいくつも殺したものと思う。<br><br>足を動かなくして殺した、それが生れた子に祟っているのである。<br><br> 076 猟者の病気は治り難い 父の神経痛について――。<br><br> 前記のごとく父の神経痛は御浄霊により大分よくなりましたが、近頃は少々飽きたらしく、よく愚痴ばかりこぼします。<br><br>一ノ宮付近の疝気を治す観音様に封じて貰いたいと申しますが、私は御浄霊を信じております。<br><br>十年程前には猟が好きでした。<br><br>そのため多くの生物を殺したため、何かの怨霊に憑かれ、病気も治らず眼も片方見えなくなったのかと思います。<br><br>いかにしたらよいでしょうか。<br><br>御教え下さい。<br><br> 猟する人は、殺したものの霊が祟り、始末が悪い。<br><br>そのため普通の病気より治り難い。<br><br>一生懸命人助けする。<br><br>父が殺したものに対し自責する。<br><br>始終祝詞を奏げると、憑いてるのが早く浄まり、改心する。<br><br> 077 殺した動物死霊、怨みの浄化 四十歳の男、今年一月頃より眠ると恐ろしい夢を見て熟睡出来ません。<br><br>衰弱は加わり、四月十五日頃より鶏、牛、猫、赤児の死の苦しみをなし、一日置きに霊に悩まされております。<br><br>良い日は正常でありますが、少しでも眠ると忽ち霊憑りとなります。<br><br>右の原因と浄霊法とを御教示願います。<br><br> 殺したものの霊の怨みである。<br><br>光明如来様をお祭りした部屋へ寝るといい。<br><br>そして頭を光明如来様の近くへ置く。<br><br>常に祝詞を奏げる。<br><br>また、浄霊もいい。<br><br>すると怨みが浄化して治る。<br><br> 078 白子（白兎の怨み） 当年二十一歳の男子、生れつきの白子と云い、全身が真白にて、頭の上などは特に白く、目だけは赤く、太陽の出ている時は非常に眩しくて歩行困難であります。<br><br>祖父が猟人で、よく兎を取ったようですが、霊的でしょうか、薬毒でしょうか。<br><br> 白兎霊の祟りである。<br><br>兎は始終暗い所を好み、明るい時を嫌う。<br><br>普通の白子は白蛇の再生である。<br><br> 079 奇病発生不動信者の家（鳥霊の祟り） 未入信の者で御座いますが、先代より不動明王の先達を致しており、当人の親は昔種々行を積んだと申し、火の中へ入ったり剣の上を渡った等と聞いております。<br><br>息子である当主も、現在先達で御座います。<br><br>最近銃猟を致しておりましたが、その後急性心臓病になり、医療も効果なく危篤状態になりました所、御浄霊により一度は楽にさせて戴きましたが直ぐに悪化致し、全身の苦痛甚しく痛みは体中を移動しておりました。<br><br>三日三晩交替の御浄霊でも中々本当にはよくならず、不動明王の祟りではないかと思い、早速他の先達に依頼致し不動尊で言う「ザ」を立てて貰いました所、不動が浮きまして次のように申しました。<br><br>「何月何日何時に不動尊の使いに出した烏を射ち止め、一発で死なず三発も射ち、その烏が肺を打ち抜かれそのためにお前が今苦しんでいる。<br><br>神の用を致す者が生物を殺してよいか」と物凄い言葉で御座いました。<br><br>事実その通りの事があった由で御座います。<br><br>その後烏のお祭りを致してお詫びし、御浄霊を続けますと四日目に御守護を戴き良くなりましたが、今度はその妻が急に発狂し、御浄霊致しますと暴れ出し、また同時に側にいた信者も熱を出し危篤状態となりましたので、その母が御浄霊させて戴きまして翌日二人共良くなりました。<br><br>以前この家にて白狐を見た事があると言います。<br><br>不動明王と白狐とまた三人の妙な病気に何か霊的関係が御座いましょうか。<br><br>お伺い申し上げます。<br><br> 不動尊の信者にはこういう事が時々ある。<br><br>烏の霊が祟った訳である。<br><br> 発狂したりなどするのは、その家に罪穢が溜ってるからで、その隙へ邪神や邪霊が入ったものである。<br><br> 入信すれば解決する。<br><br>（S25. 2.12） 080 全身疣 三十八歳の未入信者、結婚後間もなく身体の一部に疣が出来、現在首から上、手首、足首の先は出来ておりませんが、全身に拡がって、その数幾千あるか判りません。<br><br>疣は固くなく軟かくフカフカしております。<br><br>何か霊的に関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> ひどいのはブラ下るのがある。<br><br>色は普通の皮膚の色であるとすれば蛙の霊の祟りであろう。<br><br>薬毒の場合は色が変っている。<br><br> 軽い疣は沢山ある。<br><br> 疣蛙とか、蟇も疣だらけである。<br><br>（S24.10.11） 081 全身疣無数 五十七、八歳の男子です。<br><br>全身疣のようなものが大は卵大位、小は小豆粒位のものが無数にあります。<br><br>誠に気味が悪うございます。<br><br>何か霊的なもので御座いましょうか。<br><br> よくある。<br><br>私は写真でみた事がある。<br><br>よほどの罪である。<br><br>怨みの執着（業）である。<br><br>強い霊的祟り、動物の怨みかもしれない。<br><br> 浄霊して光明如来様を拝ませると、怨みの霊の執着が減る。<br><br>身内の人が一生懸命人助けすると違う。<br><br>（S24. 2. 4） 082 悲鳴上げ仮死状態となる 謹しんで御伺い致します。<br><br>私の父（五十九歳）は去年三月飲酒中発病、医者にかかりましたが効果なく困り果てておりました所、観音様の御縁を頂き、昨年十月より浄霊を受け、十二月に御光を頂き、光明如来様もお祭り申し上げました。<br><br>その後経過も徐々に快方に向い喜んでおりました所、本年一月頃より夜中に苦しんで飛び起き、手を振り変な事を云うようになり、二月三日、昼の二時頃急に「何かがいる、何かがいる」と悲鳴を上げ、一、二分後に全く死の状態に入り、驚いて浄霊を行なった所、暫くして息を吹き返しました。<br><br>本当に有難うございました。<br><br>後で父の話によりますと、左脇腹で何かが暴れ、そして手先がぶつぶつに穴があくような感じがしたと申しております。<br><br>どういう訳でしょうか。<br><br>また、今後もそのような事があるでしょうか。<br><br> 手先に穴があくような事で死んだ霊で、左脇腹は狸である。<br><br>祖先に殺されたなどの因縁によって付け狙われたなどの事もある。<br><br> 083 黒霊に襲わる 夜床に入り未だ眠りつかぬ内に薄黒い塊あるいは人の形をしたものに床の上から体を押えられ、または首を締められたりすることが多く、お守りをかけると退散して朝まで眠ることが出来ます。<br><br>襲いかかる霊は何物でしょうか。<br><br>そしてこれはいかなる訳でしょうか。<br><br>また二人床を並べて寝て、一人だけが襲われて、他の一人から声をかけられると平常にかえります。<br><br>その訳も教えて頂きたい。<br><br> 黒い影は皆わるい邪神とか邪霊で、首を締めるなどは怨みである。<br><br>生霊の場合もあるが、大抵は死霊である。<br><br>信仰が進み罪が減ると霊もこういう事が出来なくなる。<br><br>（「 化人形 」お話） 黒いものが見えたら祝詞を奏げればよい。<br><br>変死や地縛の霊などは深刻である。<br><br> 084 押し付けられうなさる 左記の事項に付き御教示御願いします。<br><br> 眠りに付かんとする時、押し付けられんとするがごとくうなされて苦しむ人。<br><br> 霊が苦しめる。<br><br>（霊が来て押し付ける）（S24. 2.18） 085 祖母病気にする黒塊 動物霊か何か祖母さんを狙っていたものである。<br><br>黒とか赤は邪霊である。<br><br>白とか黄色は神様である。<br><br> 霊というものはふだん行動する時丸くなる 病気もこの霊がやっている。<br><br>（S24. 1.15） 086 黒霊に悩まさる 私はコロンビアの嘱託をしているものでございます。<br><br>夜半二時頃床につき、間もなく等身大の黒い人影に脅かされました。<br><br>寝る時は部屋の窓に鍵を掛けておいたのですが、塀を乗り越えて窓を開けて入り、同時に私にかぶさり、頭が電気にかかったようにしびれ、身体を締められ、口も利けなくなってしまいます。<br><br>記憶も全くなくなり、暫くして平常に復します。<br><br>十一月二十一日、横浜の並河教導所にて床につき、間もなく直径二尺位の丸い黒い玉が体に入り前記の状態になり、大先生に御守護をお願い致しますと益々体を強く締めて来ます。<br><br>私が作曲をしたり教修生を作ろうとしたりしますと特に強烈にまいります。<br><br>昨年の二月頃からこのような事が時々ございます。<br><br>右の理由を御教示御願い申し上げます。<br><br> 邪霊である。<br><br>邪霊は黒い人間の形――。<br><br>生霊と死霊とあり、邪魔が目的で来る。<br><br>信仰に関係したものを邪魔するのだから宗教に関係ある邪霊で、例えば親の信仰していたものが段々弱ってくるとか――。<br><br>早速御奉斎すれば、なくなるか弱くなる。<br><br> 087 夜半に苦しむチブス患者 先日のチブス患者、兄弟四人相次いで結核で亡くなっております。<br><br>今迄信仰していた日蓮宗の方でしつっこくお浄霊を反対します。<br><br>一家族目が覚めて観音様にお縋りしております。<br><br>夜半に苦しくなるのは死霊でしょうか。<br><br> しつこいのはすべて邪神である。<br><br>本当の正神はあっさりしている。<br><br>これで判別すべきである。<br><br>狐霊が祀ってくれと云うなら早く祀ってやった方がよい。<br><br>チブスの症状は夕方四時頃発熱し脈と熱は平行せず脈が低い。<br><br>チブスは腹部を浄霊すれば二、三回で癒る。<br><br>話を総合すると蛇の霊でしょう。<br><br>蛇の霊は逃げ廻る。<br><br>兄弟四人結核で亡くなったから、その誰か一人の霊でしょう。<br><br> rattail（注） 〔 御講話（S27年4月6日） 『御教え集』9号、昭和27(1952)年5月15日発行〕 『一番分かりやすいのは、邪神というものはしつこいんです。<br><br>で、神様ほどあっさりしているんです。<br><br>ですからクドクドしく一つ事を言ったりするのは、これは邪神と見て良いですね。<br><br>』
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Doenças de Origem Espiritual (Parte 4): Aflições Espirituais 2</h2>
 <p><strong>063 A questão da aflição pela divindade Konjin</strong></p>
@@ -175,5 +327,48 @@ function toggleLang(lang) {
 <p>Tudo o que é insistente provém de uma divindade maligna. As verdadeiras divindades são diretas e desapegadas. É por aí que se deve discernir. Se um espírito de raposa pede para ser cultuado, é melhor fazê-lo logo. Os sintomas da febre tifoide são: febre por volta das quatro da tarde, pulso e temperatura não são paralelos, com o pulso permanecendo baixo. A febre tifoide se cura com duas ou três sessões de Johrei no abdômen. Analisando o conjunto da história, deve ser um espírito de serpente. Os espíritos de serpente costumam fugir. Como os quatro irmãos morreram de tuberculose, deve ser o espírito de um deles.</p>
 <p>Nota: [Palestra (6 de abril de 1952), publicada na <em>Coletânea de Ensinamentos</em>, vol. 9, 15 de maio de 1952]
 <em>O modo mais fácil de identificar é que as divindades malignas são insistentes. Já as divindades superiores são muito desapegadas. Portanto, quando algo é dito de forma repetitiva e prolixa, pode-se considerar que é obra de uma divindade maligna.</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（四） ４ 063-087 祟り２ 063 金神の祟りという事 よく屋敷の中を修理したりしますと急に体が悪くなり、行者のような人に見て戴きますと、金神様の祟りですと申されますが、ほんとうにあるものでしょうか。<br/><br/>また、金神様はどういう目的で屋敷の中にいるのでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 金神は沢山いる。<br/><br/>一番の総統領、総帥は艮の金神様で、眷族は沢山いる。<br/><br/>それが金神になっている。<br/><br/>よく転んだり、躓いたりするのは艮神の祟りなりというが、これは種々な霊がやるので、龍神、狐霊の類で、家のどこかに憑依しているのが祟る。<br/><br/> 金神様は神であるから、そう祟るなどという事は当らぬ。<br/><br/>（S24. 1.14） 064 金神の祟り 金神様の祟り等と申し、御嶽教ではその除（よ）けを致します。<br/><br/>相当な重病人でもその除けを致します。<br/><br/>金神様の除け等が果して出来るもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 金神の祟りというのは狐か狸の類である。<br/><br/>御馳走を食いたいためにイタズラするのである、食物を上げて拝むから、金神除けという御嶽教は――。<br/><br/> 半分迷信である。<br/><br/>何にもせぬ方がよい。<br/><br/>何にもやらなければ先方も諦める。<br/><br/> 065 姫金神の祟り 私の村の某家（未信者）で工場を新築致しました所、子供が次々と三人死にました。<br/><br/>見てもらいますと、姫金神の祟りとの事で、八人殺さなければ済まないと申します。<br/><br/>姫金神様というのはいかなる神様でどうしたらこの家は救われるで御座居ましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 姫金神など何万もいる。<br/><br/>こういうのは蛇である。<br/><br/>工場敷地に何かある。<br/><br/> 066 赤蛇の怨み・執着、神と人霊の速度 赤い蛇は、人間が蛇になったものである。<br/><br/>（執着による）怨みの霊である。<br/><br/>奥さんの生命をとらなくちゃならぬと狙ったのである。<br/><br/>これはお浄めしても効果はない。<br/><br/>霊的でも効果のない場合はあるが、別の意になる。<br/><br/>夫が正当でない婦人関係のあった場合、その罪穢を贖罪すべく、浄化される。<br/><br/> 蛇を殺した祟りのものをやった事がある。<br/><br/>二十年位前、その人が始終胃がわるい。<br/><br/>その人の父が畑を耕作している時、蛇が真二つになった。<br/><br/>その霊が祟っている。<br/><br/>お腹をすると腹中を廻り、音がする。<br/><br/> 執着の強い霊は見える。<br/><br/>お岩のように非常に執着の強いために眼に見える。<br/><br/>執着が除れると、霊が稀薄になるから見えない。<br/><br/>偉い神様ほど稀薄で軽い。<br/><br/>上になるほど移動が早い。<br/><br/>霊の重いのは東京大阪間を三分位、修行を積むと一分位、普通の神は一秒位、最高の神は一瞬である。<br/><br/>普通の光より早い。<br/><br/>（S23） 067 臍の緒首に巻く（異常出産、蛇） 四歳になる子が生れる時に臍の緒が一結び結ばれて生れ、今年生れた子は首に五巻まいて浄霊の御蔭で生れましたが、何か因縁によるものでしょうか。<br/><br/> 因縁は蛇である。<br/><br/>蛇がアダしたのである。<br/><br/>信仰が深くなるに従い、そういう事はなくなる。<br/><br/> 068 蛇霊の処置 親類の人が十年前に私宅の屋敷蛇を殺して以来病人並びに死人が四年間に四人出ました。<br/><br/>困り果てて日蓮行者に見てもらったら蛇の怨みと判り、屋敷外に宮を作り祀ったらその後死人は出なくなりました。<br/><br/>今後どのようにしたら良いでしょうか。<br/><br/> 蛇は先祖で、それを殺したので怒った。<br/><br/>そのまま続けていたらよい。<br/><br/>信仰がある程度まで行ったら処分してもよい。<br/><br/>（その中人間に再生する） 光明如来様に、先に霊界へ行った龍神が一日も早く人間に生れるよう祈る。<br/><br/> 三年位祭って、その後やめてもよい。<br/><br/>（S24. 3.17） 069 眼病三代続く（蛇の祟り） 十九歳より今日迄眼病で苦しんでおりましたが、浄霊を受けてより良くなりました。<br/><br/>当家三代眼病が続きますが、いかなる訳でしょうか。<br/><br/> 三十六歳、蛇の祟りである。<br/><br/>蛇を殺すと頭を叩くんで眼を潰す。<br/><br/>故に憑ると眼がつむれない。<br/><br/>浄化なら三代続く事はない。<br/><br/>こういうのは蛇を祀ると直ちに治る事がある。<br/><br/>（S23.12.16） 070 結婚後死す兄弟（蛇の祟り） 私の兄弟は六人あったが世帯を持ってから次々に死んでいき、現在では私と姉の二人だけになりました。<br/><br/>この霊的原因をお教え下さい。<br/><br/>なお、法華教にてみて貰いましたら、父が仏壇の上にいた蛇を殺したその祟りとかいう事です。<br/><br/>そういえば兄は蛇々々と言いつつ死にました。<br/><br/> これは無論お父さんが殺した蛇の祟りである。<br/><br/>青大将はよく、仏様の近くへ寄りたがるものである。<br/><br/>また、祝詞を奏げると聞きに来るものである。<br/><br/> 祝詞を奏げ、幽世の大神様に「人間に生れ代ってくるよう」お願いしてやるとよい。<br/><br/> 071 唖続出の家（木龍祟り） 栃木県小塩江村小倉のある家にて次々唖で御座いますが、何か霊的関係が御座居ましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 木龍が祟っている。<br/><br/>桜も祟る。<br/><br/> 信仰で治す外はない。<br/><br/>（S24. 5.22） 072 兄弟で眼病、前方見えず、蛇の祟り解決の道 六人兄弟の中、長兄、四男、長女の三名が悪質の眼病で、その中四男は死亡しました。<br/><br/>長兄は二十五年前頃よりだんだん見えなくなり、視野が非常に小さく、前方は全く見えませんが横は人の顔ぐらい見えます。<br/><br/>長女は医者に全然かからず、やはり視野が小さく、針の穴に糸が通る外は見えません。<br/><br/>毎日御浄霊していますが、まだ変化ありません。<br/><br/>三十年位前、父が病気の時、病室の天井を大きな蛇が通っているのを見て恐れ、近所の子供を呼んで殺したそうです。<br/><br/> 蛇が怒ってそういう事をするのである 光明如来様の御部屋へ寝かすようにし、出来るだけ徳を積むと、蛇は救われる。<br/><br/>病気治しをするといい。<br/><br/> 073 蛞蝓多数蝋をなめる 福井市のある家で、毎夜十二時頃になると、ナメクジ五十匹位が出て、ローソク及びマッチの硫黄を全部食べてしまいます。<br/><br/>ナメクジの色も種々あり、いくら予防方法を講じても駄目との事で御座います。<br/><br/>何か霊的に障りでも御座いませんでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> ナメクジに何か霊が憑いている。<br/><br/>（人間でない）動物か何か沢山殺したものがナメクジに生れたものである。<br/><br/>干乾みたいにして殺したものの霊であり、硫黄などのこういうものの好きな霊である。<br/><br/> 祝詞を奏げてやる。<br/><br/>信仰に入り、言い聞かせるといい。<br/><br/>蛇などはよく人語が判る。<br/><br/>（S24. 8.11） 074 鳥の啼き声のみ発す―再生 二十歳の男子、鳥の啼き声しか云う事が出来ません。<br/><br/>それは鳥の霊が憑依したものでしょうか。<br/><br/>鳥の生れ変りでしょうか。<br/><br/> 鳥が祟ったもので、殺された鳥の生れ代りで、多くの鳥が一匹になって生れ替る。<br/><br/>普通の鳥の生れ代りと違う。<br/><br/>（S24. 6.19） 075 四、五歳より足立たぬ家 京都府何鹿郡豊里村のある家で、子供が生れると痙攣が起り、四、五歳から足が段々立たなくなってしまいます。<br/><br/>長男だけは漸く国民学校六年を卒えましたが、その後やはり足が立たなくなりました。<br/><br/>末子は本年十四歳の女子で、坐ったままよく前に倒れ、額を強く打ちますが、平気で痛がりません。<br/><br/>四人兄弟共現在は大便を「オカワ」で取っている状態です。<br/><br/>いかなる因縁でしょうか。<br/><br/> これはよほどの祟りである。<br/><br/> 足が立たぬため発育しないのであるが、オカワでとった習慣が残っている。<br/><br/> 祖霊が多くの人の足を害した罪で、足に祟っている。<br/><br/>狐、兎等、ワナで鼠とりのような調子で、動物をいくつも殺したものと思う。<br/><br/>足を動かなくして殺した、それが生れた子に祟っているのである。<br/><br/> 076 猟者の病気は治り難い 父の神経痛について――。<br/><br/> 前記のごとく父の神経痛は御浄霊により大分よくなりましたが、近頃は少々飽きたらしく、よく愚痴ばかりこぼします。<br/><br/>一ノ宮付近の疝気を治す観音様に封じて貰いたいと申しますが、私は御浄霊を信じております。<br/><br/>十年程前には猟が好きでした。<br/><br/>そのため多くの生物を殺したため、何かの怨霊に憑かれ、病気も治らず眼も片方見えなくなったのかと思います。<br/><br/>いかにしたらよいでしょうか。<br/><br/>御教え下さい。<br/><br/> 猟する人は、殺したものの霊が祟り、始末が悪い。<br/><br/>そのため普通の病気より治り難い。<br/><br/>一生懸命人助けする。<br/><br/>父が殺したものに対し自責する。<br/><br/>始終祝詞を奏げると、憑いてるのが早く浄まり、改心する。<br/><br/> 077 殺した動物死霊、怨みの浄化 四十歳の男、今年一月頃より眠ると恐ろしい夢を見て熟睡出来ません。<br/><br/>衰弱は加わり、四月十五日頃より鶏、牛、猫、赤児の死の苦しみをなし、一日置きに霊に悩まされております。<br/><br/>良い日は正常でありますが、少しでも眠ると忽ち霊憑りとなります。<br/><br/>右の原因と浄霊法とを御教示願います。<br/><br/> 殺したものの霊の怨みである。<br/><br/>光明如来様をお祭りした部屋へ寝るといい。<br/><br/>そして頭を光明如来様の近くへ置く。<br/><br/>常に祝詞を奏げる。<br/><br/>また、浄霊もいい。<br/><br/>すると怨みが浄化して治る。<br/><br/> 078 白子（白兎の怨み） 当年二十一歳の男子、生れつきの白子と云い、全身が真白にて、頭の上などは特に白く、目だけは赤く、太陽の出ている時は非常に眩しくて歩行困難であります。<br/><br/>祖父が猟人で、よく兎を取ったようですが、霊的でしょうか、薬毒でしょうか。<br/><br/> 白兎霊の祟りである。<br/><br/>兎は始終暗い所を好み、明るい時を嫌う。<br/><br/>普通の白子は白蛇の再生である。<br/><br/> 079 奇病発生不動信者の家（鳥霊の祟り） 未入信の者で御座いますが、先代より不動明王の先達を致しており、当人の親は昔種々行を積んだと申し、火の中へ入ったり剣の上を渡った等と聞いております。<br/><br/>息子である当主も、現在先達で御座います。<br/><br/>最近銃猟を致しておりましたが、その後急性心臓病になり、医療も効果なく危篤状態になりました所、御浄霊により一度は楽にさせて戴きましたが直ぐに悪化致し、全身の苦痛甚しく痛みは体中を移動しておりました。<br/><br/>三日三晩交替の御浄霊でも中々本当にはよくならず、不動明王の祟りではないかと思い、早速他の先達に依頼致し不動尊で言う「ザ」を立てて貰いました所、不動が浮きまして次のように申しました。<br/><br/>「何月何日何時に不動尊の使いに出した烏を射ち止め、一発で死なず三発も射ち、その烏が肺を打ち抜かれそのためにお前が今苦しんでいる。<br/><br/>神の用を致す者が生物を殺してよいか」と物凄い言葉で御座いました。<br/><br/>事実その通りの事があった由で御座います。<br/><br/>その後烏のお祭りを致してお詫びし、御浄霊を続けますと四日目に御守護を戴き良くなりましたが、今度はその妻が急に発狂し、御浄霊致しますと暴れ出し、また同時に側にいた信者も熱を出し危篤状態となりましたので、その母が御浄霊させて戴きまして翌日二人共良くなりました。<br/><br/>以前この家にて白狐を見た事があると言います。<br/><br/>不動明王と白狐とまた三人の妙な病気に何か霊的関係が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 不動尊の信者にはこういう事が時々ある。<br/><br/>烏の霊が祟った訳である。<br/><br/> 発狂したりなどするのは、その家に罪穢が溜ってるからで、その隙へ邪神や邪霊が入ったものである。<br/><br/> 入信すれば解決する。<br/><br/>（S25. 2.12） 080 全身疣 三十八歳の未入信者、結婚後間もなく身体の一部に疣が出来、現在首から上、手首、足首の先は出来ておりませんが、全身に拡がって、その数幾千あるか判りません。<br/><br/>疣は固くなく軟かくフカフカしております。<br/><br/>何か霊的に関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> ひどいのはブラ下るのがある。<br/><br/>色は普通の皮膚の色であるとすれば蛙の霊の祟りであろう。<br/><br/>薬毒の場合は色が変っている。<br/><br/> 軽い疣は沢山ある。<br/><br/> 疣蛙とか、蟇も疣だらけである。<br/><br/>（S24.10.11） 081 全身疣無数 五十七、八歳の男子です。<br/><br/>全身疣のようなものが大は卵大位、小は小豆粒位のものが無数にあります。<br/><br/>誠に気味が悪うございます。<br/><br/>何か霊的なもので御座いましょうか。<br/><br/> よくある。<br/><br/>私は写真でみた事がある。<br/><br/>よほどの罪である。<br/><br/>怨みの執着（業）である。<br/><br/>強い霊的祟り、動物の怨みかもしれない。<br/><br/> 浄霊して光明如来様を拝ませると、怨みの霊の執着が減る。<br/><br/>身内の人が一生懸命人助けすると違う。<br/><br/>（S24. 2. 4） 082 悲鳴上げ仮死状態となる 謹しんで御伺い致します。<br/><br/>私の父（五十九歳）は去年三月飲酒中発病、医者にかかりましたが効果なく困り果てておりました所、観音様の御縁を頂き、昨年十月より浄霊を受け、十二月に御光を頂き、光明如来様もお祭り申し上げました。<br/><br/>その後経過も徐々に快方に向い喜んでおりました所、本年一月頃より夜中に苦しんで飛び起き、手を振り変な事を云うようになり、二月三日、昼の二時頃急に「何かがいる、何かがいる」と悲鳴を上げ、一、二分後に全く死の状態に入り、驚いて浄霊を行なった所、暫くして息を吹き返しました。<br/><br/>本当に有難うございました。<br/><br/>後で父の話によりますと、左脇腹で何かが暴れ、そして手先がぶつぶつに穴があくような感じがしたと申しております。<br/><br/>どういう訳でしょうか。<br/><br/>また、今後もそのような事があるでしょうか。<br/><br/> 手先に穴があくような事で死んだ霊で、左脇腹は狸である。<br/><br/>祖先に殺されたなどの因縁によって付け狙われたなどの事もある。<br/><br/> 083 黒霊に襲わる 夜床に入り未だ眠りつかぬ内に薄黒い塊あるいは人の形をしたものに床の上から体を押えられ、または首を締められたりすることが多く、お守りをかけると退散して朝まで眠ることが出来ます。<br/><br/>襲いかかる霊は何物でしょうか。<br/><br/>そしてこれはいかなる訳でしょうか。<br/><br/>また二人床を並べて寝て、一人だけが襲われて、他の一人から声をかけられると平常にかえります。<br/><br/>その訳も教えて頂きたい。<br/><br/> 黒い影は皆わるい邪神とか邪霊で、首を締めるなどは怨みである。<br/><br/>生霊の場合もあるが、大抵は死霊である。<br/><br/>信仰が進み罪が減ると霊もこういう事が出来なくなる。<br/><br/>（「 化人形 」お話） 黒いものが見えたら祝詞を奏げればよい。<br/><br/>変死や地縛の霊などは深刻である。<br/><br/> 084 押し付けられうなさる 左記の事項に付き御教示御願いします。<br/><br/> 眠りに付かんとする時、押し付けられんとするがごとくうなされて苦しむ人。<br/><br/> 霊が苦しめる。<br/><br/>（霊が来て押し付ける）（S24. 2.18） 085 祖母病気にする黒塊 動物霊か何か祖母さんを狙っていたものである。<br/><br/>黒とか赤は邪霊である。<br/><br/>白とか黄色は神様である。<br/><br/> 霊というものはふだん行動する時丸くなる 病気もこの霊がやっている。<br/><br/>（S24. 1.15） 086 黒霊に悩まさる 私はコロンビアの嘱託をしているものでございます。<br/><br/>夜半二時頃床につき、間もなく等身大の黒い人影に脅かされました。<br/><br/>寝る時は部屋の窓に鍵を掛けておいたのですが、塀を乗り越えて窓を開けて入り、同時に私にかぶさり、頭が電気にかかったようにしびれ、身体を締められ、口も利けなくなってしまいます。<br/><br/>記憶も全くなくなり、暫くして平常に復します。<br/><br/>十一月二十一日、横浜の並河教導所にて床につき、間もなく直径二尺位の丸い黒い玉が体に入り前記の状態になり、大先生に御守護をお願い致しますと益々体を強く締めて来ます。<br/><br/>私が作曲をしたり教修生を作ろうとしたりしますと特に強烈にまいります。<br/><br/>昨年の二月頃からこのような事が時々ございます。<br/><br/>右の理由を御教示御願い申し上げます。<br/><br/> 邪霊である。<br/><br/>邪霊は黒い人間の形――。<br/><br/>生霊と死霊とあり、邪魔が目的で来る。<br/><br/>信仰に関係したものを邪魔するのだから宗教に関係ある邪霊で、例えば親の信仰していたものが段々弱ってくるとか――。<br/><br/>早速御奉斎すれば、なくなるか弱くなる。<br/><br/> 087 夜半に苦しむチブス患者 先日のチブス患者、兄弟四人相次いで結核で亡くなっております。<br/><br/>今迄信仰していた日蓮宗の方でしつっこくお浄霊を反対します。<br/><br/>一家族目が覚めて観音様にお縋りしております。<br/><br/>夜半に苦しくなるのは死霊でしょうか。<br/><br/> しつこいのはすべて邪神である。<br/><br/>本当の正神はあっさりしている。<br/><br/>これで判別すべきである。<br/><br/>狐霊が祀ってくれと云うなら早く祀ってやった方がよい。<br/><br/>チブスの症状は夕方四時頃発熱し脈と熱は平行せず脈が低い。<br/><br/>チブスは腹部を浄霊すれば二、三回で癒る。<br/><br/>話を総合すると蛇の霊でしょう。<br/><br/>蛇の霊は逃げ廻る。<br/><br/>兄弟四人結核で亡くなったから、その誰か一人の霊でしょう。<br/><br/> rattail（注） 〔 御講話（S27年4月6日） 『御教え集』9号、昭和27(1952)年5月15日発行〕 『一番分かりやすいのは、邪神というものはしつこいんです。<br/><br/>で、神様ほどあっさりしているんです。<br/><br/>ですからクドクドしく一つ事を言ったりするのは、これは邪神と見て良いですね。<br/><br/>』</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

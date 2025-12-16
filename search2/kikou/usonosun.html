@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>usonosun</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 嘘の寸言 井上茂登吉 『栄光』104号、昭和26(1951)年5月16日発行 明主様はある日つくづく仰せられていた。<br><br> 「今の世の中の人間は実に嘘をよくいう、アメリカなどは少いようだが、特に日本人は殆んど嘘つきといってよい、毎日訪問に来る客でも、全く嘘をつかぬ人は少い、一頃は私を誤魔化そうとするものが毎日来たものである、ひどいのは私をまるでお人好しのお大名のようになめ切つて巧くハメ込もうとして、誠しやかに見え透いた嘘を並べるので呆れてしまう、私にはどんな巧い嘘でも分り過ぎる位判るんで、いつも程よくあしらってはボカしてしまうので終に諦めてしまうが、寸鉄で「あまくない者を甘く見るあまさ」と言ったのはそれである、そういう人間は嘘をつくのが習性になっていて、平気で嘘を言うし、又自分で嘘を言ってる事さえ気がついていない、中には自分の嘘に陶酔している者もある、私の部下の中でも、よくありのまま答えればすぐに出来る筈の返事を言い渋っている事があるがこれは「どういう風に誤魔化せば叱られずに済むか」と言訳を考えているからである、私はそういう場合よく言ってやる「嘘を言うのはやめよ、お前達に誤魔化されるようで、世界人類の救済が出来ると思うか」と――（中略） 私が御側にいる頃、屡々経験したが、右様な場合、正直にお答えする時は、可成りひどい誤りでも、意外な程お尤めはなく御慈悲の御心を泌々感ずるが、言い逃れの態度は絶対に許されぬ、言訳をすればする程益々立場に窮してお叱りを戴く結果となる、それは誤りの粉飾に過ぎぬからだ、間違いはお許しになるが、偽りは徹底的になくさしめんとせられる、有難い思召しからである―― 明主様は又言葉をお続けになる。<br><br> 「最もひどいのは神様を誤魔化そうとする極悪な奴である、もし神様が誤魔化せるとすれば、人間が神様より上だという事になる、どんなに巧く誤魔化しても嘘は必ずバレるもので、そういうすぐにバレるような嘘で固めて成功すると思う所に、彼等の頭は大きい欠陥がある、散々努力して築き上げては一挙に崩れてゆく、そんな精出して笊へ水汲むような事を始終繰返している悪人の愚さは、言うべき言葉もない」と。<br><br> 叙上の御言葉を承わって現代社会の真相をはっきりと判らしていただけたような気がした、よく自分に聞いてみると、熱心な信仰をしていると思っている吾々の心にさえ必要な嘘以外の多分に偽りの分子がある事を否定出来ない、時に御神書に照す時、自ら嘘と思わぬ嘘も多々発見する、せめて自分から嘘を無くそうと努めて来たが、抜けそうでいてなかなか抜けないものである、明主様はよく「嘘をつくと頭が曇るから、頭の働きが悪くなる」と仰せられたが、自分の頭の悪さから考えると、未だ余程嘘があるのかと思うが一面又祖先伝来のものでもあろう。<br><br> 由来日本歴史には権謀術数に織りなされた、支配者の歴史はあっても、大衆の歴史は殆んどないといはれるが、長い間の封建制の桎梏の中で、庶民もまた保身の道を身に着けて来た、それがいわゆる伝承の処世術即ち嘘吐き術であったろう、そしてそれは遂には尊重さえされて来た結果一つの国民性となって、今もなお陶汰されずにいる所か、文化と共に進歩悪質化して行きつつあるのではあるまいか、誰が考えても今の世の中は悪質な嘘で囲まれ、固められていて油断もスキもあったものではない、勿論必要な嘘もあるが、醜悪を蔽わんとする本質的な嘘はいよいよ倍々悪を醸成している。<br><br> 又文化の面においても人間の力で解決のつかぬ事も解決出来たように見せかける嘘の、恐るべき偉大な進歩を遂げつつあるものもあるし、その嘘に気づかぬ現代人の頭脳も又嘘で固っている、全く三千誤魔化し世界とでもいいたいのである、もし嘘のない世界、否せめて嘘より真実が過半を占めたとしても、この世の中はどんなに明るく住みよいものになるであろうか、それだけでも天国といえる、本来住みよく明るい気楽な世を人間の嘘がわざわざ暗く、住みにくい憂世にしている訳で、何という馬鹿げた事であろう、そういう一切の嘘を明かにし、真実の世を造らるるのが明主様の御本願の基本であり、本教の仕事である。<br><br> 明主様は、実に驚く程正直な御方で、人の言う事は何でもそのままお受けになるが、それでいて絶対に誤魔化す事は出来ぬ、それは御自身光明を放射され給うているのは勿論、正直に徹せられた鏡の如き真そのものの御心境は、正邪、善悪、真偽を直ちに映破されるからである、嘘で充満した汚い社会を、大愛と絶対力をもって浄めらるるは、全く想像もつかぬ御事であると思うのである 新興宗教は、とかくユスリタカリの如き嘘つき業者が蝟集し易いものである、何と言っても見えざる神を信ずる程の人は邪念薄く人の言葉を信じ易い嫌いがあるそこが彼等の乗じ易しとする所であろう、本教とてもかかる人種の策謀によって思わぬ被害を蒙ったが、本教においては他に類例を見ぬ程大仕掛深刻で、従来幾多の危機に見舞われたその深慮遠謀と策の巧緻なる、まことに心胆を寒からしむるものがあったが、ことごとく明主様の御眼力に見破られるのである。<br><br>しかし彼等の妨害は常に神業の新たな展開を結果し、神の御眼には必要の為利用さるる具である事を知る時、経綸の深さに讃歎久しうする次第である。<br><br> 過去において如何なる望みも成し遂げ来った、悪魔もただ一つ明主様の放たれる御光の力は如何とも抗し得ぬ空前の脅威である。<br><br> 人類のすべてを動員し、偽瞞し、混乱し、破壊に導いた大詐偽師悪魔の横行に艮（とどめ）さす、神の大御光の出現し給うた以上、この世の偽りはここに終息し、真実の行わるる世の成就するは必然の理である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Breves Palavras sobre a Falsidade</h2>
 <p>Certo dia, Meishu-Sama comentava com ar pensativo:</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Todavia, suas ações obstrutivas invariavelmente resultaram em um novo avanço para a Obra Divina. Quando compreendemos que, aos olhos de Deus, eles não passam de instrumentos utilizados para um propósito maior, só nos resta admirar, por longo tempo, a profundidade do Plano Divino.</p>
 <p>O espírito maligno, que no passado logrou concretizar todos os seus desígnios, depara-se agora com uma ameaça sem precedentes, contra a qual não pode opor resistência: o poder da Luz emanada por Meishu-Sama.</p>
 <p>O grande demônio impostor, que mobilizou, iludiu, semeou o caos e conduziu a humanidade à ruína, encontra agora o seu fim. Uma vez que a sublime Luz de Deus se manifestou, é uma consequência inevitável que as falsidades deste mundo cheguem ao seu termo, e que a edificação de uma era de verdade se concretize.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 嘘の寸言 井上茂登吉 『栄光』104号、昭和26(1951)年5月16日発行 明主様はある日つくづく仰せられていた。<br/><br/> 「今の世の中の人間は実に嘘をよくいう、アメリカなどは少いようだが、特に日本人は殆んど嘘つきといってよい、毎日訪問に来る客でも、全く嘘をつかぬ人は少い、一頃は私を誤魔化そうとするものが毎日来たものである、ひどいのは私をまるでお人好しのお大名のようになめ切つて巧くハメ込もうとして、誠しやかに見え透いた嘘を並べるので呆れてしまう、私にはどんな巧い嘘でも分り過ぎる位判るんで、いつも程よくあしらってはボカしてしまうので終に諦めてしまうが、寸鉄で「あまくない者を甘く見るあまさ」と言ったのはそれである、そういう人間は嘘をつくのが習性になっていて、平気で嘘を言うし、又自分で嘘を言ってる事さえ気がついていない、中には自分の嘘に陶酔している者もある、私の部下の中でも、よくありのまま答えればすぐに出来る筈の返事を言い渋っている事があるがこれは「どういう風に誤魔化せば叱られずに済むか」と言訳を考えているからである、私はそういう場合よく言ってやる「嘘を言うのはやめよ、お前達に誤魔化されるようで、世界人類の救済が出来ると思うか」と――（中略） 私が御側にいる頃、屡々経験したが、右様な場合、正直にお答えする時は、可成りひどい誤りでも、意外な程お尤めはなく御慈悲の御心を泌々感ずるが、言い逃れの態度は絶対に許されぬ、言訳をすればする程益々立場に窮してお叱りを戴く結果となる、それは誤りの粉飾に過ぎぬからだ、間違いはお許しになるが、偽りは徹底的になくさしめんとせられる、有難い思召しからである―― 明主様は又言葉をお続けになる。<br/><br/> 「最もひどいのは神様を誤魔化そうとする極悪な奴である、もし神様が誤魔化せるとすれば、人間が神様より上だという事になる、どんなに巧く誤魔化しても嘘は必ずバレるもので、そういうすぐにバレるような嘘で固めて成功すると思う所に、彼等の頭は大きい欠陥がある、散々努力して築き上げては一挙に崩れてゆく、そんな精出して笊へ水汲むような事を始終繰返している悪人の愚さは、言うべき言葉もない」と。<br/><br/> 叙上の御言葉を承わって現代社会の真相をはっきりと判らしていただけたような気がした、よく自分に聞いてみると、熱心な信仰をしていると思っている吾々の心にさえ必要な嘘以外の多分に偽りの分子がある事を否定出来ない、時に御神書に照す時、自ら嘘と思わぬ嘘も多々発見する、せめて自分から嘘を無くそうと努めて来たが、抜けそうでいてなかなか抜けないものである、明主様はよく「嘘をつくと頭が曇るから、頭の働きが悪くなる」と仰せられたが、自分の頭の悪さから考えると、未だ余程嘘があるのかと思うが一面又祖先伝来のものでもあろう。<br/><br/> 由来日本歴史には権謀術数に織りなされた、支配者の歴史はあっても、大衆の歴史は殆んどないといはれるが、長い間の封建制の桎梏の中で、庶民もまた保身の道を身に着けて来た、それがいわゆる伝承の処世術即ち嘘吐き術であったろう、そしてそれは遂には尊重さえされて来た結果一つの国民性となって、今もなお陶汰されずにいる所か、文化と共に進歩悪質化して行きつつあるのではあるまいか、誰が考えても今の世の中は悪質な嘘で囲まれ、固められていて油断もスキもあったものではない、勿論必要な嘘もあるが、醜悪を蔽わんとする本質的な嘘はいよいよ倍々悪を醸成している。<br/><br/> 又文化の面においても人間の力で解決のつかぬ事も解決出来たように見せかける嘘の、恐るべき偉大な進歩を遂げつつあるものもあるし、その嘘に気づかぬ現代人の頭脳も又嘘で固っている、全く三千誤魔化し世界とでもいいたいのである、もし嘘のない世界、否せめて嘘より真実が過半を占めたとしても、この世の中はどんなに明るく住みよいものになるであろうか、それだけでも天国といえる、本来住みよく明るい気楽な世を人間の嘘がわざわざ暗く、住みにくい憂世にしている訳で、何という馬鹿げた事であろう、そういう一切の嘘を明かにし、真実の世を造らるるのが明主様の御本願の基本であり、本教の仕事である。<br/><br/> 明主様は、実に驚く程正直な御方で、人の言う事は何でもそのままお受けになるが、それでいて絶対に誤魔化す事は出来ぬ、それは御自身光明を放射され給うているのは勿論、正直に徹せられた鏡の如き真そのものの御心境は、正邪、善悪、真偽を直ちに映破されるからである、嘘で充満した汚い社会を、大愛と絶対力をもって浄めらるるは、全く想像もつかぬ御事であると思うのである 新興宗教は、とかくユスリタカリの如き嘘つき業者が蝟集し易いものである、何と言っても見えざる神を信ずる程の人は邪念薄く人の言葉を信じ易い嫌いがあるそこが彼等の乗じ易しとする所であろう、本教とてもかかる人種の策謀によって思わぬ被害を蒙ったが、本教においては他に類例を見ぬ程大仕掛深刻で、従来幾多の危機に見舞われたその深慮遠謀と策の巧緻なる、まことに心胆を寒からしむるものがあったが、ことごとく明主様の御眼力に見破られるのである。<br/><br/>しかし彼等の妨害は常に神業の新たな展開を結果し、神の御眼には必要の為利用さるる具である事を知る時、経綸の深さに讃歎久しうする次第である。<br/><br/> 過去において如何なる望みも成し遂げ来った、悪魔もただ一つ明主様の放たれる御光の力は如何とも抗し得ぬ空前の脅威である。<br/><br/> 人類のすべてを動員し、偽瞞し、混乱し、破壊に導いた大詐偽師悪魔の横行に艮（とどめ）さす、神の大御光の出現し給うた以上、この世の偽りはここに終息し、真実の行わるる世の成就するは必然の理である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

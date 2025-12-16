@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>saij2024</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ３ 024-040 大黒・恵比須 024 大黒様・恵比須の併祀 御神前には大黒様だけをお祭りすれば宜しいのでしょうか。<br><br>エビス様もあわせてお祭りしている方もあるようですが、どちらが宜しいでしょうか。<br><br>お伺い申し上げます。<br><br> 本当は両方の方がよい。<br><br>恵比須だけではいけない。<br><br>大黒だけならよい。<br><br>（S *.11.23） rattail（注） 〔 御光話（S24年11・12月） 『御光話録』16号、昭和25(1950)年1月20日発行〕 ――ふつうは大黒様だけをお祀りしておりますが、恵比寿様もお祀りいたすべきでしょうか。<br><br> 『そりゃあ、両方お祀りするのが本当ですよ。<br><br>つまりこれは夫婦ですからね。<br><br>大黒様は木槌を持ってますが、あれはツチの宝を振り出すって働きです。<br><br>恵比寿様のほうは海の幸です。<br><br>だからこれは両方が本当ですよ。<br><br>しかし、場合によっては大黒様だけでもいいですがね。<br><br>けど、恵比寿様だけではいけませんね。<br><br>なぜかって言えば、金銀の財宝を授けるのは大黒様の受け持ちですからね。<br><br>だから、紙幣なんかも大黒様のほうが合うんです。<br><br>』 025 大黒・恵比須の祭り 俗に恵比須、大黒と申されますが、よく大黒様だけお祀りされますが恵比須様はお祀りしなくてもよろしいのでしょうか。<br><br> 本当は両方祀った方がよいが、場合によって大黒様だけでよい。<br><br>恵比須だけではいけない。<br><br>大黒様が主人なら、恵比須様は妻君という訳である。<br><br> 026 恵比須講 十月二十日、及一月二十日に行われております恵比須講にはいかなる意味が御座居ますのでしょうか。<br><br> あまり関心がないから知らぬが、恵比須は海の幸、大黒は陸の幸を表わしている。<br><br>（S23.12. 2） 027 三面六臂の大黒様 三面六臂の大黒様はどういういわれで御座いますでしょうか。<br><br> 観音様が大黒様に化身する事があるが、それである。<br><br>ちょっと観音様の感じである。<br><br> 028 蓮上と俵上の大黒 蓮の実の上におられる大黒様と、米俵の上におられる大黒様と御座いますが、いかなる相違が御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 蓮の葉の上に乗るのは扱いが良過ぎる。<br><br>印度では相当の位であるから、悪くはないが、米俵は相当している。<br><br>主食の御利益を戴く。<br><br>（S24. 7.21） 029 大黒の槌・袋・俵 大黒様の槌、袋、俵はどんな意味がありますか、また俵の状態が色々ありますがどれが正しいのですか。<br><br> 槌は小槌だが、地面から出る宝という意味にもなる。<br><br>エビスは海幸、大黒は陸の幸である。<br><br>袋は、種々な宝物が入っている訳である。<br><br>俵は米俵で、主食をもっている。<br><br>俵の真中へ宝珠の玉がついたのや種々あるが、これは彫刻する人の頭で考えたものである。<br><br>俵に風呂敷を掛けたのや、直に乗っているのや、槌を振ってるのも、持っているのもあるし、足を上げているのも種々あるが、作者の考えによってやったものである。<br><br>また俵は一つのも二つのも三つのもある。<br><br>（S23.10.27） 030 金の大黒様 昭和二十年家内六人御教修を戴き、光明如来様をお祀りさせて頂きました家庭で御座います。<br><br>昨年末弟二人に御教修をいただかせたく御礼の用意のため屋敷内にある樫の木十数本を切り倒しましたが、その中には伐ってはならぬと言われている大木もございました。<br><br>伐ります時樵夫の一人が手に負傷し、運ぶ時傍の部落の道具屋のトタン張りの屋根をつきぬけてコンクリートの橋を割ってしまいました。<br><br>これは代りの木を植えておわび致しました方がよろしゅう御座いましょうか、お伺い申し上げます。<br><br>また入信前父が金の大黒様を集めて信仰しておりましたが、入信後は一まとめにしてしまってしまいました。<br><br>未だ御神前には大黒様をお祀りしてありません。<br><br>その時より家庭の経済状態が悪くなったと申しておりますが前の大黒様はそのままでもよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 大黒様は、本当は木がよい。<br><br>金は嘘で、金は観音様だけならいい。<br><br>外のものはよすぎる。<br><br> 木の大黒様を代りに祭るとよい。<br><br>（S24.11. 2） 031 大黒様の顔 大黒様の彫刻に上手、下手が随分ありますが、御開眼を頂けばお働きには変りは御座居ませんでしょうか。<br><br>また口を開いて笑っているのは余りよくないと言う説がありますがどうで御座居ましょうか。<br><br> 大黒様は笑ったのを選ぶべきだ、口を開けてるのは江戸時代のもので、現代のものは口を塞いでる、中には泣いてるのや、苦悶してるようなのなどある。<br><br>これらは貧乏大黒である。<br><br>（S25. 2. 8） 032 大黒様の顎髯 彫刻師により大黒天神様に顎髯の有るのと無いのがありますがいずれが正しいのでしょうか御伺い申し上げます。<br><br> 正しいとか正しくないとかではない。<br><br>顎髯は殆どある。<br><br>あった方が大黒様の感じが出る。<br><br>（S24. 6.25） 033 種々な大黒様の姿 私宅に大黒様二体御祭りしています。<br><br>槌を持たれたのと、手を握られたのと御座います。<br><br>いずれも御開眼を頂いています。<br><br>手を握った大黒様の御働きを御教示下さい。<br><br> 手が三本ずつ出ているのは如意輪観音様の化身である。<br><br>手を握っているのは、これから袋を開けるのであろう。<br><br>別に大して意味はない。<br><br>色々ある。<br><br>笑ってるのもあれば笑わぬのもある。<br><br>頭巾を被っているのや、烏帽子のものもある。<br><br>（S25. 1.17） 034 大黒様の槌の正常 大黒様の槌を振り上げているのといないのと、どちらが正しいか。<br><br> 槌をふり上げるのが本当だが、彫刻師によって勝手にやっている。<br><br>しかし、どっちでもよい。<br><br> 035 大黒様の疵と譲渡 私がいくつも御開眼をして頂きました御大黒様の中には、色々の場所に瑕があったのはありますが、その中で鼻の両側より額にかけて細く割目の出来たのがあり、場所が場所なので特に気になります。<br><br>これは何か訳があるので御座いましょうか。<br><br>またこのようになったのは天然物だからなんでもないからぜひお譲り願いたい、と言う方がありますが御譲して良いものでしょうか、あわせて御教示下さい。<br><br> 譲ってもよい。<br><br> 割目は気になり、醜いようなのはいけない。<br><br>うめて治すとか、新規にする。<br><br>（S24. 7.27） 036 大黒様剥色の直し 大黒様の表面の塗ったものが、剥げて変色している個所があるのですが、同じ色に塗り直して宜しいでしょうか。<br><br> 塗り治した方がよい。<br><br> 037 大黒様の空洞とヒビ 木彫の大黒様にヒビの入らぬように胴体の中をくり抜いて、空洞を作る方法が御座いますが、大黒様の御働きに差支えはないもので御座いましょうか。<br><br>また御開眼後にヒビの入った大黒様を修繕致します場合には、いかような作法で致しましたら宜しゅう御座いましょうか、御教えを御願い申し上げます。<br><br> 空洞を作っても差支えない。<br><br>ヒビが入ったら埋めてやるとよい。<br><br>（S25. 2.11） 038 故人信仰の大黒天の処置 二十年程前より姑様が大黒様を信仰し、五年前にその姑が亡くなりましてより不幸が続きました。<br><br>今では光明如来様をお祭りして明るく暮しております。<br><br>さて右の大黒様ですが、どういう風に御取扱いしたらよいでしょうか。<br><br> 結構である。<br><br>光明如来様の向って右の方へ台の上に乗せて安置する。<br><br>そして祭日には大黒様も共にお祭りする。<br><br>ずっと簡単でよい。<br><br>毎礼拝の時、お叩頭をする。<br><br>そうすれば、こういう大黒様も霊があるから、姑も大黒様も喜ぶ。<br><br>（S24. 3.17） 039 古刀と大黒様の処置 ある熱心な信者の家で御座いますが、本年六十歳の母親が二十三歳の時リョウマチを患い医療で思わしくなくある行者にみてもらいましたところ、古井戸（現在埋まっております）の中に刃物が入っていてそのためだと申し、その処置として古刀と大黒様を天照大神様の前へお祀りすればよいと申し、その通り致しましたところ、いつの間にか病気が治りました。<br><br>入信させて戴きまして右の古刀と大黒様が気になりますのでどう処分致しましたら宜しゅう御座いましょうか。<br><br>お伺い申し上げます。<br><br> 処分しなくていい。<br><br>二、三年経ってから御礼を言って処置すればよい。<br><br>（S23. 5. 2） 040 神棚の撤去 私の家では昔から中央北の方に神棚を設けて恵比須大黒様を御祭りしてありましたが、その中の一番大きい一対（三寸五分位）のを弟に譲りました。<br><br>その後神棚には一、二寸位のがまだ五、六体あります。<br><br>神棚を取り除きたく存じますがいかがなもので御座いましょうか。<br><br>また残った大黒様の処置等どう致したら宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 神棚は取除いてもいい。<br><br>小さい台に乗せておいていい。<br><br> 光明如来様の前か、近くの棚へ飾っておく。<br><br>（S25. 5. 5）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Daikoku e Ebisu</h2>
 <h3>024. A Prática de Reverenciar Daikoku e Ebisu Juntos</h3>
@@ -146,5 +298,48 @@ function toggleLang(lang) {
 <h3>040. A Remoção do Altar Familiar</h3>
 <p><strong>Pergunta:</strong> Em minha casa, desde tempos antigos, temos um altar familiar no centro, ao norte, onde cultuamos o Sr. Ebisu e o Sr. Daikoku. Dentre as imagens, cedi o maior par (de cerca de 10,5 cm) ao meu irmão mais novo. No altar, ainda restam cinco ou seis imagens menores, de três a seis centímetros. Desejo remover o altar. Qual seria o procedimento correto? E o que devo fazer com as imagens restantes do Sr. Daikoku?</p>
 <p><strong>Meishu-Sama:</strong> O altar familiar pode ser removido. As imagens podem ser dispostas em uma pequena base. Acomode-as em frente à imagem de Komyo Nyorai-Sama ou em uma prateleira próxima.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 祭事篇 第二篇 ３ 024-040 大黒・恵比須 024 大黒様・恵比須の併祀 御神前には大黒様だけをお祭りすれば宜しいのでしょうか。<br/><br/>エビス様もあわせてお祭りしている方もあるようですが、どちらが宜しいでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> 本当は両方の方がよい。<br/><br/>恵比須だけではいけない。<br/><br/>大黒だけならよい。<br/><br/>（S *.11.23） rattail（注） 〔 御光話（S24年11・12月） 『御光話録』16号、昭和25(1950)年1月20日発行〕 ――ふつうは大黒様だけをお祀りしておりますが、恵比寿様もお祀りいたすべきでしょうか。<br/><br/> 『そりゃあ、両方お祀りするのが本当ですよ。<br/><br/>つまりこれは夫婦ですからね。<br/><br/>大黒様は木槌を持ってますが、あれはツチの宝を振り出すって働きです。<br/><br/>恵比寿様のほうは海の幸です。<br/><br/>だからこれは両方が本当ですよ。<br/><br/>しかし、場合によっては大黒様だけでもいいですがね。<br/><br/>けど、恵比寿様だけではいけませんね。<br/><br/>なぜかって言えば、金銀の財宝を授けるのは大黒様の受け持ちですからね。<br/><br/>だから、紙幣なんかも大黒様のほうが合うんです。<br/><br/>』 025 大黒・恵比須の祭り 俗に恵比須、大黒と申されますが、よく大黒様だけお祀りされますが恵比須様はお祀りしなくてもよろしいのでしょうか。<br/><br/> 本当は両方祀った方がよいが、場合によって大黒様だけでよい。<br/><br/>恵比須だけではいけない。<br/><br/>大黒様が主人なら、恵比須様は妻君という訳である。<br/><br/> 026 恵比須講 十月二十日、及一月二十日に行われております恵比須講にはいかなる意味が御座居ますのでしょうか。<br/><br/> あまり関心がないから知らぬが、恵比須は海の幸、大黒は陸の幸を表わしている。<br/><br/>（S23.12. 2） 027 三面六臂の大黒様 三面六臂の大黒様はどういういわれで御座いますでしょうか。<br/><br/> 観音様が大黒様に化身する事があるが、それである。<br/><br/>ちょっと観音様の感じである。<br/><br/> 028 蓮上と俵上の大黒 蓮の実の上におられる大黒様と、米俵の上におられる大黒様と御座いますが、いかなる相違が御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 蓮の葉の上に乗るのは扱いが良過ぎる。<br/><br/>印度では相当の位であるから、悪くはないが、米俵は相当している。<br/><br/>主食の御利益を戴く。<br/><br/>（S24. 7.21） 029 大黒の槌・袋・俵 大黒様の槌、袋、俵はどんな意味がありますか、また俵の状態が色々ありますがどれが正しいのですか。<br/><br/> 槌は小槌だが、地面から出る宝という意味にもなる。<br/><br/>エビスは海幸、大黒は陸の幸である。<br/><br/>袋は、種々な宝物が入っている訳である。<br/><br/>俵は米俵で、主食をもっている。<br/><br/>俵の真中へ宝珠の玉がついたのや種々あるが、これは彫刻する人の頭で考えたものである。<br/><br/>俵に風呂敷を掛けたのや、直に乗っているのや、槌を振ってるのも、持っているのもあるし、足を上げているのも種々あるが、作者の考えによってやったものである。<br/><br/>また俵は一つのも二つのも三つのもある。<br/><br/>（S23.10.27） 030 金の大黒様 昭和二十年家内六人御教修を戴き、光明如来様をお祀りさせて頂きました家庭で御座います。<br/><br/>昨年末弟二人に御教修をいただかせたく御礼の用意のため屋敷内にある樫の木十数本を切り倒しましたが、その中には伐ってはならぬと言われている大木もございました。<br/><br/>伐ります時樵夫の一人が手に負傷し、運ぶ時傍の部落の道具屋のトタン張りの屋根をつきぬけてコンクリートの橋を割ってしまいました。<br/><br/>これは代りの木を植えておわび致しました方がよろしゅう御座いましょうか、お伺い申し上げます。<br/><br/>また入信前父が金の大黒様を集めて信仰しておりましたが、入信後は一まとめにしてしまってしまいました。<br/><br/>未だ御神前には大黒様をお祀りしてありません。<br/><br/>その時より家庭の経済状態が悪くなったと申しておりますが前の大黒様はそのままでもよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 大黒様は、本当は木がよい。<br/><br/>金は嘘で、金は観音様だけならいい。<br/><br/>外のものはよすぎる。<br/><br/> 木の大黒様を代りに祭るとよい。<br/><br/>（S24.11. 2） 031 大黒様の顔 大黒様の彫刻に上手、下手が随分ありますが、御開眼を頂けばお働きには変りは御座居ませんでしょうか。<br/><br/>また口を開いて笑っているのは余りよくないと言う説がありますがどうで御座居ましょうか。<br/><br/> 大黒様は笑ったのを選ぶべきだ、口を開けてるのは江戸時代のもので、現代のものは口を塞いでる、中には泣いてるのや、苦悶してるようなのなどある。<br/><br/>これらは貧乏大黒である。<br/><br/>（S25. 2. 8） 032 大黒様の顎髯 彫刻師により大黒天神様に顎髯の有るのと無いのがありますがいずれが正しいのでしょうか御伺い申し上げます。<br/><br/> 正しいとか正しくないとかではない。<br/><br/>顎髯は殆どある。<br/><br/>あった方が大黒様の感じが出る。<br/><br/>（S24. 6.25） 033 種々な大黒様の姿 私宅に大黒様二体御祭りしています。<br/><br/>槌を持たれたのと、手を握られたのと御座います。<br/><br/>いずれも御開眼を頂いています。<br/><br/>手を握った大黒様の御働きを御教示下さい。<br/><br/> 手が三本ずつ出ているのは如意輪観音様の化身である。<br/><br/>手を握っているのは、これから袋を開けるのであろう。<br/><br/>別に大して意味はない。<br/><br/>色々ある。<br/><br/>笑ってるのもあれば笑わぬのもある。<br/><br/>頭巾を被っているのや、烏帽子のものもある。<br/><br/>（S25. 1.17） 034 大黒様の槌の正常 大黒様の槌を振り上げているのといないのと、どちらが正しいか。<br/><br/> 槌をふり上げるのが本当だが、彫刻師によって勝手にやっている。<br/><br/>しかし、どっちでもよい。<br/><br/> 035 大黒様の疵と譲渡 私がいくつも御開眼をして頂きました御大黒様の中には、色々の場所に瑕があったのはありますが、その中で鼻の両側より額にかけて細く割目の出来たのがあり、場所が場所なので特に気になります。<br/><br/>これは何か訳があるので御座いましょうか。<br/><br/>またこのようになったのは天然物だからなんでもないからぜひお譲り願いたい、と言う方がありますが御譲して良いものでしょうか、あわせて御教示下さい。<br/><br/> 譲ってもよい。<br/><br/> 割目は気になり、醜いようなのはいけない。<br/><br/>うめて治すとか、新規にする。<br/><br/>（S24. 7.27） 036 大黒様剥色の直し 大黒様の表面の塗ったものが、剥げて変色している個所があるのですが、同じ色に塗り直して宜しいでしょうか。<br/><br/> 塗り治した方がよい。<br/><br/> 037 大黒様の空洞とヒビ 木彫の大黒様にヒビの入らぬように胴体の中をくり抜いて、空洞を作る方法が御座いますが、大黒様の御働きに差支えはないもので御座いましょうか。<br/><br/>また御開眼後にヒビの入った大黒様を修繕致します場合には、いかような作法で致しましたら宜しゅう御座いましょうか、御教えを御願い申し上げます。<br/><br/> 空洞を作っても差支えない。<br/><br/>ヒビが入ったら埋めてやるとよい。<br/><br/>（S25. 2.11） 038 故人信仰の大黒天の処置 二十年程前より姑様が大黒様を信仰し、五年前にその姑が亡くなりましてより不幸が続きました。<br/><br/>今では光明如来様をお祭りして明るく暮しております。<br/><br/>さて右の大黒様ですが、どういう風に御取扱いしたらよいでしょうか。<br/><br/> 結構である。<br/><br/>光明如来様の向って右の方へ台の上に乗せて安置する。<br/><br/>そして祭日には大黒様も共にお祭りする。<br/><br/>ずっと簡単でよい。<br/><br/>毎礼拝の時、お叩頭をする。<br/><br/>そうすれば、こういう大黒様も霊があるから、姑も大黒様も喜ぶ。<br/><br/>（S24. 3.17） 039 古刀と大黒様の処置 ある熱心な信者の家で御座いますが、本年六十歳の母親が二十三歳の時リョウマチを患い医療で思わしくなくある行者にみてもらいましたところ、古井戸（現在埋まっております）の中に刃物が入っていてそのためだと申し、その処置として古刀と大黒様を天照大神様の前へお祀りすればよいと申し、その通り致しましたところ、いつの間にか病気が治りました。<br/><br/>入信させて戴きまして右の古刀と大黒様が気になりますのでどう処分致しましたら宜しゅう御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 処分しなくていい。<br/><br/>二、三年経ってから御礼を言って処置すればよい。<br/><br/>（S23. 5. 2） 040 神棚の撤去 私の家では昔から中央北の方に神棚を設けて恵比須大黒様を御祭りしてありましたが、その中の一番大きい一対（三寸五分位）のを弟に譲りました。<br/><br/>その後神棚には一、二寸位のがまだ五、六体あります。<br/><br/>神棚を取り除きたく存じますがいかがなもので御座いましょうか。<br/><br/>また残った大黒様の処置等どう致したら宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 神棚は取除いてもいい。<br/><br/>小さい台に乗せておいていい。<br/><br/> 光明如来様の前か、近くの棚へ飾っておく。<br/><br/>（S25. 5. 5）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

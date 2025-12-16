@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281111</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S28年11月11日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月十一日 （大阪市毎日会館において） 今までに四回関西方面に来まして、四回とも名古屋と京都では講話をしましたが、今度は五回目で大阪で初めてやるわけで、進出というとおおげさですが、話をするわけです。<br><br>だいたい今までは京都に別院を造るについて、地上天国と美術館というような目的が主だったのですが、五回であらかた見てしまって、その結果これからその設計をしてボツボツ取り掛かるわけです。<br><br>それで方々を見た結果、その結論としては、なるほど奈良朝時代の、千年以上前の京都、奈良を中心としてのいろいろな美術品では、特に仏教美術に良い物がたくさんあります。<br><br>けれども一番遺憾に思うのは庭園です。<br><br>庭園はまったく遠慮なく言えば、他の美術品とはぜんぜん釣り合いがとれないほど劣っていると言えましょう。<br><br>京都の名園としては桂の離宮とか修学院、それから一昨日見た三宝院です。<br><br>その他いろいろありますが、どうもいわゆる芸術的のところがないのです。<br><br>ただ木と石とで当時の頭で作ったのですが、特に三宝院の庭園などは秀吉が直接指図したとか聞きますが、秀吉はほかのことは偉い人ですが、こういうことはどうも恐ろしく小規模です。<br><br>小さいのです。<br><br>ですから私はどうしても、庭園としての特色を最高度に発揮したものを造ろうと思ってます。<br><br>ですから外国の人が京都なら京都に来て、日本のほかの物はとにかくとして、庭園の美には失望するのではないかと思います。<br><br>ですからそういう点において、特に庭園に力を入れて、外人が来ても、なるほどと思うような物を造ろうと計画してます。<br><br>それからもう一つの欠点は、随分方々のお寺を見ましたが、お寺と言えば仏像です。<br><br>仏像の彫刻は世界一と言っても決して過言ではないと思います。<br><br>それはすばらしい彫刻美です。<br><br>特に彫刻美と言えば仏像に限ります。<br><br>ロダンのように人間を写したのではなく、人間の理想を表現した、一種の宗教芸術によって現わすということが、それから受ける人間に対しての非常に高度の感覚と言いますか、美から受ける非常によいものです。<br><br>それを受けるということについては、非常に美の高さを感得させるたいへんな働きをすると思ってます。<br><br>ですから京都、奈良にある仏教美術を、もっと多くの人に楽しませながら、よい意味の働きをさせなければならない、ということをつくづくと感じます。<br><br>ですから嵯峨の平安郷に仏教美術館を造るべく、これからだんだん考えます。<br><br>それからもう一つのことは、一つのお寺でこれは勝れていると思う物は、ようやく二つか三つです。<br><br>中には一つぐらいの所もあります。<br><br>ですからそういった良い仏教美術を見るといっても、それを見るには幾日もかかりたいへんな騒ぎです。<br><br>いちいち靴をぬいで、薄暗い所で見なければならないのですから、その暇と見る感じが非常によくないのです。<br><br>これをなんとかしなければならないのです。<br><br>明るい所で見たいというのが随分あります。<br><br>なにしろ昔こしらえたときの本当の目的は宗教本位ですから、それにはあんまり明るい所ではありがたみがないので、できるだけ薄暗くして、あらわに見えないような設備になってます。<br><br>ですからそういう点において、日本人は勿論ですが、外人などが見ようとしても、どうも気持ち良く見られないという、そういう点を満足のゆくように仏教美術館をこしらえて、そうして明るい所で名作を一度に見られるような、そういった意味の美術館を造ろうと思ってます。<br><br>そういうようなわけで、京都や奈良のことについてはいろいろ話したいこともありますが、この話はそのくらいにしておきます。<br><br> それから最近アメリカの『シカゴ・トリビューン』という新聞の東洋総支配人のシモンズという人の奥さんが来まして、これは婦人で新聞記者をやっているのですが、婦人でもなかなか頭がよいです。<br><br>それで私の仕事についてだいぶ注目をしてきたのです。<br><br>それというのは、私の所に来ている、浮世絵を始終集めている売買人で、研究もしている信者の人が、英語がそうとうにできるので、よほど前からアメリカの人たちに浮世絵の講義を一週間に一度ずつ英語でやっているのです。<br><br>その人の紹介で来たのです。<br><br>二時間ぐらいいろいろと話をしました。<br><br>箱根美術館を見て、熱海の方は私が案内しましたが、お世辞でなく非常に驚嘆してました。<br><br>私の仕事についていろいろ話をして、自分の主人は朝鮮に行っているが、やがて帰ってくるから、そうしたらぜひ私に会ってもういっそうよく話を聞いて、『トリビューン』紙上にぜひ出したいというのです。<br><br>「世界平和の建設者」という題で出したいと言ってました。<br><br>いろんな話をしましたが、その中で二、三覚えているのは、信者の人はよく知ってますが、世界の文明の中の緯の文明、物質文明の代表としてはアメリカで、精神文明の代表者としては日本で、要するに緯の文明の親玉がアメリカで、経の文明の親玉が日本で、この経と緯を結んで本当の文明が生まれるのだ。<br><br>そうするとアメリカと日本の文明を結ぶということが一番肝腎なことです。<br><br>それに対して、私は前から唱えてましたが、いずれ時期が来ればそうなると言ってました。<br><br>ちょうどあなたが今度来られたのは、そのためだと言ったところが非常に喜んでいました。<br><br>特に感銘を与えたように思えました。<br><br>それで共産主義に対してはどういう考えかと言うから、それは問題ではない。<br><br>共産主義というものは、人間でいえば腰から下の足の方なので、アメリカと日本は上半身だ――それでもし共産主義が日本を支配するとしたら逆様になるからそういうことは絶対にあり得ない、だからそういうことは心配しなくてもよい、と言ったところが非常に喜んでいました。<br><br>きっとあっちの新聞に出すだろうと思います。<br><br>それから天皇制に対してはどう思うかと言うから、私は天皇が御退位になって、つまり天皇制がなくなったということは非常に結構と思う、これでこそ本当に日本の国柄としてその使命を達成することができる。<br><br>というのは、だいたい日本という国は戦争などで権力を握るとか勢力を張るという国ではないのです。<br><br>日本は平和国、要するに美の文明、芸術の文明国です。<br><br>そういうことを完成して世界中の人を楽しませ喜ばして、そうして文明の進歩に貢献するという国なのです。<br><br>だから特に風景とかあらゆる条件がよく備わっているのです。<br><br>私は前からそういう考えでいました。<br><br>その最初として箱根、熱海、いずれ京都に地上天国の模型と美術館を造るのです。<br><br>これが日本としてのもっとも肝腎なことと思うからやっているのだ。<br><br>それでもう一つ肝腎なことは、人間というものは娯楽が必要なことは言うまでもないですが、娯楽といっても、現在ある娯楽は人間の情操を向上させるというよりも、堕落に導くものの方が多いのです。<br><br>たしかにそういう娯楽も必要ですが、もっとレベルを高め、人間の品性を高めるような娯楽と言いますか、楽しませつつ向上させるというものも少しはなくてはならない。<br><br>そういう意味において地上天国を造ったのだ。<br><br>ちょうど公園というものは至る所にあるが、公園は大衆的で、憩いの場所という程度のものですから、それよりかもういっそう高級なものを造る必要がある。<br><br>それが人類に与える感覚というものは非常に大きなものだ。<br><br>やはり一般はレベルの低いものを楽しみとしている。<br><br>ただ楽しむだけで、それによって人間の情操とか品性を高めるという目的はない。<br><br>ところが私はそういった面においても地上天国は大いに必要だと思うから、日本では今の三カ所、それからハワイに私の方の宗教が発展しつつありますから、いずれハワイにも造ります。<br><br>それからアメリカにも造るようになる。<br><br>次は全世界ですが、ヨーロッパ、東洋というように造るつもりだと言ったところ、これにもたいへん共鳴してました。<br><br>帰ってから通訳をした人に、どうも岡田という人の話は少し荷が勝ち過ぎるから――もっと軽くみていたようですが――どうもタジタジで、とてもかなわない、主人が今度帰ってきたら十分話してもらうということを言っていたそうです。<br><br>私はそうでもなかったのですが、救世教の話というのはどうしてもレベルが高いのです。<br><br>これはあなた方もそういう経験があるでしょうが、ついそういう具合になってしまうのです。<br><br>話や実際にすることが、現代文化の標準からゆくと高過ぎるのです。<br><br>だから食い違いが大きいのです。<br><br> それについて最近『救世教奇蹟集』の本を出しましたが、その広告文を私が書いて、三大新聞の朝日、毎日、読売に出したのです。<br><br>読売は出しましたが、朝日と毎日は今もって出さないのです。<br><br>どうして出さないかというと、お察しするには、あんまり現代文化とかけ離れているから怖いのだろうと思います。<br><br>いけないとなれば突っ込んできますが、本当だからそうはゆかないのです。<br><br>しかし出すとあんまり飛躍し過ぎるので、ちょうど幕末時代のキリシタン・バテレンのように、認めざるを得ないと思います。<br><br>これは少し怒られるかもしれないが、ちょうど適切な例と思います。<br><br>あるヨーロッパ人がアフリカ探険に行ったときに、アフリカの土人がなにかを見てギョッとして逃げたので、なんだろうと思って見ると、時計が落ちていたのです。<br><br>時計は今まで見たことがないし、それに動いているから、それを見て驚いたわけです。<br><br>そういうわけではないのですが、そういう点があるのではないかと思います。<br><br>あんまり見たことも聞いたこともないものですから、一つの驚きです。<br><br>この驚いた点には一つはこういうことがあると思います。<br><br>『奇蹟集』の広告に、今キリストと同じように奇蹟を行なう者が数十万できている、とあることです。<br><br>私は書かないようにと思ったのですが、本当だからしようがありません。<br><br>キリストというのは、世界中のみんなが偉い人と思って、みんなが拝んでいるのです。<br><br>それを私が数十万人作ったというのですから、これはアフリカの土人が時計を見たときより、もっと驚いたのだろうと思います。<br><br>これが一番困るのです。<br><br>これは新宗教で、最近では霊友会の問題が随分新聞ラジオに出てましたが、新興宗教というものは実際けしからんものだ、踊る宗教とか璽光尊とか、ナンテ低級だ。<br><br>というように一般はみてますから、その中で救世教の奴がとんでもないおおげさな、それこそ耳に鼻をつけるように馬鹿馬鹿しい、これはどうかしている、少し頭が変ではないかと思えたのではないかと思います。<br><br>しかし中を読んでみると嘘ではない、だからもう少し様子をみて、これがダイヤモンドかガラスか確認してから広告文も出すし記事も出すというのが、まず間違いないところでしょう。<br><br>こう思ったのも無理はないので、私も新聞記者だったら、そう思うでしょう。<br><br>ところがなんと言ってよいか、歴史にも伝説にもない馬鹿馬鹿しく大きなドエライことができることになってしまったのです。<br><br>こうやって病気が治るというこのことだけでもたいへんなことです。<br><br>偉いお医者さんが首をひねって、いろいろな機械とかでやっても治らない。<br><br>それが宿屋のおかみさんが、腹が痛いとか言っても、ちょっとこうやれば三日か五日で治るのですから。<br><br>と言っても、あまりに違ってとにかく信じられないのです。<br><br>人間で言えば怪物ですが、怪宗教というわけで、宗教ではナゾのような不可解なような本物のように思っているに違いないでしょう。<br><br>農作物にしても肥料を使わずに初年度から何割と増産するのです。<br><br>今年などは凶作で農民は一家心中をするような悲惨な状態になって、消毒薬が悪いとか言ってます。<br><br>肥料も消毒もしなくて最初から何割増産するとか言うが、なにか間違っている、インチキだ、肥料をやらなくて作物が獲れるなんて馬鹿なことはない、というわけでこれは時計ほどでなくても、かなり変なものと思っているでしょう。<br><br>なるほど宗教のくせに美術館などを造ったことは偉い、ほかのことはどうあろうと、あれだけは買ってよいと、あれはたいへんよく受け取ったのです。<br><br>そのために救世教に対する他の新宗教よりも信用があるようです。<br><br>これは私を批判する人を私が批判しているのです。<br><br>だから私の批判の方が合っていると思います。<br><br>自分が受けているのですから、私の方では霊感というものがありますから、よけい分かるだろうと思います。<br><br>そういうようなわけで、そういう点においては、今一番難しいところで、これが救世教はすばらしい、岡田というのはふつうの人間ではないということが分かってくれば、なんでもないことです。<br><br>そうなればなんでもかんでも良くなります。<br><br>そうかといってインチキや迷信邪教でもないというから、こっちもまた早くそういう時代を通り越したいと思ってます。<br><br>一生懸命にやってますけれども、その地獄と極楽の間と言いますか、今ちょうどそこを突破せんとするところだろうと思ってます。<br><br> それについてはこういう点もあります。<br><br>ハワイは今年から始めましたが、非常な成績で、つい一週間ばかり前にあっちの弁護士が来ました。<br><br>これは法人にしてもらうべくその人に頼んだのです。<br><br>それでいよいよ許可になったという報告を兼ねて日本に来たわけです。<br><br>ですから法人になると、これからはずっと楽ですから喜んでいます。<br><br>これはあなた方も始終報告を読んでいるでしょうが、ますます発展してきて、今度はホノルルのごく眺めの良い所に本部の家を買ったのです。<br><br>これは土地と家とで五万ドルですが、日本の金にすると千八百万円です。<br><br>その金というのは、今年三月からハワイに始めてできた信者がみんなで出してできてしまったのです。<br><br>私の方では一文も出さないのです。<br><br>それを思ってもいかに有力な、本当に熱心な信者ができたかが分かります。<br><br>ハワイは五つの大きな島からできてますが、その急所急所に全部支部ができました。<br><br>神様のやることは水際立っていて非常に早いです。<br><br>判で捺したようにキチンキチンとゆきます。<br><br>そこの支部長はみんな新しいハワイの信者です。<br><br>新しい信者の中にも随分熱心な人があるようです。<br><br>その弁護士の話では、あっちでは注目していて評判がよいそうです。<br><br>つまり評判が良いということは、今までハワイに行った宗教はどうもやり方が間違っているために、新宗教なんていうのは、特に向こうでは警戒しているのです。<br><br>ところが救世教は違う、これが本当だということが分かったのです。<br><br>人民が非常に良いのです。<br><br>弁護士もこれから大いに救世教のためにやる、援助したいということを言ってました。<br><br>これからのハワイの発展は、ものすごいものがあると思います。<br><br>私の考えというより予想では、いずれハワイはメシヤ島になると思います。<br><br>今まではしっかり信仰するほどのものが向こうにはなかったわけです。<br><br>やはりキリスト教が一番多いようですが、それもお付き合い程度です。<br><br>牧師がいろいろと骨折ってやるので、ある程度までは拡がってますが、根強さはありません。<br><br>それからハワイは食糧とかそういうことは潤沢で、生活も非常に楽です。<br><br>だから気風もよいのです。<br><br>人間の気風が悪いというのは、現在の日本では一つには食えないからです。<br><br>だから結局社会悪、悪い社会というのは、生活が楽でないからというわけで、その原因は病気です。<br><br>日本の状態はだいたいそうです。<br><br>ハワイはちょっと違うのは、生活は楽だが病気が非常に多いのです。<br><br>そこで救世教が病気を治すということによって、みんな救われる一つのものが見つかったというわけです。<br><br>なにしろ午前六時三十分前から支部に行列しているというのだそうです。<br><br>二人で行っているのですが、報告も書けないくらい忙しいのです。<br><br>ですからそう長くならないうちにメシヤ島になると思います。<br><br>それだけでも世界的に注目を浴びます。<br><br>特にアメリカが注目します。<br><br>そこでアメリカが調べると、病気がよく治るのであっちの人民が救世教の人をよく奨励するようになると思います。<br><br>それが日本に知れればそれだけでも結構です。<br><br>救世教は本物だということになって、日本人は救世教を認めざるを得ないということになるのも、それほど程遠いことではないと思います。<br><br>それから今言った自然栽培ですが、これは割合に早いと思います。<br><br>自然農法普及会の幹部の人は、せいぜい二、三年で日本全体に分かってしまうのではないかと言ってますから、そうなると実に早いです。<br><br>日本人が救世教に頭を下げるということは間違いないです。<br><br>それから私の方で一番分からせたいのは病気のことですが、これは一番難しいのです。<br><br>従って延びると思います。<br><br>けれども自然農法が分かって、救世教がこんな発見をするくらいだから、医学の方に対する説もまんざらデタラメではないという、その一つの間接的の効果があると思います。<br><br>そういうようなわけで、今まで長い間押さえつけられ、けとばされ、なぐられて小さくなっていたのがようやく過ぎて、これからよい時代、よい春が来るという、その時期に一歩来たような気がするのです。<br><br>神様の御予定がそうなのですから、張り合いがある時期になってきたのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Construção do Paraíso e a Expansão Mundial da Fé</h2>
 <p>Esta é a quinta vez que visito a região de Kansai. Nas quatro ocasiões anteriores, proferi palestras em Nagoya e em Quioto, mas esta é a primeira vez que o faço em Osaka. Embora o termo “expansão” possa soar grandiloquente, trata-se de minha primeira oportunidade de falar nesta cidade. Até então, minhas viagens a Quioto tinham como objetivo principal a construção de uma Sede Anexa, que abrigará um protótipo do Paraíso Terrestre e um Museu de Arte. Após cinco visitas, já inspecionei o suficiente, e o resultado é que agora podemos iniciar o projeto e dar andamento às obras gradualmente.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Esse feito, por si só, atrairá a atenção do mundo, especialmente dos Estados Unidos. Quando os americanos investigarem e constatarem as curas, eles mesmos incentivarão o povo a seguir a Sekaikyuseikyou. E quando essa notícia chegar ao Japão, será o suficiente. Os japoneses não terão outra escolha senão reconhecer a veracidade da Sekaikyuseikyou. Creio que esse dia não está distante.</p>
 <p>Quanto à Agricultura Natural, que mencionei, sua disseminação será relativamente rápida. Os diretores da Associação de Difusão da Agricultura Natural estimam que ela será conhecida em todo o Japão em dois ou três anos, o que é um progresso notável. Quando isso acontecer, não há dúvida de que os japoneses se curvarão à Sekaikyuseikyou. O ponto que mais desejo que compreendam é a questão da doença, mas essa é a parte mais difícil e, portanto, levará mais tempo. No entanto, a compreensão da Agricultura Natural terá um efeito indireto valioso: se a Sekaikyuseikyou foi capaz de uma descoberta tão extraordinária, talvez suas teorias sobre a medicina não sejam tão absurdas.</p>
 <p>Sinto, pois, que o longo período em que fomos oprimidos, rechaçados e agredidos está finalmente chegando ao fim, e que demos o primeiro passo em direção a uma nova era, a uma primavera auspiciosa. Este é o cronograma de Deus, o que torna este um tempo de grande entusiasmo e propósito.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関西巡教御講話 （S28年11月11日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月十一日 （大阪市毎日会館において） 今までに四回関西方面に来まして、四回とも名古屋と京都では講話をしましたが、今度は五回目で大阪で初めてやるわけで、進出というとおおげさですが、話をするわけです。<br/><br/>だいたい今までは京都に別院を造るについて、地上天国と美術館というような目的が主だったのですが、五回であらかた見てしまって、その結果これからその設計をしてボツボツ取り掛かるわけです。<br/><br/>それで方々を見た結果、その結論としては、なるほど奈良朝時代の、千年以上前の京都、奈良を中心としてのいろいろな美術品では、特に仏教美術に良い物がたくさんあります。<br/><br/>けれども一番遺憾に思うのは庭園です。<br/><br/>庭園はまったく遠慮なく言えば、他の美術品とはぜんぜん釣り合いがとれないほど劣っていると言えましょう。<br/><br/>京都の名園としては桂の離宮とか修学院、それから一昨日見た三宝院です。<br/><br/>その他いろいろありますが、どうもいわゆる芸術的のところがないのです。<br/><br/>ただ木と石とで当時の頭で作ったのですが、特に三宝院の庭園などは秀吉が直接指図したとか聞きますが、秀吉はほかのことは偉い人ですが、こういうことはどうも恐ろしく小規模です。<br/><br/>小さいのです。<br/><br/>ですから私はどうしても、庭園としての特色を最高度に発揮したものを造ろうと思ってます。<br/><br/>ですから外国の人が京都なら京都に来て、日本のほかの物はとにかくとして、庭園の美には失望するのではないかと思います。<br/><br/>ですからそういう点において、特に庭園に力を入れて、外人が来ても、なるほどと思うような物を造ろうと計画してます。<br/><br/>それからもう一つの欠点は、随分方々のお寺を見ましたが、お寺と言えば仏像です。<br/><br/>仏像の彫刻は世界一と言っても決して過言ではないと思います。<br/><br/>それはすばらしい彫刻美です。<br/><br/>特に彫刻美と言えば仏像に限ります。<br/><br/>ロダンのように人間を写したのではなく、人間の理想を表現した、一種の宗教芸術によって現わすということが、それから受ける人間に対しての非常に高度の感覚と言いますか、美から受ける非常によいものです。<br/><br/>それを受けるということについては、非常に美の高さを感得させるたいへんな働きをすると思ってます。<br/><br/>ですから京都、奈良にある仏教美術を、もっと多くの人に楽しませながら、よい意味の働きをさせなければならない、ということをつくづくと感じます。<br/><br/>ですから嵯峨の平安郷に仏教美術館を造るべく、これからだんだん考えます。<br/><br/>それからもう一つのことは、一つのお寺でこれは勝れていると思う物は、ようやく二つか三つです。<br/><br/>中には一つぐらいの所もあります。<br/><br/>ですからそういった良い仏教美術を見るといっても、それを見るには幾日もかかりたいへんな騒ぎです。<br/><br/>いちいち靴をぬいで、薄暗い所で見なければならないのですから、その暇と見る感じが非常によくないのです。<br/><br/>これをなんとかしなければならないのです。<br/><br/>明るい所で見たいというのが随分あります。<br/><br/>なにしろ昔こしらえたときの本当の目的は宗教本位ですから、それにはあんまり明るい所ではありがたみがないので、できるだけ薄暗くして、あらわに見えないような設備になってます。<br/><br/>ですからそういう点において、日本人は勿論ですが、外人などが見ようとしても、どうも気持ち良く見られないという、そういう点を満足のゆくように仏教美術館をこしらえて、そうして明るい所で名作を一度に見られるような、そういった意味の美術館を造ろうと思ってます。<br/><br/>そういうようなわけで、京都や奈良のことについてはいろいろ話したいこともありますが、この話はそのくらいにしておきます。<br/><br/> それから最近アメリカの『シカゴ・トリビューン』という新聞の東洋総支配人のシモンズという人の奥さんが来まして、これは婦人で新聞記者をやっているのですが、婦人でもなかなか頭がよいです。<br/><br/>それで私の仕事についてだいぶ注目をしてきたのです。<br/><br/>それというのは、私の所に来ている、浮世絵を始終集めている売買人で、研究もしている信者の人が、英語がそうとうにできるので、よほど前からアメリカの人たちに浮世絵の講義を一週間に一度ずつ英語でやっているのです。<br/><br/>その人の紹介で来たのです。<br/><br/>二時間ぐらいいろいろと話をしました。<br/><br/>箱根美術館を見て、熱海の方は私が案内しましたが、お世辞でなく非常に驚嘆してました。<br/><br/>私の仕事についていろいろ話をして、自分の主人は朝鮮に行っているが、やがて帰ってくるから、そうしたらぜひ私に会ってもういっそうよく話を聞いて、『トリビューン』紙上にぜひ出したいというのです。<br/><br/>「世界平和の建設者」という題で出したいと言ってました。<br/><br/>いろんな話をしましたが、その中で二、三覚えているのは、信者の人はよく知ってますが、世界の文明の中の緯の文明、物質文明の代表としてはアメリカで、精神文明の代表者としては日本で、要するに緯の文明の親玉がアメリカで、経の文明の親玉が日本で、この経と緯を結んで本当の文明が生まれるのだ。<br/><br/>そうするとアメリカと日本の文明を結ぶということが一番肝腎なことです。<br/><br/>それに対して、私は前から唱えてましたが、いずれ時期が来ればそうなると言ってました。<br/><br/>ちょうどあなたが今度来られたのは、そのためだと言ったところが非常に喜んでいました。<br/><br/>特に感銘を与えたように思えました。<br/><br/>それで共産主義に対してはどういう考えかと言うから、それは問題ではない。<br/><br/>共産主義というものは、人間でいえば腰から下の足の方なので、アメリカと日本は上半身だ――それでもし共産主義が日本を支配するとしたら逆様になるからそういうことは絶対にあり得ない、だからそういうことは心配しなくてもよい、と言ったところが非常に喜んでいました。<br/><br/>きっとあっちの新聞に出すだろうと思います。<br/><br/>それから天皇制に対してはどう思うかと言うから、私は天皇が御退位になって、つまり天皇制がなくなったということは非常に結構と思う、これでこそ本当に日本の国柄としてその使命を達成することができる。<br/><br/>というのは、だいたい日本という国は戦争などで権力を握るとか勢力を張るという国ではないのです。<br/><br/>日本は平和国、要するに美の文明、芸術の文明国です。<br/><br/>そういうことを完成して世界中の人を楽しませ喜ばして、そうして文明の進歩に貢献するという国なのです。<br/><br/>だから特に風景とかあらゆる条件がよく備わっているのです。<br/><br/>私は前からそういう考えでいました。<br/><br/>その最初として箱根、熱海、いずれ京都に地上天国の模型と美術館を造るのです。<br/><br/>これが日本としてのもっとも肝腎なことと思うからやっているのだ。<br/><br/>それでもう一つ肝腎なことは、人間というものは娯楽が必要なことは言うまでもないですが、娯楽といっても、現在ある娯楽は人間の情操を向上させるというよりも、堕落に導くものの方が多いのです。<br/><br/>たしかにそういう娯楽も必要ですが、もっとレベルを高め、人間の品性を高めるような娯楽と言いますか、楽しませつつ向上させるというものも少しはなくてはならない。<br/><br/>そういう意味において地上天国を造ったのだ。<br/><br/>ちょうど公園というものは至る所にあるが、公園は大衆的で、憩いの場所という程度のものですから、それよりかもういっそう高級なものを造る必要がある。<br/><br/>それが人類に与える感覚というものは非常に大きなものだ。<br/><br/>やはり一般はレベルの低いものを楽しみとしている。<br/><br/>ただ楽しむだけで、それによって人間の情操とか品性を高めるという目的はない。<br/><br/>ところが私はそういった面においても地上天国は大いに必要だと思うから、日本では今の三カ所、それからハワイに私の方の宗教が発展しつつありますから、いずれハワイにも造ります。<br/><br/>それからアメリカにも造るようになる。<br/><br/>次は全世界ですが、ヨーロッパ、東洋というように造るつもりだと言ったところ、これにもたいへん共鳴してました。<br/><br/>帰ってから通訳をした人に、どうも岡田という人の話は少し荷が勝ち過ぎるから――もっと軽くみていたようですが――どうもタジタジで、とてもかなわない、主人が今度帰ってきたら十分話してもらうということを言っていたそうです。<br/><br/>私はそうでもなかったのですが、救世教の話というのはどうしてもレベルが高いのです。<br/><br/>これはあなた方もそういう経験があるでしょうが、ついそういう具合になってしまうのです。<br/><br/>話や実際にすることが、現代文化の標準からゆくと高過ぎるのです。<br/><br/>だから食い違いが大きいのです。<br/><br/> それについて最近『救世教奇蹟集』の本を出しましたが、その広告文を私が書いて、三大新聞の朝日、毎日、読売に出したのです。<br/><br/>読売は出しましたが、朝日と毎日は今もって出さないのです。<br/><br/>どうして出さないかというと、お察しするには、あんまり現代文化とかけ離れているから怖いのだろうと思います。<br/><br/>いけないとなれば突っ込んできますが、本当だからそうはゆかないのです。<br/><br/>しかし出すとあんまり飛躍し過ぎるので、ちょうど幕末時代のキリシタン・バテレンのように、認めざるを得ないと思います。<br/><br/>これは少し怒られるかもしれないが、ちょうど適切な例と思います。<br/><br/>あるヨーロッパ人がアフリカ探険に行ったときに、アフリカの土人がなにかを見てギョッとして逃げたので、なんだろうと思って見ると、時計が落ちていたのです。<br/><br/>時計は今まで見たことがないし、それに動いているから、それを見て驚いたわけです。<br/><br/>そういうわけではないのですが、そういう点があるのではないかと思います。<br/><br/>あんまり見たことも聞いたこともないものですから、一つの驚きです。<br/><br/>この驚いた点には一つはこういうことがあると思います。<br/><br/>『奇蹟集』の広告に、今キリストと同じように奇蹟を行なう者が数十万できている、とあることです。<br/><br/>私は書かないようにと思ったのですが、本当だからしようがありません。<br/><br/>キリストというのは、世界中のみんなが偉い人と思って、みんなが拝んでいるのです。<br/><br/>それを私が数十万人作ったというのですから、これはアフリカの土人が時計を見たときより、もっと驚いたのだろうと思います。<br/><br/>これが一番困るのです。<br/><br/>これは新宗教で、最近では霊友会の問題が随分新聞ラジオに出てましたが、新興宗教というものは実際けしからんものだ、踊る宗教とか璽光尊とか、ナンテ低級だ。<br/><br/>というように一般はみてますから、その中で救世教の奴がとんでもないおおげさな、それこそ耳に鼻をつけるように馬鹿馬鹿しい、これはどうかしている、少し頭が変ではないかと思えたのではないかと思います。<br/><br/>しかし中を読んでみると嘘ではない、だからもう少し様子をみて、これがダイヤモンドかガラスか確認してから広告文も出すし記事も出すというのが、まず間違いないところでしょう。<br/><br/>こう思ったのも無理はないので、私も新聞記者だったら、そう思うでしょう。<br/><br/>ところがなんと言ってよいか、歴史にも伝説にもない馬鹿馬鹿しく大きなドエライことができることになってしまったのです。<br/><br/>こうやって病気が治るというこのことだけでもたいへんなことです。<br/><br/>偉いお医者さんが首をひねって、いろいろな機械とかでやっても治らない。<br/><br/>それが宿屋のおかみさんが、腹が痛いとか言っても、ちょっとこうやれば三日か五日で治るのですから。<br/><br/>と言っても、あまりに違ってとにかく信じられないのです。<br/><br/>人間で言えば怪物ですが、怪宗教というわけで、宗教ではナゾのような不可解なような本物のように思っているに違いないでしょう。<br/><br/>農作物にしても肥料を使わずに初年度から何割と増産するのです。<br/><br/>今年などは凶作で農民は一家心中をするような悲惨な状態になって、消毒薬が悪いとか言ってます。<br/><br/>肥料も消毒もしなくて最初から何割増産するとか言うが、なにか間違っている、インチキだ、肥料をやらなくて作物が獲れるなんて馬鹿なことはない、というわけでこれは時計ほどでなくても、かなり変なものと思っているでしょう。<br/><br/>なるほど宗教のくせに美術館などを造ったことは偉い、ほかのことはどうあろうと、あれだけは買ってよいと、あれはたいへんよく受け取ったのです。<br/><br/>そのために救世教に対する他の新宗教よりも信用があるようです。<br/><br/>これは私を批判する人を私が批判しているのです。<br/><br/>だから私の批判の方が合っていると思います。<br/><br/>自分が受けているのですから、私の方では霊感というものがありますから、よけい分かるだろうと思います。<br/><br/>そういうようなわけで、そういう点においては、今一番難しいところで、これが救世教はすばらしい、岡田というのはふつうの人間ではないということが分かってくれば、なんでもないことです。<br/><br/>そうなればなんでもかんでも良くなります。<br/><br/>そうかといってインチキや迷信邪教でもないというから、こっちもまた早くそういう時代を通り越したいと思ってます。<br/><br/>一生懸命にやってますけれども、その地獄と極楽の間と言いますか、今ちょうどそこを突破せんとするところだろうと思ってます。<br/><br/> それについてはこういう点もあります。<br/><br/>ハワイは今年から始めましたが、非常な成績で、つい一週間ばかり前にあっちの弁護士が来ました。<br/><br/>これは法人にしてもらうべくその人に頼んだのです。<br/><br/>それでいよいよ許可になったという報告を兼ねて日本に来たわけです。<br/><br/>ですから法人になると、これからはずっと楽ですから喜んでいます。<br/><br/>これはあなた方も始終報告を読んでいるでしょうが、ますます発展してきて、今度はホノルルのごく眺めの良い所に本部の家を買ったのです。<br/><br/>これは土地と家とで五万ドルですが、日本の金にすると千八百万円です。<br/><br/>その金というのは、今年三月からハワイに始めてできた信者がみんなで出してできてしまったのです。<br/><br/>私の方では一文も出さないのです。<br/><br/>それを思ってもいかに有力な、本当に熱心な信者ができたかが分かります。<br/><br/>ハワイは五つの大きな島からできてますが、その急所急所に全部支部ができました。<br/><br/>神様のやることは水際立っていて非常に早いです。<br/><br/>判で捺したようにキチンキチンとゆきます。<br/><br/>そこの支部長はみんな新しいハワイの信者です。<br/><br/>新しい信者の中にも随分熱心な人があるようです。<br/><br/>その弁護士の話では、あっちでは注目していて評判がよいそうです。<br/><br/>つまり評判が良いということは、今までハワイに行った宗教はどうもやり方が間違っているために、新宗教なんていうのは、特に向こうでは警戒しているのです。<br/><br/>ところが救世教は違う、これが本当だということが分かったのです。<br/><br/>人民が非常に良いのです。<br/><br/>弁護士もこれから大いに救世教のためにやる、援助したいということを言ってました。<br/><br/>これからのハワイの発展は、ものすごいものがあると思います。<br/><br/>私の考えというより予想では、いずれハワイはメシヤ島になると思います。<br/><br/>今まではしっかり信仰するほどのものが向こうにはなかったわけです。<br/><br/>やはりキリスト教が一番多いようですが、それもお付き合い程度です。<br/><br/>牧師がいろいろと骨折ってやるので、ある程度までは拡がってますが、根強さはありません。<br/><br/>それからハワイは食糧とかそういうことは潤沢で、生活も非常に楽です。<br/><br/>だから気風もよいのです。<br/><br/>人間の気風が悪いというのは、現在の日本では一つには食えないからです。<br/><br/>だから結局社会悪、悪い社会というのは、生活が楽でないからというわけで、その原因は病気です。<br/><br/>日本の状態はだいたいそうです。<br/><br/>ハワイはちょっと違うのは、生活は楽だが病気が非常に多いのです。<br/><br/>そこで救世教が病気を治すということによって、みんな救われる一つのものが見つかったというわけです。<br/><br/>なにしろ午前六時三十分前から支部に行列しているというのだそうです。<br/><br/>二人で行っているのですが、報告も書けないくらい忙しいのです。<br/><br/>ですからそう長くならないうちにメシヤ島になると思います。<br/><br/>それだけでも世界的に注目を浴びます。<br/><br/>特にアメリカが注目します。<br/><br/>そこでアメリカが調べると、病気がよく治るのであっちの人民が救世教の人をよく奨励するようになると思います。<br/><br/>それが日本に知れればそれだけでも結構です。<br/><br/>救世教は本物だということになって、日本人は救世教を認めざるを得ないということになるのも、それほど程遠いことではないと思います。<br/><br/>それから今言った自然栽培ですが、これは割合に早いと思います。<br/><br/>自然農法普及会の幹部の人は、せいぜい二、三年で日本全体に分かってしまうのではないかと言ってますから、そうなると実に早いです。<br/><br/>日本人が救世教に頭を下げるということは間違いないです。<br/><br/>それから私の方で一番分からせたいのは病気のことですが、これは一番難しいのです。<br/><br/>従って延びると思います。<br/><br/>けれども自然農法が分かって、救世教がこんな発見をするくらいだから、医学の方に対する説もまんざらデタラメではないという、その一つの間接的の効果があると思います。<br/><br/>そういうようなわけで、今まで長い間押さえつけられ、けとばされ、なぐられて小さくなっていたのがようやく過ぎて、これからよい時代、よい春が来るという、その時期に一歩来たような気がするのです。<br/><br/>神様の御予定がそうなのですから、張り合いがある時期になってきたのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

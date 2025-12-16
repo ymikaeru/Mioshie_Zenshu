@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（13） 安食晴彦 『栄光』238号、昭和28(1953)年12月9日発行 大変御無音に打過ぎまことに申訳ございません。<br><br> 教会の建設、世話人の組織、寄付金（教会建設）募集、先生のロスアンジェルス出発等々色々な事が引続いて行われましたため、私は一切事務関係、御浄霊等をさせて頂き、布教状況御報告は一切樋口先生がなさっておられました。<br><br>本日は樋口先生御不在にて当地の状況御報告をさせていただきます。<br><br>何時もながら十一月十日までの御報告が今日に延びてしまいました事をお詫び申し上げます。<br><br> 布教状況御報告書に関しましては、 布教所数 ホノルル四となっておりますが、この度世話人組織結成に際して、準出張所の様なものを追加致しましたので、後に御報告申し上げます。<br><br> 入信者浄霊人員 最近少々減って来ておりますが、教会建設、世話人組織、結成等に伴なって、布哇教会としては一つの節になっているのではないかと考えられます。<br><br>体的に考えますと教会移転、地方出張等があり、浄霊を二週間ほとんど休みにした事等もあります。<br><br> 教会建設に関しましては、すべてが比較的順調に進んでおります。<br><br>大体の模様は樋口先生より御報告があった事と存じますが、過ぐる十一月十九日午後三時より棟上式が行われました。<br><br>棟上式と申しましても、新築と異なり、建物を補強するため太い棟木を天井の下につけて、それを経の柱でつっぱるというやり方で棟木上げになります。<br><br>霊的には大した意味はないという御教えがございますので祝詞奏上、玉串奉奠投餅等簡単に致しまして済まさせて頂きました。<br><br>現在では二階御神前、階下講堂等共、元の部屋になっておりました壁を取りまして大体の型が付て参りました。<br><br>信者さんも大変に張切っております土曜、日曜は大工の信者が教会に集り御奉仕をしてくれますので、工事の進行も思ったより早く進み、十二月二十三日の御誕生祭までには、殆んどが出来上るのではないかと期待致しております。<br><br>全く御守護の外はありません。<br><br>大工の棟梁（信者）はこの建設に対し非常に心を使って奉仕的にやってくれます。<br><br>その事だけでも、清い神様の宮を造るのにどれ程喜ばしい事かわかりません。<br><br>二、三日中には教会の建設中の写真が出来ますので御送り申し上げます。<br><br>寄付金募集に関しては、十一月十一日の世話人結成式の際役員より話をしてもらいましたが、集金の額に関しては神様におまかせ致しております。<br><br> 最近、浄霊に来る人から聞いた話によりますと医者の診察を待つ控室やマッサージを待つ人々の間で大部メシヤ教の話が出ている様子です。<br><br>又信者がメシヤ教で病気の治った事を医者に話しますと、非常に突込んで聞く医者、横を向く医者等々私の耳に入ります話の範囲では「その話は聞いているが……」と言う医者が多い様であります。<br><br> 以上で大体の御報告を終らせて頂きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatório da Difusão no Havaí</h2>
 <p>Peço minhas mais sinceras escusas pela longa ausência de notícias. Uma série de acontecimentos sucessivos, como a construção da igreja, a organização do corpo de zeladores, a arrecadação de donativos para a obra e a partida do reverendo para Los Angeles, ocupou-nos sobremaneira.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>No que concerne à arrecadação de donativos, o assunto foi apresentado pelos diretores durante a cerimônia de formação do corpo de zeladores, no dia onze de novembro. A quantia a ser reunida, contudo, foi entregue aos desígnios de Deus.</p>
 <p>Recentemente, relatos de pessoas que frequentam a igreja para receber Johrei indicam que o nome da Igreja Messiânica tem sido mencionado com frequência nas salas de espera de consultórios médicos e entre aqueles que aguardam por massagens. Ademais, quando os membros testemunham aos seus médicos sobre as curas que obtiveram, as reações são diversas. Segundo me chega aos ouvidos, há profissionais que demonstram grande interesse, fazendo perguntas incisivas, enquanto outros simplesmente desviam o olhar. Contudo, a resposta mais comum parece ser: "Sim, já ouvi falar a respeito...".</p>
 <p>Com isto, encerro este relatório.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（13） 安食晴彦 『栄光』238号、昭和28(1953)年12月9日発行 大変御無音に打過ぎまことに申訳ございません。<br/><br/> 教会の建設、世話人の組織、寄付金（教会建設）募集、先生のロスアンジェルス出発等々色々な事が引続いて行われましたため、私は一切事務関係、御浄霊等をさせて頂き、布教状況御報告は一切樋口先生がなさっておられました。<br/><br/>本日は樋口先生御不在にて当地の状況御報告をさせていただきます。<br/><br/>何時もながら十一月十日までの御報告が今日に延びてしまいました事をお詫び申し上げます。<br/><br/> 布教状況御報告書に関しましては、 布教所数 ホノルル四となっておりますが、この度世話人組織結成に際して、準出張所の様なものを追加致しましたので、後に御報告申し上げます。<br/><br/> 入信者浄霊人員 最近少々減って来ておりますが、教会建設、世話人組織、結成等に伴なって、布哇教会としては一つの節になっているのではないかと考えられます。<br/><br/>体的に考えますと教会移転、地方出張等があり、浄霊を二週間ほとんど休みにした事等もあります。<br/><br/> 教会建設に関しましては、すべてが比較的順調に進んでおります。<br/><br/>大体の模様は樋口先生より御報告があった事と存じますが、過ぐる十一月十九日午後三時より棟上式が行われました。<br/><br/>棟上式と申しましても、新築と異なり、建物を補強するため太い棟木を天井の下につけて、それを経の柱でつっぱるというやり方で棟木上げになります。<br/><br/>霊的には大した意味はないという御教えがございますので祝詞奏上、玉串奉奠投餅等簡単に致しまして済まさせて頂きました。<br/><br/>現在では二階御神前、階下講堂等共、元の部屋になっておりました壁を取りまして大体の型が付て参りました。<br/><br/>信者さんも大変に張切っております土曜、日曜は大工の信者が教会に集り御奉仕をしてくれますので、工事の進行も思ったより早く進み、十二月二十三日の御誕生祭までには、殆んどが出来上るのではないかと期待致しております。<br/><br/>全く御守護の外はありません。<br/><br/>大工の棟梁（信者）はこの建設に対し非常に心を使って奉仕的にやってくれます。<br/><br/>その事だけでも、清い神様の宮を造るのにどれ程喜ばしい事かわかりません。<br/><br/>二、三日中には教会の建設中の写真が出来ますので御送り申し上げます。<br/><br/>寄付金募集に関しては、十一月十一日の世話人結成式の際役員より話をしてもらいましたが、集金の額に関しては神様におまかせ致しております。<br/><br/> 最近、浄霊に来る人から聞いた話によりますと医者の診察を待つ控室やマッサージを待つ人々の間で大部メシヤ教の話が出ている様子です。<br/><br/>又信者がメシヤ教で病気の治った事を医者に話しますと、非常に突込んで聞く医者、横を向く医者等々私の耳に入ります話の範囲では「その話は聞いているが……」と言う医者が多い様であります。<br/><br/> 以上で大体の御報告を終らせて頂きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

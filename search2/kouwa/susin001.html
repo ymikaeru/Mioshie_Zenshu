@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>susin001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 １ 001-018 五六七大御神 001 五六七大御神、五六七大御神と造物主、造物主とは、天地創造、神典説（人体始祖神と三柱神）、天の直系・傍系の神とは、五六七の御働きと阿弥陀・釈迦 造物主とは主の神様、最高の神、日本でいう天之御中主大御神をいう。<br><br> しかし主神は造物主自身ではなく、実際は国常立尊、豊雲野尊御二柱で造られ、形を豊雲野尊が造られ、それに霊を入れて生きるようにしたのが、国常立尊である。<br><br> 神典では、最初天之御中主、高御産霊、神御産霊の神様が霊と体を造られた。<br><br> 高御産霊はタタ、神御産霊はカカ、即ち父と母と転化した。<br><br> その霊と体によって生れたのが大国常立尊、次に豊雲野尊、次に人体が出来て伊邪諾、伊邪冊尊となられた。<br><br>その次に、天照大神外三柱の神がお産まれになった――とある。<br><br> 月読尊、素盞嗚尊、両方出来た。<br><br>照った時が月読、曇った時が素盞嗚尊。<br><br>これも神典にあるが、どこまで確実か判らぬが、全然出鱈目でもない。<br><br> ミロク神は、霊体両方を司る――というので、天之御中主大神の直系である。<br><br> 国常立尊、豊雲野尊は傍系になる。<br><br> 故に、天の直系とは主神の表現神で、絶対力をもつ神という事になる。<br><br>それが仏界へ表われたのが観世音菩薩である。<br><br>それで光明如来と現じ、応身弥勒と化し――とあるが、応身弥勒は未だ仏で、本当の意味ではない。<br><br>それから、日月地大御神様となる。<br><br>そして火水土三位一体の力を発揮せらるるのが、ミロクのお働きである。<br><br> 阿弥陀が水、釈迦が土の働きで、観音は日であるが、次に一層進んで、三位一体の五六七（ミロク）の御働きとなる。<br><br>故に、観音は阿弥陀や釈迦の働きを備えられる。<br><br> もっと悉しく話せるが、時期が来ない。<br><br> 002 大中心、神の根本、天御中主大御神、国常立尊、豊雲野尊、観音様は主神の流れ――直系 観音様は主神の直系である。<br><br> 中心は天之御中主大神で、その霊が国常立尊、体が豊雲野尊である。<br><br>真中の主神の流れは観音様である。<br><br> 主神の思召としては、善悪を戦はさなくては、人類文化は進歩しなかったのである。<br><br> 003 五六七大御神は代表神 弥勒大御神は日本神典上何大神様でいらせられますか。<br><br>御伺い申し上げます。<br><br> 弥勒は仏名であるから神典にはない。<br><br>釈迦時代の弥勒菩薩とは異う。<br><br>五十六億七千万年の数が五六七を表わしている。<br><br>また弥勒出現成就経にも説いた。<br><br> 神典には、伊都能売神とあるが、これは弥勒とも違う。<br><br> 日月地大御神は、主神の代りとか、代表神で、最高の位であり、五六七の力を持たれている。<br><br>キリスト教のエホバ、支那の天帝とかである。<br><br>（S24. 8.18） 004 五六七大御神様と国常立尊の龍神の御姿 国常立尊は龍神になられると日本の国土の大きさになられ、角があって、凄い御顔である。<br><br> 角のない綺麗な龍、これは五六七の神様で地球創造以前の神様である。<br><br>（S23. 6.13） 005 日月地大御神の御働き 日月地大神の御働きは国常立尊と観世音菩薩との御一体の御働きと申し上げて宜しいでしょうか。<br><br>右御教示御願い申します。<br><br> 国常立尊も観世音菩薩も五六七の世を出現さすについて、五六七大御神の御仕事を助けるといっていい。<br><br> 五六七大御神の御働きは全然違う事を知らなくてはならぬ。<br><br> これをはっきり説く事は時期が早い。<br><br> 006 エホバ神 「エホバ神」とはいかなる神様でしょうか。<br><br> エホバは最高の神の御名前である。<br><br>ユダヤでエホバといった。<br><br>日本では天之御中主大神、支那では天帝、印度では大自在天である。<br><br>今日のユダヤではメシヤという。<br><br>ゴッドともいう。<br><br>つまり天の父の事。<br><br>キリストは天の父の命により降ったという。<br><br>日本では伊邪諾尊様にもなる。<br><br> 私の病気を治す力はエホバから来る。<br><br>エホバから観音様を通して私に来るのである。<br><br> 007 五六七大御神様と伊都能売大神様、（日月地大御神への御祈願） 五六七大神様、伊都能売之大神様の御働きについて御教示を御願い申し上げます。<br><br> 伊都能売大神様は光明如来様で、火と水、五と三とになる。<br><br>火と水は光となる。<br><br>人間の身体を通すから、火水土になる。<br><br> 五六七大神は、最後であるから御位も非常に高い。<br><br>それ故にお願いなどは光明如来様にお願いする。<br><br>五六七大神様は崇め奉るのが本当で、お願いするのは天皇に直訴するようなものであるから、それはその御仕事をなされている神様にお願いする。<br><br>（S24・９・18） 008 主神、国常立尊、天照大神 天の御中主之神、国常立之神、天照大神。<br><br> 右三神の御関係並びに御由緒を御説き下さい。<br><br> 天之御中主大神様はゴッドとかヂュウス、天帝等外国でもいうが、同じ神様――主神である。<br><br> 国常立尊様は天地創造の衝に当った神様。<br><br> 天照大神様は太陽の顕現の神様である。<br><br> こういう事は悉しく話すと対外関係上面白くない。<br><br>神道を持出すと国粋的になり、独善的になる。<br><br>世界的にとればいいが、国家主義的に考えるから危険である。<br><br>日本だけの神様ではないが、日本の名前の神様になっている。<br><br> 神は全世界、全人類を支配なされており、全世界あらゆる人民に好い事をなさる。<br><br>自分の国だけ、都合のよいようにはなさらぬ。<br><br> 日清、日露、蒙古等の戦いは向うが悪かったが、今度は日本が悪いので敗けた。<br><br> 009 天地創造神と観音、（表現神の意義） キリスト教における 天地創造の神と観世音菩薩との関係について――。<br><br> 直接関係はないが、間接に関係がある。<br><br> 天地創造の神が表現神としてその神の経綸を行なわれる。<br><br>天地創造のみでは未だいけないからもう一層完全にするために形を代えて表われられる。<br><br>それが日本でいう天之御中主大御神、また支那の天帝、無極という。<br><br>西洋ではエホバ、ユダヤではゴッド、ヂュウス、メシヤ、印度で大自在天などという。<br><br>これが創造神の表現神である。<br><br> そして表現神のお働きの半面が観音様となるから、関係はあるが創造主そのものではない。<br><br>（S24. 1.27） 010 主神と観音様の差異 御讃歌の『大神は時満つるまで天の扉を開く御鍵を秘めおかれませり』とあり、また『三千歳の固き岩戸も観音の玉の御手に打開くるならん』とあり、その場合の「大神」、「観音」とは違うのでしょうか。<br><br> 大神とは主神、エホバである。<br><br> 観音様は大神でない。<br><br>大神の代りとか、大神の差図によってお働きになる意味である。<br><br> キリストは「吾は神の子なり」といった。<br><br>天の神（主神）の命によって生きる――といった。<br><br>キリストは、月の働きだからああなった。<br><br> 観音様は日の系統であり、日月である。<br><br> 011 霊界の夜昼と睡眠、最高の神 霊界には夜寝るなどという事はないから、時間、空間はない。<br><br>夜昼はなく、のべつ幕なく同じようである。<br><br>ただ霊界から現界を知る事が出来るから、現界の時間によって知るのみである。<br><br>霊界は空間にあるから物質ではない。<br><br> 空間を超越するのは最高の神である。<br><br>（S23. 8. 4） 012 主神の観方 主神は善悪両方を造った。<br><br>これを好むように造った。<br><br>人類は未だ野蛮未開で、獣性が多く残っている。<br><br>現代は幼稚極まる文化である。<br><br>正神と邪神と戦い文化を進歩さしている。<br><br>主神はこれを上から見下している。<br><br>絶対の善も絶対の悪もない。<br><br>戦争も吾等にとっては良かった。<br><br>（S23） 013 主神の火素と太陽の火素 主神より発する火素と太陽より発する火素の働きの差異について御説明をお願い致します。<br><br> 火素は太陽の精気であり、太陽は熱の光である。<br><br>太陽は主神の熱の働きで、男性である。<br><br>それと月の両方の精気を放射している。<br><br>人間の身体を通す時、太陽の火素を多く通す。<br><br>昼の世界になると火素が強くなる。<br><br> 014 神界の主宰神 幽界は大国主命、現界は国常立尊が主宰しておられると伺いましたが、神界はどなたが主宰しておいででしょうか。<br><br> 右御教示御願い申し上げます。<br><br> 現界は国常立尊が主宰していない。<br><br>国常立尊が大きな浄化作用をされている。<br><br>その先は今言う事は出来ない。<br><br> 幽界はそれに違いない。<br><br>神界は、今現界は（的？）未完成で主宰神は決らぬ。<br><br>いずれ決る。<br><br>個性を持った主宰神は決っていない。<br><br> 主神の表現神が出来る。<br><br> 015 世界の支配神御顕現、観音様と幽世大神、御屏風の御光を祖霊蒙る 幽世大神は観音様の家来。<br><br>霊界の事一切を任されている。<br><br> 御屏風から光が出て仏壇の中が明るくなり、祖霊がその御光を戴く。<br><br>例えば天皇ジカには頼まず、総理とか大臣とか、その係に一任され、頼まれる。<br><br> 先には天皇を濫用した。<br><br>警察など天皇の御名により査べるという。<br><br> 神様の事は人間的考えで判らぬ事がある。<br><br> 現世は観世音というが、顕幽両方の御働きであり、今迄現界の支配者は一区域一区域はあったが、世界的のそれはなかった。<br><br> 五六七大御神となると全世界を支配する事になる。<br><br>そして総てが統一される。<br><br>（S23. 7.21） 016 神様は一に在す、（国粋的にならぬこと） 国常立尊の御引退後今日迄、火の系統の者は罪穢なしで過して来ましたでしょうか。<br><br>罪があるとすれば、それは霊的事象より見る時、どうした因縁で起った罪でございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 国常立尊などは言わない事にした。<br><br>連合軍など日本神道などに目を光らしている。<br><br>国常立尊は大本の専売である。<br><br>天照大神なども言わん方がよい。<br><br>吾々の日常社会生活には何等関係はない。<br><br>アメリカの方針は、日本に戦争をさせない。<br><br>そのためにはキリスト教国にするにありとしている。<br><br>日本神道は危険である。<br><br>大抵は天理、大本などそうでないが、天之御中主、高御産霊神、伊邪諾尊とも――天照大神は太陽の顕現で、最高最貴で、それが日本の天皇という建前になり、世界を知食（しろしめ）す権限をもっているという。<br><br>軍閥はこれを利用した。<br><br>アメリカなど非常にこれを嫌う。<br><br>神国思想は世界中にある。<br><br>神は不公平はない。<br><br>人類愛でなくてはいけない。<br><br> キリストでは、再臨という。<br><br>ユダヤでは、メシヤ降臨という。<br><br>支那では紅卍会で、至聖先天老祖神君という。<br><br>国によって御名が違うが、一つのものである。<br><br>国によって種々の言葉で言い表わす。<br><br>故に、五六七神は、英語でいえばエホバ、ゴッド、メシヤ、ヂュウス、至聖先天老祖等である。<br><br> 世界中に出る訳である。<br><br>世界的に説けばいい。<br><br>世界中にそういう神が働いている。<br><br> （注） 知食す（しろしめす）「知っていらっしゃる。<br><br>承知されている。<br><br>」から、「お治めになる。<br><br>御統治になる。<br><br>」こと。<br><br> 017 大乗老君 大乗老君、最高の神という訳である。<br><br> シボクホー神――。<br><br>土地々々で神は御名が変る。<br><br> 伊邪冊尊は――エホバ――。<br><br>（S23.10.23） 018 耄碌死、絶対神 長生きしても耄碌（もうろく）で死んだ場合、霊界ではやっぱり耄碌でございましょうか。<br><br> やっぱり霊界でもそうである。<br><br>はっきりして死ななくてはいけない。<br><br>鳥栖越山のようにである。<br><br> 救いの力は釈迦、キリストにはない。<br><br>発揮させる道具にはなった。<br><br>至聖先天老祖は絶対力をもっておられる。<br><br>釈迦なども老祖の命により出る。<br><br>これらは二流の神である。<br><br> ミロク。<br><br>観音――これは菩薩のみの位である。<br><br>ミロクにもなられる。<br><br> rattil（注） 鳥栖越山 〔 軽視出来ない事実(光27号) 、昭和24(1949)年9月17日発行〕参照 〔 長命の秘訣(天国の福音) 、 昭和22(1947)年2月5日発行〕 では鳥巣越山となっている。<br><br>鳥巣禅師との混同か。<br><br> 鳥巣禅師、鳥彙道林（ちょうかどうりん）中国唐代の禅僧。<br><br>杭州の秦望山中の松の木の上で坐禅をしているので、その姿が鳥の巣のようだと言って鳥巣禅師と呼ばれた。<br><br>唐の詩人白居易(白楽天)が師事した事で有名。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Miroku Oomikami, Miroku Oomikami e o Criador, O que é o Criador, A Criação do Céu e da Terra, A teoria das Escrituras Divinas (O Deus ancestral do corpo humano e os Três Deuses Pilares), Deuses da linhagem direta e colateral do Céu, A atuação de Miroku e os Budas Amida e Shaka</h2>
 <p>O Criador é o Deus Supremo, o Altíssimo, a quem no Japão nos referimos como Ame-no-Minakanushi-no-Oomikami. Contudo, o Deus Supremo não é o próprio Criador. Na realidade, a criação foi realizada pelos dois Deuses, Kunitokotachi-no-Mikoto e Toyokumono-no-Mikoto. Toyokumono-no-Mikoto moldou a forma, e Kunitokotachi-no-Mikoto infundiu-lhe o espírito, concedendo-lhe vida.</p>
@@ -162,5 +314,48 @@ function toggleLang(lang) {
 <p>Mesmo que alguém viva muito, se morrer em estado de senilidade, permanecerá da mesma forma no Mundo Espiritual. É preciso morrer com a mente lúcida, como foi o caso de Tosu Etsuzan.</p>
 <p>O poder da salvação não reside em Shaka nem em Cristo; eles se tornaram instrumentos para manifestá-lo. Shisei Senten Rouso detém o poder absoluto. Shaka e outros surgem por ordem de Rouso. Eles são Deuses de segunda categoria.</p>
 <p>Miroku. Kannon (観音)… esta é apenas a classe dos Bossatsu. Ele também Se torna Miroku.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主神篇 １ 001-018 五六七大御神 001 五六七大御神、五六七大御神と造物主、造物主とは、天地創造、神典説（人体始祖神と三柱神）、天の直系・傍系の神とは、五六七の御働きと阿弥陀・釈迦 造物主とは主の神様、最高の神、日本でいう天之御中主大御神をいう。<br/><br/> しかし主神は造物主自身ではなく、実際は国常立尊、豊雲野尊御二柱で造られ、形を豊雲野尊が造られ、それに霊を入れて生きるようにしたのが、国常立尊である。<br/><br/> 神典では、最初天之御中主、高御産霊、神御産霊の神様が霊と体を造られた。<br/><br/> 高御産霊はタタ、神御産霊はカカ、即ち父と母と転化した。<br/><br/> その霊と体によって生れたのが大国常立尊、次に豊雲野尊、次に人体が出来て伊邪諾、伊邪冊尊となられた。<br/><br/>その次に、天照大神外三柱の神がお産まれになった――とある。<br/><br/> 月読尊、素盞嗚尊、両方出来た。<br/><br/>照った時が月読、曇った時が素盞嗚尊。<br/><br/>これも神典にあるが、どこまで確実か判らぬが、全然出鱈目でもない。<br/><br/> ミロク神は、霊体両方を司る――というので、天之御中主大神の直系である。<br/><br/> 国常立尊、豊雲野尊は傍系になる。<br/><br/> 故に、天の直系とは主神の表現神で、絶対力をもつ神という事になる。<br/><br/>それが仏界へ表われたのが観世音菩薩である。<br/><br/>それで光明如来と現じ、応身弥勒と化し――とあるが、応身弥勒は未だ仏で、本当の意味ではない。<br/><br/>それから、日月地大御神様となる。<br/><br/>そして火水土三位一体の力を発揮せらるるのが、ミロクのお働きである。<br/><br/> 阿弥陀が水、釈迦が土の働きで、観音は日であるが、次に一層進んで、三位一体の五六七（ミロク）の御働きとなる。<br/><br/>故に、観音は阿弥陀や釈迦の働きを備えられる。<br/><br/> もっと悉しく話せるが、時期が来ない。<br/><br/> 002 大中心、神の根本、天御中主大御神、国常立尊、豊雲野尊、観音様は主神の流れ――直系 観音様は主神の直系である。<br/><br/> 中心は天之御中主大神で、その霊が国常立尊、体が豊雲野尊である。<br/><br/>真中の主神の流れは観音様である。<br/><br/> 主神の思召としては、善悪を戦はさなくては、人類文化は進歩しなかったのである。<br/><br/> 003 五六七大御神は代表神 弥勒大御神は日本神典上何大神様でいらせられますか。<br/><br/>御伺い申し上げます。<br/><br/> 弥勒は仏名であるから神典にはない。<br/><br/>釈迦時代の弥勒菩薩とは異う。<br/><br/>五十六億七千万年の数が五六七を表わしている。<br/><br/>また弥勒出現成就経にも説いた。<br/><br/> 神典には、伊都能売神とあるが、これは弥勒とも違う。<br/><br/> 日月地大御神は、主神の代りとか、代表神で、最高の位であり、五六七の力を持たれている。<br/><br/>キリスト教のエホバ、支那の天帝とかである。<br/><br/>（S24. 8.18） 004 五六七大御神様と国常立尊の龍神の御姿 国常立尊は龍神になられると日本の国土の大きさになられ、角があって、凄い御顔である。<br/><br/> 角のない綺麗な龍、これは五六七の神様で地球創造以前の神様である。<br/><br/>（S23. 6.13） 005 日月地大御神の御働き 日月地大神の御働きは国常立尊と観世音菩薩との御一体の御働きと申し上げて宜しいでしょうか。<br/><br/>右御教示御願い申します。<br/><br/> 国常立尊も観世音菩薩も五六七の世を出現さすについて、五六七大御神の御仕事を助けるといっていい。<br/><br/> 五六七大御神の御働きは全然違う事を知らなくてはならぬ。<br/><br/> これをはっきり説く事は時期が早い。<br/><br/> 006 エホバ神 「エホバ神」とはいかなる神様でしょうか。<br/><br/> エホバは最高の神の御名前である。<br/><br/>ユダヤでエホバといった。<br/><br/>日本では天之御中主大神、支那では天帝、印度では大自在天である。<br/><br/>今日のユダヤではメシヤという。<br/><br/>ゴッドともいう。<br/><br/>つまり天の父の事。<br/><br/>キリストは天の父の命により降ったという。<br/><br/>日本では伊邪諾尊様にもなる。<br/><br/> 私の病気を治す力はエホバから来る。<br/><br/>エホバから観音様を通して私に来るのである。<br/><br/> 007 五六七大御神様と伊都能売大神様、（日月地大御神への御祈願） 五六七大神様、伊都能売之大神様の御働きについて御教示を御願い申し上げます。<br/><br/> 伊都能売大神様は光明如来様で、火と水、五と三とになる。<br/><br/>火と水は光となる。<br/><br/>人間の身体を通すから、火水土になる。<br/><br/> 五六七大神は、最後であるから御位も非常に高い。<br/><br/>それ故にお願いなどは光明如来様にお願いする。<br/><br/>五六七大神様は崇め奉るのが本当で、お願いするのは天皇に直訴するようなものであるから、それはその御仕事をなされている神様にお願いする。<br/><br/>（S24・９・18） 008 主神、国常立尊、天照大神 天の御中主之神、国常立之神、天照大神。<br/><br/> 右三神の御関係並びに御由緒を御説き下さい。<br/><br/> 天之御中主大神様はゴッドとかヂュウス、天帝等外国でもいうが、同じ神様――主神である。<br/><br/> 国常立尊様は天地創造の衝に当った神様。<br/><br/> 天照大神様は太陽の顕現の神様である。<br/><br/> こういう事は悉しく話すと対外関係上面白くない。<br/><br/>神道を持出すと国粋的になり、独善的になる。<br/><br/>世界的にとればいいが、国家主義的に考えるから危険である。<br/><br/>日本だけの神様ではないが、日本の名前の神様になっている。<br/><br/> 神は全世界、全人類を支配なされており、全世界あらゆる人民に好い事をなさる。<br/><br/>自分の国だけ、都合のよいようにはなさらぬ。<br/><br/> 日清、日露、蒙古等の戦いは向うが悪かったが、今度は日本が悪いので敗けた。<br/><br/> 009 天地創造神と観音、（表現神の意義） キリスト教における 天地創造の神と観世音菩薩との関係について――。<br/><br/> 直接関係はないが、間接に関係がある。<br/><br/> 天地創造の神が表現神としてその神の経綸を行なわれる。<br/><br/>天地創造のみでは未だいけないからもう一層完全にするために形を代えて表われられる。<br/><br/>それが日本でいう天之御中主大御神、また支那の天帝、無極という。<br/><br/>西洋ではエホバ、ユダヤではゴッド、ヂュウス、メシヤ、印度で大自在天などという。<br/><br/>これが創造神の表現神である。<br/><br/> そして表現神のお働きの半面が観音様となるから、関係はあるが創造主そのものではない。<br/><br/>（S24. 1.27） 010 主神と観音様の差異 御讃歌の『大神は時満つるまで天の扉を開く御鍵を秘めおかれませり』とあり、また『三千歳の固き岩戸も観音の玉の御手に打開くるならん』とあり、その場合の「大神」、「観音」とは違うのでしょうか。<br/><br/> 大神とは主神、エホバである。<br/><br/> 観音様は大神でない。<br/><br/>大神の代りとか、大神の差図によってお働きになる意味である。<br/><br/> キリストは「吾は神の子なり」といった。<br/><br/>天の神（主神）の命によって生きる――といった。<br/><br/>キリストは、月の働きだからああなった。<br/><br/> 観音様は日の系統であり、日月である。<br/><br/> 011 霊界の夜昼と睡眠、最高の神 霊界には夜寝るなどという事はないから、時間、空間はない。<br/><br/>夜昼はなく、のべつ幕なく同じようである。<br/><br/>ただ霊界から現界を知る事が出来るから、現界の時間によって知るのみである。<br/><br/>霊界は空間にあるから物質ではない。<br/><br/> 空間を超越するのは最高の神である。<br/><br/>（S23. 8. 4） 012 主神の観方 主神は善悪両方を造った。<br/><br/>これを好むように造った。<br/><br/>人類は未だ野蛮未開で、獣性が多く残っている。<br/><br/>現代は幼稚極まる文化である。<br/><br/>正神と邪神と戦い文化を進歩さしている。<br/><br/>主神はこれを上から見下している。<br/><br/>絶対の善も絶対の悪もない。<br/><br/>戦争も吾等にとっては良かった。<br/><br/>（S23） 013 主神の火素と太陽の火素 主神より発する火素と太陽より発する火素の働きの差異について御説明をお願い致します。<br/><br/> 火素は太陽の精気であり、太陽は熱の光である。<br/><br/>太陽は主神の熱の働きで、男性である。<br/><br/>それと月の両方の精気を放射している。<br/><br/>人間の身体を通す時、太陽の火素を多く通す。<br/><br/>昼の世界になると火素が強くなる。<br/><br/> 014 神界の主宰神 幽界は大国主命、現界は国常立尊が主宰しておられると伺いましたが、神界はどなたが主宰しておいででしょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 現界は国常立尊が主宰していない。<br/><br/>国常立尊が大きな浄化作用をされている。<br/><br/>その先は今言う事は出来ない。<br/><br/> 幽界はそれに違いない。<br/><br/>神界は、今現界は（的？）未完成で主宰神は決らぬ。<br/><br/>いずれ決る。<br/><br/>個性を持った主宰神は決っていない。<br/><br/> 主神の表現神が出来る。<br/><br/> 015 世界の支配神御顕現、観音様と幽世大神、御屏風の御光を祖霊蒙る 幽世大神は観音様の家来。<br/><br/>霊界の事一切を任されている。<br/><br/> 御屏風から光が出て仏壇の中が明るくなり、祖霊がその御光を戴く。<br/><br/>例えば天皇ジカには頼まず、総理とか大臣とか、その係に一任され、頼まれる。<br/><br/> 先には天皇を濫用した。<br/><br/>警察など天皇の御名により査べるという。<br/><br/> 神様の事は人間的考えで判らぬ事がある。<br/><br/> 現世は観世音というが、顕幽両方の御働きであり、今迄現界の支配者は一区域一区域はあったが、世界的のそれはなかった。<br/><br/> 五六七大御神となると全世界を支配する事になる。<br/><br/>そして総てが統一される。<br/><br/>（S23. 7.21） 016 神様は一に在す、（国粋的にならぬこと） 国常立尊の御引退後今日迄、火の系統の者は罪穢なしで過して来ましたでしょうか。<br/><br/>罪があるとすれば、それは霊的事象より見る時、どうした因縁で起った罪でございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 国常立尊などは言わない事にした。<br/><br/>連合軍など日本神道などに目を光らしている。<br/><br/>国常立尊は大本の専売である。<br/><br/>天照大神なども言わん方がよい。<br/><br/>吾々の日常社会生活には何等関係はない。<br/><br/>アメリカの方針は、日本に戦争をさせない。<br/><br/>そのためにはキリスト教国にするにありとしている。<br/><br/>日本神道は危険である。<br/><br/>大抵は天理、大本などそうでないが、天之御中主、高御産霊神、伊邪諾尊とも――天照大神は太陽の顕現で、最高最貴で、それが日本の天皇という建前になり、世界を知食（しろしめ）す権限をもっているという。<br/><br/>軍閥はこれを利用した。<br/><br/>アメリカなど非常にこれを嫌う。<br/><br/>神国思想は世界中にある。<br/><br/>神は不公平はない。<br/><br/>人類愛でなくてはいけない。<br/><br/> キリストでは、再臨という。<br/><br/>ユダヤでは、メシヤ降臨という。<br/><br/>支那では紅卍会で、至聖先天老祖神君という。<br/><br/>国によって御名が違うが、一つのものである。<br/><br/>国によって種々の言葉で言い表わす。<br/><br/>故に、五六七神は、英語でいえばエホバ、ゴッド、メシヤ、ヂュウス、至聖先天老祖等である。<br/><br/> 世界中に出る訳である。<br/><br/>世界的に説けばいい。<br/><br/>世界中にそういう神が働いている。<br/><br/> （注） 知食す（しろしめす）「知っていらっしゃる。<br/><br/>承知されている。<br/><br/>」から、「お治めになる。<br/><br/>御統治になる。<br/><br/>」こと。<br/><br/> 017 大乗老君 大乗老君、最高の神という訳である。<br/><br/> シボクホー神――。<br/><br/>土地々々で神は御名が変る。<br/><br/> 伊邪冊尊は――エホバ――。<br/><br/>（S23.10.23） 018 耄碌死、絶対神 長生きしても耄碌（もうろく）で死んだ場合、霊界ではやっぱり耄碌でございましょうか。<br/><br/> やっぱり霊界でもそうである。<br/><br/>はっきりして死ななくてはいけない。<br/><br/>鳥栖越山のようにである。<br/><br/> 救いの力は釈迦、キリストにはない。<br/><br/>発揮させる道具にはなった。<br/><br/>至聖先天老祖は絶対力をもっておられる。<br/><br/>釈迦なども老祖の命により出る。<br/><br/>これらは二流の神である。<br/><br/> ミロク。<br/><br/>観音――これは菩薩のみの位である。<br/><br/>ミロクにもなられる。<br/><br/> rattil（注） 鳥栖越山 〔 軽視出来ない事実(光27号) 、昭和24(1949)年9月17日発行〕参照 〔 長命の秘訣(天国の福音) 、 昭和22(1947)年2月5日発行〕 では鳥巣越山となっている。<br/><br/>鳥巣禅師との混同か。<br/><br/> 鳥巣禅師、鳥彙道林（ちょうかどうりん）中国唐代の禅僧。<br/><br/>杭州の秦望山中の松の木の上で坐禅をしているので、その姿が鳥の巣のようだと言って鳥巣禅師と呼ばれた。<br/><br/>唐の詩人白居易(白楽天)が師事した事で有名。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

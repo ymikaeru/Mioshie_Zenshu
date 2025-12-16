@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>musin05</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無信仰と有信仰 『光』2号、昭和24(1949)年3月20日発行 この論文を書くに当って断わっておきたい事は、無信仰と有信仰というこの有信仰とは無論本教を指すのであって、他の宗教や既成宗教をいうのではない、そうして昔の事はイザ知らず、現在のこの娑婆世界にあって生活している人間をつくづく客観してみるに、キリストのいった「哀れなる仔羊」という言葉がよく当嵌っていると思う。<br><br> まず考えてもみるがいい、真になんらの不安なく安心して日々を送っているものは恐らく何人あるであろうか、その不安の中第一に考えられるのは言うまでもなく人間の病気であろう、いかなる人間といえどもいつ何どき病気に犯されるか判らない、一時間後に風邪を引くかも判らない、風邪を引けば肺炎になるかも判らない、あるいは結核の初期であるかも判らない、今晩あたり盲腸炎が発病し七転八倒の激痛で苦しむかも判らない、明日あたり腸チフスになるかまたは原因不明の病気に罹るかも判らない、子供のある人は生命とりという恐ろしい疫痢、ジフテリヤ、脳膜炎等の重症に罹って二、三日であの世へゆくかも知れない、また年寄りは年よりで、今にも脳充血から中風となり、半身不随のまま何年も床から離れられないような悲惨な運命に陥るかも分からない、もしか家族の中誰かが伝染病に罹って、入院隔離されるかも分からない、そればかりではない、今日のように医療代が高くては、治療費や入院料がどのくらいかかるか分からない、それも短期間で治ればいいが、もしか長期にでも亙（わた）ったら入院料のために長年辛苦して貯めた貯金が零となり、たとえ病は治っても会社は馘（くび）になり、路頭に迷うようになるかも知れない、しかしそれでも生命さえ取止めればまた稼ぐ術（すべ）もあるが運悪く不具者になるか死んででもしまったら一体どういう事になろう、仮に主人であった場合遺族はどうして暮しを立てるだろう、また自分としても計画や事業半ばにして終りとなるし、いまだ男盛りの年齢であるのにこの世を去るとは実に残念だ、妻子と今愛着の絆を断たれるのはどうしても我慢が出来ないというような事態が来ないと誰か言い得よう、これら種々の事を考える時、病気に対する恐怖感は断〔絶〕えず鉛のように重くブラ下っているのは、何人といえども例外はあるまい。<br><br> 以上述べたような恐ろしい人生である以上この不安から解放されないとしたら、釈尊の喝破したごとく「この娑婆は火宅であり、人間は生病老死の四苦から免れる事は出来ないという諦めで我慢するより道はない、それが悟りである」と言うのである。<br><br> 以上述べたごとくであるからこの病気の不安から絶対解放される宗教が現われたとしたらこんな大きな福音はあるまい、しかし初めてこの事を聞いた人は「そんな馬鹿な事がこの世の中にあってたまるものか、君の頭はどうかしている」といい、まず狂人の一歩手前くらいにしか思うまい、ところがどうだ、右のごとき宗教が確かに表われたのである、読者諸君はまず一応も二応も疑うところか否定するかも知れない、がもしそれが真実であったと知ったらどうなさる、大変どころの騒ぎではない、世界的一大センセーションを起こさずにはおられまい、その中で運の好い人は、まあともかく一度研究してみようという事になろうし、反対にそんな話は迷信以外の何物でもないと鼻の先で笑う人もあろうが、こういう人はまず華厳の滝か三原山へ飛込む人のお仲間で、洵（まこと）に不幸な人というべきである。<br><br> こういう事をいうと、余りに自惚れ過ぎるというかも知れないが、ここでまず本教の信仰と病気について簡単に述べてみよう。<br><br>本教によって信仰の実態を把握した限りの人々は、病気の心配は皆無となる事である、否病患の根本が明らかになった以上、恐れるどころか反って、それを喜ぶくらいである。<br><br>何となれば病気なるものは健康増進のための自然生理作用であって神の一大恩恵であるからである、もちろんあらゆる病患が発生するや、神霊放射能によっていとも簡単に治癒されるからでもある。<br><br> 以上は病気のみについて述べたのであるが、いまだ病気以外にも不幸の因は多々ある、たとえていえば現代生活においては交通機関とは切っても切れない関係にあるし、人によっては生活の大部分を占めるものさえある、これがためその不安も災害もなかなか軽視出来ないものがある事は皆よく知っている、その他工場における機械の受難、火災の災害、盗賊の被害等々はもとより、稀ではあるが地震洪水等の災害も由々しきものがある、かように病患を初め諸々の災害がいついかなる時に襲いかかるかも知れない現代生活を考える時、実に一時といえども安心出来得ないのである、これに対し官民共にあらゆる防護施設を採っている、健康保険、災害保険、失業保険等々はじめ貯金制度、諸種の保護事業等の施設もあるにはあるが、これら有形的の手段はある限度以上の安心は出来得ないのである、どうしても無形の保険すなわち神様の保険でなくては絶対安心を得られるものではない、しかし現代人は無形の力とか、神様の保険だとかいってもなかなか受入れようとはしないのである、といって有形的方法だけでは真の安心は得られないというジレンマに陥って、相変らず不安な日を送っているのが実状であるから、哀れなる小羊に過ぎないのである。<br><br> ゆえに吾々信仰者の側から見ると、無信仰者のなんら拠り所のない浮草のような生活裡に戦々兢々たる有様は実際見てはいられないのである、ちょうど大海に小舟を操っているものに、大汽船に乗れよといっても彼らは自己の船のみを見詰め、大きな船体あるを知らないようなもので、これらを見かねる吾らはせっかく信仰を奨めても否定の闇の中から抜け出る事が出来ない有様である。<br><br> かような素晴しい救いの力は、人類史上いまだかつてない事であるから、容易に信じ難いのは無理もない、しかしこの大いなる福音が現われたという事そのものを考えても、病貧争絶無の世界である地上天国出現の間近に迫った事は一点の疑う余地のない事を知るべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Condição dos que Têm Fé e dos que Não a Têm</h2>
 <p>Julgo necessário, antes de iniciar este artigo, fazer um esclarecimento. Ao me referir à condição de “quem tem fé”, refiro-me exclusivamente àqueles que seguem nossa Fé, e não a outras religiões, sejam elas quais forem. Ademais, sem adentrar nos méritos de épocas passadas, ao observar atentamente o ser humano que vive e labuta neste mundo de sofrimentos, constato quão apropriadas são as palavras de Cristo: “pobres cordeirinhos”.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Em resposta, tanto o governo quanto a iniciativa privada estabelecem diversas medidas de proteção, como seguros de saúde, contra acidentes e de desemprego, além de sistemas de poupança e outras formas de amparo. Contudo, esses recursos materiais só conseguem proporcionar uma segurança limitada. A paz de espírito absoluta só pode ser alcançada por meio de um amparo imaterial, ou seja, o amparo de Deus. O homem moderno, todavia, reluta em aceitar a existência de uma força invisível ou de um “seguro divino”. Assim, ele se encontra em um dilema: os métodos materiais são insuficientes para lhe garantir a verdadeira paz, mas ele se recusa a buscar a solução espiritual. E, por isso, continua a viver seus dias em constante apreensão, como um cordeirinho desamparado.</p>
 <p>Do nosso ponto de vista, como professantes da Fé, é penoso observar a existência dos incrédulos, que vivem em um estado de constante temor, sem alicerce algum, como plantas aquáticas à deriva. É como se, no meio do oceano, exortássemos o tripulante de um pequeno barco a embarcar em um grande navio, mas ele, fixado em sua própria embarcação frágil, sequer percebesse a presença da imponente nau. Da mesma forma, por mais que, penalizados, lhes recomendemos a Fé, eles se mostram incapazes de emergir da escuridão de sua própria negação.</p>
 <p>Um poder salvador tão extraordinário é algo sem precedentes na história da humanidade, sendo natural que muitos o considerem de difícil aceitação. Todavia, o próprio fato de este grandioso evangelho ter se manifestado deve ser compreendido como prova irrefutável de que a concretização do Paraíso Terrestre — um mundo isento de doença, pobreza e conflito — está iminente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無信仰と有信仰 『光』2号、昭和24(1949)年3月20日発行 この論文を書くに当って断わっておきたい事は、無信仰と有信仰というこの有信仰とは無論本教を指すのであって、他の宗教や既成宗教をいうのではない、そうして昔の事はイザ知らず、現在のこの娑婆世界にあって生活している人間をつくづく客観してみるに、キリストのいった「哀れなる仔羊」という言葉がよく当嵌っていると思う。<br/><br/> まず考えてもみるがいい、真になんらの不安なく安心して日々を送っているものは恐らく何人あるであろうか、その不安の中第一に考えられるのは言うまでもなく人間の病気であろう、いかなる人間といえどもいつ何どき病気に犯されるか判らない、一時間後に風邪を引くかも判らない、風邪を引けば肺炎になるかも判らない、あるいは結核の初期であるかも判らない、今晩あたり盲腸炎が発病し七転八倒の激痛で苦しむかも判らない、明日あたり腸チフスになるかまたは原因不明の病気に罹るかも判らない、子供のある人は生命とりという恐ろしい疫痢、ジフテリヤ、脳膜炎等の重症に罹って二、三日であの世へゆくかも知れない、また年寄りは年よりで、今にも脳充血から中風となり、半身不随のまま何年も床から離れられないような悲惨な運命に陥るかも分からない、もしか家族の中誰かが伝染病に罹って、入院隔離されるかも分からない、そればかりではない、今日のように医療代が高くては、治療費や入院料がどのくらいかかるか分からない、それも短期間で治ればいいが、もしか長期にでも亙（わた）ったら入院料のために長年辛苦して貯めた貯金が零となり、たとえ病は治っても会社は馘（くび）になり、路頭に迷うようになるかも知れない、しかしそれでも生命さえ取止めればまた稼ぐ術（すべ）もあるが運悪く不具者になるか死んででもしまったら一体どういう事になろう、仮に主人であった場合遺族はどうして暮しを立てるだろう、また自分としても計画や事業半ばにして終りとなるし、いまだ男盛りの年齢であるのにこの世を去るとは実に残念だ、妻子と今愛着の絆を断たれるのはどうしても我慢が出来ないというような事態が来ないと誰か言い得よう、これら種々の事を考える時、病気に対する恐怖感は断〔絶〕えず鉛のように重くブラ下っているのは、何人といえども例外はあるまい。<br/><br/> 以上述べたような恐ろしい人生である以上この不安から解放されないとしたら、釈尊の喝破したごとく「この娑婆は火宅であり、人間は生病老死の四苦から免れる事は出来ないという諦めで我慢するより道はない、それが悟りである」と言うのである。<br/><br/> 以上述べたごとくであるからこの病気の不安から絶対解放される宗教が現われたとしたらこんな大きな福音はあるまい、しかし初めてこの事を聞いた人は「そんな馬鹿な事がこの世の中にあってたまるものか、君の頭はどうかしている」といい、まず狂人の一歩手前くらいにしか思うまい、ところがどうだ、右のごとき宗教が確かに表われたのである、読者諸君はまず一応も二応も疑うところか否定するかも知れない、がもしそれが真実であったと知ったらどうなさる、大変どころの騒ぎではない、世界的一大センセーションを起こさずにはおられまい、その中で運の好い人は、まあともかく一度研究してみようという事になろうし、反対にそんな話は迷信以外の何物でもないと鼻の先で笑う人もあろうが、こういう人はまず華厳の滝か三原山へ飛込む人のお仲間で、洵（まこと）に不幸な人というべきである。<br/><br/> こういう事をいうと、余りに自惚れ過ぎるというかも知れないが、ここでまず本教の信仰と病気について簡単に述べてみよう。<br/><br/>本教によって信仰の実態を把握した限りの人々は、病気の心配は皆無となる事である、否病患の根本が明らかになった以上、恐れるどころか反って、それを喜ぶくらいである。<br/><br/>何となれば病気なるものは健康増進のための自然生理作用であって神の一大恩恵であるからである、もちろんあらゆる病患が発生するや、神霊放射能によっていとも簡単に治癒されるからでもある。<br/><br/> 以上は病気のみについて述べたのであるが、いまだ病気以外にも不幸の因は多々ある、たとえていえば現代生活においては交通機関とは切っても切れない関係にあるし、人によっては生活の大部分を占めるものさえある、これがためその不安も災害もなかなか軽視出来ないものがある事は皆よく知っている、その他工場における機械の受難、火災の災害、盗賊の被害等々はもとより、稀ではあるが地震洪水等の災害も由々しきものがある、かように病患を初め諸々の災害がいついかなる時に襲いかかるかも知れない現代生活を考える時、実に一時といえども安心出来得ないのである、これに対し官民共にあらゆる防護施設を採っている、健康保険、災害保険、失業保険等々はじめ貯金制度、諸種の保護事業等の施設もあるにはあるが、これら有形的の手段はある限度以上の安心は出来得ないのである、どうしても無形の保険すなわち神様の保険でなくては絶対安心を得られるものではない、しかし現代人は無形の力とか、神様の保険だとかいってもなかなか受入れようとはしないのである、といって有形的方法だけでは真の安心は得られないというジレンマに陥って、相変らず不安な日を送っているのが実状であるから、哀れなる小羊に過ぎないのである。<br/><br/> ゆえに吾々信仰者の側から見ると、無信仰者のなんら拠り所のない浮草のような生活裡に戦々兢々たる有様は実際見てはいられないのである、ちょうど大海に小舟を操っているものに、大汽船に乗れよといっても彼らは自己の船のみを見詰め、大きな船体あるを知らないようなもので、これらを見かねる吾らはせっかく信仰を奨めても否定の闇の中から抜け出る事が出来ない有様である。<br/><br/> かような素晴しい救いの力は、人類史上いまだかつてない事であるから、容易に信じ難いのは無理もない、しかしこの大いなる福音が現われたという事そのものを考えても、病貧争絶無の世界である地上天国出現の間近に迫った事は一点の疑う余地のない事を知るべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

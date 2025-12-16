@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kodomo2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 子供を健康にするには 『栄光』95号、昭和26(1951)年3月14日発行 今日の子供の健康は非常に悪い、どの子供を見ても顔色が悪く、弱々しいものが多いのは実に心細い限りである、ところが今までは都会児童が、特に目立っていたが、近頃は農村方面も同様な傾向が現われて来た、長野県下の某村で、小学児童の健康診断をしたところ、百人中八十一人の結核容疑者があったくらいで、その後も時々そういう報告が新聞に出ている、従って、これを見たら何人といえども、不思議な感に打たれない訳にはゆくまい、なぜなれば今日医学の進歩は、農村にまで及んでいるからである、ところがその原因が全然判らないと言うのだから、問題は大きい、そこで我自然医学の見地から、その真因をかいてみよう。<br><br> 右の原因は間違った医学衛生と、栄養のためとしか思われない、という訳は近来日本人の子供と、西洋人の子供と同一に見て、何でも西洋流に育てるのが可いように思っている点である、これが非常な誤りで、実は日本人と西洋人とは本質的に異（ちが）うのである、しかし、以前はそういう誤った育て方は都会に限られていたようだが、近来田舎も都会同様の育て方になったためであろう、その誤りとは、自然を無視すると共に西洋流に母乳を軽視し、牛乳を呑ませすぎたり、大事にしすぎたり、薬を服ませすぎたり、適切でない注射をしたりする、それがため理屈には合っていても、事実は身体を弱らす結果になる、何となれば西洋人は、祖先以来そのやり方で育って来たのだからいいが、右のごとく日本人は異うのみか急激の変化も悪いのである、どうしても日本人の子供は、昔からの日本流の育て方が合っているが、そうもゆかないとしたら漸次的に換えてゆくようにすればよい、何よりも事実をみればよく判る、今の子供より数十年前の今程医学の進歩していない時の方が、余程健康であったようだ、参考のため本当の子供の育てる法をかいてみよう。<br><br> まず母親は、出来るだけ出産月まで働く事、子供には親の乳を呑ませる事、牛乳は止むを得ざる場合のみに限る事、風邪を引く事など恐れず、出来るだけ自然にする、すなわちきままにさせ、干渉しない事、腹巻をさせない事、なるべく薬を呑ませない事等である、要するに人間はこの世に生まれた以上、自然に健康に育つように出来ている真理を、充分認識すればいいのである、従って事実は大切にする子供程弱いにみて明らかである、要するに時流に迷わされず、祖先以来の育て方を考慮に入れて、その上に新時代の進歩した点を参酌（さんしゃく）し理屈でなく実際に良い面のみを採用すればいいのである、この点当局は固（もと）より、専門家諸君に対しても、大いに考慮を求める次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Como criar filhos saudáveis</h2>
 <p>A saúde das crianças de hoje é extremamente precária. É, de fato, desolador observar que a maioria delas apresenta uma aparência pálida e frágil. Embora essa tendência fosse mais acentuada nos centros urbanos, recentemente tem se manifestado de igual forma nas áreas rurais. Em um vilarejo na província de Nagano, por exemplo, um exame de saúde realizado em alunos do primário revelou que, de cem crianças, oitenta e uma eram suspeitas de tuberculose. Desde então, relatos semelhantes têm surgido esporadicamente nos jornais.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Primeiramente, é fundamental que a mãe trabalhe, tanto quanto possível, até o mês do parto. A criança deve receber o leite materno, recorrendo-se ao leite de vaca apenas em casos de absoluta necessidade. Não se deve temer que a criança pegue um resfriado; ao contrário, é preciso deixá-la desenvolver-se da maneira mais natural possível, ou seja, com liberdade e sem interferências. Não se devem usar faixas abdominais nem administrar medicamentos desnecessariamente.</p>
 <p>Em suma, é preciso reconhecer plenamente a verdade de que o ser humano, ao nascer neste mundo, já possui a capacidade inata de se desenvolver com saúde e vigor. Fica evidente, portanto, que quanto mais se superprotege uma criança, mais fraca ela se torna. Em vez de se deixar iludir pelas tendências de uma época, deve-se considerar os métodos de criação legados por nossos antepassados e, a partir deles, ponderar os avanços da nova era, adotando unicamente os aspectos que se mostrem benéficos na prática, e não apenas na teoria.</p>
 <p>Nesse sentido, rogo encarecidamente que não apenas as autoridades competentes, mas também os senhores especialistas, reflitam profundamente sobre esta questão.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 子供を健康にするには 『栄光』95号、昭和26(1951)年3月14日発行 今日の子供の健康は非常に悪い、どの子供を見ても顔色が悪く、弱々しいものが多いのは実に心細い限りである、ところが今までは都会児童が、特に目立っていたが、近頃は農村方面も同様な傾向が現われて来た、長野県下の某村で、小学児童の健康診断をしたところ、百人中八十一人の結核容疑者があったくらいで、その後も時々そういう報告が新聞に出ている、従って、これを見たら何人といえども、不思議な感に打たれない訳にはゆくまい、なぜなれば今日医学の進歩は、農村にまで及んでいるからである、ところがその原因が全然判らないと言うのだから、問題は大きい、そこで我自然医学の見地から、その真因をかいてみよう。<br/><br/> 右の原因は間違った医学衛生と、栄養のためとしか思われない、という訳は近来日本人の子供と、西洋人の子供と同一に見て、何でも西洋流に育てるのが可いように思っている点である、これが非常な誤りで、実は日本人と西洋人とは本質的に異（ちが）うのである、しかし、以前はそういう誤った育て方は都会に限られていたようだが、近来田舎も都会同様の育て方になったためであろう、その誤りとは、自然を無視すると共に西洋流に母乳を軽視し、牛乳を呑ませすぎたり、大事にしすぎたり、薬を服ませすぎたり、適切でない注射をしたりする、それがため理屈には合っていても、事実は身体を弱らす結果になる、何となれば西洋人は、祖先以来そのやり方で育って来たのだからいいが、右のごとく日本人は異うのみか急激の変化も悪いのである、どうしても日本人の子供は、昔からの日本流の育て方が合っているが、そうもゆかないとしたら漸次的に換えてゆくようにすればよい、何よりも事実をみればよく判る、今の子供より数十年前の今程医学の進歩していない時の方が、余程健康であったようだ、参考のため本当の子供の育てる法をかいてみよう。<br/><br/> まず母親は、出来るだけ出産月まで働く事、子供には親の乳を呑ませる事、牛乳は止むを得ざる場合のみに限る事、風邪を引く事など恐れず、出来るだけ自然にする、すなわちきままにさせ、干渉しない事、腹巻をさせない事、なるべく薬を呑ませない事等である、要するに人間はこの世に生まれた以上、自然に健康に育つように出来ている真理を、充分認識すればいいのである、従って事実は大切にする子供程弱いにみて明らかである、要するに時流に迷わされず、祖先以来の育て方を考慮に入れて、その上に新時代の進歩した点を参酌（さんしゃく）し理屈でなく実際に良い面のみを採用すればいいのである、この点当局は固（もと）より、専門家諸君に対しても、大いに考慮を求める次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

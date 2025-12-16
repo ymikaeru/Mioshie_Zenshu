@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qbohuni</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 暴風に耐える無肥栽培 幸福に導きつつある教へ 『救世』56号、昭和25(1950)年4月1日発行 岐阜県 善栄中教会 森 敏雄（33） 私がこの尊い御業にお導きを頂いたのは昭和二十二年五月で本部の渡辺先生よりこの偉大なる救いの御業の御話を聞き感激し、家族五人教修を受け喜んで帰宅しました。<br><br> すると二、三日前より遊びに来ていた姉が、持病の腹痛で苦しんでいる最中で薬をいくら飲ませてもおさまらぬと母が手をやき困り果てているところでした。<br><br>早速頼むというので「よしすぐ楽にしてやる」といって浄霊を初め、腹部をやる頃には今までの苦しみはどこへやらスヤスヤと眠り始めたではありませんか、喜んだのは母上、嬉しかったのは私で見入るものは皆唖然として言葉もない有様でした。<br><br> 僅か三十分足らずの浄霊にあれほど苦しんでいた腹痛が治るとは、それも教修受けたその日にこんな大きな効果を現わして頂けるとは本当に有難い事だと家族一同喜びました。<br><br> この偉大な事実に力を得てすぐ無肥料栽培を全耕地一町三反全部に実施すべく決意し、その日から金肥絶対不用で、分会長先生はじめ諸先生方の御熱心なる御指導下に今日に至ったのであります。<br><br> その間の御利益の偉大なる事は素晴しいもので御座居ましたが、品質の良い事は他家に比して吃驚りする程でした。<br><br>翌二十三年の収穫を参考のために左に示します。<br><br>（反当り） 種 別 平均収量 二十三年収量 玄 米 二石四斗 三石一斗二升 大 豆 八斗 一石二斗強 小 麦 六斗 一石二斗 馬鈴薯 三百二十貫 三百三十貫 甘 藷 三百貫 四百貫 その他小量の粟、きび、そば等も三割以上の増収を得ました。<br><br>しかし秋蒔の大根、蕪は他家のよりちょっと小さいようでしたが、質が良く、味のよいには吃驚しました。<br><br>また虫害がなく綺麗なものでした。<br><br> その後有難い御守護を頂き喜びの一端を皆様にお知らせ致します。<br><br>丁度小麦の出穂期で七、八分出穂した昨年七月二十日頃でした。<br><br>急に空模様が悪くなり大風雨となり、約一昼夜続いた嵐の為に他家の麦はほとんど悲惨なる姿に打ちのめされているではありませんか。<br><br>我家の麦はと見れば、噫！ 何んと不思議ではありませんか。<br><br>嵐以前よりなお一層の元気さを見せているではありませんか。<br><br>噫！ この御守護の偉大さにただ感謝感激の涙にむせぶのみでした。<br><br> それが収穫して又一驚しました。<br><br>小麦の実収は何んと一昨年の倍あります。<br><br>実に平年作の四倍になり近隣の人達も吃驚しております。<br><br>稲の出来も昨年は非常によく近隣の金肥を施用したどの田よりも出来がよく、余りよい出来栄えに「かくれて肥料をやったんだろう」と近隣の人達が噂しているそうです。<br><br> この他にまだ大きな御利益を書き遅れましたが、私の耕作面積一町三反を二十二年には男一人、女三人で耕作し、相当忙しい思いをしましたが、昨年は女二人で楽々と耕作が出来た上、前記のごとき御利益をいただき誠に人間業でなくこれが神業と申すものだと思います。<br><br> 何にも分らない私一家も分会長先生初め諸先生の熱と誠の御指導賜り、段々分らせていただきお蔭にて私と妹は資格をいただき、私は富山県に妹は京都に開拓の一歩を現し尊い御業を一人でも多く知らせたい一念にて奉公致しております。<br><br>なお御利益の万分の一にもと真心の御奉公させていただく覚悟でおります。<br><br>御利益の数々筆舌に尽くせぬ感謝の一端を報告させていただきます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Cultivo sem Adubo que Resiste à Fúria dos Ventos</h2>
 <h2>O Ensinamento que Conduz à Felicidade</h2>
@@ -109,5 +264,48 @@ function toggleLang(lang) {
 <p>A surpresa, no entanto, foi ainda maior no momento da colheita. A produção de trigo simplesmente dobrou em relação ao ano anterior, totalizando o quádruplo de uma safra comum, o que deixou toda a vizinhança perplexa. Nossa colheita de arroz também foi excepcional, superando em qualidade e quantidade todas as lavouras vizinhas que fizeram uso de adubos químicos. O resultado foi tão extraordinário que, segundo ouvi dizer, alguns vizinhos chegaram a comentar que eu certamente estava utilizando fertilizantes às escondidas.</p>
 <p>Gostaria ainda de registrar outra graça de grande magnitude que acabei por omitir. Em 1947, para cultivar nossa propriedade de um hectare e trinta ares, era necessário o trabalho de um homem e três mulheres, e ainda assim a labuta era intensa. No ano seguinte, contudo, apenas duas mulheres deram conta de todo o serviço com facilidade. Somando-se este fato aos resultados prodigiosos da colheita, fica evidente que não se trata de obra humana, mas sim da manifestação da Vontade Divina.</p>
 <p>Nossa família, que a princípio nada compreendia, foi sendo gradualmente esclarecida graças à dedicação e à sincera orientação do responsável de Johrei e dos demais orientadores. Por essa razão, minha irmã e eu recebemos a permissão para nos tornarmos membros. Atualmente, com o único anseio de levar esta sublime Obra a um número cada vez maior de pessoas, dedico-me à difusão na província de Toyama, enquanto minha irmã o faz em Quioto. Sinto-me determinado a servir com toda a sinceridade de meu coração, como forma de retribuir ao menos uma ínfima parcela de todas as graças que nos foram concedidas. Com este relato, expresso uma fração da minha inexprimível gratidão pelas inúmeras bênçãos recebidas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 暴風に耐える無肥栽培 幸福に導きつつある教へ 『救世』56号、昭和25(1950)年4月1日発行 岐阜県 善栄中教会 森 敏雄（33） 私がこの尊い御業にお導きを頂いたのは昭和二十二年五月で本部の渡辺先生よりこの偉大なる救いの御業の御話を聞き感激し、家族五人教修を受け喜んで帰宅しました。<br/><br/> すると二、三日前より遊びに来ていた姉が、持病の腹痛で苦しんでいる最中で薬をいくら飲ませてもおさまらぬと母が手をやき困り果てているところでした。<br/><br/>早速頼むというので「よしすぐ楽にしてやる」といって浄霊を初め、腹部をやる頃には今までの苦しみはどこへやらスヤスヤと眠り始めたではありませんか、喜んだのは母上、嬉しかったのは私で見入るものは皆唖然として言葉もない有様でした。<br/><br/> 僅か三十分足らずの浄霊にあれほど苦しんでいた腹痛が治るとは、それも教修受けたその日にこんな大きな効果を現わして頂けるとは本当に有難い事だと家族一同喜びました。<br/><br/> この偉大な事実に力を得てすぐ無肥料栽培を全耕地一町三反全部に実施すべく決意し、その日から金肥絶対不用で、分会長先生はじめ諸先生方の御熱心なる御指導下に今日に至ったのであります。<br/><br/> その間の御利益の偉大なる事は素晴しいもので御座居ましたが、品質の良い事は他家に比して吃驚りする程でした。<br/><br/>翌二十三年の収穫を参考のために左に示します。<br/><br/>（反当り） 種 別 平均収量 二十三年収量 玄 米 二石四斗 三石一斗二升 大 豆 八斗 一石二斗強 小 麦 六斗 一石二斗 馬鈴薯 三百二十貫 三百三十貫 甘 藷 三百貫 四百貫 その他小量の粟、きび、そば等も三割以上の増収を得ました。<br/><br/>しかし秋蒔の大根、蕪は他家のよりちょっと小さいようでしたが、質が良く、味のよいには吃驚しました。<br/><br/>また虫害がなく綺麗なものでした。<br/><br/> その後有難い御守護を頂き喜びの一端を皆様にお知らせ致します。<br/><br/>丁度小麦の出穂期で七、八分出穂した昨年七月二十日頃でした。<br/><br/>急に空模様が悪くなり大風雨となり、約一昼夜続いた嵐の為に他家の麦はほとんど悲惨なる姿に打ちのめされているではありませんか。<br/><br/>我家の麦はと見れば、噫！ 何んと不思議ではありませんか。<br/><br/>嵐以前よりなお一層の元気さを見せているではありませんか。<br/><br/>噫！ この御守護の偉大さにただ感謝感激の涙にむせぶのみでした。<br/><br/> それが収穫して又一驚しました。<br/><br/>小麦の実収は何んと一昨年の倍あります。<br/><br/>実に平年作の四倍になり近隣の人達も吃驚しております。<br/><br/>稲の出来も昨年は非常によく近隣の金肥を施用したどの田よりも出来がよく、余りよい出来栄えに「かくれて肥料をやったんだろう」と近隣の人達が噂しているそうです。<br/><br/> この他にまだ大きな御利益を書き遅れましたが、私の耕作面積一町三反を二十二年には男一人、女三人で耕作し、相当忙しい思いをしましたが、昨年は女二人で楽々と耕作が出来た上、前記のごとき御利益をいただき誠に人間業でなくこれが神業と申すものだと思います。<br/><br/> 何にも分らない私一家も分会長先生初め諸先生の熱と誠の御指導賜り、段々分らせていただきお蔭にて私と妹は資格をいただき、私は富山県に妹は京都に開拓の一歩を現し尊い御業を一人でも多く知らせたい一念にて奉公致しております。<br/><br/>なお御利益の万分の一にもと真心の御奉公させていただく覚悟でおります。<br/><br/>御利益の数々筆舌に尽くせぬ感謝の一端を報告させていただきます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

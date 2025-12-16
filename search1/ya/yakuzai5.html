@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakuzai5</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十五、薬剤の逆作用 『日本医術講義録』第１篇、昭和10(1935)年執筆 薬剤は、病気治癒を妨害するものである理は、屡々（しばしば）述べた通りであるが、何故に妨害するかと言うと、それは逆作用をするからである。<br><br>逆作用とは、薬剤を用いる目的と反対の結果になるのである。<br><br>例えば、胃の悪い人が、消化薬をのむとする。<br><br>なる程、一時は快くなり、病気が治癒される様に思うが、何ぞ知らん、それは、胃の力ではなく、薬の力に依ってであるから、その為に胃そのものは、活動が鈍るのである。<br><br>それは、薬剤が働くから、胃自身の活動は、一時停止の状態となるのである。<br><br>随って、服用すればする程、胃は益々怠惰となり、益々弱るのである。<br><br>故に、最初、胃を強健にしたい目的で、服用する薬剤の、その結果は、反って反対に、胃を益々衰弱させるという結果になるのは当然なのである。<br><br>これと同じく便秘する人が、下剤を用ゆれば、大便排泄機関は活動の必要がないから、漸時退化してゆくのである。<br><br>退化する結果、いよいよ便秘を来し、いよいよ下剤の必要を感ずるのである。<br><br>かような訳であるから、胃を強健にしたければ、胃をして大いに活動をさせなければならない。<br><br>それには、特に、消化良き物を択ばず、すべて、普通食を摂取するのがいいのである。<br><br>普通食は、自然に、人間の胃の活動に適合する様に出来ており、祖先以来、それに依って立派に健康を保って来たのであるから、特に、牛乳を呑むとか、肝油を呑むとかは、いかに不合理であるかは判るのである。<br><br>故に、万一、普通食を摂っていて、消化が悪るかったり、又は、胃に異常が生ずるとすれば、それはいずれかに、間違った事があるのである。<br><br>例えば、運動が不足だとか、飯の分量や時間を決めて食うとか、薬剤を服用するとか、それらの原因によってであるから、その原因を改めれば、必ず治るのである。<br><br>胃病等に罹るべきはずのものではないのである。<br><br>故に、胃病などになるという事は、私は不思議と思うのである。<br><br> 次に、便秘なども不思議なのである。<br><br>物を飲み食いすれば、水分は尿となりて排泄され、固形物は糞便となって、体外へ排泄されるのは、定（きま）り切った事である。<br><br>人間の肉体はそう出来ているのである。<br><br>そうならないのは、矢張りどこかに間違った点があるのである。<br><br>それをよく査べてみれば必ず解るので、早速、その原因を革（あらた）めさえすれば必ず治るのである。<br><br>即ち、水分の摂り方が少いとか、野菜が少いとか、偏食の癖があるとか、又は、腸の付近に気の付かない様な病気があって、その病気の微熱の為か、まず、それらの点を考うべきである。<br><br>右述べた、胃病と便秘以外、あらゆる病気はそうなのである。<br><br>よく、私が実見する所であるが、腹膜や肋膜で溜った水を排泄すべく、尿の出る薬を、医師は服ませるが、これも前述の理に依って、その薬剤を服用するや、一時は、効目によって尿が出、尿が出るから病も軽減するが、それは一時的の事であって、ある時期を過ぎると、漸時便秘の場合と同じく、尿の排泄が減少してゆくのである。<br><br>従って病は悪化するのである。<br><br> 今日の科学の試験管での研究になった薬剤が、生命力の神秘に触れると言う事は、痴人の夢である。<br><br>分秒も停止なき、不可解の液体や熱、その他未知の物質に依って動いている内臓と、ただ物質に過ぎない、試験管の中とは、夢想も出来ない異（ちが）いさである。<br><br>学理と反対の結果になる等は、当然の話である。<br><br>この様な事すら、社会一般に判っていない為に、いかに多くの人が、この薬剤の逆作用によって、苦しみつつ、命を縮めているかは、実に恐るべきものがあろう。<br><br>故に一日も早く、これらの誤謬を、一人にても多く、判らさなければならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ação Inversa dos Medicamentos</h2>
 <p>O princípio de que os medicamentos, em vez de curar, na verdade obstruem o processo de restabelecimento da saúde é algo que tenho afirmado repetidamente. A razão para tal reside em sua ação inversa, ou seja, a capacidade de produzirem um resultado diametralmente oposto ao objetivo pretendido.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>A constipação, em si, é igualmente um fenômeno que me causa estranheza. É uma lei natural que, ao nos alimentarmos, os líquidos sejam excretados como urina e os sólidos, como fezes. O corpo humano foi projetado para funcionar assim. Se esse processo não ocorre como deveria, é sinal de que há algum equívoco em outro ponto. Investigando-se a fundo, a causa sempre se revela, e basta corrigi-la para que a saúde seja restabelecida. Deve-se ponderar, por exemplo, sobre a ingestão insuficiente de água ou de vegetais, a existência de uma dieta desequilibrada ou mesmo a presença de alguma enfermidade sutil na região intestinal, cuja febre latente possa estar interferindo no processo.</p>
 <p>O que descrevi para as disfunções gástricas e a constipação aplica-se, na verdade, a todas as demais enfermidades. Observo com frequência o que ocorre quando médicos prescrevem diuréticos para expelir o acúmulo de líquido em casos de peritonite ou pleurisia. Seguindo a mesma lógica exposta anteriormente, o medicamento, de fato, promove a diurese em um primeiro momento, e com a eliminação da urina, a doença parece regredir. Trata-se, porém, de um alívio temporário. Passado certo tempo, de maneira análoga ao que ocorre com os laxantes, a capacidade natural de excreção de urina diminui progressivamente. Como consequência, a doença se agrava.</p>
 <p>A pretensão de que os medicamentos, desenvolvidos pela ciência de laboratório, possam sequer tocar no mistério da força vital não passa de um sonho de tolos. Existe um abismo inconcebível entre os órgãos internos — que operam sem cessar, a cada fração de segundo, movidos por fluidos, calor e outras substâncias misteriosas e incompreensíveis — e o interior de um tubo de ensaio, que contém mera matéria inerte. É, portanto, perfeitamente natural que os resultados práticos se mostrem contrários à teoria acadêmica. O desconhecimento generalizado desse princípio é a causa de um sofrimento espantoso. A quantidade de pessoas que têm suas vidas abreviadas por essa ação inversa dos medicamentos é verdadeiramente assustadora. Por essa razão, é nosso dever primordial fazer com que o maior número possível de pessoas, o mais rápido possível, compreenda estes equívocos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十五、薬剤の逆作用 『日本医術講義録』第１篇、昭和10(1935)年執筆 薬剤は、病気治癒を妨害するものである理は、屡々（しばしば）述べた通りであるが、何故に妨害するかと言うと、それは逆作用をするからである。<br/><br/>逆作用とは、薬剤を用いる目的と反対の結果になるのである。<br/><br/>例えば、胃の悪い人が、消化薬をのむとする。<br/><br/>なる程、一時は快くなり、病気が治癒される様に思うが、何ぞ知らん、それは、胃の力ではなく、薬の力に依ってであるから、その為に胃そのものは、活動が鈍るのである。<br/><br/>それは、薬剤が働くから、胃自身の活動は、一時停止の状態となるのである。<br/><br/>随って、服用すればする程、胃は益々怠惰となり、益々弱るのである。<br/><br/>故に、最初、胃を強健にしたい目的で、服用する薬剤の、その結果は、反って反対に、胃を益々衰弱させるという結果になるのは当然なのである。<br/><br/>これと同じく便秘する人が、下剤を用ゆれば、大便排泄機関は活動の必要がないから、漸時退化してゆくのである。<br/><br/>退化する結果、いよいよ便秘を来し、いよいよ下剤の必要を感ずるのである。<br/><br/>かような訳であるから、胃を強健にしたければ、胃をして大いに活動をさせなければならない。<br/><br/>それには、特に、消化良き物を択ばず、すべて、普通食を摂取するのがいいのである。<br/><br/>普通食は、自然に、人間の胃の活動に適合する様に出来ており、祖先以来、それに依って立派に健康を保って来たのであるから、特に、牛乳を呑むとか、肝油を呑むとかは、いかに不合理であるかは判るのである。<br/><br/>故に、万一、普通食を摂っていて、消化が悪るかったり、又は、胃に異常が生ずるとすれば、それはいずれかに、間違った事があるのである。<br/><br/>例えば、運動が不足だとか、飯の分量や時間を決めて食うとか、薬剤を服用するとか、それらの原因によってであるから、その原因を改めれば、必ず治るのである。<br/><br/>胃病等に罹るべきはずのものではないのである。<br/><br/>故に、胃病などになるという事は、私は不思議と思うのである。<br/><br/> 次に、便秘なども不思議なのである。<br/><br/>物を飲み食いすれば、水分は尿となりて排泄され、固形物は糞便となって、体外へ排泄されるのは、定（きま）り切った事である。<br/><br/>人間の肉体はそう出来ているのである。<br/><br/>そうならないのは、矢張りどこかに間違った点があるのである。<br/><br/>それをよく査べてみれば必ず解るので、早速、その原因を革（あらた）めさえすれば必ず治るのである。<br/><br/>即ち、水分の摂り方が少いとか、野菜が少いとか、偏食の癖があるとか、又は、腸の付近に気の付かない様な病気があって、その病気の微熱の為か、まず、それらの点を考うべきである。<br/><br/>右述べた、胃病と便秘以外、あらゆる病気はそうなのである。<br/><br/>よく、私が実見する所であるが、腹膜や肋膜で溜った水を排泄すべく、尿の出る薬を、医師は服ませるが、これも前述の理に依って、その薬剤を服用するや、一時は、効目によって尿が出、尿が出るから病も軽減するが、それは一時的の事であって、ある時期を過ぎると、漸時便秘の場合と同じく、尿の排泄が減少してゆくのである。<br/><br/>従って病は悪化するのである。<br/><br/> 今日の科学の試験管での研究になった薬剤が、生命力の神秘に触れると言う事は、痴人の夢である。<br/><br/>分秒も停止なき、不可解の液体や熱、その他未知の物質に依って動いている内臓と、ただ物質に過ぎない、試験管の中とは、夢想も出来ない異（ちが）いさである。<br/><br/>学理と反対の結果になる等は、当然の話である。<br/><br/>この様な事すら、社会一般に判っていない為に、いかに多くの人が、この薬剤の逆作用によって、苦しみつつ、命を縮めているかは、実に恐るべきものがあろう。<br/><br/>故に一日も早く、これらの誤謬を、一人にても多く、判らさなければならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>toushin</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 答申案 未発表、昭和18(1943)年執筆 本療法を海軍において採用する場合、具体的施策として、最も急を要する部面を記述する事左のごとし。<br><br> 一、第一線における航空士の体力を強化する事、左のごとし。<br><br>要件としては、疲労の快復持久力、特に視力及び頭脳の明快、挙動の敏捷等を促進せしむる事は勿論である。<br><br> 右実行する上において、まず適当なる治療士三人を選択して、第一線の飛行基地に派遣する。<br><br>聞く所によれば、基地は数十個所に及ぶ由、従って、各基地における衛生兵又は看護卒等の中より受講者を選び、本療法を右派遣治療士より修得すれば、教習五日間位にて相当の治療技能を得、漸次その効果を挙ぐるに至るべし。<br><br> しかして右解決次第、マラリヤその他の熱帯病解決に着手すべき方針なるが、恐らく空前の治療効果を挙げ得る事と信ず。<br><br> 二、現在最も喫緊事は、結核問題の解決にある事はいうまでもない。<br><br>これに対し、本療法が、結核に対しいかに効果あるかを示すべく、左のごとき方法が最も適切と思惟す。<br><br> 少くとも五十人以上の結核患者を収容し本療法を施行するのである。<br><br>何となれば、少数の治療実例にては、未だ適確なる効果を思わしむるには不充分であるからである。<br><br>しかして、本治療の効果をして最も適確に示すには、専門の医家監督の下に厳密なる科学的診査をなし、統計的記録を作成するのである。<br><br>かくのごとき公正なる測定によれば、初めて実際的価値が決定さるるであろう。<br><br>右の結果として、医学上においても結核解決の一転機を作られるであろう。<br><br>しかるに幸いなるかな、右方策実行について、横浜市の外人居留地に、敵産である一棟の建造物があり、この建物は右の目的に最もよく適合し、病床さえ搬入すれば、直ちに病院となるべく、右は大蔵省保有のものの由なれば、貴省より建物移管の処置をとられ、病床数十個を設置せられたいのである。<br><br>しからば早急に実験治療にとりかかり得るのである。<br><br>しかして右建物の隣家に適当な住宅あり、この家に拙者居住し直接監督治療をなし得るを以て、効果を挙ぐる上に非常の便宜なりと思惟す。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Proposta de Medidas para a Aplicação de Nossa Terapia na Marinha</h2>
 <p>Para a implementação de nossa terapia na Marinha, apresento a seguir as medidas concretas para as áreas que demandam a mais premente atenção.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>A proposta consiste em reunir no mínimo cinquenta pacientes com tuberculose para que recebam o tratamento por nossa terapia. A razão para tal exigência é que um número reduzido de casos seria insuficiente para comprovar, de forma inequívoca, os resultados do tratamento. Ademais, para que a eficácia da terapia seja demonstrada com o máximo rigor, é fundamental que todo o processo ocorra sob a supervisão de médicos especialistas, com a realização de exames científicos detalhados e a elaboração de registros estatísticos. Somente por meio de uma avaliação tão imparcial será possível determinar o seu verdadeiro valor prático. O resultado desse estudo representará, sem dúvida, um marco decisivo na superação da tuberculose, inclusive no campo da medicina.</p>
 <p>Felizmente, para a execução deste plano, existe uma oportunidade singular. Na área de residência de estrangeiros, na cidade de Yokohama, há um edifício que foi propriedade de cidadãos de nação inimiga. Este imóvel é perfeitamente adequado para o propósito em questão; basta que se providenciem os leitos para que ele seja imediatamente convertido em um hospital. Tendo em vista que o referido edifício se encontra sob a jurisdição do Ministério das Finanças, solicito que o vosso ministério tome as providências para a sua transferência e para a instalação de algumas dezenas de leitos.</p>
 <p>Com isso, poderemos dar início aos tratamentos experimentais sem demora. Acrescento, ainda, que ao lado do referido edifício há uma residência adequada onde eu mesmo poderia me instalar. Essa proximidade me permitiria supervisionar diretamente os tratamentos, o que considero ser de imensa conveniência para a obtenção dos melhores resultados.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 答申案 未発表、昭和18(1943)年執筆 本療法を海軍において採用する場合、具体的施策として、最も急を要する部面を記述する事左のごとし。<br/><br/> 一、第一線における航空士の体力を強化する事、左のごとし。<br/><br/>要件としては、疲労の快復持久力、特に視力及び頭脳の明快、挙動の敏捷等を促進せしむる事は勿論である。<br/><br/> 右実行する上において、まず適当なる治療士三人を選択して、第一線の飛行基地に派遣する。<br/><br/>聞く所によれば、基地は数十個所に及ぶ由、従って、各基地における衛生兵又は看護卒等の中より受講者を選び、本療法を右派遣治療士より修得すれば、教習五日間位にて相当の治療技能を得、漸次その効果を挙ぐるに至るべし。<br/><br/> しかして右解決次第、マラリヤその他の熱帯病解決に着手すべき方針なるが、恐らく空前の治療効果を挙げ得る事と信ず。<br/><br/> 二、現在最も喫緊事は、結核問題の解決にある事はいうまでもない。<br/><br/>これに対し、本療法が、結核に対しいかに効果あるかを示すべく、左のごとき方法が最も適切と思惟す。<br/><br/> 少くとも五十人以上の結核患者を収容し本療法を施行するのである。<br/><br/>何となれば、少数の治療実例にては、未だ適確なる効果を思わしむるには不充分であるからである。<br/><br/>しかして、本治療の効果をして最も適確に示すには、専門の医家監督の下に厳密なる科学的診査をなし、統計的記録を作成するのである。<br/><br/>かくのごとき公正なる測定によれば、初めて実際的価値が決定さるるであろう。<br/><br/>右の結果として、医学上においても結核解決の一転機を作られるであろう。<br/><br/>しかるに幸いなるかな、右方策実行について、横浜市の外人居留地に、敵産である一棟の建造物があり、この建物は右の目的に最もよく適合し、病床さえ搬入すれば、直ちに病院となるべく、右は大蔵省保有のものの由なれば、貴省より建物移管の処置をとられ、病床数十個を設置せられたいのである。<br/><br/>しからば早急に実験治療にとりかかり得るのである。<br/><br/>しかして右建物の隣家に適当な住宅あり、この家に拙者居住し直接監督治療をなし得るを以て、効果を挙ぐる上に非常の便宜なりと思惟す。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

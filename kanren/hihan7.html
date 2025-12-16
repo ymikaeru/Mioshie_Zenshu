@@ -4,56 +4,211 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hihan7</title>
 <link href="../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ――― 関 連 出 版 物 ――― 教祖の印象 大場さち子 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 教祖岡田茂吉氏の法難顛末記「新しき暴力」に、読後感をよせたのを機縁として、親しく教祖におあいしたのは、八月三十一日のことである。<br><br>意外に早い秋の訪れが感じられる日で、朝から小雨が降ったり、やんだりしていたが、箱根の強羅についてからも、雨霧は晴れず、もうもうたる一面の霧にとざされて、山上の視界は遮られていた。<br><br>その霧にぬれて、紫のあじさいや、白い芙蓉の花がひそやかに咲いているのが、眼にしみた。<br><br>ともすればすべりがちな山の岩道を登りつめた高台に、新築されたばかりの日光殿と、それをとりまいて、奇岩巨石に流泉の美をこらした神苑が、地上天国はかくやとばかりに、私達一行を迎えてくれた。<br><br> この新しい信仰の殿堂は、建築に関して、一片の知識ももたない私の眼にも決して何作りとか、何様式とかいわれる業々しいものでないことがはっきりとわかった°われわれの住居を広くしただけの建物にすぎないのであるが、その内部へ一歩ふみ入つた瞬間に、何となく心がひきしまり、頭の下がるような思いがしたことは、うそではない。<br><br>それは一本の柱、一枚の板にも、五十万信徒の霊魂がこもっていたせいであろうか、広間も小間も廊下も、至るところが清浄で、素朴で、どこにも余分の装飾がないのだ。<br><br>神苑もやっぱりその通りで、御案内していただいた阿部氏のお話では、教祖が御神意のままに指揮され、信徒の労力奉仕で築かれたのだそうである。<br><br>そういえば、一つの岩、一樹のかげにも、人間の誠意がこもっているように感じられる。<br><br>びっくりするような大きな岩を配置しながら、少しも威圧を感じさせず、どこまでも明るく、自然で、すがすがしい。<br><br> 私はもうそれだけで、教祖の人格にふれたような気がした。<br><br>案の定、応接間で直接向い合った教祖は、親しみ深い小父さんといった感じで、教祖だの、生神様だのという言葉からくるいかめしいポーズも、神秘めいた姿態もない。<br><br>いかにもざっくばらんで、話し好きな方であった。<br><br> 美術骨董に高い鑑識眼をもっていられることは、徳川夢声氏の問答有用で、すでに知っていたが、この日も話は古美術から始まり、お手もとに秘蔵されている朝鮮の古鉢や、井戸の茶碗を見せて、なみなみならぬ深い造詣を示されたが、それも教えてやるといった高飛車なものでなく、美術の話をすることが、心からたのしくてたまらない御様子である。<br><br> そこから出発して、メシヤ教の教義やら、信仰の話にはいって行ったのであるが、私のような不信の、徒が、一番関心をもつているのは、御浄霊による治病の奇蹟である。<br><br> この日の世話役をひきうけて下さった岩崎氏は、私を医薬の盲信者のようにいわれるが、なるほど私の座右には、錠剤や注射薬がおいてないことはなく、どこへ行くにも薬持参で、正に中毒症状の一歩手前であるけれど、私は実は大して医者も薬も信用していないのである。<br><br>医者は私のような病弱な体を名づけて、虚弱体質だの、惨出性体質だのといい、治療の方法はないという。<br><br>これ程ずるい逃避はないのだが、これによって、科学の合理性に立脚した医学にも、限界があり、生命の紳秘は到底現在の医学で究明し得られないことを証明している。<br><br> 岡田教祖は「医学は迷信だ」と、断定された。<br><br> これを言葉通りにうけとってはならないだろう。<br><br>新興宗教をさして、十ぱ一からげに迷信で片づけたがる人々に対する教組の抗議であり、余りにも唯物主義に傾いた人々へ、逆説的に唯心主義を強調されたのだと私は見ている。<br><br>われわれの世代の不幸は、あらゆる物事を信ずることよりも、先ず疑うことから出発するように訓練されていることだ。<br><br>人間の掌から光を発し、それが病巣に作用して治病の効果をあげるということも全面的に信じない代り、医薬万能で、健康を買いとることも出来ないと思っている、ところがメシヤ教の信者は事実御浄霊で病気を癒しているし、戦争中中国の農民は、日本の軍医から渡された馬糞をこねた丸薬をのまされて、けろりと難病が癒っているのだ。<br><br>ここに人間の精神に宿る神秘な力が働く。<br><br>御浄霊が幾多の奇蹟を生んで、医薬では治療出来なかった病気を癒しているのは、それを施す人と、施される人との間に、信仰という精神の交流が、電気のように感電し合うところから起るのである。<br><br> 信仰の話となると、教祖の瞳には、異常な光が宿った。<br><br>人間岡田氏から、とたんに教祖の座に直り、霊的な存在となって、私の心に迫ってきた。<br><br>この凡にして非凡、非凡にして凡――そこに五十万信徒が教祖と仰ぐ岡田氏の魅力と偉大さがある。<br><br>われわれはもはやこけおどしの金ピカ衣裳や、金ピカ御殿にはだまされない眼をもっているのだ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Publicações Relacionadas — Impressões sobre Meishu-Sama</h2>
 <p><strong>Por Sachiko Oba</strong>
@@ -70,5 +225,48 @@ function toggleLang(lang) {
 <p>Não se deve, porém, interpretar essa afirmação ao pé da letra. Eu a vejo como um protesto contra aqueles que, de forma generalizada, tendem a rotular as novas religiões como mera crendice. Entendo-a também como uma ênfase paradoxal no espiritualismo, como contraponto ao materialismo exacerbado de nossa época.</p>
 <p>A grande infelicidade de nossa geração é termos sido ensinados a partir sempre da dúvida, em detrimento da fé. Assim como não consigo acreditar integralmente que uma luz emanada da palma da mão possa atuar no foco da doença e promover a cura, tampouco creio ser possível comprar a saúde com remédios. No entanto, é um fato que os membros da Igreja Messiânica se curam por meio do Johrei. Lembro-me também de que, durante a guerra, camponeses chineses se recuperaram de doenças graves ao ingerir pílulas de esterco de cavalo que lhes foram dadas por médicos do exército japonês. Eis aí a atuação da força misteriosa que habita o espírito humano. Os inúmeros milagres do Johrei, que curam enfermidades onde a medicina falhou, ocorrem porque, entre quem o ministra e quem o recebe, estabelece-se uma corrente espiritual — a fé —, que flui entre ambos como uma corrente elétrica.</p>
 <p>Quando a conversa se voltou para a fé, um brilho singular acendeu-se nos olhos de Meishu-Sama. Naquele instante, ele deixou de ser o senhor Okada para assumir plenamente seu lugar como Fundador, tornando-se uma presença espiritual que tocou profundamente minha alma. Ordinário e, ao mesmo tempo, extraordinário; extraordinário e, ao mesmo tempo, ordinário — aí residem o fascínio e a grandeza do senhor Okada, a quem quinhentos mil fiéis reverenciam como seu Mestre. Nossa geração já não se deixa iludir por suntuosos trajes dourados ou por palácios resplandecentes, meras aparências vazias.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>――― 関 連 出 版 物 ――― 教祖の印象 大場さち子 『メシヤ教批判』昭和26(1951)年9月25日発行、日本宗教新聞社刊 教祖岡田茂吉氏の法難顛末記「新しき暴力」に、読後感をよせたのを機縁として、親しく教祖におあいしたのは、八月三十一日のことである。<br/><br/>意外に早い秋の訪れが感じられる日で、朝から小雨が降ったり、やんだりしていたが、箱根の強羅についてからも、雨霧は晴れず、もうもうたる一面の霧にとざされて、山上の視界は遮られていた。<br/><br/>その霧にぬれて、紫のあじさいや、白い芙蓉の花がひそやかに咲いているのが、眼にしみた。<br/><br/>ともすればすべりがちな山の岩道を登りつめた高台に、新築されたばかりの日光殿と、それをとりまいて、奇岩巨石に流泉の美をこらした神苑が、地上天国はかくやとばかりに、私達一行を迎えてくれた。<br/><br/> この新しい信仰の殿堂は、建築に関して、一片の知識ももたない私の眼にも決して何作りとか、何様式とかいわれる業々しいものでないことがはっきりとわかった°われわれの住居を広くしただけの建物にすぎないのであるが、その内部へ一歩ふみ入つた瞬間に、何となく心がひきしまり、頭の下がるような思いがしたことは、うそではない。<br/><br/>それは一本の柱、一枚の板にも、五十万信徒の霊魂がこもっていたせいであろうか、広間も小間も廊下も、至るところが清浄で、素朴で、どこにも余分の装飾がないのだ。<br/><br/>神苑もやっぱりその通りで、御案内していただいた阿部氏のお話では、教祖が御神意のままに指揮され、信徒の労力奉仕で築かれたのだそうである。<br/><br/>そういえば、一つの岩、一樹のかげにも、人間の誠意がこもっているように感じられる。<br/><br/>びっくりするような大きな岩を配置しながら、少しも威圧を感じさせず、どこまでも明るく、自然で、すがすがしい。<br/><br/> 私はもうそれだけで、教祖の人格にふれたような気がした。<br/><br/>案の定、応接間で直接向い合った教祖は、親しみ深い小父さんといった感じで、教祖だの、生神様だのという言葉からくるいかめしいポーズも、神秘めいた姿態もない。<br/><br/>いかにもざっくばらんで、話し好きな方であった。<br/><br/> 美術骨董に高い鑑識眼をもっていられることは、徳川夢声氏の問答有用で、すでに知っていたが、この日も話は古美術から始まり、お手もとに秘蔵されている朝鮮の古鉢や、井戸の茶碗を見せて、なみなみならぬ深い造詣を示されたが、それも教えてやるといった高飛車なものでなく、美術の話をすることが、心からたのしくてたまらない御様子である。<br/><br/> そこから出発して、メシヤ教の教義やら、信仰の話にはいって行ったのであるが、私のような不信の、徒が、一番関心をもつているのは、御浄霊による治病の奇蹟である。<br/><br/> この日の世話役をひきうけて下さった岩崎氏は、私を医薬の盲信者のようにいわれるが、なるほど私の座右には、錠剤や注射薬がおいてないことはなく、どこへ行くにも薬持参で、正に中毒症状の一歩手前であるけれど、私は実は大して医者も薬も信用していないのである。<br/><br/>医者は私のような病弱な体を名づけて、虚弱体質だの、惨出性体質だのといい、治療の方法はないという。<br/><br/>これ程ずるい逃避はないのだが、これによって、科学の合理性に立脚した医学にも、限界があり、生命の紳秘は到底現在の医学で究明し得られないことを証明している。<br/><br/> 岡田教祖は「医学は迷信だ」と、断定された。<br/><br/> これを言葉通りにうけとってはならないだろう。<br/><br/>新興宗教をさして、十ぱ一からげに迷信で片づけたがる人々に対する教組の抗議であり、余りにも唯物主義に傾いた人々へ、逆説的に唯心主義を強調されたのだと私は見ている。<br/><br/>われわれの世代の不幸は、あらゆる物事を信ずることよりも、先ず疑うことから出発するように訓練されていることだ。<br/><br/>人間の掌から光を発し、それが病巣に作用して治病の効果をあげるということも全面的に信じない代り、医薬万能で、健康を買いとることも出来ないと思っている、ところがメシヤ教の信者は事実御浄霊で病気を癒しているし、戦争中中国の農民は、日本の軍医から渡された馬糞をこねた丸薬をのまされて、けろりと難病が癒っているのだ。<br/><br/>ここに人間の精神に宿る神秘な力が働く。<br/><br/>御浄霊が幾多の奇蹟を生んで、医薬では治療出来なかった病気を癒しているのは、それを施す人と、施される人との間に、信仰という精神の交流が、電気のように感電し合うところから起るのである。<br/><br/> 信仰の話となると、教祖の瞳には、異常な光が宿った。<br/><br/>人間岡田氏から、とたんに教祖の座に直り、霊的な存在となって、私の心に迫ってきた。<br/><br/>この凡にして非凡、非凡にして凡――そこに五十万信徒が教祖と仰ぐ岡田氏の魅力と偉大さがある。<br/><br/>われわれはもはやこけおどしの金ピカ衣裳や、金ピカ御殿にはだまされない眼をもっているのだ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

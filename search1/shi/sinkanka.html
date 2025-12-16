@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinkanka</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新短歌々人の鈍感性 『瑞光』第1巻第7号、昭和6(1931)年12月15日発行 小児が毒々しい色彩の菓子でなくては満足しない如く人間の頭脳が教育や文化や芸術的に鍛練されない時代其物の色とか味とかゞ粗野で、単純な、強烈なものを要求するのは自然であらう。<br><br>之に反して高度の文化人が洗練された頭脳に由つて、芸術の匂ひとか感情のほのめきに依つて、詠歎鑑賞する境地、之は決して刺戟の強いものではあり得ない。<br><br>由来東洋殊に日本特異の芸術としての和歌、俳句、墨絵、茶の湯等、物の寂（さぴ）とか床しさとか恬淡（てんたん）幽幻な妙味は寧ろ俗衆が観て以て平凡とさへ思惟するものであつて之は其物から受ける芸術的感受性が頗る鋭敏の結果ではあるまいか。<br><br>尤も野性の楽から構成されたジャズとかセッションとかの主張もあるであらうが、之等は要するに時代に推移する一時的の反動産物であつて然も到底ジャズは軽薄なるヤンキー趣味を出でないし、宮殿の建築にセッションは入れらる可くもない。<br><br>之等の意味に於て今日の新短歌の形式の余りにもジャズ的で刺戟の強い字句を濫用し過ぎる。<br><br>忌憚なく言へば興奮し過ぎてる熱病患者の熱に浮かせられてゐるやうで、金切り声をふり絞つてこれでもかこれでもかと強要してゐるいらいらしさが見える、ネオンサインや明滅電光で行人の視神経を無理にもゆすぶるかのやうに。<br><br>之では短歌芸術との距離幾何（いくばく）なるやを知らずではないかと思ふ。<br><br>尠（すくな）くとも短歌を鑑賞味読する程の人に於て其幽（かす）かな表現言はゞ鋭角も絹に包まれて柔かく僅かに見える穂を掴んでたどり行く想察味、幻のやうな字句からハッキリした強い映像を眼に現す、其処（そこ）に短歌の詩的情操が躍動するのではないか、淡い表現から鋭く感受する頭脳が歌人としての吾等の本質ではないか、と言ふて定型不定型を茲（ここ）で云々（うんぬん）するのではない、不定型律と雖（いえど）も、此侭（まま）モットモット進めて、歴史の流から跳躍して新しい時代の色を沁み出さなくてはならないのは無論の事ではある、啻（ただ）今の新短歌が創作時代の騒しさが永過ぎるのだ。<br><br>速くモット落着いて欲しいのだ。<br><br>新しく而して高踏的に内容的に深く自然から神秘を探究する事だ。<br><br>要するに日本短歌の生命の再発見である。<br><br>鈍感と鈍感の錯誤から脱する事だ、以前自分は九代目団十郎の劇を好んで能く見たものである、彼が動かぬ動作で観客を魅了した其劇芸術の素晴らしさは今でも忘れ得ない、又絵画にしても一筆の線と一刷毛（はけ）の墨色に依つて山水を髣髴（ほうふつ）させ一滴の黒点が人物を想像さす如き、実に東洋芸術の妙味は茲にあるのではないか。<br><br>短歌と雖も平仮名文字が主体である以上純日本のものであらう、今の短歌の形式が恰（あたかも）白人が物に感じた刹那（せつな）の動作のセンチメンタリズムな露骨な表現を真似るやうな軽薄さが多過ぎる、安つぽい感激がありすぎる、オツチョコチョイすぎる。<br><br>之れも時代の弊と言へば夫（そ）れ迄だが弊は何処（どこ）迄も弊であつて吾等は此余りにも解りすぎた邪道から還元して短歌本然の道を歩まなければならないと思ふ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Insensibilidade dos Poetas da Nova Poesia Tanka</h2>
 <p>Assim como uma criança só se satisfaz com doces de cores berrantes, é natural que, em uma era na qual o intelecto humano não é devidamente lapidado pela educação, pela cultura e pelas artes, as pessoas anseiem por manifestações de matiz e sabor rudes, simplórios e intensos. Em nítido contraste, a percepção de uma pessoa de elevada cultura, dotada de um intelecto refinado, é um estado no qual se contempla e se aprecia o aroma sutil da arte e o delicado vislumbre da emoção; esse estado jamais poderia provir de um estímulo veemente. Desde tempos imemoriais, as artes peculiares do Oriente, e em especial do Japão, tais como a poesia waka, o haiku, a pintura em nanquim e a cerimônia do chá, encerram um primor sereno, elegante, transcendental e etéreo. É um primor que as massas, ao observá-lo, poderiam até mesmo julgar como trivial. Não seria este, na verdade, o resultado de uma sensibilidade artística aguçadíssima para captar a essência das coisas?</p>
 <p>Certamente, haverá quem defenda manifestações como o jazz e as <em>jam sessions</em>, que derivam de uma musicalidade selvagem. Contudo, tais expressões são, em essência, produtos reativos e transitórios de uma época. Afinal, o jazz não transcende seu caráter de passatempo ianque e frívolo, e seria inconcebível incorporar uma <em>jam session</em> à arquitetura de um palácio. Nesse sentido, a forma da nova poesia tanka de hoje abusa de um vocabulário excessivamente jazzístico e de estímulos contundentes. Para ser franco, assemelha-se ao delírio de um paciente em estado febril, superexcitado. Percebe-se uma irritante insistência, como se o poeta, aos brados, nos interpelasse com um “Ainda não basta?”, “E agora, basta?”. É como se as luzes de néon e os anúncios intermitentes agredissem à força o nervo óptico dos transeuntes. Diante disso, não nos damos conta da imensa distância que se abriu entre essa prática e a verdadeira arte da poesia tanka?</p>
 <p>No mínimo, para aquele que se dedica a apreciar e a degustar a poesia tanka, a verdadeira fruição reside na sutileza. É na expressão sutil — onde até o ângulo mais agudo se apresenta envolto em seda — que se encontra o deleite da perspicácia, um tatear que segue a ponta de uma lança apenas visível. É a partir de um vocabulário quase fantasmagórico que imagens nítidas e vigorosas se manifestam aos olhos da mente. Não é justamente aí que pulsa o sentimento poético da tanka? Acaso a nossa essência como poetas não reside em um intelecto capaz de sentir com acuidade aquilo que é expresso com delicadeza? Não estou aqui a debater sobre formas fixas ou livres. Ainda que se trate de uma métrica livre, é evidente que ela deve avançar muito, muito mais, rompendo com o fluxo da história para fazer brotar as cores de uma nova era. O problema é que o alvoroço da fase de criação da nova poesia tanka já se prolonga por tempo demais. Desejo que ela se assente o quanto antes. Que seja nova, sim, mas também elevada, e que investigue o mistério a partir da natureza, com profundidade de conteúdo.</p>
 <p>Em suma, trata-se de redescobrir a força vital da poesia tanka japonesa. Trata-se de escapar do equívoco gerado pela insensibilidade mútua. No passado, apreciei com frequência o teatro de Danjuro IX. A maestria de sua arte cênica, com a qual cativava a plateia por meio de uma ação imóvel, é algo que até hoje não consigo esquecer. O mesmo se aplica à pintura: com uma única pincelada e uma só nuance de nanquim, evoca-se uma paisagem inteira; com um único ponto de tinta, sugere-se uma figura humana. Em verdade, não é nisto que reside o primor da arte oriental? A poesia tanka, por ter como base a escrita hiragana, é puramente japonesa. A sua forma atual, no entanto, exibe uma excessiva frivolidade, como se imitasse a expressão sentimentalista e explícita do homem ocidental em seus impulsos momentâneos. Há nela um excesso de comoção barata. É precipitada demais. Se dissermos que esta é uma mazela de nossa era, talvez seja o fim da discussão. Todavia, uma mazela será sempre uma mazela, e é nosso dever regressar deste caminho desviado, que se tornou óbvio demais, para trilhar a senda autêntica da poesia tanka.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新短歌々人の鈍感性 『瑞光』第1巻第7号、昭和6(1931)年12月15日発行 小児が毒々しい色彩の菓子でなくては満足しない如く人間の頭脳が教育や文化や芸術的に鍛練されない時代其物の色とか味とかゞ粗野で、単純な、強烈なものを要求するのは自然であらう。<br/><br/>之に反して高度の文化人が洗練された頭脳に由つて、芸術の匂ひとか感情のほのめきに依つて、詠歎鑑賞する境地、之は決して刺戟の強いものではあり得ない。<br/><br/>由来東洋殊に日本特異の芸術としての和歌、俳句、墨絵、茶の湯等、物の寂（さぴ）とか床しさとか恬淡（てんたん）幽幻な妙味は寧ろ俗衆が観て以て平凡とさへ思惟するものであつて之は其物から受ける芸術的感受性が頗る鋭敏の結果ではあるまいか。<br/><br/>尤も野性の楽から構成されたジャズとかセッションとかの主張もあるであらうが、之等は要するに時代に推移する一時的の反動産物であつて然も到底ジャズは軽薄なるヤンキー趣味を出でないし、宮殿の建築にセッションは入れらる可くもない。<br/><br/>之等の意味に於て今日の新短歌の形式の余りにもジャズ的で刺戟の強い字句を濫用し過ぎる。<br/><br/>忌憚なく言へば興奮し過ぎてる熱病患者の熱に浮かせられてゐるやうで、金切り声をふり絞つてこれでもかこれでもかと強要してゐるいらいらしさが見える、ネオンサインや明滅電光で行人の視神経を無理にもゆすぶるかのやうに。<br/><br/>之では短歌芸術との距離幾何（いくばく）なるやを知らずではないかと思ふ。<br/><br/>尠（すくな）くとも短歌を鑑賞味読する程の人に於て其幽（かす）かな表現言はゞ鋭角も絹に包まれて柔かく僅かに見える穂を掴んでたどり行く想察味、幻のやうな字句からハッキリした強い映像を眼に現す、其処（そこ）に短歌の詩的情操が躍動するのではないか、淡い表現から鋭く感受する頭脳が歌人としての吾等の本質ではないか、と言ふて定型不定型を茲（ここ）で云々（うんぬん）するのではない、不定型律と雖（いえど）も、此侭（まま）モットモット進めて、歴史の流から跳躍して新しい時代の色を沁み出さなくてはならないのは無論の事ではある、啻（ただ）今の新短歌が創作時代の騒しさが永過ぎるのだ。<br/><br/>速くモット落着いて欲しいのだ。<br/><br/>新しく而して高踏的に内容的に深く自然から神秘を探究する事だ。<br/><br/>要するに日本短歌の生命の再発見である。<br/><br/>鈍感と鈍感の錯誤から脱する事だ、以前自分は九代目団十郎の劇を好んで能く見たものである、彼が動かぬ動作で観客を魅了した其劇芸術の素晴らしさは今でも忘れ得ない、又絵画にしても一筆の線と一刷毛（はけ）の墨色に依つて山水を髣髴（ほうふつ）させ一滴の黒点が人物を想像さす如き、実に東洋芸術の妙味は茲にあるのではないか。<br/><br/>短歌と雖も平仮名文字が主体である以上純日本のものであらう、今の短歌の形式が恰（あたかも）白人が物に感じた刹那（せつな）の動作のセンチメンタリズムな露骨な表現を真似るやうな軽薄さが多過ぎる、安つぽい感激がありすぎる、オツチョコチョイすぎる。<br/><br/>之れも時代の弊と言へば夫（そ）れ迄だが弊は何処（どこ）迄も弊であつて吾等は此余りにも解りすぎた邪道から還元して短歌本然の道を歩まなければならないと思ふ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

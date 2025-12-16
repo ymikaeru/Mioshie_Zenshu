@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280401</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年4月1日） 『御垂示録』19号、昭和28(1953)年4月15日発行 昭和二十八年四月一日 “乾山（けんざん）代々を偲ぶ会”というのを十四日から三越でやります。<br><br>品物を借りに、いろいろ目録を書いて来たのです。<br><br>乾山代々を偲ぶ会というのですから、やっぱり光琳（こうりん）、光悦（こうえつ）、宗達（そうたつ）というのでしょうが、方々から一点か二点ずつ集めればありますが、私の所に来ればまとまっているから非常に世話がありません。<br><br>それで十数点貸してくれというので、だいたい貸すことにしました。<br><br> 「先だって熱海の新聞に重要文化財ということで出ておりましたのはどういう物でございますか」 兀庵（ごったん）という支那の宋時代の坊さんのものです。<br><br>まだいろいろ重要文化財になるのがあるのです。<br><br>洋人秦楽の屏風です。<br><br>もう一つは布袋の茶掛がありましたが、それも重文になると言ってます。<br><br>しかしお役人がやることなので、なかなか手間がかかります。<br><br>それから岩佐又兵衛の二巻の巻物もなります。<br><br>だんだん品物はなくなってしまうので、なくなるに従って望みというのは増えて、値段ばかり張っています。<br><br>今聞いたのですが、因果経の五十行が売りに出たのです。<br><br>私は知ってますが、どんなに高い値段になるか分かりません。<br><br> 「昨日大塚巧芸社の因果経の複製を拝見させていただきましたが、たいへんに良くできております」 良くできてます。<br><br>ずいぶん売れるでしょう。<br><br>ああいうのは世界中に売れます。<br><br>「湯女（ゆな）」もたいへんです。<br><br>これは浮世絵では日本一です。<br><br>「彦根屏風」と「松浦屏風」と「湯女」の三つが一番ですが、その三点の中でも「湯女」が一番だそうですから、世界一の物です。<br><br>アメリカでもあれは評判になっているそうです。<br><br> 「いつ頃日本に帰りますのでございましょうか」 今年一年ですから、早くて暮れでしょうが、来春には帰るでしょう。<br><br>私のほうで持っている美術品という物はどこまで高くなるか分かりません。<br><br>私は最初から一級品を狙ったのです。<br><br>琳派物でも今はたいへんなものです。<br><br>後ではもうできないのですから、どこかへはいってしまえばしようがないです。<br><br>それで今美術品愛好というものは世界的に流行してます。<br><br>今度の浮世絵展でも、浮世絵の良い物が集まりました。<br><br>ですから今に浮世絵の良い物もたいへんなことになります。<br><br>ところで浮世絵の肉筆のほうが安いのですから、そんなばかなことはありません。<br><br>それで私は肉筆を狙って、安いうちに買ったのです。<br><br>ところが今は肉筆もだいぶ高くなってきました。<br><br>これは神様がやっているのですから、実に不思議ですが、今度はエジプト、ギリシャ、ペルシャの物が集まってきてます。<br><br>それがまた安いのです。<br><br>しかしこれは今に高くなるだろうと思います。<br><br>なにしろ三千年前の彫刻ですから、日本の天平（てんぴょう）、奈良朝よりもっと古い物です。<br><br> 「いつ頃日本に渡来したものでございましょうか」 分かりませんが、明治頃に外国に行った人が珍しいというので日本に持って来たらしいので、徳川時代にはなかったでしょう。<br><br>明治以後に外国に行った人が珍しいので持って来たのでしょう。<br><br>エジプトではそういう物は一切国外に持ち出すことを禁止したそうです。<br><br>ですからこれからは駄目です。<br><br>それでエジプトの墓を掘ったりしたのでしょう。<br><br>それはみんな三千年以上のもので、その人の愛好品を中に入れたものなのです。<br><br>ですから中国も、中共政府が去年あたりから墓をあばいているのですが、そこには貴金属があるので、それを掘り出して財政を補おうと思っているのです。<br><br>それはエジプトも、ピラミットの中の王様の墓には良い物が埋まっているのですが、それがまたなかなか良くできているのです。<br><br>陶器なども実に良い物です。<br><br>今度美術館に出します。<br><br>それからギリシャの壷で、二千年以上前の物ですが、裸体の女が踊っている模様になっているのです。<br><br>ですからその時分にストリッパーがあったのでしょう――これは新しいものと思ったら大違いです。<br><br>なかなか良く画いてあります。<br><br>黒地に肉色で踊っているのが出ているのですから、今見ても、実に今画いたようです。<br><br>ああいうのを写真版にして何かに使ったらおもしろいと思います。<br><br>二千年前のストリッパーということで――。<br><br>二、三カ月前に千五百年ぐらい前の支那の六朝（りくちょう）時代の石でできた三尊の弥陀（みだ）があるのですが、それが学会の問題になって、学者が調査した結果、最高の物なのです。<br><br>日本ではもちろんですが、外国でも一級品だろうというのです。<br><br>それで研究して、そのために本を一冊こしらえて、それを引き受けてくれと言って来ましたから、冗談じゃない、私のほうはそんな物は読みたくないと言ったのですが、なかなか大した物です。<br><br>今度美術館に出しますが、ペルシャの経本で、羊の皮でできていて、それに金でペルシャ文字が書いてありますが、実に良くできてます。<br><br>まるで印刷したようにきれいです。<br><br>それが何十枚もあります。<br><br>おもしろい物です。<br><br>翻訳でもしたらなかなか意味があると思います。<br><br>それが良い箱にはいってますが、その箱がまたばかに良いです。<br><br>彫刻になっていて、金をはめてあって大した物です。<br><br> 今日から、油絵では一番古い光風会の油絵の展覧会を上野でやってますが、参考品として品物を借りに来たので、三つばかり貸してやりました。<br><br>それは石でできていて弓を射っていて彫刻と、ギリシャの壷とで、これは良い物です。<br><br>獣が画いてあって、まるで今こしらえたようです。<br><br>非常にモダンです。<br><br>美的に見ても実に立派な物です。<br><br>それは約二千何百年か前の物です。<br><br> 「ブリジストン美術館で、フランスから松方さんが持って来た物を陳列してあるそうで、それを一度ぜひご覧いただきたいと申しておりました」 ぜひ見ましょう。<br><br>しかしコレクションの一部でしょう。<br><br>まだ大方はフランスの政府が押さえているのです。<br><br>それは少し遅れてくるようです。<br><br>今度来たのは一部で、もっとあるそうです。<br><br>油絵の良い物で少し古い、後期印象派の値段というのはたいへんな物だそうです。<br><br> 「七百五十万とか聞きました」 それは安いほうです。<br><br>ただみたいなものです。<br><br>アメリカのそういった物は三千万円から四千万円です。<br><br>それでどんどん売れるのです。<br><br>一千万円くらいのはザラでしょう。<br><br>しかし値打がないこともありません。<br><br>この間私は京橋の近代美術館に行って来ましたが、やっぱりブリジストンの品物を貸し借りしてます。<br><br>セザンヌの人物ですが、全く良く画いてあります。<br><br>あれを見たら、日本の洋画は全く子供のようです。<br><br>セザンヌ、ゴーガンの後期印象派ですが、実にうまいです。<br><br>しかし、うまいとはいっても、あれは日本の光琳から出たのです。<br><br>写楽、歌麿から出たので、その元はやはり光琳ですから、ああいう絵が三千万円からするとすれば、光琳は五千万円から六千万円ということに、いずれなります。<br><br>それより光琳のほうがうまいのです。<br><br> 今度三越でやる“乾山代々を偲ぶ会”というのは、イギリスの陶芸家でバーナード・リーチという人が乾山祟拝なのですが、この人が見たいというのでこの会をやることになったのです。<br><br>それでこのリーチが自分の作品をいろいろ持って来たそうですが、全部売れてしまったそうです。<br><br>この人が祟拝しているのは乾山の陶器なのです。<br><br>この間私のほうにある乾山の五、六点を貸すことにしました。<br><br>結局リーチも乾山のまねをしたわけなのです。<br><br>だから日本の美術といものがだんだん世界に分かってくるわけです。<br><br>今浮世絵の肉筆の良い物がそうとう集まりましたが、それは実にうまいものです。<br><br>あれを見たら、西洋のどんな絵でもとても比べ物にはなりません。<br><br>北斎にもうまい物があります。<br><br>いずれ美術館に出しますが、それはうまい物があります。<br><br>岩佐又兵衛、宮川長春にも実にうまい物があります。<br><br>今はまだ安いですが、これが世界的に分かって来たらたいへんなものです。<br><br>戦後財産税や何かで安かったのが、今はたいてい十倍から二十倍です。<br><br>金儲けのほうからいくと、私はずいぶん腕があったのです。<br><br>ところが儲けるつもりで買ったのではないのです。<br><br>なにしろ私は良い物で最高の物を集めるが、それが当ったのです。<br><br>三級四級というのはそう高くはありません。<br><br>かえって安くなったでしょう。<br><br>二つとない最高品はどんどん上がって行くのです。<br><br>歌切れのような物でも、私はぜんぜん知らないのです。<br><br>それでも見た目が良いですから、歌などはどうでも良いのですが、表装が良いので、狙ったのです。<br><br>ところが今になってみると、表装が良いのは中の歌も良いのです。<br><br>やっぱり歌が良いから表装も良くしてあるのです。<br><br>それで買い損ないはなかったのです。<br><br>それで私は光琳、乾山、仁清の物が好きで、そういうのを狙って買ったのですが、それが一番人気があるのです。<br><br>それからおもしろいのは曼陀羅ですが、これはたいてい双幅（そうふく）のもので金剛界と胎蔵界を画いたものですが、金剛界と胎蔵界というと日と月で、日のほうが金剛界、月のほうが胎蔵界です。<br><br>箱根の美術館にも、金で細かく作ってあるのがありましたが、もっと古いのは藤原、鎌倉の初期です。<br><br>見ると、実に細かく画いてあります。<br><br>ところがそれが五、六年前は、高いので一幅六、七万円でしょうが、それがこの頃は、それよりもっと悪い足利時代の物が五十万円ぐらいはしましょう。<br><br> 道具屋の話のようになりましたが、これでは信仰の話は出てきそうもないからこのくらいにして、質問をどうぞ。<br><br> 「まだ“アメリカを救う”と“結核信仰療法”での反響はございませんでしょうか」 「今日の朝日新聞の学芸欄に“神経科から見た世相”ということで“薬毒と称する噴飯に価する幼稚な学理をもって医学を非難している、放っておけない”と言っております。<br><br>“しかしまた口を出させたということは医学としても考えなければならない”ということが出ておりました」 何でもよいから問題にしてくれればいいのです。<br><br>問題になれば“では研究しよう”ということになって、それで結局分かるのです。<br><br>それは大きく出てますか。<br><br> 「大きく出ております。<br><br>それから文部省の迷信調査協議会で“病気のときは信仰によってなおすか”ということを四千名にアンケｰトし、医者にかからないというのが二％あり、そういうこともいろいろ考えなければならないと書いております」 「それから“結核信仰療法”の売れ行きを本屋で調べておりますが、私達としましても“アメリカを救う”に全力を上げておりまして、まだはっきりとしておりませんが、ほとんど標題を見てそれから買って行くので確かだと申しております。<br><br>このままで押して行けば問題になるだろうと思います」 それは“結核信仰療法”のほうが数はずっと売れます。<br><br> 「ただ、さばき元のほうは本屋に売りつけようとするし、本屋はなかなか受けないのです。<br><br>それは一つは、救世教の信用、宗教書は受けないということ、あまりに突飛だから、というので、この点何とか本屋を啓蒙して行きたいと思います」 結構です。<br><br>とにかくお蔭話の実例を読んだら息の根が止まってしまうでしょう。<br><br>とにかく事実ですからしようがないでしょう。<br><br>ですから前から言っているとおり、どうしても医学との戦いになるのです。<br><br>それは大問題になるよりしようがありません。<br><br> 「私共のほうでは“アメリカを救う”のときは、いくら頼んでもとってくれませんでしたが、“結核信仰療法”は黙っていてもとってくれました。<br><br>二軒ありますが、二軒ともとってくれました」 なるほど。<br><br>それで言い訳みたいなことを言うのです。<br><br>今に政府が困ることになるでしょう。<br><br>全く新宗教などにあれほどやられるということは、いかに医学に欠点があるかということで、それに違いありません。<br><br>反省しなければならないということになります。<br><br>ではどうするかということです。<br><br>ですからこの頃やっきとなって薬の宣伝をやってます。<br><br> 「ところが最近の薬の広告を見ておりますと、私共のことを裏書しているのがだいぶあります。<br><br>二、三日前から喘息の薬の広告が出ておりますが、現代医学では喘息の原因は分らない、本来は発作を止めるということを重点としてできた薬だ、ということを言っております」 昨日か一昨日の新聞に喘息をなおす方法を発見したといのですが、咽喉に痰がからむのが原因だから、痰がからまないようにする薬を発見したというのです。<br><br>なにしろ問題になるとすると、人に知れるのがたいへんなのです。<br><br>だから朝日が問題にしてくれるということは広告以上です。<br><br>それも神様が良いようにしているのです。<br><br> 「朝日の連中がこちらの本をずいぶん読んでおりますから、面白いと思います」 とにかく邪神界のほうでは脅威なのです。<br><br>今まですっかり瞞して、いよいよ自分の目的が達成するという瀬戸際に本当のものが飛び出たのですからたいへんです。<br><br>やっと文明国の人間をこれだけに弱らしたのですから……。<br><br>なにしろヨーロッパの国民などはほとんど弱ってしまっているのです。<br><br>ですからソ連が戦争しかければヨーロッパのほうは何でもありません。<br><br>ただアメリカだけはまだそこまで弱らないから厄介なのです。<br><br>ですから薬という毒をもって、これを信用させて、これまでに弱らしたという腕前は大したものです。<br><br>つまりああいう医学という、人間を弱らせる方法で瞞して、人類の生命を握ってしまったのです。<br><br>今これだけ医学と薬を信じているということは、生命をすっかり握られてしまったのです。<br><br>これが九分九厘です。<br><br>これは良く出てます。<br><br>最初はイギリスですが、弱った一番の根本はイギリスで作っているのです。<br><br>その時分はイギリスは威張っていたのです。<br><br>つまり月ですが、イギリスが弱るに従いアメリカが世界に覇権を現わした。<br><br>アメリカは星ですが、つまり月が落ちた後の闇には星が光っているのです。<br><br>そこに今度は東方の光が出るのです。<br><br>そうすると月も星も光を失って行くということになります。<br><br>今いろんな本を出しているということは太陽の光が方々に行き渡りつつあるわけです。<br><br>今まで電気やローソクやランプを使っていた者が、太陽をけしからんと言うとすると、自分のほうがいかに暗かったということです。<br><br>ですからこれは太陽の光を止めようとしても、どうすることもできないので、だんだん明るくなり、従っていくら月や星が威張ったところでしようがありません。<br><br>とにかく絶対の神様がやっているのですからしようがありません。<br><br>だからたいへんに大きな仕事なのです。<br><br> 時局の話を少しします。<br><br>今言っている休戦問題ですが、中共のほうで案を出して、俘虜問題か何かで言って来てます。<br><br>それで、いよいよ休戦が成功すると言って世界中が喜んでおりますが、そういう人達の頭というのは全く変です。<br><br>休戦ができたとしても、それは戦争が終ったということでなく一時休むということで、それではしょうがないのです。<br><br>それでは朝鮮は相変わらず分かれ分かれなのです。<br><br>だからダレスが言うとおり、朝鮮から徹兵させるのが第一の条件になります。<br><br>ところがそういうような具合ですから、結局において中共の肚は、やっぱり時を稼ぐためなのです。<br><br>この前にも休戦によってゴタゴタして時を稼いで、そのうちにアメリカのほうでは業を煮やして、こんなことをしていてはしょうがない、大々的にやっつけようというのでアイゼンハウアーが出たのです。<br><br>ところが中共のほうは、今それをやられてはたいへんですから、それを何とか延ばさなければならないというのです。<br><br>それをなんだかんだと言うのはヨーロッパのほうですが、ヨーロッパはみんな体が弱っているから戦争が怖いからで、一時的自分を慰めるものです。<br><br>それはアイゼンハウアーが承知しているから、そういうことを言っても軍備を緩めるようなことはしないです。<br><br>だからこれから千変万化でたいへんです。<br><br>中共のほうでは時日を延ばそうとするし、アメリカのほうでは延ばさせないようにするということのゴタゴタになってくるわけです。<br><br>それで中共もせっかく朝鮮をあれだけやって、手を引くということになっては、何にもならないことになってしまいます。<br><br> 株ですが、これはまだ下がります。<br><br>“山高ければ谷深し”で、ばかに高く上げたかと思うと、下がるのも大きいのです。<br><br>この昔の諺というのは良くできてます。<br><br>“山高ければ谷深し”というのは一言で真理を言ってます。<br><br>こういう都々逸（どどいつ）があります。<br><br>“売れば二上がり、買えば三下がり、これが相場の本調子”というのがありますが、ちゃんとそういうようになってます。<br><br>だから損するようにできているのです。<br><br> 「ミロクの世にはそういう経済はなくなって行くものでございましょうか」 そうです。<br><br>相場はなくなります。<br><br>なにしろ儲けるのは必要がないのです。<br><br>なぜといって、儲かってもしょうがないのです。<br><br>だいたいが金は儲かるし物資はあり余るのですから楽になるのです。<br><br>今は一生懸命に貧乏を作っているのです。<br><br>ちょうど薬をのんで病気を作っているのと同じで、何にもしなければピンピンしているのです。<br><br>それから一生懸命に糞をかけて米をとれないようにしているので、みんな一生懸命にやってわざわざ苦しみをこしらえているのです。<br><br>しかしそれも経綸上必要があったのですからしかたがないです。<br><br>実際相場というのは真理です。<br><br>私もずいぶんやりましたが非常に教えられました。<br><br>下がるときになって必ず悪い材料が出てくるのです。<br><br>夏があるから冬があるようなもので、上がるというのは良い材料です。<br><br>下がるということは悪い材料です。<br><br>夏になって、秋から冬になるというのと同じです。<br><br>これが大中小三つの山になっているのです、大がこういうときに、中がこうあり、小がこうあるのです。<br><br>世界の状態もみんなそうです。<br><br>たからつまり戦争があり平和があるのです。<br><br>大中小三段三段と言って、それがミロクというわけです。<br><br>それでミロクは三六九と書いても良いのです。<br><br>神様がやられることは実に大したもので深いです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte, a Medicina e a Transição para o Mundo de Miroku</h2>
 <p>A partir do dia catorze, a loja de departamentos Mitsukoshi promoverá um evento intitulado "Sociedade em Memória das Gerações Kenzan (乾山)". Recebi uma visita com um catálogo de itens que desejavam tomar por empréstimo. Sendo uma exposição dessa natureza, naturalmente inclui obras de Korin (光琳), Koetsu (光悦) e Sotatsu (そうたつ). Embora seja possível reunir uma ou duas peças de diversos colecionadores, recorrer à minha coleção lhes poupa um trabalho imenso, pois nela encontram um acervo coeso. Solicitaram-me, portanto, o empréstimo de mais de uma dezena de obras, e eu aquiesci.</p>
@@ -136,5 +288,48 @@ function toggleLang(lang) {
 <p>“No Mundo de Miroku, esse tipo de economia deixará de existir?”</p>
 <p>Sim, o mercado de ações desaparecerá. Lucrar não será mais necessário, pois, mesmo que se ganhe dinheiro, não terá utilidade. O princípio é que todos terão dinheiro e os bens materiais serão abundantes, então a vida será fácil. Atualmente, as pessoas se empenham em criar pobreza. É o mesmo que tomar remédios para criar doenças. Se não fizessem nada, estariam cheias de saúde e vigor. Da mesma forma, esforçam-se para espalhar fezes nos campos, impedindo que o arroz cresça. Todos se dedicam arduamente a criar seu próprio sofrimento. Contudo, isso também foi necessário dentro do Plano Divino, então não havia o que fazer.</p>
 <p>Na verdade, o mercado de ações é um reflexo da verdade. Eu mesmo operei bastante e aprendi muito com ele. Quando o mercado está para cair, invariavelmente surgem notícias ruins. Assim como o inverno existe porque existe o verão, a alta é impulsionada por boas notícias, e a baixa, por más notícias. É o mesmo ciclo do verão que se transforma em outono e depois em inverno. Esse ciclo se manifesta em três níveis: grande, médio e pequeno. Quando o ciclo grande está de uma forma, o médio e o pequeno se comportam de outras maneiras dentro dele. A situação mundial obedece a essa mesma lei. É por isso que há guerra e há paz. Três estágios, três níveis: grande, médio e pequeno. Isso é Miroku. Por essa razão, Miroku também pode ser escrito como três-seis-nove (三六九). A obra de Deus é verdadeiramente grandiosa e profunda.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年4月1日） 『御垂示録』19号、昭和28(1953)年4月15日発行 昭和二十八年四月一日 “乾山（けんざん）代々を偲ぶ会”というのを十四日から三越でやります。<br/><br/>品物を借りに、いろいろ目録を書いて来たのです。<br/><br/>乾山代々を偲ぶ会というのですから、やっぱり光琳（こうりん）、光悦（こうえつ）、宗達（そうたつ）というのでしょうが、方々から一点か二点ずつ集めればありますが、私の所に来ればまとまっているから非常に世話がありません。<br/><br/>それで十数点貸してくれというので、だいたい貸すことにしました。<br/><br/> 「先だって熱海の新聞に重要文化財ということで出ておりましたのはどういう物でございますか」 兀庵（ごったん）という支那の宋時代の坊さんのものです。<br/><br/>まだいろいろ重要文化財になるのがあるのです。<br/><br/>洋人秦楽の屏風です。<br/><br/>もう一つは布袋の茶掛がありましたが、それも重文になると言ってます。<br/><br/>しかしお役人がやることなので、なかなか手間がかかります。<br/><br/>それから岩佐又兵衛の二巻の巻物もなります。<br/><br/>だんだん品物はなくなってしまうので、なくなるに従って望みというのは増えて、値段ばかり張っています。<br/><br/>今聞いたのですが、因果経の五十行が売りに出たのです。<br/><br/>私は知ってますが、どんなに高い値段になるか分かりません。<br/><br/> 「昨日大塚巧芸社の因果経の複製を拝見させていただきましたが、たいへんに良くできております」 良くできてます。<br/><br/>ずいぶん売れるでしょう。<br/><br/>ああいうのは世界中に売れます。<br/><br/>「湯女（ゆな）」もたいへんです。<br/><br/>これは浮世絵では日本一です。<br/><br/>「彦根屏風」と「松浦屏風」と「湯女」の三つが一番ですが、その三点の中でも「湯女」が一番だそうですから、世界一の物です。<br/><br/>アメリカでもあれは評判になっているそうです。<br/><br/> 「いつ頃日本に帰りますのでございましょうか」 今年一年ですから、早くて暮れでしょうが、来春には帰るでしょう。<br/><br/>私のほうで持っている美術品という物はどこまで高くなるか分かりません。<br/><br/>私は最初から一級品を狙ったのです。<br/><br/>琳派物でも今はたいへんなものです。<br/><br/>後ではもうできないのですから、どこかへはいってしまえばしようがないです。<br/><br/>それで今美術品愛好というものは世界的に流行してます。<br/><br/>今度の浮世絵展でも、浮世絵の良い物が集まりました。<br/><br/>ですから今に浮世絵の良い物もたいへんなことになります。<br/><br/>ところで浮世絵の肉筆のほうが安いのですから、そんなばかなことはありません。<br/><br/>それで私は肉筆を狙って、安いうちに買ったのです。<br/><br/>ところが今は肉筆もだいぶ高くなってきました。<br/><br/>これは神様がやっているのですから、実に不思議ですが、今度はエジプト、ギリシャ、ペルシャの物が集まってきてます。<br/><br/>それがまた安いのです。<br/><br/>しかしこれは今に高くなるだろうと思います。<br/><br/>なにしろ三千年前の彫刻ですから、日本の天平（てんぴょう）、奈良朝よりもっと古い物です。<br/><br/> 「いつ頃日本に渡来したものでございましょうか」 分かりませんが、明治頃に外国に行った人が珍しいというので日本に持って来たらしいので、徳川時代にはなかったでしょう。<br/><br/>明治以後に外国に行った人が珍しいので持って来たのでしょう。<br/><br/>エジプトではそういう物は一切国外に持ち出すことを禁止したそうです。<br/><br/>ですからこれからは駄目です。<br/><br/>それでエジプトの墓を掘ったりしたのでしょう。<br/><br/>それはみんな三千年以上のもので、その人の愛好品を中に入れたものなのです。<br/><br/>ですから中国も、中共政府が去年あたりから墓をあばいているのですが、そこには貴金属があるので、それを掘り出して財政を補おうと思っているのです。<br/><br/>それはエジプトも、ピラミットの中の王様の墓には良い物が埋まっているのですが、それがまたなかなか良くできているのです。<br/><br/>陶器なども実に良い物です。<br/><br/>今度美術館に出します。<br/><br/>それからギリシャの壷で、二千年以上前の物ですが、裸体の女が踊っている模様になっているのです。<br/><br/>ですからその時分にストリッパーがあったのでしょう――これは新しいものと思ったら大違いです。<br/><br/>なかなか良く画いてあります。<br/><br/>黒地に肉色で踊っているのが出ているのですから、今見ても、実に今画いたようです。<br/><br/>ああいうのを写真版にして何かに使ったらおもしろいと思います。<br/><br/>二千年前のストリッパーということで――。<br/><br/>二、三カ月前に千五百年ぐらい前の支那の六朝（りくちょう）時代の石でできた三尊の弥陀（みだ）があるのですが、それが学会の問題になって、学者が調査した結果、最高の物なのです。<br/><br/>日本ではもちろんですが、外国でも一級品だろうというのです。<br/><br/>それで研究して、そのために本を一冊こしらえて、それを引き受けてくれと言って来ましたから、冗談じゃない、私のほうはそんな物は読みたくないと言ったのですが、なかなか大した物です。<br/><br/>今度美術館に出しますが、ペルシャの経本で、羊の皮でできていて、それに金でペルシャ文字が書いてありますが、実に良くできてます。<br/><br/>まるで印刷したようにきれいです。<br/><br/>それが何十枚もあります。<br/><br/>おもしろい物です。<br/><br/>翻訳でもしたらなかなか意味があると思います。<br/><br/>それが良い箱にはいってますが、その箱がまたばかに良いです。<br/><br/>彫刻になっていて、金をはめてあって大した物です。<br/><br/> 今日から、油絵では一番古い光風会の油絵の展覧会を上野でやってますが、参考品として品物を借りに来たので、三つばかり貸してやりました。<br/><br/>それは石でできていて弓を射っていて彫刻と、ギリシャの壷とで、これは良い物です。<br/><br/>獣が画いてあって、まるで今こしらえたようです。<br/><br/>非常にモダンです。<br/><br/>美的に見ても実に立派な物です。<br/><br/>それは約二千何百年か前の物です。<br/><br/> 「ブリジストン美術館で、フランスから松方さんが持って来た物を陳列してあるそうで、それを一度ぜひご覧いただきたいと申しておりました」 ぜひ見ましょう。<br/><br/>しかしコレクションの一部でしょう。<br/><br/>まだ大方はフランスの政府が押さえているのです。<br/><br/>それは少し遅れてくるようです。<br/><br/>今度来たのは一部で、もっとあるそうです。<br/><br/>油絵の良い物で少し古い、後期印象派の値段というのはたいへんな物だそうです。<br/><br/> 「七百五十万とか聞きました」 それは安いほうです。<br/><br/>ただみたいなものです。<br/><br/>アメリカのそういった物は三千万円から四千万円です。<br/><br/>それでどんどん売れるのです。<br/><br/>一千万円くらいのはザラでしょう。<br/><br/>しかし値打がないこともありません。<br/><br/>この間私は京橋の近代美術館に行って来ましたが、やっぱりブリジストンの品物を貸し借りしてます。<br/><br/>セザンヌの人物ですが、全く良く画いてあります。<br/><br/>あれを見たら、日本の洋画は全く子供のようです。<br/><br/>セザンヌ、ゴーガンの後期印象派ですが、実にうまいです。<br/><br/>しかし、うまいとはいっても、あれは日本の光琳から出たのです。<br/><br/>写楽、歌麿から出たので、その元はやはり光琳ですから、ああいう絵が三千万円からするとすれば、光琳は五千万円から六千万円ということに、いずれなります。<br/><br/>それより光琳のほうがうまいのです。<br/><br/> 今度三越でやる“乾山代々を偲ぶ会”というのは、イギリスの陶芸家でバーナード・リーチという人が乾山祟拝なのですが、この人が見たいというのでこの会をやることになったのです。<br/><br/>それでこのリーチが自分の作品をいろいろ持って来たそうですが、全部売れてしまったそうです。<br/><br/>この人が祟拝しているのは乾山の陶器なのです。<br/><br/>この間私のほうにある乾山の五、六点を貸すことにしました。<br/><br/>結局リーチも乾山のまねをしたわけなのです。<br/><br/>だから日本の美術といものがだんだん世界に分かってくるわけです。<br/><br/>今浮世絵の肉筆の良い物がそうとう集まりましたが、それは実にうまいものです。<br/><br/>あれを見たら、西洋のどんな絵でもとても比べ物にはなりません。<br/><br/>北斎にもうまい物があります。<br/><br/>いずれ美術館に出しますが、それはうまい物があります。<br/><br/>岩佐又兵衛、宮川長春にも実にうまい物があります。<br/><br/>今はまだ安いですが、これが世界的に分かって来たらたいへんなものです。<br/><br/>戦後財産税や何かで安かったのが、今はたいてい十倍から二十倍です。<br/><br/>金儲けのほうからいくと、私はずいぶん腕があったのです。<br/><br/>ところが儲けるつもりで買ったのではないのです。<br/><br/>なにしろ私は良い物で最高の物を集めるが、それが当ったのです。<br/><br/>三級四級というのはそう高くはありません。<br/><br/>かえって安くなったでしょう。<br/><br/>二つとない最高品はどんどん上がって行くのです。<br/><br/>歌切れのような物でも、私はぜんぜん知らないのです。<br/><br/>それでも見た目が良いですから、歌などはどうでも良いのですが、表装が良いので、狙ったのです。<br/><br/>ところが今になってみると、表装が良いのは中の歌も良いのです。<br/><br/>やっぱり歌が良いから表装も良くしてあるのです。<br/><br/>それで買い損ないはなかったのです。<br/><br/>それで私は光琳、乾山、仁清の物が好きで、そういうのを狙って買ったのですが、それが一番人気があるのです。<br/><br/>それからおもしろいのは曼陀羅ですが、これはたいてい双幅（そうふく）のもので金剛界と胎蔵界を画いたものですが、金剛界と胎蔵界というと日と月で、日のほうが金剛界、月のほうが胎蔵界です。<br/><br/>箱根の美術館にも、金で細かく作ってあるのがありましたが、もっと古いのは藤原、鎌倉の初期です。<br/><br/>見ると、実に細かく画いてあります。<br/><br/>ところがそれが五、六年前は、高いので一幅六、七万円でしょうが、それがこの頃は、それよりもっと悪い足利時代の物が五十万円ぐらいはしましょう。<br/><br/> 道具屋の話のようになりましたが、これでは信仰の話は出てきそうもないからこのくらいにして、質問をどうぞ。<br/><br/> 「まだ“アメリカを救う”と“結核信仰療法”での反響はございませんでしょうか」 「今日の朝日新聞の学芸欄に“神経科から見た世相”ということで“薬毒と称する噴飯に価する幼稚な学理をもって医学を非難している、放っておけない”と言っております。<br/><br/>“しかしまた口を出させたということは医学としても考えなければならない”ということが出ておりました」 何でもよいから問題にしてくれればいいのです。<br/><br/>問題になれば“では研究しよう”ということになって、それで結局分かるのです。<br/><br/>それは大きく出てますか。<br/><br/> 「大きく出ております。<br/><br/>それから文部省の迷信調査協議会で“病気のときは信仰によってなおすか”ということを四千名にアンケｰトし、医者にかからないというのが二％あり、そういうこともいろいろ考えなければならないと書いております」 「それから“結核信仰療法”の売れ行きを本屋で調べておりますが、私達としましても“アメリカを救う”に全力を上げておりまして、まだはっきりとしておりませんが、ほとんど標題を見てそれから買って行くので確かだと申しております。<br/><br/>このままで押して行けば問題になるだろうと思います」 それは“結核信仰療法”のほうが数はずっと売れます。<br/><br/> 「ただ、さばき元のほうは本屋に売りつけようとするし、本屋はなかなか受けないのです。<br/><br/>それは一つは、救世教の信用、宗教書は受けないということ、あまりに突飛だから、というので、この点何とか本屋を啓蒙して行きたいと思います」 結構です。<br/><br/>とにかくお蔭話の実例を読んだら息の根が止まってしまうでしょう。<br/><br/>とにかく事実ですからしようがないでしょう。<br/><br/>ですから前から言っているとおり、どうしても医学との戦いになるのです。<br/><br/>それは大問題になるよりしようがありません。<br/><br/> 「私共のほうでは“アメリカを救う”のときは、いくら頼んでもとってくれませんでしたが、“結核信仰療法”は黙っていてもとってくれました。<br/><br/>二軒ありますが、二軒ともとってくれました」 なるほど。<br/><br/>それで言い訳みたいなことを言うのです。<br/><br/>今に政府が困ることになるでしょう。<br/><br/>全く新宗教などにあれほどやられるということは、いかに医学に欠点があるかということで、それに違いありません。<br/><br/>反省しなければならないということになります。<br/><br/>ではどうするかということです。<br/><br/>ですからこの頃やっきとなって薬の宣伝をやってます。<br/><br/> 「ところが最近の薬の広告を見ておりますと、私共のことを裏書しているのがだいぶあります。<br/><br/>二、三日前から喘息の薬の広告が出ておりますが、現代医学では喘息の原因は分らない、本来は発作を止めるということを重点としてできた薬だ、ということを言っております」 昨日か一昨日の新聞に喘息をなおす方法を発見したといのですが、咽喉に痰がからむのが原因だから、痰がからまないようにする薬を発見したというのです。<br/><br/>なにしろ問題になるとすると、人に知れるのがたいへんなのです。<br/><br/>だから朝日が問題にしてくれるということは広告以上です。<br/><br/>それも神様が良いようにしているのです。<br/><br/> 「朝日の連中がこちらの本をずいぶん読んでおりますから、面白いと思います」 とにかく邪神界のほうでは脅威なのです。<br/><br/>今まですっかり瞞して、いよいよ自分の目的が達成するという瀬戸際に本当のものが飛び出たのですからたいへんです。<br/><br/>やっと文明国の人間をこれだけに弱らしたのですから……。<br/><br/>なにしろヨーロッパの国民などはほとんど弱ってしまっているのです。<br/><br/>ですからソ連が戦争しかければヨーロッパのほうは何でもありません。<br/><br/>ただアメリカだけはまだそこまで弱らないから厄介なのです。<br/><br/>ですから薬という毒をもって、これを信用させて、これまでに弱らしたという腕前は大したものです。<br/><br/>つまりああいう医学という、人間を弱らせる方法で瞞して、人類の生命を握ってしまったのです。<br/><br/>今これだけ医学と薬を信じているということは、生命をすっかり握られてしまったのです。<br/><br/>これが九分九厘です。<br/><br/>これは良く出てます。<br/><br/>最初はイギリスですが、弱った一番の根本はイギリスで作っているのです。<br/><br/>その時分はイギリスは威張っていたのです。<br/><br/>つまり月ですが、イギリスが弱るに従いアメリカが世界に覇権を現わした。<br/><br/>アメリカは星ですが、つまり月が落ちた後の闇には星が光っているのです。<br/><br/>そこに今度は東方の光が出るのです。<br/><br/>そうすると月も星も光を失って行くということになります。<br/><br/>今いろんな本を出しているということは太陽の光が方々に行き渡りつつあるわけです。<br/><br/>今まで電気やローソクやランプを使っていた者が、太陽をけしからんと言うとすると、自分のほうがいかに暗かったということです。<br/><br/>ですからこれは太陽の光を止めようとしても、どうすることもできないので、だんだん明るくなり、従っていくら月や星が威張ったところでしようがありません。<br/><br/>とにかく絶対の神様がやっているのですからしようがありません。<br/><br/>だからたいへんに大きな仕事なのです。<br/><br/> 時局の話を少しします。<br/><br/>今言っている休戦問題ですが、中共のほうで案を出して、俘虜問題か何かで言って来てます。<br/><br/>それで、いよいよ休戦が成功すると言って世界中が喜んでおりますが、そういう人達の頭というのは全く変です。<br/><br/>休戦ができたとしても、それは戦争が終ったということでなく一時休むということで、それではしょうがないのです。<br/><br/>それでは朝鮮は相変わらず分かれ分かれなのです。<br/><br/>だからダレスが言うとおり、朝鮮から徹兵させるのが第一の条件になります。<br/><br/>ところがそういうような具合ですから、結局において中共の肚は、やっぱり時を稼ぐためなのです。<br/><br/>この前にも休戦によってゴタゴタして時を稼いで、そのうちにアメリカのほうでは業を煮やして、こんなことをしていてはしょうがない、大々的にやっつけようというのでアイゼンハウアーが出たのです。<br/><br/>ところが中共のほうは、今それをやられてはたいへんですから、それを何とか延ばさなければならないというのです。<br/><br/>それをなんだかんだと言うのはヨーロッパのほうですが、ヨーロッパはみんな体が弱っているから戦争が怖いからで、一時的自分を慰めるものです。<br/><br/>それはアイゼンハウアーが承知しているから、そういうことを言っても軍備を緩めるようなことはしないです。<br/><br/>だからこれから千変万化でたいへんです。<br/><br/>中共のほうでは時日を延ばそうとするし、アメリカのほうでは延ばさせないようにするということのゴタゴタになってくるわけです。<br/><br/>それで中共もせっかく朝鮮をあれだけやって、手を引くということになっては、何にもならないことになってしまいます。<br/><br/> 株ですが、これはまだ下がります。<br/><br/>“山高ければ谷深し”で、ばかに高く上げたかと思うと、下がるのも大きいのです。<br/><br/>この昔の諺というのは良くできてます。<br/><br/>“山高ければ谷深し”というのは一言で真理を言ってます。<br/><br/>こういう都々逸（どどいつ）があります。<br/><br/>“売れば二上がり、買えば三下がり、これが相場の本調子”というのがありますが、ちゃんとそういうようになってます。<br/><br/>だから損するようにできているのです。<br/><br/> 「ミロクの世にはそういう経済はなくなって行くものでございましょうか」 そうです。<br/><br/>相場はなくなります。<br/><br/>なにしろ儲けるのは必要がないのです。<br/><br/>なぜといって、儲かってもしょうがないのです。<br/><br/>だいたいが金は儲かるし物資はあり余るのですから楽になるのです。<br/><br/>今は一生懸命に貧乏を作っているのです。<br/><br/>ちょうど薬をのんで病気を作っているのと同じで、何にもしなければピンピンしているのです。<br/><br/>それから一生懸命に糞をかけて米をとれないようにしているので、みんな一生懸命にやってわざわざ苦しみをこしらえているのです。<br/><br/>しかしそれも経綸上必要があったのですからしかたがないです。<br/><br/>実際相場というのは真理です。<br/><br/>私もずいぶんやりましたが非常に教えられました。<br/><br/>下がるときになって必ず悪い材料が出てくるのです。<br/><br/>夏があるから冬があるようなもので、上がるというのは良い材料です。<br/><br/>下がるということは悪い材料です。<br/><br/>夏になって、秋から冬になるというのと同じです。<br/><br/>これが大中小三つの山になっているのです、大がこういうときに、中がこうあり、小がこうあるのです。<br/><br/>世界の状態もみんなそうです。<br/><br/>たからつまり戦争があり平和があるのです。<br/><br/>大中小三段三段と言って、それがミロクというわけです。<br/><br/>それでミロクは三六九と書いても良いのです。<br/><br/>神様がやられることは実に大したもので深いです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

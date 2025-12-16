@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281015</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月15日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月十五日 明日救世会館の上棟式ということになりましたが、お天気も良さそうです。<br><br>日本建築の方は建前というと、一種の建前気分といいますか、そういうものがありますが、ああいったコンクリートの鉄筋の建築ではなんだか建前という感じはしないようです。<br><br>考えてみると、セメントと鉄材でドンドン作ってゆくのですから、別に意味はないわけです。<br><br>これは日本だけだろうと思いますが、日本の昔の木造建築の習慣が残っているために、そういうような形式をやるのだろうと思います。<br><br> とにかく、前にも言ったとおり箱根が霊で熱海が体ですから、この救世会館ができるということは、体的に一つの始まりです。<br><br>箱根の方は霊ですから、ちょっと目には見えないわけです。<br><br>しかし熱海は体ですから、この救世会館がだんだんできるに従って、その影響が世界的に現われるわけです。<br><br>一番著しいのは救世教の発展ですが、これが体的ですから目についてくるわけです。<br><br>そして神様のことはすべて型でゆくのですから、たとえてみれば、どこか拡がるとかできるというと、やはり御神業のほうもそれだけ増え、拡がってゆくわけです。<br><br>つまり小さい型を拡げれば、大きいものも拡がるということになるわけです。<br><br>ですから建て増しとか地所を拡げるということは非常によいのです。<br><br>支部などもそうで、拡げれば拡がっただけは必ず御神業の方も発展します。<br><br>これが型です。<br><br>昔の宗教が小さな所に楯籠（たてこも）って、ごく地味にやっているああいったやり方とはぜんぜん違います。<br><br>昔とても立派な堂宇（どうう）や伽藍（がらん）を作るには作ったが、それはかなり成功してからのことで、最初はまことに、そういったことにはあまり関心を持たなかったのです。<br><br>ところが救世教の行き方はそれとは違うのです。<br><br>今までは一切衆生を救うという建前でしたが、救世教の方は地上天国を造るという建設が主になってますから、やっぱりこっちの根本がそういったようになってますから、体的にも建設をしてゆかなければならないのです。<br><br>そういうようなわけで、この救世会館ができるに従って、日本はもとより外国のほうにもドンドン拡がってゆくわけです。<br><br> つい二、三日前に一カ月ぶりぐらいで樋口さんからの報告が来ましたが、これはみんな早く知りたいことですから今読ませます。<br><br> （「ハワイ通信」十） 【栄光 二三二号】 これで見ても、外人の方にもボツボツ知れてきたようで、おもしろいと思います。<br><br>それからカトリックの信者も二人救世教のことが分かってきたようですから、それほど骨の折れることもないと思います。<br><br>なにしろ米人に拡がらなければおもしろくありません。<br><br>神様がいいようにしますが、とにかく信者もハワイだけで千人を突破したようですし、ハワイの本部の土地家屋も、金の目安はだいたいついたようですから結構です。<br><br>五万ドルのうちで二万ドルは借り、二万五千ドルは信者間でできたわけですから、もう完全に手に入ったわけです。<br><br>なにしろハワイという所は島がたくさんあり、ややこしい所です。<br><br>そこで、到る所に、一つの繋がりができつつあります。<br><br>ハワイでだいぶ評判になっていて、その評判を聞いて来たフランス人があるくらいですから、わずか半年あまりで、これだけの土台ができたのです。<br><br>神様の腕前というか、とにかくすばらしいものと思ってます。<br><br>そういうわけですから、来年あたりになったら、ずいぶんおもしろくなると思います。<br><br>そういうことが、さっき言ったとおり、救世会館ができるに従って、一つの響きといいますか、そういうふうになってきます。<br><br>神様の御経綸というものは実に正確なものなのです。<br><br>ボーッとしているようでいて、実にピタリピタリとゆくのです。<br><br>私などもいつも、なにかボーッとしているけれども、時期が来るとはっきりするので、それは実におもしろいものです。<br><br>なにかヒョッと浮かぶのです。<br><br>それがなかなかあり得べきことではないと思うが、少したつとそれが出てくるのです。<br><br>だからとてもそれは駄目だと思ったことでも、案外早く現われてくるのです。<br><br>美術品などもそうです。<br><br>あれはとても駄目だ、あの家で持っているのだからとても手放すわけがない――道具屋などの話でもそうですが――と思っていると、時が来るとヒョロヒョロと入ってくるのです。<br><br>それは実におもしろいものです。<br><br> それからみんな気がつかないことで、おもしろいことがあるので書いてみました。<br><br> （御論文「詐欺時代」） 【栄光 二三一号】 伊都能売ということをよく言いますが、伊都能売というのは数でゆくと「五」「三」です。<br><br>「イヅ」「ミズ」です。<br><br>「イヅ」ということは五つ、「ミ」ということは三つということですから、「ヒ」「ミズ」ということです。<br><br>「ヒ」「ミズ」ということは「カミ」です。<br><br>「ヒ」は「カ」「ミズ」は「ミ」ですから、伊都能売が本当の神なのです。<br><br>そこでこれについておもしろいことがあります。<br><br>私が大本教にいたときに分かったのですが、“大本は世界の型であるから”というのがお筆先にあるのです。<br><br>だから神様の経綸の最初の型になるわけです。<br><br>というのは、教祖の出口なおという人は、経つまり火になるわけです。<br><br>経ですから実に几帳面で厳格なのです。<br><br>決して膝をくずしません。<br><br>だいたいが女ですからそうですが、キチンと坐って少しも体がくずれないのです。<br><br>それで実に極端なくらい厳格なのです。<br><br>食べ物でも、動物の油などは食べません。<br><br>ですから教祖の時代には信者がやはりそういうようで、なにしろ洋服は絶対にいけないし、それから皮のカバンも持たないのです。<br><br>これにはわけがありますが、以前大本教では一年に一度、丹後の沖に男島女島という二つの島があって、艮の金神様が女島男島で行をされたというのでお参りをするのですが、そのときに一度非常な暴風に遭ってさんざん船がもまれてみんな心配したことがあります。<br><br>そのとき、これにはなにかあるというので、要するにだれかが穢れた物を持っているに違いないというので調べたところが、一人皮のカバンを持っていた人があったので、これが原因だというのでその皮のカバンを海の中に投げ込んだのです。<br><br>そうすると暴風がピタッと止まったのです。<br><br>ですからまんざら迷信ではないのです。<br><br>それは教祖の身魂の因縁というか、経一方の一つの性格的のいろいろなことが現われるのです。<br><br>それからまた出口王仁三郎という方は緯ですからそれがまた極端なのです。<br><br>年中寝てますが、著述をするときには寝ながらしゃべるのです。<br><br>起きていると出ないというのです。<br><br>ですからいろんな建物の各部屋部屋には、みんな蒲団を敷いて枕をおいてあって、そこに行くとゴロッと寝るのです。<br><br>それで大本事件で官憲が調べたときに、各部屋に蒲団を敷いて枕があるので、これはここで女を犯すのだというので調べられたのです。<br><br>それで“ワシは緯の身魂だから”と言っているくらいですからしようがありません。<br><br>その経と緯、火と水が実によく現われてます。<br><br>そこで教祖さんの経一方のために、大正十年にああいった大本事件というものを起こしたのですが、一時は非常な打撃を受けました。<br><br>それから聖師様になってからは、緯のためにとうとう昭和十年に大本事件を起こしてしまったのです。<br><br>これは致命的なものです。<br><br>なにしろ七年牢屋に入っていて、終戦になったのでやっと出されたくらいなものです。<br><br>結局、経で失敗し、緯で失敗したのです。<br><br> これを世界に合わせてみるとよく分かります。<br><br>つまり東洋文明が経で、西洋文明が経ですが、経の東洋文明、要するに精神文明のために、緯の物質を否定したのです。<br><br>それがインドですが、ああいう具合に物質的には貧困になってしまってます。<br><br>これはつまらない話ですが、映画などで見ても、インド人は痩せてまるで骸骨みたいです。<br><br>それはなにかというと、食べ物を少なく食べるのが習慣になって、痩せるのがふつうになってしまっているのです。<br><br>そこにもっていって、近ごろはよほど変わったが以前は菜食と牛乳だけだったのです。<br><br>日本の封建制度というものはそれに大いに影響されているのです。<br><br>ところが西洋の方はぜんぜん別で、逆に侵略し横に拡がったために争いが絶えないというわけで、結局今は横同士が争っているわけですから、これも失敗です。<br><br>ですから東洋は経の文明によって失敗し、西洋は緯の文明によって失敗したわけです。<br><br>そこで伊都能売というのは十の真ん中で、経にあらず、緯にあらず、また経であり緯である、という融通無碍、それが伊都能売です。<br><br>そこで大本教で、教祖の経と聖師の緯から生まれたのが私なのです。<br><br>私がその両方をとった伊都能売です。<br><br>私のやり方というのは、ちょうど伊都能売的です。<br><br>バッジもそういう意味を表徴してあるのです。<br><br>経と緯のどっちにも偏らない文明、それが本当のもの、真理です。<br><br>それからもう一つは力の根源になるのです。<br><br>それで「力」という文字は、最初経を書いて、横を書いて、それからこうゆくのです。<br><br>ですから経緯を結ぶと力が出るのです。<br><br>それで結んで活動を始める形です。<br><br>浄霊で病気を治すということも、これは力です。<br><br>それでこの力というものは、歴史でも分かるとおり今まではなかったのです。<br><br>今までのは経か緯かどっちか一つです。<br><br>この結んだものというのはなかったのです。<br><br>それで結ばれないから力がないのです。<br><br>ですから今までの宗教でも力は現わさなかったのです。<br><br>みんな教えです。<br><br>宗教という教え、仏教という教えです。<br><br>しかし教えでは本当に人は救えません。<br><br>教えでは病気は治りません。<br><br>これは力でなければならないのです。<br><br>その力というのは今言ったとおり、経と緯を結んで初めて現われるのです。<br><br>それで大本の経緯を結んで私が生まれたわけです。<br><br>世界の文明がやはりそうなっているわけです。<br><br>そういうことを知れば、神様の経綸、救世教の出現ということがよく分かります。<br><br> それからよく御守護の電報が来ることがありますが、今どこが悪いとかどこが痛いとかありますが、それを読んでみると別にたいした病気ではないのです。<br><br>浄霊でもわけなく治るような症状なのです。<br><br>それがどういうわけかというと、浄霊に力が入るせいです。<br><br>だから治りが悪いのです。<br><br>それで浄霊してどうも治りが悪いというときには、力が入るからだということを心得ておくとよいです。<br><br>この力を抜くということは、むしろ難しいです。<br><br>しかもだんだん浄化が強くなるに従って、ますます光が強くなるから、そうすると光を出すには力を抜くほど出るのです。<br><br>少しでも力を入れると光の出が悪くなるのです。<br><br>妨げるわけです。<br><br>力を抜くということは、これ以上は抜けないというところまで抜かなければならないのです。<br><br>力が入るのと入らないのではたいへんな違いです。<br><br>私などもそうで、浄霊していても、ちょっと力が入っていると治りが違います。<br><br>この力を抜くと何倍もよく治ります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Edificação em Atami e o Princípio da Força</h2>
 <p>Amanhã, teremos a cerimônia de arremate da estrutura do Kyusei Kaikan, e o tempo parece que será favorável. Na arquitetura japonesa, o ato de erguer a cumeeira evoca um sentimento peculiar, uma atmosfera própria que, de algum modo, não se manifesta em edificações de concreto e aço. Refletindo a respeito, percebemos que a construção moderna se resume a um processo de sobrepor cimento e barras de ferro, destituído de um significado mais profundo. Acredito que a manutenção de tal formalidade seja apenas uma herança dos antigos costumes da carpintaria tradicional japonesa.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>Até mesmo o ideograma da palavra “força” (力) ilustra este princípio: primeiro, traça-se a linha vertical; em seguida, a horizontal; e, por fim, o gancho que as une. A força, portanto, emana da união do Vertical e do Horizontal. É o símbolo da união que dá início à atividade. O Johrei, que cura doenças, é precisamente essa força. Como a história comprova, essa força não existia até agora, pois predominava ou o Vertical, ou o Horizontal. Por não haver união, não havia força. As religiões do passado não a manifestaram; baseavam-se apenas em ensinamentos. A religião como ensino, o budismo como ensino. Os ensinamentos, por si sós, não podem salvar verdadeiramente o ser humano nem curar suas enfermidades. Para tal, é indispensável a força. E essa força, como expliquei, nasce somente quando o Vertical e o Horizontal se unem. Eu nasci da união desses dois princípios da Oomoto, e a civilização mundial segue o mesmo padrão. Compreendendo esses pontos, o Plano Divino e o advento da Sekaikyuseikyou tornam-se perfeitamente claros.</p>
 <p>Aproveito para abordar um ponto prático. Recebo com frequência telegramas que relatam graças de cura, mas, ao ler os detalhes, noto que muitas das enfermidades descritas não são graves e poderiam ser sanadas sem dificuldade pelo Johrei. Qual seria, então, o motivo da lentidão na recuperação? A causa reside na aplicação de força durante a ministração do Johrei. Sempre que a cura se mostrar demorada, tenham em mente que certamente há tensão envolvida.</p>
 <p>Eliminar essa força é, na verdade, bastante difícil. À medida que a purificação se intensifica, a Luz se torna mais forte. Para que essa Luz irradie com mais potência, é preciso relaxar. Qualquer tensão, por menor que seja, obstrui a emanação da Luz. É preciso relaxar até o limite máximo, ao ponto em que não seja mais possível relaxar. A diferença entre ministrar com tensão e sem tensão é abissal. Até mesmo comigo ocorre o mesmo: se ministro Johrei com um mínimo de tensão, a eficácia diminui. Ao eliminar essa força, a recuperação se torna muitas vezes mais rápida e efetiva.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月15日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月十五日 明日救世会館の上棟式ということになりましたが、お天気も良さそうです。<br/><br/>日本建築の方は建前というと、一種の建前気分といいますか、そういうものがありますが、ああいったコンクリートの鉄筋の建築ではなんだか建前という感じはしないようです。<br/><br/>考えてみると、セメントと鉄材でドンドン作ってゆくのですから、別に意味はないわけです。<br/><br/>これは日本だけだろうと思いますが、日本の昔の木造建築の習慣が残っているために、そういうような形式をやるのだろうと思います。<br/><br/> とにかく、前にも言ったとおり箱根が霊で熱海が体ですから、この救世会館ができるということは、体的に一つの始まりです。<br/><br/>箱根の方は霊ですから、ちょっと目には見えないわけです。<br/><br/>しかし熱海は体ですから、この救世会館がだんだんできるに従って、その影響が世界的に現われるわけです。<br/><br/>一番著しいのは救世教の発展ですが、これが体的ですから目についてくるわけです。<br/><br/>そして神様のことはすべて型でゆくのですから、たとえてみれば、どこか拡がるとかできるというと、やはり御神業のほうもそれだけ増え、拡がってゆくわけです。<br/><br/>つまり小さい型を拡げれば、大きいものも拡がるということになるわけです。<br/><br/>ですから建て増しとか地所を拡げるということは非常によいのです。<br/><br/>支部などもそうで、拡げれば拡がっただけは必ず御神業の方も発展します。<br/><br/>これが型です。<br/><br/>昔の宗教が小さな所に楯籠（たてこも）って、ごく地味にやっているああいったやり方とはぜんぜん違います。<br/><br/>昔とても立派な堂宇（どうう）や伽藍（がらん）を作るには作ったが、それはかなり成功してからのことで、最初はまことに、そういったことにはあまり関心を持たなかったのです。<br/><br/>ところが救世教の行き方はそれとは違うのです。<br/><br/>今までは一切衆生を救うという建前でしたが、救世教の方は地上天国を造るという建設が主になってますから、やっぱりこっちの根本がそういったようになってますから、体的にも建設をしてゆかなければならないのです。<br/><br/>そういうようなわけで、この救世会館ができるに従って、日本はもとより外国のほうにもドンドン拡がってゆくわけです。<br/><br/> つい二、三日前に一カ月ぶりぐらいで樋口さんからの報告が来ましたが、これはみんな早く知りたいことですから今読ませます。<br/><br/> （「ハワイ通信」十） 【栄光 二三二号】 これで見ても、外人の方にもボツボツ知れてきたようで、おもしろいと思います。<br/><br/>それからカトリックの信者も二人救世教のことが分かってきたようですから、それほど骨の折れることもないと思います。<br/><br/>なにしろ米人に拡がらなければおもしろくありません。<br/><br/>神様がいいようにしますが、とにかく信者もハワイだけで千人を突破したようですし、ハワイの本部の土地家屋も、金の目安はだいたいついたようですから結構です。<br/><br/>五万ドルのうちで二万ドルは借り、二万五千ドルは信者間でできたわけですから、もう完全に手に入ったわけです。<br/><br/>なにしろハワイという所は島がたくさんあり、ややこしい所です。<br/><br/>そこで、到る所に、一つの繋がりができつつあります。<br/><br/>ハワイでだいぶ評判になっていて、その評判を聞いて来たフランス人があるくらいですから、わずか半年あまりで、これだけの土台ができたのです。<br/><br/>神様の腕前というか、とにかくすばらしいものと思ってます。<br/><br/>そういうわけですから、来年あたりになったら、ずいぶんおもしろくなると思います。<br/><br/>そういうことが、さっき言ったとおり、救世会館ができるに従って、一つの響きといいますか、そういうふうになってきます。<br/><br/>神様の御経綸というものは実に正確なものなのです。<br/><br/>ボーッとしているようでいて、実にピタリピタリとゆくのです。<br/><br/>私などもいつも、なにかボーッとしているけれども、時期が来るとはっきりするので、それは実におもしろいものです。<br/><br/>なにかヒョッと浮かぶのです。<br/><br/>それがなかなかあり得べきことではないと思うが、少したつとそれが出てくるのです。<br/><br/>だからとてもそれは駄目だと思ったことでも、案外早く現われてくるのです。<br/><br/>美術品などもそうです。<br/><br/>あれはとても駄目だ、あの家で持っているのだからとても手放すわけがない――道具屋などの話でもそうですが――と思っていると、時が来るとヒョロヒョロと入ってくるのです。<br/><br/>それは実におもしろいものです。<br/><br/> それからみんな気がつかないことで、おもしろいことがあるので書いてみました。<br/><br/> （御論文「詐欺時代」） 【栄光 二三一号】 伊都能売ということをよく言いますが、伊都能売というのは数でゆくと「五」「三」です。<br/><br/>「イヅ」「ミズ」です。<br/><br/>「イヅ」ということは五つ、「ミ」ということは三つということですから、「ヒ」「ミズ」ということです。<br/><br/>「ヒ」「ミズ」ということは「カミ」です。<br/><br/>「ヒ」は「カ」「ミズ」は「ミ」ですから、伊都能売が本当の神なのです。<br/><br/>そこでこれについておもしろいことがあります。<br/><br/>私が大本教にいたときに分かったのですが、“大本は世界の型であるから”というのがお筆先にあるのです。<br/><br/>だから神様の経綸の最初の型になるわけです。<br/><br/>というのは、教祖の出口なおという人は、経つまり火になるわけです。<br/><br/>経ですから実に几帳面で厳格なのです。<br/><br/>決して膝をくずしません。<br/><br/>だいたいが女ですからそうですが、キチンと坐って少しも体がくずれないのです。<br/><br/>それで実に極端なくらい厳格なのです。<br/><br/>食べ物でも、動物の油などは食べません。<br/><br/>ですから教祖の時代には信者がやはりそういうようで、なにしろ洋服は絶対にいけないし、それから皮のカバンも持たないのです。<br/><br/>これにはわけがありますが、以前大本教では一年に一度、丹後の沖に男島女島という二つの島があって、艮の金神様が女島男島で行をされたというのでお参りをするのですが、そのときに一度非常な暴風に遭ってさんざん船がもまれてみんな心配したことがあります。<br/><br/>そのとき、これにはなにかあるというので、要するにだれかが穢れた物を持っているに違いないというので調べたところが、一人皮のカバンを持っていた人があったので、これが原因だというのでその皮のカバンを海の中に投げ込んだのです。<br/><br/>そうすると暴風がピタッと止まったのです。<br/><br/>ですからまんざら迷信ではないのです。<br/><br/>それは教祖の身魂の因縁というか、経一方の一つの性格的のいろいろなことが現われるのです。<br/><br/>それからまた出口王仁三郎という方は緯ですからそれがまた極端なのです。<br/><br/>年中寝てますが、著述をするときには寝ながらしゃべるのです。<br/><br/>起きていると出ないというのです。<br/><br/>ですからいろんな建物の各部屋部屋には、みんな蒲団を敷いて枕をおいてあって、そこに行くとゴロッと寝るのです。<br/><br/>それで大本事件で官憲が調べたときに、各部屋に蒲団を敷いて枕があるので、これはここで女を犯すのだというので調べられたのです。<br/><br/>それで“ワシは緯の身魂だから”と言っているくらいですからしようがありません。<br/><br/>その経と緯、火と水が実によく現われてます。<br/><br/>そこで教祖さんの経一方のために、大正十年にああいった大本事件というものを起こしたのですが、一時は非常な打撃を受けました。<br/><br/>それから聖師様になってからは、緯のためにとうとう昭和十年に大本事件を起こしてしまったのです。<br/><br/>これは致命的なものです。<br/><br/>なにしろ七年牢屋に入っていて、終戦になったのでやっと出されたくらいなものです。<br/><br/>結局、経で失敗し、緯で失敗したのです。<br/><br/> これを世界に合わせてみるとよく分かります。<br/><br/>つまり東洋文明が経で、西洋文明が経ですが、経の東洋文明、要するに精神文明のために、緯の物質を否定したのです。<br/><br/>それがインドですが、ああいう具合に物質的には貧困になってしまってます。<br/><br/>これはつまらない話ですが、映画などで見ても、インド人は痩せてまるで骸骨みたいです。<br/><br/>それはなにかというと、食べ物を少なく食べるのが習慣になって、痩せるのがふつうになってしまっているのです。<br/><br/>そこにもっていって、近ごろはよほど変わったが以前は菜食と牛乳だけだったのです。<br/><br/>日本の封建制度というものはそれに大いに影響されているのです。<br/><br/>ところが西洋の方はぜんぜん別で、逆に侵略し横に拡がったために争いが絶えないというわけで、結局今は横同士が争っているわけですから、これも失敗です。<br/><br/>ですから東洋は経の文明によって失敗し、西洋は緯の文明によって失敗したわけです。<br/><br/>そこで伊都能売というのは十の真ん中で、経にあらず、緯にあらず、また経であり緯である、という融通無碍、それが伊都能売です。<br/><br/>そこで大本教で、教祖の経と聖師の緯から生まれたのが私なのです。<br/><br/>私がその両方をとった伊都能売です。<br/><br/>私のやり方というのは、ちょうど伊都能売的です。<br/><br/>バッジもそういう意味を表徴してあるのです。<br/><br/>経と緯のどっちにも偏らない文明、それが本当のもの、真理です。<br/><br/>それからもう一つは力の根源になるのです。<br/><br/>それで「力」という文字は、最初経を書いて、横を書いて、それからこうゆくのです。<br/><br/>ですから経緯を結ぶと力が出るのです。<br/><br/>それで結んで活動を始める形です。<br/><br/>浄霊で病気を治すということも、これは力です。<br/><br/>それでこの力というものは、歴史でも分かるとおり今まではなかったのです。<br/><br/>今までのは経か緯かどっちか一つです。<br/><br/>この結んだものというのはなかったのです。<br/><br/>それで結ばれないから力がないのです。<br/><br/>ですから今までの宗教でも力は現わさなかったのです。<br/><br/>みんな教えです。<br/><br/>宗教という教え、仏教という教えです。<br/><br/>しかし教えでは本当に人は救えません。<br/><br/>教えでは病気は治りません。<br/><br/>これは力でなければならないのです。<br/><br/>その力というのは今言ったとおり、経と緯を結んで初めて現われるのです。<br/><br/>それで大本の経緯を結んで私が生まれたわけです。<br/><br/>世界の文明がやはりそうなっているわけです。<br/><br/>そういうことを知れば、神様の経綸、救世教の出現ということがよく分かります。<br/><br/> それからよく御守護の電報が来ることがありますが、今どこが悪いとかどこが痛いとかありますが、それを読んでみると別にたいした病気ではないのです。<br/><br/>浄霊でもわけなく治るような症状なのです。<br/><br/>それがどういうわけかというと、浄霊に力が入るせいです。<br/><br/>だから治りが悪いのです。<br/><br/>それで浄霊してどうも治りが悪いというときには、力が入るからだということを心得ておくとよいです。<br/><br/>この力を抜くということは、むしろ難しいです。<br/><br/>しかもだんだん浄化が強くなるに従って、ますます光が強くなるから、そうすると光を出すには力を抜くほど出るのです。<br/><br/>少しでも力を入れると光の出が悪くなるのです。<br/><br/>妨げるわけです。<br/><br/>力を抜くということは、これ以上は抜けないというところまで抜かなければならないのです。<br/><br/>力が入るのと入らないのではたいへんな違いです。<br/><br/>私などもそうで、浄霊していても、ちょっと力が入っていると治りが違います。<br/><br/>この力を抜くと何倍もよく治ります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

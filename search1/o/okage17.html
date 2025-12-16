@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>okage17</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御蔭話を読んで 『栄光』151号、昭和27(1952)年4月9日発行 本紙に毎号満載している御蔭話を読んだ人はよく分かるであろうが、危難に遭遇して危うき一命を救われたり、暗い家庭が明るくなったり、収入が増え、物事が順調にゆくようになったとか、あらゆる面に神様の御守護を戴き、一歩一歩天国的家庭になってゆくという事は、全くメシヤ教の名のごとく、世を救いつつある事実は今更言うまでもないが、色々の御蔭中最も重要な病気についての感じたままを率直にかいてみるが、それは一人の例外もないほど最初は医療を信じ、あくまで医師に縋っているが、予期に反し漸次悪化する事である。<br><br>それが実に明らかに何の病気にも表われており、一般人がこれを読んだら、余りの意外に驚くであろう。<br><br>ところが何かの事情で医療を廃めると、意外にも幾分ずつでも好転する事実である。<br><br>その反対に、医師がすこぶる熱心にあの手この手の最新の療法を施せば施すほど、益々悪化するばかりか、思いもつかないような余病さえ一つ一つ増えてゆき、終いには五つも六つもの病気で二進（にっち）も三進（さっち）もゆかなくなり、医師も手の施しようがなく、匙（さじ）をなげてしまうという訳である。<br><br> ところが大抵は初診の際「貴方の病気は軽いから直に治る」とか「何週間も経てば必ず快くなる」などと、大いに確信があるように云われるので、患者は絶対信じてしまうが、結果は逆になってゆくので、ここに迷いを生じ、アチラの病院、コチラの医師というように、散々治療を受けるが仲々治らない。<br><br>反って悪化するばかりなので、ここに希望を失い、絶望の極自殺を考える人などもすくなくないのである。<br><br>しかもそれまでには多額の療養費を使い、経済的にも行き詰りとなるので、これも絶望に拍車を掛ける訳である。<br><br>というような経路を常に読んでいるが、何しろ作り事ではなく、ありのままのその時の心境が浮び出ている事とて、読む度に私は幾度となく、目頭が熱くなるのをどうする事も出来ないのである。<br><br> 以上のように医学というものは治病能力がないどころか、反って悪化させる方法でしかない事は余りにも明らかで、この事実に対し医師諸君は気が付かなければならないと思うが、そのような気配すらない。<br><br>というのはなるほど医療を加えると一時は確かに快くなるから、それで治るものと即断するのであるが、事実は決して長くは続かない。<br><br>必ず反動が起こって再発し、むしろ初めより悪化の度を加えるにかかわらず、それが分からないというのは、どう考えても不可思議である。<br><br>全く根強い迷信に罹っているとしか思えないのである。<br><br>この理は近来続出の結核新薬についても言える。<br><br>衆知の通り次々生まれては消え、消えては生まれる新薬が、最初は必ずヤンヤと云われるが、日の経つに従い効果がないとか、あっても一方によければ、一方に悪いというように欠点が現れてくる。<br><br>というように年中同一の事を繰返しているのが現実であって、これも不思議の一つと言えるが、実は不思議でも何でもない、当り前の話である。<br><br>それは最初の効き目というのは治る効き目ではない。<br><br>苦痛を緩和するだけの効き目であるばかりで、しかも浄化停止のための薬毒が加わるから、その反対が起こる。<br><br>すなわち再発である。<br><br>そこでその薬に疑いが起こって駄目という事になる。<br><br>この事実だけに見ても薬の効果は一時的で、根治は出来ない事が分かると共に、新薬続出の原因も分かるであろう。<br><br> としたらそんな簡単なハッキリした理屈が分からない現代医学者の頭脳こそ、むしろ研究問題ではあるまいか。<br><br>私は決して医学を悪く言いたくはないが、この真理を目醒めさせなければ、医学の迷蒙も患者の不幸も見てはおれないのである。<br><br>事実医師は病を治してやりたいと思い、患者は医学を絶対信じて、生命までもまかせているのであるが、それが実は病を悪化させ、生命までも零にするのであるから、無智どころの騒ぎではない。<br><br>ここで特に考えてみて貰いたいのは、このような悲惨事に目醒められず、苦しみ悩みつつある人類に対し、神が在るとすれば、神の大愛はいつまでも黙止され給うはずはない。<br><br>昔から唱えるごとく、人間は神の赤子（せきし）であるとすれば、救いの御手を差し伸べられるのは当然である。<br><br>とはいうものの一切は時期である。<br><br>これも神は世界の経綸上時期が来なければどうにもならないのも、私は知らされている。<br><br>幸いなるかな、いよいよその時期が来たので私という者を選ばれ、その大任をまかせ給うたのである。<br><br>従って私は病理の本源を啓示されたと共に、治病の力も与えられたのである。<br><br>そうしてこの文は随分思い切って医学の欠陥を暴露したが、右の理由が分かったなら何ら疑うところはあるまい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ilusão da Cura Médica e a Verdadeira Salvação</h2>
 <p>Quem lê os testemunhos de graças divinas, publicados profusamente em cada edição de nosso jornal, compreende bem o que se passa: são relatos de pessoas que, diante de um perigo iminente, tiveram suas vidas salvas por um fio; de lares sombrios que se tornaram radiantes; de rendas que se multiplicaram e de projetos que passaram a fluir com notável harmonia. O fato de que, por meio da proteção de Deus, as famílias avançam passo a passo em direção a um estado paradisíaco, demonstra, sem que seja necessário reiterar, que nossa Igreja está verdadeiramente salvando o mundo, fazendo jus ao nome de Igreja Messiânica.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Sendo assim, não seria a própria mentalidade dos acadêmicos da medicina moderna, incapaz de compreender uma lógica tão simples e evidente, um tema digno de estudo? Não tenho a intenção de depreciar a medicina. Todavia, sinto-me compelido a despertar a humanidade para esta verdade, pois não posso mais assistir passivamente à ilusão que a envolve e ao consequente infortúnio dos doentes. De um lado, o médico anseia por curar; de outro, o paciente confia cegamente na medicina, entregando-lhe a própria vida. O resultado, porém, é o agravamento da doença e, por fim, a perda da vida. Isso transcende a mera ignorância; é uma tragédia.</p>
 <p>Neste ponto, peço que reflitam: diante de uma calamidade de tal magnitude, que aflige uma humanidade que sofre sem despertar, seria concebível que Deus, se Ele existe, permanecesse em silêncio com Seu infinito Amor? Se, como se prega desde a antiguidade, os seres humanos são filhos de Deus, é natural que Ele estenda Suas mãos para nos salvar.</p>
 <p>Contudo, tudo está sujeito ao tempo oportuno. Foi-me revelado que, segundo o Plano Divino para o mundo, nem mesmo Deus pode intervir antes que o momento certo chegue. Felizmente, esse momento finalmente chegou, e eu fui o escolhido para receber esta grandiosa missão. Por essa razão, a mim foi revelada a origem fundamental das patologias e, ao mesmo tempo, foi-me outorgado o poder de curá-las. Embora este texto tenha exposto de forma contundente as falhas da medicina, espero que, uma vez compreendidos os motivos aqui apresentados, não reste qualquer margem para a dúvida.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御蔭話を読んで 『栄光』151号、昭和27(1952)年4月9日発行 本紙に毎号満載している御蔭話を読んだ人はよく分かるであろうが、危難に遭遇して危うき一命を救われたり、暗い家庭が明るくなったり、収入が増え、物事が順調にゆくようになったとか、あらゆる面に神様の御守護を戴き、一歩一歩天国的家庭になってゆくという事は、全くメシヤ教の名のごとく、世を救いつつある事実は今更言うまでもないが、色々の御蔭中最も重要な病気についての感じたままを率直にかいてみるが、それは一人の例外もないほど最初は医療を信じ、あくまで医師に縋っているが、予期に反し漸次悪化する事である。<br/><br/>それが実に明らかに何の病気にも表われており、一般人がこれを読んだら、余りの意外に驚くであろう。<br/><br/>ところが何かの事情で医療を廃めると、意外にも幾分ずつでも好転する事実である。<br/><br/>その反対に、医師がすこぶる熱心にあの手この手の最新の療法を施せば施すほど、益々悪化するばかりか、思いもつかないような余病さえ一つ一つ増えてゆき、終いには五つも六つもの病気で二進（にっち）も三進（さっち）もゆかなくなり、医師も手の施しようがなく、匙（さじ）をなげてしまうという訳である。<br/><br/> ところが大抵は初診の際「貴方の病気は軽いから直に治る」とか「何週間も経てば必ず快くなる」などと、大いに確信があるように云われるので、患者は絶対信じてしまうが、結果は逆になってゆくので、ここに迷いを生じ、アチラの病院、コチラの医師というように、散々治療を受けるが仲々治らない。<br/><br/>反って悪化するばかりなので、ここに希望を失い、絶望の極自殺を考える人などもすくなくないのである。<br/><br/>しかもそれまでには多額の療養費を使い、経済的にも行き詰りとなるので、これも絶望に拍車を掛ける訳である。<br/><br/>というような経路を常に読んでいるが、何しろ作り事ではなく、ありのままのその時の心境が浮び出ている事とて、読む度に私は幾度となく、目頭が熱くなるのをどうする事も出来ないのである。<br/><br/> 以上のように医学というものは治病能力がないどころか、反って悪化させる方法でしかない事は余りにも明らかで、この事実に対し医師諸君は気が付かなければならないと思うが、そのような気配すらない。<br/><br/>というのはなるほど医療を加えると一時は確かに快くなるから、それで治るものと即断するのであるが、事実は決して長くは続かない。<br/><br/>必ず反動が起こって再発し、むしろ初めより悪化の度を加えるにかかわらず、それが分からないというのは、どう考えても不可思議である。<br/><br/>全く根強い迷信に罹っているとしか思えないのである。<br/><br/>この理は近来続出の結核新薬についても言える。<br/><br/>衆知の通り次々生まれては消え、消えては生まれる新薬が、最初は必ずヤンヤと云われるが、日の経つに従い効果がないとか、あっても一方によければ、一方に悪いというように欠点が現れてくる。<br/><br/>というように年中同一の事を繰返しているのが現実であって、これも不思議の一つと言えるが、実は不思議でも何でもない、当り前の話である。<br/><br/>それは最初の効き目というのは治る効き目ではない。<br/><br/>苦痛を緩和するだけの効き目であるばかりで、しかも浄化停止のための薬毒が加わるから、その反対が起こる。<br/><br/>すなわち再発である。<br/><br/>そこでその薬に疑いが起こって駄目という事になる。<br/><br/>この事実だけに見ても薬の効果は一時的で、根治は出来ない事が分かると共に、新薬続出の原因も分かるであろう。<br/><br/> としたらそんな簡単なハッキリした理屈が分からない現代医学者の頭脳こそ、むしろ研究問題ではあるまいか。<br/><br/>私は決して医学を悪く言いたくはないが、この真理を目醒めさせなければ、医学の迷蒙も患者の不幸も見てはおれないのである。<br/><br/>事実医師は病を治してやりたいと思い、患者は医学を絶対信じて、生命までもまかせているのであるが、それが実は病を悪化させ、生命までも零にするのであるから、無智どころの騒ぎではない。<br/><br/>ここで特に考えてみて貰いたいのは、このような悲惨事に目醒められず、苦しみ悩みつつある人類に対し、神が在るとすれば、神の大愛はいつまでも黙止され給うはずはない。<br/><br/>昔から唱えるごとく、人間は神の赤子（せきし）であるとすれば、救いの御手を差し伸べられるのは当然である。<br/><br/>とはいうものの一切は時期である。<br/><br/>これも神は世界の経綸上時期が来なければどうにもならないのも、私は知らされている。<br/><br/>幸いなるかな、いよいよその時期が来たので私という者を選ばれ、その大任をまかせ給うたのである。<br/><br/>従って私は病理の本源を啓示されたと共に、治病の力も与えられたのである。<br/><br/>そうしてこの文は随分思い切って医学の欠陥を暴露したが、右の理由が分かったなら何ら疑うところはあるまい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

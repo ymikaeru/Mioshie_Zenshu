@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s290327</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S29年3月27日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月二十七日（５日目） 春季大祭もここでやるのはこれが最後で、この次は会館でやるようになります。<br><br>なにしろここでは制限しても今年は非常に多くて、立錐（りっすい）の余地もないです。<br><br>どうしても無理になったわけで、ちょうど会館ができるということは、チャンと神様は算盤をとって準備されたということがよく分かります。<br><br>それで会館の方は椅子が二千八百の予定ですが、補助椅子も並べるでしょうから、約三千です。<br><br>それから立つ人は二千は充分ですから、五千は楽に収容できるわけですから、今度のお祭りは楽々と気持ち良くできるわけです。<br><br>いずれはそれでも狭くなるでしょうが、当分は気持ちのよいお祭りができるわけです。<br><br> 外観だけは、足場が取れたのです。<br><br>もはや見られたか、後で見られるか、ここにおられる方はとにかく全部今日見られるわけですが、私も足場が取れたからというので昨日行ってみました。<br><br>自分で設計して自分で褒めるのは少しおかしいですが、私の気に入ったようにできたわけです。<br><br>ああいう建物は実は外観が一番難しいのです。<br><br>内部の方はだれがやっても、自然にいやでもできてしまいますが、外観です。<br><br>これがよくゆかなければならないので、外観ということが一番の問題なのです。<br><br>というのは、あれだけの大きいものですと、やはりカンでゆくのです。<br><br>模型は造ったようなものの、さて実際の大きさに表現するとなると、周囲のいろいろな物体のあり方とよくマッチしなければ、その建築はいけないわけです。<br><br>それで間口と高さ、それも格好よく、少しも欠点のないようにできあがらなければいけないのです。<br><br>それから特に難しいのは柱形です。<br><br>人造石の柱の太さ、それから間の白い壁との幅の調和です。<br><br>それが太すぎては頑固になりますし、細すぎると華奢（きゃしゃ）になるから、太からず細からずという、その割出しが厄介なのです。<br><br>そうかといって、あれだけの大きい模型を造るわけにはゆかないから、カンでゆくよりしかたがないです。<br><br>しかもあれだけの建築は今までにないのです。<br><br>私は二、三年前から毎月『国際建築』という雑誌をとってますが、世界中で新しくできた建築は必ず写真に出てますが、今までのを見ても、今度できたようなああいう様式というのはぜんぜんないです。<br><br>似たものすらないです。<br><br>ただ、今新しくできるのはみんなコルビュジエ式の、実用的の建築です。<br><br>無論宗教的の建築というのはないです。<br><br>そういうようなわけで、コルビュジエの単純な様式に対して、曲線は使わないで直線ばかりで荘厳の味を出す、荘厳の感覚を表現するということが、実はなかなか難しいのです。<br><br>しかしそれに成功しなければおもしろくないのです。<br><br>ですからとにかく宗教建築の革命です。<br><br>西洋の宗教建築というと、キリスト教の先のトンガった鋭い様式ですし、それから日本の方は、奈良朝以後のいろんな堂宇（どうう）、伽藍（がらん）ですが、これは一種の型ができているのです。<br><br>そういうような具合です。<br><br>ところが救世教は神道ではないからして宮造りにはゆきませんし、仏教ではないから寺院のような様式もできない、キリスト教ではないからして、ああいった教会堂式にもできないし、というわけです。<br><br>そうして新しい破天荒な宗教ですから、建物も新しい今までにないような形に造らなければならないという、そういう事情と合ってゆかなければならないのです。<br><br>見れば分かるとおり、だいたいそれと合っていると、私は思われたのです。<br><br> だいたい秋に完成のつもりでしたが、どうも秋では具合が悪いので、神様の方では延ばして、来年の三月三日ということになりました。<br><br>三十年三月三日で、三、三、三というわけです。<br><br>ところがおもしろいのは、最初からそういうふうになっていれば、ああいう建築にしろ、大きいなにかを人間がやる場合には、日を限ると、どうもそれに間に合わせればよいというので、いくら前から日限があっても、抜ける癖があるのです。<br><br>そうして日限間近になってからあわてるというので、これはだれでも知っているでしょうが、決まったようなものです。<br><br>そこで神様は、今度で二度延びましたが、そのために建築屋のほうは秋に間に合わせようというので、そうとう急ってました。<br><br>そうすると、ここでパッと延びると、今度はまたていねいにやるからして、こういうふうに延びたということは、品物をよくこしらえるという点においてよいのです。<br><br>ですから、その点神様はうまいなと思いました。<br><br>それで、三十年三月三日ということは、その数字に非常に意味があるのです。<br><br>今までのミロクというのは五六七の数字でした。<br><br>これは火水土です。<br><br>これは根本的の条件です。<br><br>ところが現界の経綸は三六九、つまり三が三つ重なるという、こういうことになるのです。<br><br>これは前から決まっているのです。<br><br>そういうことも私の方で書いてありますが、まだ時期の関係で発表しなかっただけです。<br><br>それで三六九になるのです。<br><br>ですから社会も三階級になるのです。<br><br>上流階級、中流派階級、下流階級です。<br><br>勿論階級制度もそういうふうになるし、それからあらゆるものが三になるのです。<br><br>これは以前も話したことがありますが、各産業の経営も、資本家、技術者、労働者と、三つになるとか、あるいは学校も、小学、中学、大学で、小学三年、中学三年、大学三年というように、やはり三六九になるのです。<br><br>ですからふつうは、義務教育は小学三年、中学三年の六年ですむわけです。<br><br>その他に特殊の目的で大学三年とゆき、やはり三六九になるのです。<br><br>あらゆるものがそういうふうになるのです。<br><br>そこで三六九は現界の経綸になるのです。<br><br>最初は二十九年十一月を予定していたのですが、それでは数字がぜんぜん合わないので、そこで三、三、三と、こうなったわけです。<br><br>来年の三月までに会館はできあがるし、それから水晶殿もできあがるつもりです。<br><br>これは確実に思ってよいです。<br><br>延びたということが、そういった建築とか、また庭にいろいろな木を植えたりする、そういう点においても、万事に非常に具合がよかったのです。<br><br> 次の美術館ですが、これはそう手間はかからないですから、うまくゆけは来年の秋ですが、まかり間違っても再来年の春にはたしかです。<br><br>そういう予定です。<br><br>美術館の方は無論今度の会館とはまるっきり違った様式です。<br><br>会館も、今の建築でもかなり新しい建築です。<br><br>非常に新しさが出ていると思います。<br><br>昨日見た感じから言っても、新しいということは確かです。<br><br>ところが美術館の方は、今度は新しさと古い良い所をそうとう混ぜます。<br><br>会館の方はだいたい西洋建築ですが、美術館の方は西洋、支那、日本と、この三つの良い所を取り入れて総合した様式にするつもりです。<br><br> 最近霊界にいろんな変わったことがだいぶ出てきたのです。<br><br>というのは、霊界が昼間になるについて、霊があわてだしたのです。<br><br>だんだん救世教というものがはっきり分かってきたので、自分たちが救われたいことと、それから働かしてもらいたいということで、いろいろな方法をもって私に頼むのです。<br><br>そうして因縁の人の霊に憑って、話をしたりいろいろするのです。<br><br>それで最近信者さんの中の若い女性にいろんな霊が憑って知らしたわけです。<br><br>この間は現界で活躍している人たち、モロトフとかアイゼンハウアーとか毛沢東とかネールとか、いろいろありますが、そういう霊が憑って、私に罪をお詫びしたり、今後のお手伝い、それに対する念願とか、そういうことがあったので、現界の人たちの分は今度の『地上天国』に全部載せましたから、読めば分かります。<br><br>実に詳しく書いてあります。<br><br>その後にあったことは、非常におもしろいし、しかも重要なことですから、今それを読ませます。<br><br> （御報告） この中にある「明主」というのは、つまり私の代理なのです。<br><br>それで私の代理になって仕事をする私の部下の神様が幾人かいるのです。<br><br>それでなにかの重要なことに私として出るのです。<br><br>ですから私と思って差し支えないわけです。<br><br>それから天理教の教祖のことは、いつか話をしたことがありますが、静岡県の留置所にいるときにいろんな霊を呼んでいろいろ話をしたときに天理教の教祖とも話をしたのです。<br><br>それで救ってくれ、よろしいと言ったそのことを言っているのです。<br><br> こういうような具合です。<br><br>ですから私にいる神様は一番最高なのです。<br><br>ですから私は神様を拝んだことはない、と前にも言ったことがありますが、私より上の神様はないのだから、別に拝む神様はないわけです。<br><br>それで私は拝まないわけです。<br><br>けれども、こういうことが時節によってはっきり出てくるので、私は自分で“オレは救世主だ”とか、そういうことは言いたくないのです。<br><br>つまり事実で見せる、事実によって“なるほど”、力と結果において“そうだ”ということを分かって、それが本当なのです。<br><br> それについてお祭りの前の日の二十二日に、私の直接の仕事をしている男の若い妻君で、去年頭が少し変だったので、私がすっかり治してやったのです。<br><br>しかしまだ少し残りがあって、頸のまわりに固まりがあるので、時々来いと言って、月に二、三回ぐらいやっているのです。<br><br>そこで二十二日の日に浄霊しようとすると、ポロポロ涙をこぼして泣き出して、後から後から涙が出て、なかなか口がきけないのです。<br><br>しばらくたってからふつうになったから聞いてみると、キリストなのです。<br><br>それでキリストが長い間非常に苦しんでいたのが、その婦人に憑っていて浄霊してもらったので治ったのです。<br><br>つまり磔（はりつけ）になった時の傷の悩みなのです。<br><br>それがすっかり治ったので非常にありがたいと言って、つまり嬉し涙です。<br><br>さらに、自分のもっとも懐かしい天の父様にお目にかかれたということは、これほど嬉しいことはないという、この二つのことの嬉し涙で、それが出たわけです。<br><br>そうしてみると、あれほどの人でも、そういった一つの肉体の障害を治されなかったわけです。<br><br>そういうわけですから、これから外国においてキリストも大活躍されると思います。<br><br>これは信者の人はよく分かるが、キリスト教信者とか仏教信者が聞いたら、狐につままれたように思うだろうと思います。<br><br>自分の拝んでいた目標が、そんなようなわけかと思うだろうと思います。<br><br>しかしこれはすぐ分かるわけです。<br><br>なぜと言えば、今までのキリスト、釈迦、マホメットなどは、こうやって（手をかざして）病気を治すことができなかったですし、しかもこうやって病気を治す人を作れなかったのですから、そこにおいて、力において想像できるわけです。<br><br>それで私は自分自身ああこうと、ドエライことは言いたくないですから言わないのですが、だんだん時節に応じてそういうことが証拠立てられ、分からないわけにはゆかなくなってくるのです。<br><br> それについて、一般の人もどうしても分からなければならないようなことの一つとして、自然栽培が日本中に分かるとしたら、それだけでも、“これはふつうの宗教ではない、たいへんなものだ”ということは分かるわけです。<br><br>今度農林省の役人の中にだいたい分かってきた人ができて、今度「自然農法研究会」という会をこしらえたのです。<br><br>来月の二日に発会式をやりますが、人数はそうとういるようです。<br><br>何人いるかは知りませんが、少なくとも十人はいると思います。<br><br>農林省の内部に動きができたということは、一番よいと思うのです。<br><br>つまり今後宣伝する上において、なにしろ今までのことと反対のことですから、“肥料なしで米が獲れる”“そんな馬鹿なことがあるものか”とみんな最初はそういう考えを起こします。<br><br>そこにもっていって、農林省の役人がこれだけの運動を始めたということは、それだけ信用が出るわけです。<br><br> 今聞いてみると、会員は十八人だそうですからたいしたものです。<br><br>無論、上の方はまだでしょうし、分かっていてもすぐに動くことはできませんし、下の方はそういうことはないから、中堅どころでしょう。<br><br>ですからこれは自然農法に対する一大福音です。<br><br>その趣意書を見ましたが、なかなかよくできているので、今読ませます。<br><br> （御論文「自然農法の一大朗報」「趣意書」） 【栄光 二五六号】 十八人という数字もちょっとおもしろいです。<br><br>それから発会式も、この間聞いたのは四月二日でしたが、早まって三月三十日だそうですから、やっぱり三、三でミロクです。<br><br>それで十八ですから、三（ミ）六（ロク）十八です。<br><br>万事神様がやっているのですから、そうなるわけです。<br><br> これについても、私が一番狙うところは、医学の革命です。<br><br>これはまた一番難しいのです。<br><br>この自然農法が全国的に分かると、その医学に対する効果も、ちょうど自然農法と同じような理屈で、肥料というのは医学でいう薬です。<br><br>「肥料をやるために土が弱る」ということと、「薬を服むために健康が弱る」ということと、理屈は同じですから、この面から医学の方を分からせる上において、非常によいと思うのです。<br><br>そういうわけで、肥料のために、その毒素が人間の健康に非常な害があるということも分かるわけです。<br><br>おまけに特集号にあるような、米に穀象虫がわいたのを写真に大きく出してありますが、あれを見たら否も応もないと思います。<br><br>ですから今まで薬毒ということは、私は大いに唱えてきましたが、勿論薬毒も悪いが、それ以外に米に対する肥料の毒がまたたいへんなものです。<br><br>つまり肥料の毒というのは、やはり血を濁しますから、肥毒と薬毒との両方で、人間は今までいじめられていたわけです。<br><br>今度その論文を出しますが、“人間の体はいかに造物主が強靭に強く造られたかが分かる。<br><br>これだけの薬毒を入れながら、なおかつ生きているということは、実に人間の体は丈夫なものだ”ということを書いてあります。<br><br>こうなると肥毒まで加わって、食う食糧に対する肥毒があって、薬を飲まない人でも一日に三度ずつ肥毒を体に入れているのですから、虫がわくのはあたりまえです。<br><br>寄生虫の害というのは、みんな知っているとおりですが、これは別におおげさに言うわけではないので、私はいつもそう思ってます。<br><br>薬毒がウンと固まって、体に薬毒がいっぱいある人がありますが、“これでよく働けるな、実に人間の体というのは強くできている”といつも感心してます。<br><br>これは医学的の頭で考えたら面喰うだろうと思います。<br><br>そういうわけで、神様の方は着々と進展しつつあるわけです。<br><br>しかも今言ったとおり、各宗教の教祖やなにか、そういった偉い霊たちがこれから救世教のために大いに働きますから、だんだん時期がたつに従って、予想もつかないような大きなことになると思ってます。<br><br>だんだん張り合いが出てきたわけです。<br><br>今までは楽屋で支度をしていたようなものですが、これからいよいよ本舞台に上がって、檜舞台で世界人類を大いにうならせるというわけですから、ちょうど世界的の大芝居です。<br><br>これは大本教のお筆先にありますが、「今度は世界の大芝居であるから、今に世界は動くぞよ」とありますが、これはやっぱりそういう意味です。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Progresso da Obra Divina e as Revelações da Nova Era</h2>
 <p>Esta é a última vez que realizamos o Culto da Primavera neste local; a partir da próxima, as cerimônias ocorrerão no novo Auditório. A superlotação deste ano, a ponto de não haver espaço sequer para se pôr de pé, tornou a situação insustentável. A conclusão do novo Auditório, portanto, revela com clareza como Deus, em Sua previdência, calculou e preparou tudo. A capacidade projetada é de dois mil e oitocentos assentos, mas com a disposição de cadeiras auxiliares, acomodaremos aproximadamente três mil pessoas. Somando-se a isso o espaço para mais dois mil fiéis em pé, poderemos receber confortavelmente um total de cinco mil pessoas. Assim, os próximos cultos transcorrerão em um ambiente amplo e agradável. Embora, com o tempo, ele também possa se tornar pequeno, poderemos, por um bom período, realizar cerimônias com o devido bem-estar.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Nesse contexto, meu objetivo principal é promover uma revolução na medicina, o que representa, sem dúvida, o desafio mais árduo. Quando a Agricultura Natural for compreendida em âmbito nacional, seus efeitos sobre a saúde também o serão, pois a lógica é a mesma. O fertilizante, na agricultura, corresponde ao medicamento, na medicina. A lógica de que "o uso de fertilizantes enfraquece o solo" é a mesma de que "o uso de medicamentos debilita a saúde". Essa analogia é, portanto, uma excelente via para levar à compreensão dos equívocos da medicina. As pessoas entenderão que as toxinas presentes nos fertilizantes são extremamente prejudiciais à saúde humana. Para corroborar, a edição especial da nossa revista traz uma grande fotografia de arroz infestado por gorgulhos. Ao verem aquilo, não terão como negar a realidade.</p>
 <p>Até hoje, tenho denunciado veementemente as toxinas medicamentosas, o yakudoku (薬毒). Elas são, sem dúvida, nocivas, mas as toxinas provenientes dos fertilizantes presentes no arroz representam um problema igualmente grave. As toxinas dos adubos também impurificam o sangue. Portanto, a humanidade vinha sendo afligida por uma dupla agressão: a das toxinas dos fertilizantes e a do yakudoku. Em breve, publicarei um artigo a esse respeito, no qual afirmo: "Percebe-se quão robusto o Criador fez o corpo humano. O fato de continuarmos vivos, mesmo ingerindo tantas toxinas, demonstra a extraordinária fortaleza do organismo". Agora, somando-se a isso as toxinas dos fertilizantes presentes nos alimentos que consumimos, mesmo quem não toma remédios introduz veneno em seu corpo três vezes ao dia. Não é de se espantar que surjam vermes. Todos conhecem os males causados pelos parasitas. Não estou exagerando; é algo em que penso constantemente. Vejo pessoas com o corpo saturado de toxinas medicamentosas solidificadas e sempre me admiro: "Como conseguem trabalhar? O corpo humano é, de fato, muito resistente". Uma mente puramente médica ficaria atônita diante disso. Assim, o Plano Divino avança de maneira firme e constante.</p>
 <p>Ademais, como mencionei, os fundadores das diversas religiões e outros grandiosos espíritos passarão a trabalhar arduamente em prol da Sekaikyuseikyou. Por conseguinte, espero que, com o decorrer do tempo, nossa Obra assuma proporções inimagináveis. O entusiasmo cresce a cada dia. Até agora, era como se estivéssemos nos preparando nos bastidores. De agora em diante, subiremos finalmente ao palco principal para maravilhar toda a humanidade. Trata-se de um grandioso teatro mundial. Isto remete a uma passagem do Ofudesaki, da Oomoto-kyou, que diz: "Desta vez, trata-se de um grandioso teatro mundial; em breve, o mundo se moverá". É exatamente esse o significado do que está por vir.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 春季大祭御講話 （S29年3月27日） 『御教え集』32号、昭和29(1954)年4月15日発行 昭和二十九年三月二十七日（５日目） 春季大祭もここでやるのはこれが最後で、この次は会館でやるようになります。<br/><br/>なにしろここでは制限しても今年は非常に多くて、立錐（りっすい）の余地もないです。<br/><br/>どうしても無理になったわけで、ちょうど会館ができるということは、チャンと神様は算盤をとって準備されたということがよく分かります。<br/><br/>それで会館の方は椅子が二千八百の予定ですが、補助椅子も並べるでしょうから、約三千です。<br/><br/>それから立つ人は二千は充分ですから、五千は楽に収容できるわけですから、今度のお祭りは楽々と気持ち良くできるわけです。<br/><br/>いずれはそれでも狭くなるでしょうが、当分は気持ちのよいお祭りができるわけです。<br/><br/> 外観だけは、足場が取れたのです。<br/><br/>もはや見られたか、後で見られるか、ここにおられる方はとにかく全部今日見られるわけですが、私も足場が取れたからというので昨日行ってみました。<br/><br/>自分で設計して自分で褒めるのは少しおかしいですが、私の気に入ったようにできたわけです。<br/><br/>ああいう建物は実は外観が一番難しいのです。<br/><br/>内部の方はだれがやっても、自然にいやでもできてしまいますが、外観です。<br/><br/>これがよくゆかなければならないので、外観ということが一番の問題なのです。<br/><br/>というのは、あれだけの大きいものですと、やはりカンでゆくのです。<br/><br/>模型は造ったようなものの、さて実際の大きさに表現するとなると、周囲のいろいろな物体のあり方とよくマッチしなければ、その建築はいけないわけです。<br/><br/>それで間口と高さ、それも格好よく、少しも欠点のないようにできあがらなければいけないのです。<br/><br/>それから特に難しいのは柱形です。<br/><br/>人造石の柱の太さ、それから間の白い壁との幅の調和です。<br/><br/>それが太すぎては頑固になりますし、細すぎると華奢（きゃしゃ）になるから、太からず細からずという、その割出しが厄介なのです。<br/><br/>そうかといって、あれだけの大きい模型を造るわけにはゆかないから、カンでゆくよりしかたがないです。<br/><br/>しかもあれだけの建築は今までにないのです。<br/><br/>私は二、三年前から毎月『国際建築』という雑誌をとってますが、世界中で新しくできた建築は必ず写真に出てますが、今までのを見ても、今度できたようなああいう様式というのはぜんぜんないです。<br/><br/>似たものすらないです。<br/><br/>ただ、今新しくできるのはみんなコルビュジエ式の、実用的の建築です。<br/><br/>無論宗教的の建築というのはないです。<br/><br/>そういうようなわけで、コルビュジエの単純な様式に対して、曲線は使わないで直線ばかりで荘厳の味を出す、荘厳の感覚を表現するということが、実はなかなか難しいのです。<br/><br/>しかしそれに成功しなければおもしろくないのです。<br/><br/>ですからとにかく宗教建築の革命です。<br/><br/>西洋の宗教建築というと、キリスト教の先のトンガった鋭い様式ですし、それから日本の方は、奈良朝以後のいろんな堂宇（どうう）、伽藍（がらん）ですが、これは一種の型ができているのです。<br/><br/>そういうような具合です。<br/><br/>ところが救世教は神道ではないからして宮造りにはゆきませんし、仏教ではないから寺院のような様式もできない、キリスト教ではないからして、ああいった教会堂式にもできないし、というわけです。<br/><br/>そうして新しい破天荒な宗教ですから、建物も新しい今までにないような形に造らなければならないという、そういう事情と合ってゆかなければならないのです。<br/><br/>見れば分かるとおり、だいたいそれと合っていると、私は思われたのです。<br/><br/> だいたい秋に完成のつもりでしたが、どうも秋では具合が悪いので、神様の方では延ばして、来年の三月三日ということになりました。<br/><br/>三十年三月三日で、三、三、三というわけです。<br/><br/>ところがおもしろいのは、最初からそういうふうになっていれば、ああいう建築にしろ、大きいなにかを人間がやる場合には、日を限ると、どうもそれに間に合わせればよいというので、いくら前から日限があっても、抜ける癖があるのです。<br/><br/>そうして日限間近になってからあわてるというので、これはだれでも知っているでしょうが、決まったようなものです。<br/><br/>そこで神様は、今度で二度延びましたが、そのために建築屋のほうは秋に間に合わせようというので、そうとう急ってました。<br/><br/>そうすると、ここでパッと延びると、今度はまたていねいにやるからして、こういうふうに延びたということは、品物をよくこしらえるという点においてよいのです。<br/><br/>ですから、その点神様はうまいなと思いました。<br/><br/>それで、三十年三月三日ということは、その数字に非常に意味があるのです。<br/><br/>今までのミロクというのは五六七の数字でした。<br/><br/>これは火水土です。<br/><br/>これは根本的の条件です。<br/><br/>ところが現界の経綸は三六九、つまり三が三つ重なるという、こういうことになるのです。<br/><br/>これは前から決まっているのです。<br/><br/>そういうことも私の方で書いてありますが、まだ時期の関係で発表しなかっただけです。<br/><br/>それで三六九になるのです。<br/><br/>ですから社会も三階級になるのです。<br/><br/>上流階級、中流派階級、下流階級です。<br/><br/>勿論階級制度もそういうふうになるし、それからあらゆるものが三になるのです。<br/><br/>これは以前も話したことがありますが、各産業の経営も、資本家、技術者、労働者と、三つになるとか、あるいは学校も、小学、中学、大学で、小学三年、中学三年、大学三年というように、やはり三六九になるのです。<br/><br/>ですからふつうは、義務教育は小学三年、中学三年の六年ですむわけです。<br/><br/>その他に特殊の目的で大学三年とゆき、やはり三六九になるのです。<br/><br/>あらゆるものがそういうふうになるのです。<br/><br/>そこで三六九は現界の経綸になるのです。<br/><br/>最初は二十九年十一月を予定していたのですが、それでは数字がぜんぜん合わないので、そこで三、三、三と、こうなったわけです。<br/><br/>来年の三月までに会館はできあがるし、それから水晶殿もできあがるつもりです。<br/><br/>これは確実に思ってよいです。<br/><br/>延びたということが、そういった建築とか、また庭にいろいろな木を植えたりする、そういう点においても、万事に非常に具合がよかったのです。<br/><br/> 次の美術館ですが、これはそう手間はかからないですから、うまくゆけは来年の秋ですが、まかり間違っても再来年の春にはたしかです。<br/><br/>そういう予定です。<br/><br/>美術館の方は無論今度の会館とはまるっきり違った様式です。<br/><br/>会館も、今の建築でもかなり新しい建築です。<br/><br/>非常に新しさが出ていると思います。<br/><br/>昨日見た感じから言っても、新しいということは確かです。<br/><br/>ところが美術館の方は、今度は新しさと古い良い所をそうとう混ぜます。<br/><br/>会館の方はだいたい西洋建築ですが、美術館の方は西洋、支那、日本と、この三つの良い所を取り入れて総合した様式にするつもりです。<br/><br/> 最近霊界にいろんな変わったことがだいぶ出てきたのです。<br/><br/>というのは、霊界が昼間になるについて、霊があわてだしたのです。<br/><br/>だんだん救世教というものがはっきり分かってきたので、自分たちが救われたいことと、それから働かしてもらいたいということで、いろいろな方法をもって私に頼むのです。<br/><br/>そうして因縁の人の霊に憑って、話をしたりいろいろするのです。<br/><br/>それで最近信者さんの中の若い女性にいろんな霊が憑って知らしたわけです。<br/><br/>この間は現界で活躍している人たち、モロトフとかアイゼンハウアーとか毛沢東とかネールとか、いろいろありますが、そういう霊が憑って、私に罪をお詫びしたり、今後のお手伝い、それに対する念願とか、そういうことがあったので、現界の人たちの分は今度の『地上天国』に全部載せましたから、読めば分かります。<br/><br/>実に詳しく書いてあります。<br/><br/>その後にあったことは、非常におもしろいし、しかも重要なことですから、今それを読ませます。<br/><br/> （御報告） この中にある「明主」というのは、つまり私の代理なのです。<br/><br/>それで私の代理になって仕事をする私の部下の神様が幾人かいるのです。<br/><br/>それでなにかの重要なことに私として出るのです。<br/><br/>ですから私と思って差し支えないわけです。<br/><br/>それから天理教の教祖のことは、いつか話をしたことがありますが、静岡県の留置所にいるときにいろんな霊を呼んでいろいろ話をしたときに天理教の教祖とも話をしたのです。<br/><br/>それで救ってくれ、よろしいと言ったそのことを言っているのです。<br/><br/> こういうような具合です。<br/><br/>ですから私にいる神様は一番最高なのです。<br/><br/>ですから私は神様を拝んだことはない、と前にも言ったことがありますが、私より上の神様はないのだから、別に拝む神様はないわけです。<br/><br/>それで私は拝まないわけです。<br/><br/>けれども、こういうことが時節によってはっきり出てくるので、私は自分で“オレは救世主だ”とか、そういうことは言いたくないのです。<br/><br/>つまり事実で見せる、事実によって“なるほど”、力と結果において“そうだ”ということを分かって、それが本当なのです。<br/><br/> それについてお祭りの前の日の二十二日に、私の直接の仕事をしている男の若い妻君で、去年頭が少し変だったので、私がすっかり治してやったのです。<br/><br/>しかしまだ少し残りがあって、頸のまわりに固まりがあるので、時々来いと言って、月に二、三回ぐらいやっているのです。<br/><br/>そこで二十二日の日に浄霊しようとすると、ポロポロ涙をこぼして泣き出して、後から後から涙が出て、なかなか口がきけないのです。<br/><br/>しばらくたってからふつうになったから聞いてみると、キリストなのです。<br/><br/>それでキリストが長い間非常に苦しんでいたのが、その婦人に憑っていて浄霊してもらったので治ったのです。<br/><br/>つまり磔（はりつけ）になった時の傷の悩みなのです。<br/><br/>それがすっかり治ったので非常にありがたいと言って、つまり嬉し涙です。<br/><br/>さらに、自分のもっとも懐かしい天の父様にお目にかかれたということは、これほど嬉しいことはないという、この二つのことの嬉し涙で、それが出たわけです。<br/><br/>そうしてみると、あれほどの人でも、そういった一つの肉体の障害を治されなかったわけです。<br/><br/>そういうわけですから、これから外国においてキリストも大活躍されると思います。<br/><br/>これは信者の人はよく分かるが、キリスト教信者とか仏教信者が聞いたら、狐につままれたように思うだろうと思います。<br/><br/>自分の拝んでいた目標が、そんなようなわけかと思うだろうと思います。<br/><br/>しかしこれはすぐ分かるわけです。<br/><br/>なぜと言えば、今までのキリスト、釈迦、マホメットなどは、こうやって（手をかざして）病気を治すことができなかったですし、しかもこうやって病気を治す人を作れなかったのですから、そこにおいて、力において想像できるわけです。<br/><br/>それで私は自分自身ああこうと、ドエライことは言いたくないですから言わないのですが、だんだん時節に応じてそういうことが証拠立てられ、分からないわけにはゆかなくなってくるのです。<br/><br/> それについて、一般の人もどうしても分からなければならないようなことの一つとして、自然栽培が日本中に分かるとしたら、それだけでも、“これはふつうの宗教ではない、たいへんなものだ”ということは分かるわけです。<br/><br/>今度農林省の役人の中にだいたい分かってきた人ができて、今度「自然農法研究会」という会をこしらえたのです。<br/><br/>来月の二日に発会式をやりますが、人数はそうとういるようです。<br/><br/>何人いるかは知りませんが、少なくとも十人はいると思います。<br/><br/>農林省の内部に動きができたということは、一番よいと思うのです。<br/><br/>つまり今後宣伝する上において、なにしろ今までのことと反対のことですから、“肥料なしで米が獲れる”“そんな馬鹿なことがあるものか”とみんな最初はそういう考えを起こします。<br/><br/>そこにもっていって、農林省の役人がこれだけの運動を始めたということは、それだけ信用が出るわけです。<br/><br/> 今聞いてみると、会員は十八人だそうですからたいしたものです。<br/><br/>無論、上の方はまだでしょうし、分かっていてもすぐに動くことはできませんし、下の方はそういうことはないから、中堅どころでしょう。<br/><br/>ですからこれは自然農法に対する一大福音です。<br/><br/>その趣意書を見ましたが、なかなかよくできているので、今読ませます。<br/><br/> （御論文「自然農法の一大朗報」「趣意書」） 【栄光 二五六号】 十八人という数字もちょっとおもしろいです。<br/><br/>それから発会式も、この間聞いたのは四月二日でしたが、早まって三月三十日だそうですから、やっぱり三、三でミロクです。<br/><br/>それで十八ですから、三（ミ）六（ロク）十八です。<br/><br/>万事神様がやっているのですから、そうなるわけです。<br/><br/> これについても、私が一番狙うところは、医学の革命です。<br/><br/>これはまた一番難しいのです。<br/><br/>この自然農法が全国的に分かると、その医学に対する効果も、ちょうど自然農法と同じような理屈で、肥料というのは医学でいう薬です。<br/><br/>「肥料をやるために土が弱る」ということと、「薬を服むために健康が弱る」ということと、理屈は同じですから、この面から医学の方を分からせる上において、非常によいと思うのです。<br/><br/>そういうわけで、肥料のために、その毒素が人間の健康に非常な害があるということも分かるわけです。<br/><br/>おまけに特集号にあるような、米に穀象虫がわいたのを写真に大きく出してありますが、あれを見たら否も応もないと思います。<br/><br/>ですから今まで薬毒ということは、私は大いに唱えてきましたが、勿論薬毒も悪いが、それ以外に米に対する肥料の毒がまたたいへんなものです。<br/><br/>つまり肥料の毒というのは、やはり血を濁しますから、肥毒と薬毒との両方で、人間は今までいじめられていたわけです。<br/><br/>今度その論文を出しますが、“人間の体はいかに造物主が強靭に強く造られたかが分かる。<br/><br/>これだけの薬毒を入れながら、なおかつ生きているということは、実に人間の体は丈夫なものだ”ということを書いてあります。<br/><br/>こうなると肥毒まで加わって、食う食糧に対する肥毒があって、薬を飲まない人でも一日に三度ずつ肥毒を体に入れているのですから、虫がわくのはあたりまえです。<br/><br/>寄生虫の害というのは、みんな知っているとおりですが、これは別におおげさに言うわけではないので、私はいつもそう思ってます。<br/><br/>薬毒がウンと固まって、体に薬毒がいっぱいある人がありますが、“これでよく働けるな、実に人間の体というのは強くできている”といつも感心してます。<br/><br/>これは医学的の頭で考えたら面喰うだろうと思います。<br/><br/>そういうわけで、神様の方は着々と進展しつつあるわけです。<br/><br/>しかも今言ったとおり、各宗教の教祖やなにか、そういった偉い霊たちがこれから救世教のために大いに働きますから、だんだん時期がたつに従って、予想もつかないような大きなことになると思ってます。<br/><br/>だんだん張り合いが出てきたわけです。<br/><br/>今までは楽屋で支度をしていたようなものですが、これからいよいよ本舞台に上がって、檜舞台で世界人類を大いにうならせるというわけですから、ちょうど世界的の大芝居です。<br/><br/>これは大本教のお筆先にありますが、「今度は世界の大芝居であるから、今に世界は動くぞよ」とありますが、これはやっぱりそういう意味です。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

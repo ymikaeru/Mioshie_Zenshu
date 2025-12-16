@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ikka</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一家心中と医療 未発表、昭和11(1936)年6月17日執筆 近頃、流行という言葉はちと変ではあるが、一家心中という悲惨事が非常に多い事である。<br><br>昔から心中と言えば、男女の恋愛が動機であったのが、一家心中のそれは生活苦であるという事は考えざるを得ない事である。<br><br> 一家心中をしなければならないという事は、生活苦所ではない、生存苦である。<br><br>しかも、最愛な吾子までの生命を断つという事は、勿論、親のない孤児としての苦悩を避けしめようとする事と、この娑婆において自分と同じようになるかも知れないという、苦悩を免れしめようとする考慮からであろうが、何としても為政者は勿論の事、一般世人においても軽々に済ませない問題である。<br><br> しからば、この原因はその根本がいずれにあるのであるかというに、そのほとんどが病苦が因をなしている事である。<br><br>稼ぎ人である親の病気、又は家族の誰かの長の病気、又は死亡等による経済的逼迫がそもそもの原因になって、それから他のいろいろな付随的事情が纏綿（てんめん）して、ついに絶望状態にまで進むのであるというのが、その経路の大体である。<br><br>この故に、根本的にこれを救おうとするには、病気が迅速に治る、それ以外にあり様がない。<br><br>なる程近来、方面委員も相当に活動はしているが、それは何分の一にも当らない救いであって、その大部分は漏れているばかりか、方面委員の制度さえ知らないものが、大多数である。<br><br>又仮（よし）んば方面委員の手で大部分が救われるとしても、そういう不幸者が、無限に発生する現在の社会として、それに飽くまで応ずる事は事実不可能であると共に、国力の損失の甚大さは堪え得るものではないであろう。<br><br> 以上のごとく、その徹底的解決策としての治病の迅速という事は、現代医学の程度では、その可能の望みは絶対ない事である。<br><br>しからば、他にありやといえば、勿論、それは観音力療病術である。<br><br>いかなる病気といえども、発病後直ちに来るものは、そのほとんどが数回で全治してしまうから、実に理想的である。<br><br>この療法が一般化するにおいて、一家心中などの忌わしい問題は、絶対有り得ない社会になるであろう。<br><br> 噫（ああ）、一日も早く本療法を一般化したいものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Suicídio Familiar e a Medicina</h2>
 <p>Conquanto o termo "moda" soe inadequado para descrever tal tragédia, os casos de suicídio familiar têm se tornado alarmantemente frequentes em tempos recentes. Se outrora os pactos suicidas eram majoritariamente motivados por paixões amorosas, hoje, vemo-nos forçados a admitir que a força motriz por trás desses atos extremos é a penúria da vida.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Portanto, para oferecer um socorro fundamental a essas famílias, não há outra alternativa senão a cura célere de suas enfermidades. É certo que as recentes iniciativas de amparo social demonstram louvável atividade, contudo, seu auxílio alcança apenas uma ínfima parcela dos necessitados. A grande maioria não só permanece desassistida, como sequer tem conhecimento da existência de tais programas. Ademais, ainda que, hipoteticamente, fosse possível socorrer a todos por meio desses mecanismos, seria uma tarefa infindável em uma sociedade que gera infortúnios de maneira ilimitada. Tal esforço se revelaria não apenas impraticável, mas também representaria um prejuízo colossal ao vigor da nação, algo que seria insustentável.</p>
 <p>Conforme o exposto, a cura rápida das doenças, como solução definitiva, é uma esperança absolutamente inalcançável nos moldes da medicina moderna. Indaga-se, então: haveria outra via? Certamente que sim. Ela reside na Arte Terapêutica pelo Poder de Kannon (観音力療病術). Por meio dela, qualquer que seja a enfermidade, se o doente buscar auxílio logo após o surgimento dos sintomas, a cura completa é alcançada na maioria esmagadora dos casos em pouquíssimas sessões, o que a torna, de fato, a senda ideal. No dia em que esta terapia se generalizar, a sociedade estará livre de problemas abomináveis como o suicídio familiar, que se tornarão absolutamente inconcebíveis.</p>
 <p>Ah, como anseio que esta Arte Terapêutica se generalize e alcance a todos, o mais brevemente possível</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一家心中と医療 未発表、昭和11(1936)年6月17日執筆 近頃、流行という言葉はちと変ではあるが、一家心中という悲惨事が非常に多い事である。<br/><br/>昔から心中と言えば、男女の恋愛が動機であったのが、一家心中のそれは生活苦であるという事は考えざるを得ない事である。<br/><br/> 一家心中をしなければならないという事は、生活苦所ではない、生存苦である。<br/><br/>しかも、最愛な吾子までの生命を断つという事は、勿論、親のない孤児としての苦悩を避けしめようとする事と、この娑婆において自分と同じようになるかも知れないという、苦悩を免れしめようとする考慮からであろうが、何としても為政者は勿論の事、一般世人においても軽々に済ませない問題である。<br/><br/> しからば、この原因はその根本がいずれにあるのであるかというに、そのほとんどが病苦が因をなしている事である。<br/><br/>稼ぎ人である親の病気、又は家族の誰かの長の病気、又は死亡等による経済的逼迫がそもそもの原因になって、それから他のいろいろな付随的事情が纏綿（てんめん）して、ついに絶望状態にまで進むのであるというのが、その経路の大体である。<br/><br/>この故に、根本的にこれを救おうとするには、病気が迅速に治る、それ以外にあり様がない。<br/><br/>なる程近来、方面委員も相当に活動はしているが、それは何分の一にも当らない救いであって、その大部分は漏れているばかりか、方面委員の制度さえ知らないものが、大多数である。<br/><br/>又仮（よし）んば方面委員の手で大部分が救われるとしても、そういう不幸者が、無限に発生する現在の社会として、それに飽くまで応ずる事は事実不可能であると共に、国力の損失の甚大さは堪え得るものではないであろう。<br/><br/> 以上のごとく、その徹底的解決策としての治病の迅速という事は、現代医学の程度では、その可能の望みは絶対ない事である。<br/><br/>しからば、他にありやといえば、勿論、それは観音力療病術である。<br/><br/>いかなる病気といえども、発病後直ちに来るものは、そのほとんどが数回で全治してしまうから、実に理想的である。<br/><br/>この療法が一般化するにおいて、一家心中などの忌わしい問題は、絶対有り得ない社会になるであろう。<br/><br/> 噫（ああ）、一日も早く本療法を一般化したいものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

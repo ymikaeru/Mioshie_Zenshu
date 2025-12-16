@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271025</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月25日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月二十五日 この間京都や奈良の方に行ってきました。<br><br>それについて手に入れた嵯峨の土地ですが、今度あの辺を見ると非常に良い所でして、まあ一番良い所かもしれません。<br><br>山とか、そういったものの具合がちょうど良い所なのです。<br><br>それで家もあんがい立派な家で、私は手を入れなければならないかと思ったところが、そんなことは必要なくてそのままで立派に住める家なので、来年の春はそこに数日間いるつもりです。<br><br>それで最初は、藪になってますからボツボツ土地の整理をします。<br><br>私が住むにはちょうど適当な家なのですが、ただみんなが来た時住むような所がないのです。<br><br>ところがちょうどその前に良い売り物があって、地所が千六百坪で建物が二百坪くらいあるのです。<br><br>そこにも行ってみたところが、間数が幾間もあって、ただどういうわけですか座敷は板の間が多いのです。<br><br>そこに畳を敷けば立派に住めるのが幾間もあるのです。<br><br>信者さんがそこに泊まるわけですが、実に適当なのです。<br><br>庭も非常に良いのですが、藪になってますから、これを立派に手入れし掃除すると立派になります。<br><br>しかも値段が馬鹿に安いのです。<br><br>半分値です。<br><br>それが今度京都に行く前の晩に決まったのですから、実に神様のは一日も違わないわけです。<br><br>ですからそこを見に行くにも非常に張り合いがあって良かったのです。<br><br>で、そこは広沢の他の釣りの権利と舟を浮かべる権利がついているのですから、釣りをやりたければ自由にできるわけですから、あそこに信者さんで釣りに来る人もないでしょうが、釣りの好きな人は来ると良いです。<br><br>魚は随分いるでしょう。<br><br> 御伺い 養魚するようでございます。<br><br> 市の方でもあそこをなんとかという話です。<br><br>市は勿論あそこを観光地とするのでしょう。<br><br>メシヤ教に対してなにか言ってきましたか。<br><br> 御伺い メシヤ教が買ったということは、まだ発表しておりませんので。<br><br> あそこは市と提携してやると、思いきっておもしろいものができるのです。<br><br>池がそう深くなければ、真ん中に島を作ると良いのです。<br><br>そうして支那式の橋をかけるとすばらしいものになると思います。<br><br>池はただ水があるだけではおもしろくないのです。<br><br> そういうわけで、あっちもボツボツやりますが、しかし順序から言えば箱根から、今度は熱海ですから、熱海が主になるわけです。<br><br>それで今度の美術館の「浮世絵展覧会」を見ましたが、私の方で四点出しましたが、そのうちの三点は展覧会の圧巻でした。<br><br>数はたくさんありましたが、これはという物はいくらもありません。<br><br>勝れている物としたら、やっぱり私の方で出した物のうちの三点で、これは勝れています。<br><br>ですから「京都新聞」の社長と主筆、それから東京の博物館の浮世絵の主任、その人たちが非常に歓待してくれ、非常に感謝してました。<br><br>それで京都の新聞にもメシヤ教に関することが出てましたが、それといい、東京の新聞にも時々出ているものを見ても、メシヤ教に対する認識がよほど変わってきました。<br><br>それはみんな知っているでしょう。<br><br>ですからしてもう一息というところです。<br><br>ほかの新宗教とのレベルの違いさが、まだちょっとくらいの違いです。<br><br>新宗教のうちではメシヤ教となってますが、あらゆる宗教のうちでもぜんぜん頭角を抜いているというところまでにまだ行ってないのです。<br><br>ただ割合にインテリの信者が多いことと、それから新宗教のうちでは一番しっかりしているというくらいの程度です。<br><br>これらも非常に早いです。<br><br>今度京都に行っていろいろ、体的、物質的という面もそうとうあり、霊的からいっても非常に変わってきている。<br><br>昨年でしたが、しかも事件後でしたから、そういう点もありますが、二年そこそこで、まるで空気が違ってきました。<br><br>そういうこともだんだん早くなりますから、もう今後一年経つとよほどの違いになってくると思います。<br><br> 一番の急所といいますか、これは病気です。<br><br>病気はメシヤ教の浄霊……と。<br><br>メシヤ教でなければ治らないという空気が出てきたら俄然として発展します。<br><br>まだ時期がそこまで行ってませんから、それについていろいろやってます。<br><br>今日の『東京日日』を大体見てきました。<br><br>「宗教と病気」ということについての座談会ですが、各宗教からの医学博士が出席してましたが、メシヤ教からは岡田道一さんが出てました。<br><br>それでそういう宗教と医学について、世の中が関心をもってきたということは確かで、もう医者では駄目だ、メシヤ教の浄霊でなければ治らない、ということが社会に知れたらたいへんです。<br><br>神様が良い具合にやりますが、それが一番の急所です。<br><br>そういう意味において、今私は書いてますが、『アメリカを救う』というあれはほとんどできました。<br><br>アメリカは無論そうですが、日本人も大いに注目を払うだろうと思います。<br><br>アメリカを救うなんて、いったいどんなことを書いてあるだろうかという好奇心が起るのです。<br><br>それについて、この前の次を読ませます。<br><br> （御論文『アメリカを救う』「四、手術に就て 五、浄霊医術」） いろいろの病気がありますが、そのうちで結核が一番肝腎なことなので、つまり科学的に説いたのです。<br><br>医学の方は科学的ではないのです。<br><br>医学の方は、なんというか、機械的、推理的といったものでしょう。<br><br> （御論文「結核」）【栄光 一八〇号】 これを翻訳してます。<br><br>そうして英文の方をアメリカに送るのですが、こういうふうに言ったらある程度は分かると思います。<br><br>日本と違ってあっちの人はその点は分かりが良いです。<br><br>どのくらい解るか分からないが、とにかく珍しい説だ、研究しようという人も出るでしょうし、反響はおもしろいと思います。<br><br>さっきラジオで聞きましたが、今年のノーベル賞はストレプトマイシンを発見した米国の医学者でワクスマン博士と言ってましたが、われわれから見ると実に情けない感です。<br><br>こっちはストレプトマイシンなんて、ああいうものをのませるのがいけないと言う。<br><br>それが ノーベル賞をもらうのですから、いかに世界的に逆になっているかが分かります。<br><br>ですからこれが分かったとしても、ノーベル賞受賞は合ってないかもしれないです。<br><br>なぜならばそんなチッポケなものではないからです。<br><br>新しいそういったものができなければ追いつかないです。<br><br>そうかといって今はノーベル賞以上のものがないから、そんなことは考える必要もないですが……そんなようなわけで、結論はまだ仕上がってませんから、ダブッている所があるでしょうが、ちょっと読ませます。<br><br> （御論文『アメリカを救う』「結論」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Expansão da Obra Divina</h2>
 <p>Estive recentemente na região de Quioto e Nara. Pude inspecionar o terreno que adquirimos em Saga e constatei ser um local de excelência, quiçá o mais primoroso de todos. A configuração das montanhas e da paisagem circundante é simplesmente ideal. A residência, por sua vez, revelou-se surpreendentemente suntuosa. Eu imaginava que seriam necessárias reformas, mas tal não se faz preciso; a casa está em perfeitas condições de habitabilidade. Planejo, portanto, passar alguns dias ali na próxima primavera. A primeira etapa consistirá na organização gradual do terreno, que se encontra coberto por vegetação densa.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, a obra que estou escrevendo, intitulada “A Salvação da América”, está quase concluída. Ela se destina, obviamente, aos americanos, mas acredito que despertará também grande interesse entre os japoneses. Surgirá a curiosidade: “Que tipo de conteúdo pode haver em uma obra com semelhante título?”. A esse respeito, peço que ouçam a leitura do trecho seguinte.</p>
 <p>Dentre as diversas doenças, a tuberculose é a mais crucial, e minha abordagem sobre ela é puramente científica, ao contrário da medicina, que se baseia em métodos que eu classificaria como mecânicos e dedutivos. Este ensinamento está sendo traduzido para o inglês a fim de ser enviado aos Estados Unidos. Acredito que, exposto dessa forma, será compreendido até certo ponto, pois os americanos, diferentemente dos japoneses, são mais receptivos a novas ideias. Não sei qual será o grau de compreensão, mas certamente haverá quem considere a tese original e digna de estudo. A repercussão promete ser interessante. Há pouco, ouvi no rádio que o Prêmio Nobel deste ano foi concedido a um médico americano, o Dr. Waksman, pela descoberta da estreptomicina. Do nosso ponto de vista, tal fato é verdadeiramente lamentável. Enquanto ensinamos que a administração de substâncias como essa é prejudicial, o mundo lhe confere a maior das honrarias. Isso revela o quão invertidos estão os valores em escala global. Mesmo que minha teoria venha a ser compreendida, talvez não se enquadre em um Prêmio Nobel, pois sua magnitude transcende tais honrarias. Seria necessário criar algo novo, superior ao que existe hoje. Mas não há por que nos preocuparmos com isso agora.</p>
 <p>Dito isso, a conclusão da obra ainda não está finalizada e pode conter algumas redundâncias, mas peço que ouçam a sua leitura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年10月25日） 『御教え集』15号、昭和27(1952)年11月15日発行 昭和二十七年十月二十五日 この間京都や奈良の方に行ってきました。<br/><br/>それについて手に入れた嵯峨の土地ですが、今度あの辺を見ると非常に良い所でして、まあ一番良い所かもしれません。<br/><br/>山とか、そういったものの具合がちょうど良い所なのです。<br/><br/>それで家もあんがい立派な家で、私は手を入れなければならないかと思ったところが、そんなことは必要なくてそのままで立派に住める家なので、来年の春はそこに数日間いるつもりです。<br/><br/>それで最初は、藪になってますからボツボツ土地の整理をします。<br/><br/>私が住むにはちょうど適当な家なのですが、ただみんなが来た時住むような所がないのです。<br/><br/>ところがちょうどその前に良い売り物があって、地所が千六百坪で建物が二百坪くらいあるのです。<br/><br/>そこにも行ってみたところが、間数が幾間もあって、ただどういうわけですか座敷は板の間が多いのです。<br/><br/>そこに畳を敷けば立派に住めるのが幾間もあるのです。<br/><br/>信者さんがそこに泊まるわけですが、実に適当なのです。<br/><br/>庭も非常に良いのですが、藪になってますから、これを立派に手入れし掃除すると立派になります。<br/><br/>しかも値段が馬鹿に安いのです。<br/><br/>半分値です。<br/><br/>それが今度京都に行く前の晩に決まったのですから、実に神様のは一日も違わないわけです。<br/><br/>ですからそこを見に行くにも非常に張り合いがあって良かったのです。<br/><br/>で、そこは広沢の他の釣りの権利と舟を浮かべる権利がついているのですから、釣りをやりたければ自由にできるわけですから、あそこに信者さんで釣りに来る人もないでしょうが、釣りの好きな人は来ると良いです。<br/><br/>魚は随分いるでしょう。<br/><br/> 御伺い 養魚するようでございます。<br/><br/> 市の方でもあそこをなんとかという話です。<br/><br/>市は勿論あそこを観光地とするのでしょう。<br/><br/>メシヤ教に対してなにか言ってきましたか。<br/><br/> 御伺い メシヤ教が買ったということは、まだ発表しておりませんので。<br/><br/> あそこは市と提携してやると、思いきっておもしろいものができるのです。<br/><br/>池がそう深くなければ、真ん中に島を作ると良いのです。<br/><br/>そうして支那式の橋をかけるとすばらしいものになると思います。<br/><br/>池はただ水があるだけではおもしろくないのです。<br/><br/> そういうわけで、あっちもボツボツやりますが、しかし順序から言えば箱根から、今度は熱海ですから、熱海が主になるわけです。<br/><br/>それで今度の美術館の「浮世絵展覧会」を見ましたが、私の方で四点出しましたが、そのうちの三点は展覧会の圧巻でした。<br/><br/>数はたくさんありましたが、これはという物はいくらもありません。<br/><br/>勝れている物としたら、やっぱり私の方で出した物のうちの三点で、これは勝れています。<br/><br/>ですから「京都新聞」の社長と主筆、それから東京の博物館の浮世絵の主任、その人たちが非常に歓待してくれ、非常に感謝してました。<br/><br/>それで京都の新聞にもメシヤ教に関することが出てましたが、それといい、東京の新聞にも時々出ているものを見ても、メシヤ教に対する認識がよほど変わってきました。<br/><br/>それはみんな知っているでしょう。<br/><br/>ですからしてもう一息というところです。<br/><br/>ほかの新宗教とのレベルの違いさが、まだちょっとくらいの違いです。<br/><br/>新宗教のうちではメシヤ教となってますが、あらゆる宗教のうちでもぜんぜん頭角を抜いているというところまでにまだ行ってないのです。<br/><br/>ただ割合にインテリの信者が多いことと、それから新宗教のうちでは一番しっかりしているというくらいの程度です。<br/><br/>これらも非常に早いです。<br/><br/>今度京都に行っていろいろ、体的、物質的という面もそうとうあり、霊的からいっても非常に変わってきている。<br/><br/>昨年でしたが、しかも事件後でしたから、そういう点もありますが、二年そこそこで、まるで空気が違ってきました。<br/><br/>そういうこともだんだん早くなりますから、もう今後一年経つとよほどの違いになってくると思います。<br/><br/> 一番の急所といいますか、これは病気です。<br/><br/>病気はメシヤ教の浄霊……と。<br/><br/>メシヤ教でなければ治らないという空気が出てきたら俄然として発展します。<br/><br/>まだ時期がそこまで行ってませんから、それについていろいろやってます。<br/><br/>今日の『東京日日』を大体見てきました。<br/><br/>「宗教と病気」ということについての座談会ですが、各宗教からの医学博士が出席してましたが、メシヤ教からは岡田道一さんが出てました。<br/><br/>それでそういう宗教と医学について、世の中が関心をもってきたということは確かで、もう医者では駄目だ、メシヤ教の浄霊でなければ治らない、ということが社会に知れたらたいへんです。<br/><br/>神様が良い具合にやりますが、それが一番の急所です。<br/><br/>そういう意味において、今私は書いてますが、『アメリカを救う』というあれはほとんどできました。<br/><br/>アメリカは無論そうですが、日本人も大いに注目を払うだろうと思います。<br/><br/>アメリカを救うなんて、いったいどんなことを書いてあるだろうかという好奇心が起るのです。<br/><br/>それについて、この前の次を読ませます。<br/><br/> （御論文『アメリカを救う』「四、手術に就て 五、浄霊医術」） いろいろの病気がありますが、そのうちで結核が一番肝腎なことなので、つまり科学的に説いたのです。<br/><br/>医学の方は科学的ではないのです。<br/><br/>医学の方は、なんというか、機械的、推理的といったものでしょう。<br/><br/> （御論文「結核」）【栄光 一八〇号】 これを翻訳してます。<br/><br/>そうして英文の方をアメリカに送るのですが、こういうふうに言ったらある程度は分かると思います。<br/><br/>日本と違ってあっちの人はその点は分かりが良いです。<br/><br/>どのくらい解るか分からないが、とにかく珍しい説だ、研究しようという人も出るでしょうし、反響はおもしろいと思います。<br/><br/>さっきラジオで聞きましたが、今年のノーベル賞はストレプトマイシンを発見した米国の医学者でワクスマン博士と言ってましたが、われわれから見ると実に情けない感です。<br/><br/>こっちはストレプトマイシンなんて、ああいうものをのませるのがいけないと言う。<br/><br/>それが ノーベル賞をもらうのですから、いかに世界的に逆になっているかが分かります。<br/><br/>ですからこれが分かったとしても、ノーベル賞受賞は合ってないかもしれないです。<br/><br/>なぜならばそんなチッポケなものではないからです。<br/><br/>新しいそういったものができなければ追いつかないです。<br/><br/>そうかといって今はノーベル賞以上のものがないから、そんなことは考える必要もないですが……そんなようなわけで、結論はまだ仕上がってませんから、ダブッている所があるでしょうが、ちょっと読ませます。<br/><br/> （御論文『アメリカを救う』「結論」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinkyu3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 鍼灸療法 『明日の医術 第二編』昭和18(1943)年10月5日発行 近来、一時すたれたかにみえた灸療法が復活し、相当の流行を見るに至った事は周知の事実である。<br><br>これは全く西洋医学の無力に起因する事は勿論であるが、これについて私は説明してみよう。<br><br>これは病原である毒素溜結に対し、皮膚の火傷によって毒素を誘導するのである。<br><br>ちょうど、火傷の際、そこに膿が集溜するのと同一の理であって、大きな火傷はその苦痛と、治癒してから醜痕（しゅうこん）が残るので、分散的に小火傷を数多くさせる訳であるから、毒素もその小火傷へ分散的に集溜するので、一時的軽快するのである。<br><br>故に、時日を経るに従い、再び毒素は還元するから、灸は据え初めたら毎月又は一年に何回というように持続しなければならないというのは、右の理に由るからである。<br><br>しかし、薬剤と異（ちが）い、中毒は残らないから健康には差しつかえないが、施術の際の苦痛は勿論、ここに見逃す事の出来ない事は、皮膚に醜痕を残す事である。<br><br>元来人間は、造物主の最傑作品で、美の極致であるといってもいいのである。<br><br>特に女性のごときは、その皮膚の美を讃え、日本においては玉の膚ともいい、泰西においては女性の裸体が最高の美とされているのである。<br><br>それに対して、人為的に火傷の痕をつくるという事は、皮膚の不具者となる事であって、神に対し、冒涜の罪は免れまいと思うのである。<br><br> 次に鍼療法なるものは、血管を傷つけ、内出血をさせ、その凝血によって、一時的浄化作用停止を行うものであるから、根治療法ではないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise sobre a Acupuntura e a Moxabustão</h2>
 <p>É notório que a terapia por moxabustão, a qual parecera temporariamente obsoleta, ressurgiu e alcançou considerável popularidade em tempos recentes. Tal fenômeno, evidentemente, origina-se da ineficácia da medicina ocidental, e passarei a elucidar seus fundamentos.</p>
 <p>O princípio desse método reside em induzir as toxinas, que são a causa primordial das doenças, a se dirigirem para pontos específicos da pele através de queimaduras. O mecanismo é idêntico ao do pus que se acumula no local de uma lesão causada pelo fogo. Contudo, como uma queimadura de grandes proporções acarreta dor intensa e deixa uma cicatriz desagradável após a cura, opta-se por provocar diversas pequenas queimaduras de forma dispersa. Com isso, as toxinas também se concentram nesses múltiplos pontos de maneira distribuída, o que proporciona um alívio transitório. Por conseguinte, com o passar do tempo, as toxinas inevitavelmente retornam à sua condição original. Eis a razão pela qual, uma vez iniciado, o tratamento com moxa exige continuidade, com aplicações mensais ou anuais.</p>
 <p>Apesar de, diferentemente dos fármacos, não deixar resíduos de intoxicação e, portanto, não prejudicar a saúde, há dois aspectos iniludíveis: a dor durante o procedimento e, sobretudo, as marcas antiestéticas que deixa na pele. É preciso recordar que o ser humano é a obra-prima suprema do Criador; pode-se dizer que representa o ápice da beleza. A cútis feminina, em especial, é exaltada por sua formosura — no Japão, é comparada a uma joia, enquanto no Ocidente, o corpo nu da mulher é considerado a mais elevada expressão de beleza. Diante disso, criar artificialmente marcas de queimadura equivale a mutilar a pele, e creio ser impossível eximir-se do pecado de profanação contra Deus.</p>
 <p>No que tange à acupuntura, sua prática consiste em lesar os vasos sanguíneos para provocar uma hemorragia interna. O coágulo resultante interrompe temporariamente o processo de purificação natural do organismo. Portanto, não representa, de modo algum, um tratamento fundamental da doença.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 鍼灸療法 『明日の医術 第二編』昭和18(1943)年10月5日発行 近来、一時すたれたかにみえた灸療法が復活し、相当の流行を見るに至った事は周知の事実である。<br/><br/>これは全く西洋医学の無力に起因する事は勿論であるが、これについて私は説明してみよう。<br/><br/>これは病原である毒素溜結に対し、皮膚の火傷によって毒素を誘導するのである。<br/><br/>ちょうど、火傷の際、そこに膿が集溜するのと同一の理であって、大きな火傷はその苦痛と、治癒してから醜痕（しゅうこん）が残るので、分散的に小火傷を数多くさせる訳であるから、毒素もその小火傷へ分散的に集溜するので、一時的軽快するのである。<br/><br/>故に、時日を経るに従い、再び毒素は還元するから、灸は据え初めたら毎月又は一年に何回というように持続しなければならないというのは、右の理に由るからである。<br/><br/>しかし、薬剤と異（ちが）い、中毒は残らないから健康には差しつかえないが、施術の際の苦痛は勿論、ここに見逃す事の出来ない事は、皮膚に醜痕を残す事である。<br/><br/>元来人間は、造物主の最傑作品で、美の極致であるといってもいいのである。<br/><br/>特に女性のごときは、その皮膚の美を讃え、日本においては玉の膚ともいい、泰西においては女性の裸体が最高の美とされているのである。<br/><br/>それに対して、人為的に火傷の痕をつくるという事は、皮膚の不具者となる事であって、神に対し、冒涜の罪は免れまいと思うのである。<br/><br/> 次に鍼療法なるものは、血管を傷つけ、内出血をさせ、その凝血によって、一時的浄化作用停止を行うものであるから、根治療法ではないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

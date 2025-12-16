@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s261105</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月5日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月五日 昨夜、福井県の方の信者で、そうとう古いらしい信者なんですが、なんでもそこに来る、やっぱり信者らしいんですが、最近龍神が憑って、いろいろ邪魔したりすると見え、浄霊すると、龍神だかなんだか知らないが――精神病的に暴れたんじゃないかと思いますが、それを十五人の人間で抑えつけて、無理に腕力でやったと見えて、怪我したらしいのです。<br><br> それはそれとして、「憑っている龍神と今戦っている。<br><br>だからそれを屈服させるべくご守護お願いしたい」と頼んできた。<br><br>運転手の米谷君から私に手紙の依頼をして来たんです。<br><br>それで米谷に、こういう風にしろと教えてやった。<br><br>これはあり得る事で、心得ておかなければならない。<br><br>それは「先は――暴れた人間についた龍神は邪神だ。<br><br>これをやっつけなければならないと思った。<br><br>私の神力で――お力でやっつけてもらいたいと言う意味なんですが、それは逆で、あなた方みんな――十何人かの信者みんなに邪神が憑っている。<br><br>暴れると言う龍神は、神様なんだ。<br><br>手紙には、どうしても勝たなければならないという事を書いてあるが、勝たなければならないと思う気持ちは、それは邪神なんです。<br><br>だから、あっちに行ったら負けなさいと言え」と言った。<br><br>負ければ先が良い気持ちになる。<br><br>負かそうとするから、先が怒ってくる。<br><br>負かそうという気持ちそのものが、全然メシヤ教ではない。<br><br>昔から言う通り、負けるが勝ちです。<br><br>負けなければならない。<br><br>勝とうとする気持ちが、全然メシヤ教の気持ちとはあべこべになっている。<br><br>それは、行者か何かがやる事です。<br><br>よしんば邪神でも負ければ良い。<br><br> しかし、私は悪に負けてはいけないという事を言いますが、悪に負けないという事と、邪神に負けないという事は違うんですよ。<br><br>それで私は話したんですが、善とか悪とかいう事は、その道理ですね。<br><br>理屈に外れている事は、悪ですから負けてはいけない。<br><br>邪神というのはそうではない。<br><br>ただ、邪魔するというんだから、そういう邪魔する人間は、無抵抗にして収めてしまえば良いんだから、そんな善悪なんて考える事はもったいないから、相手によっては――事情によっては、負ける方が良いんですよ。<br><br>第一、日本の戦争が、日本が負ける気になったから、あれで収まった。<br><br>降参したからね。<br><br>もし降参しないで、まだやっていたら、まだまだどんな犠牲をはらったか分らない。<br><br>実は降参の仕方が遅かった。<br><br>もっと、半年も早く降参していたらどんなに良かったか分らない。<br><br>負けるが勝ちですね。<br><br>フィリピンを攻めた時、マッカーサーが逃げたですね。<br><br>その時私は、マッカーサーというのは偉い人だと誉めましたがね。<br><br>というのは、マッカーサーは逃げるから偉い。<br><br>日本の軍隊は逃げないからいけない。<br><br>戦は逃げれば勝つんです。<br><br>徳川家康は逃げ逃げ天下を取った。<br><br>一たん負けても、後を勝てば良い。<br><br>私は今までも、最初は負けろと言うんです。<br><br>で、いつかは勝ちますね。<br><br>最初から勝とうとするからいけない。<br><br> この人達は信仰が間違っているから、神様がこの人達をいじめたんです。<br><br>警察問題になって、今、調べられていますが、これは邪神が信者にかかったんです。<br><br>そうして、懲りさせたんですね――神様がね。<br><br>だから、結局龍神の方に神様が、かえって憑った。<br><br>そういう訳です。<br><br> なおもう一つは、霊憑りは、普段から言う通り、霊憑りはやってはいけないんです。<br><br>ただ、ある場合に祖霊や何かが出て、警告を与えるというのは良いんですが、霊憑りを全然いけないと言うのではないが、それを心得ておかなければならない。<br><br>しかし、霊憑りは面白いので、みんなやりたがるんですよ。<br><br>それで、いかなる場合にも常識的に考えれば分るんですね。<br><br>もしか、精神病なんかにしろ、暴れたりすると、それこそ病院に入れちゃうと良い。<br><br>なぜなれば、それでないと教えに瑕（きず）をつけますからね。<br><br>そのために普通の――他の人の浄霊が出来なくなるし、手間をとって他の患者の邪魔になるからね。<br><br>ですから結果においてマイナスになる訳ですね。<br><br>だから、そう言う場合には臨機応変に処して、暴れたりする事のないようにすると良い。<br><br>こっちの御神業の邪魔する場合には、しかるべき処置を取ると良い。<br><br>今の話は、めちゃくちゃに――浄霊一方でやろうというのだが、もしも――憑っている精神病者の霊は、浄霊でやっても、そういう浄霊は、余程こっちの霊力がないと抑える事が出来にくい。<br><br>普通なら浄霊でも治りますが、余程強いのがありますから、そう言うのは、こっちで適当に処置を取る。<br><br>そう入った判断が、その人の智慧証覚ですからね。<br><br>ですから、そういう点も大いに勉強する。<br><br>それには私の書いた本を出来るだけ読むと良い。<br><br>ちゃんと書いてありますからね。<br><br>読み方が足りないと判断を間違えるんですね。<br><br>ですから、そう言う事も、良く言ってやりましたがね。<br><br> それから今度、地方の講演に――今度は九州の方ですがね。<br><br>あっちの方面に行く人や、それから西の方、山陰、山陽でしょうが――あっちの方にも行くが、私の講演の代わりに、原稿を書いてもらいたいというので、昨日書きましたが、それを読ませます。<br><br> （御論文「舌に代えて」）【栄光 一三〇号】 これは善と悪について書いたんですがね。<br><br>これはもっとも根本的問題です。<br><br>それを書いてあるんです。<br><br>つまり悪は必要だという事ですね。<br><br>悪は大変な大きな功績をしているという事ですね。<br><br>こういう事は質問される事があるんです。<br><br>私なんか、良く質問されました。<br><br>なぜ、神様は悪を作って、悪人を作って、悪い事をさせて、罰を当てる。<br><br>人間をひどい目に合わせるというのは、神様の愛というのと違うではないか。<br><br>一体どういう訳だという事を、良く聞かれたものです。<br><br>その回答というべきものです。<br><br> （御論文「善と悪」） （御論文「Ｂ・Ｃ・Ｇ問題」「Ｂ・Ｃ・Ｇの猛毒」のあとの御教）【栄光 一三〇号】 これは、今度「栄光」新聞に出して、厚生大臣に送ってやろうと思っている。<br><br>つまり、霊界の浄化が強くなっているから、Ｂ・Ｃ・Ｇが今まで固まっていたのが、固まらなくなったんですね。<br><br>この子供なんか信者だから固まらない訳ですね。<br><br>だからたちまちこういう悪影響が来たんです。<br><br>ですから、段々薬が固まらなくなるから、今まで何ともなかったのが悪化する事になるから、嫌でも薬毒と言う事が分って来る訳ですね。<br><br>そうなってから、いよいよこっちの出る幕になるんですがね。<br><br>もう大して長い事はないから楽しみですね。<br><br>だから、どうしても医学の誤りはお医者さん自身が分って来なければいけないんです。<br><br>そこではじめて、メシヤ教があんな変わった事を言っているが、これだなという事が分る。<br><br>ところがお医者さんによっては、私の方の出版物を見ていると見えて、チョクチョク私の方の説を取り入れている点が見えるんですね。<br><br>注意していると、だいぶそういう事があります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Vitória que Reside na Derrota</h2>
 <p>Ontem à noite, recebi uma correspondência de um membro de longa data da província de Fukui. Segundo o relato, um outro fiel daquela localidade foi recentemente acometido pela possessão de um Deus-Dragão, passando a agir de forma violenta e a causar transtornos. Foi necessário que quinze pessoas o contivessem à força, o que, ao que parece, resultou em ferimentos.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Este texto trata da questão do bem e do mal, um dos problemas mais fundamentais da existência. Sua tese central é a de que o mal é necessário e, de fato, presta um serviço de grande relevância. Muitas vezes me questionaram a esse respeito. É comum ouvir perguntas como: “Por que Deus, em Seu infinito amor, criaria o mal e os malfeitores, permitindo que ajam para depois puni-los e fazer a humanidade sofrer? Qual a lógica por trás disso?” Este ensinamento serve como resposta a essa indagação.</p>
 <p>Este próximo trecho refere-se à vacina BCG, e pretendo publicá-lo no jornal Eiko e enviá-lo ao Ministro da Saúde.</p>
 <p>Com a intensificação da purificação do Mundo Espiritual, a vacina BCG, que antes se "fixava" no organismo, já não o faz com a mesma eficácia. O filho de um de nossos membros é um exemplo disso; por ser membro, a vacina não se fixou, e os efeitos adversos se manifestaram imediatamente. Progressivamente, os medicamentos perderão sua capacidade de se fixar no corpo. Efeitos que antes não eram percebidos se tornarão graves, e as pessoas serão forçadas a reconhecer a realidade do yakudoku. Será nesse momento que a nossa hora chegará, o que, felizmente, não deve demorar. É imprescindível que os próprios médicos reconheçam seus equívocos. Só então eles compreenderão que aquilo que a Igreja Messiânica vinha afirmando, e que parecia tão singular, era a pura verdade. Devo notar, contudo, que alguns médicos parecem estar lendo nossas publicações, pois tenho observado, aqui e ali, a sutil incorporação de minhas teses em suas práticas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月5日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月五日 昨夜、福井県の方の信者で、そうとう古いらしい信者なんですが、なんでもそこに来る、やっぱり信者らしいんですが、最近龍神が憑って、いろいろ邪魔したりすると見え、浄霊すると、龍神だかなんだか知らないが――精神病的に暴れたんじゃないかと思いますが、それを十五人の人間で抑えつけて、無理に腕力でやったと見えて、怪我したらしいのです。<br/><br/> それはそれとして、「憑っている龍神と今戦っている。<br/><br/>だからそれを屈服させるべくご守護お願いしたい」と頼んできた。<br/><br/>運転手の米谷君から私に手紙の依頼をして来たんです。<br/><br/>それで米谷に、こういう風にしろと教えてやった。<br/><br/>これはあり得る事で、心得ておかなければならない。<br/><br/>それは「先は――暴れた人間についた龍神は邪神だ。<br/><br/>これをやっつけなければならないと思った。<br/><br/>私の神力で――お力でやっつけてもらいたいと言う意味なんですが、それは逆で、あなた方みんな――十何人かの信者みんなに邪神が憑っている。<br/><br/>暴れると言う龍神は、神様なんだ。<br/><br/>手紙には、どうしても勝たなければならないという事を書いてあるが、勝たなければならないと思う気持ちは、それは邪神なんです。<br/><br/>だから、あっちに行ったら負けなさいと言え」と言った。<br/><br/>負ければ先が良い気持ちになる。<br/><br/>負かそうとするから、先が怒ってくる。<br/><br/>負かそうという気持ちそのものが、全然メシヤ教ではない。<br/><br/>昔から言う通り、負けるが勝ちです。<br/><br/>負けなければならない。<br/><br/>勝とうとする気持ちが、全然メシヤ教の気持ちとはあべこべになっている。<br/><br/>それは、行者か何かがやる事です。<br/><br/>よしんば邪神でも負ければ良い。<br/><br/> しかし、私は悪に負けてはいけないという事を言いますが、悪に負けないという事と、邪神に負けないという事は違うんですよ。<br/><br/>それで私は話したんですが、善とか悪とかいう事は、その道理ですね。<br/><br/>理屈に外れている事は、悪ですから負けてはいけない。<br/><br/>邪神というのはそうではない。<br/><br/>ただ、邪魔するというんだから、そういう邪魔する人間は、無抵抗にして収めてしまえば良いんだから、そんな善悪なんて考える事はもったいないから、相手によっては――事情によっては、負ける方が良いんですよ。<br/><br/>第一、日本の戦争が、日本が負ける気になったから、あれで収まった。<br/><br/>降参したからね。<br/><br/>もし降参しないで、まだやっていたら、まだまだどんな犠牲をはらったか分らない。<br/><br/>実は降参の仕方が遅かった。<br/><br/>もっと、半年も早く降参していたらどんなに良かったか分らない。<br/><br/>負けるが勝ちですね。<br/><br/>フィリピンを攻めた時、マッカーサーが逃げたですね。<br/><br/>その時私は、マッカーサーというのは偉い人だと誉めましたがね。<br/><br/>というのは、マッカーサーは逃げるから偉い。<br/><br/>日本の軍隊は逃げないからいけない。<br/><br/>戦は逃げれば勝つんです。<br/><br/>徳川家康は逃げ逃げ天下を取った。<br/><br/>一たん負けても、後を勝てば良い。<br/><br/>私は今までも、最初は負けろと言うんです。<br/><br/>で、いつかは勝ちますね。<br/><br/>最初から勝とうとするからいけない。<br/><br/> この人達は信仰が間違っているから、神様がこの人達をいじめたんです。<br/><br/>警察問題になって、今、調べられていますが、これは邪神が信者にかかったんです。<br/><br/>そうして、懲りさせたんですね――神様がね。<br/><br/>だから、結局龍神の方に神様が、かえって憑った。<br/><br/>そういう訳です。<br/><br/> なおもう一つは、霊憑りは、普段から言う通り、霊憑りはやってはいけないんです。<br/><br/>ただ、ある場合に祖霊や何かが出て、警告を与えるというのは良いんですが、霊憑りを全然いけないと言うのではないが、それを心得ておかなければならない。<br/><br/>しかし、霊憑りは面白いので、みんなやりたがるんですよ。<br/><br/>それで、いかなる場合にも常識的に考えれば分るんですね。<br/><br/>もしか、精神病なんかにしろ、暴れたりすると、それこそ病院に入れちゃうと良い。<br/><br/>なぜなれば、それでないと教えに瑕（きず）をつけますからね。<br/><br/>そのために普通の――他の人の浄霊が出来なくなるし、手間をとって他の患者の邪魔になるからね。<br/><br/>ですから結果においてマイナスになる訳ですね。<br/><br/>だから、そう言う場合には臨機応変に処して、暴れたりする事のないようにすると良い。<br/><br/>こっちの御神業の邪魔する場合には、しかるべき処置を取ると良い。<br/><br/>今の話は、めちゃくちゃに――浄霊一方でやろうというのだが、もしも――憑っている精神病者の霊は、浄霊でやっても、そういう浄霊は、余程こっちの霊力がないと抑える事が出来にくい。<br/><br/>普通なら浄霊でも治りますが、余程強いのがありますから、そう言うのは、こっちで適当に処置を取る。<br/><br/>そう入った判断が、その人の智慧証覚ですからね。<br/><br/>ですから、そういう点も大いに勉強する。<br/><br/>それには私の書いた本を出来るだけ読むと良い。<br/><br/>ちゃんと書いてありますからね。<br/><br/>読み方が足りないと判断を間違えるんですね。<br/><br/>ですから、そう言う事も、良く言ってやりましたがね。<br/><br/> それから今度、地方の講演に――今度は九州の方ですがね。<br/><br/>あっちの方面に行く人や、それから西の方、山陰、山陽でしょうが――あっちの方にも行くが、私の講演の代わりに、原稿を書いてもらいたいというので、昨日書きましたが、それを読ませます。<br/><br/> （御論文「舌に代えて」）【栄光 一三〇号】 これは善と悪について書いたんですがね。<br/><br/>これはもっとも根本的問題です。<br/><br/>それを書いてあるんです。<br/><br/>つまり悪は必要だという事ですね。<br/><br/>悪は大変な大きな功績をしているという事ですね。<br/><br/>こういう事は質問される事があるんです。<br/><br/>私なんか、良く質問されました。<br/><br/>なぜ、神様は悪を作って、悪人を作って、悪い事をさせて、罰を当てる。<br/><br/>人間をひどい目に合わせるというのは、神様の愛というのと違うではないか。<br/><br/>一体どういう訳だという事を、良く聞かれたものです。<br/><br/>その回答というべきものです。<br/><br/> （御論文「善と悪」） （御論文「Ｂ・Ｃ・Ｇ問題」「Ｂ・Ｃ・Ｇの猛毒」のあとの御教）【栄光 一三〇号】 これは、今度「栄光」新聞に出して、厚生大臣に送ってやろうと思っている。<br/><br/>つまり、霊界の浄化が強くなっているから、Ｂ・Ｃ・Ｇが今まで固まっていたのが、固まらなくなったんですね。<br/><br/>この子供なんか信者だから固まらない訳ですね。<br/><br/>だからたちまちこういう悪影響が来たんです。<br/><br/>ですから、段々薬が固まらなくなるから、今まで何ともなかったのが悪化する事になるから、嫌でも薬毒と言う事が分って来る訳ですね。<br/><br/>そうなってから、いよいよこっちの出る幕になるんですがね。<br/><br/>もう大して長い事はないから楽しみですね。<br/><br/>だから、どうしても医学の誤りはお医者さん自身が分って来なければいけないんです。<br/><br/>そこではじめて、メシヤ教があんな変わった事を言っているが、これだなという事が分る。<br/><br/>ところがお医者さんによっては、私の方の出版物を見ていると見えて、チョクチョク私の方の説を取り入れている点が見えるんですね。<br/><br/>注意していると、だいぶそういう事があります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

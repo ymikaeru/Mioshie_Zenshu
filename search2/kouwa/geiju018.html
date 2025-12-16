@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>geiju018</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 ２ 018-029 仏語仏教真解 018 南無阿弥陀仏の真意義と法華 南無阿弥陀仏の南無とはいかなる意味でありますか。<br><br> 南無は七・六という事、阿はア―五、五六七は昼の世界、これが逆になっている。<br><br>夜の世界は逆になるから、南無阿という言霊になっている。<br><br>弥陀仏は仏陀の事である。<br><br> 南無阿弥陀仏は六字の法名という。<br><br>六は水であり、月である。<br><br>阿弥陀は月光菩薩になる。<br><br> 南無妙法蓮華経は五字の法名という。<br><br>五は火になる。<br><br>故に日蓮が始めた。<br><br>妙の字は明を隠した。<br><br>明は日月で、五三――いづのめ。<br><br>法は仏法である。<br><br> 蓮はハス―ハチスという。<br><br>富士の事である。<br><br>芙蓉峰ともいう。<br><br>「富士山で咲かす」という事は「日本で咲かす」事である。<br><br> 法華経は華の教えであるから散るのも早い。<br><br>一度花を咲かせなくてはならぬ。<br><br> 法華経は二十八品であり、普門品が二十五番にある。<br><br>これが髄になるのである。<br><br>これが育つのが実で、実は実相世界である。<br><br>これが本当の世界で、今迄は仮の娑婆である。<br><br> 019 日蓮と親鸞、（日蓮を霊視す）、真如 日蓮、親鸞等が地獄に堕ちているように聞き及びましたが、この真相はいかがでしょうか。<br><br>右、御教示御願い申します。<br><br> 日蓮について、私の弟子で元日蓮信者だったものが身延山へ行った。<br><br>そして拝んでいると、青白く痩せて淋しい顔して日蓮が挨拶しているのが見えたという。<br><br>これは日蓮が助けて貰いたかったのである。<br><br> 日蓮上人の一番肝腎の仕事は法華経を弘通する事であった。<br><br>法華経、即ち法の華を咲かせる役目であった。<br><br>法華経は仏法の華である。<br><br>それまでに日本へ来た仏法はすべて南無阿弥陀仏であった。<br><br>これらは悉（ことごと）く陰である。<br><br>水であり月であった。<br><br>それに対して日蓮は陽であり、火であり、日であった。<br><br> （釈迦が七十二歳になって見真実になった）今迄の説いた仏法はすべて間違いで誤りがあった、これから説くのが本当のものである、といって説いたのが即ち法華経である。<br><br>――そう釈迦がいった事を日蓮が発見して、この法華経を説いたのである。<br><br> この意味は、仏法は花を咲かさぬと実が実らぬ。<br><br>で、法華の二十五番目が観音普門品で、これが実になるべき髄のようなものである。<br><br> 花が咲けば必ず散るものであって、法華経は一代法華といって、パッと花が咲いて散るように長く続かぬ。<br><br> 花であるから法華宗は、今迄の仏法と違って非常に陽気で、これはよかったが、一面また、排他的態度をとったが、これは面白くなかった。<br><br>すべて宗教はもっと抱擁的でなくてはならぬ。<br><br>念仏無間、律国賊、禅天魔など極端に排他的であった。<br><br>今でも日蓮宗はこういう点がある。<br><br> それで法の実が育って実相世界が出来る。<br><br>仏教では真如実相というが、これは本当でない。<br><br>真如は月の働きであるから、実相真如とすべきである。<br><br>釈迦に弟子が、「仏法の真髄を一言で言ってもらいたい」と聞いた時、「仏法の実相は真如なり」と言った。<br><br>それからこの語が出ている。<br><br> 真如は夜の世界の事、釈迦は、「この世は仮の娑婆であって、すべては空に帰する」と言った。<br><br>即ち夜の世界のものは永遠のものではない。<br><br>夜がすんで、その後に浄行菩薩が出て、それからミロク世界――実相世界になるというのである。<br><br>その実相世界を作る仕事――髄の仕事をするのが明主様である。<br><br> 日蓮上人は自分がその浄行菩薩と思ったが、死に際してその過ちを悟り、「浄行菩薩は六百五十年先に生れる」と言った。<br><br> それまでの仏教は極めて厭世的であったが、日蓮はそれを打破して、自信に満ちた態度をとったのはまことによかった。<br><br> 親鸞が地獄にいるというのは、かつて出口王仁三郎氏が「乞食のような恰好をしていたのが見えた」と言ったのを聞いた。<br><br>親鸞はその時代の共産的思想――即ち階級打破思想の持主であった。<br><br>「親鸞に弟子なし、皆御同行なり」と言った。<br><br>これは誤りであって、よくいえば民主主義であるが、日本の民主主義ではない。<br><br> もっとも、日本は今迄緯が無さすぎた。<br><br>忠君愛国思想のため国は亡びた。<br><br>自分の国の国民さえよければ他国はどうなってもいいという思想であって、隣人愛がない。<br><br>他国も共に良くなくてはならぬのである。<br><br> 弘法、法念は極楽にいる。<br><br>そして始終釈迦に遇いに行くという。<br><br>これは霊から聞いた事である。<br><br>（S23） 020 上行菩薩・六百五十年説 上行菩薩は日蓮上人が唱えた。<br><br>安房の誕生寺（清澄山）で、日に向って南無妙法蓮華経を唱え、法華経を唱えた。<br><br> 上行菩薩は観音様の事で、日蓮上人は六百五十年経つと表われると言った。<br><br>すると今から十年位前にあたる。<br><br>最初は自分がそうと思ったらしいのである。<br><br>自分が天照大神の直系と思ったらしい。<br><br>吾日本の大船、日本の柱とならんと言った。<br><br>柱とは天皇の事である。<br><br>上行は浄行が本当である。<br><br>弥勒菩薩は釈迦の十人の弟子の中の一人で、五六七の世の弥勒と違う。<br><br>みろくの世のそれは五六七神である。<br><br>弥勒菩薩は別のものである。<br><br>（S23. 7. 9） 021 仏教は七を使う 御仏壇あるいはお寺へ物を上げます場合、一般には、その数を四とか九、十一などに致しますようで御座いますが、これは何か意味が御座いましょうか。<br><br>お伺い申し上げます。<br><br> そんな事はない。<br><br>七はよく使う。<br><br>七夜とか、三十五日、初七日というように、仏教は大体七である。<br><br>釈迦は土のミロクで、七は土である。<br><br> 私などもよく使う。<br><br>（S25. 5.22） 022 仏祭の供物、肉食について 今まで仏の祭には魚を使わなかったのは何か意義が有りますか、御教え下さい。<br><br> 釈迦が殺生してはいけないとか、汚れるとか言ったために使わなかったのである。<br><br>インドでは今日もあまり魚を食わぬ。<br><br>菜食と牛乳で、魚は昔から喰べない。<br><br>そのためインドは国が衰えた。<br><br>（一つの習慣である。<br><br>回々教は豚を食べない。<br><br>蒙古人は牛を食べない。<br><br>以前回々教の連中が来て、帝国ホテルで豚が出ても食べなかった事があった）文化生活には魚も肉も食はなくてはいけない。<br><br>肉を食うと競争心が起る。<br><br>食い過ぎると闘争心が起る。<br><br>であるから、肉食は少しにする。<br><br>（ヨーロッパは一番戦争が多い。<br><br>現代人は少くした方がよい）（S24. 1.27） 023 五重塔と十三塔、卒塔婆、黄金世界、紅卍の意義 五重塔は大した意味はない。<br><br>仏教で一番多いのは十三塔で、これを略して五重にした。<br><br>一番低いのは二重の塔がある。<br><br>石の塔は十三塔、木製は五重である。<br><br>三界であるから本当は三重の塔である。<br><br>形から割出したものと思う。<br><br>七堂伽藍の一つである。<br><br> 卒塔婆は死人の供養。<br><br>梵字で書くのが本当で、文字の働きで霊がそれだけ救われる。<br><br> ナチは 、黒とか斜めは悪魔である。<br><br>紅卍は赤十字を宗教的にする建前である。<br><br> 黄金世界は五六七の世の事、黄金は非常に装飾に使う。<br><br>金貨本位はなくなる。<br><br> 024 十三塔解説 月読尊 素盞嗚尊 天照大神 三重？ 十三塔は仏教から出ている。<br><br>月は 十二であるから、十二の数が本当である。<br><br> その十二の上に、主人が乗る訳である。<br><br>五重塔や二重塔等があるが、その間ははない。<br><br> （わが半生の記に、いろいろ神秘の体験を書く） （S24.１.１） 025 涅槃の意義 涅槃の境地とは、いかなるもので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 要するに救われたという訳で、極楽とか天国と同じ境地になる事である。<br><br>（S24.11.21） 026 羅漢、（苦行を忍ぶ事と霊啓） ある仏画を見たので御座いますが、十二人の羅漢が池の傍に立ったり坐ったりして、池の上の黒雲の中の龍を見ておりました。<br><br>また、お寺に羅漢寺と云うのが御座いますが、羅漢について御教えを御願い申し上げます。<br><br> 羅漢は普通十六羅漢である。<br><br>十二は略してある。<br><br>羅漢は……バラモンの行者の修行している図である。<br><br>達磨など羅漢の親玉の方である。<br><br> 人間は苦しい思いをすると、ある点の霊魂が開発されるものである。<br><br>何でもよい、苦行を我慢すればいいのである。<br><br>（S24. 1.21） 027 剃髪と長髪 仏道に仕えております者は髪をそっており、神道に仕えております者は長髪に致しておりますが、何か意味が御座いましょうか。<br><br>御教えをお願い申し上げます。<br><br> 訳のない事はない。<br><br>釈迦がしたんだろうが、煩悩を絶つ意味である。<br><br>間違った事をしようとしても頭の形ですぐに判るし、人も相手にしない。<br><br>女がおはぐろをつけるようなものである。<br><br>（S25. 2.12） 028 密教 大日経に説ける密教々義は誰の説ですか。<br><br>また、密教の功罪について御教示下さいませ。<br><br> 必要のない事は教えぬ。<br><br> 仏教などで真言秘密という事がある。<br><br>密教はちょっと説けない。<br><br>悟る場合は無言になる。<br><br>世界の秘密あり、邪神に解ると失敗するので、この時代には皆符牒でやった。<br><br> 面白い符牒がある。<br><br>邪神に邪魔されるからである。<br><br> 029 経文の言霊と仏教改革 経文を口語体に直して仏教改革を行おうとしている坊さんがおりますが、こうした経文の言霊は霊界へ響くものでしょうか。<br><br> 霊界へは響かない。<br><br>漢文よりはいくらか響くが、意味が違うから駄目である。<br><br> 口語体に直しても相当に真意を伝える事は難しい。<br><br>坊さんの意志が入るから、真意は伝わらぬ。<br><br>梵語から漢文、それから日本語になるから相当に変る。<br><br> 経文の元は釈迦であるが、仏法の滅する時期、隠退すべき時期が来ているから、日本語にしたとて変りはない。<br><br> 仏教改革などというが、それももっと早いうちならいいが、今ではもう遅い。<br><br> （S24. 2. 2）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A verdadeira essência do Namu Amida Butsu e do Sutra de Lótus</h2>
 <p>Qual o significado de <em>Namu</em> na expressão <em>Namu Amida Butsu</em>?</p>
@@ -155,5 +307,48 @@ function toggleLang(lang) {
 <p>Mesmo com uma tradução para a linguagem coloquial, é extremamente difícil transmitir a essência original. A interpretação pessoal do monge inevitavelmente se interpõe, e a verdadeira intenção se perde. O texto passa do sânscrito para o chinês e, depois, para o japonês, sofrendo consideráveis alterações a cada etapa.</p>
 <p>A fonte original dos sutras é Buda, mas o tempo do budismo está chegando ao fim; sua era de atuação se encerra. Portanto, traduzi-los para o japonês moderno, a esta altura, não fará diferença alguma.</p>
 <p>Fala-se em reforma do budismo, mas isso teria sido válido se fosse feito muito antes. Agora, já é tarde demais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教芸術篇 ２ 018-029 仏語仏教真解 018 南無阿弥陀仏の真意義と法華 南無阿弥陀仏の南無とはいかなる意味でありますか。<br/><br/> 南無は七・六という事、阿はア―五、五六七は昼の世界、これが逆になっている。<br/><br/>夜の世界は逆になるから、南無阿という言霊になっている。<br/><br/>弥陀仏は仏陀の事である。<br/><br/> 南無阿弥陀仏は六字の法名という。<br/><br/>六は水であり、月である。<br/><br/>阿弥陀は月光菩薩になる。<br/><br/> 南無妙法蓮華経は五字の法名という。<br/><br/>五は火になる。<br/><br/>故に日蓮が始めた。<br/><br/>妙の字は明を隠した。<br/><br/>明は日月で、五三――いづのめ。<br/><br/>法は仏法である。<br/><br/> 蓮はハス―ハチスという。<br/><br/>富士の事である。<br/><br/>芙蓉峰ともいう。<br/><br/>「富士山で咲かす」という事は「日本で咲かす」事である。<br/><br/> 法華経は華の教えであるから散るのも早い。<br/><br/>一度花を咲かせなくてはならぬ。<br/><br/> 法華経は二十八品であり、普門品が二十五番にある。<br/><br/>これが髄になるのである。<br/><br/>これが育つのが実で、実は実相世界である。<br/><br/>これが本当の世界で、今迄は仮の娑婆である。<br/><br/> 019 日蓮と親鸞、（日蓮を霊視す）、真如 日蓮、親鸞等が地獄に堕ちているように聞き及びましたが、この真相はいかがでしょうか。<br/><br/>右、御教示御願い申します。<br/><br/> 日蓮について、私の弟子で元日蓮信者だったものが身延山へ行った。<br/><br/>そして拝んでいると、青白く痩せて淋しい顔して日蓮が挨拶しているのが見えたという。<br/><br/>これは日蓮が助けて貰いたかったのである。<br/><br/> 日蓮上人の一番肝腎の仕事は法華経を弘通する事であった。<br/><br/>法華経、即ち法の華を咲かせる役目であった。<br/><br/>法華経は仏法の華である。<br/><br/>それまでに日本へ来た仏法はすべて南無阿弥陀仏であった。<br/><br/>これらは悉（ことごと）く陰である。<br/><br/>水であり月であった。<br/><br/>それに対して日蓮は陽であり、火であり、日であった。<br/><br/> （釈迦が七十二歳になって見真実になった）今迄の説いた仏法はすべて間違いで誤りがあった、これから説くのが本当のものである、といって説いたのが即ち法華経である。<br/><br/>――そう釈迦がいった事を日蓮が発見して、この法華経を説いたのである。<br/><br/> この意味は、仏法は花を咲かさぬと実が実らぬ。<br/><br/>で、法華の二十五番目が観音普門品で、これが実になるべき髄のようなものである。<br/><br/> 花が咲けば必ず散るものであって、法華経は一代法華といって、パッと花が咲いて散るように長く続かぬ。<br/><br/> 花であるから法華宗は、今迄の仏法と違って非常に陽気で、これはよかったが、一面また、排他的態度をとったが、これは面白くなかった。<br/><br/>すべて宗教はもっと抱擁的でなくてはならぬ。<br/><br/>念仏無間、律国賊、禅天魔など極端に排他的であった。<br/><br/>今でも日蓮宗はこういう点がある。<br/><br/> それで法の実が育って実相世界が出来る。<br/><br/>仏教では真如実相というが、これは本当でない。<br/><br/>真如は月の働きであるから、実相真如とすべきである。<br/><br/>釈迦に弟子が、「仏法の真髄を一言で言ってもらいたい」と聞いた時、「仏法の実相は真如なり」と言った。<br/><br/>それからこの語が出ている。<br/><br/> 真如は夜の世界の事、釈迦は、「この世は仮の娑婆であって、すべては空に帰する」と言った。<br/><br/>即ち夜の世界のものは永遠のものではない。<br/><br/>夜がすんで、その後に浄行菩薩が出て、それからミロク世界――実相世界になるというのである。<br/><br/>その実相世界を作る仕事――髄の仕事をするのが明主様である。<br/><br/> 日蓮上人は自分がその浄行菩薩と思ったが、死に際してその過ちを悟り、「浄行菩薩は六百五十年先に生れる」と言った。<br/><br/> それまでの仏教は極めて厭世的であったが、日蓮はそれを打破して、自信に満ちた態度をとったのはまことによかった。<br/><br/> 親鸞が地獄にいるというのは、かつて出口王仁三郎氏が「乞食のような恰好をしていたのが見えた」と言ったのを聞いた。<br/><br/>親鸞はその時代の共産的思想――即ち階級打破思想の持主であった。<br/><br/>「親鸞に弟子なし、皆御同行なり」と言った。<br/><br/>これは誤りであって、よくいえば民主主義であるが、日本の民主主義ではない。<br/><br/> もっとも、日本は今迄緯が無さすぎた。<br/><br/>忠君愛国思想のため国は亡びた。<br/><br/>自分の国の国民さえよければ他国はどうなってもいいという思想であって、隣人愛がない。<br/><br/>他国も共に良くなくてはならぬのである。<br/><br/> 弘法、法念は極楽にいる。<br/><br/>そして始終釈迦に遇いに行くという。<br/><br/>これは霊から聞いた事である。<br/><br/>（S23） 020 上行菩薩・六百五十年説 上行菩薩は日蓮上人が唱えた。<br/><br/>安房の誕生寺（清澄山）で、日に向って南無妙法蓮華経を唱え、法華経を唱えた。<br/><br/> 上行菩薩は観音様の事で、日蓮上人は六百五十年経つと表われると言った。<br/><br/>すると今から十年位前にあたる。<br/><br/>最初は自分がそうと思ったらしいのである。<br/><br/>自分が天照大神の直系と思ったらしい。<br/><br/>吾日本の大船、日本の柱とならんと言った。<br/><br/>柱とは天皇の事である。<br/><br/>上行は浄行が本当である。<br/><br/>弥勒菩薩は釈迦の十人の弟子の中の一人で、五六七の世の弥勒と違う。<br/><br/>みろくの世のそれは五六七神である。<br/><br/>弥勒菩薩は別のものである。<br/><br/>（S23. 7. 9） 021 仏教は七を使う 御仏壇あるいはお寺へ物を上げます場合、一般には、その数を四とか九、十一などに致しますようで御座いますが、これは何か意味が御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> そんな事はない。<br/><br/>七はよく使う。<br/><br/>七夜とか、三十五日、初七日というように、仏教は大体七である。<br/><br/>釈迦は土のミロクで、七は土である。<br/><br/> 私などもよく使う。<br/><br/>（S25. 5.22） 022 仏祭の供物、肉食について 今まで仏の祭には魚を使わなかったのは何か意義が有りますか、御教え下さい。<br/><br/> 釈迦が殺生してはいけないとか、汚れるとか言ったために使わなかったのである。<br/><br/>インドでは今日もあまり魚を食わぬ。<br/><br/>菜食と牛乳で、魚は昔から喰べない。<br/><br/>そのためインドは国が衰えた。<br/><br/>（一つの習慣である。<br/><br/>回々教は豚を食べない。<br/><br/>蒙古人は牛を食べない。<br/><br/>以前回々教の連中が来て、帝国ホテルで豚が出ても食べなかった事があった）文化生活には魚も肉も食はなくてはいけない。<br/><br/>肉を食うと競争心が起る。<br/><br/>食い過ぎると闘争心が起る。<br/><br/>であるから、肉食は少しにする。<br/><br/>（ヨーロッパは一番戦争が多い。<br/><br/>現代人は少くした方がよい）（S24. 1.27） 023 五重塔と十三塔、卒塔婆、黄金世界、紅卍の意義 五重塔は大した意味はない。<br/><br/>仏教で一番多いのは十三塔で、これを略して五重にした。<br/><br/>一番低いのは二重の塔がある。<br/><br/>石の塔は十三塔、木製は五重である。<br/><br/>三界であるから本当は三重の塔である。<br/><br/>形から割出したものと思う。<br/><br/>七堂伽藍の一つである。<br/><br/> 卒塔婆は死人の供養。<br/><br/>梵字で書くのが本当で、文字の働きで霊がそれだけ救われる。<br/><br/> ナチは 、黒とか斜めは悪魔である。<br/><br/>紅卍は赤十字を宗教的にする建前である。<br/><br/> 黄金世界は五六七の世の事、黄金は非常に装飾に使う。<br/><br/>金貨本位はなくなる。<br/><br/> 024 十三塔解説 月読尊 素盞嗚尊 天照大神 三重？ 十三塔は仏教から出ている。<br/><br/>月は 十二であるから、十二の数が本当である。<br/><br/> その十二の上に、主人が乗る訳である。<br/><br/>五重塔や二重塔等があるが、その間ははない。<br/><br/> （わが半生の記に、いろいろ神秘の体験を書く） （S24.１.１） 025 涅槃の意義 涅槃の境地とは、いかなるもので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 要するに救われたという訳で、極楽とか天国と同じ境地になる事である。<br/><br/>（S24.11.21） 026 羅漢、（苦行を忍ぶ事と霊啓） ある仏画を見たので御座いますが、十二人の羅漢が池の傍に立ったり坐ったりして、池の上の黒雲の中の龍を見ておりました。<br/><br/>また、お寺に羅漢寺と云うのが御座いますが、羅漢について御教えを御願い申し上げます。<br/><br/> 羅漢は普通十六羅漢である。<br/><br/>十二は略してある。<br/><br/>羅漢は……バラモンの行者の修行している図である。<br/><br/>達磨など羅漢の親玉の方である。<br/><br/> 人間は苦しい思いをすると、ある点の霊魂が開発されるものである。<br/><br/>何でもよい、苦行を我慢すればいいのである。<br/><br/>（S24. 1.21） 027 剃髪と長髪 仏道に仕えております者は髪をそっており、神道に仕えております者は長髪に致しておりますが、何か意味が御座いましょうか。<br/><br/>御教えをお願い申し上げます。<br/><br/> 訳のない事はない。<br/><br/>釈迦がしたんだろうが、煩悩を絶つ意味である。<br/><br/>間違った事をしようとしても頭の形ですぐに判るし、人も相手にしない。<br/><br/>女がおはぐろをつけるようなものである。<br/><br/>（S25. 2.12） 028 密教 大日経に説ける密教々義は誰の説ですか。<br/><br/>また、密教の功罪について御教示下さいませ。<br/><br/> 必要のない事は教えぬ。<br/><br/> 仏教などで真言秘密という事がある。<br/><br/>密教はちょっと説けない。<br/><br/>悟る場合は無言になる。<br/><br/>世界の秘密あり、邪神に解ると失敗するので、この時代には皆符牒でやった。<br/><br/> 面白い符牒がある。<br/><br/>邪神に邪魔されるからである。<br/><br/> 029 経文の言霊と仏教改革 経文を口語体に直して仏教改革を行おうとしている坊さんがおりますが、こうした経文の言霊は霊界へ響くものでしょうか。<br/><br/> 霊界へは響かない。<br/><br/>漢文よりはいくらか響くが、意味が違うから駄目である。<br/><br/> 口語体に直しても相当に真意を伝える事は難しい。<br/><br/>坊さんの意志が入るから、真意は伝わらぬ。<br/><br/>梵語から漢文、それから日本語になるから相当に変る。<br/><br/> 経文の元は釈迦であるが、仏法の滅する時期、隠退すべき時期が来ているから、日本語にしたとて変りはない。<br/><br/> 仏教改革などというが、それももっと早いうちならいいが、今ではもう遅い。<br/><br/> （S24. 2. 2）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

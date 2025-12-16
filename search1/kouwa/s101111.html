@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s101111</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 玉川郷秋季大祭御講話 昭和10(1935)年11月11日 今日はお天気もたいへんよくて、いつも決まったようなものですが、たいへん結構なことと思います。<br><br>観音様はお天気など自由自在になさいますから、それを多くの方に知らしたいという思し召しがあるんであります。<br><br> いろんな報告はいまお聞きになったでしょうが、別にたいしたお話するようなことはありませんが、二、三簡単にお話いたします。<br><br> 今日は、この間三十三カ所の札所を参拝しましたが、お開帳の最終の日になり、こちらは十月十日にお祭りしまして、初日から最終の日までちょうど三十三日間で、これについてはいつかお話したがたいへんな意味がある。<br><br>先刻も会長さんが話されたように、もう観音様のほうでは決まっている。<br><br>芝居のプログラムのようなもので、どうしようとこうしようと、決められただけのことは出てくるんで、やるだけのことはやるんで、口では言えぬくらいたいしたものなんであります。<br><br>それを早く知るには信仰に徹底することで、そこへ来れば疑いがなくなる。<br><br> 第一に私が観音運動については、疑いに疑いぬいた。<br><br>しかしいろんな奇蹟があって判った。<br><br>私はご多分に漏れず疑い深い性質で、事柄があまりに大きいので、どのくらい疑ったかしらぬ。<br><br>どうしても、そういう大きいことをやるような気にもなれず、そうかといって、また大丈夫やれるということを、いろんなことによって知らされて、これなら安心というとこまで行ってやり始めたわけであります。<br><br> 天地が崩れてもできる。<br><br>邪魔しようとなにしようと大光明世界はできる。<br><br>そして全世界は統一される。<br><br>人類始まって以来ない結構なことになる。<br><br>それが何百年、何千年先のことではない。<br><br>昭和三年から三十年間という。<br><br>これでだいたい大光明世界の基礎ができる。<br><br>私が七十七の時で、早く言えば制規ができる。<br><br>それから本当の世界になる。<br><br> ただいまから世界は一歩一歩そうなって行く。<br><br>そのときはすべてが非常に結構なことになる。<br><br>みんなが一生懸命になろうとなるまいとできる。<br><br>ただ一生懸命にならぬと置き去りにされる。<br><br>代わりはいくらでもある。<br><br>この人がグズグズすると、この人がするという具合になり、せっかく自分が役になり、結構な使命を言いつけられても、お代わりができる。<br><br>そうすると永久に取り残されるわけであります。<br><br>もしか疑われるならば、やってみられるといいのであります。<br><br>とにかく結構な空前の大事業に携わらしていただく。<br><br>このくらい幸福なことはないのですから、取り残されぬようにすればいいと思います。<br><br> 観音様は難しい無理なことはおっしゃらぬ。<br><br>喜んで愉快にできることしかやらされぬ。<br><br> いままで世界のあらゆる大仕事など、みんな非常な苦心惨澹した。<br><br>今度の仕事はそうではない。<br><br>苦心惨澹したらできない。<br><br>ボンヤリしてブラブラしていてもできぬ。<br><br>例えば、飯を食うにも茶椀と箸をとるくらいのことはしなければならぬ。<br><br>それだけの手順は尽くさなければならぬ。<br><br>病気治しにしても、御祈祷加持で汗水垂らしてやるんですが、観音力では楽にできる。<br><br>そういうわけですから、その点はたいへんにありがたい。<br><br> 私も観音行を始めてから、ずいぶん苦しんだことをしたが、むしろそのときは結果が悪い。<br><br>そういうときはむしろ避けたほうがよい。<br><br>楽にやればよい。<br><br> どういうことを一番気をつけなければならぬかというと、お祭りや講話会にご無沙汰することがいけない。<br><br>それをしないと決してうまくゆかない。<br><br>いざという時に間に合わないからお取り替えになるわけであります。<br><br> それで月に一回以上は本部などへ必ず参ることで、それも難しいことでない。<br><br>他の宗教などは朝の五時ごろに起きて行かなければならぬ。<br><br>一日一回は必ず行かなければならぬ。<br><br>そんな強制的なことをせぬから苦しいことはいらぬ。<br><br>そして後はできるだけ運動をして拡めればいい。<br><br>いま、会員をたくさん造らなければならぬ。<br><br>それも無理に奨めたりするなどすることはいけない。<br><br>気持ちよく話して先方から進んで信仰に入るようにしなくてはいけない。<br><br>その点も大いにいい。<br><br> 要するに、観音力はどっちか極端になってはいけない。<br><br>どうしても信仰に入れぬ人は説いてはいけぬ。<br><br>また信仰に入るようすすめてはいかぬ。<br><br>機会をみてあっさりやればスラスラと入る。<br><br> そしてこれは別な話ですが、いま世の中をみると、もうあらゆる方面が実に間違ったことをするために、人類は苦しみぬいて、見ておれぬくらいであります。<br><br>日々われわれが扱っている病人も、ほとんどみんな間違った医学衛生のために、治るべき病気も治らされずにいる。<br><br>また、丈夫でいるべき身体を弱らされている。<br><br>また、助かるべき生命も助からぬようにされているように、間違ったほうへ走って苦しんでいる。<br><br>これを正すだけでもたいした救いであります。<br><br>これも表面からぶつかれば問題になる。<br><br>いま西洋医学万能で、政府もそれを固持しているから、われわれが、その間違いを言えばすぐに潰される。<br><br>ですから、当たらず障らずにやって行く。<br><br> また、宗教はほとんど間違っている。<br><br>一時はちょっとよいようですが、先へ行くときっと苦しみ、貧乏をし、いろいろの災いが出てくる。<br><br>よく新しくできた宗教を、邪教だのインチキなど、いろいろと雑誌に出ていますが、新しい宗教は、そういうこともありましょうが、元気があるから存在の価値があるでしょう。<br><br>むしろ古い既成宗教のほうが邪教的のことがたくさんあります。<br><br> 現在ある宗教によって、救われようとしても救われず、そうかといってこのままではすまず、仏教などでは学校へ宗教を入れるといって騒いでいる具合で、「日暮れて途いよいよ遠し」という具合で、進退は窮まっている状態で、それを打開するには、大いなる光明に導く。<br><br>それが観音会の使命であって、これは出ずべき時が来て出たんであります。<br><br> その他、経済政治などいろいろな方面のこともありますが、それらもだいたい行き詰まってるのは同じことで、近ごろ観音様ということをさかんに言うようになったのもわけのあることと思います。<br><br> ついでにお話するんですが、既成宗教はどこか理屈で救おうとしているから救われない。<br><br>病気は理屈で治るものではない。<br><br>貧乏もまた救えぬ。<br><br>それで、心だけで安心立命しろというふうな理屈を造ってるだけのものです。<br><br> 近ごろ、観音様のことがいろんな方面に、たいへんに漲（みなぎ）っている。<br><br>これも時期で、だんだん進むに従って、観音様のいろんなことが出てくる。<br><br>また、よく聞かれることですが、御神体に大中小とあるが、あれは一つにしてもいいじゃないかと言われることがよくあります。<br><br>これは馬鹿馬鹿しいことですが、そういうとき、どういうふうに答えたらいいかというと、すべてのことは相当ということが肝腎で、その家に相当したのがいい。<br><br>大きな床の間に小さい御神体をおかけしても相応しない。<br><br>大中小と、その床に相応したものでなければならぬ。<br><br>ちょうど、大人が子供の着物を着てるようなものではいかぬ。<br><br>羽織の紐でもなんでもやはりその通り、ちょうどいい相応の所についている。<br><br>すべて世の中の事柄は相応が第一で、大きい家には大きい御神体でなくては相応しない。<br><br>大きい家に小さいのを、小さい家に大きな御神体を祭るのもいけない。<br><br>ちょうど百燭の電灯を四畳半に点けるようなものです。<br><br>部屋や家の大きさによって大中小を決めるのです。<br><br> 今年の十二月二十三日には、私は満五十三歳になります。<br><br>伊都能売の大神は五三でありますが、今日までの会員数が五百十三人になったというのもおもしろい。<br><br>五が霊で、三が体で、また、五が火三が水で、いままでの世界は、それが三五で、水が上、火が下になっていた。<br><br>三が体で五が霊で、体が上で、霊が下になって逆であった。<br><br>それで、いままでは三五の月の世界だった。<br><br>今度は日の世界になりますから、五が上で三が下になる。<br><br>それで、なぜに発展するかというと、いままでは霊的に非常に仕事ができている。<br><br>霊的には万教帰一され、世界は統一されているんですが、霊的では判らぬ。<br><br>私が五十三になると、三は体ですから体の働きが出てくる。<br><br>それで目に見えて発展できる。<br><br> 昨年の十二月二十三日に創立され、今年の一月一日から活動を始めたんで、ちょうど今年の十二月二十三日で満一年になる。<br><br>ちょうど子供にいままでお乳を飲ませていたが、これからはごはんを食べさし、だんだん大きくなって言葉が言える。<br><br>飯食って歩き出すというふうですから、二十三日は一年になるわけで、ちょうど、そういうふうに御神業はなって行く。<br><br>そういうふうになれば、みなさんの宣伝もますます効果があることになる。<br><br>労した以上の効果があがることになる。<br><br> 観音様のお働きは、そういうふうになって、だんだん進んで行くものであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Plano Divino e a Missão dos Pioneiros</h2>
 <p>O dia de hoje nos brinda com um tempo esplêndido, como é de costume, o que considero sobremaneira auspicioso. Kannon (観音) tem o poder de governar livremente o clima, e creio que há em Seu desígnio o desejo de que muitas pessoas tomem conhecimento deste fato.</p>
@@ -112,5 +264,48 @@ function toggleLang(lang) {
 <p>No dia vinte e três de dezembro deste ano, completarei cinquenta e três anos. A deidade Izunome-no-Ookami (伊都能売の大神) é representada pelo número cinquenta e três. É interessante notar que o número de membros até o dia de hoje é de quinhentos e treze. O número cinco representa o espírito, e o três, a matéria. Da mesma forma, cinco é fogo e três é água. O mundo, até agora, era regido pela ordem três-cinco, ou seja, a água sobre o fogo, a matéria sobre o espírito. Estava invertido. Era o mundo da Lua. A partir de agora, adentraremos o mundo do Sol, e a ordem passará a ser cinco-três, com o espírito sobre a matéria. Por que haverá tamanho desenvolvimento? Porque, até o presente momento, a Obra Divina tem se realizado de forma predominantemente espiritual. No Mundo Espiritual, todas as religiões já estão unificadas, e o mundo, unificado, mas isso não é perceptível aos olhos humanos. Quando eu completar cinquenta e três anos, o três, que é a matéria, manifestará sua força. Com isso, o desenvolvimento se tornará visível.</p>
 <p>Nossa instituição foi fundada em vinte e três de dezembro do ano passado, e iniciamos as atividades em primeiro de janeiro deste ano. Portanto, no próximo dia vinte e três de dezembro, completaremos um ano. É como uma criança que até agora se alimentava de leite materno e que, a partir de então, começará a comer alimentos sólidos, crescer, aprender a falar e a caminhar. A Obra Divina se desenvolverá exatamente dessa maneira. Quando atingirmos essa fase, a divulgação que os senhores realizam se tornará cada vez mais eficaz, e os resultados superarão em muito o esforço empreendido.</p>
 <p>Assim, a obra de Kannon (観音) progride e avança, passo a passo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 玉川郷秋季大祭御講話 昭和10(1935)年11月11日 今日はお天気もたいへんよくて、いつも決まったようなものですが、たいへん結構なことと思います。<br/><br/>観音様はお天気など自由自在になさいますから、それを多くの方に知らしたいという思し召しがあるんであります。<br/><br/> いろんな報告はいまお聞きになったでしょうが、別にたいしたお話するようなことはありませんが、二、三簡単にお話いたします。<br/><br/> 今日は、この間三十三カ所の札所を参拝しましたが、お開帳の最終の日になり、こちらは十月十日にお祭りしまして、初日から最終の日までちょうど三十三日間で、これについてはいつかお話したがたいへんな意味がある。<br/><br/>先刻も会長さんが話されたように、もう観音様のほうでは決まっている。<br/><br/>芝居のプログラムのようなもので、どうしようとこうしようと、決められただけのことは出てくるんで、やるだけのことはやるんで、口では言えぬくらいたいしたものなんであります。<br/><br/>それを早く知るには信仰に徹底することで、そこへ来れば疑いがなくなる。<br/><br/> 第一に私が観音運動については、疑いに疑いぬいた。<br/><br/>しかしいろんな奇蹟があって判った。<br/><br/>私はご多分に漏れず疑い深い性質で、事柄があまりに大きいので、どのくらい疑ったかしらぬ。<br/><br/>どうしても、そういう大きいことをやるような気にもなれず、そうかといって、また大丈夫やれるということを、いろんなことによって知らされて、これなら安心というとこまで行ってやり始めたわけであります。<br/><br/> 天地が崩れてもできる。<br/><br/>邪魔しようとなにしようと大光明世界はできる。<br/><br/>そして全世界は統一される。<br/><br/>人類始まって以来ない結構なことになる。<br/><br/>それが何百年、何千年先のことではない。<br/><br/>昭和三年から三十年間という。<br/><br/>これでだいたい大光明世界の基礎ができる。<br/><br/>私が七十七の時で、早く言えば制規ができる。<br/><br/>それから本当の世界になる。<br/><br/> ただいまから世界は一歩一歩そうなって行く。<br/><br/>そのときはすべてが非常に結構なことになる。<br/><br/>みんなが一生懸命になろうとなるまいとできる。<br/><br/>ただ一生懸命にならぬと置き去りにされる。<br/><br/>代わりはいくらでもある。<br/><br/>この人がグズグズすると、この人がするという具合になり、せっかく自分が役になり、結構な使命を言いつけられても、お代わりができる。<br/><br/>そうすると永久に取り残されるわけであります。<br/><br/>もしか疑われるならば、やってみられるといいのであります。<br/><br/>とにかく結構な空前の大事業に携わらしていただく。<br/><br/>このくらい幸福なことはないのですから、取り残されぬようにすればいいと思います。<br/><br/> 観音様は難しい無理なことはおっしゃらぬ。<br/><br/>喜んで愉快にできることしかやらされぬ。<br/><br/> いままで世界のあらゆる大仕事など、みんな非常な苦心惨澹した。<br/><br/>今度の仕事はそうではない。<br/><br/>苦心惨澹したらできない。<br/><br/>ボンヤリしてブラブラしていてもできぬ。<br/><br/>例えば、飯を食うにも茶椀と箸をとるくらいのことはしなければならぬ。<br/><br/>それだけの手順は尽くさなければならぬ。<br/><br/>病気治しにしても、御祈祷加持で汗水垂らしてやるんですが、観音力では楽にできる。<br/><br/>そういうわけですから、その点はたいへんにありがたい。<br/><br/> 私も観音行を始めてから、ずいぶん苦しんだことをしたが、むしろそのときは結果が悪い。<br/><br/>そういうときはむしろ避けたほうがよい。<br/><br/>楽にやればよい。<br/><br/> どういうことを一番気をつけなければならぬかというと、お祭りや講話会にご無沙汰することがいけない。<br/><br/>それをしないと決してうまくゆかない。<br/><br/>いざという時に間に合わないからお取り替えになるわけであります。<br/><br/> それで月に一回以上は本部などへ必ず参ることで、それも難しいことでない。<br/><br/>他の宗教などは朝の五時ごろに起きて行かなければならぬ。<br/><br/>一日一回は必ず行かなければならぬ。<br/><br/>そんな強制的なことをせぬから苦しいことはいらぬ。<br/><br/>そして後はできるだけ運動をして拡めればいい。<br/><br/>いま、会員をたくさん造らなければならぬ。<br/><br/>それも無理に奨めたりするなどすることはいけない。<br/><br/>気持ちよく話して先方から進んで信仰に入るようにしなくてはいけない。<br/><br/>その点も大いにいい。<br/><br/> 要するに、観音力はどっちか極端になってはいけない。<br/><br/>どうしても信仰に入れぬ人は説いてはいけぬ。<br/><br/>また信仰に入るようすすめてはいかぬ。<br/><br/>機会をみてあっさりやればスラスラと入る。<br/><br/> そしてこれは別な話ですが、いま世の中をみると、もうあらゆる方面が実に間違ったことをするために、人類は苦しみぬいて、見ておれぬくらいであります。<br/><br/>日々われわれが扱っている病人も、ほとんどみんな間違った医学衛生のために、治るべき病気も治らされずにいる。<br/><br/>また、丈夫でいるべき身体を弱らされている。<br/><br/>また、助かるべき生命も助からぬようにされているように、間違ったほうへ走って苦しんでいる。<br/><br/>これを正すだけでもたいした救いであります。<br/><br/>これも表面からぶつかれば問題になる。<br/><br/>いま西洋医学万能で、政府もそれを固持しているから、われわれが、その間違いを言えばすぐに潰される。<br/><br/>ですから、当たらず障らずにやって行く。<br/><br/> また、宗教はほとんど間違っている。<br/><br/>一時はちょっとよいようですが、先へ行くときっと苦しみ、貧乏をし、いろいろの災いが出てくる。<br/><br/>よく新しくできた宗教を、邪教だのインチキなど、いろいろと雑誌に出ていますが、新しい宗教は、そういうこともありましょうが、元気があるから存在の価値があるでしょう。<br/><br/>むしろ古い既成宗教のほうが邪教的のことがたくさんあります。<br/><br/> 現在ある宗教によって、救われようとしても救われず、そうかといってこのままではすまず、仏教などでは学校へ宗教を入れるといって騒いでいる具合で、「日暮れて途いよいよ遠し」という具合で、進退は窮まっている状態で、それを打開するには、大いなる光明に導く。<br/><br/>それが観音会の使命であって、これは出ずべき時が来て出たんであります。<br/><br/> その他、経済政治などいろいろな方面のこともありますが、それらもだいたい行き詰まってるのは同じことで、近ごろ観音様ということをさかんに言うようになったのもわけのあることと思います。<br/><br/> ついでにお話するんですが、既成宗教はどこか理屈で救おうとしているから救われない。<br/><br/>病気は理屈で治るものではない。<br/><br/>貧乏もまた救えぬ。<br/><br/>それで、心だけで安心立命しろというふうな理屈を造ってるだけのものです。<br/><br/> 近ごろ、観音様のことがいろんな方面に、たいへんに漲（みなぎ）っている。<br/><br/>これも時期で、だんだん進むに従って、観音様のいろんなことが出てくる。<br/><br/>また、よく聞かれることですが、御神体に大中小とあるが、あれは一つにしてもいいじゃないかと言われることがよくあります。<br/><br/>これは馬鹿馬鹿しいことですが、そういうとき、どういうふうに答えたらいいかというと、すべてのことは相当ということが肝腎で、その家に相当したのがいい。<br/><br/>大きな床の間に小さい御神体をおかけしても相応しない。<br/><br/>大中小と、その床に相応したものでなければならぬ。<br/><br/>ちょうど、大人が子供の着物を着てるようなものではいかぬ。<br/><br/>羽織の紐でもなんでもやはりその通り、ちょうどいい相応の所についている。<br/><br/>すべて世の中の事柄は相応が第一で、大きい家には大きい御神体でなくては相応しない。<br/><br/>大きい家に小さいのを、小さい家に大きな御神体を祭るのもいけない。<br/><br/>ちょうど百燭の電灯を四畳半に点けるようなものです。<br/><br/>部屋や家の大きさによって大中小を決めるのです。<br/><br/> 今年の十二月二十三日には、私は満五十三歳になります。<br/><br/>伊都能売の大神は五三でありますが、今日までの会員数が五百十三人になったというのもおもしろい。<br/><br/>五が霊で、三が体で、また、五が火三が水で、いままでの世界は、それが三五で、水が上、火が下になっていた。<br/><br/>三が体で五が霊で、体が上で、霊が下になって逆であった。<br/><br/>それで、いままでは三五の月の世界だった。<br/><br/>今度は日の世界になりますから、五が上で三が下になる。<br/><br/>それで、なぜに発展するかというと、いままでは霊的に非常に仕事ができている。<br/><br/>霊的には万教帰一され、世界は統一されているんですが、霊的では判らぬ。<br/><br/>私が五十三になると、三は体ですから体の働きが出てくる。<br/><br/>それで目に見えて発展できる。<br/><br/> 昨年の十二月二十三日に創立され、今年の一月一日から活動を始めたんで、ちょうど今年の十二月二十三日で満一年になる。<br/><br/>ちょうど子供にいままでお乳を飲ませていたが、これからはごはんを食べさし、だんだん大きくなって言葉が言える。<br/><br/>飯食って歩き出すというふうですから、二十三日は一年になるわけで、ちょうど、そういうふうに御神業はなって行く。<br/><br/>そういうふうになれば、みなさんの宣伝もますます効果があることになる。<br/><br/>労した以上の効果があがることになる。<br/><br/> 観音様のお働きは、そういうふうになって、だんだん進んで行くものであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

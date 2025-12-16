@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei11001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（一） １ 001-022 精神病１ 001 発狂の原因 互井操、主人戦歿後実家にかえる。<br><br>主人弟賜暇（しか）にて来たりたるも姉夫婦祖母虐待す。<br><br>その後操発狂す。<br><br>それは主人の死霊のためか、また先祖との関係でしょうか。<br><br>浄霊により大変よくなりましたが完全に癒りましょうか。<br><br>なお操は入会致し、母は入信致しております。<br><br>右の事御伺い申し上げます。<br><br> 頭に血が少いのだから、頸の周りを浄霊すれば治る。<br><br>光明如来様をお祭りする。<br><br>（S24.12.25） rattail（注） 賜暇（しか）官吏などが願い出て休暇を許されること。<br><br>また、その休暇。<br><br> 002 狐霊の命令服すべきや（精神病） 当年二十二歳の女、本年一月二十八日夜精神に異常を来し、二ケ月間意識不明にて、あらゆる信仰に頼った後、本教浄霊にて平常になりましたが、憑依霊が体内にて種々話をし、また命令も致します。<br><br>この命令に反対しても、心体に影響を及ぼす事は御座いませんでしょうか。<br><br>また、本人の縁談（婿取り）も度々良縁が結ばれますが、その都度先方より断られます。<br><br>いかにしたら良縁を得られましょうか。<br><br>御教示下さい。<br><br> 命令に反対した方がよい。<br><br>あくまでも反対する。<br><br>命令を聞くと人間の霊が負ける。<br><br>経験によれば、その霊はだんだん肛門へ来てから脱ける。<br><br>その時肛門がムズムズする。<br><br>死ねば素晴しい極楽へ伴（つ）れて行くと、先に川があるから飛込めと狐がいう。<br><br>そういう事で生命をとるなど随分ある。<br><br>（S24. 7.15） 003 精神病治癒 私の二女（二十五歳）は約五年前肝臓を患い、半年位にして大体治癒いたし、職についておりましたが、約三年前、気狂いになりましたので、婦人科に十日間位通わせましたが変化がありませんで今日に至っております。<br><br>私も本月六日入信受光いたし、先生をお願いいたし浄霊を頂く傍ら、私も浄霊いたしておりますが、格別の変化が御座いませんが、今後いか程経ちましたら治りましょうか。<br><br>御伺いいたします。<br><br> 病の軽重や浄霊者のいかんであるから分らぬが、浄霊を続ければ治る。<br><br>延髄と前頭部の奥を気長に浄霊し、祝詞や神書を読ませれば必ず治る。<br><br>（S24. 9.17） 004 精神病と憂鬱 二十八歳の男、本年一月頃より精神病になり、耳もとで「お前は親殺しだから死ね」と言う声が聞え、自殺を数回も計り、その度にまた耳もとで「死んではいけない」と言う声が聞え、心臓へ五回ナイフを刺しても死ねず、この頃いろいろ訊ねてもいつの間にかわからなくなってしまい、全然気持がまとまらず、絶えず淋しそうに考え込んでおります。<br><br>医学では遺伝性のものとして全快の見込みなしと言われているようで御座います。<br><br>御浄霊によって完全にお救い頂けるもので御座いましょうか。<br><br>右、御教示御願い申し上げます。<br><br> 治る。<br><br>耳に聴えたり、眼に見えたりする。<br><br>狐がからかうのである。<br><br>延髄に固まりがあるため、血液が少ししかゆかぬのである。<br><br>精神病の型は、最初暴れ過ぎると次は憂鬱になる。<br><br> 005 乱暴する半狂人、（罪とられるには） 普通の常識もなく精神病者ともつかざる私の兄、母親を見れば腹を立て殴ってかかります。<br><br>幼少の頃より変った男でありましたが、本年四十三歳になります。<br><br>どうすれば救われましょうか。<br><br> よく精神病でもなく普通でもないのがある。<br><br>私はよく正気の気狂いと言った。<br><br>精神病者の軽いのである。<br><br> これは兄に祖霊が憑って母を良くするという意味である。<br><br>罪穢があってそれを除られる場合など霊的に種々訳がある。<br><br>こういう場合は普通ではない。<br><br>祖先の霊が親より位が上であり、生きてるうち暴力を揮う習性のある人は死んでもその癖が出る。<br><br>それで暴力によって矯めたりなどする。<br><br>信仰を熱心にすれば早く解決がつく。<br><br> 本人が悪いのみでなく、親自身苦しみに遇うだけの罪穢がある。<br><br> 悪口を言われる方はそれだけ罪をとられる。<br><br>悪口を言われるほどよい。<br><br>だから、本当に分れば感謝してよい。<br><br> 沢山の罪穢は急に除れぬから、気長に時期を待って、お任せすると、何かの機会に除っていただける。<br><br>（S23） 006 改姓と精神病 ある信者の家で御座いますが、先祖が和泉家より別家致しましたが、本家との関係がうまく行かず、近くの別な所に家も移転致しまして、妻の実家増田姓を名乗って今日に到っておりますが、娘が一年余り前より精神病になっております。<br><br>一生懸命御浄霊を続けておりまして、大分良い方に向っておりますが、何か祖霊との関係が御座いましょうか。<br><br>また、和泉家を名乗るべきが本当で御座いましょうか。<br><br>それとも現在の増田のままで宜しゅう御座いましょうか。<br><br>また、和泉家を名乗るべきで御座いましたらどう致しましたら宜しゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 先祖によっては気に入らぬと、僅かな事も気にするのがある。<br><br>和泉家を名乗るべきである。<br><br>和泉はいい名で、由緒ある名である。<br><br>（S25. 2. 2） 007 不純関係による子の精神病 私の指導している信者の息子で、本年二十八歳の男、十九歳の時より神経衰弱となり脳病院に半年程入院しましたが、何等変化がないため断食法を十五日続けましたところ、白痴状態となり、現在迄持続致しております。<br><br>平常は非常に無口で、絶えず指先を動かし、着物等は殆ど破ってしまいます。<br><br>なお、本人の母は、三歳の時家出し、現在生きているそうですが住所は分りません。<br><br>現在の母は継母で、父は後妻の外に妾を持っており、殆ど妾の方におります。<br><br>なお、霊的関係がありますでしょうか。<br><br>また、浄霊にて治るでしょうか。<br><br>方法を御教示をお願い申し上げます。<br><br> 精神病である。<br><br>父親と妾との関係である。<br><br>浄霊だけでは難しい。<br><br>父が入信してかような関係を絶たなくてはいけない。<br><br>（祖霊が息子に憑っている）（S24. 8. 8） 008 誇大妄想狂 最近私が浄霊させて戴いている患者で、精神病者ですが、左のような事があります。<br><br> （イ）、年令は幾つかと聞くと九十歳（本人は三十歳です）と答え、常に口走る事が厖大な数字のみ申します。<br><br> （ロ）、一日中家の周りをぐるぐる回っている。<br><br> （ハ）、当家の仏の位牌を見ますと真黒で解らないのが沢山あります。<br><br>この位牌は他家ので先祖の人が持って来たので、現在の人では分らないのです。<br><br>この精神病者と位牌と何か霊的関係がありましょうか。<br><br>また、治る見込みが御座いますでしょうか。<br><br>御伺い申し上げます。<br><br> 誇大妄想である。<br><br>（黒くて分らないのだから古い。<br><br>まあ分らない。<br><br>祖霊に狐が憑った協同作用で、位牌と関係はない）（S24. 9.18） 009 言葉発せぬ精神異状（幻聴） 十九歳の寺の娘ですが、五年前より不眠症、その後精神異状を来し今では全然言葉を発する事も出来なくなり、食欲もほとんど無くなり、黙って一日でも二日でも坐ったきりの事もあります。<br><br>また、その父（住職、五十歳）は三十年位前から耳が遠くなっております。<br><br>その寺の前住職が二十年程前首吊りで死んでおりますが、それに関係ありましょうか。<br><br> 狂人になった方は普通関係ない。<br><br>首吊りの坊主に狐が憑いてれば、それが憑る場合がある。<br><br>罪の多い寺である。<br><br>信仰へ入らなくてはいけない。<br><br> 不眠症は頭に血が少なくなる。<br><br>後頸部の多く右である。<br><br>送流の血管を圧迫される。<br><br>狐が頭へ来た時は連続的にいくらでも想念が浮く。<br><br>他の部へ狐がいて喋る時はその声が本人に聞える。<br><br>狂人がいろんな行動をするのは狐が交代々々で憑くからである。<br><br> 010 複雑な精神病 若い時サーカスの蛇使いをしていたと言う四十五歳の女、三年前より霊憑りのようになり、気が狂い、医者も祈祷師もあらゆる事をやっても駄目でした。<br><br>一ケ月程前より御浄霊を致しておりますが、一時非常に良くなりましたが、十日位前から以前より一層激しくなりました。<br><br>身体も大分やつれております。<br><br>御浄霊をしていても何者かと話しているようなことがあります。<br><br>また、この女は十三年前に先夫が罪を犯して十五年の刑にて入獄した時に、今の夫と結婚したのですが、何かこれと関係がありましょうか。<br><br>先夫は生きております。<br><br>現在の夫は下駄職人で生活は至って低く、現在貧乏の極にあり、毎日二、三時間腹痛があります。<br><br>いかなる事でしょうか。<br><br>御教え願います。<br><br> 今の夫が入信して人助けをする、それが根本である。<br><br>先夫の執着が強ければ先夫の生霊も来ているかもしれぬ。<br><br>いずれにしても単純な精神病ではなさそうだ。<br><br>（S24. 4.28） 011 温暖季に発する精神病 ある未入信の現在脳病院に入院中の男の方、毎年暖かくなると精神病になり非常に暴れますが、寒くなるとそれが収まり、普通人と大差なく退院致します。<br><br>その退院の時には子供もないのに、よく玩具等を買って来るそうで御座います。<br><br> 火素の増えていると言われます時、春から夏にかけて浄化が旺盛に見受けられるようで御座いますが、一年のうちにて火素の多い時季と少ない時季、及びそれにつれて病気治癒の遅速があるもので御座いましょうか。<br><br>御教え御願い申し上げます。<br><br> 精神病は暖かい時に多い。<br><br>軽い方の精神病である。<br><br>霊が暖かい時にいた霊――即ち暖地の狐である。<br><br>それで暖かくなると活動する。<br><br>子供の霊も憑いている。<br><br>両方憑いている。<br><br>それで玩具など買うのである。<br><br>（S24.10.11） 012 死霊狐霊両憑の精神病 横浜港北教導所教導師補田中喜一母（五十二歳）、四月二十三日以来何らかの霊（死霊と狐霊）のため御浄化中三度（投身、自殺、他殺）迄偉大なる御守護により御救い戴きまして、有難く御礼申し上げます。<br><br> 近頃、右未だ復活致さず、肉体の衰弱のためその様子は一見下男の風で、御浄霊致しますとつぶやくように「だめだだめだ」と申します。<br><br>また近頃十日程全然食物を摂らず、口に無理に入れますと非常に苦しがり、白い痰と共にはき出します。<br><br>一日中土間に、外にふらふら立っております。<br><br>食物は何を入れても「にがい」と申します。<br><br> 当地は二度目の教導所として発足したばかりの土地です。<br><br>右、御教示、御守護を御願い申し上げます。<br><br> 精神病で、死霊と狐霊と両方憑いている。<br><br>延髄の固結をとかす。<br><br>（S24. 7.29） 013 陰部へ食入れる精神病 小山久己（くみ）、三十一歳の女で、九年前から精神病の者で御座います。<br><br>去る二十一年三月頃に 現在の家に来りましてから一層悪化致しまして、隔日発作の状態で、毎度の食物は半分食べ、半分は陰部へ押込みます。<br><br>また、着物は男物の柄模様を好み、全裸体の時が多う御座います。<br><br>何の霊がかりで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 狐である。<br><br>治るには治る。<br><br> 陰部にも霊がいる。<br><br>狐の子のようである。<br><br>子に食べさせるというつもりであろう。<br><br>男物を好むというのは男狐である。<br><br>（S24. 5.12） 014 笑い泣く精神病 三十歳の娘の精神病者で御座いますが、毎日三十分間位続けざまに笑ったり泣いたり、マッカーサーのバカヤローとか、ジモンがいるから取ってくれ、と頭を手で払ったり、頭からお腹の方まで電信柱のようなものが入っていてそれが色々と話を言わせます、と本人が申しますが、ジモンとは何を意味するもので御座いましょうか。<br><br>御教示御願い申し上げます。<br><br> 電信柱のようなものは霊である。<br><br> 狸は笑う。<br><br>泣くのは狐である。<br><br>であるから、右二つの霊が憑いているかもしれない。<br><br> ジモンは霊に直接聞いてみよ。<br><br> 015 狂暴と発作的精神病 本年三十五歳の男子ですが、昭和二十二年一月に入信致し、二十三年に光明如来様をお祭り致しております。<br><br>暇を見て他人の浄霊を致しておりますが、何か気に入らぬ事があると狂人のごとく、火の入っている火鉢や手にさわる物を投付けたりして荒らし、その後は昼夜なく寝転んでおり、仕事は全然せず、食事は一人前以上食い、干魚類をそのまま食う事を好みます。<br><br>本人の浄霊は妻が毎日やっております。<br><br>また、時折分会の先生方にお願いしておりますが、何の変りもありません。<br><br>この人の兄は狂人にて死亡致しております。<br><br>これは霊的でございますか。<br><br>お伺い申し上げます。<br><br> 狐である。<br><br>発作的精神病で、兄の霊も憑いてるかもしれない。<br><br>いろいろ食う霊と精神病の霊とは違うのが憑いている。<br><br>相当罪穢があるから出来るだけ祝詞を奏げる。<br><br>浄霊は右延髄である。<br><br> 癇癪を起すのは人霊である。<br><br>（S24. 9. 8） 016 乱暴な精神病 島根県の信者、岩田さんという方の長男が精神病で御座いまして、御浄霊の結果やや温順になり、喜ばれておりましたが、その後また暴れ出しまして、御浄霊中立ち上り仏壇の御屏風観音様を、畏れ多い事ながら引破り、裏庭で焼きました。<br><br>家族も恐れ入って途方に暮れ、座敷牢を作って入れておりますが、手当り次第に物を掴んで投げ付けます。<br><br>そのくせ他人が行くと比較的温順（おとな）しいので御座います。<br><br>御神体をお祭り申して一生懸命ですが、益々病勢は募ります。<br><br>いかにすればよろしゅう御座いましょうか。<br><br>御伺い申し上げます。<br><br> 暴れるだけ暴れさす。<br><br>長くても二十日か三十日にする。<br><br>後祝詞をせいぜい奏げる。<br><br>または近くで浄霊する。<br><br>段々よくなる。<br><br>（S24.10. 1） 017 乱暴する精神病の対処 今年二十歳になる娘ですが、仏壇の中の物を放り出したり、御経の本を粗末にしたり、時によっては仏様の位置も変えたり、それも家だけなれば良いのですが他家へ行っても同様な事をします。<br><br>また道を歩きながら大きな声で人の悪口を言い、御書体をいじり、御守様の袋を破り家の人の言う事は絶対に聞き入れない状態でございます。<br><br>浄霊は嫌います。<br><br>これはどうした事でしょうか。<br><br>治りましょうか。<br><br>御教え下さい。<br><br> 凶暴性の霊が憑っている。<br><br>狐のようなものである。<br><br>気長にする。<br><br>光明如来様をお祭りし、その部屋へ寝かすようにする。<br><br>祝詞を聞かせ、御著書を読ます。<br><br>（S25. 1.26） 018 暴れる精神病 五十一歳の男子、昭和十六年に発狂し、精神病院に入院すること九回に及び、常に狂うと暴れてどうにもならない状態でありましたが、昨年光明如来様を戴き、御浄霊の御蔭で最近大分よくなりました。<br><br>平素甘いものや油揚等を好み、病気になって以来、歩く事はなく這っておりました。<br><br>去る十七日、先生の御浄霊を戴きましたら物凄く浄化して激しく荒れ狂い、致し方なく医者にかけたところ、本人いわく「私のいるところがない。<br><br>病院でも庭の隅でもよいからやってくれ」と申し立てるのです。<br><br>それからは医者に行ったり浄霊をしたりして少しよくなり、落着いて参りました。<br><br>これはいかなる原因でしょうか。<br><br>また、今後どのようにしたら救われるでしょうか。<br><br>御教え願います。<br><br> 医者へかかると遅くなる。<br><br>暴れるだけ暴れさすと治りが早い。<br><br>借金を月賦で払うのと一時に払うのとの違いである。<br><br>（S24. 6. 5） 019 狂暴性精神病、春日明神の祭神 四十八歳になる女子、前にも気狂いになり、今度で三回目です。<br><br>今度は大変に狂暴性になっております。<br><br>本人はしきりに「春日様が来る来る」と申し、自分には狐が憑いていると言う事を自覚しておりますが、今度実家の方をしらべて見ましたところ、親が夫婦養子に行き、その家の親になる人が日蓮の信者で、自分が死ぬ前に裏の庭にコンクリートで型どった四角なもので、右側に天照皇大神、左側に十二天、その左下に八幡様、右下に春日大神の四柱の御姿が彫ってあり、その春日様の後ろにその養い親が自分で自分を彫りつけてあるのです。<br><br>その親の霊がそこに祭ってあるために狐霊になっているのでしょうか。<br><br> 親は狐霊にならぬ。<br><br>親に狐霊が憑いてる場合はよくある。<br><br>いろいろ査べるのは面倒だから、狐霊を浄化させるのが一番いい。<br><br>春日様は武甕槌神、春日は土地の名をとったもの。<br><br>（S24. 6.19） 020 自殺の恐れある憂鬱症 二十四歳の男子、昨年一月憂鬱症にて入院致し、三ケ月半にて全快退院致しました。<br><br>その後御教修を頂き勉学中のところ、去る四月、再発致しましたので、朝夕二回御浄霊を致しております。<br><br>両親はこの度御教修を頂き、御屏風様も頂きました。<br><br>つきましては次の事御伺い申し上げます。<br><br> 日数は長くかかりますでしょうか。<br><br> 一日中殆ど無言で机の前に座っておりますが、自殺のおそれはございませんでしょうか。<br><br> 日数は長くかかる。<br><br>自殺の恐れはある。<br><br>浄霊と御本を読ますといい。<br><br>これが一番いい。<br><br> 霊が憑っている。<br><br>はっきり判らぬが、いずれ分る。<br><br>段々治る。<br><br>必ず治る。<br><br>（S24. 6. 9） 021 陰気な精神病 私の浄霊させて戴いている未入信の四十三歳の男、昨年五月頃痔出血一週間程続き、その後同年八月頃医師より神経衰弱とて現在臥床しております。<br><br>絶えず暗い部屋を好み、右手にて左手の親指、中指、薬指（べに指）等の爪を掻き、現在爪は無くなっており、なお掻き続けております。<br><br>「自分は手当が遅れた」とか「罪穢が多くて心が沈んで行く」等と言っております。<br><br>右の者十年以前精神異状の時、二、三年続いた事がありました。<br><br>今後の御浄霊の方法につき御教示下さい。<br><br> 延髄の塊を溶かせばよい。<br><br>（S24.10.28） 022 憂鬱性精神病 三十二歳の男子、三年前に結婚致し、その妻実家へ帰り出産致しました。<br><br>本人は度々妻の実家へ行き、その都度木箱製造業の資金をねだられ、遂に無一文になりました。<br><br>本人はそれを苦に致し、憂鬱になり、約一年半前より一室にとじこもり、一口も口を開かず、現在に到るまで時々ニヤリニヤリと笑うのみです。<br><br>妻はその後前非を悔い、一生懸命に農業に従事致しております。<br><br> 食事も普通にて衰弱致しておりません。<br><br>家族は現在迄天理教信者でした。<br><br>浄霊により霊体共に救われますか。<br><br>浄霊の急所を御教え下さい。<br><br> 治る。<br><br>右延髄の塊が急所である。<br><br>精神病の憂鬱症である。<br><br>天津祝詞を出来るだけ奏げてやる。<br><br>（S24. 7.17）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Compêndio sobre Ciência Espiritual - Volume Um: Doenças Espirituais (Parte 1)</h2>
 <p><strong>001 A Causa do Enlouquecimento</strong></p>
@@ -164,5 +316,48 @@ function toggleLang(lang) {
 <p><strong>022 Melancolia e Doença Mental</strong></p>
 <p>Um homem de trinta e dois anos se casou há três. Sua esposa retornou à casa dos pais para dar à luz. Ele a visitou diversas vezes e, em cada visita, a família dela lhe pedia dinheiro para investir em um negócio de fabricação de caixas de madeira, até que ele ficou sem nenhum centavo. Atormentado por isso, ele caiu em um estado de melancolia. Há cerca de um ano e meio, trancou-se em um quarto, não pronuncia uma palavra e, até hoje, apenas esboça sorrisos esporádicos. A esposa, arrependida de seus atos, agora se dedica com afinco à agricultura. Ele se alimenta normalmente e não está debilitado. A família era, até então, seguidora da Tenrikyo. É possível salvá-lo, em espírito e matéria, através do Johrei? Por favor, ensine-me os pontos vitais para a ministração.</p>
 <p>Sim, ele pode ser curado. O ponto vital é a solidificação no lado direito da medula oblongata. Trata-se de um caso de melancolia associada à doença mental. Proferir a Oração Amatsu-Norito por ele o máximo de vezes possível será de grande ajuda.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（一） １ 001-022 精神病１ 001 発狂の原因 互井操、主人戦歿後実家にかえる。<br/><br/>主人弟賜暇（しか）にて来たりたるも姉夫婦祖母虐待す。<br/><br/>その後操発狂す。<br/><br/>それは主人の死霊のためか、また先祖との関係でしょうか。<br/><br/>浄霊により大変よくなりましたが完全に癒りましょうか。<br/><br/>なお操は入会致し、母は入信致しております。<br/><br/>右の事御伺い申し上げます。<br/><br/> 頭に血が少いのだから、頸の周りを浄霊すれば治る。<br/><br/>光明如来様をお祭りする。<br/><br/>（S24.12.25） rattail（注） 賜暇（しか）官吏などが願い出て休暇を許されること。<br/><br/>また、その休暇。<br/><br/> 002 狐霊の命令服すべきや（精神病） 当年二十二歳の女、本年一月二十八日夜精神に異常を来し、二ケ月間意識不明にて、あらゆる信仰に頼った後、本教浄霊にて平常になりましたが、憑依霊が体内にて種々話をし、また命令も致します。<br/><br/>この命令に反対しても、心体に影響を及ぼす事は御座いませんでしょうか。<br/><br/>また、本人の縁談（婿取り）も度々良縁が結ばれますが、その都度先方より断られます。<br/><br/>いかにしたら良縁を得られましょうか。<br/><br/>御教示下さい。<br/><br/> 命令に反対した方がよい。<br/><br/>あくまでも反対する。<br/><br/>命令を聞くと人間の霊が負ける。<br/><br/>経験によれば、その霊はだんだん肛門へ来てから脱ける。<br/><br/>その時肛門がムズムズする。<br/><br/>死ねば素晴しい極楽へ伴（つ）れて行くと、先に川があるから飛込めと狐がいう。<br/><br/>そういう事で生命をとるなど随分ある。<br/><br/>（S24. 7.15） 003 精神病治癒 私の二女（二十五歳）は約五年前肝臓を患い、半年位にして大体治癒いたし、職についておりましたが、約三年前、気狂いになりましたので、婦人科に十日間位通わせましたが変化がありませんで今日に至っております。<br/><br/>私も本月六日入信受光いたし、先生をお願いいたし浄霊を頂く傍ら、私も浄霊いたしておりますが、格別の変化が御座いませんが、今後いか程経ちましたら治りましょうか。<br/><br/>御伺いいたします。<br/><br/> 病の軽重や浄霊者のいかんであるから分らぬが、浄霊を続ければ治る。<br/><br/>延髄と前頭部の奥を気長に浄霊し、祝詞や神書を読ませれば必ず治る。<br/><br/>（S24. 9.17） 004 精神病と憂鬱 二十八歳の男、本年一月頃より精神病になり、耳もとで「お前は親殺しだから死ね」と言う声が聞え、自殺を数回も計り、その度にまた耳もとで「死んではいけない」と言う声が聞え、心臓へ五回ナイフを刺しても死ねず、この頃いろいろ訊ねてもいつの間にかわからなくなってしまい、全然気持がまとまらず、絶えず淋しそうに考え込んでおります。<br/><br/>医学では遺伝性のものとして全快の見込みなしと言われているようで御座います。<br/><br/>御浄霊によって完全にお救い頂けるもので御座いましょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 治る。<br/><br/>耳に聴えたり、眼に見えたりする。<br/><br/>狐がからかうのである。<br/><br/>延髄に固まりがあるため、血液が少ししかゆかぬのである。<br/><br/>精神病の型は、最初暴れ過ぎると次は憂鬱になる。<br/><br/> 005 乱暴する半狂人、（罪とられるには） 普通の常識もなく精神病者ともつかざる私の兄、母親を見れば腹を立て殴ってかかります。<br/><br/>幼少の頃より変った男でありましたが、本年四十三歳になります。<br/><br/>どうすれば救われましょうか。<br/><br/> よく精神病でもなく普通でもないのがある。<br/><br/>私はよく正気の気狂いと言った。<br/><br/>精神病者の軽いのである。<br/><br/> これは兄に祖霊が憑って母を良くするという意味である。<br/><br/>罪穢があってそれを除られる場合など霊的に種々訳がある。<br/><br/>こういう場合は普通ではない。<br/><br/>祖先の霊が親より位が上であり、生きてるうち暴力を揮う習性のある人は死んでもその癖が出る。<br/><br/>それで暴力によって矯めたりなどする。<br/><br/>信仰を熱心にすれば早く解決がつく。<br/><br/> 本人が悪いのみでなく、親自身苦しみに遇うだけの罪穢がある。<br/><br/> 悪口を言われる方はそれだけ罪をとられる。<br/><br/>悪口を言われるほどよい。<br/><br/>だから、本当に分れば感謝してよい。<br/><br/> 沢山の罪穢は急に除れぬから、気長に時期を待って、お任せすると、何かの機会に除っていただける。<br/><br/>（S23） 006 改姓と精神病 ある信者の家で御座いますが、先祖が和泉家より別家致しましたが、本家との関係がうまく行かず、近くの別な所に家も移転致しまして、妻の実家増田姓を名乗って今日に到っておりますが、娘が一年余り前より精神病になっております。<br/><br/>一生懸命御浄霊を続けておりまして、大分良い方に向っておりますが、何か祖霊との関係が御座いましょうか。<br/><br/>また、和泉家を名乗るべきが本当で御座いましょうか。<br/><br/>それとも現在の増田のままで宜しゅう御座いましょうか。<br/><br/>また、和泉家を名乗るべきで御座いましたらどう致しましたら宜しゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 先祖によっては気に入らぬと、僅かな事も気にするのがある。<br/><br/>和泉家を名乗るべきである。<br/><br/>和泉はいい名で、由緒ある名である。<br/><br/>（S25. 2. 2） 007 不純関係による子の精神病 私の指導している信者の息子で、本年二十八歳の男、十九歳の時より神経衰弱となり脳病院に半年程入院しましたが、何等変化がないため断食法を十五日続けましたところ、白痴状態となり、現在迄持続致しております。<br/><br/>平常は非常に無口で、絶えず指先を動かし、着物等は殆ど破ってしまいます。<br/><br/>なお、本人の母は、三歳の時家出し、現在生きているそうですが住所は分りません。<br/><br/>現在の母は継母で、父は後妻の外に妾を持っており、殆ど妾の方におります。<br/><br/>なお、霊的関係がありますでしょうか。<br/><br/>また、浄霊にて治るでしょうか。<br/><br/>方法を御教示をお願い申し上げます。<br/><br/> 精神病である。<br/><br/>父親と妾との関係である。<br/><br/>浄霊だけでは難しい。<br/><br/>父が入信してかような関係を絶たなくてはいけない。<br/><br/>（祖霊が息子に憑っている）（S24. 8. 8） 008 誇大妄想狂 最近私が浄霊させて戴いている患者で、精神病者ですが、左のような事があります。<br/><br/> （イ）、年令は幾つかと聞くと九十歳（本人は三十歳です）と答え、常に口走る事が厖大な数字のみ申します。<br/><br/> （ロ）、一日中家の周りをぐるぐる回っている。<br/><br/> （ハ）、当家の仏の位牌を見ますと真黒で解らないのが沢山あります。<br/><br/>この位牌は他家ので先祖の人が持って来たので、現在の人では分らないのです。<br/><br/>この精神病者と位牌と何か霊的関係がありましょうか。<br/><br/>また、治る見込みが御座いますでしょうか。<br/><br/>御伺い申し上げます。<br/><br/> 誇大妄想である。<br/><br/>（黒くて分らないのだから古い。<br/><br/>まあ分らない。<br/><br/>祖霊に狐が憑った協同作用で、位牌と関係はない）（S24. 9.18） 009 言葉発せぬ精神異状（幻聴） 十九歳の寺の娘ですが、五年前より不眠症、その後精神異状を来し今では全然言葉を発する事も出来なくなり、食欲もほとんど無くなり、黙って一日でも二日でも坐ったきりの事もあります。<br/><br/>また、その父（住職、五十歳）は三十年位前から耳が遠くなっております。<br/><br/>その寺の前住職が二十年程前首吊りで死んでおりますが、それに関係ありましょうか。<br/><br/> 狂人になった方は普通関係ない。<br/><br/>首吊りの坊主に狐が憑いてれば、それが憑る場合がある。<br/><br/>罪の多い寺である。<br/><br/>信仰へ入らなくてはいけない。<br/><br/> 不眠症は頭に血が少なくなる。<br/><br/>後頸部の多く右である。<br/><br/>送流の血管を圧迫される。<br/><br/>狐が頭へ来た時は連続的にいくらでも想念が浮く。<br/><br/>他の部へ狐がいて喋る時はその声が本人に聞える。<br/><br/>狂人がいろんな行動をするのは狐が交代々々で憑くからである。<br/><br/> 010 複雑な精神病 若い時サーカスの蛇使いをしていたと言う四十五歳の女、三年前より霊憑りのようになり、気が狂い、医者も祈祷師もあらゆる事をやっても駄目でした。<br/><br/>一ケ月程前より御浄霊を致しておりますが、一時非常に良くなりましたが、十日位前から以前より一層激しくなりました。<br/><br/>身体も大分やつれております。<br/><br/>御浄霊をしていても何者かと話しているようなことがあります。<br/><br/>また、この女は十三年前に先夫が罪を犯して十五年の刑にて入獄した時に、今の夫と結婚したのですが、何かこれと関係がありましょうか。<br/><br/>先夫は生きております。<br/><br/>現在の夫は下駄職人で生活は至って低く、現在貧乏の極にあり、毎日二、三時間腹痛があります。<br/><br/>いかなる事でしょうか。<br/><br/>御教え願います。<br/><br/> 今の夫が入信して人助けをする、それが根本である。<br/><br/>先夫の執着が強ければ先夫の生霊も来ているかもしれぬ。<br/><br/>いずれにしても単純な精神病ではなさそうだ。<br/><br/>（S24. 4.28） 011 温暖季に発する精神病 ある未入信の現在脳病院に入院中の男の方、毎年暖かくなると精神病になり非常に暴れますが、寒くなるとそれが収まり、普通人と大差なく退院致します。<br/><br/>その退院の時には子供もないのに、よく玩具等を買って来るそうで御座います。<br/><br/> 火素の増えていると言われます時、春から夏にかけて浄化が旺盛に見受けられるようで御座いますが、一年のうちにて火素の多い時季と少ない時季、及びそれにつれて病気治癒の遅速があるもので御座いましょうか。<br/><br/>御教え御願い申し上げます。<br/><br/> 精神病は暖かい時に多い。<br/><br/>軽い方の精神病である。<br/><br/>霊が暖かい時にいた霊――即ち暖地の狐である。<br/><br/>それで暖かくなると活動する。<br/><br/>子供の霊も憑いている。<br/><br/>両方憑いている。<br/><br/>それで玩具など買うのである。<br/><br/>（S24.10.11） 012 死霊狐霊両憑の精神病 横浜港北教導所教導師補田中喜一母（五十二歳）、四月二十三日以来何らかの霊（死霊と狐霊）のため御浄化中三度（投身、自殺、他殺）迄偉大なる御守護により御救い戴きまして、有難く御礼申し上げます。<br/><br/> 近頃、右未だ復活致さず、肉体の衰弱のためその様子は一見下男の風で、御浄霊致しますとつぶやくように「だめだだめだ」と申します。<br/><br/>また近頃十日程全然食物を摂らず、口に無理に入れますと非常に苦しがり、白い痰と共にはき出します。<br/><br/>一日中土間に、外にふらふら立っております。<br/><br/>食物は何を入れても「にがい」と申します。<br/><br/> 当地は二度目の教導所として発足したばかりの土地です。<br/><br/>右、御教示、御守護を御願い申し上げます。<br/><br/> 精神病で、死霊と狐霊と両方憑いている。<br/><br/>延髄の固結をとかす。<br/><br/>（S24. 7.29） 013 陰部へ食入れる精神病 小山久己（くみ）、三十一歳の女で、九年前から精神病の者で御座います。<br/><br/>去る二十一年三月頃に 現在の家に来りましてから一層悪化致しまして、隔日発作の状態で、毎度の食物は半分食べ、半分は陰部へ押込みます。<br/><br/>また、着物は男物の柄模様を好み、全裸体の時が多う御座います。<br/><br/>何の霊がかりで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 狐である。<br/><br/>治るには治る。<br/><br/> 陰部にも霊がいる。<br/><br/>狐の子のようである。<br/><br/>子に食べさせるというつもりであろう。<br/><br/>男物を好むというのは男狐である。<br/><br/>（S24. 5.12） 014 笑い泣く精神病 三十歳の娘の精神病者で御座いますが、毎日三十分間位続けざまに笑ったり泣いたり、マッカーサーのバカヤローとか、ジモンがいるから取ってくれ、と頭を手で払ったり、頭からお腹の方まで電信柱のようなものが入っていてそれが色々と話を言わせます、と本人が申しますが、ジモンとは何を意味するもので御座いましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 電信柱のようなものは霊である。<br/><br/> 狸は笑う。<br/><br/>泣くのは狐である。<br/><br/>であるから、右二つの霊が憑いているかもしれない。<br/><br/> ジモンは霊に直接聞いてみよ。<br/><br/> 015 狂暴と発作的精神病 本年三十五歳の男子ですが、昭和二十二年一月に入信致し、二十三年に光明如来様をお祭り致しております。<br/><br/>暇を見て他人の浄霊を致しておりますが、何か気に入らぬ事があると狂人のごとく、火の入っている火鉢や手にさわる物を投付けたりして荒らし、その後は昼夜なく寝転んでおり、仕事は全然せず、食事は一人前以上食い、干魚類をそのまま食う事を好みます。<br/><br/>本人の浄霊は妻が毎日やっております。<br/><br/>また、時折分会の先生方にお願いしておりますが、何の変りもありません。<br/><br/>この人の兄は狂人にて死亡致しております。<br/><br/>これは霊的でございますか。<br/><br/>お伺い申し上げます。<br/><br/> 狐である。<br/><br/>発作的精神病で、兄の霊も憑いてるかもしれない。<br/><br/>いろいろ食う霊と精神病の霊とは違うのが憑いている。<br/><br/>相当罪穢があるから出来るだけ祝詞を奏げる。<br/><br/>浄霊は右延髄である。<br/><br/> 癇癪を起すのは人霊である。<br/><br/>（S24. 9. 8） 016 乱暴な精神病 島根県の信者、岩田さんという方の長男が精神病で御座いまして、御浄霊の結果やや温順になり、喜ばれておりましたが、その後また暴れ出しまして、御浄霊中立ち上り仏壇の御屏風観音様を、畏れ多い事ながら引破り、裏庭で焼きました。<br/><br/>家族も恐れ入って途方に暮れ、座敷牢を作って入れておりますが、手当り次第に物を掴んで投げ付けます。<br/><br/>そのくせ他人が行くと比較的温順（おとな）しいので御座います。<br/><br/>御神体をお祭り申して一生懸命ですが、益々病勢は募ります。<br/><br/>いかにすればよろしゅう御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 暴れるだけ暴れさす。<br/><br/>長くても二十日か三十日にする。<br/><br/>後祝詞をせいぜい奏げる。<br/><br/>または近くで浄霊する。<br/><br/>段々よくなる。<br/><br/>（S24.10. 1） 017 乱暴する精神病の対処 今年二十歳になる娘ですが、仏壇の中の物を放り出したり、御経の本を粗末にしたり、時によっては仏様の位置も変えたり、それも家だけなれば良いのですが他家へ行っても同様な事をします。<br/><br/>また道を歩きながら大きな声で人の悪口を言い、御書体をいじり、御守様の袋を破り家の人の言う事は絶対に聞き入れない状態でございます。<br/><br/>浄霊は嫌います。<br/><br/>これはどうした事でしょうか。<br/><br/>治りましょうか。<br/><br/>御教え下さい。<br/><br/> 凶暴性の霊が憑っている。<br/><br/>狐のようなものである。<br/><br/>気長にする。<br/><br/>光明如来様をお祭りし、その部屋へ寝かすようにする。<br/><br/>祝詞を聞かせ、御著書を読ます。<br/><br/>（S25. 1.26） 018 暴れる精神病 五十一歳の男子、昭和十六年に発狂し、精神病院に入院すること九回に及び、常に狂うと暴れてどうにもならない状態でありましたが、昨年光明如来様を戴き、御浄霊の御蔭で最近大分よくなりました。<br/><br/>平素甘いものや油揚等を好み、病気になって以来、歩く事はなく這っておりました。<br/><br/>去る十七日、先生の御浄霊を戴きましたら物凄く浄化して激しく荒れ狂い、致し方なく医者にかけたところ、本人いわく「私のいるところがない。<br/><br/>病院でも庭の隅でもよいからやってくれ」と申し立てるのです。<br/><br/>それからは医者に行ったり浄霊をしたりして少しよくなり、落着いて参りました。<br/><br/>これはいかなる原因でしょうか。<br/><br/>また、今後どのようにしたら救われるでしょうか。<br/><br/>御教え願います。<br/><br/> 医者へかかると遅くなる。<br/><br/>暴れるだけ暴れさすと治りが早い。<br/><br/>借金を月賦で払うのと一時に払うのとの違いである。<br/><br/>（S24. 6. 5） 019 狂暴性精神病、春日明神の祭神 四十八歳になる女子、前にも気狂いになり、今度で三回目です。<br/><br/>今度は大変に狂暴性になっております。<br/><br/>本人はしきりに「春日様が来る来る」と申し、自分には狐が憑いていると言う事を自覚しておりますが、今度実家の方をしらべて見ましたところ、親が夫婦養子に行き、その家の親になる人が日蓮の信者で、自分が死ぬ前に裏の庭にコンクリートで型どった四角なもので、右側に天照皇大神、左側に十二天、その左下に八幡様、右下に春日大神の四柱の御姿が彫ってあり、その春日様の後ろにその養い親が自分で自分を彫りつけてあるのです。<br/><br/>その親の霊がそこに祭ってあるために狐霊になっているのでしょうか。<br/><br/> 親は狐霊にならぬ。<br/><br/>親に狐霊が憑いてる場合はよくある。<br/><br/>いろいろ査べるのは面倒だから、狐霊を浄化させるのが一番いい。<br/><br/>春日様は武甕槌神、春日は土地の名をとったもの。<br/><br/>（S24. 6.19） 020 自殺の恐れある憂鬱症 二十四歳の男子、昨年一月憂鬱症にて入院致し、三ケ月半にて全快退院致しました。<br/><br/>その後御教修を頂き勉学中のところ、去る四月、再発致しましたので、朝夕二回御浄霊を致しております。<br/><br/>両親はこの度御教修を頂き、御屏風様も頂きました。<br/><br/>つきましては次の事御伺い申し上げます。<br/><br/> 日数は長くかかりますでしょうか。<br/><br/> 一日中殆ど無言で机の前に座っておりますが、自殺のおそれはございませんでしょうか。<br/><br/> 日数は長くかかる。<br/><br/>自殺の恐れはある。<br/><br/>浄霊と御本を読ますといい。<br/><br/>これが一番いい。<br/><br/> 霊が憑っている。<br/><br/>はっきり判らぬが、いずれ分る。<br/><br/>段々治る。<br/><br/>必ず治る。<br/><br/>（S24. 6. 9） 021 陰気な精神病 私の浄霊させて戴いている未入信の四十三歳の男、昨年五月頃痔出血一週間程続き、その後同年八月頃医師より神経衰弱とて現在臥床しております。<br/><br/>絶えず暗い部屋を好み、右手にて左手の親指、中指、薬指（べに指）等の爪を掻き、現在爪は無くなっており、なお掻き続けております。<br/><br/>「自分は手当が遅れた」とか「罪穢が多くて心が沈んで行く」等と言っております。<br/><br/>右の者十年以前精神異状の時、二、三年続いた事がありました。<br/><br/>今後の御浄霊の方法につき御教示下さい。<br/><br/> 延髄の塊を溶かせばよい。<br/><br/>（S24.10.28） 022 憂鬱性精神病 三十二歳の男子、三年前に結婚致し、その妻実家へ帰り出産致しました。<br/><br/>本人は度々妻の実家へ行き、その都度木箱製造業の資金をねだられ、遂に無一文になりました。<br/><br/>本人はそれを苦に致し、憂鬱になり、約一年半前より一室にとじこもり、一口も口を開かず、現在に到るまで時々ニヤリニヤリと笑うのみです。<br/><br/>妻はその後前非を悔い、一生懸命に農業に従事致しております。<br/><br/> 食事も普通にて衰弱致しておりません。<br/><br/>家族は現在迄天理教信者でした。<br/><br/>浄霊により霊体共に救われますか。<br/><br/>浄霊の急所を御教え下さい。<br/><br/> 治る。<br/><br/>右延髄の塊が急所である。<br/><br/>精神病の憂鬱症である。<br/><br/>天津祝詞を出来るだけ奏げてやる。<br/><br/>（S24. 7.17）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

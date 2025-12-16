@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気とは排毒作用 『救世』57号、昭和25(1950)年4月8日発行 そもそも、病気を最も判りやすくいえば病気とは体内にある不純物、すなわち有毒物を種々の形によって排泄さるるその過程をいうのである、従ってこの世の中に病気ほど結構なものはないので、もし人間から病気をなくすとすれば、人間は健康を保ち得ず、到底長命などは覚束（おぼつか）ない虚弱者となるのである、これが千古不滅の真理であって、これを基本として成った医学こそ真の医学である、ゆえに、もしこの真理に外れたいかなる医術といえども、それは真の医術とはいえない疑似医術であるから、到底病気は治し得ないのである。<br><br> そうして有毒物とは、彼の喀痰、鼻汁、喀血、出血等の汚血や、膿汁、下痢便、濁尿、汗、唾液、目脂（めやに）、涙、耳ダレ、発疹、皮膚の紅潮、仝〔同〕斑点、田虫、水虫、フケ等々であって、まず喀痰、鼻汁、汗、濁尿等の排泄作用が感冒であり、下痢や痔出血等は全身毒素が腹部へ集り、肛門から排泄されるのである、また膿汁毒血等は腫物によって排泄され、各種の毒血は天然痘、麻疹（はしか）、猩紅熱（しょうこうねつ）、発疹チフス、疥癬等によって皮膚面から排泄され、その他は毒素はそれぞれ、種々の形によって排泄されるのであるから、病気とは換言すれば、人体の清掃作用である以上、清掃された結果は血液が清浄化するから、健康を増すのである、そのため血行の循環はよくなり、殺菌力は強化され、体力強靭となるから罹病し難くなり、精神的には爽快感の持主となり、楽天的となるのである、これに反し、常に寒冒に罹りやすく、絶えず不快で、根気なく怒りやすく、憂鬱で、神経衰弱や結核に罹りやすいのは、濁血が原因であるのは言うまでもない、そうしてあらゆる病気の中でも、最も簡単にして健康上効果顕著なのは感冒に越したものはないのである、従って、出来るだけ寒冒に罹るようにするのが最もよいのであるから、常に感冒に罹るよう心掛ければ、結核及び神経衰弱などに犯される事はないといってもいいのである。<br><br> しかるに、この理を知らない医学は、およそ反対の解釈であるから、いかに誤っているかが判るのである、何よりも今日医学は進歩せりと言いながら実際的効果ははなはだ疑問である、むしろ進歩すればする程、真の医道と遠ざかるばかりである、見よ、今日寒冒の原因すら不明であり、結核の解決さえもいかに苦心努力しても思うようにならないというに見ても明らかである。<br><br> 右の理によって、今日至極簡単な病気でさえも容易に治らないのは逆療法によるからである、事実、吾らからいえば、病気なるものは、まことに容易に治るものである、それは神が与えた清掃作用である以上、不純物がある程度溜れば人間自身が持っている良能力の活動が発生し治るからであってみれば、ほとんどの病気は、何らの手当もせず自然に放任しておくだけで速かに治癒するのである。<br><br> ところが、いつの時代か判らないが、前述のごとく、病気を逆の意味に解し成った医学である以上、いか程進歩したとても治るはずがない、それどころか反って苦痛は増し、生命にまで危険を及ぼすのであるから実に恐るべきものとし、適当の手段を行わなければ安心出来ないという訳で、誤りを解決するのに誤りをもって発達したのが今日の医学である、とすれば、何と恐るべき愚法を続けて来たかと言えるのである、しかも、これがため何百何千年間人類はいかに大なる犠牲を払って来たであろう、それらを考える時全く聖書にある禁断の果実とは医薬をいったのではないかとさえ怪しまれるのである。<br><br> しかしながら喜ぶべし、いよいよ天の時至って、この誤謬の真相を開明し、病なき世界を出現させようとするのであるから、近き将来すべて人間の寿齢は百歳以上は可能となり、且つ無毒者が殖えるに従って、病なく貧なく争を好まない人間が増える訳で、吾らのモットーである地上天国の実現は近づきつつありと確言するのである。<br><br> もちろん、かくのごとき空前の大救業は神の大愛の発露と時期到来にある事はもちろんで、その最も基本的条件は、人間から病を除去する一事で、そのための主要なる点は、医学の是正でなくてはならないと共に、ここに始めて一切の誤謬は解決し地上天国は成立するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Doença</h2>
 <p>Se quisermos definir a doença da forma mais compreensível, diremos que ela consiste no processo pelo qual o corpo expele, de diversas maneiras, as impurezas, ou seja, as substâncias tóxicas nele contidas. Portanto, não há nada mais benéfico neste mundo do que a doença. Caso a doença fosse eliminada da humanidade, o ser humano não conseguiria manter-se saudável, tornando-se um ser frágil e incapaz de almejar a longevidade. Esta é uma verdade imutável e milenar, e a medicina que se fundamenta nela é a única e verdadeira medicina. Por conseguinte, qualquer arte médica que se desvie desta verdade, por mais que se intitule como tal, não passa de uma prática espúria, incapaz de promover a cura.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Não se sabe ao certo em que época, mas a medicina foi edificada sobre essa interpretação invertida da doença, como já mencionado. Sendo assim, por mais que progrida, jamais poderá curar. Pelo contrário, apenas agrava o sofrimento e coloca a própria vida em risco. Por essa razão, a doença passou a ser vista como algo assustador, contra o qual seria indispensável tomar as devidas providências. E assim, na tentativa de solucionar um erro com outro erro, desenvolveu-se a medicina que conhecemos hoje. Que método insensato temos perpetuado! Ademais, ao refletirmos sobre os imensos sacrifícios que a humanidade tem pago por centenas, milhares de anos em decorrência desse equívoco, chegamos a nos questionar se o fruto proibido, mencionado na Bíblia, não seria uma alusão aos medicamentos.</p>
 <p>Alegremo-nos, todavia, pois finalmente o tempo de Deus chegou! A verdade sobre este erro milenar será revelada para que um mundo sem doenças possa surgir. Num futuro próximo, será possível que todos os seres humanos ultrapassem os cem anos de idade. À medida que o número de pessoas livres de toxinas aumentar, crescerá também a quantidade de indivíduos isentos de doença, de pobreza e avessos ao conflito. Desse modo, podemos afirmar com convicção que a concretização de nosso lema, o Paraíso Terrestre, está cada vez mais próxima.</p>
 <p>Naturalmente, esta Obra de Salvação grandiosa e sem precedentes é uma manifestação do imenso amor de Deus e do advento de uma nova era. Sua condição mais fundamental é a erradicação da doença da humanidade. Para tanto, o ponto central deve ser a retificação da medicina. Somente a partir daí todos os erros serão solucionados, e o Paraíso Terrestre poderá ser estabelecido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気とは排毒作用 『救世』57号、昭和25(1950)年4月8日発行 そもそも、病気を最も判りやすくいえば病気とは体内にある不純物、すなわち有毒物を種々の形によって排泄さるるその過程をいうのである、従ってこの世の中に病気ほど結構なものはないので、もし人間から病気をなくすとすれば、人間は健康を保ち得ず、到底長命などは覚束（おぼつか）ない虚弱者となるのである、これが千古不滅の真理であって、これを基本として成った医学こそ真の医学である、ゆえに、もしこの真理に外れたいかなる医術といえども、それは真の医術とはいえない疑似医術であるから、到底病気は治し得ないのである。<br/><br/> そうして有毒物とは、彼の喀痰、鼻汁、喀血、出血等の汚血や、膿汁、下痢便、濁尿、汗、唾液、目脂（めやに）、涙、耳ダレ、発疹、皮膚の紅潮、仝〔同〕斑点、田虫、水虫、フケ等々であって、まず喀痰、鼻汁、汗、濁尿等の排泄作用が感冒であり、下痢や痔出血等は全身毒素が腹部へ集り、肛門から排泄されるのである、また膿汁毒血等は腫物によって排泄され、各種の毒血は天然痘、麻疹（はしか）、猩紅熱（しょうこうねつ）、発疹チフス、疥癬等によって皮膚面から排泄され、その他は毒素はそれぞれ、種々の形によって排泄されるのであるから、病気とは換言すれば、人体の清掃作用である以上、清掃された結果は血液が清浄化するから、健康を増すのである、そのため血行の循環はよくなり、殺菌力は強化され、体力強靭となるから罹病し難くなり、精神的には爽快感の持主となり、楽天的となるのである、これに反し、常に寒冒に罹りやすく、絶えず不快で、根気なく怒りやすく、憂鬱で、神経衰弱や結核に罹りやすいのは、濁血が原因であるのは言うまでもない、そうしてあらゆる病気の中でも、最も簡単にして健康上効果顕著なのは感冒に越したものはないのである、従って、出来るだけ寒冒に罹るようにするのが最もよいのであるから、常に感冒に罹るよう心掛ければ、結核及び神経衰弱などに犯される事はないといってもいいのである。<br/><br/> しかるに、この理を知らない医学は、およそ反対の解釈であるから、いかに誤っているかが判るのである、何よりも今日医学は進歩せりと言いながら実際的効果ははなはだ疑問である、むしろ進歩すればする程、真の医道と遠ざかるばかりである、見よ、今日寒冒の原因すら不明であり、結核の解決さえもいかに苦心努力しても思うようにならないというに見ても明らかである。<br/><br/> 右の理によって、今日至極簡単な病気でさえも容易に治らないのは逆療法によるからである、事実、吾らからいえば、病気なるものは、まことに容易に治るものである、それは神が与えた清掃作用である以上、不純物がある程度溜れば人間自身が持っている良能力の活動が発生し治るからであってみれば、ほとんどの病気は、何らの手当もせず自然に放任しておくだけで速かに治癒するのである。<br/><br/> ところが、いつの時代か判らないが、前述のごとく、病気を逆の意味に解し成った医学である以上、いか程進歩したとても治るはずがない、それどころか反って苦痛は増し、生命にまで危険を及ぼすのであるから実に恐るべきものとし、適当の手段を行わなければ安心出来ないという訳で、誤りを解決するのに誤りをもって発達したのが今日の医学である、とすれば、何と恐るべき愚法を続けて来たかと言えるのである、しかも、これがため何百何千年間人類はいかに大なる犠牲を払って来たであろう、それらを考える時全く聖書にある禁断の果実とは医薬をいったのではないかとさえ怪しまれるのである。<br/><br/> しかしながら喜ぶべし、いよいよ天の時至って、この誤謬の真相を開明し、病なき世界を出現させようとするのであるから、近き将来すべて人間の寿齢は百歳以上は可能となり、且つ無毒者が殖えるに従って、病なく貧なく争を好まない人間が増える訳で、吾らのモットーである地上天国の実現は近づきつつありと確言するのである。<br/><br/> もちろん、かくのごとき空前の大救業は神の大愛の発露と時期到来にある事はもちろんで、その最も基本的条件は、人間から病を除去する一事で、そのための主要なる点は、医学の是正でなくてはならないと共に、ここに始めて一切の誤謬は解決し地上天国は成立するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

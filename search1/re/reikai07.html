@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reikai07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界の審判 『明日の医術 第三編』昭和18(1943)年10月23日発行 そもそも人間は、現世において各々その与えられたる天職使命を完全に遂行すべきであるに拘わらず、大多数は事物の外観的方面のみをみて判断し、目的の為に知らず識らず悪に属する行為もあえて為すので、それが長年月に渉るにおいて、相当の罪穢となって霊体に曇が堆積するのである。<br><br>これは、霊界の存在を知らなかったから止むを得ない事であろう。<br><br>従って、人間が死後霊界人となるや、その罪穢の払拭が厳密に行われるのである。<br><br>それらについて以下詳説してみよう。<br><br> 私は幾多の死霊から霊媒を通じて霊界の事象について、出来得る限りの詳細なる調査研究を行ったのである。<br><br>そうして死霊の言説についても誤謬や虚偽と思う点を避け、幾人もの死霊の一致した点を綜合して書くのであるから大体において誤りはないと思うのである。<br><br> 人間一度霊界に入るや、大多数は神道で唱うる中有（ちゅうう）界又は八衢（やちまた）、仏教でいう六道の辻、基督教でいう精霊界に往くのである。<br><br>しかし、ここに注意すべきは日本の霊界は立体的であって、西洋の霊界は平面的である。<br><br>私が研究したのは日本の霊界であるから、そのつもりで読まれたいのである。<br><br>そうして右の八衢とは霊界における中間帯である。<br><br>それは本来霊界の構成は九段になっており、即ち天国が三段八衢も三段地獄も三段という訳である。<br><br> 死後、普通人は八衢人となるのであるが、極善の者は直ちに天国へ昇り、極悪の者は地獄に堕つるのである。<br><br>それは死の状態によって大体判るものである。<br><br>即ち天国へ復活する霊は死に際会していささかの苦痛もなく、近親者を招き一人一人遺言を為し、およそ死の時を知って平静常のごとき状態で死ぬのである。<br><br>それに引換え地獄に往く霊は、死に直面して非常な苦痛に喘ぎ、いわゆる断末魔の苦しみを為すのである。<br><br>又右のいずれでもなく普通の死の苦しみの者は八衢に往くのである。<br><br>言うまでもなく八衢へ往く霊が大部分であって、死体の面貌を見れば大体の見当は付くものである。<br><br>それは天国行の霊は生けるがごとく、時には鮮花色さえも呈し、平安いささかの死の形相もないのである。<br><br>又地獄行の霊は、顔面暗黒色又は暗青色を呈し苦悶の形相を表わし、一見慄然とするようなのもある。<br><br>又八衢行の霊は一般死人の面貌で、濃淡はあるが大体黄色である。<br><br> 右についてまず八衢行の霊から説明してみるが、まず死後直ちに八衢へ行くや仏教で唱うるごとき脱衣婆（だついば）なるものが居て、それが着衣を脱がせるのである。<br><br>そうして三途（さんず）の川を渡るのであるが、その際普通の橋を渡るという説と、橋がなく水面を渡るという説とがある。<br><br>ただし、後者の説は川に水が無く、龍体が無数に河中に紆（うね）っていて、それが水のごとく見え、龍の背を渡るというのである。<br><br>又一説には、脱衣婆は娑婆からの着衣を脱がせて、霊界の白衣と着せ更えるというのである。<br><br>それは橋を渡り終る時、白色は種々の色に染るのだそうで、罪穢の多い者は黒色であり、次が青色、次が紅色、次が黄色、罪穢の最も少いものは白色というのである。<br><br>それから仏説にある閻魔（えんま）の庁即ち審判廷に行き、そこで審判を受けるのであるが、それは娑婆と異（ちが）い、絶対厳正公平で、いささかの依怙（えこ）も誤審もないのである。<br><br>その際閻魔大王の御顔は見る人によって異るそうで、悪人が見ると御眼は鏡のごとく口は耳下まで裂け、舌端火を吐き、一見慄然とするそうである。<br><br>しかるに悪の量が少い程御顔が優しく見え、善人が拝すればまことに柔和にして威厳備わり、親しみと尊敬の念が自ら湧くそうである。<br><br>又審判の際浄玻璃（じょうはり）の鏡に映写したり、閻魔の帳即ち生前の経歴を控えてある等によって下調べを行う等は事実のようである。<br><br>そうしてその調べ役は冥官が行い、その監督は神道によっては祓戸（はらいど）の神が行うといわれている。<br><br> 右の審判によって罪穢の量が定まれば、その軽重によって、それぞれ天国又は地獄の、霊相応の階級へ行くのであるが、神の御目的は罪人を造るにあらず、天国人たらしめるのであるから、地獄行の霊は大抵は一時八衢において修行をさせ霊の向上を計られるのである。<br><br>それは八衢においては現界における説教師のごときものがあって、それが改善に向わしむべく努力するのである。<br><br>その説教師なるものは現界においての各宗教の教誨師（きょうかいし）等が死後そういう役を命ぜらるるのである。<br><br>そうして八衢においての修行期間は三十年としてあり、それまでに改心出来得ないものは、地獄へおつるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Julgamento no Mundo Espiritual</h2>
 <p>Originalmente, os seres humanos deveriam cumprir integralmente a missão celestial que lhes foi confiada nesta vida. No entanto, a grande maioria julga as coisas apenas por sua aparência e, em busca de seus objetivos, acaba por praticar, mesmo sem se dar conta, atos de natureza maligna. Com o passar dos anos, essas ações se acumulam como máculas de pecado, obscurecendo o corpo espiritual. Isso talvez seja inevitável, visto que desconheciam a existência do Mundo Espiritual. Consequentemente, quando o ser humano se torna um habitante do Mundo Espiritual após a morte, a purificação dessas máculas é realizada com absoluto rigor. A seguir, passarei a detalhar esse processo.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Iniciarei a explanação pelos espíritos destinados a <em>Yachimata</em>. Logo ao chegar, deparam-se com uma entidade conhecida no Budismo como <em>Datsuiba</em> (脱衣婆), que lhes retira as vestes terrenas. Em seguida, devem atravessar o rio <em>Sanzu</em> (三途). Existem duas versões sobre essa travessia: uma sustenta que se cruza uma ponte comum, enquanto outra afirma não haver ponte, e que os espíritos caminham sobre a superfície da água. Esta última teoria, contudo, postula que o rio não contém água, mas sim inúmeros dragões que se contorcem em seu leito, criando a aparência de um fluxo aquático, e que a travessia se dá sobre o dorso desses seres. Há ainda outra interpretação, segundo a qual <em>Datsuiba</em> substitui as vestes do mundo físico por túnicas brancas do Mundo Espiritual. Diz-se que, ao final da travessia da ponte, essas túnicas brancas se tingem de diferentes cores: o preto para aqueles com grande acúmulo de máculas; em seguida, o azul, o vermelho e o amarelo. Apenas os espíritos com o mínimo de impurezas permanecem com as vestes brancas.</p>
 <p>Superada essa etapa, o espírito se apresenta perante o tribunal de <em>Enma</em> (閻魔), onde receberá seu julgamento. Diferentemente do que ocorre no mundo terreno, esse tribunal é de uma retidão e imparcialidade absolutas, isento de qualquer favoritismo ou erro de juízo. A aparência de <em>Enma</em> varia conforme quem o contempla. Para os iníquos, seus olhos brilham como espelhos, sua boca se rasga até as orelhas e de sua língua brotam chamas, uma visão verdadeiramente aterradora. À medida que a maldade do espírito diminui, seu semblante se torna mais suave. Para uma pessoa de bem, ele se revela com uma fisionomia dócil e, ao mesmo tempo, plena de dignidade, inspirando espontaneamente sentimentos de reverência e familiaridade. Durante o julgamento, fatos indicam que se utilizam recursos como o espelho de <em>Jōhari</em> (浄玻璃), que projeta as ações da vida pregressa, e os registros de <em>Enma</em>, onde a trajetória do indivíduo já se encontra detalhada. Essa verificação é conduzida pelos oficiais do mundo espiritual, sob a supervisão das divindades da purificação, conhecidas no Xintoísmo como <em>Haraido no Kami</em> (祓戸の神).</p>
 <p>Uma vez que o julgamento determina o volume das máculas de um espírito, ele é encaminhado ao nível do Paraíso ou do Inferno correspondente à sua condição espiritual. Contudo, o objetivo de Deus não é criar pecadores, mas sim cidadãos do Paraíso. Por essa razão, os espíritos destinados ao Inferno são, na maioria dos casos, enviados primeiramente a <em>Yachimata</em> por um período de aprimoramento, visando à sua elevação espiritual. Nesse local, existem instrutores, análogos aos pregadores do mundo terreno, que se empenham em conduzir os espíritos à reforma íntima. Esses instrutores são, com frequência, almas que em vida foram mestres religiosos e que, após a morte, recebem essa nobre missão. O período de aprimoramento em <em>Yachimata</em> é estabelecido em trinta anos. Aqueles que não conseguem se regenerar dentro desse prazo são, enfim, enviados ao Inferno.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界の審判 『明日の医術 第三編』昭和18(1943)年10月23日発行 そもそも人間は、現世において各々その与えられたる天職使命を完全に遂行すべきであるに拘わらず、大多数は事物の外観的方面のみをみて判断し、目的の為に知らず識らず悪に属する行為もあえて為すので、それが長年月に渉るにおいて、相当の罪穢となって霊体に曇が堆積するのである。<br/><br/>これは、霊界の存在を知らなかったから止むを得ない事であろう。<br/><br/>従って、人間が死後霊界人となるや、その罪穢の払拭が厳密に行われるのである。<br/><br/>それらについて以下詳説してみよう。<br/><br/> 私は幾多の死霊から霊媒を通じて霊界の事象について、出来得る限りの詳細なる調査研究を行ったのである。<br/><br/>そうして死霊の言説についても誤謬や虚偽と思う点を避け、幾人もの死霊の一致した点を綜合して書くのであるから大体において誤りはないと思うのである。<br/><br/> 人間一度霊界に入るや、大多数は神道で唱うる中有（ちゅうう）界又は八衢（やちまた）、仏教でいう六道の辻、基督教でいう精霊界に往くのである。<br/><br/>しかし、ここに注意すべきは日本の霊界は立体的であって、西洋の霊界は平面的である。<br/><br/>私が研究したのは日本の霊界であるから、そのつもりで読まれたいのである。<br/><br/>そうして右の八衢とは霊界における中間帯である。<br/><br/>それは本来霊界の構成は九段になっており、即ち天国が三段八衢も三段地獄も三段という訳である。<br/><br/> 死後、普通人は八衢人となるのであるが、極善の者は直ちに天国へ昇り、極悪の者は地獄に堕つるのである。<br/><br/>それは死の状態によって大体判るものである。<br/><br/>即ち天国へ復活する霊は死に際会していささかの苦痛もなく、近親者を招き一人一人遺言を為し、およそ死の時を知って平静常のごとき状態で死ぬのである。<br/><br/>それに引換え地獄に往く霊は、死に直面して非常な苦痛に喘ぎ、いわゆる断末魔の苦しみを為すのである。<br/><br/>又右のいずれでもなく普通の死の苦しみの者は八衢に往くのである。<br/><br/>言うまでもなく八衢へ往く霊が大部分であって、死体の面貌を見れば大体の見当は付くものである。<br/><br/>それは天国行の霊は生けるがごとく、時には鮮花色さえも呈し、平安いささかの死の形相もないのである。<br/><br/>又地獄行の霊は、顔面暗黒色又は暗青色を呈し苦悶の形相を表わし、一見慄然とするようなのもある。<br/><br/>又八衢行の霊は一般死人の面貌で、濃淡はあるが大体黄色である。<br/><br/> 右についてまず八衢行の霊から説明してみるが、まず死後直ちに八衢へ行くや仏教で唱うるごとき脱衣婆（だついば）なるものが居て、それが着衣を脱がせるのである。<br/><br/>そうして三途（さんず）の川を渡るのであるが、その際普通の橋を渡るという説と、橋がなく水面を渡るという説とがある。<br/><br/>ただし、後者の説は川に水が無く、龍体が無数に河中に紆（うね）っていて、それが水のごとく見え、龍の背を渡るというのである。<br/><br/>又一説には、脱衣婆は娑婆からの着衣を脱がせて、霊界の白衣と着せ更えるというのである。<br/><br/>それは橋を渡り終る時、白色は種々の色に染るのだそうで、罪穢の多い者は黒色であり、次が青色、次が紅色、次が黄色、罪穢の最も少いものは白色というのである。<br/><br/>それから仏説にある閻魔（えんま）の庁即ち審判廷に行き、そこで審判を受けるのであるが、それは娑婆と異（ちが）い、絶対厳正公平で、いささかの依怙（えこ）も誤審もないのである。<br/><br/>その際閻魔大王の御顔は見る人によって異るそうで、悪人が見ると御眼は鏡のごとく口は耳下まで裂け、舌端火を吐き、一見慄然とするそうである。<br/><br/>しかるに悪の量が少い程御顔が優しく見え、善人が拝すればまことに柔和にして威厳備わり、親しみと尊敬の念が自ら湧くそうである。<br/><br/>又審判の際浄玻璃（じょうはり）の鏡に映写したり、閻魔の帳即ち生前の経歴を控えてある等によって下調べを行う等は事実のようである。<br/><br/>そうしてその調べ役は冥官が行い、その監督は神道によっては祓戸（はらいど）の神が行うといわれている。<br/><br/> 右の審判によって罪穢の量が定まれば、その軽重によって、それぞれ天国又は地獄の、霊相応の階級へ行くのであるが、神の御目的は罪人を造るにあらず、天国人たらしめるのであるから、地獄行の霊は大抵は一時八衢において修行をさせ霊の向上を計られるのである。<br/><br/>それは八衢においては現界における説教師のごときものがあって、それが改善に向わしむべく努力するのである。<br/><br/>その説教師なるものは現界においての各宗教の教誨師（きょうかいし）等が死後そういう役を命ぜらるるのである。<br/><br/>そうして八衢においての修行期間は三十年としてあり、それまでに改心出来得ないものは、地獄へおつるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

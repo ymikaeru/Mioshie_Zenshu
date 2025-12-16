@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学的と言う言葉 未発表、昭和28(1953)年執筆 今日の社会を見ると、何でもかんでも科学という言葉が入っていると安心し、信用するのである。<br><br>という事程科学を絶対なものとしており、宗教信者が神を信じているのと、何ら変りはないといってもよかろう。<br><br>これは日本も外国もそうだが、この科学信仰によって、神仏を信ずる人々が大いに減った事は言うまでもない。<br><br>いわば流石（さすが）の宗教も科学という恐るべき強敵が現われたので、漸次敗北し、現在は気息奄々（きそくえんえん）として、僅（わず）かに命脈を保っているにすぎないのである。<br><br> これに対し幕末から明治にかけて、天理教、黒住教、大本教のごとき新宗教が現われ、相当科学の陣営に打撃を与えたのはもちろんであるが、実をいうとその戦法が極端に科学を否定しすぎた嫌いがあった。<br><br>これはその信者はよく知っているだろうが、文化的あらゆるものを思い切って否定した。<br><br>一例を挙（あ）げれば私が大本教にいた当時は、肉食を厳禁し、洋服を着る人がなかった。<br><br>当時私一人は洋服を着ていたので、その点で有名になったものだ。<br><br>また旅行の時皮の鞄（かばん）は持ってはならないという事になっていた等、一時は行き過ぎになってしまったが、私が脱退する頃は余程文化的になって来たので、私もそうなるべきだと思ったのである。<br><br>また天理教などは今だに信者は、老幼男女が印半天（しるしばんてん）を着ているが、これも一種の宣伝にはなろうが、普通人からみて少し行過ぎではないかとさえ思われるのである。<br><br> 以上のごとく科学に対する一種の反感的思想が多分にあったが、それくらいの事で滔々（とうとう）たる科学の牙城（がじょう）は揺（ゆら）ぎもするはずはないのである。<br><br>ここで私の考え方をいってみると、科学文明に対し、その偉大なる恩恵は、最大級の讃辞を呈してもいいのである。<br><br>ただ現在のごとく何もかも科学によらなければ、解決出来ないとする科学一辺倒（いっぺんとう）が誤りである事を知って貰いたいのである。<br><br>何となれば人生の悩みのほとんどは、この科学迷信が原因しているからである。<br><br> 以上のような訳で、私はこの科学の人類に幸福を与える面は、多々益々進歩させると共に、その反対である不幸を与えている面を打破し、潰滅（かいめつ）させるべく努力しているのである。<br><br>といっても現在の学者の頭では、有益な科学と有害な科学との正確な判別が出来ないがため、ただ科学でさえあれば、一様に有益と思って進歩に努力しているのである。<br><br>ところが幸いにも、私は神から科学に対する善悪正邪をハッキリ分らせられたのである。<br><br>換言すれば宗教は科学的に九分九厘まで敗北の運命に立至った今日、一厘の神力を持って、勝軍（かちいくさ）となるのであるから、この意味を知って最近出版した『アメリカを救う』著書、『結核信仰療法』、の著書の那辺（なへん）にあるかが充分頷（うなず）かれるであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Dogma da Ciência</h2>
 <p>Na sociedade contemporânea, basta que algo contenha a palavra “ciência” para que as pessoas se sintam seguras e depositem nela sua confiança. Esse postulado transformou a ciência em um absoluto, em nada se diferenciando da fé que um devoto nutre por Deus. Trata-se de um fenômeno global, tanto no Japão quanto no exterior, e, em decorrência dessa crença científica, o número de pessoas que creem em Deus e nos seres espirituais diminuiu drasticamente. Em outras palavras, mesmo a religião, com toda a sua resiliência, viu-se diante de um adversário formidável chamado ciência e foi sendo gradualmente derrotada. Atualmente, encontra-se em estado agônico, mantendo-se viva por um fio.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Apesar de tais correntes de pensamento anticientíficas, elas jamais seriam capazes de abalar a imponente fortaleza da ciência. Nesse ponto, gostaria de expor meu próprio pensamento. Devemos render as mais altas homenagens aos grandiosos benefícios que a civilização científica nos legou. O equívoco, todavia, reside na mentalidade vigente que prega a ciência como única solução para todas as questões, uma dependência absoluta que considero errônea. Afirmo isso porque a maior parte dos sofrimentos humanos origina-se, precisamente, dessa superstição científica.</p>
 <p>Por essa razão, meu esforço se concentra em promover o avanço contínuo dos aspectos da ciência que trazem felicidade à humanidade, ao mesmo tempo que me dedico a erradicar e aniquilar aqueles que lhe impingem o infortúnio. A dificuldade reside no fato de que a mentalidade dos acadêmicos atuais é incapaz de discernir com exatidão entre a ciência benéfica e a ciência nociva. Assim, eles se empenham em promover indistintamente qualquer avanço, partindo do pressuposto de que tudo o que é científico é, por si só, benéfico.</p>
 <p>Felizmente, Deus concedeu-me o claro discernimento para distinguir o bem e o mal, o certo e o errado, no campo da ciência. Em outras palavras, em um momento em que a religião parecia fadada a uma derrota de noventa e nove por cento, é o um por cento restante de Poder Divino que nos conduzirá à vitória final. A compreensão deste princípio permitirá ao leitor entender plenamente o propósito de minhas recentes publicações, como <em>A Salvação da América</em> e <em>A Cura da Tuberculose pela Fé</em>.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学的と言う言葉 未発表、昭和28(1953)年執筆 今日の社会を見ると、何でもかんでも科学という言葉が入っていると安心し、信用するのである。<br/><br/>という事程科学を絶対なものとしており、宗教信者が神を信じているのと、何ら変りはないといってもよかろう。<br/><br/>これは日本も外国もそうだが、この科学信仰によって、神仏を信ずる人々が大いに減った事は言うまでもない。<br/><br/>いわば流石（さすが）の宗教も科学という恐るべき強敵が現われたので、漸次敗北し、現在は気息奄々（きそくえんえん）として、僅（わず）かに命脈を保っているにすぎないのである。<br/><br/> これに対し幕末から明治にかけて、天理教、黒住教、大本教のごとき新宗教が現われ、相当科学の陣営に打撃を与えたのはもちろんであるが、実をいうとその戦法が極端に科学を否定しすぎた嫌いがあった。<br/><br/>これはその信者はよく知っているだろうが、文化的あらゆるものを思い切って否定した。<br/><br/>一例を挙（あ）げれば私が大本教にいた当時は、肉食を厳禁し、洋服を着る人がなかった。<br/><br/>当時私一人は洋服を着ていたので、その点で有名になったものだ。<br/><br/>また旅行の時皮の鞄（かばん）は持ってはならないという事になっていた等、一時は行き過ぎになってしまったが、私が脱退する頃は余程文化的になって来たので、私もそうなるべきだと思ったのである。<br/><br/>また天理教などは今だに信者は、老幼男女が印半天（しるしばんてん）を着ているが、これも一種の宣伝にはなろうが、普通人からみて少し行過ぎではないかとさえ思われるのである。<br/><br/> 以上のごとく科学に対する一種の反感的思想が多分にあったが、それくらいの事で滔々（とうとう）たる科学の牙城（がじょう）は揺（ゆら）ぎもするはずはないのである。<br/><br/>ここで私の考え方をいってみると、科学文明に対し、その偉大なる恩恵は、最大級の讃辞を呈してもいいのである。<br/><br/>ただ現在のごとく何もかも科学によらなければ、解決出来ないとする科学一辺倒（いっぺんとう）が誤りである事を知って貰いたいのである。<br/><br/>何となれば人生の悩みのほとんどは、この科学迷信が原因しているからである。<br/><br/> 以上のような訳で、私はこの科学の人類に幸福を与える面は、多々益々進歩させると共に、その反対である不幸を与えている面を打破し、潰滅（かいめつ）させるべく努力しているのである。<br/><br/>といっても現在の学者の頭では、有益な科学と有害な科学との正確な判別が出来ないがため、ただ科学でさえあれば、一様に有益と思って進歩に努力しているのである。<br/><br/>ところが幸いにも、私は神から科学に対する善悪正邪をハッキリ分らせられたのである。<br/><br/>換言すれば宗教は科学的に九分九厘まで敗北の運命に立至った今日、一厘の神力を持って、勝軍（かちいくさ）となるのであるから、この意味を知って最近出版した『アメリカを救う』著書、『結核信仰療法』、の著書の那辺（なへん）にあるかが充分頷（うなず）かれるであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

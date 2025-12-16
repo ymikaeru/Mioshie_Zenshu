@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>horai</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蓬莱島 『栄光』106号、昭和26(1951)年5月30日発行 日本は平和文化的にみると、まことに優れた国であると常に思っているが、それについて気の付いた事を少しかいてみよう。<br><br>私は美術品が好きで、若い頃から機会ある毎に、そういう方面に事情の許す限り心を寄せて来た。<br><br>今日といえども見たり、娯（たのし）んだり、研究したりしているが、驚くべき事は、世界中の美術品のほとんどの種類は、日本に集っているといってもいい。<br><br>その中で特に言いたい事は、支那（シナ）の美術品が多く蒐集（しゅうしゅう）されている事である。<br><br>これは古い頃からその時代の好事家（こうずか）的権力者が蒐集したもので、それが今日まで、よく保存されて来たのである。<br><br>これは見逃す事の出来ない業績であって、何よりも長い期間破損や散逸を防ぎ、よく扱われて来た事でこれは藤原期頃かららしいが、それに加えて日本に生まれた名手、巨匠等の優れた作品も残され、その上幕末頃から明治に入ってからも、名品、傑作が数多く生まれ、しかも財閥、富豪等競（きそ）って蒐集した事によって、日本は新古美術品、支那、朝鮮の名品を網羅し、豊富に蔵されており、また西洋の物も相当ある。<br><br>これは世界に比（ひ）なき国といってもよかろう。<br><br>全く日本は世界の美術館である。<br><br> ところで、本元である支那はどうかというと、絶え間ない兵火の乱によって、美術品なども破壊焼失され、特に古い絵画などはほとんどなく、僅かに銅器、陶磁器の類が、残されていたに過ぎない。<br><br>これは土中物と称し、長く土中に埋められていたため助かったもので、相当残ってはいたが、数十年以前から英米の富豪や有識者が、これに目を付け、買漁（あさ）った事によって、今はほとんどないそうである。<br><br>今日倫敦（ロンドン）博物館（同国の富豪ユーモー・ホツプレス氏の寄贈）と米国のボストン、ワシントン等の美術館には相当あり、私は写真でみたが、右両者共ほとんど銅器並びに陶磁器で、もちろん優秀品のみである。<br><br>しかし絵画に到っては古い物はなく、近代のものが若干あるくらいである。<br><br>ところが日本には、支那、朝鮮の銅器、陶磁器、絵画などもどのくらいあるか分らない程である。<br><br>しかし、全国的に散逸しているので、英米のごとく一堂に集ってはいないから、観る事が出来ない。<br><br>言わば宝の持ち腐れである。<br><br>もっとも日本においても博物館はじめ、私設美術館も数カ所あるにはあるが、まことに物足りない感がする。<br><br>肝腎な博物館は歴史的考古学的の物が主となっており、私設美術館は、失礼ながら小規模すぎる嫌いがある。<br><br> 美術方面はそのくらいにしておいて、今一つの重要なる事をかいてみたいが、外でもない人間の寿齢である。<br><br>神武天皇以前はともかくとして、以後でさえ普通一般の人間は、百歳以上の寿齢を保っていた事は、文献等にみても肯（うなず）かれる。<br><br>としたら病などなかったに違いない。<br><br>これは全く薬剤がなかったからでもあろう。<br><br>彼の有名な秦の始皇帝が、臣（しん）徐福に命じ、東海に蓬莱（ほうらい）島あり、その島の人間は、非常に長寿であるそうだから、定めし良い薬があるに違いないから、調べて来いと言われ、遥々（はるばる）日本へ渡来されたという事である。<br><br>ところが日本へ上陸し、どこを探してもそんな薬はないので、彼は失望と共に本国へ帰り得ず、日本にそのまま滞留して生を終えたという事で、今も四国にその墓があるにみて、確実であった事が判る。<br><br> 以上簡単にかいてみたが、人民ことごとくが無病となり、百歳以上の寿齢を保つ事が出来、世界中の美術品、が豊富にあり、山水の自然美に富めるとしたら、これが東海の蓬莱島と言わずして何であろう。<br><br>といって喜ぶのはまだ早過ぎる。<br><br>何となればその上に犯罪者がなくなり、食糧の自給自足が出来、戦争の心配がなくなってこそ、初めて真の蓬莱島である。<br><br>しかしそれは難しい事ではない。<br><br>本教が日本人の大多数に知れ渡るようになれば、間違いなく実現するのである。<br><br>何と有難い宗教ではなかろうか。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ilha de Horai</h2>
 <p>Sempre considerei o Japão uma nação de notável superioridade no que tange à cultura e à paz, e gostaria de tecer algumas considerações a esse respeito. Desde a juventude, nutro um profundo apreço pelas artes e, sempre que as circunstâncias me permitiram, dediquei-me a essa senda. Ainda hoje, dedico-me a contemplar, apreciar e estudar obras de arte, e o que mais me surpreende é o fato de que praticamente todos os gêneros de belas-artes do mundo encontram-se reunidos no Japão.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Deixando por ora o campo das artes, gostaria de abordar outro tema de suma importância: a longevidade humana. Independentemente do que se sabe sobre o período anterior ao Imperador Jinmu, os registros históricos confirmam que, mesmo após seu advento, era comum que as pessoas ultrapassassem os cem anos de idade. Diante disso, é lícito supor que as doenças eram praticamente inexistentes, e a razão para tal talvez resida na completa ausência de medicamentos. É célebre a história do imperador chinês Qin Shi Huang, que ordenou a seu servo, Xu Fu, que investigasse a existência da Ilha de Horai, localizada nos mares do leste, onde se dizia haver um elixir da longa vida. Xu Fu aportou no Japão, mas, por mais que procurasse, não encontrou tal remédio. Desolado e impossibilitado de retornar à sua pátria, ele permaneceu em solo japonês até o fim de seus dias. A existência de seu túmulo na ilha de Shikoku atesta a veracidade desse relato.</p>
 <p>Em breves palavras, procurei expor meus pensamentos. Se um povo puder viver livre de doenças, alcançando uma longevidade superior a um século, cercado por um acervo inestimável de obras de arte do mundo inteiro e abençoado por paisagens de sublime beleza natural, o que seria essa terra senão a lendária Ilha de Horai?</p>
 <p>Contudo, é cedo para comemorar. O verdadeiro paraíso, a autêntica Ilha de Horai, só se concretizará quando, a tudo isso, se somarem a erradicação do crime, a autossuficiência alimentar e a completa eliminação da ameaça da guerra. Alcançar tal estado, todavia, não é uma tarefa hercúlea. Quando os ensinamentos de nossa Fé se difundirem entre a maioria do povo japonês, essa realidade se manifestará de forma inequívoca. Que Doutrina verdadeiramente grandiosa</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蓬莱島 『栄光』106号、昭和26(1951)年5月30日発行 日本は平和文化的にみると、まことに優れた国であると常に思っているが、それについて気の付いた事を少しかいてみよう。<br/><br/>私は美術品が好きで、若い頃から機会ある毎に、そういう方面に事情の許す限り心を寄せて来た。<br/><br/>今日といえども見たり、娯（たのし）んだり、研究したりしているが、驚くべき事は、世界中の美術品のほとんどの種類は、日本に集っているといってもいい。<br/><br/>その中で特に言いたい事は、支那（シナ）の美術品が多く蒐集（しゅうしゅう）されている事である。<br/><br/>これは古い頃からその時代の好事家（こうずか）的権力者が蒐集したもので、それが今日まで、よく保存されて来たのである。<br/><br/>これは見逃す事の出来ない業績であって、何よりも長い期間破損や散逸を防ぎ、よく扱われて来た事でこれは藤原期頃かららしいが、それに加えて日本に生まれた名手、巨匠等の優れた作品も残され、その上幕末頃から明治に入ってからも、名品、傑作が数多く生まれ、しかも財閥、富豪等競（きそ）って蒐集した事によって、日本は新古美術品、支那、朝鮮の名品を網羅し、豊富に蔵されており、また西洋の物も相当ある。<br/><br/>これは世界に比（ひ）なき国といってもよかろう。<br/><br/>全く日本は世界の美術館である。<br/><br/> ところで、本元である支那はどうかというと、絶え間ない兵火の乱によって、美術品なども破壊焼失され、特に古い絵画などはほとんどなく、僅かに銅器、陶磁器の類が、残されていたに過ぎない。<br/><br/>これは土中物と称し、長く土中に埋められていたため助かったもので、相当残ってはいたが、数十年以前から英米の富豪や有識者が、これに目を付け、買漁（あさ）った事によって、今はほとんどないそうである。<br/><br/>今日倫敦（ロンドン）博物館（同国の富豪ユーモー・ホツプレス氏の寄贈）と米国のボストン、ワシントン等の美術館には相当あり、私は写真でみたが、右両者共ほとんど銅器並びに陶磁器で、もちろん優秀品のみである。<br/><br/>しかし絵画に到っては古い物はなく、近代のものが若干あるくらいである。<br/><br/>ところが日本には、支那、朝鮮の銅器、陶磁器、絵画などもどのくらいあるか分らない程である。<br/><br/>しかし、全国的に散逸しているので、英米のごとく一堂に集ってはいないから、観る事が出来ない。<br/><br/>言わば宝の持ち腐れである。<br/><br/>もっとも日本においても博物館はじめ、私設美術館も数カ所あるにはあるが、まことに物足りない感がする。<br/><br/>肝腎な博物館は歴史的考古学的の物が主となっており、私設美術館は、失礼ながら小規模すぎる嫌いがある。<br/><br/> 美術方面はそのくらいにしておいて、今一つの重要なる事をかいてみたいが、外でもない人間の寿齢である。<br/><br/>神武天皇以前はともかくとして、以後でさえ普通一般の人間は、百歳以上の寿齢を保っていた事は、文献等にみても肯（うなず）かれる。<br/><br/>としたら病などなかったに違いない。<br/><br/>これは全く薬剤がなかったからでもあろう。<br/><br/>彼の有名な秦の始皇帝が、臣（しん）徐福に命じ、東海に蓬莱（ほうらい）島あり、その島の人間は、非常に長寿であるそうだから、定めし良い薬があるに違いないから、調べて来いと言われ、遥々（はるばる）日本へ渡来されたという事である。<br/><br/>ところが日本へ上陸し、どこを探してもそんな薬はないので、彼は失望と共に本国へ帰り得ず、日本にそのまま滞留して生を終えたという事で、今も四国にその墓があるにみて、確実であった事が判る。<br/><br/> 以上簡単にかいてみたが、人民ことごとくが無病となり、百歳以上の寿齢を保つ事が出来、世界中の美術品、が豊富にあり、山水の自然美に富めるとしたら、これが東海の蓬莱島と言わずして何であろう。<br/><br/>といって喜ぶのはまだ早過ぎる。<br/><br/>何となればその上に犯罪者がなくなり、食糧の自給自足が出来、戦争の心配がなくなってこそ、初めて真の蓬莱島である。<br/><br/>しかしそれは難しい事ではない。<br/><br/>本教が日本人の大多数に知れ渡るようになれば、間違いなく実現するのである。<br/><br/>何と有難い宗教ではなかろうか。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

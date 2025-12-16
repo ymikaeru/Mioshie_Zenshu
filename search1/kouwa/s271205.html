@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271205</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月5日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月五日 現在の時局について少し話したいと思います。<br><br>新聞にもあります通り、「アイクが二十八日から居所不明だ、たぶん朝鮮に行ったのだろう」ということが出てましたが、つまりアイクが朝鮮に行くというのは、なんの目的かということですが、これは新聞にも出てます。<br><br>別に言うほどのこともありませんが、とにかく朝鮮問題がいつまでたってもグズグズしてさっぱり埒（らち）があかないというのは、いつも言うとおり中共の奥の方はソ連ですが、つまり米国に対する消耗戦術なのです。<br><br>それであそこを解決してしまえば、連合軍が撤退することになりますから、そうすると米国が引き上げるということになると、消耗戦術はもうおしまいになって、それではおもしろくないから、どうしても平和にはしない、休戦協定は結ばない、という最初からの目的なのです。<br><br>ですから私がいつも言うとおり、絶対に協定はできないのです。<br><br>とにかくあそこにアメリカや国連軍をそうとう引きつけておいて、絶えずそれだけの金と人間を消耗させているのです。<br><br>現在でもアメリカの兵隊が月に千人くらいずつ戦死してますから、共産軍のおあつらえ向きというわけです。<br><br>ですから今度もインドの提案が中共やソ連の方に有利なように見えても、結局停戦協定が結ばれると今言ったとおり具合が悪いから、それで今度の賛成不賛成の議決などもソ連の方の五カ国だけは反対して、他の五十カ国というのは賛成したのです。<br><br>だから絶対に協定はできないのです。<br><br>そうすると情勢はどういうことになるかというと、アメリカの方で新兵器とか水素爆弾をこしらえたりして非常にいいですが、軍備などの数量はソ連の方が増えているのです。<br><br>大体アメリカもヨーロッパの方も力いっぱい軍備は出しきっているというか、充実していて、もうこれ以上軍備を充実するということは、経済上も許されないのです。<br><br>しかしソ連の方は五カ年計画をやるたびにドンドン増えております。<br><br>そこでソ連の方としては時を稼ぐのです。<br><br>時さえたてば自分の方は太っていくということで引き延ばしているのです。<br><br>しかし今戦争になるとソ連の方が軍備はずっと負けてますから、そこで自分の方が充分になるまで時を延ばしているわけです。<br><br>そのためにアメリカの方では、これをどうしても解決しなければならない。<br><br>その程度は分かりませんが、思いきってやらなければならない。<br><br>とにかく今のようではいけない、もっとそうとう強力なやり方をしなければいけない。<br><br>それにはまず一応現場を見なければならないというので、アイクが飛んで来たわけなのです。<br><br>その結果どうしても積極的にやらなければならないということになります。<br><br>そうすると沿岸封鎖とか、あるいは満州を爆撃するとかです。<br><br>満州の爆撃はもっとも主なる点でしょう。<br><br>そうするとかなり中国動乱ということになるとも言えます。<br><br>そうしてそれを機会に蒋介石の国府軍の方がまた中国に進撃して行くだろうと思います。<br><br>そうすると中国全土がかなりの大動揺をするだろうと思います。<br><br>どうしても遅かれ早かれそこにいかなければならないのです。<br><br>それが早いほどよいのです。<br><br>私は前にマッカーサーの戦略が非常に良いと褒めたことがありますが、今度もマッカーサーの案と大体同じです。<br><br>そういうことに対してトルーマンは非常に消極的で、事なかれ主義というか、思いきったことはできるだけ差し控えるというやり方の人ですから、そういう考え方はしないでグズグズして、今までのような手段をとってきたのです。<br><br>しかしそれではいつまでも片がつかないのと、だんだん時がたつに従ってアメリカの方が不利になりますから、アイクとしてはたまらないのです。<br><br>そこで大統領に当選しないうちから、朝鮮に飛んで行って解決すると言っているのですから、場合によっては、そうとう大きな場面が出ると思います。<br><br>しかし第三次戦争はもっと先だろうと思います。<br><br>なぜといってソ連はなかなか積極的には出ません。<br><br>非常に算盤勘定が高いのです。<br><br>大体共産主義というのは、戦争しないで制覇するというのが建前なのです。<br><br>その代わり軍備は大いに充実させて、先方から喧嘩をふっかけたら応じないこともないが、自分からやるということはまずしないのです。<br><br>そこに考えの深い点があるのです。<br><br>だからして、たとえ中共がやっつけられてもソ連は手を出さないでしょう。<br><br>しかし第三次戦争は起らないとしても、中国を舞台として、そうとうな波乱はあると見なければなりません。<br><br>そうして中国が大いに変化します。<br><br>その変化するということは、神様の方ではいろいろの経綸上そういう必要が大いにあるので、まず来年からそういう動きがあると見なければなりません。<br><br>それはやはり大きな経綸の一つですから、おもしろいと言ってははなはだ変ですが、経綸の進み方がよほどはっきりしてくるわけです。<br><br> それから今朝の『読売新聞』にデカデカと「神様は金儲けがお上手」という見出しで、その次に小さく「ヌレ手で粟、税務署も罷り通る」ということが出ていたのです。<br><br>読んでみると、やっぱり救世教を主にしてあるのです。<br><br>救世教と立正佼成会の二つのことを書いてあるのです。<br><br>しかし立正佼成会の方は付録ぐらいで、大体救世教のことです。<br><br>なにかというと、ヌレ手で粟の収入は多過ぎる、というのです。<br><br>それでけしからんとも言いませんが、そこのところをうまくやってやがる、だから信者というものは甘いものだ、というような書き方です。<br><br>それで私がいつも言う「甘くないものを見て甘く見る甘さ」ということです。<br><br>それでいろんな収入のことを書いてあります。<br><br>御守りをいくらで売って、合計何億になる、ということが書いてありますが、私にはあの人たちのそういう頭に割りきれないところがあります。<br><br>収入がいくらあっても差し支えないし、収入があるということはどういうわけだろう、ということを考えることです。<br><br>なにも詐欺や泥坊をするのではないのです。<br><br>それだけの収入があるということは信者が上げるのです。<br><br>上げるということは上げるべき理由があるのです。<br><br>このせち辛い世の中に、少しの人間なら献金もあるでしょうが、何十万という人がただで上げるわけがありません。<br><br>そこのところを考えなければならない。<br><br>ただ収入が多いと言うが、それも悔しそうな言い方です。<br><br>どうも考え方が低級です。<br><br>今のジャーナリストはもう少し頭の切り替えをしなければいけないと思いました。<br><br>そして大事なことは収入の使い道を調べてみることです。<br><br>多額の収入があったとして、その使い道が人類のため国のためになればそれで結構ではないですか。<br><br>それでいろんな社会事業とか国家がやっていることがありますが、国家で気がつかないことや国家がやれないことは、誰かがやらなければならない。<br><br>国家がやれないことをこっちがやるのですから、要するに信者さんが上げる金は国家の欠陥を幇助しているというので非常に結構です。<br><br>一例をあげれば、近ごろアメリカが日本の美術品を非常に欲しがっている。<br><br>そうして買いたくて随分いろんな人が策動しているのです。<br><br>それでたいていは博物館に持って行きますが、ところが博物館は金が足りないのです。<br><br>日本は軍備ということには気前良く金を出しますが、そういう平和的なことには実にしみったれなのです。<br><br>なにしろ博物館の一カ年の予算は二千円です。<br><br>それで美術品のちょっと有名な良い物は五、六百万円からします。<br><br>だから二千円を全部出しても数点しか買えないのです。<br><br>それで博物館でも買えないし、日本人の個人で買える人もほとんどありません。<br><br>昔なら財閥やいろいろな富豪が買ったが、今はそういう連中は没落同様になってます。<br><br>それで新しい成金があるにはありますが、そういうことに趣味がないし目が利かないからあぶなくてしょうがない。<br><br>ですから買える力のある者は買わないし、それからいろいろな頭のある人や目の利く人は金がない、という変な状態になっているのです。<br><br>そこで博物館で買わないと救世教に持って行こうと、私の方に持ってくるのです。<br><br>ですから私の方でも、それを買わなければアメリカに行ってしまうのです。<br><br>そういうことが時々あるのです。<br><br>そこで私の方でくい止めるのです。<br><br>ですから文化財保護委員会とか博物館では私の方に非常に感謝しているのです。<br><br>その点は国家にもできない重要なことをやっているのです。<br><br>ですから救世教という宗教なるものは国家ができないようなこと、国家に対する肝腎なことをしているのです。<br><br>そういうことが分かってくれば、それこそお辞儀をしなければならないことになるが、そういうことはぜんぜん無視して、ただ収入だけをなんだかんだ言うのです。<br><br>とにかく『読売』あたりは大新聞ですから、大新聞がそんな低級なことを堂々と書くということは、非常に遺憾です。<br><br>もう少し大人らしくインテリらしい頭で扱ってもらいたいと思います。<br><br>それは駆出しの新聞ならまだしもですが、今では駆出しの新聞でもそういうことはありません。<br><br>あまりに低劣です。<br><br>それを非常に残念に思うのです。<br><br> それから近ごろはいろんな面で名人がなくなったのです。<br><br>その理由を書き始めたのです。<br><br>まだいろいろ書いて行こうと思いますが、今読ませるのは俳優、特に歌舞伎俳優の偉い人は、ほとんどなくなってしまったのです。<br><br>この次は画家の偉いのがなくなったという問題も書いてみますが、今日のは俳優だけの論文です。<br><br> （御論文「名人の失くなった理由（一）」）【栄光 一九〇号】 それからいずれ書きますが、話の方がかえって分かるくらいですが、画家の名人がほとんどなくなってしまったのです。<br><br>そうしてしかも油絵のまねをして、東洋画の力強い絵はなくなってしまったのです。<br><br>これは展覧会に行ってみれば分かりますが、ただベタベタと絵の具を塗っているだけです。<br><br>ああいう画き方は非常に楽なのです。<br><br>ごまかしがきくのです。<br><br>画き損ないをしても、すぐ絵の具で濃く塗ってしまえば分かりません。<br><br>しかし東洋画の線で画くのは、塗ったらもう駄目です。<br><br>そこに価値があり、芸術があるのです。<br><br>今の塗る方は芸術としてもレベルが低いのです。<br><br>たとえて言えばペラペラしゃべるようなものです。<br><br>それよりか一言か二言いって先方の琴線に触れるとか、本当に分かるようにするのです。<br><br>鉄砲の弾をうつようなもので、名人は一発であたりますが、そういった技能がないから散弾とかをバラバラやって、やっと一つあたるのです。<br><br>東洋芸術の真髄は一筆画きにあるのです。<br><br>それで筆に一番力があって頭の下がるようなのは、一番は支那の宋時代の画家です。<br><br>これは美術館に出たのでみんな見たでしょうが、牧谿（もっけい）とか梁楷（りょうかい）、それから馬遠（ばえん）、顔輝（がんき）。<br><br>そういう人の線はまねができません。<br><br>これだけは日本の昔の狩野派のいくら偉い人も、やっぱりそれをまねているのです。<br><br>そうして宋元時代の筆勢に大体追いつくのは宮本武蔵です。<br><br>つまり武芸の腕、剣を筆に持ち代えて画いたのです。<br><br>実に力があります。<br><br>どうしてそういう力が出るかというと、宋時代の画家というのは、ほとんど坊さんが画いたのです。<br><br>その坊さんたるや、その修行がたいへんなのです。<br><br>山に籠もって絶対菜食で何十年も修行を積んだのですから、人間が違っているのです。<br><br>そういう人が筆を持つから違うのです。<br><br>あの筆勢を見たらなんとも言えません。<br><br>今ではそういうものを楽しむ人が少ないのです。<br><br>しかしあるにはあります。<br><br>なぜかというと、非常に値段が高いのです。<br><br>むしろ西洋の名人の油絵よりも高いでしょう。<br><br>そういうわけで、大体人間が違っているのです。<br><br>ところが現代人はそういう筆が使えないのです。<br><br>筆に力がないのです。<br><br>力がないということは、一番の原因は食物にあるのです。<br><br>ですから私は、ビフテキを食べたり牛乳飲んでいては、東洋画は絶対に画けないというのです。<br><br>というのは、筆に力が出ないのです。<br><br>今の古径とか靫彦、青邨を見ても、ただ形だけは画くのです。<br><br>それに絵の具を塗りつぶすのです。<br><br>あれだったら誰でも画けます。<br><br>ただ線を一本引いてスーッと画くという、ああいうのは誰でも画けないのです。<br><br>というのは、筆が弱っているからです。<br><br>それで力がないのです。<br><br>というのは、それで薬を服みますが、薬を服んで肉食をしたら体が弱るに決まってます。<br><br>その原因を私は書いたが、それは種痘です。<br><br>私は今度論文に書こうと思ってますが、種痘が名人をつくらないということを言いたいと思ってます。<br><br>これは日本ばかりでなく西洋でもそうです。<br><br>種痘が出て以来、西洋でも名人がなくなったのです。<br><br>音楽でもベートーヴェン、シューベルト、バッハなどはみんな百年以上前の人です。<br><br>それで種痘以来だんだん名人がなくなったのです。<br><br>実に不思議なくらいです。<br><br>それで日本の戯曲でもそうです。<br><br>長唄は小三郎さんが来るからよく聞きますが、結局明治以前の曲か、明治初年くらいまでの曲です。<br><br>日本は種痘が遅いからですが、種痘をやって以来名人がなくなったのです。<br><br>それはなにかというと、種痘によって薬毒の排除を止めるから体が弱るのです。<br><br>それはどういう点に一番影響するかというと、根気がなくなるのです。<br><br>すぐに嫌になるのです。<br><br>それで根気がないから、いい加減なところで我慢してしまう。<br><br>もっと進んでいい曲を作ろうとすることがない。<br><br>だから肉食をして薬を服んだら根気がなくなるから、だんだんそういったいいものができなくなる。<br><br>そういうところに原因があるとは、誰も夢にも思いません。<br><br>しかしこれが事実だからしかたがありません。<br><br>これが本当なのです。<br><br>芸能人もだんだん救世教信者になってから大いに有望ですが、結局救世教信者から名人が出るような時代が来るわけですが、それはまだ気長に待たなければならないが、そういうようなわけです。<br><br>そういうこともだんだん分からせようと思ってます。<br><br> それから、話はデパート的になりますが、私は神様を拝まないのですが、こんな宗教はないのです。<br><br>古い信者の人は知ってますが、新しい信者や、これから信者になるような人に対して、一応知っておかなければならないので書いたのです。<br><br>これは『地上天国』の論文です。<br><br> （御論文「私が神様を拝まぬ理由」）【地上天国 四十三号】
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Conjuntura Mundial e a Decadência da Arte</h2>
 <p>Gostaria de abordar brevemente a conjuntura atual. Conforme noticiado nos jornais, a localização de Eisenhower tornou-se desconhecida a partir do dia 28, com especulações de que teria ido à Coreia. O propósito de tal visita, também discutido pela imprensa, é bastante claro e dispensa maiores comentários. A questão coreana, que se protrai indefinidamente, sem qualquer resolução, resulta, como sempre afirmo, de uma tática de desgaste imposta pelos Estados Unidos. Por trás da China Comunista encontra-se, evidentemente, a União Soviética.</p>
@@ -118,5 +270,48 @@ function toggleLang(lang) {
 <p>O mesmo se aplica à dramaturgia japonesa. Costumo ouvir muito Nagauta, com a vinda do mestre Kosaburo, e noto que as grandes composições são, invariavelmente, do período anterior à Era Meiji ou, no máximo, de seu início. Como a vacinação foi introduzida tardiamente no Japão, o efeito demorou a se manifestar, mas desde que ela se tornou prática comum, os mestres desapareceram. O que ocorre é que a vacina impede a expulsão das toxinas medicamentosas, enfraquecendo o corpo. O ponto mais afetado é a perseverança. A pessoa desiste facilmente, se cansa. Sem perseverança, ela se contenta com um resultado medíocre. O ímpeto de avançar e criar uma obra superior se esvai. Assim, comendo carne e tomando remédios, a perseverança diminui, e a capacidade de criar obras de excelência se perde.</p>
 <p>Ninguém, nem em seus sonhos mais remotos, imaginaria que a causa reside aí. Mas é um fato, e contra fatos não há argumentos. Esta é a verdade. À medida que os artistas se tornam fiéis da Sekaikyuseikyou, o futuro se torna muito promissor. Chegará o tempo em que os grandes mestres surgirão de nossas fileiras. Para isso, é preciso ter paciência, mas essa é a realidade. Pouco a pouco, pretendo fazer com que todos compreendam essas questões.</p>
 <p>Para concluir com um tema distinto, eu não reverencio a Deus da maneira convencional, e nisso reside a singularidade de nossa Fé. Os fiéis mais antigos já sabem disso, mas escrevi um artigo para que os novos membros e aqueles que estão para ingressar na Fé possam compreender este ponto fundamental. O artigo foi publicado na revista <em>Paraíso Terrestre</em>.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月5日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月五日 現在の時局について少し話したいと思います。<br/><br/>新聞にもあります通り、「アイクが二十八日から居所不明だ、たぶん朝鮮に行ったのだろう」ということが出てましたが、つまりアイクが朝鮮に行くというのは、なんの目的かということですが、これは新聞にも出てます。<br/><br/>別に言うほどのこともありませんが、とにかく朝鮮問題がいつまでたってもグズグズしてさっぱり埒（らち）があかないというのは、いつも言うとおり中共の奥の方はソ連ですが、つまり米国に対する消耗戦術なのです。<br/><br/>それであそこを解決してしまえば、連合軍が撤退することになりますから、そうすると米国が引き上げるということになると、消耗戦術はもうおしまいになって、それではおもしろくないから、どうしても平和にはしない、休戦協定は結ばない、という最初からの目的なのです。<br/><br/>ですから私がいつも言うとおり、絶対に協定はできないのです。<br/><br/>とにかくあそこにアメリカや国連軍をそうとう引きつけておいて、絶えずそれだけの金と人間を消耗させているのです。<br/><br/>現在でもアメリカの兵隊が月に千人くらいずつ戦死してますから、共産軍のおあつらえ向きというわけです。<br/><br/>ですから今度もインドの提案が中共やソ連の方に有利なように見えても、結局停戦協定が結ばれると今言ったとおり具合が悪いから、それで今度の賛成不賛成の議決などもソ連の方の五カ国だけは反対して、他の五十カ国というのは賛成したのです。<br/><br/>だから絶対に協定はできないのです。<br/><br/>そうすると情勢はどういうことになるかというと、アメリカの方で新兵器とか水素爆弾をこしらえたりして非常にいいですが、軍備などの数量はソ連の方が増えているのです。<br/><br/>大体アメリカもヨーロッパの方も力いっぱい軍備は出しきっているというか、充実していて、もうこれ以上軍備を充実するということは、経済上も許されないのです。<br/><br/>しかしソ連の方は五カ年計画をやるたびにドンドン増えております。<br/><br/>そこでソ連の方としては時を稼ぐのです。<br/><br/>時さえたてば自分の方は太っていくということで引き延ばしているのです。<br/><br/>しかし今戦争になるとソ連の方が軍備はずっと負けてますから、そこで自分の方が充分になるまで時を延ばしているわけです。<br/><br/>そのためにアメリカの方では、これをどうしても解決しなければならない。<br/><br/>その程度は分かりませんが、思いきってやらなければならない。<br/><br/>とにかく今のようではいけない、もっとそうとう強力なやり方をしなければいけない。<br/><br/>それにはまず一応現場を見なければならないというので、アイクが飛んで来たわけなのです。<br/><br/>その結果どうしても積極的にやらなければならないということになります。<br/><br/>そうすると沿岸封鎖とか、あるいは満州を爆撃するとかです。<br/><br/>満州の爆撃はもっとも主なる点でしょう。<br/><br/>そうするとかなり中国動乱ということになるとも言えます。<br/><br/>そうしてそれを機会に蒋介石の国府軍の方がまた中国に進撃して行くだろうと思います。<br/><br/>そうすると中国全土がかなりの大動揺をするだろうと思います。<br/><br/>どうしても遅かれ早かれそこにいかなければならないのです。<br/><br/>それが早いほどよいのです。<br/><br/>私は前にマッカーサーの戦略が非常に良いと褒めたことがありますが、今度もマッカーサーの案と大体同じです。<br/><br/>そういうことに対してトルーマンは非常に消極的で、事なかれ主義というか、思いきったことはできるだけ差し控えるというやり方の人ですから、そういう考え方はしないでグズグズして、今までのような手段をとってきたのです。<br/><br/>しかしそれではいつまでも片がつかないのと、だんだん時がたつに従ってアメリカの方が不利になりますから、アイクとしてはたまらないのです。<br/><br/>そこで大統領に当選しないうちから、朝鮮に飛んで行って解決すると言っているのですから、場合によっては、そうとう大きな場面が出ると思います。<br/><br/>しかし第三次戦争はもっと先だろうと思います。<br/><br/>なぜといってソ連はなかなか積極的には出ません。<br/><br/>非常に算盤勘定が高いのです。<br/><br/>大体共産主義というのは、戦争しないで制覇するというのが建前なのです。<br/><br/>その代わり軍備は大いに充実させて、先方から喧嘩をふっかけたら応じないこともないが、自分からやるということはまずしないのです。<br/><br/>そこに考えの深い点があるのです。<br/><br/>だからして、たとえ中共がやっつけられてもソ連は手を出さないでしょう。<br/><br/>しかし第三次戦争は起らないとしても、中国を舞台として、そうとうな波乱はあると見なければなりません。<br/><br/>そうして中国が大いに変化します。<br/><br/>その変化するということは、神様の方ではいろいろの経綸上そういう必要が大いにあるので、まず来年からそういう動きがあると見なければなりません。<br/><br/>それはやはり大きな経綸の一つですから、おもしろいと言ってははなはだ変ですが、経綸の進み方がよほどはっきりしてくるわけです。<br/><br/> それから今朝の『読売新聞』にデカデカと「神様は金儲けがお上手」という見出しで、その次に小さく「ヌレ手で粟、税務署も罷り通る」ということが出ていたのです。<br/><br/>読んでみると、やっぱり救世教を主にしてあるのです。<br/><br/>救世教と立正佼成会の二つのことを書いてあるのです。<br/><br/>しかし立正佼成会の方は付録ぐらいで、大体救世教のことです。<br/><br/>なにかというと、ヌレ手で粟の収入は多過ぎる、というのです。<br/><br/>それでけしからんとも言いませんが、そこのところをうまくやってやがる、だから信者というものは甘いものだ、というような書き方です。<br/><br/>それで私がいつも言う「甘くないものを見て甘く見る甘さ」ということです。<br/><br/>それでいろんな収入のことを書いてあります。<br/><br/>御守りをいくらで売って、合計何億になる、ということが書いてありますが、私にはあの人たちのそういう頭に割りきれないところがあります。<br/><br/>収入がいくらあっても差し支えないし、収入があるということはどういうわけだろう、ということを考えることです。<br/><br/>なにも詐欺や泥坊をするのではないのです。<br/><br/>それだけの収入があるということは信者が上げるのです。<br/><br/>上げるということは上げるべき理由があるのです。<br/><br/>このせち辛い世の中に、少しの人間なら献金もあるでしょうが、何十万という人がただで上げるわけがありません。<br/><br/>そこのところを考えなければならない。<br/><br/>ただ収入が多いと言うが、それも悔しそうな言い方です。<br/><br/>どうも考え方が低級です。<br/><br/>今のジャーナリストはもう少し頭の切り替えをしなければいけないと思いました。<br/><br/>そして大事なことは収入の使い道を調べてみることです。<br/><br/>多額の収入があったとして、その使い道が人類のため国のためになればそれで結構ではないですか。<br/><br/>それでいろんな社会事業とか国家がやっていることがありますが、国家で気がつかないことや国家がやれないことは、誰かがやらなければならない。<br/><br/>国家がやれないことをこっちがやるのですから、要するに信者さんが上げる金は国家の欠陥を幇助しているというので非常に結構です。<br/><br/>一例をあげれば、近ごろアメリカが日本の美術品を非常に欲しがっている。<br/><br/>そうして買いたくて随分いろんな人が策動しているのです。<br/><br/>それでたいていは博物館に持って行きますが、ところが博物館は金が足りないのです。<br/><br/>日本は軍備ということには気前良く金を出しますが、そういう平和的なことには実にしみったれなのです。<br/><br/>なにしろ博物館の一カ年の予算は二千円です。<br/><br/>それで美術品のちょっと有名な良い物は五、六百万円からします。<br/><br/>だから二千円を全部出しても数点しか買えないのです。<br/><br/>それで博物館でも買えないし、日本人の個人で買える人もほとんどありません。<br/><br/>昔なら財閥やいろいろな富豪が買ったが、今はそういう連中は没落同様になってます。<br/><br/>それで新しい成金があるにはありますが、そういうことに趣味がないし目が利かないからあぶなくてしょうがない。<br/><br/>ですから買える力のある者は買わないし、それからいろいろな頭のある人や目の利く人は金がない、という変な状態になっているのです。<br/><br/>そこで博物館で買わないと救世教に持って行こうと、私の方に持ってくるのです。<br/><br/>ですから私の方でも、それを買わなければアメリカに行ってしまうのです。<br/><br/>そういうことが時々あるのです。<br/><br/>そこで私の方でくい止めるのです。<br/><br/>ですから文化財保護委員会とか博物館では私の方に非常に感謝しているのです。<br/><br/>その点は国家にもできない重要なことをやっているのです。<br/><br/>ですから救世教という宗教なるものは国家ができないようなこと、国家に対する肝腎なことをしているのです。<br/><br/>そういうことが分かってくれば、それこそお辞儀をしなければならないことになるが、そういうことはぜんぜん無視して、ただ収入だけをなんだかんだ言うのです。<br/><br/>とにかく『読売』あたりは大新聞ですから、大新聞がそんな低級なことを堂々と書くということは、非常に遺憾です。<br/><br/>もう少し大人らしくインテリらしい頭で扱ってもらいたいと思います。<br/><br/>それは駆出しの新聞ならまだしもですが、今では駆出しの新聞でもそういうことはありません。<br/><br/>あまりに低劣です。<br/><br/>それを非常に残念に思うのです。<br/><br/> それから近ごろはいろんな面で名人がなくなったのです。<br/><br/>その理由を書き始めたのです。<br/><br/>まだいろいろ書いて行こうと思いますが、今読ませるのは俳優、特に歌舞伎俳優の偉い人は、ほとんどなくなってしまったのです。<br/><br/>この次は画家の偉いのがなくなったという問題も書いてみますが、今日のは俳優だけの論文です。<br/><br/> （御論文「名人の失くなった理由（一）」）【栄光 一九〇号】 それからいずれ書きますが、話の方がかえって分かるくらいですが、画家の名人がほとんどなくなってしまったのです。<br/><br/>そうしてしかも油絵のまねをして、東洋画の力強い絵はなくなってしまったのです。<br/><br/>これは展覧会に行ってみれば分かりますが、ただベタベタと絵の具を塗っているだけです。<br/><br/>ああいう画き方は非常に楽なのです。<br/><br/>ごまかしがきくのです。<br/><br/>画き損ないをしても、すぐ絵の具で濃く塗ってしまえば分かりません。<br/><br/>しかし東洋画の線で画くのは、塗ったらもう駄目です。<br/><br/>そこに価値があり、芸術があるのです。<br/><br/>今の塗る方は芸術としてもレベルが低いのです。<br/><br/>たとえて言えばペラペラしゃべるようなものです。<br/><br/>それよりか一言か二言いって先方の琴線に触れるとか、本当に分かるようにするのです。<br/><br/>鉄砲の弾をうつようなもので、名人は一発であたりますが、そういった技能がないから散弾とかをバラバラやって、やっと一つあたるのです。<br/><br/>東洋芸術の真髄は一筆画きにあるのです。<br/><br/>それで筆に一番力があって頭の下がるようなのは、一番は支那の宋時代の画家です。<br/><br/>これは美術館に出たのでみんな見たでしょうが、牧谿（もっけい）とか梁楷（りょうかい）、それから馬遠（ばえん）、顔輝（がんき）。<br/><br/>そういう人の線はまねができません。<br/><br/>これだけは日本の昔の狩野派のいくら偉い人も、やっぱりそれをまねているのです。<br/><br/>そうして宋元時代の筆勢に大体追いつくのは宮本武蔵です。<br/><br/>つまり武芸の腕、剣を筆に持ち代えて画いたのです。<br/><br/>実に力があります。<br/><br/>どうしてそういう力が出るかというと、宋時代の画家というのは、ほとんど坊さんが画いたのです。<br/><br/>その坊さんたるや、その修行がたいへんなのです。<br/><br/>山に籠もって絶対菜食で何十年も修行を積んだのですから、人間が違っているのです。<br/><br/>そういう人が筆を持つから違うのです。<br/><br/>あの筆勢を見たらなんとも言えません。<br/><br/>今ではそういうものを楽しむ人が少ないのです。<br/><br/>しかしあるにはあります。<br/><br/>なぜかというと、非常に値段が高いのです。<br/><br/>むしろ西洋の名人の油絵よりも高いでしょう。<br/><br/>そういうわけで、大体人間が違っているのです。<br/><br/>ところが現代人はそういう筆が使えないのです。<br/><br/>筆に力がないのです。<br/><br/>力がないということは、一番の原因は食物にあるのです。<br/><br/>ですから私は、ビフテキを食べたり牛乳飲んでいては、東洋画は絶対に画けないというのです。<br/><br/>というのは、筆に力が出ないのです。<br/><br/>今の古径とか靫彦、青邨を見ても、ただ形だけは画くのです。<br/><br/>それに絵の具を塗りつぶすのです。<br/><br/>あれだったら誰でも画けます。<br/><br/>ただ線を一本引いてスーッと画くという、ああいうのは誰でも画けないのです。<br/><br/>というのは、筆が弱っているからです。<br/><br/>それで力がないのです。<br/><br/>というのは、それで薬を服みますが、薬を服んで肉食をしたら体が弱るに決まってます。<br/><br/>その原因を私は書いたが、それは種痘です。<br/><br/>私は今度論文に書こうと思ってますが、種痘が名人をつくらないということを言いたいと思ってます。<br/><br/>これは日本ばかりでなく西洋でもそうです。<br/><br/>種痘が出て以来、西洋でも名人がなくなったのです。<br/><br/>音楽でもベートーヴェン、シューベルト、バッハなどはみんな百年以上前の人です。<br/><br/>それで種痘以来だんだん名人がなくなったのです。<br/><br/>実に不思議なくらいです。<br/><br/>それで日本の戯曲でもそうです。<br/><br/>長唄は小三郎さんが来るからよく聞きますが、結局明治以前の曲か、明治初年くらいまでの曲です。<br/><br/>日本は種痘が遅いからですが、種痘をやって以来名人がなくなったのです。<br/><br/>それはなにかというと、種痘によって薬毒の排除を止めるから体が弱るのです。<br/><br/>それはどういう点に一番影響するかというと、根気がなくなるのです。<br/><br/>すぐに嫌になるのです。<br/><br/>それで根気がないから、いい加減なところで我慢してしまう。<br/><br/>もっと進んでいい曲を作ろうとすることがない。<br/><br/>だから肉食をして薬を服んだら根気がなくなるから、だんだんそういったいいものができなくなる。<br/><br/>そういうところに原因があるとは、誰も夢にも思いません。<br/><br/>しかしこれが事実だからしかたがありません。<br/><br/>これが本当なのです。<br/><br/>芸能人もだんだん救世教信者になってから大いに有望ですが、結局救世教信者から名人が出るような時代が来るわけですが、それはまだ気長に待たなければならないが、そういうようなわけです。<br/><br/>そういうこともだんだん分からせようと思ってます。<br/><br/> それから、話はデパート的になりますが、私は神様を拝まないのですが、こんな宗教はないのです。<br/><br/>古い信者の人は知ってますが、新しい信者や、これから信者になるような人に対して、一応知っておかなければならないので書いたのです。<br/><br/>これは『地上天国』の論文です。<br/><br/> （御論文「私が神様を拝まぬ理由」）【地上天国 四十三号】</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

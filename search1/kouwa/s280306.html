@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280306</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月6日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月六日 今臨時ニュースがありましたが、スターリンは今朝、死んだそうです。<br><br>あとはどうなるかということは、これは世界中の人が関心を持っている問題ですが、去年ですか二十四人の幹部をつくり、大きな問題は幹部会議にかけるということをスターリンがつくったのですが、それは自分の死後の方法を考えたものなのです。<br><br>それで幹部でないのはモロトフとマレンコフと、もう一人は陸軍長官のブルガーニンという人ですが、それと二十四人の幹部とが協議してやるというのですから、あとが混乱するとかゴタゴタするということはないわけです。<br><br>そういうようですから、当分はそう変わりはないと思います。<br><br>そうしているうちに首脳者が決まるでしょうが、まあマレンコフだろうと思います。<br><br>なにしろ人物としては一番できていそうです。<br><br>それと未来があります。<br><br>モロトフはもう分かっています。<br><br>前にもさんざんやったあのやり方でたいしたことはないので、マレンコフほどはありません。<br><br>マレンコフは写真の顔だけを見ても、ただ者ではないということを感じます。<br><br>だからもし戦争ということになると、スターリンよりかマレンコフの方が、戦争をやろうという様子が見えます。<br><br>スターリンは戦争はやらないことはないが、非常に慎重です。<br><br>そこに非常に堅実さがあったわけで、今まで続いてきたのです。<br><br>つまりオッチョコチョイ的なことはないのです。<br><br>ヒトラーも偉かったが、オッチョコチョイのために失敗したのです。<br><br>オッチョコチョイの大英雄というわけです。<br><br>そういった首脳者になるのは難しいので、オッチョコチョイもいけないし、引っ込み思案もいけないのです。<br><br>トルーマンは引っ込み思案の方です。<br><br>なんでも無事太平にして、乗り出すという積極性がないのです。<br><br>それから東条というのはオッチョコチョイです。<br><br>そこにいくとスターリンはオッチョコチョイでもなければ引っ込み思案でもないので、そこのところは、ジリジリと用心深くて、太っ腹で、そこに彼の偉さがあったのです。<br><br>とにかくまるっきり一介の労働者であった人間が、共産党の十月革命をやってから今年でちょうど三十六年目になりますが、三十六年間であれだけの仕事をしたということは、善とか悪ということは抜きにして、とにかくその偉さというものはたいしたものです。<br><br>近代における英傑です。<br><br>それであの人があんな残虐なことをしないでこれだけになったのなら、それは大いに崇拝していい人物ですが、ただ目的のためには手段を選ばずというやり方で、まあシーザーのようなやり方です。<br><br>シーザーでは良過ぎるかもしれません。<br><br>ある人はネロ国王に、もういっそう輪をかけたようなものだと言っているが、そうでないまでも大体ネロ国王の二代目と言ってもいいです。<br><br>もっともあのわずかの期間にこれだけの仕事をするということは、それだけの残虐なことをしなければできなかったかもしれません。<br><br>しかしそういう人間が現われて、ああいうことをするということも、やはり神様の経綸なのです。<br><br>良いことばかりが神様のやり方で、悪いことは悪魔がやるということは、今までの世の中の見方なのです。<br><br>というのは今までの神様は善の神様ばかりですから、悪に対してはめちゃめちゃに非難したのです。<br><br>それは確かに悪いのですから非難してもいいのです。<br><br>それではそんな悪い奴をどうして世の中に出したかというと、これはやっぱり主神です。<br><br>主神は必要によって悪も善も働かせるのですから、批評の限りにあらずです。<br><br>ただ悪い仕事をする方にまわされた人間は、気の毒というわけです。<br><br>ですからスターリン自身は得意であったでしょうが、大きな目で見ると気の毒なものです。<br><br>これから霊界に行って、残虐なことをしたその裁きを受けますが、これがたいへんです。<br><br>地獄の根底の国に行って、少なくとも、ごく最低としても六百年くらいでしょう。<br><br>あるいは六百年ではきかないと思います。<br><br>その暗黒無明の酷寒地獄で苦しむというのはたいへんなものです。<br><br>しかし人間は馬鹿ではないから、後悔して非常にお詫びするでしょうが、それでごく減刑されて六百年です。<br><br>最高は六千年なのです。<br><br>神様の方の地獄の規則はそうなってます。<br><br>ですから最低としても六十年ですから、かなりまいってしまいます。<br><br>だから、そういう方にまわされたのはかわいそうなものです。<br><br> そういうようで、主神の計画のもとにスターリンが滅びたわけです。<br><br>しかしそれが、これからアイゼンハウアーが積極的に出て、中共をやっつけることに関係があるのです。<br><br>これは単純には言えませんが、あるいは戦争が早くなるかもしれません。<br><br>大体私が「夢物語」に書いたのには、準備に半年ないし一年はかかるだろうと書いてありますが、大体アイゼンハウアーもそういう計画らしいです。<br><br>アイゼンハウアーは随分早くやる目的らしかったが、事情がなかなかそうはいかないので、そうとう準備をしなければならないのです。<br><br>今韓国軍をしきりに訓練してますし、二、三日前の新聞には、台湾で二個師団ですか、上陸作戦の演習を二週間前からやっている、ということがありました。<br><br>上陸作戦の演習ですから、国民軍は上陸の方にまわるわけでしょう。<br><br>それにしろ、台湾の準備も一年を要するということが出てましたが、今年いっぱいくらいは準備です。<br><br>それで雪解けになってから、偵察戦くらいのことはあるでしょうが、本格的にやるにはそうとう準備がいります。<br><br>それについては鉄砲の弾が大いにいるとみえて、最近、何千万発かの注文が来て、日本で引き受けましたが、金額にして二億何千万円です。<br><br>だからアメリカは、着々と準備をしつつあることはよく分かります。<br><br>よく新聞などで、スターリンが死んだということによって戦争が延びるだろうとか、また、あとソ連は内部的にいろいろ結束ができなくて、足並みがくずれる、……ヨーロッパの方ではそういう噂があるようですが、決してそんなことはありません。<br><br>やっぱり戦争の方は、順調と言ってはおかしいが、順調に進んでいるわけです。<br><br>それで中共攻撃は来年あたりからいよいよ本舞台になるでしょうが、ただそれについて、スターリンが死んだということは、アメリカに非常に有利にはなります。<br><br>なにしろスターリンのやり方は実に考えが深くて、うまいのです。<br><br>それはアメリカとは大違いです。<br><br>スターリンのやり方については、私はいつも感心してますが、それは実にうまいのです。<br><br>自分の方は一兵も損じないで、ただ金と武器だけを供給して中共を踊らして、あれほどにアメリカの手を焼かせ、しかも北鮮を自分の方の勢力範囲に入れて、鉄のカーテンなども、とにかくああしてギュッと押さえているやり方は、実にうまいものです。<br><br>とにかく急所の手を打つことがすばらしいのです。<br><br>ですからスターリンが死んだということによって、ソ連のやり方のどこかに甘いところができてくるに違いないです。<br><br>それと気分の問題です。<br><br>ソ連にしろ中共にしろ、精神的にどこかに頑張りというものが薄くなるわけです。<br><br>その点がアメリカに非常に有利になるわけです。<br><br>だから神様はアメリカが勝ち良いようにという意味から、スターリンをああしたのかも分かりません。<br><br>スターリンが長いことはないということは、いつか言ったことがあります。<br><br>戦争が終わってから死ぬか、あるいはその間で死ぬか、ということを言っておきましたが、あんがい早かったのです。<br><br>神様の時期というものは、こう決まっていると、この範囲の中で遅いか早いかになるのです。<br><br>大本教のお筆先に「この仕組は遅き早きはあるなれど、神の申した事はみな出て来るぞよ」ということがありますが、これは正邪の戦いですから、かけ引き上、遅い早いはあるというわけです。<br><br>しかし決まるところは一日も違わずに決まるというわけで、そこに行くまでのことです。<br><br>そういうわけですから、中共なら中共が、アメリカの勢力範囲になるというようなことは、もう決まっているのです。<br><br>その間はかけ引き上、いろいろの変化があるわけです。<br><br>そのようで、ますますおもしろくはなってきます。<br><br>こっちはノンキなことを言ってますが、それは先が分かっているからですが、先が分からないから迷ったりいろいろ考えたり論議したりするのです。<br><br>時局談はこのくらいにしておきます。<br><br> 『アメリカを救う』の本も思ったより、というのでなくて、思ったとおりになかなかよく売れるのです。<br><br> それから今度「農業特集号」の報告が非常に多いものですから、四頁増やして、全部で十二頁にしました。<br><br>それはやはりこの前のようにあらゆる方面に配布するつもりです。<br><br>それから『自然農法解説書』という小冊子をこしらえて、これから普及会などで大いに方々に配るために、本年、昨年、一昨年の三回の「特集号」を全部載せて、「序文」代わりの論文を書きました。<br><br>大きさは『地上天国』の半分くらいで、労働服のポケットにはいるようにして、値段も一冊五十円で、大いに普及させようと思ってます。<br><br>これは新聞にも広告を出して、広く読ませるようにしたいと思ってます。<br><br>今の日本の農民は二百万戸かありますから、そこにほとんど行き渡らせるようにしたいと思います。<br><br>ですから非常な数が出るでしょう。<br><br>前の農林大臣の広川という人が、あれを読んだとみえて、硫安はあんまり使うなということを言い出しましたが、それはあの新聞で刺激されたのだと思います。<br><br>それから今度の田子一民という人は私は知っています。<br><br>昔三回くらい浄霊に来ましたが、その都度政治談などをしたことがあります。<br><br>それだから別にどうだということはありませんが、とにかく「岡田という人は救世教でこういうことをやっているな」というくらいに思って、安心して好感を持って見るということだけは言えます。<br><br>それから今年のいろいろなすばらしい成績などは「特集号」を見れば分かりますが、この中で一つのおもしろい例があります。<br><br>岐阜県の農民で、六年目ですが、五年目で五割増産して、六年目にまた一俵増えてます。<br><br>そういうようで五年で五割増産ということは、その人が正確にそういう成績を上げたのですから、もう実際の成績が上がった以上、なんら疑念はないわけです。<br><br>ほかにもいろいろありますが、それだけはちょうど判で押したように穫れました。<br><br>それで『自然農法解説書』は近いうちに出版するつもりです。<br><br> それから矢継ぎ早に『結核信仰療法』の本もできているので、売り出すつもりです。<br><br>これはあんがい売れるだろうと思います。<br><br>今結核で困って病院や医者でさんざんやっても、なおらないし、これは長いですから、困っている人があります。<br><br>「これは一つ神仏にすがるか、あるいは宗教でなおそうか」というような考えを持っているような人も随分あるだろうと思います。<br><br>まあ医者でどうしてもなおらなければ、どうしてもそこにいかなければなりません。<br><br>そこで困るのは、いったいどの宗教にはいったら良いか、何神様を拝むかということが難しいのです。<br><br>それは友達や知っている人に信仰を奨められれば「ははあ」と分かるが、そういう人は少ないので、大体は、いったいどうしたら良いかというのが多いだろうと思います。<br><br>そういう人がちょっと話を聞くとか、本屋に並んでいるのを見ると、「全快者百人の手記」ということが書いてありますから、それでは一つ見ようというような気持ちが起りますから、あんがいこれはたくさん出るのではないかと思ってます。<br><br> それからその次に出すのが『救世教奇蹟集』という本です。<br><br>この肩書には「科学への原子爆弾 救世教奇蹟集」とします。<br><br>「序文」はこの前読みましたから、次に出す記事を読ませます。<br><br> （御論文「一、奇蹟とは何ぞや」「二、霊主体従」「三、霊と体」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre a Morte de Stalin e a Providência Divina</h2>
 <p>Houve há pouco uma notícia extraordinária: Stalin faleceu esta manhã. A questão que agora preocupa o mundo inteiro é o que virá a seguir. No ano passado, se não me engano, Stalin instituiu um comitê de vinte e quatro membros, determinando que todas as grandes questões fossem submetidas a esse conselho. Tal medida foi, evidentemente, um preparativo para o período posterior à sua morte. Dentre as figuras proeminentes, Molotov, Malenkov e o ministro do Exército, Bulganin, juntamente com os vinte e quatro membros do comitê, deliberarão em conjunto. Portanto, não se espera que haja desordem ou conflitos internos. Por essa razão, acredito que, por ora, a situação permanecerá estável. Com o tempo, um novo líder será definido, e julgo que será Malenkov. De fato, ele parece ser o mais capacitado dentre todos, além de ter o futuro a seu favor. Molotov, por outro lado, já é uma figura conhecida; seus métodos, amplamente demonstrados no passado, não revelam grande envergadura e não se comparam aos de Malenkov. Mesmo ao observar apenas o retrato de Malenkov, percebe-se que não é um homem comum.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>Em rápida sucessão, o livro “Terapia da Fé para a Tuberculose” também está pronto e será colocado à venda. Acredito que terá uma boa aceitação. Muitas pessoas sofrem com a tuberculose, uma doença prolongada, e se sentem desamparadas após tentativas frustradas com hospitais e médicos. Há, sem dúvida, um número considerável de pessoas que pensam: “Devo recorrer a Deus e a Buda, ou talvez buscar a cura através da religião”. Quando a medicina falha, esse é o único caminho que resta. O dilema, então, é decidir a qual religião aderir ou a qual divindade orar. Se um amigo ou conhecido recomenda uma fé, a decisão se torna mais fácil, mas poucos se encontram nessa situação. A maioria se pergunta o que fazer. Quando essas pessoas ouvem falar de nosso trabalho ou veem o livro nas prateleiras, com a menção de “Relatos de Cem Pessoas que Alcançaram a Cura Completa”, o desejo de conhecê-lo despertará. Por isso, creio que este livro alcançará uma vasta tiragem.</p>
 <p>O próximo lançamento será a “Coletânea de Milagres da Sekaikyuseikyou”. O título completo será: “A Bomba Atômica contra a Ciência: Coletânea de Milagres da Sekaikyuseikyou”. O prefácio já foi lido em outra ocasião; portanto, passarei à leitura dos artigos que o sucederão.</p>
 <p>(Leitura dos artigos “O Que São Milagres?”, “Preponderância do Espírito sobre a Matéria” e “Espírito e Matéria”)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年3月6日） 『御教え集』20号、昭和28(1953)年4月15日発行 昭和二十八年三月六日 今臨時ニュースがありましたが、スターリンは今朝、死んだそうです。<br/><br/>あとはどうなるかということは、これは世界中の人が関心を持っている問題ですが、去年ですか二十四人の幹部をつくり、大きな問題は幹部会議にかけるということをスターリンがつくったのですが、それは自分の死後の方法を考えたものなのです。<br/><br/>それで幹部でないのはモロトフとマレンコフと、もう一人は陸軍長官のブルガーニンという人ですが、それと二十四人の幹部とが協議してやるというのですから、あとが混乱するとかゴタゴタするということはないわけです。<br/><br/>そういうようですから、当分はそう変わりはないと思います。<br/><br/>そうしているうちに首脳者が決まるでしょうが、まあマレンコフだろうと思います。<br/><br/>なにしろ人物としては一番できていそうです。<br/><br/>それと未来があります。<br/><br/>モロトフはもう分かっています。<br/><br/>前にもさんざんやったあのやり方でたいしたことはないので、マレンコフほどはありません。<br/><br/>マレンコフは写真の顔だけを見ても、ただ者ではないということを感じます。<br/><br/>だからもし戦争ということになると、スターリンよりかマレンコフの方が、戦争をやろうという様子が見えます。<br/><br/>スターリンは戦争はやらないことはないが、非常に慎重です。<br/><br/>そこに非常に堅実さがあったわけで、今まで続いてきたのです。<br/><br/>つまりオッチョコチョイ的なことはないのです。<br/><br/>ヒトラーも偉かったが、オッチョコチョイのために失敗したのです。<br/><br/>オッチョコチョイの大英雄というわけです。<br/><br/>そういった首脳者になるのは難しいので、オッチョコチョイもいけないし、引っ込み思案もいけないのです。<br/><br/>トルーマンは引っ込み思案の方です。<br/><br/>なんでも無事太平にして、乗り出すという積極性がないのです。<br/><br/>それから東条というのはオッチョコチョイです。<br/><br/>そこにいくとスターリンはオッチョコチョイでもなければ引っ込み思案でもないので、そこのところは、ジリジリと用心深くて、太っ腹で、そこに彼の偉さがあったのです。<br/><br/>とにかくまるっきり一介の労働者であった人間が、共産党の十月革命をやってから今年でちょうど三十六年目になりますが、三十六年間であれだけの仕事をしたということは、善とか悪ということは抜きにして、とにかくその偉さというものはたいしたものです。<br/><br/>近代における英傑です。<br/><br/>それであの人があんな残虐なことをしないでこれだけになったのなら、それは大いに崇拝していい人物ですが、ただ目的のためには手段を選ばずというやり方で、まあシーザーのようなやり方です。<br/><br/>シーザーでは良過ぎるかもしれません。<br/><br/>ある人はネロ国王に、もういっそう輪をかけたようなものだと言っているが、そうでないまでも大体ネロ国王の二代目と言ってもいいです。<br/><br/>もっともあのわずかの期間にこれだけの仕事をするということは、それだけの残虐なことをしなければできなかったかもしれません。<br/><br/>しかしそういう人間が現われて、ああいうことをするということも、やはり神様の経綸なのです。<br/><br/>良いことばかりが神様のやり方で、悪いことは悪魔がやるということは、今までの世の中の見方なのです。<br/><br/>というのは今までの神様は善の神様ばかりですから、悪に対してはめちゃめちゃに非難したのです。<br/><br/>それは確かに悪いのですから非難してもいいのです。<br/><br/>それではそんな悪い奴をどうして世の中に出したかというと、これはやっぱり主神です。<br/><br/>主神は必要によって悪も善も働かせるのですから、批評の限りにあらずです。<br/><br/>ただ悪い仕事をする方にまわされた人間は、気の毒というわけです。<br/><br/>ですからスターリン自身は得意であったでしょうが、大きな目で見ると気の毒なものです。<br/><br/>これから霊界に行って、残虐なことをしたその裁きを受けますが、これがたいへんです。<br/><br/>地獄の根底の国に行って、少なくとも、ごく最低としても六百年くらいでしょう。<br/><br/>あるいは六百年ではきかないと思います。<br/><br/>その暗黒無明の酷寒地獄で苦しむというのはたいへんなものです。<br/><br/>しかし人間は馬鹿ではないから、後悔して非常にお詫びするでしょうが、それでごく減刑されて六百年です。<br/><br/>最高は六千年なのです。<br/><br/>神様の方の地獄の規則はそうなってます。<br/><br/>ですから最低としても六十年ですから、かなりまいってしまいます。<br/><br/>だから、そういう方にまわされたのはかわいそうなものです。<br/><br/> そういうようで、主神の計画のもとにスターリンが滅びたわけです。<br/><br/>しかしそれが、これからアイゼンハウアーが積極的に出て、中共をやっつけることに関係があるのです。<br/><br/>これは単純には言えませんが、あるいは戦争が早くなるかもしれません。<br/><br/>大体私が「夢物語」に書いたのには、準備に半年ないし一年はかかるだろうと書いてありますが、大体アイゼンハウアーもそういう計画らしいです。<br/><br/>アイゼンハウアーは随分早くやる目的らしかったが、事情がなかなかそうはいかないので、そうとう準備をしなければならないのです。<br/><br/>今韓国軍をしきりに訓練してますし、二、三日前の新聞には、台湾で二個師団ですか、上陸作戦の演習を二週間前からやっている、ということがありました。<br/><br/>上陸作戦の演習ですから、国民軍は上陸の方にまわるわけでしょう。<br/><br/>それにしろ、台湾の準備も一年を要するということが出てましたが、今年いっぱいくらいは準備です。<br/><br/>それで雪解けになってから、偵察戦くらいのことはあるでしょうが、本格的にやるにはそうとう準備がいります。<br/><br/>それについては鉄砲の弾が大いにいるとみえて、最近、何千万発かの注文が来て、日本で引き受けましたが、金額にして二億何千万円です。<br/><br/>だからアメリカは、着々と準備をしつつあることはよく分かります。<br/><br/>よく新聞などで、スターリンが死んだということによって戦争が延びるだろうとか、また、あとソ連は内部的にいろいろ結束ができなくて、足並みがくずれる、……ヨーロッパの方ではそういう噂があるようですが、決してそんなことはありません。<br/><br/>やっぱり戦争の方は、順調と言ってはおかしいが、順調に進んでいるわけです。<br/><br/>それで中共攻撃は来年あたりからいよいよ本舞台になるでしょうが、ただそれについて、スターリンが死んだということは、アメリカに非常に有利にはなります。<br/><br/>なにしろスターリンのやり方は実に考えが深くて、うまいのです。<br/><br/>それはアメリカとは大違いです。<br/><br/>スターリンのやり方については、私はいつも感心してますが、それは実にうまいのです。<br/><br/>自分の方は一兵も損じないで、ただ金と武器だけを供給して中共を踊らして、あれほどにアメリカの手を焼かせ、しかも北鮮を自分の方の勢力範囲に入れて、鉄のカーテンなども、とにかくああしてギュッと押さえているやり方は、実にうまいものです。<br/><br/>とにかく急所の手を打つことがすばらしいのです。<br/><br/>ですからスターリンが死んだということによって、ソ連のやり方のどこかに甘いところができてくるに違いないです。<br/><br/>それと気分の問題です。<br/><br/>ソ連にしろ中共にしろ、精神的にどこかに頑張りというものが薄くなるわけです。<br/><br/>その点がアメリカに非常に有利になるわけです。<br/><br/>だから神様はアメリカが勝ち良いようにという意味から、スターリンをああしたのかも分かりません。<br/><br/>スターリンが長いことはないということは、いつか言ったことがあります。<br/><br/>戦争が終わってから死ぬか、あるいはその間で死ぬか、ということを言っておきましたが、あんがい早かったのです。<br/><br/>神様の時期というものは、こう決まっていると、この範囲の中で遅いか早いかになるのです。<br/><br/>大本教のお筆先に「この仕組は遅き早きはあるなれど、神の申した事はみな出て来るぞよ」ということがありますが、これは正邪の戦いですから、かけ引き上、遅い早いはあるというわけです。<br/><br/>しかし決まるところは一日も違わずに決まるというわけで、そこに行くまでのことです。<br/><br/>そういうわけですから、中共なら中共が、アメリカの勢力範囲になるというようなことは、もう決まっているのです。<br/><br/>その間はかけ引き上、いろいろの変化があるわけです。<br/><br/>そのようで、ますますおもしろくはなってきます。<br/><br/>こっちはノンキなことを言ってますが、それは先が分かっているからですが、先が分からないから迷ったりいろいろ考えたり論議したりするのです。<br/><br/>時局談はこのくらいにしておきます。<br/><br/> 『アメリカを救う』の本も思ったより、というのでなくて、思ったとおりになかなかよく売れるのです。<br/><br/> それから今度「農業特集号」の報告が非常に多いものですから、四頁増やして、全部で十二頁にしました。<br/><br/>それはやはりこの前のようにあらゆる方面に配布するつもりです。<br/><br/>それから『自然農法解説書』という小冊子をこしらえて、これから普及会などで大いに方々に配るために、本年、昨年、一昨年の三回の「特集号」を全部載せて、「序文」代わりの論文を書きました。<br/><br/>大きさは『地上天国』の半分くらいで、労働服のポケットにはいるようにして、値段も一冊五十円で、大いに普及させようと思ってます。<br/><br/>これは新聞にも広告を出して、広く読ませるようにしたいと思ってます。<br/><br/>今の日本の農民は二百万戸かありますから、そこにほとんど行き渡らせるようにしたいと思います。<br/><br/>ですから非常な数が出るでしょう。<br/><br/>前の農林大臣の広川という人が、あれを読んだとみえて、硫安はあんまり使うなということを言い出しましたが、それはあの新聞で刺激されたのだと思います。<br/><br/>それから今度の田子一民という人は私は知っています。<br/><br/>昔三回くらい浄霊に来ましたが、その都度政治談などをしたことがあります。<br/><br/>それだから別にどうだということはありませんが、とにかく「岡田という人は救世教でこういうことをやっているな」というくらいに思って、安心して好感を持って見るということだけは言えます。<br/><br/>それから今年のいろいろなすばらしい成績などは「特集号」を見れば分かりますが、この中で一つのおもしろい例があります。<br/><br/>岐阜県の農民で、六年目ですが、五年目で五割増産して、六年目にまた一俵増えてます。<br/><br/>そういうようで五年で五割増産ということは、その人が正確にそういう成績を上げたのですから、もう実際の成績が上がった以上、なんら疑念はないわけです。<br/><br/>ほかにもいろいろありますが、それだけはちょうど判で押したように穫れました。<br/><br/>それで『自然農法解説書』は近いうちに出版するつもりです。<br/><br/> それから矢継ぎ早に『結核信仰療法』の本もできているので、売り出すつもりです。<br/><br/>これはあんがい売れるだろうと思います。<br/><br/>今結核で困って病院や医者でさんざんやっても、なおらないし、これは長いですから、困っている人があります。<br/><br/>「これは一つ神仏にすがるか、あるいは宗教でなおそうか」というような考えを持っているような人も随分あるだろうと思います。<br/><br/>まあ医者でどうしてもなおらなければ、どうしてもそこにいかなければなりません。<br/><br/>そこで困るのは、いったいどの宗教にはいったら良いか、何神様を拝むかということが難しいのです。<br/><br/>それは友達や知っている人に信仰を奨められれば「ははあ」と分かるが、そういう人は少ないので、大体は、いったいどうしたら良いかというのが多いだろうと思います。<br/><br/>そういう人がちょっと話を聞くとか、本屋に並んでいるのを見ると、「全快者百人の手記」ということが書いてありますから、それでは一つ見ようというような気持ちが起りますから、あんがいこれはたくさん出るのではないかと思ってます。<br/><br/> それからその次に出すのが『救世教奇蹟集』という本です。<br/><br/>この肩書には「科学への原子爆弾 救世教奇蹟集」とします。<br/><br/>「序文」はこの前読みましたから、次に出す記事を読ませます。<br/><br/> （御論文「一、奇蹟とは何ぞや」「二、霊主体従」「三、霊と体」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

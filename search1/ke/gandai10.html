@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>gandai10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,60 +241,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代文化とは 未発表『医学革命の書』昭和28(1953)年執筆 これまで説いた事によってほぼ分ったであろうが、要するに医学誤謬の根本は、自然を無視したところにある。<br><br>というのは病気というものは、さきにかいたごとく体内機能の邪魔物である毒素を、病気という形によって排除する自然作用であって、そのように神が造られたものである以上、人間はそれに従うのが本当である。<br><br>この例としては、彼（か）の風雨や雷火である。<br><br>これは空気界及び霊気界に汚穢が溜り、これが濃厚となると、毒素が発生し、人畜その他に害を及ぼすので、浄化作用が発生する。<br><br>すなわち風で吹き払い、雨水で洗い、天日で乾かし、特殊なものは雷火で焼尽する。<br><br>これを小さくしたものが人間の病気であるから、この理を知ったなら病気を止める事が、いかに反自然であるかが分るであろう。<br><br> ここで病気と科学の関係についての誤りについて詳しくかかねばならないが、元来科学の役目は人間生存上人間の意欲を満たすべく、より便利に、より美しく智能を豊富にし、幸福を増進するための学問であって、その分野は自ら定められている。<br><br>それは形而下（けいじか）的学問であるに対し、人間の生命は形而上（けいじじょう）的の存在であって、科学の分野には属していないのである。<br><br>すなわち科学は唯物的分野であり、人間生命は唯心的分野であるのが真理である。<br><br>しかるに近代に至って科学の驚くべき発達によって、人間はそれに幻惑され、科学をもってすればいかなるものでも解決出来るとする科学過信に陥ってしまったのである。<br><br>それがため己れの分野を逸脱し、唯心分野の領域に侵入したので、その結果人間生命をも自由にしてしまった。<br><br>この下剋上（げこくじょう）的考え方が医学を生んだのであるから、根本的に誤っているのは今更言うまでもないのである。<br><br> 以上のごとく人間生命は、唯心分野にあり、唯心分野を握っているのが神であるから、私が行う治病の素晴しい力も神から発現する以上、いかなる病気も治るのは当然であって、敢（あえ）て不思議はないのである。<br><br>ところが現代人はこれを見て不思議と思い、奇蹟としているのは実は嗤（わら）うべきであって、逆さになって見れば真直なものが逆さになっているのと同様である。<br><br>という訳で私が行う神霊治病方法は、見た事も聞いた事もない破天荒（はてんこう）的であるから、容易に受け入れる事は出来ないので、一時は戸惑いするが、しかし根本から判るに従い俄然として、長夜の夢が醒め、医学の迷蒙も分り、ここに安心立命者となるのである。<br><br>従ってこの著を読んでも、なお躊躇（ちゅうちょ）逡巡目覚めないとしたら、その人は滅びの淵に臨（のぞ）んでいる危険極まる人と言ってもいいであろう。<br><br> (注) 形而下（けいじか）、形をそなえるもの。<br><br>自然一般の現象。<br><br> 形而上（けいじじょう） 形をもっていないもの。<br><br>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br><br>超自然的、理念的なもの。<br><br> 下剋上（げこくじょう） 下の者が上の者をしのぎ倒すこと。<br><br>特に、室町中期から戦国時代にかけてあらわれた、伝統的権威・価値体系を否定し、力によって権力を奪い取るという社会風潮。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Natureza da Cultura Contemporânea</h2>
 <p>Conforme explanei até este momento, o leitor já deve ter compreendido que a raiz do equívoco da medicina reside em sua negligência para com as leis da Natureza. Afinal, a doença, como já mencionado, nada mais é que um processo natural destinado a expelir as toxinas que obstruem o bom funcionamento do organismo. Sendo esta uma criação Divina, o correto seria que o ser humano se submetesse a ela. Um paralelo pode ser traçado com fenômenos como as tempestades de vento e chuva ou os raios. Quando as impurezas se acumulam e adensam no mundo material e no Mundo Espiritual, geram-se miasmas nocivos aos seres vivos, desencadeando, assim, um processo de purificação. O vento dispersa tais impurezas, a chuva as lava, o sol as seca e, em casos específicos, o fogo dos raios as consome por completo. A doença humana é uma manifestação deste mesmo princípio em menor escala. Portanto, ao compreender esta lógica, torna-se evidente quão contrário à Natureza é o ato de suprimir uma enfermidade.</p>
 <p>Neste ponto, devo discorrer pormenorizadamente sobre o equívoco na relação entre a ciência e a enfermidade. Originalmente, o propósito da ciência é satisfazer as aspirações humanas, tornando a existência mais conveniente e aprazível, enriquecendo o intelecto e promovendo a felicidade. Seu domínio de atuação, contudo, é intrinsecamente delimitado. A ciência pertence ao âmbito do tangível, do material; a vida humana, por sua vez, é uma existência de natureza metafísica, que transcende o campo de estudo científico. Em outras palavras, a verdade é que a ciência opera no domínio materialista, enquanto a vida humana se encontra na esfera espiritual. Todavia, com o assombroso avanço científico da era moderna, a humanidade deixou-se iludir, caindo em uma confiança excessiva na ciência, acreditando que por meio dela tudo poderia ser solucionado. Foi assim que a ciência extrapolou suas fronteiras e invadiu o domínio do espírito, passando a tratar a própria vida humana como um objeto passível de manipulação. A medicina nasceu dessa mentalidade de insubordinação — uma verdadeira subversão da ordem natural (下剋上) — e, por conseguinte, é desnecessário reiterar que ela está fundamentalmente equivocada em sua própria concepção.</p>
 <p>Conforme o exposto, a vida humana pertence ao domínio espiritual, e quem governa essa esfera é Deus. Portanto, o extraordinário poder de cura que manifesto origina-se d’Ele, sendo natural que possa sanar qualquer enfermidade. Nisto não reside milagre algum. Contudo, o homem moderno, ao testemunhar tais curas, considera-as milagrosas, um fato verdadeiramente digno de riso. É como estar de cabeça para baixo e enxergar como torto aquilo que está perfeitamente reto. O método de cura divino que pratico é, de fato, algo sem precedentes (破天荒), jamais visto ou ouvido. Por essa razão, sua aceitação não é imediata e, a princípio, causa perplexidade. No entanto, à medida que a pessoa passa a compreender seus fundamentos, o sonho de uma longa noite subitamente se dissipa. A ilusão da medicina torna-se clara, e ela finalmente alcança um estado de paz e segurança espiritual. Sendo assim, se mesmo após a leitura desta obra, alguém ainda hesitar, vacilar e não despertar, pode-se afirmar que tal pessoa se encontra em extremo perigo, à beira do abismo da perdição.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代文化とは 未発表『医学革命の書』昭和28(1953)年執筆 これまで説いた事によってほぼ分ったであろうが、要するに医学誤謬の根本は、自然を無視したところにある。<br/><br/>というのは病気というものは、さきにかいたごとく体内機能の邪魔物である毒素を、病気という形によって排除する自然作用であって、そのように神が造られたものである以上、人間はそれに従うのが本当である。<br/><br/>この例としては、彼（か）の風雨や雷火である。<br/><br/>これは空気界及び霊気界に汚穢が溜り、これが濃厚となると、毒素が発生し、人畜その他に害を及ぼすので、浄化作用が発生する。<br/><br/>すなわち風で吹き払い、雨水で洗い、天日で乾かし、特殊なものは雷火で焼尽する。<br/><br/>これを小さくしたものが人間の病気であるから、この理を知ったなら病気を止める事が、いかに反自然であるかが分るであろう。<br/><br/> ここで病気と科学の関係についての誤りについて詳しくかかねばならないが、元来科学の役目は人間生存上人間の意欲を満たすべく、より便利に、より美しく智能を豊富にし、幸福を増進するための学問であって、その分野は自ら定められている。<br/><br/>それは形而下（けいじか）的学問であるに対し、人間の生命は形而上（けいじじょう）的の存在であって、科学の分野には属していないのである。<br/><br/>すなわち科学は唯物的分野であり、人間生命は唯心的分野であるのが真理である。<br/><br/>しかるに近代に至って科学の驚くべき発達によって、人間はそれに幻惑され、科学をもってすればいかなるものでも解決出来るとする科学過信に陥ってしまったのである。<br/><br/>それがため己れの分野を逸脱し、唯心分野の領域に侵入したので、その結果人間生命をも自由にしてしまった。<br/><br/>この下剋上（げこくじょう）的考え方が医学を生んだのであるから、根本的に誤っているのは今更言うまでもないのである。<br/><br/> 以上のごとく人間生命は、唯心分野にあり、唯心分野を握っているのが神であるから、私が行う治病の素晴しい力も神から発現する以上、いかなる病気も治るのは当然であって、敢（あえ）て不思議はないのである。<br/><br/>ところが現代人はこれを見て不思議と思い、奇蹟としているのは実は嗤（わら）うべきであって、逆さになって見れば真直なものが逆さになっているのと同様である。<br/><br/>という訳で私が行う神霊治病方法は、見た事も聞いた事もない破天荒（はてんこう）的であるから、容易に受け入れる事は出来ないので、一時は戸惑いするが、しかし根本から判るに従い俄然として、長夜の夢が醒め、医学の迷蒙も分り、ここに安心立命者となるのである。<br/><br/>従ってこの著を読んでも、なお躊躇（ちゅうちょ）逡巡目覚めないとしたら、その人は滅びの淵に臨（のぞ）んでいる危険極まる人と言ってもいいであろう。<br/><br/> (注) 形而下（けいじか）、形をそなえるもの。<br/><br/>自然一般の現象。<br/><br/> 形而上（けいじじょう） 形をもっていないもの。<br/><br/>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br/><br/>超自然的、理念的なもの。<br/><br/> 下剋上（げこくじょう） 下の者が上の者をしのぎ倒すこと。<br/><br/>特に、室町中期から戦国時代にかけてあらわれた、伝統的権威・価値体系を否定し、力によって権力を奪い取るという社会風潮。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

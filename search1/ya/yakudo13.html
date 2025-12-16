@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yakudo13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒の害 未発表『文明の創造』昭和27(1952)年執筆 前項に説いたごとく、人間の罪が魂の穢れとなり、それが心を介して霊の曇りとなり、それの浄化が病気であるとしたら、その曇りを解消する以外、病を治す方法のあり得ない事は余りにも明らかである。<br><br>ところが西洋においてはヒポクラテス、東洋においては彼の神農（しんのう）氏が、病人に薬剤または薬草を服ますと、一時的苦痛が緩和されるので、これを可として医術の始祖となったのであるから、この時から既に誤謬は発生した訳である。<br><br>なるほど薬を用いれば、一時的苦痛が減るので、これこそ病を治すべき方法と、単純に考えたもので、その時代の人智の程度としては、無理もなかったのである。<br><br>それが現在まで続けて来たのであるから、今までの人間の迷蒙さは不思議としか思えないのである。<br><br> ところが、私が生まれた事によって、この人類の不幸の源泉たる病気が解決される事となったので、全く有難い時代が来た訳である。<br><br>従ってこれによって文明は百八十度の転換となり、理想世界実現となるのはもちろんであろう。<br><br> 右のごとく、人類は古い時代から薬剤を体内に入れつつ、今日に到ったのであるから、現代人ことごとくは薬剤中毒に罹っている。<br><br>さきにも述べたごとく、薬剤なるものは有毒物である以上、体内に残存して病原となるにかかわらず、医学は薬毒は自然消滅するように思っているが、これが大変な誤りで、実は薬毒は生命の在らん限り消滅しないのが原則である。<br><br>これについて私の体験を書いてみよう。<br><br>私は今から三十六年以前、入歯をするため歯を抜き、その穴へ消毒薬を詰めたところ、歯痛を起し始めたので、それを治すべくまた薬を用いたところ、漸次痛みは増すばかりなので、次から次へ有名な歯科医に罹ったが、どうしても治らず、ついに二進（にっち）も三進（さっち）もゆかなくなってしまった。<br><br>何しろそれまでに四本の歯を抜いたくらいであるから、いかに酷かったかが判るであろう。<br><br>それでも治らず、しかも薬毒は頭脳までも犯して来たので私は結局発狂か自殺かの運命にまで押詰められてしまったのである。<br><br>しかるに天いまだ吾を捨てざるか、ある動機によって薬のためである事が判り、それから歯科医を廃めたところ、漸次治って今日に到ったのであるが、驚いた事には今もって少しではあるが痛みが残っており、毎日のように自分で浄霊している。<br><br>これによってみても薬毒は数十年掛っても消滅しない事がよく判るであろう。<br><br> 右によっても判るごとく薬剤は決して消えない事である。<br><br>ではどういう訳かというと、本来造物主は人間を造ると共に、人間が生きてゆけるだけの食料やその他一切の物を造られておりそのために土壌や海川にその力を附与され、植物鉱物などは元より、空気日月星晨ことごとくがそうである。<br><br>そうして単に食物といっても一定の条件がある。<br><br>条件というのは食うべきものと、食うべからざるものとが別けられてある。<br><br>従ってその必要から人間には味覚を与え、食物には味を含ませてある。<br><br>また食物の種類も色々あり、ことごとく人間の健康や環境に適合するよう造られている。<br><br>例えば塩分が必要な時には塩辛い物が食いたくなり、甘味が必要な時は甘味が食べたくなり、水分の必要な場合は咽喉が渇くというように、自然は必要によって意欲が起るように造られている。<br><br>それと共に消化機能も一定の条件に適うように出来ている。<br><br>すなわち食うべき物はことごとく消化されるが、食うべからざる物は、処理されないで残存する。<br><br>この理によって薬剤は異物であるから、消化処理されないので、これが古くなると毒素に変化してしまう。<br><br>その毒素の排除作用が病気であるから、病原はとりも直さず薬剤という事になる。<br><br>喀痰、鼻汁、汗、膿、毒血等はことごとく薬毒の変化したものであるから、世に薬剤程恐るべき物はないのである。<br><br> これを知らなかった人類は、病気を治そうとして病気を作って来た訳である。<br><br>何と重大誤謬を犯して来た事に気がつくであろう。<br><br>実にこれ程愚かな話はあるまい。<br><br>としたらこの一事だけを人類に知らせるとしたら、いかに大なる救いであるかは、今更贅言を要しないであろう。<br><br>何よりもこの私の説を信じて、専門家諸君は病気と対照してみるがいい。<br><br>一点の誤りない事を知るであろう。<br><br> 右によってみても判るごとく、長い間人類は病気に対する誤った解釈が因となり、病気の解決どころか、逆に病気を作り病気の種類も増やしつつ今日に到ったのである。<br><br>しかもこの誤謬が貧乏も戦争の原因ともなっているのであるから、何よりもこの蒙（もう）を啓かなければ真の文明は生まれるはずはないのである。<br><br>従って現在の人間は薬毒のない原始時代の人間に比べれば、その健康の劣弱さは比較にならない程で、無薬時代の人間の寿齢が、百歳以上が普通であった事など、種々の記録や文献などに見ても余りに明らかである。<br><br>私は彼の武内宿禰の寿齢三百六歳という有名な話は、本当とは思ってはいなかったが、先年武内家の家系を見たところ、これは確実である事が判った。<br><br>武内家の祖先の中、最長寿者は三百四十九歳で、次は三百二十何歳、次は三百十何歳、武内宿禰は確か四番目であったと記憶している。<br><br>この時代は今から二千年以前から千六、七百年前くらいにかけてであるから、まだ漢薬の渡来以前であった事は間違いない。<br><br>また神武天皇から千数百年までは、天皇の寿齢はほとんど百才以上であった事は記録に明らかである。<br><br> 近来、米国及び日本人の寿齢が、いささか延びたといって喜んでいるが、この原因は医学の進歩のためではなく、他に原因があり、これは後に書く事にするが、要するに一切の病原は薬毒である事が判ればいいのである。<br><br>病気のための痛み、痒み、発熱、不快感等すべての苦痛は、ことごとく薬毒が原因である事は、私の多数の経験によるも絶対誤りはない。<br><br>もちろん遺伝微毒も、癩病、天然痘、麻疹、百日咳等の先天的保有毒素もことごとく薬毒である。<br><br>何よりも現代人が全然無病の人は、恐らく十人に一人もないであろう。<br><br>どの人を見ても何かしらの病気を持っている。<br><br>数人の家族で病人のない家は、珍しいとされており、一人や二人は一年の内に入院する者のない家庭はほとんどあるまいと共に、一年中一滴の薬を服まない人も稀（まれ）であろう。<br><br>このように現代人は弱体となっているから、病気を恐れる事もはなはだしく、このために要する費用、不安、努力のために及ぼす影響も、けだし甚大なものがあろう。<br><br> 従って、この世界から薬剤ことごとくを海に投げ捨てたとしたら、その時を期とし病気は漸減し、何十年後には、病なき世界の実現は断言し得るのである。<br><br> 次に、これから主なる病気について解説してみるが、人体の基本的機能としては、何といっても心臓、肺臓、胃の腑の三つであるから、これから先に書いてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Engano dos Remédios e a Verdadeira Causa das Doenças</h2>
 <p>Conforme elucidei no tópico anterior, o pecado do ser humano transforma-se em mácula na alma. Essa mácula, por intermédio do coração, converte-se em nuvem no espírito, e o processo de purificação dessa nuvem manifesta-se como doença. Sendo assim, torna-se sobremaneira evidente que não pode existir outro método para curar as enfermidades senão a dissolução dessas nuvens.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>Mais importante: é provável que, entre os homens de hoje, não haja sequer uma pessoa em cada dez completamente isenta de doenças. Para onde quer que se olhe, todos portam alguma enfermidade. Famílias onde ninguém adoece são consideradas uma raridade, e lares nos quais um ou dois membros não precisem de internação ao longo do ano são quase inexistentes. Da mesma forma, são raríssimas as pessoas que passam um ano inteiro sem tomar uma gota de remédio. O homem moderno tornou-se tão frágil que seu temor às doenças é extremo, e os custos, a ansiedade e o esforço despendidos por causa delas geram impactos de enorme magnitude.</p>
 <p>Sendo assim, se lançássemos ao mar todos os medicamentos existentes no mundo, posso afirmar categoricamente que, a partir desse momento, as doenças começariam a diminuir gradualmente e, em algumas décadas, um mundo sem enfermidades se tornaria realidade.</p>
 <p>A seguir, passarei a dissertar sobre as principais doenças, iniciando pelas três funções basilares do corpo humano: o coração, os pulmões e o estômago.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒の害 未発表『文明の創造』昭和27(1952)年執筆 前項に説いたごとく、人間の罪が魂の穢れとなり、それが心を介して霊の曇りとなり、それの浄化が病気であるとしたら、その曇りを解消する以外、病を治す方法のあり得ない事は余りにも明らかである。<br/><br/>ところが西洋においてはヒポクラテス、東洋においては彼の神農（しんのう）氏が、病人に薬剤または薬草を服ますと、一時的苦痛が緩和されるので、これを可として医術の始祖となったのであるから、この時から既に誤謬は発生した訳である。<br/><br/>なるほど薬を用いれば、一時的苦痛が減るので、これこそ病を治すべき方法と、単純に考えたもので、その時代の人智の程度としては、無理もなかったのである。<br/><br/>それが現在まで続けて来たのであるから、今までの人間の迷蒙さは不思議としか思えないのである。<br/><br/> ところが、私が生まれた事によって、この人類の不幸の源泉たる病気が解決される事となったので、全く有難い時代が来た訳である。<br/><br/>従ってこれによって文明は百八十度の転換となり、理想世界実現となるのはもちろんであろう。<br/><br/> 右のごとく、人類は古い時代から薬剤を体内に入れつつ、今日に到ったのであるから、現代人ことごとくは薬剤中毒に罹っている。<br/><br/>さきにも述べたごとく、薬剤なるものは有毒物である以上、体内に残存して病原となるにかかわらず、医学は薬毒は自然消滅するように思っているが、これが大変な誤りで、実は薬毒は生命の在らん限り消滅しないのが原則である。<br/><br/>これについて私の体験を書いてみよう。<br/><br/>私は今から三十六年以前、入歯をするため歯を抜き、その穴へ消毒薬を詰めたところ、歯痛を起し始めたので、それを治すべくまた薬を用いたところ、漸次痛みは増すばかりなので、次から次へ有名な歯科医に罹ったが、どうしても治らず、ついに二進（にっち）も三進（さっち）もゆかなくなってしまった。<br/><br/>何しろそれまでに四本の歯を抜いたくらいであるから、いかに酷かったかが判るであろう。<br/><br/>それでも治らず、しかも薬毒は頭脳までも犯して来たので私は結局発狂か自殺かの運命にまで押詰められてしまったのである。<br/><br/>しかるに天いまだ吾を捨てざるか、ある動機によって薬のためである事が判り、それから歯科医を廃めたところ、漸次治って今日に到ったのであるが、驚いた事には今もって少しではあるが痛みが残っており、毎日のように自分で浄霊している。<br/><br/>これによってみても薬毒は数十年掛っても消滅しない事がよく判るであろう。<br/><br/> 右によっても判るごとく薬剤は決して消えない事である。<br/><br/>ではどういう訳かというと、本来造物主は人間を造ると共に、人間が生きてゆけるだけの食料やその他一切の物を造られておりそのために土壌や海川にその力を附与され、植物鉱物などは元より、空気日月星晨ことごとくがそうである。<br/><br/>そうして単に食物といっても一定の条件がある。<br/><br/>条件というのは食うべきものと、食うべからざるものとが別けられてある。<br/><br/>従ってその必要から人間には味覚を与え、食物には味を含ませてある。<br/><br/>また食物の種類も色々あり、ことごとく人間の健康や環境に適合するよう造られている。<br/><br/>例えば塩分が必要な時には塩辛い物が食いたくなり、甘味が必要な時は甘味が食べたくなり、水分の必要な場合は咽喉が渇くというように、自然は必要によって意欲が起るように造られている。<br/><br/>それと共に消化機能も一定の条件に適うように出来ている。<br/><br/>すなわち食うべき物はことごとく消化されるが、食うべからざる物は、処理されないで残存する。<br/><br/>この理によって薬剤は異物であるから、消化処理されないので、これが古くなると毒素に変化してしまう。<br/><br/>その毒素の排除作用が病気であるから、病原はとりも直さず薬剤という事になる。<br/><br/>喀痰、鼻汁、汗、膿、毒血等はことごとく薬毒の変化したものであるから、世に薬剤程恐るべき物はないのである。<br/><br/> これを知らなかった人類は、病気を治そうとして病気を作って来た訳である。<br/><br/>何と重大誤謬を犯して来た事に気がつくであろう。<br/><br/>実にこれ程愚かな話はあるまい。<br/><br/>としたらこの一事だけを人類に知らせるとしたら、いかに大なる救いであるかは、今更贅言を要しないであろう。<br/><br/>何よりもこの私の説を信じて、専門家諸君は病気と対照してみるがいい。<br/><br/>一点の誤りない事を知るであろう。<br/><br/> 右によってみても判るごとく、長い間人類は病気に対する誤った解釈が因となり、病気の解決どころか、逆に病気を作り病気の種類も増やしつつ今日に到ったのである。<br/><br/>しかもこの誤謬が貧乏も戦争の原因ともなっているのであるから、何よりもこの蒙（もう）を啓かなければ真の文明は生まれるはずはないのである。<br/><br/>従って現在の人間は薬毒のない原始時代の人間に比べれば、その健康の劣弱さは比較にならない程で、無薬時代の人間の寿齢が、百歳以上が普通であった事など、種々の記録や文献などに見ても余りに明らかである。<br/><br/>私は彼の武内宿禰の寿齢三百六歳という有名な話は、本当とは思ってはいなかったが、先年武内家の家系を見たところ、これは確実である事が判った。<br/><br/>武内家の祖先の中、最長寿者は三百四十九歳で、次は三百二十何歳、次は三百十何歳、武内宿禰は確か四番目であったと記憶している。<br/><br/>この時代は今から二千年以前から千六、七百年前くらいにかけてであるから、まだ漢薬の渡来以前であった事は間違いない。<br/><br/>また神武天皇から千数百年までは、天皇の寿齢はほとんど百才以上であった事は記録に明らかである。<br/><br/> 近来、米国及び日本人の寿齢が、いささか延びたといって喜んでいるが、この原因は医学の進歩のためではなく、他に原因があり、これは後に書く事にするが、要するに一切の病原は薬毒である事が判ればいいのである。<br/><br/>病気のための痛み、痒み、発熱、不快感等すべての苦痛は、ことごとく薬毒が原因である事は、私の多数の経験によるも絶対誤りはない。<br/><br/>もちろん遺伝微毒も、癩病、天然痘、麻疹、百日咳等の先天的保有毒素もことごとく薬毒である。<br/><br/>何よりも現代人が全然無病の人は、恐らく十人に一人もないであろう。<br/><br/>どの人を見ても何かしらの病気を持っている。<br/><br/>数人の家族で病人のない家は、珍しいとされており、一人や二人は一年の内に入院する者のない家庭はほとんどあるまいと共に、一年中一滴の薬を服まない人も稀（まれ）であろう。<br/><br/>このように現代人は弱体となっているから、病気を恐れる事もはなはだしく、このために要する費用、不安、努力のために及ぼす影響も、けだし甚大なものがあろう。<br/><br/> 従って、この世界から薬剤ことごとくを海に投げ捨てたとしたら、その時を期とし病気は漸減し、何十年後には、病なき世界の実現は断言し得るのである。<br/><br/> 次に、これから主なる病気について解説してみるが、人体の基本的機能としては、何といっても心臓、肺臓、胃の腑の三つであるから、これから先に書いてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zettai01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 六、絶対健康の可能と長寿法 『日本医術講義録』第１篇、昭和10(1935)年執筆 恐らく、人間として、絶対健康と長寿を冀（こいねが）わぬ者は一人もないであろう。<br><br>しかるに、今までそれを求めようとした人類は、何に求めたかと言うと、それは科学に求めたのである。<br><br>これがそもそもの誤謬の根本原因である。<br><br>人間の肉体が、科学に依って造られたものならばいざ知らず、そうでない以上、科学で出来た薬や器〔機〕械で治ろうはずがないではないか。<br><br>神に依って造られた人間である以上、生命の神秘やその構造の、霊妙不可思議なる、到底、今日の学問の程度では知る事が出来ないのは当然である。<br><br> それは、草木の成長や、太陽の光の正体、天候の予測が付かないのと同じ様なものである。<br><br> 病気の原因についても、風邪の原因すら、未だ判っていないのであるのを見ても、思半（おもいなかば）に過ぐるであろう。<br><br>今日、肺病とか、胃病とか、何々結核とか、何々炎とか言った所で、それは病気として、現われたる現象、言い換えれば、何らかの原因に生れた、その結果であってそれへ当てはめて病名を付けただけのものである。<br><br>例えば、肺病に罹ったとする。<br><br>なぜ、肺病に罹ったかと言えば、黴菌を呑込んだからと言うのである。<br><br>しかるに、黴菌は誰しも、毎日、何万匹呑込んでいるか判らない。<br><br>それなのに不公平にも病気に罹る人と、罹らない人とが出来る。<br><br> 医者は言うであろう。<br><br>病気に罹るのは、その人が肺が弱いからであると。<br><br>ところが、なぜ、肺が弱く生れたのかと訊（き）けば、その先は判らない。<br><br>又、胃癌が発生したとする。<br><br>その原因は判らない。<br><br>子供がバナナを食って、疫痢になった事はよく聞く事であるが、バナナを食って疫痢になると決ってはいない。<br><br>年中食っても疫痢に罹らない子供もあれば、又、食っても何ともない時と、罹病する時とがある。<br><br>まさか黴菌のあるバナナと、黴菌のないバナナとある訳のものではあるまい。<br><br>バナナは皮を剥いて食うものであるから、バナナ自身はみんな同じものでなければならない。<br><br>しかし、今日の医学上、疫痢は、黴菌の媒介によるという学説である。<br><br>そういう様な訳で、黴菌に依って感染するという事はあるには違いないが、この黴菌を人間に絶対付着侵入させないという事は、この複雑なる社会に生活している以上、絶対不可能であろう。<br><br>ある程度までの衛生的予防より以上は不可能の事である。<br><br> 吾々が電車に乗るとする、お隣りに肺患者が乗らないと、誰が保証し得よう。<br><br>又、冬など、閉め切った電車内、満員であれば、五人や十人の保菌者は乗合していない事はあるまい。<br><br>まず、冬の電車に二三十分も乗ったら、一万や二万の結核菌は御馳走になると思わなければならない。<br><br>次に、吾々が、毎日手で扱う貨幣である。<br><br>紙幣にしろ、硬貨にしろ、肺患者や、梅毒患者が、タッタ今持ったかもしれない。<br><br>それだというて一々消毒をするという事は、絶対不可能である。<br><br>又小売商店の販売人等は、貨幣を手にする事、一日何十回なるを知らず、まさか、その度毎にフォルマリンの消毒をする訳にも行かないから、その手で飯も食えば、菓子も撮（つま）むのは当然の話である。<br><br> 菓子屋などを見てると、客から銭を貰い、勘定をすると、その手を以て、次に来た客へ売る菓子を直ぐに撮んで入れてるではないか。<br><br>これらの実際を見る時、絶対に黴菌に侵されない様にするという事は、人類生活に一大変革の起らない限り、到底不可能な事である。<br><br>絶対不可能でありとすれば、人間自身の身体の方で、たとえ、黴菌がいかなる場所から侵入するとても、決して病気の起らないという、鉄のごとき健康体を造る事が、理想的ではあるまいか。<br><br>そういう不死身の様な身体が出来る方法が有り得るとすれば、こんな偉大な福音があるであろうか。<br><br>それは私が創成した、日本式医学衛生を実行する事によって、必ず可能なのである。<br><br> いかなる黴菌にも犯されないとすれば、その人は無病息災であるから、自然に、老齢天寿の来るまでは、生き得らるる道理である。<br><br>まず、人間の天寿としては、九十から百以上は可能であるから、ここに、長寿の希望は達し得らるるのである。<br><br>故に、絶対健康法と長寿は、切っても切れない関係である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Conquista da Saúde Absoluta e o Caminho para a Longevidade</h2>
 <p>Provavelmente, não há um único ser humano que não almeje a saúde absoluta e uma vida longa. Contudo, em sua busca por esses ideais, a humanidade tem recorrido invariavelmente à ciência, e esta é a causa fundamental de um equívoco primordial. Fosse o corpo humano uma criação da ciência, a situação seria outra; mas, não sendo o caso, como poderia ser curado por medicamentos e equipamentos que são produtos do engenho científico? Sendo o ser humano uma criação de Deus, é natural que o mistério da vida e a sua estrutura, de uma sutileza e complexidade admiráveis, transcendam por completo o alcance do conhecimento acadêmico atual.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Diante dessas situações do cotidiano, a prevenção absoluta é impraticável, a menos que ocorra uma transformação radical no modo de vida da humanidade. Se evitar o contágio é impossível, não seria o ideal forjar um corpo com a resistência do aço, capaz de permanecer saudável independentemente dos micróbios que o invadam? Se existe um método capaz de criar um corpo praticamente invulnerável, haveria evangelho mais grandioso do que este? Afirmo que tal feito é plenamente possível por meio da prática da medicina e da higiene de estilo japonês por mim estabelecidas.</p>
 <p>Aquele que se torna imune a qualquer tipo de micróbio estará, por consequência, isento de doenças e infortúnios. Assim, é lógico que poderá viver até que a velhice chegue e sua longevidade natural se cumpra. A longevidade natural do ser humano pode perfeitamente estender-se dos noventa aos cem anos, ou até mais, satisfazendo, assim, o anseio por uma vida longa.</p>
 <p>Dessa forma, o método para a saúde absoluta e a conquista da longevidade possuem um vínculo indissociável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 六、絶対健康の可能と長寿法 『日本医術講義録』第１篇、昭和10(1935)年執筆 恐らく、人間として、絶対健康と長寿を冀（こいねが）わぬ者は一人もないであろう。<br/><br/>しかるに、今までそれを求めようとした人類は、何に求めたかと言うと、それは科学に求めたのである。<br/><br/>これがそもそもの誤謬の根本原因である。<br/><br/>人間の肉体が、科学に依って造られたものならばいざ知らず、そうでない以上、科学で出来た薬や器〔機〕械で治ろうはずがないではないか。<br/><br/>神に依って造られた人間である以上、生命の神秘やその構造の、霊妙不可思議なる、到底、今日の学問の程度では知る事が出来ないのは当然である。<br/><br/> それは、草木の成長や、太陽の光の正体、天候の予測が付かないのと同じ様なものである。<br/><br/> 病気の原因についても、風邪の原因すら、未だ判っていないのであるのを見ても、思半（おもいなかば）に過ぐるであろう。<br/><br/>今日、肺病とか、胃病とか、何々結核とか、何々炎とか言った所で、それは病気として、現われたる現象、言い換えれば、何らかの原因に生れた、その結果であってそれへ当てはめて病名を付けただけのものである。<br/><br/>例えば、肺病に罹ったとする。<br/><br/>なぜ、肺病に罹ったかと言えば、黴菌を呑込んだからと言うのである。<br/><br/>しかるに、黴菌は誰しも、毎日、何万匹呑込んでいるか判らない。<br/><br/>それなのに不公平にも病気に罹る人と、罹らない人とが出来る。<br/><br/> 医者は言うであろう。<br/><br/>病気に罹るのは、その人が肺が弱いからであると。<br/><br/>ところが、なぜ、肺が弱く生れたのかと訊（き）けば、その先は判らない。<br/><br/>又、胃癌が発生したとする。<br/><br/>その原因は判らない。<br/><br/>子供がバナナを食って、疫痢になった事はよく聞く事であるが、バナナを食って疫痢になると決ってはいない。<br/><br/>年中食っても疫痢に罹らない子供もあれば、又、食っても何ともない時と、罹病する時とがある。<br/><br/>まさか黴菌のあるバナナと、黴菌のないバナナとある訳のものではあるまい。<br/><br/>バナナは皮を剥いて食うものであるから、バナナ自身はみんな同じものでなければならない。<br/><br/>しかし、今日の医学上、疫痢は、黴菌の媒介によるという学説である。<br/><br/>そういう様な訳で、黴菌に依って感染するという事はあるには違いないが、この黴菌を人間に絶対付着侵入させないという事は、この複雑なる社会に生活している以上、絶対不可能であろう。<br/><br/>ある程度までの衛生的予防より以上は不可能の事である。<br/><br/> 吾々が電車に乗るとする、お隣りに肺患者が乗らないと、誰が保証し得よう。<br/><br/>又、冬など、閉め切った電車内、満員であれば、五人や十人の保菌者は乗合していない事はあるまい。<br/><br/>まず、冬の電車に二三十分も乗ったら、一万や二万の結核菌は御馳走になると思わなければならない。<br/><br/>次に、吾々が、毎日手で扱う貨幣である。<br/><br/>紙幣にしろ、硬貨にしろ、肺患者や、梅毒患者が、タッタ今持ったかもしれない。<br/><br/>それだというて一々消毒をするという事は、絶対不可能である。<br/><br/>又小売商店の販売人等は、貨幣を手にする事、一日何十回なるを知らず、まさか、その度毎にフォルマリンの消毒をする訳にも行かないから、その手で飯も食えば、菓子も撮（つま）むのは当然の話である。<br/><br/> 菓子屋などを見てると、客から銭を貰い、勘定をすると、その手を以て、次に来た客へ売る菓子を直ぐに撮んで入れてるではないか。<br/><br/>これらの実際を見る時、絶対に黴菌に侵されない様にするという事は、人類生活に一大変革の起らない限り、到底不可能な事である。<br/><br/>絶対不可能でありとすれば、人間自身の身体の方で、たとえ、黴菌がいかなる場所から侵入するとても、決して病気の起らないという、鉄のごとき健康体を造る事が、理想的ではあるまいか。<br/><br/>そういう不死身の様な身体が出来る方法が有り得るとすれば、こんな偉大な福音があるであろうか。<br/><br/>それは私が創成した、日本式医学衛生を実行する事によって、必ず可能なのである。<br/><br/> いかなる黴菌にも犯されないとすれば、その人は無病息災であるから、自然に、老齢天寿の来るまでは、生き得らるる道理である。<br/><br/>まず、人間の天寿としては、九十から百以上は可能であるから、ここに、長寿の希望は達し得らるるのである。<br/><br/>故に、絶対健康法と長寿は、切っても切れない関係である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

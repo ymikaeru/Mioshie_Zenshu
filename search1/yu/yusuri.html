@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yusuri</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ユスリ物語 『光』19号、昭和24(1949)年7月23日発行 由来（もとより）、宗教団体に対し強請（ゆすり）の多い事はかねて聞いていたところではあるが、本教が税問題で社会に喧伝（けんでん）されるや、どこからともなく金貰い強請等が続々来た事は実に驚くべきものがあった、何しろ某大新聞などには本教の資産二、三十億と出ていたのでこれを狙って有象無象（うぞうむぞう）や見ず識らずの者までが多く手紙紹介状等を利用して毎日引きも切らない有様、事業資金が足りないとか、有利事業だから投資しないかとか、仏像を買って貰いたいとか、はなはだしいのは子供の死際に浄霊を頼んだばかりの縁で、死後慰籍料（いしゃりょう）何万円を寄越せとかいって来た者もあり、一時はその返答や応接に忙殺されたものである、ここでチョッピリ強請の内幕を暴露してみよう。<br><br> ユスリという商売もなかなが智慧が要るようだ、中には随分深謀遠慮（しんぼうえんりょ）な画策をするものさえあるが、これらを見る時、これ程の智慧を正しい事に働かしたならどんなに成功するかと思って、実に惜しい気がした事が度々あった、しかし彼らは人を騙して金銭を得る事に深い興味を感ずるらしい。<br><br> 同じユスリといっても軟派と硬派があるから面白い、まず軟派から話してみるが、これは洵（まこと）に柔らかく、さも教団に忠実なるごとく見せかける、そうしてその言う事は「ある団体が教団を危殆（きたい）に陥れようと画策している」とか「信者を撹乱している」とか、種々巧妙な脚本を作って運動費を要求する、そうしてこの連中は実に弁舌巧みで、うっかりすると一杯食わされるのである、しかし最も多いのは左のごとき型である、これは徹頭徹尾脅迫型で彼らが用いる常套手段としては「司令部や法務庁が弾圧すべく準備中」だとかはなはだしいのは「大先生を引っ張って家宅捜索をし教団をブッ潰す」とか「教団の各支部にわたって一斉検挙をする」とか、最近のごときは国会議員まで利用している者もあり、共産党を利用する者もある、また彼らのよく用いる手は、大袈裟（おおげさ）な脅かしを並べておいて、さてこれを未然に防ぐには運動費何万円が要るなどというのや、あの手この手のイヤがらせをする奴もあり、何々会の会長とかいう聞いた事もない会名を三つも四つもデカデカと並べた名刺を出して援助を乞うもの、聞いた事もない新聞や雑誌記者と名乗るもの、滑稽なのは面会するやワザとドラ声を出してイヤがらせたり執拗に粘って幾何（いくばく）かせしめようとする、彼らの特徴としては話が非常に巧妙である事と、今一つは紙一重というところまで注意して法規に触れないようにする。<br><br> また稀には立会演説を申込んだり、前もって彼らの画策を情報的に知らせる手もある、しかし感心する事は彼ら創作技術であって捏造はお手の物であるから官庁の役人や重要方面などに疑惑を起させる事は妙を得ておりそれがため、本教の夢にも思わない事柄を訊ねられる事も往々あって唖然とする事がよくある、したがって当局や言論機関、社会一般が疑惑を起す原因のネタはユスリから出ている場合が非常に多いのであるから彼ユスリ君も偉なりと言うべきである。<br><br> 次にこういう苦肉の手を用いる、それは投書を数十通作成し、もちろん一人ずつ名前を変え各所から投函するので、当局も輿論（よろん）と誤解し本教に向かって取調べを行う事さえあるから驚くべきである、ゆえに当局においても彼らの手に乗らぬよう細心の注意を要望するのである、もっとも投書によって犯罪剔出（てきしゅつ）の手懸りとなる事実もあるから投書も馬鹿にはならないが、といって投書のために良民があらぬ疑いを受け迷惑を蒙（こうむ）る場合もある以上、取捨選択に充分戒意（かいい）されたいのである。<br><br> 事いやしくも社会改善を目標とする宗教に不善などありようはずがないからである、そうして感心する事は、相当有力な新聞社の記者は、金銭饗応などには決して目もくれない事でも、流石（さすが）と思うのである。<br><br> (注) 由来（ゆらい）、事の起こり、来歴、由緒。<br><br>副詞的に使って、もとより、元来。<br><br> 喧伝（けんでん）、世間に言いはやし伝えること。<br><br> 有象無象（うぞうむぞう）、世にいくらでもある種種雑多なつまらない人々。<br><br>宇宙にある一切のもの。<br><br> 深謀遠慮（しんぼうえんりょ）、深謀、深いはかりごと。<br><br>遠慮、遠い先々まで考えること。<br><br> 危殆（きたい）、非常に危ないこと。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato sobre a Extorsão</h2>
 <p>Sempre soube que as organizações religiosas são alvo frequente de extorsão. Contudo, foi verdadeiramente assombroso constatar a torrente de oportunistas e chantagistas que surgiu de toda parte, assim que nossa Igreja ganhou notoriedade na sociedade por questões tributárias. Um dos grandes jornais da época chegou a noticiar que nosso patrimônio seria de dois a três bilhões de ienes, o que atraiu toda sorte de indivíduos, muitos dos quais completamente desconhecidos, que passaram a nos procurar em um fluxo incessante, munidos de cartas e supostas apresentações.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Há ainda táticas mais elaboradas, como propor debates públicos ou vazar "informações privilegiadas" sobre seus próprios planos, numa tentativa de conferir-lhes veracidade. Contudo, o que mais impressiona é sua capacidade criativa. São mestres na arte da fabricação de boatos e exímios em semear a desconfiança entre autoridades governamentais e figuras influentes. Em decorrência disso, não raro somos interpelados sobre assuntos que sequer imaginávamos, o que nos deixa perplexos. Portanto, a semente da dúvida que germina nas autoridades, na imprensa e na sociedade em geral é, em grande parte, plantada por esses indivíduos. Sob essa ótica, pode-se dizer que tais senhores são, a seu modo, verdadeiros artífices.</p>
 <p>Outro ardil a que recorrem é o do sacrifício calculado. Produzem dezenas de cartas anônimas, cada uma com um remetente fictício, e as enviam de diferentes localidades. As autoridades, por sua vez, podem interpretar essa correspondência orquestrada como uma genuína manifestação da opinião pública e, com base nisso, iniciar investigações contra nossa Igreja, o que é assombroso. Nesse sentido, faço um apelo às autoridades para que exerçam máxima cautela a fim de não serem manipuladas por tais esquemas. É verdade que denúncias anônimas podem, por vezes, servir como ponto de partida para a elucidação de crimes e, portanto, não devem ser inteiramente desconsideradas. Todavia, dado que podem também submeter cidadãos de bem a suspeitas infundadas e a grandes transtornos, é imperativo que haja um discernimento rigoroso em sua avaliação.</p>
 <p>Afinal, uma religião cujo objetivo é o aprimoramento da sociedade jamais poderia abrigar intentos malignos. É digno de nota, e de admiração, que os jornalistas de veículos de comunicação verdadeiramente sérios e influentes jamais se deixam seduzir por subornos ou agrados materiais. Nisso, demonstram sua real grandeza.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ユスリ物語 『光』19号、昭和24(1949)年7月23日発行 由来（もとより）、宗教団体に対し強請（ゆすり）の多い事はかねて聞いていたところではあるが、本教が税問題で社会に喧伝（けんでん）されるや、どこからともなく金貰い強請等が続々来た事は実に驚くべきものがあった、何しろ某大新聞などには本教の資産二、三十億と出ていたのでこれを狙って有象無象（うぞうむぞう）や見ず識らずの者までが多く手紙紹介状等を利用して毎日引きも切らない有様、事業資金が足りないとか、有利事業だから投資しないかとか、仏像を買って貰いたいとか、はなはだしいのは子供の死際に浄霊を頼んだばかりの縁で、死後慰籍料（いしゃりょう）何万円を寄越せとかいって来た者もあり、一時はその返答や応接に忙殺されたものである、ここでチョッピリ強請の内幕を暴露してみよう。<br/><br/> ユスリという商売もなかなが智慧が要るようだ、中には随分深謀遠慮（しんぼうえんりょ）な画策をするものさえあるが、これらを見る時、これ程の智慧を正しい事に働かしたならどんなに成功するかと思って、実に惜しい気がした事が度々あった、しかし彼らは人を騙して金銭を得る事に深い興味を感ずるらしい。<br/><br/> 同じユスリといっても軟派と硬派があるから面白い、まず軟派から話してみるが、これは洵（まこと）に柔らかく、さも教団に忠実なるごとく見せかける、そうしてその言う事は「ある団体が教団を危殆（きたい）に陥れようと画策している」とか「信者を撹乱している」とか、種々巧妙な脚本を作って運動費を要求する、そうしてこの連中は実に弁舌巧みで、うっかりすると一杯食わされるのである、しかし最も多いのは左のごとき型である、これは徹頭徹尾脅迫型で彼らが用いる常套手段としては「司令部や法務庁が弾圧すべく準備中」だとかはなはだしいのは「大先生を引っ張って家宅捜索をし教団をブッ潰す」とか「教団の各支部にわたって一斉検挙をする」とか、最近のごときは国会議員まで利用している者もあり、共産党を利用する者もある、また彼らのよく用いる手は、大袈裟（おおげさ）な脅かしを並べておいて、さてこれを未然に防ぐには運動費何万円が要るなどというのや、あの手この手のイヤがらせをする奴もあり、何々会の会長とかいう聞いた事もない会名を三つも四つもデカデカと並べた名刺を出して援助を乞うもの、聞いた事もない新聞や雑誌記者と名乗るもの、滑稽なのは面会するやワザとドラ声を出してイヤがらせたり執拗に粘って幾何（いくばく）かせしめようとする、彼らの特徴としては話が非常に巧妙である事と、今一つは紙一重というところまで注意して法規に触れないようにする。<br/><br/> また稀には立会演説を申込んだり、前もって彼らの画策を情報的に知らせる手もある、しかし感心する事は彼ら創作技術であって捏造はお手の物であるから官庁の役人や重要方面などに疑惑を起させる事は妙を得ておりそれがため、本教の夢にも思わない事柄を訊ねられる事も往々あって唖然とする事がよくある、したがって当局や言論機関、社会一般が疑惑を起す原因のネタはユスリから出ている場合が非常に多いのであるから彼ユスリ君も偉なりと言うべきである。<br/><br/> 次にこういう苦肉の手を用いる、それは投書を数十通作成し、もちろん一人ずつ名前を変え各所から投函するので、当局も輿論（よろん）と誤解し本教に向かって取調べを行う事さえあるから驚くべきである、ゆえに当局においても彼らの手に乗らぬよう細心の注意を要望するのである、もっとも投書によって犯罪剔出（てきしゅつ）の手懸りとなる事実もあるから投書も馬鹿にはならないが、といって投書のために良民があらぬ疑いを受け迷惑を蒙（こうむ）る場合もある以上、取捨選択に充分戒意（かいい）されたいのである。<br/><br/> 事いやしくも社会改善を目標とする宗教に不善などありようはずがないからである、そうして感心する事は、相当有力な新聞社の記者は、金銭饗応などには決して目もくれない事でも、流石（さすが）と思うのである。<br/><br/> (注) 由来（ゆらい）、事の起こり、来歴、由緒。<br/><br/>副詞的に使って、もとより、元来。<br/><br/> 喧伝（けんでん）、世間に言いはやし伝えること。<br/><br/> 有象無象（うぞうむぞう）、世にいくらでもある種種雑多なつまらない人々。<br/><br/>宇宙にある一切のもの。<br/><br/> 深謀遠慮（しんぼうえんりょ）、深謀、深いはかりごと。<br/><br/>遠慮、遠い先々まで考えること。<br/><br/> 危殆（きたい）、非常に危ないこと。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

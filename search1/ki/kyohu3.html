@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kyohu3</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十、恐怖心鼓吹の衛生学と黴菌の必要 『日本医術講義録』第１篇、昭和10(1935)年執筆 およそ、この世に在りとあらゆる物は、人類生活に対し、無益な物は一つもないのである。<br><br>人間が今日までの経験や学問により解釈して以て、有害だとか無益だとか決めるだけであって、人類生活を向上させ、進歩発展を宰（つかさど）り給う、神の御心に依らなければ、真実の意義は決して解らないのである。<br><br>この神の御意志を、私は宣べ伝えるのであるから、今日の人間より見て頗（すこぶ）る意外な事や、反対な説が多々あるであろうが、これが真理であるから、意を潜めて、熟読玩味すれば、豁然（かつぜん）と蒙を啓き能（あた）うのである。<br><br> 人間が、最も忌み嫌う、彼の蝿という虫は、実は、人類生活に最も有用なる役目を遂行しているのであって、もし、この蝿なる虫がないとすれば、人類はやがて滅亡するやも料（はか）られないのである。<br><br>なぜなれば、この貴重なる蝿は、黴菌を伝播する役目をしているからである。<br><br>しかも、それが最も恐るべき伝染病の黴菌においておやである。<br><br> 現在の人間が、諸々（もろもろ）の罪穢を犯す為に、それが精霊に曇りを生ぜしめる。<br><br>その曇にも当然種類があるのである。<br><br>それは、犯す罪穢に種類があるが故である。<br><br>故に、その罪穢相応が曇となり、その曇の相応が血液の濁りとなるのである。<br><br>その血液の濁りが一定の程度を越ゆれば、その人自身が死を招くのみならず、その子孫にまで、虚弱者を生ずべき怖れあるなれば、この場合その人間の生命と、その子孫の健康をして完全なるものたらしめざるべからず。<br><br>それが、種々の黴菌をして、その濁りの血即ち、毒血排除の工作をさすのである。<br><br>その工作者こそ、実に、各種の黴菌その物である。<br><br> 故に神は、あらゆる種類の黴菌を作られ、その黴菌が絶えず伝播されて、人間の肉体のあらゆる箇所から、侵入する様に出来ているのである。<br><br>侵入した黴菌が、己の掃除すべき毒血がなければ、その黴菌は力が弱り、しかも、血液の活力によって殺されてしまうのである。<br><br>それがいわば純な血液の殺菌力なのである。<br><br>しかるに、一度、黴菌が侵入するや、その黴菌に適合すべき毒血がありたる際は、非常なる黴菌の生活力を増し、どしどし繁殖してゆくのである。<br><br>毒血のあるだけ繁殖して、そうして、その毒血を体外へ排泄し、又は消滅せしむるのである。<br><br>その活動が熱となり、下痢となり、嘔吐となり、痛み等となるのである。<br><br>それでその毒血が減るに従って、病気は治癒されてゆくのである。<br><br>もし、その人が、黴菌の侵入を受けなかったとすれば、それは十が十たおれるべき運命に在ったのであるが、幸いにも黴菌の侵入に依って浄血法が行われたる為、万に一つの生命を恵まれるのであるから、その病気を起してくれた黴菌及び、それを運搬してくれた蝿虫に、大いに感謝していいのである。<br><br>ただしかし、余り毒血過多なる者は、その浄血工作中、たおれるのは止むを得ないのである。<br><br>故にこの浄血工作は、大自然が人類を永続せしむる為の優生運動とも言うべきである。<br><br> 今述べたごとくである以上、黴菌を恐れる事は、頗（すこぶ）る誤りである事を識るであろう。<br><br>故に、この真実を知った人は、黴菌に対する恐怖心は全然無くなるを以て、その安心を得た幸福感も少くはないであろう。<br><br>しかるに、この理を知らない現代人は、黴菌を恐るる事、鉄砲弾のごとく、知識階級又は上流社会程、この不安が多いのであって、稀には、黴菌恐怖病なる一種の新しい疾患さえ現われているのである。<br><br>それらの患者は、黴菌恐怖の余り、外出も碌々（ろくろく）出来ないのであって、それは、汽車や電車へ乗る事が恐ろしいからである。<br><br>そうして絶えず、家に在っては消毒薬で手を洗い、衣服住居を消毒させ、はなはだしいのになると、その為の看護人を傭い入れて、しかも、その看護婦の外出を禁じ、事毎に極端なる干渉をなすを以て、大抵は驚いて逃げ出すのである。<br><br>これらは悉（ことごと）く謬（あやま）れる黴菌恐怖から起ったものである。<br><br>これ程でなくとも、大なり小なりの恐怖病者は随分多いのである。<br><br> これらの恐怖病者も、この真実を識ったなら、いかに救わるるであろうか。<br><br>しかし、ここに一言断っておきたい事は、黴菌恐るるに足らずといえども、不潔は、最も不可（いけな）いのである。<br><br>光明世界は、真善美の世界であるが故に、飽くまで、醜を避け、美であり、清潔でなければならないのであって、形が麗（うる）わしく、心が美わしく、生活が、社会が美わしくならなければならない。<br><br>つまり、美わしいところに、病と貧は無いからである。<br><br> 今一つ、重大なる事がある。<br><br>それは、伝染病の黴菌のごとく、不純なる黴菌は、観音の霊光に遇えば忽（たちま）ちに死滅するという事である。<br><br>霊的に言えば不純黴菌は、暗黒界に属する生物であるから、光明に照らされれば、生命は保てないのである。<br><br>故に、観音の光に触れる人は、まず、伝染病には罹らないと言ってもいいのであって、偶々（たまたま）罹るとするも、頗る軽微で、速かに治癒するのである。<br><br>これは、実験上、永年、私が体験している所である。<br><br>光明世界完成の暁は、伝染病が絶滅するという事は、これを以ても判るはずである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Doutrina do Medo e a Necessária Missão dos Micróbios</h2>
 <p>Em essência, nada que existe neste mundo é desprovido de propósito para a vida humana. A concepção de que algo seja nocivo ou inútil é meramente uma conclusão humana, fundamentada na experiência e no saber acumulados até o presente. Contudo, o verdadeiro significado das coisas jamais poderá ser compreendido se não nos basearmos na Vontade Divina, que rege a elevação e o progresso da humanidade. É precisamente essa Vontade Divina que venho proclamar e, por essa razão, é natural que muitos de meus ensinamentos pareçam surpreendentes ou mesmo contraditórios às noções vigentes. No entanto, por constituírem a Verdade, aqueles que se dedicarem à sua leitura com mente serena e espírito perscrutador terão sua ignorância subitamente dissipada, alcançando uma clara compreensão.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Os que sofrem dessa condição mal conseguem sair de casa, pois sentem pavor de entrar em trens ou bondes. Em seus lares, lavam as mãos incessantemente com desinfetantes, esterilizam roupas e cômodos. Nos casos mais graves, chegam a contratar um cuidador, a quem proíbem de sair, e o submetem a uma interferência tão extremada em cada detalhe que, via de regra, o profissional acaba por fugir, atônito. Tudo isso se origina de um temor falacioso em relação aos micróbios. E ainda que não cheguem a tal extremo, é grande o número de pessoas que sofrem dessa fobia em maior ou menor grau.</p>
 <p>Quão grande seria o alívio para essas pessoas se elas compreendessem esta verdade! No entanto, desejo fazer uma ressalva importante: embora os micróbios não devam ser temidos, a imundície é absolutamente inaceitável. O Mundo da Luz é o mundo da Verdade, do Bem e do Belo; portanto, devemos sempre repelir o feio e buscar a beleza e a pureza. A forma deve ser bela, o coração deve ser belo, e a vida e a sociedade devem se tornar belas. Em suma, onde reina a beleza, não há lugar para a doença e a pobreza.</p>
 <p>Há ainda outro ponto de suma importância. Os micróbios impuros, como os causadores de doenças contagiosas, são aniquilados instantaneamente ao encontrar a Luz Espiritual de Kannon (観音). Do ponto de vista espiritual, os micróbios impuros são seres pertencentes ao mundo das trevas e, por conseguinte, não conseguem sobreviver quando iluminados pela Luz. Por essa razão, pode-se afirmar que aqueles que são tocados pela Luz de Kannon (観音) estão praticamente imunes a doenças contagiosas. E, caso venham a contraí-las, a manifestação será extremamente branda e a recuperação, veloz. Digo isso com base em longos anos de experiência pessoal e comprovação prática. Isso também nos permite compreender por que, na alvorada da conclusão do Mundo da Luz, as doenças contagiosas serão completamente extintas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十、恐怖心鼓吹の衛生学と黴菌の必要 『日本医術講義録』第１篇、昭和10(1935)年執筆 およそ、この世に在りとあらゆる物は、人類生活に対し、無益な物は一つもないのである。<br/><br/>人間が今日までの経験や学問により解釈して以て、有害だとか無益だとか決めるだけであって、人類生活を向上させ、進歩発展を宰（つかさど）り給う、神の御心に依らなければ、真実の意義は決して解らないのである。<br/><br/>この神の御意志を、私は宣べ伝えるのであるから、今日の人間より見て頗（すこぶ）る意外な事や、反対な説が多々あるであろうが、これが真理であるから、意を潜めて、熟読玩味すれば、豁然（かつぜん）と蒙を啓き能（あた）うのである。<br/><br/> 人間が、最も忌み嫌う、彼の蝿という虫は、実は、人類生活に最も有用なる役目を遂行しているのであって、もし、この蝿なる虫がないとすれば、人類はやがて滅亡するやも料（はか）られないのである。<br/><br/>なぜなれば、この貴重なる蝿は、黴菌を伝播する役目をしているからである。<br/><br/>しかも、それが最も恐るべき伝染病の黴菌においておやである。<br/><br/> 現在の人間が、諸々（もろもろ）の罪穢を犯す為に、それが精霊に曇りを生ぜしめる。<br/><br/>その曇にも当然種類があるのである。<br/><br/>それは、犯す罪穢に種類があるが故である。<br/><br/>故に、その罪穢相応が曇となり、その曇の相応が血液の濁りとなるのである。<br/><br/>その血液の濁りが一定の程度を越ゆれば、その人自身が死を招くのみならず、その子孫にまで、虚弱者を生ずべき怖れあるなれば、この場合その人間の生命と、その子孫の健康をして完全なるものたらしめざるべからず。<br/><br/>それが、種々の黴菌をして、その濁りの血即ち、毒血排除の工作をさすのである。<br/><br/>その工作者こそ、実に、各種の黴菌その物である。<br/><br/> 故に神は、あらゆる種類の黴菌を作られ、その黴菌が絶えず伝播されて、人間の肉体のあらゆる箇所から、侵入する様に出来ているのである。<br/><br/>侵入した黴菌が、己の掃除すべき毒血がなければ、その黴菌は力が弱り、しかも、血液の活力によって殺されてしまうのである。<br/><br/>それがいわば純な血液の殺菌力なのである。<br/><br/>しかるに、一度、黴菌が侵入するや、その黴菌に適合すべき毒血がありたる際は、非常なる黴菌の生活力を増し、どしどし繁殖してゆくのである。<br/><br/>毒血のあるだけ繁殖して、そうして、その毒血を体外へ排泄し、又は消滅せしむるのである。<br/><br/>その活動が熱となり、下痢となり、嘔吐となり、痛み等となるのである。<br/><br/>それでその毒血が減るに従って、病気は治癒されてゆくのである。<br/><br/>もし、その人が、黴菌の侵入を受けなかったとすれば、それは十が十たおれるべき運命に在ったのであるが、幸いにも黴菌の侵入に依って浄血法が行われたる為、万に一つの生命を恵まれるのであるから、その病気を起してくれた黴菌及び、それを運搬してくれた蝿虫に、大いに感謝していいのである。<br/><br/>ただしかし、余り毒血過多なる者は、その浄血工作中、たおれるのは止むを得ないのである。<br/><br/>故にこの浄血工作は、大自然が人類を永続せしむる為の優生運動とも言うべきである。<br/><br/> 今述べたごとくである以上、黴菌を恐れる事は、頗（すこぶ）る誤りである事を識るであろう。<br/><br/>故に、この真実を知った人は、黴菌に対する恐怖心は全然無くなるを以て、その安心を得た幸福感も少くはないであろう。<br/><br/>しかるに、この理を知らない現代人は、黴菌を恐るる事、鉄砲弾のごとく、知識階級又は上流社会程、この不安が多いのであって、稀には、黴菌恐怖病なる一種の新しい疾患さえ現われているのである。<br/><br/>それらの患者は、黴菌恐怖の余り、外出も碌々（ろくろく）出来ないのであって、それは、汽車や電車へ乗る事が恐ろしいからである。<br/><br/>そうして絶えず、家に在っては消毒薬で手を洗い、衣服住居を消毒させ、はなはだしいのになると、その為の看護人を傭い入れて、しかも、その看護婦の外出を禁じ、事毎に極端なる干渉をなすを以て、大抵は驚いて逃げ出すのである。<br/><br/>これらは悉（ことごと）く謬（あやま）れる黴菌恐怖から起ったものである。<br/><br/>これ程でなくとも、大なり小なりの恐怖病者は随分多いのである。<br/><br/> これらの恐怖病者も、この真実を識ったなら、いかに救わるるであろうか。<br/><br/>しかし、ここに一言断っておきたい事は、黴菌恐るるに足らずといえども、不潔は、最も不可（いけな）いのである。<br/><br/>光明世界は、真善美の世界であるが故に、飽くまで、醜を避け、美であり、清潔でなければならないのであって、形が麗（うる）わしく、心が美わしく、生活が、社会が美わしくならなければならない。<br/><br/>つまり、美わしいところに、病と貧は無いからである。<br/><br/> 今一つ、重大なる事がある。<br/><br/>それは、伝染病の黴菌のごとく、不純なる黴菌は、観音の霊光に遇えば忽（たちま）ちに死滅するという事である。<br/><br/>霊的に言えば不純黴菌は、暗黒界に属する生物であるから、光明に照らされれば、生命は保てないのである。<br/><br/>故に、観音の光に触れる人は、まず、伝染病には罹らないと言ってもいいのであって、偶々（たまたま）罹るとするも、頗る軽微で、速かに治癒するのである。<br/><br/>これは、実験上、永年、私が体験している所である。<br/><br/>光明世界完成の暁は、伝染病が絶滅するという事は、これを以ても判るはずである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku17</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,61 +239,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学迷信を打破せよ 未発表、年代不詳 今日の社会全般を見ると、何でもかんでも科学の二字を付けないと、誰も信用しないらしい。<br><br>というように、よくもこれほど科学は人間の心を占領したものだ。<br><br>全く科学の奴隷である。<br><br>ところが驚くべき事は、今日学者が宗教を批判している事である。<br><br>言うまでもなく今日宗教を論ずる学者は、哲学者か社会科学者、思想研究者等であって、これらはいずれも形而下（けいじか）的の学者である。<br><br>ところが宗教は形而上的のもので、学問よりも上位の存在であるにかかわらず、言論機関などをみると、学者が宗教を批判しているのがほとんどである。<br><br>これが通例となっていて、怪しむ者は一人もあるまい。<br><br>遠慮なくいえば一種のナンセンス以外の何物でもない。<br><br> それでいて不可解な事には、今日の宗教家で、哲学、科学等を批判する者は、まず一人もないといってよかろう。<br><br>という訳でむしろ宗教の方で学者から、裏付けられるような説を乞い希っているくらいだから、霊界における各教祖も、涙を流しておられると思うのである。<br><br>それについて滑稽（こっけい）なのは、アメリカのクリスチャン・サイエンス、日本における仏教哲学等であろうが、これこそ主客転倒であるどころか、宗教の方で学問の力を借りなければ、信用されないからであろう。<br><br> このように宗教の方で科学を上位扱いにしているのだから、大衆は科学を信ずると共に、科学者の方は鼻高々として宗教を軽蔑し、一般もそれに雷同するのである。<br><br>もちろん新聞雑誌なども大衆に迎合するのが本位となっている以上、学者の説を重視し、宗教の方を軽視するというかき方をするのである。<br><br>この結果人々は神を信ぜず、科学万能主義となってしまったのであるが、それで世の中がよくなるとしたら、何をかいわんやであるが、事実は御覧の通りの苦悩不安の世界であるのは、全く科学迷信に捉われ、肝腎な宗教を無視したからであるのはもちろんである。<br><br> ところが私は宗教上から哲学でも、科学でも、思想でも遠慮なく批判している。<br><br>特に医学と農業については、益々突っ込んで誤謬の点を赤裸々に明示しているが、今日まで誰も詰問も抗議もいって来た学者はない。<br><br>それもそのはずで、科学より以上である宗教を通しての批判としたら、一言も云えないのは当然であるからである。<br><br>これについて文明の進歩を乞い希うとしたら、宗教者と科学者においても、胸襟（きょうきん）を開いて論議し、真理の発見をするのが本当であると思うが、そうでないのはまことに張合いがないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>É preciso demolir a superstição da ciência</h2>
 <p>Ao observarmos a sociedade contemporânea, percebemos que nada inspira confiança se não ostentar o rótulo de “ciência”. A ciência logrou ocupar de tal forma a mente humana que as pessoas se tornaram verdadeiras escravas do cientificismo. O que é mais assombroso, contudo, é ver acadêmicos criticando a religião. Evidentemente, os estudiosos que hoje debatem sobre temas religiosos são filósofos, sociólogos ou pesquisadores do pensamento, todos eles dedicados ao estudo do plano material. A religião, todavia, é de natureza metafísica e, portanto, se posiciona em um plano superior ao do conhecimento acadêmico. Apesar disso, nos meios de comunicação, a crítica à religião por parte de intelectuais tornou-se a norma, e ninguém parece estranhar tal fato. Sem rodeios, essa situação não passa de um contrassenso.</p>
 <p>O mais intrigante é que, nos dias de hoje, praticamente não se encontra um único religioso que critique a filosofia ou a ciência. Pelo contrário, é a religião que parece implorar aos acadêmicos por teorias que a corroborem. Imagino que, no Mundo Espiritual, os fundadores de cada religião devam chorar por essa razão. Exemplos risíveis dessa tendência são a Ciência Cristã, nos Estados Unidos, e a Filosofia Budista, no Japão. Trata-se de uma completa inversão de papéis, na qual a própria religião, sentindo-se incapaz de obter crédito por seus próprios méritos, busca o auxílio do conhecimento acadêmico.</p>
 <p>Nesse sentido, como a própria religião trata a ciência com deferência superior, as massas depositam nela sua fé. Os cientistas, por sua vez, tornam-se arrogantes e desprezam a religião, e o público em geral os acompanha sem questionar. A imprensa, naturalmente, cujo propósito é agradar às massas, valoriza as teses dos estudiosos e adota uma postura que menospreza os assuntos religiosos. Como resultado, as pessoas deixaram de crer em Deus e aderiram à crença na onipotência da ciência. Se isso resultasse em um mundo melhor, não haveria o que contestar. Todavia, a realidade, como todos podem ver, é um mundo de angústia e insegurança. Isto ocorre, sem dúvida, porque a humanidade se deixou aprisionar pela superstição da ciência, ignorando o papel fundamental da religião.</p>
 <p>Eu, contudo, a partir de uma perspectiva religiosa, não hesito em criticar a filosofia, a ciência e as demais correntes de pensamento. No que tange à medicina e à agricultura, em particular, tenho exposto seus equívocos de maneira cada vez mais incisiva e cristalina, e, até hoje, nenhum acadêmico apresentou qualquer questionamento ou protesto. Isso é natural, pois, diante de uma crítica fundamentada em um plano superior ao da ciência — o da religião —, eles se veem sem argumentos. Para que o progresso da civilização seja verdadeiramente almejado, penso que seria fundamental que religiosos e cientistas debatessem com a mente aberta, a fim de descobrirem a Verdade. O fato de isso não ocorrer é, de fato, desalentador.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学迷信を打破せよ 未発表、年代不詳 今日の社会全般を見ると、何でもかんでも科学の二字を付けないと、誰も信用しないらしい。<br/><br/>というように、よくもこれほど科学は人間の心を占領したものだ。<br/><br/>全く科学の奴隷である。<br/><br/>ところが驚くべき事は、今日学者が宗教を批判している事である。<br/><br/>言うまでもなく今日宗教を論ずる学者は、哲学者か社会科学者、思想研究者等であって、これらはいずれも形而下（けいじか）的の学者である。<br/><br/>ところが宗教は形而上的のもので、学問よりも上位の存在であるにかかわらず、言論機関などをみると、学者が宗教を批判しているのがほとんどである。<br/><br/>これが通例となっていて、怪しむ者は一人もあるまい。<br/><br/>遠慮なくいえば一種のナンセンス以外の何物でもない。<br/><br/> それでいて不可解な事には、今日の宗教家で、哲学、科学等を批判する者は、まず一人もないといってよかろう。<br/><br/>という訳でむしろ宗教の方で学者から、裏付けられるような説を乞い希っているくらいだから、霊界における各教祖も、涙を流しておられると思うのである。<br/><br/>それについて滑稽（こっけい）なのは、アメリカのクリスチャン・サイエンス、日本における仏教哲学等であろうが、これこそ主客転倒であるどころか、宗教の方で学問の力を借りなければ、信用されないからであろう。<br/><br/> このように宗教の方で科学を上位扱いにしているのだから、大衆は科学を信ずると共に、科学者の方は鼻高々として宗教を軽蔑し、一般もそれに雷同するのである。<br/><br/>もちろん新聞雑誌なども大衆に迎合するのが本位となっている以上、学者の説を重視し、宗教の方を軽視するというかき方をするのである。<br/><br/>この結果人々は神を信ぜず、科学万能主義となってしまったのであるが、それで世の中がよくなるとしたら、何をかいわんやであるが、事実は御覧の通りの苦悩不安の世界であるのは、全く科学迷信に捉われ、肝腎な宗教を無視したからであるのはもちろんである。<br/><br/> ところが私は宗教上から哲学でも、科学でも、思想でも遠慮なく批判している。<br/><br/>特に医学と農業については、益々突っ込んで誤謬の点を赤裸々に明示しているが、今日まで誰も詰問も抗議もいって来た学者はない。<br/><br/>それもそのはずで、科学より以上である宗教を通しての批判としたら、一言も云えないのは当然であるからである。<br/><br/>これについて文明の進歩を乞い希うとしたら、宗教者と科学者においても、胸襟（きょうきん）を開いて論議し、真理の発見をするのが本当であると思うが、そうでないのはまことに張合いがないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

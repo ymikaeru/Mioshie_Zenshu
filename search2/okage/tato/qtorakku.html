@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtorakku</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： トラック転落一命救わる 『栄光』201号、昭和28(1953)年3月25日発行 福井県 大愛中教会 小林晴秀（32） 明主様謹みて御報告申し上げます。<br><br> 入信以来数限りなく戴きました御利益の内主なるものを一つ御報告申し上げさせて頂きます。<br><br> 私は昭和十七年満州に渡り満鉄に入社致しまして十九年の春、一カ月間の休暇を許され二カ年ぶりにて内地に帰って参りましたところ幸い当県へ渋井先生がおいで下され、尊い御守様を戴いて入信させて頂き再び渡満致しました。<br><br> 渋井先生より直々有難い御話を承り、又御浄霊を戴き、天にも登る心地致し、子供の時よりいつも思い浮べた空想が実現したるごとく喜びました。<br><br> 在満中、月の三分の二は夜間勤務の鉄道作業に従事し疲れて帰って見ますと部屋に五、六人から多い時には十人位は私の帰りを待っておりました。<br><br> 耳の悪い人、目の悪い者、体毒で顔一面お化けのような幼児、寝小便する子供等々種々様々な病人を片っぱしから驚くべき早さで治させて頂き、又ある時は生命危険の婦人病をたった四日間の御浄霊にて治させて頂き、また嬉しかった事は近所に住んでいた憲兵軍曹がアミ－バ赤痢で六年間苦しんでおりましたのをわずか六日間にて治させて頂き、本人は言うに及ばず家族の方から大変喜ばれました。<br><br> そのように奇蹟が次々と起りますので、この話が非常に拡がり、益々忙しくなりましたが、昭和二十年現地召集となり、皆様から惜しまれながら入隊しましたが三カ月後終戦、それよりシベリアに入り、幾度と無く所を変り、重労働に服し、ソ連最後の地「ナホトカ」の海岸地帯にて土木作業を続けておりました。<br><br> ちょうど復員する昭和二十一年の秋、いつものように二里の山道をアメリカ製十輪トラックにて、つかれた体をやっと車上の人となり、同胞ら三十数名乗込み、ソ連人の運転にてトラックは動き出しました。<br><br> ある急な山道にさしかかった時運転をあやまり、何丈余もあろう崖を人諸共コロコロと海中まで落ち、乗組員は全部立っておりましたので、御重箱を伏せた様な形になり、私も一瞬大きな鉄鎚でなぐられた感じがして首が胴の中へめり込んだ思いがした事だけ記憶しております。<br><br> それから暫くしてやっと吾に返りあたりを見廻して驚きました。<br><br> あちらにもこちらにも血まみれになって死んでいるもの、唸ってたおれている者、さながら地獄そのままでした。<br><br> 私は早速その場にて首を動かして見ました。<br><br>首も動きます。<br><br>今度は両手を動かして見ましたがこれも自由に動きます。<br><br>「助かった自分は助かった嗚呼有難い」と心の中で喜びながら、がまがえるのように顔中土だらけになって、やっと道端まで這い上って来る事が出来ました。<br><br> そして体中を見ましたが少しも怪我らしい怪我はありませんでした。<br><br>何という不思議な事実もあるものぞと、今さらながら光明如来様の絶大なる御守護に感涙致した次第でございます。<br><br> 今日まで御礼御報告がおくれました事を衷心より伏して御詫び申し上げます。<br><br>何とぞ御許し下さいますよう御願い致します。<br><br> 今後なお一層御聖業に働かせて頂きます事を御誓い申し、末長く御使い下さいますよう御願い致し筆を止めさせて頂きます。<br><br> （昭和二十七年十一月十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato de Graça: Vida salva em queda de caminhão</h2>
 <p>Publicado na revista Eikou, nº 201, em 25 de março de 1953
@@ -103,5 +258,48 @@ Kobayashi Haruhide (32), Igreja Dai-ai Chū, Província de Fukui</p>
 <p>Peço, do fundo do meu coração, as mais sinceras desculpas pelo atraso em apresentar este relato. Rogo-lhe que me perdoe.</p>
 <p>De agora em diante, renovo meu juramento de me dedicar com afinco ainda maior à Obra Divina. Imploro para que me permita servi-Lo por longos anos. Com este voto, encerro minhas palavras.</p>
 <p>(10 de novembro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： トラック転落一命救わる 『栄光』201号、昭和28(1953)年3月25日発行 福井県 大愛中教会 小林晴秀（32） 明主様謹みて御報告申し上げます。<br/><br/> 入信以来数限りなく戴きました御利益の内主なるものを一つ御報告申し上げさせて頂きます。<br/><br/> 私は昭和十七年満州に渡り満鉄に入社致しまして十九年の春、一カ月間の休暇を許され二カ年ぶりにて内地に帰って参りましたところ幸い当県へ渋井先生がおいで下され、尊い御守様を戴いて入信させて頂き再び渡満致しました。<br/><br/> 渋井先生より直々有難い御話を承り、又御浄霊を戴き、天にも登る心地致し、子供の時よりいつも思い浮べた空想が実現したるごとく喜びました。<br/><br/> 在満中、月の三分の二は夜間勤務の鉄道作業に従事し疲れて帰って見ますと部屋に五、六人から多い時には十人位は私の帰りを待っておりました。<br/><br/> 耳の悪い人、目の悪い者、体毒で顔一面お化けのような幼児、寝小便する子供等々種々様々な病人を片っぱしから驚くべき早さで治させて頂き、又ある時は生命危険の婦人病をたった四日間の御浄霊にて治させて頂き、また嬉しかった事は近所に住んでいた憲兵軍曹がアミ－バ赤痢で六年間苦しんでおりましたのをわずか六日間にて治させて頂き、本人は言うに及ばず家族の方から大変喜ばれました。<br/><br/> そのように奇蹟が次々と起りますので、この話が非常に拡がり、益々忙しくなりましたが、昭和二十年現地召集となり、皆様から惜しまれながら入隊しましたが三カ月後終戦、それよりシベリアに入り、幾度と無く所を変り、重労働に服し、ソ連最後の地「ナホトカ」の海岸地帯にて土木作業を続けておりました。<br/><br/> ちょうど復員する昭和二十一年の秋、いつものように二里の山道をアメリカ製十輪トラックにて、つかれた体をやっと車上の人となり、同胞ら三十数名乗込み、ソ連人の運転にてトラックは動き出しました。<br/><br/> ある急な山道にさしかかった時運転をあやまり、何丈余もあろう崖を人諸共コロコロと海中まで落ち、乗組員は全部立っておりましたので、御重箱を伏せた様な形になり、私も一瞬大きな鉄鎚でなぐられた感じがして首が胴の中へめり込んだ思いがした事だけ記憶しております。<br/><br/> それから暫くしてやっと吾に返りあたりを見廻して驚きました。<br/><br/> あちらにもこちらにも血まみれになって死んでいるもの、唸ってたおれている者、さながら地獄そのままでした。<br/><br/> 私は早速その場にて首を動かして見ました。<br/><br/>首も動きます。<br/><br/>今度は両手を動かして見ましたがこれも自由に動きます。<br/><br/>「助かった自分は助かった嗚呼有難い」と心の中で喜びながら、がまがえるのように顔中土だらけになって、やっと道端まで這い上って来る事が出来ました。<br/><br/> そして体中を見ましたが少しも怪我らしい怪我はありませんでした。<br/><br/>何という不思議な事実もあるものぞと、今さらながら光明如来様の絶大なる御守護に感涙致した次第でございます。<br/><br/> 今日まで御礼御報告がおくれました事を衷心より伏して御詫び申し上げます。<br/><br/>何とぞ御許し下さいますよう御願い致します。<br/><br/> 今後なお一層御聖業に働かせて頂きます事を御誓い申し、末長く御使い下さいますよう御願い致し筆を止めさせて頂きます。<br/><br/> （昭和二十七年十一月十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtyusya1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 注射中毒の恐ろしさ 三十年来の喘息の因 『救世』55号、昭和25(1950)年3月25日発行 福島県 五六七大教会大輪中教会 馬上ヒデ（45） 私は十五歳の時より三十年の長い間喘息の病魔に悩まされ一日も薬を用いぬ日なく参りました。<br><br>来る日も来る日も病苦の二字を外に日を送る事の出来なかったのが過去三十年の私の生活のすべてでした。<br><br>発作のため夜もろくろく寝れず朝夕のお勝手仕事をするにも注射なくしては出来ず、四、五丁離れた配給所に行くにも往き帰り注射をし、かろうじて我が家にたどりつく始末でした。<br><br>果ては注射の針を刺す事の出来ぬ程腕は固くなり注射する事すら不可能な有様でした。<br><br>当時の私はせめて一日だけでも苦痛と薬から離れた日を送りたい切ない思いで一ぱいでした、そのくせ神様を否定しひたすら人間や科学の力のみに救いを求め、ありとあらゆる術をつくし果てはただ死あるのみと悲観のどん底に陥ってしまった矢先、昨年九月お導きにより有難い光明如来様の御浄霊を頂きその上お守まで頂き、三十年の苦しみはどこへやら御浄霊二日目にて長い間片時も離れた事のなかった薬と全くお別れしてしまい、理屈にてはどうにもならぬ神の偉大なる御恵に唯物主義一点張りの私もただ事実の前に感泣せざるを得なくなりました。<br><br> それに重ねて時も五六七大教会のお祝日十一月十一日、時間も丁度十一時頃、近くの古川炭鉱に勤務していた愚息正之（二十四歳）作業中（線路補修）信号の誤りより進行中の石炭を満載したトロの下に腕をはさまれ、着ていた三枚のシャツは見る影もなくバラバラに破けたにみて当然腕は断ち切られるべき運命におかれていながら一滴の出血もなく、ただ車輪の跡と痛みを残すのみに止り、それも一回の浄霊にて苦痛はぬぐい去られ平常通りにたちかえる事が出来ました。<br><br> 親子揃って重ね重ねの御利益を頂き光明如来様の大慈大悲の御恵に応え奉りたく昨年二月光明如来様をお祭りさせて頂き親子共に御奉仕させて頂いております事を謹んで御報告申上げます、本当に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Pavor do Vício em Injeções: A Causa de Trinta Anos de Asma</h2>
 <p>Publicado na revista <em>Kyusei</em>, nº 55, em 25 de março de 1950</p>
@@ -97,5 +252,48 @@ Igreja Otamawa da Grande Igreja Miroku, Província de Fukushima</p>
 <p>Naquela época, meu único e pungente desejo era viver um só dia livre da dor e dos remédios. Contudo, eu negava a existência de Deus, depositando minha fé exclusivamente no poder do homem e da ciência. Após esgotar todos os recursos conhecidos, mergulhei no mais profundo abismo do desespero, convencida de que a morte era meu único destino. Foi nesse momento crucial que, em setembro do ano passado, fui guiada a receber o sagrado Johrei de Komyo Nyorai-Sama e, ademais, fui agraciada com o Ohikari. Como que por encanto, os trinta anos de agonia desapareceram. Já no segundo dia de Johrei, abandonei por completo os medicamentos dos quais jamais me separara. Diante da grandiosa graça Divina, que transcende toda e qualquer lógica humana, até mesmo eu, uma materialista convicta, não tive outra escolha senão render-me aos fatos e chorar de gratidão.</p>
 <p>A essa graça, somou-se outra. No dia 11 de novembro, data festiva da Grande Igreja Miroku, por volta das onze horas da manhã, meu filho Masayuki, de vinte e quatro anos, que trabalhava na mina de carvão de Furukawa, realizava um reparo nos trilhos quando, devido a um erro de sinalização, teve seu braço prensado sob um vagão em movimento, completamente carregado de carvão. As três camadas de roupa que vestia foram reduzidas a farrapos, e o desfecho lógico seria a amputação de seu braço. Contudo, para espanto de todos, não houve uma gota de sangue; restaram apenas a marca da roda e a dor. E mesmo essa dor foi inteiramente dissipada com uma única ministração de Johrei, permitindo que ele retomasse suas atividades normalmente.</p>
 <p>Tendo recebido, mãe e filho, graças sobre graças, e com o profundo desejo de retribuir à imensa misericórdia e compaixão de Komyo Nyorai-Sama, em fevereiro do ano passado tivemos a permissão de entronizar Sua imagem sagrada em nosso lar. É com grande reverência que informo que, desde então, ambos nos dedicamos ao sagrado servir. Do fundo do coração, muito obrigada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 注射中毒の恐ろしさ 三十年来の喘息の因 『救世』55号、昭和25(1950)年3月25日発行 福島県 五六七大教会大輪中教会 馬上ヒデ（45） 私は十五歳の時より三十年の長い間喘息の病魔に悩まされ一日も薬を用いぬ日なく参りました。<br/><br/>来る日も来る日も病苦の二字を外に日を送る事の出来なかったのが過去三十年の私の生活のすべてでした。<br/><br/>発作のため夜もろくろく寝れず朝夕のお勝手仕事をするにも注射なくしては出来ず、四、五丁離れた配給所に行くにも往き帰り注射をし、かろうじて我が家にたどりつく始末でした。<br/><br/>果ては注射の針を刺す事の出来ぬ程腕は固くなり注射する事すら不可能な有様でした。<br/><br/>当時の私はせめて一日だけでも苦痛と薬から離れた日を送りたい切ない思いで一ぱいでした、そのくせ神様を否定しひたすら人間や科学の力のみに救いを求め、ありとあらゆる術をつくし果てはただ死あるのみと悲観のどん底に陥ってしまった矢先、昨年九月お導きにより有難い光明如来様の御浄霊を頂きその上お守まで頂き、三十年の苦しみはどこへやら御浄霊二日目にて長い間片時も離れた事のなかった薬と全くお別れしてしまい、理屈にてはどうにもならぬ神の偉大なる御恵に唯物主義一点張りの私もただ事実の前に感泣せざるを得なくなりました。<br/><br/> それに重ねて時も五六七大教会のお祝日十一月十一日、時間も丁度十一時頃、近くの古川炭鉱に勤務していた愚息正之（二十四歳）作業中（線路補修）信号の誤りより進行中の石炭を満載したトロの下に腕をはさまれ、着ていた三枚のシャツは見る影もなくバラバラに破けたにみて当然腕は断ち切られるべき運命におかれていながら一滴の出血もなく、ただ車輪の跡と痛みを残すのみに止り、それも一回の浄霊にて苦痛はぬぐい去られ平常通りにたちかえる事が出来ました。<br/><br/> 親子揃って重ね重ねの御利益を頂き光明如来様の大慈大悲の御恵に応え奉りたく昨年二月光明如来様をお祭りさせて頂き親子共に御奉仕させて頂いております事を謹んで御報告申上げます、本当に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

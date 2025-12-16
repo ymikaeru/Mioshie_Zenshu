@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s101201</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年12月1日 今晩の御讃歌の中に、大審判ということがありましたが、あれは、あの御讃歌の通りなんで、昔からいう世の終わりとか、最後の審判とかいうことを言いますが、もうそろそろ始まりかけてるのであります。<br><br>それはどういうことかと言いますと、今度すばらしい光明世界ができるにつき、世界的大掃除をせられる。<br><br>大掃除するとは、ご承知の通り汚いものをなくし、きれいにすることですが、それは物と事柄によって、いろいろな形式で行なわれる。<br><br>そのうち一番判りやすくお話すれば、人間にしますと、人間がいかに汚れているかということについて、私が実見してるところをお話いたします。<br><br> 毎日ここで病人の方を扱っていますが、まずどんな方でも私がみると、実に汚いものがたくさん溜まっている。<br><br>勿論、汚いものが溜まっているから病気になり、病気になるからここへ来られることになりますが、ここが悪いという所、病気の所だけが汚いのじゃなく、なんでもない所にもたくさんにある。<br><br>大人によらず子供によらず、一様にある。<br><br>ちょっとみて健康そうにみえていても、触ってみると、とてもよく判る。<br><br>してみると、本当の意味からいうと、百％の健康の人は一人もないでしょう。<br><br>上等の人として、九十％の人が一番上で、これもごく少ないだろうと思う。<br><br>遠慮なく言ってみれば、よく今日の人が生命を保っていられると思う。<br><br>実に体中が毒血と膿で埋まっていると言っていいくらいです。<br><br>これは全体ですから、お互いで、お腹の立つこともなかろうと思います。<br><br>これが本当に審判が始まれば、ほとんど助かる人はないと思う。<br><br> 審判とは、どういう意味かというと、神様の御光りがだんだんに強くなる。<br><br>つまり、東方の光がだんだん強くなって出る。<br><br>それは、ちょうど太陽が黎明からだんだん天の中心へ上って行く形で、天心へ上って行くほど太陽の光が強くなる。<br><br>一遍に昇ってはたいへんですが、神様の大慈悲によって、だんだん昇っている。<br><br>そのなによりの実例としては、観音様を祭るとおデキができる。<br><br>おデキが出るというのは、汚いものが光に照らされるために浮いて出る。<br><br>そして、排除されるために皮膚へ出るのです。<br><br>それでいまはごく緩慢に穏やかにされているのですが、だんだん日が経ち、光が出ると、汚いものはいよいよ出てくることになる。<br><br>そうなると汚れが多いと堪えられぬ。<br><br>それに堪えられるのは、よほど汚れの少ない人でないといけない。<br><br>倒れてしまう。<br><br> それでまず、それが一番最初始められるのが観音会の人だけで、そのために観音会の人だけは軽くすまされるわけで、いまから掃除をされる。<br><br>ここで掃除されなければ堪えきれず倒れるのです。<br><br> このことを考えただけでも一般人は光が強くなったときはたいへんだと思う。<br><br>今度は本当の真善美の光明世界ができるんですから、立派な家を建てるには、どうしてもその辺を浄めて、雑草など刈りとらなければならぬ。<br><br>それがまず土台であります。<br><br>そういうことはきっと行なわれるわけで、そう考えると今後は、早く観音会へ入り、少しでも浄めておかなければならぬ。<br><br>少しでも浄められてた方は安全ですが、そうでない方は、生命の安全は期せられぬ。<br><br>ですから、神様は一人でも多く助けられるんで、そのために観音運動は発展となるんであります。<br><br> 東方の光、すなわち太陽は一つしかない。<br><br>太陽の光は観音会が照らすだけで、これ一つなんですから、観音会へ入らなければ陽に照らされぬから、掃除ができないことになっている。<br><br>これは決して手前味噌ではない。<br><br>そうなっているんであります。<br><br>これが最後の審判であります。<br><br> 世の終わりは、夜の暗が終わるということで、今度は昼間の世界になる。<br><br>ちょうどいまその境目になって来たから、一人でも多く観音会へ入れて、救い上げなければならない。<br><br>それが観音運動の根本なんで、だいぶその時期が近づいてきたんであります。<br><br>そしてちょうど、観音会の発展が、日が上へ昇って行くことになるんです。<br><br> 昨日、麹町の警察署から呼ばれたんですが、問われた事柄は、観音会の運動と、治療のことを訊きたいというのです。<br><br>警視庁あたりから調査に来たものらしいのです。<br><br>で、署長の部屋へ呼ばれたんですが、署長と特高二人がいて、いろいろ訊かれ、すっかり話しているうち治療の話になって、私の話すことをたいへんよく諒解したようですから、そのことを話すが、ああいう人達に判らせるのに一番いいと思い、ちょうどいい機会だと、いろいろと話したんですが、だいぶ先方も好感をもってよく訊いた。<br><br>まず第一にどういうわけで、貴下のほうでは医者よりもよく治るかという質問に対し答えた。<br><br>この話はみなさんが宣伝する上に参考となろうと思うので、お話するんですが、私のほうは霊を霊で治すんで、医者のほうは体を体で直す。<br><br>つまりこの違いさで、それはどういうわけかと言うので医学はどこまでも物質的に研究されたもので、人間さえも物質とし、ロボットとして考え、手なども品物くらいに考えているが、なんぞ知らん人間の体は霊的なものです。<br><br>なんとなれば、霊が主で霊によって体は霊のいう通りに動く。<br><br>それで、病は霊に先に起っているから、霊を治さなければ体は治らない。<br><br>体だけやってもそれは一時的のもので、霊というと目には見えないから面倒です。<br><br> それでは、科学的説明ができるかというので、それはできすぎるくらいできる。<br><br>現在の科学でも説明はできるが、本当の説明するには、まだ科学はそこまで行ってない。<br><br>進歩してない。<br><br>もっともっと進歩したらできる。<br><br>私のほうは、ズーッと進んでる。<br><br>科学の進むのを待ってるくらいだ。<br><br>しかし、音などを光にし映せるように科学もなったから、私達の霊のほうが判るのも近かろう。<br><br>ですから、私のほうの医術は進んでいるんで、二十一世紀の医術で、結局、医術は将来、私のやってる所へ行く。<br><br>結局それには、医科大学へ交渉して、治病の実地をみた上で、医科大学で私のやり方を採用するとこまで行かなければ徹底しない。<br><br> いま小学生の半数は病気に罹っているが、一つの小学校でも、私のほうの医療士が十人くらいも行けば、すぐに健康になり、弱体児童など、すぐに解決する。<br><br> 要するに、西洋医学では本当に病気は治らぬ。<br><br>本当に治るものは日本から出る。<br><br>われわれのほうのが日本から出た医術である、ということを話し、それでだいぶ判りました。<br><br>学校などもあなたのほうの治療法をとればいいなあと、大いに共鳴したわけであります。<br><br> 私は、そう予期せず話したんですが、先方には非常によく判った。<br><br>特高なども、自分の家の子は腺病質で、とても弱いが治るものかと言ったので、そんなのはわけはない。<br><br>私のとこへ来ればとても丈夫になると言えば、それではお願いしようかと言ってました。<br><br> あの人達は、われわれの治療士の療術など冷視して、病気は医者でなければ治らぬ。<br><br>信仰的に治すものは全部精神的に慰安を与えるだけのもので、観念療法だと思っているのです。<br><br>しかし、われわれのほうはそうではない、信じまいが、疑おうが治る、特殊のものだと話したら、よく判ったらしかったんであります。<br><br> 霊的のことで、ああいう人達の信じ難い事柄も割合よく判った。<br><br>昨日の私の話は、非常に順序がよかったに違いない。<br><br> その話をお聞きになったら、今後宣伝の上にも、参考になろうと思うのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Advento do Juízo Final e a Nova Medicina</h2>
 <p>Em uma das salmodias desta noite, foi mencionada a expressão “Grande Juízo”. Tal como os versos expressam, aquilo a que os antigos se referiam como o Fim do Mundo ou o Juízo Final já está, gradualmente, tendo seu início.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>Essas autoridades costumam desprezar as práticas dos nossos terapeutas, acreditando que somente os médicos são capazes de curar. Para eles, as curas baseadas na fé não passam de um consolo psicológico, uma espécie de terapia de sugestionamento. Contudo, expliquei-lhes que o nosso método é diferente, é algo especial que funciona independentemente de o paciente crer ou duvidar. Pelo que parece, eles entenderam perfeitamente.</p>
 <p>Mesmo os assuntos de natureza espiritual, tão difíceis de serem aceitos por pessoas com essa formação, foram compreendidos com relativa facilidade. Não há dúvida de que minha exposição de ontem foi extremamente bem-sucedida em sua ordem e clareza.</p>
 <p>Penso que, ao ouvirem este relato, os senhores terão um valioso recurso para o trabalho de divulgação dos ensinamentos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年12月1日 今晩の御讃歌の中に、大審判ということがありましたが、あれは、あの御讃歌の通りなんで、昔からいう世の終わりとか、最後の審判とかいうことを言いますが、もうそろそろ始まりかけてるのであります。<br/><br/>それはどういうことかと言いますと、今度すばらしい光明世界ができるにつき、世界的大掃除をせられる。<br/><br/>大掃除するとは、ご承知の通り汚いものをなくし、きれいにすることですが、それは物と事柄によって、いろいろな形式で行なわれる。<br/><br/>そのうち一番判りやすくお話すれば、人間にしますと、人間がいかに汚れているかということについて、私が実見してるところをお話いたします。<br/><br/> 毎日ここで病人の方を扱っていますが、まずどんな方でも私がみると、実に汚いものがたくさん溜まっている。<br/><br/>勿論、汚いものが溜まっているから病気になり、病気になるからここへ来られることになりますが、ここが悪いという所、病気の所だけが汚いのじゃなく、なんでもない所にもたくさんにある。<br/><br/>大人によらず子供によらず、一様にある。<br/><br/>ちょっとみて健康そうにみえていても、触ってみると、とてもよく判る。<br/><br/>してみると、本当の意味からいうと、百％の健康の人は一人もないでしょう。<br/><br/>上等の人として、九十％の人が一番上で、これもごく少ないだろうと思う。<br/><br/>遠慮なく言ってみれば、よく今日の人が生命を保っていられると思う。<br/><br/>実に体中が毒血と膿で埋まっていると言っていいくらいです。<br/><br/>これは全体ですから、お互いで、お腹の立つこともなかろうと思います。<br/><br/>これが本当に審判が始まれば、ほとんど助かる人はないと思う。<br/><br/> 審判とは、どういう意味かというと、神様の御光りがだんだんに強くなる。<br/><br/>つまり、東方の光がだんだん強くなって出る。<br/><br/>それは、ちょうど太陽が黎明からだんだん天の中心へ上って行く形で、天心へ上って行くほど太陽の光が強くなる。<br/><br/>一遍に昇ってはたいへんですが、神様の大慈悲によって、だんだん昇っている。<br/><br/>そのなによりの実例としては、観音様を祭るとおデキができる。<br/><br/>おデキが出るというのは、汚いものが光に照らされるために浮いて出る。<br/><br/>そして、排除されるために皮膚へ出るのです。<br/><br/>それでいまはごく緩慢に穏やかにされているのですが、だんだん日が経ち、光が出ると、汚いものはいよいよ出てくることになる。<br/><br/>そうなると汚れが多いと堪えられぬ。<br/><br/>それに堪えられるのは、よほど汚れの少ない人でないといけない。<br/><br/>倒れてしまう。<br/><br/> それでまず、それが一番最初始められるのが観音会の人だけで、そのために観音会の人だけは軽くすまされるわけで、いまから掃除をされる。<br/><br/>ここで掃除されなければ堪えきれず倒れるのです。<br/><br/> このことを考えただけでも一般人は光が強くなったときはたいへんだと思う。<br/><br/>今度は本当の真善美の光明世界ができるんですから、立派な家を建てるには、どうしてもその辺を浄めて、雑草など刈りとらなければならぬ。<br/><br/>それがまず土台であります。<br/><br/>そういうことはきっと行なわれるわけで、そう考えると今後は、早く観音会へ入り、少しでも浄めておかなければならぬ。<br/><br/>少しでも浄められてた方は安全ですが、そうでない方は、生命の安全は期せられぬ。<br/><br/>ですから、神様は一人でも多く助けられるんで、そのために観音運動は発展となるんであります。<br/><br/> 東方の光、すなわち太陽は一つしかない。<br/><br/>太陽の光は観音会が照らすだけで、これ一つなんですから、観音会へ入らなければ陽に照らされぬから、掃除ができないことになっている。<br/><br/>これは決して手前味噌ではない。<br/><br/>そうなっているんであります。<br/><br/>これが最後の審判であります。<br/><br/> 世の終わりは、夜の暗が終わるということで、今度は昼間の世界になる。<br/><br/>ちょうどいまその境目になって来たから、一人でも多く観音会へ入れて、救い上げなければならない。<br/><br/>それが観音運動の根本なんで、だいぶその時期が近づいてきたんであります。<br/><br/>そしてちょうど、観音会の発展が、日が上へ昇って行くことになるんです。<br/><br/> 昨日、麹町の警察署から呼ばれたんですが、問われた事柄は、観音会の運動と、治療のことを訊きたいというのです。<br/><br/>警視庁あたりから調査に来たものらしいのです。<br/><br/>で、署長の部屋へ呼ばれたんですが、署長と特高二人がいて、いろいろ訊かれ、すっかり話しているうち治療の話になって、私の話すことをたいへんよく諒解したようですから、そのことを話すが、ああいう人達に判らせるのに一番いいと思い、ちょうどいい機会だと、いろいろと話したんですが、だいぶ先方も好感をもってよく訊いた。<br/><br/>まず第一にどういうわけで、貴下のほうでは医者よりもよく治るかという質問に対し答えた。<br/><br/>この話はみなさんが宣伝する上に参考となろうと思うので、お話するんですが、私のほうは霊を霊で治すんで、医者のほうは体を体で直す。<br/><br/>つまりこの違いさで、それはどういうわけかと言うので医学はどこまでも物質的に研究されたもので、人間さえも物質とし、ロボットとして考え、手なども品物くらいに考えているが、なんぞ知らん人間の体は霊的なものです。<br/><br/>なんとなれば、霊が主で霊によって体は霊のいう通りに動く。<br/><br/>それで、病は霊に先に起っているから、霊を治さなければ体は治らない。<br/><br/>体だけやってもそれは一時的のもので、霊というと目には見えないから面倒です。<br/><br/> それでは、科学的説明ができるかというので、それはできすぎるくらいできる。<br/><br/>現在の科学でも説明はできるが、本当の説明するには、まだ科学はそこまで行ってない。<br/><br/>進歩してない。<br/><br/>もっともっと進歩したらできる。<br/><br/>私のほうは、ズーッと進んでる。<br/><br/>科学の進むのを待ってるくらいだ。<br/><br/>しかし、音などを光にし映せるように科学もなったから、私達の霊のほうが判るのも近かろう。<br/><br/>ですから、私のほうの医術は進んでいるんで、二十一世紀の医術で、結局、医術は将来、私のやってる所へ行く。<br/><br/>結局それには、医科大学へ交渉して、治病の実地をみた上で、医科大学で私のやり方を採用するとこまで行かなければ徹底しない。<br/><br/> いま小学生の半数は病気に罹っているが、一つの小学校でも、私のほうの医療士が十人くらいも行けば、すぐに健康になり、弱体児童など、すぐに解決する。<br/><br/> 要するに、西洋医学では本当に病気は治らぬ。<br/><br/>本当に治るものは日本から出る。<br/><br/>われわれのほうのが日本から出た医術である、ということを話し、それでだいぶ判りました。<br/><br/>学校などもあなたのほうの治療法をとればいいなあと、大いに共鳴したわけであります。<br/><br/> 私は、そう予期せず話したんですが、先方には非常によく判った。<br/><br/>特高なども、自分の家の子は腺病質で、とても弱いが治るものかと言ったので、そんなのはわけはない。<br/><br/>私のとこへ来ればとても丈夫になると言えば、それではお願いしようかと言ってました。<br/><br/> あの人達は、われわれの治療士の療術など冷視して、病気は医者でなければ治らぬ。<br/><br/>信仰的に治すものは全部精神的に慰安を与えるだけのもので、観念療法だと思っているのです。<br/><br/>しかし、われわれのほうはそうではない、信じまいが、疑おうが治る、特殊のものだと話したら、よく判ったらしかったんであります。<br/><br/> 霊的のことで、ああいう人達の信じ難い事柄も割合よく判った。<br/><br/>昨日の私の話は、非常に順序がよかったに違いない。<br/><br/> その話をお聞きになったら、今後宣伝の上にも、参考になろうと思うのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

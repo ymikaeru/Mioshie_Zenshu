@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>joreiT63</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 野辺送り （二）（お寺さんとメシヤ教） 槐安 『地上天国』63号、昭和29(1954)年10月15日発行 あんたの親戚は女の人の方が長命ですね。<br><br>今日の仏さまは七十五ですか。<br><br>なかなか気の強いお婆さんでしたね。<br><br>あんたの身内の方で私が引導を渡した人は……今日の仏をいれて五人……随分、長い御交際になりますね。<br><br>私は来年で六十、たしか、あんたの兄さんと同い年でしたな。<br><br>そうそう去年の彼岸に兄さんが見えて、あんたがメシヤ教の信者になっているって話を聞いて、へえ……あの人がねえ…と一寸意外な気がしましたよ。<br><br>あんたの子供の時からを知っていて、あんたっていう人は信仰とは無縁の人とばかり思っていましたからね。<br><br>もっとも、あんたが日蓮さんの立正安国論でも読んで発奮したと言うなら、あんたらしい。<br><br>と解る気もするんだが、メシヤ教とは驚きましたね。<br><br>メシヤ教って言うと、新聞や本なんかで見ると余り芳ばしい評判のようじゃないようだが、あんたみたいに、物事を理詰めに考えて実行する人が夢中になっているんじゃあ、新聞に書かれている程、悪い宗教じゃないようですね。<br><br>一つその教義や何かを聞かせて貰いましょうか。<br><br>なに……和尚みたいなコチコチの頭じゃ素直に聴きっこないからまた暇の時に来て話をする……ああ…是非そうして下さいよ。<br><br>その時は伜と討論させて、私は行司役に廻ってみると面白いな。<br><br> 伜……上のは寺の跡取りだから駒沢を卒業させて勤めに出している。<br><br>二番目のは本人の希望で医科大学へ行っているが、費用がかかってやり切れないよ。<br><br>苦肉の策だって……あっはは……口が悪いね檀家の人にもそう言われるが別にそんな積りじゃなかったんだがね。<br><br>なに、今のうちに工科大学へでも転校させた方が無難……へえ……メシヤ教で病気のない世の中を作るから……さあ、それはどうだかね。<br><br>私は信用しないね。<br><br>だけど本当にあんたみたいな素人でも、そのお守を掛けてさえいればどんな病気でも治せるの……ふん……驚いたもんだね。<br><br>だが新興宗教っていうのは皆んな病気治しを商売にしているんじゃないのかね。<br><br>信者でさえあれば誰でもやれるのはメシヤ教だけ……ほう……それから○○○教のように戒名もあんた達は書き直すのかね。<br><br>私はあれだけは莫迦々々しくって厭になるね。<br><br>信仰は自由なんだから、何様を拝んでもいいさ、だがね、言っては失礼かも知れないが、長屋の熊さんや八ッあんが、私たちが法式に従って付けた戒名を直しちまうなんて、非常識きわまる乱暴な話だよ。<br><br>そんなのを見ると癪にさわって、墓も持って行ってくれ。<br><br>って、つい怒鳴っちまうんだよ。<br><br>メシヤ教がそれをやらないところは良いね。<br><br>それに、メシヤ教に夢中だって評判のあんたが、盂蘭盆や彼岸にはちゃんと墓参りもし、寺へも寄って御先祖の供養はしているね。<br><br>実は感心していたんだ。<br><br>今の人は墓参りはしてもお寺へは頬冠りだからね。<br><br>壇家の月拝みに行ったって、お布施は三十円か五十円だ。<br><br>不服を言うんじゃないが、これじゃあー寺の維持どころか、食べてもゆけないので、このいい年をしてアルバイトに県庁へ勤めたり、日曜には学校の子供達にお習字の稽古をしている体たらくで、伜なんか口惜しがってね。<br><br>もう一度、仏教を昔のようにしたい。<br><br>なんて力んでいるが、洋服を着ている今日の人間に南無阿弥陀仏じゃあ……って腹ん中では思ってますよ。<br><br> 和尚も悟りを開いた……からかっちゃ、いけないよ。<br><br>悪い時節に生まれ合わしたものだ、と諦めてはいるがね。<br><br>……お釈迦さまの言った仏滅の時期がきているからだって……弥勒さまのお生まれになる五十六億七千万年が、今日だなんて、そりゃあ……信じられないね。<br><br>勿論、仏滅の説も、もうともっと先の先の事だと私は思ってますよ。<br><br>そりゃあーうちの寺のことだけじゃあなく、世の中の有りさまを見たっていよいよ末法だっていう事は感じてますよ。<br><br>仏教では仏さまが救われない。<br><br>仏教は哲学的な学問として残るだけだって……厭だね……今日はあんたに引導を渡されてるような気がするね。<br><br>でも、メシヤ教の教祖って人は偉いね。<br><br>……そういう事は余程の自信がなければ言える事じゃアない。<br><br>場当りの事を言っていたんじゃ、すぐ化の皮が現われて長続きはしないもんだ。<br><br> 先代の和尚や宗祖の霊が、何かその事で知らせた事はないかって……今までには何もなかったが、霊って言えば、今日の仏さまだって私にはちゃんと解っていたよ。<br><br>いつもそういう時には位牌堂に並んでいる皆さんの位牌が一枚きっと倒れている。<br><br>見ると槐安さんあんたのところのだ。<br><br>誰だろう……って考えたが、あんたの叔母さんとは考え付かなかった。<br><br>檀家でない時は鐘が鳴ったりしてね、何か知らせばあるんだが。<br><br>こういう知らせは……へえ……副霊が知らせる……そうですか副霊、それも私たち仏教の方じゃ解らない事だな。<br><br>すると、こういう場合はあんたの方ではどう解釈しているのかな。<br><br>実は変な事なので、誰にも言った事はないが、墓地の無い人や郷里へ埋葬する人のために、一時、納骨堂へ骨壷を預かって上げているが、これが夜中になるとコソコソって音がして、中の骨が動いているらしいんだ。<br><br>私は確かめてみないが、先代が内密で開けて見ると骨、自体が人体の形ちになりたいらしく、頭蓋骨が上で、肩、腰、膝というふうに順になるんだ。<br><br>自意識があって、そうなるらしく、毎晩コソコソと微かに音がするんだ。<br><br>実に不思議な現象だよ。<br><br>重いものが下になるなら解るが、一番大きくて重い頭蓋骨が上になるなんて、科学じゃ説明つかない事実なんだが。<br><br>……あんたは知らない……本来は土葬がいい……なる程、土葬なら初めっからちゃんとその形ちに成っているからね。<br><br>原子時代の科学でも仏教でも説明出来ない不思議な事は、まだまだ世の中に沢山あると思うね。<br><br> 今度、伜のいる日曜にでもきて、メシヤ教の話を聞かせて下さい。<br><br>……信者に、尼寺の和尚さんもいる……そうですか。<br><br>すると新聞に書かれているメシヤ教とは大分ちがった立派なものらしいね。<br><br> あんたまでがメシヤ教に入ったというんで大分心配していたんだが、あんたみたいに御先祖を大切にしたり、お寺へも来てくれるんなら、檀家の人がみんなメシヤ教になってくれた方が、解りが良くって、反ってお寺の維持がし易いかも知れないね。<br><br>……ハッハッハ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões de um Sacerdote Budista</h2>
 <p>As mulheres de sua família são longevas, não é mesmo? A falecida de hoje contava setenta e cinco anos? Era uma senhora de temperamento forte, recordo-me bem. Contando com ela, já oficiei os ritos de passagem para cinco de seus parentes... Nosso convívio, por assim dizer, já é bastante longo. No próximo ano, completo sessenta anos; creio ter a mesma idade de seu irmão. A propósito, durante o feriado de Higan, no ano passado, seu irmão me visitou e comentou que o senhor havia se tornado membro da Igreja Messiânica. Devo confessar que a notícia me soou um tanto inesperada. Conhecendo-o desde a infância, sempre o considerei uma pessoa alheia ao universo da fé.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>O senhor desconhece? Entendo... Afirma que o ideal é o sepultamento em terra... De fato, faz sentido. No sepultamento, o corpo já repousa em sua forma devida desde o princípio. Creio que ainda existam no mundo muitos mistérios que nem a ciência da era atômica, nem o budismo, são capazes de elucidar.</p>
 <p>Por favor, retorne em um domingo, quando meu filho estiver em casa, para nos falar mais sobre a Igreja Messiânica. O quê? Há até mesmo uma sacerdotisa de um convento entre os membros? Nesse caso, a realidade da Igreja Messiânica parece ser muito mais nobre do que aquilo que os jornais retratam.</p>
 <p>Eu andava bastante preocupado desde que soube de sua conversão, mas, observando como o senhor reverencia seus antepassados e continua a frequentar o templo, chego a uma conclusão irônica: se todos os meus paroquianos se tornassem messiânicos como o senhor, a compreensão mútua seria maior e, paradoxalmente, a manutenção do templo talvez se tornasse mais fácil. Ah, ah, ah.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 野辺送り （二）（お寺さんとメシヤ教） 槐安 『地上天国』63号、昭和29(1954)年10月15日発行 あんたの親戚は女の人の方が長命ですね。<br/><br/>今日の仏さまは七十五ですか。<br/><br/>なかなか気の強いお婆さんでしたね。<br/><br/>あんたの身内の方で私が引導を渡した人は……今日の仏をいれて五人……随分、長い御交際になりますね。<br/><br/>私は来年で六十、たしか、あんたの兄さんと同い年でしたな。<br/><br/>そうそう去年の彼岸に兄さんが見えて、あんたがメシヤ教の信者になっているって話を聞いて、へえ……あの人がねえ…と一寸意外な気がしましたよ。<br/><br/>あんたの子供の時からを知っていて、あんたっていう人は信仰とは無縁の人とばかり思っていましたからね。<br/><br/>もっとも、あんたが日蓮さんの立正安国論でも読んで発奮したと言うなら、あんたらしい。<br/><br/>と解る気もするんだが、メシヤ教とは驚きましたね。<br/><br/>メシヤ教って言うと、新聞や本なんかで見ると余り芳ばしい評判のようじゃないようだが、あんたみたいに、物事を理詰めに考えて実行する人が夢中になっているんじゃあ、新聞に書かれている程、悪い宗教じゃないようですね。<br/><br/>一つその教義や何かを聞かせて貰いましょうか。<br/><br/>なに……和尚みたいなコチコチの頭じゃ素直に聴きっこないからまた暇の時に来て話をする……ああ…是非そうして下さいよ。<br/><br/>その時は伜と討論させて、私は行司役に廻ってみると面白いな。<br/><br/> 伜……上のは寺の跡取りだから駒沢を卒業させて勤めに出している。<br/><br/>二番目のは本人の希望で医科大学へ行っているが、費用がかかってやり切れないよ。<br/><br/>苦肉の策だって……あっはは……口が悪いね檀家の人にもそう言われるが別にそんな積りじゃなかったんだがね。<br/><br/>なに、今のうちに工科大学へでも転校させた方が無難……へえ……メシヤ教で病気のない世の中を作るから……さあ、それはどうだかね。<br/><br/>私は信用しないね。<br/><br/>だけど本当にあんたみたいな素人でも、そのお守を掛けてさえいればどんな病気でも治せるの……ふん……驚いたもんだね。<br/><br/>だが新興宗教っていうのは皆んな病気治しを商売にしているんじゃないのかね。<br/><br/>信者でさえあれば誰でもやれるのはメシヤ教だけ……ほう……それから○○○教のように戒名もあんた達は書き直すのかね。<br/><br/>私はあれだけは莫迦々々しくって厭になるね。<br/><br/>信仰は自由なんだから、何様を拝んでもいいさ、だがね、言っては失礼かも知れないが、長屋の熊さんや八ッあんが、私たちが法式に従って付けた戒名を直しちまうなんて、非常識きわまる乱暴な話だよ。<br/><br/>そんなのを見ると癪にさわって、墓も持って行ってくれ。<br/><br/>って、つい怒鳴っちまうんだよ。<br/><br/>メシヤ教がそれをやらないところは良いね。<br/><br/>それに、メシヤ教に夢中だって評判のあんたが、盂蘭盆や彼岸にはちゃんと墓参りもし、寺へも寄って御先祖の供養はしているね。<br/><br/>実は感心していたんだ。<br/><br/>今の人は墓参りはしてもお寺へは頬冠りだからね。<br/><br/>壇家の月拝みに行ったって、お布施は三十円か五十円だ。<br/><br/>不服を言うんじゃないが、これじゃあー寺の維持どころか、食べてもゆけないので、このいい年をしてアルバイトに県庁へ勤めたり、日曜には学校の子供達にお習字の稽古をしている体たらくで、伜なんか口惜しがってね。<br/><br/>もう一度、仏教を昔のようにしたい。<br/><br/>なんて力んでいるが、洋服を着ている今日の人間に南無阿弥陀仏じゃあ……って腹ん中では思ってますよ。<br/><br/> 和尚も悟りを開いた……からかっちゃ、いけないよ。<br/><br/>悪い時節に生まれ合わしたものだ、と諦めてはいるがね。<br/><br/>……お釈迦さまの言った仏滅の時期がきているからだって……弥勒さまのお生まれになる五十六億七千万年が、今日だなんて、そりゃあ……信じられないね。<br/><br/>勿論、仏滅の説も、もうともっと先の先の事だと私は思ってますよ。<br/><br/>そりゃあーうちの寺のことだけじゃあなく、世の中の有りさまを見たっていよいよ末法だっていう事は感じてますよ。<br/><br/>仏教では仏さまが救われない。<br/><br/>仏教は哲学的な学問として残るだけだって……厭だね……今日はあんたに引導を渡されてるような気がするね。<br/><br/>でも、メシヤ教の教祖って人は偉いね。<br/><br/>……そういう事は余程の自信がなければ言える事じゃアない。<br/><br/>場当りの事を言っていたんじゃ、すぐ化の皮が現われて長続きはしないもんだ。<br/><br/> 先代の和尚や宗祖の霊が、何かその事で知らせた事はないかって……今までには何もなかったが、霊って言えば、今日の仏さまだって私にはちゃんと解っていたよ。<br/><br/>いつもそういう時には位牌堂に並んでいる皆さんの位牌が一枚きっと倒れている。<br/><br/>見ると槐安さんあんたのところのだ。<br/><br/>誰だろう……って考えたが、あんたの叔母さんとは考え付かなかった。<br/><br/>檀家でない時は鐘が鳴ったりしてね、何か知らせばあるんだが。<br/><br/>こういう知らせは……へえ……副霊が知らせる……そうですか副霊、それも私たち仏教の方じゃ解らない事だな。<br/><br/>すると、こういう場合はあんたの方ではどう解釈しているのかな。<br/><br/>実は変な事なので、誰にも言った事はないが、墓地の無い人や郷里へ埋葬する人のために、一時、納骨堂へ骨壷を預かって上げているが、これが夜中になるとコソコソって音がして、中の骨が動いているらしいんだ。<br/><br/>私は確かめてみないが、先代が内密で開けて見ると骨、自体が人体の形ちになりたいらしく、頭蓋骨が上で、肩、腰、膝というふうに順になるんだ。<br/><br/>自意識があって、そうなるらしく、毎晩コソコソと微かに音がするんだ。<br/><br/>実に不思議な現象だよ。<br/><br/>重いものが下になるなら解るが、一番大きくて重い頭蓋骨が上になるなんて、科学じゃ説明つかない事実なんだが。<br/><br/>……あんたは知らない……本来は土葬がいい……なる程、土葬なら初めっからちゃんとその形ちに成っているからね。<br/><br/>原子時代の科学でも仏教でも説明出来ない不思議な事は、まだまだ世の中に沢山あると思うね。<br/><br/> 今度、伜のいる日曜にでもきて、メシヤ教の話を聞かせて下さい。<br/><br/>……信者に、尼寺の和尚さんもいる……そうですか。<br/><br/>すると新聞に書かれているメシヤ教とは大分ちがった立派なものらしいね。<br/><br/> あんたまでがメシヤ教に入ったというんで大分心配していたんだが、あんたみたいに御先祖を大切にしたり、お寺へも来てくれるんなら、檀家の人がみんなメシヤ教になってくれた方が、解りが良くって、反ってお寺の維持がし易いかも知れないね。<br/><br/>……ハッハッハ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

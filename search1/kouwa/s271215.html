@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s271215</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月15日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月十五日 今出がけにラジオの「学校新聞」というのをちょっと聞いたところが、おもしろいことを言ってました。<br><br>アメリカの学者のだいぶ根拠のあるような研究ですが、地球ができてから五十四億年たったというのです。<br><br>それはそうとう根拠があるのだそうです。<br><br>そうするとお釈迦さんが言われた五十六億七千万年の後にミロクの世ができるというそれが、やや合ってくるわけです。<br><br>五十四億ですから、もう二億何千万の違いさというわけで、ちょっとおもしろいと思いました。<br><br>それから地球は年々暖かくなるということで、いろいろな例のことを話してました。<br><br>デンマークの王室地理学会、チリの学者、スウェーデンの学者など、各国の科学者の報告で、地球はよほど暖かくなっていろいろなことにそれが出ている、ということを言ってます。<br><br>それでヨーロッパの北の方、北極の方の氷が非常に溶けて、以前はそこを航海することはできなかったのが、近ごろは船が航海できる期間が、一年間に三、四週間くらい長くなったということだとか、それから北の方に住む動物の数がだんだん増えてきたというようないろいろな例がありました。<br><br>そういうようで暖かくなったということは、確かです。<br><br>というのは、それだけ火素が増えたのです。<br><br>だから霊界が昼間の世界になりつつあるということは、もう確実と言っていいです。<br><br> ストライキは今一番困っている問題ですが、それについてちょっと書いてみました。<br><br> （御論文「信仰とストライキ」）【栄光 一八七号】 それから浄化作用について、お蔭話などでちょっと間違えることがあるようですから言っておきます。<br><br>浄化作用というものは、どうしても一度は毒素が固まるのです。<br><br>ですから浄霊をしますと、固まりかかったものが、そのまま溶けることもあるし、毒によっては浄霊するとよけい固まることがあります。<br><br>よけい固まって溶けるのです。<br><br>よく浄霊すると熱が出ますが、それはよけい固まって熱が出るのです。<br><br>これは万物一切の物質はそういう順序を経て浄化するのです。<br><br>ですから中途半端でなおすということはあるにはありますが、それは毒の性質と、その時の体の状態によっては、固まらないで溶ける場合もあるが、大体の原則として固まって溶けるのです。<br><br>ですから肩が凝って苦しいという時に浄霊すると、かえって肩が凝ったり固まったりすることがありますが、その意味を知っておくとよく分かりますから、まごつくことはありません。<br><br> それから分かりきったことで気をつけないことが大いにあります。<br><br>それを分かりやすく書きました。<br><br>というのは、今社会衛生とかいろいろなことがおそろしく人間を壊れ物扱いにしています。<br><br>それを医学の進歩と思っているのです。<br><br>だから大事に大事にして、屁のようなことでも「こういうようにしろ」とか「ああいうようにしろ」とか指図しているのですが、これは実にナンセンスなのです。<br><br>それを分かりやすく書きました。<br><br> （御論文「本教信者の幸福」）【栄光 一八八号】 次のは今のに関連したような論文です。<br><br> （御論文「善意の罪悪」）【栄光 一八七号】 それからこの間もちょっと話しておきましたが、中国の紅卍字会が非常に困っているのです。<br><br>それで先方では提携ということですが、実際は救いを求めてきたようです。<br><br>それも神様がそういう具合にしたのです。<br><br>それで今度小田原の別院の一部をそれに使わせようと思ってます。<br><br>ただ紅卍字会は、おもしろいことには神様の在る無しがすぐ分かるのです。<br><br>ですから救世教の方では、お蔭とか、奇蹟とか、浄霊すれば病気がなおる、ということで神様があることが分かります。<br><br>ところが紅卍字会のやり方はまた別なやり方で神様を分からせるのです。<br><br>これはいずれ小田原でやりますが、長方形のテーブルの向こうとこっちに人が立っていて、Ｔ字形の棒を両方で持っているのです。<br><br>そうして砂盤といって四角の薄いお盆をおいて、その上に平らに砂をいっぱい置いておき、Ｔ字形の両方を持っていると、これが自然に動いて字を書くのです。<br><br>ところがその字を書くのがとても早いのです。<br><br>両方で示し合わせて書くとしても、ああ早くはいきません。<br><br>ですから神様が書くということが分かります。<br><br>そうして持っている方は軽く持っているのです。<br><br>そうすると、こっちで見ていて、一つ一つつないでいくのです。<br><br>そうするとそれが文章になっていくのです。<br><br>それで最初やる前にはすっかりお祈りをするのです。<br><br>祝詞のようなものを奏げて、中国人はこういう具合に手が見えなくなるようにして三拝九拝する。<br><br>これは三回ずつ三度して三、三、九度するのです。<br><br>そうしてそれから始めるのです。<br><br>その時に立派な椅子を置くのです。<br><br>それには誰もかけてませんが、そこに神様がおかけになるということになってます。<br><br>霊眼でみる人もあります。<br><br>ですから確かに神様がそこにおかけになるに違いありません。<br><br>その神様というのは至聖先天老祖というのです。<br><br>その神様が指図命令なさるのです。<br><br>今はだいぶ変わったようですが、以前はキリスト、釈迦、孔子、観音、弥勒。<br><br>マホメットはなかったようですが、とにかく七つの神様が代わる代わるおかけになったようです。<br><br>私は見たことがありますが、二十年ばかり前に日本に紅卍字会の幹部の人が六人か来て、私が経営していた麹町の大本教の分所で初めてやったのです。<br><br>私が行った時は観音様で、「観世音菩薩、汝らに告ぐ」ということで、それからいろいろなことが出ました。<br><br>ですからそこに出るのはいろいろな教えとか予言とかです。<br><br>予言というのは密訓といってますが、それは秘密で公開できないのです。<br><br>これはよほど前ですが、蒋介石がいばっていた時分の密訓で、蒋介石が亡びるということが出たのです。<br><br>秘密にしていたのですが、なんでも知れたらしくて、随分調べられていろいろなことがあったようですが、たいしたことはなかったらしいです。<br><br>その時はそういう気振りもなかったが、結局こうなってみると密訓は恐ろしいくらいなものです。<br><br>それから今度小田原でやるでしょうが、粉だと思いますが、いろいろな絵の具をまぜこぜにしておくのです。<br><br>それは筆を使うのかどうかよく分からないが、一遍にパッと拡がって絵になってしまうのです。<br><br>それは実にすばらしいものだそうです。<br><br>実に神秘です。<br><br>私が見た時は筆の先で字を書いて、そこに列席した人に配りましたが、その時おもしろいことは、私に大きな「浄」という字を一字くれたのです。<br><br>それで横に小さく「岡田茂吉」と書いてあった。<br><br>それを表装しようと思って経師屋に出したら、経師屋がなくしたらしく、私もそれきり忘れてました。<br><br>今になってみると、私は「浄霊」ということが必要な仕事ですから、その時に神様が用意されていたのです。<br><br>その字を書くというのは神様がやられたということは一目で分かります。<br><br>一字書くとトンといきまた一字書くとトンといく、それが文章になるのです。<br><br>だからこれも私は、利用というと安っぽくなりますから利用とは言わないが、神様があるということを見せるという、そういう一つのやり方で、これも必要なのです。<br><br>これはインテリなどが見ると一番よいです。<br><br>病気がなおるというのは、時節が来たからなおったとか、今薬が効いた、といえば言えますが、これは目の前ではっきりするのですからこれはいいなと思ってましたが、いよいよそれをやることになるでしょうから、一つの方法として非常にいいと思います。<br><br> これは分かっているのですが、約二十年前の昭和五、六年のころに紅卍字会の人たちが、今の芝の浜離宮の庭で写真をうつしたことがあります。<br><br>その時に紅卍字会の信者が十八人か並んで、その隣に大本教の信者が十数人並んでいた。<br><br>そうしてこれから写真をうつそうという時に、ちょうど私がそこに着いたのです。<br><br>そうしてヒョッと見るとみんな整列しているのですが、富沢という信者で代議士かでしたが「今うつすから、岡田さん早く来給え」と言うから、私も「ああ」と言って立ったところが、すぐ写真がうつった。<br><br>その立った所が紅卍字会と大本教信者が並んだちょうど真ん中の一番前に立ってうつったのです。<br><br>それで私は、今に紅卍字会は自分が支配するのだなと思ったのですが、それがだんだん実現する段取りになってきたのです。<br><br>それで紅卍字会というのは、旗印は赤い卍です。<br><br>あれは右進左退の方の逆卍です。<br><br>それで紅卍字会というのは、二十何年前に中国の済南という所の在で百姓のじいさんが神懸りになって「道院」という宗教を作ったのです。<br><br>これは本当に拝むのが主なのです。<br><br>そうして紅卍字会というのは、体的の救いをやるために右進左退の逆卍になったのです。<br><br>それで私の方は左進右退です。<br><br>前に金［逆卍］というのを作って、最初の雑誌を作ったのですが、その表紙に金の［逆卍］を作ったのです。<br><br>そうして金［逆卍］教会というのを作ろうと思ったのですが、いろいろな事情ができてやることができなかったのです。<br><br>そうこうするうちにヒトラーが黒［逆卍］をつけた。<br><br>これは逆でなく本当の［逆卍］ですが、斜めになってます。<br><br>それに黒ですから、黒は悪です。<br><br>そうして斜めですから正しくはないのです。<br><br>黒［逆卍］は悪ですからナチスは駄目だと思ったのです。<br><br>そういうこともありました。<br><br>紅卍字会というのは、結局将来中国を救うその主力になるわけです。<br><br>それでやっぱり私が指図しなければ駄目です。<br><br>そうなると、おもしろいのはフーチですが、フーチによってできるのですが、これは一名壇訓（だんくん）と言うが、一般にはフーチと言ってます。<br><br>これは支那の古い時代にあったのです。<br><br>それで巫（みこ）という字がありますが、これはそうなってます。<br><br>人が二人でこれを持っているという形がこれに出てます。<br><br>だから支那の何千年か前にあったに違いありません。<br><br>おそらく漢以前でしょう。<br><br>漢以後は物質的になったのです。<br><br>そこで漢方薬と言いますが、漢方薬というのは漢の以後にできたのです。<br><br>だから漢以前には薬を使わなかったのです。<br><br>これについてはまだいろいろな話がありますが、時間がないから大体を話したのです。<br><br>来年からインテリ階級に神のあるということを知らせる仕事ができるから、そういう方面に開けるというわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Transição Planetária e a Manifestação da Vontade Divina</h2>
 <p>Há pouco, no momento em que saía, ouvi por um instante no rádio um programa intitulado “Jornal Escolar”, que divulgava uma informação bastante curiosa. Trata-se de uma pesquisa de cientistas americanos, com sólidos fundamentos, que afirma que a Terra existe há 5,4 bilhões de anos. Tal constatação é deveras interessante, pois se aproxima consideravelmente da predição de Buda Sakyamuni, segundo a qual o Mundo de Miroku se estabelecerá após 5 bilhões e 670 milhões de anos. A diferença é de apenas duzentos e poucos milhões de anos, o que me pareceu um fato notável.</p>
@@ -113,5 +265,48 @@ function toggleLang(lang) {
 <p>Enquanto isso, Hitler adotou a suástica negra. Embora não seja a invertida, ela é inclinada, e sua cor é preta. O preto representa o mal, e a inclinação denota ausência de retidão. Por ser uma suástica negra e maligna, tive a certeza de que o nazismo fracassaria.</p>
 <p>A <em>Kōmanjikai</em> está destinada a se tornar a força principal para a salvação da China no futuro. Para tanto, contudo, minha orientação será indispensável. O método que utilizam, como expliquei, é o <em>fuchi</em>, também conhecido como <em>dankun</em>. Essa prática já existia na China antiga. O ideograma para "médium" ou "xamã", 巫 (<em>miko</em>), ilustra justamente essa imagem: duas pessoas (人) sustentando um instrumento. Deve ser algo que existia há milênios na China, certamente anterior à dinastia Han, pois a partir desse período a cultura chinesa tornou-se materialista. É por isso que falamos em medicina <em>Kampo</em>, ou "medicina do método Han", que surgiu após essa dinastia. Antes do período Han, não se utilizavam medicamentos.</p>
 <p>Haveria muito mais a dizer sobre este assunto, mas o tempo é curto. A partir do próximo ano, teremos a oportunidade de demonstrar à classe intelectual a existência de Deus por meio desses fenômenos, abrindo assim um novo caminho para a expansão da Obra Divina.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年12月15日） 『御教え集』17号、昭和28(1953)年1月15日発行 昭和二十七年十二月十五日 今出がけにラジオの「学校新聞」というのをちょっと聞いたところが、おもしろいことを言ってました。<br/><br/>アメリカの学者のだいぶ根拠のあるような研究ですが、地球ができてから五十四億年たったというのです。<br/><br/>それはそうとう根拠があるのだそうです。<br/><br/>そうするとお釈迦さんが言われた五十六億七千万年の後にミロクの世ができるというそれが、やや合ってくるわけです。<br/><br/>五十四億ですから、もう二億何千万の違いさというわけで、ちょっとおもしろいと思いました。<br/><br/>それから地球は年々暖かくなるということで、いろいろな例のことを話してました。<br/><br/>デンマークの王室地理学会、チリの学者、スウェーデンの学者など、各国の科学者の報告で、地球はよほど暖かくなっていろいろなことにそれが出ている、ということを言ってます。<br/><br/>それでヨーロッパの北の方、北極の方の氷が非常に溶けて、以前はそこを航海することはできなかったのが、近ごろは船が航海できる期間が、一年間に三、四週間くらい長くなったということだとか、それから北の方に住む動物の数がだんだん増えてきたというようないろいろな例がありました。<br/><br/>そういうようで暖かくなったということは、確かです。<br/><br/>というのは、それだけ火素が増えたのです。<br/><br/>だから霊界が昼間の世界になりつつあるということは、もう確実と言っていいです。<br/><br/> ストライキは今一番困っている問題ですが、それについてちょっと書いてみました。<br/><br/> （御論文「信仰とストライキ」）【栄光 一八七号】 それから浄化作用について、お蔭話などでちょっと間違えることがあるようですから言っておきます。<br/><br/>浄化作用というものは、どうしても一度は毒素が固まるのです。<br/><br/>ですから浄霊をしますと、固まりかかったものが、そのまま溶けることもあるし、毒によっては浄霊するとよけい固まることがあります。<br/><br/>よけい固まって溶けるのです。<br/><br/>よく浄霊すると熱が出ますが、それはよけい固まって熱が出るのです。<br/><br/>これは万物一切の物質はそういう順序を経て浄化するのです。<br/><br/>ですから中途半端でなおすということはあるにはありますが、それは毒の性質と、その時の体の状態によっては、固まらないで溶ける場合もあるが、大体の原則として固まって溶けるのです。<br/><br/>ですから肩が凝って苦しいという時に浄霊すると、かえって肩が凝ったり固まったりすることがありますが、その意味を知っておくとよく分かりますから、まごつくことはありません。<br/><br/> それから分かりきったことで気をつけないことが大いにあります。<br/><br/>それを分かりやすく書きました。<br/><br/>というのは、今社会衛生とかいろいろなことがおそろしく人間を壊れ物扱いにしています。<br/><br/>それを医学の進歩と思っているのです。<br/><br/>だから大事に大事にして、屁のようなことでも「こういうようにしろ」とか「ああいうようにしろ」とか指図しているのですが、これは実にナンセンスなのです。<br/><br/>それを分かりやすく書きました。<br/><br/> （御論文「本教信者の幸福」）【栄光 一八八号】 次のは今のに関連したような論文です。<br/><br/> （御論文「善意の罪悪」）【栄光 一八七号】 それからこの間もちょっと話しておきましたが、中国の紅卍字会が非常に困っているのです。<br/><br/>それで先方では提携ということですが、実際は救いを求めてきたようです。<br/><br/>それも神様がそういう具合にしたのです。<br/><br/>それで今度小田原の別院の一部をそれに使わせようと思ってます。<br/><br/>ただ紅卍字会は、おもしろいことには神様の在る無しがすぐ分かるのです。<br/><br/>ですから救世教の方では、お蔭とか、奇蹟とか、浄霊すれば病気がなおる、ということで神様があることが分かります。<br/><br/>ところが紅卍字会のやり方はまた別なやり方で神様を分からせるのです。<br/><br/>これはいずれ小田原でやりますが、長方形のテーブルの向こうとこっちに人が立っていて、Ｔ字形の棒を両方で持っているのです。<br/><br/>そうして砂盤といって四角の薄いお盆をおいて、その上に平らに砂をいっぱい置いておき、Ｔ字形の両方を持っていると、これが自然に動いて字を書くのです。<br/><br/>ところがその字を書くのがとても早いのです。<br/><br/>両方で示し合わせて書くとしても、ああ早くはいきません。<br/><br/>ですから神様が書くということが分かります。<br/><br/>そうして持っている方は軽く持っているのです。<br/><br/>そうすると、こっちで見ていて、一つ一つつないでいくのです。<br/><br/>そうするとそれが文章になっていくのです。<br/><br/>それで最初やる前にはすっかりお祈りをするのです。<br/><br/>祝詞のようなものを奏げて、中国人はこういう具合に手が見えなくなるようにして三拝九拝する。<br/><br/>これは三回ずつ三度して三、三、九度するのです。<br/><br/>そうしてそれから始めるのです。<br/><br/>その時に立派な椅子を置くのです。<br/><br/>それには誰もかけてませんが、そこに神様がおかけになるということになってます。<br/><br/>霊眼でみる人もあります。<br/><br/>ですから確かに神様がそこにおかけになるに違いありません。<br/><br/>その神様というのは至聖先天老祖というのです。<br/><br/>その神様が指図命令なさるのです。<br/><br/>今はだいぶ変わったようですが、以前はキリスト、釈迦、孔子、観音、弥勒。<br/><br/>マホメットはなかったようですが、とにかく七つの神様が代わる代わるおかけになったようです。<br/><br/>私は見たことがありますが、二十年ばかり前に日本に紅卍字会の幹部の人が六人か来て、私が経営していた麹町の大本教の分所で初めてやったのです。<br/><br/>私が行った時は観音様で、「観世音菩薩、汝らに告ぐ」ということで、それからいろいろなことが出ました。<br/><br/>ですからそこに出るのはいろいろな教えとか予言とかです。<br/><br/>予言というのは密訓といってますが、それは秘密で公開できないのです。<br/><br/>これはよほど前ですが、蒋介石がいばっていた時分の密訓で、蒋介石が亡びるということが出たのです。<br/><br/>秘密にしていたのですが、なんでも知れたらしくて、随分調べられていろいろなことがあったようですが、たいしたことはなかったらしいです。<br/><br/>その時はそういう気振りもなかったが、結局こうなってみると密訓は恐ろしいくらいなものです。<br/><br/>それから今度小田原でやるでしょうが、粉だと思いますが、いろいろな絵の具をまぜこぜにしておくのです。<br/><br/>それは筆を使うのかどうかよく分からないが、一遍にパッと拡がって絵になってしまうのです。<br/><br/>それは実にすばらしいものだそうです。<br/><br/>実に神秘です。<br/><br/>私が見た時は筆の先で字を書いて、そこに列席した人に配りましたが、その時おもしろいことは、私に大きな「浄」という字を一字くれたのです。<br/><br/>それで横に小さく「岡田茂吉」と書いてあった。<br/><br/>それを表装しようと思って経師屋に出したら、経師屋がなくしたらしく、私もそれきり忘れてました。<br/><br/>今になってみると、私は「浄霊」ということが必要な仕事ですから、その時に神様が用意されていたのです。<br/><br/>その字を書くというのは神様がやられたということは一目で分かります。<br/><br/>一字書くとトンといきまた一字書くとトンといく、それが文章になるのです。<br/><br/>だからこれも私は、利用というと安っぽくなりますから利用とは言わないが、神様があるということを見せるという、そういう一つのやり方で、これも必要なのです。<br/><br/>これはインテリなどが見ると一番よいです。<br/><br/>病気がなおるというのは、時節が来たからなおったとか、今薬が効いた、といえば言えますが、これは目の前ではっきりするのですからこれはいいなと思ってましたが、いよいよそれをやることになるでしょうから、一つの方法として非常にいいと思います。<br/><br/> これは分かっているのですが、約二十年前の昭和五、六年のころに紅卍字会の人たちが、今の芝の浜離宮の庭で写真をうつしたことがあります。<br/><br/>その時に紅卍字会の信者が十八人か並んで、その隣に大本教の信者が十数人並んでいた。<br/><br/>そうしてこれから写真をうつそうという時に、ちょうど私がそこに着いたのです。<br/><br/>そうしてヒョッと見るとみんな整列しているのですが、富沢という信者で代議士かでしたが「今うつすから、岡田さん早く来給え」と言うから、私も「ああ」と言って立ったところが、すぐ写真がうつった。<br/><br/>その立った所が紅卍字会と大本教信者が並んだちょうど真ん中の一番前に立ってうつったのです。<br/><br/>それで私は、今に紅卍字会は自分が支配するのだなと思ったのですが、それがだんだん実現する段取りになってきたのです。<br/><br/>それで紅卍字会というのは、旗印は赤い卍です。<br/><br/>あれは右進左退の方の逆卍です。<br/><br/>それで紅卍字会というのは、二十何年前に中国の済南という所の在で百姓のじいさんが神懸りになって「道院」という宗教を作ったのです。<br/><br/>これは本当に拝むのが主なのです。<br/><br/>そうして紅卍字会というのは、体的の救いをやるために右進左退の逆卍になったのです。<br/><br/>それで私の方は左進右退です。<br/><br/>前に金［逆卍］というのを作って、最初の雑誌を作ったのですが、その表紙に金の［逆卍］を作ったのです。<br/><br/>そうして金［逆卍］教会というのを作ろうと思ったのですが、いろいろな事情ができてやることができなかったのです。<br/><br/>そうこうするうちにヒトラーが黒［逆卍］をつけた。<br/><br/>これは逆でなく本当の［逆卍］ですが、斜めになってます。<br/><br/>それに黒ですから、黒は悪です。<br/><br/>そうして斜めですから正しくはないのです。<br/><br/>黒［逆卍］は悪ですからナチスは駄目だと思ったのです。<br/><br/>そういうこともありました。<br/><br/>紅卍字会というのは、結局将来中国を救うその主力になるわけです。<br/><br/>それでやっぱり私が指図しなければ駄目です。<br/><br/>そうなると、おもしろいのはフーチですが、フーチによってできるのですが、これは一名壇訓（だんくん）と言うが、一般にはフーチと言ってます。<br/><br/>これは支那の古い時代にあったのです。<br/><br/>それで巫（みこ）という字がありますが、これはそうなってます。<br/><br/>人が二人でこれを持っているという形がこれに出てます。<br/><br/>だから支那の何千年か前にあったに違いありません。<br/><br/>おそらく漢以前でしょう。<br/><br/>漢以後は物質的になったのです。<br/><br/>そこで漢方薬と言いますが、漢方薬というのは漢の以後にできたのです。<br/><br/>だから漢以前には薬を使わなかったのです。<br/><br/>これについてはまだいろいろな話がありますが、時間がないから大体を話したのです。<br/><br/>来年からインテリ階級に神のあるということを知らせる仕事ができるから、そういう方面に開けるというわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

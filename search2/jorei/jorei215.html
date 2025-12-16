@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei215</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 壱岐さんの入信 明主様の言霊 槐安生 『栄光』215号、昭和28(1953)年7月1日発行 病貧争という人間のもつ三大苦悩を払拭する救世教の救いは、社会のあらゆる階層の間に浸み透って、数十万の信徒を擁しているのであるが、この膨大な信者のなかには、どんな職業の人でも無い、ということはない。<br><br>この中には御神業の発露に依ってやがては門戸を鎖さなければならない運命にある医師もあれば、薬が毒であるとの真理を知っでから生業の薬局経営をやめて、御神業に協力させて戴いている人もあり、歯科医、助産婦、看護婦のように医薬に依存して生活し、いわば救世教を白眼視しても怪しむに足りない職業の人々までが大勢帰依していると云うことは、見ように依っては皮肉であり、医学への諷刺とも云えよう。<br><br>しかしこれ等の事実は、不思議のようでいて決して不思議ではない。<br><br>日頃、病苦に悩む人の治療看護に当っていて、現代医学の矛盾を普通の人より以上に感じているからである。<br><br> 看護婦である壱岐さんの入信も、そうした先例があってみれば何も珍らしい事ではないが、自分が係りであった患者に導びかれた入信迄の経路が面白く、入信してから病院内に与えた波紋は大きなものがあって、医師に首を捻らせたり、上司の人を浄霊に連れて来て入信させたりするなど、一部始終を看たり聞いたりしている私の感じでは、いよいよ、神様が直接医師たちにその謬りを匡していなさるかのように思えるのであった。<br><br> 壱岐さんが看護婦として勤めている病院はその簡単明瞭なマークが、世界各国にそれと通じる著名な大病院で、いわば救世教の救いからは一番あとに取残される運命を持っている。<br><br>と、いい切れるほど私たちに縁遠い存在であるから（いや近い関係かも知れない）最初その病院の名を云われたとき、私は自分の耳を疑い二度も三度も訊き直したほどであった。<br><br> 彼女が私の家を訪れて救世教の話を聴き浄霊を戴く気になったのは、腹膜炎、子宮後屈で入院していた患者が治らぬまま退院し、以後、救世教の浄霊で完全に救われたのを知って、かねてから医師たちに匙を投げられた恰好で、自分も半ば不治と締らめている痼疾を救世教では何んと見るだろうか？と、ヒヤカシ半分の気持でその人に連れて来て貰らった。<br><br>とあとになって告白した。<br><br>壱岐さんが悩んでいる病気は、腹膜の手術を受けた余後からで、頭が重く睡眠もとれず、どうしたことか身体も前へこごむこともできなくなり、今迄の病室勤務も続けられなくなって二年余りにもなる。<br><br>と云う。<br><br>この病気を治すには耳の後ろの骨を穿孔して頭に溜っている膿を除る方法しかないが、下手をすると白痴になる憂いがあり、万に一つのカネアイという難かしい手術なので、永年親しく知り合っている医師と看護婦であってみれば万一の僥倖だけを頼みの手術もできず、医師も本人も病気の推移をただ見守っているだけの状態だった。<br><br>彼女の病状を訊き終って、手術のときに使った消毒薬が作った病気。<br><br>と私は判断したが看護婦としての職歴が十余年にも及んでいる人だけに医薬への信頼感もそれだけ強く、この人に薬毒の真理を言葉で伝えても信じさせるには並大抵のことではない。<br><br>まず浄霊に依って事実を示す以外に有効適切な方法はないので浄霊を毎日続けることを勧め、病院から通うに便利な秋山さんに彼女の浄霊をお願した。<br><br>私も暇を作っては秋山さんの家へゆき話をし浄霊をした。<br><br>二週間ほど続けた浄霊ですぐそれと解るほど顔の血色が良くなり、夜も安眠でき身体を前にこごめて床に置いてある物も取れるようになった。<br><br>頭に溜っていた膿は耳だれとなって流れ出て、万に一つのカネアイという難手術を嗤っているかのようである。<br><br>このことは早速、病院での話題となり、君までがお光りさんになったのか。<br><br>と医師をして嘆ぜしめ、お手のものの診察をしてみてあれ程の難病が実際に軽快しているのを認め、『うう…』とうなった。<br><br>と聞いている。<br><br>それかあらぬか、病気治しのお光さんに興味を持つお医者さんはあっても、彼女の信仰を妨害する反対者はなく、栄光や地上天国などの教団の機関紙が公然と病院で読まれ、彼女たち看護婦を監督する竹嶋さんまでが彼女と一緒に浄霊を受けにくるようになった。<br><br> 入信してお守りを戴けば何等の苦行もいらず誰でも浄霊ができ、ひとを救うことができることが解ると、壱岐さんもその上司の竹嶋さんも自分が浄霊してみたくなったのも、極めて当然の成行であろう。<br><br> 二人は揃って入信した。<br><br>お守り様をかけた二人にはその次の日から思い掛けないことが起ってきた。<br><br>それは患者から名指しで処置を頼まれることである。<br><br>職務上、止むを得ず患者に接する時、患者に気付かれないように浄霊する。<br><br>患者は何も知らずに壱岐さんや竹嶋さんが傍にいてくれるだけで楽になる。<br><br>と不思議がるのであった。<br><br>浄霊の偉効であることは勿論、患者は知らない。<br><br>他の看護婦たちが奇異に思い、二人が云う薬毒説も素直に聴くようになり、身体に異和を認めても薬を呑むことが少くなった。<br><br>と云う。<br><br>『近頃、寄宿舎の人達、薬を取りに来ないね…」と薬局の主任さんが云うと、『こちらにはお光りさんの先生が二人もいて病気を治して仕舞いますから…』と看護帰さんが笑いながら返事をしたこともあったそうだ。<br><br> 病院の寄宿舎で看護婦が看護婦を浄霊している風景を想像すると、私の口辺には微笑が浮ぶ。<br><br>秋山さんの家へ集まる信者さん達も華やかなこのナイチンゲールたちの活躍ぶりに声援を送り病院内に救世教の支部ができ、光明如来様が奉斎される日を待ち遠しがっているが、救われた喜びに我を忘れて喜び勇む二人の行動が、いたずらに医師や監督者を刺戟して無用な反感を買う様な事がなければいいが…と思っていた私の考えも、どうやら杞憂であったらしく、ある時、秋山さんに電話がかかり、『盲腸の患者が手術の間際になって手術を厭がるので、もはや手遅れに近いがお光さん浄霊して下さい。<br><br>』と病院のお医者さんから云って来たのにはこちらの方で吃驚した。<br><br>早速、駈け付けた秋山さんの浄霊で痛みが止まり、次の日にはその患者が秋山さんの家へ浄霊にきてそれっきり退院して仕舞った。<br><br>と云うエピソードさえ生まれた。<br><br>世界中に名の聞えた著名病院にこの二人の入信者ができたのは、明主様が、『医者に教えてやれ。<br><br>』との言霊があった、その直後に起きたことである。<br><br>言霊の響きに応じて、そのことが現われる不思議さを、事のついでにもう一つ付け加えて置きたい。<br><br> 『アメリカを救う』の本が出版されるまえ、「栄光」にその一部が発表された時であった。<br><br>その御論文を読んでいるとき、全然、見知らぬ婦人が私を訪ねて来て、アメリカ人と結婚して今度、アメリカへ行く事になった。<br><br>ついてはお守りを戴き入信したい。<br><br>と云う来意であった。<br><br>明主様の御論文『アメリカを救う』をたった今、読んだばかりのところへ、アメリカへ永住の目的で行く未知の人が私に入信の申込みをしたのである。<br><br>私は唖然として暫く言葉も出なかったほど、強い衝激を受けた。<br><br> 入信を申込むからには、救世教の教義に一応の智識を持っているものと思い、いろいろと問いただしてみたが、何も知っていない。<br><br>近所の人から（未信者で一度、私の浄霊を受けたことがある）御守護の厚い神様でお守りを持てば病気を治すことができる。<br><br>と云われて訪れたのだと云う。<br><br>その人に婦人病があることは顔を見たときに解っていた。<br><br>一週間浄霊して入信の手続きをしてあげ、出帆まえに熱海へ参拝させて明主様の温容を胸に刻み込ませ、アメリカ人の夫に説明できるように基督教を比較引例して救世教の教義を呑み込ませ、明主様こそ救世主でお在わすことなどを簡単に説明してあげたのであった。<br><br>彼女が行った先はネバダ洲であったが、まだあちらのアドレスを知らせて来ない。<br><br> この事も、壱岐さんや竹嶋さんの入信と同じように明主様の言霊がすぐ形ちになって現われ、実を結んだ良い例である。<br><br>浄化についてのみ教えも、このように直接体験させて戴いた例は私の身体にこのところ多い明主様の御言霊はそのことを成らしめる神秘な力を持っていることをつくづく感じたのである。<br><br>だからこそ私は、万人が悦楽する理想社会、ミロクの世が遠からず打ち樹てられることを少しも疑わないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Eco do Verbo Divino: A Conversão no Coração da Medicina</h2>
 <p>A salvação professada pela Sekaikyuseikyo, destinada a erradicar os três grandes sofrimentos da humanidade – a doença, a pobreza e o conflito –, já permeou todas as esferas da sociedade, congregando centenas de milhares de fiéis. Nesse vasto contingente, não há profissão que não se encontre representada. Há médicos, cujo ofício está fadado a ser encerrado pelo avanço da Obra Divina; há farmacêuticos que, ao compreenderem a verdade de que o remédio é veneno, abandonaram a gestão de suas farmácias para cooperar conosco. O fato de que até mesmo dentistas, parteiras e enfermeiras – profissionais cuja subsistência depende da medicina e dos fármacos e que, portanto, poderiam nos tratar com desdém – aderem em grande número à nossa fé pode ser visto, sob certo prisma, como uma ironia, uma verdadeira sátira à ciência médica. Contudo, tais fatos, embora pareçam surpreendentes, não o são em absoluto. Por lidarem diariamente com o tratamento e o cuidado de pessoas afligidas por enfermidades, esses profissionais percebem as contradições da medicina moderna com uma acuidade muito superior à do cidadão comum.</p>
@@ -104,5 +256,48 @@ function toggleLang(lang) {
 <p>Este episódio extraordinário sucedeu imediatamente após Meishu-Sama proferir as palavras: ‘Ensinem aos médicos’. A propósito, gostaria de acrescentar mais um exemplo sobre a maravilhosa manifestação do Verbo Divino, que ecoa e se concretiza no mundo material. Certa vez, antes da publicação do livro <em>Salvar a América</em>, um trecho da obra foi divulgado na revista Eikô. Exatamente no momento em que eu lia esse artigo, uma senhora completamente desconhecida visitou-me. Ela relatou que iria se casar com um cidadão americano e se mudar para os Estados Unidos, e seu desejo era ingressar na fé e receber o Ohikari. Eu acabara de ler o ensinamento de Meishu-Sama, <em>Salvar a América</em>, e ali estava, diante de mim, uma pessoa desconhecida, prestes a fixar residência permanente naquele país, solicitando sua conversão. Fiquei tão atônito que, por um instante, as palavras me faltaram, tamanho o impacto que senti.</p>
 <p>Presumindo que ela possuísse algum conhecimento prévio da doutrina, fiz-lhe diversas perguntas, mas ela nada sabia. Uma vizinha (que não é membro, mas que uma vez recebeu meu Johrei) havia lhe falado sobre um Deus de grandes milagres e que, portando o Ohikari, ela poderia curar suas doenças. Foi o que a motivou a me procurar. Ao olhar para seu rosto, percebi que sofria de um problema ginecológico. Ministrei-lhe Johrei por uma semana, providenciei sua inscrição e, antes de sua partida, fiz com que peregrinasse a Atami para gravar em seu coração a imagem serena de Meishu-Sama. Expliquei-lhe os fundamentos da nossa fé, traçando paralelos com o Cristianismo para que pudesse dialogar com seu futuro marido, e transmiti-lhe de forma sucinta que Meishu-Sama é, de fato, o Messias. Seu destino era o estado de Nevada, mas ainda não recebi seu novo endereço.</p>
 <p>Este caso, assim como o das enfermeiras Iki e Takeshima, é um exemplo notável de como as palavras de Meishu-Sama imediatamente tomam forma e frutificam. Ultimamente, tenho vivenciado em meu próprio corpo muitos exemplos diretos dos ensinamentos sobre a purificação. Sinto, com profunda convicção, que o Verbo Divino de Meishu-Sama possui um poder místico capaz de tornar realidade aquilo que enuncia. É por essa razão que não tenho a menor dúvida de que a sociedade ideal, onde toda a humanidade desfrutará do júbilo – o Mundo de Miroku –, será estabelecida em um futuro próximo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 壱岐さんの入信 明主様の言霊 槐安生 『栄光』215号、昭和28(1953)年7月1日発行 病貧争という人間のもつ三大苦悩を払拭する救世教の救いは、社会のあらゆる階層の間に浸み透って、数十万の信徒を擁しているのであるが、この膨大な信者のなかには、どんな職業の人でも無い、ということはない。<br/><br/>この中には御神業の発露に依ってやがては門戸を鎖さなければならない運命にある医師もあれば、薬が毒であるとの真理を知っでから生業の薬局経営をやめて、御神業に協力させて戴いている人もあり、歯科医、助産婦、看護婦のように医薬に依存して生活し、いわば救世教を白眼視しても怪しむに足りない職業の人々までが大勢帰依していると云うことは、見ように依っては皮肉であり、医学への諷刺とも云えよう。<br/><br/>しかしこれ等の事実は、不思議のようでいて決して不思議ではない。<br/><br/>日頃、病苦に悩む人の治療看護に当っていて、現代医学の矛盾を普通の人より以上に感じているからである。<br/><br/> 看護婦である壱岐さんの入信も、そうした先例があってみれば何も珍らしい事ではないが、自分が係りであった患者に導びかれた入信迄の経路が面白く、入信してから病院内に与えた波紋は大きなものがあって、医師に首を捻らせたり、上司の人を浄霊に連れて来て入信させたりするなど、一部始終を看たり聞いたりしている私の感じでは、いよいよ、神様が直接医師たちにその謬りを匡していなさるかのように思えるのであった。<br/><br/> 壱岐さんが看護婦として勤めている病院はその簡単明瞭なマークが、世界各国にそれと通じる著名な大病院で、いわば救世教の救いからは一番あとに取残される運命を持っている。<br/><br/>と、いい切れるほど私たちに縁遠い存在であるから（いや近い関係かも知れない）最初その病院の名を云われたとき、私は自分の耳を疑い二度も三度も訊き直したほどであった。<br/><br/> 彼女が私の家を訪れて救世教の話を聴き浄霊を戴く気になったのは、腹膜炎、子宮後屈で入院していた患者が治らぬまま退院し、以後、救世教の浄霊で完全に救われたのを知って、かねてから医師たちに匙を投げられた恰好で、自分も半ば不治と締らめている痼疾を救世教では何んと見るだろうか？と、ヒヤカシ半分の気持でその人に連れて来て貰らった。<br/><br/>とあとになって告白した。<br/><br/>壱岐さんが悩んでいる病気は、腹膜の手術を受けた余後からで、頭が重く睡眠もとれず、どうしたことか身体も前へこごむこともできなくなり、今迄の病室勤務も続けられなくなって二年余りにもなる。<br/><br/>と云う。<br/><br/>この病気を治すには耳の後ろの骨を穿孔して頭に溜っている膿を除る方法しかないが、下手をすると白痴になる憂いがあり、万に一つのカネアイという難かしい手術なので、永年親しく知り合っている医師と看護婦であってみれば万一の僥倖だけを頼みの手術もできず、医師も本人も病気の推移をただ見守っているだけの状態だった。<br/><br/>彼女の病状を訊き終って、手術のときに使った消毒薬が作った病気。<br/><br/>と私は判断したが看護婦としての職歴が十余年にも及んでいる人だけに医薬への信頼感もそれだけ強く、この人に薬毒の真理を言葉で伝えても信じさせるには並大抵のことではない。<br/><br/>まず浄霊に依って事実を示す以外に有効適切な方法はないので浄霊を毎日続けることを勧め、病院から通うに便利な秋山さんに彼女の浄霊をお願した。<br/><br/>私も暇を作っては秋山さんの家へゆき話をし浄霊をした。<br/><br/>二週間ほど続けた浄霊ですぐそれと解るほど顔の血色が良くなり、夜も安眠でき身体を前にこごめて床に置いてある物も取れるようになった。<br/><br/>頭に溜っていた膿は耳だれとなって流れ出て、万に一つのカネアイという難手術を嗤っているかのようである。<br/><br/>このことは早速、病院での話題となり、君までがお光りさんになったのか。<br/><br/>と医師をして嘆ぜしめ、お手のものの診察をしてみてあれ程の難病が実際に軽快しているのを認め、『うう…』とうなった。<br/><br/>と聞いている。<br/><br/>それかあらぬか、病気治しのお光さんに興味を持つお医者さんはあっても、彼女の信仰を妨害する反対者はなく、栄光や地上天国などの教団の機関紙が公然と病院で読まれ、彼女たち看護婦を監督する竹嶋さんまでが彼女と一緒に浄霊を受けにくるようになった。<br/><br/> 入信してお守りを戴けば何等の苦行もいらず誰でも浄霊ができ、ひとを救うことができることが解ると、壱岐さんもその上司の竹嶋さんも自分が浄霊してみたくなったのも、極めて当然の成行であろう。<br/><br/> 二人は揃って入信した。<br/><br/>お守り様をかけた二人にはその次の日から思い掛けないことが起ってきた。<br/><br/>それは患者から名指しで処置を頼まれることである。<br/><br/>職務上、止むを得ず患者に接する時、患者に気付かれないように浄霊する。<br/><br/>患者は何も知らずに壱岐さんや竹嶋さんが傍にいてくれるだけで楽になる。<br/><br/>と不思議がるのであった。<br/><br/>浄霊の偉効であることは勿論、患者は知らない。<br/><br/>他の看護婦たちが奇異に思い、二人が云う薬毒説も素直に聴くようになり、身体に異和を認めても薬を呑むことが少くなった。<br/><br/>と云う。<br/><br/>『近頃、寄宿舎の人達、薬を取りに来ないね…」と薬局の主任さんが云うと、『こちらにはお光りさんの先生が二人もいて病気を治して仕舞いますから…』と看護帰さんが笑いながら返事をしたこともあったそうだ。<br/><br/> 病院の寄宿舎で看護婦が看護婦を浄霊している風景を想像すると、私の口辺には微笑が浮ぶ。<br/><br/>秋山さんの家へ集まる信者さん達も華やかなこのナイチンゲールたちの活躍ぶりに声援を送り病院内に救世教の支部ができ、光明如来様が奉斎される日を待ち遠しがっているが、救われた喜びに我を忘れて喜び勇む二人の行動が、いたずらに医師や監督者を刺戟して無用な反感を買う様な事がなければいいが…と思っていた私の考えも、どうやら杞憂であったらしく、ある時、秋山さんに電話がかかり、『盲腸の患者が手術の間際になって手術を厭がるので、もはや手遅れに近いがお光さん浄霊して下さい。<br/><br/>』と病院のお医者さんから云って来たのにはこちらの方で吃驚した。<br/><br/>早速、駈け付けた秋山さんの浄霊で痛みが止まり、次の日にはその患者が秋山さんの家へ浄霊にきてそれっきり退院して仕舞った。<br/><br/>と云うエピソードさえ生まれた。<br/><br/>世界中に名の聞えた著名病院にこの二人の入信者ができたのは、明主様が、『医者に教えてやれ。<br/><br/>』との言霊があった、その直後に起きたことである。<br/><br/>言霊の響きに応じて、そのことが現われる不思議さを、事のついでにもう一つ付け加えて置きたい。<br/><br/> 『アメリカを救う』の本が出版されるまえ、「栄光」にその一部が発表された時であった。<br/><br/>その御論文を読んでいるとき、全然、見知らぬ婦人が私を訪ねて来て、アメリカ人と結婚して今度、アメリカへ行く事になった。<br/><br/>ついてはお守りを戴き入信したい。<br/><br/>と云う来意であった。<br/><br/>明主様の御論文『アメリカを救う』をたった今、読んだばかりのところへ、アメリカへ永住の目的で行く未知の人が私に入信の申込みをしたのである。<br/><br/>私は唖然として暫く言葉も出なかったほど、強い衝激を受けた。<br/><br/> 入信を申込むからには、救世教の教義に一応の智識を持っているものと思い、いろいろと問いただしてみたが、何も知っていない。<br/><br/>近所の人から（未信者で一度、私の浄霊を受けたことがある）御守護の厚い神様でお守りを持てば病気を治すことができる。<br/><br/>と云われて訪れたのだと云う。<br/><br/>その人に婦人病があることは顔を見たときに解っていた。<br/><br/>一週間浄霊して入信の手続きをしてあげ、出帆まえに熱海へ参拝させて明主様の温容を胸に刻み込ませ、アメリカ人の夫に説明できるように基督教を比較引例して救世教の教義を呑み込ませ、明主様こそ救世主でお在わすことなどを簡単に説明してあげたのであった。<br/><br/>彼女が行った先はネバダ洲であったが、まだあちらのアドレスを知らせて来ない。<br/><br/> この事も、壱岐さんや竹嶋さんの入信と同じように明主様の言霊がすぐ形ちになって現われ、実を結んだ良い例である。<br/><br/>浄化についてのみ教えも、このように直接体験させて戴いた例は私の身体にこのところ多い明主様の御言霊はそのことを成らしめる神秘な力を持っていることをつくづく感じたのである。<br/><br/>だからこそ私は、万人が悦楽する理想社会、ミロクの世が遠からず打ち樹てられることを少しも疑わないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

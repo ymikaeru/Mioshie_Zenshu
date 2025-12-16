@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qjuninen</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 十二年間の難病より救われ葡萄状妊娠の危機も免る 『栄光』177号、昭和27(1952)年10月8日発行 静岡県 光信中教会 落合みゑ（34） 謹んで御守護の御報告申上げさせて頂きます。<br><br>私は結婚致すまでは健康に恵まれ、薬一服口に致した事のない身でございましたが、昭和十二年結婚致し、翌年男子を出産致しましてより産後の肥立ちが悪く種々の医療に身を任せ切って参りましたが、一進一退の状態にて病床の魔の淵より一歩も脱する事が出来ず、心臓は極度に衰弱し、医薬の効全く認め得ず、遂に溺れる者藁をも掴むの喩えのごとく鍼灸、信仰等、皆さんが良いと言われる事をただただ盲目的に続けて参りました。<br><br>幼児の母親として、再度健康を取戻したい、そして、実母としての愛の手に抱き立派に育てたき一念で御座居ました。<br><br> 主人は出産直前に出征致し、主人無き家庭を営まなくてはならぬ私が病魔のために臥床しており、医療代どころか、日々の生活費も行詰るばかりにて、その苦しみは到底筆舌に尽し得ざるものでございました。<br><br>時には心乱れて人生の尊さも忘れ、死の一路を辿ろうとした事さえ度々で御座居ました。<br><br>しかし、その度毎に、死んではならぬ、死んではならぬ、我が子の為に一日でも長く生き抜くんだと心の一角でさけぶのでした。<br><br>私は「母性愛」の一筋に釣られて病苦と戦い続けて参りました。<br><br> ある日、見舞に来て下さった友人が、救世教の有難い御神徳話の数々を聞かせて下さいました。<br><br>その御話を御聞きしている中に、悲観のどん底にあって心に光明を失っていた私の胸に煌々と輝く何物かが感じられたのでございます。<br><br> 「私は救われるんだ、きっときっと光明如来様が御救い下さるんだ」恐れ多い言葉では御座居ますが、光明如来様の御救いの御手に力一杯縋り付きたい思いで御座居ました。<br><br>私はいつしか床の中で合掌しており、歓喜の涙は瘠せ細った頬を伝って止めどなく流れるのでした。<br><br> その時友人の姿は本当に神々しく感じられました。<br><br>涙にうるむ眼にも、無心に眠る我子の顔が歓喜に満ち満ちているように見え、その時こそ、人生の希望、母親として力強く生き抜き得る確信が全身に漲るのを感じ、幼き我子を抱き締めて、「私は救われる、いや私だけではない、幼い我子も共に御救いを戴けるのだ、きっときっと」と心の奥で叫びました。<br><br> 友人は力強い言葉で「あなたもきっと光明如来様の御霊徳を戴いて御救い戴けるでしょう。<br><br>今日迄の迷いの夢から覚め、一心に御縋りして下さい。<br><br>今日私が御伺いしたのもあなたに覚醒して頂きたい一念でした。<br><br>今日から、私達と共に光明如来様の御救いの御手に御縋りし、強く正しく生き抜きましょう。<br><br>解って下さいますね」と問われたものの、私の胸中は歓喜に打震え、即座に御答えする事すら出来ませんでした。<br><br>友人はこの日三十分程御浄霊して下さって帰られました。<br><br> ところが、その日まで眠る事すら充分出来なかった私なのに、その晩は夢一つ見る事なく熟睡する事が出来ました。<br><br> 翌朝、友人は菅沼先生をお招き下さいまして引続き先生より御浄霊を戴く事になりました。<br><br>一回、二回、三回、と御浄霊戴く中に下痢の浄化を頂き下痢する毎に食欲は増し、肩の凝りは楽になって参りました。<br><br>この状態で二十日程経過致しましたある朝、出血の浄化を頂き、余り多量の出血ですので、浄化とは思いながらも先生に御伺い致しましたところ、お産後排出すべき毒血の浄化だから決して心配はない感謝すべきであるとの御話に、吾身の愚さを悟り、心配は感謝に変り御縋りに変って参りました。<br><br>この浄化後は日に日に薄紙を剥ぐがごとく、十二年間苦しみ続けて参りましたさしもの難病も約二カ月にして快癒致し、頭痛、肩の凝り、食欲不振、不眠症、呼吸困難、眩暈、等全く跡形もなく癒されたので御座居ます。<br><br>十二年間病魔と戦い続けて参りました事を思い出す度に、有難い勿体ないの連発です。<br><br>これが奇蹟でなくて何でありましょう。<br><br> 昭和二十四年六月には一家三人感謝に満ち満ちて入信させて戴き、長年暗黒に閉されておりました家庭に光明を与えられ、希望に満ちて何等の不安無く家業に励み、その傍ら病魔に苦しむ方々に一人でも多く有難き御霊徳をお知らせ致しております。<br><br>昨年春妊娠致し月の重なるにつれて、何となく普通の妊娠とは違うように思いながらも、明主様に御守護を御念じしつつ家業に従事致して参り、臨月に入りましたが何等の異常なく予定日を待つ中に、予定日は参りましたが出産の様子も御座居ません。<br><br> 家人、知人より「一度お産婆さんに診察して戴いては」と勧められまして、診察を受けましたところ葡萄状妊娠という事が明瞭となって参りました。<br><br>お産婆さんも非常に心配して下さいまして、専門医を紹介し、切開手術をすすめられましたが私と致しましては、何等そのような事に耳を籍す必要は御座居ません。<br><br>曇り多き私で御座居ますので、因縁の為異常妊娠をしたので御座居ます。<br><br>神様はきっときっと分娩させて下さるに違いないと確信致しておりますので、早速明主様に御拝顔致し、御守護垂れさせ給うて安産させて戴くよう御念じして帰宅致し、その後引続き先生の御浄霊を戴いておりましたところ、ある日御浄霊中俄かに憑霊現象となり、その結果、異常妊娠の原因一切が判明致しました。<br><br> 私に憑依しておりました霊は蛙の霊でございました。<br><br>それは私が病身の頃、ある人にすすめられて、赤蛙を随分沢山喰べた事がありますがその時の怨の霊であったのでございます。<br><br>今更いかに後悔しても致方ありません。<br><br>人間として喰べるべからざるものを喰べた我身の罪の一切は自己で精算すべきで御座居ます。<br><br> その後、霊の要求通り善言讃詞を奉唱し、幽世の大神様にお願い致しておりましたところ、数日後突然産気付き、通常の出産時と同様な腹痛が二、三時間続き、陣痛苦の中にも、明主様にひたすら御守護を御念じ申し上げている中、二回程激痛があり、三回日の激痛と共に出産させて戴きました。<br><br> 矢張り葡萄状体の分娩でございました。<br><br>出産後も経過は非常に順調に進み、有難き御守護賜りまして、いかに御礼申上げてよろしいやら、又いかに御報い申上げてよろしきやら、その方途すら知らない私で御座居ます。<br><br>このような有難き御神徳を知り得ずして、救世教を迷信邪教と譏る人も多い今日一日も早く一人でも多くの方に知って戴くべく、微力ながら今後共御尽しさせて頂きます。<br><br> 明主様、有難う御座居ました。<br><br>拙なき文章ではございますが、謹んで御守護の御報告を申し上げさせて戴きます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação de uma Doença Incurável de Doze Anos e o Livramento de uma Gravidez Molar</h2>
 <p>Publicado na revista Eikou, n.º 177, em 8 de outubro de 1952.
@@ -110,5 +265,48 @@ Ochiai Mie (34 anos)</p>
 <p>De fato, o que fora expelido era uma massa molar. Minha recuperação foi excelente, e por essa sublime proteção, não encontro palavras para expressar minha gratidão, tampouco sei como retribuir essa graça sublime. Nos dias de hoje, em que muitos zombam da Sekaikyuseikyou, taxando-a de superstição e seita maligna, desejo ardentemente que o maior número de pessoas, o mais rápido possível, possa conhecer esta verdade. Por isso, mesmo com minhas parcas forças, devotar-me-ei a essa missão.</p>
 <p>Meishu-Sama, muito obrigada.</p>
 <p>Embora meu relato seja singelo e despretensioso, ofereço-o respeitosamente como testemunho da proteção divina que recebi.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 十二年間の難病より救われ葡萄状妊娠の危機も免る 『栄光』177号、昭和27(1952)年10月8日発行 静岡県 光信中教会 落合みゑ（34） 謹んで御守護の御報告申上げさせて頂きます。<br/><br/>私は結婚致すまでは健康に恵まれ、薬一服口に致した事のない身でございましたが、昭和十二年結婚致し、翌年男子を出産致しましてより産後の肥立ちが悪く種々の医療に身を任せ切って参りましたが、一進一退の状態にて病床の魔の淵より一歩も脱する事が出来ず、心臓は極度に衰弱し、医薬の効全く認め得ず、遂に溺れる者藁をも掴むの喩えのごとく鍼灸、信仰等、皆さんが良いと言われる事をただただ盲目的に続けて参りました。<br/><br/>幼児の母親として、再度健康を取戻したい、そして、実母としての愛の手に抱き立派に育てたき一念で御座居ました。<br/><br/> 主人は出産直前に出征致し、主人無き家庭を営まなくてはならぬ私が病魔のために臥床しており、医療代どころか、日々の生活費も行詰るばかりにて、その苦しみは到底筆舌に尽し得ざるものでございました。<br/><br/>時には心乱れて人生の尊さも忘れ、死の一路を辿ろうとした事さえ度々で御座居ました。<br/><br/>しかし、その度毎に、死んではならぬ、死んではならぬ、我が子の為に一日でも長く生き抜くんだと心の一角でさけぶのでした。<br/><br/>私は「母性愛」の一筋に釣られて病苦と戦い続けて参りました。<br/><br/> ある日、見舞に来て下さった友人が、救世教の有難い御神徳話の数々を聞かせて下さいました。<br/><br/>その御話を御聞きしている中に、悲観のどん底にあって心に光明を失っていた私の胸に煌々と輝く何物かが感じられたのでございます。<br/><br/> 「私は救われるんだ、きっときっと光明如来様が御救い下さるんだ」恐れ多い言葉では御座居ますが、光明如来様の御救いの御手に力一杯縋り付きたい思いで御座居ました。<br/><br/>私はいつしか床の中で合掌しており、歓喜の涙は瘠せ細った頬を伝って止めどなく流れるのでした。<br/><br/> その時友人の姿は本当に神々しく感じられました。<br/><br/>涙にうるむ眼にも、無心に眠る我子の顔が歓喜に満ち満ちているように見え、その時こそ、人生の希望、母親として力強く生き抜き得る確信が全身に漲るのを感じ、幼き我子を抱き締めて、「私は救われる、いや私だけではない、幼い我子も共に御救いを戴けるのだ、きっときっと」と心の奥で叫びました。<br/><br/> 友人は力強い言葉で「あなたもきっと光明如来様の御霊徳を戴いて御救い戴けるでしょう。<br/><br/>今日迄の迷いの夢から覚め、一心に御縋りして下さい。<br/><br/>今日私が御伺いしたのもあなたに覚醒して頂きたい一念でした。<br/><br/>今日から、私達と共に光明如来様の御救いの御手に御縋りし、強く正しく生き抜きましょう。<br/><br/>解って下さいますね」と問われたものの、私の胸中は歓喜に打震え、即座に御答えする事すら出来ませんでした。<br/><br/>友人はこの日三十分程御浄霊して下さって帰られました。<br/><br/> ところが、その日まで眠る事すら充分出来なかった私なのに、その晩は夢一つ見る事なく熟睡する事が出来ました。<br/><br/> 翌朝、友人は菅沼先生をお招き下さいまして引続き先生より御浄霊を戴く事になりました。<br/><br/>一回、二回、三回、と御浄霊戴く中に下痢の浄化を頂き下痢する毎に食欲は増し、肩の凝りは楽になって参りました。<br/><br/>この状態で二十日程経過致しましたある朝、出血の浄化を頂き、余り多量の出血ですので、浄化とは思いながらも先生に御伺い致しましたところ、お産後排出すべき毒血の浄化だから決して心配はない感謝すべきであるとの御話に、吾身の愚さを悟り、心配は感謝に変り御縋りに変って参りました。<br/><br/>この浄化後は日に日に薄紙を剥ぐがごとく、十二年間苦しみ続けて参りましたさしもの難病も約二カ月にして快癒致し、頭痛、肩の凝り、食欲不振、不眠症、呼吸困難、眩暈、等全く跡形もなく癒されたので御座居ます。<br/><br/>十二年間病魔と戦い続けて参りました事を思い出す度に、有難い勿体ないの連発です。<br/><br/>これが奇蹟でなくて何でありましょう。<br/><br/> 昭和二十四年六月には一家三人感謝に満ち満ちて入信させて戴き、長年暗黒に閉されておりました家庭に光明を与えられ、希望に満ちて何等の不安無く家業に励み、その傍ら病魔に苦しむ方々に一人でも多く有難き御霊徳をお知らせ致しております。<br/><br/>昨年春妊娠致し月の重なるにつれて、何となく普通の妊娠とは違うように思いながらも、明主様に御守護を御念じしつつ家業に従事致して参り、臨月に入りましたが何等の異常なく予定日を待つ中に、予定日は参りましたが出産の様子も御座居ません。<br/><br/> 家人、知人より「一度お産婆さんに診察して戴いては」と勧められまして、診察を受けましたところ葡萄状妊娠という事が明瞭となって参りました。<br/><br/>お産婆さんも非常に心配して下さいまして、専門医を紹介し、切開手術をすすめられましたが私と致しましては、何等そのような事に耳を籍す必要は御座居ません。<br/><br/>曇り多き私で御座居ますので、因縁の為異常妊娠をしたので御座居ます。<br/><br/>神様はきっときっと分娩させて下さるに違いないと確信致しておりますので、早速明主様に御拝顔致し、御守護垂れさせ給うて安産させて戴くよう御念じして帰宅致し、その後引続き先生の御浄霊を戴いておりましたところ、ある日御浄霊中俄かに憑霊現象となり、その結果、異常妊娠の原因一切が判明致しました。<br/><br/> 私に憑依しておりました霊は蛙の霊でございました。<br/><br/>それは私が病身の頃、ある人にすすめられて、赤蛙を随分沢山喰べた事がありますがその時の怨の霊であったのでございます。<br/><br/>今更いかに後悔しても致方ありません。<br/><br/>人間として喰べるべからざるものを喰べた我身の罪の一切は自己で精算すべきで御座居ます。<br/><br/> その後、霊の要求通り善言讃詞を奉唱し、幽世の大神様にお願い致しておりましたところ、数日後突然産気付き、通常の出産時と同様な腹痛が二、三時間続き、陣痛苦の中にも、明主様にひたすら御守護を御念じ申し上げている中、二回程激痛があり、三回日の激痛と共に出産させて戴きました。<br/><br/> 矢張り葡萄状体の分娩でございました。<br/><br/>出産後も経過は非常に順調に進み、有難き御守護賜りまして、いかに御礼申上げてよろしいやら、又いかに御報い申上げてよろしきやら、その方途すら知らない私で御座居ます。<br/><br/>このような有難き御神徳を知り得ずして、救世教を迷信邪教と譏る人も多い今日一日も早く一人でも多くの方に知って戴くべく、微力ながら今後共御尽しさせて頂きます。<br/><br/> 明主様、有難う御座居ました。<br/><br/>拙なき文章ではございますが、謹んで御守護の御報告を申し上げさせて戴きます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

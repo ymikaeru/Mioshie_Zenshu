@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhaike06</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺結核治癒体験記 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 新潟県 光陽中教会 田村登一郎（25） 謹んで肺結核治癒の体験を御報告させて頂きます。<br><br>私は幼少の頃より腺病質で体も大変弱く、五歳の時ジフテリヤになり危うく死にかけた命を数十本の注射で治り、六歳と七歳の時、二度肛門に悪性の腫物が出来て手術をして治すという具合で、病気の連続でした。<br><br>学校卒業後工場に勤めておりましたが、昭和十年九月突然胸痛と四十度近い高熱を発し医者の診断を受けたところ、左湿性肋膜炎との事で工場を休み、絶対安静を一カ月続け、その間毎日のようにカルシウム注射をやり、水も一升五合位とり、ようやく固りましたので再び勤めに出ましたが、常に惰るく、微熱があり、胸も痛く、蒼黒い顔をして何時晴々とした体にはなれませんでした。<br><br>再発を恐れて常に健康診断を受け、又栄養のありそうな食物を摂り、栄養剤など服み、体は充分に注意しておりました。<br><br>昭和二十一年六月市内の病院で健康診断を受けたところ「肋膜の方は大体治ったが今度は肺が悪くなってきている、まだ大した事はないから、一カ月位工場を休めば大体よくなるだろう」と言われました。<br><br>一時は呆然としてしまいましたが、一カ月位でよくなるだろうとの医師の言葉に気をよくし「左上葉結核」の診断書を工場に出して休み、割合呑気になって遊んでおりましたが、一カ月後には自覚症状など全然なくなり、今度こそすっかり治ったものと思い、再び病院で診察を受け、血沈、レントゲン撮影をやってもらったところ、結果は全く正反対で「病気も大分進行して来た、今が君の命の岐れ目だ、このまま家で不規則な生活を続けるのなら、命は保証されない。<br><br>新潟市郊外に国立の療養所があるから、そこに入って規則正しい療養生活をすれば治る見込みもある。<br><br>家族の人ともよく相談するように、とにかく家へ帰ったら安静にして寝ているように」と申渡され、「両性結核」の診断書に、療養所の用紙まで渡され、全く暗然たる気持で家に帰って来ました。<br><br>「不治」という肺結核に対する先入観念から、命も半ば諦めたような気持になり、病院から渡された薬をただ習慣的に服んで安静にして寝ておりますが、その頃から症状も本格的になり、盗汗、微熱は毎日続き、肩はこり、食欲も余りなく、日増しに衰弱してくるようでした。<br><br>その頃より浄霊の事もある程度聞かされておりましたが、医学でさえ結核に対しては何ら決定的な治病法もないのに、民間療法などでは治るはずはない。<br><br>何をやっても結局は同じ事だと思い、家族の者が一度先生から来て頂いて浄霊を頂いてはどうかと勧めてくれましたが、一向に乗気がしませんでした。<br><br> ところが昭和二十一年七月十三日、私には知らせないで親戚の人がお願いして田中数雄先生から御越しを願いました。<br><br>「病気は浄化作用で決して恐るべきものではない」事など、病気の事について大変丁寧に、御熱心に説明して下さいましたが、余り耳新らしいお話にどう判断してよいやら判りませんでしたが、「あなたのような肺結核の人が、浄霊によって多勢治っている」と言われた。<br><br>この一言に私も浄霊をしていただく気になり、田中先生からやって頂いたら、何だかよくなりましたが、帰られてからも心が決らずにおりました所、家族の者に連れられて現在の光陽中教会長、小川先生の御宅へお伺いしました。<br><br>順番を待っている中に、次第に胃が痛み出し、一時間位後には堪えられない位猛烈に痛むので、会長先生から浄霊をして頂いたら、二十分位で吐き、あれ程の痛みは完全にとまってしまいました。<br><br>初日からこれだけの体験を得たので、これだけの効果があるなら結核も治るに違いないと思い、翌日から通って浄霊を頂くようになりました。<br><br>盗汗も次第に出なくなり、肩のこりもとれはじめ、体も気分も日増しによくなってゆき、来てよかったとつくづく思いました。<br><br>私の外に結核の方も四、五人来ておられましたが、皆異口同音に具合がいいと言っておりました。<br><br>毎日先生のお宅へ行ってお話をお聞きする中に、これはた方の民間療法とは違う事を知り、一刻も早く教修を頂きたい気持になり、昭和二十一年八月十七日小川会長先生から、お守を胸に下げて頂き、大変な感激と誇りとで、生れ返らせて頂いたのでありました。<br><br>入信後も一カ月半浄霊を受けました。<br><br>お蔭様であらゆる自覚症状はなくなり、体重は増し、気分も実に爽快となりつくづく人間としての生甲斐を感じました。<br><br>肺結核でもどんな病気でも、こんなにどんどんよくなって行くんだから、自分もこのように人助けが出来たら随分愉快だろうと思い、会長先生宅に十月の初めから助手として使っていただく事になりました。<br><br>昭和二十年十月二十九日には、初めて会長先生に連れられて、熱海で明主様に御面会させていただきました。<br><br>昭和二十一年は、悲しみに明け、大変な喜びの裡に暮れました。<br><br>二十二年三月頃より然毒が出はじめ、特に手や足に酷く体中に拡がり、猛烈な痒みのため、毎日明け方頃までほとんど眠る事が出来ない位でした。<br><br>その頃より再び肺の浄化作用が始り、熱が出て来て体が倦（だる）く、胸も痛み、一回日の浄化の時よりも衰弱多く、一日半分以上は床につき、やっとの思いで毎日会長先生の御宅まで行って浄霊を頂いてまいりました。<br><br>私の衰弱しきった体や、蒼白い顔色を見て、近所の人達は誰も私が助かるとは思っておられなかったそうであります。<br><br>こんな状態が二カ月も続き、一時は全く壁に突当ったような気持になりましたが、八月に入り然毒が治り始めるようになってから、肺の浄化も次第におさまり、二度目の浄化も全く御守護によって終らせて頂きました。<br><br>それから二十四年の半ば頃までの一カ年半は、毎日少しずつ浄化して怠い日も続いておりましたが、一生懸命に浄霊に従事させて頂き、又私もほとんど毎日のように浄霊をして頂きました。<br><br>二十四年七月頃から非常に怠い日が続いておりましたが、八月十一日になり朝から急に熱が出始め十一時頃には四十度位になり、足も腰も立てなくなり、頭はボーとして来て、何が何やら判らず、その上呼吸が苦しく物凄く咳と痰が出て、体中どこを触っても火のような熱です。<br><br>食欲など全く無く、ただ水だけが大変うまく、会長先生はじめ諸先生が代る代るお越し下さり、御浄霊して下さいましたが、頭や首、肩の熱がなかなか下らず、十日ばかりの間にうんと衰弱してしまいました。<br><br>こんな酷い肺の再浄化は今回がはじめてで、生も死も神様にお任せしておりましたところ、今度も再び御守護により二週間位経てから、次第に熱も下り一カ月後には大体治りました。<br><br>浄化後は何年間も続いた体の怠さもすっかりとれ、顔色もずっとよくなり、体も軽くなり、気分も爽快になり、浄化は本当に有難いものだとつくづく身をもって体験させて頂きました。<br><br>その後二十五年になり四月から六月頃まで、軽い肺の浄化がおきましたが、それ以後は本当に好調でいかなる仕事にも何の不安もなく、耐え得るような健康体にさせて頂き、現在では専心御用を勤めさせて頂いております。<br><br> 現在六年前を振返ってみると、全く夢のような気持が致します。<br><br>世間には以前の私と同様肺結核になられ、希望のない生活を送っておいでの方も多いかと思いますが、一日も早く目醒めて、浄霊を受け健康体になられる事を祈っております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relato da Experiência de Cura da Tuberculose Pulmonar</h2>
 <p><strong>Da obra "A Terapia Revolucionária da Tuberculose", publicado em 15 de agosto de 1951</strong>
@@ -103,5 +258,48 @@ function toggleLang(lang) {
 <p>Dali em diante, até meados de 1949, por um ano e meio, passei por purificações diárias e sutis, com dias de constante indisposição. Apesar disso, dediquei-me com afinco a ministrar Johrei e, da mesma forma, recebia-o quase todos os dias. A partir de julho de 1949, senti um cansaço persistente, até que, na manhã de 11 de agosto, uma febre súbita se manifestou. Por volta das onze horas, a temperatura atingiu os quarenta graus. Eu já não conseguia me manter de pé, minha mente estava turva e eu mal compreendia o que acontecia ao meu redor. Soma-se a isso uma dificuldade respiratória, acompanhada de tosse e expectoração intensas. Todo o meu corpo ardia como fogo. Perdi completamente o apetite; apenas a água me trazia algum conforto. O Reverendo e outros ministros se revezavam para me aplicar Johrei, mas a febre na cabeça, no pescoço e nos ombros demorava a ceder. Em apenas dez dias, meu corpo enfraqueceu drasticamente. Foi a repurificação pulmonar mais severa que já havia enfrentado. Naquele momento, entreguei minha vida e minha morte nas mãos de Deus. Mais uma vez, pela Divina proteção, a febre começou a baixar após duas semanas e, um mês depois, eu estava praticamente recuperado. Após essa purificação, o cansaço crônico que me acompanhou por anos desapareceu por completo. Meu semblante melhorou, meu corpo tornou-se mais leve e meu espírito, revigorado. Pude, então, vivenciar na própria pele quão abençoado é o processo de purificação.</p>
 <p>No ano seguinte, em 1950, entre abril e junho, tive uma última e branda purificação pulmonar. Depois disso, minha saúde se tornou excelente, e hoje sou capaz de realizar qualquer trabalho sem nenhuma insegurança, em um corpo plenamente saudável. Atualmente, dedico-me integralmente a servir nesta Obra Divina.</p>
 <p>Ao olhar para trás, para os acontecimentos de seis anos atrás, tudo me parece um sonho. Imagino que existam muitas pessoas no mundo que, assim como eu no passado, sofrem de tuberculose e levam uma vida desprovida de esperança. Rogo para que elas despertem o quanto antes, recebam o Johrei e alcancem um corpo saudável.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺結核治癒体験記 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 新潟県 光陽中教会 田村登一郎（25） 謹んで肺結核治癒の体験を御報告させて頂きます。<br/><br/>私は幼少の頃より腺病質で体も大変弱く、五歳の時ジフテリヤになり危うく死にかけた命を数十本の注射で治り、六歳と七歳の時、二度肛門に悪性の腫物が出来て手術をして治すという具合で、病気の連続でした。<br/><br/>学校卒業後工場に勤めておりましたが、昭和十年九月突然胸痛と四十度近い高熱を発し医者の診断を受けたところ、左湿性肋膜炎との事で工場を休み、絶対安静を一カ月続け、その間毎日のようにカルシウム注射をやり、水も一升五合位とり、ようやく固りましたので再び勤めに出ましたが、常に惰るく、微熱があり、胸も痛く、蒼黒い顔をして何時晴々とした体にはなれませんでした。<br/><br/>再発を恐れて常に健康診断を受け、又栄養のありそうな食物を摂り、栄養剤など服み、体は充分に注意しておりました。<br/><br/>昭和二十一年六月市内の病院で健康診断を受けたところ「肋膜の方は大体治ったが今度は肺が悪くなってきている、まだ大した事はないから、一カ月位工場を休めば大体よくなるだろう」と言われました。<br/><br/>一時は呆然としてしまいましたが、一カ月位でよくなるだろうとの医師の言葉に気をよくし「左上葉結核」の診断書を工場に出して休み、割合呑気になって遊んでおりましたが、一カ月後には自覚症状など全然なくなり、今度こそすっかり治ったものと思い、再び病院で診察を受け、血沈、レントゲン撮影をやってもらったところ、結果は全く正反対で「病気も大分進行して来た、今が君の命の岐れ目だ、このまま家で不規則な生活を続けるのなら、命は保証されない。<br/><br/>新潟市郊外に国立の療養所があるから、そこに入って規則正しい療養生活をすれば治る見込みもある。<br/><br/>家族の人ともよく相談するように、とにかく家へ帰ったら安静にして寝ているように」と申渡され、「両性結核」の診断書に、療養所の用紙まで渡され、全く暗然たる気持で家に帰って来ました。<br/><br/>「不治」という肺結核に対する先入観念から、命も半ば諦めたような気持になり、病院から渡された薬をただ習慣的に服んで安静にして寝ておりますが、その頃から症状も本格的になり、盗汗、微熱は毎日続き、肩はこり、食欲も余りなく、日増しに衰弱してくるようでした。<br/><br/>その頃より浄霊の事もある程度聞かされておりましたが、医学でさえ結核に対しては何ら決定的な治病法もないのに、民間療法などでは治るはずはない。<br/><br/>何をやっても結局は同じ事だと思い、家族の者が一度先生から来て頂いて浄霊を頂いてはどうかと勧めてくれましたが、一向に乗気がしませんでした。<br/><br/> ところが昭和二十一年七月十三日、私には知らせないで親戚の人がお願いして田中数雄先生から御越しを願いました。<br/><br/>「病気は浄化作用で決して恐るべきものではない」事など、病気の事について大変丁寧に、御熱心に説明して下さいましたが、余り耳新らしいお話にどう判断してよいやら判りませんでしたが、「あなたのような肺結核の人が、浄霊によって多勢治っている」と言われた。<br/><br/>この一言に私も浄霊をしていただく気になり、田中先生からやって頂いたら、何だかよくなりましたが、帰られてからも心が決らずにおりました所、家族の者に連れられて現在の光陽中教会長、小川先生の御宅へお伺いしました。<br/><br/>順番を待っている中に、次第に胃が痛み出し、一時間位後には堪えられない位猛烈に痛むので、会長先生から浄霊をして頂いたら、二十分位で吐き、あれ程の痛みは完全にとまってしまいました。<br/><br/>初日からこれだけの体験を得たので、これだけの効果があるなら結核も治るに違いないと思い、翌日から通って浄霊を頂くようになりました。<br/><br/>盗汗も次第に出なくなり、肩のこりもとれはじめ、体も気分も日増しによくなってゆき、来てよかったとつくづく思いました。<br/><br/>私の外に結核の方も四、五人来ておられましたが、皆異口同音に具合がいいと言っておりました。<br/><br/>毎日先生のお宅へ行ってお話をお聞きする中に、これはた方の民間療法とは違う事を知り、一刻も早く教修を頂きたい気持になり、昭和二十一年八月十七日小川会長先生から、お守を胸に下げて頂き、大変な感激と誇りとで、生れ返らせて頂いたのでありました。<br/><br/>入信後も一カ月半浄霊を受けました。<br/><br/>お蔭様であらゆる自覚症状はなくなり、体重は増し、気分も実に爽快となりつくづく人間としての生甲斐を感じました。<br/><br/>肺結核でもどんな病気でも、こんなにどんどんよくなって行くんだから、自分もこのように人助けが出来たら随分愉快だろうと思い、会長先生宅に十月の初めから助手として使っていただく事になりました。<br/><br/>昭和二十年十月二十九日には、初めて会長先生に連れられて、熱海で明主様に御面会させていただきました。<br/><br/>昭和二十一年は、悲しみに明け、大変な喜びの裡に暮れました。<br/><br/>二十二年三月頃より然毒が出はじめ、特に手や足に酷く体中に拡がり、猛烈な痒みのため、毎日明け方頃までほとんど眠る事が出来ない位でした。<br/><br/>その頃より再び肺の浄化作用が始り、熱が出て来て体が倦（だる）く、胸も痛み、一回日の浄化の時よりも衰弱多く、一日半分以上は床につき、やっとの思いで毎日会長先生の御宅まで行って浄霊を頂いてまいりました。<br/><br/>私の衰弱しきった体や、蒼白い顔色を見て、近所の人達は誰も私が助かるとは思っておられなかったそうであります。<br/><br/>こんな状態が二カ月も続き、一時は全く壁に突当ったような気持になりましたが、八月に入り然毒が治り始めるようになってから、肺の浄化も次第におさまり、二度目の浄化も全く御守護によって終らせて頂きました。<br/><br/>それから二十四年の半ば頃までの一カ年半は、毎日少しずつ浄化して怠い日も続いておりましたが、一生懸命に浄霊に従事させて頂き、又私もほとんど毎日のように浄霊をして頂きました。<br/><br/>二十四年七月頃から非常に怠い日が続いておりましたが、八月十一日になり朝から急に熱が出始め十一時頃には四十度位になり、足も腰も立てなくなり、頭はボーとして来て、何が何やら判らず、その上呼吸が苦しく物凄く咳と痰が出て、体中どこを触っても火のような熱です。<br/><br/>食欲など全く無く、ただ水だけが大変うまく、会長先生はじめ諸先生が代る代るお越し下さり、御浄霊して下さいましたが、頭や首、肩の熱がなかなか下らず、十日ばかりの間にうんと衰弱してしまいました。<br/><br/>こんな酷い肺の再浄化は今回がはじめてで、生も死も神様にお任せしておりましたところ、今度も再び御守護により二週間位経てから、次第に熱も下り一カ月後には大体治りました。<br/><br/>浄化後は何年間も続いた体の怠さもすっかりとれ、顔色もずっとよくなり、体も軽くなり、気分も爽快になり、浄化は本当に有難いものだとつくづく身をもって体験させて頂きました。<br/><br/>その後二十五年になり四月から六月頃まで、軽い肺の浄化がおきましたが、それ以後は本当に好調でいかなる仕事にも何の不安もなく、耐え得るような健康体にさせて頂き、現在では専心御用を勤めさせて頂いております。<br/><br/> 現在六年前を振返ってみると、全く夢のような気持が致します。<br/><br/>世間には以前の私と同様肺結核になられ、希望のない生活を送っておいでの方も多いかと思いますが、一日も早く目醒めて、浄霊を受け健康体になられる事を祈っております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tieno01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 智慧の光 『光』10号、昭和24(1949)年5月25日発行 世の中で一口に智慧というが、智慧にも種々あり、浅い深いもある、それらについて解説してみよう。<br><br> 智慧の中でも神智、善智、叡智は最上のものでこれらの智慧を磨くべく大いに信仰を励むべきである、何となればかような智慧は神を認め、正しい誠心からでなくては湧起（ゆうき）しないからである、ゆえに善智によって行動の規範とし努力すれば、決して失敗はなく、真の幸福を獲得し得られるのである。<br><br> 右に引換え、悪から発生する智慧は奸智、才智、邪智等で、あらゆる犯罪者はこれらの智慧の持主である、特に詐欺のごとき智能犯は、この最も優れた者である、この意味において昔から英雄や一時的成功者等も実はこの悪智慧の輪廓（りんかく）が大きいというに過ぎないのである。<br><br> ところが面白い事には、善智である程深く、悪智は浅いという事実である、これは昔から今に至るまでの悪人の経路を見ればよく表われている、非常に巧妙に仕組んだようでも、どこかに抜けてるところが必ずある、その隙が破綻のもととなり失敗するのである、この理によって一時的でなく、永遠の栄を望むとすれば、深い智慧が働かなくては駄目である、そうして深い智慧程誠の強さから湧くのであるから、どうしても正しい信仰人でなくてはならないという結論になる。<br><br> 今日の社会悪も右の理が判れば何でもない、全く現代人の考え方の浅い事は各面に表われている、例えば、政治家にしてもただ目先ばかりを考え問題が起ってから周章（あわ）ててその対策を講ずる、この点医学の対症療法とよく似ている、ところが問題の起るのは起るべき原因があって起るので、決して偶然に起るものではない、また浅智慧では将来の見透しがつかないから本当の政策は立てられない、ちょうど、碁、将棋と同じようなもので、達人は五手も十手も先が見えるから勝つが、ヘボは二手か三手先がやっとであるから負けるに決っている。<br><br> 以上の意味において、人間は大いに善智を養わなければ何事もうまくゆくはずがない事を知るべきで、それには信仰によって誠の心を培わなければならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sabedoria Divina versus Astúcia Mundana</h2>
 <p>No mundo, fala-se comumente em sabedoria, mas existem diversas espécies, com diferentes graus de profundidade. Desejo, pois, tecer algumas considerações sobre elas.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>À luz do que foi exposto, os males da sociedade atual tornam-se perfeitamente compreensíveis. A superficialidade do pensamento do homem moderno manifesta-se em todos os âmbitos. Os políticos, por exemplo, concentram-se apenas no que é imediato e, diante de um problema, agem de forma atabalhoada para instituir contramedidas. Nesse aspecto, sua conduta assemelha-se sobremaneira à terapia sintomática da medicina. Contudo, os problemas eclodem porque existe uma causa que lhes dá origem; jamais surgem por acaso. Com uma sabedoria superficial, é impossível antever o futuro e, consequentemente, traçar diretrizes verdadeiramente eficazes.</p>
 <p>O processo assemelha-se ao que ocorre em uma partida de Go ou Shogi: o mestre vence porque consegue enxergar cinco, dez lances à frente; o amador, por sua vez, está fadado à derrota, pois mal consegue antecipar duas ou três jogadas.</p>
 <p>Por todo o exposto, é imperativo que o ser humano compreenda que nada prosperará a menos que se dedique a nutrir a Sabedoria do Bem. Para tanto, é fundamental que cultive, por meio da fé, um coração pleno de sinceridade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 智慧の光 『光』10号、昭和24(1949)年5月25日発行 世の中で一口に智慧というが、智慧にも種々あり、浅い深いもある、それらについて解説してみよう。<br/><br/> 智慧の中でも神智、善智、叡智は最上のものでこれらの智慧を磨くべく大いに信仰を励むべきである、何となればかような智慧は神を認め、正しい誠心からでなくては湧起（ゆうき）しないからである、ゆえに善智によって行動の規範とし努力すれば、決して失敗はなく、真の幸福を獲得し得られるのである。<br/><br/> 右に引換え、悪から発生する智慧は奸智、才智、邪智等で、あらゆる犯罪者はこれらの智慧の持主である、特に詐欺のごとき智能犯は、この最も優れた者である、この意味において昔から英雄や一時的成功者等も実はこの悪智慧の輪廓（りんかく）が大きいというに過ぎないのである。<br/><br/> ところが面白い事には、善智である程深く、悪智は浅いという事実である、これは昔から今に至るまでの悪人の経路を見ればよく表われている、非常に巧妙に仕組んだようでも、どこかに抜けてるところが必ずある、その隙が破綻のもととなり失敗するのである、この理によって一時的でなく、永遠の栄を望むとすれば、深い智慧が働かなくては駄目である、そうして深い智慧程誠の強さから湧くのであるから、どうしても正しい信仰人でなくてはならないという結論になる。<br/><br/> 今日の社会悪も右の理が判れば何でもない、全く現代人の考え方の浅い事は各面に表われている、例えば、政治家にしてもただ目先ばかりを考え問題が起ってから周章（あわ）ててその対策を講ずる、この点医学の対症療法とよく似ている、ところが問題の起るのは起るべき原因があって起るので、決して偶然に起るものではない、また浅智慧では将来の見透しがつかないから本当の政策は立てられない、ちょうど、碁、将棋と同じようなもので、達人は五手も十手も先が見えるから勝つが、ヘボは二手か三手先がやっとであるから負けるに決っている。<br/><br/> 以上の意味において、人間は大いに善智を養わなければ何事もうまくゆくはずがない事を知るべきで、それには信仰によって誠の心を培わなければならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

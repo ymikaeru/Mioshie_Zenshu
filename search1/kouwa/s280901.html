@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s280901</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年9月1日） 『御垂示録』24号、昭和28(1953)年9月15日発行 昭和二十八年九月一日 今日は何も話を用意してきていないのです。<br><br>それというのはこの間放送局より、放送したいというので来たのですが、その前に先方の放送に非なところがあったので私は断ろうと思って、あなたのほうは非常に間違っている、こういうことをやったりしたので、喋らないつもりでいたと言ったところが、来た先生なかなか如才（じょさい）ない人で、非常に謝罪したり懇願的に言うので、ではやろうということになってやったのですが、放送の用意もしてなかったので、いい加減に喋ったため、どうも私は気に入らないのです。<br><br>それから録音して面白くなかったらやり直してもよいからと言ったところが、今日の午後に来てやり直すということになったのです。<br><br>それでその原稿を書きました。<br><br>私はいつもそういうものは夜の十二時半から二時まで書くことにしているのですが、それを今仕上げをしたりして、そのほうに気を取られてしまったので、今日話をすることはぜんぜん考えていないので、すぐに質問にはいります。<br><br>それによって話が出てくるかも分かりません。<br><br> ［中略］ 今私は「 医学封建 」という論文を書いてますが、ちょうどこれは封建思想と同じことです。<br><br>新しいどんなに病気を治す方法を発見しても、医学以外は駄目だと言って、医学にかじりついて、他のものはみんないけないと言っているのは、封建思想と同じことです。<br><br>チョンマゲ時代、西洋の文明がはいって来たときに、しきりに止めようとしたのと同じです。<br><br>神風連（しんぷうれん）が電線の下を通るときに、穢れると言って扇をかざして通りましたが、今インテリなどが“新宗教で病気を治すということはとんでもないことだ、触れてはいけない”と言っているのは、ちょうど神風連と同じことです。<br><br>だから科学という籠の中に閉じ込められているのではなくて、自分で進んで科学の籠の中に蟄居（ちっきょ）してしまって、科学以外の世界は、一生懸命に見ないようにしているのです。<br><br>だから「井の中の蛙（かわず）大海を知らず」というのと同じことです。<br><br>医学者というのは“井の中の蛙”です。<br><br> 今書いているのは「医学革命の書」ですが、これは徹底して書いてあります。<br><br>そうして一つ一つのお蔭話に対して批判を加えてありますから、それを読んだらどうすることもできないと思います。<br><br>だから医学というものは非常な罪悪だということを徹底的に微に入り細にわたって書きました。<br><br>今度の樋口さんの手紙の報告にも、アメリカの婦人は子宮を取ったり卵巣を取ったりするのが非常に多いので、その後の病気が一番多いということを書いてあります。<br><br>女には肝腎な子宮や卵巣を取ることを良いとしているのですから、その頭たるや、どうかしていると言うよりほかありません。<br><br>根本は病気が治らないから、その病気にかかっている子宮や卵巣を取るのです。<br><br>ところが人間の体にある自然治癒力のことを本当に分かっていないのです。<br><br>ですから放っておけば治る、そういう本能が人間にはあるということを、薄々は知っているが、はっきりとは知らないのです。<br><br>だから病気の場合に放っておくということが心配でできないのです。<br><br>病気になればだんだん悪くなって、結局死んでしまうというように頭から思い込んでいるので、何とかしなければならないと思い、病気になっている患部を切って取るというよりないのです。<br><br>子宮が悪くても、放っておけば治ってしまうという原理を知らないのです。<br><br>この「医学革命の書」ができたら、英文に訳してアメリカだけでなくて、ヨーロッパのほうも東洋も、全世界に配ります。<br><br>今はどこの国にも大学や医師会がありますから、そこに全部配るつもりです。<br><br>そうして一通りは読ませるわけです。<br><br>やっぱり聖書にある「あまねく天国の福音をのべ伝えられるべし、しかる後末期致る」ということになるのです。<br><br>ですからそれで言うことをきかなかったら、今度はたいへんです。<br><br>神様は行き届いているから、知らせるだけは知らせて、それで言うことをきかない者は自業自得というわけです。<br><br>つまり今の人間の考え方というものは上面がばかに小利口になって、芯がだんだん空になって来たのです。<br><br>だから非常に頭が悪くなってます。<br><br>私はよく考えますが、昔の者は実に頭がよいです。<br><br>この間も話しましたが当意即妙というようなことは今の人間には駄目なのです。<br><br> この間も洒落（しゃれ）のことから話したのですが、私はよく洒落を言います。<br><br>洒落が自慢みたいにうまいのが出るのです。<br><br>これは作ろうと思ってやるのではなくて自然に出るのです。<br><br>ところで昔の人間はそういった当意即妙が非常にすばらしいのです。<br><br>それはつまり頭がよいのです。<br><br>よく講談などに出てくる曾呂利（そろり）新左衛門は実に頭が鋭いです。<br><br>それから幕末頃江戸にいた蜀山人（しょくさんじん）というのも実に頭がよいです。<br><br>蜀山人の歌や、多く川柳的のもの、狂歌といったものが実にうまいです。<br><br>今の人間では、文学者はずいぶんたくさんいますが、まねはできないと思います。<br><br>これは有名ですが、蜀山人があるときに話していると、向こうに婚礼と葬式と両方通ったのです。<br><br>そうすると「婚礼と葬式、向こうを通りにけり、あれもしに行く、これもしに行く」と言ったのです。<br><br>今の文学者にはそういうまねもできません。<br><br>それから自分が片目の嫁を世話したのです。<br><br>そうして婚礼のときに「みめよきはお家のためにふためなり、悪しきは家のかためなりけり」と言ったのです。<br><br>その“ふため”と“かため”というところを実にうまくよみ込んだと思います。<br><br>それから酒を飲むのでとうとう禁酒したことがありますが、禁酒の歌は、上の句は忘れましたが、下の句は「なれば何とか破れハンカチ」というのです。<br><br>ところがそれから間もなく飲み始めたのです。<br><br>そうすると蜀山人を非常に贔屓（ひいき）にしている者が“先生なぜ禁酒を破ったのだ”と言うと、そのとき詠んだのが「我が禁酒、破れみのとなりにけり、それついでのめ、さしてのめ」と言ったのです。<br><br>“ついでのめ、さしてのめ”というのは、“破れみの”を縫うところですが、それを実にうまく歌い込んであると思います。<br><br>そういうような鋭い頭の人間は今はいません。<br><br>というのはやっぱり頭に薬毒が多くなったためです。<br><br>そこで頭の活動力が悪いのです。<br><br>だから上面ばかりです。<br><br>それは今の医学にしても農業にしてもやはり上面の改良とか進歩というものです。<br><br>だからだんだん細かくはなっているが、かえって大きな根本のほうを忘れてしまっています。<br><br> 「最近の新聞で、ユーゴ、イタリヤの問題、イギリス、北海道の問題がありますが、これらは何か意味があるものでございましょうか」 ユーゴとイタリアは小さな問題です。<br><br>だいたいユーゴという国が小さな国であって、日本の四国よりちょっと大きいくらいなものです。<br><br>それにユーゴの人民というのはいくらもないので、ユーゴの四分の三がイタリアの人間で、四分の一がユーゴの人間です。<br><br>だからイタリアに自由にされてもしかたがないでしょう。<br><br>北海道というのはスパイ事件でしょうがこれも小さな問題です。<br><br>こういうことはたくさんあるのです。<br><br>たまたまそれがうまくつかまったために問題になったのです。<br><br>北海道でなくても、東京の真ん中にもたくさんいます。<br><br>ただそれがつかまらないから知れないだけのことです。<br><br>つまりこれはつかまえたほうが智慧があったのです。<br><br>つかまえられないのは智慧がないのです。<br><br>今もって共産党の幹部七人がつかまりませんが、これはつかまらないほうが智慧が上なのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Sabedoria Perdida e o Feudalismo Médico</h2>
 <p>Hoje, não preparei previamente um tema para nossa conversa. A razão para tal é que fui procurado por uma emissora de rádio que desejava realizar uma transmissão. Inicialmente, eu pretendia recusar o convite, pois houvera uma falha grave em uma transmissão anterior da parte deles. Cheguei a externar minha intenção de não participar, apontando-lhes o equívoco. Contudo, o representante que me visitou era uma pessoa de notável habilidade e cortesia. Ele se desculpou profusamente e fez seu apelo de forma tão sincera que acabei por consentir.</p>
@@ -109,5 +261,48 @@ function toggleLang(lang) {
 <p>O caso da Iugoslávia e da Itália é uma questão menor. A Iugoslávia é um país pequeno, pouco maior que a ilha de Shikoku, no Japão. Ademais, sua população é reduzida, sendo que três quartos dela são de origem italiana e apenas um quarto, iugoslava. Diante disso, seria natural que acabasse sob a esfera de influência da Itália.</p>
 <p>Quanto a Hokkaido, trata-se de um caso de espionagem, correto? Isso também é um problema de pouca monta. Existem inúmeros incidentes como esse. A única razão pela qual este se tornou notícia foi o fato de que os espiões foram capturados com sucesso. Não é algo que ocorra apenas em Hokkaido; há muitos deles no coração de Tóquio. A única diferença é que não são descobertos por não serem apanhados.</p>
 <p>A questão se resume à inteligência: a parte que efetuou a prisão foi mais sagaz. Quando a captura não ocorre, é porque falta sagacidade a quem persegue. Veja o caso dos sete líderes do Partido Comunista que até hoje não foram presos: isso apenas demonstra que a inteligência deles é superior à de seus perseguidores.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年9月1日） 『御垂示録』24号、昭和28(1953)年9月15日発行 昭和二十八年九月一日 今日は何も話を用意してきていないのです。<br/><br/>それというのはこの間放送局より、放送したいというので来たのですが、その前に先方の放送に非なところがあったので私は断ろうと思って、あなたのほうは非常に間違っている、こういうことをやったりしたので、喋らないつもりでいたと言ったところが、来た先生なかなか如才（じょさい）ない人で、非常に謝罪したり懇願的に言うので、ではやろうということになってやったのですが、放送の用意もしてなかったので、いい加減に喋ったため、どうも私は気に入らないのです。<br/><br/>それから録音して面白くなかったらやり直してもよいからと言ったところが、今日の午後に来てやり直すということになったのです。<br/><br/>それでその原稿を書きました。<br/><br/>私はいつもそういうものは夜の十二時半から二時まで書くことにしているのですが、それを今仕上げをしたりして、そのほうに気を取られてしまったので、今日話をすることはぜんぜん考えていないので、すぐに質問にはいります。<br/><br/>それによって話が出てくるかも分かりません。<br/><br/> ［中略］ 今私は「 医学封建 」という論文を書いてますが、ちょうどこれは封建思想と同じことです。<br/><br/>新しいどんなに病気を治す方法を発見しても、医学以外は駄目だと言って、医学にかじりついて、他のものはみんないけないと言っているのは、封建思想と同じことです。<br/><br/>チョンマゲ時代、西洋の文明がはいって来たときに、しきりに止めようとしたのと同じです。<br/><br/>神風連（しんぷうれん）が電線の下を通るときに、穢れると言って扇をかざして通りましたが、今インテリなどが“新宗教で病気を治すということはとんでもないことだ、触れてはいけない”と言っているのは、ちょうど神風連と同じことです。<br/><br/>だから科学という籠の中に閉じ込められているのではなくて、自分で進んで科学の籠の中に蟄居（ちっきょ）してしまって、科学以外の世界は、一生懸命に見ないようにしているのです。<br/><br/>だから「井の中の蛙（かわず）大海を知らず」というのと同じことです。<br/><br/>医学者というのは“井の中の蛙”です。<br/><br/> 今書いているのは「医学革命の書」ですが、これは徹底して書いてあります。<br/><br/>そうして一つ一つのお蔭話に対して批判を加えてありますから、それを読んだらどうすることもできないと思います。<br/><br/>だから医学というものは非常な罪悪だということを徹底的に微に入り細にわたって書きました。<br/><br/>今度の樋口さんの手紙の報告にも、アメリカの婦人は子宮を取ったり卵巣を取ったりするのが非常に多いので、その後の病気が一番多いということを書いてあります。<br/><br/>女には肝腎な子宮や卵巣を取ることを良いとしているのですから、その頭たるや、どうかしていると言うよりほかありません。<br/><br/>根本は病気が治らないから、その病気にかかっている子宮や卵巣を取るのです。<br/><br/>ところが人間の体にある自然治癒力のことを本当に分かっていないのです。<br/><br/>ですから放っておけば治る、そういう本能が人間にはあるということを、薄々は知っているが、はっきりとは知らないのです。<br/><br/>だから病気の場合に放っておくということが心配でできないのです。<br/><br/>病気になればだんだん悪くなって、結局死んでしまうというように頭から思い込んでいるので、何とかしなければならないと思い、病気になっている患部を切って取るというよりないのです。<br/><br/>子宮が悪くても、放っておけば治ってしまうという原理を知らないのです。<br/><br/>この「医学革命の書」ができたら、英文に訳してアメリカだけでなくて、ヨーロッパのほうも東洋も、全世界に配ります。<br/><br/>今はどこの国にも大学や医師会がありますから、そこに全部配るつもりです。<br/><br/>そうして一通りは読ませるわけです。<br/><br/>やっぱり聖書にある「あまねく天国の福音をのべ伝えられるべし、しかる後末期致る」ということになるのです。<br/><br/>ですからそれで言うことをきかなかったら、今度はたいへんです。<br/><br/>神様は行き届いているから、知らせるだけは知らせて、それで言うことをきかない者は自業自得というわけです。<br/><br/>つまり今の人間の考え方というものは上面がばかに小利口になって、芯がだんだん空になって来たのです。<br/><br/>だから非常に頭が悪くなってます。<br/><br/>私はよく考えますが、昔の者は実に頭がよいです。<br/><br/>この間も話しましたが当意即妙というようなことは今の人間には駄目なのです。<br/><br/> この間も洒落（しゃれ）のことから話したのですが、私はよく洒落を言います。<br/><br/>洒落が自慢みたいにうまいのが出るのです。<br/><br/>これは作ろうと思ってやるのではなくて自然に出るのです。<br/><br/>ところで昔の人間はそういった当意即妙が非常にすばらしいのです。<br/><br/>それはつまり頭がよいのです。<br/><br/>よく講談などに出てくる曾呂利（そろり）新左衛門は実に頭が鋭いです。<br/><br/>それから幕末頃江戸にいた蜀山人（しょくさんじん）というのも実に頭がよいです。<br/><br/>蜀山人の歌や、多く川柳的のもの、狂歌といったものが実にうまいです。<br/><br/>今の人間では、文学者はずいぶんたくさんいますが、まねはできないと思います。<br/><br/>これは有名ですが、蜀山人があるときに話していると、向こうに婚礼と葬式と両方通ったのです。<br/><br/>そうすると「婚礼と葬式、向こうを通りにけり、あれもしに行く、これもしに行く」と言ったのです。<br/><br/>今の文学者にはそういうまねもできません。<br/><br/>それから自分が片目の嫁を世話したのです。<br/><br/>そうして婚礼のときに「みめよきはお家のためにふためなり、悪しきは家のかためなりけり」と言ったのです。<br/><br/>その“ふため”と“かため”というところを実にうまくよみ込んだと思います。<br/><br/>それから酒を飲むのでとうとう禁酒したことがありますが、禁酒の歌は、上の句は忘れましたが、下の句は「なれば何とか破れハンカチ」というのです。<br/><br/>ところがそれから間もなく飲み始めたのです。<br/><br/>そうすると蜀山人を非常に贔屓（ひいき）にしている者が“先生なぜ禁酒を破ったのだ”と言うと、そのとき詠んだのが「我が禁酒、破れみのとなりにけり、それついでのめ、さしてのめ」と言ったのです。<br/><br/>“ついでのめ、さしてのめ”というのは、“破れみの”を縫うところですが、それを実にうまく歌い込んであると思います。<br/><br/>そういうような鋭い頭の人間は今はいません。<br/><br/>というのはやっぱり頭に薬毒が多くなったためです。<br/><br/>そこで頭の活動力が悪いのです。<br/><br/>だから上面ばかりです。<br/><br/>それは今の医学にしても農業にしてもやはり上面の改良とか進歩というものです。<br/><br/>だからだんだん細かくはなっているが、かえって大きな根本のほうを忘れてしまっています。<br/><br/> 「最近の新聞で、ユーゴ、イタリヤの問題、イギリス、北海道の問題がありますが、これらは何か意味があるものでございましょうか」 ユーゴとイタリアは小さな問題です。<br/><br/>だいたいユーゴという国が小さな国であって、日本の四国よりちょっと大きいくらいなものです。<br/><br/>それにユーゴの人民というのはいくらもないので、ユーゴの四分の三がイタリアの人間で、四分の一がユーゴの人間です。<br/><br/>だからイタリアに自由にされてもしかたがないでしょう。<br/><br/>北海道というのはスパイ事件でしょうがこれも小さな問題です。<br/><br/>こういうことはたくさんあるのです。<br/><br/>たまたまそれがうまくつかまったために問題になったのです。<br/><br/>北海道でなくても、東京の真ん中にもたくさんいます。<br/><br/>ただそれがつかまらないから知れないだけのことです。<br/><br/>つまりこれはつかまえたほうが智慧があったのです。<br/><br/>つかまえられないのは智慧がないのです。<br/><br/>今もって共産党の幹部七人がつかまりませんが、これはつかまらないほうが智慧が上なのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

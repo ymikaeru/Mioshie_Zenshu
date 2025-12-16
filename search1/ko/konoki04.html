@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>konoki04</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： この奇蹟をどう見る 『栄光』192号、昭和28(1953)年1月21日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 よく宗教の奇蹟に対しては、多くの無神論者は、何だかんだと理屈をつけて、抹殺しないまでも、余り関心を持たない癖があるようだが、これは全くそんな奇蹟なんかあるはずがないという先入観念が邪魔しているからである。<br><br>それについて左の御蔭話にある事実は、どうしようもない程ハッキリしている奇蹟である。<br><br>いつもいうことだが、世界広しといえども、これ程の宗教的奇蹟はないことは断言できるのである。<br><br> これは炭坑内における危機一髪という一瞬間に、被害を免れたという幾つもの奇蹟であるから、その損害を免れた利益はすこぶる大きなものであろう。<br><br>従って全国の炭坑ことごとくに、一個所につき何人かの本教信者がいるとしたら、恐らく現在蒙（こうむ）っている被害高は何分の一に減るであろうことは断言されるのである。<br><br> 炭鉱にての奇蹟の数々 埼玉県 博愛中教会 清水玉一（43） 私は終戦により満州より引揚げて参りました者でございますが、昭和二十三年絶望と思っていた娘の全身カリエスをお救い頂き、以来家族次々と入信、数限りない御守護を頂きながら引揚者として苦境を乗越えさせて頂き、今日も感謝の生活を送らせて頂いている者でございます。<br><br>昨年三月十六日より炭坑の仕事に就職致し、危険な仕事に従事致しておりますが、今日に至るまで限りない御守護を頂いております。<br><br> その内、常識では到底考えられない奇蹟を二、三御報告させて頂きます。<br><br> 〔一〕 就職いたしましてちょうど五日目の夜間作業中のことです。<br><br>傾斜三十五度の斜坑の採掘場よりトロ（トロッコ）にズリ（岩）を積み、ワイヤーをトロにピン（連線）で連結してウインチ（電力捲上機）でトロを水平の所まで引揚げ、ピンを抜きましてトロとワイヤーを離し後再びピンを元のトロの穴にはめてズリの捨場（崖の上）まで押して行き、そこでトロを斜に傾けてズリをあけます。<br><br>その時思いもかけずトロがひっくり返り、三十尺もある崖の下まで転り落ちてしまいました。<br><br>さてトロを上げるのにはピンが無くともワイヤーをトロに結んで、その崖をウインチで引揚げることができましたものの、作業をするために一番大切なピンがありません。<br><br>ピンは特殊鋼で作られ、それに代用されるものはないため、なくした場合には作業を中止せざるを得ません。<br><br>私は責任を感じつつ脱線した所か又は転落した崖下と思い「カンテラ」の薄灯で二、三十分にわたって手探りをしながら崖を上下しつつ探して見ました。<br><br>けれど広範囲の場所のうえ、岩に湿ったせいぜい四、五寸のピンをたった一人で探すのです。<br><br>その上夜のこととて見当も付かず、全く諦めてしまう気持になりました。<br><br>その時相棒の上原さんという青年は、組長にピンが見付からないという報告に参りました。<br><br>このままでおれば当然作業は中止になってしまいます。<br><br>どうしたらよいかと思案にくれてしまいました。<br><br>その時初めて明主様にお縋りする気持になり、合掌して一心にピンを出して頂くようお願い申し上げ、トロの脱線した所から崖下まで御浄霊をしながら何気なしに付近を見廻しておりましたところ、トロの転覆した所から二米位離れた思いもよらぬ所に、「カンテラ」の薄灯りでかすかにピンらしき物が見えるのです。<br><br>急いで近づき手に取って見ましたら、正しくピンであったのです。<br><br>この時の有難さ嬉しさは筆や言葉に現わす事のできない程でありました。<br><br>早速組長さんにそのことを報告に参りましたところ、心配していた組長さんは大変喜び、後になって「清水君には感心した」という話を聞き、明主様の御守護を心から感謝申し上げました。<br><br>このこと以来救世教の事に関し、飯場の人々も大分関心を持つようになって参りました。<br><br> 〔二〕 その後昨年六月四日、昼間作業中の時でしたけれども、私の組外の者が四人して作業中、やはりトロを脱線させてピンを紛失してしまいました。<br><br>その時も二、三十分四人して探して見ましたが全く見当もとれなかったそうです。<br><br>その中の一人の工員で私が御浄霊をしてお蔭を頂いている清太さんという青年がおり、以前の奇蹟の話も聞いておりましたので、その方が私を迎えに来ました。<br><br>早速現場へ参り色々状況を聞きましたところ「確かにこの辺だ」と言うのですが、随分岩を除けて見たらしい跡があるので、第一見当が付きません。<br><br>早速合掌し、祝詞奏上後お念じをいたし、その付近を御浄霊いたしました。<br><br>四人の人は皆狐につままれたような、又あざ笑うような顔をして事の成行きを見ております。<br><br>暫くの御浄霊の後私が直ぐ足下の岩を何の気なしにボンと撥除けて見ました。<br><br>ところが一度でその岩の下にピンが現われたのであります。<br><br>「皆さんここにありましたよ」と取上げました。<br><br>私は勿論、他の四人の悦びと驚きは一通りではありません。<br><br>「ああ良かった良かった」と一同申し、神様の御力を目の前に見せて頂き、懐疑の気拝も一度にふっ飛んでしまいました。<br><br>私も将に魔法使のような神力に二度びっくりいたしたのであります。<br><br> 〔三〕 七月十八日のダイナマイト作業の時でした。<br><br>高さ六尺五寸、巾五尺五寸の斜坑の穴を掘り進めるため、岩を粉砕すべくダイナマイトをかけます。<br><br>当日は九発かけて点火しましたところ、六発は確実に爆発音が聞えましたが、後の三発は不発のまま失敗に終ってしまいました。<br><br>これを探し出さなければ非常に危険です。<br><br>それを知らずに作業してツルハシでダイナマイトを爆発させて死亡した実例は沢山あります。<br><br>そこで爆破された岩を丹念に調べながらトロにのせ、岩を出しつつ探し、ちょうど五車程トロで岩を出しました時、三発の不発弾を無事に探し出すことができました。<br><br>そこでそれを再び爆発させるべく準備をし、万端整えてからダイナマイトの導火線にカンテラの火で火をつけておいて、大急ぎでトロに乗って坑道を上の方に逃げて行くのです。<br><br>非常に危険な作業である上、私も十分馴れておらなかったため、その準備の中で大切なものを一つ忘れてしまったのです。<br><br>それはダイナマイトをかける場所を明るくするためにブラ下っている電気の始末です。<br><br>普通は電球をソケットから外し、ソケットもコードも近くの支柱の蔭にかくして爆風に当らぬよう始末をするのです。<br><br>それを忘れて今まで何回となく電球やソケットをメチャクチャに破損してしまった失敗者は沢山いるのです。<br><br>ところが今度は私がそれと同じ失敗をし、コードも電球もブラ下げ電気もつけたまま導火線に点火して、大急ぎでトロに乗って坑道を逃げ上ってしまいました。<br><br>「シマッタ」と気が付いた時はもう遅かったのです。<br><br>壊してしまえば始末書を書くやら、文句を言われるやら、面倒なことが沢山あります。<br><br>思わず「再び不発になってくれれば」と明主様に無理な御守護をお念じしつつ穴の下の方を向いて御浄霊をいたしました。<br><br>それを見た同僚は「清水さんそんな事をするからお光さんはインチキだと人からいわれて信じられないのだ、そんな馬鹿なことは無い」とセセラ笑っておりましたが、私は夢中で御浄霊を続けました。<br><br>一分、二分、三分遂にダイナマイトは大音響と共に爆発しました。<br><br>今度は確かに三つの音が聞え三発とも無事に爆発したのです。<br><br>何しろダイナマイトと電球の距離は二米位のものです。<br><br>最早電球は粉微塵になり、ソケットはふっ飛んでしまったことと思い、ともかく新しい替えの電球を用意し、爆煙のおさまった頃を見計らってトロで降りて行きました。<br><br>カンテラを照らしながら大分下に降りて行きましたが勿論下は真暗です。<br><br>現場の二十米位の近くへ行きました時に突然トロの前に乗っている二人が大声を張り上げて、「清水さん電気がついている！」と叫ぶのです。<br><br>爆煙がもうもうと立ちこめた先方に、ポーッと微かに光っているものがあります。<br><br>全く想像もしていなかった奇蹟が実現したのです。<br><br>不発であってくれれば助かるが、しかし爆発してしまった以上、最早メチャメチャになっているものと思い込んでいた私にとっては何という驚きだったでしょう。<br><br>思わず明主様に御守護を感謝しつつその場に行ってよく調べてみました。<br><br>ところがどうでしょう、電球は爆発によって撥ねられ、泥や石がその廻りにベットリとつき、ドロボタモチのようになってその中で光っているのです。<br><br>これが奇蹟でなくて何でしょうか、原子爆弾に対する御教えは頂いておりましたが、今それにほとんど似た奇蹟が、ただ遠くから御浄霊をしただけで起ったのです。<br><br>共におりました二人も前に言った悪口もどこへやら、ただ唖然とこの奇蹟を眼の前に見せられて驚いており、「清水さんと仕事をしていれば絶対に危険はない」と言うとともに、私がこのお道のことについてお話を致しましたところ、今までの何回もの奇蹟を知っているだけに心から納得の出来たように思えました。<br><br> 〔四〕 七月二十一日昼のことです。<br><br>やはり同じ斜坑で作業をしておりました。<br><br>トロにズリを満載して、それに二人の坑夫が乗り、私がそのトロの所から五米位上へあがったレールの脇のスイッチを入れました。<br><br>トロは順調に動き出しましたが一米位上ったところでトロが脱線しましたので、あわててスイッチを切りましたがスイッチの故障で電気が切れず、トロは脱線したまま狭い坑道を走り上って来ました。<br><br>真剣にスイッチを切ろうとして夢中になっていた私は、グングン接近して来たトロに身体をかわす間もなく、後の方に出して線路の内側にふんばっておりました私の左足を轢いて、五米位先に行ってしまいました。<br><br>私はその場に転倒してしまいましたが、無我夢中ではね起きスイッチを再び切りましたところ、今度はうまく切れて数米の先でトロは止りました。<br><br>乗っていた二人は岩を満載したトロが私の足を轢いたのですから「清水さん、足はどうした。<br><br>今行くから、待っていろ」と叫びながら三十五度の傾斜を側の杭につかまりつかまり私の所まで降りて来てくれ「どうした、しっかりしろ」と言われた時には、私は脱げた靴を見つけていたのです。<br><br>というのは足を轢かれたと同時にトロのどこかに靴がひっかかってスッポリ脱げてしまったのです。<br><br>その靴はゴム長靴で私の足にピッタリとしており、不断それを脱ぐのに大変な苦労をしなければ脱げないのです。<br><br>それが何かにひっかかってスッポリ脱げてしまっているのです。<br><br>倒れた時には私の左足はトロの線路の上にあり、確かに轢かれたはずなのですが、カスリ傷一つなく、足は全く痛くありません。<br><br>乗っておりました二人の坑夫は「確かに清水さんの足をひいた」と言うのです。<br><br>一瞬の出来事に私は何が何やらよくわかりませんが、とにかく足が折れずにお救い頂いたことに感謝せずにはおられませんでした。<br><br>みつかった長靴はちょっとゴムが鈎裂（かぎざ）きになっているのみです。<br><br>もし足が轢かれなかったとしてもその時長靴が私の足からスッポリ抜けなければ、完全に私の足は、車輪とレールの間にはさまれていたことと思います。<br><br>どちらにしても大きな奇蹟的御守護を賜わり御救い頂きましたことを心から御礼申し上げないではいられませんでした。<br><br>「明主様御守護有難う、ございました」と心からほとばしる感謝と安心感にしばらく茫然としておりました。<br><br> 次々と起きるこれらの体験をいかなる唯物主義者でもどうして「偶然」の一言で片付けてしまうことができましょうか。<br><br>炭坑、鉱山といえば最近次々と各地で災難が起き、どれ程の人命を失っているかわかりません。<br><br>又小さな事故といえばほとんど日々無数にありましょう。<br><br>その危険な仕事に携わる身として、このように次から次へと奇蹟的御守護を頂きますことを考えますとただ溢れる感謝と喜びで一杯であります。<br><br>明主様御理想の地上天国、不幸のない絶対の安心立命の世界ということを、危険な作業の中に働く私が身をもって体験させて頂いております。<br><br>最近、この奇蹟により次から次へと救世教の尊いお道を求めてくる人が多くなり、仕事の後、夜中まで御浄霊をさせて頂き、多くの医学に見放された難病を治させて頂いております。<br><br>皆涙を流して喜んでくれます。<br><br>何という大きな喜びでしょう。<br><br>遂に念願かない八月の十五日より三日間西沢先生をお迎え致し、当地にて教修会が開かれるようになり、五人の方々が入信なさいました。<br><br>教修後皆別れを惜しみ涙を流しておられる姿を見ましたとき、明主様のお蔭で初めてかくも人々に喜ばれる私を思い、ただ感謝で胸が一杯でありました。<br><br> 喜びを胸に久しぶりに埼玉の家に帰ってみました。<br><br>私の娘は私が入信以来四年間、両足首、脛、股、胸、両腕、手先とほとんど全身から膿が出続けておりましたカリエスです。<br><br>この子供を見るにつけ親、先祖の曇りをしみじみ感じさせられておりました。<br><br>今度私が帰ってみますと、胸に少し傷を残していましたが足も手の傷口もすっかり治って赤ん坊をおんぶして子守をいたしているではありませんか。<br><br>僅か一カ月ぐらいの間でほとんど乾いてしまったのです。<br><br>善徳を積めば祖先の罪穢がとれてお救い頂く奇蹟を又々体験させて頂き、妻子とともにあまりにも偉大な御救いに喜びあったのであります。<br><br>数々の御守護を心より御礼申し上げます。<br><br> （昭和二十八年一月二十一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Proteção Divina nas Profundezas da Terra</h2>
 <p>Muitos céticos, diante dos milagres religiosos, costumam tecer toda sorte de argumentos para, se não os invalidar por completo, ao menos demonstrar uma calculada indiferença. Tal atitude, no entanto, decorre de uma arraigada noção preconcebida de que fenômenos dessa natureza simplesmente não podem existir. Nesse sentido, os fatos relatados a seguir constituem um milagre de clareza tão irrefutável que desafia qualquer contestação. Conforme tenho afirmado repetidamente, posso asseverar que, em todo o vasto mundo, não se encontram milagres religiosos de tal magnitude.</p>
@@ -125,5 +277,48 @@ function toggleLang(lang) {
 <p>Com o coração exultante, voltei para casa em Saitama após um longo tempo. Minha filha, que há quatro anos — desde que ingressei na fé — sofria de cárie óssea, com pústulas que drenavam pus por quase todo o corpo, nos tornozelos, canelas, coxas, peito, braços e mãos. Olhar para ela sempre me fazia refletir profundamente sobre as máculas de meus pais e antepassados. Desta vez, ao chegar, encontrei-a cuidando de um bebê, carregando-o nas costas. Com exceção de uma pequena cicatriz no peito, as feridas de suas pernas e mãos estavam completamente curadas. Em pouco mais de um mês, quase tudo havia secado.</p>
 <p>Mais uma vez, tive a permissão de testemunhar o milagre de que, ao acumularmos virtudes, as máculas de nossos antepassados são purificadas e recebemos a salvação. Junto de minha esposa e filhos, celebrei essa grandiosa graça. Agradeço do fundo de meu coração por todas as inúmeras proteções recebidas.</p>
 <p><em>(21 de janeiro de 1953)</em></p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： この奇蹟をどう見る 『栄光』192号、昭和28(1953)年1月21日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 よく宗教の奇蹟に対しては、多くの無神論者は、何だかんだと理屈をつけて、抹殺しないまでも、余り関心を持たない癖があるようだが、これは全くそんな奇蹟なんかあるはずがないという先入観念が邪魔しているからである。<br/><br/>それについて左の御蔭話にある事実は、どうしようもない程ハッキリしている奇蹟である。<br/><br/>いつもいうことだが、世界広しといえども、これ程の宗教的奇蹟はないことは断言できるのである。<br/><br/> これは炭坑内における危機一髪という一瞬間に、被害を免れたという幾つもの奇蹟であるから、その損害を免れた利益はすこぶる大きなものであろう。<br/><br/>従って全国の炭坑ことごとくに、一個所につき何人かの本教信者がいるとしたら、恐らく現在蒙（こうむ）っている被害高は何分の一に減るであろうことは断言されるのである。<br/><br/> 炭鉱にての奇蹟の数々 埼玉県 博愛中教会 清水玉一（43） 私は終戦により満州より引揚げて参りました者でございますが、昭和二十三年絶望と思っていた娘の全身カリエスをお救い頂き、以来家族次々と入信、数限りない御守護を頂きながら引揚者として苦境を乗越えさせて頂き、今日も感謝の生活を送らせて頂いている者でございます。<br/><br/>昨年三月十六日より炭坑の仕事に就職致し、危険な仕事に従事致しておりますが、今日に至るまで限りない御守護を頂いております。<br/><br/> その内、常識では到底考えられない奇蹟を二、三御報告させて頂きます。<br/><br/> 〔一〕 就職いたしましてちょうど五日目の夜間作業中のことです。<br/><br/>傾斜三十五度の斜坑の採掘場よりトロ（トロッコ）にズリ（岩）を積み、ワイヤーをトロにピン（連線）で連結してウインチ（電力捲上機）でトロを水平の所まで引揚げ、ピンを抜きましてトロとワイヤーを離し後再びピンを元のトロの穴にはめてズリの捨場（崖の上）まで押して行き、そこでトロを斜に傾けてズリをあけます。<br/><br/>その時思いもかけずトロがひっくり返り、三十尺もある崖の下まで転り落ちてしまいました。<br/><br/>さてトロを上げるのにはピンが無くともワイヤーをトロに結んで、その崖をウインチで引揚げることができましたものの、作業をするために一番大切なピンがありません。<br/><br/>ピンは特殊鋼で作られ、それに代用されるものはないため、なくした場合には作業を中止せざるを得ません。<br/><br/>私は責任を感じつつ脱線した所か又は転落した崖下と思い「カンテラ」の薄灯で二、三十分にわたって手探りをしながら崖を上下しつつ探して見ました。<br/><br/>けれど広範囲の場所のうえ、岩に湿ったせいぜい四、五寸のピンをたった一人で探すのです。<br/><br/>その上夜のこととて見当も付かず、全く諦めてしまう気持になりました。<br/><br/>その時相棒の上原さんという青年は、組長にピンが見付からないという報告に参りました。<br/><br/>このままでおれば当然作業は中止になってしまいます。<br/><br/>どうしたらよいかと思案にくれてしまいました。<br/><br/>その時初めて明主様にお縋りする気持になり、合掌して一心にピンを出して頂くようお願い申し上げ、トロの脱線した所から崖下まで御浄霊をしながら何気なしに付近を見廻しておりましたところ、トロの転覆した所から二米位離れた思いもよらぬ所に、「カンテラ」の薄灯りでかすかにピンらしき物が見えるのです。<br/><br/>急いで近づき手に取って見ましたら、正しくピンであったのです。<br/><br/>この時の有難さ嬉しさは筆や言葉に現わす事のできない程でありました。<br/><br/>早速組長さんにそのことを報告に参りましたところ、心配していた組長さんは大変喜び、後になって「清水君には感心した」という話を聞き、明主様の御守護を心から感謝申し上げました。<br/><br/>このこと以来救世教の事に関し、飯場の人々も大分関心を持つようになって参りました。<br/><br/> 〔二〕 その後昨年六月四日、昼間作業中の時でしたけれども、私の組外の者が四人して作業中、やはりトロを脱線させてピンを紛失してしまいました。<br/><br/>その時も二、三十分四人して探して見ましたが全く見当もとれなかったそうです。<br/><br/>その中の一人の工員で私が御浄霊をしてお蔭を頂いている清太さんという青年がおり、以前の奇蹟の話も聞いておりましたので、その方が私を迎えに来ました。<br/><br/>早速現場へ参り色々状況を聞きましたところ「確かにこの辺だ」と言うのですが、随分岩を除けて見たらしい跡があるので、第一見当が付きません。<br/><br/>早速合掌し、祝詞奏上後お念じをいたし、その付近を御浄霊いたしました。<br/><br/>四人の人は皆狐につままれたような、又あざ笑うような顔をして事の成行きを見ております。<br/><br/>暫くの御浄霊の後私が直ぐ足下の岩を何の気なしにボンと撥除けて見ました。<br/><br/>ところが一度でその岩の下にピンが現われたのであります。<br/><br/>「皆さんここにありましたよ」と取上げました。<br/><br/>私は勿論、他の四人の悦びと驚きは一通りではありません。<br/><br/>「ああ良かった良かった」と一同申し、神様の御力を目の前に見せて頂き、懐疑の気拝も一度にふっ飛んでしまいました。<br/><br/>私も将に魔法使のような神力に二度びっくりいたしたのであります。<br/><br/> 〔三〕 七月十八日のダイナマイト作業の時でした。<br/><br/>高さ六尺五寸、巾五尺五寸の斜坑の穴を掘り進めるため、岩を粉砕すべくダイナマイトをかけます。<br/><br/>当日は九発かけて点火しましたところ、六発は確実に爆発音が聞えましたが、後の三発は不発のまま失敗に終ってしまいました。<br/><br/>これを探し出さなければ非常に危険です。<br/><br/>それを知らずに作業してツルハシでダイナマイトを爆発させて死亡した実例は沢山あります。<br/><br/>そこで爆破された岩を丹念に調べながらトロにのせ、岩を出しつつ探し、ちょうど五車程トロで岩を出しました時、三発の不発弾を無事に探し出すことができました。<br/><br/>そこでそれを再び爆発させるべく準備をし、万端整えてからダイナマイトの導火線にカンテラの火で火をつけておいて、大急ぎでトロに乗って坑道を上の方に逃げて行くのです。<br/><br/>非常に危険な作業である上、私も十分馴れておらなかったため、その準備の中で大切なものを一つ忘れてしまったのです。<br/><br/>それはダイナマイトをかける場所を明るくするためにブラ下っている電気の始末です。<br/><br/>普通は電球をソケットから外し、ソケットもコードも近くの支柱の蔭にかくして爆風に当らぬよう始末をするのです。<br/><br/>それを忘れて今まで何回となく電球やソケットをメチャクチャに破損してしまった失敗者は沢山いるのです。<br/><br/>ところが今度は私がそれと同じ失敗をし、コードも電球もブラ下げ電気もつけたまま導火線に点火して、大急ぎでトロに乗って坑道を逃げ上ってしまいました。<br/><br/>「シマッタ」と気が付いた時はもう遅かったのです。<br/><br/>壊してしまえば始末書を書くやら、文句を言われるやら、面倒なことが沢山あります。<br/><br/>思わず「再び不発になってくれれば」と明主様に無理な御守護をお念じしつつ穴の下の方を向いて御浄霊をいたしました。<br/><br/>それを見た同僚は「清水さんそんな事をするからお光さんはインチキだと人からいわれて信じられないのだ、そんな馬鹿なことは無い」とセセラ笑っておりましたが、私は夢中で御浄霊を続けました。<br/><br/>一分、二分、三分遂にダイナマイトは大音響と共に爆発しました。<br/><br/>今度は確かに三つの音が聞え三発とも無事に爆発したのです。<br/><br/>何しろダイナマイトと電球の距離は二米位のものです。<br/><br/>最早電球は粉微塵になり、ソケットはふっ飛んでしまったことと思い、ともかく新しい替えの電球を用意し、爆煙のおさまった頃を見計らってトロで降りて行きました。<br/><br/>カンテラを照らしながら大分下に降りて行きましたが勿論下は真暗です。<br/><br/>現場の二十米位の近くへ行きました時に突然トロの前に乗っている二人が大声を張り上げて、「清水さん電気がついている！」と叫ぶのです。<br/><br/>爆煙がもうもうと立ちこめた先方に、ポーッと微かに光っているものがあります。<br/><br/>全く想像もしていなかった奇蹟が実現したのです。<br/><br/>不発であってくれれば助かるが、しかし爆発してしまった以上、最早メチャメチャになっているものと思い込んでいた私にとっては何という驚きだったでしょう。<br/><br/>思わず明主様に御守護を感謝しつつその場に行ってよく調べてみました。<br/><br/>ところがどうでしょう、電球は爆発によって撥ねられ、泥や石がその廻りにベットリとつき、ドロボタモチのようになってその中で光っているのです。<br/><br/>これが奇蹟でなくて何でしょうか、原子爆弾に対する御教えは頂いておりましたが、今それにほとんど似た奇蹟が、ただ遠くから御浄霊をしただけで起ったのです。<br/><br/>共におりました二人も前に言った悪口もどこへやら、ただ唖然とこの奇蹟を眼の前に見せられて驚いており、「清水さんと仕事をしていれば絶対に危険はない」と言うとともに、私がこのお道のことについてお話を致しましたところ、今までの何回もの奇蹟を知っているだけに心から納得の出来たように思えました。<br/><br/> 〔四〕 七月二十一日昼のことです。<br/><br/>やはり同じ斜坑で作業をしておりました。<br/><br/>トロにズリを満載して、それに二人の坑夫が乗り、私がそのトロの所から五米位上へあがったレールの脇のスイッチを入れました。<br/><br/>トロは順調に動き出しましたが一米位上ったところでトロが脱線しましたので、あわててスイッチを切りましたがスイッチの故障で電気が切れず、トロは脱線したまま狭い坑道を走り上って来ました。<br/><br/>真剣にスイッチを切ろうとして夢中になっていた私は、グングン接近して来たトロに身体をかわす間もなく、後の方に出して線路の内側にふんばっておりました私の左足を轢いて、五米位先に行ってしまいました。<br/><br/>私はその場に転倒してしまいましたが、無我夢中ではね起きスイッチを再び切りましたところ、今度はうまく切れて数米の先でトロは止りました。<br/><br/>乗っていた二人は岩を満載したトロが私の足を轢いたのですから「清水さん、足はどうした。<br/><br/>今行くから、待っていろ」と叫びながら三十五度の傾斜を側の杭につかまりつかまり私の所まで降りて来てくれ「どうした、しっかりしろ」と言われた時には、私は脱げた靴を見つけていたのです。<br/><br/>というのは足を轢かれたと同時にトロのどこかに靴がひっかかってスッポリ脱げてしまったのです。<br/><br/>その靴はゴム長靴で私の足にピッタリとしており、不断それを脱ぐのに大変な苦労をしなければ脱げないのです。<br/><br/>それが何かにひっかかってスッポリ脱げてしまっているのです。<br/><br/>倒れた時には私の左足はトロの線路の上にあり、確かに轢かれたはずなのですが、カスリ傷一つなく、足は全く痛くありません。<br/><br/>乗っておりました二人の坑夫は「確かに清水さんの足をひいた」と言うのです。<br/><br/>一瞬の出来事に私は何が何やらよくわかりませんが、とにかく足が折れずにお救い頂いたことに感謝せずにはおられませんでした。<br/><br/>みつかった長靴はちょっとゴムが鈎裂（かぎざ）きになっているのみです。<br/><br/>もし足が轢かれなかったとしてもその時長靴が私の足からスッポリ抜けなければ、完全に私の足は、車輪とレールの間にはさまれていたことと思います。<br/><br/>どちらにしても大きな奇蹟的御守護を賜わり御救い頂きましたことを心から御礼申し上げないではいられませんでした。<br/><br/>「明主様御守護有難う、ございました」と心からほとばしる感謝と安心感にしばらく茫然としておりました。<br/><br/> 次々と起きるこれらの体験をいかなる唯物主義者でもどうして「偶然」の一言で片付けてしまうことができましょうか。<br/><br/>炭坑、鉱山といえば最近次々と各地で災難が起き、どれ程の人命を失っているかわかりません。<br/><br/>又小さな事故といえばほとんど日々無数にありましょう。<br/><br/>その危険な仕事に携わる身として、このように次から次へと奇蹟的御守護を頂きますことを考えますとただ溢れる感謝と喜びで一杯であります。<br/><br/>明主様御理想の地上天国、不幸のない絶対の安心立命の世界ということを、危険な作業の中に働く私が身をもって体験させて頂いております。<br/><br/>最近、この奇蹟により次から次へと救世教の尊いお道を求めてくる人が多くなり、仕事の後、夜中まで御浄霊をさせて頂き、多くの医学に見放された難病を治させて頂いております。<br/><br/>皆涙を流して喜んでくれます。<br/><br/>何という大きな喜びでしょう。<br/><br/>遂に念願かない八月の十五日より三日間西沢先生をお迎え致し、当地にて教修会が開かれるようになり、五人の方々が入信なさいました。<br/><br/>教修後皆別れを惜しみ涙を流しておられる姿を見ましたとき、明主様のお蔭で初めてかくも人々に喜ばれる私を思い、ただ感謝で胸が一杯でありました。<br/><br/> 喜びを胸に久しぶりに埼玉の家に帰ってみました。<br/><br/>私の娘は私が入信以来四年間、両足首、脛、股、胸、両腕、手先とほとんど全身から膿が出続けておりましたカリエスです。<br/><br/>この子供を見るにつけ親、先祖の曇りをしみじみ感じさせられておりました。<br/><br/>今度私が帰ってみますと、胸に少し傷を残していましたが足も手の傷口もすっかり治って赤ん坊をおんぶして子守をいたしているではありませんか。<br/><br/>僅か一カ月ぐらいの間でほとんど乾いてしまったのです。<br/><br/>善徳を積めば祖先の罪穢がとれてお救い頂く奇蹟を又々体験させて頂き、妻子とともにあまりにも偉大な御救いに喜びあったのであります。<br/><br/>数々の御守護を心より御礼申し上げます。<br/><br/> （昭和二十八年一月二十一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

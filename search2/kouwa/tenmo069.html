@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenmo069</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ５ 069-088 地上現象 069 噴火について（温泉）地球の未完成―熱海、強羅 噴火の霊的な御説明をお願い申し上げます。<br><br>またこれは光明世界においても持続されるものでしょうか。<br><br> 光明世界には無くなる。<br><br>噴火は地球が未完成であるからあるのである。<br><br>噴出するのは必要がある。<br><br>温泉などそれで、熱海は一般の噴火とは異うが、箱根などは昔噴火したものである。<br><br>穴を開けるから熱が高い訳で、そこへ地下水が通って湯になる。<br><br>であるから温泉を造るための噴火ともいえる。<br><br>箱根など石が沢山ある。<br><br>必要な石が用意してある。<br><br>爆裂火山でガスを噴出したもので、強羅が中心になっている。<br><br>茶焦の岩石もそれである。<br><br>硬い滑らかなものは表皮のもので、火山によっては硫黄を噴出したのもある。<br><br>湖水を造るにも必要で、芦の湖、中禅寺湖などそれである。<br><br>また瀧なども出来る。<br><br>湯の湖、（白根山）五色沼、湯滝がある。<br><br>金精峠を越すと菅沼、丸沼、尾瀬沼等がある。<br><br>いずれも湖水で、これらは自然美を造るために出来たものである。<br><br> 富士の噴火は灰を降らせた。<br><br>埼玉あたりの畑など、未だに噴火の灰がある。<br><br>作物にいけないというが、実は火山灰があるから畑にいいのである。<br><br>火山灰が混ると土が固まらぬ。<br><br>これらは農作物のために神様が降らせたのである。<br><br>一時は火山の毒があってわるい。<br><br>箱根などそのため木が小さい。<br><br>那須山の木もそうで農作物は全然駄目であった。<br><br>（S24. 1.22） 070 焼山爆発 焼山爆発について御言葉を頂きとうございます。<br><br> 方々にある。<br><br>爆発するのは、地熱が噴出する。<br><br>地熱の燃えてる熱が強すぎると、ハケ口を見付けて息を漏らす。<br><br>火でなくガスの場合もある。<br><br>（S24. 2.18） 071 地震と龍神（ムー大陸、日本海） 観音様あるいは龍神と地震と関係がありましょうか。<br><br> 神道では、龍神と地震に関係あるようにいうがそんな事はない。<br><br>これは「信仰雑話」に説かれたごとく、地殻の収縮によって起る現象である。<br><br> 太古においては、地殻も固まっておらなかったので、大激震がしばしばあって、今日のごとく固まった。<br><br>何万年か前には想像もつかぬ大地震があった。<br><br>太平洋にはムーという大陸があり、人口五千万位あったという記録を見た事がある。<br><br> 日本海は陥没して出来たものである。<br><br>日本は元、今の倍以上も広かった。<br><br> 072 地震時の火柱 地震の時、よく火柱が立ったり、空が光ったり致しますが、いかなる原因が御座いましょうか。<br><br> また、これが例の「椋平虹」による地震予知法と関係が御座いましょうか。<br><br> 御教えを御願い申し上げます。<br><br> 地熱が地殻の内部的変化により、地を通して光が出る。<br><br>地割から地気が出る。<br><br> 073 地震後の天候変化（箱根の多霧雨） 地震のあった時間により、風が吹くとか、病気が流行するとか、雨天になるとか云いますが何か関係がありますか。<br><br> 昔からよく諺があるが忘れた。<br><br>地震は地殻の収縮で、地霊が影響する事がある。<br><br>どこか地が割れるから、そこから地霊が一遍に上る。<br><br>地霊が上ると雲がどくので晴れる。<br><br>（高気圧は濃く、低気圧は淡い）地霊が少いと低気圧が発生する。<br><br>病気には関係ない。<br><br> （箱根に霧多く雨多いのは、地霊が上り難いからで、地震の後は日照が多く、風も立つ）（S24.12.27） 074 鳴戸の浄化 阿波の鳴戸の汚穢の消滅とは、汚濁せる物質の霊を地球の中心部の霊気によって消滅さるるので御座いましょうか。<br><br> 霊でない体である。<br><br>世界中の汚いものを、出来るだけ海水で浄化し、浄化し切れないカスを消滅する。<br><br>海水などすぐに乾燥する。<br><br>（S23） 075 鳴戸以外の渦巻 阿波の鳴戸のほかにも潮流の渦巻いている所がありますが、何かわけがありますのでございましょうか。<br><br> 深い穴である。<br><br>他のものは一時的なものである。<br><br>地球が陥没の際に出来る。<br><br>簡単なものである。<br><br> 一時的地殻の収縮により穴が出来、そこに渦が巻く。<br><br>（S23.10.24） 076 海龍と海流 海流と海龍の関係――。<br><br> 海龍は海の流れを自由にする。<br><br>神命によって海流を変える事をする。<br><br>海蛇はまたちがう。<br><br>海龍は霊で働く龍神。<br><br> よく潮流の変る事があるが、これは海龍でなく、海底陥没のためである。<br><br>特殊の場合のみ海流が働く。<br><br> 077 海流の変化 太平洋上における暖流、寒流の相会する所は、大体金華山沖との事ですが、年によって相当その位置に変りのあるのはいかなるわけでしょうか。<br><br> 海底陥没のためである。<br><br>海底は始終地殻の収縮のため、陥没している。<br><br>それで変る。<br><br>今年鰯がとれないのもそのためである。<br><br>暖流が寒流になる。<br><br> 段々海底は低くなり、海は深くなる。<br><br>（S24. 2.14） 078 無機物の呼吸 植物、鉱物、その他万有はことごとく呼吸すると承っておりますが、有機物の呼吸状態は判らせて戴きましたが、無機物例えば岩石、鉱物等の状態はどのように考えましたらよろしゅう御座いましょうか。<br><br> 無機物の呼吸は、その機関がないから判らないが、一定の変化はある。<br><br> 肺があったりなどしないから、呼吸という事はピッタリしないが、定期的に変化はある。<br><br>地球にそれがあるように、春に草木が伸びるように、鉱物もその時に発生する。<br><br>春に変化する。<br><br>活動する。<br><br>変化しようとする。<br><br>故に、秋は実が実るごとく硬化する。<br><br>そういう変化で、これらが呼吸という形にもなる。<br><br>花咲き変化するごとくである。<br><br>（S23.11. 4） 079 鉱相学 佐藤信淵の著書の中に、「地中に含有される鉱物、金、銀、鉄、銅あるいは鉛等は、夜半子の刻に見れば、含有されている鉱物の種類により変った霊気が立上っているのが判る。<br><br>子の刻は、太陽が丁度その正反対の裏側を照らしている時刻である」と記してあります。<br><br>それによって山相が知られ、含有される鉱物の種類が判ると言う事を尋ねられたことがあります。<br><br>これに付き御教示お願い申し上げます。<br><br> 鉱相学はある。<br><br>これによって金をみる人がある。<br><br>山から金色の気が光線の具合でみえる事がある。<br><br>他の金属は判らぬ。<br><br> 鉱物は、徳によって出るのであるから、徳のある人はよく判る。<br><br>（S24. 6. 2） 080 鉱脈南北に走る理 天の川（銀河）、磁石、火山脈、鉱脈等南北に走行しておりますが、物質である鉱脈の南北に走る理由を御教示下さい。<br><br> 日本は南北に細長いから、こうなっている。<br><br>今の三倍位あったのが、陥没し、骨だけが残った。<br><br>（S24. 5.13） 081 高級鉱物 高級鉱物程地下深部に産出する理由。<br><br> 高級鉱物は硬い。<br><br>金は柔かいが粘着力が強い。<br><br>（密度は細かい）地下程圧力を受けるから硬くなる。<br><br>（鉄は赤土の硬化したものである）（S24. 2.23） 082 金の生成年間 金は何年位経って出来るものでしょうか。<br><br> 分らない。<br><br>硬化の極点に達したもので、少くとも何十万年、何百万年経っているものと思う。<br><br>（S23.12.12） 083 石炭層の厚さ、原油生成の経過 一、石炭は樹木が地下において炭化したものと伺っておりますが、ちょっと常識で考えられない程、厚い層をなしておりますのはなぜで御座いましょうか。<br><br>露天掘の炭層はいかにして出来たもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 二、原油はいかなる状態で出来るもので御座いましょうか。<br><br>お伺い申し上げます。<br><br> 一、太古の森林は今考えるようなものではない。<br><br>大抵松であって、葉などが重なり合っていた。<br><br>それが地震などによって埋没して層となる。<br><br>大森林のものである。<br><br>亜炭は新しい。<br><br> 二、神様が必要あってお造りになったもので、地層の中に油の集溜個所がある。<br><br>これは絶えず動いている。<br><br>それは気流や地霊などによって移動する。<br><br>故にある一定量である。<br><br>しかし無くなれば次の動力が発見されるから決して心配はない。<br><br>（S25. 5.22） 084 石油発生の理 石油（原油）はいかにして発生したのでしょうか。<br><br> 石炭が地熱によって溶けたものである。<br><br> 戦時中、石炭の液化という事をいったが、石炭を溶かすと石油になるのである。<br><br>しかし段々掘ると出なくなる。<br><br>今秋田をやってるが――。<br><br> 昔はイソウズの油と言った。<br><br>温泉はちがう。<br><br>地層の表面の岩石にキレツが生ずる。<br><br>そして地熱がその間隙から発散する。<br><br>それが石炭をとかすのが石油であり――。<br><br> 地熱はつよいガスだから、しみ込む事はない。<br><br> 085 海に清水、岩に花の怪 遠州相良の沖合十八丁位の所に愛鷹岩と言う岩が御座いまして、その岩から真水が噴出しておりますが、いかなる訳で御座いましょうか。<br><br> また、気多村京丸に京丸牡丹と申し、遠くから見ますと崖の中途に牡丹が美しく咲いておりますが、採りに参りますと無いそうで御座いますが、いかなる訳で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 海の岩石の穴から、地下水が噴出するのである。<br><br>割合浅い所である。<br><br> 岩のある質に、光線があたり、牡丹が咲くように見えるんだと思う。<br><br>（S24. 3.11） rattail（注） 〔 妙智の鍵（光明分会６月号） 、昭和24(1949)年6月7日発行〕掲載 086 桜島上空火光の怪 鹿児島市南日本新聞の流星記事、「九月九日午後九時頃、鹿児島県桜島上空に一見火の玉のような怪火が現われ、青白い火花を発し、そのため一瞬市内は真昼間のように明るくなった。<br><br>右の怪火は宮崎県都城市内でも見られた。<br><br>測候所では見当がつかない」なお目撃者の談によれば、月と星が衝突したように見えた瞬間、赤い長い尾をひいた怪光が発したそうでございます。<br><br>右の現象は霊的に何か訳があるように存じられますが、お伺い申し上げます。<br><br> 噴火―地熱がハケ口を求めて地上へ噴出する。<br><br>本当に火を発するのは、地上へガスが発出する。<br><br> 強いガスが出たので、上空で濃い時火が燃える。<br><br>水が強い時反って燃える。<br><br> 噴火口のガスが燃えたのである。<br><br>（S24. 9.22） 087 溜水黒変する地方 和歌山県西牟婁郡長野村では、二月以来三回の降雨毎に溜水が真黒になる奇現象を呈しております。<br><br>同村は平地より三百尺程高い農村ですが、いかなる訳でしょうか。<br><br> 土の方に原因があろう。<br><br> （雨）―黒色の雨がふるとすれば、そんな事はない。<br><br>溜っているうちに変るというのは土の災いである。<br><br> （堅い、為） 鉱物が含有してるか、鉱物があって土にシミるか、いずれにしても鉱物に関係のある原因であるとみられる。<br><br> 地中にある鉱物は、温泉などは土に影響する。<br><br> 鉱石などを洗うから、そういう所は木の育ちがわるいから、大体判る。<br><br>だから那須野などは、暫くは作物が出来なかった。<br><br>硫黄のためである。<br><br> 箱根山などは大木がない。<br><br>爆発して黄鉄鉱が多いためである。<br><br>（S24. 4. 2） rattail（注） 〔 妙智の鍵（光明分会７月号） 、昭和24(1949)年7月1日発行〕掲載 088 河川汚濁の原因 最近関東地方の河川は、特に汚濁が目立っていますが、これは天変地異に関係がありますか。<br><br> 陥没か何かで亀裂している所があり、そこから水が流れてるためと思う。<br><br>（S23）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre as Erupções Vulcânicas (Fontes Termais) - A Incompletude da Terra: Atami e Gora</h2>
 <p>Rogo a Vossa Senhoria que nos conceda uma explanação espiritual sobre as erupções vulcânicas. Ademais, gostaria de saber se tal fenômeno persistirá no Mundo da Luz.</p>
@@ -183,5 +335,48 @@ function toggleLang(lang) {
 <h2>A Causa da Poluição dos Rios</h2>
 <p>Recentemente, a poluição dos rios na região de Kanto tem se tornado particularmente acentuada. Haveria alguma relação com cataclismos celestes ou terrestres?</p>
 <p>Creio que a causa seja a existência de alguma fissura no solo, resultante de um colapso ou outro fenômeno similar, por onde a água está escoando.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 ５ 069-088 地上現象 069 噴火について（温泉）地球の未完成―熱海、強羅 噴火の霊的な御説明をお願い申し上げます。<br/><br/>またこれは光明世界においても持続されるものでしょうか。<br/><br/> 光明世界には無くなる。<br/><br/>噴火は地球が未完成であるからあるのである。<br/><br/>噴出するのは必要がある。<br/><br/>温泉などそれで、熱海は一般の噴火とは異うが、箱根などは昔噴火したものである。<br/><br/>穴を開けるから熱が高い訳で、そこへ地下水が通って湯になる。<br/><br/>であるから温泉を造るための噴火ともいえる。<br/><br/>箱根など石が沢山ある。<br/><br/>必要な石が用意してある。<br/><br/>爆裂火山でガスを噴出したもので、強羅が中心になっている。<br/><br/>茶焦の岩石もそれである。<br/><br/>硬い滑らかなものは表皮のもので、火山によっては硫黄を噴出したのもある。<br/><br/>湖水を造るにも必要で、芦の湖、中禅寺湖などそれである。<br/><br/>また瀧なども出来る。<br/><br/>湯の湖、（白根山）五色沼、湯滝がある。<br/><br/>金精峠を越すと菅沼、丸沼、尾瀬沼等がある。<br/><br/>いずれも湖水で、これらは自然美を造るために出来たものである。<br/><br/> 富士の噴火は灰を降らせた。<br/><br/>埼玉あたりの畑など、未だに噴火の灰がある。<br/><br/>作物にいけないというが、実は火山灰があるから畑にいいのである。<br/><br/>火山灰が混ると土が固まらぬ。<br/><br/>これらは農作物のために神様が降らせたのである。<br/><br/>一時は火山の毒があってわるい。<br/><br/>箱根などそのため木が小さい。<br/><br/>那須山の木もそうで農作物は全然駄目であった。<br/><br/>（S24. 1.22） 070 焼山爆発 焼山爆発について御言葉を頂きとうございます。<br/><br/> 方々にある。<br/><br/>爆発するのは、地熱が噴出する。<br/><br/>地熱の燃えてる熱が強すぎると、ハケ口を見付けて息を漏らす。<br/><br/>火でなくガスの場合もある。<br/><br/>（S24. 2.18） 071 地震と龍神（ムー大陸、日本海） 観音様あるいは龍神と地震と関係がありましょうか。<br/><br/> 神道では、龍神と地震に関係あるようにいうがそんな事はない。<br/><br/>これは「信仰雑話」に説かれたごとく、地殻の収縮によって起る現象である。<br/><br/> 太古においては、地殻も固まっておらなかったので、大激震がしばしばあって、今日のごとく固まった。<br/><br/>何万年か前には想像もつかぬ大地震があった。<br/><br/>太平洋にはムーという大陸があり、人口五千万位あったという記録を見た事がある。<br/><br/> 日本海は陥没して出来たものである。<br/><br/>日本は元、今の倍以上も広かった。<br/><br/> 072 地震時の火柱 地震の時、よく火柱が立ったり、空が光ったり致しますが、いかなる原因が御座いましょうか。<br/><br/> また、これが例の「椋平虹」による地震予知法と関係が御座いましょうか。<br/><br/> 御教えを御願い申し上げます。<br/><br/> 地熱が地殻の内部的変化により、地を通して光が出る。<br/><br/>地割から地気が出る。<br/><br/> 073 地震後の天候変化（箱根の多霧雨） 地震のあった時間により、風が吹くとか、病気が流行するとか、雨天になるとか云いますが何か関係がありますか。<br/><br/> 昔からよく諺があるが忘れた。<br/><br/>地震は地殻の収縮で、地霊が影響する事がある。<br/><br/>どこか地が割れるから、そこから地霊が一遍に上る。<br/><br/>地霊が上ると雲がどくので晴れる。<br/><br/>（高気圧は濃く、低気圧は淡い）地霊が少いと低気圧が発生する。<br/><br/>病気には関係ない。<br/><br/> （箱根に霧多く雨多いのは、地霊が上り難いからで、地震の後は日照が多く、風も立つ）（S24.12.27） 074 鳴戸の浄化 阿波の鳴戸の汚穢の消滅とは、汚濁せる物質の霊を地球の中心部の霊気によって消滅さるるので御座いましょうか。<br/><br/> 霊でない体である。<br/><br/>世界中の汚いものを、出来るだけ海水で浄化し、浄化し切れないカスを消滅する。<br/><br/>海水などすぐに乾燥する。<br/><br/>（S23） 075 鳴戸以外の渦巻 阿波の鳴戸のほかにも潮流の渦巻いている所がありますが、何かわけがありますのでございましょうか。<br/><br/> 深い穴である。<br/><br/>他のものは一時的なものである。<br/><br/>地球が陥没の際に出来る。<br/><br/>簡単なものである。<br/><br/> 一時的地殻の収縮により穴が出来、そこに渦が巻く。<br/><br/>（S23.10.24） 076 海龍と海流 海流と海龍の関係――。<br/><br/> 海龍は海の流れを自由にする。<br/><br/>神命によって海流を変える事をする。<br/><br/>海蛇はまたちがう。<br/><br/>海龍は霊で働く龍神。<br/><br/> よく潮流の変る事があるが、これは海龍でなく、海底陥没のためである。<br/><br/>特殊の場合のみ海流が働く。<br/><br/> 077 海流の変化 太平洋上における暖流、寒流の相会する所は、大体金華山沖との事ですが、年によって相当その位置に変りのあるのはいかなるわけでしょうか。<br/><br/> 海底陥没のためである。<br/><br/>海底は始終地殻の収縮のため、陥没している。<br/><br/>それで変る。<br/><br/>今年鰯がとれないのもそのためである。<br/><br/>暖流が寒流になる。<br/><br/> 段々海底は低くなり、海は深くなる。<br/><br/>（S24. 2.14） 078 無機物の呼吸 植物、鉱物、その他万有はことごとく呼吸すると承っておりますが、有機物の呼吸状態は判らせて戴きましたが、無機物例えば岩石、鉱物等の状態はどのように考えましたらよろしゅう御座いましょうか。<br/><br/> 無機物の呼吸は、その機関がないから判らないが、一定の変化はある。<br/><br/> 肺があったりなどしないから、呼吸という事はピッタリしないが、定期的に変化はある。<br/><br/>地球にそれがあるように、春に草木が伸びるように、鉱物もその時に発生する。<br/><br/>春に変化する。<br/><br/>活動する。<br/><br/>変化しようとする。<br/><br/>故に、秋は実が実るごとく硬化する。<br/><br/>そういう変化で、これらが呼吸という形にもなる。<br/><br/>花咲き変化するごとくである。<br/><br/>（S23.11. 4） 079 鉱相学 佐藤信淵の著書の中に、「地中に含有される鉱物、金、銀、鉄、銅あるいは鉛等は、夜半子の刻に見れば、含有されている鉱物の種類により変った霊気が立上っているのが判る。<br/><br/>子の刻は、太陽が丁度その正反対の裏側を照らしている時刻である」と記してあります。<br/><br/>それによって山相が知られ、含有される鉱物の種類が判ると言う事を尋ねられたことがあります。<br/><br/>これに付き御教示お願い申し上げます。<br/><br/> 鉱相学はある。<br/><br/>これによって金をみる人がある。<br/><br/>山から金色の気が光線の具合でみえる事がある。<br/><br/>他の金属は判らぬ。<br/><br/> 鉱物は、徳によって出るのであるから、徳のある人はよく判る。<br/><br/>（S24. 6. 2） 080 鉱脈南北に走る理 天の川（銀河）、磁石、火山脈、鉱脈等南北に走行しておりますが、物質である鉱脈の南北に走る理由を御教示下さい。<br/><br/> 日本は南北に細長いから、こうなっている。<br/><br/>今の三倍位あったのが、陥没し、骨だけが残った。<br/><br/>（S24. 5.13） 081 高級鉱物 高級鉱物程地下深部に産出する理由。<br/><br/> 高級鉱物は硬い。<br/><br/>金は柔かいが粘着力が強い。<br/><br/>（密度は細かい）地下程圧力を受けるから硬くなる。<br/><br/>（鉄は赤土の硬化したものである）（S24. 2.23） 082 金の生成年間 金は何年位経って出来るものでしょうか。<br/><br/> 分らない。<br/><br/>硬化の極点に達したもので、少くとも何十万年、何百万年経っているものと思う。<br/><br/>（S23.12.12） 083 石炭層の厚さ、原油生成の経過 一、石炭は樹木が地下において炭化したものと伺っておりますが、ちょっと常識で考えられない程、厚い層をなしておりますのはなぜで御座いましょうか。<br/><br/>露天掘の炭層はいかにして出来たもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 二、原油はいかなる状態で出来るもので御座いましょうか。<br/><br/>お伺い申し上げます。<br/><br/> 一、太古の森林は今考えるようなものではない。<br/><br/>大抵松であって、葉などが重なり合っていた。<br/><br/>それが地震などによって埋没して層となる。<br/><br/>大森林のものである。<br/><br/>亜炭は新しい。<br/><br/> 二、神様が必要あってお造りになったもので、地層の中に油の集溜個所がある。<br/><br/>これは絶えず動いている。<br/><br/>それは気流や地霊などによって移動する。<br/><br/>故にある一定量である。<br/><br/>しかし無くなれば次の動力が発見されるから決して心配はない。<br/><br/>（S25. 5.22） 084 石油発生の理 石油（原油）はいかにして発生したのでしょうか。<br/><br/> 石炭が地熱によって溶けたものである。<br/><br/> 戦時中、石炭の液化という事をいったが、石炭を溶かすと石油になるのである。<br/><br/>しかし段々掘ると出なくなる。<br/><br/>今秋田をやってるが――。<br/><br/> 昔はイソウズの油と言った。<br/><br/>温泉はちがう。<br/><br/>地層の表面の岩石にキレツが生ずる。<br/><br/>そして地熱がその間隙から発散する。<br/><br/>それが石炭をとかすのが石油であり――。<br/><br/> 地熱はつよいガスだから、しみ込む事はない。<br/><br/> 085 海に清水、岩に花の怪 遠州相良の沖合十八丁位の所に愛鷹岩と言う岩が御座いまして、その岩から真水が噴出しておりますが、いかなる訳で御座いましょうか。<br/><br/> また、気多村京丸に京丸牡丹と申し、遠くから見ますと崖の中途に牡丹が美しく咲いておりますが、採りに参りますと無いそうで御座いますが、いかなる訳で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 海の岩石の穴から、地下水が噴出するのである。<br/><br/>割合浅い所である。<br/><br/> 岩のある質に、光線があたり、牡丹が咲くように見えるんだと思う。<br/><br/>（S24. 3.11） rattail（注） 〔 妙智の鍵（光明分会６月号） 、昭和24(1949)年6月7日発行〕掲載 086 桜島上空火光の怪 鹿児島市南日本新聞の流星記事、「九月九日午後九時頃、鹿児島県桜島上空に一見火の玉のような怪火が現われ、青白い火花を発し、そのため一瞬市内は真昼間のように明るくなった。<br/><br/>右の怪火は宮崎県都城市内でも見られた。<br/><br/>測候所では見当がつかない」なお目撃者の談によれば、月と星が衝突したように見えた瞬間、赤い長い尾をひいた怪光が発したそうでございます。<br/><br/>右の現象は霊的に何か訳があるように存じられますが、お伺い申し上げます。<br/><br/> 噴火―地熱がハケ口を求めて地上へ噴出する。<br/><br/>本当に火を発するのは、地上へガスが発出する。<br/><br/> 強いガスが出たので、上空で濃い時火が燃える。<br/><br/>水が強い時反って燃える。<br/><br/> 噴火口のガスが燃えたのである。<br/><br/>（S24. 9.22） 087 溜水黒変する地方 和歌山県西牟婁郡長野村では、二月以来三回の降雨毎に溜水が真黒になる奇現象を呈しております。<br/><br/>同村は平地より三百尺程高い農村ですが、いかなる訳でしょうか。<br/><br/> 土の方に原因があろう。<br/><br/> （雨）―黒色の雨がふるとすれば、そんな事はない。<br/><br/>溜っているうちに変るというのは土の災いである。<br/><br/> （堅い、為） 鉱物が含有してるか、鉱物があって土にシミるか、いずれにしても鉱物に関係のある原因であるとみられる。<br/><br/> 地中にある鉱物は、温泉などは土に影響する。<br/><br/> 鉱石などを洗うから、そういう所は木の育ちがわるいから、大体判る。<br/><br/>だから那須野などは、暫くは作物が出来なかった。<br/><br/>硫黄のためである。<br/><br/> 箱根山などは大木がない。<br/><br/>爆発して黄鉄鉱が多いためである。<br/><br/>（S24. 4. 2） rattail（注） 〔 妙智の鍵（光明分会７月号） 、昭和24(1949)年7月1日発行〕掲載 088 河川汚濁の原因 最近関東地方の河川は、特に汚濁が目立っていますが、これは天変地異に関係がありますか。<br/><br/> 陥没か何かで亀裂している所があり、そこから水が流れてるためと思う。<br/><br/>（S23）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

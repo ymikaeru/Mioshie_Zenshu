@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qkabait</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： カーバイト身近にて大爆発 『栄光』177号、昭和27(1952)年10月8日発行 大分県 南光中教会 高橋 一（47） 昭和二十五年三月入信以来、光明如来様、御屏風観音様を御奉斎させて頂き、私始め家族に又事業に日々数々の御守護と御利益を頂きながら、今日まで御礼の御報告も致しませず、誠に申訳ありません。<br><br>ここに最近身に余る偉大なる奇蹟に御守護頂きました事を御報告させて頂きますと共に、「原爆恐るるに足らず」の御論文通り、まさしく爆風も何のその、光を胸に抱く私達は、絶対に救われる信念を強く持ち深く御礼申し上げます。<br><br>私は鉄工業に従事致している者ですが、去る六月十四日、いつもの通り早朝より忙しく、夢中になって作業致しておりました。<br><br>午前中は何事も無く昼食をすまし、午後の作業を致しておりましたところ、ちょうど三時頃の事です。<br><br>私の長男（昭和二十六年二月入信）も同じ職場に働いているのです。<br><br>その時長男の方は研磨機で作業しておりましたが、何事もなく済まし、後三十分程たって、私も同じ研磨機で工具を研磨していました。<br><br>ところが突然の事です。<br><br>側においてあったカーバイト（一缶）が一大音響と共に俄然爆発したのです。<br><br>しかも驚くなかれ！そのカーバイトは私の体の横に置いてあり、しかも股に触れていたものなんです。<br><br>一体私はどうなったでしょうか？ 何とカーバイトの爆発だからひどいものです。<br><br>「ドーン」という一大爆発音と共に「ああ、しまった、やられた」と、ただそれだけの事を思ったのみで、工場の雑音は全く瞬間に私の耳より絶えてしまい、余りの激しいとっさの出来事なので気が転倒してしまい、後の事は何が何だかさっぱり判らなくなってしまいました。<br><br>カーバイトの爆発だからそれを中心として、その爆風が四方八方に散るのが本当である、というより寧ろそれが自然現象なんであろうが、ところが「信ずる者は幸なり」とはこの事であろう。<br><br>なぜならば今言ったように、科学的にはカーバイトを中心として八方に爆風が吹き散るはずなのだが、大光明を胸に抱く私の身体の方にだけは、何と驚くなかれ！ 微風たりとも来なかったのである。<br><br>結局は私の体をよけて三方に吹き散ったわけである。<br><br>何と不思議じゃありませんか！ 否何と有難いではありませんか！ ここが救世教信徒の一大特典です。<br><br>その瞬間私はメシヤ様に救われていたのです。<br><br>暫くして私は気がついたらしいが、その時には無意識に私の耳を浄霊しておりました。<br><br>爆風が私の体をよけたために上昇した爆風が、私の耳をかすって通ったためであろう、一時耳だけ聞えなかったらしいのである。<br><br>それも十分程後には聞えるようになりました。<br><br>後に聞いた話だが、同じ職場で働いていた人も、吹き飛ばされたはずの私が、キョトンとして耳を浄霊している様子に、驚きの目を瞠っていたそうです。<br><br>又余りの大きい音響に近所の人々もびっくりして工場に見に来たのだが、何事なく耳に手を当ててキョトンとしている私を、不思議そうに眺めながら、「おかしいな！ 変な事もあるものだ。<br><br>不思議だ不思議だ」といって帰って行きました。<br><br>後で長男に聞きましたのですが、その時の爆風は私の身体をよけて三方に吹き散ったそうです。<br><br>又この事件がいかに大きかったかは右の爆発音で近所の人々が騒いだ一事だけでも窺い知られるであろうが、ここに又それをより以上に証拠づけるものとして次の事があるのである。<br><br>というのはそのカーバイトの缶がどこに飛んで行ったのか分らぬ程だから大した事件である。<br><br>かかる恐るべき一大事件に、私のごとき至らぬ者にも大光明様を胸に抱く私は、不思議にどこも負傷一つさえ無くメシヤ様の救いを得られたのであります。<br><br>今あの時の事を考えるさえ身振いが致します。<br><br>瞬間に炸裂する原爆の惨状にも、メシヤ様の教えを頂く吾々神の子は、かくして救われたのであると思い、メシヤの神の絶対なる救いの力に有難く嬉し涙を流しました。<br><br>早速、市内北町にある私達の教会佐藤先生の家を訪れ、明主様の御写真を仰ぎつつ大光明如来様に深く御礼申し上げました。<br><br>その時春季大祭に参拝させて頂いて御面会の節の御玉顔が、目のあたりに浮びいで、この一大奇蹟に救われし喜びに感謝の言葉は到底筆舌には尽くせません。<br><br> 吹き荒ぶ 嵐の外に安かりぬ 神の護りの中に在る身は （御讃歌） つくづくと右の御歌が身に恥み、思わず口ずさみました。<br><br> 拙文、拙筆で大変申訳ありませんが、以上御報告させて頂きました。<br><br> 明主様の御救いの万分の一にもと、朝な夕なに御道に尽くさせて頂いております。<br><br> 明主様有難うございました。<br><br> （昭和二十七年九月五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Explosão de Carbureto ao Meu Lado</h2>
 <p><strong>Revista Eikō, nº 177, 8 de outubro de 1952</strong>
@@ -109,5 +264,48 @@ function toggleLang(lang) {
 <p>Peço sinceras desculpas pela minha escrita simples e inábil, mas encerro aqui o meu relato. Com o desejo de retribuir, ainda que minimamente, a salvação recebida de Meishu-Sama, dedico-me ao caminho da fé, dia e noite.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(5 de setembro de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： カーバイト身近にて大爆発 『栄光』177号、昭和27(1952)年10月8日発行 大分県 南光中教会 高橋 一（47） 昭和二十五年三月入信以来、光明如来様、御屏風観音様を御奉斎させて頂き、私始め家族に又事業に日々数々の御守護と御利益を頂きながら、今日まで御礼の御報告も致しませず、誠に申訳ありません。<br/><br/>ここに最近身に余る偉大なる奇蹟に御守護頂きました事を御報告させて頂きますと共に、「原爆恐るるに足らず」の御論文通り、まさしく爆風も何のその、光を胸に抱く私達は、絶対に救われる信念を強く持ち深く御礼申し上げます。<br/><br/>私は鉄工業に従事致している者ですが、去る六月十四日、いつもの通り早朝より忙しく、夢中になって作業致しておりました。<br/><br/>午前中は何事も無く昼食をすまし、午後の作業を致しておりましたところ、ちょうど三時頃の事です。<br/><br/>私の長男（昭和二十六年二月入信）も同じ職場に働いているのです。<br/><br/>その時長男の方は研磨機で作業しておりましたが、何事もなく済まし、後三十分程たって、私も同じ研磨機で工具を研磨していました。<br/><br/>ところが突然の事です。<br/><br/>側においてあったカーバイト（一缶）が一大音響と共に俄然爆発したのです。<br/><br/>しかも驚くなかれ！そのカーバイトは私の体の横に置いてあり、しかも股に触れていたものなんです。<br/><br/>一体私はどうなったでしょうか？ 何とカーバイトの爆発だからひどいものです。<br/><br/>「ドーン」という一大爆発音と共に「ああ、しまった、やられた」と、ただそれだけの事を思ったのみで、工場の雑音は全く瞬間に私の耳より絶えてしまい、余りの激しいとっさの出来事なので気が転倒してしまい、後の事は何が何だかさっぱり判らなくなってしまいました。<br/><br/>カーバイトの爆発だからそれを中心として、その爆風が四方八方に散るのが本当である、というより寧ろそれが自然現象なんであろうが、ところが「信ずる者は幸なり」とはこの事であろう。<br/><br/>なぜならば今言ったように、科学的にはカーバイトを中心として八方に爆風が吹き散るはずなのだが、大光明を胸に抱く私の身体の方にだけは、何と驚くなかれ！ 微風たりとも来なかったのである。<br/><br/>結局は私の体をよけて三方に吹き散ったわけである。<br/><br/>何と不思議じゃありませんか！ 否何と有難いではありませんか！ ここが救世教信徒の一大特典です。<br/><br/>その瞬間私はメシヤ様に救われていたのです。<br/><br/>暫くして私は気がついたらしいが、その時には無意識に私の耳を浄霊しておりました。<br/><br/>爆風が私の体をよけたために上昇した爆風が、私の耳をかすって通ったためであろう、一時耳だけ聞えなかったらしいのである。<br/><br/>それも十分程後には聞えるようになりました。<br/><br/>後に聞いた話だが、同じ職場で働いていた人も、吹き飛ばされたはずの私が、キョトンとして耳を浄霊している様子に、驚きの目を瞠っていたそうです。<br/><br/>又余りの大きい音響に近所の人々もびっくりして工場に見に来たのだが、何事なく耳に手を当ててキョトンとしている私を、不思議そうに眺めながら、「おかしいな！ 変な事もあるものだ。<br/><br/>不思議だ不思議だ」といって帰って行きました。<br/><br/>後で長男に聞きましたのですが、その時の爆風は私の身体をよけて三方に吹き散ったそうです。<br/><br/>又この事件がいかに大きかったかは右の爆発音で近所の人々が騒いだ一事だけでも窺い知られるであろうが、ここに又それをより以上に証拠づけるものとして次の事があるのである。<br/><br/>というのはそのカーバイトの缶がどこに飛んで行ったのか分らぬ程だから大した事件である。<br/><br/>かかる恐るべき一大事件に、私のごとき至らぬ者にも大光明様を胸に抱く私は、不思議にどこも負傷一つさえ無くメシヤ様の救いを得られたのであります。<br/><br/>今あの時の事を考えるさえ身振いが致します。<br/><br/>瞬間に炸裂する原爆の惨状にも、メシヤ様の教えを頂く吾々神の子は、かくして救われたのであると思い、メシヤの神の絶対なる救いの力に有難く嬉し涙を流しました。<br/><br/>早速、市内北町にある私達の教会佐藤先生の家を訪れ、明主様の御写真を仰ぎつつ大光明如来様に深く御礼申し上げました。<br/><br/>その時春季大祭に参拝させて頂いて御面会の節の御玉顔が、目のあたりに浮びいで、この一大奇蹟に救われし喜びに感謝の言葉は到底筆舌には尽くせません。<br/><br/> 吹き荒ぶ 嵐の外に安かりぬ 神の護りの中に在る身は （御讃歌） つくづくと右の御歌が身に恥み、思わず口ずさみました。<br/><br/> 拙文、拙筆で大変申訳ありませんが、以上御報告させて頂きました。<br/><br/> 明主様の御救いの万分の一にもと、朝な夕なに御道に尽くさせて頂いております。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十七年九月五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

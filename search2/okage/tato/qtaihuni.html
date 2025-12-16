@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qtaihuni</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 台風にも倒伏せず反当り九俵余の収穫 『栄光』79号、昭和25(1950)年11月22日 自然農法解説・（革）自然農法解説に収録 静岡県 英祥中教会 楠ケ谷辰雄（38） 私はこのたび、実際行った稲作自然栽培の体験、並びに感想を御報告させて頂きます。<br><br>実は自然栽培法の御教えを頂きました瞬間、脳裡を走った事は「作物が肥料無しで」と言う申し上げるも恐ろしい言葉でございました。<br><br>実際私共は肥料は人間で申しますなら食物に相当する物で、作物の食物であると信じておりました。<br><br>しかしこれも善い事とは思えど悪いことでありまして、大自然即ち神様の御意志に反しておりました。<br><br>自然栽培法でありましたならば、いかなる風水害にもお蔭を頂ける御教えを賜わりました私は、昨年約三分の二倒伏した土壌の軟かな一毛作田の所に実施致しました。<br><br>品種は最も草丈の長い、病気に弱い晩生種の「大正赤穂」を選定致しました。<br><br>苗代播種の季節も目前に迫り、苗床に一寸程度に切った藁を入れ、種子の浄霊を致しまして、五月七日坪一合ずつ播種致しました。<br><br>苗代も勿論水田苗代で数日後発芽致しました。<br><br>しかし余りにも薄く、この時早くも行末を案じられたのであります。<br><br>日増しに多少は賑やかになって参りましたものの、多少黄色がかり、不安の内にも植付の時節も迫って参りました。<br><br> 実施田の歩積り三畝一歩で、この中に青草十束を打ち込みました。<br><br>この仕事に従事している時、不思議にも心の晴れ晴れとしていた事は、今も記憶しております。<br><br>時既に梅雨の期に入り、シトシトと小雨降る植付に絶好の機も訪れておりました時、六月二日無事植付を終了致し、御神前にひざまずき、良く御念じ申し上げました。<br><br>植付方法と致しまして畦巾一尺三寸、株問五寸の並木植と致し、一本植を主として植付けました。<br><br>中耕は除草第一回を七月三日実施致し、この頃は隣の有肥田と変りなく、来るべき浄化の時の一大心構えの頃でありました。<br><br>この第一回除草後清水で作りました堆肥（半熟で最も香りのよい頃）を反当約七十貫程度打込みました。<br><br>七月十日頃より、漸次黄色を呈しまして、七月二十日頃が最も浄化激しく苦しみの頃と思い特に御浄霊を毎日行いました。<br><br> 当時の私の心も随分迷い肥料をと思ったこともありましたが、そのたびに、明主様と心を呼び醒ましまして、静かに御教えを思い浮べ、肥毒の為の浄化なるを信じ、やがて稔る黄金の波を思い浮べ横道にそれず進まして頂きました。<br><br>七月二十三日第二回目の除草を致しましたが、その後一週間目頃より漸次緑色を増し、赤穂本然の姿に立ち帰りました。<br><br>ここで分蘖につき記さして頂きますが、七月十八日に十本ないし十三本で、八月七日に十五本ないし二十本でありました。<br><br>有肥であれば遅い分蘖は無効なるを聞いておりましたので、試みに一株を数え覚えておきましたが、収穫の折見ますと何と少しも無効分蘖はなくよく稔っておりました。<br><br>七月下旬一杯で中耕の用事もなく、稔りの秋を楽しむばかりとなりました。<br><br>この頃より農家で最も恐れられます台風襲来の季節でありますので、又もこの心配が盛んとなりましたが、予測通り見舞われ、ここかしこで倒伏の憂目に遇い、悲痛な叫びも耳に致しましたが、何と有難いことに、有肥であれば当然倒伏すべき稲に拘らず、一株として倒伏致しませんでした。<br><br>三尺八、九寸もありましたこの稲が一株も倒伏致さなかったのは、奇蹟でなくして何でありましょう。<br><br> 炎熱焼くがごとき真昼間に汗水流し除草し、稲葉は赤く、心身共に苦しかった時節も何時しか過ぎ去り、朝夕涼味を感ずる収穫期となり、根切の鎌を入れました折、余りにも茎が硬く丁度「かや」のようでありました。<br><br>この時初めて感じました。<br><br>このような稲なれば倒伏や病虫害の心配のないことを知りました。<br><br>左に実収量を記さして頂きます。<br><br> 一、品 種 大正赤穫 二、苗 代 イ、水田苗代 ロ、播種一坪当一合播 ハ、反当苗代坪数十二坪 三、堆 肥 反当七十貫打込（清水使用堆肥） 四、植 付 イ、並木植、畦間一尺三寸、株間五寸 ロ、植付月日、六月二十日 ハ、植付本数、一本又は二本植 五、中耕除草 第一回七月三日、第二回七月二十二日 六、分 蘖 イ、七月十八日十本－十三本 ロ、八月七日十五本－二十本 七、収 穫 イ、坪当の粗量二升一合 ロ、坪当玄米量、一升二合五勺 ハ、反当収穫、九俵一斗五升 ニ、昨年迄の最高反収穫より二俵一斗五升増収 右のごとき結果となり、収量の意外だったのに驚かされました。<br><br>見たところより収量の出ますのは、茎が有肥より硬く、従って穂首が同じ重さでも有肥軽重れておらず、全部が完全に稔っております為と思いました。<br><br>風水病虫の憂いなく穀の意外に出ますこの自然農法こそ真に神様の垂れさせ給うた食糧増産の秘訣であります事は、強く強く信じさせられると共に、まず「体験」、理論よりも実行と存じます。<br><br> 明主様有難うございました。<br><br> （昭和二十五年十一月二十二日提出）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Inabalável ao Tufão: A Colheita de Mais de Nove Fardos por Tan</h2>
 <p>Publicado na revista Eikou nº 79, em 22 de novembro de 1950
@@ -128,5 +283,48 @@ Igreja Eisho, Província de Shizuoka</p>
 <p>Esta Agricultura Natural, que nos isenta das preocupações com intempéries, doenças e pragas, e ainda nos presenteia com uma colheita surpreendente, é, sem dúvida, o segredo concedido por Deus para o aumento da produção de alimentos. Sou levado a crer, com a mais profunda convicção, que é preciso, antes de tudo, “vivenciar”. A prática precede a teoria.</p>
 <p>Muito obrigado, Meishu-Sama.</p>
 <p>(Submetido em 22 de novembro de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 台風にも倒伏せず反当り九俵余の収穫 『栄光』79号、昭和25(1950)年11月22日 自然農法解説・（革）自然農法解説に収録 静岡県 英祥中教会 楠ケ谷辰雄（38） 私はこのたび、実際行った稲作自然栽培の体験、並びに感想を御報告させて頂きます。<br/><br/>実は自然栽培法の御教えを頂きました瞬間、脳裡を走った事は「作物が肥料無しで」と言う申し上げるも恐ろしい言葉でございました。<br/><br/>実際私共は肥料は人間で申しますなら食物に相当する物で、作物の食物であると信じておりました。<br/><br/>しかしこれも善い事とは思えど悪いことでありまして、大自然即ち神様の御意志に反しておりました。<br/><br/>自然栽培法でありましたならば、いかなる風水害にもお蔭を頂ける御教えを賜わりました私は、昨年約三分の二倒伏した土壌の軟かな一毛作田の所に実施致しました。<br/><br/>品種は最も草丈の長い、病気に弱い晩生種の「大正赤穂」を選定致しました。<br/><br/>苗代播種の季節も目前に迫り、苗床に一寸程度に切った藁を入れ、種子の浄霊を致しまして、五月七日坪一合ずつ播種致しました。<br/><br/>苗代も勿論水田苗代で数日後発芽致しました。<br/><br/>しかし余りにも薄く、この時早くも行末を案じられたのであります。<br/><br/>日増しに多少は賑やかになって参りましたものの、多少黄色がかり、不安の内にも植付の時節も迫って参りました。<br/><br/> 実施田の歩積り三畝一歩で、この中に青草十束を打ち込みました。<br/><br/>この仕事に従事している時、不思議にも心の晴れ晴れとしていた事は、今も記憶しております。<br/><br/>時既に梅雨の期に入り、シトシトと小雨降る植付に絶好の機も訪れておりました時、六月二日無事植付を終了致し、御神前にひざまずき、良く御念じ申し上げました。<br/><br/>植付方法と致しまして畦巾一尺三寸、株問五寸の並木植と致し、一本植を主として植付けました。<br/><br/>中耕は除草第一回を七月三日実施致し、この頃は隣の有肥田と変りなく、来るべき浄化の時の一大心構えの頃でありました。<br/><br/>この第一回除草後清水で作りました堆肥（半熟で最も香りのよい頃）を反当約七十貫程度打込みました。<br/><br/>七月十日頃より、漸次黄色を呈しまして、七月二十日頃が最も浄化激しく苦しみの頃と思い特に御浄霊を毎日行いました。<br/><br/> 当時の私の心も随分迷い肥料をと思ったこともありましたが、そのたびに、明主様と心を呼び醒ましまして、静かに御教えを思い浮べ、肥毒の為の浄化なるを信じ、やがて稔る黄金の波を思い浮べ横道にそれず進まして頂きました。<br/><br/>七月二十三日第二回目の除草を致しましたが、その後一週間目頃より漸次緑色を増し、赤穂本然の姿に立ち帰りました。<br/><br/>ここで分蘖につき記さして頂きますが、七月十八日に十本ないし十三本で、八月七日に十五本ないし二十本でありました。<br/><br/>有肥であれば遅い分蘖は無効なるを聞いておりましたので、試みに一株を数え覚えておきましたが、収穫の折見ますと何と少しも無効分蘖はなくよく稔っておりました。<br/><br/>七月下旬一杯で中耕の用事もなく、稔りの秋を楽しむばかりとなりました。<br/><br/>この頃より農家で最も恐れられます台風襲来の季節でありますので、又もこの心配が盛んとなりましたが、予測通り見舞われ、ここかしこで倒伏の憂目に遇い、悲痛な叫びも耳に致しましたが、何と有難いことに、有肥であれば当然倒伏すべき稲に拘らず、一株として倒伏致しませんでした。<br/><br/>三尺八、九寸もありましたこの稲が一株も倒伏致さなかったのは、奇蹟でなくして何でありましょう。<br/><br/> 炎熱焼くがごとき真昼間に汗水流し除草し、稲葉は赤く、心身共に苦しかった時節も何時しか過ぎ去り、朝夕涼味を感ずる収穫期となり、根切の鎌を入れました折、余りにも茎が硬く丁度「かや」のようでありました。<br/><br/>この時初めて感じました。<br/><br/>このような稲なれば倒伏や病虫害の心配のないことを知りました。<br/><br/>左に実収量を記さして頂きます。<br/><br/> 一、品 種 大正赤穫 二、苗 代 イ、水田苗代 ロ、播種一坪当一合播 ハ、反当苗代坪数十二坪 三、堆 肥 反当七十貫打込（清水使用堆肥） 四、植 付 イ、並木植、畦間一尺三寸、株間五寸 ロ、植付月日、六月二十日 ハ、植付本数、一本又は二本植 五、中耕除草 第一回七月三日、第二回七月二十二日 六、分 蘖 イ、七月十八日十本－十三本 ロ、八月七日十五本－二十本 七、収 穫 イ、坪当の粗量二升一合 ロ、坪当玄米量、一升二合五勺 ハ、反当収穫、九俵一斗五升 ニ、昨年迄の最高反収穫より二俵一斗五升増収 右のごとき結果となり、収量の意外だったのに驚かされました。<br/><br/>見たところより収量の出ますのは、茎が有肥より硬く、従って穂首が同じ重さでも有肥軽重れておらず、全部が完全に稔っております為と思いました。<br/><br/>風水病虫の憂いなく穀の意外に出ますこの自然農法こそ真に神様の垂れさせ給うた食糧増産の秘訣であります事は、強く強く信じさせられると共に、まず「体験」、理論よりも実行と存じます。<br/><br/> 明主様有難うございました。<br/><br/> （昭和二十五年十一月二十二日提出）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ikaruna</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 怒る勿れ 『信仰雑話』P.23、昭和23(1948)年9月5日発行 昔からある、有名な格言に「成る堪忍は誰もする、成らぬ堪忍するが堪忍」といい、また「堪忍の袋を常に首にかけ、破れたら縫え破れたら縫え」という事があるが、全くその通りである。<br><br>私はよく人にきかれる事がある。<br><br>「先生が今日あるはいかなる修行をされたのであるか、山へ入って滝を浴びたか、断食をされたか、種々の難行苦行をされたのではないか」と。<br><br>ところが「私はそんな修行はした事がない。<br><br>私の修行は『借金の苦しみと怒りを我慢する』というこの二つが主なるものであった」と答えるので、聞いた人は唖然とするのである。<br><br>しかし、事実そうであるから致し方がない。<br><br>私は私を磨くべく神様がそうされたのだと信じている。<br><br>特にこれでもかこれでもかと言うように怒る材料が次々にぶつかってくる。<br><br>元来私の性格としては怒るのは嫌いなほうであるが、不思議なほど怒らせられる。<br><br>一度などは非常な誤解を受け、大多数の人に顔向けの出来ないような恥辱を与えられた。<br><br>私は憤懣（ふんまん）やる方なく、どうしても我慢が出来ない。<br><br>するとその時、よんどころない所から招ばれ、断われない事情があったので、その家に赴いた。<br><br>頭がボンヤリして精神が集中しない。<br><br>どうにも致し方ないから、紛らすため酒を一杯所望し、酒を飲んだのである。<br><br>その頃私は一滴の酒も嗜まないから、よくよくの事である。<br><br>そんな訳で、二、三日たって漸く平静を取り戻したというような事もあった。<br><br>ところが後になってその事のために、ある大きな災難を免れ得たのであった。<br><br>もしその時の怒りがなかったら致命的打撃を受けるところだったので、全く怒りによって助かったわけで、神様の深い恩恵に感激を禁じ得なかったのである。<br><br>右のように、神様は重要なる使命のある者に対しては種々の身魂磨きをされ給うので、その方法の中でも怒りを制える事が最も大きい試練と思うのである。<br><br>従って怒る事の多い人程、重大使命を与えられている事を思うべきで、この意味においていかなる怒りにも心を動ずる事なく、平然たり得るようになれば、まず修行の一課程を経た訳でこれについて面白い話がある。<br><br> それは明治時代の話で、その当時商業会議所の会頭、中野武営という人があったが、武営氏がいかなる事があっても怒らないので、ある人がその訳をきいた。<br><br>ところが中野氏いわく「私は生まれつき非常に怒りっぽいたちであった。<br><br>ある日やはり当時有名な実業家渋沢栄一氏を訪問した際、次の間で渋沢氏が妻女と何か口争いをしていたが、中野氏の来訪を知って唐紙を開け着座したが、その時の顔は争いの後とは少しも思えない程の、平常通りの温和（おとな）しさなので、不思議に思うと共にある事を感じた。<br><br>それは怒りを制える力である。<br><br>『渋沢氏が実業界の大御所といわるるまでに成功したのはこのためであろう。<br><br>よし、自分も怒りを容易に制えるようにならなければいけない』と思い、その心がけをするようになってから、すべてが順調となり、今日の地位を得た」という話である。<br><br> まず諸子が怒ろうとする場合、神様が自分を磨いて下さると思うべきで、それが信仰者としての心構えである。<br><br> 私は借金の事を書くのを忘れたが、私の経験によれば、借金の原因は焦るためであって、焦るから無理をする事になる。<br><br>何事も無理は一番いけない。<br><br>無理をしてやった事は、一時は成功しても、いつかは必ず無理が祟って思わぬ障害にあうものである。<br><br>それがため物が早く運んだようでも、結局は後戻り、やり直しという事になる。<br><br>日本の敗戦の原因なども、よく検討すると一切が無理だらけであった。<br><br>第一焦ったり無理をしたりすると心に余裕がなくなるから、よい考えが浮かばない。<br><br>又よい考えの浮かばない時に、無理に何かをしようとする事が更にいけない。<br><br>よい考え、すなわちこれなら間違いないという計画が浮かんでから着手すべきで、いわゆる文字通り熟慮断行である。<br><br> 故に研究に研究をつくし、これなら絶対間違いないという時は借金する事もやむを得ないが、借金をしたら一日も早く返還すべきで、決して長引いてはいけない。<br><br>元来借金なるものは、なかなか返せないもので、長くなると利子が溜り、精神的苦痛はなかなか大きいものであるから心に余裕がなくなり、よい考えも智慧も出なくなるので、仕事もうまく行く筈がない。<br><br>借金にも積極的と消極的とがある。<br><br>事業発展のためにするのは積極的であり、損をした穴埋めにするのは消極的である。<br><br>積極的借金はやむを得ないとするも、消極的借金は決してなすべきではない。<br><br>損をした場合虚勢をはる事をやめ、いったん縮小して時機到来を待つべきである。<br><br> 今一つ注意したい事がある。<br><br>それは欲張らない事である。<br><br>昔から大欲は無欲という諺がある通り、損の原因は十中八、九まで欲張りすぎるためである。<br><br>よく人が牡丹餅で頬辺を叩くようなうまい話をもって来るが、世の中には決してうまい事はあるものではない。<br><br>故にうまい話は警戒すべきで、パッとしない話のほうに返って将来性があるものである。<br><br>これらについて私の経験を話してみるが、借金を早く返したいと思い、又積極的に宗教上の経営をやらなくてはならないと思い、金が欲しい欲しいと思っているときには、さっぱり金が入ってこない。<br><br>しまいには諦めて神様にお任せし、金銭の事を忘れるようになってから、予想外に金が入るようになったので、実に世の中の事は理屈では分からないと思った事がある。<br><br> （注） 唐紙、ここでは唐紙障子、ふすまのこと。<br><br> 渋沢栄一、しぶさわえいいち。<br><br>（1840‐1931）一橋慶喜に仕える。<br><br>明治維新後、大蔵省の一員となり「第一国立銀行」の総監役（後に頭取）などを勤める。<br><br>生涯に約５００もの企業に関わった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Disciplina de Não se Irritar</h2>
 <p>Existem célebres adágios em nossa tradição que ensinam: “A resignação que todos praticam é a resignação fácil; a verdadeira resignação consiste em suportar o insuportável”. Recomenda-se também carregar a paciência como uma bolsa ao pescoço, costurando-a incessantemente sempre que se romper. São verdades absolutas.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Portanto, após esgotar todas as pesquisas e chegar a uma certeza absoluta sobre o êxito de um plano, contrair uma dívida pode ser um passo inevitável. Contudo, uma vez contraída, ela deve ser quitada com a máxima celeridade, sem jamais permitir que se prolongue. Em sua essência, as dívidas são difíceis de saldar. Quando se arrastam, os juros se acumulam, e o sofrimento mental se torna considerável. A mente perde sua serenidade, a inspiração e a sabedoria se esvaem, e, consequentemente, o trabalho não pode prosperar. Existem dívidas de natureza positiva e negativa. Aquelas contraídas para a expansão de um empreendimento são positivas; as que se destinam a cobrir um prejuízo são negativas. Embora as dívidas positivas possam ser inevitáveis, as negativas jamais devem ser feitas. Diante de um prejuízo, é preciso abandonar qualquer pretensão, retrair-se temporariamente e aguardar o momento oportuno para avançar.</p>
 <p>Há mais um ponto ao qual gostaria de atentar: não sejam gananciosos. Conforme ensina o antigo provérbio, “a grande cobiça equivale à ausência de cobiça”. A causa de oito ou nove em cada dez prejuízos reside no excesso de ganância. Pessoas frequentemente se aproximam com propostas que soam boas demais para ser verdade. No mundo, não existem facilidades dessa natureza. Portanto, é preciso ter cautela com propostas excessivamente vantajosas; por outro lado, aquelas que parecem modestas podem, na verdade, conter um grande potencial futuro.</p>
 <p>Para ilustrar esses pontos, contarei uma experiência pessoal. Na época em que eu desejava ardentemente quitar minhas dívidas e, ao mesmo tempo, sentia a necessidade de investir na gestão de nossas atividades religiosas, eu ansiava por recursos financeiros. Contudo, quanto mais eu os desejava, menos eles apareciam. Por fim, resignado, entreguei o assunto a Deus e passei a não mais pensar em dinheiro. Foi a partir desse momento que os recursos começaram a afluir de fontes inesperadas. Isso me fez compreender que os assuntos do mundo, em verdade, não podem ser decifrados pela lógica humana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 怒る勿れ 『信仰雑話』P.23、昭和23(1948)年9月5日発行 昔からある、有名な格言に「成る堪忍は誰もする、成らぬ堪忍するが堪忍」といい、また「堪忍の袋を常に首にかけ、破れたら縫え破れたら縫え」という事があるが、全くその通りである。<br/><br/>私はよく人にきかれる事がある。<br/><br/>「先生が今日あるはいかなる修行をされたのであるか、山へ入って滝を浴びたか、断食をされたか、種々の難行苦行をされたのではないか」と。<br/><br/>ところが「私はそんな修行はした事がない。<br/><br/>私の修行は『借金の苦しみと怒りを我慢する』というこの二つが主なるものであった」と答えるので、聞いた人は唖然とするのである。<br/><br/>しかし、事実そうであるから致し方がない。<br/><br/>私は私を磨くべく神様がそうされたのだと信じている。<br/><br/>特にこれでもかこれでもかと言うように怒る材料が次々にぶつかってくる。<br/><br/>元来私の性格としては怒るのは嫌いなほうであるが、不思議なほど怒らせられる。<br/><br/>一度などは非常な誤解を受け、大多数の人に顔向けの出来ないような恥辱を与えられた。<br/><br/>私は憤懣（ふんまん）やる方なく、どうしても我慢が出来ない。<br/><br/>するとその時、よんどころない所から招ばれ、断われない事情があったので、その家に赴いた。<br/><br/>頭がボンヤリして精神が集中しない。<br/><br/>どうにも致し方ないから、紛らすため酒を一杯所望し、酒を飲んだのである。<br/><br/>その頃私は一滴の酒も嗜まないから、よくよくの事である。<br/><br/>そんな訳で、二、三日たって漸く平静を取り戻したというような事もあった。<br/><br/>ところが後になってその事のために、ある大きな災難を免れ得たのであった。<br/><br/>もしその時の怒りがなかったら致命的打撃を受けるところだったので、全く怒りによって助かったわけで、神様の深い恩恵に感激を禁じ得なかったのである。<br/><br/>右のように、神様は重要なる使命のある者に対しては種々の身魂磨きをされ給うので、その方法の中でも怒りを制える事が最も大きい試練と思うのである。<br/><br/>従って怒る事の多い人程、重大使命を与えられている事を思うべきで、この意味においていかなる怒りにも心を動ずる事なく、平然たり得るようになれば、まず修行の一課程を経た訳でこれについて面白い話がある。<br/><br/> それは明治時代の話で、その当時商業会議所の会頭、中野武営という人があったが、武営氏がいかなる事があっても怒らないので、ある人がその訳をきいた。<br/><br/>ところが中野氏いわく「私は生まれつき非常に怒りっぽいたちであった。<br/><br/>ある日やはり当時有名な実業家渋沢栄一氏を訪問した際、次の間で渋沢氏が妻女と何か口争いをしていたが、中野氏の来訪を知って唐紙を開け着座したが、その時の顔は争いの後とは少しも思えない程の、平常通りの温和（おとな）しさなので、不思議に思うと共にある事を感じた。<br/><br/>それは怒りを制える力である。<br/><br/>『渋沢氏が実業界の大御所といわるるまでに成功したのはこのためであろう。<br/><br/>よし、自分も怒りを容易に制えるようにならなければいけない』と思い、その心がけをするようになってから、すべてが順調となり、今日の地位を得た」という話である。<br/><br/> まず諸子が怒ろうとする場合、神様が自分を磨いて下さると思うべきで、それが信仰者としての心構えである。<br/><br/> 私は借金の事を書くのを忘れたが、私の経験によれば、借金の原因は焦るためであって、焦るから無理をする事になる。<br/><br/>何事も無理は一番いけない。<br/><br/>無理をしてやった事は、一時は成功しても、いつかは必ず無理が祟って思わぬ障害にあうものである。<br/><br/>それがため物が早く運んだようでも、結局は後戻り、やり直しという事になる。<br/><br/>日本の敗戦の原因なども、よく検討すると一切が無理だらけであった。<br/><br/>第一焦ったり無理をしたりすると心に余裕がなくなるから、よい考えが浮かばない。<br/><br/>又よい考えの浮かばない時に、無理に何かをしようとする事が更にいけない。<br/><br/>よい考え、すなわちこれなら間違いないという計画が浮かんでから着手すべきで、いわゆる文字通り熟慮断行である。<br/><br/> 故に研究に研究をつくし、これなら絶対間違いないという時は借金する事もやむを得ないが、借金をしたら一日も早く返還すべきで、決して長引いてはいけない。<br/><br/>元来借金なるものは、なかなか返せないもので、長くなると利子が溜り、精神的苦痛はなかなか大きいものであるから心に余裕がなくなり、よい考えも智慧も出なくなるので、仕事もうまく行く筈がない。<br/><br/>借金にも積極的と消極的とがある。<br/><br/>事業発展のためにするのは積極的であり、損をした穴埋めにするのは消極的である。<br/><br/>積極的借金はやむを得ないとするも、消極的借金は決してなすべきではない。<br/><br/>損をした場合虚勢をはる事をやめ、いったん縮小して時機到来を待つべきである。<br/><br/> 今一つ注意したい事がある。<br/><br/>それは欲張らない事である。<br/><br/>昔から大欲は無欲という諺がある通り、損の原因は十中八、九まで欲張りすぎるためである。<br/><br/>よく人が牡丹餅で頬辺を叩くようなうまい話をもって来るが、世の中には決してうまい事はあるものではない。<br/><br/>故にうまい話は警戒すべきで、パッとしない話のほうに返って将来性があるものである。<br/><br/>これらについて私の経験を話してみるが、借金を早く返したいと思い、又積極的に宗教上の経営をやらなくてはならないと思い、金が欲しい欲しいと思っているときには、さっぱり金が入ってこない。<br/><br/>しまいには諦めて神様にお任せし、金銭の事を忘れるようになってから、予想外に金が入るようになったので、実に世の中の事は理屈では分からないと思った事がある。<br/><br/> （注） 唐紙、ここでは唐紙障子、ふすまのこと。<br/><br/> 渋沢栄一、しぶさわえいいち。<br/><br/>（1840‐1931）一橋慶喜に仕える。<br/><br/>明治維新後、大蔵省の一員となり「第一国立銀行」の総監役（後に頭取）などを勤める。<br/><br/>生涯に約５００もの企業に関わった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

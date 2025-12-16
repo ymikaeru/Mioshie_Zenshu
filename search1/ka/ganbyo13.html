@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganbyo13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病も此通り治る 『栄光』166号、昭和27(1952)年7月23日発行 よく新聞紙に、医学で眼病が治ったなどとデカデカにかいてある記事を見るが、吾々の方では眼病も、梅毒も、実に容易に治るのは何よりも事実が証明している。<br><br>左の御蔭話はよくそれを裏書しているから、これを専門家が見たら何というであろう。<br><br>ところがおかしな事には、医学の方のちょっとした効果でも、大々的に取上げるが、吾々の方のはどんなに大きな効果でも見て見ない振りをするらしいので、実に呆れてしまうのである。<br><br>全く迷信医学が膏肓（こうこう）に入っているからであろう。<br><br>遠慮なくいえば、現代人特に智識階級の人などは、文化的丁髷（ちょんまげ）というより外に言葉はないのである。<br><br> 御浄霊により眼病を癒され晴れて再び夫のもとへ 未入信者 松本ナカ（31） 私は幼少の頃から眼が悪く、その為に婚期も遅れましたが、丁度、今より三年前、現在の夫と結婚致しました。<br><br>夫も眼の悪いのは承知で、結婚後、医者で治せばよいと考えていてくれました。<br><br>約一カ月眼科医に通い、角膜の手術も一回致し一時はよくなりましたが五カ月後又々悪化し、再び医診を受け、二カ月間治療しましたが一向に良くなりません。<br><br>「これは体毒による疾病だから、一応内科に行き、血液検査をした方が良い」とて、早速、内科に行き検査の結果、この度は「遺伝による梅毒性強膜炎」という有難くない病名を付けられてしまいました。<br><br>その上悲しいことには、一緒にいると伝染する怖れがあるからと言う医師の忠告で、夫に毒の有無をきくと、夫は大変怒り、結婚僅か九カ月にして「実家にて療養し癒る迄は帰ってはならぬ」と固く申し渡され、一時実家へ帰って療養することに話が決りました。<br><br> 梅毒性！何という残酷な診断でしょう。<br><br>私は恥ずかしい思いをして実家に帰ったものの、もとより身に覚えはなく、父母とて「そのような嫌らしい遺伝がある訳はない」と申され、独り憂鬱な気持のまま、とにかく、医者へ通って癒そうと思い約一年九カ月の間、医者へ通いあせればあせる程、眼は悪化の一途をたどり、果ては眼も開け得ぬ程の状態に迄なってしまいました。<br><br> 患部の不快感はもとよりもしこのまま失明でもしてしまうようになれば、折角の結婚生活も破談になってしまうと思えば、晩婚の悲しさいっそ死んでしまおうかと決心した事もしばしばでありました。<br><br>その後はあまりの不幸さ故、たまに病院に行く程度でした。<br><br> その頃です。<br><br>たまたまある方より御浄霊のお話をお聞きし、万策尽きていた私は、とにかくだまされた気で栄町の矢部先生の御浄霊を頂くことに致しました。<br><br>さて御浄霊一週間で眼は真赤に充血し、濃い涙がどんどん出て参りましたので、却って悪くなるものではないかと一時は心配致しましたが、先生より御浄化のお話を伺って、不安な気持ながらなおも御浄霊を続けていただいておりました。<br><br>約一カ月後、さしもの眼もどうやらハッキリとして来たようで、同時に今迄、痛んでいた後頭部の痛みも薄らぎ、今度は盛んに目脂が出て参りました。<br><br>有難い！ 私は救われるかも知れない、と思うと、浮き立つような嬉しい気持が致し、前途に希望が持てるような思いでした。<br><br> ある日、恥ずかしいままに申しそびれておりました梅毒云々で実家に帰されているという哀れな境遇を先生に打明けてお話し申し上げますと、先生はちょっと驚いておられたようでしたが、「何でもよい、御浄霊で癒らぬものはないのだから、その内、医者へ行って血液検査をしてもらいなさい」と、はっきり申され、私もその気になって、早速大宮の日赤へ参り検査を乞いました。<br><br>その結果は？ どうでしよう！ 血液支障なし――とのことで、その場で診断書を書いて頂きました。<br><br>これさえあれば婚家へも大手を振って帰れる、と思えば益々有難さに胸もつまる思いでした。<br><br>本月十四日、父と共々目出度く夫のもとへ帰り、診断書も見せて納得してもらい、再び晴れて楽しい夫婦生活の出来る身とならせて頂きました。<br><br>思えば医診に迷わされ、医診に救われたみたいなお話ですが、死をまで覚悟したこの身をお救い頂きました御浄霊の有難さを思うにつけ、社会悲劇の主人公にならずに済んだ私は、何という幸福者でありましよう。<br><br> 明主様、何とお礼を申し上げさせて頂けば良いのでしょうか、ただただ感涙にむせぶのみで御座います。<br><br>御守護有難う御座いました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Enfermidades Oftalmológicas Curam-se Desta Forma</h2>
 <p>Vemos com frequência nos jornais manchetes garrafais anunciando a cura de doenças oftalmológicas pela medicina. Contudo, em nossa Fé, tanto as enfermidades dos olhos quanto a sífilis são curadas com notável facilidade, como os fatos o demonstram inequivocamente. O relato de graça a seguir corrobora plenamente esta verdade, e indago-me sobre o que diriam os especialistas diante de tal fato.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Ao refletir, percebo que minha história parece ser a de alguém que foi confundida pelo diagnóstico médico e, ironicamente, salva por ele. Contudo, ao ponderar sobre a sublime graça do Johrei, que salvou esta vida que já se resignara à morte, compreendo a imensa felicidade que é não ter me tornado protagonista de mais uma tragédia social.</p>
 <p>Oh, Meishu-Sama! Que palavras poderiam expressar minha gratidão? Resta-me apenas chorar, com lágrimas de profundo agradecimento.</p>
 <p>Agradeço imensamente por Vossa proteção e amparo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病も此通り治る 『栄光』166号、昭和27(1952)年7月23日発行 よく新聞紙に、医学で眼病が治ったなどとデカデカにかいてある記事を見るが、吾々の方では眼病も、梅毒も、実に容易に治るのは何よりも事実が証明している。<br/><br/>左の御蔭話はよくそれを裏書しているから、これを専門家が見たら何というであろう。<br/><br/>ところがおかしな事には、医学の方のちょっとした効果でも、大々的に取上げるが、吾々の方のはどんなに大きな効果でも見て見ない振りをするらしいので、実に呆れてしまうのである。<br/><br/>全く迷信医学が膏肓（こうこう）に入っているからであろう。<br/><br/>遠慮なくいえば、現代人特に智識階級の人などは、文化的丁髷（ちょんまげ）というより外に言葉はないのである。<br/><br/> 御浄霊により眼病を癒され晴れて再び夫のもとへ 未入信者 松本ナカ（31） 私は幼少の頃から眼が悪く、その為に婚期も遅れましたが、丁度、今より三年前、現在の夫と結婚致しました。<br/><br/>夫も眼の悪いのは承知で、結婚後、医者で治せばよいと考えていてくれました。<br/><br/>約一カ月眼科医に通い、角膜の手術も一回致し一時はよくなりましたが五カ月後又々悪化し、再び医診を受け、二カ月間治療しましたが一向に良くなりません。<br/><br/>「これは体毒による疾病だから、一応内科に行き、血液検査をした方が良い」とて、早速、内科に行き検査の結果、この度は「遺伝による梅毒性強膜炎」という有難くない病名を付けられてしまいました。<br/><br/>その上悲しいことには、一緒にいると伝染する怖れがあるからと言う医師の忠告で、夫に毒の有無をきくと、夫は大変怒り、結婚僅か九カ月にして「実家にて療養し癒る迄は帰ってはならぬ」と固く申し渡され、一時実家へ帰って療養することに話が決りました。<br/><br/> 梅毒性！何という残酷な診断でしょう。<br/><br/>私は恥ずかしい思いをして実家に帰ったものの、もとより身に覚えはなく、父母とて「そのような嫌らしい遺伝がある訳はない」と申され、独り憂鬱な気持のまま、とにかく、医者へ通って癒そうと思い約一年九カ月の間、医者へ通いあせればあせる程、眼は悪化の一途をたどり、果ては眼も開け得ぬ程の状態に迄なってしまいました。<br/><br/> 患部の不快感はもとよりもしこのまま失明でもしてしまうようになれば、折角の結婚生活も破談になってしまうと思えば、晩婚の悲しさいっそ死んでしまおうかと決心した事もしばしばでありました。<br/><br/>その後はあまりの不幸さ故、たまに病院に行く程度でした。<br/><br/> その頃です。<br/><br/>たまたまある方より御浄霊のお話をお聞きし、万策尽きていた私は、とにかくだまされた気で栄町の矢部先生の御浄霊を頂くことに致しました。<br/><br/>さて御浄霊一週間で眼は真赤に充血し、濃い涙がどんどん出て参りましたので、却って悪くなるものではないかと一時は心配致しましたが、先生より御浄化のお話を伺って、不安な気持ながらなおも御浄霊を続けていただいておりました。<br/><br/>約一カ月後、さしもの眼もどうやらハッキリとして来たようで、同時に今迄、痛んでいた後頭部の痛みも薄らぎ、今度は盛んに目脂が出て参りました。<br/><br/>有難い！ 私は救われるかも知れない、と思うと、浮き立つような嬉しい気持が致し、前途に希望が持てるような思いでした。<br/><br/> ある日、恥ずかしいままに申しそびれておりました梅毒云々で実家に帰されているという哀れな境遇を先生に打明けてお話し申し上げますと、先生はちょっと驚いておられたようでしたが、「何でもよい、御浄霊で癒らぬものはないのだから、その内、医者へ行って血液検査をしてもらいなさい」と、はっきり申され、私もその気になって、早速大宮の日赤へ参り検査を乞いました。<br/><br/>その結果は？ どうでしよう！ 血液支障なし――とのことで、その場で診断書を書いて頂きました。<br/><br/>これさえあれば婚家へも大手を振って帰れる、と思えば益々有難さに胸もつまる思いでした。<br/><br/>本月十四日、父と共々目出度く夫のもとへ帰り、診断書も見せて納得してもらい、再び晴れて楽しい夫婦生活の出来る身とならせて頂きました。<br/><br/>思えば医診に迷わされ、医診に救われたみたいなお話ですが、死をまで覚悟したこの身をお救い頂きました御浄霊の有難さを思うにつけ、社会悲劇の主人公にならずに済んだ私は、何という幸福者でありましよう。<br/><br/> 明主様、何とお礼を申し上げさせて頂けば良いのでしょうか、ただただ感涙にむせぶのみで御座います。<br/><br/>御守護有難う御座いました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

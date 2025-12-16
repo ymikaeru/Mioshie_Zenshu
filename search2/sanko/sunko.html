@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sunko</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 自然農法寸考 『栄光』97号、昭和26(1951)年3月28日発行 愛知県 愛光中教会 藤枝光三郎（27） 自然農法普及に当って、これを布教の側に立っている面より感じた二、三を書いてみようと思います。<br><br> 人間の気持として物をヒイキ目に見たがるのは自然の成行ですがこの一見陥り易い過失が、案外普及の妨害となっている事であります。<br><br>世間一般の人は、こちらの一番悪いものと彼等の一番よいものを比較しようとする。<br><br>それはこの新形式の栽培法に対してそれを何とかして認めたくないという、因襲的な気持からでありましょう。<br><br>又こちらとしては何か成果発表の場合、それと気付かず疎漏の愚を犯している事であります、従ってこの際大切な事は、一般の人々はどのように考える傾向があるかと言うその傾向を、一応は認識してかかる事が必要であると思います、例えば、段当十五俵と言う発表に対してそれを実際によく調査して見ますと、ほんの数坪の土地に堆肥を思う存分施して作り、その収穫を拡大して段収に見積って十五俵と言う事がありますと、それを向うから見た場合「そんな狭い地域ならば誰でも出来る、試験場の記録はもっと成蹟をあげている」と言うでありましょう。<br><br> 先日数十人の会員の方と自然栽培実習地を見学に参りました、自然農法の田の右隣りは有肥田で被害甚大見るも哀れなものです、そして又左隣りは有肥田でありながら、差程被害を受けておりません、ところがほとんどの人が自然に右の方へ集り悪田と比較して自然農法の礼讃をはじめました、これを見た一人の会員が「あなた方は駄目だ、悪いのと比較しても何にもならぬ、よい方と見比べなければ」と叫びましたので我にかえり、左の良田との比較をはじめたと言う事があります。<br><br> この一見人情よりすれば、当然と許容さるべき点も、実は反って逆効果を来し、反対に非難して遠ざかる材料を与える事となり、普及を妨げる結果となりましょう、正確に観察し、発表する、これが大切であると思います。<br><br> 次は研究態度の問題であります、稲作の場合に例をとりますと、段当八俵で隣接の有肥田より品質もすべてにおいて良好である事を強調致します、ところがその際、裏作の麦の研究が足りないと「田の方は余り肥料をやらなくても出来るが、そのやり方では裏作の麦は出来ないでしょう、麦は特別に肥料が要るから」と言うでありましよう、実際から言っても麦の裏作の場合、自然農法が稔るまでに有肥に比して長期間を要する点からこれを飲込んでおらぬ場合相当不成績に終り、とんだ非難を受けると同時に、実施者自身外部よりの圧迫等によって熱意を失ってしまう事があります、ただなんでもやりさえすればよい、必ず増収しますと宣伝して、田の裏作より始め、実に思わぬ失敗に終っているところを散見するのであります、ここで、明主様の御言葉を今一度反省する必要があります「自然農法に失敗は絶対にない。<br><br>うまくゆかぬ場合は（一）自然農法になっていない事、（堆肥に厩肥を使ったり、播種の時期が遅きに過ぎたり、その他）（二）肥毒の為の浄化以外にない」この（二）の点は当然受くべきもので不可避ですが、（一）の点は十分飲込んで研究の余地があると思います、所期の成果が上らなかった場合、何か自分の信仰に対する妙な気持から、その貴重な失敗を活かさず、ひた隠しにかくす事があります、これでは結果から言って、自然農法に対する疑念を残すのみで、何にもなりません、信仰は出来るだけ疑えと申されている事から考えましても、この失敗をこそ正しい目で見、堂々と取組んで自然農法を理解し、その土地と事情に応じて適切な方法を生み出してゆく事こそ、新しい道を拓いて行く者の正しい研究態度ではないかと思います、又発表して戴く場合も、成功したと言う簡単な結果報告よりも寧ろ、失敗とそれに対する検討、又克服した過程を聞きたいと言う要望が多いように思います、これこそ現在実施している者にとって、又これから実施に移らんとする人々にとって、その導きの杖となり、無駄を省き、順調な普及が出来る事と思います。<br><br> 救世教からの通牒にもあります通り、隣接地の同種による同等級田との比較発表と、あわせて耕作者の見解意見を添えて戴きたいと思うのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Breves Considerações sobre a Agricultura Natural</h2>
 <p>Publicado na revista Eikou, nº 97, em 28 de março de 1951
@@ -101,5 +253,48 @@ Kousaburou Fujieda (27 anos), da Igreja Aikou-Naka, província de Aichi</p>
 <p>Passemos agora à questão da postura investigativa. Tomemos como exemplo o cultivo de arroz. É comum enfatizarmos que uma produção de “oito fardos por <em>tan</em>” supera em qualidade e em todos os demais aspectos a da lavoura vizinha, que utiliza adubos. Contudo, se a pesquisa sobre o cultivo de inverno, como o do trigo, for insuficiente, logo surgirá a objeção: “O arroz pode até crescer com pouco fertilizante, mas, com esse método, o trigo não vingará. O trigo exige uma adubação especial”. De fato, no cultivo de inverno do trigo, a Agricultura Natural exige um período mais longo para frutificar em comparação ao método com adubos. Se o agricultor não estiver ciente desse fato, o resultado pode ser um grande insucesso. Ele não só receberá duras críticas, como também correrá o risco de perder seu entusiasmo, pressionado por fatores externos. Tenho observado casos esparsos em que, levados pela propaganda de que “basta praticar e a colheita certamente aumentará”, iniciam-se os trabalhos justamente pelo cultivo de inverno, culminando em fracassos inesperados.</p>
 <p>Neste ponto, é mister refletir mais uma vez sobre as palavras de Meishu-Sama: “Na Agricultura Natural, o fracasso é absolutamente impossível. Quando algo não corre bem, as causas são apenas duas: (1) a prática não está em conformidade com a verdadeira Agricultura Natural (por exemplo, usar esterco no adubo orgânico, semear tarde demais, entre outros fatores); ou (2) trata-se de um processo de purificação decorrente do <em>yakudoku</em>”. O segundo ponto é um processo natural e inevitável, mas o primeiro, a meu ver, exige uma compreensão profunda e abre um vasto campo para estudo. Quando os resultados esperados não se concretizam, por vezes, um estranho sentimento em relação à própria fé leva a pessoa a ocultar zelosamente esse fracasso valioso, em vez de aprender com ele. Tal atitude, em última análise, serve apenas para semear a dúvida sobre a Agricultura Natural, sem trazer benefício algum. Se considerarmos o ensinamento que nos exorta a “duvidar da fé o máximo possível”, não seria então a atitude correta, para quem desbrava um novo caminho, encarar o fracasso com um olhar justo, enfrentá-lo abertamente para compreender a Agricultura Natural e, a partir daí, desenvolver métodos adequados às condições de cada terra e de cada situação? Ademais, ao recebermos os relatos, percebo que há uma grande demanda não por simples informes de sucesso, mas sim por narrativas sobre os fracassos, a análise que se seguiu e o processo de superação. São essas experiências que servem como um cajado a guiar tanto os que já praticam o método quanto os que estão prestes a adotá-lo, permitindo-lhes evitar percalços e promover uma difusão harmoniosa.</p>
 <p>Portanto, alinhado às diretrizes da Kyuseikyou, reitero o desejo de que as apresentações incluam uma comparação com uma lavoura adjacente, de mesma cultura e de mesma classe, e que sejam sempre acompanhadas das observações e pareceres do próprio agricultor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 自然農法寸考 『栄光』97号、昭和26(1951)年3月28日発行 愛知県 愛光中教会 藤枝光三郎（27） 自然農法普及に当って、これを布教の側に立っている面より感じた二、三を書いてみようと思います。<br/><br/> 人間の気持として物をヒイキ目に見たがるのは自然の成行ですがこの一見陥り易い過失が、案外普及の妨害となっている事であります。<br/><br/>世間一般の人は、こちらの一番悪いものと彼等の一番よいものを比較しようとする。<br/><br/>それはこの新形式の栽培法に対してそれを何とかして認めたくないという、因襲的な気持からでありましょう。<br/><br/>又こちらとしては何か成果発表の場合、それと気付かず疎漏の愚を犯している事であります、従ってこの際大切な事は、一般の人々はどのように考える傾向があるかと言うその傾向を、一応は認識してかかる事が必要であると思います、例えば、段当十五俵と言う発表に対してそれを実際によく調査して見ますと、ほんの数坪の土地に堆肥を思う存分施して作り、その収穫を拡大して段収に見積って十五俵と言う事がありますと、それを向うから見た場合「そんな狭い地域ならば誰でも出来る、試験場の記録はもっと成蹟をあげている」と言うでありましょう。<br/><br/> 先日数十人の会員の方と自然栽培実習地を見学に参りました、自然農法の田の右隣りは有肥田で被害甚大見るも哀れなものです、そして又左隣りは有肥田でありながら、差程被害を受けておりません、ところがほとんどの人が自然に右の方へ集り悪田と比較して自然農法の礼讃をはじめました、これを見た一人の会員が「あなた方は駄目だ、悪いのと比較しても何にもならぬ、よい方と見比べなければ」と叫びましたので我にかえり、左の良田との比較をはじめたと言う事があります。<br/><br/> この一見人情よりすれば、当然と許容さるべき点も、実は反って逆効果を来し、反対に非難して遠ざかる材料を与える事となり、普及を妨げる結果となりましょう、正確に観察し、発表する、これが大切であると思います。<br/><br/> 次は研究態度の問題であります、稲作の場合に例をとりますと、段当八俵で隣接の有肥田より品質もすべてにおいて良好である事を強調致します、ところがその際、裏作の麦の研究が足りないと「田の方は余り肥料をやらなくても出来るが、そのやり方では裏作の麦は出来ないでしょう、麦は特別に肥料が要るから」と言うでありましよう、実際から言っても麦の裏作の場合、自然農法が稔るまでに有肥に比して長期間を要する点からこれを飲込んでおらぬ場合相当不成績に終り、とんだ非難を受けると同時に、実施者自身外部よりの圧迫等によって熱意を失ってしまう事があります、ただなんでもやりさえすればよい、必ず増収しますと宣伝して、田の裏作より始め、実に思わぬ失敗に終っているところを散見するのであります、ここで、明主様の御言葉を今一度反省する必要があります「自然農法に失敗は絶対にない。<br/><br/>うまくゆかぬ場合は（一）自然農法になっていない事、（堆肥に厩肥を使ったり、播種の時期が遅きに過ぎたり、その他）（二）肥毒の為の浄化以外にない」この（二）の点は当然受くべきもので不可避ですが、（一）の点は十分飲込んで研究の余地があると思います、所期の成果が上らなかった場合、何か自分の信仰に対する妙な気持から、その貴重な失敗を活かさず、ひた隠しにかくす事があります、これでは結果から言って、自然農法に対する疑念を残すのみで、何にもなりません、信仰は出来るだけ疑えと申されている事から考えましても、この失敗をこそ正しい目で見、堂々と取組んで自然農法を理解し、その土地と事情に応じて適切な方法を生み出してゆく事こそ、新しい道を拓いて行く者の正しい研究態度ではないかと思います、又発表して戴く場合も、成功したと言う簡単な結果報告よりも寧ろ、失敗とそれに対する検討、又克服した過程を聞きたいと言う要望が多いように思います、これこそ現在実施している者にとって、又これから実施に移らんとする人々にとって、その導きの杖となり、無駄を省き、順調な普及が出来る事と思います。<br/><br/> 救世教からの通牒にもあります通り、隣接地の同種による同等級田との比較発表と、あわせて耕作者の見解意見を添えて戴きたいと思うのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

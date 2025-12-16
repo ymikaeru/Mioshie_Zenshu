@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei241</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 馬の耳にお守り ――地上天国の表紙の奇蹟 槐安生 『栄光』241号、昭和29(1954)年1月1日発行 馬の耳に念仏といい、馬耳東風といい昔から今に伝えられているこれ等の諺は神あるを信じない人間を諷したるものであるが、これは甚だ迷惑千万な諺。<br><br>と馬から苦情を持ち込まれるかも知れない。<br><br>というのは馬には馬頭観音の信仰が昔から広く行われているからである。<br><br>勿論、馬自身が仏性を具えていて信仰するのではなく、その持主が愛馬への御加護を馬頭観音様に祈念する風習であることは断るまでもあるまい。<br><br>飼馬への愛鱗とその利害得失を織り交ぜた、いわば人間の利己心から出発した馬頭観音信仰にせよ、神様はその願いを嘉し給い、百万べんの念仏を聞かせたとて仏心を起すことのない馬にまで恩寵を垂れ給う宏大無辺な御仁愛は「神とは何か？」との形而上学的質問に「神とは愛なり」と、明瞭な解答を与えたものと思える。<br><br> 奇蹟の宗教――救世教の出現は、人間として免れ得ない病貧争の三大苦悩を解決し、小は牛馬犬猫から、ひ弱い金魚に至るまで救済しつつあることは、百万にも達する信者の寄せたお蔭話によっても明らかであるが表題の「馬の耳にお守り」の佳話は、未信者が教団の機関雑紙、地上天国の表紙を折り畳んで馬のお守りとし、そのお蔭、奇蹟を見た驚異の報告を、金剛中教会長、秋津島先生と共に聴き綴ったものである。<br><br>もとよりこの未信者の胸の底には馬頭観音信仰の志しがあり、救世教信者のお守様にヒントを得て、馬の耳へのお守りとなった訳である。<br><br> 話の主は、山形県東村山郡高櫛村に住む八鍬芳夫という三十二歳の男である。<br><br>この人の舎弟、白松さんがそれまで使っていた馬と荷馬車を守ってもらい、分家独立したあと、芳夫も弟がやっていた荷馬車業を始めよう。<br><br>と馬を購い荷馬車も造らせたが、さて、馬のお守りをどうしたものか。<br><br>と考え込んだ。<br><br>それというのも弟が馬の耳袋に観音様の御姿をお守りとして縫い込み、その御利益で一回の事故も起した事がなかったのを知っていたからである。<br><br>弟は救世教の信者である叔父にお守りを貰ったのだから、自分も叔父に頼んで弟と同じお守りを貰う。<br><br>と早速、わけを話して頼んでみた。<br><br>弟と同じお守りを……と言われても由松にやったのは救世教の機関紙栄光の前身「救世」の特集号を飾った神様のお姿で、それはあの一枚しかない。<br><br>そこで地上天国の表紙を剥がしてこの神様のお姿をお守りとして馬にかけさせたら……と芳夫に与えたのであった。<br><br> 民の耳に冠せる袋の中へ折り畳んで入れた地上天国の表紙が馬と車の危難を救ってくれようとは、それを与えた信者の加藤正一叔父も思わぬことであった。<br><br> × × × 材木を積んだ荷馬車の手網を握って細い山道にかかったとき、なが雨のために地盤がゆるんでいた崖ぷちは、馬車の重みに耐えかねて「アッ」という間もなく崩れ、荷馬車は馬を引きずって二丈もある崖下めがけて、ずるずると落ちはじめた。<br><br>積荷、馬、荷馬車この全部の重量が一塊となって、落ちてゆく重みを支え切れずに、芳夫が放した手綱は崖の中腹にあった木の根にからんだので、馬も荷馬車も横倒しになったまま止まった。<br><br>木の根株にからんだ手綱に口を強く引かれ、横転した荷馬車の柄に腹を挟まれた馬は起上ることが出来ず、苦しそうにもがいている。<br><br>手綱を切って馬を助けなければ。<br><br>と芳夫は無我夢中で綱を解きにかかったが、重い荷車もろ共ひっ張っている手綱はいくら焦っても解けない。<br><br>崖の上にはこれを見て騒いでいる村の人たちがいる。<br><br>「誰か手綱を切る刃物を持っていないか？」と言ったが、生憎誰も持っていなかった。<br><br>ここで馬に死なれたら。<br><br>と思うと芳夫の頭に全身の血がのぼった。<br><br>馬を買うまでの苦労やそれをやっと手に入れて厩へ繋いだ時の喜びの情景などが、走馬燈のようにまざまざと脳裡に浮かんだ「馬の耳にお守りを入れておいたが、おれには御利益がなかったのか。<br><br>アーアー」と芳夫の絶壁のため息を洩らした瞬間であった。<br><br>馬が突然飛び上り、トンボ返りをして車に積んであった材木の上に立ったのは。<br><br>……「アッ」と叫んだのは芳夫だけではなく、崖の上からこれを見ていた人々も一緒だった。<br><br>馬の鞍からは荷を積んで引張っても抜けないだけの頑丈な綱が車の柄に付けてある。<br><br>これは馬子が外して、やらない限り金輪際外れないものである。<br><br>しかも手綱は木の根にからんで馬が苦しがっていたほど口を上へ向けて引張っていたのだ。<br><br>この強く張った手綱は、たった今、芳夫がほどこうとしても解けなかったではないか。<br><br>いくら馬が暴れても解けっこない。<br><br>鞍と車とをゆわえた綱、馬自身では解きようのない手綱、それが一瞬にして解け、うまくいっても崖下へ落ちて足を折るしかない運命の馬が鞍からも抜け出して、トンボを切って材木の上に立ちどこをみても怪我ひとつしていない。<br><br> 「奇蹟だ、奇蹟だ。<br><br>馬にお守りをかけさせた甲斐があった」と芳夫は狂喜した。<br><br>積荷をおろした荷馬車を崖から引き上げるには村人が中腹に道をつけ、二時間もかかってやっと大勢で曳き上げたが、これまたどこにも損傷の跡さえなかった。<br><br> 雑誌の表紙をお守りにしでさえ、こんなに大した御利益があったでねえか。<br><br>明主様がお書き下すったほん物のお守りかけたら、測り知れねえ御利益があるんだぞ。<br><br>おめえはこれだけの御利益いただいたんだから、すぐ入信しろよ。<br><br>叔父に教えられて、金壱千円也、御守護御礼と書いた紙包を、教祖様に、と秋津島会長の下に持って来たのだった。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coleção de Teses do Reverendo Jikan Okada</h2>
 <p>Pesquisa de Ensinamentos: help Pesquisa de Materiais:</p>
@@ -111,5 +263,48 @@ Revista Eikou, nº 241, publicada em 1º de janeiro de 1954</p>
 <p>“É um milagre! Um verdadeiro milagre! Valeu a pena ter colocado o amuleto no cavalo!”, exclamou Yoshio, em êxtase. Para retirar a carroça, já descarregada, do penhasco, os aldeões levaram duas horas, abrindo um caminho na encosta. Por fim, com o esforço conjunto de muitas pessoas, conseguiram içá-la. E, para o espanto de todos, o veículo também não apresentava o menor sinal de dano.</p>
 <p>“Se a simples capa de uma revista lhe concedeu uma bênção tão grandiosa, imagine a graça inestimável que se pode receber de um amuleto verdadeiro, outorgado por Meishu-Sama! Você recebeu esta imensa proteção, portanto, deve ingressar na Fé imediatamente”.</p>
 <p>Instruído por seu tio, Yoshio preparou um envelope com mil ienes, no qual escreveu “Em gratidão pela Proteção Divina”, e o trouxe ao Reverendo Akitsushima, como uma oferenda destinada a Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 馬の耳にお守り ――地上天国の表紙の奇蹟 槐安生 『栄光』241号、昭和29(1954)年1月1日発行 馬の耳に念仏といい、馬耳東風といい昔から今に伝えられているこれ等の諺は神あるを信じない人間を諷したるものであるが、これは甚だ迷惑千万な諺。<br/><br/>と馬から苦情を持ち込まれるかも知れない。<br/><br/>というのは馬には馬頭観音の信仰が昔から広く行われているからである。<br/><br/>勿論、馬自身が仏性を具えていて信仰するのではなく、その持主が愛馬への御加護を馬頭観音様に祈念する風習であることは断るまでもあるまい。<br/><br/>飼馬への愛鱗とその利害得失を織り交ぜた、いわば人間の利己心から出発した馬頭観音信仰にせよ、神様はその願いを嘉し給い、百万べんの念仏を聞かせたとて仏心を起すことのない馬にまで恩寵を垂れ給う宏大無辺な御仁愛は「神とは何か？」との形而上学的質問に「神とは愛なり」と、明瞭な解答を与えたものと思える。<br/><br/> 奇蹟の宗教――救世教の出現は、人間として免れ得ない病貧争の三大苦悩を解決し、小は牛馬犬猫から、ひ弱い金魚に至るまで救済しつつあることは、百万にも達する信者の寄せたお蔭話によっても明らかであるが表題の「馬の耳にお守り」の佳話は、未信者が教団の機関雑紙、地上天国の表紙を折り畳んで馬のお守りとし、そのお蔭、奇蹟を見た驚異の報告を、金剛中教会長、秋津島先生と共に聴き綴ったものである。<br/><br/>もとよりこの未信者の胸の底には馬頭観音信仰の志しがあり、救世教信者のお守様にヒントを得て、馬の耳へのお守りとなった訳である。<br/><br/> 話の主は、山形県東村山郡高櫛村に住む八鍬芳夫という三十二歳の男である。<br/><br/>この人の舎弟、白松さんがそれまで使っていた馬と荷馬車を守ってもらい、分家独立したあと、芳夫も弟がやっていた荷馬車業を始めよう。<br/><br/>と馬を購い荷馬車も造らせたが、さて、馬のお守りをどうしたものか。<br/><br/>と考え込んだ。<br/><br/>それというのも弟が馬の耳袋に観音様の御姿をお守りとして縫い込み、その御利益で一回の事故も起した事がなかったのを知っていたからである。<br/><br/>弟は救世教の信者である叔父にお守りを貰ったのだから、自分も叔父に頼んで弟と同じお守りを貰う。<br/><br/>と早速、わけを話して頼んでみた。<br/><br/>弟と同じお守りを……と言われても由松にやったのは救世教の機関紙栄光の前身「救世」の特集号を飾った神様のお姿で、それはあの一枚しかない。<br/><br/>そこで地上天国の表紙を剥がしてこの神様のお姿をお守りとして馬にかけさせたら……と芳夫に与えたのであった。<br/><br/> 民の耳に冠せる袋の中へ折り畳んで入れた地上天国の表紙が馬と車の危難を救ってくれようとは、それを与えた信者の加藤正一叔父も思わぬことであった。<br/><br/> × × × 材木を積んだ荷馬車の手網を握って細い山道にかかったとき、なが雨のために地盤がゆるんでいた崖ぷちは、馬車の重みに耐えかねて「アッ」という間もなく崩れ、荷馬車は馬を引きずって二丈もある崖下めがけて、ずるずると落ちはじめた。<br/><br/>積荷、馬、荷馬車この全部の重量が一塊となって、落ちてゆく重みを支え切れずに、芳夫が放した手綱は崖の中腹にあった木の根にからんだので、馬も荷馬車も横倒しになったまま止まった。<br/><br/>木の根株にからんだ手綱に口を強く引かれ、横転した荷馬車の柄に腹を挟まれた馬は起上ることが出来ず、苦しそうにもがいている。<br/><br/>手綱を切って馬を助けなければ。<br/><br/>と芳夫は無我夢中で綱を解きにかかったが、重い荷車もろ共ひっ張っている手綱はいくら焦っても解けない。<br/><br/>崖の上にはこれを見て騒いでいる村の人たちがいる。<br/><br/>「誰か手綱を切る刃物を持っていないか？」と言ったが、生憎誰も持っていなかった。<br/><br/>ここで馬に死なれたら。<br/><br/>と思うと芳夫の頭に全身の血がのぼった。<br/><br/>馬を買うまでの苦労やそれをやっと手に入れて厩へ繋いだ時の喜びの情景などが、走馬燈のようにまざまざと脳裡に浮かんだ「馬の耳にお守りを入れておいたが、おれには御利益がなかったのか。<br/><br/>アーアー」と芳夫の絶壁のため息を洩らした瞬間であった。<br/><br/>馬が突然飛び上り、トンボ返りをして車に積んであった材木の上に立ったのは。<br/><br/>……「アッ」と叫んだのは芳夫だけではなく、崖の上からこれを見ていた人々も一緒だった。<br/><br/>馬の鞍からは荷を積んで引張っても抜けないだけの頑丈な綱が車の柄に付けてある。<br/><br/>これは馬子が外して、やらない限り金輪際外れないものである。<br/><br/>しかも手綱は木の根にからんで馬が苦しがっていたほど口を上へ向けて引張っていたのだ。<br/><br/>この強く張った手綱は、たった今、芳夫がほどこうとしても解けなかったではないか。<br/><br/>いくら馬が暴れても解けっこない。<br/><br/>鞍と車とをゆわえた綱、馬自身では解きようのない手綱、それが一瞬にして解け、うまくいっても崖下へ落ちて足を折るしかない運命の馬が鞍からも抜け出して、トンボを切って材木の上に立ちどこをみても怪我ひとつしていない。<br/><br/> 「奇蹟だ、奇蹟だ。<br/><br/>馬にお守りをかけさせた甲斐があった」と芳夫は狂喜した。<br/><br/>積荷をおろした荷馬車を崖から引き上げるには村人が中腹に道をつけ、二時間もかかってやっと大勢で曳き上げたが、これまたどこにも損傷の跡さえなかった。<br/><br/> 雑誌の表紙をお守りにしでさえ、こんなに大した御利益があったでねえか。<br/><br/>明主様がお書き下すったほん物のお守りかけたら、測り知れねえ御利益があるんだぞ。<br/><br/>おめえはこれだけの御利益いただいたんだから、すぐ入信しろよ。<br/><br/>叔父に教えられて、金壱千円也、御守護御礼と書いた紙包を、教祖様に、と秋津島会長の下に持って来たのだった。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

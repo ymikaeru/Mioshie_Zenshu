@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai10</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』３月号、昭和24(1949)年3月1日発行 ――墓地狭小のため、父の墓石を建てる余地もなく、祖先の墓石も小さいためそれを整理して先祖代々の墓石を新たに建立いたしたいと存じますが、旧墓石をその礎石として使用しても差し支えないものでしょうか。<br><br> 差し支えはないが、彫りつけてある字は消さなければならない。<br><br> ――三界万霊の三界の意味は。<br><br> 神幽現の三界を言う。<br><br>霊界は縦横の三段階になっていて、縦は天国、中有界、地獄であり、横はちょっと説明し難いが、重なり合っている。<br><br>または相互に含まれている状態で、現界（科学的には空気界）地獄、中有界、天国極楽界の状態となっている。<br><br> ――仏画に一二人の羅漢が書いてありました。<br><br>またお寺に羅漢寺というのもありますが、羅漢について御教えを願います。<br><br> 羅漢は一六人がふつうで、一二人は略である。<br><br>婆羅門の行者が行をしている姿である。<br><br> 達磨様も羅漢の親玉ともいうべき人で、面壁九年の行をしていて、満月の夜悟りを開いたと伝えられているが、婆羅門は難行苦行によりて悟りを開く宗門で、お釈迦様はその苦行を読経に代えたのであるが、いまでも仏教にはその名残りが残っている。<br><br> なお断食などもその苦行の一つで、現在は病気の治療などにも行なわれているが、これは傍で見ているほど苦痛ではなく、また一時的には身体の調子も良くなるけれど、しばらく経てば元通りになってしまう。<br><br>のみならず、断食期間中はなんの仕事もできず、かえって怠けの罪を構成することを知らねばならぬ。<br><br> ――動物の人工受精は霊子が入るのでしょうか。<br><br> 勿論入るのである。<br><br> ――人間の正守護神は霊界において守護するのでございましょうか、それとも人間に憑依するのでございましょうか。<br><br>後者の場合は霊界は留守になるのでございましょうか。<br><br> 正守護神は人間につかず傍にいるのがふつうで、一時離れるときは代理を置くのである。<br><br>人間に憑依することもあるにはあるが、そういう場合は大概部下の動物霊を憑けるのがふつうで、一般的に狐霊が多い。<br><br>狐霊は正守護神の命令で憑って口をきくときに、命令通りのことでなく自分の個性を出して勝手なことをしゃべることがあるから注意せねばならぬ。<br><br>また、夢知らせは正守護神がするのだが、正守護神によりてその夢の上手、下手がある。<br><br>また、あることを為すに気が進まぬのは正守護神が止めていることがあるから、気の進まぬときは中止するなり考え直すほうがよい。<br><br> 信仰に入るときに正守護神がさかんに働いている。<br><br>すなわち、祖霊が子孫を入信さすべく正守護神に頼み、また命令すると、正守護神はその人が入信せねばならぬような事情を作るのである。<br><br> ――現在法隆寺は信仰の対象でなく往事の日本文化の貴い資料として後世に保存する目的と存じますが、昼の文化建設の前には旧文化崩潰（ほうかい）の線に神の御意図は厳正であるのでしょうか。<br><br> 法隆寺は仏教芸術の根本で一三〇〇年以前に聖徳太子が御建立、以来仏教芸術がさかんになったのである。<br><br>いま仏教の功罪を考えるに、絵画、彫刻、音曲などの芸術の面においての仏教の貢献は偉大である。<br><br>民衆的な歌曲もお経が根本で、それから謡曲が生まれ、長唄、常磐津が進歩した。<br><br>浪曲も説教節から生まれて来て、絵画彫刻の面でもその通りで、その意味からすれば法隆寺の炎上は実に痛惜に堪えぬことである。<br><br>が、それには深い意味のあることで、だいたい神様の御経綸はだんだんと小さな型から大きいものに移って行くもので、人間でも肉体、心、魂、霊子がある。<br><br>その小さなものの変化をよく観ずれば、やがては世界の運命まで判るのである。<br><br>だから法隆寺の炎上も、仏教芸術の将来を暗示しているというわけで、しかもぜんぜん消滅したわけでなく修復して新しく生まれ出ることは、その意味においても日本芸術のために一面哀しくもありまた喜ばしいことともなる。<br><br>なお、昭和六年六月一五日、自分は千葉県の乾坤山日本寺（けんこんざんにほんじ）に詣でたことがあるが、そのお寺にはあらゆる仏様の像があり、また大きな菩提樹があり、その名からしても私は日本における仏界の型だと思った。<br><br>その六月一五日、この日から昼の世界に変わったわけで、それには種々の神秘があったが、やがて発表する機もあろう。<br><br>そのお寺がその後炎上し、ついに今日に至るも旧態に復し得ないのも、夜の世界の暗示と考えている。<br><br> ――一般家庭の庭に植えては不善といわれる木がいろいろありますが、諸説紛々としていますので、植えて悪い木をお教え願います。<br><br> 植えて悪い木はない。<br><br>ただ、木の種類によりこういうことがある。<br><br>すなわち松、柳、銀杏の木は特殊の木である。<br><br>すなわち松、柳は龍神が憑依しやすく、松は雄龍、柳は雌龍で、財物などを集める縁起がよい。<br><br>門冠の松を植えるのもそのいわれである。<br><br>銀杏はよく「化銀杏」などとも言われ、その実は人間の味がするとも言われて、実は人間霊が憑依しやすいのである。<br><br>この木はお寺や神社によくある木で、人家の庭の木ではない。<br><br>その他の木にはこんなことがなく、よく果実の木を植えては不可と言われるが、うまい実がなる、それを植えて食べることは神様の御趣旨に沿うことで、植えて悪いことがあるべきはずはない。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos sobre a Fé e o Mundo Espiritual</h2>
 <p><strong>Diante da exiguidade de espaço no cemitério, que me impede de erguer uma lápide para meu pai, e considerando o pequeno tamanho da lápide de meus ancestrais, desejo consolidá-las em um novo monumento para a família. Haveria algum impedimento em utilizar a lápide antiga como alicerce para a nova?</strong></p>
@@ -114,5 +266,48 @@ function toggleLang(lang) {
 <p>Não existe árvore cujo plantio seja intrinsecamente mau. Contudo, o pinheiro, o salgueiro e o ginkgo são árvores especiais. O pinheiro e o salgueiro atraem com facilidade a presença de Deuses-Dragões: o pinheiro atrai o Dragão-Macho, e o salgueiro, a Dragão-Fêmea, sendo auspiciosos para a prosperidade. É por essa razão que se plantam pinheiros nos portais das residências.</p>
 <p>O ginkgo, por sua vez, é frequentemente chamado de “ginkgo assombrado”. Diz-se que seu fruto tem sabor humano, mas na verdade, isso se deve à facilidade com que espíritos humanos se ligam a essa árvore. É uma árvore apropriada para templos e santuários, não para jardins de residências. As demais árvores não possuem tal característica.</p>
 <p>É comum dizerem que não se deve plantar árvores frutíferas, mas cultivar uma árvore que produz frutos saborosos para nosso alimento está em plena conformidade com a Vontade de Deus. Seria impossível que algo assim fosse prejudicial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』３月号、昭和24(1949)年3月1日発行 ――墓地狭小のため、父の墓石を建てる余地もなく、祖先の墓石も小さいためそれを整理して先祖代々の墓石を新たに建立いたしたいと存じますが、旧墓石をその礎石として使用しても差し支えないものでしょうか。<br/><br/> 差し支えはないが、彫りつけてある字は消さなければならない。<br/><br/> ――三界万霊の三界の意味は。<br/><br/> 神幽現の三界を言う。<br/><br/>霊界は縦横の三段階になっていて、縦は天国、中有界、地獄であり、横はちょっと説明し難いが、重なり合っている。<br/><br/>または相互に含まれている状態で、現界（科学的には空気界）地獄、中有界、天国極楽界の状態となっている。<br/><br/> ――仏画に一二人の羅漢が書いてありました。<br/><br/>またお寺に羅漢寺というのもありますが、羅漢について御教えを願います。<br/><br/> 羅漢は一六人がふつうで、一二人は略である。<br/><br/>婆羅門の行者が行をしている姿である。<br/><br/> 達磨様も羅漢の親玉ともいうべき人で、面壁九年の行をしていて、満月の夜悟りを開いたと伝えられているが、婆羅門は難行苦行によりて悟りを開く宗門で、お釈迦様はその苦行を読経に代えたのであるが、いまでも仏教にはその名残りが残っている。<br/><br/> なお断食などもその苦行の一つで、現在は病気の治療などにも行なわれているが、これは傍で見ているほど苦痛ではなく、また一時的には身体の調子も良くなるけれど、しばらく経てば元通りになってしまう。<br/><br/>のみならず、断食期間中はなんの仕事もできず、かえって怠けの罪を構成することを知らねばならぬ。<br/><br/> ――動物の人工受精は霊子が入るのでしょうか。<br/><br/> 勿論入るのである。<br/><br/> ――人間の正守護神は霊界において守護するのでございましょうか、それとも人間に憑依するのでございましょうか。<br/><br/>後者の場合は霊界は留守になるのでございましょうか。<br/><br/> 正守護神は人間につかず傍にいるのがふつうで、一時離れるときは代理を置くのである。<br/><br/>人間に憑依することもあるにはあるが、そういう場合は大概部下の動物霊を憑けるのがふつうで、一般的に狐霊が多い。<br/><br/>狐霊は正守護神の命令で憑って口をきくときに、命令通りのことでなく自分の個性を出して勝手なことをしゃべることがあるから注意せねばならぬ。<br/><br/>また、夢知らせは正守護神がするのだが、正守護神によりてその夢の上手、下手がある。<br/><br/>また、あることを為すに気が進まぬのは正守護神が止めていることがあるから、気の進まぬときは中止するなり考え直すほうがよい。<br/><br/> 信仰に入るときに正守護神がさかんに働いている。<br/><br/>すなわち、祖霊が子孫を入信さすべく正守護神に頼み、また命令すると、正守護神はその人が入信せねばならぬような事情を作るのである。<br/><br/> ――現在法隆寺は信仰の対象でなく往事の日本文化の貴い資料として後世に保存する目的と存じますが、昼の文化建設の前には旧文化崩潰（ほうかい）の線に神の御意図は厳正であるのでしょうか。<br/><br/> 法隆寺は仏教芸術の根本で一三〇〇年以前に聖徳太子が御建立、以来仏教芸術がさかんになったのである。<br/><br/>いま仏教の功罪を考えるに、絵画、彫刻、音曲などの芸術の面においての仏教の貢献は偉大である。<br/><br/>民衆的な歌曲もお経が根本で、それから謡曲が生まれ、長唄、常磐津が進歩した。<br/><br/>浪曲も説教節から生まれて来て、絵画彫刻の面でもその通りで、その意味からすれば法隆寺の炎上は実に痛惜に堪えぬことである。<br/><br/>が、それには深い意味のあることで、だいたい神様の御経綸はだんだんと小さな型から大きいものに移って行くもので、人間でも肉体、心、魂、霊子がある。<br/><br/>その小さなものの変化をよく観ずれば、やがては世界の運命まで判るのである。<br/><br/>だから法隆寺の炎上も、仏教芸術の将来を暗示しているというわけで、しかもぜんぜん消滅したわけでなく修復して新しく生まれ出ることは、その意味においても日本芸術のために一面哀しくもありまた喜ばしいことともなる。<br/><br/>なお、昭和六年六月一五日、自分は千葉県の乾坤山日本寺（けんこんざんにほんじ）に詣でたことがあるが、そのお寺にはあらゆる仏様の像があり、また大きな菩提樹があり、その名からしても私は日本における仏界の型だと思った。<br/><br/>その六月一五日、この日から昼の世界に変わったわけで、それには種々の神秘があったが、やがて発表する機もあろう。<br/><br/>そのお寺がその後炎上し、ついに今日に至るも旧態に復し得ないのも、夜の世界の暗示と考えている。<br/><br/> ――一般家庭の庭に植えては不善といわれる木がいろいろありますが、諸説紛々としていますので、植えて悪い木をお教え願います。<br/><br/> 植えて悪い木はない。<br/><br/>ただ、木の種類によりこういうことがある。<br/><br/>すなわち松、柳、銀杏の木は特殊の木である。<br/><br/>すなわち松、柳は龍神が憑依しやすく、松は雄龍、柳は雌龍で、財物などを集める縁起がよい。<br/><br/>門冠の松を植えるのもそのいわれである。<br/><br/>銀杏はよく「化銀杏」などとも言われ、その実は人間の味がするとも言われて、実は人間霊が憑依しやすいのである。<br/><br/>この木はお寺や神社によくある木で、人家の庭の木ではない。<br/><br/>その他の木にはこんなことがなく、よく果実の木を植えては不可と言われるが、うまい実がなる、それを植えて食べることは神様の御趣旨に沿うことで、植えて悪いことがあるべきはずはない。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

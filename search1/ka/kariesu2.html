@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kariesu2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： カリエス 『天国の福音』昭和22(1947)年2月5日発行 カリエスは大体脊髄〔椎〕カリエス、肋骨カリエス、腰骨カリエス等である、なかんずく脊髄カリエスは脊柱彎曲が特徴で、重症は彼の傴僂（せむし）となる。<br><br>発病の場合、医療は脊柱の彎曲を防ぐため、胴体にギブスをはめ仰臥させしむるが、幾分の効果はあるが、患者の苦痛ははなはだしい。<br><br>この病気は多くは腰部、大腿部等に一個所ないし数個所穿孔し排膿されるが、その場合自然穿孔と人為穿孔とあり、その排膿は多量にして、重症は数個所の孔から断えず排膿し、数年に及ぶものさえある。<br><br>従ってその量を計算する時、人体全部を膿と仮定してもそれより多い位であるから不可能である。<br><br>また軽痛者と激痛者とあるが、痛みの原因は薬毒であるから、薬毒のない者は軽痛または無痛である。<br><br>人により腫脹だけで無排膿もあるが、それらは浄化微弱のためである。<br><br>本病は医療では不治とされているが、本医術においては必ず全治する。<br><br>全治しても、脊柱の彎曲は相当矯正されるが、復旧する事は困難である。<br><br>病原は霊的であるから次に説いてみよう。<br><br> 霊界において多数の祖霊が地獄に苦しみ、罪穢の浄化作用が行われる場合、その罪穢のことごとくを払拭する事は出来ない。<br><br>それは罪穢の残渣（ざんさ）が生ずるので、それを子孫が分担する事になっている。<br><br>ちょうど物を燃焼すれば灰が残るようなものである。<br><br>その場合子孫の誰かが選ばれてその犠牲者となるが、一家の主人を犠牲者にする事は不都合を生ずるので、大抵は青少年子女または妻女を身代りとする。<br><br>そうしてその残渣は患者の頭脳に向かって絶えず霊的に流入する。<br><br>それが脊柱または腰骨へ流下し物質化する。<br><br>それが膿であるから、何十人何百人の祖霊の罪穢浄化である以上、多量なるはまたやむを得ないのである。<br><br>悪性の化膿性肋膜炎、肺結核、痔瘻等も右の原因による場合が相当あるのである。<br><br>それは右の疾患中、排膿や喀痰がすこぶる多量である事によって判定し得るのである。<br><br> 肋骨カリエスは右と異なり、これは単なる薬毒が骨膜の裏面に溜着し、浄化によって外部へ排泄されんとして肋骨または骨膜を穿孔する。<br><br>それがための激痛であるから、本医術によれば容易に全治する。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem Espiritual da Cárie Óssea</h2>
 <p>A cárie óssea manifesta-se, em geral, na coluna vertebral, nas costelas ou nos ossos do quadril. Dentre elas, a cárie vertebral se distingue pela curvatura da espinha dorsal, que, em casos graves, pode levar à condição de corcunda.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Para que essa partilha ocorra, um dos descendentes é escolhido para ser o portador sacrificial. Como seria inconveniente que o chefe da família assumisse tal fardo, geralmente são os filhos jovens ou a esposa que servem como substitutos. Esse resíduo maculado flui incessantemente, no plano espiritual, em direção ao cérebro do enfermo. De lá, ele desce pela coluna vertebral ou pelos ossos do quadril, onde finalmente se materializa. É essa matéria que se manifesta como pus. Sendo o resultado da purificação das máculas de dezenas, ou mesmo centenas, de espíritos antepassados, é natural e inevitável que seu volume seja tão grande.</p>
 <p>Outras afecções, como a pleurisia purulenta maligna, a tuberculose pulmonar e a fístula anal, podem, em muitos casos, ter a mesma origem espiritual. O diagnóstico pode ser corroborado pela observação de um volume extraordinariamente grande de secreção purulenta ou de escarro, característico dessas enfermidades.</p>
 <p>A cárie das costelas, por sua vez, possui uma origem distinta. Nesse caso, a causa reside unicamente no acúmulo de toxinas medicamentosas na face interna do periósteo. O processo de purificação, ao tentar expelir essas toxinas, acaba por perfurar as costelas ou o próprio periósteo, o que gera dores agudas. Justamente por ter essa causa, a cura completa é facilmente alcançada por meio de nossa Arte.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： カリエス 『天国の福音』昭和22(1947)年2月5日発行 カリエスは大体脊髄〔椎〕カリエス、肋骨カリエス、腰骨カリエス等である、なかんずく脊髄カリエスは脊柱彎曲が特徴で、重症は彼の傴僂（せむし）となる。<br/><br/>発病の場合、医療は脊柱の彎曲を防ぐため、胴体にギブスをはめ仰臥させしむるが、幾分の効果はあるが、患者の苦痛ははなはだしい。<br/><br/>この病気は多くは腰部、大腿部等に一個所ないし数個所穿孔し排膿されるが、その場合自然穿孔と人為穿孔とあり、その排膿は多量にして、重症は数個所の孔から断えず排膿し、数年に及ぶものさえある。<br/><br/>従ってその量を計算する時、人体全部を膿と仮定してもそれより多い位であるから不可能である。<br/><br/>また軽痛者と激痛者とあるが、痛みの原因は薬毒であるから、薬毒のない者は軽痛または無痛である。<br/><br/>人により腫脹だけで無排膿もあるが、それらは浄化微弱のためである。<br/><br/>本病は医療では不治とされているが、本医術においては必ず全治する。<br/><br/>全治しても、脊柱の彎曲は相当矯正されるが、復旧する事は困難である。<br/><br/>病原は霊的であるから次に説いてみよう。<br/><br/> 霊界において多数の祖霊が地獄に苦しみ、罪穢の浄化作用が行われる場合、その罪穢のことごとくを払拭する事は出来ない。<br/><br/>それは罪穢の残渣（ざんさ）が生ずるので、それを子孫が分担する事になっている。<br/><br/>ちょうど物を燃焼すれば灰が残るようなものである。<br/><br/>その場合子孫の誰かが選ばれてその犠牲者となるが、一家の主人を犠牲者にする事は不都合を生ずるので、大抵は青少年子女または妻女を身代りとする。<br/><br/>そうしてその残渣は患者の頭脳に向かって絶えず霊的に流入する。<br/><br/>それが脊柱または腰骨へ流下し物質化する。<br/><br/>それが膿であるから、何十人何百人の祖霊の罪穢浄化である以上、多量なるはまたやむを得ないのである。<br/><br/>悪性の化膿性肋膜炎、肺結核、痔瘻等も右の原因による場合が相当あるのである。<br/><br/>それは右の疾患中、排膿や喀痰がすこぶる多量である事によって判定し得るのである。<br/><br/> 肋骨カリエスは右と異なり、これは単なる薬毒が骨膜の裏面に溜着し、浄化によって外部へ排泄されんとして肋骨または骨膜を穿孔する。<br/><br/>それがための激痛であるから、本医術によれば容易に全治する。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

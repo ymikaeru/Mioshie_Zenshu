@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ahodara0</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 阿呆陀羅経 未発表、昭和8(1933)年 ……（不明）た水晶身魂最奥天国の天人揃ひ 煮えたつた湯の中へジーツとつかつて歯ぎしりする思ひ 時世時節にや仕方がないとウンと糞我慢茲（ここ）ぞとばかり 吾等が親分艮（うしとら）の金神大神様が三千年間忍び通したお手本にならひ 千分一の三年間をば握つた拳固（げんこ）で涙や水ツぱなコスりながらの冬籠り 小さくなつて優曇華（うどんげ）花咲く春待つた甲斐が大アリアリのコンコンチキチキ コン畜生共の年貢の納め時 尻尾巻き巻き頭下げ下げチンチンしながらやつてくるのは戌（いぬ）の年 猫も交つて来やがるぢやらうニヤンと愉快ぢや御座らぬ事かい 果報と○は寝て待つてるに限る ヒヨンな時節になつてきた モンキー シチヤラカポクポクポク いよいよこれから兄（こ）の花咲くやの姫の弥生ぢや 三千年の桃の実熟（みの）りに微笑（ほほえ）む西王母（せいおうぼ） 世にいづのめの御経綸神が表に現れなされ善と悪との御立別け 痛快至極の大シーン待つてましたと大向ふの方から 江戸の兄イがハヤスかどうだかそんな事なんざアどうでもよろしい九分と九厘のガラクタ野郎の身魂の終り 運つき間誤（まご）つきゴツタつき 尻餅つきの両手を地へつき 金槌頭をペタペタペタと 米搗バッタ其ままに 涙流して詫びに来る 時局御切迫神様もお忙しい そんなものにはかもうてをられん 御筆先をばも一度見直せ チヤンとハッキリ書いてあるよと言はれるのが落ちだ とは言ふものの神様愛善エー仕方ない庭の掃除か便所掃除に一生は疎（おろ）か孫子の代迄使つてやると 仰有（おつしや）るかどうか其辺迄は判らない よんどころ泣く泣く落ちてゆく先は地獄の一丁目 三途の川の鬼婆さんに身ぐるみスツパリ追ひはがられて 裸で道中がなるものかなどと洒落（しやれ）てもこりやおつつかぬ コーナリヤヤケだとエテ物股へブラブラブラ下げ餓鬼道 修羅道 色欲道や針の山 まで恥かきに行く其図（そのづ）と来ちや見られない けれ共流石（さすが）は神様愛だよ 仮令（たとえ）慢心取違ひしたとて 永の間を兎も角一生懸命に神へ奉仕の真心は 汲んでやらなきや可哀相でならぬと 大慈大悲の御心もつて降参致した者だけお救ひ助けて下さるに違ひはないと ガラクタに代つて此方（このほう）お取次お詫び致してやらぬでもないわい 併（しか）し世の中は様々で御座る気早の奴らはさうならぬ前に 知つてか知らいでか みんなそれぞれ御自分の方から御遠慮御隠退大方今では片附いて了（しま）つた まだまだサツパリ迄とは行かんが 余つ程異（ちが）つて来た事は確かだ 近頃は楽にやれて来たわい 少々は念入りのイヤな野郎がチツとやそつと残つてゐるのが目障りとは思ふが コレモ人間の端くれ野郎 今に泥水にアップアップ苦しみ溺れる時には可哀相だと ツマミも上げて救ひ助けてやらぬでもないわい シチヤラカポクポクポク
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Acerto de Contas com os Insensatos</h2>
 <p>Em meio ao coro dos seres celestiais, de espírito cristalino, no Paraíso mais sublime, experimentamos a sensação de submergir em água fervente, rangendo os dentes em agonia. Suportamos o insuportável com resignação, cientes de que nada se podia fazer ante os desígnios da época. Inspirados no exemplo do Grande Deus Primordial, que perseverou por três milênios, passamos por uma reclusão de três anos — uma milésima parte daquele tempo —, enxugando as lágrimas com os punhos cerrados. Recolhidos em humildade, aguardamos a primavera em que a flor de Udumbara desabrocha, e essa espera valeu imensamente a pena.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Contudo, a essência de Deus é, como se espera, o amor. Ele considera que, ainda que tenham agido por arrogância ou equívoco, a sinceridade com que um dia serviram a Deus não pode ser ignorada, pois seria demasiado lastimável. Portanto, com Sua imensa misericórdia, não há dúvida de que salvará e amparará todos aqueles que se renderem. E talvez, em nome desses que se tornaram refugo, eu mesmo interceda e apresente um pedido de desculpas em seu favor.</p>
 <p>Todavia, o mundo é feito de pessoas diversas. Os mais apressados ou, talvez, os mais prudentes, antes que a situação chegasse a tal extremo, por si mesmos já se retiraram e se afastaram. Quer o tenham feito de modo consciente ou não, a verdade é que a maioria já tomou seu rumo. Ainda que a depuração não esteja completa, é inegável que o cenário mudou consideravelmente. Recentemente, nosso trabalho tornou-se mais fácil.</p>
 <p>É verdade que um punhado de indivíduos desagradáveis e obstinados ainda permanece, o que se afigura como um estorvo. Mas também eles são fragmentos da humanidade. Quando estiverem se debatendo na água lamacenta, sufocando em seu sofrimento, talvez a compaixão nos mova a estender-lhes a mão para salvá-los.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 阿呆陀羅経 未発表、昭和8(1933)年 ……（不明）た水晶身魂最奥天国の天人揃ひ 煮えたつた湯の中へジーツとつかつて歯ぎしりする思ひ 時世時節にや仕方がないとウンと糞我慢茲（ここ）ぞとばかり 吾等が親分艮（うしとら）の金神大神様が三千年間忍び通したお手本にならひ 千分一の三年間をば握つた拳固（げんこ）で涙や水ツぱなコスりながらの冬籠り 小さくなつて優曇華（うどんげ）花咲く春待つた甲斐が大アリアリのコンコンチキチキ コン畜生共の年貢の納め時 尻尾巻き巻き頭下げ下げチンチンしながらやつてくるのは戌（いぬ）の年 猫も交つて来やがるぢやらうニヤンと愉快ぢや御座らぬ事かい 果報と○は寝て待つてるに限る ヒヨンな時節になつてきた モンキー シチヤラカポクポクポク いよいよこれから兄（こ）の花咲くやの姫の弥生ぢや 三千年の桃の実熟（みの）りに微笑（ほほえ）む西王母（せいおうぼ） 世にいづのめの御経綸神が表に現れなされ善と悪との御立別け 痛快至極の大シーン待つてましたと大向ふの方から 江戸の兄イがハヤスかどうだかそんな事なんざアどうでもよろしい九分と九厘のガラクタ野郎の身魂の終り 運つき間誤（まご）つきゴツタつき 尻餅つきの両手を地へつき 金槌頭をペタペタペタと 米搗バッタ其ままに 涙流して詫びに来る 時局御切迫神様もお忙しい そんなものにはかもうてをられん 御筆先をばも一度見直せ チヤンとハッキリ書いてあるよと言はれるのが落ちだ とは言ふものの神様愛善エー仕方ない庭の掃除か便所掃除に一生は疎（おろ）か孫子の代迄使つてやると 仰有（おつしや）るかどうか其辺迄は判らない よんどころ泣く泣く落ちてゆく先は地獄の一丁目 三途の川の鬼婆さんに身ぐるみスツパリ追ひはがられて 裸で道中がなるものかなどと洒落（しやれ）てもこりやおつつかぬ コーナリヤヤケだとエテ物股へブラブラブラ下げ餓鬼道 修羅道 色欲道や針の山 まで恥かきに行く其図（そのづ）と来ちや見られない けれ共流石（さすが）は神様愛だよ 仮令（たとえ）慢心取違ひしたとて 永の間を兎も角一生懸命に神へ奉仕の真心は 汲んでやらなきや可哀相でならぬと 大慈大悲の御心もつて降参致した者だけお救ひ助けて下さるに違ひはないと ガラクタに代つて此方（このほう）お取次お詫び致してやらぬでもないわい 併（しか）し世の中は様々で御座る気早の奴らはさうならぬ前に 知つてか知らいでか みんなそれぞれ御自分の方から御遠慮御隠退大方今では片附いて了（しま）つた まだまだサツパリ迄とは行かんが 余つ程異（ちが）つて来た事は確かだ 近頃は楽にやれて来たわい 少々は念入りのイヤな野郎がチツとやそつと残つてゐるのが目障りとは思ふが コレモ人間の端くれ野郎 今に泥水にアップアップ苦しみ溺れる時には可哀相だと ツマミも上げて救ひ助けてやらぬでもないわい シチヤラカポクポクポク</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

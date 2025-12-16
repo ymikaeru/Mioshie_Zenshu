@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsiwosen</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 死を宣告された子宮癌より蘇りて 『アメリカを救う』昭和28(1953)年1月1日発行 島根県 隆光中教会 福島かつ（58） 昔より命あっての物種と申しますが、全く私こそ幾つあっても足りない尊い命をお恵み頂きました幸福者で御座います。<br><br>お蔭様で今日この頃は可愛いい孫達から「オバーチャン、オバーチャン」と、まといつかれながら楽しく暮しております。<br><br> ああ、思い出してもゾッとするような、医者の死の宣告より蘇らせて頂きました御報告を拙い筆をもちましてつづらせて頂きます。<br><br> 常日頃腰痛を覚え、少し無理が過ぎると腰を伸ばせないことも御座いましたが、鍼灸などで一時しのいでおりました。<br><br> 二十五年秋頃より相当量の下り物があり、塊りも出ていましたが烈しい痛みもないので、案外で過しており、年を取ってもかえって若返ったのか、また月経がありはじめたと思って二、三カ月過すうち停止し、二十六年四月下旬より急に下腹部がこわばり、腰部も痛く「それほどに難儀なのは子宮が悪いに違いないから、ぜひとも医者に診断して貰いなさい。<br><br>私の家のすぐ近くのおばさんは、ちょうどお母さんのような症状で医者の診断により手後れと言われ、とうとうこの間死んでしまったから、お母様もとにかく一日も早く診て貰いなさい」と、里帰りした娘にすすめられ、四月二十三日選挙の日、息子の自転車に乗せて貰い投票をすませ、午後病院へ行きましたら医師は私には「子宮にちょっとした腫物が出来ているがたいしたことはない。<br><br>それに他の病が手伝っている」と言いましたが、息子や家族の者には密かに「子宮癌で最早手後れで手術しても駄目だし、このまま放って置いても半年はもたない」と死の宣告を下しておられました。<br><br>御本人は知らぬが仏で全く安心した気持で家に帰りましたら、自転車の振動が烈しかったのか、下腹部に激痛起り苦しみました。<br><br>次第に下剤や浣腸せねば便が出にくくなり、ついに肛門が開いてしまって、浣腸しても薬剤がそのまま出てしまい、下剤も効かなくなりました。<br><br>食欲もなくなり、親戚のものも心配して「どこそこの祈祷師はよくあてるから見てもらえ」「どこでおがんで貰ったら一ぺんで治った」などといろいろ心配してくれるものもございます。<br><br>その絶体絶命的状態の時、近所の井上さんとおっしゃるメシヤ教の信者さんがお見えになり「おばさん、信仰のお力でお蔭をいただく事が出来るが、御浄霊してあげようかね」と御親切に言われ、こちらも苦しいときの神頼みという気持で「よい信仰をしていなさるならおかげを受けさせて下さい」と、初めて御浄霊をお受けしました。<br><br>手を一尺も二尺もからだより離してじっとかざしているだけなのに二日、三日続けて貰ううち、ただなんとなく気持がよいように思いましたので、ぜひとも大社町の先生に御依頼したくお願い申しましたら、御多忙中にかかわらず、二十二日お出向きくださり、御浄霊をお受けしましたら、まあ、なんと今の今まで十分と待てない位お小用が近かったものが、ただの一度の御浄霊で二時間以上も間があり腎臓部をしっかり御浄霊して戴きましたら、大変楽になり、翌朝十四、五日も出なかった宿便も排泄され、お小用をした前後のさすような激痛もずっと軽くなり、医者より「精がつかないと弱ってしまうから喰べなさい、喰べなさい」と幾ら言われても、どうしても喰べられなかったのも一ぺんに解消して、大変美味しく喰べられるようになりました。<br><br>三度目に作中先生に来て頂きました折にはからだの様子もすっかり快くなり、お帰りの時は門の外まで出てお見送りしたくらいで御座います。<br><br>六月八日までに八回お出で下され、その度毎に余りにも見違える程良くなって参りますので、先生も大変お喜びになりました。<br><br>家で御浄霊して頂くように息子が御守様をお受けするはずでございましたが、八日には井上さんの自転車に乗せて貰い中教会御本部まで御礼参りさせて頂き、私が御守様を頂くまでに快癒してまいりました。<br><br>当日は会長先生にも御浄霊戴き、参拝の皆さんにもこんなにもおかげを頂きましたということをお話し致し、帰宅しましてからも順調で御座いました。<br><br>その後一、二カ月間は黄白色のドロドロした悪臭物が時たま下りることも御座いましたが、ひどい出血もなく、三カ月目には近くの町まで車を引いて野菜売りに出かけましたら、私の事を「もう駄目だろう助からない」と噂していた人達は皆ビックリして、「どうして治ったか」と尋ねられました。<br><br>嫁いだ娘が私の診断をして頂いた病院に行きましたら、医者から「近頃お母さんはどうですか」と尋ねられたので「ハアおかげさまで大へん元気で働いております」と申しましたら、しばらく手を休めて「ヘー」と眼をパチクリ、開いた口が塞がらないようであった由でございます。<br><br>ほんとうにお蔭さまで煩う以前にもまして健康で、家族の者もその快癒に目を瞠り感謝致しております。<br><br> 明主様の御慈悲の程厚く御礼申し上げます。<br><br> （昭和二十七年七月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Ressurgindo de um Câncer Uterino após a Sentença de Morte</h2>
 <p>Publicado em "Salvar a América", em 1º de janeiro de 1953
@@ -106,5 +261,48 @@ Relato de Katsu Fukushima (58 anos), Igreja Tyu-Ko de Ryuko, Província de Shima
 <p>Verdadeiramente, por essa Graça Divina, encontro-me hoje mais saudável do que antes de adoecer. Meus familiares, maravilhados com tamanha recuperação, estão imensamente gratos.</p>
 <p>Elevo minha mais profunda gratidão pela infinita misericórdia de Meishu-Sama.</p>
 <p>(1º de julho de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 死を宣告された子宮癌より蘇りて 『アメリカを救う』昭和28(1953)年1月1日発行 島根県 隆光中教会 福島かつ（58） 昔より命あっての物種と申しますが、全く私こそ幾つあっても足りない尊い命をお恵み頂きました幸福者で御座います。<br/><br/>お蔭様で今日この頃は可愛いい孫達から「オバーチャン、オバーチャン」と、まといつかれながら楽しく暮しております。<br/><br/> ああ、思い出してもゾッとするような、医者の死の宣告より蘇らせて頂きました御報告を拙い筆をもちましてつづらせて頂きます。<br/><br/> 常日頃腰痛を覚え、少し無理が過ぎると腰を伸ばせないことも御座いましたが、鍼灸などで一時しのいでおりました。<br/><br/> 二十五年秋頃より相当量の下り物があり、塊りも出ていましたが烈しい痛みもないので、案外で過しており、年を取ってもかえって若返ったのか、また月経がありはじめたと思って二、三カ月過すうち停止し、二十六年四月下旬より急に下腹部がこわばり、腰部も痛く「それほどに難儀なのは子宮が悪いに違いないから、ぜひとも医者に診断して貰いなさい。<br/><br/>私の家のすぐ近くのおばさんは、ちょうどお母さんのような症状で医者の診断により手後れと言われ、とうとうこの間死んでしまったから、お母様もとにかく一日も早く診て貰いなさい」と、里帰りした娘にすすめられ、四月二十三日選挙の日、息子の自転車に乗せて貰い投票をすませ、午後病院へ行きましたら医師は私には「子宮にちょっとした腫物が出来ているがたいしたことはない。<br/><br/>それに他の病が手伝っている」と言いましたが、息子や家族の者には密かに「子宮癌で最早手後れで手術しても駄目だし、このまま放って置いても半年はもたない」と死の宣告を下しておられました。<br/><br/>御本人は知らぬが仏で全く安心した気持で家に帰りましたら、自転車の振動が烈しかったのか、下腹部に激痛起り苦しみました。<br/><br/>次第に下剤や浣腸せねば便が出にくくなり、ついに肛門が開いてしまって、浣腸しても薬剤がそのまま出てしまい、下剤も効かなくなりました。<br/><br/>食欲もなくなり、親戚のものも心配して「どこそこの祈祷師はよくあてるから見てもらえ」「どこでおがんで貰ったら一ぺんで治った」などといろいろ心配してくれるものもございます。<br/><br/>その絶体絶命的状態の時、近所の井上さんとおっしゃるメシヤ教の信者さんがお見えになり「おばさん、信仰のお力でお蔭をいただく事が出来るが、御浄霊してあげようかね」と御親切に言われ、こちらも苦しいときの神頼みという気持で「よい信仰をしていなさるならおかげを受けさせて下さい」と、初めて御浄霊をお受けしました。<br/><br/>手を一尺も二尺もからだより離してじっとかざしているだけなのに二日、三日続けて貰ううち、ただなんとなく気持がよいように思いましたので、ぜひとも大社町の先生に御依頼したくお願い申しましたら、御多忙中にかかわらず、二十二日お出向きくださり、御浄霊をお受けしましたら、まあ、なんと今の今まで十分と待てない位お小用が近かったものが、ただの一度の御浄霊で二時間以上も間があり腎臓部をしっかり御浄霊して戴きましたら、大変楽になり、翌朝十四、五日も出なかった宿便も排泄され、お小用をした前後のさすような激痛もずっと軽くなり、医者より「精がつかないと弱ってしまうから喰べなさい、喰べなさい」と幾ら言われても、どうしても喰べられなかったのも一ぺんに解消して、大変美味しく喰べられるようになりました。<br/><br/>三度目に作中先生に来て頂きました折にはからだの様子もすっかり快くなり、お帰りの時は門の外まで出てお見送りしたくらいで御座います。<br/><br/>六月八日までに八回お出で下され、その度毎に余りにも見違える程良くなって参りますので、先生も大変お喜びになりました。<br/><br/>家で御浄霊して頂くように息子が御守様をお受けするはずでございましたが、八日には井上さんの自転車に乗せて貰い中教会御本部まで御礼参りさせて頂き、私が御守様を頂くまでに快癒してまいりました。<br/><br/>当日は会長先生にも御浄霊戴き、参拝の皆さんにもこんなにもおかげを頂きましたということをお話し致し、帰宅しましてからも順調で御座いました。<br/><br/>その後一、二カ月間は黄白色のドロドロした悪臭物が時たま下りることも御座いましたが、ひどい出血もなく、三カ月目には近くの町まで車を引いて野菜売りに出かけましたら、私の事を「もう駄目だろう助からない」と噂していた人達は皆ビックリして、「どうして治ったか」と尋ねられました。<br/><br/>嫁いだ娘が私の診断をして頂いた病院に行きましたら、医者から「近頃お母さんはどうですか」と尋ねられたので「ハアおかげさまで大へん元気で働いております」と申しましたら、しばらく手を休めて「ヘー」と眼をパチクリ、開いた口が塞がらないようであった由でございます。<br/><br/>ほんとうにお蔭さまで煩う以前にもまして健康で、家族の者もその快癒に目を瞠り感謝致しております。<br/><br/> 明主様の御慈悲の程厚く御礼申し上げます。<br/><br/> （昭和二十七年七月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>yasasi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 優しさと奥床しさ 『栄光』75号、昭和25(1950)年10月25日発行 およそ現代の人間を観る時、最も欠除しているものは、優しさと奥床しさであろう。<br><br> まずここでは本教を主としてかいてみるが、例えば自分の信仰がどれ程進み、身魂がどのくらい磨けたかを知るには一の標準があって、これは左程難しい事ではない、何よりも人と争う事を好まなくなり、優しさが湧き奥床しさが現れる、こういう心と態度になるこそ磨けたとみてよく、この点最も信仰の価値を見出すのである、そのようになった人にして一般から好愛され、尊敬され無言の宣伝となるのである。<br><br> ところが、今日の世の中を見ると、右のような優しさと奥床しさが余りに欠けている、どこを見ても人に対しアラ探し、憎悪、咎（とが）めだて等まことに醜い事が目につく、特に現代人の奥床しさなど無さすぎるといっていい、何事も利己一点張りで露呈的で理屈がましく、人から嫌われる事など余り気にかけないのは、自由主義が行過ぎ我儘（わがまま）主義になったと見る外はない、最も見苦しいのは、他人の事となると暴露的で、排斥主義で、人情の薄い事はなはだしい、このような人間が殖えるから社会は暗く、冷たく人生の悲観者が益々殖えるという訳で、近来自殺者の多いのもこんなところに原因があるのではなかろうか、ゆえに真の文化社会とは、英国の紳士道や米国の博愛主義のごときを奉ずる人々が殖え、社会道義がよく行われる事によって気持のよい住みよい社会が生まれるのである、そうなった社会こそこの世の天国としたら、天国はまことに手近いところにあるのである。<br><br> また別の面からみる時、今日観光事業が国策上最も緊要事と叫ばれているが、なるほど物的施設も大いに必要ではあるが、外客に好感を与える事は、より以上の必要事であろう、というのは外客に接する場合、優しさ、奥床しさと清潔のこの三つが揃う事で、これこそ一文の金も要らない外客誘致の最も有力なものとなろう、そうしてこういう人間を造るその根本条件は何といっても信仰であって、本教はその方針のもとに邁進しつつあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Da Gentileza e do Recato</h2>
 <p>Ao observarmos o ser humano contemporâneo, percebemos que as qualidades mais ausentes são, porventura, a gentileza e o recato.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Contudo, ao lançarmos o olhar sobre o mundo de hoje, notamos uma carência gritante de tais virtudes. Por toda parte, deparamo-nos com práticas odiosas como a caça a defeitos alheios, o ódio e a recriminação. O recato, em especial, parece ter desaparecido por completo no homem moderno. Tudo se resume a um egoísmo exacerbado, a uma ostentação vulgar e a uma argumentação pedante. A indiferença quanto a ser malquisto pelos outros nada mais é que o reflexo de um liberalismo que descambou para o individualismo. O mais deplorável, no entanto, é a conduta em relação ao próximo: a indiscrição, o sectarismo e uma assombrosa falta de compaixão humana. Com a proliferação de pessoas assim, a sociedade torna-se sombria e gélida, e o número de pessimistas aumenta incessantemente. Não seria esta, aliás, uma das causas do recente aumento de suicídios?</p>
 <p>Portanto, uma verdadeira sociedade civilizada surge quando se multiplicam aqueles que prezam valores como o código de cavalheirismo britânico ou a filantropia americana, permitindo que a moralidade social floresça e crie um ambiente agradável e digno de se viver. Se tal sociedade representa o Paraíso Terrestre, então o Paraíso se encontra, em verdade, ao nosso alcance.</p>
 <p>Analisando a questão por outro prisma, vemos que o turismo é hoje aclamado como matéria de máxima urgência na política nacional. Embora as instalações materiais sejam, de fato, muito necessárias, causar uma boa impressão aos visitantes estrangeiros é uma necessidade ainda maior. Isto porque, no trato com eles, a combinação de três elementos é fundamental: gentileza, recato e asseio. Eis aqui a mais poderosa ferramenta para atrair visitantes, e que não custa um único centavo. A condição basilar para formar seres humanos com tais qualidades é, inegavelmente, a fé. É sob essa diretriz que nossa Igreja avança resolutamente.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 優しさと奥床しさ 『栄光』75号、昭和25(1950)年10月25日発行 およそ現代の人間を観る時、最も欠除しているものは、優しさと奥床しさであろう。<br/><br/> まずここでは本教を主としてかいてみるが、例えば自分の信仰がどれ程進み、身魂がどのくらい磨けたかを知るには一の標準があって、これは左程難しい事ではない、何よりも人と争う事を好まなくなり、優しさが湧き奥床しさが現れる、こういう心と態度になるこそ磨けたとみてよく、この点最も信仰の価値を見出すのである、そのようになった人にして一般から好愛され、尊敬され無言の宣伝となるのである。<br/><br/> ところが、今日の世の中を見ると、右のような優しさと奥床しさが余りに欠けている、どこを見ても人に対しアラ探し、憎悪、咎（とが）めだて等まことに醜い事が目につく、特に現代人の奥床しさなど無さすぎるといっていい、何事も利己一点張りで露呈的で理屈がましく、人から嫌われる事など余り気にかけないのは、自由主義が行過ぎ我儘（わがまま）主義になったと見る外はない、最も見苦しいのは、他人の事となると暴露的で、排斥主義で、人情の薄い事はなはだしい、このような人間が殖えるから社会は暗く、冷たく人生の悲観者が益々殖えるという訳で、近来自殺者の多いのもこんなところに原因があるのではなかろうか、ゆえに真の文化社会とは、英国の紳士道や米国の博愛主義のごときを奉ずる人々が殖え、社会道義がよく行われる事によって気持のよい住みよい社会が生まれるのである、そうなった社会こそこの世の天国としたら、天国はまことに手近いところにあるのである。<br/><br/> また別の面からみる時、今日観光事業が国策上最も緊要事と叫ばれているが、なるほど物的施設も大いに必要ではあるが、外客に好感を与える事は、より以上の必要事であろう、というのは外客に接する場合、優しさ、奥床しさと清潔のこの三つが揃う事で、これこそ一文の金も要らない外客誘致の最も有力なものとなろう、そうしてこういう人間を造るその根本条件は何といっても信仰であって、本教はその方針のもとに邁進しつつあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

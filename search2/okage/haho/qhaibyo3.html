@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhaibyo3</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺病と痔瘻より救われ今は更生の道へ 『地上天国』18号、昭和25(1950)年11月25日発行 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 北海道 更生中教会 小出誠司（27） 私は小学校当時、全国健康優良児童として表彰されました。<br><br>一見非常に健康そうな体でしたので、一生病気に苦しむ事はないものと自信満々たるものでございました。<br><br> 昭和十五年会社の社用で渡満、三年間満州生活を続けました。<br><br>ふとした事から急性腸炎続いて乾性肋膜炎と診断されましたが、一時小康を得て作業に従事していますうちに、肛門より少し放れたところに腫物が出来、恥も外聞もなく診断を受けましたら早速切開され、永らく通院していましたが治らず、新京へ出て静養三月にして又入山しました。<br><br> 肋膜炎は再発し注射、医薬、栄養剤等熱心に続け又小康を得ましたが、徴兵検査の時には右肺浸潤、左肺尖カタル、痔瘻のために第二国民兵、徴集免除となり、故郷へ泣いて帰国早速村の医師を迎え、注射薬にて安静にし保養していました。<br><br> 田舎の事とて肺病といえば伝染するときらわれ、肩身の狭い生活を続けて、新聞の広告雑誌の広告、まず眼に着くものは肺病特効薬という広告に夢中になり、あれやこれやと注文して服用し、又蝮、縞蛇等の蒸焼、生ぎも等、ただただ健康になりたい一心に服用しました。<br><br>又山羊乳が良いと聞き四方八方探して一頭の山羊をもとめ、毎日新鮮な乳を二、三合飲みにくい思いで服用していましたが、少し無理をすると再発し、医師よ薬よと家族の者に心配をかけ、小康を得て日光浴をしては発熱喀血になやみ、灸は毎日のように据え未だ当時の灸のあとを見る度に、よくもこんなに焼いたものだと思うほど忠実に実行したものです。<br><br> 医師いわく「あなたの体はガラスのかけたと同じで無理をすればはがれるから、無理をしないで静養しなさい」と、再三発熱して医師を迎えると「私の言う事を聞かないで無理をしたからだ」と叱られる事度々でした。<br><br> 無理のないように大事に静養を続けているうち、昭和十九年八月痔瘻再発歩行困難となり、入院手術をしました。<br><br>手術の結果直腸十五糎も入っていたそうです。<br><br>八月の暑さと手術後の苦痛のため、衰弱するばかりでした。<br><br>二カ月して漸く退院しましたが全治せず、毎日バスで通院しましたが、膿の出るところは依然として治りません。<br><br>医師は再度の手術をすすめましたが、あの苦痛は恐ろしくてどうしても二度と手術する勇気は出ません。<br><br>怖ろしさの余り他によい治療はないかと探しましたら、京橋に注射で治す先生がいる、手術より非常に楽だと聞き、家族と相談して早速上京して診断の結果、六カ月位で治るといわれ当日肛門に注射、一カ月分の膏薬を頂いて半年通院しましたが治らず、もう三カ月又もう三カ月、又……と呆れるほど治りませんでした。<br><br>痔瘻は不治なるものと、希望も青春の夢も消え、何のためにこの世に生れて来たのであろうかと考えさせられ、求むるものは死、死……しかし、死の恐怖はどうする事も出来ませんでした。<br><br>あちらの病院こちらの病院と代えても一向に健康にはならず、私はその頃から宗教を求め探し、禅宗の本を読むようになり、しかし何回読んでもさっぱり判りませんでした。<br><br>その分らないところに意を注ぎ、一そう僧侶となって世を捨てたらと考えましたが、ある立派な僧侶に伺いましたら一笑に付され、今の宗教家で碧巌録を解ける人は、日本中に十指あるかないか解らん、君はその詩でも学んでおればいいのだ。<br><br>又もや希望は挫けてしまいました。<br><br> 昭和二十二年五月、又もや肺の病に苦しんでいたところ信者の今井辰子さんが来られ、いろいろと不思議なお話を伺い、翌日「天国の福音」を持って来て下さいまして、最初ほど意にとめませんでしたが、二度三度と繰返し繰返し拝読しているうちに、今までの健康法とは全く相違していますので、物は試しにと思って五月十七日初めて御浄霊をして頂きましたが、あまり簡単すぎる治療で、物足りなさを感じて帰宅しました。<br><br> 昼食中にお腹がゴーゴーと下るような気持がしますので用便にゆきましたら多量の下痢がありました。<br><br>下痢の痛みもなく反って腹部が軽くなりました。<br><br>毒素が出るといわれたが今日の御浄霊が効いたのかなと嬉しく感じ、又翌日御浄霊をいただきましたら肛門から膿が出る、あんな簡単な事をしてと不思議に思い、それ以来三カ月通いました。<br><br> 不治の痔瘻とあきらめたのがいつか忘れるようになり、全身から多量の盗汗を三朝続けて出、又ある時急に発熱して胃が痛み、ふうふういって寝ていましたら、鼻から急に強臭のある薬の匂いが出て来ました。<br><br>その晩二回ほどにがみのある液体を吐き出しましたら熱も痛みも去り非常に楽になりました。<br><br> 御著書の薬毒、尿毒、然毒というものは実際ある事を体験さしていただき、日に日に胸部も楽になりましたので、嬉しさのあまり是非私もその御力を頂きたい、そして世の病人を助けたいと人生の希望に燃え、八月鎌倉にて大槻先生より教修を頂き、御守様を頂きました時は、本当に嬉しく感激致しました。<br><br> すっかり大船に乗せて頂いた感じでございました。<br><br>早速帰宅、母の座骨神経痛を浄霊しましたら一カ月程して楽にして頂き、母も九月大槻先生より御教修を頂き、感謝致しております。<br><br> それ以来先生の御指導頂きまして、旧大和会本部に御奉仕さして頂き、鎌倉教会にも御奉仕させて頂きまして、ただ今では体重十八貫、以前の病苦も悩みも一掃さして頂きました。<br><br>ただ今は救世の御用にお使い頂き、これほど幸福な喜びはございません。<br><br> 私のお救い頂きました幸福の感激を涙で御礼申上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Salvo da tuberculose e da fístula, sigo agora o caminho da regeneração</h2>
 <p><strong>Publicado na revista “Paraíso Terrestre”, nº 18, em 25 de novembro de 1950</strong>
@@ -110,5 +265,48 @@ function toggleLang(lang) {
 <p>Retornei para casa imediatamente e comecei a ministrar Johrei em minha mãe, que sofria de dor no nervo ciático. Após cerca de um mês, ela se sentiu aliviada e, em setembro, também recebeu a formação com o Reverendo Otsuki, pelo que sou imensamente grato.</p>
 <p>Desde então, sob a orientação do reverendo, tive a permissão de servir na antiga sede da Associação Yamato e também na Igreja de Kamakura. Hoje, meu peso atingiu saudáveis dezoito <em>kan</em> (aproximadamente 67,5 quilos), e todos os sofrimentos e aflições do passado foram purificados. Atualmente, tenho a permissão de ser utilizado na Obra Divina da Salvação, e não há felicidade maior que esta.</p>
 <p>Com lágrimas nos olhos, expresso a emoção e a felicidade por ter sido salvo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺病と痔瘻より救われ今は更生の道へ 『地上天国』18号、昭和25(1950)年11月25日発行 『結核の革命的療法』昭和26(1951)年8月15日発行 『結核信仰療法』昭和27(1952)年12月1日発行 北海道 更生中教会 小出誠司（27） 私は小学校当時、全国健康優良児童として表彰されました。<br/><br/>一見非常に健康そうな体でしたので、一生病気に苦しむ事はないものと自信満々たるものでございました。<br/><br/> 昭和十五年会社の社用で渡満、三年間満州生活を続けました。<br/><br/>ふとした事から急性腸炎続いて乾性肋膜炎と診断されましたが、一時小康を得て作業に従事していますうちに、肛門より少し放れたところに腫物が出来、恥も外聞もなく診断を受けましたら早速切開され、永らく通院していましたが治らず、新京へ出て静養三月にして又入山しました。<br/><br/> 肋膜炎は再発し注射、医薬、栄養剤等熱心に続け又小康を得ましたが、徴兵検査の時には右肺浸潤、左肺尖カタル、痔瘻のために第二国民兵、徴集免除となり、故郷へ泣いて帰国早速村の医師を迎え、注射薬にて安静にし保養していました。<br/><br/> 田舎の事とて肺病といえば伝染するときらわれ、肩身の狭い生活を続けて、新聞の広告雑誌の広告、まず眼に着くものは肺病特効薬という広告に夢中になり、あれやこれやと注文して服用し、又蝮、縞蛇等の蒸焼、生ぎも等、ただただ健康になりたい一心に服用しました。<br/><br/>又山羊乳が良いと聞き四方八方探して一頭の山羊をもとめ、毎日新鮮な乳を二、三合飲みにくい思いで服用していましたが、少し無理をすると再発し、医師よ薬よと家族の者に心配をかけ、小康を得て日光浴をしては発熱喀血になやみ、灸は毎日のように据え未だ当時の灸のあとを見る度に、よくもこんなに焼いたものだと思うほど忠実に実行したものです。<br/><br/> 医師いわく「あなたの体はガラスのかけたと同じで無理をすればはがれるから、無理をしないで静養しなさい」と、再三発熱して医師を迎えると「私の言う事を聞かないで無理をしたからだ」と叱られる事度々でした。<br/><br/> 無理のないように大事に静養を続けているうち、昭和十九年八月痔瘻再発歩行困難となり、入院手術をしました。<br/><br/>手術の結果直腸十五糎も入っていたそうです。<br/><br/>八月の暑さと手術後の苦痛のため、衰弱するばかりでした。<br/><br/>二カ月して漸く退院しましたが全治せず、毎日バスで通院しましたが、膿の出るところは依然として治りません。<br/><br/>医師は再度の手術をすすめましたが、あの苦痛は恐ろしくてどうしても二度と手術する勇気は出ません。<br/><br/>怖ろしさの余り他によい治療はないかと探しましたら、京橋に注射で治す先生がいる、手術より非常に楽だと聞き、家族と相談して早速上京して診断の結果、六カ月位で治るといわれ当日肛門に注射、一カ月分の膏薬を頂いて半年通院しましたが治らず、もう三カ月又もう三カ月、又……と呆れるほど治りませんでした。<br/><br/>痔瘻は不治なるものと、希望も青春の夢も消え、何のためにこの世に生れて来たのであろうかと考えさせられ、求むるものは死、死……しかし、死の恐怖はどうする事も出来ませんでした。<br/><br/>あちらの病院こちらの病院と代えても一向に健康にはならず、私はその頃から宗教を求め探し、禅宗の本を読むようになり、しかし何回読んでもさっぱり判りませんでした。<br/><br/>その分らないところに意を注ぎ、一そう僧侶となって世を捨てたらと考えましたが、ある立派な僧侶に伺いましたら一笑に付され、今の宗教家で碧巌録を解ける人は、日本中に十指あるかないか解らん、君はその詩でも学んでおればいいのだ。<br/><br/>又もや希望は挫けてしまいました。<br/><br/> 昭和二十二年五月、又もや肺の病に苦しんでいたところ信者の今井辰子さんが来られ、いろいろと不思議なお話を伺い、翌日「天国の福音」を持って来て下さいまして、最初ほど意にとめませんでしたが、二度三度と繰返し繰返し拝読しているうちに、今までの健康法とは全く相違していますので、物は試しにと思って五月十七日初めて御浄霊をして頂きましたが、あまり簡単すぎる治療で、物足りなさを感じて帰宅しました。<br/><br/> 昼食中にお腹がゴーゴーと下るような気持がしますので用便にゆきましたら多量の下痢がありました。<br/><br/>下痢の痛みもなく反って腹部が軽くなりました。<br/><br/>毒素が出るといわれたが今日の御浄霊が効いたのかなと嬉しく感じ、又翌日御浄霊をいただきましたら肛門から膿が出る、あんな簡単な事をしてと不思議に思い、それ以来三カ月通いました。<br/><br/> 不治の痔瘻とあきらめたのがいつか忘れるようになり、全身から多量の盗汗を三朝続けて出、又ある時急に発熱して胃が痛み、ふうふういって寝ていましたら、鼻から急に強臭のある薬の匂いが出て来ました。<br/><br/>その晩二回ほどにがみのある液体を吐き出しましたら熱も痛みも去り非常に楽になりました。<br/><br/> 御著書の薬毒、尿毒、然毒というものは実際ある事を体験さしていただき、日に日に胸部も楽になりましたので、嬉しさのあまり是非私もその御力を頂きたい、そして世の病人を助けたいと人生の希望に燃え、八月鎌倉にて大槻先生より教修を頂き、御守様を頂きました時は、本当に嬉しく感激致しました。<br/><br/> すっかり大船に乗せて頂いた感じでございました。<br/><br/>早速帰宅、母の座骨神経痛を浄霊しましたら一カ月程して楽にして頂き、母も九月大槻先生より御教修を頂き、感謝致しております。<br/><br/> それ以来先生の御指導頂きまして、旧大和会本部に御奉仕さして頂き、鎌倉教会にも御奉仕させて頂きまして、ただ今では体重十八貫、以前の病苦も悩みも一掃さして頂きました。<br/><br/>ただ今は救世の御用にお使い頂き、これほど幸福な喜びはございません。<br/><br/> 私のお救い頂きました幸福の感激を涙で御礼申上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

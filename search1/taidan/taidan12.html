@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新春熱海炉辺談 『光』43号、昭和25(1950)年1月1日発行 荊の道を越えつつ、いまこそ大いなる躍進の胎動する新春を迎え、三十万信徒の感激また新たなものがある。<br><br> これことごとく、剛気不動、明敏神技、ただ世紀の聖業成就に一身を抛（なげう）たれる自観大先生の偉大な霊力と威徳によらざるはないのである。<br><br> 新春劈頭（へきとう）、特に寸暇をさかれ本紙記者と対談された大先生の胸奥には、さらに人間世界未知の無量な秘境さえ窺（うかが）うことができた。<br><br> 以下新春熱海炉辺対談の概要を愛読者諸君におくる。<br><br> 記者 去年は教団にとってはそうとう多難な年だったと思われますが、これについてまず大先生の御感想をうけたまわりたい。<br><br> 大先生 一昨年は税金問題、去年はジャーナリズムの不当なる攻勢に遭い、いろんな意味において楽でなかった。<br><br>しかし私は決して、悲観もしなければ、自信も失わない。<br><br>むしろこのにがい試練こそ、神示による私の仕事にいっそう大きな恵沢（けいたく）を与えてくれたものと思っている。<br><br>なにしろ本教の発展はあまりにも急激だったため、道義失調の日本の一部の人たちから非常な嫉視感を持たれたのが、大きな原因だと思う。<br><br>これは、いかなる宗教といえどもある期間は免れ得ない運命で、過去の宗教の歴史によっても明らかだ。<br><br> 記者 この間、某大新聞社の幹部に会ったとき「なぜ日本のジャーナリズムは本教のみを批判の対象にするのか」と質（ただ）したら「いや、観音教を決して眼のカタキにしているのではない、新宗教を取り扱おうと思う場合、観音教がやはり日本で一番大きいからだ」との答えだった。<br><br>それにしてはジャーナリズムもずいぶん勝手放題な嫌がらせをやるもんですね。<br><br> 大先生 私はどんなことを書かれようと一つも気にしていない。<br><br>それはことごとく興味的作為によっているのであるから、こちらとしてはなんら恐るるところないからだ。<br><br>まあ、戦後派の邪神どもの寿命もさほど長くはないだろう。<br><br> 記者 教線の急速な膨脹に、指導上多少の無理が生じたのではないでしょうか。<br><br> 大先生 その憾（うら）みはたしかにあった。<br><br>外部が一遍に伸びると、どうしても内部がそれに歩調が揃わなくなるのは当然のことで、やはりこの場合はある程度膨脹力を制御することが必要であろう。<br><br>つまり私から言わしむればジャーナリズムの逆宜伝も、背後に神意の存していることを自覚すべきだと思う。<br><br>これは負け惜しみじゃないが、神はしばらく隠忍自重の時を私に籍（か）されたものと信じ、尺進寸退の形をあるいはとるもよいのではあるまいかと思う。<br><br> 神の絶対力あり 不当圧迫に堂々戦う 記者 大新聞にあれだけ悪意に満ちた報道をされると、たいがいのものはぺちゃんこになって潰（つぶ）れますが、本教の基盤の強さにはいささか驚きました。<br><br> 大先生 驚くには当たらない。<br><br>不当なる圧迫や権謀術策に堂々と太刀打ちできるだけの周到なる用意があるからだ。<br><br>その用意とはつまり神の絶対力である。<br><br>なんぴともこの神の尊厳をも破壊することはできないので、従ってわれわれには寸毫の邪悪のないことが明らかになろう。<br><br>みじんの邪心なく実に淡々、川の流れのごとく虚偽のない真実の力をもってやっている。<br><br>このことがみんなに判ればよいのだが、まだそれだけに日本の知的水準は達していない。<br><br>いかに偉大なる善事を施しても、一つ小さな欠点があると、それを欠点の全部に偽装して他人を陥れようとするのが日本人のイヤな癖だ。<br><br>こんな時代はまあ、あまり逆らわずに、順応主義でゆくのが賢明の策だと思う。<br><br>ここ当分、堅実第一を信条としたい。<br><br> 記者 ジャーナリズムの偽れる世論とはまさに逆比例して、本教によって救わるる人々が、いかに多くなってきたかを最近の数字がもっとも具体的に立証していますが、これはいかなるわけでしょう。<br><br> 大先生 それは霊界の曇りがしだいに解けてきたことを意味するものである。<br><br>つまり神の御光りが以前より強くなった顕れだ。<br><br>従って本教信者の浄霊力が強力になったわけである。<br><br>いまの私の霊力は以前の何倍かに増している。<br><br>また信徒の霊力も、おそらく私の二十年前くらいの力となって現われていると思う。<br><br>だからきかぬことは絶対ない。<br><br>ことに現在は日本の浄化作用が非常に激しいだけに、霊力がそれだけ効果的な働きをすることは科学的にも十分に説明されている。<br><br>（記者註、本紙第四二号所載、大先生論文「夜の終り近づけり汝等悔改めよ」を特に参照されたし） 記者 最近、日本の知識層でも、平和日本の根底をつくるには絶対的に宗教心だという意見が強くなっているが、これについての御意見はいかがですか。<br><br> 大先生 宗教心のない人間はダメだと私はいつも強調している通り、宗教こそ平和的なすべての基礎をつくるものと信じている。<br><br>しかしこの宗教といえども、いわゆる迷信邪教ではなんらの効力もない。<br><br>無価値な宗教は信ずるだけムダだ。<br><br>現在の日本には万人信頼のおける宗教は本教以外にない。<br><br>観音力の絶対性、これより他に本当に救われる力はない、欧米はやはりキリストだと思う。<br><br> 記者 本教の優位性を価値づける根拠は。<br><br> 大先生 現世利益にある。<br><br>仏教などが唱える来世の利益は、霊界と人間界をつなぐために、ある程度の必要はあるが、しかし今日、この苦難に喘ぐ日本人全体を救う道は、この世を天国化することにある。<br><br>勿論これはたいへんな事業であるが、私は日本人一人一人が真に本教の真髄を究めるなら、さほどの難業とは思わない。<br><br>私が言う「病、貧、争」のない世界とは、換言すればこの世の天国化である。<br><br>しかもこの三つのうち第一の病気をなくすることのみによって貧も、争も、おのずからなくなることは、敢（あ）えて多言を要しない。<br><br>病が貧乏の原因だぐらいのことはだれも知っている。<br><br>争もそうだ。<br><br>戦争は一国の病的症状から起きるのである。<br><br> 霊界明るくなる 光明の兆しあらわる 記者 講和会議の空気が濃くなり、日本の今年の年まわりはそうとう希望的のようですが、大先生の御意見はいかがでしょうか。<br><br> 大先生 いい年でもあり、悪い年でもある。<br><br>霊気が変わって霊界が明るくなったから、それに伴い光明の兆しがハッキリ出ている。<br><br>その代わり悪の世界は衰亡の一途を辿るであろう。<br><br>善事のために努力すれば必ず報いられるが、悪事を働けばすぐシッポがばれる。<br><br>つまり霊力によって悪の発見が早くなったのである。<br><br>悪人の大掃除時代、これが今年の日本の肩に課された負担である。<br><br>掃除されても、ごみ箱に捨てられぬぐらいのゴミならまだいい。<br><br>せいぜい、役立つゴミ程度までになっていないとたいへんだ。<br><br>この意味において要人どもには悪い年まわりと言えるのである。<br><br> 神の道に精進を 策動に乗らず進め 記者 今年の景気はどうなりますか。<br><br> 大先生 まだまだ、日本の財政はやりくり算段だから楽にはならない。<br><br>だがこれまで物価が賃銀をリードしていたが、漸次その均衡が保たれてきそうだから、かつてのようなひどいインフレはもう来ないと思う。<br><br>現在の生産力が、戦前の六、七割程度を挽回してきたようだから、軍需のない現在の日本はほとんど戦前同様の状態に還っているとも言える。<br><br>だが、貿易が不振で滞貨が多いため、物が動かず、国内消化力も勿論増さないから一応不景気の様相を呈するであろう。<br><br>この際無駄を排し、貯金をしておけば、いかなる破局にも打ち勝つことができる。<br><br> 記者 今年の政治的見通しはいかがでしょう。<br><br> 大先生 私は政治には興味がないが、いまの日本に大政治家を求めるのは困難だ。<br><br>吉田さんあたりはまず日本にとっては第一人者と思う。<br><br>そうとうの見識もあり、強さもある。<br><br>私は個人的には吉田さんのように迎合しない人が好きだ。<br><br>今年いっぱい吉田さんにお任せしておけばまず無難でしょう。<br><br> 記者 終わりに全信徒への御言葉を賜りたい。<br><br> 大先生 年変われど改めて言う言葉もないが、為にせんとする策動に乗じられることなく意を安んじて、神の道に、虚心坦懐、精進することをくれぐれもお願いする。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Perspectivas para o Ano que se Inicia</h2>
 <p>Um Diálogo de Ano-Novo em Atami</p>
@@ -119,5 +271,48 @@ function toggleLang(lang) {
 <p><strong>Grande Mestre:</strong> Não tenho interesse em política, mas é difícil encontrar um grande estadista no Japão de hoje. Penso que alguém como o senhor Yoshida é, provavelmente, a figura mais proeminente para o país. Ele possui considerável discernimento e firmeza. Pessoalmente, aprecio pessoas como ele, que não se deixam levar por conveniências. Se deixarmos o governo em suas mãos por todo este ano, creio que tudo transcorrerá sem maiores percalços.</p>
 <p><strong>Repórter:</strong> Para finalizar, gostaríamos que deixasse uma mensagem a todos os fiéis.</p>
 <p><strong>Grande Mestre:</strong> O ano mudou, mas não tenho palavras novas a dizer. Rogo-lhes, encarecidamente, que não se deixem influenciar por maquinações que visem a desvirtuá-los. Mantenham a mente serena e, com um coração puro e desprendido, devotem-se ao Caminho de Deus.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新春熱海炉辺談 『光』43号、昭和25(1950)年1月1日発行 荊の道を越えつつ、いまこそ大いなる躍進の胎動する新春を迎え、三十万信徒の感激また新たなものがある。<br/><br/> これことごとく、剛気不動、明敏神技、ただ世紀の聖業成就に一身を抛（なげう）たれる自観大先生の偉大な霊力と威徳によらざるはないのである。<br/><br/> 新春劈頭（へきとう）、特に寸暇をさかれ本紙記者と対談された大先生の胸奥には、さらに人間世界未知の無量な秘境さえ窺（うかが）うことができた。<br/><br/> 以下新春熱海炉辺対談の概要を愛読者諸君におくる。<br/><br/> 記者 去年は教団にとってはそうとう多難な年だったと思われますが、これについてまず大先生の御感想をうけたまわりたい。<br/><br/> 大先生 一昨年は税金問題、去年はジャーナリズムの不当なる攻勢に遭い、いろんな意味において楽でなかった。<br/><br/>しかし私は決して、悲観もしなければ、自信も失わない。<br/><br/>むしろこのにがい試練こそ、神示による私の仕事にいっそう大きな恵沢（けいたく）を与えてくれたものと思っている。<br/><br/>なにしろ本教の発展はあまりにも急激だったため、道義失調の日本の一部の人たちから非常な嫉視感を持たれたのが、大きな原因だと思う。<br/><br/>これは、いかなる宗教といえどもある期間は免れ得ない運命で、過去の宗教の歴史によっても明らかだ。<br/><br/> 記者 この間、某大新聞社の幹部に会ったとき「なぜ日本のジャーナリズムは本教のみを批判の対象にするのか」と質（ただ）したら「いや、観音教を決して眼のカタキにしているのではない、新宗教を取り扱おうと思う場合、観音教がやはり日本で一番大きいからだ」との答えだった。<br/><br/>それにしてはジャーナリズムもずいぶん勝手放題な嫌がらせをやるもんですね。<br/><br/> 大先生 私はどんなことを書かれようと一つも気にしていない。<br/><br/>それはことごとく興味的作為によっているのであるから、こちらとしてはなんら恐るるところないからだ。<br/><br/>まあ、戦後派の邪神どもの寿命もさほど長くはないだろう。<br/><br/> 記者 教線の急速な膨脹に、指導上多少の無理が生じたのではないでしょうか。<br/><br/> 大先生 その憾（うら）みはたしかにあった。<br/><br/>外部が一遍に伸びると、どうしても内部がそれに歩調が揃わなくなるのは当然のことで、やはりこの場合はある程度膨脹力を制御することが必要であろう。<br/><br/>つまり私から言わしむればジャーナリズムの逆宜伝も、背後に神意の存していることを自覚すべきだと思う。<br/><br/>これは負け惜しみじゃないが、神はしばらく隠忍自重の時を私に籍（か）されたものと信じ、尺進寸退の形をあるいはとるもよいのではあるまいかと思う。<br/><br/> 神の絶対力あり 不当圧迫に堂々戦う 記者 大新聞にあれだけ悪意に満ちた報道をされると、たいがいのものはぺちゃんこになって潰（つぶ）れますが、本教の基盤の強さにはいささか驚きました。<br/><br/> 大先生 驚くには当たらない。<br/><br/>不当なる圧迫や権謀術策に堂々と太刀打ちできるだけの周到なる用意があるからだ。<br/><br/>その用意とはつまり神の絶対力である。<br/><br/>なんぴともこの神の尊厳をも破壊することはできないので、従ってわれわれには寸毫の邪悪のないことが明らかになろう。<br/><br/>みじんの邪心なく実に淡々、川の流れのごとく虚偽のない真実の力をもってやっている。<br/><br/>このことがみんなに判ればよいのだが、まだそれだけに日本の知的水準は達していない。<br/><br/>いかに偉大なる善事を施しても、一つ小さな欠点があると、それを欠点の全部に偽装して他人を陥れようとするのが日本人のイヤな癖だ。<br/><br/>こんな時代はまあ、あまり逆らわずに、順応主義でゆくのが賢明の策だと思う。<br/><br/>ここ当分、堅実第一を信条としたい。<br/><br/> 記者 ジャーナリズムの偽れる世論とはまさに逆比例して、本教によって救わるる人々が、いかに多くなってきたかを最近の数字がもっとも具体的に立証していますが、これはいかなるわけでしょう。<br/><br/> 大先生 それは霊界の曇りがしだいに解けてきたことを意味するものである。<br/><br/>つまり神の御光りが以前より強くなった顕れだ。<br/><br/>従って本教信者の浄霊力が強力になったわけである。<br/><br/>いまの私の霊力は以前の何倍かに増している。<br/><br/>また信徒の霊力も、おそらく私の二十年前くらいの力となって現われていると思う。<br/><br/>だからきかぬことは絶対ない。<br/><br/>ことに現在は日本の浄化作用が非常に激しいだけに、霊力がそれだけ効果的な働きをすることは科学的にも十分に説明されている。<br/><br/>（記者註、本紙第四二号所載、大先生論文「夜の終り近づけり汝等悔改めよ」を特に参照されたし） 記者 最近、日本の知識層でも、平和日本の根底をつくるには絶対的に宗教心だという意見が強くなっているが、これについての御意見はいかがですか。<br/><br/> 大先生 宗教心のない人間はダメだと私はいつも強調している通り、宗教こそ平和的なすべての基礎をつくるものと信じている。<br/><br/>しかしこの宗教といえども、いわゆる迷信邪教ではなんらの効力もない。<br/><br/>無価値な宗教は信ずるだけムダだ。<br/><br/>現在の日本には万人信頼のおける宗教は本教以外にない。<br/><br/>観音力の絶対性、これより他に本当に救われる力はない、欧米はやはりキリストだと思う。<br/><br/> 記者 本教の優位性を価値づける根拠は。<br/><br/> 大先生 現世利益にある。<br/><br/>仏教などが唱える来世の利益は、霊界と人間界をつなぐために、ある程度の必要はあるが、しかし今日、この苦難に喘ぐ日本人全体を救う道は、この世を天国化することにある。<br/><br/>勿論これはたいへんな事業であるが、私は日本人一人一人が真に本教の真髄を究めるなら、さほどの難業とは思わない。<br/><br/>私が言う「病、貧、争」のない世界とは、換言すればこの世の天国化である。<br/><br/>しかもこの三つのうち第一の病気をなくすることのみによって貧も、争も、おのずからなくなることは、敢（あ）えて多言を要しない。<br/><br/>病が貧乏の原因だぐらいのことはだれも知っている。<br/><br/>争もそうだ。<br/><br/>戦争は一国の病的症状から起きるのである。<br/><br/> 霊界明るくなる 光明の兆しあらわる 記者 講和会議の空気が濃くなり、日本の今年の年まわりはそうとう希望的のようですが、大先生の御意見はいかがでしょうか。<br/><br/> 大先生 いい年でもあり、悪い年でもある。<br/><br/>霊気が変わって霊界が明るくなったから、それに伴い光明の兆しがハッキリ出ている。<br/><br/>その代わり悪の世界は衰亡の一途を辿るであろう。<br/><br/>善事のために努力すれば必ず報いられるが、悪事を働けばすぐシッポがばれる。<br/><br/>つまり霊力によって悪の発見が早くなったのである。<br/><br/>悪人の大掃除時代、これが今年の日本の肩に課された負担である。<br/><br/>掃除されても、ごみ箱に捨てられぬぐらいのゴミならまだいい。<br/><br/>せいぜい、役立つゴミ程度までになっていないとたいへんだ。<br/><br/>この意味において要人どもには悪い年まわりと言えるのである。<br/><br/> 神の道に精進を 策動に乗らず進め 記者 今年の景気はどうなりますか。<br/><br/> 大先生 まだまだ、日本の財政はやりくり算段だから楽にはならない。<br/><br/>だがこれまで物価が賃銀をリードしていたが、漸次その均衡が保たれてきそうだから、かつてのようなひどいインフレはもう来ないと思う。<br/><br/>現在の生産力が、戦前の六、七割程度を挽回してきたようだから、軍需のない現在の日本はほとんど戦前同様の状態に還っているとも言える。<br/><br/>だが、貿易が不振で滞貨が多いため、物が動かず、国内消化力も勿論増さないから一応不景気の様相を呈するであろう。<br/><br/>この際無駄を排し、貯金をしておけば、いかなる破局にも打ち勝つことができる。<br/><br/> 記者 今年の政治的見通しはいかがでしょう。<br/><br/> 大先生 私は政治には興味がないが、いまの日本に大政治家を求めるのは困難だ。<br/><br/>吉田さんあたりはまず日本にとっては第一人者と思う。<br/><br/>そうとうの見識もあり、強さもある。<br/><br/>私は個人的には吉田さんのように迎合しない人が好きだ。<br/><br/>今年いっぱい吉田さんにお任せしておけばまず無難でしょう。<br/><br/> 記者 終わりに全信徒への御言葉を賜りたい。<br/><br/> 大先生 年変われど改めて言う言葉もないが、為にせんとする策動に乗じられることなく意を安んじて、神の道に、虚心坦懐、精進することをくれぐれもお願いする。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

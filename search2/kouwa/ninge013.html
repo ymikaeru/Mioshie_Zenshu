@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ninge013</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 ２ 013-033 四魂、霊の分類 013 神直日・大直日と四魂 神直日の神と大直日の神はいかなるお働きをお持ちで御座居ましょうか。<br><br> 直日の霊（身魂）は、直霊といって、一歩も悪は許さぬという真正直な魂の働きであって、これは経の働きで、緯の働きはない。<br><br> 神直日、大直日に見直し聞き直しという事をいう。<br><br>見直し聞き直しとは、許さるる事である。<br><br>神直日は真直であり、大直日は大乗で、これは正しい意味の経緯になっている。<br><br> 直日の働きに四魂が調えらるれば、四魂は善の働きとなるのである。<br><br>（S24. 3.12） 014 一霊四魂 真神霊、和魂、荒魂、奇魂、幸魂等の一霊四魂の意義について、御教示御願い申し上げます。<br><br> 幸魂――利他的、慈悲、幸福にする。<br><br>荒魂――暴力も悪の荒び。<br><br>和魂――人と和す、親しむ、怒らぬ働き。<br><br> 三魂でも二魂でも働けば大した事である。<br><br> 015 四魂の働き 和魂・奇魂・荒魂・幸魂についてお教えを御願いいたします。<br><br> 神道で唱える事で、和魂は人と親和する、平和的働きをする身魂で、幸魂は慈悲、人に幸を与える善魂と解すべきだ。<br><br>愛とか慈悲（和合）とかは和魂に共通している。<br><br>奇魂は智慧で、叡智であり、荒魂は勇気とか胆力である。<br><br> これは良い方の説明で、善の働きで、悪に働くと奸智とか邪智で、闇屋、詐欺師などになる。<br><br>殺人強盗など荒魂の悪い方へ働くと恐ろしい。<br><br>奇・荒魂悪用は危険。<br><br>和魂は親分子分の関係のごとくなると普通人より親和的で、悪者同志が仲良くなる事がある――野心もって仲良く側室になるなど。<br><br>幸魂は悪の方では使えぬ。<br><br>仲間を幸福にする事はない事はないが、それにより大多数を不幸にする。<br><br>本当からいえば、慈悲も愛もない。<br><br>社会事業でも慈善でも野心通りに使う。<br><br> 勇智親愛が平均して働くのが完全な魂の働きであるが、上等で二魂位で、二魂なら人格者である。<br><br>普通は一魂位である。<br><br>一方だけ働くと本当でない。<br><br>欠陥がある。<br><br> 智慧があって勇がないとか、理性的で暖かい感情が働かぬ等、どれも揃っているのはない。<br><br> 荒魂を沢山祀ったのは、戦国時代が続いたためと思う。<br><br>農民が詣るのは稲荷が本当だが、稲荷は花柳界などに働く――これは管轄違いである。<br><br>省みるのは奇魂で――。<br><br> 勇気は人に対する勇気より自分に対する勇が肝腎で、悪人は――悪を制える働きのないのは弱いので、悪人は弱い。<br><br>善人が弱者のように謂われるがこれは違う。<br><br> 今は意気地のない人間が多い。<br><br>本当の善人は悪を許さぬ。<br><br>悪と戦うのでなくてはならぬ。<br><br>ただ奇魂が働かぬと無駄をやる。<br><br>時期の来ない時にやるとこちらが負け、詰らない結果となる。<br><br>時待つ勇気――自分を自由にする力、これが勇気である。<br><br>人をどうこうする勇気はあるが人間は自分を――。<br><br> 第一の自分はあまり良くない。<br><br>第二の人生を作らねばならぬ。<br><br> 己を知る、宿命を知らねばならぬ。<br><br>（秀吉は）普通は傑物だが、この点が不足した。<br><br>（生まれたままではい……）秀吉は日本の天皇になろうとした。<br><br>また大明国の帝王になろうとし、その足掛りとして朝鮮をやった。<br><br>その範囲を逸脱して失敗した。<br><br>（S23. 9.21） 016 四魂、（誠と智慧） 四魂について詳しく御垂示御願い申し上げます。<br><br> 四魂とは人間のもっている性質を表わしたもので、神道で言う。<br><br> 荒魂は勇で、悪では暴力等。<br><br>奇魂は智で、悪では奸智、才智。<br><br>叡智は誠から発する。<br><br>誠がなくては出ない。<br><br>一切は誠があって智慧のないものが多い。<br><br>和魂は、悪では騙す、女を手なづける場合等。<br><br>幸魂は、これは悪い方には殆どない。<br><br>すべて善悪両方に働く。<br><br> 右の中二つでも働くものは大したもので、大抵は一つだけであるが、一つだけでは調和がとれぬ。<br><br>善い事でも、手段が当を得なくてはならぬ。<br><br>すべて智慧で、叡智が働かなくてはならぬし、これが土台にならなくてはいけない。<br><br>信仰を一口に言えば、智慧と誠である。<br><br>（S23） 017 四魂の調和 四魂についてお伺い申し上げます。<br><br> 四魂は神道の言い方である。<br><br>人間の性格の主なるものを四つに分けたものである。<br><br>平和的働きする身魂で、荒魂――勇（胆力）、奇魂――智（叡智）、和魂――和合（愛）、幸魂は慈悲――即ち人を幸福にする善魂である。<br><br>これらが同じように調和して働くといい。<br><br>大体二魂が働けばよい。<br><br> 不正な人が働かすと――悪の人が働かすといけない。<br><br>奇魂と荒魂を悪用されると危ない。<br><br>闇屋や詐欺師等はまずい。<br><br>昭電事件等、悪智慧――。<br><br>幸魂はあまり悪用はされぬ。<br><br>（S23.11. 4） 018 観音様と四魂 四魂観音について御説明願います。<br><br>なお、御四本一つ一つの御神名御教示願います。<br><br> 荒魂、奇魂、幸魂、和魂――これは神道でいう。<br><br>観音様のは四魂という事はない。<br><br>人間の性格の重要なるものを四つに分けてある。<br><br> 四魂の中、二魂でも働けば大した事である。<br><br>平均して同じように調和して働く事は一番いいし、正しく働くといい。<br><br>和魂は和合する。<br><br>悪い方なら道の違った和合などになる。<br><br>野心をもって仲良くして、利益になったりなどする。<br><br>幸魂は人を幸いにする。<br><br>親切等である。<br><br>野心があると自分の利益に利用するのがある。<br><br>社会事業でも慈善などでも、自分の野心遂行のために使う。<br><br> 019 四魂と個性 個性と四魂の関係―― 四魂は、四つの異った魂である。<br><br>四魂揃って働けば完全な人間である。<br><br>世間では、悪い事に四魂を働かす。<br><br> 勇・智・愛・親を、強盗したり、議員など乱闘する。<br><br>荒魂――犯罪者や詐欺師等。<br><br>奇魂――ヤクザ仁義とか、仲間同志の和合。<br><br>和魂――二号、三号を蓄えたりする。<br><br>幸魂――。<br><br> 右の中、特に働くものが個性に出る訳である。<br><br>四魂の一つなり二つなりが個性となる。<br><br>良い個性、悪い個性がある。<br><br> 020 四魂の意義 四つの魂の意味を御教示下さい。<br><br> 一霊四魂と言い、勇・智・愛・親である。<br><br>（S24. 9. 5） 021 人間霊魂の中心個所、（人体の天地） 人間の霊魂の中心は頭にあるのでしょうか。<br><br> 霊魂の中心は頭と腹で、頭は天帝、腹は臍で、天地になっている。<br><br>これは肉体的に言えるんで、顔にホクロのある人は必ず腹にホクロがある。<br><br> 東洋人は後頭部（感情）が発達しており、西洋人は前頭部（理性）が発達して広い。<br><br>（頭で考え、腹で実行する） 勇気とか胆力、決行力等は腹である。<br><br>奇魂は智慧で、（頭であり）荒魂は腹で、（両方で相談して物事を計る） 女は後頭部が発達しており、（学者などは前頭部が発達している） 心臓は愛で、愛はすべて温かい。<br><br>熱になる。<br><br>理性は冷性で、冷静の人は愛が少く、肺病になり易い。<br><br>（S23.10.13） 022 前頭と臍部の霊 前頭部の奥と臍とで天地になっているとの御言葉ですが、これは前頭部の奥にある本霊と腹部に宿る副霊とで天地になるという意味で御座いましょうか。<br><br>そうでなければ、どのような意味からで御座いましょうか。<br><br>御教示の程お願い申し上げます。<br><br> 本霊が二つになっている。<br><br>副霊とは関係ない。<br><br>一つの活動の元である。<br><br>善悪闘っている、それが人間の本体で、行動に表わすのが肚である。<br><br> 023 個性と霊の個性、失敗と迷いの本態 人の個性と霊の個性との間にはどの程度の繋りがありましょうか。<br><br> 個性には繋りも何もない。<br><br>同じ事である。<br><br>すべて霊の個性が表われるので、霊体は一致してるものである。<br><br> 人間には良心と悪心があって、大抵の人は二重人格で、ただそれが著しく表われるのとそうでないのとある。<br><br> 迷うという事は副霊と本霊との意志が争う事で、心が曇ってると魂はふさがれる。<br><br>普通は副守護神の考えの方が多く出る。<br><br>それで失敗し、後悔する。<br><br>「人生は失敗の連続である」と言った人があるのはそういう訳である。<br><br> 失敗した苦しみによって曇りがとれると魂の働きが出る。<br><br>そして正邪善悪の判断が正確になる。<br><br> 024 本能・理性・個性の真諦、（感情と理性） 本能、理性、個性の働きは何の働きによるのでしょうか。<br><br> 簡単にはいえない。<br><br>何の働きといってもこれが働きである。<br><br>簡単にはいえぬ。<br><br>本能は人間のいろいろの欲望で、良いとか悪いとかいえぬ。<br><br>これがなければ死人と同じである。<br><br>ただ、本能のままにしたら大変であるからある程度善化し、制限しなくてはならぬ。<br><br>それで自己批判の場合、智慧が必要で、その智慧が理性である。<br><br>信仰からいうと、副霊が本能のまま欲を起すと、その本能を制約するのが本守護神の働きで、これは神から戴いた分霊である。<br><br>人間は神の子、神の宮というのはそれである。<br><br> 理性によって、本能を取捨選択するんで、社会は構成される。<br><br> 本能は感情に属する。<br><br>理性と反対である。<br><br>感情に傾くと危険がある。<br><br>従って理性が必要である。<br><br>理性が勝ちすぎると木石の様になる。<br><br>故に、これを良く調和させる。<br><br>善悪正邪混合してその人の特性が表われる。<br><br>これが個性である。<br><br>頭で考える。<br><br>前頭で考える。<br><br>これが智慧証覚である。<br><br>（男、西洋人）は額が長く、（女、東洋人）は狭い、そして感情が発達している。<br><br>それで調和する。<br><br>熟慮断行というが、熟慮は頭、断行は腹である。<br><br>智慧は前頭部、愛情は後頭部で、どちらか偏ってもいけない。<br><br>四魂がいい按配に働かなくてはいけない。<br><br>智慧と勇気のみでは――愛がなくては智慧が働かぬ。<br><br>頭がよくても断行せぬと完成しない。<br><br>理性だけで愛情がないと人が慕って来ない。<br><br> （S23.10.17） 025 人間の本能（善悪あり） こうしたいああしたいというのは純粋の本能で、必ずしも善いとはいえぬ。<br><br>悪いのもある。<br><br>ドイツのニーチェは本能哲学を作った。<br><br>これはよく悪い事に利用される。<br><br>例えば女に噛りついて本能だというようなものである。<br><br>そうすると盗むのも本能である。<br><br>本能とはそれだけのもので、善でもあり悪でもある。<br><br>故に取捨選択よろしきを得る要がある。<br><br> 本能とはあるがままの人間の意欲である。<br><br>良い場合もある。<br><br>どっちかというと悪い場合が多い。<br><br>（S23. 7.12） 026 本能欲と副霊、（副霊憑依の年齢） 御著書に「副霊は二、三歳頃憑依する」と拝見致しますが、本能欲と副霊とは別の働きでございましょうか。<br><br>両者の関係について御伺い申し上げます。<br><br> 本能欲は副霊の働きである。<br><br>副霊は二、三歳から四、五歳より憑る。<br><br>（子供が乳を欲しがるのは本能欲でなく自然である）（S24. 2. 8） 027 精気と霊気、（精霊の本態） 精気と霊気とはどのように違うので御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 精気は上等の方で、稀薄である。<br><br>精気、霊気両方集って精霊となる。<br><br> 物質には霊気があって、精気はない。<br><br>生物は両方あるから精霊という。<br><br> 両方似てはいるが厳密にいえば違う。<br><br>（S24. 9. 2） 028 聖霊と精霊、霊 聖霊、精霊、霊というのは各々どういう風に違うのでしょうか。<br><br> 聖霊とは（偉い人）キリストとか釈迦等のように超人間的人であり、精霊は（普通）人間の霊であり、また物の霊をいうが動物の精霊は生霊と書くべきである。<br><br>（いかなる物にも霊はある）一切は滅びるとは、霊が脱（ぬ）けるのである。<br><br>石でも死石と生石とあり、死石はボロボロしている。<br><br>（S23.10.13） 029 霊・気・心・想念、（カキクケコ言霊義） 霊と気と心と思との言霊学上の関係をお伺い致します。<br><br> 霊はすべて霊で、気は霊の集注したもの。<br><br>コル――カキクケコの音はせばまる事である。<br><br> 霊は遍満して行き渉っている。<br><br> 気はその集注、凝結されたものである。<br><br>気はすべて凝るとか決める等の意がある。<br><br> 心は人間の精霊の中心。<br><br> 想いは想念、魂である。<br><br>魂の活動になると思えばよい。<br><br>（想）魂の活動と思えばよい。<br><br> 030 人間の分霊、（人間・動植物・鉱物の霊）、主宰神の分霊 神は分霊致されますが、人霊並びに動物、植物霊は分霊せぬものでしょうか。<br><br> 動植物一切分霊であるが、人間と分霊とは違う。<br><br>大宇宙の主宰神は全般的に分霊される。<br><br>一番最初の人間即ち造物主から作られた人類はこれから分れたのであるから、この人類の祖の人間の分霊が人間とも言える。<br><br>いわゆる神の分霊である。<br><br>しかし大きくいえば全部神様の分霊である。<br><br>霊の方は人間以外の動物は生霊と言い、人間の霊は精霊と言う。<br><br>植物の霊は無機物と有機物の中間帯である。<br><br>鉱物の霊はただ霊と言う。<br><br>精霊でないあらゆる霊も一切死と言う事はある。<br><br>あらゆるものは必ず滅しないものはない。<br><br>石でも生石と死石あり霊がぬけるとボロボロかける。<br><br>釈迦は一切空と言った。<br><br>これは霊を考えず物質だけで考えれば一切空になるので、生長の家などはそれからとったもので一切無であると説いている。<br><br>谷口氏は先に警察に呼ばれた時、本当は一切無いといっているが国家はどうなのか、ないのか、と尋ねられて困惑したことがあった。<br><br> rattail（注） 〔 妙智之光（地上天国12号） 昭和25(1950)年1月20日発行〕に掲載 031 人間の分霊可能か 慥かに多くなったり少くなったりする事はある。<br><br>人間の霊には分霊という事はない。<br><br> 神様は高級になる程いくらでも分霊が出来る。<br><br>狐などは、狐の眷族が方々へ憑るので、それが丁度分霊のようにみえる。<br><br>また霊は一瞬にしてどんな遠方でも行くから分霊されたように思える。<br><br>（S24） 032 石や木の霊 一、自然石や河、海にも霊がありますか。<br><br> 二、あれば、これらに対する吾々の心構えや取扱いをいかに心得べきや。<br><br> 一、時間がかかるから省略する。<br><br> 二、何でも霊はある。<br><br>ただ、霊と精霊とある。<br><br>精霊は生きた霊、生きたもの、生物の霊である。<br><br>自然石や木にも憑っているのといないのとある。<br><br>水際の石など龍神が多い。<br><br>そういう石を龍神の神体として昔はよく祭った。<br><br>木にも沢山ある。<br><br>古い木ほどある。<br><br>松の木はよく龍神が憑いている。<br><br>松は男、柳は女である。<br><br>先に大本教の頃、神様の松の木を切って上げた。<br><br>松の枝の霊（龍神）が妻君に憑いて祀ってくれと頼んだ事がある。<br><br> 石には死石と生石とあり、ボロボロ欠けるのは死石である。<br><br>腐って形がなくなるのは霊が脱ける。<br><br>物質は硬化して、ある時期に破壊される。<br><br>人間と同様である。<br><br> よく家に逆柱を立ててはいけないというが、霊界には順序があるから、知る必要がある。<br><br>また、表裏もある事を知るべきである。<br><br> 石でも、表を出すとか裏を出すとか、格好があるが、植木屋は無関心だから反対の事がよくある。<br><br> 033 植物の霊 森羅万象悉（ことごと）く霊が御座いますが、人間並に動物は死後霊界に行き幾許かの浄化作用後再生するのは、人間界、動物界のみで御座いましょうか。<br><br>また、植物は枯死後、いかなる事になるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 人間や動物は精霊で、植物は無機物で動物と物との中間で、半精霊である。<br><br>動物には生死があり――。<br><br> 植物へ霊が憑依する事がある。<br><br>これは動物の方が余計になる。<br><br>動物的植物である。<br><br>植物でも人間の言葉が判る。<br><br>花の咲かぬ木は、今年花咲かぬと切るというと咲かすという。<br><br>植物を伐ると祟る事がある、霊が憑依してるから――。<br><br>（S24. 5.21）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Artigos do Mestre Okada Jikanshi — A Essência do Ser Humano, Volume 2</h2>
 <p><strong>013-033 As Quatro Almas e a Classificação dos Espíritos</strong></p>
@@ -202,5 +354,48 @@ Nigimitama: É a atuação que busca a harmonia com o próximo, promove a afinid
 <p>Toda a criação possui espírito. Contudo, após a morte, apenas os seres humanos e os animais vão para o Mundo Espiritual para passar por um processo de purificação e posterior renascimento? E o que acontece com os vegetais depois que morrem? Rogo por vosso esclarecimento.</p>
 <p>Os seres humanos e os animais possuem um espírito sutil. Os vegetais, por sua vez, são seres inorgânicos que se encontram em um estado intermediário entre os animais e a matéria; são semi-espíritos sutis. Os animais têm vida e morte.</p>
 <p>É possível que um espírito se acople a um vegetal, embora isso seja mais comum em animais. Nesse caso, a planta se torna um vegetal com características animais. Os vegetais são capazes de compreender a linguagem humana. Diz-se que, se ameaçarmos cortar uma árvore que não floresce, dizendo: "Se não der flores este ano, vou cortá-la", ela florescerá. Às vezes, cortar uma planta pode atrair uma maldição, pois um espírito pode estar acoplado a ela. (21 de maio de 1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 ２ 013-033 四魂、霊の分類 013 神直日・大直日と四魂 神直日の神と大直日の神はいかなるお働きをお持ちで御座居ましょうか。<br/><br/> 直日の霊（身魂）は、直霊といって、一歩も悪は許さぬという真正直な魂の働きであって、これは経の働きで、緯の働きはない。<br/><br/> 神直日、大直日に見直し聞き直しという事をいう。<br/><br/>見直し聞き直しとは、許さるる事である。<br/><br/>神直日は真直であり、大直日は大乗で、これは正しい意味の経緯になっている。<br/><br/> 直日の働きに四魂が調えらるれば、四魂は善の働きとなるのである。<br/><br/>（S24. 3.12） 014 一霊四魂 真神霊、和魂、荒魂、奇魂、幸魂等の一霊四魂の意義について、御教示御願い申し上げます。<br/><br/> 幸魂――利他的、慈悲、幸福にする。<br/><br/>荒魂――暴力も悪の荒び。<br/><br/>和魂――人と和す、親しむ、怒らぬ働き。<br/><br/> 三魂でも二魂でも働けば大した事である。<br/><br/> 015 四魂の働き 和魂・奇魂・荒魂・幸魂についてお教えを御願いいたします。<br/><br/> 神道で唱える事で、和魂は人と親和する、平和的働きをする身魂で、幸魂は慈悲、人に幸を与える善魂と解すべきだ。<br/><br/>愛とか慈悲（和合）とかは和魂に共通している。<br/><br/>奇魂は智慧で、叡智であり、荒魂は勇気とか胆力である。<br/><br/> これは良い方の説明で、善の働きで、悪に働くと奸智とか邪智で、闇屋、詐欺師などになる。<br/><br/>殺人強盗など荒魂の悪い方へ働くと恐ろしい。<br/><br/>奇・荒魂悪用は危険。<br/><br/>和魂は親分子分の関係のごとくなると普通人より親和的で、悪者同志が仲良くなる事がある――野心もって仲良く側室になるなど。<br/><br/>幸魂は悪の方では使えぬ。<br/><br/>仲間を幸福にする事はない事はないが、それにより大多数を不幸にする。<br/><br/>本当からいえば、慈悲も愛もない。<br/><br/>社会事業でも慈善でも野心通りに使う。<br/><br/> 勇智親愛が平均して働くのが完全な魂の働きであるが、上等で二魂位で、二魂なら人格者である。<br/><br/>普通は一魂位である。<br/><br/>一方だけ働くと本当でない。<br/><br/>欠陥がある。<br/><br/> 智慧があって勇がないとか、理性的で暖かい感情が働かぬ等、どれも揃っているのはない。<br/><br/> 荒魂を沢山祀ったのは、戦国時代が続いたためと思う。<br/><br/>農民が詣るのは稲荷が本当だが、稲荷は花柳界などに働く――これは管轄違いである。<br/><br/>省みるのは奇魂で――。<br/><br/> 勇気は人に対する勇気より自分に対する勇が肝腎で、悪人は――悪を制える働きのないのは弱いので、悪人は弱い。<br/><br/>善人が弱者のように謂われるがこれは違う。<br/><br/> 今は意気地のない人間が多い。<br/><br/>本当の善人は悪を許さぬ。<br/><br/>悪と戦うのでなくてはならぬ。<br/><br/>ただ奇魂が働かぬと無駄をやる。<br/><br/>時期の来ない時にやるとこちらが負け、詰らない結果となる。<br/><br/>時待つ勇気――自分を自由にする力、これが勇気である。<br/><br/>人をどうこうする勇気はあるが人間は自分を――。<br/><br/> 第一の自分はあまり良くない。<br/><br/>第二の人生を作らねばならぬ。<br/><br/> 己を知る、宿命を知らねばならぬ。<br/><br/>（秀吉は）普通は傑物だが、この点が不足した。<br/><br/>（生まれたままではい……）秀吉は日本の天皇になろうとした。<br/><br/>また大明国の帝王になろうとし、その足掛りとして朝鮮をやった。<br/><br/>その範囲を逸脱して失敗した。<br/><br/>（S23. 9.21） 016 四魂、（誠と智慧） 四魂について詳しく御垂示御願い申し上げます。<br/><br/> 四魂とは人間のもっている性質を表わしたもので、神道で言う。<br/><br/> 荒魂は勇で、悪では暴力等。<br/><br/>奇魂は智で、悪では奸智、才智。<br/><br/>叡智は誠から発する。<br/><br/>誠がなくては出ない。<br/><br/>一切は誠があって智慧のないものが多い。<br/><br/>和魂は、悪では騙す、女を手なづける場合等。<br/><br/>幸魂は、これは悪い方には殆どない。<br/><br/>すべて善悪両方に働く。<br/><br/> 右の中二つでも働くものは大したもので、大抵は一つだけであるが、一つだけでは調和がとれぬ。<br/><br/>善い事でも、手段が当を得なくてはならぬ。<br/><br/>すべて智慧で、叡智が働かなくてはならぬし、これが土台にならなくてはいけない。<br/><br/>信仰を一口に言えば、智慧と誠である。<br/><br/>（S23） 017 四魂の調和 四魂についてお伺い申し上げます。<br/><br/> 四魂は神道の言い方である。<br/><br/>人間の性格の主なるものを四つに分けたものである。<br/><br/>平和的働きする身魂で、荒魂――勇（胆力）、奇魂――智（叡智）、和魂――和合（愛）、幸魂は慈悲――即ち人を幸福にする善魂である。<br/><br/>これらが同じように調和して働くといい。<br/><br/>大体二魂が働けばよい。<br/><br/> 不正な人が働かすと――悪の人が働かすといけない。<br/><br/>奇魂と荒魂を悪用されると危ない。<br/><br/>闇屋や詐欺師等はまずい。<br/><br/>昭電事件等、悪智慧――。<br/><br/>幸魂はあまり悪用はされぬ。<br/><br/>（S23.11. 4） 018 観音様と四魂 四魂観音について御説明願います。<br/><br/>なお、御四本一つ一つの御神名御教示願います。<br/><br/> 荒魂、奇魂、幸魂、和魂――これは神道でいう。<br/><br/>観音様のは四魂という事はない。<br/><br/>人間の性格の重要なるものを四つに分けてある。<br/><br/> 四魂の中、二魂でも働けば大した事である。<br/><br/>平均して同じように調和して働く事は一番いいし、正しく働くといい。<br/><br/>和魂は和合する。<br/><br/>悪い方なら道の違った和合などになる。<br/><br/>野心をもって仲良くして、利益になったりなどする。<br/><br/>幸魂は人を幸いにする。<br/><br/>親切等である。<br/><br/>野心があると自分の利益に利用するのがある。<br/><br/>社会事業でも慈善などでも、自分の野心遂行のために使う。<br/><br/> 019 四魂と個性 個性と四魂の関係―― 四魂は、四つの異った魂である。<br/><br/>四魂揃って働けば完全な人間である。<br/><br/>世間では、悪い事に四魂を働かす。<br/><br/> 勇・智・愛・親を、強盗したり、議員など乱闘する。<br/><br/>荒魂――犯罪者や詐欺師等。<br/><br/>奇魂――ヤクザ仁義とか、仲間同志の和合。<br/><br/>和魂――二号、三号を蓄えたりする。<br/><br/>幸魂――。<br/><br/> 右の中、特に働くものが個性に出る訳である。<br/><br/>四魂の一つなり二つなりが個性となる。<br/><br/>良い個性、悪い個性がある。<br/><br/> 020 四魂の意義 四つの魂の意味を御教示下さい。<br/><br/> 一霊四魂と言い、勇・智・愛・親である。<br/><br/>（S24. 9. 5） 021 人間霊魂の中心個所、（人体の天地） 人間の霊魂の中心は頭にあるのでしょうか。<br/><br/> 霊魂の中心は頭と腹で、頭は天帝、腹は臍で、天地になっている。<br/><br/>これは肉体的に言えるんで、顔にホクロのある人は必ず腹にホクロがある。<br/><br/> 東洋人は後頭部（感情）が発達しており、西洋人は前頭部（理性）が発達して広い。<br/><br/>（頭で考え、腹で実行する） 勇気とか胆力、決行力等は腹である。<br/><br/>奇魂は智慧で、（頭であり）荒魂は腹で、（両方で相談して物事を計る） 女は後頭部が発達しており、（学者などは前頭部が発達している） 心臓は愛で、愛はすべて温かい。<br/><br/>熱になる。<br/><br/>理性は冷性で、冷静の人は愛が少く、肺病になり易い。<br/><br/>（S23.10.13） 022 前頭と臍部の霊 前頭部の奥と臍とで天地になっているとの御言葉ですが、これは前頭部の奥にある本霊と腹部に宿る副霊とで天地になるという意味で御座いましょうか。<br/><br/>そうでなければ、どのような意味からで御座いましょうか。<br/><br/>御教示の程お願い申し上げます。<br/><br/> 本霊が二つになっている。<br/><br/>副霊とは関係ない。<br/><br/>一つの活動の元である。<br/><br/>善悪闘っている、それが人間の本体で、行動に表わすのが肚である。<br/><br/> 023 個性と霊の個性、失敗と迷いの本態 人の個性と霊の個性との間にはどの程度の繋りがありましょうか。<br/><br/> 個性には繋りも何もない。<br/><br/>同じ事である。<br/><br/>すべて霊の個性が表われるので、霊体は一致してるものである。<br/><br/> 人間には良心と悪心があって、大抵の人は二重人格で、ただそれが著しく表われるのとそうでないのとある。<br/><br/> 迷うという事は副霊と本霊との意志が争う事で、心が曇ってると魂はふさがれる。<br/><br/>普通は副守護神の考えの方が多く出る。<br/><br/>それで失敗し、後悔する。<br/><br/>「人生は失敗の連続である」と言った人があるのはそういう訳である。<br/><br/> 失敗した苦しみによって曇りがとれると魂の働きが出る。<br/><br/>そして正邪善悪の判断が正確になる。<br/><br/> 024 本能・理性・個性の真諦、（感情と理性） 本能、理性、個性の働きは何の働きによるのでしょうか。<br/><br/> 簡単にはいえない。<br/><br/>何の働きといってもこれが働きである。<br/><br/>簡単にはいえぬ。<br/><br/>本能は人間のいろいろの欲望で、良いとか悪いとかいえぬ。<br/><br/>これがなければ死人と同じである。<br/><br/>ただ、本能のままにしたら大変であるからある程度善化し、制限しなくてはならぬ。<br/><br/>それで自己批判の場合、智慧が必要で、その智慧が理性である。<br/><br/>信仰からいうと、副霊が本能のまま欲を起すと、その本能を制約するのが本守護神の働きで、これは神から戴いた分霊である。<br/><br/>人間は神の子、神の宮というのはそれである。<br/><br/> 理性によって、本能を取捨選択するんで、社会は構成される。<br/><br/> 本能は感情に属する。<br/><br/>理性と反対である。<br/><br/>感情に傾くと危険がある。<br/><br/>従って理性が必要である。<br/><br/>理性が勝ちすぎると木石の様になる。<br/><br/>故に、これを良く調和させる。<br/><br/>善悪正邪混合してその人の特性が表われる。<br/><br/>これが個性である。<br/><br/>頭で考える。<br/><br/>前頭で考える。<br/><br/>これが智慧証覚である。<br/><br/>（男、西洋人）は額が長く、（女、東洋人）は狭い、そして感情が発達している。<br/><br/>それで調和する。<br/><br/>熟慮断行というが、熟慮は頭、断行は腹である。<br/><br/>智慧は前頭部、愛情は後頭部で、どちらか偏ってもいけない。<br/><br/>四魂がいい按配に働かなくてはいけない。<br/><br/>智慧と勇気のみでは――愛がなくては智慧が働かぬ。<br/><br/>頭がよくても断行せぬと完成しない。<br/><br/>理性だけで愛情がないと人が慕って来ない。<br/><br/> （S23.10.17） 025 人間の本能（善悪あり） こうしたいああしたいというのは純粋の本能で、必ずしも善いとはいえぬ。<br/><br/>悪いのもある。<br/><br/>ドイツのニーチェは本能哲学を作った。<br/><br/>これはよく悪い事に利用される。<br/><br/>例えば女に噛りついて本能だというようなものである。<br/><br/>そうすると盗むのも本能である。<br/><br/>本能とはそれだけのもので、善でもあり悪でもある。<br/><br/>故に取捨選択よろしきを得る要がある。<br/><br/> 本能とはあるがままの人間の意欲である。<br/><br/>良い場合もある。<br/><br/>どっちかというと悪い場合が多い。<br/><br/>（S23. 7.12） 026 本能欲と副霊、（副霊憑依の年齢） 御著書に「副霊は二、三歳頃憑依する」と拝見致しますが、本能欲と副霊とは別の働きでございましょうか。<br/><br/>両者の関係について御伺い申し上げます。<br/><br/> 本能欲は副霊の働きである。<br/><br/>副霊は二、三歳から四、五歳より憑る。<br/><br/>（子供が乳を欲しがるのは本能欲でなく自然である）（S24. 2. 8） 027 精気と霊気、（精霊の本態） 精気と霊気とはどのように違うので御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 精気は上等の方で、稀薄である。<br/><br/>精気、霊気両方集って精霊となる。<br/><br/> 物質には霊気があって、精気はない。<br/><br/>生物は両方あるから精霊という。<br/><br/> 両方似てはいるが厳密にいえば違う。<br/><br/>（S24. 9. 2） 028 聖霊と精霊、霊 聖霊、精霊、霊というのは各々どういう風に違うのでしょうか。<br/><br/> 聖霊とは（偉い人）キリストとか釈迦等のように超人間的人であり、精霊は（普通）人間の霊であり、また物の霊をいうが動物の精霊は生霊と書くべきである。<br/><br/>（いかなる物にも霊はある）一切は滅びるとは、霊が脱（ぬ）けるのである。<br/><br/>石でも死石と生石とあり、死石はボロボロしている。<br/><br/>（S23.10.13） 029 霊・気・心・想念、（カキクケコ言霊義） 霊と気と心と思との言霊学上の関係をお伺い致します。<br/><br/> 霊はすべて霊で、気は霊の集注したもの。<br/><br/>コル――カキクケコの音はせばまる事である。<br/><br/> 霊は遍満して行き渉っている。<br/><br/> 気はその集注、凝結されたものである。<br/><br/>気はすべて凝るとか決める等の意がある。<br/><br/> 心は人間の精霊の中心。<br/><br/> 想いは想念、魂である。<br/><br/>魂の活動になると思えばよい。<br/><br/>（想）魂の活動と思えばよい。<br/><br/> 030 人間の分霊、（人間・動植物・鉱物の霊）、主宰神の分霊 神は分霊致されますが、人霊並びに動物、植物霊は分霊せぬものでしょうか。<br/><br/> 動植物一切分霊であるが、人間と分霊とは違う。<br/><br/>大宇宙の主宰神は全般的に分霊される。<br/><br/>一番最初の人間即ち造物主から作られた人類はこれから分れたのであるから、この人類の祖の人間の分霊が人間とも言える。<br/><br/>いわゆる神の分霊である。<br/><br/>しかし大きくいえば全部神様の分霊である。<br/><br/>霊の方は人間以外の動物は生霊と言い、人間の霊は精霊と言う。<br/><br/>植物の霊は無機物と有機物の中間帯である。<br/><br/>鉱物の霊はただ霊と言う。<br/><br/>精霊でないあらゆる霊も一切死と言う事はある。<br/><br/>あらゆるものは必ず滅しないものはない。<br/><br/>石でも生石と死石あり霊がぬけるとボロボロかける。<br/><br/>釈迦は一切空と言った。<br/><br/>これは霊を考えず物質だけで考えれば一切空になるので、生長の家などはそれからとったもので一切無であると説いている。<br/><br/>谷口氏は先に警察に呼ばれた時、本当は一切無いといっているが国家はどうなのか、ないのか、と尋ねられて困惑したことがあった。<br/><br/> rattail（注） 〔 妙智之光（地上天国12号） 昭和25(1950)年1月20日発行〕に掲載 031 人間の分霊可能か 慥かに多くなったり少くなったりする事はある。<br/><br/>人間の霊には分霊という事はない。<br/><br/> 神様は高級になる程いくらでも分霊が出来る。<br/><br/>狐などは、狐の眷族が方々へ憑るので、それが丁度分霊のようにみえる。<br/><br/>また霊は一瞬にしてどんな遠方でも行くから分霊されたように思える。<br/><br/>（S24） 032 石や木の霊 一、自然石や河、海にも霊がありますか。<br/><br/> 二、あれば、これらに対する吾々の心構えや取扱いをいかに心得べきや。<br/><br/> 一、時間がかかるから省略する。<br/><br/> 二、何でも霊はある。<br/><br/>ただ、霊と精霊とある。<br/><br/>精霊は生きた霊、生きたもの、生物の霊である。<br/><br/>自然石や木にも憑っているのといないのとある。<br/><br/>水際の石など龍神が多い。<br/><br/>そういう石を龍神の神体として昔はよく祭った。<br/><br/>木にも沢山ある。<br/><br/>古い木ほどある。<br/><br/>松の木はよく龍神が憑いている。<br/><br/>松は男、柳は女である。<br/><br/>先に大本教の頃、神様の松の木を切って上げた。<br/><br/>松の枝の霊（龍神）が妻君に憑いて祀ってくれと頼んだ事がある。<br/><br/> 石には死石と生石とあり、ボロボロ欠けるのは死石である。<br/><br/>腐って形がなくなるのは霊が脱ける。<br/><br/>物質は硬化して、ある時期に破壊される。<br/><br/>人間と同様である。<br/><br/> よく家に逆柱を立ててはいけないというが、霊界には順序があるから、知る必要がある。<br/><br/>また、表裏もある事を知るべきである。<br/><br/> 石でも、表を出すとか裏を出すとか、格好があるが、植木屋は無関心だから反対の事がよくある。<br/><br/> 033 植物の霊 森羅万象悉（ことごと）く霊が御座いますが、人間並に動物は死後霊界に行き幾許かの浄化作用後再生するのは、人間界、動物界のみで御座いましょうか。<br/><br/>また、植物は枯死後、いかなる事になるので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 人間や動物は精霊で、植物は無機物で動物と物との中間で、半精霊である。<br/><br/>動物には生死があり――。<br/><br/> 植物へ霊が憑依する事がある。<br/><br/>これは動物の方が余計になる。<br/><br/>動物的植物である。<br/><br/>植物でも人間の言葉が判る。<br/><br/>花の咲かぬ木は、今年花咲かぬと切るというと咲かすという。<br/><br/>植物を伐ると祟る事がある、霊が憑依してるから――。<br/><br/>（S24. 5.21）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

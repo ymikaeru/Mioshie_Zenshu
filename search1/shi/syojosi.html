@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syojosi</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小乗信仰 『救世』53号、昭和25(1950)年3月11日発行 今日宗教を批判する場合、こういう事をよく聞くのである、それは宗教の本来は教主初め幹部その他も、粗衣粗食茅屋（ぼうおく）に住み、出ずるに電車バスまたはテクで、出来るだけ質素にすべきであるというのである、なるほど、往昔（おうせき）の開祖教祖が信仰弘通（ぐつう）に当って、草鞋（わらじ）脚絆（きゃはん）で単身巷（ちまた）に出で街頭宣伝をやったり、時には野に伏し山に入り、断食をし滝にかかる等あらゆる辛酸を嘗（な）めたり、または牢獄へ投ぜられ、遠島の刑罰まで受けたのであるから、今日からみればその苦難の実蹟〔績〕は、涙なしでは見られないのである、そうしてようやく得たところは一区域一地方がようやくであって、大抵は死後数代または数十代を経てから全国的に拡がるという訳で、今日に比しその不遇に終始した事実は想像以上である。<br><br> 右のような実情が一般人の頭にコビリ着いているため、新宗教を見る場合もそういう眼鏡を通すので誤られやすいのは当然である、もちろんこのような宗教こそ小乗信仰というのである、この小乗信仰の発祥は最も古く釈迦誕生以前の印度（インド）に生まれたバラモン宗からで、この教の主眼とするところは、難行苦行によって悟りを開くとされている、今でも印度の一部にはこのバラモン行者が少数ではあるが残存しているそうで、彼らは相当霊力を発揮し、奇蹟も表わすそうである、彼のガンジーの断食行も彼が若い頃バラモン行者であったからであろう。<br><br> これについて面白い話がある、釈尊が八万四千の経文を説いたその根本はこうである、釈尊がその頃の印度の状態を客観する時、何しろバラモン宗が蔓（はびこ）っていたので、難行苦行をやらなければ悟りが開けないとなし、それが信仰の本道とされていたのである、今日日本各所に遺っている羅漢の絵画彫像はバラモン行者の難行苦行の姿であるにみて、いかなるものかが想像され得るであろう、ここにおいて釈尊の大慈悲心はこれを見るに忍びず難行苦行によらないで悟りを得る方法を開示されたのが彼の経文である、経文をただ読誦（とくしょう）するだけで難行苦行によらずとも、悟道に徹し得るというのであるから、それを初めて知った大衆の歓喜は言うまでもない、実に釈尊ほど有難い聖者はないとして敬慕讃仰し、ついに仏法は印度全般を風靡したのである、これによってみても釈尊の救業中、最も大なる功績がこれであったといえよう。<br><br> 小乗宗教は時代錯誤 以上の意味にみても、苦行的小乗信仰は釈尊の大慈大悲の御意志に背く訳で、実は釈尊の救いの対象であったバラモン宗に傾く訳であり、いかに誤っているかが判るであろう、ゆえに釈尊も極楽界においてさぞ歎かせられ給うと想うのである、右によってみても小乗信仰のいかに誤っており、時代錯誤であるかを知るべきである、また別の面から観る時、今日の宗教弘通（ぐつう）の上において、交通や出版術等の発達は、昔十年かかったものが一日で同様の事をなし得る以上どうしても時代に即応し文明の利器を極度に利用すべきが本当である、しかるに独り宗教のみが古代人的のやり方では、真目的が達し得られないのは判り切った話である、何よりの証拠は、今日既成宗教が時代から離れんとしつつある事実にみても余りに明らかである。<br><br> 従って、吾々が現に行いつつある宗教活動を見る時、小乗的眼鏡の持主は、ただ驚歎するのみで、真相の把握など想いもよらないのである、それだけならまだいいが、ある一部の人は吾らを目して金殿玉楼に住むとか、豪奢な生活をするとかの悪評を放つ事である、しかしながら、吾々は多数の信徒からの寄進のみで経営しつつある以上、金銭による必要はないと共に、仮に小乗信仰者の批評を是とすれば、せっかく寄進した食物も腐らすか、塵溜へ捨てなければならない事になろう、また種々の物品も闇で売る訳にもゆかず、返還する訳にもゆかない、しかも信徒の誠で大きな家を献納されるので、それを使用しない訳にもゆかない、それどころかそれによって人類を救うべき大きな仕事が出来るのだから、これらを考える時、小乗者の観方のいかに誤っているかが判るであろう。<br><br> 歓喜の生活つくる本教 しかも本教の理想とする所は、病貧争なき世界を作るにある以上、入信者のことごとくは健康で裕かで、和気藹々（あいあい）たる歓喜の生活者たり得るので、今日のごとき地獄的社会に呻吟しているものからみれば、想像も付かないばかりか、むしろ実現を否定し、大衆を釣るための好餌くらいにしか思わないであろう、そうして現在造りつつある地上天国の模型を、金殿玉楼的贅沢品くらいに思うかも知れないが、吾らの目的は今日の地獄的社会を脱（のが）れて、時々天国的塵外境に遊ばせ真善美の天国的気分に浴せしめ、歓喜の境地に浸りながら、高い情操を養わせるのであるから、いかに現代人にとって必要事であるかは、今更多言を要しないであろう、全く今日の社会の雰囲気では下劣な人間が造られ、青年を堕落させ、到るところ社会悪の温床たらざるはないのであるから、この地上天国こそ現代における唯一のオアシスと言ってもよかろう、吾らのこの遠大にして崇高なる計画を真に認識さるるにおいては、非難どころか双手（もろて）を挙げて賛意を表すべきである。<br><br> 次に今一つの重要事がある、それは日本人が過般の侵略戦争によっていかに世界から誤られ、信用を失墜したかは今更言うまでもないが、その信用を一日も早く挽回する事こそ吾らに課せられたる最も切実な問題であろう、この意味においても日本の自然美と日本人の特色である美的才能を示すべき重要施設であろう、今後益々外客の訪日に対し旅情を慰めると共に、日本高度の文化面を認識させる上にいかに役立つかは実現の暁世を挙げて讃美するであろう事を今より期待しているのである。<br><br> 以上が小乗信仰と大乗信仰の解説である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Equívoco da Fé do Pequeno Veículo</h2>
 <p>Ao se tecerem críticas à religião em nossos dias, é comum ouvir o argumento de que seus líderes, a começar pelo fundador e incluindo os dirigentes, deveriam viver de forma modesta: com vestes rústicas, alimentação frugal e moradas singelas, locomovendo-se por transporte público ou a pé. Em suma, deveriam conduzir-se com a máxima simplicidade. De fato, tal concepção se ampara no passado, quando os fundadores e patriarcas, para difundir sua fé, saíam sozinhos pelas ruas com sandálias de palha e perneiras a fim de realizar pregações. Não raro, dormiam ao relento, adentravam as montanhas, jejuavam, banhavam-se em cachoeiras e provavam toda sorte de amarguras; alguns foram até mesmo lançados ao cárcere ou condenados ao exílio. Vistas sob a ótica atual, suas provações são de comover às lágrimas. E, ao final de tudo, o alcance de sua obra mal se estendia a uma pequena região ou localidade. A expansão em âmbito nacional geralmente só ocorria muitas gerações após sua morte, o que demonstra que sua trajetória foi marcada por infortúnios que superam nossa imaginação.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Ademais, o ideal de nossa Igreja é a construção de um mundo isento de doença, pobreza e conflito. Por isso, todos os que a ela se filiam podem se tornar pessoas saudáveis e prósperas, vivendo em um estado de alegria, harmonia e congraçamento. Para aqueles que gemem sob o peso da sociedade infernal de hoje, tal realidade não só é inimaginável como também lhes parece uma promessa irrealizável, quiçá uma isca para atrair as massas. É provável que considerem o protótipo do Paraíso Terrestre que estamos construindo um mero artigo de luxo, um “palácio de ouro e jade”. Nosso propósito, no entanto, é permitir que as pessoas escapem da sociedade infernal e, de tempos em tempos, desfrutem de um refúgio celestial, alheio às mazelas do mundo. Queremos que se banhem na atmosfera paradisíaca do Verdadeiro Bem e do Belo e, imersas nesse estado de júbilo, cultivem um sentimento mais nobre. A necessidade de tal iniciativa no mundo atual dispensa maiores explicações. A atmosfera da sociedade de hoje inevitavelmente forja seres humanos de índole inferior, corrompe a juventude e serve de terreno fértil para os males sociais em toda parte. Portanto, este Paraíso Terrestre pode ser considerado o único oásis na era contemporânea. Se nosso plano, tão grandioso e sublime, fosse verdadeiramente compreendido, em vez de críticas, receberíamos o apoio entusiástico de todos.</p>
 <p>Há ainda outro ponto de suma importância. É desnecessário recordar o quanto a guerra de agressão que travamos no passado nos fez ser mal compreendidos pelo mundo e nos levou a perder a credibilidade internacional. Restaurar essa confiança o mais brevemente possível é, por certo, a questão mais premente que se impõe a nós. Nesse sentido, nossas construções constituem um empreendimento fundamental para revelar tanto a beleza natural do Japão quanto o talento estético que caracteriza seu povo. No futuro, à medida que aumente o fluxo de visitantes estrangeiros, elas servirão não apenas para lhes proporcionar um alento durante a viagem, mas também para lhes dar a conhecer uma faceta da elevada cultura japonesa. Temos a expectativa de que, quando nosso projeto se concretizar, o mundo inteiro o aclamará.</p>
 <p>O exposto acima é uma explanação sobre a fé do pequeno veículo e a fé do grande veículo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小乗信仰 『救世』53号、昭和25(1950)年3月11日発行 今日宗教を批判する場合、こういう事をよく聞くのである、それは宗教の本来は教主初め幹部その他も、粗衣粗食茅屋（ぼうおく）に住み、出ずるに電車バスまたはテクで、出来るだけ質素にすべきであるというのである、なるほど、往昔（おうせき）の開祖教祖が信仰弘通（ぐつう）に当って、草鞋（わらじ）脚絆（きゃはん）で単身巷（ちまた）に出で街頭宣伝をやったり、時には野に伏し山に入り、断食をし滝にかかる等あらゆる辛酸を嘗（な）めたり、または牢獄へ投ぜられ、遠島の刑罰まで受けたのであるから、今日からみればその苦難の実蹟〔績〕は、涙なしでは見られないのである、そうしてようやく得たところは一区域一地方がようやくであって、大抵は死後数代または数十代を経てから全国的に拡がるという訳で、今日に比しその不遇に終始した事実は想像以上である。<br/><br/> 右のような実情が一般人の頭にコビリ着いているため、新宗教を見る場合もそういう眼鏡を通すので誤られやすいのは当然である、もちろんこのような宗教こそ小乗信仰というのである、この小乗信仰の発祥は最も古く釈迦誕生以前の印度（インド）に生まれたバラモン宗からで、この教の主眼とするところは、難行苦行によって悟りを開くとされている、今でも印度の一部にはこのバラモン行者が少数ではあるが残存しているそうで、彼らは相当霊力を発揮し、奇蹟も表わすそうである、彼のガンジーの断食行も彼が若い頃バラモン行者であったからであろう。<br/><br/> これについて面白い話がある、釈尊が八万四千の経文を説いたその根本はこうである、釈尊がその頃の印度の状態を客観する時、何しろバラモン宗が蔓（はびこ）っていたので、難行苦行をやらなければ悟りが開けないとなし、それが信仰の本道とされていたのである、今日日本各所に遺っている羅漢の絵画彫像はバラモン行者の難行苦行の姿であるにみて、いかなるものかが想像され得るであろう、ここにおいて釈尊の大慈悲心はこれを見るに忍びず難行苦行によらないで悟りを得る方法を開示されたのが彼の経文である、経文をただ読誦（とくしょう）するだけで難行苦行によらずとも、悟道に徹し得るというのであるから、それを初めて知った大衆の歓喜は言うまでもない、実に釈尊ほど有難い聖者はないとして敬慕讃仰し、ついに仏法は印度全般を風靡したのである、これによってみても釈尊の救業中、最も大なる功績がこれであったといえよう。<br/><br/> 小乗宗教は時代錯誤 以上の意味にみても、苦行的小乗信仰は釈尊の大慈大悲の御意志に背く訳で、実は釈尊の救いの対象であったバラモン宗に傾く訳であり、いかに誤っているかが判るであろう、ゆえに釈尊も極楽界においてさぞ歎かせられ給うと想うのである、右によってみても小乗信仰のいかに誤っており、時代錯誤であるかを知るべきである、また別の面から観る時、今日の宗教弘通（ぐつう）の上において、交通や出版術等の発達は、昔十年かかったものが一日で同様の事をなし得る以上どうしても時代に即応し文明の利器を極度に利用すべきが本当である、しかるに独り宗教のみが古代人的のやり方では、真目的が達し得られないのは判り切った話である、何よりの証拠は、今日既成宗教が時代から離れんとしつつある事実にみても余りに明らかである。<br/><br/> 従って、吾々が現に行いつつある宗教活動を見る時、小乗的眼鏡の持主は、ただ驚歎するのみで、真相の把握など想いもよらないのである、それだけならまだいいが、ある一部の人は吾らを目して金殿玉楼に住むとか、豪奢な生活をするとかの悪評を放つ事である、しかしながら、吾々は多数の信徒からの寄進のみで経営しつつある以上、金銭による必要はないと共に、仮に小乗信仰者の批評を是とすれば、せっかく寄進した食物も腐らすか、塵溜へ捨てなければならない事になろう、また種々の物品も闇で売る訳にもゆかず、返還する訳にもゆかない、しかも信徒の誠で大きな家を献納されるので、それを使用しない訳にもゆかない、それどころかそれによって人類を救うべき大きな仕事が出来るのだから、これらを考える時、小乗者の観方のいかに誤っているかが判るであろう。<br/><br/> 歓喜の生活つくる本教 しかも本教の理想とする所は、病貧争なき世界を作るにある以上、入信者のことごとくは健康で裕かで、和気藹々（あいあい）たる歓喜の生活者たり得るので、今日のごとき地獄的社会に呻吟しているものからみれば、想像も付かないばかりか、むしろ実現を否定し、大衆を釣るための好餌くらいにしか思わないであろう、そうして現在造りつつある地上天国の模型を、金殿玉楼的贅沢品くらいに思うかも知れないが、吾らの目的は今日の地獄的社会を脱（のが）れて、時々天国的塵外境に遊ばせ真善美の天国的気分に浴せしめ、歓喜の境地に浸りながら、高い情操を養わせるのであるから、いかに現代人にとって必要事であるかは、今更多言を要しないであろう、全く今日の社会の雰囲気では下劣な人間が造られ、青年を堕落させ、到るところ社会悪の温床たらざるはないのであるから、この地上天国こそ現代における唯一のオアシスと言ってもよかろう、吾らのこの遠大にして崇高なる計画を真に認識さるるにおいては、非難どころか双手（もろて）を挙げて賛意を表すべきである。<br/><br/> 次に今一つの重要事がある、それは日本人が過般の侵略戦争によっていかに世界から誤られ、信用を失墜したかは今更言うまでもないが、その信用を一日も早く挽回する事こそ吾らに課せられたる最も切実な問題であろう、この意味においても日本の自然美と日本人の特色である美的才能を示すべき重要施設であろう、今後益々外客の訪日に対し旅情を慰めると共に、日本高度の文化面を認識させる上にいかに役立つかは実現の暁世を挙げて讃美するであろう事を今より期待しているのである。<br/><br/> 以上が小乗信仰と大乗信仰の解説である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281115</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月15日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月十五日 今度京都に行っていろいろなお寺を見てきました。<br><br>今度であらかたお寺は見てしまったような気がします。<br><br>一番見たかったのは正倉院です。<br><br>ちょうど奈良博物館に陳列されてあったので非常に落ち着いて見られました。<br><br>前に東京の博物館の時にはたいへんな人で、とても見られなかったのです。<br><br>それが今回は東京の博物館の人と、その方の道具屋の中でも一番の専門家の人と二人がよく説明してくれたので申し分なかったです。<br><br>それで正倉院の物も一部だそうですが、だいたい奈良朝時代としての特色ある物です。<br><br>しかし仏像はほとんどないです。<br><br>それですっかり見た結果認識が変わったのです。<br><br>というのは、世間で大騒ぎをやるほどの価値はないように思えるのです。<br><br>というのは、芸術的に見るとそれほどの価値はないのです。<br><br>なにしろほとんどの品物は調度品つまり室内家具が多かったのです。<br><br>だから芸術的に見るとそれほどの価値はないのです。<br><br>ただ千年以上前に、よくもこれほど巧みな物ができたというだけの話で、とうてい今はまねもできない、大天才が作ったという点ではないので、今でもあのとおりにこしらえようと思えばできます。<br><br>ただ古い時代にこれだけの物ができたというその価値です。<br><br>ですからもう一度見に行こうという気はありません。<br><br>これは遠慮なく言う話ですが、そういうようなわけで、あれは日本人だけで、外人が見たらそれほどの感激はないと思います。<br><br> それから今まで見たお寺で、一軒一軒見ても、本当にこれはという物は一つのお寺に一、二点です。<br><br>多くて四、五点くらいです。<br><br>今度行った三宝院＝醍醐にあるお寺＝は、なかなか有名なお寺で、お寺にしては割合にきれいに調ってます。<br><br>これは懐がよいためだと思いますが、お寺では一番裕福そうに見えます。<br><br>特に秀吉が力を入れたらしいのです。<br><br>醍醐の花見というのはこのお寺の地所の中でやったのです。<br><br>だからいろいろな道具がありました。<br><br>仏像はあまり頭に残る物はありません。<br><br>仏像はやはり奈良のお寺です。<br><br>それで、これはと思うのは宗達の屏風で、有名な「舞楽の図」ですが、これはたいした物です。<br><br>「舞楽の図」と「扇面ちらし」と両方ありますが、「扇面ちらし」の方は、絵はよくできてますが、最近やつれたので金箔をすっかり置き直したのです。<br><br>ですから非常にきれいですが、やはり絵と調和しないから、そこに難点があるわけです。<br><br>それで「舞楽の図」の方はそっくりそのままでなにも手をつけないから、これはすばらしい物です。<br><br>それから醍醐寺の庭は秀吉が随分指図して力を入れて造ったということになってますが、秀吉はああいう太っ腹の人だから、そういったおおまかな感じが出ているかというと、それが反対で、実に箱庭的のせせこましいオモチャみたいな物です。<br><br>見た人は知っているでしょう。<br><br>私はあの庭はむしろやり変えた方がよいと思います。<br><br>いかにもオモチャじみた物で、外人などには見せたくないくらいな物です。<br><br>京都の――たいていお寺ですが――庭というのは他の美術と比べて、あまりにかけ離れているのです。<br><br>京都は小堀遠州の庭が多いのですが、やはり遠州という人の性格がそうだったのだと思いますが、実に構想が小さ過ぎるのです。<br><br>それでお寺に行くといろんな説明をしてます。<br><br>これはいつのころ、何年に誰がどうしたとか言ってます。<br><br>これはお茶の影響もあります。<br><br>遠州も大茶人ですから。<br><br>これは狭い庭ならよいのです。<br><br>ところが大きな庭に茶人の庭を造ったからして、しっくりとゆかないのです。<br><br>結局京都は庭だけは失望するというわけです。<br><br>どこの庭を見ても坊さんの説明の方がずっと感心します。<br><br>まるでそこらに転がっている沢庵石みたいな物を、たいへんに由緒ある物のように巧みに説明してますが、それは実にうまいものです。<br><br>そういうわけで、私は今度の嵯峨の平安郷にはまるっきり違った、もっと大胆なアッとするような物を造ろうと思って、この間ちょっと設計しました。<br><br>それで京都の庭として、日本のいろんな草木、石、そういう物をあしらって造れば、こういう良い物ができるという見本のような物をこしらえようと思ってます。<br><br>それとともに各寺にある本尊様を除いた良い物を一カ所に集めて見せるという仏教美術館は、ぜひ造ろうと思って考えてます。<br><br>ですから京都には良い物がありながら生かすことができなかったのです。<br><br> それから『救世教奇蹟集』の新聞広告のことです。<br><br>広告文は私が随分骨を折って書いたのですが、読売は出しましたが、朝日、毎日は出さないのです。<br><br>それについて書いて、あの人たちに読ませようと思ってます。<br><br> （御論文「ジャーナリストと本教」） 【栄光 二三四号】 新聞の売薬広告についてですが、これが実によく売れるとみえて、一番広告欄を占めてます。<br><br>それについて書いてみました。<br><br> （御論文「新聞の売薬広告」） 【栄光 二三六号】 それでますます薬を多くのませつつあるのです。<br><br>滑稽なのは、これはアメリカで始めたのですが、どんな物にでもビタミンを入れるのです。<br><br>それをよいと思っているのだからしようがないです。<br><br>それから水には晒し粉だとか、いろんな消毒薬を入れるが、そういうように異物を人間の体にますます入れるようにしているのです。<br><br>だから体が弱り、浄化が停止されるから、そこで病気が起こらないのは、つまり弱るわけです。<br><br>つまり浄化作用の発生が弱るわけです。<br><br>そこで激しい病気は起こらないのです。<br><br>そのために寿命が延びたというので、これを医学の進歩だとしているのです。<br><br>だから、これはよく知っているでしょうが、人間の体を弱らせれば浄化が起こらないというわけです。<br><br>そういうようで今まではそれでよかったが、だんだん霊界が明るくなって火素が増えるに従って浄化力が強くなりますから、この浄化を押さえるやり方は、もうそんなに長くは続かないです。<br><br>まず続くとして二、三年でしょう。<br><br>その先は霊界の方の浄化力がずっと強くなります。<br><br>今年の米の不作もそれが大いに影響があるのです。<br><br>虫害が酷いということは浄化力が強いのです。<br><br>というのは土に汚物が溜まり、それを作物が吸うと、汚物を浄化する作用が強くなるのです。<br><br>そうすると汚物を食う虫が必要になるから、そこで虫が非常にわきやすいのです。<br><br>ところが人間の方も、もう数年以内に浄化力が強くなると、押さえきれなくなりますから、病人ができるのはたいへんなものです。<br><br>それこそアッチでもコッチでも死にます。<br><br>そこで初めて目が覚めるのです。<br><br>これはたびたび言ってますが、それがだいぶ近寄ってきました。<br><br> これは医学を説明するのに、こういう説明の仕方がよいと思って書いたのです。<br><br> （御論文「医学は迷信か」） 【栄光 二三五号】 これは少し違ったことですが、もっと長く書くつもりですが、その最初のほうです。<br><br> （御論文「私は神か人か（一）」）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Análise da Arte Clássica Japonesa</h2>
 <p>Recentemente, estive em Quioto e creio ter visitado a maior parte de seus templos. Meu maior anseio era conhecer o acervo do Shosoin. Felizmente, as peças estavam em exibição no Museu de Nara, onde pude apreciá-las com grande tranquilidade, ao contrário da experiência tumultuada que tive anteriormente no museu de Tóquio, em que a multidão tornava a visitação impraticável. Desta vez, tive a companhia de um especialista do museu de Tóquio e de um dos mais renomados antiquários, que me ofereceram explicações detalhadas, tornando a experiência impecável.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>A má colheita de arroz deste ano é um reflexo direto desse processo. A grande infestação de pragas ocorre porque a força purificadora já está mais intensa. O solo, saturado de impurezas, transfere-as para as plantas; para purificá-las, a natureza manifesta os insetos que se alimentam de tais toxinas. Da mesma forma, dentro de poucos anos, a força purificadora no ser humano será tão potente que não poderá mais ser suprimida. Testemunharemos, então, um aumento exponencial no número de doentes. As pessoas falecerão em toda parte. Somente diante de tal calamidade a humanidade finalmente despertará. Tenho repetido este alerta inúmeras vezes, e posso afirmar que esse tempo se aproxima.</p>
 <p>O texto a seguir foi escrito com o propósito de apresentar uma nova perspectiva para a compreensão da medicina.</p>
 <p>Por fim, apresento um tema de natureza distinta. Pretendo desenvolvê-lo com maior profundidade no futuro, mas compartilho aqui as reflexões iniciais.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年11月15日） 『御教え集』28号、昭和28(1953)年12月15日発行 昭和二十八年十一月十五日 今度京都に行っていろいろなお寺を見てきました。<br/><br/>今度であらかたお寺は見てしまったような気がします。<br/><br/>一番見たかったのは正倉院です。<br/><br/>ちょうど奈良博物館に陳列されてあったので非常に落ち着いて見られました。<br/><br/>前に東京の博物館の時にはたいへんな人で、とても見られなかったのです。<br/><br/>それが今回は東京の博物館の人と、その方の道具屋の中でも一番の専門家の人と二人がよく説明してくれたので申し分なかったです。<br/><br/>それで正倉院の物も一部だそうですが、だいたい奈良朝時代としての特色ある物です。<br/><br/>しかし仏像はほとんどないです。<br/><br/>それですっかり見た結果認識が変わったのです。<br/><br/>というのは、世間で大騒ぎをやるほどの価値はないように思えるのです。<br/><br/>というのは、芸術的に見るとそれほどの価値はないのです。<br/><br/>なにしろほとんどの品物は調度品つまり室内家具が多かったのです。<br/><br/>だから芸術的に見るとそれほどの価値はないのです。<br/><br/>ただ千年以上前に、よくもこれほど巧みな物ができたというだけの話で、とうてい今はまねもできない、大天才が作ったという点ではないので、今でもあのとおりにこしらえようと思えばできます。<br/><br/>ただ古い時代にこれだけの物ができたというその価値です。<br/><br/>ですからもう一度見に行こうという気はありません。<br/><br/>これは遠慮なく言う話ですが、そういうようなわけで、あれは日本人だけで、外人が見たらそれほどの感激はないと思います。<br/><br/> それから今まで見たお寺で、一軒一軒見ても、本当にこれはという物は一つのお寺に一、二点です。<br/><br/>多くて四、五点くらいです。<br/><br/>今度行った三宝院＝醍醐にあるお寺＝は、なかなか有名なお寺で、お寺にしては割合にきれいに調ってます。<br/><br/>これは懐がよいためだと思いますが、お寺では一番裕福そうに見えます。<br/><br/>特に秀吉が力を入れたらしいのです。<br/><br/>醍醐の花見というのはこのお寺の地所の中でやったのです。<br/><br/>だからいろいろな道具がありました。<br/><br/>仏像はあまり頭に残る物はありません。<br/><br/>仏像はやはり奈良のお寺です。<br/><br/>それで、これはと思うのは宗達の屏風で、有名な「舞楽の図」ですが、これはたいした物です。<br/><br/>「舞楽の図」と「扇面ちらし」と両方ありますが、「扇面ちらし」の方は、絵はよくできてますが、最近やつれたので金箔をすっかり置き直したのです。<br/><br/>ですから非常にきれいですが、やはり絵と調和しないから、そこに難点があるわけです。<br/><br/>それで「舞楽の図」の方はそっくりそのままでなにも手をつけないから、これはすばらしい物です。<br/><br/>それから醍醐寺の庭は秀吉が随分指図して力を入れて造ったということになってますが、秀吉はああいう太っ腹の人だから、そういったおおまかな感じが出ているかというと、それが反対で、実に箱庭的のせせこましいオモチャみたいな物です。<br/><br/>見た人は知っているでしょう。<br/><br/>私はあの庭はむしろやり変えた方がよいと思います。<br/><br/>いかにもオモチャじみた物で、外人などには見せたくないくらいな物です。<br/><br/>京都の――たいていお寺ですが――庭というのは他の美術と比べて、あまりにかけ離れているのです。<br/><br/>京都は小堀遠州の庭が多いのですが、やはり遠州という人の性格がそうだったのだと思いますが、実に構想が小さ過ぎるのです。<br/><br/>それでお寺に行くといろんな説明をしてます。<br/><br/>これはいつのころ、何年に誰がどうしたとか言ってます。<br/><br/>これはお茶の影響もあります。<br/><br/>遠州も大茶人ですから。<br/><br/>これは狭い庭ならよいのです。<br/><br/>ところが大きな庭に茶人の庭を造ったからして、しっくりとゆかないのです。<br/><br/>結局京都は庭だけは失望するというわけです。<br/><br/>どこの庭を見ても坊さんの説明の方がずっと感心します。<br/><br/>まるでそこらに転がっている沢庵石みたいな物を、たいへんに由緒ある物のように巧みに説明してますが、それは実にうまいものです。<br/><br/>そういうわけで、私は今度の嵯峨の平安郷にはまるっきり違った、もっと大胆なアッとするような物を造ろうと思って、この間ちょっと設計しました。<br/><br/>それで京都の庭として、日本のいろんな草木、石、そういう物をあしらって造れば、こういう良い物ができるという見本のような物をこしらえようと思ってます。<br/><br/>それとともに各寺にある本尊様を除いた良い物を一カ所に集めて見せるという仏教美術館は、ぜひ造ろうと思って考えてます。<br/><br/>ですから京都には良い物がありながら生かすことができなかったのです。<br/><br/> それから『救世教奇蹟集』の新聞広告のことです。<br/><br/>広告文は私が随分骨を折って書いたのですが、読売は出しましたが、朝日、毎日は出さないのです。<br/><br/>それについて書いて、あの人たちに読ませようと思ってます。<br/><br/> （御論文「ジャーナリストと本教」） 【栄光 二三四号】 新聞の売薬広告についてですが、これが実によく売れるとみえて、一番広告欄を占めてます。<br/><br/>それについて書いてみました。<br/><br/> （御論文「新聞の売薬広告」） 【栄光 二三六号】 それでますます薬を多くのませつつあるのです。<br/><br/>滑稽なのは、これはアメリカで始めたのですが、どんな物にでもビタミンを入れるのです。<br/><br/>それをよいと思っているのだからしようがないです。<br/><br/>それから水には晒し粉だとか、いろんな消毒薬を入れるが、そういうように異物を人間の体にますます入れるようにしているのです。<br/><br/>だから体が弱り、浄化が停止されるから、そこで病気が起こらないのは、つまり弱るわけです。<br/><br/>つまり浄化作用の発生が弱るわけです。<br/><br/>そこで激しい病気は起こらないのです。<br/><br/>そのために寿命が延びたというので、これを医学の進歩だとしているのです。<br/><br/>だから、これはよく知っているでしょうが、人間の体を弱らせれば浄化が起こらないというわけです。<br/><br/>そういうようで今まではそれでよかったが、だんだん霊界が明るくなって火素が増えるに従って浄化力が強くなりますから、この浄化を押さえるやり方は、もうそんなに長くは続かないです。<br/><br/>まず続くとして二、三年でしょう。<br/><br/>その先は霊界の方の浄化力がずっと強くなります。<br/><br/>今年の米の不作もそれが大いに影響があるのです。<br/><br/>虫害が酷いということは浄化力が強いのです。<br/><br/>というのは土に汚物が溜まり、それを作物が吸うと、汚物を浄化する作用が強くなるのです。<br/><br/>そうすると汚物を食う虫が必要になるから、そこで虫が非常にわきやすいのです。<br/><br/>ところが人間の方も、もう数年以内に浄化力が強くなると、押さえきれなくなりますから、病人ができるのはたいへんなものです。<br/><br/>それこそアッチでもコッチでも死にます。<br/><br/>そこで初めて目が覚めるのです。<br/><br/>これはたびたび言ってますが、それがだいぶ近寄ってきました。<br/><br/> これは医学を説明するのに、こういう説明の仕方がよいと思って書いたのです。<br/><br/> （御論文「医学は迷信か」） 【栄光 二三五号】 これは少し違ったことですが、もっと長く書くつもりですが、その最初のほうです。<br/><br/> （御論文「私は神か人か（一）」）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

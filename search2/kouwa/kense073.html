@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kense073</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 建設破壊篇 ５ 073-087 大光明世界 073 建設完成の時 光明世界建設が真に完成されるのは昭和何年頃ですか。<br><br> 建設されるのでなく、建設が始まるのである。<br><br>建設されるのは何百年という事はないが何十年はかかる。<br><br>今は破壊の手前で――局部的破壊は起っているが、世界中まだまだこんな事はない。<br><br> 建設が始まるのは数年で、破壊されて建設されるんでない。<br><br> キリスト教の中に――ある教会の神父だったが、「キリストの世の終りとは」と聞いた。<br><br>すると、「地球上の人間が皆死に、無の世界になる。<br><br>その後千年位経って、死んだ人が生きてくる。<br><br>これが復活だ」――と言った。<br><br>西蔵へ行った名僧故川口龍海という人にある人が訊いた。<br><br>「人間死ぬとどうなるか」と、「人間が死ぬと太霊に溶け込む」と言った。<br><br>つまり無くなってしまう事である。<br><br>大谷光瑞氏など、人間が死んで霊界へ行くような事はない。<br><br>もしそうなら、昔から死人は何億あるか知らぬ、それが一杯で、霊界は入る余地がなくなる――と言った。<br><br>ところが、幽霊は針の穴からも出入りするほど伸縮自在である。<br><br> 074 太陽と昼間の世界 昼間になるから太陽が出るのか、太陽が出るから昼間になるのか、どちらが根本でありますか。<br><br> これはどっちとも言えない、同時である。<br><br>それは死ぬから生命がなくなるか、生命がなくなるから死ぬのか、と言うのと同じ事になる。<br><br> 075 昼の世界の紫微宮 昼の世界になると仏界の紫微宮に当るところを何と申すのでしょう。<br><br> まだ名はない。<br><br>今度つける。<br><br>今ではここが紫微天宮である。<br><br> 076 理想世界の神霊と人霊の別、（順序確立） 理想世界における今迄の神霊と人間霊との差別及び取扱い方について御説明を御願い致します。<br><br> 理想世界では神霊、人霊の別ははっきりする。<br><br>今迄は上が下へ、下が上へ行っている。<br><br>人間もそうなっている。<br><br>それが今度は実際になる。<br><br>日本は特に早かった。<br><br>というのは、特権階級が落ちたりしたのは、順序の間違っていたのが訂正された第一歩が具体的に表われたのである。<br><br> 077 光明世界の宗教 光明世界になると宗教の要はなくなる。<br><br>病人があるから医学の要あり、罪人がある故に警察の要がある。<br><br>宗教は礼拝するものだけ残るが極く簡単になる。<br><br> 警察、法律の設備を誇るのは当らぬ。<br><br>自慢にならぬのみか恥辱である。<br><br> 聖徳太子は十七条で治められた。<br><br>太子は観音様で、宗教家よりも芸術家である。<br><br>推古仏――。<br><br> 「二十一世紀」、小説にかく。<br><br>（S23） rattail（注） 〔 二十一世紀 、 未発表、昭和23(1948)年執筆、未完成原稿。<br><br>〕 078 五六七の世の完成人とは 五六七の御代においては、完成した者のみが残されるごとく伺っておりますが、これまで手術をして内臓など片端になっております者は、いかがなものでしょうか。<br><br> 完成を体的に考えている。<br><br>霊的に考えなくてはいけない。<br><br>（S25. 5.23） 079 五六七の世の三界、（浄霊力） 夜の時代の霊界は天国、中有界、地獄の三段階に大別されていると言われておりますが、五六七の御代になれば何に変化致すものでしょうか。<br><br>御伺い申し上げます。<br><br>（例えば地獄界等は存続致すもので御座居ましょうか） 五六七の世になっても、地獄もあるが、極く少くなり、刑罰も軽くなる。<br><br> 天国は多くなる。<br><br>即賞即罰になる。<br><br> 浄霊も年々治りがいいのは、霊界の浄化力が殖えた訳で、薬はまた逆に利かなくなる。<br><br> 二十年前は大先生とて今の信者位しか治らなかった。<br><br>（S24.11.17） 080 光明世界の霊界と現界 光明世界においては、霊界と現界との関係はいかなるもので御座居ましょうか。<br><br> 霊界と現界は無論あるがピッタリする。<br><br>今は喰い違っている。<br><br>霊界に起った事が現界へ出るのが遅い。<br><br>光明世界になるとピッタリ一致する。<br><br>私などそうで、大先生が先になったり、霊界が先になったりする。<br><br>よく早すぎると神様が止める。<br><br>待ってるとピッタリする。<br><br> 悪い事が判るのも割に早くなった。<br><br>今迄は二代三代もして判る。<br><br>光明世界になるとすぐに知れる。<br><br>（極く最近の炭鉱国営など前は当然のようだったが、今度は暴露した。<br><br>段々早くなるとすぐ判る。<br><br>本当に暴けば全部そうだが、今の大臣は皆うまくやっている。<br><br>でなければ政党首領になれぬ。<br><br>いくら偉くても金を使はなければ絶対になれぬ。<br><br>今度の総選挙も運動費が大変である）（S23. 9. 2） 081 昼の世界の時所位、（人意でやり抜く誤り）、即賞即罰 昼の世界になれば地獄やこの世の苦もなくなると致しますれば、悪因悪果は解消する訳でしょうか。<br><br>また、悪を思い悪を行なうような無智な人は生存を許されなくなるのでしょうか。<br><br> 昼の世界における時所位とは――丁度「運命と宿命」とにおける宿命のごとく――人々の御霊の高下の「ワク」によるものでしょうか。<br><br>あるいは昼の世界建設の論功行賞によるのでしょうか。<br><br>または右の両方を兼ねたものによって決るのでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 悪の知れ方が早くなる。<br><br>今迄は時間を要した。<br><br>段々早く知れるようになる。<br><br>善い事も知れ方が早い。<br><br>悪い事をするのが詰らない事になる。<br><br>即賞即罰である。<br><br>病気のごとくで、今迄毒の固まったものを固めるようにしたが、明るくなると固まらぬ。<br><br>（夜の時代は二十年も三十年も知れず、悪い事して出世したので、みんな真似をしたが、昼になると今日の事が明日知れる。<br><br>病気も一時固めが出来ず、注射事件等もその現われである）注射液が悪かったのではないので、一時的予防の効果がなくなるのである。<br><br> 悪もそういう訳である。<br><br>収賄などの事も早くなった。<br><br>今度はどこまでも徹底してくる。<br><br>時所位を得る事は、自然に決る。<br><br> 人為的に考えてやるが、このほうが反っていけない。<br><br>（信仰も人為的ではいけない）人間の為し得る事はある程度やる。<br><br>どこまでも人間の考えでやり抜く――これがいけない。<br><br>（精神一到何事か成らざらん、は大いに間違っている。<br><br>病人等も生の執着の強いのは成績が悪い）人間の精神一到で行く位なら世の中は何でもない。<br><br>どんな事しても死ぬものかという人は大抵駄目である。<br><br>（S24. 1. 8） 082 五六七の世の地獄、（宗教家の失業） 五六七の御代には霊界の地獄はどうなりますでしょうか。<br><br> 地獄はズーッと少くなる。<br><br>重い刑罰はなくなる。<br><br>獄卒の失業者なども沢山出来る。<br><br>（肥料会社、薬剤師等）一番終りには宗教家が失業する。<br><br>（S23.12.22） 083 五六七の世は霊体一致、霊界事象移写の遅速、火災の真相 信仰雑話中に現界のあらゆる事象は霊界からの移写であるとお教え下さってありますが、最近各地に大火が起りますが、霊界にいかなる事象が起っているのでしょうか。<br><br> 霊界に事実起るが、なぜ起るか、その原因を査べるべきである。<br><br> 一つの浄化でいろんな汚れてるものを焼却しなければならぬためにどうしても焼く。<br><br> 焼く前に霊界で焼く、それが現界へ写る。<br><br> 例えば病人が痛むと、浄める。<br><br>すると霊の曇りが除れる。<br><br>すぐ治るのと時間のかかるのとある。<br><br>これは霊界の移写と同じ事である。<br><br>であるから、今日霊界にある事が、今日写る事も明日写る事もある。<br><br>年々写り方が早くなりつつある。<br><br> 五六七の世になると霊体一致で、霊界からすぐに写るようになる。<br><br> 五六七の世には、悪い事をすると見付かるのが早くなる。<br><br>遅いから悪が絶えぬ。<br><br>早く写ると悪は出来なくなる。<br><br>知れるのが早いか遅いかで決る。<br><br> 084 地上天国の理想と日本 地上天国の理想は日本国土のみではなく、世界全土の天国化を理想とするものと解釈してよいでしょうか。<br><br>またそうだとすれば、その時期は一時に来るものか、また日本より始まるもので御座居ましょうか。<br><br>御教え願います。<br><br> 世界的である。<br><br>日本だけ良くなっても本当に地上天国ではない。<br><br>日本だけ良くなろうというのが八紘一宇精神である。<br><br>自分の国さえよければよいというのは追放組の考えである。<br><br>ただ日本が見本をみせるという事はある。<br><br>軍備を撤廃したのもその一つである。<br><br>（S24. 6. 5） 085 世界一様、（一夫多妻、婦唱夫随） 世界の地上天国化はまず家庭からと承っておりますが、支那の一夫多妻や、西洋の婦唱夫随等の風習に対しては、世界救済のこの御道から見ていかに考えてまいるべきでございましょうか。<br><br>御伺い申し上げます。<br><br> こういう事は止まる事になる。<br><br>すべて世界中同じになる。<br><br>婦唱夫随も一夫多妻も本当でない。<br><br> 086 今後の世の在り方、（左上右下） 今迄は右へ傾いたり左へ傾いた。<br><br>今度は結ばれる。<br><br>左が上、右が下になる。<br><br> 087 地上天国の経済・政治 地上天国界における経済機構並びに政治機構―― みろくの世の経済や政治機構については、今に本が出来るから、それへ悉（くわ）しくかく。<br><br>経済機構は随分変るが、一つだけ話す。<br><br>それは、税金がなくなる。<br><br>無税となる。<br><br>あらゆる産業の法人や会社等の利益は三分する。<br><br>そして一分は政府、一分は資本家、一分は勤労者（労働者や技師等）に分配される。<br><br> 中小商工業以下組合があり、営業を一纏めにして三分の一にする。<br><br>その時代になると隠匿や誤魔化しがなくなる。<br><br>教団が広まるとそうなる。<br><br>税務所はなくなって簡単明瞭になる。<br><br>二重三重帳簿とか税吏やスパイ、刑事等のごときものはしなくてもよくなる。<br><br>熱海にいる頃など、警官が二人信者に化けて入った。<br><br>銀行へも査べに来た。<br><br> 政治機構は、天皇政治もなくなり、民主政治になるが、民主政といってもいくらか違う。<br><br>経もある。<br><br>十の字になるのである。<br><br> 天皇政治は、天皇を利用して、重臣達が自己の野心を遂げんとする弊がある。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mundo de Grande Luz</h2>
 <p><strong>073. O Tempo da Conclusão da Construção</strong></p>
@@ -155,5 +307,48 @@ function toggleLang(lang) {
 <p>As pequenas e médias empresas comerciais e industriais formarão cooperativas, consolidando suas operações para aplicar essa mesma divisão de um terço. Nessa era, a sonegação e a fraude desaparecerão. À medida que a nossa Igreja se expandir, essa realidade se concretizará. As repartições fiscais se tornarão obsoletas, e tudo será simples e claro. Não haverá mais necessidade de contabilidade dupla ou tripla, nem de fiscais, espiões ou detetives. Quando eu estava em Atami, dois policiais se infiltraram na Igreja, fingindo ser membros. Até o banco veio me investigar.</p>
 <p>Quanto à estrutura política, o regime imperial chegará ao fim e teremos uma democracia, embora com algumas diferenças. Haverá também um eixo espiritual. Formar-se-á uma cruz.</p>
 <p>O regime imperial tem a falha de permitir que altos conselheiros utilizem o Imperador para realizar suas próprias ambições.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 建設破壊篇 ５ 073-087 大光明世界 073 建設完成の時 光明世界建設が真に完成されるのは昭和何年頃ですか。<br/><br/> 建設されるのでなく、建設が始まるのである。<br/><br/>建設されるのは何百年という事はないが何十年はかかる。<br/><br/>今は破壊の手前で――局部的破壊は起っているが、世界中まだまだこんな事はない。<br/><br/> 建設が始まるのは数年で、破壊されて建設されるんでない。<br/><br/> キリスト教の中に――ある教会の神父だったが、「キリストの世の終りとは」と聞いた。<br/><br/>すると、「地球上の人間が皆死に、無の世界になる。<br/><br/>その後千年位経って、死んだ人が生きてくる。<br/><br/>これが復活だ」――と言った。<br/><br/>西蔵へ行った名僧故川口龍海という人にある人が訊いた。<br/><br/>「人間死ぬとどうなるか」と、「人間が死ぬと太霊に溶け込む」と言った。<br/><br/>つまり無くなってしまう事である。<br/><br/>大谷光瑞氏など、人間が死んで霊界へ行くような事はない。<br/><br/>もしそうなら、昔から死人は何億あるか知らぬ、それが一杯で、霊界は入る余地がなくなる――と言った。<br/><br/>ところが、幽霊は針の穴からも出入りするほど伸縮自在である。<br/><br/> 074 太陽と昼間の世界 昼間になるから太陽が出るのか、太陽が出るから昼間になるのか、どちらが根本でありますか。<br/><br/> これはどっちとも言えない、同時である。<br/><br/>それは死ぬから生命がなくなるか、生命がなくなるから死ぬのか、と言うのと同じ事になる。<br/><br/> 075 昼の世界の紫微宮 昼の世界になると仏界の紫微宮に当るところを何と申すのでしょう。<br/><br/> まだ名はない。<br/><br/>今度つける。<br/><br/>今ではここが紫微天宮である。<br/><br/> 076 理想世界の神霊と人霊の別、（順序確立） 理想世界における今迄の神霊と人間霊との差別及び取扱い方について御説明を御願い致します。<br/><br/> 理想世界では神霊、人霊の別ははっきりする。<br/><br/>今迄は上が下へ、下が上へ行っている。<br/><br/>人間もそうなっている。<br/><br/>それが今度は実際になる。<br/><br/>日本は特に早かった。<br/><br/>というのは、特権階級が落ちたりしたのは、順序の間違っていたのが訂正された第一歩が具体的に表われたのである。<br/><br/> 077 光明世界の宗教 光明世界になると宗教の要はなくなる。<br/><br/>病人があるから医学の要あり、罪人がある故に警察の要がある。<br/><br/>宗教は礼拝するものだけ残るが極く簡単になる。<br/><br/> 警察、法律の設備を誇るのは当らぬ。<br/><br/>自慢にならぬのみか恥辱である。<br/><br/> 聖徳太子は十七条で治められた。<br/><br/>太子は観音様で、宗教家よりも芸術家である。<br/><br/>推古仏――。<br/><br/> 「二十一世紀」、小説にかく。<br/><br/>（S23） rattail（注） 〔 二十一世紀 、 未発表、昭和23(1948)年執筆、未完成原稿。<br/><br/>〕 078 五六七の世の完成人とは 五六七の御代においては、完成した者のみが残されるごとく伺っておりますが、これまで手術をして内臓など片端になっております者は、いかがなものでしょうか。<br/><br/> 完成を体的に考えている。<br/><br/>霊的に考えなくてはいけない。<br/><br/>（S25. 5.23） 079 五六七の世の三界、（浄霊力） 夜の時代の霊界は天国、中有界、地獄の三段階に大別されていると言われておりますが、五六七の御代になれば何に変化致すものでしょうか。<br/><br/>御伺い申し上げます。<br/><br/>（例えば地獄界等は存続致すもので御座居ましょうか） 五六七の世になっても、地獄もあるが、極く少くなり、刑罰も軽くなる。<br/><br/> 天国は多くなる。<br/><br/>即賞即罰になる。<br/><br/> 浄霊も年々治りがいいのは、霊界の浄化力が殖えた訳で、薬はまた逆に利かなくなる。<br/><br/> 二十年前は大先生とて今の信者位しか治らなかった。<br/><br/>（S24.11.17） 080 光明世界の霊界と現界 光明世界においては、霊界と現界との関係はいかなるもので御座居ましょうか。<br/><br/> 霊界と現界は無論あるがピッタリする。<br/><br/>今は喰い違っている。<br/><br/>霊界に起った事が現界へ出るのが遅い。<br/><br/>光明世界になるとピッタリ一致する。<br/><br/>私などそうで、大先生が先になったり、霊界が先になったりする。<br/><br/>よく早すぎると神様が止める。<br/><br/>待ってるとピッタリする。<br/><br/> 悪い事が判るのも割に早くなった。<br/><br/>今迄は二代三代もして判る。<br/><br/>光明世界になるとすぐに知れる。<br/><br/>（極く最近の炭鉱国営など前は当然のようだったが、今度は暴露した。<br/><br/>段々早くなるとすぐ判る。<br/><br/>本当に暴けば全部そうだが、今の大臣は皆うまくやっている。<br/><br/>でなければ政党首領になれぬ。<br/><br/>いくら偉くても金を使はなければ絶対になれぬ。<br/><br/>今度の総選挙も運動費が大変である）（S23. 9. 2） 081 昼の世界の時所位、（人意でやり抜く誤り）、即賞即罰 昼の世界になれば地獄やこの世の苦もなくなると致しますれば、悪因悪果は解消する訳でしょうか。<br/><br/>また、悪を思い悪を行なうような無智な人は生存を許されなくなるのでしょうか。<br/><br/> 昼の世界における時所位とは――丁度「運命と宿命」とにおける宿命のごとく――人々の御霊の高下の「ワク」によるものでしょうか。<br/><br/>あるいは昼の世界建設の論功行賞によるのでしょうか。<br/><br/>または右の両方を兼ねたものによって決るのでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 悪の知れ方が早くなる。<br/><br/>今迄は時間を要した。<br/><br/>段々早く知れるようになる。<br/><br/>善い事も知れ方が早い。<br/><br/>悪い事をするのが詰らない事になる。<br/><br/>即賞即罰である。<br/><br/>病気のごとくで、今迄毒の固まったものを固めるようにしたが、明るくなると固まらぬ。<br/><br/>（夜の時代は二十年も三十年も知れず、悪い事して出世したので、みんな真似をしたが、昼になると今日の事が明日知れる。<br/><br/>病気も一時固めが出来ず、注射事件等もその現われである）注射液が悪かったのではないので、一時的予防の効果がなくなるのである。<br/><br/> 悪もそういう訳である。<br/><br/>収賄などの事も早くなった。<br/><br/>今度はどこまでも徹底してくる。<br/><br/>時所位を得る事は、自然に決る。<br/><br/> 人為的に考えてやるが、このほうが反っていけない。<br/><br/>（信仰も人為的ではいけない）人間の為し得る事はある程度やる。<br/><br/>どこまでも人間の考えでやり抜く――これがいけない。<br/><br/>（精神一到何事か成らざらん、は大いに間違っている。<br/><br/>病人等も生の執着の強いのは成績が悪い）人間の精神一到で行く位なら世の中は何でもない。<br/><br/>どんな事しても死ぬものかという人は大抵駄目である。<br/><br/>（S24. 1. 8） 082 五六七の世の地獄、（宗教家の失業） 五六七の御代には霊界の地獄はどうなりますでしょうか。<br/><br/> 地獄はズーッと少くなる。<br/><br/>重い刑罰はなくなる。<br/><br/>獄卒の失業者なども沢山出来る。<br/><br/>（肥料会社、薬剤師等）一番終りには宗教家が失業する。<br/><br/>（S23.12.22） 083 五六七の世は霊体一致、霊界事象移写の遅速、火災の真相 信仰雑話中に現界のあらゆる事象は霊界からの移写であるとお教え下さってありますが、最近各地に大火が起りますが、霊界にいかなる事象が起っているのでしょうか。<br/><br/> 霊界に事実起るが、なぜ起るか、その原因を査べるべきである。<br/><br/> 一つの浄化でいろんな汚れてるものを焼却しなければならぬためにどうしても焼く。<br/><br/> 焼く前に霊界で焼く、それが現界へ写る。<br/><br/> 例えば病人が痛むと、浄める。<br/><br/>すると霊の曇りが除れる。<br/><br/>すぐ治るのと時間のかかるのとある。<br/><br/>これは霊界の移写と同じ事である。<br/><br/>であるから、今日霊界にある事が、今日写る事も明日写る事もある。<br/><br/>年々写り方が早くなりつつある。<br/><br/> 五六七の世になると霊体一致で、霊界からすぐに写るようになる。<br/><br/> 五六七の世には、悪い事をすると見付かるのが早くなる。<br/><br/>遅いから悪が絶えぬ。<br/><br/>早く写ると悪は出来なくなる。<br/><br/>知れるのが早いか遅いかで決る。<br/><br/> 084 地上天国の理想と日本 地上天国の理想は日本国土のみではなく、世界全土の天国化を理想とするものと解釈してよいでしょうか。<br/><br/>またそうだとすれば、その時期は一時に来るものか、また日本より始まるもので御座居ましょうか。<br/><br/>御教え願います。<br/><br/> 世界的である。<br/><br/>日本だけ良くなっても本当に地上天国ではない。<br/><br/>日本だけ良くなろうというのが八紘一宇精神である。<br/><br/>自分の国さえよければよいというのは追放組の考えである。<br/><br/>ただ日本が見本をみせるという事はある。<br/><br/>軍備を撤廃したのもその一つである。<br/><br/>（S24. 6. 5） 085 世界一様、（一夫多妻、婦唱夫随） 世界の地上天国化はまず家庭からと承っておりますが、支那の一夫多妻や、西洋の婦唱夫随等の風習に対しては、世界救済のこの御道から見ていかに考えてまいるべきでございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> こういう事は止まる事になる。<br/><br/>すべて世界中同じになる。<br/><br/>婦唱夫随も一夫多妻も本当でない。<br/><br/> 086 今後の世の在り方、（左上右下） 今迄は右へ傾いたり左へ傾いた。<br/><br/>今度は結ばれる。<br/><br/>左が上、右が下になる。<br/><br/> 087 地上天国の経済・政治 地上天国界における経済機構並びに政治機構―― みろくの世の経済や政治機構については、今に本が出来るから、それへ悉（くわ）しくかく。<br/><br/>経済機構は随分変るが、一つだけ話す。<br/><br/>それは、税金がなくなる。<br/><br/>無税となる。<br/><br/>あらゆる産業の法人や会社等の利益は三分する。<br/><br/>そして一分は政府、一分は資本家、一分は勤労者（労働者や技師等）に分配される。<br/><br/> 中小商工業以下組合があり、営業を一纏めにして三分の一にする。<br/><br/>その時代になると隠匿や誤魔化しがなくなる。<br/><br/>教団が広まるとそうなる。<br/><br/>税務所はなくなって簡単明瞭になる。<br/><br/>二重三重帳簿とか税吏やスパイ、刑事等のごときものはしなくてもよくなる。<br/><br/>熱海にいる頃など、警官が二人信者に化けて入った。<br/><br/>銀行へも査べに来た。<br/><br/> 政治機構は、天皇政治もなくなり、民主政治になるが、民主政といってもいくらか違う。<br/><br/>経もある。<br/><br/>十の字になるのである。<br/><br/> 天皇政治は、天皇を利用して、重臣達が自己の野心を遂げんとする弊がある。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

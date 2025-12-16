@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>takaama</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 高天原の所在地 『光明世界』5号、昭和11(1936)年1月25日発行 世にタカマガハラ、と言いますが、あれは間違っております。<br><br>高天と書いてあるんで、天と言う字をマガと言う事はない。<br><br>天の岩戸と言う様にアメとかアマとか読むのであります。<br><br>いつの頃からか、マガと読んだのは邪神が、自分に都合のいいように、そう読ませたんだと思うのであります。<br><br>しからば高天原とは一体どこにあるかと申しますと、以前から、学者や宗教家達が研究しているんですが、今以て判らぬのであります。<br><br>中には、希臘（ギリシャ）とか、又は印度のヒマラヤ山とか、又は日本の伊勢だとか、信州にあるとか言う人もあって、高天原争いは、今以て決定しないのであります。<br><br> 所が実は、高天原は、どこにでもあるのであります、小にしては人間の体内即ち心の中であります。<br><br>頭と腹にあります。<br><br>頭は天の高天原であり、腹は地の高天原であり、頭と腹は天地になっているのであります。<br><br>心の中にも高天原があって、神仏を拝むという、この心が高天原で、信仰心のない人は、曇っていて、未だ高天原が開けていないのであります。<br><br>「高天原に神留ります。<br><br>」と祝詞にもありますけれど、信仰のある人の心には、確かに神様がおいでになるのでありますから、まず人間は、心に高天原を築かねばならぬのであります。<br><br>一家にしますと、神様や仏様が祭ってある所が高天原であります。<br><br>仏の方で極楽浄土、神道の方で高天原であります。<br><br>観音様は、神仏両方面のお働きになりますから、極楽浄土にも、高天原にも、御出でになる訳であります。<br><br>神や仏を祭ってないのは、その家には未だ、高天原がない訳であります。<br><br> 又一地方とか一町村の高天原はどこかといいますと、それは産土神社であります。<br><br>高天原に神集うなど言いますがそれは土地の神々が、産土神の御社へ集まられる事で、人間でも、信仰のある人達が、その神社などへ集まる、特に昔はそういう風に、何事も、神社へ集まっては相談をしたものであります。<br><br>今は、産土様というても、ほんの名前だけで、一年に一度祭礼の時、お神輿（みこし）の相談に集まる位のものであります。<br><br>ところで、今日重要な会議を待合とか料理屋で、芸者相手にするから、碌（ろく）な相談は出来っこない。<br><br>不正な問題や、疑獄など醸（かも）すのは当り前であります。<br><br>政党なども、何か問題を討議するに、そういう場所でやりますから、真に国家の為になる、正しい結論は得られないから、政党政治は世人から見放されるようになるのであります。<br><br>これも自業自得で仕様がありません。<br><br> 昔はすべて、神社で会議をしたんであります。<br><br>日本の内閣も、山王の日枝神社の側の山の上に造るとか、又は霞ヶ関に神殿を造り、祝詞を奏上し、斎戒沐浴して、御神霊の前で会議をする様にならなければ巧くゆく道理が無いとおもいます。<br><br>その様にすれば、防弾チョッキを着て、びくびくする必要もなく、涜職（とくしょく）大臣など出る訳はないのであります。<br><br>日本式の政治は、そうならなければならないのであります。<br><br>これが高天原の政治で神政であります。<br><br>又東京の高天原は宮城に当り、日本の高天原は伊勢になり世界の高天原は、本当の意味から言えば日本であります。<br><br> 基督（キリスト）教では、日曜毎に教会に行く事になっておりますが、これらも、その地方地方の人が、一週に一回、高天原へ行って、神の光に浴するのであって、まことに結構であります。<br><br>そういう具合に、高天原は到るところにあり、大中小と、それ相応にあるんであります。<br><br>こんな判り切った事が、未だ決まっていないのは、むしろ不思議と思うのであります。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Localização de Takamagahara</h2>
 <p>É comum ouvir a pronúncia Takamagahara, todavia, ela está equivocada. A escrita é composta pelos ideogramas <code>高天</code>, e o caractere <code>天</code> jamais possui a leitura “maga”. Sua pronúncia correta é “ame” ou “ama”, como bem se observa em “Ame-no-Iwato”. Acredito que essa pronúncia deturpada, “maga”, tenha sido disseminada em algum momento da história por espíritos malignos, que a impuseram para servir aos seus próprios desígnios.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Antigamente, todas as reuniões eram realizadas em santuários. Penso que o mesmo princípio deve ser aplicado ao gabinete do Japão. Não haverá sucesso em seus desígnios enquanto não se edificar um templo, seja no Monte Sanno, ao lado do Santuário Hie, seja em Kasumigaseki, e as reuniões não forem conduzidas perante o Espírito Divino, após a purificação do corpo e do espírito e a entoação da Oração. Se assim fosse, não haveria necessidade de usar coletes à prova de balas nem de viver em constante apreensão. Ministros corruptos, envolvidos em prevaricação, simplesmente não surgiriam. A política genuinamente japonesa deve seguir esse modelo. Esta é a política de Takamagahara, o governo divino.</p>
 <p>Seguindo essa lógica, a Takamagahara de Tóquio corresponde ao Palácio Imperial; a do Japão, ao Grande Santuário de Ise; e, em seu sentido mais profundo, a Takamagahara do mundo é o próprio Japão.</p>
 <p>O Cristianismo, por exemplo, instituiu a prática de ir à igreja todos os domingos. Isso também representa uma forma de as pessoas de cada localidade se dirigirem, uma vez por semana, à sua Takamagahara para serem banhadas pela Luz de Deus, o que é, de fato, algo esplêndido. Nesse sentido, compreendemos que Takamagahara existe em todos os lugares e em diferentes escalas – grande, média e pequena –, cada qual com sua devida correspondência. Causa-me certa estranheza, portanto, que um princípio tão evidente ainda não tenha sido compreendido e estabelecido.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 高天原の所在地 『光明世界』5号、昭和11(1936)年1月25日発行 世にタカマガハラ、と言いますが、あれは間違っております。<br/><br/>高天と書いてあるんで、天と言う字をマガと言う事はない。<br/><br/>天の岩戸と言う様にアメとかアマとか読むのであります。<br/><br/>いつの頃からか、マガと読んだのは邪神が、自分に都合のいいように、そう読ませたんだと思うのであります。<br/><br/>しからば高天原とは一体どこにあるかと申しますと、以前から、学者や宗教家達が研究しているんですが、今以て判らぬのであります。<br/><br/>中には、希臘（ギリシャ）とか、又は印度のヒマラヤ山とか、又は日本の伊勢だとか、信州にあるとか言う人もあって、高天原争いは、今以て決定しないのであります。<br/><br/> 所が実は、高天原は、どこにでもあるのであります、小にしては人間の体内即ち心の中であります。<br/><br/>頭と腹にあります。<br/><br/>頭は天の高天原であり、腹は地の高天原であり、頭と腹は天地になっているのであります。<br/><br/>心の中にも高天原があって、神仏を拝むという、この心が高天原で、信仰心のない人は、曇っていて、未だ高天原が開けていないのであります。<br/><br/>「高天原に神留ります。<br/><br/>」と祝詞にもありますけれど、信仰のある人の心には、確かに神様がおいでになるのでありますから、まず人間は、心に高天原を築かねばならぬのであります。<br/><br/>一家にしますと、神様や仏様が祭ってある所が高天原であります。<br/><br/>仏の方で極楽浄土、神道の方で高天原であります。<br/><br/>観音様は、神仏両方面のお働きになりますから、極楽浄土にも、高天原にも、御出でになる訳であります。<br/><br/>神や仏を祭ってないのは、その家には未だ、高天原がない訳であります。<br/><br/> 又一地方とか一町村の高天原はどこかといいますと、それは産土神社であります。<br/><br/>高天原に神集うなど言いますがそれは土地の神々が、産土神の御社へ集まられる事で、人間でも、信仰のある人達が、その神社などへ集まる、特に昔はそういう風に、何事も、神社へ集まっては相談をしたものであります。<br/><br/>今は、産土様というても、ほんの名前だけで、一年に一度祭礼の時、お神輿（みこし）の相談に集まる位のものであります。<br/><br/>ところで、今日重要な会議を待合とか料理屋で、芸者相手にするから、碌（ろく）な相談は出来っこない。<br/><br/>不正な問題や、疑獄など醸（かも）すのは当り前であります。<br/><br/>政党なども、何か問題を討議するに、そういう場所でやりますから、真に国家の為になる、正しい結論は得られないから、政党政治は世人から見放されるようになるのであります。<br/><br/>これも自業自得で仕様がありません。<br/><br/> 昔はすべて、神社で会議をしたんであります。<br/><br/>日本の内閣も、山王の日枝神社の側の山の上に造るとか、又は霞ヶ関に神殿を造り、祝詞を奏上し、斎戒沐浴して、御神霊の前で会議をする様にならなければ巧くゆく道理が無いとおもいます。<br/><br/>その様にすれば、防弾チョッキを着て、びくびくする必要もなく、涜職（とくしょく）大臣など出る訳はないのであります。<br/><br/>日本式の政治は、そうならなければならないのであります。<br/><br/>これが高天原の政治で神政であります。<br/><br/>又東京の高天原は宮城に当り、日本の高天原は伊勢になり世界の高天原は、本当の意味から言えば日本であります。<br/><br/> 基督（キリスト）教では、日曜毎に教会に行く事になっておりますが、これらも、その地方地方の人が、一週に一回、高天原へ行って、神の光に浴するのであって、まことに結構であります。<br/><br/>そういう具合に、高天原は到るところにあり、大中小と、それ相応にあるんであります。<br/><br/>こんな判り切った事が、未だ決まっていないのは、むしろ不思議と思うのであります。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

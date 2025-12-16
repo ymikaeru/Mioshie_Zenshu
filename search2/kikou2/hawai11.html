@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai11</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（11） 樋口喜代子 ハワイ在住の信者布教に活躍 『栄光』233号、昭和28(1953)年11月4日発行 御明主様に日々の限りなき御守護の数々に対し厚く厚く御礼を申し上げて下さいませ。<br><br> 十六日付のお手紙、昨日拝受致しました。<br><br>勿体なき御言葉を頂き、ただただ有難く涙と共に拝読いたしました。<br><br>何から何まで御守護を頂き本当に胸つまる思いでおります。<br><br>まず布教の方の御報告をさせて頂きます。<br><br> 先週十二日から一週間、この前の御報告通り安食さんと二人で、マウイ島ワイルクヘ教修に行って参り、十七日土曜日に帰りました日本語、英語と二つの組に分けて教修会を開きましたがどちらも聴講者は三、四十名あり、お守様を拝受した人数は合計五十五名でございました。<br><br>ながく浄霊を受けて待っていた人が多いだけに熱心で、信仰的で、瀬良さん（マウイ島担当の布教者）のコツコツとした布教によりじっくりと育って来たという感じが致します。<br><br>中に、おじい様の喉頭癌を殆んどよくしていただいたというお蔭をいただいて、一族六人が入信した家族がありますが、この家等はお守様をお受けする前から五エーカーの土地を全部自然栽培に切りかえるという熱心さでございます。<br><br>やはり田舎の方がわかりかければ純すいな信仰に行く様に思われます。<br><br> ポルトガル人二名入信、一名は三年位前から精神病で困り果て主人が一家四人心中をしようというところまで来ておりましたのを救われた家庭で、白人である主人は二カ月前に入信、この度その夫人が入信させていただきました。<br><br>まだ少し変な風になる時がありますがお守様は大丈夫でしょうと思われましたのでお下渡しさせていただきました。<br><br>近く御神体をおまつりしたい希望で、床の間を作るそうでございます。<br><br> 今一人は老人（男）でございますが、その姪になる二十七歳の人が約十四年間、母親の死後一週間後より急に頭が飛上るように震えるという状態になり、外を歩くのも恥ずかしく困り抜いていたのが、四回の浄霊により殆んど普通とならせていただき、又本人自身は三十年間の喘息が大変よくなり「二十年間分はよくしていただいた」と申し喜んで入信、熱心でございます。<br><br> マウイ島で御神体希望者が前の白人を入れてこの度、三名になりました。<br><br> カワイ島が新しく開ける機運となりました。<br><br>面本さんとワヒアワの熱心な信者さん二名（河原茂夫様と松本昌一様―共にハワイ教会の役員）が一人は店を閉じ一人は仕事を休んで一週間布教に出かけられました。<br><br>最初は「今度はだまされるこっちゃあない」という様な雰囲気の中で中々苦労をされた様子でございますが大変おかげをいただかれ希望者が多く、仮教修のためおともしていただいたお守様五体だけを間配る様にしてお下渡しして帰られました。<br><br>一地方では顕著なお蔭があり（一婦人二、三年前、医師のすすめにて人工流産後、膣痙攣、不感症にていうにいわれぬ苦労をしていた人が一回の浄霊にてすっかり苦痛を忘れ、今一人長年の糖尿病にて頭痛、眼うすく、尿近く、腕痛く耳が鳴るという老人がやはり一回にて、顕著なお蔭をいただく）もう二十名位の入信希望者が出来ているそうで、教修会を急がれており、こちらは身体が二つずつほしい様で、嬉しい悲鳴をあげております。<br><br>十一月初旬頃都合をつけて行きましょうかと考えております。<br><br> 昨日からワヒアワへ教修に来ております。<br><br>いつものパーラーでは手狭になり、クラブハウスをかりて開いておりますが、八十名から百名近く人が集りました。<br><br>入信者は未定でございますが、四、五十名かと思っております。<br><br>二十三日にここの教修を終えて、ホノルルへ帰り、二十五日にはホノルルの日曜の教修の最終日に当りますので、お守様のお下渡し式をさせて頂きますが、四十各位の予定でございます。<br><br>新しい家の事を一寸御報告申し上げます。<br><br>改修の予定を作る都合上、建設委員長になって下さった信者の方で設計家（藤岡さん）に家を見て戴きましたところ、専門家の眼から見て、素晴しい買物であったと口を極めて喜んで下さいました。<br><br>材料の良い点、造り方―細かく行き届いて造られている点、二十五年以上の家ながら虫に余りやられていないこと、風通のよさ、景色のよさ、又教会として改修するために費用をさほどかけずに直し易い家はまず外には無いであろうという事でございます。<br><br>家の価格は土地の値段を差引きますと、一万二千円位になりますが今建てれば五、六万円はかかりますそうでございます。<br><br>私共には専門的な事は全然わかりませんでしたが、場所と家の感じとから将来のため、最もよいという感じを受けましたので、人にとられぬ内にと急に定めた訳でございましたが、専門家に調べてもらった結果が予期以上によく、これは全く神様に定めていただいた教会と思いただただ感激の外はないのでございます。<br><br>御守護を厚く御礼申し上げます。<br><br>近日中に設計家の方に大体の図面を画いていただき、お目にかけたく思っておりますが、右の様な事情でございますから、この機会に相当思い切って改修してしまった方がよい様に思われます故、大体その方針で予算の許す範囲内で進むつもりでおります。<br><br>二階に相当に広い御神前と階下に広い集会所が出来る見込みでございます。<br><br>未だ政府の許可がおりませんが、下り次第一週間位の内には引移るつもりでございます。<br><br> 同じ場所に、雇用人の家になっていた一寸した家があり、それを役員の一人が買われましたので、当分その家を借りて改修中はそこで御用をする事になる予定でございます。<br><br> 先日マウイ島で一日、四時からお暇をいただき数名の信者さんとハレヤカラ火山に登りました。<br><br>火口の多い事で世界一といわれている山だそうですが、生憎霧が深くて火口は見えませんでしたが、雲海の彼方に沈み行く夕日の壮観を拝み、久し振で毛布を着てもまだ寒い空気にふれて、ハワイの暑さでだらけていた身体がキウーッと引きしまり何ともいえず嬉しゅうございました。<br><br>ハレヤカラは一万二千呎（フィート）の高山でございますが道路が発達した国では自動車で夕方から登りましても、一時間年位で頂上を極める事が出来て便利でございます。<br><br>今日この頃の日本の秋景色をなつかしく思い出しました。<br><br>この日昼間はラハイナというハワイで一番暑い所へ行き、夕方は冬の様な寒さを味わい面白うございました。<br><br> もう直き夜の教修が始りますからこれで失礼致します。<br><br>皆様によろしくお伝え下さいませ。<br><br>乱筆お許し下さいませ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Relatório das Atividades Missionárias no Havaí</h2>
 <p>Por favor, transmita a Meishu-Sama minha profunda e sincera gratidão por Suas inúmeras e incessantes proteções. Recebi ontem a carta de Vossa Senhoria, datada do dia dezesseis. As palavras tão imerecidas que me foram dirigidas levaram-me às lágrimas, e as li com um sentimento de pura gratidão. Sinto o coração transbordar de emoção, ao constatar o amparo divino que recebemos em absolutamente todos os aspectos de nossa vida.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>A permissão do governo ainda não foi emitida, mas planejamos nos mudar cerca de uma semana após a sua liberação. No mesmo terreno, há uma casa menor que era utilizada por funcionários, a qual foi adquirida por um dos diretores. Planejamos utilizá-la provisoriamente como nosso escritório durante o período da reforma.</p>
 <p>Recentemente, em Maui, tirei uma tarde de folga, a partir das quatro horas, e subi o vulcão Haleakalā com alguns membros. Embora o monte seja famoso por possuir o maior número de crateras do mundo, uma névoa densa nos impediu de vê-las. Contudo, pudemos contemplar a visão majestosa do pôr do sol sobre um mar de nuvens. O contato com o ar frio, a ponto de sentirmos necessidade de nos agasalharmos com cobertores, foi uma sensação maravilhosa que revigorou nosso corpo, acostumado ao calor do Havaí. Haleakalā é uma montanha de doze mil pés de altitude, mas, graças às estradas bem desenvolvidas, é possível chegar ao cume em cerca de uma hora de carro, mesmo partindo ao entardecer. A paisagem fez-me recordar com nostalgia o outono no Japão. Foi um dia interessante, pois pela manhã estivemos em Lahaina, o lugar mais quente do Havaí, e ao entardecer, vivenciamos um frio quase invernal.</p>
 <p>O seminário noturno está prestes a começar, motivo pelo qual encerro esta carta. Peço a gentileza de transmitir minhas cordiais saudações a todos. Rogo que me perdoe pela caligrafia apressada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（11） 樋口喜代子 ハワイ在住の信者布教に活躍 『栄光』233号、昭和28(1953)年11月4日発行 御明主様に日々の限りなき御守護の数々に対し厚く厚く御礼を申し上げて下さいませ。<br/><br/> 十六日付のお手紙、昨日拝受致しました。<br/><br/>勿体なき御言葉を頂き、ただただ有難く涙と共に拝読いたしました。<br/><br/>何から何まで御守護を頂き本当に胸つまる思いでおります。<br/><br/>まず布教の方の御報告をさせて頂きます。<br/><br/> 先週十二日から一週間、この前の御報告通り安食さんと二人で、マウイ島ワイルクヘ教修に行って参り、十七日土曜日に帰りました日本語、英語と二つの組に分けて教修会を開きましたがどちらも聴講者は三、四十名あり、お守様を拝受した人数は合計五十五名でございました。<br/><br/>ながく浄霊を受けて待っていた人が多いだけに熱心で、信仰的で、瀬良さん（マウイ島担当の布教者）のコツコツとした布教によりじっくりと育って来たという感じが致します。<br/><br/>中に、おじい様の喉頭癌を殆んどよくしていただいたというお蔭をいただいて、一族六人が入信した家族がありますが、この家等はお守様をお受けする前から五エーカーの土地を全部自然栽培に切りかえるという熱心さでございます。<br/><br/>やはり田舎の方がわかりかければ純すいな信仰に行く様に思われます。<br/><br/> ポルトガル人二名入信、一名は三年位前から精神病で困り果て主人が一家四人心中をしようというところまで来ておりましたのを救われた家庭で、白人である主人は二カ月前に入信、この度その夫人が入信させていただきました。<br/><br/>まだ少し変な風になる時がありますがお守様は大丈夫でしょうと思われましたのでお下渡しさせていただきました。<br/><br/>近く御神体をおまつりしたい希望で、床の間を作るそうでございます。<br/><br/> 今一人は老人（男）でございますが、その姪になる二十七歳の人が約十四年間、母親の死後一週間後より急に頭が飛上るように震えるという状態になり、外を歩くのも恥ずかしく困り抜いていたのが、四回の浄霊により殆んど普通とならせていただき、又本人自身は三十年間の喘息が大変よくなり「二十年間分はよくしていただいた」と申し喜んで入信、熱心でございます。<br/><br/> マウイ島で御神体希望者が前の白人を入れてこの度、三名になりました。<br/><br/> カワイ島が新しく開ける機運となりました。<br/><br/>面本さんとワヒアワの熱心な信者さん二名（河原茂夫様と松本昌一様―共にハワイ教会の役員）が一人は店を閉じ一人は仕事を休んで一週間布教に出かけられました。<br/><br/>最初は「今度はだまされるこっちゃあない」という様な雰囲気の中で中々苦労をされた様子でございますが大変おかげをいただかれ希望者が多く、仮教修のためおともしていただいたお守様五体だけを間配る様にしてお下渡しして帰られました。<br/><br/>一地方では顕著なお蔭があり（一婦人二、三年前、医師のすすめにて人工流産後、膣痙攣、不感症にていうにいわれぬ苦労をしていた人が一回の浄霊にてすっかり苦痛を忘れ、今一人長年の糖尿病にて頭痛、眼うすく、尿近く、腕痛く耳が鳴るという老人がやはり一回にて、顕著なお蔭をいただく）もう二十名位の入信希望者が出来ているそうで、教修会を急がれており、こちらは身体が二つずつほしい様で、嬉しい悲鳴をあげております。<br/><br/>十一月初旬頃都合をつけて行きましょうかと考えております。<br/><br/> 昨日からワヒアワへ教修に来ております。<br/><br/>いつものパーラーでは手狭になり、クラブハウスをかりて開いておりますが、八十名から百名近く人が集りました。<br/><br/>入信者は未定でございますが、四、五十名かと思っております。<br/><br/>二十三日にここの教修を終えて、ホノルルへ帰り、二十五日にはホノルルの日曜の教修の最終日に当りますので、お守様のお下渡し式をさせて頂きますが、四十各位の予定でございます。<br/><br/>新しい家の事を一寸御報告申し上げます。<br/><br/>改修の予定を作る都合上、建設委員長になって下さった信者の方で設計家（藤岡さん）に家を見て戴きましたところ、専門家の眼から見て、素晴しい買物であったと口を極めて喜んで下さいました。<br/><br/>材料の良い点、造り方―細かく行き届いて造られている点、二十五年以上の家ながら虫に余りやられていないこと、風通のよさ、景色のよさ、又教会として改修するために費用をさほどかけずに直し易い家はまず外には無いであろうという事でございます。<br/><br/>家の価格は土地の値段を差引きますと、一万二千円位になりますが今建てれば五、六万円はかかりますそうでございます。<br/><br/>私共には専門的な事は全然わかりませんでしたが、場所と家の感じとから将来のため、最もよいという感じを受けましたので、人にとられぬ内にと急に定めた訳でございましたが、専門家に調べてもらった結果が予期以上によく、これは全く神様に定めていただいた教会と思いただただ感激の外はないのでございます。<br/><br/>御守護を厚く御礼申し上げます。<br/><br/>近日中に設計家の方に大体の図面を画いていただき、お目にかけたく思っておりますが、右の様な事情でございますから、この機会に相当思い切って改修してしまった方がよい様に思われます故、大体その方針で予算の許す範囲内で進むつもりでおります。<br/><br/>二階に相当に広い御神前と階下に広い集会所が出来る見込みでございます。<br/><br/>未だ政府の許可がおりませんが、下り次第一週間位の内には引移るつもりでございます。<br/><br/> 同じ場所に、雇用人の家になっていた一寸した家があり、それを役員の一人が買われましたので、当分その家を借りて改修中はそこで御用をする事になる予定でございます。<br/><br/> 先日マウイ島で一日、四時からお暇をいただき数名の信者さんとハレヤカラ火山に登りました。<br/><br/>火口の多い事で世界一といわれている山だそうですが、生憎霧が深くて火口は見えませんでしたが、雲海の彼方に沈み行く夕日の壮観を拝み、久し振で毛布を着てもまだ寒い空気にふれて、ハワイの暑さでだらけていた身体がキウーッと引きしまり何ともいえず嬉しゅうございました。<br/><br/>ハレヤカラは一万二千呎（フィート）の高山でございますが道路が発達した国では自動車で夕方から登りましても、一時間年位で頂上を極める事が出来て便利でございます。<br/><br/>今日この頃の日本の秋景色をなつかしく思い出しました。<br/><br/>この日昼間はラハイナというハワイで一番暑い所へ行き、夕方は冬の様な寒さを味わい面白うございました。<br/><br/> もう直き夜の教修が始りますからこれで失礼致します。<br/><br/>皆様によろしくお伝え下さいませ。<br/><br/>乱筆お許し下さいませ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

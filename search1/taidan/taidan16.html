@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taidan16</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人類幸福の道拓けん 本紙一周年を記念して 『救世』53号、昭和25(1950)年3月11日発行 （問） 本教の機関紙「光」を発刊して一周年を迎えるに先だって、新たな使命のもとに改題「救世」となって意義深い一周年をここに迎えました。<br><br>この一年間を通して「光」から「救世」への変転がありましたが、それ以上にずいぶん数多い感懐があったと思いますが、それについての明主様の御感想をまず述べていただきたい （答） 正しくこの一年間は苦労はしたが、自分としては生涯の歴史のぺ－ジに刻みつけられるべきいくたの思い出があった。<br><br>私は筆を執ることは生来の趣味でもあり、仕事の一部分ともしてきたが、しかしこの一年間ぐらい真剣に文筆と取り組んできたことはまれなことだ。<br><br>昔は、あるいは趣味としての文筆を執り、詩も、歌も気楽な意味でモノした場合もあったが、このごろでは趣味だなんて悠長な気持ちじゃなくて、すべて神意の御命令のもと、厳粛、かつ緊迫した気持ちで筆をとらざるを得なくなった。<br><br>要するに「悪」の筆法に対する「善」の筆法をもって闘わねばならなくなったことだ。<br><br>いかに世の中が変わったといえ、今日ほど乱暴なジャーナリズムに出会わしたことはかつて経験はない。<br><br>いや、乱暴というよりもむしろ気狂いじみている。<br><br>いかに商業新聞の興味本位とはいうものの、他人を傷つけたり、誹謗（ひぼう）したりしてトクトクとしている風潮は好ましくない。<br><br>本教のこの一年間はこの悪ジャーナリズムに悩まされ通してきたが、この通り微塵の動揺もない。<br><br>これこそ本教の正しさが、無言の立証をしているのであり、悪ジャーナリズムも正義の前にはもはや降伏を余儀なくされたのである。<br><br>そりゃ、新しいものが勢いを持つことは古いもののどこかへ割り込むことになるなら、既成陣営の一部から猛烈な反対や妨害が起きることは必然である。<br><br>新米にいばられては気持ちのよくないのは人情だ。<br><br>しかし、これもホンのしばらくの間だけで、一応地歩（ちほ）を占めてしまえば、日本人の通有性で、もう文句を言わなくなるものだ。<br><br>本教のごとく、なんらヤマしいことのない以上、もっと積極的に攻勢に出ればなんでもないのだが、そこが、私の好まざるところで、なんだ、かんだと言われながらも、遅くとも、確実に、結局の目標に向かって歩一歩、進んでゆくわけである。<br><br>極端な毒舌には私も人間だから腹もたった。<br><br>しかし、私憤を抑え、ただ神の命令に従ってこの一年間本当に難行の忍耐を続けてきた。<br><br>こんな苦労はアプレゲール（戦後派）の軽薄なジャーナリスト輩にとうてい理解できまい。<br><br> 湧き出す情熱 邪心なき神への仕え （問） 「光」から「救世」への一年間、毎週あれだけの論旨を全うされたことは神技以上だと思いますが、お疲れではありませんか （答） 泉のごとく湧き出で、未だ筆力衰えずだ。<br><br>いや、今後、時に応じ、機に乗じ、多々益々、弁ずるだろう。<br><br>自分の思想は、そして神への情熱は今日までの著作で一目瞭然であり、疑う者、まず、私の書いたものを熟読すれば、すべて了解できると思う。<br><br>一言一句の嘘はないのだ。<br><br>第一、私のみか、本教に寸毫の邪心あれば全信徒が承知しませんよ。<br><br>われわれの仕事はガラス張りのなかで行なわれているのだから、なんらの不安も疑心もない。<br><br> 神の力顕現 宇宙に加護の時来る （問） メシヤ（救世主）はイエス・キリストにも冠されているが、それとはどんな関係がありますか （答） 西洋では一応キリストをメシヤと称しているが、まだしっかりした定義のもとに言っているわけではない。<br><br>救世主と言っても、真にその目的を達成したものはない。<br><br>二十世紀前半まではその実力を顕現するまでにはゆかなかったかもしれないが、しかし、いよいよ、これからが神の実力が発現される時期に入ってきたと言える。<br><br>西洋においてはキリストもさぞや本来の実力を発揮されることと思う。<br><br>しかして東洋においてはメシヤが本当に御神力を発現されることと確信する。<br><br>だから従来のような宗教的観念ではとうてい理解できない。<br><br>もっと神秘にして幽遠な御神力がはじめて登場することになる。<br><br>私はもちろんメシヤの代行者であるから、今後、いかなる形態によってメシヤのお働きが行なわれるか、想像だに許されないが、しかし、現在の、わずかではあるが、神の御動静から推察して、これはまたたいへんな御霊力が宇宙に御加護あられるということを申してもよいと思う。<br><br> （問） メシヤ教になってから特に顕著な事例はありますか （答） 霊界から非常に鋭い反響が現われている。<br><br>奇蹟（お蔭）がさらに強くなってきた。<br><br>いままでのお蔭は尋常一様なこととなり、想像もできなかったようなお蔭が続々と起きている。<br><br>しかし、一面、善悪の審判はことのほか峻烈化（しゅんれつか）し、悪への断罪は厳粛に行なわれるようになった。<br><br>「光」と「救世」の差はそこにあるので、たんなる改題や、商標の変更じゃないことをよく銘記すべきである。<br><br> （問） メシヤ教誕生の世界的意義はどんなところにありましょうか （答） 神様のお働きになる範囲は、これまでたんに日本という一局地にとどめられていたが、今後これは全東洋に波及するものと思われる。<br><br>信仰には国境はないと言われるごとく、神のお働きは宇宙無限、一草、一木にまで御慈悲が加わる。<br><br>しかも、本教のモットーとしている「病、貧、争」の絶無の境地がいかなるところにも及ぶのであるから「平和世界」の現出は火を見るより明らかである。<br><br>争いごとは、人類のもっとも忌み、嫌うところだ。<br><br>どんなことをしても人類はもう争いごとを止めなければならない。<br><br>まして武器なき日本人は「平和世界」のために先頭に立って働くべき宿命を負わされている。<br><br>いま国内で、左だ、右だと騒いでいることは「平和への切なる希求」の一過程だとするにはあまりに幼稚すぎる。<br><br>平和のために真剣にやっている態度とはどうにも思えない。<br><br>小さな争いごとがだんだん昂ずると民族相互の相剋（そうこく）となり、民族相互憎しみとなる。<br><br>こんなところから、民族の分裂が生ずる。<br><br>長い間、武家政治の犠牲となり、軍閥の圧制に苦しんできた日本人は、もうこの辺で冷静、沈着、本当に国内相剋から脱却した、たのしい平和国家をつくり上げるような、おおらかな気持ちに立ち還ることができないものか、最近つくづく日本人の狭量さが眼についてしかたがない。<br><br> 可能な世界平和 キリスト教と呼応する （問） 世界平和が宗教の力で実現可能ですか （答） 絶対可能と信じている。<br><br>前にも述べた通り、西洋にキリストあり、東洋にメシヤあり、この二大勢力が東西相呼応して平和のために全信徒が、まじめに闘ってゆくなら、必ず永遠の平和が齎（もた）らされるものと思う。<br><br>いかに無神論国といえども、神の怒りに触るることは嫌だろうからネ。<br><br>世界メシヤ教の教義は、勿論この人類永遠の平和希求に根をおいていることは申すまでもない。<br><br> （問） 世界のどこかに、なんらかの反響がありましたか （答） すでにあった。<br><br>先般渡米した参議院議員の中村嘉寿君からも数日前ワシントンから便りがあった。<br><br>本教機関紙の「光」が同胞の間で大モテだったようだ。<br><br>自由に交通が許されるようになったら「救世」も大いに海を渡って普及されるであろう。<br><br>また岡本米蔵君という人も、本教の出版物を翻訳して出したら、あちらではたいへんなセンセーションを巻き起すだろうと言っている。<br><br>アメリカでも最近バハイ教という新興宗教が非常な勢いで発展しているという。<br><br>キリスト教ばかりでなくいろいろな宗教がやはりアメリカ人間で信仰されているわけである。<br><br>だがいずれも迷信的なところは少しもなく、至極合理化された教義にのっとっているらしい。<br><br>しかもなんらの圧迫もないから良心的に自由な活動ができる。<br><br>本教のごとき現実を対象とした宗教も必ずやアメリカの人たちにも理解できる時が来ると思う。<br><br> （問） 本教の「おかげばなし」があまり多すぎるので疑念を持つ人が一部にあると聞きますが （答） いや、そうとう各方面で疑念を持って、あれを一々戸別訪問して調べた向きもあったらしい。<br><br>ところが全部が真実で、なんらの粉飾もないので、すっかりびっくりしている様子である。<br><br>こちらではあの「おかげばなし」が、あまりにも多く殺到するのでその処理に困っているわけで、現在掲載しているのはホンの一部分で、大半は「ボツ」にしている。<br><br>そのため信者からなぜ「ボツ」にするかと苦情がきて弱っているところだ。<br><br>まさにあれは御利益の真実を告白する生きたバイブルであり、先日やってきた毎日のある記者は「どれを調べても一つのウソもなく、まさにあれは二十世紀の聖書だ」と言っていた。<br><br>大新聞の記者はウソも書かないだろうし、お世辞も言わないだろうからネ。<br><br> 聖堂近く竣工 国際親善にも一役 （問） ただいま熱海瑞雲郷に建設中の本教の聖堂はいつ竣工しますか （答） 当初の規模より壮大になったので、予定よりやや遅れ、本年いっぱいかかるかもしれない。<br><br>だが、その竣工の暁は東洋に類例のない一大景観を呈するとともに、壮麗きわまりないものが完成するものと思う。<br><br>しかしこうした時代でもあるからいっさいムダな華美を捨てて、建築は質素にして優雅なものとする。<br><br>様式はコルビュジエのフランス風で、白亜の塗り、熱海では最初の様式で、ちょっとモダンなシックな感じがする。<br><br>数千人を収容できるし、信者以外の一般の結婚式場にも充（あ）てたいと思う。<br><br>本教団は今日まで、この建造のために莫大な費用を投じてきたのであり、これが竣工さえすれば、本教の真髄が必ず納得ゆくと確信している。<br><br>どうも日本人は、なにか眼で見える一つの物体をつくり上げないうちは、いろいろなセンサクをするので弱る。<br><br>これが大衆の眼前に現われると、なるほどと解ってくるであろう。<br><br>聖堂の他、信者の宿泊所、温泉場、展望台、それに外客に開放予定の一大美術館もできるから、国際親善にも大きな役割を演ずることともなる。<br><br> （問） こういうようなことから、本教団が熱海市をまるで牛耳（ぎゅうじ）るというような風説をまく者があるが （答） まったく驚いたネ。<br><br>熱海市は自治体であり、市民によって形成されている。<br><br>本教団はこの自治体のなかの何万分の一の存在でしかない。<br><br>市を壟断（ろうだん）することもできないし、宗教の建前からいって市政とも無関係である。<br><br>熱海市発展のためにはどんなことでもお手伝いはしようと思うし、また今日までその意味ではやってきている。<br><br>熱海という所はそんなちっぽけな都市ではないのだから、そんなことを気にする連中は熱海を知らないにもホドがある。<br><br>熱海は熱海市民のものである。<br><br>なんぴとにも侵されない立派な自治権がある。<br><br>ナンセンスをまことしやかに作るナンセンス頭脳がいる。<br><br>まったく笑止千万だ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Reflexões sobre um ano de lutas e a expansão da Obra Divina</h2>
 <p><strong>Pergunta:</strong> Ao celebrarmos o primeiro aniversário de nosso órgão de imprensa, que, sob uma nova missão, teve seu nome alterado de “Hikari” para “Kyusei”, comemoramos um marco de profundo significado. Ao longo deste ano, além da transição de “Hikari” para “Kyusei”, certamente houve inúmeras outras experiências marcantes. Gostaríamos, primeiramente, de ouvir as impressões de Meishu-Sama a esse respeito.</p>
@@ -124,5 +276,48 @@ function toggleLang(lang) {
 <p>Nossa Igreja investiu uma quantia vultosa nesta construção. Tenho a certeza de que, uma vez concluída, a verdadeira essência de nossa fé será finalmente compreendida. Os japoneses têm o hábito de fazer todo tipo de conjecturas até que algo concreto e visível seja erguido. Quando o templo se apresentar diante dos olhos do povo, eles finalmente dirão “Ah, entendi”. Além do templo, teremos alojamentos para os fiéis, uma casa de banhos termais, um mirante e um grande museu de arte que será aberto a visitantes estrangeiros, desempenhando, assim, um papel importante na promoção da amizade internacional.</p>
 <p><strong>Pergunta:</strong> Diante de tudo isso, há quem espalhe o boato de que nossa Igreja pretende dominar a cidade de Atami.</p>
 <p><strong>Resposta:</strong> Fico absolutamente estarrecido. A cidade de Atami é um município autônomo, formado por seus cidadãos. Nossa Igreja representa apenas uma fração minúscula dentro dessa municipalidade. Não temos como monopolizar a cidade e, por princípio religioso, não nos envolvemos com a administração pública. Pelo contrário, desejamos colaborar de todas as formas possíveis para o progresso de Atami, e é o que temos feito até hoje. Atami não é uma cidade tão pequena a ponto de se preocupar com isso; quem alimenta tais temores demonstra uma profunda ignorância sobre o que ela representa. Atami pertence aos seus cidadãos. Possui uma sólida autonomia, que não pode ser violada por ninguém. É impressionante que existam mentes capazes de fabricar absurdos e apresentá-los como se fossem verdade. É simplesmente ridículo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人類幸福の道拓けん 本紙一周年を記念して 『救世』53号、昭和25(1950)年3月11日発行 （問） 本教の機関紙「光」を発刊して一周年を迎えるに先だって、新たな使命のもとに改題「救世」となって意義深い一周年をここに迎えました。<br/><br/>この一年間を通して「光」から「救世」への変転がありましたが、それ以上にずいぶん数多い感懐があったと思いますが、それについての明主様の御感想をまず述べていただきたい （答） 正しくこの一年間は苦労はしたが、自分としては生涯の歴史のぺ－ジに刻みつけられるべきいくたの思い出があった。<br/><br/>私は筆を執ることは生来の趣味でもあり、仕事の一部分ともしてきたが、しかしこの一年間ぐらい真剣に文筆と取り組んできたことはまれなことだ。<br/><br/>昔は、あるいは趣味としての文筆を執り、詩も、歌も気楽な意味でモノした場合もあったが、このごろでは趣味だなんて悠長な気持ちじゃなくて、すべて神意の御命令のもと、厳粛、かつ緊迫した気持ちで筆をとらざるを得なくなった。<br/><br/>要するに「悪」の筆法に対する「善」の筆法をもって闘わねばならなくなったことだ。<br/><br/>いかに世の中が変わったといえ、今日ほど乱暴なジャーナリズムに出会わしたことはかつて経験はない。<br/><br/>いや、乱暴というよりもむしろ気狂いじみている。<br/><br/>いかに商業新聞の興味本位とはいうものの、他人を傷つけたり、誹謗（ひぼう）したりしてトクトクとしている風潮は好ましくない。<br/><br/>本教のこの一年間はこの悪ジャーナリズムに悩まされ通してきたが、この通り微塵の動揺もない。<br/><br/>これこそ本教の正しさが、無言の立証をしているのであり、悪ジャーナリズムも正義の前にはもはや降伏を余儀なくされたのである。<br/><br/>そりゃ、新しいものが勢いを持つことは古いもののどこかへ割り込むことになるなら、既成陣営の一部から猛烈な反対や妨害が起きることは必然である。<br/><br/>新米にいばられては気持ちのよくないのは人情だ。<br/><br/>しかし、これもホンのしばらくの間だけで、一応地歩（ちほ）を占めてしまえば、日本人の通有性で、もう文句を言わなくなるものだ。<br/><br/>本教のごとく、なんらヤマしいことのない以上、もっと積極的に攻勢に出ればなんでもないのだが、そこが、私の好まざるところで、なんだ、かんだと言われながらも、遅くとも、確実に、結局の目標に向かって歩一歩、進んでゆくわけである。<br/><br/>極端な毒舌には私も人間だから腹もたった。<br/><br/>しかし、私憤を抑え、ただ神の命令に従ってこの一年間本当に難行の忍耐を続けてきた。<br/><br/>こんな苦労はアプレゲール（戦後派）の軽薄なジャーナリスト輩にとうてい理解できまい。<br/><br/> 湧き出す情熱 邪心なき神への仕え （問） 「光」から「救世」への一年間、毎週あれだけの論旨を全うされたことは神技以上だと思いますが、お疲れではありませんか （答） 泉のごとく湧き出で、未だ筆力衰えずだ。<br/><br/>いや、今後、時に応じ、機に乗じ、多々益々、弁ずるだろう。<br/><br/>自分の思想は、そして神への情熱は今日までの著作で一目瞭然であり、疑う者、まず、私の書いたものを熟読すれば、すべて了解できると思う。<br/><br/>一言一句の嘘はないのだ。<br/><br/>第一、私のみか、本教に寸毫の邪心あれば全信徒が承知しませんよ。<br/><br/>われわれの仕事はガラス張りのなかで行なわれているのだから、なんらの不安も疑心もない。<br/><br/> 神の力顕現 宇宙に加護の時来る （問） メシヤ（救世主）はイエス・キリストにも冠されているが、それとはどんな関係がありますか （答） 西洋では一応キリストをメシヤと称しているが、まだしっかりした定義のもとに言っているわけではない。<br/><br/>救世主と言っても、真にその目的を達成したものはない。<br/><br/>二十世紀前半まではその実力を顕現するまでにはゆかなかったかもしれないが、しかし、いよいよ、これからが神の実力が発現される時期に入ってきたと言える。<br/><br/>西洋においてはキリストもさぞや本来の実力を発揮されることと思う。<br/><br/>しかして東洋においてはメシヤが本当に御神力を発現されることと確信する。<br/><br/>だから従来のような宗教的観念ではとうてい理解できない。<br/><br/>もっと神秘にして幽遠な御神力がはじめて登場することになる。<br/><br/>私はもちろんメシヤの代行者であるから、今後、いかなる形態によってメシヤのお働きが行なわれるか、想像だに許されないが、しかし、現在の、わずかではあるが、神の御動静から推察して、これはまたたいへんな御霊力が宇宙に御加護あられるということを申してもよいと思う。<br/><br/> （問） メシヤ教になってから特に顕著な事例はありますか （答） 霊界から非常に鋭い反響が現われている。<br/><br/>奇蹟（お蔭）がさらに強くなってきた。<br/><br/>いままでのお蔭は尋常一様なこととなり、想像もできなかったようなお蔭が続々と起きている。<br/><br/>しかし、一面、善悪の審判はことのほか峻烈化（しゅんれつか）し、悪への断罪は厳粛に行なわれるようになった。<br/><br/>「光」と「救世」の差はそこにあるので、たんなる改題や、商標の変更じゃないことをよく銘記すべきである。<br/><br/> （問） メシヤ教誕生の世界的意義はどんなところにありましょうか （答） 神様のお働きになる範囲は、これまでたんに日本という一局地にとどめられていたが、今後これは全東洋に波及するものと思われる。<br/><br/>信仰には国境はないと言われるごとく、神のお働きは宇宙無限、一草、一木にまで御慈悲が加わる。<br/><br/>しかも、本教のモットーとしている「病、貧、争」の絶無の境地がいかなるところにも及ぶのであるから「平和世界」の現出は火を見るより明らかである。<br/><br/>争いごとは、人類のもっとも忌み、嫌うところだ。<br/><br/>どんなことをしても人類はもう争いごとを止めなければならない。<br/><br/>まして武器なき日本人は「平和世界」のために先頭に立って働くべき宿命を負わされている。<br/><br/>いま国内で、左だ、右だと騒いでいることは「平和への切なる希求」の一過程だとするにはあまりに幼稚すぎる。<br/><br/>平和のために真剣にやっている態度とはどうにも思えない。<br/><br/>小さな争いごとがだんだん昂ずると民族相互の相剋（そうこく）となり、民族相互憎しみとなる。<br/><br/>こんなところから、民族の分裂が生ずる。<br/><br/>長い間、武家政治の犠牲となり、軍閥の圧制に苦しんできた日本人は、もうこの辺で冷静、沈着、本当に国内相剋から脱却した、たのしい平和国家をつくり上げるような、おおらかな気持ちに立ち還ることができないものか、最近つくづく日本人の狭量さが眼についてしかたがない。<br/><br/> 可能な世界平和 キリスト教と呼応する （問） 世界平和が宗教の力で実現可能ですか （答） 絶対可能と信じている。<br/><br/>前にも述べた通り、西洋にキリストあり、東洋にメシヤあり、この二大勢力が東西相呼応して平和のために全信徒が、まじめに闘ってゆくなら、必ず永遠の平和が齎（もた）らされるものと思う。<br/><br/>いかに無神論国といえども、神の怒りに触るることは嫌だろうからネ。<br/><br/>世界メシヤ教の教義は、勿論この人類永遠の平和希求に根をおいていることは申すまでもない。<br/><br/> （問） 世界のどこかに、なんらかの反響がありましたか （答） すでにあった。<br/><br/>先般渡米した参議院議員の中村嘉寿君からも数日前ワシントンから便りがあった。<br/><br/>本教機関紙の「光」が同胞の間で大モテだったようだ。<br/><br/>自由に交通が許されるようになったら「救世」も大いに海を渡って普及されるであろう。<br/><br/>また岡本米蔵君という人も、本教の出版物を翻訳して出したら、あちらではたいへんなセンセーションを巻き起すだろうと言っている。<br/><br/>アメリカでも最近バハイ教という新興宗教が非常な勢いで発展しているという。<br/><br/>キリスト教ばかりでなくいろいろな宗教がやはりアメリカ人間で信仰されているわけである。<br/><br/>だがいずれも迷信的なところは少しもなく、至極合理化された教義にのっとっているらしい。<br/><br/>しかもなんらの圧迫もないから良心的に自由な活動ができる。<br/><br/>本教のごとき現実を対象とした宗教も必ずやアメリカの人たちにも理解できる時が来ると思う。<br/><br/> （問） 本教の「おかげばなし」があまり多すぎるので疑念を持つ人が一部にあると聞きますが （答） いや、そうとう各方面で疑念を持って、あれを一々戸別訪問して調べた向きもあったらしい。<br/><br/>ところが全部が真実で、なんらの粉飾もないので、すっかりびっくりしている様子である。<br/><br/>こちらではあの「おかげばなし」が、あまりにも多く殺到するのでその処理に困っているわけで、現在掲載しているのはホンの一部分で、大半は「ボツ」にしている。<br/><br/>そのため信者からなぜ「ボツ」にするかと苦情がきて弱っているところだ。<br/><br/>まさにあれは御利益の真実を告白する生きたバイブルであり、先日やってきた毎日のある記者は「どれを調べても一つのウソもなく、まさにあれは二十世紀の聖書だ」と言っていた。<br/><br/>大新聞の記者はウソも書かないだろうし、お世辞も言わないだろうからネ。<br/><br/> 聖堂近く竣工 国際親善にも一役 （問） ただいま熱海瑞雲郷に建設中の本教の聖堂はいつ竣工しますか （答） 当初の規模より壮大になったので、予定よりやや遅れ、本年いっぱいかかるかもしれない。<br/><br/>だが、その竣工の暁は東洋に類例のない一大景観を呈するとともに、壮麗きわまりないものが完成するものと思う。<br/><br/>しかしこうした時代でもあるからいっさいムダな華美を捨てて、建築は質素にして優雅なものとする。<br/><br/>様式はコルビュジエのフランス風で、白亜の塗り、熱海では最初の様式で、ちょっとモダンなシックな感じがする。<br/><br/>数千人を収容できるし、信者以外の一般の結婚式場にも充（あ）てたいと思う。<br/><br/>本教団は今日まで、この建造のために莫大な費用を投じてきたのであり、これが竣工さえすれば、本教の真髄が必ず納得ゆくと確信している。<br/><br/>どうも日本人は、なにか眼で見える一つの物体をつくり上げないうちは、いろいろなセンサクをするので弱る。<br/><br/>これが大衆の眼前に現われると、なるほどと解ってくるであろう。<br/><br/>聖堂の他、信者の宿泊所、温泉場、展望台、それに外客に開放予定の一大美術館もできるから、国際親善にも大きな役割を演ずることともなる。<br/><br/> （問） こういうようなことから、本教団が熱海市をまるで牛耳（ぎゅうじ）るというような風説をまく者があるが （答） まったく驚いたネ。<br/><br/>熱海市は自治体であり、市民によって形成されている。<br/><br/>本教団はこの自治体のなかの何万分の一の存在でしかない。<br/><br/>市を壟断（ろうだん）することもできないし、宗教の建前からいって市政とも無関係である。<br/><br/>熱海市発展のためにはどんなことでもお手伝いはしようと思うし、また今日までその意味ではやってきている。<br/><br/>熱海という所はそんなちっぽけな都市ではないのだから、そんなことを気にする連中は熱海を知らないにもホドがある。<br/><br/>熱海は熱海市民のものである。<br/><br/>なんぴとにも侵されない立派な自治権がある。<br/><br/>ナンセンスをまことしやかに作るナンセンス頭脳がいる。<br/><br/>まったく笑止千万だ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

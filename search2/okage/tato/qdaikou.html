@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qdaikou</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大光明如来様の御神体 五尺離れた人体を透過して写真に写る 『栄光』91号、昭和26(1951)年2月14日発行 新潟県 光陽中教会 石井富造（33） 御神力、御霊光、御神徳、奇蹟、何と表現してよいか、一般人間の常識では考えられない御神力をまざまざと写真上に見せて戴き、感激の涙に咽びながらの、信者の報告がありましたので発表させて頂きます。<br><br> 撮 影 場 所 新潟県中蒲原郡Ｎ町 報 告 者 杵鞭正四郎 撮 影 者 近所の理髪店の若者（素人写真家） 撮 影 月 日 昭和二十五年十月十七日 大光明如来様奉斎 昭和二十五年五月十七日 写 真 の 子 供 杵鞭文代（五歳、正四郎三女） 十月十七日午後、ブラリと素人写真家である近所の理髪店の若者が、カメラを持って遊びに来たので、家の内外で家族と共に様々のポーズで写して頂き、最後に午後三時頃大光明如来様の御前で二女輝子（六歳）三女文代（五歳）が二人並んで撮り、家族全員フィルムのある限り写して頂きました。<br><br>二、三日して早朝に全部出来上ったと申し、理髪店の若者が持って来ました。<br><br>生憎その朝は多忙のためによく見ず、夜になって電灯の下で一枚一枚丹念に見ておりました妻が初めて発見して驚きの声を上げた。<br><br>それは最後に大光明如来様の御前で撮った一枚が、何と言う奇蹟！ 大光明如来様の「来」の字の経の棒の下部は、前に坐っている子供の頭の蔭になっており写らないのが当り前でありますが、それが五尺も離れて坐っている文代の頭部を透過して写真にはっきりと写っている。<br><br>しかも頭髪より一段と濃くなっているのです。<br><br>何しろ名刺版の半分より小さいと思われる写真機の版なので、良く見ないと判りません。<br><br>早速引伸しを依頼し、出来上った写真を見ますと素人ながら相当良く出来、小型の版よりは一段とハッキリ撮れております。<br><br> まざまざと見させて戴きましたこの御神力、昭和二十年入信以来、数え上げる事も出来ない程の数々の御神徳を戴き、現在家族は亡兄の遺児を含めて二十二名、時々御浄化も戴きますが御浄霊のお力により、病気の心配は全然なく勿論医療費は一銭も必要無く、風吹けば風を楽しみ雨降れば雨を楽しむ、満ち足りた安心立命の生活を毎日送らせて戴いております。<br><br> 見えざる物は信ずべからずを信条として、説けど耳を傾けようとせず、浄霊の効果には目を蔽い、信じようとするより何とか信じまいと努力する頑迷固陋（ころう）の村人達、吾が近親、友人達も常識で考えられないこの事実、この現実には驚きの眼をみはり、漸次頑固な唯物思想も融けつつあり、御神書、『栄光』新聞等求める人も多くなりつつあります。<br><br> 雪に明け雪に暮れる越路の冬、頑なに凍る人の心暖い春の陽光に積り積りし越路の雪の融けるが如くに唯物思想にコチコチ凍る人の心の融けるまで、この広大無辺な神の大愛に全人類が目覚めるまで、光明輝く地上天国御建設のその日まで、救われたこの絶大なる御神徳と喜びを一人でも多くお知らせしたいと頑張っております。<br><br> 以上（杵鞭正四郎談） 十一月三日当三条支部の定例常会の時、杵鞭さんよりこの御神徳写真の報告がありましたのですが、杵鞭さんが大光明如来様を奉斎させて戴きましたのが五月十七日であり、月は違いますが、写真撮りましたのが十月十七日であり、因縁と申しますか同じ十七日です。<br><br> しかも、写真に写りおります子供さんは、八月十九日に日本脳炎というよりは、脳炎、脳膜炎、疫痢の合併症状のような猛烈な全身浄化を戴き、正に九死に一生と申しますか、死の一歩手前、最後の一厘のところで浄霊によりお救い戴いているのです。<br><br> 八月十九日当三条支部へ杵鞭さんより電話あり、「子供がお浄化戴き様子が変なので浄霊は続けておりますが、だんだん悪くなるので今度だけは自分では自信が無いから直ぐお願いします」との依頼なので、早速汽車で出張しました。<br><br>三条駅と新津駅の間約十里、汽車にて一時間、新津駅より杵鞭さん宅まで、越後平野の真只中一直線の田圃道を一里、午後五時とは言えどサマータイムの焼けつくような真夏の炎天下、自慢の健脚に物を言わせて二十七、八分で到着、早速大光明如来様御奉斎せる神の間に苦しむ病人の様子を家族に尋ねると「前日より頭と腹が痛いと言い出し高熱が出て中々下らない。<br><br>ちょうど多忙の時期なので浄霊も充分に出来なかったのですが急に悪くなったので電話でお願いしたのです」との事、私が到着する前に数回引きつけを起し毒素は脳へ流れております。<br><br> 全身火のような熱で体温計で計って見ますと、四十二度三分、特に後頭部に大変熱があり延髄付近はコチコチに固く棒のようです。<br><br>腹部の熱も物凄く、全身浄化です。<br><br>本人は既に意識なく時々うわ言を言っております。<br><br>早速大光明如来様に御守護御願い申し上げ、午後六時頃より浄霊を始めました。<br><br>頸部、延髄付近は浄霊を暫く続けますと柔かになりますが、他の部分を浄霊しておりますと又直ぐ固くなる。<br><br>又溶かす、又固まる。<br><br>同じ事を繰返す事何十度浄霊の手を休めると脈は衰える、唇の色は悪くなる、熱は一時下っても直ぐ又出る、益々浄化は強くなる、全然手を休める事は出来ない。<br><br>今まで数多くの脳炎、疫痢、脳膜炎、肺炎、ジフテリヤ等浄霊させて戴いたがこんな猛烈なのは初めてだ。<br><br>今までどんな病気にも絶対自信もあり、又大抵の熱なれば二、三十分から一時間位の浄霊で下るのだが既に三、四時間経過しているが全然下らない。<br><br>ふと大浄化の様を想像して慄然とする。<br><br>不断の浄霊が肝要なる事を沁々味わいさせて戴いた。<br><br>いよいよこうなれば治るまで徹宵浄霊の覚悟を決め、御守護をお念じつつ襲い来る蚊軍と戦いながら脳へ侵入して来る毒素を溶かす、集る、溶かす、集る、を繰返しながら夜も二時を廻る。<br><br>家人は前夜の看護に疲れてグッスリ寝入っている。<br><br>依然熱は下らないどころか段々悪化する。<br><br>午前三時頃突然痙攣と引きつけを起す。<br><br>不断なれば高熱には引きつけは付物なので、驚きもしないが、余りにも猛烈な全身浄化なのでいよいよ駄目か！ と最悪の場面がチラリと頭を掠める。<br><br>急いで家人を起して家内総掛りで浄霊だ。<br><br>脈は衰え、唇は紫色に変り口よりは桃色様の汚物を吐いている。<br><br>正に死相だ、最後の五分間だ、ここが頑張りどころと家人を励まし明主様に御守護御願い申し上げ懸命に浄霊する。<br><br>脈は衰えたがまだ絶えぬ。<br><br>生か死か？ 約一時間。<br><br>四時頃より目脂が少し出て来た。<br><br>それと前後して脈も活気付いて来た。<br><br>もう大丈夫だ！ 緊張に血走った眼と眼を見合わせ緊張の表情も安堵の吐息と共に無言の笑が洩れた。<br><br> 救われたのだ。<br><br>絶大の御神力、人間全生涯の中にこれ以上の喜びがあるであろうか。<br><br>魂に染入るような喜びをこの御道に生きる者のみが知る幸福を又味わわせて戴きました。<br><br>地平線上に昇る太陽を血走ったドロンとした眼で眺めた時、毎日眺めている太陽ではありますが「よく出て来てくれました」と暗夜に光明を仰ぐ気持でした。<br><br> その後も浄霊は連続し、熱もそれを峠に下り始め正午過ぎる頃には意識も恢復して口も喋れるようになり連続十八時間ブッ通しの浄霊に死を覚悟した大浄化も、私が午後一時頃帰る頃にはほとんど心配ないようになり御神徳戴き一厘の差で助けて戴きました。<br><br>現在では浄化前より頭も明晰となり、人一倍元気で毎日過させて戴き感謝の日を送っております。<br><br>それから二カ月、記念にと思い大光明如来様の御前で撮りましたる写真が、御守護により救われましたる子供を通じて見えざる物は信ずべからずの人達も信じざるを得ないこの事実のお力を写真上にありありと見させて戴き、信者達も今更ながら知る絶大なる御力により一段と信仰を深めさせて戴いております。<br><br>レントゲン写真の逆の理が常識を超越して行われ、これから進み行く霊写真科学部面の一ヒントとなるのではないかとも想像されます。<br><br>毎日数多くの御神徳戴いております中より特に今回の写真は救世教信徒又一般の人達にもお知らせ致したいと、ここに御報告申し上げる次第です。<br><br> （昭和二十五年十月三十日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Imagem Sagrada do Daikoumyo Nyorai-sama Atravessa um Corpo Humano e Aparece em Fotografia</h2>
 <p>Publicado na revista Glória, nº 91, de 14 de fevereiro de 1951</p>
@@ -118,5 +273,48 @@ Ishii Tomizo (33 anos)</p>
 <p>Continuamos com o Johrei, e a febre, tendo atingido seu pico, começou a ceder. Passado o meio-dia, ela recuperou a consciência e já conseguia falar. Após dezoito horas ininterruptas de Johrei, a grande purificação que a levara às portas da morte foi superada. Quando parti, por volta da uma da tarde, já não havia motivo para maiores preocupações. Graças a esta virtude divina, ela foi salva por um fio. Hoje, ela não apenas está completamente recuperada, como sua mente se tornou mais clara e ela vive seus dias com uma energia redobrada, em constante gratidão.</p>
 <p>Dois meses depois, a família tirou aquela fotografia como recordação. Por intermédio da criança que foi salva pela proteção Divina, foi-nos permitido ver, de forma inequívoca, um fato que força até mesmo aqueles que "não creem no que não se pode ver" a aceitarem a verdade. Para nós, fiéis, este testemunho do imenso poder de Deus aprofunda ainda mais nossa fé. O fenômeno parece operar segundo um princípio inverso ao do raio-X, e imaginamos que possa ser um indício para o futuro campo da ciência da fotografia espiritual. Dentre as inúmeras graças que recebemos diariamente, sentimos o dever de relatar este caso em particular, tanto aos membros da Igreja Messiânica quanto ao público em geral.</p>
 <p>(30 de outubro de 1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 大光明如来様の御神体 五尺離れた人体を透過して写真に写る 『栄光』91号、昭和26(1951)年2月14日発行 新潟県 光陽中教会 石井富造（33） 御神力、御霊光、御神徳、奇蹟、何と表現してよいか、一般人間の常識では考えられない御神力をまざまざと写真上に見せて戴き、感激の涙に咽びながらの、信者の報告がありましたので発表させて頂きます。<br/><br/> 撮 影 場 所 新潟県中蒲原郡Ｎ町 報 告 者 杵鞭正四郎 撮 影 者 近所の理髪店の若者（素人写真家） 撮 影 月 日 昭和二十五年十月十七日 大光明如来様奉斎 昭和二十五年五月十七日 写 真 の 子 供 杵鞭文代（五歳、正四郎三女） 十月十七日午後、ブラリと素人写真家である近所の理髪店の若者が、カメラを持って遊びに来たので、家の内外で家族と共に様々のポーズで写して頂き、最後に午後三時頃大光明如来様の御前で二女輝子（六歳）三女文代（五歳）が二人並んで撮り、家族全員フィルムのある限り写して頂きました。<br/><br/>二、三日して早朝に全部出来上ったと申し、理髪店の若者が持って来ました。<br/><br/>生憎その朝は多忙のためによく見ず、夜になって電灯の下で一枚一枚丹念に見ておりました妻が初めて発見して驚きの声を上げた。<br/><br/>それは最後に大光明如来様の御前で撮った一枚が、何と言う奇蹟！ 大光明如来様の「来」の字の経の棒の下部は、前に坐っている子供の頭の蔭になっており写らないのが当り前でありますが、それが五尺も離れて坐っている文代の頭部を透過して写真にはっきりと写っている。<br/><br/>しかも頭髪より一段と濃くなっているのです。<br/><br/>何しろ名刺版の半分より小さいと思われる写真機の版なので、良く見ないと判りません。<br/><br/>早速引伸しを依頼し、出来上った写真を見ますと素人ながら相当良く出来、小型の版よりは一段とハッキリ撮れております。<br/><br/> まざまざと見させて戴きましたこの御神力、昭和二十年入信以来、数え上げる事も出来ない程の数々の御神徳を戴き、現在家族は亡兄の遺児を含めて二十二名、時々御浄化も戴きますが御浄霊のお力により、病気の心配は全然なく勿論医療費は一銭も必要無く、風吹けば風を楽しみ雨降れば雨を楽しむ、満ち足りた安心立命の生活を毎日送らせて戴いております。<br/><br/> 見えざる物は信ずべからずを信条として、説けど耳を傾けようとせず、浄霊の効果には目を蔽い、信じようとするより何とか信じまいと努力する頑迷固陋（ころう）の村人達、吾が近親、友人達も常識で考えられないこの事実、この現実には驚きの眼をみはり、漸次頑固な唯物思想も融けつつあり、御神書、『栄光』新聞等求める人も多くなりつつあります。<br/><br/> 雪に明け雪に暮れる越路の冬、頑なに凍る人の心暖い春の陽光に積り積りし越路の雪の融けるが如くに唯物思想にコチコチ凍る人の心の融けるまで、この広大無辺な神の大愛に全人類が目覚めるまで、光明輝く地上天国御建設のその日まで、救われたこの絶大なる御神徳と喜びを一人でも多くお知らせしたいと頑張っております。<br/><br/> 以上（杵鞭正四郎談） 十一月三日当三条支部の定例常会の時、杵鞭さんよりこの御神徳写真の報告がありましたのですが、杵鞭さんが大光明如来様を奉斎させて戴きましたのが五月十七日であり、月は違いますが、写真撮りましたのが十月十七日であり、因縁と申しますか同じ十七日です。<br/><br/> しかも、写真に写りおります子供さんは、八月十九日に日本脳炎というよりは、脳炎、脳膜炎、疫痢の合併症状のような猛烈な全身浄化を戴き、正に九死に一生と申しますか、死の一歩手前、最後の一厘のところで浄霊によりお救い戴いているのです。<br/><br/> 八月十九日当三条支部へ杵鞭さんより電話あり、「子供がお浄化戴き様子が変なので浄霊は続けておりますが、だんだん悪くなるので今度だけは自分では自信が無いから直ぐお願いします」との依頼なので、早速汽車で出張しました。<br/><br/>三条駅と新津駅の間約十里、汽車にて一時間、新津駅より杵鞭さん宅まで、越後平野の真只中一直線の田圃道を一里、午後五時とは言えどサマータイムの焼けつくような真夏の炎天下、自慢の健脚に物を言わせて二十七、八分で到着、早速大光明如来様御奉斎せる神の間に苦しむ病人の様子を家族に尋ねると「前日より頭と腹が痛いと言い出し高熱が出て中々下らない。<br/><br/>ちょうど多忙の時期なので浄霊も充分に出来なかったのですが急に悪くなったので電話でお願いしたのです」との事、私が到着する前に数回引きつけを起し毒素は脳へ流れております。<br/><br/> 全身火のような熱で体温計で計って見ますと、四十二度三分、特に後頭部に大変熱があり延髄付近はコチコチに固く棒のようです。<br/><br/>腹部の熱も物凄く、全身浄化です。<br/><br/>本人は既に意識なく時々うわ言を言っております。<br/><br/>早速大光明如来様に御守護御願い申し上げ、午後六時頃より浄霊を始めました。<br/><br/>頸部、延髄付近は浄霊を暫く続けますと柔かになりますが、他の部分を浄霊しておりますと又直ぐ固くなる。<br/><br/>又溶かす、又固まる。<br/><br/>同じ事を繰返す事何十度浄霊の手を休めると脈は衰える、唇の色は悪くなる、熱は一時下っても直ぐ又出る、益々浄化は強くなる、全然手を休める事は出来ない。<br/><br/>今まで数多くの脳炎、疫痢、脳膜炎、肺炎、ジフテリヤ等浄霊させて戴いたがこんな猛烈なのは初めてだ。<br/><br/>今までどんな病気にも絶対自信もあり、又大抵の熱なれば二、三十分から一時間位の浄霊で下るのだが既に三、四時間経過しているが全然下らない。<br/><br/>ふと大浄化の様を想像して慄然とする。<br/><br/>不断の浄霊が肝要なる事を沁々味わいさせて戴いた。<br/><br/>いよいよこうなれば治るまで徹宵浄霊の覚悟を決め、御守護をお念じつつ襲い来る蚊軍と戦いながら脳へ侵入して来る毒素を溶かす、集る、溶かす、集る、を繰返しながら夜も二時を廻る。<br/><br/>家人は前夜の看護に疲れてグッスリ寝入っている。<br/><br/>依然熱は下らないどころか段々悪化する。<br/><br/>午前三時頃突然痙攣と引きつけを起す。<br/><br/>不断なれば高熱には引きつけは付物なので、驚きもしないが、余りにも猛烈な全身浄化なのでいよいよ駄目か！ と最悪の場面がチラリと頭を掠める。<br/><br/>急いで家人を起して家内総掛りで浄霊だ。<br/><br/>脈は衰え、唇は紫色に変り口よりは桃色様の汚物を吐いている。<br/><br/>正に死相だ、最後の五分間だ、ここが頑張りどころと家人を励まし明主様に御守護御願い申し上げ懸命に浄霊する。<br/><br/>脈は衰えたがまだ絶えぬ。<br/><br/>生か死か？ 約一時間。<br/><br/>四時頃より目脂が少し出て来た。<br/><br/>それと前後して脈も活気付いて来た。<br/><br/>もう大丈夫だ！ 緊張に血走った眼と眼を見合わせ緊張の表情も安堵の吐息と共に無言の笑が洩れた。<br/><br/> 救われたのだ。<br/><br/>絶大の御神力、人間全生涯の中にこれ以上の喜びがあるであろうか。<br/><br/>魂に染入るような喜びをこの御道に生きる者のみが知る幸福を又味わわせて戴きました。<br/><br/>地平線上に昇る太陽を血走ったドロンとした眼で眺めた時、毎日眺めている太陽ではありますが「よく出て来てくれました」と暗夜に光明を仰ぐ気持でした。<br/><br/> その後も浄霊は連続し、熱もそれを峠に下り始め正午過ぎる頃には意識も恢復して口も喋れるようになり連続十八時間ブッ通しの浄霊に死を覚悟した大浄化も、私が午後一時頃帰る頃にはほとんど心配ないようになり御神徳戴き一厘の差で助けて戴きました。<br/><br/>現在では浄化前より頭も明晰となり、人一倍元気で毎日過させて戴き感謝の日を送っております。<br/><br/>それから二カ月、記念にと思い大光明如来様の御前で撮りましたる写真が、御守護により救われましたる子供を通じて見えざる物は信ずべからずの人達も信じざるを得ないこの事実のお力を写真上にありありと見させて戴き、信者達も今更ながら知る絶大なる御力により一段と信仰を深めさせて戴いております。<br/><br/>レントゲン写真の逆の理が常識を超越して行われ、これから進み行く霊写真科学部面の一ヒントとなるのではないかとも想像されます。<br/><br/>毎日数多くの御神徳戴いております中より特に今回の写真は救世教信徒又一般の人達にもお知らせ致したいと、ここに御報告申し上げる次第です。<br/><br/> （昭和二十五年十月三十日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

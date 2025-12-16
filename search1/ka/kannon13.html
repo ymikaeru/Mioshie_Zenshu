@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音講座 第一講座 『観音講座』昭和10(1935)年7月15日発行 主神の御目的と天地経綸の真相 これから説く事は世界の大秘密である。<br><br>それをいよいよ暴露するのであります。<br><br>今までは夜の世界であった。<br><br>それ故諸々（もろもろ）の穢（きたな）い事が匿（かく）れて居ったのであるが、観音様がこの世に現れた為に霊的に日が出た事になり、いよいよ秘していたことが目に見えて来た。<br><br>その見えて来たままをお知らせするのであり、それで今までの迷いを去り、不安を除き去るのであります。<br><br>今までのことは総てはっきりしていなかった。<br><br>真理は簡単でありまして複雑な事はない。<br><br>従来のあらゆる経典やお筆先は判らなかったのであるが、気が付いて見ると難しいものであります。<br><br>色々ややこしい複雑極まるもの程、誤魔化しがあるのである。<br><br> マルクスの資本論のごときは、学者でもわからん位にややこしいものであります。<br><br>要するにそれは真理ではないからである。<br><br>自分で真理が判らないから、色々に誤魔化していたのである。<br><br>御経、バイブル、御筆先もややこしくて判らん。<br><br>これが今までの世で習慣となり、訳がわからんから有難いのであるとなったのであります。<br><br>判らんお経を称（とな）えられて、有難いなぞとは一種の変態心理だと思う。<br><br>この判らん御経を坊さんに上げて貰っても判らんものを、人間ですら判らぬものを霊になったらなお判らんことになる。<br><br>この間違いを直して行く事が我々の今後の務であります。<br><br> 座禅のごときも、実に馬鹿々々しい事で朝から晩まで座っている。<br><br>これも一般人間には判りもしない寝言のごとき事を言って喜こんでいるだけで民衆に通用しない事は本当のものではないのであります。<br><br> バイブルも判らんが、これは外国語を直訳した為である。<br><br>黙示録も夢物語に等しいのである。<br><br> 儒教も孔子が言った事で余程判る事は判るが、昔の法律のごときであって、日本の憲法を見た方が反ってよく判る位のものである。<br><br>しかし中には忠孝の道五常五倫の道を説いてある、これは宗教ではありません。<br><br>ここにおいて喜びを与える事も出来ないのである。<br><br> 日本の神道は古いのは教義がない。<br><br>祭式、祈祷、呪禁（じゅごん）のごときものであるから、先頃宗教へ入れるかどうするかとの問題が起って未だ決定していない。<br><br> 新しい宗教には、天理教、金光教、大本教等は教義が出来ている。<br><br>天理教は教祖のお筆先が根本で謎のごとくで判らん為、学者、その他色々の人を頼み後に人間が教理を作ったのである。<br><br>お筆先を読んでもある一部は判るが判然と全部が判らん。<br><br> 金光教も色々あるがこれは極平易な事柄であって、現代の人間へ対する程という様な事はなく、単純な爺婆や花柳界の人達を喜ばす事である。<br><br> 大本教はお筆先であるが、余り同じ様な事を繰返して煩雑過ぎ、謎の様な事が多過ぎる。<br><br>中にて大本の霊界物語は、何もしないで読んでも一ケ月もかかる。<br><br>その中に肝心な事はポッチリでこれも判らん。<br><br>一度や二度や三度位読んでは判らんのである。<br><br>これ故大衆を救うというものはない。<br><br>はっきりしないから一般民衆を救う事が救えぬのである。<br><br>これは夜の世界で出来たから判然としないのである。<br><br> 今度観音様のことが判然とした時が光明世界なのである。<br><br>五六七の世がありますが、今直（すぐ）に全部判然する時は敵が出来たり、邪魔が出たりして反感が出来て駄目になる。<br><br>これが為観音様の御神業に障ることとなり、この方の目的を達せられん事となるので、困るから多少歯痒（はがゆ）い事もあるが、今までのことを思えばはっきりとしているのである。<br><br>現在までの宗教のここはこういう事であると説いたまでである。<br><br> 今度言霊学の言葉が出るが、この「霊返（たまがえ）し」を教える。<br><br>霊返しは言霊を詰めて行って意味を知るのである。<br><br> 霊返し ア イ ウ エ オ ハ ヒ フ ヘ ホ カ キ ク ケ コ ヤ イ ユ エ ヨ サ シ ス セ ソ マ ミ ム メ モ タ チ ツ テ ト ラ リ ル レ ロ ナ ニ ヌ ネ ノ ワ ヰ ウ ヱ ヲ 岡田を一字につめると、「オカ」を詰めるとア行の方が主になり、「ア」となる。<br><br> 「カア」であるが、「カ」が「ア」に入る。<br><br> 「ダ」もア行であるから、「ア」に入るなり。<br><br> 仁はジはジイであり、「ン」はウになる。<br><br> 「ジン」は 「ズ」となる。<br><br> 斎は「サイ」 で「シ」となる。<br><br> 「オカダ」がア、「ジン」はズ、 「サイ」はシ、 「ジンサイ」を詰めると「ジ」となり、 岡田の後に仁斎「ジ」をつゞむれば「イ」となるなり。<br><br> 岡 田 仁 斎 オカ ダ ジン サイ ジイウ シ ア ア ズ シ ア ジ イ okada jinsai oa ji 大 日 本 ダイ ニ ホン ジ フ dai di イ スズ ガワ 五 十 鈴 川 イン スズ ガワ イスズ 五十鈴川の解釈で世界の今後のことが判るのであるが、今これをお話することは出来ません。<br><br> 霊返しが出来たら、この次は天津金木（あまつかなぎ）と言う学問と云うよりも鍵がある。<br><br>これがあらゆるものゝ根本である。<br><br>言霊、天文、地文、易、予言等の根本なのであるが、これを教え様とする人が未だないのである。<br><br>古事記の中の稗田阿礼（ひえだのあれ）が勅命により口述したのである。<br><br> 天津金木は上の様な形のものである。<br><br> 稗田阿礼はこの天津金木を背に負っていたのである。<br><br>古事記は天津金木の神秘が書いてあるのである。<br><br>さればなぜ文章に書かなかったかと云えば、文章に書けば命がなかった為である。<br><br> 日本は言霊の幸う国、言葉の生くる国という国である。<br><br>今病気治しの時字を書くと、その書いた字の言葉が働くのである。<br><br>言霊で言えば直ちに強くなるのである。<br><br> 天地の根本の神様の概略を知らせる。<br><br> ［イラスト省略］ 宇宙及び森羅万象は、 天之御中主大神の御神体である。<br><br> この三神には個性が無いのである。<br><br> 宇宙の中心に地球あり、そのまわりに日月星辰あり、総て地球が中心であり、他の火星とか水星とか色々なものには、人間は住っていないのである。<br><br> この地球を統治する中心が何かと言うと、図のごとき地軸又は地柱と言う。<br><br>この神様の事を天照大神と申上げる。<br><br>この神様が本当の統治権を持たれて居られたのである。<br><br>つまり人としてお産れになったのでお姿があるのである。<br><br> ［イラスト省略］ 父 伊弉諾（いざなぎ）大神 母 伊弉冉（いざなみ）大神 日本 天照皇大神（あまてらすすめおほみかみ） 朝鮮 素盞嗚尊（すさのをのみこと） 支那 若姫岐美尊（わかひめぎみのみこと） （夫） 盤古神王（塩長彦尊） 伊弉諾、伊弉冉、御両神様が肉体を持って御現れになり、生殖作用をなされ、右の御三神をお産みになったのである。<br><br>天照皇大神様は日本に生れられ、素盞嗚尊は朝鮮の祖（後ユダヤ方面までも御出になられた）盤古神王は支那の祖となられたのである。<br><br>支那では盤古氏が一番位が高いとなっているのもこの為である。<br><br>これが天地経綸をなす根本なのである。<br><br>これにより日本、朝鮮、支那は兄弟であるということが判る。<br><br>朝鮮・満州が日本の手に入ったのもこれによる事である。<br><br> 天照皇大神 天 皇 統治権 天上 地上 艮金神（うしとらのこんじん） 国常立尊 閻魔大神 天照皇大神 兄花姫（このはなひめ）尊 伊都能売大神 観 世 音 世界御統治の為に、天照皇大神は別な神になられるのは前述の通りな訳であります。<br><br>それでは何の様な神様と御成り遊ばすかと言うと、前記系図のごとく国常立尊及び伊都能売大神となられるのであります。<br><br> 古事記の眼目は岩戸開きであります。<br><br>神代時代に天照皇大神は岩戸隠れをなされたのであります。<br><br>天照大神様が岩戸隠れ遊ばされた為に、今まで代々天皇陛下が御稜威（みいづ）を犯され遊ばされて御苦労遊ばされたのであります。<br><br>この岩戸隠れの時国常立尊は艮（うしとら）の鬼門へ御隠退遊ばされて居られたので、一方又幽界に入られては閻魔大王となられたのである。<br><br> 天照大神様が御隠退遊ばされたことも一方においては天地経綸上色々の意味のあった事は申すまでもない事である。<br><br> 世界を大別すると左のごとくなる 日 天照皇大神 国常立尊 伊都能売大神 月 素盞嗚尊 地 盤古神王 国常立尊及素盞嗚尊がこの地上を治められたが、国常立尊の御経綸は非常に厳格の為に、一般の神々が反対して御隠退なされ、艮の金神と申されたのである。<br><br>又素盞嗚尊が地上を治められた事もあったが、世が乱れてうまく治まらぬ為、根の堅州国に居られます母神様の御許に行く決心を以て、一度天に座（まし）ます姉神様たる天照大神様に御面会して行かんと天に登られたのであるが、余り勢よく御登りになったので山河動揺し、天照大神様はこれを御覧になり、これは素盞嗚尊が謀叛なされ、御自分を征めに来るものと思召され、軍備をなされてお待ちになったのである。<br><br>ところが素盞嗚尊がその様な心はないと御弁解なされて御誓約をなされたのである。<br><br>その結果、天照大神様は曲玉をお首より御取りになり、天の真奈井にそゝがれると、五人の男の神様が御生れになられた。<br><br> 天照大神――（五男） 天忍穂耳尊（あめのおしほみみのみこと） 天 穂 日 尊（あめのほひのみこと） 天津彦根尊（あまつひこねのみこと） 活津彦根尊（いくつひこねのふこと） 熊津樟日尊（くまつくすびのみこと） 五柱の神様がお産れになったのである。<br><br> 素盞嗚尊はお腰の剣を抜き、これを天の真奈井にそゝがれると三人の女神様がお生れになられたのである。<br><br> 素盞嗚尊――（三女） 田 心 姫 尊（タギリヒメ） 瑞 津 姫 尊（タギツヒメ） 市杵島姫尊（イチキシマヒメ） この神様を総称して五男三女という。<br><br>（五ノ三） 即ちイヅノメ 天の真奈井とは地上では琵琶湖となるのであります。<br><br> 富士山と琵琶湖は日本の臍に当り、富士山が表、琵琶湖は裏となり、これを邪神に占領されると日本が自由になるから、観音様が富士山に兄の花姫尊として、又、伊都能売大神様は金龍となられて、近江の琵琶湖にお潜みになられた。<br><br>この天の真奈井の天の八洲河原において誓約なされたのである。<br><br> 東 天照大御神の御統治 誓約 天の真奈井 西 素盞嗚尊の御統治 このごとく、両神様が未来において御統治をなさる御約束がこの時出来たのである。<br><br>五男三女の神様はその時まで龍神となられ所々に別れて潜まれ、五男三女の神様こそは八大龍王の事なのである。<br><br> 一、ナンダナーガラーシャ （難陀） 観 喜 龍 王 一、ウバナンダナーガラーシャ （跋難陀） 善観喜龍王 一、サーガラナーガラーシャ （娑羯羅） 海 龍 王 一、ワーシュキナーガラーシャ （和修吉） 多 頭 龍 王 一、タクシャカナーガラーシャ （徳叉迦） 視 毒 龍 王 一、マナスキンナーガラーシャ （摩那期） 大身大力龍王 一、ウッパラカナーガラーシャ （優鉢羅） 青龍華色龍王 一、アナッダブダナーガラーシャ（阿那裟達多）無悩清緊龍王 国常立尊………………（後継者）……………… 大 将 軍 素盞嗚尊………………（ 〃 ）……………… 大己貴尊（おほなむちのみこと） 盤台神王………………（後継者）……………… 天若彦尊（あめわかひこのみこと） この後に至り天忍穂耳尊（あめのおしほみみのみこと）より御系統が出て瓊瓊杵尊（ににぎのみこと）となり、連綿として今に至る。<br><br> 大光明世界の建設 真善美の完全に行われる世界 真理の行われる世界 （真） 善の栄える世界 （善） 真理道理に動く世界 （美） 主神が何の為に宗教を造られたかと言うと、宗教は弥勒出現までの世界人類をして、ある程度以上の堕落をなさざらしめんが為の必要的限定的の経綸であって、主神は一方悪の活動を許容され、物質文化を開き、一方その悪に因る弊害をはなはだしくせざらんが為に諸々（もろもろ）の人傑を出し、宗教なるものを弘通（ぐつう）せしめ、善悪を巧妙に織られたのである。<br><br>故に今日までの経綸は善悪、明暗、美醜、相交りつゝ流転活動し、進歩し発達し来たのである。<br><br>宗教は東洋が元であることがよく判る。<br><br>しかしこれが為、亜細亜（アジア）諸国が亡びたのである。<br><br> 一方今度は素盞嗚尊に命じて悪の世界を作られたのである。<br><br>すなわち体的文化であり、物質文化のことになるのである。<br><br>この物質文化は西洋を中心として起ったのである。<br><br>ただ今人類はこれが為非常に迷った。<br><br>東洋は滅亡の状態となり、西洋は末期となり訳が判らんから、今世界中の古い時代の色々のものを見つけ出したのであるが、古い事は最早事済となりしことばかりにて、これから先の事がいかになり行くか判らんのである。<br><br> 今までの人の思想は善一方では出世することすら出来ない世である。<br><br> 善・悪 迷いを生ずる。<br><br> 悪をなせば法律にふれてあぶないし、善をなせば出世が出来ぬ。<br><br>この為両方に迷い、ふらふらしているのが大部分の今の状態である。<br><br> 昔から忠臣義士は皆不幸の最後を遂げて居り、これに反して悪人がたとえ一時にもせよ栄えている事は何であるかという疑問をもつことであろう。<br><br>これこそ大事である。<br><br> 要するに、これまで神様は悪の世界を許されたからである。<br><br>故に何程か悪に荷担しなければ出世も栄えも出来ぬ状態なのであった。<br><br>これ位簡単なことが今まで判らなかったのである。<br><br>この為に迷いが生じて来たのである。<br><br>悪の強い半獣的思想が止まなかったのである。<br><br>これが悪事も神様が時期の来るまで幾らか許されていたから出来たのである。<br><br>所が主神が今回伊都能売（いづのめ）大神に命ぜられて日本を基点として、大光明世界を作らせ様となさって居られるのである。<br><br> 体的でなく、霊的でなく、善か悪か想像のつかない世界を改めて、昭和十年一月一日観音会がたち、善悪無差別、善悪不二の世界を造る事になったのである。<br><br>今迄あった悪も善も何れも必要であったのである。<br><br> 昭和十年一月一日 昭和とは日召和となる（平和）。<br><br>日は天照大神のことであり、召は知食（しろしめす）という字（知召）。<br><br>和は世界、又は大和である。<br><br>十は結びである。<br><br> 善と悪とを結べば悪はなくなるのである。<br><br> 善を結んだ中心が則ち伊都能売である。<br><br> 善悪を結んで火水（かみ）となる。<br><br> 善悪結んで廻る十字の尖端曲りて［逆卍］となるのである。<br><br>善悪結ばれし時より、悪は消えて完全なものとなるのである。<br><br> 伊都能売大神様の世則ち大光明世界が造られるのである。<br><br>宗教の卍は右廻りなるが、これが今までの右進左退の世すなわち悪の世界であったのである。<br><br> 伊都能売の大神様は左進右退になるのである。<br><br> 神音 天如神主観 天業開始と言う事になる。<br><br> 真（スとなり）マコト、善、虚仮空、美、実相世界。<br><br> 真善美の世界を造ると言う事は真はマコトである。<br><br>今までは虚の世界、仮の世界、空の世界である。<br><br>一切空、仮の娑婆である。<br><br>なぜかと言えば善悪両方を許してあったからである。<br><br>ある目的のものを造る迄の仮の世界であったから仮の娑婆である。<br><br> 真は霊返しで読むとスとなり実である。<br><br>華である。<br><br>いよいよ実を結ぶのである。<br><br>又は統べる、皇（すめらぎ）、○丶、統一する、一人となる。<br><br> 一人は天皇であるから、昔から陛下のことを上（神）御一人と申上たのでもよく判る。<br><br>しかもこの御仕事は天皇陛下では御出来にならん。<br><br>下万民がやらねばならん事なのである。<br><br> 国常立尊（くにとこたちのみこと）は昔善一方で世界を治め様としたる為に、非常に他の神々に反感を買い、隠退遊ばされる様なことになった。<br><br> 真の字を離すと直と人となる。<br><br>真直な人即すなおな人、シン、心、中心、神、信とて非常に権威のある言霊である。<br><br> 中心となるとこの度の御経綸を伊都能売の神様にお托しになった。<br><br>これが観音様である。<br><br> 中心日本は世界の中心である。<br><br>麹町の中心は宮城である。<br><br> どうしても観音会は宮城の側へ現われねばならんのである。<br><br> 十六の菊の御紋は、 即ち十へ稜威（いつ）が出る形である。<br><br> 世界の経綸の真の救いと経綸は御膝元から出ねばならぬ。<br><br>どうしても出ねばならんのである。<br><br> 観音会で自分が言うことは皆ハッキリしているのである。<br><br>もしも今までの教がハッキリしていたらどうかと言えば、これにより悪が暴露するのである。<br><br>暴露するとそれで世の中は進歩しないことになり、統一の事業は出来ない事となるのである。<br><br>総てが国際的となり一度に世界に知らせる事の出来るのはラジオの出現である。<br><br>ラジオの出来た事により、これで総ての準備が出来たことゝなる。<br><br> 何事もこれにより世界的になったのである。<br><br> 世界的救済、世界的宗教、これもいよいよ今出でざれば駄目だ。<br><br>一人により世界統一せざれば真の平和は出来ぬ。<br><br>今までの色々の宗教は要するに無駄である。<br><br> 帰一、一とは元の神様則ち主神の事である。<br><br>それに帰する、主神に帰することであります。<br><br> （昭和十年七月十五日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Propósito de Deus Supremo e a Verdade sobre o Plano Divino</h2>
 <p>O que passarei a expor constitui o grande segredo do mundo, e chegou o momento de revelá-lo. Até agora, vivíamos em um mundo de noite, onde toda sorte de impurezas permanecia oculta. Com o advento de Kannon (観音) a este mundo, o sol nasceu espiritualmente, e aquilo que se mantinha secreto tornou-se, enfim, visível. É sobre essa realidade, agora manifesta, que irei lhes falar, para que possam abandonar as ilusões do passado e dissipar suas inseguranças.</p>
@@ -207,5 +359,48 @@ E sendo o "centro", esta missão foi confiada a Izunome no Ookami, que é Kannon
 <p>Com tudo se tornando global, a salvação mundial e uma religião mundial devem emergir agora, ou não será mais possível. Se o mundo não for unificado por uma só pessoa, a verdadeira paz não poderá ser alcançada. As diversas religiões que existiram até hoje são, em suma, inúteis.</p>
 <p><em>Kiitsu</em> (帰一) significa "retornar ao Uno". O "Uno" é o Deus original, Deus Supremo. Significa, portanto, retornar a Deus Supremo.</p>
 <p>(15 de julho de 1935)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音講座 第一講座 『観音講座』昭和10(1935)年7月15日発行 主神の御目的と天地経綸の真相 これから説く事は世界の大秘密である。<br/><br/>それをいよいよ暴露するのであります。<br/><br/>今までは夜の世界であった。<br/><br/>それ故諸々（もろもろ）の穢（きたな）い事が匿（かく）れて居ったのであるが、観音様がこの世に現れた為に霊的に日が出た事になり、いよいよ秘していたことが目に見えて来た。<br/><br/>その見えて来たままをお知らせするのであり、それで今までの迷いを去り、不安を除き去るのであります。<br/><br/>今までのことは総てはっきりしていなかった。<br/><br/>真理は簡単でありまして複雑な事はない。<br/><br/>従来のあらゆる経典やお筆先は判らなかったのであるが、気が付いて見ると難しいものであります。<br/><br/>色々ややこしい複雑極まるもの程、誤魔化しがあるのである。<br/><br/> マルクスの資本論のごときは、学者でもわからん位にややこしいものであります。<br/><br/>要するにそれは真理ではないからである。<br/><br/>自分で真理が判らないから、色々に誤魔化していたのである。<br/><br/>御経、バイブル、御筆先もややこしくて判らん。<br/><br/>これが今までの世で習慣となり、訳がわからんから有難いのであるとなったのであります。<br/><br/>判らんお経を称（とな）えられて、有難いなぞとは一種の変態心理だと思う。<br/><br/>この判らん御経を坊さんに上げて貰っても判らんものを、人間ですら判らぬものを霊になったらなお判らんことになる。<br/><br/>この間違いを直して行く事が我々の今後の務であります。<br/><br/> 座禅のごときも、実に馬鹿々々しい事で朝から晩まで座っている。<br/><br/>これも一般人間には判りもしない寝言のごとき事を言って喜こんでいるだけで民衆に通用しない事は本当のものではないのであります。<br/><br/> バイブルも判らんが、これは外国語を直訳した為である。<br/><br/>黙示録も夢物語に等しいのである。<br/><br/> 儒教も孔子が言った事で余程判る事は判るが、昔の法律のごときであって、日本の憲法を見た方が反ってよく判る位のものである。<br/><br/>しかし中には忠孝の道五常五倫の道を説いてある、これは宗教ではありません。<br/><br/>ここにおいて喜びを与える事も出来ないのである。<br/><br/> 日本の神道は古いのは教義がない。<br/><br/>祭式、祈祷、呪禁（じゅごん）のごときものであるから、先頃宗教へ入れるかどうするかとの問題が起って未だ決定していない。<br/><br/> 新しい宗教には、天理教、金光教、大本教等は教義が出来ている。<br/><br/>天理教は教祖のお筆先が根本で謎のごとくで判らん為、学者、その他色々の人を頼み後に人間が教理を作ったのである。<br/><br/>お筆先を読んでもある一部は判るが判然と全部が判らん。<br/><br/> 金光教も色々あるがこれは極平易な事柄であって、現代の人間へ対する程という様な事はなく、単純な爺婆や花柳界の人達を喜ばす事である。<br/><br/> 大本教はお筆先であるが、余り同じ様な事を繰返して煩雑過ぎ、謎の様な事が多過ぎる。<br/><br/>中にて大本の霊界物語は、何もしないで読んでも一ケ月もかかる。<br/><br/>その中に肝心な事はポッチリでこれも判らん。<br/><br/>一度や二度や三度位読んでは判らんのである。<br/><br/>これ故大衆を救うというものはない。<br/><br/>はっきりしないから一般民衆を救う事が救えぬのである。<br/><br/>これは夜の世界で出来たから判然としないのである。<br/><br/> 今度観音様のことが判然とした時が光明世界なのである。<br/><br/>五六七の世がありますが、今直（すぐ）に全部判然する時は敵が出来たり、邪魔が出たりして反感が出来て駄目になる。<br/><br/>これが為観音様の御神業に障ることとなり、この方の目的を達せられん事となるので、困るから多少歯痒（はがゆ）い事もあるが、今までのことを思えばはっきりとしているのである。<br/><br/>現在までの宗教のここはこういう事であると説いたまでである。<br/><br/> 今度言霊学の言葉が出るが、この「霊返（たまがえ）し」を教える。<br/><br/>霊返しは言霊を詰めて行って意味を知るのである。<br/><br/> 霊返し ア イ ウ エ オ ハ ヒ フ ヘ ホ カ キ ク ケ コ ヤ イ ユ エ ヨ サ シ ス セ ソ マ ミ ム メ モ タ チ ツ テ ト ラ リ ル レ ロ ナ ニ ヌ ネ ノ ワ ヰ ウ ヱ ヲ 岡田を一字につめると、「オカ」を詰めるとア行の方が主になり、「ア」となる。<br/><br/> 「カア」であるが、「カ」が「ア」に入る。<br/><br/> 「ダ」もア行であるから、「ア」に入るなり。<br/><br/> 仁はジはジイであり、「ン」はウになる。<br/><br/> 「ジン」は 「ズ」となる。<br/><br/> 斎は「サイ」 で「シ」となる。<br/><br/> 「オカダ」がア、「ジン」はズ、 「サイ」はシ、 「ジンサイ」を詰めると「ジ」となり、 岡田の後に仁斎「ジ」をつゞむれば「イ」となるなり。<br/><br/> 岡 田 仁 斎 オカ ダ ジン サイ ジイウ シ ア ア ズ シ ア ジ イ okada jinsai oa ji 大 日 本 ダイ ニ ホン ジ フ dai di イ スズ ガワ 五 十 鈴 川 イン スズ ガワ イスズ 五十鈴川の解釈で世界の今後のことが判るのであるが、今これをお話することは出来ません。<br/><br/> 霊返しが出来たら、この次は天津金木（あまつかなぎ）と言う学問と云うよりも鍵がある。<br/><br/>これがあらゆるものゝ根本である。<br/><br/>言霊、天文、地文、易、予言等の根本なのであるが、これを教え様とする人が未だないのである。<br/><br/>古事記の中の稗田阿礼（ひえだのあれ）が勅命により口述したのである。<br/><br/> 天津金木は上の様な形のものである。<br/><br/> 稗田阿礼はこの天津金木を背に負っていたのである。<br/><br/>古事記は天津金木の神秘が書いてあるのである。<br/><br/>さればなぜ文章に書かなかったかと云えば、文章に書けば命がなかった為である。<br/><br/> 日本は言霊の幸う国、言葉の生くる国という国である。<br/><br/>今病気治しの時字を書くと、その書いた字の言葉が働くのである。<br/><br/>言霊で言えば直ちに強くなるのである。<br/><br/> 天地の根本の神様の概略を知らせる。<br/><br/> ［イラスト省略］ 宇宙及び森羅万象は、 天之御中主大神の御神体である。<br/><br/> この三神には個性が無いのである。<br/><br/> 宇宙の中心に地球あり、そのまわりに日月星辰あり、総て地球が中心であり、他の火星とか水星とか色々なものには、人間は住っていないのである。<br/><br/> この地球を統治する中心が何かと言うと、図のごとき地軸又は地柱と言う。<br/><br/>この神様の事を天照大神と申上げる。<br/><br/>この神様が本当の統治権を持たれて居られたのである。<br/><br/>つまり人としてお産れになったのでお姿があるのである。<br/><br/> ［イラスト省略］ 父 伊弉諾（いざなぎ）大神 母 伊弉冉（いざなみ）大神 日本 天照皇大神（あまてらすすめおほみかみ） 朝鮮 素盞嗚尊（すさのをのみこと） 支那 若姫岐美尊（わかひめぎみのみこと） （夫） 盤古神王（塩長彦尊） 伊弉諾、伊弉冉、御両神様が肉体を持って御現れになり、生殖作用をなされ、右の御三神をお産みになったのである。<br/><br/>天照皇大神様は日本に生れられ、素盞嗚尊は朝鮮の祖（後ユダヤ方面までも御出になられた）盤古神王は支那の祖となられたのである。<br/><br/>支那では盤古氏が一番位が高いとなっているのもこの為である。<br/><br/>これが天地経綸をなす根本なのである。<br/><br/>これにより日本、朝鮮、支那は兄弟であるということが判る。<br/><br/>朝鮮・満州が日本の手に入ったのもこれによる事である。<br/><br/> 天照皇大神 天 皇 統治権 天上 地上 艮金神（うしとらのこんじん） 国常立尊 閻魔大神 天照皇大神 兄花姫（このはなひめ）尊 伊都能売大神 観 世 音 世界御統治の為に、天照皇大神は別な神になられるのは前述の通りな訳であります。<br/><br/>それでは何の様な神様と御成り遊ばすかと言うと、前記系図のごとく国常立尊及び伊都能売大神となられるのであります。<br/><br/> 古事記の眼目は岩戸開きであります。<br/><br/>神代時代に天照皇大神は岩戸隠れをなされたのであります。<br/><br/>天照大神様が岩戸隠れ遊ばされた為に、今まで代々天皇陛下が御稜威（みいづ）を犯され遊ばされて御苦労遊ばされたのであります。<br/><br/>この岩戸隠れの時国常立尊は艮（うしとら）の鬼門へ御隠退遊ばされて居られたので、一方又幽界に入られては閻魔大王となられたのである。<br/><br/> 天照大神様が御隠退遊ばされたことも一方においては天地経綸上色々の意味のあった事は申すまでもない事である。<br/><br/> 世界を大別すると左のごとくなる 日 天照皇大神 国常立尊 伊都能売大神 月 素盞嗚尊 地 盤古神王 国常立尊及素盞嗚尊がこの地上を治められたが、国常立尊の御経綸は非常に厳格の為に、一般の神々が反対して御隠退なされ、艮の金神と申されたのである。<br/><br/>又素盞嗚尊が地上を治められた事もあったが、世が乱れてうまく治まらぬ為、根の堅州国に居られます母神様の御許に行く決心を以て、一度天に座（まし）ます姉神様たる天照大神様に御面会して行かんと天に登られたのであるが、余り勢よく御登りになったので山河動揺し、天照大神様はこれを御覧になり、これは素盞嗚尊が謀叛なされ、御自分を征めに来るものと思召され、軍備をなされてお待ちになったのである。<br/><br/>ところが素盞嗚尊がその様な心はないと御弁解なされて御誓約をなされたのである。<br/><br/>その結果、天照大神様は曲玉をお首より御取りになり、天の真奈井にそゝがれると、五人の男の神様が御生れになられた。<br/><br/> 天照大神――（五男） 天忍穂耳尊（あめのおしほみみのみこと） 天 穂 日 尊（あめのほひのみこと） 天津彦根尊（あまつひこねのみこと） 活津彦根尊（いくつひこねのふこと） 熊津樟日尊（くまつくすびのみこと） 五柱の神様がお産れになったのである。<br/><br/> 素盞嗚尊はお腰の剣を抜き、これを天の真奈井にそゝがれると三人の女神様がお生れになられたのである。<br/><br/> 素盞嗚尊――（三女） 田 心 姫 尊（タギリヒメ） 瑞 津 姫 尊（タギツヒメ） 市杵島姫尊（イチキシマヒメ） この神様を総称して五男三女という。<br/><br/>（五ノ三） 即ちイヅノメ 天の真奈井とは地上では琵琶湖となるのであります。<br/><br/> 富士山と琵琶湖は日本の臍に当り、富士山が表、琵琶湖は裏となり、これを邪神に占領されると日本が自由になるから、観音様が富士山に兄の花姫尊として、又、伊都能売大神様は金龍となられて、近江の琵琶湖にお潜みになられた。<br/><br/>この天の真奈井の天の八洲河原において誓約なされたのである。<br/><br/> 東 天照大御神の御統治 誓約 天の真奈井 西 素盞嗚尊の御統治 このごとく、両神様が未来において御統治をなさる御約束がこの時出来たのである。<br/><br/>五男三女の神様はその時まで龍神となられ所々に別れて潜まれ、五男三女の神様こそは八大龍王の事なのである。<br/><br/> 一、ナンダナーガラーシャ （難陀） 観 喜 龍 王 一、ウバナンダナーガラーシャ （跋難陀） 善観喜龍王 一、サーガラナーガラーシャ （娑羯羅） 海 龍 王 一、ワーシュキナーガラーシャ （和修吉） 多 頭 龍 王 一、タクシャカナーガラーシャ （徳叉迦） 視 毒 龍 王 一、マナスキンナーガラーシャ （摩那期） 大身大力龍王 一、ウッパラカナーガラーシャ （優鉢羅） 青龍華色龍王 一、アナッダブダナーガラーシャ（阿那裟達多）無悩清緊龍王 国常立尊………………（後継者）……………… 大 将 軍 素盞嗚尊………………（ 〃 ）……………… 大己貴尊（おほなむちのみこと） 盤台神王………………（後継者）……………… 天若彦尊（あめわかひこのみこと） この後に至り天忍穂耳尊（あめのおしほみみのみこと）より御系統が出て瓊瓊杵尊（ににぎのみこと）となり、連綿として今に至る。<br/><br/> 大光明世界の建設 真善美の完全に行われる世界 真理の行われる世界 （真） 善の栄える世界 （善） 真理道理に動く世界 （美） 主神が何の為に宗教を造られたかと言うと、宗教は弥勒出現までの世界人類をして、ある程度以上の堕落をなさざらしめんが為の必要的限定的の経綸であって、主神は一方悪の活動を許容され、物質文化を開き、一方その悪に因る弊害をはなはだしくせざらんが為に諸々（もろもろ）の人傑を出し、宗教なるものを弘通（ぐつう）せしめ、善悪を巧妙に織られたのである。<br/><br/>故に今日までの経綸は善悪、明暗、美醜、相交りつゝ流転活動し、進歩し発達し来たのである。<br/><br/>宗教は東洋が元であることがよく判る。<br/><br/>しかしこれが為、亜細亜（アジア）諸国が亡びたのである。<br/><br/> 一方今度は素盞嗚尊に命じて悪の世界を作られたのである。<br/><br/>すなわち体的文化であり、物質文化のことになるのである。<br/><br/>この物質文化は西洋を中心として起ったのである。<br/><br/>ただ今人類はこれが為非常に迷った。<br/><br/>東洋は滅亡の状態となり、西洋は末期となり訳が判らんから、今世界中の古い時代の色々のものを見つけ出したのであるが、古い事は最早事済となりしことばかりにて、これから先の事がいかになり行くか判らんのである。<br/><br/> 今までの人の思想は善一方では出世することすら出来ない世である。<br/><br/> 善・悪 迷いを生ずる。<br/><br/> 悪をなせば法律にふれてあぶないし、善をなせば出世が出来ぬ。<br/><br/>この為両方に迷い、ふらふらしているのが大部分の今の状態である。<br/><br/> 昔から忠臣義士は皆不幸の最後を遂げて居り、これに反して悪人がたとえ一時にもせよ栄えている事は何であるかという疑問をもつことであろう。<br/><br/>これこそ大事である。<br/><br/> 要するに、これまで神様は悪の世界を許されたからである。<br/><br/>故に何程か悪に荷担しなければ出世も栄えも出来ぬ状態なのであった。<br/><br/>これ位簡単なことが今まで判らなかったのである。<br/><br/>この為に迷いが生じて来たのである。<br/><br/>悪の強い半獣的思想が止まなかったのである。<br/><br/>これが悪事も神様が時期の来るまで幾らか許されていたから出来たのである。<br/><br/>所が主神が今回伊都能売（いづのめ）大神に命ぜられて日本を基点として、大光明世界を作らせ様となさって居られるのである。<br/><br/> 体的でなく、霊的でなく、善か悪か想像のつかない世界を改めて、昭和十年一月一日観音会がたち、善悪無差別、善悪不二の世界を造る事になったのである。<br/><br/>今迄あった悪も善も何れも必要であったのである。<br/><br/> 昭和十年一月一日 昭和とは日召和となる（平和）。<br/><br/>日は天照大神のことであり、召は知食（しろしめす）という字（知召）。<br/><br/>和は世界、又は大和である。<br/><br/>十は結びである。<br/><br/> 善と悪とを結べば悪はなくなるのである。<br/><br/> 善を結んだ中心が則ち伊都能売である。<br/><br/> 善悪を結んで火水（かみ）となる。<br/><br/> 善悪結んで廻る十字の尖端曲りて［逆卍］となるのである。<br/><br/>善悪結ばれし時より、悪は消えて完全なものとなるのである。<br/><br/> 伊都能売大神様の世則ち大光明世界が造られるのである。<br/><br/>宗教の卍は右廻りなるが、これが今までの右進左退の世すなわち悪の世界であったのである。<br/><br/> 伊都能売の大神様は左進右退になるのである。<br/><br/> 神音 天如神主観 天業開始と言う事になる。<br/><br/> 真（スとなり）マコト、善、虚仮空、美、実相世界。<br/><br/> 真善美の世界を造ると言う事は真はマコトである。<br/><br/>今までは虚の世界、仮の世界、空の世界である。<br/><br/>一切空、仮の娑婆である。<br/><br/>なぜかと言えば善悪両方を許してあったからである。<br/><br/>ある目的のものを造る迄の仮の世界であったから仮の娑婆である。<br/><br/> 真は霊返しで読むとスとなり実である。<br/><br/>華である。<br/><br/>いよいよ実を結ぶのである。<br/><br/>又は統べる、皇（すめらぎ）、○丶、統一する、一人となる。<br/><br/> 一人は天皇であるから、昔から陛下のことを上（神）御一人と申上たのでもよく判る。<br/><br/>しかもこの御仕事は天皇陛下では御出来にならん。<br/><br/>下万民がやらねばならん事なのである。<br/><br/> 国常立尊（くにとこたちのみこと）は昔善一方で世界を治め様としたる為に、非常に他の神々に反感を買い、隠退遊ばされる様なことになった。<br/><br/> 真の字を離すと直と人となる。<br/><br/>真直な人即すなおな人、シン、心、中心、神、信とて非常に権威のある言霊である。<br/><br/> 中心となるとこの度の御経綸を伊都能売の神様にお托しになった。<br/><br/>これが観音様である。<br/><br/> 中心日本は世界の中心である。<br/><br/>麹町の中心は宮城である。<br/><br/> どうしても観音会は宮城の側へ現われねばならんのである。<br/><br/> 十六の菊の御紋は、 即ち十へ稜威（いつ）が出る形である。<br/><br/> 世界の経綸の真の救いと経綸は御膝元から出ねばならぬ。<br/><br/>どうしても出ねばならんのである。<br/><br/> 観音会で自分が言うことは皆ハッキリしているのである。<br/><br/>もしも今までの教がハッキリしていたらどうかと言えば、これにより悪が暴露するのである。<br/><br/>暴露するとそれで世の中は進歩しないことになり、統一の事業は出来ない事となるのである。<br/><br/>総てが国際的となり一度に世界に知らせる事の出来るのはラジオの出現である。<br/><br/>ラジオの出来た事により、これで総ての準備が出来たことゝなる。<br/><br/> 何事もこれにより世界的になったのである。<br/><br/> 世界的救済、世界的宗教、これもいよいよ今出でざれば駄目だ。<br/><br/>一人により世界統一せざれば真の平和は出来ぬ。<br/><br/>今までの色々の宗教は要するに無駄である。<br/><br/> 帰一、一とは元の神様則ち主神の事である。<br/><br/>それに帰する、主神に帰することであります。<br/><br/> （昭和十年七月十五日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

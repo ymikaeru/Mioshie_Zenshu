@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jorei200</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： この人にしてこの奇蹟 （明主様の御浄霊） 槐安 『栄光』200号、昭和28(1953)年3月18日発行 「僕の顔、どうですか」久闊を叙す間も惜しむように錦大路さんは、禅問答のような唐突な試問を、私に提示した。<br><br> 舞台に出る俳優が、役柄に合せた扮装の出来栄えを師匠に見て貰うときのように「僕の顔どうですか」の科白には、咄嗟に答えの出る筈もない。<br><br> 「まだ気がつきませんか、僕の顔に」いつもの苦渋にみちた顔と違って、今日はニコニコと笑を湛えた明るい顔をしていることは解っていたが、なん年たっても毒素の除り切れない顔いろのそれにも、私は気付いていた。<br><br>しかし、この毒素の多い身体を象徴している顔いろの悪さは、もとより本人が自覚していないことなのでこれを云って相手の気持を悪くさせるまでもないことである。<br><br>「何か余程いいことがあったらしいが、それと君の顔とにどういう関係があるのかね」こうは云ったものの、これは答えにならない愚問だ。<br><br>と思った。<br><br>肝心な問題を率直に云わず抽象的な言葉を遠まわしに云って、婉曲にこちらの反応を窺おうとするこの人の性癖には、いつも腹立たしさを感じる。<br><br> 「槐安さん……まだ気が付きませんか、この顔に」錦大路さんは、解って貰えない焦ら立たしい感情をむき出しにして、彫りの深い整った顔を、私の顔のま近に突き出した。<br><br>今迄の錦大路さんの顔と、今日の錦大路さんの顔とが、どう違っているのか幾ら凝視してみても変化があった。<br><br>とは思えない。<br><br>仕事を控えていて時間を空費させられる私の方が焦ら立たしいのだ。<br><br>「卒直に云ってくれないか。<br><br>なんのことか私には解らない」私の言葉に棘のあるのが自分でも感じられたが、「まだ、解って貰えないのかなあ……」と彼は不服そうであった。<br><br> 錦大路さんの入信年月はたしか私より一年ほど早かったから、信者のうちでも古い方に属しよう。<br><br>この人の入信した動機は、一般の信者のそれの様に、病苦を救われて真理を知ったからではなく、先祖の霊も救われる。<br><br>と聞いて入信しただけに、霊現象に対して異常な興味を持っているようであるが、信仰の本質、信仰の実体となるべき「救い」には無関心で、所属の教会へも滅多にゆかず、勿論浄霊を戴く回数も少い。<br><br>誰に聞いたのか私の住所を知って二回ほど手紙をよこし、それ以来一年のうち二度か三度、訪ねて、救いになんの関係もない質問をし、私の感想や教主はこの問題をどう考えているでしょう。<br><br>なぞと愚にも付かぬことを訊く。<br><br>錦大路という苗字からも察しられるように、この人は堂上華族の出身であるらしく、整った大まかな顔だちも氏育ちの良さを物語っているが、その交遊関係が旧華族や元の陸海軍将星政治家、官僚に及んでいる事が自慢らしく、何かにつけてその人達の名を挙げ、交際の広い事を示そう。<br><br>とする。<br><br>天邪鬼な私は錦大路さんの斜陽族らしい事大思想を哀れにも思い、済度し難い思いもするだけである。<br><br>そしてこの人が訪ねてくるたぴごとに「御神書を読んでいますか、教会へ行っていますか、御浄霊をしていますか」とメシヤ教信者の必須条件である三つの言葉を云い添えることを忘れない。<br><br>「ええ、読んでいます。<br><br>教会へも行っていますよ。<br><br>浄霊もたまには……」とこの人の返事も判で捺したように決まっているが、実際にはどうか危いものだ、と思っていた。<br><br>それにこの人の信仰が本物ではない。<br><br>と考えられるのは、明主様。<br><br>という信者が教主に対する敬語を云ったことがなく、いつも教主。<br><br>と第三人称を用いることである。<br><br>その都度私はわざと声を大きくして明主様。<br><br>と云うのだが相手は何んの反応も示さず、相変らず教主と云って澄ましている。<br><br>家内が明主様をメシヤ様と申し上げているのといい対照だ。<br><br>とそのたびに私は苦笑するのであった。<br><br>要するに錦大路さんは、形は入信者であるが、実際にはメシヤ教に好意を持っている未信者としか思えない人である。<br><br>と私は観察しているのであった。<br><br> 「僕の口から云ったのでは、まるっきり興味が無くなって仕舞って残念だが、僕の顔の事、僕から説明しましょう」錦大路さんは、まだ顔に拘泥していた。<br><br>「僕の鼻の両脇に小さなイボが二つあったのを御存知でしょう」ああ……そのことだったのか。<br><br>改めて私はその顔を見た。<br><br>それほど目立ちはしなかったが、黒い小さなイボが鼻翼の両方にあったのが想い出された。<br><br>「無くなったね。<br><br>薬で灼いたの？……」と、私は訊いた。<br><br> 「僕が信仰に不熱心だったのでそう云われても仕方がないようなものだが、いくら僕でも薬毒だけは解っているつもりですよ」薬で灼いたのかと、暗に信仰の不徹底さを指摘されたのが心外らしく、彼は一寸、表情をこわばらせ、「明主様の御浄霊でとれたんです」とイボが消え失せた驚ろくべき奇蹟の顛末を述べた。<br><br> 「滅多に本部へおまいりしたこともない僕が、明主様の御浄霊が戴ける、と聴いたので行く気になりました。<br><br>明主様の御浄霊はどういうやり方か、教会の先生と同じかどうかそれも見たい。<br><br>と思って他の信者さんが頭を下げているのに僕は頭をあげたまま、明主様の手を視線で追いながら見ていました。<br><br>僕達の方へ霊気を放射される時も、顔をあげたままその手を見ていました。<br><br>僕の態度は、いわば未信者が冷静に観察しているようなもので、信者とすれば不遜極ものであったでしょう。<br><br>浄霊が済み、明主様が退出されてから、習慣的になんの気もなく、ふと、顔へ手を当ててみると、いつも指先に堅く当たるイボがない。<br><br>オヤ……と思って指先で探るように丹念にさわってみたが矢張りない。<br><br>今度は左の指でイボを探してみたがこれにも手応えがない、どうしたのか。<br><br>慌てて懐中鏡に写して見ると二つともイボが無くなっている。<br><br>明主様がおでましになる時迄は確かにあったものが、何故いつの間に無くなったのか。<br><br>品物ではあるまいし小さくとも肉体の一部であってみれば、切れば血も出るし痛くもある。<br><br>それが痛みも痒みも感じないで、いつの間にか除かれている。<br><br>不思議だ、一体、どうして除れたのか。<br><br>いくら考えてみても解らない。<br><br>どのみち邪魔なものが無くなってくれたのは有難い。<br><br>と思ってその座を立つとき、他の信者さんたちがするように御神殿に向って礼をしているうちに、明主様の今の御浄霊で消え失せたのだ。<br><br>と天啓のように頭にきらめくものがありました。<br><br>明主様のいまの御浄霊で……もう一度イボのあったところをさわって見ましたが矢張りありません。<br><br>僕にして見れば、まるで狐にたぶらかされている様な気持でした。<br><br>その不思議な日から今日で十日目、毎日、鏡で見たり指でさわって見たり、これを幾度くり返してみてもイボはありません。<br><br>明主様の一ぺんの御浄霊で……と思うと不熱心、不心得な僕に神様が奇蹟を見せてくれたのだ。<br><br>そう思うと明主様に対する今までの僕の認識も、救世教に対するこれまでの批判的な考えも全部改めなければならない。<br><br>そう考えています。<br><br>槐安さん……明主様の御浄霊、それも千人近い信者が、あんな短い時間うけただけでこうした奇蹟が起ることでしょうか」 錦大路さんは、驚くべき大奇蹟を見せられながら、余りに現実離れした奇蹟なるが故に、まだ一点の疑いを挟んでいる。<br><br>かの様な口吻である。<br><br>神様が見せて下さる奇蹟というものは、総てが人間の智恵で釈く事のできない神秘不可思議なものばかりである。<br><br>お守様を身に付けているだけで御守護があり奇蹟のあった例は枚挙に暇（いとま）のないほど沢山ある。<br><br>しかし人間の肉体の一部であるイボが明主様の御浄霊によって、瞬時に痕跡もなく消滅したということば、明主様の御神力のほどが如何に底知れぬ深さを持っている事か、ただただ瞠目讃嘆するばかりである。<br><br>錦大路さんの語る一部始終を聞きながら、私は感激と驚異の念を新たにしたのであったが、彼はみずから不熱心、不心得を自認するだけに、まだ割切れない一沫のものを腹の底に持っているのだ。<br><br>何んと云う不徹底な男だろう。<br><br>推理小説ではあるまいし、奇蹟にトリックも証拠も必要ではない。<br><br>奇蹟だ、助かった……という救われた現実を有難く神様に感謝すればいいのだ。<br><br>私は口まで出かかったこの言葉を腹の中へ呑み込んだ。<br><br> 「御神徳や奇蹟というものは人間の思惟によって生れるものではなく、又、信ずるの余りコジツケて無理に奇蹟よばわりするものではない。<br><br>それは神様を偽わることであるからだ。<br><br>しかし御神徳や奇蹟を見せられながら、自然法にないからとそれを容認しない唯物論者もある。<br><br>これなどは人間の智恵を買い冠った嗤うべき短見だ。<br><br>今の君の態度がこれに近い、と云ったら君は憤るだろう。<br><br>君が現実に見せられ、現実に救われて奇蹟と思い、不思議という言葉を使っていながらなおそれを疑う気持もあるなら、どうしても疑うことのできない奇蹟のあった事実を見せて上げよう」信じているのか、信じていないのか曖昧で煮え切らないこの人を相手にしていると、歯痒い思いをするばかりである。<br><br> 「私が経験した奇蹟は明主様の御浄霊を戴かず、ただ明主様のお顔を拝しただけで起った奇蹟で、この事実を証明する証拠もある。<br><br>この話を聞けば、君の疑問も氷解するだろう」と、私が二年前御参拝した時に頂いた御守護の事実を語った。<br><br> 無病息災を誇っていた私が、実は真に健康体ではなく毒素が固まっていたに過ぎないことを証明するかのように、尿毒から来た骨膜を患った。<br><br>十五日間もの長きに亘った激しい痛みが治ると、口中から昼夜間断なく膿が出て、右の上歯四本が取落して仕舞った。<br><br>膿の出かたがやや少なくなったとき、取落した歯の上の肉を破って歯のようなものが出はじめた。<br><br>先端が鋭く尖っていて上唇に当って痛む。<br><br>そのため口を動かすこともできず、その上始末の悪いことにはそれが一日ごとに成長して食物を口にすることさえできなくなった。<br><br>いくら自分で御浄霊しても歯のような物は伸びてくるばかりで、とうとう前歯より長くなって仕舞った。<br><br>見舞に来てくれた信者である歯医者さんがこれを見て、普通の人なら生命に関わる程重症の骨膜炎で、いま成長している歯のような物は腐った歯骨が出てくるのだからどこか外科の病院へ入院しその個所を切開して治療しなければ、こればかりは御浄霊では無理でしょう。<br><br>と云った。<br><br>私も実のところいささか驚きどういうことになるのか、不安を感じた。<br><br> 口からはまだ膿が出ていて五分置き位に脱脂綿で膿を拭く。<br><br>食物は流動物だけを辛うじて咽喉に流し込んでいた状態なので体力も勿論衰えていたが、それでも熱海へ参拝させて戴いた。<br><br>膿で口中が臭いのでいちばん後ろに座っていた。<br><br>口を動かすと痛むので善言讃詞も御讃歌も奉唱できない。<br><br>明主様が御着席になったときそれまで考えもしなかった言葉。<br><br>声を出したのではなく腹のうちで「明主様、この歯には困りました。<br><br>これは一体、どうなるのでしょう」そう云った時、明主様の視線が私の歯に感じられた。<br><br>と、奇蹟。<br><br>奇蹟。<br><br>私の左の掌に歯の腐骨がポロッと落ちた。<br><br>痛みも痒みもなく全くの無感覚のうちに。<br><br>思わず「アッ」と声を出した。<br><br>腐骨は拇指の爪ぐらいの大きさで、膿が絞り出たためか海綿のようになっていて、膿と血とで見るからに汚ない。<br><br>しかしその時はただ有難いの一念で汚ないという気は起らず、嬉しさの余り両隣りに座っていた知り合いの信者さんに、抜けた。<br><br>抜けた。<br><br>と掌を指して見せた。<br><br>「まあ……」と婦人達は私の口を見、掌に乗っている腐骨に目をやり、その汚なさに顔をそむけた、この奇蹟は、明主様が列席の信者一同に御浄霊を下さる以前の出来事であった。<br><br>私はこの奇蹟の記念としてその時の腐骨は今日に至るまで保存してあるので、錦大路さんに見せた。<br><br> 「君のイボが明主様の御出ましの時まで有ったことは事実だし、御浄霊が終った時に無くなっていたことも事実なら、この短い間にイボが何故とれて仕舞ったか。<br><br>自分で切り取ったのでもなく、他人が刃物で取ったのでもなかったら、明主様の御浄霊で……と救世教の信者にのみある奇蹟の事実を素直に受取るべきであろう。<br><br>私の歯骨は掌に落ちたので何等疑問の余地もないが、君の場合はイボの行方を確認していないので物的証拠が無い。<br><br>と云いたいのかね。<br><br>御浄霊で取れたのではない。<br><br>と云う反証はこれ又全然ない訳だ。<br><br>しかしとれていた。<br><br>という事実は現実だ。<br><br>君が私に今日わざわざ顔を見せに来た事は、明主様の御浄霊でとれたことを内心では信じつつも、信じ切れないものもあって私の意見を訊きに来たのだろう。<br><br>九分九厘の信。<br><br>一厘の疑い、これが君の本心だ。<br><br>奇蹟を容認できない君の唯物的な考え方が、君を素直に信仰の道へ進ませないのだ。<br><br>救世教への批判は自由だが、批判のための批判は不信を前提としていることになる。<br><br>君が今までお蔭を戴くことの寡（すく）なかったのも、自分自身の信仰が中途半端であったことが原因だと私は思う」インテリ特有の疑い深さに呆れて、私の語調は強かった。<br><br> 明主様のただ一回の御浄霊でイボが消滅していながら「こんな事があるものでしょうか」と一点の疑問を残していた錦大路さんも、私の体験談を聞き証拠物件を見、その上強い言葉で畳みこまれた議論もあって、ようやく奇蹟の事実を事実と受取ったのであろうか、にわかに座り直して、「槐安さん僕の態度は間違っていたかも知れません。<br><br>これからは入信したばかりの信者として教育して下さい」と云った。<br><br>「イボ」医学が発達している。<br><br>というアメリカでもこの、イボに対する決定的な治療方法はなく、昔ながらのオマジナイ……に依存している。<br><br>という新聞記事を読んだこともある。<br><br>オマジナイでイボが除れるからただそれだけで参詣者の来る寺も西郊にあった。<br><br>これほど難物のイボがただ一回の明主様の御浄霊で除れたとは「明主様の御浄霊は雑布で水を拭き取るようなものですね」錦大路さんは明主様の御霊力をそう表現した。<br><br>私もその通りだ。<br><br>と思った。<br><br> 彼が帰ってから気が付いたが、彼が好んで用いる教主。<br><br>という言葉は一度も出ず明主様。<br><br>と信者らしく申上げていたのであった。<br><br>顔を剃るとき邪魔になるイボが一ぺんの御浄霊で消え失せた大奇蹟に、彼の明主様に対する認識も救世教に対する考え方も最早や根本的に変った。<br><br>と思っていいだろう。<br><br> 私は彼の疑問を払拭するのに役立った腐骨を紙に包み抽出しに仕舞い込んだ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Milagre Digno Desta Pessoa (O Johrei de Meishu-sama)</h2>
 <p><em>Kaian. Revista Eikô, nº 200, 18 de março de 1953.</em></p>
@@ -120,5 +272,48 @@ function toggleLang(lang) {
 <p>Verrugas. Eu já havia lido em um jornal que nem mesmo nos Estados Unidos, com toda a sua medicina avançada, existe um tratamento definitivo para verrugas, recorrendo-se ainda aos antigos sortilégios. Havia até mesmo um templo nos subúrbios a oeste que atraía visitantes apenas por causa da fama de que seus amuletos curavam verrugas. E pensar que verrugas, algo tão difícil de tratar, desapareceram com um único Johrei de Meishu-Sama... “O Johrei de Meishu-Sama é como enxugar a água com um pano, não é mesmo?”, expressou o senhor Nishikioji, descrevendo o Poder Espiritual de Meishu-Sama. Concordei plenamente com ele.</p>
 <p>Só depois que ele partiu, dei-me conta de que a palavra “líder”, que ele tanto gostava de usar, não fora pronunciada uma única vez. Em seu lugar, ele se referira a Meishu-Sama com a reverência própria de um membro da fé. O grande milagre do desaparecimento das verrugas que tanto o incomodavam ao se barbear, com um único Johrei, havia, sem dúvida, mudado fundamentalmente sua percepção sobre Meishu-Sama e seu modo de pensar sobre a Sekaikyuseikyou.</p>
 <p>O osso necrosado que serviu para dissipar suas dúvidas, eu o envolvi em papel e guardei novamente na gaveta.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： この人にしてこの奇蹟 （明主様の御浄霊） 槐安 『栄光』200号、昭和28(1953)年3月18日発行 「僕の顔、どうですか」久闊を叙す間も惜しむように錦大路さんは、禅問答のような唐突な試問を、私に提示した。<br/><br/> 舞台に出る俳優が、役柄に合せた扮装の出来栄えを師匠に見て貰うときのように「僕の顔どうですか」の科白には、咄嗟に答えの出る筈もない。<br/><br/> 「まだ気がつきませんか、僕の顔に」いつもの苦渋にみちた顔と違って、今日はニコニコと笑を湛えた明るい顔をしていることは解っていたが、なん年たっても毒素の除り切れない顔いろのそれにも、私は気付いていた。<br/><br/>しかし、この毒素の多い身体を象徴している顔いろの悪さは、もとより本人が自覚していないことなのでこれを云って相手の気持を悪くさせるまでもないことである。<br/><br/>「何か余程いいことがあったらしいが、それと君の顔とにどういう関係があるのかね」こうは云ったものの、これは答えにならない愚問だ。<br/><br/>と思った。<br/><br/>肝心な問題を率直に云わず抽象的な言葉を遠まわしに云って、婉曲にこちらの反応を窺おうとするこの人の性癖には、いつも腹立たしさを感じる。<br/><br/> 「槐安さん……まだ気が付きませんか、この顔に」錦大路さんは、解って貰えない焦ら立たしい感情をむき出しにして、彫りの深い整った顔を、私の顔のま近に突き出した。<br/><br/>今迄の錦大路さんの顔と、今日の錦大路さんの顔とが、どう違っているのか幾ら凝視してみても変化があった。<br/><br/>とは思えない。<br/><br/>仕事を控えていて時間を空費させられる私の方が焦ら立たしいのだ。<br/><br/>「卒直に云ってくれないか。<br/><br/>なんのことか私には解らない」私の言葉に棘のあるのが自分でも感じられたが、「まだ、解って貰えないのかなあ……」と彼は不服そうであった。<br/><br/> 錦大路さんの入信年月はたしか私より一年ほど早かったから、信者のうちでも古い方に属しよう。<br/><br/>この人の入信した動機は、一般の信者のそれの様に、病苦を救われて真理を知ったからではなく、先祖の霊も救われる。<br/><br/>と聞いて入信しただけに、霊現象に対して異常な興味を持っているようであるが、信仰の本質、信仰の実体となるべき「救い」には無関心で、所属の教会へも滅多にゆかず、勿論浄霊を戴く回数も少い。<br/><br/>誰に聞いたのか私の住所を知って二回ほど手紙をよこし、それ以来一年のうち二度か三度、訪ねて、救いになんの関係もない質問をし、私の感想や教主はこの問題をどう考えているでしょう。<br/><br/>なぞと愚にも付かぬことを訊く。<br/><br/>錦大路という苗字からも察しられるように、この人は堂上華族の出身であるらしく、整った大まかな顔だちも氏育ちの良さを物語っているが、その交遊関係が旧華族や元の陸海軍将星政治家、官僚に及んでいる事が自慢らしく、何かにつけてその人達の名を挙げ、交際の広い事を示そう。<br/><br/>とする。<br/><br/>天邪鬼な私は錦大路さんの斜陽族らしい事大思想を哀れにも思い、済度し難い思いもするだけである。<br/><br/>そしてこの人が訪ねてくるたぴごとに「御神書を読んでいますか、教会へ行っていますか、御浄霊をしていますか」とメシヤ教信者の必須条件である三つの言葉を云い添えることを忘れない。<br/><br/>「ええ、読んでいます。<br/><br/>教会へも行っていますよ。<br/><br/>浄霊もたまには……」とこの人の返事も判で捺したように決まっているが、実際にはどうか危いものだ、と思っていた。<br/><br/>それにこの人の信仰が本物ではない。<br/><br/>と考えられるのは、明主様。<br/><br/>という信者が教主に対する敬語を云ったことがなく、いつも教主。<br/><br/>と第三人称を用いることである。<br/><br/>その都度私はわざと声を大きくして明主様。<br/><br/>と云うのだが相手は何んの反応も示さず、相変らず教主と云って澄ましている。<br/><br/>家内が明主様をメシヤ様と申し上げているのといい対照だ。<br/><br/>とそのたびに私は苦笑するのであった。<br/><br/>要するに錦大路さんは、形は入信者であるが、実際にはメシヤ教に好意を持っている未信者としか思えない人である。<br/><br/>と私は観察しているのであった。<br/><br/> 「僕の口から云ったのでは、まるっきり興味が無くなって仕舞って残念だが、僕の顔の事、僕から説明しましょう」錦大路さんは、まだ顔に拘泥していた。<br/><br/>「僕の鼻の両脇に小さなイボが二つあったのを御存知でしょう」ああ……そのことだったのか。<br/><br/>改めて私はその顔を見た。<br/><br/>それほど目立ちはしなかったが、黒い小さなイボが鼻翼の両方にあったのが想い出された。<br/><br/>「無くなったね。<br/><br/>薬で灼いたの？……」と、私は訊いた。<br/><br/> 「僕が信仰に不熱心だったのでそう云われても仕方がないようなものだが、いくら僕でも薬毒だけは解っているつもりですよ」薬で灼いたのかと、暗に信仰の不徹底さを指摘されたのが心外らしく、彼は一寸、表情をこわばらせ、「明主様の御浄霊でとれたんです」とイボが消え失せた驚ろくべき奇蹟の顛末を述べた。<br/><br/> 「滅多に本部へおまいりしたこともない僕が、明主様の御浄霊が戴ける、と聴いたので行く気になりました。<br/><br/>明主様の御浄霊はどういうやり方か、教会の先生と同じかどうかそれも見たい。<br/><br/>と思って他の信者さんが頭を下げているのに僕は頭をあげたまま、明主様の手を視線で追いながら見ていました。<br/><br/>僕達の方へ霊気を放射される時も、顔をあげたままその手を見ていました。<br/><br/>僕の態度は、いわば未信者が冷静に観察しているようなもので、信者とすれば不遜極ものであったでしょう。<br/><br/>浄霊が済み、明主様が退出されてから、習慣的になんの気もなく、ふと、顔へ手を当ててみると、いつも指先に堅く当たるイボがない。<br/><br/>オヤ……と思って指先で探るように丹念にさわってみたが矢張りない。<br/><br/>今度は左の指でイボを探してみたがこれにも手応えがない、どうしたのか。<br/><br/>慌てて懐中鏡に写して見ると二つともイボが無くなっている。<br/><br/>明主様がおでましになる時迄は確かにあったものが、何故いつの間に無くなったのか。<br/><br/>品物ではあるまいし小さくとも肉体の一部であってみれば、切れば血も出るし痛くもある。<br/><br/>それが痛みも痒みも感じないで、いつの間にか除かれている。<br/><br/>不思議だ、一体、どうして除れたのか。<br/><br/>いくら考えてみても解らない。<br/><br/>どのみち邪魔なものが無くなってくれたのは有難い。<br/><br/>と思ってその座を立つとき、他の信者さんたちがするように御神殿に向って礼をしているうちに、明主様の今の御浄霊で消え失せたのだ。<br/><br/>と天啓のように頭にきらめくものがありました。<br/><br/>明主様のいまの御浄霊で……もう一度イボのあったところをさわって見ましたが矢張りありません。<br/><br/>僕にして見れば、まるで狐にたぶらかされている様な気持でした。<br/><br/>その不思議な日から今日で十日目、毎日、鏡で見たり指でさわって見たり、これを幾度くり返してみてもイボはありません。<br/><br/>明主様の一ぺんの御浄霊で……と思うと不熱心、不心得な僕に神様が奇蹟を見せてくれたのだ。<br/><br/>そう思うと明主様に対する今までの僕の認識も、救世教に対するこれまでの批判的な考えも全部改めなければならない。<br/><br/>そう考えています。<br/><br/>槐安さん……明主様の御浄霊、それも千人近い信者が、あんな短い時間うけただけでこうした奇蹟が起ることでしょうか」 錦大路さんは、驚くべき大奇蹟を見せられながら、余りに現実離れした奇蹟なるが故に、まだ一点の疑いを挟んでいる。<br/><br/>かの様な口吻である。<br/><br/>神様が見せて下さる奇蹟というものは、総てが人間の智恵で釈く事のできない神秘不可思議なものばかりである。<br/><br/>お守様を身に付けているだけで御守護があり奇蹟のあった例は枚挙に暇（いとま）のないほど沢山ある。<br/><br/>しかし人間の肉体の一部であるイボが明主様の御浄霊によって、瞬時に痕跡もなく消滅したということば、明主様の御神力のほどが如何に底知れぬ深さを持っている事か、ただただ瞠目讃嘆するばかりである。<br/><br/>錦大路さんの語る一部始終を聞きながら、私は感激と驚異の念を新たにしたのであったが、彼はみずから不熱心、不心得を自認するだけに、まだ割切れない一沫のものを腹の底に持っているのだ。<br/><br/>何んと云う不徹底な男だろう。<br/><br/>推理小説ではあるまいし、奇蹟にトリックも証拠も必要ではない。<br/><br/>奇蹟だ、助かった……という救われた現実を有難く神様に感謝すればいいのだ。<br/><br/>私は口まで出かかったこの言葉を腹の中へ呑み込んだ。<br/><br/> 「御神徳や奇蹟というものは人間の思惟によって生れるものではなく、又、信ずるの余りコジツケて無理に奇蹟よばわりするものではない。<br/><br/>それは神様を偽わることであるからだ。<br/><br/>しかし御神徳や奇蹟を見せられながら、自然法にないからとそれを容認しない唯物論者もある。<br/><br/>これなどは人間の智恵を買い冠った嗤うべき短見だ。<br/><br/>今の君の態度がこれに近い、と云ったら君は憤るだろう。<br/><br/>君が現実に見せられ、現実に救われて奇蹟と思い、不思議という言葉を使っていながらなおそれを疑う気持もあるなら、どうしても疑うことのできない奇蹟のあった事実を見せて上げよう」信じているのか、信じていないのか曖昧で煮え切らないこの人を相手にしていると、歯痒い思いをするばかりである。<br/><br/> 「私が経験した奇蹟は明主様の御浄霊を戴かず、ただ明主様のお顔を拝しただけで起った奇蹟で、この事実を証明する証拠もある。<br/><br/>この話を聞けば、君の疑問も氷解するだろう」と、私が二年前御参拝した時に頂いた御守護の事実を語った。<br/><br/> 無病息災を誇っていた私が、実は真に健康体ではなく毒素が固まっていたに過ぎないことを証明するかのように、尿毒から来た骨膜を患った。<br/><br/>十五日間もの長きに亘った激しい痛みが治ると、口中から昼夜間断なく膿が出て、右の上歯四本が取落して仕舞った。<br/><br/>膿の出かたがやや少なくなったとき、取落した歯の上の肉を破って歯のようなものが出はじめた。<br/><br/>先端が鋭く尖っていて上唇に当って痛む。<br/><br/>そのため口を動かすこともできず、その上始末の悪いことにはそれが一日ごとに成長して食物を口にすることさえできなくなった。<br/><br/>いくら自分で御浄霊しても歯のような物は伸びてくるばかりで、とうとう前歯より長くなって仕舞った。<br/><br/>見舞に来てくれた信者である歯医者さんがこれを見て、普通の人なら生命に関わる程重症の骨膜炎で、いま成長している歯のような物は腐った歯骨が出てくるのだからどこか外科の病院へ入院しその個所を切開して治療しなければ、こればかりは御浄霊では無理でしょう。<br/><br/>と云った。<br/><br/>私も実のところいささか驚きどういうことになるのか、不安を感じた。<br/><br/> 口からはまだ膿が出ていて五分置き位に脱脂綿で膿を拭く。<br/><br/>食物は流動物だけを辛うじて咽喉に流し込んでいた状態なので体力も勿論衰えていたが、それでも熱海へ参拝させて戴いた。<br/><br/>膿で口中が臭いのでいちばん後ろに座っていた。<br/><br/>口を動かすと痛むので善言讃詞も御讃歌も奉唱できない。<br/><br/>明主様が御着席になったときそれまで考えもしなかった言葉。<br/><br/>声を出したのではなく腹のうちで「明主様、この歯には困りました。<br/><br/>これは一体、どうなるのでしょう」そう云った時、明主様の視線が私の歯に感じられた。<br/><br/>と、奇蹟。<br/><br/>奇蹟。<br/><br/>私の左の掌に歯の腐骨がポロッと落ちた。<br/><br/>痛みも痒みもなく全くの無感覚のうちに。<br/><br/>思わず「アッ」と声を出した。<br/><br/>腐骨は拇指の爪ぐらいの大きさで、膿が絞り出たためか海綿のようになっていて、膿と血とで見るからに汚ない。<br/><br/>しかしその時はただ有難いの一念で汚ないという気は起らず、嬉しさの余り両隣りに座っていた知り合いの信者さんに、抜けた。<br/><br/>抜けた。<br/><br/>と掌を指して見せた。<br/><br/>「まあ……」と婦人達は私の口を見、掌に乗っている腐骨に目をやり、その汚なさに顔をそむけた、この奇蹟は、明主様が列席の信者一同に御浄霊を下さる以前の出来事であった。<br/><br/>私はこの奇蹟の記念としてその時の腐骨は今日に至るまで保存してあるので、錦大路さんに見せた。<br/><br/> 「君のイボが明主様の御出ましの時まで有ったことは事実だし、御浄霊が終った時に無くなっていたことも事実なら、この短い間にイボが何故とれて仕舞ったか。<br/><br/>自分で切り取ったのでもなく、他人が刃物で取ったのでもなかったら、明主様の御浄霊で……と救世教の信者にのみある奇蹟の事実を素直に受取るべきであろう。<br/><br/>私の歯骨は掌に落ちたので何等疑問の余地もないが、君の場合はイボの行方を確認していないので物的証拠が無い。<br/><br/>と云いたいのかね。<br/><br/>御浄霊で取れたのではない。<br/><br/>と云う反証はこれ又全然ない訳だ。<br/><br/>しかしとれていた。<br/><br/>という事実は現実だ。<br/><br/>君が私に今日わざわざ顔を見せに来た事は、明主様の御浄霊でとれたことを内心では信じつつも、信じ切れないものもあって私の意見を訊きに来たのだろう。<br/><br/>九分九厘の信。<br/><br/>一厘の疑い、これが君の本心だ。<br/><br/>奇蹟を容認できない君の唯物的な考え方が、君を素直に信仰の道へ進ませないのだ。<br/><br/>救世教への批判は自由だが、批判のための批判は不信を前提としていることになる。<br/><br/>君が今までお蔭を戴くことの寡（すく）なかったのも、自分自身の信仰が中途半端であったことが原因だと私は思う」インテリ特有の疑い深さに呆れて、私の語調は強かった。<br/><br/> 明主様のただ一回の御浄霊でイボが消滅していながら「こんな事があるものでしょうか」と一点の疑問を残していた錦大路さんも、私の体験談を聞き証拠物件を見、その上強い言葉で畳みこまれた議論もあって、ようやく奇蹟の事実を事実と受取ったのであろうか、にわかに座り直して、「槐安さん僕の態度は間違っていたかも知れません。<br/><br/>これからは入信したばかりの信者として教育して下さい」と云った。<br/><br/>「イボ」医学が発達している。<br/><br/>というアメリカでもこの、イボに対する決定的な治療方法はなく、昔ながらのオマジナイ……に依存している。<br/><br/>という新聞記事を読んだこともある。<br/><br/>オマジナイでイボが除れるからただそれだけで参詣者の来る寺も西郊にあった。<br/><br/>これほど難物のイボがただ一回の明主様の御浄霊で除れたとは「明主様の御浄霊は雑布で水を拭き取るようなものですね」錦大路さんは明主様の御霊力をそう表現した。<br/><br/>私もその通りだ。<br/><br/>と思った。<br/><br/> 彼が帰ってから気が付いたが、彼が好んで用いる教主。<br/><br/>という言葉は一度も出ず明主様。<br/><br/>と信者らしく申上げていたのであった。<br/><br/>顔を剃るとき邪魔になるイボが一ぺんの御浄霊で消え失せた大奇蹟に、彼の明主様に対する認識も救世教に対する考え方も最早や根本的に変った。<br/><br/>と思っていいだろう。<br/><br/> 私は彼の疑問を払拭するのに役立った腐骨を紙に包み抽出しに仕舞い込んだ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

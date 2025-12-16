@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinkei1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神経痛とリョウマチス 未発表『文明の創造』昭和27(1952)年執筆 単に神経痛といっても色々あるが、それはもちろん場所によるのである。<br><br>しかし普通は手や足や肋間等でリョウマチスを併発する場合も多く、要するにこの病気は、外部的神経が痛むだけで、内臓は何ともないのである。<br><br>ただ特殊のものとしては骨髄炎の痛みで、これは薬毒が骨に固着したそれの浄化である。<br><br>また肋間神経痛というものもこの名称は少々的外れである。<br><br>というのは医学でいう肋間神経痛は、本当は肋骨神経痛である。<br><br>なぜなれば原因は肋骨に薬毒が固着し、それが浄化によって溶け始め、痰となって肺に侵入しようとする場合、神経を刺戟し痛むのである。<br><br>この病気は激しく発（おこ）る場合、非常に痛み、呼吸すら困難になる事がある。<br><br>しかしこれはまた非常に治りいいのである。<br><br> また神経痛の中には、淋病が原因で発る事もある。<br><br>これは大抵腕の関節に多いが、割合順調に治るものである。<br><br>そうして一般の神経痛は注射等の薬毒が原因で、痛みを我慢して自然にしておけば必ず治るものであるが、そうすれば毒素は漸次一ヶ所に集溜し、紅く腫れて自然に穴が開き、そこから排膿して治るものである。<br><br>ここで医学でも気がつかないものに、パピナール注射の中毒がある。<br><br>全身的に皮膚が痛む症状で、これも自然にして置けば簡単に治るものであるが、医学は反って種々の注射などするから反って治り難くなるのである。<br><br> 次はリョウマチスであるが、これは人も知るごとく、手、足、指等の関節が紅く腫れ上り、非常に痛むもので、原因はもちろん薬毒が関節へ集溜し、腫物となって排泄されようとする。<br><br>その痛みで患者は堪え難く悲鳴を挙げるくらいである。<br><br>ところが医療は患部を絶対動かぬよう固める手段を採るので、固まってしまえば痛みはなくなるが、その代わり関節は動かなく、棒のようになってしまい一種の不具者となり、一生涯跛行となるのであるから、恐ろしい病気の一種である。<br><br>この点などにみても、医学は病気を治すのではなく、苦痛だけを治して不具者にする訳である。<br><br>ところが我浄霊法によれば、いとも簡単に短時日で全治させ得るのであるが、困る事には氷冷、塗布薬、注射等をした者はそれだけ長くかかるので、ツマリ散々金を費った揚句不具者とされるのだから、厄介な世の中である。<br><br>従って最初から何ら手当もせず浄霊法のみ施せば、一週間以内に完全に治るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Nevralgia e o Reumatismo</h2>
 <p>Embora o termo nevralgia seja usado de forma genérica, existem diversas manifestações, as quais variam, naturalmente, de acordo com a parte do corpo afetada. Comumente, acomete os braços, as pernas e a região intercostal, ocorrendo, em muitos casos, de forma concomitante ao reumatismo. Em essência, essa enfermidade consiste em uma dor que se restringe aos nervos periféricos, sem qualquer comprometimento dos órgãos internos. Uma forma particular de dor, contudo, é a da osteomielite, que decorre da purificação das toxinas medicamentosas solidificadas nos ossos.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Há casos de nevralgia cuja origem remonta à gonorreia, geralmente manifestada nas articulações dos braços, mas que apresenta uma evolução para a cura relativamente tranquila. De modo geral, entretanto, a nevralgia comum é causada por toxinas de medicamentos, como as de injeções. Se o indivíduo suportar a dor e permitir que o processo natural siga seu curso, a cura é certa. As toxinas gradualmente se acumulam em um ponto específico, causando vermelhidão e inchaço, até que um orifício se abre naturalmente, permitindo a eliminação do pus e, consequentemente, a recuperação. Nesse sentido, existe uma intoxicação que a medicina ainda não reconhece: a causada pela injeção Papinaru. Seus sintomas se manifestam como uma dor cutânea generalizada. Esta condição também se resolveria com simplicidade se deixada à própria sorte; contudo, a prática médica de administrar outras injeções acaba por dificultar a cura.</p>
 <p>Passemos agora ao reumatismo. Como é de conhecimento geral, esta doença se caracteriza pelo inchaço avermelhado e pela dor intensa nas articulações das mãos, dos pés e dos dedos. A causa, evidentemente, reside no acúmulo de toxinas medicamentosas nas articulações, que se manifestam como um tumor para serem expelidas. A dor é tão excruciante que os pacientes chegam a gritar em agonia. A medicina, entretanto, adota como método a imobilização completa da área afetada. Uma vez imobilizada, a dor cessa. Em contrapartida, a articulação perde seu movimento, tornando-se rígida como um bastão. Isso transforma o indivíduo em uma pessoa com deficiência, condenada a mancar pelo resto da vida, o que classifica o reumatismo como uma enfermidade temível. Este exemplo demonstra que a medicina não cura a doença; ela apenas suprime a dor ao custo de gerar uma incapacidade permanente.</p>
 <p>Por meio do nosso Johrei, em contrapartida, é possível alcançar a cura completa de forma surpreendentemente simples e rápida. A dificuldade, no entanto, reside nos casos em que o paciente já se submeteu a tratamentos como compressas de gelo, pomadas ou injeções, pois estes prolongam o tempo de recuperação. Em suma, as pessoas despendem fortunas para, ao final, acabarem com uma deficiência. Vivemos, de fato, em um mundo de grandes equívocos. Portanto, se desde o início nenhum tratamento material for aplicado e se recorrer exclusivamente ao Johrei, a cura plena é alcançada em menos de uma semana.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神経痛とリョウマチス 未発表『文明の創造』昭和27(1952)年執筆 単に神経痛といっても色々あるが、それはもちろん場所によるのである。<br/><br/>しかし普通は手や足や肋間等でリョウマチスを併発する場合も多く、要するにこの病気は、外部的神経が痛むだけで、内臓は何ともないのである。<br/><br/>ただ特殊のものとしては骨髄炎の痛みで、これは薬毒が骨に固着したそれの浄化である。<br/><br/>また肋間神経痛というものもこの名称は少々的外れである。<br/><br/>というのは医学でいう肋間神経痛は、本当は肋骨神経痛である。<br/><br/>なぜなれば原因は肋骨に薬毒が固着し、それが浄化によって溶け始め、痰となって肺に侵入しようとする場合、神経を刺戟し痛むのである。<br/><br/>この病気は激しく発（おこ）る場合、非常に痛み、呼吸すら困難になる事がある。<br/><br/>しかしこれはまた非常に治りいいのである。<br/><br/> また神経痛の中には、淋病が原因で発る事もある。<br/><br/>これは大抵腕の関節に多いが、割合順調に治るものである。<br/><br/>そうして一般の神経痛は注射等の薬毒が原因で、痛みを我慢して自然にしておけば必ず治るものであるが、そうすれば毒素は漸次一ヶ所に集溜し、紅く腫れて自然に穴が開き、そこから排膿して治るものである。<br/><br/>ここで医学でも気がつかないものに、パピナール注射の中毒がある。<br/><br/>全身的に皮膚が痛む症状で、これも自然にして置けば簡単に治るものであるが、医学は反って種々の注射などするから反って治り難くなるのである。<br/><br/> 次はリョウマチスであるが、これは人も知るごとく、手、足、指等の関節が紅く腫れ上り、非常に痛むもので、原因はもちろん薬毒が関節へ集溜し、腫物となって排泄されようとする。<br/><br/>その痛みで患者は堪え難く悲鳴を挙げるくらいである。<br/><br/>ところが医療は患部を絶対動かぬよう固める手段を採るので、固まってしまえば痛みはなくなるが、その代わり関節は動かなく、棒のようになってしまい一種の不具者となり、一生涯跛行となるのであるから、恐ろしい病気の一種である。<br/><br/>この点などにみても、医学は病気を治すのではなく、苦痛だけを治して不具者にする訳である。<br/><br/>ところが我浄霊法によれば、いとも簡単に短時日で全治させ得るのであるが、困る事には氷冷、塗布薬、注射等をした者はそれだけ長くかかるので、ツマリ散々金を費った揚句不具者とされるのだから、厄介な世の中である。<br/><br/>従って最初から何ら手当もせず浄霊法のみ施せば、一週間以内に完全に治るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

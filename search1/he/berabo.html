@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>berabo</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 箆棒療法 未発表、昭和11(1936)年執筆 世には種々の療法があるが、誰も気が付かないで好い気になってやっている療法の中から、滑稽だと思うのを書いてみよう。<br><br> 一、虫下し よく虫下しだといってセメンを服ませるが、チト変だ。<br><br>腹の中へ建築する事か、道路でも拵（こしら）えるならともかく、病を治すというのは滑稽至極だ。<br><br>いっそアスファルトを服んだ方が今一そう効果的であろう。<br><br> 二、 よく芥子（からし）を患部へ貼りつけるが、これもおかしな話である。<br><br>一体芥子は何であるか。<br><br>納豆、おでん、ビフテキなどにつけて食うのは至極結構なものであるが、人間の病気をそれで治そうなどとは滑稽にも程がある。<br><br> 三、 よく病人によっては、海草が好いと云って、昆布や若布（わかめ）を荐（しき）りに食うが、これも変な話である。<br><br>人間は陸生動物であって魚ではないから、海の草なんか沢山食わなくともよいので、陸で出来たものを多く食うのが本当である。<br><br>偶（たま）に海草を食えばよいのである。<br><br> 四、 よく赤色のものを服むと血が殖えると思って、葡萄酒や動物の生血を呑むが、これもおかしな話である。<br><br>赤いもので血が殖えるなら、臙脂（えんじ）をといて呑むのが一番いい訳で、飯なども白いのでなく、年中赤の御飯か強飯（こわめし）ばかり食って、おかずはトマトに人参、刺身に蛸（たこ）ばかり食ったらよいだろうと思う。<br><br> 五、 冷水浴や日光浴なども滑稽至極なものである。<br><br>蛙ならイザ知らず、人間は水を浴びるべきものではない。<br><br>空気だけで立派に生きていけるものだ。<br><br>又、陽向（ひなた）で甲羅を乾すのは亀の子で、居睡りをするのは猫と相場が決ったものだ。<br><br>何も人間がそんな動物の真似をしなくとも立派に健康でいられるものだ。<br><br> 六、 眼の悪い人がよく棚酸（ほうさん）や何かで目を洗うが、これもおかしな話だ。<br><br>猿股（さるまた）や襦袢（じゅばん）なら時々洗濯もいいが、人間の眼は水などで洗うべきものではない。<br><br>その為にちゃんと涙という結構な水が絶えず出て瞼の裏という結構な、柔いもので擦（こす）るように出来ているのである。<br><br> 七、 よく子宮掻爬（そうは）や、胃腸や鼻孔の洗滌などをやるが、これらも馬鹿々々しい話である。<br><br>洗う側から直ぐに元通りに汚れるもので、糞のたしにもなりはしないので、苦しむだけ損で馬鹿々々しい骨頂である。<br><br> 八、 含嗽（うがい）を矢釜（やかま）しく言うがなる程食後の含嗽は結構である。<br><br>歯の間へ付着したものを除るからである。<br><br>しかし外出から帰宅後などは滑稽である。<br><br>何となれば唾液には非常に殺菌力があるので、含嗽をすればそれがなくなる。<br><br>故に、含嗽は歯の掃除以外は反って不可である事を知らなくてはならない。<br><br>扁桃腺などは含嗽する方が反って治癒を後らせるのである。<br><br> 九、 よく酸素吸入をやるが、これは大いに不可である。<br><br>最近フランスのスポーツ医学の大家ボー氏の発表によれば、競技後、疲労恢復の目的で行う酸素吸入が、反って恢復を後らせるという結果を発表している。<br><br>元来空気は、酸素、水素、窒素など最も理想的に調和されたものである。<br><br>それを態々（わざわざ）酸素だけを吸わせようとするに至っては、その愚や及ぶべからずである。<br><br>これを食物の味にたとえてみる。<br><br>納豆、醤油、味醂、鰹節等五味の調和によって美味であるのに、砂糖とか醤油とか一方であると、食物にならないのと同じ道理である。<br><br> 十、 咳嗽を治すのに吸入をするがこれも何らの効果はないのである。<br><br>口を開いて涎（よだれ）を垂らしながら、一生懸命やっている姿はまことに滑稽なものである。<br><br>子供などにあっては泣き喚くのを制えてやっているが、これは罷（や）めたいものである。<br><br> 十一、 よく病人に入浴を禁ずるが、これもおかしな話である。<br><br>垢と病気といかなる関係があるのであろうか。<br><br> 垢が溜って不潔である程病気に好いというのは訳が分らない。<br><br>病者も健康者も皮膚は清潔であればある程よくはなかろうか。<br><br> その他種々あるが、要するに余りに馬鹿々々しい療法を気が付かないで行っている事が頗（すこぶ）る多いのである。<br><br>人体は大抵の病気は、自然に治る様に、巧妙に出来ているのであるから、反って余計な療法の為に治癒を遅らせたり、悪化させたりする場合が多いので、大いに注意すべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Terapias Insensatas</h2>
 <p>Existem no mundo inúmeras terapias. Contudo, muitas delas são praticadas com entusiasmo, sem que se perceba sua real natureza. Gostaria, portanto, de discorrer sobre algumas que considero particularmente descabidas.</p>
@@ -138,5 +290,48 @@ function toggleLang(lang) {
 </li>
 </ol>
 <p>Existem muitos outros exemplos, mas o ponto central é este: é surpreendente a frequência com que as pessoas se submetem a tratamentos absurdos sem sequer se darem conta de sua insensatez. O corpo humano foi projetado com a sublime capacidade de se curar naturalmente da maioria das enfermidades. Muitas vezes, são justamente as terapias desnecessárias que acabam por retardar a recuperação ou até mesmo agravar o quadro. É, portanto, um assunto que exige máxima cautela.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 箆棒療法 未発表、昭和11(1936)年執筆 世には種々の療法があるが、誰も気が付かないで好い気になってやっている療法の中から、滑稽だと思うのを書いてみよう。<br/><br/> 一、虫下し よく虫下しだといってセメンを服ませるが、チト変だ。<br/><br/>腹の中へ建築する事か、道路でも拵（こしら）えるならともかく、病を治すというのは滑稽至極だ。<br/><br/>いっそアスファルトを服んだ方が今一そう効果的であろう。<br/><br/> 二、 よく芥子（からし）を患部へ貼りつけるが、これもおかしな話である。<br/><br/>一体芥子は何であるか。<br/><br/>納豆、おでん、ビフテキなどにつけて食うのは至極結構なものであるが、人間の病気をそれで治そうなどとは滑稽にも程がある。<br/><br/> 三、 よく病人によっては、海草が好いと云って、昆布や若布（わかめ）を荐（しき）りに食うが、これも変な話である。<br/><br/>人間は陸生動物であって魚ではないから、海の草なんか沢山食わなくともよいので、陸で出来たものを多く食うのが本当である。<br/><br/>偶（たま）に海草を食えばよいのである。<br/><br/> 四、 よく赤色のものを服むと血が殖えると思って、葡萄酒や動物の生血を呑むが、これもおかしな話である。<br/><br/>赤いもので血が殖えるなら、臙脂（えんじ）をといて呑むのが一番いい訳で、飯なども白いのでなく、年中赤の御飯か強飯（こわめし）ばかり食って、おかずはトマトに人参、刺身に蛸（たこ）ばかり食ったらよいだろうと思う。<br/><br/> 五、 冷水浴や日光浴なども滑稽至極なものである。<br/><br/>蛙ならイザ知らず、人間は水を浴びるべきものではない。<br/><br/>空気だけで立派に生きていけるものだ。<br/><br/>又、陽向（ひなた）で甲羅を乾すのは亀の子で、居睡りをするのは猫と相場が決ったものだ。<br/><br/>何も人間がそんな動物の真似をしなくとも立派に健康でいられるものだ。<br/><br/> 六、 眼の悪い人がよく棚酸（ほうさん）や何かで目を洗うが、これもおかしな話だ。<br/><br/>猿股（さるまた）や襦袢（じゅばん）なら時々洗濯もいいが、人間の眼は水などで洗うべきものではない。<br/><br/>その為にちゃんと涙という結構な水が絶えず出て瞼の裏という結構な、柔いもので擦（こす）るように出来ているのである。<br/><br/> 七、 よく子宮掻爬（そうは）や、胃腸や鼻孔の洗滌などをやるが、これらも馬鹿々々しい話である。<br/><br/>洗う側から直ぐに元通りに汚れるもので、糞のたしにもなりはしないので、苦しむだけ損で馬鹿々々しい骨頂である。<br/><br/> 八、 含嗽（うがい）を矢釜（やかま）しく言うがなる程食後の含嗽は結構である。<br/><br/>歯の間へ付着したものを除るからである。<br/><br/>しかし外出から帰宅後などは滑稽である。<br/><br/>何となれば唾液には非常に殺菌力があるので、含嗽をすればそれがなくなる。<br/><br/>故に、含嗽は歯の掃除以外は反って不可である事を知らなくてはならない。<br/><br/>扁桃腺などは含嗽する方が反って治癒を後らせるのである。<br/><br/> 九、 よく酸素吸入をやるが、これは大いに不可である。<br/><br/>最近フランスのスポーツ医学の大家ボー氏の発表によれば、競技後、疲労恢復の目的で行う酸素吸入が、反って恢復を後らせるという結果を発表している。<br/><br/>元来空気は、酸素、水素、窒素など最も理想的に調和されたものである。<br/><br/>それを態々（わざわざ）酸素だけを吸わせようとするに至っては、その愚や及ぶべからずである。<br/><br/>これを食物の味にたとえてみる。<br/><br/>納豆、醤油、味醂、鰹節等五味の調和によって美味であるのに、砂糖とか醤油とか一方であると、食物にならないのと同じ道理である。<br/><br/> 十、 咳嗽を治すのに吸入をするがこれも何らの効果はないのである。<br/><br/>口を開いて涎（よだれ）を垂らしながら、一生懸命やっている姿はまことに滑稽なものである。<br/><br/>子供などにあっては泣き喚くのを制えてやっているが、これは罷（や）めたいものである。<br/><br/> 十一、 よく病人に入浴を禁ずるが、これもおかしな話である。<br/><br/>垢と病気といかなる関係があるのであろうか。<br/><br/> 垢が溜って不潔である程病気に好いというのは訳が分らない。<br/><br/>病者も健康者も皮膚は清潔であればある程よくはなかろうか。<br/><br/> その他種々あるが、要するに余りに馬鹿々々しい療法を気が付かないで行っている事が頗（すこぶ）る多いのである。<br/><br/>人体は大抵の病気は、自然に治る様に、巧妙に出来ているのであるから、反って余計な療法の為に治癒を遅らせたり、悪化させたりする場合が多いので、大いに注意すべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

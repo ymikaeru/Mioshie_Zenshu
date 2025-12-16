@@ -4,8 +4,410 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sanzen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,59 +442,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ﻿<br>sanzen<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>三千世界の大清算<br>――世界最後の大審判はあるか？――<br>未発表、昭和10(1935)年頃に執筆と思われる<br>昔から、世の終りとか、最後の審判とか言う事が、聖書等にあるが、それを詳しく説いた者は、未だ無いようである。私はこの事について、はっきりとは言えないが、まあ夢物語とでもして、あるとも言えるし、無いとも言えるという位の所で説いてみるのである。易者ではないが、当るも八卦（はっけ）、当らぬも八卦位と思って貰えばよい。しかし無いとすれば、書く必要もないから、まず、有るとして書いてみるのである。<br>私がいつも言う、夜の世界が済んで、昼の世界、即ち太陽が赫々（かくかく）たる輝きを以て昇るとする。その夜から昼への移り変りの、あらゆる物象の変化を想像してみたいと思うのである。<br>言うまでもなく、夜と昼との、最も異る所は、暗さと明るさである。由来、罪悪なるものは真昼間、公々然と行わるべきものはない。秘密と罪悪は、暗いところで取引される事は、誰もが知っている所である。しからば、この夜の世界なるものは、何年位の期間であったであろうか。私の推測によれば、とにかく三千年以上一万年位と推定されるのである。故にここでは数千年としておくが、この数千年の歴史を振返ってみても確かに、夜の世界であったであろう事が肯かれるのである。国々、人々は、秘密と罪悪と闘争に係りのない時代は、全く無いと言ってもよい位で、これを正しい神の御眼から御覧になったら、否、我々凡夫の眼から観てさえも、暗黒時代であったと言うより外に、言葉はないのである。波瀾興亡常なき、国と人との姿は、夜の空の月の盈虧（みちかけ）にも比すべく、悪人が、一時的にも時を得、善人が虐（しいた）げらるる、歴史の姿をみては、全く悪魔横行の世界と思われるのである。<br>かような、罪悪に充ちた世界が、この暗黒時代が、数千年間も続いた事実を見たら、卓越せる、いかなる時代の識者といえども、歴史に捉われて観るのも、無理は無いと思う。少くとも一切の批判にこれを標準として定義を下してしまう。優勝劣敗の言葉も、弱肉強食の言葉も、真理なるがごとき響を与えるのも、こうした事によるからであろう。<br>しかしながら仮に、この数千年の歴史から、一段も二段も、否数段も飛躍したところの、高い見地に立って見下してみたらどうであろう。それによれば、どうしても、この数千年に渉る罪悪堆積の世界が、一度は、徹底的に、清算されなければならない様に、思われてならないのである。しかしこの事は、人の力では到底、駄目である事は判っている。何となれば、人の方が清算される側に立っているからである。故に、万一、清算なるものが在りとすれば、それは、神より外に行えない事は、自明の理である。そこで神が行い給う、その方法を畏（おそ）れながら想像して、私はみたいのである。それは、再三言うごとく、それが、太陽の輝く、昼の世界になるという事である。光明が照し出すという事である。しかし、私がこう言えば太陽は、毎日出ているではないか。別に、この外に、昼の世界があるはずがないではないかと言うであろう。しかし、私の言うのは、霊界の事である。この霊界と現界の関係は、別の項で詳説するはずであるから、ここでは無条件に、霊界なるものを信じて読んで貰うより外、致し方ないのである。<br>ここで私は、別方面の事実を挙げて論じてみよう。それは、私が日々病人を取扱っている関係上、医者と異（ちが）う、独特の診断法を以て、各人を査べる時、実に驚愕するのである。それは、あらゆる人の体内に滞溜されている汚物と言えば体裁がいいが、実は膿汁である。この膿汁と毒血が、肉の中にも、血管の中にも驚く程多量に、いかなる人も有しているという、想像出来ない程の事実である。私は今日の人間をみて、能く生命を保っているとさえ思うのである。なる程、患者なればともかく、健康な人も、数多く見るが、膿汁の滞溜は病者と大差無いのである。いつ重患が起るか判らないというだけの話である。この事実をみて、数千年間の、夜の世界に呼吸して来たので、その罪穢による、汚濁の堆積であると思うより外はないのである。即ち、夜の暗黒に相応した人間であるから、今日まではいい様なものの、もしこれらの人が、赫々（かくかく）たる太陽の光明に照らされたとしたならば、一体どうなる事であろう。想像するだに慄然（りつぜん）とするのである。例えば、暗黒内に棲息した黴菌を、太陽の光に晒したら、どうなるであろう。又汚濁も塵埃も、夜では、はっきり見えないからよいようなものの、白昼の明るさは、到底誤魔化し切れる訳のものではない。<br>これらによって見ても、太陽の光は、白昼の明るさは、あらゆる汚濁を浄めずにはおかないのである。欺瞞は蔽（おおい）隠す事が出来ない。秘密は忽（たちま）ち暴露させる。罪悪は行い得ない。不正は影を潜め、闘争は打断られてしまう。そうして、あらゆる物の狂いは、是正され、社会の機構は合理的に動き、人は、公平なる時所位を得、善は栄え、万人生を楽しむ時代になるであろう。<br>ただしかし、この光明世界を信じられない人は、この時代に適合しない為に、その時までに、没落の運命を辿（たど）るより致し方ないであろう。近くかような時代が、信ずると信ぜざるに拘わらず、好むと好まざるに係らず、迫って来るとすれば、それを信じ得ない人々の状態は、どうであろう。今まで隠し蔽（おお）せた罪悪が、秘密が、不正が、どしどし暴露して来る。又罪穢に充ちた身体は、崩壊するより致し方がない。黴菌が、太陽の光に死滅する様にである。かように、今までの夜の世界とは、全然勝手が違う時代が来る事は、予期し得らるるのである。国と国とは、闘争の結果、それが双方悪である場合、どちらも滅びるであろう。正なるもの神の意志に適合する者のみが残存し、そうして栄える事になるであろう。今日の、国際間の関係をみれば、全世界は、一大争闘と、動乱の渦を起さんとし、それに捲込まれない国は無いと、断言し得られない状勢である。全く、夜の世界の崩壊の、前奏曲とし、観られない事はないと思う。<br>私は、夜から昼に移るという、世界的大清算が、もしあるとすれば、崩壊や滅亡などという、忌わしい事の無い様に、平和に、より安穏に、光明世界の来らん事を、念願してやまない者である。
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Grande Purificação dos Três Mil Mundos – Haverá o Juízo Final do Mundo?</h2>
 <p>(Ensaio não publicado, acredita-se ter sido escrito por volta de 1935)</p>
@@ -108,5 +458,48 @@ function toggleLang(lang) {
 <p>Com base nesses exemplos, compreende-se que a luz do Sol, a claridade do dia, purificará inexoravelmente toda a imundície. O estelionato não poderá mais ser ocultado. Os segredos serão instantaneamente desvelados. A prática do mal se tornará inviável. A injustiça se recolherá às sombras e os conflitos serão ceifados. Consequentemente, todos os desvios serão corrigidos, a engrenagem social passará a funcionar de modo racional, cada pessoa encontrará seu justo lugar no tempo e no espaço, o bem florescerá e advirá uma era em que toda a humanidade desfrutará da vida.</p>
 <p>Entretanto, aqueles que não conseguirem crer neste Mundo de Luz, por não se adaptarem a ele, não terão outro destino senão o declínio antes de sua chegada. Quer se creia, quer não, quer se deseje, quer não, essa nova era se aproxima. Qual será, então, a condição daqueles que não conseguem nela acreditar? Os crimes, os segredos e as injustiças que até agora puderam ser ocultados virão à tona, um após o outro. E seus corpos, repletos de máculas, não terão outra alternativa senão desintegrar-se, tal como os germes que perecem sob a luz do Sol. Assim, pode-se antever a chegada de uma era de natureza completamente distinta da do Mundo da Noite que a precedeu. As nações que se engajarem em conflito, caso ambas estejam erradas, perecerão juntas. Apenas o que for justo, apenas aqueles que estiverem em conformidade com a Vontade de Deus, subsistirão e prosperarão. Ao observarmos as atuais relações internacionais, vemos o mundo inteiro prestes a mergulhar em um vórtice de grandes conflitos e convulsões, uma situação em que não se pode afirmar que alguma nação sairá ilesa. De fato, é impossível não enxergar nesses acontecimentos o prelúdio para o colapso do Mundo da Noite.</p>
 <p>Pessoalmente, sou alguém que anseia ardentemente para que esta Grande Purificação – a transição do Mundo da Noite para o Mundo do Dia –, se de fato ocorrer, transcorra de forma pacífica e serena, livre de colapsos e devastações, e que o advento do Mundo de Luz se concretize da maneira mais tranquila possível.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>﻿<br/>sanzen<br/>――<br/>岡田自観師の論文集 ――　<br/>御教え検索：<br/>help<br/>資料検索：<br/>三千世界の大清算<br/>――世界最後の大審判はあるか？――<br/>未発表、昭和10(1935)年頃に執筆と思われる<br/>昔から、世の終りとか、最後の審判とか言う事が、聖書等にあるが、それを詳しく説いた者は、未だ無いようである。私はこの事について、はっきりとは言えないが、まあ夢物語とでもして、あるとも言えるし、無いとも言えるという位の所で説いてみるのである。易者ではないが、当るも八卦（はっけ）、当らぬも八卦位と思って貰えばよい。しかし無いとすれば、書く必要もないから、まず、有るとして書いてみるのである。<br/>私がいつも言う、夜の世界が済んで、昼の世界、即ち太陽が赫々（かくかく）たる輝きを以て昇るとする。その夜から昼への移り変りの、あらゆる物象の変化を想像してみたいと思うのである。<br/>言うまでもなく、夜と昼との、最も異る所は、暗さと明るさである。由来、罪悪なるものは真昼間、公々然と行わるべきものはない。秘密と罪悪は、暗いところで取引される事は、誰もが知っている所である。しからば、この夜の世界なるものは、何年位の期間であったであろうか。私の推測によれば、とにかく三千年以上一万年位と推定されるのである。故にここでは数千年としておくが、この数千年の歴史を振返ってみても確かに、夜の世界であったであろう事が肯かれるのである。国々、人々は、秘密と罪悪と闘争に係りのない時代は、全く無いと言ってもよい位で、これを正しい神の御眼から御覧になったら、否、我々凡夫の眼から観てさえも、暗黒時代であったと言うより外に、言葉はないのである。波瀾興亡常なき、国と人との姿は、夜の空の月の盈虧（みちかけ）にも比すべく、悪人が、一時的にも時を得、善人が虐（しいた）げらるる、歴史の姿をみては、全く悪魔横行の世界と思われるのである。<br/>かような、罪悪に充ちた世界が、この暗黒時代が、数千年間も続いた事実を見たら、卓越せる、いかなる時代の識者といえども、歴史に捉われて観るのも、無理は無いと思う。少くとも一切の批判にこれを標準として定義を下してしまう。優勝劣敗の言葉も、弱肉強食の言葉も、真理なるがごとき響を与えるのも、こうした事によるからであろう。<br/>しかしながら仮に、この数千年の歴史から、一段も二段も、否数段も飛躍したところの、高い見地に立って見下してみたらどうであろう。それによれば、どうしても、この数千年に渉る罪悪堆積の世界が、一度は、徹底的に、清算されなければならない様に、思われてならないのである。しかしこの事は、人の力では到底、駄目である事は判っている。何となれば、人の方が清算される側に立っているからである。故に、万一、清算なるものが在りとすれば、それは、神より外に行えない事は、自明の理である。そこで神が行い給う、その方法を畏（おそ）れながら想像して、私はみたいのである。それは、再三言うごとく、それが、太陽の輝く、昼の世界になるという事である。光明が照し出すという事である。しかし、私がこう言えば太陽は、毎日出ているではないか。別に、この外に、昼の世界があるはずがないではないかと言うであろう。しかし、私の言うのは、霊界の事である。この霊界と現界の関係は、別の項で詳説するはずであるから、ここでは無条件に、霊界なるものを信じて読んで貰うより外、致し方ないのである。<br/>ここで私は、別方面の事実を挙げて論じてみよう。それは、私が日々病人を取扱っている関係上、医者と異（ちが）う、独特の診断法を以て、各人を査べる時、実に驚愕するのである。それは、あらゆる人の体内に滞溜されている汚物と言えば体裁がいいが、実は膿汁である。この膿汁と毒血が、肉の中にも、血管の中にも驚く程多量に、いかなる人も有しているという、想像出来ない程の事実である。私は今日の人間をみて、能く生命を保っているとさえ思うのである。なる程、患者なればともかく、健康な人も、数多く見るが、膿汁の滞溜は病者と大差無いのである。いつ重患が起るか判らないというだけの話である。この事実をみて、数千年間の、夜の世界に呼吸して来たので、その罪穢による、汚濁の堆積であると思うより外はないのである。即ち、夜の暗黒に相応した人間であるから、今日まではいい様なものの、もしこれらの人が、赫々（かくかく）たる太陽の光明に照らされたとしたならば、一体どうなる事であろう。想像するだに慄然（りつぜん）とするのである。例えば、暗黒内に棲息した黴菌を、太陽の光に晒したら、どうなるであろう。又汚濁も塵埃も、夜では、はっきり見えないからよいようなものの、白昼の明るさは、到底誤魔化し切れる訳のものではない。<br/>これらによって見ても、太陽の光は、白昼の明るさは、あらゆる汚濁を浄めずにはおかないのである。欺瞞は蔽（おおい）隠す事が出来ない。秘密は忽（たちま）ち暴露させる。罪悪は行い得ない。不正は影を潜め、闘争は打断られてしまう。そうして、あらゆる物の狂いは、是正され、社会の機構は合理的に動き、人は、公平なる時所位を得、善は栄え、万人生を楽しむ時代になるであろう。<br/>ただしかし、この光明世界を信じられない人は、この時代に適合しない為に、その時までに、没落の運命を辿（たど）るより致し方ないであろう。近くかような時代が、信ずると信ぜざるに拘わらず、好むと好まざるに係らず、迫って来るとすれば、それを信じ得ない人々の状態は、どうであろう。今まで隠し蔽（おお）せた罪悪が、秘密が、不正が、どしどし暴露して来る。又罪穢に充ちた身体は、崩壊するより致し方がない。黴菌が、太陽の光に死滅する様にである。かように、今までの夜の世界とは、全然勝手が違う時代が来る事は、予期し得らるるのである。国と国とは、闘争の結果、それが双方悪である場合、どちらも滅びるであろう。正なるもの神の意志に適合する者のみが残存し、そうして栄える事になるであろう。今日の、国際間の関係をみれば、全世界は、一大争闘と、動乱の渦を起さんとし、それに捲込まれない国は無いと、断言し得られない状勢である。全く、夜の世界の崩壊の、前奏曲とし、観られない事はないと思う。<br/>私は、夜から昼に移るという、世界的大清算が、もしあるとすれば、崩壊や滅亡などという、忌わしい事の無い様に、平和に、より安穏に、光明世界の来らん事を、念願してやまない者である。</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

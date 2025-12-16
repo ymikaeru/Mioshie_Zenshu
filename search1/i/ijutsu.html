@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ijutsu</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術なるものは一つもない 未発表、昭和11(1936)年6月14日執筆 医術とはいかなるものでありや、と言えば、云うまでもなく病を治す術でしかない事は明かである。<br><br>しかるに現在はどうであろう。<br><br>真に病を治す術はどこにも見当らないではないか。<br><br>しかし言うであろう。<br><br>世間到るところに医師は固よりあらゆる療病者があるではないかと。<br><br>勿論、治病の専門家は無数にあるが、医としての術を行い得るものは、ほとんど無いと言ってもいいであろう。<br><br> まず、最も弘く行われているのは、勿論、西洋医学であるから、それから検討してみよう。<br><br>この医学はその名の示すごとく、全く医学であって医術ではないのである。<br><br>何となれば、術と名付くべき何物も見当らない。<br><br>それは苦痛緩和法でしかない事である。<br><br>医とは病を治す事であり、術とはそれの技術である。<br><br>しかるに現代医学においては、病を医する術は全然有り得ない。<br><br>故に医するという言葉は当を得ないのである。<br><br>医するとは、すべての病を医してしまう事である。<br><br>完全に治癒してしまう事である。<br><br>完全とは再発のない、その病気の根治でなければならないのである。<br><br>しかるに現在の医療なるものは、対症療法である病苦緩和にのみ熱中している故に、うまく奏効しても、それは一時的治癒でしかないから多くは再発するのである。<br><br>万一再発がなく真に治癒したとすれば、それは自然治癒であって、決して医療の為ではない事を知らねばならない。<br><br>故に適切に言えば、それらは医術ではなくて苦痛緩和術である。<br><br>そうして苦痛緩和とは治癒の妨害であるから、苦痛緩和しただけは、治癒し難くなるのが実際である。<br><br>この理によって約言すれば、現代医術とは、病苦を緩和すると共に、治癒妨害の法であるというより他に言葉が無いのである。<br><br> 次に、民間療法例えば鍼灸、按摩、マッサージの類（たぐい）、指圧、掌療法、霊気術、精神療法等、それらは自然治癒妨害ではなくて、多少援助の方法であるから、無いに勝（まさ）れる事は勿論である。<br><br>がしかし、これらといえども医する術ではなくて、治療の補助でしかないのである。<br><br>ただ西洋医学のように、治癒を妨害しないだけ安全である訳である。<br><br> その他信仰的治病もあるが、これらも多少の効果はあるが、いかなる病気も医するという、全能力は勿論無いので、ある種の病気に限られている事は否めないのである。<br><br>勿論、医術ではない。<br><br>あるものは病があるのに無いと思わせるという、観念療法否錯覚療法であり、あるものは、病気は、神の警告であるという一種の神罰観的反省療法であり、あるものは祈祷や難行苦行によって治病しようとするバラモン式療法であって、いずれも神仏の力ではなく、自己自身の観念的精神療法で、畢竟（ひっきょう）自力でしかないのである。<br><br> 簡単ながら、以上説く所によってみるも、今日真の医術というものは、全く見当らない事が明かである。<br><br>そうして真の医術即ち、いかなる病も完全に医する術を有しているのは、我観音力療法のみである事が知らるるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Ausência da Genuína Arte de Curar</h2>
 <p>Se nos indagarmos sobre a natureza da arte de curar, é evidente que ela não consiste senão na técnica de sanar as enfermidades. Contudo, qual é a realidade em nossos dias? Porventura não é fato que uma genuína arte de curar não pode ser encontrada em lugar algum? Poder-se-ia argumentar, todavia, que o mundo está repleto de médicos e de toda sorte de terapeutas. De fato, embora existam inúmeros especialistas no tratamento de doenças, podemos afirmar que são praticamente inexistentes aqueles capazes de exercer a autêntica arte médica.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Passemos agora às terapias populares, como a acupuntura, a moxabustão, a massagem, o shiatsu, as terapias pelo toque, a imposição de mãos e as psicoterapias. Tais métodos, por não obstruírem o processo de recuperação natural e, em certa medida, até o auxiliarem, são evidentemente preferíveis à sua ausência. Todavia, mesmo essas práticas não constituem uma verdadeira arte de curar, servindo apenas como coadjuvantes no processo terapêutico. Sua segurança reside unicamente no fato de que, ao contrário da medicina ocidental, não interferem negativamente na cura.</p>
 <p>Existem também as curas pela fé. Embora possam apresentar alguma eficácia, é inegável que não possuem a capacidade onipotente de sanar toda e qualquer enfermidade, limitando-se a determinados tipos de doença. Evidentemente, não se configuram como uma arte de curar. Algumas são terapias de idealização — ou melhor, de autoilusão —, que levam o doente a crer que sua enfermidade não existe. Outras se baseiam na ideia de punição divina, funcionando como uma terapia de reflexão que interpreta a doença como uma advertência de Deus. Há ainda aquelas que se assemelham aos ritos bramânicos, buscando a cura por meio de preces, penitências e austeridades. Nenhuma delas, porém, provém do poder de Deus; são, em essência, terapias mentais e conceituais que, em última análise, dependem exclusivamente do esforço próprio do indivíduo.</p>
 <p>Embora exposto de forma sucinta, o que foi apresentado até aqui torna manifesta a completa ausência, em nossos dias, de uma verdadeira arte de curar. Nesse sentido, torna-se evidente que a única e genuína arte de curar — a arte que possui a capacidade de sanar integralmente qualquer enfermidade — é a nossa Terapia do Poder de Kannon (観音).</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術なるものは一つもない 未発表、昭和11(1936)年6月14日執筆 医術とはいかなるものでありや、と言えば、云うまでもなく病を治す術でしかない事は明かである。<br/><br/>しかるに現在はどうであろう。<br/><br/>真に病を治す術はどこにも見当らないではないか。<br/><br/>しかし言うであろう。<br/><br/>世間到るところに医師は固よりあらゆる療病者があるではないかと。<br/><br/>勿論、治病の専門家は無数にあるが、医としての術を行い得るものは、ほとんど無いと言ってもいいであろう。<br/><br/> まず、最も弘く行われているのは、勿論、西洋医学であるから、それから検討してみよう。<br/><br/>この医学はその名の示すごとく、全く医学であって医術ではないのである。<br/><br/>何となれば、術と名付くべき何物も見当らない。<br/><br/>それは苦痛緩和法でしかない事である。<br/><br/>医とは病を治す事であり、術とはそれの技術である。<br/><br/>しかるに現代医学においては、病を医する術は全然有り得ない。<br/><br/>故に医するという言葉は当を得ないのである。<br/><br/>医するとは、すべての病を医してしまう事である。<br/><br/>完全に治癒してしまう事である。<br/><br/>完全とは再発のない、その病気の根治でなければならないのである。<br/><br/>しかるに現在の医療なるものは、対症療法である病苦緩和にのみ熱中している故に、うまく奏効しても、それは一時的治癒でしかないから多くは再発するのである。<br/><br/>万一再発がなく真に治癒したとすれば、それは自然治癒であって、決して医療の為ではない事を知らねばならない。<br/><br/>故に適切に言えば、それらは医術ではなくて苦痛緩和術である。<br/><br/>そうして苦痛緩和とは治癒の妨害であるから、苦痛緩和しただけは、治癒し難くなるのが実際である。<br/><br/>この理によって約言すれば、現代医術とは、病苦を緩和すると共に、治癒妨害の法であるというより他に言葉が無いのである。<br/><br/> 次に、民間療法例えば鍼灸、按摩、マッサージの類（たぐい）、指圧、掌療法、霊気術、精神療法等、それらは自然治癒妨害ではなくて、多少援助の方法であるから、無いに勝（まさ）れる事は勿論である。<br/><br/>がしかし、これらといえども医する術ではなくて、治療の補助でしかないのである。<br/><br/>ただ西洋医学のように、治癒を妨害しないだけ安全である訳である。<br/><br/> その他信仰的治病もあるが、これらも多少の効果はあるが、いかなる病気も医するという、全能力は勿論無いので、ある種の病気に限られている事は否めないのである。<br/><br/>勿論、医術ではない。<br/><br/>あるものは病があるのに無いと思わせるという、観念療法否錯覚療法であり、あるものは、病気は、神の警告であるという一種の神罰観的反省療法であり、あるものは祈祷や難行苦行によって治病しようとするバラモン式療法であって、いずれも神仏の力ではなく、自己自身の観念的精神療法で、畢竟（ひっきょう）自力でしかないのである。<br/><br/> 簡単ながら、以上説く所によってみるも、今日真の医術というものは、全く見当らない事が明かである。<br/><br/>そうして真の医術即ち、いかなる病も完全に医する術を有しているのは、我観音力療法のみである事が知らるるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

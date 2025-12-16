@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinsyu2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教と世界の年齢 『栄光』244号、昭和29(1954)年1月20日発行 今日世間は漫然と、新しく出来た宗教だから新宗教といっているようだが、もちろんこれは当り前な話で何ら言うところはないが、しかし考えてみねばならない事はその内容である。<br><br>なるほど形は新しいとしても、内容が伴なわない限り、真の意味における新宗教とはいえないはずである。<br><br>ところがこの点一般は余り気がつかないようだが、これについて私は事実によって検討してみよう。<br><br>まず今日新宗教といっても、実際は何百何千年前に出来た教理を土台とし、幾多の人智を加え、築き上げたものが大部分であるから、厳正に言って新宗教ではない。<br><br>そうして現在の新宗教を大別してみると、神道か仏教かのどちらかに属しており、どちらにも偏（かたよ）らないものとしては我メシヤ教を措いて他にはほとんどないようである。<br><br> というのは信者も知る通り、本教は神、儒、仏いずれの教えも含まれてはいるが、それはある程度であって、飽くまで独自の建前を以って、しかも広くして深く、自由無碍（むげ）的である。<br><br>このような宗教は未（いま）だ嘗（かつ）てなかったであろう。<br><br>そうして本教の真髄たるや、あらゆる宗教、哲学、科学のレベルを超越しており、手前味噌かは知らないが、群峯（ぐんぼう）遥かに抜いて聳（そび）ゆる富士山のごときものと私は思っている。<br><br>故に既成文化の観念を以ってしては容易に掴み得ないのはもちろんであって、換言すれば二十世紀を断然飛躍したところの未来における最も進歩した学問といってもよかろう。<br><br>そんな訳で命名のしようもないし、無名でも困るから仮にメシヤ教と名付けたのである。<br><br> ここでまず現在における宗教を総括的に批判してみるが、知らるるごとくいかなる宗教でも教祖、開祖は固（もと）より、その後継者といえども、あらゆる難行苦行に堪え、奮闘努力危機を突破し、一切衆生の悩みを救わんとして来たのであって、ある程度の功績は挙げ得たが、それ以上は困難なるがため、現在のごとき地獄世界をどうする事も出来ないのである。<br><br>としたら一体その原因はどこにあったかを考えてみるまでもなく、力が足りない事と時期の関係もあったのである。<br><br>というのは今日まで主神は物質文化の発展を急がれ、精神文化を次にされた訳である。<br><br>というその根本的理由こそ世界の年齢が若かったからである。<br><br>それがいよいよ二十世紀後半に到った今日、人間としたら二十歳の青年となり、一人前に成人したので、ここに神は真の力の発動によって、霊体完備の文明世界を樹立され給うのである。<br><br>すなわち偽は真に、邪は正に、仮は実に、争は和に、醜は美というように、一切の革新、一切の統合である。<br><br>その指導者として選ばれたのが私であって、私は神の代行者として活動している。<br><br>その一つとして今現に超人的力を発揮しつつある。<br><br>その一例としては、僅か三日間の教修によって、キリストと同様の奇蹟を現わし得る力を人々に与えている。<br><br>その弟子すでに数十万に及んでおり、なお益々増えつつあるにみても分るであろう。<br><br> 以上のごとく、主神の矢はすでに弦（つる）を離れたのであるから、ここにいよいよ世界革新劇は開幕されんとする直前となったので、やがては血湧き肉躍る驚天動地の場面は展開され、人類は恐怖と戦慄と感激と興味との渦の中に巻き込まれ、悲喜交々（ひきこもごも）の人間の乱舞が始まるであろう。<br><br>というように太初すでに創作された神のテーマ通り展開されんとするのである。<br><br>何しろそのスケールの雄大にして多角的なる想像を絶するのであって、その舞台監督としての私であるから、私はこれから千変万化、無碍の活動力を発揮し、大奇蹟を現わすのである。<br><br>その一例として現在一枚七秒間で書いた光の文字の紙片を懐へ入れるや、キリストと同様の奇蹟を現わし、何万何十万の病者を救い得るのである。<br><br>また数千里隔てたアメリカやヨーロッパにまでも、霊光は一瞬にして到達する。<br><br>その速度たるや科学的計算は不可能である。<br><br>というように、結局において現代文明は百八十度の転換となり、地上天国の基礎はここに確立するのである。<br><br>しかしこれを読んで直ちに喜ぶのは早い。<br><br>何となればそれにはキリストの言った最後の審判という大峠があるからで、それを越さねばならないが、神の大愛は一人でも儀牲者を少くせんがため私をしてその救いに当らせ給うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Era do Mundo e a Religião Verdadeiramente Nova</h2>
 <p>Hodiernamente, a sociedade parece empregar o termo “nova religião” de maneira indistinta para se referir àquelas que surgiram recentemente. Naturalmente, não haveria nada a objetar quanto a isso; contudo, é imperativo que analisemos seu conteúdo. De fato, por mais que a forma seja nova, enquanto o conteúdo não a acompanhar, não se pode considerá-la uma nova religião em seu verdadeiro sentido. No entanto, o público em geral parece não atentar para este ponto. A esse respeito, proponho-me a examiná-lo com base nos fatos.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Acontece que, até hoje, o Deus Supremo priorizou o desenvolvimento da cultura material, deixando a cultura espiritual para um segundo momento. O motivo fundamental para tal decisão é que a idade do mundo ainda era jovem. Finalmente, chegamos à segunda metade do século XX, e o mundo, em termos humanos, atingiu a maioridade, como um jovem de vinte anos. Neste momento, Deus, por meio da manifestação de Seu verdadeiro poder, estabelecerá um mundo de civilização perfeita em espírito e corpo. Nesse sentido, o falso se converterá em verdadeiro, o mal em justo, o temporário em definitivo, o conflito em harmonia e o feio em belo — uma renovação e integração de todas as coisas. Para liderar essa transição, fui eu o escolhido, e atuo como representante de Deus. Uma prova disso é o poder sobre-humano que venho manifestando. A título de exemplo, através de um curso de apenas três dias, concedo às pessoas o poder de realizar milagres análogos aos de Cristo. O número de discípulos que o receberam já atinge as centenas de milhares e continua a crescer, o que por si só comprova minhas palavras.</p>
 <p>A flecha do Deus Supremo já deixou o arco. Estamos, portanto, no momento que antecede a abertura das cortinas para o grande drama da renovação do mundo. Em breve, desenrolar-se-ão cenas de tal forma assombrosas e emocionantes que farão o sangue ferver e o corpo estremecer. A humanidade será envolvida num turbilhão de terror, assombro, comoção e fascínio, dando início a uma dança frenética de seres humanos, em que se mesclarão alegria e tristeza. Tudo se desenvolverá exatamente conforme o roteiro divino, concebido desde o princípio dos tempos. A grandiosidade e a natureza multifacetada de sua escala transcendem a imaginação. Como diretor desse palco, manifestarei, a partir de agora, uma capacidade de ação ilimitada e de infinitas transformações, realizando grandes milagres. Como exemplo, um simples pedaço de papel com o ideograma da Luz, que escrevo em apenas sete segundos, ao ser portado pela pessoa, permite-lhe realizar milagres semelhantes aos de Cristo e salvar dezenas ou centenas de milhares de doentes. Além disso, a Luz Espiritual alcança instantaneamente lugares distantes como a América e a Europa, a milhares de quilômetros. Sua velocidade é impossível de ser calculada pela ciência.</p>
 <p>Em suma, a civilização moderna sofrerá uma conversão de cento e oitenta graus, e com isso serão estabelecidos os alicerces do Paraíso Terrestre. Contudo, é cedo para se alegrar imediatamente com a leitura destas palavras. Pois, para que isso se concretize, existe um grande obstáculo a ser superado: o Juízo Final, do qual falou o Cristo. Todavia, o grande Amor de Deus, no intuito de diminuir ao máximo o número de sacrifícios, incumbiu-me da missão de promover essa salvação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教と世界の年齢 『栄光』244号、昭和29(1954)年1月20日発行 今日世間は漫然と、新しく出来た宗教だから新宗教といっているようだが、もちろんこれは当り前な話で何ら言うところはないが、しかし考えてみねばならない事はその内容である。<br/><br/>なるほど形は新しいとしても、内容が伴なわない限り、真の意味における新宗教とはいえないはずである。<br/><br/>ところがこの点一般は余り気がつかないようだが、これについて私は事実によって検討してみよう。<br/><br/>まず今日新宗教といっても、実際は何百何千年前に出来た教理を土台とし、幾多の人智を加え、築き上げたものが大部分であるから、厳正に言って新宗教ではない。<br/><br/>そうして現在の新宗教を大別してみると、神道か仏教かのどちらかに属しており、どちらにも偏（かたよ）らないものとしては我メシヤ教を措いて他にはほとんどないようである。<br/><br/> というのは信者も知る通り、本教は神、儒、仏いずれの教えも含まれてはいるが、それはある程度であって、飽くまで独自の建前を以って、しかも広くして深く、自由無碍（むげ）的である。<br/><br/>このような宗教は未（いま）だ嘗（かつ）てなかったであろう。<br/><br/>そうして本教の真髄たるや、あらゆる宗教、哲学、科学のレベルを超越しており、手前味噌かは知らないが、群峯（ぐんぼう）遥かに抜いて聳（そび）ゆる富士山のごときものと私は思っている。<br/><br/>故に既成文化の観念を以ってしては容易に掴み得ないのはもちろんであって、換言すれば二十世紀を断然飛躍したところの未来における最も進歩した学問といってもよかろう。<br/><br/>そんな訳で命名のしようもないし、無名でも困るから仮にメシヤ教と名付けたのである。<br/><br/> ここでまず現在における宗教を総括的に批判してみるが、知らるるごとくいかなる宗教でも教祖、開祖は固（もと）より、その後継者といえども、あらゆる難行苦行に堪え、奮闘努力危機を突破し、一切衆生の悩みを救わんとして来たのであって、ある程度の功績は挙げ得たが、それ以上は困難なるがため、現在のごとき地獄世界をどうする事も出来ないのである。<br/><br/>としたら一体その原因はどこにあったかを考えてみるまでもなく、力が足りない事と時期の関係もあったのである。<br/><br/>というのは今日まで主神は物質文化の発展を急がれ、精神文化を次にされた訳である。<br/><br/>というその根本的理由こそ世界の年齢が若かったからである。<br/><br/>それがいよいよ二十世紀後半に到った今日、人間としたら二十歳の青年となり、一人前に成人したので、ここに神は真の力の発動によって、霊体完備の文明世界を樹立され給うのである。<br/><br/>すなわち偽は真に、邪は正に、仮は実に、争は和に、醜は美というように、一切の革新、一切の統合である。<br/><br/>その指導者として選ばれたのが私であって、私は神の代行者として活動している。<br/><br/>その一つとして今現に超人的力を発揮しつつある。<br/><br/>その一例としては、僅か三日間の教修によって、キリストと同様の奇蹟を現わし得る力を人々に与えている。<br/><br/>その弟子すでに数十万に及んでおり、なお益々増えつつあるにみても分るであろう。<br/><br/> 以上のごとく、主神の矢はすでに弦（つる）を離れたのであるから、ここにいよいよ世界革新劇は開幕されんとする直前となったので、やがては血湧き肉躍る驚天動地の場面は展開され、人類は恐怖と戦慄と感激と興味との渦の中に巻き込まれ、悲喜交々（ひきこもごも）の人間の乱舞が始まるであろう。<br/><br/>というように太初すでに創作された神のテーマ通り展開されんとするのである。<br/><br/>何しろそのスケールの雄大にして多角的なる想像を絶するのであって、その舞台監督としての私であるから、私はこれから千変万化、無碍の活動力を発揮し、大奇蹟を現わすのである。<br/><br/>その一例として現在一枚七秒間で書いた光の文字の紙片を懐へ入れるや、キリストと同様の奇蹟を現わし、何万何十万の病者を救い得るのである。<br/><br/>また数千里隔てたアメリカやヨーロッパにまでも、霊光は一瞬にして到達する。<br/><br/>その速度たるや科学的計算は不可能である。<br/><br/>というように、結局において現代文明は百八十度の転換となり、地上天国の基礎はここに確立するのである。<br/><br/>しかしこれを読んで直ちに喜ぶのは早い。<br/><br/>何となればそれにはキリストの言った最後の審判という大峠があるからで、それを越さねばならないが、神の大愛は一人でも儀牲者を少くせんがため私をしてその救いに当らせ給うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s281005</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月5日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月五日 昨夜自然農法の報告を見ましたが、すばらしい成績で、ちょっと良い所は十五俵ぐらいとれてます。<br><br>ですから五割増産というのは嘘になってしまったわけです。<br><br>三倍増産です。<br><br>もっとも私は三年前に十割以上は増産になるということを書きました。<br><br>本当は最初からそう書きたいが、そうするとかえって信じないと思ったのです。<br><br>五割でもなかなか信じないのですから、倍とか三倍と言うと、かえって逆効果になって、馬鹿馬鹿しくて信ずる気になりませんから、それで遠慮して五割としたのです。<br><br>ところが今度は、中京の渡辺さんが方々を調査した結果、去年十八俵とった伊野という人も、そのくらいはとれそうだということを言ってます。<br><br>そういうようなわけで、あっちの講演会などには人がたくさん来るようですし、会員もドンドンできるようです。<br><br>ですから三倍増産は確実です。<br><br>ごく内輪にみて二倍としても、今の六千万石の二倍とすると一億二千石ですから、余ってしようがないことになります。<br><br>これを一度に世の中に知らせるため、なにかの方法をしようと思ってます。<br><br>なにしろ今年の不作は、新聞やラジオで言っているとおり、実に馬鹿馬鹿しいくらいのものです。<br><br>ところがあくまで迷信に固まっているのです。<br><br>この間のニュース映画にもありましたが、虫害のためだと言って消毒薬、殺虫剤をさかんに撒いて、殺虫剤が足りないと言って、それを得ようとしてたいへんな騒ぎです。<br><br>そうすればするほど逆効果になって悪いのですが、それに熱中してやっているのですから、この間書いたとおり“超愚”です。<br><br>この超愚到る所にありで、これをなんとかして早く知らせなければしようがないのです。<br><br>今までのやり方、現在のは酷過ぎるし、またこっちでやる自然農法はあまりに良過ぎるのですから、両方の違いさというものは天と地ほどの違いです。<br><br>まったく天国と地獄です。<br><br>というのは、つまりものすごい迷信です。<br><br>医学迷信の方は、直接それほどはっきりはしないわけですが、今の米の方は実にはっきりしているのですから、非常にやりよいわけです。<br><br>この方は手っ取り早く分からせられるわけです。<br><br>二、三年たったらすばらしいことになると思ってます。<br><br>ところで信者の人の中にも、まだ肥料迷信から抜けられない人がだいぶあります。<br><br>それで無肥料だ無肥料だと言いながら、ほかの物を使いたがったり、それからまた堆肥に頼るのが非常に多いのです。<br><br>ですから今書いているのは「堆肥迷信」というのですが、堆肥迷信もやはり一つの迷信です。<br><br>だから本当は堆肥もやらないで、土ばかりがよいのです。<br><br>ただ新しい土などの固まりやすい土を固まらせないために、堆肥をごく腐らして土同様になった物を混ぜるということと、果樹などの、根元の土が乾きやすいのには、そういうのを防ぐために、腐らせなくてよいから生の堆肥をたくさんやると、雨が降った時には根元に湿気を含んで乾かないために、それが有利なわけです。<br><br>ですから果樹などにはそういった意味で堆肥をやると非常によくできます。<br><br>堆肥というのはそれだけの意味です。<br><br>古い土などは、そのままで堆肥もなにもやらない方がよいです。<br><br>それから前にも書いたとおり、ごく寒冷地は、根があんまり冷えては悪いから、そこで温めるために藁を土とねり混ぜて、根の底の方に入れて、根を冷やさないというだけのためであって、ほかにはなにもありません。<br><br>そういうようなわけで、堆肥迷信も分からせなければいけないわけです。<br><br>近ごろはだいぶそれが分かってきたようで、土に重きをおくようになりつつあります。<br><br> それからもう一つは、今年の成績でよく分かったのですが、深く耕すということが非常によいのです。<br><br>それは今まで長い間たくさんやった肥料が、ちょうど稲の根が行くぐらいの所に固まっているのです。<br><br>というのは、今までは肥料をやるほど良いと思っていたから、なるべく根を肥料に近くするというやり方だったのです。<br><br>それで今度は肥料からの悪影響を受けないために深く耕すのです。<br><br>そうすると肥料の固まりの所が散らばりますから、つまり肥毒が薄くなるわけです。<br><br>そのために非常に成績がよいのです。<br><br>そういう具合に深く耕した所は、最初の年から三割くらい増産になってます。<br><br>初年度からそういうふうですから付近のふつうの農民にはすぐ分かるので、オレもワレもと、ドンドン増えるのです。<br><br>だから堆肥はなるべくやらないことですが、絶対にやらなければ、なお結構です。<br><br>ですから深く耕すということだけで初年度から増産になります。<br><br> それから土を穢さないようにということは、だいたい肥料というものは、地霊――土からは始終霊気が発散してますが、地球の真ん中は火の固まりで、それが始終上昇しているのです。<br><br>そこで地霊には非常に熱があるのです。<br><br>熱といっても体的の熱ではなく霊的の熱です。<br><br>やはり浄霊と同じようなものですが、その熱が非常に強いのです。<br><br>それで肥毒がないとその熱が始終通るから、それが肥料になるのです。<br><br>それが地から上昇して空中にだんだん溜まって行くのですが、それが雨によってまた土にしみ込むということになり、それが窒素肥料です。<br><br>だから土から肥料となる霊気が絶えず上昇しているということを知っていればよいわけです。<br><br>そこで土を穢したりすると、それを妨げるわけですから、これもやっぱり“超愚”の方です。<br><br> それから今度『救世教奇蹟集』という本を出すべく新聞広告をしようと思ってますが、その広告文はほかの人ではどうも書けないから私が作りました。<br><br>大きさは、ふつうの新聞は全部で十五段になってますが、その三分の一の五段二つ割りにしようと思います。<br><br>ふつうは四つ割りにしますが、それではどうも貧弱ですから、二つ割りが大々的で一番よいです。<br><br> （『世界救世教奇蹟集』（広告文）） 今年の台風はなかなか猛威をふるって大損害を与えましたが、これについては前にも書いたから分かってはいるでしょうが、また見方を違えて書いてみました。<br><br>早く台風をなくする一つの警告というわけです。<br><br> （御論文「台風禍」） 【栄光 二三〇号】 医学と浄霊の原理をはっきり分からせるには、有限力と無限力ということを説くと一番よく分かると思います。<br><br>というのは、病気の原因というものは無限的なのであって、有限的の性質のものではないのです。<br><br>ところが医学のほうの顕微鏡で見た黴菌というものは――つまり細かい粒子です。<br><br>そうしてだんだん細かいものが見えるようになって――今日ではウイルスとなってます。<br><br>ところがウイルスよりもまだまだ細かいものが発見されます。<br><br>それは、科学の方で中間子とか素粒子というのは、やはり粒子です。<br><br>そういうようで、結局科学の進歩というのは、細かいものが見えるというだけのものです。<br><br>ところがどんな細かいもの、たとえば一ミリの中に一千万個、一億万個と数えますが、数えるとそれで限度があります。<br><br>無限ではありません。<br><br>ところが一ミリの間に一億万個から十億万個となると、どのくらい小さくなるか分からないが、それでも十億という数があるのだから有限です。<br><br>ところが実は病気は有限なものではないのです。<br><br>肺病なら肺病でも、これだけの黴菌は何億万個ということが分かったとして、それを殺菌しますが、それで治るかというと治りません。<br><br>なぜ治らないかというと、そのできた黴菌だけ殺しても、後から後から出てくるからです。<br><br>伝染発生にしても自然発生にしても、黴菌が何億万個ということが数えられたとしても、それだけでおしまいなら、みんな殺してしまえばよいですが、だいたいできるということは、どこかから発生したもので漠然とできるものではないから、そうすると発生源というものは科学でも分からないのです。<br><br>それはなにかというと無限的だからです。<br><br>ですから無限の病原を除り去るとしたら、やはり無限の力でなければ駄目なのです。<br><br>そこで浄霊とは無限力になるのです。<br><br>だから原子爆弾は決して恐れるほどのものではないのです。<br><br>というのは有限力だからです。<br><br>あれ一つで地球全部が破壊できるものではありません。<br><br>何キロ何十キロと限度があるものです。<br><br>また水素爆弾ができたとしても、日本全体を焼き切ることはできないし、東洋全体を焼き切ることはできません。<br><br>たとえ東洋全体を焼き切ることができたとしても、世界全部を焼き切ることはできません。<br><br>というのは有限力だからで、有限力というのは要するに力が弱いわけです。<br><br>ところがこの方は無限力で、無限力というのは絶対力です。<br><br>今アメリカのロサンゼルスでずいぶん奇蹟があったりお陰があってますが、そうすると私の霊力がロサンゼルスにも行っているのです。<br><br>それは無限力だからで、無限力は地球全体に行きます。<br><br>そのくらい力が違うわけです。<br><br>有限力では絶対の力がないから、ある限度しか解決できないのです。<br><br>病気を治すといっても治り切りには治らないわけです。<br><br>逆進歩してうまくやったとしても一時的です。<br><br>ですからこれは時の限度があるわけです。<br><br>浄霊の方は時の限度もなければ、力の限度もないのだから、そこで病気をすっかりなくしてしまうことができるのです。<br><br>これは科学的の説明です。<br><br>そういうわけで、科学というものは有限力の範囲内が科学です。<br><br>それで無限力に入れば科学ではないわけで、宗教の方に入るわけです。<br><br> しかしその無限力の中にも、絶対無限と、ある限度があるものとがあるのです。<br><br>というのは、今までの宗教で病気が治る場合もありますし、奇蹟もありますが、しかしそれは救世教の奇蹟ほどすばらしいものではありません。<br><br>それは救世教の奇蹟というものは三日の修業でキリストができるのですから、さっき読んだとおり、もはや数十万のキリストができているというわけです。<br><br>キリストと同じことができるのだから少しも間違ってはいないわけです。<br><br>結局において、有限力と無限力の力比べです。<br><br>その点が分かれば、今の科学信者にも分かると思います。<br><br>科学的に説けばそうなります。<br><br>ですから科学というものがいかに進歩しても限度があるのです。<br><br>神様の方は無限だという、その点が逆です。<br><br>それで無限力の中にも上中下があります。<br><br>それでは今までの宗教で病気が減りそうなものだという理屈になりますが、それは実は徹底するほどの無限力でなく、ある程度の有限力なのです。<br><br>ある程度の有限力というのは、今まではみんな月の光です。<br><br>月の光というのは太陽の光の取り次ぎです。<br><br>それは科学でも分かってますが、月の光というのは、太陽から受け継いだ光なのです。<br><br>そこで太陽の光を弱めたようなものです。<br><br>救世教の光というのは太陽直接の光です。<br><br>そこでここは「日光殿」という名をつけたわけです。<br><br>太陽の光だから昼間の世界というわけで、月の方はその六十分の一ですから弱いわけです。<br><br>だから有限力のほうに負けるわけです。<br><br>すなわち今までの宗教は科学に押し倒されたわけです。<br><br>そこで今までの宗教家も、科学にはかなわないといってカブトをぬいだというわけで、それがどの宗教でも病院を造っているということです。<br><br>それから社会事業などをやっているのは、つまり力が弱いから、科学に負けたわけです。<br><br>そこで今までは、すべて有限力でいろいろなことを解決しようとしていたから、そこで肥料もそういうわけです。<br><br>さっき言ったとおり、地から放射する地霊というのは無限力であって、肥料というのは有限力です。<br><br>それで有限力で押さえると一時ちょっと良いので、それに迷わされていろんな迷信ができてしまったのです。<br><br>その無限力を大いに発揮するということによって、大いに増産になるというわけですから、その点さえ分かれば、別に難しいことはありません。<br><br>むしろ有限力で効果を上げれば、それこそ不可解なことです。<br><br>ですから医療で病気が治れば大奇蹟です。<br><br>おそらく奇蹟以上の奇蹟です。<br><br>二、三日前にある医学博士に遇ったときにその話をしたのです。<br><br>“医療で病気が治れば、これは大問題だ”と言ったら変な顔をしてました。<br><br>そういうようで、救世教で病気が治るということは実に簡単明瞭な理屈ですから、なんでもなく分かるのです。<br><br>もし医学の方で病気が治るとしたら、難しくて説くことはできません。<br><br>つまり一般人が分からないということは、酒を飲んで顔を赤くして“どうだ、このとおり顔色がよいだろう”と言っていばっているようなものです。<br><br>とにかくあべこべなのですから、その頭をちょっと引っ繰り返せばよく分かるのです。<br><br>それで今の有限力と無限力で説いてゆくと、その頭を引っ繰り返すのに一番効果があります。<br><br>おまけに今の智識人というのは、近ごろはみんな頭がだいぶ進んできましたから――といっても上面が進んできたのですが――ですからよほど科学的に説明しないと納得しないのです。<br><br>その場合に今の有限力、無限力でやってゆくと一番分かります。<br><br> それからこの間の学会での物性論なども馬鹿馬鹿しいくらい幼稚なものです。<br><br>科学者はみんなたいしたもののように鼻高々とやってますが、子供がオモチャをいじっているとしか思えません。<br><br>結局あれがだんだん進んで行けば、今の無限境に入って行くに決まっているのです。<br><br>そこまでで科学はおしまいなのです。<br><br>つまり科学は必要がなくなるのです。<br><br>ですから粒子がいくらかでも分かる間は科学が必要だが、その先に行けば必要がないのです。<br><br>それは無限境に入って行くのだから、科学はおしまいになるのです。<br><br>ですから科学者というのは技師などになったらよいでしょう。<br><br>そういった学問というのは必要がなくなってくるのです。<br><br>それがやっぱり限度というものです。<br><br>そういうようなわけですから、もう長いことはありません。<br><br>割合に早いです。<br><br>というのは、私がその理屈を知ってしまいましたから、これをだんだん多くの人に知らせて行くから、そうすれば当然無限力が勝つに決まってますし、それが真理なのです。<br><br>それをお釈迦さんは知っていたのです。<br><br>奥までは知らないが、ある程度は知っていたのです。<br><br>そこで一切“無”あるいは“空”と言ったのです。<br><br>それは間違ってはいません。<br><br>無限力というのは“空”です。<br><br>物質的には分からないのです。<br><br>ところがもういっそう徹底して、今言ったような説き方をすれば、それはずっと分かっていたのですが、時期がそこまで行ってないから、そのときにそこまで言ったところで、その時代の人間には分かりようがありません。<br><br>今日科学が進歩したために分かりやすくなったわけですから、その点においては科学の進歩も大いに役に立っているわけです。<br><br>つまりその理を分からせる手前にまで文化を押し進めてきたという点においては、科学の功績もたいしたもので、高く評価してもよいわけです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Princípio da Força Infinita</h2>
 <p>Ontem à noite, ao analisar o relatório sobre a Agricultura Natural, deparei-me com resultados esplêndidos. Em algumas das melhores áreas, a colheita atinge cerca de quinze fardos de arroz. Isso significa que a promessa de um aumento de cinquenta por cento na produção foi superada pela realidade. Trata-se, na verdade, de uma triplicação. Há três anos, escrevi que o aumento seria superior a cem por cento; contudo, na época, hesitei em expor a verdade em sua plenitude, pois temi que gerasse incredulidade. Se muitos já duvidavam de um acréscimo de cinquenta por cento, anunciar o dobro ou o triplo teria um efeito adverso, levando as pessoas a descartarem a ideia como um disparate. Optei, portanto, pela cautela, mencionando apenas cinquenta por cento.</p>
@@ -115,5 +267,48 @@ function toggleLang(lang) {
 <p>Os recentes debates sobre física nos congressos acadêmicos são de uma infantilidade risível. Os cientistas se apresentam com grande soberba, mas, para mim, não parecem mais do que crianças entretidas com seus brinquedos. À medida que esse campo avançar, inevitavelmente adentrará o domínio do infinito. E nesse ponto, a ciência, como a conhecemos, chegará ao seu fim. Tornar-se-á desnecessária. Enquanto for possível discernir a menor das partículas, a ciência terá sua utilidade; para além disso, porém, ela perde sua razão de ser. Ao se ingressar no reino do infinito, a ciência termina. Os cientistas fariam melhor se tornassem engenheiros ou algo semelhante. O tipo de estudo acadêmico que praticam se tornará obsoleto. Isso também é um limite.</p>
 <p>Portanto, não tardará muito. Acontecerá de forma surpreendentemente rápida, pois agora eu conheço este princípio e irei, gradualmente, revelá-lo a um número cada vez maior de pessoas. Quando isso ocorrer, a força infinita triunfará naturalmente, pois ela é a Verdade. O próprio Buda Shakyamuni tinha conhecimento disso, talvez não em sua total profundidade, mas até certo ponto. Foi por essa razão que ele se referiu a “Tudo é Vazio (空)” ou “Tudo é Nada (無)”. Ele não estava enganado. A força infinita é o “Vazio”; não pode ser apreendida materialmente.</p>
 <p>Se eu a explico hoje de forma tão detalhada é porque, embora eu mesmo compreenda esta verdade há muito tempo, a época ainda não era propícia. Se eu tivesse exposto estes fatos no passado, as pessoas daquela era teriam sido incapazes de compreendê-los. Hoje, o progresso da ciência tornou a compreensão dessa verdade mais acessível. Nesse aspecto, o avanço científico foi de grande valia, pois impulsionou a cultura até o limiar em que este princípio pôde ser assimilado. Sob essa ótica, o mérito da ciência é, portanto, considerável e digno de apreço.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S28年10月5日） 『御教え集』27号、昭和28(1953)年11月15日発行 昭和二十八年十月五日 昨夜自然農法の報告を見ましたが、すばらしい成績で、ちょっと良い所は十五俵ぐらいとれてます。<br/><br/>ですから五割増産というのは嘘になってしまったわけです。<br/><br/>三倍増産です。<br/><br/>もっとも私は三年前に十割以上は増産になるということを書きました。<br/><br/>本当は最初からそう書きたいが、そうするとかえって信じないと思ったのです。<br/><br/>五割でもなかなか信じないのですから、倍とか三倍と言うと、かえって逆効果になって、馬鹿馬鹿しくて信ずる気になりませんから、それで遠慮して五割としたのです。<br/><br/>ところが今度は、中京の渡辺さんが方々を調査した結果、去年十八俵とった伊野という人も、そのくらいはとれそうだということを言ってます。<br/><br/>そういうようなわけで、あっちの講演会などには人がたくさん来るようですし、会員もドンドンできるようです。<br/><br/>ですから三倍増産は確実です。<br/><br/>ごく内輪にみて二倍としても、今の六千万石の二倍とすると一億二千石ですから、余ってしようがないことになります。<br/><br/>これを一度に世の中に知らせるため、なにかの方法をしようと思ってます。<br/><br/>なにしろ今年の不作は、新聞やラジオで言っているとおり、実に馬鹿馬鹿しいくらいのものです。<br/><br/>ところがあくまで迷信に固まっているのです。<br/><br/>この間のニュース映画にもありましたが、虫害のためだと言って消毒薬、殺虫剤をさかんに撒いて、殺虫剤が足りないと言って、それを得ようとしてたいへんな騒ぎです。<br/><br/>そうすればするほど逆効果になって悪いのですが、それに熱中してやっているのですから、この間書いたとおり“超愚”です。<br/><br/>この超愚到る所にありで、これをなんとかして早く知らせなければしようがないのです。<br/><br/>今までのやり方、現在のは酷過ぎるし、またこっちでやる自然農法はあまりに良過ぎるのですから、両方の違いさというものは天と地ほどの違いです。<br/><br/>まったく天国と地獄です。<br/><br/>というのは、つまりものすごい迷信です。<br/><br/>医学迷信の方は、直接それほどはっきりはしないわけですが、今の米の方は実にはっきりしているのですから、非常にやりよいわけです。<br/><br/>この方は手っ取り早く分からせられるわけです。<br/><br/>二、三年たったらすばらしいことになると思ってます。<br/><br/>ところで信者の人の中にも、まだ肥料迷信から抜けられない人がだいぶあります。<br/><br/>それで無肥料だ無肥料だと言いながら、ほかの物を使いたがったり、それからまた堆肥に頼るのが非常に多いのです。<br/><br/>ですから今書いているのは「堆肥迷信」というのですが、堆肥迷信もやはり一つの迷信です。<br/><br/>だから本当は堆肥もやらないで、土ばかりがよいのです。<br/><br/>ただ新しい土などの固まりやすい土を固まらせないために、堆肥をごく腐らして土同様になった物を混ぜるということと、果樹などの、根元の土が乾きやすいのには、そういうのを防ぐために、腐らせなくてよいから生の堆肥をたくさんやると、雨が降った時には根元に湿気を含んで乾かないために、それが有利なわけです。<br/><br/>ですから果樹などにはそういった意味で堆肥をやると非常によくできます。<br/><br/>堆肥というのはそれだけの意味です。<br/><br/>古い土などは、そのままで堆肥もなにもやらない方がよいです。<br/><br/>それから前にも書いたとおり、ごく寒冷地は、根があんまり冷えては悪いから、そこで温めるために藁を土とねり混ぜて、根の底の方に入れて、根を冷やさないというだけのためであって、ほかにはなにもありません。<br/><br/>そういうようなわけで、堆肥迷信も分からせなければいけないわけです。<br/><br/>近ごろはだいぶそれが分かってきたようで、土に重きをおくようになりつつあります。<br/><br/> それからもう一つは、今年の成績でよく分かったのですが、深く耕すということが非常によいのです。<br/><br/>それは今まで長い間たくさんやった肥料が、ちょうど稲の根が行くぐらいの所に固まっているのです。<br/><br/>というのは、今までは肥料をやるほど良いと思っていたから、なるべく根を肥料に近くするというやり方だったのです。<br/><br/>それで今度は肥料からの悪影響を受けないために深く耕すのです。<br/><br/>そうすると肥料の固まりの所が散らばりますから、つまり肥毒が薄くなるわけです。<br/><br/>そのために非常に成績がよいのです。<br/><br/>そういう具合に深く耕した所は、最初の年から三割くらい増産になってます。<br/><br/>初年度からそういうふうですから付近のふつうの農民にはすぐ分かるので、オレもワレもと、ドンドン増えるのです。<br/><br/>だから堆肥はなるべくやらないことですが、絶対にやらなければ、なお結構です。<br/><br/>ですから深く耕すということだけで初年度から増産になります。<br/><br/> それから土を穢さないようにということは、だいたい肥料というものは、地霊――土からは始終霊気が発散してますが、地球の真ん中は火の固まりで、それが始終上昇しているのです。<br/><br/>そこで地霊には非常に熱があるのです。<br/><br/>熱といっても体的の熱ではなく霊的の熱です。<br/><br/>やはり浄霊と同じようなものですが、その熱が非常に強いのです。<br/><br/>それで肥毒がないとその熱が始終通るから、それが肥料になるのです。<br/><br/>それが地から上昇して空中にだんだん溜まって行くのですが、それが雨によってまた土にしみ込むということになり、それが窒素肥料です。<br/><br/>だから土から肥料となる霊気が絶えず上昇しているということを知っていればよいわけです。<br/><br/>そこで土を穢したりすると、それを妨げるわけですから、これもやっぱり“超愚”の方です。<br/><br/> それから今度『救世教奇蹟集』という本を出すべく新聞広告をしようと思ってますが、その広告文はほかの人ではどうも書けないから私が作りました。<br/><br/>大きさは、ふつうの新聞は全部で十五段になってますが、その三分の一の五段二つ割りにしようと思います。<br/><br/>ふつうは四つ割りにしますが、それではどうも貧弱ですから、二つ割りが大々的で一番よいです。<br/><br/> （『世界救世教奇蹟集』（広告文）） 今年の台風はなかなか猛威をふるって大損害を与えましたが、これについては前にも書いたから分かってはいるでしょうが、また見方を違えて書いてみました。<br/><br/>早く台風をなくする一つの警告というわけです。<br/><br/> （御論文「台風禍」） 【栄光 二三〇号】 医学と浄霊の原理をはっきり分からせるには、有限力と無限力ということを説くと一番よく分かると思います。<br/><br/>というのは、病気の原因というものは無限的なのであって、有限的の性質のものではないのです。<br/><br/>ところが医学のほうの顕微鏡で見た黴菌というものは――つまり細かい粒子です。<br/><br/>そうしてだんだん細かいものが見えるようになって――今日ではウイルスとなってます。<br/><br/>ところがウイルスよりもまだまだ細かいものが発見されます。<br/><br/>それは、科学の方で中間子とか素粒子というのは、やはり粒子です。<br/><br/>そういうようで、結局科学の進歩というのは、細かいものが見えるというだけのものです。<br/><br/>ところがどんな細かいもの、たとえば一ミリの中に一千万個、一億万個と数えますが、数えるとそれで限度があります。<br/><br/>無限ではありません。<br/><br/>ところが一ミリの間に一億万個から十億万個となると、どのくらい小さくなるか分からないが、それでも十億という数があるのだから有限です。<br/><br/>ところが実は病気は有限なものではないのです。<br/><br/>肺病なら肺病でも、これだけの黴菌は何億万個ということが分かったとして、それを殺菌しますが、それで治るかというと治りません。<br/><br/>なぜ治らないかというと、そのできた黴菌だけ殺しても、後から後から出てくるからです。<br/><br/>伝染発生にしても自然発生にしても、黴菌が何億万個ということが数えられたとしても、それだけでおしまいなら、みんな殺してしまえばよいですが、だいたいできるということは、どこかから発生したもので漠然とできるものではないから、そうすると発生源というものは科学でも分からないのです。<br/><br/>それはなにかというと無限的だからです。<br/><br/>ですから無限の病原を除り去るとしたら、やはり無限の力でなければ駄目なのです。<br/><br/>そこで浄霊とは無限力になるのです。<br/><br/>だから原子爆弾は決して恐れるほどのものではないのです。<br/><br/>というのは有限力だからです。<br/><br/>あれ一つで地球全部が破壊できるものではありません。<br/><br/>何キロ何十キロと限度があるものです。<br/><br/>また水素爆弾ができたとしても、日本全体を焼き切ることはできないし、東洋全体を焼き切ることはできません。<br/><br/>たとえ東洋全体を焼き切ることができたとしても、世界全部を焼き切ることはできません。<br/><br/>というのは有限力だからで、有限力というのは要するに力が弱いわけです。<br/><br/>ところがこの方は無限力で、無限力というのは絶対力です。<br/><br/>今アメリカのロサンゼルスでずいぶん奇蹟があったりお陰があってますが、そうすると私の霊力がロサンゼルスにも行っているのです。<br/><br/>それは無限力だからで、無限力は地球全体に行きます。<br/><br/>そのくらい力が違うわけです。<br/><br/>有限力では絶対の力がないから、ある限度しか解決できないのです。<br/><br/>病気を治すといっても治り切りには治らないわけです。<br/><br/>逆進歩してうまくやったとしても一時的です。<br/><br/>ですからこれは時の限度があるわけです。<br/><br/>浄霊の方は時の限度もなければ、力の限度もないのだから、そこで病気をすっかりなくしてしまうことができるのです。<br/><br/>これは科学的の説明です。<br/><br/>そういうわけで、科学というものは有限力の範囲内が科学です。<br/><br/>それで無限力に入れば科学ではないわけで、宗教の方に入るわけです。<br/><br/> しかしその無限力の中にも、絶対無限と、ある限度があるものとがあるのです。<br/><br/>というのは、今までの宗教で病気が治る場合もありますし、奇蹟もありますが、しかしそれは救世教の奇蹟ほどすばらしいものではありません。<br/><br/>それは救世教の奇蹟というものは三日の修業でキリストができるのですから、さっき読んだとおり、もはや数十万のキリストができているというわけです。<br/><br/>キリストと同じことができるのだから少しも間違ってはいないわけです。<br/><br/>結局において、有限力と無限力の力比べです。<br/><br/>その点が分かれば、今の科学信者にも分かると思います。<br/><br/>科学的に説けばそうなります。<br/><br/>ですから科学というものがいかに進歩しても限度があるのです。<br/><br/>神様の方は無限だという、その点が逆です。<br/><br/>それで無限力の中にも上中下があります。<br/><br/>それでは今までの宗教で病気が減りそうなものだという理屈になりますが、それは実は徹底するほどの無限力でなく、ある程度の有限力なのです。<br/><br/>ある程度の有限力というのは、今まではみんな月の光です。<br/><br/>月の光というのは太陽の光の取り次ぎです。<br/><br/>それは科学でも分かってますが、月の光というのは、太陽から受け継いだ光なのです。<br/><br/>そこで太陽の光を弱めたようなものです。<br/><br/>救世教の光というのは太陽直接の光です。<br/><br/>そこでここは「日光殿」という名をつけたわけです。<br/><br/>太陽の光だから昼間の世界というわけで、月の方はその六十分の一ですから弱いわけです。<br/><br/>だから有限力のほうに負けるわけです。<br/><br/>すなわち今までの宗教は科学に押し倒されたわけです。<br/><br/>そこで今までの宗教家も、科学にはかなわないといってカブトをぬいだというわけで、それがどの宗教でも病院を造っているということです。<br/><br/>それから社会事業などをやっているのは、つまり力が弱いから、科学に負けたわけです。<br/><br/>そこで今までは、すべて有限力でいろいろなことを解決しようとしていたから、そこで肥料もそういうわけです。<br/><br/>さっき言ったとおり、地から放射する地霊というのは無限力であって、肥料というのは有限力です。<br/><br/>それで有限力で押さえると一時ちょっと良いので、それに迷わされていろんな迷信ができてしまったのです。<br/><br/>その無限力を大いに発揮するということによって、大いに増産になるというわけですから、その点さえ分かれば、別に難しいことはありません。<br/><br/>むしろ有限力で効果を上げれば、それこそ不可解なことです。<br/><br/>ですから医療で病気が治れば大奇蹟です。<br/><br/>おそらく奇蹟以上の奇蹟です。<br/><br/>二、三日前にある医学博士に遇ったときにその話をしたのです。<br/><br/>“医療で病気が治れば、これは大問題だ”と言ったら変な顔をしてました。<br/><br/>そういうようで、救世教で病気が治るということは実に簡単明瞭な理屈ですから、なんでもなく分かるのです。<br/><br/>もし医学の方で病気が治るとしたら、難しくて説くことはできません。<br/><br/>つまり一般人が分からないということは、酒を飲んで顔を赤くして“どうだ、このとおり顔色がよいだろう”と言っていばっているようなものです。<br/><br/>とにかくあべこべなのですから、その頭をちょっと引っ繰り返せばよく分かるのです。<br/><br/>それで今の有限力と無限力で説いてゆくと、その頭を引っ繰り返すのに一番効果があります。<br/><br/>おまけに今の智識人というのは、近ごろはみんな頭がだいぶ進んできましたから――といっても上面が進んできたのですが――ですからよほど科学的に説明しないと納得しないのです。<br/><br/>その場合に今の有限力、無限力でやってゆくと一番分かります。<br/><br/> それからこの間の学会での物性論なども馬鹿馬鹿しいくらい幼稚なものです。<br/><br/>科学者はみんなたいしたもののように鼻高々とやってますが、子供がオモチャをいじっているとしか思えません。<br/><br/>結局あれがだんだん進んで行けば、今の無限境に入って行くに決まっているのです。<br/><br/>そこまでで科学はおしまいなのです。<br/><br/>つまり科学は必要がなくなるのです。<br/><br/>ですから粒子がいくらかでも分かる間は科学が必要だが、その先に行けば必要がないのです。<br/><br/>それは無限境に入って行くのだから、科学はおしまいになるのです。<br/><br/>ですから科学者というのは技師などになったらよいでしょう。<br/><br/>そういった学問というのは必要がなくなってくるのです。<br/><br/>それがやっぱり限度というものです。<br/><br/>そういうようなわけですから、もう長いことはありません。<br/><br/>割合に早いです。<br/><br/>というのは、私がその理屈を知ってしまいましたから、これをだんだん多くの人に知らせて行くから、そうすれば当然無限力が勝つに決まってますし、それが真理なのです。<br/><br/>それをお釈迦さんは知っていたのです。<br/><br/>奥までは知らないが、ある程度は知っていたのです。<br/><br/>そこで一切“無”あるいは“空”と言ったのです。<br/><br/>それは間違ってはいません。<br/><br/>無限力というのは“空”です。<br/><br/>物質的には分からないのです。<br/><br/>ところがもういっそう徹底して、今言ったような説き方をすれば、それはずっと分かっていたのですが、時期がそこまで行ってないから、そのときにそこまで言ったところで、その時代の人間には分かりようがありません。<br/><br/>今日科学が進歩したために分かりやすくなったわけですから、その点においては科学の進歩も大いに役に立っているわけです。<br/><br/>つまりその理を分からせる手前にまで文化を押し進めてきたという点においては、科学の功績もたいしたもので、高く評価してもよいわけです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

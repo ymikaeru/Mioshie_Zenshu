@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>reitek09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的病気の種々相 『天国の福音』昭和22(1947)年2月5日発行 霊的原因による疾患は実に千差万別である。<br><br>その中珍しいものを一つ二つ書いてみよう。<br><br> 四十歳位の男子、一日に一回か二日に一回位、突如として全身が硬直する。<br><br>その状あたかも石地蔵のごとく全身いかなる部分も全然不動、目も口も開けっ放しで、そのまま数十分も続くのである。<br><br>もちろん死霊の憑依で、死の刹那（せつな）の表われたものである。<br><br>これらは砒素（ひそ）剤のごときものの服毒自殺であろう。<br><br>次は十五、六歳の男子数年前突如発熱、痙攣を起すと共に顔面に大変化が起った。<br><br>それは一見六、七十歳位の老人の顔で、しかも苦悶の形相物凄く、正視に堪えぬものがある。<br><br>故に患者は外出はもとより人に顔を合わすさえ避けている。<br><br>これらも老人の死の刹那でよほど苦悶したものであろう。<br><br>次は十歳位の小児、これは先天的で、その状態は両手両足を縛られたごとき交叉状をなし苦悶に堪えぬ相貌である。<br><br>これらも手足を縛られたまま変死したものであろう。<br><br> ここで生霊について一言する。<br><br>死霊の外に生霊の憑依がある。<br><br>生霊はそのほとんどは男女関係が原因であって、善悪の二種がある。<br><br>善の方からいえば純なる恋愛、たとえば男が女を愛する場合、その生霊が女に憑依すると、女は一種の快感を催すものであるが、それは女もその男を愛しているからで、もし愛していない場合、すなわち一方的愛の生霊は反対に不快を感ずるものである。<br><br>そこに相愛と片愛との異いさがある。<br><br>そうして相愛の場合は霊線によって愛の想念が交流するために、その思慕の情禁じ難く、別離している事の苦悩に堪えないもので、ついに前後を忘れて、情死や駆落ちするまでに到るのである。<br><br>しかるにこの際注意や意見等をするがそれは逆効果となり、反って取返しのつかぬ不幸な事態が生ずる危険があるから放任しておくに限る。<br><br>何となれば霊線の交流は一時的のもので決して続くものではないからで、恋愛は熱病というが全くそうである。<br><br>また片愛の場合、失恋者の生霊が憑依するから、失恋者の想念通りの感じがし、淋しく味気なく憂欝に堪えないのである。<br><br> 次に悪の場合、本妻と妾との霊的葛藤などが最も多い。<br><br>たとえば一方が一方を呪う場合と両方で呪い合う場合とがあり、全く修羅道である。<br><br>そうして呪われる結果としてブラブラ病のごときものに罹るが、医診ではもちろん判る筈がない。<br><br>これが重症に進み、生命を奪われる事さえある。<br><br>しかるにかかる霊が霊界に往くや復讐せんとして生残った相手をたおすに至る事がある。<br><br>もちろん霊的で見えざる事とはいいながら、一旦夫婦の道を外し、妾などを蓄える結果、女の生命まで犠牲にするに到ってはその罪軽からず、大いに慎しむべきである。<br><br> そうして死霊の憑依する場合は悪寒を感じ、生霊の場合は反対に温熱を感ずるものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Múltiplas Facetas das Doenças de Causa Espiritual</h2>
 <p>As enfermidades de origem espiritual apresentam-se, na verdade, sob as mais diversas e incontáveis formas. Permitam-me descrever um ou dois casos particularmente singulares.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>No que tange à manifestação benéfica, esta se origina do amor puro. Quando um homem ama uma mulher, por exemplo, e seu espírito vivo a influencia, ela experimenta uma singular sensação de prazer, pois o sentimento é correspondido. Contudo, se ela não o ama, a influência do espírito vivo desse amor unilateral provocará, ao contrário, uma sensação de profundo desconforto. Eis a diferença entre o amor correspondido e o unilateral. No primeiro caso, os pensamentos de amor fluem reciprocamente através de um laço espiritual, tornando o anseio irrefreável e a angústia da separação, insuportável. Em decorrência disso, os envolvidos podem chegar a perder a razão, culminando em fugas ou até mesmo em suicídios por amor. Nessas circunstâncias, qualquer conselho ou advertência produzirá um efeito contrário, com o risco de ocasionar uma tragédia irreparável. Portanto, o mais sensato é não interferir. Afinal, essa comunicação espiritual é efêmera e jamais perdura, o que confirma a veracidade do dito popular de que o amor é como uma febre ardente. Já no amor unilateral, o espírito vivo da pessoa rejeitada passa a influenciar a outra, que passa a sentir exatamente o que aquela sente: solidão, desânimo e uma melancolia insuportável.</p>
 <p>Quanto às manifestações maléficas, os casos mais frequentes envolvem o conflito espiritual entre a esposa legítima e a amante. Ocorrem situações em que uma amaldiçoa a outra, ou em que ambas se amaldiçoam mutuamente, estabelecendo um verdadeiro inferno de hostilidades. Como resultado dessas maldições, a pessoa atingida pode desenvolver uma doença caracterizada por um estado de apatia e prostração, que a medicina convencional é, obviamente, incapaz de diagnosticar. Em casos graves, a condição pode evoluir e até mesmo ceifar a vida da pessoa. Ademais, quando um espírito nessas condições parte para o Mundo Espiritual, não raro busca vingança e consegue vitimar a rival que permaneceu na Terra. Embora se trate de questões espirituais e invisíveis, o pecado de um homem que se desvia do caminho matrimonial e mantém uma amante, chegando a sacrificar a vida de uma mulher, não é de modo algum leve. É uma conduta da qual se deve abster com o máximo rigor.</p>
 <p>Cumpre ressaltar, por fim, que a possessão por espíritos de mortos geralmente provoca calafrios, ao passo que a influência de espíritos vivos, ao contrário, gera uma sensação de calor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的病気の種々相 『天国の福音』昭和22(1947)年2月5日発行 霊的原因による疾患は実に千差万別である。<br/><br/>その中珍しいものを一つ二つ書いてみよう。<br/><br/> 四十歳位の男子、一日に一回か二日に一回位、突如として全身が硬直する。<br/><br/>その状あたかも石地蔵のごとく全身いかなる部分も全然不動、目も口も開けっ放しで、そのまま数十分も続くのである。<br/><br/>もちろん死霊の憑依で、死の刹那（せつな）の表われたものである。<br/><br/>これらは砒素（ひそ）剤のごときものの服毒自殺であろう。<br/><br/>次は十五、六歳の男子数年前突如発熱、痙攣を起すと共に顔面に大変化が起った。<br/><br/>それは一見六、七十歳位の老人の顔で、しかも苦悶の形相物凄く、正視に堪えぬものがある。<br/><br/>故に患者は外出はもとより人に顔を合わすさえ避けている。<br/><br/>これらも老人の死の刹那でよほど苦悶したものであろう。<br/><br/>次は十歳位の小児、これは先天的で、その状態は両手両足を縛られたごとき交叉状をなし苦悶に堪えぬ相貌である。<br/><br/>これらも手足を縛られたまま変死したものであろう。<br/><br/> ここで生霊について一言する。<br/><br/>死霊の外に生霊の憑依がある。<br/><br/>生霊はそのほとんどは男女関係が原因であって、善悪の二種がある。<br/><br/>善の方からいえば純なる恋愛、たとえば男が女を愛する場合、その生霊が女に憑依すると、女は一種の快感を催すものであるが、それは女もその男を愛しているからで、もし愛していない場合、すなわち一方的愛の生霊は反対に不快を感ずるものである。<br/><br/>そこに相愛と片愛との異いさがある。<br/><br/>そうして相愛の場合は霊線によって愛の想念が交流するために、その思慕の情禁じ難く、別離している事の苦悩に堪えないもので、ついに前後を忘れて、情死や駆落ちするまでに到るのである。<br/><br/>しかるにこの際注意や意見等をするがそれは逆効果となり、反って取返しのつかぬ不幸な事態が生ずる危険があるから放任しておくに限る。<br/><br/>何となれば霊線の交流は一時的のもので決して続くものではないからで、恋愛は熱病というが全くそうである。<br/><br/>また片愛の場合、失恋者の生霊が憑依するから、失恋者の想念通りの感じがし、淋しく味気なく憂欝に堪えないのである。<br/><br/> 次に悪の場合、本妻と妾との霊的葛藤などが最も多い。<br/><br/>たとえば一方が一方を呪う場合と両方で呪い合う場合とがあり、全く修羅道である。<br/><br/>そうして呪われる結果としてブラブラ病のごときものに罹るが、医診ではもちろん判る筈がない。<br/><br/>これが重症に進み、生命を奪われる事さえある。<br/><br/>しかるにかかる霊が霊界に往くや復讐せんとして生残った相手をたおすに至る事がある。<br/><br/>もちろん霊的で見えざる事とはいいながら、一旦夫婦の道を外し、妾などを蓄える結果、女の生命まで犠牲にするに到ってはその罪軽からず、大いに慎しむべきである。<br/><br/> そうして死霊の憑依する場合は悪寒を感じ、生霊の場合は反対に温熱を感ずるものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

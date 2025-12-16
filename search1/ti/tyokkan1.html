@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tyokkan1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 直観の哲学 『光』号外、昭和24(1949)年5月30日発行 私は若い頃、当時持囃（もてはや）されたフランスの哲学者故アンリ・ベルグソン氏の学説に共鳴した事がある、その説たるや、今もなお想い出す事がよくあると共に、信仰上からいっても稗益（ひえき）するところ大なるものがあるから、ここにかいてみる。<br><br> 氏の哲学の中、その根幹を成しているものは万物流転、直観の説、刹那（せつな）の吾の三つであろう、特に私の感銘を深くしたものは、直観の哲学で、氏の説によるとこうである。<br><br> 人間は物を観る場合、物そのものをいささかの狂いなく観る事は容易ではない、それがため物の実態の把握は洵（まこと）に困難である、これは何ゆえであろうかという事である。<br><br> 元来、人間は誰しも教育、伝統、慣習等、種々複雑した観念が、綜合的に一つの棒のようになって潜在しているものである、ところがそれに気付く事はほとんどない、これがため物を観る場合その棒が必ず邪魔をする、例えば新宗教を観る場合でも、新宗教はみんな迷信邪教であり、インチキであると決める事で、全く棒が妨害するからである、今日の社会人は、絶えず新聞雑誌からは眼を通じて新聞人の意見が入ってくる、ラジオや人の噂からも耳を通して入ってくるという訳で、増々棒が固く出来上ってくる、医者で治らない病気が信仰で治った奇蹟を見ても、ありのままの事実を素直に受入れる事が出来ない、まず真先に疑惑を起すのであるが、これも棒のためである、病気は医学で治るという観念が棒の中心をなしているからで、この場合インチキ宗教では治るはずがない、もし治ったとしたらそれは治る時節が来たからだというように、棒が種々の理屈をつけ、事実を彎曲してしまうという事は、誰しも経験するところであろう。<br><br> かように人間の陥りやすい過誤を訂正するのが直観の哲学である、すなわち物を観る場合、棒に禍いせられない虚心坦懐（きょしんたんかい）白紙の吾とならなければならない、それにはどうすればよいか、刹那の吾が必要となる、すなわち物を観た一瞬直感した印象こそ物そのものの実体を把握して誤りがない、重ねて言うが確かに難病が治った事実をこの眼で見たなら、そのまま信ずべきである、それが正しい見方である。<br><br>しかるにそんなはずはない、器械や薬で治らないものが、眼に見えない空に等しいものなどで治る訳がないと思うのは、最早棒が邪魔しているからである。<br><br>そこへ誰かが、「それは迷信だ。<br><br>そんな馬鹿な話があるものか」と言うのは、他人の棒が邪魔の協力者となったのであるから、この点大いに警戒しなければならない、以上が直観の哲学のホンの概念である。<br><br> 次に万物流転とは、一切は一瞬の間もなく流転しているという事である、例えば昨日の吾と今日の吾とは必ずどこか違っている、否五分前の吾と今の吾とも違っている、昨日の世界も今日のそれとは同一ではない、社会も文化も国際関係ももちろんそうである。<br><br>従って、人間の観方も変化そのものに対して適切でなければならない、それが正しい観方である、この理によって宗教も文化もその観方や考え方を変えるべきであるにかかわらず、何百何千年前の宗教の観方を通して新宗教を批判するのであるから、正確な認識を得られないのは当然である、これが万物流転の説である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Filosofia da Intuição</h2>
 <p><em>Publicado em “Hikari”, edição extra, 30 de maio de 1949</em></p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Todavia, o pensamento de que “tal coisa é impossível” ou “como algo que nem aparelhos ou remédios curam poderia ser sanado por uma força invisível e intangível?” já é um sinal de que a barreira está obstruindo o discernimento. Se, nesse momento, alguém intervier dizendo: “Isso é superstição. Que história absurda!”, significa que a barreira de outra pessoa veio atuar como cúmplice da nossa. É um ponto que exige máxima vigilância. Eis, em linhas gerais, o conceito da filosofia da intuição.</p>
 <p>Passemos agora ao fluxo universal. Este princípio sustenta que tudo no universo se encontra em um estado de perpétua transformação, sem um único instante de estagnação. O eu de ontem difere do eu de hoje; na verdade, o eu de cinco minutos atrás já não é o mesmo de agora. O mundo, a sociedade, a cultura e as relações internacionais seguem essa mesma lei. Portanto, nossa perspectiva também deve se adequar a essa própria mudança; essa é a visão correta.</p>
 <p>Seguindo essa lógica, a maneira de analisar a religião e a cultura também deveria evoluir. No entanto, o que ocorre é a crítica a uma nova religião sob a ótica de preceitos de centenas ou milhares de anos atrás. É natural, pois, que não se possa alcançar uma compreensão precisa. Essa é, em essência, a doutrina do fluxo universal.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 直観の哲学 『光』号外、昭和24(1949)年5月30日発行 私は若い頃、当時持囃（もてはや）されたフランスの哲学者故アンリ・ベルグソン氏の学説に共鳴した事がある、その説たるや、今もなお想い出す事がよくあると共に、信仰上からいっても稗益（ひえき）するところ大なるものがあるから、ここにかいてみる。<br/><br/> 氏の哲学の中、その根幹を成しているものは万物流転、直観の説、刹那（せつな）の吾の三つであろう、特に私の感銘を深くしたものは、直観の哲学で、氏の説によるとこうである。<br/><br/> 人間は物を観る場合、物そのものをいささかの狂いなく観る事は容易ではない、それがため物の実態の把握は洵（まこと）に困難である、これは何ゆえであろうかという事である。<br/><br/> 元来、人間は誰しも教育、伝統、慣習等、種々複雑した観念が、綜合的に一つの棒のようになって潜在しているものである、ところがそれに気付く事はほとんどない、これがため物を観る場合その棒が必ず邪魔をする、例えば新宗教を観る場合でも、新宗教はみんな迷信邪教であり、インチキであると決める事で、全く棒が妨害するからである、今日の社会人は、絶えず新聞雑誌からは眼を通じて新聞人の意見が入ってくる、ラジオや人の噂からも耳を通して入ってくるという訳で、増々棒が固く出来上ってくる、医者で治らない病気が信仰で治った奇蹟を見ても、ありのままの事実を素直に受入れる事が出来ない、まず真先に疑惑を起すのであるが、これも棒のためである、病気は医学で治るという観念が棒の中心をなしているからで、この場合インチキ宗教では治るはずがない、もし治ったとしたらそれは治る時節が来たからだというように、棒が種々の理屈をつけ、事実を彎曲してしまうという事は、誰しも経験するところであろう。<br/><br/> かように人間の陥りやすい過誤を訂正するのが直観の哲学である、すなわち物を観る場合、棒に禍いせられない虚心坦懐（きょしんたんかい）白紙の吾とならなければならない、それにはどうすればよいか、刹那の吾が必要となる、すなわち物を観た一瞬直感した印象こそ物そのものの実体を把握して誤りがない、重ねて言うが確かに難病が治った事実をこの眼で見たなら、そのまま信ずべきである、それが正しい見方である。<br/><br/>しかるにそんなはずはない、器械や薬で治らないものが、眼に見えない空に等しいものなどで治る訳がないと思うのは、最早棒が邪魔しているからである。<br/><br/>そこへ誰かが、「それは迷信だ。<br/><br/>そんな馬鹿な話があるものか」と言うのは、他人の棒が邪魔の協力者となったのであるから、この点大いに警戒しなければならない、以上が直観の哲学のホンの概念である。<br/><br/> 次に万物流転とは、一切は一瞬の間もなく流転しているという事である、例えば昨日の吾と今日の吾とは必ずどこか違っている、否五分前の吾と今の吾とも違っている、昨日の世界も今日のそれとは同一ではない、社会も文化も国際関係ももちろんそうである。<br/><br/>従って、人間の観方も変化そのものに対して適切でなければならない、それが正しい観方である、この理によって宗教も文化もその観方や考え方を変えるべきであるにかかわらず、何百何千年前の宗教の観方を通して新宗教を批判するのであるから、正確な認識を得られないのは当然である、これが万物流転の説である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

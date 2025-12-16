@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>s100901</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年9月1日 ある年寄りの婦人ですが、夜中に目がさめて枕元を見たら鏡が置いてある。<br><br>だれが置いたのかなと、フト手にとってみると、中の御守りだったのです。<br><br>その人は少し具合が悪いと、中の御守りをかけ、寝るときはいつも枕元へ置く。<br><br>で、その枕元に置いた御守りが、キラキラ光るので鏡と間違え、手にとってみると中の御守りだったので、おもしろいことです。<br><br> そのくらい御守りから光明が、絶えず本当に出ているんです。<br><br>それで病気が治るんであります。<br><br> 最近の新聞に三つの記事がのっており、不断われわれが主張してることです。<br><br> こういうしだいで、実際調べた結果で、驚いたんであります。<br><br> それで世間をみると、どうしても高等教育を受けさせなければならぬと、ひと工面してでも、親は無理算段して大学を卒業さす実例をよくみる。<br><br>これはある程度まで違ってると思うことがよくある。<br><br> 社会でヒトラーとかムッソリーニとか、ああいう人や大発明をする人は、ほとんど規則だった学問をしていない。<br><br>エジソンやマルコーニ、ああいう人達の伝記をみてもそうで、事業家の大成功者などもみなそうです。<br><br> 平凡な人間なら、学校教育をさすのもよかろうが、少しできると思ったら、学校教育をさせないほうがよいと思うのです。<br><br>この点がいまの社会は間違っている。<br><br>どういうわけかと疑問を受けますが、高等教育を受ければ受けるほど理屈に捉われる。<br><br>世の中のことなんでも理屈つける。<br><br>ところが世の中は理屈に合わない。<br><br>二二が四とか、二五十というふうにはならぬ。<br><br>二二が五、二二が八というようになる場合が多い。<br><br> われわれが病気を治す場合も理屈ではない。<br><br>だから不思議です。<br><br>ですから、話しても先方が信じない。<br><br>そういう理屈はないと言う。<br><br>事実よりも理屈に重きをおく。<br><br>治る理屈はない。<br><br>そういうことになっている。<br><br> 学問が進むほど理屈が主になっている。<br><br>もし理屈に物事が合うものなら、学者や統計家は大成功をしなければならぬ。<br><br>理屈や道理が本当なら、天気予報でも当たるわけです。<br><br>また、経済学者が相場やれば儲かるわけです。<br><br>むしろ理屈とは反対にゆく。<br><br>これは一種の哲学的ですが、しからばなにを標準とするかというと、事実をみればいい。<br><br>事実より絶対のものはない。<br><br> 近ごろ新興宗教を非常に貶（けな）す。<br><br>それは有識者に多い。<br><br>理屈に合わないからだという。<br><br>キリスト教や仏教は理屈に合ってるという。<br><br> 病気は新興宗教のほうが治るんで、屁理屈のようなものを見つけてごまかす。<br><br>それで今日の世の中は、あまりに理屈が多過ぎる。<br><br>この理屈によってやるために、社会はどのくらい失敗をしているかしれぬ。<br><br>事実を度外視して理屈に走ってる。<br><br> （新聞読む） これによってみると、小石川の小学校の子供の約半数は、結核の素質があるということで、たいへんな問題になっており、いっぽうにまた、年々日本人が細くなる。<br><br>この本当の原因が当局では気がつかぬ。<br><br>この原因は観音会よりほかに知るものはないでしょう。<br><br> この第一原因は、子供のときから弱くなっている。<br><br>いろいろな原因もあるが、重要な点は子供を牛乳で育てることで、第二は薬を服ますことです。<br><br>先に話したが、薬を服むくらい悪いことはない。<br><br>薬を服んだだけで弱くなる。<br><br>近ごろはますます薬を服む。<br><br>新聞広告はほとんど薬であります。<br><br>薬と化粧品の広告が一番多い。<br><br>これは薬を非常に服むということと、御婦人がお顔に金をかけるという顕著な事実です。<br><br>お化粧は結構ですが、しかし薬の広告に至っては、薬を服めば服むほどだいたい弱くなる。<br><br>実際の結果はかくのごとく表われる。<br><br>赤ん坊など薬を服ますと発育が停止する。<br><br>ですから、観音会へ入りお薬をやめ、体へ薬を入れぬから、ますます年々丈夫になってゆく。<br><br>むしろ当局が医学を徹底させず、もっと医学を発達させなかったら薬を服まさなくていい。<br><br> も一つ子供を早く教育させすぎる。<br><br>幼稚園などごく悪い。<br><br>たいへん間違っている。<br><br>鼻から提灯出したり、昔なら棒を持って蜻蛉（とんぼ）を追ってるころに教育をする。<br><br>それは実際無理でかわいそうだ。<br><br>学校へ行く以上は、できがよいよう努力する。<br><br>善良な意味によって親が勉強させる。<br><br>それで子供はのんびり育たぬ。<br><br> このごろの小さい子供は、みな眼鏡をかけている。<br><br>昔は眼鏡などは老人しかかけなかった。<br><br>いまは子供がかけている。<br><br>これも子供として眼を使いすぎる。<br><br>も一つは、肉食をするからであります。<br><br>西洋文化により肉食し、薬剤服用して、早期の教育することになった。<br><br>これで人間が弱る。<br><br>これをやめればもっとずっと健康になる。<br><br>国家でそういう点に気づかぬということも、学理に捉われ、学理以外のものにはナカナカ判らぬ。<br><br>なんでもかんでも学理に合わすからいけない。<br><br> すべて学理に合うものと合わぬものとある。<br><br>一番合わぬのは人間の心で、人間と天気などこうすればいい、ああすればいいという理屈は知りぬいていて、その通りできるものでない。<br><br>人間の健康など理屈に合うものなら、病人はなくなるはずです。<br><br>それをお医者は学理に合わして取り扱う。<br><br>先に私は歯医者にかかった。<br><br>医者は歯へ薬をつめた。<br><br>ところが、それを詰めてから非常に痛い。<br><br>あまり痛むから除ってくれと言ったら、痛いのは学理上からいって痛むわけはない。<br><br>それは変だと言うのです。<br><br>も一遍明日来いと言われ、翌日行くと、ドイツの歯科の本を調べてみたけれど、そういうことは学理にないと言うのです。<br><br>二、三日経ってもちっともよくないので、ほかのお医者へ行った。<br><br>そして除ってもらったのです。<br><br>するとだいぶ痛みが去り、よくなったことがあります。<br><br>私はその時分歯で非常に悩んだ。<br><br>そして、終には帝大の歯科から、飯田橋の歯科医学専門へも行ったんですが治らない。<br><br>いくども自殺しようと思ったか判らぬ。<br><br>薬をつけると一、二時間はいいから薬で治ると思ったのですから、ほうぼうの歯医者にかかりあらゆる知ってる薬をつけた。<br><br>最後に米国から友達が帰ったので、新薬をなにかもってることだろうと思って、これを服ましても治らねばしかたないというのでも服み、またも一つ服んで結局痛みは除れない。<br><br>そしてドクターにかかった。<br><br>ところが、痛みはあるが学理上からいって治っているわけだと言うのです。<br><br>そのとき実にこれはおかしいと思った。<br><br>そのうちにしようがなくて神信心を始めた。<br><br>そして、日蓮宗の行者のとこへ行き御祈祷を頼んだら、一週間で治ると言うのです。<br><br>そして、その間は医者へ行ってはいかんと言う。<br><br>それで薬もつけず三日くらい経つと痛まぬ。<br><br>そこでこれは薬のために痛んだんだということが判った。<br><br>それで毎日水でうがいをした。<br><br>私が薬の中毒ということはそれが元で知った。<br><br>やはりいま考えると、観音様からそのときに知らされたのに違いない。<br><br>ですから、人間が研究した学則では、とうてい判らぬということは間違いない。<br><br> われわれの愛する日本、日本人が子供は弱いものばかり、大人は病人だらけになってるということは大問題であります。<br><br> これは観音運動によって目覚めさすよりしようがない。<br><br>どうしても観音会が日本人を助けるよりしようがない。<br><br>いずれパンフレットを出しますが、これはそうとうパンフレット以上のもので、九十頁くらいのものですが、価も十銭を出ない。<br><br>今月の半ばごろまでにできるはずですが、これにそういう間違ったことがたくさん出ておりますから、できるだけほうぼうへ間配られたいと思うのです。<br><br>早々たくさん間配られたい。<br><br> 日本人がいまのようにヒョロヒョロではしかたがない。<br><br>まず頑健な身体を造り、健康な精神にせねばならぬ。<br><br>健康な精神は健康な人間を造るというのが本当で、健康な魂を造るのは、本当の意味の宗教的に目覚めることで、観音運動はいっぽうに宗教的に目覚めさせなければならぬ。<br><br>体的のことは医術で行き、要するに霊体を救うことであります。<br><br> 次にヨーロッパ方面のことについて話しますが、この一日二日の新聞やラジオをみると、いよいよイタリアとエチオピアは、どうしても戦うことになってしまった。<br><br>戦わなくてもすむとは思えぬ。<br><br>どうしても戦わなければならぬ形勢と定まってきました。<br><br>問題は英、伊、これが戦うか否やで、戦うとすればどういう結果になるか、これはだれも知りたいことですが、これにつきおもしろい話があります。<br><br>第二の世界戦争の型は、小さな型で昨年見せられたのであります。<br><br>それは非常におもしろいと思いますが、まずそうならなければならない。<br><br>まずイタリアとエチオピアの戦争の型が出ている。<br><br>その戦いを実行された方が観音会に五、六人あり、その当時だれがフランスの型、だれがイタリアの型してるなどと言っていたんです。<br><br>それによると、最初伊エが戦って、間もなく英国と戦う。<br><br>その結果英国は非常に弱る。<br><br>これがあんがいで、それからどうなるかというと、ちょっと複雑していますが、ロシアが非常に野心を起す。<br><br>そしてこの機会に乗じて、一つ世界的大博奕（ばくち）を打とうという陰謀を起す。<br><br>そして、各国のむしろ弱小国などへ向かって、いろいろなことして働きかける。<br><br>その結果ある程度まで弱国の援助を得て、英国いじめの提議をする。<br><br>それで英国はこれで非常に困るようになり、それにフランスが巻き添えをくう。<br><br>そこで英仏を向こうへまわして、ロシアは大々的活躍をし、ドイツがロシアと握手する。<br><br>それはごくわずかの間する。<br><br>ちょうどロシアを支持する形をみせる。<br><br>そのときに日本もちょいちょい手を出す。<br><br>そこでロシアは、実は英国と日本をやっつける手段をとる。<br><br>けれども日本は、そうとうに驚こうが確信はもっている。<br><br>そのうちに英仏はコッピドイ目にあう。<br><br>そして英国は、ほとんど没落状態になる。<br><br>皇帝は退位されるし、実にお気の毒な結果になる。<br><br>それに対し、米国は多少相談はしても、ほとんど中立関係をもち形勢をみている。<br><br>フランスは一時非常にひどい目にあうが、立ち直ってまた元の通りになる。<br><br>ドイツはその後日本と同盟して、イタリアも日本に接近して、ドイツ、イタリア、日本の一種の同盟的関係ができる。<br><br>そして、一時ロシアは世界を圧服の気勢をみせるが、それはちょっとの間で、ロシアに内乱が起る。<br><br>そしてちょうど革命のようなもので、世界を威圧しようとするのが大失敗に帰し、最後にへとへとになり、わずかにロシアは形骸を残すくらいになる。<br><br> そして、英国をだいたいイタリアが妙な具合に英国を統治することになる。<br><br>そして、ローマ法王が英国へ行く。<br><br>一時的ですが英国の治安の上に立つ。<br><br>しかし法王も治め得ず、英国を治める人がなくなる。<br><br>イタリアがどうすることもできぬ。<br><br>それで宗教的人物を据えようというので、ローマ法王を据えることになる型が出た。<br><br>この結果日本はすばらしくよくなる。<br><br>そして日本のいままでの政策は一変して、いままでほとんど外国文明を取り入れていたのが、純然たるすべて日本的になる。<br><br>そのとき日本式に政治、経済すべてがなる。<br><br> そして馬鹿に日本が良くなって、世界統一の活動となるという、予言をするわけではない、そういう型が出たんであります。<br><br>型というものは、ナカナカ馬鹿にできないもので、神様がやられる型の解釈が合っておれば、その通りになります。<br><br>神様の経綸は、いま神様が自由自在にやっておられるのをみると、虚々実々、延びたり縮んだり、大きくなったり小さくなったり、いろいろになるんでありますが、だいたいはそういう経路で、英国は滅びるくらいに悲惨なことになる。<br><br>これが観音様の大経綸であります。<br><br> だいたい英国が世界を統一している。<br><br>英語が世界的に使用されているだけでもそうで、どうしても英国が没落しなければいけない。<br><br>英国が今日世界一となったのは覇道で、武力または強力をもってやった結果で本当ではない。<br><br>いつかは清算されなければならぬ。<br><br>事実いままでペテンやインチキでああなった。<br><br> 欧州戦争のとき、もし英国が勝てばインドを委任統治にすると言って、勝ったのに英は実行しなかったので、インドでは大会を開いたことがあり、何万人も集まった所へ機関銃をもって射殺した。<br><br>死者五千人あったということで、一遍にその運動はやめ、それからガンジーが出たが、行動的なことがあるなしにかかわらずできない。<br><br>無抵抗的反対をしている。<br><br> 英国のやったことは実に惨〔残〕虐なもので、神様が赦さぬ。<br><br>また、オーストラリアを奪ったときも、実に惨虐なことをしてやった。<br><br>ですから、これから欧州に大きいことが始まるが、それはみな英国没落のための動きであります。<br><br> 結局最後には、日本は非常に良くなる。<br><br>一時ロシアが暴れるときは、心胆を寒からしめることがあることになっております。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdade Divina e os Equívocos do Mundo Moderno</h2>
 <p>Relato-lhes o caso de uma senhora idosa que, ao despertar durante a noite, notou ao lado de seu travesseiro um objeto que reluzia como um espelho. Intrigada, pegou-o e constatou que era o seu Omamori. Ocorre que, sentindo-se um pouco indisposta, ela costumava usá-lo e, ao deitar-se, sempre o colocava na cabeceira. O brilho intenso que dele emanava a levou a confundi-lo com um espelho. É um episódio deveras interessante.</p>
@@ -117,5 +269,48 @@ function toggleLang(lang) {
 <p>Durante a Primeira Guerra Mundial, a Inglaterra prometeu conceder autonomia à Índia se vencesse. Após a vitória, porém, não cumpriu sua promessa. Quando os indianos organizaram um grande protesto, com dezenas de milhares de pessoas reunidas, os ingleses abriram fogo com metralhadoras, matando cinco mil pessoas. O movimento foi esmagado de uma só vez. Foi depois disso que surgiu Gandhi, que, independentemente de seus atos, não conseguiu mudar a situação e adotou uma oposição de não resistência.</p>
 <p>Os atos da Inglaterra foram de uma crueldade atroz, algo que Deus não perdoará. A conquista da Austrália também foi realizada com uma brutalidade indescritível. Portanto, os grandes acontecimentos que estão prestes a se iniciar na Europa são todos parte do movimento para a queda da Inglaterra.</p>
 <p>Ao final de tudo, o Japão prosperará imensamente. No entanto, está previsto que haverá momentos em que a fúria da Rússia nos fará tremer de pavor.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年9月1日 ある年寄りの婦人ですが、夜中に目がさめて枕元を見たら鏡が置いてある。<br/><br/>だれが置いたのかなと、フト手にとってみると、中の御守りだったのです。<br/><br/>その人は少し具合が悪いと、中の御守りをかけ、寝るときはいつも枕元へ置く。<br/><br/>で、その枕元に置いた御守りが、キラキラ光るので鏡と間違え、手にとってみると中の御守りだったので、おもしろいことです。<br/><br/> そのくらい御守りから光明が、絶えず本当に出ているんです。<br/><br/>それで病気が治るんであります。<br/><br/> 最近の新聞に三つの記事がのっており、不断われわれが主張してることです。<br/><br/> こういうしだいで、実際調べた結果で、驚いたんであります。<br/><br/> それで世間をみると、どうしても高等教育を受けさせなければならぬと、ひと工面してでも、親は無理算段して大学を卒業さす実例をよくみる。<br/><br/>これはある程度まで違ってると思うことがよくある。<br/><br/> 社会でヒトラーとかムッソリーニとか、ああいう人や大発明をする人は、ほとんど規則だった学問をしていない。<br/><br/>エジソンやマルコーニ、ああいう人達の伝記をみてもそうで、事業家の大成功者などもみなそうです。<br/><br/> 平凡な人間なら、学校教育をさすのもよかろうが、少しできると思ったら、学校教育をさせないほうがよいと思うのです。<br/><br/>この点がいまの社会は間違っている。<br/><br/>どういうわけかと疑問を受けますが、高等教育を受ければ受けるほど理屈に捉われる。<br/><br/>世の中のことなんでも理屈つける。<br/><br/>ところが世の中は理屈に合わない。<br/><br/>二二が四とか、二五十というふうにはならぬ。<br/><br/>二二が五、二二が八というようになる場合が多い。<br/><br/> われわれが病気を治す場合も理屈ではない。<br/><br/>だから不思議です。<br/><br/>ですから、話しても先方が信じない。<br/><br/>そういう理屈はないと言う。<br/><br/>事実よりも理屈に重きをおく。<br/><br/>治る理屈はない。<br/><br/>そういうことになっている。<br/><br/> 学問が進むほど理屈が主になっている。<br/><br/>もし理屈に物事が合うものなら、学者や統計家は大成功をしなければならぬ。<br/><br/>理屈や道理が本当なら、天気予報でも当たるわけです。<br/><br/>また、経済学者が相場やれば儲かるわけです。<br/><br/>むしろ理屈とは反対にゆく。<br/><br/>これは一種の哲学的ですが、しからばなにを標準とするかというと、事実をみればいい。<br/><br/>事実より絶対のものはない。<br/><br/> 近ごろ新興宗教を非常に貶（けな）す。<br/><br/>それは有識者に多い。<br/><br/>理屈に合わないからだという。<br/><br/>キリスト教や仏教は理屈に合ってるという。<br/><br/> 病気は新興宗教のほうが治るんで、屁理屈のようなものを見つけてごまかす。<br/><br/>それで今日の世の中は、あまりに理屈が多過ぎる。<br/><br/>この理屈によってやるために、社会はどのくらい失敗をしているかしれぬ。<br/><br/>事実を度外視して理屈に走ってる。<br/><br/> （新聞読む） これによってみると、小石川の小学校の子供の約半数は、結核の素質があるということで、たいへんな問題になっており、いっぽうにまた、年々日本人が細くなる。<br/><br/>この本当の原因が当局では気がつかぬ。<br/><br/>この原因は観音会よりほかに知るものはないでしょう。<br/><br/> この第一原因は、子供のときから弱くなっている。<br/><br/>いろいろな原因もあるが、重要な点は子供を牛乳で育てることで、第二は薬を服ますことです。<br/><br/>先に話したが、薬を服むくらい悪いことはない。<br/><br/>薬を服んだだけで弱くなる。<br/><br/>近ごろはますます薬を服む。<br/><br/>新聞広告はほとんど薬であります。<br/><br/>薬と化粧品の広告が一番多い。<br/><br/>これは薬を非常に服むということと、御婦人がお顔に金をかけるという顕著な事実です。<br/><br/>お化粧は結構ですが、しかし薬の広告に至っては、薬を服めば服むほどだいたい弱くなる。<br/><br/>実際の結果はかくのごとく表われる。<br/><br/>赤ん坊など薬を服ますと発育が停止する。<br/><br/>ですから、観音会へ入りお薬をやめ、体へ薬を入れぬから、ますます年々丈夫になってゆく。<br/><br/>むしろ当局が医学を徹底させず、もっと医学を発達させなかったら薬を服まさなくていい。<br/><br/> も一つ子供を早く教育させすぎる。<br/><br/>幼稚園などごく悪い。<br/><br/>たいへん間違っている。<br/><br/>鼻から提灯出したり、昔なら棒を持って蜻蛉（とんぼ）を追ってるころに教育をする。<br/><br/>それは実際無理でかわいそうだ。<br/><br/>学校へ行く以上は、できがよいよう努力する。<br/><br/>善良な意味によって親が勉強させる。<br/><br/>それで子供はのんびり育たぬ。<br/><br/> このごろの小さい子供は、みな眼鏡をかけている。<br/><br/>昔は眼鏡などは老人しかかけなかった。<br/><br/>いまは子供がかけている。<br/><br/>これも子供として眼を使いすぎる。<br/><br/>も一つは、肉食をするからであります。<br/><br/>西洋文化により肉食し、薬剤服用して、早期の教育することになった。<br/><br/>これで人間が弱る。<br/><br/>これをやめればもっとずっと健康になる。<br/><br/>国家でそういう点に気づかぬということも、学理に捉われ、学理以外のものにはナカナカ判らぬ。<br/><br/>なんでもかんでも学理に合わすからいけない。<br/><br/> すべて学理に合うものと合わぬものとある。<br/><br/>一番合わぬのは人間の心で、人間と天気などこうすればいい、ああすればいいという理屈は知りぬいていて、その通りできるものでない。<br/><br/>人間の健康など理屈に合うものなら、病人はなくなるはずです。<br/><br/>それをお医者は学理に合わして取り扱う。<br/><br/>先に私は歯医者にかかった。<br/><br/>医者は歯へ薬をつめた。<br/><br/>ところが、それを詰めてから非常に痛い。<br/><br/>あまり痛むから除ってくれと言ったら、痛いのは学理上からいって痛むわけはない。<br/><br/>それは変だと言うのです。<br/><br/>も一遍明日来いと言われ、翌日行くと、ドイツの歯科の本を調べてみたけれど、そういうことは学理にないと言うのです。<br/><br/>二、三日経ってもちっともよくないので、ほかのお医者へ行った。<br/><br/>そして除ってもらったのです。<br/><br/>するとだいぶ痛みが去り、よくなったことがあります。<br/><br/>私はその時分歯で非常に悩んだ。<br/><br/>そして、終には帝大の歯科から、飯田橋の歯科医学専門へも行ったんですが治らない。<br/><br/>いくども自殺しようと思ったか判らぬ。<br/><br/>薬をつけると一、二時間はいいから薬で治ると思ったのですから、ほうぼうの歯医者にかかりあらゆる知ってる薬をつけた。<br/><br/>最後に米国から友達が帰ったので、新薬をなにかもってることだろうと思って、これを服ましても治らねばしかたないというのでも服み、またも一つ服んで結局痛みは除れない。<br/><br/>そしてドクターにかかった。<br/><br/>ところが、痛みはあるが学理上からいって治っているわけだと言うのです。<br/><br/>そのとき実にこれはおかしいと思った。<br/><br/>そのうちにしようがなくて神信心を始めた。<br/><br/>そして、日蓮宗の行者のとこへ行き御祈祷を頼んだら、一週間で治ると言うのです。<br/><br/>そして、その間は医者へ行ってはいかんと言う。<br/><br/>それで薬もつけず三日くらい経つと痛まぬ。<br/><br/>そこでこれは薬のために痛んだんだということが判った。<br/><br/>それで毎日水でうがいをした。<br/><br/>私が薬の中毒ということはそれが元で知った。<br/><br/>やはりいま考えると、観音様からそのときに知らされたのに違いない。<br/><br/>ですから、人間が研究した学則では、とうてい判らぬということは間違いない。<br/><br/> われわれの愛する日本、日本人が子供は弱いものばかり、大人は病人だらけになってるということは大問題であります。<br/><br/> これは観音運動によって目覚めさすよりしようがない。<br/><br/>どうしても観音会が日本人を助けるよりしようがない。<br/><br/>いずれパンフレットを出しますが、これはそうとうパンフレット以上のもので、九十頁くらいのものですが、価も十銭を出ない。<br/><br/>今月の半ばごろまでにできるはずですが、これにそういう間違ったことがたくさん出ておりますから、できるだけほうぼうへ間配られたいと思うのです。<br/><br/>早々たくさん間配られたい。<br/><br/> 日本人がいまのようにヒョロヒョロではしかたがない。<br/><br/>まず頑健な身体を造り、健康な精神にせねばならぬ。<br/><br/>健康な精神は健康な人間を造るというのが本当で、健康な魂を造るのは、本当の意味の宗教的に目覚めることで、観音運動はいっぽうに宗教的に目覚めさせなければならぬ。<br/><br/>体的のことは医術で行き、要するに霊体を救うことであります。<br/><br/> 次にヨーロッパ方面のことについて話しますが、この一日二日の新聞やラジオをみると、いよいよイタリアとエチオピアは、どうしても戦うことになってしまった。<br/><br/>戦わなくてもすむとは思えぬ。<br/><br/>どうしても戦わなければならぬ形勢と定まってきました。<br/><br/>問題は英、伊、これが戦うか否やで、戦うとすればどういう結果になるか、これはだれも知りたいことですが、これにつきおもしろい話があります。<br/><br/>第二の世界戦争の型は、小さな型で昨年見せられたのであります。<br/><br/>それは非常におもしろいと思いますが、まずそうならなければならない。<br/><br/>まずイタリアとエチオピアの戦争の型が出ている。<br/><br/>その戦いを実行された方が観音会に五、六人あり、その当時だれがフランスの型、だれがイタリアの型してるなどと言っていたんです。<br/><br/>それによると、最初伊エが戦って、間もなく英国と戦う。<br/><br/>その結果英国は非常に弱る。<br/><br/>これがあんがいで、それからどうなるかというと、ちょっと複雑していますが、ロシアが非常に野心を起す。<br/><br/>そしてこの機会に乗じて、一つ世界的大博奕（ばくち）を打とうという陰謀を起す。<br/><br/>そして、各国のむしろ弱小国などへ向かって、いろいろなことして働きかける。<br/><br/>その結果ある程度まで弱国の援助を得て、英国いじめの提議をする。<br/><br/>それで英国はこれで非常に困るようになり、それにフランスが巻き添えをくう。<br/><br/>そこで英仏を向こうへまわして、ロシアは大々的活躍をし、ドイツがロシアと握手する。<br/><br/>それはごくわずかの間する。<br/><br/>ちょうどロシアを支持する形をみせる。<br/><br/>そのときに日本もちょいちょい手を出す。<br/><br/>そこでロシアは、実は英国と日本をやっつける手段をとる。<br/><br/>けれども日本は、そうとうに驚こうが確信はもっている。<br/><br/>そのうちに英仏はコッピドイ目にあう。<br/><br/>そして英国は、ほとんど没落状態になる。<br/><br/>皇帝は退位されるし、実にお気の毒な結果になる。<br/><br/>それに対し、米国は多少相談はしても、ほとんど中立関係をもち形勢をみている。<br/><br/>フランスは一時非常にひどい目にあうが、立ち直ってまた元の通りになる。<br/><br/>ドイツはその後日本と同盟して、イタリアも日本に接近して、ドイツ、イタリア、日本の一種の同盟的関係ができる。<br/><br/>そして、一時ロシアは世界を圧服の気勢をみせるが、それはちょっとの間で、ロシアに内乱が起る。<br/><br/>そしてちょうど革命のようなもので、世界を威圧しようとするのが大失敗に帰し、最後にへとへとになり、わずかにロシアは形骸を残すくらいになる。<br/><br/> そして、英国をだいたいイタリアが妙な具合に英国を統治することになる。<br/><br/>そして、ローマ法王が英国へ行く。<br/><br/>一時的ですが英国の治安の上に立つ。<br/><br/>しかし法王も治め得ず、英国を治める人がなくなる。<br/><br/>イタリアがどうすることもできぬ。<br/><br/>それで宗教的人物を据えようというので、ローマ法王を据えることになる型が出た。<br/><br/>この結果日本はすばらしくよくなる。<br/><br/>そして日本のいままでの政策は一変して、いままでほとんど外国文明を取り入れていたのが、純然たるすべて日本的になる。<br/><br/>そのとき日本式に政治、経済すべてがなる。<br/><br/> そして馬鹿に日本が良くなって、世界統一の活動となるという、予言をするわけではない、そういう型が出たんであります。<br/><br/>型というものは、ナカナカ馬鹿にできないもので、神様がやられる型の解釈が合っておれば、その通りになります。<br/><br/>神様の経綸は、いま神様が自由自在にやっておられるのをみると、虚々実々、延びたり縮んだり、大きくなったり小さくなったり、いろいろになるんでありますが、だいたいはそういう経路で、英国は滅びるくらいに悲惨なことになる。<br/><br/>これが観音様の大経綸であります。<br/><br/> だいたい英国が世界を統一している。<br/><br/>英語が世界的に使用されているだけでもそうで、どうしても英国が没落しなければいけない。<br/><br/>英国が今日世界一となったのは覇道で、武力または強力をもってやった結果で本当ではない。<br/><br/>いつかは清算されなければならぬ。<br/><br/>事実いままでペテンやインチキでああなった。<br/><br/> 欧州戦争のとき、もし英国が勝てばインドを委任統治にすると言って、勝ったのに英は実行しなかったので、インドでは大会を開いたことがあり、何万人も集まった所へ機関銃をもって射殺した。<br/><br/>死者五千人あったということで、一遍にその運動はやめ、それからガンジーが出たが、行動的なことがあるなしにかかわらずできない。<br/><br/>無抵抗的反対をしている。<br/><br/> 英国のやったことは実に惨〔残〕虐なもので、神様が赦さぬ。<br/><br/>また、オーストラリアを奪ったときも、実に惨虐なことをしてやった。<br/><br/>ですから、これから欧州に大きいことが始まるが、それはみな英国没落のための動きであります。<br/><br/> 結局最後には、日本は非常に良くなる。<br/><br/>一時ロシアが暴れるときは、心胆を寒からしめることがあることになっております。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

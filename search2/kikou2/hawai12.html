@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai12</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（12） 樋口喜代子 十三日より再び米本土へ…ハワイ教会も改修にとりかかる 『栄光』234号、昭和28(1953)年11月11日発行 明主様に日々の御守護の程を厚く厚く御礼申し上げます。<br><br> 御報告を書きかけては止め止め種々な用事のために中絶することが多く、ついついのびのびになりますこと誠に申訳なく、深く御詫び申し上げます。<br><br> カワイ島から三十一日にホノルルに帰り、翌日曜日十一月一日に無事引起しを終了させていただきました。<br><br>午前中にともかく荷物を運び出し、午後は旧本部では教修会を開きつつ引越先では荷物を運び入れるという忙しさの中に、大勢の信者さん達の協力により短時間にともかく移転させていただけましたことは御守護のおかげと厚く御礼申し上げます。<br><br> 新しい家の同じ構内に以前召使の使用していた丁度よい家があり、これを役員の一人（西口氏）が買われましたので、同氏の御好意により教会の改修終了まで借りることとなり、狭いながら二階の一室に御神体を御奉斎させていただき、ここを当分の間仮教会として二、三カ月布教をさせていただきます。<br><br> 教会の建物の方は正式の手続一切無事終了致しましたので昨日から改修工事にとりかかっております。<br><br>改修はこの際相当に本格的にしてしまった方がよいという意見が強く、私が最初に予定しておりましたよりもずっと大きな工事になることとなりましたが、諸般の事情がどうしてもその方向へ進んで参りましたから、神様の方でやはり発展のためそれだけの本部が必要という御意志でありましょうと思われ、思い切って大々的改修をする事に決定致しました。<br><br>ともかくも御参拝と集会の場所を中心として考えて工事を進めて行くこととし、余裕ができましただけその他の細かい部分に手を入れることとして行きます。<br><br>予算は建物の改修だけに約二万弗を要します。<br><br> 二階御神前の室は幅三十六呎（フィート）、奥行三十呎半（約六十畳余）それに外の屋上に幅三十呎奥行十五呎のヴェランダのようなところがありますから狭い場合は外からも御参拝ができます。<br><br>階下は幅三十呎半に奥行五十呎（一部分がトイレットに取られることになりましたので、一寸すみがかけますが）の大ホールがとれます。<br><br>又そのホールの奥丁度よい場所に突出たところがありここをステージに作りますと臨時の場合御書体をおまつりした集会もでき、大教修会も開かれ、講演会としても絶好の室となります。<br><br>その上入口のところが三十呎に十五呎のポーチになっていますから、ここへも講演会等の場合人が坐ることができます。<br><br>ともかく何から何まで神様が御用意下さっていたとしか考えられない有様で、全く御神慮の深さにただただ驚くばかりでございます。<br><br>十二月御生誕の御祝迄に御神前の室だけでも完成させて頂きたいと御念じ致しております。<br><br>その内に図面と、写真をお送りしたいと思っております。<br><br>小高い丘の上でダイヤモンド・ヘッドにワイキキの海を見渡すことができ、海へ沈む日没の景色は特に美しく、又夜景の美しさは、ネオンサインに彩られたホノルルの町が灯の洪水のように展開されて、全く何ともいえない素晴しさで、このままでも地上天国に近いといえましょう。<br><br>家の地点は丁度ホノルル中心部から東北にあたり、位置としても最適のところと思われます。<br><br> マノアという地域でございますが、ここはホノルルでは一番の高級地域で昔は日本人は入れなかったそうでございます。<br><br>又気候はホノルルでも最も涼しくしかももう少し奥へ入りますと雨が多すぎるのでございますが、ここは丁度よい程度で、町の中心部から遠からず近からず、実に何から何までおあつらえ向でございます。<br><br>デート・ストリート時代の暑さと喧騒を思い出しますと夢のようでございます。<br><br> 丁度四月半ばからデート・ストリートに三カ月、カイムキ、クローデン・ストリートに三カ月と少し、そしてここの仮本部に約三カ月いて本格的に改修のなった正式の本部へ入ることになると思われます。<br><br>これでハワイの土地に世界の天国化の雛型となるべき教会の基礎がしっかりと確立されることを思いますと、その意義の深さに胸高なるのを覚えます。<br><br> ここに至りますまで数々の御守護を改めて厚く厚く御礼申し上げます。<br><br> 布教の方の御報告を申し上げます。<br><br> カワイ島の初めての教修はカウマカニという小さい町で開かれました。<br><br>カワイはハワイ八島の中で大きさ四番目の島で一番緑の美しい島とされております。<br><br>砂糖とパイナップルの耕地で人口も少いようでございますが、ここで先に面本さんと二名の信者さんの布教によりお守様をお受けした人が三名あり、それぞれ浄霊により御蔭を受けてこの度十八名の方が新たに入信されました。<br><br>教修会場となりました佐川様というお宅では御夫婦入信、早速御神体を御申込になられ大変御熱心でございます。<br><br>他にコロアとグカハという町に一人ずつ面本さんからお守様をお下渡しいただいた方がありますから、又その内には開けて来ると思います。<br><br> 十月の日曜教修（四回）では二十五日最終日に四十三名になりました。<br><br>ハワイでの教修会は本部の日曜教修（十一月、十二月〕の外は今年は大体予定がありませんが、カフクというところであるいは安食さんが行けば開かれるかも知れません。<br><br>十二月に入りますとクリスマスシーズンで各方面が忙しくなりますから、総ては来年に持越されることとなりましょう。<br><br> 建設の方の見通しをつけておきまして、私は十三日にロスァンジェルスに出発する予定でございます。<br><br>ロスァンジェルスではだんだんと浄霊も増え十一月の月並祭も約五十名の参拝者がありました由、又元日本語学校長で今は会社を経営している方が難病を救われて入信を希望され、他にロスァンジェルスで有力者の一貿易主が教修の日を待っておられる等、上層階級にもぼつぼつ入って来つつある様子でございます。<br><br>御守護を念じつつ明主様の御意志を正しくお伝えさせていただきたい念願に燃えて十三日より約一カ月の予定で行って参ります。<br><br> （十一月七日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Estabelecimento da Sede Modelo no Hawái</h2>
 <p>Elevo a Meishu-Sama minha mais profunda e sincera gratidão por Sua incessante proteção. Lamento imensamente a demora em redigir este relatório, cuja conclusão foi postergada por inúmeros afazeres que me interromperam o trabalho, e peço minhas mais sinceras desculpas.</p>
@@ -106,5 +258,48 @@ function toggleLang(lang) {
 <p>Nos Seminários Dominicais de outubro, realizados em quatro ocasiões, o último encontro, no dia 25, contou com a participação de quarenta e três pessoas. Para o restante do ano no Hawái, além dos seminários dominicais na sede em novembro e dezembro, não há outros grandes eventos programados. Existe a possibilidade de se realizar um seminário em Kahuku, caso o Sr. Ajiki possa ir até lá. Com a aproximação de dezembro, a agitação da época natalina intensifica-se em todos os setores, de modo que as demais atividades serão provavelmente postergadas para o próximo ano.</p>
 <p>Uma vez que o projeto de construção esteja devidamente encaminhado, pretendo partir para Los Angeles no dia 13. Recebi notícias de que, em Los Angeles, a prática do Johrei tem se expandido gradualmente, e o Ofício Mensal de novembro contou com cerca de cinquenta participantes. Ademais, o ex-diretor de uma escola de língua japonesa, hoje um empresário, foi salvo de uma grave enfermidade e deseja ingressar na Fé. Outra pessoa influente, um importante comerciante, aguarda a data do próximo seminário. Tais fatos indicam que os Ensinamentos começam, pouco a pouco, a alcançar as camadas mais altas da sociedade. Orando pela Divina Proteção e imbuída do ardente desejo de transmitir fielmente a Vontade de Meishu-Sama, partirei no dia 13 para uma viagem de aproximadamente um mês.</p>
 <p>(7 de novembro)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（12） 樋口喜代子 十三日より再び米本土へ…ハワイ教会も改修にとりかかる 『栄光』234号、昭和28(1953)年11月11日発行 明主様に日々の御守護の程を厚く厚く御礼申し上げます。<br/><br/> 御報告を書きかけては止め止め種々な用事のために中絶することが多く、ついついのびのびになりますこと誠に申訳なく、深く御詫び申し上げます。<br/><br/> カワイ島から三十一日にホノルルに帰り、翌日曜日十一月一日に無事引起しを終了させていただきました。<br/><br/>午前中にともかく荷物を運び出し、午後は旧本部では教修会を開きつつ引越先では荷物を運び入れるという忙しさの中に、大勢の信者さん達の協力により短時間にともかく移転させていただけましたことは御守護のおかげと厚く御礼申し上げます。<br/><br/> 新しい家の同じ構内に以前召使の使用していた丁度よい家があり、これを役員の一人（西口氏）が買われましたので、同氏の御好意により教会の改修終了まで借りることとなり、狭いながら二階の一室に御神体を御奉斎させていただき、ここを当分の間仮教会として二、三カ月布教をさせていただきます。<br/><br/> 教会の建物の方は正式の手続一切無事終了致しましたので昨日から改修工事にとりかかっております。<br/><br/>改修はこの際相当に本格的にしてしまった方がよいという意見が強く、私が最初に予定しておりましたよりもずっと大きな工事になることとなりましたが、諸般の事情がどうしてもその方向へ進んで参りましたから、神様の方でやはり発展のためそれだけの本部が必要という御意志でありましょうと思われ、思い切って大々的改修をする事に決定致しました。<br/><br/>ともかくも御参拝と集会の場所を中心として考えて工事を進めて行くこととし、余裕ができましただけその他の細かい部分に手を入れることとして行きます。<br/><br/>予算は建物の改修だけに約二万弗を要します。<br/><br/> 二階御神前の室は幅三十六呎（フィート）、奥行三十呎半（約六十畳余）それに外の屋上に幅三十呎奥行十五呎のヴェランダのようなところがありますから狭い場合は外からも御参拝ができます。<br/><br/>階下は幅三十呎半に奥行五十呎（一部分がトイレットに取られることになりましたので、一寸すみがかけますが）の大ホールがとれます。<br/><br/>又そのホールの奥丁度よい場所に突出たところがありここをステージに作りますと臨時の場合御書体をおまつりした集会もでき、大教修会も開かれ、講演会としても絶好の室となります。<br/><br/>その上入口のところが三十呎に十五呎のポーチになっていますから、ここへも講演会等の場合人が坐ることができます。<br/><br/>ともかく何から何まで神様が御用意下さっていたとしか考えられない有様で、全く御神慮の深さにただただ驚くばかりでございます。<br/><br/>十二月御生誕の御祝迄に御神前の室だけでも完成させて頂きたいと御念じ致しております。<br/><br/>その内に図面と、写真をお送りしたいと思っております。<br/><br/>小高い丘の上でダイヤモンド・ヘッドにワイキキの海を見渡すことができ、海へ沈む日没の景色は特に美しく、又夜景の美しさは、ネオンサインに彩られたホノルルの町が灯の洪水のように展開されて、全く何ともいえない素晴しさで、このままでも地上天国に近いといえましょう。<br/><br/>家の地点は丁度ホノルル中心部から東北にあたり、位置としても最適のところと思われます。<br/><br/> マノアという地域でございますが、ここはホノルルでは一番の高級地域で昔は日本人は入れなかったそうでございます。<br/><br/>又気候はホノルルでも最も涼しくしかももう少し奥へ入りますと雨が多すぎるのでございますが、ここは丁度よい程度で、町の中心部から遠からず近からず、実に何から何までおあつらえ向でございます。<br/><br/>デート・ストリート時代の暑さと喧騒を思い出しますと夢のようでございます。<br/><br/> 丁度四月半ばからデート・ストリートに三カ月、カイムキ、クローデン・ストリートに三カ月と少し、そしてここの仮本部に約三カ月いて本格的に改修のなった正式の本部へ入ることになると思われます。<br/><br/>これでハワイの土地に世界の天国化の雛型となるべき教会の基礎がしっかりと確立されることを思いますと、その意義の深さに胸高なるのを覚えます。<br/><br/> ここに至りますまで数々の御守護を改めて厚く厚く御礼申し上げます。<br/><br/> 布教の方の御報告を申し上げます。<br/><br/> カワイ島の初めての教修はカウマカニという小さい町で開かれました。<br/><br/>カワイはハワイ八島の中で大きさ四番目の島で一番緑の美しい島とされております。<br/><br/>砂糖とパイナップルの耕地で人口も少いようでございますが、ここで先に面本さんと二名の信者さんの布教によりお守様をお受けした人が三名あり、それぞれ浄霊により御蔭を受けてこの度十八名の方が新たに入信されました。<br/><br/>教修会場となりました佐川様というお宅では御夫婦入信、早速御神体を御申込になられ大変御熱心でございます。<br/><br/>他にコロアとグカハという町に一人ずつ面本さんからお守様をお下渡しいただいた方がありますから、又その内には開けて来ると思います。<br/><br/> 十月の日曜教修（四回）では二十五日最終日に四十三名になりました。<br/><br/>ハワイでの教修会は本部の日曜教修（十一月、十二月〕の外は今年は大体予定がありませんが、カフクというところであるいは安食さんが行けば開かれるかも知れません。<br/><br/>十二月に入りますとクリスマスシーズンで各方面が忙しくなりますから、総ては来年に持越されることとなりましょう。<br/><br/> 建設の方の見通しをつけておきまして、私は十三日にロスァンジェルスに出発する予定でございます。<br/><br/>ロスァンジェルスではだんだんと浄霊も増え十一月の月並祭も約五十名の参拝者がありました由、又元日本語学校長で今は会社を経営している方が難病を救われて入信を希望され、他にロスァンジェルスで有力者の一貿易主が教修の日を待っておられる等、上層階級にもぼつぼつ入って来つつある様子でございます。<br/><br/>御守護を念じつつ明主様の御意志を正しくお伝えさせていただきたい念願に燃えて十三日より約一カ月の予定で行って参ります。<br/><br/> （十一月七日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

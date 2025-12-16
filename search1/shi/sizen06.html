@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sizen06</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然死と不自然死 未発表、昭和11(1936)年6月19日執筆 そもそも、人間の死とはいかなるものであるか。<br><br>これは説明するまでもなく生の断絶である。<br><br>生の断絶とは、その肉体が生存し得なくなる為で、ちょうど、樹木の枯死と同様な意味である。<br><br> 死の原因として種々あるが、大体二つに分ける事が出来る。<br><br>一は自然死であり、一は不自然死である。<br><br>言うまでもなく自然死とは、天授の寿齢が尽きる事であり、不自然死とは、病死、変死、自殺等である。<br><br>そもそも、人類の本来から言えば、自然死で終るのが正当であって、不自然死は変調である事である。<br><br>しかるに、文化が進むに従い、自然死は益々減少し、反対に不自然死特に病死が増加するという事実は、まことに不可解至極である。<br><br> あらゆる文化が益々進歩発達しつつあるに対し、ひとり人間生命の問題に関してのみは、その逆であるという事はいかなる原因であろうか。<br><br>そこに何らか人間の気の付かない一大欠陥がなくてはならない。<br><br>という疑問が起るべきはずであるのに、人間は他の方面には実に限りなき欲求が働くのに、ひとりこの事に関してのみは頗（すこぶ）る冷淡であるが、それは生命の問題だけは、どうにもならないと諦めて居るに過ぎないのであろう。<br><br>何となれば、現在までの科学でも宗教でも、この一事だけは絶対解決が出来ない事を、誰しも知って居るからである。<br><br>故に、他の事物はいかに発達しても、この点のみは自然の推移に委するの止むを得ないと言うのが現在であろう。<br><br> しかし、考えてもみるがいい。<br><br>万能の神が、最高等動物である人間を造られ給うたる以上、その人間の自然死が不自然死に比して余りにも少数であり、否、益々少数になりつつあるという事程、神の意図と相反する事象は無いであろう。<br><br>真に神は万能であるならば、どうしても、早晩人類本然の霊長的資格にまで戻さなければならないはずである。<br><br>勿論、人間生命の変調にそういつまでも黙視し給うはずはないであろう事である。<br><br> その事に想い及んだ時、主神の救済委任神で被在（あらせ）らるる伊都能売（いづのめ）之大神即観世音菩薩が、人間の生命の延長即ち不自然死滅消をなさしめ給う事は、敢（あえ）て不思議ではないであろう。<br><br> この事によってみても、人類が何千年待望していた光明世界、即ち病無き世界が、今や来らんとしつつある事を覚らねばならないと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Morte Natural e a Morte Não Natural</h2>
 <p>A morte, em sua essência, representa a interrupção da vida. Trata-se do momento em que o corpo físico se torna incapaz de subsistir, um processo análogo ao fenecimento e morte de uma árvore.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Contudo, reflitamos. Se um Deus Onipotente criou o ser humano como o primaz da criação, não haveria fenômeno mais contrário à Sua Vontade do que a morte natural ser tão rara em comparação à não natural — e, pior, estar se tornando cada vez mais escassa. Se Deus é verdadeiramente onipotente, é imperativo que, mais cedo ou mais tarde, Ele restitua a humanidade à sua condição original. Certamente, é inconcebível que Ele continue a observar em silêncio e por tempo indeterminado tal desvio na vida humana.</p>
 <p>Ao ponderar sobre essa realidade, não constitui surpresa alguma que Izunome-no-Okami (伊都能売之大神) — que é Kannon Bosatsu (観世音菩萨) —, a divindade a quem o Deus Supremo confiou a missão da salvação, esteja a promover a extensão da vida humana, ou seja, a erradicação da morte não natural.</p>
 <p>Diante de tais fatos, devemos despertar para a verdade de que o Mundo de Luz, almejado pela humanidade por milênios — um mundo isento de doenças —, está prestes a se concretizar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然死と不自然死 未発表、昭和11(1936)年6月19日執筆 そもそも、人間の死とはいかなるものであるか。<br/><br/>これは説明するまでもなく生の断絶である。<br/><br/>生の断絶とは、その肉体が生存し得なくなる為で、ちょうど、樹木の枯死と同様な意味である。<br/><br/> 死の原因として種々あるが、大体二つに分ける事が出来る。<br/><br/>一は自然死であり、一は不自然死である。<br/><br/>言うまでもなく自然死とは、天授の寿齢が尽きる事であり、不自然死とは、病死、変死、自殺等である。<br/><br/>そもそも、人類の本来から言えば、自然死で終るのが正当であって、不自然死は変調である事である。<br/><br/>しかるに、文化が進むに従い、自然死は益々減少し、反対に不自然死特に病死が増加するという事実は、まことに不可解至極である。<br/><br/> あらゆる文化が益々進歩発達しつつあるに対し、ひとり人間生命の問題に関してのみは、その逆であるという事はいかなる原因であろうか。<br/><br/>そこに何らか人間の気の付かない一大欠陥がなくてはならない。<br/><br/>という疑問が起るべきはずであるのに、人間は他の方面には実に限りなき欲求が働くのに、ひとりこの事に関してのみは頗（すこぶ）る冷淡であるが、それは生命の問題だけは、どうにもならないと諦めて居るに過ぎないのであろう。<br/><br/>何となれば、現在までの科学でも宗教でも、この一事だけは絶対解決が出来ない事を、誰しも知って居るからである。<br/><br/>故に、他の事物はいかに発達しても、この点のみは自然の推移に委するの止むを得ないと言うのが現在であろう。<br/><br/> しかし、考えてもみるがいい。<br/><br/>万能の神が、最高等動物である人間を造られ給うたる以上、その人間の自然死が不自然死に比して余りにも少数であり、否、益々少数になりつつあるという事程、神の意図と相反する事象は無いであろう。<br/><br/>真に神は万能であるならば、どうしても、早晩人類本然の霊長的資格にまで戻さなければならないはずである。<br/><br/>勿論、人間生命の変調にそういつまでも黙視し給うはずはないであろう事である。<br/><br/> その事に想い及んだ時、主神の救済委任神で被在（あらせ）らるる伊都能売（いづのめ）之大神即観世音菩薩が、人間の生命の延長即ち不自然死滅消をなさしめ給う事は、敢（あえ）て不思議ではないであろう。<br/><br/> この事によってみても、人類が何千年待望していた光明世界、即ち病無き世界が、今や来らんとしつつある事を覚らねばならないと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

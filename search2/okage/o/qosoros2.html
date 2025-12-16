@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qosoros2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 恐ろしき薬毒の大浄化を御守護戴きて 『栄光』250号、昭和29(1954)年3月3日発行 岡山県 瑞雲中教会 矢内美代子（47） 明主様謹みて御守護の御礼を申し上げます。<br><br>薬毒の恐ろしき体験を御報告させて戴きます。<br><br>昭和二十六年十月に主人は入信の御許しを戴き胃潰瘍全治の御蔭を頂いております。<br><br>私は十二月入信以来一家数々の御蔭を頂き明主様厚く御礼申し上げます。<br><br> 去る二十八年十一月二十一日仕事に出る都合でおりましたところ、急に悪寒を感じふるいがきて一人で困りおりましたところ、幸いにも住田先生（妹様）が来宅下され御浄霊をして頂きましたら大変楽にならせて頂きました。<br><br> その後背骨が痛み咳が出て苦しく二十日間程は満足にねむることもできなくなりました。<br><br>その間住田先生御姉妹様に、又主人や娘に代る代る御浄霊を賜わりおり、一時はよくなりしも次第に悪化し、十二月十一日夜主人の留守中娘と二人いる時急に咳や痰が出だし、動く事もできなく息も止る思いで、娘のひざにしがみつき御浄霊を受けとぎれとぎれで善言讃詞を唱えます内に息も楽にできるようになりました。<br><br>二十五日頃より次第に御浄化が激しくなり二十九日には床に臥してしまいました。<br><br> その頃より咳は烈しく寝汗が出て頭からは湯気が上る程で苦しく髪は何時もびっしょり濡れておりました。<br><br>一月十日頃より鳩尾の上の方に骨の如き固結を手をふれて見て感じ、十二日頃にはそれが次第に大きくなり、鳩尾の上に直径三振位の斑点ができ、引続き御浄霊を頂く内すぐその下にもう一つ同じ位の斑点ができました。<br><br> その頃よりは熱はあり食は摂れず咳は益々烈しく苦しみましたが、その度に痰が出ました。<br><br>十七日からは住田先生（姉様）が昼夜付添って御浄霊して下さいました。<br><br>お蔭で斑点が次第に外部にふくれ上り、色は赤紫となりリンゴ大にはれ上りました。<br><br>二十日頃より黒色をおび、はれが益々大きくなりましたが、食事は少量ずつながら頂けるようになりました。<br><br> その間近所の人々にも医者にかからぬため色々と噂もせられ親族等より再三医薬を勧められ十九日夕方には駐在所巡査からも医師にかかって薬をのむよう注意を受けました。<br><br> 又二十日夜には駐在所より連絡があったといって岡山市より元警察署長をしておりました主人の弟も参り私の状態を一見して、ペニシリンにて腫上ったのをちらせとやはり医薬を勧めました。<br><br>しかし私は「薬をのめとすすめる事は死ねというのと同じだから、医師を頼むならお寺様もついでに頼んで来てくれ」と反対しました。<br><br> 二十二日には荻野先生が遠路お見舞に来て下され病人も数多く預ったが未だこのような病人は見た事がないといわれ、早速写真を撮っておくように申され御浄霊をして下さいました。<br><br>翌二十三日昼頃には今にも排膿しそうな状態になりましたので急いで写真を撮って頂きました。<br><br>その夜午前一時頃御霊紙を貼った所より口が開き二時頃より約二時間ぶっ続き排膿致しました。<br><br>ちょうど溢れるように出る膿の悪臭に傍にて洗面器を受けていた娘が「臭い臭い」とあまり申しますので「お母ちゃんがえらいのに、あまり臭い臭いというな」と主人も起出して部屋に入った途端「ああ臭い」と娘を注意したにも拘らず出た言葉に親子三人笑い出しました。<br><br>笑ったその勢いで、前にも増しての排膿があり、又排膿のゆるみ勝ちの時も胃裏を主人に御浄霊して頂きますと又溢れる様に出ました。<br><br>ドロドロの膿が二時間も出続きの悪臭に娘も一生この臭さは忘れられないと申しております。<br><br>引続き御霊紙をはらして頂いておりましたが、その聞から今度は血膿のようなのが沢山出ました。<br><br>この排膿により二十四日には大変楽になり今迄苦しみ続け衰弱して食べることもできなかった者が食は次第にすすみ人手を借りて用便しておりましたのも一人でできるようになり近所の人も驚く程元気な体になりました。<br><br> 顧みまするに、入信前は黄疸やたんせきのような状態にて一カ年程服薬を続けております。<br><br>それをこの度の御浄化により薬毒を排膿させて頂くことができました。<br><br> 又主人の柿も胃癌にて亡くなっております。<br><br>薬毒の恐ろしさを身を以て体験させて頂き、もし尊いお道の御救いがなくば、医師にたより薬をのんでいたなれば今頃は霊界に往っておりましたでしょう。<br><br>二月五日現在では固結もなくなり腫上りも次第に目立たなくなり食事も御浄化前よりも沢山においしく頂けるようになりました。<br><br>又顔色も大変よく、住田先生より度々「きれいになられた」と大喜びで頂いております。<br><br> 今後共御用にお使い頂けますようお許しの程お願い申し上げます。<br><br> 明主様御守護深く厚く御礼申し上げます。<br><br> 誠に有難うございました。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Protegida durante a terrível e grandiosa purificação dos venenos dos medicamentos</h2>
 <p>Extraído da revista Eikou, nº 250, de 3 de março de 1954
@@ -103,5 +258,48 @@ Província de Okayama, Igreja Zuiun-Chukyoukai, Miyoko Yauchi (47 anos)</p>
 <p>Rogo a permissão de Meishu-Sama para que, daqui em diante, eu possa ser útil em Sua Obra Divina.</p>
 <p>Agradeço do fundo do coração pela profunda e imensa proteção de Meishu-Sama.</p>
 <p>Muito obrigada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 恐ろしき薬毒の大浄化を御守護戴きて 『栄光』250号、昭和29(1954)年3月3日発行 岡山県 瑞雲中教会 矢内美代子（47） 明主様謹みて御守護の御礼を申し上げます。<br/><br/>薬毒の恐ろしき体験を御報告させて戴きます。<br/><br/>昭和二十六年十月に主人は入信の御許しを戴き胃潰瘍全治の御蔭を頂いております。<br/><br/>私は十二月入信以来一家数々の御蔭を頂き明主様厚く御礼申し上げます。<br/><br/> 去る二十八年十一月二十一日仕事に出る都合でおりましたところ、急に悪寒を感じふるいがきて一人で困りおりましたところ、幸いにも住田先生（妹様）が来宅下され御浄霊をして頂きましたら大変楽にならせて頂きました。<br/><br/> その後背骨が痛み咳が出て苦しく二十日間程は満足にねむることもできなくなりました。<br/><br/>その間住田先生御姉妹様に、又主人や娘に代る代る御浄霊を賜わりおり、一時はよくなりしも次第に悪化し、十二月十一日夜主人の留守中娘と二人いる時急に咳や痰が出だし、動く事もできなく息も止る思いで、娘のひざにしがみつき御浄霊を受けとぎれとぎれで善言讃詞を唱えます内に息も楽にできるようになりました。<br/><br/>二十五日頃より次第に御浄化が激しくなり二十九日には床に臥してしまいました。<br/><br/> その頃より咳は烈しく寝汗が出て頭からは湯気が上る程で苦しく髪は何時もびっしょり濡れておりました。<br/><br/>一月十日頃より鳩尾の上の方に骨の如き固結を手をふれて見て感じ、十二日頃にはそれが次第に大きくなり、鳩尾の上に直径三振位の斑点ができ、引続き御浄霊を頂く内すぐその下にもう一つ同じ位の斑点ができました。<br/><br/> その頃よりは熱はあり食は摂れず咳は益々烈しく苦しみましたが、その度に痰が出ました。<br/><br/>十七日からは住田先生（姉様）が昼夜付添って御浄霊して下さいました。<br/><br/>お蔭で斑点が次第に外部にふくれ上り、色は赤紫となりリンゴ大にはれ上りました。<br/><br/>二十日頃より黒色をおび、はれが益々大きくなりましたが、食事は少量ずつながら頂けるようになりました。<br/><br/> その間近所の人々にも医者にかからぬため色々と噂もせられ親族等より再三医薬を勧められ十九日夕方には駐在所巡査からも医師にかかって薬をのむよう注意を受けました。<br/><br/> 又二十日夜には駐在所より連絡があったといって岡山市より元警察署長をしておりました主人の弟も参り私の状態を一見して、ペニシリンにて腫上ったのをちらせとやはり医薬を勧めました。<br/><br/>しかし私は「薬をのめとすすめる事は死ねというのと同じだから、医師を頼むならお寺様もついでに頼んで来てくれ」と反対しました。<br/><br/> 二十二日には荻野先生が遠路お見舞に来て下され病人も数多く預ったが未だこのような病人は見た事がないといわれ、早速写真を撮っておくように申され御浄霊をして下さいました。<br/><br/>翌二十三日昼頃には今にも排膿しそうな状態になりましたので急いで写真を撮って頂きました。<br/><br/>その夜午前一時頃御霊紙を貼った所より口が開き二時頃より約二時間ぶっ続き排膿致しました。<br/><br/>ちょうど溢れるように出る膿の悪臭に傍にて洗面器を受けていた娘が「臭い臭い」とあまり申しますので「お母ちゃんがえらいのに、あまり臭い臭いというな」と主人も起出して部屋に入った途端「ああ臭い」と娘を注意したにも拘らず出た言葉に親子三人笑い出しました。<br/><br/>笑ったその勢いで、前にも増しての排膿があり、又排膿のゆるみ勝ちの時も胃裏を主人に御浄霊して頂きますと又溢れる様に出ました。<br/><br/>ドロドロの膿が二時間も出続きの悪臭に娘も一生この臭さは忘れられないと申しております。<br/><br/>引続き御霊紙をはらして頂いておりましたが、その聞から今度は血膿のようなのが沢山出ました。<br/><br/>この排膿により二十四日には大変楽になり今迄苦しみ続け衰弱して食べることもできなかった者が食は次第にすすみ人手を借りて用便しておりましたのも一人でできるようになり近所の人も驚く程元気な体になりました。<br/><br/> 顧みまするに、入信前は黄疸やたんせきのような状態にて一カ年程服薬を続けております。<br/><br/>それをこの度の御浄化により薬毒を排膿させて頂くことができました。<br/><br/> 又主人の柿も胃癌にて亡くなっております。<br/><br/>薬毒の恐ろしさを身を以て体験させて頂き、もし尊いお道の御救いがなくば、医師にたより薬をのんでいたなれば今頃は霊界に往っておりましたでしょう。<br/><br/>二月五日現在では固結もなくなり腫上りも次第に目立たなくなり食事も御浄化前よりも沢山においしく頂けるようになりました。<br/><br/>又顔色も大変よく、住田先生より度々「きれいになられた」と大喜びで頂いております。<br/><br/> 今後共御用にお使い頂けますようお許しの程お願い申し上げます。<br/><br/> 明主様御守護深く厚く御礼申し上げます。<br/><br/> 誠に有難うございました。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

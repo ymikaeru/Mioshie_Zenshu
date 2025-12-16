@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>zenaku01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善悪の戦い 『救世』54号、昭和25(1950)年3月18日発行 昔から人類社会は、善悪の戦のない時も所もほとんどあるまい、大は国際間から小は個人の家庭にまでほとんど例外はないのである、もちろん宗教界にあっても同様である、本教も病貧争の一つであるこの争いはある時期までは絶対避け得られないとしてその救いに専念している、見よ、パリサイ人共が、執拗にあの手この手を使って本教の発展を阻害しようと争いを仕掛る事実は、全く善悪の戦であり、神と悪魔の争闘であり、正神と邪神の戦争でもある。<br><br> 恐らく新宗教の中で、本教くらい邪神から目の敵にされているものはあるまい、という事は大いに原因がある、これは誰しも知りたいであろうからくわしくかいてみよう、本教の主宰者たる神霊は世界の大転機に際し救世の力を揮われる以上、邪神界にとっては空前の脅威であり、最後の断末魔である、ゆえに本教が追々大を成すに到れば邪神は追詰められ、改心するか没落するか二者いずれかの決定的運命に追詰められる事で、これを知っている彼らは、何としてもこの脅威から免れなければならない、その結果死力を尽くして妨害活動をするのである。<br><br> そうして邪神の眷族も何万あるかほとんど数え切れない程である、もちろん頭目もあれば上中下の部下もあり力もそれに相応している、彼ら邪神群は、本教妨害に当って役立ちそうな者が選抜され、人間一人一人に憑依される、人間とはもちろん無神論者であり、唯物主義者であり、稀には唯心主義者もあるが、これは何かの動機によって邪念発生する場合邪神の虜となる事もある、邪神が憑依するやその人間を自由自在に駆使する、その手段として頭脳を占領し想念を奪ってしまう、たとえば本教へ対して何となく癪にさわる、虫が好かない、困らしてやりたい、やっつけてやれという観念が執拗に浮ぶ、ところが知性的人間にはそれに合うような想念を起させる、すなわち迷信邪教であるからブッ潰すのが社会のためであると思い込ませるのである。<br><br> ここで、最も面白い事がある、それは本教刊行の印刷物である、何しろ全部善い記事ばかりで非難の点などいささかもないから、もし読まれると邪神の計画は頓挫してしまう以上極力見せないようにするばかりか、邪神は非常にこれを恐れるのである、それは読むと苦しいためもある、これは邪神憑依者が改心してからよく自白するところである、ゆえに邪神憑依者か否かのメンタルテストにはこれが一番可い、それは一家庭の眼に触れる所へ置いておくと、手にとって読む者は善い人間で、見ない者は邪神憑依者と断定して誤りはないのである。<br><br> 右の理によって、本教出版物をみる限り、邪霊は萎縮し、妨害心は消えるが、みる事が出来ない間は、相変らず悪魔の僕（しもべ）となって、神に反抗するのである、この事によってみても本教がいかに威力あるかが判るであろう。<br><br> ここで、警告を与えたいのは邪神憑依者の運命である、いよいよ霊界が昼となり、浄化旺盛となるにつれて清掃作用が絶対的となる以上、邪神は滅亡するより仕方がない、それがいわゆる最後の審判である。<br><br> しかし、神の大愛は一人でも多くの人間を救わせ給うのであるから、邪神を引放し、肉体を復活せられんとして、吾らをしてこの警告を書かしめ給うのである。<br><br> (注) パリサイ人（びと）、 ユダヤ教ファリサイ派といわれる。<br><br>キリストを敵視し迫害の主動的役割を果たした。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Batalha entre o Bem e o Mal</h2>
 <p>Desde tempos imemoriais, a sociedade humana jamais esteve isenta da batalha entre o bem e o mal. Essa conflagração se manifesta em todas as esferas, das relações internacionais à intimidade de um lar, sem exceções. Naturalmente, o mesmo antagonismo se verifica no mundo religioso. Nossa Fé, ciente de que o conflito — uma das três grandes desgraças, ao lado da doença e da pobreza — é inevitável até certo tempo, dedica-se integralmente à sua solução. Observem: o fato de que certos fariseus¹, com obstinação e astúcia, nos lancem toda sorte de desafios para obstruir o desenvolvimento de nossa Obra, nada mais é do que a própria expressão da luta entre o bem e o mal, o conflito entre Deus e o demônio, a guerra entre os deuses justos e os espíritos malignos.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Aqui, desejo fazer uma advertência solene sobre o destino daqueles que se encontram obsediados por espíritos malignos. À medida que o Mundo Espiritual adentra a era do Dia e a purificação se intensifica, a ação depuradora se tornará absoluta. Com isso, os espíritos malignos não terão outra alternativa senão a aniquilação. Este é o chamado Juízo Final.</p>
 <p>Todavia, o imenso Amor de Deus anseia por salvar o maior número possível de seres humanos. É por essa razão que Ele nos inspira a escrever esta advertência: para separar os espíritos malignos dos seres humanos e permitir a ressurreição de seus corpos.</p>
 <p>¹ Os fariseus pertenciam a uma seita do judaísmo. Notabilizaram-se por sua hostilidade a Cristo, tendo desempenhado um papel central em sua perseguição.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善悪の戦い 『救世』54号、昭和25(1950)年3月18日発行 昔から人類社会は、善悪の戦のない時も所もほとんどあるまい、大は国際間から小は個人の家庭にまでほとんど例外はないのである、もちろん宗教界にあっても同様である、本教も病貧争の一つであるこの争いはある時期までは絶対避け得られないとしてその救いに専念している、見よ、パリサイ人共が、執拗にあの手この手を使って本教の発展を阻害しようと争いを仕掛る事実は、全く善悪の戦であり、神と悪魔の争闘であり、正神と邪神の戦争でもある。<br/><br/> 恐らく新宗教の中で、本教くらい邪神から目の敵にされているものはあるまい、という事は大いに原因がある、これは誰しも知りたいであろうからくわしくかいてみよう、本教の主宰者たる神霊は世界の大転機に際し救世の力を揮われる以上、邪神界にとっては空前の脅威であり、最後の断末魔である、ゆえに本教が追々大を成すに到れば邪神は追詰められ、改心するか没落するか二者いずれかの決定的運命に追詰められる事で、これを知っている彼らは、何としてもこの脅威から免れなければならない、その結果死力を尽くして妨害活動をするのである。<br/><br/> そうして邪神の眷族も何万あるかほとんど数え切れない程である、もちろん頭目もあれば上中下の部下もあり力もそれに相応している、彼ら邪神群は、本教妨害に当って役立ちそうな者が選抜され、人間一人一人に憑依される、人間とはもちろん無神論者であり、唯物主義者であり、稀には唯心主義者もあるが、これは何かの動機によって邪念発生する場合邪神の虜となる事もある、邪神が憑依するやその人間を自由自在に駆使する、その手段として頭脳を占領し想念を奪ってしまう、たとえば本教へ対して何となく癪にさわる、虫が好かない、困らしてやりたい、やっつけてやれという観念が執拗に浮ぶ、ところが知性的人間にはそれに合うような想念を起させる、すなわち迷信邪教であるからブッ潰すのが社会のためであると思い込ませるのである。<br/><br/> ここで、最も面白い事がある、それは本教刊行の印刷物である、何しろ全部善い記事ばかりで非難の点などいささかもないから、もし読まれると邪神の計画は頓挫してしまう以上極力見せないようにするばかりか、邪神は非常にこれを恐れるのである、それは読むと苦しいためもある、これは邪神憑依者が改心してからよく自白するところである、ゆえに邪神憑依者か否かのメンタルテストにはこれが一番可い、それは一家庭の眼に触れる所へ置いておくと、手にとって読む者は善い人間で、見ない者は邪神憑依者と断定して誤りはないのである。<br/><br/> 右の理によって、本教出版物をみる限り、邪霊は萎縮し、妨害心は消えるが、みる事が出来ない間は、相変らず悪魔の僕（しもべ）となって、神に反抗するのである、この事によってみても本教がいかに威力あるかが判るであろう。<br/><br/> ここで、警告を与えたいのは邪神憑依者の運命である、いよいよ霊界が昼となり、浄化旺盛となるにつれて清掃作用が絶対的となる以上、邪神は滅亡するより仕方がない、それがいわゆる最後の審判である。<br/><br/> しかし、神の大愛は一人でも多くの人間を救わせ給うのであるから、邪神を引放し、肉体を復活せられんとして、吾らをしてこの警告を書かしめ給うのである。<br/><br/> (注) パリサイ人（びと）、 ユダヤ教ファリサイ派といわれる。<br/><br/>キリストを敵視し迫害の主動的役割を果たした。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

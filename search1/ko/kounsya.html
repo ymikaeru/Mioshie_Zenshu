@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kounsya</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸運者を作る宗教 『栄光』212号、昭和28(1953)年6月10日発行 本来宗教とは何かというと、不幸な人を幸福に導くために、神の愛によって発生したものであって、それ以外の何物でもない。<br><br>知らるる通りこの世の中に生を営（いとな）んでいる誰もは、幾ら一生懸命に幸運になろうとしても、中々思うようにはならない。<br><br>一生涯かかって幸福になる人は九牛の一毛で、ほとんどの人は幸福どころか逆に後から後から不幸という奴が見舞って来る。<br><br>というように学校で学んだ学理も偉い人の修身談や伝記、それに関する書籍を読み、その通り実行しても役立つ場合は稀である。<br><br>なるほど理屈は実によく出来ていて感心はするが、実際となると理屈通りにゆかないのは誰も経験するところであろう。<br><br> 早い話が正直主義でやると、お人好しやお目出度人間にみられるし、方針を変えて変な事をすると、今度は信用を落したり、下手（へた）をすると法律に引っ掛ったりするので、どっちにしていいか分らない事になる。<br><br>そこで小利口な人間は正直らしく見せかけ、裏で不正直をやり、口を拭いて知らん顔の半兵衛を決め込むに限る。<br><br>というのが世渡り哲学という訳で、今日の人は滔々（とうとう）としてその哲学信者になってしまい、このチャンピオンが出世頭となるのであるから、どうしても一般はそれを見習いたがる。<br><br>これが社会悪の減らない原因であろう。<br><br>このような世の中だから、正直者は馬鹿を見るなどと言われるのである。<br><br>ゆえに正直な人間程融通の利かぬ時世後れとされるし、正義など唱える人間は人から煙たがられ相手にされず、社会の落伍者となるのもよく見受ける。<br><br> このような世の中に向かって、私は常に正義感を振り翳（かざ）しているのであるから、並大抵の努力ではない。<br><br>普通人は馬鹿馬鹿しいと思うであろうし、宗教家の決り文句で、意気地なしで欲のない変り者くらいにしか見ないであろう。<br><br>そんな訳で以前は新聞雑誌などにも蔑視的興味本位に書かれたり、裁判沙汰などにされたりして随分虐（いじ）められたものである。<br><br>それというのも私は悪と闘うべく、思い切ってかいたりするので、それが祟（たた）ると共に、急激の発展に対する嫉視（しっし）も手伝い、大木に風当りが強い訳であろう。<br><br> ところがそのような圧迫に遭いながらも、一路発展の道を辿（たど）りつつあるその力強さに、近頃は余程見直したらしく、形勢も大分緩和されたのでやり良くなったのは何より嬉しく思っている。<br><br>それというのも神様が後楯（うしろだて）になっている以上、いかなる攻撃に遭ってもビクともしないからである。<br><br>というのは本教には今までの宗教に見られない大きな武器をもっているからで、それをかいてみよう。<br><br> それについては今日までのあらゆる宗教のやり方を見れば分る通り、大別して二通りある。<br><br>一は真向から正義を振り翳（かざ）して進む信仰で、この代表ともいうべきものは彼（か）の日蓮の法華教で、アノような法難に遭ったのもそのためである。<br><br>それが災いとなって宗祖一代中は余りパッとせず、数百年かかって今日のごとき隆盛を見たのである。<br><br>といって法難を恐れ安全の道を辿るとしたら、拡まるにしても大いに時を要するか、さもなければ消えてしまうであろうから、ここに難しさがある。<br><br>しかし有難い事には民主主義となった今日、信教の自由を許されたので、終戦以前の日本と違い大いに恵まれ、致命的法難も避け得られたのである。<br><br>という訳で私の大方針たる正義を貫くべく、一歩一歩悪を排除しつつ、善の目標に進みつつあるのである。<br><br> 次に問題である人間の幸福についてかいてみよう。<br><br>すなわち幸福を生む根本は何かというともちろん善であるがこの善を通そうとするには悪に勝つだけの力がなくてはならないのは言うまでもないが、既成宗教にはこの力が不足していたため、真の幸福は得られなかった。<br><br>そこで物質は諦め、せめて精神面なりとも安心を得たいとの民衆の要求に応えたのが、彼の仏教の悟りの説である。<br><br>またキリスト教ではキリストに習えという贖罪（しょくざい）精神で諦めさせたのである。<br><br>彼の“右の頬を打たれれば左の頬を出せ”と言ったのも、無抵抗的悪に対する敗北精神であった。<br><br>以上のごとくことごとくの既成宗教は物質的には悪に勝てないので、考え出したのが現当利益否定説である。<br><br>いわく現当利益本位の宗教は低級であって、精神的救いこそ高級宗教なりとの説を唱えたのは無理はないが、それはある時期までの便法（べんぽう）でしかなかったのである。<br><br>これについて二、三の例を挙げてみるがよく長い間病気で苦しみながら救われたといって満足しているが、これは無理に本心を抑えつけて諦めているにすぎないので、一種の自己欺瞞である。<br><br>病気が全快してこそ本心からの満足感を得らるるのが真実である。<br><br>また昔からその信仰にいか程熱烈であっても、物質的に恵まれず、不幸の絶えない家庭もよくあるが、その結果精神的救いのみが宗教本来のあり方と錯覚したのである。<br><br> ところが我が救世教は、精神的救いと共に物質的にも救われる。<br><br>むしろそれ以上といってもいい程である。<br><br>本教が数年の間に現在見るごとく、各地に地上天国や美術館等を造営しつつあるのもことごとく信者の寄付金である。<br><br>しかも本教は最も搾取（さくしゅ）を嫌い、自発的寄付を方針としている。<br><br>にもかかわらずこれ程の大規模の事業を経営するとしたら莫大な基金を要するのはもちろんで、それが集ってくるのは、実に奇蹟である。<br><br>これにみても信者の懐（ふところ）が楽であるからである。<br><br>しかも一時的ではなく、多々益々増えるのであるから、金銭上の心配などした事はない。<br><br>次に言いたい事は時代である。<br><br>昔の各宗教が出た時代は小乗信仰でよかったから、祖師（そし）は紙衣（かみこ）の五十年式で済んだが、今日となってはそうはゆかない。<br><br>一切万事世界的となった以上、全人類を救うとしたら驚くべき大仕掛でなくてはならない。<br><br>つまり規模が大きい程救われる人も多数に上るからである。<br><br>以上のごとき本教の大計画を知ったなら、何人といえども本教を見直さない訳にはゆかないであろう。<br><br> (注) 紙衣（かみこ） 紙製の衣服。<br><br>厚紙に柿渋を引き乾かしたものを揉み、晒して作る。<br><br>修行僧や貧しい家庭で使用された。<br><br>貧しさを表す言葉。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião que Conduz à Felicidade</h2>
 <p>Em sua essência, a religião emanou do Amor Divino com o propósito de conduzir os desafortunados à felicidade, e a nada mais se destina. Como se sabe, por mais que os homens que habitam este mundo se esforcem para alcançar a boa sorte, raramente o conseguem. Aqueles que desfrutam de uma vida inteira de felicidade representam uma minoria ínfima; a maioria, longe de ser feliz, vê-se constantemente assaltada por infortúnios sucessivos. Nesse sentido, os conhecimentos acadêmicos, os discursos edificantes de grandes vultos ou a leitura de suas biografias, mesmo quando aplicados à risca, raramente se mostram eficazes. Embora a lógica de tais preceitos seja admirável, todos já experimentaram o fato de que a realidade não se curva às teorias.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Nossa Igreja da Salvação, entretanto, proporciona salvação tanto no plano espiritual quanto no material — e ouso dizer que a segunda é ainda mais expressiva. O fato de estarmos construindo, em poucos anos, Protótipos do Paraíso Terrestre e Museus de Arte em diversas localidades, como se pode ver atualmente, é prova disso. E tudo é financiado exclusivamente por donativos de nossos fiéis. Ademais, nossa Igreja abomina a exploração e adota como princípio o donativo espontâneo. Ainda assim, para gerir empreendimentos de tamanha magnitude, seriam necessários fundos exorbitantes. O fato de esses recursos convergirem até nós é, de fato, um milagre. Isso demonstra que a vida financeira de nossos membros é próspera. E não se trata de um fenômeno passageiro; a prosperidade aumenta cada vez mais. Por isso, jamais tive preocupações de ordem financeira.</p>
 <p>O último ponto que desejo abordar refere-se à era em que vivemos. Na época em que surgiram as diversas religiões do passado, uma fé de “pequeno veículo” era suficiente. Seus fundadores podiam levar uma vida de privações, simbolizada pelas vestes de papel (kamiko). Hoje, contudo, a situação é outra. Em um mundo que se tornou globalizado em todos os aspectos, a salvação de toda a humanidade exige um plano de uma grandiosidade espantosa. Afinal, quanto maior a escala, maior o número de pessoas que podem ser salvas. Ao tomar conhecimento de um plano tão grandioso como o de nossa Igreja, ninguém poderá deixar de reavaliar sua percepção a nosso respeito.</p>
 <p>(Nota) Kamiko (紙衣): Vestimentas feitas de papel. Produzidas ao amassar e branquear papel grosso tratado com sumo de caqui. Eram usadas por monges em treinamento e por famílias pobres, tornando-se um símbolo de pobreza.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸運者を作る宗教 『栄光』212号、昭和28(1953)年6月10日発行 本来宗教とは何かというと、不幸な人を幸福に導くために、神の愛によって発生したものであって、それ以外の何物でもない。<br/><br/>知らるる通りこの世の中に生を営（いとな）んでいる誰もは、幾ら一生懸命に幸運になろうとしても、中々思うようにはならない。<br/><br/>一生涯かかって幸福になる人は九牛の一毛で、ほとんどの人は幸福どころか逆に後から後から不幸という奴が見舞って来る。<br/><br/>というように学校で学んだ学理も偉い人の修身談や伝記、それに関する書籍を読み、その通り実行しても役立つ場合は稀である。<br/><br/>なるほど理屈は実によく出来ていて感心はするが、実際となると理屈通りにゆかないのは誰も経験するところであろう。<br/><br/> 早い話が正直主義でやると、お人好しやお目出度人間にみられるし、方針を変えて変な事をすると、今度は信用を落したり、下手（へた）をすると法律に引っ掛ったりするので、どっちにしていいか分らない事になる。<br/><br/>そこで小利口な人間は正直らしく見せかけ、裏で不正直をやり、口を拭いて知らん顔の半兵衛を決め込むに限る。<br/><br/>というのが世渡り哲学という訳で、今日の人は滔々（とうとう）としてその哲学信者になってしまい、このチャンピオンが出世頭となるのであるから、どうしても一般はそれを見習いたがる。<br/><br/>これが社会悪の減らない原因であろう。<br/><br/>このような世の中だから、正直者は馬鹿を見るなどと言われるのである。<br/><br/>ゆえに正直な人間程融通の利かぬ時世後れとされるし、正義など唱える人間は人から煙たがられ相手にされず、社会の落伍者となるのもよく見受ける。<br/><br/> このような世の中に向かって、私は常に正義感を振り翳（かざ）しているのであるから、並大抵の努力ではない。<br/><br/>普通人は馬鹿馬鹿しいと思うであろうし、宗教家の決り文句で、意気地なしで欲のない変り者くらいにしか見ないであろう。<br/><br/>そんな訳で以前は新聞雑誌などにも蔑視的興味本位に書かれたり、裁判沙汰などにされたりして随分虐（いじ）められたものである。<br/><br/>それというのも私は悪と闘うべく、思い切ってかいたりするので、それが祟（たた）ると共に、急激の発展に対する嫉視（しっし）も手伝い、大木に風当りが強い訳であろう。<br/><br/> ところがそのような圧迫に遭いながらも、一路発展の道を辿（たど）りつつあるその力強さに、近頃は余程見直したらしく、形勢も大分緩和されたのでやり良くなったのは何より嬉しく思っている。<br/><br/>それというのも神様が後楯（うしろだて）になっている以上、いかなる攻撃に遭ってもビクともしないからである。<br/><br/>というのは本教には今までの宗教に見られない大きな武器をもっているからで、それをかいてみよう。<br/><br/> それについては今日までのあらゆる宗教のやり方を見れば分る通り、大別して二通りある。<br/><br/>一は真向から正義を振り翳（かざ）して進む信仰で、この代表ともいうべきものは彼（か）の日蓮の法華教で、アノような法難に遭ったのもそのためである。<br/><br/>それが災いとなって宗祖一代中は余りパッとせず、数百年かかって今日のごとき隆盛を見たのである。<br/><br/>といって法難を恐れ安全の道を辿るとしたら、拡まるにしても大いに時を要するか、さもなければ消えてしまうであろうから、ここに難しさがある。<br/><br/>しかし有難い事には民主主義となった今日、信教の自由を許されたので、終戦以前の日本と違い大いに恵まれ、致命的法難も避け得られたのである。<br/><br/>という訳で私の大方針たる正義を貫くべく、一歩一歩悪を排除しつつ、善の目標に進みつつあるのである。<br/><br/> 次に問題である人間の幸福についてかいてみよう。<br/><br/>すなわち幸福を生む根本は何かというともちろん善であるがこの善を通そうとするには悪に勝つだけの力がなくてはならないのは言うまでもないが、既成宗教にはこの力が不足していたため、真の幸福は得られなかった。<br/><br/>そこで物質は諦め、せめて精神面なりとも安心を得たいとの民衆の要求に応えたのが、彼の仏教の悟りの説である。<br/><br/>またキリスト教ではキリストに習えという贖罪（しょくざい）精神で諦めさせたのである。<br/><br/>彼の“右の頬を打たれれば左の頬を出せ”と言ったのも、無抵抗的悪に対する敗北精神であった。<br/><br/>以上のごとくことごとくの既成宗教は物質的には悪に勝てないので、考え出したのが現当利益否定説である。<br/><br/>いわく現当利益本位の宗教は低級であって、精神的救いこそ高級宗教なりとの説を唱えたのは無理はないが、それはある時期までの便法（べんぽう）でしかなかったのである。<br/><br/>これについて二、三の例を挙げてみるがよく長い間病気で苦しみながら救われたといって満足しているが、これは無理に本心を抑えつけて諦めているにすぎないので、一種の自己欺瞞である。<br/><br/>病気が全快してこそ本心からの満足感を得らるるのが真実である。<br/><br/>また昔からその信仰にいか程熱烈であっても、物質的に恵まれず、不幸の絶えない家庭もよくあるが、その結果精神的救いのみが宗教本来のあり方と錯覚したのである。<br/><br/> ところが我が救世教は、精神的救いと共に物質的にも救われる。<br/><br/>むしろそれ以上といってもいい程である。<br/><br/>本教が数年の間に現在見るごとく、各地に地上天国や美術館等を造営しつつあるのもことごとく信者の寄付金である。<br/><br/>しかも本教は最も搾取（さくしゅ）を嫌い、自発的寄付を方針としている。<br/><br/>にもかかわらずこれ程の大規模の事業を経営するとしたら莫大な基金を要するのはもちろんで、それが集ってくるのは、実に奇蹟である。<br/><br/>これにみても信者の懐（ふところ）が楽であるからである。<br/><br/>しかも一時的ではなく、多々益々増えるのであるから、金銭上の心配などした事はない。<br/><br/>次に言いたい事は時代である。<br/><br/>昔の各宗教が出た時代は小乗信仰でよかったから、祖師（そし）は紙衣（かみこ）の五十年式で済んだが、今日となってはそうはゆかない。<br/><br/>一切万事世界的となった以上、全人類を救うとしたら驚くべき大仕掛でなくてはならない。<br/><br/>つまり規模が大きい程救われる人も多数に上るからである。<br/><br/>以上のごとき本教の大計画を知ったなら、何人といえども本教を見直さない訳にはゆかないであろう。<br/><br/> (注) 紙衣（かみこ） 紙製の衣服。<br/><br/>厚紙に柿渋を引き乾かしたものを揉み、晒して作る。<br/><br/>修行僧や貧しい家庭で使用された。<br/><br/>貧しさを表す言葉。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

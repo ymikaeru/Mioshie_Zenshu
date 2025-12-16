@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M240208</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年2月8日） 『御光話録』4号、昭和24(1949)年＊月＊日発行 昭和二十四年二月八日（火） ――お伺いは左の事項中いずれを主とすべきでしょうか。<br><br> 一、御浄霊のこと、二、開発のこと、三、社会生活のこと、四、霊界のこと、五、家庭生活のこと、六、将来の見通し、七、御著書のこと、八、教団内部のこと そうですね、事情によって主になることが違ってきますから、どうと定めるわけにゆきません。<br><br>だからなんでもいいから一番聞きたいことを書いて出したらいいでしょう。<br><br>一番聞きたいことを一つだけ書いて出しなさい、なにも質問するのは今度だけでないのですから。<br><br>一回に一つずつ聞いても十回で十になるのですから。<br><br>……家庭のことも小さいようだが大事なこともありますよ。<br><br> ――支部にいただいた会名はどの程度に使わせていただいたらよろしいでしょうか。<br><br> 時と場合によったらいいんです。<br><br>その分会の信者の間では使ったらいいし、そうでなく他の分会に対する場合には大成会としたらいいでしょう。<br><br> ――（一）龍神の働きについて、 （二）日本が龍型をしている意義について、 （一）龍神にはいろいろな働きがありますが、だいたい天文現象が主で風雨雷霆を司り、また小さくは沼、川の守護をします。<br><br>山は天狗が支配してますが川は龍神です。<br><br>大中小いろんなのがいるんです。<br><br> ――龍神から化した人間にも善悪はあるものでしょうか。<br><br> ええ、ありますよ。<br><br> ――その善悪はどう見分けるのでしょうか。<br><br> それはちょっと人間には分かりません。<br><br>例えば十のうち七だけいいことをしても三だけ悪いと世間の人々はその三の悪い部分を見てその人の全部を悪いとしてしまうのです。<br><br>小乗的な信仰はこういうふうですね。<br><br>しかし神様から見た場合、七から三引けば四残り四だけ善が多いからいいわけです。<br><br>だから人間には善悪は判りません…… 龍神系は強いものでまた信仰に入る人には龍神系が多いですね。<br><br>あんまり狸だの他の動物、馬や犬なんかは少ない。<br><br>龍神のほかに天狗も多いですが、どちらかというと龍神系のほうが強いです。<br><br> （二）日本が龍型だというのは大本教で言ったことで、昔、国常立尊が龍神だったとき日本と同型同大だったというのです。<br><br>この説はまんざら根拠のないことでもないのです。<br><br>山陰、山陽、四国で口をなして九州を呑もうとしているのですが、その鼻面が出雲でここは昔素盞嗚尊が統治したんですが、これは鼻の働きで鼻から豆が生まれることは『古事記』にも出ています。<br><br>それから丹波、丹後が目、伊勢が喉、富士山が臍、東京が陰部、そのうち東京湾が女、伊豆半島が男のそれに当たり、東北は腰、新潟の新発田は肛門、北海道から千島は尾になる…… というのですが意味があります。<br><br>東京は子宮に当たり、だから宮城がある。<br><br>従って東京は産み出す働きがあり、私も東京で生まれたんです。<br><br> ――臍はたいして重要でないように思われますが。<br><br> いや、臍は役に立ってますよ。<br><br>人間でもそうで、始終動きまわっている人よりじっと動かないでいる人のほうが大事なんです。<br><br>一番どうでもいいようなものが一番肝腎なんです。<br><br>ところが共産主義はこれと反対で、働かざる者は食うべからず、などと言うのは逆です。<br><br>だから私は「共産主義はピラミッドを逆様にしたようなものだ」と本にも書いているのです。<br><br> ――副霊と犯罪について、 （一）犯罪は副霊の働きでしょうか。<br><br> （二）帝銀事件の平沢も副霊のためでしょうか。<br><br> （三）右の事件で犠牲になった方々の霊は当然平沢に復讐することと存じますがいかがでしょうか。<br><br> （一）副霊ですね。<br><br>勿論本霊は止めようとするけれども止まらないのです。<br><br> （二）そうです。<br><br>これはたいへんな副霊です。<br><br>平沢なんかは体中副霊でいっぱいです。<br><br>それからあんなに嘘を言うのは狐ですね。<br><br> （三）勿論で、もう復讐しようとして狙っていますよ。<br><br> ――もう一年にもなりますが平沢はいっこう弱らないのはなぜでしょうか。<br><br> 副霊が強いのです。<br><br>しかし、またいっぽうではあの犠牲になって死んだ人々にも殺されるだけのことがあったのです。<br><br>あの事件のとき一人だけ先に帰宅して難を免れた人がありましたが、あれは御守護によって助けられるのです。<br><br> ――邪神などが憑くために兇行を演ずるということはありませんでしょうか。<br><br> 勿論ありますが平沢のごとく計画的にするのは憑くのではなく副霊です。<br><br>その反対にカーッとして前後を忘れて振る舞い、しばらくしてハッと気がつきたいへんなことをしてしまったと後悔するようなのは邪神に憑かれた場合です。<br><br> ――左進右退のリズムを科学的に説明する方法はございましょうか。<br><br> 科学的というよりも団子などを丸めることを話したらいいでしょう。<br><br>左から右へやれば丸まるが、右から左では丸まりませんから。<br><br> ――それはいままでの夜の世界でもそういたしておりましたが…… 左進右退は霊界のことですから現界ではありません。<br><br>現界ではいままでの夜の世界でも、またこれからの昼の世界でも丸めるためには左進右退が必要なのです。<br><br> ――毎日の夜昼でもこのリズムは違うのでしょうか。<br><br> ええ違ってます。<br><br>日当たりなどは左進右退です。<br><br>夜になって靄（もや）霧などが多いのは月が霊気を発散するからで、そのときは右進左退です。<br><br> ――日常生活におきまして道に外れた行為をするときはやはり霊体の曇りを増すことと存じますが、その場合の曇りは物質化して毒素となるものでしょうか。<br><br>またもし毒素になるものでしたら肉体のどこに集まるのでしょうか。<br><br> これはね無論曇りになります。<br><br>例えば手で悪いことをすれば手に集まり、人の目をごまかせば目に、二枚舌を使えば舌癌や喉頭結核になります。<br><br>以前私の所で使っていた女中に片目の潰れたのがいましたが、なぜ潰れたのかと訊ねたら、子供の空気銃で撃たれたからだというのです。<br><br>そのころは私も信仰したてのときでしたが、さらにその女中に実家の商売を訊ねたらその父が珊瑚の偽珠を作りそれを田舎へ持って行ってそうとう儲けたことがあるそうで、こうして人の目をごまかしたために娘の目が潰れてしまったのです。<br><br>また私が子供のころ、私の父親の商売仲間でやはり浅草になんとか亀次郎という古道具屋がありました。<br><br>よく人は花亀と呼んでましたがこの人はそうとうな財産を作ったのですが、後に盲になりまたその財産も伜が道楽をしてすっかり蕩尽してしまいました。<br><br>それはあるとき静岡の寺の住職が東京の寺の御開帳にやって来たがちょっと金に困り、本尊を抵当にその花亀から金を借りた。<br><br>で、しばらく経って住職はその金をこしらえて本尊をもらいにまたやって来た。<br><br>ところが当時は外人が仏像を、非常に高価に買い集めていたころだったので、花亀もその本尊をある外人によい値で売ってしまったあとだった。<br><br>そこへ住職がやってきたので花亀はそんなものを預かった覚えはないと言ってはねつけた。<br><br>で、その坊さんもいまさらおめおめ帰れないので店先で首を縊って死んでしまったのですが、それの祟りで花亀は盲になったのです。<br><br>花亀の死ぬときは実に悲惨でした。<br><br>またやはり子供のころ、近くに経銀という立派な経師屋があったがこの人も盲になった。<br><br>この人は一日に一時間くらい仕事をしてあとは遊んでいたんですが、というのは新しく描いた画を古く見せかけて高く売りつけることがうまかった。<br><br>ある画家が古い有名な人の絵を模写しそれを経銀が人に見られぬように一部屋に入り、線香を使って虫食いなどを作りわざと古くさくして高く売りつけていた。<br><br>それで目が潰れたのです。<br><br>結局これらはみんな人の目をごまかしたためなんです。<br><br> ――肺病なんかになるのは素直に「ハイ」と返事ができない頑固な人だとも聞きますがいかがでしょうか。<br><br> さあそれはどうですかね。<br><br>しかし癌とか中風のような病気は頑固な人に多いですね。<br><br> ――智慧熱の原因についてお伺い申し上げます。<br><br> これはなんですね、間違いですね。<br><br>やはりどこか悪い所があって浄化するんです。<br><br>私の子供には智慧熱の出たことなんかありません。<br><br> ――御著書に「副霊は二、三歳ごろ憑依する」と拝見いたしますが、本能欲と副霊とは別個のものでしょうか。<br><br> 本能欲は副霊です。<br><br>つまり物質欲です。<br><br> ――赤ん坊が乳を飲みたがったり、いっぽうだけでなく両方の乳房を欲しがるのはなんでしょうか。<br><br> あれは赤ん坊の自己保存のために神様が授けてくださった一つの働きですね。<br><br>やはり副霊は三、四歳ころに憑くんです。<br><br>またそれでいいんですよ。<br><br>そんな小さな時分から金や女を欲しがっては困りますから…… ――祖霊は常に位牌や墓石にいるのでしょうか。<br><br> 位牌には始終留守居がいて、それが戒名の所に憑依してます。<br><br>人が拝むと多くの祖霊は集まって来るのです。<br><br>また臨時に拝むときは留守居がそれを受けます。<br><br>またなにかお供えして鐘を叩くと運ぶ役目の霊が出てきてその物の霊気を祖霊の所へ持って行って配るのですが、ふつう地獄から出世した霊が運搬の役目をやり、それがすむと八衢（やちまた）へ行くのです。<br><br> ――祖霊が地獄にあるときは運搬夫のほうが上になるのでしょうか。<br><br> ええ、運搬夫のほうが上です。<br><br>そしてたいてい祖霊は地獄へ堕ちているほうが多いんですよ。<br><br>……それから墓石のほうにはふだんは霊はいなくてお詣りに行ったときに出てくるのですが、彼岸などの場合はずっとその間中来ていて名前の所に憑いています。<br><br> ――墓地が遠方の場合、墓参はどういたすべきでしょうか。<br><br> これは代理の人を頼んだらいいです。<br><br>それでも霊界では気持ちが届きます。<br><br> ――仏にはそれぞれに墓石を作るべきでしょうか。<br><br> 一人ずつに墓を作るのはたいへんだから、「先祖代々之霊」という墓石の横などに小さく一緒に刻み込んだらいいでしょう。<br><br>そしてそれがたくさんになったら整理したらいいのです。<br><br>その場合自分と面識のある人の戒名は刻み、ない人のは先祖代々に入れたらよろしい。<br><br>新しい仏の場合は一年くらい塔婆（とうば）を立ててそれから石に刻んだらいいでしょう。<br><br> ――墓石に自然石を使うことはよくないでしょうか。<br><br> 自然石はいけません。<br><br>自然石は庭石などに使うべきものですから。<br><br> ――神式により葬る場合墓石はいかがいたすべきでしょうか。<br><br> 神式なら俗名を墓石に刻んでもいいが、しかし本当は神道なら墓ではなく碑にすべきです。<br><br>キリスト教なら十字架ですが最近はあまりこういう点はきちんとしてないようですね、殊に地方では。<br><br> ――仏壇の鐘は叩いたほうがよろしいでしょうか。<br><br> ええ、叩いたほうがいいです。<br><br>これはごちそうを上げる合図だから。<br><br> ――お供え物をお上げしたとたんに叩くべきでしょうか。<br><br> とたんでなくてもいいですよ。<br><br>お供えしたら急に便所へ行きたくなったというときは便所へ行ってきてから叩いたらいいんですよ…… ――薬を服用している人に御浄霊することはいかがでしょうか。<br><br> そういう人には御浄霊してはいけない。<br><br>それはちょうどザルに水を汲むようなものです。<br><br>薬を服んでる人には「薬で治らなかったらやってあげましょう」と言ったらいいでしょう。<br><br> ――シャックリの原因はなんでしょうか。<br><br> これは横隔膜ですね。<br><br>きっと食道に物がつかえたときのように横隔膜がよけいな運転をするのでしょう。<br><br>その場合後頭部の延髄をすれば治りますし、また胃の噴門の辺をしてもいいです。<br><br>霊的には七面鳥の霊が憑くとシャックリをします。<br><br> ――人間は神の最高の被造物であるにかかわらず、霊を信じない人があるのはなぜでしょうか。<br><br> これはね、神様が物質文化を発展させるためにいままで霊のことを人間に知らさなかったのです。<br><br>ところが現代において文明がある程度発達したので、もうこの辺で人間に霊魂の存在を知らせねばならないことになったのです。<br><br>で、私はこれを知らせるという使命を持っているのです。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Elucidações sobre o Mundo Espiritual e a Vida Cotidiana</h2>
 <p><strong>P: Dentre os tópicos a seguir, a qual deveríamos dar prioridade em nossas perguntas? 1. Johrei; 2. Expansão da Obra Divina; 3. Vida social; 4. Mundo Espiritual; 5. Vida familiar; 6. Perspectivas para o futuro; 7. Escritos Divinos; 8. Questões internas da Igreja.</strong></p>
@@ -159,5 +311,48 @@ function toggleLang(lang) {
 <p>É o diafragma. Provavelmente, assim como quando um alimento fica preso no esôfago, o diafragma realiza um movimento excessivo. Nesses casos, o soluço cessa ao se ministrar Johrei no bulbo, na nuca, ou na região do cárdia, na entrada do estômago. Espiritualmente, a possessão por um espírito de peru causa soluços.</p>
 <p><strong>P: Se o ser humano é a mais elevada criação de Deus, por que existem pessoas que não acreditam na existência do espírito?</strong></p>
 <p>Isso ocorre porque, a fim de permitir o desenvolvimento da civilização material, Deus ocultou da humanidade, até agora, a verdade sobre o espírito. No entanto, a civilização atingiu um ponto em que se tornou imperativo revelar a existência da alma e do Mundo Espiritual. A mim foi confiada a missão de anunciar essa verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S24年2月8日） 『御光話録』4号、昭和24(1949)年＊月＊日発行 昭和二十四年二月八日（火） ――お伺いは左の事項中いずれを主とすべきでしょうか。<br/><br/> 一、御浄霊のこと、二、開発のこと、三、社会生活のこと、四、霊界のこと、五、家庭生活のこと、六、将来の見通し、七、御著書のこと、八、教団内部のこと そうですね、事情によって主になることが違ってきますから、どうと定めるわけにゆきません。<br/><br/>だからなんでもいいから一番聞きたいことを書いて出したらいいでしょう。<br/><br/>一番聞きたいことを一つだけ書いて出しなさい、なにも質問するのは今度だけでないのですから。<br/><br/>一回に一つずつ聞いても十回で十になるのですから。<br/><br/>……家庭のことも小さいようだが大事なこともありますよ。<br/><br/> ――支部にいただいた会名はどの程度に使わせていただいたらよろしいでしょうか。<br/><br/> 時と場合によったらいいんです。<br/><br/>その分会の信者の間では使ったらいいし、そうでなく他の分会に対する場合には大成会としたらいいでしょう。<br/><br/> ――（一）龍神の働きについて、 （二）日本が龍型をしている意義について、 （一）龍神にはいろいろな働きがありますが、だいたい天文現象が主で風雨雷霆を司り、また小さくは沼、川の守護をします。<br/><br/>山は天狗が支配してますが川は龍神です。<br/><br/>大中小いろんなのがいるんです。<br/><br/> ――龍神から化した人間にも善悪はあるものでしょうか。<br/><br/> ええ、ありますよ。<br/><br/> ――その善悪はどう見分けるのでしょうか。<br/><br/> それはちょっと人間には分かりません。<br/><br/>例えば十のうち七だけいいことをしても三だけ悪いと世間の人々はその三の悪い部分を見てその人の全部を悪いとしてしまうのです。<br/><br/>小乗的な信仰はこういうふうですね。<br/><br/>しかし神様から見た場合、七から三引けば四残り四だけ善が多いからいいわけです。<br/><br/>だから人間には善悪は判りません…… 龍神系は強いものでまた信仰に入る人には龍神系が多いですね。<br/><br/>あんまり狸だの他の動物、馬や犬なんかは少ない。<br/><br/>龍神のほかに天狗も多いですが、どちらかというと龍神系のほうが強いです。<br/><br/> （二）日本が龍型だというのは大本教で言ったことで、昔、国常立尊が龍神だったとき日本と同型同大だったというのです。<br/><br/>この説はまんざら根拠のないことでもないのです。<br/><br/>山陰、山陽、四国で口をなして九州を呑もうとしているのですが、その鼻面が出雲でここは昔素盞嗚尊が統治したんですが、これは鼻の働きで鼻から豆が生まれることは『古事記』にも出ています。<br/><br/>それから丹波、丹後が目、伊勢が喉、富士山が臍、東京が陰部、そのうち東京湾が女、伊豆半島が男のそれに当たり、東北は腰、新潟の新発田は肛門、北海道から千島は尾になる…… というのですが意味があります。<br/><br/>東京は子宮に当たり、だから宮城がある。<br/><br/>従って東京は産み出す働きがあり、私も東京で生まれたんです。<br/><br/> ――臍はたいして重要でないように思われますが。<br/><br/> いや、臍は役に立ってますよ。<br/><br/>人間でもそうで、始終動きまわっている人よりじっと動かないでいる人のほうが大事なんです。<br/><br/>一番どうでもいいようなものが一番肝腎なんです。<br/><br/>ところが共産主義はこれと反対で、働かざる者は食うべからず、などと言うのは逆です。<br/><br/>だから私は「共産主義はピラミッドを逆様にしたようなものだ」と本にも書いているのです。<br/><br/> ――副霊と犯罪について、 （一）犯罪は副霊の働きでしょうか。<br/><br/> （二）帝銀事件の平沢も副霊のためでしょうか。<br/><br/> （三）右の事件で犠牲になった方々の霊は当然平沢に復讐することと存じますがいかがでしょうか。<br/><br/> （一）副霊ですね。<br/><br/>勿論本霊は止めようとするけれども止まらないのです。<br/><br/> （二）そうです。<br/><br/>これはたいへんな副霊です。<br/><br/>平沢なんかは体中副霊でいっぱいです。<br/><br/>それからあんなに嘘を言うのは狐ですね。<br/><br/> （三）勿論で、もう復讐しようとして狙っていますよ。<br/><br/> ――もう一年にもなりますが平沢はいっこう弱らないのはなぜでしょうか。<br/><br/> 副霊が強いのです。<br/><br/>しかし、またいっぽうではあの犠牲になって死んだ人々にも殺されるだけのことがあったのです。<br/><br/>あの事件のとき一人だけ先に帰宅して難を免れた人がありましたが、あれは御守護によって助けられるのです。<br/><br/> ――邪神などが憑くために兇行を演ずるということはありませんでしょうか。<br/><br/> 勿論ありますが平沢のごとく計画的にするのは憑くのではなく副霊です。<br/><br/>その反対にカーッとして前後を忘れて振る舞い、しばらくしてハッと気がつきたいへんなことをしてしまったと後悔するようなのは邪神に憑かれた場合です。<br/><br/> ――左進右退のリズムを科学的に説明する方法はございましょうか。<br/><br/> 科学的というよりも団子などを丸めることを話したらいいでしょう。<br/><br/>左から右へやれば丸まるが、右から左では丸まりませんから。<br/><br/> ――それはいままでの夜の世界でもそういたしておりましたが…… 左進右退は霊界のことですから現界ではありません。<br/><br/>現界ではいままでの夜の世界でも、またこれからの昼の世界でも丸めるためには左進右退が必要なのです。<br/><br/> ――毎日の夜昼でもこのリズムは違うのでしょうか。<br/><br/> ええ違ってます。<br/><br/>日当たりなどは左進右退です。<br/><br/>夜になって靄（もや）霧などが多いのは月が霊気を発散するからで、そのときは右進左退です。<br/><br/> ――日常生活におきまして道に外れた行為をするときはやはり霊体の曇りを増すことと存じますが、その場合の曇りは物質化して毒素となるものでしょうか。<br/><br/>またもし毒素になるものでしたら肉体のどこに集まるのでしょうか。<br/><br/> これはね無論曇りになります。<br/><br/>例えば手で悪いことをすれば手に集まり、人の目をごまかせば目に、二枚舌を使えば舌癌や喉頭結核になります。<br/><br/>以前私の所で使っていた女中に片目の潰れたのがいましたが、なぜ潰れたのかと訊ねたら、子供の空気銃で撃たれたからだというのです。<br/><br/>そのころは私も信仰したてのときでしたが、さらにその女中に実家の商売を訊ねたらその父が珊瑚の偽珠を作りそれを田舎へ持って行ってそうとう儲けたことがあるそうで、こうして人の目をごまかしたために娘の目が潰れてしまったのです。<br/><br/>また私が子供のころ、私の父親の商売仲間でやはり浅草になんとか亀次郎という古道具屋がありました。<br/><br/>よく人は花亀と呼んでましたがこの人はそうとうな財産を作ったのですが、後に盲になりまたその財産も伜が道楽をしてすっかり蕩尽してしまいました。<br/><br/>それはあるとき静岡の寺の住職が東京の寺の御開帳にやって来たがちょっと金に困り、本尊を抵当にその花亀から金を借りた。<br/><br/>で、しばらく経って住職はその金をこしらえて本尊をもらいにまたやって来た。<br/><br/>ところが当時は外人が仏像を、非常に高価に買い集めていたころだったので、花亀もその本尊をある外人によい値で売ってしまったあとだった。<br/><br/>そこへ住職がやってきたので花亀はそんなものを預かった覚えはないと言ってはねつけた。<br/><br/>で、その坊さんもいまさらおめおめ帰れないので店先で首を縊って死んでしまったのですが、それの祟りで花亀は盲になったのです。<br/><br/>花亀の死ぬときは実に悲惨でした。<br/><br/>またやはり子供のころ、近くに経銀という立派な経師屋があったがこの人も盲になった。<br/><br/>この人は一日に一時間くらい仕事をしてあとは遊んでいたんですが、というのは新しく描いた画を古く見せかけて高く売りつけることがうまかった。<br/><br/>ある画家が古い有名な人の絵を模写しそれを経銀が人に見られぬように一部屋に入り、線香を使って虫食いなどを作りわざと古くさくして高く売りつけていた。<br/><br/>それで目が潰れたのです。<br/><br/>結局これらはみんな人の目をごまかしたためなんです。<br/><br/> ――肺病なんかになるのは素直に「ハイ」と返事ができない頑固な人だとも聞きますがいかがでしょうか。<br/><br/> さあそれはどうですかね。<br/><br/>しかし癌とか中風のような病気は頑固な人に多いですね。<br/><br/> ――智慧熱の原因についてお伺い申し上げます。<br/><br/> これはなんですね、間違いですね。<br/><br/>やはりどこか悪い所があって浄化するんです。<br/><br/>私の子供には智慧熱の出たことなんかありません。<br/><br/> ――御著書に「副霊は二、三歳ごろ憑依する」と拝見いたしますが、本能欲と副霊とは別個のものでしょうか。<br/><br/> 本能欲は副霊です。<br/><br/>つまり物質欲です。<br/><br/> ――赤ん坊が乳を飲みたがったり、いっぽうだけでなく両方の乳房を欲しがるのはなんでしょうか。<br/><br/> あれは赤ん坊の自己保存のために神様が授けてくださった一つの働きですね。<br/><br/>やはり副霊は三、四歳ころに憑くんです。<br/><br/>またそれでいいんですよ。<br/><br/>そんな小さな時分から金や女を欲しがっては困りますから…… ――祖霊は常に位牌や墓石にいるのでしょうか。<br/><br/> 位牌には始終留守居がいて、それが戒名の所に憑依してます。<br/><br/>人が拝むと多くの祖霊は集まって来るのです。<br/><br/>また臨時に拝むときは留守居がそれを受けます。<br/><br/>またなにかお供えして鐘を叩くと運ぶ役目の霊が出てきてその物の霊気を祖霊の所へ持って行って配るのですが、ふつう地獄から出世した霊が運搬の役目をやり、それがすむと八衢（やちまた）へ行くのです。<br/><br/> ――祖霊が地獄にあるときは運搬夫のほうが上になるのでしょうか。<br/><br/> ええ、運搬夫のほうが上です。<br/><br/>そしてたいてい祖霊は地獄へ堕ちているほうが多いんですよ。<br/><br/>……それから墓石のほうにはふだんは霊はいなくてお詣りに行ったときに出てくるのですが、彼岸などの場合はずっとその間中来ていて名前の所に憑いています。<br/><br/> ――墓地が遠方の場合、墓参はどういたすべきでしょうか。<br/><br/> これは代理の人を頼んだらいいです。<br/><br/>それでも霊界では気持ちが届きます。<br/><br/> ――仏にはそれぞれに墓石を作るべきでしょうか。<br/><br/> 一人ずつに墓を作るのはたいへんだから、「先祖代々之霊」という墓石の横などに小さく一緒に刻み込んだらいいでしょう。<br/><br/>そしてそれがたくさんになったら整理したらいいのです。<br/><br/>その場合自分と面識のある人の戒名は刻み、ない人のは先祖代々に入れたらよろしい。<br/><br/>新しい仏の場合は一年くらい塔婆（とうば）を立ててそれから石に刻んだらいいでしょう。<br/><br/> ――墓石に自然石を使うことはよくないでしょうか。<br/><br/> 自然石はいけません。<br/><br/>自然石は庭石などに使うべきものですから。<br/><br/> ――神式により葬る場合墓石はいかがいたすべきでしょうか。<br/><br/> 神式なら俗名を墓石に刻んでもいいが、しかし本当は神道なら墓ではなく碑にすべきです。<br/><br/>キリスト教なら十字架ですが最近はあまりこういう点はきちんとしてないようですね、殊に地方では。<br/><br/> ――仏壇の鐘は叩いたほうがよろしいでしょうか。<br/><br/> ええ、叩いたほうがいいです。<br/><br/>これはごちそうを上げる合図だから。<br/><br/> ――お供え物をお上げしたとたんに叩くべきでしょうか。<br/><br/> とたんでなくてもいいですよ。<br/><br/>お供えしたら急に便所へ行きたくなったというときは便所へ行ってきてから叩いたらいいんですよ…… ――薬を服用している人に御浄霊することはいかがでしょうか。<br/><br/> そういう人には御浄霊してはいけない。<br/><br/>それはちょうどザルに水を汲むようなものです。<br/><br/>薬を服んでる人には「薬で治らなかったらやってあげましょう」と言ったらいいでしょう。<br/><br/> ――シャックリの原因はなんでしょうか。<br/><br/> これは横隔膜ですね。<br/><br/>きっと食道に物がつかえたときのように横隔膜がよけいな運転をするのでしょう。<br/><br/>その場合後頭部の延髄をすれば治りますし、また胃の噴門の辺をしてもいいです。<br/><br/>霊的には七面鳥の霊が憑くとシャックリをします。<br/><br/> ――人間は神の最高の被造物であるにかかわらず、霊を信じない人があるのはなぜでしょうか。<br/><br/> これはね、神様が物質文化を発展させるためにいままで霊のことを人間に知らさなかったのです。<br/><br/>ところが現代において文明がある程度発達したので、もうこの辺で人間に霊魂の存在を知らせねばならないことになったのです。<br/><br/>で、私はこれを知らせるという使命を持っているのです。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

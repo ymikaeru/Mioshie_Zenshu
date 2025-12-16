@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei13086</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（三） ６ 086-103 転生 086 白い蜘蛛 今月三日頃横浜日野教導所で午後二時頃御浄霊（信者六名）しておりますと大光明如来様の床の間より一匹の真白な蜘蛛が出て私の身の周りを三回回り、御浄霊中の信者の身の周りを二回回り、畳の上に下りました。<br><br>一人の信者が捕まえようとしましたが、どうしても捕えることが出来ず、その中に元出て来た床の間へ入って行ってしまいました。<br><br>右はいかなる訳で御座居ましょうか。<br><br> 本来蜘蛛はわるい。<br><br>白くなったのは浄化されたもの、よくなったものである。<br><br> 元は人間で、改心して救われた事をみせたかったのである。<br><br>この家の祖先である。<br><br> すべて白いものはいい。<br><br> 人間はよく蜘蛛に生れる。<br><br>（S24. 7.29） 087 転生の蛙（蛙癲癇） ある青年が痔病で重体となり、その後御利益により全快し、光明如来を頂きまして毎日朝夕お参りいたしますが、ある日お参りをし立去ろうとして思いがけなく振返って見ると、蛙があらわれ、数回お軸に飛びつき、早速お浄めをいたしますと窓口へ去りました。<br><br>いかがなわけでしょうか。<br><br> 人間が蛙になっている。<br><br>それが光明如来様に救って戴きたいというので飛びついたのであろう。<br><br>お浄めをしたら帰ったというのは、それで満足して帰った訳である。<br><br> 蛙の生れ代りなど随分ある。<br><br>蛙式癲癇は、押潰されたようにギャーッと言って倒れる。<br><br> 痔は単なる浄化であって、蛙と関係はない。<br><br>（S23.10.24） 088 蛇自殺・噛食不能児生まる 信者の家の藁の中に丸くなったまま蛇が骨となっておりました。<br><br>近所の人に聞いてみた所、人に見せずに祀っていると家が非常に栄えると教えられ、お宮を求め蛇の骨を入れ、床の間に祀っております。<br><br>それより数年後子供が生れ、その子供は現在七歳ですが食物を噛み砕くこと不能、涎を多量に出し、歩行困難です。<br><br>祀った蛇と関係がありましょうか。<br><br> 蛇が人間に生れたがっていたものが生れ代ったもので、蛇の分子が残っているのである。<br><br>蛇は物を噛まぬし、涎を出すものである。<br><br>これは蛇が自殺したものと思う。<br><br>よほど人間に生れて来たかったもので、藁の中で餓死したものである。<br><br>この蛇は祖霊である。<br><br> 徳を積むと母などの苦痛が減る。<br><br>苦痛が減ると心配事はなくなる。<br><br>浄霊により治る。<br><br>（S23.10.25） 089 蛇を使って出た天国霊 本年五月二十一日に死亡した二十三歳の女の方が、去る八月二十日、その姉さんに憑って出て参りました。<br><br>「私の死因は生存中勤めていた工場の主任に可愛がられたため、他の人の恨みを受け、蛇を付けられたのが原因だった」と申します。<br><br>（口中より多量の粘液を出しておりました）「今天国に救われている。<br><br>現界に出させて頂くのにそのままでは出られないのでその蛇を使って出て来ました」との事で御座います。<br><br>果して天国に救われている霊が現界に出ます際、動物霊を使うもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> なお、憑依霊は「霊界の御浄霊法はこうですよ」と申し両手で浄霊してくれます。<br><br>また、憑依中本人の本守護神は霊界へ行き、祖先を御浄霊しておりますと本人が覚醒して申します。<br><br>霊が天国へ帰る時は紫雲に乗って帰る姿がはっきりと分ると申しますが、これについて御教えを御願い申し上げます。<br><br> 蛇の毒は粘液――ヌラである。<br><br>胃癌は蛇の霊であるが、大抵は医者の誤診が多い。<br><br> 重くなってからヌラを出すのは癌である。<br><br> 蛇を使って出たというのは、龍神が人間に生れ更って出る事である。<br><br>人間に憑るようになれば生れ更ってくる。<br><br>人間というのは、人間化して来ているからである。<br><br> たしかに天国で救われているに違いない。<br><br> 後は本当である。<br><br>（S24. 9.11） 090 蛇の因縁の家 龍神の御祀りについて御伺い致します。<br><br>私の家は高山市の中央、宮川の岸辺で、俗に蛇屋敷と云われたところで、今から十九年前に新築した時土蔵付近は特に蛇が多かったそうです。<br><br>父は十四年前胃癌で死にました。<br><br>父母は夫婦養子で、私達兄弟は七人でしたが、今は姉四人（皆他家に嫁）と私一人現存しております。<br><br>昭和十六年頃ある行者の言により家の東方（川岸）に龍神を祭りました。<br><br>（姫長大明神、白姫大明神）それは、新築の時黒白の屋敷蛇を生埋めにしてあるから龍神を祭るがよいと言われたからであります。<br><br>その後昭和二十一年に母も私も御光を戴き、続いて光明如来を御祭りしました。<br><br>昭和二十三年二月、例祭の時ある娘さんに父の霊が憑り、大変怒っておりました。<br><br>「俺は家に対する執着のため、蛇となって苦しんでいるのに、御前達が気がつかぬと焼いてしまうぞ」と言いました。<br><br>それ以来私も一生懸命御手伝いを心掛けておりますが、御祭りは今後いかにしたらよいのでしょうか。<br><br> 次は、その御祭りの後でしたか、母が表の小川に蛇が死んでいるから見ろと云うのですが、私は見に往きませんでした。<br><br>二、三日経過して何気なく小川を覗くと、長さは一尺位しかありませんが馬鹿に太い美しい蛇が死んでおりました。<br><br>「気味悪い恰好だな」と思ったら急に流れ出して見えなくなりました。<br><br>私が見る迄流れなかったのは不思議でなりません。<br><br>いかなる理由でしょうか。<br><br>御教示願います。<br><br>またいかにしたら祖霊は救われるでしょうか。<br><br> すでにお祀りしたからいい訳である。<br><br> 091 ロクロ首実例（半人半蛇） 二十四歳の女が嫁に行き、一週間程にて離縁となりしため親がその理由をただせしところ、中々口をききませんでしたが「実は夫婦で寝ると夜中に首が長く伸び天井を舐める」との事、親は喫驚して「家にいる時はそのような事はなかった」と申しております。<br><br>所が天井にはナメクジの這ったような跡があり、夫は嫁の事とて誰にも言えなかったのでしたが、恐る恐る申し出ました（伸びた時は首に縦縞があるそうです）と言う事であります。<br><br>まだ一度も浄霊した事もございませんが、この原因並びに信仰を奨めて一日も早く救われる事が出来るでしょうか。<br><br>お伺い申し上げます。<br><br> ロクロ首である。<br><br>無論蛇――蟒（うわばみ）で、本当に人間になり切っていない。<br><br>人間が蛇に堕ちまた人間に生れてくる。<br><br>半ば意識があるべきだが、意識がないのはよほど蛇そのものになっている。<br><br>美人である。<br><br> 治るのは難しかろう。<br><br>半人半蛇である。<br><br>（S24.11. 7） rattail（注） 〔 夜中首がのびる 『光』38号、昭和24(1949)年12月3日発行〕 092 白ッ子 俗に云う白ッ子とはどんな原因のものでしょうか。<br><br>また浄霊により治癒致すものでしょうか。<br><br> 白龍の生れ更りである。<br><br>（S24. 5.13） 093 白子 白子は霊的にいかな関係が御座居ましょうか。<br><br> 白蛇の生れ代りである。<br><br>これは治らぬ。<br><br> （S24. 6.22） 094 珍しい白子 ある未入信の方の赤児、全身白く、頭髪まで白く、医師も今迄に多くの白子を見るが、このような真白の子は初めてだと言っているそうで御座います。<br><br>また、その児は日光に非常に弱いそうで御座いますが、いかなる訳で御座いましょうか。<br><br>御教えを御願い申し上げます。<br><br> 白蛇が生れる。<br><br>非常に白いのとそうでないのとある。<br><br> 初めて人間に生れ更ると白色が多分に残っている。<br><br>（S24.10.11） 095 白子の治癒 二男、四男が白子ですが、長男、三男は普通の者です。<br><br>両親親戚には変った人はありません。<br><br>因縁をお教え願います。<br><br> 白蛇が人間に転生した場合一代はそうなる。<br><br>浄霊である程度治るが、全部という事は難しい。<br><br> 096 白蛇転生児 村上勝子（五歳）は生れた時より肉体、頭髪共に真白く、睫、眉毛共白く、眼玉は兎のように白赤く、智恵は普通以上に良く、生れた時より健康です。<br><br>世間でよく白子と云われますが、いかなる因縁でしょうか。<br><br>また御浄霊で治るでしょうか。<br><br>御教示を御願い申し上げます。<br><br> 白蛇の生れ代りである。<br><br>浄霊により相当効果がある。<br><br>五歳位なら治るかもしれぬ。<br><br>（S24. 8. 8） 097 白睫の女 本年四十一歳になる女で、生れつき睫の白い人が御座いますが、こういうのはどう言う訳で御座いましょうか。<br><br> （小林秀二郎――山本勘介の霊の話） 動物の霊の再生と思う。<br><br> rattail（注） 小林秀二郎、日本観音教明成会会長の事か。<br><br> 〔 九死に一生を得て 『地上天国』2号、昭和24(1949)年3月1日発行〕 098 骨なし娘 十八歳の娘で御座いますが、生れつき骨が御座いません。<br><br>寝たままで御座いまして、食物も自分では戴く事も出来ず話も出来ません。<br><br>但し月経は御座います。<br><br>霊的にいかなる関係が御座いましょうか。<br><br>御伺い申し上げます。<br><br> 骨が無いのではない。<br><br>柔かいのである。<br><br>蛇の生れ代りである。<br><br>未だ浄化していない。<br><br>小さいうちなら殆ど治るが、十八にもなると固まっているので、ある程度しか治らぬ。<br><br>坐る位にはなるかもしれぬ。<br><br>（S24. 7.22） 099 骨なし子（蛇） 今年五歳になる女の子、生れると同時に現在の父母にもらわれたのですが、生れた時より骨があっても無いようなもので、コンニャクのごとき体です。<br><br>昨年中頃より養父母は入信して毎日浄霊致しておりますが、これはただ運動神経の発達が遅れているだけでしょうか。<br><br>それとも何か霊的原因がありますか。<br><br>また、完全に治るでしょうか。<br><br>お教え下さい。<br><br>浄霊法はどうでしょうか。<br><br> 運動神経の発達が遅れているといっても原因がある。<br><br>いかなる原因によって発達せぬかを指摘せねば何にもならぬ。<br><br> 蛇の霊が憑いているとグニャグニャである。<br><br>龍の生れ代りらしい。<br><br>龍神が憑いているのもあるが、憑いてるのは局部的が多い。<br><br>浄霊しているうち段々よくなる。<br><br>段々蛇の特性が除れてゆく。<br><br> 根気よくして、親が信仰して徳を積む。<br><br> 100 操語不能・砕噛不能・涎の子（龍） 本年七歳の女児、生れつき言語不能、食物を噛み砕く事不能、口より多量の涎を出し、歩行困難、牛のような状態です。<br><br>浄霊を行ったらある程度治るでしょうか。<br><br> 動物霊が早く生れて来たので、動物時代の習性が多分に残っている。<br><br>牛とすれば噛み砕く事が出来る筈だから牛ではない。<br><br>龍神（蛇）である。<br><br>蛇は食物は呑むし、骨が固くならずグニャグニャしているのはそれである。<br><br>浄霊を気長にすれば一年一年少しずつよくなる。<br><br>すっかりは難しいがある程度まで治る。<br><br>人により数年はかかる。<br><br>年頃までにはよくなろう。<br><br>（S23.10.15） 101 魚鱗癬 私は魚鱗癬で悩まされておりますが、治るでしょうか。<br><br>治るとすればいかなる霊の憑依でありましょうか。<br><br> 龍神の転生のためである。<br><br> rattail（注） 〔 妙智の業（光４号） 、昭和24(1949)年4月8日発行〕 「私は魚鱗鮮〔癬〕（ぎょりんせん）で悩まされておりますが治るでしょうか。<br><br>またなんの霊の憑依でしょうか。<br><br>」 『龍神の転生で世間よくあるが、これは一生治らない。<br><br>龍コケの模様で赤黒紫などの色である。<br><br>』 〔神智之光 霊学篇 第三篇 諸霊解説（二）014〕 「魚鱗癬は龍神の再生にて、治癒しないとの事ですが、浄霊を受けて浄化すればその皮膚の色艶が変って来て、目立たないようにはならないものでしょうか。<br><br>御伺い致します。<br><br>」 『龍神の再生である。<br><br>浄まってゆくと龍神の分子より人間の分子が多くなるから薄くはなる。<br><br>（S24.11.26）』 102 痛み感ぜぬ子 本年八月入信させて戴きました婦人、夫は戦死致し次の夫を迎えましたが、事情がありまして別れ、また三回目の夫を迎えました。<br><br>一番最初の夫との間に生れました女子、本年八歳になり元気でおりますが、全身つねってもおさえても全然痛いと申しません。<br><br>肩と首の部分は特に固く石のようで御座います。<br><br>今回急に両眼共血走ったように真赤になり、それと同時に下瞼より鼻にかけ隈取るように赤黒い斑点が出て参りました。<br><br>御浄霊により大分薄れて参りました。<br><br>この斑点や両眼の血走った赤黒色と戦死致しました父親、または二回目の父親と何か関係がございましょうか。<br><br>御伺い申し上げます。<br><br> 動物の生れ代りである。<br><br> 動物には蛇とか蜥蝪などのように痛みを感じないのがある。<br><br>（S24.11. 2） 103 全身の毛毎年生え代る 本年十四歳の男子、三歳頃より頭髪をはじめ睫、眉毛等全身の毛が抜けはじめ、以後毎年一回チョボチョボと二、三ケ月生えてはまた抜け切れてしまいます。<br><br>現在夫婦共入信、昨年五月より御浄霊させて戴いておりますが、別に変化も御座居ません。<br><br>発病当時相当に医療を加えましたが効果がなく、最近まで放任して参りました。<br><br>先祖には僧侶なく、神官の者はあったようで御座居ますが、何か霊的の障りで御座いましょうか。<br><br>御伺い申し上げます。<br><br> 龍神の生れ代りである。<br><br>未だ人間になり切っていない。<br><br>信仰によってある程度龍神の気が抜けてくる。<br><br>気長にやれば治る。<br><br>（S24. 5.22）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Estudos Espirituais - Volume I: Doenças de Natureza Espiritual (Parte 3)</h2>
 <h2>Reencarnação</h2>
@@ -149,5 +301,48 @@ function toggleLang(lang) {
 <p><strong>103 Pelos do Corpo Inteiro que se Renovam Anualmente</strong></p>
 <p>Um rapaz de catorze anos, desde os três, começou a perder todos os pelos do corpo, incluindo cabelos, cílios e sobrancelhas. Desde então, uma vez por ano, os pelos crescem esparsamente por dois ou três meses e depois caem por completo novamente. Seus pais são membros e vêm lhe ministrando Johrei desde maio do ano passado, sem que haja qualquer alteração. No início da doença, ele recebeu muitos tratamentos médicos, mas sem efeito, e o caso havia sido deixado de lado até recentemente. Não há monges em sua ascendência, mas pode ter havido sacerdotes xintoístas. Trata-se de algum distúrbio espiritual?</p>
 <p>É a reencarnação de um Deus-Dragão que ainda não se humanizou por completo. Através da fé, a influência do Deus-Dragão será gradualmente removida. Se perseverarem com paciência, ele será curado. (22/05/1949)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（三） ６ 086-103 転生 086 白い蜘蛛 今月三日頃横浜日野教導所で午後二時頃御浄霊（信者六名）しておりますと大光明如来様の床の間より一匹の真白な蜘蛛が出て私の身の周りを三回回り、御浄霊中の信者の身の周りを二回回り、畳の上に下りました。<br/><br/>一人の信者が捕まえようとしましたが、どうしても捕えることが出来ず、その中に元出て来た床の間へ入って行ってしまいました。<br/><br/>右はいかなる訳で御座居ましょうか。<br/><br/> 本来蜘蛛はわるい。<br/><br/>白くなったのは浄化されたもの、よくなったものである。<br/><br/> 元は人間で、改心して救われた事をみせたかったのである。<br/><br/>この家の祖先である。<br/><br/> すべて白いものはいい。<br/><br/> 人間はよく蜘蛛に生れる。<br/><br/>（S24. 7.29） 087 転生の蛙（蛙癲癇） ある青年が痔病で重体となり、その後御利益により全快し、光明如来を頂きまして毎日朝夕お参りいたしますが、ある日お参りをし立去ろうとして思いがけなく振返って見ると、蛙があらわれ、数回お軸に飛びつき、早速お浄めをいたしますと窓口へ去りました。<br/><br/>いかがなわけでしょうか。<br/><br/> 人間が蛙になっている。<br/><br/>それが光明如来様に救って戴きたいというので飛びついたのであろう。<br/><br/>お浄めをしたら帰ったというのは、それで満足して帰った訳である。<br/><br/> 蛙の生れ代りなど随分ある。<br/><br/>蛙式癲癇は、押潰されたようにギャーッと言って倒れる。<br/><br/> 痔は単なる浄化であって、蛙と関係はない。<br/><br/>（S23.10.24） 088 蛇自殺・噛食不能児生まる 信者の家の藁の中に丸くなったまま蛇が骨となっておりました。<br/><br/>近所の人に聞いてみた所、人に見せずに祀っていると家が非常に栄えると教えられ、お宮を求め蛇の骨を入れ、床の間に祀っております。<br/><br/>それより数年後子供が生れ、その子供は現在七歳ですが食物を噛み砕くこと不能、涎を多量に出し、歩行困難です。<br/><br/>祀った蛇と関係がありましょうか。<br/><br/> 蛇が人間に生れたがっていたものが生れ代ったもので、蛇の分子が残っているのである。<br/><br/>蛇は物を噛まぬし、涎を出すものである。<br/><br/>これは蛇が自殺したものと思う。<br/><br/>よほど人間に生れて来たかったもので、藁の中で餓死したものである。<br/><br/>この蛇は祖霊である。<br/><br/> 徳を積むと母などの苦痛が減る。<br/><br/>苦痛が減ると心配事はなくなる。<br/><br/>浄霊により治る。<br/><br/>（S23.10.25） 089 蛇を使って出た天国霊 本年五月二十一日に死亡した二十三歳の女の方が、去る八月二十日、その姉さんに憑って出て参りました。<br/><br/>「私の死因は生存中勤めていた工場の主任に可愛がられたため、他の人の恨みを受け、蛇を付けられたのが原因だった」と申します。<br/><br/>（口中より多量の粘液を出しておりました）「今天国に救われている。<br/><br/>現界に出させて頂くのにそのままでは出られないのでその蛇を使って出て来ました」との事で御座います。<br/><br/>果して天国に救われている霊が現界に出ます際、動物霊を使うもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> なお、憑依霊は「霊界の御浄霊法はこうですよ」と申し両手で浄霊してくれます。<br/><br/>また、憑依中本人の本守護神は霊界へ行き、祖先を御浄霊しておりますと本人が覚醒して申します。<br/><br/>霊が天国へ帰る時は紫雲に乗って帰る姿がはっきりと分ると申しますが、これについて御教えを御願い申し上げます。<br/><br/> 蛇の毒は粘液――ヌラである。<br/><br/>胃癌は蛇の霊であるが、大抵は医者の誤診が多い。<br/><br/> 重くなってからヌラを出すのは癌である。<br/><br/> 蛇を使って出たというのは、龍神が人間に生れ更って出る事である。<br/><br/>人間に憑るようになれば生れ更ってくる。<br/><br/>人間というのは、人間化して来ているからである。<br/><br/> たしかに天国で救われているに違いない。<br/><br/> 後は本当である。<br/><br/>（S24. 9.11） 090 蛇の因縁の家 龍神の御祀りについて御伺い致します。<br/><br/>私の家は高山市の中央、宮川の岸辺で、俗に蛇屋敷と云われたところで、今から十九年前に新築した時土蔵付近は特に蛇が多かったそうです。<br/><br/>父は十四年前胃癌で死にました。<br/><br/>父母は夫婦養子で、私達兄弟は七人でしたが、今は姉四人（皆他家に嫁）と私一人現存しております。<br/><br/>昭和十六年頃ある行者の言により家の東方（川岸）に龍神を祭りました。<br/><br/>（姫長大明神、白姫大明神）それは、新築の時黒白の屋敷蛇を生埋めにしてあるから龍神を祭るがよいと言われたからであります。<br/><br/>その後昭和二十一年に母も私も御光を戴き、続いて光明如来を御祭りしました。<br/><br/>昭和二十三年二月、例祭の時ある娘さんに父の霊が憑り、大変怒っておりました。<br/><br/>「俺は家に対する執着のため、蛇となって苦しんでいるのに、御前達が気がつかぬと焼いてしまうぞ」と言いました。<br/><br/>それ以来私も一生懸命御手伝いを心掛けておりますが、御祭りは今後いかにしたらよいのでしょうか。<br/><br/> 次は、その御祭りの後でしたか、母が表の小川に蛇が死んでいるから見ろと云うのですが、私は見に往きませんでした。<br/><br/>二、三日経過して何気なく小川を覗くと、長さは一尺位しかありませんが馬鹿に太い美しい蛇が死んでおりました。<br/><br/>「気味悪い恰好だな」と思ったら急に流れ出して見えなくなりました。<br/><br/>私が見る迄流れなかったのは不思議でなりません。<br/><br/>いかなる理由でしょうか。<br/><br/>御教示願います。<br/><br/>またいかにしたら祖霊は救われるでしょうか。<br/><br/> すでにお祀りしたからいい訳である。<br/><br/> 091 ロクロ首実例（半人半蛇） 二十四歳の女が嫁に行き、一週間程にて離縁となりしため親がその理由をただせしところ、中々口をききませんでしたが「実は夫婦で寝ると夜中に首が長く伸び天井を舐める」との事、親は喫驚して「家にいる時はそのような事はなかった」と申しております。<br/><br/>所が天井にはナメクジの這ったような跡があり、夫は嫁の事とて誰にも言えなかったのでしたが、恐る恐る申し出ました（伸びた時は首に縦縞があるそうです）と言う事であります。<br/><br/>まだ一度も浄霊した事もございませんが、この原因並びに信仰を奨めて一日も早く救われる事が出来るでしょうか。<br/><br/>お伺い申し上げます。<br/><br/> ロクロ首である。<br/><br/>無論蛇――蟒（うわばみ）で、本当に人間になり切っていない。<br/><br/>人間が蛇に堕ちまた人間に生れてくる。<br/><br/>半ば意識があるべきだが、意識がないのはよほど蛇そのものになっている。<br/><br/>美人である。<br/><br/> 治るのは難しかろう。<br/><br/>半人半蛇である。<br/><br/>（S24.11. 7） rattail（注） 〔 夜中首がのびる 『光』38号、昭和24(1949)年12月3日発行〕 092 白ッ子 俗に云う白ッ子とはどんな原因のものでしょうか。<br/><br/>また浄霊により治癒致すものでしょうか。<br/><br/> 白龍の生れ更りである。<br/><br/>（S24. 5.13） 093 白子 白子は霊的にいかな関係が御座居ましょうか。<br/><br/> 白蛇の生れ代りである。<br/><br/>これは治らぬ。<br/><br/> （S24. 6.22） 094 珍しい白子 ある未入信の方の赤児、全身白く、頭髪まで白く、医師も今迄に多くの白子を見るが、このような真白の子は初めてだと言っているそうで御座います。<br/><br/>また、その児は日光に非常に弱いそうで御座いますが、いかなる訳で御座いましょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 白蛇が生れる。<br/><br/>非常に白いのとそうでないのとある。<br/><br/> 初めて人間に生れ更ると白色が多分に残っている。<br/><br/>（S24.10.11） 095 白子の治癒 二男、四男が白子ですが、長男、三男は普通の者です。<br/><br/>両親親戚には変った人はありません。<br/><br/>因縁をお教え願います。<br/><br/> 白蛇が人間に転生した場合一代はそうなる。<br/><br/>浄霊である程度治るが、全部という事は難しい。<br/><br/> 096 白蛇転生児 村上勝子（五歳）は生れた時より肉体、頭髪共に真白く、睫、眉毛共白く、眼玉は兎のように白赤く、智恵は普通以上に良く、生れた時より健康です。<br/><br/>世間でよく白子と云われますが、いかなる因縁でしょうか。<br/><br/>また御浄霊で治るでしょうか。<br/><br/>御教示を御願い申し上げます。<br/><br/> 白蛇の生れ代りである。<br/><br/>浄霊により相当効果がある。<br/><br/>五歳位なら治るかもしれぬ。<br/><br/>（S24. 8. 8） 097 白睫の女 本年四十一歳になる女で、生れつき睫の白い人が御座いますが、こういうのはどう言う訳で御座いましょうか。<br/><br/> （小林秀二郎――山本勘介の霊の話） 動物の霊の再生と思う。<br/><br/> rattail（注） 小林秀二郎、日本観音教明成会会長の事か。<br/><br/> 〔 九死に一生を得て 『地上天国』2号、昭和24(1949)年3月1日発行〕 098 骨なし娘 十八歳の娘で御座いますが、生れつき骨が御座いません。<br/><br/>寝たままで御座いまして、食物も自分では戴く事も出来ず話も出来ません。<br/><br/>但し月経は御座います。<br/><br/>霊的にいかなる関係が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 骨が無いのではない。<br/><br/>柔かいのである。<br/><br/>蛇の生れ代りである。<br/><br/>未だ浄化していない。<br/><br/>小さいうちなら殆ど治るが、十八にもなると固まっているので、ある程度しか治らぬ。<br/><br/>坐る位にはなるかもしれぬ。<br/><br/>（S24. 7.22） 099 骨なし子（蛇） 今年五歳になる女の子、生れると同時に現在の父母にもらわれたのですが、生れた時より骨があっても無いようなもので、コンニャクのごとき体です。<br/><br/>昨年中頃より養父母は入信して毎日浄霊致しておりますが、これはただ運動神経の発達が遅れているだけでしょうか。<br/><br/>それとも何か霊的原因がありますか。<br/><br/>また、完全に治るでしょうか。<br/><br/>お教え下さい。<br/><br/>浄霊法はどうでしょうか。<br/><br/> 運動神経の発達が遅れているといっても原因がある。<br/><br/>いかなる原因によって発達せぬかを指摘せねば何にもならぬ。<br/><br/> 蛇の霊が憑いているとグニャグニャである。<br/><br/>龍の生れ代りらしい。<br/><br/>龍神が憑いているのもあるが、憑いてるのは局部的が多い。<br/><br/>浄霊しているうち段々よくなる。<br/><br/>段々蛇の特性が除れてゆく。<br/><br/> 根気よくして、親が信仰して徳を積む。<br/><br/> 100 操語不能・砕噛不能・涎の子（龍） 本年七歳の女児、生れつき言語不能、食物を噛み砕く事不能、口より多量の涎を出し、歩行困難、牛のような状態です。<br/><br/>浄霊を行ったらある程度治るでしょうか。<br/><br/> 動物霊が早く生れて来たので、動物時代の習性が多分に残っている。<br/><br/>牛とすれば噛み砕く事が出来る筈だから牛ではない。<br/><br/>龍神（蛇）である。<br/><br/>蛇は食物は呑むし、骨が固くならずグニャグニャしているのはそれである。<br/><br/>浄霊を気長にすれば一年一年少しずつよくなる。<br/><br/>すっかりは難しいがある程度まで治る。<br/><br/>人により数年はかかる。<br/><br/>年頃までにはよくなろう。<br/><br/>（S23.10.15） 101 魚鱗癬 私は魚鱗癬で悩まされておりますが、治るでしょうか。<br/><br/>治るとすればいかなる霊の憑依でありましょうか。<br/><br/> 龍神の転生のためである。<br/><br/> rattail（注） 〔 妙智の業（光４号） 、昭和24(1949)年4月8日発行〕 「私は魚鱗鮮〔癬〕（ぎょりんせん）で悩まされておりますが治るでしょうか。<br/><br/>またなんの霊の憑依でしょうか。<br/><br/>」 『龍神の転生で世間よくあるが、これは一生治らない。<br/><br/>龍コケの模様で赤黒紫などの色である。<br/><br/>』 〔神智之光 霊学篇 第三篇 諸霊解説（二）014〕 「魚鱗癬は龍神の再生にて、治癒しないとの事ですが、浄霊を受けて浄化すればその皮膚の色艶が変って来て、目立たないようにはならないものでしょうか。<br/><br/>御伺い致します。<br/><br/>」 『龍神の再生である。<br/><br/>浄まってゆくと龍神の分子より人間の分子が多くなるから薄くはなる。<br/><br/>（S24.11.26）』 102 痛み感ぜぬ子 本年八月入信させて戴きました婦人、夫は戦死致し次の夫を迎えましたが、事情がありまして別れ、また三回目の夫を迎えました。<br/><br/>一番最初の夫との間に生れました女子、本年八歳になり元気でおりますが、全身つねってもおさえても全然痛いと申しません。<br/><br/>肩と首の部分は特に固く石のようで御座います。<br/><br/>今回急に両眼共血走ったように真赤になり、それと同時に下瞼より鼻にかけ隈取るように赤黒い斑点が出て参りました。<br/><br/>御浄霊により大分薄れて参りました。<br/><br/>この斑点や両眼の血走った赤黒色と戦死致しました父親、または二回目の父親と何か関係がございましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 動物の生れ代りである。<br/><br/> 動物には蛇とか蜥蝪などのように痛みを感じないのがある。<br/><br/>（S24.11. 2） 103 全身の毛毎年生え代る 本年十四歳の男子、三歳頃より頭髪をはじめ睫、眉毛等全身の毛が抜けはじめ、以後毎年一回チョボチョボと二、三ケ月生えてはまた抜け切れてしまいます。<br/><br/>現在夫婦共入信、昨年五月より御浄霊させて戴いておりますが、別に変化も御座居ません。<br/><br/>発病当時相当に医療を加えましたが効果がなく、最近まで放任して参りました。<br/><br/>先祖には僧侶なく、神官の者はあったようで御座居ますが、何か霊的の障りで御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 龍神の生れ代りである。<br/><br/>未だ人間になり切っていない。<br/><br/>信仰によってある程度龍神の気が抜けてくる。<br/><br/>気長にやれば治る。<br/><br/>（S24. 5.22）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

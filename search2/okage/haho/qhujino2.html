@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhujino2</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治の心臓弁膜症全快 ―― 迷って知る医学の誤謬 ―― 『アメリカを救う』昭和28(1953)年1月1日発行 宮崎県 南光中教会 吉田容子（23） 讃へても称へ尽せぬ大御幸筆も言葉も表はす由なき （御讃歌） 神様になんと御礼の言葉も御座いません。<br><br>私は幼少の頃より体が弱く、少し悪くてもそれ医者よ薬よと、一人娘のため世の中の子供達より大切にされて、医学に頼りきっておりました者で御座います。<br><br>京都在住中女学校に入り、学校で運動等の時、とても心臓が苦しくて他の友達と一緒に走れないように苦しくなり、悲しみの日々が幾年続きました事でしよう。<br><br>今思い出しましても悲しい思い出ばかりです。<br><br> 女学校を卒業しましてからは別に運動もしません関係か、別に心臓が苦しいとも感じませんでした（健康人のように楽な心臓ではありませんでした）。<br><br>京都より父母の故郷の宮崎に父母と共に帰りまして、宮崎郵便局に勤めるようになり、局の診療所にて診てもらった時に、医者が「貴女は心臓弁膜症だ、事務をしても無理な事は絶対してはいけない」と注意されましたので、今更ながらそんなにも悪いのか知ら、と私はびっくりしまして世の中が真暗になり、気持が落つかず、それからは又医者だ薬だと、あらゆる薬をのみ、あらゆる注射を打ち続け、生長の家にも入りましたが何の効果もなく、心臓の鼓動は益々激しくなるばかりで、結局郵便局も辞職せねばならなくなり、一年半にて退職し、療養に努めました。<br><br>信頼し縋りきっていました医者からは友人を通じて「容子さんの心臓は死なねば治らない」との冷い言葉を聞かされまして、どれ程悲しみました事でしょう。<br><br>何卒御想像下さいませ。<br><br>今思い出しても実に恐しい事で御座いますが、当時自殺の決心までしておりましたので御座います。<br><br>この私の心臓を救ってくれる人はいないものか？ 医者が駄目ならまだ他に良い薬草でもあるかも知れないと思った瞬間、ふと思い出されたのが京都在住中の親友、広崎恒子さんの事でした。<br><br>そうだ恒子さんに何かよく効く薬草はないか聞こうと、最近の苦しみを訴えて久し振りで便りを出しました。<br><br>恒子さんのお母さんはとても優しい方で元日赤の看護婦長をしておられたので、何か良い薬をと思い出したので御座います。<br><br> ところが恒子さんの返事は、意外にも「神様の道に縋れ」との事にて、私も又かという気持になりました。<br><br>生長の家の事も御座いますので、直ぐには縋る事が出来ませんでした。<br><br>ところが恒子さんの再三のお奨めによりまして、送付して下さいました『地上天国』と『栄光』新聞を読む気持になりまして、読む内にお縋りする心が湧き「宮崎市内の支部をお知らせ下さい」と御願い致しました。<br><br>不思議なものでお縋りする気持になりますと、恒子さんの御返事を待つのがそれこそ一日千秋の思いで、待ちに待ったお返事が参りまして、それによって内淀川町川崎正義先生のお宅を紹介して下さいましたので、十月五日にぜひお話を聞いてみようと思い、飛びたつ思いで淀川支部に参拝しました。<br><br> 母と共に先生のお話を聞き、浄霊という事を初めてして戴きまして、それからは毎日バスにて通い始めました。<br><br>十七、八日目で御座いましたでしょう。<br><br>先生が「貴女の心臓は大丈夫治りますが、もしかすると左半身不随になるかも知れませんよ」とのお言葉に、若い者が半身不随などになるか知ら、と疑っていましたところ、二十一日目の十月二十五日の朝の出来事で御座います。<br><br>普通に起床しまして朝食も終り、起きて長く時間もたたないのに、睡くてなりませんので、母に床を敷いて頂いてぐっすり休みました。<br><br>十時頃日が醒めまして起きようと思い、起きかかりますが腰が立たず、左手左足に力がはいらず、どうもがいても起きられませんので、母を呼び、それから私は意識不明になりました。<br><br>今から考えますと大変良い御浄化を頂きましたので御座います。<br><br>それからは寝たっきりの重病人で、御食事も母の手、お不浄も母の手をわずらわし、毎日いらだたしい気持で川崎先生にも随分苦情を言ったりして、先生を困らしたもので御座います。<br><br>腕どころか一本の指ですら動かないのですもの、悲しくなるのは当然で御座います。<br><br>半身不随！ 年を取った方は三年も六年も、不随にて人手をわずらわせます。<br><br>私はどうなるのでしょうか。<br><br>私も三年も毎日悲しい思いをせねばならないのか知ら、と不安は次から次へと襲って参ります。<br><br>生きた屍？ ああどうなるのでしょう！ 私が倒れましてから二、三日して先生に対し「神様が娘をこのようにしたのだから一週間で治して貰いたい、それで治らないと警察に訴える」と父が言っていました。<br><br>先生は穏かに微笑をたたえて、「浄霊の原理から浄霊のために溶解された毒素が左半身に廻ったので、これで心臓麻痺の危機を脱したのですから、決して心配は要りません。<br><br>私が絶対責任をもちます。<br><br>私も土地の者で親兄弟も皆います。<br><br>絶対逃げ隠れは致しません。<br><br>どうぞ安心して御縋りしていて下さい」と優しく説いて下さいまして、頑固な父もどうやら納得しまして毎日の浄霊を受けられるようになりました。<br><br>それからは世間では普通薄紙をはぐようにと申しますが、私のは毎日厚紙をはぐように調子良く頭痛も取れ、腕の痛みも取れ、まず指先が動くようになり、次に一本ずつ指が動くようになり、五本の指全部にて握り締める事も出来るようになりました。<br><br>「左足も動いた、足の指先にも力がはいるよ。<br><br>お母さん、先生、私は嬉しい」と、神様への感謝はつきる事なく、毎日毎日が嬉しくなり「いつ坐れるだろう？ いつ歩けるでしょう？ いつお茶碗が持てるでしょう」等と、次から次への希望が湧いて参ります。<br><br>毎日が楽しく一回の御浄霊毎に良くなり、先生も「効果の早いのに毎日が楽しみだ、実に有難い御守護だ」と喜んで、お寒い中を御足労して下さいました。<br><br>愛と熱の真心そのものの先生のお姿が神様のように有難くて、毎日待ちこがれていました。<br><br>医者でさえ頼り切っている時には神様のように見えるのですもの、私がそう思ったのも無理は御座いませんでしょう。<br><br> まず母が十一月三日に入信さして戴き、次に御屏風観音様を奉斉し、御利益の早いのに父も驚きまして、十二月十五日に入信さして戴き、その月の十八日に私も光栄ある信者の一員に加えて戴きました。<br><br>その頃は母に手伝って貰ってようやく歩けるようになりました頃で御座います。<br><br>二カ月目には一人で便所に行けるようになり、一人で用便するようにまで恢復致しました。<br><br>正月には親子三人にて食卓を囲み、お碗を左手に持って食事が出来まして誠に楽しいお正月を迎えました。<br><br>生涯忘れる事の出来ない嬉しい一こまで御座いました。<br><br> 正月の十日の事で御座います。<br><br>夜の十時頃久振りに心臓がとても苦しくなり、父に先生の教会まで自転車にて走って貰い（一里の距離）寒夜に御足労御願いしたので御座います。<br><br>父は直ぐ走ってくれました。<br><br>その折川崎先生は十日恵比須（隣組の交際）にて、三、四人の残客と酒宴を披いておられ、訪れました父に対し「吉田さん、容子さんが又苦しくなりましたか。<br><br>しかしもう大丈夫ですよ。<br><br>貴方が支部に御願いに来られた事が神様に通じていますから、もう心配は要りません。<br><br>容子さんは楽になっています。<br><br>まあ参拝してお帰り下さい。<br><br>私は心配はないと思いますが直に参上します。<br><br>が、まあ一杯いかがですか」と言って先生が下すった杯を受け取ったなり、父は飲む気になれず気にかかるからと、直ぐ参拝して帰りましたそうです。<br><br>先生が言われた通り、私は父が支部に到着する頃には楽になりまして休まして戴きました。<br><br>父としましても偉大な神様だと、信仰を深める気持になって「すぐにでも御神体を奉斎したい」と母に話していました。<br><br>その夜は先生も父の後を追うようにして御出になり、御浄霊をして下されて寒夜を又御帰りになられました。<br><br> これまで御守護戴きまして、いかがしました事で御座いましょうか。<br><br>二月のある日より私自身がだんだん分らなくなり、勿体ない事で御座いますが、神様を嫌うようになり、先生の御浄霊も嫌になり、先生自体も嫌になりまして平気で先生に向い「先生が一番嫌になった」と言うようになりまして、「容子はどうしたのでしょう、何を言うのです」と母親が心配し出し、母が私の口をつねった事も御座います（先生の御話では父が御神体を奉斎したい気持になったので、祀らしては困る邪神がいて妨害しだしたのだとの事でした）。<br><br>私は「医学でなければ駄目だ」と言うように狂い出しまして、一番困ったのが母で御座います。<br><br>長い間私の手となり足となって、懸命に一人娘のわがままを聞入れてくれ、どれだけ心を砕き心配をしている母でしょう。<br><br>その母の心も酌まず、大恩ある川崎先生を嫌い出したので御座います。<br><br>その時の母は泣くようにして先生に御詫び申し上げておりました。<br><br>先生は「本人が言っているのではありませんよ、言わされているんですから心配は要りませんから」と母を慰めて下さいました。<br><br>私の気持は「ヘン何だい。<br><br>何が神様か、病人はどうしても現代医学でなければ駄目ですよ」「それでは、どうしてこんな短い日数で歩けるようになったのですか」と問われますと「それは自然ですよ、浄霊なんかではありませんよ、医学で治ったら先生なんか、いや先生ではない、あんたなんか土下座さして坊主にしてやりますよ」というように日増に悪口が酷くなり、「御浄霊なんかやめてくれ」と益々嫌うようになりましたので、先生も母と相談の上「暫く様子を見ましよう」と手を引かれましたので御座います。<br><br>母一人はとても残念がりましたが、私がとても医者の診察を要求しましたので、仕方なくその要求を入れてくれまして、父に頼んでＫ町のＴ医師を迎えて診察をして頂きました。<br><br>Ｔ医師の診察は「心臓が破れたから半身不随になったので、安静にしておればよくなる」と言って、一本注射をうって帰り、再度の往診の時も一本注射して帰りました。<br><br>それから高熱が出だし、食欲は無くなり、歩ける事は勿論立つ事すら出来なくなりました。<br><br>毎日毎日高熱が続き、母は日夜一睡も出来ず、氷枕の入替食事の事から大小便の事まで、一人でてんてこ舞で御座いました。<br><br>私が半身不随になった時以上に多忙を極め、来る日も来る日も熱は下らず、今度はＴ町のＡ医師を迎えました。<br><br>Ａ医師は「弁膜がちぎれて半身に廻り、不随になったので、悪くすると足を切断しなければならない」とおどされました。<br><br>それでは私が納らず、第三人目の医者Ａ町のＣ医師の往診を乞いましたところ、一日に二回も往診し注射ばかりなし、都合十日以上も往診しましたが益々悪化し、最後に「お母さんには誠にお気の毒ですが、娘さんは助りませんでしょう。<br><br>足も腫れましたしね、諦めて下さい」と二日にわたって話したそうです。<br><br>それで長くはないと思った父は、葬式の準備までしていたそうで御座います。<br><br>今でこそ笑話になりますが友達は香奠を包んでいたとの事で御座います。<br><br> 最後に死出の花むけにもと、県病院のＭ博士を御願いしましたところ、「肋膜と腹膜が悪くなっているからコンニャクを熱くして下腹部に当てなさい」と言われ、その通りにしましたが気持が悪く中止しました。<br><br>エキホスも千円近くも買い横腹に貼りましたが、胸を締められ心臓が苦しくなるばかりで何の効果もありませんので、これも中止致しました。<br><br> 僅か一カ月位にて、あれだけ肥っていた体が驚く程痩せてしまい、誠に今日か明日かという危機にまでなってしまいました。<br><br>三月のある日で御座います。<br><br>医師が頭をひねるようになりましてから、矢張医学は駄目？ 浄霊でなければ駄目だと思うようになりまして、母に「川崎先生に御詫に行って下さい、矢張浄霊でなければ駄目らしいわ」と頼みました。<br><br>母は「今更先生に御願い出来る顔がありますか」とたしなめましたが、幾度も頼むものですから（その時母はこれは助かるかも知れないと思ったそうです）急いで支部に参上し、先生に御詫して又御足労掛けるようになりました。<br><br>先生が御出になったら何と御詫しようかと心配でなりませんでしたが、あのなつかしい先生のお顔を見ると涙が出て、何も言えませんでした。<br><br>御出になった先生は「容子さん私も坊主にならずに済みましたね」とお笑になりましたのには穴があれば這入りたいようで御座いました。<br><br>「大分痩せましたね。<br><br>しかし心配しなさんな、又直ぐ肥って来ますよ。<br><br>もう迷ってはいけませんよ。<br><br>医学がどんなものか良く分ったでしょう」と優しくさとして下さいまして、私はどうしてこんな先生を嫌ったのか不思議でなりませんでした。<br><br>もう絶対医学には迷うまいと決心致しました。<br><br>それからは毎日熱心な先生の御浄霊を受ける体となりまして、食欲も出だし、勿論熱は直ぐ下り、手足にも力がはいり、一カ月足らずで起られるようになり、再び歩ける身となりまして感激致しております。<br><br>時折浄化致しまして、吐血した事も御座いますし、毎日痰が四、五合位ずつ二週間も続いた事も御座います。<br><br>その都度益々元気になり、左半身も軽くなって参りました。<br><br>毎日運動を続けております。<br><br> ただ今ではどんな遠道でも、心臓が苦しいと思った事は御座いません。<br><br>健康人と少しも変りません。<br><br>宮崎支部及び南宮崎出張所の例祭、臨時祭等にも一回も欠かさず参拝さして頂き、熱心にお縋りさして戴いております。<br><br>世間の人々は死の危機の状態から全快しました今日までの私の姿を見ながら「肥って顔色も良くなり綺麗になりましたね」と言いながら神の道に縋ろうとは致しません。<br><br>実に情ない人達で御座います。<br><br>この有難い御道にお導き下さいました恒子さんに御礼申し上げます。<br><br>又直接御指導下さいました川崎先生や。<br><br>尾崎先生にも厚く感謝致します。<br><br> 明主様、大光明如来様誠に有難う御座いました。<br><br>自分の体で浄霊と医学と対照致しまして、医学の誤謬が判然と分りました。<br><br>何卒今後共御守護の程伏して御願い申し上げます。<br><br>微力な私共で御座いますが、御恩の万分の一にも御報い致したいと毎日念願しております。<br><br>拙き文にて何卒御許し下さいませ。<br><br> （昭和二十七年三月一日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Cura Completa de uma Valvulopatia Cardíaca Incurável — O Erro da Medicina Desvendado pela Incerteza</h2>
 <p>Publicado em “Salvando a América”, 1º de janeiro de 1953
@@ -123,5 +278,48 @@ Nem o pincel, nem as palavras são capazes de expressá-la.</p>
 <p>Gostaria de expressar minha gratidão à minha amiga Tsuneko, que me conduziu a este caminho sagrado, e também aos Mestres Kawasaki e Ozaki, que me orientaram diretamente.</p>
 <p>A Meishu-Sama e ao Supremo Deus, muito, muito obrigada. Ao contrastar em meu próprio corpo os efeitos do Johrei e da medicina, pude compreender com absoluta clareza o erro desta última. Humildemente, rogo por Vossa contínua proteção. Embora minhas forças sejam ínfimas, oro todos os dias para poder retribuir, ainda que minimamente, a imensa graça que recebi. Peço perdão por este texto tão simples.</p>
 <p>(1º de março de 1952)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 不治の心臓弁膜症全快 ―― 迷って知る医学の誤謬 ―― 『アメリカを救う』昭和28(1953)年1月1日発行 宮崎県 南光中教会 吉田容子（23） 讃へても称へ尽せぬ大御幸筆も言葉も表はす由なき （御讃歌） 神様になんと御礼の言葉も御座いません。<br/><br/>私は幼少の頃より体が弱く、少し悪くてもそれ医者よ薬よと、一人娘のため世の中の子供達より大切にされて、医学に頼りきっておりました者で御座います。<br/><br/>京都在住中女学校に入り、学校で運動等の時、とても心臓が苦しくて他の友達と一緒に走れないように苦しくなり、悲しみの日々が幾年続きました事でしよう。<br/><br/>今思い出しましても悲しい思い出ばかりです。<br/><br/> 女学校を卒業しましてからは別に運動もしません関係か、別に心臓が苦しいとも感じませんでした（健康人のように楽な心臓ではありませんでした）。<br/><br/>京都より父母の故郷の宮崎に父母と共に帰りまして、宮崎郵便局に勤めるようになり、局の診療所にて診てもらった時に、医者が「貴女は心臓弁膜症だ、事務をしても無理な事は絶対してはいけない」と注意されましたので、今更ながらそんなにも悪いのか知ら、と私はびっくりしまして世の中が真暗になり、気持が落つかず、それからは又医者だ薬だと、あらゆる薬をのみ、あらゆる注射を打ち続け、生長の家にも入りましたが何の効果もなく、心臓の鼓動は益々激しくなるばかりで、結局郵便局も辞職せねばならなくなり、一年半にて退職し、療養に努めました。<br/><br/>信頼し縋りきっていました医者からは友人を通じて「容子さんの心臓は死なねば治らない」との冷い言葉を聞かされまして、どれ程悲しみました事でしょう。<br/><br/>何卒御想像下さいませ。<br/><br/>今思い出しても実に恐しい事で御座いますが、当時自殺の決心までしておりましたので御座います。<br/><br/>この私の心臓を救ってくれる人はいないものか？ 医者が駄目ならまだ他に良い薬草でもあるかも知れないと思った瞬間、ふと思い出されたのが京都在住中の親友、広崎恒子さんの事でした。<br/><br/>そうだ恒子さんに何かよく効く薬草はないか聞こうと、最近の苦しみを訴えて久し振りで便りを出しました。<br/><br/>恒子さんのお母さんはとても優しい方で元日赤の看護婦長をしておられたので、何か良い薬をと思い出したので御座います。<br/><br/> ところが恒子さんの返事は、意外にも「神様の道に縋れ」との事にて、私も又かという気持になりました。<br/><br/>生長の家の事も御座いますので、直ぐには縋る事が出来ませんでした。<br/><br/>ところが恒子さんの再三のお奨めによりまして、送付して下さいました『地上天国』と『栄光』新聞を読む気持になりまして、読む内にお縋りする心が湧き「宮崎市内の支部をお知らせ下さい」と御願い致しました。<br/><br/>不思議なものでお縋りする気持になりますと、恒子さんの御返事を待つのがそれこそ一日千秋の思いで、待ちに待ったお返事が参りまして、それによって内淀川町川崎正義先生のお宅を紹介して下さいましたので、十月五日にぜひお話を聞いてみようと思い、飛びたつ思いで淀川支部に参拝しました。<br/><br/> 母と共に先生のお話を聞き、浄霊という事を初めてして戴きまして、それからは毎日バスにて通い始めました。<br/><br/>十七、八日目で御座いましたでしょう。<br/><br/>先生が「貴女の心臓は大丈夫治りますが、もしかすると左半身不随になるかも知れませんよ」とのお言葉に、若い者が半身不随などになるか知ら、と疑っていましたところ、二十一日目の十月二十五日の朝の出来事で御座います。<br/><br/>普通に起床しまして朝食も終り、起きて長く時間もたたないのに、睡くてなりませんので、母に床を敷いて頂いてぐっすり休みました。<br/><br/>十時頃日が醒めまして起きようと思い、起きかかりますが腰が立たず、左手左足に力がはいらず、どうもがいても起きられませんので、母を呼び、それから私は意識不明になりました。<br/><br/>今から考えますと大変良い御浄化を頂きましたので御座います。<br/><br/>それからは寝たっきりの重病人で、御食事も母の手、お不浄も母の手をわずらわし、毎日いらだたしい気持で川崎先生にも随分苦情を言ったりして、先生を困らしたもので御座います。<br/><br/>腕どころか一本の指ですら動かないのですもの、悲しくなるのは当然で御座います。<br/><br/>半身不随！ 年を取った方は三年も六年も、不随にて人手をわずらわせます。<br/><br/>私はどうなるのでしょうか。<br/><br/>私も三年も毎日悲しい思いをせねばならないのか知ら、と不安は次から次へと襲って参ります。<br/><br/>生きた屍？ ああどうなるのでしょう！ 私が倒れましてから二、三日して先生に対し「神様が娘をこのようにしたのだから一週間で治して貰いたい、それで治らないと警察に訴える」と父が言っていました。<br/><br/>先生は穏かに微笑をたたえて、「浄霊の原理から浄霊のために溶解された毒素が左半身に廻ったので、これで心臓麻痺の危機を脱したのですから、決して心配は要りません。<br/><br/>私が絶対責任をもちます。<br/><br/>私も土地の者で親兄弟も皆います。<br/><br/>絶対逃げ隠れは致しません。<br/><br/>どうぞ安心して御縋りしていて下さい」と優しく説いて下さいまして、頑固な父もどうやら納得しまして毎日の浄霊を受けられるようになりました。<br/><br/>それからは世間では普通薄紙をはぐようにと申しますが、私のは毎日厚紙をはぐように調子良く頭痛も取れ、腕の痛みも取れ、まず指先が動くようになり、次に一本ずつ指が動くようになり、五本の指全部にて握り締める事も出来るようになりました。<br/><br/>「左足も動いた、足の指先にも力がはいるよ。<br/><br/>お母さん、先生、私は嬉しい」と、神様への感謝はつきる事なく、毎日毎日が嬉しくなり「いつ坐れるだろう？ いつ歩けるでしょう？ いつお茶碗が持てるでしょう」等と、次から次への希望が湧いて参ります。<br/><br/>毎日が楽しく一回の御浄霊毎に良くなり、先生も「効果の早いのに毎日が楽しみだ、実に有難い御守護だ」と喜んで、お寒い中を御足労して下さいました。<br/><br/>愛と熱の真心そのものの先生のお姿が神様のように有難くて、毎日待ちこがれていました。<br/><br/>医者でさえ頼り切っている時には神様のように見えるのですもの、私がそう思ったのも無理は御座いませんでしょう。<br/><br/> まず母が十一月三日に入信さして戴き、次に御屏風観音様を奉斉し、御利益の早いのに父も驚きまして、十二月十五日に入信さして戴き、その月の十八日に私も光栄ある信者の一員に加えて戴きました。<br/><br/>その頃は母に手伝って貰ってようやく歩けるようになりました頃で御座います。<br/><br/>二カ月目には一人で便所に行けるようになり、一人で用便するようにまで恢復致しました。<br/><br/>正月には親子三人にて食卓を囲み、お碗を左手に持って食事が出来まして誠に楽しいお正月を迎えました。<br/><br/>生涯忘れる事の出来ない嬉しい一こまで御座いました。<br/><br/> 正月の十日の事で御座います。<br/><br/>夜の十時頃久振りに心臓がとても苦しくなり、父に先生の教会まで自転車にて走って貰い（一里の距離）寒夜に御足労御願いしたので御座います。<br/><br/>父は直ぐ走ってくれました。<br/><br/>その折川崎先生は十日恵比須（隣組の交際）にて、三、四人の残客と酒宴を披いておられ、訪れました父に対し「吉田さん、容子さんが又苦しくなりましたか。<br/><br/>しかしもう大丈夫ですよ。<br/><br/>貴方が支部に御願いに来られた事が神様に通じていますから、もう心配は要りません。<br/><br/>容子さんは楽になっています。<br/><br/>まあ参拝してお帰り下さい。<br/><br/>私は心配はないと思いますが直に参上します。<br/><br/>が、まあ一杯いかがですか」と言って先生が下すった杯を受け取ったなり、父は飲む気になれず気にかかるからと、直ぐ参拝して帰りましたそうです。<br/><br/>先生が言われた通り、私は父が支部に到着する頃には楽になりまして休まして戴きました。<br/><br/>父としましても偉大な神様だと、信仰を深める気持になって「すぐにでも御神体を奉斎したい」と母に話していました。<br/><br/>その夜は先生も父の後を追うようにして御出になり、御浄霊をして下されて寒夜を又御帰りになられました。<br/><br/> これまで御守護戴きまして、いかがしました事で御座いましょうか。<br/><br/>二月のある日より私自身がだんだん分らなくなり、勿体ない事で御座いますが、神様を嫌うようになり、先生の御浄霊も嫌になり、先生自体も嫌になりまして平気で先生に向い「先生が一番嫌になった」と言うようになりまして、「容子はどうしたのでしょう、何を言うのです」と母親が心配し出し、母が私の口をつねった事も御座います（先生の御話では父が御神体を奉斎したい気持になったので、祀らしては困る邪神がいて妨害しだしたのだとの事でした）。<br/><br/>私は「医学でなければ駄目だ」と言うように狂い出しまして、一番困ったのが母で御座います。<br/><br/>長い間私の手となり足となって、懸命に一人娘のわがままを聞入れてくれ、どれだけ心を砕き心配をしている母でしょう。<br/><br/>その母の心も酌まず、大恩ある川崎先生を嫌い出したので御座います。<br/><br/>その時の母は泣くようにして先生に御詫び申し上げておりました。<br/><br/>先生は「本人が言っているのではありませんよ、言わされているんですから心配は要りませんから」と母を慰めて下さいました。<br/><br/>私の気持は「ヘン何だい。<br/><br/>何が神様か、病人はどうしても現代医学でなければ駄目ですよ」「それでは、どうしてこんな短い日数で歩けるようになったのですか」と問われますと「それは自然ですよ、浄霊なんかではありませんよ、医学で治ったら先生なんか、いや先生ではない、あんたなんか土下座さして坊主にしてやりますよ」というように日増に悪口が酷くなり、「御浄霊なんかやめてくれ」と益々嫌うようになりましたので、先生も母と相談の上「暫く様子を見ましよう」と手を引かれましたので御座います。<br/><br/>母一人はとても残念がりましたが、私がとても医者の診察を要求しましたので、仕方なくその要求を入れてくれまして、父に頼んでＫ町のＴ医師を迎えて診察をして頂きました。<br/><br/>Ｔ医師の診察は「心臓が破れたから半身不随になったので、安静にしておればよくなる」と言って、一本注射をうって帰り、再度の往診の時も一本注射して帰りました。<br/><br/>それから高熱が出だし、食欲は無くなり、歩ける事は勿論立つ事すら出来なくなりました。<br/><br/>毎日毎日高熱が続き、母は日夜一睡も出来ず、氷枕の入替食事の事から大小便の事まで、一人でてんてこ舞で御座いました。<br/><br/>私が半身不随になった時以上に多忙を極め、来る日も来る日も熱は下らず、今度はＴ町のＡ医師を迎えました。<br/><br/>Ａ医師は「弁膜がちぎれて半身に廻り、不随になったので、悪くすると足を切断しなければならない」とおどされました。<br/><br/>それでは私が納らず、第三人目の医者Ａ町のＣ医師の往診を乞いましたところ、一日に二回も往診し注射ばかりなし、都合十日以上も往診しましたが益々悪化し、最後に「お母さんには誠にお気の毒ですが、娘さんは助りませんでしょう。<br/><br/>足も腫れましたしね、諦めて下さい」と二日にわたって話したそうです。<br/><br/>それで長くはないと思った父は、葬式の準備までしていたそうで御座います。<br/><br/>今でこそ笑話になりますが友達は香奠を包んでいたとの事で御座います。<br/><br/> 最後に死出の花むけにもと、県病院のＭ博士を御願いしましたところ、「肋膜と腹膜が悪くなっているからコンニャクを熱くして下腹部に当てなさい」と言われ、その通りにしましたが気持が悪く中止しました。<br/><br/>エキホスも千円近くも買い横腹に貼りましたが、胸を締められ心臓が苦しくなるばかりで何の効果もありませんので、これも中止致しました。<br/><br/> 僅か一カ月位にて、あれだけ肥っていた体が驚く程痩せてしまい、誠に今日か明日かという危機にまでなってしまいました。<br/><br/>三月のある日で御座います。<br/><br/>医師が頭をひねるようになりましてから、矢張医学は駄目？ 浄霊でなければ駄目だと思うようになりまして、母に「川崎先生に御詫に行って下さい、矢張浄霊でなければ駄目らしいわ」と頼みました。<br/><br/>母は「今更先生に御願い出来る顔がありますか」とたしなめましたが、幾度も頼むものですから（その時母はこれは助かるかも知れないと思ったそうです）急いで支部に参上し、先生に御詫して又御足労掛けるようになりました。<br/><br/>先生が御出になったら何と御詫しようかと心配でなりませんでしたが、あのなつかしい先生のお顔を見ると涙が出て、何も言えませんでした。<br/><br/>御出になった先生は「容子さん私も坊主にならずに済みましたね」とお笑になりましたのには穴があれば這入りたいようで御座いました。<br/><br/>「大分痩せましたね。<br/><br/>しかし心配しなさんな、又直ぐ肥って来ますよ。<br/><br/>もう迷ってはいけませんよ。<br/><br/>医学がどんなものか良く分ったでしょう」と優しくさとして下さいまして、私はどうしてこんな先生を嫌ったのか不思議でなりませんでした。<br/><br/>もう絶対医学には迷うまいと決心致しました。<br/><br/>それからは毎日熱心な先生の御浄霊を受ける体となりまして、食欲も出だし、勿論熱は直ぐ下り、手足にも力がはいり、一カ月足らずで起られるようになり、再び歩ける身となりまして感激致しております。<br/><br/>時折浄化致しまして、吐血した事も御座いますし、毎日痰が四、五合位ずつ二週間も続いた事も御座います。<br/><br/>その都度益々元気になり、左半身も軽くなって参りました。<br/><br/>毎日運動を続けております。<br/><br/> ただ今ではどんな遠道でも、心臓が苦しいと思った事は御座いません。<br/><br/>健康人と少しも変りません。<br/><br/>宮崎支部及び南宮崎出張所の例祭、臨時祭等にも一回も欠かさず参拝さして頂き、熱心にお縋りさして戴いております。<br/><br/>世間の人々は死の危機の状態から全快しました今日までの私の姿を見ながら「肥って顔色も良くなり綺麗になりましたね」と言いながら神の道に縋ろうとは致しません。<br/><br/>実に情ない人達で御座います。<br/><br/>この有難い御道にお導き下さいました恒子さんに御礼申し上げます。<br/><br/>又直接御指導下さいました川崎先生や。<br/><br/>尾崎先生にも厚く感謝致します。<br/><br/> 明主様、大光明如来様誠に有難う御座いました。<br/><br/>自分の体で浄霊と医学と対照致しまして、医学の誤謬が判然と分りました。<br/><br/>何卒今後共御守護の程伏して御願い申し上げます。<br/><br/>微力な私共で御座いますが、御恩の万分の一にも御報い致したいと毎日念願しております。<br/><br/>拙き文にて何卒御許し下さいませ。<br/><br/> （昭和二十七年三月一日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

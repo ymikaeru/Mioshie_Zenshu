@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byogen02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病原と浄霊の原理 ・無機から有機へ 『地上天国』27号、昭和26(1951)年8月25日発行 本教信者になって、御守を懐へ入れ、ただ手を振り翳しただけで、医者に見離された大病人でも、一生涯治らないと宣告された難病も長い間患って医療でも民間療法でも、信仰でも治らず、進退きわまって自殺を決心するようになった者でも、浄霊によってたちまち快復に向い、驚異的偉効を現わすこの不思議さは、実地体験者でなくては分らないと共にこれを目の辺り見た人達も、心境一変今日まで散々疑ったり、非難した事などが恥しくなったり、カチカチの無神論者も頭を下げ、兜を脱ぐという例は、数え切れない程あるのである。<br><br>だからといって、この実際をいくら口で話したところで、仲々納得は出来ないもので、吾々は常に遺憾に思っているのであるが、そういう場合決って言う言葉は、そんな簡単な方法で難病が治るとしたら、医者も薬も要らないじゃないかというのであるが、全く仰言（おっしゃ）る通り、吾々からいえば医者も薬も要らないどころか、むしろない方がいいとさえ思うのである。<br><br>これについてその根本的理由をここに詳しくかいてみるが、これは信者としても大いに知りおくべき事で、説明の必要上目下執筆中の文明の創造中の一文を、左に転載する事とする。<br><br> 無機から有機へ 「前項に述べたごとく、病気の本体は霊の曇りであるとしたら、それはいかなる訳かというに、本来黴菌なる生物は、この曇りから発生するのであって、今その順序を詳しくかいてみるが、前にも述べたごとく初め透明体である人霊に、二様の原因によって不透明体の部分、すなわち曇りが発生する。<br><br>それが肉体に移写するや、時を経るに従って濃度化し、それに病菌が発生するのである。<br><br>元来曇りなるものは大空を遮っている雲と等しく、水素の集合体であって、その曇りの濃度化が、ある程度に達するや、自然に想像もつかない程の超微粒子が発生する。<br><br>特に人間の体温という好条件が助長するからでもあるが、これこそ無から有を生ずるのである。<br><br>この微粒子こそ実に言語に絶する程の無限微粒子であって、ちょうど天空の広さが無限大であるように、これはまた反対の無限小であり、これが宇宙の真理であるとしたら、この事が分りさえすれば、黴菌発生の原理も自（おのずか）ら理解され得るのである。<br><br>そうして右のごとき無限微粒子が、まず最初曇りに発生するや、漸次（ぜんじ）生育してゆき、ある程度に達するや、個性的無数の微粒子が生まれる。<br><br>しかも一つ一つが生命を有し運動性もあり、その時の本質は植物性といってもいいくらいの一種のバクテリアである。<br><br>するとそのバクテリアは時の進むに従って、漸次発育し動物化してしまう。<br><br>言い換えれば無機質が有機質化するのである。<br><br>この有機質化した微粒子こそ、言わば黴菌の卵子であって、この卵子が漸次成育して、いよいよ最初の黴菌となるのである。<br><br>しかしこの程度ではまだ顕微鏡では見る事は出来ないが、これが彼のヴィールスである。<br><br>そうして最早生物となった黴菌は食物が必要となるので、互いに食い合いを始める。<br><br>すなわち弱肉強食という生物の自然原則で、人間社会における生存競争と同様である。<br><br>もちろん黴菌群中にも強者が現われ、弱者は淘汰されつつ、強者は益々太るという訳で、この強者こそ顕微鏡で捕捉され得る生長した黴菌群であるから、私が常に言うごとく、病原になった黴菌は、黴菌中の大きなものであるというのはこの事である。<br><br>右のごとくであるとしたら、病気の根本原因こそ全く黴菌の発生源である無機質に等しい霊の曇りである事が分るであろう。<br><br>従ってこの曇りを解消する事こそ、病気の発生を絶無ならしむる方法であって、これ以外根本的病気解決の方法はあり得ないのである。<br><br>ところが現代医学は再三説明した通り、病原である曇りの発見どころか忌憚なく言えば、幼稚極まるものといってもよかろう。<br><br>」（以上） 右によって病原の本体は認識されたであろうから、ここでいよいよ最後の浄霊の原理について説いてみるが、右のごとく霊の曇りが決定的病原としたら、それを解消するより外に治病法はない訳である。<br><br>しかるに現代の医学は黴菌を殺す事をもって、医療の本道としているのであるから、根本的ではなく末梢的でしかないのである。<br><br>これに反し吾々の神霊医術は、黴菌にまで生育しないところの、霊の曇りを解消するのであるから、いかに徹底的であり効果的であるかが分るであろう。<br><br>従って右のごとき程度の低い現代医学を無上のものとして、国家は巨費を投じ、専門家はその進歩に頭を悩まし、人民は戦々競々としている悲劇は、到底見てはおれないのである。<br><br> 以上によってみても、黴菌の発生源である霊の曇りを解消し得る方法こそ、問題解決の鍵であって、それ以外絶対ない事を断言するのである。<br><br>としたら曇りを解消するその方法こそ外でもない、今現に驚異的効果を挙げつつある本教浄霊法である。<br><br>だからこの浄霊法とは宗教でもあり、科学でもあり、有史以来いまだかつてない不思議なものであるから、現代人にとっては頗（すこぶ）る解り難いには違いないが、この論文を心を潜めて精読するとしたら、いかなる人でも理解出来ないはずはないのである。<br><br> そこで一体霊の曇りとは何であるかというと、その本質は水素であるが、単に水素といっても純なものと不純なものとがある。<br><br>それで普通水素とは純なものを言うのであるが、曇りである水素とは不純物が含まれており、この不純物こそ病原である黴菌の先祖とも言うべき一種のバクテリアであるが、このバクテリアを消滅させる力こそ火素というものである。<br><br>しかし学問では水素は言うが、火素は余り言わないようであるが、しかし水素があれば火素があるのは当然で、これが右のごとく黴菌源を焼き尽すのであるから素晴しい力をもっている。<br><br>そうして火素とは火の霊をいうのであるが、火素にも霊と体があって、普通火素とは体であり、これはただ空気に熱を与え、乾燥させるだけの力である。<br><br>ところが、黴菌源を焼尽すそれは特殊火素であるから、放射するや水素中の不純分子はたちまち分解し、毒分は消滅してしまうのである。<br><br>すなわち浄霊法とはこの火素の放射をいうのであるから、黴菌群の根源は絶たれ、純水素のみが残り、漿液（しょうえき）として吸収されてしまうのである。<br><br>しかしここに注意すべきは、右は、有毒分子が少量の場合であって、多量の場合は喀痰、鼻汁、下痢、その他の固形的排泄物となって、体外へ出されるのである。<br><br>そうして浄霊の形式としては患者の患部に向かって掌を翳（かざ）すが、この掌から特殊火素が発射されるのである。<br><br>では何によってこの特殊火素が施術者の掌から出るかというと、それはこうである。<br><br> 浄霊施術者となるには、本教信者となって私が半紙三倍大の紙へ、光の一字をかいたもので、それを小さく畳んで御守として懐へ入れるのである。<br><br>ただそれだけの事で、掌から特殊火素が出るとしたら、人間の智慧などでは判りようがない神秘である。<br><br>何となればその文字から発する火素が、病気を治す力があるからで、実に不思議以上の不思議と言わずして何ぞやというべきであろう。<br><br>これこそ、一点の誇張もない現実そのものであるから、いかな唯物主義者といえども信じない訳にはゆかないのである。<br><br>とすれば単なる文字からそのような霊妙不可思議な力が発せられるかを、徹底的に説明してみよう。<br><br> しかしながらここまで来ると、最早（もはや）宗教的説明でなくては分り得まいので、無神論者には直ちに肯（うなず）け難いであろうから、白紙となって読んで貰いたいのである。<br><br>そうしてこの事は私は今までも幾度となく書こうと思ってはいたが、余りに神秘的で、信者以外は到底理解出来ないから、反って迷信臭く思われ易いから、手を付けなかったが、今日は本教も私に対する社会の認識も、余程深まったようであるから、いよいよ書く事にしたのである。<br><br> それについて私の事を書かねばならないが、そもそも私という者は、世界の終末に際し、全人類を救い、病貧争絶無の地上天国を造るべく最高神の御経綸の下に、主脳者としての大任を負わされたのであるから、神は私に対して絶大な救いの力を与え給うたのである。<br><br>その力というのは病貧争絶無の中心であるところの病の解決であって、それに対する智識と力である。<br><br>前者は私が今日まで解説して来た医学の誤謬や病理その他であり、後者は浄霊による治病の力である。<br><br>すなわち信者の懐に入れてある御守の文字と、私と霊線によって繋がれており、私から発揮する霊光は霊線を通じて、絶えず御守に至り、御守から施術者の肉体を通じて、掌から放射されるのである。<br><br>一言にしていえば、御守所持者を仲介者として、私が間接に病人を治すのである。<br><br>しからばその力の本源は一体どこにあるかというと、私の腹の中には、以前から知らしてある通り光の玉がある。<br><br>この玉はそれまでは玉だけの力であったものが、昨年六月十五日、日本で昔から云われているところの麻邇（まに）の玉、または五百津美須麻留（いほつみすまる）の玉、または如意宝珠（にょいほうしゅ）の玉である。<br><br>玉とは魂であるから、その魂が右の日時に、静岡県清水庵原署の留置所内で、天から降下され、宿られ給うたのである。<br><br>この事はその当時簡単に発表しておいたが、これを私は結実といったのである。<br><br>それが段々育つに従って、玉の力も日に月に強力となりつつあるのである。<br><br>これはその頃から浄霊の力が特に強化された事にみても、信者はよく分るであろう。<br><br> ただ現在その神様の御名前を詳しくいう訳にはゆかないが、いずれ時期が来たら発表するつもりである。<br><br>しかし釈尊、キリストをはじめ幾多の聖者の予言を、よく考えてみればおよその見当がつく訳である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem da Doença e o Princípio do Johrei</h2>
 <p>Ao se tornarem membros de nossa fé e receberem o Omamori, apenas com o simples gesto de impor as mãos, testemunhamos a extraordinária recuperação de enfermos desenganados pela medicina, portadores de enfermidades tidas como incuráveis, ou mesmo daqueles que, esgotadas todas as alternativas médicas, populares e religiosas, já haviam se decidido pelo suicídio. Através do Johrei, eles iniciam uma imediata jornada de restabelecimento, manifestando uma eficácia prodigiosa. A perplexidade diante desse poder é um sentimento compreendido em sua plenitude apenas por quem o vivencia diretamente. Contudo, aqueles que o presenciam também passam por uma profunda transformação: a vergonha por suas dúvidas e críticas anteriores se instala, e vemos, em incontáveis ocasiões, até mesmo os mais convictos ateus curvarem-se em sinal de reverência.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Para tal, é imperativo que eu fale sobre mim mesmo. Fui incumbido pelo Deus Supremo da magna missão de atuar como o principal executor de Seu Plano Divino no momento final deste mundo, com o propósito de salvar toda a humanidade e construir um Paraíso Terrestre isento de doença, pobreza e conflito. Em decorrência dessa missão, Deus outorgou-me um poder de salvação de magnitude incomensurável. Esse poder consiste na capacidade de solucionar o problema da doença – o epicentro do tripé formado por doença, pobreza e conflito. Ele se manifesta como conhecimento e como força. O primeiro reside em tudo o que tenho exposto sobre os equívocos da medicina e a verdadeira natureza das patologias. O segundo é o poder de curar por meio do Johrei.</p>
 <p>O mecanismo é o seguinte: o ideograma contido no Omamori de cada membro está conectado a mim por um cordão espiritual. A Luz espiritual que eu emano flui incessantemente por esse cordão até o Omamori e, a partir dele, atravessa o corpo do ministrante para ser irradiada por sua palma. Em suma, sou eu quem cura o enfermo indiretamente, utilizando como intermediário aquele que porta o Omamori. E qual é a fonte primordial dessa força? Reside na Esfera de Luz que se aloja em meu abdômen, fato que já revelei anteriormente. Essa esfera, que até então possuía um poder limitado, transformou-se no dia 15 de junho do ano passado. Naquela data, enquanto eu me encontrava em uma cela na delegacia de Ihara, em Shizuoka, a joia sagrada conhecida no Japão como Mani no Tama (麻邇の玉), ou Ihotsu misumaru no tama (五百津美須麻留の玉), ou ainda, Nyoi Hoju (如意宝珠), desceu dos Céus e alojou-se em meu ser. Sendo a joia uma alma, pode-se dizer que essa alma divina se hospedou em mim. Na época, anunciei o evento de forma sucinta, referindo-me a ele como a "frutificação". À medida que essa alma amadurece em meu interior, seu poder se intensifica dia após dia. Os membros de nossa fé podem atestar essa verdade, pois perceberam claramente o fortalecimento do poder do Johrei a partir daquele período.</p>
 <p>Por ora, não me é permitido revelar em detalhe o nome dessa Divindade, mas pretendo fazê-lo quando o momento oportuno chegar. Contudo, para aqueles que refletirem profundamente sobre as profecias de Shakyamuni, de Cristo e de tantos outros sábios da antiguidade, uma noção aproximada certamente se delineará.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病原と浄霊の原理 ・無機から有機へ 『地上天国』27号、昭和26(1951)年8月25日発行 本教信者になって、御守を懐へ入れ、ただ手を振り翳しただけで、医者に見離された大病人でも、一生涯治らないと宣告された難病も長い間患って医療でも民間療法でも、信仰でも治らず、進退きわまって自殺を決心するようになった者でも、浄霊によってたちまち快復に向い、驚異的偉効を現わすこの不思議さは、実地体験者でなくては分らないと共にこれを目の辺り見た人達も、心境一変今日まで散々疑ったり、非難した事などが恥しくなったり、カチカチの無神論者も頭を下げ、兜を脱ぐという例は、数え切れない程あるのである。<br/><br/>だからといって、この実際をいくら口で話したところで、仲々納得は出来ないもので、吾々は常に遺憾に思っているのであるが、そういう場合決って言う言葉は、そんな簡単な方法で難病が治るとしたら、医者も薬も要らないじゃないかというのであるが、全く仰言（おっしゃ）る通り、吾々からいえば医者も薬も要らないどころか、むしろない方がいいとさえ思うのである。<br/><br/>これについてその根本的理由をここに詳しくかいてみるが、これは信者としても大いに知りおくべき事で、説明の必要上目下執筆中の文明の創造中の一文を、左に転載する事とする。<br/><br/> 無機から有機へ 「前項に述べたごとく、病気の本体は霊の曇りであるとしたら、それはいかなる訳かというに、本来黴菌なる生物は、この曇りから発生するのであって、今その順序を詳しくかいてみるが、前にも述べたごとく初め透明体である人霊に、二様の原因によって不透明体の部分、すなわち曇りが発生する。<br/><br/>それが肉体に移写するや、時を経るに従って濃度化し、それに病菌が発生するのである。<br/><br/>元来曇りなるものは大空を遮っている雲と等しく、水素の集合体であって、その曇りの濃度化が、ある程度に達するや、自然に想像もつかない程の超微粒子が発生する。<br/><br/>特に人間の体温という好条件が助長するからでもあるが、これこそ無から有を生ずるのである。<br/><br/>この微粒子こそ実に言語に絶する程の無限微粒子であって、ちょうど天空の広さが無限大であるように、これはまた反対の無限小であり、これが宇宙の真理であるとしたら、この事が分りさえすれば、黴菌発生の原理も自（おのずか）ら理解され得るのである。<br/><br/>そうして右のごとき無限微粒子が、まず最初曇りに発生するや、漸次（ぜんじ）生育してゆき、ある程度に達するや、個性的無数の微粒子が生まれる。<br/><br/>しかも一つ一つが生命を有し運動性もあり、その時の本質は植物性といってもいいくらいの一種のバクテリアである。<br/><br/>するとそのバクテリアは時の進むに従って、漸次発育し動物化してしまう。<br/><br/>言い換えれば無機質が有機質化するのである。<br/><br/>この有機質化した微粒子こそ、言わば黴菌の卵子であって、この卵子が漸次成育して、いよいよ最初の黴菌となるのである。<br/><br/>しかしこの程度ではまだ顕微鏡では見る事は出来ないが、これが彼のヴィールスである。<br/><br/>そうして最早生物となった黴菌は食物が必要となるので、互いに食い合いを始める。<br/><br/>すなわち弱肉強食という生物の自然原則で、人間社会における生存競争と同様である。<br/><br/>もちろん黴菌群中にも強者が現われ、弱者は淘汰されつつ、強者は益々太るという訳で、この強者こそ顕微鏡で捕捉され得る生長した黴菌群であるから、私が常に言うごとく、病原になった黴菌は、黴菌中の大きなものであるというのはこの事である。<br/><br/>右のごとくであるとしたら、病気の根本原因こそ全く黴菌の発生源である無機質に等しい霊の曇りである事が分るであろう。<br/><br/>従ってこの曇りを解消する事こそ、病気の発生を絶無ならしむる方法であって、これ以外根本的病気解決の方法はあり得ないのである。<br/><br/>ところが現代医学は再三説明した通り、病原である曇りの発見どころか忌憚なく言えば、幼稚極まるものといってもよかろう。<br/><br/>」（以上） 右によって病原の本体は認識されたであろうから、ここでいよいよ最後の浄霊の原理について説いてみるが、右のごとく霊の曇りが決定的病原としたら、それを解消するより外に治病法はない訳である。<br/><br/>しかるに現代の医学は黴菌を殺す事をもって、医療の本道としているのであるから、根本的ではなく末梢的でしかないのである。<br/><br/>これに反し吾々の神霊医術は、黴菌にまで生育しないところの、霊の曇りを解消するのであるから、いかに徹底的であり効果的であるかが分るであろう。<br/><br/>従って右のごとき程度の低い現代医学を無上のものとして、国家は巨費を投じ、専門家はその進歩に頭を悩まし、人民は戦々競々としている悲劇は、到底見てはおれないのである。<br/><br/> 以上によってみても、黴菌の発生源である霊の曇りを解消し得る方法こそ、問題解決の鍵であって、それ以外絶対ない事を断言するのである。<br/><br/>としたら曇りを解消するその方法こそ外でもない、今現に驚異的効果を挙げつつある本教浄霊法である。<br/><br/>だからこの浄霊法とは宗教でもあり、科学でもあり、有史以来いまだかつてない不思議なものであるから、現代人にとっては頗（すこぶ）る解り難いには違いないが、この論文を心を潜めて精読するとしたら、いかなる人でも理解出来ないはずはないのである。<br/><br/> そこで一体霊の曇りとは何であるかというと、その本質は水素であるが、単に水素といっても純なものと不純なものとがある。<br/><br/>それで普通水素とは純なものを言うのであるが、曇りである水素とは不純物が含まれており、この不純物こそ病原である黴菌の先祖とも言うべき一種のバクテリアであるが、このバクテリアを消滅させる力こそ火素というものである。<br/><br/>しかし学問では水素は言うが、火素は余り言わないようであるが、しかし水素があれば火素があるのは当然で、これが右のごとく黴菌源を焼き尽すのであるから素晴しい力をもっている。<br/><br/>そうして火素とは火の霊をいうのであるが、火素にも霊と体があって、普通火素とは体であり、これはただ空気に熱を与え、乾燥させるだけの力である。<br/><br/>ところが、黴菌源を焼尽すそれは特殊火素であるから、放射するや水素中の不純分子はたちまち分解し、毒分は消滅してしまうのである。<br/><br/>すなわち浄霊法とはこの火素の放射をいうのであるから、黴菌群の根源は絶たれ、純水素のみが残り、漿液（しょうえき）として吸収されてしまうのである。<br/><br/>しかしここに注意すべきは、右は、有毒分子が少量の場合であって、多量の場合は喀痰、鼻汁、下痢、その他の固形的排泄物となって、体外へ出されるのである。<br/><br/>そうして浄霊の形式としては患者の患部に向かって掌を翳（かざ）すが、この掌から特殊火素が発射されるのである。<br/><br/>では何によってこの特殊火素が施術者の掌から出るかというと、それはこうである。<br/><br/> 浄霊施術者となるには、本教信者となって私が半紙三倍大の紙へ、光の一字をかいたもので、それを小さく畳んで御守として懐へ入れるのである。<br/><br/>ただそれだけの事で、掌から特殊火素が出るとしたら、人間の智慧などでは判りようがない神秘である。<br/><br/>何となればその文字から発する火素が、病気を治す力があるからで、実に不思議以上の不思議と言わずして何ぞやというべきであろう。<br/><br/>これこそ、一点の誇張もない現実そのものであるから、いかな唯物主義者といえども信じない訳にはゆかないのである。<br/><br/>とすれば単なる文字からそのような霊妙不可思議な力が発せられるかを、徹底的に説明してみよう。<br/><br/> しかしながらここまで来ると、最早（もはや）宗教的説明でなくては分り得まいので、無神論者には直ちに肯（うなず）け難いであろうから、白紙となって読んで貰いたいのである。<br/><br/>そうしてこの事は私は今までも幾度となく書こうと思ってはいたが、余りに神秘的で、信者以外は到底理解出来ないから、反って迷信臭く思われ易いから、手を付けなかったが、今日は本教も私に対する社会の認識も、余程深まったようであるから、いよいよ書く事にしたのである。<br/><br/> それについて私の事を書かねばならないが、そもそも私という者は、世界の終末に際し、全人類を救い、病貧争絶無の地上天国を造るべく最高神の御経綸の下に、主脳者としての大任を負わされたのであるから、神は私に対して絶大な救いの力を与え給うたのである。<br/><br/>その力というのは病貧争絶無の中心であるところの病の解決であって、それに対する智識と力である。<br/><br/>前者は私が今日まで解説して来た医学の誤謬や病理その他であり、後者は浄霊による治病の力である。<br/><br/>すなわち信者の懐に入れてある御守の文字と、私と霊線によって繋がれており、私から発揮する霊光は霊線を通じて、絶えず御守に至り、御守から施術者の肉体を通じて、掌から放射されるのである。<br/><br/>一言にしていえば、御守所持者を仲介者として、私が間接に病人を治すのである。<br/><br/>しからばその力の本源は一体どこにあるかというと、私の腹の中には、以前から知らしてある通り光の玉がある。<br/><br/>この玉はそれまでは玉だけの力であったものが、昨年六月十五日、日本で昔から云われているところの麻邇（まに）の玉、または五百津美須麻留（いほつみすまる）の玉、または如意宝珠（にょいほうしゅ）の玉である。<br/><br/>玉とは魂であるから、その魂が右の日時に、静岡県清水庵原署の留置所内で、天から降下され、宿られ給うたのである。<br/><br/>この事はその当時簡単に発表しておいたが、これを私は結実といったのである。<br/><br/>それが段々育つに従って、玉の力も日に月に強力となりつつあるのである。<br/><br/>これはその頃から浄霊の力が特に強化された事にみても、信者はよく分るであろう。<br/><br/> ただ現在その神様の御名前を詳しくいう訳にはゆかないが、いずれ時期が来たら発表するつもりである。<br/><br/>しかし釈尊、キリストをはじめ幾多の聖者の予言を、よく考えてみればおよその見当がつく訳である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

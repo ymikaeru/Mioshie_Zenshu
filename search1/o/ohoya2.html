@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ohoya2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大宅壮一という人 『栄光』129号、昭和26(1951)年11月7日発行 この人は不思議な頭脳の持主である。<br><br>今度も東京日日の「蛙のこえ」で、三回に亘（わた）って例の通り巧妙に私の悪口を書いたが、この人は二十年も前から、親の仇（かたき）のように私を狙っていて、根気よく時々私の悪口を新聞に出している。<br><br>ところが今度の記事は、今までにない御念の入ったものであるので、よく考えてみるとこの間の彼の悪口に対し、教団の方で名誉毀損の訴えを起したため、口惜（くや）し紛れにかいたものであろう、といってまた訴えられるのは怖いとみえて、極力独断を避け、根拠らしいものを集めて、材料にしている点がよく分るのである。<br><br> ところで、その材料なるものは、昔の私の知人であった頭の少し変な人が、私を恨んで語ったらしい嘘の記事が、昨年某三流新聞に出ていたのをネタに使ったり、まだ白黒も判らぬ昨年の事件を黒と決めてしまって、悪口の材料にしたりしてデッチ上げたもので、何も彼も一方的に取上げて私の名誉を傷つけようとするのだから、こんな不徳義な行為をして何の利益があるのか、確かに普通の頭脳ではない事が分る。<br><br>だからこういう精神変質者を相手にするのは大人気ないが、広い世間には立派なジャーナリストと思っている人もあるだろうから、それに瞞（だま）されないようにと筆を汚した次第である。<br><br> ただ右のネタの内、信者の中で霊写真について真相を知りたい人もあるだろうから、この一つだけかくが、最初右の変な人が写真を撮ったところ、その翌日驚いて飛んで来た。<br><br>それは不思議なものが映ったといって、乾板のまま見せに来たので、それがアノ千手観音様が写った写真なのである。<br><br>また煙のようなのは鏡に反射したためというが、その部屋には手鏡一つさえなかったのである。<br><br>また龍神は誰が見てもハッキリしており、御本人もこれは正に龍神であるといって、不思議を繰返えし得々としていたくらいである。<br><br>ではなぜこのような嘘ッ八を新聞へ出したかというと、昨年私の著書の奇蹟物語ヘ霊写真を出したので、その謝礼が欲しかったらしく、十六年振りで訪ねて来たが、気まりが悪いと見えて、明（あか）ら様に口へ出さないのと、私はその人を以前立派な人と思っていたので、そういう事をいうと侮辱になると思い、反って触れないようにしたところ、彼は私を、没分暁漢（わからずや）だと思って憤慨し、返報返えしの意味であったに違いないと想像されるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre o Senhor Ooya Souichi</h2>
 <p>Este homem é possuidor de uma mente peculiar. Recentemente, em sua coluna no jornal Tokyo Nichi Nichi, ele mais uma vez, como de costume, dedicou três artigos a me difamar com sua conhecida habilidade. Com efeito, há vinte anos que este senhor me persegue como se eu fosse o algoz de seus pais, publicando periodicamente seus ataques contra mim nos jornais com uma persistência notável. Contudo, seus artigos mais recentes revelam um esmero inédito. Refletindo a respeito, concluo que foram escritos em um gesto de despeito, motivado pelo processo por difamação que nossa Igreja moveu contra ele por conta de suas ofensas anteriores. Percebe-se claramente, todavia, seu receio de enfrentar um novo processo, pois ele se esforça ao máximo para evitar afirmações categóricas, preferindo reunir supostas evidências para fundamentar seus ataques.</p>
 <p>Analisemos, pois, a natureza de tais materiais. Um deles consiste em um artigo falacioso, publicado no ano passado em um jornal de terceira categoria. A fonte dessa matéria seria um antigo conhecido meu, pessoa de mente um tanto desequilibrada que, movido por rancor, proferiu inverdades a meu respeito. Ademais, ele se apropria de um incidente do ano anterior, cujo desfecho ainda é incerto, e o apresenta como um fato consumado e desfavorável, utilizando-o como mais um pretexto para suas calúnias. Sua tática consiste em selecionar unilateralmente qualquer elemento que possa macular minha honra. Que benefício poderia advir de um ato tão desprovido de retidão? Fica evidente que não estamos lidando com uma mentalidade comum. Portanto, embora seja pouco digno de um adulto dar atenção a um indivíduo de índole tão distorcida, sinto-me no dever de macular meu pincel e escrever estas linhas. Faço-o para que as pessoas de bem, que porventura o considerem um jornalista respeitável, não sejam induzidas ao erro por suas artimanhas.</p>
 <p>Dentre os assuntos mencionados, abordarei apenas um, pois sei que, entre os fiéis, pode haver quem deseje conhecer a verdade sobre a fotografia espiritual. Inicialmente, quando a referida pessoa de mente instável tirou a fotografia, ela retornou no dia seguinte, em estado de grande assombro. Veio mostrar-me a chapa fotográfica ainda úmida, afirmando que algo prodigioso havia sido registrado. Tratava-se, com efeito, daquela mesma fotografia em que a imagem da Senju Kannon (千手観音) se manifestou. Ele alega agora que a imagem semelhante a uma fumaça foi resultado do reflexo de um espelho, mas a verdade é que naquele cômodo não havia sequer um espelho de mão. Quanto à imagem do Deus Dragão, sua nitidez era incontestável para qualquer observador. O próprio fotógrafo, à época, afirmava categoricamente: "Isto é, sem dúvida, o Deus Dragão!", repetindo, exultante, o quão maravilhoso era o fenômeno.</p>
 <p>Então, por que ele divulgou tamanha inverdade a um jornal? A razão parece ser o desejo de uma gratificação pela fotografia espiritual, que publiquei no ano passado em meu livro de milagres. Ele me procurou após um hiato de dezesseis anos, mas, aparentemente constrangido, não verbalizou seu pedido de forma explícita. De minha parte, por tê-lo em alta conta no passado, julguei que mencionar tal assunto seria uma ofensa e, por delicadeza, evitei tocar no tema. Imagino que ele, sentindo-se ultrajado, tenha me considerado um homem obtuso e insensível. Sua atitude, portanto, deve ser compreendida como uma retaliação.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大宅壮一という人 『栄光』129号、昭和26(1951)年11月7日発行 この人は不思議な頭脳の持主である。<br/><br/>今度も東京日日の「蛙のこえ」で、三回に亘（わた）って例の通り巧妙に私の悪口を書いたが、この人は二十年も前から、親の仇（かたき）のように私を狙っていて、根気よく時々私の悪口を新聞に出している。<br/><br/>ところが今度の記事は、今までにない御念の入ったものであるので、よく考えてみるとこの間の彼の悪口に対し、教団の方で名誉毀損の訴えを起したため、口惜（くや）し紛れにかいたものであろう、といってまた訴えられるのは怖いとみえて、極力独断を避け、根拠らしいものを集めて、材料にしている点がよく分るのである。<br/><br/> ところで、その材料なるものは、昔の私の知人であった頭の少し変な人が、私を恨んで語ったらしい嘘の記事が、昨年某三流新聞に出ていたのをネタに使ったり、まだ白黒も判らぬ昨年の事件を黒と決めてしまって、悪口の材料にしたりしてデッチ上げたもので、何も彼も一方的に取上げて私の名誉を傷つけようとするのだから、こんな不徳義な行為をして何の利益があるのか、確かに普通の頭脳ではない事が分る。<br/><br/>だからこういう精神変質者を相手にするのは大人気ないが、広い世間には立派なジャーナリストと思っている人もあるだろうから、それに瞞（だま）されないようにと筆を汚した次第である。<br/><br/> ただ右のネタの内、信者の中で霊写真について真相を知りたい人もあるだろうから、この一つだけかくが、最初右の変な人が写真を撮ったところ、その翌日驚いて飛んで来た。<br/><br/>それは不思議なものが映ったといって、乾板のまま見せに来たので、それがアノ千手観音様が写った写真なのである。<br/><br/>また煙のようなのは鏡に反射したためというが、その部屋には手鏡一つさえなかったのである。<br/><br/>また龍神は誰が見てもハッキリしており、御本人もこれは正に龍神であるといって、不思議を繰返えし得々としていたくらいである。<br/><br/>ではなぜこのような嘘ッ八を新聞へ出したかというと、昨年私の著書の奇蹟物語ヘ霊写真を出したので、その謝礼が欲しかったらしく、十六年振りで訪ねて来たが、気まりが悪いと見えて、明（あか）ら様に口へ出さないのと、私はその人を以前立派な人と思っていたので、そういう事をいうと侮辱になると思い、反って触れないようにしたところ、彼は私を、没分暁漢（わからずや）だと思って憤慨し、返報返えしの意味であったに違いないと想像されるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ninge070</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 ５ 070-091 守護神１ 070 守護神を祀る事、守護霊の霊位 守護神を祀る事の可否―― 守護神を祀る事はいいが、本当はしなくともよい。<br><br>祭ってわるいという事はないが、ぜひ祭らなくてはならぬ事はない。<br><br> 守護神としては、祭られるよりはその人間が良い事をしてくれた方がどれだけ良いか知れない。<br><br> 守護神は大抵祖霊で、救われている霊が選ばれてなる。<br><br>第三天国の救われた霊位が多い。<br><br>これは神のお取り次ぎしたり、人を救ったりする。<br><br>ある場合には、龍神などもいる。<br><br>また狐にいろんな意志を頼む事もある。<br><br>守護神が人間にかかって口利くのはうまくゆかぬ。<br><br>そういう場合狐に頼んで伝える事がある。<br><br>口を利くのは狐の方がうまい。<br><br>（S23） 071 六感、婦人強し よく六感が働くとか敏感だとか申しますが、これはいかなる霊の働きで御座いましょうか。<br><br>また、婦女子においてこのような働きが強いように思われますが、いかなる関係で御座いましょうか。<br><br>御伺い申し上げます。<br><br> 正守護神が教えるのが六感である。<br><br> 女の方が強いのは、霊的の事は女がやりよい。<br><br>男は理性が発達していて疑り深い。<br><br> 女は理性より感情が働くから、何でも信じ易い。<br><br>霊は女の方が使いやすいのである。<br><br>男でも学問があったりすると、霊は使い難い。<br><br>唯物的学問で固めたのは判り難い。<br><br> 今の学問は猶太の霊が作った。<br><br>これは神様を信じさせぬようにせぬと都合が悪いからである。<br><br>（S24. 9.12） rattail（注） 〔 御光話（S24年 2月28日） 『御光話録』4号、昭和24(1949)年<b>月</b>日発行〕 ――お道の会員や患者にしても婦人のほうが多いのはなぜでしょうか。<br><br> 『これはね、女の人のほうが第六感がよく働くんです。<br><br>男のほうがこの働きが悪い。<br><br>信仰に入るのもこの第六感が働く人のほうが早いんです。<br><br>』 〔妙智之光『地上天国』8号、昭和24(1949)年9月25日発行〕 女の信仰心は第六感によると聞いてますが、なぜに女は第六感が多分に働くものでしょうか。<br><br> 『女は感情が発達してるからである。<br><br>六感は感情から生まれる。<br><br>男は理性で、理性は感じが鈍い。<br><br>故にインテリ層などは御自分は敏感のつもりでも、実は鈍感で目に見えないものは判らぬ。<br><br>すべて人間は偏らぬのがよい。<br><br>理性感情両方を円満に発達さすべきである。<br><br>』 〔妙智之光『地上天国』10号、昭和24(1949)年11月20日発行〕 お道の会員や患者にしても婦人の方が多いのはなぜでしょうか。<br><br> 『女のほうが第六感が働く。<br><br>男は六感が鈍い。<br><br>信仰は六感の働くほうが判りが早い。<br><br>また上流の人ほど六感の働き方が鈍いから入信しない。<br><br>たいてい二の足をふむ。<br><br>これは副守護神の物質欲が強いので、入信を止めるのである。<br><br>』 072 本守護神と使命と磨き 人間の本守護神とその人の御霊とはどんな関係でしょうか。<br><br>また、ある人の現世の使命はその人の本守護神により定められるものでしょうか。<br><br> 右、御教示御願い申し上げます。<br><br> 本守護神は神の分霊である。<br><br>神から戴いたともいえる。<br><br>良心である。<br><br>使命―本守護神。<br><br>いろいろ運命は転換する。<br><br>本守護神といっても磨かなくてはならぬ。<br><br>そのために副守護神が間違った事をして磨かす場合がある。<br><br> 本守護神は霊界に籍があり、霊線が繋っている。<br><br>霊界の幽魂へ神命が下る。<br><br>霊線により本人に伝わる。<br><br>本人は知らぬから、いろいろして、結局使命の所へ行く。<br><br>副守が強いと、悪をしては破滅して地獄へ行き、修行してまた生まれる。<br><br>かくのごとく、神は本守護神を磨かれる。<br><br>（S24） 073 正守護神の向上と交替 人間が霊的に向上するに従って正守護神も向上するもので御座いましょうか。<br><br>または交替するもので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 正守護神は向上も交替もない。<br><br>人間に善い事をさせるから、その功により、それだけの向上はするが、人間の向上する程には向上しない。<br><br>（S23.10.21） 074 守護神は変るか 正守護神、副守護神は一生の内変りましょうか。<br><br>人生と正・副両守護神の関係について御教え下さい。<br><br>なお、厄年とも関係御座いましょうか。<br><br> 正守護神は変らぬ。<br><br>祖先の霊の一人が選抜されてなる。<br><br>正守護神の助手が、龍神や狐等である。<br><br>副霊も変らぬ。<br><br>むしろ、殖える場合がある。<br><br>副守の強いのが憑いてるとなかなか変らぬものである。<br><br>（S24. 1. 6） 075 守護神は入れ替りあるか 守護神は途中で変るような事が御座居ますでしょうか。<br><br> 入れ替る事はない。<br><br>正守護神、本守護神、副霊等変ったら、危くて生きておれない。<br><br>変れば性格が一変する。<br><br>人間も安心して生きられぬ。<br><br> 076 副霊の性格と罪、（大善の為の小悪） 霊界へ行って副霊は離れるものでしょうか。<br><br> そうとは決まらない。<br><br>副霊が離れたいために人を殺す場合は、早く生れる。<br><br>副霊の本性は恋愛、食欲等で、その肉体がつまらなくなってくると殺す訳である。<br><br>長く肉体に憑いていると出られない。<br><br>絶対に出られない訳でもない。<br><br>人間に種々性格があるように、副霊にも良いのもある。<br><br>殺すと同時に離れる。<br><br>副霊のために人間の魂が汚（よご）れるのだから、この罪は勿論死しても消えない。<br><br>生きている中に魂が綺麗になるのが一番よい。<br><br>汚れていなければ副霊は行動する事は出来ない。<br><br>勿論邪念、邪心は肉体のある以上起るが、これは致し方ない。<br><br>私でも、美人をみればきれいだと思う。<br><br>しかし、大善のための小悪は致し方ない。<br><br>善い事も悪い事もしない人間は役に立たない。<br><br> 人間が人間を批評する事は出来ない。<br><br>神様の眼からみて善悪は決められる。<br><br>以前、救世軍のある極悪人がその罪の償いのために善事をしたが、その告白で、「過去で、極悪の事をしたために、今これだけの善事が出来るのである」というのを読んだが、仲々面白い。<br><br>戦犯のごときは、その罪は大変なものである。<br><br>殺人犯の幾層倍かである。<br><br>それから比べるならば、平沢事件などは爪のアカ程の小事件である。<br><br>だから気の毒に思う人がある。<br><br>戦犯は最低地獄で苦しむであろう。<br><br>以前から軍人は大嫌いであった。<br><br>日本は武装解除で救われた。<br><br>殺人の罪になる。<br><br>戦犯の項目は今迄有頂天の日本人は考えた事がない。<br><br>日清、日露役に対する敵国の怨みは大変なものである。<br><br>霊界へ行って初めて知るであろう。<br><br>アメリカの軍人にはクリスチャンが多い。<br><br>（マッカーサー、トルーマン）軍神などあり得べき筈がない。<br><br>（S23.11.24） 077 副霊に負けた時の四魂と悪の傍観 四魂が副霊の支配下にある場合の正守護神の状態を御伺い申し上げます。<br><br> 副霊に負けると四魂を悪の働きさせる。<br><br>正守護神は止むなく傍観する。<br><br>間違った事をしているのが必要な場合が多い。<br><br>本当に救われるには、悪い事をしなければならぬ事もある。<br><br>その人に執着があると、それを除くためやらせねば救われぬ。<br><br>止めようとしても止まらぬ。<br><br>説いて良くしようとしても執着があるために自覚出来ぬ。<br><br>それで、執着を除る方法としてやるだけやらす。<br><br>人間は短期間の愛であり、神は永遠の愛である。<br><br>行く所まで行かして悟らす。<br><br>大乗的にみるのである。<br><br> 人間の愛は悪い事は止める。<br><br>いわゆる一時的の愛で――。<br><br>（S *.12.14） rattail（注） 〔 観音講座（第六講座） 『観音講座６』昭和10(1935)年9月5日発行〕 四魂 荒魂（アラミタマ）……勇 和魂（ニギミタマ）……親 奇魂（クシミタマ）……智 幸魂（サチミタマ）……愛 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年＊月＊日発行〕 ――真神霊、一霊四魂につき御教示をお願い申し上げます。<br><br> 『これはよく聞かれますがね、四魂とは荒魂（あらみたま）、奇魂（くしみたま）、幸魂（さきみたま）、和魂（にぎみたま）の四つですが、荒魂とは勇気です。<br><br>よくいけば勇気ですが、悪くいけば強盗なんかそうですね。<br><br>奇魂っていうのは智慧ですね。<br><br>智慧にもいいのと悪いのとある。<br><br>勿論叡智でなければいけません。<br><br>奸智や才智はよくないですね。<br><br>幸魂は慈悲ですね。<br><br>人を幸せにする気持ちです。<br><br>和魂というのは人と親しむ、まあ怒らないことですね。<br><br>人間はこれが平均して働けばいいんですが、この四つが完全に備わっていればたいしたものです。<br><br>そんな人はまずないですね。<br><br>せいぜい三魂か二魂、まあふつうは一つがやっとでしょうね。<br><br>』 078 殺人や自殺の場合の各守護神 人が自殺などしたりあるいは帝銀事件のごとく殺されたりする場合、殺される人々の守護神の御働きまたは立場はどのようなものでしょうか。<br><br>（もはや守護の御働きをしてはいられないのでしょうか）右、御教示御願い申し上げます。<br><br> 正守護神は防禦するが、曇りがひどいと防止出来ぬ。<br><br>罪穢を早く浄化しなくてはいけない時、肉体をなくして助けようとする場合がある。<br><br>（肉体をなくして助けんとする）荒療治である。<br><br>正守護神が大声で怒鳴ってもその声に対し聾になっている。<br><br>見せようとしても盲になっている。<br><br>副霊によっては肉体から出たいという意志で、自殺させようとする。<br><br>本守護神―本霊は殺したりなどせぬが、曇りがひどいと、霊界で浄化さした方がよいとして、自殺の方へ賛成する。<br><br>（平沢の場合、聾、盲のため副霊のまま行動する）（S23.10.18） 079 売笑婦の実態 芸者、娼妓、パンパンのような職業をなす者は、過去はいかなる罪のあるものでしょうか。<br><br>霊的にはいかなる者がなるので御座居ましょか。<br><br>また、あのような生活をする事により、罪が軽くなるものでしょうか、あるいは重くなりますのでしょうか。<br><br> 罪が軽くなる訳がない。<br><br>軽くなるものなら誰でもやる。<br><br>人を喜ばせ、次に大いに悲します。<br><br>一時的の享楽のために一生の苦しみをする。<br><br>こういう事をするのは動物霊がする。<br><br>本守護神が弱いから副霊に負けるのである。<br><br>曇りが多いからである。<br><br>前世に曇りや罪が多い。<br><br>それに、こういう事をすると曇りを追増する事となるから、一ぺんに破綻する。<br><br>自分から奈落へ陥ち込む事になる。<br><br>地獄へ早く行く道を作っているようなものである。<br><br>それで宗教の必要がある。<br><br>（S24. 6. 3） 080 犯罪の霊関係 犯罪の手口は何か霊的な関係があるのでは御座いませんでしょうか。<br><br>あると致しましたらいかなるように表れて参りますでしょうか。<br><br>御教えを御願い申し上げます。<br><br> 無論、霊的関係はある。<br><br>犯罪は狐が多い。<br><br>故に、人を騙したり、目をくらましたりする所へ主力を注ぐ。<br><br>獰猛なのは龍神もある。<br><br>龍神の殺し方は非常に早い。<br><br>手際よくやる。<br><br>天狗もある。<br><br>公然とやる場合がある。<br><br>昔の武士に多い。<br><br>猫、狼などもある。<br><br>狼は人間を殺すのが好きである。<br><br>（S24. 7.22） 081 副霊と犯罪 副霊と犯罪について、 イ、犯罪は副霊の働きと見て宜しゅうございましょうか。<br><br> ロ、もしそうと致しますと、帝銀事件の平沢等は副霊が余程強いものでしょうか。<br><br> ハ、平沢のため犠牲になった大勢の方の霊は、当然平沢に対し何らかの復讐をする事と存じますが、いかがでしょうか。<br><br> 右、御教示御願い申し上げます。<br><br> 犯罪は副霊である。<br><br>平沢は狐である。<br><br>身体全体が副霊ばかりである。<br><br> やられたのは復讐しようと狙っている。<br><br>やられる方も罪が多い。<br><br>（助かったのは罪が少い。<br><br>臨時に憑依する事はある）（S24. 2. 8） 082 平沢に殺されたものの因縁 帝銀殺人犯平沢の様な大量の、そして計画的な殺人を犯すものは、それによって倒される人はそれぞれいかがな因縁を持つもので御座いますか。<br><br> 勿論霊が曇り切っている。<br><br>神様から言えば、生きていても死んでも大した違いはないという状態で、どっちでもいい訳である。<br><br>また、御守護がないのが根本である。<br><br>そして、正守護神が知らせようとしても、曇りがひどくて到達しないほどに曇っているのである。<br><br>こういう事ははっきり言うと誤解される。<br><br> 平沢がどうしても自白しないので、捜査課長の堀崎氏の友達で信者があった、そうして今年の三月、神様の御力で逮捕さして戴きたいというので、堀崎氏が教修を受け、平沢を浄霊したら涙を出し、それから自白したという。<br><br>動物霊で一杯だったのが、浄霊により人間の感情に立ちかえり自白した。<br><br>故に、私が平沢事件を解決したようなものである。<br><br> 083 霊界予知して人間に知らす場合、（正守護神の働きと狐霊等） 憑依霊は肉体の中にあって、常に霊界の事象を察知しているのでしょうか。<br><br> 狐など凄い。<br><br>前にある事を予知出来る。<br><br>正守護神はいろんな事を霊界で知る。<br><br>その時副霊を利用して知らす事がある。<br><br>副霊かまたは動物霊を使う事がある。<br><br>正守護神が、罪を犯すと龍神を使って病気にしたりする事がある。<br><br>狐も使うし、人間の霊と人間に介在し、いろんな事を取次ぐ能力は一番ある。<br><br>狐は人間の言葉をよく知り、巧みに作ったり利用する事は、人間も及ばぬ理屈をつけてやるのは巧妙なものである。<br><br> 084 正守護神の知らせ 人間の正守護神は霊界において守護するので御座いますか、それとも人間に憑依するので御座いましょうか。<br><br>後者の場合は霊界は留守になるので御座いましょうか。<br><br>その間の事情を御教えの程を御願い申し上げます。<br><br> 正守護神は人間に憑かぬ。<br><br>人間の傍にいたり、ある場合には一時傍を離れるが、その場合代理を置いて行く。<br><br>正守護神は人間に憑らす場合、自分の眷族とか、家来のようなものを憑らす。<br><br>それが狐などである。<br><br>狐などは自分の個性を出すので、正守護神の真実をそのまま伝えぬ事がある。<br><br> 夢知らせもある。<br><br>正守護神が夢を作るが、上手下手がある。<br><br> 気の進まぬ事は正守護神が止めている事がよくある。<br><br>信仰に入れる場合正守がよく働く。<br><br>正守に頼むと一生懸命働き、事情を作って入れる事がよくある。<br><br>（S24. 1.21） 085 兇事のお知らせ、（問題起る時身体悪し） 烏の啼き方が悪いとか下駄の緒が切れると兇事がある知らせだと申しますが、霊的な作用が御座いましょうか。<br><br>御伺い申し上げます。<br><br> （私も四、五日前階段から転んだが、お知らせであった） 正守護神が知らすのであるから確かにある。<br><br>下駄の緒が切れるなど、これもとてもある。<br><br>昔、若い頃株をやったが、よく石へ躓く事があり、するときっと損をする。<br><br>靴をはいて行き足をくじくときっと損する。<br><br>これもお知らせである。<br><br>何か問題のある時必ずどこか悪い。<br><br>先の疥癬の時とか、豚箱へ入れられた時とか、いつでも何か問題のある時必ず身体のどこかに故障がある。<br><br>すべてが相応する訳である。<br><br>一つよく一つ悪いという事はない。<br><br>悪い時はいろんな事が悪くなる。<br><br>良い時はすべていい。<br><br>（S23.11.11） 086 御用以外の仕事手につかぬ 十九歳になる私の娘、十月五日御修業を終らせて戴いてより観音様の御用の時は異常ありませんが、家事の手伝いや、特に重労働等をさせますと、いつも睡気がさして「ウツラウツラ」としております。<br><br>この娘は以前亡兄の霊が憑依した事がありましたが、 御浄霊で治りました。<br><br>何か霊的関係がありましょうか。<br><br>御伺い申し上げます。<br><br> 守護神が観音様の御用をするようにするのである。<br><br>言う事を聞かぬと、いろいろして判らせようとする。<br><br>（S24.10.27） 087 血統と正守護神 正守護神は血統のみに限るもので御座居ましょうか。<br><br> 大体血統であるが、そうばかりとも言えない。<br><br>例えば、家来が恩顧を蒙っていて、霊界へ行って御恩返しをしなければならぬ場合、主人の霊統のものの正守護神になる事もある。<br><br>であるから、血統に関係のあるものが正守護神になる場合もある。<br><br>その際、血統の先祖の諒解を得て正守護神となるのである。<br><br>全然無関係のものはあり得ぬ。<br><br>故に血統以外のものもあり得るのである。<br><br>（S *. 1.14） 088 正守護神は身体に入らぬ 正守護神とはどのような因縁のもとにつくので御座いましょうか。<br><br> 正守護神は側にいる。<br><br>身体へ入る事はない。<br><br>守っている。<br><br>この守護がなくては人間はとても危い。<br><br>災難を免れたり、信仰へ入れたりするのは皆それである。<br><br>（S23.11.24） 089 正守護神は見えるか 正守護神は、その人の身辺にて守護しているとの御教えを戴いておりますが、霊の見える人であれば正守護神も見えるので御座いましょうか。<br><br> 反って動物霊や死霊などで見える。<br><br>霊界に長くいると浄化されて稀薄になる。<br><br>霊界へ生れて間もない時幽霊になる。<br><br>執着の濃いのはそれだけ濃い。<br><br>正守護神の命で働いている狐などによって、たまたま見える。<br><br>（S24. 5.11） 090 正守護神の誰かを知る事 正守護神は祖先の誰であるかを知る事が出来るでしょうか。<br><br> 知る事は出来ない。<br><br>ただ、狐とか龍神とかいう動物霊が手伝ってやる事が出来る。<br><br> （S23.11.12） 091 自己霊が口利く事 憑依霊現象における無我の状態と同様な状態において自分の霊が自分の口を使って自己の前世の事柄及び未来への予言等を伝える事が出来ますか。<br><br>出来るとすれば正守護神の働きによるので御座いますか。<br><br>御伺いさせて戴きます。<br><br> 出来るが危険な所がある。<br><br>正守護神だが、副守が混って――。<br><br> 良識によって判断する。<br><br>ちょっとでも変な所があれば気をつける。<br><br> 批判力が必要である。<br><br>（S24.12. 8）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Sobre a Prática de Cultuar o Espírito Guardião e seu Nível Espiritual</h2>
 <p>É permissível cultuar o espírito guardião; todavia, em verdade, não é necessário. Não há mal algum em fazê-lo, mas tampouco é uma prática indispensável.</p>
@@ -190,5 +342,48 @@ c) É de se esperar que os espíritos das inúmeras vítimas de Hirasawa busquem
 <p><strong>Pergunta:</strong> Em um estado de transe semelhante ao da possessão espiritual, é possível que o próprio espírito de uma pessoa utilize sua boca para falar sobre suas vidas passadas ou fazer previsões sobre o futuro? Se sim, isso ocorre pela ação do espírito guardião primário?</p>
 <p><strong>Meishu-Sama:</strong> É possível, mas há perigos. Pode ser o espírito guardião primário, mas com a interferência do espírito secundário.</p>
 <p>É preciso julgar com bom senso. Se houver qualquer detalhe estranho, deve-se ter cautela. O poder de discernimento é essencial.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間本体篇 ５ 070-091 守護神１ 070 守護神を祀る事、守護霊の霊位 守護神を祀る事の可否―― 守護神を祀る事はいいが、本当はしなくともよい。<br/><br/>祭ってわるいという事はないが、ぜひ祭らなくてはならぬ事はない。<br/><br/> 守護神としては、祭られるよりはその人間が良い事をしてくれた方がどれだけ良いか知れない。<br/><br/> 守護神は大抵祖霊で、救われている霊が選ばれてなる。<br/><br/>第三天国の救われた霊位が多い。<br/><br/>これは神のお取り次ぎしたり、人を救ったりする。<br/><br/>ある場合には、龍神などもいる。<br/><br/>また狐にいろんな意志を頼む事もある。<br/><br/>守護神が人間にかかって口利くのはうまくゆかぬ。<br/><br/>そういう場合狐に頼んで伝える事がある。<br/><br/>口を利くのは狐の方がうまい。<br/><br/>（S23） 071 六感、婦人強し よく六感が働くとか敏感だとか申しますが、これはいかなる霊の働きで御座いましょうか。<br/><br/>また、婦女子においてこのような働きが強いように思われますが、いかなる関係で御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 正守護神が教えるのが六感である。<br/><br/> 女の方が強いのは、霊的の事は女がやりよい。<br/><br/>男は理性が発達していて疑り深い。<br/><br/> 女は理性より感情が働くから、何でも信じ易い。<br/><br/>霊は女の方が使いやすいのである。<br/><br/>男でも学問があったりすると、霊は使い難い。<br/><br/>唯物的学問で固めたのは判り難い。<br/><br/> 今の学問は猶太の霊が作った。<br/><br/>これは神様を信じさせぬようにせぬと都合が悪いからである。<br/><br/>（S24. 9.12） rattail（注） 〔 御光話（S24年 2月28日） 『御光話録』4号、昭和24(1949)年**月**日発行〕 ――お道の会員や患者にしても婦人のほうが多いのはなぜでしょうか。<br/><br/> 『これはね、女の人のほうが第六感がよく働くんです。<br/><br/>男のほうがこの働きが悪い。<br/><br/>信仰に入るのもこの第六感が働く人のほうが早いんです。<br/><br/>』 〔妙智之光『地上天国』8号、昭和24(1949)年9月25日発行〕 女の信仰心は第六感によると聞いてますが、なぜに女は第六感が多分に働くものでしょうか。<br/><br/> 『女は感情が発達してるからである。<br/><br/>六感は感情から生まれる。<br/><br/>男は理性で、理性は感じが鈍い。<br/><br/>故にインテリ層などは御自分は敏感のつもりでも、実は鈍感で目に見えないものは判らぬ。<br/><br/>すべて人間は偏らぬのがよい。<br/><br/>理性感情両方を円満に発達さすべきである。<br/><br/>』 〔妙智之光『地上天国』10号、昭和24(1949)年11月20日発行〕 お道の会員や患者にしても婦人の方が多いのはなぜでしょうか。<br/><br/> 『女のほうが第六感が働く。<br/><br/>男は六感が鈍い。<br/><br/>信仰は六感の働くほうが判りが早い。<br/><br/>また上流の人ほど六感の働き方が鈍いから入信しない。<br/><br/>たいてい二の足をふむ。<br/><br/>これは副守護神の物質欲が強いので、入信を止めるのである。<br/><br/>』 072 本守護神と使命と磨き 人間の本守護神とその人の御霊とはどんな関係でしょうか。<br/><br/>また、ある人の現世の使命はその人の本守護神により定められるものでしょうか。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 本守護神は神の分霊である。<br/><br/>神から戴いたともいえる。<br/><br/>良心である。<br/><br/>使命―本守護神。<br/><br/>いろいろ運命は転換する。<br/><br/>本守護神といっても磨かなくてはならぬ。<br/><br/>そのために副守護神が間違った事をして磨かす場合がある。<br/><br/> 本守護神は霊界に籍があり、霊線が繋っている。<br/><br/>霊界の幽魂へ神命が下る。<br/><br/>霊線により本人に伝わる。<br/><br/>本人は知らぬから、いろいろして、結局使命の所へ行く。<br/><br/>副守が強いと、悪をしては破滅して地獄へ行き、修行してまた生まれる。<br/><br/>かくのごとく、神は本守護神を磨かれる。<br/><br/>（S24） 073 正守護神の向上と交替 人間が霊的に向上するに従って正守護神も向上するもので御座いましょうか。<br/><br/>または交替するもので御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 正守護神は向上も交替もない。<br/><br/>人間に善い事をさせるから、その功により、それだけの向上はするが、人間の向上する程には向上しない。<br/><br/>（S23.10.21） 074 守護神は変るか 正守護神、副守護神は一生の内変りましょうか。<br/><br/>人生と正・副両守護神の関係について御教え下さい。<br/><br/>なお、厄年とも関係御座いましょうか。<br/><br/> 正守護神は変らぬ。<br/><br/>祖先の霊の一人が選抜されてなる。<br/><br/>正守護神の助手が、龍神や狐等である。<br/><br/>副霊も変らぬ。<br/><br/>むしろ、殖える場合がある。<br/><br/>副守の強いのが憑いてるとなかなか変らぬものである。<br/><br/>（S24. 1. 6） 075 守護神は入れ替りあるか 守護神は途中で変るような事が御座居ますでしょうか。<br/><br/> 入れ替る事はない。<br/><br/>正守護神、本守護神、副霊等変ったら、危くて生きておれない。<br/><br/>変れば性格が一変する。<br/><br/>人間も安心して生きられぬ。<br/><br/> 076 副霊の性格と罪、（大善の為の小悪） 霊界へ行って副霊は離れるものでしょうか。<br/><br/> そうとは決まらない。<br/><br/>副霊が離れたいために人を殺す場合は、早く生れる。<br/><br/>副霊の本性は恋愛、食欲等で、その肉体がつまらなくなってくると殺す訳である。<br/><br/>長く肉体に憑いていると出られない。<br/><br/>絶対に出られない訳でもない。<br/><br/>人間に種々性格があるように、副霊にも良いのもある。<br/><br/>殺すと同時に離れる。<br/><br/>副霊のために人間の魂が汚（よご）れるのだから、この罪は勿論死しても消えない。<br/><br/>生きている中に魂が綺麗になるのが一番よい。<br/><br/>汚れていなければ副霊は行動する事は出来ない。<br/><br/>勿論邪念、邪心は肉体のある以上起るが、これは致し方ない。<br/><br/>私でも、美人をみればきれいだと思う。<br/><br/>しかし、大善のための小悪は致し方ない。<br/><br/>善い事も悪い事もしない人間は役に立たない。<br/><br/> 人間が人間を批評する事は出来ない。<br/><br/>神様の眼からみて善悪は決められる。<br/><br/>以前、救世軍のある極悪人がその罪の償いのために善事をしたが、その告白で、「過去で、極悪の事をしたために、今これだけの善事が出来るのである」というのを読んだが、仲々面白い。<br/><br/>戦犯のごときは、その罪は大変なものである。<br/><br/>殺人犯の幾層倍かである。<br/><br/>それから比べるならば、平沢事件などは爪のアカ程の小事件である。<br/><br/>だから気の毒に思う人がある。<br/><br/>戦犯は最低地獄で苦しむであろう。<br/><br/>以前から軍人は大嫌いであった。<br/><br/>日本は武装解除で救われた。<br/><br/>殺人の罪になる。<br/><br/>戦犯の項目は今迄有頂天の日本人は考えた事がない。<br/><br/>日清、日露役に対する敵国の怨みは大変なものである。<br/><br/>霊界へ行って初めて知るであろう。<br/><br/>アメリカの軍人にはクリスチャンが多い。<br/><br/>（マッカーサー、トルーマン）軍神などあり得べき筈がない。<br/><br/>（S23.11.24） 077 副霊に負けた時の四魂と悪の傍観 四魂が副霊の支配下にある場合の正守護神の状態を御伺い申し上げます。<br/><br/> 副霊に負けると四魂を悪の働きさせる。<br/><br/>正守護神は止むなく傍観する。<br/><br/>間違った事をしているのが必要な場合が多い。<br/><br/>本当に救われるには、悪い事をしなければならぬ事もある。<br/><br/>その人に執着があると、それを除くためやらせねば救われぬ。<br/><br/>止めようとしても止まらぬ。<br/><br/>説いて良くしようとしても執着があるために自覚出来ぬ。<br/><br/>それで、執着を除る方法としてやるだけやらす。<br/><br/>人間は短期間の愛であり、神は永遠の愛である。<br/><br/>行く所まで行かして悟らす。<br/><br/>大乗的にみるのである。<br/><br/> 人間の愛は悪い事は止める。<br/><br/>いわゆる一時的の愛で――。<br/><br/>（S *.12.14） rattail（注） 〔 観音講座（第六講座） 『観音講座６』昭和10(1935)年9月5日発行〕 四魂 荒魂（アラミタマ）……勇 和魂（ニギミタマ）……親 奇魂（クシミタマ）……智 幸魂（サチミタマ）……愛 〔 御光話（S24年 3月13日） 『御光話録』5号、昭和24(1949)年＊月＊日発行〕 ――真神霊、一霊四魂につき御教示をお願い申し上げます。<br/><br/> 『これはよく聞かれますがね、四魂とは荒魂（あらみたま）、奇魂（くしみたま）、幸魂（さきみたま）、和魂（にぎみたま）の四つですが、荒魂とは勇気です。<br/><br/>よくいけば勇気ですが、悪くいけば強盗なんかそうですね。<br/><br/>奇魂っていうのは智慧ですね。<br/><br/>智慧にもいいのと悪いのとある。<br/><br/>勿論叡智でなければいけません。<br/><br/>奸智や才智はよくないですね。<br/><br/>幸魂は慈悲ですね。<br/><br/>人を幸せにする気持ちです。<br/><br/>和魂というのは人と親しむ、まあ怒らないことですね。<br/><br/>人間はこれが平均して働けばいいんですが、この四つが完全に備わっていればたいしたものです。<br/><br/>そんな人はまずないですね。<br/><br/>せいぜい三魂か二魂、まあふつうは一つがやっとでしょうね。<br/><br/>』 078 殺人や自殺の場合の各守護神 人が自殺などしたりあるいは帝銀事件のごとく殺されたりする場合、殺される人々の守護神の御働きまたは立場はどのようなものでしょうか。<br/><br/>（もはや守護の御働きをしてはいられないのでしょうか）右、御教示御願い申し上げます。<br/><br/> 正守護神は防禦するが、曇りがひどいと防止出来ぬ。<br/><br/>罪穢を早く浄化しなくてはいけない時、肉体をなくして助けようとする場合がある。<br/><br/>（肉体をなくして助けんとする）荒療治である。<br/><br/>正守護神が大声で怒鳴ってもその声に対し聾になっている。<br/><br/>見せようとしても盲になっている。<br/><br/>副霊によっては肉体から出たいという意志で、自殺させようとする。<br/><br/>本守護神―本霊は殺したりなどせぬが、曇りがひどいと、霊界で浄化さした方がよいとして、自殺の方へ賛成する。<br/><br/>（平沢の場合、聾、盲のため副霊のまま行動する）（S23.10.18） 079 売笑婦の実態 芸者、娼妓、パンパンのような職業をなす者は、過去はいかなる罪のあるものでしょうか。<br/><br/>霊的にはいかなる者がなるので御座居ましょか。<br/><br/>また、あのような生活をする事により、罪が軽くなるものでしょうか、あるいは重くなりますのでしょうか。<br/><br/> 罪が軽くなる訳がない。<br/><br/>軽くなるものなら誰でもやる。<br/><br/>人を喜ばせ、次に大いに悲します。<br/><br/>一時的の享楽のために一生の苦しみをする。<br/><br/>こういう事をするのは動物霊がする。<br/><br/>本守護神が弱いから副霊に負けるのである。<br/><br/>曇りが多いからである。<br/><br/>前世に曇りや罪が多い。<br/><br/>それに、こういう事をすると曇りを追増する事となるから、一ぺんに破綻する。<br/><br/>自分から奈落へ陥ち込む事になる。<br/><br/>地獄へ早く行く道を作っているようなものである。<br/><br/>それで宗教の必要がある。<br/><br/>（S24. 6. 3） 080 犯罪の霊関係 犯罪の手口は何か霊的な関係があるのでは御座いませんでしょうか。<br/><br/>あると致しましたらいかなるように表れて参りますでしょうか。<br/><br/>御教えを御願い申し上げます。<br/><br/> 無論、霊的関係はある。<br/><br/>犯罪は狐が多い。<br/><br/>故に、人を騙したり、目をくらましたりする所へ主力を注ぐ。<br/><br/>獰猛なのは龍神もある。<br/><br/>龍神の殺し方は非常に早い。<br/><br/>手際よくやる。<br/><br/>天狗もある。<br/><br/>公然とやる場合がある。<br/><br/>昔の武士に多い。<br/><br/>猫、狼などもある。<br/><br/>狼は人間を殺すのが好きである。<br/><br/>（S24. 7.22） 081 副霊と犯罪 副霊と犯罪について、 イ、犯罪は副霊の働きと見て宜しゅうございましょうか。<br/><br/> ロ、もしそうと致しますと、帝銀事件の平沢等は副霊が余程強いものでしょうか。<br/><br/> ハ、平沢のため犠牲になった大勢の方の霊は、当然平沢に対し何らかの復讐をする事と存じますが、いかがでしょうか。<br/><br/> 右、御教示御願い申し上げます。<br/><br/> 犯罪は副霊である。<br/><br/>平沢は狐である。<br/><br/>身体全体が副霊ばかりである。<br/><br/> やられたのは復讐しようと狙っている。<br/><br/>やられる方も罪が多い。<br/><br/>（助かったのは罪が少い。<br/><br/>臨時に憑依する事はある）（S24. 2. 8） 082 平沢に殺されたものの因縁 帝銀殺人犯平沢の様な大量の、そして計画的な殺人を犯すものは、それによって倒される人はそれぞれいかがな因縁を持つもので御座いますか。<br/><br/> 勿論霊が曇り切っている。<br/><br/>神様から言えば、生きていても死んでも大した違いはないという状態で、どっちでもいい訳である。<br/><br/>また、御守護がないのが根本である。<br/><br/>そして、正守護神が知らせようとしても、曇りがひどくて到達しないほどに曇っているのである。<br/><br/>こういう事ははっきり言うと誤解される。<br/><br/> 平沢がどうしても自白しないので、捜査課長の堀崎氏の友達で信者があった、そうして今年の三月、神様の御力で逮捕さして戴きたいというので、堀崎氏が教修を受け、平沢を浄霊したら涙を出し、それから自白したという。<br/><br/>動物霊で一杯だったのが、浄霊により人間の感情に立ちかえり自白した。<br/><br/>故に、私が平沢事件を解決したようなものである。<br/><br/> 083 霊界予知して人間に知らす場合、（正守護神の働きと狐霊等） 憑依霊は肉体の中にあって、常に霊界の事象を察知しているのでしょうか。<br/><br/> 狐など凄い。<br/><br/>前にある事を予知出来る。<br/><br/>正守護神はいろんな事を霊界で知る。<br/><br/>その時副霊を利用して知らす事がある。<br/><br/>副霊かまたは動物霊を使う事がある。<br/><br/>正守護神が、罪を犯すと龍神を使って病気にしたりする事がある。<br/><br/>狐も使うし、人間の霊と人間に介在し、いろんな事を取次ぐ能力は一番ある。<br/><br/>狐は人間の言葉をよく知り、巧みに作ったり利用する事は、人間も及ばぬ理屈をつけてやるのは巧妙なものである。<br/><br/> 084 正守護神の知らせ 人間の正守護神は霊界において守護するので御座いますか、それとも人間に憑依するので御座いましょうか。<br/><br/>後者の場合は霊界は留守になるので御座いましょうか。<br/><br/>その間の事情を御教えの程を御願い申し上げます。<br/><br/> 正守護神は人間に憑かぬ。<br/><br/>人間の傍にいたり、ある場合には一時傍を離れるが、その場合代理を置いて行く。<br/><br/>正守護神は人間に憑らす場合、自分の眷族とか、家来のようなものを憑らす。<br/><br/>それが狐などである。<br/><br/>狐などは自分の個性を出すので、正守護神の真実をそのまま伝えぬ事がある。<br/><br/> 夢知らせもある。<br/><br/>正守護神が夢を作るが、上手下手がある。<br/><br/> 気の進まぬ事は正守護神が止めている事がよくある。<br/><br/>信仰に入れる場合正守がよく働く。<br/><br/>正守に頼むと一生懸命働き、事情を作って入れる事がよくある。<br/><br/>（S24. 1.21） 085 兇事のお知らせ、（問題起る時身体悪し） 烏の啼き方が悪いとか下駄の緒が切れると兇事がある知らせだと申しますが、霊的な作用が御座いましょうか。<br/><br/>御伺い申し上げます。<br/><br/> （私も四、五日前階段から転んだが、お知らせであった） 正守護神が知らすのであるから確かにある。<br/><br/>下駄の緒が切れるなど、これもとてもある。<br/><br/>昔、若い頃株をやったが、よく石へ躓く事があり、するときっと損をする。<br/><br/>靴をはいて行き足をくじくときっと損する。<br/><br/>これもお知らせである。<br/><br/>何か問題のある時必ずどこか悪い。<br/><br/>先の疥癬の時とか、豚箱へ入れられた時とか、いつでも何か問題のある時必ず身体のどこかに故障がある。<br/><br/>すべてが相応する訳である。<br/><br/>一つよく一つ悪いという事はない。<br/><br/>悪い時はいろんな事が悪くなる。<br/><br/>良い時はすべていい。<br/><br/>（S23.11.11） 086 御用以外の仕事手につかぬ 十九歳になる私の娘、十月五日御修業を終らせて戴いてより観音様の御用の時は異常ありませんが、家事の手伝いや、特に重労働等をさせますと、いつも睡気がさして「ウツラウツラ」としております。<br/><br/>この娘は以前亡兄の霊が憑依した事がありましたが、 御浄霊で治りました。<br/><br/>何か霊的関係がありましょうか。<br/><br/>御伺い申し上げます。<br/><br/> 守護神が観音様の御用をするようにするのである。<br/><br/>言う事を聞かぬと、いろいろして判らせようとする。<br/><br/>（S24.10.27） 087 血統と正守護神 正守護神は血統のみに限るもので御座居ましょうか。<br/><br/> 大体血統であるが、そうばかりとも言えない。<br/><br/>例えば、家来が恩顧を蒙っていて、霊界へ行って御恩返しをしなければならぬ場合、主人の霊統のものの正守護神になる事もある。<br/><br/>であるから、血統に関係のあるものが正守護神になる場合もある。<br/><br/>その際、血統の先祖の諒解を得て正守護神となるのである。<br/><br/>全然無関係のものはあり得ぬ。<br/><br/>故に血統以外のものもあり得るのである。<br/><br/>（S *. 1.14） 088 正守護神は身体に入らぬ 正守護神とはどのような因縁のもとにつくので御座いましょうか。<br/><br/> 正守護神は側にいる。<br/><br/>身体へ入る事はない。<br/><br/>守っている。<br/><br/>この守護がなくては人間はとても危い。<br/><br/>災難を免れたり、信仰へ入れたりするのは皆それである。<br/><br/>（S23.11.24） 089 正守護神は見えるか 正守護神は、その人の身辺にて守護しているとの御教えを戴いておりますが、霊の見える人であれば正守護神も見えるので御座いましょうか。<br/><br/> 反って動物霊や死霊などで見える。<br/><br/>霊界に長くいると浄化されて稀薄になる。<br/><br/>霊界へ生れて間もない時幽霊になる。<br/><br/>執着の濃いのはそれだけ濃い。<br/><br/>正守護神の命で働いている狐などによって、たまたま見える。<br/><br/>（S24. 5.11） 090 正守護神の誰かを知る事 正守護神は祖先の誰であるかを知る事が出来るでしょうか。<br/><br/> 知る事は出来ない。<br/><br/>ただ、狐とか龍神とかいう動物霊が手伝ってやる事が出来る。<br/><br/> （S23.11.12） 091 自己霊が口利く事 憑依霊現象における無我の状態と同様な状態において自分の霊が自分の口を使って自己の前世の事柄及び未来への予言等を伝える事が出来ますか。<br/><br/>出来るとすれば正守護神の働きによるので御座いますか。<br/><br/>御伺いさせて戴きます。<br/><br/> 出来るが危険な所がある。<br/><br/>正守護神だが、副守が混って――。<br/><br/> 良識によって判断する。<br/><br/>ちょっとでも変な所があれば気をつける。<br/><br/> 批判力が必要である。<br/><br/>（S24.12. 8）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

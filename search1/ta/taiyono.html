@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>taiyono</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 太陽の救い 『栄光』183号、昭和27(1952)年11月19日発行 現在識者とされている人達程、必ずと言いたい程新宗教とさえいえば、最初から色眼鏡で見る癖がある。<br><br>どうせ近頃の出来星宗教であるから、時世（じせい）に便乗して巧い教理をデッチ上げ、愚夫愚婦を迷わせて懐を肥し、教祖様などと納まりかえっているに違いないと決めているので、たとえ病気に罹っても医者にも掛からせずおまけに血の汗絞って稼いだ金まで捲き上げられて有難がっているのであるから、困った世の中だくらいに思っているらしい。<br><br>なるほどそれが事実としたらその通りで、吾々宗教人といえども共鳴にはばからないのはもちろんである。<br><br> しかしそれも満更間違ってはいないとも思うというのは新宗教中二、三を除いては感心出来ないものも相当あるからである。<br><br>その例として世間よくある大きな声で経文を読み鐘や太鼓、拍子木等を叩き、近所迷惑などお構いなしでいい気持になっているのを見ると、一種の騒音罪悪であろう。<br><br> また衆人環視の中で、多勢の信徒が変な歌を唄いながら、妙な手付で何の会釈もなく舞踊（おど）っており、さながら夢心地の陶酔境である。<br><br>これを見せつけられて余りいい気持のしないのは吾々のみではあるまい。<br><br>としたらこれらも社会的に見てどうかと思うのである。<br><br>そうかと思うと信仰に熱心な余り一人よがりになってしまい、他の宗教や無信仰の人達を軽蔑するばかりか、世間並の交際さえ嫌う人も往々見受けるが、極端になると神憑りを喜び、気狂い染みた人間を作る信仰さえあるので、これらもプラスよりマイナスの方が多いと見ねばなるまい。<br><br>また罪のないのもある。<br><br>髪を伸ばし、異様な服装を着け、生神様然と納まり返っている自称教祖などもよくあるが、これらは全く嫌味タップリで、よくこんな生神様を信仰する人もあるかと思うと、世の中は広いものである。<br><br> また昔からある種の信仰には付物の難行苦行であって、寒中の水垢離（ごり）、深山へ籠っての断食や滝を浴びるなど夢中になっているが、なるほど御当人は大満足であろうが、吾々普通人にはサッパリその了見が分らないので、むしろ可哀想に思うくらいである。<br><br>以上ザットかいてみたが、要するに世間離れのしたやり方を宗教本来のものと思っているこの迷信も困りものである。<br><br>これらを見るにつけ、私は宗教人でありながら苦行をいいとする宗教など、実に嫌なものであると思い、常に人にもいっている。<br><br>以上のごとく今日低級信仰が巾（はば）っているので、最初かいたごとく有識者ならず共、軽侮の念を起さざるを得ないのは当然である。<br><br> ところが手前味噌ではないが、我メシヤ教は右のような信仰とは全然異（ちが）っている。<br><br>まず第一常識を重んずる事、生活も行動も一般人と少しも変らない事、いかなる人とでも親和を旨とし、円満を欠かない事等をモットーとしているので、この真相が分ったならいかなる人でも安心して、本教の信者とならないまでも接近したくなるであろう。<br><br>ところが右の真相を知らないため、漫然と客観して前記のような常識外れの信仰と同一視せられるので、実に迷惑である。<br><br>従って本教の発展を妨害するものは無神論者でも科学迷信者でもない。<br><br>むしろ右のごとき好ましからざる新宗教といってもよかろう。<br><br>しかも意識的妨害ではないから、反って始末が悪いくらいである。<br><br>この事は考えるまでもなく日本特有の宗教界のあり方であろう。<br><br>というのは欧米においてはどの国も大体キリスト教一本である事と、文化の発達が日本より早いので、宗教の見方にしても比較的公平であり、合理性に富んでいるからまことにいいが、日本は仏教あり、神道あり、キリスト教あり、しかもそれらが幾派にも分れているので、実に正邪混淆（こんこう）雑然としているから、その点実にやり難いのである。<br><br> だがいつもいうごとく、我メシヤ教は宗教ではなく超宗教であって、歴史肇（はじま）って以来いまだかつてない救いの業であるから、何も彼も異っている。<br><br>何人も本教の型破り的やり方にみても分るごとく、在来の宗教の頭では容易に呑み込めないのも無理はないが、しかし一旦分りかけたが最後、今まで求めていたものはこれだなと知り、心の底から歓喜が湧いて来るのは例外はないのである。<br><br>何よりも本教の発展振りをみれば分るごとく、僅か数年にしてこれ程発展した事実である。<br><br>それについて注意したいのは、最近数年間に素晴しく発展した二、三の新宗教もあるが、それは本教とは根本的に異（ちが）っている。<br><br>というのはそれらの宗教は既成宗教を土台とし、その団体の多数の信者を糾合して出来たのである。<br><br>それに引き換え本教は一から十まで独創的である以上、この点充分認識されたいのである。<br><br> そうして前記のごとき非常識極まる宗教は、云うまでもなくその根本が小乗信仰であるから窮屈で自由がない。<br><br>しかし自由といえば宗教とは縁遠いように一般は思っているが、この点ヤハリ現界と同様、民主的自由主義でなければ、今後における一般大衆を指導する事は出来ないであろう。<br><br>これを分り易くいえばこうである。<br><br>今日までの宗教は小乗本位であるから、世界と同様各国それぞれの色が異うがごとく、宗教もそうなっている。<br><br>従ってその説くところも自家本位で一般性がないから、救いの範囲も狭いのは当然である。<br><br>しかも小乗信仰は厳しい戒律があるので、それに縛られて苦しむのを行としている。<br><br>これらは神の愛を拒否する事になり、気の毒なものである。<br><br>これを私は信仰地獄といっている。<br><br>ところが本教は反対で、ほとんど戒律がないから極めて自由であり、人生を楽しむ事を神の恵みとしているから、これこそ天国的信仰といえよう。<br><br>以上のごとく大乗的本教には宗教、哲学、政治、経済、教育、芸術、医学等々、人間に必要なものはことごとく包含されており、ちょうど太陽があらゆる色をコントロールして白一色であるごとく、本教は昼の宗教であり、太陽の救いである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Salvação do Sol</h2>
 <p>Observa-se, entre aqueles tidos por intelectuais, uma tendência quase infalível de encarar as novas religiões com lentes de preconceito. Assumem, de antemão, que se trata de movimentos religiosos emergentes, que se aproveitam da conjuntura para forjar doutrinas astutas, iludindo os incautos a fim de se locupletarem. Imaginam um fundador que, satisfeito, desfruta do título de “líder reverenciado”, enquanto seus seguidores, além de serem dissuadidos de procurar auxílio médico quando adoecem, ainda lhe entregam o dinheiro que ganharam com o suor de seu rosto, sentindo-se gratos por isso. Diante de tal quadro, costumam lamentar: “Que tempos deploráveis os nossos”.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>As religiões de caráter insensato que mencionei anteriormente são, em sua essência, baseadas em uma fé de pequeno veículo e, por conseguinte, são restritivas e desprovidas de liberdade. Geralmente, as pessoas tendem a pensar que a liberdade é um conceito distante da religião. Contudo, assim como ocorre no mundo material, sem uma liberdade de cunho democrático, será impossível orientar as massas no futuro.</p>
 <p>Para elucidar melhor: as religiões até hoje, por serem centradas no pequeno veículo, assemelham-se aos países do mundo, cada qual com sua própria coloração. Seus ensinamentos são, portanto, particularistas e carecem de universalidade, o que naturalmente limita o alcance de sua salvação. Além disso, a fé de pequeno veículo impõe preceitos rigorosos que acorrentam os fiéis, levando-os ao sofrimento em nome da prática religiosa. Isso equivale a uma negação do amor de Deus, uma situação verdadeiramente lastimável que eu denomino "o inferno da fé". Nossa Igreja, em contrapartida, segue o caminho oposto. Praticamente isenta de preceitos, ela é extremamente livre e considera o desfrutar da vida uma dádiva Divina. Esta, sim, pode ser chamada de "fé paradisíaca".</p>
 <p>Como se pode depreender, nossa Igreja, por ser de grande veículo, engloba integralmente tudo o que é necessário ao ser humano: religião, filosofia, política, economia, educação, arte, medicina e muito mais. Assim como o sol, que em si contém e harmoniza todas as cores para se manifestar como luz branca, nossa Igreja é a religião do dia, é a salvação do sol.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 太陽の救い 『栄光』183号、昭和27(1952)年11月19日発行 現在識者とされている人達程、必ずと言いたい程新宗教とさえいえば、最初から色眼鏡で見る癖がある。<br/><br/>どうせ近頃の出来星宗教であるから、時世（じせい）に便乗して巧い教理をデッチ上げ、愚夫愚婦を迷わせて懐を肥し、教祖様などと納まりかえっているに違いないと決めているので、たとえ病気に罹っても医者にも掛からせずおまけに血の汗絞って稼いだ金まで捲き上げられて有難がっているのであるから、困った世の中だくらいに思っているらしい。<br/><br/>なるほどそれが事実としたらその通りで、吾々宗教人といえども共鳴にはばからないのはもちろんである。<br/><br/> しかしそれも満更間違ってはいないとも思うというのは新宗教中二、三を除いては感心出来ないものも相当あるからである。<br/><br/>その例として世間よくある大きな声で経文を読み鐘や太鼓、拍子木等を叩き、近所迷惑などお構いなしでいい気持になっているのを見ると、一種の騒音罪悪であろう。<br/><br/> また衆人環視の中で、多勢の信徒が変な歌を唄いながら、妙な手付で何の会釈もなく舞踊（おど）っており、さながら夢心地の陶酔境である。<br/><br/>これを見せつけられて余りいい気持のしないのは吾々のみではあるまい。<br/><br/>としたらこれらも社会的に見てどうかと思うのである。<br/><br/>そうかと思うと信仰に熱心な余り一人よがりになってしまい、他の宗教や無信仰の人達を軽蔑するばかりか、世間並の交際さえ嫌う人も往々見受けるが、極端になると神憑りを喜び、気狂い染みた人間を作る信仰さえあるので、これらもプラスよりマイナスの方が多いと見ねばなるまい。<br/><br/>また罪のないのもある。<br/><br/>髪を伸ばし、異様な服装を着け、生神様然と納まり返っている自称教祖などもよくあるが、これらは全く嫌味タップリで、よくこんな生神様を信仰する人もあるかと思うと、世の中は広いものである。<br/><br/> また昔からある種の信仰には付物の難行苦行であって、寒中の水垢離（ごり）、深山へ籠っての断食や滝を浴びるなど夢中になっているが、なるほど御当人は大満足であろうが、吾々普通人にはサッパリその了見が分らないので、むしろ可哀想に思うくらいである。<br/><br/>以上ザットかいてみたが、要するに世間離れのしたやり方を宗教本来のものと思っているこの迷信も困りものである。<br/><br/>これらを見るにつけ、私は宗教人でありながら苦行をいいとする宗教など、実に嫌なものであると思い、常に人にもいっている。<br/><br/>以上のごとく今日低級信仰が巾（はば）っているので、最初かいたごとく有識者ならず共、軽侮の念を起さざるを得ないのは当然である。<br/><br/> ところが手前味噌ではないが、我メシヤ教は右のような信仰とは全然異（ちが）っている。<br/><br/>まず第一常識を重んずる事、生活も行動も一般人と少しも変らない事、いかなる人とでも親和を旨とし、円満を欠かない事等をモットーとしているので、この真相が分ったならいかなる人でも安心して、本教の信者とならないまでも接近したくなるであろう。<br/><br/>ところが右の真相を知らないため、漫然と客観して前記のような常識外れの信仰と同一視せられるので、実に迷惑である。<br/><br/>従って本教の発展を妨害するものは無神論者でも科学迷信者でもない。<br/><br/>むしろ右のごとき好ましからざる新宗教といってもよかろう。<br/><br/>しかも意識的妨害ではないから、反って始末が悪いくらいである。<br/><br/>この事は考えるまでもなく日本特有の宗教界のあり方であろう。<br/><br/>というのは欧米においてはどの国も大体キリスト教一本である事と、文化の発達が日本より早いので、宗教の見方にしても比較的公平であり、合理性に富んでいるからまことにいいが、日本は仏教あり、神道あり、キリスト教あり、しかもそれらが幾派にも分れているので、実に正邪混淆（こんこう）雑然としているから、その点実にやり難いのである。<br/><br/> だがいつもいうごとく、我メシヤ教は宗教ではなく超宗教であって、歴史肇（はじま）って以来いまだかつてない救いの業であるから、何も彼も異っている。<br/><br/>何人も本教の型破り的やり方にみても分るごとく、在来の宗教の頭では容易に呑み込めないのも無理はないが、しかし一旦分りかけたが最後、今まで求めていたものはこれだなと知り、心の底から歓喜が湧いて来るのは例外はないのである。<br/><br/>何よりも本教の発展振りをみれば分るごとく、僅か数年にしてこれ程発展した事実である。<br/><br/>それについて注意したいのは、最近数年間に素晴しく発展した二、三の新宗教もあるが、それは本教とは根本的に異（ちが）っている。<br/><br/>というのはそれらの宗教は既成宗教を土台とし、その団体の多数の信者を糾合して出来たのである。<br/><br/>それに引き換え本教は一から十まで独創的である以上、この点充分認識されたいのである。<br/><br/> そうして前記のごとき非常識極まる宗教は、云うまでもなくその根本が小乗信仰であるから窮屈で自由がない。<br/><br/>しかし自由といえば宗教とは縁遠いように一般は思っているが、この点ヤハリ現界と同様、民主的自由主義でなければ、今後における一般大衆を指導する事は出来ないであろう。<br/><br/>これを分り易くいえばこうである。<br/><br/>今日までの宗教は小乗本位であるから、世界と同様各国それぞれの色が異うがごとく、宗教もそうなっている。<br/><br/>従ってその説くところも自家本位で一般性がないから、救いの範囲も狭いのは当然である。<br/><br/>しかも小乗信仰は厳しい戒律があるので、それに縛られて苦しむのを行としている。<br/><br/>これらは神の愛を拒否する事になり、気の毒なものである。<br/><br/>これを私は信仰地獄といっている。<br/><br/>ところが本教は反対で、ほとんど戒律がないから極めて自由であり、人生を楽しむ事を神の恵みとしているから、これこそ天国的信仰といえよう。<br/><br/>以上のごとく大乗的本教には宗教、哲学、政治、経済、教育、芸術、医学等々、人間に必要なものはことごとく包含されており、ちょうど太陽があらゆる色をコントロールして白一色であるごとく、本教は昼の宗教であり、太陽の救いである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

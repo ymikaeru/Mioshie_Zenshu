@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>nihon07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本観音教団講習要項 『日本観音教団講習要項』昭和22(1947)年7月1日 一、本教団事務取扱要項第十七に基く布教の講演及療法実習は本要項に従う。<br><br> 二、講習会はその都度講習会責任者及指導教師を定める。<br><br>但し指導教師は同時に講習会責任者となる事が出来る。<br><br> 講習会責任者は開催後直ちに左記に従い分教会又は教団支部を経て教団総本部に報告せねばならない。<br><br> イ、開催月日及場所 ロ、講習会責任者及指導教師氏名 ハ、講習会の概況 三、指導教師の講習順序は左記の通りとする。<br><br> イ、布教講演 ロ、療法指導及研究 四、布教講演の大要は教団教義を骨子とし左の要点に立脚し指導する事を要する。<br><br> イ、吾らの信仰の対象は観世音で、拠（よ）るところの経典は妙法蓮華経普門品第二十五を基準とし、観世音は森羅万象の造り主であり光明そのものであるという信仰に基く。<br><br> ロ、観世音は常に生きて吾らの裡（うち）にあり吾らと共に働いて居られる。<br><br> ハ、観世音はこの迷いの世界を又不自然な吾らの姿を憐み、正しい姿にする為に救いの業を始められている。<br><br> この観世音の純粋の慈悲の御心が遂に現わされて三大災厄絶滅の力を示されたものである。<br><br> ニ、この三大災厄が根絶された世界即ちこの三大災厄の根本である病いが無くなった時こそ真の地上天国が開かれるものと信ずる。<br><br> ここに実際の地上天国が現わされる道が一路開かれ、吾らは光明の下その使徒として選ばれた確信を持つ、これが即ち観音行の具現である。<br><br> ホ、吾らは勿論未だそのままでは完全な正しい姿の人ではない。<br><br>しかし幸いに念彼観音力は吾らをして観音行を行う霊力の良導体に導き観音妙智力の具現者となる。<br><br> ヘ、吾らの療法は観世音の示された智慧であり観世音の与えられた正しい覚りの道である事を信ずる。<br><br> 故に真に簡単で要を得て常識では想像も及ばぬ効果が現わされるのも当然で、観音力の及ぶところ何ら不思議はない。<br><br> ト、吾らはただ黙々としてこの観音の威神力と慈悲心を表わす使命遂行に従う事で足りるとのことをはっきりと銘記する。<br><br> チ、吾らは常に観世音の示された教示を信じ日々念彼観音力の発揚の為自己勤行（ごんぎょう）に努める。<br><br> 五、療法は前記教義の要点に示された具体的なもので誰でも出来る。<br><br>いつでも役に立つ特性を示すもので、いわゆる病の診断をするのでも無く、医薬使用の指導をするものでもない。<br><br>又治病の程度の判断を下すものでもない。<br><br>即ち病厄に対するこれが根絶の道程でありこの道程の終極がこの厄から逃れ得るとの固い信仰だけに生きて施すものである。<br><br> しかして吾らの療法を行う終極の結果は即ち病厄の根治は観世音の手の裡にあり観世音の御心の裡にあるものと固く信じ療法の指導も研究の範囲もこの要点から脱却せず、ただ観世音の忠実な僕（しもべ）であるに過ぎぬと言うことを留意し従事する。<br><br> 六、講習会に渡される「光」は吾らの信仰対象である観世音、即ち光明如来の徴しであり、講習を終了した証としてこれを体持するもので、ちょうどキリスト教における十字架と同様のものである。<br><br> 七、講習会の会期は前記布教と療法の真意を指導し得る事を目標とし、その都度指導師に依って適宜定める。<br><br> 八、講習会を希望する場合で適当な指導教師の無い時は総て総本部にその派遣方を依頼するものとする。<br><br> 付 本要項は昭和二十二年七月一日より実施に入る。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Manual dos Seminários da Igreja Kannon do Japão</h2>
 <p><em>1º de julho de 1947</em></p>
@@ -134,5 +286,48 @@ b. Orientação e estudo da Terapia.</p>
 </ol>
 <p><strong>Anexo</strong>
 Este manual entra em vigor a partir de 1º de julho de 1947.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本観音教団講習要項 『日本観音教団講習要項』昭和22(1947)年7月1日 一、本教団事務取扱要項第十七に基く布教の講演及療法実習は本要項に従う。<br/><br/> 二、講習会はその都度講習会責任者及指導教師を定める。<br/><br/>但し指導教師は同時に講習会責任者となる事が出来る。<br/><br/> 講習会責任者は開催後直ちに左記に従い分教会又は教団支部を経て教団総本部に報告せねばならない。<br/><br/> イ、開催月日及場所 ロ、講習会責任者及指導教師氏名 ハ、講習会の概況 三、指導教師の講習順序は左記の通りとする。<br/><br/> イ、布教講演 ロ、療法指導及研究 四、布教講演の大要は教団教義を骨子とし左の要点に立脚し指導する事を要する。<br/><br/> イ、吾らの信仰の対象は観世音で、拠（よ）るところの経典は妙法蓮華経普門品第二十五を基準とし、観世音は森羅万象の造り主であり光明そのものであるという信仰に基く。<br/><br/> ロ、観世音は常に生きて吾らの裡（うち）にあり吾らと共に働いて居られる。<br/><br/> ハ、観世音はこの迷いの世界を又不自然な吾らの姿を憐み、正しい姿にする為に救いの業を始められている。<br/><br/> この観世音の純粋の慈悲の御心が遂に現わされて三大災厄絶滅の力を示されたものである。<br/><br/> ニ、この三大災厄が根絶された世界即ちこの三大災厄の根本である病いが無くなった時こそ真の地上天国が開かれるものと信ずる。<br/><br/> ここに実際の地上天国が現わされる道が一路開かれ、吾らは光明の下その使徒として選ばれた確信を持つ、これが即ち観音行の具現である。<br/><br/> ホ、吾らは勿論未だそのままでは完全な正しい姿の人ではない。<br/><br/>しかし幸いに念彼観音力は吾らをして観音行を行う霊力の良導体に導き観音妙智力の具現者となる。<br/><br/> ヘ、吾らの療法は観世音の示された智慧であり観世音の与えられた正しい覚りの道である事を信ずる。<br/><br/> 故に真に簡単で要を得て常識では想像も及ばぬ効果が現わされるのも当然で、観音力の及ぶところ何ら不思議はない。<br/><br/> ト、吾らはただ黙々としてこの観音の威神力と慈悲心を表わす使命遂行に従う事で足りるとのことをはっきりと銘記する。<br/><br/> チ、吾らは常に観世音の示された教示を信じ日々念彼観音力の発揚の為自己勤行（ごんぎょう）に努める。<br/><br/> 五、療法は前記教義の要点に示された具体的なもので誰でも出来る。<br/><br/>いつでも役に立つ特性を示すもので、いわゆる病の診断をするのでも無く、医薬使用の指導をするものでもない。<br/><br/>又治病の程度の判断を下すものでもない。<br/><br/>即ち病厄に対するこれが根絶の道程でありこの道程の終極がこの厄から逃れ得るとの固い信仰だけに生きて施すものである。<br/><br/> しかして吾らの療法を行う終極の結果は即ち病厄の根治は観世音の手の裡にあり観世音の御心の裡にあるものと固く信じ療法の指導も研究の範囲もこの要点から脱却せず、ただ観世音の忠実な僕（しもべ）であるに過ぎぬと言うことを留意し従事する。<br/><br/> 六、講習会に渡される「光」は吾らの信仰対象である観世音、即ち光明如来の徴しであり、講習を終了した証としてこれを体持するもので、ちょうどキリスト教における十字架と同様のものである。<br/><br/> 七、講習会の会期は前記布教と療法の真意を指導し得る事を目標とし、その都度指導師に依って適宜定める。<br/><br/> 八、講習会を希望する場合で適当な指導教師の無い時は総て総本部にその派遣方を依頼するものとする。<br/><br/> 付 本要項は昭和二十二年七月一日より実施に入る。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

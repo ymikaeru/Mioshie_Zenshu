@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>S260921</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 未発表、昭和26(1951)年9月21日（速記録） これは『文明の創造』における「宗教篇」です。<br><br>この前読みましたがその続きです。<br><br>これはみんなが分からないことをずいぶん書いてますからおもしろい点も大いにありますが、また非常に参考になる点もありますから特別耳の穴をかっぽじって聞きもらさぬように。<br><br> （御論文「 仏教の起源 」「 伊都能売神 」「 観世音菩薩 」朗読） これでまだいろいろおもしろいことがあるが、ちょっと書けないことがそうとうあるのですから、そういうのは話をするかしようと思っているが、ここに伊弉諾尊（いざなぎのみこと）の子供で五人としてあるがもう一人ある。<br><br>もう一人というのは伊弉諾尊と言う神様は国常立尊（くにとこたちのみこと）になるんですね。<br><br>息子に国武彦尊（くにたけひこのみこと）と言うのがありそれが一番長男になる。<br><br>当時大将軍と言い勇猛でかなり勝手なことをやっていたその罪によって、言わば地獄に行かれたようなことになる。<br><br>一番末が初稚姫尊（はつわかひめのみこと）と言い、これが天理教祖の中山みきとなる。<br><br>そういうようにいくども生まれ変わっている。<br><br>大将軍の妹になる。<br><br>そこで霊界で地獄と言ってもふつうの人間と違います。<br><br>修行するんです。<br><br>修行した結果、大いに世の中のためになろうと言うので天理教祖の中山みきに憑った。<br><br>それで中山みきに最初憑ったのは夫の大将軍が憑ったんです。<br><br>そういう因縁なんです。<br><br>そこで最初のうちは力がありますから病気治しもさせたが、その力によって良く病気が治った。<br><br>それで最初は病気治しで世の中に出たんです。<br><br>それからもう一つ日本民族の霊的考察の中にありますが、そこにもっていってそれを出雲系……素盞嗚尊（すさのをのみこと）が利用した。<br><br>利用して、そうして、盤古神皇（ばんこしんわう）に取って代わろうとしたわけです。<br><br>それが徳川家康の系統なんです。<br><br>それは霊的考察にざっと書いてありますが、そういう意味です。<br><br>天理教の本体を書くことは天理教に悪いですからそこで書かなかった。<br><br>それからもう一つ書こうと思って止したことがある。<br><br>いまの稚姫君尊（わかひめぎみのみこと）ですね。<br><br>これがこの次に書きますがお釈迦さんですね。<br><br>ですから釈迦、阿弥陀というのは伊都能売神皇（いづのめしんわう）がインドに行かれて観自在天というお名前になられ、霊は釈迦と阿弥陀となった。<br><br>阿弥陀は素盞嗚尊です。<br><br>そこで稚姫君尊は釈迦になる。<br><br>そこで釈迦は変性女子（へんじょうにょし）と言われたというのは稚姫君尊だから女になる。<br><br>それで弥勒三会（みろくさんえ）にあります「鐘の音」というのがありますが、三人の弥勒というのは釈迦が報身（ほうしん）、報いるという字です。<br><br>阿弥陀が法身（ほっしん）弥勒、観音は応身（おうしん）弥勒、これが三尊の弥陀になる。<br><br>ところが弥勒三会というのは大本教になる。<br><br>大本教はそのために出た宗教です。<br><br>大本教祖出口なおと言う方は釈迦の稚姫君尊です。<br><br>大本教のお筆先にあるが「直の御魂は半分は国常立尊、半分が稚姫君尊である」というのはそういうことです。<br><br>出口王仁三郎聖師様この方が阿弥陀になる。<br><br>それで自分は月の神様で、瑞月（づいげつ）という名前をつけたんですね。<br><br>だから寂光の浄土と言いますね。<br><br>月の天国と言うんですね。<br><br>そんなようなわけで、大本教の教祖さんが釈迦になる。<br><br>そうして聖師さんが阿弥陀となる。<br><br>そこの二人に生まれたのが私です。<br><br>私が応身弥勒ですね。<br><br>この三人が会った。<br><br>これはだれも知らない。<br><br>私は知らせたくないと言うのは、大本教の信者がこっちに来てしまうからね、だから書きたいが書かないんです。<br><br>分かったらたいへんだからね。<br><br>そんなようなわけで応身の弥勒と言うのは観音です。<br><br>そこで観音会をつくった。<br><br>観音を芯にしてやっていたからね。<br><br>つまり大本教は天理教と姉妹教になる。<br><br>それで大本教では天理教の教祖を祀ってやっている。<br><br>教祖さんの出口なおの妹になる。<br><br>で、その親が伊弉諾尊……国常立尊になるわけです。<br><br>なかなかここのところは不思議です。<br><br>すっかり分かればなんでもないが、なかなかね。<br><br>それで仏というのは神の化身です。<br><br>化身ということはインドは大自在天が支配していたとき、バラモンというのがインドですから、そこに仏教を弘めなければならないと言うので、最初稚姫君尊と素盞嗚尊が行って仏教の基礎を作った、そこに伊都能売神皇が行った。<br><br>それを化仏化神と言う。<br><br>そのとき天の八人のお子さんで五男三女と言う、これが八大龍王になる。<br><br>なぜと言ってそのとき五男三女というのは、自分はインドに行くのは嫌だと言ってどうしても日本にいると言う。<br><br>仏はいずれ仏滅の世になると言うので龍神になってそれを待たれた。<br><br>日本の近海ですね、越後と佐渡の間だとか、東北のほうにもあるし、房州と関東の間の海、九州の有明、そういう所に飛び込んで時を待った。<br><br>それが八大龍王です。<br><br>そうして総大将が伊都能売神様ですね。<br><br>それが日本に帰ろうと思ったところ、いま読んだように帰れないので霊で日本に来て自分も仏滅まで隠れていると言うので、先にも言った通り近江の琵琶湖に入り琵琶湖の底に龍神となられて、これが金龍ですね。<br><br>それで霊でも霊と体がある。<br><br>霊の体のほうは木花咲爺姫（このはなさくやひめ）で、そうして富士山に祀られている。<br><br>それから琵琶湖のほうが伊都能売金龍として隠れている。<br><br>このことは先に書きましたが、そうして時を待たれた。<br><br>そうして約三〇〇〇年、本当言うと二六〇〇年ですが、これが最初三〇〇〇年のつもりだったが神様のほうで力を強くしたんですね。<br><br>それで邪神のほうも書きます。<br><br>邪神のほうの活動ですね、たいへんなんです。<br><br>こういう宗教的なものはいままでなにもないが中味をさらけ出すわけです。<br><br>いままではこれを分からせることができない。<br><br>なぜ分からせることができないかと言うと時期が早いからです。<br><br>やはり成功しないからです。<br><br>と言うのはいろいろ夜の世界と昼間の世界の関係もありますからね。<br><br>邪神のほうの活躍ですね。<br><br>まだずっと先までやるつもりだったが、だんだん神様のほうでも強くなって、邪神のほうがこの辺で往生することになる。<br><br>邪神の活躍というのももうじきなんです。<br><br>それで五六七（みろく）の世ができるんですがね。<br><br>大本教のお筆先にありますが、「遅き速きはあるが一度神の申した事に違いはないぞよ」これは千変万化邪神に対抗していくことになるので、いままでの私とメシヤ教に対するいろいろな手も邪神との闘いです。<br><br>いまもって続いているわけですがね。<br><br>だんだんこっちのほうが勝って行くわけです。<br><br>もう一息ですね。<br><br>もう一息でこっちが本当に勝って行く。<br><br>そこでその期限と言うのは来年あたりですね。<br><br>来年は勝って行く。<br><br>しかし先でもいろんな妨害があるんです。<br><br>五六七の世まで続くんです。<br><br>しかし先のほうでだんだん弱まってきますから、同じ闘いでも楽になってきますね。<br><br>ですからもうわずかです。<br><br>もう一息です。<br><br>来年から再来年にかけて、すばらしいいろんなおもしろいことがある。<br><br>それから霊界もなかなか複雑ないろんなことがある。<br><br>ちょうどいま出てますがね。<br><br>中共と連合軍との停戦協定ですが良く現われている。<br><br>邪神のほうでもなかなかね。<br><br>それから神様のほうでも、つまり一挙にやってしまえば邪神が負けるんですが、そうすると救われない者や亡ぶ者がたくさんできますから、神様の慈悲によってそういう者を救いながら分からせる。<br><br>そうして被害を少なくしようというのが神様の慈悲なんです。<br><br>そのためにまだるっこいようなことがあるんですね。<br><br>あんまりまとまらない話ですが、大本教との関係ですね。<br><br>一つおもしろいことがある。<br><br>私が大本教にいるとき、東京の支部長というので羽藤という軍人ですが、陸軍の中佐かあたりで現役じゃなくて退役ですが、大本教でほうぼうに冠句の選に招ばれた。<br><br>これが中野の支部長をやっていた。<br><br>そこで冠句の句を訂して書いたところ、この羽藤という人の魂によほど刺激を与えた。<br><br>これはたいへんだ、岡田さんは唯者（ただもの）じゃない。<br><br>そこでついに精神病になって綾部に行ったんです。<br><br>私が羽藤さんを発狂させたという噂がたった。<br><br>それで綾部に行って中野武営と言う人で熱心な信者で幹部になったが、そこの家は羽藤という家といくらか親戚で、すると聖師さんから私に電報が来てすぐ来てくれと言うので行った。<br><br>いま羽藤が気違いになって私の所で治らないからあなた治してくれ、どうもあなたが原因らしいと言うので、とにかく会いましょうと言うので会った。<br><br>みんながいる所では話ができないと言うので別間に行ったところ、ふつうの精神病とは違う、まじめです。<br><br>私の御魂はこう言うんです。<br><br>私は世の中をもち荒らした邪神の頭目じゃないが、邪神の頭目にすっかり瞞されて世の中をもち荒らした。<br><br>それでどうしても霊界に行かなければならない。<br><br>そうしていままでの罪を贖罪しなければならない。<br><br>しかしあなたは霊界で長い間苦しまれていたが、私と交替になるのでしっかりやってもらいたいと言うんです。<br><br>気違いどころじゃない。<br><br>つまり神様は気違いにさせておいて知らせるんです。<br><br>だから神様はなかなかうまい手段で知らせると思った。<br><br>国常立尊が閻魔大王で三〇〇〇年の間霊界で観ていられた。<br><br>それが今度出たお筆先に、「今度は国常立尊がこの世の閻魔になり世の建替えを致すぞよ」というのがあり、建替えとは審判です。<br><br>だから今度は俺を使って国常立尊が審判をするんだと思った。<br><br>それからすぐに羽藤という人は死にました。<br><br>いろいろなことがあり、なかなか神秘です。<br><br>本やなにかに書くことができないんです。<br><br>（速記）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Raízes Espirituais e a Missão Messiânica</h2>
 <p>O texto que se segue integra a “Seção sobre Religião” da obra “A Criação da Civilização”. A leitura anterior foi apenas o início; agora, daremos prosseguimento. Neste ensaio, abordo diversos pontos que não são de conhecimento geral, tornando-o não apenas de grande interesse, mas também de imensa valia como referência. Portanto, rogo-lhes que apurem seus ouvidos e escutem com a máxima atenção, para que nada se perca.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Quando nos encontramos, Hato disse que não poderia falar na frente dos outros. Em particular, seu comportamento não era o de um doente mental comum; ele estava perfeitamente lúcido e sério. Ele então me transmitiu o seguinte: “Meu espírito me diz o seguinte: ‘Não sou o chefe dos espíritos malignos, mas fui completamente iludido por ele e causei grande desordem no mundo. Por isso, devo partir para o Mundo Espiritual e redimir meus pecados. Você, por outro lado, sofreu por longos anos naquele plano, e agora chegou o momento de trocarmos de lugar. Peço que cumpra sua missão com firmeza’”.</p>
 <p>Ficou claro que não se tratava de loucura. Compreendi que Deus, por vezes, utiliza um estado aparente de insanidade como um meio engenhoso para transmitir Suas verdades. Lembrei-me então de que Kunitokotachi-no-Mikoto atuou como Enma Daioh, o Grande Juiz do Inferno, por três mil anos no Mundo Espiritual. Uma passagem do Ofudesaki diz: “Desta vez, Kunitokotachi-no-Mikoto se tornará o Enma deste mundo e realizará a reconstrução”. Essa reconstrução é o Juízo Final. Naquele momento, percebi que Kunitokotachi-no-Mikoto me usaria para executar esse juízo. Pouco tempo depois, o senhor Hato faleceu.</p>
 <p>Existem muitos mistérios como este, impossíveis de serem registrados em livros ou outros documentos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 未発表、昭和26(1951)年9月21日（速記録） これは『文明の創造』における「宗教篇」です。<br/><br/>この前読みましたがその続きです。<br/><br/>これはみんなが分からないことをずいぶん書いてますからおもしろい点も大いにありますが、また非常に参考になる点もありますから特別耳の穴をかっぽじって聞きもらさぬように。<br/><br/> （御論文「 仏教の起源 」「 伊都能売神 」「 観世音菩薩 」朗読） これでまだいろいろおもしろいことがあるが、ちょっと書けないことがそうとうあるのですから、そういうのは話をするかしようと思っているが、ここに伊弉諾尊（いざなぎのみこと）の子供で五人としてあるがもう一人ある。<br/><br/>もう一人というのは伊弉諾尊と言う神様は国常立尊（くにとこたちのみこと）になるんですね。<br/><br/>息子に国武彦尊（くにたけひこのみこと）と言うのがありそれが一番長男になる。<br/><br/>当時大将軍と言い勇猛でかなり勝手なことをやっていたその罪によって、言わば地獄に行かれたようなことになる。<br/><br/>一番末が初稚姫尊（はつわかひめのみこと）と言い、これが天理教祖の中山みきとなる。<br/><br/>そういうようにいくども生まれ変わっている。<br/><br/>大将軍の妹になる。<br/><br/>そこで霊界で地獄と言ってもふつうの人間と違います。<br/><br/>修行するんです。<br/><br/>修行した結果、大いに世の中のためになろうと言うので天理教祖の中山みきに憑った。<br/><br/>それで中山みきに最初憑ったのは夫の大将軍が憑ったんです。<br/><br/>そういう因縁なんです。<br/><br/>そこで最初のうちは力がありますから病気治しもさせたが、その力によって良く病気が治った。<br/><br/>それで最初は病気治しで世の中に出たんです。<br/><br/>それからもう一つ日本民族の霊的考察の中にありますが、そこにもっていってそれを出雲系……素盞嗚尊（すさのをのみこと）が利用した。<br/><br/>利用して、そうして、盤古神皇（ばんこしんわう）に取って代わろうとしたわけです。<br/><br/>それが徳川家康の系統なんです。<br/><br/>それは霊的考察にざっと書いてありますが、そういう意味です。<br/><br/>天理教の本体を書くことは天理教に悪いですからそこで書かなかった。<br/><br/>それからもう一つ書こうと思って止したことがある。<br/><br/>いまの稚姫君尊（わかひめぎみのみこと）ですね。<br/><br/>これがこの次に書きますがお釈迦さんですね。<br/><br/>ですから釈迦、阿弥陀というのは伊都能売神皇（いづのめしんわう）がインドに行かれて観自在天というお名前になられ、霊は釈迦と阿弥陀となった。<br/><br/>阿弥陀は素盞嗚尊です。<br/><br/>そこで稚姫君尊は釈迦になる。<br/><br/>そこで釈迦は変性女子（へんじょうにょし）と言われたというのは稚姫君尊だから女になる。<br/><br/>それで弥勒三会（みろくさんえ）にあります「鐘の音」というのがありますが、三人の弥勒というのは釈迦が報身（ほうしん）、報いるという字です。<br/><br/>阿弥陀が法身（ほっしん）弥勒、観音は応身（おうしん）弥勒、これが三尊の弥陀になる。<br/><br/>ところが弥勒三会というのは大本教になる。<br/><br/>大本教はそのために出た宗教です。<br/><br/>大本教祖出口なおと言う方は釈迦の稚姫君尊です。<br/><br/>大本教のお筆先にあるが「直の御魂は半分は国常立尊、半分が稚姫君尊である」というのはそういうことです。<br/><br/>出口王仁三郎聖師様この方が阿弥陀になる。<br/><br/>それで自分は月の神様で、瑞月（づいげつ）という名前をつけたんですね。<br/><br/>だから寂光の浄土と言いますね。<br/><br/>月の天国と言うんですね。<br/><br/>そんなようなわけで、大本教の教祖さんが釈迦になる。<br/><br/>そうして聖師さんが阿弥陀となる。<br/><br/>そこの二人に生まれたのが私です。<br/><br/>私が応身弥勒ですね。<br/><br/>この三人が会った。<br/><br/>これはだれも知らない。<br/><br/>私は知らせたくないと言うのは、大本教の信者がこっちに来てしまうからね、だから書きたいが書かないんです。<br/><br/>分かったらたいへんだからね。<br/><br/>そんなようなわけで応身の弥勒と言うのは観音です。<br/><br/>そこで観音会をつくった。<br/><br/>観音を芯にしてやっていたからね。<br/><br/>つまり大本教は天理教と姉妹教になる。<br/><br/>それで大本教では天理教の教祖を祀ってやっている。<br/><br/>教祖さんの出口なおの妹になる。<br/><br/>で、その親が伊弉諾尊……国常立尊になるわけです。<br/><br/>なかなかここのところは不思議です。<br/><br/>すっかり分かればなんでもないが、なかなかね。<br/><br/>それで仏というのは神の化身です。<br/><br/>化身ということはインドは大自在天が支配していたとき、バラモンというのがインドですから、そこに仏教を弘めなければならないと言うので、最初稚姫君尊と素盞嗚尊が行って仏教の基礎を作った、そこに伊都能売神皇が行った。<br/><br/>それを化仏化神と言う。<br/><br/>そのとき天の八人のお子さんで五男三女と言う、これが八大龍王になる。<br/><br/>なぜと言ってそのとき五男三女というのは、自分はインドに行くのは嫌だと言ってどうしても日本にいると言う。<br/><br/>仏はいずれ仏滅の世になると言うので龍神になってそれを待たれた。<br/><br/>日本の近海ですね、越後と佐渡の間だとか、東北のほうにもあるし、房州と関東の間の海、九州の有明、そういう所に飛び込んで時を待った。<br/><br/>それが八大龍王です。<br/><br/>そうして総大将が伊都能売神様ですね。<br/><br/>それが日本に帰ろうと思ったところ、いま読んだように帰れないので霊で日本に来て自分も仏滅まで隠れていると言うので、先にも言った通り近江の琵琶湖に入り琵琶湖の底に龍神となられて、これが金龍ですね。<br/><br/>それで霊でも霊と体がある。<br/><br/>霊の体のほうは木花咲爺姫（このはなさくやひめ）で、そうして富士山に祀られている。<br/><br/>それから琵琶湖のほうが伊都能売金龍として隠れている。<br/><br/>このことは先に書きましたが、そうして時を待たれた。<br/><br/>そうして約三〇〇〇年、本当言うと二六〇〇年ですが、これが最初三〇〇〇年のつもりだったが神様のほうで力を強くしたんですね。<br/><br/>それで邪神のほうも書きます。<br/><br/>邪神のほうの活動ですね、たいへんなんです。<br/><br/>こういう宗教的なものはいままでなにもないが中味をさらけ出すわけです。<br/><br/>いままではこれを分からせることができない。<br/><br/>なぜ分からせることができないかと言うと時期が早いからです。<br/><br/>やはり成功しないからです。<br/><br/>と言うのはいろいろ夜の世界と昼間の世界の関係もありますからね。<br/><br/>邪神のほうの活躍ですね。<br/><br/>まだずっと先までやるつもりだったが、だんだん神様のほうでも強くなって、邪神のほうがこの辺で往生することになる。<br/><br/>邪神の活躍というのももうじきなんです。<br/><br/>それで五六七（みろく）の世ができるんですがね。<br/><br/>大本教のお筆先にありますが、「遅き速きはあるが一度神の申した事に違いはないぞよ」これは千変万化邪神に対抗していくことになるので、いままでの私とメシヤ教に対するいろいろな手も邪神との闘いです。<br/><br/>いまもって続いているわけですがね。<br/><br/>だんだんこっちのほうが勝って行くわけです。<br/><br/>もう一息ですね。<br/><br/>もう一息でこっちが本当に勝って行く。<br/><br/>そこでその期限と言うのは来年あたりですね。<br/><br/>来年は勝って行く。<br/><br/>しかし先でもいろんな妨害があるんです。<br/><br/>五六七の世まで続くんです。<br/><br/>しかし先のほうでだんだん弱まってきますから、同じ闘いでも楽になってきますね。<br/><br/>ですからもうわずかです。<br/><br/>もう一息です。<br/><br/>来年から再来年にかけて、すばらしいいろんなおもしろいことがある。<br/><br/>それから霊界もなかなか複雑ないろんなことがある。<br/><br/>ちょうどいま出てますがね。<br/><br/>中共と連合軍との停戦協定ですが良く現われている。<br/><br/>邪神のほうでもなかなかね。<br/><br/>それから神様のほうでも、つまり一挙にやってしまえば邪神が負けるんですが、そうすると救われない者や亡ぶ者がたくさんできますから、神様の慈悲によってそういう者を救いながら分からせる。<br/><br/>そうして被害を少なくしようというのが神様の慈悲なんです。<br/><br/>そのためにまだるっこいようなことがあるんですね。<br/><br/>あんまりまとまらない話ですが、大本教との関係ですね。<br/><br/>一つおもしろいことがある。<br/><br/>私が大本教にいるとき、東京の支部長というので羽藤という軍人ですが、陸軍の中佐かあたりで現役じゃなくて退役ですが、大本教でほうぼうに冠句の選に招ばれた。<br/><br/>これが中野の支部長をやっていた。<br/><br/>そこで冠句の句を訂して書いたところ、この羽藤という人の魂によほど刺激を与えた。<br/><br/>これはたいへんだ、岡田さんは唯者（ただもの）じゃない。<br/><br/>そこでついに精神病になって綾部に行ったんです。<br/><br/>私が羽藤さんを発狂させたという噂がたった。<br/><br/>それで綾部に行って中野武営と言う人で熱心な信者で幹部になったが、そこの家は羽藤という家といくらか親戚で、すると聖師さんから私に電報が来てすぐ来てくれと言うので行った。<br/><br/>いま羽藤が気違いになって私の所で治らないからあなた治してくれ、どうもあなたが原因らしいと言うので、とにかく会いましょうと言うので会った。<br/><br/>みんながいる所では話ができないと言うので別間に行ったところ、ふつうの精神病とは違う、まじめです。<br/><br/>私の御魂はこう言うんです。<br/><br/>私は世の中をもち荒らした邪神の頭目じゃないが、邪神の頭目にすっかり瞞されて世の中をもち荒らした。<br/><br/>それでどうしても霊界に行かなければならない。<br/><br/>そうしていままでの罪を贖罪しなければならない。<br/><br/>しかしあなたは霊界で長い間苦しまれていたが、私と交替になるのでしっかりやってもらいたいと言うんです。<br/><br/>気違いどころじゃない。<br/><br/>つまり神様は気違いにさせておいて知らせるんです。<br/><br/>だから神様はなかなかうまい手段で知らせると思った。<br/><br/>国常立尊が閻魔大王で三〇〇〇年の間霊界で観ていられた。<br/><br/>それが今度出たお筆先に、「今度は国常立尊がこの世の閻魔になり世の建替えを致すぞよ」というのがあり、建替えとは審判です。<br/><br/>だから今度は俺を使って国常立尊が審判をするんだと思った。<br/><br/>それからすぐに羽藤という人は死にました。<br/><br/>いろいろなことがあり、なかなか神秘です。<br/><br/>本やなにかに書くことができないんです。<br/><br/>（速記）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

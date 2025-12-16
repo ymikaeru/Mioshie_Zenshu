@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>bunkai07</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰余話 直心分会『会報』２号、昭和24(1949)年1月上旬発行 ――墓碑建立につき常識的に留意すべき事項、例えば方向、形状、盛土の高さ等々、その種類につき御教え願います。<br><br> まず方向ですがこれはどちらでもよろしい。<br><br>仏教では西方浄土と言いますからその団体に所属していた人であれば西向きがよいでしょう。<br><br> また神道では北を尊びますから北向きがよいと思います。<br><br> 形状は昔から用いているものでよい。<br><br>高さも台石から一尺五寸くらいが適当でしょう。<br><br>龍の足も猫足もよい。<br><br> 石の種類は白いほどよい。<br><br>黒っぽいのはよくない。<br><br> まわりに植える木は常緑樹であまり伸びない木がよい。<br><br>樒（しきみ）とか高野まきとか「かなめ」等々他は従前通りふつうでよろしい。<br><br> ――現在湯河原に在住の婦人で代々禅宗でお寺は山梨にありますが、主人死去の際遺言によって日蓮宗に帰依し小田原の日蓮宗の寺に葬りました。<br><br>今回これを一つにして現在の湯河原にまとめてお祀りしたいと思いますがいかがでしょうか。<br><br> お祀りするということはすべて霊中心であるから、主人の霊がどこまでも日蓮宗を信仰しておればよくない。<br><br> しかし光明如来様をお祀りして三年くらい経てばよい。<br><br>そして、その霊を移す前によく光明如来様にお願いし霊にもよくその旨伝えてお移しするとよい。<br><br> ――蜃気楼、不知火、オーロラについて 蜃気楼は殊に北陸地方の魚津の海岸によく現われる。<br><br>朝鮮の風景が、「きりぶすま」に写るのである。<br><br> 不知火――ある伝説には神武天皇御東征のみぎり古文書とか木仏を処理するため、不知火へ船に積んで漕ぎ出しその沖で処理したところが、その海を守っていた龍神がそれを守護しているというのである。<br><br>その龍神がときどき浮いてくるのが光って見えると言われている。<br><br> オーロラ――北は気多で霊が濃いとされている。<br><br>そしてその霊気が濃くなったり薄くなったりするのであるが、濃くなったときに太陽の光線が当たるとオーロラとなって現われる。<br><br> ――虹は『聖書』の中に「ノアの洪水」の後に現われたとありますが、なにか霊的に意味がありましょうか。<br><br> 水蒸気が濃いため太陽の光線が反射して虹になる。<br><br>洪水の後に現われたということは蒸発する水蒸気が多かったためでしょう。<br><br> ――満一歳の子供で目が外人のごとく青く、他の部分は異常ないそうですが、毒素のためか霊的に意味がありますか。<br><br> また「シラコ、アカ毛、チヂレ毛」などについて御教えください。<br><br> いずれも何代か前の西洋人が生まれてきたのである。<br><br> ――ある私生児がひなたを嫌い、お天気の日はぜんぜん外に出ず、雨の日は喜んで外に遊ぶそうですが、なにか霊的意味がありましょうか。<br><br> 晴天の日に変死した人の霊がかかっているか、または地獄にいる霊がかかっている。<br><br>非常に強く嫌う場合は変死した人の霊がかかっており、それほどでもない場合は地獄の霊である。<br><br>ちょうど肺病患者がその通りである。<br><br>地獄の霊は明るい所を嫌うものである。<br><br> ――「唖者」と「吃り」について御教えください。<br><br> 聞こえていて口がきけないのであるから、それは死に際し発声器官に障害をおこし、例えば首を吊って死んだ霊とか喉をつかれて死んだ人霊が生まれ変わってきたとき、またはその霊がかかっている場合などである。<br><br> 下顎と頸とつながっている中途の線に毒素が溜まっており、それを浄霊すればよい。<br><br> ――歯ぎしり」と「いびき」「寝言」について御教え願います。<br><br> 「歯ぎしり」は霊的であり、動物霊である。<br><br> 「いびき」は鼻が悪いためである。<br><br> 「寝言」副守護神を統制する本守護神の弱い場合、寝ているときなどは副守護神が活動しやすいわけである。<br><br> ――除夜の鐘と一〇八鐘をつく意味について御教え願います。<br><br> 仏教では人間の煩悩は百八あるとされている。<br><br>その百八の煩悩を鐘をつくことによって抹殺するというわけである。<br><br> 珠数などもそれを現わしている。<br><br>百八ということは神道でもよく用いられる。<br><br> ――「三毒と五濁」「天魔羅刹」「夜叉」について御教えください。<br><br> 三毒は貪、瞋、痴ともいい、五濁もつまり、つみ、けがれを分類したものである。<br><br> 「天魔羅刹」は仏語で天魔とは天の魔王とも魔神、悪魔ともいう。<br><br> 羅刹は鬼のようなもの。<br><br> 夜叉は女の悪魔という意味で、昔から外面如菩薩内面如夜叉ともいわれている。<br><br>鬼のような女をさしていったもの。<br><br> ――仏壇にお参りするとき、善言讃詞の後に「幽世大神守り給へ幸倍賜へ」と「惟神霊幸倍坐せ」とお唱えし拍手をしてもよろしゅうございますか。<br><br> 拍手はしないほうがよい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Respostas a Diversas Indagações</h2>
 <p><strong>Gostaria de receber orientações sobre questões práticas relativas à construção de túmulos, como a direção, o formato, a altura do pedestal e outros detalhes.</strong></p>
@@ -123,5 +275,48 @@ function toggleLang(lang) {
 <p>"Yasha" significa demônio feminino. Há um antigo ditado que diz: "Por fora, um Bodhisattva; por dentro, uma Yasha". A expressão é usada para descrever uma mulher de índole demoníaca.</p>
 <p><strong>Ao orar diante do altar budista, após a Oração Zengen Sanji, é permitido entoar as preces xintoístas "Kanno Shugo Tamae Sakihae Tamae" e "Kamunagara Tamae Hachihae Mase" e, em seguida, bater palmas?</strong></p>
 <p>É preferível não bater palmas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰余話 直心分会『会報』２号、昭和24(1949)年1月上旬発行 ――墓碑建立につき常識的に留意すべき事項、例えば方向、形状、盛土の高さ等々、その種類につき御教え願います。<br/><br/> まず方向ですがこれはどちらでもよろしい。<br/><br/>仏教では西方浄土と言いますからその団体に所属していた人であれば西向きがよいでしょう。<br/><br/> また神道では北を尊びますから北向きがよいと思います。<br/><br/> 形状は昔から用いているものでよい。<br/><br/>高さも台石から一尺五寸くらいが適当でしょう。<br/><br/>龍の足も猫足もよい。<br/><br/> 石の種類は白いほどよい。<br/><br/>黒っぽいのはよくない。<br/><br/> まわりに植える木は常緑樹であまり伸びない木がよい。<br/><br/>樒（しきみ）とか高野まきとか「かなめ」等々他は従前通りふつうでよろしい。<br/><br/> ――現在湯河原に在住の婦人で代々禅宗でお寺は山梨にありますが、主人死去の際遺言によって日蓮宗に帰依し小田原の日蓮宗の寺に葬りました。<br/><br/>今回これを一つにして現在の湯河原にまとめてお祀りしたいと思いますがいかがでしょうか。<br/><br/> お祀りするということはすべて霊中心であるから、主人の霊がどこまでも日蓮宗を信仰しておればよくない。<br/><br/> しかし光明如来様をお祀りして三年くらい経てばよい。<br/><br/>そして、その霊を移す前によく光明如来様にお願いし霊にもよくその旨伝えてお移しするとよい。<br/><br/> ――蜃気楼、不知火、オーロラについて 蜃気楼は殊に北陸地方の魚津の海岸によく現われる。<br/><br/>朝鮮の風景が、「きりぶすま」に写るのである。<br/><br/> 不知火――ある伝説には神武天皇御東征のみぎり古文書とか木仏を処理するため、不知火へ船に積んで漕ぎ出しその沖で処理したところが、その海を守っていた龍神がそれを守護しているというのである。<br/><br/>その龍神がときどき浮いてくるのが光って見えると言われている。<br/><br/> オーロラ――北は気多で霊が濃いとされている。<br/><br/>そしてその霊気が濃くなったり薄くなったりするのであるが、濃くなったときに太陽の光線が当たるとオーロラとなって現われる。<br/><br/> ――虹は『聖書』の中に「ノアの洪水」の後に現われたとありますが、なにか霊的に意味がありましょうか。<br/><br/> 水蒸気が濃いため太陽の光線が反射して虹になる。<br/><br/>洪水の後に現われたということは蒸発する水蒸気が多かったためでしょう。<br/><br/> ――満一歳の子供で目が外人のごとく青く、他の部分は異常ないそうですが、毒素のためか霊的に意味がありますか。<br/><br/> また「シラコ、アカ毛、チヂレ毛」などについて御教えください。<br/><br/> いずれも何代か前の西洋人が生まれてきたのである。<br/><br/> ――ある私生児がひなたを嫌い、お天気の日はぜんぜん外に出ず、雨の日は喜んで外に遊ぶそうですが、なにか霊的意味がありましょうか。<br/><br/> 晴天の日に変死した人の霊がかかっているか、または地獄にいる霊がかかっている。<br/><br/>非常に強く嫌う場合は変死した人の霊がかかっており、それほどでもない場合は地獄の霊である。<br/><br/>ちょうど肺病患者がその通りである。<br/><br/>地獄の霊は明るい所を嫌うものである。<br/><br/> ――「唖者」と「吃り」について御教えください。<br/><br/> 聞こえていて口がきけないのであるから、それは死に際し発声器官に障害をおこし、例えば首を吊って死んだ霊とか喉をつかれて死んだ人霊が生まれ変わってきたとき、またはその霊がかかっている場合などである。<br/><br/> 下顎と頸とつながっている中途の線に毒素が溜まっており、それを浄霊すればよい。<br/><br/> ――歯ぎしり」と「いびき」「寝言」について御教え願います。<br/><br/> 「歯ぎしり」は霊的であり、動物霊である。<br/><br/> 「いびき」は鼻が悪いためである。<br/><br/> 「寝言」副守護神を統制する本守護神の弱い場合、寝ているときなどは副守護神が活動しやすいわけである。<br/><br/> ――除夜の鐘と一〇八鐘をつく意味について御教え願います。<br/><br/> 仏教では人間の煩悩は百八あるとされている。<br/><br/>その百八の煩悩を鐘をつくことによって抹殺するというわけである。<br/><br/> 珠数などもそれを現わしている。<br/><br/>百八ということは神道でもよく用いられる。<br/><br/> ――「三毒と五濁」「天魔羅刹」「夜叉」について御教えください。<br/><br/> 三毒は貪、瞋、痴ともいい、五濁もつまり、つみ、けがれを分類したものである。<br/><br/> 「天魔羅刹」は仏語で天魔とは天の魔王とも魔神、悪魔ともいう。<br/><br/> 羅刹は鬼のようなもの。<br/><br/> 夜叉は女の悪魔という意味で、昔から外面如菩薩内面如夜叉ともいわれている。<br/><br/>鬼のような女をさしていったもの。<br/><br/> ――仏壇にお参りするとき、善言讃詞の後に「幽世大神守り給へ幸倍賜へ」と「惟神霊幸倍坐せ」とお唱えし拍手をしてもよろしゅうございますか。<br/><br/> 拍手はしないほうがよい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

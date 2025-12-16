@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinsyu6</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教は軽蔑されてる 阿呆文学 『栄光』86号、昭和26(1951)年1月10日発行 新宗教は軽蔑されてるといって、口惜しがるには当らない。<br><br>全くその通りなんだから仕方がないよ。<br><br>まずこれから例によって、拙者の見た通り、聞いた通り、思った通りをブチまけてみよう。<br><br> まず手当り放題、片ッ端から取上げてみるが、さて一番に現われましたのは、もったいなくも天照大神様がお憑り遊ばしたという璽光尊（じこうそん）様で御座る。<br><br>何しろ尊い生神様なので、人間共を下に見下し、余ッ程恭々（うやうや）しく平身低頭罷（かしこま）りつんでなければ、お目通りも叶わないというもったい振り、初めはそれでどうやら奉（たてまつ）られ、いい気持になっていたばかりか、時の人気者呉清源に双葉山という呼物さえ出来たので、天下にパッと知れ亘ったのは御承知の通りだ。<br><br>ところが大神様も少々脱線遊ばされたと見えて、宮様の御家敷へ家宅御侵入なされたり、百姓共に供米相ならんなど、飛んでもない事を仰せられるので、とうとう信用零となり、おまけに二人の人気男さえ後足で砂と来たので、その後は岩戸隠れとなったらしい。<br><br>まことにハヤ御同情申す次第なりで御座る。<br><br> 次に現われましたのは、これはまた素ン晴しく威勢のいい神様で、往来だろうが野ッ原だろうが、遠慮会釈も何のその、大勢揃って踊り狂う有様は奇妙奇天烈、悪く言えば狐に撮（つまま）れたようで、善く言えば夢幻の恍惚境に陶酔している有様で、愉快極まりないので御座る。<br><br>だから発展の勢い侮り難く、新聞にニュース映画にヤンヤと騒がれたものだった。<br><br>しかも教祖北村サヨ刀自は「俺の宗教は銭は一文も要らないよ、俺の食うだけは百姓してチャンと穫れるんだから」という御託宣、只より安いものはない世の中とて、一時は老若男女押すな押すなの大繁昌、一躍人気宗教になってしまったんだ。<br><br>それだけならまだいいが、北村教祖の大言壮語はまたフルっている。<br><br>いわく「今の人間共はみんな虫ケラじゃからどもならん、儂は虫ケラ共を撮（つま）み上げて、助けてやるんじゃから、骨が折れるよ」と来るので、大抵のものはウヘェーと頭を下げるか、さもなければ恐れをなして逃げてしまうという訳で、この頃はトント噂を聞かなくなったのはどうなさいましたか、まさか御隠退の御年でも御座んすまい。<br><br> 次はまた、皇道治教といううまく宗教法人令を利用して、色々の商売人に合法的脱税が出来るといって、宣伝したんだから堪らない。<br><br>待合、芸者屋、魚屋、八百屋、乾物屋など色々な欲張り連中が、ワンサワンサと押掛けたのも当然だ。<br><br>一時は仲々発展したようだが、これはチト変だぞ、宗教だか何だか分らないという訳で、とうとうお上から睨まれて、ウンと締め上げられ、ギャフンと参ったらしいが、この頃は細々ながらやっているそうである。<br><br> その次に罷（まか）り出ましたのは、これはまた物凄い宗教で、名前だけは、まこと教というのだが名は体を表わさずで、驚いた事には嘘か本当か知らないが、新聞によれば若い女を素ッ裸にして、殴る蹴る打つのマゾヒズム的やり方なんで、流石（さすが）の拙者も何と申してよいか、かく事も出来ず、筆をなげてしまったので御座る。<br><br> 今度は、アプレゲール新宗教で、名からしてＰＬ教というのだから、実に新時代にもてそうな名前だ。<br><br>というと「オイッ、気を付けろ！お前の方だってメシヤ教なんてイヤにハイカラな名を付けたじゃないか」と言われると、ちょっと閉口頓首だが、ただ中味が丸ッ切り違うんだから、よく見て貰いたいんだよ。<br><br> ＰＬ教の呼物は、御存知の通り当節流行のダンスなんだから嬉しいよ。<br><br>教義にいわく「男女は心を清らかにして神に祈り、男は女を大切にし、女は男を敬い、仲良く円満たるべし、それにはダンスこそ、最も神様の思召に叶うのである」というんだから、これを作った教祖の頭のよさには、ホトホト感心されるで御座るよ。<br><br>だからこういう理屈で踊るんだから大威張りだ。<br><br>何も親父や伜（せがれ）なんかに気兼ねも要らず、天下晴れてのお楽しみじゃない。<br><br>いとも神聖な行事なんだから、流石の神様も御喜びなされ給うだろうし、人間様も当てられ同士の相見互いで、これも地上天国の一場面であろう。<br><br>だから吾々も信者になりたいんだが、そうも行かないので、指を喰えているばかり、ホンに羨しい限りだよ。<br><br>で、諸君も御存知の通り、この教団は元の人の道の教祖御木徳一氏の令息徳近という文化人だそうだから、なるほどと合点が行くで御座ろう。<br><br> まず以上のごとく戦後派新宗教の総まくりを並べた次第だが、こう見て来ると、どれもこれも確（しっ）かりした教義もなければ、形式もなく、もちろん理論もヘチマもない。<br><br>哲学もなければ科学もなく、ただ興味本位の手軽さで、俗衆を引き寄せるには持って来いのやり方なんだから誠にタワイない、といってしまえばそれまでだが、ところがどうしてどうしてこれが容易ならぬ問題を含んでいるんだ。<br><br>というのはこれを見た現代人の偉方は「なあーんだ、新宗教なんてものは実に馬鹿馬鹿しい、くだらないもんだ、こんなものに騙される奴は余ッ程低級な代物だ、全く戦後人心の混乱に便乗し、怪し気な宗教をデッチ上げ、衆愚から金を巻き上げるんだから、怪しからん。<br><br>こんなものは社会のため、片ッ端からヤッツケてしまえ」と仰言（おっしゃ）るんだから、迷惑なのは本教だよ。<br><br>特に本教は地上天国などという金のかかるドエライものを拵えたりするので、新聞雑誌は羨しそうに何十億の資産があるなどとかき立てるので、オッチョコチョイは憤慨し、インチキで巧く瞞して大金を巻き上げ、豪奢な生活をしてやがるんだから癪（しゃく）に障って仕方がない。<br><br>メシヤ教の奴新宗教の中の一番大物なんだからこいつを槍玉に上げるのが社会のためだ、という訳で、目の仇（かたき）にされるんだからやり切れない、春秋（しゅんじゅう）の筆法で言えば、諸々の新宗教が本教を苦しめるという訳だよ。<br><br> ところが、盲千人の世の中だから、口車じゃあないデマ車に乗せられて、本教の真の姿を見る事が出来ないのも無理はない。<br><br>だが本当によいものは、必ず認められる日が来るに決っている。<br><br>その時になるとアチラでもコチラでも、引ッ張り凧の大人気で袖が千切れてやりきれまい。<br><br>なぜなれば本教に縋らなければ、命が危ないという大変な事になるんだから、その時だよ、へヘンと言ってフン反り返り、低い鼻でもウンとオヤかしてやるよ、というとメシヤ教の奴、またしてもそんな誇大妄想的御託宣で、人を吊ろうとしやがる。<br><br>怪しからんといって、怒られると怖いから、この辺でまずは退陣致すとしよう。<br><br> (注) アプレゲール 戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br><br> 春秋（しゅんじゅう）の筆法 紀元前の中国の史書「春秋」の文章には、孔子の正邪の判断が加えられているところから事実を述べるのに、価値判断を入れて書く書き方。<br><br>特に、間接的原因を結果に直接結びつけて厳しく批判する仕方。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Menosprezo às Novas Religiões</h2>
 <p>Não há por que se lamentar do fato de as novas religiões serem menosprezadas. É a mais pura verdade e, portanto, inevitável. Como de costume, permitam-me expor sem reservas o que tenho visto, ouvido e pensado a respeito.</p>
@@ -101,5 +253,48 @@ function toggleLang(lang) {
 <p>Pois bem, apresentei um panorama geral das novas religiões do pós-guerra. Observando-as, percebemos que nenhuma possui uma doutrina sólida, uma forma definida e, naturalmente, carecem de qualquer lógica ou fundamento. Não há nelas filosofia nem ciência; são apenas métodos fáceis, baseados no entretenimento, ideais para atrair as massas populares. Poderíamos dizer que são insignificantes e encerrar o assunto, mas a questão contém um problema de grande seriedade. Ocorre que as pessoas influentes da atualidade, ao se depararem com esse cenário, declaram: “Ora, essas novas religiões são um amontoado de tolices e absurdos! Aqueles que se deixam enganar por algo assim são criaturas de nível muito baixo. É um ultraje que se aproveitem da confusão mental do pós-guerra para forjar religiões suspeitas e extorquir dinheiro das massas ignorantes. Pelo bem da sociedade, é preciso acabar com todas elas!”.</p>
 <p>Essa situação acaba por ser um estorvo para a nossa Igreja. Especialmente porque nos dedicamos a construir algo tão grandioso e dispendioso como o Paraíso Terrestre, jornais e revistas, com aparente inveja, alardeiam que possuímos um patrimônio de bilhões. Com isso, os mais afoitos se indignam, concluindo que estamos empregando um engenhoso estelionato para acumular vastas somas de dinheiro e desfrutar de uma vida de luxo, o que lhes causa profunda irritação. Eles pensam: “A Igreja Messiânica é a maior de todas as novas religiões; portanto, atacá-la é um serviço à sociedade”. E assim, tornamo-nos o alvo principal de seu ódio, uma situação verdadeiramente insuportável. Usando uma linguagem mais crítica, poderíamos dizer que as diversas novas religiões acabam por afligir a nossa Igreja.</p>
 <p>Todavia, em um mundo de cegos, é natural que muitos, iludidos não por palavras, mas por uma torrente de calúnias, sejam incapazes de enxergar a verdadeira face de nossa Igreja. Contudo, aquilo que é verdadeiramente bom, um dia, será reconhecido. Quando esse momento chegar, seremos tão requisitados por todos os lados que mal conseguiremos dar conta da demanda. Pois chegará um tempo de grande aflição em que suas vidas dependerão de se apegarem a este Ensinamento. Nesse momento, de peito estufado e com ar de superioridade, poderei dizer: “Eu não avisei?”. Mas logo dirão: “Lá vem o sujeito da Igreja Messiânica com suas predições megalomaníacas tentando nos persuadir outra vez. Que ultraje!”. Como temo ser repreendido por tal atitude, creio que seja prudente, por ora, encerrar minhas palavras.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教は軽蔑されてる 阿呆文学 『栄光』86号、昭和26(1951)年1月10日発行 新宗教は軽蔑されてるといって、口惜しがるには当らない。<br/><br/>全くその通りなんだから仕方がないよ。<br/><br/>まずこれから例によって、拙者の見た通り、聞いた通り、思った通りをブチまけてみよう。<br/><br/> まず手当り放題、片ッ端から取上げてみるが、さて一番に現われましたのは、もったいなくも天照大神様がお憑り遊ばしたという璽光尊（じこうそん）様で御座る。<br/><br/>何しろ尊い生神様なので、人間共を下に見下し、余ッ程恭々（うやうや）しく平身低頭罷（かしこま）りつんでなければ、お目通りも叶わないというもったい振り、初めはそれでどうやら奉（たてまつ）られ、いい気持になっていたばかりか、時の人気者呉清源に双葉山という呼物さえ出来たので、天下にパッと知れ亘ったのは御承知の通りだ。<br/><br/>ところが大神様も少々脱線遊ばされたと見えて、宮様の御家敷へ家宅御侵入なされたり、百姓共に供米相ならんなど、飛んでもない事を仰せられるので、とうとう信用零となり、おまけに二人の人気男さえ後足で砂と来たので、その後は岩戸隠れとなったらしい。<br/><br/>まことにハヤ御同情申す次第なりで御座る。<br/><br/> 次に現われましたのは、これはまた素ン晴しく威勢のいい神様で、往来だろうが野ッ原だろうが、遠慮会釈も何のその、大勢揃って踊り狂う有様は奇妙奇天烈、悪く言えば狐に撮（つまま）れたようで、善く言えば夢幻の恍惚境に陶酔している有様で、愉快極まりないので御座る。<br/><br/>だから発展の勢い侮り難く、新聞にニュース映画にヤンヤと騒がれたものだった。<br/><br/>しかも教祖北村サヨ刀自は「俺の宗教は銭は一文も要らないよ、俺の食うだけは百姓してチャンと穫れるんだから」という御託宣、只より安いものはない世の中とて、一時は老若男女押すな押すなの大繁昌、一躍人気宗教になってしまったんだ。<br/><br/>それだけならまだいいが、北村教祖の大言壮語はまたフルっている。<br/><br/>いわく「今の人間共はみんな虫ケラじゃからどもならん、儂は虫ケラ共を撮（つま）み上げて、助けてやるんじゃから、骨が折れるよ」と来るので、大抵のものはウヘェーと頭を下げるか、さもなければ恐れをなして逃げてしまうという訳で、この頃はトント噂を聞かなくなったのはどうなさいましたか、まさか御隠退の御年でも御座んすまい。<br/><br/> 次はまた、皇道治教といううまく宗教法人令を利用して、色々の商売人に合法的脱税が出来るといって、宣伝したんだから堪らない。<br/><br/>待合、芸者屋、魚屋、八百屋、乾物屋など色々な欲張り連中が、ワンサワンサと押掛けたのも当然だ。<br/><br/>一時は仲々発展したようだが、これはチト変だぞ、宗教だか何だか分らないという訳で、とうとうお上から睨まれて、ウンと締め上げられ、ギャフンと参ったらしいが、この頃は細々ながらやっているそうである。<br/><br/> その次に罷（まか）り出ましたのは、これはまた物凄い宗教で、名前だけは、まこと教というのだが名は体を表わさずで、驚いた事には嘘か本当か知らないが、新聞によれば若い女を素ッ裸にして、殴る蹴る打つのマゾヒズム的やり方なんで、流石（さすが）の拙者も何と申してよいか、かく事も出来ず、筆をなげてしまったので御座る。<br/><br/> 今度は、アプレゲール新宗教で、名からしてＰＬ教というのだから、実に新時代にもてそうな名前だ。<br/><br/>というと「オイッ、気を付けろ！お前の方だってメシヤ教なんてイヤにハイカラな名を付けたじゃないか」と言われると、ちょっと閉口頓首だが、ただ中味が丸ッ切り違うんだから、よく見て貰いたいんだよ。<br/><br/> ＰＬ教の呼物は、御存知の通り当節流行のダンスなんだから嬉しいよ。<br/><br/>教義にいわく「男女は心を清らかにして神に祈り、男は女を大切にし、女は男を敬い、仲良く円満たるべし、それにはダンスこそ、最も神様の思召に叶うのである」というんだから、これを作った教祖の頭のよさには、ホトホト感心されるで御座るよ。<br/><br/>だからこういう理屈で踊るんだから大威張りだ。<br/><br/>何も親父や伜（せがれ）なんかに気兼ねも要らず、天下晴れてのお楽しみじゃない。<br/><br/>いとも神聖な行事なんだから、流石の神様も御喜びなされ給うだろうし、人間様も当てられ同士の相見互いで、これも地上天国の一場面であろう。<br/><br/>だから吾々も信者になりたいんだが、そうも行かないので、指を喰えているばかり、ホンに羨しい限りだよ。<br/><br/>で、諸君も御存知の通り、この教団は元の人の道の教祖御木徳一氏の令息徳近という文化人だそうだから、なるほどと合点が行くで御座ろう。<br/><br/> まず以上のごとく戦後派新宗教の総まくりを並べた次第だが、こう見て来ると、どれもこれも確（しっ）かりした教義もなければ、形式もなく、もちろん理論もヘチマもない。<br/><br/>哲学もなければ科学もなく、ただ興味本位の手軽さで、俗衆を引き寄せるには持って来いのやり方なんだから誠にタワイない、といってしまえばそれまでだが、ところがどうしてどうしてこれが容易ならぬ問題を含んでいるんだ。<br/><br/>というのはこれを見た現代人の偉方は「なあーんだ、新宗教なんてものは実に馬鹿馬鹿しい、くだらないもんだ、こんなものに騙される奴は余ッ程低級な代物だ、全く戦後人心の混乱に便乗し、怪し気な宗教をデッチ上げ、衆愚から金を巻き上げるんだから、怪しからん。<br/><br/>こんなものは社会のため、片ッ端からヤッツケてしまえ」と仰言（おっしゃ）るんだから、迷惑なのは本教だよ。<br/><br/>特に本教は地上天国などという金のかかるドエライものを拵えたりするので、新聞雑誌は羨しそうに何十億の資産があるなどとかき立てるので、オッチョコチョイは憤慨し、インチキで巧く瞞して大金を巻き上げ、豪奢な生活をしてやがるんだから癪（しゃく）に障って仕方がない。<br/><br/>メシヤ教の奴新宗教の中の一番大物なんだからこいつを槍玉に上げるのが社会のためだ、という訳で、目の仇（かたき）にされるんだからやり切れない、春秋（しゅんじゅう）の筆法で言えば、諸々の新宗教が本教を苦しめるという訳だよ。<br/><br/> ところが、盲千人の世の中だから、口車じゃあないデマ車に乗せられて、本教の真の姿を見る事が出来ないのも無理はない。<br/><br/>だが本当によいものは、必ず認められる日が来るに決っている。<br/><br/>その時になるとアチラでもコチラでも、引ッ張り凧の大人気で袖が千切れてやりきれまい。<br/><br/>なぜなれば本教に縋らなければ、命が危ないという大変な事になるんだから、その時だよ、へヘンと言ってフン反り返り、低い鼻でもウンとオヤかしてやるよ、というとメシヤ教の奴、またしてもそんな誇大妄想的御託宣で、人を吊ろうとしやがる。<br/><br/>怪しからんといって、怒られると怖いから、この辺でまずは退陣致すとしよう。<br/><br/> (注) アプレゲール 戦後派。<br/><br/>第一次大戦後、フランスなどに興った芸術上の新傾向。<br/><br/>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br/><br/> 春秋（しゅんじゅう）の筆法 紀元前の中国の史書「春秋」の文章には、孔子の正邪の判断が加えられているところから事実を述べるのに、価値判断を入れて書く書き方。<br/><br/>特に、間接的原因を結果に直接結びつけて厳しく批判する仕方。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

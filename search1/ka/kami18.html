@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kami18</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神は在るか 『信仰雑話』P.68、昭和23(1948)年9月5日発行 この問題については昔から今日まで論議されていて、いまだ解決は付かないが、これについてまず私自身の経験をかいてみよう。<br><br>というのは私は三十二、三歳の頃までは極端な無神論者で、神社の前を通っても決して礼拝をした事がない。<br><br>その理由はこうである。<br><br>およそ神社の神体なるものは、木製の御宮と称する屋根と扉のある小さな一個の筥を作り、その中には金属製の鏡か石塊かまたは文字の書いた紙片があるばかりで、それを拝むという事は何の意味もないではないか、従ってそれを拝むなどという事は迷信以外の何物でもないと決めていたのである。<br><br>その頃私は哲学に趣味を持ち、当時流行していたドイツの哲学者オイケンの説に共鳴したが、その中にこういう事がある。<br><br> 元来人間は何かを拝まなければいられないという本能がある。<br><br>野蛮人は木か石で何かの形を造り、それを立てて拝んで満足している。<br><br>文明人はそれの高等なるもので、偉人などの死後その霊を偶像化して拝む。<br><br>共の際供物を供え、華などを上げるが、それは必ず拝者の方に向けられる。<br><br>神に捧ぐるものなら神の方へ向かせるべきではないか、そうしないのは全く自己満足のためでしかないというのである。<br><br>というような訳で私は極端な無神論者であった。<br><br>当時の私を省みる時、今日恐ろしい気がする位である。<br><br>故に今日無神論者の話を聞いてもよく判り得るのである。<br><br>そうしているうちに私は運命の大転換をせざるを得なくなった。<br><br>それは事業の大失敗と時を同じうして、妻の死である。<br><br>永年にわたり粒々辛苦して作った財産も失い、反って大きな負債を負う事になり、悲観のドン底に陥ったが、そのような時に誰しもたどるのは信仰への道で、苦しい時の神頼みである。<br><br>私も同様信仰を求めざるを得なくなり、種々の宗教をあさってみたが余り魅力を感ずるものはなかったが、中で独り当時流行の大本教に魅力を感じたのでついに入信し、漸次熱心な信者となった。<br><br>しかしながら私の疑い深い性格は全身全霊を打込むまでには到らなかったが、無神論だけはどうやら解消した。<br><br>確かに神はこの世に在るという事を知ったからである。<br><br>その事は次項に譲るが、当時私の生活は奇蹟の連続であった。<br><br>疑えば疑う程その疑いを解かざるを得ない奇蹟が現われる。<br><br>どう考えても理屈では解らない。<br><br>神は在るという訳で、一人の頑迷なる無神論者も、神の前に頭を下げざるを得なくなったが、そればかりではない、私の現世に生れた大使命を、ある形式によってマザマザと知らされた。<br><br>いよいよ私も大決心をしなければならない。<br><br>それは一切を放擲（ほうてき）し、信仰、否人類救済の大聖業に邁進しなければならないという事で今日に及んだのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Existe Deus?</h2>
 <p>Desde a Antiguidade até os dias de hoje, a existência de Deus tem sido objeto de infindáveis discussões, sem que se chegue a uma conclusão. A esse respeito, permitam-me relatar, primeiramente, minha própria experiência. Ocorre que, até por volta dos meus trinta e dois ou trinta e três anos, eu era um ateu convicto, a ponto de jamais prestar reverência ao passar em frente a um santuário.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Não obstante, minha natureza cética impedia que eu me entregasse de corpo e alma. Ainda assim, meu ateísmo foi finalmente superado, pois compreendi que Deus verdadeiramente existe neste mundo. Abordarei os pormenores dessa descoberta em outra oportunidade. O fato é que minha vida, a partir daquele período, tornou-se uma sucessão de milagres.</p>
 <p>Quanto mais eu duvidava, mais surgiam prodígios que me forçavam a dissipar minhas incertezas. Eram fenômenos para os quais a lógica não oferecia qualquer explicação. Diante da evidência de que Deus existe, aquele ateu obstinado que eu fora não teve outra escolha senão curvar a cabeça diante Dele.</p>
 <p>Todavia, os acontecimentos não pararam por aí. A grandiosa missão para a qual nasci neste mundo foi-me revelada de forma inequívoca. Impunha-se, então, uma grande decisão: eu deveria renunciar a tudo e devotar-me por inteiro à fé; ou melhor, à magna obra sagrada da salvação da humanidade. E foi assim que cheguei aos dias de hoje.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神は在るか 『信仰雑話』P.68、昭和23(1948)年9月5日発行 この問題については昔から今日まで論議されていて、いまだ解決は付かないが、これについてまず私自身の経験をかいてみよう。<br/><br/>というのは私は三十二、三歳の頃までは極端な無神論者で、神社の前を通っても決して礼拝をした事がない。<br/><br/>その理由はこうである。<br/><br/>およそ神社の神体なるものは、木製の御宮と称する屋根と扉のある小さな一個の筥を作り、その中には金属製の鏡か石塊かまたは文字の書いた紙片があるばかりで、それを拝むという事は何の意味もないではないか、従ってそれを拝むなどという事は迷信以外の何物でもないと決めていたのである。<br/><br/>その頃私は哲学に趣味を持ち、当時流行していたドイツの哲学者オイケンの説に共鳴したが、その中にこういう事がある。<br/><br/> 元来人間は何かを拝まなければいられないという本能がある。<br/><br/>野蛮人は木か石で何かの形を造り、それを立てて拝んで満足している。<br/><br/>文明人はそれの高等なるもので、偉人などの死後その霊を偶像化して拝む。<br/><br/>共の際供物を供え、華などを上げるが、それは必ず拝者の方に向けられる。<br/><br/>神に捧ぐるものなら神の方へ向かせるべきではないか、そうしないのは全く自己満足のためでしかないというのである。<br/><br/>というような訳で私は極端な無神論者であった。<br/><br/>当時の私を省みる時、今日恐ろしい気がする位である。<br/><br/>故に今日無神論者の話を聞いてもよく判り得るのである。<br/><br/>そうしているうちに私は運命の大転換をせざるを得なくなった。<br/><br/>それは事業の大失敗と時を同じうして、妻の死である。<br/><br/>永年にわたり粒々辛苦して作った財産も失い、反って大きな負債を負う事になり、悲観のドン底に陥ったが、そのような時に誰しもたどるのは信仰への道で、苦しい時の神頼みである。<br/><br/>私も同様信仰を求めざるを得なくなり、種々の宗教をあさってみたが余り魅力を感ずるものはなかったが、中で独り当時流行の大本教に魅力を感じたのでついに入信し、漸次熱心な信者となった。<br/><br/>しかしながら私の疑い深い性格は全身全霊を打込むまでには到らなかったが、無神論だけはどうやら解消した。<br/><br/>確かに神はこの世に在るという事を知ったからである。<br/><br/>その事は次項に譲るが、当時私の生活は奇蹟の連続であった。<br/><br/>疑えば疑う程その疑いを解かざるを得ない奇蹟が現われる。<br/><br/>どう考えても理屈では解らない。<br/><br/>神は在るという訳で、一人の頑迷なる無神論者も、神の前に頭を下げざるを得なくなったが、そればかりではない、私の現世に生れた大使命を、ある形式によってマザマザと知らされた。<br/><br/>いよいよ私も大決心をしなければならない。<br/><br/>それは一切を放擲（ほうてき）し、信仰、否人類救済の大聖業に邁進しなければならないという事で今日に及んだのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

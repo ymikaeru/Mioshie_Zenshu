@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>husigi1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不思議な事実 『明日の医術 第二編』昭和18(1943)年10月5日発行 私は医家に関し、不思議に堪えない事実に常に逢着（ほうちゃく）するのである。<br><br>それは、本療法によって大病院又は大家が見放した重症が、奇蹟的に治癒した場合、患者は嬉しさの余りと、この様な素晴しい医術によって、いかに人々が救われるであろうかを想って、医家に向って詳細報告する事がある。<br><br>しかるにその場合医家は何ら関心を払おうとしない。<br><br>又医家の家族が本療法によって治癒した場合、ただ驚異するのみで、進んで研究しようという意志の発動がないのである。<br><br>私としては西洋医学とは比較にならない程の治病効果を現実に示すにおいて、まず医師である以上、それを研究すべく積極的態度に出でなければならないと思うが、その様な事は今日まで更にないのである。<br><br> しかるに、西洋の学者が何かを発覚した報告に接するや、大いに関心を払い、直ちにそれの研究に着手するというような事によってみても、日本の医家及び医学者がいかに西洋崇拝の根強く染み込んでいるかという事が解るのである。<br><br>私は思う。<br><br>日本の医家及び医学者は、医学上における偉大なる発見は、重に西洋人である事と日本人とすれば科学者以外には生み得ないと心に断定しているかのようである。<br><br>勿論今日までの文化の大方はそうであったから、今もなおそうであるという先入観念に囚われているからであろう。<br><br> 私は、本医術の卓越せる事を、遍（あまね）く知らしむべき第一歩としては、前述のごとき医家の狭い視野の是正こそ、何よりも緊要事であると思うのである。<br><br> そうして機械や薬剤等のごとき、複雑なる施設も方法も必要としない、ただ人間の手指の技術によって、その診断と治病力の、卓越せる医術が、日本人の手によって創始せられたという事実を看過するという事は、不可解極まると思うのである。<br><br>いかに驚異に値する効果を目撃するといえども、一顧だもしないという態度は、宗教的でさえあると思われる程である。<br><br>自己が信仰する以外のいかなるものといえども、すべては異端者と見なす態度のごとくである。<br><br>私はこの問題に対し、参考として数種の実例を挙げてみよう。<br><br> 私は先年、四十余年、東京市内の某所で開業している某老眼科医の眼病を治療した事がある。<br><br>それは初め入浴の際、石鹸水が眼に滲みたのが原因で漸次悪化し、どうしても治癒しないので、私の所へ来たのである。<br><br>本人いわく「私の倅（せがれ）は○○大学の眼科に勤務している関係上、そこに数ケ月通い、最新の療法を受けたのであるが、漸次悪化し、現在視力○・一という状態である」との事であったが、私が一回治療したところ、翌日は○・四となり、一週間にして全治したのである。<br><br>従って右の眼科医は、本療法の効果に驚くと共に、本療法を受講修得したのである。<br><br>その後数ケ月を経て私の所へ遊びに来たので、私は「本療法を幾人かに試みたか」――を訊いてみたところ、いわく、「飛んでもない事です。<br><br>その様な事をすると、医師会から除名されます。<br><br>故に、極力秘密にしており、妻にも息子にも絶対知らせない事にしています」というので、私は唖然としたのである。<br><br> 私が治療時代、ある若夫人（二十四歳）の重症喘息を治療した事があった。<br><br>それは珍らしい猛烈さで、一ケ月の中二十日間入院し、十日間家に居るという始末で、いつ発作が起るか判らないので、その都度、医師に行く事は困難であるから、夫君が注射法を知り注射器を携帯し、常に夫人の側を離れないという状態で、全く注射中毒症となったのである。<br><br>多い時は一日二、三十本の注射をなし、その結果昏睡状態になった事や、瀕死の状態になったりして、幾度となく医師から絶望視せられたのであった。<br><br>しかるに、私の治療によってメキメキ快方に赴いたので、その夫君は非常な感激と共にかような偉大なる治療は医学で応用すべきであるとなし、永い間夫人が世話になった某大病院の某博士に会い説明をしたのであった。<br><br>夫君がそうした事は、今一つの原因があった。<br><br>それはその博士は、喘息専門の権威であり、喘息の研究については寝食を忘れる程の熱心さであったという――その為もあった。<br><br>そうして、その博士は驚くと共に、是非研究したい希望である事をいい、私の所へ面会に来る事になった。<br><br>しかるに、その約束の日には遂に来らずその後数回打合せに行ったが、いつも約束を無視し来ないので、その人は非常に立腹し、医家としてかような素晴しい療法が生れたのに、それを研究しないという事は、医師という使命の上からいっても、人道上からいっても不可解であると強硬に言ったに関わらず遂に徒労に帰したのであった。<br><br> 次に、五十幾歳の男子、頬に癌の出来る頬癌（きょうがん）という病気で、数年に渉ってあらゆる医療を受け、最後に癌研究所に行き、不治の宣告を受けたのである。<br><br>それが私の治療二、三ケ月位で全治したのであった。<br><br>しかるに同研究所は患者が同所と離れた後といえども時々病状を問合すのだそうである。<br><br>従って、その人も全治してから一ケ年位の後、同所からの問合せに対し、早速出所し、全治の状態をみせたのである。<br><br>医師は驚いてその経過を訊いたので、本療法によって治癒せる事を詳細語ったのだそうであるが、医家は何らの表情もなく、むしろ不機嫌そうにその場を去ったという事であった。<br><br> 次に、四十歳位の婦人、右足の踝（くるぶし）の辺に腫物が出来、数年に渉ってあらゆる医療を受けたが治癒しないのみか、漸次悪化し、遂に歩行すら不可能となり、臥床呻吟する事一ケ年余に及んだ。<br><br>しかるに、本療法によって自由に外出が出来るようになった際、たまたま以前臥床時代診療を受けた医師に往来で遇ったのである。<br><br>医師は驚いて、「どうして良くなったか」と訊いたので「こういう療法で快くなった」と話したところその医師いわく、「アゝそれはお禁厭（まじない）だ」というので、その婦人は、禁厭でない事を説明した所「アゝそれじゃ狐を使うんだ」というのである。<br><br> 従って、この医師の言のごときものであるとすれば、現代医学よりも禁厭や狐の方が治病効果が優れているという理屈になるので、その医師の頭脳に驚かざるを得なかったのである。<br><br> 右のような例は枚挙に遑（いとま）ない程であるから、他は推して知るべきである。<br><br>又こういう事もある。<br><br>某博士が自己の手に困難だと思う患者を、私の弟子の方へ廻す事がある。<br><br>勿論、現代医学で治らないものが、本療法によって治るという事を知っているからである。<br><br>そこまで信ずるもなお研究に手を染めないという事も不思議と思うのである。<br><br>それはあるいは、そうする事は、医師会との関係もあり、複雑なる事態の生ずるという懼（おそ）れある為かも知れないが、医家としての使命を考える時、文化の進歩に反するばかりか、人間の生命を取扱うという聖なる使命に背く訳となろう。<br><br> しかし、私は思うのである。<br><br>本医術に対し、何ら遅疑する事なく、進んで突入し、研究すべきである。<br><br>その結果もし西洋医学よりも劣るか、又は無価値であるとすれば、放棄すればいいであろうし、これに反して私のいうごとき偉大なる医術であるとすれば、大いに医学界に向って推奨すべきであろう。<br><br>それによって人類の病気を解決すべき端緒となるとすれば、先覚者たる栄誉を担い得る事となるであろう。<br><br> 要するに、私は医家の良心の問題ではないかと思うのである。<br><br>この意味において私は、良心的医家の、一日も速かに表われん事を切望してやまないものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Um Fato Desconcertante</h2>
 <p>Constantemente me deparo com um fato que, no que tange à classe médica, causa-me profunda estranheza. Ocorre que, quando um paciente em estado grave, já desenganado por grandes hospitais ou por médicos de renome, alcança a cura milagrosa por meio deste método terapêutico, movido pela imensa alegria e pela esperança de que muitas outras pessoas pudessem ser salvas por tão maravilhosa arte, ele por vezes procura o médico para lhe fazer um relato detalhado. Em tais situações, contudo, o profissional demonstra a mais completa indiferença. Da mesma forma, quando um familiar de um médico é curado por este método, ele se limita a expressar espanto, sem que se manifeste a menor iniciativa em pesquisá-lo. A meu ver, diante de uma eficácia terapêutica incomparavelmente superior à da medicina ocidental, a primeira atitude de um médico deveria ser a de investigar ativamente o fenômeno. Tal postura, entretanto, jamais se manifestou até hoje.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Exemplos como os supracitados são tão numerosos que seria impossível enumerá-los todos; o restante pode ser facilmente deduzido. Há também outra situação curiosa: certo doutor por vezes encaminha para um de meus discípulos os pacientes que considera estarem além de sua capacidade de tratamento. Evidentemente, ele o faz por saber que este método terapêutico cura casos que a medicina moderna não consegue resolver. Ainda que sua confiança chegue a tal ponto, é um mistério que ele não se disponha a pesquisar o método. Talvez isso se deva ao receio de que tal atitude possa gerar situações complexas e problemas com a associação médica. No entanto, ao considerarmos a missão de um médico, essa postura não apenas se opõe ao progresso da cultura, mas também equivale a trair a sagrada missão de lidar com a vida humana.</p>
 <p>Acredito, no entanto, que os médicos deveriam, sem qualquer hesitação, imergir no estudo desta arte. Se, como resultado de suas pesquisas, concluírem que ela é inferior à medicina ocidental ou desprovida de valor, que a abandonem. Se, ao contrário, constatarem que se trata de uma arte médica grandiosa, como afirmo, seu dever será promovê-la com vigor perante a comunidade médica. Se isso se tornar o ponto de partida para a solução das doenças da humanidade, eles serão dignos de carregar a honra de pioneiros.</p>
 <p>Em suma, penso que esta é uma questão de consciência da classe médica. E, nesse sentido, anseio ardentemente pelo dia em que surjam, o mais breve possível, médicos dotados de tal consciência.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不思議な事実 『明日の医術 第二編』昭和18(1943)年10月5日発行 私は医家に関し、不思議に堪えない事実に常に逢着（ほうちゃく）するのである。<br/><br/>それは、本療法によって大病院又は大家が見放した重症が、奇蹟的に治癒した場合、患者は嬉しさの余りと、この様な素晴しい医術によって、いかに人々が救われるであろうかを想って、医家に向って詳細報告する事がある。<br/><br/>しかるにその場合医家は何ら関心を払おうとしない。<br/><br/>又医家の家族が本療法によって治癒した場合、ただ驚異するのみで、進んで研究しようという意志の発動がないのである。<br/><br/>私としては西洋医学とは比較にならない程の治病効果を現実に示すにおいて、まず医師である以上、それを研究すべく積極的態度に出でなければならないと思うが、その様な事は今日まで更にないのである。<br/><br/> しかるに、西洋の学者が何かを発覚した報告に接するや、大いに関心を払い、直ちにそれの研究に着手するというような事によってみても、日本の医家及び医学者がいかに西洋崇拝の根強く染み込んでいるかという事が解るのである。<br/><br/>私は思う。<br/><br/>日本の医家及び医学者は、医学上における偉大なる発見は、重に西洋人である事と日本人とすれば科学者以外には生み得ないと心に断定しているかのようである。<br/><br/>勿論今日までの文化の大方はそうであったから、今もなおそうであるという先入観念に囚われているからであろう。<br/><br/> 私は、本医術の卓越せる事を、遍（あまね）く知らしむべき第一歩としては、前述のごとき医家の狭い視野の是正こそ、何よりも緊要事であると思うのである。<br/><br/> そうして機械や薬剤等のごとき、複雑なる施設も方法も必要としない、ただ人間の手指の技術によって、その診断と治病力の、卓越せる医術が、日本人の手によって創始せられたという事実を看過するという事は、不可解極まると思うのである。<br/><br/>いかに驚異に値する効果を目撃するといえども、一顧だもしないという態度は、宗教的でさえあると思われる程である。<br/><br/>自己が信仰する以外のいかなるものといえども、すべては異端者と見なす態度のごとくである。<br/><br/>私はこの問題に対し、参考として数種の実例を挙げてみよう。<br/><br/> 私は先年、四十余年、東京市内の某所で開業している某老眼科医の眼病を治療した事がある。<br/><br/>それは初め入浴の際、石鹸水が眼に滲みたのが原因で漸次悪化し、どうしても治癒しないので、私の所へ来たのである。<br/><br/>本人いわく「私の倅（せがれ）は○○大学の眼科に勤務している関係上、そこに数ケ月通い、最新の療法を受けたのであるが、漸次悪化し、現在視力○・一という状態である」との事であったが、私が一回治療したところ、翌日は○・四となり、一週間にして全治したのである。<br/><br/>従って右の眼科医は、本療法の効果に驚くと共に、本療法を受講修得したのである。<br/><br/>その後数ケ月を経て私の所へ遊びに来たので、私は「本療法を幾人かに試みたか」――を訊いてみたところ、いわく、「飛んでもない事です。<br/><br/>その様な事をすると、医師会から除名されます。<br/><br/>故に、極力秘密にしており、妻にも息子にも絶対知らせない事にしています」というので、私は唖然としたのである。<br/><br/> 私が治療時代、ある若夫人（二十四歳）の重症喘息を治療した事があった。<br/><br/>それは珍らしい猛烈さで、一ケ月の中二十日間入院し、十日間家に居るという始末で、いつ発作が起るか判らないので、その都度、医師に行く事は困難であるから、夫君が注射法を知り注射器を携帯し、常に夫人の側を離れないという状態で、全く注射中毒症となったのである。<br/><br/>多い時は一日二、三十本の注射をなし、その結果昏睡状態になった事や、瀕死の状態になったりして、幾度となく医師から絶望視せられたのであった。<br/><br/>しかるに、私の治療によってメキメキ快方に赴いたので、その夫君は非常な感激と共にかような偉大なる治療は医学で応用すべきであるとなし、永い間夫人が世話になった某大病院の某博士に会い説明をしたのであった。<br/><br/>夫君がそうした事は、今一つの原因があった。<br/><br/>それはその博士は、喘息専門の権威であり、喘息の研究については寝食を忘れる程の熱心さであったという――その為もあった。<br/><br/>そうして、その博士は驚くと共に、是非研究したい希望である事をいい、私の所へ面会に来る事になった。<br/><br/>しかるに、その約束の日には遂に来らずその後数回打合せに行ったが、いつも約束を無視し来ないので、その人は非常に立腹し、医家としてかような素晴しい療法が生れたのに、それを研究しないという事は、医師という使命の上からいっても、人道上からいっても不可解であると強硬に言ったに関わらず遂に徒労に帰したのであった。<br/><br/> 次に、五十幾歳の男子、頬に癌の出来る頬癌（きょうがん）という病気で、数年に渉ってあらゆる医療を受け、最後に癌研究所に行き、不治の宣告を受けたのである。<br/><br/>それが私の治療二、三ケ月位で全治したのであった。<br/><br/>しかるに同研究所は患者が同所と離れた後といえども時々病状を問合すのだそうである。<br/><br/>従って、その人も全治してから一ケ年位の後、同所からの問合せに対し、早速出所し、全治の状態をみせたのである。<br/><br/>医師は驚いてその経過を訊いたので、本療法によって治癒せる事を詳細語ったのだそうであるが、医家は何らの表情もなく、むしろ不機嫌そうにその場を去ったという事であった。<br/><br/> 次に、四十歳位の婦人、右足の踝（くるぶし）の辺に腫物が出来、数年に渉ってあらゆる医療を受けたが治癒しないのみか、漸次悪化し、遂に歩行すら不可能となり、臥床呻吟する事一ケ年余に及んだ。<br/><br/>しかるに、本療法によって自由に外出が出来るようになった際、たまたま以前臥床時代診療を受けた医師に往来で遇ったのである。<br/><br/>医師は驚いて、「どうして良くなったか」と訊いたので「こういう療法で快くなった」と話したところその医師いわく、「アゝそれはお禁厭（まじない）だ」というので、その婦人は、禁厭でない事を説明した所「アゝそれじゃ狐を使うんだ」というのである。<br/><br/> 従って、この医師の言のごときものであるとすれば、現代医学よりも禁厭や狐の方が治病効果が優れているという理屈になるので、その医師の頭脳に驚かざるを得なかったのである。<br/><br/> 右のような例は枚挙に遑（いとま）ない程であるから、他は推して知るべきである。<br/><br/>又こういう事もある。<br/><br/>某博士が自己の手に困難だと思う患者を、私の弟子の方へ廻す事がある。<br/><br/>勿論、現代医学で治らないものが、本療法によって治るという事を知っているからである。<br/><br/>そこまで信ずるもなお研究に手を染めないという事も不思議と思うのである。<br/><br/>それはあるいは、そうする事は、医師会との関係もあり、複雑なる事態の生ずるという懼（おそ）れある為かも知れないが、医家としての使命を考える時、文化の進歩に反するばかりか、人間の生命を取扱うという聖なる使命に背く訳となろう。<br/><br/> しかし、私は思うのである。<br/><br/>本医術に対し、何ら遅疑する事なく、進んで突入し、研究すべきである。<br/><br/>その結果もし西洋医学よりも劣るか、又は無価値であるとすれば、放棄すればいいであろうし、これに反して私のいうごとき偉大なる医術であるとすれば、大いに医学界に向って推奨すべきであろう。<br/><br/>それによって人類の病気を解決すべき端緒となるとすれば、先覚者たる栄誉を担い得る事となるであろう。<br/><br/> 要するに、私は医家の良心の問題ではないかと思うのである。<br/><br/>この意味において私は、良心的医家の、一日も速かに表われん事を切望してやまないものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

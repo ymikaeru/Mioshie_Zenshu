@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qgosin03</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御神体の奇蹟 『栄光』103号、昭和26(1951)年5月9日発行 福岡県 光宝大教会 持田宗助（36） 私達親子は妻の実家の二階を借りて暮しています。<br><br>従来御神体を御奉斎しています床の裏壁が腐って不完全なため、修理せねばと思いながら費用その他の関係でそのままに致していました。<br><br>ところが昨年秋のキジア台風で、電灯は消え、二階はゆらゆら、寝ることはおろかじっと坐っている事も出来ない位で、善言讃詞を奉唱しながら明主様に懸命にお縋りしていましたらちょうどその時にパッと電灯が点きましたので、思わず頭を上げて御神体を拝しますとアッ、何と申訳ない事でしょう。<br><br>今まで種々有難い御蔭を戴いておりながら、壁の間から流れ出る泥水ですっかり汚れ濡らしてしまった、のでございます。<br><br>私と妻は台風も家の揺れるのも忘れて御神体を早速巻いて納め、階下へ子供や夜具を運び子供はやっと寝かしつけ、御神体をしっかと握り締め階下へ降り、ただただ御詫びするばかりでした。<br><br>外はまだ物凄い凪が吹き荒れています。<br><br>その中にも電灯は又消えましたのでじっと坐り込んでいる私を気の毒に思ったのか母が「濡れたまま巻込んでは反って悪いから掛けて乾かした方がよかろう」と言いますので、思い切って真暗闇の中に手さぐりして壁に掛けて夜具の中にもぐり込み、何か恐ろしい気持で御神体の方を見る事も出来ませんでした。<br><br>私の家は昨年夏から支部にお使い戴いていますので青柳先生を毎日御迎えして近所の信者さん達が御参りに来られる時、何と報告したらよいかと信仰の足りない私は世間体を気にして本当に逃げ出したい気持でその一夜を明かしました。<br><br> 夜明けと共に風も凪ぎ、早々寝床より起き御神体をちょっと見ました時、私は再びアッと叫び自分の眼を疑いながら妻を呼びました。<br><br>世の中にこんな奇蹟があるものでしょうか、昨夜あれ程汚れ濡れた御神体が何の異常もなく、綺麗にして濡れた形跡すらないのでございます。<br><br>私は夢中になって御礼拝を繰り返すのでした。<br><br>早速元気付いて二階にかけ上りますと床の壁土は落ち床柱も畳も泥水で荒され、足の踏み場もない状態でした。<br><br>再び階下に降りて沁々と拝みました。<br><br>全く夢でしかも事実で何とした奇蹟でしょう。<br><br>何も分らない母や弟は「あれ程荒された床の間に掛かっていたとは思えぬ」と頭を捻って不思議がっています。<br><br>私達も今まで数々の御利益は戴いていますが、これ程大きな力を身に受けて感泣の外ありませんでした。<br><br>その翌日は青柳先生も信者さんも見えませんので、応急手当をして二階の床の間に御掛け申し上げました。<br><br>その翌日青柳先生にその由を申し上げさして戴きましたら、益々御神業に励むように申されました。<br><br>有難い事でございます。<br><br> 今年六十五歳の母も種々奇蹟を見聞し又自分の不治の病、心臓病も御浄霊を戴いて急激に浄化を戴き目に見えて快方に向いましたのでこの御道の偉大さに感激して、長年の○○教信仰をやめて十一月末に入信さして戴き、三十年来あったこともない下痢の浄化を戴くなど大変に体の調子も良くなって来たと感謝しております。<br><br> 台風で荒された床の間の壁も間もなく意外な所から意外な金が這入りましたので、弟と二人して素人修理致しましたが意外な出来ばえに綺麗になり、ただ今は雨漏りもなく愉快な日を過さして戴いています。<br><br>今までは私達親子と母弟は別世帯で暮していましたが、炊事も一世帯となり明るい和やかな生活となりました。<br><br>弟はまだ○○教青年幹部をしていますが私達と同信になる日を待っています。<br><br>この御蔭、この御恵みに感謝しつつ微力ながら一人でも多く御道に誘い地上天国の幸福さに生活し得るよう念願致しております。<br><br> 明主様、誠に有難うございました。<br><br> （昭和二十六年二月二十八日）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Milagre do Goshintai</h2>
 <p>Resido com minha família no segundo pavimento da casa de meus sogros. A parede posterior ao oratório onde o Goshintai se encontra entronizado apresentava-se há algum tempo em estado precário, com a madeira apodrecida. Embora ciente da necessidade de reparos, eu vinha adiando a obra por questões financeiras e outras circunstâncias.</p>
@@ -102,5 +257,48 @@ function toggleLang(lang) {
 <p>Até então, minha família vivia em um núcleo doméstico separado do de minha mãe e meu irmão, mas agora nos unimos em um só lar, compartilhando as refeições e desfrutando de uma vida repleta de luz e harmonia. Meu irmão ainda ocupa um cargo de liderança na juventude de sua antiga religião, mas aguardo com fé o dia em que ele se unirá a nós neste Caminho. Com o coração transbordando de gratidão por esta graça e por esta bênção incomensurável, renovo meu desejo de, apesar de minha pequenez, conduzir o maior número possível de pessoas a este Caminho, para que possam vivenciar a felicidade do Paraíso Terrestre.</p>
 <p>Meishu-Sama, minha mais profunda e sincera gratidão.</p>
 <p>(28 de fevereiro de 1951)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 御神体の奇蹟 『栄光』103号、昭和26(1951)年5月9日発行 福岡県 光宝大教会 持田宗助（36） 私達親子は妻の実家の二階を借りて暮しています。<br/><br/>従来御神体を御奉斎しています床の裏壁が腐って不完全なため、修理せねばと思いながら費用その他の関係でそのままに致していました。<br/><br/>ところが昨年秋のキジア台風で、電灯は消え、二階はゆらゆら、寝ることはおろかじっと坐っている事も出来ない位で、善言讃詞を奉唱しながら明主様に懸命にお縋りしていましたらちょうどその時にパッと電灯が点きましたので、思わず頭を上げて御神体を拝しますとアッ、何と申訳ない事でしょう。<br/><br/>今まで種々有難い御蔭を戴いておりながら、壁の間から流れ出る泥水ですっかり汚れ濡らしてしまった、のでございます。<br/><br/>私と妻は台風も家の揺れるのも忘れて御神体を早速巻いて納め、階下へ子供や夜具を運び子供はやっと寝かしつけ、御神体をしっかと握り締め階下へ降り、ただただ御詫びするばかりでした。<br/><br/>外はまだ物凄い凪が吹き荒れています。<br/><br/>その中にも電灯は又消えましたのでじっと坐り込んでいる私を気の毒に思ったのか母が「濡れたまま巻込んでは反って悪いから掛けて乾かした方がよかろう」と言いますので、思い切って真暗闇の中に手さぐりして壁に掛けて夜具の中にもぐり込み、何か恐ろしい気持で御神体の方を見る事も出来ませんでした。<br/><br/>私の家は昨年夏から支部にお使い戴いていますので青柳先生を毎日御迎えして近所の信者さん達が御参りに来られる時、何と報告したらよいかと信仰の足りない私は世間体を気にして本当に逃げ出したい気持でその一夜を明かしました。<br/><br/> 夜明けと共に風も凪ぎ、早々寝床より起き御神体をちょっと見ました時、私は再びアッと叫び自分の眼を疑いながら妻を呼びました。<br/><br/>世の中にこんな奇蹟があるものでしょうか、昨夜あれ程汚れ濡れた御神体が何の異常もなく、綺麗にして濡れた形跡すらないのでございます。<br/><br/>私は夢中になって御礼拝を繰り返すのでした。<br/><br/>早速元気付いて二階にかけ上りますと床の壁土は落ち床柱も畳も泥水で荒され、足の踏み場もない状態でした。<br/><br/>再び階下に降りて沁々と拝みました。<br/><br/>全く夢でしかも事実で何とした奇蹟でしょう。<br/><br/>何も分らない母や弟は「あれ程荒された床の間に掛かっていたとは思えぬ」と頭を捻って不思議がっています。<br/><br/>私達も今まで数々の御利益は戴いていますが、これ程大きな力を身に受けて感泣の外ありませんでした。<br/><br/>その翌日は青柳先生も信者さんも見えませんので、応急手当をして二階の床の間に御掛け申し上げました。<br/><br/>その翌日青柳先生にその由を申し上げさして戴きましたら、益々御神業に励むように申されました。<br/><br/>有難い事でございます。<br/><br/> 今年六十五歳の母も種々奇蹟を見聞し又自分の不治の病、心臓病も御浄霊を戴いて急激に浄化を戴き目に見えて快方に向いましたのでこの御道の偉大さに感激して、長年の○○教信仰をやめて十一月末に入信さして戴き、三十年来あったこともない下痢の浄化を戴くなど大変に体の調子も良くなって来たと感謝しております。<br/><br/> 台風で荒された床の間の壁も間もなく意外な所から意外な金が這入りましたので、弟と二人して素人修理致しましたが意外な出来ばえに綺麗になり、ただ今は雨漏りもなく愉快な日を過さして戴いています。<br/><br/>今までは私達親子と母弟は別世帯で暮していましたが、炊事も一世帯となり明るい和やかな生活となりました。<br/><br/>弟はまだ○○教青年幹部をしていますが私達と同信になる日を待っています。<br/><br/>この御蔭、この御恵みに感謝しつつ微力ながら一人でも多く御道に誘い地上天国の幸福さに生活し得るよう念願致しております。<br/><br/> 明主様、誠に有難うございました。<br/><br/> （昭和二十六年二月二十八日）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

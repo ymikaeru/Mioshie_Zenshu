@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sinbun6</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新聞倫理に反す読売紙 『光』42号、昭和24(1949)年12月31日発行 本教団の飛躍的な発展とともに「大樹に風」のたとえ、これをねたむ者、何らかの為にせんとする者によって色々な中傷讒誣（ざんぶ）が目立ってきた、特に天下の大新聞と自他ともに許している読売新聞社が本教団再三の反ばくにも関らず、またまた十四日付の紙面に意識的としか思えぬ悪意に満ちた記事を大々的に報じている、われらは内容の余りに虚構なのに唖然たるを禁じ得ぬと同時に公器たる新聞がかかる態度をとることの及ぼす影響の大なるを考え、次に本教団及び関係被害者とされた宗市長の抗議文を読売社に送ると共にここに本紙上にのせ深く反省を求めるとともに真実を伝えることにする。<br><br> 公器性を反省せよ 八点の事実無根の報道 貴社益々御隆昌の段奉賀候、さて貴社においては、近来数回にわたって本教団に関する記事を掲載されたが、いつも虚々実々というよりむしろ虚の方が多く、しかも公平な批判の跡なく、誰の眼にも何らかの悪意を蔵している事は看取し得らるるのである、これらの行為は貴社の意向の奈辺にあるや解するに苦しむとともに、再三再四にわたって手を緩める事なく益々本教中傷を止めない以上、この上黙止することは社会の公器たる新聞の使命に鑑（かんが）み許容し能わざるをもって、ここに抗議文をもって解答を要望する次第である。<br><br> 昭和二十四年十二月十四日貴新聞紙第二面に掲載されたる「景勝の十別荘に二十万坪農地を不法入手、市長もおどり告訴沙汰起る」の記事を検討する時、事実相違の点余りに多く列挙すれば左のごときものである。<br><br> （一）あれやこれやの告訴沙汰とあるが、これは意外である、現在被告訴は一つもなく小林喬松氏に対しては本教の方が原告である。<br><br> （二）「横浜地検より告発の火の手があがり」とあるが、火の手とはいかなる意味であるか不明である。<br><br>宗熱海市長に関する件は、宗氏より抗議文を出す由につき略す。<br><br> （三）「宗教団体に似合はぬ醜聞醜争の絶間ないお光様」とあるが、このような事実は全然ない、右は貴社が捏造した事を自己錯覚したのであろう。<br><br> （四）「熱海乗取り」というがこれ程馬鹿馬鹿しい話はあるまい、ともかく熱海は人口三万余の都会である、旅館だけでも二百数十軒に及ぶ、それを乗っ取り得るなどは痴人の夢でしかない、また宗教としてそんな温泉都市を手に入れる必要はどこにあるか、この一事だけでもこれをかいた記者は精神病者としか思えない。<br><br> （五）清水町の小倉別荘と山下氏の別邸購入は事実である、水口町の久邇宮別邸は最近借家したのである、南条別荘は無関係である、銀山の坪数約十二万坪とあるが、事実は三万数千坪である、梅園四万坪は虚構である、桃山三方坪は事実は一万数千坪である、野中山岩倉別邸は聞いた事さえない、熱海市を囲む山々の中（うち）景勝地はほとんど全部で云々は全然事実と相違している。<br><br> （六）「小田原地検告発問題」市長農地委員会との結託、この記事は宗市長の抗議文に記載されると思うから略す。<br><br> （七）「小林喬松氏談の詐欺行為の告訴」云々は全然本教団に関係はない、多分第三者の某氏を告訴したことを本教になすり着けたのであろう、この小林氏の言のみを一方的に詳細に書いたのは不可解である、この記事を第三者からみれば読売記者に疑惑のかかる事は必定であろう。<br><br> （八）「農地に関し不法入手」また「我物同様に取扱っている」云々は、当教団の専任責任者がその都度農委当局に相談の上ならではなさなかったゆえ不法行為は全然ない、また農調法に依って買収したる土地を私有にせんとする念は微塵もない、完成の暁施設一切は寄付するの案件を付して市当局に書類及び計画図面も呈出しあり、それら細部にわたる市長の説明談を全然無視せる派遣記者の行為も疑念を起させる。<br><br> 右のごとき驚くべきデマ記事に対しては到底承認出来得ない、しかも数回にわたる中傷記事によって、いかに本教数十万の信徒を迷わせ心配をかけるのみならず、一般社会に対しても疑惑を起させ、信用を傷つける結果となるのは、貴社も充分承知のはずである、三大新聞の一である貴紙が、右のごとき悪徳行為は解するに苦しむところである、まったく本教団は新聞の暴君的行為による被害者でしかない、これに対し貴所の公正なる弁明を承りたく、この抗議文を呈す次第であると同時に、右列挙したる相違の点を紙上に掲載し取消し願いたし。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Uma Refutação às Calúnias do Jornal Yomiuri</h2>
 <p>À medida que nossa Igreja experimenta um crescimento exponencial, confirma-se o adágio de que “grandes árvores atraem fortes ventos”. Nesse sentido, calúnias e difamações, perpetradas por aqueles que nos invejam ou que buscam se aproveitar de alguma forma de nossa expansão, têm se tornado notórias. De modo particular, o jornal Yomiuri, tido por si e por outrem como um dos maiores do país, a despeito de nossas reiteradas refutações, publicou em sua edição do dia catorze uma matéria repleta de uma malícia que só pode ser interpretada como deliberada. O caráter inteiramente fantasioso de seu conteúdo nos deixou atônitos e, ao ponderarmos a vasta influência que a atitude de um órgão de imprensa pode exercer, decidimos não apenas enviar à redação do Yomiuri a carta de protesto de nossa Igreja e do prefeito Mune, injustamente citado como vítima, mas também publicá-la integralmente nestas páginas, a fim de exigir uma profunda reflexão e restabelecer a verdade dos fatos.</p>
@@ -107,5 +259,48 @@ function toggleLang(lang) {
 <p>(VIII) Quanto à “aquisição ilegal de terras agrícolas” e à acusação de que as “tratamos como propriedade nossa”, cumpre esclarecer que nossos responsáveis sempre agiram em consulta com as autoridades competentes do comitê agrícola, não havendo, portanto, qualquer ato ilícito. Não nutrimos a menor intenção de privatizar as terras adquiridas sob a Lei de Ajuste Agrícola. Prova disso é que já foram submetidos à prefeitura os documentos e plantas do projeto, com a cláusula de que todas as instalações serão doadas à cidade após sua conclusão. A atitude do vosso enviado, que ignorou por completo os esclarecimentos detalhados do prefeito sobre este assunto, apenas adensa as suspeitas.</p>
 <p>É simplesmente impossível anuir com artigos de natureza tão assombrosamente difamatória. Vossa Excelência certamente compreende o quão nefastas são as consequências de tais matérias, que não apenas semeiam a confusão e a angústia entre nossas centenas de milhares de fiéis, mas também geram desconfiança na sociedade em geral, manchando irremediavelmente nossa credibilidade. É incompreensível que um periódico de vossa magnitude, um dos três maiores do país, se preste a atos de tamanha torpeza. Nossa Igreja figura, lamentavelmente, como vítima de um verdadeiro despotismo midiático.</p>
 <p>Diante do exposto, apresentamos esta carta de protesto na expectativa de receber um esclarecimento justo de vossa parte e exigimos que os pontos inverídicos aqui enumerados sejam devidamente retratados em vossas páginas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新聞倫理に反す読売紙 『光』42号、昭和24(1949)年12月31日発行 本教団の飛躍的な発展とともに「大樹に風」のたとえ、これをねたむ者、何らかの為にせんとする者によって色々な中傷讒誣（ざんぶ）が目立ってきた、特に天下の大新聞と自他ともに許している読売新聞社が本教団再三の反ばくにも関らず、またまた十四日付の紙面に意識的としか思えぬ悪意に満ちた記事を大々的に報じている、われらは内容の余りに虚構なのに唖然たるを禁じ得ぬと同時に公器たる新聞がかかる態度をとることの及ぼす影響の大なるを考え、次に本教団及び関係被害者とされた宗市長の抗議文を読売社に送ると共にここに本紙上にのせ深く反省を求めるとともに真実を伝えることにする。<br/><br/> 公器性を反省せよ 八点の事実無根の報道 貴社益々御隆昌の段奉賀候、さて貴社においては、近来数回にわたって本教団に関する記事を掲載されたが、いつも虚々実々というよりむしろ虚の方が多く、しかも公平な批判の跡なく、誰の眼にも何らかの悪意を蔵している事は看取し得らるるのである、これらの行為は貴社の意向の奈辺にあるや解するに苦しむとともに、再三再四にわたって手を緩める事なく益々本教中傷を止めない以上、この上黙止することは社会の公器たる新聞の使命に鑑（かんが）み許容し能わざるをもって、ここに抗議文をもって解答を要望する次第である。<br/><br/> 昭和二十四年十二月十四日貴新聞紙第二面に掲載されたる「景勝の十別荘に二十万坪農地を不法入手、市長もおどり告訴沙汰起る」の記事を検討する時、事実相違の点余りに多く列挙すれば左のごときものである。<br/><br/> （一）あれやこれやの告訴沙汰とあるが、これは意外である、現在被告訴は一つもなく小林喬松氏に対しては本教の方が原告である。<br/><br/> （二）「横浜地検より告発の火の手があがり」とあるが、火の手とはいかなる意味であるか不明である。<br/><br/>宗熱海市長に関する件は、宗氏より抗議文を出す由につき略す。<br/><br/> （三）「宗教団体に似合はぬ醜聞醜争の絶間ないお光様」とあるが、このような事実は全然ない、右は貴社が捏造した事を自己錯覚したのであろう。<br/><br/> （四）「熱海乗取り」というがこれ程馬鹿馬鹿しい話はあるまい、ともかく熱海は人口三万余の都会である、旅館だけでも二百数十軒に及ぶ、それを乗っ取り得るなどは痴人の夢でしかない、また宗教としてそんな温泉都市を手に入れる必要はどこにあるか、この一事だけでもこれをかいた記者は精神病者としか思えない。<br/><br/> （五）清水町の小倉別荘と山下氏の別邸購入は事実である、水口町の久邇宮別邸は最近借家したのである、南条別荘は無関係である、銀山の坪数約十二万坪とあるが、事実は三万数千坪である、梅園四万坪は虚構である、桃山三方坪は事実は一万数千坪である、野中山岩倉別邸は聞いた事さえない、熱海市を囲む山々の中（うち）景勝地はほとんど全部で云々は全然事実と相違している。<br/><br/> （六）「小田原地検告発問題」市長農地委員会との結託、この記事は宗市長の抗議文に記載されると思うから略す。<br/><br/> （七）「小林喬松氏談の詐欺行為の告訴」云々は全然本教団に関係はない、多分第三者の某氏を告訴したことを本教になすり着けたのであろう、この小林氏の言のみを一方的に詳細に書いたのは不可解である、この記事を第三者からみれば読売記者に疑惑のかかる事は必定であろう。<br/><br/> （八）「農地に関し不法入手」また「我物同様に取扱っている」云々は、当教団の専任責任者がその都度農委当局に相談の上ならではなさなかったゆえ不法行為は全然ない、また農調法に依って買収したる土地を私有にせんとする念は微塵もない、完成の暁施設一切は寄付するの案件を付して市当局に書類及び計画図面も呈出しあり、それら細部にわたる市長の説明談を全然無視せる派遣記者の行為も疑念を起させる。<br/><br/> 右のごとき驚くべきデマ記事に対しては到底承認出来得ない、しかも数回にわたる中傷記事によって、いかに本教数十万の信徒を迷わせ心配をかけるのみならず、一般社会に対しても疑惑を起させ、信用を傷つける結果となるのは、貴社も充分承知のはずである、三大新聞の一である貴紙が、右のごとき悪徳行為は解するに苦しむところである、まったく本教団は新聞の暴君的行為による被害者でしかない、これに対し貴所の公正なる弁明を承りたく、この抗議文を呈す次第であると同時に、右列挙したる相違の点を紙上に掲載し取消し願いたし。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

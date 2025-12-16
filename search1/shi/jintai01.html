@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jintai01</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人体は綜合体である 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』38号、昭和24(1949)年12月3日発行の論文を掲載。<br><br> 現代医学がいかに間違っているかをかいてみよう。<br><br> それは種々専門的に分類されてる事である。<br><br>内科、外科は元より脳神経科、耳鼻咽喉科、眼科、泌尿科、婦人科、小児科等々であるが、考えてみるがいい、人形のように手足や胴体を別々に造って繋ぎ合せたものではない、全体が相互関係で成立っている、これについて二、三の例をあげてみよう。<br><br> 以前私は肛門から排便時、便所が真赤になるくらい出血をし、一週間続いてピタリと止った事がある。<br><br>ところがそれまで私は後頭部が始終重く、長話をすると圧迫感が強くなり堪えられない程であった。<br><br>それが右の出血によってとても軽くなった。<br><br>その頃は医学の誤謬を知ってからであったから、放任しておいたためで、もし医師へかかったら痔の病気とされ出血を止められたかも知れない、これによってみても、痔出血は頭脳と関係のある事を知ったのである。<br><br> 次にある若い女の歯痛で、浄霊するやすぐ治ったが、翌日また痛いという、みると淋巴腺に凝りがある、そこを浄霊するとすぐ治ったが、翌日また痛いという、よくみると肋骨に固結がある、それを浄霊するとすぐ治ったが翌日また痛いと言って来た。<br><br>今度はもっと下の方と思い、盲腸部をみるとそこに固結があるので、そこを浄霊すると、今度は本当に治ってしまった。<br><br>これはどういうわけかというと、この女は盲腸炎で手術をした事がある。<br><br>その際用いた消毒薬が残存膿化して歯ぐきから出ようとする。<br><br>そのための痛みであった。<br><br>ゆえにもし歯医者へ行ったところで治るはずはないのでこれによってみても人体は綜合体である事が判るのである。<br><br> 今一つこういう事があった。<br><br>それは高熱、咳嗽、喀痰等の症状で医師からは肺結核とされていた。<br><br>ところが私が診ると意外にも、右側の股間鼠蹊部に固結があるので、これだなと思ってそこを浄霊したところ短期間に全治したので、私は「あなたの肺は股にあったのだ」と言って大いに笑った事がある。<br><br>これは全く鼠蹊部の固結が浄化によって喀痰となり、肺臓内へ移行して咳と痰になったのを肺結核と誤られたので、これらはよくある話である。<br><br>これも人体の綜合体を知るによい例である。<br><br> これを国にたとえてみよう、仮に日本とすれば関東が隆盛で関西が萎靡（いび）しているという事はあり得ない。<br><br>国全体が連鎖関係である以上、影響し合うからである。<br><br>この道理に目覚めない限りいか程研究しても人を救う真の医学が出れるはずはないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Corpo Humano como um Sistema Integrado</h2>
 <p>Desejo expor os equívocos fundamentais da medicina moderna. Seu erro reside na excessiva especialização e na forma como o corpo humano é fragmentado. Existem a clínica médica e a cirurgia, bem como a neurologia, a otorrinolaringologia, a oftalmologia, a urologia, a ginecologia, a pediatria, entre tantas outras. Contudo, é preciso refletir: o corpo humano não é como uma boneca, cujos membros e tronco são fabricados separadamente para depois serem unidos. Pelo contrário, o corpo constitui-se como um todo, em que cada parte se inter-relaciona. Para ilustrar este ponto, apresentarei alguns exemplos.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Outro caso elucidativo é o de uma jovem que sofria de dor de dente. Ministrei-lhe Johrei e a dor cessou imediatamente. No dia seguinte, contudo, a dor retornou. Ao examiná-la, notei um endurecimento nos gânglios linfáticos. Apliquei Johrei nesse local, e novamente a dor desapareceu, apenas para voltar no dia posterior. Uma inspeção mais atenta revelou uma rigidez nas costelas. O tratamento se repetiu com o mesmo resultado efêmero. Desta vez, presumi que a causa estivesse mais abaixo e, ao examinar a região do apêndice, encontrei ali um nódulo endurecido. Ministrei Johrei nesse ponto, e a dor finalmente desapareceu de forma definitiva. A lógica era a seguinte: a jovem havia passado por uma cirurgia de apendicite, e o desinfetante utilizado no procedimento, ao se solidificar e purificar, estava tentando ser expelido através de suas gengivas, o que ocasionava a dor. Uma consulta ao dentista teria sido, portanto, inútil. Este caso também demonstra com clareza que o corpo humano é um sistema integrado.</p>
 <p>Houve ainda outra ocorrência. Tratava-se de um paciente com sintomas de febre alta, tosse e expectoração, diagnosticado por um médico como portador de tuberculose pulmonar. Ao examiná-lo, porém, encontrei, para minha surpresa, um endurecimento na região da virilha direita. Convencido de que ali estava a causa, ministrei Johrei naquele local, e o paciente obteve a cura completa em pouco tempo. Cheguei a brincar com ele, dizendo: “Seus pulmões, na verdade, estavam na virilha”, o que nos fez rir bastante. O que de fato ocorreu foi que o endurecimento na virilha, ao passar por um processo de purificação, transformou-se em expectoração. Esta, por sua vez, deslocou-se para os pulmões, manifestando-se como tosse e catarro, o que levou ao diagnóstico equivocado de tuberculose. Casos como este são bastante comuns e servem como mais um excelente exemplo para a compreensão do corpo humano como uma unidade integrada.</p>
 <p>Façamos uma analogia com uma nação. Tomando o Japão como exemplo, seria inconcebível que a região de Kanto prosperasse enquanto a de Kansai estivesse em declínio. Isso ocorre porque a nação inteira funciona como um sistema interligado, no qual as partes se influenciam mutuamente. Enquanto não se despertar para este princípio fundamental, por mais que se aprofundem as pesquisas, jamais surgirá uma verdadeira medicina, capaz de salvar o ser humano.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人体は綜合体である 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』38号、昭和24(1949)年12月3日発行の論文を掲載。<br/><br/> 現代医学がいかに間違っているかをかいてみよう。<br/><br/> それは種々専門的に分類されてる事である。<br/><br/>内科、外科は元より脳神経科、耳鼻咽喉科、眼科、泌尿科、婦人科、小児科等々であるが、考えてみるがいい、人形のように手足や胴体を別々に造って繋ぎ合せたものではない、全体が相互関係で成立っている、これについて二、三の例をあげてみよう。<br/><br/> 以前私は肛門から排便時、便所が真赤になるくらい出血をし、一週間続いてピタリと止った事がある。<br/><br/>ところがそれまで私は後頭部が始終重く、長話をすると圧迫感が強くなり堪えられない程であった。<br/><br/>それが右の出血によってとても軽くなった。<br/><br/>その頃は医学の誤謬を知ってからであったから、放任しておいたためで、もし医師へかかったら痔の病気とされ出血を止められたかも知れない、これによってみても、痔出血は頭脳と関係のある事を知ったのである。<br/><br/> 次にある若い女の歯痛で、浄霊するやすぐ治ったが、翌日また痛いという、みると淋巴腺に凝りがある、そこを浄霊するとすぐ治ったが、翌日また痛いという、よくみると肋骨に固結がある、それを浄霊するとすぐ治ったが翌日また痛いと言って来た。<br/><br/>今度はもっと下の方と思い、盲腸部をみるとそこに固結があるので、そこを浄霊すると、今度は本当に治ってしまった。<br/><br/>これはどういうわけかというと、この女は盲腸炎で手術をした事がある。<br/><br/>その際用いた消毒薬が残存膿化して歯ぐきから出ようとする。<br/><br/>そのための痛みであった。<br/><br/>ゆえにもし歯医者へ行ったところで治るはずはないのでこれによってみても人体は綜合体である事が判るのである。<br/><br/> 今一つこういう事があった。<br/><br/>それは高熱、咳嗽、喀痰等の症状で医師からは肺結核とされていた。<br/><br/>ところが私が診ると意外にも、右側の股間鼠蹊部に固結があるので、これだなと思ってそこを浄霊したところ短期間に全治したので、私は「あなたの肺は股にあったのだ」と言って大いに笑った事がある。<br/><br/>これは全く鼠蹊部の固結が浄化によって喀痰となり、肺臓内へ移行して咳と痰になったのを肺結核と誤られたので、これらはよくある話である。<br/><br/>これも人体の綜合体を知るによい例である。<br/><br/> これを国にたとえてみよう、仮に日本とすれば関東が隆盛で関西が萎靡（いび）しているという事はあり得ない。<br/><br/>国全体が連鎖関係である以上、影響し合うからである。<br/><br/>この道理に目覚めない限りいか程研究しても人を救う真の医学が出れるはずはないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

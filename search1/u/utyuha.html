@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>utyuha</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宇宙は地球以外に生物なし 『栄光』159号、昭和27(1952)年6月4日発行 外国の天文学者は、余程前から火星に生物がいるとか、運河があるとかいう説を唱えていたが、私は以前火星には生物はなしと記いた事がある。<br><br>ところが近頃になって火星無生物説を唱える学者もボツボツ出て来たので、私は愉快に堪えないのである。<br><br>という訳でまだまだ現在の天文学は幼稚極まるものと私は思っている。<br><br>ところが近頃は月の世界への旅行可能として、準備している物好きな学者が英国辺りにあるそうだが、これなども実に気の毒なくらい低級な学者達である。<br><br> ここでそれらについて少しかいてみるが、この大宇宙には、地球以外に生物は決して生存していない事を断言する。<br><br>そうして月の世界はいつもいう通り氷の塊であって、その冷たさは到底零下何度などと人間が想像出来るような生易しいものではない。<br><br>全く絶対無極の大氷塊である。<br><br>だからもし人間が行けたとしても、一瞬にして石のごとく氷結してしまうと共に空気など一粍もないところの無と同様な世界であるから、まず諦めた方がよかろう。<br><br>という訳で望遠鏡に映る種々な凹凸は氷塊の不規則な一面である。<br><br>ついでだから太陽も説明してみるが、これも想像もつかない程の巨大な火の塊であって、いわば火の霊であり、火の体は地球の中心になっている火の塊である。<br><br>つまりこの天と地とにある火熱が、氷塊である月球を溶解し、水素を造って地球活動の役目をしているので、海も、川も、雲も、霧もその変化したものである。<br><br>そうして星は地球を牽引しつつ、星自体の霊気を宇宙線を通じて地球に供給し、地球の活動を助けているのである。<br><br> 以上の理によって現在学者が誇りとしている天文学なども、まず原始時代に毛の生えたものと思えばいいので、全く唯物科学ではこの謎を解くなどは痴人の夢である。<br><br>ところがいつもいう通り、現代科学は独り天文学ばかりではない。<br><br>医学も農業もあらゆる文化も右と同様の程度であるから、その盲点を明らかにして科学のレベルを引上げるべく、私は現在骨を折っているのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza do Universo</h2>
 <p>Há bastante tempo, os astrônomos estrangeiros defendiam a tese de que haveria vida, e até mesmo canais, em Marte. Eu, todavia, já havia registrado em outra ocasião a inexistência de vida naquele planeta. Recentemente, começaram a surgir, pouco a pouco, estudiosos que corroboram essa visão, o que me causa imensa satisfação. Por essa razão, considero a astronomia contemporânea algo extremamente pueril. Soube que, na Inglaterra, cientistas excêntricos já se preparam para uma possível viagem à Lua; estes, no entanto, são pesquisadores de um nível tão elementar que chegam a ser dignos de pena.</p>
 <p>A esse respeito, discorrerei brevemente. Afirmo categoricamente que, em todo este vasto Universo, não há vida em nenhum outro lugar senão na Terra. O mundo lunar, como sempre elucido, é uma massa de gelo cuja frieza transcende qualquer estimativa humana de graus negativos; trata-se, em verdade, de um bloco de gelo absoluto e incomensurável. Portanto, ainda que o ser humano conseguisse lá chegar, seria instantaneamente petrificado, ao mesmo tempo em que se depararia com um mundo semelhante ao vácuo, desprovido de um milímetro sequer de ar. O mais sensato é, pois, abandonar tal pretensão.</p>
 <p>Sendo assim, as diversas crateras e irregularidades visíveis pelos telescópios nada mais são que uma faceta da superfície disforme dessa massa de gelo. Aproveitando a oportunidade, discorrerei também sobre o Sol. Este é uma colossal massa ígnea, de magnitude inimaginável; é, por assim dizer, o espírito do fogo, cujo corpo corresponde à massa ígnea que constitui o núcleo da Terra. Em outras palavras, o calor emanado por essa fonte celestial e por essa fonte telúrica atua sobre a massa glacial da Lua, dissolvendo-a para gerar o hidrogênio que impulsiona as atividades terrestres. Os oceanos, os rios, as nuvens e a névoa são, portanto, manifestações de sua transformação. Ademais, as estrelas, ao mesmo tempo que exercem uma força de tração sobre a Terra, fornecem sua própria energia espiritual ao planeta por meio dos raios cósmicos, auxiliando, assim, em sua dinâmica vital.</p>
 <p>Em virtude desses princípios, a astronomia, da qual os cientistas tanto se orgulham, deve ser compreendida como um mero avanço superficial sobre o conhecimento da era primitiva. A tentativa de desvendar tais mistérios por meio de uma ciência puramente materialista não passa de um sonho de tolos. Contudo, como sempre afirmo, a ciência moderna não se limita à astronomia. A medicina, a agricultura e todas as esferas da cultura encontram-se no mesmo patamar de desenvolvimento. É justamente para revelar seus pontos cegos e, com isso, elevar o nível do conhecimento científico que me empenho arduamente em meus atuais esforços.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宇宙は地球以外に生物なし 『栄光』159号、昭和27(1952)年6月4日発行 外国の天文学者は、余程前から火星に生物がいるとか、運河があるとかいう説を唱えていたが、私は以前火星には生物はなしと記いた事がある。<br/><br/>ところが近頃になって火星無生物説を唱える学者もボツボツ出て来たので、私は愉快に堪えないのである。<br/><br/>という訳でまだまだ現在の天文学は幼稚極まるものと私は思っている。<br/><br/>ところが近頃は月の世界への旅行可能として、準備している物好きな学者が英国辺りにあるそうだが、これなども実に気の毒なくらい低級な学者達である。<br/><br/> ここでそれらについて少しかいてみるが、この大宇宙には、地球以外に生物は決して生存していない事を断言する。<br/><br/>そうして月の世界はいつもいう通り氷の塊であって、その冷たさは到底零下何度などと人間が想像出来るような生易しいものではない。<br/><br/>全く絶対無極の大氷塊である。<br/><br/>だからもし人間が行けたとしても、一瞬にして石のごとく氷結してしまうと共に空気など一粍もないところの無と同様な世界であるから、まず諦めた方がよかろう。<br/><br/>という訳で望遠鏡に映る種々な凹凸は氷塊の不規則な一面である。<br/><br/>ついでだから太陽も説明してみるが、これも想像もつかない程の巨大な火の塊であって、いわば火の霊であり、火の体は地球の中心になっている火の塊である。<br/><br/>つまりこの天と地とにある火熱が、氷塊である月球を溶解し、水素を造って地球活動の役目をしているので、海も、川も、雲も、霧もその変化したものである。<br/><br/>そうして星は地球を牽引しつつ、星自体の霊気を宇宙線を通じて地球に供給し、地球の活動を助けているのである。<br/><br/> 以上の理によって現在学者が誇りとしている天文学なども、まず原始時代に毛の生えたものと思えばいいので、全く唯物科学ではこの謎を解くなどは痴人の夢である。<br/><br/>ところがいつもいう通り、現代科学は独り天文学ばかりではない。<br/><br/>医学も農業もあらゆる文化も右と同様の程度であるから、その盲点を明らかにして科学のレベルを引上げるべく、私は現在骨を折っているのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

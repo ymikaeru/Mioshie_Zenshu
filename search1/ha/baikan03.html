@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>baikan03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 黴菌及び伝染病 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 現代行はれてゐる西洋医学に於ける病理はその殆んどが黴菌説である。<br><br>凡ゆる病気に対し、黴菌によつて伝染すると解されてゐる。<br><br>感冒までも黴菌の作用とされてゐる。<br><br>そうして感冒菌の如きは顕微鏡でも視るを得ない微小なるもの、それは濾過性黴菌と称してゐる。<br><br> そうして医学に於ての解釈は、感冒、ヂフテリヤ、百日咳、麻疹、流行性耳下腺炎などの病気は、泡沫伝染といふ事になつてゐる。<br><br>之は、戸を閉め切つた室内や乗物の中で、患者の嚏（くさめ）や談笑の際など、霧の如く唾と一緒に飛出し、空気中に浮游してゐるのを吸込んで感染するといふのである。<br><br>そうして老人は、比較的免疫になつてゐて、青年特に小児が冒され易いとして、患者に一米以上接近してはならないといふのである。<br><br> 斯様に、殆んどの病気は伝染するといふのであるから、之を信ずるとしたら、現代人は生きてゆく事さへ、恐怖の限りである。<br><br> 次に、空気以外、最も直接的である黴菌の巣窟は何といつても、貨幣に如（し）くものはあるまい。<br><br>之に就て「北大医学部衛生学教室阿部三史博士が、郵便局、銀行、市場、デパート、食堂、食料品店、個人等多く利用される処から十円札、五拾銭銀貨、拾銭白銅、拾銭ニッケル、一銭銅貨等取り交ぜ三百四拾五個を集めその銀貨なり、札なりに附着してゐる黴菌を研究した結果、左の如く大腸菌、パラチフス菌、葡萄球菌、コレラ菌、分裂菌等々、数へきれない程の黴菌が附着してゐた。<br><br>これ等は何れも人体に害を及ぼすもので、殊に小さな子供等が、無心で銅貨銀貨をなめてゐるなど大いに注意を要するものであり、一方多くの人は、銀貨、銅貨に、結核菌が附着してゐると思つてゐるだらうが、阿部氏の研究では結核菌は案外少く、人体に及ぼす程の偉力はないと言はれてゐる。<br><br> （昭和十一年六月調査） 「各種貨幣の黴菌数」 先づ拾円札、五拾銭、拾銭、一銭各一枚にどれだけの黴菌が附着してゐるかと言ふと △拾円札には、普通黴菌が最高拾六万九千百五個で 平均、五万二千四百九十一個 △五拾銭銀貨には平均千五百五拾九個 △拾銭白銅には二千四百七拾個 △拾銭ニッケル白銅には二千二百三個 △一銭銅貨には、千三十二個 等である。<br><br> 「病菌の種類と数」 更に大腸菌、チフス菌、パラチフス菌等がどれだけついてゐるかと言へば― △拾円札には五拾四個 △五拾銭銀貨には四個 △拾銭白銅には 三個 △拾銭ニッケル白銅には 一個 △一銭銅貨には 四個 ―等で、拾銭ニッケル白銅が、他の貨幣より少ない事は、発行されて間もない事によるもので、なほ一銭銅貨には比較的黴菌の附着数が少ない事は、銅自身が持つてゐる殺菌性に依るものである。<br><br> 「場所と黴菌数」 然らば、何処で使はれてゐる貨幣に、最も多くの黴菌が附いてゐるかといへば一番多いのが市場、次いで郵便局、日用雑貨品店、百貨店、食堂、菓子店、食料品店、個人所有等の順序になつてをり、個人所有が一番少ないが、これは財布の中に入れられてゐる関係上空気が外部と異つて流通しないため、附着した黴菌が培養されない為である。<br><br>」 以上によつてみても、貨幣には如何に多くの凡ゆる病菌が附着してゐるかを知るであらう。<br><br>然し乍ら、貨幣を手にする毎に消毒することは、如何なる人と雖も不可能であらう。<br><br>又、空気伝染が恐ろしいといつても、電車や汽車に乗らない訳にはゆくまい。<br><br>故に、病菌から全く遁れ去るには、遙かなる沖合における海上生活か無人島か又は社会と全く交通を絶たれた山奥に一軒家を建てて生活するより以外、理想的方法はないであらう。<br><br>然し、そのやうな事は何人と雖も、到底出来得る事ではない。<br><br>故に、仮令、病菌が体内に侵入しても発病しないといふ健康体になるより外に絶対的安心の方法はないのである。<br><br>然らば、其様な健康は可能でありやといふに、私は可能である事を断言して憚（はばか）らないのである。<br><br>それに就て、有力な一つの実例を示してみよう。<br><br> それは、昭和十年九月三日の読売新聞の記事によれば、東京に於けるバタ屋即ち屑を扱ふ人間が一万二千人程居るが、市社会局では昨年十二月中旬、足立区を中心として、認可のある屑物買入所所属の拾ひ子に就て、詳細な調査を行つたが、二日その結果を発表した。<br><br>それによると、あれ程不衛生な仕事に従事してゐながら、彼等の間に伝染病其他の病人の少い事は意外である、そうして調査人員二千四百拾五人の中、女子は僅かに六拾人の少数であつた。<br><br>調査人員の年齢は三拾一歳から五拾歳に至るものが一二九九人を数へて、全員の過半数を占めてゐる。<br><br>健康状態は、慢性胃腸病患者が最も多く、次にアルコール中毒者といふ順である。<br><br>そうして伝染病、肺結核、性病が割合少ないのである。<br><br>即ち二四一五人のうち、健康なるもの二一二三人、虚弱者八十五人、老衰者五十八人、不具者三十五人、廃疾八十五人、その他の疾病三拾二人となつてゐる。<br><br> 右の例によつてみても瞭かなる如く、病菌による伝染病は殆んど無いと言つてもいい位である。<br><br>故に如何程病菌に接触する者と雖も健康者なるに於て、容易に伝染するものではない事を知るであらう。<br><br> 次に、病菌なるものは、今日迄人類に害を及ぼすものとされ恐れられてゐるが、之はあながちそうとのみ言へないのである。<br><br>或は、有益であるかも知れない。<br><br>何となれば、此世に存在する限りの如何なる物と雖も、人間に不必要な物はない筈である。<br><br>もし必要がなくなれば、自然淘汰されるのが真理である。<br><br>但だ、無用であるとか有害であるとかいふやうに、人間が勝手に決めるのは、今日の文化の程度に於ては、其物の存在理由が不明であるからである。<br><br>それに就て私は、病菌と伝染病に就て、私の研究の結果を説いてみよう。<br><br>之によつて専門家は固より、読者諸君に於て判断せられたいのである。<br><br> 抑々、伝染病なるものは、他の病気と等しく浄化作用であつて、それが頗る急性なる為人間は恐れるのである。<br><br>そうして病菌の活動によつて、血液中に存在する或種の毒素を、解消する為の摂理である。<br><br>勿論不浄血者は、不健康で、人生の活動に支障を及ぼすからである。<br><br>然らば、病菌による伝染とは、如何なる経路と如何なる理由によるかを解いてみよう。<br><br> 最初、病菌が人体の皮膚、粘膜、食物等から侵入するや、速かに血液中に進行する。<br><br>然るに、血液中の毒素なるものは、実は黴菌の食物となるので、菌は其食物を喰ふ事によつて繁殖する。<br><br>故に、食物が多い程、繁殖するのは当然である。<br><br>そうして、黴菌が食物を食ひながら非常な勢を以て繁殖し、或数の子を生むや、次々死滅するのであつて、その死骸は、出血、糞尿又は喀痰、唾液等に混じて排泄されるので、之によつて完全に浄血作用が行はれるのである。<br><br>故に、赤痢、チフス、麻疹、天然痘、疫痢、百日咳等、総て伝染病の予後は、発病以前よりも健康になるに鑑（み）て右の理は明かである。<br><br>然し、伝染病恢復後、健康が捗々しくない者もあるが、之は医療によつて浄化作用を抑止するから、毒素が残存する為である。<br><br>又、医学上保菌者といふのがある。<br><br>それは菌があつても発病しないのであるが、之はどういふ訳かといふと、黴菌の食物が少しあるからである。<br><br>即ち生存するだけの食物はあるが、繁殖する程はないのである。<br><br>従つて、全く毒素の無い浄血の持ち主は仮令黴菌が侵入しても食物がないから直ちに餓死するので、伝染しないといふ事になるのである。<br><br>故に私は斯う言ひたいのである。<br><br>それは伝染といふ名称は当らない。<br><br>誘発といふ名称が妥当である。<br><br>―と。<br><br> 右の理によつて、黴菌の存在理由は判つた事と思ふ。<br><br>即ち人間に対し浄化作用を行ふ―いはば“毒素の掃除夫”のやうなものであるから、寧ろ伝染否誘発をした方が健康上良いのである。<br><br>故に、実際上からみても、高度の文明国が伝染病の著減を誇り乍ら体位が低下し人口逓減といふ問題に悩まされつつあるに対し、伝染病の多い非文化民族が右の反対である状態に思ひ及ぶ時、私の説の謬りでない事を知るであらう。<br><br> 即ち、高度文明国民は濁血の持主でありながら、病菌を極力防止する結果、伝染病が著減したのである。<br><br>前述の如く、浄血者のみになつて、伝染病が減少又は絶無になる事こそ理想の健康民族といふべきである。<br><br>そうして勿論血液中の毒素とは、その殆んどが薬毒である事はいふ迄もないのである。<br><br> 爰で私は、再び結核その他に就て説明する必要がある。<br><br>それは医療に於ては殺菌と称し菌を殺滅せんとして、それのみに熱中してゐる。<br><br>黴菌さへ殺滅すれば、病気は治癒するやうに解釈してゐるが、之程誤りはないのである。<br><br>肺結核の如き菌のみ殺さんとしても、それは到底不可能である。<br><br>何となれば、服薬、注射液等が、血液其他を通じて、結核の病竃部に達する迄には、薬剤の殺菌力は殆んど無力同様になるであらうからである。<br><br>もし病竃（びょうそう）部迄殺菌力が消滅しないやうな、強烈な薬剤であるとしたなら、そのやうな薬剤は、使用するやたちどころに生命の危険に及ぶのは判り切つた話である。<br><br>故に、薬剤による殺菌作用は如何程研究しても、それは全く無益の努力に過ぎないと思ふのである。<br><br> 然らば、その殺菌の目的を達成せんとするには如何なる方法が妥当であるかといふに、それは菌の繁殖をして不可能ならしめる事である。<br><br>即ち、菌の繁殖の原因を除く事である。<br><br>即ち菌の食物を絶無にして餓死せしむる事でそれ以外に方法はあるべき筈がないのである。<br><br>そうして食物皆無とは、浄血者になる事である。<br><br>浄血者になるには、薬剤を使用しないことである。<br><br>然るに今日の医療は、黴菌の食物の原料を供給しながら、黴菌の繁殖を防がうと努力するのであるから効果は挙らないのは当然である。<br><br>それでやむを得ず、消極的防止方法に努力する訳である。<br><br> 爰で注意したい事がある。<br><br>それは私の研究によれば、結核の黴菌と虎列剌（コレラ）、赤痢、チフス等の如き黴菌とは全然性質を異にする事である。<br><br>それは、後者は伝染するが前者に於ては伝染しないといふ持論である。<br><br>従而、此意味に於て、後者は防疫の必要があるが、前者は何等消毒の必要はないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza dos Micróbios e das Doenças Infecciosas</h2>
 <p>A patologia da medicina ocidental contemporânea fundamenta-se, em sua quase totalidade, na teoria dos germes. Praticamente todas as enfermidades são interpretadas como transmissíveis por meio de micróbios. A ideia de que até mesmo um simples resfriado seja obra de micróbios é amplamente aceita, sendo que o agente causador do resfriado, por ser tão diminuto a ponto de ser invisível ao microscópio, é classificado como um micróbio filtrável.</p>
@@ -128,5 +280,48 @@ function toggleLang(lang) {
 <p>Sinto a necessidade de discorrer novamente sobre a tuberculose e outras doenças. A medicina, em seus tratamentos, concentra-se febrilmente na eliminação dos germes, interpretando que a cura da doença depende da exterminação dos micróbios. Não há equívoco maior. No caso da tuberculose pulmonar, por exemplo, é simplesmente impossível matar apenas os bacilos. Afinal, até que os medicamentos orais ou injetáveis, circulando pelo sangue e por outras vias, atinjam o foco da tuberculose, seu poder bactericida já terá se tornado praticamente nulo. Se existisse um medicamento tão potente que mantivesse sua força até o foco da lesão, é evidente que sua administração colocaria a vida do paciente em risco imediato. Por isso, acredito que a pesquisa de agentes bactericidas por meio de fármacos é um esforço completamente inútil.</p>
 <p>Qual seria, então, o método apropriado para se atingir o objetivo de eliminar os germes? O método consiste em impossibilitar a sua proliferação. Em outras palavras, deve-se eliminar a causa de sua multiplicação: privá-los de seu alimento até que morram de inanição. Não pode haver outra maneira. E a ausência total de alimento significa tornar-se uma pessoa de sangue puro, o que se alcança ao não se utilizar medicamentos. A medicina atual, no entanto, empenha-se em combater a proliferação de micróbios ao mesmo tempo que lhes fornece a matéria-prima de seu alimento. É natural, pois, que seus esforços não surtam efeito e que ela se veja obrigada a recorrer a métodos de prevenção paliativos.</p>
 <p>Aqui, há uma questão que gostaria de ressaltar. Segundo minhas pesquisas, as bactérias da tuberculose possuem uma natureza completamente distinta daquelas do cólera, da disenteria e do tifo. Defendo a teoria de que as últimas são contagiosas, enquanto a primeira não o é. Nesse sentido, as primeiras exigem medidas de prevenção, ao passo que a última não requer qualquer tipo de desinfecção.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 黴菌及び伝染病 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 現代行はれてゐる西洋医学に於ける病理はその殆んどが黴菌説である。<br/><br/>凡ゆる病気に対し、黴菌によつて伝染すると解されてゐる。<br/><br/>感冒までも黴菌の作用とされてゐる。<br/><br/>そうして感冒菌の如きは顕微鏡でも視るを得ない微小なるもの、それは濾過性黴菌と称してゐる。<br/><br/> そうして医学に於ての解釈は、感冒、ヂフテリヤ、百日咳、麻疹、流行性耳下腺炎などの病気は、泡沫伝染といふ事になつてゐる。<br/><br/>之は、戸を閉め切つた室内や乗物の中で、患者の嚏（くさめ）や談笑の際など、霧の如く唾と一緒に飛出し、空気中に浮游してゐるのを吸込んで感染するといふのである。<br/><br/>そうして老人は、比較的免疫になつてゐて、青年特に小児が冒され易いとして、患者に一米以上接近してはならないといふのである。<br/><br/> 斯様に、殆んどの病気は伝染するといふのであるから、之を信ずるとしたら、現代人は生きてゆく事さへ、恐怖の限りである。<br/><br/> 次に、空気以外、最も直接的である黴菌の巣窟は何といつても、貨幣に如（し）くものはあるまい。<br/><br/>之に就て「北大医学部衛生学教室阿部三史博士が、郵便局、銀行、市場、デパート、食堂、食料品店、個人等多く利用される処から十円札、五拾銭銀貨、拾銭白銅、拾銭ニッケル、一銭銅貨等取り交ぜ三百四拾五個を集めその銀貨なり、札なりに附着してゐる黴菌を研究した結果、左の如く大腸菌、パラチフス菌、葡萄球菌、コレラ菌、分裂菌等々、数へきれない程の黴菌が附着してゐた。<br/><br/>これ等は何れも人体に害を及ぼすもので、殊に小さな子供等が、無心で銅貨銀貨をなめてゐるなど大いに注意を要するものであり、一方多くの人は、銀貨、銅貨に、結核菌が附着してゐると思つてゐるだらうが、阿部氏の研究では結核菌は案外少く、人体に及ぼす程の偉力はないと言はれてゐる。<br/><br/> （昭和十一年六月調査） 「各種貨幣の黴菌数」 先づ拾円札、五拾銭、拾銭、一銭各一枚にどれだけの黴菌が附着してゐるかと言ふと △拾円札には、普通黴菌が最高拾六万九千百五個で 平均、五万二千四百九十一個 △五拾銭銀貨には平均千五百五拾九個 △拾銭白銅には二千四百七拾個 △拾銭ニッケル白銅には二千二百三個 △一銭銅貨には、千三十二個 等である。<br/><br/> 「病菌の種類と数」 更に大腸菌、チフス菌、パラチフス菌等がどれだけついてゐるかと言へば― △拾円札には五拾四個 △五拾銭銀貨には四個 △拾銭白銅には 三個 △拾銭ニッケル白銅には 一個 △一銭銅貨には 四個 ―等で、拾銭ニッケル白銅が、他の貨幣より少ない事は、発行されて間もない事によるもので、なほ一銭銅貨には比較的黴菌の附着数が少ない事は、銅自身が持つてゐる殺菌性に依るものである。<br/><br/> 「場所と黴菌数」 然らば、何処で使はれてゐる貨幣に、最も多くの黴菌が附いてゐるかといへば一番多いのが市場、次いで郵便局、日用雑貨品店、百貨店、食堂、菓子店、食料品店、個人所有等の順序になつてをり、個人所有が一番少ないが、これは財布の中に入れられてゐる関係上空気が外部と異つて流通しないため、附着した黴菌が培養されない為である。<br/><br/>」 以上によつてみても、貨幣には如何に多くの凡ゆる病菌が附着してゐるかを知るであらう。<br/><br/>然し乍ら、貨幣を手にする毎に消毒することは、如何なる人と雖も不可能であらう。<br/><br/>又、空気伝染が恐ろしいといつても、電車や汽車に乗らない訳にはゆくまい。<br/><br/>故に、病菌から全く遁れ去るには、遙かなる沖合における海上生活か無人島か又は社会と全く交通を絶たれた山奥に一軒家を建てて生活するより以外、理想的方法はないであらう。<br/><br/>然し、そのやうな事は何人と雖も、到底出来得る事ではない。<br/><br/>故に、仮令、病菌が体内に侵入しても発病しないといふ健康体になるより外に絶対的安心の方法はないのである。<br/><br/>然らば、其様な健康は可能でありやといふに、私は可能である事を断言して憚（はばか）らないのである。<br/><br/>それに就て、有力な一つの実例を示してみよう。<br/><br/> それは、昭和十年九月三日の読売新聞の記事によれば、東京に於けるバタ屋即ち屑を扱ふ人間が一万二千人程居るが、市社会局では昨年十二月中旬、足立区を中心として、認可のある屑物買入所所属の拾ひ子に就て、詳細な調査を行つたが、二日その結果を発表した。<br/><br/>それによると、あれ程不衛生な仕事に従事してゐながら、彼等の間に伝染病其他の病人の少い事は意外である、そうして調査人員二千四百拾五人の中、女子は僅かに六拾人の少数であつた。<br/><br/>調査人員の年齢は三拾一歳から五拾歳に至るものが一二九九人を数へて、全員の過半数を占めてゐる。<br/><br/>健康状態は、慢性胃腸病患者が最も多く、次にアルコール中毒者といふ順である。<br/><br/>そうして伝染病、肺結核、性病が割合少ないのである。<br/><br/>即ち二四一五人のうち、健康なるもの二一二三人、虚弱者八十五人、老衰者五十八人、不具者三十五人、廃疾八十五人、その他の疾病三拾二人となつてゐる。<br/><br/> 右の例によつてみても瞭かなる如く、病菌による伝染病は殆んど無いと言つてもいい位である。<br/><br/>故に如何程病菌に接触する者と雖も健康者なるに於て、容易に伝染するものではない事を知るであらう。<br/><br/> 次に、病菌なるものは、今日迄人類に害を及ぼすものとされ恐れられてゐるが、之はあながちそうとのみ言へないのである。<br/><br/>或は、有益であるかも知れない。<br/><br/>何となれば、此世に存在する限りの如何なる物と雖も、人間に不必要な物はない筈である。<br/><br/>もし必要がなくなれば、自然淘汰されるのが真理である。<br/><br/>但だ、無用であるとか有害であるとかいふやうに、人間が勝手に決めるのは、今日の文化の程度に於ては、其物の存在理由が不明であるからである。<br/><br/>それに就て私は、病菌と伝染病に就て、私の研究の結果を説いてみよう。<br/><br/>之によつて専門家は固より、読者諸君に於て判断せられたいのである。<br/><br/> 抑々、伝染病なるものは、他の病気と等しく浄化作用であつて、それが頗る急性なる為人間は恐れるのである。<br/><br/>そうして病菌の活動によつて、血液中に存在する或種の毒素を、解消する為の摂理である。<br/><br/>勿論不浄血者は、不健康で、人生の活動に支障を及ぼすからである。<br/><br/>然らば、病菌による伝染とは、如何なる経路と如何なる理由によるかを解いてみよう。<br/><br/> 最初、病菌が人体の皮膚、粘膜、食物等から侵入するや、速かに血液中に進行する。<br/><br/>然るに、血液中の毒素なるものは、実は黴菌の食物となるので、菌は其食物を喰ふ事によつて繁殖する。<br/><br/>故に、食物が多い程、繁殖するのは当然である。<br/><br/>そうして、黴菌が食物を食ひながら非常な勢を以て繁殖し、或数の子を生むや、次々死滅するのであつて、その死骸は、出血、糞尿又は喀痰、唾液等に混じて排泄されるので、之によつて完全に浄血作用が行はれるのである。<br/><br/>故に、赤痢、チフス、麻疹、天然痘、疫痢、百日咳等、総て伝染病の予後は、発病以前よりも健康になるに鑑（み）て右の理は明かである。<br/><br/>然し、伝染病恢復後、健康が捗々しくない者もあるが、之は医療によつて浄化作用を抑止するから、毒素が残存する為である。<br/><br/>又、医学上保菌者といふのがある。<br/><br/>それは菌があつても発病しないのであるが、之はどういふ訳かといふと、黴菌の食物が少しあるからである。<br/><br/>即ち生存するだけの食物はあるが、繁殖する程はないのである。<br/><br/>従つて、全く毒素の無い浄血の持ち主は仮令黴菌が侵入しても食物がないから直ちに餓死するので、伝染しないといふ事になるのである。<br/><br/>故に私は斯う言ひたいのである。<br/><br/>それは伝染といふ名称は当らない。<br/><br/>誘発といふ名称が妥当である。<br/><br/>―と。<br/><br/> 右の理によつて、黴菌の存在理由は判つた事と思ふ。<br/><br/>即ち人間に対し浄化作用を行ふ―いはば“毒素の掃除夫”のやうなものであるから、寧ろ伝染否誘発をした方が健康上良いのである。<br/><br/>故に、実際上からみても、高度の文明国が伝染病の著減を誇り乍ら体位が低下し人口逓減といふ問題に悩まされつつあるに対し、伝染病の多い非文化民族が右の反対である状態に思ひ及ぶ時、私の説の謬りでない事を知るであらう。<br/><br/> 即ち、高度文明国民は濁血の持主でありながら、病菌を極力防止する結果、伝染病が著減したのである。<br/><br/>前述の如く、浄血者のみになつて、伝染病が減少又は絶無になる事こそ理想の健康民族といふべきである。<br/><br/>そうして勿論血液中の毒素とは、その殆んどが薬毒である事はいふ迄もないのである。<br/><br/> 爰で私は、再び結核その他に就て説明する必要がある。<br/><br/>それは医療に於ては殺菌と称し菌を殺滅せんとして、それのみに熱中してゐる。<br/><br/>黴菌さへ殺滅すれば、病気は治癒するやうに解釈してゐるが、之程誤りはないのである。<br/><br/>肺結核の如き菌のみ殺さんとしても、それは到底不可能である。<br/><br/>何となれば、服薬、注射液等が、血液其他を通じて、結核の病竃部に達する迄には、薬剤の殺菌力は殆んど無力同様になるであらうからである。<br/><br/>もし病竃（びょうそう）部迄殺菌力が消滅しないやうな、強烈な薬剤であるとしたなら、そのやうな薬剤は、使用するやたちどころに生命の危険に及ぶのは判り切つた話である。<br/><br/>故に、薬剤による殺菌作用は如何程研究しても、それは全く無益の努力に過ぎないと思ふのである。<br/><br/> 然らば、その殺菌の目的を達成せんとするには如何なる方法が妥当であるかといふに、それは菌の繁殖をして不可能ならしめる事である。<br/><br/>即ち、菌の繁殖の原因を除く事である。<br/><br/>即ち菌の食物を絶無にして餓死せしむる事でそれ以外に方法はあるべき筈がないのである。<br/><br/>そうして食物皆無とは、浄血者になる事である。<br/><br/>浄血者になるには、薬剤を使用しないことである。<br/><br/>然るに今日の医療は、黴菌の食物の原料を供給しながら、黴菌の繁殖を防がうと努力するのであるから効果は挙らないのは当然である。<br/><br/>それでやむを得ず、消極的防止方法に努力する訳である。<br/><br/> 爰で注意したい事がある。<br/><br/>それは私の研究によれば、結核の黴菌と虎列剌（コレラ）、赤痢、チフス等の如き黴菌とは全然性質を異にする事である。<br/><br/>それは、後者は伝染するが前者に於ては伝染しないといふ持論である。<br/><br/>従而、此意味に於て、後者は防疫の必要があるが、前者は何等消毒の必要はないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

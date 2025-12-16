@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hawai03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（三） 樋口喜代子 『栄光』206号、昭和28(1953)年4月29日発行 物質天国にも悩み――奇蹟を恋うるハワイの人々 さてこちらの気候は今内地の六月頃の暖かさ、最初来ました当座一週間位は馬鹿に暑く感じましたが、その後暫らく天候異変のように一時寒くなり、毎日の如く雨（シャワー）が幾度も降り、雷がなり高原地のワヒアワでは珍しく大きな雹が降ったと大騒ぎでした。<br><br>ハワイ島では、雪がすばらしく積ったそうで、先達っての日曜には日帰りで飛行機で大勢スキーに出かけたとのこと、さてもさても便利な世の中と、ただ田舎者は聞いただけで口あんぐりです。<br><br>私はその後風邪の浄化で、咳痰の製造に忙しい状態です。<br><br>胃の浄化も御守護でずっと軽くして戴きましたが、少しずつ続いています。<br><br>こちらの気候になれる為の浄化らしきものを二人ともいただいていますが、一日も休まず気持はものすごく張切って活躍しております。<br><br>布教の状況はぐんぐんと発展の兆が見えて、だんだん忙しくなりそうです。<br><br> 奇蹟相次ぐ 極めて地味にコツコツと当っていますが、次々と新しい人が来られて、神様が因縁の人を寄せられ、その人達を使われる御手際のあざやかさにただただ感嘆しているという有様です。<br><br>十日から五晩、ホノルルで教修会を開きますが、十数名になる見込です。<br><br>この時は古い信者も出来るだけ集って貰うつもりで、広いパーラーのある家を借りてやります。<br><br>今度そこの主人が入信するのですが（夫人は既に信者）この間夕食に招かれ、友達も見えて一晩語り合ってすっかり共鳴し、入信前から多くの人を紹介して下さっております。<br><br>楽しい植民地的気分の家庭で、何時でも気兼ねなしに御飯を食べに来てほしいと云って、喜んで迎え入れて下さいます。<br><br>一体にこちらの人は日本におけるよりもずっと親しみやすく、まるで旧知の友のようであり、家族のようで最初から不思議なように胸襟を開いて、何でも話し合えるのです。<br><br>今度土人（と云っても少々白人の血も入っているインテリー）の夫妻が入信の予定で、毎日のように浄霊に見えていますが、夫人は左眼が失明、胆石があるのです。<br><br>今浄化中ながら良く分ってそれを喜んでいます。<br><br>二回の浄霊で四回吐き、又右眼が痛み、左眼の隅の方が少々見え出したと云って大喜びです。<br><br>実に素直で純情で、昨夜はかえりがけに一時間半ばかり二人を自動車で、ココヘッドからワイキキの海岸へドライブに連れて行ってくれました。<br><br>素晴しい月夜で海の波が実に美しく夢の様でした。<br><br> 今度の教修にはこの二人と朝鮮の人と、二世で全然日本語の分らない人もまじっていますから、日英両語でしないとどうしても駄目らしいです。<br><br> ラジオ放送も計画がすすめられておりますし、月末にはハワイ島とマウイ島へ布教に出かけますし、身体が二つほしい様です。<br><br>マウイ島では、既に入信希望者二カ所で十四人位ある様子です。<br><br>座談会をすればもっと増えるでしょう。<br><br>四月初めにホノルルへ帰るまでには晴彦氏の活躍が又実を結んでいることと思われます。<br><br>ロスアンゼルスからは次々便りがあり、今入信確定八名、嵐さんからお守りを受ける予定になっています。<br><br>渡部さん大活躍で、キリスト教婦人会長が入信される事となり、二人で目下キリスト教婦人会中の病人を浄霊に廻っている様子、日米新聞社長夫人が入信と決りサンフランシスコにも入信希望者が出来、シカゴにも飛火しているそうです。<br><br>キリスト教の人達が私の入信動機を聞きたいと、私の渡米を待っておられるという朗報が入っています。<br><br>布教状況右の通り、神様の御手際をただ感嘆してながめつつ御命令のままに動いているという姿です。<br><br> 日常生活の合理化 さすがにこちらは生活が便利、ともかく電化生活でお勝手は実に清潔でスピード化されているのに驚きます。<br><br>かまど、オーブン、電気冷蔵庫（アイスボックスと云う）それに洗濯器（これはお湯でゆすいで、しぼって出します）もっと贅沢な家庭になると、茶碗洗い機、これはちゃんと乾いて出て来るそうです。<br><br> 街は自動車の列、ホノルルでは四人に一人の割で自動車を持っているとの事。<br><br>悩みはパークする所（駐車）の不足です。<br><br>デパートでもマーケットでも会社でも、空地を持っていなければ発展しないという始末です。<br><br>実に歩かないです。<br><br>すぐ近所へ行くのにものります。<br><br>私達もその内に自動車を手に入れなければ非能率的で話になりません。<br><br>月払いで買えますから考えるつもりです。<br><br>こららでは女学生でも運転しています。<br><br>晴彦さんは自動車ばかり見て歩いています。<br><br>しかし余程上手になってもらわないことには生命がけで乗らなければなりません。<br><br> 食べ物は日本のもの何でもあります。<br><br>殊に戦後（戦争中日本兵が強かったというので）外人間にも御飯を食べる傾向がつよくなり、そのためお店には、何でもおすし（のり巻）おにぎり、御飯（炊いたもの）お沢庵煮染等々を売っています。<br><br>お味噌だけは甘い白味噌しかありません。<br><br>その他豆腐でも、コンニャクでも、何でもあります。<br><br>果物が豊富、パパイア、マソゴー、グレープフルーツ（夏みかんの様なすばらしく汁の多いものに砂糖をかけていただく）それに、本土から来るネーブルがすばらしくおいしいです。<br><br>朝は果物とパンにコーヒー、卵位です。<br><br> ここで一番感ずることは日本人の多いこと、それが堂々と街を闊歩している姿はたのもしいです。<br><br>皆明るく実にのびのびとしています。<br><br>そして支那の人も土人も朝鮮の人も美しく、仲良く暮している姿はまことにコスモポリタンの理想郷といった感じです。<br><br>お互言葉が通じない人達も、英語と日本語とカナカ語をチャンポンに使って、それに手と顔の表情で不足を補って結構意志を通じ合わせて、笑いながら話し合っている姿は、面白くもあり、美しくもあります。<br><br>一寸例をあげると「ミー、ノーキャン、カウカウよう」（朝鮮人が言った言葉）私は出来ないたべる―たべられないようとつける。<br><br>日本人でも話の中にたえず英語やカナカ語が入るのです。<br><br>「ミーがビフォア（以前に）そこへ行った時、サムタイムきいた」とか、「もうパオ（おしまい）よ」御浄霊をうけたらよんべ（昨夜）はモー（moreもっと）こつる（広島弁咳が出る）んで困った」と言った工合。<br><br> 物質天国の悩みは病 街で天国的と思う事は、バスが混まない事、のる時入口にある切符入れに誰もが自由に切符を入れて乗る様になっていて、ごまかす人がない事。<br><br>街角に新聞を十仙（セント）で取れる様においてあり、番人がいなくてもお金を入れる穴へ十仙入れて一部の新聞をとって行く様にしてありますが、これもごまかす人がない事等々、こちらは余程ミロクの御世に近いと思います。<br><br>病人だけは実に多いです。<br><br>どうしても明主様の御力を一日も早く、より多くの人にお知らせしなければならないと日々決意は固く心は火と燃えていますが、はやる心を抑えつつ、ぢりぢりとやっています。<br><br> 老人も子供も紳士も、アロハの美しい派手な色を身につけて歩く姿は、自然の美しさに調和して実に綺麓です。<br><br> ミロクの御世には男も派手になるときいていますがアロハシャツを見て、成程男が赤いのや流出なものを着たのは美しいと思う様になりました。<br><br>アロハを着て宴会に出たりすると、皆が実に親しみ易い感じになるのです。<br><br>日本でもアロハシャツが流行る様になるといいと思います。<br><br>私もこの頃は宿にかえるとアロハシャツです。<br><br>実に楽でよろしい。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Aflições Ocultas de um Paraíso Material</h2>
 <p>O clima aqui se assemelha, atualmente, ao de junho no Japão. Embora nos primeiros dias de nossa chegada o calor tenha se mostrado bastante intenso, fomos surpreendidos por uma súbita e atípica mudança no tempo, que trouxe um período de frio. As chuvas, ou <em>showers</em>, como as chamam, tornaram-se quase diárias, acompanhadas por trovoadas. Em Wahiawa, uma localidade de planalto, houve grande comoção pela ocorrência de uma chuva de granizo de proporções raras para a região. Na Ilha Havaí, soubemos que houve uma nevasca espetacular, a ponto de, no último domingo, muitas pessoas terem feito uma viagem de avião de um dia para esquiar. Diante de tamanha conveniência, nós, que viemos do interior, ficamos simplesmente boquiabertos.</p>
@@ -111,5 +263,48 @@ function toggleLang(lang) {
 <p>Outros aspectos que remetem a um paraíso são o fato de os ônibus não serem lotados e a honestidade das pessoas ao depositarem suas passagens em uma urna na entrada, sem que ninguém tente burlar o sistema. Nas esquinas, jornais são dispostos para venda a dez centavos, sem a presença de um vigia. As pessoas simplesmente inserem a moeda no local indicado e retiram seu exemplar. A ausência de enganos nesses pequenos atos me faz crer que aqui estamos muito mais próximos da Era do Dia.</p>
 <p>Contudo, o número de doentes é imenso. Esta é a grande aflição deste paraíso material. Diariamente, minha determinação se fortalece com a convicção de que precisamos, o mais rápido possível, levar o poder de Meishu-Sama ao maior número de pessoas. Contendo a impaciência que anseia por resultados imediatos, seguimos avançando passo a passo, de forma gradual e segura.</p>
 <p>Aqui, idosos, crianças e cavalheiros vestem as belas e vibrantes camisas <em>aloha</em>, e suas figuras se harmonizam com a exuberância da natureza de uma forma verdadeiramente magnífica. Eu havia ouvido que, na Era do Dia, os homens também se vestiriam com cores vivas. Ao ver as camisas <em>aloha</em>, passei a achar que, de fato, um homem vestindo vermelho ou outras cores radiantes pode ser muito belo. Usar uma dessas camisas em uma festa ou recepção cria uma atmosfera de grande cordialidade. Seria ótimo se elas também se popularizassem no Japão. Ultimamente, ao retornar para minha acomodação, também eu visto minha camisa <em>aloha</em>. É de um conforto e simplicidade admiráveis.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（三） 樋口喜代子 『栄光』206号、昭和28(1953)年4月29日発行 物質天国にも悩み――奇蹟を恋うるハワイの人々 さてこちらの気候は今内地の六月頃の暖かさ、最初来ました当座一週間位は馬鹿に暑く感じましたが、その後暫らく天候異変のように一時寒くなり、毎日の如く雨（シャワー）が幾度も降り、雷がなり高原地のワヒアワでは珍しく大きな雹が降ったと大騒ぎでした。<br/><br/>ハワイ島では、雪がすばらしく積ったそうで、先達っての日曜には日帰りで飛行機で大勢スキーに出かけたとのこと、さてもさても便利な世の中と、ただ田舎者は聞いただけで口あんぐりです。<br/><br/>私はその後風邪の浄化で、咳痰の製造に忙しい状態です。<br/><br/>胃の浄化も御守護でずっと軽くして戴きましたが、少しずつ続いています。<br/><br/>こちらの気候になれる為の浄化らしきものを二人ともいただいていますが、一日も休まず気持はものすごく張切って活躍しております。<br/><br/>布教の状況はぐんぐんと発展の兆が見えて、だんだん忙しくなりそうです。<br/><br/> 奇蹟相次ぐ 極めて地味にコツコツと当っていますが、次々と新しい人が来られて、神様が因縁の人を寄せられ、その人達を使われる御手際のあざやかさにただただ感嘆しているという有様です。<br/><br/>十日から五晩、ホノルルで教修会を開きますが、十数名になる見込です。<br/><br/>この時は古い信者も出来るだけ集って貰うつもりで、広いパーラーのある家を借りてやります。<br/><br/>今度そこの主人が入信するのですが（夫人は既に信者）この間夕食に招かれ、友達も見えて一晩語り合ってすっかり共鳴し、入信前から多くの人を紹介して下さっております。<br/><br/>楽しい植民地的気分の家庭で、何時でも気兼ねなしに御飯を食べに来てほしいと云って、喜んで迎え入れて下さいます。<br/><br/>一体にこちらの人は日本におけるよりもずっと親しみやすく、まるで旧知の友のようであり、家族のようで最初から不思議なように胸襟を開いて、何でも話し合えるのです。<br/><br/>今度土人（と云っても少々白人の血も入っているインテリー）の夫妻が入信の予定で、毎日のように浄霊に見えていますが、夫人は左眼が失明、胆石があるのです。<br/><br/>今浄化中ながら良く分ってそれを喜んでいます。<br/><br/>二回の浄霊で四回吐き、又右眼が痛み、左眼の隅の方が少々見え出したと云って大喜びです。<br/><br/>実に素直で純情で、昨夜はかえりがけに一時間半ばかり二人を自動車で、ココヘッドからワイキキの海岸へドライブに連れて行ってくれました。<br/><br/>素晴しい月夜で海の波が実に美しく夢の様でした。<br/><br/> 今度の教修にはこの二人と朝鮮の人と、二世で全然日本語の分らない人もまじっていますから、日英両語でしないとどうしても駄目らしいです。<br/><br/> ラジオ放送も計画がすすめられておりますし、月末にはハワイ島とマウイ島へ布教に出かけますし、身体が二つほしい様です。<br/><br/>マウイ島では、既に入信希望者二カ所で十四人位ある様子です。<br/><br/>座談会をすればもっと増えるでしょう。<br/><br/>四月初めにホノルルへ帰るまでには晴彦氏の活躍が又実を結んでいることと思われます。<br/><br/>ロスアンゼルスからは次々便りがあり、今入信確定八名、嵐さんからお守りを受ける予定になっています。<br/><br/>渡部さん大活躍で、キリスト教婦人会長が入信される事となり、二人で目下キリスト教婦人会中の病人を浄霊に廻っている様子、日米新聞社長夫人が入信と決りサンフランシスコにも入信希望者が出来、シカゴにも飛火しているそうです。<br/><br/>キリスト教の人達が私の入信動機を聞きたいと、私の渡米を待っておられるという朗報が入っています。<br/><br/>布教状況右の通り、神様の御手際をただ感嘆してながめつつ御命令のままに動いているという姿です。<br/><br/> 日常生活の合理化 さすがにこちらは生活が便利、ともかく電化生活でお勝手は実に清潔でスピード化されているのに驚きます。<br/><br/>かまど、オーブン、電気冷蔵庫（アイスボックスと云う）それに洗濯器（これはお湯でゆすいで、しぼって出します）もっと贅沢な家庭になると、茶碗洗い機、これはちゃんと乾いて出て来るそうです。<br/><br/> 街は自動車の列、ホノルルでは四人に一人の割で自動車を持っているとの事。<br/><br/>悩みはパークする所（駐車）の不足です。<br/><br/>デパートでもマーケットでも会社でも、空地を持っていなければ発展しないという始末です。<br/><br/>実に歩かないです。<br/><br/>すぐ近所へ行くのにものります。<br/><br/>私達もその内に自動車を手に入れなければ非能率的で話になりません。<br/><br/>月払いで買えますから考えるつもりです。<br/><br/>こららでは女学生でも運転しています。<br/><br/>晴彦さんは自動車ばかり見て歩いています。<br/><br/>しかし余程上手になってもらわないことには生命がけで乗らなければなりません。<br/><br/> 食べ物は日本のもの何でもあります。<br/><br/>殊に戦後（戦争中日本兵が強かったというので）外人間にも御飯を食べる傾向がつよくなり、そのためお店には、何でもおすし（のり巻）おにぎり、御飯（炊いたもの）お沢庵煮染等々を売っています。<br/><br/>お味噌だけは甘い白味噌しかありません。<br/><br/>その他豆腐でも、コンニャクでも、何でもあります。<br/><br/>果物が豊富、パパイア、マソゴー、グレープフルーツ（夏みかんの様なすばらしく汁の多いものに砂糖をかけていただく）それに、本土から来るネーブルがすばらしくおいしいです。<br/><br/>朝は果物とパンにコーヒー、卵位です。<br/><br/> ここで一番感ずることは日本人の多いこと、それが堂々と街を闊歩している姿はたのもしいです。<br/><br/>皆明るく実にのびのびとしています。<br/><br/>そして支那の人も土人も朝鮮の人も美しく、仲良く暮している姿はまことにコスモポリタンの理想郷といった感じです。<br/><br/>お互言葉が通じない人達も、英語と日本語とカナカ語をチャンポンに使って、それに手と顔の表情で不足を補って結構意志を通じ合わせて、笑いながら話し合っている姿は、面白くもあり、美しくもあります。<br/><br/>一寸例をあげると「ミー、ノーキャン、カウカウよう」（朝鮮人が言った言葉）私は出来ないたべる―たべられないようとつける。<br/><br/>日本人でも話の中にたえず英語やカナカ語が入るのです。<br/><br/>「ミーがビフォア（以前に）そこへ行った時、サムタイムきいた」とか、「もうパオ（おしまい）よ」御浄霊をうけたらよんべ（昨夜）はモー（moreもっと）こつる（広島弁咳が出る）んで困った」と言った工合。<br/><br/> 物質天国の悩みは病 街で天国的と思う事は、バスが混まない事、のる時入口にある切符入れに誰もが自由に切符を入れて乗る様になっていて、ごまかす人がない事。<br/><br/>街角に新聞を十仙（セント）で取れる様においてあり、番人がいなくてもお金を入れる穴へ十仙入れて一部の新聞をとって行く様にしてありますが、これもごまかす人がない事等々、こちらは余程ミロクの御世に近いと思います。<br/><br/>病人だけは実に多いです。<br/><br/>どうしても明主様の御力を一日も早く、より多くの人にお知らせしなければならないと日々決意は固く心は火と燃えていますが、はやる心を抑えつつ、ぢりぢりとやっています。<br/><br/> 老人も子供も紳士も、アロハの美しい派手な色を身につけて歩く姿は、自然の美しさに調和して実に綺麓です。<br/><br/> ミロクの御世には男も派手になるときいていますがアロハシャツを見て、成程男が赤いのや流出なものを着たのは美しいと思う様になりました。<br/><br/>アロハを着て宴会に出たりすると、皆が実に親しみ易い感じになるのです。<br/><br/>日本でもアロハシャツが流行る様になるといいと思います。<br/><br/>私もこの頃は宿にかえるとアロハシャツです。<br/><br/>実に楽でよろしい。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

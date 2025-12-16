@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>igaku59</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は科学か 『天国の福音』昭和22(1947)年2月5日発行 今日何人といえども、現代医学をもって科学であると信じないものはないであろう。<br><br>しかしながら私は科学ではない――というのである。<br><br> 本来自然科学とはあるがままの自然の実体を掘り下げてその法則を探究し、規準を生みそれによって人類の福祉に貢献する事でなくてはならない。<br><br>従って毫末（ごうまつ）の独断も自然無視も許さるべきではない。<br><br>それについて、その前提として知らねばならない事は、まず人間と獣類との相違である。<br><br>科学は人間も獣類も共に動物の範疇（はんちゅう）に入れているが、その事自体が既に独断以外の何物でもない。<br><br>彼の医科学はモルモットや二十日鼠を研究して、それを人間に当はめる事をもって唯一の方法としている。<br><br>右について人間と動物との相違点の種々の面から考える必要がある。<br><br>それはほとんど根本的ともいうべき相違である。<br><br>すなわち人間は唯心的であり、動物は唯物的である。<br><br>例えば宗教、哲学、芸術、恋愛、同情等の精神活動は動物にはない。<br><br>また唯物的にみても形態、動作、体質、食餌、生活等人間との相違の余りにも著しい事である。<br><br>彼は蹠（あし）が四本あって尾があり、全身の厚皮、厚毛はもちろん言語も嗅覚も聴覚もすべての違いさはこれ以上書く必要はあるまい。<br><br> 以上のごとくであるから、今日の動物実験は自然科学ではなく自然無視科学である。<br><br> 彼のロックフェラー研究所の碩学アレキシス・カレルのノーベル賞を貰った名著「人間と未知なるもの」の要旨を一言にしていえば現代科学は「人間については何も知らない」という事である。<br><br> 次に私は種々の例を挙げてみよう。<br><br> ここに医家の家族の一員が病気に罹ったとする。<br><br>しかるに不思議な事には大抵は主人である医家が診療しないで友人等の他の医師に依頼するのは周知の事実である。<br><br>常識で考えてさえ大切なる家族の生命をして自分の手にかけず他人の手に委せるという事はおかしな訳である。<br><br>それは全く自己の医術に自己が信頼出来得ないからであろう。<br><br>実験上自分が診療するよりも他人に委せた方が結果が良いからである。<br><br>これについては医家として説明はなし得ないであろう。<br><br>しかし私はこう想うのである。<br><br>医学は浄化停止法であるから、医療を加える程病気は悪化する。<br><br>わが家族である以上熱心に能う限りの療法を行う。<br><br>もちろん薬剤も高級薬を選ぶであろう（高級薬ほど薬毒が強烈である）から結果は悪いに決っている。<br><br>しかるに他人においては普通の療法を行うから悪化の程度が少ない。<br><br>それで成績が良いという訳である。<br><br>また医家においてこういう経験がよくあると聞いている。<br><br>それはぜひ治したいと思う患者程治り難く、あまり関心を持たない患者は反って治りが良いという事である。<br><br>これらも前者と同様の理によるのである。<br><br> また少し難病になると医師の診断はまちまちである。<br><br>一人の患者に対し五人の医師が診断する場合、恐らく五人共診断が違うであろう。<br><br>これらも科学的基準がないからで、全く非科学的というもあえて侮言（ぶげん）ではあるまい。<br><br> そうして医学の診断及び療法がいかに無力であるかを、実例をもって示してみよう。<br><br>それは故帝大名誉教授長与又郎博士の死である。<br><br>同博士は癌研究においては世界的権威とされている。<br><br>妙な事には同博士は余程前から、「自分は癌で斃れる」といわれていたそうで、果せるかな死因は癌であった。<br><br>病中各名国手も博士自身も疾病は肺臓癌と診たのであったが、死後解剖の結果、癌の本原は腸にあって、それが肺臓へも移行したとの事であるから腸癌の方は生前発見されなかったのである。<br><br>これによってみると左の結論になる。<br><br> 一、長与博士程の大家が自身の癌発生を防止し得なかった事。<br><br> 二、自身の腸癌を発見し得なかった事。<br><br> 三、博士自身はもとより著名の国手多数が腸癌の発見も治癒も不可能であった事。<br><br> 今一つの例を挙げてみよう。<br><br>有名な故人沢達吉博士の死因は盲腸炎という事である。<br><br>その際各地から思師の病を知って馳せ参じた博士は無慮百二十数名の多きに達したといわれる。<br><br>これだけ多数の博士が頭脳を絞り、博士自身も苦慮されたであろうが、最も治癒しやすい盲腸炎のごときが治癒し得ず死に至った事は、医学の無力を実証して余りありと思うのである。<br><br>その時博士は次のごとき和歌を詠んだそうである。<br><br> 「効かずとは思へどこれも義理なれば 人に服ませし薬われ服む」 そうして医家が診断に臨むや、過去における父母や兄弟姉妹の死因病歴及び患者の病歴等微に入り細にわたって問い質し、それ等を参考として診断を下すのである。<br><br>もちろん患者の身体のみでは適確なる診断を下し得難いからであろう。<br><br>私は思う、本当に進歩した医学でありとすれば患者の肉体を診査しただけで病原は判るべきである。<br><br>しかるに本療法の診断においては十人の治療士の診断は同一であり、また現在患者の肉体診査のみにて適確なる診断を下し得るのである。<br><br> そうして真の医術とはいかなるものであるかを述べてみよう。<br><br>まず施療の場合いささかも患者に苦痛を与えない事、むしろ快感をさえ伴う程でなくてはならない。<br><br>また治癒までの期間が速かなる事を条件とし、何年経るも再発しない事、また発病以前よりも健康を増進する事等の諸条件が可能でなくてはならないのであって、かかる医術こそ進歩せるものというべきである。<br><br> しかるに現在医学の現実をみるがいい。<br><br>前述のごとき条件とはおよそ反対である。<br><br>すなわち診断の不正確、注射や手術による痛苦、長期間を要する療養、余病や再発の危険、手術による不具等によってみてもその価値は知らるるであろう。<br><br> 左の記事は、医博國島貴八郎氏著「結核と人生」中より抜萃したるものである。<br><br> 「我々が医学を学ぶ一番最初に教わる言葉は“病気は自然に治る”ということである。<br><br>赤ん坊の時から自然によって生れでる力、自然に身体に生じて来る力に依ってのみ病気は治るのである。<br><br>という、生物はじまって七十万年の昔からの真理を教わるのが、医学の第一時間目である。<br><br> 今日の腸チブス、肺炎のたどる経過も、五十年前、百年前の医学の発達しなかった時代も少しも変らないのであって、どんな博士が診ようが、薮医者が診ようが、金持のチブスも貧乏人のチブスも同じく四週間はかかるのである。<br><br>もし病気が医者と薬だけで治るものならば、百年前に四週間かかったものならば、今日においては三週間なり一週間で治るということになるべきであるが、依然としてチブスは四週間かかるのである。<br><br>また急性肺炎の場合も同様で、百年前のものも現代のものも一週間かかるのである。<br><br> 薬の効く時間ではなくて、チブスなり肺炎なり黴菌に侵かされると、自然にそれに抵抗する力が湧き上って、それ等の毒素を薄めて遂にそれを克服し、組織を復旧するのに要する時間なのであるから、百年前も今も変りはないのである。<br><br>」 以上の例によってみても医学が進歩せりというのは、一種の錯覚心理によるのであると共に非科学なりと断じても異議はさしはさめないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Medicina é uma Ciência?</h2>
 <p>Atualmente, não há quem não acredite que a medicina moderna seja uma ciência. Eu, contudo, afirmo o contrário.</p>
@@ -112,5 +264,48 @@ O remédio que aos outros prescrevi, agora bebo eu."</p>
 <p>O curso de doenças como a febre tifoide e a pneumonia hoje não é diferente do que era há cinquenta ou cem anos, numa época em que a medicina não era tão desenvolvida. Seja o paciente tratado por um grande doutor ou por um médico medíocre, seja ele rico ou pobre, a febre tifoide levará as mesmas quatro semanas para ser superada. Se as doenças fossem curadas apenas por médicos e remédios, algo que levava quatro semanas há um século deveria hoje ser curado em três semanas, ou talvez em uma. No entanto, a febre tifoide continua a exigir quatro semanas. O mesmo se aplica à pneumonia aguda, que tanto há cem anos quanto hoje, leva uma semana para se resolver.</p>
 <p>Não se trata do tempo que o remédio leva para agir. Trata-se do tempo necessário para que, uma vez invadido por bacilos como os da febre tifoide ou da pneumonia, o corpo mobilize naturalmente suas forças de resistência, dilua as toxinas, consiga finalmente superá-las e restaure os tecidos. Por essa razão, não há diferença entre o passado e o presente."</p>
 <p>Tendo em vista os exemplos citados, a crença no progresso da medicina não passa de uma ilusão psicológica. Portanto, não pode haver objeção à minha assertiva de que ela é, de fato, anticientífica.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学は科学か 『天国の福音』昭和22(1947)年2月5日発行 今日何人といえども、現代医学をもって科学であると信じないものはないであろう。<br/><br/>しかしながら私は科学ではない――というのである。<br/><br/> 本来自然科学とはあるがままの自然の実体を掘り下げてその法則を探究し、規準を生みそれによって人類の福祉に貢献する事でなくてはならない。<br/><br/>従って毫末（ごうまつ）の独断も自然無視も許さるべきではない。<br/><br/>それについて、その前提として知らねばならない事は、まず人間と獣類との相違である。<br/><br/>科学は人間も獣類も共に動物の範疇（はんちゅう）に入れているが、その事自体が既に独断以外の何物でもない。<br/><br/>彼の医科学はモルモットや二十日鼠を研究して、それを人間に当はめる事をもって唯一の方法としている。<br/><br/>右について人間と動物との相違点の種々の面から考える必要がある。<br/><br/>それはほとんど根本的ともいうべき相違である。<br/><br/>すなわち人間は唯心的であり、動物は唯物的である。<br/><br/>例えば宗教、哲学、芸術、恋愛、同情等の精神活動は動物にはない。<br/><br/>また唯物的にみても形態、動作、体質、食餌、生活等人間との相違の余りにも著しい事である。<br/><br/>彼は蹠（あし）が四本あって尾があり、全身の厚皮、厚毛はもちろん言語も嗅覚も聴覚もすべての違いさはこれ以上書く必要はあるまい。<br/><br/> 以上のごとくであるから、今日の動物実験は自然科学ではなく自然無視科学である。<br/><br/> 彼のロックフェラー研究所の碩学アレキシス・カレルのノーベル賞を貰った名著「人間と未知なるもの」の要旨を一言にしていえば現代科学は「人間については何も知らない」という事である。<br/><br/> 次に私は種々の例を挙げてみよう。<br/><br/> ここに医家の家族の一員が病気に罹ったとする。<br/><br/>しかるに不思議な事には大抵は主人である医家が診療しないで友人等の他の医師に依頼するのは周知の事実である。<br/><br/>常識で考えてさえ大切なる家族の生命をして自分の手にかけず他人の手に委せるという事はおかしな訳である。<br/><br/>それは全く自己の医術に自己が信頼出来得ないからであろう。<br/><br/>実験上自分が診療するよりも他人に委せた方が結果が良いからである。<br/><br/>これについては医家として説明はなし得ないであろう。<br/><br/>しかし私はこう想うのである。<br/><br/>医学は浄化停止法であるから、医療を加える程病気は悪化する。<br/><br/>わが家族である以上熱心に能う限りの療法を行う。<br/><br/>もちろん薬剤も高級薬を選ぶであろう（高級薬ほど薬毒が強烈である）から結果は悪いに決っている。<br/><br/>しかるに他人においては普通の療法を行うから悪化の程度が少ない。<br/><br/>それで成績が良いという訳である。<br/><br/>また医家においてこういう経験がよくあると聞いている。<br/><br/>それはぜひ治したいと思う患者程治り難く、あまり関心を持たない患者は反って治りが良いという事である。<br/><br/>これらも前者と同様の理によるのである。<br/><br/> また少し難病になると医師の診断はまちまちである。<br/><br/>一人の患者に対し五人の医師が診断する場合、恐らく五人共診断が違うであろう。<br/><br/>これらも科学的基準がないからで、全く非科学的というもあえて侮言（ぶげん）ではあるまい。<br/><br/> そうして医学の診断及び療法がいかに無力であるかを、実例をもって示してみよう。<br/><br/>それは故帝大名誉教授長与又郎博士の死である。<br/><br/>同博士は癌研究においては世界的権威とされている。<br/><br/>妙な事には同博士は余程前から、「自分は癌で斃れる」といわれていたそうで、果せるかな死因は癌であった。<br/><br/>病中各名国手も博士自身も疾病は肺臓癌と診たのであったが、死後解剖の結果、癌の本原は腸にあって、それが肺臓へも移行したとの事であるから腸癌の方は生前発見されなかったのである。<br/><br/>これによってみると左の結論になる。<br/><br/> 一、長与博士程の大家が自身の癌発生を防止し得なかった事。<br/><br/> 二、自身の腸癌を発見し得なかった事。<br/><br/> 三、博士自身はもとより著名の国手多数が腸癌の発見も治癒も不可能であった事。<br/><br/> 今一つの例を挙げてみよう。<br/><br/>有名な故人沢達吉博士の死因は盲腸炎という事である。<br/><br/>その際各地から思師の病を知って馳せ参じた博士は無慮百二十数名の多きに達したといわれる。<br/><br/>これだけ多数の博士が頭脳を絞り、博士自身も苦慮されたであろうが、最も治癒しやすい盲腸炎のごときが治癒し得ず死に至った事は、医学の無力を実証して余りありと思うのである。<br/><br/>その時博士は次のごとき和歌を詠んだそうである。<br/><br/> 「効かずとは思へどこれも義理なれば 人に服ませし薬われ服む」 そうして医家が診断に臨むや、過去における父母や兄弟姉妹の死因病歴及び患者の病歴等微に入り細にわたって問い質し、それ等を参考として診断を下すのである。<br/><br/>もちろん患者の身体のみでは適確なる診断を下し得難いからであろう。<br/><br/>私は思う、本当に進歩した医学でありとすれば患者の肉体を診査しただけで病原は判るべきである。<br/><br/>しかるに本療法の診断においては十人の治療士の診断は同一であり、また現在患者の肉体診査のみにて適確なる診断を下し得るのである。<br/><br/> そうして真の医術とはいかなるものであるかを述べてみよう。<br/><br/>まず施療の場合いささかも患者に苦痛を与えない事、むしろ快感をさえ伴う程でなくてはならない。<br/><br/>また治癒までの期間が速かなる事を条件とし、何年経るも再発しない事、また発病以前よりも健康を増進する事等の諸条件が可能でなくてはならないのであって、かかる医術こそ進歩せるものというべきである。<br/><br/> しかるに現在医学の現実をみるがいい。<br/><br/>前述のごとき条件とはおよそ反対である。<br/><br/>すなわち診断の不正確、注射や手術による痛苦、長期間を要する療養、余病や再発の危険、手術による不具等によってみてもその価値は知らるるであろう。<br/><br/> 左の記事は、医博國島貴八郎氏著「結核と人生」中より抜萃したるものである。<br/><br/> 「我々が医学を学ぶ一番最初に教わる言葉は“病気は自然に治る”ということである。<br/><br/>赤ん坊の時から自然によって生れでる力、自然に身体に生じて来る力に依ってのみ病気は治るのである。<br/><br/>という、生物はじまって七十万年の昔からの真理を教わるのが、医学の第一時間目である。<br/><br/> 今日の腸チブス、肺炎のたどる経過も、五十年前、百年前の医学の発達しなかった時代も少しも変らないのであって、どんな博士が診ようが、薮医者が診ようが、金持のチブスも貧乏人のチブスも同じく四週間はかかるのである。<br/><br/>もし病気が医者と薬だけで治るものならば、百年前に四週間かかったものならば、今日においては三週間なり一週間で治るということになるべきであるが、依然としてチブスは四週間かかるのである。<br/><br/>また急性肺炎の場合も同様で、百年前のものも現代のものも一週間かかるのである。<br/><br/> 薬の効く時間ではなくて、チブスなり肺炎なり黴菌に侵かされると、自然にそれに抵抗する力が湧き上って、それ等の毒素を薄めて遂にそれを克服し、組織を復旧するのに要する時間なのであるから、百年前も今も変りはないのである。<br/><br/>」 以上の例によってみても医学が進歩せりというのは、一種の錯覚心理によるのであると共に非科学なりと断じても異議はさしはさめないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

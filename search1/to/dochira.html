@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>dochira</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： どちらが迷信だ 『栄光』73号、昭和25(1950)年10月11日発行 一口に迷信というと、どうも宗教に付物のように思われるが、実は迷信は宗教には限らない、いかなるものにも迷信はある。<br><br>ただ気が付かないだけである。<br><br>もちろん科学にも、政治にも、哲学、教育、芸術にもことごとく迷信がある。<br><br>否迷信が多すぎて困るくらいだ。<br><br>これら幾多の迷信によって、いかに人類は災いせられ、不幸な目に遭っているかは、計り知れないものがあろう。<br><br> その中の最も大きな迷信とは、何であるかというと唯物思想である。<br><br>彼らは見えざるものは信ずべからずという建前で、見えるもののみを信じて得々している。<br><br>この思想が罪人を作り、健康を損ね、貧困者たらしめる。<br><br>しかもそれに乗じて共産主義が発展し、遂に現在のごとく第三次大戦の原因とさえなるのであるから、世界中の国という国は、いずれもこれに脅えているというのが現状である。<br><br>これによってみても唯物思想の迷信が、いかに恐るべきかを知るであろう。<br><br> 諸君は、無神論的共産主義のソ連の人民になりたいか、それとも基督（キリスト）教的民主主義のアメリカの人民となりたいか、それだけ考えても判るはずである。<br><br> 私は、病気と健康についても、農業についても革命的意見を発表している事は、諸君の知る通りである。<br><br>また他のあらゆる文化に対しても同様の意見をもっているので、順次発表する積りではあるが、それが仲々むずかしいのである。<br><br>例えば政治に関する事は、宗教上不可とされている。<br><br>なるほど、以前と違い今日は言論の自由は認められてはいるが、それは限度がある。<br><br>その限度とは既成文化を根拠として形成された現在の法規であってみれば、たとえ現在文化に迷信的欠陥があるとしても、それを明らかにする事は容易に許されないのである。<br><br>その場合当事者がいつもいうのは、社会の秩序維持のためとしているが、事実は吾らの意見の方がどのくらい、秩序維持に役立つかは知れないのである。<br><br>仮に医学に対し批判をする場合、その欠点を警告しようとしても、医師法違反とか、医療妨害とかいうような鉄の扉があって、他のいかなる卓越せる意見といえども、扉を開こうとはしないのである。<br><br>従って迷信打破をしたいとしても、限られたるある面だけであって、今はそれで我慢するより外、致し方ないのである。<br><br> しかし、私はいささかも悲観はしない。<br><br>何となれば、すべては神様が救世の力を揮われている以上、問題は時期である。<br><br>時期が来れば吾らを迷信と見ていた人達が、実は自分の方が迷信であった事に気がつき、本教に教えを乞うべき日の、必ず来る事を確信して、その時を待つのみである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Afinal, o que é superstição?</h2>
 <p>Basta mencionar a palavra superstição para que ela seja imediatamente associada à religião. Contudo, a verdade é que a superstição não se restringe ao campo religioso; ela permeia absolutamente todas as áreas da atividade humana, apenas não nos damos conta de sua presença. Com efeito, há superstições na ciência, na política, na filosofia, na educação e nas artes. Na verdade, são tantas que chegam a ser um problema. É incalculável o grau de sofrimento e infortúnio que essas inúmeras superstições têm infligido à humanidade.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Conforme é de vosso conhecimento, tenho apresentado opiniões revolucionárias sobre a doença, a saúde e a agricultura. Mantenho pontos de vista igualmente transformadores a respeito de todas as demais manifestações culturais e pretendo expô-los gradualmente. No entanto, a tarefa é sobremaneira difícil. Por exemplo, temas relacionados à política são considerados vedados à religião. É verdade que, diferentemente do passado, hoje nos é reconhecida a liberdade de expressão, mas ela possui limites. Esses limites são definidos pelo ordenamento jurídico vigente, o qual, por sua vez, foi moldado com base na cultura estabelecida. Portanto, ainda que essa cultura contenha falhas supersticiosas, revelá-las não é algo que se permita com facilidade. Nesses casos, as autoridades costumam alegar a necessidade de manter a ordem social. A verdade, porém, é que nossas ideias seriam imensamente mais úteis para a preservação dessa mesma ordem.</p>
 <p>Se, porventura, eu tecer uma crítica à medicina e tentar alertar a sociedade sobre suas deficiências, deparo-me com uma porta de ferro, representada por acusações de violação da Lei Médica ou de obstrução ao exercício da profissão. Por mais notável e superior que seja uma opinião divergente, essa porta permanece intransponível. Sendo assim, a luta para erradicar as superstições fica restrita a certas esferas, e, por ora, não nos resta alternativa senão a paciência.</p>
 <p>Todavia, não alimento o menor pessimismo. A razão é simples: se Deus está a empregar Sua força para a salvação do mundo, tudo é apenas uma questão de tempo. Quando o momento certo chegar, aqueles que nos viam como supersticiosos perceberão que, na realidade, a superstição estava com eles. Tenho a mais firme convicção de que o dia em que virão buscar os ensinamentos de nossa Fé certamente chegará. Até lá, resta-nos apenas aguardar.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： どちらが迷信だ 『栄光』73号、昭和25(1950)年10月11日発行 一口に迷信というと、どうも宗教に付物のように思われるが、実は迷信は宗教には限らない、いかなるものにも迷信はある。<br/><br/>ただ気が付かないだけである。<br/><br/>もちろん科学にも、政治にも、哲学、教育、芸術にもことごとく迷信がある。<br/><br/>否迷信が多すぎて困るくらいだ。<br/><br/>これら幾多の迷信によって、いかに人類は災いせられ、不幸な目に遭っているかは、計り知れないものがあろう。<br/><br/> その中の最も大きな迷信とは、何であるかというと唯物思想である。<br/><br/>彼らは見えざるものは信ずべからずという建前で、見えるもののみを信じて得々している。<br/><br/>この思想が罪人を作り、健康を損ね、貧困者たらしめる。<br/><br/>しかもそれに乗じて共産主義が発展し、遂に現在のごとく第三次大戦の原因とさえなるのであるから、世界中の国という国は、いずれもこれに脅えているというのが現状である。<br/><br/>これによってみても唯物思想の迷信が、いかに恐るべきかを知るであろう。<br/><br/> 諸君は、無神論的共産主義のソ連の人民になりたいか、それとも基督（キリスト）教的民主主義のアメリカの人民となりたいか、それだけ考えても判るはずである。<br/><br/> 私は、病気と健康についても、農業についても革命的意見を発表している事は、諸君の知る通りである。<br/><br/>また他のあらゆる文化に対しても同様の意見をもっているので、順次発表する積りではあるが、それが仲々むずかしいのである。<br/><br/>例えば政治に関する事は、宗教上不可とされている。<br/><br/>なるほど、以前と違い今日は言論の自由は認められてはいるが、それは限度がある。<br/><br/>その限度とは既成文化を根拠として形成された現在の法規であってみれば、たとえ現在文化に迷信的欠陥があるとしても、それを明らかにする事は容易に許されないのである。<br/><br/>その場合当事者がいつもいうのは、社会の秩序維持のためとしているが、事実は吾らの意見の方がどのくらい、秩序維持に役立つかは知れないのである。<br/><br/>仮に医学に対し批判をする場合、その欠点を警告しようとしても、医師法違反とか、医療妨害とかいうような鉄の扉があって、他のいかなる卓越せる意見といえども、扉を開こうとはしないのである。<br/><br/>従って迷信打破をしたいとしても、限られたるある面だけであって、今はそれで我慢するより外、致し方ないのである。<br/><br/> しかし、私はいささかも悲観はしない。<br/><br/>何となれば、すべては神様が救世の力を揮われている以上、問題は時期である。<br/><br/>時期が来れば吾らを迷信と見ていた人達が、実は自分の方が迷信であった事に気がつき、本教に教えを乞うべき日の、必ず来る事を確信して、その時を待つのみである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

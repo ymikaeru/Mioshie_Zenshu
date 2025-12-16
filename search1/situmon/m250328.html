@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M250328</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月28日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月二十八日 ――私は昭和二十三年入信した者ですが、主人と長男がお道に反対し、特に長男はお写真や御神体に御無礼まで働き私を気狂いだと申します。<br><br>あまりの妨害に私は家を出まして一生懸命におすがりしております。<br><br>最近主人は早く帰れと申しますが、どうしても帰る気になりません。<br><br>主人は身持ちが悪く私は四人目の妻でございます。<br><br>私の五人の子供を罪滅しにお道に御奉仕させとう存じますがいかがでしょうか。<br><br> そうですねえ。<br><br>これじゃちょっと、ま、具合が悪いな。<br><br>ただね、こういうことは気をつけなけりゃいけない。<br><br>家を出るのはいいけどね、それを一つの材料にして「メシヤ教ってのは家庭破壊の信仰だ」というふうに悪く宣伝されると、やはりこのお道の障りになりますからね。<br><br>そういうことのないようにやれば、家にいても家を出ても差し支えありませんよ。<br><br>宗教によっては、信仰に入ったために家庭の平和が破壊され、なにかと問題を起すのがよくありますがね。<br><br>こんなことから誤解を受けると障りになりますから、注意しなくちゃいけません。<br><br> こんな場合に、どういうふうにしたら一番いいかって言うと、この人が肚の中だけで信仰して、家庭では信仰の話をしないでね、そして神様にお任せしておけばいいんです。<br><br>この人は自力でやろう、自分で判らせようとしてるんですが、自分だけますます信仰を深めて、時期を待つっていうやり方が一番効果的なんですよ。<br><br> 世間には極端な宗教がありますからね。<br><br>以前やっぱりこの人みたいな立場の人があって、それは○○教でしたがね、先生に聞いてみたところ、その先生が「あんたは神様と御亭主とどっちが大切なんですか。<br><br>御亭主を捨てて家を出なさい」って言われたんでね、その通りしたそうですよ。<br><br>その人はその後こっちへ入信しましたが、主人があるような、ないような変な具合なんでね、よく聞いてみたらそういうわけだったんですよ。<br><br>そのころ主人は満州に行って留守だったからまだよかったんですが、内地にいたらだいぶ面倒だったでしょうね。<br><br> ――本年三十歳の女、二十歳のときに癲癇になり、二十五歳のときから御浄霊を受けほとんど治りましたが、最近ふたたび発作がたびたび起るようになりました。<br><br>これは全治いたしましょうか。<br><br> 癲癇ってのはね、簡単には行きませんよ。<br><br>悪くなったり、よくなったりしてだんだんよくなるんですから。<br><br>簡単なのもあるけど、ふつう五、六年はかかりますよ。<br><br>ひどいのになるともっとかかるのもありますね。<br><br>この人も心配しないでね、気長にやってくことですよ。<br><br> ――先日、突然鶯が家の中へ飛び込んできまして御軸に止まりましたので、御神前を汚してはたいへんと存じ追いましたところ、飛び立つ瞬間に御軸に粗相をしてしまいました。<br><br> 鶯が止まるってのはいいんですがね。<br><br>これは間違えたんですね。<br><br>いけないと思ったから追ったんで、追われたから粗相してしまったんですよ。<br><br> ――汚しました御神体はいかがいたしますればよろしいでしょうか。<br><br> 汚した場所が文字にかかってるんですか。<br><br> ――かかっておりません。<br><br> じゃ、経師屋（きょうじや）に頼んで洗い落としたらいいですよ。<br><br>鶯が止まるなんて本当に結構なんですがね。<br><br>そのこと知らなかったんですね。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Fé no Lar e a Paciência na Purificação</h2>
 <p>Sou uma senhora que ingressou na fé em 1948, mas meu marido e meu filho mais velho opõem-se ao Caminho Divino. Meu filho, em particular, chega a cometer desrespeitos à Imagem e ao Pergaminho Sagrado, e me acusa de ter enlouquecido. Diante de tamanha perseguição, deixei meu lar e tenho me apegado fervorosamente à fé. Recentemente, meu marido tem insistido para que eu retorne, mas não sinto a menor vontade de fazê-lo. Ele tem um caráter questionável e sou sua quarta esposa. Gostaria de dedicar meus cinco filhos ao serviço da Obra Divina como uma forma de redimir meus pecados. O que o senhor me aconselha?</p>
@@ -108,5 +260,48 @@ function toggleLang(lang) {
 <p>A sujeira atingiu os caracteres escritos?</p>
 <p>— Não, não atingiu.</p>
 <p>Nesse caso, basta levá-lo a um restaurador de pergaminhos para que ele realize a limpeza. A visita de um rouxinol é, de fato, um acontecimento muito auspicioso. O senhor simplesmente não tinha conhecimento disso.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月28日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月二十八日 ――私は昭和二十三年入信した者ですが、主人と長男がお道に反対し、特に長男はお写真や御神体に御無礼まで働き私を気狂いだと申します。<br/><br/>あまりの妨害に私は家を出まして一生懸命におすがりしております。<br/><br/>最近主人は早く帰れと申しますが、どうしても帰る気になりません。<br/><br/>主人は身持ちが悪く私は四人目の妻でございます。<br/><br/>私の五人の子供を罪滅しにお道に御奉仕させとう存じますがいかがでしょうか。<br/><br/> そうですねえ。<br/><br/>これじゃちょっと、ま、具合が悪いな。<br/><br/>ただね、こういうことは気をつけなけりゃいけない。<br/><br/>家を出るのはいいけどね、それを一つの材料にして「メシヤ教ってのは家庭破壊の信仰だ」というふうに悪く宣伝されると、やはりこのお道の障りになりますからね。<br/><br/>そういうことのないようにやれば、家にいても家を出ても差し支えありませんよ。<br/><br/>宗教によっては、信仰に入ったために家庭の平和が破壊され、なにかと問題を起すのがよくありますがね。<br/><br/>こんなことから誤解を受けると障りになりますから、注意しなくちゃいけません。<br/><br/> こんな場合に、どういうふうにしたら一番いいかって言うと、この人が肚の中だけで信仰して、家庭では信仰の話をしないでね、そして神様にお任せしておけばいいんです。<br/><br/>この人は自力でやろう、自分で判らせようとしてるんですが、自分だけますます信仰を深めて、時期を待つっていうやり方が一番効果的なんですよ。<br/><br/> 世間には極端な宗教がありますからね。<br/><br/>以前やっぱりこの人みたいな立場の人があって、それは○○教でしたがね、先生に聞いてみたところ、その先生が「あんたは神様と御亭主とどっちが大切なんですか。<br/><br/>御亭主を捨てて家を出なさい」って言われたんでね、その通りしたそうですよ。<br/><br/>その人はその後こっちへ入信しましたが、主人があるような、ないような変な具合なんでね、よく聞いてみたらそういうわけだったんですよ。<br/><br/>そのころ主人は満州に行って留守だったからまだよかったんですが、内地にいたらだいぶ面倒だったでしょうね。<br/><br/> ――本年三十歳の女、二十歳のときに癲癇になり、二十五歳のときから御浄霊を受けほとんど治りましたが、最近ふたたび発作がたびたび起るようになりました。<br/><br/>これは全治いたしましょうか。<br/><br/> 癲癇ってのはね、簡単には行きませんよ。<br/><br/>悪くなったり、よくなったりしてだんだんよくなるんですから。<br/><br/>簡単なのもあるけど、ふつう五、六年はかかりますよ。<br/><br/>ひどいのになるともっとかかるのもありますね。<br/><br/>この人も心配しないでね、気長にやってくことですよ。<br/><br/> ――先日、突然鶯が家の中へ飛び込んできまして御軸に止まりましたので、御神前を汚してはたいへんと存じ追いましたところ、飛び立つ瞬間に御軸に粗相をしてしまいました。<br/><br/> 鶯が止まるってのはいいんですがね。<br/><br/>これは間違えたんですね。<br/><br/>いけないと思ったから追ったんで、追われたから粗相してしまったんですよ。<br/><br/> ――汚しました御神体はいかがいたしますればよろしいでしょうか。<br/><br/> 汚した場所が文字にかかってるんですか。<br/><br/> ――かかっておりません。<br/><br/> じゃ、経師屋（きょうじや）に頼んで洗い落としたらいいですよ。<br/><br/>鶯が止まるなんて本当に結構なんですがね。<br/><br/>そのこと知らなかったんですね。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

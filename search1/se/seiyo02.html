@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>seiyo02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 五、西洋医学の誤謬と日本医学の建設 『日本医術講義録』第１篇、昭和10(1935)年執筆 病気の原因は、精霊が曇るという事は、前述の通りであるが、それに対して、人間の肉体は、実に巧妙に出来ているのであって、今仮に病気、例えば、風邪に罹るとか、扁桃腺で喉が痛いとか、関節炎で節々が痛いとかいう、それら熱や痛みの、苦痛の本体は、一体何であるかと言う事なのである。<br><br>実に、その苦痛こそ、病気その物を治癒すべき、霊妙不可思議なる、人間自身の工作である。<br><br> 人間を造られた、主神の御意図は、本来、健康人体であって、人間が、天地の法則を破り、又は破らんとする、その意志や行為を、警（いまし）め給うその為に、止むを得ず、病気なるものを存続せられているのである。<br><br>主神の御意志としては、天律を破らない、従って、病気をしない人間であって欲しいという事は、間違いない事である。<br><br>言い換えれば、病気とは、人間の不正行為に対する刑罰である。<br><br> 故に、病気の苦痛には、二つの意味がある。<br><br>一つは、悪を再びせざる戒めと、も一つは、肉体自身の治病工作のそれである。<br><br>であるから、発熱とか痛みとかは、病気を治癒する工作であり、活動であるから、その苦痛は、一歩々々否一刻々々、病を軽減しつつあるのである。<br><br>しかし、何事にも最盛期があるので、病気に対する、その治病工作とても、峠があり、クライマックスがあるのであるから、最早苦痛に堪えないという時が、必ずあるものである。<br><br> しかし、そういう苦痛時は、永く続くものでは決してない。<br><br>なぜなれば、そういう激しい苦痛の時は、治病工作が白熱的であるからで、そういう時こそ、大いに、病気は治癒されつつあるのである。<br><br>しかし、今までこの事を識り得なかったので、病気の苦痛は、病気が悪化する為と誤解して、苦痛が強ければ強い程、非常に不安を感じ、医療を受け様とするのである。<br><br>何ぞ知らん、事実は反対であって、苦痛が強ければ強い程、それは治りつつあるのである。<br><br> しかるに、西洋医学は、元来が対症療法であるから、専（もっぱ）ら病気の苦痛を軽減するに努める。<br><br> 即ち、熱が出れば冷まそうとし、腫物が腫れて膿が出ようとすれば、膿を出すまいとして氷で冷し、又は、薬で散らそうとする。<br><br>痛みで治そうとすれば、その痛みを感じさせまいと注射をする。<br><br>そういう方法は、病気を治すどころか、反対に治す工作の邪魔をして、実は、治さない様に努力している訳である。<br><br>恐らく誤りもこれ程はなはだしいものは外にないであろう。<br><br>且つ、事は人間の生命に関する大問題であるのに、それが、今日まで、気が付かなかったと言う事は、実に、驚くべき事ではないか。<br><br> 観世音の霊示に依って識り得た私は、世界人類の為何条（なんじょう）黙視し得べき、一日も早く、人類の覚醒を促さん為、真に治る医学、病気をしない衛生法、長寿可能の健康法を創成したのである。<br><br>これが即ち日本医学なのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Essência da Cura e o Equívoco da Medicina Ocidental</h2>
 <p>Conforme já exposto, a causa das doenças reside no obscurecimento do espírito. Entretanto, o corpo humano é dotado de uma constituição primorosa. Diante de uma enfermidade, como uma gripe, uma amigdalite que inflama a garganta ou uma artrite que causa dores articulares, cabe-nos questionar: qual é a verdadeira natureza do sofrimento, da febre e da dor que acompanham tais padecimentos? Na realidade, esse sofrimento é, em si, o misterioso e sublime processo natural do próprio organismo para promover a cura.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>No entanto, por desconhecerem essa verdade até hoje, as pessoas interpretam erroneamente o sofrimento como um sinal de agravamento da doença. Quanto mais intensa a dor, maior a ansiedade que sentem, levando-as a procurar tratamento médico. Mal sabem elas que a realidade é precisamente o oposto: quanto mais agudo o sofrimento, mais avançado está o processo de cura.</p>
 <p>Não obstante, a medicina ocidental, por ser em sua origem um tratamento sintomático, dedica-se exclusivamente a mitigar o sofrimento causado pela doença. Quando há febre, buscam reduzi-la. Se um abscesso inflama e está prestes a supurar, tentam impedir a saída do pus com gelo ou dissipá-lo com medicamentos. Quando o corpo busca a cura pela dor, aplicam uma injeção para que ela não seja sentida. Tais métodos, longe de curarem a enfermidade, na verdade obstruem o processo de cura, empenhando-se, com efeito, em não curar. Dificilmente haverá erro mais flagrante. E não é assombroso que, tratando-se de uma questão de magna importância para a vida humana, tal equívoco tenha passado despercebido até os dias de hoje?</p>
 <p>Eu, que pude compreender esta verdade por meio das revelações espirituais de Kannon (観音), de que forma poderia permanecer em silêncio diante do destino da humanidade? Com o propósito de apressar o despertar de todos os seres humanos, criei uma medicina que cura verdadeiramente, um método de higiene que previne as doenças e uma prática de saúde que possibilita a longevidade. Esta é, em sua essência, a Medicina Japonesa.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 五、西洋医学の誤謬と日本医学の建設 『日本医術講義録』第１篇、昭和10(1935)年執筆 病気の原因は、精霊が曇るという事は、前述の通りであるが、それに対して、人間の肉体は、実に巧妙に出来ているのであって、今仮に病気、例えば、風邪に罹るとか、扁桃腺で喉が痛いとか、関節炎で節々が痛いとかいう、それら熱や痛みの、苦痛の本体は、一体何であるかと言う事なのである。<br/><br/>実に、その苦痛こそ、病気その物を治癒すべき、霊妙不可思議なる、人間自身の工作である。<br/><br/> 人間を造られた、主神の御意図は、本来、健康人体であって、人間が、天地の法則を破り、又は破らんとする、その意志や行為を、警（いまし）め給うその為に、止むを得ず、病気なるものを存続せられているのである。<br/><br/>主神の御意志としては、天律を破らない、従って、病気をしない人間であって欲しいという事は、間違いない事である。<br/><br/>言い換えれば、病気とは、人間の不正行為に対する刑罰である。<br/><br/> 故に、病気の苦痛には、二つの意味がある。<br/><br/>一つは、悪を再びせざる戒めと、も一つは、肉体自身の治病工作のそれである。<br/><br/>であるから、発熱とか痛みとかは、病気を治癒する工作であり、活動であるから、その苦痛は、一歩々々否一刻々々、病を軽減しつつあるのである。<br/><br/>しかし、何事にも最盛期があるので、病気に対する、その治病工作とても、峠があり、クライマックスがあるのであるから、最早苦痛に堪えないという時が、必ずあるものである。<br/><br/> しかし、そういう苦痛時は、永く続くものでは決してない。<br/><br/>なぜなれば、そういう激しい苦痛の時は、治病工作が白熱的であるからで、そういう時こそ、大いに、病気は治癒されつつあるのである。<br/><br/>しかし、今までこの事を識り得なかったので、病気の苦痛は、病気が悪化する為と誤解して、苦痛が強ければ強い程、非常に不安を感じ、医療を受け様とするのである。<br/><br/>何ぞ知らん、事実は反対であって、苦痛が強ければ強い程、それは治りつつあるのである。<br/><br/> しかるに、西洋医学は、元来が対症療法であるから、専（もっぱ）ら病気の苦痛を軽減するに努める。<br/><br/> 即ち、熱が出れば冷まそうとし、腫物が腫れて膿が出ようとすれば、膿を出すまいとして氷で冷し、又は、薬で散らそうとする。<br/><br/>痛みで治そうとすれば、その痛みを感じさせまいと注射をする。<br/><br/>そういう方法は、病気を治すどころか、反対に治す工作の邪魔をして、実は、治さない様に努力している訳である。<br/><br/>恐らく誤りもこれ程はなはだしいものは外にないであろう。<br/><br/>且つ、事は人間の生命に関する大問題であるのに、それが、今日まで、気が付かなかったと言う事は、実に、驚くべき事ではないか。<br/><br/> 観世音の霊示に依って識り得た私は、世界人類の為何条（なんじょう）黙視し得べき、一日も早く、人類の覚醒を促さん為、真に治る医学、病気をしない衛生法、長寿可能の健康法を創成したのである。<br/><br/>これが即ち日本医学なのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

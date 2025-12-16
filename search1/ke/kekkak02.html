@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kekkak02</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核 『アメリカを救う』P.34、昭和28(1953)年1月1日発行 この病気も全く医学が作るものであって、さきにもかいたごとく、薬毒が体内各局部に集溜固結し、その浄化作用として感冒が起り、熱によって溶解した液体毒素は、痰となって肺臓を通って出ようとする。<br><br>という訳で肺とは喀痰排泄のための通過路の駅ともいうべきものであるから、痰は一旦肺臓内に滞まり、咳というポンプ作用によって咽喉（のど）を通って出るので、咳と痰が出れば出る程よく浄化される訳である。<br><br>ところがそれを逆解した医学は、咳と痰を極力停めようとするのであるから、実に驚くべき錯誤である。<br><br>この結果痰は肺臓内に滞溜したまま、日を経るに従い漸次固まってしまい、暫くすると再び浄化が起り風邪を引く、その時医師に診て貰うと、発熱と肺臓内にある痰の固結、咳や吐痰、喘音等によって結核初期と断定する。<br><br>なおまた前の時軽微な肋膜炎もあったので、その固まりが溶けて肺から出ようとする。<br><br>これを肺浸潤と言い、首肩の凝りが溶解し、肺の上部から浸入するのを肺門淋巴（リンパ）腺、または肺尖加答児（カタル）というのである。<br><br> 右のごとき順序を見れば、結核は全く誤れる医療によって作られるものである事がよく分るであろう。<br><br>これを一言にしていえば、自然浄化によって体内の汚物が出ようとするのを、医療は出さないようにする。<br><br>もちろん服薬も注射も安静も何もかもことごとく固め手段であるから、医学の進歩とは毒素固め方法の進歩でしかない事は余りにも明らかである。<br><br> そうして結核菌であるが、これも医学でいうごとく伝染するものではなく自然発生である。<br><br>というのは肺臓内に固めた痰は、時日を経るに従い腐敗する。<br><br>腐敗すれば微生虫が湧くのは物質の原則であり、しかも体温という好条件が拍車をかけるにおいてをやである。<br><br>以上のごとく結核は医療が作るとしたら、この事が分らない限り、増えるとも減るはずのないのは断言して憚（はばか）らないのである。<br><br>何よりも事実がよく示している。<br><br>最近米国でも日本でも、結核の死亡率が大いに減ったと言いながら、患者の数は一向減らないという矛盾である。<br><br>これは全く毒を強めた新薬や手術等による浄化停止法が進歩したためで、なるほど一時的生命は取止め得たとしても、全治ではないから、死にもせず働く事も出来ないという宙ブラ人間が益々増えると共に、発病者の数も依然たるものであるから、ベッドが足りないといって悲鳴を挙げている現状は、米国はとにかく日本はよくそれを物語っている。<br><br> ここで結核菌についても徹底的にかいてみるが、近来結核医学は大いに進歩したとされているが、吾々から見れば進歩どころか、門口にも入っていない事実である。<br><br>というのは医学は菌のみに囚われ、菌さえ殺せば結核は解決出来るものと誤信している事である。<br><br>しかし菌といえどもまさか偶然空中に発生したものでもなくまた人間の体内に理由なく湧いたものでもないのはもちろんで、その発生源が必ずどこかにあらねばならないはずである。<br><br> それがいよいよ私によって発見されたので、以下詳しくかいてみるが、それについて前もって知っておかねばならない事は、人体なるものの構成であって、科学は人体を単なる物質とみなしているが、これが大変な誤りである。<br><br>何となればもしそうだとすれば、人間の生死はどう説明していいか分らない事になる。<br><br>ここで肝腎な事は人間の精神すなわち心である。<br><br>これは目には見えないが科学といえども否定は出来ないであろう。<br><br>というのは人間には肉体の外に、肉体と同様な形をしている霊という無に等しき個体が、厳然と存在しているからである。<br><br>というように霊と体とは密着不離の関係にあり、死とは霊が脱出し、体の活動が休止する事である。<br><br>そうして心は一秒の休みもなく動いており、人間が何らかの意欲が起るや、間髪を容れず体に移って行動となるので、体が勝手に動くのではない。<br><br>としたら人間の本体は心、すなわち霊にあり、霊こそ支配者であり、体は隷属者であるから霊主体従である。<br><br>この理によって病といえども最初霊に発生し、体に移写するので、これが真理である。<br><br>従って根本は霊を健康にする事である。<br><br>これを一層詳しく説いてみると、元来霊なるものの本質は無色透明体であって、最初この透明体に曇りが発生する。<br><br>これが病原であって、科学的にいえば、本来霊の物質化が血液であり、血液の非物質化が霊であるから、霊の曇りが体に映るとその部の血は濁り、濁血が霊に映ればその部が曇る。<br><br>というように霊体一致ともいえる。<br><br> では霊の曇りの原因は何かというと、宗教的にいえば罪穢の堆積であり、物質的にいえば薬毒の溜積である。<br><br>そこで一体曇りの本質とは何かというと、これこそ不純水素であって、日を経るに従い漸次濃度を増すと共に縮小する。<br><br>するとこれにバクテリアが発生する。<br><br>このバクテリアは、いわば植物性無機質ともいうべきものであるが、時と共に漸次有機質に変化し動物性となる。<br><br>これが菌の卵子であって、この卵子が育って個体すなわち一人前になったものが、顕微鏡で見得る黴菌であるから、ウイルスとは右のごとく菌の卵子から親になろうとする中間粒子で、顕微鏡には映らないが確かに在るのは、医学でも認めている通りである。<br><br>これを最も分り易いたとえとして、彼（か）の塵溜に湧く蛆である。<br><br>医学は蛆だけを殺そうとして、塵の方に気が付かないと同じである。<br><br> 以上の理によって、結核を全滅させるには菌の発生源である霊の曇りを解消する以外絶対ないのである。<br><br>ところが現代医学の研究はそこまで達していないため、結果である菌のみを対象とし、研究しているので、もっと根本に触れない以上、何程努力しても徒労以外の何物でもないのである。<br><br>もっとも現在の顕微鏡ではウイルス以上の微粒子を視る事は不可能であるからでもあろう。<br><br>ところが幸いなるかな、私によってその根源が発見された以上、最早結核問題は解決されたのである。<br><br> では霊の曇りはいかにすれば解消出来るかというと、これを説くに当っては、その前に曇りの実質をかかねばならない。<br><br>前記のごとく不純水素というのは水素中に不純分子が含有されており、もちろん顕微鏡でも見得ない程の超微粒子であって、この微粒子を消滅させるのが浄霊法である。<br><br>これによれば右の毒微粒子のみが焼尽され、純粋水素は残り病原は全く解消されるのである。<br><br>そうしてこの施術こそ人間の掌から放射される不可視光線であって、この光線の本質は火素といって火の霊である。<br><br>すなわち火の体は熱であるが、火の霊は熱くはないが、体以上の素晴しい強力さである。<br><br>これについて以前から科学では水素を言うが、火素を言わないのは不思議である。<br><br>では右の火素がなぜ掌から放射されるかというと、この説明についてはどうしても宗教的でなくてはならないから、読者はその積りで読んで貰いたい。<br><br>何となれば現代科学は霊を無視し、物質のみを認めている以上、容易に信じられないからである。<br><br>このように科学は体のみの進歩で、言わば跛行的（はこうてき）不具的進歩であるから、真の病理も治療法も発見出来ないのは当然である。<br><br>この意味において私は医学は機械的であるが、科学的ではないと常に言っている。<br><br>その証拠には病気の場合、患者が医師に向かって病原を訊いても、曖昧極まる一時のがれの答えしか出来ないのは医師も経験するところであろう。<br><br>それに引替え吾々の方ではどんなに深く訊かれても、立派に科学的理論をもって堂々答えるから、いかなる患者も納得し安心するのである。<br><br> 話は戻るが右の浄化力こそ、神エホバが火素の本源ともいうベき霊光の玉を私に与えられたのであって（これは腹部の中央に直径六糎（センチメートル）くらいで肉眼で見る人もある）この玉から無限に光波が放射され、その伝達方法として二分の一メートルくらいの紙片に、墨と筆で光の文字を書いたものを畳んで懐へ入れさせる。<br><br>すると私から出る光波は、霊線を通じて施術者に伝わり、その人の掌から放射される。<br><br>これが浄霊法である。<br><br>ちょうどラジオの放送局と、アンテナと受信機のようなもので、実例報告中〔略〕にある御守というのがこれである。<br><br>ではなぜ神はそういう方法を私に授けられたかというと、これこそ彼のキリストが「天国は近づけり」と予言されたところの、紀元的時機が来たからである。<br><br>その根本としては第一に人類から病を追放する事で、神は病気滅消の方法を私に教え給うたのである。<br><br> 右は結核菌とその他についての説明であるが、次に伝染病菌についてもいささかかいてみよう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem Espiritual da Tuberculose</h2>
 <p>Esta enfermidade é, em verdade, uma criação da própria medicina. Conforme já explanei, as toxinas medicamentosas acumulam-se e se solidificam em diversas partes do organismo. O resfriado, por sua vez, surge como uma manifestação do processo de purificação, no qual a febre atua para dissolver essas toxinas solidificadas, transformando-as em um líquido que busca ser expelido através dos pulmões na forma de escarro.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Retomando o ponto, essa força purificadora advém do fato de que Deus, a quem chamo de Jehovah, concedeu-me uma esfera de luz espiritual, que é a fonte do elemento fogo. Algumas pessoas conseguem vê-la a olho nu, localizada no centro do meu abdômen, com cerca de seis centímetros de diâmetro. Dessa esfera, irradiam-se ondas de luz infinitas. Como meio de transmissão, utilizo um pedaço de papel de aproximadamente meio metro, no qual escrevo com pincel e tinta o ideograma da luz. Esse papel, dobrado, é colocado junto ao peito da pessoa. As ondas de luz que emanam de mim são transmitidas por uma linha espiritual ao ministrante, que passa a irradiá-las pela palma da mão. Este é o método do Johrei. O sistema é análogo ao de uma estação de rádio, uma antena e um receptor. O que é mencionado nos relatos de graças como "Ohikari" é precisamente isso.</p>
 <p>Eis o motivo pelo qual Deus me concedeu este método: chegou o momento de uma nova era, anunciada por Cristo em sua profecia: "O Reino dos Céus está próximo". O primeiro passo para a concretização desse Reino é a erradicação da doença da humanidade, e, para tanto, Deus me revelou o método para a sua eliminação.</p>
 <p>A explanação acima se deteve no bacilo da tuberculose e em questões correlatas. A seguir, abordarei brevemente os germes causadores das doenças infecciosas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核 『アメリカを救う』P.34、昭和28(1953)年1月1日発行 この病気も全く医学が作るものであって、さきにもかいたごとく、薬毒が体内各局部に集溜固結し、その浄化作用として感冒が起り、熱によって溶解した液体毒素は、痰となって肺臓を通って出ようとする。<br/><br/>という訳で肺とは喀痰排泄のための通過路の駅ともいうべきものであるから、痰は一旦肺臓内に滞まり、咳というポンプ作用によって咽喉（のど）を通って出るので、咳と痰が出れば出る程よく浄化される訳である。<br/><br/>ところがそれを逆解した医学は、咳と痰を極力停めようとするのであるから、実に驚くべき錯誤である。<br/><br/>この結果痰は肺臓内に滞溜したまま、日を経るに従い漸次固まってしまい、暫くすると再び浄化が起り風邪を引く、その時医師に診て貰うと、発熱と肺臓内にある痰の固結、咳や吐痰、喘音等によって結核初期と断定する。<br/><br/>なおまた前の時軽微な肋膜炎もあったので、その固まりが溶けて肺から出ようとする。<br/><br/>これを肺浸潤と言い、首肩の凝りが溶解し、肺の上部から浸入するのを肺門淋巴（リンパ）腺、または肺尖加答児（カタル）というのである。<br/><br/> 右のごとき順序を見れば、結核は全く誤れる医療によって作られるものである事がよく分るであろう。<br/><br/>これを一言にしていえば、自然浄化によって体内の汚物が出ようとするのを、医療は出さないようにする。<br/><br/>もちろん服薬も注射も安静も何もかもことごとく固め手段であるから、医学の進歩とは毒素固め方法の進歩でしかない事は余りにも明らかである。<br/><br/> そうして結核菌であるが、これも医学でいうごとく伝染するものではなく自然発生である。<br/><br/>というのは肺臓内に固めた痰は、時日を経るに従い腐敗する。<br/><br/>腐敗すれば微生虫が湧くのは物質の原則であり、しかも体温という好条件が拍車をかけるにおいてをやである。<br/><br/>以上のごとく結核は医療が作るとしたら、この事が分らない限り、増えるとも減るはずのないのは断言して憚（はばか）らないのである。<br/><br/>何よりも事実がよく示している。<br/><br/>最近米国でも日本でも、結核の死亡率が大いに減ったと言いながら、患者の数は一向減らないという矛盾である。<br/><br/>これは全く毒を強めた新薬や手術等による浄化停止法が進歩したためで、なるほど一時的生命は取止め得たとしても、全治ではないから、死にもせず働く事も出来ないという宙ブラ人間が益々増えると共に、発病者の数も依然たるものであるから、ベッドが足りないといって悲鳴を挙げている現状は、米国はとにかく日本はよくそれを物語っている。<br/><br/> ここで結核菌についても徹底的にかいてみるが、近来結核医学は大いに進歩したとされているが、吾々から見れば進歩どころか、門口にも入っていない事実である。<br/><br/>というのは医学は菌のみに囚われ、菌さえ殺せば結核は解決出来るものと誤信している事である。<br/><br/>しかし菌といえどもまさか偶然空中に発生したものでもなくまた人間の体内に理由なく湧いたものでもないのはもちろんで、その発生源が必ずどこかにあらねばならないはずである。<br/><br/> それがいよいよ私によって発見されたので、以下詳しくかいてみるが、それについて前もって知っておかねばならない事は、人体なるものの構成であって、科学は人体を単なる物質とみなしているが、これが大変な誤りである。<br/><br/>何となればもしそうだとすれば、人間の生死はどう説明していいか分らない事になる。<br/><br/>ここで肝腎な事は人間の精神すなわち心である。<br/><br/>これは目には見えないが科学といえども否定は出来ないであろう。<br/><br/>というのは人間には肉体の外に、肉体と同様な形をしている霊という無に等しき個体が、厳然と存在しているからである。<br/><br/>というように霊と体とは密着不離の関係にあり、死とは霊が脱出し、体の活動が休止する事である。<br/><br/>そうして心は一秒の休みもなく動いており、人間が何らかの意欲が起るや、間髪を容れず体に移って行動となるので、体が勝手に動くのではない。<br/><br/>としたら人間の本体は心、すなわち霊にあり、霊こそ支配者であり、体は隷属者であるから霊主体従である。<br/><br/>この理によって病といえども最初霊に発生し、体に移写するので、これが真理である。<br/><br/>従って根本は霊を健康にする事である。<br/><br/>これを一層詳しく説いてみると、元来霊なるものの本質は無色透明体であって、最初この透明体に曇りが発生する。<br/><br/>これが病原であって、科学的にいえば、本来霊の物質化が血液であり、血液の非物質化が霊であるから、霊の曇りが体に映るとその部の血は濁り、濁血が霊に映ればその部が曇る。<br/><br/>というように霊体一致ともいえる。<br/><br/> では霊の曇りの原因は何かというと、宗教的にいえば罪穢の堆積であり、物質的にいえば薬毒の溜積である。<br/><br/>そこで一体曇りの本質とは何かというと、これこそ不純水素であって、日を経るに従い漸次濃度を増すと共に縮小する。<br/><br/>するとこれにバクテリアが発生する。<br/><br/>このバクテリアは、いわば植物性無機質ともいうべきものであるが、時と共に漸次有機質に変化し動物性となる。<br/><br/>これが菌の卵子であって、この卵子が育って個体すなわち一人前になったものが、顕微鏡で見得る黴菌であるから、ウイルスとは右のごとく菌の卵子から親になろうとする中間粒子で、顕微鏡には映らないが確かに在るのは、医学でも認めている通りである。<br/><br/>これを最も分り易いたとえとして、彼（か）の塵溜に湧く蛆である。<br/><br/>医学は蛆だけを殺そうとして、塵の方に気が付かないと同じである。<br/><br/> 以上の理によって、結核を全滅させるには菌の発生源である霊の曇りを解消する以外絶対ないのである。<br/><br/>ところが現代医学の研究はそこまで達していないため、結果である菌のみを対象とし、研究しているので、もっと根本に触れない以上、何程努力しても徒労以外の何物でもないのである。<br/><br/>もっとも現在の顕微鏡ではウイルス以上の微粒子を視る事は不可能であるからでもあろう。<br/><br/>ところが幸いなるかな、私によってその根源が発見された以上、最早結核問題は解決されたのである。<br/><br/> では霊の曇りはいかにすれば解消出来るかというと、これを説くに当っては、その前に曇りの実質をかかねばならない。<br/><br/>前記のごとく不純水素というのは水素中に不純分子が含有されており、もちろん顕微鏡でも見得ない程の超微粒子であって、この微粒子を消滅させるのが浄霊法である。<br/><br/>これによれば右の毒微粒子のみが焼尽され、純粋水素は残り病原は全く解消されるのである。<br/><br/>そうしてこの施術こそ人間の掌から放射される不可視光線であって、この光線の本質は火素といって火の霊である。<br/><br/>すなわち火の体は熱であるが、火の霊は熱くはないが、体以上の素晴しい強力さである。<br/><br/>これについて以前から科学では水素を言うが、火素を言わないのは不思議である。<br/><br/>では右の火素がなぜ掌から放射されるかというと、この説明についてはどうしても宗教的でなくてはならないから、読者はその積りで読んで貰いたい。<br/><br/>何となれば現代科学は霊を無視し、物質のみを認めている以上、容易に信じられないからである。<br/><br/>このように科学は体のみの進歩で、言わば跛行的（はこうてき）不具的進歩であるから、真の病理も治療法も発見出来ないのは当然である。<br/><br/>この意味において私は医学は機械的であるが、科学的ではないと常に言っている。<br/><br/>その証拠には病気の場合、患者が医師に向かって病原を訊いても、曖昧極まる一時のがれの答えしか出来ないのは医師も経験するところであろう。<br/><br/>それに引替え吾々の方ではどんなに深く訊かれても、立派に科学的理論をもって堂々答えるから、いかなる患者も納得し安心するのである。<br/><br/> 話は戻るが右の浄化力こそ、神エホバが火素の本源ともいうベき霊光の玉を私に与えられたのであって（これは腹部の中央に直径六糎（センチメートル）くらいで肉眼で見る人もある）この玉から無限に光波が放射され、その伝達方法として二分の一メートルくらいの紙片に、墨と筆で光の文字を書いたものを畳んで懐へ入れさせる。<br/><br/>すると私から出る光波は、霊線を通じて施術者に伝わり、その人の掌から放射される。<br/><br/>これが浄霊法である。<br/><br/>ちょうどラジオの放送局と、アンテナと受信機のようなもので、実例報告中〔略〕にある御守というのがこれである。<br/><br/>ではなぜ神はそういう方法を私に授けられたかというと、これこそ彼のキリストが「天国は近づけり」と予言されたところの、紀元的時機が来たからである。<br/><br/>その根本としては第一に人類から病を追放する事で、神は病気滅消の方法を私に教え給うたのである。<br/><br/> 右は結核菌とその他についての説明であるが、次に伝染病菌についてもいささかかいてみよう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

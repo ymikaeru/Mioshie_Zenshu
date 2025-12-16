@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>geijutu1</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,60 +241,54 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 芸術宗教 『栄光』107号、昭和26(1951)年6月6日発行 人も知るごとく、昔から宗教に対し、芸術は余り関係がないように思われて来たが、それでも日本で芸術の始まりは、まず仏教芸術からであった。<br><br>しかし、これははなはだ単純な絵画、彫刻、織（おり）等は元より、音楽的には笙（しょう）、篳篥（ひちりき）、木魚、銅鑼（どら）、のごとき楽器類、読経による声の音律（おんりつ）等であるから、まず原始的と言ってもよかろう。<br><br>それが後になって支那（しな）、朝鮮の芸術が輸入され、それに刺戟されて、最初の模倣時代を経て、日本独得のものを創造するようになったので、しかも近代に到っては、西洋文化の輸入と共に、その芸術も入って来た。<br><br>特に明治以後凄まじい勢で欧米の芸術がドシドシ入って来たという訳で現在における日本芸術界は、世界中の優れたものが集まり、消化されて自分のものとし、綜合的芸術が追々作られつつあるのが現状である。<br><br>だから日本は、文化のデパートメントと言ってもいいかも知れない。<br><br> ところで、我救世教であるが、本教くらい芸術を重視している宗教は外にはあるまい。<br><br>否昔からも見なかった、というのは、本教の最後の目的であるところの地上天国は、芸術の世界であるからである。<br><br>もちろん地上天国とは病貧争絶無の世界であり、真善美完（まった）き世界であるとしたら人間は真理に従い、善を好み、悪を嫌い、一切は美化されるのである。<br><br>この意味において、どうしても芸術を娯（たの）しむようになるどころか、芸術即生活という事になり、非常に発達する、つまり芸術の世界である。<br><br> だから私は、芸術に最も関心を持ち、将来大いに奨励するつもりである。<br><br>その手はじめとして今造りつつあるのが熱海の地上天国の模型であるから、これが実現した暁、今更のように社会の注目を集め、賞讃を浴びせられるであろう。<br><br>否世界的にもそうなるのは必定（ひつじょう）である。<br><br>ゆえに現在その方針をもって、計画を進めつつあるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Arte como Alicerce do Paraíso Terrestre</h2>
 <p>É de conhecimento geral que, desde a Antiguidade, a religião e a arte têm sido consideradas esferas com pouca ou nenhuma relação entre si. Todavia, no Japão, o despontar da arte deu-se precisamente por meio da arte budista. Tratava-se, contudo, de manifestações bastante rudimentares, como pinturas, esculturas e tecelagens de grande simplicidade. No campo musical, resumia-se a instrumentos como o <em>shō</em> (笙), o <em>hichiriki</em> (篳篥), o <em>mokugyo</em> (木魚) e o <em>dora</em> (銅鑼), além das modulações vocais na entoação dos sutras. Seria justo, portanto, classificá-las como primitivas. Posteriormente, com a introdução da arte proveniente da China e da Coreia, o Japão foi estimulado a transcender uma fase inicial de imitação para, enfim, conceber uma expressão artística genuinamente sua. Com o advento da era moderna, a importação da cultura ocidental trouxe consigo suas manifestações artísticas. Sobretudo a partir da Era Meiji, assistiu-se a um influxo avassalador da arte europeia e americana. Em consequência, o panorama artístico japonês atual se caracteriza pela confluência das mais notáveis criações mundiais, que são assimiladas, incorporadas e gradualmente fundidas em uma arte sintética. Por essa razão, talvez não seja exagero afirmar que o Japão se tornou uma espécie de grande centro depositário da cultura universal.</p>
 <p>No que concerne à nossa Sekaikyuseikyou, contudo, ouso afirmar que nenhuma outra religião, seja na atualidade ou no passado, jamais conferiu tamanha importância à arte. Isto se deve ao fato de que o Paraíso Terrestre, o objetivo supremo de nossa fé, é, em sua essência, um mundo de arte. Naturalmente, se o Paraíso Terrestre é um mundo isento de doença, pobreza e conflito – um mundo de Verdade, Bem e Belo absolutos –, então o ser humano passará a seguir a Verdade, a preferir o bem em detrimento do mal, e tudo à sua volta será embelezado. Nesse sentido, a arte não será apenas algo a ser desfrutado; ela se tornará a própria vida, o que resultará em seu extraordinário desenvolvimento. Em suma, será o mundo da arte.</p>
 <p>Por conseguinte, devoto o mais profundo interesse à arte e tenciono incentivá-la grandemente no futuro. O protótipo do Paraíso Terrestre que estamos atualmente construindo em Atami representa o passo inicial desse projeto. Quando ele se concretizar, atrairá de forma inédita a atenção da sociedade e será coberto de louvores. Na verdade, é inevitável que seu impacto se estenda a uma escala mundial. É com base nessa convicção que estamos, no presente momento, a dar seguimento aos nossos planos.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 芸術宗教 『栄光』107号、昭和26(1951)年6月6日発行 人も知るごとく、昔から宗教に対し、芸術は余り関係がないように思われて来たが、それでも日本で芸術の始まりは、まず仏教芸術からであった。<br/><br/>しかし、これははなはだ単純な絵画、彫刻、織（おり）等は元より、音楽的には笙（しょう）、篳篥（ひちりき）、木魚、銅鑼（どら）、のごとき楽器類、読経による声の音律（おんりつ）等であるから、まず原始的と言ってもよかろう。<br/><br/>それが後になって支那（しな）、朝鮮の芸術が輸入され、それに刺戟されて、最初の模倣時代を経て、日本独得のものを創造するようになったので、しかも近代に到っては、西洋文化の輸入と共に、その芸術も入って来た。<br/><br/>特に明治以後凄まじい勢で欧米の芸術がドシドシ入って来たという訳で現在における日本芸術界は、世界中の優れたものが集まり、消化されて自分のものとし、綜合的芸術が追々作られつつあるのが現状である。<br/><br/>だから日本は、文化のデパートメントと言ってもいいかも知れない。<br/><br/> ところで、我救世教であるが、本教くらい芸術を重視している宗教は外にはあるまい。<br/><br/>否昔からも見なかった、というのは、本教の最後の目的であるところの地上天国は、芸術の世界であるからである。<br/><br/>もちろん地上天国とは病貧争絶無の世界であり、真善美完（まった）き世界であるとしたら人間は真理に従い、善を好み、悪を嫌い、一切は美化されるのである。<br/><br/>この意味において、どうしても芸術を娯（たの）しむようになるどころか、芸術即生活という事になり、非常に発達する、つまり芸術の世界である。<br/><br/> だから私は、芸術に最も関心を持ち、将来大いに奨励するつもりである。<br/><br/>その手はじめとして今造りつつあるのが熱海の地上天国の模型であるから、これが実現した暁、今更のように社会の注目を集め、賞讃を浴びせられるであろう。<br/><br/>否世界的にもそうなるのは必定（ひつじょう）である。<br/><br/>ゆえに現在その方針をもって、計画を進めつつあるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

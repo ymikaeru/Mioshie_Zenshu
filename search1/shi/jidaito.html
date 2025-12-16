@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>jidaito</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,61 +241,55 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時代と宗教 未発表、昭和23(1948)年4月 私は宗教なるものも時代と密接な関係のある事を知るのである。<br><br>彼のマルチン・ルーテルが宗教改革を行った理由として、当時のキリスト教があまりにも形式に流れ、封建的色彩が濃厚であった事にもその原因があるであろう。<br><br>私は今日のあらゆる宗教を検討する時、その内容においても形式においても余りにも旧套墨守的、時代錯誤的たる事実の多い事である。<br><br> 一例を挙ぐれば、宗教行事や冠婚葬祭等に当って数時間否半日一日を要する事さえあるのである。<br><br>また在家の居士の朝夕の読経や祝詞を奏し祈願をなす場合長時間を要したり、故人の法要や、本山本部に参拝する時、多額の費用と数日の時を費やす等々、全く現代社会人の苦痛の種であろう。<br><br>しかも霊的知識を与えられない現代人として、その内容的意義を知らず、ただ伝統と気安め以外の何物でもないのである。<br><br> 今日世に知られたるあらゆる宗教が、数百年または数千年以前発生したるものであるから、またやむを得ないであろう。<br><br>彼の二千六百年以前、インドにおいて発生した仏教が、当時のインド民衆の社会生活を対象として成ったのであるから、すこぶる浩瀚（こうかん）なる経文、長時間の瞑想、坐禅等々の修行によって覚者となるというに到っては、今日の日本の社会生活に即して適応しない事は言うまでもないのである。<br><br>しかも経文の原文は梵語であり、それを漢訳して渡来したのであるから、その意味が現代日本人に理解し得べくもないのである。<br><br>巷間「経文は不可解であるから有難いのである」――という言葉さえ流布さるるに到っては全く驚くの外はない。<br><br> この意味において、私が作った善言讃詞は観音経の深意をエキスとし、日本的に祝詞の形式を採って数分間で読了なし得るようにしたのである。<br><br>そうして霊界の実相や、事物と霊との関係等を徹底的に解明し、神仏や祖霊に対する信仰の意義、想念の持方等を充分認識すべく教ゆるのであるから、神仏諸霊の満足と歓びをもって迎えらるる事は必定である。<br><br>従って、観音会こそ今後の時代をリードすべき新宗教といっても過言ではないと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião e a Era Contemporânea</h2>
 <p>Percebo que a religião possui uma relação intrínseca com a sua época. A Reforma Protestante, liderada por Martinho Lutero, por exemplo, teve como uma de suas causas o fato de o cristianismo de então ter se tornado excessivamente formalista, com fortes matizes feudais. Ao analisar as diversas religiões de nossos dias, constato que, tanto em seu conteúdo quanto em sua forma, muitas se mostram anacrônicas e excessivamente apegadas a velhas tradições.</p>
 <p>A título de exemplo, observemos os ritos religiosos e as cerimônias sociais, que podem demandar horas, quiçá meio dia ou um dia inteiro. Da mesma forma, os seguidores leigos que dedicam longos períodos de tempo às suas orações matinais e vespertinas, entoando sutras e preces; ou aqueles que despendem vultosas somas e vários dias para realizar ofícios memoriais ou peregrinar à sede de suas instituições. Tudo isso representa, sem dúvida, uma fonte de aflição para o indivíduo na sociedade contemporânea. Ademais, desprovido de conhecimento espiritual, o homem moderno desconhece o significado intrínseco de tais práticas, que acabam se resumindo a meras tradições ou a um simples consolo para a alma.</p>
 <p>Talvez essa situação seja inevitável, visto que todas as religiões conhecidas em nosso tempo surgiram há centenas, ou mesmo milhares de anos. O budismo, por exemplo, que floresceu na Índia há mais de dois mil e seiscentos anos, foi estruturado para a vida social do povo indiano daquela época. Portanto, seus métodos para alcançar a iluminação – que incluem o estudo de escrituras extremamente vastas, longas horas de meditação e outras disciplinas – são, evidentemente, inadequados ao cotidiano da sociedade japonesa atual. Ademais, os textos originais foram escritos em sânscrito e, posteriormente, traduzidos para o chinês antes de chegarem ao Japão, tornando seu significado praticamente inacessível ao japonês contemporâneo. É de fato espantoso que tenha se popularizado o dito: "As escrituras são sagradas precisamente por serem incompreensíveis".</p>
 <p>Nesse sentido, a oração Zengensanshi, de minha autoria, foi concebida para extrair a profunda essência do Sutra de Kannon, adaptando-a ao formato do norito japonês, de modo que sua recitação completa leva apenas alguns minutos. Adicionalmente, nossos ensinamentos elucidam de forma cabal a realidade do Mundo Espiritual, a relação entre o espírito e a matéria, o significado da fé em Deus, nos Budas e nos espíritos dos antepassados, bem como a maneira correta de cultivar os pensamentos. Por essa razão, é certo que será acolhida com satisfação e alegria por todas essas divindades e espíritos. Sendo assim, não seria um exagero afirmar que a Kannon-kai (観音会) representa a nova religião destinada a conduzir a era vindoura.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時代と宗教 未発表、昭和23(1948)年4月 私は宗教なるものも時代と密接な関係のある事を知るのである。<br/><br/>彼のマルチン・ルーテルが宗教改革を行った理由として、当時のキリスト教があまりにも形式に流れ、封建的色彩が濃厚であった事にもその原因があるであろう。<br/><br/>私は今日のあらゆる宗教を検討する時、その内容においても形式においても余りにも旧套墨守的、時代錯誤的たる事実の多い事である。<br/><br/> 一例を挙ぐれば、宗教行事や冠婚葬祭等に当って数時間否半日一日を要する事さえあるのである。<br/><br/>また在家の居士の朝夕の読経や祝詞を奏し祈願をなす場合長時間を要したり、故人の法要や、本山本部に参拝する時、多額の費用と数日の時を費やす等々、全く現代社会人の苦痛の種であろう。<br/><br/>しかも霊的知識を与えられない現代人として、その内容的意義を知らず、ただ伝統と気安め以外の何物でもないのである。<br/><br/> 今日世に知られたるあらゆる宗教が、数百年または数千年以前発生したるものであるから、またやむを得ないであろう。<br/><br/>彼の二千六百年以前、インドにおいて発生した仏教が、当時のインド民衆の社会生活を対象として成ったのであるから、すこぶる浩瀚（こうかん）なる経文、長時間の瞑想、坐禅等々の修行によって覚者となるというに到っては、今日の日本の社会生活に即して適応しない事は言うまでもないのである。<br/><br/>しかも経文の原文は梵語であり、それを漢訳して渡来したのであるから、その意味が現代日本人に理解し得べくもないのである。<br/><br/>巷間「経文は不可解であるから有難いのである」――という言葉さえ流布さるるに到っては全く驚くの外はない。<br/><br/> この意味において、私が作った善言讃詞は観音経の深意をエキスとし、日本的に祝詞の形式を採って数分間で読了なし得るようにしたのである。<br/><br/>そうして霊界の実相や、事物と霊との関係等を徹底的に解明し、神仏や祖霊に対する信仰の意義、想念の持方等を充分認識すべく教ゆるのであるから、神仏諸霊の満足と歓びをもって迎えらるる事は必定である。<br/><br/>従って、観音会こそ今後の時代をリードすべき新宗教といっても過言ではないと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

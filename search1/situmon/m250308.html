@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>M250308</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月8日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月八日 ――数多くの聖者の中、阿弥陀如来だけは御事蹟がないようですが、これはなぜでしょうか。<br><br> そんなことないですよ。<br><br>阿弥陀はもと法蔵菩薩と言ってね、釈迦の友達みたいなものだったんですよ。<br><br>そしてその法蔵菩薩が西方に浄土を作るから、釈迦の弟子の中で覚者……等覚とか正覚とか言うあの覚者ですね……覚者を自分のほうによこしてもらいたいって頼んで、西方に地上天国のようなものを作ったんですね。<br><br>そして亡くなってから霊界へ行き、阿弥陀になったんですよ。<br><br> ――その西方とはどの辺でしょうか。<br><br> インドの西ですよ。<br><br> ――ははあ、インドの西で。<br><br> ええ。<br><br> ――最近よく御浄化で耳の遠くなる人が多いようでございますが、これはなにか意味がございましょうか。<br><br> そうですかね。<br><br>やはりそういうのは罪から言うと、先方が嫌に思うことを聞かせるっていうことになるんですね。<br><br>人間はね、できるだけ先方の気持ちよくなる話をしなくちゃいけない。<br><br>罪から言うとそういうことになるんで、耳の病気は割合そういうのが多いんですよ。<br><br>そういうことの好きな人がよくいますからね。<br><br>人をびっくりさせたり、うんと悲観させたりする癖のある人がね。<br><br> ――夜尿症を御浄霊させていただきましても、非常に早く治りますのと、なかなか頑固なのとございますが、頑固な方は霊的な原因があるのでしょうか。<br><br> 体的でも霊的でも、早いのととても永くかかるのとありますよ。<br><br>……体的に言えば、あの括約筋ですね、キューッとしめる働きをするんですが、これがたるんでしまうんですね。<br><br>つまり、開け放しになっちゃうんですよ。<br><br>だから無意識に漏らしてしまいやすいんですね。<br><br> そしてね、この括約筋のもとの神経は前頭部にあるんです。<br><br>元来前頭部と生殖器は天地になってるんで、とても関係が密接なんです。<br><br>ですから、夜尿症の人は前頭部と、括約筋を吊ってる所に毒素が固まってるんですよ。<br><br>そして神経細胞を支配するものは後頭部にあるんですから、延髄付近もよく浄霊することですね。<br><br>毒がとれるに従って治りますよ。<br><br> しかし、クセがついてますからね。<br><br>クセがひどいのは、すっかりとれるまでにそうとう永くかかりますよ。<br><br>年ごろの娘さんなんかでよくここの具合の悪い人がありますがね。<br><br>やはり年数の経ってる人は治るのにひまがかかりますね。<br><br>だから赤ん坊なんかは早く治りますよ。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Esclarecimentos de Meishu-Sama</h2>
 <p><strong>P: Dentre tantos veneráveis, o Buda Amitabha parece ser o único cuja trajetória não é conhecida. Qual seria a razão para isso?</strong></p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Do ponto de vista físico, a causa reside no músculo esfíncter. Este músculo, que deveria se contrair firmemente, perde seu tônus e relaxa, permanecendo praticamente aberto. Consequentemente, a perda de urina ocorre de forma involuntária.</p>
 <p>O centro nervoso que comanda esse esfíncter localiza-se na região frontal da cabeça. É fundamental compreender que a cabeça e os órgãos genitais formam um eixo vertical, como o Céu e a Terra, mantendo uma relação íntima. Portanto, nas pessoas com enurese noturna, há um acúmulo de toxinas na região frontal e nos pontos que sustentam o músculo esfíncter. Ademais, como o controle das células nervosas se situa na parte posterior da cabeça, é igualmente importante ministrar Johrei na região do bulbo raquidiano. À medida que as toxinas são eliminadas, a recuperação ocorre.</p>
 <p>Contudo, é preciso considerar o fator do hábito. Em casos onde o problema se tornou um hábito arraigado, a recuperação completa pode ser bastante demorada. De fato, quanto mais antigo for o quadro, mais tempo levará para a cura. Por essa razão, os bebês se recuperam com grande rapidez.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月8日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月八日 ――数多くの聖者の中、阿弥陀如来だけは御事蹟がないようですが、これはなぜでしょうか。<br/><br/> そんなことないですよ。<br/><br/>阿弥陀はもと法蔵菩薩と言ってね、釈迦の友達みたいなものだったんですよ。<br/><br/>そしてその法蔵菩薩が西方に浄土を作るから、釈迦の弟子の中で覚者……等覚とか正覚とか言うあの覚者ですね……覚者を自分のほうによこしてもらいたいって頼んで、西方に地上天国のようなものを作ったんですね。<br/><br/>そして亡くなってから霊界へ行き、阿弥陀になったんですよ。<br/><br/> ――その西方とはどの辺でしょうか。<br/><br/> インドの西ですよ。<br/><br/> ――ははあ、インドの西で。<br/><br/> ええ。<br/><br/> ――最近よく御浄化で耳の遠くなる人が多いようでございますが、これはなにか意味がございましょうか。<br/><br/> そうですかね。<br/><br/>やはりそういうのは罪から言うと、先方が嫌に思うことを聞かせるっていうことになるんですね。<br/><br/>人間はね、できるだけ先方の気持ちよくなる話をしなくちゃいけない。<br/><br/>罪から言うとそういうことになるんで、耳の病気は割合そういうのが多いんですよ。<br/><br/>そういうことの好きな人がよくいますからね。<br/><br/>人をびっくりさせたり、うんと悲観させたりする癖のある人がね。<br/><br/> ――夜尿症を御浄霊させていただきましても、非常に早く治りますのと、なかなか頑固なのとございますが、頑固な方は霊的な原因があるのでしょうか。<br/><br/> 体的でも霊的でも、早いのととても永くかかるのとありますよ。<br/><br/>……体的に言えば、あの括約筋ですね、キューッとしめる働きをするんですが、これがたるんでしまうんですね。<br/><br/>つまり、開け放しになっちゃうんですよ。<br/><br/>だから無意識に漏らしてしまいやすいんですね。<br/><br/> そしてね、この括約筋のもとの神経は前頭部にあるんです。<br/><br/>元来前頭部と生殖器は天地になってるんで、とても関係が密接なんです。<br/><br/>ですから、夜尿症の人は前頭部と、括約筋を吊ってる所に毒素が固まってるんですよ。<br/><br/>そして神経細胞を支配するものは後頭部にあるんですから、延髄付近もよく浄霊することですね。<br/><br/>毒がとれるに従って治りますよ。<br/><br/> しかし、クセがついてますからね。<br/><br/>クセがひどいのは、すっかりとれるまでにそうとう永くかかりますよ。<br/><br/>年ごろの娘さんなんかでよくここの具合の悪い人がありますがね。<br/><br/>やはり年数の経ってる人は治るのにひまがかかりますね。<br/><br/>だから赤ん坊なんかは早く治りますよ。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

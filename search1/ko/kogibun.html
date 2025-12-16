@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kogibun</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 抗議文 未定稿、昭和22(1947)年<b>月</b>日 今回拙著「天国の福音」御検閲相成たる結果を見るに、最重要部面は殆んど削除されおりまことに当惑致しました。<br><br>従って再度の御検閲を願い、該著書の如何に人類の福祉に貢献すべき将来性のあるかを充分認識せられ、是非とも全面的許可相成度切に希望致します。<br><br>右につきその詳細なる理由を左に開陳致します。<br><br>一、著書の骨子ともいうべき私の説く処の理論が、現代医学の大体反対である事は、既に、御判りと思います。<br><br>由来文化の進歩は、既成文化の否定によって生れる事は、幾多歴史の示す処であります。<br><br>故に既成文化の枠より離脱さるればさるる程、それは進歩の度のより高い事であります。<br><br>この理によって既成医学の框（かまち）によって検討する時、私の説は異端とも逆説とも見らるるのは止むを得ない事と思います。<br><br>しかしながら真理は永遠の生命力を有するものであるから、私の説を世に問う場合、非真理であれば自然消滅は当然の運命であると共に、もし真理であるとすれば、人類に齎（もたら）す福祉は測り知るべからざるものであろう。<br><br>この意味において既成文化即ち既成医学を以て無上の真理となし、その框内に入らざるものは不可として抹殺せんとする態度は、文化の進歩を抑圧する処の非文化的行為とならざるを得ないであろう。<br><br> 吾々日本人は永い間封建的桎梏（しっこく）の下に呻吟し、言わんとする処も、発表せんとする説も、当局の無理解に災いせられ如何ともなし難かったのであります。<br><br>しかるに敗戦の結果として、貴国によって民主主義の下、言論出版の自由は許され、吾々は如何に蘇生され、歓喜に燃え、貴国の恩恵に感激したでありましょう。<br><br>それと共に、貴国の人類愛的キリスト教精神と言論出版に対する自由主義が、貴国今日の偉大なる進歩発展の素因となった事を痛感するのであります。<br><br> 私が発見した新医学は、病理と実績において、既成医学に比し比較にならぬ程の進歩と優秀であるかは、現在無数の病者が救われつつある現実が雄弁に物語っております。<br><br>私は独り日本人のみでなく、全世界人類から病患を滅消し、心身共に健全なる平和世界の建設に資したい念願であって、些かも私心や野心のない事は、ここに保証致すのであります。<br><br>この意味において、何卒再検討の労をとられ、熟読玩味せられ、許可せられん事を、世界人類救済の名において切望する次第であります。<br><br>（昭和二十二年）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Apelo em Defesa da Verdade e do Progresso da Civilização</h2>
 <p>Ao tomar conhecimento do resultado da censura imposta à minha humilde obra, “O Evangelho do Céu”, verifiquei que seus trechos de máxima importância foram quase que integralmente suprimidos, o que me causou profunda perplexidade. Nesse sentido, venho solicitar uma reavaliação, rogando-lhes que reconheçam plenamente o potencial deste livro para contribuir com o bem-estar da humanidade e que, por conseguinte, concedam sua total autorização para a publicação. A seguir, passarei a expor detalhadamente as razões que fundamentam meu pleito.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>A nova medicina por mim descoberta demonstra um avanço e uma excelência incomparáveis em relação à medicina convencional, tanto em sua patologia quanto em seus resultados práticos. A realidade de que inúmeros enfermos estão sendo salvos no presente momento é um testemunho eloquente desse fato. Meu anseio não se restringe apenas ao povo japonês; desejo sinceramente erradicar as enfermidades de toda a humanidade e, assim, contribuir para a construção de um mundo de paz, formado por indivíduos sadios de corpo e alma. Garanto-lhes que não há em mim a menor intenção egoísta ou ambiciosa.</p>
 <p>Diante do exposto, rogo encarecidamente que se deem ao trabalho de reavaliar esta obra, lendo-a com a devida atenção, e que finalmente concedam a sua aprovação. É o que anelo fervorosamente, em nome da salvação de toda a humanidade.</p>
 <p>(1947)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 抗議文 未定稿、昭和22(1947)年**月**日 今回拙著「天国の福音」御検閲相成たる結果を見るに、最重要部面は殆んど削除されおりまことに当惑致しました。<br/><br/>従って再度の御検閲を願い、該著書の如何に人類の福祉に貢献すべき将来性のあるかを充分認識せられ、是非とも全面的許可相成度切に希望致します。<br/><br/>右につきその詳細なる理由を左に開陳致します。<br/><br/>一、著書の骨子ともいうべき私の説く処の理論が、現代医学の大体反対である事は、既に、御判りと思います。<br/><br/>由来文化の進歩は、既成文化の否定によって生れる事は、幾多歴史の示す処であります。<br/><br/>故に既成文化の枠より離脱さるればさるる程、それは進歩の度のより高い事であります。<br/><br/>この理によって既成医学の框（かまち）によって検討する時、私の説は異端とも逆説とも見らるるのは止むを得ない事と思います。<br/><br/>しかしながら真理は永遠の生命力を有するものであるから、私の説を世に問う場合、非真理であれば自然消滅は当然の運命であると共に、もし真理であるとすれば、人類に齎（もたら）す福祉は測り知るべからざるものであろう。<br/><br/>この意味において既成文化即ち既成医学を以て無上の真理となし、その框内に入らざるものは不可として抹殺せんとする態度は、文化の進歩を抑圧する処の非文化的行為とならざるを得ないであろう。<br/><br/> 吾々日本人は永い間封建的桎梏（しっこく）の下に呻吟し、言わんとする処も、発表せんとする説も、当局の無理解に災いせられ如何ともなし難かったのであります。<br/><br/>しかるに敗戦の結果として、貴国によって民主主義の下、言論出版の自由は許され、吾々は如何に蘇生され、歓喜に燃え、貴国の恩恵に感激したでありましょう。<br/><br/>それと共に、貴国の人類愛的キリスト教精神と言論出版に対する自由主義が、貴国今日の偉大なる進歩発展の素因となった事を痛感するのであります。<br/><br/> 私が発見した新医学は、病理と実績において、既成医学に比し比較にならぬ程の進歩と優秀であるかは、現在無数の病者が救われつつある現実が雄弁に物語っております。<br/><br/>私は独り日本人のみでなく、全世界人類から病患を滅消し、心身共に健全なる平和世界の建設に資したい念願であって、些かも私心や野心のない事は、ここに保証致すのであります。<br/><br/>この意味において、何卒再検討の労をとられ、熟読玩味せられ、許可せられん事を、世界人類救済の名において切望する次第であります。<br/><br/>（昭和二十二年）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

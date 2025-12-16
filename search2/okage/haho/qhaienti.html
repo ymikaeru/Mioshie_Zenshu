@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhaienti</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺炎治療の早さに神力の偉大さを知る 『栄光』168号、昭和27(1952)年8月6日発行 神奈川県 神栄中教会 後藤五三（78） 始めに私の経歴を少しく書かして頂きます。<br><br>私は名古屋医学校に学び、中退しその後父の業を継ぎ、永く医業に従事し、知る人ありてキリスト教徒となり、次に仏教につき大乗を少しく聴き、刑務所の医務室に奉職して明治二十二、三年頃より宗教と医学上の生理及び教理の三方面の理論より有神と霊の存在を確信して昭和二十五年に至り、永き間の研究を纏めるべく筆を執りつつありました。<br><br> さて私が入信致す前より当時十歳の孫娘が眼病で、濾泡性結膜炎に罹り、眼科医の治療を受けましたところ、一カ月を経過しても良くならず、医師のいわく「腺病質故に全治迄はなお十年も要する」との診断でありました。<br><br>しかるところ私が入信させて頂きまして早速御浄霊を致しましたら翌日効果が顕れ、力を得て毎日御浄霊を致し一カ月程で治癒致しました。<br><br> 次は私の大病です。<br><br>私は二十年程前より寒くなれば喘息が発して毎年苦しみましたが、入信しました二十五年暮はお蔭で非常に軽く、二十六年の元旦は病床に就かず迎える事が出来て家族一同喜んでおりました。<br><br>二月二十六日外出して感冒に罹り熱は高く二十七日には痰咳甚しく、遂に左右両肺共に炎症を起し（聴診器にて自己診断しておりました）三月一日二日の二昼夜は間断なく激しき咳痰のため横臥出来ず、故に睡眠もせず、一昼夜に四合程の痰を吐き、鼻より血膿が一日に一合程も出で実に大浄化の甚しき苦しみは筆にてはとても記せません。<br><br>この時の苦しみではペニシリンの注射を幾度も考えましたが、精神を励まして苦痛を我慢しておりますと咳の激烈のため心臓弁膜病が併発しました。<br><br>実に九死の苦しみで、遂に神経に異常を起した程でありました。<br><br>この苦しみを御推察下さい。<br><br> 遂に三月十二日教会の本郷先生の御来駕を乞い、御浄霊を頂きますと三日目に三分の一程良くなり、十五日と十七日には同会の中垣女史の御浄霊を受け、二十二日には再び本郷先生の御浄霊を受けましたら肺炎のラッセルが三分の二以上も治りました。<br><br>四月一日には非常に良くなって教会に行く事が出来ました。<br><br>毎日聴診器にて肺のラッセルを聴きおりましたが、この御浄霊で治癒する事の早き事は自分ながら驚く次第であります。<br><br>とても医薬の芸当では及びもつかぬ事であります。<br><br>御光の偉大なる御力を我が身をもって知らせて頂きまして、明主様に厚く御礼を申し上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A rapidez na cura da pneumonia revela a grandiosidade do Poder Divino</h2>
 <p>Publicado na revista Glória, n.º 168, 6 de agosto de 1952
@@ -95,5 +250,48 @@ Por Goto Gosan (78 anos), Igreja Shin-ei Naka, Província de Kanagawa</p>
 <p>Pois bem, antes de minha conversão à fé, minha neta, que à época contava dez anos de idade, foi acometida por uma doença ocular. Diagnosticada com conjuntivite folicular, ela foi submetida ao tratamento de um oftalmologista. Contudo, decorrido um mês, não havia melhora, e o parecer do médico foi que, "devido à sua constituição linfática, a recuperação completa poderia levar até dez anos". Foi então que, tendo eu recebido a graça de ingressar no caminho da fé, ministrei-lhe Johrei imediatamente. No dia seguinte, os efeitos já se manifestaram. Encorajado, prossegui com a ministração diária de Johrei e, em aproximadamente um mês, ela alcançou a cura total.</p>
 <p>O relato seguinte trata de uma grave enfermidade que eu mesmo enfrentei. Há cerca de vinte anos, eu sofria com crises de asma que se manifestavam com a chegada do frio, um tormento que se repetia anualmente. Entretanto, no final do ano de 1950, após minha conversão, a crise foi, pela graça Divina, excepcionalmente branda. Pude saudar o primeiro dia de 1951 sem estar confinado ao leito, para a alegria de toda a família. No dia 26 de fevereiro, porém, saí de casa e contraí um resfriado. A febre tornou-se alta e, no dia 27, uma tosse com expectoração abundante se instalou. Por fim, o quadro evoluiu para uma inflamação em ambos os pulmões, algo que eu mesmo diagnostiquei com o auxílio de um estetoscópio. Durante dois dias e duas noites, em 1º e 2 de março, a tosse era tão intensa e incessante que me impedia de deitar. Consequentemente, não consegui dormir. Cheguei a expelir cerca de setecentos mililitros de expectoração por dia, além de quase duzentos mililitros de pus sanguinolento pelo nariz. A agonia dessa grande purificação é simplesmente indescritível em palavras. Nesses momentos de extremo sofrimento, considerei por diversas vezes recorrer a injeções de penicilina, mas fortaleci meu espírito e suportei a dor. A violência da tosse foi tamanha que acabou por desencadear uma complicação em minha válvula cardíaca. Foi uma agonia de vida ou morte, que chegou a abalar meu sistema nervoso. Rogo que possam dimensionar tal provação.</p>
 <p>Finalmente, em 12 de março, solicitei a visita do Sr. Hongo, de nossa igreja. Após receber Johrei, em apenas três dias, eu já me sentia um terço melhor. Nos dias 15 e 17, recebi Johrei da Sra. Nakagaki, também de nossa congregação, e no dia 22, novamente pelas mãos do Sr. Hongo. Após esta última ministração, mais de dois terços dos estertores em meus pulmões haviam desaparecido. No dia 1º de abril, a melhora era tão expressiva que pude comparecer à igreja. Eu, que diariamente auscultava os ruídos em meus pulmões com o estetoscópio, fiquei pessoalmente assombrado com a rapidez da cura obtida através do Johrei. Trata-se de uma proeza inalcançável para a arte da medicina e seus fármacos. Por ter sido ensinado, em meu próprio corpo, sobre o grandioso poder da Luz Divina, expresso minha mais profunda gratidão a Meishu-Sama.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺炎治療の早さに神力の偉大さを知る 『栄光』168号、昭和27(1952)年8月6日発行 神奈川県 神栄中教会 後藤五三（78） 始めに私の経歴を少しく書かして頂きます。<br/><br/>私は名古屋医学校に学び、中退しその後父の業を継ぎ、永く医業に従事し、知る人ありてキリスト教徒となり、次に仏教につき大乗を少しく聴き、刑務所の医務室に奉職して明治二十二、三年頃より宗教と医学上の生理及び教理の三方面の理論より有神と霊の存在を確信して昭和二十五年に至り、永き間の研究を纏めるべく筆を執りつつありました。<br/><br/> さて私が入信致す前より当時十歳の孫娘が眼病で、濾泡性結膜炎に罹り、眼科医の治療を受けましたところ、一カ月を経過しても良くならず、医師のいわく「腺病質故に全治迄はなお十年も要する」との診断でありました。<br/><br/>しかるところ私が入信させて頂きまして早速御浄霊を致しましたら翌日効果が顕れ、力を得て毎日御浄霊を致し一カ月程で治癒致しました。<br/><br/> 次は私の大病です。<br/><br/>私は二十年程前より寒くなれば喘息が発して毎年苦しみましたが、入信しました二十五年暮はお蔭で非常に軽く、二十六年の元旦は病床に就かず迎える事が出来て家族一同喜んでおりました。<br/><br/>二月二十六日外出して感冒に罹り熱は高く二十七日には痰咳甚しく、遂に左右両肺共に炎症を起し（聴診器にて自己診断しておりました）三月一日二日の二昼夜は間断なく激しき咳痰のため横臥出来ず、故に睡眠もせず、一昼夜に四合程の痰を吐き、鼻より血膿が一日に一合程も出で実に大浄化の甚しき苦しみは筆にてはとても記せません。<br/><br/>この時の苦しみではペニシリンの注射を幾度も考えましたが、精神を励まして苦痛を我慢しておりますと咳の激烈のため心臓弁膜病が併発しました。<br/><br/>実に九死の苦しみで、遂に神経に異常を起した程でありました。<br/><br/>この苦しみを御推察下さい。<br/><br/> 遂に三月十二日教会の本郷先生の御来駕を乞い、御浄霊を頂きますと三日目に三分の一程良くなり、十五日と十七日には同会の中垣女史の御浄霊を受け、二十二日には再び本郷先生の御浄霊を受けましたら肺炎のラッセルが三分の二以上も治りました。<br/><br/>四月一日には非常に良くなって教会に行く事が出来ました。<br/><br/>毎日聴診器にて肺のラッセルを聴きおりましたが、この御浄霊で治癒する事の早き事は自分ながら驚く次第であります。<br/><br/>とても医薬の芸当では及びもつかぬ事であります。<br/><br/>御光の偉大なる御力を我が身をもって知らせて頂きまして、明主様に厚く御礼を申し上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

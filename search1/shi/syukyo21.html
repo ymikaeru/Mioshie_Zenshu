@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syukyo21</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と病院 『栄光』181号、昭和27(1952)年11月5日発行 この事についてはよく訊かれるから、ここに詳しくかいてみるが、なるほど現在相当名の知れた宗教は、残らずといいたい程病院を経営しているか、あるいはこれから建てようとしているのは衆知の通りである。<br><br>ところが我メシヤ教に限って病院を造らないので、不思議に思う人も世間には随分あるであろうが、これには大いに理由がある。<br><br>それは本教の浄霊療法は医療に比べて、比較にならない程卓越しており、病院の必要がないからである。<br><br>これについていつもいう事だが、本来宗教なるものの地位は、科学以上であらねばならないもので、そこに宗教としての尊い価値があるのである。<br><br>といっても形式だけで、実が伴わないとしたら、単なる観念の押売にすぎないといえよう。<br><br>そこへゆくと我メシヤ教は観念などの必要はなく、どこまでも現実一本で進んでいる。<br><br>この事について特に言いたい事は、人間の生命を救う力が宗教よりも科学の方が勝っているとしたら、宗教は科学以下になるのは当然であるから、無神論を非難する訳にはゆかないであろう。<br><br>その結果理論や御説教、祈りなどでお茶を濁すより致し方ない事になり、現実生活とは掛け離れた存在となってしまうから、識者から無用の長物扱いされるのも、止むを得ないであろう。<br><br>これも全く宗教の罪であると思う。<br><br> とはいうものの実は誰も知らないところに大いなる理由が潜んでいるので、今それをかいてみよう。<br><br>まずその根本であるが、これはどうしても霊的に説明しなければならないから、そのつもりで読まれたいが、何といってもキリスト教始め、今日なお命脈を保っている多くの宗教は、開教当時は相当病気が治ったと共に、大なり小なり奇蹟があったに違いないと思われる。<br><br>でなければその宗教の発展もなければ、今日まで続いているはずがないからである。<br><br>吾々の知る限りにおいても、天保時代に生まれた彼の天理教始め、明治、大正、昭和の初め頃までの新宗教にしても、開教以来相当病気が治った事実はよく耳にするのであるが、今日それらの宗教が揃いも揃って病院を作る事である。<br><br>なるほど時世のためとは言いながら、実をいうと病気が治らなくなったのが真の原因である。<br><br>この事は当事者といえども気付かないはずはないが、その原因も判らず、どうしようもないので、病院を造らざるを得ない羽目になったのであろう。<br><br> それについて詳しくかいてみるが、いつもいうごとく長い間世界は夜であったが、霊界の事とて人間には分らなかったのである。<br><br>それがいよいよ時期到来夜と昼との交替が始まったのである。<br><br>それについてはまず霊界における黎明期であるが、以前もかいた通り、昭和六年六月十五日をエポックとして、漸次昼の世界に転換しつつあるので、この表われとしてその頃から各宗教においては、漸次病気が治らなくなって来たのである。<br><br>では何が理由かというとこれこそ今日までのあらゆる宗教は夜の時代の救いで、月の神の守護であったからで、病気に対して月の光は薄いので、ある程度以上の効果は困難であったのである。<br><br>そこへ我メシヤ救出現に及んで俄然一変したのである。<br><br>というのは本教は昼の宗教で日の神の守護であるから、日の光は月の六十倍に当り、その効果の絶大なる歴史上にも、かつてない医（いやし）の業であるからである。<br><br>しかも日が出れば月の光は漸次消えるから、本教の治病力は年と共に効果を増し、最近に到っては奇蹟相次ぎ、ほとんどキリストと同様な治病報告は頻々と来るのである。<br><br>これによってみても霊界が昼となり、火素が増え、浄化力が強くなった事は疑う余地はない。<br><br>しかもその影響は宗教ばかりではない、医療にまでも及ぼして来た。<br><br>近来医師がよくいう以前は随分効いた薬だが、近頃はサッパリ効かなくなったといって嘆いている。<br><br>しかし吾々にはよく分る。<br><br>それは医療は排泄されんとする毒素を固める方法としての薬である以上、火素が増えるに従い薬では固まらなくなるのはもちろんで、つまり溶ける力の方が強くなるからである。<br><br>そこで益々毒を強める結果一時的効果がある。<br><br>という訳で近頃のごとく新薬が続出するのである。<br><br>ところが益々浄化が強くなり、ついにはいかなる薬でも効かなくなり、行詰ってしまい医学の一大危機が来るのは当然であるから、ここに初めて本教浄霊に頭を下げざるを得なくなるのは、各宗教においての病院も同様であろう。<br><br>ゆえにこの事を今から予言しても間違いないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Religião e os Hospitais</h2>
 <p>Muitos me questionam sobre este assunto, e por essa razão, decidi explaná-lo em detalhe. De fato, é um fato notório que praticamente todas as religiões de renome administram hospitais ou planejam construí-los. Sendo assim, é natural que muitos se admirem pelo fato de nossa Igreja Messiânica não seguir o mesmo caminho. A razão para tal, contudo, é de grande importância. A terapia do Johrei de nossa Igreja é incomparavelmente superior ao tratamento médico, tornando a existência de hospitais desnecessária.</p>
@@ -102,5 +254,48 @@ function toggleLang(lang) {
 <p>Ademais, quando o Sol nasce, a luz da Lua se dissipa gradualmente. Por essa razão, o poder curativo de nossa Igreja se intensifica a cada ano. Recentemente, os milagres se sucedem, e recebemos com frequência relatos de curas que se assemelham às realizadas por Cristo. Tais fatos comprovam, de forma inequívoca, que o Mundo Espiritual adentrou a Era do Dia, que o elemento fogo aumentou e que o poder de purificação se tornou mais forte.</p>
 <p>Essa influência, aliás, não se restringe à religião; ela se estende até mesmo à medicina. Ultimamente, é comum ouvir médicos lamentarem que medicamentos antes muito eficazes já não surtem efeito algum. Para nós, a razão é clara. A medicina utiliza fármacos como um método para solidificar as toxinas que o corpo tenta expelir. Com o aumento do elemento fogo, torna-se impossível solidificá-las, pois o poder de dissolução se torna mais intenso. Para obter um efeito temporário, a ciência médica cria drogas cada vez mais potentes, o que explica a proliferação de novos medicamentos.</p>
 <p>Contudo, a purificação se intensificará a tal ponto que, finalmente, nenhum remédio funcionará. A medicina chegará a um impasse, e é natural que enfrente uma crise de proporções imensas. Nesse momento, assim como as religiões e seus hospitais, os médicos não terão outra escolha senão curvar-se perante o Johrei de nossa Igreja. Posso, portanto, profetizar este desfecho desde já, com absoluta certeza.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と病院 『栄光』181号、昭和27(1952)年11月5日発行 この事についてはよく訊かれるから、ここに詳しくかいてみるが、なるほど現在相当名の知れた宗教は、残らずといいたい程病院を経営しているか、あるいはこれから建てようとしているのは衆知の通りである。<br/><br/>ところが我メシヤ教に限って病院を造らないので、不思議に思う人も世間には随分あるであろうが、これには大いに理由がある。<br/><br/>それは本教の浄霊療法は医療に比べて、比較にならない程卓越しており、病院の必要がないからである。<br/><br/>これについていつもいう事だが、本来宗教なるものの地位は、科学以上であらねばならないもので、そこに宗教としての尊い価値があるのである。<br/><br/>といっても形式だけで、実が伴わないとしたら、単なる観念の押売にすぎないといえよう。<br/><br/>そこへゆくと我メシヤ教は観念などの必要はなく、どこまでも現実一本で進んでいる。<br/><br/>この事について特に言いたい事は、人間の生命を救う力が宗教よりも科学の方が勝っているとしたら、宗教は科学以下になるのは当然であるから、無神論を非難する訳にはゆかないであろう。<br/><br/>その結果理論や御説教、祈りなどでお茶を濁すより致し方ない事になり、現実生活とは掛け離れた存在となってしまうから、識者から無用の長物扱いされるのも、止むを得ないであろう。<br/><br/>これも全く宗教の罪であると思う。<br/><br/> とはいうものの実は誰も知らないところに大いなる理由が潜んでいるので、今それをかいてみよう。<br/><br/>まずその根本であるが、これはどうしても霊的に説明しなければならないから、そのつもりで読まれたいが、何といってもキリスト教始め、今日なお命脈を保っている多くの宗教は、開教当時は相当病気が治ったと共に、大なり小なり奇蹟があったに違いないと思われる。<br/><br/>でなければその宗教の発展もなければ、今日まで続いているはずがないからである。<br/><br/>吾々の知る限りにおいても、天保時代に生まれた彼の天理教始め、明治、大正、昭和の初め頃までの新宗教にしても、開教以来相当病気が治った事実はよく耳にするのであるが、今日それらの宗教が揃いも揃って病院を作る事である。<br/><br/>なるほど時世のためとは言いながら、実をいうと病気が治らなくなったのが真の原因である。<br/><br/>この事は当事者といえども気付かないはずはないが、その原因も判らず、どうしようもないので、病院を造らざるを得ない羽目になったのであろう。<br/><br/> それについて詳しくかいてみるが、いつもいうごとく長い間世界は夜であったが、霊界の事とて人間には分らなかったのである。<br/><br/>それがいよいよ時期到来夜と昼との交替が始まったのである。<br/><br/>それについてはまず霊界における黎明期であるが、以前もかいた通り、昭和六年六月十五日をエポックとして、漸次昼の世界に転換しつつあるので、この表われとしてその頃から各宗教においては、漸次病気が治らなくなって来たのである。<br/><br/>では何が理由かというとこれこそ今日までのあらゆる宗教は夜の時代の救いで、月の神の守護であったからで、病気に対して月の光は薄いので、ある程度以上の効果は困難であったのである。<br/><br/>そこへ我メシヤ救出現に及んで俄然一変したのである。<br/><br/>というのは本教は昼の宗教で日の神の守護であるから、日の光は月の六十倍に当り、その効果の絶大なる歴史上にも、かつてない医（いやし）の業であるからである。<br/><br/>しかも日が出れば月の光は漸次消えるから、本教の治病力は年と共に効果を増し、最近に到っては奇蹟相次ぎ、ほとんどキリストと同様な治病報告は頻々と来るのである。<br/><br/>これによってみても霊界が昼となり、火素が増え、浄化力が強くなった事は疑う余地はない。<br/><br/>しかもその影響は宗教ばかりではない、医療にまでも及ぼして来た。<br/><br/>近来医師がよくいう以前は随分効いた薬だが、近頃はサッパリ効かなくなったといって嘆いている。<br/><br/>しかし吾々にはよく分る。<br/><br/>それは医療は排泄されんとする毒素を固める方法としての薬である以上、火素が増えるに従い薬では固まらなくなるのはもちろんで、つまり溶ける力の方が強くなるからである。<br/><br/>そこで益々毒を強める結果一時的効果がある。<br/><br/>という訳で近頃のごとく新薬が続出するのである。<br/><br/>ところが益々浄化が強くなり、ついにはいかなる薬でも効かなくなり、行詰ってしまい医学の一大危機が来るのは当然であるから、ここに初めて本教浄霊に頭を下げざるを得なくなるのは、各宗教においての病院も同様であろう。<br/><br/>ゆえにこの事を今から予言しても間違いないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

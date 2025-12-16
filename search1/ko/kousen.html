@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kousen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十六、光線療法に就て 『日本医術講義録』第１篇、昭和10(1935)年執筆 近来、医療上、光線療法なるものが盛んになって来たが、これについて、その真相を述べてみる。<br><br> 光線療法とは読んで字のごとく種々の器〔機〕械又は鉱物の作用に依って放出射光されるのであって、鉱石の方は現在の所、ラジュウム、エマナチオンのみであるが、器械の方は次々新規の光線を発見作出しつつあるので、例えば、レントゲン、紫外線、太陽灯等である。<br><br>しからば、その効果はいかんと言うに、私の観る所を以てすれば、効果もあれば、弊害もあるのである。<br><br>ある病気、例えば、瘰癧（るいれき）、癌、結核のごときはいずれも、膿の部分的集溜が原因である。<br><br>それらへ向って光線を放射する時は、いかなる変化を起すやと言うに、その膿細菌は一層の集溜凝結に向って進行を始めるのである。<br><br>故に、数字に依ってたとえてみれば、百の容積ある膿溜は、ついに十に即ち一割に縮小さるるのである。<br><br>即ち、九十だけの膿積は減少するのであるから、それだけは、病気は治癒されたる理であるから、患者は軽快を感じ、医師もその効果を認める訳である。<br><br>しかるに何ぞ知らん、百のものが十に凝結したのであって、消滅したのではないのであるから、当然、膿の密度を増す結果となるから、非常に固い膿結となるのである。<br><br>この経過の一番良く判るのは瘰癧であって、小さくはなるが、ほとんど石のごとくなるのである。<br><br>こうなったのは、たとえ我指圧療法を以てしても、その石のごとき膿結を溶解するには容易ではないので、非常の困難を感ずるのである。<br><br> この理によってみるも、光線療法なるものは、功罪相半（なかば）すと言う訳であって、ちょうど、十人から借金をして居ったのを、一人に借金を纏（まと）めるのと同じ理屈である。<br><br>これに依って観るも現代医学は、治癒力即ち、病患を解消絶滅する力は、いささかも無いという事を識るであろう。<br><br>彼の東郷大将の喉頭癌が三拾五万円のラジュウムを以てしてもついにその効果なく半ケ年にして鬼籍に入りし実例を視ても能く判るのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Terapia de Luz</h2>
 <p>Recentemente, a chamada terapia de luz difundiu-se amplamente no campo da medicina. A esse respeito, desejo elucidar a sua verdadeira natureza.</p>
@@ -100,5 +252,48 @@ function toggleLang(lang) {
 <p>Contudo, o que se ignora é que o volume cem não foi eliminado, mas sim solidificado no volume dez. Isso resulta, naturalmente, em um aumento da densidade do pus, formando um nódulo purulento de extrema dureza. Este processo é mais claramente observável na escrófula, que, embora diminua de tamanho, adquire a consistência de uma pedra. Uma vez nesse estado, mesmo por meio de nossa terapia, dissolver tal nódulo petrificado torna-se uma tarefa extremamente árdua.</p>
 <p>À luz desse princípio, constata-se que a terapia de luz possui méritos e deméritos em igual medida. O raciocínio é análogo ao de um indivíduo que, devendo a dez credores, consolida toda a sua dívida em um único.</p>
 <p>Nesse sentido, percebe-se que a medicina moderna não possui, em absoluto, o poder de cura, isto é, a capacidade de erradicar a doença pela sua raiz. Isso se torna evidente ao recordarmos o caso do Almirante Togo que, apesar de ter sido tratado com o equivalente a trezentos e cinquenta mil ienes em rádio para um câncer de laringe, não obteve qualquer resultado e veio a falecer em apenas seis meses.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十六、光線療法に就て 『日本医術講義録』第１篇、昭和10(1935)年執筆 近来、医療上、光線療法なるものが盛んになって来たが、これについて、その真相を述べてみる。<br/><br/> 光線療法とは読んで字のごとく種々の器〔機〕械又は鉱物の作用に依って放出射光されるのであって、鉱石の方は現在の所、ラジュウム、エマナチオンのみであるが、器械の方は次々新規の光線を発見作出しつつあるので、例えば、レントゲン、紫外線、太陽灯等である。<br/><br/>しからば、その効果はいかんと言うに、私の観る所を以てすれば、効果もあれば、弊害もあるのである。<br/><br/>ある病気、例えば、瘰癧（るいれき）、癌、結核のごときはいずれも、膿の部分的集溜が原因である。<br/><br/>それらへ向って光線を放射する時は、いかなる変化を起すやと言うに、その膿細菌は一層の集溜凝結に向って進行を始めるのである。<br/><br/>故に、数字に依ってたとえてみれば、百の容積ある膿溜は、ついに十に即ち一割に縮小さるるのである。<br/><br/>即ち、九十だけの膿積は減少するのであるから、それだけは、病気は治癒されたる理であるから、患者は軽快を感じ、医師もその効果を認める訳である。<br/><br/>しかるに何ぞ知らん、百のものが十に凝結したのであって、消滅したのではないのであるから、当然、膿の密度を増す結果となるから、非常に固い膿結となるのである。<br/><br/>この経過の一番良く判るのは瘰癧であって、小さくはなるが、ほとんど石のごとくなるのである。<br/><br/>こうなったのは、たとえ我指圧療法を以てしても、その石のごとき膿結を溶解するには容易ではないので、非常の困難を感ずるのである。<br/><br/> この理によってみるも、光線療法なるものは、功罪相半（なかば）すと言う訳であって、ちょうど、十人から借金をして居ったのを、一人に借金を纏（まと）めるのと同じ理屈である。<br/><br/>これに依って観るも現代医学は、治癒力即ち、病患を解消絶滅する力は、いささかも無いという事を識るであろう。<br/><br/>彼の東郷大将の喉頭癌が三拾五万円のラジュウムを以てしてもついにその効果なく半ケ年にして鬼籍に入りし実例を視ても能く判るのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

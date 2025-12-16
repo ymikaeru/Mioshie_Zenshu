@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>sun155</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光155号) 『栄光』155号、昭和27(1952)年5月7日発行 ☆…この間日比谷公会堂で、拙者は言霊のピカドンを放ったら、御腹に威張っていた御客様連中、みんな縮み上って、腹の中のヒビや（日比谷）脛（すね）傷の痛みが出て、つくづく公会（後悔）堂とはいい名だね ☆…日比谷の講演会の大入満員は、近来例がないとの話、吉田首相の講演会の時よりも、演芸者大会の時よりも、ズット盛んだとの話、してみると拙者の人気は大したもんだと、自惚（うぬぼ）れてみたが、よく考えるとロハのためだと分ったので、オヤカシた鼻もペッチャンコ ☆…結核新薬ちゅうものは屁みたいなもんだね。<br><br>時々出てはプスプス消えてしまうんだからさ。<br><br>今度のハイドラジットという薬にしても、大分音は大きいようだが、いずれはプスリ組だろう。<br><br>ところが世の中は様々で、この大きな屁を大金を出して買いたがっている人があるんだそうだ。<br><br>その揚句魂が屁と同様プスッと抜けちゃうだろうから、あの世へ往ってプースーぬかしたって、屁のつっかい棒にもならないよ ☆…世の中の奴があんまり分らないので、懲らしめのために、大きな灸を据えてやろうと思うよ。<br><br>だから拙者は大救世主じゃない、大灸据え主なんだ、と言ってもお灸の先生と間違えちゃ困るよ ☆…今は虫ケラ時代だね。<br><br>ブンブン蚊が喰うような文化族、糞蝿のように禿頭を舐める奴、モグラになって世の中を壊そうとしたり、油虫役人が威張ったり、夜になると尻を光らす蛍女、国の土台を揺がす白蟻、蜻蛉（トンボ）のように目玉グリグリのパチンコ虫、自動車乗逃げのヘッピリ虫、懐を狙う挟み虫、始末の悪いのは、直に角出すデデ虫媽（かかあ）だが、これは内緒内緒
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>Recentemente, no Auditório Público de Hibiya, lancei uma verdadeira bomba atômica do espírito da palavra. Os ilustres convidados, antes tão altivos, encolheram-se todos. As fissuras em seus espíritos — que o próprio nome Hibiya parece evocar — e as dores de suas feridas ocultas vieram à tona. Refletindo bem, o nome "Auditório Público" (Kokaido) revela-se muito apropriado, pois sua sonoridade remete a "Salão do Arrependimento" (Koukai).</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>Esses novos medicamentos para a tuberculose, em verdade, assemelham-se a um peido. Surgem de tempos em tempos e logo se dissipam com um estalido. Mesmo este novo fármaco, o "Hydrazit", que parece fazer tanto alarde, certamente terá o mesmo destino efêmero. E, no entanto, dizem que há quem deseje adquirir este grande peido por uma vultosa quantia. Ao final, é provável que suas almas se esvaiam tão subitamente quanto ele. E, ao chegarem ao Mundo Espiritual, seus lamentos de nada valerão; não servirão nem de anteparo a um sopro.</p>
 <p>Como as pessoas no mundo demonstram tamanha incompreensão, tenciono aplicar-lhes um severo corretivo. Por isso, afirmo não ser um Grande Messias Salvador, mas sim um Grande "Aplicador de Lições". Evidentemente, não desejo ser confundido com um terapeuta que aplica moxabustão.</p>
 <p>Vivemos, de fato, na era dos insetos. Há a elite cultural, que suga a todos como mosquitos zumbidores. Há os que, como moscas-varejeiras, lambem a calva dos poderosos. Existem aqueles que se tornam toupeiras para minar as bases da sociedade, e há funcionários públicos que se pavoneiam como baratas. À noite, surgem as mulheres-vaga-lumes, que exibem seu brilho traseiro. Não faltam os cupins, que corroem os alicerces da nação, nem os viciados em pachinko, cujos olhos esbugalhados lembram os das libélulas. Temos os "maria-fedidas", que fogem após roubar um carro, e também os "tesourinhas", que espreitam as carteiras alheias. Porém, a praga mais intratável é a esposa-caracol, que não tarda a mostrar seus chifres. Mas sobre esta, silêncio absoluto.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光155号) 『栄光』155号、昭和27(1952)年5月7日発行 ☆…この間日比谷公会堂で、拙者は言霊のピカドンを放ったら、御腹に威張っていた御客様連中、みんな縮み上って、腹の中のヒビや（日比谷）脛（すね）傷の痛みが出て、つくづく公会（後悔）堂とはいい名だね ☆…日比谷の講演会の大入満員は、近来例がないとの話、吉田首相の講演会の時よりも、演芸者大会の時よりも、ズット盛んだとの話、してみると拙者の人気は大したもんだと、自惚（うぬぼ）れてみたが、よく考えるとロハのためだと分ったので、オヤカシた鼻もペッチャンコ ☆…結核新薬ちゅうものは屁みたいなもんだね。<br/><br/>時々出てはプスプス消えてしまうんだからさ。<br/><br/>今度のハイドラジットという薬にしても、大分音は大きいようだが、いずれはプスリ組だろう。<br/><br/>ところが世の中は様々で、この大きな屁を大金を出して買いたがっている人があるんだそうだ。<br/><br/>その揚句魂が屁と同様プスッと抜けちゃうだろうから、あの世へ往ってプースーぬかしたって、屁のつっかい棒にもならないよ ☆…世の中の奴があんまり分らないので、懲らしめのために、大きな灸を据えてやろうと思うよ。<br/><br/>だから拙者は大救世主じゃない、大灸据え主なんだ、と言ってもお灸の先生と間違えちゃ困るよ ☆…今は虫ケラ時代だね。<br/><br/>ブンブン蚊が喰うような文化族、糞蝿のように禿頭を舐める奴、モグラになって世の中を壊そうとしたり、油虫役人が威張ったり、夜になると尻を光らす蛍女、国の土台を揺がす白蟻、蜻蛉（トンボ）のように目玉グリグリのパチンコ虫、自動車乗逃げのヘッピリ虫、懐を狙う挟み虫、始末の悪いのは、直に角出すデデ虫媽（かかあ）だが、これは内緒内緒</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

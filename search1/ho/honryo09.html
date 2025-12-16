@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honryo09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法は観念療法に非ず 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 医薬以外の療法、例えば、信仰的、霊的療法によって、難病が治癒せられた事実を見て多くの批判者は、決り切っていうのである。<br><br>それは、神仏に頼っているという、患者の観念が、一種の安心を得させるから、それに依って治病されるのである、言わば、神経作用である、随ってそれは、特殊の病気に限られているので、多くは、神経系統に属するものであると、いうのである、もっともこれらは「生長の家」等が主張する、病気が無いと思えば治る、という説や「人の道」が言っている、お振替又は神宣によって、病気が治る、という様な事から生れた、一種の客観的常識批判ともいうべきもので、一面無理のない見方でもある。<br><br> しかるに、本療法においては、右らとは全然相違している、その点を発表したいのである。<br><br>それは何かと言うに絶対に、精神作用や、観念療法の加わらない事である。<br><br>まず、一例を挙げてみよう、ここに、ある患者がある、その患者に向って経験済の知人が、本療法を勧める。<br><br>その場合患者は、絶対に信用しない、そんな方法で治るものかと否定する、しかし、知人は、一回でもいいから、欺されたと思って行けと飽くまで勧めるので、患者は止むを得ず、その好意に対して、渋々来るのである、その時の患者の態度に見て、アリアリと判るのである。<br><br>それに、薬剤も器械も用いず、ただ指頭の技術のみであるから、治癒するはずがないと思うのも、無理はない。<br><br>故に、最初は、仕方なしに治療を受けている、という訳であって、全快の後よく、その時の心境を語って、大笑する事があるのである。<br><br> 故に、些（いささ）かたりとも、軽快になるなどとは、夢想してもみないのであるから、その際、観念は零である。<br><br>しかるにも係わらず、驚く程速かに、軽快に向うので、その時の患者の驚愕は、実に滑稽と思わるゝ程である。<br><br>そうして、間もなく治癒されてしまうその不思議さに誰しも、人間以外の力、超人的効果の存在を、信じない訳にはゆかないのである。<br><br> この力が素晴らしければ素晴らしい程、体験のない、第三者としては、益々信じられないという、困った事実である。<br><br> 他の療法は、ここでは云々（うんぬん）しない、ただ本療法は、絶対に観念の加わらない事を、言えばよいのである。<br><br>今一つの例は、観念力のありようのない小児が、却て能（よ）く治癒されるという事実も、付加えたいのである。<br><br> 故に、本療法は患者が、病気が、無いと思わなくともよい、病気が在ると思っても、治癒されてしまう。<br><br>否、自分の病気は治らないと諦めていても、何程疑っていても、治癒されてしまう、この不思議なる大事実を知るならば、批判者は、何と言うであろうか。<br><br> 今一つを加えよう。<br><br>それは、発狂が治癒される事である。<br><br>狂人に向っては、観念療法は到底行わるべくもない事は、明らかである、その他梅毒、胃癌、痔瘻（じろう）、喘息、脳炎、中風、結核等、観念論者が想像し得られない病気が、続々治癒される事実である。<br><br> これを要するに、薬剤療法に非ず、物理療法に非ず、信仰や祈祷療法に非ず、観念や精神力に非ずして、あらゆる療法によるも、治癒し難い難症の治療率が、八十パーセント以上を挙げつゝあるという、生きた事実である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Nossa Terapia não se Baseia na Força do Pensamento</h2>
 <p>Diante do fato de que doenças graves são curadas por terapias alheias à medicina, como as de cunho espiritual ou religioso, muitos críticos são unânimes em sua avaliação. Afirmam que a cura decorre da mente do paciente, que, ao confiar em uma divindade, obtém uma espécie de tranquilidade que por si só promove a melhora. Trata-se, segundo eles, de uma mera reação do sistema nervoso, e, por conseguinte, um método restrito a enfermidades específicas, majoritariamente de natureza neurológica. Tal interpretação, aliás, tem sua origem em doutrinas como a da “Seicho-no-Ie”, que prega a cura pela negação da doença, ou a da “Hito-no-Michi”, que a atribui a transferências espirituais ou revelações divinas. É, portanto, uma crítica que se baseia no senso comum e que, sob certo prisma, não deixa de ter sua lógica.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Com nossa terapia, não é necessário que o paciente creia na inexistência da doença. Mesmo que esteja convicto de sua enfermidade, ele é curado. Mais ainda: ainda que tenha perdido toda a esperança ou duvide profundamente do tratamento, a cura se manifesta. Que diriam os críticos se compreendessem esta grandiosa e assombrosa realidade?</p>
 <p>Acrescentemos mais um ponto: a cura de transtornos mentais graves. É evidente que a terapia pela sugestão é inaplicável a um indivíduo que perdeu o juízo. Ademais, inúmeras outras enfermidades, que os defensores da teoria conceitual jamais imaginariam tratar, são curadas sucessivamente, como sífilis, câncer de estômago, fístula anal, asma, encefalite, paralisia decorrente de acidente vascular e tuberculose.</p>
 <p>Em síntese, não se trata de uma terapia medicamentosa, tampouco de uma terapia física; não é um método baseado na fé ou na oração, nem depende da força mental ou do poder da mente. Trata-se, isto sim, de uma realidade viva: um método que alcança um índice de cura superior a oitenta por cento nos casos mais complexos, considerados refratários a todas as demais abordagens terapêuticas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法は観念療法に非ず 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 医薬以外の療法、例えば、信仰的、霊的療法によって、難病が治癒せられた事実を見て多くの批判者は、決り切っていうのである。<br/><br/>それは、神仏に頼っているという、患者の観念が、一種の安心を得させるから、それに依って治病されるのである、言わば、神経作用である、随ってそれは、特殊の病気に限られているので、多くは、神経系統に属するものであると、いうのである、もっともこれらは「生長の家」等が主張する、病気が無いと思えば治る、という説や「人の道」が言っている、お振替又は神宣によって、病気が治る、という様な事から生れた、一種の客観的常識批判ともいうべきもので、一面無理のない見方でもある。<br/><br/> しかるに、本療法においては、右らとは全然相違している、その点を発表したいのである。<br/><br/>それは何かと言うに絶対に、精神作用や、観念療法の加わらない事である。<br/><br/>まず、一例を挙げてみよう、ここに、ある患者がある、その患者に向って経験済の知人が、本療法を勧める。<br/><br/>その場合患者は、絶対に信用しない、そんな方法で治るものかと否定する、しかし、知人は、一回でもいいから、欺されたと思って行けと飽くまで勧めるので、患者は止むを得ず、その好意に対して、渋々来るのである、その時の患者の態度に見て、アリアリと判るのである。<br/><br/>それに、薬剤も器械も用いず、ただ指頭の技術のみであるから、治癒するはずがないと思うのも、無理はない。<br/><br/>故に、最初は、仕方なしに治療を受けている、という訳であって、全快の後よく、その時の心境を語って、大笑する事があるのである。<br/><br/> 故に、些（いささ）かたりとも、軽快になるなどとは、夢想してもみないのであるから、その際、観念は零である。<br/><br/>しかるにも係わらず、驚く程速かに、軽快に向うので、その時の患者の驚愕は、実に滑稽と思わるゝ程である。<br/><br/>そうして、間もなく治癒されてしまうその不思議さに誰しも、人間以外の力、超人的効果の存在を、信じない訳にはゆかないのである。<br/><br/> この力が素晴らしければ素晴らしい程、体験のない、第三者としては、益々信じられないという、困った事実である。<br/><br/> 他の療法は、ここでは云々（うんぬん）しない、ただ本療法は、絶対に観念の加わらない事を、言えばよいのである。<br/><br/>今一つの例は、観念力のありようのない小児が、却て能（よ）く治癒されるという事実も、付加えたいのである。<br/><br/> 故に、本療法は患者が、病気が、無いと思わなくともよい、病気が在ると思っても、治癒されてしまう。<br/><br/>否、自分の病気は治らないと諦めていても、何程疑っていても、治癒されてしまう、この不思議なる大事実を知るならば、批判者は、何と言うであろうか。<br/><br/> 今一つを加えよう。<br/><br/>それは、発狂が治癒される事である。<br/><br/>狂人に向っては、観念療法は到底行わるべくもない事は、明らかである、その他梅毒、胃癌、痔瘻（じろう）、喘息、脳炎、中風、結核等、観念論者が想像し得られない病気が、続々治癒される事実である。<br/><br/> これを要するに、薬剤療法に非ず、物理療法に非ず、信仰や祈祷療法に非ず、観念や精神力に非ずして、あらゆる療法によるも、治癒し難い難症の治療率が、八十パーセント以上を挙げつゝあるという、生きた事実である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

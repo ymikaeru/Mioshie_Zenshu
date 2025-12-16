@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>honkyo20</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教発展の主因 『光』1号、昭和24(1949)年3月8日発行 本教団は去る昭和二十二年八月創立宗教法人の認可を得、それから開教の段取りとなったのであって、爾来（じらい）一年六ケ月にして信徒数実に十万を越ゆるのであるから、このような異例の発展は恐らく空前の事であろう。<br><br>最近新間雑誌にラジオに、善かれ悪しかれ批判の的となっている事実は日本全国知らぬものはあるまい、この驚くべき発展ぶりこそは、何人といえどもその原因を知らんとするところであろう、よってここにその原因中の主要と目すべきものを書いてみよう。<br><br> 第一は教主岡田自観先生が発揮する不思議な霊力である、古往今来輩出した幾多の大宗教家、大聖者といえども恐らく表わした事を聞かないところの救いの力である、人生の悲運に歎き、暗黒無明の底に沈淪（ちんりん）していたものが本教の救いによって運命の大転換を来し、幸福者となった人々の数は実に枚挙にいとまない程である、かように病貧争絶無をモットーとする本教団の理想は今現実に現われつつあるのである。<br><br> 以上のごとき起死回生的大いなる救いを体験したるものの感謝感激は申すまでもない、貴重なる自己の生命は全く神様から戴いたものだ、この御恩返しをしなければならない、自分と同じような不幸なものが世間には余りに多い、それらを一人でも多く救わせて戴きたいと誰しも念願せずにはおられないであろう、この感謝感激が底力となって人の心を動かす以上教線は発展せざるを得ないのである。<br><br> 第二は本教に活動しつつあるもののいずれもは皆健康者であって、たまたま罹病しても御手のものの浄霊で速かに恢復する、長く罹病しているものなどはほとんどないといってもよい、世間あらゆる事業において病気のためその任務に影響するところは蓋（けだ）し至大なものがあろう、本教団に限ってその憂いがないという事は実に大なる強みであって、このような事実は世界中どこを探しても類例はあるまい。<br><br> 第三は本教に入信し時日を経るに従い、例外なく貧困が解消する、財物に欠乏するがごとき者などは一人もない、このため本部から生活費を支給さるるものなど極少数の者を除いて全般的にはほとんどないのである、そのような裕かさが活動に後顧の憂なからしむるのである、もちろん本教内には金銭上の不正なども皆無といっていい。<br><br> 以上の外にも種々の特異性はあるが、それらは省略する、これを要するに本教の発展の主因は右の記事だけでおよその認識は付くであろう、自観先生が常に唱えらるる事は、本教は実は宗教ではない、いまだかつて表われた事のない、大いなる救いの業である、と言うのが本当であると示されたが、全くむべなるかなと思うのである。<br><br> ここで御注意すべき事がある、それは日本観音教団と日本五六七教との関係であるが、これは二体同身ともいうべく、なぜ二つに分けたかというと、すべて物には陰陽があり、夫婦があり、経緯（たてよこ）があるごとく、両者長短欠点を補い合い進む事こそ、発展が速かになるのであって、言わば左右の腕ともいえる、これが真理である。<br><br> (注) 沈淪（ちんりん）、深く沈むこと。<br><br>落ちぶれること。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Fator Primordial para o Desenvolvimento da Nossa Igreja</h2>
 <p>Nossa Igreja obteve o reconhecimento como instituição religiosa em agosto de 1947 e, a partir de então, deu início a suas atividades de expansão. No decorrer de apenas um ano e seis meses, o número de fiéis ultrapassou a notável marca de cem mil pessoas, um desenvolvimento extraordinário que talvez não encontre precedentes na história. Recentemente, como é de conhecimento em todo o Japão, tornamo-nos alvo de debates e críticas, tanto favoráveis quanto desfavoráveis, na imprensa, em revistas e no rádio. Diante desse crescimento surpreendente, é natural que todos indaguem sobre suas causas. Portanto, dedicarei as próximas linhas a expor os fatores que considero primordiais para tal progresso.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O terceiro fator reside na superação da pobreza. À medida que o tempo transcorre após o ingresso na fé, os membros, sem exceção, veem sua situação de miséria ser resolvida. Não há entre nós quem padeça por carência de bens materiais. Por essa razão, com exceção de um número ínfimo de casos, praticamente não há necessidade de o Templo Central conceder auxílio de custo aos seus membros. Essa prosperidade permite que se dediquem às suas atividades sem quaisquer preocupações que lhes tolham o porvir. É importante ressaltar, ainda, que a conduta ilícita em assuntos financeiros é algo que se pode considerar inexistente em nosso meio.</p>
 <p>Existem, ademais, outras diversas particularidades, mas que serão aqui omitidas. Em suma, os pontos expostos anteriormente já permitem uma compreensão geral sobre os fatores primordiais para o desenvolvimento de nossa Igreja. O mestre Jikan sempre nos ensina que, em sua essência, nossa fé não é uma religião, mas sim a manifestação de uma grandiosa obra de salvação, jamais vista até hoje. Diante de tudo isso, não posso senão concordar que suas palavras são a mais pura verdade.</p>
 <p>Neste ponto, cumpre fazer um esclarecimento importante a respeito da relação entre a Nihon Kannon Kyodan (日本観音教団) e a Nihon Miroku Kyo (日本五六七教). Ambas devem ser compreendidas como um único corpo em duas manifestações. A razão para essa dualidade reside no princípio de que todas as coisas no universo possuem polaridades complementares, como o yin e o yang, o esposo e a esposa, ou a trama e a urdidura de um tecido. Ao se complementarem mutuamente em suas virtudes e deficiências, o avanço torna-se muito mais célere. Pode-se dizer que são como os braços direito e esquerdo de um mesmo corpo. Esta é a verdade.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教発展の主因 『光』1号、昭和24(1949)年3月8日発行 本教団は去る昭和二十二年八月創立宗教法人の認可を得、それから開教の段取りとなったのであって、爾来（じらい）一年六ケ月にして信徒数実に十万を越ゆるのであるから、このような異例の発展は恐らく空前の事であろう。<br/><br/>最近新間雑誌にラジオに、善かれ悪しかれ批判の的となっている事実は日本全国知らぬものはあるまい、この驚くべき発展ぶりこそは、何人といえどもその原因を知らんとするところであろう、よってここにその原因中の主要と目すべきものを書いてみよう。<br/><br/> 第一は教主岡田自観先生が発揮する不思議な霊力である、古往今来輩出した幾多の大宗教家、大聖者といえども恐らく表わした事を聞かないところの救いの力である、人生の悲運に歎き、暗黒無明の底に沈淪（ちんりん）していたものが本教の救いによって運命の大転換を来し、幸福者となった人々の数は実に枚挙にいとまない程である、かように病貧争絶無をモットーとする本教団の理想は今現実に現われつつあるのである。<br/><br/> 以上のごとき起死回生的大いなる救いを体験したるものの感謝感激は申すまでもない、貴重なる自己の生命は全く神様から戴いたものだ、この御恩返しをしなければならない、自分と同じような不幸なものが世間には余りに多い、それらを一人でも多く救わせて戴きたいと誰しも念願せずにはおられないであろう、この感謝感激が底力となって人の心を動かす以上教線は発展せざるを得ないのである。<br/><br/> 第二は本教に活動しつつあるもののいずれもは皆健康者であって、たまたま罹病しても御手のものの浄霊で速かに恢復する、長く罹病しているものなどはほとんどないといってもよい、世間あらゆる事業において病気のためその任務に影響するところは蓋（けだ）し至大なものがあろう、本教団に限ってその憂いがないという事は実に大なる強みであって、このような事実は世界中どこを探しても類例はあるまい。<br/><br/> 第三は本教に入信し時日を経るに従い、例外なく貧困が解消する、財物に欠乏するがごとき者などは一人もない、このため本部から生活費を支給さるるものなど極少数の者を除いて全般的にはほとんどないのである、そのような裕かさが活動に後顧の憂なからしむるのである、もちろん本教内には金銭上の不正なども皆無といっていい。<br/><br/> 以上の外にも種々の特異性はあるが、それらは省略する、これを要するに本教の発展の主因は右の記事だけでおよその認識は付くであろう、自観先生が常に唱えらるる事は、本教は実は宗教ではない、いまだかつて表われた事のない、大いなる救いの業である、と言うのが本当であると示されたが、全くむべなるかなと思うのである。<br/><br/> ここで御注意すべき事がある、それは日本観音教団と日本五六七教との関係であるが、これは二体同身ともいうべく、なぜ二つに分けたかというと、すべて物には陰陽があり、夫婦があり、経緯（たてよこ）があるごとく、両者長短欠点を補い合い進む事こそ、発展が速かになるのであって、言わば左右の腕ともいえる、これが真理である。<br/><br/> (注) 沈淪（ちんりん）、深く沈むこと。<br/><br/>落ちぶれること。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

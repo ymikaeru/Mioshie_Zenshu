@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syoron</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 緒論 『結核の正体』昭和18(1943)年11月23日発行 私は現下国を賭しての大戦争に直面しつつある我日本の現状を目のあたり見るにおいて、到底晏如（あんじょ）たり得ない大問題がある。<br><br> 近代戦は消耗戦である事は今更いうまでもない。<br><br>官民共に生産の増強に渾身の努力を傾けつつあるのもそれがためである。<br><br>しかるにこの戦力増強に対し、それとおよそ反対結果を来すところの施策が現に行われつつあるという事であって、実に信ずべからざる程の驚くべき事実である。<br><br>しかも国家庇護の下に否国家自身が奨励しつつあるというのであるから、何人といえどもその真相を知るにおいて、驚愕せずにはおかないであろう。<br><br> それは国民一般の健康に関してであるが、私は特に戦力増強の最重要部門である産業戦士諸君及び学徒諸君すなわち青少年層に最も蔓延せりといわるる結核問題であって、ここにこれを論じようとするのである。<br><br> そもそもこの問題は、相当以前から撲滅の目的をもって官民共にあらゆる方策を講じつつあるに拘わらず、今に至るも所期の効果があがらないばかりか、むしろ悪化の傾向さえ認めらるるというのであるから、この際徹底的に解決しなければならない事は今更言うまでもない。<br><br> それについて、私が二十余年にわたっての研究の成果として発見し得たものは、現在行われつつある結核予防対策なるものが、実は結核を増加する方法であるという事である。<br><br>それと共に、私の発見した方法をもってすれば、結核撲滅の目的は完全に達成なし得るという事も告げたいのである。<br><br>従って、この事実を政府はもとより専門家並びに一般同胞諸君の一人にでも多く知らるる事を望むと共に、戦力増強の国家目的に対し、いささかなりとも貢献するを得れば幸いなりと思うのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
 <p>Ao contemplar a presente situação de nosso Japão, que se encontra em meio a uma guerra de proporções colossais, na qual a nação arrisca seu próprio destino, deparo-me com uma questão de magna importância que me impede de permanecer impassível.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Com efeito, há um tempo considerável que governo e povo vêm empreendendo as mais diversas estratégias com o objetivo de erradicar essa enfermidade. Não obstante, os resultados almejados não apenas permanecem inatingidos, como se observa, inclusive, uma nítida tendência de agravamento do quadro. Diante de tal cenário, a necessidade de uma solução cabal e definitiva torna-se inquestionável.</p>
 <p>A esse respeito, a conclusão a que cheguei, como fruto de mais de duas décadas de pesquisa, é assombrosa: as atuais medidas de prevenção contra a tuberculose são, em realidade, um método que promove o seu alastramento. Cumpre-me, ao mesmo tempo, anunciar que, por meio do método por mim descoberto, o objetivo de erradicar essa doença pode ser plenamente alcançado.</p>
 <p>Portanto, anseio que esta verdade seja divulgada ao maior número possível de pessoas, a começar pelas autoridades governamentais, pelos especialistas e por todos os nossos compatriotas. Sentir-me-ei sumamente afortunado se, por meio desta exposição, puder oferecer ainda que uma modesta contribuição para o magno objetivo nacional de fortalecimento de nossa capacidade de combate.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 緒論 『結核の正体』昭和18(1943)年11月23日発行 私は現下国を賭しての大戦争に直面しつつある我日本の現状を目のあたり見るにおいて、到底晏如（あんじょ）たり得ない大問題がある。<br/><br/> 近代戦は消耗戦である事は今更いうまでもない。<br/><br/>官民共に生産の増強に渾身の努力を傾けつつあるのもそれがためである。<br/><br/>しかるにこの戦力増強に対し、それとおよそ反対結果を来すところの施策が現に行われつつあるという事であって、実に信ずべからざる程の驚くべき事実である。<br/><br/>しかも国家庇護の下に否国家自身が奨励しつつあるというのであるから、何人といえどもその真相を知るにおいて、驚愕せずにはおかないであろう。<br/><br/> それは国民一般の健康に関してであるが、私は特に戦力増強の最重要部門である産業戦士諸君及び学徒諸君すなわち青少年層に最も蔓延せりといわるる結核問題であって、ここにこれを論じようとするのである。<br/><br/> そもそもこの問題は、相当以前から撲滅の目的をもって官民共にあらゆる方策を講じつつあるに拘わらず、今に至るも所期の効果があがらないばかりか、むしろ悪化の傾向さえ認めらるるというのであるから、この際徹底的に解決しなければならない事は今更言うまでもない。<br/><br/> それについて、私が二十余年にわたっての研究の成果として発見し得たものは、現在行われつつある結核予防対策なるものが、実は結核を増加する方法であるという事である。<br/><br/>それと共に、私の発見した方法をもってすれば、結核撲滅の目的は完全に達成なし得るという事も告げたいのである。<br/><br/>従って、この事実を政府はもとより専門家並びに一般同胞諸君の一人にでも多く知らるる事を望むと共に、戦力増強の国家目的に対し、いささかなりとも貢献するを得れば幸いなりと思うのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

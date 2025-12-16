@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>tenmo001</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 １ 001-011 太陽 001 黒点と地球の温暖化 太陽の黒点、また北極地方が最近年々暖かくなるという説につき――。<br><br> 黒点は十一年目に大きくなる。<br><br>太陽の呼吸運動によるのである。<br><br> 温度の平均化は、人口の殖えるためである。<br><br> 新陸地発見は、氷が溶けた故である。<br><br>（S24. 7.11） 002 黒点 近時、地球が益々火素強くなり、太陽の一部に黒点現出し、無電を妨害している現状如何。<br><br> 太陽の黒点は、太陽の中心で、果物なら種の中の種のようなものである。<br><br>今は、何か事があると、太陽の黒点のせいにする。<br><br>黒点の故にしても、反証を挙げる事が出来ぬ訳である。<br><br> 003 日月の蝕、神秘について 日蝕及び月蝕の神秘について御教示御願い申し上げます。<br><br> 五六七の型で、日月地になる。<br><br>神秘があるともいえぬ。<br><br>そうなっている。<br><br> 神秘というものは一切が神秘で、特別神秘は決定的のものでない。<br><br> あり得べからざるものがある―等が神秘である。<br><br>（S23. 7.13） 004 日月の円暈 曇天の時「太陽、月」に円い輪が出来る場合がありますが、いかなる訳で御座いましょうか。<br><br> 太陽が傘をかぶる時がある。<br><br>水気が非常に多い時である。<br><br>一種の虹である。<br><br>月の精気が非常に強い。<br><br>月が暈をかぶるのは多い。<br><br> 太陽に放射の光線が水気のため虹になる。<br><br>月が暈を被ると雨が降るとは、その事である。<br><br>（S24. 6. 6） 005 日月出入りに大見する理 太陽や月の出たり入ったりする時、大きく美しく見えるのは、普通光の屈折作用だと言われますが、これは霊的に何か意味がございましょうか。<br><br> 右御教示御願い申し上げます。<br><br> 大きく見えるのは近い訳である。<br><br>（S24. 5.23） 006 太陽紅くみゆる理 昔から太陽の入り際に、非常に赤い時がありますが、そのような場合には何か現界に変化が起ると言う事を聞いておりますが、何か霊的な訳がございましょうか。<br><br> 空気の中にホコリがあると、余計に赤くみえる。<br><br>（S24. 7.19） 007 月の黄金環（日月光の色） 去る五月十一日夜八時頃、月の周辺に黄金色の環が見えました。<br><br>そして十一時頃に普通の状態になりました。<br><br>これはいかなる現象でしょうか。<br><br>お伺い申します。<br><br> 太陽の光の強い時、月に反映して、月の輪の黄色い色が濃い。<br><br> 太陽光は本当は金色で、月は銀色で、金銀になっている。<br><br> これは、神様の事に関係がある。<br><br> 太陽光が強いという事は、浄化力の強い事で、強くなくてはならぬ訳がある。<br><br> 段々火素が強くなるから、太陽の光は強くなる。<br><br>それに関連した事で、これからそういう事もある訳である。<br><br>（S24. 5.25） 008 （暉月と霞ケ浦の日暈）内地の月、外地の月（大小にみゆ） 内地で見る月と外地（中国）で見る月の大きさが異りますが、御説明を御願い致します。<br><br> 月は出タテは大きい。<br><br>上に行くにつれ小さくなる。<br><br>月の軌道は小判型であるから、横からみると大きく、上に行く程小さい。<br><br>支那は、地形が端だからであろう。<br><br>月が傘さす時は、月の水素の濃い時。<br><br>太陽も傘さすが月よりもきれいである。<br><br>虹の一種である。<br><br> 霞ケ浦をお渡りになる時太陽が傘さした。<br><br>暉月の号をおもちになっていた。<br><br>その御名に何か関連があった。<br><br> この時、経津主神（香取）はお留守で、武甕槌神（陸軍、鹿島）はおられ、協力を約された。<br><br>（S24.12.23） 009 月は固体か 月は固体でありますか。<br><br>液体でありますか。<br><br>固体であれば氷結の状態でありましょうか。<br><br> 月は氷塊である。<br><br>月から強い精気を放射している。<br><br>これは強い水気である。<br><br>でなければ太陽熱に溶けてしまう。<br><br> 010 月光の光力 太陽の光は月の光の六十倍と言うように聴き及んでおりますが、先日ラジオで科学的には月光は四十五万六千分の一と申しましたが、これは霊的意味で御座いましょうか。<br><br>御教え願います。<br><br> 光からいえば、月は六十分の一が本当である。<br><br> 四十五万六千分の一は、違う意味からであろう。<br><br>（S24. 2.11） 011 月表面の黒影 月の表面の黒影について御尋ね致します。<br><br> 月の表面の凸凹（月の陰影）、黒い点は柔い恐らく低い所である。<br><br>光線の影となる。<br><br>白い所は硬い。<br><br>硬いほど太陽の光線をよけい受けて光る。<br><br>柔いほど受けない。<br><br>それで陰影出来る。<br><br>（S25. 1.18）
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Coletânea de Dissertações do Mestre Okada Jikanshi</h2>
 <p>Busca de Ensinamentos: help Busca de Materiais: Compêndio Celeste e Terrestre, Parte 1</p>
@@ -138,5 +290,48 @@ function toggleLang(lang) {
 <h4>011 As Sombras na Superfície da Lua</h4>
 <p>Gostaria de inquirir a respeito das sombras escuras na superfície da Lua.</p>
 <p>As irregularidades na superfície lunar, que criam suas sombras, correspondem a áreas mais maleáveis e, provavelmente, de menor altitude. Por essa razão, projetam-se sombras. As partes brancas são mais rígidas. Quanto mais rígida a superfície, mais luz solar ela reflete, e mais brilhante se torna. Inversamente, quanto mais maleável, menos luz ela reflete. É assim que as sombras se formam. (18.01.1950)</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天文、地文篇 １ 001-011 太陽 001 黒点と地球の温暖化 太陽の黒点、また北極地方が最近年々暖かくなるという説につき――。<br/><br/> 黒点は十一年目に大きくなる。<br/><br/>太陽の呼吸運動によるのである。<br/><br/> 温度の平均化は、人口の殖えるためである。<br/><br/> 新陸地発見は、氷が溶けた故である。<br/><br/>（S24. 7.11） 002 黒点 近時、地球が益々火素強くなり、太陽の一部に黒点現出し、無電を妨害している現状如何。<br/><br/> 太陽の黒点は、太陽の中心で、果物なら種の中の種のようなものである。<br/><br/>今は、何か事があると、太陽の黒点のせいにする。<br/><br/>黒点の故にしても、反証を挙げる事が出来ぬ訳である。<br/><br/> 003 日月の蝕、神秘について 日蝕及び月蝕の神秘について御教示御願い申し上げます。<br/><br/> 五六七の型で、日月地になる。<br/><br/>神秘があるともいえぬ。<br/><br/>そうなっている。<br/><br/> 神秘というものは一切が神秘で、特別神秘は決定的のものでない。<br/><br/> あり得べからざるものがある―等が神秘である。<br/><br/>（S23. 7.13） 004 日月の円暈 曇天の時「太陽、月」に円い輪が出来る場合がありますが、いかなる訳で御座いましょうか。<br/><br/> 太陽が傘をかぶる時がある。<br/><br/>水気が非常に多い時である。<br/><br/>一種の虹である。<br/><br/>月の精気が非常に強い。<br/><br/>月が暈をかぶるのは多い。<br/><br/> 太陽に放射の光線が水気のため虹になる。<br/><br/>月が暈を被ると雨が降るとは、その事である。<br/><br/>（S24. 6. 6） 005 日月出入りに大見する理 太陽や月の出たり入ったりする時、大きく美しく見えるのは、普通光の屈折作用だと言われますが、これは霊的に何か意味がございましょうか。<br/><br/> 右御教示御願い申し上げます。<br/><br/> 大きく見えるのは近い訳である。<br/><br/>（S24. 5.23） 006 太陽紅くみゆる理 昔から太陽の入り際に、非常に赤い時がありますが、そのような場合には何か現界に変化が起ると言う事を聞いておりますが、何か霊的な訳がございましょうか。<br/><br/> 空気の中にホコリがあると、余計に赤くみえる。<br/><br/>（S24. 7.19） 007 月の黄金環（日月光の色） 去る五月十一日夜八時頃、月の周辺に黄金色の環が見えました。<br/><br/>そして十一時頃に普通の状態になりました。<br/><br/>これはいかなる現象でしょうか。<br/><br/>お伺い申します。<br/><br/> 太陽の光の強い時、月に反映して、月の輪の黄色い色が濃い。<br/><br/> 太陽光は本当は金色で、月は銀色で、金銀になっている。<br/><br/> これは、神様の事に関係がある。<br/><br/> 太陽光が強いという事は、浄化力の強い事で、強くなくてはならぬ訳がある。<br/><br/> 段々火素が強くなるから、太陽の光は強くなる。<br/><br/>それに関連した事で、これからそういう事もある訳である。<br/><br/>（S24. 5.25） 008 （暉月と霞ケ浦の日暈）内地の月、外地の月（大小にみゆ） 内地で見る月と外地（中国）で見る月の大きさが異りますが、御説明を御願い致します。<br/><br/> 月は出タテは大きい。<br/><br/>上に行くにつれ小さくなる。<br/><br/>月の軌道は小判型であるから、横からみると大きく、上に行く程小さい。<br/><br/>支那は、地形が端だからであろう。<br/><br/>月が傘さす時は、月の水素の濃い時。<br/><br/>太陽も傘さすが月よりもきれいである。<br/><br/>虹の一種である。<br/><br/> 霞ケ浦をお渡りになる時太陽が傘さした。<br/><br/>暉月の号をおもちになっていた。<br/><br/>その御名に何か関連があった。<br/><br/> この時、経津主神（香取）はお留守で、武甕槌神（陸軍、鹿島）はおられ、協力を約された。<br/><br/>（S24.12.23） 009 月は固体か 月は固体でありますか。<br/><br/>液体でありますか。<br/><br/>固体であれば氷結の状態でありましょうか。<br/><br/> 月は氷塊である。<br/><br/>月から強い精気を放射している。<br/><br/>これは強い水気である。<br/><br/>でなければ太陽熱に溶けてしまう。<br/><br/> 010 月光の光力 太陽の光は月の光の六十倍と言うように聴き及んでおりますが、先日ラジオで科学的には月光は四十五万六千分の一と申しましたが、これは霊的意味で御座いましょうか。<br/><br/>御教え願います。<br/><br/> 光からいえば、月は六十分の一が本当である。<br/><br/> 四十五万六千分の一は、違う意味からであろう。<br/><br/>（S24. 2.11） 011 月表面の黒影 月の表面の黒影について御尋ね致します。<br/><br/> 月の表面の凸凹（月の陰影）、黒い点は柔い恐らく低い所である。<br/><br/>光線の影となる。<br/><br/>白い所は硬い。<br/><br/>硬いほど太陽の光線をよけい受けて光る。<br/><br/>柔いほど受けない。<br/><br/>それで陰影出来る。<br/><br/>（S25. 1.18）</div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

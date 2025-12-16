@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qhaimon1</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺門浸潤全治 『結核の革命的療法』昭和26(1951)年8月15日発行 島根県 隆光中教会 大国義夫（25） 太平洋戦争に召集されました私は、昭和二十年十月海南島より復員、同年十一月自宅より八里程離れた松江市のある造船所に会計係として入社し、汽車にて通勤を始めましたが、十一月より翌年三月迄は寒さのため自覚しなかったのか身体に異状なく、四月となりぼつぼつ暖かくなるにつれて、何となく身体がだるくなり、出勤する汽車の中で少し疲労を覚え、会社へ着けば忘れて仕事を済まし、帰りの汽車で又疲れ、一晩休むと又元気になり出勤するというような毎日を繰返す内、遂に全然疲労が回復しないようになり、倦怠感甚しく通勤するのが辛くなり、会社を休み二十一年五月病院に行って診て貰いました。<br><br>その結果、左肺門浸潤と診断、安静するように言われ、会社に病気退社の届を出し、ぶらぶらと遊び、気が向けば畠の草取りもすると言った自然にまかした家庭療養生活を約八カ月続け、身体の疲労もようやく取れましたので、松江の国立病院で再び診て貰いました所、意外にも病気の悪化している事を知らされ、是非入院療養するよう勧められました。<br><br>自覚症状も無いのに一時は不思議に思い、迷いましたが、妹が看護婦をしており、早ければ早い程短かくて済むからと勧めましたので、ようやくその気になり、翌二十二年一月、国立病院島根療養所に入院致しました。<br><br>そして安静又安静と、ただただ安静の一語に尽きる療養生活を始めました。<br><br>療養所は設備も整い、薬も使い、色々と治療してくれるものと思っていましたのに、別段これといった手当もしてくれず、放任的な治療方法なのに驚きました。<br><br>退屈と平凡ななすことなき療養所生活にたまらなくなった私は、いっそ思い切って短期間に勝負をつけてやろうと思い、肺臓外科手術とかを聞きましたところ「一時良くなっただけで数カ年経つと結果は必ず悪くなるから、まあ見合せたら……」と言われ、これは思い止りましたが、今から思えば何という無暴な事を考え付いたことでしよう。<br><br>全くゾッと致します。<br><br>廻りにいる患者は見た所どこが悪いのだろうと不思議に思う程肥えた元気なものが多いのに、聞いて見ると自分はもう七年になる。<br><br>五年になる、僕は三年になるが思わしくないと言う話に、前途は真暗な気持ちになりましたが、外にこれという良い方法もなく、ただただ医者の言う通り、安静安静と毎日を過しました。<br><br>そのため病気はだんだん固まって参りました。<br><br>そして約一年八カ月療養生活を致しましたが、どんどん良くなると言う事にはならず、又周囲の患者の話す状態など見ている内に、これは何年しても医者の方からもう良くなったから退院しても宜いとは言われないかも知れないと言う事に気が付き、又長くなればなる程働く気力が無くなると思い、昭和二十三年九月医者がまだ早い、帰っても安静にして夜ふかしや読書もしないようにと言われましたが、退院しましてぶらぶらと自然に任して家庭で養生しておりました。<br><br>そして一冬越し又暖かくなりましたが、自分で思う程は良くならず、身体に全然自信が持てずだんだん不安を感ずるようになり、もしや悪くなってはいはしないかと、毎日びくびくしながら日を送っておりました所、果せるかな二十四年十一月六日、自転車にて用達しの途中、路上にて少し喀血しました。<br><br>その時は来るべきものが遂に来たと言う感じで大して驚きもせず、静かに自転車に乗って自宅へ帰り、前途に希望のない絶対安静の療養生活に入りました。<br><br>そして自分の死場所として後庭に一間四方の板壁杉皮屋根と言う小屋を立てて貰いました。<br><br>ところが未だ私を神様はお見捨てになられなかったのか、小屋を立てて下さった大工さんが竹内さんと言って親戚に当る人ですが、その人がメシヤ教の信者の方でしたので、おかげ話の出ている新聞を見せて下さいまして「実際に自分の近所でも治った人があるから、物は試しだ、御浄霊を受けて見なさい」と勧められました。<br><br>唯物教育を受けた私は神の力で病気がよくなると言う事は、今迄信じませんでしたが、新聞を読ませて頂いた時、あるいは助けて貰えるかも知れないと言う感じを受けましたので、喀血してから二十八日目の十二月三日、近所へ御出張になりました大津町教会の田中先生に、初めて御浄霊を受けました。<br><br>そして「必ず良くなります。<br><br>但し二回や三回の御浄霊では良くなりませんから、続けておやりなさい」と力強い言葉に励まされ、前途に何か明るい希望を見出し、毎日毎日一生懸命に大津町教会に通い、御浄霊を受けるようになりました。<br><br>そして先生の御話を聞き、明主様の御著書を拝読さして頂き、だんだんと御浄霊の意味も分り、今迄の安静療法の間違いを知り、色々と家の手伝もするようになり、病気に対する恐れと言うものが薄くなり、一生懸命に念ずれば必ず救って頂けるという安心立命と言った感じになり、身体も自分でも驚く程軽くなりこそこそと動きますので、却って家の者が余り無理をせず、少しは安静にしたらと言う程になりました。<br><br>そして同年十二月二十九日御守様を拝授さして頂き益々身も心も軽くなり、ただ今では命を与えられし、御恵みの万分の一にも足りませぬが、隆光中教会会長石坂先生並びに大津町教会田中先生の御指導に依り、御神業の御手伝いをさして戴いております。<br><br> 明主様、日月地大御神様、希望なき暗黒無明の世界より光明世界に生れ変らして頂きました事を、深く深く御礼申上げます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Cura completa de infiltração no hilo pulmonar (Extraído de “A Terapêutica Revolucionária da Tuberculose”, 15 de agosto de 1951)</h2>
 <p><strong>Yoshio Okuni (25 anos) | Igreja Ryuko-Tyu, Província de Shimane</strong></p>
@@ -98,5 +253,48 @@ function toggleLang(lang) {
 <p>Entretanto, parecia que Deus ainda não me havia abandonado. O carpinteiro que construiu a cabana, um parente chamado Takeuchi, era membro da Igreja Messiânica. Ele me mostrou um jornal que continha relatos de milagres e me incentivou: “Há pessoas em minha própria vizinhança que foram curadas. Experimente, não custa nada. Tente receber Johrei”. Tendo recebido uma educação materialista, eu jamais acreditara que uma doença pudesse ser curada pelo poder de Deus. No entanto, ao ler aquele jornal, senti que talvez ali houvesse uma esperança de salvação. Assim, no dia 3 de dezembro, vinte e oito dias após a hemoptise, recebi Johrei pela primeira vez das mãos do ministro Tanaka, da Igreja Otsu-machi, que estava em visita à vizinhança. “O senhor certamente ficará bom. Contudo, a cura não virá com duas ou três sessões de Johrei; é preciso perseverar”, ele me disse. Suas palavras vigorosas me encorajaram e me fizeram vislumbrar uma luz de esperança no futuro. Passei, então, a frequentar a Igreja Otsu-machi todos os dias, com a máxima dedicação, para receber Johrei.</p>
 <p>Por meio dos sermões do ministro e da leitura reverente dos Escritos de Meishu-Sama, passei a compreender gradualmente o significado do Johrei e o equívoco do tratamento baseado unicamente no repouso. Comecei a ajudar nas tarefas domésticas e o temor que eu nutria pela doença foi se dissipando. Fui preenchido por um sentimento de paz e confiança absoluta, a certeza de que, orando com fervor, eu seria salvo. Meu corpo tornou-se tão leve que me surpreendia, e comecei a me movimentar com tanto desembaraço que minha família, preocupada, pedia que eu não exagerasse e descansasse um pouco. Em 29 de dezembro daquele mesmo ano, tive a permissão de receber a Medalha da Luz Divina, e meu corpo e minha alma se tornaram ainda mais leves. Atualmente, como uma forma de retribuir, ainda que minimamente, a imensa graça da vida que me foi concedida, e sob a orientação do ministro Ishizaka, responsável pela Igreja Ryuko-Tyu, e do ministro Tanaka, da Igreja Otsu-machi, tenho a permissão de servir na Obra Divina.</p>
 <p>Meishu-Sama, Deus Supremo, expresso minha mais profunda e sincera gratidão por me ter sido concedido renascer de um mundo de trevas e desesperança para o Mundo de Luz.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 肺門浸潤全治 『結核の革命的療法』昭和26(1951)年8月15日発行 島根県 隆光中教会 大国義夫（25） 太平洋戦争に召集されました私は、昭和二十年十月海南島より復員、同年十一月自宅より八里程離れた松江市のある造船所に会計係として入社し、汽車にて通勤を始めましたが、十一月より翌年三月迄は寒さのため自覚しなかったのか身体に異状なく、四月となりぼつぼつ暖かくなるにつれて、何となく身体がだるくなり、出勤する汽車の中で少し疲労を覚え、会社へ着けば忘れて仕事を済まし、帰りの汽車で又疲れ、一晩休むと又元気になり出勤するというような毎日を繰返す内、遂に全然疲労が回復しないようになり、倦怠感甚しく通勤するのが辛くなり、会社を休み二十一年五月病院に行って診て貰いました。<br/><br/>その結果、左肺門浸潤と診断、安静するように言われ、会社に病気退社の届を出し、ぶらぶらと遊び、気が向けば畠の草取りもすると言った自然にまかした家庭療養生活を約八カ月続け、身体の疲労もようやく取れましたので、松江の国立病院で再び診て貰いました所、意外にも病気の悪化している事を知らされ、是非入院療養するよう勧められました。<br/><br/>自覚症状も無いのに一時は不思議に思い、迷いましたが、妹が看護婦をしており、早ければ早い程短かくて済むからと勧めましたので、ようやくその気になり、翌二十二年一月、国立病院島根療養所に入院致しました。<br/><br/>そして安静又安静と、ただただ安静の一語に尽きる療養生活を始めました。<br/><br/>療養所は設備も整い、薬も使い、色々と治療してくれるものと思っていましたのに、別段これといった手当もしてくれず、放任的な治療方法なのに驚きました。<br/><br/>退屈と平凡ななすことなき療養所生活にたまらなくなった私は、いっそ思い切って短期間に勝負をつけてやろうと思い、肺臓外科手術とかを聞きましたところ「一時良くなっただけで数カ年経つと結果は必ず悪くなるから、まあ見合せたら……」と言われ、これは思い止りましたが、今から思えば何という無暴な事を考え付いたことでしよう。<br/><br/>全くゾッと致します。<br/><br/>廻りにいる患者は見た所どこが悪いのだろうと不思議に思う程肥えた元気なものが多いのに、聞いて見ると自分はもう七年になる。<br/><br/>五年になる、僕は三年になるが思わしくないと言う話に、前途は真暗な気持ちになりましたが、外にこれという良い方法もなく、ただただ医者の言う通り、安静安静と毎日を過しました。<br/><br/>そのため病気はだんだん固まって参りました。<br/><br/>そして約一年八カ月療養生活を致しましたが、どんどん良くなると言う事にはならず、又周囲の患者の話す状態など見ている内に、これは何年しても医者の方からもう良くなったから退院しても宜いとは言われないかも知れないと言う事に気が付き、又長くなればなる程働く気力が無くなると思い、昭和二十三年九月医者がまだ早い、帰っても安静にして夜ふかしや読書もしないようにと言われましたが、退院しましてぶらぶらと自然に任して家庭で養生しておりました。<br/><br/>そして一冬越し又暖かくなりましたが、自分で思う程は良くならず、身体に全然自信が持てずだんだん不安を感ずるようになり、もしや悪くなってはいはしないかと、毎日びくびくしながら日を送っておりました所、果せるかな二十四年十一月六日、自転車にて用達しの途中、路上にて少し喀血しました。<br/><br/>その時は来るべきものが遂に来たと言う感じで大して驚きもせず、静かに自転車に乗って自宅へ帰り、前途に希望のない絶対安静の療養生活に入りました。<br/><br/>そして自分の死場所として後庭に一間四方の板壁杉皮屋根と言う小屋を立てて貰いました。<br/><br/>ところが未だ私を神様はお見捨てになられなかったのか、小屋を立てて下さった大工さんが竹内さんと言って親戚に当る人ですが、その人がメシヤ教の信者の方でしたので、おかげ話の出ている新聞を見せて下さいまして「実際に自分の近所でも治った人があるから、物は試しだ、御浄霊を受けて見なさい」と勧められました。<br/><br/>唯物教育を受けた私は神の力で病気がよくなると言う事は、今迄信じませんでしたが、新聞を読ませて頂いた時、あるいは助けて貰えるかも知れないと言う感じを受けましたので、喀血してから二十八日目の十二月三日、近所へ御出張になりました大津町教会の田中先生に、初めて御浄霊を受けました。<br/><br/>そして「必ず良くなります。<br/><br/>但し二回や三回の御浄霊では良くなりませんから、続けておやりなさい」と力強い言葉に励まされ、前途に何か明るい希望を見出し、毎日毎日一生懸命に大津町教会に通い、御浄霊を受けるようになりました。<br/><br/>そして先生の御話を聞き、明主様の御著書を拝読さして頂き、だんだんと御浄霊の意味も分り、今迄の安静療法の間違いを知り、色々と家の手伝もするようになり、病気に対する恐れと言うものが薄くなり、一生懸命に念ずれば必ず救って頂けるという安心立命と言った感じになり、身体も自分でも驚く程軽くなりこそこそと動きますので、却って家の者が余り無理をせず、少しは安静にしたらと言う程になりました。<br/><br/>そして同年十二月二十九日御守様を拝授さして頂き益々身も心も軽くなり、ただ今では命を与えられし、御恵みの万分の一にも足りませぬが、隆光中教会会長石坂先生並びに大津町教会田中先生の御指導に依り、御神業の御手伝いをさして戴いております。<br/><br/> 明主様、日月地大御神様、希望なき暗黒無明の世界より光明世界に生れ変らして頂きました事を、深く深く御礼申上げます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

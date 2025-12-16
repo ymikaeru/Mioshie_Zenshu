@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>syakai03</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会悪は環境か否か 『光』10号、昭和24(1949)年5月25日発行 昔から「恒産あれば恒心あり」といい、人間が物質に不自由しなくなれば言行も良くなるというのである、そうして今日の世相は実に社会悪に満たされているが、その原因は物資欠乏のためと解釈している識者の少なからずある事である、なる程それも一部の真理には違いないが決して根本的のものではない、もしそれが真原因とすれば、物質裕かな者は正しい人間であるはずであるが事実はそうはゆかない、衣食足りていながら不正行為をするものの数も夥（おびただ）しいものがある、時によると貧困者よりも世をみだし害毒を与える方が大きい場合もある、それは金銭の力によって住宅難の今日、多くの邸宅を占有し、ほとんど空屋同様にしている事や、金銭の力で多くの婦女子を玩弄物視し道義を乱したり、社会の下積みになっている弱小者を、金力で自由を奪い、ウダツが上がらないようにし、政界を腐敗さし、子女の入学の際教育者を堕落さしたり、その他数え上げれば枚挙にいとまない程である。<br><br> 以上の事実によってみても社会悪増加の原因は物質不足のみではない事は明らかである、これらによってみても、社会悪の根源は吾らが常に唱えるごとく、信仰心の欠乏からでそこに真の原因があるのである、ゆえにその原因を解決せざる限り社会悪の根絶は思いもよらない事でそれにはどうしても力ある宗教の出現こそ絶対解決の基本である。<br><br> 次に今日の文化人の考え方の非常に間違っている点を指摘してみよう、それは何であるかというとすべての罪を他に転嫁する癖がある、もっともこの考え方の中心をなすものは彼のマルクス思想の影響であろう、彼の社会主義理論が人間不幸の原因をすべて社会の組織機構が悪いためとしている事である、なる程社会の組織も機構も、より良く改革するのは必要であるがさらばといって人間の不幸の原因がそれだけに決めてしまう事は大なる誤謬である、いかに理想的組織機構が造られたとしても、個々人の考え方や行動が誤っていれば組織機構の運営がスムーズにゆくはずがない、必ず破綻を生ずる、ゆえにどうしても個々人の心性を善くする事こそ本当の解決法でいわば人間が主で社会組織は、従と見るべきである。<br><br> 以上のごとき誤った考え方は全く唯物思想から発生した事はもちろんで、唯物主義においては人間の霊性を認めない、物質理論のみで解決しようとするそこに大きな誤因がある、その結果として何でもかんでも自己の言動を正当づけ罪を他に転嫁しようとする、ところが事実は罪のほとんどは自己自身にある事で、その事がしっかり認識さえ出来れば、謙譲の徳も博愛精神も自ら現れるから、平和な幸福社会が実現するのである、これこそ宗教信仰によるより外方法は決してない。<br><br> 社会革命の理念とする他動的罪悪感は、社会組織を破壊せんがための目的から罪を自己に帰せずして社会組織に振向けるという理論によって民衆を踊らせるのであるから、人間はこの意味をよく認識し、従来の過誤を清算し新たなる出発をなすべきである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Mal Social: Uma Questão Ambiental ou Espiritual?</h2>
 <p>Desde a antiguidade, há um ditado que afirma: “Onde há prosperidade, há virtude”. Com base nesse raciocínio, muitos intelectuais contemporâneos interpretam os males que assolam a sociedade como um mero reflexo da carência material. Embora tal perspectiva contenha uma parcela de verdade, ela está longe de alcançar a raiz do problema. Afinal, se a escassez fosse a causa primordial, os abastados deveriam ser exemplos de retidão.</p>
@@ -98,5 +250,48 @@ function toggleLang(lang) {
 <p>Gostaria de apontar, agora, outro equívoco grave no pensamento dos intelectuais de nosso tempo. Refiro-me à tendência de transferir para terceiros a responsabilidade por toda e qualquer transgressão. A influência do pensamento marxista parece ser o pilar dessa mentalidade. Sua teoria socialista atribui a infelicidade humana exclusivamente às falhas na organização e na estrutura da sociedade. Certamente, reformar e aprimorar as estruturas sociais é necessário. Todavia, constitui um erro colossal determinar que nelas reside a única causa do infortúnio humano. Por mais ideal que seja a estrutura concebida, se os pensamentos e as ações de cada indivíduo forem equivocados, seu funcionamento jamais será harmonioso; o colapso será inevitável. Depreende-se, pois, que a verdadeira solução consiste em aprimorar o caráter de cada pessoa. Em outras palavras, o ser humano deve ser visto como o elemento principal, e a organização social, como o elemento secundário.</p>
 <p>Essa forma de pensar equivocada, naturalmente, origina-se do materialismo. A doutrina materialista não reconhece a espiritualidade humana e, ao tentar solucionar tudo com base apenas na matéria, incorre em um erro fundamental. Como resultado, o indivíduo busca justificar suas próprias palavras e atos a qualquer custo, projetando a culpa nos outros. A realidade, entretanto, é que a maior parte da culpa reside em nós mesmos. A partir do momento em que essa verdade for firmemente compreendida, a virtude da humildade e o espírito de amor fraterno emergirão espontaneamente. E assim, uma sociedade pacífica e feliz se tornará realidade. Não há, em absoluto, outro caminho para alcançar tal objetivo senão por meio da fé religiosa.</p>
 <p>A noção de uma “culpa passiva”, atribuída a fatores externos, é um ideal de revolução social. Seu propósito é incitar as massas por meio de uma teoria que desvia a culpa do indivíduo para a estrutura social, visando, com isso, à sua destruição. É imperativo que a humanidade compreenda profundamente essa manobra, liquide os equívocos do passado e dê início a um novo porvir.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会悪は環境か否か 『光』10号、昭和24(1949)年5月25日発行 昔から「恒産あれば恒心あり」といい、人間が物質に不自由しなくなれば言行も良くなるというのである、そうして今日の世相は実に社会悪に満たされているが、その原因は物資欠乏のためと解釈している識者の少なからずある事である、なる程それも一部の真理には違いないが決して根本的のものではない、もしそれが真原因とすれば、物質裕かな者は正しい人間であるはずであるが事実はそうはゆかない、衣食足りていながら不正行為をするものの数も夥（おびただ）しいものがある、時によると貧困者よりも世をみだし害毒を与える方が大きい場合もある、それは金銭の力によって住宅難の今日、多くの邸宅を占有し、ほとんど空屋同様にしている事や、金銭の力で多くの婦女子を玩弄物視し道義を乱したり、社会の下積みになっている弱小者を、金力で自由を奪い、ウダツが上がらないようにし、政界を腐敗さし、子女の入学の際教育者を堕落さしたり、その他数え上げれば枚挙にいとまない程である。<br/><br/> 以上の事実によってみても社会悪増加の原因は物質不足のみではない事は明らかである、これらによってみても、社会悪の根源は吾らが常に唱えるごとく、信仰心の欠乏からでそこに真の原因があるのである、ゆえにその原因を解決せざる限り社会悪の根絶は思いもよらない事でそれにはどうしても力ある宗教の出現こそ絶対解決の基本である。<br/><br/> 次に今日の文化人の考え方の非常に間違っている点を指摘してみよう、それは何であるかというとすべての罪を他に転嫁する癖がある、もっともこの考え方の中心をなすものは彼のマルクス思想の影響であろう、彼の社会主義理論が人間不幸の原因をすべて社会の組織機構が悪いためとしている事である、なる程社会の組織も機構も、より良く改革するのは必要であるがさらばといって人間の不幸の原因がそれだけに決めてしまう事は大なる誤謬である、いかに理想的組織機構が造られたとしても、個々人の考え方や行動が誤っていれば組織機構の運営がスムーズにゆくはずがない、必ず破綻を生ずる、ゆえにどうしても個々人の心性を善くする事こそ本当の解決法でいわば人間が主で社会組織は、従と見るべきである。<br/><br/> 以上のごとき誤った考え方は全く唯物思想から発生した事はもちろんで、唯物主義においては人間の霊性を認めない、物質理論のみで解決しようとするそこに大きな誤因がある、その結果として何でもかんでも自己の言動を正当づけ罪を他に転嫁しようとする、ところが事実は罪のほとんどは自己自身にある事で、その事がしっかり認識さえ出来れば、謙譲の徳も博愛精神も自ら現れるから、平和な幸福社会が実現するのである、これこそ宗教信仰によるより外方法は決してない。<br/><br/> 社会革命の理念とする他動的罪悪感は、社会組織を破壊せんがための目的から罪を自己に帰せずして社会組織に振向けるという理論によって民衆を踊らせるのであるから、人間はこの意味をよく認識し、従来の過誤を清算し新たなる出発をなすべきである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

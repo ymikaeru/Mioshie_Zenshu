@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kannon24</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音心は即大和魂の根元なり 之に依て白人の迷盲を打破せよ 『東方の光』6号、昭和10(1935)年6月 日発行 そもそも我国民は祖先以来、忠孝義烈、貞操等の道義観念が旺んであったことは、到底、他国民に見ない所であって今に至るも、忠臣義士、孝子烈婦の涙ぐましい、美談逸話が、我々の魂を、いかに鼓舞激励しつゝあるかは、蓋（けだ）し想像以上大なるものがあるであろう。<br><br>勿論、これらの事蹟悉（ことごと）くが、大和魂の発露である事は、言うまでもないのであるが、今吾らが提唱せんとする「大和魂即観音心」なるものは、別方面であって、その目的とする所は、大和魂の再認識であり、世界的拡充に外ならないのである。<br><br> 大和魂とは、読んで字のごとく、大いに和する、即ち、大和合心であり、大調和道である。<br><br>飜（ひるがえ）って、吾ら祖先が、歴史の上に、いかに活躍したかを見る時、そこに、一種独特のある物を、見出すであろう。<br><br>それは何か、戦国史を見る時、多くの戦の場合、国内戦にしても、国外戦にあっても、そのほとんどが、大義名分を本としないものは、ないのであって、彼の外国の歴史にみるがごとき、一英雄豪傑が、自己の野望を満足さす為、多くの精霊を犠牲に供したことなどに比べて、天地雲泥の差があるのである。<br><br> 彼我（ひが）の武器を見ても分るごとく、彼は、一人でも多くの敵を殺戮（さつりく）すべく苦心努力の結果、ダイナマイトを発明し、今日見るがごとき一瞬にして、何千何万人を殲滅（せんめつ）せしむべき実に恐るべき、武器となったのであって、我国の古（いにしえ）えの武士が、守らんが為に武を練り、陣中といえども、詩歌（しいか）を楽しむという床しさや又は武具の名工が、天下泰平を思念しつゝ謹作し、その拵（こしら）え等、一個の芸術品化せるにみても、その精神的発露の上下優劣が、はっきりしていると思うのである。<br><br> この故に、彼は覇道によって、権力を以て、民を治めるのに反し、我は皇道により、陛下の大御稜威（おおみいづ）により、克（よ）く民は悦服し、好く治まるのである。<br><br>故に、彼は治めるのであって、我は治まるのである。<br><br>今日、新しい政治形態として、相当の憧憬を持つファッショも、ナチスも、実は「新しい衣」を着せた覇道に外ならないのである。<br><br> 随ってどうしても、全世界をして真の平和楽土にするには、この日本の道義を根本とせる、上御一人（かみごいちにん）の大御稜威に全世界を洽（あまね）く光被し全人類が、心から悦服するのでなければ、絶対に、実現するはずがないのである。<br><br>これが「大家族主義」であり、大和合である。<br><br>言い換えれば、これが日本精神即ち大和魂である。<br><br>であるから大和魂には、理論も、弁証法もない、大慈悲と感謝報恩のみである。<br><br>ちょうど、嬉しいとか、有難いとか云う場合、又は子が可愛いとか、人を恋するとかいう時に、何ら理屈がないのと同じ理である。<br><br> 今述べた、大和魂こそ即観音心であってそれを行動に表わすことが、観音行であり、それによって一切が解決し、光明世界が建設されてゆく力こそ「観音力」であるのである。<br><br>故に、我国今後の国是としては一方、いかなる国といえども、犯すこと能わざる武備を、厳（げん）として充実すると共に、他方外に向っては、いよいよ大調和の精神を発揮し、弱国に向っては、飽くまで大慈悲心を以て相扶（たす）くると倶（とも）に、強国に向っては、私心なき世界平和の方策を理路整然と主張し、一歩も退かぬという、勇猛心を以て望まなければならないのである。<br><br> かくして現在みるごとき、欧米の表裡反覆常なき欺瞞的、平和軍縮政策が、却って反対に戦争を招来する、結果となるので、現に今日々の新聞電報に見るごとく、又しても欧州大戦の二の舞を、演ずる恐れある危険なる空気を醸成しつゝあるに見て、彼らがいかに、浅慮（せんりょ）愚盲（ぐもう）なるか、これら迷夢を打破すべき、正論を、どしどし彼らに対して、吹き込まなければならないと思うのである。<br><br> これが、観世音菩薩の本願であって、大和魂の世界的発揮であり、それが、日本人に課せられたる「大使命」でなければならないのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Coração de Kannon como Raiz do Espírito Japonês</h2>
 <p>Desde tempos imemoriais, o povo de nossa nação cultiva um senso de moralidade alicerçado na lealdade, na devoção filial, na retidão e na pureza, em um grau que dificilmente se encontra em outros povos. Até os dias de hoje, os relatos comoventes de vassalos leais, heróis justos, filhos devotos e mulheres virtuosas continuam a inspirar e a fortalecer nossa alma de maneira que transcende a imaginação. Naturalmente, todas essas realizações são manifestações do espírito japonês, o Yamato-damashii. Contudo, a tese que ora propomos — de que ‘o espírito japonês é o próprio coração de Kannon’ — possui um enfoque distinto. Seu propósito reside em uma redescoberta desse espírito e, fundamentalmente, em sua expansão em escala mundial.</p>
@@ -99,5 +251,48 @@ function toggleLang(lang) {
 <p>Nesse sentido, a futura política nacional do Japão deve assentar-se em dois pilares. Por um lado, cumpre-nos consolidar uma defesa militar tão robusta que nenhuma nação ouse nos ofender. Por outro, no âmbito externo, devemos manifestar com vigor cada vez maior o espírito da grande harmonia. Para com as nações mais frágeis, é nosso dever demonstrar infinita compaixão e oferecer auxílio mútuo; diante das nações poderosas, compete-nos defender, com lógica irrefutável e coragem indômita, um plano altruísta para a paz mundial, sem jamais recuar um único passo.</p>
 <p>Observamos, assim, que as políticas de paz e desarmamento do Ocidente, dúbias e enganosas, acabam, por ironia, incitando a própria guerra que pretendem evitar. As notícias diárias já prenunciam o perigo de uma repetição da Grande Guerra Europeia, o que evidencia a insensatez e a cega imprudência de seus líderes. É nosso dever, portanto, apresentar-lhes incansavelmente a doutrina correta, a fim de despedaçar as perigosas ilusões que os dominam.</p>
 <p>Este é o voto primordial do Bodhisattva Kannon. Esta é a manifestação global do Yamato-damashii. E esta, indubitavelmente, deve ser a Grande Missão confiada ao povo japonês.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音心は即大和魂の根元なり 之に依て白人の迷盲を打破せよ 『東方の光』6号、昭和10(1935)年6月 日発行 そもそも我国民は祖先以来、忠孝義烈、貞操等の道義観念が旺んであったことは、到底、他国民に見ない所であって今に至るも、忠臣義士、孝子烈婦の涙ぐましい、美談逸話が、我々の魂を、いかに鼓舞激励しつゝあるかは、蓋（けだ）し想像以上大なるものがあるであろう。<br/><br/>勿論、これらの事蹟悉（ことごと）くが、大和魂の発露である事は、言うまでもないのであるが、今吾らが提唱せんとする「大和魂即観音心」なるものは、別方面であって、その目的とする所は、大和魂の再認識であり、世界的拡充に外ならないのである。<br/><br/> 大和魂とは、読んで字のごとく、大いに和する、即ち、大和合心であり、大調和道である。<br/><br/>飜（ひるがえ）って、吾ら祖先が、歴史の上に、いかに活躍したかを見る時、そこに、一種独特のある物を、見出すであろう。<br/><br/>それは何か、戦国史を見る時、多くの戦の場合、国内戦にしても、国外戦にあっても、そのほとんどが、大義名分を本としないものは、ないのであって、彼の外国の歴史にみるがごとき、一英雄豪傑が、自己の野望を満足さす為、多くの精霊を犠牲に供したことなどに比べて、天地雲泥の差があるのである。<br/><br/> 彼我（ひが）の武器を見ても分るごとく、彼は、一人でも多くの敵を殺戮（さつりく）すべく苦心努力の結果、ダイナマイトを発明し、今日見るがごとき一瞬にして、何千何万人を殲滅（せんめつ）せしむべき実に恐るべき、武器となったのであって、我国の古（いにしえ）えの武士が、守らんが為に武を練り、陣中といえども、詩歌（しいか）を楽しむという床しさや又は武具の名工が、天下泰平を思念しつゝ謹作し、その拵（こしら）え等、一個の芸術品化せるにみても、その精神的発露の上下優劣が、はっきりしていると思うのである。<br/><br/> この故に、彼は覇道によって、権力を以て、民を治めるのに反し、我は皇道により、陛下の大御稜威（おおみいづ）により、克（よ）く民は悦服し、好く治まるのである。<br/><br/>故に、彼は治めるのであって、我は治まるのである。<br/><br/>今日、新しい政治形態として、相当の憧憬を持つファッショも、ナチスも、実は「新しい衣」を着せた覇道に外ならないのである。<br/><br/> 随ってどうしても、全世界をして真の平和楽土にするには、この日本の道義を根本とせる、上御一人（かみごいちにん）の大御稜威に全世界を洽（あまね）く光被し全人類が、心から悦服するのでなければ、絶対に、実現するはずがないのである。<br/><br/>これが「大家族主義」であり、大和合である。<br/><br/>言い換えれば、これが日本精神即ち大和魂である。<br/><br/>であるから大和魂には、理論も、弁証法もない、大慈悲と感謝報恩のみである。<br/><br/>ちょうど、嬉しいとか、有難いとか云う場合、又は子が可愛いとか、人を恋するとかいう時に、何ら理屈がないのと同じ理である。<br/><br/> 今述べた、大和魂こそ即観音心であってそれを行動に表わすことが、観音行であり、それによって一切が解決し、光明世界が建設されてゆく力こそ「観音力」であるのである。<br/><br/>故に、我国今後の国是としては一方、いかなる国といえども、犯すこと能わざる武備を、厳（げん）として充実すると共に、他方外に向っては、いよいよ大調和の精神を発揮し、弱国に向っては、飽くまで大慈悲心を以て相扶（たす）くると倶（とも）に、強国に向っては、私心なき世界平和の方策を理路整然と主張し、一歩も退かぬという、勇猛心を以て望まなければならないのである。<br/><br/> かくして現在みるごとき、欧米の表裡反覆常なき欺瞞的、平和軍縮政策が、却って反対に戦争を招来する、結果となるので、現に今日々の新聞電報に見るごとく、又しても欧州大戦の二の舞を、演ずる恐れある危険なる空気を醸成しつゝあるに見て、彼らがいかに、浅慮（せんりょ）愚盲（ぐもう）なるか、これら迷夢を打破すべき、正論を、どしどし彼らに対して、吹き込まなければならないと思うのである。<br/><br/> これが、観世音菩薩の本願であって、大和魂の世界的発揮であり、それが、日本人に課せられたる「大使命」でなければならないのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

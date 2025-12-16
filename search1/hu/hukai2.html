@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>hukai2</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不快感及び嘔吐 『天国の福音』昭和22(1947)年2月5日発行 ここに不快感といっても一様ではない。<br><br>おもなる症状を記せば嘔気（はきけ）、痙攣、船車の酔、憂欝〔鬱〕感等であろう。<br><br>そうして最も多いのは嘔気である。<br><br>この原因は脳貧血による胃の反射作用と高熱、食物中毒、薬剤中毒、溜飲、幽門狭窄（ゆうもんきょうさく）、妊娠の場合等である。<br><br> 脳貧血が強度に発生する時必ず嘔吐を伴うものである。<br><br>この際額に掌を触るれば氷のごとく冷え、膏（あぶら）汗を掻き、顔面蒼白を呈するので、脳貧血を確認するのである。<br><br>この際頚部及び延髄部を探れば必ず固結がある。<br><br>その固結を溶解施術すれば速かに快癒する。<br><br>その訳は固結の圧迫が消え、血液が頭脳に流通し得るようになるからである。<br><br> また高熱による頭脳浄化の場合、脳貧血と等しく胃の反射作用を起し、嘔吐の原因となる事もある。<br><br> 食物中毒は食物中の毒素を体外に排泄すべき浄化作用であり、多くは下痢が伴うものである。<br><br> 薬剤中毒は、年月を経て一旦吸収された薬剤が、胃内に還元する。<br><br>その場合一種の毒素となり嘔吐するのであるから、かかる場合服用せる薬剤の臭いがする事がある。<br><br> 溜飲は胃中に流入せし胆汁が、胃弱のため嘔吐するのである。<br><br> 幽門狭窄による嘔吐は、胃によって消化せる食餌が幽門狭窄のため下降し難いから逆流せんとするためである。<br><br>故にかかる場合、柔軟食または流動食なれば狭窄せる幽門も通過しやすいから嘔気は起らないのである。<br><br> 悪阻（つわり）は胃の外部に滞溜凝結せる毒素が子宮の膨脹によって外部へ排泄されんとするためであるから、この毒素を溶解排除する事によって容易に治癒するのである。<br><br> 痙攣は霊的原因と高熱発生時の悪寒の二原因があるが、霊的説明は最後の付録中に詳説する。<br><br> 船車の酔は、胃の外部に毒結あり、それが動揺によって少しずつ溶解、胃内に滲透するためである。<br><br>憂欝感は霊的の場合、または胃の不活発、黄疸（おうだん）、脳貧血または肩及び背部の凝り等である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem do Desconforto e do Vômito</h2>
 <p>Embora nos refiramos ao desconforto, suas manifestações não são uniformes. Dentre os principais sintomas, podemos citar a náusea, as convulsões, o enjoo em veículos e a sensação de melancolia. Dentre estes, a náusea é, sem dúvida, o mais recorrente. Sua origem pode advir de diversas condições, como a reação reflexa do estômago decorrente da anemia cerebral, febre alta, intoxicação alimentar ou medicamentosa, refluxo biliar, estenose pilórica e, por fim, a gestação.</p>
@@ -97,5 +249,48 @@ function toggleLang(lang) {
 <p>O refluxo biliar acontece quando a bile, ao adentrar o estômago, é expelida em virtude da debilidade deste órgão. O vômito decorrente da estenose pilórica, por seu turno, é causado pelo refluxo do alimento digerido, que encontra dificuldade para descer através do piloro estreitado. Portanto, em quadros como este, a ingestão de alimentos pastosos ou líquidos facilita a passagem e evita a náusea. Quanto ao enjoo gestacional, ele se origina da tentativa de expulsão de toxinas solidificadas e acumuladas na parte externa do estômago, impulsionadas pela expansão do útero. Consequentemente, a dissolução e eliminação dessas toxinas leva à sua fácil cura.</p>
 <p>As convulsões advêm de duas causas: uma de natureza espiritual e outra relacionada aos calafrios que acompanham a febre alta. A explicação de ordem espiritual será detalhada no apêndice ao final deste volume.</p>
 <p>O enjoo em veículos ocorre porque um nódulo de toxinas, localizado na parte externa do estômago, dissolve-se gradualmente com o movimento e se infiltra no órgão. Finalmente, a sensação de melancolia pode ter origem espiritual ou ser consequência da inatividade gástrica, da icterícia, da anemia cerebral ou de enrijecimentos nos ombros e nas costas.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不快感及び嘔吐 『天国の福音』昭和22(1947)年2月5日発行 ここに不快感といっても一様ではない。<br/><br/>おもなる症状を記せば嘔気（はきけ）、痙攣、船車の酔、憂欝〔鬱〕感等であろう。<br/><br/>そうして最も多いのは嘔気である。<br/><br/>この原因は脳貧血による胃の反射作用と高熱、食物中毒、薬剤中毒、溜飲、幽門狭窄（ゆうもんきょうさく）、妊娠の場合等である。<br/><br/> 脳貧血が強度に発生する時必ず嘔吐を伴うものである。<br/><br/>この際額に掌を触るれば氷のごとく冷え、膏（あぶら）汗を掻き、顔面蒼白を呈するので、脳貧血を確認するのである。<br/><br/>この際頚部及び延髄部を探れば必ず固結がある。<br/><br/>その固結を溶解施術すれば速かに快癒する。<br/><br/>その訳は固結の圧迫が消え、血液が頭脳に流通し得るようになるからである。<br/><br/> また高熱による頭脳浄化の場合、脳貧血と等しく胃の反射作用を起し、嘔吐の原因となる事もある。<br/><br/> 食物中毒は食物中の毒素を体外に排泄すべき浄化作用であり、多くは下痢が伴うものである。<br/><br/> 薬剤中毒は、年月を経て一旦吸収された薬剤が、胃内に還元する。<br/><br/>その場合一種の毒素となり嘔吐するのであるから、かかる場合服用せる薬剤の臭いがする事がある。<br/><br/> 溜飲は胃中に流入せし胆汁が、胃弱のため嘔吐するのである。<br/><br/> 幽門狭窄による嘔吐は、胃によって消化せる食餌が幽門狭窄のため下降し難いから逆流せんとするためである。<br/><br/>故にかかる場合、柔軟食または流動食なれば狭窄せる幽門も通過しやすいから嘔気は起らないのである。<br/><br/> 悪阻（つわり）は胃の外部に滞溜凝結せる毒素が子宮の膨脹によって外部へ排泄されんとするためであるから、この毒素を溶解排除する事によって容易に治癒するのである。<br/><br/> 痙攣は霊的原因と高熱発生時の悪寒の二原因があるが、霊的説明は最後の付録中に詳説する。<br/><br/> 船車の酔は、胃の外部に毒結あり、それが動揺によって少しずつ溶解、胃内に滲透するためである。<br/><br/>憂欝感は霊的の場合、または胃の不活発、黄疸（おうだん）、脳貧血または肩及び背部の凝り等である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

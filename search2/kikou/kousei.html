@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kousei</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 更正 馬太（マタイ） 明主様は生命の継ぎ足しをされる 『栄光』162号、昭和27(1952)年6月25日発行 かつて、大教会の長と仰がれ、本教役員を代表する最重要ポストにあった某氏は、入信当初から布教活動に事念し、忽ちにして異数の成果を挙げて、日に百数十名浄霊の記録を持った程多忙に追われ、肉体虐使に慣れて自らの御浄霊はほとんど戴かなかった。<br><br>その為入信五年後、凝り固まり切った後頚部の血管が破れて脳溢血となったが、神護もあつく、本格的に至らぬ未然のうちに明主様の御救いを戴き活動しながら治癒された。<br><br>その後三年目再度の溢血に左半身不随となった上に重症腎臓病を併発して生命を危ぷまれたが、これも明主様の御浄霊により、僅か十日間余静養したのみでお救い戴いたが、当時多忙な全国的布教の衝にあった為、徹底的御浄霊を戴く間もなく活動を続けた。<br><br>勿論明主様も特別の思召から早くお治し下されたのであろう。<br><br>それから三年後の二十四年、一月二十九日終に三度目の脳溢血に斃れるに至った当時明主様は熱海清水町別院に御起居遊ばされており一丁離れた居宅から人々の肩に支えられ漸く辿り着いた同氏は、頭部機能は固より右半身不随、顔面蒼白、魂の抜けた如く生色なく如何に明主様の御浄霊によるも絶望ではあるまいかと疑惧する程の深刻さがあった無論普通ならば幾日かあるいは幾時間か寝台に横たえられたきりで、不帰の客となる外ない症状である。<br><br>世間初めての脳溢血でさえ再起は期し難いのに三度目の溢血となっては死と同意語であって、万の中一も助かる望みはない訳である。<br><br>ところが神力の偉大さ、その日二度の御浄霊を戴いて昏々と眠った後、茶漬を摂り得たし、極僅かながら口も利けて、漸く愁眉を開いたのであったそして毎日無意識的に眠り続けがちだったが、食事は一度も欠かした事はなかったのは素晴しい奇蹟であった。<br><br>毎日御浄霊戴いて、脚は一週間位、腕は二週間位の超スピードで自由にして戴き、右眼は殆んど視力を失っている為独歩は危険だったが、手を引かれての歩行は可能となったので、以後の御浄霊は時々御願する事となった。<br><br>最も困難にみえたのは頭脳であった。<br><br>発作と同時に一切の記憶を喪失し、近親者や長く苦楽を共にした弟子は固より家族の顔の識別さえつかなかったし、呼び慣れた名も呼べなかった。<br><br>文字の記憶もなくなって毎日お唱えした御神体の大光明如来の御字さえ判読出来なかった。<br><br>最初は言葉の理解力もなかったが、理解出来るようになっても、人や自分の言った事が全く記憶の中に止まらず言葉に責任をもつ事が出来なかった。<br><br>この症状も徐々に治癒されはしたが、最も長く続いて四年目の現在漸く全治に近づいた状態となった、何といっても三度目の溢血の事とて、頭脳は全く破壊されたと同様で、これを医す事は新しい頭脳をつけ代えるに等しく、到底人間では考えられぬ業である。<br><br>それ程に絶望的な頭脳も、発病一カ月後の頃には初めて人の名を呼び得、その後一カ月程経ると信徒の浄霊が出来るまでにして戴き、三月の大教会大祭には覚束なくも司祭を勤め得て、一見重病人と気づかぬ程にして戴けた明主様の御力は、実に驚くべきものである。<br><br> 元来、この人の場合は、破壊された頭脳とは別個の、比較的明確た意志が腹中にあって、諸々の事をある程度意識的に理解してはいたがそれと交流すべき頭脳の活動が停止されている為、それを表現する事が出来なかった由である。<br><br>頭脳を喪失した肉体は小児の如く無能であったし、言語を使用出来、腹中の意志が次第にはっきりしてからも、普通の対談や動作はトンチンカンな点があったが、教に関する話や必要な指示は、第三者が病体である事を疑うほど明かになし得たし、浄霊も僅かながら続け得たのであるから実に不思議であった。<br><br>この腹中の意志こそ、生涯をかけて養はれたところの絶対神に撃がり神の御心が流れるべき強烈な信仰心であって、それが先づ明主様の御光に強められつつ、生命を支える力となったのではあるまいか。<br><br> いう迄もなく、明主様は頭脳を主として御浄霊賜わった。<br><br>そしてその都度脳内の毒素が溶解されては多量の吐痰や下痢となって絶えず排泄されたし、幾度か大熱や、四度目五度目ともいうべき軽微の溢血症状の浄化も起り、それが治癒促進の段階となりつつおよそ一年六カ月、大浄化の波も落着いて布教の旅に出かけ得る迄にもなった。<br><br>しかるに二十五年五月法難事件勃発と共に同氏も獄に投ぜられ、約二カ月余の間御浄霊を戴けなかった為、脳毒血は極度に固まって、新しい第二の浄化状態になり、事件四カ月後には一切の表面的役位を隠退し、今日まで月五六回ずつおよそ一年十カ月間尊い御浄霊を賜わって、死物にも等しかった肉体が、普通以上の健康体に更生さるるという空前の大奇蹟が行はれたのである。<br><br> 同氏はこの半年位前から特に著るしい変化があり、過去の記憶も極めて明瞭に蘇り、久しく眼底出血の曇りの為視界おぼろで、絶えず霊界を彷うような心地だった朦朧感も殆んど除かれ文字も読め、人名もはっきり呼べ音声にも力の籠って来たのを自覚し、顔色も頭髪も艶やかに、壮年としか思えぬほど生気溌剌さとなり、最近は十数年以前の同氏を知る人々から、その頃よりズーット元気に若くなったと言われ、再起不能と信ぜられた人々からも驚歎の眼を瞠らるる程である。<br><br>特に最近、過去の同氏と全く質を異にする新しい優秀な脳力の閃めきと第二の人格の芽生えの認めらるるのには驚歎する次第である。<br><br> かくの如く六十幾歳を一期にその生涯を閉ずべき運命にあった同氏は、優秀なる牡年として更生させられたこの肉体の更生改質と共により良質の個性の生成される事、それは現身そのままより長き霊体に替えられるに等しく、しかもそれは三回以上の脳溢血に斃れた肉体に行われたのであるから、正に開闢以来ない事であって、如何に空想を逞しうする科学者の夢も及ばぬ事実であり浄霊の偉力を知る人とても首を傾げるであろう。<br><br> 脳溢血は人生の荒波を乗越え、漸く世情に通じ、世の為円満なる智能的活動をなし得る年齢において多く発病し、不治の床に可惜（あたら）有為の材を葬ってしまう。<br><br>それが社会の為重要欠くべからざる人物である場合惜しみても余りある訳である。<br><br>しかもそのように価値ある人物は一朝にして造られ得ない。<br><br>かかる貴重な生命を長い年数を要せずして再生し若い生命を与えて、世に役立たしむる大御力の尊さ有難さは、讃えても讃えつくせぬ所である事を痛感する。<br><br> なお同氏が六十近くの齢で昭和十九年より五年間、疥癬の身を以て不眠不休、交通地獄のさ中を南船北馬、救業を拡充した超人的活動ぶりは、一見理想の健康体錬磨に成った頑健そのものであったが、それも所詮毒素に固まった擬健康だったのである。<br><br>そしてこの健康の典型とみらるる程の人にして毒塊だった事にみれば現代には一人として真の健康者はない事を立証する一例とするに足るであろう。<br><br>同氏の延髄部には確かに幾本かの硬い皮革のような毒結の条があったし、耳下腺部には中耳炎を長く氷冷した石のような固結もあった。<br><br>それは誰人の浄霊も受付けぬ程強靭なものである事は何より自身が知悉した故に一途に明主様の御救いを仰いだ訳である。<br><br>聞く所によれば同氏の両親は漢方薬を交易した事があり、優秀な薬品を蒐集して家宝の如く誇った由であるから、強烈悪性な漢薬が多分に体内に相伝され、それが最も強く頸部周囲に固結したものとみられ、その硬さと執拗さは恐らくみた事がない。<br><br> 特に明主様の御浄霊を戴く時は、単に症状の治癒に止まらず、ある限りの体内の毒素が徹底的に浄化されるように感ずる。<br><br>吾等はよく頭部のみの御浄霊を戴いても全体重が半減したと思う程軽快を覚え、暫く経つと浄化溶解作用を全身に感じ、これを繰返しつつ別人の如く力づくのを経験する。<br><br>前記の如く同氏も御浄霊の度に吐痰、下痢、熱発等の浄化が激しく起り、頭部からは固形の血粒が排出され、現在では右脚部は疥癬様に糜（ただ）れて、頭部御浄霊の時直ちに溶解毒素がその部へ下降する。<br><br>このようにして漸次健康が造られて行ったのである。<br><br>そしてそれ等一切め排泄物は実に無尽蔵かと思わるるほどで、現在までの物だけでも全身体の幾倍に相当するか分らぬほどの容積の由である。<br><br>これによっても現代人の肉体は実に毒素固結体であって本来あるべき人間の真の健康は忘れられているのである。<br><br>私も御浄霊によって生命がいくつあっても足りぬ程の毒塊であった事をはっきり知らして戴いた。<br><br>私はよく思う。<br><br>吾々の体内には誰しも、祖先から連綿集積した毒結の核心が棒のように存在しているのではあるまいか、そしてこの心棒の浄化滅少が夜から昼へ、地獄から天国の境涯へ住み代る根源ではあるまいかと、そして明主様の御浄霊を戴く時はこの心棒が溶解される、それは個人に連繋するすべての霊に御救の光が及ぶ事を意味するのではあるまいかと。<br><br> 同氏の脳溢血は確かに普通のそれと異なる点があった。<br><br>発病の当初、突如霞か星雲のようなチカチカした無数の微粒が長い帯状に渦巻いて迫り、眼球から脳内に侵入したようにみえたかと思うと次第に意識朦朧となった。<br><br>以来絶えずそれが眼前を蔽いチラつき視界を遮られたが、御浄霊を戴くに従い次第に薄れて行って夜から月明にそして昼間の明るさに物がみえるようになった由である。<br><br>この果知らぬ長さに思われた帯状の雲は、医学的にいえば、眼底出血が網膜に写った現象でもあろう。<br><br>しかし同氏は無数の精霊群と直感したというが、吾等にもそのように考えられる節がある。<br><br> 又御浄霊を戴き初めて間もない頃から頭部表面に、砂のような粒塊になって硬化した血が毎日瘡ブタ状になって出るのであった。<br><br>この血塊の排出と眼翳の除去に伴って漸次頭脳は明瞭化した。<br><br>血塊は今少量になったが、今日迄どれ程多量か分らぬ程排出された。<br><br>それは発病時の溢血でもあろうし、全身から脳内に集溜した毒血であろうと解される。<br><br>そして御浄霊によって清い血液が殖えると共に汚血が排除され、全身の血が入れ替えられるのであろうと思われる。<br><br> 又、血液は霊の物質化と御教賜わっているが、同氏の直感の如く、無数の霊群が脳内に侵入したとすればそれが脳内の汚血に憑依し御浄霊によって御救賜わる時、その汚血と共に体外へ抜けるのではあるまいかと考えられるのである。<br><br> なお明主様法難事件は本教の散花結実であり同氏は散花の蕊（しべ）に相当すると仰せられたが、丁度法難後から同氏は、落花の蕊の腐敗したような細長い茶褐色を吐き続け初めた。<br><br>そして新しい自分が生れたような気がしたし、浄霊の場合特に強い霊気の放射を手に感ずるようになり、今日では自ら驚くほど偉大な治病力を賜わった事を自覚され感激されており、同氏と神秘感を共にした事があった。<br><br> なお同氏が倒れたのは、丁度全国に教線の柱を樹て切って定めの使命を果した時であった。<br><br>そして又税問題によって仏花散じ、明主様はいよいよメシヤ的活動に入らんとせられ、本教も内部的整理充実期に入らねばならぬ時でもあった。<br><br>神は恰もこの機に浄化の恵みを給い霊肉の更生を行わしめ給うたのである。<br><br>同氏が神業に貢献した功績は、偉大であった。<br><br>その積徳によって向上した霊身に相応すべく毒塊的肉体も、それに繋がる諸々の形態も一応浄化整理され、霊肉一致して円満順調に栄ゆべき天国的境涯に住わせ、新たな使命を授け給いて、いまや堅実なる第二の活動に、入らんとしている。<br><br> 明主様の賜う御浄霊の意義は実に深く偉大である。<br><br>神力の自由無碍、神意の深遠、神恵の有難さ、人の心に測り難きものを思う次第である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O Renascimento Concedido por Meishu-Sama</h2>
 <p>Outrora, um certo cavalheiro que, reverenciado como líder de uma Grande Igreja, ocupava um dos mais altos postos na hierarquia de nossa Fé, devotou-se de corpo e alma às atividades de difusão desde os primórdios de sua conversão. Em pouco tempo, alcançou resultados extraordinários, a ponto de, em sua extenuante rotina, registrar a ministração de Johrei a mais de cem pessoas por dia. Habituado a submeter seu corpo a tal abuso, raramente recebia Johrei para si mesmo. Consequentemente, cinco anos após ingressar na Fé, os vasos sanguíneos de sua nuca, completamente enrijecidos, romperam-se, causando um acidente vascular cerebral. Contudo, graças à intensa proteção Divina e ao socorro de Meishu-Sama, foi salvo antes que a condição se tornasse irreversível, recuperando-se enquanto continuava suas atividades. Três anos mais tarde, um segundo derrame deixou-o com o lado esquerdo do corpo paralisado, complicação agravada por uma severa enfermidade renal que o colocou em risco de vida. Novamente, pelo Johrei de Meishu-Sama, foi salvo após um repouso de pouco mais de dez dias. Todavia, imerso na urgência da difusão em escala nacional, prosseguiu em suas atividades sem tempo para receber um Johrei profundo e completo. Meishu-Sama, certamente por um desígnio especial, permitiu sua rápida recuperação.</p>
@@ -110,5 +262,48 @@ function toggleLang(lang) {
 <p>Meishu-Sama afirmou que o Incidente de Perseguição Religiosa representou o desabrochar e a frutificação de nossa Fé, e que este fiel correspondia ao pistilo da flor que se despetalou. Coincidentemente, após o incidente, ele começou a expectorar continuamente uma secreção longa e fina, de cor acastanhada, semelhante a um pistilo de flor em decomposição. A partir de então, sentiu como se uma nova pessoa tivesse nascido dentro de si. Durante a ministração de Johrei, passou a sentir uma irradiação de energia espiritual particularmente forte em suas mãos e hoje, com profunda gratidão, reconhece ter recebido um poder de cura tão grandioso que o surpreende, sentimento místico que tive a oportunidade de compartilhar com ele.</p>
 <p>Sua queda ocorreu exatamente no momento em que ele havia cumprido sua missão predestinada de estabelecer os pilares da linha de difusão por todo o país. Foi também a época em que, com as questões tributárias, a "flor búdica" se despetalou, e Meishu-Sama estava prestes a iniciar Suas atividades Messiânicas, exigindo que a Igreja entrasse em um período de reorganização e consolidação interna. Foi precisamente nessa conjuntura que Deus lhe concedeu a graça da purificação, promovendo a regeneração de seu corpo e espírito. A contribuição deste homem para a Obra Divina foi imensa. Para que seu corpo tóxico se tornasse condizente com seu corpo espiritual, elevado por seus méritos acumulados, tanto ele quanto as diversas formas a ele associadas foram purificados e reorganizados. Deus o fez habitar em uma esfera celestial onde corpo e espírito, em unidade, pudessem prosperar em plena harmonia. Conferindo-lhe uma nova missão, ele se prepara agora para iniciar uma sólida segunda fase de atividades.</p>
 <p>O significado do Johrei concedido por Meishu-Sama é verdadeiramente profundo e grandioso. Reflito, assim, sobre a natureza ilimitada e desimpedida do Poder Divino, sobre a profundeza da Vontade Divina e sobre a inestimável bênção de Sua graça – realidades que a mente humana jamais poderá sondar por completo.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 更正 馬太（マタイ） 明主様は生命の継ぎ足しをされる 『栄光』162号、昭和27(1952)年6月25日発行 かつて、大教会の長と仰がれ、本教役員を代表する最重要ポストにあった某氏は、入信当初から布教活動に事念し、忽ちにして異数の成果を挙げて、日に百数十名浄霊の記録を持った程多忙に追われ、肉体虐使に慣れて自らの御浄霊はほとんど戴かなかった。<br/><br/>その為入信五年後、凝り固まり切った後頚部の血管が破れて脳溢血となったが、神護もあつく、本格的に至らぬ未然のうちに明主様の御救いを戴き活動しながら治癒された。<br/><br/>その後三年目再度の溢血に左半身不随となった上に重症腎臓病を併発して生命を危ぷまれたが、これも明主様の御浄霊により、僅か十日間余静養したのみでお救い戴いたが、当時多忙な全国的布教の衝にあった為、徹底的御浄霊を戴く間もなく活動を続けた。<br/><br/>勿論明主様も特別の思召から早くお治し下されたのであろう。<br/><br/>それから三年後の二十四年、一月二十九日終に三度目の脳溢血に斃れるに至った当時明主様は熱海清水町別院に御起居遊ばされており一丁離れた居宅から人々の肩に支えられ漸く辿り着いた同氏は、頭部機能は固より右半身不随、顔面蒼白、魂の抜けた如く生色なく如何に明主様の御浄霊によるも絶望ではあるまいかと疑惧する程の深刻さがあった無論普通ならば幾日かあるいは幾時間か寝台に横たえられたきりで、不帰の客となる外ない症状である。<br/><br/>世間初めての脳溢血でさえ再起は期し難いのに三度目の溢血となっては死と同意語であって、万の中一も助かる望みはない訳である。<br/><br/>ところが神力の偉大さ、その日二度の御浄霊を戴いて昏々と眠った後、茶漬を摂り得たし、極僅かながら口も利けて、漸く愁眉を開いたのであったそして毎日無意識的に眠り続けがちだったが、食事は一度も欠かした事はなかったのは素晴しい奇蹟であった。<br/><br/>毎日御浄霊戴いて、脚は一週間位、腕は二週間位の超スピードで自由にして戴き、右眼は殆んど視力を失っている為独歩は危険だったが、手を引かれての歩行は可能となったので、以後の御浄霊は時々御願する事となった。<br/><br/>最も困難にみえたのは頭脳であった。<br/><br/>発作と同時に一切の記憶を喪失し、近親者や長く苦楽を共にした弟子は固より家族の顔の識別さえつかなかったし、呼び慣れた名も呼べなかった。<br/><br/>文字の記憶もなくなって毎日お唱えした御神体の大光明如来の御字さえ判読出来なかった。<br/><br/>最初は言葉の理解力もなかったが、理解出来るようになっても、人や自分の言った事が全く記憶の中に止まらず言葉に責任をもつ事が出来なかった。<br/><br/>この症状も徐々に治癒されはしたが、最も長く続いて四年目の現在漸く全治に近づいた状態となった、何といっても三度目の溢血の事とて、頭脳は全く破壊されたと同様で、これを医す事は新しい頭脳をつけ代えるに等しく、到底人間では考えられぬ業である。<br/><br/>それ程に絶望的な頭脳も、発病一カ月後の頃には初めて人の名を呼び得、その後一カ月程経ると信徒の浄霊が出来るまでにして戴き、三月の大教会大祭には覚束なくも司祭を勤め得て、一見重病人と気づかぬ程にして戴けた明主様の御力は、実に驚くべきものである。<br/><br/> 元来、この人の場合は、破壊された頭脳とは別個の、比較的明確た意志が腹中にあって、諸々の事をある程度意識的に理解してはいたがそれと交流すべき頭脳の活動が停止されている為、それを表現する事が出来なかった由である。<br/><br/>頭脳を喪失した肉体は小児の如く無能であったし、言語を使用出来、腹中の意志が次第にはっきりしてからも、普通の対談や動作はトンチンカンな点があったが、教に関する話や必要な指示は、第三者が病体である事を疑うほど明かになし得たし、浄霊も僅かながら続け得たのであるから実に不思議であった。<br/><br/>この腹中の意志こそ、生涯をかけて養はれたところの絶対神に撃がり神の御心が流れるべき強烈な信仰心であって、それが先づ明主様の御光に強められつつ、生命を支える力となったのではあるまいか。<br/><br/> いう迄もなく、明主様は頭脳を主として御浄霊賜わった。<br/><br/>そしてその都度脳内の毒素が溶解されては多量の吐痰や下痢となって絶えず排泄されたし、幾度か大熱や、四度目五度目ともいうべき軽微の溢血症状の浄化も起り、それが治癒促進の段階となりつつおよそ一年六カ月、大浄化の波も落着いて布教の旅に出かけ得る迄にもなった。<br/><br/>しかるに二十五年五月法難事件勃発と共に同氏も獄に投ぜられ、約二カ月余の間御浄霊を戴けなかった為、脳毒血は極度に固まって、新しい第二の浄化状態になり、事件四カ月後には一切の表面的役位を隠退し、今日まで月五六回ずつおよそ一年十カ月間尊い御浄霊を賜わって、死物にも等しかった肉体が、普通以上の健康体に更生さるるという空前の大奇蹟が行はれたのである。<br/><br/> 同氏はこの半年位前から特に著るしい変化があり、過去の記憶も極めて明瞭に蘇り、久しく眼底出血の曇りの為視界おぼろで、絶えず霊界を彷うような心地だった朦朧感も殆んど除かれ文字も読め、人名もはっきり呼べ音声にも力の籠って来たのを自覚し、顔色も頭髪も艶やかに、壮年としか思えぬほど生気溌剌さとなり、最近は十数年以前の同氏を知る人々から、その頃よりズーット元気に若くなったと言われ、再起不能と信ぜられた人々からも驚歎の眼を瞠らるる程である。<br/><br/>特に最近、過去の同氏と全く質を異にする新しい優秀な脳力の閃めきと第二の人格の芽生えの認めらるるのには驚歎する次第である。<br/><br/> かくの如く六十幾歳を一期にその生涯を閉ずべき運命にあった同氏は、優秀なる牡年として更生させられたこの肉体の更生改質と共により良質の個性の生成される事、それは現身そのままより長き霊体に替えられるに等しく、しかもそれは三回以上の脳溢血に斃れた肉体に行われたのであるから、正に開闢以来ない事であって、如何に空想を逞しうする科学者の夢も及ばぬ事実であり浄霊の偉力を知る人とても首を傾げるであろう。<br/><br/> 脳溢血は人生の荒波を乗越え、漸く世情に通じ、世の為円満なる智能的活動をなし得る年齢において多く発病し、不治の床に可惜（あたら）有為の材を葬ってしまう。<br/><br/>それが社会の為重要欠くべからざる人物である場合惜しみても余りある訳である。<br/><br/>しかもそのように価値ある人物は一朝にして造られ得ない。<br/><br/>かかる貴重な生命を長い年数を要せずして再生し若い生命を与えて、世に役立たしむる大御力の尊さ有難さは、讃えても讃えつくせぬ所である事を痛感する。<br/><br/> なお同氏が六十近くの齢で昭和十九年より五年間、疥癬の身を以て不眠不休、交通地獄のさ中を南船北馬、救業を拡充した超人的活動ぶりは、一見理想の健康体錬磨に成った頑健そのものであったが、それも所詮毒素に固まった擬健康だったのである。<br/><br/>そしてこの健康の典型とみらるる程の人にして毒塊だった事にみれば現代には一人として真の健康者はない事を立証する一例とするに足るであろう。<br/><br/>同氏の延髄部には確かに幾本かの硬い皮革のような毒結の条があったし、耳下腺部には中耳炎を長く氷冷した石のような固結もあった。<br/><br/>それは誰人の浄霊も受付けぬ程強靭なものである事は何より自身が知悉した故に一途に明主様の御救いを仰いだ訳である。<br/><br/>聞く所によれば同氏の両親は漢方薬を交易した事があり、優秀な薬品を蒐集して家宝の如く誇った由であるから、強烈悪性な漢薬が多分に体内に相伝され、それが最も強く頸部周囲に固結したものとみられ、その硬さと執拗さは恐らくみた事がない。<br/><br/> 特に明主様の御浄霊を戴く時は、単に症状の治癒に止まらず、ある限りの体内の毒素が徹底的に浄化されるように感ずる。<br/><br/>吾等はよく頭部のみの御浄霊を戴いても全体重が半減したと思う程軽快を覚え、暫く経つと浄化溶解作用を全身に感じ、これを繰返しつつ別人の如く力づくのを経験する。<br/><br/>前記の如く同氏も御浄霊の度に吐痰、下痢、熱発等の浄化が激しく起り、頭部からは固形の血粒が排出され、現在では右脚部は疥癬様に糜（ただ）れて、頭部御浄霊の時直ちに溶解毒素がその部へ下降する。<br/><br/>このようにして漸次健康が造られて行ったのである。<br/><br/>そしてそれ等一切め排泄物は実に無尽蔵かと思わるるほどで、現在までの物だけでも全身体の幾倍に相当するか分らぬほどの容積の由である。<br/><br/>これによっても現代人の肉体は実に毒素固結体であって本来あるべき人間の真の健康は忘れられているのである。<br/><br/>私も御浄霊によって生命がいくつあっても足りぬ程の毒塊であった事をはっきり知らして戴いた。<br/><br/>私はよく思う。<br/><br/>吾々の体内には誰しも、祖先から連綿集積した毒結の核心が棒のように存在しているのではあるまいか、そしてこの心棒の浄化滅少が夜から昼へ、地獄から天国の境涯へ住み代る根源ではあるまいかと、そして明主様の御浄霊を戴く時はこの心棒が溶解される、それは個人に連繋するすべての霊に御救の光が及ぶ事を意味するのではあるまいかと。<br/><br/> 同氏の脳溢血は確かに普通のそれと異なる点があった。<br/><br/>発病の当初、突如霞か星雲のようなチカチカした無数の微粒が長い帯状に渦巻いて迫り、眼球から脳内に侵入したようにみえたかと思うと次第に意識朦朧となった。<br/><br/>以来絶えずそれが眼前を蔽いチラつき視界を遮られたが、御浄霊を戴くに従い次第に薄れて行って夜から月明にそして昼間の明るさに物がみえるようになった由である。<br/><br/>この果知らぬ長さに思われた帯状の雲は、医学的にいえば、眼底出血が網膜に写った現象でもあろう。<br/><br/>しかし同氏は無数の精霊群と直感したというが、吾等にもそのように考えられる節がある。<br/><br/> 又御浄霊を戴き初めて間もない頃から頭部表面に、砂のような粒塊になって硬化した血が毎日瘡ブタ状になって出るのであった。<br/><br/>この血塊の排出と眼翳の除去に伴って漸次頭脳は明瞭化した。<br/><br/>血塊は今少量になったが、今日迄どれ程多量か分らぬ程排出された。<br/><br/>それは発病時の溢血でもあろうし、全身から脳内に集溜した毒血であろうと解される。<br/><br/>そして御浄霊によって清い血液が殖えると共に汚血が排除され、全身の血が入れ替えられるのであろうと思われる。<br/><br/> 又、血液は霊の物質化と御教賜わっているが、同氏の直感の如く、無数の霊群が脳内に侵入したとすればそれが脳内の汚血に憑依し御浄霊によって御救賜わる時、その汚血と共に体外へ抜けるのではあるまいかと考えられるのである。<br/><br/> なお明主様法難事件は本教の散花結実であり同氏は散花の蕊（しべ）に相当すると仰せられたが、丁度法難後から同氏は、落花の蕊の腐敗したような細長い茶褐色を吐き続け初めた。<br/><br/>そして新しい自分が生れたような気がしたし、浄霊の場合特に強い霊気の放射を手に感ずるようになり、今日では自ら驚くほど偉大な治病力を賜わった事を自覚され感激されており、同氏と神秘感を共にした事があった。<br/><br/> なお同氏が倒れたのは、丁度全国に教線の柱を樹て切って定めの使命を果した時であった。<br/><br/>そして又税問題によって仏花散じ、明主様はいよいよメシヤ的活動に入らんとせられ、本教も内部的整理充実期に入らねばならぬ時でもあった。<br/><br/>神は恰もこの機に浄化の恵みを給い霊肉の更生を行わしめ給うたのである。<br/><br/>同氏が神業に貢献した功績は、偉大であった。<br/><br/>その積徳によって向上した霊身に相応すべく毒塊的肉体も、それに繋がる諸々の形態も一応浄化整理され、霊肉一致して円満順調に栄ゆべき天国的境涯に住わせ、新たな使命を授け給いて、いまや堅実なる第二の活動に、入らんとしている。<br/><br/> 明主様の賜う御浄霊の意義は実に深く偉大である。<br/><br/>神力の自由無碍、神意の深遠、神恵の有難さ、人の心に測り難きものを思う次第である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

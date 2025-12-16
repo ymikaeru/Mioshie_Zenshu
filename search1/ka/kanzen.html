@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kanzen</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 七、完全営養食 『日本医術講義録』第１篇、昭和10(1935)年執筆 これから説く営〔栄〕養食は、日本人を基礎としたものである。<br><br>今、人間の食物を二大別すると、植物性食餌と動物性食餌とである。<br><br>今、この植物性食餌から説いてみる。<br><br> 肉体の血になり、肉になる営養素は、植物性食餌即ち穀類野菜であって、単に、肉体を養うだけの意味から言えば、植物性食餌のみで充分なのである。<br><br>しかし、人間は、社会生活の必要上、ただ生きる以外、智慧、元気、発展向上心、あらゆる欲望、それらがなくてはならない。<br><br>そういう意志想念を湧出するに力あるのが、動物性食餌の役目である。<br><br>故に、都会生活者は、その必要から動物性食餌を多く摂る事になり、反対に、農村人は、植物性食餌を多く摂るという事は、実に自然によく出来ているのである。<br><br>であるから一度病気に侵された時は、野菜食を多く摂るのが合理的である。<br><br>病気に罹れば、智慧を揮い、元気や欲望の必要がないので、反って、病気の為の熱や苦痛の為、肉体的要素が衰弱消耗するを以て、それを保〔補〕給する必要上野菜食に限ると言ってもいいのである。<br><br>しかるに何ぞや、今日の営養学は、病気に罹るや、反って、平常よりも肉食を多く摂らせる為、病気に依る肉体消耗へ拍車をかける様なもので、その謬（あやま）れるのはなはだしきは実に恐るべき事なのである。<br><br> 天地間、森羅万象、あらゆる物の生成化育は、陰陽の理に外れるものはない。<br><br>昼と夜、夏と冬、天と地、火と水、男と女という様な訳であって、食物にも又陰陽があるのである。<br><br> 穀類で言えば、米は陽にして、麦は陰である。<br><br>人種から言えば、日本人は陽で、西洋人は陰である。<br><br>日本人が米を食い、西洋人が麦を食うのはこの理によるのである。<br><br>故に、日本人は、米を主食とするのが本当であるから、もし、止むを得ざる時は、米より麦の方を少く食えば差支えないが、麦の方を多くするという事は絶対不可である。<br><br>又植物性食餌を陰陽に分ければ、穀類が陰で、野菜類が陽である。<br><br>野菜の中にも陰陽があって、根とか実とか、白色、赤色、黒色とか言うものは陽であり、菜の類、葉の類、すべて青色の物は陰である。<br><br>大根の白い根が陽であり、青い葉が陰である。<br><br>故に、理想から言えば、その時と場合に応じて、陰陽を按配（あんばい）よく摂取するのがいいのである。<br><br> 魚は陽であり、野菜は陰で、鳥は陽であり、魚は陰である。<br><br>これらをよく考えて、その人々の生活に、当てはめてゆけば間違いないのである。<br><br>男子は外へ出て、智慧や元気を揮うのであるから、動物性食餌と、植物性食餌と半々位が良く、婦人は内に居て、体的活動が多いのであるから、植物性七分、動物性三分位が最もいいのである。<br><br>近来、上流婦人にヒステリーが多くなったのは、動物性を多く摂り過ぎる為なのである。<br><br> 次に、牛乳について、是非、注意したいのである。<br><br>小児ならイザ知らず、青年以上になっても、牛乳を飲用する人があるが、これらは、実に、謬れるもはなはだしきものである。<br><br>何となれば、歯は、何の為に生えているのであるか、勿論、物を咀嚼（そしゃく）する為である。<br><br>赤児は歯がない為に乳を飲むので、立派に歯のある者が呑むという事は、いかに天理に外れているか判り切った話である。<br><br>もし、大人が赤児と同じく、乳を飲むとすれば、赤児と同じく、立って歩かないで這って歩くのが当然ではないか。<br><br>こんな判り切った事さえ判らない、文明人というものは実に、愚かな者であると思うのである。<br><br>牛乳を飲むのは間違っているが、食物の味、例えば珈琲（コーヒー）に入れるとか又は、菓子や料理に使用する位は差支えないのである。<br><br>日本人が牛乳を飲むと体力が衰えるのである。<br><br>私は牛乳常用者へ、この害を説いて、飲用中止した為、健康を増加した者の、余りに多いと言うより、ほとんど全部という方が、当っている事実を、ここに報告するのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Nutrição Perfeita</h2>
 <p>A dieta nutricional que passarei a expor foi concebida com base no povo japonês. A alimentação humana divide-se fundamentalmente em duas categorias: a de origem vegetal e a de origem animal. Comecemos, pois, pela análise da primeira.</p>
@@ -103,5 +255,48 @@ function toggleLang(lang) {
 <p>O homem, que se projeta para o mundo exterior, empregando sua sabedoria e seu vigor, deve manter uma dieta equilibrada, com proporções iguais de alimentos de origem animal e vegetal. A mulher, por sua vez, cujas atividades são predominantemente domésticas e corporais, beneficia-se de uma dieta composta por setenta por cento de vegetais e trinta por cento de alimentos de origem animal. O aumento dos casos de histeria entre as mulheres da alta sociedade, em tempos recentes, deve-se ao consumo excessivo de alimentos de origem animal.</p>
 <p>Gostaria, por fim, de fazer uma advertência indispensável a respeito do leite. É compreensível que crianças o consumam, mas é um erro gravíssimo que jovens e adultos o façam. Afinal, qual a finalidade dos dentes? Evidentemente, a de mastigar os alimentos. O bebê ingere leite por não possuir dentes; que uma pessoa com a dentição completa o beba é uma clara violação de um princípio celestial. Se um adulto insiste em tomar leite como um bebê, não seria lógico que também se locomovesse engatinhando, em vez de caminhar sobre os próprios pés? Causa-me espanto que os ditos homens civilizados não compreendam algo tão elementar; são, de fato, bastante tolos.</p>
 <p>O consumo de leite é um equívoco, mas não há problema em utilizá-lo para aprimorar o sabor de outros alimentos, como no café, ou em doces e pratos diversos. O japonês que consome leite habitualmente tem sua força vital diminuída. Posso relatar, como um fato, que a melhora na saúde não se restringiu a muitos dos que seguiram meu conselho de abandonar essa prática, mas abrangeu a quase totalidade deles.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 七、完全営養食 『日本医術講義録』第１篇、昭和10(1935)年執筆 これから説く営〔栄〕養食は、日本人を基礎としたものである。<br/><br/>今、人間の食物を二大別すると、植物性食餌と動物性食餌とである。<br/><br/>今、この植物性食餌から説いてみる。<br/><br/> 肉体の血になり、肉になる営養素は、植物性食餌即ち穀類野菜であって、単に、肉体を養うだけの意味から言えば、植物性食餌のみで充分なのである。<br/><br/>しかし、人間は、社会生活の必要上、ただ生きる以外、智慧、元気、発展向上心、あらゆる欲望、それらがなくてはならない。<br/><br/>そういう意志想念を湧出するに力あるのが、動物性食餌の役目である。<br/><br/>故に、都会生活者は、その必要から動物性食餌を多く摂る事になり、反対に、農村人は、植物性食餌を多く摂るという事は、実に自然によく出来ているのである。<br/><br/>であるから一度病気に侵された時は、野菜食を多く摂るのが合理的である。<br/><br/>病気に罹れば、智慧を揮い、元気や欲望の必要がないので、反って、病気の為の熱や苦痛の為、肉体的要素が衰弱消耗するを以て、それを保〔補〕給する必要上野菜食に限ると言ってもいいのである。<br/><br/>しかるに何ぞや、今日の営養学は、病気に罹るや、反って、平常よりも肉食を多く摂らせる為、病気に依る肉体消耗へ拍車をかける様なもので、その謬（あやま）れるのはなはだしきは実に恐るべき事なのである。<br/><br/> 天地間、森羅万象、あらゆる物の生成化育は、陰陽の理に外れるものはない。<br/><br/>昼と夜、夏と冬、天と地、火と水、男と女という様な訳であって、食物にも又陰陽があるのである。<br/><br/> 穀類で言えば、米は陽にして、麦は陰である。<br/><br/>人種から言えば、日本人は陽で、西洋人は陰である。<br/><br/>日本人が米を食い、西洋人が麦を食うのはこの理によるのである。<br/><br/>故に、日本人は、米を主食とするのが本当であるから、もし、止むを得ざる時は、米より麦の方を少く食えば差支えないが、麦の方を多くするという事は絶対不可である。<br/><br/>又植物性食餌を陰陽に分ければ、穀類が陰で、野菜類が陽である。<br/><br/>野菜の中にも陰陽があって、根とか実とか、白色、赤色、黒色とか言うものは陽であり、菜の類、葉の類、すべて青色の物は陰である。<br/><br/>大根の白い根が陽であり、青い葉が陰である。<br/><br/>故に、理想から言えば、その時と場合に応じて、陰陽を按配（あんばい）よく摂取するのがいいのである。<br/><br/> 魚は陽であり、野菜は陰で、鳥は陽であり、魚は陰である。<br/><br/>これらをよく考えて、その人々の生活に、当てはめてゆけば間違いないのである。<br/><br/>男子は外へ出て、智慧や元気を揮うのであるから、動物性食餌と、植物性食餌と半々位が良く、婦人は内に居て、体的活動が多いのであるから、植物性七分、動物性三分位が最もいいのである。<br/><br/>近来、上流婦人にヒステリーが多くなったのは、動物性を多く摂り過ぎる為なのである。<br/><br/> 次に、牛乳について、是非、注意したいのである。<br/><br/>小児ならイザ知らず、青年以上になっても、牛乳を飲用する人があるが、これらは、実に、謬れるもはなはだしきものである。<br/><br/>何となれば、歯は、何の為に生えているのであるか、勿論、物を咀嚼（そしゃく）する為である。<br/><br/>赤児は歯がない為に乳を飲むので、立派に歯のある者が呑むという事は、いかに天理に外れているか判り切った話である。<br/><br/>もし、大人が赤児と同じく、乳を飲むとすれば、赤児と同じく、立って歩かないで這って歩くのが当然ではないか。<br/><br/>こんな判り切った事さえ判らない、文明人というものは実に、愚かな者であると思うのである。<br/><br/>牛乳を飲むのは間違っているが、食物の味、例えば珈琲（コーヒー）に入れるとか又は、菓子や料理に使用する位は差支えないのである。<br/><br/>日本人が牛乳を飲むと体力が衰えるのである。<br/><br/>私は牛乳常用者へ、この害を説いて、飲用中止した為、健康を増加した者の、余りに多いと言うより、ほとんど全部という方が、当っている事実を、ここに報告するのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

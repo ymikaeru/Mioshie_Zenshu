@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ganbyo09</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病 ・霊的原因 『天国の福音』昭和22(1947)年2月5日発行 眼病にも霊的原因が相当ある。<br><br>最も多いのは失明の原因が蛇霊の憑依である。<br><br>それは蛇を殺す場合、多くは急所として頭脳を打砕くから、眼球も共に滅失するので、それが憑依する以上盲目となるのである。<br><br>その他夜盲症、一名鳥眼は鳥類の霊の憑依であり、色盲は動物が人間に再生せる場合、未だ動物の性能が残存しているためである。<br><br>それについて人間と動物との関係を次に説いてみよう。<br><br> そもそも造物主が森羅万象を創造され給いし時最後に造られたものが人間である。<br><br>それはあらゆる生物の特質を綜合して成った、いわば神が造った綜合芸術品である。<br><br>従って人間にはあらゆる生物すなわち鳥獣虫魚に至るまでの一面を保有している事はいうまでもない。<br><br> この意味を解りやすくするため、人間以外の動物を解剖してみよう。<br><br>あらゆる動物はその種別により特質をもっている。<br><br>たとえば馬の性質は従順と勇敢で、音声はハヒフヘホであり、犬は忠実でワヰウエヲであり、猿は狡滑でカキクケコであり、猫は怠惰横着でナニヌネノであり、鼠は吝嗇でタチツテトであり、牛は遅鈍でマミムメモであり、豚は愚鈍でバビブベボである。<br><br>鳥類においても雀のタチツテト、鶯のハヒフへホ、カナリヤのパピプペポ、烏のカキクケコ、家鴨（あひる）のガギグゲゴ等によっても識らるるのである、従って彼等の物を見る眼も物体の色彩が単一であって、赤青紫黄白等一種または二種がせいぜいである。<br><br>色盲の原因も右の理によるのである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>As Causas Espirituais das Enfermidades Oculares</h2>
 <p>As enfermidades oculares, em grande parte, possuem causas de natureza espiritual. A mais frequente, a cegueira, resulta da possessão pelo espírito de uma serpente. Isso ocorre porque, ao se abater uma serpente, geralmente se esmaga sua cabeça como ponto vital, destruindo, por conseguinte, seus globos oculares. Uma vez que esse espírito se apossa de um ser humano, a cegueira se manifesta. Além disso, a nictalopia, ou cegueira noturna, é provocada pela possessão de espíritos de aves. Já o daltonismo ocorre quando um animal reencarna como ser humano, mas ainda retém resquícios de suas características originais.</p>
@@ -95,5 +247,48 @@ function toggleLang(lang) {
 <p>Desde o princípio, quando o Criador deu origem a todas as coisas do Universo, o ser humano foi Sua última criação. Ele foi concebido a partir da síntese das características de todos os seres vivos; é, por assim dizer, uma obra de arte integral, criada por Deus. Portanto, é desnecessário dizer que o homem detém em si uma faceta de cada criatura, desde as aves e os mamíferos até os insetos e os peixes.</p>
 <p>Para que se compreenda melhor este significado, analisemos os animais. Toda espécie animal possui atributos específicos. O cavalo, por exemplo, expressa obediência e bravura, qualidades refletidas em seus sons, que correspondem à série fonética japonesa <em>ha-hi-fu-he-ho</em>. O cão, por sua vez, é leal (<em>wa-i-u-e-o</em>); o macaco, astuto (<em>ka-ki-ku-ke-ko</em>); o gato, indolente e preguiçoso (<em>na-ni-nu-ne-no</em>); o rato, avarento (<em>ta-ti-tu-te-to</em>); o boi, lento (<em>ma-mi-mu-me-mo</em>); e o porco, de inteligência limitada (<em>ba-bi-bu-be-bo</em>).</p>
 <p>O mesmo princípio se aplica às aves: o pardal (<em>ta-ti-tu-te-to</em>), o rouxinol (<em>ha-hi-fu-he-ho</em>), o canário (<em>pa-pi-pu-pe-po</em>), o corvo (<em>ka-ki-ku-ke-ko</em>) e o pato (<em>ga-gi-gu-ge-go</em>), entre outros, também se enquadram nessa lógica. Consequentemente, a percepção visual desses seres é limitada; seus olhos distinguem as cores dos objetos de forma monocromática ou, no máximo, bicromática, percebendo apenas um ou dois tons, como vermelho, azul, violeta, amarelo ou branco. A causa do daltonismo, como mencionado, reside precisamente nesse princípio.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病 ・霊的原因 『天国の福音』昭和22(1947)年2月5日発行 眼病にも霊的原因が相当ある。<br/><br/>最も多いのは失明の原因が蛇霊の憑依である。<br/><br/>それは蛇を殺す場合、多くは急所として頭脳を打砕くから、眼球も共に滅失するので、それが憑依する以上盲目となるのである。<br/><br/>その他夜盲症、一名鳥眼は鳥類の霊の憑依であり、色盲は動物が人間に再生せる場合、未だ動物の性能が残存しているためである。<br/><br/>それについて人間と動物との関係を次に説いてみよう。<br/><br/> そもそも造物主が森羅万象を創造され給いし時最後に造られたものが人間である。<br/><br/>それはあらゆる生物の特質を綜合して成った、いわば神が造った綜合芸術品である。<br/><br/>従って人間にはあらゆる生物すなわち鳥獣虫魚に至るまでの一面を保有している事はいうまでもない。<br/><br/> この意味を解りやすくするため、人間以外の動物を解剖してみよう。<br/><br/>あらゆる動物はその種別により特質をもっている。<br/><br/>たとえば馬の性質は従順と勇敢で、音声はハヒフヘホであり、犬は忠実でワヰウエヲであり、猿は狡滑でカキクケコであり、猫は怠惰横着でナニヌネノであり、鼠は吝嗇でタチツテトであり、牛は遅鈍でマミムメモであり、豚は愚鈍でバビブベボである。<br/><br/>鳥類においても雀のタチツテト、鶯のハヒフへホ、カナリヤのパピプペポ、烏のカキクケコ、家鴨（あひる）のガギグゲゴ等によっても識らるるのである、従って彼等の物を見る眼も物体の色彩が単一であって、赤青紫黄白等一種または二種がせいぜいである。<br/><br/>色盲の原因も右の理によるのである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

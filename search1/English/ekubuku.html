@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>ekubuku</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： NINETY-NINE PERCENT VERSUS ONE PERCENT Eikoh , No.138, January 9, 1952 (the 27th year of Showa) This article is an excerption from "CREATION OF CIVILIZATION". As I have written in the preceding chapter, the cause of war is the evil itself which resides in human beings. The essence of this evil is expression of desire of the animal spirits as I have written before, which is evident from the brutal nature of the acts of evils. I mean by "animal" primarily, of course, beasts, and then birds; in rare cases insects or worms, and also fishes. Every one of them is needed for the management of physical aspects of human desires and God has created human beings as such, so they are the so-called necessary evils. However, since these animal spirits are connected with the boss in the world of evil spirits, they are perfectly controlled by the boss as he likes. And there are ranks in the world of evil spirits as well and each evil spirit possesses an individual person whose spiritual rank corresponds to that of the evil spirit in question. The ranks of evil spirits range widely from higher to lower and the world of evil spirits has the same structure as that of righteous spirits. In this way, from the primitive ages to the present day, mankind has passed the time of good and evil confronting each other for tens of thousands or hundreds of thousands years until today. Needless to say, during this period of time the evil spirits have been more powerful, so the righteous spirits have tended to be oppressed by them, but eventually, the evil was defeated and the righteous won the victory, the proof of which is easily found in history, that is to day, if the evil had prevailed, the world would have been collapsed and this world, which we see today, could never exist. Until today, time has favored the evil to some extent, in other words, the world has been in the age of Night. Of course, the Night is darkness itself and the light power to get the evil under control has been insufficient, so it couldn't be helped. For this reason, the world until today has been the place where even the evil could achieve their purpose, which could be maintained for quite a long time, so the people who witnessed such states of affairs were deluded that it was the easier way to succeed in anything by evil means, and their followers also came up in turn. As a result, the public have been universally infected by the evil and such delusion has even become the commonsensical precept for their life. As we know from history, it appears temporarily that people are successful by evil means, but it is inevitable for them to fail some day; however, the majority of people have been insensible to such reality. Therefore, we can say that human history is no more than a record of continuous alternation of success and failure both brought through the evil. Because the evil power has been very strong in the age of Night as mentioned above, not a few righteous people became victims to the evil. Among them were especially many religious figures, and the greatest victim was the Jesus Christ. Even me, if I had been born in that age, I might have experienced unthinkable suffering; however, the Night has ended as I tell you all the time, and now that the present age has taken a step into the dawn of the age of Day and it is allowed to get off with less suffering, we are achieving progress following the scheduled course. By the way, you should bear in mind at this point that what I mention as plans and activities of the evil deities means not only war and violence, but in all areas they have been moving on under such a detailed and long-range program. The most successful achievement among them is materialistic science. This materialistic science is precisely the greatest weapon, by which they have brought amazing benefits to all mankind, and at the same time, exploiting this weapon to gain people's trust, they intend ultimately to grab the absolute power over the human race; this is the very program of the evil, whose aim is definitely to govern the life of human being. Since what they have developed with this aim is modern medical science, they intend to cure disease completely by materialistic method, and apparently it is indeed likely to be cured, but substantially it is far from the truth at all; nevertheless, their intelligence is crafty enough to exert itself by every possible means. Of course, what they adopt as their means are machine, light beam, new drug, operation, etc. and their pathology is theorized exhaustively in microscopic detail as well, but nobody has ever been able to see through the real situation. In the light of this, say, if you contract some disease and ask about the source of the disease, the answer is mere formality; they cannot give an explanation to the point and are always making an extremely vague answer. Besides, if you ask them how the disease will turn out to be, their answers are, "It would perhaps be...," and they cannot come to a conclusion. Even if they draw a conclusion, it is an error in nine cases out of ten; this would be what doctors themselves usually experience as well. The next subject is the food problem. This problem comes down to the chemical fertilizer which has been produced mostly on scientific grounds as well just like medicine. I suppose since this also showed temporary effect at first, people were deceived and it has pervaded each nation as we see today, of which I give a full explanation in another chapter. And the next issue is war; this is also, as I have described before, what ambitious and competent persons of the time plotted at the sacrifice of many human lives so that they would be the supreme rulers; however, these would allow their dream of success to come true only temporarily as well and result in failure with no exceptions only to survive as mere episodes in history. So far, I have examined roughly about evils; in the light of which it is also clear that the time has come when God liquidates materialistic culture. Now that the purpose of evil deity has come near to being fulfilled, God reveals the truth through me. If you think deeply about this, you will find it really defies conjecture how profound and subtle the grand design of God is. Now, if seen from a different aspect, this will mean that since God has the power of one hundred percent while evil deity has the power of ninety-nine percent, God surpasses by one percent and turns the table by this one-percent power, so this power is indeed Nyoi Houshu (or Nyoi Houju; Sanskrit: cintamani which means wish-fulfilling jewel. Mokichi Okada reported that the Nyoi Houshu fell from heaven and dwelled at the central part of his body on 15th of June in 1950, when he was being held in a jail on a charge of the so-called "Religious Persecution Incident".) So, as I always say, contemporary culture will be changed at the maximum point of ninety-nine percent, when the end of the world comes which Jesus Christ said. Therefore, it must be at this very moment when an earth-shaking extraordinary cataclysm will occur. Those who can believe in this, they will be eternally happy people. And because one and only one thing of the program is modern science, the revolution of medicine will take place as a matter of course. What should replace the medical science is our method of Johrei. For, there is no need to dwell on the fact that an average person who has no knowledge of medicine will be given the power after several days' training to cure sick people on the verge of death with whom so many doctors have no idea what to do. Consequently, with this power it will be no difficult matter at all to dissolve the errors in modern culture which have been committed and accumulated for several tens of centuries. At this moment in time, the mantle of Night is chopped down and the brilliant sun appears to rise, so it is now that is the dawn of the Day. If it is true that those who do believe are happy, as Jesus Christ said, it will be inevitable that those who do not believe are destined to go to ruin. 九分九厘と一厘 『栄光』138号、昭和27(1952)年1月9日発行 この論文は文明の創造の中の一節である。<br><br> 前項に述べたごとく、戦争の原因は人間に内在する悪そのものであって、この悪なるものの本質は何であるかというと、さきにもかいたごとく動物霊の意欲の表われであって、その行為が動物的であるに見ても明らかである。<br><br>動物とはもちろん獣類が主で、次が鳥類、まれには虫類もあり、魚族もあるが、いずれも人間の体欲をつかさどる必要から、神がそのように人間を造られたもので、いわゆる必要悪である。<br><br>ところがこの動物霊は霊線によって、邪神界の頭目に連繋（れんけい）しているので、その頭目の思うまま自由自在に操られているのである。<br><br>そうして邪神界にも階級があって、人間個々の霊的階級に相応し憑依するので、上級から下級に至るまで差別があり、これも正神界のそれと同様の組織になっている。<br><br> このような訳で、人類は原始時代から今日に到るまで、善と悪が相対峙しつつ、現在まで何万何十万年にわたって来たのであるが、もちろんその期間邪神の力の方が強いため、ともすれば正神の方が圧迫され勝ちであったが、結局において悪の方が敗北し、善の方が勝ったのは歴史がよく証明している。<br><br>それはもし邪神の方が勝ったとしたら、世界は崩壊され、今日見るがごとき世界は、あり得なかったはずであるからで、それというのも今日までは時が悪にある程度味方していたので、つまり夜の世界であったからである。<br><br>もちろん夜は暗黒そのもので、悪を制御する光が足りない以上、止むを得なかったのである。<br><br>右のごとくこれまでの世界は悪でも目的を達せられ、相当期間持続されたので、これを見た人間は悪で成功する方が早道と錯覚してしまうと共に、その追随者も出来るという訳で、滔々（とうとう）として一般が悪に感染し、処世の常識とさえなってしまったのである。<br><br> これは歴史をみれば判るごとく、悪によって一時は成功したように見えても、いずれは必ず失敗するが、それに大部分は無頓着であったのである。<br><br>従って歴史とは悪による成功と、悪による失敗との交互連続の記録でしかないと言えよう。<br><br>右のように夜の時代は悪の力が強いため、その犠牲となった善者も少なくなかった。<br><br>特にそれが宗教家に多く、最大な犠牲者としては、彼のキリストであった。<br><br>私といえどももしその時代に生まれたとしたら、いかなる苦難に会ったかも分からないが、いつも言う通り今や夜が終り、黎明期に一歩入った現在であるから軽く済み、予定通りの進展を遂げつつあるのである。<br><br> ところでここに注意すべきは、邪神の計画や行動といっても、戦争や暴力のみではない。<br><br>あらゆる分野にわたって、いとも綿密にして遠大なる計画の下に進んで来た事である。<br><br>その中で最も成功したものとしては唯物科学であって、この唯物科学こそ、彼らの最大なる武器であって、これによって全人類に素晴しい恩恵を与えたと共にこれを利用して信頼させ、最後には絶対権を握ろうとするのが彼の計画であって、その狙いは何と言っても、人間の生命を左右する事である。<br><br>その意味から進歩させたものが現代医学である以上、徹頭徹尾物質的方法によって、病気を治そうとし、外面的には、いかにも治りそうに見えるが、内実は決してそうでないにかかわらず、彼らの智能はすこぶる巧妙にあらゆる手段を尽して努力しているのである。<br><br>もちろん、方法としては機械、光線、新薬、手術等であり、また病理も微に入り細にわたって理論付けているが、この真相を看破し得た者は今までに一人もなかったのである。<br><br>この意味によって、例えば病気に罹りその病原を質問しても御座なり的で、適確な説明は出来ないで、曖昧きわまる答弁をしている。<br><br>また病気に対してその見込を訊いてもだろう的で、断定は出来ない。<br><br>よしんば断定しても、十中八、九は齟齬（そご）するので、これは医家も常に経験するところであろう。<br><br> 次は食糧問題であるが、これも医学と同様ほとんど科学的論拠によって作られた、彼の化学肥料である。<br><br>これも最初は一時的効果を見せられたので、人間は瞞されてしまい、今日のごとく各民族に行き渡ったのであろうが、これは別の項目で詳説する。<br><br> 次は戦争であるが、これもさきに述べたごとくその時代の手腕ある野心家が、多くの人命を犠牲にして、覇者たらんと企てたものであるが、これらも一時的成功の夢をかち得るに過ぎず、最後は必ず失敗し、歴史上の語り草に残るのみである。<br><br> 以上大体悪についての検討をしてみたが、これによってみても、神は唯物文化の清算をされ給う時期が来た事は明白であって、邪神の目的通りにならんとするその一歩手前に来た現在、神は私を通じて真相を明らかにさせ給うのである。<br><br>これを深く考えればその深遠微妙なる大神策は、実に端倪（たんげい）すべからざるものがある。<br><br>ここで別の意味からみれば、神の力は十全であり、邪神の力は九分九厘であるから、神の方が一厘勝（まさ）っており、この一厘の力をもって掌を反すので、この力こそ如意宝珠であるから、私が常にいうごとく、現代文化は九分九厘までで切替えとなり、その時がキリストの言われた世の終りであるという訳である。<br><br>従って、この時こそ霊界においては仰天動地の一大異変が起こるのは必然で、この事を信じ得る人にして、永遠なる幸福者となるのである。<br><br> そうして、かの計画の唯一のものが現代科学であるから、医学の革命も当然起こるであろう。<br><br>それに代るべきものとしては、本教の浄霊法である。<br><br>というのは、幾人もの博士がてこずって、死になんなんとした病人が医学のイの字も知らない普通人が、数日の修行によって治し得る力を与えられるにみても多くを言う必要はあるまい。<br><br>従ってこの力をもってすれば、何十世紀も掛かって積み重ねた現代文化の誤れる点を解消するのも、あえて難事ではないであろう。<br><br> ここに至って、夜の帳（とばり）は切って落され、赫々（かくかく）たる太陽が現れるので、その黎明期こそ今である。<br><br>キリストの言われた信ずるものは幸いなりとしたら、信ぜざる者は、滅亡の運命となるより致し方ないであろう。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Noventa e Nove por Cento versus Um por Cento</h2>
 <p>Conforme elucidei no capítulo anterior, a causa da guerra reside no próprio mal que habita o ser humano. A essência desse mal, como já escrevi, é a manifestação dos anseios dos espíritos animais, o que se torna evidente pela natureza brutal de seus atos. Quando me refiro a "animais", aludo primordialmente às feras e, em seguida, às aves; em casos mais raros, a insetos e peixes. Todos eles são indispensáveis para a administração dos desejos físicos do homem, tendo Deus assim criado os seres humanos. Constituem, portanto, o que se poderia chamar de um mal necessário.</p>
@@ -105,5 +257,48 @@ function toggleLang(lang) {
 <p>Observando sob outra perspectiva, podemos entender que, se o poder de Deus é de cem por cento e o da divindade maligna, de noventa e nove por cento, Deus a supera em um por cento. É com esse um por cento que Ele reverte a situação. Esse poder é, de fato, a Nyoi Houshu (如意宝珠). Sendo assim, como sempre afirmo, a cultura contemporânea será transformada em seu ápice de noventa e nove por cento, momento que corresponde ao "fim do mundo" anunciado por Jesus Cristo. Portanto, é inevitável que, neste exato instante, ocorra no Mundo Espiritual um cataclismo extraordinário, capaz de abalar céus e terra. Aqueles que conseguirem crer nisso serão pessoas eternamente felizes.</p>
 <p>E, como o pilar desse plano maligno é a ciência moderna, a revolução da medicina ocorrerá como uma consequência natural. O que substituirá a ciência médica é o nosso método, o Johrei. Não é preciso me estender sobre o fato de uma pessoa comum, sem conhecimento algum de medicina, receber, após alguns dias de treinamento, o poder de curar enfermos à beira da morte, desenganados por inúmeros médicos. Consequentemente, com esse poder, não será tarefa difícil dissolver os erros que a cultura moderna cometeu e acumulou ao longo de várias dezenas de séculos.</p>
 <p>Neste momento, o manto da Noite é rasgado, e o Sol radiante desponta no horizonte. Agora é, pois, o alvorecer do Dia. Se é verdade o que disse Jesus Cristo — "felizes os que creem" —, será inevitável que os incrédulos estejam destinados à ruína.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： NINETY-NINE PERCENT VERSUS ONE PERCENT Eikoh , No.138, January 9, 1952 (the 27th year of Showa) This article is an excerption from "CREATION OF CIVILIZATION". As I have written in the preceding chapter, the cause of war is the evil itself which resides in human beings. The essence of this evil is expression of desire of the animal spirits as I have written before, which is evident from the brutal nature of the acts of evils. I mean by "animal" primarily, of course, beasts, and then birds; in rare cases insects or worms, and also fishes. Every one of them is needed for the management of physical aspects of human desires and God has created human beings as such, so they are the so-called necessary evils. However, since these animal spirits are connected with the boss in the world of evil spirits, they are perfectly controlled by the boss as he likes. And there are ranks in the world of evil spirits as well and each evil spirit possesses an individual person whose spiritual rank corresponds to that of the evil spirit in question. The ranks of evil spirits range widely from higher to lower and the world of evil spirits has the same structure as that of righteous spirits. In this way, from the primitive ages to the present day, mankind has passed the time of good and evil confronting each other for tens of thousands or hundreds of thousands years until today. Needless to say, during this period of time the evil spirits have been more powerful, so the righteous spirits have tended to be oppressed by them, but eventually, the evil was defeated and the righteous won the victory, the proof of which is easily found in history, that is to day, if the evil had prevailed, the world would have been collapsed and this world, which we see today, could never exist. Until today, time has favored the evil to some extent, in other words, the world has been in the age of Night. Of course, the Night is darkness itself and the light power to get the evil under control has been insufficient, so it couldn't be helped. For this reason, the world until today has been the place where even the evil could achieve their purpose, which could be maintained for quite a long time, so the people who witnessed such states of affairs were deluded that it was the easier way to succeed in anything by evil means, and their followers also came up in turn. As a result, the public have been universally infected by the evil and such delusion has even become the commonsensical precept for their life. As we know from history, it appears temporarily that people are successful by evil means, but it is inevitable for them to fail some day; however, the majority of people have been insensible to such reality. Therefore, we can say that human history is no more than a record of continuous alternation of success and failure both brought through the evil. Because the evil power has been very strong in the age of Night as mentioned above, not a few righteous people became victims to the evil. Among them were especially many religious figures, and the greatest victim was the Jesus Christ. Even me, if I had been born in that age, I might have experienced unthinkable suffering; however, the Night has ended as I tell you all the time, and now that the present age has taken a step into the dawn of the age of Day and it is allowed to get off with less suffering, we are achieving progress following the scheduled course. By the way, you should bear in mind at this point that what I mention as plans and activities of the evil deities means not only war and violence, but in all areas they have been moving on under such a detailed and long-range program. The most successful achievement among them is materialistic science. This materialistic science is precisely the greatest weapon, by which they have brought amazing benefits to all mankind, and at the same time, exploiting this weapon to gain people's trust, they intend ultimately to grab the absolute power over the human race; this is the very program of the evil, whose aim is definitely to govern the life of human being. Since what they have developed with this aim is modern medical science, they intend to cure disease completely by materialistic method, and apparently it is indeed likely to be cured, but substantially it is far from the truth at all; nevertheless, their intelligence is crafty enough to exert itself by every possible means. Of course, what they adopt as their means are machine, light beam, new drug, operation, etc. and their pathology is theorized exhaustively in microscopic detail as well, but nobody has ever been able to see through the real situation. In the light of this, say, if you contract some disease and ask about the source of the disease, the answer is mere formality; they cannot give an explanation to the point and are always making an extremely vague answer. Besides, if you ask them how the disease will turn out to be, their answers are, "It would perhaps be...," and they cannot come to a conclusion. Even if they draw a conclusion, it is an error in nine cases out of ten; this would be what doctors themselves usually experience as well. The next subject is the food problem. This problem comes down to the chemical fertilizer which has been produced mostly on scientific grounds as well just like medicine. I suppose since this also showed temporary effect at first, people were deceived and it has pervaded each nation as we see today, of which I give a full explanation in another chapter. And the next issue is war; this is also, as I have described before, what ambitious and competent persons of the time plotted at the sacrifice of many human lives so that they would be the supreme rulers; however, these would allow their dream of success to come true only temporarily as well and result in failure with no exceptions only to survive as mere episodes in history. So far, I have examined roughly about evils; in the light of which it is also clear that the time has come when God liquidates materialistic culture. Now that the purpose of evil deity has come near to being fulfilled, God reveals the truth through me. If you think deeply about this, you will find it really defies conjecture how profound and subtle the grand design of God is. Now, if seen from a different aspect, this will mean that since God has the power of one hundred percent while evil deity has the power of ninety-nine percent, God surpasses by one percent and turns the table by this one-percent power, so this power is indeed Nyoi Houshu (or Nyoi Houju; Sanskrit: cintamani which means wish-fulfilling jewel. Mokichi Okada reported that the Nyoi Houshu fell from heaven and dwelled at the central part of his body on 15th of June in 1950, when he was being held in a jail on a charge of the so-called "Religious Persecution Incident".) So, as I always say, contemporary culture will be changed at the maximum point of ninety-nine percent, when the end of the world comes which Jesus Christ said. Therefore, it must be at this very moment when an earth-shaking extraordinary cataclysm will occur. Those who can believe in this, they will be eternally happy people. And because one and only one thing of the program is modern science, the revolution of medicine will take place as a matter of course. What should replace the medical science is our method of Johrei. For, there is no need to dwell on the fact that an average person who has no knowledge of medicine will be given the power after several days' training to cure sick people on the verge of death with whom so many doctors have no idea what to do. Consequently, with this power it will be no difficult matter at all to dissolve the errors in modern culture which have been committed and accumulated for several tens of centuries. At this moment in time, the mantle of Night is chopped down and the brilliant sun appears to rise, so it is now that is the dawn of the Day. If it is true that those who do believe are happy, as Jesus Christ said, it will be inevitable that those who do not believe are destined to go to ruin. 九分九厘と一厘 『栄光』138号、昭和27(1952)年1月9日発行 この論文は文明の創造の中の一節である。<br/><br/> 前項に述べたごとく、戦争の原因は人間に内在する悪そのものであって、この悪なるものの本質は何であるかというと、さきにもかいたごとく動物霊の意欲の表われであって、その行為が動物的であるに見ても明らかである。<br/><br/>動物とはもちろん獣類が主で、次が鳥類、まれには虫類もあり、魚族もあるが、いずれも人間の体欲をつかさどる必要から、神がそのように人間を造られたもので、いわゆる必要悪である。<br/><br/>ところがこの動物霊は霊線によって、邪神界の頭目に連繋（れんけい）しているので、その頭目の思うまま自由自在に操られているのである。<br/><br/>そうして邪神界にも階級があって、人間個々の霊的階級に相応し憑依するので、上級から下級に至るまで差別があり、これも正神界のそれと同様の組織になっている。<br/><br/> このような訳で、人類は原始時代から今日に到るまで、善と悪が相対峙しつつ、現在まで何万何十万年にわたって来たのであるが、もちろんその期間邪神の力の方が強いため、ともすれば正神の方が圧迫され勝ちであったが、結局において悪の方が敗北し、善の方が勝ったのは歴史がよく証明している。<br/><br/>それはもし邪神の方が勝ったとしたら、世界は崩壊され、今日見るがごとき世界は、あり得なかったはずであるからで、それというのも今日までは時が悪にある程度味方していたので、つまり夜の世界であったからである。<br/><br/>もちろん夜は暗黒そのもので、悪を制御する光が足りない以上、止むを得なかったのである。<br/><br/>右のごとくこれまでの世界は悪でも目的を達せられ、相当期間持続されたので、これを見た人間は悪で成功する方が早道と錯覚してしまうと共に、その追随者も出来るという訳で、滔々（とうとう）として一般が悪に感染し、処世の常識とさえなってしまったのである。<br/><br/> これは歴史をみれば判るごとく、悪によって一時は成功したように見えても、いずれは必ず失敗するが、それに大部分は無頓着であったのである。<br/><br/>従って歴史とは悪による成功と、悪による失敗との交互連続の記録でしかないと言えよう。<br/><br/>右のように夜の時代は悪の力が強いため、その犠牲となった善者も少なくなかった。<br/><br/>特にそれが宗教家に多く、最大な犠牲者としては、彼のキリストであった。<br/><br/>私といえどももしその時代に生まれたとしたら、いかなる苦難に会ったかも分からないが、いつも言う通り今や夜が終り、黎明期に一歩入った現在であるから軽く済み、予定通りの進展を遂げつつあるのである。<br/><br/> ところでここに注意すべきは、邪神の計画や行動といっても、戦争や暴力のみではない。<br/><br/>あらゆる分野にわたって、いとも綿密にして遠大なる計画の下に進んで来た事である。<br/><br/>その中で最も成功したものとしては唯物科学であって、この唯物科学こそ、彼らの最大なる武器であって、これによって全人類に素晴しい恩恵を与えたと共にこれを利用して信頼させ、最後には絶対権を握ろうとするのが彼の計画であって、その狙いは何と言っても、人間の生命を左右する事である。<br/><br/>その意味から進歩させたものが現代医学である以上、徹頭徹尾物質的方法によって、病気を治そうとし、外面的には、いかにも治りそうに見えるが、内実は決してそうでないにかかわらず、彼らの智能はすこぶる巧妙にあらゆる手段を尽して努力しているのである。<br/><br/>もちろん、方法としては機械、光線、新薬、手術等であり、また病理も微に入り細にわたって理論付けているが、この真相を看破し得た者は今までに一人もなかったのである。<br/><br/>この意味によって、例えば病気に罹りその病原を質問しても御座なり的で、適確な説明は出来ないで、曖昧きわまる答弁をしている。<br/><br/>また病気に対してその見込を訊いてもだろう的で、断定は出来ない。<br/><br/>よしんば断定しても、十中八、九は齟齬（そご）するので、これは医家も常に経験するところであろう。<br/><br/> 次は食糧問題であるが、これも医学と同様ほとんど科学的論拠によって作られた、彼の化学肥料である。<br/><br/>これも最初は一時的効果を見せられたので、人間は瞞されてしまい、今日のごとく各民族に行き渡ったのであろうが、これは別の項目で詳説する。<br/><br/> 次は戦争であるが、これもさきに述べたごとくその時代の手腕ある野心家が、多くの人命を犠牲にして、覇者たらんと企てたものであるが、これらも一時的成功の夢をかち得るに過ぎず、最後は必ず失敗し、歴史上の語り草に残るのみである。<br/><br/> 以上大体悪についての検討をしてみたが、これによってみても、神は唯物文化の清算をされ給う時期が来た事は明白であって、邪神の目的通りにならんとするその一歩手前に来た現在、神は私を通じて真相を明らかにさせ給うのである。<br/><br/>これを深く考えればその深遠微妙なる大神策は、実に端倪（たんげい）すべからざるものがある。<br/><br/>ここで別の意味からみれば、神の力は十全であり、邪神の力は九分九厘であるから、神の方が一厘勝（まさ）っており、この一厘の力をもって掌を反すので、この力こそ如意宝珠であるから、私が常にいうごとく、現代文化は九分九厘までで切替えとなり、その時がキリストの言われた世の終りであるという訳である。<br/><br/>従って、この時こそ霊界においては仰天動地の一大異変が起こるのは必然で、この事を信じ得る人にして、永遠なる幸福者となるのである。<br/><br/> そうして、かの計画の唯一のものが現代科学であるから、医学の革命も当然起こるであろう。<br/><br/>それに代るべきものとしては、本教の浄霊法である。<br/><br/>というのは、幾人もの博士がてこずって、死になんなんとした病人が医学のイの字も知らない普通人が、数日の修行によって治し得る力を与えられるにみても多くを言う必要はあるまい。<br/><br/>従ってこの力をもってすれば、何十世紀も掛かって積み重ねた現代文化の誤れる点を解消するのも、あえて難事ではないであろう。<br/><br/> ここに至って、夜の帳（とばり）は切って落され、赫々（かくかく）たる太陽が現れるので、その黎明期こそ今である。<br/><br/>キリストの言われた信ずるものは幸いなりとしたら、信ぜざる者は、滅亡の運命となるより致し方ないであろう。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

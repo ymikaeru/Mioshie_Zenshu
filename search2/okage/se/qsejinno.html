@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>qsejinno</title>
 <link href="../../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -41,52 +242,6 @@
 </form>
 <blockquote>
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 世人の気のつかぬ薬毒 病気治り、美容にも効果 『救世』51号、昭和25(1950)年2月25日発行 埼玉県 啓光中教会 看護婦 原久子（28） 私は戦争の最中に東京の某私立病院で看護婦として働いておりました者です。<br><br>昭和十八年の十二月まで何ともなかった手足に激痛を覚え、目が覚めたら手足の関節が丸々と盛上り痛みが猛烈に激しくなるために動かすことが出来ません。<br><br>やっとの思いで立上り診察室まで行き早速注射をして貰いましたが、何本しても効果はなく、痛みは少しもさりませんので、薬が身体に合わないためではないかとかわったのをしますと、最初の一本は少々痛みが楽になるように思われるので、これなら良いかと二本目をしますと何等変化はなく、しない時と同じ状態です。<br><br>四年間医師と薬の中で生活をして来た私は、それでも薬でなければ病気は治らないと信じでいました、ために郷里へ帰るよりも病院で手当をしていた方が安心と思い、注射に明け注射に暮れておりました。<br><br>のに拘わらず痛む患部が次第に殖えてとうとう全身に痛みがまわり動くのに不自由を感ずるようになってしまいました。<br><br>その頃から先生にはかくれて友達に痛み止めをして貰っていましたが全身の痛みは耐えきれず、発病して満一年を経た二十年一月健康になるべき病院から病を得て郷里に帰って参りました。<br><br>医師の診断は多発性関節リウマチスでした。<br><br>絶対安静と刺戟物を食べないことの注意を受け床につく身になりこれで一生動けなくなり、死ぬのかと思ったらただ悲しく涙涙涙で幾日を経たのかさえ判らない位絶望のどん底にもがき苦しんでおりました。<br><br>その日もいつものように注射をしますと急に悪寒がし、熱が三十九度か四十度位出て全身に「はしか」のような発疹が出て非常に苦しいのです。<br><br>それでも未だ諦めず何本も注射をしましたが、とうとう苦しみに耐えられずやむなく注射一切をやめました。<br><br> すると家人や近所の人が鍼や灸をすすめてくれますのでそれを念のためにしてみましたが、灸もあつくて生々しい跡を残すだけで何等効果は御座いませんでした。<br><br>これ以上何もする事はなくただ寝ていると体が動かなくなるという事でした。<br><br>そして皮膚はたるみおばあさんのように黒く、つやを失って骨や体つきが変ってしまい人目にふれるのがいやで家の中に閉じこもっていました。<br><br> ところへ知人から大変に良い療法で医師が見離した病人も救われるからお願いしてみてはどうかとすすめられ、癒りたい一心で行く気になり案内して頂きました。<br><br>こうして参りましたのは長澤先生の許でございました。<br><br>御浄霊を頂きましたのは発病以来実に五年目の九月でございます。<br><br>先生のお優しいお導きによって心身ともにいびつになってしまった私も、日増に元気を取戻してまいりました。<br><br>なまじ医学に携っていた者だけに扱いづらい事が多々あったにも拘わらず先生にはいつも変りなき御指導を頂きました。<br><br>先生が手を振るだけで私の体が動くようになる。<br><br>不思議だ、ただ不思議だというより外に言葉が御座いません。<br><br>これで癒るのだ！ 健康になれるのだ！ と感じた時の喜びは何と言ったらお判りになって頂けましょう。<br><br>浄霊をして頂きましてより四カ月目に何か胸にはりつめてしまって苦しく高熱が出て（しかし呼吸をするには別に何とも御座いませんでした）先生のお宅へ通う事が出来ず、妹が御都合を伺いに参りましたら早速おいでを頂き浄霊を続けて頂きましたら、三日目から真白な痰が少し動いてもころころ出ました。<br><br>すると熱も次第に下り痛い程にはりつめた胸もさっぱりとして体の目方が減ったかと思う程軽くなり全身の痛みは一層楽になりました。<br><br>その後は床につく事もなく家事の合間には縫物さえ出来るようになりました。<br><br> 光明如来様の御守護の偉大さに日々新たな感謝を捧げますとともに手を振る位でと笑った事を心からお詫びを述べさせて頂くもので御座います。<br><br>昨年十月御守を授けて頂きましてから、田圃道を自転車で御用をさせて頂いておりますが、これが五年間リウマチスで苦しんだ人間かと思う程、世にも不思議な御守護を頂いたので御座います。<br><br>私は二度と病院へは戻りません。<br><br>患者さんに御注射する時の事等思い出しただけでも寒々と致します。<br><br>今後一人でも多くお導き致しまして御恩の万分の一にも報いたいと存じます。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>O veneno dos remédios, um mal ignorado pela sociedade</h2>
 <p><strong>A cura das enfermidades e os seus efeitos na beleza</strong></p>
@@ -97,5 +252,48 @@ Hisako Hara, Enfermeira (28 anos)</p>
 <p>Diante disso, familiares e vizinhos sugeriram que eu tentasse acupuntura e moxabustão. Por desencargo de consciência, submeti-me a esses tratamentos, mas a moxa revelou-se apenas um procedimento doloroso que me deixou cicatrizes, sem apresentar qualquer resultado benéfico. Sem outras alternativas, restou-me a imobilidade do leito. Minha pele tornou-se flácida, escura e desprovida de brilho, como a de uma idosa. A própria estrutura de meu corpo e ossos se alterou. Envergonhada de minha aparência, passei a evitar o contato com as pessoas e me isolei em casa.</p>
 <p>Foi então que um conhecido me falou sobre um tratamento extraordinário, capaz de salvar até mesmo os doentes desenganados pelos médicos, e me incentivou a buscá-lo. Apegada ao desejo de me curar, aceitei prontamente o convite e fui acompanhada até o local. Assim, cheguei ao encontro do ministro Nagasawa. Recebi Johrei pela primeira vez em setembro, exatos cinco anos após o surgimento da doença. Sob a orientação terna e dedicada do ministro, eu, que me encontrava desfigurada de corpo e alma, comecei a recuperar as forças dia após dia. Apesar de minha formação em medicina certamente ter apresentado desafios, o ministro sempre me orientou com inabalável paciência. O simples gesto de sua mão era capaz de fazer meu corpo se mover. Era um mistério; não há outra palavra para descrevê-lo senão "prodigioso". Como poderia eu expressar a alegria que senti ao perceber: "Eu serei curada! Poderei ter uma vida saudável novamente!"? Quatro meses após o início do Johrei, fui acometida por uma forte pressão no peito e febre alta, o que me impediu de ir até a casa do ministro, embora minha respiração não estivesse afetada. Minha irmã foi solicitar-lhe auxílio, e ele prontamente veio me atender, dando continuidade às sessões de Johrei. Ao terceiro dia, uma expectoração branca e densa começou a ser expelida em abundância, mesmo com o menor movimento. Em seguida, a febre cedeu, a opressão no peito desapareceu por completo e senti meu corpo tão leve como se tivesse perdido peso. As dores generalizadas aliviaram-se ainda mais. A partir de então, não precisei mais ficar de cama e, nos intervalos das tarefas domésticas, tornei-me capaz até mesmo de costurar.</p>
 <p>Diariamente, renovo minha gratidão pela grandiosa proteção do Supremo Deus e, do fundo do coração, peço perdão por um dia ter escarnecido da ideia de que alguém poderia ser curado com um simples "acenar de mãos". Desde que recebi o Omamori, em outubro do ano passado, tenho percorrido estradas de terra de bicicleta para cumprir minhas dedicações. É difícil crer que esta pessoa seja a mesma que padeceu com reumatismo por cinco anos; recebi, de fato, uma proteção verdadeiramente milagrosa. Jamais retornarei a um hospital. A simples lembrança de aplicar injeções nos pacientes me causa arrepios. De agora em diante, desejo dedicar-me a encaminhar o maior número possível de pessoas a este caminho, como forma de retribuir, ainda que minimamente, a imensa graça que recebi.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help お か げ 話 資料検索 ： 世人の気のつかぬ薬毒 病気治り、美容にも効果 『救世』51号、昭和25(1950)年2月25日発行 埼玉県 啓光中教会 看護婦 原久子（28） 私は戦争の最中に東京の某私立病院で看護婦として働いておりました者です。<br/><br/>昭和十八年の十二月まで何ともなかった手足に激痛を覚え、目が覚めたら手足の関節が丸々と盛上り痛みが猛烈に激しくなるために動かすことが出来ません。<br/><br/>やっとの思いで立上り診察室まで行き早速注射をして貰いましたが、何本しても効果はなく、痛みは少しもさりませんので、薬が身体に合わないためではないかとかわったのをしますと、最初の一本は少々痛みが楽になるように思われるので、これなら良いかと二本目をしますと何等変化はなく、しない時と同じ状態です。<br/><br/>四年間医師と薬の中で生活をして来た私は、それでも薬でなければ病気は治らないと信じでいました、ために郷里へ帰るよりも病院で手当をしていた方が安心と思い、注射に明け注射に暮れておりました。<br/><br/>のに拘わらず痛む患部が次第に殖えてとうとう全身に痛みがまわり動くのに不自由を感ずるようになってしまいました。<br/><br/>その頃から先生にはかくれて友達に痛み止めをして貰っていましたが全身の痛みは耐えきれず、発病して満一年を経た二十年一月健康になるべき病院から病を得て郷里に帰って参りました。<br/><br/>医師の診断は多発性関節リウマチスでした。<br/><br/>絶対安静と刺戟物を食べないことの注意を受け床につく身になりこれで一生動けなくなり、死ぬのかと思ったらただ悲しく涙涙涙で幾日を経たのかさえ判らない位絶望のどん底にもがき苦しんでおりました。<br/><br/>その日もいつものように注射をしますと急に悪寒がし、熱が三十九度か四十度位出て全身に「はしか」のような発疹が出て非常に苦しいのです。<br/><br/>それでも未だ諦めず何本も注射をしましたが、とうとう苦しみに耐えられずやむなく注射一切をやめました。<br/><br/> すると家人や近所の人が鍼や灸をすすめてくれますのでそれを念のためにしてみましたが、灸もあつくて生々しい跡を残すだけで何等効果は御座いませんでした。<br/><br/>これ以上何もする事はなくただ寝ていると体が動かなくなるという事でした。<br/><br/>そして皮膚はたるみおばあさんのように黒く、つやを失って骨や体つきが変ってしまい人目にふれるのがいやで家の中に閉じこもっていました。<br/><br/> ところへ知人から大変に良い療法で医師が見離した病人も救われるからお願いしてみてはどうかとすすめられ、癒りたい一心で行く気になり案内して頂きました。<br/><br/>こうして参りましたのは長澤先生の許でございました。<br/><br/>御浄霊を頂きましたのは発病以来実に五年目の九月でございます。<br/><br/>先生のお優しいお導きによって心身ともにいびつになってしまった私も、日増に元気を取戻してまいりました。<br/><br/>なまじ医学に携っていた者だけに扱いづらい事が多々あったにも拘わらず先生にはいつも変りなき御指導を頂きました。<br/><br/>先生が手を振るだけで私の体が動くようになる。<br/><br/>不思議だ、ただ不思議だというより外に言葉が御座いません。<br/><br/>これで癒るのだ！ 健康になれるのだ！ と感じた時の喜びは何と言ったらお判りになって頂けましょう。<br/><br/>浄霊をして頂きましてより四カ月目に何か胸にはりつめてしまって苦しく高熱が出て（しかし呼吸をするには別に何とも御座いませんでした）先生のお宅へ通う事が出来ず、妹が御都合を伺いに参りましたら早速おいでを頂き浄霊を続けて頂きましたら、三日目から真白な痰が少し動いてもころころ出ました。<br/><br/>すると熱も次第に下り痛い程にはりつめた胸もさっぱりとして体の目方が減ったかと思う程軽くなり全身の痛みは一層楽になりました。<br/><br/>その後は床につく事もなく家事の合間には縫物さえ出来るようになりました。<br/><br/> 光明如来様の御守護の偉大さに日々新たな感謝を捧げますとともに手を振る位でと笑った事を心からお詫びを述べさせて頂くもので御座います。<br/><br/>昨年十月御守を授けて頂きましてから、田圃道を自転車で御用をさせて頂いておりますが、これが五年間リウマチスで苦しんだ人間かと思う程、世にも不思議な御守護を頂いたので御座います。<br/><br/>私は二度と病院へは戻りません。<br/><br/>患者さんに御注射する時の事等思い出しただけでも寒々と致します。<br/><br/>今後一人でも多くお導き致しまして御恩の万分の一にも報いたいと存じます。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

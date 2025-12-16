@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>rei13071</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#EFFFE6">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#EFFFE6"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -40,56 +241,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（三） ５ 071-085 前世３ 071 舌癌と怨念 四、五年前より舌に芯（小指の頭位）が出来ましたが、大きくもならず痛みなどの苦痛もありません。<br><br>十五年前に叔母が舌癌で死亡しておりますので、私もそのようになりはしないかと心配でなりません。<br><br>これは浄霊にて治りましょうか。<br><br> 癌の危険がある。<br><br>浄霊で治る。<br><br> 前世において喋って怨まれた怨念がそういう事を起さす。<br><br>（S24. 3.20） 072 怨念の痣 私の妻（一昨年入信）並びに妻の母並びに母の実母は、女系四代にわたり右手の内側、肘より二寸上に同じく旧一銭銅貨位の痣があります。<br><br>祖母は黒紫色、母は茶紫色、子供は薄くかすかに見える程度です。<br><br>これはいかなる霊的原因がありましょうか。<br><br>（妻も母も祖母の実家は旧士族です）何卒御教示御願い申し上げます。<br><br> 前世に怨みをもって槍で突かれたもので、切先からその怨みの霊が通るので、強く印されたので、生れ替っても残るのである。<br><br>（S25. 2.15） 073 無肛門児 九月十四日、北海道滝川町において生れました男子が、肛門がなく、医師が二回にわたり四寸程手術を致しましたが、肛門は見えません。<br><br>その子は生後二十日にて死亡致しました。<br><br>何か霊的に関係が御座居ましょうか。<br><br>御教示御願い申し上げます。<br><br> 霊的にいえば、前の世の怨みである。<br><br>または肛門を突かれたものであろう。<br><br> 蓮華往生などは肛門へ祟る。<br><br>（S24.10. 8） rattail（注） 蓮華往生（れんげおうじょう）死後、極楽浄土の蓮華座上に生まれること。<br><br>寛政年間（1789-1801）、上総国で、日蓮宗の悪僧らがこれを利用した。<br><br>仕掛けのある大きな蓮華の台座を設け、料金を取って信者をここに登らせ、その周囲で一斉に読経しながら、蓮台をつぼませて台上の信者を包み込み、台の下から槍で刺し殺し、生きたまま仏土に往生するとしたもの。<br><br> 074 白なまずと痣 十五歳の子、三歳位の頃より脚に白なまずが出来、生長するにつれ大きくなります。<br><br>いかなる因縁でしょうか。<br><br> これは前の世の因縁によるので、私なども身へ白なまずが出来てるが、別に苦痛もなく、苦にもならぬので、放置している。<br><br>それでいいと思う。<br><br>年と共に段々大きくなる事もあるが、これはある程度で止まるものである。<br><br> 痣の原因は面白いんで、赤痣は割合い性がよく、お浄めで治るが、黒痣は性がわるくなかなか治らぬ。<br><br>痣は怨みに関係がある。<br><br>私は先に胸に恰度血の滲んだような痣のある人をみた事があったが、これは短刀で突いたか何かで死んだ人の怨みの人の霊によるものと思う。<br><br>火傷などさせられ、怨んで死んだのはやはり痣になる。<br><br>薬毒や敗血症などでなるのは消えるものである。<br><br> 075 赤痣・青痣の原因 人体の痣の原因は種々の説がありますが、霊的にはいかなる関係がありますか。<br><br>また、赤痣、青痣の区別につき御伺い致します。<br><br> 青痣は人の怨みである。<br><br>これは浄霊でも絶対に治らぬ。<br><br>大抵は前世かその人の前の世の怨みかで、人を傷つけた場合、悔しいという怨みかで、加害者への強い怨みが執着になって離れぬ。<br><br>それで、前世、一種の血液の変化がある。<br><br>赤痣は切られたとか、突かれたものが残っている。<br><br>これは浄霊で薄くなる。<br><br>（S24. 5.25） 076 黒痣移動 私の左乳の上に盃大の黒い痣がありましたが、四歳になる娘の左乳の上にも同様の薄黒い痣がありましたので、不思議に思いながら自分の乳の上の痣を見ますと、不思議になくなっておりました。<br><br>何か霊的関係がありましょうか。<br><br>御教え願います。<br><br> 黒痣は前世の怨念が固まっている。<br><br>入信すると怨念は消えてなくなる。<br><br>（S24. 8.28） 077 痣の原因 白、赤、黒痣はどうして出来るものでしょうか。<br><br> 痣というものは前世における自分の事や他人の事があり―。<br><br> 痣で悪いのは黒痣で、これはお浄めでも効果はない。<br><br>怨みの想念が黒痣となる。<br><br> 赤痣は薄くなる。<br><br>自分の火傷とか、切られるなどが霊界で残って、浄化されずに赤痣として残っている。<br><br>突かれて血が迸っているように見えた人があった。<br><br> また、怨みなどで、人を火傷させて焼傷のために不具になるなど、その怨みの想念がやった人に行って祟り、痣になるのもある。<br><br> 昔は拷問などで熱湯を浴びせたので、そういうのは祟る。<br><br> 078 痣、黒子、疣 痣、黒子、疣等はいかなる原因により出来るものでしょうか。<br><br>右、御教示御願い申し上げます。<br><br> 痣は種（いろ）んな原因がある。<br><br>黒痣は大抵怨みで、霊から霊に染みついていて、除り切れないうちに生れてくると痣となっている。<br><br>肩を切ると肩へ怨みが来る。<br><br>あるいは半死半生の怨み等は黒痣となる。<br><br> 赤痣は軽い。<br><br>自分が切られたり、突かれたりし、霊界ですっかり浄化せぬうちに生れる。<br><br> ホクロは運命の印で、運命に重大な関係がある。<br><br>首の周りにあるのは着るに不自由せぬ。<br><br>泣きボクロは憂えが始終あり、鼻柱とか口の辺にあるのは必ず陰部にある。<br><br>疣は除れるのと除れないのとある。<br><br>いずれも運命に関係がある。<br><br>それらは運命を表現されている。<br><br>（S23.11.18） rattail（注） 〔 御光話（S23年11月18日） 『御光話録』1号、昭和23(1948)年12月8日発行〕に掲載 079 痣は原因 痣は何の因縁でしょうか。<br><br>お教え下さい。<br><br>特に目に見える所にあるのと着物に隠れる所にあるのとは因縁が異るのでしょうか。<br><br> 赤痣と黒痣がある。<br><br>赤痣は突かれたとか焼けどの痕跡である。<br><br> 黒痣は怨みで、怨まれる相手に出来る。<br><br>怨みが悪気になって滲みて行く。<br><br>執着の塊である。<br><br> 080 黒赤の痣 長男が生れましたが、右足首に薄い黒痣がありますが、赤や黒の痣は何の因縁ですか。<br><br>お教え下さい。<br><br> 黒痣は怨みの霊。<br><br>（絶対とれぬ）その人の祖先に足首を切られたという想念が祟るんで一生とれない。<br><br> 赤痣は（自分が前世で）斬られたり突かれたりで血が出て、それが残っている。<br><br>霊界で消えない中に生れ更ったものである。<br><br>または火傷したものの再生である。<br><br>（S24.12.27） 081 眼の痣 今年二歳になる女児、眼の部分に土色の痣あり、全快するでしょうか。<br><br> 痣は治らぬ。<br><br>紫や黒などは絶対に治らぬ。<br><br> 赤痣は前世突かれたり斬られたりなどして出血したあとで、薄くなる。<br><br> 黒痣は人の怨みで、その想念が染みになる。<br><br>本人が前世に怨まれたのと、祖先が怨まれたのとある。<br><br>（S24. 3.20） 082 赤痣 私は昭和二十五年二月十六日教修を戴きました。<br><br>生れながらにして左顔、顎にかけて赤痣があります。<br><br>伯母（現在行方不明）もやはり同じような赤痣がございます。<br><br>何か霊的に関係がございましょうか。<br><br> 霊的関係がある。<br><br>前世の怨みである。<br><br>前の世に切られたか、突かれたかし、代々祟ってやろうという執着でそうなるのである。<br><br>これは少し薄くなる位で、治らない。<br><br>（S25. 2.18） 083 痣 痣について―― 痣は前世の想念が残ってるのが出るので、よい意味の事も稀にはあるが、悪い事の方が多い。<br><br> 火傷のようなもの、槍で突かれたようなもの、刀で切られたような感じのものなど、大体痣は怨みの想念の場合が多い。<br><br>それは大抵赤痣で、怨みで紫色のはなかなかとれにくい。<br><br> この場合は良い事らしい。<br><br>（S23. 7.23） 084 鎖骨下赤痣 私は生れつき右鎖骨下に赤痣があり、今日では直径一寸程になっておりますが、いかなる原因でしょうか。<br><br>御教え願います。<br><br> 前の世でその部を突かれて死んだものである。<br><br>浄霊すると薄くなる。<br><br>（S24.10. 8） 085 痣は治るか 顔等にある痣は拡がるように思われますが、治らぬものでしょうか。<br><br> 痣は治らぬ。<br><br>赤痣は薄くはなる。<br><br>黒痣は全然駄目である。<br><br>彫物のように強く滲みている。<br><br>前の世の罪である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Doenças de Natureza Espiritual (Parte 3)</h2>
 <p><strong>Vidas Passadas – Parte 3</strong></p>
@@ -157,5 +309,48 @@ function toggleLang(lang) {
 <p><strong>085. Os Sinais de Nascença são Curáveis?</strong></p>
 <p><strong>Pergunta:</strong> Tenho a impressão de que os sinais de nascença no rosto tendem a se expandir. Eles são incuráveis?</p>
 <p><strong>Resposta:</strong> Sinais de nascença não têm cura. Os avermelhados podem clarear, mas os escuros são intratáveis. Estão impregnados com a mesma intensidade de uma tatuagem. São o registro de um erro de uma vida passada.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊学篇 一 霊的病気（三） ５ 071-085 前世３ 071 舌癌と怨念 四、五年前より舌に芯（小指の頭位）が出来ましたが、大きくもならず痛みなどの苦痛もありません。<br/><br/>十五年前に叔母が舌癌で死亡しておりますので、私もそのようになりはしないかと心配でなりません。<br/><br/>これは浄霊にて治りましょうか。<br/><br/> 癌の危険がある。<br/><br/>浄霊で治る。<br/><br/> 前世において喋って怨まれた怨念がそういう事を起さす。<br/><br/>（S24. 3.20） 072 怨念の痣 私の妻（一昨年入信）並びに妻の母並びに母の実母は、女系四代にわたり右手の内側、肘より二寸上に同じく旧一銭銅貨位の痣があります。<br/><br/>祖母は黒紫色、母は茶紫色、子供は薄くかすかに見える程度です。<br/><br/>これはいかなる霊的原因がありましょうか。<br/><br/>（妻も母も祖母の実家は旧士族です）何卒御教示御願い申し上げます。<br/><br/> 前世に怨みをもって槍で突かれたもので、切先からその怨みの霊が通るので、強く印されたので、生れ替っても残るのである。<br/><br/>（S25. 2.15） 073 無肛門児 九月十四日、北海道滝川町において生れました男子が、肛門がなく、医師が二回にわたり四寸程手術を致しましたが、肛門は見えません。<br/><br/>その子は生後二十日にて死亡致しました。<br/><br/>何か霊的に関係が御座居ましょうか。<br/><br/>御教示御願い申し上げます。<br/><br/> 霊的にいえば、前の世の怨みである。<br/><br/>または肛門を突かれたものであろう。<br/><br/> 蓮華往生などは肛門へ祟る。<br/><br/>（S24.10. 8） rattail（注） 蓮華往生（れんげおうじょう）死後、極楽浄土の蓮華座上に生まれること。<br/><br/>寛政年間（1789-1801）、上総国で、日蓮宗の悪僧らがこれを利用した。<br/><br/>仕掛けのある大きな蓮華の台座を設け、料金を取って信者をここに登らせ、その周囲で一斉に読経しながら、蓮台をつぼませて台上の信者を包み込み、台の下から槍で刺し殺し、生きたまま仏土に往生するとしたもの。<br/><br/> 074 白なまずと痣 十五歳の子、三歳位の頃より脚に白なまずが出来、生長するにつれ大きくなります。<br/><br/>いかなる因縁でしょうか。<br/><br/> これは前の世の因縁によるので、私なども身へ白なまずが出来てるが、別に苦痛もなく、苦にもならぬので、放置している。<br/><br/>それでいいと思う。<br/><br/>年と共に段々大きくなる事もあるが、これはある程度で止まるものである。<br/><br/> 痣の原因は面白いんで、赤痣は割合い性がよく、お浄めで治るが、黒痣は性がわるくなかなか治らぬ。<br/><br/>痣は怨みに関係がある。<br/><br/>私は先に胸に恰度血の滲んだような痣のある人をみた事があったが、これは短刀で突いたか何かで死んだ人の怨みの人の霊によるものと思う。<br/><br/>火傷などさせられ、怨んで死んだのはやはり痣になる。<br/><br/>薬毒や敗血症などでなるのは消えるものである。<br/><br/> 075 赤痣・青痣の原因 人体の痣の原因は種々の説がありますが、霊的にはいかなる関係がありますか。<br/><br/>また、赤痣、青痣の区別につき御伺い致します。<br/><br/> 青痣は人の怨みである。<br/><br/>これは浄霊でも絶対に治らぬ。<br/><br/>大抵は前世かその人の前の世の怨みかで、人を傷つけた場合、悔しいという怨みかで、加害者への強い怨みが執着になって離れぬ。<br/><br/>それで、前世、一種の血液の変化がある。<br/><br/>赤痣は切られたとか、突かれたものが残っている。<br/><br/>これは浄霊で薄くなる。<br/><br/>（S24. 5.25） 076 黒痣移動 私の左乳の上に盃大の黒い痣がありましたが、四歳になる娘の左乳の上にも同様の薄黒い痣がありましたので、不思議に思いながら自分の乳の上の痣を見ますと、不思議になくなっておりました。<br/><br/>何か霊的関係がありましょうか。<br/><br/>御教え願います。<br/><br/> 黒痣は前世の怨念が固まっている。<br/><br/>入信すると怨念は消えてなくなる。<br/><br/>（S24. 8.28） 077 痣の原因 白、赤、黒痣はどうして出来るものでしょうか。<br/><br/> 痣というものは前世における自分の事や他人の事があり―。<br/><br/> 痣で悪いのは黒痣で、これはお浄めでも効果はない。<br/><br/>怨みの想念が黒痣となる。<br/><br/> 赤痣は薄くなる。<br/><br/>自分の火傷とか、切られるなどが霊界で残って、浄化されずに赤痣として残っている。<br/><br/>突かれて血が迸っているように見えた人があった。<br/><br/> また、怨みなどで、人を火傷させて焼傷のために不具になるなど、その怨みの想念がやった人に行って祟り、痣になるのもある。<br/><br/> 昔は拷問などで熱湯を浴びせたので、そういうのは祟る。<br/><br/> 078 痣、黒子、疣 痣、黒子、疣等はいかなる原因により出来るものでしょうか。<br/><br/>右、御教示御願い申し上げます。<br/><br/> 痣は種（いろ）んな原因がある。<br/><br/>黒痣は大抵怨みで、霊から霊に染みついていて、除り切れないうちに生れてくると痣となっている。<br/><br/>肩を切ると肩へ怨みが来る。<br/><br/>あるいは半死半生の怨み等は黒痣となる。<br/><br/> 赤痣は軽い。<br/><br/>自分が切られたり、突かれたりし、霊界ですっかり浄化せぬうちに生れる。<br/><br/> ホクロは運命の印で、運命に重大な関係がある。<br/><br/>首の周りにあるのは着るに不自由せぬ。<br/><br/>泣きボクロは憂えが始終あり、鼻柱とか口の辺にあるのは必ず陰部にある。<br/><br/>疣は除れるのと除れないのとある。<br/><br/>いずれも運命に関係がある。<br/><br/>それらは運命を表現されている。<br/><br/>（S23.11.18） rattail（注） 〔 御光話（S23年11月18日） 『御光話録』1号、昭和23(1948)年12月8日発行〕に掲載 079 痣は原因 痣は何の因縁でしょうか。<br/><br/>お教え下さい。<br/><br/>特に目に見える所にあるのと着物に隠れる所にあるのとは因縁が異るのでしょうか。<br/><br/> 赤痣と黒痣がある。<br/><br/>赤痣は突かれたとか焼けどの痕跡である。<br/><br/> 黒痣は怨みで、怨まれる相手に出来る。<br/><br/>怨みが悪気になって滲みて行く。<br/><br/>執着の塊である。<br/><br/> 080 黒赤の痣 長男が生れましたが、右足首に薄い黒痣がありますが、赤や黒の痣は何の因縁ですか。<br/><br/>お教え下さい。<br/><br/> 黒痣は怨みの霊。<br/><br/>（絶対とれぬ）その人の祖先に足首を切られたという想念が祟るんで一生とれない。<br/><br/> 赤痣は（自分が前世で）斬られたり突かれたりで血が出て、それが残っている。<br/><br/>霊界で消えない中に生れ更ったものである。<br/><br/>または火傷したものの再生である。<br/><br/>（S24.12.27） 081 眼の痣 今年二歳になる女児、眼の部分に土色の痣あり、全快するでしょうか。<br/><br/> 痣は治らぬ。<br/><br/>紫や黒などは絶対に治らぬ。<br/><br/> 赤痣は前世突かれたり斬られたりなどして出血したあとで、薄くなる。<br/><br/> 黒痣は人の怨みで、その想念が染みになる。<br/><br/>本人が前世に怨まれたのと、祖先が怨まれたのとある。<br/><br/>（S24. 3.20） 082 赤痣 私は昭和二十五年二月十六日教修を戴きました。<br/><br/>生れながらにして左顔、顎にかけて赤痣があります。<br/><br/>伯母（現在行方不明）もやはり同じような赤痣がございます。<br/><br/>何か霊的に関係がございましょうか。<br/><br/> 霊的関係がある。<br/><br/>前世の怨みである。<br/><br/>前の世に切られたか、突かれたかし、代々祟ってやろうという執着でそうなるのである。<br/><br/>これは少し薄くなる位で、治らない。<br/><br/>（S25. 2.18） 083 痣 痣について―― 痣は前世の想念が残ってるのが出るので、よい意味の事も稀にはあるが、悪い事の方が多い。<br/><br/> 火傷のようなもの、槍で突かれたようなもの、刀で切られたような感じのものなど、大体痣は怨みの想念の場合が多い。<br/><br/>それは大抵赤痣で、怨みで紫色のはなかなかとれにくい。<br/><br/> この場合は良い事らしい。<br/><br/>（S23. 7.23） 084 鎖骨下赤痣 私は生れつき右鎖骨下に赤痣があり、今日では直径一寸程になっておりますが、いかなる原因でしょうか。<br/><br/>御教え願います。<br/><br/> 前の世でその部を突かれて死んだものである。<br/><br/>浄霊すると薄くなる。<br/><br/>（S24.10. 8） 085 痣は治るか 顔等にある痣は拡がるように思われますが、治らぬものでしょうか。<br/><br/> 痣は治らぬ。<br/><br/>赤痣は薄くはなる。<br/><br/>黒痣は全然駄目である。<br/><br/>彫物のように強く滲みている。<br/><br/>前の世の罪である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

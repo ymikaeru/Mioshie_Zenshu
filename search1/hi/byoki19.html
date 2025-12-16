@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>byoki19</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気の原因と其解消 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 現在、生きている人間は、自分一個の存在でなくて、祖先の繋りで、祖先の延長である事を知らなくてはならない。<br><br>又言い換えれば、無数の祖先の綜合が、個体たる自分である。<br><br>無数の祖先の霊線が、自分一個の霊と繋ぎ合っている。<br><br>ちょうど、紙風船の糸の形を想像すれば判る。<br><br> 故に、祖先が負うている、諸々の罪穢（ざいえ）なるものは、霊界における、その天律的浄化作用によって、その残渣（ざんさ）たる霊汚素が、絶えず現在の人間の精霊へ、流れて来る、それが人間の精霊を曇らせる原因である。<br><br>その曇りがある程度を越ゆる時、それが病気となって、肉体へ現われるのである。<br><br> 西洋医学は、肉体へ現われたる病気を、薬剤や器〔機〕械で治そうとするのである。<br><br>しかし、よしそれで治った所で、精霊の曇を払拭されない限り、再び肉体へ病気が現われるのは当然である。<br><br>これも社会事業と等しく結果のみを治す膏薬張式で根原を無視した行き方である。<br><br>一時的方法でしかないのである。<br><br> 観音の光。<br><br>それはラジュウムより、何十層倍の価値ある光であるから、精霊がそれを浴びるや曇りは解けてゆく。<br><br>精霊の曇りが無くなれば、肉体の病は治るに決まっている。<br><br> 観音は救主であられる。<br><br>罪を赦す御方である。<br><br>祖先の罪穢による、精霊の曇りを払拭するという事は、その罪穢を赦す事である。<br><br>これが根本的の治病法であるから、再発の憂いが無いのである。<br><br>否益々（ますます）健康になってゆくのは少しも不思議ではないのである。<br><br> この様に精霊の曇りが浄められるという事は、遡（さかのぼ）れば、祖先の罪が赦されるという事になるから、地獄界に苦しんでいた祖霊達が向上して、天国へ救われる事になるので、その信仰の徳は予測出来ない程の洪大無辺なものである。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>A Origem Espiritual das Doenças e sua Cura Definitiva</h2>
 <p>O homem que vive na atualidade não é uma existência isolada, mas sim um elo na corrente de seus antepassados, uma extensão de sua linhagem. É imperativo que se compreenda esta verdade. Dito de outro modo, o indivíduo que somos representa a síntese de incontáveis ancestrais. Inúmeras linhas espirituais provindas desses antepassados convergem e se conectam ao nosso espírito. Para visualizar tal realidade, basta imaginar os múltiplos fios que prendem um balão de papel.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>A Luz de Kannon (観音). Sendo esta uma Luz dezenas de vezes mais poderosa que a do rádio, ao ser banhado por ela, o espírito tem suas máculas gradualmente dissolvidas. Uma vez que as máculas espirituais desaparecem, a cura da doença física é uma consequência inevitável.</p>
 <p>Kannon (観音) é o Salvador, Aquele que perdoa os pecados. Desse modo, purificar as máculas espirituais decorrentes das impurezas dos antepassados equivale a perdoar essas mesmas impurezas. Por se tratar do método de cura fundamental, não há o receio de recidivas. Pelo contrário, não é de se estranhar que a pessoa se torne progressivamente mais saudável.</p>
 <p>Assim, a purificação das máculas do espírito de um indivíduo, em última instância, significa o perdão dos pecados de seus antepassados. Em consequência, os espíritos dos antepassados que sofriam no Mundo Infernal são elevados e salvos, ascendendo ao Paraíso. A virtude advinda de tal fé é, portanto, de uma magnitude imensurável e infinita.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気の原因と其解消 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 現在、生きている人間は、自分一個の存在でなくて、祖先の繋りで、祖先の延長である事を知らなくてはならない。<br/><br/>又言い換えれば、無数の祖先の綜合が、個体たる自分である。<br/><br/>無数の祖先の霊線が、自分一個の霊と繋ぎ合っている。<br/><br/>ちょうど、紙風船の糸の形を想像すれば判る。<br/><br/> 故に、祖先が負うている、諸々の罪穢（ざいえ）なるものは、霊界における、その天律的浄化作用によって、その残渣（ざんさ）たる霊汚素が、絶えず現在の人間の精霊へ、流れて来る、それが人間の精霊を曇らせる原因である。<br/><br/>その曇りがある程度を越ゆる時、それが病気となって、肉体へ現われるのである。<br/><br/> 西洋医学は、肉体へ現われたる病気を、薬剤や器〔機〕械で治そうとするのである。<br/><br/>しかし、よしそれで治った所で、精霊の曇を払拭されない限り、再び肉体へ病気が現われるのは当然である。<br/><br/>これも社会事業と等しく結果のみを治す膏薬張式で根原を無視した行き方である。<br/><br/>一時的方法でしかないのである。<br/><br/> 観音の光。<br/><br/>それはラジュウムより、何十層倍の価値ある光であるから、精霊がそれを浴びるや曇りは解けてゆく。<br/><br/>精霊の曇りが無くなれば、肉体の病は治るに決まっている。<br/><br/> 観音は救主であられる。<br/><br/>罪を赦す御方である。<br/><br/>祖先の罪穢による、精霊の曇りを払拭するという事は、その罪穢を赦す事である。<br/><br/>これが根本的の治病法であるから、再発の憂いが無いのである。<br/><br/>否益々（ますます）健康になってゆくのは少しも不思議ではないのである。<br/><br/> この様に精霊の曇りが浄められるという事は、遡（さかのぼ）れば、祖先の罪が赦されるという事になるから、地獄界に苦しんでいた祖霊達が向上して、天国へ救われる事になるので、その信仰の徳は予測出来ない程の洪大無辺なものである。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>

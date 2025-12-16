@@ -4,8 +4,209 @@
 <meta content="Microsoft FrontPage Express 2.0" name="GENERATOR"/>
 <title>kagaku13</title>
 <link href="../../style4.css" rel="stylesheet" type="text/css"/>
-</head>
-<body bgcolor="#E9FEDA">
+<style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style><style>
+    .lang-toggle-bar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #f8f9fa;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        grid-column: 1 / -1; /* Ensure full width in grid mode */
+    }
+    .lang-btn {
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+    }
+    .lang-btn:hover { background: #eee; }
+    .lang-btn.active {
+        background: #2E7D32;
+        color: white;
+        border-color: #1b5e20;
+    }
+    /* Compare Mode Styles */
+    body.compare-mode .content-wrapper, 
+    body.compare-mode #main,
+    body.compare-mode body /* fallback */ {
+        max-width: 95% !important;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    body.compare-mode #pt-content,
+    body.compare-mode #jp-content {
+        display: block !important;
+        height: 85vh; /* approximate viewport height minus header */
+        overflow-y: auto;
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background: #fff;
+    }
+    /* Hide header/footer in compare mode if desired, or keep them */
+    </style></head>
+<body bgcolor="#E9FEDA"><div class="lang-toggle-bar"><button class="lang-btn active" id="btn-pt" onclick="toggleLang('pt')">Português</button><button class="lang-btn" id="btn-jp" onclick="toggleLang('jp')">Original (JP)</button><button class="lang-btn" id="btn-compare" onclick="toggleLang('compare')">Comparar</button></div><div id="pt-content">
 <form accept-charset="utf-8" action="../../../cgi/msearch.cgi">
 <input name="hint" type="hidden" value="ひらがな"/>
 <input name="index" type="hidden" value=""/>
@@ -38,56 +239,7 @@
 </div>
 </form>
 <blockquote>
-
-
-
 <!-- LANGUAGE TOGGLE INJECTED start -->
-<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
-    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
-    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
-</div>
-
-<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
-    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学の次に来るもの 未発表、年代不詳 これからかこうとする論文は、全世界の学者という学者は、夢想だもしなかった事であって、恐らく直ちに信ずる事は出来まいが、静かに考えてみれば、暗夜に光明を得たごとく豁然（かつぜん）と眼界が開けるであろう。<br><br>というのは現在全世界を圧倒的に支配してしまった科学文明は、近き将来旧時代の遺物となる時の来らんとしている徴候は、私にはよく判るからである。<br><br>というと余りの意想外な説に私の頭脳を疑うかも知れないが、それが真理である以上、卓越せる学者なら首肯（しゅこう）出来ないはずはないのである。<br><br>ではそれはどういう訳かというと、次に根本からかいてみるが、現在までの科学は言うまでもなく唯物観念が基本となっており、唯心観念は全然閑却されているのである。<br><br> これについてはまず万有の実体を奥深く検討してみれば分るが、事実物質のみでは解決つかないものがそこ数知れずあるのは誰も知るであろう。<br><br>というのは唯物理念のみで解決しようとするからで、そこに原因があるのであるから、どうしても唯心観念が基本とならなければ真の解決は不可能である。<br><br>唯心観念とは言うまでもなく有神思想であり、ここに信仰の重要性があるので、もし科学のみで一切が解決出来るものなら、現在のごとき矛盾撞着（むじゅんどうちゃく）、混迷に喘（あえ）ぐ社会が出来るはずはないので、ここに科学至上主義の欠陥が暴露されているのである。<br><br>というように人類はどうしても信仰が必要である。<br><br>というのは彼のスターリンが最初の頃、共産主義の敵として信仰を潰滅（かいめつ）しようとし、各地の教会を閉鎖し安心するや、国民は秘かに教会に蝟集（いしゅう）するので、色々な手段を以って弾圧したが到底効果ないので、さすがのスターリンも匙（さじ）を抛（な）げ、再び信仰を許したという事である。<br><br> その他米国を始め欧羅巴（ヨーロッパ）各国、亜細亜（アジア）のあらゆる国にしても、信仰なき国は現在ソ連を除いたらほとんどないのが事実である。<br><br>としたら政府や学者がいかに科学思想を鼓吹（こすい）し、宗教は迷信なりと大声を挙げても、駄目なのは分り切った話である。<br><br>以上によってみても分るごとく、現在の世界は唯心思想と唯物思想とが離れ離れになっている事であって、これが文明の一大欠陥である。<br><br>これをたとえてみればよく分る。<br><br>科学は肉体派であり、宗教は精神派であるから、現在はバラバラになっている訳で、これでは平和幸福など得られる訳はない。<br><br>例えば人間にしてもそうで、精神はこうすればいいと思っても、肉体が言う事をきかなければ必ず間違った行いをする、といって肉体の方で精神を自由にする事は無論出来ない、というジレンマに陥ると同様、すべてが巧（うま）くゆくはずがない。<br><br>どうしても霊肉一致でなくては幸福は得られないのである。<br><br>これと同様世界も霊肉バラバラになっているから、今日のごとき混迷状態であり、人類は苦しみの坩堝（るつぼ）に蠢（うごめ）いているのである。<br><br> という訳は全く科学に捉われ、精神面を無視していたからに外ならないのである。<br><br>このバラバラである霊体を一致させた文明こそ真の文明である。<br><br>とは言うもののこれが大問題である。<br><br>というのはいかにしてこの科学過信思想を目醒めさせるかという事であるが、その方法こそ科学で不可能である事を、可能なる事実を示す事である。<br><br>すなわち科学以上の超科学であって、それには偉大なる力を要する。<br><br>もちろん既成宗教の教祖、聖者、偉人くらいの力では到底及ばないどころか、空前の絶対力すなわち神力である。<br><br>私はその力を神から与えられたのであるから、この力を自由に駆使して科学以上の科学、宗教以上の宗教すなわちＸ（エックス）的力であり、これによって新文明を創造するので、これが地上天国の樹立である。<br><br>
-</div>
-
-<script>
-function toggleLang(lang) {
-    // Try to find the content container. 
-    // It might be .translated-content, blockquote, or just the next sibling elements.
-    // Ideally we wrap the portuguese content in a div during injection, but that parses HTML hard.
-    // Instead we toggle commonly known containers.
-    
-    const ptSelectors = ['.translated-content', 'blockquote', '#pt-content'];
-    let ptContent = null;
-    
-    for (let s of ptSelectors) {
-        let el = document.querySelector(s);
-        if (el) {
-            ptContent = el;
-            break;
-        }
-    }
-    
-    const jpContent = document.getElementById('jp-content');
-    const btnPt = document.getElementById('btn-pt');
-    const btnJp = document.getElementById('btn-jp');
-
-    if (!ptContent && !jpContent) return;
-
-    if (lang === 'jp') {
-        if (ptContent) ptContent.style.display = 'none';
-        if (jpContent) jpContent.style.display = 'block';
-        if (btnPt) { btnPt.style.background = '#ddd'; btnPt.style.color = '#333'; }
-        if (btnJp) { btnJp.style.background = '#4CAF50'; btnJp.style.color = 'white'; }
-    } else {
-        if (ptContent) ptContent.style.display = 'block';
-        if (jpContent) jpContent.style.display = 'none';
-        if (btnPt) { btnPt.style.background = '#4CAF50'; btnPt.style.color = 'white'; }
-        if (btnJp) { btnJp.style.background = '#ddd'; btnJp.style.color = '#333'; }
-    }
-}
-</script>
 <!-- LANGUAGE TOGGLE INJECTED end -->
 <div class="translated-content"><h2>Para Além da Ciência Materialista</h2>
 <p>A tese que me proponho a expor neste ensaio é algo que os mais eruditos acadêmicos do mundo jamais ousaram sequer sonhar. É provável que, a princípio, não a aceitem; contudo, se refletirem com serenidade, sua visão de mundo se ampliará de forma fulgurante, como se uma luz resplandecente dissipasse a escuridão da noite. Digo isso porque sou capaz de vislumbrar com clareza os sinais de que a civilização científica, a qual hoje domina o planeta de modo avassalador, está prestes a se tornar, em um futuro próximo, uma mera relíquia de tempos passados. Diante de uma afirmação tão insólita, alguns talvez ponham em dúvida minha sanidade mental. Todavia, por se tratar da mais pura verdade, um intelectual de excelência não poderá deixar de anuir.</p>
@@ -96,5 +248,48 @@ function toggleLang(lang) {
 <p>Como se pode depreender do que foi exposto, o mundo atual padece de uma dissociação entre o pensamento espiritualista e o pensamento materialista, e essa é a maior de todas as falhas de nossa civilização. Uma analogia tornará essa questão mais clara: a ciência corresponde ao corpo físico, ao passo que a religião corresponde ao espírito. No presente, ambos se encontram separados, razão pela qual é impossível alcançar a paz e a felicidade. O mesmo ocorre com o ser humano. Ainda que o espírito saiba qual é a conduta correta, se o corpo não lhe obedece, a pessoa inevitavelmente cometerá erros. Por outro lado, o corpo tampouco é capaz de subjugar o espírito. Presa a esse dilema, a humanidade não tem como prosperar. A felicidade só pode ser alcançada por meio da unidade entre espírito e matéria. De forma análoga, como o mundo também se encontra nesse estado de cisão, vivemos a presente era de caos, e a humanidade se contorce em um cadinho de sofrimento.</p>
 <p>A causa de tudo isso não é outra senão o fascínio exercido pela ciência e a consequente negligência da dimensão espiritual. A verdadeira civilização será aquela que unificar o espírito e a matéria, hoje separados. Contudo, reside aí o grande desafio: como despertar a humanidade dessa ideologia de fé cega na ciência? O único método é demonstrar, por meio de fatos concretos, a possibilidade daquilo que a ciência considera impossível. Trata-se de uma supra-ciência, que transcende a ciência convencional e para a qual se faz necessário um poder grandioso. Evidentemente, a força dos fundadores das religiões estabelecidas, dos santos ou dos grandes vultos da história está longe de ser suficiente. É preciso um poder absoluto e sem precedentes: o Poder Divino.</p>
 <p>A mim, esse poder foi outorgado por Deus. Valendo-me dele livremente, manifestarei uma ciência que está acima da ciência e uma religião que está acima da religião — um poder de natureza X. Por meio dele, criarei a nova civilização. Esta é a construção do Paraíso Terrestre.</p></div></blockquote>
-</body>
+</div><div id="jp-content" style='display: none; background: #fff; padding: 20px; font-family: "Yu Mincho", serif;'>―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学の次に来るもの 未発表、年代不詳 これからかこうとする論文は、全世界の学者という学者は、夢想だもしなかった事であって、恐らく直ちに信ずる事は出来まいが、静かに考えてみれば、暗夜に光明を得たごとく豁然（かつぜん）と眼界が開けるであろう。<br/><br/>というのは現在全世界を圧倒的に支配してしまった科学文明は、近き将来旧時代の遺物となる時の来らんとしている徴候は、私にはよく判るからである。<br/><br/>というと余りの意想外な説に私の頭脳を疑うかも知れないが、それが真理である以上、卓越せる学者なら首肯（しゅこう）出来ないはずはないのである。<br/><br/>ではそれはどういう訳かというと、次に根本からかいてみるが、現在までの科学は言うまでもなく唯物観念が基本となっており、唯心観念は全然閑却されているのである。<br/><br/> これについてはまず万有の実体を奥深く検討してみれば分るが、事実物質のみでは解決つかないものがそこ数知れずあるのは誰も知るであろう。<br/><br/>というのは唯物理念のみで解決しようとするからで、そこに原因があるのであるから、どうしても唯心観念が基本とならなければ真の解決は不可能である。<br/><br/>唯心観念とは言うまでもなく有神思想であり、ここに信仰の重要性があるので、もし科学のみで一切が解決出来るものなら、現在のごとき矛盾撞着（むじゅんどうちゃく）、混迷に喘（あえ）ぐ社会が出来るはずはないので、ここに科学至上主義の欠陥が暴露されているのである。<br/><br/>というように人類はどうしても信仰が必要である。<br/><br/>というのは彼のスターリンが最初の頃、共産主義の敵として信仰を潰滅（かいめつ）しようとし、各地の教会を閉鎖し安心するや、国民は秘かに教会に蝟集（いしゅう）するので、色々な手段を以って弾圧したが到底効果ないので、さすがのスターリンも匙（さじ）を抛（な）げ、再び信仰を許したという事である。<br/><br/> その他米国を始め欧羅巴（ヨーロッパ）各国、亜細亜（アジア）のあらゆる国にしても、信仰なき国は現在ソ連を除いたらほとんどないのが事実である。<br/><br/>としたら政府や学者がいかに科学思想を鼓吹（こすい）し、宗教は迷信なりと大声を挙げても、駄目なのは分り切った話である。<br/><br/>以上によってみても分るごとく、現在の世界は唯心思想と唯物思想とが離れ離れになっている事であって、これが文明の一大欠陥である。<br/><br/>これをたとえてみればよく分る。<br/><br/>科学は肉体派であり、宗教は精神派であるから、現在はバラバラになっている訳で、これでは平和幸福など得られる訳はない。<br/><br/>例えば人間にしてもそうで、精神はこうすればいいと思っても、肉体が言う事をきかなければ必ず間違った行いをする、といって肉体の方で精神を自由にする事は無論出来ない、というジレンマに陥ると同様、すべてが巧（うま）くゆくはずがない。<br/><br/>どうしても霊肉一致でなくては幸福は得られないのである。<br/><br/>これと同様世界も霊肉バラバラになっているから、今日のごとき混迷状態であり、人類は苦しみの坩堝（るつぼ）に蠢（うごめ）いているのである。<br/><br/> という訳は全く科学に捉われ、精神面を無視していたからに外ならないのである。<br/><br/>このバラバラである霊体を一致させた文明こそ真の文明である。<br/><br/>とは言うもののこれが大問題である。<br/><br/>というのはいかにしてこの科学過信思想を目醒めさせるかという事であるが、その方法こそ科学で不可能である事を、可能なる事実を示す事である。<br/><br/>すなわち科学以上の超科学であって、それには偉大なる力を要する。<br/><br/>もちろん既成宗教の教祖、聖者、偉人くらいの力では到底及ばないどころか、空前の絶対力すなわち神力である。<br/><br/>私はその力を神から与えられたのであるから、この力を自由に駆使して科学以上の科学、宗教以上の宗教すなわちＸ（エックス）的力であり、これによって新文明を創造するので、これが地上天国の樹立である。<br/><br/></div><script>
+    function toggleLang(mode) {
+        const pt = document.getElementById('pt-content');
+        const jp = document.getElementById('jp-content');
+        const body = document.body;
+        
+        // Buttons
+        const btnPt = document.getElementById('btn-pt');
+        const btnJp = document.getElementById('btn-jp');
+        const btnCompare = document.getElementById('btn-compare');
+        
+        // Reset ALL classes first
+        btnPt.classList.remove('active');
+        btnJp.classList.remove('active');
+        btnCompare.classList.remove('active');
+        body.classList.remove('compare-mode');
+        
+        // Default Styles reset (in case they were inline changed)
+        if(pt) { pt.style.display = ''; pt.style.height = ''; pt.style.overflowY = ''; }
+        if(jp) { jp.style.display = 'none'; jp.style.height = ''; jp.style.overflowY = ''; }
+
+        if (mode === 'pt') {
+            if(pt) pt.style.display = 'block';
+            if(jp) jp.style.display = 'none';
+            btnPt.classList.add('active');
+        } 
+        else if (mode === 'jp') {
+            if(pt) pt.style.display = 'none';
+            if(jp) jp.style.display = 'block';
+            btnJp.classList.add('active');
+        }
+        else if (mode === 'compare') {
+            body.classList.add('compare-mode');
+            if(pt) {
+                pt.style.display = 'block';
+                // Inline styles for scroll are handled by CSS class but let's ensure
+            }
+            if(jp) {
+                jp.style.display = 'block';
+            }
+            btnCompare.classList.add('active');
+        }
+    }
+    </script></body>
 </html>
